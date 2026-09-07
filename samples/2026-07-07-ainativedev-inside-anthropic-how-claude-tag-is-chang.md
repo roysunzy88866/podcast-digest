@@ -126,7 +126,7 @@ Mukta 认为这真正打开了**持续学习**的大门：今天跑智能体，�
 
 - [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生]]<span class="pd-rz">同公司:Anthropic · 同概念:dreaming、工具层 (harness)、智能体 (agent)、沙箱 (sandbox)、Claude Code、可观测性 (observability)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic、Datadog · 同概念:Claude Code、Slack、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|Claude 异步智能体架构的四块基石]]<span class="pd-rz">同公司:Anthropic · 同概念:dreaming、工具层 (harness)、托管智能体 (managed agents)、沙箱 (sandbox)</span>
+- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Tag、工具层 (harness)、智能体 (agent)、记忆 (memory)</span>
 
 </div>
 <div class="pd-ex">

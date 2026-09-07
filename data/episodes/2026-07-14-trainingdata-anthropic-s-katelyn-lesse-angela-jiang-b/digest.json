@@ -1,0 +1,124 @@
+{
+  "title_zh": "Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」",
+  "tldr": "Anthropic 平台负责人 Caitlin 与 Angela 拆解 Claude 开发者平台的知识、执行、协调三层抽象，并主张下一个创新前沿是给 token 分配不同工作的「策略」。",
+  "digest_md": "这一集聊的是 Anthropic 的平台团队——既是对外的开发者 API(大家构建应用时接入 Claude 智能的那一层)，也是对内支撑 Anthropic 自家产品的基础设施。两位主角 Caitlin 和 Angela 负责这套平台，主持人称它是「世界上最重要的开发者平台之一」。团队有两个北极星：对内给自家团队最大杠杆、让他们快速发布产品；对外是「业务在哪里，我们就在哪里」——深度集成 AWS、Google 等云厂商，让任何构建者都能用 Claude 做定制软件。Angela 的一句话点出了背景判断：定制软件的「最后一公里」以前在经济上不可能，现在理论上应该非常容易实现 [02:04 Angela]。\n\n最有信息量的一个钩子是：在他们看来，**token 并不是完全可互换的**——你可以让这个 token 执行任务、让那个 token 提供建议、让另一个「做梦」(探索)，围绕这个思路组合出的东西，他们叫「策略」(strategies)。这是全集反复出现的核心概念。\n\n## 平台是一个三层蛋糕\n\n一年多前，平台基本只有一个 Messages API——无状态、一问一答 [06:14 Caitlin]。随着模型越来越擅长长时间运行、处理更多上下文，他们发现客户和自己都在反复解决同样的问题，于是开始把基础能力打包成更高阶的抽象。Angela 给出的框架是这个「蛋糕」有三层 [09:13 Angela]:\n\n- **知识层**：懂得怎么用 Claude——Messages API 的具体参数形状(体现模型设计：怎么思考、怎么尊重参数、怎么做工具调用)、标准化的工具、以及 skills 和 memory(把不同时点可注入的上下文标准化)。\n- **执行层**：让 Claude 真正干活——编辑多个系统里的文件、输出结果，这需要基础设施：有治理和安全的沙箱(隔离运行环境)、可恢复的会话存储、prompt 缓存、上下文窗口管理。这一层的具象产品是 **Claude Managed Agents**:一个通用但高性能的 harness(工具套件)，托管了这些枯燥但关键的细节。\n- **协调层**：就是上面说的「策略」——一个「元 harness」,给不同 token 分配不同工作(建议、执行、做梦、评分)，编排组合。这是路线图的方向：抽象会越来越多地从知识层走向执行层、再走向协调层。\n\n## 不执着于「跑在我的基础设施上」\n\n一个可能反直觉的开放姿态：对执行层，他们并不坚持你必须用他们的沙箱和存储。他们推出了自托管沙箱，并与 Modal、Vercel、Cloudflare 甚至 Amazon 的新微型虚拟机合作，让这些都能即插即用；还推出 MCP tunnels,让你能穿透防火墙调用自己内网的 MCP 服务器 [16:11 Caitlin]。重要的是「如何把智能体组合起来的架构」这件事上他们有强烈观点，底层跑在谁的机器上不重要。生态上他们还推动标准(skills、MCP),甚至在安全互操作上做标准制定——比如联合防范网络攻击和欺诈。Angela 的类比：AI 像电，之所以是变革性技术，是因为它能接入一切、人人可访问，而这靠的是标准和生态，不是任何一家能独自做到的。\n\n## 选垂直赛道的两个框架\n\n第一个是「展示新的形态因子」：产品不一定冲着最大市场去，而是展示「还有这种做法」。例子是 Claude Design——不搞传统的所见即所得设计系统集成，而是纯粹让 Claude 生成代码来做设计，早期实验发现它真能做到 [17:13 Angela]。很多这类内部项目「酷两周就换下一个」，甚至从不发布。第二个框架才是正经看 TAM(总可用市场)，且他们偏好 **token 密集**的领域——判断标准是：一轮结束后，你是「做完了就走」，还是「太爽了，我要做更多」？编程显然是后者，所以他们也在金融、法律这类有迭代流动的领域做垂直化(如 Claude for Financial Services),同时提供从 Messages API 到 Managed Agents 到插件的不同接入深度。Claude Tag 则是把企业内部智能体平台(如 Shopify、Square 都自建的那种)打包成一个现成产品。\n\n## Claude Tag 不是「一个 Slack 机器人」\n\n发布时有很多「不过是个 Slack 机器人」的嘲讽。Angela 的回应：在 Slack 里 @ 它只是接口，不是重点；重点是引擎盖下的上下文工程和架构，好让「Tag 就是能直接用」[23:46 Angela]。它的体验目标是「像一个同事」：你入职，它进入你的频道，主动、弄清楚了什么有用、帮你把事办成——问它怎么提交报销单就行，不用再到处找人。他们形容这是一个**组织级别的 harness**(org-level harness)。\n\n> 【背景】「org-level harness」(组织级别的 harness)这一说法借自 Andrej Karpathy(前特斯拉 AI 总监、OpenAI 创始成员)对智能体的评论。\n\n## harness 到底该做什么：删掉引导，让它跑更久\n\n关于最佳实践，Caitlin 很直白：prompt 缓存——去做，能省很多钱；保持上下文窗口干净(清掉旧工具调用、用程序化方式调用工具)；然后是 evals(评测)[27:29 Caitlin]。但她认为这些底层细节「没那么多汁可榨」，有趣的创新在更高一层：同一个 token,可以花在执行上，也可以花在反思过去的会话并把经验写进记忆、向更大的模型请教以指导小模型、或者执行后由评分器打分决定重试。\n\nAngela 补充了底层逻辑：两年前 harness 是脚手架，要砌两面墙逼模型走直线；现在模型非常「可引导」，引导直接写进 prompt 就行——**如果你的 harness 是为引导设计的，那部分可以删掉**。harness 该做的是允许模型跑得更久，比如走完 B 再走 C、F、Z 再回来汇报 [28:53 Angela]。那有没有通用 harness?他们的观点是**没有**——但通用的部分(prompt 缓存这类)不必自己持有；真正值得自己掌控的是模型与你的执行之间的**验证逻辑**，在法律、金融这种出错有后果的领域，微调这最后一点会带来巨大差异，甚至决定用户最终用谁的产品 [30:36 Angela]。至于上下文，她认为有点被过度炒作了：任何 harness 都能处理很多上下文，有独家数据当然有优势，但那不算 harness 层面的护城河 [32:10 Angela]。他们想达到的终点是：你直接告诉智能体「这是我要的结果，这是我要花的预算」，预备、开始 [33:41 Caitlin]。\n\n## 从最先进的用户身上学到的\n\n最有意思的创新发生在「上下文与连接层」：有客户在不同模型和平台上各自构建了最擅长的智能体，然后在一个智能体之上暴露 MCP server,让另一个智能体能调用它上面的工具——跨平台协作，跑通了；有医疗公司在跟连 API 都没有的老系统打交道，用 computer use(让模型操作电脑界面)做自动化；还有客户为整个后台办公搭建了自创的上下文流水线。另外，使用量的行业趋势在变：编程之外，制造业正在兴起——他们有产品经理专门飞到底特律去了解客户。\n\n## 从 token 狂飙到 token 理性化\n\n对于「token maxing 之后是 token rationalization」的说法，他们认为这是自然周期，但关键警告是：**不要停止 AI 使用**——那是错误的举动 [39:29 Angela]。很多公司的 AI 支出是通过影子 IT 爆发的，员工就是想用，不知不觉半个组织都装上了 Claude Code。正确的做法不是设一刀切的上限，而是构建按任务复杂度路由的架构：难题路由到大模型，简单任务路由到便宜模型。路由只会在 Claude 模型家族内部做——他们有一个强信念：harness 和智能体层应该针对你用的模型家族来调校，行业也正从「换个模型插进同一个 harness」往上走一层、改为插整个绑定模型家族的智能体(如 Vercel 的做法)。Caitlin 用在 Stripe 时的类比：当年他们盯着 AWS 账单，发现配置不当的后台任务狂烧 CPU,就设护栏找到它、客气地请工程师关掉——AI 成本治理也会走到这一步，但要从侧面看「同样成果能不能用更聪明的策略、更低成本达成」，而不是把创新掐死。\n\n## 接下来：把「策略」做成产品\n\n未来两个月他们在构建「让你能组合策略」的能力。Angela 给了一个具体例子：做一个 bug 猎捕智能体，通常只有两个杠杆——换更大的模型、或让它跑更久；但实验发现还有第三个杠杆，回报大得多：**best-of-n**(并行跑多个、取最好的结果)。说说容易、论文很多，但真正建成并投入生产非常难，要自建一堆自定义 harness——「我们看到这就是 alpha 所在，而且它很难」[43:38 Angela],所以他们的哲学是：回报大且难的东西，就把它做简单给你用。一年前谈的「智能体蜂群」其实就是策略的一种。同时他们也在补「基本门槛」：企业级安全合规控制、平台更模块化(想单独用记忆就用记忆)、以及给周末开发者更开放、更可折腾的体验。\n\n## 本集带走\n\n- **用「三层蛋糕」定位你该建什么**：知识(skills、memory、API 参数)→ 执行(harness + 沙箱、会话存储等托管基础设施)→ 协调(策略)。普通企业不必自己爬山，直接用高阶打包产品；AI 原生初创才需要从原语玩起。\n- **底层细节别过度打磨**：prompt 缓存、清理上下文窗口、写 evals 就是最主要的最佳实践，这层能榨的价值有限；值得自己掌控的是**验证逻辑**(尤其法律、金融)和 token 预算分配策略。\n- **删掉引导型脚手架**：模型已经足够可引导，只让 harness 做「允许它跑更久」的事，把精力放到元层——反思写记忆、大小模型协作、执行后评分重试、best-of-n。\n- **控制成本的正确姿势**：不要一刀切封顶(那会扼杀创新)，按任务复杂度路由到大小模型，事后审视「同样成果有无更省的路径」。\n- **接口会不断换，上下文工程才是护城河**：Claude Tag 表明，智能体会直接长在 Slack、WhatsApp 这些人类协作形态里，比拼的是引擎盖下的架构。",
+  "quotes": [
+    {
+      "en": "But the next one is about, okay, if tokens aren't really fungible and you need to give them different jobs, like maybe this token is advising versus this token is executing, this token is dreaming versus this token is executing, so on and so forth, you want to start composing these kind of orchestrated strategies that go together",
+      "zh": "但下一层是关于，好，如果 token 并不是真正可互换的，你需要给它们分配不同的工作，比如这个 token 负责建议、那个负责执行，这个在「做梦」、那个在执行，诸如此类，你会想开始组合这些协同配合的编排式策略",
+      "timestamp": "11:34",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "We actually aren't precious about, you should run these things on our infrastructure.",
+      "zh": "我们实际上并不执着于说，你应该在我们的基础设施上运行这些东西。",
+      "timestamp": "16:11",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "So what might be awesome for one year's worth of AI development will probably not be awesome for the next year's worth.",
+      "zh": "所以对这一年的 AI 开发来说很棒的东西，很可能对下一年的 AI 开发来说就不那么棒了。",
+      "timestamp": "17:28",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And I think where we want to get to is a point where you can literally just tell an agent, here's the outcome I want and here's the budget that I want to spend, like ready, set, go.",
+      "zh": "而且我觉得我们想要达到的境地是，你可以直接告诉一个智能体：这是我想要的结果，这是我想要花的预算，预备、各就各位、开始。",
+      "timestamp": "33:41",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:42",
+      "speaker": "Angela",
+      "en": "I think two years ago we were all like everything's chat and now everyone's like forget chat and it's just like agents and like there's gonna be another form factor, another form factor and we kind of imagine that like constantly evolving",
+      "zh": "我想两年前我们都在说一切都是聊天，现在每个人都说忘掉聊天吧，就是智能体，而且肯定还会有另一个形态、再另一个形态，我们想象它会不断演化"
+    },
+    {
+      "timestamp": "05:02",
+      "speaker": "Angela",
+      "en": "And I don't think we by any means feel like we're the only ones capable of figuring out that form factor, like not at all.",
+      "zh": "而且我们绝不觉得我们是唯一有能力搞清楚那个产品形态的人，完全不觉得。"
+    },
+    {
+      "timestamp": "11:34",
+      "speaker": "Angela",
+      "en": "But the next one is about, okay, if tokens aren't really fungible and you need to give them different jobs, like maybe this token is advising versus this token is executing, this token is dreaming versus this token is executing, so on and so forth, you want to start composing these kind of orchestrated strategies that go together",
+      "zh": "但下一层是关于，好，如果 token 并不是真正可互换的，你需要给它们分配不同的工作，比如这个 token 负责建议、那个负责执行，这个在「做梦」、那个在执行，诸如此类，你会想开始组合这些协同配合的编排式策略"
+    },
+    {
+      "timestamp": "16:11",
+      "speaker": "Caitlin",
+      "en": "We actually aren't precious about, you should run these things on our infrastructure.",
+      "zh": "我们实际上并不执着于说，你应该在我们的基础设施上运行这些东西。"
+    },
+    {
+      "timestamp": "17:28",
+      "speaker": "Angela",
+      "en": "So what might be awesome for one year's worth of AI development will probably not be awesome for the next year's worth.",
+      "zh": "所以对这一年的 AI 开发来说很棒的东西，很可能对下一年的 AI 开发来说就不那么棒了。"
+    },
+    {
+      "timestamp": "23:46",
+      "speaker": "Angela",
+      "en": "The important part is all the kind of context engineering and architecture that we put underneath the hood so that tag just works.",
+      "zh": "最重要的部分是我们在引擎盖下所做的所有上下文工程和架构，好让 Tag 就是能直接用。"
+    },
+    {
+      "timestamp": "24:45",
+      "speaker": "Angela",
+      "en": "It's like an org-level harness.",
+      "zh": "它就像一个组织级别的 harness。"
+    },
+    {
+      "timestamp": "27:04",
+      "speaker": "Caitlin",
+      "en": "And I think, honestly, like best practices are just stuff like prom caching, do it, save a lot of money and token costs.",
+      "zh": "而且我觉得，说实话，最佳实践就是像 prompt 缓存这种东西，去做，能省很多钱和 token 成本。"
+    },
+    {
+      "timestamp": "28:45",
+      "speaker": "Caitlin",
+      "en": "But I don't know that there's necessarily so much juice to squeeze in a lot of cases out of that layer as compared to a layer higher than that.",
+      "zh": "但我不知道在很多情况下，那一层是否真的还有那么多可以榨取的价值，比起比它更高一层来说。"
+    },
+    {
+      "timestamp": "29:30",
+      "speaker": "Angela",
+      "en": "So if you have harnesses that are designed to do that steering, you can delete that part.",
+      "zh": "所以如果你的 harness 是为了做那种引导而设计的，你可以把那部分删掉。"
+    },
+    {
+      "timestamp": "30:36",
+      "speaker": "Angela",
+      "en": "I don't think there's a general harness.",
+      "zh": "我不认为存在一个通用的 harness。"
+    },
+    {
+      "timestamp": "32:10",
+      "speaker": "Angela",
+      "en": "I think the context bit is actually a little like overdone.",
+      "zh": "我认为上下文这块其实有点被过度炒作了。"
+    },
+    {
+      "timestamp": "33:41",
+      "speaker": "Caitlin",
+      "en": "And I think where we want to get to is a point where you can literally just tell an agent, here's the outcome I want and here's the budget that I want to spend, like ready, set, go.",
+      "zh": "而且我觉得我们想要达到的境地是，你可以直接告诉一个智能体：这是我想要的结果，这是我想要花的预算，预备、各就各位、开始。"
+    },
+    {
+      "timestamp": "39:29",
+      "speaker": "Angela",
+      "en": "So what we try to encourage our customers is you don't want to stop the innovation.",
+      "zh": "所以我们努力鼓励客户的是，你不想阻止创新。"
+    },
+    {
+      "timestamp": "45:06",
+      "speaker": "Angela",
+      "en": "But we're seeing this is where the alpha is, and it's hard.",
+      "zh": "但我们看到，这就是 alpha 所在的地方，而且它很难。"
+    }
+  ],
+  "voice_script": "今天咱们来聊一集 Anthropic 的播客。主角是两位,一个叫 Caitlin,一个叫 Angela,她们负责的是 Claude 的开发者平台——说白了,就是外面那些公司想用 Claude 的智能来搭自己的软件时,要接入的那一层。主持人在节目里管这玩意儿叫「世界上最重要的开发者平台之一」,这话不算夸张,因为 Anthropic 自己家的产品,底层也是靠这套平台撑着的。那这一期聊什么呢?聊的是她们怎么看这个平台的结构,以及一个挺新鲜的观点:token 不是完全可互换的,你得给不同的 token 分配不同的工作。\n\n先垫一下背景。这个平台现在有两条北极星:对内,给 Anthropic 自家的团队最大的杠杆,让产品发得快;对外,就一句话——业务在哪里,我们就在哪里。所以你看它们深度集成 AWS、Google 这些云厂商,让任何构建者都能拿 Claude 来做定制软件。Angela 有一句话点出了这个判断:定制软件的「最后一公里」,以前在经济上根本不可能,现在理论上应该非常容易。这个判断,就是整集的出发点。\n\n那这个平台到底长什么样?Angela 给了一个特别好的框架,说它是个三层蛋糕。但这蛋糕不是凭空来的,得先讲讲它是怎么长出来的。一年多以前,这平台基本就一个 Messages API,就是无状态的、你问一句我答一句。后来模型越来越能干,能长时间运行、能处理更多上下文了,她们发现客户和自家团队都在反反复复解决同样的问题,于是就开始把这些基础能力打包成更高一层的抽象。这就是那三层蛋糕的由来。\n\n那三层分别是啥?最底下是知识层,就是「懂得怎么用 Claude」——API 的参数怎么填、有哪些标准化工具,还有 skills 和 memory。skills 和 memory 说白了,就是把不同时间点可以注入的上下文给标准化了。中间是执行层,让 Claude 真正去干活,比如在多个系统里改文件、输出结果。这一层需要真金白银的基础设施:带治理和安全的沙箱、可恢复的会话存储、prompt 缓存、上下文窗口管理。这一层的具象产品叫 Claude Managed Agents,一个通用的工具套件,把那些枯燥但关键的细节托管好了。而最上面那一层,就是协调层——也就是这集的核心概念「策略」。你可以理解为给 token 分工:这个 token 去执行任务,那个 token 去提供建议,还有的 token 去「做梦」、去做探索,再把这些编排组合起来。她们的方向很明确:抽象会一层层往上走,从知识层走到执行层,再走到协调层。\n\n不过说到执行层,她们有个挺反直觉的态度。你可能以为平台方肯定希望你所有东西都跑在自己家的机器上,但 Caitlin 说得很直白:我们并不执着于说,你得在我们的基础设施上运行。她们推出了自托管沙箱,还跟 Modal、Vercel、Cloudflare 这些公司合作,即插即用;还搞了个 MCP tunnels,让你能穿透防火墙去调自己内网的服务。因为在她们看来,真正重要的是「怎么把智能体组合起来」这个架构,底层跑在谁的机器上不重要。Angela 打了个比方:AI 就像电,电之所以变革性,是因为它能接入一切、人人可访问——而这靠的是标准和生态,任何一家都独自做不到。\n\n顺着这个思路,再往后走一层,就到了一个更大的问题:harness 到底该做什么?这里得先解释一下,harness 就是你包在模型外面、帮它真正干成事的那个工具套件。Angela 的观点特别有意思:两年前,harness 是脚手架,要砌两面墙逼着模型走直线;现在模型已经非常「可引导」了,引导直接写进 prompt 就行。所以她那句话值得记住——如果你的 harness 是为引导设计的,那部分可以删掉。harness 现在该做的,是允许模型跑得更久,走完 B 再走 C,再走 F、走 Z,最后回来汇报。那底层细节呢?Caitlin 的最佳实践很朴素:prompt 缓存,去做,能省很多钱;上下文窗口保持干净,旧的工具调用清掉;然后是写评测。但她也说了,这层细节「没那么多汁可榨」,真正有趣的创新在更高一层——同一个 token,可以拿去执行,也可以拿去反思过去的会话、把经验写进记忆,还可以向大模型请教来指导小模型,或者执行完让评分器打分、决定要不要重试。\n\n这个思路放到产品上,最直接的例子就是 Claude Tag。它发布的时候,外面有很多嘲讽,说「不过是个 Slack 机器人」。Angela 的回应是:在 Slack 里 @ 它只是接口,不是重点,重点是引擎盖下的上下文工程和架构。它的目标体验是「像一个同事」:你入职,它进入你的频道,主动弄清楚什么有用、帮你把事办成,问它怎么提交报销单就行,不用到处找人。她们管这个叫组织级别的 harness。\n\n成本这块,她们的观点也很实用。现在有说法讲 token 狂飙之后是 token 理性化,Angela 认为这是自然周期,但给了个关键警告:千万不要停止 AI 使用,那是错误的举动。很多公司的 AI 支出是从影子 IT 里冒出来的,员工就是想用,不知不觉半个组织都装上了 Claude Code。正确做法不是一刀切封顶,而是按任务复杂度做路由:难题给大模型,简单任务给便宜模型。Caitlin 还拿当年在 Stripe 的经历打了个比方:那时候盯着 AWS 账单,发现有配置不当的后台任务狂烧 CPU,就设护栏找到它,客气地请工程师关掉——AI 成本治理也会走到这一步,只是要看的是「同样的成果,能不能用更聪明的策略、更低的成本达成」,而不是把创新掐死。\n\n那这套思路接下来会变成什么?她们正在把「策略」做成产品。Angela 举了个例子:做一个 bug 猎捕智能体,通常你只有两个杠杆——换更大的模型,或者让它跑更久;但实验发现还有第三个杠杆,回报大得多,就是 best-of-n,并行跑很多个、取最好的结果。这事说起来容易,论文一大堆,但真正建成并投入生产非常难。所以她们的哲学是:回报大而且难的东西,就把它做简单了给你用。\n\n最后留一句 Caitlin 的话,差不多就是她们想达到的终点:你可以直接告诉一个智能体,这是我想要的结果,这是我想要花的预算,预备、各就各位、开始。"
+}

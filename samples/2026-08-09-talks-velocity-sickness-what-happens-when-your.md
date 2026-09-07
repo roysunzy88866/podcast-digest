@@ -135,9 +135,9 @@ AI 让个别工程师写得飞快，但很多团队的整体产出却陷入了�
 
 **换个口味**
 
+- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
 - [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:智能体 (agent)、上下文工程 (context engineering)</span>
-- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同概念:智能体 (agent)、上下文工程 (context engineering)</span>
 
 </div>
 </div>

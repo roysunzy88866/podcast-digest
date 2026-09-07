@@ -1,0 +1,123 @@
+===标题===
+会议笔记不是终点:Granola CEO Chris 谈 AI 时代的上下文与工作界面
+===导语===
+Granola 联合创始人、CEO Chris 与 Every 的 Dan 对谈:为什么会议笔记不是终局,上下文才是 AI 时代软件公司的真正筹码。
+===正文===
+这一集是 Every 的 CEO Dan Shipper 和 Chris 的对谈。Chris 是 Granola 的联合创始人兼 CEO——那个两三年前最早让人惊呼「这居然真的能用」的 AI 会议笔记应用,如今团队约 60 到 70 人,以约 15 亿美元的估值融过资。开场他就泼了盆冷水:创业像刀战,「我曾以为创业只是不顺利的时候难,结果发现顺利的时候也一样难」[02:30 Chris]。他的心态是:创始人永远处在自己能力边缘之外,做的事要么从没做过、要么比过去咬下的更大 [04:59 Chris]。
+
+## 「海盗」与「建筑师」:小团队怎么分角色
+
+Chris 说自己最头疼的是组织人:上一家公司 Socratic 只有 12 人,现在翻了几倍,而「怎么在人多的情况下还保持产品的一致性、连贯性和品味」是个没答案的难题。Dan 分享了 Every 的一个心智模型——尤其适合早期产品:两种角色,「海盗」的任务是尽可能快地构建、找到有价值的东西,可以是 vibe coding(用自然语言让 AI 随手把东西做出来)糊出来的,不用管架构;「建筑师」与海盗配对,负责把找到的有价值的东西变成可持续、可扩展的系统。有趣的是:每个产品只需要一个海盗,但一个建筑师可以同时照看多个产品——因为现在的工具好到「我让 Claude 或 Codex 把代码库梳理一遍,一小时就能学会,然后派 Codex 去做 24 小时的重写,我自己去干别的」[12:02 Dan]。产品成熟后,Every 再派独立设计团队「空降」进去打磨。
+
+Every 还把新功能分成阶段:先「塑形」( loosely 借鉴 Basecamp 的 Shape Up)——从「用户要雇我们完成什么任务」出发,尽快探索尽可能多的方案形态,然后对自己诚实:大家真的会用吗?再进入「验证」——对一小撮人证明你有用、他们主动选择你;成了才谈做好、做可靠、可扩展。但角色怎么定,两家都承认还在折腾:Chris 保留着设计师、PM、工程师的头衔,「总在考虑要不要砍掉」,却又担心没有角色划分会带来巨大沟通开销。「也许有一天全都会是智能体,谁知道呢。」[16:11 Chris]
+
+## 工作正在分裂成两个界面
+
+Dan 的工具栈现状:几乎所有时间都花在 Codex(OpenAI 的智能体编程工具)上。他的总体判断是,工作正在分化成两个界面 [19:05 Dan]:一个是**异步委派型工作**,发生在 Slack 里,协作、多人、有时主动——比如每天早上机器人在频道里发帖汇报解决了哪些 bug、推了哪些 PR,你 @ 它就能让它干活、起产品名,像交接给一个同事,而且是在公开频道里做,所有人看得见。另一个是**你和智能体同处一地的界面**,比如 Codex 或 Claude 桌面应用——严肃工作永远在这种界面里产出更多,「Slack 不适合这个」[20:22 Dan]。
+
+Codex 里他最看重的是应用内浏览器:智能体构建东西时打开一个浏览器窗口,你和它看着同一个页面、来回迭代。他的心智模型是:所有始于开发者的模式,最终都会渗透进所有知识型工作——「一旦智能体能构建任何软件,它做任何知识型工作都非常强」[21:40 Dan]。所以他连换网络都交给 Codex:它打开 Verizon 网站登录、跟客服聊天、算套餐划不划算、知道他不要隐藏费用,直到办妥——他只需要坐在那儿,随时切到别的线程再回来看。邮件也一样:他做了个开源实验项目 Tend,邮件变成一张张卡片,在 Codex 的应用内浏览器里读,每张卡片写着邮件说了什么、草稿建议怎么回,他直接说话确认发送。他把这类应用叫「codex 原生应用」:应用只负责保存状态和渲染 UI,你把自己的智能体带进去。他认为这是强大的范式——否则每个应用都得自己造智能体,还要和 Claude、Codex 们正面竞争。
+
+## 会议笔记不是那个终极价值
+
+面对「Notion、OpenAI、Zoom 都抄了 Granola」的提问,Chris 的回答拉得很远:我们处在一场计算革命的非常早期,「迄今出现的一切,与即将到来的相比将相形见绌」。「会议笔记不是所有人都在追逐的终极价值,有比这大得多的东西——我们用什么界面工作、在 AI 原生世界里怎么工作。人们今天争夺的东西并不重要」[06:33 Chris]。他也坦白:Granola 本来就不是第一个 AI 会议记录工具,「我不能说你们怎么敢被我们启发,这就是个生态系统」。被抄对增长率毫无影响——但「仅仅因为人们今天用我们,不代表未来还会用,如果我们在下一件事上不是最好的」[06:58 Chris]。
+
+## 扶手:预生成与「承重」的价值
+
+Chris 分享了 Granola 的一个核心设计直觉:扶手。楼梯的扶手平时隐形、你从不会注意,但绊倒的那一瞬间手会伸出去,它必须正好在那里、必须承重 [36:39 Chris]。典型例子是会前简报:你开会迟到两分钟,「等等,我在跟谁说话来着?」——那一刻它必须在场。Granola 因此预先生成了数量多到离谱的简报,其中只有一小部分真被打开,「但当你打开它的时候,你会非常感激,因为它正是你在需要的时刻所需要的东西」[34:58 Chris]。
+
+这带出一个没有答案的衡量难题:一个功能使用率低、但被用时是「承重」的,价值怎么算?Chris 说不知道怎么衡量,想过「把功能从一部分用户那里拿走,看他们喊多大声」,也想过让他们主动点击生成——但都不完美。他自认现在处在「complex 问题」(不可知、只能探测系统看反应,区别于可知的 complicated 问题)空间里,没有总体理论,只有一条条攒起来的「洞见金块」。比如他总结的一个根本设计挑战——「时间穿越问题」:智能体做事要时间,你启动任务的时刻和审阅任务的时刻是分离的,你得把全部上下文装回脑子里;他预计会有一批为此高度优化的界面出现,但坦言还没见过做得好的。再比如:聊天 UI 做一件事时出奇好用,但跨多个上下文做多件事时,正确的 UI 隐喻还不存在——「新的 UI 范式更多是被发现的,不是被发明的」[53:33 Chris]。
+
+## Granola 的策略:管好上下文,其余开放
+
+Chris 想清楚的策略分两层。开放的一层:用户在 Granola 里积累的上下文,应该尽可能开放给任何智能体——Codex 也好、你的个人智能体也好,API 和 MCP(一种让智能体接入外部工具的协议)会在接下来几个月大幅改进。他举了个用户例子:一位做销售的用户,用 Claude 在见客户前生成一个微型网站,样式模仿客户官网,再接上 Granola 的 MCP 拉取全部会议上下文填进内容——这种事 Granola 永远不该自己做。收敛的一层:在与会议相关的事情上,Granola 要「比世界上任何人都好 5 倍」[39:16 Chris],尤其当它们绑定一个你必须在会议现场用的 UI。他碰到 Hugging Face 的一位创始人,对方说自己在 Claude Code 里搭了几个月会前简报工作流,「刚把它关掉了,因为你们的更好」——Chris 说这正是想要的:「我们会对任何一个工作流,比任何个人应有的在乎程度更在乎」[43:43 Chris]。
+
+Dan 补了一个更深的判断:AI 像韧带和肌肉,软件必须成为骨骼——给 AI 形态和结构,它才能在上面灵活做事 [45:16 Dan]。转写稿远远不够:「哪个 Chris」需要消歧;「那是个好主意」这句话的语气透露的真实态度,转写稿完全捕捉不到;「XYZ 说完之后有长长的停顿、三分钟没人说话」,转写稿里看不到。还有更微妙的问题:Granola 其实能在后台生成一份关于用户的高保真画像、据此生成更好的笔记——但笔记可能写进「Dan 其实讨厌这类想法,他在另外五个会上说过五次」这种不是来自本次会议的信息,而笔记还会被分享给别人,受众是谁、解读到什么程度,都是没解开的开放问题。
+
+## token 账:先找体验,再算成本
+
+团队内部,Granola 直到 Fable(一款短命的重度推理模型,发布又很快撤下)出现才第一次追踪 token 消耗——因为有人说「我今天大概花了几千美元」。Chris 的态度是:规定「不花这么多 token 就错了」很蠢,他信任团队领会目标精神——尽可能高效、同时对用法深思熟虑。产品侧同样不抠成本:预生成几百万份简报,哪怕只有约 10% 被打开,「我们相信成本会随时间下降,而且一旦知道了最好的体验是什么,我们就可以优化成本」[56:46 Chris]。至于普通用户:每周大约一半的 Granola 用户在以「智能体的方式」使用产品——比如围绕一段时间的系列会议做多步分析——但他们自己多半不会用这个词形容。
+
+## 本集带走
+
+- **小团队配角色的新解法**:每个产品配一个「海盗」(快速探索、可以 vibe coding),一个「建筑师」可以同时管多个产品——AI 工具好到建筑师一小时就能摸清一个陌生代码库。
+- **工作分两个界面**:轻量委派放 Slack 机器人、公开频道;严肃工作放在你和智能体同屏的应用内浏览器里来回迭代。
+- **「扶手」设计观**:平时隐形、关键时刻必须承重;这类功能宁可大量预生成、接受低打开率,也要保证需要的瞬间它就在那里。
+- **软件公司的职责是当骨骼**:把上下文采集和消歧做深(哪个 Chris、语气、停顿),把灵活执行开放给用户的智能体——在自己独有的领域做到世界最好 5 倍,其余全部开放。
+- **早期别抠 token 账**:先找到杀手级 AI 原生体验,成本会随时间下降,知道最优体验后再优化。
+===金句===
+02:30 | Chris
+EN | And I thought startups were just really hard when they weren't working. Turns out they're really hard when they're working as well.
+ZH | 我曾以为创业只是在不顺利的时候特别难。结果发现,顺利的时候也一样难。
+
+04:59 | Chris
+EN | And so you're kind of always just beyond the edge of your abilities.
+ZH | 所以你几乎总是刚好超出你能力的边缘。
+
+06:17 | Chris
+EN | Meeting notes are not the end-all, be-all value that everyone's running after.
+ZH | 会议笔记并不是所有人都在追逐的那种终极价值。
+
+06:33 | Chris
+EN | And so when I think about competition, I'm just kind of like, what people are fighting for today doesn't matter.
+ZH | 所以当我想到竞争时,我就是那种,人们今天争夺的东西并不重要。
+
+06:58 | Chris
+EN | And just because people use us today doesn't mean they're going to use us for that in the future if we're not the best at that next thing.
+ZH | 仅仅因为人们今天用我们,不代表未来他们还会为这个用我们——如果我们在下一件事上不是最好的话。
+
+12:02 | Dan
+EN | And then I'll just like send off Codex to do like a 24 hour rewrite and then I'll go do something else.
+ZH | 然后我就直接派 Codex 去做一个 24 小时的重写,我自己去干别的事。
+
+19:05 | Dan
+EN | So my overall view is that work is bifurcating into two surfaces.
+ZH | 我的总体看法是,工作正在分化成两个界面。
+
+20:22 | Dan
+EN | However, for serious work, you're always going to get more out of it if you have a better collaboration service between you and the agent, and Slack is not good for that.
+ZH | 然而,对于严肃的工作,如果你和智能体之间有一个更好的协作服务,你总能从中获得更多,而 Slack 并不适合这个。
+
+21:40 | Dan
+EN | Once it can build any kind of software, it's actually really good for doing any kind of knowledge work that you want.
+ZH | 一旦它能构建任何类型的软件,它实际上就非常擅长做任何你想做的知识型工作。
+
+32:40 | Chris
+EN | Seems like one fundamental design challenge in like this agentic world is the time traveling problem.
+ZH | 在这个智能体世界里,似乎一个根本性的设计挑战就是时间穿越问题。
+
+34:58 | Chris
+EN | We regenerate a silly amount of these for a small percentage of them actually being opened in the belief that when you do open it, though, you really, really appreciate it because it's exactly what you need in the moment of need.
+ZH | 我们生成了数量多到离谱的这种简报,而其中只有很小一部分真的被打开,但我们相信,当你打开它的时候,你会非常非常感激,因为它正是你在需要的时刻所需要的东西。
+
+36:39 | Chris
+EN | It's like, basically it's like, you never notice a handrail, it's like invisible, but like that moment you trip, like your hand like shoots out and it needs to be right there and it needs to be load bearing and it makes stairs way safer.
+ZH | 就像是,你从来不会注意到扶手,它就像隐形的,但在你绊倒的那一刻,你的手就会伸出去,它需要正好在那里,它需要是承重的,而且它让楼梯安全得多。
+
+39:16 | Chris
+EN | A number of jobs to be done, pain points, use cases that we should just be 5X better than anybody else in the world at.
+ZH | 很多要完成的工作、痛点、用例,我们应该在这些方面比世界上任何其他人都好 5 倍。
+
+43:43 | Chris
+EN | You can't do this for everything, but that's exactly what I want because we're just going to care more than any individual should ever care about any one workflow is kind of how I think about it.
+ZH | 你不可能对所有事情都这样做,但这正是我想要的,因为我们将会比任何个人对自己某一个工作流应有的在乎程度还要更在乎,这大概就是我对这件事的思考方式。
+
+45:16 | Dan
+EN | So if AI, if we're using the human body as an analogy, AI is like the ligaments and the muscles, and then software has to be the bones.
+ZH | 如果我们用人体来做类比,AI 就像韧带和肌肉,而软件必须成为骨骼。
+
+46:19 | Dan
+EN | But the transcripts are A, often wrong, and B, they capture none of the nuance of how and why things were said.
+ZH | 但那些转写稿,第一,经常是错的;第二,它们完全没有捕捉到事情是怎么被说出来的、为什么被说出来的那种细微差别。
+
+53:33 | Chris
+EN | I think they're more discovered than invented, if that makes sense.
+ZH | 我认为它们更多是被发现的,而不是被发明的,如果这么说能讲得通的话。
+
+54:36 | Chris
+EN | Silly to say, if you aren't spending this many tokens, then you're doing it wrong.
+ZH | 说「如果你没有花这么多 token,那你就做错了」是很蠢的。
+
+56:46 | Chris
+EN | And our belief is both costs will go down over time and we can optimize costs once we know what the best experiences are.
+ZH | 我们的信念是,成本会随着时间下降,而且一旦我们知道了最好的体验是什么,我们就可以优化成本。
+===END===

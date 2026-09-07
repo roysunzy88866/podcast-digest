@@ -43,7 +43,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Anthropic]] · [[推理]] · [[NVIDIA]] · [[Redwood Research]] · [[ChatGPT]] · [[Hugging Face]] · [[GPU]] · [[Meter]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":95,"智能体":1,"Anthropic":107,"推理":5,"NVIDIA":30,"Redwood Research":3,"ChatGPT":52,"Hugging Face":19,"GPU":15,"Meter":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":96,"智能体":1,"Anthropic":108,"推理":5,"NVIDIA":30,"Redwood Research":3,"ChatGPT":52,"Hugging Face":19,"GPU":15,"Meter":2}</script>
 
 <script>
 (function(){

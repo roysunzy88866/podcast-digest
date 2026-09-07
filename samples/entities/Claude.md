@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>48</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>49</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -31,6 +31,7 @@ unlisted: true
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(42:26起):本集提到它在为我们编写代码,并强调了当它擅长编写安全代码时的潜力。
 - **[[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]]**(23:56起):本集说当所有人因为 GPT 5.5 更聪明而搬到 Codex 时，那些坚持用 Claude 并打磨出完美设置的人实际交付可能比迁移的人更好
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(01:49起):本集的核心主角。嘉宾完整分享了 Claude 的五层架构栈（模型、界面、知识库、集成、智能体与编排），教你如何利用整个 Claude 生态系统将日常生产力提升 10 倍。
+- **[[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|《Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」》]]**(01:28起):本集围绕其平台展开的模型产品线：Messages API、Claude Managed Agents、Claude Tag、Claude Design、Claude for Financial Services 等都是围绕 Claude 构建的产品与接入方式
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(00:20起):本集把它说成:Anthropic 的核心 AI 产品,本集大量提到它的能力提升以及「诚实无害有帮助」的训练对齐理念
 - **[[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]]**(15:01起):本集在讲述 Replit 智能体误删数据库事件时提到，当时的模型真的会变得很焦虑，特别是 Claude。
 - **[[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]]**(03:21起):本集说 Yash 用它重构 Sparkle 十五次并自动化整条 A/B 测试流水线;Claude Code 桌面版配 Fable 循环剪辑发布视频;Claude Max 订阅被称严重低估
@@ -111,7 +112,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*48 集*
+*49 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -133,6 +134,7 @@ unlisted: true
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念(提及)
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]] — 作为被讨论公司
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为被讨论公司
+- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|《Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」》]] — 作为被讨论公司
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念(提及)
 - [[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]] — 作为被讨论公司(提及)
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]] — 作为被讨论公司
@@ -166,9 +168,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[Codex]] · [[OpenAI]] · [[Google]] · [[Claude Code]] · [[vibe coding]] · [[MCP]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[Codex]] · [[OpenAI]] · [[Google]] · [[Claude Code]] · [[MCP]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":107,"ChatGPT":52,"Lenny":67,"Codex":40,"OpenAI":95,"Google":37,"Claude Code":47,"vibe coding":27,"MCP":26}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":108,"ChatGPT":52,"Lenny":67,"Codex":40,"OpenAI":96,"Google":37,"Claude Code":47,"MCP":27,"vibe coding":27}</script>
 
 <script>
 (function(){

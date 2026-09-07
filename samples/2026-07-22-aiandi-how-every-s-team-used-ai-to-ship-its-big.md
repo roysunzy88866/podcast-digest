@@ -125,7 +125,7 @@ Austin 的心法是挑一个「你最兴奋地想发消息告诉朋友『嘿我�
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、Claude、Codex、Cursor、OpenAI · 同概念:智能体 (agent)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、Claude、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|AI解数学题≠理解数学]]<span class="pd-rz">同公司:Anthropic、Claude、Codex、OpenAI</span>
+- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Anthropic、Claude · 同概念:MCP、智能体 (agent)</span>
 
 </div>
 </div>

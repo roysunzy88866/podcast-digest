@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stripe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>27</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>28</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -21,6 +21,7 @@ unlisted: true
 - **[[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|《Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等》]]**(09:31起):本集说它是 Alan 的供应商，提供基础设施；从 Alan 成立第一天起就陪伴其发展，并在这场 Stripe Tour 活动中作为主办方对谈。
 - **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]]**(21:53起):本集提到 Stripe 作为外部采用案例，用智能体编码工具做了整个代码库重写，原本需要几周或几个月的工作在几天或几小时内完成
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(28:36起):本集把它说成:Replit 在去年第四季度集成上线的支付平台,用来赋能用户对自己做的应用直接收费变现。
+- **[[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|《Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」》]]**(42:10起):Caitlin 提到自己来 Anthropic 之前在 Stripe 工作时盯着 AWS 账单、设护栏请工程师关掉狂烧 CPU 的后台任务——类比 AI 成本治理的未来
 - **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(18:51起):本集提到：Sam Altman 曾在 22 岁时作为早期投资人帮助过这家支付公司，并因此在多年后结识了日后共创 OpenAI 的 Greg Brockman。
 - **[[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]]**(23:34起):本集多次作为对比案例提及，一是将其无摩擦的极简自助结账流程作为交付最后一公里的标杆；二是讨论拥有客户分销渠道的重要性。
 - **[[2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at|《加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法》]]**(10:32起):本集把它列为在《天才法案》带来监管清晰度后，敢于大举进入稳定币等加密市场的、最具创新性的金融科技公司代表。
@@ -51,7 +52,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*27 集*
+*28 集*
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为被讨论公司(提及)
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司(提及)
@@ -63,6 +64,7 @@ unlisted: true
 - [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|《Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等》]] — 作为被讨论公司
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为被讨论公司(提及)
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司(提及)
+- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|《Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」》]] — 作为被讨论公司(提及)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为被讨论公司(提及)
 - [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]] — 作为被讨论公司(提及)
 - [[2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at|《加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法》]] — 作为被讨论公司(提及)
@@ -85,9 +87,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[Lenny]] · [[Claude Code]] · [[Cognition]] · [[Vercel]] · [[ChatGPT]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[Lenny]] · [[Vercel]] · [[Claude Code]] · [[Cognition]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":95,"Anthropic":107,"Cursor":49,"推理":5,"Lenny":67,"Claude Code":47,"Cognition":15,"Vercel":12,"ChatGPT":52}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":96,"Anthropic":108,"Cursor":49,"推理":5,"Lenny":67,"Vercel":13,"Claude Code":47,"Cognition":15,"ChatGPT":52}</script>
 
 <script>
 (function(){

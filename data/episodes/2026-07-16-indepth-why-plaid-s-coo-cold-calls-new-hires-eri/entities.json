@@ -1,0 +1,782 @@
+{
+  "episode_id": "2026-07-16-indepth-why-plaid-s-coo-cold-calls-new-hires-eri",
+  "podcast": "In Depth",
+  "date": "2026-07-16",
+  "tags": [
+    "组织与领导力",
+    "企业文化",
+    "招人用人",
+    "创始人",
+    "公司经营"
+  ],
+  "categories": [
+    "组织与领导力",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "eric-sager",
+      "type": "person",
+      "role": "host",
+      "name": "Eric Sager",
+      "file": "Eric Sager",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "plaid",
+      "type": "company",
+      "role": "company",
+      "name": "Plaid",
+      "file": "Plaid",
+      "primary": true,
+      "how_described": "本集主角公司：金融数据网络公司，嘉宾 Eric 作为 COO 在此待了七年半，历经疫情、Visa 收购告吹与 AI 浪潮，讲述其文化与组织演进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 209,
+          "t": [
+            996.083,
+            1004.33
+          ],
+          "quote": "And so here in the case of Plaid, that was mainly off, which is just kind of the account and writing numbers, what customers use to be able to kind of initially connect the bank account to then kind of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1142.322,
+            1148.305
+          ],
+          "quote": "And I think I've been blessed to have a role at Plaid where I've kind of always generally been able to kind of, you know, oversee all kind of aspects of the business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1151.687,
+            1159.632
+          ],
+          "quote": "And so I think it was much easier for me to kind of put myself then in the customer's shoes and say, well, like if I was interacting with Plaid, how would I really want this interaction to go?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1671.869,
+            1681.44
+          ],
+          "quote": "And so fundamentally, there are pockets where having a new consumer sign up for Plaid benefits all of our products and solutions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1714.018,
+            1727.803
+          ],
+          "quote": "It's very important for us to obviously have a relationship with you, but then also if you have 10 accounts that are relevant to have all 10 of those accounts ideally already connected to Plaid so that that becomes a very seamless process versus having to go through and connecting each account one at a time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1788.447,
+            1799.356
+          ],
+          "quote": "And so, you know, one of the things you see a lot of is you see even very big customers, companies implement with Plaid and scale to massive use cases without ever having to talk to anybody.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2292.471,
+            2299.373
+          ],
+          "quote": "For consumers, for our customers, for Plaid, because of the kind of the team and the infrastructure and the tools and everything else that we've built, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2299.993,
+            2306.235
+          ],
+          "quote": "And I think, like, I take great pride in the idea that I feel like if I left tomorrow, like I think Plaid will be just fine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2859.145,
+            2860.487
+          ],
+          "quote": "Like starts with Plaid.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3259.591,
+            3262.872
+          ],
+          "quote": "So like you worked for X, you're coming to join Plaid,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 806,
+          "t": [
+            3788.723,
+            3803.559
+          ],
+          "quote": "Because I think there's always something that we can do, again, in the context of Plaid, but I think in the context of any role I would take on, there's always something that we can do that's better for the consumers, better for the customers, better for the company, better for the people that put their trust in me to kind of join my team, etc.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 836,
+          "t": [
+            3905.703,
+            3912.989
+          ],
+          "quote": "And we have so many people at Plaid that have internally kind of shot through the ranks that have gone from IC roles to now running $100 million businesses.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 862,
+          "t": [
+            4014.285,
+            4018.566
+          ],
+          "quote": "And then obviously like, you know, Plaid as a whole comes first, but the bar for that is like pretty high.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 863,
+          "t": [
+            4019.086,
+            4029.988
+          ],
+          "quote": "To wrap up, at some point when you're retired or you're not at Plaid or doing something else, what is it you want the people that you worked most closely to say about you?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 881,
+          "t": [
+            4122.974,
+            4128.915
+          ],
+          "quote": "I mean, at Plaid, I've always really been lucky that I've been surrounded by people like that where like, you know, did I enjoy every single moment?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "square",
+      "type": "company",
+      "role": "company",
+      "name": "Square",
+      "file": "Square",
+      "primary": false,
+      "how_described": "Eric 曾任职的公司，他说从 Sarah 和 Jack 把 IPO 当作众多里程碑之一的沟通方式中学到很多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            93.475,
+            99.02
+          ],
+          "quote": "I think I learned a lot there from my days at Square, where that's kind of how Sarah and Jack talked about the IPL, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 822,
+          "t": [
+            3842.009,
+            3846.791
+          ],
+          "quote": "Like, I think, uh, Goku, who I worked with at Square, I think he has, he said this somewhere, like, it's like perpetual dissatisfaction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 879,
+          "t": [
+            4109.971,
+            4121.133
+          ],
+          "quote": "Like whether it's like, you know, like folks like Michael Mankins at Bain or like Francoise at Square or Eyal at BlueMine and now Zach and others at Square.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "visa",
+      "type": "company",
+      "role": "company",
+      "name": "Visa",
+      "file": "Visa",
+      "primary": false,
+      "how_described": "本集提到的并购事件方：Visa 对 Plaid 的收购最终告吹，交易团队很小、其余人专注日常业务，之后 Plaid 以更高估值融资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            19.145,
+            31.37
+          ],
+          "quote": "So you join and it feels like things are relatively ho-hum for maybe 18 months, then you have the pandemic, then you have Visa M&A, then you have fintech is dead market implosion, and then you have AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            61.003,
+            76.859
+          ],
+          "quote": "And so I think whether it's in the context of Visa or COVID or anything else, I think one of the things we've always really been very focused on is ruthlessly focusing on making sure that we're serving our customers, we're serving the ecosystem, we'll continue to move the ball forward irregardless of what happens on something like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            119.297,
+            125.102
+          ],
+          "quote": "But in the case of Visa, the team that was actively day-to-day working on the transaction was actually quite small.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到已签约 Plaid 的几百家 AI 公司之一，与 Perplexity、Replit 一同被宣布。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 319,
+          "t": [
+            1517.48,
+            1523.565
+          ],
+          "quote": "And now we've had, you know, hundreds of AI companies signing up and we just announced, you know, OpenAI, we announced Perplexity, we announced Replit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2346.803,
+            2358.746
+          ],
+          "quote": "But do you think in that case that you're trying to build an org so that if you weren't there navigating Chase or what you're doing with OpenAI or whoever, that the company would be perfectly well-off without you?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "type": "company",
+      "role": "company",
+      "name": "Perplexity",
+      "file": "Perplexity",
+      "primary": false,
+      "how_described": "本集提到已签约 Plaid 的 AI 公司之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 319,
+          "t": [
+            1517.48,
+            1523.565
+          ],
+          "quote": "And now we've had, you know, hundreds of AI companies signing up and we just announced, you know, OpenAI, we announced Perplexity, we announced Replit.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": false,
+      "how_described": "本集提到已签约 Plaid 的 AI 公司之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 319,
+          "t": [
+            1517.48,
+            1523.565
+          ],
+          "quote": "And now we've had, you know, hundreds of AI companies signing up and we just announced, you know, OpenAI, we announced Perplexity, we announced Replit.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "type": "concept",
+      "role": "concept",
+      "name": "公司文化 (culture)",
+      "file": "公司文化",
+      "primary": true,
+      "how_described": "本集主线之一：Eric 说文化不是沟通问题而是构建问题——创始人主动正式化、围绕它招人做取舍、把它纳入奖励结构，且文化最经不起与短期目标的冲突。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            180.755,
+            186.499
+          ],
+          "quote": "I think it's about just like the culture and like what you really value at the end of the day, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            197.194,
+            209.168
+          ],
+          "quote": "Versus if you build a company and a culture, like focused on actually kind of delivering for your customers, delivering for the, in our case, like the ecosystem that we're building, like I genuinely think our teams, certainly I do, believe in that, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            237.509,
+            239.99
+          ],
+          "quote": "Versus, no, this was always the culture that we were building.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            244.033,
+            249.856
+          ],
+          "quote": "They've been able to maintain that focus, to maintain that culture over kind of a very long period of time, irregardless of what happens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            258.001,
+            279.946
+          ],
+          "quote": "So if you pick that apart a little bit and you talk about sort of building the foundational culture that to the point that you're making kind of becomes that ballast through all the ups and downs of the company's life, how do you think about what it actually means to create or construct or build that, you know, the idea of being customer centric, sort of all the sort of underpinnings that sort of drive the culture?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            280.566,
+            288.431
+          ],
+          "quote": "If you pick it apart and you use sort of the least generic culture-y language, how do you actually go about doing it in your eyes?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            299.358,
+            308.163
+          ],
+          "quote": "And I think there's a lot to be said for, again, I think the founders, like Zach and others, like I think he was very deliberate about the kind of culture that he wanted to build.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            348.324,
+            358.173
+          ],
+          "quote": "Those things have to be tied not just purely to results, but to an individual's ability to enhance and further and contribute to the culture as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            358.574,
+            365.341
+          ],
+          "quote": "What have you found have been the trickiest moments around culture or when it has been the most tested in your eyes?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            365.941,
+            375.451
+          ],
+          "quote": "I think the hardest is always when there's a clear kind of conflict between the culture and some short-term goal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            375.991,
+            387.653
+          ],
+          "quote": "And so where you believe in the culture long-term, you know what's right, but in the short-term, there's a shortcut that would clearly maybe lead to better metrics or a better operational outcome, that becomes very challenging.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            426.148,
+            435.634
+          ],
+          "quote": "What about things like, you know, you have a star employee in some dimension, but they're an asshole or they violate your culture in some way, but they're really high performing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            459.044,
+            466.866
+          ],
+          "quote": "So there's a version of the world where you might be acting in what like I or our culture perceives to be like an asshole, but you're not actually doing it on purpose, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            497.296,
+            502.78
+          ],
+          "quote": "And somebody that was supposed to be an asshole two years ago suddenly is like just crushing it from a culture perspective.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 711,
+          "t": [
+            3302.929,
+            3311.115
+          ],
+          "quote": "One is what we just talked about, which is like they never really fully bought into the culture and like they didn't have the excitement for what we're trying to do.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "founder",
+      "type": "concept",
+      "role": "concept",
+      "name": "创始人 (founder)",
+      "file": "创始人",
+      "primary": true,
+      "how_described": "本集用大量篇幅讨论创始人：像爱孩子一样爱公司的不可复制之爱、从不放弃带来的韧性，以及 Zach 每天 IC 级工作的示范。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            632.506,
+            637.009
+          ],
+          "quote": "And I think again, Zach is a wonderful example of like a founder who actually does that, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2629.488,
+            2636.672
+          ],
+          "quote": "Where we have a customer that I've literally worked with for eight years where I have the relationship with the founder or the CEO and the CPO and so forth and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 728,
+          "t": [
+            3406.769,
+            3412.53
+          ],
+          "quote": "What's been your observation as the difference between a very senior exec and a founder?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 729,
+          "t": [
+            3413.11,
+            3422.512
+          ],
+          "quote": "Like not just the role, obviously, the difference between a CEO and a COO, but is it there's some moral authority that comes with being a founder that's just different?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 731,
+          "t": [
+            3428.796,
+            3435.82
+          ],
+          "quote": "Or do you think that people over rotate on sort of what it is to be a founder versus a CEO or COO?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "org-design",
+      "type": "concept",
+      "role": "concept",
+      "name": "组织设计 (org design)",
+      "file": "组织设计",
+      "primary": true,
+      "how_described": "本集主线之一：Plaid 的组织从一刀切→按规模→按行业垂直→垂直+横向专家团队的矩阵式演进，以及端到端拥有客户关系的结构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            941.151,
+            947.002
+          ],
+          "quote": "What are the different incarnations of org design and what have you landed on now and maybe kind of what are some of the things you've gotten right or wrong?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1555.139,
+            1562.064
+          ],
+          "quote": "Something you didn't talk as much about is how product and engineering fits into the org design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1577.154,
+            1582.478
+          ],
+          "quote": "What's been sort of the high level path of product and eng as it relates to sort of org design?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "go-to-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "进入市场 (go-to-market)",
+      "file": "进入市场",
+      "primary": true,
+      "how_described": "Eric 主要从 go-to-market 视角讲述组织演进：销售、客户管理、支持等职能如何随公司长大而专业化、垂直化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 198,
+          "t": [
+            947.562,
+            953.603
+          ],
+          "quote": "I mean, I'll talk about it more through kind of the go-to-market lens, although on the product lens, it's kind of evolved in similar ways, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1524.066,
+            1537.417
+          ],
+          "quote": "And so all these things I think were possible because we saw that opportunity about kind of developing maybe like 18 months ago and we were very quickly able to kind of marshal folks towards that, you know, across product, engineering, design, and go to market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1645.946,
+            1651.65
+          ],
+          "quote": "Like, I mean, I partner with them, like our teams partner with them from a sales and from a sales and marketing kind of go to market perspective.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hiring",
+      "type": "concept",
+      "role": "concept",
+      "name": "招人 (hiring)",
+      "file": "招人",
+      "primary": true,
+      "how_described": "本集复盘招错人的两条原因：没真正认同文化、被专业性迷住；并给出面试识破假热情、背景调查打给客户等方法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            609.696,
+            623.582
+          ],
+          "quote": "The focus was really always on hiring as many frontline folks as we need that are either building products, developing products, working with our customers, et cetera, or we needed the right senior leadership to bring the right subject matter expertise in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 660,
+          "t": [
+            3072.458,
+            3074.5
+          ],
+          "quote": "So I'm hiring like one person a year kind of thing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spare-capacity",
+      "type": "concept",
+      "role": "concept",
+      "name": "富余容量 (spare capacity)",
+      "file": "富余容量",
+      "primary": true,
+      "how_described": "Eric 的核心理念：永远不满负荷运转、愿意为低效率买单——正是靠富余容量才能在 18 个月前迅速调配人力抓住 AI 公司的机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 313,
+          "t": [
+            1485.555,
+            1493.762
+          ],
+          "quote": "I think the key for us has been to just kind of build the organization in a way that it's resilient enough, it's flexible enough, and it has enough spare capacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1538.017,
+            1540.378
+          ],
+          "quote": "And that was only possible because we had spare capacity, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2669.225,
+            2678.868
+          ],
+          "quote": "You know, but the reality is like, if you've built a really kick-ass team and they're doing a great job and they're on top of it, like in a role like mine, like you actually do have that spare capacity again, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2768.794,
+            2775.48
+          ],
+          "quote": "In those moments, like that spare capacity is an absolute godsend in terms of your ability to kind of react and to tackle that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "front-lines",
+      "type": "concept",
+      "role": "concept",
+      "name": "一线 (front lines)",
+      "file": "一线",
+      "primary": true,
+      "how_described": "Eric 保持业务手感的方法：不脱离一线——直接给新入职 IC 打电话、日历上几乎每天见客户或一线员工、周一领导会第一问「上周从客户那学到什么」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 620,
+          "t": [
+            2873.717,
+            2880.202
+          ],
+          "quote": "It's just like, hey, go spend time with your team, go spend time with customers, go spend time with partners, be at the front lines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 630,
+          "t": [
+            2916.577,
+            2922.983
+          ],
+          "quote": "And then you find those executives have a very hard time motivating themselves like day in and day out to be at the front lines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2965.681,
+            2968.243
+          ],
+          "quote": "And I think a lot of- But you have to be close to the front lines is the big takeaway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2986.237,
+            2999.867
+          ],
+          "quote": "And probably ideally both, but that's the way to be in a situation where like, if you looked at my calendar, you probably wouldn't find many days, if any, where I'm not directly talking to customers or directly talking to kind of somebody on the front lines of our teams.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3162.105,
+            3170.391
+          ],
+          "quote": "So back to, I want folks, right, that are gonna have the passion about what we're doing to actually want to get on the front lines themselves and be at the point of attack.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "trade-offs",
+      "type": "concept",
+      "role": "concept",
+      "name": "权衡 (trade-offs)",
+      "file": "权衡",
+      "primary": true,
+      "how_described": "本集反对「越快越好」：每个决策要在速度、风险、成本三维空间里说清在哪发力，坦诚说清权衡再执行——金融数据错 10 美分都不行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            326.43,
+            328.871
+          ],
+          "quote": "And so you have to be willing to make actual trade-offs, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            801.54,
+            812.654
+          ],
+          "quote": "And so it's about being honest upfront about the trade-offs that you're making when it comes to this specific decision, this specific project, this specific part of the business, and then executing accordingly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            856.671,
+            860.512
+          ],
+          "quote": "Or the easiest thing is figuring out the, that set of trade-offs?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -40,7 +40,7 @@ unlisted: true
 
 [[LLM]] · [[OpenAI]] · [[强化学习]] · [[持续学习]] · [[Anthropic]] · [[Barney Hussey-Yeo]] · [[Sonja]] · [[Zubin Gharemani]] · [[Elad]] · [[Sophia Du]]
 
-<script type="application/json" class="pd-epn">{"LLM":27,"OpenAI":95,"强化学习":15,"持续学习":5,"Anthropic":107,"Barney Hussey-Yeo":1,"Sonja":1,"Zubin Gharemani":1,"Elad":1,"Sophia Du":4}</script>
+<script type="application/json" class="pd-epn">{"LLM":27,"OpenAI":96,"强化学习":15,"持续学习":5,"Anthropic":108,"Barney Hussey-Yeo":1,"Sonja":1,"Zubin Gharemani":1,"Elad":1,"Sophia Du":4}</script>
 
 <script>
 (function(){

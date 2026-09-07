@@ -1,0 +1,1441 @@
+{
+  "episode_id": "2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b",
+  "podcast": "Training Data",
+  "date": "2026-07-14",
+  "tags": [
+    "智能体",
+    "AI 基础设施",
+    "上下文工程",
+    "token 经济学",
+    "开发者平台"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集主角所在公司；两位嘉宾负责构建 Anthropic 的平台——既是对外的开发者 API，也是对内支撑自家产品的基础设施，主持人称之为世界上最重要的开发者平台之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            69.084,
+            71.425
+          ],
+          "quote": "You are responsible for building Anthropic's platform.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 13,
+          "t": [
+            82.688,
+            88.109
+          ],
+          "quote": "And so maybe just to get started, can you give us the context of, you know, what is Anthropic platform and where do you sit within Anthropic?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 63,
+          "t": [
+            374.561,
+            382.087
+          ],
+          "quote": "Yeah, if you look back, so when I joined Anthropic around a year ago, the platform was basically just the Messages API.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1055.803,
+            1060.945
+          ],
+          "quote": "We tell the team just overall, like around Anthropic, everyone's always trying to be like, is this AGI pilled enough?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1493.863,
+            1500.844
+          ],
+          "quote": "But this is an opinionated take from Anthropic on how you can have this really awesome, always-on agent for your entire company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2530.059,
+            2539.063
+          ],
+          "quote": "And it's interesting, like, before working at Anthropic, I was at Stripe, and we were kind of in the very reasonable era of, like, we paid a lot of attention to our AWS bill.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集围绕其平台展开的模型产品线：Messages API、Claude Managed Agents、Claude Tag、Claude Design、Claude for Financial Services 等都是围绕 Claude 构建的产品与接入方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            88.442,
+            108.644
+          ],
+          "quote": "Yeah, so platform is both our externally facing APIs, our developer platform that people build on top of when they want to build applications and systems that access Claude's intelligence, as well as internally we run our product infrastructure and basically we're the layer that our apps build on top of internally as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            147.549,
+            159.082
+          ],
+          "quote": "Externally, we actually have a lot more complicated set of things, but one of the true norths that we have there is to be able to basically give any builder the tools to be able to work with Claude to build whatever they want to build.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            210.059,
+            220.965
+          ],
+          "quote": "So for example, like skills and MCP, those are things just like Claude needs them to be useful and we can just give them out to the rest of the ecosystem, work with everyone to help you create those things and get the best out of Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            364.008,
+            369.638
+          ],
+          "quote": "So I guess at the base level, this is just, you know, raw access to Claude, Opus, or whatever tokens.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 93,
+          "t": [
+            573.219,
+            577.303
+          ],
+          "quote": "And it's just like the ability to know how to actually do something with Claude is maybe the way I'd phrase that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            586.586,
+            596.49
+          ],
+          "quote": "For example, there's very specific shapes and parameters we put on the Messages API, and it's more like trying to expressly showcase Claude's design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            597.43,
+            606.234
+          ],
+          "quote": "Claude the model's actual design, the way it thinks, the way it respects certain parameters, the way it will do tool calls, all of those different pieces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            638.689,
+            641.511
+          ],
+          "quote": "It really is because you're now getting Claude to execute work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            662.224,
+            665.726
+          ],
+          "quote": "Today, our high-level product for that is called Claude Managed Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            817.123,
+            818.424
+          ],
+          "quote": "Some of those agents could be Claude agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            954.912,
+            970.672
+          ],
+          "quote": "Yeah, so maybe in using Angela's kind of layered cake that we talked about a little bit earlier, you'll see that on some pieces of this, like execution, for example, what we've done within something like Claude Managed Agents, and I think over time you'll see us try to make this a little bit more modular,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1105.568,
+            1109.492
+          ],
+          "quote": "Yeah, you know, like Claude design is a little bit of that way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1123.144,
+            1127.088
+          ],
+          "quote": "The first one is that like you can actually try to offload more and more and more to Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1133.07,
+            1140.993
+          ],
+          "quote": "And yes, you can still edit it and then do these kinds of things, but kind of like discourage a little of that and more just like let just talk to Claude to go figure it out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1163.591,
+            1167.454
+          ],
+          "quote": "And with like Claude Design, it was like, okay, can we try to just like...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1167.874,
+            1173.039
+          ],
+          "quote": "use code purely, have Claude generate that code, and would it do a good job?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1308.745,
+            1311.586
+          ],
+          "quote": "Or you could be someone who builds on Claude Managed Agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1321.631,
+            1324.552
+          ],
+          "quote": "When we did recently, we launched Claude for Financial Services.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1331.835,
+            1336.898
+          ],
+          "quote": "We even launched cookbooks on here's how you would use Claude Managed Agents to go and do these things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1346.205,
+            1353.291
+          ],
+          "quote": "And then sometimes we put together products that are just packaging of all of these things like Claude Tag, I think, is a really good example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1376.755,
+            1382.783
+          ],
+          "quote": "And I think Claude Tag was very much a packaging of all those same things that anybody could choose.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1391.75,
+            1393.612
+          ],
+          "quote": "What do you think people have misunderstood about Claude Tag?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1456.723,
+            1462.207
+          ],
+          "quote": "You just you literally create a channel and then you add Claude or sometimes you don't even add Claude and you're like, hey, I want to be able to do this and do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1474.476,
+            1477.418
+          ],
+          "quote": "And today now you just like go talk to Claude Tag.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1585.878,
+            1602.245
+          ],
+          "quote": "It's interesting because we've kind of talked about, you know, we launched Claude Managed Agents as this like very generic but high performing harness because we've done all the nitty gritty work that's actually like really boring and not super interesting around how do you deal with prompt caching?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1998.24,
+            2013.033
+          ],
+          "quote": "And so it's interesting with Claude Managed Agents, like the thing that we built today, we call it higher order, but it's not really like that high order in the sense that you can choose to define all of the tools that you want to bring in as custom tools with the harness, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2191.08,
+            2195.301
+          ],
+          "quote": "How can we get it so that, you know, like you can just have a spec and then Claude can then respect it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2209.828,
+            2216.591
+          ],
+          "quote": "Yeah, like a good one in that we were working with a customer who they built some agents on Claude Managed Agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2360.273,
+            2364.237
+          ],
+          "quote": "And before you know it, half your org has found some way to have installed Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2421.726,
+            2424.786
+          ],
+          "quote": "I think within the Claude space, it will make sense.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2451.907,
+            2462.655
+          ],
+          "quote": "I think the bit that we do feel really strongly about on the model routing front is like we are designing our platform for Claude and we want to make sure that Claude is great at like solving all these things.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "messages-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Messages API",
+      "file": "Messages API",
+      "primary": true,
+      "how_described": "一年多前平台的全部：无状态、一问一答的 API；其参数形状被说成体现 Claude 的模型设计（怎么思考、怎么做工具调用），至今仍是知识层的基础",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            374.561,
+            382.087
+          ],
+          "quote": "Yeah, if you look back, so when I joined Anthropic around a year ago, the platform was basically just the Messages API.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            382.547,
+            383.688
+          ],
+          "quote": "It was a Messages API.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            586.586,
+            596.49
+          ],
+          "quote": "For example, there's very specific shapes and parameters we put on the Messages API, and it's more like trying to expressly showcase Claude's design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1299.918,
+            1308.145
+          ],
+          "quote": "You could be a company that solves problems in finance, and you could build directly on the Messages API, and you can just get some tokens, and you can build everything else on top.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-managed-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Managed Agents",
+      "file": "Claude Managed Agents",
+      "primary": true,
+      "how_described": "执行层的具象产品：一个通用但高性能的 harness，托管了 prompt 缓存、会话存储、沙箱等枯燥但关键的基础设施，让智能体开箱即用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            662.224,
+            665.726
+          ],
+          "quote": "Today, our high-level product for that is called Claude Managed Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            954.912,
+            970.672
+          ],
+          "quote": "Yeah, so maybe in using Angela's kind of layered cake that we talked about a little bit earlier, you'll see that on some pieces of this, like execution, for example, what we've done within something like Claude Managed Agents, and I think over time you'll see us try to make this a little bit more modular,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1308.745,
+            1311.586
+          ],
+          "quote": "Or you could be someone who builds on Claude Managed Agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1331.835,
+            1336.898
+          ],
+          "quote": "We even launched cookbooks on here's how you would use Claude Managed Agents to go and do these things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1585.878,
+            1602.245
+          ],
+          "quote": "It's interesting because we've kind of talked about, you know, we launched Claude Managed Agents as this like very generic but high performing harness because we've done all the nitty gritty work that's actually like really boring and not super interesting around how do you deal with prompt caching?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1998.24,
+            2013.033
+          ],
+          "quote": "And so it's interesting with Claude Managed Agents, like the thing that we built today, we call it higher order, but it's not really like that high order in the sense that you can choose to define all of the tools that you want to bring in as custom tools with the harness, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2209.828,
+            2216.591
+          ],
+          "quote": "Yeah, like a good one in that we were working with a customer who they built some agents on Claude Managed Agents.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-tag",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Tag",
+      "file": "Claude Tag",
+      "primary": true,
+      "how_described": "把企业内部智能体平台打包成的现成产品，在 Slack 里 @ 它只是接口，重点是引擎盖下的上下文工程和架构；体验目标是像一位主动、能办事的同事，被引述为组织级别的 harness",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 249,
+          "t": [
+            1346.205,
+            1353.291
+          ],
+          "quote": "And then sometimes we put together products that are just packaging of all of these things like Claude Tag, I think, is a really good example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1376.755,
+            1382.783
+          ],
+          "quote": "And I think Claude Tag was very much a packaging of all those same things that anybody could choose.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1391.75,
+            1393.612
+          ],
+          "quote": "What do you think people have misunderstood about Claude Tag?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1474.476,
+            1477.418
+          ],
+          "quote": "And today now you just like go talk to Claude Tag.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "strategies",
+      "type": "concept",
+      "role": "concept",
+      "name": "策略 (strategies)",
+      "file": "策略",
+      "primary": true,
+      "how_described": "本集反复出现的核心概念：因为 token 并非完全可互换，可以给不同 token 分配不同工作（建议、执行、做梦、评分），编排组合它们的东西就是策略——协调层上的「元 harness」，也是路线图方向",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            5.773,
+            11.776
+          ],
+          "quote": "And at the coordination layer, we're beginning to think of these things called strategies, where basically it's almost like a meta-harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            24.121,
+            31.385
+          ],
+          "quote": "These kind of orchestrated strategies that go together and they should sit on top of all these things because at the end of the day you still need to execute and the execution still needs to know what to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            685.937,
+            691.16
+          ],
+          "quote": "But we're beginning to think of these things called strategies, where basically it's almost like a meta-harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            694.702,
+            714.936
+          ],
+          "quote": "But the next one is about, okay, if tokens aren't really fungible and you need to give them different jobs, like maybe this token is advising versus this token is executing, this token is dreaming versus this token is executing, so on and so forth, you want to start composing these kind of orchestrated strategies that go together and they should sit on top of all these things because at the end of the day, you still need to execute and the execution still needs to know what to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1649.15,
+            1656.78
+          ],
+          "quote": "But I think where we're starting to go, and Angela mentioned this a little bit earlier, is more of a concept of strategies or meta-harnesses.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1702.391,
+            1708.812
+          ],
+          "quote": "And I think optimizing within those strategies is something that our team is really excited about, and we're starting to do a lot of work there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1708.832,
+            1715.354
+          ],
+          "quote": "And I think a lot of other people are starting to feel really excited about this concept of strategies and the jobs you give to tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1919.705,
+            1929.351
+          ],
+          "quote": "And then I think it's going to be about like some of these kind of like higher order strategies on how well you're able to actually like allocate your token budget.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2424.946,
+            2432.388
+          ],
+          "quote": "It's actually one of the strategies we imagine designing, because the way that we're thinking a lot of these things is like, it almost feels like every month there was a new era of something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2600.862,
+            2607.747
+          ],
+          "quote": "And another is maybe to get a little bit smarter with the strategies that you put together in order to create that same outcome within a lower cost.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2618.161,
+            2623.687
+          ],
+          "quote": "Yeah, I mean, I know we said this word like 20 million times, I apologize, but we really are trying to build ways for you to compose strategies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2822.573,
+            2827.36
+          ],
+          "quote": "We've got a part of our team that's innovating on things like strategies and jobs and trying to help you maximize intelligence.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：构建能在长时间运行、无人在环的上下文中成功的智能体；平台三层蛋糕（知识、执行、协调）都是为了让人更容易构建智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 282,
+          "t": [
+            1493.863,
+            1500.844
+          ],
+          "quote": "But this is an opinionated take from Anthropic on how you can have this really awesome, always-on agent for your entire company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1545.762,
+            1554.146
+          ],
+          "quote": "It was almost like a very boring take, but it's actually, I feel like, the most forward one, because you want the agent and you want AI to basically",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1567.115,
+            1572.639
+          ],
+          "quote": "And so your team is just, you know, has such an opinionated point of view on like what it takes to build an exceptional agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1666.252,
+            1681.103
+          ],
+          "quote": "But this concept that you can take any given token and spend that token on just executing, or you could take that same token and choose to actually reflect on your past agentic sessions and write learnings to memory so that the next agent does a good job.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2021.216,
+            2029.339
+          ],
+          "quote": "And I think where we want to get to is a point where you can literally just tell an agent, here's the outcome I want and here's the budget that I want to spend, like ready, set, go.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2087.133,
+            2093.841
+          ],
+          "quote": "How can I try to generate enough permissions across each of them and then feed that all into an agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2227.758,
+            2240.769
+          ],
+          "quote": "And they kind of were like, wow, Galaxy Brain, what if I expose an MCP server on top of this agent so that I can then go and have this other agent call a tool on that agent and have these things just be more modular and be able to work together?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2481.461,
+            2489.283
+          ],
+          "quote": "And so I think there was a period where people were kind of like, yeah, cool, I can like build a harness and build an agent and then just like plug in a different model underneath.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2491.784,
+            2496.906
+          ],
+          "quote": "And I think we started to see like Vercel just did this with Harness Agent, for example, like",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2497.246,
+            2505.97
+          ],
+          "quote": "Some of these players in the space like come up a layer of abstraction and say actually like plug in the whole harness and the whole agent that's tied to a model family, which makes a lot of sense.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2645.262,
+            2659.606
+          ],
+          "quote": "So to give you something concrete, when you try to solve for, let's say you want to build an agent that's trying to do bug hunting, and you could just send one off to go and do that, and it's going to give you a certain level of return of possibility.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2671.453,
+            2675.937
+          ],
+          "quote": "And that's pretty much the only two levers that you have to try to make this bug hunting agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2720.881,
+            2723.364
+          ],
+          "quote": "It reminds me of when people were talking about agent swarms a year ago.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具套件 (harness)",
+      "file": "工具套件",
+      "primary": true,
+      "how_described": "本集大量讨论：两年前 harness 是引导模型走直线的脚手架，现在模型足够可引导、引导部分可以删掉；harness 该做的是允许模型跑更久，而通用 harness 不存在，值得自己掌控的是验证逻辑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            5.773,
+            11.776
+          ],
+          "quote": "And at the coordination layer, we're beginning to think of these things called strategies, where basically it's almost like a meta-harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            12.136,
+            14.337
+          ],
+          "quote": "The true low-level harness is designed for execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            459.504,
+            463.925
+          ],
+          "quote": "And then the second thing just being harnesses and harness engineering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            656.02,
+            662.184
+          ],
+          "quote": "And so that layer is basically, I would say, a low-level harness plus managed infrastructure as the set of abstractions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            685.937,
+            691.16
+          ],
+          "quote": "But we're beginning to think of these things called strategies, where basically it's almost like a meta-harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            691.18,
+            693.782
+          ],
+          "quote": "The true low-level harness is designed for execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1477.758,
+            1483.78
+          ],
+          "quote": "And we do a lot of the hard work on doing the context engineering, the proactivity, a lot of the harness pieces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1485.2,
+            1486.44
+          ],
+          "quote": "It's like an org-level harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1576.482,
+            1583.847
+          ],
+          "quote": "Maybe like what best practices or advice would you, would you share with people about what you need to get right on the harness and what you need to get right on the context?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1585.878,
+            1602.245
+          ],
+          "quote": "It's interesting because we've kind of talked about, you know, we launched Claude Managed Agents as this like very generic but high performing harness because we've done all the nitty gritty work that's actually like really boring and not super interesting around how do you deal with prompt caching?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1611.67,
+            1615.234
+          ],
+          "quote": "There's a lot of those sort of details on the lower level harness layer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1624.943,
+            1633.612
+          ],
+          "quote": "Obviously, like try to keep your context window clear and then putting those things together in a harness that will be performant is, you know,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1657.12,
+            1665.712
+          ],
+          "quote": "Because I do think that, yes, you can, again, make this lower-level harness, it's going to be performant, and maybe that's interesting for you to do yourself, or maybe not, and you offload it to us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1737.401,
+            1744.186
+          ],
+          "quote": "If you look like two years ago, a lot of the harness was like a scaffold to kind of like tell the model to go from point A to point B.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1789.715,
+            1795.141
+          ],
+          "quote": "But as a result of this, what the harness needs to start doing is more allow it to run longer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1813.497,
+            1827.948
+          ],
+          "quote": "In order to be able to do a lot of those things, the kinds of harnesses that you do are less the steering harness, and it's more like these kind of strategy harnesses that Caitlin's mentioning, which allows you to operate at a slightly higher level of thinking, which matches, I think, a lot of the intelligence gains that we're starting to see with the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1836.634,
+            1838.095
+          ],
+          "quote": "I don't think there's a general harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1855.967,
+            1864.358
+          ],
+          "quote": "I think when you think about very, very specific types of domains, they were going to require a couple of pieces of the harness to be customized.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1873.568,
+            1895.036
+          ],
+          "quote": "So in domains where you require an extreme level of verification, that logic of how you handle that, again, I think it sounds small, but I totally understand why some people feel like they really want to own the harness, because tweaking that last bit will give you a ton of juice, and especially domains like legal and finance, where there's a lot of consequences to not getting it perfectly correct, is really going to matter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1933.213,
+            1938.517
+          ],
+          "quote": "Like, yes, you're going to like throw in context and like that's but any harness can actually handle a lot of context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1952.215,
+            1961.041
+          ],
+          "quote": "Like you can think of a harness as literally just like a loop that's like, okay, cool, like user model, user model tool, you know, like that sort of thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1961.921,
+            1967.325
+          ],
+          "quote": "Then you could think of the harness as also all of the tools that are packaged up with the harness, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1998.24,
+            2013.033
+          ],
+          "quote": "And so it's interesting with Claude Managed Agents, like the thing that we built today, we call it higher order, but it's not really like that high order in the sense that you can choose to define all of the tools that you want to bring in as custom tools with the harness, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2481.461,
+            2489.283
+          ],
+          "quote": "And so I think there was a period where people were kind of like, yeah, cool, I can like build a harness and build an agent and then just like plug in a different model underneath.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2491.784,
+            2496.906
+          ],
+          "quote": "And I think we started to see like Vercel just did this with Harness Agent, for example, like",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2497.246,
+            2505.97
+          ],
+          "quote": "Some of these players in the space like come up a layer of abstraction and say actually like plug in the whole harness and the whole agent that's tied to a model family, which makes a lot of sense.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "本集说 Claude Tag 的重点全在引擎盖下的上下文工程和架构；最先进的用户创新也集中在「上下文与连接层」，而单纯堆上下文被认为有点被过度炒作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 266,
+          "t": [
+            1426.712,
+            1436.435
+          ],
+          "quote": "The important part is all the kind of context engineering and architecture that we put underneath the hood so that tag just works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1477.758,
+            1483.78
+          ],
+          "quote": "And we do a lot of the hard work on doing the context engineering, the proactivity, a lot of the harness pieces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1573.039,
+            1575.861
+          ],
+          "quote": "I imagine a lot of that comes down to the context engineering and the harnesses.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2068.854,
+            2075.561
+          ],
+          "quote": "That's actually one of the reasons why TAG is such a great product is there's a lot of really awesome context engineering that's happening.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-caching",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词缓存 (prompt caching)",
+      "file": "提示词缓存",
+      "primary": true,
+      "how_described": "本集点名的底层最佳实践第一名：「去做，能省很多钱和 token 成本」；但嘉宾认为这层没那么多汁可榨，创新在更高一层的策略",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            463.965,
+            475.989
+          ],
+          "quote": "There's a lot of thought and energy going into how do I do my prompt caching and how do I manage my context window as well as how do I actually just get more intelligence out of the model and how do I manage my costs and things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1585.878,
+            1602.245
+          ],
+          "quote": "It's interesting because we've kind of talked about, you know, we launched Claude Managed Agents as this like very generic but high performing harness because we've done all the nitty gritty work that's actually like really boring and not super interesting around how do you deal with prompt caching?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1971.027,
+            1980.557
+          ],
+          "quote": "The stuff that can be pretty generic and less interesting to own and deal with is what I was saying earlier is getting your prompt caching right.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "知识层的抽象之一：把不同时点可注入的上下文标准化；也被当作开放给生态系统的标准来推动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            210.059,
+            220.965
+          ],
+          "quote": "So for example, like skills and MCP, those are things just like Claude needs them to be useful and we can just give them out to the rest of the ecosystem, work with everyone to help you create those things and get the best out of Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            606.634,
+            614.877
+          ],
+          "quote": "And then we started standardizing tools, and then we started standardizing bits and pieces of context that you could put in at different moments in time, which is concretely skills and memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            835.042,
+            838.366
+          ],
+          "quote": "And that's, you know, things that you've kind of seen us deal with like skills and MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1325.953,
+            1331.815
+          ],
+          "quote": "We've got packages of skills and things like this that you could choose to use within our product, within other people's products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2015.675,
+            2016.775
+          ],
+          "quote": "You can define skills.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "知识层抽象，与 skills 并列的上下文标准化；在策略层还指把 token 花在反思过去会话、把学到的经验写入记忆",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            606.634,
+            614.877
+          ],
+          "quote": "And then we started standardizing tools, and then we started standardizing bits and pieces of context that you could put in at different moments in time, which is concretely skills and memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1666.252,
+            1681.103
+          ],
+          "quote": "But this concept that you can take any given token and spend that token on just executing, or you could take that same token and choose to actually reflect on your past agentic sessions and write learnings to memory so that the next agent does a good job.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2797.597,
+            2821.512
+          ],
+          "quote": "But really even just like making the platform more modular in the right ways, like being able to plug in different pieces of the solutions that we're building, like I want to use memory for this thing over here, right, or whatever else it is, and having a truly excellent developer experience around that because we spend a lot of time with enterprises who are like, okay, I have this like walled garden, I need to figure out exactly how I can plug these solutions in.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "被嘉宾列为三大底层最佳实践之一：你需要 evals 来确保你要完成的事情有高性能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 306,
+          "t": [
+            1638.217,
+            1640.62
+          ],
+          "quote": "And then, of course, evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1640.7,
+            1648.129
+          ],
+          "quote": "I'm surprised we got this far into this thing before one of us said the word evals, but you need evals to make sure that what you're trying to accomplish is performance.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1716.354,
+            1724.586
+          ],
+          "quote": "Because again, like yes, there's best practices on stuff like your prom caching and exactly how you clear stuff out of your context window and how you write your evals and like a lot of things like this.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集多次讨论的标准：Connectors 基于 MCP 规范构建；他们推出 MCP tunnels 让你穿透防火墙调用内网 MCP 服务器；还有客户在一个智能体之上暴露 MCP server 让另一个智能体调用，跑通了跨平台协作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            210.059,
+            220.965
+          ],
+          "quote": "So for example, like skills and MCP, those are things just like Claude needs them to be useful and we can just give them out to the rest of the ecosystem, work with everyone to help you create those things and get the best out of Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            384.488,
+            387.231
+          ],
+          "quote": "You know, we had come out with standards like MCP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            794.709,
+            796.75
+          ],
+          "quote": "Connectors, which are built on top of the MCP spec.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            835.042,
+            838.366
+          ],
+          "quote": "And that's, you know, things that you've kind of seen us deal with like skills and MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            997.16,
+            1004.348
+          ],
+          "quote": "We launched MCP tunnels so that you can call out to your MCP servers that are behind your firewall and be able to punch through there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2017.775,
+            2020.796
+          ],
+          "quote": "You can do a whole bunch of different things, MCP servers and things like this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2227.758,
+            2240.769
+          ],
+          "quote": "And they kind of were like, wow, Galaxy Brain, what if I expose an MCP server on top of this agent so that I can then go and have this other agent call a tool on that agent and have these things just be more modular and be able to work together?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机操作 (computer use)",
+      "file": "计算机操作",
+      "primary": false,
+      "how_described": "提到医疗公司在跟连 API 都没有的老系统打交道时，用 computer use（让模型操作电脑界面）做自动化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 400,
+          "t": [
+            2158.05,
+            2166.413
+          ],
+          "quote": "And so how can they use computer use and things like this to be able to start to kind of automate and create more connectivity with our systems?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "modal",
+      "type": "company",
+      "role": "company",
+      "name": "Modal",
+      "file": "Modal",
+      "primary": false,
+      "how_described": "提到在执行层不执着于自家基础设施，与 Modal 等合作提供自托管沙箱的一流接入选项",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            980.876,
+            995.76
+          ],
+          "quote": "For example, we launched self-hosted sandboxes, and we partnered with Modal, and Vercel, and Cloudflare, and a bunch of other folks, even Amazon's new micro VMs, to have a first-class offering where you can go plug any of those things in.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": false,
+      "how_described": "两次提及：一是沙箱合作伙伴；二是作为行业趋势的例子——Vercel 插入整个绑定模型家族的智能体，说明行业正从「换模型插同一 harness」往上走一层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            980.876,
+            995.76
+          ],
+          "quote": "For example, we launched self-hosted sandboxes, and we partnered with Modal, and Vercel, and Cloudflare, and a bunch of other folks, even Amazon's new micro VMs, to have a first-class offering where you can go plug any of those things in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2491.784,
+            2496.906
+          ],
+          "quote": "And I think we started to see like Vercel just did this with Harness Agent, for example, like",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "Caitlin 提到自己来 Anthropic 之前在 Stripe 工作时盯着 AWS 账单、设护栏请工程师关掉狂烧 CPU 的后台任务——类比 AI 成本治理的未来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 471,
+          "t": [
+            2530.059,
+            2539.063
+          ],
+          "quote": "And it's interesting, like, before working at Anthropic, I was at Stripe, and we were kind of in the very reasonable era of, like, we paid a lot of attention to our AWS bill.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "sandbox",
+      "reason": "专名「sandbox」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "best-of-n",
+      "reason": "专名「best-of-n」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

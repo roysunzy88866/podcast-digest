@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Lovable":14,"智能体":1,"vibe coding":27,"清晰度":1,"token":15,"沙箱":36,"品味":8,"Codex":40,"Claude":48}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Lovable":14,"智能体":1,"vibe coding":27,"清晰度":1,"token":15,"沙箱":36,"品味":8,"Codex":40,"Claude":49}</script>
 
 <script>
 (function(){

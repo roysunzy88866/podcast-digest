@@ -40,7 +40,7 @@ unlisted: true
 
 [[Codex]] · [[智能体]] · [[Intercom]] · [[Ryan Carson]] · [[ChatPRD]] · [[Devon]] · [[Vercel]] · [[Cognition]] · [[Eve]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Codex":40,"智能体":1,"Intercom":5,"Ryan Carson":1,"ChatPRD":5,"Devon":3,"Vercel":12,"Cognition":15,"Eve":1,"Claude Code":47}</script>
+<script type="application/json" class="pd-epn">{"Codex":40,"智能体":1,"Intercom":5,"Ryan Carson":1,"ChatPRD":5,"Devon":3,"Vercel":13,"Cognition":15,"Eve":1,"Claude Code":47}</script>
 
 <script>
 (function(){

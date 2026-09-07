@@ -53,7 +53,7 @@ unlisted: true
 
 [[Cursor]] · [[Amazon]] · [[Gavin Baker]] · [[Will Gabrick]] · [[Grant LaFontaine]] · [[NVIDIA]] · [[Stripe]] · [[Whatnot]] · [[Google]] · [[Stripe Minions]]
 
-<script type="application/json" class="pd-epn">{"Cursor":49,"Amazon":11,"Gavin Baker":1,"Will Gabrick":1,"Grant LaFontaine":1,"NVIDIA":30,"Stripe":27,"Whatnot":3,"Google":37,"Stripe Minions":1}</script>
+<script type="application/json" class="pd-epn">{"Cursor":49,"Amazon":11,"Gavin Baker":1,"Will Gabrick":1,"Grant LaFontaine":1,"NVIDIA":30,"Stripe":28,"Whatnot":3,"Google":37,"Stripe Minions":1}</script>
 
 <script>
 (function(){

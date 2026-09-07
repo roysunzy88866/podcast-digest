@@ -33,7 +33,7 @@ unlisted: true
 
 [[OpenAI]] · [[GPU]] · [[Microsoft]] · [[Gavin Baker]] · [[Sachin Katti]] · [[David George]] · [[Matt Turk]] · [[NVIDIA]] · [[数据中心]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":95,"GPU":15,"Microsoft":24,"Gavin Baker":1,"Sachin Katti":1,"David George":3,"Matt Turk":3,"NVIDIA":30,"数据中心":3,"Google":37}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":96,"GPU":15,"Microsoft":24,"Gavin Baker":1,"Sachin Katti":1,"David George":3,"Matt Turk":3,"NVIDIA":30,"数据中心":3,"Google":37}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Harry Stebbings]] · [[Cliff Weitzman]] · [[Eleven Labs]] · [[Sierra]] · [[NVIDIA]] · [[Dell]] · [[Anthropic]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":14,"Cliff Weitzman":1,"Eleven Labs":5,"Sierra":5,"NVIDIA":30,"Dell":1,"Anthropic":107,"OpenAI":95,"Claude Code":47,"Cursor":49}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":14,"Cliff Weitzman":1,"Eleven Labs":5,"Sierra":5,"NVIDIA":30,"Dell":1,"Anthropic":108,"OpenAI":96,"Claude Code":47,"Cursor":49}</script>
 
 <script>
 (function(){

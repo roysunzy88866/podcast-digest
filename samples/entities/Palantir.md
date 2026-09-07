@@ -47,7 +47,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Meta]] · [[后训练]] · [[前向部署工程师]] · [[Microsoft]] · [[主观能动性]] · [[ChatGPT]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":107,"智能体":1,"OpenAI":95,"Meta":29,"后训练":1,"前向部署工程师":7,"Microsoft":24,"主观能动性":17,"ChatGPT":52,"Stripe":27}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":108,"智能体":1,"OpenAI":96,"Meta":29,"后训练":1,"前向部署工程师":7,"Microsoft":24,"主观能动性":17,"ChatGPT":52,"Stripe":28}</script>
 
 <script>
 (function(){

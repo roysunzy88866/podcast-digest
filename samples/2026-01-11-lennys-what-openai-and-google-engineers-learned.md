@@ -147,8 +147,8 @@ jsonLd: |
 **顺着「智能体」挖下去**
 
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:evals、主观能动性 (agency)、智能体 (agent)</span>
+- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Claude · 同概念:evals、智能体 (agent)</span>
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:evals、智能体 (agent)</span>
-- [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同概念:evals、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

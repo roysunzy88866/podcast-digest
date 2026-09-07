@@ -24,7 +24,7 @@ unlisted: true
 
 [[OpenAI]] · [[GPU]] · [[Ruby Thelot]] · [[Martin Casado]] · [[Julie Yoo]] · [[Lucas Kaiser]] · [[Sophia Puccini]] · [[Theo Jaffe]] · [[a16z]] · [[transformer]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":95,"GPU":15,"Ruby Thelot":1,"Martin Casado":4,"Julie Yoo":1,"Lucas Kaiser":1,"Sophia Puccini":1,"Theo Jaffe":6,"a16z":11,"transformer":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":96,"GPU":15,"Ruby Thelot":1,"Martin Casado":4,"Julie Yoo":1,"Lucas Kaiser":1,"Sophia Puccini":1,"Theo Jaffe":6,"a16z":11,"transformer":5}</script>
 
 <script>
 (function(){

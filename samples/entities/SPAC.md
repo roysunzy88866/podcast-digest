@@ -25,7 +25,7 @@ unlisted: true
 
 [[Chamath]] · [[Dan]] · [[OpenAI]] · [[Anthropic]] · [[NVIDIA]] · [[闭源模型]] · [[开放权重模型]] · [[分布式计算]] · [[末日论]] · [[KYC]]
 
-<script type="application/json" class="pd-epn">{"Chamath":1,"Dan":1,"OpenAI":95,"Anthropic":107,"NVIDIA":30,"闭源模型":1,"开放权重模型":9,"分布式计算":1,"末日论":1,"KYC":1}</script>
+<script type="application/json" class="pd-epn">{"Chamath":1,"Dan":1,"OpenAI":96,"Anthropic":108,"NVIDIA":30,"闭源模型":1,"开放权重模型":9,"分布式计算":1,"末日论":1,"KYC":1}</script>
 
 <script>
 (function(){

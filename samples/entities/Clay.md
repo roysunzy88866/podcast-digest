@@ -27,7 +27,7 @@ unlisted: true
 
 [[Salesforce]] · [[智能体]] · [[Brian Halligan]] · [[Harry Stebbings]] · [[Lenny]] · [[NVIDIA]] · [[HubSpot]] · [[Hugging Face]] · [[Sequoia]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Salesforce":14,"智能体":1,"Brian Halligan":1,"Harry Stebbings":14,"Lenny":67,"NVIDIA":30,"HubSpot":4,"Hugging Face":19,"Sequoia":4,"OpenAI":95}</script>
+<script type="application/json" class="pd-epn">{"Salesforce":14,"智能体":1,"Brian Halligan":1,"Harry Stebbings":14,"Lenny":67,"NVIDIA":30,"HubSpot":4,"Hugging Face":19,"Sequoia":4,"OpenAI":96}</script>
 
 <script>
 (function(){
