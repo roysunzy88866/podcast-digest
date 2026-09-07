@@ -1,0 +1,762 @@
+[
+ {
+  "seg": 0,
+  "start": 0,
+  "end": 19,
+  "speaker": "Aaron Schumm",
+  "en": "You know, we were a few years into that business. Our employees wanted their own 401(k) program, so I was like, okay. So one of our sales guys had a buddy who is an advisor that sold 401(k) plans and he gave us a plan. And I was like, this is horrible. How can it be this hard, this clunky, this expensive and that's really when the light bulb went off. Like, hey, there's a problem to go solve here.",
+  "zh": "你知道,我们在那项业务上已经做了几年。我们的员工想要自己的 401(k) 计划,所以我就像,好吧。我们一个销售的家伙有个朋友,是个卖 401(k) 计划的顾问,他给了我们一个计划。然后我就觉得,这太糟糕了。怎么会这么难、这么笨重、这么贵,那 really 就是灯泡亮起的时刻。就像,嘿,这里有个可以去解决的问题。"
+ },
+ {
+  "seg": 1,
+  "start": 19,
+  "end": 21,
+  "speaker": "Pablo Srugo",
+  "en": "Where was the business at when you raised that A?",
+  "zh": "你融 A 轮的时候业务处于什么状态?"
+ },
+ {
+  "seg": 2,
+  "start": 21,
+  "end": 53,
+  "speaker": "Aaron Schumm",
+  "en": "Oh God, it was probably a couple hundred thousand dollars in revenue but even at the end of '18. I mean, we probably had maximum, half a million dollars in ARR and now we do that stuff like in a day. When you're bringing in several billion dollars a year of revenue, it will just continue to grow, right? It is one of those businesses that if the businesses stayed stagnant, we brought on no new business. It still grows because you still have people getting paid. You still have contributions coming in. You still have assets accumulating, right? And it just kind of continues to ride up.",
+  "zh": "哦天哪,那时候大概只有几十万美元的收入,甚至到 '18 年底。我的意思是,我们最多大概也就五十万美元的 ARR,而现在我们一天就能做到这些。当你每年带来几十亿美元的收入时,它就会继续增长,对吧?它是那种如果业务停滞、我们没有带来任何新业务,它仍然会增长的业务,因为仍然有人在被支付。仍然有缴款进来。仍然有资产在积累,对吧?它就这样继续往上走。"
+ },
+ {
+  "seg": 3,
+  "start": 53,
+  "end": 66,
+  "speaker": "Previous Guests",
+  "en": "That's Product Market Fit. Product Market Fit. Product Market Fit. I called it the Product Market Fit question. Product Market Fit. Product Market Fit. Product Market Fit. Product Market Fit. I mean, the name of the show is Product Market Fit.",
+  "zh": "这就是 Product Market Fit。Product Market Fit。Product Market Fit。我把它叫做 Product Market Fit 问题。Product Market Fit。Product Market Fit。Product Market Fit。Product Market Fit。我是说,这个节目的名字就叫 Product Market Fit。"
+ },
+ {
+  "seg": 4,
+  "start": 66,
+  "end": 83,
+  "speaker": "Pablo Srugo",
+  "en": "Do you think the Product Market Fit Show, has product market fit? Because if you do, then there's something you just have to do. You have to take out your phone. You have to leave the show five stars. It lets us reach more founders and it lets us get better guests, thank you. Aaron, welcome to the show, man.",
+  "zh": "你觉得 Product Market Fit Show 有 product market fit 吗?因为如果你觉得有,那有些事你就必须去做。你必须拿出你的手机。你必须给这个节目打五星。这能让我们触达更多创始人,也能让我们请到更好的嘉宾,谢谢。Aaron,欢迎来到节目,兄弟。"
+ },
+ {
+  "seg": 5,
+  "start": 83,
+  "end": 85,
+  "speaker": "Aaron Schumm",
+  "en": "Thank you, thank you for having me. I appreciate it.",
+  "zh": "谢谢,谢谢你邀请我。我很感激。"
+ },
+ {
+  "seg": 6,
+  "start": 85,
+  "end": 125,
+  "speaker": "Pablo Srugo",
+  "en": "So you've built Vestwell into a pretty big company, $2 billion latest valuation. Just raised it $385 million round, over $200 million in ARR and the simplest way I can describe what you're doing is you sell software to financial institutions, to advisors that help businesses run their savings plan. Like the 401(k)s and those sort of things, where I'm sure you do a lot more. We're going to talk about all of that. But let's start at the place that really matters to us, which is the product market fit moment. You told me it took you a few years for you to feel like you found true product market fit. It was probably 2020, 2021. Take us to that time, tell us what happened then that made you feel like you're really onto something. You really kind of had the thing.",
+  "zh": "所以你把 Vestwell 打造成了一家相当大的公司,最新估值 20 亿美元。刚融了 3.85 亿美元的一轮,ARR 超过 2 亿美元,我能描述你在做的事的最简单方式是:你把软件卖给金融机构、卖给顾问,帮助他们运行业务的储蓄计划。像 401(k) 之类的东西,我确定你做的远不止这些。我们会聊所有这些。但让我们从对我们真正重要的地方开始,那就是 product market fit 时刻。你告诉我你花了几年时间才感觉自己找到了真正的 product market fit。大概是 2020 年、2021 年。带我们回到那个时间,告诉我们那时发生了什么让你觉得你真的发现了点什么。你真的算是有那个东西了。"
+ },
+ {
+  "seg": 7,
+  "start": 125,
+  "end": 216,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, sure. Our business, it's retirement, it's savings, it's college savings, disability, emergency, you know, all the tax preferred things you need for life, right? So to get your education, retirement and healthcare needs. But it's a very complicated industry. Complicated business, it's been around fifty plus years from an industry standard and, you can't just show up and have this thing that just flies off the shelf. So it takes a while to kind of entrench yourselves into some of these players and our go to market. As you mentioned, is through channel partners. So we go to market through financial institutions, we go to market through payroll HCM providers, and we go to market through government sponsored programs, out to individuals and businesses across the country. You know, we started the business, it was kind of like, let's test it with a few financial firms, advisors, RAs, and get the wheels going. But it really wasn't until about 2020, 2021, during COVID. Where we were able to ink a deal with Morgan Stanley to help be a core component of Morgan Stanley at work, and power their financial advisors and all of their businesses that they were supporting through Morgan Stanley onto the platform. That was really kind of a point in time where the market realized, oh, wow, these guys,  from a Vestwell standpoint, as well as a Morgan Stanley standpoint, are really thinking about the future of where workplace savings goes and how this becomes kind of a catalyst for the wealth savings that people are going to have over the course of their career.",
+  "zh": "是的,当然。我们的业务,是退休,是储蓄,是大学储蓄,是残障,是应急,你知道,是生活中所有你需要税收优惠的东西,对吧?为了满足你的教育、退休和医疗需求。但这是个非常复杂的行业。复杂的生意,作为行业标准已经存在了五十多年,而且你不能只是出现然后有个东西就能飞快卖掉。所以要花一段时间才能把自己渗透进这些参与者中,而我们的 go to market,正如你提到的,是通过渠道合作伙伴。所以我们通过金融机构 go to market,我们通过薪资 HCM 提供商 go to market,我们通过政府资助的项目 go to market,触达全国的个人和企业。你知道,我们创立这门生意时,大概就像,先和几家金融公司、顾问、RA 测试一下,让轮子转起来。但真的直到大概 2020 年、2021 年,在 COVID 期间。我们才能够和 Morgan Stanley 签下一笔协议,成为 Morgan Stanley at Work 的一个核心组件,并把他们的财务顾问以及他们通过 Morgan Stanley 支持的所有业务都接入平台。那真的是一个时间点,市场意识到,哦,哇,这些家伙,从 Vestwell 的角度,以及从 Morgan Stanley 的角度,是真的在思考职场储蓄的未来走向,以及这如何成为人们职业生涯中所将拥有的财富储蓄的一种催化剂。"
+ },
+ {
+  "seg": 8,
+  "start": 216,
+  "end": 233,
+  "speaker": "Pablo Srugo",
+  "en": "So obviously Morgan Stanley is a massive brand, but give me a sense of what that meant for Vestwell as a business. What, was that a certain committed dollar ARR? Was that commitment to introduce you to so many businesses? What did you think in your head when you're like, okay, we've signed this. This means it's going to lead to what exactly?",
+  "zh": "所以显然 Morgan Stanley 是个巨大的品牌,但给我讲讲那对 Vestwell 作为一门生意意味着什么。是某个承诺的美元 ARR 吗?还是承诺把你介绍给这么多企业?当你脑子里想,好吧,我们签了这个。这到底意味着它会带来什么?"
+ },
+ {
+  "seg": 9,
+  "start": 233,
+  "end": 291,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, so what we do typically is we'll do large, they're long term, you know, five to ten year contracts and there's a minimum commitment to that, right? And ultimately, it's no money out of the pocket of our partners. Because we set the bar at a very attainable level where they're just bringing the business onto the platform. But it gives us some assurance of the business is going to show up and we're going to manage and hire, and staff according to what the plan looks like. So it gave us a lot of kind of stability and visibility into the future of saying, OK, if we do this, we do this well, everyone's happy. This thing's going to continue to accrete and grow the business across all of their advisor networks. So that, you know, when we signed that it was a multi year deal with, multi million dollar minimum commitments year of year that continue to grow and we've just. Since then, we've just continued to expand our partnerships across Morgan Stanley and they're one of our best, and greatest partners that we have out there.",
+  "zh": "是的,我们通常做的是我们会做大的,它们是长期的,你知道,五到十年的合同,而且有最低承诺,对吧?最终,这不需要我们的合作伙伴掏钱。因为我们把门槛设在了一个非常可达成的水平,他们只是把业务带到平台上。但它给了我们一些保障,业务会出现,我们会根据计划的模样来管理、招聘和配置人员。所以它给了我们很多稳定性和对未来的可见性,让我们能说,好,如果我们做这个,我们把它做好,大家都开心。这个东西会继续在他们的所有顾问网络中积累和增长业务。所以,当我们签下那个的时候,那是一个多年协议,每年都有数百万美元的最低承诺,持续增长,而我们只是。从那时起,我们只是继续扩展我们在 Morgan Stanley 的合作伙伴关系,他们是我们在外面拥有的最好、最棒的合作伙伴之一。"
+ },
+ {
+  "seg": 10,
+  "start": 291,
+  "end": 297,
+  "speaker": "Pablo Srugo",
+  "en": "So, multiple questions on this. The next one is, what is the business model with Morgan Stanley and Aegis in general?",
+  "zh": "所以,关于这个有多个问题。下一个是,和 Morgan Stanley 以及总体上和 Aegis 的商业模式是什么?"
+ },
+ {
+  "seg": 11,
+  "start": 297,
+  "end": 340,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, so the business model is really, we get paid off a per employer per month fee and a per saver per month fee. Typically a flat fee, something like a PEPM. Sometimes there's a basis point component depending, we're trying to over index on basis points and look like an asset manager or an advisory shop but sometimes we will do that depending on the services we're providing. So that's basically, those fees are borne by the employer and the savers on the platform. And then, Morgan Stanley really is just committing to continue to bring volume. They're not, or they're our enterprise partners. They're not necessarily going to write a check into us unless they miss the threshold of where we contractually agreed to.",
+  "zh": "是的,商业模式真的是,我们按每个雇主每月的费用和每个储户每月的费用收费。通常是固定费用,像 PEPM 之类。有时有一个基点成分,视情况而定,我们试图过度侧重基点,看起来像资产管理公司或咨询机构,但有时我们会这么做,取决于我们提供的服务。所以基本上,这些费用由平台上的雇主和储户承担。然后,Morgan Stanley 真的只是承诺继续带来业务量。他们不,或者说他们是我们的企业合作伙伴。他们不一定要给我们开支票,除非他们错过了我们合同约定的门槛。"
+ },
+ {
+  "seg": 12,
+  "start": 340,
+  "end": 350,
+  "speaker": "Pablo Srugo",
+  "en": "So we had Judi Health on the podcast recently and they talk about number of lives, right? Because they're a health benefits platform. So you're similar as kind of number of savers on the platform. That's kind of the big KPI you're trying to go after.",
+  "zh": "所以我们最近请了 Judi Health 上播客,他们谈的是覆盖人数,对吧?因为他们是一个健康福利平台。所以你类似,是平台上储户的数量。那是你们试图追求的大 KPI。"
+ },
+ {
+  "seg": 13,
+  "start": 350,
+  "end": 359,
+  "speaker": "Aaron Schumm",
+  "en": "Right, so we have over two and a half million people actively saving. Meaning they have dollars on the platform. They're in there and accruing some growth out of those.",
+  "zh": "对,我们有超过两百五十万人在积极储蓄。意思是他们在平台上有钱。他们在里面,并从中获得一些增长。"
+ },
+ {
+  "seg": 14,
+  "start": 359,
+  "end": 374,
+  "speaker": "Pablo Srugo",
+  "en": "And tell me a bit more, like with Morgan Stanley or a big partner like that. What is it that they don't have that you have, that you bring to the table? Because the assumption would be like Morgan Stanley, they're going to build all this stuff. They're going to have some product like this in house, right? So what do they need you for?",
+  "zh": "再多讲一点,像和 Morgan Stanley 或者那样的大合作伙伴。他们没有的、而你有并摆上台面的是什么?因为假设会是,像 Morgan Stanley,他们会自己构建所有这些东西。他们会有一些这样的产品在内部,对吧?所以他们需要你什么?"
+ },
+ {
+  "seg": 15,
+  "start": 374,
+  "end": 491,
+  "speaker": "Aaron Schumm",
+  "en": "So they typically have something in house on the wealth side. The retirement side, specifically retirement, and there's other savings programs too. It's very complex when you get to the sub accounting and the record keeping. So traditionally what firms do is they have one of two models. Model one would be they go rent a piece of software from a legacy provider, which would be like an FIS or an SS&C. They go hire a bunch of people, you know, a couple hundred people to support the business and then they hope that you have some offering that they can accrue beyond the headcount operational overhead as well as software license fees. So that's kind of, that's model number one. Model number two is you don't rent any software and you just put a bunch of providers on the shelf. So you go out there and you have, maybe a Fidelity and a Empower, you know, pick a name, right? That's out there in insurance brand, nationwide and they put a bunch of these on the shelf. And then they say, hey, if it's an advisor sold solution, here's what you're permitted to go sell, right? And they frame it or box it in some capacity. The model we took was a bit different and said, listen, why would a large global brand be putting their business with a core competitor that's really just trying to siphon that business away from that brand, be it a Morgan Stanley or whoever it is. You know, our approach was like, hey, you should have the most modern, elegant experience possible. It should be low cost and it should be yours. It shouldn't be, you know, trying to compete with someone else that you're putting on the shelf.  Because you can't operationalize it yourself. So we said, hey, listen, we'll put you in the market. It's your product, it's your brand, it's your advisors. It's, you know, your asset management if you want it and we'll do it all front to back, and you have zero overhead to do it. And that kind of really flipped the tables with how we were able to engage and got people to say, oh, I can do this myself. Yet I don't have to go hire, you know, an army of people and go rent legacy software, and try to grow a business out of it.",
+  "zh": "所以他们通常在财富端有内部的东西。退休端,特别是退休,还有其他储蓄项目。当你涉及子账务和账务记录时,这非常复杂。传统上这些公司做的是,他们有两种模式之一。模式一是他们从一个传统提供商那里租一块软件,像 FIS 或 SS&C 之类的。他们去雇一堆人,你知道,几百人来支持这门业务,然后他们希望你有一些产品,能让他们积累超出人力运营开销以及软件许可费的东西。所以那就是,那是模式一。模式二是你不租任何软件,你只是把一堆提供商放在货架上。所以你出去,你有,也许是 Fidelity 和 Empower,你知道,挑个名字,对吧?外面保险品牌里的,nationwide,他们把一堆这样的放在货架上。然后他们说,嘿,如果这是一个顾问销售的产品,这是你被允许去卖的,对吧?然后他们以某种方式框定或框住它。我们采取的模式有点不同,说,听着,为什么一个大型全球品牌要把他们的业务交给一个核心竞争对手,而那个对手真的只是试图从那个品牌吸走业务,无论是 Morgan Stanley 还是谁。你知道,我们的方法是,嘿,你应该拥有最现代、最优雅的体验。它应该是低成本的,而且它应该是你的。它不应该是,你知道,试图和你放在货架上的其他人竞争。因为你自己无法把它运营起来。所以我们说,嘿,听着,我们会把你推向市场。它是你的产品,是你的品牌,是你的顾问。它是,你知道,你的资产管理,如果你想要的话,我们会从头到尾全部做完,而你零开销。这真的翻转了桌子,让我们能够这样接洽,并让人们说,哦,我可以自己做这个。但我不用去雇,你知道,一支军队的人,去租传统软件,并试图从中发展出一门生意。"
+ },
+ {
+  "seg": 16,
+  "start": 491,
+  "end": 494,
+  "speaker": "Pablo Srugo",
+  "en": "So this is the white label software only strategy.",
+  "zh": "所以这就是贴牌纯软件策略。"
+ },
+ {
+  "seg": 17,
+  "start": 494,
+  "end": 496,
+  "speaker": "Aaron Schumm",
+  "en": "Yes! Yeah, that's a key piece to it.",
+  "zh": "是的!对,那是其中的关键一环。"
+ },
+ {
+  "seg": 18,
+  "start": 496,
+  "end": 512,
+  "speaker": "Pablo Srugo",
+  "en": "So now that we have this kind of, that's the, maybe not the end state. Certainly for you, but for us product market fit. That's the end moment, let's say, of product market fit. Let's go backwards, you started this in 2016. Tell me a little bit more about your background. What were you doing in, let's say the 2010s, or so that led you to start this business?",
+  "zh": "所以现在我们有了这种,那就是,也许不是终局。对你来说肯定不是,但对我们来说是 product market fit。那是 product market fit 的终点时刻,可以这么说。让我们倒回去,你 2016 年创办了这家公司。多讲一点你的背景。你在大约 2010 年代在做什么,让你走向创办这门生意?"
+ },
+ {
+  "seg": 19,
+  "start": 512,
+  "end": 537,
+  "speaker": "Aaron Schumm",
+  "en": "Yes, so I have been in the financial technology world since before like FinTech, quote unquote, was a thing. Which dates me quite a bit but most relevantly, I co founded a business before this called Foliar Dynamics that got acquired by Envestnet. It used to be a public company, now it got taken private by Bain. But we were out there basically, I ran product development, I ran sales and strategy for that organization.",
+  "zh": "是的,我在金融科技领域已经很久了,早在 FinTech 加引号成为一个概念之前。这暴露了我的年纪,但最相关的是,在这之前我联合创办了一家公司叫 Foliar Dynamics,被 Envestnet 收购了。它曾经是上市公司,后来被 Bain 私有化了。我们在外面,基本上,我负责那个组织的产品开发,我负责销售和战略。"
+ },
+ {
+  "seg": 20,
+  "start": 537,
+  "end": 539,
+  "speaker": "Pablo Srugo",
+  "en": "And this is what year, by the way?",
+  "zh": "顺便问一下,那是哪一年?"
+ },
+ {
+  "seg": 21,
+  "start": 539,
+  "end": 543,
+  "speaker": "Aaron Schumm",
+  "en": "This, we started this in October of '07.",
+  "zh": "这个,我们是 '07 年十月创办的。"
+ },
+ {
+  "seg": 22,
+  "start": 543,
+  "end": 544,
+  "speaker": "Pablo Srugo",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 23,
+  "start": 544,
+  "end": 552,
+  "speaker": "Aaron Schumm",
+  "en": "Horrible time to start, cause then we're raising our first round of capital in the spring of '08. When everything fell apart in the financial world and that was one of the most.",
+  "zh": "很糟糕的创业时机,因为我们是在 '08 年春天融第一轮资本。那时金融世界一切崩塌,那是最……之一。"
+ },
+ {
+  "seg": 24,
+  "start": 552,
+  "end": 554,
+  "speaker": "Pablo Srugo",
+  "en": "If you can do it, then you could do it anytime.",
+  "zh": "如果你能做到,那你任何时候都能做到。"
+ },
+ {
+  "seg": 25,
+  "start": 554,
+  "end": 610,
+  "speaker": "Aaron Schumm",
+  "en": "Right? I always tell people, I'm like, you have no idea how hard it was. This is a cakewalk relative to that. So yeah, so we started that business. We grew that and really what it was, was that unbundled turnkey asset management platform. A FinTech platform that we gave to financial advisors and institutions. So broker dealers, banks, RIAs, asset managers alike, and we essentially power their wealth book of business. And through that journey, you know, we were a few years into that business. Our employees wanted their own 401(k) program. So I was like, OK, I haven't really done that before. Let's go do it, so one of our sales guys had a buddy who is an advisor that sold 401(k) plans and he gave us a plan. And I was like, this is horrible. How can it be this hard, this clunky, this expensive? And that's really when the light bulb went off, like, hey, there's a problem, we're gonna go solve here. So we started with 401(k)s, you know, when it started Vestwell and now we've expanded to a whole host of different savings programs in the tax preferred lens but that was really the origination of it all.",
+  "zh": "对吧?我总是告诉别人,我说,你不知道那有多难。和那相比,这简直是送分题。所以是的,我们创办了那门生意。我们把它做大,而它本质上,是一个拆分的全权委托资产管理平台。一个我们给财务顾问和机构的 FinTech 平台。所以经纪商、银行、RIA、资产管理公司等等,我们本质上为他们驱动财富业务。在那段旅程中,你知道,我们在那项业务上做了几年。我们的员工想要自己的 401(k) 计划。所以我就像,好吧,我以前没真正做过。我们去搞一个,所以我们一个销售的家伙有个朋友,是个卖 401(k) 计划的顾问,他给了我们一个计划。然后我就觉得,这太糟糕了。怎么会这么难、这么笨重、这么贵?那真的就是灯泡亮起的时刻,像,嘿,这里有个问题,我们要去解决。所以我们从 401(k) 开始,你知道,创办 Vestwell 的时候,现在我们已经扩展到税收优惠视角下的一整套不同的储蓄项目,但那真的是这一切的起源。"
+ },
+ {
+  "seg": 26,
+  "start": 610,
+  "end": 623,
+  "speaker": "Pablo Srugo",
+  "en": "And tell me a little bit about. As you said earlier, you can't just launch this. There's a lot of regulatory pieces. There's a lot of pieces to this puzzle. Take us to the origin of this early 2016. What do you do first?",
+  "zh": "再讲一点。就像你之前说的,你不能直接推出这个。有很多监管部分。这个拼图有很多块。带我们回到 2016 年初的起源。你先做什么?"
+ },
+ {
+  "seg": 27,
+  "start": 623,
+  "end": 660,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, it's a great question. So it was funny because I wasn't a retirement expert by any means. I still wouldn't even classify myself as a retirement expert, you know, a decade into this. I have a lot of them on the team, but for me personally, I was kind of like the tech product person and how I was viewing this and to solve it. But in 2016, what we did, first thing we did was we started designing a workflow for what we thought people would want, right? So you think about, as your business owner. Your small business. Let's say you got, you know, a handful of employees, you want to set something up. What would you do, right? And walking through that decision tree process.",
+  "zh": "是的,好问题。很有意思,因为我根本不是退休专家。即使入行十年了,我仍然不会把自己归类为退休专家,你知道。团队里有很多这样的人,但对我个人来说,我大概是个科技产品的人,以及我是如何看待这个并去解决它的。但在 2016 年,我们做的第一件事就是开始设计一个工作流,我们认为人们会想要的,对吧?想想看,作为企业主。你的小企业。假设你有,你知道,几个员工,你想搭建一个东西。你会怎么做,对吧?然后走一遍那个决策树流程。"
+ },
+ {
+  "seg": 28,
+  "start": 660,
+  "end": 665,
+  "speaker": "Pablo Srugo",
+  "en": "I'm curious actually, just to go maybe deeper on that. What was the current state of affairs?",
+  "zh": "我其实很好奇,想再深入一点。当时的现状是什么?"
+ },
+ {
+  "seg": 29,
+  "start": 665,
+  "end": 667,
+  "speaker": "Aaron Schumm",
+  "en": "For us or for the industry?",
+  "zh": "对我们来说还是对行业来说?"
+ },
+ {
+  "seg": 30,
+  "start": 667,
+  "end": 671,
+  "speaker": "Pablo Srugo",
+  "en": "In general, for the industry. I mean, people obviously have been setting up 401(k)s for a long time. What was the default?",
+  "zh": "总体上,对行业来说。我是说,人们显然做 401(k) 已经很长时间了。默认的是什么?"
+ },
+ {
+  "seg": 31,
+  "start": 671,
+  "end": 819,
+  "speaker": "Aaron Schumm",
+  "en": "So the default was a very handheld process. Where someone would say, hey, let's talk through a whole host of options. Let's check a bunch of boxes on a planned services agreement document. Let's stand up that, you know, let's choose your investments. Let's, you know, do you want safe Harbor, elective, non elective, all of these things. They're like a foreign language to most people, right? And even me, when I was at my prior company the advisors, like, hey, do you want to do this or that? And I was like, I don't know, what should I do? And the advisor is like, I can't tell you what to do. I'm like, well, you're an advisor. Give me advice, that's the whole job, right? And he's like, well, legally, I'm not really allowed to. So then that was when I was thinking like, hey, we could actually help walk people through this on their own. Much more consumable, distilled fashion that allowed people to make conscious, educated decisions without having to be an expert. Because you don't expect someone to be an expert in that space, right? That's going too far, but it's like, OK, how do you give them the confidence and all the information they need to make those right decisions, for themselves and for their business. But do so in a really streamlined fashion that doesn't become operationally intensive. So that was a lot of what we saw, but we didn't build the core of it. We didn't build the core underlying record keeping sub accounting piece when we started the business and that was simply because, we didn't know enough and I didn't know enough. And I was like, if we go down this path, we're going to chew up millions of dollars. We're going to end up with either a half baked solution that doesn't work or we're going to end up with a solution that's so tightly boxed. It's going to be so hard to open up the aperture of who we want to actually engage over the life of this business. So we kind of slow walked it, if you will and it was painful to do that. But it also was really eye opening because we learned so much about what to do as well as what not to do. When we were going to build our own and then what we started to do over time was lift out pieces of that legacy software and just rebuild it from the inside out. And then, eventually just rip and replace and re-platform the entire thing. So that was kind of the evolution of it all. But we had to stand up an RIA, right? We had to become an SEC registered advisor. So we started that, I remember we stood up an RIA and we got audited by the SEC. I think the second we put on our first business on the platform and I was like, you got to be kidding me. We literally just started this thing and now I got to go through an SEC audit. But that was also really enlightening.",
+  "zh": "所以默认是一个非常需要人手把手的过程。有人会说,嘿,我们来聊一堆选项。我们在一份计划服务协议文件上勾一堆框。我们把它搭起来,你知道,我们选你的投资。我们要不要 safe Harbor,选择性缴款、非选择性缴款,所有这些。对大多数人来说它们像外语,对吧?甚至我,在我之前的公司,顾问就像,嘿,你想做这个还是那个?我就说,我不知道,我该怎么办?然后顾问说,我不能告诉你该怎么做。我就说,那你是个顾问。给我建议啊,这就是全部的工作,对吧?然后他说,可是,法律上我其实不被允许。然后那时我就在想,嘿,我们其实可以帮助人们自己走完这个过程。以更易消化、更精炼的方式,让人们能够在不必成为专家的情况下做出有意识的、有根据的决定。因为你不指望某人是那个领域的专家,对吧?那要求太过头了,而是像,好,你如何给他们信心和所有他们需要的信息,为他们自己和为他们的业务做出正确的决定。但以一种真正精简的方式去做,不会变得运营上很重。那是我们看到的大部分东西,但我们没有构建核心。我们创办公司时没有构建底层的账务记录子账务那块,那仅仅是因为,我们懂的不够,我懂的不够。我就像,如果我们走这条路,我们会烧掉几百万美元。我们最后要么得到一个不好用的半成品解决方案,要么得到一个被框得太紧的解决方案。它会非常难以打开孔径,去接触我们在业务生命周期中真正想要接触的人。所以我们慢走了,可以这么说,这么做很痛苦。但它也非常开眼界,因为我们学到了很多该做什么以及不该做什么。当我们要自己构建的时候,然后我们随时间开始做的是,把那些传统软件的部件一块块抽出来,从里到外重建。然后,最终直接整个拆掉换掉,重新平台化整个东西。所以那大概就是整个演进。但我们得搭一个 RIA,对吧?我们得成为 SEC 注册顾问。所以我们开始了,我记得我们搭了 RIA,然后被 SEC 审计了。我想是在我们把第一个业务放上平台的同一秒,我就像,你在开玩笑吧。我们真的才刚创办这个东西,现在我就得接受 SEC 审计。但那也非常有启发。"
+ },
+ {
+  "seg": 32,
+  "start": 819,
+  "end": 824,
+  "speaker": "Pablo Srugo",
+  "en": "At least you only had one account or a couple of accounts. So much to audit.",
+  "zh": "至少你只有一个账户或几个账户。没什么可审的。"
+ },
+ {
+  "seg": 33,
+  "start": 824,
+  "end": 861,
+  "speaker": "Aaron Schumm",
+  "en": "You know, but it was fun. Because it ended up being a really positive experience. Because I started to see like, well, what were the regulators thinking about? And they were actually just trying to be helpful. They weren't coming in just trying to needle us, right? They were truly trying to educate themselves and be helpful about the future of where they saw, you know, regulatory compliance and those aspects going. So it ended up being a great thing at the end of it but it was pretty nerve wrecking to start, right? You got probably four or five employees at the time. Maximum and all of a sudden the SEC's showing up at your door saying, OK, time for an audit. You're like, oh gosh, we haven't even gotten to the starting blocks yet. So, this is how it goes, though.",
+  "zh": "你知道,但那很有趣。因为它最终变成了一次非常积极的经历。因为我开始看到,比如,监管者在想什么?他们其实只是想帮忙。他们不是进来专门找我们茬的,对吧?他们是真心想自我教育,并就他们看到的,你知道,合规监管以及那些方面的未来走向提供帮助。所以它最终是件好事,但开始时相当让人神经紧张,对吧?你当时大概只有四五个员工。最多,然后突然 SEC 出现在你门口说,好,该审计了。你就像,哦天哪,我们甚至还没站上起跑线呢。不过,事情就是这么走的。"
+ },
+ {
+  "seg": 34,
+  "start": 861,
+  "end": 898,
+  "speaker": "Pablo Srugo",
+  "en": "I'm curious to understand more of the pain. Obviously, Product Market Fit, it's all about pain solution and then go to market. But the pain from the business side, like I understand that as the employee, you get connected to an advisor as part of the 401(k) or whatever. You're going through that, it's a bunch of things you don't understand. They're not that helpful, but you're like, OK, whatever. Ultimately you probably do it and it just kind of happens, right? Why does the business care so much? What is the top of that? I mean, I get it, as a business you want to provide better experience for your employees but that's not going to go to the top of your list. Necessarily, relative to all the other things you want to do. What's the thing that shines at the top of the list for a business when it comes to this?",
+  "zh": "我很好奇想更多了解这个痛点。显然,Product Market Fit,全都是关于痛点和解决方案,然后是 go to market。但企业侧的痛点,比如我作为员工能理解,你作为 401(k) 或什么的一部分被连接到一个顾问。你在经历那个,是一堆你不理解的东西。它们没那么有用,但你想,好吧,随便。最终你大概会做,它就这么发生了,对吧?为什么企业这么在乎?那最顶上的是什么?我是说,我懂,作为企业你想为员工提供更好的体验,但那不会排到清单最顶上。相对于你想做的所有其他事。对这个而言,对企业来说,排在清单最顶上、最闪光的是什么?"
+ },
+ {
+  "seg": 35,
+  "start": 898,
+  "end": 1019,
+  "speaker": "Aaron Schumm",
+  "en": "It's a good question and it depends on the business, ultimately. But there's a few key things. I think, ultimately, for the business, it's about recruitment and retention of the employees. And it's also about their own security, right? In the US, pension plans don't really exist anymore. There's the big question mark over social security, whether that's going to continue to hold over the course of the next few decades. This is something where you can put the control of your future in your own hands and if you can do that and not make it burdensome, right? You don't want to spend hours doing this a week. You want to spend a couple minutes maximum, right? And it really has become table stakes for employees or people that are out there interviewing saying, hey, if I'm going to come to your company and work. What are you going to give me? What are your benefit packages, right? Your health insurance, your savings programs, and all of those. And through all of this, right? When we were starting the early days of Vestwell, there was a lot of legislation that was being proposed. At the time, there was a DOL fiduciary rule that was having a big weight on how advisors could engage. There was the notion of Secure 1.0 and then Secure 2.0, and now actually they're working on Secure 3.0. Those have become some of the largest legislative tailwinds that this industry's seen since the inception of ERISA law back in the mid 70s. So it's really transformed and it's shined a light on why people need this and you see it now. Even, you know, with the current administration. Some of the things they're rolling out are on the Trump accounts and child savings, and IRA programs, and all of these different things that people are looking at. And say, we have a systemic problem. There is a crack that persists financially in this country and if we don't start to fill that crack. It is going to widen and get deeper, and we're never going to get out of it. So people are just starting to take action on it and a lot of it ultimately in this country, you know, most businesses are small and mid sized businesses. Now we do everything up and down this. We do large businesses, we have a lot of large businesses but from a volume perspective, ninety five percent of the businesses in this country would be classified as that small to midmsized business.",
+  "zh": "好问题,最终取决于企业。但有几个关键的东西。我认为,最终,对企业来说,是关于员工的招聘和留任。也是关于他们自身的保障,对吧?在美国,养老金计划基本上已经不存在了。社会保障上有个大问号,它是否会在未来几十年继续撑得住。这是一件你可以把对未来的掌控放在自己手里的事,而如果你能做到这点又不让它成为负担,对吧?你不想每周花几个小时做这个。你最多想花几分钟,对吧?它真的已经成为员工的桌面筹码,或者那些在外面面试的人说,嘿,如果我要来你们公司工作。你会给我什么?你的福利套餐是什么,对吧?你的健康保险、你的储蓄项目,以及所有那些。而通过这一切,对吧?当我们创办 Vestwell 早期时,有很多立法在被提出。当时,有一个 DOL 受托规则,对顾问如何开展业务有很大影响。有 Secure 1.0 的概念,然后是 Secure 2.0,现在实际上他们在做 Secure 3.0。这些已经成为这个行业自 70 年代中期 ERISA 法诞生以来所见过的最大的立法顺风。所以它真的转变了,并且照亮了为什么人们需要这个,你现在也看到了。甚至,你知道,在现政府下。他们推出的一些东西是 Trump accounts 和儿童储蓄,以及 IRA 项目,以及人们在看的所有这些不同的东西。并且说,我们有一个系统性问题。这个国家在财务上有一道持续存在的裂缝,如果我们不开始填补那道裂缝。它会变得更宽更深,而我们永远无法从中脱身。所以人们只是开始对它采取行动,而这个国家很多,你知道,大多数企业是中小型企业。现在我们大大小小什么都做。我们做大企业,我们有很多大企业,但从数量角度看,这个国家百分之九十五的企业会被归类为中小型企业。"
+ },
+ {
+  "seg": 36,
+  "start": 1019,
+  "end": 1027,
+  "speaker": "Pablo Srugo",
+  "en": "When you're starting out, you're talking to donor advisors, financial advisors. What is the pitch you're giving them as to why they should pitch Vestwell to their clients?",
+  "zh": "当你起步时,你在和捐赠顾问、财务顾问交谈。你给他们的推销说辞是什么,为什么他们应该向客户推销 Vestwell?"
+ },
+ {
+  "seg": 37,
+  "start": 1027,
+  "end": 1110,
+  "speaker": "Aaron Schumm",
+  "en": "So it depends on where they sit in the ecosystem. There's different types of advisors, right? So you have advisors that are primarily focused on wealth. So the pitch to them is like, hey, give this to your private wealth client, right? Who you're already managing your assets, right? And so, my financial advisor, it's like, if I said, OK, hey, you're already doing my assets. I need a solution for my employees. What can you do? And before that would be, they go take one of the providers off the shelf or whatever it is. That's kind of outside and they just say, hey, here's something. That's not the ideal thing, but it's something and you just have to deal with it. That's what I was told in my last business, right? I was like, this is all you got and he's like, it's kind of all I can do right now, sorry, and it was really expensive. So, from that side, it's like, hey, we can give the advisors in that realm something for all of their clients who are entrepreneurs or business owners. That is tailored for them, that fits their world. That really becomes a lead gen engine for the advisor to see then not only their private wealth client and their assets, but all the underlying employees that work for them and who could be a potential wealth client going forward. So for the advisor, it's very attractive. Because all of a sudden it's like, hey, I have almost a sales lead gen engine sitting here in front of me. That I can start to look and say, oh, hey, Susie or Lisa over here and they actually have a lot of assets. Maybe they should be a private wealth client and I should go have a conversation with them.",
+  "zh": "所以这取决于他们在生态系统中的位置。有不同类型的顾问,对吧?所以你有主要专注于财富的顾问。给他们的推销就像,嘿,把这个给你的私人财富客户,对吧?你已经为他们管理资产的人,对吧?比如我的财务顾问,就像,如果我说,好,嘿,你已经在管理我的资产了。我需要给我员工一个解决方案。你能做什么?在那之前是,他们去从货架上拿一个提供商,或 whatever,那是外部的,他们就说,嘿,这是给个东西。那不是理想的东西,但总比没有好,你就得将就。我在我上一家公司就是这么被告知的,对吧?我就像,你就只有这个吗,然后他说,我现在大概只能做到这些,抱歉,而且特别贵。所以,从那一侧,就像,嘿,我们可以给那个领域的顾问一些东西,给他们所有那些是创业者或企业主的客户。那是为他们量身定制的,契合他们的世界。那真的成为顾问的一个获客引擎,让他们随后不仅能看到私人财富客户和他们的资产,还能看到为他们工作的所有底层员工,以及谁可能是未来的财富客户。所以对顾问来说,它非常有吸引力。因为突然之间就像,嘿,我面前几乎坐着一个销售获客引擎。我可以开始看然后说,哦,嘿,Susie 或者这边的 Lisa,她们其实有很多资产。也许她们应该成为私人财富客户,我应该去和她们谈谈。"
+ },
+ {
+  "seg": 38,
+  "start": 1110,
+  "end": 1118,
+  "speaker": "Pablo Srugo",
+  "en": "Because the advisor, like, let's say I manage your wealth. You run a business, I'm like, hey, you should use Vestwell. Now I get to see the assets of everybody that you put on, all the employees.",
+  "zh": "因为顾问,比如,假设我管理你的财富。你经营一家企业,我说,嘿,你应该用 Vestwell。现在我就能看到你放上去的所有人的资产,所有员工。"
+ },
+ {
+  "seg": 39,
+  "start": 1118,
+  "end": 1183,
+  "speaker": "Aaron Schumm",
+  "en": "You see all the employees and you can drill into them. You could see, you know, beneficiary information. You can see a lot of information that they can aggregate outside accounts, their bank accounts, other investments they have, and pull it into the platform. And then we service all that up, back up to the advisor. And then on the other side of the equation, there's also advisors who only focus on retirement, right? So that is their bread and butter. That's what they do. They're deep in the weeds when it comes to ERISA and all the regulatory components. So from that aspect, what we do for them is we can give them a solution. Where we're doing everything from like signing the 5500 as a notion, it's called a 316 fiduciary and we could sign their tax filings. We can give them everything that's for them. We also give all that data back to the advisors, where a lot of other players out there in the industry won't give them data. They're like, no, no, it's our data. Because really what they're trying to do is siphon assets out of the program and bring it in house to themselves. We're not in that game at all. We want to make sure that we're providing the best service possible to all the users in our profile, right? Whether that's an advisor, a home office, an employer, a saver, and alike.",
+  "zh": "你看到所有员工,你可以钻进去。你可以看到,你知道,受益人信息。你可以看到很多信息,他们可以聚合外部账户、他们的银行账户、他们有的其他投资,并把它拉进平台。然后我们把所有这些整理好,回报给顾问。而在等式的另一边,还有只专注退休的顾问,对吧?所以那是他们的饭碗。那就是他们做的事。当涉及 ERISA 和所有监管组件时,他们扎得很深。所以从这个角度,我们为他们做的是,我们可以给他们一个解决方案。在那里我们做每件事,比如签署 5500,作为一个概念,它叫 316 受托人,我们可以签署他们的税务申报。我们可以给他们所有这些是为他们准备的。我们也把所有数据回馈给顾问,而行业里很多其他玩家不给他们数据。他们说,不,不,这是我们的数据。因为他们真正想做的是从项目里把资产吸走,带回自己内部。我们完全不玩那个游戏。我们想确保我们为我们画像里所有用户提供最好的服务,对吧?无论是顾问、后台办公室、雇主、储户,等等。"
+ },
+ {
+  "seg": 40,
+  "start": 1183,
+  "end": 1205,
+  "speaker": "Pablo Srugo",
+  "en": "So if I kind of say back to you, on the one side. You're creating effectively, like it's a new. It's like you said, lead gen. That's really the main ROI for the wealth advisors. You can get new clients by running this motion and on the other one, it's kind of time saving. It's efficiency, it's like, you're already doing this but a lot of the things are clunky. A lot of the things are inefficient. With this, it's just, your life's just going to be easier and you're going to keep doing what you're doing.",
+  "zh": "所以如果我这样复述给你,一方面。你实际上在创造,像它是一个新的。就像你说的,获客。那真的是财富顾问的主要 ROI。你可以通过跑这个动作获得新客户,另一方面,是省时。是效率,就像,你已经在做这个了但很多东西很笨重。很多东西低效。有了这个,就是,你的生活会更容易,你会继续做你在做的事。"
+ },
+ {
+  "seg": 41,
+  "start": 1205,
+  "end": 1262,
+  "speaker": "Aaron Schumm",
+  "en": "Yes and also these programs, like workplace savings programs specifically. They tend to be much larger and grow much faster than an individual wealth client's assets, right? Because if you think about it, it's much easier to go sell a plan. A 401(k) plan that's going to, if let's say it starts at zero and grows past a million dollars. That's going to grow past a million dollars exponentially faster than an individual who shows up with say $100,000 and tries to grow that to a million. Because you have a base of employees underneath and you have payroll that's coming in and contributing to these programs every pay cycle, every week, every two weeks, whatever it may be. So you think about it and then you start to accrue that those assets on top of the investments. They're going to grow much larger and if for an advisor who's getting paid some element of a percentage of assets. It's a quite a lucrative business for them relative than just trying to knock on a bunch of doors to find some affluent clients.",
+  "zh": "是的,而且这些项目,像职场储蓄项目尤其是。它们往往比个人财富客户的资产大得多、增长快得多,对吧?因为想想看,去卖一个计划容易多了。一个 401(k) 计划,它会,假设它从零开始并增长超过一百万美元。它会比一个带着十万美元来试图把它增长到一百万的个人,指数级更快地增长超过一百万。因为你下面有一批员工,而且你有每个发薪周期、每周、每两周,不管是什么,进来的薪资在为这些项目缴款。所以你想想,然后你开始在投资之上积累那些资产。它们会长得大得多,而对于一个按资产某个百分比收费的顾问。对他们来说这是一门相当有利可图的生意,相比于只是试图敲一堆门去找一些高净值客户。"
+ },
+ {
+  "seg": 42,
+  "start": 1262,
+  "end": 1288,
+  "speaker": "Pablo Srugo",
+  "en": "So now kind of going back into that time. Now I kind of understand the problem solution and the pitch to the people that are ultimately selling this, right through your channel. Tell me a little bit more about what the product was, you know, over ten years you've built a lot of things. I'm sure, and you service more, and more kind of subtleties and more types of plans, and these sort of things. V1, like what was V1? What was the absolute core that you had to say, we have to deliver at least this for anybody to work with us? What was that?",
+  "zh": "所以现在回到那个时间。现在我大概理解了问题与解决方案,以及给那些最终通过你的渠道卖这个的人的推销,对吧。再多讲一点产品是什么,你知道,十多年里你们构建了很多东西。我确定,而且你们服务更多、更多的细微之处和更多类型的计划,诸如此类。V1,像 V1 是什么?你必须要说、至少得交付这个别人才会和你合作的绝对核心是什么?那是什么?"
+ },
+ {
+  "seg": 43,
+  "start": 1288,
+  "end": 1405,
+  "speaker": "Aaron Schumm",
+  "en": "So it's kind of a funny story. So V1 was how do we create a, let's say, you get two or three flavors of a 401(k) solution for a micro or small business. So that would be some sort of box. It has a, you know, investment lineup that's already set up. It has all the fiduciary services and so on. And then, a business could walk and sign up, click a bunch of buttons. Think of it, I always think of it like a decision tree, right? You're just kind of like, okay, I want this option, I want this option, I want this option, I want this option. At the end of it, it's like, OK, great. Here's your document. Here's everything that's going to be submitted. There's a lot of other legal stuff that happens behind the scenes. But that was V1, right? So we went through that and people could sign up. Now, it's hard, right? You show up, it wasn't necessarily white labeled, right? When we started for everyone because we didn't really have anyone to white label for. We had a couple of clients, but they're like, who is this company? Who's his brand? Can I trust them, right? And this is a sensitive topic, right? You're asking someone for arguably the second most sensitive thing in their life outside of their family. You're saying, hey, give me your savings and let me take care of it for you. So, you know, you want to be a trusted, reliable source for that. So that was V1 that was funny. We quickly realized that we had boxed it too tight, right? That people didn't fit into those boxes all the time and they'd be like, oh, I don't really want that option. I want this option. Can you do this? And then, you start to open up the box and widen what you're doing. So we ended up sunsetting that kind of workflow. Because there were too many options that we wanted to offer. That we don't want to constrain people in that aspect. So we ended up not doing it because it got too messy. Now, fast forward last year, we rebuilt that same workflow from the ground up and it's one of our core things that flies off the shelf right now. So it was kind of like some of these early ideas that we were right with the idea. We were probably a little off with the exact structure of it. But those have kind of come full circle and now they're actually core to what we do day to day.",
+  "zh": "所以这有点好玩。所以 V1 是我们如何创建一个,这么说吧,为微型或小型企业提供两三种口味的 401(k) 解决方案。所以那是某种盒子。它有一个,你知道,已经设置好的投资阵容。它有所有受托服务等等。然后,一个企业可以走过来注册,点一堆按钮。这样想,我总是把它想成决策树,对吧?你就只是像,好,我要这个选项,我要这个选项,我要这个选项,我要这个选项。到最后,就像,好,很好。这是你的文件。这是将要被提交的一切。幕后还有很多其他法律上的事情发生。但那就是 V1,对吧?所以我们做了那个,人们可以注册。现在,这很难,对吧?你出现,它当时不一定是贴牌的,对吧?我们起步时对所有人都不是,因为我们其实没有可以为之贴牌的人。我们有几个客户,但他们就像,这家公司是谁?这个品牌是谁?我能信任他们吗,对吧?这是个敏感话题,对吧?你在向某人要他们生活中除家人之外可以说是第二敏感的东西。你在说,嘿,把你的储蓄给我,让我替你打理。所以,你知道,你想成为那个值得信赖、可靠的服务来源。所以那就是 V1,很好笑。我们很快意识到我们把它框得太紧了,对吧?人们并不总是 fits 进那些盒子里,他们会说,哦,我不太想要那个选项。我想要这个选项。你能做这个吗?然后,你开始打开盒子,拓宽你在做的事。所以我们最终让那种工作流退役了。因为我们想提供的选项太多了。我们不想在那方面约束人们。所以我们最终没做了,因为它变得太乱。现在,快进到去年,我们从零重建了同样的工作流,它现在是我们飞快卖掉的核心产品之一。所以有点像这些早期想法,我们在想法上是对的。我们在确切结构上可能有点跑偏。但那些绕了一圈回来,现在它们实际上是我们日常工作的核心。"
+ },
+ {
+  "seg": 44,
+  "start": 1405,
+  "end": 1410,
+  "speaker": "Pablo Srugo",
+  "en": "And that would be the simplest version? In other words, the simplest version, which didn't really work back then. Now you're saying is really taking off.",
+  "zh": "而那会是最简单的版本?换句话说,当年其实行不通的最简单版本。你现在是说真的在起飞。"
+ },
+ {
+  "seg": 45,
+  "start": 1410,
+  "end": 1426,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, it's really like a product led growth perspective. Where it's just like, hey, here's the link. Just go rip through it and get on board. And we do that all the time now, especially through our payroll partners and it works really well. But it took a lot of work and it took us, you know, we sunset the thing for eight years and then it came back to life.",
+  "zh": "是的,它真的就像一个产品驱动增长的视角。就是像,嘿,这是链接。直接冲过去完成, onboard 上来。我们现在一直这么做,尤其是通过我们的薪资合作伙伴,而且效果很好。但它花了很多功夫,花了我们,你知道,我们把那东西退役了八年,然后它复活了。"
+ },
+ {
+  "seg": 46,
+  "start": 1426,
+  "end": 1437,
+  "speaker": "Pablo Srugo",
+  "en": "And then tell me a little bit, because this kind of helps context. Just on the fundraising side, like you started this in 2016. Do you raise money right away? How much? And then the Series A, the Series B, just walk me through how that played out.",
+  "zh": "然后再多讲一点,因为这有助于背景。就在融资方面,像你 2016 年创办的。你马上就融资吗?融多少?然后 Series A,Series B,带我走一遍那是怎么进行的。"
+ },
+ {
+  "seg": 47,
+  "start": 1437,
+  "end": 1475,
+  "speaker": "Aaron Schumm",
+  "en": "2016, I started going out and raising angel funding. So I spun up a convertible note. It was just, you know, knocking on doors. People asking for, you know, $50,000, $100,000 checks. So I did that, I actually had a lot of success doing that. Was able to actually have an oversubscribed note on it. I actually ended up giving most of that cash back with interest, obviously. Because we did our seed round much faster than I anticipated. So I think it was September 9th or September 8th, 2016. We closed our seed round. We did $4.5 million on that in total.",
+  "zh": "2016 年,我开始出去融天使资金。所以我搞了一个可转换票据。就是,你知道,敲门。人们要,你知道,5 万美元、10 万美元的支票。所以我做了那个,我其实做得很成功。实际上做到了超额认购的票据。我实际上最后把那笔钱的大部分连本带息退还了,显然。因为我们的种子轮比我预想的快得多。所以我想那是 2016 年 9 月 9 日或 9 月 8 日。我们关掉了种子轮。我们在那一轮总共融了 450 万美元。"
+ },
+ {
+  "seg": 48,
+  "start": 1475,
+  "end": 1481,
+  "speaker": "Pablo Srugo",
+  "en": "Which would have been, by the way. That's like median today, would have been top decile probably in 2016 is my guess.",
+  "zh": "顺便说一下,放到今天算是中位数,我猜在 2016 年大概是前十分位。"
+ },
+ {
+  "seg": 49,
+  "start": 1481,
+  "end": 1488,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, it was. Yeah, it was on the larger side. It wasn't obnoxiously huge, but it was on the larger side.",
+  "zh": "是的,是的。它偏大。不算大得离谱,但偏大。"
+ },
+ {
+  "seg": 50,
+  "start": 1488,
+  "end": 1495,
+  "speaker": "Pablo Srugo",
+  "en": "And that, I assume, with your background and the credibility, and all that. Obviously the idea as well, but that's probably what made that happen.",
+  "zh": "而我猜，凭借你的背景和信誉等等。显然想法本身也很重要，但这大概就是促成这件事的原因。"
+ },
+ {
+  "seg": 51,
+  "start": 1495,
+  "end": 1548,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, it helped, right? So I, you know, I'd just come off a successful exit. I was selling the last business. It was in a tangential space that, you know, I knew the network. So how to get things going. So, you know, obviously FinTech was the hottest thing at that moment. So you had a lot of things that all lined up and we were able to seed the business. Now, we didn't actually launch it until we started putting on test clients in November of that year, and then really didn't launch it until 2017. And then we did our Series A, I think it was in. I had to go back and look. I want to say it was probably a year and a half later-ish. And that was led by one of our investors who had wanted to lead the seed round. We ended up taking another term sheet. I was like, hey, if you want to come lead the A. I'll give you first crack at it. So went out, priced it and then said, hey, if you could hit this price, then you can lead it. So they ended up doing that.",
+  "zh": "是的，这确实有帮助，对吧？我刚刚经历了一次成功的退出。我正在出售上一家公司。那是一个相关领域，我认识那些人脉。所以知道怎么把事情推动起来。你知道，当时金融科技是最热门的东西。所以很多因素都凑齐了，我们得以给公司做了种子轮。不过，我们实际上直到那年 11 月才开始接入测试客户，然后直到 2017 年才真正推出。接着我们做了 A 轮，我记得是在。我得回头查一下。我想说大概是差不多一年半以后。领投的是我们的一位投资人，他本来就想领投种子轮。我们最后拿了另一份投资条款书。我当时说，嘿，如果你想领投 A 轮。我给你优先机会。所以我们就去定价了，然后说，嘿，如果你能达到这个价格，你就可以领投。他们最后做到了。"
+ },
+ {
+  "seg": 52,
+  "start": 1548,
+  "end": 1563,
+  "speaker": "Pablo Srugo",
+  "en": "We have tens of thousands of people who have followed the show. Are you one of those people? You want to be part of the group. You want to be a part of those tens of thousands of followers. So hit the follow button. And, where was the business? CrunchBase says October, 2017. Does that sound right?",
+  "zh": "我们有几万人关注了这个节目。你是其中之一吗？你想成为这个群体的一员。想成为那几万关注者中的一员。那就点关注按钮。还有，公司当时在什么阶段？CrunchBase 说是 2017 年 10 月。这听起来对吗？"
+ },
+ {
+  "seg": 53,
+  "start": 1563,
+  "end": 1567,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, that sounds, that's probably about right. Yeah, probably somewhere between a year and eighteen months.",
+  "zh": "是的，听起来，大概差不多是对的。是的，大概在一年到十八个月之间。"
+ },
+ {
+  "seg": 54,
+  "start": 1567,
+  "end": 1569,
+  "speaker": "Pablo Srugo",
+  "en": "Where was the business at when you raised that A?",
+  "zh": "你融 A 轮的时候公司处于什么状态？"
+ },
+ {
+  "seg": 55,
+  "start": 1569,
+  "end": 1647,
+  "speaker": "Aaron Schumm",
+  "en": "October '17, Oh God. It was probably a couple hundred thousand dollars in revenue, in ARR. We had, I don't know, probably ten employees-ish. I think it was probably about after our A, where we started really kind of some of the early partnerships. Some of the early RAs, we started to see some inklings that, okay, this flywheel is going to start moving. But even at the end of '18, I mean, we probably had maximum. Half a million dollars in ARR and now we do that stuff like in a day, right? It's wild to see, to go back and look. And I remember one of our investors, he's like, is this thing ever going to make money? And I'm like, it will, it will. I was like, just wait. I said, the wheels are moving and then once they start going, it's really going to take off. But it's going to take a while for them to start going and it did, right? It was a, it's a lot of trust. It's a lot of relationship building. It's about just kind of knowing the whole network and how this stuff works. So we showed up as these wide eyed kids in kind of a, in an old legacy world and we're like, hey, we can do this. And they're like, I hope so, but no one's ever been able to do this. And I was like, no, we're going to do it. And I think people really wanted it to work, but they didn't believe it was going to work. And then, we hit that breakout mode and people are like, oh, God, these guys are really doing it. And then everyone just kind of like got behind it. And now they're the wind in the sails that push us.",
+  "zh": "2017 年 10 月，天啊。当时大概是几十万美元的收入，按 ARR 算。我们大概有，我不知道，十个员工左右。我想大概是在 A 轮之后，我们才真正开始了一些早期的合作。一些早期的 RA，我们开始看到一些苗头，好，这个飞轮要开始转了。但即使到 18 年底，我们大概最多。五十万美元的 ARR，而现在我们一天就能做到那种量级，对吧？回头去看真的很疯狂。我记得我们有一位投资人说，这东西到底能不能赚钱？我说，会的，会的。我说，等着吧。我说，轮子已经在转了，一旦开始转起来，它真的会起飞。但轮子开始转起来需要一段时间，而它确实如此，对吧？这需要大量的信任。大量的关系建立。就是要了解整个网络以及这些东西是如何运作的。所以我们就像一群睁大眼睛的孩子，出现在一个老旧的、有历史包袱的行业里，我们说，嘿，我们能做到。他们则说，我希望如此，但从来没人做到过。我说，不，我们会做到的。我觉得人们其实很希望它能成，但他们不相信它会成。然后，我们进入了爆发模式，人们就说，哦，天啊，这帮人真的做到了。然后所有人都开始支持我们。而如今他们就是推动我们前行的顺风。"
+ },
+ {
+  "seg": 56,
+  "start": 1647,
+  "end": 1701,
+  "speaker": "Pablo Srugo",
+  "en": "I find, you know, Series A is a particularly hard round to get. Later on, I mean, not to say that they get easier. It's just, it gets a little bit more predictive. If your numbers are in a certain spot, if you're growing by a certain rate, if your retention is whatever, Series C, Series D. They start to be more numbers driven. Pre seed and seed, you can kind of fake it till you make it. Obviously, if you've got an exited founder, it's a lot easier. But even if you don't, you tell a good story, you end up meeting the right person, right time. It kind of just happens. The Series A, I mean, the stats are probably forty percent of seed raised in A but it takes four to five years. Two years in, maybe twenty-ish percent, depending on which cohort raised in A. It's hard, in your case. When you meet, and I meet founders like this, oh yeah, I raised in A because I was going from $1 to $10 million in a year. OK, got it. That's, I get it. When you're doing a few hundred thousand dollars in revenue and you still raise an A. I'm curious, what do you think made that happen? Besides the team, which was solid and proven. What else do you think you got right when it came to the Series A fundraising? Just as advice of founders that are trying to raise an A.",
+  "zh": "我发现，你知道吗，A 轮是特别难拿的一轮。再往后，我的意思不是说会更容易。只是会变得更有可预测性一些。如果你的数字在某个位置，如果你以某个速度增长，如果你的留存率如何如何，C 轮、D 轮。它们开始更多地由数字驱动。种子前轮和种子轮，你可以先装再补。显然，如果你是一个已经退出过的创始人，会容易得多。但即使你没有，你讲一个好故事，在对的时间遇到对的人。事情就这么成了。而 A 轮，我是说，数据大概是百分之四十的种子轮最终融到 A 轮，但需要四到五年。两年之内，大概只有百分之二十左右，取决于哪个批次融到 A 轮。这很难。在你的案例里。当你遇到，我也遇到过这样的创始人，哦对，我融到 A 轮是因为我一年内从 100 万美元做到 1000 万美元。好，明白了。这个我懂。当你的收入只有几十万美元，还能融到 A 轮。我很好奇，你觉得是什么促成的？除了团队，团队确实扎实且经过验证。在 A 轮融资这件事上，你还做对了什么？作为给那些正在尝试融 A 轮的创始人的建议。"
+ },
+ {
+  "seg": 57,
+  "start": 1701,
+  "end": 1827,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, so I was pretty methodical about who I wanted around the cap table and how I wanted them to participate. So I spent a lot of time curating investors that didn't necessarily have to be experts in the space. But they brought an attribute to the table that either I didn't have, or it was a strong signal that they were very in tentful and very bullish on the space. So when we did our A, right? Or you go back to the seed even. So FinTech Collective led it, and I wanted them to lead it because that was where they were focused at the time. And they were obviously focused on FinTech as the namesake. And they knew a lot of advisors, and RAs in the world that maybe I didn't have a direct reach into. So I remember going up to a wedding in Massachusetts and I was like, hey, I'm heading up to a wedding in Massachusetts. Oh, great, when are you going to be up there? I was like, I'm going Friday morning. It's like, great and they would just stack my calendar with meetings, right? You know, before you even got to the wedding, I had a whole slate of meetings. I was running around Boston doing and then I was like, great, did the meetings then bounce out to the wedding and that was fantastic, right? So you had that almost like a biz dev kind of motion and then also around the cap table, I had the primary guys here in New York. Primary Venture Partners, and they were Brass for Luga and those guys were really focused on what I call seed stage enterprise technology. So they brought a wider lens of how to think through the enterprise landscape because you had to put multiple irons in the fire. Because one was going to go faster. So the RAs were going to go faster and the enterprise stuff was going to go slower. But you had to start them simultaneously knowing that one of these enterprise deals would hit at some point in a year or two and then the other name I brought in was F Prime, who led our A. Because they were part of the Fidelity family and obviously knew this whole network really well. And Fidelity is one of the dominant forces in the large market retirement space. So I was like, OK, I got people on the table, like Commerce was the other one that was a fintech.",
+  "zh": "是的，我对谁进入股权结构表以及我希望他们如何参与，是相当有章法的。所以我花了很多时间精心挑选投资人，他们不一定是这个领域的专家。但他们带来了一项我自己不具备的特质，或者他们是非常投入、非常看好这个领域的强烈信号。所以当我们做 A 轮的时候，对吧？或者甚至回到种子轮。是 FinTech Collective 领投的，我希望他们领投，因为那是他们当时专注的方向。而且他们显然专注于金融科技，名字就叫这个。他们认识很多顾问，还有行业里的 RA，那些可能我没有直接触达的人脉。我记得我要去马萨诸塞州参加一场婚礼，我说，嘿，我要去马萨诸塞参加婚礼。哦，太好了，你什么时候过去？我说，我周五早上出发。他们说，太好了，然后他们就把我的日历排满了会议，对吧？你知道吗，在我还没到婚礼之前，我就已经有一整天的会议了。我在波士顿到处跑着开会，然后我就说，好，开完会就赶去婚礼，那真是太棒了，对吧？所以你几乎有了一种类似商务拓展的动作，另外在股权结构表上，我在纽约有 Primary 这帮人。Primary Venture Partners，他们是 Brass for Luga，那些人非常专注于我所说的种子期企业技术。所以他们带来了一个更广阔的视角来思考企业级市场的版图，因为你必须同时多点下注。因为总有一个会跑得更快。RA 会跑得更快，而企业级的业务会慢一些。但必须同时启动，并且知道其中某个企业级大单会在一两年内的某个时刻落地。然后我引入的另一个名字是 F Prime，他们领投了我们的 A 轮。因为他们属于富达 Fidelity 大家族，显然对这整个网络非常熟悉。而富达是大型市场退休金领域的主导力量之一。所以我说，好，我的牌桌上有这样的人，像 Commerce 是另一个，那是一家金融科技公司。"
+ },
+ {
+  "seg": 58,
+  "start": 1827,
+  "end": 1832,
+  "speaker": "Pablo Srugo",
+  "en": "But did you nurture these over time? Well, before they happen, methodically?",
+  "zh": "但你有没有随着时间慢慢培育这些关系？在它们发生之前，有章法地？"
+ },
+ {
+  "seg": 59,
+  "start": 1832,
+  "end": 1872,
+  "speaker": "Aaron Schumm",
+  "en": "Well, so I wouldn't say I nurtured them over time. I met them in early 2016, and then was continuing to build. Then they got out of the cap table in 2016, and then it was just continuing to prove it out, right? And they were in the boardroom. They knew what was happening and how the platform was developing. So when I did my A, I didn't really have to go and educate a bunch of people, right? I already had people around. I had someone who could write the check. They just needed someone to price it and I had the expertise. So that was it. Actually, our Series C during COVID was the hardest round we did and that was very difficult. Because everyone's remote, everyone had ADD, and Zoom, and doing a thousand pitches a day.",
+  "zh": "嗯，我不会说我随着时间培育了他们。我在 2016 年初认识他们，然后继续做建设。然后他们在 2016 年进入了股权结构表，之后就是持续地去证明，对吧？他们在董事会里。他们知道发生了什么，平台是如何发展的。所以当我做 A 轮的时候，我并不需要去给一大堆人做教育，对吧？我身边已经有人了。我有能开支票的人。他们只是需要一个来定价的人，而我有专业能力。就是这样。实际上，我们在疫情期间的 C 轮是我们做过的最难的一轮，那非常艰难。因为大家都在远程，每个人都注意力涣散，隔着 Zoom，一天做一千场路演。"
+ },
+ {
+  "seg": 60,
+  "start": 1872,
+  "end": 1876,
+  "speaker": "Pablo Srugo",
+  "en": "That's mid '21. That was peak heat of the market, no?",
+  "zh": "那是 21 年年中。那正是市场最火热的时候，不是吗？"
+ },
+ {
+  "seg": 61,
+  "start": 1876,
+  "end": 1878,
+  "speaker": "Aaron Schumm",
+  "en": "It was, but not for us.",
+  "zh": "是的，但对我们来说不是。"
+ },
+ {
+  "seg": 62,
+  "start": 1878,
+  "end": 1879,
+  "speaker": "Pablo Srugo",
+  "en": "OK.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 63,
+  "start": 1879,
+  "end": 1881,
+  "speaker": "Aaron Schumm",
+  "en": "It was because we weren't crypto, right?",
+  "zh": "是因为我们不是加密货币，对吧？"
+ },
+ {
+  "seg": 64,
+  "start": 1881,
+  "end": 1882,
+  "speaker": "Pablo Srugo",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 65,
+  "start": 1882,
+  "end": 1883,
+  "speaker": "Aaron Schumm",
+  "en": "And we weren't payments. Yeah, this is not hot.",
+  "zh": "而且我们不是支付。是啊，这不热门。"
+ },
+ {
+  "seg": 66,
+  "start": 1883,
+  "end": 1886,
+  "speaker": "Pablo Srugo",
+  "en": "Your boring 401(k)s.",
+  "zh": "你那无聊的 401(k)。"
+ },
+ {
+  "seg": 67,
+  "start": 1886,
+  "end": 1930,
+  "speaker": "Aaron Schumm",
+  "en": "Right? That was largely the definition of Fintech and I was like, well, we're not crypto, we're not payment. So that's your definition of fintech, we're not it, right? I was like, this is us. There were so many conversations I had where people would look at this business like, this is such a great business. I have no idea how to think about it. They're like, way too complicated for me to wrap my head around it and I got a million other things that I can just throw cash at in the crypto space. So they were all cheese and all the investors were chasing things that I'm like, that's not even a real business. And you're throwing cash. And I'm like, we have a real business. It maybe is less obvious and more complicated than most businesses, but this is a real business, right? Fast forward, right? Sitting here today, I can't tell you how many calls and emails, and conference conversations I've had with people. They're like, God, we miss that one, like.",
+  "zh": "对吧？那在当时基本就是金融科技的定义，而我说，好吧，我们不是加密货币，不是支付。所以按你对金融科技的定义，我们不属于，对吧？我说，这就是我们。有太多这样的对话，人们看着这门生意说，这生意太好了。但我完全不知道该怎么理解它。他们说，太复杂了，我脑子绕不过来，而且我还有一百万件别的事情可以直接往加密领域砸钱。所以满地都是钱，而所有投资人都在追那些我说、那甚至算不上一门真正生意的东西。而他们在砸钱。我说，我们有一门真正的生意。它可能比大多数生意更不直观、更复杂，但这是一门真正的生意，对吧？快进到今天，我都数不清我和多少人打过多少电话、发过多少邮件、在会上聊过多少次。他们说，天啊，我们错过了那个，就像。"
+ },
+ {
+  "seg": 68,
+  "start": 1930,
+  "end": 1932,
+  "speaker": "Pablo Srugo",
+  "en": "Of course, of course, yes.",
+  "zh": "当然，当然，是的。"
+ },
+ {
+  "seg": 69,
+  "start": 1932,
+  "end": 1938,
+  "speaker": "Aaron Schumm",
+  "en": "But, you know, you just got to do what you do and say, hey, I'm going to focus on what we do and I can't go chase these other things.",
+  "zh": "但是，你知道吗，你只要做好你自己做的事，说，嘿，我会专注于我们在做的事，我不能去追那些别的东西。"
+ },
+ {
+  "seg": 70,
+  "start": 1938,
+  "end": 1974,
+  "speaker": "Pablo Srugo",
+  "en": "Well, let me ask you one specific question about fundraising, whether it's the A, the B, the C. Size of the opportunity, this is where I see a lot of founders struggling. Some founders are way better than others at this, right? Your revenue is what it is. Your team is what it is. Your ability to take something and say, here's why this is clearly a $5 to $10 billion outcome versus here's why this is a hundred million dollar outcome. That's, it's really the story and the way you present it. How did you do it for Vestwell? I mean, on the one hand, you say, well, every business has 401(k)s. We'll sell to everybody, but then it's kind of like not believable. So I'm curious how you crafted that.",
+  "zh": "好，让我问你一个关于融资的具体问题，无论是 A 轮、B 轮还是 C 轮。机会的规模，这是我看到很多创始人挣扎的地方。有些创始人在这方面比其他人强得多，对吧？你的收入就是那个收入。你的团队就是那个团队。你把某样东西讲成「这显然是一个 50 到 100 亿美元的结局」而不是「这只是一个 1 亿美元的结局」的能力。这真的就是故事本身以及你呈现它的方式。你在 Vestwell 是怎么做的？我的意思是，一方面，你可以说，好吧，每个企业都有 401(k)。我们卖给所有人，但那样就有点不可信了。所以我很好奇你是怎么构建这个故事的。"
+ },
+ {
+  "seg": 71,
+  "start": 1974,
+  "end": 2051,
+  "speaker": "Aaron Schumm",
+  "en": "And I would say I've gotten better at it, right? I definitely wasn't great when I started. I mean, if you asked me back in 2016, how big this business would be. I'd be like, oh, it probably has an enterprise value of a couple hundred million dollars, right? I mean, that's literally how I thought about it when I was starting the business. Now, the TAM is huge, right? There's $50 trillion. At that point, I think there was a little less than $40 trillion that had been amassed and you still had half the market. Over half the market wasn't participating at all, right? So let's say today you got about $50 trillion. You got a little over half participating, right? So we're making a dent in it and if you tack on the other $50 trillion that's not created, you've got a $100 trillion TAM you're going after. The only thing in that kind of stratosphere is health care, right? If you go that route. So that's the how I look at it today. But back in 2016, I didn't look at it. I looked at it in just a 401(k) landscape, which was about $10 to $8 trillion, I think at the time. So it has definitely grown and what we could service, and how we do, and how we present it. But now I kind of look at it like it's endless. Not only the core markets that we service today, where there's so many tangential markets that we can also expand into and we're obviously not doing today. But if we wanted to, at some point we could probably double that $100 trillion.",
+  "zh": "而我想说这件事我越做越好了，对吧？我刚开始的时候肯定不擅长。我是说，如果你在 2016 年问我，这门生意能做多大。我会说，哦，它的企业价值大概也就几亿美元，对吧？我是说，那就是我创办这家公司时真实的想法。现在，TAM 非常大，对吧？有 50 万亿美元。在当时，我记得已经积累的大约不到 40 万亿美元，而且还有一半市场。超过一半的市场完全没有参与，对吧？那么假设今天你有大约 50 万亿美元。其中刚过一半是有参与的，对吧？所以我们正在其中切下一块，如果你再加上尚未积累的另外 50 万亿美元，你面对的是一个 100 万亿美元的 TAM。唯一能和这个量级相提并论的就是医疗健康，对吧？如果你走那个方向。所以这就是我今天的看法。但在 2016 年，我不是这么看的。我只是从 401(k) 的版图来看它，当时大概是 10 到 8 万亿美元，我记得。所以它确实已经增长了，以及我们能服务什么、我们怎么做、我们怎么呈现。但现在我觉得它几乎是无穷无尽的。不仅是我们今天服务的核心市场，还有很多可以扩展进去的相关市场，而我们今天显然还没有做。但如果我们愿意，在某个时候我们也许能把那 100 万亿美元再翻一倍。"
+ },
+ {
+  "seg": 72,
+  "start": 2051,
+  "end": 2081,
+  "speaker": "Pablo Srugo",
+  "en": "If I were to ask you today, how big you think this could be. What's the simplest answer to that without saying, in theory, it could be anything? Just because, at least what I've found is it's this mix between, it's credible, but it's massive. That's what we hope that Venn diagram is, that sweet spot and it's all relative to, today you're at $2 billion. So your story to ten or twenty is a lot easier than somebody who was at $100 million, right? But you're kind of trying to find that sweet spot where it's, I'm going to share something with you. You're going to believe but that's still massive and then I've kind of hit the nail on the head, sort of thing.",
+  "zh": "如果我今天问你，你觉得这能做多大。最简单的回答是什么——不用说「理论上可以是任何规模」？因为，至少就我的经验而言，关键在于这种混合：它是可信的，但它又是巨大的。那就是我们希望的那个维恩图的交汇点，那个甜蜜点，而且这都是相对的——今天你已经做到 20 亿美元了。所以你讲从 20 到 100 或 200 的故事，比一个只有 1 亿美元的人容易得多，对吧？但你要努力找到那个甜蜜点，就是，我要和你分享一件事。你会相信，但它仍然是巨大的，然后就算基本说到点子上了，大概如此。"
+ },
+ {
+  "seg": 73,
+  "start": 2081,
+  "end": 2144,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, I would say if we did nothing. Let's just say we sat here and we're now continuing to engage with folks and bring on new partners. This business grows into a couple billion of topline ARR, right? With SaaS level gross margins. So that's kind of the scale, like if you're pulling in now. It's not one of those businesses where you're doing a billion dollars of revenue a day, but you're bringing in several billion dollars a year of revenue and it will just continue to grow, right? It's one of those businesses that if the business stayed stagnant, we brought on no new business. It still grows because you still have people getting paid. You still have contributions coming in. You still have assets accumulating, right? And it just continues to ride up, even though we're. Because we do have some basis point component in most of our pricing. So there's an attribute to it, where the business grows just sitting here. So that's a unique thing where you're not just continuing to have to sell, sell, sell. You're like, just make sure the business doesn't churn. Our churn rate is industry low and we kind of reset the bar for how the industry operates.",
+  "zh": "是的，我会说如果我们什么都不做。就假设我们坐在这里，继续与各方合作并引入新的伙伴。这门生意会增长到几十亿美元量级的总 ARR，对吧？而且是 SaaS 级别的毛利率。所以这大概就是那个规模，就像你现在的进账。它不是那种一天做十亿美元收入的生意，但它每年能带来几十亿美元的收入，而且还会继续增长，对吧？它是那种，即使业务停滞不前、我们不再带来任何新业务，它仍然会增长的生意。因为总有人在往里存钱。总有缴款进来。总有资产在累积，对吧？它就是会持续往上走，即使我们没有。因为我们的定价里大部分都含有基点成分。所以它有一个特性，就是生意光是坐在这里就会增长。所以这是一个独特之处，你不只是需要不断地卖、卖、卖。你只需要，确保业务不流失。我们的流失率是行业最低的，而且我们某种程度上重新定义了这个行业运作的标准。"
+ },
+ {
+  "seg": 74,
+  "start": 2144,
+  "end": 2180,
+  "speaker": "Pablo Srugo",
+  "en": "So we have two tactical areas we want to go deep on. Let's start with the first one, you mentioned already that you didn't sell direct to businesses. You sold through advisors, you sold through financial institutions. A lot of startups leverage channels and partnerships to sell. Sometimes they do it exclusively. More often than not, it's kind of like augmenting a direct motion. But in any case, I'm curious, because it's different. It's different obviously selling direct and the ROI that you pitch. And even, just the connection you have to the end customer versus when you're selling through channels and partnerships. Tell me more about how you did it and in mind of an early stage founder that's thinking of doing this. Maybe already doing this, and lessons learned.",
+  "zh": "所以我们有两个战术层面的话题想深入聊。先从第一个开始，你已经提到过，你不是直接卖给企业。你是通过顾问卖，通过金融机构卖。很多初创公司利用渠道和合作关系来销售。有时是排他的。但更常见的情况是，作为对直销动作的补充。但无论如何，我很好奇，因为这不一样。直销和你推介的 ROI 是不一样的。甚至你和终端客户的连接，与通过渠道和伙伴关系销售时也不一样。多讲讲你是怎么做的，以及给那些正在考虑这么做的早期创始人的建议。也许已经在这么做了，以及学到的东西。"
+ },
+ {
+  "seg": 75,
+  "start": 2180,
+  "end": 2302,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, so on the enterprise side and the channel partnerships, for better or worse. It was kind of all I knew, right? I had spent my career doing it, living inside of these large organizations. I started my career at Northern Trust on the ERISA side, kind of almost serendipitously, fell into this world. If you asked me back when I graduated undergrad, if I would be in the space. I would have laughed at you and it's all just taking these, weird twists and turns. And I ended up here, but I knew how to engage with large institutions, right? And think through, okay, what's your tech landscape look like? What is the business P&L owner think, right? And how to cultivate those. Now there are different sides of the house. Although I sold it to advisors in my former life and broker dealers. The wealth side operated very differently than the retirement side and I was very adamant of like, why? I was like, it all should be one. You should think about these as the same thing and Morgan Stanley, to credit James Gorman. When he was running the show over there, he was a visionary and was like, this is the future of how this business works. So you can get a like minded individual who sees the future that you also see, right? Being able to get that buy in from an executive level is a lot easier than if you're just trying to convince someone like, hey, this is where the world's going to go. So that was kind of what we did and then we got a couple of early buys. Now, I would say, well, if you looked at the first deck I built for Vestwell before we had written a line of code. There was an element of direct to consumer, right? Think of a robo advisor type thing and I remember some investors like, pick one or the other. You're not going to do both. At least you're not going to do both well. So I was like, well, I don't really know the direct to consumer side. I didn't have that performance marketing tilt to my experience. So I was like, let me go the enterprise route. Cause I know how this is going to work and at least it's way more painful. The times you get kicked in the gut or you get to the finish line and everything falls apart. I mean, it is heart wrenching oftentimes. So, you got to have some thick skin and be able to deal with that, but it's worked out well for us.",
+  "zh": "是的，在企业级这边和渠道伙伴关系方面，不管好坏。那基本上是我唯一懂的，对吧？我的整个职业生涯都在做这个，活在这些大型机构里面。我的职业生涯从北方信托 Northern Trust 的 ERISA 侧开始，几乎是机缘巧合地，掉进了这个世界。如果你在我本科毕业时问我，我以后会不会在这个行业里。我会笑话你，而这一切就是那些奇怪的曲折转折。最后我走到了这里，但我知道如何与大型机构打交道，对吧？并且去思考，好，你的技术版图是什么样的？业务的 P&L 负责人是怎么想的，对吧？以及如何经营这些关系。虽然这栋楼里有不同的侧翼。虽然我在上一段职业里也卖东西给顾问和券商经纪商。财富管理侧的运作方式和退休金侧非常不同，而我当时非常坚持地想，为什么？我说，这本来就该是一体的。你应该把它们当成同一件事来思考，摩根士丹利——要给 James Gorman 记一功。他在那里掌舵的时候，他是一个有远见的人，他说，这就是这项业务未来的运作方式。所以你能遇到一个和你看到同样未来的志同道合的人，对吧？能从高管层面获得这种认同，比只去说服某个人说，嘿，世界会往这个方向走，要容易得多。所以那大概就是我们所做的，然后我们拿到了几个早期的认可。那么，我可以说，如果你看我为 Vestwell 做的第一份 deck，在我们写下第一行代码之前。里面其实有直接面向消费者的元素，对吧？想象一个 robo advisor 之类的东西，我记得有些投资人就说，选一个。你不可能两个都做。至少不可能两个都做好。于是我想，好吧，我对 direct to consumer 那边其实不了解。我的经验里没有那种效果营销的倾向。所以我说，那我走企业级的路线。因为我知道这条路会怎么走，而且至少它痛苦得多。那些被一脚踹在肚子上、或者到了终点线却一切崩塌的时刻。我的意思是，它常常让人心碎。所以你得有比较厚的脸皮，能够应对这些，但它对我们来说结果很好。"
+ },
+ {
+  "seg": 76,
+  "start": 2302,
+  "end": 2325,
+  "speaker": "Pablo Srugo",
+  "en": "Well, I'd love to pick one of the two. Whether it's the enterprise channel partnerships, like with the big financial institutions or the advisors. Which is more of a long tail, and just go deep on how you cracked that. What is the playbook that you used to get into, like we said. Either Morgan Stanley on that side or the long tail of advisors that fed your business for the first few years?",
+  "zh": "好，我很想让你从两者中挑一个。无论是企业级渠道合作，比如和大型金融机构，还是顾问。后者更像长尾，然后深入讲讲你是怎么攻下来的。你用的打法是什么，就像我们说的。无论是摩根士丹利那一侧，还是最初几年喂养成你业务的长尾顾问们？"
+ },
+ {
+  "seg": 77,
+  "start": 2325,
+  "end": 2458,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, I would the enterprise side, right? Because I think that's closer to my core of what I gauge on. On the enterprise side, there's a lot of it. I think you have to look at some of these deals you do is, it's a long road that you're marching down and you may not make the right turn or it may not fall into your lap the first time around. But often they come around if you just continue to do it. Interesting example, this was JP Morgan. When we sold, the first time we pitched, I think it was 2018, 2019, somewhere in there. We're maybe forty people deep and all of Vestwell. And we went in there, and we pitched. We got to the finals and it was a big RFP process. And you deal with these large banks, the procurement processes. All these things are their own animals and I remember we got to the finals, everyone around the table on their side was like, we want to believe this but they're like, you guys are a Series A company or something. They're like, I don't know if we can bet on. We're JP Morgan, we're the largest bank in the world. How can we bet on this forty person startup to carry what we think is going to be the future of a lot of our business, right? So we lost that, right? And I remember the guy who ran the winning bid. I knew really well on the other side. So they're another solution. I don't want to name the name but he was selling. He called me and he goes, it was you in the finals. And I'm like, yeah. He goes, how the hell did you get there? I laughed because I've known him for decades, right? And I was like, come on, man. I was like, how long have you known me? I was like, I'm going to show up. I'm going to be there and he goes, man. He goes, if you're there now, he's like, I'm screwed. He's like, there is no way I'm going to be able to keep up with the pace at which you're moving and I was like, no, man. I'm coming for you and I'm going to get this account back. I'm like, I'm going to win JP Morgan. Sure enough, fast forward three years later. That other vendor they selected was falling apart and I got a phone call and said, hey, you guys have clearly executed and everything you told us three years ago. The markets are singing songs about you guys. Let's go through this again, right? So we did it again and we won it. And now they've become one of our largest partners, I think we run like seven or eight programs across that bank now.",
+  "zh": "是的，我会选企业级这边，对吧？因为我觉得那更接近我判断事物的核心。在企业级这边，很多东西——我觉得你必须把你做的一些交易看作是，这是一条你要行军的长路，你可能第一次没有转对弯，或者它可能第一次不会自己掉到你怀里。但只要你持续做下去，它们往往会回头。一个有意思的例子，这是摩根士丹利——不，是摩根大通 JP Morgan。当我们去销售，我们第一次路演的时候，我记得是 2018 年、2019 年，差不多在那会儿。我们整个 Vestwell 也就大概四十个人。我们去了那里，做了路演。我们进了决赛，那是一个大型 RFP 流程。和这些大银行打交道，采购流程。所有这些东西本身就是独立的怪兽，我记得我们进了决赛，他们那边桌边的每个人都说，我们想相信这个，但他们说，你们是一家 A 轮公司还是什么。他们说，我不知道我们能不能押注。我们是摩根大通，我们是世界上最大的银行。我们怎么能押注这家四十人的初创公司，来承载我们认为是未来很重要的一部分业务，对吧？所以我们输掉了，对吧？我记得赢得标的那家的人。我和对面那位非常熟。所以他们用了另一个方案。我不想点名，但他在卖。他打电话给我，他说，进决赛的是你们。我说，是啊。他说，你到底是怎么走到那一步的？我笑了，因为我认识他几十年了，对吧？我说，拜托，兄弟。我说，你认识我多久了？我说，我会出现的。我会在那里，他说，兄弟。他说，如果你们现在就在这儿，他说，我就完蛋了。他说，我不可能跟得上你们前进的速度，我说，不，兄弟。我是冲着你来的，我会把这个客户夺回来。我说，我会赢下摩根大通。果然，快进三年之后。他们选的那家供应商正在崩塌，我接到了一个电话说，嘿，你们显然执行到位了，三年前你告诉我们的一切。市场上都在唱你们的赞歌。我们再来一遍流程吧，对吧？所以我们又走了一遍，我们赢了。而现在他们成了我们最大的伙伴之一，我记得我们现在在那家银行跑着大概七八个项目。"
+ },
+ {
+  "seg": 78,
+  "start": 2458,
+  "end": 2465,
+  "speaker": "Pablo Srugo",
+  "en": "During those three years where you'd lost it. What did you do with JP Morgan specifically to stay at least somewhat top of mind?",
+  "zh": "在你输掉之后的那三年里。你具体对摩根大通做了什么来至少保持在他们的视线里？"
+ },
+ {
+  "seg": 79,
+  "start": 2465,
+  "end": 2523,
+  "speaker": "Aaron Schumm",
+  "en": "Really, it was kind of like we just. I remember maybe once a quarter, just like, hey, remember this? We said we're going to do this, we did this, right? We said we're going to do this, we did this, right? Nothing grandiose or anything and then, you know, we'd go out there and we have our typical press releases, and posts, and everything we do out there, right? So it was just really just like, hey, go execute on what you said you're going to go do and the business is going to come back around. Similarly, it happened with John Hancock. We pitched John Hancock. We got to the finish line. It all fell apart and that was out of our control. That was more an internal thing. It all fell apart and then it all came back around. And now, again, they're one of our largest partners, right? It's like all these things you just kind of, as much as it was painful, and I remember just like, oh, like being so frustrated. You're like, just do what you do, guys and it's going to show up again. And we're going to win it the next time around. And that happens a lot. It's expensive and you want it the first time around. But, you know, when it shows up that second time around. There's an element of sweetness to it. You're just like, yes, we did it.",
+  "zh": "说真的，大概就是我们就是。我记得大概每个季度一次，就是，嘿，还记得这个吗？我们说过要做这个，我们做到了，对吧？我们说过要做这个，我们做到了，对吧？没有什么宏大的东西，然后，你知道，我们会发常规的新闻稿，发帖子，以及我们在外面做的一切，对吧？所以真的就是，嘿，去做你说过要做的事，生意就会回头的。类似的事情也发生在 John Hancock 身上。我们向 John Hancock 做了路演。我们到了终点线。一切崩塌了，而那不在我们的控制范围内。那更多是他们的内部问题。一切崩塌了，然后一切又转回来了。而现在，再次地，他们是我们最大的伙伴之一，对吧？就是所有这些事情，尽管痛苦，我记得就是那种，哦，特别沮丧。你想，兄弟们，做好你们的事，它还会再出现的。下一轮我们会赢。而且这种事发生得很多。这很昂贵，而且你想第一轮就拿下。但是，你知道吗，当它第二轮再出现的时候。会有一种甜美的感觉。你就像，好耶，我们做到了。"
+ },
+ {
+  "seg": 80,
+  "start": 2523,
+  "end": 2553,
+  "speaker": "Pablo Srugo",
+  "en": "You know, it's something I hear often in enterprise sales and I guess the lesson is the bar is low. Most people, if they lose a sale in enterprise deals. Especially, because the little ones, they really just kind of go away. But, you know, you lose a big bid and you just kind of go to zero. You're like, OK, move on to the next one and that's it. And all it takes is a little touch point, like you said, quarterly cadence and doesn't have to be exactly that. But some sort of cadence, some sort of touch points. So you're not completely forgotten. Because the cycle is going to repeat and that's just another bad. And you do this ten twenty, thirty times over. You're going to win some of those.",
+  "zh": "你知道吗，这是我在企业级销售中经常听到的一点，我想教训就是门槛很低。大多数人，如果他们在企业级大单中输掉了。尤其是小单，往往就真的那么消失了。但你看，你输掉一个大标，然后就直接归零。你说，好，转向下一个，就这样了。而其实只需要一点点触点，就像你说的，季度节奏，不一定非得是这个频率。但某种节奏，某种触点。这样你就不会被完全遗忘。因为周期是会重复的，而这只是又一个坏。而你这样做个十次二十次三十次。你总会赢下其中一些。"
+ },
+ {
+  "seg": 81,
+  "start": 2553,
+  "end": 2603,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, you get new leadership. Now, I've had on the flip side, too. Where you get there, you want an account, you want a deal, and then there's a riff or something, you know, the leadership gets changed. And then all of a sudden, you're like, oh, I got to start over again, right? So I think it goes both ways and, you know, enterprise sales is very expensive, right? It's some of these sales cycles that they're multiple years long. The procurement processes are, you know, slower than surgery. And, you know, but if you do it, you do it well. We spent a lot of time up front in our business knowing we're a new enterprise. On making sure our procurement, your responses were super buttoned up, right? We did our security, you know, our audits, all these things that you would typically kick the can on as a business. We pulled forward and got a lot earlier, more expensive than us but it was the right call. Because it allowed us to sail through these processes.",
+  "zh": "是的，还有新领导层上任的情况。当然，我也经历过反过来的情形。就是你到了那里，你想要一个客户，想要一个单子，然后出现了点变故，你知道，领导层被换掉了。然后突然之间，你就想说，哦，我又得从头再来，对吧？所以我觉得这是双向的，而且，你知道吗，企业级销售非常昂贵，对吧？有些销售周期长达好几年。采购流程嘛，你知道，比手术还慢。而且，你知道吗，但如果你做了，就要做好。我们花了很多前期时间——因为我们知道自己是一家新的企业级公司——确保我们的采购、你们的回应文件都无懈可击，对吧？我们做了安全，你知道，审计，所有这些公司通常都会往后拖的事情。我们提前做了，比我们当时体量应有的更早、更贵，但那是正确的决定。因为它让我们顺利通过了这些流程。"
+ },
+ {
+  "seg": 82,
+  "start": 2603,
+  "end": 2640,
+  "speaker": "Pablo Srugo",
+  "en": "So the other, the last thing I want to talk about and we have a few minutes here. Is we talk a lot on this show about hiring, finding the best talent, but I want to talk about the other side of that. Which is firing, because as you mentioned to me, nobody has perfect hiring. Nobody in the world, which means if you're doing your job, you're looking not just at bringing in the right people, but letting go of the people that are wrong for whatever reason. You have a bit of a ten percent rule or at least a heuristic. Where you think on a regular cadence about who are the bottom performers and how can we deal with that. Tell me more about that side of the business. The talent side, especially the getting rid of bottom performers side of the equation.",
+  "zh": "那么另一件事，最后我想聊的，我们还有几分钟时间。我们在这个节目里经常聊招聘，寻找最优秀的人才，但我想聊聊另一面。也就是解雇，因为正如你跟我提到的，没有人能招得完美。世界上没有人，这意味着如果你在做好你的工作，你不仅在看如何招进对的人，也在放手那些因为各种原因不合适的人。你有一个百分之十法则，或者至少一个经验法则。你会定期思考谁是最底部表现的人，以及我们该怎么处理。多讲讲业务的这一面。人才这一面，尤其是淘汰底部表现者的这一面。"
+ },
+ {
+  "seg": 83,
+  "start": 2640,
+  "end": 2659,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, I mean, it changes over the cycles of a business, right? And how you're maturing. I would say the early days, right? A lot of it is Gut check, right? I think the earliest days, it's hard, right? Because I was trying to convince people to come on board. I was literally just paying people out of my pocket. Hey, just come on. I need you for that. I was like, I need a front end guy. I need a back end engineer.",
+  "zh": "是的，我是说，它随着业务的周期而变化，对吧？以及你的成熟程度。我会说在早期，对吧？很多是靠直觉判断，对吧？我觉得最早的时候，很难，对吧？因为我当时在努力说服别人加入。我简直是在自掏腰包付钱给人。嘿，来吧。我需要你做这个。我说，我需要一个前端的人。我需要一个后端工程师。"
+ },
+ {
+  "seg": 84,
+  "start": 2659,
+  "end": 2674,
+  "speaker": "Pablo Srugo",
+  "en": "Yeah, I'll tell you about the early days. One thing that for me was always true, is you do so much work personally bringing the people on. The last thing you want to do is let go of anybody. You're like, I just know how much work it's going to take to replace it and it's so painful.",
+  "zh": "是啊，我来讲讲早期。对我来说一直成立的一点是，你亲力亲为做了那么多工作把人招进来。你最不想做的事就是放走任何人。你会想，我只是知道换掉他要花多少工作量，太痛苦了。"
+ },
+ {
+  "seg": 85,
+  "start": 2674,
+  "end": 2824,
+  "speaker": "Aaron Schumm",
+  "en": "It's true, it's true. I mean, it's still true in a lot of ways, right? You get key players on the team to a point and then you're like, oh, I got to cut this person. I got to, re-get, you know, train someone else in this. That is painful but, you know, one thing I did early was I did not hire people as part of the C suite. So every hire I made, they were a VP or SVP or whatever, and what I did was like, hey, I want you to be CTO or CFO or whatever it is, right? But I need to see you kind of grow into that where I feel confident and I'm going to start you here. Because if I have to layer you and I have to hire someone above you, I have that space to do that. It doesn't become a demotion talk to someone else. Say, hey, you're on the team, you're gonna get your first crack at growing into these shoes to play this role but I need to see it, right? And they're pretty specific to what you see. Now, over time though, there are some people I brought on early that just didn't have it, right? And I was just like, ugh. I'm like, okay, if I can get another three months out of this person and then I'm going to go hire someone in the background behind there. I did that a lot, right? Where I was just like, they're going to have to move on. I can keep the lights on with them in the seat now, but I got to get someone that brings a different skill set that we're going to need for this next turn and that happens a lot. And you got to be honest with people with it, right? It's like, hey, you may really like someone. I have, you know, there is a lot of people on this team that have been here a long time. That maybe haven't, they haven't just gone up the ranks of the hierarchy of the org chart. But, you know, you have honest conversations with it. They're like, hey, I'm good with that. Like, I only want to be an individual contributor. I only want to do this and that's fine. So then you just, if you have those real conversations, it's easy. You know, it's harder when you get people who don't want to have that conversation or they have an overinflated sense of self. That's like, hey, it's not you. You know, there are times I remember I worked with people that I go, I should be this or I should be that. Like, no, because I have worked with other people in that role and they'll run circles around you, right? And, you know, and sometimes you just have that conversation with people. I've had to off board lots of people and I'm just like, hey, it's time. Let's come up with an elegant kind of off ramp here and we're going to move on. And that's okay, you know, maybe it's not the way you want it but it's the right thing for the business. And I think that's the key thing is, you always have to look at the business and say, what is the right thing for this business? You got to cut your own personal emotions out of it, which is hard to do but you have to do it. Because if you don't do it, you're going to make poor decisions.",
+  "zh": "是真的，是真的。我是说，在很多方面至今仍然如此，对吧？你把团队里的关键人物带到一个程度，然后你想，哦，我得裁掉这个人。我得，重新招，你知道，再培训别人来做这个。那很痛苦，但是，你知道，我早期做的一件事是，我没有直接把人招进高管层。所以我的每一次招聘，他们都是 VP 或 SVP 什么的，我做的是说，嘿，我希望你成为 CTO 或 CFO 或任何职位，对吧？但我需要看到你逐渐成长为那个角色，让我有信心，而我会从这个层级开始用你。因为我如果需要在你上面加一层、需要招一个在你之上的人，我有那个空间可以这么做。不会变成对别人的一场降职谈话。而是说，嘿，你是团队的一员，你会获得第一个机会去成长到足以胜任这个角色，但我需要看到它，对吧？而且这相当具体，就看你表现出来的样子。不过，随着时间推移，确实有一些我早期招进来的人就是不行，对吧？我就想，唉。我会想，好，如果我能再从这个人身上榨出三个月，然后我就在背后悄悄招人替代。我经常这么干，对吧？就是那种，他们终究得走。我现在可以让他们坐在这个位置上维持运转，但我得找一个具备我们下一阶段所需的不同技能组合的人，这种情况经常发生。而且你必须对人诚实，对吧？就是，嘿，你可能真的很喜欢某个人。我有，你知道，这个团队里有很多人在这里待了很久。他们也许没有，他们没有沿着组织架构图的层级一路往上爬。但是，你知道，你和他们进行坦诚的对话。他们说，嘿，我可以接受。比如，我只想做个人贡献者。我只想做这个，那也很好。所以如果你进行那些真实的对话，事情就简单了。你知道，更难的是当你遇到不愿进行那种对话的人，或者他们自我认知过度膨胀。就像，嘿，问题不在你。你知道，我记得有时候我共事的人会说，我应该是这个职位，或者我应该是那个职位。比如，不，因为我和其他在那个职位上的人共事过，他们会把你甩出好几条街，对吧？而且，你知道，有时候你就是得和人进行那样的对话。我不得不让很多人离开，我就是说，嘿，到时间了。我们来设计一个体面的退出通道吧，然后我们各自前行。这样可以的，你知道，也许不是你想要的方式，但这对业务是正确的事。我觉得关键就在这里：你必须始终看着这门业务说，什么是对这门业务正确的事？你必须把自己的个人情绪剔除出去，这很难做到，但你必须做到。因为如果你不这么做，你会做出糟糕的决定。"
+ },
+ {
+  "seg": 86,
+  "start": 2824,
+  "end": 2853,
+  "speaker": "Pablo Srugo",
+  "en": "Here's a specific question on that. I have this kind of role myself, which is if a founder comes to me as the, you know, the VC partner in that company. And says to me, I've got this VPX, VP marketing. Let's say, I'm just not sure about them. I think I might let them go. My answer is always like, if you're coming to me with that, you got to do it. It's a done deal because if you've having the doubts and the doubts are so high. That you're like, I need to ask somebody else about my doubts. You're already past the doubt phase. You're actually, the decision is made. I don't know if you agree with that just in terms of a gut check.",
+  "zh": "这里有一个具体问题。我自己也有这种角色，就是如果一位创始人来找我——作为那家公司的、你知道的，VC 合伙人。并对我说，我有这个 VP 级的，VP 市场。比方说，我只是不太确定他。我想我可能要让他走。我的回答总是：如果你来找我聊这个，你就必须动手。这是板上钉钉的，因为如果你已经产生了怀疑，而且怀疑强烈到。你都觉得需要就我的怀疑去问别人。你已经过了怀疑阶段了。实际上，决定已经做出了。我不知道你是否同意这一点，就直觉判断而言。"
+ },
+ {
+  "seg": 87,
+  "start": 2853,
+  "end": 2884,
+  "speaker": "Aaron Schumm",
+  "en": "Yes, wholeheartedly. I think, you know, the old adage, you never regret firing someone too soon is very true. Even though it's painful, there is a number of people I remember, especially the earlier days, right? Now we're big, we're like, it's not as noticeable. But, the early days, I remember there were some key people that I'm like, this person has to go and they're just like, no, no, no, no. They can't go, they can't go, you know, they're still good for that. I'm like, no, get them out and then they're gone the next day or whatever. And then all of a sudden they're like, oh, it's not that bad without them.",
+  "zh": "是的，完全同意。我觉得，你知道，那句老话，你永远不会后悔过早解雇某人，非常正确。尽管很痛苦，我记得有不少人，尤其是在早期，对吧？现在我们大了，就不那么明显了。但是早期的时候，我记得有一些关键人物，我会想，这个人必须走，然后就有人，不不不不。他不能走，他不能走，你知道，他在那方面还有用。我说，不，让他走，然后第二天他就走了之类的。然后突然之间他们就说，哦，没有他也没那么糟。"
+ },
+ {
+  "seg": 88,
+  "start": 2884,
+  "end": 2887,
+  "speaker": "Pablo Srugo",
+  "en": "It's better usually, yeah. Other people shine as a result.",
+  "zh": "通常还更好，是的。其他人因此发光。"
+ },
+ {
+  "seg": 89,
+  "start": 2887,
+  "end": 2898,
+  "speaker": "Aaron Schumm",
+  "en": "There are some people that we've let go even recently that was like, it was like a weight was lifted off the business. You're like, oh, yes, thank you and then people have a lot more open dialogue. And sometimes you got to do that.",
+  "zh": "有一些人甚至是我们最近才放走的，那感觉就像一块石头从业务上卸下了。你会想，哦，是的，谢谢，然后大家有了更多开放的对话。有时候你就是得这么做。"
+ },
+ {
+  "seg": 90,
+  "start": 2898,
+  "end": 2909,
+  "speaker": "Pablo Srugo",
+  "en": "Perfect. Well, listen, let's stop it there. But I'll ask the question we always end on. What would be a top piece of advice you find yourself giving early stage founders often?",
+  "zh": "完美。好的，听着，我们就在这里收尾。但我会问我们一贯的收尾问题。你自己经常给早期创始人的一条顶级建议是什么？"
+ },
+ {
+  "seg": 91,
+  "start": 2909,
+  "end": 2947,
+  "speaker": "Aaron Schumm",
+  "en": "I think stay true to yourself and focus on the outcome, is really kind of the key thing. It is so easy to get caught up in noise and lose sight of where you need to go, right? And I'm just as guilty of this, right? Especially the early days, because everything's coming at you and you're just like. You're working, you know, endless hours and I think you almost have to just cancel the noise around you. Like social media, all that stuff. It's literally like doesn't exist in my life. I have my family and I have Vestwell and that is it, right? And I just focus on that because otherwise the rest of it will start to pull you in directions that are just not attitude to your life, and it's hard. And if you're passionate about it, like I am. It's a lot of fun, too, right? And you just keep grinding through it.",
+  "zh": "我认为是忠于自己并专注于结果，这真的是关键。太容易被噪音卷进去、迷失你需要去的方向，对吧？我自己也同样有这个问题，对吧？尤其是在早期，因为一切都朝你涌来，你就像。你工作着，你知道，没日没夜，我觉得你几乎必须把周围的噪音屏蔽掉。比如社交媒体，所有那些东西。它真的在我的生活中就像不存在一样。我有我的家庭，我有 Vestwell，就是这样，对吧？我只专注于此，因为否则其余的东西会开始把你拽向那些与你的生活毫不相干的方向，而这很难。如果你对它充满热情，就像我一样。它也会很有趣，对吧？然后你就继续埋头苦干下去。"
+ },
+ {
+  "seg": 92,
+  "start": 2947,
+  "end": 2947,
+  "speaker": "Pablo Srugo",
+  "en": "Aaron, it was great having you on the show, man. Thanks for spending the time.",
+  "zh": "Aaron，很高兴请你上节目，兄弟。谢谢你抽出时间。"
+ },
+ {
+  "seg": 93,
+  "start": 2947,
+  "end": 2947,
+  "speaker": "Aaron Schumm",
+  "en": "Yeah, no, I appreciate it.",
+  "zh": "是的，不客气，我很感激。"
+ },
+ {
+  "seg": 94,
+  "start": 2947,
+  "end": 3000.6,
+  "speaker": "Pablo Srugo",
+  "en": "So picture this. It's months from now, years from now and one of your founder friends. A really close founder friend of yours, guess what? Their startup went bankrupt and it turns out if you had just shared the Product Market Fit Show with them. They would have learned everything they needed to find Product Market Fit and to create a huge success. But instead, their startup has completely failed. You have blood on your hands. Don't let that happen. You don't want to live like that, it is terrible. So do what you need to do. Tell them about the show. Send it to them. Put it on WhatsApp. Put it on Slack. Put it where you need to put it. Just make sure they know about it and they check it out.",
+  "zh": "那么想象一下。几个月后，几年后，你的某位创始人朋友。一位关系特别好的创始人朋友，猜怎么着？他们的初创公司破产了，而事实证明，如果你当时只是把 Product Market Fit Show 分享给他们。他们就会学到找到 Product Market Fit、创造巨大成功所需要的一切。但相反，他们的初创公司彻底失败了。你手上沾着血。别让那种事发生。你不会想那样活着的，太可怕了。所以做你该做的事。告诉他们这个节目。发给他们。放到 WhatsApp 上。放到 Slack 上。放到你需要放的任何地方。只要确保他们知道它，并且去听听看。"
+ }
+]

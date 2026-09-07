@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Lucas Kaiser]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]]
+[[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":4,"Path Robotics":1,"LLM":27,"云计算":1,"真空":1,"主题化投资":1,"投资组合构建":1,"产品市场契合":16,"第一性原理":4}</script>
+<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":4,"Path Robotics":1,"LLM":27,"云计算":1,"真空":1,"主题化投资":1,"投资组合构建":1,"产品市场契合":17,"第一性原理":4}</script>
 
 <script>
 (function(){
