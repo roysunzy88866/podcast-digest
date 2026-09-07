@@ -1,0 +1,960 @@
+{
+  "episode_id": "2026-07-16-mad-openais-compute-chief-we-cant-build-fast",
+  "podcast": "The MAD Podcast",
+  "date": "2026-07-16",
+  "tags": [
+    "AI 基础设施",
+    "数据中心",
+    "自研芯片",
+    "电力与能源",
+    "算力经济学"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "sachin-katti",
+      "type": "person",
+      "role": "host",
+      "name": "Sachin Katti",
+      "file": "Sachin Katti",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "matt-turk",
+      "type": "person",
+      "role": "cohost",
+      "name": "Matt Turk",
+      "file": "Matt Turk",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            30.238,
+            30.918
+          ],
+          "quote": "Hi, I'm Matt Turk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2616.537,
+            2617.599
+          ],
+          "quote": "Hi, it's Matt Turk again.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集主角：嘉宾 Sachin 作为 OpenAI 工业算力负责人，系统讲述其算力获取、数据中心建设、自研芯片与保证容量业务，称其为人类历史上最大规模的基础设施建设。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            32.199,
+            40.602
+          ],
+          "quote": "My guest today is Sachin Kharty, who holds what might be the most fascinating and relevant title in tech right now, head of industrial compute at OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            59.112,
+            73.122
+          ],
+          "quote": "We talk about the staggering scale of the data centers being built, we get into the weeds on liquid-cooled supercomputers, power grid constraints, the potential of nuclear energy, and OpenAI's move into custom silicon with Jalapeno.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            128.176,
+            131.818
+          ],
+          "quote": "How do you view what you're currently building at OpenAI?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 36,
+          "t": [
+            184.147,
+            191.029
+          ],
+          "quote": "Yeah, and I read somewhere that OpenAI was planning on spending about $50 billion in compute this year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 44,
+          "t": [
+            221.625,
+            229.472
+          ],
+          "quote": "Is the right way to think about this that for OpenAI, it's a bit of a new world, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            247.83,
+            255.536
+          ],
+          "quote": "Yeah, I mean, I think OpenAI has always had a fundamental belief that computers are the foundation of everything, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            720.678,
+            724.141
+          ],
+          "quote": "So now for OpenAI, in addition to being the",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 144,
+          "t": [
+            725.242,
+            738.896
+          ],
+          "quote": "Application business, consumer and enterprise, and then being in the model AI research business, and then the computing data center business, since that OpenAI is in the chip business, if that's fair, sort of completely full stack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            831.47,
+            835.974
+          ],
+          "quote": "Without commenting on necessarily what's going on at OpenAI specifically, is inference",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1278.608,
+            1288.02
+          ],
+          "quote": "Since we talked about data centers at the beginning of this conversation, why do OpenAI and other companies pick rural areas?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1354.759,
+            1360.44
+          ],
+          "quote": "So you're the head of industrial compute apps, OpenAI,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1375.348,
+            1379.77
+          ],
+          "quote": "And how is this whole effort organized within OpenAI to the extent you can talk about it?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1433.207,
+            1437.21
+          ],
+          "quote": "So a big part of my role is capacity allocation inside OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1618.533,
+            1622.175
+          ],
+          "quote": "Most recently, before coming to OpenAI, I was Intel's CTA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1631.68,
+            1639.826
+          ],
+          "quote": "A mix of all of the above in OpenAI because they have a research lab, a startup, and a fast-growing company all mixed into one by OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1685.822,
+            1692.486
+          ],
+          "quote": "So going into a bit more specifics about OpenAI's compute strategy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2109.377,
+            2113.561
+          ],
+          "quote": "Three, I think perhaps an OpenAI unique point.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2442.988,
+            2447.49
+          ],
+          "quote": "It almost feels like OpenAI is also becoming a utility company, providing computing to others.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2532.258,
+            2535.619
+          ],
+          "quote": "And you can answer either with your OpenAI hat on or not.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集把它说成：把电子变成 token 的巨大工厂，橄榄球场大小、全液冷，选址看土地、许可、电力与劳动力，对所在社区是净正面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            294.657,
+            306.423
+          ],
+          "quote": "And maybe to anchor the conversation from the beginning, it would actually be very helpful to talk about what a data center is in reality.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            395.65,
+            403.716
+          ],
+          "quote": "And then on that topic, while we're at it, the cooling happens at the data center level or does it happen at the chip level or both?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 103,
+          "t": [
+            524.68,
+            532.385
+          ],
+          "quote": "So whenever we build a data center anywhere, we make it a hard commitment that we are not taking power away from the grid.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            549.806,
+            551.346
+          ],
+          "quote": "Obviously, a data center shows up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            552.027,
+            555.367
+          ],
+          "quote": "If there was spare capacity, then, of course, the data center can use it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            591.599,
+            602.343
+          ],
+          "quote": "And one of the side benefits of this big data center build out is the grid infrastructure of America, and the whole world for that matter, is getting upgraded very quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            637.666,
+            643.449
+          ],
+          "quote": "But in fact, the data center becomes effectively self-sufficient in terms of power.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            704.915,
+            708.957
+          ],
+          "quote": "But I think it's going to play a very important role, and data center will be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            725.242,
+            738.896
+          ],
+          "quote": "Application business, consumer and enterprise, and then being in the model AI research business, and then the computing data center business, since that OpenAI is in the chip business, if that's fair, sort of completely full stack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 172,
+          "t": [
+            899.012,
+            913.56
+          ],
+          "quote": "Obviously, I cannot resist asking the inevitable question around the potential risk of overbuilding given the lag between demand and usage and how long it takes to build a data center.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1163.796,
+            1171.582
+          ],
+          "quote": "So we show up in rural Texas, we build a data center that produces new property taxes for the community.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1189.133,
+            1197.579
+          ],
+          "quote": "And so I think one of the things we are investing a lot in is explaining the local benefits every time we build a data center somewhere.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1236.461,
+            1243.708
+          ],
+          "quote": "So we do actually the water consumption of a data center is shockingly small relative to household water consumption.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1263.982,
+            1273.924
+          ],
+          "quote": "So all those stories of brown water just don't make sense because the water at the data center happens in a contained circuit, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1747.911,
+            1764.157
+          ],
+          "quote": "As we go forward, obviously, there will be building on all of these relationships, but also looking at more options where we design the compute, the data center itself ourselves, or potentially even build the data center ourselves.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1899.462,
+            1902.144
+          ],
+          "quote": "That's the Abilene data center.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2348.458,
+            2353.262
+          ],
+          "quote": "We have bottlenecks in the data center building itself around permitting",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "liquid-cooling",
+      "type": "concept",
+      "role": "concept",
+      "name": "液冷 (liquid cooling)",
+      "file": "液冷",
+      "primary": true,
+      "how_described": "本集说液冷技术本身不新、新的是首次部署到这种规模，需同时做在芯片级和数据中心级，冷却越好芯片跑得越热、产出的智能越多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            441.27,
+            445.914
+          ],
+          "quote": "I think liquid cooling has been around for some time but has never been deployed at this scale.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stargate",
+      "type": "concept",
+      "role": "concept",
+      "name": "Stargate",
+      "file": "Stargate",
+      "primary": true,
+      "how_described": "本集说 Stargate 已演变成 OpenAI 算力策略的总括术语：与 Oracle 紧密合作（Abilene 数据中心训练了最近两个模型）、与软银能源共同设计建筑外壳。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            73.362,
+            80.547
+          ],
+          "quote": "We also discuss the broader Stargate strategy and the slightly sci-fi reality that AI is now beginning to help design its own chips.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1706.994,
+            1709.416
+          ],
+          "quote": "There's a bunch of things around the Stargate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1808.073,
+            1812.214
+          ],
+          "quote": "I mean, we look at Stargate as our compute strategy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1854.423,
+            1859.724
+          ],
+          "quote": "So Stargate to us is that umbrella strategy for across all of these different things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1871.988,
+            1880.452
+          ],
+          "quote": "I think Stargate to us is a continuous way of learning how to scale compute and we'll be adding on more and more capability.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jalapeno",
+      "type": "concept",
+      "role": "concept",
+      "name": "Jalapeno",
+      "file": "Jalapeno",
+      "primary": true,
+      "how_described": "本集说这是 OpenAI 的自研芯片（转写名，或与官方拼写有出入），核心指标是每瓦特 token 数，九个月从设计到流片，靠知道自家模型长什么样砍掉大量设计决策。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            59.112,
+            73.122
+          ],
+          "quote": "We talk about the staggering scale of the data centers being built, we get into the weeds on liquid-cooled supercomputers, power grid constraints, the potential of nuclear energy, and OpenAI's move into custom silicon with Jalapeno.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            713.491,
+            720.518
+          ],
+          "quote": "The other interesting bit of news that you guys recently had is Jalapeno.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            799.247,
+            804.69
+          ],
+          "quote": "So the key metric that Jalapeno is optimizing is maximizing the number of tokens you can produce per watt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2056.593,
+            2057.654
+          ],
+          "quote": "We talked about jalapeno.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mrc",
+      "type": "concept",
+      "role": "concept",
+      "name": "MRC",
+      "file": "MRC",
+      "primary": true,
+      "how_described": "本集说 MRC 是 OpenAI 发布的网络协议（转写名），把数据包喷洒到多条路径上、哪条先到走哪条，让十万卡集群的训练不受网络故障影响。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 453,
+          "t": [
+            2183.484,
+            2190.988
+          ],
+          "quote": "You also released a few weeks ago MRC, which is a networking protocol.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2245.809,
+            2250.77
+          ],
+          "quote": "So the strategy beyond MRC is how do you design algorithms and protocols",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2290.648,
+            2297.373
+          ],
+          "quote": "So MRC is like a multi-part spraying protocol where you can spray packets over multiple parts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说推理如今可能已占算力的大头，且训练与推理界限模糊——合成数据、后训练、测试时计算全是推理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            819.26,
+            830.469
+          ],
+          "quote": "So we'll come back to help in a second, but you just mentioned inference, and it's such an interesting evolution as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            831.47,
+            835.974
+          ],
+          "quote": "Without commenting on necessarily what's going on at OpenAI specifically, is inference",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            843.058,
+            855.467
+          ],
+          "quote": "Have we shifted from being very heavy pre-training runs as the major use case for compute to now just inference being the majority?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 161,
+          "t": [
+            856.287,
+            860.93
+          ],
+          "quote": "No, inference is a big, perhaps even the majority on compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            877.399,
+            878.36
+          ],
+          "quote": "That's inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            881.622,
+            883.643
+          ],
+          "quote": "And that's inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            886.805,
+            887.845
+          ],
+          "quote": "That's all inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            888.206,
+            894.489
+          ],
+          "quote": "So when we say training, a lot of the compute actually is inference, even in that phase of the work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            895.17,
+            897.751
+          ],
+          "quote": "So inference is a fundamental building.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1958.506,
+            1968.858
+          ],
+          "quote": "But these are really meant to be very big clusters that allow us to do both our training, but also product inference kind of completely.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": false,
+      "how_described": "本集在解释 MRC 时以十万块 GPU 集群为例，说明大规模训练中 GPU 需持续互通信。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 459,
+          "t": [
+            2214.639,
+            2227.345
+          ],
+          "quote": "And when you're doing large training runs, they're constantly communicating with each other because these models are so large that the processing of the models is happening over the entire 100,000 GPU cluster, for example.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nuclear",
+      "type": "concept",
+      "role": "concept",
+      "name": "核能 (nuclear)",
+      "file": "核能",
+      "primary": true,
+      "how_described": "本集说核能「来得越快越好」——人类能生产的最密集也最清洁的能源，将成为数据中心大规模可扩展能源的重要来源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            59.112,
+            73.122
+          ],
+          "quote": "We talk about the staggering scale of the data centers being built, we get into the weeds on liquid-cooled supercomputers, power grid constraints, the potential of nuclear energy, and OpenAI's move into custom silicon with Jalapeno.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            663.016,
+            666.837
+          ],
+          "quote": "Do you think the nuclear conversation is interesting?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            666.877,
+            672.818
+          ],
+          "quote": "Maybe we're recording this in France, which has a bunch of nuclear power generation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            672.838,
+            676.159
+          ],
+          "quote": "Nuclear seems to have come back to the discussion in the US as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "recursion",
+      "type": "concept",
+      "role": "concept",
+      "name": "递归 (recursion)",
+      "file": "递归",
+      "primary": true,
+      "how_described": "本集说递归的世界不远了——AI 正在设计优化自己的芯片，未来 AI 将设计它训练和运行下一代 AI 所需的系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            21.036,
+            29.978
+          ],
+          "quote": "We do believe that the world of recursion is not that far, where AI will design the systems it needs to train and run the next generation of AI, including this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "type": "company",
+      "role": "company",
+      "name": "Oracle",
+      "file": "Oracle",
+      "primary": true,
+      "how_described": "本集说 Oracle 是 Stargate 中与 OpenAI 紧密合作的伙伴：Abilene 数据中心的总承包方和云，OpenAI 帮其设计与运营 AI 算力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 363,
+          "t": [
+            1790.187,
+            1804.894
+          ],
+          "quote": "It seems that its target has evolved from what was going to be a joint venture with Oracle and SoftBank to what now seems like it's more like an umbrella term for the compute strategy these days.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1822.457,
+            1828.718
+          ],
+          "quote": "For example, with Oracle Close Partnership, we help them design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1896.44,
+            1899.402
+          ],
+          "quote": "We obviously have a big partnership with Oracle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1940.408,
+            1947.774
+          ],
+          "quote": "Oracle is building a number of data centers, all of which are public across Michigan and Texas and other places.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1969.038,
+            1974.08
+          ],
+          "quote": "But the way those deals are structured, Oracle is the prime, building those.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1975.12,
+            1976.86
+          ],
+          "quote": "Oracle is the cloud.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2022.559,
+            2028.721
+          ],
+          "quote": "So Microsoft, Google, Amazon, Oracle, we are the offtake.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "broadcom",
+      "type": "company",
+      "role": "company",
+      "name": "Broadcom",
+      "file": "Broadcom",
+      "primary": false,
+      "how_described": "本集说 Broadcom 是 Jalapeno 芯片的深度合作伙伴，在交付 ASIC 方面有很强的过往记录。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 437,
+          "t": [
+            2097.988,
+            2108.497
+          ],
+          "quote": "We have a great partner in Broadcom that has a very strong track record of delivering XPO's ASICs, so I think a strong partnership with Broadcom in making this happen.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": false,
+      "how_described": "本集说 Microsoft 是 OpenAI 算力组合中的重要超大规模云伙伴，OpenAI 作为其租户/承购方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 344,
+          "t": [
+            1698.67,
+            1706.794
+          ],
+          "quote": "So I think there's some Microsoft, you did this big $20 billion deal with Cerebrus.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1718.961,
+            1722.883
+          ],
+          "quote": "So Microsoft, obviously, is a big partner, important partner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2022.559,
+            2028.721
+          ],
+          "quote": "So Microsoft, Google, Amazon, Oracle, we are the offtake.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "intel",
+      "type": "company",
+      "role": "company",
+      "name": "Intel",
+      "file": "Intel",
+      "primary": false,
+      "how_described": "本集提到 Sachin 来 OpenAI 前曾任 Intel 的 CTO，这段经历让他见惯大决策的节奏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            42.703,
+            47.305
+          ],
+          "quote": "He was a professor at Stanford, a multi-time founder, and most recently the CTO at Intel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            158.813,
+            168.801
+          ],
+          "quote": "We compute that historically from my previous role, for example, at Intel, we probably take months to make given the magnitude of those decisions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1608.247,
+            1617.613
+          ],
+          "quote": "The last startup got acquired by VMware, and that's how I got to know Pat, Pat Dickens, Intel CEO, and that's how I ended up at Intel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1618.533,
+            1622.175
+          ],
+          "quote": "Most recently, before coming to OpenAI, I was Intel's CTA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1623.456,
+            1631.16
+          ],
+          "quote": "And so I've kind of seen all the different things, academia, startups, corporate in Intel, and then, of course,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "token",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

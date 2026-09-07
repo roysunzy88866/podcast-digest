@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]]
+[[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Liatrio":1,"价值流映射":1,"绞杀组织":1,"增值时间":1,"人在回路":5,"DevOps":3,"变革管理":2,"数字分身":2,"ChatGPT":51}</script>
+<script type="application/json" class="pd-epn">{"Liatrio":1,"价值流映射":1,"绞杀组织":1,"增值时间":1,"人在回路":6,"DevOps":3,"变革管理":2,"数字分身":2,"ChatGPT":52}</script>
 
 <script>
 (function(){

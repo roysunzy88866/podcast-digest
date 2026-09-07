@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":13,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":106,"Salesforce":14,"YC":11,"智能体":1,"SaaS 已死":1,"一次性代码":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":14,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":107,"Salesforce":14,"YC":11,"智能体":1,"SaaS 已死":1,"一次性代码":1}</script>
 
 <script>
 (function(){

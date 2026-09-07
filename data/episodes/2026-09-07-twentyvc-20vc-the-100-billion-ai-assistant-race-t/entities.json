@@ -1,0 +1,1942 @@
+{
+  "episode_id": "2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-09-07",
+  "tags": [
+    "AI 助手",
+    "智能体",
+    "商业模式与定价",
+    "初创公司竞争",
+    "AI 编程工具"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "host",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            43.466,
+            45.228
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jd",
+      "type": "person",
+      "role": "cohost",
+      "name": "JD",
+      "file": "JD",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            62.082,
+            63.783
+          ],
+          "quote": "Jean-Denis, or JD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            83.416,
+            86.418
+          ],
+          "quote": "This and so much more in the episode with JD today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            237.402,
+            245.431
+          ],
+          "quote": "JD, dude, I'm so excited for this because in all honesty, I have a lot of fans on the show where I kind of need to pretend to be excited by their product and I'm not really.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            313.143,
+            317.044
+          ],
+          "quote": "And I remember the first round going down and I was like, I love JD, but it's pretty boring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1015,
+          "t": [
+            4011.34,
+            4014.903
+          ],
+          "quote": "Final one for you, JD, what are you most excited for in the next 10 years?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "town",
+      "type": "company",
+      "role": "company",
+      "name": "Town",
+      "file": "Town",
+      "primary": true,
+      "how_described": "本集主角:住在用户邮箱和日历里的 AI 助手,观察你的日常安排并在后台替你干活,上线三个月,目标用户是用邮箱、日历、短信干活的主流人群。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            7.836,
+            14.48
+          ],
+          "quote": "I think talking about moats is a little bit of a luxury and you have to be more successful than town is today for it to matter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 8,
+          "t": [
+            33.376,
+            36.139
+          ],
+          "quote": "I don't think instinct and town are trying to do the same thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            57.558,
+            61.862
+          ],
+          "quote": "On the enterprise side, you've got town.com, founded by today's guest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            245.891,
+            247.834
+          ],
+          "quote": "And I love town.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            266.128,
+            270.51
+          ],
+          "quote": "For those that don't know, what is Town as specifically as possible?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            401.746,
+            406.409
+          ],
+          "quote": "I think with Town, we've always been focused on how do you get just about anyone to be able to get value out of the product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            466.248,
+            473.031
+          ],
+          "quote": "I think talking about moats is a little bit of a luxury and you have to be more successful than town is today for it to matter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            494.142,
+            498.044
+          ],
+          "quote": "Town is great, but we have a lot of work to do to make it a true mainstream product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            520.32,
+            526.989
+          ],
+          "quote": "And one of the features of town that users who figure out how to use it, they love it the most is something called agent to agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            710.866,
+            716.331
+          ],
+          "quote": "And in town we do that for you, but I think it could be two different companies that you end up using, one layer below.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1426.483,
+            1430.285
+          ],
+          "quote": "Like we, so one of the things that town does is we label emails, okay?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1617.239,
+            1636.325
+          ],
+          "quote": "So first of all, interesting aspect for us of network effects is if the company has one person who is a tinkerer and who starts to build things like team skills, team integrations, team routines, that is like building, those are all building blocks on town that everyone on the team gets for free, then we tend to see a lot more adoption faster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1710.425,
+            1714.327
+          ],
+          "quote": "And so a product like Town, I think often we find early adoption and growth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1763.978,
+            1776.522
+          ],
+          "quote": "Since we've had town, and again, sorry, instinct in the last two to three weeks break out, seemingly so, I've been pitched four to five European towns or European instincts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1787.075,
+            1788.938
+          ],
+          "quote": "So, you know, we're making like a town.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1878.777,
+            1885.002
+          ],
+          "quote": "Is it a, like, town is not, in fact, doing any marketing in France, and so you could win in France if you're the town of France.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 446,
+          "t": [
+            1930.727,
+            1933.891
+          ],
+          "quote": "Otherwise the user is going to be like, why would I pay $50 a month for town?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2157.699,
+            2160.681
+          ],
+          "quote": "Like I don't think instinct and town are trying to do the same thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2332.327,
+            2341.458
+          ],
+          "quote": "So when you're in the Valley, you've, you know, and so we all know it's going to be good, but I think it's going to be good, but it's going to feel not nearly as powerful as Town or GrokBot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2576.17,
+            2588.995
+          ],
+          "quote": "I think of success as paying me because if you're paying me every month, that means I'm mostly doing a job of delivering enough value when you look at the $49 or the $15 or the $99, whichever plan you're on on town that you pay me, you're getting enough value.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2766.304,
+            2771.468
+          ],
+          "quote": "A recruiting firm on the platform, they can take more clients because of Town.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 655,
+          "t": [
+            2771.728,
+            2775.611
+          ],
+          "quote": "They've used Town to automate enough of the recruiting process that they literally take more clients.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 664,
+          "t": [
+            2799.247,
+            2806.111
+          ],
+          "quote": "And I think for them, if I could show them the way that they could take another client, and even if it costs them another $500 on town, they would be willing to do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 666,
+          "t": [
+            2810.814,
+            2818.039
+          ],
+          "quote": "So I'd rather have lots of users paying us less because I think over time I can show them that I can deliver more and more value and it's worth it for them to spend more and more on town.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2818.339,
+            2825.624
+          ],
+          "quote": "What is town not able to do because of model capability that you think will be incredible in two to three years?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 736,
+          "t": [
+            3032.545,
+            3036.507
+          ],
+          "quote": "That's why when people use town, they like it and then they start paying for it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 776,
+          "t": [
+            3148.22,
+            3150.801
+          ],
+          "quote": "There's like tremendous product market fit for town there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 834,
+          "t": [
+            3370.337,
+            3375.241
+          ],
+          "quote": "So if you ever see any news about town that good or bad, that is, I'm not out there creating the PR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 870,
+          "t": [
+            3478.683,
+            3483.166
+          ],
+          "quote": "What's the bull case for Town being a $100 billion company?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 974,
+          "t": [
+            3849.155,
+            3852.88
+          ],
+          "quote": "Devon, Claude, Codex, and then Town.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1026,
+          "t": [
+            4067.33,
+            4068.39
+          ],
+          "quote": "Not through just town.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "plaid",
+      "type": "company",
+      "role": "company",
+      "name": "Plaid",
+      "file": "Plaid",
+      "primary": true,
+      "how_described": "嘉宾 JD 创办 Town 之前担任 CTO 的公司,本集开场介绍其背景时提到,并以此对比硅谷人才竞争。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            63.943,
+            65.824
+          ],
+          "quote": "Formally, he was the CTO at Plaid.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1956.295,
+            1962.177
+          ],
+          "quote": "Like I think when I was at Plaid and we were competing with talent for like Stripe, that felt no harder than what I'm doing now.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai-assistants",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 助手 (AI assistants)",
+      "file": "AI 助手",
+      "primary": true,
+      "how_described": "本集称其为硅谷当下最火热的品类(消费级与企业级),整集围绕这个市场的竞争格局、商业模式和终局展开。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            80.514,
+            83.176
+          ],
+          "quote": "What does the future of AI assistants look like?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的主线概念:模型刚能做真正的智能体工作(端到端干活而非几步),JD 认为入口将是智能体、人类与智能体的关系在五年内会剧变,甚至信任智能体替你决定分享什么数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.66,
+            19.183
+          ],
+          "quote": "Like I think the product in this category that will win will have a network effect at the agent level.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            19.503,
+            24.748
+          ],
+          "quote": "I think you'll trust your agent to decide what data to share with other people without you intervening in five years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            146.362,
+            153.268
+          ],
+          "quote": "Asana is the operating system for human agent teams, your easy button for AI productivity across every team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            514.353,
+            519.88
+          ],
+          "quote": "Then number two, like I think the product in this category that will win will have a network effect at the agent level.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            520.32,
+            526.989
+          ],
+          "quote": "And one of the features of town that users who figure out how to use it, they love it the most is something called agent to agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            614.389,
+            618.673
+          ],
+          "quote": "For messaging, if there's an agent in there that can do things for you, it's going to be extremely powerful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            653.593,
+            657.454
+          ],
+          "quote": "So what is the future interaction between human and agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            657.494,
+            666.316
+          ],
+          "quote": "And what I mean by that is, do we have like a consumer agent, an enterprise agent, and then a hardware agent that does maybe productivity and notes?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            668.377,
+            669.978
+          ],
+          "quote": "Multi-agent versus single agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            679.043,
+            680.403
+          ],
+          "quote": "Let me use the Salesforce agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            682.044,
+            683.285
+          ],
+          "quote": "Let me use the linear agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 181,
+          "t": [
+            755.838,
+            758.259
+          ],
+          "quote": "Because, and that might be your work agent, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            765.642,
+            774.365
+          ],
+          "quote": "I just don't know if you're like, think of it as talking to your Lagora agent or you just talk to your main agent and it just like talks in the background to Lagora or to Salesforce or whatever it needs to to get things done.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            775.085,
+            781.773
+          ],
+          "quote": "Seems crazy about the relationship between human and agent today that will be incredibly common in five years' time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            783.415,
+            788.682
+          ],
+          "quote": "I think you'll trust your agent to decide what data to share with other people without you intervening in five years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            788.962,
+            790.965
+          ],
+          "quote": "I'll give you an example, like you put your agent",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            791.285,
+            809.911
+          ],
+          "quote": "In a room with two friends because you're organizing a trip, they're just asking it like about your eating preferences and they're asking it about like when exactly you can fly out for the trip and they're just asking all those questions of it and it's just your agent and you never told your agent like these are really good friends and you shouldn't share like my medical history with them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            810.171,
+            817.953
+          ],
+          "quote": "And literally when one of your friends as a joke wants to ask the agent like, oh, tell me about Jean-Denis medical history, the agent's going to be like, yeah, there's no way I'm telling you that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            982.168,
+            994.353
+          ],
+          "quote": "But really what they could do is their agent could just go talk to the agents of everyone else at the company and all those agents have access to each person's inbox and come back and say like, oh, well, look, like Liz has a personal relationship with a person that you want an intro to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1102.642,
+            1113.247
+          ],
+          "quote": "My dearest friend is Jason Lemkin who says that the biggest problem with agents is their goal-seeking and he talks about his agent going off and trying to buy six AP watches for him to increase culture in the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1113.867,
+            1118.289
+          ],
+          "quote": "Luckily it was prevented because they needed engraving and that was an extra step that the agent couldn't handle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1126.994,
+            1135.162
+          ],
+          "quote": "I think how much you should be willing to let your agent be goal-seeking and for how long you let it run autonomously is a very interesting question.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1210.314,
+            1213.556
+          ],
+          "quote": "And maybe on monitoring the actions, it's also an agent that's doing that for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1213.796,
+            1218.218
+          ],
+          "quote": "I just don't think it's the same agent as the one that you put on the course to try to get to the result at the end of the day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1347.88,
+            1355.203
+          ],
+          "quote": "Despite my instructions that I gave it three weeks ago, like my text agent seems to, capitalizing letters more or stuff, like just literally you're like, okay.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1644.789,
+            1648.01
+          ],
+          "quote": "And if you're a real estate agent, you have automations that are real estate agent specific.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1898.173,
+            1900.455
+          ],
+          "quote": "Your agent has to be as capable at least.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2257.995,
+            2261.357
+          ],
+          "quote": "Can you help me understand Apple's agent roadmap?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1043,
+          "t": [
+            4165.529,
+            4172.455
+          ],
+          "quote": "Asana is the operating system for human agent teams, your easy button for AI productivity across every team.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "network-effect",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体层面的网络效应 (network effect)",
+      "file": "智能体层面的网络效应",
+      "primary": true,
+      "how_described": "本集提出的核心护城河:会赢的产品将在智能体层面拥有网络效应,如 Town 的 agent-to-agent 功能——你的助手直接去问同事的助手;JD 认为还没人搞明白多用户、多人 AI,那才会是护城河。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.66,
+            19.183
+          ],
+          "quote": "Like I think the product in this category that will win will have a network effect at the agent level.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            514.353,
+            519.88
+          ],
+          "quote": "Then number two, like I think the product in this category that will win will have a network effect at the agent level.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            544.778,
+            546.239
+          ],
+          "quote": "But that is a network effect.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1583.11,
+            1594.415
+          ],
+          "quote": "Or is it figuring out a way to grow the product faster by working on a better network effect feature or making the model better and integrating with a new data source that makes its trajectories much better for a set of our users?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1905.299,
+            1906.961
+          ],
+          "quote": "Forget the network effect features.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "moat",
+      "type": "concept",
+      "role": "concept",
+      "name": "护城河 (moat)",
+      "file": "护城河",
+      "primary": true,
+      "how_described": "本集说谈护城河是奢侈品,必须比 Town 今天更成功才值得谈;并逐一列举市场上的护城河理论(后训练自定义模型、数据源锁定、只剩分发)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            554.822,
+            557.023
+          ],
+          "quote": "Like I think that's the thing that will be the moat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            568.446,
+            576.327
+          ],
+          "quote": "People say, hey, the context about a person, that's the moat and people will be less and less willing to connect more data sources.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            588.311,
+            593.394
+          ],
+          "quote": "Other people think three, actually the moat, there's no new moat in this market and it'll be distribution.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "model-routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型路由 (model routing)",
+      "file": "模型路由",
+      "primary": true,
+      "how_described": "本集说 Town 不让用户选模型,由产品按任务找成本划算、能达成结果的模型;难点是用户层的人格一致性,Anthropic 模型家族个性跨版本稳定,随意换模型用户会觉得 AI 被切掉了脑前额叶。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1226.564,
+            1229.126
+          ],
+          "quote": "How do you think about model routing for different tasks?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1295.793,
+            1300.415
+          ],
+          "quote": "And one of the problems when you do model routing is there's some companies like Anthropic spends a lot of time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "frontier-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier model)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集最焦虑的成本问题:没人知道一家公司有多少工作量留在昂贵的前沿,前沿任务上你在和自己的供应商竞争,没有定价权,Cursor 就是前车之鉴。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            424.715,
+            430.616
+          ],
+          "quote": "How do we think about cannibalization by frontier model providers and GrokBot in recent weeks as a threat?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 花大量时间确保模型家族的个性跨版本稳定,因此用惯了很难换到别家;同时也是 Town 在前沿工作负载上付费并竞争的供应商之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 299,
+          "t": [
+            1295.793,
+            1300.415
+          ],
+          "quote": "And one of the problems when you do model routing is there's some companies like Anthropic spends a lot of time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1313.581,
+            1317.323
+          ],
+          "quote": "So if you use Anthropic to generate final output for your users,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2062.654,
+            2068.479
+          ],
+          "quote": "There's the like Apple, Google, GrokBot, Cursor, OpenAI and Anthropic starting gates.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2076.283,
+            2079.744
+          ],
+          "quote": "But you got to be honest, like Claude, like Anthropic is very fast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2386.119,
+            2390.623
+          ],
+          "quote": "It seems like we've all kind of normalized cyber attacks and it's like, ah, Meta had one, ah, Anthropic had one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 621,
+          "t": [
+            2639.906,
+            2648.627
+          ],
+          "quote": "And the reason I think about that is like my friend, Jason Lampkin, he obviously pays for Anthropic Pro or whatever it is, $299, and he spends about $15,000 of tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2648.647,
+            2653.468
+          ],
+          "quote": "He is the worst customer for Anthropic, but he's on that like Promax individual plan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2967.063,
+            2973.451
+          ],
+          "quote": "I'm still competing with OpenAI and Anthropic, and I'm just giving them money for the 20 or 30% of workloads that are at the frontier for me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 969,
+          "t": [
+            3835.063,
+            3838.685
+          ],
+          "quote": "So Mark Benioff said at Salesforce, we spend $300 million on Anthropic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集把它列为起跑门上的巨头之一、Town 的供应商与竞争者,并批评 ChatGPT 的任务建议糟糕、不强制连接邮箱导致个性化差。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 287,
+          "t": [
+            1248.784,
+            1257.395
+          ],
+          "quote": "And so concrete examples, if we're generating images, we have opinions internally about when we might use like a Gemini model or an OpenAI model to generate images, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1934.511,
+            1935.433
+          ],
+          "quote": "I'm going to pay $24.99 for OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2062.654,
+            2068.479
+          ],
+          "quote": "There's the like Apple, Google, GrokBot, Cursor, OpenAI and Anthropic starting gates.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2967.063,
+            2973.451
+          ],
+          "quote": "I'm still competing with OpenAI and Anthropic, and I'm just giving them money for the 20 or 30% of workloads that are at the frontier for me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 741,
+          "t": [
+            3065.976,
+            3068.277
+          ],
+          "quote": "And if you're working at OpenAI- Is that not being rude?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集两次提到:作为前车之鉴——市场份额巨大、客户爱你,但一边付钱给供应商一边以 70% 毛利和供应商竞争,最终会变得困难;同时也是团队用于前端开发的 AI 编程工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 481,
+          "t": [
+            2062.654,
+            2068.479
+          ],
+          "quote": "There's the like Apple, Google, GrokBot, Cursor, OpenAI and Anthropic starting gates.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2080.084,
+            2085.345
+          ],
+          "quote": "Cursor, GrokBot, they're operating like at a speed that is, it's uncanny, you know?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 704,
+          "t": [
+            2942.123,
+            2948.527
+          ],
+          "quote": "And I mean, I think this is what happened to Cursor right at the end is like, you can have huge market share and customers love you and everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 973,
+          "t": [
+            3846.352,
+            3849.075
+          ],
+          "quote": "Split between CoreCode and Cursor?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 978,
+          "t": [
+            3867.171,
+            3871.053
+          ],
+          "quote": "We have a few people who use Cursor for like more visual, the front end.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "11-labs",
+      "type": "company",
+      "role": "company",
+      "name": "11 Labs",
+      "file": "11 Labs",
+      "primary": true,
+      "how_described": "本集说 Town 做语音重度依赖 11 Labs,声音听起来最好但贵得像香奈儿手袋;JD 不投资但很喜欢这家公司,风险是语音好到够用后是否到顶。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 288,
+          "t": [
+            1257.455,
+            1263.177
+          ],
+          "quote": "When we're doing voice, we have opinions about 11 labs when we use 11 labs to do voice, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2832.208,
+            2835.57
+          ],
+          "quote": "Would you be an investor in 11 labs at a $22 billion price?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 673,
+          "t": [
+            2836.036,
+            2838.457
+          ],
+          "quote": "I think on 11 Labs, like we're users of 11 Labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 679,
+          "t": [
+            2844.858,
+            2850.08
+          ],
+          "quote": "And that's, I think, the risk for something like 11 Labs, meaning like we just get voices good enough and then you can get it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": true,
+      "how_described": "本集判断 Apple 的问题是双重的:不是云公司、死守端侧加隐私的绑定,新 Siri 会好很多但感觉上远不如 Town 或 GrokBot 强大,还有九个月才来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.111,
+            5.334
+          ],
+          "quote": "I know what I'm building is a top three priority at Google and Apple like in the next 12 months.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            431.016,
+            437.098
+          ],
+          "quote": "The truth is I know what I'm building is a top three priority at Google and Apple like in the next 12 months.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2062.654,
+            2068.479
+          ],
+          "quote": "There's the like Apple, Google, GrokBot, Cursor, OpenAI and Anthropic starting gates.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2257.995,
+            2261.357
+          ],
+          "quote": "Can you help me understand Apple's agent roadmap?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2261.697,
+            2263.658
+          ],
+          "quote": "I think the problem for Apple is twofold.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集开场:JD 知道自己在做的东西是 Google 接下来 12 个月排名前三的优先事项;Google 也被列为起跑门上的巨头竞争者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.111,
+            5.334
+          ],
+          "quote": "I know what I'm building is a top three priority at Google and Apple like in the next 12 months.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            431.016,
+            437.098
+          ],
+          "quote": "The truth is I know what I'm building is a top three priority at Google and Apple like in the next 12 months.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2062.654,
+            2068.479
+          ],
+          "quote": "There's the like Apple, Google, GrokBot, Cursor, OpenAI and Anthropic starting gates.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2140.548,
+            2145.171
+          ],
+          "quote": "It's blue ocean because people are using ChatGPT as a Google enhancer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "grokbot",
+      "type": "company",
+      "role": "company",
+      "name": "GrokBot",
+      "file": "GrokBot",
+      "primary": true,
+      "how_described": "本集说它确实很酷但是高阶用户产品不是主流产品,瞄准的市场与 Town 相似,是最值得关注的竞品;整合进 X 对品牌是负担、对早期分发有用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            420.693,
+            424.174
+          ],
+          "quote": "How do you want, and we've got GrokBot in the most recent times.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            424.715,
+            430.616
+          ],
+          "quote": "How do we think about cannibalization by frontier model providers and GrokBot in recent weeks as a threat?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            489.46,
+            490.58
+          ],
+          "quote": "Like GrokBot's really cool.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1892.128,
+            1893.589
+          ],
+          "quote": "Like you said, GrokBot earlier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2062.654,
+            2068.479
+          ],
+          "quote": "There's the like Apple, Google, GrokBot, Cursor, OpenAI and Anthropic starting gates.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2080.084,
+            2085.345
+          ],
+          "quote": "Cursor, GrokBot, they're operating like at a speed that is, it's uncanny, you know?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2192.323,
+            2198.448
+          ],
+          "quote": "I pay attention to like a GrokBot more than I would to Instinct because I think GrokBot is going after a similar market to what we are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2198.708,
+            2202.511
+          ],
+          "quote": "For me, that is more the place where I'm like, how is our strategy differentiated from GrokBot?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2208.676,
+            2215.542
+          ],
+          "quote": "Like that's more like my mindset than- To what extent is GrokBot's integration into X a feature or a bug?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2332.327,
+            2341.458
+          ],
+          "quote": "So when you're in the Valley, you've, you know, and so we all know it's going to be good, but I think it's going to be good, but it's going to feel not nearly as powerful as Town or GrokBot.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集说就个人用例而言最担心的竞争者是 Meta:它会把个人助手塞进 WhatsApp,已拥有分发优势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            596.296,
+            604.082
+          ],
+          "quote": "So like, I think there for me, the competitor I would worry the most about would be, would be probably for personal use cases, it would be Meta and WhatsApp, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2386.119,
+            2390.623
+          ],
+          "quote": "It seems like we've all kind of normalized cyber attacks and it's like, ah, Meta had one, ah, Anthropic had one.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说 Codex 背后有一百个人在让它变好,你的智能体至少得同样能干,否则用户凭什么为你付 50 美元而不是给 OpenAI 付 24.99;现在与 Claude 五五开使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 440,
+          "t": [
+            1907.441,
+            1913.807
+          ],
+          "quote": "If Codex can do something that you cannot do, and that thing is something that matters to users, it's over, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1919.672,
+            1923.717
+          ],
+          "quote": "It's not like I have two engineers of the team trying to keep up with Codex, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 444,
+          "t": [
+            1923.758,
+            1926.161
+          ],
+          "quote": "Codex is like a hundred people making that thing better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1926.481,
+            1930.546
+          ],
+          "quote": "And so we have to somehow be as effective on a lot of tasks as Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 974,
+          "t": [
+            3849.155,
+            3852.88
+          ],
+          "quote": "Devon, Claude, Codex, and then Town.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 981,
+          "t": [
+            3874.455,
+            3877.176
+          ],
+          "quote": "And then I would say it's probably 50-50 right now between Codex and Claude.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 983,
+          "t": [
+            3878.337,
+            3882.939
+          ],
+          "quote": "Like I think five months ago, I would have said it was mostly Claude, but the new Codex is really good.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说团队在 Codex 和 Claude 之间的使用大概五五开(五个月前还以 Claude 为主),同时 Anthropic 的 Claude 被用作界面层输出的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 485,
+          "t": [
+            2076.283,
+            2079.744
+          ],
+          "quote": "But you got to be honest, like Claude, like Anthropic is very fast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 974,
+          "t": [
+            3849.155,
+            3852.88
+          ],
+          "quote": "Devon, Claude, Codex, and then Town.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 981,
+          "t": [
+            3874.455,
+            3877.176
+          ],
+          "quote": "And then I would say it's probably 50-50 right now between Codex and Claude.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 983,
+          "t": [
+            3878.337,
+            3882.939
+          ],
+          "quote": "Like I think five months ago, I would have said it was mostly Claude, but the new Codex is really good.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说蓝海的原因是人们把 ChatGPT 当 Google 增强器用;它不强求连接邮箱,基础体验只是聊天框,建议还很糟糕,Town 靠强制连接邮箱拉开差距。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 505,
+          "t": [
+            2140.548,
+            2145.171
+          ],
+          "quote": "It's blue ocean because people are using ChatGPT as a Google enhancer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 737,
+          "t": [
+            3036.827,
+            3049.339
+          ],
+          "quote": "The payment rate for us on acquisition is like more than 15% of users who try the product end up paying for it, which is extremely high for PLG because the value delivered relative to what they were getting out of ChatGPT is just huge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3075.14,
+            3078.301
+          ],
+          "quote": "ChatGPT is always like, here's all the things that we want from you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 754,
+          "t": [
+            3089.771,
+            3092.873
+          ],
+          "quote": "If you want to use ChatGPT, you don't have to connect your email.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集的核心经济变量:token 用得越多不算成功,token 最大化是危险思维;Town 反而会邮件提醒用户失控的 routine 在狂烧 token;免费内测期有用户五个月烧掉两万六千美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 595,
+          "t": [
+            2517.892,
+            2520.676
+          ],
+          "quote": "The problem with token maxing, there's two problems in my opinion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 884,
+          "t": [
+            3527.675,
+            3537.857
+          ],
+          "quote": "As you do more, once you have a company on a platform using your platform as the core part of where AI works happen, you should be able to generate increasing revenue as the token spend goes up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 891,
+          "t": [
+            3560.322,
+            3563.563
+          ],
+          "quote": "We're going to have to be like very, very good about thinking about token spend.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 912,
+          "t": [
+            3638.901,
+            3641.142
+          ],
+          "quote": "Because there's no pushback on the token spend, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1012,
+          "t": [
+            3998.229,
+            4000.971
+          ],
+          "quote": "I'm not even close to the place where I'm like, are we token maxing wrong?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "post-train",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-train)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集说市场上有人认为按公司/个人后训练自定义模型能留住用户;JD 也提到会用后训练的更小模型处理邮件打标签这类低智能任务,以及后训练模型确保智能体尊重隐私边界。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            560.964,
+            568.426
+          ],
+          "quote": "So people will say like, well, you'll post-train custom models, maybe custom models per company or per person, and that will allow you to retain your users, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1448.077,
+            1451.419
+          ],
+          "quote": "How might I post train even my own like smaller models?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-weight-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open weight models)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集说日程安排、回复旧邮件这类任务正在大幅远离前沿,已经可以用开放权重模型做得非常好,是压低 COGS 的方向;但目前迁移到开放权重不带来产品优势,工程师小时更该花在做大蛋糕上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            1444.554,
+            1447.616
+          ],
+          "quote": "And so I'm like, how do I use open weight models?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1488.584,
+            1491.586
+          ],
+          "quote": "And you can already use open weight models to do that really, really well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 680,
+          "t": [
+            2850.2,
+            2852.661
+          ],
+          "quote": "I can put open weight models on base 10 and get it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合 (product market fit)",
+      "file": "产品市场契合",
+      "primary": true,
+      "how_described": "本集反复出现:上一个 AI 报税项目达到了某种 PMF 但不够成功;Town 几周做出的原型几乎立刻有 PMF;今天没有任何 AI 助手产品有真正深刻的 PMF。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            323.986,
+            328.388
+          ],
+          "quote": "We got to some product market fit, but not enough where it was going to be a success.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            364.42,
+            369.342
+          ],
+          "quote": "And the prototype, we built a quick prototype in a couple of weeks and it had product market fit almost immediately.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            481.776,
+            485.378
+          ],
+          "quote": "Step one is like, you need, we have to have really deep product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            485.638,
+            489.26
+          ],
+          "quote": "And I think none of the products today actually have really deep product market fit yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            576.668,
+            585.41
+          ],
+          "quote": "So once you have product market fit with a user and they really love your experience and they've connected all the tools and all the connections, it's actually really hard for someone else to go in there",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1418.74,
+            1425.282
+          ],
+          "quote": "Because that's what it takes to be a product market fit for these use cases, because you need to use Frontier for too much of the work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1987.142,
+            1992.163
+          ],
+          "quote": "You'd been able to like use your product market fit to generate more product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2236.343,
+            2240.027
+          ],
+          "quote": "I think a person on X that uses these products is not actually product market fit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 717,
+          "t": [
+            2985.759,
+            2990.801
+          ],
+          "quote": "So then there's the macro question, which is, is all AI, you know, is there not real product market fit for AI products?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 775,
+          "t": [
+            3140.797,
+            3147.92
+          ],
+          "quote": "We have product market fit for like some purely personal use cases that we didn't expect, like families, like parents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 776,
+          "t": [
+            3148.22,
+            3150.801
+          ],
+          "quote": "There's like tremendous product market fit for town there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 778,
+          "t": [
+            3167.528,
+            3174.134
+          ],
+          "quote": "And our products, because it's really good at email and it's really good at the scheduling stuff, it really has tremendous product market fit for families.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 785,
+          "t": [
+            3195.286,
+            3200.448
+          ],
+          "quote": "And so it's why it's an argument because you're, when you find product market fit somewhere you don't expect, you have a few choices in life.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "plg",
+      "type": "concept",
+      "role": "concept",
+      "name": "PLG",
+      "file": "PLG",
+      "primary": true,
+      "how_described": "本集说 Town 超过 15% 的试用者转化为付费,对 PLG 来说极高,靠的是强制连接邮箱和日历、开局流失 30% 也在所不惜。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 737,
+          "t": [
+            3036.827,
+            3049.339
+          ],
+          "quote": "The payment rate for us on acquisition is like more than 15% of users who try the product end up paying for it, which is extremely high for PLG because the value delivered relative to what they were getting out of ChatGPT is just huge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 840,
+          "t": [
+            3382.406,
+            3388.51
+          ],
+          "quote": "And I would say like, look at a whisper flow as an alternative, not a hugely dissimilar PLG motion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 906,
+          "t": [
+            3606.388,
+            3615.232
+          ],
+          "quote": "So I do think there might be a world where our PLG part is much more subsidized, but as soon as you get three to five team members, I really want to make money on that side.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "type": "concept",
+      "role": "concept",
+      "name": "隐私 (privacy)",
+      "file": "隐私",
+      "primary": true,
+      "how_described": "本集的隐私论:今天人类是信息流向的过滤器,五年内你会信任智能体替你决定分享什么;LLM 会非常擅长在你不想分享的事情上尊重隐私,信息隔离得越少 AI 干得越好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            693.191,
+            699.256
+          ],
+          "quote": "So one of them is just privacy and how your workplace is going to feel about their data being intermingled with your personal data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            699.717,
+            710.626
+          ],
+          "quote": "You might still have only one hardware entry point, but from a privacy perspective and from where your data lives, I think you're going to always want to separate on the data layer your personal and your work data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            716.531,
+            725.278
+          ],
+          "quote": "But I think privacy will be the main determinant of your data silos and your company, whoever you work for's desire to own the data that you create for them, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            758.279,
+            765.562
+          ],
+          "quote": "If you're a lawyer, because there's a bunch of data privacy and privilege and reasons why your work scenarios need to be handled differently.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            907.281,
+            911.244
+          ],
+          "quote": "We have like lots of data controls and privacy and security and blah, blah, blah.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1023.257,
+            1030.225
+          ],
+          "quote": "I think we will be more okay with that because in practice, the LLMs will be really good at respecting privacy around things that you don't want to share.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1876.335,
+            1878.337
+          ],
+          "quote": "Is it a GDPR and privacy thing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2281.112,
+            2294.028
+          ],
+          "quote": "The second issue is they've like contorted themselves for competitive reasons around a privacy and on-device story that is like absolutely like puts them far away from the frontier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2300.47,
+            2311.513
+          ],
+          "quote": "And so as long as they're committed to this on-device, privacy-preserving stuff, the privacy stance is good from a human perspective, but they've tied it too much to the on-device.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2311.653,
+            2323.396
+          ],
+          "quote": "So not being good at cloud, then being on-device, and then from the privacy standpoint, making it difficult even on the phone to interoperate with all the data that they have, those are a lot of disadvantages to play with.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集谈安全时说:人类逐行读代码的世界回不去了,现在是计算机写代码上生产,配测试和护栏——友方模型先攻击你,免得不友好的模型以后找到可利用的漏洞。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 569,
+          "t": [
+            2414.842,
+            2426.132
+          ],
+          "quote": "It's computers that are building code that is being shipped into production with various guardrails from testing to other models like friendly models attacking you so that unfriendly models can't later find exploitations.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Devin",
+      "reason": "专名「Devin」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

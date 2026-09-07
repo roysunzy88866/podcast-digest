@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":13,"Mercor":1,"智能体":1,"开源":15,"RL 环境":2,"编码智能体":3,"评估":20,"机器人":1,"合成数据":5}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":14,"Mercor":1,"智能体":1,"开源":15,"RL 环境":2,"编码智能体":3,"评估":20,"机器人":1,"合成数据":5}</script>
 
 <script>
 (function(){

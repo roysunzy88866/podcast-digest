@@ -182,9 +182,9 @@ Lin 给出几个关键数字：Fireworks 每天处理超过 40 万亿 [[token|to
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、Cursor、Meta · 同概念:token、产品市场契合 (product market fit)、护栏 (guardrails)</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Anthropic、Cursor、NVIDIA · 同概念:开源 (open source)</span>
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"]]<span class="pd-rz">同公司:Anthropic、NVIDIA、Cursor · 同概念:token、推理 (inference)</span>
-- [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:Anthropic、NVIDIA、Cursor · 同概念:推理 (inference)、GPU</span>
 
 </div>
 <div class="pd-ex">

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":47,"Claude Code":46,"智能体":1,"对抗性智能体":1,"MCP":26,"知识库":1,"技能":10,"vibe coding":27,"红队测试":3}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":48,"Claude Code":47,"智能体":1,"对抗性智能体":1,"MCP":26,"知识库":1,"技能":11,"vibe coding":27,"红队测试":3}</script>
 
 <script>
 (function(){

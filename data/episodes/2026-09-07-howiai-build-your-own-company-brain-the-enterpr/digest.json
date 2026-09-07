@@ -1,0 +1,166 @@
+{
+  "title_zh": "Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术",
+  "tldr": "Stripe 工程经理 Sherrod 详解自建公司智能体 Kai：如何用项目、技能与工具策略做治理，让全公司上万人放心用 AI。",
+  "digest_md": "这一集聊的是一件很多大公司都在琢磨的事：怎么让全公司上上下下、不只是工程师，都敢放心地把日常工作交给 AI。主角是 Sherrod，Stripe 的工程经理，他和同事 Anupam 一起构建了 Kai——Stripe 的「公司大脑」和内部公司智能体。\n\n最颠覆的一点是：Kai 现在每周有超过 10,000 名 Stripe 员工在用、公司 86% 以上的人都是它的用户，但维护它的核心团队不到 10 个人。而最初做出第一个版本，只花了「一个半工程师」两周时间。Sherrod 的核心主张是：让 AI 触达每个人，难点根本不在技术，而在治理——「更难的问题在于如何大规模地复刻一家公司的运作方式」，关键不是提供 AI，而是「提供正确的治理结构，让每个人都可以放心去使用 AI，并知道它会为他们做正确的事」[03:41 Sherrod][04:02 Sherrod]。\n\n## 项目（Projects）：一个治理单元，而不只是聊天分组\n\n大多数团队用「项目」来归拢文件和对话，Stripe 却把它做成了配置层和治理层——这是 Sherrod 认为他们「多下了功夫」的第一件事。\n\n一个项目就是一圈边界：有人（通常是这个领域的 DRI，即直接负责人）来决定这个工作流里 AI 该用哪些工具、哪些数据、什么默认模型、多少安全控制。项目大到 500 人，小到 5 个人都有。比如可以在项目层面设默认模型，不让「这个工作不需要超级模型」的任务烧昂贵的 token [08:43 Sherrod]。people 团队甚至有一个完全独立、后端全安全加固的 Kai 版本项目 [30:55 Sherrod]。\n\nSherrod 的理念是：「我们应该尽量减少每天必须主动做出这些选择的人数，它应该自动为他们做正确的事」[09:25 Sherrod]。少数懂成本、性能、延迟权衡的人搭好台子，其他人直接用。项目还能接自定义智能体——不一定是 Kai 默认那个，可以换成完全定制的后端 API 和 harness，用同一套功能 [31:15 Sherrod]。用他的话说，Kai 看起来像一个单一产品，「它其实不是。它就像多层蛋糕上面的一层糖霜」，每一层都可以按企业需求定制 [35:19 Sherrod]。\n\n## 数据智能体：三层分诊 + 被暴力砸也不垮的仓库\n\nStripe 几乎人人用 Kai 做的第一件事，是创建数据仪表板。背后靠的是 Ask Data 技能的一套「三层分诊」：先找现有的报告和直接产物，不行再下到官方认可的分析层（blessed analytics layer，即把公司最关键指标统一管理的那一层）找正确的查询，实在没办法才落到数据目录、自己写查询 [16:06 Sherrod]。\n\n这套东西原本是给人类设计的，但对智能体同样关键——因为「它们能回答问题，但它们完全不知道那是不是正确的查询或正确的表」[17:12 Sherrod]。\n\n另一条不太性感但致命的经验：数据仓库必须扛得住高并发查询，因为「一旦拿不准，智能体就会直接暴力破解」[18:46 主持人 Claire]。Stripe 用 Trino（一个分布式 SQL 查询引擎）做查询层，长期投入让它极具韧性，「这些投入让智能体可以疯狂地猛砸它而不会把它砸垮」[15:39 Sherrod]。他们还做了「智能体身份」——在基础设施里声明「这是一个智能体、它在干什么」，以此做优先级和负载卸载 [19:37 Sherrod]。代价也是真实的：「事实证明，智能体只是把你所有的故障模式都调到了最大」，早期确实有智能体失控、差点搞挂核心系统，好在及时发现并加固了 [20:10 Sherrod][20:25 Sherrod]。\n\n主持人 Claire 由此给出一个反直觉的建议：想让 AI 交付更多产品？不是去优化产品开发流程，而是「把你 DevEx 团队的规模翻一倍。把你数据团队的规模翻一倍」。AI 之前为人类效率做的平台投入，就是智能体时代的杠杆 [18:02 Claire][17:50 Claire]。\n\n## 技能平台：从一次会话到全公司可复用的工作流\n\nKai 的第二个亮点是把「技能」做成了一个平台，而不只是一个技能创建器。流程是：你在 Kai 里迭代出一个好用的仪表板后，让内置的 skill creator 把这次会话学到的东西打包成一个标准开放规范的技能，可以私有保存，也可以发布给全公司 [29:39 Sherrod]。\n\n真正的魔法在检索。编码智能体在仓库里干活，有天然的目录层级可以挂技能；但企业员工的工作横跨五六个系统，没有层级可言。所以 Stripe 投入做了技能的打包与检索——你只说「给我调出最新的采纳情况仪表盘」，Kai 就能自动加载几秒前刚创建的那个技能 [39:21 Sherrod]。\n\n规模上来后，质量和数量成了一件事：「对这类系统来说，质量和数量是分不开的，因为上下文就是一切」——塞进太多低价值上下文，结果只会变差 [41:38 Sherrod]。Stripe 大约有 2000 个技能，其中约 50 个被全公司每天重度使用，另有 100-150 个长尾技能由局部团队使用，还有一堆只有两三个人用的——遥测数据会告诉平台方哪些该提拔进通用工作流、哪些该移出去省上下文 [42:05 Sherrod]。平台还会自动给每个技能作者发改进建议（爬山优化），Claire 还补充了别家做法：30 天没人调用的技能提醒、弃用、两周后删除 [41:00 Claire]。\n\n## 工具策略：敏感工作流里给智能体拴绳\n\n工具策略（tool policies）是治理落到具体动作的一层。比如 HR 团队处理敏感信息：既不能禁止用工具，也不能放任智能体把敏感数据写进全员可见的公开文档。做法是在项目层面设定：某些工具直接允许、某些工具触发「人在回路」审批——智能体要创建日历邀请时，先弹出确认，人来点头 [31:55 Sherrod]。\n\n这里有个很现实的洞察：「如果你给人们设置太多摩擦，他们就会去做不安全的事情，因为人类就是这样运作的。如果我在每个会话、每个工具上都向你展示这个，最终你会按错按钮」[35:40 Sherrod]。所以摩擦要精准——只在真正敏感的操作上要求人确认，且按项目划定范围，不全场广播。\n\n## 一个半人、两周、到上万人\n\n推广路径也够精简：Sherrod 自己业余写代码当「个人贡献者」，一个半工程师两周做出 V0——他强调「一旦我们能给人们展示一些东西，答案就变得显而易见了」，光靠嘴很难说服人为什么需要这东西 [25:45 Sherrod]。试点阶段约 200-300 个用户，GTM 团队的 Ilia 是最早的大客户，营销团队几乎全员涌入 [26:18 Sherrod]。真正的爆点是一次全公司演示，「然后对每个人来说就豁然开朗了」[26:58 Sherrod]。如今不到 10 人的核心团队服务每周 10,000+ 用户，靠的是编码智能体的生产力加上 AI 之前就打好的基础设施。Sherrod 也坦承：「我们非常清楚地认识到，我们处在这段旅程的最早期阶段」[44:48 Sherrod]。\n\n## 本集带走\n\n- **治理先于功能**：让全公司用 AI 的瓶颈不是模型，而是治理结构——有人替大家把模型、工具、数据的默认选择配好，普通人零决策直接用。\n- **把「项目」当治理单元**：按工作流（而非按人）划边界，配置默认模型、可用工具、数据权限和人在回路审批；权限跟着场景走，不在每个会话里重复弹窗。\n- **数据智能体三件事**：分层分诊（现有报告→官方分析层→数据目录）、仓库扛得住暴力查询、给智能体独立身份做限流——为人类做的数据平台投入，智能体直接复用。\n- **技能要当产品运营**：让任何人把成功会话打包成可复用技能并共享，同时用遥测管理质量与数量——低价值技能占上下文，会直接拉低所有结果。\n- **摩擦要精准**：安全管控加太多，人会开始绕过它；只在真正敏感的动作上要求人确认。\n- **先做出东西再说服**：一个半工程师两周的 V0 比任何方案文档都有说服力。",
+  "quotes": [
+    {
+      "en": "The harder problems are in trying to replicate the way a company works at scale.",
+      "zh": "更难的问题在于如何大规模地复刻一家公司的运作方式。",
+      "timestamp": "03:41",
+      "speaker": "Sharadh Krishnamurthy"
+    },
+    {
+      "en": "We should try to minimize the number of people who have to actively make these choices every day, and just it should do the right thing for them.",
+      "zh": "我们应该尽量减少每天必须主动做出这些选择的人数，它应该自动为他们做正确的事。",
+      "timestamp": "09:25",
+      "speaker": "Sharadh Krishnamurthy"
+    },
+    {
+      "en": "They can answer the question, but they have no idea if it was the right query or the right table.",
+      "zh": "它们能回答问题，但它们完全不知道那是不是正确的查询或正确的表。",
+      "timestamp": "17:12",
+      "speaker": "Sharadh Krishnamurthy"
+    },
+    {
+      "en": "Our foundational investments that now give you extreme leverage when you throw agents at it.",
+      "zh": "这些基础性的投入，如今当你把智能体扔上去时就给了你极大的杠杆。",
+      "timestamp": "17:50",
+      "speaker": "Claire Vaux"
+    },
+    {
+      "en": "And I say, double the size of your DevEx team. Double the size of your data team. Like, work on platform investments. Good for humans. Good for agents. And that's what will let you run.",
+      "zh": "而我说，把你 DevEx 团队的规模翻一倍。把你数据团队的规模翻一倍。投入平台建设。对人类有好处，对智能体也有好处，而这就是能让你跑起来的东西。",
+      "timestamp": "18:04",
+      "speaker": "Claire Vaux"
+    },
+    {
+      "en": "Agents are very creative at bringing your infra down.",
+      "zh": "智能体在搞挂你的基础设施方面非常有创造力。",
+      "timestamp": "19:26",
+      "speaker": "Sharadh Krishnamurthy"
+    },
+    {
+      "en": "It turns out that agents just dial up all your failure modes.",
+      "zh": "事实证明，智能体只是把你所有的故障模式都调到了最大。",
+      "timestamp": "20:10",
+      "speaker": "Sharadh Krishnamurthy"
+    },
+    {
+      "en": "If you put too much friction in front of people, they're just going to do unsafe things because that's how humans work.",
+      "zh": "如果你给人们设置太多摩擦，他们就会去做不安全的事情，因为人类就是这样运作的。",
+      "timestamp": "35:40",
+      "speaker": "Sharadh Krishnamurthy"
+    },
+    {
+      "en": "And I almost think you can't separate quality and quantity when it comes to these systems because context is everything.",
+      "zh": "而且我几乎认为，对这类系统来说，质量和数量是分不开的，因为上下文就是一切。",
+      "timestamp": "41:38",
+      "speaker": "Sharadh Krishnamurthy"
+    },
+    {
+      "en": "I want the agents to put me to work.",
+      "zh": "我想让智能体让我为它们工作。",
+      "timestamp": "46:55",
+      "speaker": "Claire Vaux"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:41",
+      "speaker": "Sherrod",
+      "en": "The harder problems are in trying to replicate the way a company works at scale.",
+      "zh": "更难的问题在于如何大规模地复刻一家公司的运作方式。"
+    },
+    {
+      "timestamp": "04:02",
+      "speaker": "Sherrod",
+      "en": "It's about providing the correct governance structures so that everyone can just go use AI and know it'll do the right thing for them.",
+      "zh": "关键在于提供正确的治理结构，让每个人都可以放心去使用 AI，并知道它会为他们做正确的事。"
+    },
+    {
+      "timestamp": "09:25",
+      "speaker": "Sherrod",
+      "en": "We should try to minimize the number of people who have to actively make these choices every day, and just it should do the right thing for them.",
+      "zh": "我们应该尽量减少每天必须主动做出这些选择的人数，它应该自动为他们做正确的事。"
+    },
+    {
+      "timestamp": "17:12",
+      "speaker": "Sherrod",
+      "en": "They can answer the question, but they have no idea if it was the right query or the right table.",
+      "zh": "它们能回答问题，但它们完全不知道那是不是正确的查询或正确的表。"
+    },
+    {
+      "timestamp": "17:50",
+      "speaker": "Claire",
+      "en": "Our foundational investments that now give you extreme leverage when you throw agents at it.",
+      "zh": "这些基础性的投入，如今当你把智能体扔上去时就给了你极大的杠杆。"
+    },
+    {
+      "timestamp": "18:02",
+      "speaker": "Claire",
+      "en": "And I say, double the size of your DevEx team. Double the size of your data team. Like, work on platform investments. Good for humans. Good for agents. And that's what will let you run.",
+      "zh": "而我说，把你 DevEx 团队的规模翻一倍。把你数据团队的规模翻一倍。投入平台建设。对人类有好处，对智能体也有好处，而这就是能让你跑起来的东西。"
+    },
+    {
+      "timestamp": "18:46",
+      "speaker": "Claire",
+      "en": "And so again, this is like infrastructure hardening investment, performance investment, not sexy, not what people are thinking about when you're building these data agents.",
+      "zh": "所以再说一次，这是基础设施加固方面的投入、性能方面的投入，不性感，也不是人们在构建这些数据智能体时会想到的东西。"
+    },
+    {
+      "timestamp": "19:26",
+      "speaker": "Sherrod",
+      "en": "Agents are very creative at bringing your infra down.",
+      "zh": "智能体在搞挂你的基础设施方面非常有创造力。"
+    },
+    {
+      "timestamp": "20:10",
+      "speaker": "Sherrod",
+      "en": "It turns out that agents just dial up all your failure modes.",
+      "zh": "事实证明，智能体只是把你所有的故障模式都调到了最大。"
+    },
+    {
+      "timestamp": "20:16",
+      "speaker": "Sherrod",
+      "en": "It just multiplies the amplitude of problems you can get, right?",
+      "zh": "它只是把你可能遇到的问题的振幅乘了一个倍数，对吧？"
+    },
+    {
+      "timestamp": "35:40",
+      "speaker": "Sherrod",
+      "en": "If you put too much friction in front of people, they're just going to do unsafe things because that's how humans work.",
+      "zh": "如果你给人们设置太多摩擦，他们就会去做不安全的事情，因为人类就是这样运作的。"
+    },
+    {
+      "timestamp": "35:46",
+      "speaker": "Sherrod",
+      "en": "If I showed you this every single session for every single tool, eventually you're going to press the wrong button.",
+      "zh": "如果我在每个会话、每个工具上都向你展示这个，最终你会按错按钮。"
+    },
+    {
+      "timestamp": "39:21",
+      "speaker": "Sherrod",
+      "en": "And so a large part of the investments we've done and what we've managed to give to Stripe is the ability to package skills and retrieve them.",
+      "zh": "所以我们投入的很大一部分、以及我们成功提供给 Stripe 的，就是打包技能并检索它们的能力。"
+    },
+    {
+      "timestamp": "41:38",
+      "speaker": "Sherrod",
+      "en": "And I almost think you can't separate quality and quantity when it comes to these systems because context is everything.",
+      "zh": "而且我几乎认为，对这类系统来说，质量和数量是分不开的，因为上下文就是一切。"
+    },
+    {
+      "timestamp": "44:48",
+      "speaker": "Sherrod",
+      "en": "We are very cognizant that we are in the earliest parts of this journey.",
+      "zh": "我们非常清楚地认识到，我们处在这段旅程的最早期阶段。"
+    },
+    {
+      "timestamp": "46:55",
+      "speaker": "Claire",
+      "en": "I want the agents to put me to work.",
+      "zh": "我想让智能体让我为它们工作。"
+    }
+  ],
+  "voice_script": "今天咱们聊一个很多大公司都在琢磨的事：怎么让全公司上上下下、不只是工程师，都敢放心地把日常工作交给 AI。\n\n主角叫 Sherrod，是 Stripe 的工程经理，和同事 Anupam 一起构建了 Kai，Stripe 的公司大脑、内部的公司智能体。这东西有多普及呢？每周有超过一万名 Stripe 员工在用，公司 86% 以上的人都是它的用户。但维护它的核心团队，不到十个人。而最早做出第一个版本，只花了一个半工程师、两周时间。\n\n一万个人用，不到十个人维护，这个比例背后藏着一个很关键的主张。Sherrod 说，让 AI 触达每个人，难点根本不在技术，而在治理。原话是：更难的问题在于如何大规模地复刻一家公司的运作方式。关键不是提供 AI，而是提供正确的治理结构，让每个人都可以放心去用，并且知道它会为自己做正确的事。\n\n那治理到底怎么落地？Stripe 多下了功夫的第一件事，是把「项目」从一个聊天分组，做成了一层治理单元。\n\n一个项目就是一圈边界。有人，通常是这个领域的直接负责人，来决定这个工作流里 AI 该用哪些工具、哪些数据、什么默认模型、多少安全控制。项目大到五百人，小到五个人都有。比如可以在项目层面设默认模型，那些不需要超级模型的任务，就不会去烧昂贵的 token。有个叫 people 的团队，甚至有一个完全独立、后端全安全加固的 Kai 版本项目。\n\n这背后的理念，Sherrod 有句话说得很直白：我们应该尽量减少每天必须主动做出这些选择的人数，它应该自动为他们做正确的事。也就是少数懂成本、性能、延迟权衡的人搭好台子，其他人零决策直接用。而且项目还能接自定义智能体，换成完全定制的后端，用同一套功能。用他的话说，Kai 看起来像一个单一产品，但它其实不是，它就像多层蛋糕上面的一层糖霜，每一层都可以按企业需求定制。\n\n那治理之下，大家实际用 Kai 干什么呢？几乎人人都做的第一件事，是创建数据仪表板。\n\n听起来简单，背后有一套「三层分诊」的逻辑：先去找现有的报告和直接产物，不行，再下到官方认可的分析层去找正确的查询，这一层就是把公司最关键指标统一管理的地方；实在没办法了，才落到数据目录，自己写查询。这套分诊原本是给人类设计的，但对智能体同样关键。为什么？因为智能体能回答问题，但它们完全不知道那是不是正确的查询、正确的表。\n\n这还带出一条不太性感但致命的经验：数据仓库必须扛得住高并发查询。原因很简单，智能体一旦拿不准，就会直接暴力破解，疯狂地试。Stripe 用 Trino 这个分布式查询引擎做查询层，长期投入让它极具韧性，用 Sherrod 的话说，智能体可以疯狂地猛砸它，而不会把它砸垮。他们还给智能体做了独立身份，在基础设施里声明这是一个智能体、它在干什么，这样就能做优先级和限流。\n\n不过代价也是真实的。早期确实有智能体失控，差点搞挂核心系统，好在及时发现并加固了。主持人 Claire 由此给出一个挺反直觉的建议：想让 AI 交付更多产品？不是去优化产品开发流程，而是把你的开发体验团队规模翻一倍，把你的数据团队规模翻一倍。因为 AI 出现之前，为人类效率做的那些平台投入，现在就是智能体时代的杠杆。\n\n数据之外，Kai 的另一个亮点，是把「技能」做成了一个平台，而不只是一个技能创建器。\n\n什么叫技能？流程是这样的：你在 Kai 里迭代出一个好用的仪表板之后，可以让内置的技能创建器把这次会话学到的东西打包成标准格式，私有保存，或者发布给全公司。别人下次一句「给我调出最新的采纳情况仪表板」，Kai 就能自动加载几秒前刚创建的那个技能。\n\n这里的真正难点在检索。编码智能体在代码仓库里干活，有天然的目录层级可以挂技能；但普通员工的工作横跨五六个系统，根本没有层级可言。所以 Stripe 专门投入做了技能的打包与检索。\n\n规模上来之后，出现了一个有意思的现象：质量和数量成了一回事。因为对这类系统来说，上下文就是一切，塞进太多低价值的上下文，结果只会变差。Stripe 大约有两千个技能，其中五十个被全公司每天重度使用，一百到一百五十个由局部团队使用，还有一堆只有两三个人用的。遥测数据会告诉平台方，哪些该提拔进通用工作流，哪些该移出去省上下文。平台还会自动给技能作者发改进建议。Claire 也补充了别家的做法：三十天没人调用的技能，提醒、弃用、两周后删除。\n\n顺着治理这条线再往下走，就到了最具体的一层：工具策略。就是在敏感工作流里，给智能体拴上绳。\n\n比如 HR 团队处理敏感信息，既不能禁止用工具，也不能放任智能体把敏感数据写进全员可见的公开文档。做法是在项目层面设定：某些工具直接允许，某些工具触发「人在回路」审批，智能体要创建日历邀请时，先弹出确认，人来点头。\n\n但这里有个很现实的人性洞察：如果你给人们设置太多摩擦，他们就会去做不安全的事情，因为人类就是这样运作的。每个会话、每个工具都弹确认框，最终人会麻木，按错按钮。所以摩擦要精准，只在真正敏感的操作上要求人确认，而且按项目划定范围，不全场广播。\n\n最后说说这条推广路径，同样够精简。Sherrod 自己业余写代码，一个半工程师两周做出了第一个版本。他强调，一旦能给人们看到东西，答案就变得显而易见了，光靠嘴很难说服人为什么需要这东西。试点阶段大约两三百个用户，营销团队几乎全员涌入。真正的爆点是一次全公司演示，然后对每个人来说，就豁然开朗了。\n\n如今不到十人的核心团队，服务每周一万多的用户，靠的就是编码智能体的生产力，加上 AI 之前就打好的基础设施。当然，Sherrod 也坦承，我们清楚地认识到，我们还处在这段旅程的最早期阶段。\n\n回头再看这一集，最有嚼头的地方其实就一句：让全公司用上 AI，瓶颈从来不是模型，而是治理。有人替大家把模型、工具、数据的默认选择配好，普通人才能零决策地放心去用。或者说得更简单点，智能体时代，平台建设的每一分投入，都会变成你的杠杆。"
+}

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]] [[Willem Avé]]
+[[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":106,"Amazon":11,"AWS":10,"Cloudera":1,"Databricks":10,"Palantir":12,"Microsoft":23,"Lovable":14,"前向部署工程师":7,"前置部署工程":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":107,"Amazon":11,"AWS":10,"Cloudera":1,"Databricks":10,"Palantir":12,"Microsoft":24,"Lovable":14,"前向部署工程师":7,"前置部署工程":3}</script>
 
 <script>
 (function(){

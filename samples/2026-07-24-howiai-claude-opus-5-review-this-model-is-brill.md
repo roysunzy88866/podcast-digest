@@ -101,9 +101,9 @@ Claire 的总结很精辟：Opus 5 是她最讨厌的同事，但干的活最好
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、Claude、Codex、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic、Claude、Claude Code、Fable · 同概念:智能体 (agent)</span>
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]]<span class="pd-rz">同公司:Anthropic、Codex、Fable · 同概念:智能体 (agent)</span>
-- [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|AI解数学题≠理解数学]]<span class="pd-rz">同公司:Anthropic、Claude、Codex、OpenAI</span>
 
 </div>
 <div class="pd-ex">

@@ -148,8 +148,8 @@ Colin 认为从老东家挖人的飞轮效应很强：你雇了前同事里最�
 **换个口味**
 
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|AI 如何把工程问题变回资本问题]]<span class="pd-rz">同公司:Google · 同概念:创新者的窘境 (innovator's dilemma)</span>
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Google · 同概念:产品市场契合 (Product Market Fit)</span>
 - [[2025-12-28-lennys-10-contrarian-leadership-truths|故意让人手不足:Rippling 首席产品官的非常规管理心法]]<span class="pd-rz">同概念:产品市场契合 (Product Market Fit)</span>
-- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同概念:AI</span>
 
 </div>
 </div>

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]]
+[[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Block":2,"Goose":1,"智能体":1,"MCP":26,"康威定律":1,"职能型架构":1,"LLM":26,"开源模型":5,"Anthropic":106}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Block":2,"Goose":1,"智能体":1,"MCP":26,"康威定律":1,"职能型架构":1,"LLM":27,"开源模型":5,"Anthropic":107}</script>
 
 <script>
 (function(){

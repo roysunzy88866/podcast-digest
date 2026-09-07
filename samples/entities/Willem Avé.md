@@ -43,7 +43,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]]
+[[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]]
 
 </div>
 

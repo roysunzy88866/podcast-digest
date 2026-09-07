@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":13,"Neoclouds":1,"Fireworks":4,"前沿模型":8,"开源模型":5,"沙箱":35,"智能体":1,"推理":5,"GPU":13,"持续学习模型":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":14,"Neoclouds":1,"Fireworks":4,"前沿模型":8,"开源模型":5,"沙箱":36,"智能体":1,"推理":5,"GPU":15,"持续学习模型":1}</script>
 
 <script>
 (function(){

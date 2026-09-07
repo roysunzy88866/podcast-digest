@@ -191,8 +191,8 @@ Andrew 个人身价一度超过 10 亿美元，但他描述自己坐在桑拿房
 **顺着「创业与行业」挖下去**
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:护城河 (moat)、智能体 (agent)</span>
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT · 同概念:护城河 (moat)、智能体 (agent)、网络效应 (network effect)</span>
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:智能体 (agent)</span>
-- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Replit · 同概念:护城河 (moat)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

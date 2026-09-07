@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sophia Du]] · [[Julie Yoo]] · [[a16z]] · [[Council Health]] · [[AI]] · [[智能体 AI]] · [[大型语言模型]] · [[电子健康记录]] · [[第三方支付体系]] · [[消费级医疗]]
 
-<script type="application/json" class="pd-epn">{"Sophia Du":3,"Julie Yoo":1,"a16z":11,"Council Health":1,"AI":14,"智能体 AI":3,"大型语言模型":4,"电子健康记录":1,"第三方支付体系":1,"消费级医疗":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"Julie Yoo":1,"a16z":11,"Council Health":1,"AI":14,"智能体 AI":3,"大型语言模型":4,"电子健康记录":1,"第三方支付体系":1,"消费级医疗":1}</script>
 
 <script>
 (function(){

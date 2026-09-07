@@ -29,7 +29,7 @@ unlisted: true
 
 [[OpenAI]] · [[ChatGPT]] · [[智能体]] · [[Uber]] · [[Replit]] · [[Cursor]] · [[Anthropic]] · [[Lenny]] · [[Harry Stabbings]] · [[Rory O'Driscoll]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":92,"ChatGPT":51,"智能体":1,"Uber":8,"Replit":13,"Cursor":48,"Anthropic":106,"Lenny":67,"Harry Stabbings":1,"Rory O'Driscoll":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":95,"ChatGPT":52,"智能体":1,"Uber":8,"Replit":13,"Cursor":49,"Anthropic":107,"Lenny":67,"Harry Stabbings":1,"Rory O'Driscoll":1}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":3,"Stripe":26,"Stripe Minions":1,"智能体":1,"智能体商务":3,"稳定币":1,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":17}</script>
+<script type="application/json" class="pd-epn">{"David George":3,"Stripe":27,"Stripe Minions":1,"智能体":1,"智能体商务":3,"稳定币":1,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":17}</script>
 
 <script>
 (function(){

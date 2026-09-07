@@ -156,6 +156,13 @@ Rachel 曾在 Stripe 为 50 位核心高管做过辅导项目，她说看到那�
 <div class="pd-exit">
 <div class="pd-ex">
 
+**顺着「组织与领导力」挖下去**
+
+- [[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术]]<span class="pd-rz">同公司:Stripe</span>
+
+</div>
+<div class="pd-ex">
+
 **换个口味**
 
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder]]<span class="pd-rz">同概念:联合创始人 (co-founder)</span>

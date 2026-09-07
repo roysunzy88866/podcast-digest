@@ -1,0 +1,320 @@
+{
+  "episode_id": "2026-09-07-a16z-can-open-source-keep-ai-power-from-conce",
+  "podcast": "The a16z Show",
+  "date": "2026-09-07",
+  "tags": [
+    "开源 AI",
+    "transformer",
+    "机器学习研究",
+    "AI 集中化",
+    "算力"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "sophia-du",
+      "type": "person",
+      "role": "host",
+      "name": "Sophia Du",
+      "file": "Sophia Du",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            8.572,
+            19.458
+          ],
+          "quote": "MTS host Sophia Du heads to the Open Source AI Summit in San Francisco to ask researchers and founders across the AI stack whether open source can create a more distributed future for AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lucas-kaiser",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lucas Kaiser",
+      "file": "Lucas Kaiser",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            20.498,
+            31.166
+          ],
+          "quote": "Lucas Kaiser, co-author of the landmark Attention is All You Need paper, argues that today's concentration may be a property of our current technology, not an inevitable feature of AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            55.795,
+            64.443
+          ],
+          "quote": "Joining me is Lucas Kaiser, an AI researcher and the co-author of Attention is All You Need, the paper that introduced the transformer that completely changed modern day AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "transformer",
+      "type": "concept",
+      "role": "concept",
+      "name": "transformer",
+      "file": "transformer",
+      "primary": true,
+      "how_described": "《Attention is All You Need》引入的基础架构,喂整个互联网时相当聪明,但只学一件具体的事就很差,且架构上需要大量资源,导致了当前 AI 的集中化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            55.795,
+            64.443
+          ],
+          "quote": "Joining me is Lucas Kaiser, an AI researcher and the co-author of Attention is All You Need, the paper that introduced the transformer that completely changed modern day AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            149.295,
+            150.916
+          ],
+          "quote": "But the transformer needs to be everything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 32,
+          "t": [
+            155.337,
+            159.158
+          ],
+          "quote": "With the transformer, architecturally, you need a lot of resources.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            237.332,
+            241.573
+          ],
+          "quote": "So you can buy and have one GPU that has all the power we used to design Transformer.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "attention-is-all-you-need",
+      "type": "concept",
+      "role": "concept",
+      "name": "Attention is All You Need",
+      "file": "Attention is All You Need",
+      "primary": true,
+      "how_described": "本集称其为具有里程碑意义、彻底改变现代 AI 的论文,引入了 transformer,嘉宾 Lucas Kaiser 是其共同作者",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            20.498,
+            31.166
+          ],
+          "quote": "Lucas Kaiser, co-author of the landmark Attention is All You Need paper, argues that today's concentration may be a property of our current technology, not an inevitable feature of AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            55.795,
+            64.443
+          ],
+          "quote": "Joining me is Lucas Kaiser, an AI researcher and the co-author of Attention is All You Need, the paper that introduced the transformer that completely changed modern day AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说一块消费级 GPU 没法训练大的 LLM,但足够做研究和实验;而当前大语言模型回答千篇一律,比如讲笑话总是同一个",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            244.534,
+            250.376
+          ],
+          "quote": "Like you can't train a big LLM, but you can research and experiment on things.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "嘉宾买了块 5090 RTX GPU,算力超过当年团队做 transformer 研究用的八台 8GPU 机器,说明个人做机器学习研究的门槛已极低",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            224.067,
+            230.349
+          ],
+          "quote": "I recently started doing things on my own also, and it's funny, so I bought a 5090 RTX GPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            237.332,
+            241.573
+          ],
+          "quote": "So you can buy and have one GPU that has all the power we used to design Transformer.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "嘉宾说 OpenAI 在他加入时是非常纯粹的研究实验室,现在也是一家要做产品的大公司,对研究的专注变少了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            204.056,
+            209.239
+          ],
+          "quote": "I think the labs have a little bit, you know, OpenAI, when I joined, was a very research lab.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-source-movement",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源运动 (open source movement)",
+      "file": "开源运动",
+      "primary": true,
+      "how_described": "本集说大公司转向产品后,开源运动和学术界大学获得了基础研究的机会,可能创造更分布式的 AI 未来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            218.804,
+            223.206
+          ],
+          "quote": "But this gives the chance to the open source movement, that's a chance for academia to universities.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agents)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集说大约去年年底、今年年初,编码智能体开始真正能用了,标志着这代 AI 的重要性时刻",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            68.447,
+            75.113
+          ],
+          "quote": "There was a very important moment sometime around end of last year, start of this year, where the coding agents started to work.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "distributed-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "分布式模型 (distributed models)",
+      "file": "分布式模型",
+      "primary": true,
+      "how_described": "嘉宾猜想给定固定数据量,学习的最佳方式可能是拥有大量分布式的模型——各自强大,合在一起更强,集成等基础研究支持这一点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            283.184,
+            291.934
+          ],
+          "quote": "I think fundamentally, it might be that given a fixed amount of data, the best way to learn from it is to have a lot of distributed models.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "research-breakthrough",
+      "type": "concept",
+      "role": "concept",
+      "name": "研究突破 (research breakthrough)",
+      "file": "研究突破",
+      "primary": true,
+      "how_described": "本集说让模型用更少数据更聪明需要研究突破,但它不像商业提案,没法靠预算砸出来;而这样的算法被人类领域专家证明存在",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            106.061,
+            110.948
+          ],
+          "quote": "But the big companies are like, okay, but you can do things without research breakthrough, which is to go bigger, bigger, bigger.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            145.374,
+            149.275
+          ],
+          "quote": "But it doesn't work because maybe we need a research breakthrough that will make it work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 34,
+          "t": [
+            163.92,
+            172.603
+          ],
+          "quote": "But do you think there is a type of algorithmic breakthrough or some type of research breakthrough that will allow smaller players to really compete?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

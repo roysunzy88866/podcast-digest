@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Matthew Prince]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":7,"Guy Fajani":3,"TESL":4,"技能":10,"循环":1,"Factory":4,"Tesla 智能体":1,"代码审查":2,"验证器":1,"上下文":13}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":7,"Guy Fajani":3,"TESL":4,"技能":11,"循环":1,"Factory":4,"Tesla 智能体":1,"代码审查":2,"验证器":1,"上下文":13}</script>
 
 <script>
 (function(){

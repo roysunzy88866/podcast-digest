@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]] [[Angela Strange]] [[Addy Osmani]]
+[[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Science":1,"Neuralink":1,"SpaceX":12,"Anthropic":106,"Helix":1,"迭代速度":1,"AI 基础设施":2,"归因":2,"深科技":1,"BCI":1}</script>
+<script type="application/json" class="pd-epn">{"Science":1,"Neuralink":1,"SpaceX":12,"Anthropic":107,"Helix":1,"迭代速度":1,"AI 基础设施":2,"归因":2,"深科技":1,"BCI":1}</script>
 
 <script>
 (function(){

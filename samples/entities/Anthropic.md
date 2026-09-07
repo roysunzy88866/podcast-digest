@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>106</b> 集 · <b>18</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>107</b> 集 · <b>18</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -115,6 +115,7 @@ unlisted: true
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(06:01起):本集说它与 NVIDIA 有 350 亿美元数据中心交易、重申乐意继续向 Cursor 供货、曾对 Windsurf 做过同样的事，并与 Salesforce 达成每年 3 亿美元的 LLM 支出合作。
 - **[[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr|《开源权重不是威胁：Box CEO 聊 AI 的经济账》]]**(04:38起):本集说 Anthropic 从蒸馏 API 调用中赚到的钱比大多数人从原始训练运行中赚到的还多，且它因认为开放权重是重大安全风险（需单一实体控制 token 流动、防提示词注入）而大概率永远不会开源模型。
 - **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(06:45起):被多次引用的案例：进入市场时是 OpenAI 之后的老二、后来不再是老二；它大规模高薪挖上市与成功初创公司 CTO，是人才竞争的标杆。
+- **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(21:35起):本集说 Anthropic 花大量时间确保模型家族的个性跨版本稳定,因此用惯了很难换到别家;同时也是 Town 在前沿工作负载上付费并竞争的供应商之一。
 
 ## ① 提到它的金句
 
@@ -158,7 +159,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*106 集*
+*107 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -266,6 +267,7 @@ unlisted: true
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
 - [[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr|《开源权重不是威胁：Box CEO 聊 AI 的经济账》]] — 作为被讨论公司
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为被讨论公司
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -273,7 +275,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Lenny]] · [[推理]] · [[NVIDIA]] · [[Claude]] · [[Cursor]] · [[Meta]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":92,"Claude Code":46,"Lenny":67,"推理":5,"NVIDIA":30,"Claude":47,"Cursor":48,"Meta":28,"Google":36}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":95,"Claude Code":47,"Lenny":67,"推理":5,"NVIDIA":30,"Claude":48,"Cursor":49,"Meta":29,"Google":37}</script>
 
 <script>
 (function(){

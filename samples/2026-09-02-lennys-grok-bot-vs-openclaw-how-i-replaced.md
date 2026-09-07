@@ -147,7 +147,7 @@ jsonLd: |
 
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|GrokBot、Origin 与 Grok 4.6 实测]]<span class="pd-rz">同公司:Cursor、GrokBot、OpenClaw · 同概念:智能体 (agent)</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同公司:ChatPRD、OpenClaw · 同概念:智能体 (agent)</span>
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:OpenClaw · 同概念:智能体 (agent)、SOC 2</span>
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Cursor、GrokBot · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

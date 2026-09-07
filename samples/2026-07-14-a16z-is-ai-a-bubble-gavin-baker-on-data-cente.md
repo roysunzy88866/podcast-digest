@@ -165,8 +165,8 @@ Amazon 的 Annapurna 团队是超大规模厂商里最有才华的硅芯片团�
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、Google、NVIDIA、OpenAI、Amazon、Meta、Microsoft · 同概念:TPU、SaaS</span>
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、ChatGPT、Cursor、Google、OpenAI、Meta</span>
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同公司:Anthropic、Gemini、Google、OpenAI、Meta</span>
-- [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|AI 如何把工程问题变回资本问题]]<span class="pd-rz">同公司:Anthropic、Google、OpenAI、Microsoft · 同概念:缩放定律 (scaling laws)</span>
 
 </div>
 <div class="pd-ex">

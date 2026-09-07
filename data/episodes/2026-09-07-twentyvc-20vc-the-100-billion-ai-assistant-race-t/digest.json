@@ -1,0 +1,202 @@
+{
+  "title_zh": "邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢",
+  "tldr": "Plaid 前 CTO Jean-Denis(JD)讲他如何把 AI 助手做进邮箱和日历：大厂围剿下的护城河押注、智能体之间的信任网络，以及前沿模型高成本下的生意经。",
+  "digest_md": "这一集聊的是硅谷当下最火的品类——AI 助手。主角是 Jean-Denis(大家叫他 JD),他此前是 Plaid 的 CTO,现在创办了 Town:一个住在你的邮箱和日历里的 AI 助手，观察你怎么安排一天、平时发什么邮件，然后在后台替你把那些事做掉。产品上线才三个月，目标用户就是用邮箱、日历、短信干活的普通主流人群。开场他就甩出一个让创业者睡不着的事实：「我知道我正在做的东西，在接下来 12 个月里是 Google 和 Apple 排名前三的优先事项——不是前十，是前三。」\n\n## 从 AI 报税失败到邮箱助手\n\nTown 不是第一个想法。团队先花了一年做 AI 企业报税，「达到了某种产品市场契合，但没到能算成功的程度」——用他自己的话说，他们在「打造一门好生意」这件事上失败了。重置之后摸索了三个月，问题变成：为什么没有人做出在邮箱里运行的 AI?恰逢模型刚刚能做真正的智能体工作(不只做几步，而是端到端干活)，他们几周内做了个原型，几乎立刻就有了产品市场契合。他坦承没有访谈一百个客户，就是为自己做的，「非常幸运」。\n\n## 谈护城河是奢侈品，但赢家会有「智能体层面的网络效应」\n\n被问到会不会被大厂蚕食，JD 的态度是：护城河是个奢侈品，「你必须比 Town 今天更成功，它才值得谈」。他的心态是：在一个有十亿潜在付费用户的市场里先拿到 10 万到 100 万付费用户，因为今天没有任何一家产品有真正深刻的产品市场契合——比如 GrokBot 很酷，但那是高阶用户产品，不是主流产品；而大厂只会「抄着到达那里」，前提是得先有人把主流产品做成。\n\n但他押了一个真护城河：**智能体层面的网络效应**。Town 有个功能叫「智能体到智能体」——你问自己的助手(townie)一个问题，它发现自己答不了，但同事的 townie 有答案，就直接去问，然后带回答案。这功能藏在产品的子页面里，可一旦整个团队都用上，「真的很难想象换产品」。他的判断是：**今天还没人搞明白多用户、多人 AI,那才会是护城河**。市场上的其他理论他列了一遍——按公司/个人后训练自定义模型、用户连接的所有数据源构成锁定、或者根本没有新护城河只剩分发(所以个人场景里他最怕的是 Meta 把助手塞进 WhatsApp)。这些他都记着，但眼下不焦虑。\n\n## 大胆的预测：五年内你会让智能体替你决定分享什么数据\n\n这是全集最反直觉的主张。他的例子：你把智能体和两个朋友放在一个房间里组织旅行，朋友问它你的饮食偏好、你哪天能飞，甚至有人开玩笑问「说说 JD 的病史」，智能体会拒绝——尽管你从没给它设过硬性规则。今天的世界里，人类是信息的过滤器，别人问问题，由你判断「我能跟这个人分享什么」；他认为我们会越来越多地信任 AI 来做这个过滤器，因为它会「非常擅长在你不想分享的事情上尊重隐私」——薪水不给同事、病史不给朋友。而且被隔离的信息越少，AI 干得越好。落到企业里很实际：销售想知道公司里谁认识某客户的关键人，现在只能去 Slack 喊一嗓子，未来是他们的智能体去和全公司每个人的智能体对话，回来说「Liz 和那个人有私交，Bob 下周和对方有会，你要不要让 Bob 带你进去」——这才是好的业务成果，前提是大家信任智能体守住边界。被问到容错空间，他说人类本来就常犯错(前 0.1% 聪明的人也会「回复全部」骂老板)，LLM 会很快比人类少犯这类错误。\n\n## 模型路由：界面层要人格一致，底层纯拼推理\n\nTown 不让用户选模型——用户不该关心哪个模型擅长什么，Town 的工作是「针对你要的东西，找到成本划算、能给你想要结果的模型」。图像、语音各用各的(语音重度依赖 ElevenLabs)。但有个隐藏难题：**用户层的人格一致性**。Anthropic 刻意让自家模型家族的「个性」跨版本保持稳定，所以最终输出用惯了 Anthropic 就很难突然换到别家——「用户会觉得他们的 AI 被切掉了脑前额叶」，甚至真的会提交工单抱怨文本智能体突然变啰嗦、大写字母变多。所以技术栈分两层：处理界面、感觉、个性的部分不敢乱路由；底下的纯推理部分，不向用户展示轨迹，就尽量用最适合任务的最佳模型。编码也一样无所谓——「代码能跑、达成目的」就行。\n\n## 成本账：前沿模型占比是唯一的心病\n\n经济账他说得很直白：给邮件打标签这种事不需要前沿智能，已经在用便宜得多的模型，成本会趋向算力成本；但没人知道一家公司最终有多少比例的工作量留在昂贵的前沿，「真的没人知道答案」，而这将决定这类公司的经济模型。今天的做法是：主流任务仍以前沿模型为主，因为工程师小时用来做大蛋糕(网络效应功能、新数据源集成)比优化成本更值钱——成本不是业务成功的制约因素。他按「价格每 9 到 12 个月减半」来定价，让产品在 18 个月后能跑出 20-30% 的毛利。\n\n真正让他夜里醒来的，是终局：AI 助手在前沿任务上**和自己的供应商竞争**——「Cursor 最后正是发生了这种情况：你可以有巨大的市场份额，客户爱你，但如果你一边付钱给供应商、一边以 70% 的毛利和供应商竞争，最终就会变得困难」。语音反而不是最焦虑的，只要语调和情感表达好上一倍，他只想越便宜越好。\n\n## 商业模式：成功 = 用户持续付钱，token 最大化是危险思维\n\n他对「成功用户」的定义简单粗暴：「每个月付我钱的人。如果他们持续付我钱，我就完成了我的工作。」token 用得越多不算成功——万一用户在花 token 做自己并不看重的事，总有一天醒过来发现付太多，然后流失。所以 Town 反而最受欢迎的功能之一，是检测「失控的 routine」(狂耗 token 的自动化)并发邮件提醒用户。付费档从 15 到 199 美元不等：15 美元是钩子，单位效益最差；99 美元的重度但不无限烧的用户最赚钱；超了上限就转按用量计费。为什么不彻底免费烧增长？他讲了个吓人的数字：免费内测期，有用户一个月烧掉两三千甚至四千美元的算力，五个月两万六。他坚信要从市场获得「你到底在哪儿交付了价值」的真实反馈，而且企业客户也怕免费——不知道哪天会被关掉、所有业务流程都跑在上面。他也不看好广告支持的 AI 助手：token 太贵，而且推荐你订机票时收了航司钱的助手，「那感觉不好」。获客数据是他最得意的：强制用户连接邮箱和日历才能用(一上来流失 30%,「你得愿意承受」)，换来超过 15% 的试用者转化为付费——「对 PLG 来说极高」。\n\n## 机器速度的构建，人类速度的学习\n\n产品构建中他没料到的最难的事，是市场速度：「你现在能以机器的速度构建，但你只能以人类的速度学习。」过去做一个功能、从中学到经验、滚进下一个功能，创业公司能靠身位领先榨取用户洞察十年；今天任何有效的做法两周内就被抄走。创办时他觉得有 15 家创业公司在竞争，现在他判断只剩两三家能活，而旁边的起跑门里站着 Apple、Google、GrokBot、Cursor、OpenAI 和 Anthropic——「一家有初创公司 DNA、却带着巨大成本和规模优势运转的公司，你得击败硅谷最好的人之一」。研发的大部分，他形容为「跟上 Joneses」:Codex 背后一百个人在改进，你的智能体至少得同样能干，否则用户凭什么为你每月付 50 美元而不是给 OpenAI 付 24.99。对欧洲抄他的创业公司，他给投资者的判据是：本地 TAM 够不够、资金储备够不够跟上能力、以及在这个横向市场里有没有具体的赢的理由。对 Apple 的判断很尖锐：不是云公司、死守端侧加隐私的绑定，新 Siri「感觉上远不如 Town 或 GrokBot 强大」，但会有云端组件、会很方便，「还有九个月才来」。\n\n## 招聘与 AI 团队：AI 让你多雇一个人\n\n他有个奇怪的招聘规矩：如果团队里有人曾和候选人极其紧密地共事过、并说「这是我共事过最优秀的人之一」，工程岗就不面试了——「要么我不信任我的员工，要么让他做八小时愚蠢的白板面试毫无道理」，只需让候选人来待一段时间看文化契合。关于 AI 工具支出，他说每个工程师的 run rate 至少 75k 美元，分给某款 AI 编程代理工具(处理进来的 bug 和小改动，Slack 集成体验好)、Cursor(前端，模型快)、Codex 和 Claude(现在约五五开，五个月前还是 Claude 为主)。团队是变大还是变小？他的框架：AI 让每个工程师能创造更多收入，所以你反而会多雇那个增量的人。他现在的状态是「金子撒了一地」——客户要集成、要审计日志、要 SSO 才肯签约——限制因素只有招人能力、资金和营收增速。「全球算力年支出大概相当于三到四个工程师的价钱，算上股权约一个半工程师。它给我换来的产出超过一个半硅谷工程师吗？当然，根本不在一个量级。」至于安全：人类逐行读代码的世界回不去了，现在是计算机写代码上生产，配测试和「友方模型先攻击你」的护栏，像 20 世纪的化学品一样在事故中学出最佳实践。\n\n## 本集带走\n\n- **把「连接邮箱和日历」做成硬门槛**：一上来流失 30%,但正因开局就拿到足够的数据，产品才能直接推荐「AI 能替你做的事」，换来 15%+ 的试用转付费率。\n- **护城河找在智能体层，不在模型层**：多用户、多智能体协作(你的助手直接去问同事的助手)是还没人做出来的网络效应；模型和 harness 能力人人趋同，不足以防御。\n- **算清「前沿任务占比」这本账**：低智能任务(打标签、日程)用便宜模型、价格每 9-12 个月减半来倒推定价；真正致命的是那 20-30% 逃不掉的前沿工作负载——你在和自己的供应商竞争，Cursor 就是前车之鉴。\n- **别用 token 消耗衡量成功**：成功 = 用户持续付钱 + 相信你在帮他省 token;主动提醒用户「这个 routine 在狂烧钱」反而换来信任。\n- **速度的新不对称**：机器速度构建、人类速度学习意味着「靠身位领先慢慢榨取洞察」的窗口没了，唯一能持续的是策略差异化，不是某个功能。\n- **押注付费而非广告**：收了第三方钱的助手会污染推荐，用户会要一个「属于自己的、不被外部激励污染」的助手——所以尽早收费、让企业客户给你真实的价值反馈。",
+  "quotes": [
+    {
+      "en": "The truth is I know what I'm building is a top three priority at Google and Apple like in the next 12 months.",
+      "zh": "事实是，我知道我正在做的东西，在接下来 12 个月里是 Google 和 Apple 排名前三的优先事项。",
+      "timestamp": "07:11",
+      "speaker": "JD"
+    },
+    {
+      "en": "I think talking about moats is a little bit of a luxury and you have to be more successful than town is today for it to matter.",
+      "zh": "我觉得谈护城河有点是一种奢侈，你必须比 Town 今天更成功，它才有意义。",
+      "timestamp": "07:46",
+      "speaker": "JD"
+    },
+    {
+      "en": "Then number two, like I think the product in this category that will win will have a network effect at the agent level.",
+      "zh": "第二，我认为这个品类里会赢的产品，将在智能体层面拥有网络效应。",
+      "timestamp": "08:34",
+      "speaker": "JD"
+    },
+    {
+      "en": "And I think no one has figured out multi-user, multiplayer AI today.",
+      "zh": "而且我认为今天还没有人搞明白多用户、多人 AI。",
+      "timestamp": "09:10",
+      "speaker": "JD"
+    },
+    {
+      "en": "I think you'll trust your agent to decide what data to share with other people without you intervening in five years.",
+      "zh": "我认为五年内，你会信任你的智能体在不经你干预的情况下决定与别人分享什么数据。",
+      "timestamp": "13:03",
+      "speaker": "Harry Stebbings"
+    },
+    {
+      "en": "And AI works better and better, the less siloed the information is.",
+      "zh": "信息被隔离得越少，AI 就工作得越好。",
+      "timestamp": "14:27",
+      "speaker": "JD"
+    },
+    {
+      "en": "I think the LLMs will make many fewer of these mistakes than humans pretty quickly.",
+      "zh": "我认为 LLM 会很快比人类少犯很多这类错误。",
+      "timestamp": "18:18",
+      "speaker": "JD"
+    },
+    {
+      "en": "You can build now at the speed of machines, but you can only learn at the speed of humans.",
+      "zh": "你现在能以机器的速度构建，但你只能以人类的速度学习。",
+      "timestamp": "33:44",
+      "speaker": "JD"
+    },
+    {
+      "en": "I think a person on X that uses these products is not actually product market fit.",
+      "zh": "我认为 X 上使用这些产品的人，其实并不代表产品市场契合。",
+      "timestamp": "37:16",
+      "speaker": "JD"
+    },
+    {
+      "en": "We've passed the point where humans will read every line of code.",
+      "zh": "我们已经越过了人类会阅读每一行代码的时间点。",
+      "timestamp": "39:57",
+      "speaker": "JD"
+    },
+    {
+      "en": "The really insight behind the product was if you ask people up front to connect their email and their calendar, you can know enough about them that you can suggest tasks that AI can do for them.",
+      "zh": "产品背后真正的洞察是：如果你一开始就要求人们连接邮箱和日历，你就能足够了解他们，从而可以建议 AI 能为他们做的任务。",
+      "timestamp": "50:53",
+      "speaker": "JD"
+    },
+    {
+      "en": "So we're at a stage of the business where like, I'm like, there's gold littered everywhere in front of me.",
+      "zh": "我们正处在业务的这样一个阶段：我面前到处都是撒了一地的金子。",
+      "timestamp": "65:33",
+      "speaker": "JD"
+    },
+    {
+      "en": "So suddenly AI makes you hire the incremental person, one more person than you would have because there's an extra 50K of profit for you to make by hiring the engineer in the new world because they're more efficient.",
+      "zh": "所以突然之间，AI 让你多雇了那个增量的人——因为在新的世界里工程师效率更高，雇他能让你多赚 5 万美元的利润。",
+      "timestamp": "65:24",
+      "speaker": "JD"
+    },
+    {
+      "en": "Every bit of skepticism, I would say, is something that does keep me up at night, but I think there are paths through the dark forest and there's a giant treasure with only one or two dragons at the end of it, so gotta go for it.",
+      "zh": "我想说的每一点怀疑，都是确实让我夜不能寐的东西，但我认为有穿过黑暗森林的路，路的尽头有一份巨大的宝藏，只有一两条龙守着，所以必须冲一把。",
+      "timestamp": "68:11",
+      "speaker": "JD"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "07:11",
+      "speaker": "Unknown",
+      "en": "The truth is I know what I'm building is a top three priority at Google and Apple like in the next 12 months.",
+      "zh": "事实是，我知道我正在做的东西，在接下来 12 个月里是 Google 和 Apple 排名前三的优先事项。"
+    },
+    {
+      "timestamp": "07:46",
+      "speaker": "Unknown",
+      "en": "I think talking about moats is a little bit of a luxury and you have to be more successful than town is today for it to matter.",
+      "zh": "我觉得谈护城河有点是一种奢侈，你必须比 Town 今天更成功，它才有意义。"
+    },
+    {
+      "timestamp": "08:34",
+      "speaker": "Unknown",
+      "en": "Then number two, like I think the product in this category that will win will have a network effect at the agent level.",
+      "zh": "第二，我认为这个品类里会赢的产品，将在智能体层面拥有网络效应。"
+    },
+    {
+      "timestamp": "09:10",
+      "speaker": "Unknown",
+      "en": "And I think no one has figured out multi-user, multiplayer AI today.",
+      "zh": "而且我认为今天还没有人搞明白多用户、多人 AI。"
+    },
+    {
+      "timestamp": "13:03",
+      "speaker": "Unknown",
+      "en": "I think you'll trust your agent to decide what data to share with other people without you intervening in five years.",
+      "zh": "我认为五年内，你会信任你的智能体在不经你干预的情况下决定与别人分享什么数据。"
+    },
+    {
+      "timestamp": "14:27",
+      "speaker": "Unknown",
+      "en": "And AI works better and better, the less siloed the information is.",
+      "zh": "信息被隔离得越少，AI 就工作得越好。"
+    },
+    {
+      "timestamp": "18:22",
+      "speaker": "Unknown",
+      "en": "I think the LLMs will make many fewer of these mistakes than humans pretty quickly.",
+      "zh": "我认为 LLM 会很快比人类少犯很多这类错误。"
+    },
+    {
+      "timestamp": "23:28",
+      "speaker": "Unknown",
+      "en": "Yeah, it's, well, we're hoping the price, we're hoping the cost curve makes it efficient in 18 to 24 months, right?",
+      "zh": "是的，我们希望价格，希望成本曲线在 18 到 24 个月内变得高效，对吧？"
+    },
+    {
+      "timestamp": "30:16",
+      "speaker": "Unknown",
+      "en": "It's silly, but actually I think that is a form of defensibility.",
+      "zh": "这听起来很傻，但我认为这实际上是一种防御性。"
+    },
+    {
+      "timestamp": "33:44",
+      "speaker": "Unknown",
+      "en": "You can build now at the speed of machines, but you can only learn at the speed of humans.",
+      "zh": "你现在能以机器的速度构建，但你只能以人类的速度学习。"
+    },
+    {
+      "timestamp": "37:16",
+      "speaker": "Unknown",
+      "en": "I think a person on X that uses these products is not actually product market fit.",
+      "zh": "我认为 X 上使用这些产品的人，其实并不代表产品市场契合。"
+    },
+    {
+      "timestamp": "40:01",
+      "speaker": "Unknown",
+      "en": "We've passed the point where humans will read every line of code.",
+      "zh": "我们已经越过了人类会阅读每一行代码的时间点。"
+    },
+    {
+      "timestamp": "41:31",
+      "speaker": "Unknown",
+      "en": "If they keep paying me, I've done my job.",
+      "zh": "如果他们持续付我钱，我就完成了我的工作。"
+    },
+    {
+      "timestamp": "51:03",
+      "speaker": "Unknown",
+      "en": "The really insight behind the product was if you ask people up front to connect their email and their calendar, you can know enough about them that you can suggest tasks that AI can do for them.",
+      "zh": "产品背后真正的洞察是：如果你一开始就要求人们连接邮箱和日历，你就能足够了解他们，从而可以建议 AI 能为他们做的任务。"
+    },
+    {
+      "timestamp": "62:15",
+      "speaker": "Unknown",
+      "en": "So I'm a big believer that actually the economy around assistance will be paid for.",
+      "zh": "所以我非常相信，围绕助手的经济实际上会是通过付费实现的。"
+    },
+    {
+      "timestamp": "65:33",
+      "speaker": "Unknown",
+      "en": "So we're at a stage of the business where like, I'm like, there's gold littered everywhere in front of me.",
+      "zh": "我们正处在业务的这样一个阶段：我面前到处都是撒了一地的金子。"
+    },
+    {
+      "timestamp": "65:24",
+      "speaker": "Unknown",
+      "en": "So suddenly AI makes you hire the incremental person, one more person than you would have because there's an extra 50K of profit for you to make by hiring the engineer in the new world because they're more efficient.",
+      "zh": "所以突然之间，AI 让你多雇了那个增量的人——因为在新的世界里工程师效率更高，雇他能让你多赚 5 万美元的利润。"
+    },
+    {
+      "timestamp": "68:11",
+      "speaker": "Unknown",
+      "en": "Every bit of skepticism, I would say, is something that does keep me up at night, but I think there are paths through the dark forest and there's a giant treasure with only one or two dragons at the end of it, so gotta go for it.",
+      "zh": "我想说的每一点怀疑，都是确实让我夜不能寐的东西，但我认为有穿过黑暗森林的路，路的尽头有一份巨大的宝藏，只有一两条龙守着，所以必须冲一把。"
+    }
+  ],
+  "voice_script": "今天这一期,聊的是硅谷当下最火的品类,AI 助手。主角叫 Jean-Denis,大家都喊他 JD,之前是 Plaid 的 CTO,现在创办了一家公司叫 Town。Town 做的东西,是一个住在你的邮箱和日历里的 AI 助手:观察你怎么安排一天、平时发什么邮件,然后在后台替你把那些事做掉。产品上线才三个月,目标用户就是靠邮箱、日历、短信干活的普通主流人群。\n\n开场,JD 就甩出一句让创业者睡不着的话:「我知道我正在做的东西,在接下来 12 个月里,是 Google 和 Apple 排名前三的优先事项，不是前十,是前三。」一个初创公司,直接撞进巨头的核心射程,这期内容,就是讲这仗打算怎么打。\n\n先说来龙去脉。Town 不是第一个想法,团队之前花了一年做 AI 企业报税,按 JD 自己的说法,是达到了某种产品市场契合,但没到能算成功的程度，在「打造一门好生意」这件事上失败了。推倒重来之后,摸了三个月,问题变成了:为什么没有人做出在邮箱里运行的 AI?恰好赶上模型刚刚能做真正的智能体工作,不只是回答几步,而是端到端把活干完。于是几周内做出了原型,几乎立刻就有了产品市场契合。没有访谈一百个客户,就是为自己做的,用他自己的话说,非常幸运。\n\n那回到那个最扎心的问题:大厂抄你怎么办?JD 的态度出奇地淡定。护城河是个奢侈品,必须比 Town 今天更成功,才值得谈。心态是先在一个有十亿潜在付费用户的市场里,拿到十万到一百万付费用户,因为今天没有任何一家产品有真正深刻的产品市场契合，有些产品很酷,但那是高阶用户的东西,不是主流产品。大厂要抄,前提也得先有人把主流产品做成。\n\n不过,JD 真正押的护城河,是「智能体层面的网络效应」。Town 有个功能,叫智能体到智能体:你问自己的助手一个问题,它发现自己答不了,但同事的助手有答案,就直接去问,再把答案带回来。这个功能藏在产品子页面里,可一旦整个团队都用上,就真的很难想象换产品了。JD 的判断是:今天还没人搞明白多用户、多人 AI,那才会是护城河。\n\n顺着这条线,就引出了全集最反直觉的一个主张:五年之内,你会让智能体替你决定分享什么数据。举个例子,把智能体和两个朋友放在一个房间里组织旅行,朋友问它你的饮食偏好、哪天能飞,甚至开玩笑问一句「说说 JD 的病史」,智能体会拒绝，尽管你从没设过硬性规则。今天的世界里,人类是信息的过滤器,别人问问题,由你判断能跟这个人分享什么;JD 认为,我们会越来越多地把这个过滤器的角色交给 AI,因为信息被隔离得越少,AI 就工作得越好。落到企业里很实际:销售想知道公司里谁认识某客户的关键人,未来就是智能体去和全公司每个人的智能体对话,回来说,某位同事和对方有私交,要不要让你带你进去。有人问容错空间,答案很直白:人类本来就常犯错,连最聪明的人也会「回复全部」骂老板,LLM 会很快比人类少犯这类错。\n\n生意怎么算?Town 不让用户选模型,底层按任务路由,但有个隐藏难题叫人格一致性:Anthropic 刻意让模型的「个性」跨版本保持稳定,界面层要是换了家模型,用户会觉得自己的 AI 被切掉了脑前额叶,真的会提交工单抱怨文本突然变啰嗦。所以能展示的部分不敢乱动,底下的纯推理部分,尽量用最划算的模型。真正的心病只有一个:一家公司最终有多少比例的工作量,留在昂贵的前沿模型上，真的没人知道答案,而这决定这类公司的经济模型。定价按「价格每九到十二个月减半」来倒推,让产品十八个月后能跑出两到三成毛利。最让人夜里睡不着的是终局:AI 助手在前沿任务上,是在和自己的供应商竞争。Cursor 就是前车之鉴，市场份额巨大,客户爱你,但一边付钱给供应商、一边以七成毛利和供应商竞争,最终就会变得困难。\n\n商业模式上,JD 对成功的定义简单粗暴:每个月付我钱的人,只要持续付钱,我就完成了我的工作。token 用得多不算成功,反而最受欢迎的功能之一,是检测那些狂烧 token 的失控自动化,发邮件提醒用户。为什么不免费烧增长?免费内测期,有用户一个月烧掉两三千甚至四千美元的算力,五个月两万六。而且强制的门槛换来了回报:一上来就要求连接邮箱和日历,流失百分之三十,但试用转付费率超过百分之十五,对产品驱动增长来说极高。\n\n最后是一个新的不对称:你现在能以机器的速度构建,却只能以人类的速度学习。过去创业公司能靠身位领先,慢慢榨取用户洞察十年;今天任何有效的做法,两周内就被抄走。创办时觉得有十五家公司在竞争,现在判断只剩两三家能活,而起跑门旁边站着 Apple、Google、OpenAI 和 Anthropic。JD 那句开场白,听着吓人,其实也是这一集最清醒的注脚，你正在做的,是巨头的前三优先级,那你就得击败硅谷最好的人之一。"
+}

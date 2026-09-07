@@ -121,7 +121,7 @@ Jana 的大多数设计从手绘草图开始，老派的那种。然后她把草
 
 - [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:智能体 (agent)</span>
 - [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:智能体 (agent)</span>
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同公司:ChatGPT · 同概念:browser use、智能体 (agent)</span>
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":2,"Stein Pella":1,"Lassie":1,"智能体":1,"人在回路":5,"现有巨头":1,"Superhuman":4,"Stripe":26,"Workday":4}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":2,"Stein Pella":1,"Lassie":1,"智能体":1,"人在回路":6,"现有巨头":1,"Superhuman":4,"Stripe":27,"Workday":4}</script>
 
 <script>
 (function(){

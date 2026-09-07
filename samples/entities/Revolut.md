@@ -31,7 +31,7 @@ unlisted: true
 
 [[Uber]] · [[智能体]] · [[Airbnb]] · [[OpenAI]] · [[ChatGPT]] · [[Harry Stebbings]] · [[Cloudflare]] · [[Anthropic]] · [[Lenny]] · [[Harry Stabbings]]
 
-<script type="application/json" class="pd-epn">{"Uber":8,"智能体":1,"Airbnb":10,"OpenAI":92,"ChatGPT":51,"Harry Stebbings":13,"Cloudflare":9,"Anthropic":106,"Lenny":67,"Harry Stabbings":1}</script>
+<script type="application/json" class="pd-epn">{"Uber":8,"智能体":1,"Airbnb":10,"OpenAI":95,"ChatGPT":52,"Harry Stebbings":14,"Cloudflare":9,"Anthropic":107,"Lenny":67,"Harry Stabbings":1}</script>
 
 <script>
 (function(){

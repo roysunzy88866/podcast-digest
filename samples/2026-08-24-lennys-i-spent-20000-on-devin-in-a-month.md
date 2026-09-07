@@ -141,7 +141,7 @@ Ryan 更直接：代码产出量和可商业化产品之间存在严重不匹配
 
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:智能体 (agent)</span>
 - [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|Factory CEO Matan:早两年等于错，退款、路由器与软件工厂]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:智能体 (agent)</span>
-- [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同公司:Codex、Claude Code、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Codex、Cursor、OpenAI · 同概念:智能体 (agent)、产品市场契合点 (product market fit)</span>
 
 </div>
 </div>

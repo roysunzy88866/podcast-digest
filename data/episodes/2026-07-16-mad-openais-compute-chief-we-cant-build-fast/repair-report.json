@@ -2,30 +2,54 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "05:52",
+      "timestamp": "00:07",
       "speaker": "Sachin Katti",
       "trimmed": false,
-      "tsWas": "06:01",
+      "tsWas": "00:07",
       "spkWas": "Sachin"
     },
     {
       "i": 2,
-      "timestamp": "08:06",
+      "timestamp": "00:21",
       "speaker": "Sachin Katti",
       "trimmed": false,
-      "tsWas": "08:06",
+      "tsWas": "00:21",
       "spkWas": "Sachin"
     },
     {
       "i": 3,
-      "timestamp": "11:22",
+      "timestamp": "05:52",
       "speaker": "Sachin Katti",
       "trimmed": false,
-      "tsWas": "11:22",
+      "tsWas": "05:52",
       "spkWas": "Sachin"
     },
     {
       "i": 4,
+      "timestamp": "07:59",
+      "speaker": "Sachin Katti",
+      "trimmed": false,
+      "tsWas": "07:59",
+      "spkWas": "Sachin"
+    },
+    {
+      "i": 5,
+      "timestamp": "08:44",
+      "speaker": "Sachin Katti",
+      "trimmed": false,
+      "tsWas": "08:44",
+      "spkWas": "Sachin"
+    },
+    {
+      "i": 6,
+      "timestamp": "11:20",
+      "speaker": "Sachin Katti",
+      "trimmed": false,
+      "tsWas": "11:20",
+      "spkWas": "Sachin"
+    },
+    {
+      "i": 7,
       "timestamp": "15:53",
       "speaker": "Sachin Katti",
       "trimmed": false,
@@ -33,15 +57,7 @@
       "spkWas": "Sachin"
     },
     {
-      "i": 5,
-      "timestamp": "15:55",
-      "speaker": "Sachin Katti",
-      "trimmed": false,
-      "tsWas": "15:55",
-      "spkWas": "Sachin"
-    },
-    {
-      "i": 6,
+      "i": 8,
       "timestamp": "16:50",
       "speaker": "Sachin Katti",
       "trimmed": false,
@@ -49,21 +65,43 @@
       "spkWas": "Sachin"
     },
     {
-      "i": 7,
-      "timestamp": "20:47",
+      "i": 9,
+      "timestamp": "17:24",
       "speaker": "Sachin Katti",
       "trimmed": false,
-      "tsWas": "20:47",
+      "tsWas": "17:24",
       "spkWas": "Sachin"
     },
     {
-      "i": 8,
-      "timestamp": "36:06",
+      "i": 10,
+      "timestamp": "27:41",
       "speaker": "Sachin Katti",
       "trimmed": false,
-      "tsWas": "36:06",
+      "tsWas": "27:41",
+      "spkWas": "Sachin"
+    },
+    {
+      "i": 11,
+      "timestamp": "35:26",
+      "speaker": "Sachin Katti",
+      "trimmed": false,
+      "tsWas": "35:26",
+      "spkWas": "Sachin"
+    },
+    {
+      "i": 12,
+      "timestamp": "38:24",
+      "speaker": "Sachin Katti",
+      "trimmed": false,
+      "tsWas": "38:24",
       "spkWas": "Sachin"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 13,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "And so that's the demand we're trying to fulfill here. But I think that's what intelligence is becoming. It is becoming a supply unit on every digital enterprise."
+    }
+  ]
 }

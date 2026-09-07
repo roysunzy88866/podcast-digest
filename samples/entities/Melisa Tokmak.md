@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":1,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":17,"OpenAI":92,"Anthropic":106}</script>
+<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":1,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":17,"OpenAI":95,"Anthropic":107}</script>
 
 <script>
 (function(){

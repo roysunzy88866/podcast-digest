@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":106,"智能体":1,"harness":20,"沙箱":35,"智能体循环":1,"上下文工程":7,"会话日志追踪":2,"泄露的凭证":3,"可观测性":18}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":107,"智能体":1,"harness":20,"沙箱":36,"智能体循环":1,"上下文工程":7,"会话日志追踪":2,"泄露的凭证":3,"可观测性":18}</script>
 
 <script>
 (function(){

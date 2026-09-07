@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]]
+[[Lucas Kaiser]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":13,"Anthropic":106,"Menlo":1,"OpenAI":92,"Lovable":14,"Lagura":1,"OpenRouter":9,"Eleven Labs":5,"ChatGPT":51,"Cursor":48}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":14,"Anthropic":107,"Menlo":1,"OpenAI":95,"Lovable":14,"Lagura":1,"OpenRouter":9,"Eleven Labs":5,"ChatGPT":52,"Cursor":49}</script>
 
 <script>
 (function(){

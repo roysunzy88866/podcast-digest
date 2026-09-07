@@ -1,24 +1,42 @@
 {
-  "title_zh": "把电子变成 token:OpenAI 工业算力负责人谈史上最大基建",
-  "tldr": "OpenAI 工业算力负责人 Sachin(前 Intel CTO)拆解 AI 算力基建的物理现实：数据中心、电网、自研芯片与 Stargate 战略。",
-  "digest_md": "当 ChatGPT 时代的讨论都聚焦在模型有多聪明时，另一场 quieter 的革命正在美国农村的土地上发生：人类历史上最大规模的基建建设。这一集的嘉宾是 Sachin——OpenAI「工业算力」负责人，他曾是斯坦福教授、多次创业者、Intel 的 CTO,现在负责的被称为「以工业规模让算力上线」。他的判断很直接：这确实是人类有史以来建造的最大规模的事物之一，OpenAI 今年在算力上的花费大约是 500 亿美元，而整个行业今年是 7000 亿美元。他说这些决策在 Intel 那样的大公司过去要花几个月，现在因为需求「永不满足」，必须几天就拍板。\n\n## 数据中心是把电子变成 token 的工厂\n\n怎么理解 AI 数据中心和过去云数据中心的不同？Sachin 给出的画面感很强：把它们看成巨大的工厂，把电子转化为 token。每个数据中心相当于几个足球场大小，全部液冷——因为芯片运行温度非常高，空气冷却已经压不住，液冷设备「基本上就是放在建筑旁边的冰箱」。而且冷却无处不在：芯片要单独冷却，连接芯片的东西要冷却，连分配电力的变压器和电缆都会过热，也需要冷却。\n\n为什么冷却值得这么较劲？因为芯片越冷得好，就能跑得越热，而芯片跑得越热，内存带宽和 flops(每秒浮点运算次数，衡量算力的指标)就越多——「如果你能冷却得好，那也意味着你能产出更多智能」。液冷技术本身不新，新的是从未在这种规模上部署过，创新集中在可靠性、成本和新型冷却材料上。\n\n## 电网：他们不抢电，还倒贴着建电网\n\n电力是另一个核心。Sachin 强调了一个外界容易误解的点：OpenAI 在任何地方建数据中心，都做出硬性承诺——不从电网夺走电力，反而投资新的发电和输电基础设施。没有富余容量，就新增燃气、太阳能或水电，再建输电线路、变压器、变电站。他的说法是：没有这些数据中心，这些基础设施本来根本不会被 funding——所以这轮建设的一个附带好处是美国乃至全世界的电网在快速升级，家庭用户也受益。\n\n在电网实在扩不动的地方，他们开始做「表后发电」(不接电网、现场自发自用)：目前主要是燃气轮机，因为那是能量密度最高、可运输且在美国供应最广的形式。至于核能，他的态度是「来得再快也不嫌早」——它是人类能生产和消费的最密集的能源形式，而且清洁，会是数据中心大规模可扩展能源的好来源。\n\n关于社区争议和耗水，他给出了数据中心的辩护：建在德州农村的数据中心带来新的房产税(资助学校和医院)、电网投资和就业；建成后的数据中心不产生任何气体或有毒化学品，「它们只是产生智能」。至于广被诟病的耗水——「数据中心消耗大量水是一种误解」：液冷的水在一个封闭回路里循环利用，相对家庭用水量「少得惊人」。选址逻辑则是四条：充足的土地、许可审批可行且远离居民区、电力和天然气接入、以及有没有足够的建筑工人和合格电工。\n\n## 需求永远跑在供给前面，担心的方向恰恰相反\n\n被问到最典型的「会不会过度建设」问题时，Sachin 的回答是最反直觉的部分：他们担心的不是建多了，而是建不够。证据是 OpenAI 的算力翻了三倍，收入也跟着翻了三倍——「今天的需求远远超过算力供给，所以任何我们能上线的东西，我们都会立即消化掉，至少对我们来说，没有任何算力是闲置的」。\n\n更微妙的一层：AI 现在能自己做 AI 研究了。以前研究实验的数量受限于人类研究员的人数——这是世界上稀缺的资源；现在 AI 自己跑实验，实验数量爆炸式增长，研究所需的算力也随之爆炸。所以他的原话是：每当我们以为算力够了可以放慢脚步，「总是负面地让我们惊讶——我们不该放慢的」。真正的风险在物理世界：供应链和工厂没那么快，无法那么快扩产能。\n\n## Stargate、自研芯片 Jalapeno,和 10 万块 GPU 的网络\n\n关于整体格局：今天的算力组合是「以上全部」——Microsoft、AWS、Oracle、Google 几大超大规模云厂商，加上 CoreWeave 这样的近云，加上芯片合作伙伴的直接供应。Stargate 已从一个具体的合资项目演变为整个算力策略的总括术语：在合作中不同程度地参与设计和建造——与 Oracle 合作帮其设计、与 SoftBank Energy 共同设计建筑外壳、并且开始自己运营新芯片。其中与 Oracle 合作的德州 Abilene 数据中心已经上线运行，正在训练 OpenAI 最近的两代模型。\n\n自研芯片 Jalapeno 的战略逻辑很清晰：因为 OpenAI 确切知道自己要运行什么模型，可以协同设计硬件让服务这些模型极其高效。核心指标是最大化每瓦特产出的 token 数——因为当今世界受限于电力，同样的电产出更多 token 对每个人都更好。这个芯片从设计到流片只用了九个月，Sachin 说这是他职业生涯见过最快的，原因有四：一支很多成员在 Google 设计过 TPU 的强团队、与 Broadcom(在交付 ASIC 方面有很强记录的芯片设计合作伙伴)的紧密合作、以及 OpenAI 独有的优势——知道未来模型长什么样，从而大幅缩短芯片设计决策。最后一条最科幻：AI 本身正在帮助设计和优化芯片，而这个环节以前最耗时，因为受限于人力。「AI 将设计出它训练和运行下一代 AI 所需的系统——包括芯片——的那个世界，已经不远了」。\n\n他们还发布了 MRC 网络协议，解决的是 10 万块 GPU 级别集群的可靠性问题：这种规模的训练中模型处理分布在整个集群上，GPU 之间需要持续通信，而故障是家常便饭、甚至无法穷举所有故障方式。MRC 的直觉像城市里两点之间有很多条路：与其选一条，不如把数据包喷洒到所有路径上，哪条先到走哪条——任何一条断了都不致命。\n\n至于瓶颈，他的答案是「无处不在」：许可审批、燃气轮机、变压器——这些行业过去十年几乎没扩产能，突然遭遇需求冲击，扩产要几年；电工、水管工、各类技工全面短缺，而且是越来越大的瓶颈。他半开玩笑地说这些都是薪水极好的工作，所有云厂商和实验室都会抢着雇。\n\n## 本集带走\n\n- **AI 数据中心的本质是「把电子变成 token 的工厂」**：核心约束从芯片算力转向电力和冷却——液冷决定芯片能跑多热，而越热算力越强。\n- **OpenAI 不抢电，反而出钱建电网**：每个新数据中心都配套投资新的发电和输电设施；电网实在扩不动处改用燃气轮机做现场自发电，核能被寄予厚望。\n- **他们怕的不是建多了，而是建不够**：算力翻三倍、收入翻三倍，上线多少消化多少；AI 自己做 AI 研究让算力需求进一步爆炸。\n- **Jalapeno 芯片九个月流片的关键**：知道自己的工作负载是什么，就能反向定制硬件，核心指标是每瓦特 token 数；AI 已在辅助芯片设计，AI 设计 AI 系统的递归「不远了」。\n- **「保证容量」是新生意**：智能正在成为每个数字企业的关键供应品，OpenAI 开始让企业像锁大宗商品一样锁定 token 供应。",
+  "title_zh": "OpenAI 工业算力负责人：把电子变成 token 的巨兽工厂",
+  "tldr": "OpenAI 工业算力负责人 Sachin 详解史上最大基建：数据中心、电网、自研芯片 Jalapeno 与 Stargate 算力战略。",
+  "digest_md": "把整个行业一年的算力支出算在一起，是 7000 亿美元——其中 OpenAI 一家今年就要花约 500 亿。说这话的人是 Sachin，OpenAI 的「工业算力负责人」：他曾是斯坦福教授、多次创业者、Intel 的 CTO，现在领导着许多人所称的人类历史上最大规模的基础设施建设。这一集，他第一次系统讲清了 AI 热潮背后的物理现实。\n\n## 数据中心是「把电子变成 token 的工厂」\n\nSachin 给出了最好理解的心智模型：AI 数据中心就是巨大的工厂，把电力（电子）变成 token。它们像多个橄榄球场那么大，因为芯片运行时温度极高，必须用液体冷却——空气冷已经压不住了，而且液冷要同时做在芯片级和数据中心级，连变压器和线缆都需要冷却 [06:14 Sachin]。\n\n液冷技术本身不新，新的是首次部署到这种规模，创新集中在可靠、便宜、可扩展；还有新型液体和吸热材料，因为冷得越好，芯片就能跑得越热——而「芯片越热，内存带宽和 flops 越多」，冷却能力直接等于智能产出能力 [07:59 Sachin]。\n\n## 电力：先做电网的好公民，再谈自发自用\n\nOpenAI 的硬性承诺： wherever 建数据中心，绝不从电网「夺走」存量电力，而是出资新建发电设施（燃气、太阳能或水电）和输电线路、变压器、变电站——「没有这些数据中心，这些基础设施本来不会得到资助」，附带好处是全美乃至全球电网被快速升级 [08:44 Sachin]。电网容量触顶的地方，他们开始做「表后发电」：现场自建发电与配电，让数据中心电力自给自足，目前主要靠燃气轮机，因为它是能量密度最高、最可运输且在美国供应最广的形式 [10:37 Sachin]。\n\n核能？「来得越快越好」——它是人类能生产的最密集也最清洁的能源，将成为数据中心大规模可扩展能源的重要来源 [11:20 Sachin]。\n\n## 需求永远跑在供给前面：他们怕的不是建多了\n\n关于最常被问的「过度建设」风险，Sachin 的回答很直接：OpenAI 算力翻三倍、收入也翻三倍，「今天的需求远远超过算力供给，任何能上线的东西我们立刻消耗掉」——至少对 OpenAI 来说不存在闲置算力 [15:55 Sachin]。\n\n真正的担忧在反方向：**物理世界太慢**。「任何时候我们觉得自己算力够了、可以放慢，结果总是负面地惊讶我们——糟了，不该放慢的。」供应链、工厂、产能都跟不上他们想要的规模 [17:24 Sachin]。还有一个加速因素：AI 现在自己做 AI 研究，以前实验数量受限于人类研究员人数，现在实验数量爆炸，研究所需算力也跟着爆炸 [16:54 Sachin]。\n\n瓶颈无处不在：许可审批、燃气轮机和变压器（这两个行业过去十年几乎没扩产能，突然遭遇需求冲击，扩产要数年）、以及电工水管工等技术工人短缺——「都是高薪工作，所有云厂商和实验室都抢着雇」[39:01 Sachin]。\n\n## 自研芯片 Jalapeno：知道工作负载，就能走捷径\n\nOpenAI 已全栈进入芯片业务。Jalapeno 的战略逻辑：OpenAI 确切知道自己要运行什么模型，所以能和硬件共同设计，让芯片在服务这些模型上超级高效。核心优化指标只有一个——**每瓦特 token 数**，因为当今世界受限于电力，同样电量产出更多 token 对所有人都好 [13:13 Sachin]。\n\n从设计到流片只用了九个月——Sachin 称这是他职业生涯见过最快的，原因有四：团队里很多人在 Google 设计过 TPU；与在 ASIC 交付上有强记录的 Broadcom 深度合作；独有优势是知道未来模型长什么样，能省掉大量芯片设计决策；最后，AI 本身越来越多地参与设计和优化芯片——那原本是最耗时的环节，因为受限于人力处理数据和跑实验的速度 [34:33 Sachin]。「AI 正在自己造芯片了。」「我认为递归的世界不远了——AI 将设计它训练和运行下一代 AI 所需的系统，包括芯片。」[36:03 Sachin]\n\n配套地，他们还发布了 MRC 网络协议：把数据包同时喷洒到多条路径上，像城市里任意两点有很多条路，哪条先到走哪条——这样任何一条链路失效都不致命，让十万卡集群的训练不必操心网络故障 [38:10 Sachin]。\n\n## Stargate、组合策略与「智能成为供应品」\n\nStargate 如今是 OpenAI 算力策略的总括术语：与 Oracle 紧密合作（Abilene 数据中心已上线运行，用于训练最近两个模型）、与软银能源共同设计建筑外壳、未来可能自己设计甚至自建数据中心 [30:08 Sachin]。算力来源始终是组合式的：Microsoft、AWS、Google 等超大规模云厂商，加上 Corby 这类近云和芯片伙伴直供——「在我们需要的规模上，必须动用所有算力来源」[28:35 Sachin]。融资模式上，OpenAI 始终是承购方/租户而非业主，融资外包给合作伙伴 [33:48 Sachin]。\n\n> 【背景】原文转写为「Corby」（\"a near cloud\"），结合上下文指 OpenAI 宣布合作过的近云算力供应商（很可能是 CoreWeave 的转写误差），正文按原文写法保留。\n\n新业务「保证容量」则暴露了他们的自我定位：在算力短缺的世界里，token 永远是稀缺品，OpenAI 向企业保证一定美元价值的智能 token 供应——「智能正在成为每个数字化企业的供应单元」，锁定关键供应是良好的业务习惯 [40:52 Sachin]。\n\n## 本集带走\n\n- **数据中心 = 把电子变成 token 的工厂**：橄榄球场大小、全液冷（芯片级+设施级，连变压器都要冷却），冷得越好产出智能越多。\n- **OpenAI 不抢电网存量电**：每建一个数据中心就出资新建发电+输电设施，附带效果是电网被快速升级；电网触顶处转向表后自发电，核能被寄予厚望。\n- **担心的方向和大众相反**：需求远超供给、上线即耗尽；真正的风险是物理供应链（燃气轮机、变压器、电工）跟不上，不是建多了闲置。\n- **自研芯片的护城河是「知道负载」**：Jalapeno 九个月流片，靠的是知道自家模型长什么样从而砍掉大量设计决策，核心指标是每瓦特 token 数；AI 已参与芯片设计，「递归」不远。\n- **Stargate = 算力策略总括**：多源组合（各大云 + 近云 + 芯片伙伴直供），OpenAI 做租户和承购方，融资外包给伙伴。\n- **智能正在变成供应品**：「保证容量」业务让企业像锁定电力一样锁定 token 供应。\n\n> 【背景】主持人为 Matt Turk（The Mad Podcast）；本集录制于巴黎一个行业会议间隙。转写稿中 Jalapeno、MRC 等名称来自语音识别，可能与官方拼写有出入。",
   "quotes": [
     {
+      "en": "Demand far outstrips compute supply today. So anything we can bring online, we consume immediately.",
+      "zh": "今天的算力需求远远超过算力供给。所以我们能把任何东西上线，都会立即被消耗掉。",
+      "timestamp": "00:07",
+      "speaker": "Sachin Katti"
+    },
+    {
+      "en": "We do believe that the world of recursion is not that far, where AI will design the systems it needs to train and run the next generation of AI, including this.",
+      "zh": "我们确实相信，递归的世界离我们并不遥远——AI 将设计它自己所需的系统，来训练和运行下一代 AI，包括这个。",
+      "timestamp": "00:21",
+      "speaker": "Sachin Katti"
+    },
+    {
       "en": "So I think the best way to visualize data centers is giant factories that are turning electrons into tokens.",
-      "zh": "我认为把数据中心形象化的最佳方式，是把它们看成巨大的工厂，把电子转化为 token。",
+      "zh": "所以我认为把数据中心可视化最好的方式，就是巨大的工厂，把电子变成 token。",
       "timestamp": "05:52",
       "speaker": "Sachin Katti"
     },
     {
-      "en": "If you can cool well, that also means you can produce more intelligence.",
-      "zh": "如果你能冷却得好，那也意味着你能产出更多智能。",
-      "timestamp": "08:06",
+      "en": "So the hotter the chip, the more memory bandwidth you get, the more flops you get. And so there's a strong payoff. If you can cool well, that also means you can produce more intelligence.",
+      "zh": "所以芯片越热，你获得的内存带宽就越多，你获得的 flops 就越多。所以有很强的回报。如果你能冷却得好，那也意味着你能产出更多智能。",
+      "timestamp": "07:59",
       "speaker": "Sachin Katti"
     },
     {
-      "en": "I think it is the densest form of energy we can all produce and consume.",
-      "zh": "我认为它是我们所有人能生产和消费的最密集的能源形式。",
-      "timestamp": "11:22",
+      "en": "So whenever we build a data center anywhere, we make it a hard commitment that we are not taking power away from the grid. In fact, we are investing in the grid to generate new power so that we can consume it for data centers.",
+      "zh": "所以无论我们在哪里建数据中心，我们都会做出硬性承诺，即我们不会从电网夺走电力。事实上，我们是在投资电网以产生新的电力，这样我们才能把电力用于数据中心。",
+      "timestamp": "08:44",
+      "speaker": "Sachin Katti"
+    },
+    {
+      "en": "It can't come soon enough. I think it is the densest form of energy we can all produce and consume. And it's also clean.",
+      "zh": "它来得越快越好。我认为它是我们所有人都能生产和消费的最密集的能源形式。而且它还是清洁的。",
+      "timestamp": "11:20",
       "speaker": "Sachin Katti"
     },
     {
@@ -28,72 +46,84 @@
       "speaker": "Sachin Katti"
     },
     {
-      "en": "And we believe that, I mean, that continues to be true, demand far outstrips compute supply today.",
-      "zh": "我们相信这依然成立：今天的需求远远超过算力供给。",
-      "timestamp": "15:55",
-      "speaker": "Sachin Katti"
-    },
-    {
-      "en": "Now, AI itself can do AI research.",
-      "zh": "现在，AI 本身可以做 AI 研究了。",
+      "en": "Now, AI itself can do AI research. The number of experiments we can run explodes. And therefore, the amount of compute you need for research also explodes.",
+      "zh": "现在，AI 本身可以做 AI 研究了。我们能做的实验数量爆炸式增长。因此，研究所需的算力也爆炸式增长。",
       "timestamp": "16:50",
       "speaker": "Sachin Katti"
     },
     {
-      "en": "It's a misperception that data centers consume a lot of water.",
-      "zh": "数据中心消耗大量水是一种误解。",
-      "timestamp": "20:47",
+      "en": "Any time we have thought we have enough compute, we can slow down. always negatively surprise us, like, oh, shit, we should not have slowed down, right?",
+      "zh": "任何时候我们觉得自己已经有足够的算力，可以慢下来了，总是会给我们带来负面的惊喜，比如，糟了，我们不该放慢速度的，对吧？",
+      "timestamp": "17:24",
       "speaker": "Sachin Katti"
     },
     {
-      "en": "I mean, AI is assisting in chip design, but we do believe that the world of Laker should not be that far, where AI will design the systems it needs to train and run the next generation of AI.",
-      "zh": "AI 已经在辅助芯片设计了，但我们相信那个世界应该不会太远了：AI 将设计它自己需要的系统，来训练和运行下一代 AI。",
-      "timestamp": "36:06",
+      "en": "We are building the largest computer in the world.",
+      "zh": "我们在建造世界上最大的计算机。",
+      "timestamp": "27:41",
+      "speaker": "Sachin Katti"
+    },
+    {
+      "en": "There's a unique advantage here of us knowing what the future models might look like and therefore being able to short circuit a lot of the decisions you need to make, design decisions you need to make on the chip side.",
+      "zh": "这里的独特优势在于，我们知道未来的模型可能长什么样，因此能够走捷径，省去很多你在芯片侧需要做的决策、设计决策。",
+      "timestamp": "35:26",
+      "speaker": "Sachin Katti"
+    },
+    {
+      "en": "So instead of picking just one route, We will send traffic across all of them. And whichever one succeeds, you take that.",
+      "zh": "所以与其只挑一条路线，我们会把流量发送到所有这些路线上。哪条先成功，就走哪条。",
+      "timestamp": "38:24",
       "speaker": "Sachin Katti"
     }
   ],
   "quotes_candidates": [
     {
-      "timestamp": "03:04",
+      "timestamp": "00:07",
       "speaker": "Sachin",
-      "en": "It definitely feels like one of the largest things humanity has ever built, effectively.",
-      "zh": "从实效上说，这确实是人类有史以来建造的最大规模的事物之一。"
+      "en": "Demand far outstrips compute supply today. So anything we can bring online, we consume immediately.",
+      "zh": "今天的算力需求远远超过算力供给。所以我们能把任何东西上线，都会立即被消耗掉。"
     },
     {
-      "timestamp": "06:01",
+      "timestamp": "00:21",
+      "speaker": "Sachin",
+      "en": "We do believe that the world of recursion is not that far, where AI will design the systems it needs to train and run the next generation of AI, including this.",
+      "zh": "我们确实相信，递归的世界离我们并不遥远——AI 将设计它自己所需的系统，来训练和运行下一代 AI，包括这个。"
+    },
+    {
+      "timestamp": "05:52",
       "speaker": "Sachin",
       "en": "So I think the best way to visualize data centers is giant factories that are turning electrons into tokens.",
-      "zh": "我认为把数据中心形象化的最佳方式，是把它们看成巨大的工厂，把电子转化为 token。"
+      "zh": "所以我认为把数据中心可视化最好的方式，就是巨大的工厂，把电子变成 token。"
     },
     {
-      "timestamp": "08:06",
+      "timestamp": "07:59",
       "speaker": "Sachin",
-      "en": "If you can cool well, that also means you can produce more intelligence.",
-      "zh": "如果你能冷却得好，那也意味着你能产出更多智能。"
+      "en": "So the hotter the chip, the more memory bandwidth you get, the more flops you get. And so there's a strong payoff. If you can cool well, that also means you can produce more intelligence.",
+      "zh": "所以芯片越热，你获得的内存带宽就越多，你获得的 flops 就越多。所以有很强的回报。如果你能冷却得好，那也意味着你能产出更多智能。"
+    },
+    {
+      "timestamp": "08:44",
+      "speaker": "Sachin",
+      "en": "So whenever we build a data center anywhere, we make it a hard commitment that we are not taking power away from the grid. In fact, we are investing in the grid to generate new power so that we can consume it for data centers.",
+      "zh": "所以无论我们在哪里建数据中心，我们都会做出硬性承诺，即我们不会从电网夺走电力。事实上，我们是在投资电网以产生新的电力，这样我们才能把电力用于数据中心。"
     },
     {
       "timestamp": "09:44",
       "speaker": "Sachin",
       "en": "This is infrastructure that would otherwise not have been funded, if not for these data centers.",
-      "zh": "如果没有这些数据中心，这些基础设施本来是不会被资助建设的。"
+      "zh": "如果没有这些数据中心，这些基础设施本来是不会得到资助的。"
     },
     {
       "timestamp": "11:20",
       "speaker": "Sachin",
-      "en": "It can't come soon enough.",
-      "zh": "它来得再快也不嫌早。(谈核能)"
+      "en": "It can't come soon enough. I think it is the densest form of energy we can all produce and consume. And it's also clean.",
+      "zh": "它来得越快越好。我认为它是我们所有人都能生产和消费的最密集的能源形式。而且它还是清洁的。"
     },
     {
-      "timestamp": "11:22",
+      "timestamp": "13:19",
       "speaker": "Sachin",
-      "en": "I think it is the densest form of energy we can all produce and consume.",
-      "zh": "我认为它是我们所有人能生产和消费的最密集的能源形式。"
-    },
-    {
-      "timestamp": "13:13",
-      "speaker": "Sachin",
-      "en": "So it really allows us to drive efficiency advantage, drive more tokens per watt.",
-      "zh": "所以这真的让我们能够获得效率优势，提高每瓦特的 token 数。"
+      "en": "So the key metric that Jalapeno is optimizing is maximizing the number of tokens you can produce per watt.",
+      "zh": "所以 Jalapeno 优化的关键指标是最大化每瓦特能产生的 token 数量。"
     },
     {
       "timestamp": "15:53",
@@ -102,64 +132,59 @@
       "zh": "我们把算力翻了三倍，收入也翻了三倍。"
     },
     {
-      "timestamp": "15:55",
-      "speaker": "Sachin",
-      "en": "And we believe that, I mean, that continues to be true, demand far outstrips compute supply today.",
-      "zh": "我们相信这依然成立：今天的需求远远超过算力供给。"
-    },
-    {
-      "timestamp": "16:02",
-      "speaker": "Sachin",
-      "en": "So anything we can bring online, we consume immediately.",
-      "zh": "所以任何我们能上线的东西，我们都会立即消化掉。"
-    },
-    {
       "timestamp": "16:54",
       "speaker": "Sachin",
-      "en": "Now, AI itself can do AI research.",
-      "zh": "现在，AI 本身可以做 AI 研究了。"
+      "en": "Now, AI itself can do AI research. The number of experiments we can run explodes. And therefore, the amount of compute you need for research also explodes.",
+      "zh": "现在，AI 本身可以做 AI 研究了。我们能做的实验数量爆炸式增长。因此，研究所需的算力也爆炸式增长。"
     },
     {
       "timestamp": "17:24",
       "speaker": "Sachin",
-      "en": "Any time we have thought we have enough compute, we can slow down,",
-      "zh": "每当我们觉得自己拥有的算力已经足够、可以放慢速度的时候，"
+      "en": "Any time we have thought we have enough compute, we can slow down. always negatively surprise us, like, oh, shit, we should not have slowed down, right?",
+      "zh": "任何时候我们觉得自己已经有足够的算力，可以慢下来了，总是会给我们带来负面的惊喜，比如，糟了，我们不该放慢速度的，对吧？"
     },
     {
-      "timestamp": "17:29",
+      "timestamp": "17:45",
       "speaker": "Sachin",
-      "en": "always negatively surprise us, like, oh, shit, we should not have slowed down, right?",
-      "zh": "总是会给我们带来负面的意外，比如，哦，该死，我们不该放慢速度的，对吧？"
+      "en": "The physical world does not move that fast, right? Physical supply chains, factories don't move that fast, cannot add capacity that fast.",
+      "zh": "物理世界的运转没有那么快，对吧？物理供应链、工厂的运转没有那么快，无法那么快地增加产能。"
     },
     {
-      "timestamp": "20:16",
+      "timestamp": "27:41",
       "speaker": "Sachin",
-      "en": "They are self-contained.",
-      "zh": "它们是自成一体的。"
+      "en": "We are building the largest computer in the world.",
+      "zh": "我们在建造世界上最大的计算机。"
     },
     {
-      "timestamp": "20:17",
+      "timestamp": "34:38",
       "speaker": "Sachin",
-      "en": "They just produce intelligence.",
-      "zh": "它们只是产生智能。"
+      "en": "Nine months is very, very fast, probably the fastest I've seen in my career.",
+      "zh": "九个月非常非常快，可能是我在职业生涯中见过最快的。"
     },
     {
-      "timestamp": "20:47",
+      "timestamp": "35:26",
       "speaker": "Sachin",
-      "en": "It's a misperception that data centers consume a lot of water.",
-      "zh": "数据中心消耗大量水是一种误解。"
+      "en": "There's a unique advantage here of us knowing what the future models might look like and therefore being able to short circuit a lot of the decisions you need to make, design decisions you need to make on the chip side.",
+      "zh": "这里的独特优势在于，我们知道未来的模型可能长什么样，因此能够走捷径，省去很多你在芯片侧需要做的决策、设计决策。"
     },
     {
-      "timestamp": "36:06",
+      "timestamp": "38:24",
       "speaker": "Sachin",
-      "en": "I mean, AI is assisting in chip design, but we do believe that the world of Laker should not be that far, where AI will design the systems it needs to train and run the next generation of AI.",
-      "zh": "AI 已经在辅助芯片设计了，但我们相信那个世界应该不会太远了：AI 将设计它自己需要的系统，来训练和运行下一代 AI。"
+      "en": "So instead of picking just one route, We will send traffic across all of them. And whichever one succeeds, you take that.",
+      "zh": "所以与其只挑一条路线，我们会把流量发送到所有这些路线上。哪条先成功，就走哪条。"
     },
     {
       "timestamp": "41:52",
       "speaker": "Sachin",
-      "en": "And so that's the demand we're trying to fulfill here.",
-      "zh": "所以这就是我们在这里试图满足的需求。"
+      "en": "And so that's the demand we're trying to fulfill here. But I think that's what intelligence is becoming. It is becoming a supply unit on every digital enterprise.",
+      "zh": "这就是我们在这里试图满足的需求。但我认为这就是智能正在变成的样子。它正在成为每个数字化企业的供应单元。"
+    },
+    {
+      "timestamp": "43:05",
+      "speaker": "Sachin",
+      "en": "I think what we are waiting for is when does the economics of the launching satellite change? And when does the economics of the hardware change?",
+      "zh": "我认为我们等待的是发射卫星的经济性何时改变？以及硬件的经济性何时改变？"
     }
-  ]
+  ],
+  "voice_script": "你有没有想过，你每次问 AI 一个问题，背后到底是什么东西在干活？不是服务器那么简单——是一座座橄榄球场那么大的建筑，里面堆满发热的芯片，靠电力驱动，把你的一句话变成回答。今天这一期，讲的就是这个物理世界。\n\n主角叫 Sachin。来头不小：当过斯坦福教授，创过业，做过 Intel 的 CTO，现在是 OpenAI 的工业算力负责人。什么意思呢？就是 OpenAI 那堆史上最大规模的基础设施建设，归这个人管。AI 行业今年全行业的算力支出加起来是七千亿美元，光 OpenAI 一家今年就要花五百亿。这一期，他第一次系统地把这背后的物理现实讲清楚了。\n\n先从一个最好理解的心智模型说起。在他嘴里，AI 数据中心不是机房，是工厂——一座把电子变成 token 的巨型工厂。电进去，智能出来。为什么要建得像多个橄榄球场那么大？因为芯片跑起来温度极高，空气冷已经完全压不住了，必须用液体冷却，而且是芯片级和整个数据中心级同时做，连变压器和线缆都得想办法冷却。\n\n液冷这个技术本身不新，新的是第一次部署到这种规模，所以创新都集中在怎么让它可靠、便宜、可扩展。但这里有个反直觉的点：冷得越好，芯片就能跑得越热，而芯片越热，能榨出的内存带宽和算力就越多。所以冷却能力直接等于智能产出能力——制冷不是后勤问题，是生产力问题。\n\n电从哪来？这是整个故事里最硬的约束。OpenAI 有一条硬性承诺：不管在哪儿建数据中心，绝不从电网手里夺走存量电力。那怎么办？自己出钱新建发电设施，燃气、太阳能或者水电，连输电线路、变压器、变电站一起建。这些基础设施，如果没有数据中心，本来根本不会有人出钱建——所以附带效果是，全美乃至全球的电网被快速升级了。\n\n那碰到电网容量已经见顶的地方呢？他们开始做表后发电，就是在数据中心现场自建发电和配电，让电力自给自足。目前主要靠燃气轮机，因为它是能量密度最高、最容易运输、在美国供应最广的形式。那核能呢？原话是：来得越快越好。这是人类能生产的最密集也最清洁的能源。\n\n说到这，你可能会问一个所有人都爱问的问题：这么猛建，会不会建多了？算力泡沫？Sachin 的回答很直接。OpenAI 的算力翻了三倍，收入也跟着翻了三倍，今天的需求远远超过算力供给，任何能上线的东西都会被立刻消耗掉。至少对 OpenAI 来说，不存在闲置算力。\n\n真正的担忧在反方向：物理世界太慢。原话大意是，任何时候觉得算力够了自己可以放慢脚步，结果总是被负面地惊讶——糟了，不该放慢的。供应链、工厂、产能全都跟不上想要的规模。还有一个加速因素更狠：AI 现在自己做 AI 研究了。以前实验数量受限于人类研究员的人数，现在实验数量爆炸，研究所需的算力自然跟着爆炸。\n\n瓶颈到底卡在哪？无处不在。许可审批是一个，燃气轮机和变压器是两个大坑——这两个行业过去十年几乎没扩过产能，突然遭遇需求冲击，扩产要好几年。还有技术工人短缺，电工、水管工，全是高薪工作，所有云厂商和实验室都在抢着雇。\n\n电的问题讲完了，接下来自然就是芯片本身。OpenAI 已经全栈进入了芯片业务，自研了一款叫 Jalapeno 的芯片。这个决策的逻辑其实很妙：市面上通用芯片要照顾各种可能的用户，而 OpenAI 确切知道自己要运行什么模型，所以能让芯片和模型共同设计，在服务这些模型这件事上做到超级高效。核心优化指标就一个——每瓦特 token 数。因为当今世界受限于电力，同样的电产出更多的 token，对所有人都好。\n\n更惊人的是速度：从设计到流片只用了九个月，Sachin 说这是他职业生涯见过最快的。为什么能做到？四个原因。第一，团队里很多人在 Google 设计过 TPU，经验现成的；第二，跟在芯片交付上记录很强的 Broadcom 深度合作；第三，也是最独有的一条，他们知道未来模型长什么样，能砍掉大量不必要的芯片设计决策；第四，AI 本身越来越多地参与设计和优化芯片——那原本是最耗时的环节。用原话说，AI 正在自己造芯片了，而递归的世界不远了：AI 将设计它训练和运行下一代 AI 所需的系统，包括芯片。\n\n顺带一提，为了让十万卡的集群训练不用操心网络故障，他们还发布了 MRC 网络协议。思路像城市里任意两点之间有很多条路：数据包同时喷洒到多条路径上，哪条先到走哪条，任何一条链路坏了都不致命。\n\n最后把整盘棋拼起来看。Stargate，如今是 OpenAI 算力策略的总括术语：跟 Oracle 紧密合作，Abilene 数据中心已经上线运行，训练了最近两个模型；跟软银能源共同设计建筑外壳；未来可能自己设计甚至自建数据中心。算力来源始终是组合式的——Microsoft、AWS、Google 这些超大规模云厂商，加上近云供应商和芯片伙伴直供，因为在 OpenAI 需要的规模上，必须动用所有来源。融资上有个定位很关键：OpenAI 始终是租户和承购方，不是业主，融资外包给合作伙伴。\n\n还有一个新业务特别能暴露他们的自我定位，叫保证容量：在算力短缺的世界里，token 永远是稀缺品，OpenAI 向企业保证一定美元价值的智能 token 供应。用他们的话说，智能正在成为每个数字化企业的供应单元——就像当年企业要锁定电力供应一样，锁定智能供应会是好的业务习惯。\n\n回头看这一期，最有意思的不是某个数字，而是视角的切换：当大家都在担心 AI 泡沫、担心建多了的时候，这个管着史上最大基建的人担心的是，世界建得太慢。用他的原话收尾：把数据中心可视化最好的方式，就是巨大的工厂，把电子变成 token——而今天，这座工厂的原材料，永远不够用。"
 }

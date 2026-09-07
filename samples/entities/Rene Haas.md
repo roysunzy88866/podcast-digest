@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Chetan Gupta]] [[Stéphane Bancel]]
+[[Lucas Kaiser]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elad":1,"Arm":2,"SoftBank":4,"Meta":28,"NVIDIA":30,"CPU":4,"推理":5,"芯片设计":1,"验证":4,"供应链攻击":2}</script>
+<script type="application/json" class="pd-epn">{"Elad":1,"Arm":2,"SoftBank":4,"Meta":29,"NVIDIA":30,"CPU":4,"推理":5,"芯片设计":1,"验证":4,"供应链攻击":2}</script>
 
 <script>
 (function(){

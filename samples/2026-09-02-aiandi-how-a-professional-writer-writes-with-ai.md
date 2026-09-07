@@ -132,9 +132,9 @@ Compounding 这个理念是：你给 AI 的每一条反馈，都应该回馈进�
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Claude、Codex · 同概念:智能体 (agent)</span>
 - [[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|让AI替你操作电脑和浏览器的三个实战用法]]<span class="pd-rz">同公司:ChatGPT、Codex、Claude · 同概念:智能体 (agent)</span>
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|氛围编码 vs 氛围工程：智能体时代谁被淘汰]]<span class="pd-rz">同公司:Claude、Codex · 同概念:智能体 (agent)</span>
-- [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|AI 当技术联合创始人：一个人怎么做时尚品牌]]<span class="pd-rz">同公司:ChatGPT、Codex · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,1717 @@
+{
+  "episode_id": "2026-09-07-howiai-build-your-own-company-brain-the-enterpr",
+  "podcast": "How I AI",
+  "date": "2026-09-07",
+  "tags": [
+    "企业级 AI",
+    "智能体",
+    "AI 治理",
+    "数据智能体",
+    "组织落地"
+  ],
+  "categories": [
+    "智能体",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "claire-vaux",
+      "type": "person",
+      "role": "host",
+      "name": "Claire Vaux",
+      "file": "Claire Vaux",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            84.148,
+            89.009
+          ],
+          "quote": "I'm Claire Vaux, product leader and AI obsessive here on a mission to help you build better with these new tools.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sharadh-krishnamurthy",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sharadh Krishnamurthy",
+      "file": "Sharadh Krishnamurthy",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集背景公司：极其复杂的全球性支付业务，因 AI 之前就在开发者体验、数据平台、分析层上持续投入，如今成为智能体时代的杠杆（Claire 称『把 DevEx 团队和数据团队规模翻一倍』）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            89.349,
+            98.452
+          ],
+          "quote": "Today we have Sherrod, an engineering manager at Stripe and part of the team who built Kai, their internal company brain and company agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            169.963,
+            186.712
+          ],
+          "quote": "And I had to reach out to the Stripe team because I wanted to learn not just about how Kai, the company brain, the company agent, works at this big company, but I really wanted to understand why in the world you built it yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            227.887,
+            238.09
+          ],
+          "quote": "And Stripe is an incredibly complex business, like all around the world, like multitude of products, so many, so many processes that keep us in a shape so that we can help our users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            302.241,
+            319.358
+          ],
+          "quote": "And ultimately, while it's great for me that we're really helping Stripe be more effective and enabling everyone, I really am happy that what we're doing here is helping build the Rails that make our Stripe users get better products out of this using great agents that are coming out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            330.24,
+            333.261
+          ],
+          "quote": "So, you know, I'm Claire, I work at Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            451.294,
+            456.197
+          ],
+          "quote": "Nice because then you can pressure test it against Stripe employees or external customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            538.833,
+            545.799
+          ],
+          "quote": "So projects as a governance mechanism, I'm really, I think we did a lot there because again, Stripe is a very complex business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            662.747,
+            675.816
+          ],
+          "quote": "What we're going to be doing today is we're actually going to be creating a dashboard because Stripe, we love our data and something that literally everyone at Stripe does with Kai is create a bunch of dashboards, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            769.903,
+            782.256
+          ],
+          "quote": "What you see Kai doing immediately is that it's going to find the skill that says Ask Data, and that's a skill that's going to go figure out how to answer any Stripe data and SQL related question using our standard tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            920.064,
+            928.911
+          ],
+          "quote": "So like I said, luckily at Stripe, we care about our data so much that we've invested a lot into both the data querying layer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1042.21,
+            1046.512
+          ],
+          "quote": "I want people that are listening to hear a couple things and, you know, I'm going to make the Stripe team blush.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1046.572,
+            1069.304
+          ],
+          "quote": "I say this specifically about Stripe a lot, which is I think one of the reasons why Stripe has been able to benefit so much from AI is prior to AI, there's been a commitment to developer experience, developer platform, data platform, analytics layers, like all these things that made humans really efficient at the company pre-AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1153.343,
+            1157.987
+          ],
+          "quote": "My personal history at Stripe has actually been on each of the kind of themes that you've referenced.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1257.286,
+            1265.694
+          ],
+          "quote": "And this is something I'm personally super happy about, like pretty much everyone at Stripe uses CHI, like 86 plus percent of the company now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1505.126,
+            1510.789
+          ],
+          "quote": "I'm just curious, kind of, you know, inside the doors of Stripe, how do you roll something like this out?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1523.995,
+            1529.076
+          ],
+          "quote": "Stripe, we run fairly lean and very nimble and very fast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1661.494,
+            1665.876
+          ],
+          "quote": "We have incredible tools at Stripe to get more from who we have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2021.634,
+            2023.975
+          ],
+          "quote": "I'd also don't want this to be happening for every person at Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2361.492,
+            2370.697
+          ],
+          "quote": "And so a large part of the investments we've done and what we've managed to give to Stripe is the ability to package skills and retrieve them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2432.425,
+            2438.474
+          ],
+          "quote": "And they're usually something pretty specific to the company you're working at and Stripe is no different.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2720.957,
+            2723.218
+          ],
+          "quote": "Let's put aside Stripe Blurple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2928.288,
+            2931.092
+          ],
+          "quote": "Where can we find you and how can we be helpful to you in the Stripe team?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 593,
+          "t": [
+            2945.953,
+            2947.213
+          ],
+          "quote": "And Stripe is always hiding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2955.796,
+            2958.437
+          ],
+          "quote": "So please look out on the Stripe carriers page.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 596,
+          "t": [
+            2959.197,
+            2964.28
+          ],
+          "quote": "But otherwise, my email is sharad at stripe.com.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2972.745,
+            2978.208
+          ],
+          "quote": "Well, thank you to you and thank you to the Stripe team for being so generous with all the things that you shared with the audience.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kai",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kai",
+      "file": "Kai",
+      "primary": true,
+      "how_described": "本集主角：Stripe 内部的『公司大脑』与公司智能体，上下文感知、托管在云端安全边界内，每周超 10,000 名员工使用（公司 86% 以上），由不到 10 人团队维护。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            89.349,
+            98.452
+          ],
+          "quote": "Today we have Sherrod, an engineering manager at Stripe and part of the team who built Kai, their internal company brain and company agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            98.732,
+            115.095
+          ],
+          "quote": "He's going to show us why you might want to build your own custom agent for your company, what are the governance and control mechanisms of Kai that make it super special, and how to build not just a skill building skill, but a skill building platform for your team to share their automations and workflows with the rest of the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            169.963,
+            186.712
+          ],
+          "quote": "And I had to reach out to the Stripe team because I wanted to learn not just about how Kai, the company brain, the company agent, works at this big company, but I really wanted to understand why in the world you built it yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            191.135,
+            193.256
+          ],
+          "quote": "Why build Kai?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            250.038,
+            258.124
+          ],
+          "quote": "So some of the things that we really thought about and why we built Kai is governance is a big thing for us, like I just said.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            258.644,
+            260.786
+          ],
+          "quote": "The second thing is Kai is like really interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            281.553,
+            287.454
+          ],
+          "quote": "And the other thing that I really like and our security team really likes is that Kai is all hosted on the cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            291.354,
+            295.575
+          ],
+          "quote": "And it's very stripy in that everything that we use to build Kai",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            347.847,
+            357.917
+          ],
+          "quote": "We allow people to select how much they give Kai access to, but out of the box, Kai knows who you are and where do you sit in the art chart.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            368.408,
+            380.471
+          ],
+          "quote": "From there on, the standard tools that we have connected to Kai let you talk to our project management system that figures out all the OKRs and all the recent shipped emails and all the projects you're part of.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            395.414,
+            398.095
+          ],
+          "quote": "You can choose to let Kai know as much of that as you want to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            456.637,
+            457.978
+          ],
+          "quote": "What else is unique about Kai?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            644.598,
+            645.558
+          ],
+          "quote": "What's Kai good at?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            646.238,
+            653.481
+          ],
+          "quote": "And why don't you just walk us through a Common Kai task and how this customization",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            662.747,
+            675.816
+          ],
+          "quote": "What we're going to be doing today is we're actually going to be creating a dashboard because Stripe, we love our data and something that literally everyone at Stripe does with Kai is create a bunch of dashboards, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            676.176,
+            680.179
+          ],
+          "quote": "So they're going to do this live and they're going to ask Kai to create a dashboard for us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            732.841,
+            736.662
+          ],
+          "quote": "And that's what I want to show how we will be doing that using Kai today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            769.903,
+            782.256
+          ],
+          "quote": "What you see Kai doing immediately is that it's going to find the skill that says Ask Data, and that's a skill that's going to go figure out how to answer any Stripe data and SQL related question using our standard tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1242.162,
+            1245.705
+          ],
+          "quote": "Okay, so we've yapped while Kai ran.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1245.725,
+            1250.609
+          ],
+          "quote": "Let's show what Kai actually generated using these skills and tools in Sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1430.778,
+            1445.13
+          ],
+          "quote": "Using an AI like Kai to do this means that you can create like light apps, almost like the whole like the lovable style thing where people are creating apps to just hyper optimize for their workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1772.496,
+            1778.242
+          ],
+          "quote": "So the thing that I think Kai did really well and one reason for its product market fit was...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2188.85,
+            2194.092
+          ],
+          "quote": "But for the purpose of this, I'm gonna go click this button and Kai is gonna say, okay, what do you want me to do?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2205.376,
+            2211.659
+          ],
+          "quote": "Any user of Kai can do this and that's why we have a lot of skills now that are making people more effective.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2214.322,
+            2217.145
+          ],
+          "quote": "It's filled in like when Kai could use it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2370.798,
+            2379.343
+          ],
+          "quote": "And we do this like really rigorous flow of knowing when the right skills are being invoked so that Kai can perform at a high level, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2717.937,
+            2720.917
+          ],
+          "quote": "My first one is, let's just put Kai aside for a minute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2774.831,
+            2786.94
+          ],
+          "quote": "But on the work front, honestly, like the stuff that I'm not doing when I'm building Kai, it's like my, I have this whole workflow now, which is around using the AI to make sure that I don't miss things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2789.801,
+            2791.363
+          ],
+          "quote": "We didn't get to show you Kai's schedules, but",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2848.698,
+            2857.818
+          ],
+          "quote": "So last question, when Kai, well, maybe not Kai, maybe you're very sweet to Kai, but when AI is not listening, what do you do?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2913.759,
+            2915.48
+          ],
+          "quote": "I'm just disappointed, Kai.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成极有创造力但会放大所有故障模式的东西——『智能体只是把你所有的故障模式都调到了最大』，会有失控、差点搞挂核心系统，需要治理和限制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            24.722,
+            31.97
+          ],
+          "quote": "You really don't want the agent to son of a go rogue and put that sensitive data into some public Google document that all stripes can access.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            37.135,
+            42.438
+          ],
+          "quote": "I love this idea of this three-layer triage that a data agent can go through, and that's really smart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            50.042,
+            59.007
+          ],
+          "quote": "Your data warehouse has to be very resilient to high-volume queries because when in doubt, an agent will just brute force it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            89.349,
+            98.452
+          ],
+          "quote": "Today we have Sherrod, an engineering manager at Stripe and part of the team who built Kai, their internal company brain and company agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            98.732,
+            115.095
+          ],
+          "quote": "He's going to show us why you might want to build your own custom agent for your company, what are the governance and control mechanisms of Kai that make it super special, and how to build not just a skill building skill, but a skill building platform for your team to share their automations and workflows with the rest of the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            169.963,
+            186.712
+          ],
+          "quote": "And I had to reach out to the Stripe team because I wanted to learn not just about how Kai, the company brain, the company agent, works at this big company, but I really wanted to understand why in the world you built it yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            428.522,
+            429.723
+          ],
+          "quote": "Agent building blocks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            438.968,
+            447.712
+          ],
+          "quote": "It's like the perfect dogfooding agent experience, which is if you're going to build a great agent for your customers, you should learn to build a great agent for yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            810.562,
+            815.546
+          ],
+          "quote": "Because again, unlike our typical agent, this isn't running on your laptop, it's running in the cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            821.03,
+            836.073
+          ],
+          "quote": "So we set up the secure sandbox and give the harness tools to interact with the sandbox, tools that can securely send data to it, tools that the agent can use to search things and do things in the sandbox, and tools that can get data out of the sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            845.555,
+            851.602
+          ],
+          "quote": "You don't even need to know that the sandbox exists, but the agent is going to be writing some sort of script on your behalf.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            866.869,
+            883.416
+          ],
+          "quote": "Yeah, I have a kind of separate question while this is running, specifically about making great data agents, because I talk to a lot of companies and almost universally, the first internal agent they build is specifically for this use case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            883.456,
+            887.837
+          ],
+          "quote": "It is like data querying dashboard visualization agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            895.02,
+            900.125
+          ],
+          "quote": "Were there any things that high level you had to do to make Hubble agent ready?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            906.572,
+            916.201
+          ],
+          "quote": "I'm just curious, like if you were building an agent and you needed to ready the data warehouse and the query layer, what are a couple of key things that you think are super important for folks to think about?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1096.202,
+            1104.925
+          ],
+          "quote": "The other thing you said, and I don't want people to miss, because I love this idea of this, like, three-layer triage that a data agent can go through, and that's really smart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1114.209,
+            1125.56
+          ],
+          "quote": "The thing that I also heard you say is your data warehouse has to be very resilient to high volume queries because when in doubt, an agent will just brute force it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1136.45,
+            1145.377
+          ],
+          "quote": "But actually allow agents to do a really effective job because you don't worry about turning over your data warehouse because an agent is hammering it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1186.231,
+            1190.435
+          ],
+          "quote": "But thinking about how do we say that, you know, this is an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1289.934,
+            1293.998
+          ],
+          "quote": "So I need to go back and see how the agent figured out that it needs to make things global.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1360.872,
+            1371.601
+          ],
+          "quote": "You don't want to be throwing away an HTML dashboard every turn, but it's also really moving into this idea where the agent and you are collaborating on a task, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1450.105,
+            1455.447
+          ],
+          "quote": "Regardless of whether they're an engineer or not, can get the agent to write code for them and do whatever the heck they want with the data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1694.656,
+            1698.197
+          ],
+          "quote": "An agent will scan your inbox and draft replies to vendor follow-ups.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1864.481,
+            1874.525
+          ],
+          "quote": "The thing about this is, again, it lets one person or a few people who are DRIs of the space to figure out how to get the agent to perform well for everyone.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1875.572,
+            1883.941
+          ],
+          "quote": "The really interesting thing I have on projects, there's this thing called settings that, like I said, you can use a custom agent to power your project.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1923.273,
+            1930.498
+          ],
+          "quote": "You really don't want the agent to go rogue and put that sensitive data into some public Google document that all stripes can access.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2009.448,
+            2013.57
+          ],
+          "quote": "So we need a human in the loop to confirm if that action can be taken by the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2311.909,
+            2314.589
+          ],
+          "quote": "Now, when you're in a coding agent, you can see what it's picked up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2334.834,
+            2337.456
+          ],
+          "quote": "The thing that they've done is when you're a coding agent, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2636.927,
+            2654.031
+          ],
+          "quote": "You know, AI that just works for the things that matter, including data analysis, which benefits not just from this tuned harness and skills around it, but investment from infrastructure all the way up the stack on a great agent-ready data layer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "governance",
+      "type": "concept",
+      "role": "concept",
+      "name": "治理 (governance)",
+      "file": "治理",
+      "primary": true,
+      "how_described": "本集核心主张：让 AI 触达每个人的难点不在技术而在治理——『关键不在于提供 AI，而在于提供正确的治理结构，让每个人都可以放心去使用 AI，并知道它会为他们做正确的事』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            98.732,
+            115.095
+          ],
+          "quote": "He's going to show us why you might want to build your own custom agent for your company, what are the governance and control mechanisms of Kai that make it super special, and how to build not just a skill building skill, but a skill building platform for your team to share their automations and workflows with the rest of the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            242.353,
+            249.498
+          ],
+          "quote": "It's about providing the correct governance structures so that everyone can just go use AI and know it'll do the right thing for them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            250.038,
+            258.124
+          ],
+          "quote": "So some of the things that we really thought about and why we built Kai is governance is a big thing for us, like I just said.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            474.511,
+            481.917
+          ],
+          "quote": "And projects are primarily a governance mechanism, but they also let you, you have this context engine, as you said, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            538.833,
+            545.799
+          ],
+          "quote": "So projects as a governance mechanism, I'm really, I think we did a lot there because again, Stripe is a very complex business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            579.138,
+            591.221
+          ],
+          "quote": "The way that we build skills and our skill routing, there's a lot there and how we think about skill quality, skill governance, a lot of good stuff there that we can get into, that we've invested a lot in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            618.169,
+            626.552
+          ],
+          "quote": "What I haven't seen anybody talk about, which I actually think is really interesting, is using projects as a configuration layer on and a governance layer on how your team",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2157.872,
+            2161.315
+          ],
+          "quote": "So that's projects and why I love projects as a unit of governance.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2425.015,
+            2432.405
+          ],
+          "quote": "But the moment you introduce that sharing and the enterprise, quality, governance, policies all become something really important.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "type": "concept",
+      "role": "concept",
+      "name": "项目 (projects)",
+      "file": "项目",
+      "primary": true,
+      "how_described": "本集说 Stripe 把项目做成了配置层和治理单元：由 DRI 划定边界，设定默认模型、可用工具、数据权限和安全控制，大小从 5 人到 500 人不等。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            14.656,
+            20.078
+          ],
+          "quote": "One of the cool things about projects that can be very concrete for people is the idea of tool policies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            269.29,
+            279.912
+          ],
+          "quote": "And it has access to the org chart and your projects and all the things that are going on, which means that it has a lot more mechanisms to do the right thing for you and understand what you're trying to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            338.343,
+            341.945
+          ],
+          "quote": "It knows, does it know kind of like strategic projects that I'm working on?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            368.408,
+            380.471
+          ],
+          "quote": "From there on, the standard tools that we have connected to Kai let you talk to our project management system that figures out all the OKRs and all the recent shipped emails and all the projects you're part of.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            469.827,
+            473.97
+          ],
+          "quote": "The two things that we were very intentional about is the idea of projects.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            474.511,
+            481.917
+          ],
+          "quote": "And projects are primarily a governance mechanism, but they also let you, you have this context engine, as you said, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            482.377,
+            486.861
+          ],
+          "quote": "But projects are almost like intentionally the user is telling you what they are trying to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            492.045,
+            498.832
+          ],
+          "quote": "But projects, if you see my screen in a second, there's the Hawaii AI demo project that I have right here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            499.133,
+            501.495
+          ],
+          "quote": "Projects are some things that Stripes can create.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            504.859,
+            507.481
+          ],
+          "quote": "And what they can do is, we have projects that have...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 97,
+          "t": [
+            509.724,
+            511.266
+          ],
+          "quote": "We have projects that have five people in them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            538.833,
+            545.799
+          ],
+          "quote": "So projects as a governance mechanism, I'm really, I think we did a lot there because again, Stripe is a very complex business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            572.555,
+            574.657
+          ],
+          "quote": "And projects are one way that we can do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            605.584,
+            614.367
+          ],
+          "quote": "I like this because I've seen, you know, we've seen projects for holding context or just simply as an organization structure to AI work, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            618.169,
+            626.552
+          ],
+          "quote": "What I haven't seen anybody talk about, which I actually think is really interesting, is using projects as a configuration layer on and a governance layer on how your team",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1758.221,
+            1761.425
+          ],
+          "quote": "I'm going to show skills and I'm going to show projects, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1830.339,
+            1835.384
+          ],
+          "quote": "Let's actually look at this other thing I love about how we built CHI, which is this notion of projects, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1835.864,
+            1839.388
+          ],
+          "quote": "So the thing about projects is there's so much stuff happening.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1841.851,
+            1845.214
+          ],
+          "quote": "Projects are this really nice packaging mechanism where we can",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1851.577,
+            1855.378
+          ],
+          "quote": "We have projects that are created for projects, like short-lived things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1855.398,
+            1863.341
+          ],
+          "quote": "We have projects created for teams, like the people team has a super secure version of CHI in a different project that's backed by a totally secure backend and stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1875.572,
+            1883.941
+          ],
+          "quote": "The really interesting thing I have on projects, there's this thing called settings that, like I said, you can use a custom agent to power your project.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1909.285,
+            1915.171
+          ],
+          "quote": "One of the cool things about projects that can be very concrete for people is the idea of tool policies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1940.165,
+            1955.418
+          ],
+          "quote": "So what projects let us do is to say, for this workflow, I'm gonna set up a tool policy that says, in this case, I said the run Hubble tool so that I don't inadvertently put some confidential information into the demo, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2019.513,
+            2021.334
+          ],
+          "quote": "And projects help us decide.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2026.156,
+            2028.257
+          ],
+          "quote": "So projects are, again, drawing the boundary around it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2157.872,
+            2161.315
+          ],
+          "quote": "So that's projects and why I love projects as a unit of governance.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2595.601,
+            2620.642
+          ],
+          "quote": "You know, tune tools, a sandbox that you can put data in, a sandbox you can pull data out, shared artifacts, projects, which I feel like if you missed that part, rewind, go back to it, because projects are not just how you organize chats across a team, but how you give a specific space, whether that's a team or an initiative, access to tools, access to data, permissions and controls, including what requires a human.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tool-policies",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具策略 (tool policies)",
+      "file": "工具策略",
+      "primary": true,
+      "how_described": "本集把它说成治理落到具体动作的一层：在项目层面规定某些工具直接允许、某些触发人在回路审批，并强调『摩擦要精准』——太多摩擦会让人们去做不安全的事情。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            14.656,
+            20.078
+          ],
+          "quote": "One of the cool things about projects that can be very concrete for people is the idea of tool policies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1909.285,
+            1915.171
+          ],
+          "quote": "One of the cool things about projects that can be very concrete for people is the idea of tool policies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2326.692,
+            2330.273
+          ],
+          "quote": "It looks like my tool policies are too secure.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路 (human-in-the-loop)",
+      "file": "人在回路",
+      "primary": true,
+      "how_described": "本集演示了敏感工作流里的人在回路审批：智能体要创建日历邀请时先弹出确认、由人点头，且按项目划定范围而非全场广播。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            59.227,
+            63.692
+          ],
+          "quote": "We could test this out and it's going to pick off what is a human in the loop workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1956.559,
+            1964.485
+          ],
+          "quote": "But we could test this out with some other tool, and it's going to kick off what is a human-in-the-loop workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1973.531,
+            1981.837
+          ],
+          "quote": "And I set this up ahead of time just to show what a human-in-the-loop flow would look like, but you can see it extends to any other kind of tool.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2009.448,
+            2013.57
+          ],
+          "quote": "So we need a human in the loop to confirm if that action can be taken by the agent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skill)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集把技能说成打包相关工具、可跨会话复用的工作流单元：skill creator 把一次会话学到的内容打包成标准开放规范技能；Stripe 约 2000 个技能中约 50 个被全公司每天重度使用，需用遥测管理质量与数量，因为『上下文就是一切』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            98.732,
+            115.095
+          ],
+          "quote": "He's going to show us why you might want to build your own custom agent for your company, what are the governance and control mechanisms of Kai that make it super special, and how to build not just a skill building skill, but a skill building platform for your team to share their automations and workflows with the rest of the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            579.138,
+            591.221
+          ],
+          "quote": "The way that we build skills and our skill routing, there's a lot there and how we think about skill quality, skill governance, a lot of good stuff there that we can get into, that we've invested a lot in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            591.741,
+            604.964
+          ],
+          "quote": "I think the team has shipped, it's going to be interesting, it's going to be a live demo, but I think they shipped a feature where automatically people, everyone who authors a skill gets suggestions on how to make their skill better, how to hill climb built into the platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            769.903,
+            782.256
+          ],
+          "quote": "What you see Kai doing immediately is that it's going to find the skill that says Ask Data, and that's a skill that's going to go figure out how to answer any Stripe data and SQL related question using our standard tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            782.837,
+            792.446
+          ],
+          "quote": "Using that skill, which it's loaded up, it's got access to a bunch of internal tools, and it's going to use those tools and go ahead and do more things, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            800.353,
+            804.417
+          ],
+          "quote": "Example, discovering a skill is itself a kind of tool that we give the harness, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            990.99,
+            1002.738
+          ],
+          "quote": "However, the key part, and you asked about the Ask Data skill, the key part is we have some really smart data scientists as well who sort of said, hey, this is probably the right way that most data queries should be handled.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1002.778,
+            1020.489
+          ],
+          "quote": "And what that skill does, if we dig into the Ask Data skill itself, what it's going to be saying here is route to direct artifacts first, use the analytics layer first, and if that fails and fall back and fall back and fall back, and until you actually hit the data catalog directly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1779.463,
+            1788.19
+          ],
+          "quote": "I can create a skill that basically takes what I've done in this session and packages it up so that it can become a load-bearing, repeatable workflow, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1804.122,
+            1806.823
+          ],
+          "quote": "You're going to see this kick off this skill creator skill.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1807.204,
+            1818.99
+          ],
+          "quote": "It's a skill that the harness has that's going to go in and create, like take all the things it's learned from the session, from its interaction with me and package it up nicely into something that I can just like pull up at any time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1819.41,
+            1823.172
+          ],
+          "quote": "And we'll talk a little bit more about how we do these skill",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2161.775,
+            2167.02
+          ],
+          "quote": "Let's hop back really quickly to the skill builder flow that I spoke about again.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2178.078,
+            2182.144
+          ],
+          "quote": "And so I can now go, Kaya stated a skill for me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2183.348,
+            2188.51
+          ],
+          "quote": "It's like a standard open spec skill that you can use on any of your harnesses, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2240.674,
+            2243.715
+          ],
+          "quote": "You have kind of a skill creator, skill or tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2253.357,
+            2264.227
+          ],
+          "quote": "And then I love this idea of a draft kind of skill editor that you can test and edit and optimize and manage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2314.629,
+            2317.87
+          ],
+          "quote": "It's picked up the skill that we literally just created.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2403.826,
+            2419.166
+          ],
+          "quote": "Like suggestions for how to improve your skills so that, especially since we let anybody publish a shared skill, right, that anybody else can pick up, it's become really important to ensure that we can give people the tools to keep those in tip-top shape.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2439.133,
+            2456.726
+          ],
+          "quote": "You know, the only other thing that I've seen here that I'm curious maybe you have but you haven't shown is we see a lot of folks that are building these internal harnesses do skill and tool telemetry and observability and see where like tool calls are failing a lot so they can auto-eval that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2460.429,
+            2467.054
+          ],
+          "quote": "So if skills have not been invoked for like 30 days, you get a little notice and it's like, hey, you haven't used a skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2480.419,
+            2497.025
+          ],
+          "quote": "And so I think this enterprise level maintenance of the skill library is really important, not just from a quality perspective, which is what we see here with the evals, but honestly from a quantity perspective, like just is any of this useful anymore?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2621.463,
+            2636.246
+          ],
+          "quote": "In the loop, a skill builder skill, but not just a skill builder skill, a skills platform for the company that allows you to build skills, edit skills, eval skills, share skills, and then",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说 Kai 为每个会话提供云端安全沙箱，harness 有一组工具与它交互（安全写入、搜索操作、取出数据），让非工程师也能让智能体代写代码处理数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            804.897,
+            810.502
+          ],
+          "quote": "But we also give it things like there's a sandbox that's secure for your session where you can do grip and stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            821.03,
+            836.073
+          ],
+          "quote": "So we set up the secure sandbox and give the harness tools to interact with the sandbox, tools that can securely send data to it, tools that the agent can use to search things and do things in the sandbox, and tools that can get data out of the sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            840.834,
+            844.795
+          ],
+          "quote": "But this one is pretty cool because, again, we have a sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            845.555,
+            851.602
+          ],
+          "quote": "You don't even need to know that the sandbox exists, but the agent is going to be writing some sort of script on your behalf.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1245.725,
+            1250.609
+          ],
+          "quote": "Let's show what Kai actually generated using these skills and tools in Sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1445.671,
+            1448.874
+          ],
+          "quote": "And the fact that they have a sandbox that anybody",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2595.601,
+            2620.642
+          ],
+          "quote": "You know, tune tools, a sandbox that you can put data in, a sandbox you can pull data out, shared artifacts, projects, which I feel like if you missed that part, rewind, go back to it, because projects are not just how you organize chats across a team, but how you give a specific space, whether that's a team or an initiative, access to tools, access to data, permissions and controls, including what requires a human.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-identity",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体身份 (agentic identity)",
+      "file": "智能体身份",
+      "primary": true,
+      "how_described": "本集说 Stripe 在基础设施里声明『这是一个智能体、它在干什么』，以此做优先级和负载卸载——不性感但很深的基建工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 220,
+          "t": [
+            1177.523,
+            1184.029
+          ],
+          "quote": "The thing that we really did well is thinking about agentic identity.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-warehouse",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据仓库 (data warehouse)",
+      "file": "数据仓库",
+      "primary": true,
+      "how_described": "本集说数据仓库必须对高并发查询极有韧性，因为『一旦拿不准，智能体就会直接暴力破解』；Stripe 用 Trino 做查询层，长期投入让智能体可以疯狂猛砸而不砸垮。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            50.042,
+            59.007
+          ],
+          "quote": "Your data warehouse has to be very resilient to high-volume queries because when in doubt, an agent will just brute force it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            906.572,
+            916.201
+          ],
+          "quote": "I'm just curious, like if you were building an agent and you needed to ready the data warehouse and the query layer, what are a couple of key things that you think are super important for folks to think about?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1114.209,
+            1125.56
+          ],
+          "quote": "The thing that I also heard you say is your data warehouse has to be very resilient to high volume queries because when in doubt, an agent will just brute force it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1136.45,
+            1145.377
+          ],
+          "quote": "But actually allow agents to do a really effective job because you don't worry about turning over your data warehouse because an agent is hammering it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "trino",
+      "type": "concept",
+      "role": "concept",
+      "name": "Trino",
+      "file": "Trino",
+      "primary": false,
+      "how_described": "本集提到 Stripe 用 Trino 作为数据查询层/数据仓库，长期投入使其极具韧性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            929.451,
+            936.316
+          ],
+          "quote": "We use Trino as our data sort of querying layer and our warehouse in that perspective.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集提了一句 2026 年初 Claude Code 席卷世界，是大量 AI 工具涌现的背景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            201.046,
+            207.136
+          ],
+          "quote": "This was early 2026, huge number of tools coming out, Claude Code had just taken the world by storm.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

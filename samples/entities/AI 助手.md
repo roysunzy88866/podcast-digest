@@ -1,21 +1,21 @@
 ---
-title: AI 助手 (AI assistant)
+title: AI 助手 (AI assistants)
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 助手 (AI assistant)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 助手 (AI assistants)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 助手">AI</div><div class="pi"><h1 class="pt">AI 助手 (AI assistant)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>236</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 助手">AI</div><div class="pi"><h1 class="pt">AI 助手 (AI assistants)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>242</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]]**(10:57起):本集说 Bumble 的 AI 约会助手叫 Bee,用户愿意花大量时间与它聊天好让系统真正「被了解」,将在 Q4 到 2027 年作为高级产品推出
+- **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(01:20起):本集称其为硅谷当下最火热的品类(消费级与企业级),整集围绕这个市场的竞争格局、商业模式和终局展开。
 
 ## ① 提到它的金句
 
-*236 条*
+*242 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -170,6 +170,10 @@ unlisted: true
 ![[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#^q4]]
 
 ![[2026-07-15-rework-don-39-t-write-it-down#^q13]]
+
+![[2026-07-16-mad-openais-compute-chief-we-cant-build-fast#^q2]]
+
+![[2026-07-16-mad-openais-compute-chief-we-cant-build-fast#^q8]]
 
 ![[2026-07-17-talks-every-company-should-have-a-brain-garry#^q3]]
 
@@ -489,19 +493,27 @@ unlisted: true
 
 ![[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp#^q10]]
 
+![[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t#^q4]]
+
+![[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t#^q6]]
+
+![[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t#^q11]]
+
+![[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t#^q13]]
+
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]] — 作为概念
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Whitney Wolfe Herd]] · [[Bumble]] · [[滑动]] · [[AI]] · [[推荐引擎]] · [[付费用户]] · [[创始人模式]] · [[Apple]] · [[真实性]] · [[交互模型]]
+[[Harry Stebbings]] · [[JD]] · [[Town]] · [[Plaid]] · [[智能体]] · [[网络效应]] · [[护城河]] · [[模型路由]] · [[前沿模型]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Whitney Wolfe Herd":1,"Bumble":1,"滑动":1,"AI":14,"推荐引擎":1,"付费用户":1,"创始人模式":2,"Apple":14,"真实性":2,"交互模型":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":14,"JD":1,"Town":3,"Plaid":1,"智能体":1,"网络效应":5,"护城河":9,"模型路由":4,"前沿模型":8,"Anthropic":107}</script>
 
 <script>
 (function(){

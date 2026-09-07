@@ -194,7 +194,7 @@ Mark 对当前分发(获取用户的渠道)的困境很清醒:AI 还不是一个
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Facebook、Zynga · 同概念:智能体 (agent)、留存率 (retention)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Claude、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Claude、OpenAI · 同概念:产品市场契合度 (product market fit)、智能体 (agent)</span>
 
 </div>
 </div>

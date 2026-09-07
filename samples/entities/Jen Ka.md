@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anish Acharya]] · [[OpenAI]] · [[Anthropic]] · [[Salesforce]] · [[Cursor]] · [[GrokBot]] · [[Town]] · [[Decagon]] · [[Replit]] · [[智能体]]
+[[Anish Acharya]] · [[OpenAI]] · [[Anthropic]] · [[Salesforce]] · [[Cursor]] · [[11 Labs]] · [[GrokBot]] · [[Town]] · [[Decagon]] · [[Replit]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":2,"OpenAI":92,"Anthropic":106,"Salesforce":14,"Cursor":48,"GrokBot":3,"Town":2,"Decagon":4,"Replit":13,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":2,"OpenAI":95,"Anthropic":107,"Salesforce":14,"Cursor":49,"11 Labs":4,"GrokBot":4,"Town":3,"Decagon":4,"Replit":13}</script>
 
 <script>
 (function(){

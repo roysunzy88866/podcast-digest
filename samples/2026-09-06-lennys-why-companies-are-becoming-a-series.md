@@ -167,8 +167,8 @@ Anish 投资口味的剧变：三年前如果一家公司野心太大我们不�
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意]]<span class="pd-rz">同嘉宾:Anish Acharya · 同公司:OpenAI、Cursor · 同概念:护城河 (moat)、智能体 (agent)、编程智能体 (coding agents)</span>
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Codex、Cursor、OpenAI · 同概念:护城河 (moat)、智能体 (agent)</span>
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:OpenAI、Codex、Cursor · 同概念:循环 (loop)、智能体 (agent)</span>
-- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:OpenAI、Cursor · 同概念:前沿模型 (frontier models)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

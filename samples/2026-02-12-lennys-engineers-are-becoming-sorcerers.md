@@ -165,7 +165,7 @@ Sherwin 观察到很多公司的 AI 部署可能是负 ROI，根源几乎一样�
 
 - [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Codex、OpenAI、ChatGPT · 同概念:智能体 (agent)</span>
 - [[2026-09-06-lennys-why-companies-are-becoming-a-series|a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Codex、OpenAI、Cursor · 同概念:智能体 (agent)</span>
-- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT · 同概念:vibe coding、智能体 (agent)</span>
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Codex、OpenAI、ChatGPT、Cursor · 同概念:智能体 (agent)、护栏 (guardrails)</span>
 
 </div>
 </div>

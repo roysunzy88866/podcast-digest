@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tether":1,"QVAC":1,"推理":5,"微调":6,"BitNet":1,"LoRa":1,"数据中心":3,"去中介化":1,"智能体":1,"GPU":13}</script>
+<script type="application/json" class="pd-epn">{"Tether":1,"QVAC":1,"推理":5,"微调":6,"BitNet":1,"LoRa":1,"数据中心":3,"去中介化":1,"智能体":1,"GPU":15}</script>
 
 <script>
 (function(){

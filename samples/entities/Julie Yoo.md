@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]] [[Stéphane Bancel]]
+[[Lucas Kaiser]] [[JD]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":3,"a16z":11,"Kairos":1,"Council Health":1,"AI":14,"智能体 AI":3,"大型语言模型":4,"电子健康记录":1,"第三方支付体系":1,"消费级医疗":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"a16z":11,"Kairos":1,"Council Health":1,"AI":14,"智能体 AI":3,"大型语言模型":4,"电子健康记录":1,"第三方支付体系":1,"消费级医疗":1}</script>
 
 <script>
 (function(){

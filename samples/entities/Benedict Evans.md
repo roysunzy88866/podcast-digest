@@ -64,11 +64,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]]
+[[Lucas Kaiser]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":92,"Anthropic":106,"基础模型":1,"AGI":19,"Lenny":67,"Jacob Efron":1,"Google":36,"LLM":26,"Meta":28,"AI 编程":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":95,"Anthropic":107,"基础模型":1,"AGI":19,"Lenny":67,"Jacob Efron":1,"Google":37,"LLM":27,"Meta":29,"AI 编程":1}</script>
 
 <script>
 (function(){

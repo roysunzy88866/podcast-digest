@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Daniel Litt]] [[Pete Johnson]] [[Ajaya Khatra]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Litt":1,"OpenAI":92,"Anthropic":106,"ChatGPT":51,"Claude":47,"Codex":39,"RL":6,"Lean":1,"直觉":1,"理论构建":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Litt":1,"OpenAI":95,"Anthropic":107,"ChatGPT":52,"Claude":48,"Codex":40,"RL":6,"Lean":1,"直觉":1,"理论构建":1}</script>
 
 <script>
 (function(){

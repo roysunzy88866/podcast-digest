@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sunil Pai":1,"Matt Carey":1,"Cloudflare":9,"code mode":2,"MCP":26,"智能体":1,"沙箱":35,"可观测性":18,"pie":1,"Cloudflare Worker":2}</script>
+<script type="application/json" class="pd-epn">{"Sunil Pai":1,"Matt Carey":1,"Cloudflare":9,"code mode":2,"MCP":26,"智能体":1,"沙箱":36,"可观测性":18,"pie":1,"Cloudflare Worker":2}</script>
 
 <script>
 (function(){

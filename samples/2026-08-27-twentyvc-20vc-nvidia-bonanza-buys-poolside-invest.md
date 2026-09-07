@@ -191,9 +191,9 @@ Jason 问了一个所有投资人都在想的问题：脚下地板会不会塌�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、OpenAI、Cursor · 同概念:token、前沿模型 (frontier model)、护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:token、前沿模型 (frontier model)、GPU、推理 (inference)</span>
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:token、GPU、推理 (inference)</span>
-- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Anthropic、Hugging Face、NVIDIA、OpenAI、Cursor · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

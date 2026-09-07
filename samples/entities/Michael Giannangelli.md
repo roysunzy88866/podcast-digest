@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":3,"评估":20,"基准测试":7,"智能体":1,"RLGym":1,"迁移":1,"Claude Code":46,"Codex":39,"Anthropic":106}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":4,"评估":20,"基准测试":7,"智能体":1,"RLGym":1,"迁移":1,"Claude Code":47,"Codex":40,"Anthropic":107}</script>
 
 <script>
 (function(){

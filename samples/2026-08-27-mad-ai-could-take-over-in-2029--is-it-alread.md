@@ -177,9 +177,9 @@ Ryan 对接下来几年的直觉推演 <button class="pd-ts" data-t="72:51" data
 
 **换个口味**
 
+- [[2026-07-16-mad-openais-compute-chief-we-cant-build-fast|OpenAI 工业算力负责人：把电子变成 token 的巨兽工厂]]<span class="pd-rz">同嘉宾:Matt Turk · 同公司:OpenAI · 同概念:推理 (inference)</span>
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]]<span class="pd-rz">同公司:Meta、OpenAI · 同概念:算力 (compute)、智能体 (agents)</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI · 同概念:推理 (inference)</span>
-- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:奖励黑客 (reward hacking)</span>
 
 </div>
 </div>

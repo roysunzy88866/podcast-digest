@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":1,"构建者":3,"可观测性":18,"对话分析":1,"评估":20,"维度思维":1,"ChatGPT":51,"Cursor":48,"OpenAI":92}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":1,"构建者":3,"可观测性":18,"对话分析":1,"评估":20,"维度思维":1,"ChatGPT":52,"Cursor":49,"OpenAI":95}</script>
 
 <script>
 (function(){

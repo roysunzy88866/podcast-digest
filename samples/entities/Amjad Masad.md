@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]]
+[[Lucas Kaiser]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":13,"智能体":1,"Patrick Collison":2,"公开构建":1,"Stripe":26,"vibe coding":27,"Magic School":1,"真实性":2,"OpenAI":92,"Anthropic":106}</script>
+<script type="application/json" class="pd-epn">{"Replit":13,"智能体":1,"Patrick Collison":2,"公开构建":1,"Stripe":27,"vibe coding":27,"Magic School":1,"真实性":2,"OpenAI":95,"Anthropic":107}</script>
 
 <script>
 (function(){

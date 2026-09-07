@@ -138,8 +138,8 @@ Rory认为这是一个"之前"和"之后"之间出现裂缝的时期，能跳过
 **顺着「智能体」挖下去**
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:ChatGPT、Replit · 同概念:智能体 (agent)</span>
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Anthropic、Google、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Datadog、Anthropic · 同概念:智能体 (agent)</span>
-- [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

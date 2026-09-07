@@ -1,0 +1,36 @@
+{
+  "id": "2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t",
+  "audio_mp3": "https://traffic.libsyn.com/secure/thetwentyminutevc/Jean-Denis_Greze__Town.mp3?dest-id=240976",
+  "duration_sec": 4251.919,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 1066,
+  "asr": true,
+  "title_en": "20VC: The $100 Billion AI Assistant Race: Town vs Instinct vs GrokBot | We Spend $75K Per Engineer on AI Tools | Why the AI Assistant Market Is Not a Bubble & AI Assistants Will Replace Every App on Your Phone with JD, Founder of Town",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-09-07",
+  "cover_official_url": "https://static.libsyn.com/p/assets/9/2/f/b/92fb6814e9d5e90ed959afa2a1bf1c87/WhatsApp_Image_2026-09-04_at_20.57.57.jpeg",
+  "added": "2026-09-07",
+  "added_at": "2026-09-07T11:06:11.145Z",
+  "speaker_map": {
+    "SPEAKER_00": "Harry Stebbings",
+    "SPEAKER_01": "JD"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Harry Stebbings",
+  "cohosts": [
+    "JD"
+  ],
+  "title_zh": "邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢",
+  "guest_name": "JD",
+  "guest_title": "Plaid 前 CTO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://static.libsyn.com/p/assets/9/2/f/b/92fb6814e9d5e90ed959afa2a1bf1c87/WhatsApp_Image_2026-09-04_at_20.57.57.jpeg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-09-07T13:04:15.866Z"
+  }
+}

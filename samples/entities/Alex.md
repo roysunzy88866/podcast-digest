@@ -42,9 +42,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[AGI]] · [[Google]] · [[Meta]] · [[智能体]] · [[SpaceX]] · [[NVIDIA]] · [[资本支出]] · [[Ranjan Roy]]
+[[OpenAI]] · [[Anthropic]] · [[AGI]] · [[Google]] · [[Meta]] · [[智能体]] · [[SpaceX]] · [[NVIDIA]] · [[Oracle]] · [[资本支出]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":92,"Anthropic":106,"AGI":19,"Google":36,"Meta":28,"智能体":1,"SpaceX":12,"NVIDIA":30,"资本支出":4,"Ranjan Roy":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":95,"Anthropic":107,"AGI":19,"Google":37,"Meta":29,"智能体":1,"SpaceX":12,"NVIDIA":30,"Oracle":5,"资本支出":4}</script>
 
 <script>
 (function(){

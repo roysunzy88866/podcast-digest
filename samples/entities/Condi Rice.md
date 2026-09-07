@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]] [[Rene Haas]] [[Chetan Gupta]]
+[[Lucas Kaiser]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":30,"AMD":2,"GPU":13,"Parallel":4,"深度学习":3,"第一性原理":4,"五层蛋糕":1,"模拟":4,"CPU":4}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":30,"AMD":2,"GPU":15,"Parallel":4,"深度学习":3,"第一性原理":4,"五层蛋糕":1,"模拟":4,"CPU":4}</script>
 
 <script>
 (function(){

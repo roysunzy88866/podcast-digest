@@ -218,7 +218,7 @@ Tom 抛出了一个叫「拉手风琴」的思维模型。这源于他观察到�
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude</span>
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic · 同概念:IC</span>
-- [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude</span>
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude、产品市场契合度 (product market fit)</span>
 
 </div>
 </div>

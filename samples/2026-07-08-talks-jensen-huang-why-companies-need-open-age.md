@@ -131,7 +131,7 @@ AI 不再只是聊天工具了——黄仁勋说,未来每家公司都将建立�
 
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:harness、前沿模型 (frontier models)、后训练 (post-training)、智能体 (agent)</span>
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:Nemotron、NVIDIA · 同概念:前沿模型 (frontier models)、智能体 (agent)</span>
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic · 同概念:harness、智能体 (agent)、沙箱 (sandbox)、护栏 (guardrails)</span>
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、Google、OpenAI · 同概念:开放权重模型 (open weight models)、护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

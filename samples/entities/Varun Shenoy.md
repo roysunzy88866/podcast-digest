@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]] [[Matthew Prince]] [[Lisha Lee]] [[Daniel Litt]] [[Pete Johnson]]
+[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"LongLake":1,"智能体":1,"异步智能体":1,"同步智能体":1,"AI 同事":1,"沙箱":35,"后训练":17,"持续学习":5,"现实世界的评估":1,"Copilot":8}</script>
+<script type="application/json" class="pd-epn">{"LongLake":1,"智能体":1,"异步智能体":1,"同步智能体":1,"AI 同事":1,"沙箱":36,"后训练":1,"持续学习":5,"现实世界的评估":1,"Copilot":8}</script>
 
 <script>
 (function(){

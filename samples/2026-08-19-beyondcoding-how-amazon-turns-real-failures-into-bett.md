@@ -127,9 +127,9 @@ Michael 说现在瓶颈已经不在工程工时了 <button class="pd-ts" data-t=
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、Codex、OpenAI · 同概念:智能体 (agent)、模型路由 (model routing)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agent)、评估 (eval)</span>
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:智能体 (agent)、评估 (eval)</span>
-- [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]]<span class="pd-rz">同概念:智能体 (agent)、评估 (eval)</span>
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,118 @@
+{
+  "title_zh": "Transformer 不满十岁：AI 集中不是宿命",
+  "tldr": "《Attention is All You Need》共同作者 Lucas Kaiser 解释为什么今天的 AI 巨头集中只是技术现状，而非注定结局。",
+  "digest_md": "这一集来自 a16z 在旧金山开源 AI 峰会上的一段访谈，主持人 Sophia Du 对话的嘉宾是 Lucas Kaiser——AI 研究者、那篇奠定现代 AI 的论文《Attention is All You Need》的共同作者，正是它引入了 transformer(今天几乎所有大模型背后的基础架构)。\n\n> 【背景】《Attention is All You Need》2017 年由 Google 团队发表，共八位作者；文中人名照转写稿记为 Lucas Kaiser。\n\n他的核心判断一句话就能说清：**今天 AI 的权力集中，是当前技术路线的属性，不是 AI 的必然特征。**\n\n## 集中是怎么来的\n\n编码智能体大约在去年年底、今年年初开始真正能用了，而这代 AI 的本质决定了它的集中：你必须在昂贵的数据中心里、用海量数据训练模型，于是只有大公司做得起，再向所有人收费。想更强？大公司的答案不是研究突破，而是「做得更大、更大、再更大」——这需要几十亿美元，需要抓取互联网每个角落的数据。研究突破不像商业提案，有就有、没有就没有，没法靠预算砸出来 [01:08-02:00 Lucas Kaiser]。\n\n但 transformer 甚至还不满十岁。它的短板很明显：喂整个互联网，它相当聪明；让它只学一件具体的事，它就很蠢。 Kaiser 认为这不是死路，而是一个「有望被解决的研究问题」——可能需要一个让小数据也能学好 smaller model 的突破，而没人确切知道该往哪里找：它可能涉及模型架构、损失函数、数据和训练方式的组合 [02:06-03:20 Lucas Kaiser]。\n\n## 突破存在吗？我们就是证明\n\n主持人问：会不会有算法突破让小玩家真正竞争？他的回答是：我们知道它存在，**人类就是证明**。人类不是样样精通的通才，但特定领域的专家在自己领域里，有时比超级大模型还好。所以「小数据学成专家」的算法在自然界是存在的，只是我们还没在技术上找到它 [02:52-03:07 Lucas Kaiser]。\n\n> 【背景】集成(ensemble)指把多个模型各自预测组合起来、往往比单一模型更准的经典方法，Kaiser 拿它作为「分布式模型可以更强」的基础研究依据。\n\n他甚至给出一个更根本的猜想：给定固定的数据量，从中学习的最佳方式可能就是拥有大量分布式的模型——各自强大，合在一起更强。基础研究(比如集成方法)确实有理由支持这一点 [04:43-04:59 Lucas Kaiser]。\n\n## 一块 GPU 就够开始研究了\n\n对个人研究者，他给了一个非常具体的鼓励：他最近自己买了一块 5090 RTX GPU,它的算力**比他团队当年做 transformer 研究时用的八台 8GPU 机器还强**。你没法用它训练大 LLM,但完全可以做研究和实验——而且他相信机器学习研究里还剩非常多的东西可挖，很多人应该这么做 [03:44-04:13 Lucas Kaiser]。\n\n他还有一层观察：OpenAI 在他加入时是非常纯粹的研究实验室，现在也是一家要做产品的大公司，对研究的专注变少了。这恰恰是开源运动和学术界的机会 [03:24-03:44 Lucas Kaiser]。\n\n## 为什么乐观\n\n很多人看 AI 现状会悲观：大公司、大数据中心，你只能订阅一个自己左右不了的服务。他的回应是：这只是今年、明年的状态，是技术的一个阶段，而阶段会过去。因为太好用，所有人都聚焦在大数据上；但既然它现在这么贵，也许行业会重新聚焦更基础的研究。机器学习的进步并没有止步于 2017 年 [05:31-05:37 Lucas Kaiser]。\n\n他想象的未来：每个人可能拥有自己的模型，从少得多的数据里学习，像人类一样各自成为不同领域的专家——「现在你问一个大语言模型要个笑话，答案总是一样的，总是关于原子的什么梗」，这种千篇一律会随研究追上来而改变 [06:05-06:35 Lucas Kaiser]。对研究者来说，这是一个巨大的追赶机会。\n\n## 本集带走\n\n- **集中是技术属性，不是宿命**：transformer 不满十岁，它的「吃数据、吃算力」是这一代架构的特点，下一个突破可能改写整个经济学。\n- **「小数据学成专家」的算法被证明存在**：人类领域专家就是活证据，只是计算机上还没实现——这是开源和学术界最大的机会窗口。\n- **个人研究的门槛已经低到一块消费级 GPU**:一块 5090 的算力超过当年发明 transformer 的整个团队，做不了大模型，但够做突破性研究。\n- **大公司转向产品，纯研究出现真空**：OpenAI 式实验室越来越像产品公司，基础研究的机会正在外移。",
+  "quotes": [
+    {
+      "en": "It has more power than the eight 8GPU machines we used as a team to do the Transformers research.",
+      "zh": "它比我们团队当年做 Transformers 研究时用的八台 8GPU 机器算力还强。",
+      "timestamp": "03:50",
+      "speaker": "Lucas Kaiser"
+    },
+    {
+      "en": "Our brains are still unmatched by the models, and we are not generalists, and there's not like one big brain of humanity.",
+      "zh": "我们的大脑仍然不输给模型，我们也不是通才，而且不存在一个全人类的大脑。",
+      "timestamp": "04:34",
+      "speaker": "Lucas Kaiser"
+    },
+    {
+      "en": "I think fundamentally, it might be that given a fixed amount of data, the best way to learn from it is to have a lot of distributed models.",
+      "zh": "我从根本上认为，在给定固定数据量的情况下，从数据中学习的最佳方式可能是拥有大量分布式的模型。",
+      "timestamp": "04:43",
+      "speaker": "Lucas Kaiser"
+    },
+    {
+      "en": "So yes, transformers are great when you feed them all of the internet, but we know there is an algorithm that's even better and it can learn from much smaller data and be amazing at the things it's learning.",
+      "zh": "所以是的，Transformer 在你喂给它整个互联网时很强大，但我们知道存在一个更优秀的算法，它能从小得多的数据中学习，并在所学的东西上表现得令人惊叹。",
+      "timestamp": "05:03",
+      "speaker": "Lucas Kaiser"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:46",
+      "speaker": "Lucas Kaiser",
+      "en": "But the big companies are like, okay, but you can do things without research breakthrough, which is to go bigger, bigger, bigger.",
+      "zh": "但大公司会说，好吧，没有研究突破你也能做事，那就是做得更大、更大、再更大。"
+    },
+    {
+      "timestamp": "02:06",
+      "speaker": "Lucas Kaiser",
+      "en": "Sure, transformers are great, but they're not even 10 years old.",
+      "zh": "当然，transformer 很棒，但它们甚至还不满 10 岁。"
+    },
+    {
+      "timestamp": "02:54",
+      "speaker": "Lucas Kaiser",
+      "en": "We are the proof, right? Humans are not experts in everything.",
+      "zh": "我们就是证明，对吧？人类并不是样样精通的专家。"
+    },
+    {
+      "timestamp": "02:59",
+      "speaker": "Lucas Kaiser",
+      "en": "But in the field, there are experts that are very good, sometimes better than our super huge models.",
+      "zh": "但在特定领域，有非常擅长的专家，有时比我们超级巨大的模型还好。"
+    },
+    {
+      "timestamp": "03:50",
+      "speaker": "Lucas Kaiser",
+      "en": "It has more power than the eight 8GPU machines we used as a team to do the Transformers research.",
+      "zh": "它比我们团队当年做 Transformers 研究时用的八台 8GPU 机器算力还强。"
+    },
+    {
+      "timestamp": "04:04",
+      "speaker": "Lucas Kaiser",
+      "en": "Like you can't train a big LLM, but you can research and experiment on things.",
+      "zh": "比如你没法训练一个大的 LLM,但你可以用它做研究和实验。"
+    },
+    {
+      "timestamp": "04:34",
+      "speaker": "Lucas Kaiser",
+      "en": "Our brains are still unmatched by the models, and we are not generalists, and there's not like one big brain of humanity.",
+      "zh": "我们的大脑仍然不输给模型，我们也不是通才，而且不存在一个全人类的大脑。"
+    },
+    {
+      "timestamp": "04:43",
+      "speaker": "Lucas Kaiser",
+      "en": "I think fundamentally, it might be that given a fixed amount of data, the best way to learn from it is to have a lot of distributed models.",
+      "zh": "我从根本上认为，在给定固定数据量的情况下，从数据中学习的最佳方式可能是拥有大量分布式的模型。"
+    },
+    {
+      "timestamp": "05:03",
+      "speaker": "Lucas Kaiser",
+      "en": "So yes, transformers are great when you feed them all of the internet, but we know there is an algorithm that's even better and it can learn from much smaller data and be amazing at the things it's learning.",
+      "zh": "所以是的，Transformer 在你喂给它整个互联网时很强大，但我们知道存在一个更优秀的算法，它能从小得多的数据中学习，并在所学的东西上表现得令人惊叹。"
+    },
+    {
+      "timestamp": "05:21",
+      "speaker": "Lucas Kaiser",
+      "en": "I mean, progress in machine learning has not stopped in 2017.",
+      "zh": "我是说，机器学习的进步并没有止步于 2017 年。"
+    },
+    {
+      "timestamp": "05:31",
+      "speaker": "Lucas Kaiser",
+      "en": "But now that it's so expensive, maybe we will focus back more on more fundamental research.",
+      "zh": "但现在既然这么昂贵，也许我们会重新更多聚焦于更基础的研究。"
+    },
+    {
+      "timestamp": "06:14",
+      "speaker": "Lucas Kaiser",
+      "en": "The models will be experts in different domains like we are and maybe one will be making jokes this way and another another way.",
+      "zh": "模型会像我们一样成为不同领域的专家，也许一个擅长这样讲笑话，另一个那样讲。"
+    },
+    {
+      "timestamp": "06:21",
+      "speaker": "Lucas Kaiser",
+      "en": "It's like currently when you ask a big language model about a joke, it's always the same, something about atoms.",
+      "zh": "就像现在你问一个大的语言模型要个笑话，答案总是一样的，总是关于原子的什么梗。"
+    },
+    {
+      "timestamp": "06:41",
+      "speaker": "Lucas Kaiser",
+      "en": "So, you know, just don't worry about, okay, it got concentrated because that was a convenient thing to do.",
+      "zh": "所以，你知道，不用担心它变得集中了——那只是因为当时那是最方便的做法。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人,来头不小。Lucas Kaiser,AI 研究者,更是那篇《Attention is All You Need》的共同作者。这篇 2017 年 Google 团队发表的论文,一共八位作者,引入了 transformer——今天几乎所有大模型背后的基础架构。可以说,没有这篇论文,就没有现在你听到的一切 AI 热潮。这是 a16z 在旧金山开源 AI 峰会上的一段访谈,主持人是 Sophia Du。\n\n聊的问题就一个:今天的 AI,权力越来越集中在几家大公司手里,这到底是宿命,还是只是一个阶段?Kaiser 的判断一句话就能说清——集中是当前技术路线的属性,不是 AI 的必然特征。\n\n先把集中是怎么来的讲清楚。编码智能体大概去年年底、今年年初才真正能用,而这代 AI 的本质就决定了集中:你必须花大价钱,在数据中心里、用海量数据训练模型。只有大公司做得起,然后向所有人收费。那想更强怎么办?大公司的答案不是研究突破,而是做得更大、更大、再更大——这要几十亿美元,要抓取互联网每个角落的数据。麻烦在于,研究突破不像商业提案,有就是有,没有就是没有,没法靠预算砸出来。\n\n但是注意,transformer 甚至还不满十岁。这代架构的短板其实很明显:喂给它整个互联网,它相当聪明;让它只学一件具体的事,它就很蠢。在 Kaiser 眼里,这不是死路,而是一个有望被解决的研究问题——可能需要一个突破,让小数据也能把一个小模型学好。至于该往哪里找,没人确切知道,可能涉及模型架构、损失函数、数据和训练方式的组合。\n\n那这种突破到底存不存在?主持人就问了这个问题:会不会有算法突破,让小玩家真正有得竞争?回答很有意思:我们知道它存在,人类就是证明。想想看,人不是样样精通的通才,但特定领域的专家,在自己那个领域里,有时候比超级大模型还厉害。所以「从小数据学成专家」的算法,在自然界是存在的,只是我们还没在技术上把它找到。\n\n顺着这个思路,还有一个更根本的猜想:给定固定的数据量,从中学习的最佳方式,可能就是拥有大量分布式的模型——各自强大,合在一起更强。基础研究里确实有理由支持这一点,比如集成方法——就是把多个模型各自的预测组合起来,往往比单个模型更准,这是机器学习里的经典结论。分布式不是妥协,反而可能是更优解。\n\n讲到这儿,对个人研究者的意义就很具体了。Kaiser 最近自己买了一块 5090 RTX 显卡,这块卡的算力,比当年团队做 transformer 研究时用的八台 8GPU 机器还要强。你没法拿它训练大语言模型,但完全够做研究和实验。而且机器学习领域里还剩非常多的东西可挖,很多人应该去做这件事。\n\n那这个机会窗口是怎么打开的?这里还有一层观察:OpenAI 在 Kaiser 加入的时候,是一个非常纯粹的研究实验室,现在也变成一家要做产品的大公司了,对研究的专注变少了。大公司往产品走,基础研究就出现了真空——这恰恰是开源运动和学术界的机会。\n\n所以为什么乐观?很多人看 AI 现状会悲观:大公司、大数据中心,你只能订阅一个自己左右不了的服务。Kaiser 的回应是:这只是今年、明年的状态,是技术的一个阶段,而阶段会过去。因为太好用了,所有人都聚焦在大数据上;但既然这条路现在这么贵,行业也许会重新聚焦到更基础的研究上。别忘了,机器学习的进步,并没有止步于 2017 年。\n\n可以想象的未来是什么样的?每个人可能拥有自己的模型,从少得多的数据里学习,像人类一样,各自成为不同领域的专家。现在你问一个大语言模型要个笑话,答案总是一样的,总是关于原子的什么梗——这种千篇一律,会随着研究追上来而改变。对研究者来说,这是一个巨大的追赶机会。\n\n最后记住一句话就够了:transformer 不满十岁,它的吃数据、吃算力,只是这一代架构的特点。集中不是宿命,下一个突破,可能改写整个行业的经济学。"
+}
