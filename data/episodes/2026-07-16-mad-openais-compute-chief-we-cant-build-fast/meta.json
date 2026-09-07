@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-16-mad-openais-compute-chief-we-cant-build-fast",
+  "audio_mp3": "https://anchor.fm/s/f2ee4948/podcast/play/122904253/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-16%2F428052657-44100-2-1a0ebfc4f3798.mp3",
+  "duration_sec": 2635.8,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 554,
+  "asr": true,
+  "title_en": "OpenAI’s Compute Chief: We Can’t Build Fast Enough | Sachin Katti",
+  "podcast": "The MAD Podcast",
+  "date": "2026-07-16",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40657026/40657026-1768486187830-f8f544fbc7c46.jpg",
+  "added": "2026-09-07",
+  "added_at": "2026-09-07T03:08:05.899Z",
+  "speaker_map": {
+    "SPEAKER_00": "Sachin Katti",
+    "SPEAKER_01": "Matt Turk",
+    "SPEAKER_02": "Matt Turk"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Sachin Katti",
+  "cohosts": [
+    "Matt Turk"
+  ],
+  "title_zh": "把电子变成 token:OpenAI 工业算力负责人谈史上最大基建"
+}
