@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]]
+[[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tane":1,"Carter":1,"模型路由":4,"智能体":1,"上下文压缩":1,"RL":6,"蒸馏":9,"KV 缓存":2,"Cognition":15,"OpenRouter":9}</script>
+<script type="application/json" class="pd-epn">{"Tane":1,"Carter":1,"模型路由":4,"智能体":1,"上下文压缩":1,"RL":7,"蒸馏":9,"KV 缓存":2,"Cognition":15,"OpenRouter":9}</script>
 
 <script>
 (function(){

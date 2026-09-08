@@ -1,0 +1,3890 @@
+[
+ {
+  "seg": 0,
+  "start": 0.191,
+  "end": 6.775,
+  "speaker": "Unknown",
+  "en": "In Transformer models, the cost of attention grows with the square of the context length.",
+  "zh": "在 Transformer 模型中，注意力的成本随上下文长度的平方增长。"
+ },
+ {
+  "seg": 1,
+  "start": 6.895,
+  "end": 13.599,
+  "speaker": "Unknown",
+  "en": "So doubling context makes the compute roughly four times more expensive.",
+  "zh": "所以上下文翻倍，计算成本大约变成四倍。"
+ },
+ {
+  "seg": 2,
+  "start": 13.94,
+  "end": 18.022,
+  "speaker": "Unknown",
+  "en": "And Alex and his team have solved this issue.",
+  "zh": "而 Alex 和他的团队解决了这个问题。"
+ },
+ {
+  "seg": 3,
+  "start": 18.122,
+  "end": 28.589,
+  "speaker": "Unknown",
+  "en": "When we've done benchmarking the frontier models with SuBench Pro, we found that 86% of the steps were actually read steps, just trying to do that context engineering before execution review, which was only the last 14%.",
+  "zh": "当我们用 SuBench Pro 对前沿模型做基准测试时，我们发现 86% 的步骤实际上是读取步骤，只是在执行评审之前做上下文工程，而那只占最后 14%。"
+ },
+ {
+  "seg": 4,
+  "start": 29.469,
+  "end": 31.73,
+  "speaker": "Unknown",
+  "en": "Is this the end of RAG?",
+  "zh": "这是 RAG 的终结吗？"
+ },
+ {
+  "seg": 5,
+  "start": 31.77,
+  "end": 41.212,
+  "speaker": "Unknown",
+  "en": "If you could put everything that's in your RAG knowledge base into the context window, you wouldn't need that more complicated architecture, is that right?",
+  "zh": "如果你能把 RAG 知识库里的所有内容都放进上下文窗口，你就不需要那个更复杂的架构了，对吗？"
+ },
+ {
+  "seg": 6,
+  "start": 41.392,
+  "end": 45.653,
+  "speaker": "Unknown",
+  "en": "Yeah, it is, although I wouldn't say it's the end of RAG, just because it's too extreme.",
+  "zh": "是的，虽然我不会说这是 RAG 的终结，只是因为这种说法太极端了。"
+ },
+ {
+  "seg": 7,
+  "start": 45.753,
+  "end": 59.216,
+  "speaker": "Unknown",
+  "en": "All of these enterprises that are sitting on massive amounts of data, and a lot of that data has yet to be put to use in an AI product, they're getting pushed to do like a $10 million data transformation project before they can even start to build a product on top.",
+  "zh": "所有这些坐拥海量数据的企业，其中很多数据尚未在 AI 产品中被利用起来，他们被迫先做一个像 1000 万美元的数据转换项目，然后才能开始在其上构建产品。"
+ },
+ {
+  "seg": 8,
+  "start": 59.636,
+  "end": 63.917,
+  "speaker": "Unknown",
+  "en": "And the value prop that we bring to the table is that is no longer necessary.",
+  "zh": "而我们带来的价值主张是，这已经不再必要了。"
+ },
+ {
+  "seg": 9,
+  "start": 65.918,
+  "end": 82.022,
+  "speaker": "Unknown",
+  "en": "Hi, this is Eye on AI, and today we're talking to Alex Whedon about his company SubQ, which solves a problem that plagues Transformer models.",
+  "zh": "大家好，这里是 Eye on AI，今天我们与 Alex Whedon 交谈，聊聊他的公司 SubQ，它解决了困扰 Transformer 模型的一个问题。"
+ },
+ {
+  "seg": 10,
+  "start": 83.162,
+  "end": 86.063,
+  "speaker": "Unknown",
+  "en": "In Transformer models, the cost of attention",
+  "zh": "在 Transformer 模型中，注意力的成本"
+ },
+ {
+  "seg": 11,
+  "start": 87.143,
+  "end": 90.547,
+  "speaker": "Unknown",
+  "en": "Grows with the square of the context length.",
+  "zh": "随上下文长度的平方增长。"
+ },
+ {
+  "seg": 12,
+  "start": 91.127,
+  "end": 98.395,
+  "speaker": "Unknown",
+  "en": "So doubling context makes the compute roughly four times more expensive.",
+  "zh": "所以上下文翻倍，计算成本大约变成四倍。"
+ },
+ {
+  "seg": 13,
+  "start": 98.475,
+  "end": 103.08,
+  "speaker": "Unknown",
+  "en": "That's what we mean by quadratic compute complexity.",
+  "zh": "这就是我们所说的二次方计算复杂度。"
+ },
+ {
+  "seg": 14,
+  "start": 104.201,
+  "end": 108.506,
+  "speaker": "Unknown",
+  "en": "And Alex and his team have solved this issue.",
+  "zh": "而 Alex 和他的团队解决了这个问题。"
+ },
+ {
+  "seg": 15,
+  "start": 110.188,
+  "end": 116.313,
+  "speaker": "Unknown",
+  "en": "So, Alex, can you start by introducing yourself to listeners and we'll go from there.",
+  "zh": "那么，Alex，你能先向听众做个自我介绍吗，然后我们再继续。"
+ },
+ {
+  "seg": 16,
+  "start": 118.658,
+  "end": 118.918,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 17,
+  "start": 119.738,
+  "end": 123.939,
+  "speaker": "Unknown",
+  "en": "I'm Alex, co-founder and CTO here at SubQuadratic.",
+  "zh": "我是 Alex，SubQuadratic 的联合创始人兼 CTO。"
+ },
+ {
+  "seg": 18,
+  "start": 124.119,
+  "end": 125.82,
+  "speaker": "Unknown",
+  "en": "I've been in this space for about 10 years.",
+  "zh": "我在这个领域已经待了大约 10 年。"
+ },
+ {
+  "seg": 19,
+  "start": 125.92,
+  "end": 131.961,
+  "speaker": "Unknown",
+  "en": "I started working with language models since before transformers existed when LSTMs were still the hot thing.",
+  "zh": "我从 Transformer 出现之前就开始研究语言模型了，那时 LSTM 还是最火的东西。"
+ },
+ {
+  "seg": 20,
+  "start": 132.941,
+  "end": 145.324,
+  "speaker": "Unknown",
+  "en": "And our mission here is to always be the first to make the most computationally memory and sample efficient algorithms and build foundation models on top of those.",
+  "zh": "我们的使命是始终成为第一个做出计算、内存和采样效率最高算法的团队，并在这些算法之上构建基础模型。"
+ },
+ {
+  "seg": 21,
+  "start": 147.856,
+  "end": 158.984,
+  "speaker": "Unknown",
+  "en": "Yeah, and can you explain, you've tackled this quadratic complexity with sparse attention, am I right?",
+  "zh": "好，你能解释一下，你们用稀疏注意力攻克了这个二次方复杂度，对吗？"
+ },
+ {
+  "seg": 22,
+  "start": 159.104,
+  "end": 168.33,
+  "speaker": "Unknown",
+  "en": "And can you explain what sparse attention is in simple terms and why it matters compared to standard transformer attention?",
+  "zh": "你能用简单的术语解释什么是稀疏注意力，以及与标准 Transformer 注意力相比它为什么重要吗？"
+ },
+ {
+  "seg": 23,
+  "start": 169.23,
+  "end": 169.491,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 24,
+  "start": 172.449,
+  "end": 180.332,
+  "speaker": "Unknown",
+  "en": "The quadratic bottleneck of attention is introduced because attention compares two token relationships.",
+  "zh": "注意力的二次方瓶颈之所以产生，是因为注意力比较的是两个 token 之间的关系。"
+ },
+ {
+  "seg": 25,
+  "start": 180.352,
+  "end": 188.935,
+  "speaker": "Unknown",
+  "en": "So you have 1000 tokens and there are 1000 squared two token relationships or a million squared two token relationships for a million tokens.",
+  "zh": "所以你有 1000 个 token，就有 1000 的平方个两 token 关系，或者说 100 万个 token 就有 100 万的平方个两 token 关系。"
+ },
+ {
+  "seg": 26,
+  "start": 188.955,
+  "end": 193.857,
+  "speaker": "Unknown",
+  "en": "You have this quadratically growing set of math that you're going to perform with an attention.",
+  "zh": "使用注意力时，你要执行的是这种平方级增长的数学运算。"
+ },
+ {
+  "seg": 27,
+  "start": 194.537,
+  "end": 198.278,
+  "speaker": "Unknown",
+  "en": "Sparse attention says we don't actually need all of those token relationships.",
+  "zh": "稀疏注意力说的是，我们其实不需要所有这些 token 关系。"
+ },
+ {
+  "seg": 28,
+  "start": 198.979,
+  "end": 209.582,
+  "speaker": "Unknown",
+  "en": "And so sparse attention attempts to find which token relationships are important before running attention on only a subset of the token relationships.",
+  "zh": "因此稀疏注意力尝试在运行注意力之前找出哪些 token 关系是重要的，然后只对其中一个子集运行注意力。"
+ },
+ {
+  "seg": 29,
+  "start": 210.463,
+  "end": 216.144,
+  "speaker": "Unknown",
+  "en": "And one of the main challenges with sparse attention is that there's always been a quality trade-off, as you can imagine.",
+  "zh": "稀疏注意力的主要挑战之一是，可以想象，一直存在质量上的权衡。"
+ },
+ {
+  "seg": 30,
+  "start": 217.825,
+  "end": 222.067,
+  "speaker": "Unknown",
+  "en": "In theory, if you're not looking at every token relationship, then you could potentially miss some important ones.",
+  "zh": "理论上，如果你不是在查看每一个 token 关系，那你可能错过一些重要的。"
+ },
+ {
+  "seg": 31,
+  "start": 223.648,
+  "end": 225.81,
+  "speaker": "Unknown",
+  "en": "Or you're also looking at a lot that don't actually matter.",
+  "zh": "或者你也在查看很多实际上不重要的。"
+ },
+ {
+  "seg": 32,
+  "start": 227.571,
+  "end": 231.174,
+  "speaker": "Unknown",
+  "en": "And so the challenge of sparse attention has been figuring out which ones actually matter.",
+  "zh": "所以稀疏注意力的挑战就在于弄清楚哪些真正重要。"
+ },
+ {
+  "seg": 33,
+  "start": 231.914,
+  "end": 235.257,
+  "speaker": "Unknown",
+  "en": "Most sparse attention mechanisms have used fixed patterns.",
+  "zh": "大多数稀疏注意力机制都使用了固定模式。"
+ },
+ {
+  "seg": 34,
+  "start": 235.537,
+  "end": 250.328,
+  "speaker": "Unknown",
+  "en": "So based off of the distance between the target token and all the other potential tokens, there's some fixed mathematical formula that determines which tokens should be passed through attention.",
+  "zh": "即基于目标 token 与所有其他潜在 token 之间的距离，由某个固定的数学公式决定哪些 token 应该通过注意力。"
+ },
+ {
+  "seg": 35,
+  "start": 251.508,
+  "end": 258.53,
+  "speaker": "Unknown",
+  "en": "DeepSeek Sparse Attention upended this by saying we're actually going to use a separate prediction model to determine which tokens are important.",
+  "zh": "DeepSeek Sparse Attention 颠覆了这一点，他们说我们实际上要用一个单独的预测模型来确定哪些 token 是重要的。"
+ },
+ {
+  "seg": 36,
+  "start": 260.11,
+  "end": 260.85,
+  "speaker": "Unknown",
+  "en": "And that worked.",
+  "zh": "而且这有效。"
+ },
+ {
+  "seg": 37,
+  "start": 261.15,
+  "end": 269.632,
+  "speaker": "Unknown",
+  "en": "And they showed that if you dynamically select the token relationships before running attention over a subset, then you can do so without a quality trade-off.",
+  "zh": "他们展示了，如果你在只对一个子集运行注意力之前动态选择 token 关系，那么可以在没有质量权衡的情况下做到这一点。"
+ },
+ {
+  "seg": 38,
+  "start": 270.052,
+  "end": 274.553,
+  "speaker": "Unknown",
+  "en": "The only problem is that prediction model that selects the token relationships uses full attention.",
+  "zh": "唯一的问题是，那个选择 token 关系的预测模型使用的是全注意力。"
+ },
+ {
+  "seg": 39,
+  "start": 275.413,
+  "end": 278.934,
+  "speaker": "Unknown",
+  "en": "And so you still have the quadratic problem.",
+  "zh": "所以你仍然有二次方问题。"
+ },
+ {
+  "seg": 40,
+  "start": 279.174,
+  "end": 294.499,
+  "speaker": "Unknown",
+  "en": "In fact, that separate selection model uses more compute than the sparse attention layers in the full model at just 52,000 tokens and then continuously grows to an even larger differential.",
+  "zh": "事实上，那个单独的选择模型在仅仅 52000 个 token 时就比完整模型中的稀疏注意力层使用更多计算，而且差距还在持续扩大到更大的程度。"
+ },
+ {
+  "seg": 41,
+  "start": 296.28,
+  "end": 312.628,
+  "speaker": "Unknown",
+  "en": "And so what we've done that's unique is we have a sparse attention mechanism that, like DeepSeek sparse attention, dynamically selects the token relationships, but does so without the massive cost of full attention and does so without a separate selection mechanism.",
+  "zh": "而我们所做的独特之处在于，我们有一个稀疏注意力机制，像 DeepSeek sparse attention 一样动态选择 token 关系，但没有全注意力的巨大成本，也没有单独的选择机制。"
+ },
+ {
+  "seg": 42,
+  "start": 312.708,
+  "end": 316.55,
+  "speaker": "Unknown",
+  "en": "So the single model does both the selection generation at the same time.",
+  "zh": "所以单个模型同时完成选择和生成。"
+ },
+ {
+  "seg": 43,
+  "start": 318.123,
+  "end": 331.972,
+  "speaker": "Unknown",
+  "en": "And can you give us a practical use case where this quadratic compute complexity makes it too expensive to run the model on something?",
+  "zh": "你能给我们举一个实际用例，说明这种二次方计算复杂度使得在某些事情上运行模型成本过高吗？"
+ },
+ {
+  "seg": 44,
+  "start": 332.012,
+  "end": 340.337,
+  "speaker": "Unknown",
+  "en": "I mean, code bases seems like an obvious, but are there other situations where you want",
+  "zh": "我是说，代码库似乎是个显而易见的例子，但还有其他情况吗，你想要"
+ },
+ {
+  "seg": 45,
+  "start": 341.478,
+  "end": 352.25,
+  "speaker": "Unknown",
+  "en": "a very large context window and that it would get unreasonably expensive to do that with regular attention.",
+  "zh": "一个非常大的上下文窗口，而用常规注意力去做会贵得不合理。"
+ },
+ {
+  "seg": 46,
+  "start": 352.47,
+  "end": 354.713,
+  "speaker": "Unknown",
+  "en": "I mean, regular transformer algorithms.",
+  "zh": "我是说，常规的 Transformer 算法。"
+ },
+ {
+  "seg": 47,
+  "start": 355.894,
+  "end": 356.635,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，绝对有。"
+ },
+ {
+  "seg": 48,
+  "start": 356.675,
+  "end": 357.556,
+  "speaker": "Unknown",
+  "en": "I mean, I think",
+  "zh": "我是说，我认为"
+ },
+ {
+  "seg": 49,
+  "start": 358.445,
+  "end": 361.926,
+  "speaker": "Unknown",
+  "en": "A very significant portion of enterprise workloads fall into this category.",
+  "zh": "企业工作负载中有非常大的一部分都属于这一类。"
+ },
+ {
+  "seg": 50,
+  "start": 363.506,
+  "end": 374.589,
+  "speaker": "Unknown",
+  "en": "And by the way, I will just clarify now that we're not just after the absolute context window size, we're after higher intelligence within that context window, lower cost of context, lower latency for context.",
+  "zh": "顺便说一下，我现在要澄清的是，我们追求的不仅仅是绝对的上下文窗口大小，我们追求的是上下文窗口内更高的智能、更低的上下文成本、更低的上下文延迟。"
+ },
+ {
+  "seg": 51,
+  "start": 375.409,
+  "end": 383.111,
+  "speaker": "Unknown",
+  "en": "And so these are actually four different axes of context that we care about, size, intelligence, cost, and latency.",
+  "zh": "所以实际上这是我们关心的上下文的四个不同维度：大小、智能、成本和延迟。"
+ },
+ {
+  "seg": 52,
+  "start": 385.352,
+  "end": 388.213,
+  "speaker": "Unknown",
+  "en": "Enterprise workloads are dramatically impacted by these.",
+  "zh": "企业级工作负载深受这些因素的影响。"
+ },
+ {
+  "seg": 53,
+  "start": 388.373,
+  "end": 389.394,
+  "speaker": "Unknown",
+  "en": "Everybody's making trade-offs.",
+  "zh": "每个人都在做权衡。"
+ },
+ {
+  "seg": 54,
+  "start": 389.414,
+  "end": 393.456,
+  "speaker": "Unknown",
+  "en": "Everybody's trying to reduce the number of tokens that they're using as much as possible.",
+  "zh": "每个人都在尽可能减少他们使用的 token 数量。"
+ },
+ {
+  "seg": 55,
+  "start": 394.076,
+  "end": 402.06,
+  "speaker": "Unknown",
+  "en": "Everybody is doing context engineering that requires a lot of effort and also narrows the scope of what that system can actually handle.",
+  "zh": "每个人都在做上下文工程，这需要大量精力，同时也缩小了系统实际能处理的范围。"
+ },
+ {
+  "seg": 56,
+  "start": 403.801,
+  "end": 407.422,
+  "speaker": "Unknown",
+  "en": "But some of the top use cases that we see are, yes, code is obviously one.",
+  "zh": "我们看到的一些顶级用例，是的，代码显然是其中之一。"
+ },
+ {
+  "seg": 57,
+  "start": 409.223,
+  "end": 417.106,
+  "speaker": "Unknown",
+  "en": "Thinking about code review, planning, and long horizon memory, those are all long context problems.",
+  "zh": "想想代码审查、规划、长时程记忆，这些都是长上下文问题。"
+ },
+ {
+  "seg": 58,
+  "start": 417.166,
+  "end": 423.009,
+  "speaker": "Unknown",
+  "en": "Thinking about the fact that when we've done benchmarking of Frontier Models with SweetBench Pro, we found that...",
+  "zh": "想想这个事实：当我们用 SweetBench Pro 对前沿模型做基准测试时，我们发现……"
+ },
+ {
+  "seg": 59,
+  "start": 423.909,
+  "end": 434.092,
+  "speaker": "Unknown",
+  "en": "86% of the steps were actually read steps, just trying to do that context engineering before the execution review, which was only the last 14%.",
+  "zh": "86% 的步骤实际上是读取步骤，只是在执行审查之前做上下文工程，而执行审查只占最后的 14%。"
+ },
+ {
+  "seg": 60,
+  "start": 434.112,
+  "end": 439.213,
+  "speaker": "Unknown",
+  "en": "And then financial document analysis is another really big one.",
+  "zh": "然后金融文档分析是另一个非常大的用例。"
+ },
+ {
+  "seg": 61,
+  "start": 439.353,
+  "end": 441.494,
+  "speaker": "Unknown",
+  "en": "Financial documents can be a couple hundred pages.",
+  "zh": "金融文档可能有几百页。"
+ },
+ {
+  "seg": 62,
+  "start": 442.854,
+  "end": 449.316,
+  "speaker": "Unknown",
+  "en": "And if you really want to analyze trends, then it's helpful to have many of those documents over a period of time or several different companies.",
+  "zh": "如果你真的想分析趋势，那么拥有一段时间内的许多此类文档或几家不同公司的文档会很有帮助。"
+ },
+ {
+  "seg": 63,
+  "start": 451.968,
+  "end": 466.3,
+  "speaker": "Unknown",
+  "en": "In an enterprise, you have hundreds of billions of tokens of textual data, and anytime you want to tackle a problem, it's helpful to have a broad range of documents.",
+  "zh": "在企业中，你有数千亿 token 的文本数据，任何时候你想解决一个问题，拥有广泛范围的文档都很有帮助。"
+ },
+ {
+  "seg": 64,
+  "start": 468.843,
+  "end": 474.427,
+  "speaker": "Unknown",
+  "en": "The key point that we're conveying and working on with enterprises is",
+  "zh": "我们正在向企业传达并与之合作的关键点是"
+ },
+ {
+  "seg": 65,
+  "start": 475.774,
+  "end": 481.641,
+  "speaker": "Unknown",
+  "en": "How do we do coarser grain retrieval, more retrieval steps at once?",
+  "zh": "我们如何做更粗粒度的检索，一次做更多的检索步骤？"
+ },
+ {
+  "seg": 66,
+  "start": 483.023,
+  "end": 495.258,
+  "speaker": "Unknown",
+  "en": "How do we avoid chucking documents as much as possible or make larger, more comprehensive chunks, et cetera, to offset the quality loss that we often see with a lot of the context engineering that's done today?",
+  "zh": "我们如何尽可能避免分块文档，或者做更大、更全面的分块，等等，以抵消我们今天在大量上下文工程中经常看到的质量损失？"
+ },
+ {
+  "seg": 67,
+  "start": 496.405,
+  "end": 496.645,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 68,
+  "start": 497.066,
+  "end": 510.439,
+  "speaker": "Unknown",
+  "en": "And that quality offset, or you said earlier a moment ago that it's not only the cost, but it's the intelligence within the context.",
+  "zh": "而那个质量抵消，或者说你刚才早些时候说的，不仅仅是成本，还有上下文内的智能。"
+ },
+ {
+  "seg": 69,
+  "start": 510.659,
+  "end": 511.84,
+  "speaker": "Unknown",
+  "en": "Is that how you phrased it?",
+  "zh": "你是这么说的吗？"
+ },
+ {
+  "seg": 70,
+  "start": 512.241,
+  "end": 516.084,
+  "speaker": "Unknown",
+  "en": "Because large context windows",
+  "zh": "因为大的上下文窗口"
+ },
+ {
+  "seg": 71,
+  "start": 518.295,
+  "end": 525.599,
+  "speaker": "Unknown",
+  "en": "Many LLMs don't operate optimally within a very large context window.",
+  "zh": "许多 LLM 在非常大的上下文窗口内无法最佳运行。"
+ },
+ {
+  "seg": 72,
+  "start": 526.279,
+  "end": 533.123,
+  "speaker": "Unknown",
+  "en": "They don't see things or they get lost in the context.",
+  "zh": "它们看不到某些东西，或者在上下文中迷失。"
+ },
+ {
+  "seg": 73,
+  "start": 534.344,
+  "end": 535.565,
+  "speaker": "Unknown",
+  "en": "Can you talk about that?",
+  "zh": "你能谈谈那个吗？"
+ },
+ {
+  "seg": 74,
+  "start": 535.625,
+  "end": 538.346,
+  "speaker": "Unknown",
+  "en": "How do you solve that?",
+  "zh": "你怎么解决那个问题？"
+ },
+ {
+  "seg": 75,
+  "start": 538.406,
+  "end": 544.59,
+  "speaker": "Unknown",
+  "en": "I mean, even though you can now do very large context efficiently?",
+  "zh": "我是说，即使你现在可以高效地做到非常大的上下文？"
+ },
+ {
+  "seg": 76,
+  "start": 544.61,
+  "end": 546.151,
+  "speaker": "Unknown",
+  "en": "It's a great question.",
+  "zh": "这是个好问题。"
+ },
+ {
+  "seg": 77,
+  "start": 549.458,
+  "end": 555.379,
+  "speaker": "Unknown",
+  "en": "So yeah, the intelligence within the context window is a very important topic.",
+  "zh": "所以是的，上下文窗口内的智能是一个非常重要的主题。"
+ },
+ {
+  "seg": 78,
+  "start": 556.319,
+  "end": 575.182,
+  "speaker": "Unknown",
+  "en": "If we just take a step back and think about what frontier context has looked like historically, we didn't get frontier models with more than a 256,000 token context window until March when the Opus 4.6 general access, 1 million token general access came available.",
+  "zh": "如果我们退一步，想想前沿上下文在历史上是什么样子，直到 3 月，当 Opus 4.6 通用可用性、100 万 token 通用可用性开放时，我们才拥有超过 256,000 token 上下文窗口的前沿模型。"
+ },
+ {
+  "seg": 79,
+  "start": 576.703,
+  "end": 577.563,
+  "speaker": "Unknown",
+  "en": "And so until then,",
+  "zh": "所以在那之前，"
+ },
+ {
+  "seg": 80,
+  "start": 578.488,
+  "end": 585.071,
+  "speaker": "Unknown",
+  "en": "Most enterprises were building with a less than 256k usable context window.",
+  "zh": "大多数企业都是用小于 256k 可用上下文窗口来构建的。"
+ },
+ {
+  "seg": 81,
+  "start": 587.092,
+  "end": 598.558,
+  "speaker": "Unknown",
+  "en": "So a lot of people that we talked to, they're using 100,000 tokens or less, and they haven't yet adapted their workflows or RAG setups to use more than that.",
+  "zh": "我们交谈过的很多人，他们使用 100,000 token 或更少，而且他们还没有调整他们的工作流或 RAG 设置来使用比这更多的上下文。"
+ },
+ {
+  "seg": 82,
+  "start": 598.798,
+  "end": 602.7,
+  "speaker": "Unknown",
+  "en": "Sometimes they feel a quality trade-off above that, with particularly hard problems.",
+  "zh": "有时他们在超过这个量时会感到质量上的权衡，特别是在特别难的问题上。"
+ },
+ {
+  "seg": 83,
+  "start": 602.74,
+  "end": 605.842,
+  "speaker": "Unknown",
+  "en": "Actually, 100,000 is a fairly common cutoff, surprisingly.",
+  "zh": "实际上，100,000 是一个相当常见的截止点，令人惊讶。"
+ },
+ {
+  "seg": 84,
+  "start": 607.383,
+  "end": 615.49,
+  "speaker": "Unknown",
+  "en": "In the coding space, a lot of people set the compaction limit to 400,000 tokens because that's where they feel there is a qualitative trade-off within a 1 million token context window.",
+  "zh": "在编码领域，很多人把压缩限制设为 400,000 token，因为他们觉得在 100 万 token 上下文窗口内那里存在质量上的权衡。"
+ },
+ {
+  "seg": 85,
+  "start": 616.351,
+  "end": 623.377,
+  "speaker": "Unknown",
+  "en": "Because of this, in addition to intelligence, I would say there's also an alignment problem within the context window.",
+  "zh": "正因为如此，除了智能之外，我认为上下文窗口内还存在一个对齐问题。"
+ },
+ {
+  "seg": 86,
+  "start": 624.117,
+  "end": 633.801,
+  "speaker": "Unknown",
+  "en": "That user preferences with how a model should leverage 1 million tokens are not super robustly understood today.",
+  "zh": "用户对模型应如何利用 100 万 token 的偏好，今天还没有被非常稳健地理解。"
+ },
+ {
+  "seg": 87,
+  "start": 635.061,
+  "end": 644.905,
+  "speaker": "Unknown",
+  "en": "There are just not enough enterprise applications built to actually leverage a full 1 million token context window to really understand what that should look like.",
+  "zh": "现在根本还没有足够多的企业级应用真正利用完整的 100 万 token 上下文窗口，来真正理解那应该是什么样子。"
+ },
+ {
+  "seg": 88,
+  "start": 645.165,
+  "end": 653.288,
+  "speaker": "Unknown",
+  "en": "And so as we push into the multi-millions of tokens, this is very much white space, not even just from a technical perspective, but from our product perspective.",
+  "zh": "所以当我们推进到数百万 token 时，这是非常大的空白领域，不仅从技术角度，也从我们产品的角度来看。"
+ },
+ {
+  "seg": 89,
+  "start": 653.888,
+  "end": 654.789,
+  "speaker": "Unknown",
+  "en": "what the users want.",
+  "zh": "用户想要什么。"
+ },
+ {
+  "seg": 90,
+  "start": 655.009,
+  "end": 661.152,
+  "speaker": "Unknown",
+  "en": "There are all sorts of benchmarks that kind of measure human preferences at short context, but a long context doesn't exist.",
+  "zh": "有各种各样的基准在短上下文下衡量人类偏好，但长上下文的基准不存在。"
+ },
+ {
+  "seg": 91,
+  "start": 661.732,
+  "end": 675.619,
+  "speaker": "Unknown",
+  "en": "And then finally, I will just add that one of the main, one of the challenges with large context intelligence and user preference matching is the amount of training that you can do at large context.",
+  "zh": "最后，我要补充一点，大上下文智能和用户偏好匹配的主要挑战之一，是你在较大上下文下能够做的训练量。"
+ },
+ {
+  "seg": 92,
+  "start": 675.759,
+  "end": 679.241,
+  "speaker": "Unknown",
+  "en": "And so that's one of the main reasons that we set out to create SSA in the first place.",
+  "zh": "所以这正是我们最初着手创建 SSA 的主要原因之一。"
+ },
+ {
+  "seg": 93,
+  "start": 679.921,
+  "end": 686.008,
+  "speaker": "Unknown",
+  "en": "was that it is cost prohibitive to do large scale training on large contexts.",
+  "zh": "就是在大上下文上进行大规模训练的成本是让人望而却步的。"
+ },
+ {
+  "seg": 94,
+  "start": 686.189,
+  "end": 691.495,
+  "speaker": "Unknown",
+  "en": "As far as we know, we are the only people to do robust multi-million token pre-training.",
+  "zh": "据我们所知，我们是唯一做过稳健的数百万 token 预训练的人。"
+ },
+ {
+  "seg": 95,
+  "start": 693.552,
+  "end": 695.313,
+  "speaker": "Unknown",
+  "en": "Which we think differentiates our models.",
+  "zh": "我们认为这让我们的模型与众不同。"
+ },
+ {
+  "seg": 96,
+  "start": 697.374,
+  "end": 711.12,
+  "speaker": "Unknown",
+  "en": "So like the number of times that a model can see how to handle a certain situation at a reason over some context at large scale, as that number goes up, obviously the model gets a lot better and that's really hard to do with quadratically scaling compute costs.",
+  "zh": "就像模型能看到如何处理某种情况、在某个上下文上进行推理的次数，在大规模下，随着这个数字上升，显然模型会好很多，而在计算成本二次方增长的情况下做到这一点真的很难。"
+ },
+ {
+  "seg": 97,
+  "start": 711.921,
+  "end": 713.682,
+  "speaker": "Unknown",
+  "en": "So go a little deeper on that.",
+  "zh": "那么再深入讲讲那个。"
+ },
+ {
+  "seg": 98,
+  "start": 713.822,
+  "end": 715.182,
+  "speaker": "Unknown",
+  "en": "I mean, you've trained...",
+  "zh": "我是说，你们已经训练了……"
+ },
+ {
+  "seg": 99,
+  "start": 719.411,
+  "end": 724.215,
+  "speaker": "Unknown",
+  "en": "and evaluated up to 12 million token context windows.",
+  "zh": "并评估了高达 1200 万 token 的上下文窗口。"
+ },
+ {
+  "seg": 100,
+  "start": 724.735,
+  "end": 734.322,
+  "speaker": "Unknown",
+  "en": "So explain how you avoid the problems that large context windows create.",
+  "zh": "那么解释一下你们如何避免大上下文窗口带来的问题。"
+ },
+ {
+  "seg": 101,
+  "start": 734.383,
+  "end": 741.048,
+  "speaker": "Unknown",
+  "en": "I mean, you go a little deeper on how the model approaches that.",
+  "zh": "我是说，你可以再深入讲讲这个模型是如何处理这个问题的。"
+ },
+ {
+  "seg": 102,
+  "start": 742.369,
+  "end": 742.689,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 103,
+  "start": 742.749,
+  "end": 747.372,
+  "speaker": "Unknown",
+  "en": "So, I mean, I feel like I kind of buried the lead on that with one of my earlier answers, but",
+  "zh": "嗯，我觉得我在之前某个回答里其实已经把这个重点埋进去了，不过"
+ },
+ {
+  "seg": 104,
+  "start": 749.358,
+  "end": 767.507,
+  "speaker": "Unknown",
+  "en": "I mean, the problem with sparse attention historically has been that they're fixed pattern mechanisms, like sliding window attention, look at the last 1000 tokens that are closest, or before and after.",
+  "zh": "我是说，稀疏注意力在历史上的问题在于它们是固定模式的机制，比如滑动窗口注意力，只看最近的 1000 个 token，或者前后相邻的。"
+ },
+ {
+  "seg": 105,
+  "start": 771.937,
+  "end": 774.778,
+  "speaker": "Unknown",
+  "en": "These fixed patterns don't robustly model language.",
+  "zh": "这些固定模式不能稳健地对语言建模。"
+ },
+ {
+  "seg": 106,
+  "start": 774.838,
+  "end": 779.079,
+  "speaker": "Unknown",
+  "en": "So there's no guarantee that the first and seventh token are always going to be relevant to each other.",
+  "zh": "所以无法保证第一个和第七个 token 之间总是相关的。"
+ },
+ {
+  "seg": 107,
+  "start": 780.099,
+  "end": 783.48,
+  "speaker": "Unknown",
+  "en": "It's highly context or content dependent.",
+  "zh": "这高度依赖于上下文或内容。"
+ },
+ {
+  "seg": 108,
+  "start": 784.18,
+  "end": 797.503,
+  "speaker": "Unknown",
+  "en": "And so you need a mechanism that accurately models context, accurately determines which relationships are going to be important, no matter what the input looks like.",
+  "zh": "所以你需要一种机制，无论输入是什么样子，都能准确地对上下文建模，准确判断哪些关系会是重要的。"
+ },
+ {
+  "seg": 109,
+  "start": 800.445,
+  "end": 808.951,
+  "speaker": "Unknown",
+  "en": "And so while DeepSeek Sparse Attention uses a separate model to do that, reintroducing the quadratic problem, we do not.",
+  "zh": "DeepSeek Sparse Attention 用一个单独的模型来做这件事，重新引入了平方复杂度问题，而我们不这样做。"
+ },
+ {
+  "seg": 110,
+  "start": 809.211,
+  "end": 819.578,
+  "speaker": "Unknown",
+  "en": "We have a mechanism that is much more lightweight and cheaper and leverages the existing model that does the generation to do the selection as well.",
+  "zh": "我们的机制要轻量得多、便宜得多，并且利用现有的负责生成的模型同时完成选择。"
+ },
+ {
+  "seg": 111,
+  "start": 820.119,
+  "end": 823.821,
+  "speaker": "Unknown",
+  "en": "So it's super cheap, super fast, but also dynamic.",
+  "zh": "所以它超级便宜、超级快，而且还是动态的。"
+ },
+ {
+  "seg": 112,
+  "start": 824.002,
+  "end": 828.265,
+  "speaker": "Unknown",
+  "en": "So every input gets a different attention map.",
+  "zh": "也就是说每个输入都会得到不同的注意力图。"
+ },
+ {
+  "seg": 113,
+  "start": 829.425,
+  "end": 832.287,
+  "speaker": "Unknown",
+  "en": "And then we train.",
+  "zh": "然后我们进行训练。"
+ },
+ {
+  "seg": 114,
+  "start": 832.927,
+  "end": 843.974,
+  "speaker": "Unknown",
+  "en": "We leverage the fact that we can do this dynamic selection to achieve high-quality results while also having efficiency differentials.",
+  "zh": "我们利用可以做这种动态选择这一事实，在实现高质量结果的同时也获得效率上的差异优势。"
+ },
+ {
+  "seg": 115,
+  "start": 845.074,
+  "end": 851.438,
+  "speaker": "Unknown",
+  "en": "We are around 40 times faster than flash of tension before on B200s and B300s.",
+  "zh": "在 B200 和 B300 上，我们比之前的 flash attention 快大约 40 倍。"
+ },
+ {
+  "seg": 116,
+  "start": 855.221,
+  "end": 860.965,
+  "speaker": "Unknown",
+  "en": "And then we're using 64 times less compute, both of these figures at a million tokens.",
+  "zh": "而且我们用的计算量少 64 倍，这两个数字都是在 100 万 token 的规模下。"
+ },
+ {
+  "seg": 117,
+  "start": 862.066,
+  "end": 871.134,
+  "speaker": "Unknown",
+  "en": "So this means that we can do a lot more 1 million token training with the same compute or 2 million token training or whatever.",
+  "zh": "所以这意味着用同样的算力，我们可以做多得多的 100 万 token 训练，或者 200 万 token 训练之类的。"
+ },
+ {
+  "seg": 118,
+  "start": 872.075,
+  "end": 879.981,
+  "speaker": "Unknown",
+  "en": "And so this enables us to introduce a lot of problems that models have yet to be trained on robustly.",
+  "zh": "这使我们能够引入很多模型至今还没有被稳健训练过的问题。"
+ },
+ {
+  "seg": 119,
+  "start": 881.53,
+  "end": 896.9,
+  "speaker": "Unknown",
+  "en": "The reality is, is we're training on a lot of data that hasn't been including in training to date and introducing capabilities that have yet to be introduced into the models to date because we have this mathematical efficiency differential that just makes the math of doing this training so much different.",
+  "zh": "现实是，我们正在训练的大量数据至今还没有被纳入过训练，并引入至今还没有被引入模型的能力，因为我们有这种数学上的效率差异，这让做这种训练的数学逻辑完全不同了。"
+ },
+ {
+  "seg": 120,
+  "start": 896.94,
+  "end": 903.064,
+  "speaker": "Unknown",
+  "en": "Just because my audience isn't all ML engineers.",
+  "zh": "只是因为我的听众不全是 ML 工程师。"
+ },
+ {
+  "seg": 121,
+  "start": 905.13,
+  "end": 920.642,
+  "speaker": "Unknown",
+  "en": "So the model, you use sparse attention, and how does the model decide what tokens to pay attention to?",
+  "zh": "那么这个模型，你用稀疏注意力，模型是怎么决定要关注哪些 token 的？"
+ },
+ {
+  "seg": 122,
+  "start": 920.662,
+  "end": 934.133,
+  "speaker": "Unknown",
+  "en": "I mean, you were saying that DeepSeq has a separate model that does that prediction, but can you go into how your models with these large context windows then can decide",
+  "zh": "我是说，你刚才说 DeepSeq 有一个单独的模型来做那个预测，但你能不能深入讲讲你们这些拥有大上下文窗口的模型是如何决定"
+ },
+ {
+  "seg": 123,
+  "start": 935.7,
+  "end": 938.101,
+  "speaker": "Unknown",
+  "en": "Which tokens to focus on?",
+  "zh": "要关注哪些 token 的？"
+ },
+ {
+  "seg": 124,
+  "start": 938.201,
+  "end": 939.121,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 125,
+  "start": 939.161,
+  "end": 943.762,
+  "speaker": "Unknown",
+  "en": "I mean, that's the highly proprietary part that we have.",
+  "zh": "嗯，那是我们高度专有的部分。"
+ },
+ {
+  "seg": 126,
+  "start": 946.443,
+  "end": 961.947,
+  "speaker": "Unknown",
+  "en": "But I would say, I guess I could say we creatively use some early information on the inputs in a way that doesn't create all-to-all comparisons.",
+  "zh": "但我想说，大概可以说，我们创造性地利用了输入的一些早期信息，而且是以一种不会产生全对全比较的方式。"
+ },
+ {
+  "seg": 127,
+  "start": 964.266,
+  "end": 969.529,
+  "speaker": "Unknown",
+  "en": "Which is very high level, but I feel that going deeper than that leaves a lot of breadcrumbs.",
+  "zh": "这是非常高层次的描述，但我觉得再往深讲会留下太多线索。"
+ },
+ {
+  "seg": 128,
+  "start": 970.79,
+  "end": 985.2,
+  "speaker": "Unknown",
+  "en": "One thing I wanted to ask you, and we've spoken a couple of times, but does this, is this the end of RAG then, of having a vector database that the model searches?",
+  "zh": "有件事我想问你，我们已经聊过几次了，那么这是不是就意味着 RAG 的终结了呢？就是模型去搜索的向量数据库那种？"
+ },
+ {
+  "seg": 129,
+  "start": 985.22,
+  "end": 989.763,
+  "speaker": "Unknown",
+  "en": "I mean, could you, if you could put everything that's in your",
+  "zh": "我是说，你能不能，如果你能把所有的"
+ },
+ {
+  "seg": 130,
+  "start": 991.925,
+  "end": 1001.869,
+  "speaker": "Unknown",
+  "en": "your RAG knowledge base into the context window, you wouldn't need that more complicated architecture.",
+  "zh": "你的 RAG 知识库里的东西都放进上下文窗口，你就不需要那个更复杂的架构了。"
+ },
+ {
+  "seg": 131,
+  "start": 1001.929,
+  "end": 1002.529,
+  "speaker": "Unknown",
+  "en": "Is that right?",
+  "zh": "是这样吗？"
+ },
+ {
+  "seg": 132,
+  "start": 1003.85,
+  "end": 1005.13,
+  "speaker": "Unknown",
+  "en": "Yeah, it is.",
+  "zh": "是的，是这样。"
+ },
+ {
+  "seg": 133,
+  "start": 1005.19,
+  "end": 1008.232,
+  "speaker": "Unknown",
+  "en": "Although I wouldn't say it's the end of RAG, just because it's too extreme.",
+  "zh": "不过我不会说这是 RAG 的终结，只是因为那太极端了。"
+ },
+ {
+  "seg": 134,
+  "start": 1008.872,
+  "end": 1011.573,
+  "speaker": "Unknown",
+  "en": "So the way...",
+  "zh": "所以方式是……"
+ },
+ {
+  "seg": 135,
+  "start": 1013.497,
+  "end": 1014.458,
+  "speaker": "Unknown",
+  "en": "It changes RAG.",
+  "zh": "它改变了 RAG。"
+ },
+ {
+  "seg": 136,
+  "start": 1014.959,
+  "end": 1022.645,
+  "speaker": "Unknown",
+  "en": "What we're looking to do is simplify the way that people build products with RAG or, you know, agentic workflows.",
+  "zh": "我们想做的是简化人们用 RAG 或者智能体工作流构建产品的方式。"
+ },
+ {
+  "seg": 137,
+  "start": 1026.729,
+  "end": 1032.534,
+  "speaker": "Unknown",
+  "en": "Examples are today a lot of documents are chunks that don't necessarily need to be chunked.",
+  "zh": "举个例子，现在很多文档被切成了 chunk，但其实不一定需要切块。"
+ },
+ {
+  "seg": 138,
+  "start": 1032.975,
+  "end": 1035.897,
+  "speaker": "Unknown",
+  "en": "The chunk sizes are very small.",
+  "zh": "chunk 的大小非常小。"
+ },
+ {
+  "seg": 139,
+  "start": 1036.078,
+  "end": 1037.939,
+  "speaker": "Unknown",
+  "en": "Every 400 tokens is like super common.",
+  "zh": "每 400 个 token 一块是非常常见的。"
+ },
+ {
+  "seg": 140,
+  "start": 1038.9,
+  "end": 1039.08,
+  "speaker": "Unknown",
+  "en": "And",
+  "zh": "而且"
+ },
+ {
+  "seg": 141,
+  "start": 1040.445,
+  "end": 1044.747,
+  "speaker": "Unknown",
+  "en": "They're like, what if you could have a multi-page, multi-section chunk instead?",
+  "zh": "他们会说，如果用一个跨多页、跨多个章节的 chunk 来代替呢？"
+ },
+ {
+  "seg": 142,
+  "start": 1044.767,
+  "end": 1050.711,
+  "speaker": "Unknown",
+  "en": "There would be a lot more contiguous context that would prevent misunderstandings.",
+  "zh": "那样会有多得多的连续上下文，可以避免误解。"
+ },
+ {
+  "seg": 143,
+  "start": 1051.951,
+  "end": 1055.753,
+  "speaker": "Unknown",
+  "en": "Top K of 10 for the top 10 search results is very common.",
+  "zh": "Top K 取 10、也就是前 10 个搜索结果是非常常见的。"
+ },
+ {
+  "seg": 144,
+  "start": 1055.793,
+  "end": 1056.914,
+  "speaker": "Unknown",
+  "en": "Well, what if you could pull the top 50?",
+  "zh": "那如果你能取前 50 个呢？"
+ },
+ {
+  "seg": 145,
+  "start": 1059.887,
+  "end": 1069.35,
+  "speaker": "Unknown",
+  "en": "What if instead of doing one type of search, you actually did like 20 parallel searches and dumped all of those search results into the context window?",
+  "zh": "如果你不只做一种搜索，而是同时做 20 个并行搜索，然后把所有搜索结果都倒进上下文窗口呢？"
+ },
+ {
+  "seg": 146,
+  "start": 1070.07,
+  "end": 1076.552,
+  "speaker": "Unknown",
+  "en": "These are ways in which I think we can enable people to make RAG a lot more robust.",
+  "zh": "我认为这些就是我们能让人把 RAG 做得稳健得多的方式。"
+ },
+ {
+  "seg": 147,
+  "start": 1077.053,
+  "end": 1082.654,
+  "speaker": "Unknown",
+  "en": "If you have 400 million tokens, there still needs to be some way for the model to process that data.",
+  "zh": "如果你有 4 亿个 token，仍然需要某种方式让模型处理那些数据。"
+ },
+ {
+  "seg": 148,
+  "start": 1084.515,
+  "end": 1088.138,
+  "speaker": "Unknown",
+  "en": "We're saying like don't compress everything into 100,000 tokens or less.",
+  "zh": "我们说的是，不要把所有东西压缩到 10 万 token 以内。"
+ },
+ {
+  "seg": 149,
+  "start": 1089.499,
+  "end": 1096.784,
+  "speaker": "Unknown",
+  "en": "You can now afford to because of cost and latency and then also the intelligence and absolute budget of context.",
+  "zh": "因为成本和延迟，以及上下文的智能水平和绝对预算，你现在可以负担得起了。"
+ },
+ {
+  "seg": 150,
+  "start": 1097.804,
+  "end": 1104.129,
+  "speaker": "Unknown",
+  "en": "You can now pull a lot more context and do a lot more work with every single step in your agent workflow.",
+  "zh": "你现在可以在智能体工作流的每一步中拉取多得多的上下文，并完成多得多的工作。"
+ },
+ {
+  "seg": 151,
+  "start": 1105.056,
+  "end": 1114.329,
+  "speaker": "Unknown",
+  "en": "Like I mentioned before, if we're talking about coding problems, Opus 4.6 required an average of 66 steps to tackle C-Bunch Pro problems.",
+  "zh": "就像我之前提到的，如果我们谈论的是编码问题，Opus 4.6 解决 C-Bunch Pro 问题平均需要 66 步。"
+ },
+ {
+  "seg": 152,
+  "start": 1117.333,
+  "end": 1136.347,
+  "speaker": "Unknown",
+  "en": "And if we assume that we only needed like the last 10%, then we could have gotten away with like six or seven steps if we had been able to do, if we'd been able to just put all the code in the context window, or even if we took like three or four steps to figure out which parts of the code base are more important, being more aggressive with the context in each step.",
+  "zh": "而如果我们假设只需要最后大约 10%，那么如果我们能够——如果我们能够直接把所有代码放进上下文窗口，或者哪怕我们花大约三四步来弄清楚代码库中哪些部分更重要、每一步在上下文上更激进一些——那么我们可能只需要六七步就搞定了。"
+ },
+ {
+  "seg": 153,
+  "start": 1138.288,
+  "end": 1147.952,
+  "speaker": "Unknown",
+  "en": "I mean, that is a much faster, much more efficient process that actually uses fewer tokens in aggregate, so it's more token efficient.",
+  "zh": "我的意思是，这是一个快得多、高效得多的流程，总体上实际使用的 token 更少，所以它的 token 效率更高。"
+ },
+ {
+  "seg": 154,
+  "start": 1148.853,
+  "end": 1152.574,
+  "speaker": "Unknown",
+  "en": "And then it's not going to miss the details.",
+  "zh": "而且它不会漏掉细节。"
+ },
+ {
+  "seg": 155,
+  "start": 1153.815,
+  "end": 1160.278,
+  "speaker": "Unknown",
+  "en": "We do hear complaints about coding agents missing details and definitely on the longer horizon.",
+  "zh": "我们确实听到关于编码智能体漏掉细节的抱怨，尤其是在较长的视野上。"
+ },
+ {
+  "seg": 156,
+  "start": 1161.739,
+  "end": 1164.26,
+  "speaker": "Unknown",
+  "en": "So not the end of RAG, but the...",
+  "zh": "所以这不是 RAG 的终结，而是……"
+ },
+ {
+  "seg": 157,
+  "start": 1165.78,
+  "end": 1170.263,
+  "speaker": "Unknown",
+  "en": "A transformation of RAC as we know it.",
+  "zh": "是我们已知 RAC 的一种转变。"
+ },
+ {
+  "seg": 158,
+  "start": 1171.605,
+  "end": 1177.21,
+  "speaker": "Unknown",
+  "en": "And you talked about doing multi-million token pre-training rather than just post-training.",
+  "zh": "而且你谈到做数百万 token 的预训练，而不仅仅是后训练。"
+ },
+ {
+  "seg": 159,
+  "start": 1178.911,
+  "end": 1185.297,
+  "speaker": "Unknown",
+  "en": "Can you walk us through how that works and how that changes the model's behavior and practice?",
+  "zh": "你能带我们了解一下这是如何运作的，以及它如何改变模型的行为和实践吗？"
+ },
+ {
+  "seg": 160,
+  "start": 1188.367,
+  "end": 1188.748,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 161,
+  "start": 1188.768,
+  "end": 1199.142,
+  "speaker": "Unknown",
+  "en": "So pre-training is the stage of training where you give the model its core knowledge and to some extent, some core capabilities.",
+  "zh": "预训练是训练的一个阶段，在这个阶段你给模型核心知识，以及在某种程度上的一些核心能力。"
+ },
+ {
+  "seg": 162,
+  "start": 1201.908,
+  "end": 1203.108,
+  "speaker": "Unknown",
+  "en": "But it's very knowledge-focused.",
+  "zh": "但它非常以知识为中心。"
+ },
+ {
+  "seg": 163,
+  "start": 1203.288,
+  "end": 1207.73,
+  "speaker": "Unknown",
+  "en": "And so the pre-training simply means you predict the next token over and over again.",
+  "zh": "所以预训练很简单，就是一遍又一遍地预测下一个 token。"
+ },
+ {
+  "seg": 164,
+  "start": 1208.61,
+  "end": 1216.913,
+  "speaker": "Unknown",
+  "en": "And then the model gets penalized based off of how often that next token matches the actual next token in a corpus.",
+  "zh": "然后模型会根据预测的下一个 token 与语料库中实际下一个 token 匹配的频率受到奖励或惩罚。"
+ },
+ {
+  "seg": 165,
+  "start": 1217.533,
+  "end": 1221.355,
+  "speaker": "Unknown",
+  "en": "So it's crude and rudimentary, but it's also highly scalable.",
+  "zh": "所以它很粗糙、很初级，但也具有高度的可扩展性。"
+ },
+ {
+  "seg": 166,
+  "start": 1222.135,
+  "end": 1230.698,
+  "speaker": "Unknown",
+  "en": "And it's largely seen as a requirement to extract additional capabilities in the post-training phase.",
+  "zh": "而且它在很大程度上被视为在后训练阶段提取额外能力的一个前提条件。"
+ },
+ {
+  "seg": 167,
+  "start": 1231.69,
+  "end": 1243.973,
+  "speaker": "Unknown",
+  "en": "And so research has largely suggested that your ability to create value in the post-training phase is limited by the pre-training that you've done.",
+  "zh": "研究在很大程度上表明，你在后训练阶段创造价值的能力受限于你所做过的预训练。"
+ },
+ {
+  "seg": 168,
+  "start": 1244.194,
+  "end": 1250.375,
+  "speaker": "Unknown",
+  "en": "So if you haven't, for example, done a lot of pre-training on code, then you're going to struggle to post-train a model to be really good at code.",
+  "zh": "所以举例来说，如果你没有在代码上做大量预训练，那么你将很难通过后训练把一个模型训练得非常擅长代码。"
+ },
+ {
+  "seg": 169,
+  "start": 1251.716,
+  "end": 1251.916,
+  "speaker": "Unknown",
+  "en": "And so",
+  "zh": "所以"
+ },
+ {
+  "seg": 170,
+  "start": 1253.583,
+  "end": 1262.688,
+  "speaker": "Unknown",
+  "en": "That's why it's important that we've done this multi-million token pre-training because it means that when we get to post-training, there's already a certain amount of that knowledge there.",
+  "zh": "这就是我们做了这个数百万 token 预训练很重要的原因，因为这意味着当我们进入后训练阶段时，那里已经有了一定数量的这类知识。"
+ },
+ {
+  "seg": 171,
+  "start": 1262.728,
+  "end": 1264.308,
+  "speaker": "Unknown",
+  "en": "There's a good foundation to build on.",
+  "zh": "有一个好的基础可以构建。"
+ },
+ {
+  "seg": 172,
+  "start": 1264.809,
+  "end": 1267.47,
+  "speaker": "Unknown",
+  "en": "And in post-training, we can extrapolate even further.",
+  "zh": "而在后训练中，我们可以进一步外推。"
+ },
+ {
+  "seg": 173,
+  "start": 1267.65,
+  "end": 1272.313,
+  "speaker": "Unknown",
+  "en": "And in fact, this is something we showed in our technical report for our sub-Q 1.1 small model.",
+  "zh": "事实上，这是我们在 sub-Q 1.1 小模型的技术报告中所展示的东西。"
+ },
+ {
+  "seg": 174,
+  "start": 1274.294,
+  "end": 1282.618,
+  "speaker": "Unknown",
+  "en": "We actually have a model variant where we pre-trained the model with one million token inputs up to one million, but a lot of one million token pre-training.",
+  "zh": "我们实际上有一个模型变体，我们用一百万 token 的输入对模型进行了预训练，最高到一百万，但做了大量一百万 token 的预训练。"
+ },
+ {
+  "seg": 175,
+  "start": 1283.238,
+  "end": 1303.35,
+  "speaker": "Unknown",
+  "en": "And we show that that 1 million token pre-training made it so that when we did post-training, largely also only up to 1 million tokens, that the model is able to extrapolate how to do retrieval-style problems up to 12 million tokens without ever seeing anything in post-training over a million tokens.",
+  "zh": "我们展示了那一百万 token 的预训练使得当我们进行后训练时——主要也只到一百万 token——模型能够外推出如何做检索类问题，一直到一千二百万 token，而在后训练中从未见过任何超过一百万 token 的东西。"
+ },
+ {
+  "seg": 176,
+  "start": 1303.83,
+  "end": 1306.392,
+  "speaker": "Unknown",
+  "en": "So that's the power of pre-training.",
+  "zh": "所以这就是预训练的力量。"
+ },
+ {
+  "seg": 177,
+  "start": 1306.512,
+  "end": 1311.755,
+  "speaker": "Unknown",
+  "en": "It enables the model to extrapolate much further than if it's seeing stuff for the first time in post-training.",
+  "zh": "它使模型能够外推到比在后训练中第一次接触这些东西时远得多的程度。"
+ },
+ {
+  "seg": 178,
+  "start": 1313.29,
+  "end": 1314.551,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 179,
+  "start": 1316.093,
+  "end": 1325.262,
+  "speaker": "Unknown",
+  "en": "A lot of people right now, particularly with Mythos and Fable out now from Anthropic and GLM 5.2 from",
+  "zh": "现在有很多人，特别是在 Mythos 和 Anthropic 刚推出的 Fable 以及 GLM 5.2 出来之后——"
+ },
+ {
+  "seg": 180,
+  "start": 1328.675,
+  "end": 1330.055,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 181,
+  "start": 1330.215,
+  "end": 1331.056,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 182,
+  "start": 1332.076,
+  "end": 1342.099,
+  "speaker": "Unknown",
+  "en": "Many people worry about large context models making it easier to find vulnerabilities in code bases.",
+  "zh": "很多人担心大上下文模型会更容易在代码库中发现漏洞。"
+ },
+ {
+  "seg": 183,
+  "start": 1342.819,
+  "end": 1352.742,
+  "speaker": "Unknown",
+  "en": "How do you view that in both offensive and defensive cybersecurity use cases?",
+  "zh": "你如何看待它在进攻性和防御性网络安全用例中的表现？"
+ },
+ {
+  "seg": 184,
+  "start": 1353.862,
+  "end": 1354.102,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 185,
+  "start": 1355.542,
+  "end": 1365.726,
+  "speaker": "Unknown",
+  "en": "I do think that long context windows, long context reasoning capability does help with finding vulnerabilities in code bases, but that's different than finding vulnerabilities in products.",
+  "zh": "我确实认为长上下文窗口、长上下文推理能力确实有助于发现代码库中的漏洞，但这与发现产品中的漏洞是不同的。"
+ },
+ {
+  "seg": 186,
+  "start": 1367.107,
+  "end": 1371.649,
+  "speaker": "Unknown",
+  "en": "So finding vulnerabilities in code bases enables you to be more defensive.",
+  "zh": "发现代码库中的漏洞使你能够更具防御性。"
+ },
+ {
+  "seg": 187,
+  "start": 1372.429,
+  "end": 1377.912,
+  "speaker": "Unknown",
+  "en": "Finding vulnerabilities in products puts your product at risk.",
+  "zh": "而发现产品中的漏洞会让你的产品面临风险。"
+ },
+ {
+  "seg": 188,
+  "start": 1377.992,
+  "end": 1379.332,
+  "speaker": "Unknown",
+  "en": "So two very different things.",
+  "zh": "所以这是两件非常不同的事情。"
+ },
+ {
+  "seg": 189,
+  "start": 1381.509,
+  "end": 1394.995,
+  "speaker": "Unknown",
+  "en": "In our case, if you already have all the code in the code base, being able to reason over a lot more of it at once enables you to find vulnerabilities much faster and also find vulnerabilities you would not have been able to find otherwise.",
+  "zh": "在我们的情况下，如果你已经拥有代码库中的所有代码，能够一次对其中多得多的部分进行推理，使你能够更快地发现漏洞，也能发现你原本无法发现的漏洞。"
+ },
+ {
+  "seg": 190,
+  "start": 1396.276,
+  "end": 1402.679,
+  "speaker": "Unknown",
+  "en": "And so we see that as something that's really valuable for people being able to make their products safer and more robust.",
+  "zh": "所以我们认为这对于人们能够使其产品更安全、更稳健来说是非常有价值的。"
+ },
+ {
+  "seg": 191,
+  "start": 1403.239,
+  "end": 1409.702,
+  "speaker": "Unknown",
+  "en": "That is, some of our design partnerships have leaned in that direction.",
+  "zh": "也就是说，我们的一些设计合作伙伴已经朝这个方向倾斜了。"
+ },
+ {
+  "seg": 192,
+  "start": 1412.41,
+  "end": 1430.037,
+  "speaker": "Unknown",
+  "en": "I don't think that long-conducts reasoning specifically provides nearly as much an advantage for being able to find the holes in a product from the outside because it's more about iterative tests.",
+  "zh": "我不认为长上下文推理 specifically 能为从外部发现产品的漏洞提供近乎同样多的优势，因为它更多是关于迭代测试。"
+ },
+ {
+  "seg": 193,
+  "start": 1430.817,
+  "end": 1437.04,
+  "speaker": "Unknown",
+  "en": "The context requirement is not necessarily significant, but the way this works is",
+  "zh": "上下文需求不一定很大，但其工作原理是这样的："
+ },
+ {
+  "seg": 194,
+  "start": 1438.87,
+  "end": 1442.615,
+  "speaker": "Unknown",
+  "en": "Software is built layer upon layer of abstraction.",
+  "zh": "软件是层层抽象构建起来的。"
+ },
+ {
+  "seg": 195,
+  "start": 1443.036,
+  "end": 1443.416,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 196,
+  "start": 1446.94,
+  "end": 1455.647,
+  "speaker": "Unknown",
+  "en": "You know, they're probably like 20 layers of different code components underneath the code that you're writing at any given time.",
+  "zh": "你知道的，在你任何时候正在编写的代码下面，可能有大约 20 层不同的代码组件。"
+ },
+ {
+  "seg": 197,
+  "start": 1456.627,
+  "end": 1463.553,
+  "speaker": "Unknown",
+  "en": "And so if I'm trying to hack your product, I'm trying to guess which open...",
+  "zh": "所以如果我想黑你的产品，我就在猜你用了哪些开源——"
+ },
+ {
+  "seg": 198,
+  "start": 1463.773,
+  "end": 1466.035,
+  "speaker": "Unknown",
+  "en": "I mean, there are other things too, but this is a big part of it.",
+  "zh": "我是说，还有其他方面，但这是很大的一部分。"
+ },
+ {
+  "seg": 199,
+  "start": 1466.595,
+  "end": 1470.678,
+  "speaker": "Unknown",
+  "en": "I'm trying to guess which open source software you've built on top of.",
+  "zh": "我在猜你是在哪些开源软件之上构建的。"
+ },
+ {
+  "seg": 200,
+  "start": 1471.439,
+  "end": 1475.402,
+  "speaker": "Unknown",
+  "en": "And these open source softwares have known vulnerabilities.",
+  "zh": "而且这些开源软件有已知的漏洞。"
+ },
+ {
+  "seg": 201,
+  "start": 1476.122,
+  "end": 1485.169,
+  "speaker": "Unknown",
+  "en": "And so I'm testing to see if any of those known vulnerabilities exist in your software.",
+  "zh": "所以我是在测试，看你的软件里是否存在那些已知漏洞。"
+ },
+ {
+  "seg": 202,
+  "start": 1485.509,
+  "end": 1487.611,
+  "speaker": "Unknown",
+  "en": "So it's not really a long context reasoning problem.",
+  "zh": "所以这其实不算一个长上下文推理问题。"
+ },
+ {
+  "seg": 203,
+  "start": 1488.171,
+  "end": 1491.674,
+  "speaker": "Unknown",
+  "en": "To be honest, I think more than anything, it's actually a knowledge problem.",
+  "zh": "老实说，我觉得它首先其实是一个知识问题。"
+ },
+ {
+  "seg": 204,
+  "start": 1492.374,
+  "end": 1497.258,
+  "speaker": "Unknown",
+  "en": "It's an existing knowledge of all the existing vulnerabilities.",
+  "zh": "就是对所有现存漏洞的既有知识。"
+ },
+ {
+  "seg": 205,
+  "start": 1497.298,
+  "end": 1499.12,
+  "speaker": "Unknown",
+  "en": "And that's why you've actually seen that people can",
+  "zh": "这也是为什么你实际上已经看到，人们可以让开源权重模型具备 Mythos 级别的黑客能力，因为模型需要专门知道——老实说——有时候导致大部分威胁的漏洞数量比某些人意识到的要少，因为所有人都在大量相同的软件组件之上构建。"
+ },
+ {
+  "seg": 206,
+  "start": 1499.86,
+  "end": 1522.027,
+  "speaker": "Unknown",
+  "en": "can get open weight models to have mythos-level capabilities for hacking because the model needs to specifically know, to be honest, sometimes the number of vulnerabilities that lead to most of the threat, it's lesser than some people realize because everybody builds on a lot of the same software components.",
+  "zh": "可以让开放权重模型拥有神话级别的黑客攻击能力，因为模型需要专门知道，老实说，有时导致大部分威胁的漏洞数量比一些人意识到的要少，因为所有人都在大量相同的软件组件之上构建。"
+ },
+ {
+  "seg": 207,
+  "start": 1523.633,
+  "end": 1547.372,
+  "speaker": "Unknown",
+  "en": "Yeah, but couldn't this, I mean, to find those, well, you said they're known vulnerabilities in open source code bases, but with Mythos or, you know, or, I mean, with your model that can handle massive contexts, couldn't you then just",
+  "zh": "是的，但这不是……我是说，要找到那些——好吧，你说过它们是开源代码库中的已知漏洞，但用 Mythos，或者你知道的，我是说，用你们能处理海量上下文的模型，难道不能就直接……"
+ },
+ {
+  "seg": 208,
+  "start": 1548.587,
+  "end": 1564.7,
+  "speaker": "Unknown",
+  "en": "All the various foundations that are managing open source code bases, they could just dump it all into your model and discover vulnerabilities that maybe they weren't aware of, patch them.",
+  "zh": "所有那些管理开源代码库的基金会，它们可以把所有东西都倒进你们的模型里，发现它们可能没意识到的漏洞，打上补丁。"
+ },
+ {
+  "seg": 209,
+  "start": 1564.72,
+  "end": 1568.604,
+  "speaker": "Unknown",
+  "en": "I mean, isn't it advantageous for...",
+  "zh": "我是说，这对……难道不是有利的吗？"
+ },
+ {
+  "seg": 210,
+  "start": 1570.465,
+  "end": 1584.492,
+  "speaker": "Unknown",
+  "en": "for the open source community to have solved the context compute complexity problem so they can scan large code bases and fix vulnerabilities.",
+  "zh": "对开源社区来说，把上下文计算复杂度问题解决了，就可以扫描大型代码库并修复漏洞。"
+ },
+ {
+  "seg": 211,
+  "start": 1585.807,
+  "end": 1586.989,
+  "speaker": "Unknown",
+  "en": "Yeah, I think that's a great point.",
+  "zh": "是的，我觉得这是个很好的观点。"
+ },
+ {
+  "seg": 212,
+  "start": 1587.289,
+  "end": 1602.507,
+  "speaker": "Unknown",
+  "en": "I think partnering with open source communities to find and fix vulnerabilities faster and finding and fix the vulnerabilities that have just been there for a long time where speed isn't the issue, it's the breadth of perspective that's the issue.",
+  "zh": "我觉得与开源社区合作来更快地发现和修复漏洞，去发现和修复那些存在了很久的、问题不在速度而在于视角广度的漏洞。"
+ },
+ {
+  "seg": 213,
+  "start": 1603.428,
+  "end": 1605.831,
+  "speaker": "Unknown",
+  "en": "That'd be a great use case that I'd love to work with folks on.",
+  "zh": "那会是一个很棒的用例，我很愿意和大家一起做。"
+ },
+ {
+  "seg": 214,
+  "start": 1607.657,
+  "end": 1610.818,
+  "speaker": "Unknown",
+  "en": "Yeah, you've mentioned design partners a couple of times.",
+  "zh": "是的，你提到过几次设计合作伙伴。"
+ },
+ {
+  "seg": 215,
+  "start": 1613.498,
+  "end": 1620.5,
+  "speaker": "Unknown",
+  "en": "What are the most compelling early design partner use cases you're seeing for a large context?",
+  "zh": "你看到的针对大上下文的最有吸引力的早期设计合作伙伴用例是什么？"
+ },
+ {
+  "seg": 216,
+  "start": 1621.58,
+  "end": 1625.24,
+  "speaker": "Unknown",
+  "en": "Is it finance, code, internal documents?",
+  "zh": "是金融、代码、内部文档吗？"
+ },
+ {
+  "seg": 217,
+  "start": 1626.841,
+  "end": 1632.982,
+  "speaker": "Unknown",
+  "en": "So unstructured document processing and analysis is like",
+  "zh": "非结构化文档处理和分析是……"
+ },
+ {
+  "seg": 218,
+  "start": 1634.317,
+  "end": 1639.021,
+  "speaker": "Unknown",
+  "en": "The number one right now, and the number two is knowledge-based products.",
+  "zh": "目前的第一名，第二名是知识型产品。"
+ },
+ {
+  "seg": 219,
+  "start": 1639.701,
+  "end": 1651.971,
+  "speaker": "Unknown",
+  "en": "Within those two categories, finance has emerged as a really important one, just because companies working in the finance space are building such data-intensive applications.",
+  "zh": "在这两个类别里，金融已经成为一个非常重要的类别，因为在金融领域工作的公司在构建数据密集型的应用。"
+ },
+ {
+  "seg": 220,
+  "start": 1651.991,
+  "end": 1653.092,
+  "speaker": "Unknown",
+  "en": "They're processing so much data.",
+  "zh": "他们在处理非常多的数据。"
+ },
+ {
+  "seg": 221,
+  "start": 1653.132,
+  "end": 1660.478,
+  "speaker": "Unknown",
+  "en": "That's kind of like the core criteria for whether a design partner or early access user is a good fit for us right now is how data-intensive is their application.",
+  "zh": "这就是判断一个设计合作伙伴或早期访问用户目前是否适合我们的核心标准——他们的应用有多数据密集。"
+ },
+ {
+  "seg": 222,
+  "start": 1660.518,
+  "end": 1662.759,
+  "speaker": "Unknown",
+  "en": "So finance is a...",
+  "zh": "所以金融是一个……"
+ },
+ {
+  "seg": 223,
+  "start": 1663.5,
+  "end": 1664.641,
+  "speaker": "Unknown",
+  "en": "A really big one for us.",
+  "zh": "对我们来说非常大的一个领域。"
+ },
+ {
+  "seg": 224,
+  "start": 1665.721,
+  "end": 1668.022,
+  "speaker": "Unknown",
+  "en": "We have had a lot of interest on the coding side.",
+  "zh": "我们在编码方面也获得了很多兴趣。"
+ },
+ {
+  "seg": 225,
+  "start": 1669.123,
+  "end": 1683.59,
+  "speaker": "Unknown",
+  "en": "We are intentionally moving a little bit more slowly on the coding side because we've kind of realized like how much coding is like a budget game, like how much data budget do you have?",
+  "zh": "我们在编码方面有意走得慢一些，因为我们已经意识到编码在多大程度上是一场预算游戏——你有多少数据预算？"
+ },
+ {
+  "seg": 226,
+  "start": 1684.891,
+  "end": 1686.572,
+  "speaker": "Unknown",
+  "en": "How much label data can you train on?",
+  "zh": "你能用多少有标注的数据来训练？"
+ },
+ {
+  "seg": 227,
+  "start": 1687.372,
+  "end": 1687.932,
+  "speaker": "Unknown",
+  "en": "And so",
+  "zh": "所以……"
+ },
+ {
+  "seg": 228,
+  "start": 1689.424,
+  "end": 1694.929,
+  "speaker": "Unknown",
+  "en": "That's an area that we're really interested in and are working on, but with a bit of a longer time horizon.",
+  "zh": "那是我们非常感兴趣并且在做的领域，但时间跨度更长一些。"
+ },
+ {
+  "seg": 229,
+  "start": 1695.73,
+  "end": 1708.262,
+  "speaker": "Unknown",
+  "en": "And then beyond that, it's like general enterprise document processing for knowledge bases and unstructured inside extraction.",
+  "zh": "再往后，就是面向知识库的通用企业文档处理和非结构化信息抽取。"
+ },
+ {
+  "seg": 230,
+  "start": 1708.962,
+  "end": 1711.044,
+  "speaker": "Unknown",
+  "en": "Those are the main use cases that we're seeing.",
+  "zh": "这些是我们看到的主要用例。"
+ },
+ {
+  "seg": 231,
+  "start": 1713.719,
+  "end": 1720.695,
+  "speaker": "Unknown",
+  "en": "One thing that's great for us is that I think unstructured document processing and knowledge-based products are in pretty much every enterprise out there.",
+  "zh": "对我们来说很好的一点是，我认为非结构化文档处理和知识型产品几乎存在于每一家企业中。"
+ },
+ {
+  "seg": 232,
+  "start": 1722.87,
+  "end": 1733.215,
+  "speaker": "Unknown",
+  "en": "And we're also saying that because we can work with data that is less structured and we can process more data at once, it becomes a lot easier for an enterprise to get their first value from data.",
+  "zh": "我们还发现，因为我们能处理结构化程度更低的数据，并且能一次处理更多数据，企业从数据中获得第一个价值就变得容易得多。"
+ },
+ {
+  "seg": 233,
+  "start": 1733.275,
+  "end": 1746.881,
+  "speaker": "Unknown",
+  "en": "So we have all these enterprises that are sitting on massive amounts of data, and a lot of that data has yet to be put to use in an AI product, or maybe it has, but in a very limited fashion.",
+  "zh": "所以我们有这些坐拥海量数据的企业，其中很多数据尚未被用于 AI 产品，或者用过，但方式非常有限。"
+ },
+ {
+  "seg": 234,
+  "start": 1749.333,
+  "end": 1756.358,
+  "speaker": "Unknown",
+  "en": "They're getting pushed to do like a $10 million data transformation project before they could even start to build a product on top.",
+  "zh": "他们被要求先做一个比如 1000 万美元的数据转换项目，然后才能开始在之上构建产品。"
+ },
+ {
+  "seg": 235,
+  "start": 1757.219,
+  "end": 1761.242,
+  "speaker": "Unknown",
+  "en": "And a value prop that we bring to the table is...",
+  "zh": "而我们带来的一个价值主张是……"
+ },
+ {
+  "seg": 236,
+  "start": 1762.729,
+  "end": 1765.43,
+  "speaker": "Unknown",
+  "en": "That is no longer necessary, at least not at that level.",
+  "zh": "那不再必要了，至少不需要到那个程度。"
+ },
+ {
+  "seg": 237,
+  "start": 1765.95,
+  "end": 1780.676,
+  "speaker": "Unknown",
+  "en": "We can help you either work with the data with a lot less structure or create the structure a lot faster because of our ability to process a large amount of data at once with a lot less curation.",
+  "zh": "我们可以帮你要么以低得多的结构化程度处理数据，要么快得多地创建结构，因为我们有能力一次处理大量数据，而且所需的数据整理工作少得多。"
+ },
+ {
+  "seg": 238,
+  "start": 1783.337,
+  "end": 1784.218,
+  "speaker": "Unknown",
+  "en": "That's interesting.",
+  "zh": "这很有意思。"
+ },
+ {
+  "seg": 239,
+  "start": 1784.378,
+  "end": 1789.38,
+  "speaker": "Unknown",
+  "en": "And as we move into agents and particularly coding agents,",
+  "zh": "而且随着我们进入智能体，尤其是编码智能体，"
+ },
+ {
+  "seg": 240,
+  "start": 1790.743,
+  "end": 1793.025,
+  "speaker": "Unknown",
+  "en": "Increasingly, which is happening.",
+  "zh": "这种趋势正在越来越多地发生。"
+ },
+ {
+  "seg": 241,
+  "start": 1794.406,
+  "end": 1799.269,
+  "speaker": "Unknown",
+  "en": "Most coding agents use very surgical context management.",
+  "zh": "大多数编码智能体使用非常精准的上下文管理。"
+ },
+ {
+  "seg": 242,
+  "start": 1800.069,
+  "end": 1806.094,
+  "speaker": "Unknown",
+  "en": "I mean, they hop from file to file or section to section.",
+  "zh": "我是说，它们从一个文件跳到另一个文件，或从一个部分跳到另一个部分。"
+ },
+ {
+  "seg": 243,
+  "start": 1808.055,
+  "end": 1816.561,
+  "speaker": "Unknown",
+  "en": "What do you think breaks first when we move to agents that can read everything at once?",
+  "zh": "你觉得当我们转向能一次读取所有内容的智能体时，什么会最先出问题？"
+ },
+ {
+  "seg": 244,
+  "start": 1819.118,
+  "end": 1821.924,
+  "speaker": "Unknown",
+  "en": "Yeah, I think that will, a couple things will happen.",
+  "zh": "是的，我觉得会有几件事发生。"
+ },
+ {
+  "seg": 245,
+  "start": 1824.201,
+  "end": 1843.905,
+  "speaker": "Unknown",
+  "en": "One is we will have systems that can generalize better because every time you add a search engine or a vector database, which is a search engine, or some conditional logic to route between the steps, this human curation really limits the ability of that system to do a lot of different things.",
+  "zh": "一个是我们会有泛化能力更好的系统，因为每当你增加一个搜索引擎或向量数据库（它就是一种搜索引擎），或某种在步骤之间路由的条件逻辑，这种人工整理就真的限制了该系统做很多不同事情的能力。"
+ },
+ {
+  "seg": 246,
+  "start": 1844.705,
+  "end": 1851.707,
+  "speaker": "Unknown",
+  "en": "It makes it so that it works within exactly the scope that you've set it out to be able to achieve.",
+  "zh": "它使得系统只能在你设定的确切范围内工作。"
+ },
+ {
+  "seg": 247,
+  "start": 1857.47,
+  "end": 1861.455,
+  "speaker": "Unknown",
+  "en": "And the more complicated you make it, the more narrow that's going to be.",
+  "zh": "而你把它做得越复杂，范围就会越窄。"
+ },
+ {
+  "seg": 248,
+  "start": 1861.935,
+  "end": 1864.799,
+  "speaker": "Unknown",
+  "en": "So I think we'll see agents that can do a lot more.",
+  "zh": "所以我觉得我们会看到能做更多事情的智能体。"
+ },
+ {
+  "seg": 249,
+  "start": 1864.819,
+  "end": 1871.827,
+  "speaker": "Unknown",
+  "en": "We will also see agents that are a lot faster because if you're doing 10 to 60 steps,",
+  "zh": "我们也会看到快得多的智能体，因为如果你要做 10 到 60 步，"
+ },
+ {
+  "seg": 250,
+  "start": 1874.489,
+  "end": 1875.069,
+  "speaker": "Unknown",
+  "en": "It's pretty slow.",
+  "zh": "它挺慢的。"
+ },
+ {
+  "seg": 251,
+  "start": 1875.73,
+  "end": 1878.331,
+  "speaker": "Unknown",
+  "en": "So I would say agents that are cheaper.",
+  "zh": "所以我会说，智能体会更便宜。"
+ },
+ {
+  "seg": 252,
+  "start": 1880.072,
+  "end": 1889.096,
+  "speaker": "Unknown",
+  "en": "We want a million tokens to feel like 50,000 tokens in terms of intelligence, cost, latency, et cetera, over time.",
+  "zh": "我们希望随着时间的推移，一百万 token 在智能水平、成本、延迟等方面感觉起来像五万 token。"
+ },
+ {
+  "seg": 253,
+  "start": 1891.415,
+  "end": 1901.564,
+  "speaker": "Unknown",
+  "en": "And so I think we'll see people build a lot more too, to be honest, like context engineering step is where the vast majority of human and capital investment is today.",
+  "zh": "所以说实话，我认为我们也会看到人们构建更多的东西，比如上下文工程这一步是今天人力和资本投入的绝大部分所在。"
+ },
+ {
+  "seg": 254,
+  "start": 1902.565,
+  "end": 1910.272,
+  "speaker": "Unknown",
+  "en": "And so if we can get rid of that, then we'll see people like the barrier to entry goes down, people build a lot more things.",
+  "zh": "所以如果我们能去掉那一步，那么进入门槛就会降低，我们会看到人们构建更多的东西。"
+ },
+ {
+  "seg": 255,
+  "start": 1912.274,
+  "end": 1917.118,
+  "speaker": "Unknown",
+  "en": "And when like a single step can do like 10 steps worth of work,",
+  "zh": "而当单步就能完成相当于十步的工作时，"
+ },
+ {
+  "seg": 256,
+  "start": 1918.636,
+  "end": 1921.817,
+  "speaker": "Unknown",
+  "en": "What are those 10 to 60 step workflows going to be able to achieve now?",
+  "zh": "那些十到六十步的工作流现在能达成什么呢？"
+ },
+ {
+  "seg": 257,
+  "start": 1922.118,
+  "end": 1926.239,
+  "speaker": "Unknown",
+  "en": "I mean, it'll be a lot more powerful, a lot longer horizon.",
+  "zh": "我是说，它会强大得多，时间跨度长得多。"
+ },
+ {
+  "seg": 258,
+  "start": 1929.001,
+  "end": 1930.421,
+  "speaker": "Unknown",
+  "en": "I guess that's another point.",
+  "zh": "我想这是另一个要点。"
+ },
+ {
+  "seg": 259,
+  "start": 1934.603,
+  "end": 1936.704,
+  "speaker": "Unknown",
+  "en": "We really care about long horizon agents.",
+  "zh": "我们非常在意长时程智能体。"
+ },
+ {
+  "seg": 260,
+  "start": 1939.579,
+  "end": 1957.896,
+  "speaker": "Unknown",
+  "en": "The ability to manage context, not just through a two-hour session, but across weeks or months of work is something that I think will be critical and will also require much longer context reasoning than we have today.",
+  "zh": "管理上下文的能力，不只是在两小时的会话中，而是跨越数周或数月的工作，我认为这将是关键的，而且还需要比今天长得多的上下文推理能力。"
+ },
+ {
+  "seg": 261,
+  "start": 1959.585,
+  "end": 1962.027,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 262,
+  "start": 1962.128,
+  "end": 1967.513,
+  "speaker": "Unknown",
+  "en": "We didn't go into your background or the founding of the company, and it's interesting.",
+  "zh": "我们还没聊你的背景或公司创立的故事，这挺有意思的。"
+ },
+ {
+  "seg": 263,
+  "start": 1967.553,
+  "end": 1970.976,
+  "speaker": "Unknown",
+  "en": "Can you give us that story?",
+  "zh": "你能给我们讲讲那段经历吗？"
+ },
+ {
+  "seg": 264,
+  "start": 1971.897,
+  "end": 1972.218,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 265,
+  "start": 1972.258,
+  "end": 1972.478,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 266,
+  "start": 1972.518,
+  "end": 1975.301,
+  "speaker": "Unknown",
+  "en": "So, I've been in the AI space for the last 10 years.",
+  "zh": "过去十年我一直在 AI 领域。"
+ },
+ {
+  "seg": 267,
+  "start": 1976.702,
+  "end": 1979.245,
+  "speaker": "Unknown",
+  "en": "Most recently, I was head of Generative AI",
+  "zh": "最近，我担任生成式 AI 负责人"
+ },
+ {
+  "seg": 268,
+  "start": 1980.045,
+  "end": 1984.027,
+  "speaker": "Unknown",
+  "en": "a mid-market and enterprise AI consulting firm called TribeAI.",
+  "zh": "一家名为 TribeAI 的中端市场和企业级 AI 咨询公司。"
+ },
+ {
+  "seg": 269,
+  "start": 1984.567,
+  "end": 1993.63,
+  "speaker": "Unknown",
+  "en": "I did over 40 projects with a series of mid-market and enterprise companies with a medium-sized group of folks underneath me.",
+  "zh": "我带着手下中等规模的团队，为一系列中端市场和企业级公司做了超过 40 个项目。"
+ },
+ {
+  "seg": 270,
+  "start": 1996.742,
+  "end": 2005.072,
+  "speaker": "Unknown",
+  "en": "And that's where I got a really good horizontal view of what generative AI implementation was looking like in 2023 and 2024.",
+  "zh": "正是在那里，我对 2023 年和 2024 年生成式 AI 落地实施的全貌有了非常好的横向视角。"
+ },
+ {
+  "seg": 271,
+  "start": 2005.292,
+  "end": 2017.025,
+  "speaker": "Unknown",
+  "en": "And that's kind of what convinced me that it was overdue to move to another model paradigm, that there were bottlenecks in the enterprise implementation layer that...",
+  "zh": "也正是这一点让我确信，转向另一种模型范式已经刻不容缓，企业落地层存在着瓶颈……"
+ },
+ {
+  "seg": 272,
+  "start": 2018.082,
+  "end": 2026.305,
+  "speaker": "Unknown",
+  "en": "We're going to be painful for a very long time unless we change the actual mathematics behind the foundation models themselves.",
+  "zh": "除非我们改变基础模型本身背后的数学原理，否则这些问题会在很长时间内非常痛苦。"
+ },
+ {
+  "seg": 273,
+  "start": 2026.565,
+  "end": 2032.688,
+  "speaker": "Unknown",
+  "en": "Before that, I was at Instagram working on creator monetization products.",
+  "zh": "在那之前，我在 Instagram 从事创作者变现产品的工作。"
+ },
+ {
+  "seg": 274,
+  "start": 2033.188,
+  "end": 2039.551,
+  "speaker": "Unknown",
+  "en": "Before that, I was at Stitch Fix where I built the first text-based recommendation system.",
+  "zh": "再之前，我在 Stitch Fix，在那里构建了第一个基于文本的推荐系统。"
+ },
+ {
+  "seg": 275,
+  "start": 2040.191,
+  "end": 2047.954,
+  "speaker": "Unknown",
+  "en": "Before that, I was at a research lab where I published some research and built our first production products for our sister companies, Glassdoor and Indeed.",
+  "zh": "再之前，我在一个研究实验室，发表了一些研究，并为我们的姊妹公司 Glassdoor 和 Indeed 构建了我们最早的生产产品。"
+ },
+ {
+  "seg": 276,
+  "start": 2048.815,
+  "end": 2055.058,
+  "speaker": "Unknown",
+  "en": "Before that, I was at Academia.edu where I built some of our first AI products for our 200 million user base.",
+  "zh": "再之前，我在 Academia.edu，为我们两亿用户基数构建了一些我们最早的 AI 产品。"
+ },
+ {
+  "seg": 277,
+  "start": 2055.658,
+  "end": 2058.219,
+  "speaker": "Unknown",
+  "en": "Before that, I did research with the World Bank of Blue Cross Blue Shield.",
+  "zh": "再之前，我为世界银行和 Blue Cross Blue Shield 做过研究。"
+ },
+ {
+  "seg": 278,
+  "start": 2059.159,
+  "end": 2062.461,
+  "speaker": "Unknown",
+  "en": "And so I've done a lot of different things.",
+  "zh": "所以我做过很多不同的事情。"
+ },
+ {
+  "seg": 279,
+  "start": 2062.481,
+  "end": 2064.282,
+  "speaker": "Unknown",
+  "en": "I'm not a domain expert.",
+  "zh": "我不是某个领域的专家。"
+ },
+ {
+  "seg": 280,
+  "start": 2064.862,
+  "end": 2066.883,
+  "speaker": "Unknown",
+  "en": "In fact, that's one of the things I pride myself in is I'm",
+  "zh": "事实上，这正是我引以为豪的一点，我是"
+ },
+ {
+  "seg": 281,
+  "start": 2067.903,
+  "end": 2070.244,
+  "speaker": "Unknown",
+  "en": "I like to look at things from a very horizontal perspective.",
+  "zh": "我喜欢从非常横向的视角看待事物。"
+ },
+ {
+  "seg": 282,
+  "start": 2070.704,
+  "end": 2074.565,
+  "speaker": "Unknown",
+  "en": "What's the key value point that's missing across everything everybody's doing?",
+  "zh": "在所有人正在做的一切事情中，缺失的关键价值点是什么？"
+ },
+ {
+  "seg": 283,
+  "start": 2075.825,
+  "end": 2077.746,
+  "speaker": "Unknown",
+  "en": "And that's really what we're trying to tackle as a company.",
+  "zh": "而这正是我们作为一家公司真正想要解决的。"
+ },
+ {
+  "seg": 284,
+  "start": 2077.786,
+  "end": 2087.189,
+  "speaker": "Unknown",
+  "en": "It's like, how do we take computational memory and sample efficiency and turn that into downstream business value propositions?",
+  "zh": "就像，我们如何把计算记忆和采样效率转化为下游的商业价值主张？"
+ },
+ {
+  "seg": 285,
+  "start": 2087.929,
+  "end": 2090.13,
+  "speaker": "Unknown",
+  "en": "Context is the first one, but there will be many more.",
+  "zh": "上下文是第一个，但未来会有更多。"
+ },
+ {
+  "seg": 286,
+  "start": 2091.25,
+  "end": 2091.51,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 287,
+  "start": 2091.73,
+  "end": 2093.191,
+  "speaker": "Unknown",
+  "en": "Well, and you mentioned memory.",
+  "zh": "嗯，你提到了记忆。"
+ },
+ {
+  "seg": 288,
+  "start": 2093.251,
+  "end": 2094.551,
+  "speaker": "Unknown",
+  "en": "Are you working on memory?",
+  "zh": "你们在做记忆方面的研究吗？"
+ },
+ {
+  "seg": 289,
+  "start": 2095.368,
+  "end": 2095.889,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对的。"
+ },
+ {
+  "seg": 290,
+  "start": 2095.949,
+  "end": 2102.316,
+  "speaker": "Unknown",
+  "en": "So, I mean, we're working on memory within the context of SSA, Subquadrat Express Attention, the thing we talked about publicly.",
+  "zh": "我是说，我们正在 SSA(Subquadrat Express Attention)的框架内研究记忆，就是我们公开谈论过的那个东西。"
+ },
+ {
+  "seg": 291,
+  "start": 2102.736,
+  "end": 2111.746,
+  "speaker": "Unknown",
+  "en": "We're also working on non-attention algorithms, have been for a while, that make it totally necessary to have any form of KVCache.",
+  "zh": "我们也在研究非注意力算法，已经研究了一段时间，它们使得任何形式的 KVCache 完全变得不必要。"
+ },
+ {
+  "seg": 292,
+  "start": 2111.886,
+  "end": 2117.212,
+  "speaker": "Unknown",
+  "en": "KVCache is this massive thing right now where at the multi-million token range,",
+  "zh": "KVCache 现在是个巨大的东西，在数百万 token 的范围内，"
+ },
+ {
+  "seg": 293,
+  "start": 2118.012,
+  "end": 2123.394,
+  "speaker": "Unknown",
+  "en": "Can easily use a lot more memory than the model weights themselves.",
+  "zh": "很容易使用比模型权重本身多得多的内存。"
+ },
+ {
+  "seg": 294,
+  "start": 2123.814,
+  "end": 2134.798,
+  "speaker": "Unknown",
+  "en": "Becomes very hard to host the context without distributing across multiple cloud data center grade GPUs.",
+  "zh": "不跨多块云端数据中心级 GPU 分布，就很难承载这样的上下文。"
+ },
+ {
+  "seg": 295,
+  "start": 2135.118,
+  "end": 2135.658,
+  "speaker": "Unknown",
+  "en": "Makes it...",
+  "zh": "这使得……"
+ },
+ {
+  "seg": 296,
+  "start": 2136.722,
+  "end": 2143.466,
+  "speaker": "Unknown",
+  "en": "Impossible, in my view, to do long-range modeling for robotics on Jets and Orans, which have about as much memory as your phone.",
+  "zh": "在我看来，在 Jets 和 Orans 上做机器人的长程建模变得不可能，而它们的内存和你的手机差不多。"
+ },
+ {
+  "seg": 297,
+  "start": 2144.347,
+  "end": 2156.674,
+  "speaker": "Unknown",
+  "en": "And so we see this as a critical problem to solve for long-context modeling, for general robotics intelligence, and just the ability to create much better frontier models than exist today.",
+  "zh": "所以我们把这个问题视为长上下文建模、通用机器人智能，以及打造出远胜于当今的前沿模型能力的关键问题。"
+ },
+ {
+  "seg": 298,
+  "start": 2159.036,
+  "end": 2172.803,
+  "speaker": "Unknown",
+  "en": "This long context, you mentioned that most enterprises don't even fully use 256K context.",
+  "zh": "关于这个长上下文，你提到大多数企业甚至没有完全用满 256K 上下文。"
+ },
+ {
+  "seg": 299,
+  "start": 2173.923,
+  "end": 2184.749,
+  "speaker": "Unknown",
+  "en": "As you introduce them to multi-million token windows, what are you learning about user preferences and behaviors?",
+  "zh": "当你向他们介绍数百万 token 的窗口时，关于用户偏好和行为，你们学到了什么？"
+ },
+ {
+  "seg": 300,
+  "start": 2186.872,
+  "end": 2194.04,
+  "speaker": "Unknown",
+  "en": "Yeah, that, I mean, that they're not well mapped out and they can vary.",
+  "zh": "是的，我是说，它们没有被很好地梳理清楚，而且可能各不相同。"
+ },
+ {
+  "seg": 301,
+  "start": 2195.341,
+  "end": 2199.226,
+  "speaker": "Unknown",
+  "en": "So we found, for example, people will tell us that",
+  "zh": "所以我们发现，举例来说，人们会告诉我们"
+ },
+ {
+  "seg": 302,
+  "start": 2202.937,
+  "end": 2206.039,
+  "speaker": "Unknown",
+  "en": "On a news article, they'll ask, what are the top three insights from here?",
+  "zh": "在一篇新闻文章上，他们会问：这里最重要的三个洞见是什么？"
+ },
+ {
+  "seg": 303,
+  "start": 2206.939,
+  "end": 2212.022,
+  "speaker": "Unknown",
+  "en": "And the model will give three top insights that are technically accurate, but they're not the three they cared about.",
+  "zh": "而模型会给出三个最重要的洞见，技术上准确，但不是他们真正关心的那三个。"
+ },
+ {
+  "seg": 304,
+  "start": 2213.643,
+  "end": 2218.486,
+  "speaker": "Unknown",
+  "en": "So this is the level of alignment that becomes necessary with long context reasoning.",
+  "zh": "所以这就是长上下文推理所要求的对齐水平。"
+ },
+ {
+  "seg": 305,
+  "start": 2218.506,
+  "end": 2219.687,
+  "speaker": "Unknown",
+  "en": "It gets very complicated.",
+  "zh": "这变得非常复杂。"
+ },
+ {
+  "seg": 306,
+  "start": 2220.807,
+  "end": 2225.45,
+  "speaker": "Unknown",
+  "en": "So one of the things we learned is that we are so far from",
+  "zh": "所以我们学到的一件事是，我们离"
+ },
+ {
+  "seg": 307,
+  "start": 2227.025,
+  "end": 2229.326,
+  "speaker": "Unknown",
+  "en": "from this area of modeling being mature.",
+  "zh": "离这个建模领域成熟还差得很远。"
+ },
+ {
+  "seg": 308,
+  "start": 2229.346,
+  "end": 2239.57,
+  "speaker": "Unknown",
+  "en": "I think people say, well, the frontier models have a million token conics window, but like their ability to deliver what people want at that size is just completely, we are far removed from that today.",
+  "zh": "我觉得人们会说，前沿模型有一百万 token 的上下文窗口，但它们在那个规模上交付人们想要的东西的能力，完全……我们今天离那还很远。"
+ },
+ {
+  "seg": 309,
+  "start": 2240.51,
+  "end": 2247.233,
+  "speaker": "Unknown",
+  "en": "And impromptability is still a bit lacking also for these types of problems.",
+  "zh": "而且对这些类型的问题来说，提示词的可控性也仍然有点欠缺。"
+ },
+ {
+  "seg": 310,
+  "start": 2250.066,
+  "end": 2267.077,
+  "speaker": "Unknown",
+  "en": "And I think to some extent like this problem can't be solved at the the prompt level because it's just so complex and nuanced like we do we do actually need to solve this through training first where we see a very wide number of problems that",
+  "zh": "而且我认为在某种程度上，这个问题无法在提示词层面解决，因为它实在太复杂、太微妙了，我们确实需要先通过训练来解决它，在训练中看到非常广泛的问题，"
+ },
+ {
+  "seg": 311,
+  "start": 2268.938,
+  "end": 2281.573,
+  "speaker": "Unknown",
+  "en": "A very wide number of inputs and outputs or problems through RL that show what user preferences are at scale before this becomes a problem that we can really solve through prompting.",
+  "zh": "通过 RL 看到非常广泛的输入和输出或问题，在大规模上展现用户偏好是什么，然后这才会变成一个我们真正能通过提示词解决的问题。"
+ },
+ {
+  "seg": 312,
+  "start": 2283.815,
+  "end": 2285.838,
+  "speaker": "Unknown",
+  "en": "So that's a super high-level insight.",
+  "zh": "所以这是一个非常高层面的洞见。"
+ },
+ {
+  "seg": 313,
+  "start": 2286.478,
+  "end": 2287.239,
+  "speaker": "Unknown",
+  "en": "Beyond that...",
+  "zh": "除此之外……"
+ },
+ {
+  "seg": 314,
+  "start": 2292.604,
+  "end": 2296.749,
+  "speaker": "Unknown",
+  "en": "I think reasoning is pretty unsolved.",
+  "zh": "我认为推理还相当未被解决。"
+ },
+ {
+  "seg": 315,
+  "start": 2296.769,
+  "end": 2298.191,
+  "speaker": "Unknown",
+  "en": "Oh, here's an interesting one, actually.",
+  "zh": "哦，这里有一个有意思的例子。"
+ },
+ {
+  "seg": 316,
+  "start": 2299.753,
+  "end": 2305.881,
+  "speaker": "Unknown",
+  "en": "We created some evals for code-based question answering and financial document question answering.",
+  "zh": "我们为基于代码的问答和金融文档问答创建了一些评测。"
+ },
+ {
+  "seg": 317,
+  "start": 2306.702,
+  "end": 2316.066,
+  "speaker": "Unknown",
+  "en": "And we ran, we did them at 500,000 tokens, a million tokens per Opus 4.7, which is like 800,000 tokens for us.",
+  "zh": "我们在五十万 token、一百万 token 下运行，针对 Opus 4.7，对我们来说大约是八十万 token。"
+ },
+ {
+  "seg": 318,
+  "start": 2317.106,
+  "end": 2323.649,
+  "speaker": "Unknown",
+  "en": "And then as close as possible to 2 million tokens, which obviously only we could do.",
+  "zh": "然后尽可能接近两百万 token，这显然只有我们能做到。"
+ },
+ {
+  "seg": 319,
+  "start": 2324.689,
+  "end": 2327.671,
+  "speaker": "Unknown",
+  "en": "And so we found on code-based question answering,",
+  "zh": "于是我们在基于代码的问答上发现，"
+ },
+ {
+  "seg": 320,
+  "start": 2330.993,
+  "end": 2335.196,
+  "speaker": "Unknown",
+  "en": "There were different levels of difficulties.",
+  "zh": "存在不同难度等级。"
+ },
+ {
+  "seg": 321,
+  "start": 2335.516,
+  "end": 2336.997,
+  "speaker": "Unknown",
+  "en": "We could say easy, medium, and hard.",
+  "zh": "我们可以分简单、中等和困难。"
+ },
+ {
+  "seg": 322,
+  "start": 2337.758,
+  "end": 2347.265,
+  "speaker": "Unknown",
+  "en": "And on the easy and medium problems, the models, most frontier models and our model could do pretty well, pretty close to 100%.",
+  "zh": "在简单和中等问题上，模型——大多数前沿模型和我们的模型——都表现相当好，接近 100%。"
+ },
+ {
+  "seg": 323,
+  "start": 2348.065,
+  "end": 2350.627,
+  "speaker": "Unknown",
+  "en": "And there was really not much of a concern there on performance.",
+  "zh": "在性能上那里确实没什么可担心的。"
+ },
+ {
+  "seg": 324,
+  "start": 2351.388,
+  "end": 2354.07,
+  "speaker": "Unknown",
+  "en": "But it is quite easy to create an eval set that",
+  "zh": "但是要创建一个评测集是很容易的，"
+ },
+ {
+  "seg": 325,
+  "start": 2355.349,
+  "end": 2361.801,
+  "speaker": "Unknown",
+  "en": "on financial document analysis that is well below 50% at 500,000 or 800,000 tokens.",
+  "zh": "在金融文档分析上，在五十万或八十万 token 下，成绩远低于 50%。"
+ },
+ {
+  "seg": 326,
+  "start": 2365.46,
+  "end": 2371.665,
+  "speaker": "Unknown",
+  "en": "And so it does seem like obviously there's a bias towards code.",
+  "zh": "所以显然确实存在偏向代码的情况。"
+ },
+ {
+  "seg": 327,
+  "start": 2372.365,
+  "end": 2377.969,
+  "speaker": "Unknown",
+  "en": "I think that the model companies have spent like more time in some areas than others.",
+  "zh": "我觉得模型公司在某些领域花的时间比其他领域多。"
+ },
+ {
+  "seg": 328,
+  "start": 2378.589,
+  "end": 2381.431,
+  "speaker": "Unknown",
+  "en": "And then also, I think there are certain types of contexts that are harder than others.",
+  "zh": "另外我也认为，某些类型的上下文比其他类型更难。"
+ },
+ {
+  "seg": 329,
+  "start": 2382.052,
+  "end": 2386.215,
+  "speaker": "Unknown",
+  "en": "Like I've been working with financial documents for a long time.",
+  "zh": "比如我处理金融文档已经很长时间了。"
+ },
+ {
+  "seg": 330,
+  "start": 2386.615,
+  "end": 2389.917,
+  "speaker": "Unknown",
+  "en": "I've spent a lot of time working with Edgar Data.",
+  "zh": "我花了大量时间处理 Edgar 数据。"
+ },
+ {
+  "seg": 331,
+  "start": 2390.218,
+  "end": 2390.378,
+  "speaker": "Unknown",
+  "en": "And",
+  "zh": "而"
+ },
+ {
+  "seg": 332,
+  "start": 2393.567,
+  "end": 2394.928,
+  "speaker": "Unknown",
+  "en": "There are a lot of things that make it hard.",
+  "zh": "有很多因素使它变得困难。"
+ },
+ {
+  "seg": 333,
+  "start": 2397.068,
+  "end": 2399.629,
+  "speaker": "Unknown",
+  "en": "Some of them are intentional.",
+  "zh": "其中一些是故意的。"
+ },
+ {
+  "seg": 334,
+  "start": 2400.57,
+  "end": 2405.512,
+  "speaker": "Unknown",
+  "en": "But the structure of the PDFs can be very challenging for LLMs to handle.",
+  "zh": "但 PDF 的结构对 LLM 来说可能非常难处理。"
+ },
+ {
+  "seg": 335,
+  "start": 2406.532,
+  "end": 2410.514,
+  "speaker": "Unknown",
+  "en": "Data can be really distributed up to several hundreds of pages.",
+  "zh": "数据可能散布在多达几百页里。"
+ },
+ {
+  "seg": 336,
+  "start": 2412.615,
+  "end": 2414.736,
+  "speaker": "Unknown",
+  "en": "You've got tab viewer and non-tab viewer data.",
+  "zh": "你有表格数据和非表格数据。"
+ },
+ {
+  "seg": 337,
+  "start": 2415.196,
+  "end": 2415.756,
+  "speaker": "Unknown",
+  "en": "You've got...",
+  "zh": "你还有……"
+ },
+ {
+  "seg": 338,
+  "start": 2416.54,
+  "end": 2419.003,
+  "speaker": "Unknown",
+  "en": "Tables that are really hard to parse correctly.",
+  "zh": "那些非常难以正确解析的表格。"
+ },
+ {
+  "seg": 339,
+  "start": 2419.964,
+  "end": 2425.35,
+  "speaker": "Unknown",
+  "en": "All these challenges that I think make these problems harder than code in some ways.",
+  "zh": "所有这些挑战，我认为在某些方面使这些问题比代码更难。"
+ },
+ {
+  "seg": 340,
+  "start": 2425.43,
+  "end": 2432.438,
+  "speaker": "Unknown",
+  "en": "So I guess the TLDR here is that long reasoning capability today is very asymmetric across verticals.",
+  "zh": "所以我猜这里的 TLDR 是，长推理能力今天在各垂直领域间是非常不对称的。"
+ },
+ {
+  "seg": 341,
+  "start": 2434.18,
+  "end": 2434.44,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 342,
+  "start": 2439.538,
+  "end": 2465.754,
+  "speaker": "Unknown",
+  "en": "You mentioned that you give these models, the standard transformer models, a large context or a large chunk of text in the context window and ask it to surface the most significant things and it doesn't come up with what you think is most significant.",
+  "zh": "你提到，你给这些模型——标准 Transformer 模型——一个很大的上下文或一大块文本放进上下文窗口，让它提取最重要的东西，而它得出的并不是你认为最重要的东西。"
+ },
+ {
+  "seg": 343,
+  "start": 2467.134,
+  "end": 2467.915,
+  "speaker": "Unknown",
+  "en": "How does this",
+  "zh": "这怎么"
+ },
+ {
+  "seg": 344,
+  "start": 2470.309,
+  "end": 2481.905,
+  "speaker": "Unknown",
+  "en": "Is the reasoning stronger with your architecture or is it that it sees more of the context?",
+  "zh": "在你的架构下推理更强吗，还是它看到了更多上下文？"
+ },
+ {
+  "seg": 345,
+  "start": 2481.925,
+  "end": 2486.431,
+  "speaker": "Unknown",
+  "en": "I mean, why is it better with SubQ's model?",
+  "zh": "我是说，为什么用 SubQ 的模型会更好？"
+ },
+ {
+  "seg": 346,
+  "start": 2488.016,
+  "end": 2503.608,
+  "speaker": "Unknown",
+  "en": "So the biggest part of it is the training differential that, you know, we can end to end our model training speed is still like somewhere between five to 10 X faster at a million tokens.",
+  "zh": "最大的部分是训练上的差异，你知道，我们可以端到端，我们的模型训练速度在一百万 token 下仍然大约快五到十倍。"
+ },
+ {
+  "seg": 347,
+  "start": 2503.828,
+  "end": 2507.15,
+  "speaker": "Unknown",
+  "en": "And then as you move to 2 million tokens and beyond, that's higher.",
+  "zh": "而当你到两百万 token 及以上时，"
+ },
+ {
+  "seg": 348,
+  "start": 2507.511,
+  "end": 2508.792,
+  "speaker": "Unknown",
+  "en": "The differential is even bigger than that.",
+  "zh": "差异比那还要更大。"
+ },
+ {
+  "seg": 349,
+  "start": 2509.872,
+  "end": 2515.957,
+  "speaker": "Unknown",
+  "en": "And so it's easy for us to do a lot more long context training than other people are doing.",
+  "zh": "所以对我们来说，做比其他人多得多的长上下文训练是容易的。"
+ },
+ {
+  "seg": 350,
+  "start": 2516.706,
+  "end": 2522.309,
+  "speaker": "Unknown",
+  "en": "And we're also very focused on generating a lot more of that data through both synthetic generation and human labeling.",
+  "zh": "我们也非常专注于通过合成数据生成和人工标注来生成更多这样的数据。"
+ },
+ {
+  "seg": 351,
+  "start": 2523.249,
+  "end": 2527.931,
+  "speaker": "Unknown",
+  "en": "And so focus and scale is a big part of that.",
+  "zh": "所以专注和规模是其中很重要的一部分。"
+ },
+ {
+  "seg": 352,
+  "start": 2528.312,
+  "end": 2532.074,
+  "speaker": "Unknown",
+  "en": "This is a phenomenon that we call the bitter lesson in the AI space.",
+  "zh": "这是我们在 AI 领域称之为「苦涩的教训」的现象。"
+ },
+ {
+  "seg": 353,
+  "start": 2533.014,
+  "end": 2533.194,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 354,
+  "start": 2534.014,
+  "end": 2535.075,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 355,
+  "start": 2535.275,
+  "end": 2535.935,
+  "speaker": "Unknown",
+  "en": "And so we...",
+  "zh": "所以我们……"
+ },
+ {
+  "seg": 356,
+  "start": 2540.17,
+  "end": 2541.491,
+  "speaker": "Unknown",
+  "en": "So that's a big part of it.",
+  "zh": "所以那是很重要的一部分。"
+ },
+ {
+  "seg": 357,
+  "start": 2542.111,
+  "end": 2551.296,
+  "speaker": "Unknown",
+  "en": "I think there's a theoretical benefit that I don't feel like we've fully proven one way or another, but that is that we are reducing the noise for the model.",
+  "zh": "我认为有一个理论上的好处,虽然我不觉得我们已经完全证明了它是对是错,那就是我们正在为模型降低噪声。"
+ },
+ {
+  "seg": 358,
+  "start": 2552.177,
+  "end": 2561.041,
+  "speaker": "Unknown",
+  "en": "So instead of looking at a million squared relationships, it'll look at, you know, scalar value times a million token relationships.",
+  "zh": "所以它不用去看一百万的平方那么多的关系,而是看,你知道,标量值乘以一百万的 token 关系。"
+ },
+ {
+  "seg": 359,
+  "start": 2561.101,
+  "end": 2564.123,
+  "speaker": "Unknown",
+  "en": "So it has less to consider, less to model on top of.",
+  "zh": "所以它需要考虑的东西更少,需要在其之上建模的东西更少。"
+ },
+ {
+  "seg": 360,
+  "start": 2567.119,
+  "end": 2572.386,
+  "speaker": "Unknown",
+  "en": "And so the same way that RAG reduces the noise and can sometimes lead to better results,",
+  "zh": "就像 RAG 降低噪声有时能带来更好的结果一样,"
+ },
+ {
+  "seg": 361,
+  "start": 2573.377,
+  "end": 2576.798,
+  "speaker": "Unknown",
+  "en": "I feel like sparse attention could also reduce noise and lead to better results.",
+  "zh": "我觉得稀疏注意力也可以降低噪声并带来更好的结果。"
+ },
+ {
+  "seg": 362,
+  "start": 2576.858,
+  "end": 2580.199,
+  "speaker": "Unknown",
+  "en": "But again, I don't feel like we've fully proven that one way or another.",
+  "zh": "但再说一次,我不觉得我们已经完全证明了这一点是对是错。"
+ },
+ {
+  "seg": 363,
+  "start": 2580.22,
+  "end": 2587.062,
+  "speaker": "Unknown",
+  "en": "It is not going to be easy to prove because A, how do you separate the architecture from the training?",
+  "zh": "要证明这一点并不容易,因为第一,你如何把架构和训练分开?"
+ },
+ {
+  "seg": 364,
+  "start": 2587.122,
+  "end": 2590.743,
+  "speaker": "Unknown",
+  "en": "And B, what evals are we going to use that are actually helpful today?",
+  "zh": "第二,我们今天能用哪些真正有帮助的 eval?"
+ },
+ {
+  "seg": 365,
+  "start": 2591.083,
+  "end": 2597.206,
+  "speaker": "Unknown",
+  "en": "I think we have a massive dearth of high quality long-conducts reasoning evals.",
+  "zh": "我认为我们在高质量的长上下文推理 eval 方面严重匮乏。"
+ },
+ {
+  "seg": 366,
+  "start": 2599.229,
+  "end": 2599.509,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 367,
+  "start": 2600.33,
+  "end": 2606.034,
+  "speaker": "Unknown",
+  "en": "And if someone wants to play around with this, how do they do that?",
+  "zh": "如果有人想尝试这个,他们该怎么做?"
+ },
+ {
+  "seg": 368,
+  "start": 2607.094,
+  "end": 2608.735,
+  "speaker": "Unknown",
+  "en": "So today, I mean, you'd reach out to us.",
+  "zh": "就今天来说,我是说,你得联系我们。"
+ },
+ {
+  "seg": 369,
+  "start": 2609.296,
+  "end": 2612.418,
+  "speaker": "Unknown",
+  "en": "We'd evaluate you for a design partnership.",
+  "zh": "我们会评估你是否适合成为设计合作伙伴。"
+ },
+ {
+  "seg": 370,
+  "start": 2613.799,
+  "end": 2626.127,
+  "speaker": "Unknown",
+  "en": "We're not giving broad access to the model yet just because we have limited compute bandwidth ourselves and are trying to prioritize access to people that we think could help us make a better version of the product.",
+  "zh": "我们目前还没有对模型开放广泛的访问权限,只是因为我们自己的算力带宽有限,并且想把访问权限优先分配给我们认为能帮助我们做出更好产品版本的人。"
+ },
+ {
+  "seg": 371,
+  "start": 2628.71,
+  "end": 2634.036,
+  "speaker": "Unknown",
+  "en": "And we are continuously trying to increase the amount of compute bandwidth we have.",
+  "zh": "而且我们在持续尝试增加我们拥有的算力带宽。"
+ },
+ {
+  "seg": 372,
+  "start": 2636.138,
+  "end": 2638.28,
+  "speaker": "Unknown",
+  "en": "These early design partnerships are also helpful for that too.",
+  "zh": "这些早期的设计合作伙伴关系对此也有帮助。"
+ },
+ {
+  "seg": 373,
+  "start": 2638.341,
+  "end": 2644.487,
+  "speaker": "Unknown",
+  "en": "The market validation enables us to increase our capital budgets and thus compute budgets.",
+  "zh": "市场验证使我们能够增加资本预算,进而增加算力预算。"
+ },
+ {
+  "seg": 374,
+  "start": 2646.349,
+  "end": 2651.752,
+  "speaker": "Unknown",
+  "en": "So yeah, I mean, that's kind of the TLDR is like, reach out, we'll connect if it seems like an interesting fit.",
+  "zh": "所以是的,我是说,TLDR 大概就是:联系我们,如果看起来合适,我们就建立联系。"
+ },
+ {
+  "seg": 375,
+  "start": 2652.273,
+  "end": 2656.275,
+  "speaker": "Unknown",
+  "en": "We usually go through an evaluation process, scope a design partnership, and then get started.",
+  "zh": "我们通常会经过一个评估流程,确定设计合作伙伴关系的范围,然后开始。"
+ },
+ {
+  "seg": 376,
+  "start": 2657.076,
+  "end": 2658.356,
+  "speaker": "Unknown",
+  "en": "That'll change over the next couple months.",
+  "zh": "这在未来几个月内会改变。"
+ },
+ {
+  "seg": 377,
+  "start": 2660.03,
+  "end": 2663.131,
+  "speaker": "Unknown",
+  "en": "In the next couple of months, we do plan to have complete general access.",
+  "zh": "在接下来的几个月里,我们计划提供完全的普遍访问。"
+ },
+ {
+  "seg": 378,
+  "start": 2663.292,
+  "end": 2667.153,
+  "speaker": "Unknown",
+  "en": "And by then, we will have a very different version of the product, too.",
+  "zh": "到那时,我们也会有一个非常不同的产品版本。"
+ },
+ {
+  "seg": 379,
+  "start": 2668.234,
+  "end": 2672.716,
+  "speaker": "Unknown",
+  "en": "Our models are continuously undergoing training to respond to feedback that we're getting from partners.",
+  "zh": "我们的模型在持续进行训练,以响应我们从合作伙伴那里得到的反馈。"
+ },
+ {
+  "seg": 380,
+  "start": 2673.396,
+  "end": 2677.418,
+  "speaker": "Unknown",
+  "en": "So if anybody thinks the model is good now, it's just going to get a lot better.",
+  "zh": "所以如果有人觉得这个模型现在已经很好了,它只会变得更好得多。"
+ },
+ {
+  "seg": 381,
+  "start": 2678.423,
+  "end": 2678.623,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 382,
+  "start": 2679.023,
+  "end": 2692.493,
+  "speaker": "Unknown",
+  "en": "And when you do have general availabilities, is there going to be a free layer or a free trial or how are you going to get people in the door?",
+  "zh": "当你们确实提供普遍可用时,会有免费层或免费试用吗,或者你们打算怎么吸引用户进来?"
+ },
+ {
+  "seg": 383,
+  "start": 2694.595,
+  "end": 2698.818,
+  "speaker": "Unknown",
+  "en": "So, yeah, I think we'll have some level of free access for sure.",
+  "zh": "所以,是的,我认为我们肯定会有某种程度的免费访问。"
+ },
+ {
+  "seg": 384,
+  "start": 2700.699,
+  "end": 2703.701,
+  "speaker": "Unknown",
+  "en": "And we'll have tiered pricing and tier elements and all of that.",
+  "zh": "而且我们会有分级定价、分级方案等等。"
+ },
+ {
+  "seg": 385,
+  "start": 2703.721,
+  "end": 2704.662,
+  "speaker": "Unknown",
+  "en": "So it'll be pretty standard.",
+  "zh": "所以那会是相当标准的。"
+ },
+ {
+  "seg": 386,
+  "start": 2705.913,
+  "end": 2709.496,
+  "speaker": "Unknown",
+  "en": "There are some non-standard things that we are considering doing.",
+  "zh": "我们也在考虑做一些非标准的事情。"
+ },
+ {
+  "seg": 387,
+  "start": 2710.057,
+  "end": 2713.759,
+  "speaker": "Unknown",
+  "en": "One of them is like a higher",
+  "zh": "其中一个是更高的"
+ },
+ {
+  "seg": 388,
+  "start": 2717.9,
+  "end": 2719.381,
+  "speaker": "Unknown",
+  "en": "Output to input ratio.",
+  "zh": "输出与输入的比率。"
+ },
+ {
+  "seg": 389,
+  "start": 2721.423,
+  "end": 2726.147,
+  "speaker": "Unknown",
+  "en": "Today, the output token cost is usually three to five X the input token cost.",
+  "zh": "今天,输出 token 的成本通常是输入 token 成本的三到五倍。"
+ },
+ {
+  "seg": 390,
+  "start": 2726.907,
+  "end": 2729.769,
+  "speaker": "Unknown",
+  "en": "We'd like the input token cost to be a lot more cheaper.",
+  "zh": "我们希望输入 token 的成本能更便宜得多。"
+ },
+ {
+  "seg": 391,
+  "start": 2729.99,
+  "end": 2731.23,
+  "speaker": "Unknown",
+  "en": "Oh, sorry, a lot cheaper still.",
+  "zh": "哦,抱歉,是还能便宜得多。"
+ },
+ {
+  "seg": 392,
+  "start": 2732.612,
+  "end": 2738.556,
+  "speaker": "Unknown",
+  "en": "To make it, we really want people to feel like the input tokens are free, like just consider the context that you need to for your problem.",
+  "zh": "我们真的希望人们觉得输入 token 是免费的,就为你的问题考虑你所需要的上下文就好。"
+ },
+ {
+  "seg": 393,
+  "start": 2739.617,
+  "end": 2741.298,
+  "speaker": "Unknown",
+  "en": "So I think we'll see higher ratios there.",
+  "zh": "所以我认为我们会看到那里有更高的比率。"
+ },
+ {
+  "seg": 394,
+  "start": 2742.459,
+  "end": 2743.28,
+  "speaker": "Unknown",
+  "en": "And then secondly,",
+  "zh": "然后第二,"
+ },
+ {
+  "seg": 395,
+  "start": 2745.228,
+  "end": 2759.691,
+  "speaker": "Unknown",
+  "en": "We've hesitated saying this a bit, but we've considered, I think our pricing curve as your inputs grow could look different than others because our internal price economics look different for it.",
+  "zh": "我们有点犹豫说这个,但我们考虑过,随着你的输入增长,我们的定价曲线可能看起来与其他人不同,因为我们内部的定价经济学对此看起来不一样。"
+ },
+ {
+  "seg": 396,
+  "start": 2760.151,
+  "end": 2762.092,
+  "speaker": "Unknown",
+  "en": "The external pricing for that could also look different.",
+  "zh": "相应的外部定价看起来也可能不同。"
+ },
+ {
+  "seg": 397,
+  "start": 2762.152,
+  "end": 2764.332,
+  "speaker": "Unknown",
+  "en": "I guess that's all I'll say for now.",
+  "zh": "我猜目前我就说这么多。"
+ },
+ {
+  "seg": 398,
+  "start": 2765.413,
+  "end": 2765.953,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 399,
+  "start": 2766.133,
+  "end": 2771.614,
+  "speaker": "Unknown",
+  "en": "And I have to ask, you know, there's a lot of talk about using AI for",
+  "zh": "而且我必须问,你知道,现在有很多关于使用 AI 来做"
+ },
+ {
+  "seg": 400,
+  "start": 2773.052,
+  "end": 2775.194,
+  "speaker": "Unknown",
+  "en": "for scientific research.",
+  "zh": "用于科学研究。"
+ },
+ {
+  "seg": 401,
+  "start": 2775.254,
+  "end": 2780.18,
+  "speaker": "Unknown",
+  "en": "Did you guys use any models to design this?",
+  "zh": "你们有没有用什么模型来设计这个？"
+ },
+ {
+  "seg": 402,
+  "start": 2781.121,
+  "end": 2791.573,
+  "speaker": "Unknown",
+  "en": "I mean, did you talk to, you know, Claude 4.8 or now, I guess, Fable 5?",
+  "zh": "我是说，你有没有和，你知道，Claude 4.8 或者说现在的 Fable 5 聊过？"
+ },
+ {
+  "seg": 403,
+  "start": 2794.031,
+  "end": 2798.695,
+  "speaker": "Unknown",
+  "en": "You know, how do we solve this problem and go back and forth with a model?",
+  "zh": "你知道，就是问它我们怎么解决这个问题，然后和模型来回讨论？"
+ },
+ {
+  "seg": 404,
+  "start": 2799.515,
+  "end": 2822.213,
+  "speaker": "Unknown",
+  "en": "I'm curious how companies like yours are doing that architecture design, whether they're tapping the knowledge base of the model or whether it's all, you know, iterative trial and error among humans.",
+  "zh": "我很好奇像你们这样的公司是怎么做架构设计的，是借助模型的知识库，还是全靠人类之间的迭代试错。"
+ },
+ {
+  "seg": 405,
+  "start": 2823.711,
+  "end": 2824.051,
+  "speaker": "Unknown",
+  "en": "Totally.",
+  "zh": "完全有。"
+ },
+ {
+  "seg": 406,
+  "start": 2824.571,
+  "end": 2830.554,
+  "speaker": "Unknown",
+  "en": "So, I mean, we're definitely using LLMs in the process and always trying to as much as possible.",
+  "zh": "就是说，我们在流程中肯定在用 LLM,而且总是尽可能多用。"
+ },
+ {
+  "seg": 407,
+  "start": 2831.194,
+  "end": 2834.475,
+  "speaker": "Unknown",
+  "en": "I don't think you can get there with just an LLM.",
+  "zh": "我不认为只靠一个 LLM 就能做到。"
+ },
+ {
+  "seg": 408,
+  "start": 2835.196,
+  "end": 2836.476,
+  "speaker": "Unknown",
+  "en": "They're not enough today.",
+  "zh": "它们今天还不够。"
+ },
+ {
+  "seg": 409,
+  "start": 2836.496,
+  "end": 2841.798,
+  "speaker": "Unknown",
+  "en": "I don't think they're creative enough either, but they're definitely super helpful.",
+  "zh": "我也不认为它们有足够的创造力，但它们确实非常有帮助。"
+ },
+ {
+  "seg": 410,
+  "start": 2842.199,
+  "end": 2843.559,
+  "speaker": "Unknown",
+  "en": "And I will say sometimes...",
+  "zh": "我会说，有时候……"
+ },
+ {
+  "seg": 411,
+  "start": 2845.7,
+  "end": 2849.506,
+  "speaker": "Unknown",
+  "en": "I'll just open-endly ask an LLM to come up with an idea and it comes up with something I hadn't thought of.",
+  "zh": "我会直接开放性地让一个 LLM 提出想法，然后它给出了我没想到的东西。"
+ },
+ {
+  "seg": 412,
+  "start": 2849.607,
+  "end": 2851.51,
+  "speaker": "Unknown",
+  "en": "So they're super helpful for that.",
+  "zh": "所以它们在这方面非常有帮助。"
+ },
+ {
+  "seg": 413,
+  "start": 2851.53,
+  "end": 2856.758,
+  "speaker": "Unknown",
+  "en": "But we've been talking from...",
+  "zh": "但我们一直在讨论……"
+ },
+ {
+  "seg": 414,
+  "start": 2860.448,
+  "end": 2873.276,
+  "speaker": "Unknown",
+  "en": "Probably like somewhere between a year and a year and a half about how to get to auto research for algorithms before, you know, way before auto research was termed, way before RSI was termed recursive self-improvement.",
+  "zh": "大概有一年到一年半的时间，讨论如何在算法上实现自动研究，你知道，那是在“自动研究”这个术语出现之前，远在 RSI(recursive self-improvement,递归自我改进)这个术语出现之前。"
+ },
+ {
+  "seg": 415,
+  "start": 2873.796,
+  "end": 2875.357,
+  "speaker": "Unknown",
+  "en": "We've been trying to build that product.",
+  "zh": "我们一直在尝试构建那个产品。"
+ },
+ {
+  "seg": 416,
+  "start": 2876.998,
+  "end": 2903.388,
+  "speaker": "Unknown",
+  "en": "And so I want to be the first company that creates this high quality flywheel of a model proposing architectural variations, creating the experiments to validate or invalidate those variations, running those experiments, looking at the outputs, coming up with what the idea is for the next set of experiments and architectural variations until it comes up with an architecture that looks vastly different.",
+  "zh": "所以我想成为第一家创造这种高质量飞轮的公司：由模型提出架构变体，创建实验来验证或否定这些变体，运行这些实验，查看输出，想出下一组实验和架构变体的想法，如此循环，直到它提出一个看起来截然不同的架构。"
+ },
+ {
+  "seg": 417,
+  "start": 2904.068,
+  "end": 2907.956,
+  "speaker": "Unknown",
+  "en": "And is vastly better on the axes that we care about.",
+  "zh": "并且在我们关心的各个维度上都好得多。"
+ },
+ {
+  "seg": 418,
+  "start": 2909.679,
+  "end": 2912.004,
+  "speaker": "Unknown",
+  "en": "We will be investing into that very seriously.",
+  "zh": "我们会非常认真地投入其中。"
+ },
+ {
+  "seg": 419,
+  "start": 2914.12,
+  "end": 2915.301,
+  "speaker": "Unknown",
+  "en": "Yeah, that's interesting.",
+  "zh": "是的，这很有意思。"
+ },
+ {
+  "seg": 420,
+  "start": 2915.361,
+  "end": 2919.945,
+  "speaker": "Unknown",
+  "en": "And looking ahead, what's the most exciting frontier for you?",
+  "zh": "那么展望未来，对你来说最激动人心的前沿是什么？"
+ },
+ {
+  "seg": 421,
+  "start": 2920.045,
+  "end": 2924.489,
+  "speaker": "Unknown",
+  "en": "I mean, at SubQ, is it bigger contexts?",
+  "zh": "我是说，在 SubQ,是更大的上下文吗？"
+ },
+ {
+  "seg": 422,
+  "start": 2925.029,
+  "end": 2931.414,
+  "speaker": "Unknown",
+  "en": "And not only at your company, but across AI research in general?",
+  "zh": "不仅是在你的公司，而是在整个 AI 研究领域？"
+ },
+ {
+  "seg": 423,
+  "start": 2931.674,
+  "end": 2935.337,
+  "speaker": "Unknown",
+  "en": "New architectures beyond attention or something else?",
+  "zh": "是超越注意力机制的新架构，还是别的什么？"
+ },
+ {
+  "seg": 424,
+  "start": 2936.578,
+  "end": 2938.78,
+  "speaker": "Unknown",
+  "en": "I mean, yeah, a lot of different things.",
+  "zh": "我是说，是的，很多不同的东西。"
+ },
+ {
+  "seg": 425,
+  "start": 2939.021,
+  "end": 2941.382,
+  "speaker": "Unknown",
+  "en": "Obviously, I think the auto research thing is really exciting.",
+  "zh": "显然，我认为自动研究这件事非常令人兴奋。"
+ },
+ {
+  "seg": 426,
+  "start": 2941.402,
+  "end": 2941.983,
+  "speaker": "Unknown",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 427,
+  "start": 2944.754,
+  "end": 2951.815,
+  "speaker": "Unknown",
+  "en": "I think that, but again, it's not about doing the pre or post training better, which is where most people are focused.",
+  "zh": "我认为是这样，但再说一次，这不是关于把预训练或后训练做得更好，那是大多数人专注的方向。"
+ },
+ {
+  "seg": 428,
+  "start": 2952.376,
+  "end": 2955.076,
+  "speaker": "Unknown",
+  "en": "It is about the algorithm itself.",
+  "zh": "它是关于算法本身。"
+ },
+ {
+  "seg": 429,
+  "start": 2955.876,
+  "end": 2963.538,
+  "speaker": "Unknown",
+  "en": "We want to move from shifting the algorithmic paradigm every nine years to doing it every 12 months.",
+  "zh": "我们想把每九年一次的算法范式更替缩短到每 12 个月一次。"
+ },
+ {
+  "seg": 430,
+  "start": 2964.518,
+  "end": 2968.019,
+  "speaker": "Unknown",
+  "en": "So we want to replace transformers or attention entirely.",
+  "zh": "所以我们想在不那么遥远的将来完全取代 Transformer 或注意力机制，然后无论我们用什么取代它——我是说，我们知道想用什么来取代它，但是……"
+ },
+ {
+  "seg": 431,
+  "start": 2969.223,
+  "end": 2976.633,
+  "speaker": "Unknown",
+  "en": "In the not too distant future, and then whatever we replace that with, I mean, we know what we want to replace it with, but...",
+  "zh": "当那发生时，我们想在 12 个月内再次取代它，并尽可能缩短这个时间。"
+ },
+ {
+  "seg": 432,
+  "start": 2978.906,
+  "end": 2984.91,
+  "speaker": "Unknown",
+  "en": "When that happens, we want to replace that again within 12 months and to shorten this time as much as possible.",
+  "zh": "所以这很有意思。"
+ },
+ {
+  "seg": 433,
+  "start": 2985.39,
+  "end": 2986.771,
+  "speaker": "Unknown",
+  "en": "So that's interesting.",
+  "zh": "我认为从 go-to-market 的角度来看，我们非常期待和企业合作处理长上下文推理任务，其次是长时程智能体任务。"
+ },
+ {
+  "seg": 434,
+  "start": 2988.892,
+  "end": 3002.661,
+  "speaker": "Unknown",
+  "en": "I think that from a go-to-market perspective, we're really excited about working with enterprises on long context reasoning tasks, long horizon agentic tasks as a secondary priority.",
+  "zh": "然后"
+ },
+ {
+  "seg": 435,
+  "start": 3005.282,
+  "end": 3005.723,
+  "speaker": "Unknown",
+  "en": "And then",
+  "zh": "在稍微更长远的未来，虽然这方面已经有积极的工作在进行，我们确实关心机器人领域，并且看到它实际上与我们目前的工作高度交织。"
+ },
+ {
+  "seg": 436,
+  "start": 3007.678,
+  "end": 3016.55,
+  "speaker": "Unknown",
+  "en": "In the somewhat longer term, though there is active work being done on it, we do care about robotics and see that it's highly intertwined with our current work actually.",
+  "zh": "比如 Figure AI 的演示之所以是在传送带上翻转箱子，就是因为它只需要 15 秒的记忆跨度。"
+ },
+ {
+  "seg": 437,
+  "start": 3017.611,
+  "end": 3025.241,
+  "speaker": "Unknown",
+  "en": "Like the reason why the Figure AI demo was on the conveyor belt flipping boxes is because it requires a 15 second memory span.",
+  "zh": "但如果你想想让一个机器人去洗衣服，机器人必须记住房子的路线图才能导航。"
+ },
+ {
+  "seg": 438,
+  "start": 3025.922,
+  "end": 3035.007,
+  "speaker": "Unknown",
+  "en": "But if you think about asking a robot to do the laundry, the robot has to remember the roadmap of the house to be able to navigate.",
+  "zh": "它需要记住怎么打开洗衣机门。"
+ },
+ {
+  "seg": 439,
+  "start": 3035.687,
+  "end": 3038.869,
+  "speaker": "Unknown",
+  "en": "It needs to remember how to open the laundry machine door.",
+  "zh": "它需要知道哪些洗涤程序适合哪些衣物。"
+ },
+ {
+  "seg": 440,
+  "start": 3038.909,
+  "end": 3047.093,
+  "speaker": "Unknown",
+  "en": "It needs to know what cycles are appropriate for which clothing items.",
+  "zh": "它需要记住用户对每件衣物如何折叠的偏好。"
+ },
+ {
+  "seg": 441,
+  "start": 3047.153,
+  "end": 3051.336,
+  "speaker": "Unknown",
+  "en": "It needs to remember what the user preferences are for how to fold each of the items.",
+  "zh": "它需要记住衣物该放在哪里。"
+ },
+ {
+  "seg": 442,
+  "start": 3051.396,
+  "end": 3053.397,
+  "speaker": "Unknown",
+  "en": "It needs to remember where the clothing goes.",
+  "zh": "所以那里所需的上下文量是相当可观的。"
+ },
+ {
+  "seg": 443,
+  "start": 3054.037,
+  "end": 3057.979,
+  "speaker": "Unknown",
+  "en": "And so the amount of context that's required there is significant.",
+  "zh": "此外，我们在机器人智能上所处的位置，就像你们在 2019 年的语言模型上一样：我们用数千个针对特定任务的样本来训练特定任务的模型，而这些样本的整理既困难又昂贵又耗时。"
+ },
+ {
+  "seg": 444,
+  "start": 3058.419,
+  "end": 3082.532,
+  "speaker": "Unknown",
+  "en": "And then additionally, we are in the same place for robotics intelligence as you were for language models in 2019, where we train models for specific tasks with thousands of task-specific samples that were hard and costly and time-expensive to curate.",
+  "zh": "所以我认为机器人领域需要一个 2020 年 LMR Few Shot Learners GPT-3 那样的时刻。"
+ },
+ {
+  "seg": 445,
+  "start": 3085.637,
+  "end": 3093.119,
+  "speaker": "Unknown",
+  "en": "And so I think we need a 2020 LMR Few Shot Learners GPT-3 moment for the robotic space.",
+  "zh": "但如果你想想提供一段 10 分钟的视频样本，让模型能够在上下文中学会如何完成一个任务，而不需要专门针对那个任务进行训练，"
+ },
+ {
+  "seg": 446,
+  "start": 3093.859,
+  "end": 3104.462,
+  "speaker": "Unknown",
+  "en": "But if you think about providing a 10-minute video sample so that the model can learn in context how to achieve a task without being trained on that task specifically,",
+  "zh": "那大概是一个 400 万 token 的输入。"
+ },
+ {
+  "seg": 447,
+  "start": 3106.443,
+  "end": 3109.345,
+  "speaker": "Unknown",
+  "en": "That's like a 4 million token input.",
+  "zh": "而人们在云端都难以做到这一点。"
+ },
+ {
+  "seg": 448,
+  "start": 3110.165,
+  "end": 3112.346,
+  "speaker": "Unknown",
+  "en": "And people are struggling to do that in the cloud.",
+  "zh": "你要怎么在一个手机大小的 VRAM 上做到这一点？"
+ },
+ {
+  "seg": 449,
+  "start": 3112.406,
+  "end": 3115.748,
+  "speaker": "Unknown",
+  "en": "How do you do that on a phone worth of VRAM?",
+  "zh": "在手机那么大的显存上你是怎么做到的？"
+ },
+ {
+  "seg": 450,
+  "start": 3115.768,
+  "end": 3117.969,
+  "speaker": "Unknown",
+  "en": "That is...",
+  "zh": "那就是……"
+ },
+ {
+  "seg": 451,
+  "start": 3120.278,
+  "end": 3126.94,
+  "speaker": "Unknown",
+  "en": "That requires like 100x plus reduction in memory usage.",
+  "zh": "那需要大约 100 倍以上的内存使用量削减。"
+ },
+ {
+  "seg": 452,
+  "start": 3127.78,
+  "end": 3131.621,
+  "speaker": "Unknown",
+  "en": "And that's a problem we're thinking about a lot.",
+  "zh": "这是我们正在深入思考的一个问题。"
+ },
+ {
+  "seg": 453,
+  "start": 3132.662,
+  "end": 3134.943,
+  "speaker": "Unknown",
+  "en": "So that's a pretty exciting frontier for us.",
+  "zh": "所以这对我们来说是一个非常激动人心的前沿方向。"
+ },
+ {
+  "seg": 454,
+  "start": 3135.983,
+  "end": 3139.044,
+  "speaker": "Unknown",
+  "en": "There are a lot of exciting things that we're doing here.",
+  "zh": "我不能说我们已经是很高产的博主了。"
+ },
+ {
+  "seg": 455,
+  "start": 3140.834,
+  "end": 3146.137,
+  "speaker": "Unknown",
+  "en": "And some of the stuff is stuff we're trying to put out in the next six months.",
+  "zh": "其中一些是我们打算在未来六个月内推出的。"
+ },
+ {
+  "seg": 456,
+  "start": 3146.357,
+  "end": 3148.699,
+  "speaker": "Unknown",
+  "en": "Some of it is things that we're trying to put out in the next two years.",
+  "zh": "有一些是我们打算在未来两年内推出的。"
+ },
+ {
+  "seg": 457,
+  "start": 3149.379,
+  "end": 3151.6,
+  "speaker": "Unknown",
+  "en": "So we've got a longer term roadmap.",
+  "zh": "所以我们有一个更长期的路线图。"
+ },
+ {
+  "seg": 458,
+  "start": 3151.62,
+  "end": 3154.202,
+  "speaker": "Unknown",
+  "en": "We're not just thinking about incremental improvements in the industry.",
+  "zh": "我们不只是在考虑行业内的渐进式改进。"
+ },
+ {
+  "seg": 459,
+  "start": 3154.642,
+  "end": 3158.424,
+  "speaker": "Unknown",
+  "en": "We want to figure out what problems are going to matter two to five years from now.",
+  "zh": "我们想弄清楚两到五年后哪些问题会变得重要。"
+ },
+ {
+  "seg": 460,
+  "start": 3158.865,
+  "end": 3161.686,
+  "speaker": "Unknown",
+  "en": "How do we take a shortcut to get there?",
+  "zh": "我们该如何走一条捷径到达那里？"
+ },
+ {
+  "seg": 461,
+  "start": 3163.908,
+  "end": 3165.909,
+  "speaker": "Unknown",
+  "en": "And how big is the team?",
+  "zh": "那团队规模有多大？"
+ },
+ {
+  "seg": 462,
+  "start": 3167.309,
+  "end": 3170.69,
+  "speaker": "Unknown",
+  "en": "So we have just under 50 people today.",
+  "zh": "我们目前有接近 50 人。"
+ },
+ {
+  "seg": 463,
+  "start": 3170.71,
+  "end": 3173.53,
+  "speaker": "Unknown",
+  "en": "We've grown a lot in the last couple months.",
+  "zh": "最近几个月我们增长了很多。"
+ },
+ {
+  "seg": 464,
+  "start": 3174.191,
+  "end": 3181.472,
+  "speaker": "Unknown",
+  "en": "I mean, the fundamental research that we did, that we've announced was done by just a few people, but we've been sitting on a lot of research for a while.",
+  "zh": "我是说,我们所做的、已经对外宣布的基础研究,是由寥寥几个人完成的,但我们手里已经积累了不少研究有一阵子了。"
+ },
+ {
+  "seg": 465,
+  "start": 3182.333,
+  "end": 3194.615,
+  "speaker": "Unknown",
+  "en": "That research was done in 2025 and then productized this year, but it was done with a lot fewer resources and people than we have today.",
+  "zh": "那些研究是在 2025 年完成的，然后在今年产品化，但它是在比我们现在少得多的资源和人手的情况下完成的。"
+ },
+ {
+  "seg": 466,
+  "start": 3195.276,
+  "end": 3196.696,
+  "speaker": "Unknown",
+  "en": "And we've done a lot since then.",
+  "zh": "而且从那以后我们又做了很多工作。"
+ },
+ {
+  "seg": 467,
+  "start": 3197.577,
+  "end": 3201.372,
+  "speaker": "Unknown",
+  "en": "And yeah, I mean, it's a little under 50 people today.",
+  "zh": "是的，我是说，目前不到 50 人。"
+ },
+ {
+  "seg": 468,
+  "start": 3204.511,
+  "end": 3205.091,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 469,
+  "start": 3205.111,
+  "end": 3210.932,
+  "speaker": "Unknown",
+  "en": "Well, this is all fascinating and I'm glad that we've met.",
+  "zh": "嗯，这一切都非常有意思，我很高兴我们认识了。"
+ },
+ {
+  "seg": 470,
+  "start": 3212.093,
+  "end": 3215.573,
+  "speaker": "Unknown",
+  "en": "I'm certainly going to be following you guys.",
+  "zh": "我肯定会持续关注你们。"
+ },
+ {
+  "seg": 471,
+  "start": 3216.374,
+  "end": 3222.995,
+  "speaker": "Unknown",
+  "en": "If listeners want to follow what you're doing, is it subq.ai?",
+  "zh": "如果听众想关注你们在做的事情，是 subq.ai 吗？"
+ },
+ {
+  "seg": 472,
+  "start": 3223.395,
+  "end": 3227.316,
+  "speaker": "Unknown",
+  "en": "Do you have a blog or something there that people can follow?",
+  "zh": "你们在那里有博客或类似的东西可以让人们关注吗？"
+ },
+ {
+  "seg": 473,
+  "start": 3228.628,
+  "end": 3230.89,
+  "speaker": "Unknown",
+  "en": "Yeah, SAPQ.AI is good.",
+  "zh": "是的，SAPQ.AI 是不错的入口。"
+ },
+ {
+  "seg": 474,
+  "start": 3230.91,
+  "end": 3233.691,
+  "speaker": "Unknown",
+  "en": "We've released a couple blog posts.",
+  "zh": "我们已经发布了几篇博客文章。"
+ },
+ {
+  "seg": 475,
+  "start": 3234.092,
+  "end": 3237.274,
+  "speaker": "Unknown",
+  "en": "I wouldn't say that we're prolific bloggers yet.",
+  "zh": "我不会说我们已经算高产的博主了。"
+ },
+ {
+  "seg": 476,
+  "start": 3237.374,
+  "end": 3240.656,
+  "speaker": "Unknown",
+  "en": "We do want to try to push out more, but it does take some time.",
+  "zh": "我们确实想尝试发布更多内容，但这确实需要一些时间。"
+ },
+ {
+  "seg": 477,
+  "start": 3242.417,
+  "end": 3246.18,
+  "speaker": "Unknown",
+  "en": "I am trying to post at least once if not a couple times a week on Twitter.",
+  "zh": "我正努力在 Twitter 上至少每周发一次，甚至几次帖子。"
+ },
+ {
+  "seg": 478,
+  "start": 3246.92,
+  "end": 3256.048,
+  "speaker": "Unknown",
+  "en": "And I do want to start going a little deeper on some of our product and technical and research vision here in some of those posts.",
+  "zh": "而且我确实想在其中一些帖子中，对我们的一些产品、技术和研究愿景做更深入的展开。"
+ },
+ {
+  "seg": 479,
+  "start": 3256.068,
+  "end": 3258.37,
+  "speaker": "Unknown",
+  "en": "And I'll call out different things every once in a while.",
+  "zh": "我也会不定期地点评不同的东西。"
+ },
+ {
+  "seg": 480,
+  "start": 3258.41,
+  "end": 3261.072,
+  "speaker": "Unknown",
+  "en": "So that could be an interesting place to follow us as well.",
+  "zh": "所以那也可能是关注我们的一个有意思的地方。"
+ },
+ {
+  "seg": 481,
+  "start": 3261.192,
+  "end": 3267.738,
+  "speaker": "Unknown",
+  "en": "We have our official Twitter page and you may see some of our other employees being more public as well about some of their work.",
+  "zh": "我们有官方的 Twitter 页面，你也可能看到我们其他一些员工更公开地谈论他们的一些工作。"
+ },
+ {
+  "seg": 482,
+  "start": 3267.798,
+  "end": 3272.762,
+  "speaker": "Unknown",
+  "en": "So social is going to be a pretty good place to stay on top of what we're doing as well.",
+  "zh": "所以社交媒体也会是紧跟我们在做什么的一个相当好的地方。"
+ },
+ {
+  "seg": 483,
+  "start": 3273.322,
+  "end": 3273.603,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 484,
+  "start": 3274.663,
+  "end": 3275.486,
+  "speaker": "Unknown",
+  "en": "OK, Alex.",
+  "zh": "好，Alex。"
+ },
+ {
+  "seg": 485,
+  "start": 3275.527,
+  "end": 3277.534,
+  "speaker": "Unknown",
+  "en": "Well, this is really interesting.",
+  "zh": "嗯，这真的很有意思。"
+ }
+]

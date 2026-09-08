@@ -38,7 +38,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Max Levchin]] [[Elad]]
+[[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Max Levchin]]
 
 </div>
 

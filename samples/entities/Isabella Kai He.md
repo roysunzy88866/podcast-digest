@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]]
+[[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":110,"智能体":1,"harness":21,"沙箱":36,"智能体循环":1,"上下文工程":8,"会话日志追踪":2,"泄露的凭证":3,"可观测性":18}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":110,"智能体":1,"harness":21,"沙箱":36,"智能体循环":1,"上下文工程":9,"会话日志追踪":2,"泄露的凭证":3,"可观测性":18}</script>
 
 <script>
 (function(){

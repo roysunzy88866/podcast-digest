@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]] [[Elad]]
+[[Alexander Whedon]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"transformer":5,"Attention is All You Need":1,"LLM":28,"GPU":15,"OpenAI":98,"开源运动":1,"编码智能体":3,"分布式模型":1,"研究突破":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"transformer":6,"Attention is All You Need":1,"LLM":28,"GPU":15,"OpenAI":98,"开源运动":1,"编码智能体":3,"分布式模型":1,"研究突破":1}</script>
 
 <script>
 (function(){

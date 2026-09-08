@@ -1,0 +1,1060 @@
+{
+  "episode_id": "2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read",
+  "podcast": "Eye On A.I.",
+  "date": "2026-09-08",
+  "tags": [
+    "长上下文",
+    "稀疏注意力",
+    "智能体",
+    "预训练",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "alexander-whedon",
+      "type": "person",
+      "role": "host",
+      "name": "Alexander Whedon",
+      "file": "Alexander Whedon",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "subquadratic",
+      "type": "company",
+      "role": "company",
+      "name": "SubQuadratic",
+      "file": "SubQuadratic",
+      "primary": true,
+      "how_described": "本集主角:Alex 联合创办的公司,使命是做出计算、内存和采样效率最高的算法并在其上构建基础模型;用单模型同时完成选择与生成的稀疏注意力机制解决注意力的平方成本问题,号称在 B200/B300 上比 Flash Attention 快约 40 倍、计算量少 64 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            119.738,
+            123.939
+          ],
+          "quote": "I'm Alex, co-founder and CTO here at SubQuadratic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sparse-attention",
+      "type": "concept",
+      "role": "concept",
+      "name": "稀疏注意力 (sparse attention)",
+      "file": "稀疏注意力",
+      "primary": true,
+      "how_described": "本集核心概念:只对重要的那部分 token 关系跑注意力来绕开二次方开销;历史上的固定模式(如滑动窗口)不能稳健建模语言,动态选择(DeepSeek)可行但引入全注意力成本,SubQuadratic 声称用单模型边生成边选择两全其美。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            147.856,
+            158.984
+          ],
+          "quote": "Yeah, and can you explain, you've tackled this quadratic complexity with sparse attention, am I right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            159.104,
+            168.33
+          ],
+          "quote": "And can you explain what sparse attention is in simple terms and why it matters compared to standard transformer attention?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            194.537,
+            198.278
+          ],
+          "quote": "Sparse attention says we don't actually need all of those token relationships.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            198.979,
+            209.582
+          ],
+          "quote": "And so sparse attention attempts to find which token relationships are important before running attention on only a subset of the token relationships.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            210.463,
+            216.144
+          ],
+          "quote": "And one of the main challenges with sparse attention is that there's always been a quality trade-off, as you can imagine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            227.571,
+            231.174
+          ],
+          "quote": "And so the challenge of sparse attention has been figuring out which ones actually matter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            231.914,
+            235.257
+          ],
+          "quote": "Most sparse attention mechanisms have used fixed patterns.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            251.508,
+            258.53
+          ],
+          "quote": "DeepSeek Sparse Attention upended this by saying we're actually going to use a separate prediction model to determine which tokens are important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            279.174,
+            294.499
+          ],
+          "quote": "In fact, that separate selection model uses more compute than the sparse attention layers in the full model at just 52,000 tokens and then continuously grows to an even larger differential.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            296.28,
+            312.628
+          ],
+          "quote": "And so what we've done that's unique is we have a sparse attention mechanism that, like DeepSeek sparse attention, dynamically selects the token relationships, but does so without the massive cost of full attention and does so without a separate selection mechanism.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            749.358,
+            767.507
+          ],
+          "quote": "I mean, the problem with sparse attention historically has been that they're fixed pattern mechanisms, like sliding window attention, look at the last 1000 tokens that are closest, or before and after.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            800.445,
+            808.951
+          ],
+          "quote": "And so while DeepSeek Sparse Attention uses a separate model to do that, reintroducing the quadratic problem, we do not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            905.13,
+            920.642
+          ],
+          "quote": "So the model, you use sparse attention, and how does the model decide what tokens to pay attention to?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2573.377,
+            2576.798
+          ],
+          "quote": "I feel like sparse attention could also reduce noise and lead to better results.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "本集说它是今天智能体工作流的真正大头:用 SuBench Pro 基准测得 86% 的步骤是在做上下文工程(读),真正执行只占最后 14%;它吞掉绝大部分人力与资本投入,SubQuadratic 想用便宜的长上下文把这一步压掉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            18.122,
+            28.589
+          ],
+          "quote": "When we've done benchmarking the frontier models with SuBench Pro, we found that 86% of the steps were actually read steps, just trying to do that context engineering before execution review, which was only the last 14%.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            394.076,
+            402.06
+          ],
+          "quote": "Everybody is doing context engineering that requires a lot of effort and also narrows the scope of what that system can actually handle.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            423.909,
+            434.092
+          ],
+          "quote": "86% of the steps were actually read steps, just trying to do that context engineering before the execution review, which was only the last 14%.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            483.023,
+            495.258
+          ],
+          "quote": "How do we avoid chucking documents as much as possible or make larger, more comprehensive chunks, et cetera, to offset the quality loss that we often see with a lot of the context engineering that's done today?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1891.415,
+            1901.564
+          ],
+          "quote": "And so I think we'll see people build a lot more too, to be honest, like context engineering step is where the vast majority of human and capital investment is today.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体描述为当前被上下文管理拖累的系统:编码智能体用外科手术式的上下文管理、10 到 60 步地跳文件;若一次能读全部内容,智能体会更快、更便宜、泛化更好,长时程(跨周跨月)智能体也被列为优先方向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            1097.804,
+            1104.129
+          ],
+          "quote": "You can now pull a lot more context and do a lot more work with every single step in your agent workflow.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集讨论『RAG 是否终结』:Alex 认为说法太极端,是改造而非淘汰——有了便宜长上下文可以用跨多页大块、取前 50 条、20 路并行搜索,不必再把一切压缩进 10 万 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            29.469,
+            31.73
+          ],
+          "quote": "Is this the end of RAG?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            31.77,
+            41.212
+          ],
+          "quote": "If you could put everything that's in your RAG knowledge base into the context window, you wouldn't need that more complicated architecture, is that right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            41.392,
+            45.653
+          ],
+          "quote": "Yeah, it is, although I wouldn't say it's the end of RAG, just because it's too extreme.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            587.092,
+            598.558
+          ],
+          "quote": "So a lot of people that we talked to, they're using 100,000 tokens or less, and they haven't yet adapted their workflows or RAG setups to use more than that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            970.79,
+            985.2
+          ],
+          "quote": "One thing I wanted to ask you, and we've spoken a couple of times, but does this, is this the end of RAG then, of having a vector database that the model searches?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            991.925,
+            1001.869
+          ],
+          "quote": "your RAG knowledge base into the context window, you wouldn't need that more complicated architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            1005.19,
+            1008.232
+          ],
+          "quote": "Although I wouldn't say it's the end of RAG, just because it's too extreme.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            1013.497,
+            1014.458
+          ],
+          "quote": "It changes RAG.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            1014.959,
+            1022.645
+          ],
+          "quote": "What we're looking to do is simplify the way that people build products with RAG or, you know, agentic workflows.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            1070.07,
+            1076.552
+          ],
+          "quote": "These are ways in which I think we can enable people to make RAG a lot more robust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1161.739,
+            1164.26
+          ],
+          "quote": "So not the end of RAG, but the...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2567.119,
+            2572.386
+          ],
+          "quote": "And so the same way that RAG reduces the noise and can sometimes lead to better results,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pre-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "预训练 (pre-training)",
+      "file": "预训练",
+      "primary": true,
+      "how_described": "本集说预训练给模型核心知识,后训练创造价值的能力受限于预训练;SubQuadratic 声称是唯一做过稳健数百万 token 预训练的团队,100 万 token 预训练能让模型外推到 1200 万 token 的检索任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            686.189,
+            691.495
+          ],
+          "quote": "As far as we know, we are the only people to do robust multi-million token pre-training.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            1171.605,
+            1177.21
+          ],
+          "quote": "And you talked about doing multi-million token pre-training rather than just post-training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1188.768,
+            1199.142
+          ],
+          "quote": "So pre-training is the stage of training where you give the model its core knowledge and to some extent, some core capabilities.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1203.288,
+            1207.73
+          ],
+          "quote": "And so the pre-training simply means you predict the next token over and over again.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1231.69,
+            1243.973
+          ],
+          "quote": "And so research has largely suggested that your ability to create value in the post-training phase is limited by the pre-training that you've done.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1244.194,
+            1250.375
+          ],
+          "quote": "So if you haven't, for example, done a lot of pre-training on code, then you're going to struggle to post-train a model to be really good at code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1253.583,
+            1262.688
+          ],
+          "quote": "That's why it's important that we've done this multi-million token pre-training because it means that when we get to post-training, there's already a certain amount of that knowledge there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1274.294,
+            1282.618
+          ],
+          "quote": "We actually have a model variant where we pre-trained the model with one million token inputs up to one million, but a lot of one million token pre-training.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1283.238,
+            1303.35
+          ],
+          "quote": "And we show that that 1 million token pre-training made it so that when we did post-training, largely also only up to 1 million tokens, that the model is able to extrapolate how to do retrieval-style problems up to 12 million tokens without ever seeing anything in post-training over a million tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1303.83,
+            1306.392
+          ],
+          "quote": "So that's the power of pre-training.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deepseek-sparse-attention",
+      "type": "concept",
+      "role": "concept",
+      "name": "DeepSeek Sparse Attention",
+      "file": "DeepSeek Sparse Attention",
+      "primary": true,
+      "how_described": "本集称之为稀疏注意力的转折点:用单独的预测模型动态挑出重要 token 关系、证明动态选择不牺牲质量;但致命伤是选择模型本身用全注意力,平方问题又回来了——在 52000 token 时其算力已超过整个模型稀疏注意力层的总和。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            251.508,
+            258.53
+          ],
+          "quote": "DeepSeek Sparse Attention upended this by saying we're actually going to use a separate prediction model to determine which tokens are important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            296.28,
+            312.628
+          ],
+          "quote": "And so what we've done that's unique is we have a sparse attention mechanism that, like DeepSeek sparse attention, dynamically selects the token relationships, but does so without the massive cost of full attention and does so without a separate selection mechanism.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            800.445,
+            808.951
+          ],
+          "quote": "And so while DeepSeek Sparse Attention uses a separate model to do that, reintroducing the quadratic problem, we do not.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kvcache",
+      "type": "concept",
+      "role": "concept",
+      "name": "KVCache",
+      "file": "KVCache",
+      "primary": true,
+      "how_described": "本集说它在数百万 token 时可能比模型权重本身还占内存,难以上机承载,也让机器人(只有手机大小显存)的长程建模不可能;SubQuadratic 在做让 KVCache 完全不必要的非注意力算法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 291,
+          "t": [
+            2102.736,
+            2111.746
+          ],
+          "quote": "We're also working on non-attention algorithms, have been for a while, that make it totally necessary to have any form of KVCache.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            2111.886,
+            2117.212
+          ],
+          "quote": "KVCache is this massive thing right now where at the multi-million token range,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "transformer",
+      "type": "concept",
+      "role": "concept",
+      "name": "Transformer",
+      "file": "Transformer",
+      "primary": true,
+      "how_described": "本集把它描述为注意力平方成本问题的载体,也是 SubQuadratic 想最终完全取代的对象——目标是把算法范式更替从每九年一次压到每 12 个月一次。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.191,
+            6.775
+          ],
+          "quote": "In Transformer models, the cost of attention grows with the square of the context length.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            65.918,
+            82.022
+          ],
+          "quote": "Hi, this is Eye on AI, and today we're talking to Alex Whedon about his company SubQ, which solves a problem that plagues Transformer models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            83.162,
+            86.063
+          ],
+          "quote": "In Transformer models, the cost of attention",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            159.104,
+            168.33
+          ],
+          "quote": "And can you explain what sparse attention is in simple terms and why it matters compared to standard transformer attention?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            352.47,
+            354.713
+          ],
+          "quote": "I mean, regular transformer algorithms.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2439.538,
+            2465.754
+          ],
+          "quote": "You mentioned that you give these models, the standard transformer models, a large context or a large chunk of text in the context window and ask it to surface the most significant things and it doesn't come up with what you think is most significant.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "opus-4-6",
+      "type": "concept",
+      "role": "concept",
+      "name": "Opus 4.6",
+      "file": "Opus 4.6",
+      "primary": true,
+      "how_described": "本集说它是 3 月才开放 100 万 token 通用访问的前沿模型;在 SuBench Pro 上平均要 66 步解一道题,其中绝大部分是找代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            556.319,
+            575.182
+          ],
+          "quote": "If we just take a step back and think about what frontier context has looked like historically, we didn't get frontier models with more than a 256,000 token context window until March when the Opus 4.6 general access, 1 million token general access came available.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            1105.056,
+            1114.329
+          ],
+          "quote": "Like I mentioned before, if we're talking about coding problems, Opus 4.6 required an average of 66 steps to tackle C-Bunch Pro problems.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sliding-window-attention",
+      "type": "concept",
+      "role": "concept",
+      "name": "滑动窗口注意力 (sliding window attention)",
+      "file": "滑动窗口注意力",
+      "primary": false,
+      "how_described": "本集作为固定模式稀疏注意力的例子提到:只看最近的 1000 个 token,固定公式决定看谁,不能稳健地对语言建模。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            749.358,
+            767.507
+          ],
+          "quote": "I mean, the problem with sparse attention historically has been that they're fixed pattern mechanisms, like sliding window attention, look at the last 1000 tokens that are closest, or before and after.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rl",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL",
+      "file": "RL",
+      "primary": false,
+      "how_described": "本集说长上下文的用户对齐问题没法靠提示词解决,必须先通过训练——用 RL 在海量问题上大规模展现用户偏好,之后才轮到提示词层面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 311,
+          "t": [
+            2268.938,
+            2281.573
+          ],
+          "quote": "A very wide number of inputs and outputs or problems through RL that show what user preferences are at scale before this becomes a problem that we can really solve through prompting.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": false,
+      "how_described": "本集说它是预训练之后提取额外能力的阶段,其创造价值的能力受限于预训练;sub-Q 1.1 的后训练基本只到 100 万 token,却能外推 1200 万。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            1171.605,
+            1177.21
+          ],
+          "quote": "And you talked about doing multi-million token pre-training rather than just post-training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1222.135,
+            1230.698
+          ],
+          "quote": "And it's largely seen as a requirement to extract additional capabilities in the post-training phase.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1231.69,
+            1243.973
+          ],
+          "quote": "And so research has largely suggested that your ability to create value in the post-training phase is limited by the pre-training that you've done.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1253.583,
+            1262.688
+          ],
+          "quote": "That's why it's important that we've done this multi-million token pre-training because it means that when we get to post-training, there's already a certain amount of that knowledge there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1264.809,
+            1267.47
+          ],
+          "quote": "And in post-training, we can extrapolate even further.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1283.238,
+            1303.35
+          ],
+          "quote": "And we show that that 1 million token pre-training made it so that when we did post-training, largely also only up to 1 million tokens, that the model is able to extrapolate how to do retrieval-style problems up to 12 million tokens without ever seeing anything in post-training over a million tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1306.512,
+            1311.755
+          ],
+          "quote": "It enables the model to extrapolate much further than if it's seeing stuff for the first time in post-training.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2944.754,
+            2951.815
+          ],
+          "quote": "I think that, but again, it's not about doing the pre or post training better, which is where most people are focused.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpt-3",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT-3",
+      "file": "GPT-3",
+      "primary": false,
+      "how_described": "本集用作类比:机器人领域需要一个『GPT-3 少样本学习』式的时刻——比如给 10 分钟视频让模型在上下文中学会任务(约 400 万 token 输入),而不必专门训练。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 445,
+          "t": [
+            3085.637,
+            3093.119
+          ],
+          "quote": "And so I think we need a 2020 LMR Few Shot Learners GPT-3 moment for the robotic space.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "attention",
+      "type": "concept",
+      "role": "concept",
+      "name": "Flash Attention 之前的注意力 (attention)",
+      "file": "Flash Attention 之前的注意力",
+      "primary": true,
+      "how_described": "本集的出发点:注意力让每个 token 与其他所有 token 互相关照,1000 个 token 有 100 万个两两关系,成本随上下文长度平方增长——上下文翻倍,算力大约贵四倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.191,
+            6.775
+          ],
+          "quote": "In Transformer models, the cost of attention grows with the square of the context length.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            83.162,
+            86.063
+          ],
+          "quote": "In Transformer models, the cost of attention",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            147.856,
+            158.984
+          ],
+          "quote": "Yeah, and can you explain, you've tackled this quadratic complexity with sparse attention, am I right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            159.104,
+            168.33
+          ],
+          "quote": "And can you explain what sparse attention is in simple terms and why it matters compared to standard transformer attention?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            172.449,
+            180.332
+          ],
+          "quote": "The quadratic bottleneck of attention is introduced because attention compares two token relationships.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            188.955,
+            193.857
+          ],
+          "quote": "You have this quadratically growing set of math that you're going to perform with an attention.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            194.537,
+            198.278
+          ],
+          "quote": "Sparse attention says we don't actually need all of those token relationships.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            198.979,
+            209.582
+          ],
+          "quote": "And so sparse attention attempts to find which token relationships are important before running attention on only a subset of the token relationships.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            210.463,
+            216.144
+          ],
+          "quote": "And one of the main challenges with sparse attention is that there's always been a quality trade-off, as you can imagine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            227.571,
+            231.174
+          ],
+          "quote": "And so the challenge of sparse attention has been figuring out which ones actually matter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            231.914,
+            235.257
+          ],
+          "quote": "Most sparse attention mechanisms have used fixed patterns.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            235.537,
+            250.328
+          ],
+          "quote": "So based off of the distance between the target token and all the other potential tokens, there's some fixed mathematical formula that determines which tokens should be passed through attention.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            251.508,
+            258.53
+          ],
+          "quote": "DeepSeek Sparse Attention upended this by saying we're actually going to use a separate prediction model to determine which tokens are important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            261.15,
+            269.632
+          ],
+          "quote": "And they showed that if you dynamically select the token relationships before running attention over a subset, then you can do so without a quality trade-off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            270.052,
+            274.553
+          ],
+          "quote": "The only problem is that prediction model that selects the token relationships uses full attention.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            279.174,
+            294.499
+          ],
+          "quote": "In fact, that separate selection model uses more compute than the sparse attention layers in the full model at just 52,000 tokens and then continuously grows to an even larger differential.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            296.28,
+            312.628
+          ],
+          "quote": "And so what we've done that's unique is we have a sparse attention mechanism that, like DeepSeek sparse attention, dynamically selects the token relationships, but does so without the massive cost of full attention and does so without a separate selection mechanism.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            341.478,
+            352.25
+          ],
+          "quote": "a very large context window and that it would get unreasonably expensive to do that with regular attention.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            749.358,
+            767.507
+          ],
+          "quote": "I mean, the problem with sparse attention historically has been that they're fixed pattern mechanisms, like sliding window attention, look at the last 1000 tokens that are closest, or before and after.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            800.445,
+            808.951
+          ],
+          "quote": "And so while DeepSeek Sparse Attention uses a separate model to do that, reintroducing the quadratic problem, we do not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            824.002,
+            828.265
+          ],
+          "quote": "So every input gets a different attention map.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            905.13,
+            920.642
+          ],
+          "quote": "So the model, you use sparse attention, and how does the model decide what tokens to pay attention to?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            2095.949,
+            2102.316
+          ],
+          "quote": "So, I mean, we're working on memory within the context of SSA, Subquadrat Express Attention, the thing we talked about publicly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 291,
+          "t": [
+            2102.736,
+            2111.746
+          ],
+          "quote": "We're also working on non-attention algorithms, have been for a while, that make it totally necessary to have any form of KVCache.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2573.377,
+            2576.798
+          ],
+          "quote": "I feel like sparse attention could also reduce noise and lead to better results.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2931.674,
+            2935.337
+          ],
+          "quote": "New architectures beyond attention or something else?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2964.518,
+            2968.019
+          ],
+          "quote": "So we want to replace transformers or attention entirely.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Flash Attention",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

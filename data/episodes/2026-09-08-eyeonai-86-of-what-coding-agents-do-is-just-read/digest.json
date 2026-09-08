@@ -1,0 +1,160 @@
+{
+  "title_zh": "把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力",
+  "tldr": "SubQuadratic 联合创始人兼 CTO Alex 讲解稀疏注意力如何打破 Transformer 的二次方计算瓶颈，让数百万 token 上下文真正可用、可负担。",
+  "digest_md": "这一集聊的是大模型最基础的一个数学瓶颈：注意力(模型在处理文本时，让每个 token 和其他所有 token 互相关照的机制)的成本随上下文长度平方增长——上下文翻倍，算力大约贵四倍。主角是 Alex,SubQuadratic 的联合创始人兼 CTO,做了约十年语言模型，从 Transformer 出现之前的 LSTM 时代就开始了。他和团队的做法是：不换掉注意力，而是让它只算「重要的那一小部分」——而且他们认为，这会改变的不只是成本，还有企业用 AI 的整个方式。\n\n最抓人的一个数字：他们用代码基准测试前沿模型时发现，**86% 的步骤其实是在「读」——做上下文工程，真正干活只占最后 14%** [07:03 Alex]。换句话说，今天的智能体大部分精力不是在解决问题，而是在想办法把上下文塞小、塞对。SubQuadratic 想干掉的就是这一步。\n\n## 注意力的平方税，和动态稀疏注意力\n\n1000 个 token 就有 100 万个两两关系，100 万个 token 就是 1 万亿级的关系，全算一遍就是平方级开销。稀疏注意力(只对部分 token 关系跑注意力)的思路是：其实不需要全部。但历史上的做法都是固定模式——比如滑动窗口注意力只看最近的 1000 个 token,靠固定公式决定看谁。问题是「第一个和第七个 token 是否相关」高度依赖内容，固定模式没法稳健地对语言建模 [12:29 Alex]。\n\nDeepSeek Sparse Attention 是个转折：用一个单独的预测模型动态挑出重要的 token 关系，证明动态选择可以不牺牲质量。但它有个致命伤——那个选择模型本身用的是全注意力，又把平方问题带回来了；在 52000 token 时，它的算力就已经超过整个模型里稀疏注意力层的总和，而且差距还在扩大 [04:39 Alex]。\n\nSubQuadratic 的独特之处：**一个模型同时做选择和生成**，不用单独的选择机制，也没有全注意力的成本。具体怎么挑 token 是他们高度专有的部分，Alex 只肯说到「创造性地利用输入的一些早期信息，且不产生全对全比较」的程度 [15:39 Alex]。效果是每个输入得到不同的注意力图，超级便宜、超级快，而且动态。官方数字：在 B200/B300 上比之前的 Flash Attention 快约 40 倍、计算量少 64 倍，都是在 100 万 token 规模下 [14:05 Alex]。\n\n## 长上下文的真正瓶颈不是窗口大小，是智能\n\nAlex 强调他们追的不只是窗口大小，而是四个维度：**大小、智能、成本、延迟**。现实很尴尬：直到近期 Opus 4.6 开放 100 万 token 通用访问之前，前沿模型的可用上下文基本停在 256k 以内；很多企业实际只用到 10 万 token 甚至更少， coding 场景里很多人把压缩限制设在 40 万 token——因为他们感觉再往上质量就开始打折 [09:16 Alex]。\n\n更深一层是**对齐问题**：用户希望模型怎么用 100 万 token,今天根本没有被稳健地理解。没有足够多的企业应用真正吃满过 100 万窗口，长上下文的人类偏好基准也不存在。他们的实测例子：给一篇新闻文章问「最重要的三个洞见」，模型给的三个技术上没错，但不是用户关心的那三个 [36:42 Alex]。Alex 的判断是这个问题没法靠提示词解决——太复杂、太微妙，必须先通过训练，用 RL 在海量问题上展现用户偏好，之后才轮到提示词层面 [37:30 Alex]。\n\n## RAG 不是终结，是被改造\n\n主持人问：能把知识库全塞进上下文窗口，RAG(检索增强生成，先搜资料再回答的架构)是不是就完了？Alex 认可方向但嫌「终结」太极端——是**改造**：今天文档被切成每 400 token 一块、只取前 10 条搜索结果，都是为了迁就上下文成本。有了便宜的长上下文，你可以用跨多页的大块、取前 50 条、甚至并行跑 20 路搜索全倒进窗口 [17:06 Alex]。如果确有 4 亿 token,还是需要某种方式处理，但「不要把一切压缩到 10 万 token 以内」 [18:04 Alex]。\n\n落到编码上最直观:Opus 4.6 平均要 66 步解一道 SuBench Pro 题，其中绝大部分是找代码。如果能直接把代码全放进窗口、或花三四步摸清重点、每步在上下文上更激进，六七步就够——总 token 反而更少，还不会漏细节 [18:25 Alex]。副产品是智能体更便宜、更快、泛化更好：每加一个搜索引擎或路由逻辑，都是在收窄系统能做的事；上下文工程这一步占了今天人力和资本投入的绝大部分，去掉它，进入门槛会大幅下降 [30:24 Alex]。\n\n## 预训练才是杠杆\n\n为什么非要自己训模型？因为后训练(在预训练之后用标注数据微调行为的阶段)创造价值的能力，受限于预训练做得够不够——没在代码上大量预训练，就很难后训练出擅长代码的模型 [20:31 Alex]。而在大上下文上做大规模训练，对二次方成本的模型来说贵得离谱——这正是他们做 SSA(他们的稀疏注意力机制)的最初动机。\n\n据他们所知，他们是唯一做过稳健的数百万 token 预训练的团队 [11:26 Alex]。证据在 sub-Q 1.1 小模型的技术报告里：一个用大量 100 万 token 输入做预训练的变体，后训练也基本只到 100 万 token,却能外推出 1200 万 token 的检索类问题——后训练阶段从没见过超过 100 万的东西 [21:14 Alex]。这就是预训练的力量：让模型外推到远超见过的范围。\n\n## 落地：安全、金融，和一个不对称的现实\n\n关于安全：长上下文推理确实能更快发现代码库里的漏洞、包括原本发现不了的，对防御方价值很大。但从外部攻破产品是另一回事——那是迭代测试和知识问题：软件叠着约 20 层开源组件，攻击者测的是已知漏洞在不在，而由于大家都用同一批组件，导致大部分威胁的漏洞数量比想象中少 [23:32 Alex]。他也很愿意和开源社区合作，去扫那些「不缺速度、缺视角广度」的老漏洞。\n\n设计伙伴的用例排序：第一是非结构化文档处理与分析，第二是知识型产品，其中金融最突出——PDF 结构难解析、表格难处理、数据散布几百页，某些方面比代码还难。他们的评测显示：代码问答的简单和中等问题各家都接近满分，但金融文档分析很容易造出一个 50 万 token 下远低于 50% 的评测集——**长推理能力今天在各垂直领域间非常不对称** [40:25 Alex]。商业模式上他们反过来定价：希望输入 token 便宜到让人感觉免费，想用什么上下文就用什么上下文 [45:32 Alex];未来几个月开放完全普遍访问，届时会有免费层和分级定价。\n\n## 下一步：12 个月换一次算法范式，和会洗衣服的机器人\n\n两条长期线。一是**自动研究**：他们已经讨论了一年到一年半，想做出「模型提出架构变体 → 生成实验验证 → 跑实验 → 看结果 → 提出下一轮」的飞轮，目标把算法范式更替从每九年一次压缩到每 12 个月一次，最终完全取代 Transformer 或注意力机制 [49:15 Alex]。过程中他们确实在用 LLM 帮忙想点子，但 Alex 直说：只靠 LLM 到不了，它们今天还不够、创造力也不足 [47:15 Alex]。\n\n二是**机器人**。现在的机器人智能相当于 2019 年的语言模型：每个任务要用几千个昂贵样本专门训练。他想要一个 GPT-3 式的时刻——比如给 10 分钟视频让模型在上下文中学会一个任务，那约等于 400 万 token 的输入，人们连在云端都难做到，而机器人只有手机大小的显存，需要 100 倍以上的内存削减。这也是为什么他们还在做让 KVCache(缓存上下文以加速推理的显存开销，数百万 token 时可能比模型权重本身还大)完全不必要的非注意力算法。团队目前不到 50 人，核心研究最初由寥寥几个人完成。\n\n## 本集带走\n\n- **智能体 86% 的步骤是在「读」**：上下文工程吞掉了绝大部分算力和延迟，便宜的长上下文能把它压到几步，总 token 反而更省。\n- **稀疏注意力的分水岭是「动态」**：固定模式(滑窗)建模不了语言；DeepSeek 证明动态选择可行但用了全注意力、平方问题依旧；单模型边生成边选择才两全。\n- **大窗口 ≠ 大上下文智能**：企业实际只用约 10 万 token,40 万是常见的质量止损点；长上下文的用户偏好要靠 RL 训练解决，提示词层面解决不了。\n- **RAG 会被改造而非淘汰**：更大的块、前 50 条检索、20 路并行搜索——以前因为上下文成本不敢做的事都值得重做一遍。\n- **预训练决定外推上限**：100 万 token 预训练 + 100 万内后训练，能外推到 1200 万 token 的检索任务。\n- **长推理能力极不对称**：代码接近饱和，金融文档在 50 万 token 下可以远低于 50%——评测和机会都在后者。\n- **输入 token 应该免费**：上下文成本的下降会改变产品设计的前提，就像当年带宽成本下降改变互联网产品一样。",
+  "quotes": [
+    {
+      "en": "As far as we know, we are the only people to do robust multi-million token pre-training.",
+      "zh": "据我们所知，我们是唯一做过稳健的数百万 token 预训练的人。",
+      "timestamp": "11:26",
+      "speaker": "Alexander Whedon"
+    },
+    {
+      "en": "And so research has largely suggested that your ability to create value in the post-training phase is limited by the pre-training that you've done.",
+      "zh": "研究在很大程度上表明，你在后训练阶段创造价值的能力，受限于你所做过的预训练。",
+      "timestamp": "20:31",
+      "speaker": "Alexander Whedon"
+    },
+    {
+      "en": "We are intentionally moving a little bit more slowly on the coding side because we've kind of realized like how much coding is like a budget game, like how much data budget do you have?",
+      "zh": "我们在编码方面有意走得慢一些，因为我们已经意识到编码在多大程度上是一场预算游戏——你有多少数据预算？",
+      "timestamp": "27:49",
+      "speaker": "Alexander Whedon"
+    },
+    {
+      "en": "One is we will have systems that can generalize better because every time you add a search engine or a vector database, which is a search engine, or some conditional logic to route between the steps, this human curation really limits the ability of that system to do a lot of different things.",
+      "zh": "一个是我们会有泛化能力更好的系统，因为每当你增加一个搜索引擎、或向量数据库(它就是一种搜索引擎)、或某种步骤间的路由逻辑，这种人工整理就真的限制了系统做很多不同事情的能力。",
+      "timestamp": "30:24",
+      "speaker": "Alexander Whedon"
+    },
+    {
+      "en": "We want a million tokens to feel like 50,000 tokens in terms of intelligence, cost, latency, et cetera, over time.",
+      "zh": "我们希望随着时间的推移，一百万 token 在智能水平、成本、延迟等方面，感觉起来像五万 token。",
+      "timestamp": "31:20",
+      "speaker": "Alexander Whedon"
+    },
+    {
+      "en": "The ability to manage context, not just through a two-hour session, but across weeks or months of work is something that I think will be critical and will also require much longer context reasoning than we have today.",
+      "zh": "管理上下文的能力——不只是在两小时的会话里，而是跨越数周或数月的工作——我认为这将是关键的，而且需要比今天长得多的上下文推理能力。",
+      "timestamp": "32:19",
+      "speaker": "Alexander Whedon"
+    },
+    {
+      "en": "To make it, we really want people to feel like the input tokens are free, like just consider the context that you need to for your problem.",
+      "zh": "为此，我们真的希望人们觉得输入 token 是免费的——只管为你的问题考虑所需要的上下文就好。",
+      "timestamp": "45:32",
+      "speaker": "Alexander Whedon"
+    },
+    {
+      "en": "I don't think you can get there with just an LLM. They're not enough today. I don't think they're creative enough either, but they're definitely super helpful.",
+      "zh": "我不认为只靠一个 LLM 就能做到。它们今天还不够，我也不认为它们有足够的创造力，但它们确实非常有帮助。",
+      "timestamp": "47:11",
+      "speaker": "Alexander Whedon"
+    },
+    {
+      "en": "We want to move from shifting the algorithmic paradigm every nine years to doing it every 12 months.",
+      "zh": "我们想把算法范式的更替从每九年一次，缩短到每 12 个月一次。",
+      "timestamp": "49:15",
+      "speaker": "Alexander Whedon"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:14",
+      "speaker": "Alex",
+      "en": "Sparse attention says we don't actually need all of those token relationships.",
+      "zh": "稀疏注意力的主张是：我们其实不需要所有这些 token 关系。"
+    },
+    {
+      "timestamp": "13:40",
+      "speaker": "Alex",
+      "en": "So it's super cheap, super fast, but also dynamic. So every input gets a different attention map.",
+      "zh": "所以它超级便宜、超级快，而且还是动态的——每个输入都会得到不同的注意力图。"
+    },
+    {
+      "timestamp": "06:15",
+      "speaker": "Alex",
+      "en": "And so these are actually four different axes of context that we care about, size, intelligence, cost, and latency.",
+      "zh": "所以实际上这是我们关心的上下文的四个不同维度：大小、智能、成本和延迟。"
+    },
+    {
+      "timestamp": "11:26",
+      "speaker": "Alex",
+      "en": "As far as we know, we are the only people to do robust multi-million token pre-training.",
+      "zh": "据我们所知，我们是唯一做过稳健的数百万 token 预训练的人。"
+    },
+    {
+      "timestamp": "16:45",
+      "speaker": "Alex",
+      "en": "Although I wouldn't say it's the end of RAG, just because it's too extreme.",
+      "zh": "不过我不会说这是 RAG 的终结，只是因为那太极端了。"
+    },
+    {
+      "timestamp": "18:04",
+      "speaker": "Alex",
+      "en": "We're saying like don't compress everything into 100,000 tokens or less.",
+      "zh": "我们说的是：不要把所有东西都压缩到 10 万 token 以内。"
+    },
+    {
+      "timestamp": "20:31",
+      "speaker": "Alex",
+      "en": "And so research has largely suggested that your ability to create value in the post-training phase is limited by the pre-training that you've done.",
+      "zh": "研究在很大程度上表明，你在后训练阶段创造价值的能力，受限于你所做过的预训练。"
+    },
+    {
+      "timestamp": "27:49",
+      "speaker": "Alex",
+      "en": "We are intentionally moving a little bit more slowly on the coding side because we've kind of realized like how much coding is like a budget game, like how much data budget do you have?",
+      "zh": "我们在编码方面有意走得慢一些，因为我们已经意识到编码在多大程度上是一场预算游戏——你有多少数据预算？"
+    },
+    {
+      "timestamp": "28:53",
+      "speaker": "Alex",
+      "en": "So we have all these enterprises that are sitting on massive amounts of data, and a lot of that data has yet to be put to use in an AI product, or maybe it has, but in a very limited fashion.",
+      "zh": "我们有这些坐拥海量数据的企业，其中很多数据尚未被用于 AI 产品，或者用过，但方式非常有限。"
+    },
+    {
+      "timestamp": "30:24",
+      "speaker": "Alex",
+      "en": "One is we will have systems that can generalize better because every time you add a search engine or a vector database, which is a search engine, or some conditional logic to route between the steps, this human curation really limits the ability of that system to do a lot of different things.",
+      "zh": "一个是我们会有泛化能力更好的系统，因为每当你增加一个搜索引擎、或向量数据库(它就是一种搜索引擎)、或某种步骤间的路由逻辑，这种人工整理就真的限制了系统做很多不同事情的能力。"
+    },
+    {
+      "timestamp": "31:20",
+      "speaker": "Alex",
+      "en": "We want a million tokens to feel like 50,000 tokens in terms of intelligence, cost, latency, et cetera, over time.",
+      "zh": "我们希望随着时间的推移，一百万 token 在智能水平、成本、延迟等方面，感觉起来像五万 token。"
+    },
+    {
+      "timestamp": "32:19",
+      "speaker": "Alex",
+      "en": "The ability to manage context, not just through a two-hour session, but across weeks or months of work is something that I think will be critical and will also require much longer context reasoning than we have today.",
+      "zh": "管理上下文的能力——不只是在两小时的会话里，而是跨越数周或数月的工作——我认为这将是关键的，而且需要比今天长得多的上下文推理能力。"
+    },
+    {
+      "timestamp": "40:25",
+      "speaker": "Alex",
+      "en": "So I guess the TLDR here is that long reasoning capability today is very asymmetric across verticals.",
+      "zh": "所以这里的 TLDR 是：长推理能力今天在各垂直领域之间是非常不对称的。"
+    },
+    {
+      "timestamp": "45:32",
+      "speaker": "Alex",
+      "en": "To make it, we really want people to feel like the input tokens are free, like just consider the context that you need to for your problem.",
+      "zh": "为此，我们真的希望人们觉得输入 token 是免费的——只管为你的问题考虑所需要的上下文就好。"
+    },
+    {
+      "timestamp": "47:15",
+      "speaker": "Alex",
+      "en": "I don't think you can get there with just an LLM. They're not enough today. I don't think they're creative enough either, but they're definitely super helpful.",
+      "zh": "我不认为只靠一个 LLM 就能做到。它们今天还不够，我也不认为它们有足够的创造力，但它们确实非常有帮助。"
+    },
+    {
+      "timestamp": "49:15",
+      "speaker": "Alex",
+      "en": "We want to move from shifting the algorithmic paradigm every nine years to doing it every 12 months.",
+      "zh": "我们想把算法范式的更替从每九年一次，缩短到每 12 个月一次。"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊一个特别底层、但直接影响你用 AI 贵不贵、快不快的问题——注意力的平方税。主角叫 Alex,是 SubQuadratic 这家公司的联合创始人兼 CTO,做了差不多十年语言模型，从 Transformer 出现之前的 LSTM 时代就开始了。这一集讲的就是：大模型处理长文本时，算力成本为什么会爆炸，以及怎么做稀疏注意力，把一百万 token 用出五万 token 的体验。\n\n先把问题交代清楚。注意力，说白了就是模型读文章时，让每个字和其他所有字互相照面、判断谁跟谁有关。麻烦在于，一千个 token 就有一百万个两两关系，一百万个 token 就是一万亿级的关系。上下文翻一倍，成本大约贵四倍，这就是平方级开销，也是长上下文一直贵、一直慢的根源。\n\n那这个问题为什么现在特别要紧？Alex 团队测前沿模型时发现了一个惊人的数字：智能体百分之八十六的步骤，其实是在读，在做上下文工程，也就是想办法把资料塞小、塞对，真正干活只占最后的百分之十四。换句话说，今天大部分算力不是在解决问题，而是在伺候上下文。这就是他们想干掉的东西。\n\n怎么干？稀疏注意力的思路是：不用全算，只算重要的那一小部分。但历史做法都是固定模式，比如滑动窗口只看最近一千个 token。问题是，第一个和第七个 token 到底相关不相关，高度看内容，固定公式没法稳健地对语言建模。后来 DeepSeek 的稀疏注意力是个转折，用一个单独的预测模型动态挑出重要的关系，证明动态选择不牺牲质量。但它有个致命伤：那个选择模型自己用的还是全注意力，平方问题又被带回来了，在五万两千 token 时，它烧的算力已经超过整个模型里稀疏层的总和。\n\nSubQuadratic 的独特之处就在这儿：一个模型同时做选择和生成，不用单独的选择器，也没有全注意力的成本。具体怎么挑 token 属于高度专有的部分，Alex 只肯说到，是创造性地利用输入的早期信息，且不产生全对全的比较。效果是每个输入得到不同的注意力图，又快又便宜还动态。官方数字是在 B200 和 B300 芯片上，比之前的 Flash Attention 快大约四十倍，计算量少六十四倍，都是在百万 token 规模下测的。\n\n不过这里得说一句：长上下文的真正瓶颈，其实不是窗口开多大，而是智能。现实很尴尬，很多企业实际只用到十万 token 甚至更少，写代码的场景里，很多人把压缩上限设在四十万，因为再往上就感觉质量开始打折。更深一层是对齐问题——你希望模型怎么用一百万 token,今天根本没人稳健地理解过。他们试过给模型一篇新闻文章，问最重要的三个洞见，模型给的三个技术上没错，但不是用户关心的那三个。Alex 的判断是，这事儿靠提示词解决不了，太复杂太微妙，必须先用强化学习在大规模问题上训练出用户偏好。\n\n顺着这个逻辑，RAG 的命运也清楚了。RAG 就是先搜资料再回答的架构。有了便宜的长上下文，它不会被淘汰，而是被改造：今天文档被切成四百 token 一块、只取前十条结果，都是为了迁就上下文成本；以后可以用跨好几页的大块，取前五十条，甚至二十路搜索并行全倒进窗口。落到编码上最直观，一道难题平均要六十六步、大部分在找代码，如果直接把代码全放进窗口，六七步就够，总 token 反而更少，还不漏细节。\n\n为什么非要自己训模型？因为后训练创造价值的能力，受限于预训练做得够不够。据他们所知，他们是唯一做过稳健的数百万 token 预训练的团队。证据很硬：一个用一百万 token 输入做预训练的小模型，后训练也只到一百万，却能外推出一千两百万 token 的检索任务，后训练阶段从没见过超过一百万的东西。\n\n设计伙伴里最突出的用例是金融：PDF 难解析、表格难处理、数据散在几百页里，评测显示代码问答各家接近满分，但金融文档分析很容易做出一个五十万 token 下正确率远低于一半的测试集——长推理能力在各行业间非常不对称。\n\n最后收在他们的目标上：一百万 token,在智能、成本、延迟上，要让人感觉像五万 token。当上下文便宜到让人想都不想就用，就像当年带宽降价改变互联网产品一样，企业用 AI 的整个方式都会跟着变。"
+}

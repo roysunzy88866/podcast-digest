@@ -170,8 +170,8 @@ Garry 自己的「公司大脑」(他称之为 [[Gbrain|Gbrain]],一个开源的
 **换个口味**
 
 - [[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|个人 AGI：用 Markdown 组建你自己的劳动力]]<span class="pd-rz">同嘉宾:Garry Tan · 同概念:Latent Space、工作记忆 (working memory)、技能文件 (skill file)、智能体 (agent)、确定性空间 (deterministic space)、Gbrain、RAG</span>
+- [[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力]]<span class="pd-rz">同概念:RAG、上下文工程 (context engineering)、智能体 (agent)</span>
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|Bret Taylor：智能体是新应用，软件要按结果定价]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
-- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
 
 </div>
 </div>

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]]
+[[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"多智能体系统":1,"专用推理硬件":1,"推理":5,"上下文工程":8,"TPU":3,"MapReduce":1,"蒸馏":9,"AlphaFold":2,"Gemini":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"多智能体系统":1,"专用推理硬件":1,"推理":5,"上下文工程":9,"TPU":3,"MapReduce":1,"蒸馏":9,"AlphaFold":2,"Gemini":6}</script>
 
 <script>
 (function(){
