@@ -1,0 +1,33 @@
+{
+  "id": "2026-07-14-uncapped-uncapped-54--sam-blond-from-monaco-e3mlt",
+  "audio_mp3": "https://anchor.fm/s/1156f1c04/podcast/play/123449880/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-28%2F428790423-44100-2-580c8bde88e23.mp3",
+  "duration_sec": 4180.419,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 880,
+  "asr": true,
+  "title_en": "Uncapped #54 | Sam Blond from Monaco",
+  "podcast": "Uncapped with Jack Altman",
+  "date": "2026-07-14",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46445705/7b18162e5e8160b9.png",
+  "added": "2026-09-08",
+  "added_at": "2026-09-08T03:45:00.271Z",
+  "speaker_map": {
+    "SPEAKER_00": "Sam Blond"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Sam Blond",
+  "cohosts": [],
+  "title_zh": "三次从零到大规模：Brex 前销售掌门 Sam 的增长心法与 AI 原生销售哲学",
+  "guest_name": "Sam Blond",
+  "guest_title": "Brex 前 CRO、Monaco 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/46445705/7b18162e5e8160b9.png",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-09-08T04:11:15.055Z"
+  }
+}

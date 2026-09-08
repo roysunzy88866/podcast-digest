@@ -46,7 +46,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[OpenRouter]] · [[Meta]] · [[Salesforce]] · [[Fireworks]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":108,"OpenAI":96,"Cursor":49,"推理":5,"OpenRouter":9,"Meta":29,"Salesforce":14,"Fireworks":4,"ChatGPT":52}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":108,"OpenAI":96,"Cursor":49,"推理":5,"OpenRouter":9,"Meta":29,"Salesforce":15,"Fireworks":4,"ChatGPT":52}</script>
 
 <script>
 (function(){

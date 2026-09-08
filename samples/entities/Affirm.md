@@ -27,7 +27,7 @@ unlisted: true
 
 [[Michael Tannenbaum]] · [[Alex Rampell]] · [[Figure]] · [[Max Levchin]] · [[SoFi]] · [[PayPal]] · [[Brex]] · [[TrialPay]] · [[Kiavi]] · [[Visa]]
 
-<script type="application/json" class="pd-epn">{"Michael Tannenbaum":1,"Alex Rampell":2,"Figure":2,"Max Levchin":1,"SoFi":1,"PayPal":5,"Brex":3,"TrialPay":1,"Kiavi":1,"Visa":2}</script>
+<script type="application/json" class="pd-epn">{"Michael Tannenbaum":1,"Alex Rampell":2,"Figure":2,"Max Levchin":1,"SoFi":1,"PayPal":5,"Brex":4,"TrialPay":1,"Kiavi":1,"Visa":2}</script>
 
 <script>
 (function(){
