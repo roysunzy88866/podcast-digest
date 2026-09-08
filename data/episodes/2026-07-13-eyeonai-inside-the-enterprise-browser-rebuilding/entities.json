@@ -1,0 +1,1023 @@
+{
+  "episode_id": "2026-07-13-eyeonai-inside-the-enterprise-browser-rebuilding",
+  "podcast": "Eye On A.I.",
+  "date": "2026-07-13",
+  "tags": [
+    "AI 安全",
+    "智能体",
+    "企业浏览器",
+    "提示词注入",
+    "数据保护"
+  ],
+  "categories": [
+    "AI 安全",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "bradon-rogers",
+      "type": "person",
+      "role": "host",
+      "name": "Bradon Rogers",
+      "file": "Bradon Rogers",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "greg",
+      "type": "person",
+      "role": "cohost",
+      "name": "Greg",
+      "file": "Greg",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            94.001,
+            94.762
+          ],
+          "quote": "Yeah, thanks, Greg.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "island",
+      "type": "company",
+      "role": "company",
+      "name": "Island",
+      "file": "Island",
+      "primary": true,
+      "how_described": "本集介绍的企业浏览器公司，嘉宾 Braden Rogers 任首席客户官；把浏览器改造成应用交付平台，让数据保护、情境感知与 AI 治理策略直接内建在浏览器本地。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            54.466,
+            59.728
+          ],
+          "quote": "How does Island keep track of what's being built by teams in an enterprise?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            64.132,
+            78.839
+          ],
+          "quote": "I usually start by having you introduce yourself to listeners and give as much of your background as is relevant and how you got to Island and then what Island does.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            94.842,
+            98.484
+          ],
+          "quote": "I'm Braden Rogers, Chief Customer Officer with Island.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            105.908,
+            110.351
+          ],
+          "quote": "Island just announced some new functionality.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            462.759,
+            467.621
+          ],
+          "quote": "Yeah, explain then how Island works with the enterprise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            468.282,
+            472.244
+          ],
+          "quote": "Well, I think it's important to highlight what we built at Island prior to AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            674.588,
+            677.151
+          ],
+          "quote": "They're gonna engage AI in an enterprise browser like Island.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            686.818,
+            708.036
+          ],
+          "quote": "For us, what we announced is the ability with AI protection is to live anywhere the user lives, whether they're working in the enterprise browser, if they're working in a consumer browser, using the Island extension to assert our policies inside the consumer browser, and then using Island desktop, which is a service that lives locally on the host, to assert policy outside of the browser and govern the usage of AI resources.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            714.231,
+            721.994
+          ],
+          "quote": "AI Protect is really two fundamental, very foundational things for Island, but very difficult for most status quo traditional providers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            807.259,
+            810.281
+          ],
+          "quote": "How would Island handle that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            819.775,
+            823.719
+          ],
+          "quote": "How does Island like wrap around that, that sort of thing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1047.252,
+            1059.736
+          ],
+          "quote": "So anywhere you assert an Island policy, whether in the browser or whether you assert it inside of the extension or inside of Island desktop, again, you think about the movement of an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1113.912,
+            1125.221
+          ],
+          "quote": "So policy lives locally, that's really important, lives locally in the browser for those things, lives locally in the extension asserting itself in the consumer browser and lives locally in the host with Island Desktop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1125.741,
+            1129.024
+          ],
+          "quote": "Again, those were all announced yesterday as well, part of the Island Enterprise platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1137.915,
+            1142.28
+          ],
+          "quote": "The island desktop is asserting its policy for the agent, just like it would a user in that particular case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1206.583,
+            1208.526
+          ],
+          "quote": "Or go to the Island download page and download Island.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1216.533,
+            1218.154
+          ],
+          "quote": "You launch Island, you log in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1235.103,
+            1243.167
+          ],
+          "quote": "So for you to onboard yourself as an end user, it's a self-provisioning exercise because you need to know two things in the universe of Island as an end user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1274.738,
+            1288.027
+          ],
+          "quote": "And so Island can find and read all the policy documents required to govern agentic uses and that sort of thing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1293.511,
+            1296.333
+          ],
+          "quote": "And by the way, many of our Island customers already have these data protection policies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1296.353,
+            1299.975
+          ],
+          "quote": "They've been building them, working with Island for years and deployed at massive scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1341.211,
+            1353.419
+          ],
+          "quote": "You want to build those apps and be able to deliver them and actually have them run and then have those apps slipped right into the island policy as people deploy the apps and deploy them at the same speed that they're deploying them in the VibeCoding tools that they're creating.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1471.855,
+            1494.23
+          ],
+          "quote": "But let's say an organization with 200 people, do you charge by seat and then you deliver an app for each 200 or each of the 200 people or they each of the 200 people downloads the app on island on their enterprise's license?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1497.775,
+            1501.396
+          ],
+          "quote": "Get Island into its employees' hands.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1542.427,
+            1544.567
+          ],
+          "quote": "So we just slip Island into those processes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1549.889,
+            1552.43
+          ],
+          "quote": "Island's just part of the foundational build for those people in that case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1570.355,
+            1576.178
+          ],
+          "quote": "How does Island keep track of what's being built?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1578.277,
+            1606.41
+          ],
+          "quote": "By teams in an enterprise, or is it, as long as you're working on an Island desktop or, or in an Island browser, everything is automatically, uh, covered or, or, or does somebody have to submit a new agentic, uh, capability to, to, uh, Island to be, uh, reviewed?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1864.189,
+            1876.197
+          ],
+          "quote": "Is Island learning as you operate within its environment, learning your workflows, and as he said, then suggesting new",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2098.282,
+            2103.349
+          ],
+          "quote": "What we want to do is we want to let the organization leverage the mechanics of the island policy",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2184.531,
+            2187.955
+          ],
+          "quote": "They just integrate it right into the mechanics of Island at the end of the day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2196.578,
+            2218.212
+          ],
+          "quote": "Yeah, can we pull back a little bit and give me a little bit of the history of Island and then the chronology of the different products and so we can see where you move to this most recent set of products and then talk about where you see Island going from here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2219.233,
+            2222.916
+          ],
+          "quote": "So we think of everything at Island not as a technological problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2333.798,
+            2350.995
+          ],
+          "quote": "But I might need these additional things, so we built a handful of additional capabilities, and I'm not going to go through all the chronology of Island, but all it took was some incremental capabilities because you needed the data protection, you needed the contextual awareness, you needed the private access to the internal deal room resources, you just needed",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2709.769,
+            2715.654
+          ],
+          "quote": "I presume you guys are an island user as well as the...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2720.677,
+            2722.298
+          ],
+          "quote": "I do a demo for a customer of Island.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2722.858,
+            2724.239
+          ],
+          "quote": "I show Island using Island.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2881.98,
+            2899.697
+          ],
+          "quote": "You were talking about how Island proposes workflows and other tools to the user after observing how the user is working.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2992.561,
+            2997.062
+          ],
+          "quote": "So we communicate to everybody engaged in an island.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3046.585,
+            3055.895
+          ],
+          "quote": "Does that mean that there needs to be kind of a manager watching what people are doing within the island?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3066.889,
+            3069.311
+          ],
+          "quote": "Of the user, does Island read that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3070.572,
+            3078.877
+          ],
+          "quote": "Island knows that this is an IT manager who's in charge of policies, safety policies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 578,
+          "t": [
+            3083.521,
+            3095.289
+          ],
+          "quote": "Or is there sort of an Island super user that's watching everything and, you know, directing to different people in the organization?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 596,
+          "t": [
+            3185.449,
+            3192.871
+          ],
+          "quote": "So, but in the world of Island is, you know, we also want to let the users engage the appropriate approval workflows.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成「我从座位上跳出去、你看到一把空椅子，但智能体在代表我做工作」——以用户身份行动的自主工作者，需在策略护栏内运作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            21.357,
+            23.359
+          ],
+          "quote": "The agent is working over an application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            25.561,
+            29.484
+          ],
+          "quote": "The agent goes and follows those instructions, thinking there's the human giving them instructions in the process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            29.544,
+            33.967
+          ],
+          "quote": "The agent's nothing more than me hopping out of this seat and you see an empty chair, but the agent's doing work on my behalf.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            783.678,
+            788.743
+          ],
+          "quote": "Again, the agent's nothing more than me hopping out of this seat and you see an empty chair, but the agent's doing work on my behalf.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            856.385,
+            883.739
+          ],
+          "quote": "You know, for us, the ability for the user to use whatever client they're using, whether it's in the browser or a fit client, and asserting our policy over those things, including MCP calls at the end of the day, so that when the agent is engaging something, the agent's even doing it within the permissibility scope of what it should be doing, not falling victim to, you know, I should go over here now and go to personal Gmail and start grabbing tokens from here or taking corporate tokens from this environment over here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            944.933,
+            947.736
+          ],
+          "quote": "The agent is working over an application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            950.578,
+            954.481
+          ],
+          "quote": "The agent goes and follows those instructions, thinking there's the human giving them instructions in the process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1003.737,
+            1018.163
+          ],
+          "quote": "So there's all kinds of risks of, again, it's a lot of it's centric around the data that you have in your organization, but in the agentic world is also centered around what the agent may do autonomously on your behalf, thinking it's doing the right work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1026.834,
+            1031.915
+          ],
+          "quote": "Again, a very smooth experience, but we want to let the user also, by the way, because the agent doesn't exist independent of a user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1047.252,
+            1059.736
+          ],
+          "quote": "So anywhere you assert an Island policy, whether in the browser or whether you assert it inside of the extension or inside of Island desktop, again, you think about the movement of an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1060.216,
+            1064.557
+          ],
+          "quote": "The movement of the agent is moving in a very similar way akin to the end user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1076.95,
+            1079.492
+          ],
+          "quote": "And I let the agent go and do that work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1079.653,
+            1083.957
+          ],
+          "quote": "At the end of the day, the agent would be bound by a policy that lives in the browser in that given example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1084.402,
+            1094.048
+          ],
+          "quote": "So if the agent decided, oh, it saw some instructions to go over and take this data from here and go over to the boundary to the personal stuff or some other area it shouldn't post the data to, the policy lives in play and keeps it from doing that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1094.068,
+            1097.73
+          ],
+          "quote": "So the agent would still bump into the guardrail that was there for the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1098.09,
+            1101.492
+          ],
+          "quote": "And maybe we may even have more rigid guardrails for the agent for certain things as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1101.913,
+            1108.297
+          ],
+          "quote": "So the guardrails could confine the agent to specific sets of work like, you know.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1129.684,
+            1137.37
+          ],
+          "quote": "And then so as a result, when the agent starts asserting its will, oh, let me go touch this thick application outside the browser or touch this folder in the file system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1137.915,
+            1142.28
+          ],
+          "quote": "The island desktop is asserting its policy for the agent, just like it would a user in that particular case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1811.241,
+            1817.104
+          ],
+          "quote": "And we leverage the agent in the process to handle the delicate parts where things in the application may have changed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1823.208,
+            1825.489
+          ],
+          "quote": "Laborage agent for those types of delicate tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1825.929,
+            1827.47
+          ],
+          "quote": "But that way the agent doesn't go amok.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1997.212,
+            2012.86
+          ],
+          "quote": "Do you think that you're helping enterprises move deeper into AI and AI agent workflows?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集主张围绕智能体构建护栏和策略，智能体走与用户相同的通道、撞同一套护栏，敏感场景还可加更严的护栏（如限定只自动化一件事）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            597.451,
+            616.134
+          ],
+          "quote": "So all of those are, you know, kind of fundamental mechanics that is what we launched yesterday is about the empowerment of the end user to take advantage and leverage AI and then taking it a step further is taking it into areas for agentic workflows, allowing agents to have the ability to operate in the workspace of the user, but have appropriate guardrails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1020.892,
+            1026.354
+          ],
+          "quote": "So we want to build guardrails and policies around those agents, just as we have around the end users.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1098.09,
+            1101.492
+          ],
+          "quote": "And maybe we may even have more rigid guardrails for the agent for certain things as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1101.913,
+            1108.297
+          ],
+          "quote": "So the guardrails could confine the agent to specific sets of work like, you know.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1929.868,
+            1940.214
+          ],
+          "quote": "And at the end of the day, again, always within the guardrails, by the way, also always as well, respecting the privacy of the end user, making sure that we don't run off skew of privacy concerns or issues there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集称之为让 AI 工具调用外部资源的更现代的 AI 协议，Island 对进出 MCP 的调用都做治理或审计，留下纸面痕迹。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            845.291,
+            854.881
+          ],
+          "quote": "But then many times in the universe of AI, you also get into conversations that are other protocols, more modern AI-centric protocols like MCP calls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            856.385,
+            883.739
+          ],
+          "quote": "You know, for us, the ability for the user to use whatever client they're using, whether it's in the browser or a fit client, and asserting our policy over those things, including MCP calls at the end of the day, so that when the agent is engaging something, the agent's even doing it within the permissibility scope of what it should be doing, not falling victim to, you know, I should go over here now and go to personal Gmail and start grabbing tokens from here or taking corporate tokens from this environment over here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1142.661,
+            1148.548
+          ],
+          "quote": "And then when the client is engaging some MCP resources as well, we assert our will on that process as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1148.588,
+            1154.735
+          ],
+          "quote": "So that again, anything going into the MCP flow or coming out has been governed or at least audited at the appropriate level.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2527.557,
+            2531.118
+          ],
+          "quote": "And that's really important in the AI generation, because orgs are going to have internal MCP resources.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2664.422,
+            2666.603
+          ],
+          "quote": "And those things could be MCP resources as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2973.494,
+            2981.179
+          ],
+          "quote": "Or it could be just a, you've got a misconfiguration over here on this part of your universe around MCP.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-browser",
+      "type": "concept",
+      "role": "concept",
+      "name": "企业浏览器 (enterprise browser)",
+      "file": "企业浏览器",
+      "primary": true,
+      "how_described": "本集核心产品形态：把原本为购物和定向广告设计的浏览器改造成企业应用交付平台，策略本地存在，AI 的「自然栖息地」恰恰是浏览器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            674.588,
+            677.151
+          ],
+          "quote": "They're gonna engage AI in an enterprise browser like Island.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            686.818,
+            708.036
+          ],
+          "quote": "For us, what we announced is the ability with AI protection is to live anywhere the user lives, whether they're working in the enterprise browser, if they're working in a consumer browser, using the Island extension to assert our policies inside the consumer browser, and then using Island desktop, which is a service that lives locally on the host, to assert policy outside of the browser and govern the usage of AI resources.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            769.042,
+            780.294
+          ],
+          "quote": "If they're using their consumer browser, they're using their enterprise browser, using the local clients, let them use personal stuff, but recognize when they're using the corporate resources and bring them into the fold, into the boundary so that they can have freedom of movement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2307.15,
+            2313.611
+          ],
+          "quote": "This is a very important thing in the universe of Ireland and the enterprise browser is we think of it being tactically strategic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "block-page",
+      "type": "concept",
+      "role": "concept",
+      "name": "拦截页面 (block page)",
+      "file": "拦截页面",
+      "primary": true,
+      "how_described": "本集批评传统安全产品活在网络路径上只能看到数据包，策略只能是拦截页面；「那不是赋能用户的策略」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            756.851,
+            758.852
+          ],
+          "quote": "Their strategy has to be a block page.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2479.683,
+            2487.725
+          ],
+          "quote": "The strategy from your status quo players is often, and I said a little bit about this earlier, but the status quo is, it's a block page.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-protect",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI Protect",
+      "file": "AI Protect",
+      "primary": true,
+      "how_described": "本集介绍 Island 新发布的能力：通过企业浏览器、消费级浏览器里的 Island 扩展、主机上的 Island 桌面端三层，在用户所在的任何地方治理 AI 资源使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            644.641,
+            655.55
+          ],
+          "quote": "Well, let's talk about some of the new products, AI Protect, which allows safe usage of any AI application, consumer or enterprise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            712.69,
+            714.151
+          ],
+          "quote": "That's exactly what AI Protect is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            714.231,
+            721.994
+          ],
+          "quote": "AI Protect is really two fundamental, very foundational things for Island, but very difficult for most status quo traditional providers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-publish",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI Publish",
+      "file": "AI Publish",
+      "primary": true,
+      "how_described": "本集介绍的另一发布：让 vibe coding 工具造出的应用在部署的同时直接顺滑嵌入已有的 Island 策略，部署速度与交付速度匹配。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 232,
+          "t": [
+            1330.743,
+            1332.024
+          ],
+          "quote": "This area around AI Publish.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集提及用 Lovable、Cursor、Claude Code 这类 vibe coding 工具加速应用开发，产出基于 Web 的应用可被 Island 策略治理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            309.49,
+            316.113
+          ],
+          "quote": "Sometimes they're developmental tools with various forms of vibe coding resources that help us speed development of applications.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dlp",
+      "type": "concept",
+      "role": "concept",
+      "name": "DLP",
+      "file": "DLP",
+      "primary": false,
+      "how_described": "本集把老式 DLP 比作「运营洗衣机」，需整天调优；Island 改用「应用边界」结构取代无休止微调。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 610,
+          "t": [
+            3267.399,
+            3268.2
+          ],
+          "quote": "Think about DLP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3268.42,
+            3270.862
+          ],
+          "quote": "DLP has been an operational washing machine for ages.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "single-sign-on",
+      "type": "concept",
+      "role": "concept",
+      "name": "单点登录 (single sign-on)",
+      "file": "单点登录",
+      "primary": false,
+      "how_described": "本集说员工入职只需两步：下载浏览器、登录公司的单点登录（如 Okta 或 EntraID），策略与权限随即自动配置，无需培训。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 212,
+          "t": [
+            1249.548,
+            1253.309
+          ],
+          "quote": "Second thing you need to know how to do is log into the single sign-on provider for the org that you work for.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "prompt injection",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -35,7 +35,7 @@ unlisted: true
 
 [[Salesforce]] · [[智能体]] · [[记录系统]] · [[Matt MacInnis]] · [[Sam Blond]] · [[Rory O'Driscoll]] · [[Lenny]] · [[Monaco]] · [[Jason Lemkin]] · [[Amar]]
 
-<script type="application/json" class="pd-epn">{"Salesforce":15,"智能体":1,"记录系统":2,"Matt MacInnis":1,"Sam Blond":1,"Rory O'Driscoll":1,"Lenny":67,"Monaco":1,"Jason Lemkin":2,"Amar":1}</script>
+<script type="application/json" class="pd-epn">{"Salesforce":16,"智能体":1,"记录系统":2,"Matt MacInnis":1,"Sam Blond":1,"Rory O'Driscoll":1,"Lenny":67,"Monaco":1,"Jason Lemkin":2,"Amar":1}</script>
 
 <script>
 (function(){

@@ -231,7 +231,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[Nico]] · [[Aakash Gupta]] · [[Dylan Field]] · [[Jyothi Nookula]] · [[Figma]] · [[Claude]] · [[GitHub]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":27,"Nico":1,"Aakash Gupta":1,"Dylan Field":2,"Jyothi Nookula":1,"Figma":14,"Claude":49,"GitHub":21,"Claude Code":47}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":28,"Nico":1,"Aakash Gupta":1,"Dylan Field":2,"Jyothi Nookula":1,"Figma":14,"Claude":49,"GitHub":21,"Claude Code":48}</script>
 
 <script>
 (function(){

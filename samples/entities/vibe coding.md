@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>vibe coding</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>27</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>29</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -27,7 +27,9 @@ unlisted: true
 - **[[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]]**(01:33起):本集说 vibe coder 就像是往墙上扔东西直到粘住为止，希望这东西能起作用；很喜欢现在每个人都可以成为构建者，但和有工程经验的人驱动智能体效果差很多
 - **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(09:14起):本集提到嘉宾带 10 岁儿子通过自然语言指挥 AI 写代码，做出了有着 19 个关卡和商店系统的 8 位风格超级马里奥游戏。
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(42:53起):本集把它说成:不仅是凭直觉写代码,还能真正用来经营公司的方式;Replit 招了全职氛围编程团队游走各部门,直接造出取代外部采购的内部系统。
+- **[[2026-07-13-eyeonai-inside-the-enterprise-browser-rebuilding|《企业浏览器 Island：给智能体戴上企业级护栏》]]**(05:09起):本集提及用 Lovable、Cursor、Claude Code 这类 vibe coding 工具加速应用开发，产出基于 Web 的应用可被 Island 策略治理。
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(81:10起):被描述为纯凭直觉用自然语言让 AI 写代码。嘉宾建议别只做一锤子买卖，要把 vibe coding 做出来的小玩意儿当成真正的产品，找真实用户来用并不断迭代。
+- **[[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|《Wix CEO Avishai:SaaS 末日下,我们凭什么值钱》]]**(00:49起):本集反复讨论的核心概念：用自然语言让 AI 生成整个应用；嘉宾用它论证「你 vibe code 不出 Shopify、也复刻不出 Salesforce 的信任」。
 - **[[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]]**(14:43起):本集把它说成个体开发者在 agentic development 中最初级的阶段，即凭感觉写提示词让 AI 生成代码
 - **[[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]]**(14:12起):本集提到 SaaS 创始人 Jason Lemkin 刚开始 vibe coding，以前从未 vibe coded 或写过任何代码，在使用 Replit 智能体时发生了数据库误删事件。
 - **[[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|《Factory CEO Matan:早两年等于错，退款、路由器与软件工厂》]]**(26:18起):本集举例:用 vibe coding 做仪表盘的部门应该路由到便宜的模型,不必和构建关键基础设施的工程师一样配额。
@@ -51,7 +53,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*27 集*
+*29 集*
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -69,7 +71,9 @@ unlisted: true
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]] — 作为概念
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为概念
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为概念
+- [[2026-07-13-eyeonai-inside-the-enterprise-browser-rebuilding|《企业浏览器 Island：给智能体戴上企业级护栏》]] — 作为概念(提及)
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为概念(提及)
+- [[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|《Wix CEO Avishai:SaaS 末日下,我们凭什么值钱》]] — 作为概念
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|《DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟》]] — 作为概念
 - [[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|《创始人为什么要公开讲话：Replit Amjad 的叙事法则》]] — 作为概念
 - [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|《Factory CEO Matan:早两年等于错，退款、路由器与软件工厂》]] — 作为概念(提及)
@@ -85,9 +89,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Cursor]] · [[Claude]] · [[ChatGPT]] · [[Anthropic]] · [[OpenAI]] · [[护栏]] · [[Codex]] · [[Replit]]
+[[智能体]] · [[Lenny]] · [[Cursor]] · [[Claude]] · [[ChatGPT]] · [[Anthropic]] · [[护栏]] · [[OpenAI]] · [[Claude Code]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":67,"Cursor":49,"Claude":49,"ChatGPT":52,"Anthropic":108,"OpenAI":96,"护栏":2,"Codex":40,"Replit":14}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":67,"Cursor":49,"Claude":49,"ChatGPT":52,"Anthropic":108,"护栏":2,"OpenAI":96,"Claude Code":48,"Codex":40}</script>
 
 <script>
 (function(){

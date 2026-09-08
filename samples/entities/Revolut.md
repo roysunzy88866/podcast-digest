@@ -29,9 +29,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Uber]] · [[智能体]] · [[Airbnb]] · [[OpenAI]] · [[ChatGPT]] · [[Harry Stebbings]] · [[Cloudflare]] · [[Anthropic]] · [[Lenny]] · [[Harry Stabbings]]
+[[Uber]] · [[智能体]] · [[Airbnb]] · [[OpenAI]] · [[Atlassian]] · [[ChatGPT]] · [[Harry Stebbings]] · [[Cloudflare]] · [[Anthropic]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"Uber":8,"智能体":1,"Airbnb":10,"OpenAI":96,"ChatGPT":52,"Harry Stebbings":14,"Cloudflare":9,"Anthropic":108,"Lenny":67,"Harry Stabbings":1}</script>
+<script type="application/json" class="pd-epn">{"Uber":8,"智能体":1,"Airbnb":10,"OpenAI":96,"Atlassian":5,"ChatGPT":52,"Harry Stebbings":15,"Cloudflare":9,"Anthropic":108,"Lenny":67}</script>
 
 <script>
 (function(){

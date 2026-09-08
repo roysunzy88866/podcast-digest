@@ -182,9 +182,9 @@ Claude Code 一周半开发出 Cowork——既说明 AI 编程惊人地强，也
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|Wix CEO Avishai:SaaS 末日下,我们凭什么值钱]]<span class="pd-rz">同公司:Claude Code · 同概念:AGI、LLM、vibe coding</span>
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|一个人六个月做出八千万美元公司]]<span class="pd-rz">同嘉宾:Lenny · 同概念:LLM、vibe coding</span>
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同嘉宾:Lenny · 同概念:vibe coding</span>
-- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同嘉宾:Lenny · 同概念:vibe coding</span>
 
 </div>
 <div class="pd-ex">

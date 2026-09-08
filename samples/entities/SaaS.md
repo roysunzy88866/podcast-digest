@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SaaS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>13</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>14</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,6 +16,7 @@ unlisted: true
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(01:13起):Dan 反对「SaaS 末日论」，预测智能体会成倍增加 SaaS 的调用量和用户数，并且用户在自己电脑的本地 AI 环境中使用这些网页工具会消耗自己的大模型算力（tokens），从而大幅节省 SaaS 厂商的成本。
 - **[[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]]**(11:09起):本集指出传统 SaaS 的打包方式（数据模型+业务逻辑+界面）必须被拆解重组。底层数据模型（如总账）应当保留，但应用孤岛将被打破，通过智能体重组创造新价值。
 - **[[2026-06-17-yc-how-to-pick-a-startup-idea-e3ktvca|《YC 合伙人 John：别找完美想法，选一个然后深入》]]**(09:03起):本集在说「追求最雄心勃勃的版本」时提到可以挑战价值 100 亿美元的遗留 SaaS 公司，仅一笔带过
+- **[[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|《Wix CEO Avishai:SaaS 末日下,我们凭什么值钱》]]**(07:00起):本集主线之一：市场因「SaaSpocalypse」不知如何计算 AI 对 SaaS 的威胁而砸低估值倍数，嘉宾逐家分析哪些 SaaS 护城河是真的。
 - **[[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]]**(13:10起):本集说老牌应用层 SaaS 别死守毛利结构——在 AI 上成功却不承受毛利率压力从定义上讲是不可能的，应把毛利下降看作成功的勋章；服务碎片化 SMB 客户的 SaaS 仍可能出大赢家，微软转云是先例。
 - **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]]**(21:11起):本集说当智能体能接管原来靠企业软件走的工作流时，钱就不再花在 SaaS 订阅上了
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(07:26起):本集把它说成:通过云端交付的应用软件,是一个大约 5000 亿美元的市场
@@ -45,13 +46,14 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
 - [[2026-06-17-yc-how-to-pick-a-startup-idea-e3ktvca|《YC 合伙人 John：别找完美想法，选一个然后深入》]] — 作为概念(提及)
+- [[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|《Wix CEO Avishai:SaaS 末日下,我们凭什么值钱》]] — 作为概念
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为概念
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为概念(提及)
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为概念(提及)
@@ -65,9 +67,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Lenny]] · [[Microsoft]] · [[NVIDIA]] · [[Google]] · [[GPU]] · [[MCP]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Lenny]] · [[LLM]] · [[Claude Code]] · [[Microsoft]] · [[NVIDIA]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":96,"Anthropic":108,"Cursor":49,"Lenny":67,"Microsoft":24,"NVIDIA":30,"Google":37,"GPU":15,"MCP":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":96,"Anthropic":108,"Cursor":49,"Lenny":67,"LLM":28,"Claude Code":48,"Microsoft":24,"NVIDIA":30,"Salesforce":16}</script>
 
 <script>
 (function(){

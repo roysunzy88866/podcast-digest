@@ -141,8 +141,8 @@ Wes 的判断是——有时候行，有时候不行。你确实能看到大量�
 **顺着「AI 编程」挖下去**
 
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder]]<span class="pd-rz">同公司:Claude Code · 同概念:vibe coding、智能体 (agent)</span>
+- [[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|Wix CEO Avishai:SaaS 末日下,我们凭什么值钱]]<span class="pd-rz">同公司:Claude Code · 同概念:LLM、vibe coding</span>
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)、上下文 (context)</span>
-- [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|别迷信大上下文：拆解 Claude 认证架构师考试的反模式]]<span class="pd-rz">同公司:Claude Code · 同概念:LLM、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

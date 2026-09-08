@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Salesforce</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>15</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,6 +16,7 @@ unlisted: true
 - **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(09:03起):本集多次提及，推出了 Agentforce 智能体，并投入 2000 名前置部署工程师来确保客户成功。它正经历复兴，成为了众多 AI GTM 智能体底层插接的数据中心。
 - **[[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]]**(71:41起):本集提到 Jason Lemkit 用一个智能体跟踪每个人对 Salesforce 的更新并根据通话自动更新
 - **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(13:02起):被列为 HubSpot 从大公司挖人的来源之一，本集称从 Salesforce 挖来的人流失率为 100%。
+- **[[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|《Wix CEO Avishai:SaaS 末日下,我们凭什么值钱》]]**(07:39起):本集用作反例：其最大价值不是 CRM 而是大银行、大公司对它保管客户数据的信任——这种信任 vibe code 不出来。
 - **[[2026-07-18-twentyvc-20vc-5bn-in-revenue-7-to-7-000-employees|《从奶牛测序到 50 亿新冠检测生意，再到用 AI 智能体改造保险》]]**(01:14起):本集说 Curative 取消了每年 60 万美元的 Salesforce 订阅，换成两个月 vibe coding 出来的内部 CRM，运行更好、集成更深，连全职管理员都省了。
 - **[[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]]**(26:11起):本集提到同日 Salesforce 股价下跌 9%，作为企业软件公司受预算转移冲击的例子
 - **[[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]]**(27:01起):本集举例说销售团队用 Salesforce 做记录系统，Gamma 在商机创建、推进或约了会时自动生成演示文稿交付给销售代表。
@@ -38,13 +39,14 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*15 集*
+*16 集*
 
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|《Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱》]] — 作为被讨论公司(提及)
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为被讨论公司
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
+- [[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|《Wix CEO Avishai:SaaS 末日下,我们凭什么值钱》]] — 作为被讨论公司
 - [[2026-07-14-uncapped-uncapped-54--sam-blond-from-monaco-e3mlt|《三次从零到大规模：Brex 前销售掌门 Sam 的增长心法与 AI 原生销售哲学》]] — 作为被讨论公司
 - [[2026-07-18-twentyvc-20vc-5bn-in-revenue-7-to-7-000-employees|《从奶牛测序到 50 亿新冠检测生意，再到用 AI 智能体改造保险》]] — 作为被讨论公司
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|《IBM 单日暴跌 25%:企业软件的好日子到头了吗？》]] — 作为被讨论公司(提及)
@@ -60,9 +62,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Cursor]] · [[Harry Stebbings]] · [[Cognition]] · [[Stripe]] · [[Replit]] · [[护栏]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Harry Stebbings]] · [[Cursor]] · [[Cognition]] · [[Stripe]] · [[SaaS]] · [[Replit]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":96,"Anthropic":108,"Lenny":67,"Cursor":49,"Harry Stebbings":14,"Cognition":15,"Stripe":28,"Replit":14,"护栏":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":96,"Anthropic":108,"Lenny":67,"Harry Stebbings":15,"Cursor":49,"Cognition":15,"Stripe":28,"SaaS":14,"Replit":14}</script>
 
 <script>
 (function(){

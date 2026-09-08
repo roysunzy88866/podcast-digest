@@ -1,0 +1,304 @@
+{
+  "title_zh": "X登月工厂掌门人:如何系统化地杀掉想法、做出Waymo",
+  "tldr": "Alphabet 登月工厂 X 负责人 Astro Teller 讲解如何系统化颠覆性创新:先攻最大风险、快速杀死想法、用终止标准对抗自我欺骗,十年做出 Waymo。",
+  "digest_md": "每年尝试一两百个想法,绝大多数被自己人亲手杀掉,十年间却产出了 Waymo(自动驾驶)、Wing(送货无人机)和 Google Brain——这件事不是靠运气,而是一套刻意设计的机器。这期节目聊的就是这台机器怎么运转,主角是 Astro Teller,Alphabet 旗下「登月工厂」X 的联合创始人和负责人,在 X 干了十六年,更早之前是连续创业者、人工智能方向博士。\n\n他的核心主张一句话就能说完:**颠覆性创新可以系统化,关键不是想出好点子,而是高效地发现哪些点子有价值。**\n\n## 想法是容易的,难的是发现价值\n\nX 成立十六年前,定位类似「二十一世纪的贝尔实验室」:贴着谷歌,但不解决谷歌的问题,而是为 Alphabet 寻找全新的问题。产出三条路:像 Google Brain 那样重要到移回谷歌;像 Waymo、Wing 那样毕业成 Alphabet 内部的独立业务;或者越来越多地,让 Alphabet 持股 49%、不给董事会席位,彻底放它独立。\n\n他们的任务是**每十年尝试一千到一千五百个想法**,只要收获几个 Waymo 级别的成功就大赚。所以 Astro 把 X 称为「创新的算牌者」——像赌场算牌一样,用流程优势对冲运气,而不是押注直觉。\n\n一个反直觉的细节:X **刻意不追踪想法是谁的**,不允许谈论谁「创始」了一个想法。原因很直接:「想法是显而易见地容易的。我们每年有一千个想法,其中很多甚至拿不到代号。想法不是难的部分。我们的 alpha 来自我们能多高效地发现哪些想法有价值。」在这里,江湖地位不来自你想出了点子,而来自你帮忙杀掉了点子,或者找到了让想法从好变伟大的视角转换 [13:20 Astro Teller]。\n\n## 谁该来 X:深信不疑的人请走开\n\nAstro 招人时会直说:如果你有一个深信不疑、必须做成的东西,**请不要来 X**。他打了个比方——你相信 17 是你的幸运数字,要去轮盘上押 17,祝你好运,但那是另一套玩法。X 欠成员的承诺是:只要你聪明、精干地追求登月项目,并对进展保持智识上的诚实,错了不惩罚你。叫停项目的人会被庆祝,然后去试下一个。\n\n激励机制也很特别:在 X 期间**没有股权**(拿的是 Googler 待遇),直到某个项目毕业,团队才拿到那家公司的大量「创始人股份」。Astro 算的账是:你全程没承担个人风险,而 X 之所以养得起这种模式,是因为它能在早期就高效杀掉不够好的项目 [07:33 Astro Teller]。所以他招的往往是「上过一两次战场」的连续创业者——知道运气占多大成分,受够了「现实扭曲力场」,想要一个智识诚实的团队。\n\n## 漏斗:从每年一千个想法到两百个代号\n\n想法来自全世界——大学里的技术突破、X 员工、行业痛点,几乎从不来自 Astro 本人,他刻意不让自己变成创意瓶颈。原材料有两类:一是「原始技术机会」,比如无摩擦表面;二是宏大愿望,比如终结战争。但这两者都不是登月项目。登月项目的公式是三样东西糅合:**世界上巨大的问题 + 听起来像科幻的解决方案 + 让它成为可检验假设的突破性技术**。\n\nWaymo 早期就是这么表述的:每年一百多万人死于车祸、上万亿美元浪费在车祸和堵车上——疯狂想法:让车自己开。而且 LIDAR、雷达等技术「刚好够就绪」。值得学的是 Waymo 后来三次修正自我定位:头五年以为要「造车卖车」,后五年改为「变革出行」,如今是「做世界上最安全的司机」——定位越具体,探索空间和合作方式越开阔 [18:58 Astro Teller]。\n\n从一千个到两百个代号的筛选,主要看三点:有没有人愿意把至少一半时间押上去(没人信就不立项)、能不能用三要素清晰描述、**有没有可检验的假设**。Astro 明说:不会为一个想法资助五年,只资助五周、也许五个月——「花接下来的一两个月,搞到一条信息,告诉我们你是比我们以为的更错一点,还是没那么错一点。」没有可检验假设的,连飞轮都上不去 [23:12 Astro Teller]。\n\n立项的判断标准不是「这个想法物理上可不可能」(几乎什么都可能),而是**回报风险比**:回报除以风险(含所有成本和时间),相对「回答每个问题要花多少钱」。「回报巨大,风险挺大,但花十万美元就能搞清楚它是不是没那么疯狂?行,这个游戏我愿意玩一整天。要是第一条信息就花一百万?不值」[23:12 Astro Teller]。\n\n## 猴子:先攻最吓人的问题\n\nX 最著名的内部黑话来自一个故事:大约十一年前,Astro 在会议上说「应该先做问题中风险最大的部分」,连采访者都反驳他。情急之下他举了个例子:任务是让猴子站在十英尺基座上背诵莎士比亚,先搭基座还是先训练猴子?基座搭好你完成了「一半」,但在消解风险上是**百分之零**——因为训练不了猴子,基座根本不需要 [26:28 Astro Teller]。\n\n从此 Xer 互相问的速记就是:「猴子是什么?」——你现在做的事,在怎么消解最吓人那部分的风险?吓人的部分可能是物理可行性、可能是技术经济学(能不能造得足够便宜)、可能是用户行为或安全。比如 Wing 早期死磕安全问题,后来发现航模马达便宜到可以多装一批,坏一个桨叶都无所谓——安全从复杂的控制问题变成很小的增量成本,风险直接降档 [28:58 Astro Teller]。\n\n去风险的顺序永远是先便宜后昂贵:先在白板上杀;杀不掉就用模拟器杀;还不行再上物理实验。他们真有一个核聚变项目,最后造了房子那么大的装置、做了近千次等离子体射击,自己说服自己「不会改变世界」,一年半前关掉——「但那些钱花得值,因为我们已经先排除了所有更便宜的尝试方式」[29:48 Astro Teller]。\n\n## 终止标准:给未来自己的诚实讯息\n\n杀想法最难的部分不是方法论,是心理。Astro 对创业者很公平:风投圈要求创始人「烧掉船、背水一战」,这确实让人更拼命,但问题是**你选没选对烧船的城市**——而且烧了之后,问这个问题本身就吓人,因为没有回头路。很多创始人的团队结构压根没让「还钱收摊」成为理性选项。\n\nX 的解法叫**终止标准(kill criteria)**,而且有个关键设计:**标准由项目负责人自己制定,不是 Astro 定**——因为他要你拥有它。规则是:项目刚转入全职的那一刻,写下「未来一年,A、B、C 三件事必须至少达到这个水平,否则默认砍掉」。像一封给未来自信满满的自己的诚实讯息。「创业者定标准时总会放水,但从来都不够现实」[34:17 Astro Teller]。\n\n到期没达标,不等于必死,但**默认是死**——负责人得拿出「你还学到了什么,让它值得再试一次」的真答案。Astro 举的例子:造一个只用阳光从空气里提取清洁水的盒子,一年后你仍只有粗糙原型没关系,但你必须能讲出「如何把成本降到每升一美分」的具体故事——十美分一升只是豪华露营的玩具,一美分一升才能改变十亿人的命运。讲不出,为什么继续? [36:43 Astro Teller]\n\n文化配套同样重要:在 X,为自己手头的项目做推销式辩护会让人不舒服,因为周围人都觉得那很恶心。「这种期望必须植入文化并不断强化,因为世界其他地方不是这样运作的。」[38:19 Astro Teller] 有说服力的例子:当年砍掉核聚变项目的正是两位员工,他们自己写了两百五十页幻灯片论证关停——这份智识诚实的信誉,让他们九个月后带着一个更疯狂的新想法来时,直接拿到了十万美元预算 [39:39 Astro Teller]。\n\n## 进展是烟幕,学习才是产出\n\nX 给成熟项目开的董事会不叫董事会,叫**季度学习回顾**,名字本身就在提醒:别给我看进展。「进展就像一层烟幕。那是海上疯狂划桨的事情。我们想知道的是,你们真正学到了什么?」[31:34 Astro Teller]\n\nAstro 有个流传很广的比喻:目标在地平线之外、连方向都不知道时,人很容易陷入「我划得多卖力就能得救」的心态。「如果迷失在一艘划艇上,我会把百分之九十的时间花在六分仪上,百分之十的时间用来划桨。」最难的正是 unlearn「进展是终极指标」,换成**「学习是终极指标」——X 最大化的是每美元换来的信息增益** [16:09 Astro Teller]。\n\n这也解释了为什么项目一毕业(通常是十到五十人离开创办新公司)就切换模式:此后才有资格谈生意问题——有人要吗、造它多少钱、有人肯付多少钱、第二个数字比第一个大吗。但在 X 内部,他们要的不是 product market fit,而是「**登月市场匹配**」——整体得多的东西,因为你通常要改变的是一整个系统。\n\n## 登月市场匹配:别造通往月球的梯子\n\nAstro 对传统 product market fit 的批评很锋利:有人付钱只是超低门槛,正确的人付钱、付的钱超过成本、获取客户的代价从「硬推」变「自来拉」——这些重要,但那是在「活下来改日再战」的框架里打转。他担心很多 product market fit 孤岛化到只是在造梯子:「你也许能造一架相当高的梯子,但你不会以那种方式到达月球。」[42:15 Astro Teller]\n\n更有含金量的问题是「这个行业的**穴位**在哪里」。他们的电网登月项目就是例子:电网是各国的国家安全级资产,你不可能在实验室造假电网学到东西,也不可能一上来就跟运营商要全部数据。他们花了五年做「甚至不是登月计划本身」的事——深入理解运营商的问题、建立融洽关系,先和这个系统里的人进入节奏,然后才可能一起把电网运营带进 21 世纪 [42:15 Astro Teller]。\n\n还有一个张力:如果改变系统必须卖给在位者,而在位者不想让系统改变,你就可能被在位者绑架——你可以靠卖给他们年赚十亿美元,但你改变不了行业。所以 X 对合作方的开场白是直白的:「我们要炸掉你们的行业,你有兴趣和我们一起做吗?如果没有,请不要与我们签约。」很多人听完让他们滚开,但这就是那只猴子——问题在哪里,就诚实地面对哪里 [45:02 Astro Teller]。\n\n## 本集带走\n\n- **先找猴子,再搭基座**:启动任何项目,先问「最吓人的那部分风险是什么」,然后从最便宜的杀法开始依次尝试——白板推演 → 模拟器 → 物理实验,贵的验证永远放最后。\n- **给项目写终止标准**:全职投入的第一天就写下「一年后 A、B、C 必须达到什么水平,否则默认砍掉」,标准自己定、具体可查;到期不达标不是必死,但举证责任在你——你得说出学到了什么新东西值得再试。\n- **最大化「每美元的学习」,不是「进展」**:目标远到看不见方向时,卖力划桨只是心理安慰;把预算切成五周、五个月的小实验,买信息增益,而不是买一个可能三五年后才发现是巨石的投入。\n- **警惕梯子式 PMF**:有人付钱不等于对——如果你的目标是改变一个系统,要找的是行业的「穴位」,必要时先花几年与系统里的人建立节奏,并明确告诉在位伙伴「我们是要炸掉这个行业的」。\n- **奖励杀想法的人**:想法是容易的,发现价值才是 alpha;不追踪点子归属、庆祝叫停项目、让砍掉大项目的人带着信誉去开新项目——文化才是这套系统的地基。\n- **最后一条非传统建议**:Astro 给早期创始人最重要的忠告是做「艰难的内在功课」——理解自己和世界的关系、看清驱动自己的内在力量。他说这在未来十年带来的回报,超过雇一个更好的业务拓展人员 [46:29 Astro Teller]。",
+  "quotes": [
+    {
+      "en": "You know what? If we're lost in a rowboat, I'm going to spend ninety percent of my time with the sextant and ten percent of my time rowing.",
+      "zh": "你知道吗?如果我们迷失在一艘划艇上,我会把百分之九十的时间花在六分仪上,百分之十的时间用来划桨。",
+      "timestamp": "00:13",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "that our collective project was to get a monkey to stand on the top of a 10-foot pedestal and recite Shakespeare. Which should we do first in this somewhat extreme situation? Build the pedestal or train the monkey?",
+      "zh": "假设我们的集体任务是让一只猴子站在十英尺高的基座顶上背诵莎士比亚。在这种有些极端的情况下,我们应该先做哪件事?搭基座还是训练猴子?",
+      "timestamp": "00:48",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "If you built the pedestal, you're half done but you're really zero percent done at burning down the risk.",
+      "zh": "如果你搭好了基座,你完成了一半,但在消解风险上你实际上是百分之零。",
+      "timestamp": "01:01",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "Google Glass, turns out we were too, too early there. But increasingly, it's looking like we were very right. The whole world has come back around to that.",
+      "zh": "Google Glass,结果发现我们太,太早了。但现在越来越明显的是,我们当时非常正确。整个世界已经回到了那个方向上。",
+      "timestamp": "00:22",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "And if we get a couple Google Brains or Waymos or Wings per decade, especially if we're really efficient at throwing most of those ideas away early. Then this is really good for our investor Alphabet and really good for the world.",
+      "zh": "如果我们每十年能收获几个 Google Brain 或 Waymo 或 Wing,尤其是如果我们非常高效地早早扔掉大部分那些想法。那么这对我们的投资人 Alphabet 非常好,对世界也非常好。",
+      "timestamp": "06:10",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "At X, we're trying to be the card counters of innovation. So it is a very different process.",
+      "zh": "在 X,我们努力成为创新的算牌者。所以这是一个非常不同的流程。",
+      "timestamp": "08:14",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "What I owe you, what all of X owes you, if you're going to join us, is that we have to be serious about not punishing you when you're wrong.",
+      "zh": "我欠你的,整个 X 欠你的,如果你要加入我们,就是我们必须认真地做到:当你错的时候不惩罚你。",
+      "timestamp": "08:29",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "But the good news is you haven't bet your kid's college fund on the teleporter. So if the teleporter turns out not to be the right thing for us to do, and we're actually going to celebrate you for stopping it.",
+      "zh": "但好消息是你没有把孩子的大学基金押在传送机上。所以如果传送机最后证明不是我们该做的事,我们实际上会为叫停它而庆祝你。",
+      "timestamp": "08:55",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "You have to rewire your sense of self worth to how wisely you can explore ideas and how viciously. In fact, we can attack our own ideas and pressure test them to see which ones survive.",
+      "zh": "你必须把你的自我价值感重连到你探索想法有多智慧,以及我们能多狠地——事实上,我们就是可以——攻击自己的想法并给它们做压力测试,看哪些能存活下来。",
+      "timestamp": "12:37",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "Because the ideas are easy. Ideas are trivially easy. We have a thousand ideas a year, that many of them just don't even get code names. Ideas are not the hard part. Our alpha comes from how efficiently we can discover which ideas are valuable.",
+      "zh": "因为想法是容易的。想法是显而易见地容易。我们每年有一千个想法,其中很多甚至拿不到代号。想法不是难的部分。我们的 alpha 来自我们能多高效地发现哪些想法有价值。",
+      "timestamp": "13:20",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "But every entrepreneur knows in their hearts that that's actually like building a ladder to the moon. All these band-aids, they hate it, they all hate it.",
+      "zh": "但每个创业者在心里都知道那其实就像造一架通往月球的梯子。所有这些创可贴,他们讨厌它,他们都讨厌它。",
+      "timestamp": "14:59",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "But that is a really hard thing to get people to unlearn because they have learned that progress is the ultimate metric instead of learning being the ultimate metric.",
+      "zh": "但让人们 unlearn 这一点真的很难,因为他们学到的是进展是终极指标,而不是学习是终极指标。",
+      "timestamp": "16:58",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "But we're buying options on the future and so information gain, the learning per dollar, is what we're actually trying to maximize.",
+      "zh": "但我们在购买未来的期权,所以信息增益,每一美元换来的学习,才是我们真正想最大化的。",
+      "timestamp": "17:15",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "So we're not the paradigm shifting scientists. That's not what we do. We're paradigm shifting system engineers.",
+      "zh": "所以我们不是范式转换的科学家。那不是我们做的。我们是范式转换的系统工程师。",
+      "timestamp": "18:30",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "If the reward risk ratio is okay, and it's going to take us a million dollars to find out the first piece of information about whether we're on the right track, not worth it. Reward is ginormous, risk is pretty big but we can find out for $100,000 whether this is a little bit less crazy than we thought. Yeah, I'll play that game all day long.",
+      "zh": "如果回报风险比还可以,而要搞清楚我们是否在正轨上的第一条信息要花一百万美元,不值。回报巨大,风险挺大,但我们可以花十万美元搞清楚这是不是比我们以为的没那么疯狂一点。行,这个游戏我愿意玩一整天。",
+      "timestamp": "25:22",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "Everyone at X will just say as shorthand to each other, what's the monkey? What they mean by that is not just, do you have a testable hypothesis but how is the thing that you're doing now attempting to burn down the risk on the riskiest part of the problem?",
+      "zh": "X 里的每个人都会用速记彼此说,猴子是什么?他们的意思不只是,你有没有一个可检验假设,而是你现在做的事情如何试图消解问题中风险最大那部分的风险?",
+      "timestamp": "27:31",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "We convinced ourself it was not going to change the world, and we closed the project down. But it was money well spent because we had removed all the cheaper ways to try that first.",
+      "zh": "我们说服了自己它不会改变世界,然后我们关掉了项目。但那些钱花得值,因为我们已经先排除了所有更便宜的尝试方式。",
+      "timestamp": "30:42",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "Just to remind everybody, don't show me your progress. Progress is like a smoke screen. That's the rowing frantically in the ocean thing. What we want to know is, what have you really learned?",
+      "zh": "就是为了提醒每个人,别给我看你的进展。进展就像一层烟幕。那是在海上疯狂划桨的事情。我们想知道的是,你们真正学到了什么?",
+      "timestamp": "32:42",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "We don't want a Product Market Fit. We want this sort of moonshot market fit, which is much more holistic. Often we're trying to change a system out in the world.",
+      "zh": "我们不想要一个 Product Market Fit。我们想要这种登月市场匹配,它是整体得多的。通常我们是在试图改变世界上的一个系统。",
+      "timestamp": "33:10",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "Right at that moment where you start to do this full time, write down your kill criteria. This is like an honesty message from you to your future self.",
+      "zh": "就在你开始全职做这件事的那一刻,写下你的终止标准。这是你给未来的自己的一条诚实讯息。",
+      "timestamp": "35:58",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "I'll try to sandbag a little bit, but entrepreneurs are never realistic enough.",
+      "zh": "我会试着稍微放点水,但创业者从来都不够现实。",
+      "timestamp": "36:32",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "But if I ask you to get to the moon, and you show me that you're a foot closer to the moon every day, not interesting. There's probably a ladder to the moon and I worry that there's a bunch of Product Market Fit that is so siloed. It's just building a ladder to the moon. You might build a pretty tall ladder, but you're not going to get to the moon that way.",
+      "zh": "但如果我让你去月球,而你向我展示你每天都离月球近一英尺,没意思。大概有一架通往月球的梯子,而我担心有很多 Product Market Fit 是如此孤岛化。那就是在造一架通往月球的梯子。你也许能造一架相当高的梯子,但你不会以那种方式到达月球。",
+      "timestamp": "44:28",
+      "speaker": "Astro Teller"
+    },
+    {
+      "en": "We're going to blow up your industry. Are you interested in doing that with us? If not, please do not sign up with us. You'll just be angry at us later and we say that to people, and many of them tell us to pound sand.",
+      "zh": "我们要炸掉你们的行业。你有兴趣和我们一起做吗?如果没有,请不要与我们签约。你以后只会对我们生气,我们对人们就是这么说的,而他们中很多人让我们滚开。",
+      "timestamp": "45:48",
+      "speaker": "Astro Teller"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Astro Teller",
+      "en": "You know what? If we're lost in a rowboat, I'm going to spend ninety percent of my time with the sextant and ten percent of my time rowing.",
+      "zh": "你知道吗?如果我们迷失在一艘划艇上,我会把百分之九十的时间花在六分仪上,百分之十的时间用来划桨。"
+    },
+    {
+      "timestamp": "00:00",
+      "speaker": "Astro Teller",
+      "en": "Suppose that our collective project was to get a monkey to stand on the top of a 10-foot pedestal and recite Shakespeare. Which should we do first in this somewhat extreme situation? Build the pedestal or train the monkey?",
+      "zh": "假设我们的集体任务是让一只猴子站在十英尺高的基座顶上背诵莎士比亚。在这种有些极端的情况下,我们应该先做哪件事?搭基座还是训练猴子?"
+    },
+    {
+      "timestamp": "00:00",
+      "speaker": "Astro Teller",
+      "en": "If you built the pedestal, you're half done but you're really zero percent done at burning down the risk.",
+      "zh": "如果你搭好了基座,你完成了一半,但在消解风险上你实际上是百分之零。"
+    },
+    {
+      "timestamp": "00:00",
+      "speaker": "Astro Teller",
+      "en": "Google Glass, turns out we were too, too early there. But increasingly, it's looking like we were very right. The whole world has come back around to that.",
+      "zh": "Google Glass,结果发现我们太,太早了。但现在越来越明显的是,我们当时非常正确。整个世界已经回到了那个方向上。"
+    },
+    {
+      "timestamp": "01:38",
+      "speaker": "Astro Teller",
+      "en": "Taking moonshots is really easy, super easy. If you don't care about efficiency, you find really high energy people who think they're right and are pretty smart. You dump a bunch of money on them and you'll get some moonshots. It's just not an efficient process.",
+      "zh": "尝试登月项目真的很容易,超级容易。如果你不在乎效率,你找那些精力旺盛、自认为正确而且相当聪明的人。你往他们身上砸一大笔钱,你就会得到一些登月项目。只是这个过程并不高效。"
+    },
+    {
+      "timestamp": "06:10",
+      "speaker": "Astro Teller",
+      "en": "And if we get a couple Google Brains or Waymos or Wings per decade, especially if we're really efficient at throwing most of those ideas away early. Then this is really good for our investor Alphabet and really good for the world.",
+      "zh": "如果我们每十年能收获几个 Google Brain 或 Waymo 或 Wing,尤其是如果我们非常高效地早早扔掉大部分那些想法。那么这对我们的投资人 Alphabet 非常好,对世界也非常好。"
+    },
+    {
+      "timestamp": "07:33",
+      "speaker": "Astro Teller",
+      "en": "At X, we're trying to be the card counters of innovation. So it is a very different process.",
+      "zh": "在 X,我们努力成为创新的算牌者。所以这是一个非常不同的流程。"
+    },
+    {
+      "timestamp": "07:33",
+      "speaker": "Astro Teller",
+      "en": "What I owe you, what all of X owes you, if you're going to join us, is that we have to be serious about not punishing you when you're wrong.",
+      "zh": "我欠你的,整个 X 欠你的,如果你要加入我们,就是我们必须认真地做到:当你错的时候不惩罚你。"
+    },
+    {
+      "timestamp": "07:33",
+      "speaker": "Astro Teller",
+      "en": "But the good news is you haven't bet your kid's college fund on the teleporter. So if the teleporter turns out not to be the right thing for us to do, and we're actually going to celebrate you for stopping it.",
+      "zh": "但好消息是你没有把孩子的大学基金押在传送机上。所以如果传送机最后证明不是我们该做的事,我们实际上会为叫停它而庆祝你。"
+    },
+    {
+      "timestamp": "11:30",
+      "speaker": "Astro Teller",
+      "en": "You have to rewire your sense of self worth to how wisely you can explore ideas and how viciously. In fact, we can attack our own ideas and pressure test them to see which ones survive.",
+      "zh": "你必须把你的自我价值感重连到你探索想法有多智慧,以及我们能多狠地——事实上,我们就是可以——攻击自己的想法并给它们做压力测试,看哪些能存活下来。"
+    },
+    {
+      "timestamp": "13:20",
+      "speaker": "Astro Teller",
+      "en": "Because the ideas are easy. Ideas are trivially easy. We have a thousand ideas a year, that many of them just don't even get code names. Ideas are not the hard part. Our alpha comes from how efficiently we can discover which ideas are valuable.",
+      "zh": "因为想法是容易的。想法是显而易见地容易。我们每年有一千个想法,其中很多甚至拿不到代号。想法不是难的部分。我们的 alpha 来自我们能多高效地发现哪些想法有价值。"
+    },
+    {
+      "timestamp": "14:30",
+      "speaker": "Astro Teller",
+      "en": "But if the teleporter is not going to be a Waymo, I want to know now. I don't want to know in three years, and I want you to be with me in wanting to know now, and not wanting to know in three years.",
+      "zh": "但如果传送机不会成为 Waymo,我现在就想知道。我不想三年后才知道,而且我想让你和我一起,想现在知道,而不是想三年后知道。"
+    },
+    {
+      "timestamp": "14:55",
+      "speaker": "Astro Teller",
+      "en": "But every entrepreneur knows in their hearts that that's actually like building a ladder to the moon. All these band-aids, they hate it, they all hate it.",
+      "zh": "但每个创业者在心里都知道那其实就像造一架通往月球的梯子。所有这些创可贴,他们讨厌它,他们都讨厌它。"
+    },
+    {
+      "timestamp": "16:09",
+      "speaker": "Astro Teller",
+      "en": "But that is a really hard thing to get people to unlearn because they have learned that progress is the ultimate metric instead of learning being the ultimate metric.",
+      "zh": "但让人们 unlearn 这一点真的很难,因为他们学到的是进展是终极指标,而不是学习是终极指标。"
+    },
+    {
+      "timestamp": "16:09",
+      "speaker": "Astro Teller",
+      "en": "But we're buying options on the future and so information gain, the learning per dollar, is what we're actually trying to maximize.",
+      "zh": "但我们在购买未来的期权,所以信息增益,每一美元换来的学习,才是我们真正想最大化的。"
+    },
+    {
+      "timestamp": "16:09",
+      "speaker": "Astro Teller",
+      "en": "So we're not the paradigm shifting scientists. That's not what we do. We're paradigm shifting system engineers.",
+      "zh": "所以我们不是范式转换的科学家。那不是我们做的。我们是范式转换的系统工程师。"
+    },
+    {
+      "timestamp": "23:12",
+      "speaker": "Astro Teller",
+      "en": "If the reward risk ratio is okay, and it's going to take us a million dollars to find out the first piece of information about whether we're on the right track, not worth it. Reward is ginormous, risk is pretty big but we can find out for $100,000 whether this is a little bit less crazy than we thought. Yeah, I'll play that game all day long.",
+      "zh": "如果回报风险比还可以,而要搞清楚我们是否在正轨上的第一条信息要花一百万美元,不值。回报巨大,风险挺大,但我们可以花十万美元搞清楚这是不是比我们以为的没那么疯狂一点。行,这个游戏我愿意玩一整天。"
+    },
+    {
+      "timestamp": "26:28",
+      "speaker": "Astro Teller",
+      "en": "Everyone at X will just say as shorthand to each other, what's the monkey? What they mean by that is not just, do you have a testable hypothesis but how is the thing that you're doing now attempting to burn down the risk on the riskiest part of the problem?",
+      "zh": "X 里的每个人都会用速记彼此说,猴子是什么?他们的意思不只是,你有没有一个可检验假设,而是你现在做的事情如何试图消解问题中风险最大那部分的风险?"
+    },
+    {
+      "timestamp": "29:48",
+      "speaker": "Astro Teller",
+      "en": "We convinced ourself it was not going to change the world, and we closed the project down. But it was money well spent because we had removed all the cheaper ways to try that first.",
+      "zh": "我们说服了自己它不会改变世界,然后我们关掉了项目。但那些钱花得值,因为我们已经先排除了所有更便宜的尝试方式。"
+    },
+    {
+      "timestamp": "31:34",
+      "speaker": "Astro Teller",
+      "en": "Just to remind everybody, don't show me your progress. Progress is like a smoke screen. That's the rowing frantically in the ocean thing. What we want to know is, what have you really learned?",
+      "zh": "就是为了提醒每个人,别给我看你的进展。进展就像一层烟幕。那是在海上疯狂划桨的事情。我们想知道的是,你们真正学到了什么?"
+    },
+    {
+      "timestamp": "31:34",
+      "speaker": "Astro Teller",
+      "en": "We don't want a Product Market Fit. We want this sort of moonshot market fit, which is much more holistic. Often we're trying to change a system out in the world.",
+      "zh": "我们不想要一个 Product Market Fit。我们想要这种登月市场匹配,它是整体得多的。通常我们是在试图改变世界上的一个系统。"
+    },
+    {
+      "timestamp": "34:17",
+      "speaker": "Astro Teller",
+      "en": "Right at that moment where you start to do this full time, write down your kill criteria. This is like an honesty message from you to your future self.",
+      "zh": "就在你开始全职做这件事的那一刻,写下你的终止标准。这是你给未来的自己的一条诚实讯息。"
+    },
+    {
+      "timestamp": "34:17",
+      "speaker": "Astro Teller",
+      "en": "I'll try to sandbag a little bit, but entrepreneurs are never realistic enough.",
+      "zh": "我会试着稍微放点水,但创业者从来都不够现实。"
+    },
+    {
+      "timestamp": "42:15",
+      "speaker": "Astro Teller",
+      "en": "But if I ask you to get to the moon, and you show me that you're a foot closer to the moon every day, not interesting. There's probably a ladder to the moon and I worry that there's a bunch of Product Market Fit that is so siloed. It's just building a ladder to the moon. You might build a pretty tall ladder, but you're not going to get to the moon that way.",
+      "zh": "但如果我让你去月球,而你向我展示你每天都离月球近一英尺,没意思。大概有一架通往月球的梯子,而我担心有很多 Product Market Fit 是如此孤岛化。那就是在造一架通往月球的梯子。你也许能造一架相当高的梯子,但你不会以那种方式到达月球。"
+    },
+    {
+      "timestamp": "45:02",
+      "speaker": "Astro Teller",
+      "en": "We're going to blow up your industry. Are you interested in doing that with us? If not, please do not sign up with us. You'll just be angry at us later and we say that to people, and many of them tell us to pound sand.",
+      "zh": "我们要炸掉你们的行业。你有兴趣和我们一起做吗?如果没有,请不要与我们签约。你以后只会对我们生气,我们对人们就是这么说的,而他们中很多人让我们滚开。"
+    },
+    {
+      "timestamp": "46:29",
+      "speaker": "Astro Teller",
+      "en": "But over the next ten years, that's the thing that will supercharge them the most. Not hiring a better business development person.",
+      "zh": "但在未来十年,那是最能给他们赋能的事情。不是雇一个更好的业务拓展人员。"
+    }
+  ],
+  "voice_script": "今天要讲的人叫 Astro Teller,是 Alphabet 旗下那个传说中的登月工厂 X 的联合创始人和负责人。在里面干了十六年,更早之前是连续创业者、人工智能博士。要聊的问题一句话就能说明白:颠覆性创新到底能不能系统化?X 每年尝试一两百个想法,绝大多数被自己人亲手杀掉,十年间却产出了 Waymo 自动驾驶、Wing 送货无人机和 Google Brain。这事不是靠运气,而是一套刻意设计的机器。\n\n先垫一下背景。X 成立十六年前,定位类似二十一世纪的贝尔实验室——贴着谷歌,但不解决谷歌的问题,而是为 Alphabet 寻找全新的问题。任务是每十年尝试一千到一千五百个想法,只要收获几个 Waymo 级别的成功就大赚。所以 Astro 把 X 称为创新的算牌者,像赌场算牌一样,用流程优势对冲运气,而不是押注直觉。\n\n那这套机器的底层逻辑是什么?说出来有点反直觉:X 刻意不追踪想法是谁的,甚至不允许谈论谁创始了一个想法。原因很直接——想法是显而易见地容易的,每年一千个想法,很多连代号都拿不到。想法从来不是难的部分。真正的优势,在于能多高效地发现哪些想法有价值。所以在 X,江湖地位不来自你想出了点子,而来自你帮忙杀掉了点子,或者找到了让想法从好变伟大的视角转换。\n\n顺着这个逻辑往下想,招人就成了关键。Astro 招人时会直说:如果你有一个深信不疑、必须做成的东西,请不要来 X。打了个比方——你相信十七是你的幸运数字,要去轮盘上押十七,祝你好运,但那是另一套玩法。X 欠成员的承诺是:只要你聪明、精干地追求登月项目,并对进展保持智识上的诚实,错了不惩罚你。叫停项目的人会被庆祝,然后去试下一个。激励机制也很特别:在 X 期间没有股权,直到某个项目毕业,团队才拿到那家公司的大量创始人股份。Astro 算的账是,你全程没承担个人风险,而这套模式养得起的根本原因,是能在早期就高效杀掉不够好的项目。所以他招的往往是上过一两次战场的连续创业者,知道运气占多大成分,想要一个智识诚实的团队。\n\n好,人有了,想法有了,怎么筛?登月项目的公式是三样东西糅合:世界上巨大的问题,加听起来像科幻的解决方案,加让它成为可检验假设的突破性技术。Waymo 早期就是这么表述的:每年一百多万人死于车祸、上万亿美元浪费在车祸和堵车上,疯狂想法是让车自己开,而且相关技术刚好够就绪。从一千个想法筛到两百个代号,主要看三点:有没有人愿意把至少一半时间押上去,能不能用三要素清晰描述,有没有可检验的假设。Astro 明说,不会为一个想法资助五年,只资助五周、也许五个月。花接下来的一两个月,搞到一条信息,告诉我们你是比我们以为的更错一点,还是没那么错一点。立项的判断标准也不是物理上可不可能,而是回报风险比:回报巨大、风险挺大,但花十万美元就能搞清楚它是不是没那么疯狂?这个游戏愿意玩一整天。要是第一条信息就花一百万?不值。\n\n那筛选的具体顺序怎么排?这就引出 X 最著名的内部黑话,来自一个故事。大约十一年前,Astro 在会上说应该先做问题中风险最大的部分,连采访者都反驳。情急之下举了个例子:任务是让猴子站在十英尺基座上背诵莎士比亚,先搭基座还是先训练猴子?基座搭好你完成了一半,但在消解风险上是百分之零——因为训练不了猴子,基座根本不需要。从此 Xer 互相问的速记就是:猴子是什么?你现在做的事,在怎么消解最吓人那部分的风险?吓人的部分可能是物理可行性,可能是技术经济学,可能是用户行为或安全。去风险的顺序永远是先便宜后昂贵:先在白板上杀,杀不掉用模拟器杀,还不行再上物理实验。他们真有一个核聚变项目,最后造了房子那么大的装置、做了近千次等离子体射击,自己说服自己不会改变世界,一年半前关掉。但那些钱花得值,因为已经先排除了所有更便宜的尝试方式。\n\n说到这儿,你可能会觉得方法论都齐了。但杀想法最难的部分其实不是方法论,是心理。很多创始人的团队结构,压根没让还钱收摊成为理性选项。风投圈要求创始人烧掉船背水一战,这确实让人更拼命,可问题是你选没选对烧船的城市,而且烧了之后,问这个问题本身就吓人。X 的解法叫终止标准,而且有个关键设计:标准由项目负责人自己制定,不是老板定——因为要你拥有它。规则是项目刚转入全职的那一刻,写下未来一年哪几件事必须达到什么水平,否则默认砍掉。这像一封给未来自信满满的自己的诚实讯息。Astro 说创业者定标准时总会放水,但从来都不够现实。到期没达标,不等于必死,但默认是死——负责人得拿出你还学到了什么、让它值得再试一次的真答案。举个例子:造一个只用阳光从空气里提取清洁水的盒子,一年后只有粗糙原型没关系,但你必须能讲出如何把成本降到每升一美分的具体故事,因为一美分一升才能改变十亿人的命运。讲不出,为什么继续?\n\n这套文化还真有人守住了。当年砍掉核聚变项目的,正是两位员工自己,写了两百五十页幻灯片论证关停。这份智识诚实的信誉,让他们九个月后带着一个更疯狂的新想法来时,直接拿到了十万美元预算。\n\n再往深一层,是对进展本身的看法。X 给成熟项目开的董事会不叫董事会,叫季度学习回顾——名字本身就在提醒:别给我看进展。进展就像一层烟幕,是海上疯狂划桨的事情,真正想知道的是你们学到了什么。Astro 有个流传很广的比喻:如果迷失在一艘划艇上,我会把百分之九十的时间花在六分仪上,百分之十的时间用来划桨。X 最大化的是每美元换来的信息增益,不是进展。这也解释了为什么项目一毕业就切换模式,才有资格谈生意问题。而在 X 内部要的不是 product market fit,而是登月市场匹配——因为你通常要改变的是一整个系统。Astro 对传统 PMF 的批评很锋利:有人付钱只是超低门槛,你可能造出一架相当高的梯子,但你不会以那种方式到达月球。更有含金量的问题是这个行业的穴位在哪里。他们甚至对合作方的开场白都是直白的:我们要炸掉你们的行业,你有兴趣和我们一起做吗?如果没有,请不要与我们签约。很多人听完让他们滚开,但这就是那只猴子——问题在哪里,就诚实地面对哪里。\n\n所以如果只带走一句话,就是这句:目标在地平线之外、连方向都不知道的时候,卖力划桨只是心理安慰。先把百分之九十的时间花在六分仪上,买信息,而不是买一个可能三五年后才发现是巨石的投入。想法是容易的,发现价值才是真正的 alpha。"
+}

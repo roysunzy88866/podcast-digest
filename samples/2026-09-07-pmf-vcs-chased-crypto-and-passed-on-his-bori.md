@@ -155,7 +155,7 @@ Aaron 的整个渠道打法建立在他此前在大机构的职业生涯上(始�
 
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同概念:企业级销售 (enterprise sales)</span>
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新]]<span class="pd-rz">同概念:产品市场匹配 (product market fit)</span>
-- [[2026-07-20-pmf-1st-time-solo-founder-does-90-interviews|90 天 90 场访谈：一个 Solo Founder 的两年 2500 万之路]]<span class="pd-rz">同概念:产品市场匹配 (product market fit)</span>
+- [[2026-07-13-pmf-he-tries-1-000-ideas-a-decade-kills-near|X登月工厂掌门人:如何系统化地杀掉想法、做出Waymo]]<span class="pd-rz">同概念:产品市场匹配 (product market fit)</span>
 
 </div>
 <div class="pd-ex">

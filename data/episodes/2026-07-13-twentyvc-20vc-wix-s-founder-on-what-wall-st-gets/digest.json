@@ -1,0 +1,154 @@
+{
+  "title_zh": "Wix CEO Avishai:SaaS 末日下,我们凭什么值钱",
+  "tldr": "Wix CEO Avishai 谈 Base44 一年做到 1.5 亿美元 ARR、为什么 AI 杀不死 Salesforce、自研模型省多少成本，以及他为何完全不在乎股价暴跌。",
+  "digest_md": "这一集的主角是 Avishai——网站搭建平台 Wix 的 CEO,也是协同办公产品 Monday 和 vibe coding 产品 Base44 背后的关键人物。Wix 现在的处境很尴尬:市值约 28 亿美元,营收却有 21 亿美元，每年还产生约 4 亿美元自由现金流，但公开市场就是不给估值。他认为是“SaaS 末日”(SaaSpocalypse)情绪在作祟：市场不知道该怎么计算 AI 对 SaaS 公司的威胁，于是整体砸低了估值倍数 [07:00 Avishai]。而他最反直觉的回应是：我们都高估了 AI——而且他手握一个一年冲到 1.5 亿美元 ARR 的 AI 产品，却依然认为传统 SaaS 的护城河比大多数人想的深。\n\n## AI 杀不死 Salesforce,但你 vibe code 不出 Shopify\n\nAvishai 对“AI 将取代 SaaS”的论调有一套具体的反驳。以 Salesforce 为例：它最大的价值根本不是 CRM(客户关系管理软件)，而是大银行、大公司愿意把全部客户数据托付给它——这种信任是巨大的。“你不可能是用 vibe coding(用自然语言让 AI 生成整个应用)做出那个信任来。JP Morgan 在自己的封闭安全环境之外，不会信任任何其他平台保管客户数据，除了 Salesforce。这极其难被改变。” [09:05 Avishai]\n\n但他也坦承不是所有 SaaS 都安全。他自己是 Atlassian 的长期股东，却最担心这家公司：Atlassian 的客户全是开发者——恰恰是最有可能用 Claude Code 自己动手造工具的人群，“如果真有人要取代工单和工作流管理套件，被取代的就是这批家伙” [10:36 Avishai]。\n\n那 Wix 的客户(街边披萨店、理发师)会自己 vibe code 出一整套业务系统吗？Avishai 拿实验数据说话：Base44 团队让专业开发者试着用通用 AI 编码工具搭建理发店管理逻辑，做了一周只做出一点，换了原班写该产品的更强团队再来两周，依然没成。“那些东西很复杂。披萨店老板不会用 Claude Code 去搭他的配送、排班、员工管理，再建个网站” [11:59 Avishai]。他给出的图景是三种人群的分布：多数小老板这辈子的事业就是做披萨，不会动手；一部分人会发现 Base44 让一切太容易，用它定制全套工具；中间地带最大——所以他两样都做，Wix 和 Base44 都握在手里 [13:12 Avishai]。他强调自己正是在“为明天的模型而构建”——Base44 就是这个押注。\n\n## Base44:一人公司、8000 万美元、一年 1.5 亿 ARR\n\nBase44 被 Wix 收购时是一个只有一个人的公司，价格 8000 万美元。现在它的营收大约是收购价的两倍，约 1.6 亿美元，团队已扩到约 400 人；Avishai 预计两年后到 800 到 1000 人，而且大多数会是工程师 [53:03 Avishai]。他还透露董事会批准的过程出奇地顺利：董事会问了一堆关于业务逻辑、内部营销、团队搭建的聪明问题，但没有一个人问“为什么愿意为一个人付这么多钱”。\n\n利润率方面他很坦诚：Wix 的盈利能力远高于 Base44——生成一个 Wix 网站的成本和托管成本相比之下几乎为零，而且 Wix 的用户留存也更好(因为你开始搭的东西要花大力气才能完成，反而留下了)。Base44 的成本在持续下降，靠的是一个关键动作：自研模型。\n\n## 自研模型：不为取代前沿模型，只为自家场景\n\nWix 刚发布了自己的 AI 模型：微调几个模型再组合起来，在 Base44 场景上达到与顶级模型相当的质量，成本却低得多 [14:53 Avishai]。逻辑有两条。第一是数据：Base44 每天产生海量“用户想做什么、AI 在哪失败”的真实数据，他们越来越懂“用户想说什么、只是提示词写错了”。第二是聚焦：“我们不需要前沿模型里那些中国诗歌的知识，我们需要的是理解‘我要一个任务管理器来管我丈夫’到底是什么意思。”在 Wix 主站上这套打法已经验证过——自研模型更快、更便宜、错误更少，每周都有反馈循环在迭代。\n\n至于便宜多少，他的回答出乎意料地保守：复杂任务场景下大概省 5% 到 30%,远没有外界传的“开源便宜 14 到 16 倍”那么夸张——那种数字只适用于用基础模型做简单任务。而且他明确表示现在还没到成本优化阶段：“多 20% 的质量和省 20% 的成本让我选，我绝对选质量。这是个刚开始的新市场” [17:56 Avishai]。\n\n## 回购、股价与不在乎的艺术\n\n关于那次被 Harry 调侃“效果堪比泰坦尼克”的 15 亿美元回购，Avishai 自己承认时机很糟，但解释了逻辑：流通股太多、账上现金太多、又明确不做大型收购(专注 Base44 和新产品)，持有现金没意义。他至今是回购的坚定支持者：“回购对公司是极好的工具，公司用得还不够。它本质上等同于分红，用来平衡股权激励(SBC)的稀释” [25:49 Avishai]。至于股价——他的态度是彻底抽离：“今天我们随的是别家公司的消息波动——OpenAI、Anthropic、Google 说了什么——不是 Wix 的消息。我影响不了那个” [20:29 Avishai]。涨的时候他关心的仍是待解决的问题，和跌的时候做的是同一件事。并购也卡不在这：Wix 有现金，“我们今天的挑战是执行力，不是资金”。\n\n## 给 AI 泼的冷水，以及它真正能做的事\n\nAvishai 最鲜明的立场是：“我们都给了 AI 太多的赞誉。它惊艳、强大，但那个‘但是’非常大” [33:21 Avishai]。他讲了自己让 Claude 写安全协议的经历：AI 一本正经列出六个必须测试的闸门，他逐个追问为什么，结果六个变成了一个——其余的 AI 自己承认“你可能问住我了，我可能越界了”。他的结论是：我们都倾向于对 AI 模型抱有巨大的信任，而它配不上这种信任 [36:00 Avishai]。LLM 不擅长推理，擅长的是收集和重组数据；用它做科研是错误的工具，医生拿 LLM 做研究会让他感到惊恐。但文本密集的领域例外——法律“像代码一样是文本语境的，而且有海量文档，是它最能发挥作用的地方之一” [39:07 Avishai];医疗诊断也可行(他投资的公司已证明诊断比多数医生准)，但医学研究不行。\n\n他也透露了自己过去 12 个月最大的转变：以前非常担心人类被 AI 取代的速度，现在认为“会比预想的慢得多”——大家嘴上说实现了 AGI,却做不了那些真正关键的大问题，“我们某种程度上是在改定义，去迁就一个做不到关键事情的东西” [51:14 Avishai]。但他看好的落地场景非常具体：明年起，健身房老板、私人教练用 AI 管理业务、销售附加产品、触达新客户的能力将被大幅增强——不是十年后，是明年。而被问及 AI 客服创业公司时，他透露 Wix 试了外部的方案三次，“没成功，没成功，没成功”，最后还是继续做自己的方案——因为这些被推销的公司面对的，是一群比它们更聪明的工程师在自建。\n\n## 本集带走\n\n- **判断 AI 威胁要看“信任”和“客户是谁”**：数据托管型 SaaS(如 Salesforce)的护城河是信任，AI 复刻不了；客户是开发者的公司(如 Atlassian)才最危险。\n- **AI 产品要靠自有数据建垂直模型**：微调+组合模型聚焦自家场景，能以顶级模型的质量换来 5%-30% 的成本下降——别指望通用前沿模型懂你的用户。\n- **对 AI 输出保持审问习惯**：AI 列的“六个必测闸门”被逐个追问后只剩一个——它倾向于过度给出确定答案，验证责任在你。\n- **回购是用好现金的正经工具**：在无并购计划、现金充裕时，回购平衡 SBC 稀释，本质等同于分红。\n- **韧性从接受开始**：打击百分之百会来、且不预告；只需要能诚实回答“在我能控制的范围内，我做到最好了吗”。\n- **陪伴孩子重质不重量**：你在场时的状态，比你在场的频率重要。",
+  "quotes": [
+    {
+      "en": "You're not going to vibe code Shopify, no matter how good you are.",
+      "zh": "无论你多厉害，你都不可能用 vibe coding 做出 Shopify。",
+      "timestamp": "00:00",
+      "speaker": "Avishai Abrahami"
+    },
+    {
+      "en": "If you let me have 20% more quality, 20% less cost, I'll definitely go for the quality.",
+      "zh": "如果你让我在多 20% 的质量和少 20% 的成本之间选，我绝对会选质量。",
+      "timestamp": "17:58",
+      "speaker": "Avishai Abrahami"
+    },
+    {
+      "en": "I think that buyback are a fantastic tool for a company, and companies should use that, and I think they don't use it enough.",
+      "zh": "我认为回购对公司来说是一个极好的工具，公司应该使用它，而且我认为他们用得还不够。",
+      "timestamp": "25:49",
+      "speaker": "Avishai Abrahami"
+    },
+    {
+      "en": "And I think a lot of times it's a healthy thing for a company.",
+      "zh": "而且我认为很多时候，人才流失对公司来说是一件健康的事。",
+      "timestamp": "29:36",
+      "speaker": "Avishai Abrahami"
+    },
+    {
+      "en": "We all give too much credit for AI and what it can do.",
+      "zh": "我们都给了 AI 太多的赞誉，高估了它能做的事。",
+      "timestamp": "33:21",
+      "speaker": "Avishai Abrahami"
+    },
+    {
+      "en": "However, if we get another two or three jumps in algorithms, right, then we all becomes a bit like monkeys, right?",
+      "zh": "然而，如果算法再有两三次跳跃，那我们都会变得有点像猴子了，对吧？",
+      "timestamp": "38:14",
+      "speaker": "Harry Stebbings"
+    },
+    {
+      "en": "And that's freedom, okay? Freedom from fear that you won't have food tomorrow.",
+      "zh": "那就是自由，好吗？摆脱“明天会没有饭吃”的恐惧的自由。",
+      "timestamp": "43:47",
+      "speaker": "Avishai Abrahami"
+    },
+    {
+      "en": "So we kind of change the definition to fit something that doesn't do the critical things.",
+      "zh": "所以我们某种程度上改变了定义，去迁就一个做不到关键事情的东西。",
+      "timestamp": "51:14",
+      "speaker": "Avishai Abrahami"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Avishai",
+      "en": "You're not going to vibe code Shopify, no matter how good you are.",
+      "zh": "无论你多厉害，你都不可能用 vibe coding 做出 Shopify。"
+    },
+    {
+      "timestamp": "09:05",
+      "speaker": "Avishai",
+      "en": "It's the fact that you trust SaaS providers with your data.",
+      "zh": "Salesforce 最大的价值，是你信任 SaaS 提供商来保管你的数据这个事实。"
+    },
+    {
+      "timestamp": "11:59",
+      "speaker": "Avishai",
+      "en": "His business in life is making pizza.",
+      "zh": "他一生的事业就是做披萨。"
+    },
+    {
+      "timestamp": "17:56",
+      "speaker": "Avishai",
+      "en": "If you let me have 20% more quality, 20% less cost, I'll definitely go for the quality.",
+      "zh": "如果你让我在多 20% 的质量和少 20% 的成本之间选，我绝对会选质量。"
+    },
+    {
+      "timestamp": "20:29",
+      "speaker": "Avishai",
+      "en": "Today we're trading on other companies' news. We're not trading on Wix news.",
+      "zh": "今天我们是在随其他公司的消息波动，不是在随 Wix 的消息波动。"
+    },
+    {
+      "timestamp": "25:49",
+      "speaker": "Avishai",
+      "en": "I think that buyback are a fantastic tool for a company, and companies should use that, and I think they don't use it enough.",
+      "zh": "我认为回购对公司来说是一个极好的工具，公司应该使用它，而且我认为他们用得还不够。"
+    },
+    {
+      "timestamp": "29:39",
+      "speaker": "Avishai",
+      "en": "And I think a lot of times it's a healthy thing for a company.",
+      "zh": "而且我认为很多时候，人才流失对公司来说是一件健康的事。"
+    },
+    {
+      "timestamp": "33:21",
+      "speaker": "Avishai",
+      "en": "We all give too much credit for AI and what it can do.",
+      "zh": "我们都给了 AI 太多的赞誉，高估了它能做的事。"
+    },
+    {
+      "timestamp": "36:00",
+      "speaker": "Avishai",
+      "en": "We all tend to have this massive trust into AI models.",
+      "zh": "我们都倾向于对 AI 模型抱有这种巨大的信任。"
+    },
+    {
+      "timestamp": "38:14",
+      "speaker": "Avishai",
+      "en": "However, if we get another two or three jumps in algorithms, right, then we all becomes a bit like monkeys, right?",
+      "zh": "然而，如果算法再有两三次跳跃，那我们都会变得有点像猴子了，对吧？"
+    },
+    {
+      "timestamp": "39:45",
+      "speaker": "Avishai",
+      "en": "For a lot of other things, I really think that it's not the right algorithm.",
+      "zh": "对于很多其他事情，我真的认为它不是正确的算法。"
+    },
+    {
+      "timestamp": "43:47",
+      "speaker": "Avishai",
+      "en": "And that's freedom, okay? Freedom from fear that you won't have food tomorrow.",
+      "zh": "那就是自由，好吗？摆脱“明天会没有饭吃”的恐惧的自由。"
+    },
+    {
+      "timestamp": "45:08",
+      "speaker": "Avishai",
+      "en": "I think that the first thing to accept is that it will happen.",
+      "zh": "我认为首先要接受的是：它一定会发生。"
+    },
+    {
+      "timestamp": "46:54",
+      "speaker": "Avishai",
+      "en": "The big question is, are you doing the best that you can in the situation that you are in?",
+      "zh": "最大的问题是，在你所处的情境中，你是否做到了你能做的最好？"
+    },
+    {
+      "timestamp": "49:30",
+      "speaker": "Avishai",
+      "en": "Well, kids don't care so much for the amount of time that you're with them, as much as they care for the quality in that time.",
+      "zh": "孩子们在意的并不是你陪伴他们的时间长短，而是在那段时间里的质量。"
+    },
+    {
+      "timestamp": "51:14",
+      "speaker": "Avishai",
+      "en": "So we kind of change the definition to fit something that doesn't do the critical things.",
+      "zh": "所以我们某种程度上改变了定义，去迁就一个做不到关键事情的东西。"
+    }
+  ],
+  "voice_script": "今天这期节目，聊一个挺刺激的话题：如果 AI 真能让人人随手写应用，那那些做软件的公司，是不是都该完蛋了？聊这个的人很有资格——Avishai,网站搭建平台 Wix 的 CEO,同时也是协同办公产品 Monday 和 vibe coding 产品 Base44 背后的关键人物。什么叫 vibe coding?说白了，就是用自然语言告诉 AI,让它直接给你生成整个应用。\n\n先交代一下背景，不然听不懂后面的事。Wix 这家公司很奇怪：市值大概 28 亿美元，可年营收有 21 亿美元，每年还产生约 4 亿美元的自由现金流。按理说这估值低得离谱，市场就是不给面子。Avishai 觉得，这是\"SaaS 末日\"情绪在作祟——市场不知道该怎么计算 AI 对软件公司的威胁，干脆整体把估值砸低了。\n\n那 Avishai 最反直觉的回应是什么？我们都高估了 AI。注意，说这话的人，手里握着一个一年冲到 1.5 亿美元 ARR 的 AI 产品，却依然认为传统 SaaS 的护城河比大多数人想的深。\n\n为什么这么说？拿 Salesforce 举例。很多人觉得，AI 来了，客户管理软件随便就能做出来，Salesforce 危了。但 Avishai 说，Salesforce 最大的价值根本不是那套软件，而是大银行、大公司愿意把全部客户数据托付给它——这种信任才是命根子。原话很直接：你不可能用 vibe coding 做出那个信任来。JP Morgan 在自己的封闭安全环境之外，不会信任任何其他平台保管客户数据，除了 Salesforce。这极其难被改变。\n\n不过也不是所有公司都安全。Avishai 自己是 Atlassian 的长期股东，却最担心这家公司。为什么？因为 Atlassian 的客户全是开发者——恰恰是最有可能自己动手用 AI 造工具的人群。如果真有人要取代工单和工作流管理套件，被取代的就是这批家伙。\n\n那问题来了：Wix 的客户，街边披萨店、理发师，会自己动手做出一整套业务系统吗？Avishai 拿实验数据说话。Base44 团队让专业开发者试着用通用 AI 编码工具搭理发店管理逻辑，做了一周只做出一点；换成原班写该产品的更强团队再来两周，依然没成。那些东西很复杂，披萨店老板不会用 AI 工具去搭配送、排班、员工管理，再建个网站。\n\n所以 Avishai 眼里的人群分布是三种：多数小老板，这辈子的事业就是做披萨，不会动手；一部分人会发现 Base44 让一切太容易，用它定制全套工具；中间地带最大——所以两样都做，Wix 和 Base44 都握在手里。一句话总结：无论你多厉害，你都不可能用 vibe coding 做出 Shopify。\n\n说到 Base44,这产品本身也是个故事。被 Wix 收购时，它是一个只有一个人的公司，价格 8000 万美元。现在营收大约 1.6 亿美元，是收购价的两倍，团队已扩到约 400 人，预计两年后到 800 到 1000 人，大多数会是工程师。有意思的是董事会批准的过程出奇地顺利，问了一堆业务问题，但没有一个人问“为什么愿意为一个人付这么多钱”。\n\n当然，利润率上 Avishai 很坦诚：Wix 的盈利能力远高于 Base44——生成一个 Wix 网站的成本和托管成本相比几乎为零，而且 Wix 用户留存更好，因为开始搭的东西要花大力气才能完成，反而留下了。Base44 成本在持续下降，靠的是关键一招：自研模型。\n\n这个自研模型，不是要取代 OpenAI 那些前沿模型，逻辑有两条。第一是数据：Base44 每天产生海量“用户想做什么、AI 在哪失败”的真实数据，越来越懂用户想说什么、只是提示词写错了。第二是聚焦。原话说得很妙：我们不需要前沿模型里那些中国诗歌的知识，我们需要的是理解“我要一个任务管理器来管我丈夫”到底是什么意思。这套打法在 Wix 主站上已经验证过，更快、更便宜、错误更少。\n\n那到底便宜多少？答案出乎意料地保守：复杂任务场景下大概省 5% 到 30%,远没有外界传的“开源便宜 14 到 16 倍”那么夸张。而且现在还没到成本优化阶段——多 20% 的质量和省 20% 的成本让我选，我绝对选质量，这是个刚开始的新市场。\n\n聊回开头那个尴尬：股价。关于那次被主持人调侃“效果堪比泰坦尼克”的 15 亿美元回购，Avishai 承认时机很糟，但逻辑是：流通股太多、账上现金太多、又明确不做大型收购，持有现金没意义。回购对公司是极好的工具，公司用得还不够——它本质上等同于分红，用来平衡股权激励的稀释。至于股价涨跌，态度是彻底抽离：今天随的是别家公司的消息波动，OpenAI、Anthropic、Google 说了什么，不是 Wix 的消息，影响不了。\n\n顺着股价，Avishai 还聊了对 AI 本身的泼冷水。最鲜明的一句：我们都给了 AI 太多的赞誉。举例：让 Claude 写安全协议，AI 一本正经列出六个必须测试的闸门，逐个追问为什么，六个变成了一个——AI 自己承认，你可能问住我了，我可能越界了。结论是：我们都倾向于对 AI 模型抱有巨大的信任，而它配不上这种信任。\n\n不过有个重要的例外——文本密集的领域。法律像代码一样是文本语境的，还有海量文档，是 AI 最能发挥作用的地方之一；医疗诊断也可行，但医学研究不行。过去 12 个月最大的转变是：以前担心人类被取代的速度，现在认为会比预想的慢得多——大家嘴上说实现了 AGI,却做不了那些真正关键的大问题，某种程度上是在改定义，去迁就一个做不到关键事情的东西。\n\n但看好归看好，落地场景非常具体：明年起，健身房老板、私人教练用 AI 管理业务、销售附加产品、触达新客户的能力将被大幅增强——不是十年后，是明年。\n\n最后收个尾。这期听完，带走一句话就够了：我们都给了 AI 太多的赞誉，高估了它能做的事——而真正值钱的，从来不是工具本身，是信任、数据和把问题真正解决掉的执行力。"
+}

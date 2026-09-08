@@ -33,7 +33,7 @@ unlisted: true
 
 [[OpenAI]] · [[Google]] · [[智能体]] · [[Microsoft]] · [[Alex]] · [[Meta]] · [[Anthropic]] · [[SpaceX]] · [[AGI]] · [[资本支出]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":96,"Google":37,"智能体":1,"Microsoft":24,"Alex":4,"Meta":29,"Anthropic":108,"SpaceX":12,"AGI":19,"资本支出":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":96,"Google":37,"智能体":1,"Microsoft":24,"Alex":4,"Meta":29,"Anthropic":108,"SpaceX":12,"AGI":20,"资本支出":4}</script>
 
 <script>
 (function(){

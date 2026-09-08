@@ -1,0 +1,1246 @@
+{
+  "episode_id": "2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-07-13",
+  "tags": [
+    "SaaS 估值",
+    "AI 对 SaaS 的冲击",
+    "vibe coding",
+    "自研模型",
+    "回购与资本配置"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "host",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            30.08,
+            32.161
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "avishai-abrahami",
+      "type": "person",
+      "role": "cohost",
+      "name": "Avishai Abrahami",
+      "file": "Avishai Abrahami",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "wix",
+      "type": "company",
+      "role": "company",
+      "name": "Wix",
+      "file": "Wix",
+      "primary": true,
+      "how_described": "本集主角：市值约 28 亿美元、营收 21 亿、每年约 4 亿美元自由现金流的网站搭建平台，嘉宾是其 CEO；他认为市场因「SaaS 末日」情绪对其核心业务估值过低。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            6.339,
+            7.4
+          ],
+          "quote": "We're not trading on Wix news.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 12,
+          "t": [
+            41.806,
+            45.209
+          ],
+          "quote": "The Wix market cap is about $2.8 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            91.055,
+            96.118
+          ],
+          "quote": "A frank and honest conversation Avishai has had in recent years about the Wix business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            738.14,
+            739.88
+          ],
+          "quote": "So I think this is where Wix is, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 228,
+          "t": [
+            861.789,
+            864.071
+          ],
+          "quote": "Well, Wix is way more profitable.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 229,
+          "t": [
+            864.271,
+            871.86
+          ],
+          "quote": "The cost of generating a Wix website is pretty much zero in comparison, and hosting pretty much zero in comparison.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 230,
+          "t": [
+            871.88,
+            875.023
+          ],
+          "quote": "So way more profitable on Wix than on Base44.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            996.968,
+            1000.571
+          ],
+          "quote": "The other thing is that we did it already on Wix, okay?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1000.611,
+            1004.375
+          ],
+          "quote": "So on Wix, when you generate a website today, we are running a model that we trained.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1112.285,
+            1121.268
+          ],
+          "quote": "To start breaking the numbers, because from Wix, when we do the quarterly report, we tend to do things like move customers between one platform to the other, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1170.858,
+            1177.266
+          ],
+          "quote": "But I'm also almost as confident, if not more confident, okay, that things like Wix will also be part of the future.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1184.034,
+            1191.223
+          ],
+          "quote": "Stock markets just appreciate that trust is important, people want Salesforce, and Wix market cap rises again?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1232.543,
+            1233.603
+          ],
+          "quote": "We're not trading on Wix news.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1300.866,
+            1303.267
+          ],
+          "quote": "And then we put a lot of people from Wix into that, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 515,
+          "t": [
+            1853.357,
+            1857.824
+          ],
+          "quote": "How many people are in Wix today and how many are in Base44?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 518,
+          "t": [
+            1861.269,
+            1864.173
+          ],
+          "quote": "Wix in total is about including about 3,500.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 543,
+          "t": [
+            1922.277,
+            1929.738
+          ],
+          "quote": "And everyone who I speak to, whether it's Airwallex or Klarna or Navan or Wix, you build your own.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 570,
+          "t": [
+            1984.524,
+            1987.768
+          ],
+          "quote": "In three years time, how big will the Wix team be then?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 572,
+          "t": [
+            1990.089,
+            1998.671
+          ],
+          "quote": "I would love to say, well, Wix team in three years will be a thousand people in Base44 and a thousand people in Wix and everything else will be AI agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 783,
+          "t": [
+            2675.253,
+            2683.481
+          ],
+          "quote": "There's nobody, no reason except me choosing to be the CEO of Wix, see the stock crashing like that, see other things happening, you know, all those things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 937,
+          "t": [
+            3181.857,
+            3183.658
+          ],
+          "quote": "I'm a huge believer in what Wix does.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 950,
+          "t": [
+            3241.922,
+            3243.563
+          ],
+          "quote": "And so my eldest is Wix, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 952,
+          "t": [
+            3247.426,
+            3250.308
+          ],
+          "quote": "Wix, Monday, and Base44.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "base44",
+      "type": "company",
+      "role": "company",
+      "name": "Base44",
+      "file": "Base44",
+      "primary": true,
+      "how_described": "Wix 旗下 vibe coding 产品，收购时是仅一人公司、价格 8000 万美元，现约 1.6 亿美元营收、约 400 人，是嘉宾「为明天的模型而构建」的押注。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            13.748,
+            17.812
+          ],
+          "quote": "So we make cash and we invest about $200 and something million into Base44.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 14,
+          "t": [
+            49.192,
+            57.599
+          ],
+          "quote": "They have Base44, which is their Vibe Coding product, which is now well over $150 million in ARR, growing incredibly quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            73.508,
+            90.855
+          ],
+          "quote": "I wanted to sit down with him and hear how he thought about how Base44 makes such a big part of their business today and what that looks like moving forwards, how he reflects on the buyback, what public market investors don't see that they should see, this and so much more in what I think is probably the most",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            479.916,
+            482.737
+          ],
+          "quote": "But essentially, you know, I have Mayour on the show from Base44.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 121,
+          "t": [
+            483.217,
+            486.439
+          ],
+          "quote": "Base44 is doing 150 million in revenue last announced.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            681.575,
+            689.284
+          ],
+          "quote": "One of the first things we did with Base44 is that, okay, should we integrate the business logic of our vertical offering into Base44?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 176,
+          "t": [
+            689.685,
+            695.352
+          ],
+          "quote": "And we make a test and we said, can we build a hairdresser, just a business logic to manage a hairdresser business in Base44?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 188,
+          "t": [
+            729.777,
+            731.497
+          ],
+          "quote": "Claude Code is much harder than Base44.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 189,
+          "t": [
+            731.517,
+            735.219
+          ],
+          "quote": "Base44 gives you a lot coming out of the box, so you can do way more with it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 210,
+          "t": [
+            784.853,
+            785.614
+          ],
+          "quote": "That's Base44.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 211,
+          "t": [
+            785.634,
+            787.515
+          ],
+          "quote": "That's why we invest so much into Base44.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 212,
+          "t": [
+            787.935,
+            791.877
+          ],
+          "quote": "Because if that will be something that will happen in that way, that's why we have Base44.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 219,
+          "t": [
+            819.459,
+            822.78
+          ],
+          "quote": "Base44 made it so easy for me to vibe code everything I need.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 221,
+          "t": [
+            824.38,
+            825.721
+          ],
+          "quote": "So I'm going to use Base44 for that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 225,
+          "t": [
+            840.904,
+            851.666
+          ],
+          "quote": "Can I ask you, when you think about like Base44's margin profile, a lot of the providers, you know, we've had Lovable, we've had Rappler, we've had Mayour on the show, and their margin is one that's hidden in a lot of cases.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            856.727,
+            860.808
+          ],
+          "quote": "How does the margin profile of a Base44 compared to the margin profile of a",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 230,
+          "t": [
+            871.88,
+            875.023
+          ],
+          "quote": "So way more profitable on Wix than on Base44.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 235,
+          "t": [
+            885.972,
+            888.774
+          ],
+          "quote": "We're continuously seeing a decline in the cost in Base44.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 247,
+          "t": [
+            929.133,
+            934.035
+          ],
+          "quote": "We have a huge amount of training data that is happening for us that we're getting on Base44.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 256,
+          "t": [
+            986.679,
+            989.562
+          ],
+          "quote": "But it's trying to make us better at Base44.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1050.955,
+            1059.082
+          ],
+          "quote": "But when you want to use a complicated model, for example, what you need for something like Base44, it's not going to get to that much of a level, but you can achieve 5% to 10%.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1060.043,
+            1069.166
+          ],
+          "quote": "Do you think we're in the cost optimization period for Base44 yet, given you have like a replet who do like multi-agent and multi-model modes?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1088.472,
+            1091.453
+          ],
+          "quote": "Why did you not publish Base44's numbers?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1166.353,
+            1170.458
+          ],
+          "quote": "100% sure that Base44 would be part of the future.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1294.762,
+            1298.324
+          ],
+          "quote": "I think our issue today is that the M&A of Base44, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1425.392,
+            1431.418
+          ],
+          "quote": "So we make cash and we invest about 200 and something million into Base44 or a bit more than that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 515,
+          "t": [
+            1853.357,
+            1857.824
+          ],
+          "quote": "How many people are in Wix today and how many are in Base44?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 516,
+          "t": [
+            1858.124,
+            1860.468
+          ],
+          "quote": "So Base44 is around 400 people.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 572,
+          "t": [
+            1990.089,
+            1998.671
+          ],
+          "quote": "I would love to say, well, Wix team in three years will be a thousand people in Base44 and a thousand people in Wix and everything else will be AI agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 932,
+          "t": [
+            3166.586,
+            3169.929
+          ],
+          "quote": "You said that Base44 is 400 people today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 935,
+          "t": [
+            3178.395,
+            3180.676
+          ],
+          "quote": "I'm a huge believer in Base44, okay?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 936,
+          "t": [
+            3180.777,
+            3181.837
+          ],
+          "quote": "I'm a huge believer in Base44.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 938,
+          "t": [
+            3183.698,
+            3192.584
+          ],
+          "quote": "I hope that Base44, and I see the way it scales, I would imagine probably 800 to 1,000, and the majority of them would actually be engineers, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 952,
+          "t": [
+            3247.426,
+            3250.308
+          ],
+          "quote": "Wix, Monday, and Base44.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": true,
+      "how_described": "本集用作反例：其最大价值不是 CRM 而是大银行、大公司对它保管客户数据的信任——这种信任 vibe code 不出来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            459.897,
+            463.241
+          ],
+          "quote": "Salesforce is down, ServiceNow is down, Figma would be down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            538.961,
+            540.182
+          ],
+          "quote": "For example, Salesforce.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 138,
+          "t": [
+            540.983,
+            543.685
+          ],
+          "quote": "Salesforce, what is the biggest value Salesforce provides?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 141,
+          "t": [
+            548.471,
+            555.278
+          ],
+          "quote": "You have huge banks, huge companies that actually allow Salesforce to hold all of the customer data because they trust Salesforce.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 143,
+          "t": [
+            559.58,
+            561.902
+          ],
+          "quote": "It's a massive part of the value that Salesforce gives.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 147,
+          "t": [
+            576.65,
+            588.058
+          ],
+          "quote": "If Salesforce becomes a valueless database that agents are able to scrape and then provide in different interfaces, then you basically become a commodity piping provider, which would mean that you could almost just replace them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 151,
+          "t": [
+            600.907,
+            603.749
+          ],
+          "quote": "They don't trust anybody else with that, but they do trust Salesforce.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 157,
+          "t": [
+            612.118,
+            615.641
+          ],
+          "quote": "And actually, I was thinking of the government contracts that Salesforce has and has won.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1184.034,
+            1191.223
+          ],
+          "quote": "Stock markets just appreciate that trust is important, people want Salesforce, and Wix market cap rises again?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "atlassian",
+      "type": "company",
+      "role": "company",
+      "name": "Atlassian",
+      "file": "Atlassian",
+      "primary": true,
+      "how_described": "嘉宾长期持股却最担心的公司：客户全是开发者，恰是最可能用 Claude Code 自己造工具的人群，工单和工作流套件最可能被取代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            453.15,
+            459.417
+          ],
+          "quote": "I mean, Atlassian's come up again, CrowdStrike never went down, Palo Alto Networks is up, obviously, Box is up.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 116,
+          "t": [
+            467.486,
+            475.114
+          ],
+          "quote": "Atlassian, if it went up, that's actually the one I'm more concerned about, and I owned a lot of shares, so, but I didn't notice that it went up.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 163,
+          "t": [
+            628.614,
+            634.737
+          ],
+          "quote": "By the way, Atlassian for me is actually the one where, again, I'm a shareholder, so I want to be clear, okay, and I love the company.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 165,
+          "t": [
+            636.938,
+            645.802
+          ],
+          "quote": "And when I look at Atlassian, I think that the customers are the ones that are more likely to build things with Claude Code because they are developers, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1199.589,
+            1209.835
+          ],
+          "quote": "And as I said, I don't even make sense because I own a lot of Atlassian, even that I'm like, oh my God, all the developers will replace it with their own thing, which obviously doesn't happen, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1209.855,
+            1214.137
+          ],
+          "quote": "So I was wrong on both sides, except being lazy and not selling my stocks to Atlassian, yes.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "monday",
+      "type": "company",
+      "role": "company",
+      "name": "Monday",
+      "file": "Monday",
+      "primary": false,
+      "how_described": "嘉宾参与创建的协同办公产品，在结尾被并列为他的三个产品之一，与前主持人聊 Eran 睡眠作息时被提及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            261.112,
+            266.095
+          ],
+          "quote": "I spoke to Eran at Monday before the show, and he told me that you stay up insanely late.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1262.572,
+            1264.953
+          ],
+          "quote": "Aaron from Monday said he was not able to do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 947,
+          "t": [
+            3231.755,
+            3234.777
+          ],
+          "quote": "12 months time, who will have a higher market cap your Monday?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 952,
+          "t": [
+            3247.426,
+            3250.308
+          ],
+          "quote": "Wix, Monday, and Base44.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集反复讨论的核心概念：用自然语言让 AI 生成整个应用；嘉宾用它论证「你 vibe code 不出 Shopify、也复刻不出 Salesforce 的信任」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            49.192,
+            57.599
+          ],
+          "quote": "They have Base44, which is their Vibe Coding product, which is now well over $150 million in ARR, growing incredibly quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            501.585,
+            513.938
+          ],
+          "quote": "First of all, I think it describes less than zero value to the current business, because if you look at peers, they're doing vibe coding, and the multiple is much higher than the one we would get for base to be at two billion, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 201,
+          "t": [
+            763.82,
+            764.401
+          ],
+          "quote": "Vibe Coding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1148.856,
+            1157.382
+          ],
+          "quote": "I think that if you ever try to use any vibe coding tools and you try to build anything very complicated, it's hard when you're trying to do visual editing.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": true,
+      "how_described": "本集主线之一：市场因「SaaSpocalypse」不知如何计算 AI 对 SaaS 的威胁而砸低估值倍数，嘉宾逐家分析哪些 SaaS 护城河是真的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            420.379,
+            423.002
+          ],
+          "quote": "Well, I think that's kind of a thing now with all SaaS companies.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 104,
+          "t": [
+            426.024,
+            433.091
+          ],
+          "quote": "And I think a lot of it is because the market don't know how to calculate the danger for SaaS companies with AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 140,
+          "t": [
+            545.107,
+            548.21
+          ],
+          "quote": "It's the fact that you trust SaaS providers with your data.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 489,
+          "t": [
+            1745.455,
+            1748.716
+          ],
+          "quote": "I am friends with many of these enterprise SaaS company CEOs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "buyback",
+      "type": "concept",
+      "role": "concept",
+      "name": "回购 (buyback)",
+      "file": "回购",
+      "primary": true,
+      "how_described": "嘉宾承认 15 亿美元回购时机很糟，但坚持回购是极好的工具：在无大型收购计划时持有现金没意义，回购本质等同于分红、用来平衡股权激励稀释。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            66.025,
+            73.328
+          ],
+          "quote": "The buyback has been about as successful as the Titanic voyage, and poor Avishai, their CEO, is going through it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            73.508,
+            90.855
+          ],
+          "quote": "I wanted to sit down with him and hear how he thought about how Base44 makes such a big part of their business today and what that looks like moving forwards, how he reflects on the buyback, what public market investors don't see that they should see, this and so much more in what I think is probably the most",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1483.778,
+            1488.384
+          ],
+          "quote": "In terms of like the stock market and how people make money from it, you did do the buyback.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1488.764,
+            1491.928
+          ],
+          "quote": "How did you think about the buyback and any thoughts and reflections on that?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1549.962,
+            1555.988
+          ],
+          "quote": "I think that buyback are a fantastic tool for a company, and companies should use that, and I think they don't use it enough.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1565.398,
+            1569.381
+          ],
+          "quote": "is something that should be balanced with buyback when the company can.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1678.946,
+            1683.369
+          ],
+          "quote": "The other thing you can do with your money is do a buyback, which essentially is the same as give dividends.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "stock-based-compensation",
+      "type": "concept",
+      "role": "concept",
+      "name": "股权激励 (stock-based compensation)",
+      "file": "股权激励",
+      "primary": true,
+      "how_described": "本集讨论 SBC 对员工友好但稀释股东，嘉宾主张应给员工股票，同时用回购来平衡 SBC 带来的稀释。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 445,
+          "t": [
+            1586.031,
+            1588.732
+          ],
+          "quote": "I'm worried about the level of stock-based compensation that we're seeing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 468,
+          "t": [
+            1683.509,
+            1686.331
+          ],
+          "quote": "And then you balance your stock-based compensation.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuned",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuned)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "Wix 自研模型的打法：微调几个模型再组合，在 Base44 场景上达到顶级模型质量、成本降低约 5%-30%，靠自有数据理解用户真正想说什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 237,
+          "t": [
+            893.116,
+            897.279
+          ],
+          "quote": "So we fine-tuned a few models and then combined them, and we're using that.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "嘉宾泼冷水：LLM 不擅长推理，擅长收集和重组数据；用它做科研是错误的工具，但法律这类文本密集领域最能发挥作用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 711,
+          "t": [
+            2468.006,
+            2472.469
+          ],
+          "quote": "You cannot do research on astrophysics with LLM.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 721,
+          "t": [
+            2507.379,
+            2511.204
+          ],
+          "quote": "I agree, but that's not just an... probably not just an LLM, unless they just write...",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "嘉宾过去 12 个月最大的转变：现在认为 AI 取代人类会比预想慢得多——大家嘴上说实现了 AGI，却做不了真正关键的大问题，「我们在改定义去迁就它」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 898,
+          "t": [
+            3056.941,
+            3068.928
+          ],
+          "quote": "Because, you know, I remember that, you know, a year ago, we would hear Elon Musk speaking about, he's waiting for AGI because AGI, you can have conversation with it about how to solve big problems in physics and how to do a lot of things and everything.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 899,
+          "t": [
+            3069.368,
+            3074.151
+          ],
+          "quote": "And now everybody's talking about, well, you know, we kind of achieve AGI, but you still cannot do those big questions, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source)",
+      "file": "开源模型",
+      "primary": false,
+      "how_described": "在讨论自研模型成本时被提及：开源在简单任务上确实可便宜 14-16 倍，但复杂任务达不到。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 242,
+          "t": [
+            913.647,
+            919.729
+          ],
+          "quote": "It's a big technological decision to choose to do that versus use open source off the shelf or frontier models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1032.54,
+            1037.562
+          ],
+          "quote": "That might be surprising, but Chamath came out and said that, hey, when he uses open source, it's 14 to 16x cheaper.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1043.468,
+            1050.575
+          ],
+          "quote": "If you're using open source models, and you can use the really basic ones for a lot of different things, they work great, then it would cost you even less.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集反复出现的 AI 编码工具，被用来论证披萨店老板不会用它搭配送、排班、员工管理系统，Base44 团队实测它难以复刻垂直业务逻辑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            574.769,
+            576.27
+          ],
+          "quote": "Claude Code project.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 165,
+          "t": [
+            636.938,
+            645.802
+          ],
+          "quote": "And when I look at Atlassian, I think that the customers are the ones that are more likely to build things with Claude Code because they are developers, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 170,
+          "t": [
+            667.35,
+            671.091
+          ],
+          "quote": "They're not going to use Claude Code to build their business stack.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 188,
+          "t": [
+            729.777,
+            731.497
+          ],
+          "quote": "Claude Code is much harder than Base44.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "type": "concept",
+      "role": "concept",
+      "name": "信任护城河 (trust)",
+      "file": "信任护城河",
+      "primary": true,
+      "how_described": "本集核心论点：判断 AI 威胁要看信任——JP Morgan 在封闭安全环境之外只信任 Salesforce 保管客户数据，「这极其难被改变」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            545.107,
+            548.21
+          ],
+          "quote": "It's the fact that you trust SaaS providers with your data.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 141,
+          "t": [
+            548.471,
+            555.278
+          ],
+          "quote": "You have huge banks, huge companies that actually allow Salesforce to hold all of the customer data because they trust Salesforce.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 142,
+          "t": [
+            555.538,
+            559.56
+          ],
+          "quote": "You're not going to vibe code that because the trust is massive, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 148,
+          "t": [
+            588.318,
+            599.426
+          ],
+          "quote": "What other platform will JP Morgan trust for their customers data outside of the JP Morgan closed garden, DMZ secure environment?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 151,
+          "t": [
+            600.907,
+            603.749
+          ],
+          "quote": "They don't trust anybody else with that, but they do trust Salesforce.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 158,
+          "t": [
+            616.062,
+            617.904
+          ],
+          "quote": "Again, I would say, trust your point.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1184.034,
+            1191.223
+          ],
+          "quote": "Stock markets just appreciate that trust is important, people want Salesforce, and Wix market cap rises again?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2156.717,
+            2160.179
+          ],
+          "quote": "We all tend to have this massive trust into AI models.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

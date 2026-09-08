@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Wix</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Wix">WI</div><div class="pi"><h1 class="pt">Wix</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Wix">WI</div><div class="pi"><h1 class="pt">Wix</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]]**(00:00起):本集说 Wix 是一个用不同方法构建网站的不可思议的产品，与 Base44 在同一空间、同一客户群，其 CEO Avishai 主动联系说大家都说应该买下 Base44
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(01:15起):本集提到它是嘉宾此前担任 PM 的公司,嘉宾在这里经历了因想一鸣惊人而搞砸首次产品评审的失败教训,从而学到了要做 10 倍学习者而非 10 倍 PM。
+- **[[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|《Wix CEO Avishai:SaaS 末日下,我们凭什么值钱》]]**(00:06起):本集主角：市值约 28 亿美元、营收 21 亿、每年约 4 亿美元自由现金流的网站搭建平台，嘉宾是其 CEO；他认为市场因「SaaS 末日」情绪对其核心业务估值过低。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司(提及)
+- [[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|《Wix CEO Avishai:SaaS 末日下,我们凭什么值钱》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Base44]] · [[Lovable]] · [[Bolt]] · [[Replit]] · [[Cursor]] · [[Maor Shlomo]] · [[Zevi Arnovitz]] · [[Vercel]] · [[Claude Code]]
+[[Base44]] · [[Lenny]] · [[Claude Code]] · [[Lovable]] · [[Bolt]] · [[Replit]] · [[Cursor]] · [[vibe coding]] · [[LLM]] · [[Maor Shlomo]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Base44":2,"Lovable":14,"Bolt":2,"Replit":14,"Cursor":49,"Maor Shlomo":1,"Zevi Arnovitz":1,"Vercel":13,"Claude Code":47}</script>
+<script type="application/json" class="pd-epn">{"Base44":3,"Lenny":67,"Claude Code":48,"Lovable":14,"Bolt":2,"Replit":14,"Cursor":49,"vibe coding":29,"LLM":28,"Maor Shlomo":1}</script>
 
 <script>
 (function(){

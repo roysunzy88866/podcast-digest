@@ -89,7 +89,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[Lenny]] · [[Vercel]] · [[Claude Code]] · [[Cognition]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":96,"Anthropic":108,"Cursor":49,"推理":5,"Lenny":67,"Vercel":13,"Claude Code":47,"Cognition":15,"ChatGPT":52}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":96,"Anthropic":108,"Cursor":49,"推理":5,"Lenny":67,"Vercel":13,"Claude Code":48,"Cognition":15,"ChatGPT":52}</script>
 
 <script>
 (function(){

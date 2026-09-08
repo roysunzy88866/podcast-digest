@@ -1,0 +1,881 @@
+{
+  "episode_id": "2026-07-13-pmf-he-tries-1-000-ideas-a-decade-kills-near",
+  "podcast": "The Product Market Fit Show",
+  "date": "2026-07-13",
+  "tags": [
+    "创业与行业",
+    "创新方法论",
+    "登月项目",
+    "产品方法",
+    "组织文化"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "astro-teller",
+      "type": "person",
+      "role": "host",
+      "name": "Astro Teller",
+      "file": "Astro Teller",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "x",
+      "type": "company",
+      "role": "company",
+      "name": "X",
+      "file": "X",
+      "primary": true,
+      "how_described": "本集说它是 Alphabet 旗下十六年前成立的「登月工厂」,定位类似二十一世纪贝尔实验室,每十年尝试一千到一千五百个想法,产出 Google Brain、Waymo、Wing,核心是用流程最大化「每美元的学习」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            112,
+            226
+          ],
+          "quote": "Well, I mean, I was a serial tech entrepreneur before I became the co-founder and now the leader of X. The Moonshot Factory here at Alphabet. Before that, I did a PhD in artificial intelligence a long time ago. So I'm slightly academic. I'm a dyed in the wool entrepreneur. I've done quite a few things over the last sixteen years here as the captain of Moonshots, at the Moonshot Factory here at Alphabet. So I'm not sure I would describe myself as a nurturer of moonshots and moonshot takers. I'll start here, taking moonshots is really easy, super easy. If you don't care about efficiency, you find really high energy people who think they're right and are pretty smart. You dump a bunch of money on them and you'll get some moonshots, or anyway, some fairly big companies anyway. It's just not an efficient process and so, what I was somewhat interested in almost since I was a kid but which I've become obsessed with over the last twenty years, is how do you systematize radical innovation? And so what the Moonshot Factory is, is an attempt to explore these over the horizon sort of radical innovation things. That if they turned out to be as good as they seem on the surface, you could turn them into enduring businesses that are really good for the world. But shooting for that kind of thing, mostly the answer is nope, not now, can't be done at all, you can do it but you can't do it profitably, the world doesn't want it, whatever that is. So how do you figure out the one or two percent of the things that you start, that will be once in a generation opportunities for the world and for your investor? In this case, Alphabet is our investor, and how to do that as efficiently as possible. That's really where the Moonshot Factory is coming from.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 7,
+          "t": [
+            259,
+            370
+          ],
+          "quote": "Sure, so we were set up 16 years ago and we were set up because Google at the time was already starting to imagine Alphabet. Though Alphabet hadn't been named and so the desire was for there to be a kind of 21st century Bell Labs. That would park itself next to Google, not solve Google's problems. There are a lot of smart people at Google solving Google's problems. But to go find really new problems for this thing, which ended up being called Alphabet, the parent company of Google. To have, and then hopefully to solve some of those problems. Now, out of this process sometimes we come up with something. Google Brain is the most famous example, where we started and then it turns out to be so important to Google that we move it back to Google. And of course we can be proud of doing that. It's not an independent business, but it's been profoundly important for Alphabet, for the world. Sometimes we make something and we set it up as a separate business inside of Alphabet. Many of your listeners will know about Waymo, the self-driving cars, they came from X, or Wing, the drones for package delivery. That came from X, and so we have set up a number of businesses. Which are these sort of independent entities, but that are still inside the Alphabet umbrella and then increasingly frequently, when it makes sense, we create one of these moonshots when it's ready to graduate from X as an independent business. If Alphabet owns forty nine percent of that thing and doesn't have a board seat, then they're off to the races. We can cheer for them. They're still able to be very strategically involved with Alphabet, but they're in a really independent company at that point and so our job is to try one thousand, maybe fifteen hundred ideas per decade.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 11,
+          "t": [
+            441,
+            451
+          ],
+          "quote": "Yeah, so I'm going to pretend that I'm recruiting you to come to X, because I think that'll help. You don't actually have to quit your job, though maybe you will. It's happened before.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 13,
+          "t": [
+            453,
+            606
+          ],
+          "quote": "But pretend that we were in this dialogue. You're a founder and you're thinking of coming to X, but you kind of want to know, what am I signing up for here? So one of the fundamental things I would want you to know is, if you have something you just really believe in, please do not come to X. I would analogize that, I know this doesn't sound super friendly. If you want to go to Vegas and you just believe that seventeen is your lucky number, and you want to bet on seventeen on the roulette wheel. Okay, more power to you, I guess, and it might come up seventeen. And you'll make a lot of money. So I'm not saying no, I'm just, but I'm telling you for sure, that's not what happens at X. At X, we're trying to be the card counters of innovation. So it is a very different process. If you come to X, I want you to work on making a moonshot. But I also want you to understand you will be wrong over and over and over again. What I owe you, what all of X owes you, if you're going to join us, is that we have to be serious about not punishing you when you're wrong. That as long as you're pursuing potential moonshots in really smart, scrappy ways and being intellectually honest about how it's going. If the answer is nope, this is not pulling our average up, let's just put a bullet in its head and move on. Bad news, you get no equity while you're here at X. But the good news is you haven't bet your kid's college fund on the teleporter. So if the teleporter turns out not to be the right thing for us to do, and we're actually going to celebrate you for stopping it. Because you're being intellectually honest, you just get to try again and maybe the time machine will work out if that's the next project that you try. So if it appeals to you to be more of a card counter, to be part of a process with zero friction and high flow. Where we're collectively exploring which of the things that we're currently looking at might be a Waymo, might be a Google Brain. If that excites you, come here and do it and the amazing news is at the end of, you might try several, they fail. Finally you try one and it actually gets all the way through X. You graduate, we give that team founders shares. A lot of the company goes to them, and you took no risk the whole time while you were doing it. And we can afford to do that because we're so much more efficient at stopping the things that aren't really great pretty early in the process. So it is a very different way of being an entrepreneur but for at least a class of entrepreneurs, typically ones who've already been to the wars once or twice.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 19,
+          "t": [
+            690,
+            768
+          ],
+          "quote": "It's entirely about the psychology, because we'll often have two or three people part time on each idea. So we could just have one person a hundred percent on the idea. But first of all, people are smarter together in groups than they are individually. It's easier to be dispassionate and to be honest with yourself when there's other people who are poking at the thing with you. That means you can go and get a world expert in electrochemistry, a world expert in 3D printing, who we have on staff, for the five or ten percent of their time that you need without actually having to hire anybody. Because they're all part of X. So you get to actually act like a ten or fifteen person company with nobody actually feeling too existentially tied to it. So again, if you were coming to X, I would want you to really watch the following. You're going to need to move your sense of self worth from winning, which is what you, me, all of us were trained since we were five years old. I am good if I win. I'm good if I get an A plus on the test. That is not how X works. You will be miserable at X if you tie your sense of self worth to that. You have to rewire your sense of self worth to how wisely you can explore ideas and how viciously. In fact, we can attack our own ideas and pressure test them to see which ones survive.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 20,
+          "t": [
+            768,
+            775
+          ],
+          "quote": "Are there people that have been at X for five years, ten years, and never had any idea become a big success?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 31,
+          "t": [
+            969,
+            1127
+          ],
+          "quote": "I would say the vast majority are doing that to some extent. Now, you can make that less likely as an entrepreneur if you make sure that you can see your goal from where you are. If you can see your goal, metaphorically speaking. Where the only really hard thing is how fast you run getting from here to there. That's what startups are built for and that's totally not what X is built for. But if your goal is over the horizon, you don't even know what direction it is and it might not even exist. So I think of it like, if we were lost in a rowboat. Somehow people get in this mindset of how vigorously I row is going to save us. You know what? If we're lost in a rowboat, I'm going to spend ninety percent of my time with the sextant and ten percent of my time rowing. But that is a really hard thing to get people to unlearn because they have learned that progress is the ultimate metric instead of learning being the ultimate metric. But especially while we're at X, because we're not yet company building. We do things that look more and more like company building. But we're buying options on the future and so information gain, the learning per dollar, is what we're actually trying to maximize. Now over time, of course, we do have to start answering questions like, does anyone want this thing? How much would it cost for us to make this thing? How much would people pay for this thing? Is the second number larger than the first? Ultimately you have to ask and answer questions that start sounding like business questions, but we do it as a set of experiments. We still even there say, we're not trying to find something people will buy and then sell a lot of it. We're trying to deeply understand, is there a dent in the universe to be made here? And if so, what's the right way to do it? The ideas come from all over the world. We often will find in a university, someone has some cool thing. I don't know, at Johns Hopkins, someone invented a frictionless surface. A frictionless surface is not a moonshot. That is a raw technology opportunity. Someone else might be really interested in ending warfare. Ending warfare sounds like a nice thing to do. Humanity is not better for wars, but that's also not a moonshot. The trick is to find a bunch of needs and technology pieces, and mush them together in a really surprising way. So we're not the paradigm shifting scientists. That's not what we do. We're paradigm shifting system engineers. We're trying to bridge that gap between basic science and something that's like venture investable. But that's like often a five or six year gap that gets filled very badly.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 37,
+          "t": [
+            1392,
+            1544
+          ],
+          "quote": "Often things will not make it to that sort of, the ones that get a code name. Because nobody believes in it strongly enough to spend at least fifty percent of their time on it. People can't describe it crisply in terms of those three things I just described. Huge problem with the world, radical proposed solution, breakthrough technology. Where it feels like now there's something there. But sometimes people, for example, will say what it is, but they haven't figured out how to make it a testable hypothesis and you saying, hey, the world might be like this in the future, is like, yeah, you might be right. But that's not what we do. We do not fund things for five years so you can go try it. We're going to fund this for like five weeks, maybe five months. Which is easy for us because you're part of X, right? We don't have to incorporate anything and you're almost certainly wrong. So spend the next month or two trying to get one piece of information that tells us whether you're a little bit more wrong than we think or a little bit less wrong than we think. But if you don't have a testable hypothesis, we can't even get onto that flywheel. So that's another reason. Sometimes someone will have a really interesting proposal, but we just don't have the right labs for it, and we can't find someone who does, or sometimes something will go dormant because we're like, hey, that's a really cool idea. We need this physical lab. Hey, Caltech has that lab, and then we end up spending a year in slow motion just working with some university to have them let us use their lab. So then we're spending almost no time on that, just sort of waiting for the contract to come through and then it comes back to life. So very different reasons. But ultimately, the question is never, I have to prove, as the captain of Moonshots, that your idea is physically impossible. Almost nothing is physically impossible. It's actually more like you have to prove that your idea has a better reward risk ratio than the other things that we're currently looking at, and I would actually say it's reward divided by risk. Which includes all the costs and time, relative to how cheap or expensive it is to answer each question about, hey, what did we learn this week? Hey, what did we learn this week? If the reward risk ratio is okay, and it's going to take us a million dollars to find out the first piece of information about whether we're on the right track, not worth it. Reward is ginormous, risk is pretty big but we can find out for $100,000 whether this is a little bit less crazy than we thought. Yeah, I'll play that game all day long.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 39,
+          "t": [
+            1588,
+            1648
+          ],
+          "quote": "I'll give you an example, but first, bear with me for a very short story. Because this is how we talk about it here at X. So for a long time, I would say to Xers, obviously, we should work on the riskiest part of the problem first and pretty much everybody at X said, I'm pretty sure that's wrong, Astro. And I said, no, that's what we should do. And we just were not connecting on this. And then, I was at a Wall Street Journal live conference about eleven years ago on stage, and I said, we obviously should work on the riskiest part of the problem first. And the interviewer said, I'm pretty sure that's right. I don't think that's right. What do you mean? So in a moment of hyperbole, I said, look, let's say that our collective project was to get a monkey to stand on the top of a 10-foot pedestal and recite Shakespeare. Which should we do first in this somewhat extreme situation? Build the pedestal or train the monkey? In this extreme situation, we can see that if you built the pedestal, you're half done but you're really zero percent done at burning down the risk.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 41,
+          "t": [
+            1649,
+            1735
+          ],
+          "quote": "The point of a testable hypothesis, especially at X. Everyone at X will just say as shorthand to each other, what's the monkey? What they mean by that is not just, do you have a testable hypothesis but how is the thing that you're doing now attempting to burn down the risk on the riskiest part of the problem? Because if you can't train the monkey, you do not need to build the pedestal, obviously, and in a much more subtle way for every moonshot we have here. How scary is making this thing physically? Oh yeah, if we're really honest, we're going to be able to do it. How cheaply can we make it? Oh yeah, that actually could be the scary part. Okay, if the scary part is the techno economics. Let's not wait. Let's get really crisp about what has to be true. Maybe you can just do a bunch of spreadsheet math and kill the project on the basis of, okay, almost no matter how good we make each of these ten pieces. We're going to have to jam them all together. Yeah, the numbers are just not going to pencil out. This is not going to be competitive. Great, kill the project, move on. Sometimes it's actually how people will use something. Sometimes it's a safety issue and sometimes the solutions. In the very early days of Wing, we spent so much time trying to think about safety and make it safe with a very small number of propellers.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 45,
+          "t": [
+            1788,
+            1886
+          ],
+          "quote": "Yeah, but if you have a crazy idea about nuclear fusion. Okay, first, let's see if we can kill it on the whiteboard. If we can't kill it on the whiteboard, I guarantee you the next thing we're doing is not building something the size of a house to start doing plasma shots. We're going to build a simulator or find someone who has a simulator and see if we can kill it using the simulator. If it survives that process, maybe we have to build something the size of a house, but maybe we can even find someone in a university who can do a little bit of the de-risking with us even if it's only bits and pieces. And then when we get to the place, which we did. We closed this down about a year and a half ago. We had a fusion project. We ran it. We did build something the size of a house. We did almost a thousand plasma shots. We convinced ourself it was not going to change the world, and we closed the project down. But it was money well spent because we had removed all the cheaper ways to try that first. Speaking of which, we have a Moonshot podcast. If your audience wants to hear more about some of these stories. Really hear what it was like building Waymo or building Wing. Building this Fusion project. We now have two seasons out. If people just search for Moonshot Factory Moonshot podcast, it'll come up and I think people really enjoy this sort of deep dives. It's not just what it was like for us, but it's exploring with the entrepreneurs that have gone through X. What it felt like for them and what other people can learn about taking their own shots.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 47,
+          "t": [
+            1894,
+            2017
+          ],
+          "quote": "I mean, this sounds a little bit extreme but there is no step after that. You just keep doing that. If you do that for six years and you've burned down a lot of the risk. If we're actually at the place where we're like, well, there's a sizable chance this actually could be a Waymo someday. Then it graduates from X and, often this is sort of on the order of ten to fifty people who leave to set up this new business. No one makes anyone leave X. If you want to stay and you have to find a new job, a new thing to do at X, that's cool. If you're excited about the teleporter and it looks like it's really working and you're going to get a non-trivial amount of shares in the teleporter company. You better believe in it because you're about to start getting paid in illiquid stock now instead of paid like a Googler. Then it's an independent business and you guys are off to the races. But until then we structure everything in terms of, what are we learning here? In fact, the baby board meetings that we have for the more mature projects are called quarterly learning reviews. Just to remind everybody, don't show me your progress. Progress is like a smoke screen. That's the rowing frantically in the ocean thing. What we want to know is, what have you really learned? Because if you have spent five or six years at X and you graduate with like Series A, maybe even seed stage Product Market Fit. We are totally fine with that, because you will have tried six or seven times to figure out what the right best connection point to the world is. We don't want a Product Market Fit. We want this sort of moonshot market fit, which is much more holistic. Often we're trying to change a system out in the world. So finding some little thing that people will buy, which in some sense is a product market fit. Actually doesn't have a very good chance of changing the system. If our real goal is to fix the system, then we have to figure out a much more complex set of things.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 49,
+          "t": [
+            2057,
+            2197
+          ],
+          "quote": "Yeah, I'm going to describe it, but just first to be fair to entrepreneurs. There's a bit of a mentality in the venture world with entrepreneurs. I want you as an investor to burn your boats at the shore. So that you and your men fight like crazy to take Troy or whatever city you're trying to capture. Because I know if you burn your boats at the shore, you will just fight harder and that's true. The question is, did you pick the right city to burn your boats in front of? But once you've burned your boats, asking that question is just kind of scary because there isn't really a way back. You can give the remaining money back to the investors. But I just want to recognize to entrepreneurs who are listening to this, before we talk about how to kill your project. A lot of it is about the incentive structures. If they're not put into a situation where it's in their best interest to give money back to the investors and call it a day. It just kind of won't and that doesn't make them stupid. It's like the system has not helped them feel it. Now what you just pointed out is really important, which is, it's their life that's ticking away. So that actually by itself should be worth it to do, but often it's not. So for us we will do a set of things, but here's one that we do all the time. We insist on it, it's called kill criteria. So if your project has moved past the investigation stage, now a few of you are going to be full time on this thing. We're tracking the costs. It's probably not public yet. There might only be three or four of you full time on the project, but given all the resources around X you can borrow. You're probably acting like maybe a ten person company at this point. Right at that moment where you start to do this full time, write down your kill criteria. This is like an honesty message from you to your future self. At some point, call it a year in the future, the following things should be true. This is what I, current Astro, think are the monkeys. We have to be able to do at least A, B, and C at least this well for each of them. In order for us to be taking this project seriously and of course, at that moment, I'm going to be feeling so cocky and everything's going to be great. So I'm going to set A and B and C. I'll try to sandbag a little bit, but entrepreneurs are never realistic enough.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 55,
+          "t": [
+            2299,
+            2373
+          ],
+          "quote": "You'd be surprised, I have had to insist. I don't make up the kill criteria. I want you to make the kill criteria because I want you to own it, right? If you think that you're working on the teleporter and fundamentally you want the teleporter to win more badly than you want to be a great Xer, card counter of innovation. You and I are not on the same team, and then I'll probably kill the teleporter just on the basis of you as the lead not being on the same team with me. Once we agree that it's more important to find the truth than for you to keep the teleporter alive. You tell me, I want the truth, and so do you. We're trying to figure out how to maximize goodness that we can create for the world over the next one or two decades. Is this really that? Tell me a story. Tell me, get specific and if you do it right, which at least to some extent I think we have at X. There's a microcosm that makes it kind of uncomfortable to be salesy and partisan on the behalf of the thing that you're locally trying to work on. Because everyone else here just would think that was gross. But that's an expectation that you have to wire into the culture and constantly reinforce because that's not how the rest of the world works.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 61,
+          "t": [
+            2535,
+            2693
+          ],
+          "quote": "I think some people think of Product Market Fit as, are people paying me for it? That's a super low bar. Are the right kind of people paying me for it? That's a slightly higher bar. Are they paying me more for it than it costs for me to make the thing? That's a slightly higher bar. How expensive is it for me to find these people and talk them into buying it, as opposed to their coming and finding me? Where are we on the spectrum from hard push to easy pull? And that stuff matters, but if you're trying to live to fight another day. Maybe that basket of things is mostly it. There's some other stuff in product, like how easy is it for a distributor to explain this to somebody when you're not there? That's pretty important in a real finished product. But at X, we're focused more on things like, what are the acupressure points in the industry? Or if, for example, we have a moonshot for the electric grid. But you cannot make a fake little grid in your lab and learn anything. And you can't start by going to these grid operators and saying, give me all your data, I'm going to do a little thing for you. This is a national security thing for every country in the world. They're just not going to do it. We spent five years doing things that would help us deeply understand their problems. So that we could start helping them and the first couple of things we did weren't even the moonshot. It was just getting a rapport going so that we could, with the grid operators of the world, start to move their grid operations and planning, and optimization into the 21st century. But we put in five, six years of work that was not product focused but looked a little bit like product focus but it wasn't Product Market Fit. Because that's not what, we were actually trying to fit with the partners so that we could get into a rhythm with them. So that we could then build things that would solve their problems. That's an example of what feels like moonshot market fit to us. But feels much more expansive and complicated than just, did we make something people want? Do they pay enough for it? Are they pulling it from us? That feels like there's a danger in thinking in that somewhat more narrow way that maybe not everybody thinks. But if I ask you to get to the moon, and you show me that you're a foot closer to the moon every day, not interesting. There's probably a ladder to the moon and I worry that there's a bunch of Product Market Fit that is so siloed. It's just building a ladder to the moon. You might build a pretty tall ladder, but you're not going to get to the moon that way.",
+          "speaker": "Astro Teller"
+        }
+      ]
+    },
+    {
+      "id": "alphabet",
+      "type": "company",
+      "role": "company",
+      "name": "Alphabet",
+      "file": "Alphabet",
+      "primary": true,
+      "how_described": "本集说它是 X 的投资人,项目毕业后可成为 Alphabet 内部独立业务(如 Waymo、Wing),或 Alphabet 持股 49%、不给董事会席位让其彻底独立",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            112,
+            226
+          ],
+          "quote": "Well, I mean, I was a serial tech entrepreneur before I became the co-founder and now the leader of X. The Moonshot Factory here at Alphabet. Before that, I did a PhD in artificial intelligence a long time ago. So I'm slightly academic. I'm a dyed in the wool entrepreneur. I've done quite a few things over the last sixteen years here as the captain of Moonshots, at the Moonshot Factory here at Alphabet. So I'm not sure I would describe myself as a nurturer of moonshots and moonshot takers. I'll start here, taking moonshots is really easy, super easy. If you don't care about efficiency, you find really high energy people who think they're right and are pretty smart. You dump a bunch of money on them and you'll get some moonshots, or anyway, some fairly big companies anyway. It's just not an efficient process and so, what I was somewhat interested in almost since I was a kid but which I've become obsessed with over the last twenty years, is how do you systematize radical innovation? And so what the Moonshot Factory is, is an attempt to explore these over the horizon sort of radical innovation things. That if they turned out to be as good as they seem on the surface, you could turn them into enduring businesses that are really good for the world. But shooting for that kind of thing, mostly the answer is nope, not now, can't be done at all, you can do it but you can't do it profitably, the world doesn't want it, whatever that is. So how do you figure out the one or two percent of the things that you start, that will be once in a generation opportunities for the world and for your investor? In this case, Alphabet is our investor, and how to do that as efficiently as possible. That's really where the Moonshot Factory is coming from.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 7,
+          "t": [
+            259,
+            370
+          ],
+          "quote": "Sure, so we were set up 16 years ago and we were set up because Google at the time was already starting to imagine Alphabet. Though Alphabet hadn't been named and so the desire was for there to be a kind of 21st century Bell Labs. That would park itself next to Google, not solve Google's problems. There are a lot of smart people at Google solving Google's problems. But to go find really new problems for this thing, which ended up being called Alphabet, the parent company of Google. To have, and then hopefully to solve some of those problems. Now, out of this process sometimes we come up with something. Google Brain is the most famous example, where we started and then it turns out to be so important to Google that we move it back to Google. And of course we can be proud of doing that. It's not an independent business, but it's been profoundly important for Alphabet, for the world. Sometimes we make something and we set it up as a separate business inside of Alphabet. Many of your listeners will know about Waymo, the self-driving cars, they came from X, or Wing, the drones for package delivery. That came from X, and so we have set up a number of businesses. Which are these sort of independent entities, but that are still inside the Alphabet umbrella and then increasingly frequently, when it makes sense, we create one of these moonshots when it's ready to graduate from X as an independent business. If Alphabet owns forty nine percent of that thing and doesn't have a board seat, then they're off to the races. We can cheer for them. They're still able to be very strategically involved with Alphabet, but they're in a really independent company at that point and so our job is to try one thousand, maybe fifteen hundred ideas per decade.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 9,
+          "t": [
+            370,
+            386
+          ],
+          "quote": "And if we get a couple Google Brains or Waymos or Wings per decade, especially if we're really efficient at throwing most of those ideas away early. Then this is really good for our investor Alphabet and really good for the world.",
+          "speaker": "Astro Teller"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": true,
+      "how_described": "本集说它是从 X 毕业的自动驾驶业务,定位历经三次修正:从「造车卖车」到「变革出行」再到「做世界上最安全的司机」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            259,
+            370
+          ],
+          "quote": "Sure, so we were set up 16 years ago and we were set up because Google at the time was already starting to imagine Alphabet. Though Alphabet hadn't been named and so the desire was for there to be a kind of 21st century Bell Labs. That would park itself next to Google, not solve Google's problems. There are a lot of smart people at Google solving Google's problems. But to go find really new problems for this thing, which ended up being called Alphabet, the parent company of Google. To have, and then hopefully to solve some of those problems. Now, out of this process sometimes we come up with something. Google Brain is the most famous example, where we started and then it turns out to be so important to Google that we move it back to Google. And of course we can be proud of doing that. It's not an independent business, but it's been profoundly important for Alphabet, for the world. Sometimes we make something and we set it up as a separate business inside of Alphabet. Many of your listeners will know about Waymo, the self-driving cars, they came from X, or Wing, the drones for package delivery. That came from X, and so we have set up a number of businesses. Which are these sort of independent entities, but that are still inside the Alphabet umbrella and then increasingly frequently, when it makes sense, we create one of these moonshots when it's ready to graduate from X as an independent business. If Alphabet owns forty nine percent of that thing and doesn't have a board seat, then they're off to the races. We can cheer for them. They're still able to be very strategically involved with Alphabet, but they're in a really independent company at that point and so our job is to try one thousand, maybe fifteen hundred ideas per decade.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 10,
+          "t": [
+            386,
+            441
+          ],
+          "quote": "Completely agree and any of those businesses, Google Brain, Waymo. I mean, these are businesses that are once in a generation type businesses. Just about any founder that I know would be more excited to have one of those, let alone multiple of them. What I want to talk to you about is, when I graduated university, I wanted to be a founder, I wanted to be an entrepreneur and frankly, being honest here. The thing I struggled with most was, especially at the beginning. How do I come up with a great idea? How do you actually do that? And now, I've spoken to many founders, and there's many. You know, you've got your classic, I felt a problem myself, I went and fixed it, it just kind of happened. You know, maybe Shopify was built that way. You've got the other ones that are even more serendipitous than that. Facebook is just, I'm building stuff, I'm having fun, I'm having a good time, something clicks and I'm just going to chase that, and execute on it. But when you're going to sit down and you're going to say, I'm going to create a Moonshot deliberately. That just feels harder to me, and I'd love to explore what happens behind the scenes to make that happen.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 13,
+          "t": [
+            453,
+            606
+          ],
+          "quote": "But pretend that we were in this dialogue. You're a founder and you're thinking of coming to X, but you kind of want to know, what am I signing up for here? So one of the fundamental things I would want you to know is, if you have something you just really believe in, please do not come to X. I would analogize that, I know this doesn't sound super friendly. If you want to go to Vegas and you just believe that seventeen is your lucky number, and you want to bet on seventeen on the roulette wheel. Okay, more power to you, I guess, and it might come up seventeen. And you'll make a lot of money. So I'm not saying no, I'm just, but I'm telling you for sure, that's not what happens at X. At X, we're trying to be the card counters of innovation. So it is a very different process. If you come to X, I want you to work on making a moonshot. But I also want you to understand you will be wrong over and over and over again. What I owe you, what all of X owes you, if you're going to join us, is that we have to be serious about not punishing you when you're wrong. That as long as you're pursuing potential moonshots in really smart, scrappy ways and being intellectually honest about how it's going. If the answer is nope, this is not pulling our average up, let's just put a bullet in its head and move on. Bad news, you get no equity while you're here at X. But the good news is you haven't bet your kid's college fund on the teleporter. So if the teleporter turns out not to be the right thing for us to do, and we're actually going to celebrate you for stopping it. Because you're being intellectually honest, you just get to try again and maybe the time machine will work out if that's the next project that you try. So if it appeals to you to be more of a card counter, to be part of a process with zero friction and high flow. Where we're collectively exploring which of the things that we're currently looking at might be a Waymo, might be a Google Brain. If that excites you, come here and do it and the amazing news is at the end of, you might try several, they fail. Finally you try one and it actually gets all the way through X. You graduate, we give that team founders shares. A lot of the company goes to them, and you took no risk the whole time while you were doing it. And we can afford to do that because we're so much more efficient at stopping the things that aren't really great pretty early in the process. So it is a very different way of being an entrepreneur but for at least a class of entrepreneurs, typically ones who've already been to the wars once or twice.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 16,
+          "t": [
+            626,
+            639
+          ],
+          "quote": "So let's get to the meat of it. Let's talk about, beginning to end in as much detail as possible. How you end up with a Waymo, right? It's got to be some kind of a funnel that creates ideas and then, but you tell me. How does all that work? How does the machine work?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 27,
+          "t": [
+            870,
+            894
+          ],
+          "quote": "Yeah, so I don't let us play that game. I'm a truth seeker. I'm like, oh you're working on the teleporter. It's not like I don't want the teleporter to win. But if the teleporter is not going to be a Waymo, I want to know now. I don't want to know in three years, and I want you to be with me in wanting to know now, and not wanting to know in three years. So I don't want you to work on the stuff that's like, live to fight another day.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 32,
+          "t": [
+            1127,
+            1138
+          ],
+          "quote": "And tell me a little bit more about the idea. So they come from a bunch of different places, but what does an idea look like in its rawest form? Is it like Waymo or a self driving car? Was that the idea, or was it, you know what I mean? What do they look like at that stage?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 33,
+          "t": [
+            1138,
+            1277
+          ],
+          "quote": "So the ideas come from all over the world. In the very early days, Waymo said, more than a million people die in car accidents. It makes no sense that humans are still driving cars. A moonshot for us is huge problem with the world, science fiction sounding solution to that problem, and some technology or set of technologies that give us a sense that this is a testable hypothesis for making that science fiction sounding solution. So Waymo said in the early days, more than a million people die in car accidents every year. More than a trillion dollars is wasted in car accidents and people sitting in traffic. That is not the future. Crazy idea, what if cars just drove themselves and we're just going to make a self driving car. And here's a set of reasons to believe that the technology, LIDAR, radar, et cetera, is just ready enough. This was like circa 2009, 2010, that maybe we could do it. We'll be the right amount too early in trying to do that. But even then, saying we're making a self driving car turned out to be the wrong framing. I mean, it got us going. But after a while, we realized, oh, we're not actually trying to make and sell cars. That's not our job. So if the first five years Waymo thought we're going to be making and selling a car. The next five years they thought, actually our job is transforming mobility, just moving people from point A to point B, that's our job. But even that framing, while better was still wrong. Because do we really want to be the ones cleaning the cars? Do we want to be the ones charging the cars? Do we want necessarily to have to own the interface with the consumer on their phone? And so if you ask Waymo now, what's your framing for what you're doing? They say they're trying to make the world's safest driver and so, by getting more and more specific. Obviously the world's safest driver was a part of making a self driving car. But as they're getting more and more concrete, and specific about what they want to be the best in the world at. It opens up more possibilities for them to explore that space differently, to partner better with other people and that's part of the learning journey of a moonshot, is trying to understand the sort of architecture for where we're going, why we're going there, what kind of help we need along the way. How to understand what it means when the alligators jump out of the swamp and try to bite us.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 34,
+          "t": [
+            1277,
+            1307
+          ],
+          "quote": "And would you say, take Waymo for example. It's a type of idea which I would categorize as, if you build it, they will come. If you can actually deliver self driving and you figure out the logistics and you figure out the price, obviously. But many people are going to want to not drive their car because many people want a driver. Are most of your ideas like that where it's, will the tech get there, and that's kind of the main risk? Or is that just, that just happens to be Waymo, but others are more. Maybe the tech is there and now it's a demand risk or the risk is somewhere else other than just, can we build it?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 35,
+          "t": [
+            1307,
+            1384
+          ],
+          "quote": "We always will lean harder on the sort of technical, operational, like, how do you pull this all together? We won't lean particularly hard, the dominant risk couldn't be kind of public policy and government relations. We do that, but that shouldn't be the dominant risk. It shouldn't be a marketing risk. If we have to just make people want this thing more than something fairly equivalent, that's just not what we should be world class at. But I'll give you an example where it wasn't just a tech risk. Google Glass, turns out we were to too early there. But increasingly, it's looking like we were very right. The whole world has come back around to that. But when we made it, we were trying to figure out, we have a sense that people want to get away from their phones. I think it now turns out we were right, but we were also too early and just saying people want to get away from their phones doesn't mean you can necessarily make it feasibly. But also, how to land that with consumers and with society so that people understand it and feel good about it. There was a lot that was hard, and it was a learning journey for us. And we got some things very right, but we also were too early and got some things wrong. So maybe that's an example that's not like Waymo. We couldn't prove ahead of time, if we can make it, this will win.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 45,
+          "t": [
+            1788,
+            1886
+          ],
+          "quote": "Yeah, but if you have a crazy idea about nuclear fusion. Okay, first, let's see if we can kill it on the whiteboard. If we can't kill it on the whiteboard, I guarantee you the next thing we're doing is not building something the size of a house to start doing plasma shots. We're going to build a simulator or find someone who has a simulator and see if we can kill it using the simulator. If it survives that process, maybe we have to build something the size of a house, but maybe we can even find someone in a university who can do a little bit of the de-risking with us even if it's only bits and pieces. And then when we get to the place, which we did. We closed this down about a year and a half ago. We had a fusion project. We ran it. We did build something the size of a house. We did almost a thousand plasma shots. We convinced ourself it was not going to change the world, and we closed the project down. But it was money well spent because we had removed all the cheaper ways to try that first. Speaking of which, we have a Moonshot podcast. If your audience wants to hear more about some of these stories. Really hear what it was like building Waymo or building Wing. Building this Fusion project. We now have two seasons out. If people just search for Moonshot Factory Moonshot podcast, it'll come up and I think people really enjoy this sort of deep dives. It's not just what it was like for us, but it's exploring with the entrepreneurs that have gone through X. What it felt like for them and what other people can learn about taking their own shots.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 47,
+          "t": [
+            1894,
+            2017
+          ],
+          "quote": "I mean, this sounds a little bit extreme but there is no step after that. You just keep doing that. If you do that for six years and you've burned down a lot of the risk. If we're actually at the place where we're like, well, there's a sizable chance this actually could be a Waymo someday. Then it graduates from X and, often this is sort of on the order of ten to fifty people who leave to set up this new business. No one makes anyone leave X. If you want to stay and you have to find a new job, a new thing to do at X, that's cool. If you're excited about the teleporter and it looks like it's really working and you're going to get a non-trivial amount of shares in the teleporter company. You better believe in it because you're about to start getting paid in illiquid stock now instead of paid like a Googler. Then it's an independent business and you guys are off to the races. But until then we structure everything in terms of, what are we learning here? In fact, the baby board meetings that we have for the more mature projects are called quarterly learning reviews. Just to remind everybody, don't show me your progress. Progress is like a smoke screen. That's the rowing frantically in the ocean thing. What we want to know is, what have you really learned? Because if you have spent five or six years at X and you graduate with like Series A, maybe even seed stage Product Market Fit. We are totally fine with that, because you will have tried six or seven times to figure out what the right best connection point to the world is. We don't want a Product Market Fit. We want this sort of moonshot market fit, which is much more holistic. Often we're trying to change a system out in the world. So finding some little thing that people will buy, which in some sense is a product market fit. Actually doesn't have a very good chance of changing the system. If our real goal is to fix the system, then we have to figure out a much more complex set of things.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 57,
+          "t": [
+            2379,
+            2450
+          ],
+          "quote": "Yeah, I mean there's a group here working on something super unlikely to work. Absolutely would change the world if it did, and they said, hey, we think we could try this in six months for like $100,000. And I said, you know what, the reward risk ratio here is good. And those two people who started this new project, are the two people who by themselves killed off the fusion project. They made a two hundred and fifty page slide deck about why we should close it down. I didn't do that, and so then they built their credibility that they're intellectually honest. So when they came with this pretty crazy sounding idea, I said, okay. Now, that was nine months ago. Project's not dead. After six months, we were starting to get some data. Shocker, it was inconclusive. Could be really good. We're still chasing it. It'll probably be a year and $200,000 till we really learn on that one. But that's okay. That's still pretty cheap if it's really a Waymo, Google Brain size thing. If it happens to work out, and of course, there would be a decade of work afterwards if it did work out. It's not like we would be done. But that's not the question. The question is, how much of the risk can you burn down cheaply?",
+          "speaker": "Astro Teller"
+        }
+      ]
+    },
+    {
+      "id": "google-brain",
+      "type": "company",
+      "role": "company",
+      "name": "Google Brain",
+      "file": "Google Brain",
+      "primary": true,
+      "how_described": "本集说它是 X 产出中最著名的例子,因对谷歌太重要而被移回谷歌,成为 X 三种产出路径之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            259,
+            370
+          ],
+          "quote": "Sure, so we were set up 16 years ago and we were set up because Google at the time was already starting to imagine Alphabet. Though Alphabet hadn't been named and so the desire was for there to be a kind of 21st century Bell Labs. That would park itself next to Google, not solve Google's problems. There are a lot of smart people at Google solving Google's problems. But to go find really new problems for this thing, which ended up being called Alphabet, the parent company of Google. To have, and then hopefully to solve some of those problems. Now, out of this process sometimes we come up with something. Google Brain is the most famous example, where we started and then it turns out to be so important to Google that we move it back to Google. And of course we can be proud of doing that. It's not an independent business, but it's been profoundly important for Alphabet, for the world. Sometimes we make something and we set it up as a separate business inside of Alphabet. Many of your listeners will know about Waymo, the self-driving cars, they came from X, or Wing, the drones for package delivery. That came from X, and so we have set up a number of businesses. Which are these sort of independent entities, but that are still inside the Alphabet umbrella and then increasingly frequently, when it makes sense, we create one of these moonshots when it's ready to graduate from X as an independent business. If Alphabet owns forty nine percent of that thing and doesn't have a board seat, then they're off to the races. We can cheer for them. They're still able to be very strategically involved with Alphabet, but they're in a really independent company at that point and so our job is to try one thousand, maybe fifteen hundred ideas per decade.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 10,
+          "t": [
+            386,
+            441
+          ],
+          "quote": "Completely agree and any of those businesses, Google Brain, Waymo. I mean, these are businesses that are once in a generation type businesses. Just about any founder that I know would be more excited to have one of those, let alone multiple of them. What I want to talk to you about is, when I graduated university, I wanted to be a founder, I wanted to be an entrepreneur and frankly, being honest here. The thing I struggled with most was, especially at the beginning. How do I come up with a great idea? How do you actually do that? And now, I've spoken to many founders, and there's many. You know, you've got your classic, I felt a problem myself, I went and fixed it, it just kind of happened. You know, maybe Shopify was built that way. You've got the other ones that are even more serendipitous than that. Facebook is just, I'm building stuff, I'm having fun, I'm having a good time, something clicks and I'm just going to chase that, and execute on it. But when you're going to sit down and you're going to say, I'm going to create a Moonshot deliberately. That just feels harder to me, and I'd love to explore what happens behind the scenes to make that happen.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 13,
+          "t": [
+            453,
+            606
+          ],
+          "quote": "But pretend that we were in this dialogue. You're a founder and you're thinking of coming to X, but you kind of want to know, what am I signing up for here? So one of the fundamental things I would want you to know is, if you have something you just really believe in, please do not come to X. I would analogize that, I know this doesn't sound super friendly. If you want to go to Vegas and you just believe that seventeen is your lucky number, and you want to bet on seventeen on the roulette wheel. Okay, more power to you, I guess, and it might come up seventeen. And you'll make a lot of money. So I'm not saying no, I'm just, but I'm telling you for sure, that's not what happens at X. At X, we're trying to be the card counters of innovation. So it is a very different process. If you come to X, I want you to work on making a moonshot. But I also want you to understand you will be wrong over and over and over again. What I owe you, what all of X owes you, if you're going to join us, is that we have to be serious about not punishing you when you're wrong. That as long as you're pursuing potential moonshots in really smart, scrappy ways and being intellectually honest about how it's going. If the answer is nope, this is not pulling our average up, let's just put a bullet in its head and move on. Bad news, you get no equity while you're here at X. But the good news is you haven't bet your kid's college fund on the teleporter. So if the teleporter turns out not to be the right thing for us to do, and we're actually going to celebrate you for stopping it. Because you're being intellectually honest, you just get to try again and maybe the time machine will work out if that's the next project that you try. So if it appeals to you to be more of a card counter, to be part of a process with zero friction and high flow. Where we're collectively exploring which of the things that we're currently looking at might be a Waymo, might be a Google Brain. If that excites you, come here and do it and the amazing news is at the end of, you might try several, they fail. Finally you try one and it actually gets all the way through X. You graduate, we give that team founders shares. A lot of the company goes to them, and you took no risk the whole time while you were doing it. And we can afford to do that because we're so much more efficient at stopping the things that aren't really great pretty early in the process. So it is a very different way of being an entrepreneur but for at least a class of entrepreneurs, typically ones who've already been to the wars once or twice.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 57,
+          "t": [
+            2379,
+            2450
+          ],
+          "quote": "Yeah, I mean there's a group here working on something super unlikely to work. Absolutely would change the world if it did, and they said, hey, we think we could try this in six months for like $100,000. And I said, you know what, the reward risk ratio here is good. And those two people who started this new project, are the two people who by themselves killed off the fusion project. They made a two hundred and fifty page slide deck about why we should close it down. I didn't do that, and so then they built their credibility that they're intellectually honest. So when they came with this pretty crazy sounding idea, I said, okay. Now, that was nine months ago. Project's not dead. After six months, we were starting to get some data. Shocker, it was inconclusive. Could be really good. We're still chasing it. It'll probably be a year and $200,000 till we really learn on that one. But that's okay. That's still pretty cheap if it's really a Waymo, Google Brain size thing. If it happens to work out, and of course, there would be a decade of work afterwards if it did work out. It's not like we would be done. But that's not the question. The question is, how much of the risk can you burn down cheaply?",
+          "speaker": "Astro Teller"
+        }
+      ]
+    },
+    {
+      "id": "wing",
+      "type": "company",
+      "role": "company",
+      "name": "Wing",
+      "file": "Wing",
+      "primary": true,
+      "how_described": "本集说它是从 X 毕业的送货无人机业务,早期通过用便宜航模马达做冗余设计,把安全从复杂控制问题变成很小的增量成本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            259,
+            370
+          ],
+          "quote": "Sure, so we were set up 16 years ago and we were set up because Google at the time was already starting to imagine Alphabet. Though Alphabet hadn't been named and so the desire was for there to be a kind of 21st century Bell Labs. That would park itself next to Google, not solve Google's problems. There are a lot of smart people at Google solving Google's problems. But to go find really new problems for this thing, which ended up being called Alphabet, the parent company of Google. To have, and then hopefully to solve some of those problems. Now, out of this process sometimes we come up with something. Google Brain is the most famous example, where we started and then it turns out to be so important to Google that we move it back to Google. And of course we can be proud of doing that. It's not an independent business, but it's been profoundly important for Alphabet, for the world. Sometimes we make something and we set it up as a separate business inside of Alphabet. Many of your listeners will know about Waymo, the self-driving cars, they came from X, or Wing, the drones for package delivery. That came from X, and so we have set up a number of businesses. Which are these sort of independent entities, but that are still inside the Alphabet umbrella and then increasingly frequently, when it makes sense, we create one of these moonshots when it's ready to graduate from X as an independent business. If Alphabet owns forty nine percent of that thing and doesn't have a board seat, then they're off to the races. We can cheer for them. They're still able to be very strategically involved with Alphabet, but they're in a really independent company at that point and so our job is to try one thousand, maybe fifteen hundred ideas per decade.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 41,
+          "t": [
+            1649,
+            1735
+          ],
+          "quote": "The point of a testable hypothesis, especially at X. Everyone at X will just say as shorthand to each other, what's the monkey? What they mean by that is not just, do you have a testable hypothesis but how is the thing that you're doing now attempting to burn down the risk on the riskiest part of the problem? Because if you can't train the monkey, you do not need to build the pedestal, obviously, and in a much more subtle way for every moonshot we have here. How scary is making this thing physically? Oh yeah, if we're really honest, we're going to be able to do it. How cheaply can we make it? Oh yeah, that actually could be the scary part. Okay, if the scary part is the techno economics. Let's not wait. Let's get really crisp about what has to be true. Maybe you can just do a bunch of spreadsheet math and kill the project on the basis of, okay, almost no matter how good we make each of these ten pieces. We're going to have to jam them all together. Yeah, the numbers are just not going to pencil out. This is not going to be competitive. Great, kill the project, move on. Sometimes it's actually how people will use something. Sometimes it's a safety issue and sometimes the solutions. In the very early days of Wing, we spent so much time trying to think about safety and make it safe with a very small number of propellers.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 42,
+          "t": [
+            1735,
+            1738
+          ],
+          "quote": "And Wing, for those who don't know, that's the drone delivery.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 45,
+          "t": [
+            1788,
+            1886
+          ],
+          "quote": "Yeah, but if you have a crazy idea about nuclear fusion. Okay, first, let's see if we can kill it on the whiteboard. If we can't kill it on the whiteboard, I guarantee you the next thing we're doing is not building something the size of a house to start doing plasma shots. We're going to build a simulator or find someone who has a simulator and see if we can kill it using the simulator. If it survives that process, maybe we have to build something the size of a house, but maybe we can even find someone in a university who can do a little bit of the de-risking with us even if it's only bits and pieces. And then when we get to the place, which we did. We closed this down about a year and a half ago. We had a fusion project. We ran it. We did build something the size of a house. We did almost a thousand plasma shots. We convinced ourself it was not going to change the world, and we closed the project down. But it was money well spent because we had removed all the cheaper ways to try that first. Speaking of which, we have a Moonshot podcast. If your audience wants to hear more about some of these stories. Really hear what it was like building Waymo or building Wing. Building this Fusion project. We now have two seasons out. If people just search for Moonshot Factory Moonshot podcast, it'll come up and I think people really enjoy this sort of deep dives. It's not just what it was like for us, but it's exploring with the entrepreneurs that have gone through X. What it felt like for them and what other people can learn about taking their own shots.",
+          "speaker": "Astro Teller"
+        }
+      ]
+    },
+    {
+      "id": "moonshot",
+      "type": "concept",
+      "role": "concept",
+      "name": "登月项目 (moonshot)",
+      "file": "登月项目",
+      "primary": true,
+      "how_described": "本集把它定义为三要素糅合:世界上巨大的问题 + 听起来像科幻的解决方案 + 让它成为可检验假设的突破性技术",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            112,
+            226
+          ],
+          "quote": "Well, I mean, I was a serial tech entrepreneur before I became the co-founder and now the leader of X. The Moonshot Factory here at Alphabet. Before that, I did a PhD in artificial intelligence a long time ago. So I'm slightly academic. I'm a dyed in the wool entrepreneur. I've done quite a few things over the last sixteen years here as the captain of Moonshots, at the Moonshot Factory here at Alphabet. So I'm not sure I would describe myself as a nurturer of moonshots and moonshot takers. I'll start here, taking moonshots is really easy, super easy. If you don't care about efficiency, you find really high energy people who think they're right and are pretty smart. You dump a bunch of money on them and you'll get some moonshots, or anyway, some fairly big companies anyway. It's just not an efficient process and so, what I was somewhat interested in almost since I was a kid but which I've become obsessed with over the last twenty years, is how do you systematize radical innovation? And so what the Moonshot Factory is, is an attempt to explore these over the horizon sort of radical innovation things. That if they turned out to be as good as they seem on the surface, you could turn them into enduring businesses that are really good for the world. But shooting for that kind of thing, mostly the answer is nope, not now, can't be done at all, you can do it but you can't do it profitably, the world doesn't want it, whatever that is. So how do you figure out the one or two percent of the things that you start, that will be once in a generation opportunities for the world and for your investor? In this case, Alphabet is our investor, and how to do that as efficiently as possible. That's really where the Moonshot Factory is coming from.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 6,
+          "t": [
+            226,
+            259
+          ],
+          "quote": "And I think that's the key difference that I was pointing out. Which is most of these classical founders, they have one idea, one moonshot, and they're kind of all in on that thing. And that's the thing they're going to do. Maybe they pivot once or twice, but that's really the company. Your setup is different by design, where you're constantly coming up with new moonshots, trying them out, testing them out, and it's a system to create these outputs. Maybe tell me a little bit more just about the setup of Moonshot Factory. How it's all set up, maybe a little bit of the origin story, just to get us enough of an understanding of the situation and then we're going to go deep on the process that you were just alluding to.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 10,
+          "t": [
+            386,
+            441
+          ],
+          "quote": "Completely agree and any of those businesses, Google Brain, Waymo. I mean, these are businesses that are once in a generation type businesses. Just about any founder that I know would be more excited to have one of those, let alone multiple of them. What I want to talk to you about is, when I graduated university, I wanted to be a founder, I wanted to be an entrepreneur and frankly, being honest here. The thing I struggled with most was, especially at the beginning. How do I come up with a great idea? How do you actually do that? And now, I've spoken to many founders, and there's many. You know, you've got your classic, I felt a problem myself, I went and fixed it, it just kind of happened. You know, maybe Shopify was built that way. You've got the other ones that are even more serendipitous than that. Facebook is just, I'm building stuff, I'm having fun, I'm having a good time, something clicks and I'm just going to chase that, and execute on it. But when you're going to sit down and you're going to say, I'm going to create a Moonshot deliberately. That just feels harder to me, and I'd love to explore what happens behind the scenes to make that happen.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 13,
+          "t": [
+            453,
+            606
+          ],
+          "quote": "But pretend that we were in this dialogue. You're a founder and you're thinking of coming to X, but you kind of want to know, what am I signing up for here? So one of the fundamental things I would want you to know is, if you have something you just really believe in, please do not come to X. I would analogize that, I know this doesn't sound super friendly. If you want to go to Vegas and you just believe that seventeen is your lucky number, and you want to bet on seventeen on the roulette wheel. Okay, more power to you, I guess, and it might come up seventeen. And you'll make a lot of money. So I'm not saying no, I'm just, but I'm telling you for sure, that's not what happens at X. At X, we're trying to be the card counters of innovation. So it is a very different process. If you come to X, I want you to work on making a moonshot. But I also want you to understand you will be wrong over and over and over again. What I owe you, what all of X owes you, if you're going to join us, is that we have to be serious about not punishing you when you're wrong. That as long as you're pursuing potential moonshots in really smart, scrappy ways and being intellectually honest about how it's going. If the answer is nope, this is not pulling our average up, let's just put a bullet in its head and move on. Bad news, you get no equity while you're here at X. But the good news is you haven't bet your kid's college fund on the teleporter. So if the teleporter turns out not to be the right thing for us to do, and we're actually going to celebrate you for stopping it. Because you're being intellectually honest, you just get to try again and maybe the time machine will work out if that's the next project that you try. So if it appeals to you to be more of a card counter, to be part of a process with zero friction and high flow. Where we're collectively exploring which of the things that we're currently looking at might be a Waymo, might be a Google Brain. If that excites you, come here and do it and the amazing news is at the end of, you might try several, they fail. Finally you try one and it actually gets all the way through X. You graduate, we give that team founders shares. A lot of the company goes to them, and you took no risk the whole time while you were doing it. And we can afford to do that because we're so much more efficient at stopping the things that aren't really great pretty early in the process. So it is a very different way of being an entrepreneur but for at least a class of entrepreneurs, typically ones who've already been to the wars once or twice.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 31,
+          "t": [
+            969,
+            1127
+          ],
+          "quote": "I would say the vast majority are doing that to some extent. Now, you can make that less likely as an entrepreneur if you make sure that you can see your goal from where you are. If you can see your goal, metaphorically speaking. Where the only really hard thing is how fast you run getting from here to there. That's what startups are built for and that's totally not what X is built for. But if your goal is over the horizon, you don't even know what direction it is and it might not even exist. So I think of it like, if we were lost in a rowboat. Somehow people get in this mindset of how vigorously I row is going to save us. You know what? If we're lost in a rowboat, I'm going to spend ninety percent of my time with the sextant and ten percent of my time rowing. But that is a really hard thing to get people to unlearn because they have learned that progress is the ultimate metric instead of learning being the ultimate metric. But especially while we're at X, because we're not yet company building. We do things that look more and more like company building. But we're buying options on the future and so information gain, the learning per dollar, is what we're actually trying to maximize. Now over time, of course, we do have to start answering questions like, does anyone want this thing? How much would it cost for us to make this thing? How much would people pay for this thing? Is the second number larger than the first? Ultimately you have to ask and answer questions that start sounding like business questions, but we do it as a set of experiments. We still even there say, we're not trying to find something people will buy and then sell a lot of it. We're trying to deeply understand, is there a dent in the universe to be made here? And if so, what's the right way to do it? The ideas come from all over the world. We often will find in a university, someone has some cool thing. I don't know, at Johns Hopkins, someone invented a frictionless surface. A frictionless surface is not a moonshot. That is a raw technology opportunity. Someone else might be really interested in ending warfare. Ending warfare sounds like a nice thing to do. Humanity is not better for wars, but that's also not a moonshot. The trick is to find a bunch of needs and technology pieces, and mush them together in a really surprising way. So we're not the paradigm shifting scientists. That's not what we do. We're paradigm shifting system engineers. We're trying to bridge that gap between basic science and something that's like venture investable. But that's like often a five or six year gap that gets filled very badly.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 33,
+          "t": [
+            1138,
+            1277
+          ],
+          "quote": "So the ideas come from all over the world. In the very early days, Waymo said, more than a million people die in car accidents. It makes no sense that humans are still driving cars. A moonshot for us is huge problem with the world, science fiction sounding solution to that problem, and some technology or set of technologies that give us a sense that this is a testable hypothesis for making that science fiction sounding solution. So Waymo said in the early days, more than a million people die in car accidents every year. More than a trillion dollars is wasted in car accidents and people sitting in traffic. That is not the future. Crazy idea, what if cars just drove themselves and we're just going to make a self driving car. And here's a set of reasons to believe that the technology, LIDAR, radar, et cetera, is just ready enough. This was like circa 2009, 2010, that maybe we could do it. We'll be the right amount too early in trying to do that. But even then, saying we're making a self driving car turned out to be the wrong framing. I mean, it got us going. But after a while, we realized, oh, we're not actually trying to make and sell cars. That's not our job. So if the first five years Waymo thought we're going to be making and selling a car. The next five years they thought, actually our job is transforming mobility, just moving people from point A to point B, that's our job. But even that framing, while better was still wrong. Because do we really want to be the ones cleaning the cars? Do we want to be the ones charging the cars? Do we want necessarily to have to own the interface with the consumer on their phone? And so if you ask Waymo now, what's your framing for what you're doing? They say they're trying to make the world's safest driver and so, by getting more and more specific. Obviously the world's safest driver was a part of making a self driving car. But as they're getting more and more concrete, and specific about what they want to be the best in the world at. It opens up more possibilities for them to explore that space differently, to partner better with other people and that's part of the learning journey of a moonshot, is trying to understand the sort of architecture for where we're going, why we're going there, what kind of help we need along the way. How to understand what it means when the alligators jump out of the swamp and try to bite us.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 41,
+          "t": [
+            1649,
+            1735
+          ],
+          "quote": "The point of a testable hypothesis, especially at X. Everyone at X will just say as shorthand to each other, what's the monkey? What they mean by that is not just, do you have a testable hypothesis but how is the thing that you're doing now attempting to burn down the risk on the riskiest part of the problem? Because if you can't train the monkey, you do not need to build the pedestal, obviously, and in a much more subtle way for every moonshot we have here. How scary is making this thing physically? Oh yeah, if we're really honest, we're going to be able to do it. How cheaply can we make it? Oh yeah, that actually could be the scary part. Okay, if the scary part is the techno economics. Let's not wait. Let's get really crisp about what has to be true. Maybe you can just do a bunch of spreadsheet math and kill the project on the basis of, okay, almost no matter how good we make each of these ten pieces. We're going to have to jam them all together. Yeah, the numbers are just not going to pencil out. This is not going to be competitive. Great, kill the project, move on. Sometimes it's actually how people will use something. Sometimes it's a safety issue and sometimes the solutions. In the very early days of Wing, we spent so much time trying to think about safety and make it safe with a very small number of propellers.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 45,
+          "t": [
+            1788,
+            1886
+          ],
+          "quote": "Yeah, but if you have a crazy idea about nuclear fusion. Okay, first, let's see if we can kill it on the whiteboard. If we can't kill it on the whiteboard, I guarantee you the next thing we're doing is not building something the size of a house to start doing plasma shots. We're going to build a simulator or find someone who has a simulator and see if we can kill it using the simulator. If it survives that process, maybe we have to build something the size of a house, but maybe we can even find someone in a university who can do a little bit of the de-risking with us even if it's only bits and pieces. And then when we get to the place, which we did. We closed this down about a year and a half ago. We had a fusion project. We ran it. We did build something the size of a house. We did almost a thousand plasma shots. We convinced ourself it was not going to change the world, and we closed the project down. But it was money well spent because we had removed all the cheaper ways to try that first. Speaking of which, we have a Moonshot podcast. If your audience wants to hear more about some of these stories. Really hear what it was like building Waymo or building Wing. Building this Fusion project. We now have two seasons out. If people just search for Moonshot Factory Moonshot podcast, it'll come up and I think people really enjoy this sort of deep dives. It's not just what it was like for us, but it's exploring with the entrepreneurs that have gone through X. What it felt like for them and what other people can learn about taking their own shots.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 47,
+          "t": [
+            1894,
+            2017
+          ],
+          "quote": "I mean, this sounds a little bit extreme but there is no step after that. You just keep doing that. If you do that for six years and you've burned down a lot of the risk. If we're actually at the place where we're like, well, there's a sizable chance this actually could be a Waymo someday. Then it graduates from X and, often this is sort of on the order of ten to fifty people who leave to set up this new business. No one makes anyone leave X. If you want to stay and you have to find a new job, a new thing to do at X, that's cool. If you're excited about the teleporter and it looks like it's really working and you're going to get a non-trivial amount of shares in the teleporter company. You better believe in it because you're about to start getting paid in illiquid stock now instead of paid like a Googler. Then it's an independent business and you guys are off to the races. But until then we structure everything in terms of, what are we learning here? In fact, the baby board meetings that we have for the more mature projects are called quarterly learning reviews. Just to remind everybody, don't show me your progress. Progress is like a smoke screen. That's the rowing frantically in the ocean thing. What we want to know is, what have you really learned? Because if you have spent five or six years at X and you graduate with like Series A, maybe even seed stage Product Market Fit. We are totally fine with that, because you will have tried six or seven times to figure out what the right best connection point to the world is. We don't want a Product Market Fit. We want this sort of moonshot market fit, which is much more holistic. Often we're trying to change a system out in the world. So finding some little thing that people will buy, which in some sense is a product market fit. Actually doesn't have a very good chance of changing the system. If our real goal is to fix the system, then we have to figure out a much more complex set of things.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 60,
+          "t": [
+            2520,
+            2535
+          ],
+          "quote": "This is the Product Market Fit Show. So I'll maybe end it and we can talk a little bit about this, especially because you've seen so many ideas. What is Product Market Fit to you? You mentioned moonshot market fit. So maybe talk about that, but what does real pull for an idea look like to you?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 61,
+          "t": [
+            2535,
+            2693
+          ],
+          "quote": "I think some people think of Product Market Fit as, are people paying me for it? That's a super low bar. Are the right kind of people paying me for it? That's a slightly higher bar. Are they paying me more for it than it costs for me to make the thing? That's a slightly higher bar. How expensive is it for me to find these people and talk them into buying it, as opposed to their coming and finding me? Where are we on the spectrum from hard push to easy pull? And that stuff matters, but if you're trying to live to fight another day. Maybe that basket of things is mostly it. There's some other stuff in product, like how easy is it for a distributor to explain this to somebody when you're not there? That's pretty important in a real finished product. But at X, we're focused more on things like, what are the acupressure points in the industry? Or if, for example, we have a moonshot for the electric grid. But you cannot make a fake little grid in your lab and learn anything. And you can't start by going to these grid operators and saying, give me all your data, I'm going to do a little thing for you. This is a national security thing for every country in the world. They're just not going to do it. We spent five years doing things that would help us deeply understand their problems. So that we could start helping them and the first couple of things we did weren't even the moonshot. It was just getting a rapport going so that we could, with the grid operators of the world, start to move their grid operations and planning, and optimization into the 21st century. But we put in five, six years of work that was not product focused but looked a little bit like product focus but it wasn't Product Market Fit. Because that's not what, we were actually trying to fit with the partners so that we could get into a rhythm with them. So that we could then build things that would solve their problems. That's an example of what feels like moonshot market fit to us. But feels much more expansive and complicated than just, did we make something people want? Do they pay enough for it? Are they pulling it from us? That feels like there's a danger in thinking in that somewhat more narrow way that maybe not everybody thinks. But if I ask you to get to the moon, and you show me that you're a foot closer to the moon every day, not interesting. There's probably a ladder to the moon and I worry that there's a bunch of Product Market Fit that is so siloed. It's just building a ladder to the moon. You might build a pretty tall ladder, but you're not going to get to the moon that way.",
+          "speaker": "Astro Teller"
+        }
+      ]
+    },
+    {
+      "id": "kill-criteria",
+      "type": "concept",
+      "role": "concept",
+      "name": "终止标准 (kill criteria)",
+      "file": "终止标准",
+      "primary": true,
+      "how_described": "本集说它是项目转全职那一刻由负责人自己写下的标准——未来一年 A、B、C 必须达标,否则默认砍掉,像给未来自信满满的自己的一封诚实讯息",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            2057,
+            2197
+          ],
+          "quote": "Yeah, I'm going to describe it, but just first to be fair to entrepreneurs. There's a bit of a mentality in the venture world with entrepreneurs. I want you as an investor to burn your boats at the shore. So that you and your men fight like crazy to take Troy or whatever city you're trying to capture. Because I know if you burn your boats at the shore, you will just fight harder and that's true. The question is, did you pick the right city to burn your boats in front of? But once you've burned your boats, asking that question is just kind of scary because there isn't really a way back. You can give the remaining money back to the investors. But I just want to recognize to entrepreneurs who are listening to this, before we talk about how to kill your project. A lot of it is about the incentive structures. If they're not put into a situation where it's in their best interest to give money back to the investors and call it a day. It just kind of won't and that doesn't make them stupid. It's like the system has not helped them feel it. Now what you just pointed out is really important, which is, it's their life that's ticking away. So that actually by itself should be worth it to do, but often it's not. So for us we will do a set of things, but here's one that we do all the time. We insist on it, it's called kill criteria. So if your project has moved past the investigation stage, now a few of you are going to be full time on this thing. We're tracking the costs. It's probably not public yet. There might only be three or four of you full time on the project, but given all the resources around X you can borrow. You're probably acting like maybe a ten person company at this point. Right at that moment where you start to do this full time, write down your kill criteria. This is like an honesty message from you to your future self. At some point, call it a year in the future, the following things should be true. This is what I, current Astro, think are the monkeys. We have to be able to do at least A, B, and C at least this well for each of them. In order for us to be taking this project seriously and of course, at that moment, I'm going to be feeling so cocky and everything's going to be great. So I'm going to set A and B and C. I'll try to sandbag a little bit, but entrepreneurs are never realistic enough.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 55,
+          "t": [
+            2299,
+            2373
+          ],
+          "quote": "You'd be surprised, I have had to insist. I don't make up the kill criteria. I want you to make the kill criteria because I want you to own it, right? If you think that you're working on the teleporter and fundamentally you want the teleporter to win more badly than you want to be a great Xer, card counter of innovation. You and I are not on the same team, and then I'll probably kill the teleporter just on the basis of you as the lead not being on the same team with me. Once we agree that it's more important to find the truth than for you to keep the teleporter alive. You tell me, I want the truth, and so do you. We're trying to figure out how to maximize goodness that we can create for the world over the next one or two decades. Is this really that? Tell me a story. Tell me, get specific and if you do it right, which at least to some extent I think we have at X. There's a microcosm that makes it kind of uncomfortable to be salesy and partisan on the behalf of the thing that you're locally trying to work on. Because everyone else here just would think that was gross. But that's an expectation that you have to wire into the culture and constantly reinforce because that's not how the rest of the world works.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 56,
+          "t": [
+            2373,
+            2379
+          ],
+          "quote": "And is that, you mentioned a year. Is that the standard or sometimes it's like a month? That kill criteria framework.",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "testable-hypothesis",
+      "type": "concept",
+      "role": "concept",
+      "name": "可检验假设 (testable hypothesis)",
+      "file": "可检验假设",
+      "primary": true,
+      "how_described": "本集说它是立项门槛之一:没有可检验假设就连飞轮都上不去,X 只资助五周或五个月,用来搞清楚你比以为的更错还是没那么错",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            1138,
+            1277
+          ],
+          "quote": "So the ideas come from all over the world. In the very early days, Waymo said, more than a million people die in car accidents. It makes no sense that humans are still driving cars. A moonshot for us is huge problem with the world, science fiction sounding solution to that problem, and some technology or set of technologies that give us a sense that this is a testable hypothesis for making that science fiction sounding solution. So Waymo said in the early days, more than a million people die in car accidents every year. More than a trillion dollars is wasted in car accidents and people sitting in traffic. That is not the future. Crazy idea, what if cars just drove themselves and we're just going to make a self driving car. And here's a set of reasons to believe that the technology, LIDAR, radar, et cetera, is just ready enough. This was like circa 2009, 2010, that maybe we could do it. We'll be the right amount too early in trying to do that. But even then, saying we're making a self driving car turned out to be the wrong framing. I mean, it got us going. But after a while, we realized, oh, we're not actually trying to make and sell cars. That's not our job. So if the first five years Waymo thought we're going to be making and selling a car. The next five years they thought, actually our job is transforming mobility, just moving people from point A to point B, that's our job. But even that framing, while better was still wrong. Because do we really want to be the ones cleaning the cars? Do we want to be the ones charging the cars? Do we want necessarily to have to own the interface with the consumer on their phone? And so if you ask Waymo now, what's your framing for what you're doing? They say they're trying to make the world's safest driver and so, by getting more and more specific. Obviously the world's safest driver was a part of making a self driving car. But as they're getting more and more concrete, and specific about what they want to be the best in the world at. It opens up more possibilities for them to explore that space differently, to partner better with other people and that's part of the learning journey of a moonshot, is trying to understand the sort of architecture for where we're going, why we're going there, what kind of help we need along the way. How to understand what it means when the alligators jump out of the swamp and try to bite us.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 37,
+          "t": [
+            1392,
+            1544
+          ],
+          "quote": "Often things will not make it to that sort of, the ones that get a code name. Because nobody believes in it strongly enough to spend at least fifty percent of their time on it. People can't describe it crisply in terms of those three things I just described. Huge problem with the world, radical proposed solution, breakthrough technology. Where it feels like now there's something there. But sometimes people, for example, will say what it is, but they haven't figured out how to make it a testable hypothesis and you saying, hey, the world might be like this in the future, is like, yeah, you might be right. But that's not what we do. We do not fund things for five years so you can go try it. We're going to fund this for like five weeks, maybe five months. Which is easy for us because you're part of X, right? We don't have to incorporate anything and you're almost certainly wrong. So spend the next month or two trying to get one piece of information that tells us whether you're a little bit more wrong than we think or a little bit less wrong than we think. But if you don't have a testable hypothesis, we can't even get onto that flywheel. So that's another reason. Sometimes someone will have a really interesting proposal, but we just don't have the right labs for it, and we can't find someone who does, or sometimes something will go dormant because we're like, hey, that's a really cool idea. We need this physical lab. Hey, Caltech has that lab, and then we end up spending a year in slow motion just working with some university to have them let us use their lab. So then we're spending almost no time on that, just sort of waiting for the contract to come through and then it comes back to life. So very different reasons. But ultimately, the question is never, I have to prove, as the captain of Moonshots, that your idea is physically impossible. Almost nothing is physically impossible. It's actually more like you have to prove that your idea has a better reward risk ratio than the other things that we're currently looking at, and I would actually say it's reward divided by risk. Which includes all the costs and time, relative to how cheap or expensive it is to answer each question about, hey, what did we learn this week? Hey, what did we learn this week? If the reward risk ratio is okay, and it's going to take us a million dollars to find out the first piece of information about whether we're on the right track, not worth it. Reward is ginormous, risk is pretty big but we can find out for $100,000 whether this is a little bit less crazy than we thought. Yeah, I'll play that game all day long.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 38,
+          "t": [
+            1544,
+            1588
+          ],
+          "quote": "I'm going to ask you for a small favor, a tiny little favor. In fact, now that I think about it. It's not even really a favor for me. I'm actually trying to help you do a favor for you. Just hit the follow button. You won't miss out on the next episode. You'll see everything that we release. If you don't want to listen to an episode, you just skip it. But at least you don't miss out. Tell me a bit about that next step, maybe give me an example of this testable hypothesis. Because I think that's a huge learning for founders. A lot of founders are not like me, by the way, and they have many ideas. A lot of ideas, and what they're not good at is, how do I kill it? How do I, as quickly as possible, in a week, two weeks, four weeks max. Kill it, move on to the next one, and go all in on the thing that actually shows the most promise. A subset of what you're doing.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 41,
+          "t": [
+            1649,
+            1735
+          ],
+          "quote": "The point of a testable hypothesis, especially at X. Everyone at X will just say as shorthand to each other, what's the monkey? What they mean by that is not just, do you have a testable hypothesis but how is the thing that you're doing now attempting to burn down the risk on the riskiest part of the problem? Because if you can't train the monkey, you do not need to build the pedestal, obviously, and in a much more subtle way for every moonshot we have here. How scary is making this thing physically? Oh yeah, if we're really honest, we're going to be able to do it. How cheaply can we make it? Oh yeah, that actually could be the scary part. Okay, if the scary part is the techno economics. Let's not wait. Let's get really crisp about what has to be true. Maybe you can just do a bunch of spreadsheet math and kill the project on the basis of, okay, almost no matter how good we make each of these ten pieces. We're going to have to jam them all together. Yeah, the numbers are just not going to pencil out. This is not going to be competitive. Great, kill the project, move on. Sometimes it's actually how people will use something. Sometimes it's a safety issue and sometimes the solutions. In the very early days of Wing, we spent so much time trying to think about safety and make it safe with a very small number of propellers.",
+          "speaker": "Astro Teller"
+        }
+      ]
+    },
+    {
+      "id": "moonshot-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "登月市场匹配 (moonshot market fit)",
+      "file": "登月市场匹配",
+      "primary": true,
+      "how_described": "本集说它是 X 追求的、比 Product Market Fit 整体得多的匹配,通常要改变一整个系统,比如花五年与电网运营商建立融洽关系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            1894,
+            2017
+          ],
+          "quote": "I mean, this sounds a little bit extreme but there is no step after that. You just keep doing that. If you do that for six years and you've burned down a lot of the risk. If we're actually at the place where we're like, well, there's a sizable chance this actually could be a Waymo someday. Then it graduates from X and, often this is sort of on the order of ten to fifty people who leave to set up this new business. No one makes anyone leave X. If you want to stay and you have to find a new job, a new thing to do at X, that's cool. If you're excited about the teleporter and it looks like it's really working and you're going to get a non-trivial amount of shares in the teleporter company. You better believe in it because you're about to start getting paid in illiquid stock now instead of paid like a Googler. Then it's an independent business and you guys are off to the races. But until then we structure everything in terms of, what are we learning here? In fact, the baby board meetings that we have for the more mature projects are called quarterly learning reviews. Just to remind everybody, don't show me your progress. Progress is like a smoke screen. That's the rowing frantically in the ocean thing. What we want to know is, what have you really learned? Because if you have spent five or six years at X and you graduate with like Series A, maybe even seed stage Product Market Fit. We are totally fine with that, because you will have tried six or seven times to figure out what the right best connection point to the world is. We don't want a Product Market Fit. We want this sort of moonshot market fit, which is much more holistic. Often we're trying to change a system out in the world. So finding some little thing that people will buy, which in some sense is a product market fit. Actually doesn't have a very good chance of changing the system. If our real goal is to fix the system, then we have to figure out a much more complex set of things.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 60,
+          "t": [
+            2520,
+            2535
+          ],
+          "quote": "This is the Product Market Fit Show. So I'll maybe end it and we can talk a little bit about this, especially because you've seen so many ideas. What is Product Market Fit to you? You mentioned moonshot market fit. So maybe talk about that, but what does real pull for an idea look like to you?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 61,
+          "t": [
+            2535,
+            2693
+          ],
+          "quote": "I think some people think of Product Market Fit as, are people paying me for it? That's a super low bar. Are the right kind of people paying me for it? That's a slightly higher bar. Are they paying me more for it than it costs for me to make the thing? That's a slightly higher bar. How expensive is it for me to find these people and talk them into buying it, as opposed to their coming and finding me? Where are we on the spectrum from hard push to easy pull? And that stuff matters, but if you're trying to live to fight another day. Maybe that basket of things is mostly it. There's some other stuff in product, like how easy is it for a distributor to explain this to somebody when you're not there? That's pretty important in a real finished product. But at X, we're focused more on things like, what are the acupressure points in the industry? Or if, for example, we have a moonshot for the electric grid. But you cannot make a fake little grid in your lab and learn anything. And you can't start by going to these grid operators and saying, give me all your data, I'm going to do a little thing for you. This is a national security thing for every country in the world. They're just not going to do it. We spent five years doing things that would help us deeply understand their problems. So that we could start helping them and the first couple of things we did weren't even the moonshot. It was just getting a rapport going so that we could, with the grid operators of the world, start to move their grid operations and planning, and optimization into the 21st century. But we put in five, six years of work that was not product focused but looked a little bit like product focus but it wasn't Product Market Fit. Because that's not what, we were actually trying to fit with the partners so that we could get into a rhythm with them. So that we could then build things that would solve their problems. That's an example of what feels like moonshot market fit to us. But feels much more expansive and complicated than just, did we make something people want? Do they pay enough for it? Are they pulling it from us? That feels like there's a danger in thinking in that somewhat more narrow way that maybe not everybody thinks. But if I ask you to get to the moon, and you show me that you're a foot closer to the moon every day, not interesting. There's probably a ladder to the moon and I worry that there's a bunch of Product Market Fit that is so siloed. It's just building a ladder to the moon. You might build a pretty tall ladder, but you're not going to get to the moon that way.",
+          "speaker": "Astro Teller"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "Product Market Fit",
+      "file": "Product Market Fit",
+      "primary": true,
+      "how_described": "本集批评它是「活下来改日再战」框架:有人付钱只是超低门槛,孤岛化的 PMF 是在造通往月球的梯子,梯子再高也到不了月球",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            67,
+            79
+          ],
+          "quote": "That's Product Market Fit. Product Market Fit. Product Market Fit. I called it the Product Market Fit question. Product Market Fit. Product Market Fit. Product Market Fit. Product Market Fit. I mean, the name of the show is Product Market Fit.",
+          "speaker": "Previous Guests"
+        },
+        {
+          "seg": 2,
+          "t": [
+            79,
+            95
+          ],
+          "quote": "Do you think the Product Market Fit Show, has product market fit? Because if you do, then there's something you just have to do. You have to take out your phone. You have to leave the show five stars. It lets us reach more founders and it lets us get better guests, thank you. Astro, great to have you on the show, man.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 47,
+          "t": [
+            1894,
+            2017
+          ],
+          "quote": "I mean, this sounds a little bit extreme but there is no step after that. You just keep doing that. If you do that for six years and you've burned down a lot of the risk. If we're actually at the place where we're like, well, there's a sizable chance this actually could be a Waymo someday. Then it graduates from X and, often this is sort of on the order of ten to fifty people who leave to set up this new business. No one makes anyone leave X. If you want to stay and you have to find a new job, a new thing to do at X, that's cool. If you're excited about the teleporter and it looks like it's really working and you're going to get a non-trivial amount of shares in the teleporter company. You better believe in it because you're about to start getting paid in illiquid stock now instead of paid like a Googler. Then it's an independent business and you guys are off to the races. But until then we structure everything in terms of, what are we learning here? In fact, the baby board meetings that we have for the more mature projects are called quarterly learning reviews. Just to remind everybody, don't show me your progress. Progress is like a smoke screen. That's the rowing frantically in the ocean thing. What we want to know is, what have you really learned? Because if you have spent five or six years at X and you graduate with like Series A, maybe even seed stage Product Market Fit. We are totally fine with that, because you will have tried six or seven times to figure out what the right best connection point to the world is. We don't want a Product Market Fit. We want this sort of moonshot market fit, which is much more holistic. Often we're trying to change a system out in the world. So finding some little thing that people will buy, which in some sense is a product market fit. Actually doesn't have a very good chance of changing the system. If our real goal is to fix the system, then we have to figure out a much more complex set of things.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 60,
+          "t": [
+            2520,
+            2535
+          ],
+          "quote": "This is the Product Market Fit Show. So I'll maybe end it and we can talk a little bit about this, especially because you've seen so many ideas. What is Product Market Fit to you? You mentioned moonshot market fit. So maybe talk about that, but what does real pull for an idea look like to you?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 61,
+          "t": [
+            2535,
+            2693
+          ],
+          "quote": "I think some people think of Product Market Fit as, are people paying me for it? That's a super low bar. Are the right kind of people paying me for it? That's a slightly higher bar. Are they paying me more for it than it costs for me to make the thing? That's a slightly higher bar. How expensive is it for me to find these people and talk them into buying it, as opposed to their coming and finding me? Where are we on the spectrum from hard push to easy pull? And that stuff matters, but if you're trying to live to fight another day. Maybe that basket of things is mostly it. There's some other stuff in product, like how easy is it for a distributor to explain this to somebody when you're not there? That's pretty important in a real finished product. But at X, we're focused more on things like, what are the acupressure points in the industry? Or if, for example, we have a moonshot for the electric grid. But you cannot make a fake little grid in your lab and learn anything. And you can't start by going to these grid operators and saying, give me all your data, I'm going to do a little thing for you. This is a national security thing for every country in the world. They're just not going to do it. We spent five years doing things that would help us deeply understand their problems. So that we could start helping them and the first couple of things we did weren't even the moonshot. It was just getting a rapport going so that we could, with the grid operators of the world, start to move their grid operations and planning, and optimization into the 21st century. But we put in five, six years of work that was not product focused but looked a little bit like product focus but it wasn't Product Market Fit. Because that's not what, we were actually trying to fit with the partners so that we could get into a rhythm with them. So that we could then build things that would solve their problems. That's an example of what feels like moonshot market fit to us. But feels much more expansive and complicated than just, did we make something people want? Do they pay enough for it? Are they pulling it from us? That feels like there's a danger in thinking in that somewhat more narrow way that maybe not everybody thinks. But if I ask you to get to the moon, and you show me that you're a foot closer to the moon every day, not interesting. There's probably a ladder to the moon and I worry that there's a bunch of Product Market Fit that is so siloed. It's just building a ladder to the moon. You might build a pretty tall ladder, but you're not going to get to the moon that way.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 64,
+          "t": [
+            2768,
+            2789
+          ],
+          "quote": "Perfect, well, listen, I think that's a perfect place to stop. I'll ask maybe just one more question. What would be a top piece of advice that you would have for early stage founders that are in their pre Product Market Fit? Maybe they have an idea, maybe they don't yet. Maybe they've got signals of something kind of working. What would you say to them, having built and worked with so many ideas over the last decade plus?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 68,
+          "t": [
+            2846,
+            2899.6
+          ],
+          "quote": "So picture this. It's months from now, years from now and one of your founder friends. A really close founder friend of yours, guess what? Their startup went bankrupt and it turns out, if you had just shared the Product Market Fit Show with them. They would have learned everything they needed to find Product Market Fit and to create a huge success. But instead, their startup has completely failed. You have blood on your hands. Don't let that happen. You don't want to live like that. It is terrible. So do what you need to do. Tell them about the show. Send it to them. Put it on WhatsApp. Put it on Slack. Put it where you need to put it. Just make sure they know about it and they check it out.",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "monkey",
+      "type": "concept",
+      "role": "concept",
+      "name": "猴子 (monkey)",
+      "file": "猴子",
+      "primary": true,
+      "how_described": "本集用「训练猴子背诵莎士比亚还是先搭基座」的比喻说明应先攻问题中风险最大的部分,Xer 互相用「猴子是什么」作速记",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            67
+          ],
+          "quote": "Your goal is over the horizon. You don't even know what direction it is, and it might not even exist. So I think of it like, if we were lost in a rowboat. Somehow people get in this mindset of how vigorously I row is going to save us. You know what? If we're lost in a rowboat, I'm going to spend ninety percent of my time with the sextant and ten percent of my time rowing. Google Glass, turns out we were too, too early there. But increasingly, it's looking like we were very right. The whole world has come back around to that. But when we made it, we were trying to figure out, we have a sense that people want to get away from their phones. I think it now turns out we were right. But we also were too early and got some things wrong. So we couldn't prove ahead of time, if we can make it, this will win. Let's say that our collective project was to get a monkey to stand on the top of a 10-foot pedestal and recite Shakespeare. Which should we do first in this somewhat extreme situation? Build the pedestal or train the monkey? In this extreme situation, we can see that if you built the pedestal, you're half done but you're really zero percent done at burning down the risk.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 39,
+          "t": [
+            1588,
+            1648
+          ],
+          "quote": "I'll give you an example, but first, bear with me for a very short story. Because this is how we talk about it here at X. So for a long time, I would say to Xers, obviously, we should work on the riskiest part of the problem first and pretty much everybody at X said, I'm pretty sure that's wrong, Astro. And I said, no, that's what we should do. And we just were not connecting on this. And then, I was at a Wall Street Journal live conference about eleven years ago on stage, and I said, we obviously should work on the riskiest part of the problem first. And the interviewer said, I'm pretty sure that's right. I don't think that's right. What do you mean? So in a moment of hyperbole, I said, look, let's say that our collective project was to get a monkey to stand on the top of a 10-foot pedestal and recite Shakespeare. Which should we do first in this somewhat extreme situation? Build the pedestal or train the monkey? In this extreme situation, we can see that if you built the pedestal, you're half done but you're really zero percent done at burning down the risk.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 41,
+          "t": [
+            1649,
+            1735
+          ],
+          "quote": "The point of a testable hypothesis, especially at X. Everyone at X will just say as shorthand to each other, what's the monkey? What they mean by that is not just, do you have a testable hypothesis but how is the thing that you're doing now attempting to burn down the risk on the riskiest part of the problem? Because if you can't train the monkey, you do not need to build the pedestal, obviously, and in a much more subtle way for every moonshot we have here. How scary is making this thing physically? Oh yeah, if we're really honest, we're going to be able to do it. How cheaply can we make it? Oh yeah, that actually could be the scary part. Okay, if the scary part is the techno economics. Let's not wait. Let's get really crisp about what has to be true. Maybe you can just do a bunch of spreadsheet math and kill the project on the basis of, okay, almost no matter how good we make each of these ten pieces. We're going to have to jam them all together. Yeah, the numbers are just not going to pencil out. This is not going to be competitive. Great, kill the project, move on. Sometimes it's actually how people will use something. Sometimes it's a safety issue and sometimes the solutions. In the very early days of Wing, we spent so much time trying to think about safety and make it safe with a very small number of propellers.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 53,
+          "t": [
+            2254,
+            2292
+          ],
+          "quote": "Tell a really clear story about it and that seems like, yeah, sure, that seems fair. You're not asking me to have something in manufacturing and then a year later. We sit down and talk, and you don't have that story. Doesn't mean we have to kill the project, but the default is we're going to kill the project. So then I say to you, if you're working on this, look, I know you're excited about it, Pablo. I want to make the clean water for the world, too. But we pre agreed that this was kind of the monkey. You don't have a really good answer to this. Why would we continue it in the absence of that really good answer? What else have you learned that makes this worth us taking another shot at it?",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 63,
+          "t": [
+            2702,
+            2768
+          ],
+          "quote": "Sometimes it's the biggest part of the problem. Sometimes it's like, if you want to change a system fundamentally, then finding how to sell to the incumbents is very complicated. Because if you sell to the incumbents and they don't want the system to change. That's an example where you end up potentially depending on the incumbents, building a ladder to the moon. Because they will give you money. You can make a medium sized business. You can make a billion dollars a year selling to incumbents. But you're probably not going to change some huge industry if the incumbents, who are your main customers, don't want the industry to change. That's the kind of tension that we feel like we're holding here a lot. It's like, what would really change the industry? And then work backwards from there. Who are we going to have to work with first? Sometimes it could be the incumbents, but then we need to start with, we're going to blow up your industry. Are you interested in doing that with us? If not, please do not sign up with us. You'll just be angry at us later and we say that to people, and many of them tell us to pound sand. But that's a little bit like the monkey also. If that's where the problem is, let's be honest about it.",
+          "speaker": "Astro Teller"
+        }
+      ]
+    },
+    {
+      "id": "de-risking",
+      "type": "concept",
+      "role": "concept",
+      "name": "去风险 (de-risking)",
+      "file": "去风险",
+      "primary": true,
+      "how_described": "本集说它的顺序永远是先便宜后昂贵:先在白板上杀,再用模拟器,最后才上物理实验——聚变项目造了房子大的装置、近千次等离子体射击后自己说服自己关掉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            1788,
+            1886
+          ],
+          "quote": "Yeah, but if you have a crazy idea about nuclear fusion. Okay, first, let's see if we can kill it on the whiteboard. If we can't kill it on the whiteboard, I guarantee you the next thing we're doing is not building something the size of a house to start doing plasma shots. We're going to build a simulator or find someone who has a simulator and see if we can kill it using the simulator. If it survives that process, maybe we have to build something the size of a house, but maybe we can even find someone in a university who can do a little bit of the de-risking with us even if it's only bits and pieces. And then when we get to the place, which we did. We closed this down about a year and a half ago. We had a fusion project. We ran it. We did build something the size of a house. We did almost a thousand plasma shots. We convinced ourself it was not going to change the world, and we closed the project down. But it was money well spent because we had removed all the cheaper ways to try that first. Speaking of which, we have a Moonshot podcast. If your audience wants to hear more about some of these stories. Really hear what it was like building Waymo or building Wing. Building this Fusion project. We now have two seasons out. If people just search for Moonshot Factory Moonshot podcast, it'll come up and I think people really enjoy this sort of deep dives. It's not just what it was like for us, but it's exploring with the entrepreneurs that have gone through X. What it felt like for them and what other people can learn about taking their own shots.",
+          "speaker": "Astro Teller"
+        }
+      ]
+    },
+    {
+      "id": "google-glass",
+      "type": "company",
+      "role": "company",
+      "name": "Google Glass",
+      "file": "Google Glass",
+      "primary": false,
+      "how_described": "本集作为非纯技术风险的例子提及:想法(人们想逃离手机)是对的,但做太早、有些事做错了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            67
+          ],
+          "quote": "Your goal is over the horizon. You don't even know what direction it is, and it might not even exist. So I think of it like, if we were lost in a rowboat. Somehow people get in this mindset of how vigorously I row is going to save us. You know what? If we're lost in a rowboat, I'm going to spend ninety percent of my time with the sextant and ten percent of my time rowing. Google Glass, turns out we were too, too early there. But increasingly, it's looking like we were very right. The whole world has come back around to that. But when we made it, we were trying to figure out, we have a sense that people want to get away from their phones. I think it now turns out we were right. But we also were too early and got some things wrong. So we couldn't prove ahead of time, if we can make it, this will win. Let's say that our collective project was to get a monkey to stand on the top of a 10-foot pedestal and recite Shakespeare. Which should we do first in this somewhat extreme situation? Build the pedestal or train the monkey? In this extreme situation, we can see that if you built the pedestal, you're half done but you're really zero percent done at burning down the risk.",
+          "speaker": "Astro Teller"
+        },
+        {
+          "seg": 35,
+          "t": [
+            1307,
+            1384
+          ],
+          "quote": "We always will lean harder on the sort of technical, operational, like, how do you pull this all together? We won't lean particularly hard, the dominant risk couldn't be kind of public policy and government relations. We do that, but that shouldn't be the dominant risk. It shouldn't be a marketing risk. If we have to just make people want this thing more than something fairly equivalent, that's just not what we should be world class at. But I'll give you an example where it wasn't just a tech risk. Google Glass, turns out we were to too early there. But increasingly, it's looking like we were very right. The whole world has come back around to that. But when we made it, we were trying to figure out, we have a sense that people want to get away from their phones. I think it now turns out we were right, but we were also too early and just saying people want to get away from their phones doesn't mean you can necessarily make it feasibly. But also, how to land that with consumers and with society so that people understand it and feel good about it. There was a lot that was hard, and it was a learning journey for us. And we got some things very right, but we also were too early and got some things wrong. So maybe that's an example that's not like Waymo. We couldn't prove ahead of time, if we can make it, this will win.",
+          "speaker": "Astro Teller"
+        }
+      ]
+    },
+    {
+      "id": "series-a",
+      "type": "concept",
+      "role": "concept",
+      "name": "Series A",
+      "file": "Series A",
+      "primary": false,
+      "how_described": "本集顺带提到 X 项目毕业时通常处于 seed 或 Series A 阶段的 Product Market Fit,X 完全接受这一点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            98,
+            112
+          ],
+          "quote": "Bit of a different guest profile. I mean, typically we'll have a founder just raised a massive Series A and they come on the show, or founder built a company to $100 million and they come on the show. Tell us a little bit about your background and what you're doing, just to set the context for this episode.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 47,
+          "t": [
+            1894,
+            2017
+          ],
+          "quote": "I mean, this sounds a little bit extreme but there is no step after that. You just keep doing that. If you do that for six years and you've burned down a lot of the risk. If we're actually at the place where we're like, well, there's a sizable chance this actually could be a Waymo someday. Then it graduates from X and, often this is sort of on the order of ten to fifty people who leave to set up this new business. No one makes anyone leave X. If you want to stay and you have to find a new job, a new thing to do at X, that's cool. If you're excited about the teleporter and it looks like it's really working and you're going to get a non-trivial amount of shares in the teleporter company. You better believe in it because you're about to start getting paid in illiquid stock now instead of paid like a Googler. Then it's an independent business and you guys are off to the races. But until then we structure everything in terms of, what are we learning here? In fact, the baby board meetings that we have for the more mature projects are called quarterly learning reviews. Just to remind everybody, don't show me your progress. Progress is like a smoke screen. That's the rowing frantically in the ocean thing. What we want to know is, what have you really learned? Because if you have spent five or six years at X and you graduate with like Series A, maybe even seed stage Product Market Fit. We are totally fine with that, because you will have tried six or seven times to figure out what the right best connection point to the world is. We don't want a Product Market Fit. We want this sort of moonshot market fit, which is much more holistic. Often we're trying to change a system out in the world. So finding some little thing that people will buy, which in some sense is a product market fit. Actually doesn't have a very good chance of changing the system. If our real goal is to fix the system, then we have to figure out a much more complex set of things.",
+          "speaker": "Astro Teller"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
