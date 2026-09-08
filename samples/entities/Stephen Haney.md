@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]]
+[[Roman Ugarte]] [[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Paper":1,"Cursor":49,"Claude Code":48,"Figma":14,"Conductor":1,"智能体":1,"MCP 服务器":1,"代码即真相来源":1,"策展式设计":1,"HTML":1}</script>
+<script type="application/json" class="pd-epn">{"Paper":1,"Cursor":50,"Claude Code":48,"Figma":14,"Conductor":1,"智能体":1,"MCP 服务器":1,"代码即真相来源":1,"策展式设计":1,"HTML":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,778 @@
+{
+  "episode_id": "2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t",
+  "podcast": "The AI-Native Dev",
+  "date": "2026-09-08",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "组织与领导力",
+    "创业与行业",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "AI 编程",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "simon-maple",
+      "type": "person",
+      "role": "host",
+      "name": "Simon Maple",
+      "file": "Simon Maple",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            44.24,
+            54.4
+          ],
+          "quote": "Join your host, Guy Fajani, and meet Simon Maple every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            3124.56,
+            3127.52
+          ],
+          "quote": "Your hosts are Guy Pajani and me, Simon Maple.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ran-arusi",
+      "type": "person",
+      "role": "cohost",
+      "name": "Ran Arusi",
+      "file": "Ran Arusi",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            128.88,
+            135.36
+          ],
+          "quote": "I'm your host for this episode, and joining me is Ran Arusi, the founder of Automaze and MUXI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体当作团队新成员：架构师带一支智能体团队、学徒学「多监控」六到十个智能体；真正智能体的东西必须模糊、非确定性、自主且主动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            148.08,
+            150.72
+          ],
+          "quote": "Also, we're going to be talking about the agent workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            150.8,
+            154.32
+          ],
+          "quote": "And is the term agent workflow an oxymoron in itself?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            451.92,
+            472.8
+          ],
+          "quote": "Yeah, so at the top of the a formation is is it's not just a collection of agents, but it also includes what I call the overlord, kind of the orchestrator that decides of the formation's personality, and uh the agents themselves are sort of minions because I didn't want the experience of having to remember which agent I need to talk to.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 74,
+          "t": [
+            512.48,
+            517.92
+          ],
+          "quote": "Um everything is in YAML files, uh in the format that I call the agent formation schema.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            522.8,
+            551.36
+          ],
+          "quote": "And um yeah, it allows you to define both the obviously the soul of the document, what it can do, the tools, uh the domain knowledge for every agent, uh, access to uh it has a very elaborate memory um uh structure where it has uh it differentiates between uh preferences, memories, decisions, claims, working memory, buffer memory, uh episodic memory, recent memory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 99,
+          "t": [
+            735.2,
+            740.96
+          ],
+          "quote": "Uh but even then uh let's take a coding um agent for example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1712.8,
+            1717.28
+          ],
+          "quote": "Well, not taken away, but so many things are being automated and we can hand things over to an agent now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1724.08,
+            1730.24
+          ],
+          "quote": "It's not really teachable, and we can't earn it anymore because so much of that is being handed off to an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            2223.68,
+            2229.84
+          ],
+          "quote": "Um The first one I'd love to talk about is uh when you called an agent workflow an oxymoron.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2374.08,
+            2380.96
+          ],
+          "quote": "Um but uh if we need to get to a point where you the agent really becomes uh uh autonomous, yeah.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "teachable-knowledge",
+      "type": "concept",
+      "role": "concept",
+      "name": "可教授的知识与习得的知识 (teachable knowledge)",
+      "file": "可教授的知识与习得的知识",
+      "primary": true,
+      "how_described": "本集核心区分：teachable knowledge 正被 AI 大幅压缩，earned knowledge（如两 VCPU 机器能扛多大负载、AWS 宕机怎么办）无法加速，必须在场才能习得。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            135.52,
+            142.32
+          ],
+          "quote": "On today's episode, we're going to be covering major topics such as the difference between teachable knowledge and earned knowledge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1690.48,
+            1696
+          ],
+          "quote": "And I I love that what you I think you you call it teachable knowledge and earned knowledge, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1696.16,
+            1702.32
+          ],
+          "quote": "And I guess that is something that is, as you mentioned, teachable knowledge being heavily compressed going forward.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作流 (workflow)",
+      "file": "工作流",
+      "primary": true,
+      "how_described": "本集称「智能体工作流」是矛盾修辞：工作流是一组确定性步骤、输入输出已知；真智能体就该自主决定调用哪个工作流，像员工而非流水线工人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            148.08,
+            150.72
+          ],
+          "quote": "Also, we're going to be talking about the agent workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            150.8,
+            154.32
+          ],
+          "quote": "And is the term agent workflow an oxymoron in itself?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            154.48,
+            158.32
+          ],
+          "quote": "How do we get that determinism to remain in a workflow?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1214.88,
+            1222.72
+          ],
+          "quote": "And um I think there's a misconception that um agentic workflow, the term itself, is kind of an oxymoron.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1223.12,
+            1235.76
+          ],
+          "quote": "And uh the reason is that if it's a workflow, then you've already given the road um or the path that the AI needs to work in, so it doesn't get to make its own decisions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1262.72,
+            1273.2
+          ],
+          "quote": "And it's fine because uh I'm I'm not dissing anyone because for most use cases you do need workflow, you don't need the agentic automation and and all of that stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1282.24,
+            1286.8
+          ],
+          "quote": "Yeah, then it's uh it's an it's a workflow with uh AI sparkled in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1465.84,
+            1487.28
+          ],
+          "quote": "Um but you need to that goes back to the to the workflow itself, you need to know how to spec products, you need to know what agents are capable of and we're not capable of, and uh be their mentor uh when they when it's time to develop uh software and um you know be at the gate where okay, is it ready for production?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1511.12,
+            1526.8
+          ],
+          "quote": "And uh that's what that's what's kind of interesting where there is so much new from the point of a workflow, from the point of you know, you we as experienced developers are needing to reprogram ourselves in terms of how we operate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1526.96,
+            1540.72
+          ],
+          "quote": "From a junior developer point of view, it's gonna be easier for them to snap into a different workflow because they don't have the baggage of many, many years gone by of all right, I need to sit down, do these deep designs, then code, then do and blah blah blah.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1561.36,
+            1571.6
+          ],
+          "quote": "What would you say are kind of like how are you seeing both junior developers and senior developers, more experienced developers, snap into this new model of development workflow?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1814.72,
+            1830.48
+          ],
+          "quote": "With these new workflows um and our teams being adjusted into the kind of you know more agentic workflow leading into a software factory, how much would you say your teams have become more efficient, more effective uh from you know even a in a time of delivery point of view?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            2223.68,
+            2229.84
+          ],
+          "quote": "Um The first one I'd love to talk about is uh when you called an agent workflow an oxymoron.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            2232.72,
+            2237.84
+          ],
+          "quote": "So uh I've talked about this before, and uh a workflow is not agentic by nature.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 320,
+          "t": [
+            2238.32,
+            2242.32
+          ],
+          "quote": "A workflow is a deterministic set of uh of uh steps.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 325,
+          "t": [
+            2269.68,
+            2289.76
+          ],
+          "quote": "And uh that that's that's just my take on the the reason why I think that um it's just the wrong word to say it's not the workflow that is agentic, the workflow is is I don't want to say static, but a very deterministic workflow that has agentic components in it, but the workflow itself isn't agentic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            2325.28,
+            2339.76
+          ],
+          "quote": "Going forward, do you see scope or a place for an agentic workflow where the workflow isn't necessarily deterministic, but the agents determine what needs to be done based on certain criteria?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2340.48,
+            2342.56
+          ],
+          "quote": "Yeah, but then it's it's not really a workflow.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            2352.32,
+            2354.08
+          ],
+          "quote": "But for me, a workflow is deterministic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2407.52,
+            2421.12
+          ],
+          "quote": "For a lot of things you will always need the determination, uh uh, but you can have workflows, but you can have an agentic uh entity that decides on which workflow is uh needs to be called right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2437.44,
+            2446.8
+          ],
+          "quote": "Your work is a lot more uh um uh dynamic, but for every task that makes up that work that work, you have uh a workflow.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "software-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件工厂 (software factory)",
+      "file": "软件工厂",
+      "primary": true,
+      "how_described": "本集说每个开发者都快能拥有自己的软件工厂，产能不再是瓶颈——能开多少销售会议才是真实产能，由此引出律所模式的分配逻辑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            64.32,
+            66.8
+          ],
+          "quote": "Tomorrow, you'll be running a software factory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            912.32,
+            930.08
+          ],
+          "quote": "Yeah, it's very interesting actually, because I mean for us at TESL, we have our own software factory uh that we look at every single pull request that is generated, even though it's pretty much end-to-end from issue to pull request, automated in terms of the the testing, the the code generation, and things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            1020.96,
+            1038.88
+          ],
+          "quote": "No, yeah, and uh it's funny because we we also have obviously our own uh software factory, and we have this uh sentry-like feature we call ladybug that catches uh bugs in while they're still in production, even automatically a diagnosis created, and just there's a PR waiting for us on the other side.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 152,
+          "t": [
+            1106.08,
+            1117.36
+          ],
+          "quote": "I'm gonna be in New York and in Boston on the 16th and 17th of September talking about how we've built our software factory here at TESL and what engineering looks like in an AI native world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1814.72,
+            1830.48
+          ],
+          "quote": "With these new workflows um and our teams being adjusted into the kind of you know more agentic workflow leading into a software factory, how much would you say your teams have become more efficient, more effective uh from you know even a in a time of delivery point of view?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2737.04,
+            2744.4
+          ],
+          "quote": "Okay, so right now we're very close to every single developer being able to create their own software factory.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "law-firm-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "律所模式 (law firm model)",
+      "file": "律所模式",
+      "primary": true,
+      "how_described": "本集主张开发机构应更像律所而非 SaaS：初级律师→初级合伙人→合伙人，按带来业务量买进层级，版税合伙人拿所管 pod 客户收入的 10%-20%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            158.72,
+            164.64
+          ],
+          "quote": "And finally, uh, we're going to talk about the law firm model and how that applies to software development agencies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            164.96,
+            173.12
+          ],
+          "quote": "Do we need to think more about that law firm model of distribution of wealth, or should we stick to that SaaS model that we're familiar with?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2722.24,
+            2725.04
+          ],
+          "quote": "Uh it's around your law firm model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2725.84,
+            2734.8
+          ],
+          "quote": "So your law firm model argues that dev agencies are heading more towards something like a Kirkland and Ellis than a SaaS startup.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "automaze",
+      "type": "company",
+      "role": "company",
+      "name": "Automaze",
+      "file": "Automaze",
+      "primary": true,
+      "how_described": "嘉宾经营的软件开发公司：pod 模式（高级开发者当架构师管智能体+交付经理+学徒），按月预付费收费，客户平均留存三年、反而买得更多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            128.88,
+            135.36
+          ],
+          "quote": "I'm your host for this episode, and joining me is Ran Arusi, the founder of Automaze and MUXI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "muxi",
+      "type": "company",
+      "role": "company",
+      "name": "MUXI",
+      "file": "MUXI",
+      "primary": true,
+      "how_described": "嘉宾的开源平台，把「智能体当作原语」：formation=一组智能体加编排器 overlord，分层记忆结构，改动以 git diff 等人批准、绝不自动上线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            128.88,
+            135.36
+          ],
+          "quote": "I'm your host for this episode, and joining me is Ran Arusi, the founder of Automaze and MUXI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "y-finance",
+      "type": "company",
+      "role": "company",
+      "name": "Y Finance",
+      "file": "Y Finance",
+      "primary": true,
+      "how_described": "嘉宾作者的开源库，走 Yahoo Finance 官方 API 抓市场数据，月下载 2500 万-3000 万次，AI 写市场数据相关代码时常用到它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            230.48,
+            236.08
+          ],
+          "quote": "One of those uh indeed was uh Y Finance, and uh it just took off.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集批评其以「搞乱我们的统计」为由封禁 OpenClaw 用 Claude Pro/Max 订阅，判断订阅模式约 60 倍于 API 价的 token 折扣不可持续。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            73.92,
+            84.24
+          ],
+          "quote": "Hundreds of developers, engineering leads, and VPs packed in to hear speakers from Anthropic, OpenAI, Netflix, and GitHub cut through the hype and get to what actually works.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2469.52,
+            2476.4
+          ],
+          "quote": "Um anthropic risks turning its strongest advocates into its loudest critics because of a specific strategic signal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2567.04,
+            2570.88
+          ],
+          "quote": "I can't wait for Anthropic to shut all access to it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2623.52,
+            2629.2
+          ],
+          "quote": "Uh but yeah, it would definitely a counter move to what Anthropic uh uh has done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2695.52,
+            2718
+          ],
+          "quote": "And I think that as soon as uh I think it's uh as soon as Anthropic goes IPO or something like that, they're they have no um the the the motivation for such an aggressive uh user uh acquisition and growth uh slightly reduces once they're IPO'd.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fde",
+      "type": "concept",
+      "role": "concept",
+      "name": "FDE",
+      "file": "FDE",
+      "primary": true,
+      "how_described": "本集说 FDE 被部署到客户公司（远程），深入理解规格之外的真实使用方式；第一次做的项目类型嘉宾必到场，「这是人力时间，不能规模化」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 281,
+          "t": [
+            1997.6,
+            2006.88
+          ],
+          "quote": "Um now, Ryan, um I I understand you I don't know if you still do, you used to certainly act as a an FDE uh for every new automated client.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            2014.64,
+            2017.04
+          ],
+          "quote": "First of all, tell us what it what is the role of an FDE?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            2020.96,
+            2026.24
+          ],
+          "quote": "Is that something you know you eventually think, I need to give this up, I need to I need to grow my FDE team.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "apprentice",
+      "type": "concept",
+      "role": "concept",
+      "name": "学徒制 (apprentice)",
+      "file": "学徒制",
+      "primary": true,
+      "how_described": "本集把初级开发者重新定义为学徒：像文艺复兴画室学徒跟大师学门道，学写规格、判断智能体边界、守生产关口，成长周期从五到八年压到约两年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1421.6,
+            1442.96
+          ],
+          "quote": "And the junior developers are there as apprentices for uh they're they're kind of joining along, like you know, go in the Renaissance days, you had the apprentice, and they would join the um the master painter and kind of learn the rope and uh dabble around, and sometimes would get their own project and here just finish this up.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1666,
+            1678.4
+          ],
+          "quote": "And I think that that's exactly the role of an uh an apprentice and a mentor kind of relationship that they have to be together for a while before the junior is ready to um kind of to start their own pod.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集顺带提到 OpenAI 与 Grok 反而在放开随意使用，与 Anthropic 收紧订阅形成对照。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            73.92,
+            84.24
+          ],
+          "quote": "Hundreds of developers, engineering leads, and VPs packed in to hear speakers from Anthropic, OpenAI, Netflix, and GitHub cut through the hype and get to what actually works.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2601.36,
+            2608.08
+          ],
+          "quote": "Um maybe it's just uh temporary strategic uh move by OpenAI to say, hey, you can use it for whatever you want.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2610.16,
+            2616.56
+          ],
+          "quote": "Uh the Peter Steinberger uh situation was quite specific because Peter now works for OpenAI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提及 OpenClaw 用 Claude Pro/Max 套餐当大脑被封禁一事，牵出对订阅模式的批评。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 353,
+          "t": [
+            2487.76,
+            2507.28
+          ],
+          "quote": "And their whole uh so for for anyone who doesn't know, uh OpenClaw is a great uh successful project uh by Peter Steinberger, and um it used uh Claude and specifically the Claude um uh Pro and Max plans in order to um to act as its brain.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "专名「vibe coding」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

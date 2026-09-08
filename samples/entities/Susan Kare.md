@@ -43,7 +43,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]]
+[[Roman Ugarte]] [[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]]
 
 </div>
 

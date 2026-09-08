@@ -151,9 +151,9 @@ Alex 说他和客户做这种流程映射时发现，很多效率提升根本不
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论]]<span class="pd-rz">同公司:Anthropic · 同概念:FDE、工作流映射 (workflow)</span>
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|a16z 三位投资人复盘 Cursor 早期关键决策]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:Claude Code</span>
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code</span>
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code</span>
 
 </div>
 <div class="pd-ex">

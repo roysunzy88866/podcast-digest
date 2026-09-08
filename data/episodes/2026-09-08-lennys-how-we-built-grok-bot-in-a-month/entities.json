@@ -1,0 +1,2498 @@
+{
+  "episode_id": "2026-09-08-lennys-how-we-built-grok-bot-in-a-month",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-09-08",
+  "tags": [
+    "AI 智能体",
+    "产品方法",
+    "增长与 GTM",
+    "公司文化",
+    "AI 编程"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "roman-ugarte",
+      "type": "person",
+      "role": "host",
+      "name": "Roman Ugarte",
+      "file": "Roman Ugarte",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            91,
+            92.721
+          ],
+          "quote": "Today my guest is Roman Ugarte.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 27,
+          "t": [
+            127.318,
+            129.339
+          ],
+          "quote": "With that, I bring you Roman Ugarte.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "grok-bot",
+      "type": "company",
+      "role": "company",
+      "name": "Grok Bot",
+      "file": "Grok Bot",
+      "primary": true,
+      "how_described": "本集主角：被称为当下世界上最火的 AI 产品，从零构建、上线三周，让每个 bot 拥有一台云端自己的电脑，作为可委托整块工作的 AI 队友服务于知识工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.301,
+            3.487
+          ],
+          "quote": "The ultimate vision of Grok Bot is incredibly simple.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 2,
+          "t": [
+            10.401,
+            12.99
+          ],
+          "quote": "Grok Bot is the hottest AI product in the world right now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 8,
+          "t": [
+            35.545,
+            36.768
+          ],
+          "quote": "I went to a Grok Bot meetup.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 13,
+          "t": [
+            60.18,
+            75
+          ],
+          "quote": "What made me so excited to work on Grok Bot is it was the first time for non-coding tasks that I felt like I could truly delegate work to AI, not have to think about it, and I would come back and it's done.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 14,
+          "t": [
+            75.422,
+            79.799
+          ],
+          "quote": "What is it that you think you did that is so different that made Grok Bot so successful?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 15,
+          "t": [
+            80.02,
+            89.337
+          ],
+          "quote": "It was two early decisions that at the time definitely did not feel obvious, but in hindsight I think are critical to what makes Grok Bot work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 20,
+          "t": [
+            100.224,
+            104.246
+          ],
+          "quote": "Most recently, he helped incubate Grok Bot, a product that I am obsessed with.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 24,
+          "t": [
+            114.952,
+            116.352
+          ],
+          "quote": "Roman leads product for Grok Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 32,
+          "t": [
+            141.001,
+            143.282
+          ],
+          "quote": "I am so hooked on Grok Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 35,
+          "t": [
+            149.225,
+            151.325
+          ],
+          "quote": "I went to a meetup the other day, a Grok Bot meetup.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 36,
+          "t": [
+            151.846,
+            158.568
+          ],
+          "quote": "There were hundreds of people there, standing room only, people sharing all the ways they're using Grok Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 39,
+          "t": [
+            168.392,
+            171.274
+          ],
+          "quote": "Grok Bot is the hottest AI product in the world right now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 42,
+          "t": [
+            176.256,
+            186.78
+          ],
+          "quote": "I personally noticed I've moved a lot of my use cases from Cowork and Codex into Grok Bot just very quickly, which again, feels like a really big deal and a very special moment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 49,
+          "t": [
+            202.121,
+            215.96
+          ],
+          "quote": "I mean, I remember onboarding you by hand about a month ago and I think you were skeptical at first, but we're very glad that you've been using it and it's been great to see so many people really take advantage of Grok Bot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 79,
+          "t": [
+            394.795,
+            403.22
+          ],
+          "quote": "Are people actually going to switch from other internal tools, other external tools to use Grok Bot as their primary agent surface?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 80,
+          "t": [
+            404.3,
+            429.511
+          ],
+          "quote": "And in that first week after that all hands, I mean, I can't even tell you just the outpour of love for Grok Bot from people that maybe you wouldn't expect or from groups of the company that maybe you wouldn't expect, people who were daily driving ChatGPT or a chat interface, switching all of their day-to-day agentic tasks over to Grok Bot as their primary surface for doing work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 137,
+          "t": [
+            750.731,
+            765.66
+          ],
+          "quote": "And I think internally, because people inside of SpaceXAI were just constantly sharing tips and tricks for how to use Grok Bot, some patterns were starting to emerge that we thought would be useful to the world, but we weren't really sure and we definitely didn't want to bias the world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 139,
+          "t": [
+            768,
+            783.886
+          ],
+          "quote": "So when we rolled out Grok Bot internally, there was about a week or two where the common pattern of the way people would interact with the product was you would have five to 10 bots and each bot you would give a different scope, a different domain, and it was kind of shorthand for different lanes of work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 152,
+          "t": [
+            883.825,
+            900.433
+          ],
+          "quote": "And I think it is something a bit shocking or just different about Grok Bot when you first start using it versus some of the other products that you mentioned, where a lot of the internal mechanics of how Grok Bot works are not shown to the user.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1030.62,
+            1044.706
+          ],
+          "quote": "So one example is there's a coffee shop owner that was a friend of a friend through the company who had heard about Grok Bot, and one day somebody on the core team had shown them a demo of the test flight and got very excited.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1045.326,
+            1054.79
+          ],
+          "quote": "And this coffee shop owner ended up being not only amazingly an amazing power user of Grok Bot, but also a rich source of feedback for us.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1182.086,
+            1194.009
+          ],
+          "quote": "We also were kind of putting pseudo developery visibility tools into Grok Bot instead of having a separate observability pane for those things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1316.3,
+            1329.486
+          ],
+          "quote": "One example was from rolling out Grok Bot, one group inside of the company that was actually incredibly bot pilled, so to speak, was our go-to-market team was sales.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1437.295,
+            1441
+          ],
+          "quote": "I heard that his team was one of the top users of Grok Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1654.861,
+            1663.094
+          ],
+          "quote": "So one thing we talk about internally is for anything that we're working on for Grok Bot, what is the launch post?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1676.443,
+            1697.371
+          ],
+          "quote": "And to take that even one step further, I think there's this old school software tendency to say things like Grok Bot now has, and when you think of completing that sentence, it would be like a new button to press or it'd be a new dropdown or it'd be a new integration that you can press plus and add.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1698.131,
+            1705.754
+          ],
+          "quote": "And instead to reframe it as Grok Bot can now, which is I think a much more human way of describing these capabilities.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1706.054,
+            1716.658
+          ],
+          "quote": "And I think it's forced us to think more in the frame of what are tools and what are capabilities that we can give Grok Bot, not what are new things we can add to the product?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1734.925,
+            1745.889
+          ],
+          "quote": "And so I think in the context of unshipping, there have been a lot of Grok Bot now has things that we've realized are actually just capabilities that don't need pixels.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1779.504,
+            1788.61
+          ],
+          "quote": "And so I think what Grok Bot did in response to that was actually you should just define automations in natural language and you should tell your bot, \"Remind me that at 8:00 AM every day, please.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1803.56,
+            1810.606
+          ],
+          "quote": "So I tweeted about how much I love Grok Bot when it launched and a lot of people replied, they're like, \"Wait, can't you just do all this with Codex and Cowork?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1811.687,
+            1818.913
+          ],
+          "quote": "Technically everything, as far as I know, you can do with Grok Bot you can do with the other foundational models, the coding assistants.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1821.715,
+            1827.9
+          ],
+          "quote": "What is it that you think you did that is so different, that made Grok Bot so successful?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1828.56,
+            1840.847
+          ],
+          "quote": "I think it was two early decisions that at the time definitely did not feel obvious, but in hindsight, I think are critical to what makes Grok Bot work for people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 294,
+          "t": [
+            2011.543,
+            2024.467
+          ],
+          "quote": "And we felt that ourselves where a lot of the primitives in Grok Bot we had attempted or we had built in other ways, cloud infrastructure we built for coding agents.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 323,
+          "t": [
+            2253.609,
+            2271.916
+          ],
+          "quote": "And so we took a lot of that and I think what Grok Bot maybe extended was, A, it needs to be really easy to set up and the hacky, you have a VPN at home and a Mac mini set up, clearly it was not going to scale to millions of users.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 327,
+          "t": [
+            2298.549,
+            2302.491
+          ],
+          "quote": "How can we make a Grok Bot user not even have to know what a skill is?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2348.034,
+            2351.115
+          ],
+          "quote": "She shut them all down and switched to Grok Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2361.321,
+            2364.487
+          ],
+          "quote": "What's the vision for Grok Bot?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2366.912,
+            2370.379
+          ],
+          "quote": "What's the ideal platonic version of Grok Bot?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2371.2,
+            2383.804
+          ],
+          "quote": "The ultimate vision of Grok Bot is incredibly simple, which is you should have a team of AI bots that help you with your job and help you with your life.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2590.566,
+            2592.827
+          ],
+          "quote": "I think Grok Bot has many of these properties.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2653.229,
+            2662.796
+          ],
+          "quote": "And so in a lot of ways, Grok Bot, when you look at it, when I walk by someone's desk and I see Grok Bot up on their computer, for me for a split second, I'm like, \"Oh, are they on a messaging app?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2693.6,
+            2707.588
+          ],
+          "quote": "But I think our goal and the thing we're trying to build towards is Grok Bot should be the way that a large portion of the things you do day-to-day in your work, you should be able to delegate a lot of that to Grok Bot and focus on the higher leverage things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2836.943,
+            2843.15
+          ],
+          "quote": "On the computer side, what's the simplest way to think about what you get as a part of your Grok Bot account?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2918.724,
+            2925.247
+          ],
+          "quote": "So I think the right way of thinking about Grok Bot is it's a team of bots, it's a team of agents that do work for you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2996.849,
+            3000.551
+          ],
+          "quote": "He was running Grok Bot within Grok Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 442,
+          "t": [
+            3015.341,
+            3023.186
+          ],
+          "quote": "That one's actually a very useful thing to do is you download Grok Bot for one of your bots, mine is like a QA tester bot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 446,
+          "t": [
+            3045.541,
+            3060.135
+          ],
+          "quote": "And so I think once you start breaking out of this is AI chat with a set of connections, which is I think where most people are conceptually now, instead to this is a colleague with a computer and anything I would ask a colleague to do on a computer, I can ask Grok Bot to do.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 448,
+          "t": [
+            3065.321,
+            3071.677
+          ],
+          "quote": "Are there any other mind-expanding use cases or ways to use Grok Bot that you've seen or you use?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 449,
+          "t": [
+            3073.34,
+            3107.272
+          ],
+          "quote": "One pattern that I've seen from many users that is simple, but I think there's a lot of depth if you keep investing in making it better, and this is where I can get kind of nerdy about optimizing my setup, is Grok Bot as an infovore in some ways of just consuming huge quantities of information, removing that from your own cognitive load, giving you peace, and then coming to you with the stuff that's important.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 450,
+          "t": [
+            3107.812,
+            3120.416
+          ],
+          "quote": "And I think the V1 implementation of that, which many people do, is Grok Bot sits on top of Slack and it sits on top of email, and I tell it high level, \"Here's my role at the company, here's kind of what I care about.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 455,
+          "t": [
+            3140.664,
+            3148.268
+          ],
+          "quote": "So I have mine hooked up to every mention of Grok Bot ever on X, and it's interacting with our internal context.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 460,
+          "t": [
+            3187.366,
+            3201.093
+          ],
+          "quote": "And so if something super urgent happens and they're at a coffee or whatever, they get paged by Grok Bot, which is the type of thing that you only want to do if it's urgent and you really want to trust that Grok Bot does not have false positives.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 492,
+          "t": [
+            3401.822,
+            3417.251
+          ],
+          "quote": "You see all these examples of Grok Bot controlling their home robot computer, home robot vacuum cleaner or Grok Bot helping them save money on their Tesla charger negotiation, all of these fun use cases.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 498,
+          "t": [
+            3463.574,
+            3476
+          ],
+          "quote": "And I think there are a lot of unanswered questions there, but I do think Grok Bot is the right primitive to create this switch to agents for the rest of the company outside of coding, and that's a place where we're quite focused right now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 499,
+          "t": [
+            3476,
+            3496.509
+          ],
+          "quote": "And along those lines, it's very clear you all understand the power of distribution and how you need to find both an amazing product and get distribution right because Grok Bot's amazing, but the combination of how smart you guys have been with getting it out there in all these different ways is really impressive.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 502,
+          "t": [
+            3510.935,
+            3513.356
+          ],
+          "quote": "So there's Grok Bot, there's Cursors.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 509,
+          "t": [
+            3547.871,
+            3556.415
+          ],
+          "quote": "And right now people use Grok Bot sometimes to kick off cloud agents or to merge PRs or to do QA, a bunch of engineering adjacent tasks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 529,
+          "t": [
+            3666.72,
+            3686.686
+          ],
+          "quote": "I think for me, what made me so excited to work on Grok Bot and contribute to it is it was the first time for non-coding tasks that I felt like I could truly delegate work to AI and not have to think about it and I would come back and it's done.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 535,
+          "t": [
+            3733.38,
+            3735.581
+          ],
+          "quote": "And Grok Bot, I think short circuits a lot of that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3795.552,
+            3806
+          ],
+          "quote": "And I think that's the type of thing that people feel with Grok Bot every day are these no look passes and you just trust that it can get it done and then it does and it's just a very magical experience.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 580,
+          "t": [
+            4044.298,
+            4050
+          ],
+          "quote": "Started as auto complete and then things moved on to just talking to agents and then into the cloud and now Grok Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 582,
+          "t": [
+            4061.948,
+            4062.928
+          ],
+          "quote": "Grok Bot's a great example.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 597,
+          "t": [
+            4199.278,
+            4204
+          ],
+          "quote": "And so I think that's exactly what has led us to invest in things like Grok Bot, for example.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 601,
+          "t": [
+            4218.123,
+            4261.78
+          ],
+          "quote": "And I think it exactly ties back to what you're saying right now where when you look at every past iteration of Cursor, for example, but even I think when you look at every past iteration of Grok Bot, I think we will feel the same thing, is things going away, not new things getting added, but these scaffolding product overhang style things that get built in because the models have not yet gotten smart enough to just do it themselves, those things will get moved away over time and we need to feel comfortable making kind of hard decisions that might upset a small set of users or a small set of us internally to do the bigger thing of make the product simple, make the product powerful and adapt to where the future is going.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 635,
+          "t": [
+            4511.28,
+            4514.744
+          ],
+          "quote": "Okay, let me actually ask you for Grok Bot tips as an actual last question.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 642,
+          "t": [
+            4545.965,
+            4549.306
+          ],
+          "quote": "You should be able to delegate something to Grok Bot and they should do it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 643,
+          "t": [
+            4550.247,
+            4563.231
+          ],
+          "quote": "And so what I would encourage for someone new who's just downloading the app, you're looking at the screen, I think the first thing is give Grok Bot the context it needs to be successful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 645,
+          "t": [
+            4576.876,
+            4588
+          ],
+          "quote": "So I'd give it access to the tools and then I would actually ask Grok Bot what it can do for you and let it kind of go through those connections that you've initially set up.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 656,
+          "t": [
+            4657.835,
+            4668.32
+          ],
+          "quote": "And so I would encourage power users to think about ways that Grok Bot can actually write to a single store where you can organize a lot of its outputs much easier.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 658,
+          "t": [
+            4669.841,
+            4676.708
+          ],
+          "quote": "We need another episode of going deep on Roman's Grok Bot setup, which probably has way too much private sensitive information we can show it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 691,
+          "t": [
+            4804.193,
+            4807.199
+          ],
+          "quote": "You can say Grok Bot if you want, but if there's anything else, you get bonus points.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 705,
+          "t": [
+            4883.403,
+            4888.646
+          ],
+          "quote": "What a point in time we're here right now at this moment in time of Grok Bot, of AI in general.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 710,
+          "t": [
+            4903.878,
+            4906.299
+          ],
+          "quote": "Anything you want to plug other than check out Grok Bot?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 712,
+          "t": [
+            4907.4,
+            4908.842
+          ],
+          "quote": "Check out Grok Bot, of course.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "嘉宾是它的第 15 号员工；本集用它解释文化是生存之道——每六个月彻底重塑自己、敢于删除脚手架功能，护城河是「把三个月后的未来拉到今天」的副产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            95.922,
+            98.143
+          ],
+          "quote": "Roman was employee number 15 at Cursor.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 87,
+          "t": [
+            456.382,
+            463.143
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 105,
+          "t": [
+            545.332,
+            550.075
+          ],
+          "quote": "Interestingly, you guys decided, \"Okay, we're not going to build this into Cursor.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 108,
+          "t": [
+            554.657,
+            556.638
+          ],
+          "quote": "\"Okay, this is not going to work inside Cursor, the product.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 114,
+          "t": [
+            584.251,
+            592.694
+          ],
+          "quote": "But there were a lot of discussions about Cursor, for example, and some of our coding products, people use it for non-coding tasks all the time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 474,
+          "t": [
+            3275.073,
+            3277.635
+          ],
+          "quote": "I know you were a go-to-market person at Cursor before this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 484,
+          "t": [
+            3360.069,
+            3370.912
+          ],
+          "quote": "At work, they were using a basic IDE, this is pre-AI, and then at home they'd work on a side project and they'd be using Cursor or they'd be using the latest and greatest AI coding tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 507,
+          "t": [
+            3529.503,
+            3535.286
+          ],
+          "quote": "So the first pillar is the coding product instead of products, and right now that's Cursor and Grok Build.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 557,
+          "t": [
+            3873.404,
+            3877.006
+          ],
+          "quote": "And for context, when I joined Cursor originally, we were about 15 people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 574,
+          "t": [
+            4001.622,
+            4005.904
+          ],
+          "quote": "If you were to look at Cursor from the outside, it shouldn't have worked.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 579,
+          "t": [
+            4030.673,
+            4043.478
+          ],
+          "quote": "And what I've seen as an outsider is what has allowed Cursor to win and have this massive exit and continue to succeed is how quickly you all adjust to the reality of the market.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 583,
+          "t": [
+            4063.028,
+            4067.912
+          ],
+          "quote": "You could do this other places, but it's the best in class experience, Cursor, the ID, the best way to code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 585,
+          "t": [
+            4071.154,
+            4081
+          ],
+          "quote": "Maybe I answered it, but what do you think has been core to Cursor's ability to not just survive in this crazy competitive market, but do so incredibly well consistently for so long?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 594,
+          "t": [
+            4160.185,
+            4171.229
+          ],
+          "quote": "And to your point on the competitiveness of this space, one thing that I think is important to point out is AI coding has always been competitive from when Cursor first came to be.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 601,
+          "t": [
+            4218.123,
+            4261.78
+          ],
+          "quote": "And I think it exactly ties back to what you're saying right now where when you look at every past iteration of Cursor, for example, but even I think when you look at every past iteration of Grok Bot, I think we will feel the same thing, is things going away, not new things getting added, but these scaffolding product overhang style things that get built in because the models have not yet gotten smart enough to just do it themselves, those things will get moved away over time and we need to feel comfortable making kind of hard decisions that might upset a small set of users or a small set of us internally to do the bigger thing of make the product simple, make the product powerful and adapt to where the future is going.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 610,
+          "t": [
+            4312.187,
+            4320.651
+          ],
+          "quote": "And a lot of people look at Cursor as a really interesting example of they're in a market with technically maybe no moats, but they've continued to win and succeed.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 611,
+          "t": [
+            4321.391,
+            4327.674
+          ],
+          "quote": "The two moats you think about with Cursor is the data feedback loop of people auto completing, learning what they're doing and training models based on that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 618,
+          "t": [
+            4366.866,
+            4393.674
+          ],
+          "quote": "I will say that I think if Cursor and many other successful companies of this kind of vintage, I think if they had thought about moats/kind of tried to work backwards from some strategy diagram or a maybe more abstract notion of how a company should work, I don't think that would've created this outcome or this product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 619,
+          "t": [
+            4394.174,
+            4401.856
+          ],
+          "quote": "I think what really created the magic of Cursor was an obsession with building a useful thing today.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 621,
+          "t": [
+            4414.52,
+            4433.448
+          ],
+          "quote": "And I think Cursor was a little bit this recurring prompt of how could we pull that stuff to today, even if it requires a little bit of engineering on top to make it work or a lot of engineering on top to make it work, even it requires changing the product in a specific way so a user can interact with this new capability.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 633,
+          "t": [
+            4496.707,
+            4502.773
+          ],
+          "quote": "And if you can continue to do that, you'll find something which in Cursor case ended up being a few things completely.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "spacexai",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceXAI",
+      "file": "SpaceXAI",
+      "primary": true,
+      "how_described": "本集说它有三大支柱：编程产品（Cursor 与 Grok Build）、通用知识工作（Grok Bot）、通用模型训练；与别的 AI 实验室不同，目标是务实构建「有用的 AI」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            365.54,
+            370.383
+          ],
+          "quote": "And so then there was a moment of rolling this out across the company, rolling this out across all of SpaceXAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 137,
+          "t": [
+            750.731,
+            765.66
+          ],
+          "quote": "And I think internally, because people inside of SpaceXAI were just constantly sharing tips and tricks for how to use Grok Bot, some patterns were starting to emerge that we thought would be useful to the world, but we weren't really sure and we definitely didn't want to bias the world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1558.683,
+            1566.147
+          ],
+          "quote": "You should add that name to a spreadsheet, you should do research, you should look at everybody at SpaceXAI, see if there's anyone directly connected.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 506,
+          "t": [
+            3524.601,
+            3528.783
+          ],
+          "quote": "I think there are three big pillars right now of SpaceXAI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 517,
+          "t": [
+            3594,
+            3610.987
+          ],
+          "quote": "And I think one thing that somewhat distinguishes SpaceXAI from other AI labs is I think our goal is less to build, chase super intelligence or some kind of vague aspirational ideal.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3880.347,
+            3884.71
+          ],
+          "quote": "And then now we're a part of SpaceXAI, which is kind of an even bigger organization.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 606,
+          "t": [
+            4291.396,
+            4297.959
+          ],
+          "quote": "And I think that has made many people very successful here before, and I think it's something we really share with SpaceXAI as well.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "本集说它做对两件事：证明给 bot 访问你工作工具的权限就能走完大部分路，以及把 AI 更看作同事队友；Grok Bot 从它吸收灵感并补上规模化和打磨。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 312,
+          "t": [
+            2156.314,
+            2157.314
+          ],
+          "quote": "You mentioned OpenClaw.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 313,
+          "t": [
+            2157.734,
+            2165.037
+          ],
+          "quote": "Obviously this is inspired by that, which to me, when I first used OpenClaw, like, holy, this is the future.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 315,
+          "t": [
+            2168.238,
+            2173.88
+          ],
+          "quote": "And then Hermes came out and everyone's been trying to build the OpenClaw that works very easily for everybody.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2174.261,
+            2179.619
+          ],
+          "quote": "Can you say more about just how OpenClaw and that story informed the way you guys thought about it?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 317,
+          "t": [
+            2180,
+            2191.924
+          ],
+          "quote": "Yeah, so I think OpenClaw got two major things right that when we were seeing the way the market was reacting to OpenClaw and ourselves using the product, we found quite exciting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 321,
+          "t": [
+            2229.059,
+            2232.6
+          ],
+          "quote": "And I think OpenClaw really forced that question for many people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 322,
+          "t": [
+            2233.28,
+            2252.928
+          ],
+          "quote": "And then I think the second way OpenClaw changed the mental model of AI was really viewing these things much more as colleagues and teammates and people and personifying it a bit more and it being this helper entity that has access to your life and can extend you even further.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 331,
+          "t": [
+            2320.62,
+            2331.486
+          ],
+          "quote": "As you say that, I have my Mac mini with my formerly live OpenClaw on there and that was an era and it's so awesome the work that it has inspired.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 333,
+          "t": [
+            2332.546,
+            2347.994
+          ],
+          "quote": "I know there's still a lot of value to OpenClaw, but when I saw Claire Vo, who's been the biggest proponent of Open Claw and it's become a core part of the way she lives and works with her kids and does all her work, she just switched all over OpenClaws.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提及它是 Cursor 面对的史上增长最快竞争对手之一，其 Codex 产品走的是与 Grok Bot 相反的路线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            456.382,
+            463.143
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 100,
+          "t": [
+            525.322,
+            527.723
+          ],
+          "quote": "So obviously there's Anthropic OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 575,
+          "t": [
+            4006.844,
+            4018.649
+          ],
+          "quote": "It shouldn't have lasted because, one, it's in the most competitive market in the world competing against the fastest growing companies in history, OpenAI and Anthropic.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提及它与 OpenAI 一样做编程智能体并演化出 Cowork，是 Cursor 所在的最激烈竞争市场的对手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            456.382,
+            463.143
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 100,
+          "t": [
+            525.322,
+            527.723
+          ],
+          "quote": "So obviously there's Anthropic OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 575,
+          "t": [
+            4006.844,
+            4018.649
+          ],
+          "quote": "It shouldn't have lasted because, one, it's in the most competitive market in the world competing against the fastest growing companies in history, OpenAI and Anthropic.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集多次提及：主持人把用例从它转移到 Grok Bot；Roman 说技术上它能做到同样的事，但走的是把产品合并成一个东西的路线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            176.256,
+            186.78
+          ],
+          "quote": "I personally noticed I've moved a lot of my use cases from Cowork and Codex into Grok Bot just very quickly, which again, feels like a really big deal and a very special moment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 104,
+          "t": [
+            537.268,
+            544.472
+          ],
+          "quote": "So there's Cowork evolved out of that within the product, and then Codex, they've invested in, \"Let's make this useful for all kinds of things.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 125,
+          "t": [
+            663.927,
+            671.873
+          ],
+          "quote": "So interestingly, Codex went the other direction and it's like a different path than a different product, but it's interestingly, they're like, now we're going to make it one thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1803.56,
+            1810.606
+          ],
+          "quote": "So I tweeted about how much I love Grok Bot when it launched and a lot of people replied, they're like, \"Wait, can't you just do all this with Codex and Cowork?\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "cowork",
+      "type": "company",
+      "role": "company",
+      "name": "Cowork",
+      "file": "Cowork",
+      "primary": false,
+      "how_described": "本集提及它是 Anthropic 从编程智能体演化出的知识工作组件，也是被用户从其转移向 Grok Bot 的竞品之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            176.256,
+            186.78
+          ],
+          "quote": "I personally noticed I've moved a lot of my use cases from Cowork and Codex into Grok Bot just very quickly, which again, feels like a really big deal and a very special moment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 104,
+          "t": [
+            537.268,
+            544.472
+          ],
+          "quote": "So there's Cowork evolved out of that within the product, and then Codex, they've invested in, \"Let's make this useful for all kinds of things.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1803.56,
+            1810.606
+          ],
+          "quote": "So I tweeted about how much I love Grok Bot when it launched and a lot of people replied, they're like, \"Wait, can't you just do all this with Codex and Cowork?\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集举例：销售团队报上 10 到 20 个「鼠标点不到 Salesforce 仪表盘那个位置」的具体案例，基础设施修复后反馈如潮水般涌来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            1359.8,
+            1393.797
+          ],
+          "quote": "And so there were a bunch of small things and probably a list of 10 or 20 of them of places where for whatever reason, the mouse would just not have fine enough control to click on exactly that part of the Salesforce dashboard or something like that, that we would have to take back to the core team working on really the infrastructure to say, \"Here's a very concrete case of where the agent not having this visibility into the browser or this visibility into the pixels on the screen is making it impossible for this task to be done.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的核心概念：Grok Bot 的目标就是把智能体带给编程之外的整个公司，bot 是长生命周期、会随时间变聪明、为用户完成整块工作的智能体；AI 的下一个转变是智能体比你更主动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            394.795,
+            403.22
+          ],
+          "quote": "Are people actually going to switch from other internal tools, other external tools to use Grok Bot as their primary agent surface?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 101,
+          "t": [
+            528.184,
+            531.946
+          ],
+          "quote": "They had this coding agent that they're like, \"Holy shit, this is a big opportunity.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1359.8,
+            1393.797
+          ],
+          "quote": "And so there were a bunch of small things and probably a list of 10 or 20 of them of places where for whatever reason, the mouse would just not have fine enough control to click on exactly that part of the Salesforce dashboard or something like that, that we would have to take back to the core team working on really the infrastructure to say, \"Here's a very concrete case of where the agent not having this visibility into the browser or this visibility into the pixels on the screen is making it impossible for this task to be done.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1904,
+            1918.045
+          ],
+          "quote": "I think the second decision was to take that one step further of not only should this be an agent loop that kind of runs in the cloud and you can interact with in various ways, it's actually really important that these bots have their own computer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2991.805,
+            2996.608
+          ],
+          "quote": "Because you have a computer within each agent, you can run a lot of different things on the computer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 462,
+          "t": [
+            3205.375,
+            3213.779
+          ],
+          "quote": "But I think we're going to see more of that type of stuff where the agent or the bot should actually be more proactive to you than you reaching out to it.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "bot",
+      "type": "concept",
+      "role": "concept",
+      "name": "Bot（AI 机器人同事） (bot)",
+      "file": "Bot（AI 机器人同事）",
+      "primary": true,
+      "how_described": "本集反复使用 bot 一词并说「我们都在从 agents 转向 bots 了」：每个任务一个具名 bot，像有自己电脑的持久同事，可被提拔为幕僚长管理其他 bot。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.301,
+            3.487
+          ],
+          "quote": "The ultimate vision of Grok Bot is incredibly simple.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 2,
+          "t": [
+            10.401,
+            12.99
+          ],
+          "quote": "Grok Bot is the hottest AI product in the world right now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 8,
+          "t": [
+            35.545,
+            36.768
+          ],
+          "quote": "I went to a Grok Bot meetup.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 13,
+          "t": [
+            60.18,
+            75
+          ],
+          "quote": "What made me so excited to work on Grok Bot is it was the first time for non-coding tasks that I felt like I could truly delegate work to AI, not have to think about it, and I would come back and it's done.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 14,
+          "t": [
+            75.422,
+            79.799
+          ],
+          "quote": "What is it that you think you did that is so different that made Grok Bot so successful?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 15,
+          "t": [
+            80.02,
+            89.337
+          ],
+          "quote": "It was two early decisions that at the time definitely did not feel obvious, but in hindsight I think are critical to what makes Grok Bot work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 20,
+          "t": [
+            100.224,
+            104.246
+          ],
+          "quote": "Most recently, he helped incubate Grok Bot, a product that I am obsessed with.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 24,
+          "t": [
+            114.952,
+            116.352
+          ],
+          "quote": "Roman leads product for Grok Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 32,
+          "t": [
+            141.001,
+            143.282
+          ],
+          "quote": "I am so hooked on Grok Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 35,
+          "t": [
+            149.225,
+            151.325
+          ],
+          "quote": "I went to a meetup the other day, a Grok Bot meetup.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 36,
+          "t": [
+            151.846,
+            158.568
+          ],
+          "quote": "There were hundreds of people there, standing room only, people sharing all the ways they're using Grok Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 39,
+          "t": [
+            168.392,
+            171.274
+          ],
+          "quote": "Grok Bot is the hottest AI product in the world right now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 42,
+          "t": [
+            176.256,
+            186.78
+          ],
+          "quote": "I personally noticed I've moved a lot of my use cases from Cowork and Codex into Grok Bot just very quickly, which again, feels like a really big deal and a very special moment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 49,
+          "t": [
+            202.121,
+            215.96
+          ],
+          "quote": "I mean, I remember onboarding you by hand about a month ago and I think you were skeptical at first, but we're very glad that you've been using it and it's been great to see so many people really take advantage of Grok Bot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 79,
+          "t": [
+            394.795,
+            403.22
+          ],
+          "quote": "Are people actually going to switch from other internal tools, other external tools to use Grok Bot as their primary agent surface?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 80,
+          "t": [
+            404.3,
+            429.511
+          ],
+          "quote": "And in that first week after that all hands, I mean, I can't even tell you just the outpour of love for Grok Bot from people that maybe you wouldn't expect or from groups of the company that maybe you wouldn't expect, people who were daily driving ChatGPT or a chat interface, switching all of their day-to-day agentic tasks over to Grok Bot as their primary surface for doing work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 123,
+          "t": [
+            643.635,
+            654.92
+          ],
+          "quote": "There might be some really amazing opportunities to bring people from other surfaces into this more bot native experience, but it's really important for people to just have an amazingly simple and amazingly powerful experience.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 137,
+          "t": [
+            750.731,
+            765.66
+          ],
+          "quote": "And I think internally, because people inside of SpaceXAI were just constantly sharing tips and tricks for how to use Grok Bot, some patterns were starting to emerge that we thought would be useful to the world, but we weren't really sure and we definitely didn't want to bias the world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 139,
+          "t": [
+            768,
+            783.886
+          ],
+          "quote": "So when we rolled out Grok Bot internally, there was about a week or two where the common pattern of the way people would interact with the product was you would have five to 10 bots and each bot you would give a different scope, a different domain, and it was kind of shorthand for different lanes of work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 142,
+          "t": [
+            809.916,
+            821.52
+          ],
+          "quote": "And there are some funny screenshots of people actually telling the bot they're promoting that they're promoted and the bot is asking if they get a raise and is their token budget higher, all of these things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 145,
+          "t": [
+            830.564,
+            847.651
+          ],
+          "quote": "And so in some of the onboarding sessions and just from the early access program in general, we really did not want to lead the witness and say, create a chief of staff bot, here's exactly the way that that chief of staff should manage all of the other bots and see if early access users would get there themselves.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 152,
+          "t": [
+            883.825,
+            900.433
+          ],
+          "quote": "And I think it is something a bit shocking or just different about Grok Bot when you first start using it versus some of the other products that you mentioned, where a lot of the internal mechanics of how Grok Bot works are not shown to the user.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 156,
+          "t": [
+            921.122,
+            928.304
+          ],
+          "quote": "And so we moved completely in the other direction of you send a message, you tell your bot to do something, it just starts doing it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 160,
+          "t": [
+            957.214,
+            960.895
+          ],
+          "quote": "And we did get some feedback that's like, I would love to see my bot's to-do list.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1030.62,
+            1044.706
+          ],
+          "quote": "So one example is there's a coffee shop owner that was a friend of a friend through the company who had heard about Grok Bot, and one day somebody on the core team had shown them a demo of the test flight and got very excited.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1045.326,
+            1054.79
+          ],
+          "quote": "And this coffee shop owner ended up being not only amazingly an amazing power user of Grok Bot, but also a rich source of feedback for us.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1182.086,
+            1194.009
+          ],
+          "quote": "We also were kind of putting pseudo developery visibility tools into Grok Bot instead of having a separate observability pane for those things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1270.573,
+            1291.62
+          ],
+          "quote": "It's like hill climbing five really important problems in the backend that many users don't directly experience, but you totally feel when your bot is going off and doing something and can't click the right button, or your bot is off and doing something and can't log into a website and it just completely stalls your ability to make progress on that task.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1292,
+            1307.62
+          ],
+          "quote": "And so those few weeks we collected a really rich set of what are tasks that people actually are giving bot, how can we quantify these things and how can we see week over week that across those categories of tasks that we're hill climbing on very important dimensions to making that just work behind the scenes?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1316.3,
+            1329.486
+          ],
+          "quote": "One example was from rolling out Grok Bot, one group inside of the company that was actually incredibly bot pilled, so to speak, was our go-to-market team was sales.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1338.27,
+            1347.195
+          ],
+          "quote": "And I think that's a lot of what made bot so before and after powerful for this group was these were things that they just could not give another AI tool reliably.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1350.076,
+            1359
+          ],
+          "quote": "And then Bot kind of felt like they had an assistant or kind of felt like they onboarded someone to their personal team, they gave it a laptop and it could just run.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1437.295,
+            1441
+          ],
+          "quote": "I heard that his team was one of the top users of Grok Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1590.282,
+            1595.587
+          ],
+          "quote": "First of all, someone's about to take the transcript of what you just said, put it into a bot and create their version of this, which is great.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1596.247,
+            1599.891
+          ],
+          "quote": "On the other hand, I think you guys could sell a template of this bot for a billion dollars.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1600.511,
+            1609.96
+          ],
+          "quote": "I think could basically use Adam's team strategy for finding the best people and just turn it into a bot, holy moly, democratizing hiring.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1654.861,
+            1663.094
+          ],
+          "quote": "So one thing we talk about internally is for anything that we're working on for Grok Bot, what is the launch post?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1676.443,
+            1697.371
+          ],
+          "quote": "And to take that even one step further, I think there's this old school software tendency to say things like Grok Bot now has, and when you think of completing that sentence, it would be like a new button to press or it'd be a new dropdown or it'd be a new integration that you can press plus and add.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1698.131,
+            1705.754
+          ],
+          "quote": "And instead to reframe it as Grok Bot can now, which is I think a much more human way of describing these capabilities.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1706.054,
+            1716.658
+          ],
+          "quote": "And I think it's forced us to think more in the frame of what are tools and what are capabilities that we can give Grok Bot, not what are new things we can add to the product?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1734.925,
+            1745.889
+          ],
+          "quote": "And so I think in the context of unshipping, there have been a lot of Grok Bot now has things that we've realized are actually just capabilities that don't need pixels.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1747.97,
+            1753.572
+          ],
+          "quote": "Those can just be things that your bot manipulates behind the scenes for you and you don't need to directly control.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1779.504,
+            1788.61
+          ],
+          "quote": "And so I think what Grok Bot did in response to that was actually you should just define automations in natural language and you should tell your bot, \"Remind me that at 8:00 AM every day, please.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1803.56,
+            1810.606
+          ],
+          "quote": "So I tweeted about how much I love Grok Bot when it launched and a lot of people replied, they're like, \"Wait, can't you just do all this with Codex and Cowork?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1811.687,
+            1818.913
+          ],
+          "quote": "Technically everything, as far as I know, you can do with Grok Bot you can do with the other foundational models, the coding assistants.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1821.715,
+            1827.9
+          ],
+          "quote": "What is it that you think you did that is so different, that made Grok Bot so successful?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1828.56,
+            1840.847
+          ],
+          "quote": "I think it was two early decisions that at the time definitely did not feel obvious, but in hindsight, I think are critical to what makes Grok Bot work for people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1868.582,
+            1884.23
+          ],
+          "quote": "And if it's in the cloud and it's this persistent colleague that has its own computer, it can do its own work, it has the same state everywhere you interact with it opens up a lot of really amazing opportunities to text your bot, kick it off from your phone.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1884.61,
+            1892.554
+          ],
+          "quote": "In the future, you should be able to call your bot from anywhere and it should be able to do real work.This is its own entity and it lives separately from your device.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1930.77,
+            1939.593
+          ],
+          "quote": "We use a computer and we click on pixels and we kind of type things and input boxes and it's very important that your bot has those baseline capabilities as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 294,
+          "t": [
+            2011.543,
+            2024.467
+          ],
+          "quote": "And we felt that ourselves where a lot of the primitives in Grok Bot we had attempted or we had built in other ways, cloud infrastructure we built for coding agents.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 305,
+          "t": [
+            2117.22,
+            2129.804
+          ],
+          "quote": "So what I'm hearing here is the keys to success of what made this breakout a cloud-based computer for every bot instead of locally, a name kind of specific bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 309,
+          "t": [
+            2139.028,
+            2145.29
+          ],
+          "quote": "So a bot per kind of task use case, very unique versus a thread conversation or something or a one-off job.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 318,
+          "t": [
+            2192.345,
+            2210.091
+          ],
+          "quote": "I think the first thing was the models are really smart and they're going to continue to get smarter, but even at current capability levels, if you can just give your bot access to the tools that you use to do your job, it can get a lot of the way there.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 323,
+          "t": [
+            2253.609,
+            2271.916
+          ],
+          "quote": "And so we took a lot of that and I think what Grok Bot maybe extended was, A, it needs to be really easy to set up and the hacky, you have a VPN at home and a Mac mini set up, clearly it was not going to scale to millions of users.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 327,
+          "t": [
+            2298.549,
+            2302.491
+          ],
+          "quote": "How can we make a Grok Bot user not even have to know what a skill is?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2348.034,
+            2351.115
+          ],
+          "quote": "She shut them all down and switched to Grok Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2361.321,
+            2364.487
+          ],
+          "quote": "What's the vision for Grok Bot?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2366.912,
+            2370.379
+          ],
+          "quote": "What's the ideal platonic version of Grok Bot?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2371.2,
+            2383.804
+          ],
+          "quote": "The ultimate vision of Grok Bot is incredibly simple, which is you should have a team of AI bots that help you with your job and help you with your life.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2590.566,
+            2592.827
+          ],
+          "quote": "I think Grok Bot has many of these properties.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2653.229,
+            2662.796
+          ],
+          "quote": "And so in a lot of ways, Grok Bot, when you look at it, when I walk by someone's desk and I see Grok Bot up on their computer, for me for a split second, I'm like, \"Oh, are they on a messaging app?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2693.6,
+            2707.588
+          ],
+          "quote": "But I think our goal and the thing we're trying to build towards is Grok Bot should be the way that a large portion of the things you do day-to-day in your work, you should be able to delegate a lot of that to Grok Bot and focus on the higher leverage things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2836.943,
+            2843.15
+          ],
+          "quote": "On the computer side, what's the simplest way to think about what you get as a part of your Grok Bot account?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2847.734,
+            2850.077
+          ],
+          "quote": "Is it a separate VM instance per bot?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2918.724,
+            2925.247
+          ],
+          "quote": "So I think the right way of thinking about Grok Bot is it's a team of bots, it's a team of agents that do work for you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2996.849,
+            3000.551
+          ],
+          "quote": "He was running Grok Bot within Grok Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 439,
+          "t": [
+            3000.571,
+            3009.777
+          ],
+          "quote": "The bot can run its own Grok Bots, and I know he was using it for testing and watching regressions and things like that, but that's just a mind-expanding idea.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 442,
+          "t": [
+            3015.341,
+            3023.186
+          ],
+          "quote": "That one's actually a very useful thing to do is you download Grok Bot for one of your bots, mine is like a QA tester bot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 446,
+          "t": [
+            3045.541,
+            3060.135
+          ],
+          "quote": "And so I think once you start breaking out of this is AI chat with a set of connections, which is I think where most people are conceptually now, instead to this is a colleague with a computer and anything I would ask a colleague to do on a computer, I can ask Grok Bot to do.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 448,
+          "t": [
+            3065.321,
+            3071.677
+          ],
+          "quote": "Are there any other mind-expanding use cases or ways to use Grok Bot that you've seen or you use?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 449,
+          "t": [
+            3073.34,
+            3107.272
+          ],
+          "quote": "One pattern that I've seen from many users that is simple, but I think there's a lot of depth if you keep investing in making it better, and this is where I can get kind of nerdy about optimizing my setup, is Grok Bot as an infovore in some ways of just consuming huge quantities of information, removing that from your own cognitive load, giving you peace, and then coming to you with the stuff that's important.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 450,
+          "t": [
+            3107.812,
+            3120.416
+          ],
+          "quote": "And I think the V1 implementation of that, which many people do, is Grok Bot sits on top of Slack and it sits on top of email, and I tell it high level, \"Here's my role at the company, here's kind of what I care about.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 455,
+          "t": [
+            3140.664,
+            3148.268
+          ],
+          "quote": "So I have mine hooked up to every mention of Grok Bot ever on X, and it's interacting with our internal context.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 460,
+          "t": [
+            3187.366,
+            3201.093
+          ],
+          "quote": "And so if something super urgent happens and they're at a coffee or whatever, they get paged by Grok Bot, which is the type of thing that you only want to do if it's urgent and you really want to trust that Grok Bot does not have false positives.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 462,
+          "t": [
+            3205.375,
+            3213.779
+          ],
+          "quote": "But I think we're going to see more of that type of stuff where the agent or the bot should actually be more proactive to you than you reaching out to it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 492,
+          "t": [
+            3401.822,
+            3417.251
+          ],
+          "quote": "You see all these examples of Grok Bot controlling their home robot computer, home robot vacuum cleaner or Grok Bot helping them save money on their Tesla charger negotiation, all of these fun use cases.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 495,
+          "t": [
+            3434.36,
+            3448.347
+          ],
+          "quote": "And so on the go-to-market side, we're certainly making a big push on prioritizing businesses and thinking about not just the single player use case of working with a single bot, but how does a bot work inside of a broader team?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 496,
+          "t": [
+            3448.567,
+            3456.311
+          ],
+          "quote": "How does a bot work inside of real company systems that are complicated and there's a lot of context and a lot of history to understand?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 498,
+          "t": [
+            3463.574,
+            3476
+          ],
+          "quote": "And I think there are a lot of unanswered questions there, but I do think Grok Bot is the right primitive to create this switch to agents for the rest of the company outside of coding, and that's a place where we're quite focused right now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 499,
+          "t": [
+            3476,
+            3496.509
+          ],
+          "quote": "And along those lines, it's very clear you all understand the power of distribution and how you need to find both an amazing product and get distribution right because Grok Bot's amazing, but the combination of how smart you guys have been with getting it out there in all these different ways is really impressive.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 502,
+          "t": [
+            3510.935,
+            3513.356
+          ],
+          "quote": "So there's Grok Bot, there's Cursors.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 509,
+          "t": [
+            3547.871,
+            3556.415
+          ],
+          "quote": "And right now people use Grok Bot sometimes to kick off cloud agents or to merge PRs or to do QA, a bunch of engineering adjacent tasks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 512,
+          "t": [
+            3568.62,
+            3574.685
+          ],
+          "quote": "The second category is general knowledge work, and we think bot is a really exciting step in that direction.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 529,
+          "t": [
+            3666.72,
+            3686.686
+          ],
+          "quote": "I think for me, what made me so excited to work on Grok Bot and contribute to it is it was the first time for non-coding tasks that I felt like I could truly delegate work to AI and not have to think about it and I would come back and it's done.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 535,
+          "t": [
+            3733.38,
+            3735.581
+          ],
+          "quote": "And Grok Bot, I think short circuits a lot of that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3795.552,
+            3806
+          ],
+          "quote": "And I think that's the type of thing that people feel with Grok Bot every day are these no look passes and you just trust that it can get it done and then it does and it's just a very magical experience.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 580,
+          "t": [
+            4044.298,
+            4050
+          ],
+          "quote": "Started as auto complete and then things moved on to just talking to agents and then into the cloud and now Grok Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 582,
+          "t": [
+            4061.948,
+            4062.928
+          ],
+          "quote": "Grok Bot's a great example.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 597,
+          "t": [
+            4199.278,
+            4204
+          ],
+          "quote": "And so I think that's exactly what has led us to invest in things like Grok Bot, for example.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 601,
+          "t": [
+            4218.123,
+            4261.78
+          ],
+          "quote": "And I think it exactly ties back to what you're saying right now where when you look at every past iteration of Cursor, for example, but even I think when you look at every past iteration of Grok Bot, I think we will feel the same thing, is things going away, not new things getting added, but these scaffolding product overhang style things that get built in because the models have not yet gotten smart enough to just do it themselves, those things will get moved away over time and we need to feel comfortable making kind of hard decisions that might upset a small set of users or a small set of us internally to do the bigger thing of make the product simple, make the product powerful and adapt to where the future is going.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 635,
+          "t": [
+            4511.28,
+            4514.744
+          ],
+          "quote": "Okay, let me actually ask you for Grok Bot tips as an actual last question.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 642,
+          "t": [
+            4545.965,
+            4549.306
+          ],
+          "quote": "You should be able to delegate something to Grok Bot and they should do it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 643,
+          "t": [
+            4550.247,
+            4563.231
+          ],
+          "quote": "And so what I would encourage for someone new who's just downloading the app, you're looking at the screen, I think the first thing is give Grok Bot the context it needs to be successful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 645,
+          "t": [
+            4576.876,
+            4588
+          ],
+          "quote": "So I'd give it access to the tools and then I would actually ask Grok Bot what it can do for you and let it kind of go through those connections that you've initially set up.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 656,
+          "t": [
+            4657.835,
+            4668.32
+          ],
+          "quote": "And so I would encourage power users to think about ways that Grok Bot can actually write to a single store where you can organize a lot of its outputs much easier.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 658,
+          "t": [
+            4669.841,
+            4676.708
+          ],
+          "quote": "We need another episode of going deep on Roman's Grok Bot setup, which probably has way too much private sensitive information we can show it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 691,
+          "t": [
+            4804.193,
+            4807.199
+          ],
+          "quote": "You can say Grok Bot if you want, but if there's anything else, you get bonus points.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 705,
+          "t": [
+            4883.403,
+            4888.646
+          ],
+          "quote": "What a point in time we're here right now at this moment in time of Grok Bot, of AI in general.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 710,
+          "t": [
+            4903.878,
+            4906.299
+          ],
+          "quote": "Anything you want to plug other than check out Grok Bot?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 712,
+          "t": [
+            4907.4,
+            4908.842
+          ],
+          "quote": "Check out Grok Bot, of course.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机使用 (computer use)",
+      "file": "计算机使用",
+      "primary": true,
+      "how_described": "本集称计算机使用方面的改进是巨大解锁：bot 像人一样点击像素、填表单；现在已不错且快速变好，很快「计算机」概念会被完全从用户那里抽象掉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 210,
+          "t": [
+            1425.401,
+            1429.866
+          ],
+          "quote": "So computer use basically improvements seems like a big unlock.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2885.331,
+            2897.155
+          ],
+          "quote": "And so similarly, I think right now we're in a place where computer use is good, it's getting much better, and in very short order, I think the computer concept will be completely abstracted away from the user.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "type": "concept",
+      "role": "concept",
+      "name": "云端运行 (cloud)",
+      "file": "云端运行",
+      "primary": true,
+      "how_described": "本集的两个关键决定之一：永远不让用户思考本地和云，一切都在云端——bot 是任何交互入口状态一致的持久同事，可从手机启动、将来可打电话叫它干活。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 270,
+          "t": [
+            1841.588,
+            1849.732
+          ],
+          "quote": "And the first is you should never have to think about local and cloud and where are these workflows running?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1864.34,
+            1867.902
+          ],
+          "quote": "And we made a really early decision that this should just all be in the cloud.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1868.582,
+            1884.23
+          ],
+          "quote": "And if it's in the cloud and it's this persistent colleague that has its own computer, it can do its own work, it has the same state everywhere you interact with it opens up a lot of really amazing opportunities to text your bot, kick it off from your phone.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1904,
+            1918.045
+          ],
+          "quote": "I think the second decision was to take that one step further of not only should this be an agent loop that kind of runs in the cloud and you can interact with in various ways, it's actually really important that these bots have their own computer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 294,
+          "t": [
+            2011.543,
+            2024.467
+          ],
+          "quote": "And we felt that ourselves where a lot of the primitives in Grok Bot we had attempted or we had built in other ways, cloud infrastructure we built for coding agents.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 305,
+          "t": [
+            2117.22,
+            2129.804
+          ],
+          "quote": "So what I'm hearing here is the keys to success of what made this breakout a cloud-based computer for every bot instead of locally, a name kind of specific bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2843.17,
+            2847.274
+          ],
+          "quote": "Is it like AVM that is running in the cloud with multiple logins?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 509,
+          "t": [
+            3547.871,
+            3556.415
+          ],
+          "quote": "And right now people use Grok Bot sometimes to kick off cloud agents or to merge PRs or to do QA, a bunch of engineering adjacent tasks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 580,
+          "t": [
+            4044.298,
+            4050
+          ],
+          "quote": "Started as auto complete and then things moved on to just talking to agents and then into the cloud and now Grok Bot.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文（给 bot 的工具与背景） (context)",
+      "file": "上下文（给 bot 的工具与背景）",
+      "primary": false,
+      "how_described": "本集给新手的建议：像给新同事做入职一样，把 Slack、邮箱、公司记录等工具的访问权给它，然后问它能为你们做什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 190,
+          "t": [
+            1203.852,
+            1215.495
+          ],
+          "quote": "And if you're building the product, you didn't want to go somewhere else to maybe pull that context, but we had to really aggressively trim what we think the user absolutely needs to see in the surface versus what they don't.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1734.925,
+            1745.889
+          ],
+          "quote": "And so I think in the context of unshipping, there have been a lot of Grok Bot now has things that we've realized are actually just capabilities that don't need pixels.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2500.95,
+            2514.357
+          ],
+          "quote": "And I think in the context of a human, for example, we have a really good analog of a lot of times I'm slacking back and forth with a teammate, we're sharing context, and a lot of times it's just much simpler to get on a five-minute huddle with them and just press huddle, talk back and forth.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 455,
+          "t": [
+            3140.664,
+            3148.268
+          ],
+          "quote": "So I have mine hooked up to every mention of Grok Bot ever on X, and it's interacting with our internal context.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 496,
+          "t": [
+            3448.567,
+            3456.311
+          ],
+          "quote": "How does a bot work inside of real company systems that are complicated and there's a lot of context and a lot of history to understand?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 541,
+          "t": [
+            3779,
+            3791.749
+          ],
+          "quote": "You're still doing the thing and it feels that way and it's weighing on you in the same way versus truly throwing a no look pass to a colleague and being like, \"You got this, here's the context, go off and run.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 557,
+          "t": [
+            3873.404,
+            3877.006
+          ],
+          "quote": "And for context, when I joined Cursor originally, we were about 15 people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 643,
+          "t": [
+            4550.247,
+            4563.231
+          ],
+          "quote": "And so what I would encourage for someone new who's just downloading the app, you're looking at the screen, I think the first thing is give Grok Bot the context it needs to be successful.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "MCP",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

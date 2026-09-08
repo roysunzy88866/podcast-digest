@@ -27,7 +27,7 @@ unlisted: true
 
 [[Eric Ries]] · [[Johan Hari]] · [[Lenny]] · [[Ozempic]] · [[Incorruptible]] · [[GLP-1]] · [[Cloudflare]] · [[设定点]] · [[Anthropic]] · [[加工食品]]
 
-<script type="application/json" class="pd-epn">{"Eric Ries":1,"Johan Hari":1,"Lenny":67,"Ozempic":1,"Incorruptible":1,"GLP-1":1,"Cloudflare":9,"设定点":1,"Anthropic":108,"加工食品":1}</script>
+<script type="application/json" class="pd-epn">{"Eric Ries":1,"Johan Hari":1,"Lenny":67,"Ozempic":1,"Incorruptible":1,"GLP-1":1,"Cloudflare":9,"设定点":1,"Anthropic":110,"加工食品":1}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]]
+[[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Anthropic":108,"Claude Code":48,"Co-work":3,"智能体":1,"验证":4,"测试驱动开发":2,"潜在需求":2,"结对编程":1,"Visual Studio":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Anthropic":110,"Claude Code":48,"Co-work":3,"智能体":1,"验证":4,"测试驱动开发":2,"潜在需求":2,"结对编程":1,"Visual Studio":1}</script>
 
 <script>
 (function(){

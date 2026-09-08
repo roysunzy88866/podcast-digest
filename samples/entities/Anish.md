@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
+[[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Raj":1,"Harrison":1,"Traversal":1,"智能体":1,"生产世界模型":1,"可观测性":18,"遥测数据":1,"上下文":13,"文件系统":3,"评估":21}</script>
+<script type="application/json" class="pd-epn">{"Raj":1,"Harrison":1,"Traversal":1,"智能体":1,"生产世界模型":1,"可观测性":18,"遥测数据":1,"上下文":14,"文件系统":3,"评估":21}</script>
 
 <script>
 (function(){

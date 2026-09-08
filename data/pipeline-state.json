@@ -59,9 +59,9 @@
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1
   },
   "cutoffs": {
-    "lennys": "2026-09-06T12:32:00.000Z",
+    "lennys": "2026-09-08T12:31:49.000Z",
     "pg": "2026-09-04T23:01:00.000Z",
-    "a16z": "2026-09-06T10:00:00.000Z",
+    "a16z": "2026-09-08T10:00:00.000Z",
     "yc": "2026-09-05T14:00:00.000Z",
     "mad": "2026-08-27T14:22:21.000Z",
     "trainingdata": "2026-09-01T09:00:00.000Z",
@@ -91,7 +91,7 @@
     "pmf": "2026-09-07T09:00:00.000Z",
     "cheekypint": "2026-04-27T11:45:00.000Z",
     "productpodcast": "2026-08-26T20:00:00.000Z",
-    "ainativedev": "2026-08-25T12:00:00.000Z",
+    "ainativedev": "2026-09-08T12:00:00.000Z",
     "newcomer": "2026-08-26T15:00:00.000Z",
     "engenable": "2026-08-26T04:55:58.000Z"
   },
@@ -845,6 +845,12 @@
       "reason": "题材不对味:状态机复制属传统 CS/分布式系统话题,档案明确此类偏学术不抓",
       "title": "Before Blockchains, There Was State Machine Replication",
       "pubDate": "2026-07-13T10:00:00.000Z"
+    },
+    {
+      "id": "2026-09-08-a16z-openai-researchers-on-the-future-of-math",
+      "reason": "题材不对味:OpenAI 研究员谈数学推理属于学术研究/模型前沿深水,偏档案 ❌ 类,而非商业/人/产业面。",
+      "title": "OpenAI Researchers on the Future of Mathematical Reasoning",
+      "pubDate": "2026-09-08T10:00:00.000Z"
     }
   ]
 }

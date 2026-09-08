@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
+[[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":3,"MongoDB":4,"Voyage AI":1,"Anthropic":108,"Eleven Labs":5,"Uber":8,"智能体":1,"智能体记忆":1,"RAG":7,"嵌入模型":1}</script>
+<script type="application/json" class="pd-epn">{"Nathan":3,"MongoDB":4,"Voyage AI":1,"Anthropic":110,"Eleven Labs":5,"Uber":8,"智能体":1,"智能体记忆":1,"RAG":7,"嵌入模型":1}</script>
 
 <script>
 (function(){

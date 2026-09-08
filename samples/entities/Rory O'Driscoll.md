@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]] [[Matt Dailey]]
+[[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason Lemkin":2,"Harry Stebbings":15,"Cursor":49,"SpaceX":12,"OpenRouter":9,"Stripe":28,"Anthropic":108,"Workday":4,"Microsoft":24,"Meta":29}</script>
+<script type="application/json" class="pd-epn">{"Jason Lemkin":2,"Harry Stebbings":15,"Cursor":50,"SpaceX":12,"OpenRouter":9,"Stripe":28,"Anthropic":110,"Workday":4,"Microsoft":24,"Meta":29}</script>
 
 <script>
 (function(){

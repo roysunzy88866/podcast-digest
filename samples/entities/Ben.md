@@ -25,7 +25,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]]
+[[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Will]] [[Malika Rao]]
 
 </div>
 

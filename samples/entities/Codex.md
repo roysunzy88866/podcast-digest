@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>40</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>41</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -49,6 +49,7 @@ unlisted: true
 - **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(38:30起):Speechify 团队使用量排第三的 AI 编程工具，「有一点使用，没那么大」。
 - **[[2026-09-06-lennys-why-companies-are-becoming-a-series|《a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小》]]**(04:21起):本集说 OpenAI 的市场团队用 Codex 比工程团队还勤，因为 AI 把他们的工作蒸馏成最擅长、最感兴趣的部分；Anish 还用 Codex 给妻子做了母亲节幻灯片。
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(31:47起):本集说 Codex 背后有一百个人在让它变好,你的智能体至少得同样能干,否则用户凭什么为你付 50 美元而不是给 OpenAI 付 24.99;现在与 Claude 五五开使用。
+- **[[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]]**(02:56起):本集多次提及：主持人把用例从它转移到 Grok Bot；Roman 说技术上它能做到同样的事，但走的是把产品合并成一个东西的路线。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(04:45起):本集讨论的 OpenAI 推出的命令行编码智能体，被嘉宾极力偏爱。集里说它“在决定更改什么之前浏览了更多的文件”，虽然非常慢，但嘉宾会同时开 10 个来用，并用它生成了 OpenClaw 的模板。
 
 ## ① 提到它的金句
@@ -73,7 +74,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*40 集*
+*41 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
@@ -114,15 +115,16 @@ unlisted: true
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为被讨论公司(提及)
 - [[2026-09-06-lennys-why-companies-are-becoming-a-series|《a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小》]] — 作为被讨论公司
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司
+- [[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]] — 作为被讨论公司(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude Code]] · [[OpenAI]] · [[Claude]] · [[Cursor]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[护栏]] · [[MCP]]
+[[智能体]] · [[Claude Code]] · [[OpenAI]] · [[Cursor]] · [[Claude]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[护栏]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":48,"OpenAI":96,"Claude":49,"Cursor":49,"Anthropic":108,"ChatGPT":52,"Lenny":67,"护栏":2,"MCP":28}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":48,"OpenAI":98,"Cursor":50,"Claude":50,"Anthropic":110,"ChatGPT":52,"Lenny":67,"护栏":2,"MCP":28}</script>
 
 <script>
 (function(){

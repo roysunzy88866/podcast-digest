@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tyler Folkman]] [[Daniel Blum]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]]
+[[Roman Ugarte]] [[Tyler Folkman]] [[Daniel Blum]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"OpenAI":96,"Codex":40,"Work":1,"ChatGPT":52,"智能体":1,"知识工作":2,"Sites":1,"Stripe":28,"写作即思考":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"OpenAI":98,"Codex":41,"Work":1,"ChatGPT":52,"智能体":1,"知识工作":2,"Sites":1,"Stripe":28,"写作即思考":1}</script>
 
 <script>
 (function(){

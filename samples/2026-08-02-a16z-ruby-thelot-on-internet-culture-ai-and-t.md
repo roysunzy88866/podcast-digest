@@ -134,7 +134,7 @@ Ruby 坦言,现在每个人都要同时应付线下和多套截然不同的线�
 
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同概念:品味 (taste)、智能体 (agent)</span>
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同概念:品味 (taste)、智能体 (agent)</span>
-- [[2025-07-31-lennys-he-saved-openai-bret-taylor|Bret Taylor：智能体是新应用，软件要按结果定价]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」]]<span class="pd-rz">同概念:智能体 (agent)、机器人 (bot)</span>
 
 </div>
 <div class="pd-ex">

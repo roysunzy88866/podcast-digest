@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]]
+[[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Instagram":4,"TikTok":2,"Anthropic":108,"Facebook":11,"open ai":2,"Twitter":5,"Reels":2,"Stories":2,"pods":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Instagram":4,"TikTok":2,"Anthropic":110,"Facebook":11,"open ai":2,"Twitter":5,"Reels":2,"Stories":2,"pods":1}</script>
 
 <script>
 (function(){

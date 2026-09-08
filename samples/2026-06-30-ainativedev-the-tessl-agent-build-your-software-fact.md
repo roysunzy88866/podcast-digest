@@ -128,7 +128,7 @@ Simon 和 Andrew 最后聊了一个产品层面的观察：智能体时代，"�
 
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同嘉宾:Simon Maple · 同公司:TESL · 同概念:循环工程 (loop engineering)、智能体 (agent)、评估 (evals)</span>
 - [[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|Addy Osmani：从造浏览器到对抗认知投降]]<span class="pd-rz">同概念:循环工程 (loop engineering)、智能体 (agent)、软件工厂 (software factory)</span>
-- [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同概念:技能 (skill)、智能体 (agent)</span>
+- [[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:智能体 (agent)、软件工厂 (software factory)</span>
 
 </div>
 </div>

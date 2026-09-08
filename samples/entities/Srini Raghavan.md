@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]] [[Michael Giannangelli]]
+[[Roman Ugarte]] [[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":3,"Freshworks":1,"Cursor":49,"Figma":14,"Databricks":10,"Atlassian":5,"智能体":1,"MCP":28,"PRD Genie":1,"AI PDLC":1}</script>
+<script type="application/json" class="pd-epn">{"Aakash":3,"Freshworks":1,"Cursor":50,"Figma":14,"Databricks":10,"Atlassian":5,"智能体":1,"MCP":28,"PRD Genie":1,"AI PDLC":1}</script>
 
 <script>
 (function(){

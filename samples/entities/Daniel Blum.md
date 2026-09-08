@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
+[[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":3,"Co-work":3,"Claude Code":48,"Codex":40,"ChatGPT":52,"Notion":12,"Slack":23,"Whisper":2,"Cursor":49,"Optimizely":2}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":3,"Co-work":3,"Claude Code":48,"Codex":41,"ChatGPT":52,"Notion":12,"Slack":23,"Whisper":2,"Cursor":50,"Optimizely":2}</script>
 
 <script>
 (function(){

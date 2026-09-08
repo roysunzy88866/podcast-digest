@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]] [[Drew]]
+[[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Tyler Folkman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":7,"暗工厂":2,"TESL":4,"智能体":1,"验证器":1,"编排器":2,"沙箱":36,"软件工厂":4,"形式化验证":2}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":8,"暗工厂":2,"TESL":4,"智能体":1,"验证器":1,"编排器":2,"沙箱":36,"软件工厂":5,"形式化验证":2}</script>
 
 <script>
 (function(){

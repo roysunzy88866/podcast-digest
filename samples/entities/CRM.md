@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Vercel]] · [[Salesforce]] · [[go-to-market]] · [[Lenny]] · [[Sam Blond]] · [[Elaina O'Mahoney]] · [[Jason Lemkin]] · [[Monaco]] · [[Mural]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Vercel":13,"Salesforce":16,"go-to-market":7,"Lenny":67,"Sam Blond":1,"Elaina O'Mahoney":1,"Jason Lemkin":2,"Monaco":1,"Mural":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Vercel":13,"Salesforce":17,"go-to-market":7,"Lenny":67,"Sam Blond":1,"Elaina O'Mahoney":1,"Jason Lemkin":2,"Monaco":1,"Mural":1}</script>
 
 <script>
 (function(){

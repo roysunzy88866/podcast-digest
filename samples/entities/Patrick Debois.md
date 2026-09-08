@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]]
+[[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":7,"暗工厂":2,"智能体":1,"vibe coding":29,"harness":21,"循环工程":4,"上下文":13,"评估":21,"护栏":2}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":8,"暗工厂":2,"智能体":1,"vibe coding":29,"harness":21,"循环工程":4,"上下文":14,"评估":21,"护栏":2}</script>
 
 <script>
 (function(){

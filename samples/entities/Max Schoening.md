@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]] [[Elliot]]
+[[Roman Ugarte]] [[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Notion":12,"GitHub":21,"Heroku":1,"Anthropic":108,"OpenAI":96,"Figma":14,"主观能动性":17,"可塑软件":1,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Notion":12,"GitHub":21,"Heroku":1,"Anthropic":110,"OpenAI":98,"Figma":14,"主观能动性":17,"可塑软件":1,"智能体":1}</script>
 
 <script>
 (function(){

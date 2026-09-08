@@ -1,0 +1,172 @@
+{
+  "title_zh": "Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」",
+  "tldr": "Grok Bot 产品负责人 Roman Ugarte 讲述这个爆款 AI 产品的从零孵化过程：云原生、每个 bot 一台电脑、 ruthless 做减法，以及两次决定成败的早期抉择。",
+  "digest_md": "一个上线才三周的产品，聚会现场几百人站席全满，被称为「当下世界上最火的 AI 产品」——这就是 Grok Bot。聊它的人叫 Roman Ugarte，他是 Cursor 的第 15 号员工，做过两年增长，最近帮助孵化了 Grok Bot，现在负责它的产品工作。他有两条早期决定，当时没人觉得显而易见，事后看却是这款产品成功的全部关键。\n\n## 从零开始，一个月做出内测版\n\nGrok Bot 不是 Cursor 里加出来的功能，而是一次完全从零的构建。Roman 说，团队长期觉得不该只做开发者的产品，于是内部组建了一个极小的团队，「钻进山洞」约一个月，唯一目标是做一个把智能体带给全公司的知识工作产品。从第一行代码到内部原型，只用了大约一个月。\n\n回头看，Roman 认为小团队、与公司完全隔绝是速度的关键——字面意义上的独立办公区、私有 Slack 频道。因为每天要做大量微观决策，如果是一大群人围着六到十二个月的长期愿景讨论，根本到不了最终的落点。\n\n为什么不直接做进 Cursor？这个决定当时争议很大。原因是编程产品对非技术用户有品牌联想、令人望而生畏，而且竞品那种「一个界面塞多个标签页」的做法，用户能感觉到这不是关于工作该怎么运作的单一愿景，而是「三个不同愿景共享一块屏幕」——有点像把组织架构图直接发布给用户，大家的反应是负面的。控制体验的每一个像素、保持一个一致愿景，对成功贡献很大。\n\n内测上线后的推广动作也很「土」但有效：开了一场全员大会，然后核心团队在约两周内**手动引导了两三百个用户**，每次 20 分钟坐在电话旁。最初几次相当痛苦——电脑启动不了、用户极度困惑——但正因为核心团队在现场，第二天就修，绝不允许同样的问题发生第二次。\n\n## 「不诱导证人」：让用户自己发明用法\n\n手动引导的另一个目的是发现真实用法。内部最早流行的是每人开五到十个 bot，各管一条工作线；到第二周末，Slack 里开始出现有人「提拔」表现最突出的 bot 为「幕僚长」，之后主要跟幕僚长对话，由它把任务分发给其他 bot、管理整个团队。还有好玩的截图：被提拔的 bot 问自己能不能加薪、token 预算会不会更高。\n\n团队注意到了这个模式，但在早期访问计划中刻意「不诱导证人」——不明说该建幕僚长 bot、该怎么管理其他 bot，而是看外部用户会不会自己走到那一步。很多人确实走到了，团队这才在产品里轻微鼓励这个模式，但保持它不是单向门。\n\n## 做减法：unship、「Grok Bot 可以」而不是「Grok Bot 有了」\n\n内部测试的三周里，最大的两件事都是减法和修可用性。一是大规模下线（unship）：他们曾把模型的内部思考、存储的记忆这类调试用的可见性工具塞进产品，发布前被极其激进地裁掉。团队现在的方向是「无情地简化，把用户不需要主动思考的一切抽象掉」。\n\n二是用一个非常实际的纪律来过滤工作：任何在做的东西，先问「它的上线推文是什么」——如果写不出一条能打动用户的推文，也许就不该做。他们还刻意把句式从「Grok Bot 有了（新按钮/新下拉菜单/新集成）」改成「**Grok Bot 可以（……）**」——用更贴近人的方式描述能力，逼着团队思考「能给 bot 哪些工具和能力」，而不是「能往产品里加什么」。\n\n一个典型例子是自动化设置。竞品的做法是进侧边栏、按加号、选触发事件、选动作，非常笨拙，结果人们根本不会设置多少自动化。Grok Bot 的做法是直接用自然语言：「请每天早上 8 点提醒我」，然后你永远不用看到创建自动化的界面。现在平台上 99% 的自动化都是这样构建的。\n\n## 两个关键决定：全在云端 + 每个 bot 一台自己的电脑\n\n被问「Codex 和 Cowork 技术上也能做这些，你们到底做对了什么」，Roman 给出两个早期决定。\n\n第一，**永远不让用户思考本地和云**：工作流在哪跑？电脑必须开着吗？从手机启动还要连着家里的电脑吗？Grok Bot 很早就决定一切都在云端——bot 是一个拥有自己电脑的持久同事，在任何交互入口状态一致，可以发消息、从手机启动，将来可以从任何地方打电话叫它干活。\n\n第二，更进一步：**这些 bot 要有自己的电脑**。一是很多工具没有支持良好的 MCP（让 AI 接入外部工具的标准协议）或 API，销售团队用的很多工具就是如此，而人类工作本来也不是通过 API 完成的——我们点像素、往输入框打字，bot 也得有这些基线能力。二是他觉得现在是个将来回头看会觉得奇怪的的时刻：「你给超级智能的新同事做入职培训，却让它和你共用一台电脑、共用凭证、不断互相绊倒——这太疯狂了。」\n\n「有自己的电脑」带来的反馈循环非常具体：销售团队会报上来 10 到 20 个「鼠标点不到 Salesforce 仪表盘那个位置」的具体案例，基础设施一修复，第二天就收到销售团队如潮水般的感谢——过去七天一直失败的工作流终于能用了。这比看仪表盘上数字缓慢爬升实在得多。\n\n另外一点反直觉的立场：**不给用户看内部机制**。不展示工具调用、每一次点击、长长的思维链文本流。理由是队友式的类比——你不会要求人类队友逐秒汇报按了哪个按钮。有用户反馈想看 bot 的待办清单，这个会考虑；但没有任何人想要文本流，这反而验证了方向。\n\n## 从 OpenClaw 吸收什么、再补上什么\n\nRoman 坦承 Grok Bot 从 OpenClaw 那类产品吸收了很多。OpenClaw 做对两件事：一是证明即使按当前模型能力，只要给 bot 访问你工作所用工具的权限，它就能走完大部分路——很多人觉得 AI 笨，其实是「被错误的用法拖累」；二是把 AI 更看作同事、队友，一个能访问你生活、延伸你的实体。\n\nGrok Bot 补上的是规模化：家里架 VPN 加一台 Mac mini 的 hacky 方案无法扩展到数百万用户，更不会是企业采用的方式。同时把粗糙边缘磨平，移除高级用户才懂的抽象——怎么让用户甚至不需要知道什么是 skill、永远不用输入斜杠命令。\n\n## 北极星：每个决策都问「人类队友会怎么做」\n\n产品的北极星是：少从 SaaS 产品的角度思考，多从「打造有用的 AI 队友」思考。当一场产品辩论两边都有道理时，跳出来问「一个人会怎么做这件事？这个情境下你希望队友怎么做？」——答案往往清晰且全屋一致。比如语音体验：人类协作里，「Slack 来回沟通到一定时候，直接开个五分钟临时会议、共享屏幕、挂断后继续异步」是核心模式，而目前没有任何 AI 产品做对了这件事。\n\n关于工作与个人会不会分成两个助手，Roman 的判断是：用户确实需要分离、企业也有常识性理由，但这两件事「实际上不是不同的问题集合」，产品形态几乎相同——他的直觉是一个产品就能同时承载，这也是他们想建的东西。\n\n## 增长打法和 Cursor 的生存之道\n\nGo-to-market 上他们复用编程领域的模式：早期采用者先在个人场景（晚上周末的副业项目）感受到「体验未来」的顿悟时刻，回到工作就无法忍受旧方式、反向要求公司采用。现在 X 上已经有 Grok Bot 控制扫地机器人、帮 Tesla 充电桩谈判省钱的例子，下一步就是推动它进入真实的企业系统——bot 在复杂组织里怎么工作、组织级记忆长什么样，还是未解之题。\n\n至于 Cursor 为什么能在 OpenAI、Anthropic 夹击下持续赢，Roman 的答案是文化：从不自满、从不觉得已经赢了；「如果我们不能每六个月彻底重塑自己——最近感觉比那还短——我们就会输。」当年一起做 AI 编程的十几二十家竞争对手，如今没有一个还在前沿，不是决策错了或资源不够，而是「文化上无法快速行动、无法在当下变化时跟上当下」。两条反复被讲到的价值观：一是「删除产品」——为补模型能力不足而搭的脚手架式功能，会随时间被移除，要敢于做让小部分用户不满的艰难决定；二是「直接去做」——不是请求许可的文化，看到该做的事就去做、自己去拉资源。\n\n对护城河的讨论，他的回答很反主流：如果 Cursor 当年从战略图表倒推护城河，不会有今天。真正的魔力是「痴迷于今天就造出有用的东西」——看到三个月后模型能解决的事，就想办法用工程把它拉到今天实现，三个月后再把这些全删掉，再为下一个三个月构建。护城河（分发、数据）是这个过程的副产品。\n\n## 怎么上手：给上下文，然后问它\n\n给新手的建议刻意避开 hacky 技巧（他们的理念是那些东西不该存在）：第一，像给新同事做入职一样，把 Slack、邮箱、公司记录等工具的访问权给它；然后**问 Grok Bot 它能为你做什么**。Roman 自己的第一个任务就是「过一遍我的 Slack 和邮箱，建议五件你能接走的事」，它建议的五件里有两件真有价值——不是「起草一封邮件」，而是「完成一大块工作」——他立刻派生了两个 bot 去做。这是他最大的震撼时刻。\n\n进阶玩法：让 bot 之间协作。他给自己建了一个 QA 测试员 bot，里面装着 Grok Bot，测试桌面版新构建时让它跑十个关键工作流、写入一份记录所有历史测试结果的文档并对比。还有把 Grok Bot 当「信息吞噬者」：挂在 Slack 和邮件上，被告知你的角色和关注点，重要的事直接通知、其余进每日汇总；他自己更进一步，接上了 X 上所有提及 Grok Bot 的内容、内部上下文、QA 测试器和消息服务，形成永远在线的幕僚长。已有用户给 bot 授权「紧急时呼叫我」——前提是你足够信任它没有误报。他认为 AI 的下一个转变就是 bot 比你更主动。\n\n## 本集带走\n\n- **两个决定成就 Grok Bot**：一切运行在云端（不用想本地/云、设备是否开机），且每个 bot 拥有自己的电脑（能像人一样点像素、填表单，而不只靠 API）。\n- **手动引导两三百个早期用户**：核心团队亲自坐镇每一次 20 分钟引导，痛苦的问题第二天必须修；同时「不诱导证人」，让用户自己发明出幕僚长管理模式后再在产品里鼓励。\n- **用减法做产品**：每项工作先问「上线推文是什么」；说「Grok Bot 可以」而不是「Grok Bot 有了」；自动化这类能力直接用自然语言定义，99% 的用户永远不需要见到配置界面。\n- **招聘自动化别从筛简历开始**：把「候选人的完整宇宙」匹配到具体业务问题——比如每天自动盯会议官网、下载新论文 PDF、找出未追踪的作者、查内部人脉、请求引荐。\n- **六个月彻底重塑一次自己**：Cursor 的生存之道是不自满、敢删除脚手架式旧功能；护城河是「把三个月后的未来拉到今天」的副产品，不是规划出来的。\n- **新手第一招**：接好邮箱和 Slack 等工具后，直接问 Grok Bot「你能替我接走哪五件事」——它会给出整块工作的答案，而不只是一封邮件草稿。",
+  "quotes": [
+    {
+      "en": "What made me so excited to work on Grok Bot is it was the first time for non-coding tasks that I felt like I could truly delegate work to AI, not have to think about it, and I would come back and it's done.",
+      "zh": "让我对开发 Grok Bot 感到如此兴奋的是，这是我第一次在非编码任务上感觉自己可以真正把工作委托给 AI，不用再去想它，回来的时候事情已经完成了。",
+      "timestamp": "01:00",
+      "speaker": "Roman Ugarte"
+    },
+    {
+      "en": "Once you start breaking out of, this is AI chat with a set of connections instead to, this is a colleague with a computer, it just raises the ceiling of what you would think to give to AI.",
+      "zh": "一旦你开始突破「这是带有一组连接的 AI 聊天」的框架，转向「这是一个有电脑的同事」，它就直接抬高了你会想到交给 AI 的事情的上限。",
+      "timestamp": "00:43",
+      "speaker": "Roman Ugarte"
+    },
+    {
+      "en": "I think we're in a really weird moment right now that I think we're going to look back on and be like, I'm surprised that this is the way that a lot of people worked with AI, where you're onboarding these super intelligent new colleagues, these AI bots, and you're asking them to share the same computer that you have.",
+      "zh": "我认为我们现在正处于一个非常奇怪的时刻，将来回头看我们会说：我很惊讶很多人就是这样与 AI 一起工作的——你在给这些超级智能的新同事、这些 AI 机器人做入职培训，却让它们和你共用同一台电脑。",
+      "timestamp": "32:21",
+      "speaker": "Roman Ugarte"
+    },
+    {
+      "en": "And if you have a lot of sunk cost in that existing paradigm, it's very painful to create a new thing from scratch.",
+      "zh": "而如果你在现有范式中投入了大量沉没成本，从零开始创造一个新东西是非常痛苦的。",
+      "timestamp": "35:05",
+      "speaker": "Roman Ugarte"
+    },
+    {
+      "en": "In a lot of the places where people think AI is dumb or maybe not as impactful as it's been promised, a lot of that I think is downstream of it just being harnessed in the wrong way.",
+      "zh": "在很多人们认为 AI 很笨、或者可能没有承诺的那么有影响力的地方，我认为很多情况都是它只是被错误的使用方式所拖累的结果。",
+      "timestamp": "36:50",
+      "speaker": "Roman Ugarte"
+    },
+    {
+      "en": "But in some ways it's not a rocket science, doesn't require you being a genius. You just need to ask the question of what would you want from a human teammate and can we push AI to behave in a similar way?",
+      "zh": "但从某种意义上说，这并不是火箭科学，不需要你是个天才。你只需要问这个问题：你会希望从一个人类队友那里得到什么，我们能否推动 AI 以类似的方式表现？",
+      "timestamp": "41:21",
+      "speaker": "Roman Ugarte"
+    },
+    {
+      "en": "You're still doing the thing and it feels that way and it's weighing on you in the same way versus truly throwing a no look pass to a colleague and being like, \"You got this, here's the context, go off and run.\"",
+      "zh": "你仍然在做那件事，感觉也是那样，它同样压在你身上——而不是真正地给同事来一记不看人的传球，然后说：「你可以搞定，这是背景信息，放手去干吧。」",
+      "timestamp": "62:59",
+      "speaker": "Roman Ugarte"
+    },
+    {
+      "en": "And if we as a company can't completely reinvent ourselves every six months, which recently it's felt even shorter than that, of complete very significant reinventions of our priorities, the core product, what users feel, we're going to lose.",
+      "zh": "如果我们作为公司不能每六个月彻底重塑自己——最近感觉甚至比那更短——对我们优先事项、核心产品、用户感受进行非常重大的彻底重塑，我们就会输。",
+      "timestamp": "68:49",
+      "speaker": "Roman Ugarte"
+    },
+    {
+      "en": "And I think it's notable that none of those competitors are at the forefront of AI coding right now in large part, not because of any incorrect decisions that they made or any lack of resources on their part, but this cultural inability to move quickly and to change to meet the moment as the moment's changing.",
+      "zh": "而且我认为值得注意的是，这些竞争对手没有一个现在站在 AI 编程的前沿，这在很大程度上不是因为它们做出了任何错误的决定或缺乏资源，而是因为在文化上无法快速行动、无法在当下变化时改变以跟上当下。",
+      "timestamp": "69:38",
+      "speaker": "Roman Ugarte"
+    },
+    {
+      "en": "I think what really created the magic of Cursor was an obsession with building a useful thing today.",
+      "zh": "我认为真正造就 Cursor 之魔力的，是对今天就构建一个有用的东西的痴迷。",
+      "timestamp": "73:14",
+      "speaker": "Roman Ugarte"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:00",
+      "speaker": "Roman Ugarte",
+      "en": "What made me so excited to work on Grok Bot is it was the first time for non-coding tasks that I felt like I could truly delegate work to AI, not have to think about it, and I would come back and it's done.",
+      "zh": "让我对开发 Grok Bot 感到如此兴奋的是，这是我第一次在非编码任务上感觉自己可以真正把工作委托给 AI，不用再去想它，回来的时候事情已经完成了。"
+    },
+    {
+      "timestamp": "00:43",
+      "speaker": "Roman Ugarte",
+      "en": "Once you start breaking out of, this is AI chat with a set of connections instead to, this is a colleague with a computer, it just raises the ceiling of what you would think to give to AI.",
+      "zh": "一旦你开始突破「这是带有一组连接的 AI 聊天」的框架，转向「这是一个有电脑的同事」，它就直接抬高了你会想到交给 AI 的事情的上限。"
+    },
+    {
+      "timestamp": "10:28",
+      "speaker": "Roman Ugarte",
+      "en": "And instead it's three different visions that all kind of share a screen and you can hop between, but it is kind of a shipping your org chart style thing that I think users are reacting negatively to.",
+      "zh": "相反，它是三个不同的愿景共享同一个屏幕，你可以在它们之间切换，但这有点像把你的组织架构图发布出去，我认为用户对此反应是负面的。"
+    },
+    {
+      "timestamp": "15:13",
+      "speaker": "Roman Ugarte",
+      "en": "I think it's too much to ask your bots to do that too. And I think it's honestly just overwhelming and can create more harm than good.",
+      "zh": "我认为要求你的智能体也这么做实在是太多了。而且说实话，我觉得那会让人不堪重负，弊大于利。"
+    },
+    {
+      "timestamp": "21:10",
+      "speaker": "Roman Ugarte",
+      "en": "It's like hill climbing five really important problems in the backend that many users don't directly experience, but you totally feel when your bot is going off and doing something and can't click the right button.",
+      "zh": "更像是攀登后端五个非常重要的问题，许多用户不会直接体验到它们，但当你的智能体出去做某件事却点不到正确的按钮时，你完全能感觉到。"
+    },
+    {
+      "timestamp": "32:20",
+      "speaker": "Roman Ugarte",
+      "en": "I think we're in a really weird moment right now that I think we're going to look back on and be like, I'm surprised that this is the way that a lot of people worked with AI, where you're onboarding these super intelligent new colleagues, these AI bots, and you're asking them to share the same computer that you have.",
+      "zh": "我认为我们现在正处于一个非常奇怪的时刻，将来回头看我们会说：我很惊讶很多人就是这样与 AI 一起工作的——你在给这些超级智能的新同事、这些 AI 机器人做入职培训，却让它们和你共用同一台电脑。"
+    },
+    {
+      "timestamp": "32:57",
+      "speaker": "Roman Ugarte",
+      "en": "There's a good reason why that's not the way people operate.",
+      "zh": "人们不这样运作是有充分理由的。"
+    },
+    {
+      "timestamp": "35:05",
+      "speaker": "Roman Ugarte",
+      "en": "And if you have a lot of sunk cost in that existing paradigm, it's very painful to create a new thing from scratch.",
+      "zh": "而如果你在现有范式中投入了大量沉没成本，从零开始创造一个新东西是非常痛苦的。"
+    },
+    {
+      "timestamp": "37:01",
+      "speaker": "Roman Ugarte",
+      "en": "In a lot of the places where people think AI is dumb or maybe not as impactful as it's been promised, a lot of that I think is downstream of it just being harnessed in the wrong way.",
+      "zh": "在很多人们认为 AI 很笨、或者可能没有承诺的那么有影响力的地方，我认为很多情况都是它只是被错误的使用方式所拖累的结果。"
+    },
+    {
+      "timestamp": "28:54",
+      "speaker": "Roman Ugarte",
+      "en": "So I think in the context of unshipping, there have been a lot of Grok Bot now has things that we've realized are actually just capabilities that don't need pixels. Let's kill as many pixels as we can.",
+      "zh": "所以在「下架」的语境下，有很多情况是：Grok Bot 现在有的这些东西，我们意识到其实只是不需要像素的能力。让我们尽可能多地砍掉像素。"
+    },
+    {
+      "timestamp": "40:00",
+      "speaker": "Roman Ugarte",
+      "en": "And so there have been a bunch of examples where we kind of have to push ourselves to be more like colleague pilled in a way.",
+      "zh": "所以有很多例子，我们不得不推着自己变得更像「同事脑」一点。"
+    },
+    {
+      "timestamp": "41:21",
+      "speaker": "Roman Ugarte",
+      "en": "But in some ways it's not a rocket science, doesn't require you being a genius. You just need to ask the question of what would you want from a human teammate and can we push AI to behave in a similar way?",
+      "zh": "但从某种意义上说，这并不是火箭科学，不需要你是个天才。你只需要问这个问题：你会希望从一个人类队友那里得到什么，我们能否推动 AI 以类似的方式表现？"
+    },
+    {
+      "timestamp": "62:59",
+      "speaker": "Roman Ugarte",
+      "en": "You're still doing the thing and it feels that way and it's weighing on you in the same way versus truly throwing a no look pass to a colleague and being like, \"You got this, here's the context, go off and run.\"",
+      "zh": "你仍然在做那件事，感觉也是那样，它同样压在你身上——而不是真正地给同事来一记不看人的传球，然后说：「你可以搞定，这是背景信息，放手去干吧。」"
+    },
+    {
+      "timestamp": "69:06",
+      "speaker": "Roman Ugarte",
+      "en": "And if we as a company can't completely reinvent ourselves every six months, which recently it's felt even shorter than that, of complete very significant reinventions of our priorities, the core product, what users feel, we're going to lose.",
+      "zh": "如果我们作为公司不能每六个月彻底重塑自己——最近感觉甚至比那更短——对我们优先事项、核心产品、用户感受进行非常重大的彻底重塑，我们就会输。"
+    },
+    {
+      "timestamp": "69:38",
+      "speaker": "Roman Ugarte",
+      "en": "And I think it's notable that none of those competitors are at the forefront of AI coding right now in large part, not because of any incorrect decisions that they made or any lack of resources on their part, but this cultural inability to move quickly and to change to meet the moment as the moment's changing.",
+      "zh": "而且我认为值得注意的是，这些竞争对手没有一个现在站在 AI 编程的前沿，这在很大程度上不是因为它们做出了任何错误的决定或缺乏资源，而是因为在文化上无法快速行动、无法在当下变化时改变以跟上当下。"
+    },
+    {
+      "timestamp": "73:14",
+      "speaker": "Roman Ugarte",
+      "en": "I think what really created the magic of Cursor was an obsession with building a useful thing today.",
+      "zh": "我认为真正造就 Cursor 之魔力的，是对今天就构建一个有用的东西的痴迷。"
+    },
+    {
+      "timestamp": "74:38",
+      "speaker": "Roman Ugarte",
+      "en": "And then through all of that, I'm going to gain a lot of distribution advantages. I'm going to gain data advantages. There will be value there, but I think that's really the place to play.",
+      "zh": "然后通过所有这些，我会获得很大的分发优势。我会获得数据优势。那里会有价值，但我认为那才是真正该发力的地方。"
+    }
+  ],
+  "voice_script": "今天要讲的这个产品，上线才三个星期，聚会的现场几百人站席全满，被叫做当下世界上最火的 AI 产品，它叫 Grok Bot。聊它的人叫 Roman Ugarte，是 Cursor 的第 15 号员工，做过两年增长，最近牵头孵化了 Grok Bot，现在负责产品。这一集聊的就是一件事：这么一个爆款，是怎么从零开始、在几个星期里被做出来的。这事为什么值得听？因为里面有好几个关键决定，当时做的时候谁都不觉得理所当然，事后回头看，恰恰是成功的全部关键。\n\n先把背景垫一下。Grok Bot 不是从 Cursor 里长出来的功能，而是一次彻底从零的构建。团队一直觉得不该只做开发者的产品，于是内部拉了一个极小的团队，钻进山洞一样隔绝起来，目标是做一个把智能体带给全公司的知识工作产品。从第一行代码到内部原型，只用了大概一个月。\n\n为什么小团队、跟公司隔绝反而是速度的关键？Roman 的解释很实在：这种产品每天要做大量微小的决策，如果是一大群人围着六到十二个月的长期愿景反复讨论，根本走不到最终的落点。那为什么不做进 Cursor？这个决定当时争议很大。原因有两个：一是编程产品对非技术用户有品牌联想，让人望而生畏；二是竞品那种一个界面塞多个标签页的做法，用户能感觉到这不是关于工作该怎么运作的单一愿景，而是三个不同愿景共享一块屏幕——有点像把组织架构图直接发布给用户，反应自然是负面的。控制每一个像素、保持一个愿景，这一点对成功贡献很大。\n\n内测上线之后的推广动作很土但有效：开一场全员大会，然后核心团队在两周内手动引导了两三百个用户，每次二十分钟坐在电话旁边。最初几次相当痛苦，电脑启动不了，用户极度困惑。但也正因为团队自己坐镇现场，问题第二天就修，绝不允许同样的问题发生第二次。\n\n而这个手动引导，还带来一个意外发现。内部最早流行每人开五到十个 bot，各管一条工作线。到第二周末，Slack 里开始出现有人把表现最突出的 bot 提拔为幕僚长，之后主要跟幕僚长对话，由它分发任务、管理整个 bot 团队。甚至有截图流传：被提拔的 bot 问自己能不能加薪。团队注意到了这个模式，但对外部用户刻意不诱导——不明说该建幕僚长，就看用户会不会自己走到那一步。很多人确实走到了，这才在产品里轻微鼓励这个模式。\n\n接下来就是这一集最有意思的部分：做减法。内部测试的三周里，最大的两件事都不是加功能，而是砍。一个叫大规模下线：他们曾经把模型的内部思考、存储的记忆这些调试工具塞进产品，发布前被极其激进地裁掉。另一个是每做一件事先问一句：它的上线推文是什么？如果写不出一条能打动用户的推文，也许就不该做。还有个细节特别妙：他们刻意把句式从「Grok Bot 有了新按钮」，改成「Grok Bot 可以做什么」——一字之差，逼着团队思考能给 bot 哪些能力，而不是能往产品里塞什么东西。\n\n那被问到 Codex 这类产品技术上也能做这些，你们到底做对了什么？Roman 给出两个早期决定。第一，一切都在云端。工作流在哪跑、电脑要不要开着、从手机启动要不要连着家里那台机器——这些问题用户永远不用想。bot 是一个拥有自己电脑的持久同事，任何入口进去状态都一致。第二，更进一步，这些 bot 真的要有一台自己的电脑。为什么？一来很多工具没有良好的接口协议，销售团队用的软件就是这样；二来人类工作本来也不是通过接口完成的，我们点像素、往输入框里打字，bot 也得有这些基线能力。打个比方：你给超级智能的新同事做入职培训，却让它和你共用一台电脑、共用凭证、不断互相绊倒——太疯狂了。这个决定的回报非常具体：销售团队报上来十几个鼠标点不到仪表盘某个位置的具体案例，基础设施一修，第二天就收到如潮水般的感谢。\n\n还有一个反直觉的立场：不给用户看内部机制。不展示工具调用、不展示长长的思维链。理由是队友式的类比——你不会要求人类队友逐秒汇报按了哪个按钮。当然这也是一条更大的文化使然。说到 Cursor 为什么能在巨头夹击下持续赢，Roman 的答案是：从不自满，如果我们不能每六个月彻底重塑自己，我们就会输。当年一起做 AI 编程的十几二十家对手，如今没有一个还在前沿，不是决策错了，而是文化上无法快速行动。真正的护城河，是痴迷于把三个月后模型能做到的事，用工程拉到今天实现，然后再把这些脚手架全删掉，去构建下一个三个月。护城河只是这个过程的副产品。\n\n最后给普通用户一个上手建议，特别简单：把邮箱、Slack 这些工具的访问权交给 Grok Bot，然后直接问它——你能替我接走哪五件事？Roman 自己就是这么干的，它建议的五件事里有两件真有价值，而且不是起草一封邮件，是完成一大块工作。一旦你从「这是带有一组连接的 AI 聊天」跳出框架，转向「这是一个有电脑的同事」，你能想到交给 AI 的事情，上限就完全不一样了。"
+}

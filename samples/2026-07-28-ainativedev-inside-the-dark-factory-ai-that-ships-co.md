@@ -169,8 +169,8 @@ jsonLd: |
 **换个口味**
 
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同嘉宾:Guy Pajani、Simon Maple · 同公司:Dark Factory、TESL · 同概念:智能体 (agent)</span>
+- [[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论]]<span class="pd-rz">同嘉宾:Simon Maple · 同概念:智能体 (agent)、软件工厂 (software factory)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|AI失控了别慌,先盯紧漏洞数量爆炸]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>

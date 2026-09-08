@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]] [[Gabriel Vasquez]]
+[[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]] [[Malika Rao]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":108,"Amazon":11,"AWS":10,"Cloudera":1,"Databricks":10,"Palantir":12,"Microsoft":24,"Lovable":14,"前向部署工程师":7,"前置部署工程":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":110,"Amazon":11,"AWS":10,"Cloudera":1,"Databricks":10,"Palantir":12,"Microsoft":24,"Lovable":14,"前向部署工程师":7,"前置部署工程":3}</script>
 
 <script>
 (function(){

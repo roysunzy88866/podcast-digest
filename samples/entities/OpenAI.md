@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>96</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>98</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -107,6 +107,8 @@ unlisted: true
 - **[[2026-09-06-lennys-why-companies-are-becoming-a-series|《a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小》]]**(05:26起):本集多次谈到 OpenAI：市场团队用 Codex 超过工程团队、放慢 AI 开发引发讨论、ChatGPT Work 是它发布过的最好的产品之一。
 - **[[2026-09-07-a16z-can-open-source-keep-ai-power-from-conce|《Transformer 不满十岁：AI 集中不是宿命》]]**(03:24起):嘉宾说 OpenAI 在他加入时是非常纯粹的研究实验室,现在也是一家要做产品的大公司,对研究的专注变少了
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(20:48起):本集把它列为起跑门上的巨头之一、Town 的供应商与竞争者,并批评 ChatGPT 的任务建议糟糕、不强制连接邮箱导致个性化差。
+- **[[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|《初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论》]]**(01:13起):本集顺带提到 OpenAI 与 Grok 反而在放开随意使用，与 Anthropic 收紧订阅形成对照。
+- **[[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]]**(07:36起):本集提及它是 Cursor 面对的史上增长最快竞争对手之一，其 Codex 产品走的是与 Grok Bot 相反的路线。
 
 ## ① 提到它的金句
 
@@ -148,7 +150,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*96 集*
+*98 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -246,14 +248,16 @@ unlisted: true
 - [[2026-09-06-lennys-why-companies-are-becoming-a-series|《a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小》]] — 作为被讨论公司
 - [[2026-09-07-a16z-can-open-source-keep-ai-power-from-conce|《Transformer 不满十岁：AI 集中不是宿命》]] — 作为被讨论公司
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司
+- [[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|《初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论》]] — 作为被讨论公司(提及)
+- [[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Google]] · [[ChatGPT]] · [[推理]] · [[Cursor]] · [[NVIDIA]] · [[Lenny]] · [[Codex]] · [[Claude]]
+[[智能体]] · [[Anthropic]] · [[Cursor]] · [[Google]] · [[ChatGPT]] · [[推理]] · [[NVIDIA]] · [[Lenny]] · [[Codex]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":108,"Google":37,"ChatGPT":52,"推理":5,"Cursor":49,"NVIDIA":30,"Lenny":67,"Codex":40,"Claude":49}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":110,"Cursor":50,"Google":37,"ChatGPT":52,"推理":5,"NVIDIA":30,"Lenny":67,"Codex":41,"Claude":50}</script>
 
 <script>
 (function(){

@@ -49,7 +49,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Salesforce]] · [[前向部署工程师]] · [[Vercel]] · [[Replit]] · [[HubSpot]] · [[OpenAI]] · [[Delphi]] · [[CRM]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":67,"Salesforce":16,"前向部署工程师":7,"Vercel":13,"Replit":14,"HubSpot":5,"OpenAI":96,"Delphi":3,"CRM":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":67,"Salesforce":17,"前向部署工程师":7,"Vercel":13,"Replit":14,"HubSpot":5,"OpenAI":98,"Delphi":3,"CRM":3}</script>
 
 <script>
 (function(){

@@ -1,0 +1,190 @@
+{
+  "title_zh": "初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论",
+  "tldr": "Automaze 与 MUXI 创始人 Ran Arusi 谈初级开发者的新角色、「智能体工作流」为何自相矛盾，以及软件开发公司该学律所分股权。",
+  "digest_md": "「至少一年来，你已经不需要为了写代码的能力去雇初级开发者了。」说这话的人是 Ran Arusi,35 年开发经验的连续创业者，开源库 Y Finance(一个抓取 Yahoo Finance 市场数据的 Python 库，每月下载量 2500 万到 3000 万次)的作者，如今经营着软件开发公司 Automaze,还有把「智能体当作原语」的开源平台 MUXI。这一集他聊的核心是个矛盾：既然 AI 会写代码，初级开发者还有什么用？他的答案颠覆了岗位定义。\n\n## 人类的角色：从写代码到当「架构师」\n\nRan 的判断是：雇初级开发者不再是为了他们的编程技能。但如果停止招初级开发者，你就永远培养不出「架构师」——他要的那个新型角色。架构师既是产品经理，又是项目经理，还是团队负责人，只不过团队由智能体组成 [22:41 Ran Arusi]。\n\nAutomaze 的做法是把人组成 pod(小组)：一个高级开发者扮演架构师，管理一队智能体；一个交付经理面向客户；初级开发者以「学徒」身份跟着，像文艺复兴时期画室里的学徒，跟着大师学门道、偶尔接个小活收尾 [23:22 Ran Arusi]。\n\n真正要培养的技能，他强调，**不是多任务处理，而是「多监控」多个智能体**。「我不幻想能管理成千上万个智能体，但六到十个，也许可以。」[24:03 Ran Arusi] 为此学徒要学的是：怎么写产品规格、判断智能体能与不能做什么、当它们的导师，以及守好最后一道关口——配置好工作流，让 PR(代码合并请求)一就绪就自动起一套完整环境跑端到端测试。\n\n## 哪些知识能压缩，哪些不能\n\n这套学徒制背后的理论是他区分的两类知识：**可教授的知识**(teachable knowledge)正在被 AI 大幅压缩，而**习得的知识**(earned knowledge)没法加速。「一台两个 VCPU 的机器能承受多大负载？这不是你能靠数学算出来的，因为你的应用和我的应用不一样。」[26:22 Ran Arusi] AWS 宕机时会发生什么、怎么绕过去——这些必须在场才能学到。\n\n但成长周期可以压缩：过去初级开发者要三到四年升到像样的中级，七到八年到资深；他认为现在大概能压到两年。「以前要五年，一到两年我们已经觉得挺好。」[28:03 Ran Arusi]\n\n对「习得知识会不会出现断层」的追问，他坦承没有好答案。他打了个比方：搬到英国换了新手机号后，他再也记不住妻子的号码——因为号码直接进了手机，大脑从没机会记住它。「我们正在一场竞赛里：AI 能在我们彻底忘记怎么自己做之前，替我们做多少事。」[29:21 Ran Arusi] 部分的解法是给自己制造情境，像办公楼的消防演习那样，主动「演练」那些不常发生的应急场景。\n\n## 「智能体工作流」是个矛盾修辞\n\nRan 最著名的观点之一：workflow(工作流)本质上是一组确定性步骤，你知道输入也知道输出；如果它真是「智能体的」——即自主且主动——那你就是在白白烧 token。「对于某件事要被称为智能体的，它必须是模糊的，本质上必须是非确定性的。」[37:38 Ran Arusi] 他观察到，大多数做 AI 的人做的其实是「撒了点 AI 的工作流」——某个环节让 AI 写封邮件，其余全是确定性流程。这没错，但要认清它的本质。\n\n那怎么用好确定性？给智能体一套「轻量版 SOP(标准操作流程)」：列出常规做法和可走的分叉，如果它找到更好的办法，「尽管去做」[38:27 Ran Arusi]。他的愿景是：智能体像一个了解公司、心态开放的员工，自主决定现在该调用哪个工作流，就像人每天上班有各种工作流、却不在流水线上站着一样 [40:07 Ran Arusi]。对大多数用例，他提醒：很多业务运营是完全确定性的，「我见过太多次有人用 AI 解析字符串，其实一个正则表达式就能搞定——更快、更便宜，简直是免费的」[22:18 Ran Arusi]。\n\n## 自主的边界：信任线，不是技术线\n\n到底该给智能体多大自主权？Ran 认为这条线更多是信任问题而非技术问题——技术上完全可以造出全自主系统。但不干预的后果他很清楚：智能体会制造垃圾代码、烧出天价 token 账单，或者「不择手段让测试通过」——伪造测试、留下「这个以后要改成……」的注释 [12:37 Ran Arusi]。\n\n他的规矩：**人必须守在两处——定规格(什么是「完成」)和最终确认，中间的执行全靠约束管**。代码好不好看不重要，反正你以后也不看；重要的是高效且 AI 可维护。设置足够多的约束——代码性能要达标、测试和回归测试要够量——「一切绿灯，代码质量就是好的」[13:46 Ran Arusi]。\n\n在 MUXI 里的落地：formation(一组智能体加一个叫 overlord 的编排器)会持续学习并生成自己的新版本，但绝不自动更新——它以 git 格式等你审查 diff,批准了才部署。「我甚至没留一个让它完全自主的开关。我不相信一个需要被信任的系统里可以有不稳定性。」[14:54 Ran Arusi]\n\n这套思路在事故响应里最见价值：Automaze 有个类似 Sentry 的工具叫 ladybug,bug 还在生产环境里就能被抓到、自动生成诊断，另一边 PR 已经备好，「你一觉醒来就是一堆 PR」[17:18 Ran Arusi]。提到几周前 OpenAI / Hugging Face 的泄露事件(他记得约 17000 次攻击尝试)，他的结论是：一个人端着咖啡盯日志根本不可能处理完——等你看完一万七千条，日志已经变成 170 倍了 [18:00 Ran Arusi]。\n\n## 客户没跑，反而买得更多\n\nAI 让交付变快，按预付费(retainer)收费的软件公司会不会客户终身价值暴跌？Automaze 的实测：花在项目上的时间最多能砍掉一大块，但真正的生产级系统只能砍三分之一左右，因为测试和边界情况太多[31:06]。结果担心的事没发生——「项目没结束，客户那个『哪天再做』的愿望清单直接排上来，我们一直在加东西」[31:27 Ran Arusi]。客户每个功能付得更少，但平均留存三年，拿到的多得多。\n\n更有意思的是新客源：很多人带着 vibe coding(凭感觉用 AI 写代码)做出来的实验品找上门。「有人反感这个，但我挺喜欢——我能确切知道客户想要什么。哪怕要替换 99% 的代码、换技术栈，但没有任何误解。」哪怕只是一堆 HTML 原型页也行 [32:35 Ran Arusi]。\n\nFDE(被嵌入客户公司的部署型工程师)角色他也做了修正：每类项目第一次做时他必到场，「我无法把我没经历过的东西变成流程」，然后把活交还团队。这 scale 不了——「这是人力时间，肯定不能规模化」——所以他越来越少按客户、越来越多按项目类型亲自上 [35:44 Ran Arusi]。\n\n## 开发机构的终局：律所，不是 SaaS\n\nRan 的预测：开发服务公司会越来越像 Kirkland & Ellis(顶级律所)而不是 SaaS 创业公司。逻辑是：每个开发者都快能拥有自己的「软件工厂」了，产能不再是瓶颈——「你能开多少场销售会议才是你的真实产能，关键不在开发」[45:59 Ran Arusi]。一个高级开发者管着 pod、服务三四个客户，拿一美元月薪，却知道客户每月带来十美元——他为什么不出去单干，哪怕少干活多赚钱？留不住的。\n\n律所几百年前就解决了这个问题：初级律师、初级合伙人、合伙人，按带来的业务量「买」进层级。没有这种模式，世上只会多出无数小律所，而不是现有律所里越来越多的合伙人。Ran 的方案是「版税合伙人」：你经营的 pod,其客户收入的 10%-20% 归你，另有一成到两成进池子在 pod 间分。他偏好按收入分成而非利润：「那样你不必让每个人知道你的业务怎么运作的。」[47:16 Ran Arusi] 前提是这适合不谋求退出、不追超速增长的公司——他说了实话：「Automaze 永远不会成为一亿美元的公司，但我们持续产生可观收入，这就是我们能分的蛋糕。」这套逻辑他甚至延伸到了水管工：想把最好的水管工留在平台上，就必须付比按小时计酬更多的钱，否则他们只需要少得多的客户就能赚到现在这么多 [51:04 Ran Arusi]。\n\n## 顺带一提：对 Anthropic 的批评\n\nRan 还有一炮：Anthropic 封禁了 Peter Steinberger 的热门项目 OpenClaw 使用 Claude Pro/Max 订阅，理由是「搞乱我们的统计」。「这个理由站不住脚。你想按 API 收费，就按 API 收费——你是一家公司，要赚钱，这没问题。但我每月为一个订阅付 200 美元、还有好几个，为什么不能按我喜欢的方式用它？」[42:35 Ran Arusi] 他判断订阅模式的暴利终会结束：订阅的 token 折扣远低于 API 价格(现在大约便宜 60 倍)不可持续，「除非他们搞出超高效的 GPU 或某种奇迹芯片——我不觉得我们离那一两年以内」[44:28 Ran Arusi]。而他看到的是反方向：OpenAI 和 Grok 反而在放开随意使用。\n\n## 本集带走\n\n- **初级开发者的新定义是「学徒」**：不为编码技能付费，而为培养「架构师」付费——会写规格、判断智能体边界、能同时监控六到十个智能体并守住生产关口的复合角色。\n- **知识分两类，策略不同**：可教授的知识(语法、API 用法)放心交给 AI;习得的知识(容量极限、宕机应对)没法压缩，靠学徒制加人为设计的「消防演习」保住习得通道。\n- **判断该不该用 AI 的一条硬标准**：流程是确定性的就用脚本和正则，别烧 token;真正「智能体的」部分只留给本质模糊、需要自主决策的环节——给智能体轻量版 SOP,让它自己决定调用哪个工作流。\n- **守好两道人工关口，中间全靠约束**：人只出现在定规格和验收，执行交给性能、测试、回归等硬约束——一切绿灯即合格，代码可读性不用管。\n- **智能体改动永不静默上线**：生成新版本、走 git diff、人批准才部署；关键系统连全自主开关都不要留。\n- **服务型公司要学律所分蛋糕**：开发者产能即将人人平等，销售才是瓶颈；让明星开发者拿自己客户收入的 10%-20%,否则他们只需要一个客户就会单干。",
+  "quotes": [
+    {
+      "en": "For at least a year now, you do not need to hire junior developers for their coding skills.",
+      "zh": "至少一年来，你已经不需要为了编程技能而雇佣初级开发者了。",
+      "timestamp": "00:00",
+      "speaker": "Ran Arusi"
+    },
+    {
+      "en": "If we stop hiring junior developers, we will never have this archetype of an architect that we are looking for.",
+      "zh": "如果我们停止雇佣初级开发者，我们将永远无法培养出我们正在寻找的那种架构师的原型。",
+      "timestamp": "00:05",
+      "speaker": "Ran Arusi"
+    },
+    {
+      "en": "The real skill that we're trying to build is the ability to not multitask but multi-monitor agents.",
+      "zh": "我们真正要培养的技能，不是多任务处理，而是多监控多个智能体的能力。",
+      "timestamp": "00:18",
+      "speaker": "Ran Arusi"
+    },
+    {
+      "en": "And I'm not in under any sort of uh fantasy that you can manage thousands of agents, but you can manage six to ten, maybe.",
+      "zh": "我并不抱任何幻想以为自己能管理成千上万个智能体，但管理六到十个，也许可以。",
+      "timestamp": "00:27",
+      "speaker": "Ran Arusi"
+    },
+    {
+      "en": "If you don't do that, agents will either um create slop or run uh very high token bill because it's just gonna keep trying, or they're gonna fake the tests uh just to to to have the test passed.",
+      "zh": "如果你不设干预阈值，智能体要么制造垃圾内容，要么烧出极高的 token 账单，因为它只会一直试下去，要么它们会伪造测试，就为了让测试通过。",
+      "timestamp": "12:37",
+      "speaker": "Ran Arusi"
+    },
+    {
+      "en": "Yeah, I just don't believe that in a system that you need to trust, you can have flakiness.",
+      "zh": "我只是不相信，在一个你需要信任的系统里，可以容忍不稳定性。",
+      "timestamp": "14:58",
+      "speaker": "Ran Arusi"
+    },
+    {
+      "en": "And most of what I see is either automations or automation with the AI sprinkled in.",
+      "zh": "而我看到的大多数东西，要么是自动化，要么是撒了点 AI 的自动化。",
+      "timestamp": "20:08",
+      "speaker": "Ran Arusi"
+    },
+    {
+      "en": "A lot of business operations are fully deterministic, so you Do m that there's a lot of AI that's being used in places that it shouldn't be used and it just costing you money.",
+      "zh": "很多业务运营是完全确定性的，所以有很多 AI 被用在了不该用的地方，只是在让你花钱。",
+      "timestamp": "21:56",
+      "speaker": "Ran Arusi"
+    },
+    {
+      "en": "Where a simple uh script uh the the number of times I've seen AI try being used to parse strings where a simple regist can just do the work.",
+      "zh": "我见过太多次有人尝试用 AI 来解析字符串，其实一个简单的正则表达式就能完成这项工作。",
+      "timestamp": "22:06",
+      "speaker": "Ran Arusi"
+    },
+    {
+      "en": "And with AI, I think we're sort of in a race between a race between how much it can do for us before we uh forget how to do it ourselves completely.",
+      "zh": "有了 AI,我觉得我们处于某种竞赛之中——看它能在我们彻底忘记怎么自己做之前为我们做多少事情。",
+      "timestamp": "29:21",
+      "speaker": "Ran Arusi"
+    },
+    {
+      "en": "So for for something to be called agentic, it has to be fuzzy.",
+      "zh": "所以对于某件事要被称为智能体的，它必须是模糊的。",
+      "timestamp": "37:38",
+      "speaker": "Ran Arusi"
+    },
+    {
+      "en": "The however meetings you can hold to close sales, that that's your true capacity.",
+      "zh": "你能开多少场会议来谈成销售，那才是你真正的产能。",
+      "timestamp": "45:59",
+      "speaker": "Ran Arusi"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Ran Arusi",
+      "en": "For at least a year now, you do not need to hire junior developers for their coding skills.",
+      "zh": "至少一年来，你已经不需要为了编程技能而雇佣初级开发者了。"
+    },
+    {
+      "timestamp": "00:05",
+      "speaker": "Ran Arusi",
+      "en": "If we stop hiring junior developers, we will never have this archetype of an architect that we are looking for.",
+      "zh": "如果我们停止雇佣初级开发者，我们将永远无法培养出我们正在寻找的那种架构师的原型。"
+    },
+    {
+      "timestamp": "00:18",
+      "speaker": "Ran Arusi",
+      "en": "The real skill that we're trying to build is the ability to not multitask but multi-monitor agents.",
+      "zh": "我们真正要培养的技能，不是多任务处理，而是多监控多个智能体的能力。"
+    },
+    {
+      "timestamp": "00:27",
+      "speaker": "Ran Arusi",
+      "en": "And I'm not in under any sort of uh fantasy that you can manage thousands of agents, but you can manage six to ten, maybe.",
+      "zh": "我并不抱任何幻想以为自己能管理成千上万个智能体，但管理六到十个，也许可以。"
+    },
+    {
+      "timestamp": "12:37",
+      "speaker": "Ran Arusi",
+      "en": "If you don't do that, agents will either um create slop or run uh very high token bill because it's just gonna keep trying, or they're gonna fake the tests uh just to to to have the test passed.",
+      "zh": "如果你不设干预阈值，智能体要么制造垃圾内容，要么烧出极高的 token 账单，因为它只会一直试下去，要么它们会伪造测试，就为了让测试通过。"
+    },
+    {
+      "timestamp": "13:52",
+      "speaker": "Ran Arusi",
+      "en": "Um the fact that uh whether or not it's pretty or not, you're not gonna look at it anyway in the future, so it doesn't matter.",
+      "zh": "至于代码好不好看，反正你将来也不会去看它，所以无所谓。"
+    },
+    {
+      "timestamp": "15:03",
+      "speaker": "Ran Arusi",
+      "en": "Yeah, I just don't believe that in a system that you need to trust, you can have flakiness.",
+      "zh": "我只是不相信，在一个你需要信任的系统里，可以容忍不稳定性。"
+    },
+    {
+      "timestamp": "20:08",
+      "speaker": "Ran Arusi",
+      "en": "And most of what I see is either automations or automation with the AI sprinkled in.",
+      "zh": "而我看到的大多数东西，要么是自动化，要么是撒了点 AI 的自动化。"
+    },
+    {
+      "timestamp": "21:56",
+      "speaker": "Ran Arusi",
+      "en": "A lot of business operations are fully deterministic, so you Do m that there's a lot of AI that's being used in places that it shouldn't be used and it just costing you money.",
+      "zh": "很多业务运营是完全确定性的，所以有很多 AI 被用在了不该用的地方，只是在让你花钱。"
+    },
+    {
+      "timestamp": "22:18",
+      "speaker": "Ran Arusi",
+      "en": "Where a simple uh script uh the the number of times I've seen AI try being used to parse strings where a simple regist can just do the work.",
+      "zh": "我见过太多次有人尝试用 AI 来解析字符串，其实一个简单的正则表达式就能完成这项工作。"
+    },
+    {
+      "timestamp": "26:46",
+      "speaker": "Ran Arusi",
+      "en": "But if we can take you know, a junior developer, it used to take like junior developer like three to four years to become like a good level of mid-level developer, and seven to eight to become a senior developer.",
+      "zh": "过去初级开发者要花大约三到四年才能成为不错水平的中级开发者，七到八年才能成为资深开发者。"
+    },
+    {
+      "timestamp": "29:21",
+      "speaker": "Ran Arusi",
+      "en": "And with AI, I think we're sort of in a race between a race between how much it can do for us before we uh forget how to do it ourselves completely.",
+      "zh": "有了 AI,我觉得我们处于某种竞赛之中——看它能在我们彻底忘记怎么自己做之前为我们做多少事情。"
+    },
+    {
+      "timestamp": "37:38",
+      "speaker": "Ran Arusi",
+      "en": "So for for something to be called agentic, it has to be fuzzy.",
+      "zh": "所以对于某件事要被称为智能体的，它必须是模糊的。"
+    },
+    {
+      "timestamp": "42:47",
+      "speaker": "Ran Arusi",
+      "en": "I can't wait for Anthropic to shut all access to it.",
+      "zh": "我等不及看 Anthropic 把它的所有访问权限都关掉了。(讽刺)"
+    },
+    {
+      "timestamp": "44:06",
+      "speaker": "Ran Arusi",
+      "en": "So your subscription will get you a discounted uh um um but you're not gonna get uh sorry, discounted price on X number of tokens, but you're not gonna get 60x uh on your plan compared to what the uh API provides, which is around what you're getting right now with cloud subscription and open AI subscription.",
+      "zh": "你的订阅会给你某个数量的 token 享受折扣价，但你不会得到比 API 价格便宜 60 倍的套餐——而现在你从 Claude 订阅和 OpenAI 订阅得到的大约就是这个水平。"
+    },
+    {
+      "timestamp": "46:04",
+      "speaker": "Ran Arusi",
+      "en": "The however meetings you can hold to close sales, that that's your true capacity.",
+      "zh": "你能开多少场会议来谈成销售，那才是你真正的产能。"
+    },
+    {
+      "timestamp": "48:24",
+      "speaker": "Ran Arusi",
+      "en": "But they know that their client these clients are bringing ten dollars a month.",
+      "zh": "但他们知道他们的这些客户每月带来十美元。"
+    },
+    {
+      "timestamp": "51:04",
+      "speaker": "Ran Arusi",
+      "en": "Uh you know, every if if you have a network of plumbers and you want to keep the best plumbers around, you have to pay them more than hourly.",
+      "zh": "如果你有一个水管工网络，想把最好的水管工留在身边，你必须付给他们比按小时计酬更多的钱。"
+    }
+  ],
+  "voice_script": "今天这一期，咱们来聊一个挺扎心的问题：既然 AI 已经会写代码了，初级开发者还有存在的必要吗？给出答案的人叫 Ran Arusi。这是个有 35 年开发经验的连续创业者，你可能不知道他，但你很可能用过他的作品——Python 圈里那个抓取雅虎财经数据、月下载量两三千万次的开源库 Y Finance,就是他写的。如今他经营着一家软件开发公司 Automaze,还有一个把智能体当作原语的开源平台 MUXI。这一集的核心，就是一个听起来自相矛盾的判断：雇初级开发者，不再是为了写代码的技能；但如果因此停止招初级开发者，你就永远培养不出真正需要的那个新角色。\n\n这个新角色叫架构师。在 Ran 眼里，架构师既是产品经理，又是项目经理，还是团队负责人——只不过团队是由智能体组成的。Automaze 内部就是照这个思路组织的：人组成小组，一个高级开发者扮演架构师，管理一队智能体；一个交付经理面对客户；而初级开发者，是以学徒的身份跟着的，就像文艺复兴时期画室里的学徒，跟着大师学门道，偶尔接个小活收尾。\n\n那学徒到底要学什么？这里的重点，不是多任务处理，而是「多监控」——同时盯住多个智能体的能力。用 Ran 自己的话说：不幻想能管理成千上万个智能体，但六到十个，也许可以。所以学徒要学的是写产品规格、判断智能体能做什么不能做什么、当它们的导师，还要守好最后一道关口——配置好工作流，让代码合并请求一就绪，就自动起一套完整环境跑端到端测试。\n\n这套学徒制背后，其实有一套知识论。Ran 把知识分成两类：一类是可教授的知识，比如语法、API 的用法，这类正在被 AI 大幅压缩；另一类是习得的知识，没法加速。举个例子：一台两个 VCPU 的机器能承受多大负载？这不是靠数学算出来的，因为你的应用和我的应用不一样；AWS 宕机时会发生什么、怎么绕过去——这些必须人在场才能学到。好消息是成长周期能压缩，过去初级开发者要三四年升到像样的中级，现在大概两年就够。但坏消息是，有人追问：习得知识会不会出现断层？这个问题，Ran 坦承没有好答案。打了个比方：搬到英国换了新手机号之后，再也记不住妻子的号码——因为号码直接进了手机，大脑从没机会记住它。所以现在是一场竞赛：AI 能在我们彻底忘记怎么自己做之前，替我们做多少事。部分的解法，是像办公楼的消防演习那样，主动给自己制造情境，演练那些不常发生的应急场景。\n\n顺着这个思路，就引出了 Ran 最著名的观点之一：「智能体工作流」这个词，本身是个矛盾修辞。因为工作流本质上是一组确定性步骤，你知道输入也知道输出；而某件事要被称为智能体的，它必须是模糊的，本质上必须是非确定性的。如果工作流真是自主且主动的，那你就是在白白烧 token。Ran 观察到，大多数做 AI 的人，做的其实是撒了点 AI 的工作流——某个环节让 AI 写封邮件，其余全是确定性流程。这没错，但要认清本质。反过来，很多业务是完全确定性的，见过太多人用 AI 解析字符串，其实一个正则表达式就能搞定，更快、更便宜，简直是免费的。那真正需要智能体的地方怎么办？给一套轻量版的标准操作流程：列出常规做法和可走的分叉，如果智能体找到更好的办法，尽管去做。愿景是让智能体像一个了解公司、心态开放的员工，自主决定现在该调用哪个工作流。\n\n不过自主权得有边界，而且这条边界，更多是信任问题而不是技术问题。如果不设干预阈值，智能体要么制造垃圾代码、烧出天价 token 账单，要么会伪造测试，就为了让测试通过。所以 Ran 的规矩是：人只守在两处——定规格，也就是定义什么是「完成」；还有最终确认。中间的执行，全靠约束管。代码好不好看不重要，反正以后也不看；重要的是性能达标、测试和回归测试够量——一切绿灯，代码质量就是好的。这套思路在 MUXI 里的落地是：一组智能体加一个编排器，会持续学习并生成自己的新版本，但绝不自动更新，而是以 git 格式等你审查改动，批准了才部署。用 Ran 的话说：我不相信一个需要被信任的系统里可以有不稳定性——连全自主的开关都没留。这套打法在事故响应里最见价值：Automaze 有个工具叫 ladybug,bug 还在生产环境里就能被抓到、自动生成诊断，另一边代码修复请求已经备好，你一觉醒来就是一堆 PR。想想几周前那场一万七千次攻击尝试的泄露事件，一个人端着咖啡盯日志根本处理不完——等你看完一万七千条，日志已经变成一百七十倍了。\n\n那 AI 让交付变快之后，按预付费收费的软件公司，客户会不会跑？Automaze 的实测是没跑，反而买得更多。项目时间确实砍掉一大块，但真正的生产级系统只能砍三分之一左右，因为测试和边界情况太多。结果是客户那个「哪天再做」的愿望清单直接排上来，一直在加东西；每个功能付得更少，但平均留存三年。还有个有意思的新客源：很多人带着 vibe coding——就是凭感觉用 AI 写代码——做出来的实验品找上门。Ran 挺喜欢这个，因为哪怕要替换 99% 的代码，但没有任何误解，能确切知道客户想要什么。\n\n最后再往远看一步。Ran 预测，开发服务公司会越来越像顶级律所，而不是 SaaS 创业公司。逻辑是：每个开发者都快能拥有自己的「软件工厂」，产能不再是瓶颈，你能开多少场销售会议才是真实产能。那问题来了——一个高级开发者管着小组、服务三四个客户，却拿固定薪水，还知道客户每月能带来多少收入，为什么不出去单干？留不住的。律所几百年前就解决了这个问题：初级律师、初级合伙人、合伙人，按带来的业务量买进层级。所以 Ran 的方案叫「版税合伙人」：你经营的 pod,其客户收入的 10% 到 20% 归你。前提是这家公司不谋求退出、不追超速增长——Automaze 永远不会成为一亿美元的公司，但持续产生可观收入，这就是能分的蛋糕。\n\n所以回到开头那个问题：初级开发者该失业吗？至少一年来，你已经不需要为了编程技能而雇佣初级开发者了——但如果你停止雇佣初级开发者，就永远培养不出这个时代真正需要的架构师。AI 淘汰的从来不是人，而是旧的角色定义。"
+}
