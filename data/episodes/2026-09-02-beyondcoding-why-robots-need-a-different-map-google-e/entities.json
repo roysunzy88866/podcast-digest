@@ -1,0 +1,654 @@
+{
+  "episode_id": "2026-09-02-beyondcoding-why-robots-need-a-different-map-google-e",
+  "podcast": "Beyond Coding",
+  "date": "2026-09-02",
+  "tags": [
+    "地理空间技术",
+    "3D 重建",
+    "机器人仿真",
+    "智能体工程",
+    "数字孪生"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "brian-mcclendon",
+      "type": "person",
+      "role": "host",
+      "name": "Brian McClendon",
+      "file": "Brian McClendon",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            64.651,
+            67.792
+          ],
+          "quote": "This is Brian McClendon, the engineer behind Google Earth.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "niantic-spatial",
+      "type": "company",
+      "role": "company",
+      "name": "Niantic Spatial",
+      "file": "Niantic Spatial",
+      "primary": true,
+      "how_described": "本集嘉宾 Brian McClendon 担任 CTO 的地理空间公司,核心目标是对世界的四维视图(3D 加时间),提供视觉定位、3D 重建和面向机器人的仿真环境等服务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            68.352,
+            74.154
+          ],
+          "quote": "He ran Google Maps for over a decade and is now CTO at Niantic Spatial, laser-focused on...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google-earth",
+      "type": "company",
+      "role": "company",
+      "name": "Google Earth",
+      "file": "Google Earth",
+      "primary": true,
+      "how_described": "本集说它是「世界的一个快照」, McClendon 评价「Google Earth 已经足够好了」;Google 做过的最大时光机是 1984 年以来每 10 米一个像素的卫星影像,而他现在想做每 10 厘米一个像素。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            60.109,
+            61.189
+          ],
+          "quote": "Google Earth is good enough.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 17,
+          "t": [
+            64.651,
+            67.792
+          ],
+          "quote": "This is Brian McClendon, the engineer behind Google Earth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 71,
+          "t": [
+            382.174,
+            390.797
+          ],
+          "quote": "I mean, Google Earth flew airplanes doing oblique imagery and built 3D buildings out of them in 2011, 12, 13.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 95,
+          "t": [
+            529.21,
+            538.578
+          ],
+          "quote": "And so you want to have a geographic, geometric understanding of a base map, and that's arguably Google Earth is a snapshot of the world.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1372.257,
+            1376.079
+          ],
+          "quote": "I think for the most part, I mean, Google Earth is good enough.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1381.621,
+            1384.142
+          ],
+          "quote": "Like Google Earth to date still doesn't have my house updated.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1806.265,
+            1811.449
+          ],
+          "quote": "One of the things, you know, this is in the category, was when Google Earth Engine came out.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "google-maps",
+      "type": "company",
+      "role": "company",
+      "name": "Google Maps",
+      "file": "Google Maps",
+      "primary": true,
+      "how_described": "McClendon 管理了十多年的产品;本集用它讲教训:地图是为人类构建的,人类能容忍一定误差,但机器人非常字面化,做不对就会绊倒、穿墙。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            68.352,
+            74.154
+          ],
+          "quote": "He ran Google Maps for over a decade and is now CTO at Niantic Spatial, laser-focused on...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 147,
+          "t": [
+            852.646,
+            855.77
+          ],
+          "quote": "And we learned a lot in Google Maps about, you know,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1734.804,
+            1737.767
+          ],
+          "quote": "When researching, I was thinking, okay, I know Google Maps.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集提到其 Isaac 机器人仿真器(当前流行的仿真器,Gaussian Splat 模型可一键下载进去),还提到 NVIDIA 曾尝试引入 NERF 和光线追踪但太慢太贵。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 170,
+          "t": [
+            1002.057,
+            1022.804
+          ],
+          "quote": "A room into what's called a USDZ file, which is the Gaussian splat itself, a mesh for collisions so that the robot's feet hit the floor or wheels roll in the right place, and have that loadable into a robotic simulator where the current du jour is the Isaac simulator from NVIDIA.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1074.874,
+            1080.459
+          ],
+          "quote": "NVIDIA tried to introduce NERFs and ray tracing, but they were too slow and expensive.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1143.526,
+            1161.332
+          ],
+          "quote": "And so they produce a much more lifelike scene and they handle transparency much better and they render at high enough speeds that a typical NVIDIA card can draw a very beautiful scene at very high frame rate.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 331,
+          "t": [
+            2015.357,
+            2022.426
+          ],
+          "quote": "Two degree is kind of what like NVIDIA Omniverse claims to be aiming at, but they do it in sort of narrow specific use cases.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "planet-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Planet Labs",
+      "file": "Planet Labs",
+      "primary": false,
+      "how_described": "本集顺带提到:现在以三米分辨率每天覆盖全世界的卫星影像公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            564.993,
+            582.984
+          ],
+          "quote": "Planet Labs now covers the whole world every day at three meters, but we also have satellites like Vantor that can give you a high-resolution photo of the place you care about very, very quickly within a couple of hours of taking it, or actually I think they'll claim even a few minutes of taking it, but that's hard.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "vantor",
+      "type": "company",
+      "role": "company",
+      "name": "Vantor",
+      "file": "Vantor",
+      "primary": false,
+      "how_described": "本集提到:能在拍摄后几小时内给出高分辨率照片的卫星公司;Niantic Spatial 能把地面照片与 Vantor 照片匹配定位。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            564.993,
+            582.984
+          ],
+          "quote": "Planet Labs now covers the whole world every day at three meters, but we also have satellites like Vantor that can give you a high-resolution photo of the place you care about very, very quickly within a couple of hours of taking it, or actually I think they'll claim even a few minutes of taking it, but that's hard.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 102,
+          "t": [
+            588.772,
+            597.278
+          ],
+          "quote": "capabilities is to be able to match a ground photo to one of these Vantor photos and tell you exactly where you are relative to that photo.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "4d-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "四维世界模型 (4D model)",
+      "file": "四维世界模型",
+      "primary": true,
+      "how_described": "本集的长期目标:对世界的四维视图,3D 空间加第四维时间,能回答「1 月 3 日这里是什么样」,把企业积攒的照片组织成可当数据库查询的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            1183.305,
+            1194.415
+          ],
+          "quote": "I mean, I think that the one is scale, that, you know, it's very easy to make a 4D model of this room and all the photos that have ever been taken in this room and do that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1871.487,
+            1878.494
+          ],
+          "quote": "Do you see, because this 4D model of the world, we're now using it in robotics to kind of manipulate and change your physical world.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "visual-positioning",
+      "type": "concept",
+      "role": "concept",
+      "name": "视觉定位 (visual positioning)",
+      "file": "视觉定位",
+      "primary": true,
+      "how_described": "本集刚落地的核心能力:给空间建视觉定位地图后,任何一张照片都能通过特征匹配定位出位置,误差正负几厘米、几分之一度,宏观上半米半度轻松做到;还能对抗 GPS 拒止与欺骗。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 343,
+          "t": [
+            2094.588,
+            2101.694
+          ],
+          "quote": "One of the problems that we're seeing that I think translates between both what I'm trying to do and also a tactical problem right now is visual positioning.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "gaussian-splats",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gaussian Splats",
+      "file": "Gaussian Splats",
+      "primary": true,
+      "how_described": "本集介绍的新 3D 渲染技术:不用三角形网格贴图,而是用大小可变、记录了每个视角下颜色的元素还原场景,反光透明更逼真;用它精确捕捉真实房间打包成 USDZ 文件供机器人仿真器训练。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            989.251,
+            1001.437
+          ],
+          "quote": "And so that is something where we have worked on and delivered right now is that with this new visual technology called Gaussian Splats, we are able to both capture, reconstruct and package",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1082.061,
+            1088.728
+          ],
+          "quote": "But in 2024, a paper came out at SIGGRAPH Call that talked about Gaussian splats, and these are",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1126.971,
+            1134.918
+          ],
+          "quote": "So the other thing about Gaussian splats is they contain not just the color, but they contain a color at every angle of view.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "sim-to-real",
+      "type": "concept",
+      "role": "concept",
+      "name": "仿真到真实 (sim-to-real)",
+      "file": "仿真到真实",
+      "primary": true,
+      "how_described": "本集说是当前机器人训练的最大瓶颈:只在计算机生成的仿真环境里训练,机器人被微调得太贴合仿真,「送到真实世界,突然之间事情就对不上了」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            948.503,
+            954.848
+          ],
+          "quote": "And what they're discovering is that in the sim-to-real mode, they train robots on simulated environments.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "digital-twin",
+      "type": "concept",
+      "role": "concept",
+      "name": "数字孪生 (digital twin)",
+      "file": "数字孪生",
+      "primary": true,
+      "how_described": "本集认为精确的 4D 城市数字孪生能在安全和人类体验上实现优化、造就更好的城市;做得足够好时「你不会知道自己并不在那里」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 304,
+          "t": [
+            1887.264,
+            1912.915
+          ],
+          "quote": "I mean, certainly, using a digital twin for simulation is extremely valuable, and we do it for city design at some level already all the time, but they don't do it at the 3D level of where was the traffic light placed precisely, and is it obscured by that tree that has now grown out in front of it, and so I missed the red light and only saw the green and the yellow, which is a problem.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1914.856,
+            1932.603
+          ],
+          "quote": "I think there is a set of information that an accurate 4D representation of a city digital twin can allow for optimizations in safety and human experience that will make for better cities overall.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1966.47,
+            1972.493
+          ],
+          "quote": "If the digital twin gets good enough, we will be able to represent the world enough that you won't know that you're not there.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "self-checking",
+      "type": "concept",
+      "role": "concept",
+      "name": "自检机制 (self-checking)",
+      "file": "自检机制",
+      "primary": true,
+      "how_described": "本集最核心的工程观点:AI 只在可自我检验的问题上持续钻研,必须构建自检机制——测试数据集加标准答案,「在你用这个数据集取得成功之前,你就还没完成」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 265,
+          "t": [
+            1650.079,
+            1653.684
+          ],
+          "quote": "So you really have to effectively build the self-checking mechanism.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "agentic-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体工程 (agentic engineering)",
+      "file": "智能体工程",
+      "primary": true,
+      "how_described": "本集把「用钩子或测试集让 AI 自我验证、获得可靠输出」总结为新一代智能体工程的关键能力;建议把问题空间设计成有利于 AI 的方式,先挑答案可知的问题做。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 270,
+          "t": [
+            1679.52,
+            1685.846
+          ],
+          "quote": "I see this as a key capability for people that are successful in kind of this newer way of working, this newer agentic engineering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2081.654,
+            2087.46
+          ],
+          "quote": "Also the people that you look for in the scale of problems they want to solve or the aptitude with agentic engineering.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集贯穿的主线:AI 擅长可自检的问题但解读视觉信息很糟糕;各代模型在某些类别上上下跳动而非逼近完美,不要为用 AI 而用 AI,也不要盲目开三个模型互相打。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            89.111,
+            92.053
+          ],
+          "quote": "Do not just use AI for the sake of AI.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 26,
+          "t": [
+            92.433,
+            102.361
+          ],
+          "quote": "Not all problems are going to be solved by AI anytime soon, but a subset are, and if you can successfully design your problem space in a way that's conducive to AI,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1274.65,
+            1286.503
+          ],
+          "quote": "And then being able to answer questions, and not necessarily by me, but by an AI who says, you know, there was a change in the number of speeding tickets given on this street in the city.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1331.255,
+            1338.618
+          ],
+          "quote": "And so having that ability of an AI to query the real world, I think, is the long term goal.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1600.159,
+            1609.344
+          ],
+          "quote": "One of the things that I think AI has in general is that problems that are self-checkable, AIs can grind on.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1617.343,
+            1621.764
+          ],
+          "quote": "And so I think there's two sides to making a really great problem solver for AI.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1657.971,
+            1663.153
+          ],
+          "quote": "Not all problems are going to be solved by AI anytime soon, but a subset are.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1663.353,
+            1675.758
+          ],
+          "quote": "And if you can successfully design your problem space in a way that's conducive to AI, you're going to get a solution quickly that humans hadn't thought of yet.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1686.407,
+            1700.181
+          ],
+          "quote": "If you can figure out a way to have your AI self-check, validate, whether that be hooks or whether that's a test set that you have or have created with another model, that is a way to then execute and have reliability in the output and outcomes of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2213.703,
+            2216.883
+          ],
+          "quote": "Do not just use AI for the sake of AI.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2217.444,
+            2228.967
+          ],
+          "quote": "I think that A, you won't learn, and B, there are fundamental blind spots in an AI and you can spend all your money fighting them.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2312.234,
+            2315.217
+          ],
+          "quote": "You must have a way for the AI to not",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2315.697,
+            2337.38
+          ],
+          "quote": "you know sort of hallucinate its way to success because there's a hard physical requirement of here's the answer and if you can't get it you're wrong and I think that if you have that then you know it's I'm more willing to say let an AI you know spend a bit of money on itself but in general I think we still keep tabs on it and",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2379.737,
+            2402.698
+          ],
+          "quote": "And so I think that you'll find that we're going to start developing software not in a random line towards the target of destination, but we are going to optimize for those problems that are easy to solve until AI gets smart enough that you raise the bar and say, okay, now maybe you can go aim at this high.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "fmvs-depth-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "FMVS 深度模型 (FMVS depth model)",
+      "file": "FMVS 深度模型",
+      "primary": false,
+      "how_described": "本集说他们训练的机器学习模型,能从单张或多张照片估算足够精确的深度,让以前无法重建的东西变得可重建,还能用 20 年前的照片视频做 3D 重建。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            411.965,
+            435.298
+          ],
+          "quote": "Machine language models we've trained, like our FMVS depth model, we're able to take a single photo or multiple photos and create a guesstimate of depth that is sufficiently accurate that it helps our reconstruction so much that we can now reconstruct things that were never reconstructable before with that density of input.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "semantic-segmentation",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义分割 (semantic segmentation)",
+      "file": "语义分割",
+      "primary": false,
+      "how_described": "本集在建筑工地场景中提到:对照片运行语义分析,识别水泥搅拌机等物体是否移动,再让语言模型从一列语义变化中得出结论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            725.69,
+            737.481
+          ],
+          "quote": "And oh, can I just apply semantic segmentation on that and then tell the language model, hey, this object that appears to be a cement mixer was here yesterday and is gone today.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

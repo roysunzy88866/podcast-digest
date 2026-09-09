@@ -1,0 +1,67 @@
+{
+  "kept": [
+    {
+      "i": 2,
+      "timestamp": "27:43",
+      "speaker": "Brian McClendon",
+      "trimmed": false,
+      "tsWas": "27:43",
+      "spkWas": "Brian McClendon"
+    },
+    {
+      "i": 3,
+      "timestamp": "26:40",
+      "speaker": "Brian McClendon",
+      "trimmed": false,
+      "tsWas": "26:40",
+      "spkWas": "Brian McClendon"
+    },
+    {
+      "i": 4,
+      "timestamp": "37:35",
+      "speaker": "Brian McClendon",
+      "trimmed": false,
+      "tsWas": "37:35",
+      "spkWas": "Brian McClendon"
+    },
+    {
+      "i": 5,
+      "timestamp": "16:12",
+      "speaker": "Brian McClendon",
+      "trimmed": false,
+      "tsWas": "16:12",
+      "spkWas": "Brian McClendon"
+    },
+    {
+      "i": 6,
+      "timestamp": "08:25",
+      "speaker": "Brian McClendon",
+      "trimmed": false,
+      "tsWas": "08:25",
+      "spkWas": "Brian McClendon"
+    },
+    {
+      "i": 7,
+      "timestamp": "32:46",
+      "speaker": "Brian McClendon",
+      "trimmed": false,
+      "tsWas": "32:46",
+      "spkWas": "Brian McClendon"
+    },
+    {
+      "i": 8,
+      "timestamp": "39:39",
+      "speaker": "Brian McClendon",
+      "trimmed": false,
+      "tsWas": "39:39",
+      "spkWas": "Brian McClendon"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 1,
+      "reason": "短句(2词<6)在转写稿命中 2 处,无法唯一锚定时间戳/说话人,不猜",
+      "en": "Token maxing is bullshit."
+    }
+  ]
+}

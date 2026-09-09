@@ -1,0 +1,172 @@
+{
+  "title_zh": "Google Earth 之父的下一站：给真实世界建一个 4D 模型",
+  "tldr": "Niantic Spatial CTO、Google Earth 背后工程师 Brian McClendon 讲述如何把世界建成可查询的 4D 模型，以及 AI 时代的工程法则。",
+  "digest_md": "把一栋建筑、一座城市乃至整个世界数字化，不只是拍一张快照——而是要造一个能回答「1 月 3 日这里是什么样」的时光机。说这话的人是 Brian McClendon,他做了十几年 Google Maps、是 Google Earth 背后的工程师，现在担任 Niantic Spatial 的 CTO。这一集他聊的正是他们的核心目标：**对世界的四维视图**——3D 空间加上第四维「时间」。\n\n## 从一张照片定位到半米以内\n\nNiantic Spatial 刚落地的核心能力是视觉定位：给这个空间建一张视觉定位地图后，你在这个空间里拍的**任何一张照片**，都能通过特征匹配定位出你在哪里——误差正负几厘米、角度误差几分之一度；宏观上「半米、半度，轻松做到」。\n\n这套能力的关键要素是数据采集方式的剧变。过去要靠带 LiDAR(激光雷达)的测量扫描仪，推着三脚架在空间里慢慢走；如今拿一台 360 相机走五分钟，就能建出同样精确的 3D 重建模型——既能进 VR/AR 逛，又能直接生成定位地图。\n\n真正的跃迁来自机器学习模型。他们训练的 FMVS 深度模型能从单张照片估算出足够精确的深度，让以前「以那种输入密度根本无法重建」的东西变得可重建。更妙的是，这激活了几十年积攒的旧数据遗产：「我们可以拿 20 年前的照片和视频，做一些 20 年前不可能做到的重建」——用旧视频构建 3D 模型。\n\n## 4D 模型要解决什么\n\n「Google Earth 就是世界的一个快照」——为人类看地图，这个任务基本做完了，McClendon 自己的评价是「Google Earth 已经足够好了」。但城市、工厂、建筑工地真正的需求不是看，而是**回答**：两个日期之间什么变了？那个水泥搅拌机为什么从 A 区挪到了 C 区？这起事故为什么发生？\n\n具体场景他举了建筑工地：现有公司只是拍下第一天、第二天，让你拖滑块肉眼对比——「人们其实并不想那样做」。他们想要的是一份自动报告：「水泥搅拌机在第二天期间的某个时候从 A 区移到了 C 区」；再把这些变化提炼分类，哪些琐碎无关、哪些是完全违反安全规定、需要立即纠正。\n\n这背后的方法论是：把企业积攒多年的一堆杂乱照片，组织成**可以当数据库来查询的东西**，而不是一堆照片。\n\n## 给机器人造仿真训练场\n\n地图是从为人类服务延伸到为机器人服务的。McClendon 的教训来自 Google Maps 时代：人眼能容忍一定误差，但「机器人非常字面化」，做不对就会绊倒、穿墙。而当前机器人训练的最大瓶颈恰是 sim-to-real(仿真到真实)：只在计算机生成的仿真环境里训练，机器人被微调得太贴合仿真，「送到真实世界，突然之间事情就对不上了」。\n\n他们的解法是用 Gaussian Splats(一种新的 3D 渲染技术：不用三角形网格贴图，而是用一个个大小可变、记录了「每个视角下颜色」的元素来还原场景，反光、透明效果都更逼真)把真实房间精确捕捉、重建，打包成 USDZ 文件——内含 splat 本体加碰撞检测网格——一键下载进 NVIDIA 的 Isaac 机器人仿真器，让机器人在「和真实世界视觉一致」的环境里训练。\n\n## AI 只擅长「可自检」的问题——所以要把问题设计成可自检的\n\n这是本集最值得工程师带走的观点。「那些可以自我检验的问题，AI 可以持续钻研」；但 AI 解读视觉信息相当糟糕——「如果你只是说，这是一张图片，它有什么问题，它们在这方面就非常糟糕」。所以打造好的 AI 问题求解器有两面：找到问题，以及在解这一侧**构建自检机制**——测试数据集加标准答案，「在你用这个数据集取得成功之前，你就还没完成」。\n\n由此引申到工作方式：「并不是所有问题都能在短期内被 AI 解决，但其中一部分可以。而如果你能成功地把你的问题空间设计成有利于 AI 的方式，你就会很快得到一个人类还没想到的解决方案」。主持人把它总结为新一代「智能体工程」的关键能力：用钩子或测试集让 AI 自我验证，输出才有可靠性。\n\n更进一步，他认为软件开发的形态会因此改变：不再朝目标随机推进，而是**优先挑选那些答案可知、容易解决的问题做**，「直到 AI 变得足够聪明，你再抬高门槛」。\n\n## 长期愿景与未解难题\n\n现实的难点是规模化：给一个房间建 4D 模型是「一台机器、一个程序员加大量苦工」的事，但 Rancho Cordova 市有约 50 平方公里要覆盖，「他们甚至不知道自己拍的照片都在哪里」——大规模采集、组织、建模是下一批未解问题。\n\n而终点线令人神往：正如大语言模型从人类知识里挖出了人类没见过的洞见，物理世界组织方式中也藏着尚未被发现的洞见。他举了 Earth Engine 的例子：有了全世界所有河流 30 年的卫星数据，有人第一次**通用地**解决了河流蜿蜒问题——「这个话题此前只有零星的攻击，从未被系统性地攻克过」。他相信 4D 世界模型会在每一个信息层级上催生同类成果。Google 做过的最大「时光机」是 1984 年以来每 10 米一个像素的卫星影像；「我们想做的，是每 10 厘米一个像素」。终局是让 AI 具备查询真实世界的能力。\n\n## 本集带走\n\n- **让 AI 干活先造自检机制**：AI 只能在「可自我检验」的问题上持续钻研；给它测试集和标准答案，答不出就是没完成——这是让智能体输出可靠的前提。\n- **把问题空间设计得对 AI 友好**：挑答案可知的子问题先做，能很快得到人类没想到的解；AI 变强后再逐步抬高问题难度。\n- **旧数据是新资产**：新的深度估算模型让 20 年前的照片、视频都能做 3D 重建——历史影像从死库存变成可用数据。\n- **刷 token 没用，要懂每个模型擅长什么**：各代模型在某些类别上「上下跳动」而非逼近完美；也别盲目开三个模型互相打——它们可能一起相信同一个幻觉。\n- **别为用 AI 而用 AI**:一是学不到东西，二是 AI 有根本性盲区，你可能花光所有钱去对抗它们。\n\n> 【背景】Gaussian Splats 技术由 2023 年 SIGGRAPH 论文提出；McClendon 在访谈中口述为「2024 年」并称论文来自 SIGGRAPH,本集以其口述为准。Niantic Spatial 是 Niantic 拆分出的地理空间技术公司，《宝可梦 GO》开发商 Niantic 的姊妹公司。",
+  "quotes": [
+    {
+      "en": "And if you can successfully design your problem space in a way that's conducive to AI, you're going to get a solution quickly that humans hadn't thought of yet.",
+      "zh": "而如果你能成功地把你的问题空间设计成有利于 AI 的方式，你就会很快得到一个人类还没想到的解决方案。",
+      "timestamp": "27:43",
+      "speaker": "Brian McClendon"
+    },
+    {
+      "en": "One of the things that I think AI has in general is that problems that are self-checkable, AIs can grind on.",
+      "zh": "我认为 AI 在总体上有一个特点，就是那些可以自我检验的问题，AI 可以持续钻研。",
+      "timestamp": "26:40",
+      "speaker": "Brian McClendon"
+    },
+    {
+      "en": "And you shouldn't just blindly turn on three of them fighting each other because they can easily all convince themselves of the same hallucination.",
+      "zh": "你也不应该盲目地同时开三个让它们互相争斗，因为它们很容易让自己全都相信同一个幻觉。",
+      "timestamp": "37:35",
+      "speaker": "Brian McClendon"
+    },
+    {
+      "en": "The world is not as sharp and crisp as that simulation.",
+      "zh": "真实世界不像那个仿真那么清晰锐利。",
+      "timestamp": "16:12",
+      "speaker": "Brian McClendon"
+    },
+    {
+      "en": "We can take photos and video from 20 years ago and do reconstructions that were not possible 20 years ago.",
+      "zh": "我们可以拿 20 年前的照片和视频，做一些 20 年前不可能做到的重建。",
+      "timestamp": "08:25",
+      "speaker": "Brian McClendon"
+    },
+    {
+      "en": "If the digital twin gets good enough, we will be able to represent the world enough that you won't know that you're not there.",
+      "zh": "如果数字孪生做得足够好，我们将能够把世界表征到这样的程度：你不会知道自己并不在那里。",
+      "timestamp": "32:46",
+      "speaker": "Brian McClendon"
+    },
+    {
+      "en": "And so I think that you'll find that we're going to start developing software not in a random line towards the target of destination, but we are going to optimize for those problems that are easy to solve until AI gets smart enough that you raise the bar and say, okay, now maybe you can go aim at this high.",
+      "zh": "因此我觉得你会发现，我们将不再朝着目标终点随机地开发软件，而是会为那些容易解决的问题做优化，直到 AI 变得足够聪明，你再抬高门槛说：好，现在也许你可以瞄准这么高的目标了。",
+      "timestamp": "39:39",
+      "speaker": "Brian McClendon"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "36:50",
+      "speaker": "Brian McClendon",
+      "en": "Token maxing is bullshit.",
+      "zh": "刷 token(盲目堆用量)是扯淡。"
+    },
+    {
+      "timestamp": "27:37",
+      "speaker": "Brian McClendon",
+      "en": "Not all problems are going to be solved by AI anytime soon, but a subset are.",
+      "zh": "并不是所有问题都能在短期内被 AI 解决，但其中一部分可以。"
+    },
+    {
+      "timestamp": "27:43",
+      "speaker": "Brian McClendon",
+      "en": "And if you can successfully design your problem space in a way that's conducive to AI, you're going to get a solution quickly that humans hadn't thought of yet.",
+      "zh": "而如果你能成功地把你的问题空间设计成有利于 AI 的方式，你就会很快得到一个人类还没想到的解决方案。"
+    },
+    {
+      "timestamp": "26:40",
+      "speaker": "Brian McClendon",
+      "en": "One of the things that I think AI has in general is that problems that are self-checkable, AIs can grind on.",
+      "zh": "我认为 AI 在总体上有一个特点，就是那些可以自我检验的问题，AI 可以持续钻研。"
+    },
+    {
+      "timestamp": "27:25",
+      "speaker": "Brian McClendon",
+      "en": "But without, if you just say, you know, here's a picture, what's wrong with it, they are so bad at that.",
+      "zh": "但是，如果你只是说，这是一张图片，它有什么问题，它们在这方面就非常糟糕。"
+    },
+    {
+      "timestamp": "27:13",
+      "speaker": "Brian McClendon",
+      "en": "And until you succeed with this data set and produce those answers, then you're not done.",
+      "zh": "在你用这个数据集取得成功并产出那些答案之前，你就还没完成。"
+    },
+    {
+      "timestamp": "37:35",
+      "speaker": "Brian McClendon",
+      "en": "And you shouldn't just blindly turn on three of them fighting each other because they can easily all convince themselves of the same hallucination.",
+      "zh": "你也不应该盲目地同时开三个让它们互相争斗，因为它们很容易让自己全都相信同一个幻觉。"
+    },
+    {
+      "timestamp": "37:20",
+      "speaker": "Brian McClendon",
+      "en": "They each were incrementally different and not asymptotically approaching perfect.",
+      "zh": "它们每一个都是增量式的不同，而不是渐近地逼近完美。"
+    },
+    {
+      "timestamp": "37:47",
+      "speaker": "Brian McClendon",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "timestamp": "15:21",
+      "speaker": "Brian McClendon",
+      "en": "And if you don't get it right, they will either stop and say, I cannot understand scene, or they will mistakenly misunderstand scene and then trip over object A or walk through glass wall B or whatever it is.",
+      "zh": "如果你没把它做对，它们要么停下来说我无法理解这个场景，要么会错误地误解场景，然后被物体 A 绊倒，或者穿过玻璃墙 B,或者类似的事情。"
+    },
+    {
+      "timestamp": "16:12",
+      "speaker": "Brian McClendon",
+      "en": "The world is not as sharp and crisp as that simulation.",
+      "zh": "真实世界不像那个仿真那么清晰锐利。"
+    },
+    {
+      "timestamp": "23:49",
+      "speaker": "Brian McClendon",
+      "en": "We want to do that, but at a pixel per 10 centimeters.",
+      "zh": "我们想做的，是每 10 厘米一个像素。"
+    },
+    {
+      "timestamp": "08:25",
+      "speaker": "Brian McClendon",
+      "en": "We can take photos and video from 20 years ago and do reconstructions that were not possible 20 years ago.",
+      "zh": "我们可以拿 20 年前的照片和视频，做一些 20 年前不可能做到的重建。"
+    },
+    {
+      "timestamp": "30:53",
+      "speaker": "Brian McClendon",
+      "en": "And they wrote an amazing paper on a topic that had been anecdotally attacked but never systemically attacked.",
+      "zh": "然后他们写了一篇了不起的论文，这个话题此前只有零星的攻击，从未被系统性地攻克过。"
+    },
+    {
+      "timestamp": "22:52",
+      "speaker": "Brian McClendon",
+      "en": "I think for the most part, I mean, Google Earth is good enough.",
+      "zh": "我想大体上是，我的意思是，Google Earth 已经足够好了。"
+    },
+    {
+      "timestamp": "28:37",
+      "speaker": "Brian McClendon",
+      "en": "And I think we're not remotely close to world model distillation yet.",
+      "zh": "而我认为我们离世界模型蒸馏还差得很远。"
+    },
+    {
+      "timestamp": "32:46",
+      "speaker": "Brian McClendon",
+      "en": "If the digital twin gets good enough, we will be able to represent the world enough that you won't know that you're not there.",
+      "zh": "如果数字孪生做得足够好，我们将能够把世界表征到这样的程度：你不会知道自己并不在那里。"
+    },
+    {
+      "timestamp": "39:39",
+      "speaker": "Brian McClendon",
+      "en": "And so I think that you'll find that we're going to start developing software not in a random line towards the target of destination, but we are going to optimize for those problems that are easy to solve until AI gets smart enough that you raise the bar and say, okay, now maybe you can go aim at this high.",
+      "zh": "因此我觉得你会发现，我们将不再朝着目标终点随机地开发软件，而是会为那些容易解决的问题做优化，直到 AI 变得足够聪明，你再抬高门槛说：好，现在也许你可以瞄准这么高的目标了。"
+    },
+    {
+      "timestamp": "22:11",
+      "speaker": "Brian McClendon",
+      "en": "And so having that ability of an AI to query the real world, I think, is the long term goal.",
+      "zh": "所以，让 AI 具备查询真实世界的能力，我认为，这是长期目标。"
+    },
+    {
+      "timestamp": "12:23",
+      "speaker": "Brian McClendon",
+      "en": "What you would really want is a written report of cement mix removed from zone A to zone C sometime during day two.",
+      "zh": "你真正想要的是一份书面报告，内容是水泥搅拌机在第二天期间的某个时候从 A 区移到了 C 区。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人，是那种真正改变过你看世界方式的人。Brian McClendon,在 Google 做了十几年地图产品，Google Earth 背后的核心工程师就是他，很多人管这个方向叫 Google Earth 之父。现在他是 Niantic Spatial 的 CTO,这家公司是做《宝可梦 GO》的 Niantic 拆分出来的地理空间技术公司。这一期聊的核心问题听上去有点科幻：把真实的建筑、城市、乃至整个世界，建成一个带时间的四维模型——三维空间，加上第四维“时间”。说白了，就是问你一个问题：1 月 3 日那天，这个地方长什么样？模型要能答上来。\n\n先说说 Niantic Spatial 刚落地的核心能力，叫视觉定位。给一个空间建好地图之后，你在这个空间里随便拍一张照片，系统就能通过特征匹配，算出你当时在哪儿。精确到什么程度？正负几厘米，角度误差几分之一度。宏观一点的说法是，半米、半度，轻松做到。\n\n那这个能力是怎么来的？关键是数据采集方式变了。过去要建三维模型，得推着带激光雷达的扫描仪，架着三脚架在空间里慢慢挪。现在，拿一台 360 相机走五分钟，就能建出同样精确的三维重建模型，既能进 VR、AR 里逛，又能直接生成定位地图。\n\n但这还没完，真正的跃迁来自机器学习。他们训练了一个叫 FMVS 的深度模型，能从单张照片估算出足够精确的深度。这一下就改变了很多东西——以前那种输入密度根本没法重建的场景，现在可以重建了。更有意思的是，这把几十年攒下的旧数据全激活了。用 McClendon 的话说：我们可以拿 20 年前的照片和视频，做一些 20 年前不可能做到的重建。历史影像从死库存，变成了可用数据。\n\n不过你可能会问，三维模型已经很常见了，为什么要加时间这一维？这就得说到 Google Earth 的局限了。McClendon 自己评价得很干脆：Google Earth 就是世界的一个快照，为人类看地图这个任务基本做完了，Google Earth 已经足够好了。但城市、工厂、建筑工地真正需要的，不是“看”，而是“回答”：两个日期之间什么变了？那个水泥搅拌机为什么从 A 区挪到了 C 区？\n\n他举了建筑工地的例子。现有的公司只是第一天拍一张、第二天拍一张，让你拖滑块肉眼对比。可人们其实并不想那样做。他们想要的是一份自动报告：水泥搅拌机在第二天期间的某个时候，从 A 区移到了 C 区。然后再把这些变化提炼分类——哪些琐碎无关，哪些是完全违反安全规定、需要立即纠正的。背后的方法论说白了就是一句话：把企业积攒多年的一堆杂乱照片，组织成一个可以当数据库来查询的东西，而不是一堆照片。\n\n那这套东西除了给人用，还能给谁用？答案是机器人。而地图从为人服务延伸到为机器人服务，中间有个大坑。McClendon 的教训来自 Google Maps 时代：人眼能容忍一定误差，但机器人非常字面化，做不对就会绊倒、穿墙。当前机器人训练的最大瓶颈，恰恰是所谓 sim-to-real,也就是仿真到真实的落差——只在计算机生成的仿真环境里训练，机器人被微调得太贴合仿真，一送到真实世界，突然之间事情就对不上了，因为真实世界不像那个仿真那么清晰锐利。\n\n他们的解法是用一种叫 Gaussian Splats 的新渲染技术。这个技术不用传统的三角形网格贴图，而是用一个个大小可变的元素来还原场景，每个元素都记录了各个视角下的颜色，所以反光、透明这些效果都更逼真。用这个技术把真实房间精确捕捉、重建，打包成 USDZ 文件——里面既有 splat 本体，还有碰撞检测网格——一键下载进 NVIDIA 的 Isaac 机器人仿真器。这样机器人就能在一个和真实世界视觉一致的环境里训练了。\n\n讲到这里，这一集最值得工程师带走的观点来了。McClendon 有一个总体判断：那些可以自我检验的问题，AI 可以持续钻研；但如果只是说，这是一张图片，它有什么问题，AI 在这类解读上就非常糟糕。所以打造好的 AI 问题求解器有两面：一找到问题，二在解这一侧构建自检机制——测试数据集加上标准答案。在你用这个数据集取得成功之前，你就还没完成。\n\n从这里还能引申出一套工作方式：并不是所有问题都能在短期内被 AI 解决，但其中一部分可以。而如果你能成功地把你的问题空间设计成有利于 AI 的方式，你就会很快得到一个人类还没想到的解决方案。主持人把这总结成新一代“智能体工程”的关键能力：用钩子或者测试集，让 AI 自己验证自己，输出才可靠。甚至软件开发的形态都会因此改变——不再朝目标随机推进，而是优先挑那些答案可知、容易解决的问题做，直到 AI 变得足够聪明，你再抬高门槛。\n\n当然，现实里难点还在规模化。给一个房间建 4D 模型，是一台机器、一个程序员加大量苦功的事。可 Rancho Cordova 市有大约 50 平方公里要覆盖，他们甚至不知道自己拍的照片都在哪里。大规模采集、组织、建模，就是下一批未解问题。\n\n但终点线确实令人神往。McClendon 的逻辑是：大语言模型从人类知识里挖出了人类没见过的洞见，那物理世界的组织方式里，也藏着尚未被发现的洞见。举个例子，Earth Engine 上有全世界所有河流 30 年的卫星数据，就有人第一次通用地解决了河流蜿蜒问题——这个话题此前只有零星的攻击，从未被系统性地攻克过。Google 做过的最大时光机，是 1984 年以来每 10 米一个像素的卫星影像。而现在团队想做的，是每 10 厘米一个像素。终局，就是让 AI 具备查询真实世界的能力。\n\n这一集听完，最值得记住的就是那句：AI 只在能自我检验的问题上持续钻研——所以别急着抱怨 AI 不行，先把你的问题，设计成它自己能对答案的样子。"
+}

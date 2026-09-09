@@ -79,7 +79,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":30,"深度学习":3,"智能体":1,"沙箱":36,"Condi Rice":1,"harness":21,"Jerry":1,"AMD":2,"前沿模型":8,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":31,"深度学习":3,"智能体":1,"沙箱":36,"Condi Rice":1,"harness":21,"Jerry":1,"AMD":2,"前沿模型":8,"Sega":1}</script>
 
 <script>
 (function(){

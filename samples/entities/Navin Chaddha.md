@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lumilens":1,"Mayfield":1,"Anthropic":110,"OpenAI":98,"NVIDIA":30,"Claude":50,"智能体":1,"推理":5,"GPU":15,"SaaS":14}</script>
+<script type="application/json" class="pd-epn">{"Lumilens":1,"Mayfield":1,"Anthropic":110,"OpenAI":98,"NVIDIA":31,"Claude":50,"智能体":1,"推理":5,"GPU":15,"SaaS":14}</script>
 
 <script>
 (function(){
