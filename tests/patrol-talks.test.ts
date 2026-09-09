@@ -28,14 +28,18 @@ const handleHtml = readFileSync(resolve(FIX, "yt-handle-page.html"), "utf8");
 
 describe("订阅配置(规则是数据)", () => {
   const subs = loadSubscriptions();
-  it("5 频道齐且 channel_id 对(含 2026-08-31 用户点名加的 Anthropic)", () => {
-    expect(subs.map((s) => s.name).sort()).toEqual(["AI Engineer", "Anthropic", "Axios", "LangChain", "Stripe"]);
+  it("6 频道齐且 channel_id 对(含 2026-08-31 加的 Anthropic、2026-09-09 加的 Y Combinator)", () => {
+    expect(subs.map((s) => s.name).sort()).toEqual(["AI Engineer", "Anthropic", "Axios", "LangChain", "Stripe", "Y Combinator"]);
     const byName = Object.fromEntries(subs.map((s) => [s.name, s]));
     expect(byName["AI Engineer"].channelId).toBe("UCLKPca3kwwd-B59HNr-_lvA");
     expect(byName["Axios"].channelId).toBe("UCfU4-ArXuSX0tpyApyklMAg");
     expect(byName["LangChain"].channelId).toBe("UCC-lyoTfSrcJzA1ab3APAgw");
     expect(byName["Stripe"].channelId).toBe("UCM1guA1E-RHLO2OyfQPOkEQ");
     expect(byName["Anthropic"].channelId).toBe("UCrDwWp7EBBv4NwvScIpBDOA"); // 官方频道,Mastering Claude Code 起
+    // 2026-09-09 用户「Y Combinator: why the harness matters… 别的平台都抓到了,为啥你没有」→ 实证该集只发 YouTube、
+    // 不进 YC 播客 RSS;同期 YouTube 15 条 vs 播客 7 条,10 条独占。故订 YC 频道专捞这半边。
+    expect(byName["Y Combinator"].channelId).toBe("UCcefcZRL2oaA_uBNeo5UOWg");
+    expect(byName["Y Combinator"].filters.minDurationSec).toBe(900); // 滤掉 Demo Day/招募公告类短片
   });
   it("过滤规则以数据形式存在:Axios 标题必含 / LangChain 时长下限 / 各家 judgeHint", () => {
     const byName = Object.fromEntries(subs.map((s) => [s.name, s]));

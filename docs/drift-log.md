@@ -274,3 +274,16 @@
 - **同班另一发现(非 bug,一次性)**:最后一次出稿到编排器结束 126 分,其中 **110 分是 31 集音频重合成** —— 正是 drift #87 我清理正文时间戳的那批集,正文变了 → 配音缓存失效 → 重配。一次性代价,已在本班付清;常驻尾巴(重建 + 全库闸门)实测仅 ~13 分。
 - **模式提醒(第三次)**:#83 分隔符、#87 时间戳区间、#93 金句前缀 —— 同一个模型三周内三次改写法。解析器对**非语义**格式噪声必须宽容,对**语义**(段名、时间戳、说话人、逐字命中)保持严格;每次容错都要带真实坏样本进 fixtures。
 
+## drift #94(2026-09-09 用户点名):YC《Why The Harness Matters More Than The Model》没抓到 → YouTube 独占内容 + 巡航链路缺依赖
+- **用户原话**:「这个视频在很多其他平台都抓到了,为啥你这里没有抓到?」
+- **实证**:该集 2026-09-07 发在 YC **YouTube 频道**(videoId n9xKblqyQ28,60 分钟),**不在** YC 播客 RSS(anchor.fm,338 条里 0 条含 harness)。我们订的是播客 RSS;YouTube 订阅清单里当时没有 YC。
+- **缺口有多大**:同期(2026-08-10~09-08)YC YouTube 15 条 vs 播客 RSS 7 条,**10 条独占**,其中 Paper Club 论文拆解、开源模型经济学、白宫 AI 战略访谈等正对味。
+- **顺带查出更严重的:YouTube 巡航链路当时是坏的**。近 80 条 patrol-log:meta-failed 44、seed-failed 29、**成功 0**。真因是 Mac mini 缺依赖:
+  - `ffmpeg` **完全没装** → 下载/合并挂(`seed-talk.mjs:157` 2026-08-31 注释早写过「下载易挂 ffmpeg 196」)
+  - **无 JS 运行时** → 新版 yt-dlp 对 YouTube 提取降级,间歇触发「Sign in to confirm you're not a bot」
+  - `yt-dlp` 停在 2026.07.04(两个月前)
+- **修**:Mac mini 装 `ffmpeg 8.1.2` + `deno 2.9.5`,`yt-dlp` 升到 2026.08.19。修后实测该集元数据一次拿到、**零警告**。
+- **加订阅**:`data/talk-subscriptions.json` 加 Y Combinator(UCcefcZRL2oaA_uBNeo5UOWg),`minDurationSec:900` 滤掉 Demo Day/招募公告类短片,judgeHint 写明"专为捞不进播客 RSS 的那半边"。
+- **教训**:①「订了这个源」≠「拿到了这个源的全部内容」——同一品牌的播客 RSS 与 YouTube 可能是**两套内容**,盘源时要两边都看;②生产机的依赖缺失会让整条链路**静默归零**(日志里全是失败但没人看),这类外部依赖该有开工自检。
+- **待办(同日)**:全源 YouTube 盘点已跑,但原始"独占"数被**短切片和标题格式差异**严重高估(Dwarkesh/Lenny's/Sequoia 的独占多是 1-2 分钟切片,37signals 是产品宣传);正按时长复核,只认长集。
+
