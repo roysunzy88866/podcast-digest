@@ -76,7 +76,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]] [[Max Levchin]]
+[[Jordan Tigani]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]] [[Justin Johnson]]
 
 </div>
 
