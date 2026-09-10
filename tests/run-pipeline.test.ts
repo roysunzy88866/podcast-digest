@@ -219,13 +219,17 @@ describe("C8 · SOURCES 源清单(品味校准后只留绿源)", () => {
     expect(Object.keys(state.cutoffs ?? {}).length).toBeGreaterThan(10);
     expect("workos" in state.cutoffs).toBe(false);
   });
-  it("★★★ C39(2026-09-10 用户拍板加源):三新源在源表、feedUrl 对、走 ASR、且进补历史池(GLM 001[2][4]:原无护栏)", () => {
+  it("★★★ C39/C39b(2026-09-10 用户两轮拍板加源):六新源在源表、feedUrl 对、走 ASR、且进补历史池(GLM 001[2][4]:原无护栏)", () => {
     const by = Object.fromEntries(SOURCES.map((s) => [s.key, s]));
     // 实测数字见 drift #95:sourcery 近60天25集/中位49分、iltb 9集/70分、generalist 3集/76分
-    const expected = { sourcery: "anchor.fm/s/f192713c", iltb: "megaphone.fm/CLS2859450455", generalist: "anchor.fm/s/102eb9800" };
+    const expected = {
+      sourcery: "anchor.fm/s/f192713c", iltb: "megaphone.fm/CLS2859450455", generalist: "anchor.fm/s/102eb9800",
+      // C39b 第二轮(2026-09-10 用户「加」):sed 16集/52分、twist 16集/66分、grit 5集/65分
+      sed: "softwareengineeringdaily.com/feed/podcast", twist: "libsyn.com/shows/624860", grit: "transistor.fm/go-to-market-grit",
+    };
     for (const [k, frag] of Object.entries(expected)) {
       expect(by[k]?.feedUrl, k).toContain(frag);
-      expect(by[k]?.asr, k).toBe("whisperx"); // 三源均无自带稿
+      expect(by[k]?.asr, k).toBe("whisperx"); // ASR 是兜底:feed 自带稿时管线优先用稿(grit 实测带 1 条 SRT),其余五源无稿(GLM 002[1])
       expect(BACKFILL_FEED_KEYS, k).toContain(k); // 供给见底才加的,必须能挖存货
     }
   });

@@ -106,6 +106,14 @@ export const SOURCES = [
   { key: "iltb", name: "Invest Like the Best", feedUrl: "https://feeds.megaphone.fm/CLS2859450455", asr: "whisperx" },
   //   generalist:近 60 天 3 集、中位 76 分;创始人深访,量薄但对味。
   { key: "generalist", name: "The Generalist", feedUrl: "https://anchor.fm/s/102eb9800/podcast/rss", asr: "whisperx" },
+  // C39b(2026-09-10 用户「那就还要加源」→ 第二轮实测后「加」):
+  //   sed:近 60 天 16 集、中位 52 分;AI 工程实操为主,也有新闻速览/纯软件工程,约一半对味,余交判官。
+  { key: "sed", name: "Software Engineering Daily", feedUrl: "https://softwareengineeringdaily.com/feed/podcast/", asr: "whisperx" },
+  //   twist:近 60 天 16 集、中位 66 分;VC/创业访谈为主,也有健康/时政,约一半对味,余交判官。
+  { key: "twist", name: "This Week in Startups", feedUrl: "https://rss.libsyn.com/shows/624860/destinations/5500155.xml", asr: "whisperx" },
+  //   grit:近 60 天 5 集、中位 65 分;题材对味(Arena CEO 谈 AI 榜单 / Booking CEO 谈 AI)。
+  //   注:2026-08-21 调研曾判「偏管理/GTM,最边缘」未加 —— 本次用户看过当期标题后拍板加,反转旧裁决。
+  { key: "grit", name: "Grit", feedUrl: "https://feeds.transistor.fm/go-to-market-grit", asr: "whisperx" },
   { key: "ainativedev", name: "The AI-Native Dev", feedUrl: "https://rss.buzzsprout.com/2375985.rss", asr: "whisperx" }, // AI 原生开发,buzzsprout 词级 JSON(实测 579 段/集),周更约 60 分
   // 2026-09-03 用户拍板扩源(drift #81)。本轮候选全部 curl 实抓核过(iTunes 解析 feed → 真取 → parseFeed):
   //   只收「近 60 天有产量 + 单集成本放得进一个班次」的。**两源都不进补历史池** —— 用户要「只往前抓」。
@@ -139,6 +147,8 @@ export const BACKFILL_FEED_KEYS = [
   // ⚠️ newcomer/engenable **仍不进池** —— drift #81 记着「用户要只往前抓」,今日用户只授权加这三源,
   //    未授权改那条;它俩近 30 天产出 0 集(只往前抓+不在池=挖不到存货),已把选项交回用户,别擅自反转。
   "sourcery", "iltb", "generalist",
+  // C39b(2026-09-10):第二轮三源同样进池(供给见底才加的,必须能挖存货)
+  "sed", "twist", "grit",
 ];
 
 // 带浏览器 UA:Substack 对裸 node 请求可能 403(drift #28)
