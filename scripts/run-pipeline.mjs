@@ -99,6 +99,13 @@ export const SOURCES = [
   { key: "cheekypint", name: "Cheeky Pint", feedUrl: "https://feeds.transistor.fm/cheeky-pint-with-john-collison", asr: "whisperx" }, // Stripe 联创访谈顶级创始人,text 方括号头稿(实测 250 段),更新慢
   // C36c · 2026-08-25 用户「再写两套解析器」:后两源稿格式已扩解析器,秒级直用;解析失败照旧回落 ASR。
   { key: "productpodcast", name: "The Product Podcast", feedUrl: "https://rss.buzzsprout.com/90361.rss", asr: "whisperx" }, // Product School 产品访谈,html 行末裸戳头(实测 44 段/集),周更约 30 分
+  // C39(2026-09-09 用户「确实内容少,那就加源」):供给见底后实测加的三源 —— 全部真抓验证,数字见 drift #95。
+  //   sourcery:近 60 天 25 集(除 a16z 外最高产),中位 49 分;硬科技/AI 基建创始人访谈,约 2/3 对味,余下交判官逐集定。
+  { key: "sourcery", name: "Sourcery", feedUrl: "https://anchor.fm/s/f192713c/podcast/rss", asr: "whisperx" },
+  //   iltb:近 60 天 9 集、中位 70 分;AI 投资/产业格局,嘉宾档次高(Sarah Guo/Ben Thompson)。单集估价 160 分,较贵。
+  { key: "iltb", name: "Invest Like the Best", feedUrl: "https://feeds.megaphone.fm/CLS2859450455", asr: "whisperx" },
+  //   generalist:近 60 天 3 集、中位 76 分;创始人深访,量薄但对味。
+  { key: "generalist", name: "The Generalist", feedUrl: "https://anchor.fm/s/102eb9800/podcast/rss", asr: "whisperx" },
   { key: "ainativedev", name: "The AI-Native Dev", feedUrl: "https://rss.buzzsprout.com/2375985.rss", asr: "whisperx" }, // AI 原生开发,buzzsprout 词级 JSON(实测 579 段/集),周更约 60 分
   // 2026-09-03 用户拍板扩源(drift #81)。本轮候选全部 curl 实抓核过(iTunes 解析 feed → 真取 → parseFeed):
   //   只收「近 60 天有产量 + 单集成本放得进一个班次」的。**两源都不进补历史池** —— 用户要「只往前抓」。
@@ -128,6 +135,10 @@ export const BACKFILL_FEED_KEYS = [
   "pmf", "cheekypint",
   // C36c(2026-08-25 用户「再写两套解析器」):后两源接入,进补历史池
   "productpodcast", "ainativedev",
+  // C39(2026-09-09 用户拍板加源):新三源进池。
+  // ⚠️ newcomer/engenable **仍不进池** —— drift #81 记着「用户要只往前抓」,今日用户只授权加这三源,
+  //    未授权改那条;它俩近 30 天产出 0 集(只往前抓+不在池=挖不到存货),已把选项交回用户,别擅自反转。
+  "sourcery", "iltb", "generalist",
 ];
 
 // 带浏览器 UA:Substack 对裸 node 请求可能 403(drift #28)
@@ -291,7 +302,10 @@ export function selectBackfill(items, { n, existingIds, source }) {
 /** C23 每日新增软目标:当天入库不足它,就倒序补历史顶量(ADR 0021)。软目标不硬凑。
  * 5→8(2026-08-18 用户拍板·standard-change):C28 便宜通道(feed 官方稿秒级取稿)+ 有稿优先落地后,
  * 补一集的成本从 2.8h CPU 掉到分钟级,产能腾出来 → 用户选「白天也开顶量 + 目标提到 8」。 */
-export const DAILY_TARGET = 8;
+// [standard-change: 用户 2026-09-09 拍板「改成 5」]。8 是 2026-08-18 定的,当时靠 60 天窗口里的积压撑着;
+// 2026-09-09 积压见底后实测:34 源自然到货仅 ~3.5 集/天(31 个出货源、人均 0.11),加完 C39 五源约 4.4。
+// 8 在数学上够不着 → 降到 5 与真实产能匹配,顶量的「补完仍差」告警才重新有意义(天天报=没人看)。
+export const DAILY_TARGET = 5;
 
 // ══ C32 · 时间预算守卫(2026-08-20 用户「今天还是没有内容进来」查出的真凶)══
 // 病根实证:GitHub 单个作业 6 小时硬上限。一批 3 集新集,每集 whisperX 转写 66–87 分钟

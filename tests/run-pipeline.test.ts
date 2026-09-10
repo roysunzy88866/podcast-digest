@@ -219,6 +219,22 @@ describe("C8 · SOURCES 源清单(品味校准后只留绿源)", () => {
     expect(Object.keys(state.cutoffs ?? {}).length).toBeGreaterThan(10);
     expect("workos" in state.cutoffs).toBe(false);
   });
+  it("★★★ C39(2026-09-10 用户拍板加源):三新源在源表、feedUrl 对、走 ASR、且进补历史池(GLM 001[2][4]:原无护栏)", () => {
+    const by = Object.fromEntries(SOURCES.map((s) => [s.key, s]));
+    // 实测数字见 drift #95:sourcery 近60天25集/中位49分、iltb 9集/70分、generalist 3集/76分
+    const expected = { sourcery: "anchor.fm/s/f192713c", iltb: "megaphone.fm/CLS2859450455", generalist: "anchor.fm/s/102eb9800" };
+    for (const [k, frag] of Object.entries(expected)) {
+      expect(by[k]?.feedUrl, k).toContain(frag);
+      expect(by[k]?.asr, k).toBe("whisperx"); // 三源均无自带稿
+      expect(BACKFILL_FEED_KEYS, k).toContain(k); // 供给见底才加的,必须能挖存货
+    }
+  });
+  it("★★★ newcomer/engenable 仍不进补历史池(drift #81 用户「只往前抓」;2026-09-10 未授权反转)", () => {
+    for (const k of ["newcomer", "engenable"]) {
+      expect(SOURCES.some((s) => s.key === k), k).toBe(true);
+      expect(BACKFILL_FEED_KEYS, k).not.toContain(k);
+    }
+  });
   it("★ 补历史池(drift #58):含题材贴的深 feed 源;排除 founders/doac/pg/lennys(避免偏题集凑 5/日或 Substack 浅 feed)", () => {
     expect(BACKFILL_FEED_KEYS).toContain("a16z");
     expect(BACKFILL_FEED_KEYS).toContain("beyondcoding");
@@ -467,8 +483,8 @@ describe("selectBackfillRecent · C31 补历史只补 2026、最新优先(替代
     expect(pool).toHaveLength(3);
   });
 
-  it("DAILY_TARGET 是 8(软目标;5→8 = 2026-08-18 用户拍板·standard-change,C28 便宜通道后产能腾出)", () => {
-    expect(DAILY_TARGET).toBe(8);
+  it("★★★ DAILY_TARGET 是 5([standard-change: 用户 2026-09-09];8 够不着 —— 实测自然到货 3.5/天,加完 C39 五源约 4.4)", () => {
+    expect(DAILY_TARGET).toBe(5);
   });
 });
 

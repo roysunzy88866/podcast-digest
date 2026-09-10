@@ -54,6 +54,24 @@
         "minDurationSec": 900,
         "judgeHint": "本频道一半以上内容不进 YC 播客 RSS(实证 2026-08-10~09-08:YouTube 15 条 vs 播客 7 条,10 条独占),故订阅它专为捞这半边。噪音:Demo Day/项目招募/产品发布公告(如「Happy Alumni Demo Day」「Introducing Early Access」)一律不对味;要的是 Paper Club 论文拆解、创始人/高管深访、AI 产业格局与创业方法论。注意与 yc 播客 RSS 同名集会跨源重复,重复判定交云端标题比对,这里只判品味。"
       }
+    },
+    {
+      "key": "sequoia",
+      "name": "Sequoia Capital",
+      "channelId": "UCWrF0oN6unbXrWsTN7RctTw",
+      "filters": {
+        "minDurationSec": 900,
+        "judgeHint": "本频道两套内容:①与已订播客源 trainingdata(Training Data)重复的 47-69 分钟正片 —— 交云端标题比对判重复,这里只判品味;②**只发 YouTube 的 17-29 分钟短访谈**(实证 2026-09-10:6 条库里全无),形如「主题 | 嘉宾, 公司」,正是要的 agent 实操/后训练/评测题材。短于 15 分钟的多为预告片,已由时长下限滤掉。"
+      }
+    },
+    {
+      "key": "greylock",
+      "name": "Greylock",
+      "channelId": "UCZ7x7yDBbEFCGztD8BYvRhA",
+      "filters": {
+        "minDurationSec": 1200,
+        "judgeHint": "要的是 35-58 分钟的企业 agent 落地案例与创始人对谈(Glean/Cresta/Box/Harvey/Braintrust/Baseten 那类)。噪音:5-12 分钟的招聘/融资建议短片、产品发布公告(如「Introducing SuperMe」)一律不对味,已由时长下限滤掉大部分。"
+      }
     }
   ]
 }

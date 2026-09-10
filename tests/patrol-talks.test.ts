@@ -28,8 +28,8 @@ const handleHtml = readFileSync(resolve(FIX, "yt-handle-page.html"), "utf8");
 
 describe("订阅配置(规则是数据)", () => {
   const subs = loadSubscriptions();
-  it("6 频道齐且 channel_id 对(含 2026-08-31 加的 Anthropic、2026-09-09 加的 Y Combinator)", () => {
-    expect(subs.map((s) => s.name).sort()).toEqual(["AI Engineer", "Anthropic", "Axios", "LangChain", "Stripe", "Y Combinator"]);
+  it("8 频道齐且 channel_id 对(2026-08-31 Anthropic / 09-09 YC / 09-10 Sequoia+Greylock)", () => {
+    expect(subs.map((s) => s.name).sort()).toEqual(["AI Engineer", "Anthropic", "Axios", "Greylock", "LangChain", "Sequoia Capital", "Stripe", "Y Combinator"]);
     const byName = Object.fromEntries(subs.map((s) => [s.name, s]));
     expect(byName["AI Engineer"].channelId).toBe("UCLKPca3kwwd-B59HNr-_lvA");
     expect(byName["Axios"].channelId).toBe("UCfU4-ArXuSX0tpyApyklMAg");
@@ -40,6 +40,12 @@ describe("订阅配置(规则是数据)", () => {
     // 不进 YC 播客 RSS;同期 YouTube 15 条 vs 播客 7 条,10 条独占。故订 YC 频道专捞这半边。
     expect(byName["Y Combinator"].channelId).toBe("UCcefcZRL2oaA_uBNeo5UOWg");
     expect(byName["Y Combinator"].filters.minDurationSec).toBe(900); // 滤掉 Demo Day/招募公告类短片
+    // 2026-09-10 用户「确实内容少,那就加源」→ 实测后加:Sequoia 有只发 YouTube 的 17-29 分钟短访谈系列(6 条库里全无);
+    // Greylock 完全不在源表,近 60 天 7 条 35-58 分钟企业 agent 案例。
+    expect(byName["Sequoia Capital"].channelId).toBe("UCWrF0oN6unbXrWsTN7RctTw");
+    expect(byName["Greylock"].channelId).toBe("UCZ7x7yDBbEFCGztD8BYvRhA");
+    expect(byName["Sequoia Capital"].filters.minDurationSec).toBe(900); // 滤掉 <15 分钟预告片(GLM 001[1]:原漏钉)
+    expect(byName["Greylock"].filters.minDurationSec).toBe(1200); // 滤掉 5-12 分钟招聘/融资短片
   });
   it("过滤规则以数据形式存在:Axios 标题必含 / LangChain 时长下限 / 各家 judgeHint", () => {
     const byName = Object.fromEntries(subs.map((s) => [s.name, s]));
