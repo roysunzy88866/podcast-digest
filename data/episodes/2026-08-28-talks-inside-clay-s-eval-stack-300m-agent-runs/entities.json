@@ -1,0 +1,836 @@
+{
+  "episode_id": "2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs",
+  "podcast": "精选演讲",
+  "date": "2026-08-28",
+  "tags": [
+    "智能体",
+    "评估（evals）",
+    "AI 基础设施",
+    "数据平台",
+    "进入市场（GTM）"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "vishu",
+      "type": "person",
+      "role": "host",
+      "name": "Vishu",
+      "file": "Vishu",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            118.514,
+            123.018
+          ],
+          "quote": "So I'm gonna pass it to Vishu to talk about some of the ways that we've evaled and control for that quality.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            597.667,
+            606.47
+          ],
+          "quote": "So yeah, it's a really nice flywheel, both from these automated checks like Engine, but also just to Vishu's point, just the human vibe-based evals, which are usually my favorite.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "clay",
+      "type": "company",
+      "role": "company",
+      "name": "Clay",
+      "file": "Clay",
+      "primary": true,
+      "how_described": "本集把它说成：一家做 go-to-market 数据产品的公司，本身正在从 web UI 转变为一个智能体界面，让所有能力对内外部智能体可用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            95.214,
+            98.397
+          ],
+          "quote": "Now it's actually one of the primary ways that people interact with clay.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 32,
+          "t": [
+            167.332,
+            173.653
+          ],
+          "quote": "And so at Clay, these are some of our priorities as we've started building out a more comprehensive eval suite.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            232.67,
+            237.314
+          ],
+          "quote": "So now we're moving to this world where Sculptor does everything in clay for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            238.035,
+            243.199
+          ],
+          "quote": "And so we should also use like the same eval harness across all the different parts of clay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            508.62,
+            511.322
+          ],
+          "quote": "What's next, both for Clay and for the agents that we're building?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            511.963,
+            517.227
+          ],
+          "quote": "One, I think we'd like to think of Clay, well, Clay itself is really becoming more of an agent interface as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 98,
+          "t": [
+            522.091,
+            527.515
+          ],
+          "quote": "We are also trying to make all parts of Clay available to agents, both internal and external.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 100,
+          "t": [
+            533.419,
+            539.763
+          ],
+          "quote": "So the goal for Clay is actually for anything that you could do in the UI should be available in the CLI as well and in our public API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 102,
+          "t": [
+            541.979,
+            546.3
+          ],
+          "quote": "Well, one, we think that agents actually benefit a lot from tools like Clay.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claygent",
+      "type": "company",
+      "role": "company",
+      "name": "Claygent",
+      "file": "Claygent",
+      "primary": true,
+      "how_described": "本集把它说成：Clay 2023 年推出的 go-to-market 研究智能体，做网络研究、第一方数据集成、高规模运行，每月运行超过 3 亿次。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            131.254,
+            141.703
+          ],
+          "quote": "But now that we're talking about billions of runs on Claygent and having Sculptor do end-to-end tasks for you or these really long-running tasks, evals became non-negotiable.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sculptor",
+      "type": "company",
+      "role": "company",
+      "name": "Sculptor",
+      "file": "Sculptor",
+      "primary": true,
+      "how_described": "本集把它说成：Clay 的 go-to-market 工程智能体，帮用户构建和编排工作流、分析数据，每周收到超 10 万条消息，现在已是用户与 Clay 交互的主要方式之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            13.096,
+            16.598
+          ],
+          "quote": "About a year ago, we launched our second main agent called Sculptor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 5,
+          "t": [
+            17.318,
+            20.499
+          ],
+          "quote": "I'll talk a bit about Sculptor, but Sculptor is our go-to-market engineering agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 6,
+          "t": [
+            20.699,
+            24.961
+          ],
+          "quote": "So Sculptor helps you actually build and orchestrate these go-to-market workflows in the product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 7,
+          "t": [
+            26.272,
+            34.676
+          ],
+          "quote": "And we are in the process of launching many other agents now, but actually one of the agents that we'll talk about today is Sculptor and Search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            34.776,
+            43.3
+          ],
+          "quote": "So actually Sculptor being able to use the Claes Companies and Contacts database to find leads or prospects to grow your business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 18,
+          "t": [
+            85.245,
+            89.469
+          ],
+          "quote": "Back to Sculptor, you know, Sculptor is for building workflows, but also analyzing your data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 19,
+          "t": [
+            89.929,
+            94.513
+          ],
+          "quote": "And again, Sculptor is now, when we launched it a year ago, it was sort of a new product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 21,
+          "t": [
+            98.677,
+            101.439
+          ],
+          "quote": "And we have over 100,000 messages sent to Sculptor every week.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 22,
+          "t": [
+            101.96,
+            108.946
+          ],
+          "quote": "Again, sort of past that threshold of where we could actually look at every trace or talk to every customer to understand what they're using Sculptor for.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 23,
+          "t": [
+            110.387,
+            112.209
+          ],
+          "quote": "Okay, so this is Sculptor for search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 28,
+          "t": [
+            131.254,
+            141.703
+          ],
+          "quote": "But now that we're talking about billions of runs on Claygent and having Sculptor do end-to-end tasks for you or these really long-running tasks, evals became non-negotiable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            232.67,
+            237.314
+          ],
+          "quote": "So now we're moving to this world where Sculptor does everything in clay for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            560.944,
+            565.625
+          ],
+          "quote": "So Sculptor actually has the exact same tools that we expose via the CLI and API.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "langchain",
+      "type": "company",
+      "role": "company",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": true,
+      "how_described": "本集把它说成：Clay 用来持久化、版本化管理 eval 结果以及跑在线评估器和用例分类器的平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            208.658,
+            210.899
+          ],
+          "quote": "So you don't have to go to LangChain and start an experiment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            221.685,
+            222.825
+          ],
+          "quote": "We use LangChain for this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            379.967,
+            385.771
+          ],
+          "quote": "And this is actually where we use LangChain the most and use a lot of their like built out primitives already.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            487.25,
+            498.113
+          ],
+          "quote": "And then we also use like LangChain's use case classifiers and do our own use case tagging to make sure that our evals are actually covering like production use cases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            732.901,
+            738.707
+          ],
+          "quote": "We have traces in LangChain, we have Snowflake Analytics data, we have data in Postgres, we have first-party data in ClickHouse.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：能自主多步执行任务（研究、构建工作流、分析数据、跑一小时级长任务）的 AI，是整个分享的主角——如何把智能体做到生产质量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.272,
+            5.233
+          ],
+          "quote": "We launched our first agent, Claigent, in 2023.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2,
+          "t": [
+            5.973,
+            8.494
+          ],
+          "quote": "Claigent is a go-to-market research agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 4,
+          "t": [
+            13.096,
+            16.598
+          ],
+          "quote": "About a year ago, we launched our second main agent called Sculptor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 5,
+          "t": [
+            17.318,
+            20.499
+          ],
+          "quote": "I'll talk a bit about Sculptor, but Sculptor is our go-to-market engineering agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            46.003,
+            53.546
+          ],
+          "quote": "So briefly, I'll touch again on these two agents, but Clagent is our research agent and mainly has three things that we care about.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 43,
+          "t": [
+            210.919,
+            214.081
+          ],
+          "quote": "You don't have to like provision a new like Claude managed agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            306.878,
+            314.2
+          ],
+          "quote": "So this would be if the agent is answering questions on pricing, make sure it's actually going and reading the pricing scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            322.822,
+            333.685
+          ],
+          "quote": "So this one you can have an agent act as the user, give it a lot of examples from past traces and have it drive the conversation to a conclusion with your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            349.771,
+            358.835
+          ],
+          "quote": "The agent was like too noisy and it was just like another agent that you had to manage and keep up to date and also have evals for and so it just ended up not being worth it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            398.32,
+            402.942
+          ],
+          "quote": "Correcting the agent like pushing back on it or like trying to guide it in a different direction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            433.683,
+            442.836
+          ],
+          "quote": "And so, I mean, eval drift, production drift, this is still an unsolved problem in the agent eval space because there's a lot of things that can go wrong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            511.963,
+            517.227
+          ],
+          "quote": "One, I think we'd like to think of Clay, well, Clay itself is really becoming more of an agent interface as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            572.45,
+            585.702
+          ],
+          "quote": "And anytime there are failures in those tools or failures in those trajectories, we get user signal to either improve the agent harness or the tools themselves, which improves the experience for everyone, including external agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 135,
+          "t": [
+            704.465,
+            709.027
+          ],
+          "quote": "So I think it's one of the first times I've been able to tell an agent, look at these 10,000 examples and find trends.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (eval)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集把它说成：量级上去之后不可协商的质量保障手段，按确定/非确定、离线/在线四格覆盖，eval 漂移与生产漂移仍是智能体评估领域未解决的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            146.066,
+            158.65
+          ],
+          "quote": "If you have a good eval suite, you can let Claude or Codex or Devon kind of go in, make prompt changes for you, let BlinkchainEngine make prompt changes for you, and you know that you're not shipping anything that is going to ruin production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            159.39,
+            166.692
+          ],
+          "quote": "And so we spent a lot of time recently building out evals and rethinking our agentic eval philosophy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            167.332,
+            173.653
+          ],
+          "quote": "And so at Clay, these are some of our priorities as we've started building out a more comprehensive eval suite.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            203.432,
+            207.937
+          ],
+          "quote": "So everything is just like a command line eval suite.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            218.803,
+            220.484
+          ],
+          "quote": "Eval should be persistent and version.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            227.848,
+            231.99
+          ],
+          "quote": "And then eval harnesses are extensible across multiple parts of the product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            238.035,
+            243.199
+          ],
+          "quote": "And so we should also use like the same eval harness across all the different parts of clay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            244.04,
+            253.588
+          ],
+          "quote": "And so anytime users, our developers add a new product, they just bring their eval suite and they bring their own evaluators, like their own LLM judges.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            259.885,
+            262.446
+          ],
+          "quote": "So more on our eval philosophy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            262.506,
+            266.208
+          ],
+          "quote": "So this is our, how we think about eval coverage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            295.989,
+            304.217
+          ],
+          "quote": "So we move to these like structured eval checks that only look at the parts of the query that we actually care about and they're like a little bit more forgiving.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            392.596,
+            397.54
+          ],
+          "quote": "We use like their perceived eval evaluators to see if users are...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            433.683,
+            442.836
+          ],
+          "quote": "And so, I mean, eval drift, production drift, this is still an unsolved problem in the agent eval space because there's a lot of things that can go wrong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            461.738,
+            469.285
+          ],
+          "quote": "Same if you're only hill climbing with like a small eval set, your prompt is probably going to start to mirror just those eval examples.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "trace",
+      "type": "concept",
+      "role": "concept",
+      "name": "轨迹 (trace)",
+      "file": "轨迹",
+      "primary": true,
+      "how_described": "本集把它说成：智能体运行记录，量大到不可能人工全看；生产 traces 被引擎批量分析加人工翻看，并要反哺离线 eval。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            101.96,
+            108.946
+          ],
+          "quote": "Again, sort of past that threshold of where we could actually look at every trace or talk to every customer to understand what they're using Sculptor for.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "llm-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 裁判 (LLM as a judge)",
+      "file": "LLM 裁判",
+      "primary": true,
+      "how_described": "本集把它说成：用大模型给输出打分的自动化评估器，属非确定离线一格；每个模型裁判都有内在偏好，只围着它爬山可能过拟合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            314.92,
+            317.681
+          ],
+          "quote": "Offline and non-deterministic, LLM as a judge.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试框架 (harness)",
+      "file": "测试框架",
+      "primary": true,
+      "how_described": "本集把它说成：Clay 各产品线共用的 eval/智能体测试框架，开发者只需自带 eval 套件和 LLM 裁判即可即插即用；智能体调用工具失败时也用它来改进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            182.195,
+            188.957
+          ],
+          "quote": "And then anything that runs in CI or staging, they should be as close to your production harness as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            238.035,
+            243.199
+          ],
+          "quote": "And so we should also use like the same eval harness across all the different parts of clay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            254.048,
+            257.511
+          ],
+          "quote": "But then the rest of the harness is like there for them and it's plug and play.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            572.45,
+            585.702
+          ],
+          "quote": "And anytime there are failures in those tools or failures in those trajectories, we get user signal to either improve the agent harness or the tools themselves, which improves the experience for everyone, including external agents.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-lake",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据湖 (data lake)",
+      "file": "数据湖",
+      "primary": true,
+      "how_described": "本集把它说成：Clay 正迁移到的数据架构，把第一方和第三方数据汇到同一平台，把智能体当第一等用户，让智能体直接在其上运行和学习。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            623.49,
+            628.112
+          ],
+          "quote": "And we're moving over to a data lake architecture, which is a very fancy, very high scalable way.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集顺带提到本地 eval 不搞沙箱、不搞 VFS，就是命令行评估套件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            191.399,
+            192.741
+          ],
+          "quote": "We don't have a sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到有好的 eval 套件就可以放心让 Claude 这类编码智能体替你改提示词。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.091,
+            1.852
+          ],
+          "quote": "So Claude's actually had agents for a long time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 30,
+          "t": [
+            146.066,
+            158.65
+          ],
+          "quote": "If you have a good eval suite, you can let Claude or Codex or Devon kind of go in, make prompt changes for you, let BlinkchainEngine make prompt changes for you, and you know that you're not shipping anything that is going to ruin production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            210.919,
+            214.081
+          ],
+          "quote": "You don't have to like provision a new like Claude managed agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集与 Claude 并列提及，作为可在好 eval 保护下替你改 prompt 的编码智能体之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            146.066,
+            158.65
+          ],
+          "quote": "If you have a good eval suite, you can let Claude or Codex or Devon kind of go in, make prompt changes for you, let BlinkchainEngine make prompt changes for you, and you know that you're not shipping anything that is going to ruin production.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": false,
+      "how_described": "本集作为 Clay 原本分散的数据源之一被提及（分析数据所在），后与其他数据源汇入统一平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            732.901,
+            738.707
+          ],
+          "quote": "We have traces in LangChain, we have Snowflake Analytics data, we have data in Postgres, we have first-party data in ClickHouse.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

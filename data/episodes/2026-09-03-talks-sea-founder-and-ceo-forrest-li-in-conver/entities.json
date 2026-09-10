@@ -1,0 +1,861 @@
+{
+  "episode_id": "2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver",
+  "podcast": "精选演讲",
+  "date": "2026-09-03",
+  "tags": [
+    "东南亚市场",
+    "支付与金融科技",
+    "创业公司与扩张",
+    "企业文化",
+    "AI 落地"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "tyler-bryson",
+      "type": "person",
+      "role": "host",
+      "name": "Tyler Bryson",
+      "file": "Tyler Bryson",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "forrest-li",
+      "type": "person",
+      "role": "cohost",
+      "name": "Forrest Li",
+      "file": "Forrest Li",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "sea",
+      "type": "company",
+      "role": "company",
+      "name": "Sea",
+      "file": "Sea",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            335.654,
+            341.318
+          ],
+          "quote": "Sea has built an impressive group of companies, Garena, Shopee, Money, all from the ground up.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "garena",
+      "type": "company",
+      "role": "company",
+      "name": "Garena",
+      "file": "Garena",
+      "primary": true,
+      "how_described": "Sea 2009 年起步的游戏业务,通过自造并分销预付卡解决了东南亚玩家付不了费的问题,自研游戏 Free Fire 成全球最大手机游戏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.927,
+            17.87
+          ],
+          "quote": "It was the year 2009 when Garena launched.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            335.654,
+            341.318
+          ],
+          "quote": "Sea has built an impressive group of companies, Garena, Shopee, Money, all from the ground up.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shopee",
+      "type": "company",
+      "role": "company",
+      "name": "Shopee",
+      "file": "Shopee",
+      "primary": true,
+      "how_described": "Sea 的电商业务,游戏业务五年后从零启动,在印尼靠价格零头识别付款人、在巴西靠低价物流网络经验入场,已成为区域日常购物目的地",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            335.654,
+            341.318
+          ],
+          "quote": "Sea has built an impressive group of companies, Garena, Shopee, Money, all from the ground up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1342.937,
+            1348.7
+          ],
+          "quote": "It's a very natural extension from our e-commerce business, Shopee.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1363.968,
+            1369.129
+          ],
+          "quote": "And then along the way we developed the Shopee Pay Wallet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1369.549,
+            1373.61
+          ],
+          "quote": "This has become a mobile wallet and it's highly integrated with Shopee.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1389.053,
+            1400.899
+          ],
+          "quote": "Rather than just make each transaction one by one, they can just store some money into the mobile wallet, and then later on they can just throw our Shopee Pay mobile wallet to make the purchase on Shopee.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1447.058,
+            1456.224
+          ],
+          "quote": "Things like we have more and more merchandise on Shopee, and Shopee has become a daily kind of a destination for people for whatever they need.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1456.304,
+            1461.788
+          ],
+          "quote": "It's basically everything, anytime you want, you can buy from the Shopee.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1470.733,
+            1477.696
+          ],
+          "quote": "This is where we start to think about we should offer them a credit and for them to buy things on Shopee.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1535.459,
+            1543.521
+          ],
+          "quote": "So for that business, like we have to start to like explore with the only give the credit when they buy things on Shopee.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1633.806,
+            1640.529
+          ],
+          "quote": "By the end of the year, Shopee Pay and S-Pay later will be available on the Stripe business network across Southeast Asia.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "type": "company",
+      "role": "company",
+      "name": "Money",
+      "file": "Money",
+      "primary": true,
+      "how_described": "Sea 的金融服务业务,被说成电商的自然延伸:从 Shopee Pay 钱包到先买后付,贷款账簿超 100 亿美元、约 5000 万人在用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            335.654,
+            341.318
+          ],
+          "quote": "Sea has built an impressive group of companies, Garena, Shopee, Money, all from the ground up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            985.693,
+            999.499
+          ],
+          "quote": "If you sell somebody, like sell $100 things, okay, $5 go to logistics, that you can probably still make money, but you sell like $10 things and half of the cost will go to the logistics to make the things that don't work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1315.036,
+            1322.424
+          ],
+          "quote": "Okay, let's shift to talk about money for a minute, because we've talked about how you saw a need for gaming, you saw a need for commerce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1336.733,
+            1342.797
+          ],
+          "quote": "As I just mentioned, we see our financial services called money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1389.053,
+            1400.899
+          ],
+          "quote": "Rather than just make each transaction one by one, they can just store some money into the mobile wallet, and then later on they can just throw our Shopee Pay mobile wallet to make the purchase on Shopee.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1520.641,
+            1533.577
+          ],
+          "quote": "Either they have to delay their purchase or like for late payment for the school fees or the medical needs, any family needs, or they have to borrow the money from the shark loan, like things like very, very high interest.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1543.621,
+            1553.143
+          ],
+          "quote": "And then later on, when we see the credit score, when we know that everybody better, we start to lend them so they can spend the money for anything, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "free-fire",
+      "type": "company",
+      "role": "company",
+      "name": "Free Fire",
+      "file": "Free Fire",
+      "primary": true,
+      "how_described": "Sea 自研并运营的全球最大手机游戏,每天超一亿人玩;在巴西爆红把团队第一次带去巴西,美术外包环节现在几乎全由 AI 完成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            928.863,
+            936.105
+          ],
+          "quote": "And the reason we were there is because for our video game business, we have a self-developed game called Free Fire.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1810.218,
+            1819.54
+          ],
+          "quote": "So we operate a video game, we develop our own mobile games, and today we run the, we develop and operate the largest mobile game in the world called Free Fire.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1967.393,
+            1972.595
+          ],
+          "quote": "As I mentioned, Free Fire, every day, there's more than 100 million people play the game.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "shopee-pay",
+      "type": "company",
+      "role": "company",
+      "name": "Shopee Pay",
+      "file": "Shopee Pay",
+      "primary": true,
+      "how_described": "为解决印尼无法在线支付而开发的移动钱包,与 Shopee 高度集成,已是该地区最大的独立移动钱包之一,年底将上线 Stripe 商业网络",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 269,
+          "t": [
+            1363.968,
+            1369.129
+          ],
+          "quote": "And then along the way we developed the Shopee Pay Wallet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1389.053,
+            1400.899
+          ],
+          "quote": "Rather than just make each transaction one by one, they can just store some money into the mobile wallet, and then later on they can just throw our Shopee Pay mobile wallet to make the purchase on Shopee.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1633.806,
+            1640.529
+          ],
+          "quote": "By the end of the year, Shopee Pay and S-Pay later will be available on the Stripe business network across Southeast Asia.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "s-pay-later",
+      "type": "company",
+      "role": "company",
+      "name": "S Pay Later",
+      "file": "S Pay Later",
+      "primary": true,
+      "how_described": "从发薪周期购买数据长出的信贷产品:先只借给站内购物、信用建立后开放通用借款,将成为 Stripe 在整个东南亚的第一个先买后付选项",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 311,
+          "t": [
+            1633.806,
+            1640.529
+          ],
+          "quote": "By the end of the year, Shopee Pay and S-Pay later will be available on the Stripe business network across Southeast Asia.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1647.783,
+            1661.955
+          ],
+          "quote": "We've been wanting to do more partnering together, so this is a great way, because S Pay Later will be the first Buy Now, Pay Later option we'll have across the Stripe platform in all of Southeast Asia, so more growth ahead, so thank you for that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集活动的东道主,被 Forrest 称为最好的支付解决方案提供商;宣布与 Sea 的合作——Shopee Pay 和 S Pay Later 将上线其商业网络",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            50.787,
+            57.389
+          ],
+          "quote": "And actually, thank you, Stripe, to bring the Stripe tour to Singapore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            185.714,
+            196.161
+          ],
+          "quote": "And actually interesting, because Stripe is really, really famous, it's doing fantastic, the best payment solution provider, and back then we realized actually this is a payment issue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1628.584,
+            1633.526
+          ],
+          "quote": "So on that note, I just want to reemphasize how excited we are at Stripe with the partnership.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1633.806,
+            1640.529
+          ],
+          "quote": "By the end of the year, Shopee Pay and S-Pay later will be available on the Stripe business network across Southeast Asia.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1647.783,
+            1661.955
+          ],
+          "quote": "We've been wanting to do more partnering together, so this is a great way, because S Pay Later will be the first Buy Now, Pay Later option we'll have across the Stripe platform in all of Southeast Asia, so more growth ahead, so thank you for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2514.796,
+            2518.157
+          ],
+          "quote": "At Stripe, we're honored to be a partner and look forward to amazing growth ahead.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gmap",
+      "type": "company",
+      "role": "company",
+      "name": "GMAP",
+      "file": "GMAP",
+      "primary": true,
+      "how_described": "Sea 每年从顶尖大学招 10-20 人的轮岗助理项目,约两年轮岗,最高领导层亲自参与终面,是创业精神制度化的载体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            374.878,
+            380.124
+          ],
+          "quote": "Fresh graduate program called, we call it the GMAP, it's like a matching associate program.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prepaid-card",
+      "type": "concept",
+      "role": "concept",
+      "name": "预付卡 (prepaid card)",
+      "file": "预付卡",
+      "primary": true,
+      "how_described": "本集说它是早期最关键的突破:玩家多为没有信用卡的青少年,Sea 自行设计和制造预付卡、员工开小车配送到每一家网吧,解锁了整个游戏生意",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            240.909,
+            242.81
+          ],
+          "quote": "So we designed our own prepaid card.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            243.765,
+            246.946
+          ],
+          "quote": "And then we distribute our own prepaid card.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            259.35,
+            264.612
+          ],
+          "quote": "And it's all the bags of our self-designed and self-made prepaid card.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            285.365,
+            296.315
+          ],
+          "quote": "The Prepaid Card to not only the convenience store, which is a more common case back then, but actually it's delivered to every single cyber cafe where game play the game is.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bottom-up",
+      "type": "concept",
+      "role": "concept",
+      "name": "自下而上 (bottom-up)",
+      "file": "自下而上",
+      "primary": true,
+      "how_described": "本集反复强调的进入市场哲学:东南亚不是一个市场,外部带来的成熟打法经常失灵,要为每个市场找当地具体问题、做自下而上的方案",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            229.423,
+            240.829
+          ],
+          "quote": "I still remember the early days, we came out a very kind of like a bottom-up menu solutions, and then we decide, okay, if that is the case, let's do something, try to do something differently.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            573.901,
+            581.247
+          ],
+          "quote": "I think it's critical, it's very, very important to come out of the bottom-up solutions for each specific market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            678.913,
+            683.436
+          ],
+          "quote": "We have to identify the bottom up kind of solutions and the cases.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "credit-card-penetration",
+      "type": "concept",
+      "role": "concept",
+      "name": "信用卡渗透率 (credit card penetration)",
+      "file": "信用卡渗透率",
+      "primary": true,
+      "how_described": "本集把它说成贯穿多个业务的根本约束:游戏玩家付不了费、印尼无法在线支付、信贷需求未被满足,背后都是信用卡渗透率极低(印尼至今低于 20%)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            200.664,
+            207.248
+          ],
+          "quote": "And this is again, this is about 15, 20 years again, like a goal, like credit card penetration is super, super low.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1481.518,
+            1494.983
+          ],
+          "quote": "Later on, we realized actually the reason for that is also because of compared to Indonesia, Vietnam, Philippines, compared to the Western market, it's simply because of the credit card penetration is very, very low.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1495.623,
+            1519.48
+          ],
+          "quote": "So in the in the very high penetration credit card market and this credit consumption credit needs so probably can be met by the by the credit card but it's not really the case in in our market even today I think is like Indonesia say for example the the credit card penetration is probably still like below 20 percent so it's most of the people they just don't have the easy access to",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集谈了三个真实落地场景:超过 80% 客户咨询 100% 由 AI 处理且满意度超人工、游戏美术外包几乎全由 AI 完成、游戏中聪明的机器人陪新玩家玩",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 319,
+          "t": [
+            1664.217,
+            1667.961
+          ],
+          "quote": "Okay, we couldn't do a Fireside Chat without talking about AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1683.213,
+            1687.717
+          ],
+          "quote": "Where do you see growth as a result of investing in AI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1724.074,
+            1733.006
+          ],
+          "quote": "Over the time, we realized actually through the chat bot enabled by AI, the satisfaction rate is very, very high.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1747.481,
+            1750.984
+          ],
+          "quote": "Actually, most of the chat is enabled today is by AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1766.475,
+            1778.543
+          ],
+          "quote": "And the things that today is more than 80% of the customer inquiries 100% handled by AI and the satisfaction rate is even higher than the human.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1836.647,
+            1846.335
+          ],
+          "quote": "And so far we have seen a very, very big change in terms of how the game development being impacted by the AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1870.068,
+            1874.034
+          ],
+          "quote": "But this is now the entire outsourcing work is pretty much done by AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1874.234,
+            1882.066
+          ],
+          "quote": "You just think about, you just describe to AI what you are thinking about the arts will look like, what will be the style, what will be the character.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1882.086,
+            1884.449
+          ],
+          "quote": "I think AI can help generate a lot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1934.735,
+            1936.176
+          ],
+          "quote": "So this has been even before AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1941.558,
+            1944.198
+          ],
+          "quote": "But before AI, the bot is not smart enough.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2269.43,
+            2294.437
+          ],
+          "quote": "Love AI, hate AI, so there's so much differences, but at least for that 19 minutes, as long as you are Singaporean, you cheer, everybody cheer for the same team, share the same emotion, and the people next to you is your best buddy for that 19 minutes, and these two persons will never have anything in common out of that stadium, but that 19 minutes, they are going to hug each other, they laugh together, they cry together,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chat-bot",
+      "type": "concept",
+      "role": "concept",
+      "name": "聊天机器人 (chat bot)",
+      "file": "聊天机器人",
+      "primary": false,
+      "how_described": "本集说客服通过 AI 赋能的聊天机器人实现,推出前反复做 A/B 测试确保用户满意,如今大部分客服聊天由它完成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 333,
+          "t": [
+            1724.074,
+            1733.006
+          ],
+          "quote": "Over the time, we realized actually through the chat bot enabled by AI, the satisfaction rate is very, very high.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bot",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人(游戏 NPC) (bot)",
+      "file": "机器人(游戏 NPC)",
+      "primary": true,
+      "how_described": "游戏开发的小秘密:新玩家匹配到的对手很多是机器人,AI 之后聪明到难以分辨,还给只玩单人的玩家配机器人队友,引导他们进入社区",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 333,
+          "t": [
+            1724.074,
+            1733.006
+          ],
+          "quote": "Over the time, we realized actually through the chat bot enabled by AI, the satisfaction rate is very, very high.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1903.915,
+            1924.509
+          ],
+          "quote": "Every time I'm telling a little secret of the game development, you go to play a new game and most of the time you feel you are playing with another human, a people, but actually as a new gamer, high chance you are going to play with a bot because we want to make sure the new gamers have a good boarding experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1933.655,
+            1934.515
+          ],
+          "quote": "We have the bot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1936.216,
+            1941.077
+          ],
+          "quote": "You always have the bot to play to help you understand that familiar, build up the confidence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1941.558,
+            1944.198
+          ],
+          "quote": "But before AI, the bot is not smart enough.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1953.022,
+            1956.823
+          ],
+          "quote": "But today, actually, the bot is very, very smart.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1998.875,
+            2004.503
+          ],
+          "quote": "So, and now with this bot feature, we just pair with them, with the bot if you are kind of a,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2004.783,
+            2026.763
+          ],
+          "quote": "You're anti-social, you're a little bit nerdy, you don't want to reach out to other people, at least you pair with a bot, you just experience the team-based play, and then it's a way to encourage people, so actually it's much more fun of this game, and to encourage to have them have a more social interaction with other gamers, other players in the community.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "humble",
+      "type": "concept",
+      "role": "concept",
+      "name": "谦逊 (humble)",
+      "file": "谦逊",
+      "primary": true,
+      "how_described": "五条公司文化中最重要的一条:不谦逊去倾听就造不出人们需要的东西,落到 CEO 每天亲自读客户邮件、把一半以上案例当流程问题的信号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            1160.732,
+            1165.656
+          ],
+          "quote": "Yeah, we adapt, yeah, and we commit, and we stay humble.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1185.79,
+            1190.693
+          ],
+          "quote": "And among all the five things, we also believe probably the most important one is stay humble.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1217.792,
+            1223.937
+          ],
+          "quote": "It's hard to imagine building something that people need if you're not humble enough to listen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2478.291,
+            2483.873
+          ],
+          "quote": "value and also stay humble and being adaptive.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

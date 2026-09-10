@@ -1,0 +1,139 @@
+===标题===
+Clay 的智能体评估哲学：让 AI 替你改提示词而不毁掉生产
+===导语===
+GTM 数据平台 Clay 团队详解他们如何为月运行数十亿次的销售研究智能体搭建评估体系，以及把智能体变成数据平台第一等用户的实践。
+===正文##
+这一集聊的是一个很实际的问题：当你的 AI 智能体每月要跑数亿次、已经多到你根本看不过来每一条运行记录时，你怎么保证它不把生产环境搞砸？主讲的是 GTM(进入市场)数据平台 Clay 的团队，他们做了两个核心智能体：研究智能体 Claygent(转写稿里有 Claigent/Clagent 等误写)和工程智能体 Sculptor。
+
+先说规模，这是理解后面所有内容的前提。Claygent 是一个搜索公开网页、帮你研究和筛选公司的研究智能体，每月运行超过 3 亿次；Sculptor 一年前面世，帮用户构建和编排 GTM 工作流、分析数据，现在已经成了人们使用 Clay 的主要方式之一，每周收到超过 10 万条消息。这两个数字都远远超过了「团队能逐条看 trace、逐个访谈客户」的阈值——所以质量不能靠人盯，必须靠体系。
+
+## 评估不是可选项，是智能体开发的前提
+
+团队很坦白：最初做智能体产品时，评估做得很烂。但当 Claygent 的运行量到了数十亿次、Sculptor 开始替用户做端到端的长任务时，评估就变成了「不可协商」的事。原因很直接：**只要有一套好的评估套件，你就可以放心让 Claude、Codex、Devin 这类编码智能体进去替你改提示词**——因为你确信不会把任何会毁掉生产环境的东西发布出去。这是智能体开发能提速的根本保障。
+
+他们的评估哲学有四条原则：
+
+1. **分层，本地开发要越轻越好。** 本地的评估套件就是一条命令行，不用去 LangChain 上启动实验、不用配置托管的智能体——改了什么，本地就能跑，智能体还替你执行。本地不关心成本、没有沙箱、没有虚拟文件系统，怎么快怎么来。
+2. **CI/staging 环境要贴近生产。** staging 基本上就用和生产环境一样的东西，保证测的就是你线上跑的。
+3. **评估要持久化、有版本管理。** 即使是本地跑的评估，结果也全部写入 LangChain 存起来。
+4. **测试框架全产品复用。** 走向「Sculptor 在 Clay 里替你做一切」的世界，意味着 Clay 各个部分应该共用同一个评估框架。开发者加新产品时，只需带上自己的评估套件和自己的 LLM 裁判(用大模型给输出打分的自动评判器)，框架其余部分即插即用。
+
+## 覆盖率的四宫格：每一格都要放几样东西
+
+团队用一个 2×2 矩阵来思考评估覆盖：确定性/非确定性 × 离线/在线。
+
+**离线 + 确定性：Goldens 和轨迹断言。** Goldens 就是预先写好的标准答案。他们发现，对简单场景 Goldens 很好用，但评估复杂输出时太静态——查询里关键词顺序或节点顺序一变就失效，于是充满噪音的评估最终会被大家无视。对策是改用结构化的评估检查，只验证输出中真正关心的部分，稍微宽容一些。另一类是轨迹/工具断言：比如智能体在回答定价问题时，必须验证它真的去读了定价表，而不是凭空编。
+
+**离线 + 非确定性：LLM 裁判和模拟用户多轮评估。** 这里有他们最反直觉的发现：让一个智能体扮演用户、拿过往 trace 做示例来驱动对话，听起来很美，但实际开发中发现，**反而是「把用户每一轮的话硬编码」的确定性多轮评估最有用**。因为那个扮演用户的智能体太吵了——它就像另一个你需要维护、保持更新、还要为它再做评估的智能体，最终不值得。
+
+**在线 + 确定性：客观指标。** A/B 测试那套：延迟、成本、用户是否真的从聊天走进了产品其他功能、是否卡住、是否愤然退出。
+
+**在线 + 非确定性：在线评估器。** 这是他们用 LangChain 最多的地方，包括 NPS 式的用户满意度打分、检测用户是否在纠正或反驳智能体的感知类评估器，以及用引擎批量分析生产 trace,再辅以人工翻看。
+
+## 最难的一环：生产信号回流离线评估
+
+整套体系里最重要、也最难搭建的，是把生产中学到的一切反馈回离线评估。因为评估漂移和生产漂移至今是智能体评估领域未解决的问题：数据漂移——你测试的用例和真实生产的用例根本不是一回事；裁判漂移——每个模型家族都有自己的内在偏好，只围绕某一个 LLM 裁判爬山，你就是在对它过拟合；同理，只用很小的评估集去优化提示词，提示词最终只会镜像那几个评估样例。
+
+他们的对策：把在线评估器抓到的例子拉回离线集、用客户支持工单获取强客户信号、维护自己人工标注的 Goldens 来专门判断漂移，再加上 LangChain 的用例分类器和自建的用例打标，确保评估覆盖的确实是生产用例。
+
+## 让内外部智能体用同一套工具，造一个飞轮
+
+Clay 的下一步是把整个产品变成智能体界面。他们过去几周上线了 CLI,目标是：凡是 UI 里能做的事，CLI 和公开 API 里同样能做。这么做有两个理由：一是智能体能从 Clay 这类工具中获益巨大；二是外部智能体的加入创造了飞轮——内部 Sculptor 用的工具和通过 CLI/API 暴露的完全相同，每当工具或调用轨迹出现失败，他们就拿到用户信号，用来改进智能体框架或工具本身，这反过来又改善了所有人的体验，包括外部智能体。自动化检查之外，人类「凭感觉」的评估也是飞轮的一部分。
+
+## 数据基础：让智能体成为数据平台的第一等用户
+
+飞轮扩展到那个量级，瓶颈变成了数据基础设施。他们正在迁移到数据湖架构(把各处数据汇入一个统一、可大幅扩展的存储层再按需计算)，动机很具体：此前 trace 在 LangChain、分析数据在 Snowflake、业务数据在 Postgres、第一方数据在 ClickHouse,智能体想干活就得先把这些数据库串起来。汇到一个平台后，智能体能直接做事，不用再当「数据库连接器」。
+
+关键是他们把智能体当成这个平台的第一等用户来设计：预置大量护栏、允许安全的影子构建——智能体可以构建新数据模型并部署到 S3,因为服务计算和开发计算是分离的，做实验不会把生产搞挂。他们还在大力投资面向智能体的 skills 和 CLI,让智能体能原生访问数据，甚至可以让大模型放手去跑：用 Athena 对大规模数据做分析，或下达「我想要这个数据模型」的目标，让它跑上一两个小时也没关系。
+
+为什么是现在？因为新模型带来了阶跃变化：团队第一次可以对智能体说「看这一万个例子，找出趋势」——不久前这根本不可能，以前只能挑几个例子靠感觉看。现在所有样本都能喂进上下文窗口，再配合子智能体和先建评估再快速迭代的打法，智能体真正能拿着你的数据自主做事了。
+
+收尾时团队描述的终局图景是：构建一个自我迭代的循环——把客户数据和积累的第三方数据拿来、编排、执行、看效果、再反馈回去，产品的所有部分汇入一个统一的数据基础，智能体在其上推理，并构建出更好的自身迭代版本。
+
+## 本集带走
+
+- **好评估是让 AI 改代码的安全网**：有靠谱的评估套件，才敢放心让编码智能体替你改提示词；没有它，智能体开发提速无从谈起。
+- **本地评估要轻到「一条命令」**：本地怎么快怎么来，CI/staging 才贴近生产;评估结果持久化、有版本，否则没人维护。
+- **复杂输出别用死板的标准答案**：Goldens 对简单场景够用，复杂场景改用只验证关键部分的结构化检查；让智能体假扮用户的多轮评估往往不值得，硬编码用户台词反而最有用。
+- **警惕两类过拟合**：只对一个 LLM 裁判优化会过拟合裁判，只用小评估集会过拟合样例；要靠生产信号、客户工单、人工标注持续校准。
+- **内外部智能体共用一套 API 工具**：失败即信号，工具和框架跟着迭代，形成飞轮。
+- **把智能体当数据平台的第一等用户**：统一分散的数据源、预置护栏、分离开发与生产计算，智能体才能放手在大规模数据上做事而不闯祸。
+
+===金句===
+02:11 | Unknown
+EN | But now that we're talking about billions of runs on Claygent and having Sculptor do end-to-end tasks for you or these really long-running tasks, evals became non-negotiable.
+ZH | 但现在我们谈的是 Claygent 上数十亿次的运行，以及让 Sculptor 为你做端到端任务，或者说这些运行时间非常长的任务，评估就变成了不可协商的。
+
+02:26 | Unknown
+EN | If you have a good eval suite, you can let Claude or Codex or Devon kind of go in, make prompt changes for you, let BlinkchainEngine make prompt changes for you, and you know that you're not shipping anything that is going to ruin production.
+ZH | 如果你有一套好的评估套件，你可以让 Claude 或 Codex 或 Devin 之类的进去替你修改提示词，而你确信自己不会发布任何会毁掉生产环境的东西。
+
+04:44 | Unknown
+EN | Goldens are a little bit too static and so switching the ordering of some keywords or switching the node ordering causes them to break and so noisy evals just end up getting ignored.
+ZH | Goldens 就有点太静态了，改变某些关键词的顺序或改变节点顺序就会让它们失效，于是充满噪音的评估最终就被忽视了。
+
+05:06 | Unknown
+EN | So this would be if the agent is answering questions on pricing, make sure it's actually going and reading the pricing scale.
+ZH | 比如如果智能体在回答定价相关的问题，确保它真的去读了定价表。
+
+05:34 | Unknown
+EN | You can do this or you can do the non-deterministic version of this which is like just hard coding the user turns and actually during our development process we found that these deterministic multi-turn evals were actually the most useful.
+ZH | 你可以让智能体扮演用户，也可以做非确定性的版本，就是把用户每一轮的话硬编码进去——而在开发过程中，我们发现这些确定性的多轮评估其实是最有用的。
+
+05:49 | Unknown
+EN | The agent was like too noisy and it was just like another agent that you had to manage and keep up to date and also have evals for and so it just ended up not being worth it.
+ZH | 那个扮演用户的智能体太吵了，它就像另一个你需要管理、保持更新、还要为它做评估的智能体，所以最终不值得。
+
+07:13 | Unknown
+EN | And so, I mean, eval drift, production drift, this is still an unsolved problem in the agent eval space because there's a lot of things that can go wrong.
+ZH | 所以，评估漂移、生产漂移，这在智能体评估领域仍然是个未解决的问题，因为有很多东西可能出问题。
+
+07:30 | Unknown
+EN | JudgeDrift, all of these models and model families have their own internal biases.
+ZH | 裁判漂移——所有这些模型和模型家族都有它们自己的内在偏好。
+
+07:35 | Unknown
+EN | And if you're only hill climbing on a specific LLM judge, you're probably overfitting on it.
+ZH | 如果你只围绕某个特定的 LLM 裁判去爬山，你很可能是在对它过拟合。
+
+07:41 | Unknown
+EN | Same if you're only hill climbing with like a small eval set, your prompt is probably going to start to mirror just those eval examples.
+ZH | 同理，如果你只用一个很小的评估集去爬山，你的提示词很可能开始只是镜像那些评估示例。
+
+09:07 | Unknown
+EN | And two is actually by having external agents, we create this flywheel where both internal and external agents have the same tools.
+ZH | 第二，通过引入外部智能体，我们创造了这个飞轮，让内部和外部智能体拥有相同的工具。
+
+09:32 | Unknown
+EN | And anytime there are failures in those tools or failures in those trajectories, we get user signal to either improve the agent harness or the tools themselves, which improves the experience for everyone, including external agents.
+ZH | 每当这些工具或轨迹出现失败，我们就获得用户信号，用于改进智能体框架或工具本身，从而改善所有人的体验，包括外部智能体。
+
+10:15 | Unknown
+EN | One of the issues we're seeing is that it's hard to scale this with our data primitives.
+ZH | 我们看到的问题之一是，用我们现有的数据基础设施来扩展这件事很难。
+
+10:44 | Unknown
+EN | And this changes a few things to our approach.
+ZH | 而这改变了我们方法的几个方面。
+
+10:50 | Unknown
+EN | So we allow agents to actually build new data models and deploy them on S3.
+ZH | 所以我们允许智能体实际构建新的数据模型并将它们部署到 S3 上。
+
+11:00 | Unknown
+EN | But running some experiments and not bringing down prod is always great.
+ZH | 但是运行一些实验而不把生产环境搞挂，总是很好的。
+
+11:44 | Unknown
+EN | So I think it's one of the first times I've been able to tell an agent, look at these 10,000 examples and find trends.
+ZH | 所以我认为这是我第一次能够告诉一个智能体，看这 10,000 个例子并找出趋势。
+
+11:49 | Unknown
+EN | And that wasn't possible a while ago.
+ZH | 而这在不久前是不可能的。
+
+12:52 | Unknown
+EN | Reason over and build better iterations of themselves, essentially.
+ZH | 本质上是在其之上进行推理，并构建出更好的自身迭代版本。
+
+===END===

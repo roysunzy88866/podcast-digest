@@ -1,0 +1,166 @@
+{
+  "title_zh": "Clay 的智能体矩阵：如何为数十亿次运行建评估",
+  "tldr": "Clay 团队（Jeff、Vishu、Saroosh）讲解旗下研究智能体与工作流智能体的运行规模，以及他们为智能体产品构建评估体系、数据飞轮与统一数据基础的具体做法。",
+  "digest_md": "这一集是 Clay 团队的工程分享，主角是三位讲者：Jeff、负责评估体系的 Vishu、负责数据基础的 Saroosh。Clay 是一家做进入市场（go-to-market，即帮企业找客户、拓业务）数据产品的公司，这一集聊的是他们怎么把智能体（agent，能自主多步执行任务的 AI）做成生产级产品。\n\n钩子是量级：他们的研究智能体 Claygent 每月运行超过 3 亿次，工作流智能体 Sculptor 每周收到超过 10 万条消息 [00:00–01:41 Vishu]。Vishu 直说：这个量级已经大到「不可能在 traces 里全部看一遍，或者即使我们在单个工作区或用户级别去看，通常也有大量的不同 traces」[01:13 Vishu]。也就是说，靠人盯每一条运行记录来保质量，已经彻底行不通了——这整个分享都在回答一个问题：不靠人盯，质量怎么保？\n\n## 两个智能体，一个研究、一个干活\n\nClay 目前有两个主要智能体。Claygent 是进入市场研究智能体，2023 年推出，做三件事：网络研究（这是看家本领）、第一方数据集成（能搜索客户自己的内部数据集）、以及高规模运行。Sculptor 是进入市场工程智能体，一年前推出时还算新产品，现在已经是用户与 Clay 交互的主要方式之一，帮用户构建和编排工作流、分析数据。最新进展是 Sculptor for search：让 Sculptor 使用 Clay 的公司和联系人数据库去找线索、找潜在客户 [00:45–01:52 Vishu]。Jeff 坦承：「可以想象，这件事有很多可能出错的地方，要真正达到生产质量，经历了漫长的旅程」[01:52 Vishu]。\n\n## 评估哲学：量级上去之后，eval 不可协商\n\nVishu 承认，最初构建智能体产品时「我们的评估并不好」，但面对数十亿次运行和 Sculptor 的端到端长任务，评估变成了「不可协商的」。他给出一个很实际的理由：只要有一套好的评估套件，你就可以放心让 Claude、Codex 这类编码智能体直接替你改提示词，因为你确信不会把会毁掉生产环境的东西发布出去 [02:03–02:39 Vishu]。\n\n他们的评估哲学有几条优先级。第一是分层级：本地开发用的 eval 要便宜、要快，不搞沙箱、不搞虚拟文件系统，就是个命令行评估套件——开发者改了什么，智能体就地替他跑；而在 CI（持续集成，代码合并前自动跑检查的机制）或 staging 环境跑的 eval，要尽可能贴近生产环境。用他的话说，这是「在开发者所在之处满足他们」——不必去平台网页上手动启动实验、配置托管智能体 [02:53–03:34 Vishu]。第二，评估要持久化、有版本管理，他们用 LangChain 存储，本地跑的结果也写上去。第三，eval 测试框架在产品各部分之间可扩展：团队正在走向「Sculptor 在 Clay 里替你做所有事」的世界，所以 Clay 各产品线共用同一个 harness（测试框架），开发者加新产品时只需自带 eval 套件和自己的 LLM 裁判（用大模型给输出打分的自动化评估器），框架其余部分即插即用 [03:38–04:14 Vishu]。\n\n## 覆盖率矩阵：每一格都要有东西\n\n他们把 eval 按确定/非确定、离线/在线分成四个格子，目标是每格都放几样东西 [04:22 Vishu]：\n\n- **确定性 + 离线**：Goldens（预先定好的标准答案）。但他们发现，评估简单的东西很好用，评估复杂查询时就太静态了——关键词换个顺序、节点顺序一变就失效，产生太多误报，「noisy 的 eval 最终就被忽视了」。于是他们改用结构化的 eval 检查，只看查询中真正关心的部分，更宽容。这一格还有轨迹/工具断言：比如智能体在回答定价问题，就断言它真的去读了定价数据。\n- **非确定 + 离线**：LLM as a judge，以及模拟用户的多轮对话评估。这里有个反直觉的发现：让一个智能体扮演用户来对话，效果反而不如把用户每一轮的话硬编码进去的确定性版本——扮演用户的智能体太吵了，「它就像另一个你需要管理、保持更新、还要为它做 eval 的智能体，所以最终不值得」[05:49 Vishu]。\n- **确定性 + 在线**：A-B 测试用的客观指标——延迟、成本、用户有没有从聊天走到产品其他部分、是不是卡住、是不是愤然退出。\n- **非确定 + 在线**：这是他们用 LangChain 最多的地方，直接用现成的在线评估器，比如 NPS 式的用户满意度分数、感知类评估器（看用户是不是在纠正智能体、把它往别的方向引导），再用引擎批量分析生产 traces，加上人工翻看 [06:00–06:57 Vishu]。\n\n最难搭的是那条「虚线箭头」：生产中学到的一切要反哺离线 eval。Vishu 说 eval 漂移、生产漂移在智能体评估领域**仍是未解决的问题**——数据漂移（生产用例不是你测试时覆盖的那些）、裁判漂移（每个模型都有内在偏好，「如果你只围绕某个特定的 LLM 裁判去爬山，你很可能是在对它过拟合」；同理，eval 集太小，prompt 会开始只是镜像那几个示例）[07:13–07:50 Vishu]。他们的应对：从在线评估器拉例子进来、用客户支持工单抓高信号反馈、自建人工标注的 goldens 来判断漂移、用 LangChain 的用例分类器加自己的用例打标，确保 eval 真正覆盖生产用例。\n\n## 全部能力开放给智能体，换一个飞轮\n\nJeff 讲未来方向：Clay 本身正在变成一个智能体界面。过去 web UI 是主要界面，现在他们要让 Clay 的所有部分对智能体可用——包括外部的。过去几周他们上线了 CLI，目标是「凡是你在 UI 中能做的事情，都应该在 CLI 以及我们的公开 API 中同样可用」[08:31–09:00 Jeff]。\n\n为什么这么做？一是智能体确实能从 Clay 这类工具里获益；二是关键设计：**通过 API 暴露的工具和内部智能体用的工具完全相同**——Sculptor 用的就是 CLI 和 API 暴露的那套工具。这造出一个飞轮：智能体调用工具时出现失败，团队就拿到用户信号，去改进智能体 harness 或工具本身，体验的改善惠及所有人、包括外部智能体。 Jeff 补充，信号既来自自动化检查，也来自人类凭感觉的评估——「这通常是我最喜欢的」[09:01–10:06 Jeff]。\n\n## 数据基础：把智能体当第一等用户\n\nSaroosh 收尾，指出前面的飞轮有个瓶颈：「用我们的数据基础设施来扩展这件事很难」。他们的动作是迁移到数据湖架构（一种高可扩展的数据存储方式），把第一方和第三方数据汇到同一个平台上，让智能体能在上面直接跑。构建原则是把智能体当**第一等用户**：预先加大量护栏，允许安全的影子构建（shadow build，在不上线的情况下试跑）——智能体可以真的构建新数据模型并部署到 S3，因为服务计算和开发计算是分离的，「运行一些实验而不把生产环境搞挂总是很好的」[10:11–11:03 Saroosh]。他们在大力投资面向智能体的 skills 和 CLI，让智能体能原生访问数据，还能执行长任务：你可以说「去吧，这是目标，我想要这个数据模型」，它可能跑一个小时、两个小时，但能带着海量数据完成。\n\n为什么是现在？Saroosh 说内部已经看到一次阶跃变化：新模型出来后，「这是我第一次能够告诉一个智能体，看这 10,000 个例子并找出趋势——而这在不久前是不可能的」[11:44 Saroosh]。以前只能凭感觉挑几个例子看，现在全喂进上下文窗口，配合新的子智能体和 harness，先建 eval、朝目标快速迭代。另一个动因是他们原本数据源太散：traces 在 LangChain、分析数据在 Snowflake、业务数据在 Postgres、第一方数据在 ClickHouse——全部汇到一个平台后，智能体不用再费劲串联一堆数据库 [12:08–12:26 Saroosh]。终局图景是一个自我迭代的循环：客户数据加第三方数据汇入统一数据基础，智能体在其上推理，「构建出更好的自身迭代版本」[12:52 Saroosh]。\n\n## 本集带走\n\n- **量级是评估的触发器**：月跑 3 亿次起步，人看 traces 就失效了；eval 不是锦上添花，而是让你敢让编码智能体自动改 prompt 的前提。\n- **eval 分四格覆盖**：确定性离线（goldens + 结构化检查 + 轨迹断言）、非确定离线（LLM 裁判、多轮模拟）、确定在线（延迟/成本/用户行为指标）、非确定在线（满意度评估器 + 人工翻看），每格都要有东西。\n- **模拟用户不如硬编码用户**：让智能体扮演用户的多轮 eval 噪声大、本身还要被评估，直接硬编码用户台词的确定性版本反而最有用。\n- **警惕裁判过拟合**：只围着一个小 eval 集或单一 LLM 裁判爬山，prompt 会镜像那几个示例；要用工单、人工标注、用例打标把生产分布持续拉回离线 eval。\n- **内外智能体共用同一套工具**：API、CLI、内部智能体的工具完全一致，调用失败即用户信号，形成改进飞轮。\n- **数据平台把智能体当第一等用户**：服务与开发计算分离 + 预设护栏，让智能体能放心构建数据模型、跑一两个小时的长任务而不弄挂生产。",
+  "quotes": [
+    {
+      "en": "But now that we're talking about billions of runs on Claygent and having Sculptor do end-to-end tasks for you or these really long-running tasks, evals became non-negotiable.",
+      "zh": "但现在我们谈的是 Claygent 上数十亿次的运行，以及让 Sculptor 为你做端到端任务，或者说这些运行时间非常长的任务，评估就变成了不可协商的。",
+      "timestamp": "02:11",
+      "speaker": "Vishu"
+    },
+    {
+      "en": "If you have a good eval suite, you can let Claude or Codex or Devon kind of go in, make prompt changes for you, let BlinkchainEngine make prompt changes for you, and you know that you're not shipping anything that is going to ruin production.",
+      "zh": "如果你有一套好的评估套件，你可以让 Claude、Codex 之类的进去替你修改提示词，而你确信你不会发布任何会毁掉生产环境的东西。",
+      "timestamp": "02:26",
+      "speaker": "Vishu"
+    },
+    {
+      "en": "The agent was like too noisy and it was just like another agent that you had to manage and keep up to date and also have evals for and so it just ended up not being worth it.",
+      "zh": "那个智能体太吵了，它就像另一个你需要管理、保持更新、还要为它做 eval 的智能体，所以最终不值得。",
+      "timestamp": "05:49",
+      "speaker": "Vishu"
+    },
+    {
+      "en": "JudgeDrift, all of these models and model families have their own internal biases.",
+      "zh": "裁判漂移——所有这些模型和模型家族都有它们自己的内在偏好。",
+      "timestamp": "07:30",
+      "speaker": "Vishu"
+    },
+    {
+      "en": "And if you're only hill climbing on a specific LLM judge, you're probably overfitting on it.",
+      "zh": "如果你只围绕某个特定的 LLM 裁判去爬山，你很可能是在对它过拟合。",
+      "timestamp": "07:35",
+      "speaker": "Vishu"
+    },
+    {
+      "en": "Same if you're only hill climbing with like a small eval set, your prompt is probably going to start to mirror just those eval examples.",
+      "zh": "同理，如果你只用一个很小的 eval 集去爬山，你的 prompt 很可能开始只是镜像那些 eval 示例。",
+      "timestamp": "07:41",
+      "speaker": "Vishu"
+    },
+    {
+      "en": "So I think it's one of the first times I've been able to tell an agent, look at these 10,000 examples and find trends.",
+      "zh": "所以我认为这是我第一次能够告诉一个智能体，看这 10,000 个例子并找出趋势。",
+      "timestamp": "11:44",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:11",
+      "speaker": "Vishu",
+      "en": "But now that we're talking about billions of runs on Claygent and having Sculptor do end-to-end tasks for you or these really long-running tasks, evals became non-negotiable.",
+      "zh": "但现在我们谈的是 Claygent 上数十亿次的运行，以及让 Sculptor 为你做端到端任务，或者说这些运行时间非常长的任务，评估就变成了不可协商的。"
+    },
+    {
+      "timestamp": "02:26",
+      "speaker": "Vishu",
+      "en": "If you have a good eval suite, you can let Claude or Codex or Devon kind of go in, make prompt changes for you, let BlinkchainEngine make prompt changes for you, and you know that you're not shipping anything that is going to ruin production.",
+      "zh": "如果你有一套好的评估套件，你可以让 Claude、Codex 之类的进去替你修改提示词，而你确信你不会发布任何会毁掉生产环境的东西。"
+    },
+    {
+      "timestamp": "04:44",
+      "speaker": "Vishu",
+      "en": "Goldens are a little bit too static and so switching the ordering of some keywords or switching the node ordering causes them to break and so noisy evals just end up getting ignored.",
+      "zh": "Goldens 有点太静态了，改变某些关键词的顺序或节点顺序就会让它们失效，于是 noisy 的 eval 最终就被忽视了。"
+    },
+    {
+      "timestamp": "05:49",
+      "speaker": "Vishu",
+      "en": "The agent was like too noisy and it was just like another agent that you had to manage and keep up to date and also have evals for and so it just ended up not being worth it.",
+      "zh": "那个智能体太吵了，它就像另一个你需要管理、保持更新、还要为它做 eval 的智能体，所以最终不值得。"
+    },
+    {
+      "timestamp": "07:22",
+      "speaker": "Vishu",
+      "en": "JudgeDrift, all of these models and model families have their own internal biases.",
+      "zh": "裁判漂移——所有这些模型和模型家族都有它们自己的内在偏好。"
+    },
+    {
+      "timestamp": "07:35",
+      "speaker": "Vishu",
+      "en": "And if you're only hill climbing on a specific LLM judge, you're probably overfitting on it.",
+      "zh": "如果你只围绕某个特定的 LLM 裁判去爬山，你很可能是在对它过拟合。"
+    },
+    {
+      "timestamp": "07:41",
+      "speaker": "Vishu",
+      "en": "Same if you're only hill climbing with like a small eval set, your prompt is probably going to start to mirror just those eval examples.",
+      "zh": "同理，如果你只用一个很小的 eval 集去爬山，你的 prompt 很可能开始只是镜像那些 eval 示例。"
+    },
+    {
+      "timestamp": "07:13",
+      "speaker": "Vishu",
+      "en": "And so, I mean, eval drift, production drift, this is still an unsolved problem in the agent eval space because there's a lot of things that can go wrong.",
+      "zh": "所以，eval 漂移、生产漂移，这在智能体 eval 领域仍然是个未解决的问题，因为有很多东西可能出问题。"
+    },
+    {
+      "timestamp": "09:01",
+      "speaker": "Jeff",
+      "en": "Well, one, we think that agents actually benefit a lot from tools like Clay.",
+      "zh": "嗯，第一，我们认为智能体实际上能从像 Clay 这样的工具中获益良多。"
+    },
+    {
+      "timestamp": "09:26",
+      "speaker": "Jeff",
+      "en": "And the benefit of that is we actually create this nice little flywheel where we see our agents try to invoke these tools.",
+      "zh": "这样做的好处是，我们实际上创造了一个不错的飞轮，我们看到我们的智能体尝试调用这些工具。"
+    },
+    {
+      "timestamp": "10:15",
+      "speaker": "Saroosh",
+      "en": "One of the issues we're seeing is that it's hard to scale this with our data primitives.",
+      "zh": "我们看到的问题之一是，用我们的数据基础设施来扩展这件事很难。"
+    },
+    {
+      "timestamp": "10:50",
+      "speaker": "Saroosh",
+      "en": "So we allow agents to actually build new data models and deploy them on S3.",
+      "zh": "所以我们允许智能体实际构建新的数据模型并将它们部署到 S3 上。"
+    },
+    {
+      "timestamp": "11:00",
+      "speaker": "Saroosh",
+      "en": "But running some experiments and not bringing down prod is always great.",
+      "zh": "但是运行一些实验而不把生产环境搞挂总是很好的。"
+    },
+    {
+      "timestamp": "11:44",
+      "speaker": "Saroosh",
+      "en": "So I think it's one of the first times I've been able to tell an agent, look at these 10,000 examples and find trends.",
+      "zh": "所以我认为这是我第一次能够告诉一个智能体，看这 10,000 个例子并找出趋势。"
+    },
+    {
+      "timestamp": "11:49",
+      "speaker": "Saroosh",
+      "en": "And that wasn't possible a while ago.",
+      "zh": "而这在不久前是不可能的。"
+    },
+    {
+      "timestamp": "12:19",
+      "speaker": "Saroosh",
+      "en": "And so bringing these all into one single platform has enabled our agents to do more without having to try to tie together all these different databases.",
+      "zh": "把这些全部汇集到一个单一平台上，使我们的智能体能够做更多事情，而不必尝试把这些不同的数据库串联起来。"
+    },
+    {
+      "timestamp": "12:52",
+      "speaker": "Saroosh",
+      "en": "Reason over and build better iterations of themselves, essentially.",
+      "zh": "本质上是在其之上进行推理，并构建出更好的自身迭代版本。"
+    },
+    {
+      "timestamp": "01:10",
+      "speaker": "Vishu",
+      "en": "So we've run over 300 million runs a month.",
+      "zh": "我们每月运行超过 3 亿次。"
+    },
+    {
+      "timestamp": "01:38",
+      "speaker": "Vishu",
+      "en": "And we have over 100,000 messages sent to Sculptor every week.",
+      "zh": "我们每周有超过 10 万条发送给 Sculptor 的消息。"
+    }
+  ],
+  "voice_script": "今天这一集是 Clay 团队的工程分享，讲者是三位工程师：Jeff、负责评估体系的 Vishu、负责数据基础的 Saroosh。Clay 是一家做进入市场数据产品的公司——说白了，就是帮企业找客户、拓业务。这一期要聊的，是他们怎么把智能体做成生产级产品，尤其是：当智能体的运行量级大到没法人工盯的时候，质量到底怎么保。\n\n为什么这个问题成立？先看数字。Clay 有两个主要智能体，一个是 Claygent，做进入市场研究，能上网查资料、还能搜客户自己的内部数据，每月运行超过三亿次。另一个叫 Sculptor，帮用户构建和编排工作流、分析数据，每周收到超过十万条消息。Vishu 说得很直白：这个量级，已经不可能把运行记录一条条全部看一遍了。也就是说，靠人盯来保质量，这条路彻底走不通了。\n\n那不靠人盯靠什么？答案就是评估体系，也就是大家常说的 eval。Vishu 承认，刚开始做智能体产品的时候，评估做得并不好。但面对数十亿次运行，加上 Sculptor 要替用户跑端到端的长任务，评估就变成了不可协商的东西。为什么这么说？有个很实际的理由：只要有一套好的评估套件，你就可以放心让 Claude、Codex 这类编码智能体直接替你改提示词，因为你确信不会把会毁掉生产环境的东西发布出去。评估不是锦上添花，是敢让机器自动改机器的前提。\n\n具体怎么做？有几条原则。第一是分层级：本地开发用的评估要便宜、要快，就是一个命令行套件，开发者改了什么，智能体就地替他跑；而持续集成或者预发布环境里跑的评估，要尽可能贴近生产环境。用 Vishu 的话说，这叫在开发者所在之处满足他们。第二，评估结果要持久化、有版本管理。第三，这套测试框架在产品各部分之间可以复用，别的团队要加新产品，只需要自带评估套件和一个大模型裁判，其余即插即用。\n\n接下来是最有意思的部分：他们把评估按确定不确定、离线在线，分成四个格子，目标是每一格里都得有东西。确定性加离线，就是预先定好的标准答案。但他们发现，评估简单问题还好，评估复杂查询就太静态了——关键词换个顺序就失效，误报太多，而一个噪声很大的评估，最后大家干脆就忽视了。所以他们改成结构化检查，只看真正关心的那部分。再配上轨迹断言，比如智能体在回答定价问题，那就断言它真的去读了定价数据。\n\n第二格是非确定加离线，主要是让大模型当裁判。这里有个反直觉的发现：让一个智能体扮演用户来做多轮对话评估，效果反而不如把用户每句话硬编码进去的确定性版本。原因是那个扮演用户的智能体太吵了——它就像另一个你需要管理、保持更新、还要为它做评估的智能体，所以最终不值得。第三格是确定性加在线，就是 A-B 测试里的硬指标：延迟、成本、用户有没有从聊天走到产品里、是不是愤然退出。第四格是非确定加在线，用现成的满意度评估器，看用户是不是在纠正智能体，再加上人工翻看。\n\n那这四格之间怎么联动？最难搭的就是那条反哺线：生产里学到的东西，要流回离线评估。这里有个坑，Vishu 说得很透：所有模型都有内在偏好，如果你只围绕某个特定的大模型裁判去爬山，你很可能是在对它过拟合。同理，评估集太小，你的提示词可能只是在镜像那几个示例。而且评估漂移、数据漂移，在智能体评估领域至今仍是未解决的问题。他们的应对是从在线评估器里拉例子、用客户支持工单抓高信号反馈、自建人工标注的标准答案，确保评估真正覆盖生产里出现的用例。\n\n讲完评估，Jeff 聊了未来方向，这一步和评估是连着的。Clay 正在把自己变成一个智能体界面——过去网页是主要界面，现在他们要让 Clay 的所有能力对智能体开放，刚上线了命令行工具。关键设计在于：通过 API 暴露的工具，和内部智能体用的工具完全相同。Sculptor 用的就是那套对外暴露的工具。这就造出一个飞轮：智能体调用工具时出错了，团队就拿到用户信号，去改进工具本身，改善惠及所有人，包括外部智能体。\n\n不过这个飞轮有个瓶颈，就是数据基础设施。Saroosh 收尾讲了怎么解。他们的做法是迁移到数据湖架构，把散在各处的数据——运行记录、分析数据、业务数据、第一方数据——全部汇到同一个平台，让智能体能直接在上面跑。构建原则是把智能体当第一等用户：预先加好护栏，允许安全的影子构建，也就是不上线先试跑。服务计算和开发计算是分离的，所以智能体可以真的构建新数据模型，跑一个小时两个小时的长任务，而不把生产环境搞挂。\n\n为什么是现在做这件事？Saroosh 说内部已经看到一次阶跃变化：这是第一次，可以告诉一个智能体，看这一万个例子并找出趋势——这在不久前还是不可能的。以前只能凭感觉挑几个看，现在全喂进上下文窗口，配合新的子智能体，先建评估，再朝目标快速迭代。终局是一个自我迭代的循环：客户数据和第三方数据汇入统一的数据基础，智能体在上面推理，构建出更好的自身迭代版本。\n\n回头看这一集，核心其实就一句话：当运行量级到了数十亿次，评估就不再是可选项——它是让你敢把质量交给机器的那张安全网。"
+}

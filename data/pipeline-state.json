@@ -49,7 +49,9 @@
     "6eBSHbLKuN0": "2025-05-22-talks-mastering-claude-code-in-30-minutes",
     "U5OM6MRI9mw": "2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar",
     "U8oDMct5-gw": "2026-05-20-talks-the-infrastructure-behind-ai-agents-with",
-    "4GmHpHyoKmo": "2026-08-25-talks-canva-cofounder-and-coo-cliff-obrecht-in"
+    "4GmHpHyoKmo": "2026-08-25-talks-canva-cofounder-and-coo-cliff-obrecht-in",
+    "Uny6LpmjraI": "2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs",
+    "CEYGln3s9MM": "2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
@@ -64,9 +66,9 @@
   "cutoffs": {
     "lennys": "2026-09-08T12:31:49.000Z",
     "pg": "2026-09-04T23:01:00.000Z",
-    "a16z": "2026-09-09T10:00:00.000Z",
+    "a16z": "2026-09-10T10:00:00.000Z",
     "yc": "2026-09-05T14:00:00.000Z",
-    "mad": "2026-08-27T14:22:21.000Z",
+    "mad": "2026-09-10T11:30:00.000Z",
     "trainingdata": "2026-09-01T09:00:00.000Z",
     "bigtech": "2026-09-09T11:54:00.000Z",
     "aiandi": "2026-09-02T17:13:19.000Z",
@@ -88,7 +90,7 @@
     "howiai": "2026-09-07T11:00:00.000Z",
     "unsupervised": "2026-08-03T12:55:21.000Z",
     "twiml": "2026-09-09T20:05:00.000Z",
-    "eyeonai": "2026-09-08T15:00:00.000Z",
+    "eyeonai": "2026-09-10T13:43:00.000Z",
     "indepth": "2026-08-27T11:00:00.000Z",
     "uncapped": "2026-09-01T09:00:00.000Z",
     "pmf": "2026-09-07T09:00:00.000Z",
@@ -902,6 +904,24 @@
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "Inside Saronic’s $9.25B Autonomous Boat Factory | CEO Dino Mavrookas",
       "pubDate": "2026-09-07T10:00:00.000Z"
+    },
+    {
+      "id": "2026-09-10-a16z-aram-x-jen-x-dg-draft-dxgkjks2",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "How AI Is Rewriting the Power Law of Venture Capital",
+      "pubDate": "2026-09-10T10:00:00.000Z"
+    },
+    {
+      "id": "2026-09-10-mad-when-ai-improves-itself--richard-socher",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "When AI Improves Itself | Richard Socher (Recursive)",
+      "pubDate": "2026-09-10T11:30:00.000Z"
+    },
+    {
+      "id": "2026-09-10-eyeonai-the-reason-30-years-of-cybersecurity-has",
+      "reason": "题材不对味:网络安全主题属传统工程/安全领域,非档案收录的 AI 商业/产业/实操面",
+      "title": "The Reason 30 Years of Cybersecurity Has Failed - and What Actually Fixes It | Trent Telford, Qanapi",
+      "pubDate": "2026-09-10T13:43:00.000Z"
     }
   ]
 }

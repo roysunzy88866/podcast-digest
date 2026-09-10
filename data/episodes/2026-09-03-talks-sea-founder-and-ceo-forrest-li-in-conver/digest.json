@@ -1,0 +1,154 @@
+{
+  "title_zh": "Sea 创始人 Forrest:从网吧预付卡到 100 亿美元放贷",
+  "tldr": "Sea 集团创始人 Forrest(Lion City Sailors 队主、新加坡足协会长)在 Stripe 新加坡活动上讲创业史：靠支付突破起家、自下而上做本地化、AI 客服满意度超人工。",
+  "digest_md": "这一集是 Stripe 巡回活动新加坡站的炉边谈话，主持人 Tyler 对话的是 Sea 集团创始人 Forrest——他一手创办了 Garena(游戏)、Shopee(电商)和金融业务三块业务，如今公司有 6 万名员工。最反直觉的一点是：这家游戏公司早期最关键的突破，不是游戏，而是支付。\n\n> 【背景】Sea 的金融科技业务即 SeaMoney。\n\n## 起源：没人收得到钱的游戏市场\n\nForrest 自己是重度玩家，来新加坡后发现这里有非常浓厚的游戏文化，网吧里全是打《魔兽世界》和《英雄联盟》的人。但去问任何游戏行业高管“东南亚是不是好市场”，没人考虑——因为从来没见到来自东南亚的收入。\n\n深入一看，缺口其实在支付：玩家大多是青少年，信用卡渗透率极低，再爱游戏也没办法付费。于是 Sea 设计并自己分销预付卡。他至今记得牛车书店屋里的第一个办公室，一半堆满预付卡袋子；一位美国名校计算机毕业、以为自己是来做世界级编程的员工，开着小车跑遍新加坡，把预付卡送进每一家有玩家的网吧。玩家付得了钱、开发者有了收入，支付成了早期增长的巨大解锁点。\n\n## 三个产品都能成的两个理由\n\n大多数公司连一个产品都做不好，Sea 却从零做成了三个。Forrest 归因于两点。一是创业精神制度化：每年从顶尖大学招 10-20 人进一个约两年的轮岗项目(GMAP),最高领导层亲自参与终面。他在最新一批毕业典礼上只强调一句话：不管你毕业后在做什么，记住你加入的是一家创业公司，不是大公司。二是创业不等于耍酷，要回到根本去识别具体问题：进入游戏业务五年后做电商，理由很简单——美国和中国电商做得那么好，为什么东南亚没有？如果这是机会、又相信自己，就抓。\n\n## 外人不懂的事：东南亚不是一个市场\n\n新加坡和越南只隔两小时航程，但经济发展阶段、生活方式差异巨大。而竞争者大多来自中国或美国，带着本土市场验证过的打法进来，假设“在我那行得通，在这也行得通”——结果往往不成立。新加坡公司的好处是被迫从第一天就出海，他早期就自称“跨国初创公司”，进任何市场都要做自下而上的方案。\n\n他给了两个例子。**印尼的付款难题**：十年前上线 Shopee(他口中的 ShopKey 即指电商业务)，人们能下单却无法在线支付——得拿一个代码跑去 ATM 或银行网点付款，而银行出于安全还不透露付款人身份，等于“卖了 10 瓶水、收到了钱、不知道谁付的”。他们的土办法：把 10 瓶水按 10 个只差一印尼盾零头的不同价格卖，让价格本身成为买家身份标识，再雇几百人每天人工对账。**巴西的机会**：2019 年因为自研游戏 Free Fire 在巴西爆红，他带领导层首次去巴西，却发现电商渗透率比印尼还低——原因只有一个包裹物流成本超过 5 美元，导致电商反直觉地成了“有钱人的东西”。这正好撞上他们在东南亚积累的低价物流网络经验，于是入场。\n\n## 文化五条，最重要的一条是谦逊\n\n公司第五年，规模大到员工见不到领导了，他把领导层关在一起一个周末，半天就定下五条文化：我们服务(we serve)、我们奔跑(we run)、我们适应(we adapt)、我们承诺(we commit)、我们保持谦逊(we stay humble)。他认为最重要的是“保持谦逊”——不谦逊去倾听，就造不出人们需要的东西。\n\n谦逊落到了具体动作上：他每天直接收到客户邮件(邮箱大概在哪儿被公开了)，每封都认真对待，领导层全程可见。他说，超过一半的案例在解决具体问题之外，还暴露出公司流程本身出了问题——这正是这些邮件的价值。\n\n## 金融业务：从钱包到 100 亿美元的贷款账簿\n\n金融是电商的自然延伸。印尼支付难题催生了 Shopee Pay 钱包，如今已是区域最大的独立移动钱包之一。他们还从数据里发现购买量在月中和月底激增——和发薪周期完全同步；随着 Shopee 变成日常购物目的地，不该让买家被发薪日限制，于是先在站内购物场景提供信贷，等信用评分积累够了再开放通用借款(pay later),背后是当地信用卡渗透率极低的现实——印尼至今低于 20%,很多人只能推迟学费医疗支出或去借高利贷。\n\n业务规模：贷款账簿超过 100 亿美元，约 5000 万人有未结清信贷，人均约 200 美元——在新加坡不算什么，但对市场里的很多人是日常生活的巨大差别，同时也是一门可持续的生意。主持人宣布：年底起 Shopee Pay 和 S-Pay Later 将上线 Stripe 商业网络，S-Pay Later 是 Stripe 在整个东南亚的第一个先买后付选项。\n\n## AI 落地的三个真实场景\n\n**客服**：每天数百万订单，如今超过 80% 的客户咨询 100% 由 AI 处理，满意度甚至高于人工客服。他们推出得非常谨慎——不是为了省成本，而是反复做 A/B 测试确保用户满意才上线。\n\n**游戏美术**：Free Fire(每天超过一亿人玩、全球最大的手机游戏)过去需要一大群美术师生成概念图、大部分外包，再由资深美术师收尾——现在整个外包环节几乎全由 AI 完成，描述想要的风格和角色即可。\n\n**游戏机器人**：他透露游戏开发的行业小秘密——新玩家匹配到的“对手”很多其实是机器人，为的是避免新手被老手打崩流失。过去机器人不够聪明，玩一阵就会被识破；现在很难分辨，而且他们发现约一半玩家只玩单人不社交，于是给这些人配上机器人队友，让他们体验组队乐趣，再逐步引导进社区。\n\n## 足球：又一个“创业公司”\n\n他同时是新加坡足球协会会长和狮城水手队老板。理由始于个人：创业者不得不放弃所有爱好，足球是唯一还在的，那 90 分钟是他大脑唯一的休息。但扩展到公共层面，是因为他坐出租车总听司机聊“20 年前的新加坡足球”——“如果你一直谈论 20 年前，你就会永远停留在 20 年前”。上任一年半，他说这像极了公司起步阶段：没人相信、说 20 年都没成过，但他看到人们真的在乎。一周前国家队在泰国客场，体育场座无虚席，输了球也没人提前离场。在今天这个充满分歧的世界——不同种族、宗教、政治观点，爱 AI 的和恨 AI 的——至少在那 90 分钟里，所有新加坡人为同一支球队欢呼、共享同一种情感。\n\n## 给创始人的建议：从未想过放弃\n\n被问到秘诀，他说最近回顾历程才意识到自己的一点特殊之处：一路起起伏伏、多次看不到希望、在黑暗中摸索，但整个历程中从来没有一个瞬间——发自内心地——想过放弃。只要有那份抱负和信念，总有办法；有时你只是继续待在场上，问题甚至会自行解决。再配上“保持谦逊”和“保持适应力”，回头看你会发现那些最艰难的时刻在成功中扮演了关键角色。\n\n## 本集带走\n\n- **发现缺口先看支付/基础设施**：东南亚游戏市场的最大障碍不是没人爱玩，而是玩家没信用卡——自造预付卡、自建分销，才解锁了整个生意。\n- **别把东南亚当一个市场**：外部带来的成熟打法经常失灵，进每个市场都要自下而上找当地的具体问题(印尼的 ATM 付款、巴西的 5 美元物流成本)，土办法也行(用价格零头识别付款人)。\n- **文化趁早立、以身作则起步**：五条文化半天定出，但核心是领导层真的践行——CEO 每天亲自读客户邮件，并把一半以上的投诉当流程问题的信号。\n- **信贷产品从场景里长出来**：从发薪周期数据发现需求，先只借给站内购物，信用建立后再开放通用借款——低信用卡渗透率市场里，200 美元/人的小额信贷就能改变生活，也撑得起 100 亿美元的生意。\n- **AI 落地挑满意度而不是成本**：客服机器人靠 A/B 测试做到满意度超人工才全量，80% 咨询全由 AI 处理；美术外包环节已被 AI 基本取代。",
+  "quotes": [
+    {
+      "en": "This is end up like being in Brazil, actually counter-intuitive e-commerce is for the wealthy people.",
+      "zh": "这最终导致在巴西，很反直觉，电商成了给有钱人的东西。",
+      "timestamp": "16:40",
+      "speaker": "Forrest Li"
+    },
+    {
+      "en": "It's hard to imagine building something that people need if you're not humble enough to listen.",
+      "zh": "如果你没有足够的谦逊去倾听，很难想象你能打造出人们真正需要的东西。",
+      "timestamp": "20:17",
+      "speaker": "Tyler Bryson"
+    },
+    {
+      "en": "We have over $10 billion loan book. So it's like we land out throughout ourself, land out like over $10 billion.",
+      "zh": "我们有超过 100 亿美元的贷款账簿。也就是说我们自己放出去的贷款超过 100 亿美元。",
+      "timestamp": "26:05",
+      "speaker": "Forrest Li"
+    },
+    {
+      "en": "And the things that today is more than 80% of the customer inquiries 100% handled by AI and the satisfaction rate is even higher than the human.",
+      "zh": "如今超过 80% 的客户咨询 100% 由 AI 处理，而且满意度甚至比人类更高。",
+      "timestamp": "29:26",
+      "speaker": "Forrest Li"
+    },
+    {
+      "en": "Every time I'm telling a little secret of the game development, you go to play a new game and most of the time you feel you are playing with another human, a people, but actually as a new gamer, high chance you are going to play with a bot.",
+      "zh": "每次我都在透露游戏开发的一个小秘密：你去玩一款新游戏时，大多数时候你觉得在跟真人玩，但作为新玩家，你很可能是在跟机器人玩。",
+      "timestamp": "31:43",
+      "speaker": "Forrest Li"
+    },
+    {
+      "en": "So if you keep talking about 20 years ago, you will keep talking about 20 years ago forever.",
+      "zh": "如果你一直谈论 20 年前的事，你就会永远停留在谈论 20 年前。",
+      "timestamp": "36:26",
+      "speaker": "Forrest Li"
+    },
+    {
+      "en": "But at least for that 19 minutes, as long as you are Singaporean, you cheer, everybody cheer for the same team, share the same emotion, and the people next to you is your best buddy for that 19 minutes.",
+      "zh": "但至少在那段时间里，只要你是新加坡人，你就会欢呼，每个人为同一支球队欢呼，分享同样的情感，你身边的人在那段时间里就是你最好的伙伴。",
+      "timestamp": "37:52",
+      "speaker": "Forrest Li"
+    },
+    {
+      "en": "The problem sometimes even just solved by itself. But the very important thing is just trust yourself, believe yourself, and never, never give up.",
+      "zh": "问题有时甚至会自行解决。但非常重要的事情就是相信自己，信任自己，永远、永远不要放弃。",
+      "timestamp": "41:01",
+      "speaker": "Forrest Li"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:05",
+      "speaker": "Forrest",
+      "en": "It's like you have such a big user base, people love the games, there's no business case. And actually interesting, because Stripe is really, really famous... and back then we realized actually this is a payment issue.",
+      "zh": "你有这么庞大的用户群，人们热爱游戏，却没有商业案例。而这很有意思——我们就意识到，这其实是一个支付问题。"
+    },
+    {
+      "timestamp": "07:00",
+      "speaker": "Forrest",
+      "en": "It's remember you are joining a startup. You are not joining a big company.",
+      "zh": "要记住，你加入的是一家创业公司。你不是在加入一家大公司。"
+    },
+    {
+      "timestamp": "09:33",
+      "speaker": "Forrest",
+      "en": "I think it's critical, it's very, very important to come out of the bottom-up solutions for each specific market.",
+      "zh": "我认为至关重要的是，要为每个特定市场推出自下而上的解决方案。"
+    },
+    {
+      "timestamp": "13:23",
+      "speaker": "Forrest",
+      "en": "So for us, it's like, okay, we sell 10 bottles off of waters, and we receive the payment, but we didn't know who paid us.",
+      "zh": "对我们来说就是：好吧，我们卖出了 10 瓶水，收到了付款，但我们不知道是谁付的钱。"
+    },
+    {
+      "timestamp": "14:46",
+      "speaker": "Forrest",
+      "en": "But this is the type of localization, like solve problems. It's not in some playbook from the United States or from China.",
+      "zh": "但这就是那种本地化解决问题的方式。它不在来自美国或中国的任何一本手册里。"
+    },
+    {
+      "timestamp": "16:40",
+      "speaker": "Forrest",
+      "en": "This is end up like being in Brazil, actually counter-intuitive e-commerce is for the wealthy people.",
+      "zh": "这最终导致在巴西，很反直觉，电商成了给有钱人的东西。"
+    },
+    {
+      "timestamp": "19:45",
+      "speaker": "Forrest",
+      "en": "And among all the five things, we also believe probably the most important one is stay humble.",
+      "zh": "而在这五条当中，我们也认为最重要的可能是「保持谦逊」。"
+    },
+    {
+      "timestamp": "20:17",
+      "speaker": "Tyler",
+      "en": "It's hard to imagine building something that people need if you're not humble enough to listen.",
+      "zh": "如果你没有足够的谦逊去倾听，很难想象你能打造出人们真正需要的东西。"
+    },
+    {
+      "timestamp": "21:26",
+      "speaker": "Forrest",
+      "en": "We solved that specific issue, but I would say more than half of the situation, this also reflects something wrong with our process, with our flow.",
+      "zh": "我们解决了那个具体问题，但我想说，超过一半的情况，这也反映了我们的流程、我们的流转中出了某些问题。"
+    },
+    {
+      "timestamp": "26:05",
+      "speaker": "Forrest",
+      "en": "We have over $10 billion loan book. So it's like we land out throughout ourself, land out like over $10 billion.",
+      "zh": "我们有超过 100 亿美元的贷款账簿。也就是说我们自己放出去的贷款超过 100 亿美元。"
+    },
+    {
+      "timestamp": "29:26",
+      "speaker": "Forrest",
+      "en": "And the things that today is more than 80% of the customer inquiries 100% handled by AI and the satisfaction rate is even higher than the human.",
+      "zh": "如今超过 80% 的客户咨询 100% 由 AI 处理，而且满意度甚至比人类更高。"
+    },
+    {
+      "timestamp": "31:43",
+      "speaker": "Forrest",
+      "en": "Every time I'm telling a little secret of the game development, you go to play a new game and most of the time you feel you are playing with another human, a people, but actually as a new gamer, high chance you are going to play with a bot.",
+      "zh": "每次我都在透露游戏开发的一个小秘密：你去玩一款新游戏时，大多数时候你觉得在跟真人玩，但作为新玩家，你很可能是在跟机器人玩。"
+    },
+    {
+      "timestamp": "36:26",
+      "speaker": "Forrest",
+      "en": "So if you keep talking about 20 years ago, you will keep talking about 20 years ago forever.",
+      "zh": "如果你一直谈论 20 年前的事，你就会永远停留在谈论 20 年前。"
+    },
+    {
+      "timestamp": "37:49",
+      "speaker": "Forrest",
+      "en": "But at least for that 19 minutes, as long as you are Singaporean, you cheer, everybody cheer for the same team, share the same emotion, and the people next to you is your best buddy for that 19 minutes.",
+      "zh": "但至少在那段时间里，只要你是新加坡人，你就会欢呼，每个人为同一支球队欢呼，分享同样的情感，你身边的人在那段时间里就是你最好的伙伴。"
+    },
+    {
+      "timestamp": "40:22",
+      "speaker": "Forrest",
+      "en": "But I realized along the entire journey, there is never any single moment, this is truly from the bottom of my heart, I think about giving up.",
+      "zh": "但我发现在整个历程中，从来没有哪一个时刻——这是发自内心的——我想过放弃。"
+    },
+    {
+      "timestamp": "41:01",
+      "speaker": "Forrest",
+      "en": "The problem sometimes even just solved by itself. But the very important thing is just trust yourself, believe yourself, and never, never give up.",
+      "zh": "问题有时甚至会自行解决。但非常重要的事情就是相信自己，信任自己，永远、永远不要放弃。"
+    }
+  ],
+  "voice_script": "今天这一集，是 Stripe 巡回活动新加坡站的一场炉边谈话，主持人 Tyler 对话的是 Sea 集团的创始人 Forrest。这个名字你可能不算熟，但他的业务你大概率听说过：游戏起家的 Garena、电商平台的 Shopee,还有金融业务 SeaMoney。三块业务都是从零做起来的，如今公司有六万名员工。他本人还是新加坡足球协会会长，也是狮城水手队的老板。这场对话讲的就是这么一个人，怎么把一家游戏公司，做成了横跨游戏、电商、金融和足球的庞大生意。\n\n而整场谈话里最反直觉的一点是：这家游戏公司早期最关键的突破，不是游戏，而是支付。\n\n这事得从头说起。Forrest 自己是个重度玩家，来了新加坡之后发现，这里的游戏文化特别浓，网吧里全是打《魔兽世界》和《英雄联盟》的人。但你去问任何一个游戏行业高管，东南亚是不是个好市场？没人考虑。为什么？因为从来没人见到过来自东南亚的收入。\n\n再深入一看，缺口其实出在支付上。东南亚的玩家大多是青少年，信用卡渗透率极低，再爱游戏也没办法掏钱。于是 Sea 干了一件很土但很关键的事：自己设计预付卡，再自己把它分销出去。至今还记得第一个办公室的样子，一半的空间堆满了装预付卡的袋子。有一位美国名校计算机毕业的员工，本来以为自己是来做世界级编程的，结果开着小车跑遍新加坡，把预付卡一家一家送进有玩家的网吧。就这么着，玩家付得了钱了，开发者有收入了，支付成了早期增长的最大解锁点。\n\n预付卡这条路走通了，紧接着就冒出一个新问题：大多数公司连一个产品都做不好，Sea 凭什么从零做成了三个？Forrest 把原因归结为两点。第一，是把创业精神制度化。每年从顶尖大学招十到二十个人，进一个大概两年的轮岗项目，最高领导层亲自参与终面。在最新一批毕业典礼上，只强调了一句话：不管你毕业后在做什么，记住你加入的是一家创业公司，不是大公司。第二，创业不等于耍酷，要回到根本去识别具体问题。举个例子，进入游戏业务五年之后做电商，理由特别简单：美国和中国的电商做得那么好，为什么东南亚没有？如果这是机会、又相信自己，那就抓。\n\n但真要抓这个机会，马上会撞上一堵墙，这也是整场谈话里我觉得最值得听的部分：东南亚根本不是一个市场。新加坡和越南只隔两小时航程，但经济发展阶段、生活方式的差异巨大。而竞争者大多来自中国或美国，带着本土市场验证过的打法进来，假设在我那行得通，在这也行得通，结果往往不成立。新加坡公司的好处，是被迫从第一天就出海，所以进任何一个市场，都得自下而上做方案。\n\n两个例子特别生动。第一个是印尼的付款难题。十年前 Shopee 刚上线，人们能下单，却没法在线支付，得拿一个代码跑去 ATM 或者银行网点付款，而银行出于安全考虑，还不透露付款人身份。用原话说，等于卖了十瓶水、收到了钱、不知道是谁付的。怎么办？土办法来了：把十瓶水按十个只差一印尼盾零头的不同价格来卖，让价格本身变成买家的身份标识，再雇几百人每天人工对账。听着离谱，但真管用。\n\n第二个例子是巴西。2019 年，因为自研游戏 Free Fire 在巴西爆红，就带着领导层第一次去巴西，结果发现那里的电商渗透率比印尼还低。原因只有一个：一个包裹的物流成本超过五美元。在巴西，很反直觉，电商成了给有钱人的东西。而这正好撞上了 Sea 在东南亚积累的低价物流网络经验，于是就入场了。\n\n顺着这条线往下走，就到了金融业务。其实金融是电商的自然延伸。刚才说的印尼支付难题，催生了 Shopee Pay 钱包，如今已经是区域最大的独立移动钱包之一。更有意思的是，他们从数据里发现，购买量总在月中和月底激增，和发薪周期完全同步。随着 Shopee 变成日常购物的目的地，就不该再让买家被发薪日限制住。于是先在站内购物场景提供信贷，等信用评分积累够了，再开放通用借款。这背后的现实是，当地信用卡渗透率极低，印尼至今低于百分之二十，很多人只能推迟学费和医疗支出，或者去借高利贷。这门生意现在有多大？贷款账簿超过一百亿美元，大约五千万人有未结清信贷，人均两百美元。两百美元在新加坡不算什么，但对市场里的很多人，是日常生活的巨大差别，同时也撑起了一门可持续的生意。主持人还当场宣布：年底起，Shopee Pay 和先买后付产品将上线 Stripe 商业网络，这也是 Stripe 在整个东南亚的第一个先买后付选项。\n\n聊完金融，自然就聊到了 AI 的落地，而且全是真实场景，不是概念。先说客服：每天数百万订单，如今超过百分之八十的客户咨询，百分之百由 AI 处理，而且满意度甚至比人类客服更高。推出得非常谨慎，不是为了省成本，而是反复做 A/B 测试，确保用户满意才上线。再说游戏美术：Free Fire 是每天超过一亿人玩的、全球最大的手机游戏，过去需要一大群美术师生成概念图，大部分外包，再由资深美术师收尾，现在整个外包环节几乎全由 AI 完成，描述想要的风格和角色就行。最后还有个行业小秘密：你玩一款新游戏的时候，大多时候觉得在跟真人玩，但作为新玩家，你很可能是在跟机器人玩。目的是避免新手被老手打崩而流失。过去机器人不够聪明，玩一阵就被识破，现在很难分辨了。而且他们发现大约一半玩家只玩单人不社交，于是给这些人配上机器人队友，让这些人体验组队的乐趣，再逐步引导进社区。\n\n听到这儿你可能会想，这个人的边界到底在哪儿？答案是足球。他同时是新加坡足球协会会长和狮城水手队老板。理由始于个人：创业者不得不放弃所有爱好，足球是唯一还在的，那九十分钟是大脑唯一的休息。但扩展到公共层面，是因为坐出租车时总听司机聊二十年前的新加坡足球。有句话说得好：如果你一直谈论二十年前的事，你就会永远停留在谈论二十年前。上任一年半，说这像极了公司起步阶段，没人相信，说二十年都没成过，但能看到人们真的在乎。一周前国家队在泰国客场，体育场座无虚席，输了球也没人提前离场。在今天这个充满分歧的世界，不同种族、宗教、政治观点，爱 AI 的和恨 AI 的，至少在那九十分钟里，所有新加坡人为同一支球队欢呼。\n\n整场听下来，最打动人的是收尾那段。被问到秘诀，是最近回顾历程才意识到自己的一点特殊之处：一路起起伏伏，多次看不到希望，在黑暗中摸索，但整个历程中从来没有一个瞬间，发自内心地，想过放弃。只要有那份抱负和信念，总有办法；有时你只是继续待在场上，问题甚至会自行解决。再配上谦逊和适应力，回头看，那些最艰难的时刻，反而在成功里扮演了关键角色。如果你没有足够的谦逊去倾听，很难想象你能打造出人们真正需要的东西。"
+}
