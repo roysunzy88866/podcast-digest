@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SEO</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SEO">SE</div><div class="pi"><h1 class="pt">SEO</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SEO">SE</div><div class="pi"><h1 class="pt">SEO</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]]**(01:07起):本集说 SEO 正经历重大转型，AEO 与 SEO 有很大重叠，核心技术相似；传统 SEO 对早期公司不友好，因为缺乏域名权重，通常要 A 轮以后才值得做
 - **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(15:09起):本集将其作为带来新客户的典型获客渠道之一，指出它和投放广告一样，通常每月只能带来恒定数量的新客户，且同样会面临受众饱和、效能见顶的渠道衰退
+- **[[2026-08-25-talks-canva-cofounder-and-coo-cliff-obrecht-in|《Canva 联合创始人:AI 把设计成本从零变成美分之后》]]**(18:20起):本集最典型的增长循环案例:把庞大模板库暴露给搜索引擎,发现名片模板排到 Google 第一后系统做搜索研究、批量建内容,「那曾经一度占我们增长的 60%」。
 - **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]]**(18:48起):本集说网络上存在一类迎合懒惰人类并在 SEO 上取得成功的内容，把权威信息提取到加载快的首屏，对人类有用但对智能体是噪音
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(18:48起):本集说前 AI 时代存在大量迎合懒人同时做 SEO 成功的聚合页面，而内容方会继续花钱做 SEO 吸引人类流量但同时切断智能体访问
 - **[[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]]**(32:06起):本集直说:随着 10 条蓝色链接时代终结,排名和 SEO 已不再重要,旧的 SEO 手册对智能体商务的未来行不通,必须发明新的商业模式。
@@ -29,10 +30,11 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念(提及)
+- [[2026-08-25-talks-canva-cofounder-and-coo-cliff-obrecht-in|《Canva 联合创始人:AI 把设计成本从零变成美分之后》]] — 作为概念
 - [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为概念(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为概念(提及)
 - [[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]] — 作为概念
@@ -41,9 +43,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Google]] · [[ChatGPT]] · [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Andrew]] · [[Cloudflare]] · [[LLM]] · [[Sonia]] · [[Parag]]
+[[Google]] · [[ChatGPT]] · [[推理]] · [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Andrew]] · [[Cloudflare]] · [[LLM]] · [[Sonia]]
 
-<script type="application/json" class="pd-epn">{"Google":38,"ChatGPT":53,"智能体":1,"OpenAI":99,"Lenny":67,"Andrew":3,"Cloudflare":9,"LLM":28,"Sonia":2,"Parag":2}</script>
+<script type="application/json" class="pd-epn">{"Google":38,"ChatGPT":54,"推理":5,"智能体":1,"OpenAI":100,"Lenny":67,"Andrew":3,"Cloudflare":9,"LLM":29,"Sonia":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,190 @@
+{
+  "title_zh": "评测优先:Braintrust 创始人谈 AI 产品开发的真正工程",
+  "tldr": "Braintrust 创始人兼 CEO Ankur Goyal 讲述为什么评测(evals)是 AI 产品开发的核心，以及客户至上、无层级团队和自建数据库的实战经验。",
+  "digest_md": "这一集聊的是 AI 产品开发里最容易被忽视、却最核心的一件事：评测(evals,即用一批固定案例持续检验 AI 输出质量的工具)。主角是 Braintrust 的创始人兼 CEO Ankur——一位连续创业者，早在 ChatGPT 出现之前就在做 AI:他创办的 Empira 曾被 Figma 收购，之后他在 Figma 领导 AI 团队。他有一个听起来有点极端的主张：如果你在构建 AI 产品，除了评测之外做任何事都没有意义，一切都应该围绕评测展开 [03:16 Ankur]。\n\n钩子在于：没有人真正知道 LLM 是怎么工作的。模型的行为不可预测，那开发者还能控制什么？Ankur 的答案是——你能控制的，是你期望模型产出什么。而把「期望产出什么」定义清楚，就是构建评测的全部手艺。\n\n## 为什么评测是 AI 产品「真正的工程」\n\nAI 的本质是「定义做什么，而不是怎么做」。既然模型不可预测，你能做的就是明确你对它行为的期望，并利用这份定义让产品更有可能产出你想要的结果 [04:51 Ankur]。\n\n接受这个思路后会有一个关键转变：模型表现不好时，与其去改提示词里某句措辞、然后祈祷没弄坏别的东西，最高杠杆的做法是把出问题的案例捕获进一条评测——这样你做的任何改动，你都知道它真的有效，而且不会破坏你之前积累的所有成果 [05:49 Ankur]。更妙的是，在评测上的投入是持久的：它不会在你每次换模型、改措辞、微调用例时蒸发掉。Ankur 认为这正是构建 AI 产品时「真正的工程」所在 [06:00 Ankur]。\n\n对新创始人的建议也很直接：你唯一能确定的就是，今天选的模型极不可能成为你明天唯一用的模型，所以别把自己绑死在某家模型上，选一种灵活的开发策略；至于「该从哪家模型起步」的决策瘫痪，他的答案是——随便选一个，赶紧开工 [06:36 Ankur]。\n\n## 产品市场契合的另一种感觉\n\n在 Empira 和大多数创业公司，成功的感觉总是「除非……否则不行」：除非网站访客够多、除非这个功能上线。而他在 Braintrust 早期(以及之前在 Figma 见到的)是完全相反的体验：尽管这些条件全都不存在，你却总是成功 [07:35 Ankur]。看到用户会「默认直接用你的产品」，是一种完全不同的处境。\n\n至于为什么能拿下 Stripe、Instacart、Airtable 这些品味最高的客户，他的答案出人意料地简单：非常明确地选择要押注哪一小撮客户，让他们真正满意。想讨好所有人是不可能的；但服务一小撮特质相似、代表未来的客户，你就能真正聚焦他们在乎的问题。Stripe 的团队昨天还在他们办公室，一起开了一场关于未来 12 个月路线图的开放头脑风暴 [08:24 Ankur]。\n\n## 客户至上 = 给工程师「放下一切」的许可\n\n以客户为中心到底是什么样的？Ankur 说，至少在工程侧，关键是给工程师许可，让他们可以那样行事。他非常讨厌冲刺规划(sprint planning),因为它把工程师的身份认同和「接下来两周要交付的东西」绑在一起。可是如果客户正在用你写的功能，而里面有个 bug 让他们很痛苦——他认为是的，你应该放下一切立即去帮那个客户 [10:49 Ankur]。不这么做，那些随时间累积的小痛点会让产品变烂。\n\n代价他也说得很清楚：失去路线图的可预测性、失去交付速度，可能一两个月发不出任何东西，还难以追踪个人进度。解法是团队里要有更多资深的人。但行业默认的那套流程不允许你这么运作，所以你必须非常明确地按这种方式来。\n\n## 撑不住之后才自建数据库\n\nBrainstore(Braintrust 自建的数据库系统)是 Ankur 做的第三个数据库系统。第一年他们用的是这个领域所有人都用的那套标准开源数据库组合。直到客户——那些处于 AI 产品增长最前沿的公司、第一批体验到真正指数级增长的公司——的日志系统撑不住了：不只是数据量大，更因为数据形态奇怪。传统数据库不擅长快速处理大量文本，而提示词越来越大、越来越多，在千万条提示词里大海捞针式搜索变得至关重要 [12:30 Ankur]。\n\n有意思的是，Ankur 一直克制着想自建系统的冲动，这反而逼出了极高的清晰度：他们非常清楚要解决什么问题。最初团队只有三个人——他、他弟弟 Manu、上一家公司的第二位工程师 Austin,从十月到次年一月像躲在山洞里一样，直到把系统交付给第一批客户。它是专门为处理「LLM 形态数据」打造的：海量文本、你做梦都想不到的疯狂 JSON。\n\n## 「AI 版 Datadog」这个类比错在哪\n\n外面常把 Braintrust 类比为「面向 AI 工作负载的 Datadog」。Ankur 认为这个类比有真实的部分，但短视之处在于把两者都当成可观测性产品：你投资 Datadog 是为了达成「正常运行时间」，而投资 Braintrust 是为了达成「质量」——本质上不同的目标，会引出完全不同的产品功能 [14:44 Ankur]。比如 Braintrust 最强大的功能之一是把日志连接到数据集、数据集再连到评测，评测的代码和提示词又和 GitHub 代码库紧密相连。\n\n至于「会有单独一家公司做智能体评测、另一家做语音评测」的说法，他的回应很硬：智能体就是一个带工具的 for 循环，Braintrust 从一开始就是围绕这类用例构建的——事实上他们几乎所有客户都在上面构建智能体 [16:13 Ankur]。更深的原因是评测背后有很多艰难的基础设施问题：每秒摄取数兆字节数据(智能体只会产生更多数据)、运行可能耗时数天的评测并把数据汇总到一处。这些硬基础设施问题解决好了，流行术语怎么变都动摇不了他们。\n\n## 非工程师开始比工程师用得还多\n\n有个客户，使用 Braintrust 的非工程师比工程师还多——这让他闪回到 Figma 早期：当时很多客户公司里，非设计师用 Figma 的数量超过了设计师 [19:49 Ankur]。\n\n原因是：在医疗、法律、制造等领域，领域专家价值极高，而 AI 正在被用于以前软件根本解决不了的场景。医生非常擅长为提示词做贡献，让模型在微妙具体的病例上保持正轨——而这些人不是软件工程师 [20:05 Ankur]。所以 Braintrust 解决的一个重要问题，就是让工程团队有一个值得投入精力的平台，回报是这个平台能与非技术人员协作。一个具体例子是 span iframes 功能：工程师可以写自定义代码，在 Braintrust 内部渲染完全定制的界面给非技术用户。\n\n需求端的加速也很猛：用过 ChatGPT、Cursor 的人开始对所有产品都有同样的期待；更重要的是，一批客户正在内部严肃讨论「要么围绕 AI 重建产品，要么死」，只有六到八周时间改造自己构建软件的方式 [18:32 Ankur]。\n\n## 管理与招聘：没有一对一，没有层级\n\n团队扩张上，对他启发最大的是 Jensen(英伟达 CEO 黄仁勋)说不做一对一谈话。他以前从没试过，但在 Braintrust 试了——这让他们比有严格层级时灵活得多，公司现在基本没有任何层级，他认为 AI 也帮了大忙 [22:04 Ankur]。\n\n市场推广团队的扩张，他学到的最难的教训是：你不能雇市场人员去解决公司自己还没解决的问题 [23:04 Ankur]。创始人常犯的错是「销售不达标，就去找一个能搞定一切的销售副总裁」。他们没这么做——他们先明确了买家是谁、哪些公司有类似销售模式，然后几乎是「手工打造」出完美匹配的销售负责人，而这些人恰好认识他们的不少客户，因为他们卖过上一代产品。\n\n招聘的重视程度和客户至上一样：他们会飞遍各地见候选人、带他们吃饭，客户也会深度参与招募。他愿意把 Braintrust 看成一个社区：好销售对客户是好事，好客户对销售团队也是好事。\n\n## 下一步：让模型自己改进模型\n\n展望未来，Ankur 认为过去十年唯一不变的两件事是：AI 系统在变得更简单，用 AI 的人在变多。最近这批模型达到了一个阶跃式变化：它们已经足够擅长审视自己的工作，能够自我改进 [26:44 Ankur]。他们已经看到自动提示词改进、自动数据集生成、翻查日志找有趣案例等方面的惊人成果，还发布了内置智能体 Loop。他甚至认为这会帮他们避免构建一堆功能、假以时日可能移除产品的一些功能——让 Braintrust 自己也变成 AI 原生的体验。\n\n## 本集带走\n\n- **评测是 AI 产品唯一的「真工程」**：模型不可预测，你能控制的只有「期望它产出什么」；把出问题的案例捕获进评测，任何改动都有据可查、不会弄坏已有成果，而且这份投入在换模型、改措辞时都不会蒸发。\n- **别在选模型上决策瘫痪**：今天选的模型几乎注定不是你明天唯一用的模型——随便选一个开工，把灵活性留给开发策略。\n- **只服务一小撮代表未来的客户**：想讨好所有人必败；聚焦一小撮特质相似的高品味客户，全力以赴，聚焦他们在乎的问题。\n- **给工程师「放下一切修客户问题」的许可**：这意味着牺牲路线图可预测性和交付节奏，需要更多资深的人，但不这么做小痛点会累积成烂产品。\n- **先用现成方案撑到极限再自建**：Brainstore 是日志系统被指数级增长压垮、且对要解决的问题有了极高清晰度之后才动手的——不是反过来。\n- **别雇人解决你自己没解决的问题**：先搞清楚买家是谁、销售动作长什么样，再「手工打造」匹配的销售负责人。\n- **AI 正在让模型自我改进成为可能**：自动提示词改进、自动数据集生成已经落地，趋势是让产品自己变成 AI 原生体验，甚至删功能。",
+  "quotes": [
+    {
+      "en": "if you're building an AI product, there's no point doing anything other than evals. Everything should revolve around your evals.",
+      "zh": "如果你在构建一个 AI 产品，除了评测之外做任何事都没有意义。一切都应该围绕你的评测展开。",
+      "timestamp": "03:18",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "once you embrace evals, then you realize that what the LLM does is merely a function of the evals that you're producing.",
+      "zh": "一旦你接受了评测，你就会意识到 LLM 所做的不过是你在产出的评测的一个函数。",
+      "timestamp": "05:34",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "You realize that the highest leverage thing you can do is actually try to capture what's going wrong in an eval so that any change that you make you know is actually going to work and it's not going to break all the other stuff that you've worked towards.",
+      "zh": "你会意识到杠杆最高的做法其实是把出问题的地方捕获进一条评测，这样你做的任何改动你都知道是真正有效的，不会破坏你之前努力取得的所有其他成果。",
+      "timestamp": "05:49",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "When you really embrace it, you realize that the work that you put into doing evals doesn't evaporate every time you try a new model or you change some wording or you change your use case a little bit.",
+      "zh": "当你真正接受它时，你会意识到你在评测上投入的工作，不会在你每次尝试新模型、改一些措辞或稍微改变用例时就蒸发掉。",
+      "timestamp": "06:00",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "the only thing that you can be certain of is that whatever model you pick today is super unlikely to be the model that you're going to use solely tomorrow.",
+      "zh": "你唯一能确定的就是，你今天选的任何模型都极不可能成为你明天唯一会用的模型。",
+      "timestamp": "06:37",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "I kept having to hold myself back from building a system like Brainstore because I really wanted to. But it forced us to have an increasingly high level of clarity about what we needed to build.",
+      "zh": "我一直不得不克制自己不去构建像 Brainstore 这样的系统，因为我真的很想去做。但这迫使我们对自己需要构建的东西有了越来越高的清晰度。",
+      "timestamp": "13:24",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "Agents are a for loop with tools.",
+      "zh": "智能体就是一个带工具的 for 循环。",
+      "timestamp": "16:13",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "because they're having serious discussions internally about how it's either figure out how to rebuild our product around AI or die.",
+      "zh": "因为他们内部正在进行严肃的讨论：要么想办法围绕 AI 重建产品，要么死。",
+      "timestamp": "18:40",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "I think one of the most interesting insights I heard over the past few years was Jensen saying he doesn't do one-on-ones. And that was a big unlock for me.",
+      "zh": "我认为过去几年里我听到的最有趣的洞见之一是 Jensen 说他不进行一对一谈话。那对我来说是一个巨大的解锁。",
+      "timestamp": "22:04",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "The hardest lesson that I've learned over time is that you can't hire go-to-market people to solve problems that you haven't solved as a company.",
+      "zh": "随着时间推移，我学到的最难的教训是：你不能雇佣市场推广人员去解决你作为一家公司还没有解决的问题。",
+      "timestamp": "23:04",
+      "speaker": "Ankur Goyal"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:16",
+      "speaker": "Ankur",
+      "en": "if you're building an AI product, there's no point doing anything other than evals. Everything should revolve around your evals.",
+      "zh": "如果你在构建一个 AI 产品，除了评测之外做任何事都没有意义。一切都应该围绕你的评测展开。"
+    },
+    {
+      "timestamp": "05:41",
+      "speaker": "Ankur",
+      "en": "once you embrace evals, then you realize that what the LLM does is merely a function of the evals that you're producing.",
+      "zh": "一旦你接受了评测，你就会意识到 LLM 所做的不过是你在产出的评测的一个函数。"
+    },
+    {
+      "timestamp": "05:49",
+      "speaker": "Ankur",
+      "en": "You realize that the highest leverage thing you can do is actually try to capture what's going wrong in an eval so that any change that you make you know is actually going to work and it's not going to break all the other stuff that you've worked towards.",
+      "zh": "你会意识到杠杆最高的做法其实是把出问题的地方捕获进一条评测，这样你做的任何改动你都知道是真正有效的，不会破坏你之前努力取得的所有其他成果。"
+    },
+    {
+      "timestamp": "06:00",
+      "speaker": "Ankur",
+      "en": "When you really embrace it, you realize that the work that you put into doing evals doesn't evaporate every time you try a new model or you change some wording or you change your use case a little bit.",
+      "zh": "当你真正接受它时，你会意识到你在评测上投入的工作，不会在你每次尝试新模型、改一些措辞或稍微改变用例时就蒸发掉。"
+    },
+    {
+      "timestamp": "06:36",
+      "speaker": "Ankur",
+      "en": "the only thing that you can be certain of is that whatever model you pick today is super unlikely to be the model that you're going to use solely tomorrow.",
+      "zh": "你唯一能确定的就是，你今天选的任何模型都极不可能成为你明天唯一会用的模型。"
+    },
+    {
+      "timestamp": "07:03",
+      "speaker": "Ankur",
+      "en": "I would suggest just picking something.",
+      "zh": "我建议就随便选一个。"
+    },
+    {
+      "timestamp": "07:56",
+      "speaker": "Ankur",
+      "en": "you were always successful despite all of these things not existing. And that was a big mental shift for me.",
+      "zh": "尽管这些条件全都不存在，你却总是成功。这对我来说是一次巨大的心态转变。"
+    },
+    {
+      "timestamp": "08:24",
+      "speaker": "Ankur",
+      "en": "if you try to make everyone happy, it's really hard.",
+      "zh": "如果你试图让所有人都满意，那真的很难。"
+    },
+    {
+      "timestamp": "10:49",
+      "speaker": "Ankur",
+      "en": "One of the things I really don't like is sprint planning.",
+      "zh": "我非常不喜欢的事情之一就是冲刺规划。"
+    },
+    {
+      "timestamp": "11:15",
+      "speaker": "Ankur",
+      "en": "I think the answer is yes. You should drop everything and help that customer immediately.",
+      "zh": "我认为答案是肯定的。你应该放下手头的一切，立即去帮助那个客户。"
+    },
+    {
+      "timestamp": "13:24",
+      "speaker": "Ankur",
+      "en": "I kept having to hold myself back from building a system like Brainstore because I really wanted to. But it forced us to have an increasingly high level of clarity about what we needed to build.",
+      "zh": "我一直不得不克制自己不去构建像 Brainstore 这样的系统，因为我真的很想去做。但这迫使我们对自己需要构建的东西有了越来越高的清晰度。"
+    },
+    {
+      "timestamp": "15:07",
+      "speaker": "Ankur",
+      "en": "And you invest in Braintrust as a business to achieve in a different outcome, which is quality.",
+      "zh": "而你作为一家企业投资 Braintrust,是为了达成另一个不同的结果，也就是质量。"
+    },
+    {
+      "timestamp": "16:13",
+      "speaker": "Ankur",
+      "en": "Agents are a for loop with tools.",
+      "zh": "智能体就是一个带工具的 for 循环。"
+    },
+    {
+      "timestamp": "17:08",
+      "speaker": "Ankur",
+      "en": "And guess what? Agents just generate more data.",
+      "zh": "然后你猜怎么着？智能体只会产生更多数据。"
+    },
+    {
+      "timestamp": "18:32",
+      "speaker": "Ankur",
+      "en": "because they're having serious discussions internally about how it's either figure out how to rebuild our product around AI or die.",
+      "zh": "因为他们内部正在进行严肃的讨论：要么想办法围绕 AI 重建产品，要么死。"
+    },
+    {
+      "timestamp": "20:43",
+      "speaker": "Ankur",
+      "en": "doctors are extremely good at contributing to prompts to keep models on track for very subtle and specific cases.",
+      "zh": "医生非常擅长为提示词做贡献，让模型在非常微妙和具体的病例上保持正轨。"
+    },
+    {
+      "timestamp": "22:04",
+      "speaker": "Ankur",
+      "en": "I think one of the most interesting insights I heard over the past few years was Jensen saying he doesn't do one-on-ones. And that was a big unlock for me.",
+      "zh": "我认为过去几年里我听到的最有趣的洞见之一是 Jensen 说他不进行一对一谈话。那对我来说是一个巨大的解锁。"
+    },
+    {
+      "timestamp": "23:04",
+      "speaker": "Ankur",
+      "en": "The hardest lesson that I've learned over time is that you can't hire go-to-market people to solve problems that you haven't solved as a company.",
+      "zh": "随着时间推移，我学到的最难的教训是：你不能雇佣市场推广人员去解决你作为一家公司还没有解决的问题。"
+    },
+    {
+      "timestamp": "25:28",
+      "speaker": "Ankur",
+      "en": "I think one thing that hasn't changed is that AI systems are getting simpler and more people are using AI.",
+      "zh": "我认为有一件事没有变，那就是 AI 系统正变得更简单，而且越来越多的人在用 AI。"
+    },
+    {
+      "timestamp": "26:57",
+      "speaker": "Ankur",
+      "en": "That they can self-improve.",
+      "zh": "以至于它们可以自我改进。"
+    }
+  ],
+  "voice_script": "今天这一期，主角是 Braintrust 的创始人兼 CEO,叫 Ankur。这人值得听他讲 AI,不是因为他赶上了风口，恰恰相反——早在 ChatGPT 出现之前，他就在做 AI 了。之前创办的公司 Empira 被 Figma 收购，后来在 Figma 领导过 AI 团队。这一期聊的，是 AI 产品开发里最容易被忽视、却最核心的一件事，叫评测。评测说白了，就是用一批固定的案例，持续检验 AI 输出质量的工具。听起来很技术，但 Ankur 有个听起来有点极端的主张：如果你在构建 AI 产品，除了评测之外做任何事都没有意义，一切都应该围绕评测展开。\n\n为什么敢这么说？这得从问题的根上讲起。没有人真正知道大模型是怎么工作的，模型的行为不可预测。那开发者还能控制什么？Ankur 的答案是：你能控制的，是你期望模型产出什么。而把「期望产出什么」定义清楚，就是构建评测的全部手艺。AI 的本质是「定义做什么，而不是怎么做」，模型既然不可预测，你能做的就是明确对它行为的期望，然后让产品更有可能产出你想要的结果。\n\n接受这个思路之后，会有一个关键转变。过去模型表现不好，你的本能反应是去改提示词里某句措辞，然后祈祷没弄坏别的东西。但杠杆最高的做法，其实是把出问题的案例捕获进一条评测，这样你做的任何改动，你都知道是真正有效的，不会破坏之前努力取得的所有其他成果。更妙的是，在评测上的投入是持久的——它不会在你每次换模型、改措辞、微调用例的时候蒸发掉。Ankur 认为，这正是构建 AI 产品时「真正的工程」所在。\n\n顺着这个逻辑，对新创始人还有一条很直接的建议：你唯一能确定的就是，今天选的模型极不可能成为你明天唯一用的模型。所以别把自己绑死在某家模型上，选一种灵活的开发策略。至于「该从哪家模型起步」这种纠结，答案就是——随便选一个，赶紧开工。\n\n聊完了方法，再聊一个很多创业者都关心的问题：产品市场契合到底什么感觉。在之前的创业公司和大多数创业公司里，成功的感觉总是「除非……否则不行」：除非网站访客够多，除非这个功能上线。而在 Braintrust 早期，包括之前在 Figma 见到的，体验是完全相反的：这些条件全都不存在，你却总是成功。用户会默认直接用你的产品，那是完全不同的处境。\n\n那怎么拿下 Stripe、Instacart、Airtable 这些品味最高的客户？答案出人意料地简单：非常明确地选择要押注哪一小撮客户，让他们真正满意。想讨好所有人是不可能的，但服务一小撮特质相似、代表未来的客户，你就能真正聚焦他们在乎的问题。Stripe 的团队昨天还在他们办公室，一起开了一场关于未来十二个月路线图的开放头脑风暴。\n\n这种客户至上，落到工程侧是什么样？关键是给工程师许可，让他们可以那样行事。Ankur 非常讨厌冲刺规划，因为那东西把工程师的身份认同和「接下来两周要交付什么」绑在一起。可如果客户正在用你写的功能，里面有个 bug 让他们很痛苦——那就应该放下一切，立即去帮那个客户。不这么做，那些随时间累积的小痛点会让产品变烂。代价也说得很清楚：失去路线图的可预测性，失去交付速度，可能一两个月发不出任何东西。解法是团队里要有更多资深的人。但行业默认的那套流程不允许这么运作，所以你必须非常明确地按这种方式来。\n\n同样「先撑到极限再动手」的思路，也体现在他们的技术上。Braintrust 自建了一个数据库系统叫 Brainstore,这已经是 Ankur 做的第三个数据库系统了。有意思的是，第一年用的就是这行所有人都用的标准开源组合，一直克制着想自建系统的冲动——因为真的很想做，但正是这种克制，逼出了对「到底要解决什么问题」的极高清晰度。直到客户的日志系统撑不住了：那些处在 AI 产品增长最前沿的公司，第一批体验到指数级增长，不只是数据量大，更因为数据形态奇怪。传统数据库不擅长快速处理大量文本，而提示词越来越大、越来越多，在千万条提示词里大海捞针式搜索变得至关重要。于是团队只有三个人，从十月到次年一月像躲在山洞里一样，把这套专为海量文本和疯狂 JSON 打造的系统交付给了第一批客户。\n\n外面常把 Braintrust 类比为「面向 AI 的 Datadog」,Ankur 觉得这个类比有真实的部分，但短视在于把两者都当成可观测性产品。你投资 Datadog 是为了正常运行时间，投资 Braintrust 是为了质量——本质上不同的目标，会引出完全不同的产品功能。比如 Braintrust 最强的功能之一，是把日志连到数据集、数据集再连到评测，评测的代码和提示词又和 GitHub 代码库紧密相连。至于「会有一家专门做智能体评测、另一家做语音评测」的说法，回应很硬：智能体就是一个带工具的 for 循环，Braintrust 从一开始就是围绕这类用例构建的，几乎所有客户都在上面构建智能体。评测背后有很多艰难的基础设施问题，每秒摄取数兆字节的数据、运行可能耗时数天的评测再汇总到一处——这些硬问题解决好了，流行术语怎么变都动摇不了。\n\n还有个信号特别值得注意：有个客户，用 Braintrust 的非工程师比工程师还多。这让人闪回到 Figma 早期——当时很多客户公司里，非设计师用 Figma 的数量超过了设计师。原因在于，医疗、法律、制造这些领域，领域专家价值极高，而 AI 正在被用于以前软件根本解决不了的场景。医生非常擅长为提示词做贡献，让模型在微妙具体的病例上保持正轨，而这些人不是软件工程师。所以 Braintrust 解决的一个重要问题，就是让工程团队有一个值得投入的平台，能与非技术人员协作。\n\n团队怎么管？对 Ankur 启发最大的是英伟达 CEO 黄仁勋说的：不做一对一谈话。以前从没试过，在 Braintrust 试了，结果公司比有严格层级时灵活得多，现在基本没有任何层级。市场推广上，学到的最难的教训是：你不能雇人去解决公司自己还没解决的问题。很多创始人常犯的错是「销售不达标，就找一个能搞定一切的销售副总裁」。Braintrust 没这么做——先明确买家是谁、哪些公司有类似销售模式，然后几乎是手工打造出完美匹配的销售负责人，这些人恰好还认识他们的不少客户。\n\n最后看一眼未来。过去十年唯一不变的两件事：AI 系统在变得更简单，用 AI 的人在变多。最近这批模型达到了一个阶跃式变化——已经足够擅长审视自己的工作，能够自我改进。自动提示词改进、自动数据集生成都已经落地，他们还发布了内置智能体 Loop,甚至认为这会帮他们移除产品的一些功能，让 Braintrust 自己也变成 AI 原生的体验。\n\n这一集听完，带走一句话就够了：模型不可预测，你能控制的只有你期望它产出什么——把出问题的案例捕获进评测，你做的每个改动都有据可查，而这份投入，永远不会蒸发。"
+}

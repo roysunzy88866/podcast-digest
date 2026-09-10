@@ -34,7 +34,7 @@ unlisted: true
 
 [[智能体]] · [[Olivia Moore]] · [[Max Levchin]] · [[Frederick Rankin]] · [[Affirm]] · [[Stein Pella]] · [[PayPal]] · [[Lassie]] · [[TrialPay]] · [[人在回路]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Olivia Moore":1,"Max Levchin":1,"Frederick Rankin":1,"Affirm":2,"Stein Pella":1,"PayPal":5,"Lassie":1,"TrialPay":1,"人在回路":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Olivia Moore":1,"Max Levchin":1,"Frederick Rankin":1,"Affirm":2,"Stein Pella":1,"PayPal":5,"Lassie":1,"TrialPay":1,"人在回路":7}</script>
 
 <script>
 (function(){

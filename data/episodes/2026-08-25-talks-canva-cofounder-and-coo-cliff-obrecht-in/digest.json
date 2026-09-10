@@ -1,0 +1,178 @@
+{
+  "title_zh": "Canva 联合创始人:AI 把设计成本从零变成美分之后",
+  "tldr": "Canva 联合创始人 Cliff 讲述 AI 如何重塑设计平台：模型自研、成本重构、免费转付费与组织转型。",
+  "digest_md": "这一集聊的是 Canva——全球最大的设计平台之一——如何在 AI 浪潮里把自己从一家创意 SaaS 公司改造成「创意 + 生产力 + 智能」三合一的平台。说话的主角是 Cliff,Canva 的联合创始人，他和妻子 Mel 在 2013 年一起创办了这家公司(他笑称妻子是自己的老板)。他抛出的最扎心的一点是：过去创建一个设计的成本「基本上是零」，而用了完整的智能体循环之后，「所有那些 token 都要花钱」，成本变成了美分级别——在数亿用户的规模上，这动摇了整个商业模式 [03:13 Unknown][04:13 Unknown]。\n\n## AI 怎么把免费模式打穿了\n\nCanva 的起家靠免费增值模式：早期只收一美元买图片，从不给免费用户加水印、不损害他们的体验，而是把免费用户当成口碑营销渠道来养。这个模式一直很健康——但 AI 改变了「服务一个用户的成本」这个底层数字：从每月几美分，涨到「每月多很多很多美分」[03:00 Unknown]。\n\n具体算一笔账：现在一次创作可能是一个完整的智能体循环——做网络调研、调用品牌资产、创建一整个包含图片、图表的营销活动、再部署、再追踪效果——每个环节背后都要跑智能，都要花 token 的钱 [03:48 Unknown]。以前创建一个设计基本上是零成本，现在变成了美分级别，而在数亿用户的规模上，这对业务产生了根本性的影响，不得不去适应 [04:13 Unknown]。结论是：调用第三方前沿模型，「你可以做到质量，但成本和延迟你会吃亏」。\n\n为此 Canva 把相关成本降了大约 90%,这才敢重新放大规模 [14:33 Unknown]。他给的框架是：质量、成本、延迟是「神圣三位一体」，三件事都做对，你才负担得起给免费用户慷慨的产品 [13:46 Unknown]。\n\n## 为什么 Canva 决定自己训图像模型\n\nCanva 进 AI 其实比大多数人早：六年前，「背景移除器」是最受欢迎的功能之一，他们因此收购了奥地利的 Kaleido——一个做了深入研究、能把图像分解成图层的视觉 AI 实验室；后来意识到图像生成是核心能力，又收购了本地公司 Leonardo——一家自建基础模型的公司 [15:25 Unknown]。\n\n他的取舍逻辑很清楚：你可以用「散弹枪」的方式到处跑评测、挑性价比最好的模型，但「只有建立自己的研究团队、训练自己的模型」才能同时握住质量、成本、延迟三项。他还给了一个细分判断：LLM 相对更「可替换」，但在图像和设计上，「我们真的需要掌控自己的命运」[16:46 Unknown]。\n\n## 提示词框不是创建视觉内容的正确入口\n\n聊到 AI 产品设计，他有一个反直觉的主张：不要指望用户靠提示词表达自己想要什么。「人们不知道自己想要一张迷幻复古 80 年代主题的生日派对邀请函，但当他们看到它时会说，天哪，我真的很喜欢」[10:32 Unknown]。所以 Canva 的做法是用 1.65 亿多个模板和素材把用户「暴露在设计空间」里，让用户挑选后再改造成自己的，而不是从空白提示框开始。\n\n配套的是人在回路：Canva 是极少数会让 AI 生成内容引用真人创作模板、并为此向创作者付酬(含署名)的平台，而不是只在互联网上抓数据训练 [05:37 Unknown]。至于「AI 抢设计师饭碗」的老话题，他的回应是：当年 Canva 刚上线时就被骂「摧毁设计岗位」，结果创造了数亿名新设计师；现在设计师在往「品牌架构师」升级——为组织搭建品牌框架，让其他人在框架内用 AI 创作。何况如今 AI 垃圾内容泛滥，「你真的需要在组织内有品牌的守护者」[08:08 Unknown]。\n\n## 增长循环：先看到用户在干什么，再全力押注\n\n回望 Canva 的增长，他把方法论总结成：观察用户已经在平台上的行为，然后「全力去支持和延展它」。最典型的例子是 SEO:把庞大的模板库暴露给搜索引擎，先小规模试，发现名片模板在 Google 排到了第一，就系统地做搜索研究、搞清大家在找什么、批量建内容，结果「那曾经一度占我们增长的 60%」[18:33 Unknown]。之后又发现用户在协作分享，就把协作做成无缝功能，变成下一个飞轮。他的观察是：公司往往没有无限的增长循环，大部分增长来自三四个关键点 [18:14 Unknown]。\n\n主持人在这里追问了一个很实际的问题：增长循环分散在产品、SEO、内容等七个部门时怎么运转？Cliff 的答案是矩阵式组织——纵向是尽可能少的产品表面(太多会造成蔓延)，横向是内容、个性化这类职能；关键是「在组织结构的顶层非常清晰地定义目标」，让优先级向下传导，否则内容团队会被一百万个需求方撕碎 [21:38 Unknown]。\n\n## 从年鉴公司到被拒绝一百多次\n\nCanva 的起点低得惊人：Cliff 当过学校老师，Mel 在大学教 Adobe 套件，两人发现被派去做学校年鉴的老师「讨厌这件事」，却要在零设计技能下做出 200 页的专业杂志，于是自筹资金做了 Fusion Books,用约五年做到约 1000 所学校在用、每年创建超一百万页、年入超一百万美元、20 人团队还自己运营打印机 [24:07 Unknown]。\n\n拿着这个底子第一次去硅谷融资，他们被拒绝了一百多次——两个来自西澳珀斯、不知道什么是创业公司的人。转折点是一位好奇的投资人问起他们的「另一门生意」，听完直接说：「天哪，你们做得比我 90% 的投资组合都好」，然后建议他们「得更像美国人一点」——下一场路演他们就换了讲法，投资人都点头了 [25:27 Unknown]。最终按 800 万美元估值融了 150 万美元，加上澳大利亚政府给的 100 万美元补助，runway 翻倍，这才决定留在澳大利亚，从珀斯搬到悉尼。他们把「不在硅谷」当成战略优势：一家产品公司，不被美国的舆论喧嚣分心 [28:02 Unknown]。\n\n## AI 先改变的不是产品，是做产品的方式\n\nCliff 说 Canva 现在最需要「去程序化」的对象，是他们自己过去做产品的老办法：以前是带着客户调研加一整套商业计划书来立项——为什么做、怎么建、时间线、资源、里程碑；现在是「带着一个原型和尽可能小的团队来找我，先做出第一个雏形并拿到客户反馈」，效果好再扩展 [32:26 Unknown]。快得多、人少得多、更快贴近真实用户。这套偏好已经进到面试流程——对「怎么做产品」想法不对的人，不进来 [33:01 Unknown]。\n\n对领导者，他给出的具体建议是把 AI 接到代码仓库和所有核心数据源(如 Snowflake、Stripe)上，用自然语言直接查数，「它们通常有 90% 是正确的」，然后带着正确的问题走进团队。过去每份数据都被人解读、偏见和抱负包裹过，现在数据成了根本核心，「完全改变了我们的领导方式」[35:05 Unknown]。效果立竿见影：他用 AI 发现公司有超过 400 个实验在跑，其中很多已经挂了六个月没人管 [36:12 Unknown]。他也坦率列了短板：数据结构不兼容、「垃圾进垃圾出」、模型在数字上很不可靠、以及写代码之外的运维环节 AI 还差得远——但正因如此，他对未来的改进比对现状更兴奋 [38:37 Unknown]。\n\n## 本集带走\n\n- **AI 产品的成本结构变了，变现路径必须重画**：服务成本从「几美分/月」涨到「很多美分/月」后，旧产品那条免费到付费的毕业线不能照搬；Canva 的解法是把成本砍 90%、再用「质量、成本、延迟」三位一体做门槛。\n- **核心能力要自研的判据是三件事握不握得全**：到处跑评测能买到质量，但买不到成本和延迟；图像/设计这类核心能力要自己训模型，LLM 反而更可替换。\n- **别把提示词框当唯一入口**：用户说不出自己想要什么，但认得出喜欢什么——用海量模板让用户「先看再改」，并给模板创作者署名和分钱，让人留在回路里。\n- **增长来自「押注用户已经在做的事」**：先观察到行为(如模板被搜索、用户在协作)，再全力把那个循环做顺；公司大部分增长通常只来自三四个关键点。\n- **AI 时代的组织转型从「怎么做产品」开始**：立项从计划书改为小团队快速原型 + 真实用户反馈；领导者把 AI 接进全量数据源直接查根因，绕过层层转述的偏差。",
+  "quotes": [
+    {
+      "en": "Intelligence needs to be run behind all of these things, and many different systems need to be connected, and all those tokens cost money.",
+      "zh": "智能需要在所有这些事情背后运行,许多不同的系统需要被连接起来,所有那些 token 都要花钱。",
+      "timestamp": "04:13",
+      "speaker": "Cliff Obrecht"
+    },
+    {
+      "en": "I think all companies get massive by having the best product in the world that's ruthlessly focused on solving customer problems.",
+      "zh": "我认为所有公司能做大,都是因为拥有世界上最好的产品,并且毫不妥协地专注于解决客户的问题。",
+      "timestamp": "01:01",
+      "speaker": "Cliff Obrecht"
+    },
+    {
+      "en": "We never wanted to watermark the product and deprecate the experience of our free users in order to get that brand awareness more externally.",
+      "zh": "我们从来不想给产品加水印、去损害免费用户的体验,以此来获得更多外部品牌知名度。",
+      "timestamp": "01:54",
+      "speaker": "Cliff Obrecht"
+    },
+    {
+      "en": "There is so much AI slop out there that you really need custodians of the brand within organizations.",
+      "zh": "现在有太多 AI 垃圾内容,你真的需要在组织内有品牌的守护者。",
+      "timestamp": "08:08",
+      "speaker": "Cliff Obrecht"
+    },
+    {
+      "en": "We've got over 165 million templates, images, and graphic assets on the library, and we really don't think the prompt box is the right vector for creating visual content.",
+      "zh": "我们库里有超过 1.65 亿个模板、图片和图形素材,而我们真的不认为提示词框是创建视觉内容的正确向量。",
+      "timestamp": "10:22",
+      "speaker": "Cliff Obrecht"
+    },
+    {
+      "en": "Particularly for image and design, LLMs is a bit more sort of fungible, but for image and design we really needed to be in control of our own destiny there.",
+      "zh": "尤其是图像和设计,LLM 有点更可替换一些,但在图像和设计上,我们真的需要掌控自己的命运。",
+      "timestamp": "16:46",
+      "speaker": "Cliff Obrecht"
+    },
+    {
+      "en": "You can probably get the quality, but the cost and latency you're going to lose out on, and only by building your own research team and training your own models.",
+      "zh": "你可能能做到质量,但成本和延迟你会吃亏,只有建立自己的研究团队、训练自己的模型才行。",
+      "timestamp": "16:39",
+      "speaker": "Cliff Obrecht"
+    },
+    {
+      "en": "Now it's come to me with a prototype and the smallest team possible to get a first spike out and get customer feedback.",
+      "zh": "现在是带着一个原型和尽可能小的团队来找我,先做出第一个雏形并拿到客户反馈。",
+      "timestamp": "32:26",
+      "speaker": "Cliff Obrecht"
+    },
+    {
+      "en": "Every bit of data you got was also sort of clouded with human interpretation, human opinions, biases, sort of like their own ambitions.",
+      "zh": "你得到的每一份数据都在某种程度上被人的解读、人的观点、偏见,以及他们自己的抱负等等所遮蔽。",
+      "timestamp": "35:29",
+      "speaker": "Cliff Obrecht"
+    },
+    {
+      "en": "I found out we have over 400 experiments running, and many of them have been running as experiments for six months.",
+      "zh": "我发现我们有超过 400 个实验在运行,而且其中很多已经作为实验运行了六个月。",
+      "timestamp": "36:12",
+      "speaker": "Cliff Obrecht"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:48",
+      "speaker": "Unknown",
+      "en": "So the cost to create a design historically, it cost us essentially nothing.",
+      "zh": "历史上,创建一个设计的成本对我们来说基本上是零。"
+    },
+    {
+      "timestamp": "04:13",
+      "speaker": "Unknown",
+      "en": "Intelligence needs to be run behind all of these things, and many different systems need to be connected, and all those tokens cost money.",
+      "zh": "智能需要在所有这些事情背后运行,许多不同的系统需要被连接起来,所有那些 token 都要花钱。"
+    },
+    {
+      "timestamp": "01:01",
+      "speaker": "Unknown",
+      "en": "I think all companies get massive by having the best product in the world that's ruthlessly focused on solving customer problems.",
+      "zh": "我认为所有公司能做大,都是因为拥有世界上最好的产品,并且毫不妥协地专注于解决客户的问题。"
+    },
+    {
+      "timestamp": "01:43",
+      "speaker": "Unknown",
+      "en": "We never wanted to watermark the product and deprecate the experience of our free users in order to get that brand awareness more externally.",
+      "zh": "我们从来不想给产品加水印、去损害免费用户的体验,以此来获得更多外部品牌知名度。"
+    },
+    {
+      "timestamp": "05:51",
+      "speaker": "Unknown",
+      "en": "So we really believe human in the loop is critical, particularly when it comes to creativity.",
+      "zh": "所以我们坚信人在回路中是至关重要的,尤其是在创造力方面。"
+    },
+    {
+      "timestamp": "08:08",
+      "speaker": "Unknown",
+      "en": "There is so much AI slop out there that you really need custodians of the brand within organizations.",
+      "zh": "现在有太多 AI 垃圾内容,你真的需要在组织内有品牌的守护者。"
+    },
+    {
+      "timestamp": "10:22",
+      "speaker": "Unknown",
+      "en": "We've got over 165 million templates, images, and graphic assets on the library, and we really don't think the prompt box is the right vector for creating visual content.",
+      "zh": "我们库里有超过 1.65 亿个模板、图片和图形素材,而我们真的不认为提示词框是创建视觉内容的正确向量。"
+    },
+    {
+      "timestamp": "10:32",
+      "speaker": "Unknown",
+      "en": "People want to, oh, they don't know they want a psychedelic, retro, 80s-themed birthday party invitation, but when they see it, they're like, oh, jeez, I really like that.",
+      "zh": "人们——哦,他们不知道自己想要一张迷幻复古 80 年代主题的生日派对邀请函,但当他们看到它时,他们会说,哦,天哪,我真的很喜欢这个。"
+    },
+    {
+      "timestamp": "13:46",
+      "speaker": "Unknown",
+      "en": "And it's only when you get those three things right you can actually afford to give a really great generous free product to our free users.",
+      "zh": "只有当这三件事都做对了,你才真正负担得起给免费用户一个非常棒、非常慷慨的免费产品。"
+    },
+    {
+      "timestamp": "16:46",
+      "speaker": "Unknown",
+      "en": "Particularly for image and design, LLMs is a bit more sort of fungible, but for image and design we really needed to be in control of our own destiny there.",
+      "zh": "尤其是图像和设计,LLM 有点更可替换一些,但在图像和设计上,我们真的需要掌控自己的命运。"
+    },
+    {
+      "timestamp": "16:25",
+      "speaker": "Unknown",
+      "en": "You can probably get the quality, but the cost and latency you're going to lose out on, and only by building your own research team and training your own models.",
+      "zh": "你可能能做到质量,但成本和延迟你会吃亏,只有建立自己的研究团队、训练自己的模型才行。"
+    },
+    {
+      "timestamp": "18:14",
+      "speaker": "Unknown",
+      "en": "The majority of their growth comes from three or four key things that work really well for them.",
+      "zh": "它们的大部分增长来自三四个对它们运转得非常好的关键点。"
+    },
+    {
+      "timestamp": "25:27",
+      "speaker": "Unknown",
+      "en": "And he stops in his tracks and he's like, holy shit, you're doing better than 90% of my portfolio.",
+      "zh": "然后他突然停下来说,天哪,你们做得比我 90% 的投资组合都好。"
+    },
+    {
+      "timestamp": "32:26",
+      "speaker": "Unknown",
+      "en": "Now it's come to me with a prototype and the smallest team possible to get a first spike out and get customer feedback.",
+      "zh": "现在是带着一个原型和尽可能小的团队来找我,先做出第一个雏形并拿到客户反馈。"
+    },
+    {
+      "timestamp": "35:05",
+      "speaker": "Unknown",
+      "en": "And now being able to have the data as the root sort of nucleus of everything and being able to get access to that is just totally transformed the way we lead.",
+      "zh": "而现在,能够让数据作为一切的根本核心,并且能够接触到它,完全改变了我们的领导方式。"
+    },
+    {
+      "timestamp": "35:29",
+      "speaker": "Unknown",
+      "en": "Every bit of data you got was also sort of clouded with human interpretation, human opinions, biases, sort of like their own ambitions.",
+      "zh": "你得到的每一份数据都在某种程度上被人的解读、人的观点、偏见,以及他们自己的抱负等等所遮蔽。"
+    },
+    {
+      "timestamp": "36:12",
+      "speaker": "Unknown",
+      "en": "I found out we have over 400 experiments running, and many of them have been running as experiments for six months.",
+      "zh": "我发现我们有超过 400 个实验在运行,而且其中很多已经作为实验运行了六个月。"
+    },
+    {
+      "timestamp": "30:13",
+      "speaker": "Unknown",
+      "en": "It's a global company with an Australian heart.",
+      "zh": "它是一家有着澳大利亚之心的全球化公司。"
+    }
+  ],
+  "voice_script": "今天这一集的主角是 Cliff,全球最大设计平台之一的 Canva 的联合创始人。这家公司是 Cliff 和妻子 Mel 在 2013 年一起创办的,还笑称妻子是自己的老板。这一集聊的问题特别实在:AI 浪潮打上门来,一家靠免费模式起家的设计平台,怎么把自己从一家创意软件公司,改造成\"创意加生产力加智能\"三合一的平台。最扎心的一点是,过去创建一个设计的成本基本上是零,而用了完整的智能体循环之后,所有那些 token 都要花钱——在数亿用户的规模上,这动摇的是整个商业模式。\n\n先说说 Canva 是怎么起家的。靠的是免费增值模式:早期只收一美元买图片,从不给免费用户加水印,不去损害他们的体验,而是把免费用户当成口碑营销的渠道来养。这个模式一直很健康。但 AI 改变了一个底层数字——服务一个用户的成本,从每月几美分,涨到了每月多很多很多美分。为什么?因为现在一次创作,可能是一个完整的智能体循环:做网络调研、调用品牌资产、创建一整个包含图片和图表的营销活动、再部署、再追踪效果,每个环节背后都要跑智能,都要花钱。成本从零变成美分级,听着不大,乘上几亿用户就是根本性的冲击。\n\n那怎么办?Canva 的解法是把相关成本降了大约 90%,这才敢重新放大规模。Cliff 给了一个框架:质量、成本、延迟,他管这叫\"神圣三位一体\",三件事都做对,你才负担得起继续给免费用户慷慨的产品。而正是这个取舍,引出了下一个决定——自己训图像模型。逻辑是这样的:你可以用\"散弹枪\"的方式到处跑评测,挑性价比最好的第三方模型,但调用前沿模型,你能买到质量,成本和延迟就得吃亏。只有建立自己的研究团队、训练自己的模型,才能同时握住三项。而且 Canva 进 AI 其实比大多数人早:六年前\"背景移除器\"就是最受欢迎的功能,为此收购了奥地利的 Kaleido,一个能把图像分解成图层的视觉 AI 实验室;后来又收购了自建基础模型的 Leonardo。Cliff 的细分判断是:LLM 相对更可替换,但在图像和设计上,\"我们真的需要掌控自己的命运\"。\n\n成本问题解决了一半,还有一个反直觉的产品主张:提示词框不是创建视觉内容的正确入口。道理很简单,人们不知道自己想要一张迷幻复古 80 年代主题的生日派对邀请函,但当他们看到它的时候会说,天哪,我真的很喜欢。所以 Canva 的做法是用 1.65 亿多个模板和素材,把用户\"暴露在设计空间\"里,先看再挑,挑完再改成自己的。配套的是人在回路:Canva 是极少数会让 AI 生成内容引用真人创作模板、并为此付酬含署名的平台。至于 AI 抢设计师饭碗这个老话题,答案是当年 Canva 刚上线就被骂摧毁设计岗位,结果创造了数亿名新设计师;现在设计师在往\"品牌架构师\"升级,何况如今 AI 垃圾内容泛滥,你真的需要在组织内有品牌的守护者。\n\n再往前推一层,这一集其实有个更深的落点:AI 先改变的不是产品,是做产品的方式。Canva 现在最需要\"去程序化\"的,是自己过去立项的老办法——客户调研加一整套商业计划书;现在的规矩是,带着一个原型和尽可能小的团队来,先做出雏形、拿到真实用户反馈,效果好再扩展。这套偏好甚至进了面试流程。对领导者,建议是把 AI 接到代码仓库和所有核心数据源上,用自然语言直接查数——效果立竿见影,Cliff 用 AI 发现公司有超过 400 个实验在跑,其中很多已经挂了六个月没人管。\n\n回头看这家公司,起点低得惊人:两个人发现被派去做学校年鉴的老师讨厌这件事,却要在零设计技能下做出两百页的专业杂志,于是做了个年鉴产品,五年做到约一千所学校在用。第一次去硅谷融资,被拒绝了一百多次,转折是一位投资人听完直接说,你们做得比我 90% 的投资组合都好——下一场路演换了讲法,钱就到了,他们也因此决定留在澳大利亚,把\"不在硅谷\"当成不被舆论喧嚣分心的战略优势。这一集最值得带走的一句话,其实也是 Cliff 对所有公司大成的解释:都是因为拥有世界上最好的产品,并且毫不妥协地专注于解决客户的问题。"
+}

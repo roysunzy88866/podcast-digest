@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>111</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>112</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -120,6 +120,7 @@ unlisted: true
 - **[[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|《初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论》]]**(01:13起):本集批评其以「搞乱我们的统计」为由封禁 OpenClaw 用 Claude Pro/Max 订阅，判断订阅模式约 60 倍于 API 价的 token 折扣不可持续。
 - **[[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]]**(07:36起):本集提及它与 OpenAI 一样做编程智能体并演化出 Cowork，是 Cursor 所在的最激烈竞争市场的对手。
 - **[[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]]**(13:03起):本集借主持人对 LLM 竞争的类比，说 Bolt 走 Anthropic 式路线：把 B2B 特定用户和工作流做到极致好，而不是在消费端乱撒钱
+- **[[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]]**(04:14起):本集说 MCP 原是 Anthropic 推出的协议；其 Claude Code 体验下滑，但 Demetrios 仍看好实验室「拿到了所有用户数据」。
 
 ## ① 提到它的金句
 
@@ -165,7 +166,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*111 集*
+*112 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -278,6 +279,7 @@ unlisted: true
 - [[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|《初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论》]] — 作为被讨论公司
 - [[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]] — 作为被讨论公司(提及)
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]] — 作为概念
+- [[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -285,7 +287,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Claude]] · [[Cursor]] · [[Lenny]] · [[推理]] · [[NVIDIA]] · [[Meta]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":99,"Claude Code":48,"Claude":50,"Cursor":51,"Lenny":67,"推理":5,"NVIDIA":31,"Meta":29,"Google":38}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":100,"Claude Code":49,"Claude":50,"Cursor":52,"Lenny":67,"推理":5,"NVIDIA":31,"Meta":29,"Google":38}</script>
 
 <script>
 (function(){

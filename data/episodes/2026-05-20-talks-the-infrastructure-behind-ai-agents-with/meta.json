@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-20-talks-the-infrastructure-behind-ai-agents-with",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/U8oDMct5-gw.m4a",
+  "duration_sec": 1421.092,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 285,
+  "asr": true,
+  "title_en": "The Infrastructure Behind AI Agents with Baseten",
+  "podcast": "精选演讲",
+  "date": "2026-05-20",
+  "added": "2026-09-10",
+  "added_at": "2026-09-10T10:21:38.796Z",
+  "speaker_map": {
+    "SPEAKER_00": "Julian"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Julian",
+  "cohosts": [],
+  "title_zh": "Base 10 的 Julian：推理正在从「租用智能」走向「拥有智能」",
+  "guest_name": "Julian",
+  "guest_title": "Base 10 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

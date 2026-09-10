@@ -168,9 +168,9 @@ Andrew 最大的心态转变:「十年前我以为大多数事会渐进式起作
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|当智能体学会替你操作电脑：聊天即新浏览器]]<span class="pd-rz">同概念:MCP、智能体 (agents)</span>
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同概念:go to market</span>
 - [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪]]<span class="pd-rz">同概念:智能体 (agents)</span>
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新]]<span class="pd-rz">同概念:产品市场匹配 (product market fit)</span>
 
 </div>
 <div class="pd-ex">

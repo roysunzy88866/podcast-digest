@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
+[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"数据中心":3,"token":15,"GPU":15,"推理":5,"商业地产":1,"前沿模型":8,"harness":22,"预训练":6,"后训练":1,"AGI":20}</script>
+<script type="application/json" class="pd-epn">{"数据中心":3,"token":15,"GPU":15,"推理":5,"商业地产":1,"前沿模型":8,"harness":23,"预训练":6,"后训练":1,"AGI":20}</script>
 
 <script>
 (function(){

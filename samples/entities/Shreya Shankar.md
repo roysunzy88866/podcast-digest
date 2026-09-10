@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]]
+[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Hamel Husain":1,"评估":21,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":1,"trace":1,"Anthropic":111}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Hamel Husain":1,"评估":22,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":1,"trace":1,"Anthropic":112}</script>
 
 <script>
 (function(){

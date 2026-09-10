@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
+[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":20,"智能体":1,"沙箱":37,"对齐失败":1,"推理":5,"权力集中":1,"主观能动性":17,"OpenAI":99,"YC":11}</script>
+<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":20,"智能体":1,"沙箱":37,"对齐失败":1,"推理":5,"权力集中":1,"主观能动性":17,"OpenAI":100,"YC":11}</script>
 
 <script>
 (function(){

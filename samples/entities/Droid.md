@@ -21,7 +21,7 @@ unlisted: true
 
 [[Matan Grinberg]] · [[Factory]] · [[智能体]] · [[harness]] · [[模型独立性]] · [[router]] · [[token]] · [[开源模型]] · [[软件工厂]] · [[基于结果的付费]]
 
-<script type="application/json" class="pd-epn">{"Matan Grinberg":1,"Factory":4,"智能体":1,"harness":22,"模型独立性":1,"router":1,"token":15,"开源模型":5,"软件工厂":5,"基于结果的付费":3}</script>
+<script type="application/json" class="pd-epn">{"Matan Grinberg":1,"Factory":4,"智能体":1,"harness":23,"模型独立性":1,"router":1,"token":15,"开源模型":5,"软件工厂":5,"基于结果的付费":3}</script>
 
 <script>
 (function(){

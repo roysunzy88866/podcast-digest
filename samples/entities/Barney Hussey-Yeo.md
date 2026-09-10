@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]]
+[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":1,"Clio":1,"智能体":1,"LLM":28,"推荐系统":1,"监督学习":2,"强化学习":15,"transformer":6,"创造性破坏":1,"Anthropic":111}</script>
+<script type="application/json" class="pd-epn">{"John Collison":2,"Clio":1,"智能体":1,"LLM":29,"推荐系统":1,"监督学习":2,"强化学习":15,"transformer":6,"创造性破坏":1,"Anthropic":112}</script>
 
 <script>
 (function(){

@@ -1,0 +1,659 @@
+{
+  "episode_id": "2026-08-25-talks-canva-cofounder-and-coo-cliff-obrecht-in",
+  "podcast": "精选演讲",
+  "date": "2026-08-25",
+  "tags": [
+    "AI 商业模式",
+    "自研模型",
+    "产品设计",
+    "增长循环",
+    "组织转型"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "john-collison",
+      "type": "person",
+      "role": "host",
+      "name": "John Collison",
+      "file": "John Collison",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "cliff-obrecht",
+      "type": "person",
+      "role": "cohost",
+      "name": "Cliff Obrecht",
+      "file": "Cliff Obrecht",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "canva",
+      "type": "company",
+      "role": "company",
+      "name": "Canva",
+      "file": "Canva",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.351,
+            1.392
+          ],
+          "quote": "Canva's an amazing story.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            32.643,
+            48.146
+          ],
+          "quote": "We're in the middle of the biggest transition of our whole lives as a company in sort of taking Canva from a creative platform in the SaaS world to really being the combination of a creative platform, productivity platform, and intelligence platform in the AI world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            54.107,
+            56.068
+          ],
+          "quote": "How did Canva get to scale?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            56.528,
+            57.588
+          ],
+          "quote": "What's the backstory of Canva?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            75.193,
+            79.774
+          ],
+          "quote": "We really, when we first launched Canva, there's a lot of people over there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            127.935,
+            131.798
+          ],
+          "quote": "And we saw a pattern over time and over the many years customers use Canva that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            159.789,
+            164.093
+          ],
+          "quote": "Flap your rings and become a paying Canva subscriber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            309.106,
+            311.548
+          ],
+          "quote": "I think it's very similar to when we launched Canva.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            311.568,
+            313.769
+          ],
+          "quote": "Before Canva, you only had the Adobe products.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            323.295,
+            327.458
+          ],
+          "quote": "We introduced Canva, and there was a lot of sentiment, oh, Canva's destroying design jobs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            368.5,
+            375.744
+          ],
+          "quote": "I agree that it's clearly the effect that Canva is making much more design possible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            398.452,
+            401.034
+          ],
+          "quote": "Are you now making Canva templates?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            459.286,
+            468.654
+          ],
+          "quote": "And again, I presume in particular over Canva's history, a lot of people have been writing the story of Canva replacing designers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            479.05,
+            483.014
+          ],
+          "quote": "When we launched Canva, we really think it does empower professional creatives to do more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            544.057,
+            553.409
+          ],
+          "quote": "What do you think of as the visual style or kind of the design values that you're trying to inculcate in Canva's products?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            667.241,
+            670.905
+          ],
+          "quote": "Do they have some other business and they also put the stuff on Canva?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            718.825,
+            726.189
+          ],
+          "quote": "Well, yeah, I mean, Canva is a critical skill on Upwork, Fiverr, LinkedIn, and so there's multiple things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            726.209,
+            731.332
+          ],
+          "quote": "You can be a youngster and contribute to our library and get paid, or you can just do jobs on Canva.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            731.352,
+            736.555
+          ],
+          "quote": "And most people, well, a lot of people now require their content to be delivered in Canva format because it's editable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            739.456,
+            743.419
+          ],
+          "quote": "They want a Canva format because they want to then reuse that design within their small business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            771.264,
+            778.171
+          ],
+          "quote": "As Canva, the design tool, you are now becoming Canva, the AI lab developing image models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            781.066,
+            803.455
+          ],
+          "quote": "Yeah, I mean, when we launched or tried to launch our AI product that our Canva created in April, we launched it with a lot of frontier intelligence, so third-party image models, third-party LLMs, and they were amazing at what they did, but they're also very expensive, and if you're to deploy AI to hundreds of millions of people,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            840.249,
+            846.951
+          ],
+          "quote": "Okay, so you think it's just not possible to build the kind of Canva product that you want to build when you are...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            894.009,
+            916.954
+          ],
+          "quote": "If you rewind to the Canva leadership team offsite in, I don't know, whatever year it was you guys were making that decision, was it a decision where we could go the Amazon route, where Amazon does lots of AI with all their customers, but they choose to help customers use others' AI models as opposed to train their own?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            928.852,
+            933.256
+          ],
+          "quote": "One of the most loved features in Canva was the background remover.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            950.449,
+            952.851
+          ],
+          "quote": "It is how I ended up paying for Canva now that you say it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1100.64,
+            1107.022
+          ],
+          "quote": "So, for example, at Canva, we have a huge template library, and we thought, well, let's expose these templates to SEO.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1387.668,
+            1391.773
+          ],
+          "quote": "What products did Canva displace as we talk about these use cases?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1393.636,
+            1397.261
+          ],
+          "quote": "But in general, what were people using before that Canva was simplificating?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1419.117,
+            1421.839
+          ],
+          "quote": "I mean, we started Canva with a school yearbook company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1473.622,
+            1480.248
+          ],
+          "quote": "And we always had the idea, well Mel always had the idea for Canva, but we needed to deploy it to a market where we could make money and be profitable immediately.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1727.922,
+            1739.948
+          ],
+          "quote": "Canva now an Australian company like if you think about how the kind of the organization is and works and just yeah how it functions and how that's different from when you",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1769.078,
+            1784.038
+          ],
+          "quote": "R&D hubs, we've acquired companies in different markets, and so, yeah, they've all added to the fabric of Canva, and we really try and centralize it all around a few core hubs, and I'm very much coming back to the belief that, like, the best work is done sort of in-person, which we're not enforcing in-person work,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1806.731,
+            1812.094
+          ],
+          "quote": "Okay, but it sounds like you think you would describe Canva more as a global company than a culturally Australian company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1898.597,
+            1908.767
+          ],
+          "quote": "Do you guys find those ways that Canva works where you know people come in the door you're like look this is how we do it here and you have to kind of steer them into the Canva direction of working.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1987.767,
+            1991.351
+          ],
+          "quote": "So it's like Taylor Swift, all Canva can come to the phone, because all Canva's dead.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2320.977,
+            2326.58
+          ],
+          "quote": "Like if you ask the models to estimate what Canva spent on airfares last year, it might say like...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2380.943,
+            2384.008
+          ],
+          "quote": "Obviously, Canva, very valued partner.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agentic-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体循环 (agentic loop)",
+      "file": "智能体循环",
+      "primary": true,
+      "how_described": "本集用它解释成本结构突变:现在一次创作是完整的智能体循环——网络调研、调用品牌资产、生成整个营销活动、部署再追踪效果,智能要在每个环节背后运行,「所有那些 token 都要花钱」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            234.132,
+            243.004
+          ],
+          "quote": "But now if you're to use a full agentic loop and you're to do web research, you're to call a brand, you're to create a whole campaign being many different designs that",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "freemium",
+      "type": "concept",
+      "role": "concept",
+      "name": "免费增值模式 (freemium)",
+      "file": "免费增值模式",
+      "primary": true,
+      "how_described": "Canva 的起家模式:从不给免费用户加水印、把免费用户当口碑营销渠道来养;但 AI 把服务成本从每月几美分涨到「很多很多美分」,动摇了免费到付费的毕业线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            69.992,
+            72.733
+          ],
+          "quote": "And then part of the special source was really our freemium model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说要自己掌控数据飞轮并「管理推理」(manage the inference),才能把向数亿用户部署 AI 的成本降下来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            810.057,
+            815.019
+          ],
+          "quote": "And you also need to own a lot of the geogetic loops and also manage the inference as well to get costs down.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "templates",
+      "type": "concept",
+      "role": "concept",
+      "name": "模板 (templates)",
+      "file": "模板",
+      "primary": true,
+      "how_described": "Canva 库里有超过 1.65 亿个模板、图片和图形素材;本集主张「提示词框不是创建视觉内容的正确入口」,而是用海量模板让用户先看到设计空间再挑选改造,并给模板创作者署名和分钱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            332.841,
+            337.604
+          ],
+          "quote": "And then we empowered those professional designers to build templates, submit them on our platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            337.924,
+            351.172
+          ],
+          "quote": "And we are now one of the only platforms, if not the only platform, where you can generate with AI and reference templates created by real humans that we then pay those real humans for those input images rather than just training on the internet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            398.452,
+            401.034
+          ],
+          "quote": "Are you now making Canva templates?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            410.41,
+            422.3
+          ],
+          "quote": "And so similar to how designers in organizations, they used to create templates, now they can create mood boards, styles, brands for all their different sort of sub-assets within an organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            424.702,
+            438.395
+          ],
+          "quote": "And then they can empower the rest of the organization to either create with those templates or leverage those base bits of creativity, feed that into AI to create things for whatever they want, but within that same brand framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            622.151,
+            632.376
+          ],
+          "quote": "So we've got over 165 million templates, images, and graphic assets on the library, and we really don't think the prompt box is the right vector for creating visual content.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            751.364,
+            754.866
+          ],
+          "quote": "That's what we call a brand kit and brand templates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            955.033,
+            959.036
+          ],
+          "quote": "Templates and background remover used to be our number one sort of drivers of upgrades.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1100.64,
+            1107.022
+          ],
+          "quote": "So, for example, at Canva, we have a huge template library, and we thought, well, let's expose these templates to SEO.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1113.304,
+            1136.566
+          ],
+          "quote": "Business card templates, then it's like, okay, well, how do I create, like, let's do the SEO research, let's figure out everything everyone's looking for, which then informs the strategy to actually create that content, which people ultimately want in the platform, and then you expose that to the public, and then you, well, we ranked number one in all the categories for the longest period of time, and then that becomes essentially, well, that was 60% of our growth for a while, and then it's, okay, people are designing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1138.247,
+            1140.408
+          ],
+          "quote": "Oh, no, no, no, the broad spectrum of all templates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1140.428,
+            1141.548
+          ],
+          "quote": "Okay, templates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1201.382,
+            1210.307
+          ],
+          "quote": "And so when you say people are doing templates or people are, you know, want to remove image backgrounds, there's part of that that's product where you need like the image,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "seo",
+      "type": "concept",
+      "role": "concept",
+      "name": "SEO",
+      "file": "SEO",
+      "primary": true,
+      "how_described": "本集最典型的增长循环案例:把庞大模板库暴露给搜索引擎,发现名片模板排到 Google 第一后系统做搜索研究、批量建内容,「那曾经一度占我们增长的 60%」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 188,
+          "t": [
+            1100.64,
+            1107.022
+          ],
+          "quote": "So, for example, at Canva, we have a huge template library, and we thought, well, let's expose these templates to SEO.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1113.304,
+            1136.566
+          ],
+          "quote": "Business card templates, then it's like, okay, well, how do I create, like, let's do the SEO research, let's figure out everything everyone's looking for, which then informs the strategy to actually create that content, which people ultimately want in the platform, and then you expose that to the public, and then you, well, we ranked number one in all the categories for the longest period of time, and then that becomes essentially, well, that was 60% of our growth for a while, and then it's, okay, people are designing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1213.549,
+            1218.591
+          ],
+          "quote": "There's part of that that's like SEO where you want, you know, how do I remove the background to an image?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1222.093,
+            1224.794
+          ],
+          "quote": "There's content to drive the SEO.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路 (human in the loop)",
+      "file": "人在回路",
+      "primary": true,
+      "how_described": "本集说 Canva 是极少数让 AI 生成内容引用真人创作模板、并为此向创作者付酬(含署名)的平台,坚信「人在回路至关重要,尤其在创造力方面」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            351.192,
+            362.078
+          ],
+          "quote": "So we really believe human in the loop is critical, particularly when it comes to creativity, and we really believe in paying out creators for the beautiful content and the design trends that they're setting that people can leverage with AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

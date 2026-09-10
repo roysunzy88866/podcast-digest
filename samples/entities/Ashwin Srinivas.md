@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
+[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":2,"Kimberley Tan":1,"Jesse Zhang":1,"Decagon":4,"智能体":1,"开源模型":5,"微调":1,"业务逻辑":1,"前向部署工程师":7,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":2,"Kimberley Tan":1,"Jesse Zhang":1,"Decagon":5,"智能体":1,"开源模型":5,"微调":1,"业务逻辑":1,"前向部署工程师":7,"Duet":1}</script>
 
 <script>
 (function(){

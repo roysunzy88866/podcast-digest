@@ -1,0 +1,172 @@
+{
+  "title_zh": "Base 10 的 Julian：推理正在从「租用智能」走向「拥有智能」",
+  "tldr": "AI 基础设施公司 Base 10 的 Julian 讲为什么企业会转向自建后训练模型，以及智能体时代推理栈的演变与容量困局。",
+  "digest_md": "「为了给客户好 10% 的体验，你愿意付 500% 的溢价。」这是 Base 10 创始人 Julian 在这一集里反复强调的一件事——他做的是 AI 推理基础设施，服务的是全球增长最快的那批公司，而这批公司的共同点是：**能力就是一切，没人愿意在模型能力上妥协**。正因如此，他认为「开源已经变好了」最有力的证明，就是这么多挑剔的客户都在用开源模型——因为没人想做那种取舍 [17:57 Julian]。\n\n## 从「租用智能」到「拥有智能」\n\nJulian 给 Base 10 的核心主张起了个名字：rented to owned intelligence(从租用到拥有的智能)。现在大多数公司用模型的方式是按 token 付费调用别人训练好的模型——像租房子，没有价值累积，对模型怎么跑、擅长什么、跑多快、跑在哪里都没有控制权 [01:44 Julian]。而他看到的未来是：公司会用自己应用和工作流的数据做后训练(post-training,拿自己的数据在现成模型上继续训练)，让模型非常擅长你要的那件具体的事，同时掌控 SLA、性能和区域部署要求——不仅拥有模型的质量，还拥有它的利用率、成本和运行工具 [01:57 Julian]。\n\n支撑这个判断的另一个信念是：**世界不会只有两个模型，而是会有很多模型** [00:43 Julian]。客户分三类，采用曲线各不相同：早期公司从好用的闭源模型起步、先做出零到一原型；高速增长的 AI 公司到了规模后会混用闭源、开源和自定义模型；企业级市场还早，目前采用集中在应用层而非基础设施层，但医疗和金融已经有苗头——原因很反直觉：医疗历史上一直是技术采用的落后者，但因为 AI 的投资回报率太清晰，这轮反而跑得很快 [04:27 Julian]。\n\n对应地，Base 10 的产品是三块：共享 API(多租户调用最好的开源模型，便捷入口但不管你的 SLA)、专用推理(这是他们的大头和立身之处，大多数客户都是专用方式使用)、以及训练/后训练产品 [04:46 Julian]。\n\n## 后训练的需求为什么是现在爆发的\n\n其实 Base 10 在 2022 年就用一款叫 Blueprint 的产品做微调——「显然太早了」，Julian 自己承认 [06:47 Julian]。需求转变是三件事叠加：一是开源模型已经够好；二是足够多的公司到了「成本随规模上涨、又失去对想做之事的控制」的规模；三是 Cursor、Intercom、Decagon 这些公司已经给出了后训练奏效的成功样板，成了可照抄的新蓝图 [06:14 Julian]。第三块拼图是基础设施：光有模型不够，得有能力把它跑起来——Base 10 这类玩家让「自己训练、自己跑模型」变得可行了 [07:14 Julian]。\n\n## 推理正在变成智能体的工具箱\n\n围绕收购的 Parst 团队，Julian 讲了一个更前沿的判断：持续训练如今已是工程问题——跑模型、拿生产轨迹、收人类反馈、重训、重部署，步骤清晰 [08:00 Julian];但世界的下一步是「上下文内训练和推理同时进行」。当长时程智能体任务(模型连续干很久的活)越来越多，你希望干活的环境和模型本身持续演化 [08:26 Julian]。\n\n这对推理栈的改变是根本性的：模型从「输入直接到输出」变成会思考、在原地做大量工作、需要访问一整个工具生态——运行工具、运行其他模型、在模型间路由、快速启停执行代码的沙箱 [11:10 Julian]。一句话：**推理从「我需要跑这个模型」变成「一套运行这些智能体的工具」** [11:32 Julian],从狭义的解决方案变成解决更广泛问题的一套工具 [12:04 Julian]。而且他判断，智能体工作负载可能已经占了大部分 [18:56 Julian]。\n\n## 容量比你想的稀缺 10 倍\n\n谈到 GPU 容量，Julian 的原话是：除非你身处其中，否则体会不到——**实际情况比你想象的糟糕 10 倍**。拿容量要做数月甚至一个季度的规划，还必须达到足够的规模才有资格拿；更糟的是世界上最大的公司都在抢供应，乐得把所有供给吸走 [19:28 Julian]。\n\nBase 10 的应对是一开始就押注分布式：他们今天跑在多家云、80 到 100 个区域上，策略是推理天然应该分布式——既为可靠性故障转移，也为靠近终端客户服务，以此抢下很多零散集群 [20:15 Julian]。这个能力其实源于被动：创业头几年没什么业务，投资方不断把他们推到企业面前，而企业要求一切都部署在自己的 VPC(云上的私有网络空间)里，于是他们把一切构建成可部署到不同 VPC、再把多集群拼接起来——结果成了如今客户需求的经久不衰的能力 [21:22 Julian]。\n\n## 市场快到没法规划，那就先做深、贴住客户\n\n「我们没有人真正了解这个市场，因为一切变化太快」[15:03 Julian]——模型层在变、用法在变、部署在变、连存在的应用都在变，智能体应用的算力消耗远超非智能体应用，是阶跃式变化。为四六个月后做容量规划时，你只能选一个雄心勃勃的乐观世界图景，为它构建，然后相信市场会长成你建的样子 [15:50 Julian]。连他们自己也没预测到推理模型和代码能力的跃升、开源跨越鸿沟的时点 [16:31 Julian]。\n\n方法论上，Julian 的答案是「尽量少做事」：先做深不做广，至少把一件事解决得非常非常好——这是北极星 [13:17 Julian];加上前向部署模式，把自己当成客户团队的延伸。长期规划没有意义，Base 10 基本上每位工程师最近几周都和客户沟通过，一半的工程团队昨天就和客户说过话 [23:17 Julian]。\n\n## 本集带走\n\n- **判断一家公司该不该自建模型，看规模和挑剔程度**：增长最快的公司会为 10% 的体验提升付 5-10 倍价钱——这正是开源模型变好的最强证明，因为没人愿意在能力上妥协。\n- **「拥有智能」的三个台阶**：共享 API 起步 → 专用推理掌控 SLA 与性能 → 用自己的数据后训练，让模型擅长你那件具体的事，同时拿回成本和利用率。\n- **推理栈的定义正在扩**：智能体时代，推理从「跑一个模型」变成一套工具生态——模型路由、沙箱、函数调用，训练与推理的界线在融合(持续学习：边跑边拿反馈边演化)。\n- **容量是真实的护城河**：稀缺程度比外界想的严重 10 倍；分布式、多区域部署既是可靠性策略也是抢容量的手段。\n- **极快市场里的生存法**：长期规划没意义，先在一件事上做到最好，全公司贴着客户走——每个工程师都直接和客户对话。",
+  "quotes": [
+    {
+      "en": "None of us really know anything about this market because things are going so fast.",
+      "zh": "我们中没有人真正了解这个市场，因为一切都变化得太快。",
+      "timestamp": "00:00",
+      "speaker": "Julian"
+    },
+    {
+      "en": "Capability is everything. No one's really willing to take a hit on capability. You will pay a 500% premium for a 10% better experience for your customers.",
+      "zh": "能力就是一切。没有人真正愿意在能力上妥协。你会为了给客户好 10% 的体验而支付 500% 的溢价。",
+      "timestamp": "00:03",
+      "speaker": "Julian"
+    },
+    {
+      "en": "I think continual training now is becoming this kind of, I don't want to call it solved, but it's like an engineering problem now, where it's like we know what to do",
+      "zh": "我认为持续训练现在正在成为一种……我不想说它已被解决，但它现在像一个工程问题了，就是我们知道该怎么做",
+      "timestamp": "08:00",
+      "speaker": "Julian"
+    },
+    {
+      "en": "Inference goes from, I need to run this model to a set of tools to run these agents.",
+      "zh": "推理从「我需要运行这个模型」变成「一套运行这些智能体的工具」。",
+      "timestamp": "11:32",
+      "speaker": "Julian"
+    },
+    {
+      "en": "inference turns from a narrow solution to a set of tools to solve a broader problem.",
+      "zh": "推理从狭义的解决方案变成了解决更广泛问题的一套工具。",
+      "timestamp": "12:07",
+      "speaker": "Julian"
+    },
+    {
+      "en": "I think the only thing you can do is have a very ambitious or optimistic case of the world and build to what could happen",
+      "zh": "我认为你唯一能做的就是有一个非常雄心勃勃或乐观的世界图景，并为可能发生的事情而构建",
+      "timestamp": "15:50",
+      "speaker": "Julian"
+    },
+    {
+      "en": "And the testament to how good open source has gone is how many people are using open source models because no one wants to make that trade-off.",
+      "zh": "而对开源已经变得多好的一个印证，就是有多少人在使用开源模型，因为没有人想做那种取舍。",
+      "timestamp": "17:57",
+      "speaker": "Julian"
+    },
+    {
+      "en": "Unless you're in and around that, I think you don't appreciate like it is 10x worse than whatever you think it is.",
+      "zh": "除非你身处其中或在其周围，我觉得你不会体会到，实际情况比你想象的糟糕 10 倍。",
+      "timestamp": "19:28",
+      "speaker": "Julian"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Julian",
+      "en": "None of us really know anything about this market because things are going so fast.",
+      "zh": "我们中没有人真正了解这个市场，因为一切都变化得太快。"
+    },
+    {
+      "timestamp": "00:03",
+      "speaker": "Julian",
+      "en": "Capability is everything. No one's really willing to take a hit on capability. You will pay a 500% premium for a 10% better experience for your customers.",
+      "zh": "能力就是一切。没有人真正愿意在能力上妥协。你会为了给客户好 10% 的体验而支付 500% 的溢价。"
+    },
+    {
+      "timestamp": "00:43",
+      "speaker": "Julian",
+      "en": "the future we see is that the world just doesn't have two models. It has many models.",
+      "zh": "我们看到的未来是，世界不会只有两个模型，而是会有很多模型。"
+    },
+    {
+      "timestamp": "01:46",
+      "speaker": "Julian",
+      "en": "You don't have a ton of control of how that model is run, what is it good at, and also, you know, how fast it runs or, you know, where it runs.",
+      "zh": "你对那个模型如何运行、它擅长什么，以及它运行多快、在哪里运行，都没有太多控制权。"
+    },
+    {
+      "timestamp": "06:14",
+      "speaker": "Julian",
+      "en": "One is open source has got good, and that's very important.",
+      "zh": "一是开源已经变好了，这非常重要。"
+    },
+    {
+      "timestamp": "08:00",
+      "speaker": "Julian",
+      "en": "I think continual training now is becoming this kind of, I don't want to call it solved, but it's like an engineering problem now, where it's like we know what to do",
+      "zh": "我认为持续训练现在正在成为一种……我不想说它已被解决，但它现在像一个工程问题了，就是我们知道该怎么做"
+    },
+    {
+      "timestamp": "11:32",
+      "speaker": "Julian",
+      "en": "Inference goes from, I need to run this model to a set of tools to run these agents.",
+      "zh": "推理从「我需要运行这个模型」变成「一套运行这些智能体的工具」。"
+    },
+    {
+      "timestamp": "12:04",
+      "speaker": "Julian",
+      "en": "inference turns from a narrow solution to a set of tools to solve a broader problem.",
+      "zh": "推理从狭义的解决方案变成了解决更广泛问题的一套工具。"
+    },
+    {
+      "timestamp": "13:17",
+      "speaker": "Julian",
+      "en": "hey, how can we build depth first as opposed to breadth first?",
+      "zh": "嘿，我们如何先做深，而不是先做广？"
+    },
+    {
+      "timestamp": "15:50",
+      "speaker": "Julian",
+      "en": "I think the only thing you can do is have a very ambitious or optimistic case of the world and build to what could happen",
+      "zh": "我认为你唯一能做的就是有一个非常雄心勃勃或乐观的世界图景，并为可能发生的事情而构建"
+    },
+    {
+      "timestamp": "17:57",
+      "speaker": "Julian",
+      "en": "And the testament to how good open source has gone is how many people are using open source models because no one wants to make that trade-off.",
+      "zh": "而对开源已经变得多好的一个印证，就是有多少人在使用开源模型，因为没有人想做那种取舍。"
+    },
+    {
+      "timestamp": "18:30",
+      "speaker": "Julian",
+      "en": "But for the most part, people want the best model for that task. And people will choose the best model for that task.",
+      "zh": "但在大多数情况下，人们想要为那个任务用最好的模型，而且人们会为那个任务选择最好的模型。"
+    },
+    {
+      "timestamp": "18:56",
+      "speaker": "Julian",
+      "en": "I think it already has probably moved to the majority of stuff.",
+      "zh": "我觉得它可能已经变成了大部分了。"
+    },
+    {
+      "timestamp": "19:28",
+      "speaker": "Julian",
+      "en": "Unless you're in and around that, I think you don't appreciate like it is 10x worse than whatever you think it is.",
+      "zh": "除非你身处其中或在其周围，我觉得你不会体会到，实际情况比你想象的糟糕 10 倍。"
+    },
+    {
+      "timestamp": "19:33",
+      "speaker": "Julian",
+      "en": "You know, you have to do multi-month long or quarter long planning to get this capacity and also like you have to be at a sufficient scale to be able to get capacity.",
+      "zh": "你知道，你必须做长达数月或一个季度的规划才能拿到这些容量，而且你必须达到足够的规模才能拿到容量。"
+    },
+    {
+      "timestamp": "20:15",
+      "speaker": "Julian",
+      "en": "And, you know, our explicit strategy is that inference actually you want to be distributed for a number of reasons, both for reliability failover, but also so you can serve models closer to end customers.",
+      "zh": "而且，你知道，我们明确的策略是，推理实际上你希望它是分布式的，原因有很多，既是为了可靠性的故障转移，也是为了能更靠近终端客户地服务模型。"
+    },
+    {
+      "timestamp": "21:33",
+      "speaker": "Julian",
+      "en": "And that just ended up being an enduring component of what people demand for today.",
+      "zh": "而这最终成为了如今人们需求中一个经久不衰的组成部分。"
+    },
+    {
+      "timestamp": "23:14",
+      "speaker": "Julian",
+      "en": "So there's like no, there's no point in long-term planning.",
+      "zh": "所以就是，长期规划没有意义。"
+    },
+    {
+      "timestamp": "23:17",
+      "speaker": "Julian",
+      "en": "You know, we try to spend, you know, basically every engineer at Base 10 has probably spoken to a customer in the last couple weeks.",
+      "zh": "你知道，我们努力让，你知道，基本上 Base 10 的每一位工程师在过去几周里都和客户沟通过。"
+    }
+  ],
+  "voice_script": "今天的主角叫 Julian，是 Base 10 的创始人。Base 10 做的是 AI 推理基础设施——说白了，就是帮那些全球增长最快的公司，把大模型跑起来的生意。这期聊的核心问题就一个：企业用模型的方式，正在从「租用」变成「拥有」。这背后有商业逻辑的变化，有推理栈本身的演变，还有一桩很少有人外人知道的苦事——GPU 容量到底有多难抢。我们来把这条线捋清楚。\n\n先说这个判断是从哪儿来的。Julian 有句话，这一集里反复强调：为了给客户好 10% 的体验，你愿意付 500% 的溢价。因为 Base 10 服务的那批客户，能力就是一切，没人愿意在模型能力上妥协。也正因为这个，他觉得「开源模型已经变好了」这件事，最有力的证明不是哪个跑分，而是这么多挑剔的客户都在用开源模型——没人愿意做那种能力上的取舍，他们还在用，说明开源是真的能打了。\n\n在这个基础上，Julian 给 Base 10 的核心主张起了个名字，叫从租用到拥有的智能。你想想现在大多数公司怎么用模型：按 token 付费，调用别人训练好的模型。这就像租房子——没有任何价值累积，模型怎么跑的、擅长什么、跑多快、跑在哪里，你统统没有控制权。而 Julian 看到的未来是：公司会拿自己应用和工作流里的数据，对现成模型做后训练——所谓后训练，就是拿自己的数据在现成模型上继续训练，让模型特别擅长你要的那件具体的事。同时，你还能掌控 SLA、性能和区域部署这些要求。也就是说，你不仅拥有模型的质量，还拥有它的利用率、成本和运行工具。\n\n当然，不是所有公司都会走这条路。Julian 把客户分成三类，采用曲线各不相同。早期的公司，从好用的闭源模型起步，先把零到一的原型做出来；高速增长的 AI 公司到了一定规模后，会开始混用闭源、开源和自定义模型；企业级市场还早，目前的采用集中在应用层，还没下沉到基础设施层——但医疗和金融已经有苗头了。这里面有个反直觉的点：医疗在历史上一直是技术采用的落后者，这一轮反而跑得很快，原因就是 AI 的投资回报率太清晰了，账算得过来。\n\n顺着这个判断，Base 10 的产品就分三块：一是共享 API，多租户调用最好的开源模型，是个便捷入口，但不保证你的 SLA；二是专用推理，这是他们的大头和立身之处，大多数客户都是专用方式在用；三是训练和后训练产品。\n\n那问题来了：做后训练这个需求，为什么是现在才爆发？其实 Base 10 早在 2022 年就用一款叫 Blueprint 的产品做过微调。Julian 自己承认，显然太早了。需求的转变，是三件事叠在一起。第一，开源模型已经够好了。第二，足够多的公司到了那个规模——成本随规模上涨，又失去了对自己想做之事的控制。第三，Cursor、Intercom、Decagon 这些公司已经给出了后训练奏效的成功样板，等于成了可以照抄的新蓝图。除了这三件，还有一块拼图是基础设施：光有模型不够，得有能力把它跑起来。Base 10 这类玩家，让「自己训练、自己跑模型」变得可行了。\n\n再往下，就是一个更前沿的判断了：推理，正在变成智能体的工具箱。先看持续训练这件事。Julian 说，持续训练如今已经是个工程问题了——跑模型、拿生产轨迹、收人类反馈、重新训练、重新部署，步骤清晰，照着做就行。但世界的下一步，是上下文内的训练和推理同时进行。什么意思？当长时程的智能体任务越来越多——也就是模型连续干很久的活——你希望干活的环境和模型本身持续演化，边干边变强。\n\n这对推理栈的改变是根本性的。模型不再是从输入直接到输出，而是会思考、在原地做大量工作，还需要访问一整个工具生态：运行工具、运行其他模型、在模型之间路由、快速启停执行代码的沙箱。用 Julian 的原话说：推理从「我需要跑这个模型」，变成「一套运行这些智能体的工具」。从狭义的解决方案，变成解决更广泛问题的一套工具。而且他的判断是，智能体的工作负载，可能已经占了大部分。\n\n好，说到「把模型跑起来」，就绕不开一个所有从业者都头疼的话题：GPU 容量。Julian 的原话是，除非你身处其中，否则体会不到——实际情况比你想象的糟糕 10 倍。为什么？拿容量要做数月甚至一个季度的规划，还必须达到足够的规模才有资格拿。更糟的是，世界上最大的公司都在抢供应，乐得把所有供给吸走。Base 10 的应对，是一开始就押注分布式：今天跑在多家云、80 到 100 个区域上。策略逻辑是，推理天然就应该分布式——既为了可靠性上的故障转移，也为了靠近终端客户，用这个思路抢下很多零散的集群。有意思的是，这个能力其实源于被动。创业头几年没什么业务，投资方不断把他们推到企业面前，而企业要求一切都部署在自己的 VPC 里——VPC 就是云上的私有网络空间。于是他们把一切构建成可部署到不同 VPC，再把多集群拼接起来，结果成了如今客户最认的能力。\n\n那市场变化这么快，怎么规划？Julian 说得很直白：我们中没有人真正了解这个市场，因为一切都变化得太快。模型层在变、用法在变、部署在变，连存在的应用都在变——智能体应用的算力消耗远超非智能体应用，是阶跃式的变化。为四六个月后做容量规划时，你唯一能做的，就是选一个雄心勃勃的乐观世界图景，为它而构建，然后相信市场会长成你建的样子。连他们自己，都没预测到推理模型和代码能力的跃升、开源跨越鸿沟的时点。\n\n方法论上，Julian 的答案是尽量少做事。先做深不做广，至少把一件事解决得非常非常好——这是北极星。再加上前向部署模式，把自己当成客户团队的延伸。所以 Base 10 基本上每位工程师，最近几周都和客户沟通过，一半的工程团队昨天就和客户说过话。\n\n最后带走一句话：在一个人人都看不清的市场里，长期规划没有意义，你能做的，就是在一件事上做到最好，贴着客户走，然后为那个最乐观的世界提前构建。"
+}

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]]
+[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":111,"智能体":1,"harness":22,"沙箱":37,"智能体循环":1,"上下文工程":9,"会话日志追踪":2,"泄露的凭证":3,"可观测性":18}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":112,"智能体":1,"harness":23,"沙箱":37,"智能体循环":2,"上下文工程":9,"会话日志追踪":2,"泄露的凭证":3,"可观测性":19}</script>
 
 <script>
 (function(){

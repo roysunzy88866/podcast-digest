@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]]
+[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":5,"智能体":1,"基于结果的定价":1,"应用 AI":1,"前沿模型":8,"工具层":1,"上下文工程":9,"编程系统":1,"MCP":28}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":5,"智能体":1,"基于结果的定价":1,"应用 AI":1,"前沿模型":8,"工具层":1,"上下文工程":9,"编程系统":1,"MCP":29}</script>
 
 <script>
 (function(){

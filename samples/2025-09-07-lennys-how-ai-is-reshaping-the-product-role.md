@@ -180,8 +180,8 @@ Oji的预测：未来几年，很多高主观能动性的人会编写自动化�
 **顺着「产品方法」挖下去**
 
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|AI 产品不能照搬软件老办法：从高控制低自主开始]]<span class="pd-rz">同概念:evals、主观能动性 (agency)、智能体 (agent)</span>
+- [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|评测优先:Braintrust 创始人谈 AI 产品开发的真正工程]]<span class="pd-rz">同概念:evals、LLM、智能体 (agent)</span>
 - [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|Gamma 联创复盘：押注空白页，赌出一亿用户]]<span class="pd-rz">同概念:evals、LLM、护栏 (guardrails)</span>
-- [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同概念:evals、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

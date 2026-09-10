@@ -1,0 +1,2370 @@
+[
+ {
+  "seg": 0,
+  "start": 0.471,
+  "end": 4.572,
+  "speaker": "Unknown",
+  "en": "Today's conversation is with Ankur Guyal, the founder and CEO of Braintrust.",
+  "zh": "今天对话的嘉宾是 Ankur Guyal,Braintrust 的创始人兼 CEO。"
+ },
+ {
+  "seg": 1,
+  "start": 5.132,
+  "end": 9.893,
+  "speaker": "Unknown",
+  "en": "Ankur is a repeat founder who started working in AI long before the debut of ChatGPT.",
+  "zh": "Ankur 是一位连续创业者,早在 ChatGPT 问世之前就开始从事 AI 方面的工作了。"
+ },
+ {
+  "seg": 2,
+  "start": 10.433,
+  "end": 15.214,
+  "speaker": "Unknown",
+  "en": "He previously founded Empira, which was acquired by Figma, where he went on to lead the AI team.",
+  "zh": "他之前创办了 Empira,该公司被 Figma 收购,之后他在 Figma 领导 AI 团队。"
+ },
+ {
+  "seg": 3,
+  "start": 15.934,
+  "end": 20.075,
+  "speaker": "Unknown",
+  "en": "Now with Braintrust, he's helping developers build AI that actually works.",
+  "zh": "现在通过 Braintrust,他在帮助开发者构建真正有效的 AI。"
+ },
+ {
+  "seg": 4,
+  "start": 20.855,
+  "end": 23.916,
+  "speaker": "Unknown",
+  "en": "In our discussion, we cover why evals are core to AI development,",
+  "zh": "在我们的讨论中,我们谈到为什么评测(evals)是 AI 开发的核心,"
+ },
+ {
+  "seg": 5,
+  "start": 24.856,
+  "end": 33.241,
+  "speaker": "Unknown",
+  "en": "Why taste matters in product development, what a culture of customer obsession looks like, and his approach to scaling and managing a team.",
+  "zh": "为什么品味在产品开发中很重要,以客户为中心的文化是什么样的,以及他扩展和管理团队的方法。"
+ },
+ {
+  "seg": 6,
+  "start": 34.041,
+  "end": 35.262,
+  "speaker": "Unknown",
+  "en": "Let's get into the conversation.",
+  "zh": "让我们开始这段对话。"
+ },
+ {
+  "seg": 7,
+  "start": 36.291,
+  "end": 38.131,
+  "speaker": "Unknown",
+  "en": "Ankur, do you remember when we first met?",
+  "zh": "Ankur,你还记得我们第一次见面的时候吗?"
+ },
+ {
+  "seg": 8,
+  "start": 38.712,
+  "end": 39.012,
+  "speaker": "Unknown",
+  "en": "I do.",
+  "zh": "我记得。"
+ },
+ {
+  "seg": 9,
+  "start": 39.632,
+  "end": 62.037,
+  "speaker": "Unknown",
+  "en": "I'll tell you my recollection of it, which is I was, I think, a month or two into venture capital, and I walk into this conference room in our old San Francisco office, and, you know, I was meeting with you, and you were like, guys, I just got off of an international flight, like I think it was a red eye or something, and I spent the whole flight building this product I'm about to show you, which is the kernel of my company, Impira.",
+  "zh": "我跟你说说我的记忆,当时我大概刚做风险投资一两个月,我走进我们旧金山老办公室的一间会议室,你知道,我当时是去见你,你大概说,伙计们,我刚下国际航班,好像是个红眼航班什么的,我整个航程都在做我要给你展示的这个产品,这就是我公司 Impira 的雏形。"
+ },
+ {
+  "seg": 10,
+  "start": 62.277,
+  "end": 62.457,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 11,
+  "start": 63.818,
+  "end": 69.807,
+  "speaker": "Unknown",
+  "en": "And I remember walking out and being like, I know nothing about venture capital, but that seems like the kind of person we should be in business with.",
+  "zh": "我记得走出来的时候我在想,我对风险投资一无所知,但那种人看起来就是我们应该合作的类型。"
+ },
+ {
+  "seg": 12,
+  "start": 70.488,
+  "end": 71.29,
+  "speaker": "Unknown",
+  "en": "Well, it all worked out.",
+  "zh": "嗯,一切都很顺利。"
+ },
+ {
+  "seg": 13,
+  "start": 72.211,
+  "end": 77.92,
+  "speaker": "Unknown",
+  "en": "Well, I want to mainly talk about brain trust, but before we jump into brain trust, tell us a little bit about yourself.",
+  "zh": "好吧,我主要想聊聊 Braintrust,但在进入 Braintrust 之前,先简单介绍一下你自己吧。"
+ },
+ {
+  "seg": 14,
+  "start": 79.961,
+  "end": 80.562,
+  "speaker": "Unknown",
+  "en": "How'd we get here?",
+  "zh": "我们是怎么走到今天的?"
+ },
+ {
+  "seg": 15,
+  "start": 80.962,
+  "end": 89.605,
+  "speaker": "Unknown",
+  "en": "Well, my parents are doctors, and I wanted to be a doctor my whole life, until I took bio, and I realized that I really don't like just memorizing stuff.",
+  "zh": "嗯,我父母都是医生,我这辈子一直想当医生,直到我上了生物课,我意识到我真的不喜欢死记硬背。"
+ },
+ {
+  "seg": 16,
+  "start": 89.665,
+  "end": 95.467,
+  "speaker": "Unknown",
+  "en": "And I took linear algebra at the University of Pittsburgh at the same time, and it completely exploded my brain.",
+  "zh": "同时我还在匹兹堡大学上了线性代数课,它完全把我的脑子炸开了。"
+ },
+ {
+  "seg": 17,
+  "start": 95.587,
+  "end": 105.911,
+  "speaker": "Unknown",
+  "en": "And it was one of those moments, like I started writing code for the class, it was one of those moments where I just saw the rest of my life in front of me, and I was like, oh my god, I want to study computer science.",
+  "zh": "那是那种时刻之一,比如我开始为那门课写代码,那一刻我仿佛看到了我的整个人生摆在面前,我心想,天哪,我想学计算机科学。"
+ },
+ {
+  "seg": 18,
+  "start": 106.491,
+  "end": 111.154,
+  "speaker": "Unknown",
+  "en": "So I studied computer science, and then I had another one of those moments when I took operating systems.",
+  "zh": "所以我学了计算机科学,然后在我上操作系统课的时候又经历了那样一个时刻。"
+ },
+ {
+  "seg": 19,
+  "start": 111.834,
+  "end": 114.476,
+  "speaker": "Unknown",
+  "en": "And this is like a famously challenging class at CMU.",
+  "zh": "这是 CMU 一门出了名有挑战性的课。"
+ },
+ {
+  "seg": 20,
+  "start": 114.536,
+  "end": 120.499,
+  "speaker": "Unknown",
+  "en": "I think the number of people that survive the class after the first week is 40%.",
+  "zh": "我记得第一周之后能撑下来的人数比例是 40%。"
+ },
+ {
+  "seg": 21,
+  "start": 120.739,
+  "end": 125.602,
+  "speaker": "Unknown",
+  "en": "And then I think about 10% of the people that signed up make it to the end.",
+  "zh": "然后我记得报名的人里大约 10% 能撑到最后。"
+ },
+ {
+  "seg": 22,
+  "start": 126.162,
+  "end": 128.684,
+  "speaker": "Unknown",
+  "en": "And about 10% of those people get A's.",
+  "zh": "而那些人里大约 10% 能拿到 A。"
+ },
+ {
+  "seg": 23,
+  "start": 128.744,
+  "end": 130.085,
+  "speaker": "Unknown",
+  "en": "It's a really hard class.",
+  "zh": "这是一门非常难的课。"
+ },
+ {
+  "seg": 24,
+  "start": 130.865,
+  "end": 135.668,
+  "speaker": "Unknown",
+  "en": "And they tell you you should expect to spend 40 hours per week on the course material for this class.",
+  "zh": "他们会告诉你,这门课你应该预期每周花 40 个小时在学习材料上。"
+ },
+ {
+  "seg": 25,
+  "start": 135.988,
+  "end": 137.068,
+  "speaker": "Unknown",
+  "en": "But I loved this class.",
+  "zh": "但我热爱这门课。"
+ },
+ {
+  "seg": 26,
+  "start": 137.468,
+  "end": 138.529,
+  "speaker": "Unknown",
+  "en": "I loved everything about it.",
+  "zh": "我热爱它的一切。"
+ },
+ {
+  "seg": 27,
+  "start": 140.029,
+  "end": 142.01,
+  "speaker": "Unknown",
+  "en": "And then I was like, OK, I want to work on systems.",
+  "zh": "然后我心想,好,我想做系统方向。"
+ },
+ {
+  "seg": 28,
+  "start": 142.25,
+  "end": 146.611,
+  "speaker": "Unknown",
+  "en": "And as a good Indian kid, I then tried to do research, and I was bored out of my mind.",
+  "zh": "作为一个标准的印度好孩子,我接着去尝试做研究,结果我无聊得要命。"
+ },
+ {
+  "seg": 29,
+  "start": 146.631,
+  "end": 154.054,
+  "speaker": "Unknown",
+  "en": "So I had made my third existential crisis and moved to San Francisco and met Nikita and Eric from MemSQL.",
+  "zh": "于是我经历了第三次存在危机,搬到了旧金山,认识了 MemSQL 的 Nikita 和 Eric。"
+ },
+ {
+  "seg": 30,
+  "start": 154.734,
+  "end": 157.095,
+  "speaker": "Unknown",
+  "en": "And I dropped out of school and joined MemSQL.",
+  "zh": "我退学加入了 MemSQL。"
+ },
+ {
+  "seg": 31,
+  "start": 158.415,
+  "end": 159.296,
+  "speaker": "Unknown",
+  "en": "And that was really fun.",
+  "zh": "那段经历真的很有趣。"
+ },
+ {
+  "seg": 32,
+  "start": 159.316,
+  "end": 162.298,
+  "speaker": "Unknown",
+  "en": "I was employee number two, and I was there for about five and a half years.",
+  "zh": "我是二号员工,在那里待了大约五年半。"
+ },
+ {
+  "seg": 33,
+  "start": 163.399,
+  "end": 165.42,
+  "speaker": "Unknown",
+  "en": "And then I left to start Empyra.",
+  "zh": "然后我离开去创办了 Empyra。"
+ },
+ {
+  "seg": 34,
+  "start": 165.44,
+  "end": 166.601,
+  "speaker": "Unknown",
+  "en": "We did some stuff for a while.",
+  "zh": "我们做了一段时间的一些东西。"
+ },
+ {
+  "seg": 35,
+  "start": 167.261,
+  "end": 169.983,
+  "speaker": "Unknown",
+  "en": "And then Figma acquired us, and I led the AI team there.",
+  "zh": "然后 Figma 收购了我们,我在那里领导 AI 团队。"
+ },
+ {
+  "seg": 36,
+  "start": 170.564,
+  "end": 176.127,
+  "speaker": "Unknown",
+  "en": "And at Empyra, we were doing AI stuff in the prehistoric, pre-ChatGPT era.",
+  "zh": "在 Empyra,我们在史前时代、ChatGPT 出现之前的时代做 AI。"
+ },
+ {
+  "seg": 37,
+  "start": 176.728,
+  "end": 179.67,
+  "speaker": "Unknown",
+  "en": "And we were working on making document extraction work really well.",
+  "zh": "我们当时在让文档提取真正做到好用。"
+ },
+ {
+  "seg": 38,
+  "start": 180.03,
+  "end": 181.091,
+  "speaker": "Unknown",
+  "en": "And that used to be a hard problem.",
+  "zh": "那曾经是个很难的问题。"
+ },
+ {
+  "seg": 39,
+  "start": 181.351,
+  "end": 182.291,
+  "speaker": "Unknown",
+  "en": "Now it's like super easy.",
+  "zh": "现在它变得超级简单。"
+ },
+ {
+  "seg": 40,
+  "start": 182.312,
+  "end": 183.712,
+  "speaker": "Unknown",
+  "en": "Like anyone can solve this.",
+  "zh": "任何人都能解决这个问题。"
+ },
+ {
+  "seg": 41,
+  "start": 183.813,
+  "end": 186.915,
+  "speaker": "Unknown",
+  "en": "Like we can go to your laptop right now and just solve it in 30 seconds.",
+  "zh": "我们现在就可以到你的笔记本上,30 秒内把它解决。"
+ },
+ {
+  "seg": 42,
+  "start": 188.096,
+  "end": 191.982,
+  "speaker": "Unknown",
+  "en": "But it taught me a lot about why AI engineering is really hard.",
+  "zh": "但它教会了我很多关于为什么 AI 工程真正难的东西。"
+ },
+ {
+  "seg": 43,
+  "start": 192.463,
+  "end": 194.887,
+  "speaker": "Unknown",
+  "en": "And we had to build tools to help us do evals really well.",
+  "zh": "我们不得不构建工具来帮助我们做好评测。"
+ },
+ {
+  "seg": 44,
+  "start": 196.763,
+  "end": 202.764,
+  "speaker": "Unknown",
+  "en": "And that's where I realized that if you're building an AI product, there's no point doing anything other than evals.",
+  "zh": "就是在那时我意识到,如果你在构建一个 AI 产品,除了评测之外做任何事都没有意义。"
+ },
+ {
+  "seg": 45,
+  "start": 203.124,
+  "end": 205.345,
+  "speaker": "Unknown",
+  "en": "Everything should revolve around your evals.",
+  "zh": "一切都应该围绕你的评测展开。"
+ },
+ {
+  "seg": 46,
+  "start": 205.405,
+  "end": 208.366,
+  "speaker": "Unknown",
+  "en": "And if you do that, then you have a shot at building something that actually works.",
+  "zh": "如果你这么做了,你才有机会构建出真正有效的产品。"
+ },
+ {
+  "seg": 47,
+  "start": 208.646,
+  "end": 210.426,
+  "speaker": "Unknown",
+  "en": "At Figma, we had exactly the same problems.",
+  "zh": "在 Figma,我们遇到了完全相同的问题。"
+ },
+ {
+  "seg": 48,
+  "start": 210.486,
+  "end": 212.327,
+  "speaker": "Unknown",
+  "en": "So we built similar tooling.",
+  "zh": "所以我们构建了类似的工具。"
+ },
+ {
+  "seg": 49,
+  "start": 213.067,
+  "end": 217.968,
+  "speaker": "Unknown",
+  "en": "And Ilad and I were talking and he pointed out, hey, you built the same thing twice.",
+  "zh": "我和 Ilad 聊天时,他指出,嘿,你把同一个东西做了两遍。"
+ },
+ {
+  "seg": 50,
+  "start": 218.408,
+  "end": 219.808,
+  "speaker": "Unknown",
+  "en": "Maybe other people have this problem.",
+  "zh": "也许其他人也有这个问题。"
+ },
+ {
+  "seg": 51,
+  "start": 220.268,
+  "end": 224.149,
+  "speaker": "Unknown",
+  "en": "And so we talked to a bunch of companies and people had the problem.",
+  "zh": "所以我们去和很多公司聊了聊，发现他们确实有这个问题。"
+ },
+ {
+  "seg": 52,
+  "start": 224.189,
+  "end": 226.41,
+  "speaker": "Unknown",
+  "en": "And so we built a really simple prototype",
+  "zh": "于是我们做了一个非常简单的原型"
+ },
+ {
+  "seg": 53,
+  "start": 227.09,
+  "end": 229.632,
+  "speaker": "Unknown",
+  "en": "Which people started using pretty much immediately.",
+  "zh": "人们几乎立刻就开始使用了。"
+ },
+ {
+  "seg": 54,
+  "start": 230.353,
+  "end": 233.435,
+  "speaker": "Unknown",
+  "en": "And as you know and as I know, that doesn't happen very often.",
+  "zh": "而且你也知道，我也知道，这种事情并不常发生。"
+ },
+ {
+  "seg": 55,
+  "start": 234.576,
+  "end": 243.082,
+  "speaker": "Unknown",
+  "en": "If you have a really bad product and people are using it so much that they're complaining about it constantly and asking for features, that usually is quite special.",
+  "zh": "如果你有一个非常糟糕的产品，而人们用得如此之多，以至于不断抱怨并要求新功能，这通常是相当特别的。"
+ },
+ {
+  "seg": 56,
+  "start": 244.162,
+  "end": 248.165,
+  "speaker": "Unknown",
+  "en": "So then we kind of realized, wow, there might actually be something here.",
+  "zh": "所以那时我们有点意识到，哇，这里可能真的有点东西。"
+ },
+ {
+  "seg": 57,
+  "start": 248.625,
+  "end": 249.566,
+  "speaker": "Unknown",
+  "en": "And then you and I chatted.",
+  "zh": "然后你和我聊了聊。"
+ },
+ {
+  "seg": 58,
+  "start": 250.127,
+  "end": 252.108,
+  "speaker": "Unknown",
+  "en": "And that's how BrainTrust really got started.",
+  "zh": "这就是 BrainTrust 真正的起点。"
+ },
+ {
+  "seg": 59,
+  "start": 252.288,
+  "end": 255.11,
+  "speaker": "Unknown",
+  "en": "Yeah, and I remember when we first chatted about brain trust.",
+  "zh": "是的，我还记得我们第一次聊 brain trust 的时候。"
+ },
+ {
+  "seg": 60,
+  "start": 255.53,
+  "end": 261.635,
+  "speaker": "Unknown",
+  "en": "At the time, we at Greylock, of course, felt like LLMs were going to be a thing.",
+  "zh": "那时候，我们 Greylock 当然觉得 LLM 会成为一件大事。"
+ },
+ {
+  "seg": 61,
+  "start": 262.115,
+  "end": 263.176,
+  "speaker": "Unknown",
+  "en": "AI engineering is important.",
+  "zh": "AI 工程很重要。"
+ },
+ {
+  "seg": 62,
+  "start": 263.516,
+  "end": 268.74,
+  "speaker": "Unknown",
+  "en": "All of a sudden, AI engineering had switched from the data scientists in the corner to every software engineer becoming an AI engineer.",
+  "zh": "突然之间，AI 工程已经从角落里的数据科学家，变成了每一个软件工程师都成为 AI 工程师。"
+ },
+ {
+  "seg": 63,
+  "start": 269.501,
+  "end": 273.564,
+  "speaker": "Unknown",
+  "en": "And so we were thinking a lot about tooling and meeting with founders.",
+  "zh": "所以我们当时想了很多关于工具的事，也在和创始人们见面。"
+ },
+ {
+  "seg": 64,
+  "start": 273.624,
+  "end": 278.708,
+  "speaker": "Unknown",
+  "en": "And there were a number of companies that had gone started around different components of tooling, including evals.",
+  "zh": "已经有不少公司围绕着工具的不同组件起步了，包括 evals。"
+ },
+ {
+  "seg": 65,
+  "start": 279.308,
+  "end": 288.653,
+  "speaker": "Unknown",
+  "en": "But one of the things that struck me in our first conversation about Braintrust was the way you framed evals to me as the core of what product development means in AI.",
+  "zh": "但在我们第一次聊 Braintrust 时，打动我的一件事是你对 evals 的表述方式，即把它定义为 AI 中产品开发的核心。"
+ },
+ {
+  "seg": 66,
+  "start": 288.874,
+  "end": 290.975,
+  "speaker": "Unknown",
+  "en": "Can you kind of share your point of view on that?",
+  "zh": "你能分享一下你在这方面的观点吗？"
+ },
+ {
+  "seg": 67,
+  "start": 291.295,
+  "end": 296.818,
+  "speaker": "Unknown",
+  "en": "Yeah, I think AI is very much about defining the what, not the how.",
+  "zh": "是的，我认为 AI 很大程度上是关于定义「做什么」，而不是「怎么做」。"
+ },
+ {
+  "seg": 68,
+  "start": 297.338,
+  "end": 299.34,
+  "speaker": "Unknown",
+  "en": "No one really knows how LLMs work.",
+  "zh": "没有人真正知道 LLM 是如何工作的。"
+ },
+ {
+  "seg": 69,
+  "start": 299.72,
+  "end": 303.162,
+  "speaker": "Unknown",
+  "en": "I think actually at this point most people would admit they don't know how LLMs work.",
+  "zh": "我觉得实际上到这个阶段，大多数人都会承认他们不知道 LLM 是如何工作的。"
+ },
+ {
+  "seg": 70,
+  "start": 304.663,
+  "end": 307.105,
+  "speaker": "Unknown",
+  "en": "And so they behave unpredictably.",
+  "zh": "所以它们的表现是不可预测的。"
+ },
+ {
+  "seg": 71,
+  "start": 309.287,
+  "end": 311.009,
+  "speaker": "Unknown",
+  "en": "And yet it's our job to build good products.",
+  "zh": "然而构建好产品是我们的工作。"
+ },
+ {
+  "seg": 72,
+  "start": 311.049,
+  "end": 312.671,
+  "speaker": "Unknown",
+  "en": "And so you ask yourself, what can you control?",
+  "zh": "所以你会问自己，你能控制什么？"
+ },
+ {
+  "seg": 73,
+  "start": 313.111,
+  "end": 317.135,
+  "speaker": "Unknown",
+  "en": "Well, you can control what you expect the LLM to produce.",
+  "zh": "嗯，你可以控制你期望 LLM 产出什么。"
+ },
+ {
+  "seg": 74,
+  "start": 317.395,
+  "end": 323.381,
+  "speaker": "Unknown",
+  "en": "And you can use that information to help you build a product around an LLM that is more likely to produce the thing that you want.",
+  "zh": "而且你可以利用这个信息来帮助你围绕 LLM 构建产品，使其更有可能产出你想要的东西。"
+ },
+ {
+  "seg": 75,
+  "start": 323.841,
+  "end": 333.329,
+  "speaker": "Unknown",
+  "en": "And so that craft of actually deciding what you want the LLM to behave or how you want it to behave is really like the fundamental craft of building evals.",
+  "zh": "所以真正决定你希望 LLM 如何表现的这门手艺，实际上就是构建 evals 的根本手艺。"
+ },
+ {
+  "seg": 76,
+  "start": 333.829,
+  "end": 341.176,
+  "speaker": "Unknown",
+  "en": "I think once you embrace evals, then you realize that what the LLM does is merely a function of the evals that you're producing.",
+  "zh": "我认为一旦你接受了 evals，你就会意识到 LLM 所做的不过是你在产出 的 evals 的一个函数。"
+ },
+ {
+  "seg": 77,
+  "start": 341.196,
+  "end": 348.742,
+  "speaker": "Unknown",
+  "en": "And if it doesn't behave well, instead of thinking about, okay, let me tweak this wording in the prompt to say I'm going to lose my job or whatever it is,",
+  "zh": "如果它表现不好，与其想着「好吧，让我改改提示词里的措辞，否则我就要丢工作了」之类的，"
+ },
+ {
+  "seg": 78,
+  "start": 349.122,
+  "end": 360.586,
+  "speaker": "Unknown",
+  "en": "You realize that the highest leverage thing you can do is actually try to capture what's going wrong in an eval so that any change that you make you know is actually going to work and it's not going to break all the other stuff that you've worked towards.",
+  "zh": "你会意识到杠杆最高的做法其实是把出问题的地方捕获进一个 eval，这样你做的任何改动你都知道是真正有效的，不会破坏你之前努力取得的所有其他成果。"
+ },
+ {
+  "seg": 79,
+  "start": 360.946,
+  "end": 370.309,
+  "speaker": "Unknown",
+  "en": "When you really embrace it, you realize that the work that you put into doing evals doesn't evaporate every time you try a new model or you change some wording or you change your use case a little bit.",
+  "zh": "当你真正接受它时，你会意识到你在做 evals 上投入的工作，不会在你每次尝试新模型、改一些措辞或稍微改变用例时就蒸发掉。"
+ },
+ {
+  "seg": 80,
+  "start": 370.93,
+  "end": 377.552,
+  "speaker": "Unknown",
+  "en": "It's actually very durable and I think that's why it is the sort of true engineering that goes into building AI products.",
+  "zh": "它实际上非常持久，我认为这就是为什么它是构建 AI 产品时真正的工程所在。"
+ },
+ {
+  "seg": 81,
+  "start": 377.919,
+  "end": 382.384,
+  "speaker": "Unknown",
+  "en": "When I talk to new founders, I hear this like a little bit of analysis paralysis of like, oh, should I start with OpenAI?",
+  "zh": "当我和新创始人交谈时，我会听到这种有点决策瘫痪的感觉，比如「哦，我该从 OpenAI 开始吗？」"
+ },
+ {
+  "seg": 82,
+  "start": 382.504,
+  "end": 383.506,
+  "speaker": "Unknown",
+  "en": "Should I start with Anthropic?",
+  "zh": "「我该从 Anthropic 开始吗？」"
+ },
+ {
+  "seg": 83,
+  "start": 383.526,
+  "end": 384.667,
+  "speaker": "Unknown",
+  "en": "Should I start with like an open source model?",
+  "zh": "「还是该从一个开源模型开始？」"
+ },
+ {
+  "seg": 84,
+  "start": 384.707,
+  "end": 385.908,
+  "speaker": "Unknown",
+  "en": "Where do I like get started?",
+  "zh": "「我到底该从哪里入手？」"
+ },
+ {
+  "seg": 85,
+  "start": 386.149,
+  "end": 396.601,
+  "speaker": "Unknown",
+  "en": "And it seems like an easy thing to not connect yourself to any underlying model, but start with a really good AI developer platform that can extend across models is brain trust.",
+  "zh": "而且不把自己绑在任何底层模型上、而是从一个能跨模型扩展的非常好的 AI 开发者平台开始，似乎是一件容易的事，那就是 brain trust。"
+ },
+ {
+  "seg": 86,
+  "start": 396.701,
+  "end": 405.823,
+  "speaker": "Unknown",
+  "en": "Yeah, I think the only thing that you can be certain of is that whatever model you pick today is super unlikely to be the model that you're going to use solely tomorrow.",
+  "zh": "是的，我认为你唯一能确定的就是，你今天选的任何模型都极不可能成为你明天唯一会用的模型。"
+ },
+ {
+  "seg": 87,
+  "start": 406.123,
+  "end": 417.966,
+  "speaker": "Unknown",
+  "en": "And so I would strongly advise picking a development strategy, ideally, of course, using brain trust, that gives you a lot of flexibility in which models you're using and why.",
+  "zh": "所以我强烈建议选择一种开发策略——当然是最好用 brain trust——让你在用哪些模型、为什么用方面有很大的灵活性。"
+ },
+ {
+  "seg": 88,
+  "start": 418.826,
+  "end": 423.347,
+  "speaker": "Unknown",
+  "en": "I think in general, analysis paralysis is a very challenging problem in AI.",
+  "zh": "我认为总的来说，决策瘫痪在 AI 中是一个非常棘手的问题。"
+ },
+ {
+  "seg": 89,
+  "start": 423.747,
+  "end": 425.588,
+  "speaker": "Unknown",
+  "en": "And I would suggest just picking something.",
+  "zh": "我建议就随便选一个。"
+ },
+ {
+  "seg": 90,
+  "start": 426.568,
+  "end": 436.535,
+  "speaker": "Unknown",
+  "en": "So I remember early in the Braintrust journey we were talking and you said something like, I'm paraphrasing, but you said like, I worked on Empyra for many years, but now I think I understand what product market fit means.",
+  "zh": "我记得在 Braintrust 早期我们聊天时，你说过类似的话——我在转述——你说「我在 Empyra 工作了多年，但现在我想我理解了产品市场契合的含义」。"
+ },
+ {
+  "seg": 91,
+  "start": 437.715,
+  "end": 444.54,
+  "speaker": "Unknown",
+  "en": "And one of the things that stands out to me about Braintrust is just the quality of customers that you're working with, right?",
+  "zh": "而关于 Braintrust 让我印象深刻的事情之一，就是你在合作的客户的质量，对吧？"
+ },
+ {
+  "seg": 92,
+  "start": 444.86,
+  "end": 450.204,
+  "speaker": "Unknown",
+  "en": "Companies like Stripe and Instacart and Airtable and some of the highest taste organizations.",
+  "zh": "像 Stripe、Instacart 和 Airtable 这样的公司，以及一些品味最高的组织。"
+ },
+ {
+  "seg": 93,
+  "start": 450.284,
+  "end": 452.405,
+  "speaker": "Unknown",
+  "en": "Like, how's that all come to be?",
+  "zh": "这些都是怎么形成的？"
+ },
+ {
+  "seg": 94,
+  "start": 452.505,
+  "end": 454.967,
+  "speaker": "Unknown",
+  "en": "How are all these like really high taste companies using you?",
+  "zh": "这些品味如此高的公司都是怎么用上你们的？"
+ },
+ {
+  "seg": 95,
+  "start": 455.64,
+  "end": 465.506,
+  "speaker": "Unknown",
+  "en": "Well, I think on product market fit, at Impura and I think most startups, it feels like you're not going to be successful unless you accomplish something.",
+  "zh": "嗯，我觉得关于产品市场契合，在 Impura 我认为也在大多数创业公司，感觉就是除非你完成某件事，否则你不会成功。"
+ },
+ {
+  "seg": 96,
+  "start": 465.526,
+  "end": 467.307,
+  "speaker": "Unknown",
+  "en": "And it always feels like there's some unless.",
+  "zh": "而且总是感觉存在某种「除非」。"
+ },
+ {
+  "seg": 97,
+  "start": 467.607,
+  "end": 473.91,
+  "speaker": "Unknown",
+  "en": "Like, unless we get this many visitors to our website, we are not going to meet this aggressive goal that we have.",
+  "zh": "比如，除非我们的网站达到这么多访客，否则我们无法实现我们定的这个激进目标。"
+ },
+ {
+  "seg": 98,
+  "start": 473.97,
+  "end": 476.232,
+  "speaker": "Unknown",
+  "en": "Or unless we ship this feature, we're not going to meet anything.",
+  "zh": "或者除非我们发布这个功能，否则我们什么也实现不了。"
+ },
+ {
+  "seg": 99,
+  "start": 476.752,
+  "end": 487.242,
+  "speaker": "Unknown",
+  "en": "And I think what I felt early on at Braintrust, I certainly saw at Figma, is you were always successful despite all of these things not existing.",
+  "zh": "而我在 Braintrust 早期感受到的——我在 Figma 当然也见过——是尽管这些条件都不存在，你却总是成功的。"
+ },
+ {
+  "seg": 100,
+  "start": 487.663,
+  "end": 489.244,
+  "speaker": "Unknown",
+  "en": "And that was a big mental shift for me.",
+  "zh": "这对我来说是一次巨大的心态转变。"
+ },
+ {
+  "seg": 101,
+  "start": 489.484,
+  "end": 495.49,
+  "speaker": "Unknown",
+  "en": "It's quite interesting to see when people will just default use your product.",
+  "zh": "看到人们会直接默认使用你的产品,这是挺有意思的一件事。"
+ },
+ {
+  "seg": 102,
+  "start": 496.031,
+  "end": 498.373,
+  "speaker": "Unknown",
+  "en": "And there's all these problems that you can keep fixing and improving.",
+  "zh": "而且还有各种各样的问题,你可以持续去修复和改进。"
+ },
+ {
+  "seg": 103,
+  "start": 498.413,
+  "end": 501.196,
+  "speaker": "Unknown",
+  "en": "And unless you fix them, they won't keep using your product.",
+  "zh": "而且除非你修好这些问题,否则他们不会继续使用你的产品。"
+ },
+ {
+  "seg": 104,
+  "start": 501.696,
+  "end": 503.818,
+  "speaker": "Unknown",
+  "en": "But it's just a different place to be.",
+  "zh": "但这只是一种不同的处境。"
+ },
+ {
+  "seg": 105,
+  "start": 504.418,
+  "end": 514.245,
+  "speaker": "Unknown",
+  "en": "In terms of taste, I think honestly the thing that we did well is that we were very specific about which customers we wanted to make a bet on and make them really happy.",
+  "zh": "至于品味,说实话,我认为我们做得好的一点是,我们非常明确地选择要押注哪些客户,并让他们真正满意。"
+ },
+ {
+  "seg": 106,
+  "start": 514.345,
+  "end": 517.187,
+  "speaker": "Unknown",
+  "en": "I think that if you try to make everyone happy, it's really hard.",
+  "zh": "我认为,如果你试图让所有人都满意,那真的很难。"
+ },
+ {
+  "seg": 107,
+  "start": 518.008,
+  "end": 523.152,
+  "speaker": "Unknown",
+  "en": "But if you try to make a very small number of people that have similar attributes like the companies that you mentioned,",
+  "zh": "但如果你试图让一小撮具有相似特质的人满意,比如你提到的那几家公司,"
+ },
+ {
+  "seg": 108,
+  "start": 523.392,
+  "end": 527.514,
+  "speaker": "Unknown",
+  "en": "And if you're happy, then you can really zero in on what the problems are that they care about.",
+  "zh": "而且如果他们满意了,那你就能真正聚焦于他们在乎的问题是什么。"
+ },
+ {
+  "seg": 109,
+  "start": 527.694,
+  "end": 537.477,
+  "speaker": "Unknown",
+  "en": "And so it's very much part of our DNA that when we work with customers who we believe represent the future, we just roll up our sleeves and go all in.",
+  "zh": "所以这已经深深融入我们的 DNA:当我们与那些我们相信代表着未来的客户合作时,我们就是会挽起袖子全力以赴。"
+ },
+ {
+  "seg": 110,
+  "start": 537.757,
+  "end": 547.121,
+  "speaker": "Unknown",
+  "en": "You know, the Stripe folks were at our office yesterday and we had another really fun open brainstorm about the next 12 months of their roadmap and what they want BrainTrust to help them with.",
+  "zh": "你知道,Stripe 的人昨天还在我们办公室,我们就他们未来 12 个月的路线图以及他们希望 BrainTrust 在哪些方面帮助他们,进行了一次非常愉快的开放头脑风暴。"
+ },
+ {
+  "seg": 111,
+  "start": 547.581,
+  "end": 549.542,
+  "speaker": "Unknown",
+  "en": "And that's just kind of how we operate.",
+  "zh": "而这基本就是我们的运作方式。"
+ },
+ {
+  "seg": 112,
+  "start": 549.602,
+  "end": 552.923,
+  "speaker": "Unknown",
+  "en": "And so I think that actually made it achievable for us to make",
+  "zh": "所以我认为,这实际上让我们得以做到"
+ },
+ {
+  "seg": 113,
+  "start": 553.243,
+  "end": 557.047,
+  "speaker": "Unknown",
+  "en": "Some of these really great companies and customers really successful in their product.",
+  "zh": "让其中一些真正出色的公司和客户在他们的产品上取得真正的成功。"
+ },
+ {
+  "seg": 114,
+  "start": 557.567,
+  "end": 565.255,
+  "speaker": "Unknown",
+  "en": "One of the things I've heard when I talk to different AI companies out there who have looked at different platforms and chosen BrainTrust and asked, like, why did you choose BrainTrust?",
+  "zh": "我和外面那些研究过不同平台并最终选择了 BrainTrust 的 AI 公司交流时,听到的其中一件事是,我问他们,你们为什么选择 BrainTrust?"
+ },
+ {
+  "seg": 115,
+  "start": 565.855,
+  "end": 569.398,
+  "speaker": "Unknown",
+  "en": "And they say, like, the developer ergonomics and experience is really good.",
+  "zh": "他们会说,开发者的人机工效和体验真的很好。"
+ },
+ {
+  "seg": 116,
+  "start": 569.418,
+  "end": 572.401,
+  "speaker": "Unknown",
+  "en": "The product's built with taste, quote unquote.",
+  "zh": "这个产品是带着“品味”,带引号的那种,打造的。"
+ },
+ {
+  "seg": 117,
+  "start": 573.202,
+  "end": 573.863,
+  "speaker": "Unknown",
+  "en": "What does that mean?",
+  "zh": "这是什么意思?"
+ },
+ {
+  "seg": 118,
+  "start": 574.773,
+  "end": 582.496,
+  "speaker": "Unknown",
+  "en": "One of the mistakes I made at Impira is that I did not create enough time for myself to think about product problems deeply.",
+  "zh": "我在 Impira 犯的一个错误是,我没有给自己留出足够的时间去深入思考产品问题。"
+ },
+ {
+  "seg": 119,
+  "start": 583.236,
+  "end": 590.619,
+  "speaker": "Unknown",
+  "en": "And I think this is a trap for a lot of founders because there are all these temptations all the time, like, oh, this VC wants to get coffee, let's catch up.",
+  "zh": "而我认为这是很多创始人都容易掉进去的陷阱,因为时时刻刻都有各种诱惑,比如,哦,这个 VC 想喝杯咖啡,我们去聊聊吧。"
+ },
+ {
+  "seg": 120,
+  "start": 591.159,
+  "end": 598.962,
+  "speaker": "Unknown",
+  "en": "Or this, you know, the corp dev person at AWS reached out and that's really exciting, you know, let me talk to them.",
+  "zh": "或者这个,你知道,AWS 的企业发展人员主动联系了我,这真的很令人兴奋,你知道,让我去和他们谈谈吧。"
+ },
+ {
+  "seg": 121,
+  "start": 600.142,
+  "end": 603.024,
+  "speaker": "Unknown",
+  "en": "But really, I think the only thing that matters is building a good product.",
+  "zh": "但实际上,我认为唯一重要的事情就是把产品做好。"
+ },
+ {
+  "seg": 122,
+  "start": 603.505,
+  "end": 616.655,
+  "speaker": "Unknown",
+  "en": "And so creating the space to just talk to users and absorb their feedback and then think about it and iterate and solicit more feedback, as simple as it sounds, I think that that allows you to build a really good product.",
+  "zh": "所以,创造出这样的空间:去和用户交流、吸收他们的反馈、然后思考、迭代、再征求更多反馈——虽然听起来很简单,但我认为这能让你打造出非常好的产品。"
+ },
+ {
+  "seg": 123,
+  "start": 617.095,
+  "end": 621.258,
+  "speaker": "Unknown",
+  "en": "So often I get asked by other founders, like, what does it mean to be customer-obsessed or user-obsessed?",
+  "zh": "我经常被其他创始人问到,比如,以客户为中心或以用户为中心到底意味着什么?"
+ },
+ {
+  "seg": 124,
+  "start": 621.758,
+  "end": 624.54,
+  "speaker": "Unknown",
+  "en": "And you're the first person I think of, and I show people this photo.",
+  "zh": "你是我第一个想到的人,我会给人们看这张照片。"
+ },
+ {
+  "seg": 125,
+  "start": 624.72,
+  "end": 632.525,
+  "speaker": "Unknown",
+  "en": "It's a photo of you in his, like, small home office on your laptop during this dinner party because I think a customer had complained about something, and you were like, I'm going to go fix this right now.",
+  "zh": "那是你在自己的小家庭办公室里、在一次晚宴期间用笔记本电脑的照片,因为我想是有个客户抱怨了某个问题,然后你说,我现在就去把这个修好。"
+ },
+ {
+  "seg": 126,
+  "start": 633.265,
+  "end": 641.751,
+  "speaker": "Unknown",
+  "en": "And it seems like, you know, starting with your own approach, but in the team you've recruited and the culture you've built, there's, like, a customer obsession that's hard to explain until you see it.",
+  "zh": "而且看起来,你知道,不仅是你自己的做事方式,还包括你招募的团队和你建立的文化里,都有一种很难用语言形容、除非亲眼所见才能理解的客户至上精神。"
+ },
+ {
+  "seg": 127,
+  "start": 642.482,
+  "end": 648.645,
+  "speaker": "Unknown",
+  "en": "Yeah, I think a lot of it, at least on the engineering side, is giving engineers the permission to operate that way.",
+  "zh": "是的,我认为其中很大一部分,至少在工程方面,是给工程师们许可,让他们可以那样行事。"
+ },
+ {
+  "seg": 128,
+  "start": 649.605,
+  "end": 651.967,
+  "speaker": "Unknown",
+  "en": "One of the things I really don't like is sprint planning.",
+  "zh": "我非常不喜欢的事情之一就是冲刺规划。"
+ },
+ {
+  "seg": 129,
+  "start": 651.987,
+  "end": 661.731,
+  "speaker": "Unknown",
+  "en": "And I think the reason is that sprint planning associates your identity with a set of deliverables that you're going to get done over the next two weeks of time.",
+  "zh": "我认为原因在于,冲刺规划把你的身份认同和一组交付物绑定在一起,也就是你接下来两周时间内要完成的东西。"
+ },
+ {
+  "seg": 130,
+  "start": 662.152,
+  "end": 668.795,
+  "speaker": "Unknown",
+  "en": "But what if a customer is using a feature that you built and they're having a really tough time because you have a bug in the feature, which happens all the time?",
+  "zh": "但如果有个客户正在使用你构建的某个功能,而他们遇到了很大的麻烦,因为那个功能里有个 bug,而这种情况时有发生,那怎么办?"
+ },
+ {
+  "seg": 131,
+  "start": 669.615,
+  "end": 674.72,
+  "speaker": "Unknown",
+  "en": "Do I have to deprioritize the sprint that I committed to to help this customer?",
+  "zh": "我是不是必须得降低我承诺的那个冲刺的优先级,去帮助这个客户?"
+ },
+ {
+  "seg": 132,
+  "start": 675.521,
+  "end": 676.922,
+  "speaker": "Unknown",
+  "en": "I think the answer is yes.",
+  "zh": "我认为答案是肯定的。"
+ },
+ {
+  "seg": 133,
+  "start": 676.942,
+  "end": 679.524,
+  "speaker": "Unknown",
+  "en": "You should drop everything and help that customer immediately.",
+  "zh": "你应该放下手头的一切,立即去帮助那个客户。"
+ },
+ {
+  "seg": 134,
+  "start": 680.005,
+  "end": 686.391,
+  "speaker": "Unknown",
+  "en": "And unless you do that, you're going to end up with a crappy product because you won't solve all these paper cuts that accumulate over time.",
+  "zh": "而且除非你这样做,否则你最终会做出一个很糟糕的产品,因为你不会解决这些随时间不断累积的小痛点。"
+ },
+ {
+  "seg": 135,
+  "start": 687.391,
+  "end": 696.174,
+  "speaker": "Unknown",
+  "en": "But that means that you lose roadmap predictability, you lose velocity in times like you might not ship anything for a month or two.",
+  "zh": "但这意味着你会失去路线图的可预测性,失去交付速度,比如你可能一两个月都发布不了任何东西。"
+ },
+ {
+  "seg": 136,
+  "start": 697.474,
+  "end": 700.555,
+  "speaker": "Unknown",
+  "en": "Sometimes it's hard to keep track of individual engineers' progress.",
+  "zh": "有时候很难追踪每个工程师的进度。"
+ },
+ {
+  "seg": 137,
+  "start": 701.075,
+  "end": 704.817,
+  "speaker": "Unknown",
+  "en": "So it benefits you to have more senior folks on the team.",
+  "zh": "所以让团队里有更多资深的人,对你是有好处的。"
+ },
+ {
+  "seg": 138,
+  "start": 706.037,
+  "end": 709.438,
+  "speaker": "Unknown",
+  "en": "But I just think you have to be really explicit about operating that way.",
+  "zh": "但我只是认为,你必须非常明确地按照这种方式运作。"
+ },
+ {
+  "seg": 139,
+  "start": 710.138,
+  "end": 715.32,
+  "speaker": "Unknown",
+  "en": "And unless you are, the sort of default patterns that we've developed in the industry don't really allow you to do that.",
+  "zh": "而且除非你这样做,否则我们这个行业里形成的那些默认模式并不真正允许你这样做。"
+ },
+ {
+  "seg": 140,
+  "start": 715.52,
+  "end": 715.74,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 141,
+  "start": 716.461,
+  "end": 726.152,
+  "speaker": "Unknown",
+  "en": "So speaking about driving amazing developer experience, I think one of the misnomers sometimes people have is to make these things possible, you actually have to solve really hard underlying technical problems.",
+  "zh": "所以说到打造出色的开发者体验,我认为人们有时有一个误解,就是要实现这些东西,你实际上必须解决非常困难的底层技术问题。"
+ },
+ {
+  "seg": 142,
+  "start": 726.192,
+  "end": 731.698,
+  "speaker": "Unknown",
+  "en": "And I'm thinking about what you guys have built with BrainStore and what it enables in terms of user experience.",
+  "zh": "我在想你们用 BrainStore 构建的东西,以及它在用户体验方面实现的功能。"
+ },
+ {
+  "seg": 143,
+  "start": 731.718,
+  "end": 733.12,
+  "speaker": "Unknown",
+  "en": "Can you talk a little bit about that?",
+  "zh": "你能稍微谈谈这个吗?"
+ },
+ {
+  "seg": 144,
+  "start": 733.428,
+  "end": 740.93,
+  "speaker": "Unknown",
+  "en": "Yeah, this is like the third database system I've worked on more years than I should probably admit on this recording.",
+  "zh": "是的,这是我做过的第三个数据库系统了,做这一行的年头可能比我在这次录音里愿意承认的还要多。"
+ },
+ {
+  "seg": 145,
+  "start": 741.03,
+  "end": 750.752,
+  "speaker": "Unknown",
+  "en": "But one of the things that sets Brainstore apart that I think is quite cool is that we knew exactly what the problems were that we needed to solve.",
+  "zh": "但我认为让 Brainstore 与众不同、而且我觉得相当酷的一点是,我们非常清楚地知道我们需要解决的问题是什么。"
+ },
+ {
+  "seg": 146,
+  "start": 750.952,
+  "end": 758.154,
+  "speaker": "Unknown",
+  "en": "So for the first year of Braintrust, we used the sort of standard medley of open source database stuff that everyone does in the space.",
+  "zh": "所以在 Braintrust 的第一年,我们用的是这个领域里所有人都用的那套标准的开源数据库组合。"
+ },
+ {
+  "seg": 147,
+  "start": 758.874,
+  "end": 772.744,
+  "speaker": "Unknown",
+  "en": "And some of our customers who we have the pleasure of working with because we prioritize that group of people and are at the very edge of growth and product market fit in the AI space overall, they started seeing exponential growth.",
+  "zh": "而我们的一些有幸合作的客户——因为我们优先服务那群人,而且他们在整个 AI 领域处于增长和产品市场契合的最前沿——他们开始经历了指数级增长。"
+ },
+ {
+  "seg": 148,
+  "start": 772.824,
+  "end": 778.448,
+  "speaker": "Unknown",
+  "en": "And I think these were some of the first few companies to experience true exponential growth for their AI products.",
+  "zh": "而且我认为,他们是第一批在 AI 产品上体验到真正指数级增长的公司之一。"
+ },
+ {
+  "seg": 149,
+  "start": 779.068,
+  "end": 781.67,
+  "speaker": "Unknown",
+  "en": "And our logging stuff just kind of fell apart.",
+  "zh": "而我们的日志系统就有点撑不住了。"
+ },
+ {
+  "seg": 150,
+  "start": 782.47,
+  "end": 788.715,
+  "speaker": "Unknown",
+  "en": "Not only because of how much data they needed to ingest, but also because of the kinds of questions they wanted to ask from that data.",
+  "zh": "不仅因为它们需要摄取的数据量巨大，还因为他们想从这些数据中提出的问题类型。"
+ },
+ {
+  "seg": 151,
+  "start": 788.855,
+  "end": 800.584,
+  "speaker": "Unknown",
+  "en": "Database systems, for example, aren't really good at ripping through a bunch of text, but prompts are getting bigger, people are sending more prompts, and searching for kind of the needle in a haystack of many, many prompts is actually really important.",
+  "zh": "比如说，数据库系统其实并不擅长快速处理大量文本，但提示词越来越大，人们发送的提示词越来越多，在千千万万条提示词的 haystack 中大海捞针式的搜索其实非常重要。"
+ },
+ {
+  "seg": 152,
+  "start": 801.524,
+  "end": 804.006,
+  "speaker": "Unknown",
+  "en": "So we knew exactly the problem that we had to solve.",
+  "zh": "所以我们非常清楚我们需要解决的是什么问题。"
+ },
+ {
+  "seg": 153,
+  "start": 804.186,
+  "end": 810.79,
+  "speaker": "Unknown",
+  "en": "And I kept having to hold myself back from building a system like Brainstore because I really wanted to.",
+  "zh": "我一直不得不克制自己不去构建像 Brainstore 这样的系统，因为我真的很想去做。"
+ },
+ {
+  "seg": 154,
+  "start": 811.23,
+  "end": 816.433,
+  "speaker": "Unknown",
+  "en": "But it forced us to have an increasingly high level of clarity about what we needed to build.",
+  "zh": "但这迫使我们对自己需要构建的东西有了越来越高的清晰度。"
+ },
+ {
+  "seg": 155,
+  "start": 817.033,
+  "end": 822.318,
+  "speaker": "Unknown",
+  "en": "The other thing that we benefited from is that the people who worked on it all knew each other really well.",
+  "zh": "我们从中受益的另一点是，参与这项工作的人彼此都非常了解。"
+ },
+ {
+  "seg": 156,
+  "start": 822.378,
+  "end": 830.646,
+  "speaker": "Unknown",
+  "en": "So the initial team, other than myself, was Manu, who's my brother, and Austin, who was like the second engineer at Impera, the last company.",
+  "zh": "所以除了我之外，最初的团队是我的弟弟 Manu，还有 Austin，他是上一家公司 Impera 的第二位工程师。"
+ },
+ {
+  "seg": 157,
+  "start": 831.026,
+  "end": 833.449,
+  "speaker": "Unknown",
+  "en": "So we've all known each other for a really long time.",
+  "zh": "我们彼此认识已经很久了。"
+ },
+ {
+  "seg": 158,
+  "start": 833.909,
+  "end": 841.597,
+  "speaker": "Unknown",
+  "en": "And the three of us just sat down in a cave basically from October until January when we shipped it to the first customers and built the system.",
+  "zh": "我们三个人基本上从十月到一月，就像躲在山洞里一样，直到我们把系统交付给第一批客户。"
+ },
+ {
+  "seg": 159,
+  "start": 842.457,
+  "end": 852.044,
+  "speaker": "Unknown",
+  "en": "And it's very, very purpose-built for dealing with weird LLM-shaped data, like lots and lots of text, insane JSON that you could never dream of.",
+  "zh": "这个系统是非常非常专门为处理奇形怪状的 LLM 形态数据而构建的，比如海量的文本、你做梦都想不到的疯狂 JSON。"
+ },
+ {
+  "seg": 160,
+  "start": 852.704,
+  "end": 854.426,
+  "speaker": "Unknown",
+  "en": "It just works really well in Brainstore.",
+  "zh": "在 Brainstore 里它就是运行得非常好。"
+ },
+ {
+  "seg": 161,
+  "start": 855.466,
+  "end": 871.258,
+  "speaker": "Unknown",
+  "en": "Often when people on the outside talk about Braintrust, I feel like the common analogy I hear is Braintrust is something like Datadog for AI workloads, which I think really understates and is too myopic of a view of the role Braintrust plays for AI developers.",
+  "zh": "常常当外面的人谈论 Braintrust 时，我听到的常见类比是 Braintrust 有点像面向 AI 工作负载的 Datadog，我认为这真的低估了、而且过于短视地看待了 Braintrust 对 AI 开发者所扮演的角色。"
+ },
+ {
+  "seg": 162,
+  "start": 871.978,
+  "end": 873.179,
+  "speaker": "Unknown",
+  "en": "Do you agree with that analogy?",
+  "zh": "你同意这个类比吗？"
+ },
+ {
+  "seg": 163,
+  "start": 873.199,
+  "end": 874.7,
+  "speaker": "Unknown",
+  "en": "Do you disagree with that analogy?",
+  "zh": "你不同意这个类比吗？"
+ },
+ {
+  "seg": 164,
+  "start": 874.76,
+  "end": 875.861,
+  "speaker": "Unknown",
+  "en": "Like, what analogy would you draw?",
+  "zh": "就是说，你会打什么类比？"
+ },
+ {
+  "seg": 165,
+  "start": 876.001,
+  "end": 884.307,
+  "speaker": "Unknown",
+  "en": "I think there's a lot of truth to the analogy, and there's also, it can also be quite myopic.",
+  "zh": "我认为这个类比有很多真实之处，但它也可能相当短视。"
+ },
+ {
+  "seg": 166,
+  "start": 884.527,
+  "end": 891.732,
+  "speaker": "Unknown",
+  "en": "So the myopic version of this analogy is thinking about both products as observability products.",
+  "zh": "所以这个类比短视的版本，是把两个产品都当作可观测性产品来思考。"
+ },
+ {
+  "seg": 167,
+  "start": 891.752,
+  "end": 899.657,
+  "speaker": "Unknown",
+  "en": "So if you think that brain trust is like Datadog, but like the UI is a little bit better for LLM stuff, I think that's not the right way to think about it.",
+  "zh": "所以如果你认为 Braintrust 就像 Datadog，只是 UI 对 LLM 相关的东西更好一点，我认为那不是正确的思考方式。"
+ },
+ {
+  "seg": 168,
+  "start": 899.717,
+  "end": 900.478,
+  "speaker": "Unknown",
+  "en": "And the reason is that",
+  "zh": "而原因是——"
+ },
+ {
+  "seg": 169,
+  "start": 900.938,
+  "end": 906.161,
+  "speaker": "Unknown",
+  "en": "You invest in Datadog as a business to achieve a particular outcome, which is uptime.",
+  "zh": "你作为一家企业投资 Datadog，是为了达成一个特定的结果，也就是正常运行时间。"
+ },
+ {
+  "seg": 170,
+  "start": 907.202,
+  "end": 912.865,
+  "speaker": "Unknown",
+  "en": "And you invest in Braintrust as a business to achieve in a different outcome, which is quality.",
+  "zh": "而你作为一家企业投资 Braintrust，是为了达成另一个不同的结果，也就是质量。"
+ },
+ {
+  "seg": 171,
+  "start": 913.505,
+  "end": 924.252,
+  "speaker": "Unknown",
+  "en": "And I think that there's a lot of shared wisdom and insight that we draw inspiration from Datadog for to deliver the quality goal.",
+  "zh": "而且我认为，我们从 Datadog 那里汲取了很多共同的智慧和洞见作为灵感，来交付质量这个目标。"
+ },
+ {
+  "seg": 172,
+  "start": 924.712,
+  "end": 926.934,
+  "speaker": "Unknown",
+  "en": "But it's an inherently different goal.",
+  "zh": "但这本质上是一个不同的目标。"
+ },
+ {
+  "seg": 173,
+  "start": 927.034,
+  "end": 929.835,
+  "speaker": "Unknown",
+  "en": "And I think it leads to a number of different product features.",
+  "zh": "而且我认为这会引出许多不同的产品功能。"
+ },
+ {
+  "seg": 174,
+  "start": 929.855,
+  "end": 938.921,
+  "speaker": "Unknown",
+  "en": "So for example, one of the most powerful features of BrainTrust is the fact that you can take logs and connect them to data sets and those data sets you use for your evals.",
+  "zh": "比如说，BrainTrust 最强大的功能之一就是你可以把日志连接到数据集，而这些数据集你用于你的 evals。"
+ },
+ {
+  "seg": 175,
+  "start": 939.762,
+  "end": 949.788,
+  "speaker": "Unknown",
+  "en": "And when you run evals, the code and prompts and stuff that you use for your evals are closely connected to GitHub and your code base.",
+  "zh": "而当你运行 evals 时，你用于 evals 的代码、提示词等等都和 GitHub 以及你的代码库紧密相连。"
+ },
+ {
+  "seg": 176,
+  "start": 949.989,
+  "end": 951.249,
+  "speaker": "Unknown",
+  "en": "We admire Datadog a lot.",
+  "zh": "我们非常钦佩 Datadog。"
+ },
+ {
+  "seg": 177,
+  "start": 952.33,
+  "end": 954.932,
+  "speaker": "Unknown",
+  "en": "Partner closely with them.",
+  "zh": "与他们紧密合作。"
+ },
+ {
+  "seg": 178,
+  "start": 954.992,
+  "end": 960.117,
+  "speaker": "Unknown",
+  "en": "And, yeah, I think there's a lot of inspiration to draw from what they've done for a different problem.",
+  "zh": "是的，我认为从他们为另一个问题所做的事情中，可以汲取很多灵感。"
+ },
+ {
+  "seg": 179,
+  "start": 960.317,
+  "end": 960.517,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 180,
+  "start": 960.958,
+  "end": 971.527,
+  "speaker": "Unknown",
+  "en": "So another kind of misnomer I hear in the background AI chatter is like, oh, well, there's going to be a new company for agent evals and there's going to be a new company for voice evals and these things.",
+  "zh": "那么另一个我在 AI 背景闲谈中听到的误称是，哦，会有一个新的公司做智能体 evals，会有一个新的公司做语音 evals，诸如此类。"
+ },
+ {
+  "seg": 181,
+  "start": 971.607,
+  "end": 973.609,
+  "speaker": "Unknown",
+  "en": "And so, like, what's your take on this?",
+  "zh": "那么，你对此怎么看？"
+ },
+ {
+  "seg": 182,
+  "start": 973.809,
+  "end": 976.111,
+  "speaker": "Unknown",
+  "en": "Agents are a for loop with tools.",
+  "zh": "智能体就是一个带工具的 for 循环。"
+ },
+ {
+  "seg": 183,
+  "start": 976.452,
+  "end": 976.612,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 184,
+  "start": 977.292,
+  "end": 985.255,
+  "speaker": "Unknown",
+  "en": "And most people that have agents that are working in production had roughly the same for loop working about a year ago.",
+  "zh": "而且大多数在生产环境中运行智能体的人，大约一年前就已经有了大致相同的 for 循环在运行。"
+ },
+ {
+  "seg": 185,
+  "start": 986.275,
+  "end": 992.057,
+  "speaker": "Unknown",
+  "en": "And BrainTrust was really built around those kinds of use cases to begin with.",
+  "zh": "而 BrainTrust 从一开始就是围绕这类用例构建的。"
+ },
+ {
+  "seg": 186,
+  "start": 992.577,
+  "end": 1000.38,
+  "speaker": "Unknown",
+  "en": "So I would just say, factually speaking, almost all of our customers are building agents on top of BrainTrust.",
+  "zh": "所以我只想说，从事实层面讲，我们几乎所有客户都是在 BrainTrust 之上构建智能体的。"
+ },
+ {
+  "seg": 187,
+  "start": 1000.64,
+  "end": 1003.761,
+  "speaker": "Unknown",
+  "en": "And many of our customers are building voice agents on top of BrainTrust.",
+  "zh": "而且我们的许多客户是在 BrainTrust 之上构建语音智能体的。"
+ },
+ {
+  "seg": 188,
+  "start": 1004.801,
+  "end": 1012.109,
+  "speaker": "Unknown",
+  "en": "We were the first, for example, to build native integration with OpenAI's real-time API, even before OpenAI had their own tools for it.",
+  "zh": "比如，我们是第一个与 OpenAI 的实时 API 构建原生集成的，甚至早于 OpenAI 自己推出相关工具。"
+ },
+ {
+  "seg": 189,
+  "start": 1012.229,
+  "end": 1018.957,
+  "speaker": "Unknown",
+  "en": "But the deeper reason is that there are a lot of really hard infrastructure problems that go into supporting evals in the first place.",
+  "zh": "但更深层次的原因是，支持 evals 本身就涉及很多非常困难的基础设施问题。"
+ },
+ {
+  "seg": 190,
+  "start": 1019.417,
+  "end": 1026.124,
+  "speaker": "Unknown",
+  "en": "Some of the problems that we solve are things like how to ingest megabytes per second of data that",
+  "zh": "我们解决的一些问题，比如如何每秒摄取数兆字节的数据，"
+ },
+ {
+  "seg": 191,
+  "start": 1026.685,
+  "end": 1027.825,
+  "speaker": "Unknown",
+  "en": "You know, systems generate.",
+  "zh": "你知道的，系统会产生这种数据。"
+ },
+ {
+  "seg": 192,
+  "start": 1027.885,
+  "end": 1028.265,
+  "speaker": "Unknown",
+  "en": "And guess what?",
+  "zh": "然后你猜怎么着？"
+ },
+ {
+  "seg": 193,
+  "start": 1028.325,
+  "end": 1029.606,
+  "speaker": "Unknown",
+  "en": "Agents just generate more data.",
+  "zh": "智能体只会产生更多数据。"
+ },
+ {
+  "seg": 194,
+  "start": 1030.086,
+  "end": 1033.126,
+  "speaker": "Unknown",
+  "en": "And so that's just a hard problem to solve.",
+  "zh": "所以这就是一个很难解决的问题。"
+ },
+ {
+  "seg": 195,
+  "start": 1033.186,
+  "end": 1043.768,
+  "speaker": "Unknown",
+  "en": "Another problem that we solve is running evals that might take a really, really long period of time, sometimes days, and accumulating the data in a way that's easy to visualize.",
+  "zh": "我们解决的另一个问题是运行可能耗时非常非常长的 evals，有时长达数天，并以易于可视化的方式积累数据。"
+ },
+ {
+  "seg": 196,
+  "start": 1043.848,
+  "end": 1050.41,
+  "speaker": "Unknown",
+  "en": "And again, being able to run and orchestrate something that takes so long and capture all the data in one place",
+  "zh": "再说一次，能够运行并编排耗时如此之长的东西，并把所有数据捕获到一个地方——"
+ },
+ {
+  "seg": 197,
+  "start": 1051.73,
+  "end": 1053.952,
+  "speaker": "Unknown",
+  "en": "It's just like a hard infrastructure problem.",
+  "zh": "这就是一个艰难的基础设施问题。"
+ },
+ {
+  "seg": 198,
+  "start": 1054.052,
+  "end": 1065.261,
+  "speaker": "Unknown",
+  "en": "And I think the fact that we've built really good solutions to these infrastructure problems gives us a lot of durability as kind of like the term in vogue evolves over time.",
+  "zh": "而且我认为，我们已经为这些基础设施问题构建了非常好的解决方案，这给了我们很大的持久性，即使流行的术语随时间演变。"
+ },
+ {
+  "seg": 199,
+  "start": 1065.421,
+  "end": 1065.601,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 200,
+  "start": 1067.282,
+  "end": 1079.759,
+  "speaker": "Unknown",
+  "en": "Going back to the customers for a moment, I think one of the joys of working with you is I feel like every month, every quarter, we surprise ourselves with the velocity of customer adoption, beating our revenue goals.",
+  "zh": "回到客户的话题，我觉得和你合作的乐趣之一就是，每个月、每个季度，我们都会被客户采用的速度和超越营收目标的表现所惊喜。"
+ },
+ {
+  "seg": 201,
+  "start": 1079.859,
+  "end": 1082.663,
+  "speaker": "Unknown",
+  "en": "Why do you think we're seeing such acceleration on the customer side?",
+  "zh": "你觉得为什么我们在客户这一侧能看到这样的加速？"
+ },
+ {
+  "seg": 202,
+  "start": 1083.102,
+  "end": 1091.307,
+  "speaker": "Unknown",
+  "en": "Well, I think that customers are responding to inherent demand from users to use AI in their products.",
+  "zh": "嗯，我认为客户是在回应用户想在产品中使用 AI 的内在需求。"
+ },
+ {
+  "seg": 203,
+  "start": 1091.907,
+  "end": 1101.533,
+  "speaker": "Unknown",
+  "en": "Those of us who use great AI products like ChatGPT, Cursor, et cetera, I think we start to expect that kind of experience from all the products that we use.",
+  "zh": "我们这些使用过 ChatGPT、Cursor 等优秀 AI 产品的人，会开始期望从我们使用的所有产品中都获得那样的体验。"
+ },
+ {
+  "seg": 204,
+  "start": 1102.273,
+  "end": 1112.682,
+  "speaker": "Unknown",
+  "en": "And then I'd say secondarily, but still important, there are a lot of new startups that are forming that represent a fundamentally existential threat to a lot of businesses.",
+  "zh": "其次，同样重要的是，有很多新创公司在成立，它们对很多既有业务构成了根本性的生存威胁。"
+ },
+ {
+  "seg": 205,
+  "start": 1112.722,
+  "end": 1126.454,
+  "speaker": "Unknown",
+  "en": "There are a number of customers who are closing this quarter that are pushing really quickly to up-level how they build AI software because they're having serious discussions internally about how it's either figure out how to rebuild our product around AI or die.",
+  "zh": "本季度有一批正在签约的客户，他们在非常快速地推动升级自己构建 AI 软件的方式，因为他们内部正在进行严肃的讨论：要么想办法围绕 AI 重建产品，要么死。"
+ },
+ {
+  "seg": 206,
+  "start": 1127.135,
+  "end": 1127.715,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 207,
+  "start": 1128.016,
+  "end": 1132.899,
+  "speaker": "Unknown",
+  "en": "And I think that upstream from brain trust, these are really important drivers.",
+  "zh": "我认为在 Braintrust 的上游，这些都是非常重要的驱动力。"
+ },
+ {
+  "seg": 208,
+  "start": 1132.959,
+  "end": 1133.52,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 209,
+  "start": 1133.6,
+  "end": 1147.911,
+  "speaker": "Unknown",
+  "en": "And then if you go downstream, you say, okay, how do I, given that I have six to eight weeks to transform how I build software at this company, how do I ensure and maximize the probability that I build a product that doesn't suck?",
+  "zh": "然后如果你往下游走，你会说，好，在我只有六到八周时间来改变这家公司构建软件方式的情况下，我如何确保并最大化构建出一个不烂的产品的概率？"
+ },
+ {
+  "seg": 210,
+  "start": 1148.311,
+  "end": 1161.709,
+  "speaker": "Unknown",
+  "en": "And I think if you look at the roster of customers that Braintrust has helped with that problem, it becomes a pretty obvious choice that Braintrust is probably something that, you know, if you consider, will help you achieve that outcome.",
+  "zh": "我认为，如果你看看 Braintrust 帮助解决这个问题所服务过的客户名单，就会成为一个相当明显的选择：只要认真考虑一下，Braintrust 很可能就是能帮你达成那个结果的东西。"
+ },
+ {
+  "seg": 211,
+  "start": 1162.07,
+  "end": 1163.091,
+  "speaker": "Unknown",
+  "en": "Now, of course, we have to prove it.",
+  "zh": "当然，我们还必须证明这一点。"
+ },
+ {
+  "seg": 212,
+  "start": 1163.291,
+  "end": 1165.975,
+  "speaker": "Unknown",
+  "en": "And so we've also done a lot of work at",
+  "zh": "所以我们也做了很多工作，在"
+ },
+ {
+  "seg": 213,
+  "start": 1166.836,
+  "end": 1174.703,
+  "speaker": "Unknown",
+  "en": "within Braintrust to hire an incredible go-to-market team, make it super easy for anyone to sign up for the product, try it, have really good docs.",
+  "zh": "Braintrust 内部聘请了一支出色的市场推广团队，让任何人都能非常容易地注册产品、试用，还有非常好的文档。"
+ },
+ {
+  "seg": 214,
+  "start": 1175.084,
+  "end": 1177.326,
+  "speaker": "Unknown",
+  "en": "I'm happy to talk to anyone who wants to talk about eval.",
+  "zh": "我很乐意和任何想聊评估（eval）的人聊。"
+ },
+ {
+  "seg": 215,
+  "start": 1177.366,
+  "end": 1182.451,
+  "speaker": "Unknown",
+  "en": "So we put a lot of effort into getting people up to speed and up and running with the product quickly.",
+  "zh": "所以我们投入了很多精力，让人们快速上手并跑起来这个产品。"
+ },
+ {
+  "seg": 216,
+  "start": 1182.711,
+  "end": 1189.356,
+  "speaker": "Unknown",
+  "en": "One of the things you were sharing with me a few weeks ago, but there was a customer where more non-engineers were using Braintrust than engineers.",
+  "zh": "几周前你跟我分享过一件事：有一个客户，使用 Braintrust 的非工程师比工程师还多。"
+ },
+ {
+  "seg": 217,
+  "start": 1189.416,
+  "end": 1200.063,
+  "speaker": "Unknown",
+  "en": "And like, I had this flashback to the early Figma days when sort of Figma tipped and in many accounts, more non-designers started using the product than designers.",
+  "zh": "这让我闪回到 Figma 早期的那段日子，当时 Figma 开始爆发式增长，在很多客户公司里，使用这个产品的非设计师比设计师还多。"
+ },
+ {
+  "seg": 218,
+  "start": 1202.125,
+  "end": 1205.327,
+  "speaker": "Unknown",
+  "en": "Tell me more about that, like who's using Braintrust, who's not an engineer and why?",
+  "zh": "多讲讲这个吧，谁在用 Braintrust，哪些不是工程师，为什么？"
+ },
+ {
+  "seg": 219,
+  "start": 1205.688,
+  "end": 1222.584,
+  "speaker": "Unknown",
+  "en": "Yeah, I think the simple answer to your question is that subject matter experts are incredibly valuable in fields like healthcare, legal, manufacturing, et cetera, where people are now leveraging AI for use cases that software wasn't really capable of solving before.",
+  "zh": "是的，我认为对你这个问题最简单的回答是：在医疗、法律、制造等领域，领域专家有着难以估量的价值，而人们现在正在把 AI 用于以前软件根本无法解决的使用场景。"
+ },
+ {
+  "seg": 220,
+  "start": 1223.004,
+  "end": 1224.925,
+  "speaker": "Unknown",
+  "en": "I think some of the things we're seeing are just incredible.",
+  "zh": "我觉得我们看到的一些事情简直令人难以置信。"
+ },
+ {
+  "seg": 221,
+  "start": 1226.025,
+  "end": 1232.087,
+  "speaker": "Unknown",
+  "en": "And you need people who are experts in their domain to be able to help solve those problems, and those are not software engineers.",
+  "zh": "你需要有领域专长的人来帮助解决这些问题，而他们不是软件工程师。"
+ },
+ {
+  "seg": 222,
+  "start": 1232.567,
+  "end": 1242.39,
+  "speaker": "Unknown",
+  "en": "So again, fundamentally, the problem that people solve is how do we get insight from people who are not software engineers into building a better product.",
+  "zh": "所以再说一遍，从根本上说，人们要解决的问题是：如何把非软件工程师的洞见融入到构建更好的产品之中。"
+ },
+ {
+  "seg": 223,
+  "start": 1243.151,
+  "end": 1254.859,
+  "speaker": "Unknown",
+  "en": "A simple example is if you're working in the healthcare field, doctors are extremely good at contributing to prompts to keep models on track for very subtle and specific cases.",
+  "zh": "一个简单的例子是，如果你在医疗领域工作，医生非常擅长为提示词（prompt）做贡献，让模型在非常微妙和具体的病例上保持正轨。"
+ },
+ {
+  "seg": 224,
+  "start": 1255.82,
+  "end": 1269.07,
+  "speaker": "Unknown",
+  "en": "Now I think from a brain trust standpoint, if you're a company and you have non-technical people and you have software engineers and you're trying to figure out a common framework or language for them to operate with, it's a really hard problem.",
+  "zh": "现在我想从 Braintrust 的角度看，如果你是一家公司，既有非技术人员又有软件工程师，而你试图为他们找到一套共同的框架或语言来协作，这是一个非常难的问题。"
+ },
+ {
+  "seg": 225,
+  "start": 1269.51,
+  "end": 1283.28,
+  "speaker": "Unknown",
+  "en": "And I actually think one of the most important problems we solve is giving engineering teams a platform that they can invest effort into and the yield from that is a platform that they can collaborate with non-technical folks.",
+  "zh": "我实际上认为，我们解决的最重要的一个问题之一，就是给工程团队一个值得投入精力的平台，而回报就是一个他们可以与非技术人员协作的平台。"
+ },
+ {
+  "seg": 226,
+  "start": 1283.3,
+  "end": 1286.222,
+  "speaker": "Unknown",
+  "en": "And I think Figma's, you know, obviously a great example of that.",
+  "zh": "我认为 Figma 显然就是这方面的一个很好的例子。"
+ },
+ {
+  "seg": 227,
+  "start": 1286.682,
+  "end": 1296.069,
+  "speaker": "Unknown",
+  "en": "And we draw inspiration from that as saying like, okay, how do we enable our engineering stakeholders to easily set up brain trust so that non-engineers can use the product?",
+  "zh": "我们从中汲取灵感，思考如何让我们的工程干系人能够轻松地搭建好 Braintrust，让非工程师也能使用这个产品。"
+ },
+ {
+  "seg": 228,
+  "start": 1296.809,
+  "end": 1301.25,
+  "speaker": "Unknown",
+  "en": "One of the specific examples of that, we have this feature called span iframes.",
+  "zh": "这方面的一个具体例子是，我们有一个叫 span iframes 的功能。"
+ },
+ {
+  "seg": 229,
+  "start": 1301.99,
+  "end": 1307.991,
+  "speaker": "Unknown",
+  "en": "It allows engineers, if they want, to write custom code that renders a custom UI within Braintrust.",
+  "zh": "它允许工程师（如果他们愿意的话）编写自定义代码，在 Braintrust 内部渲染一个自定义的用户界面。"
+ },
+ {
+  "seg": 230,
+  "start": 1308.092,
+  "end": 1315.773,
+  "speaker": "Unknown",
+  "en": "And this is an incredibly powerful way for them to build a very, very, very specific experience just for their users.",
+  "zh": "这是他们为用户构建非常、非常、非常具体体验的极其强大的方式。"
+ },
+ {
+  "seg": 231,
+  "start": 1316.393,
+  "end": 1318.794,
+  "speaker": "Unknown",
+  "en": "So you shared a photo with me recently of the whole Braintrust team.",
+  "zh": "那么，你最近跟我分享了一张整个 Braintrust 团队的照片。"
+ },
+ {
+  "seg": 232,
+  "start": 1319.054,
+  "end": 1319.834,
+  "speaker": "Unknown",
+  "en": "We're growing fast.",
+  "zh": "我们在快速增长。"
+ },
+ {
+  "seg": 233,
+  "start": 1320.154,
+  "end": 1320.394,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 234,
+  "start": 1321.154,
+  "end": 1323.315,
+  "speaker": "Unknown",
+  "en": "What have you learned about scaling a team this quickly?",
+  "zh": "关于如此快速地扩张团队，你学到了什么？"
+ },
+ {
+  "seg": 235,
+  "start": 1324.188,
+  "end": 1331.955,
+  "speaker": "Unknown",
+  "en": "I think one of the most interesting insights I heard over the past few years was Jensen saying he doesn't do one-on-ones.",
+  "zh": "我认为过去几年里我听到的最有趣的洞见之一是 Jensen 说他不进行一对一谈话。"
+ },
+ {
+  "seg": 236,
+  "start": 1333.116,
+  "end": 1335.058,
+  "speaker": "Unknown",
+  "en": "And that was a big unlock for me.",
+  "zh": "那对我来说是一个巨大的解锁。"
+ },
+ {
+  "seg": 237,
+  "start": 1335.078,
+  "end": 1339.181,
+  "speaker": "Unknown",
+  "en": "I've been a manager for, again, more years than I'm willing to admit.",
+  "zh": "我做管理者的年头，again，比我愿意承认的还要多。"
+ },
+ {
+  "seg": 238,
+  "start": 1339.521,
+  "end": 1343.085,
+  "speaker": "Unknown",
+  "en": "And I'd never tried that before, but I tried it at Braintrust",
+  "zh": "我以前从没试过那种做法，但在 Braintrust 我试了"
+ },
+ {
+  "seg": 239,
+  "start": 1343.765,
+  "end": 1351.089,
+  "speaker": "Unknown",
+  "en": "And it's allowed us to be a lot more fluid and dynamic than if we had a very strict and complex hierarchy.",
+  "zh": "这让我们能够比拥有一个非常严格和复杂的层级结构时流畅和灵活得多。"
+ },
+ {
+  "seg": 240,
+  "start": 1351.149,
+  "end": 1354.211,
+  "speaker": "Unknown",
+  "en": "We have basically no hierarchy at the company right now.",
+  "zh": "我们公司现在基本上没有任何层级。"
+ },
+ {
+  "seg": 241,
+  "start": 1354.271,
+  "end": 1356.812,
+  "speaker": "Unknown",
+  "en": "And that's not to say we will forever be like that.",
+  "zh": "这并不是说我们会永远保持这样。"
+ },
+ {
+  "seg": 242,
+  "start": 1356.972,
+  "end": 1359.394,
+  "speaker": "Unknown",
+  "en": "And I actually think AI has helped a lot with that.",
+  "zh": "而且我实际上认为 AI 在这方面帮了大忙。"
+ },
+ {
+  "seg": 243,
+  "start": 1359.674,
+  "end": 1361.155,
+  "speaker": "Unknown",
+  "en": "And that's allowed us to grow really quickly.",
+  "zh": "这让我们能够非常快速地增长。"
+ },
+ {
+  "seg": 244,
+  "start": 1362.336,
+  "end": 1371.259,
+  "speaker": "Unknown",
+  "en": "I think on the team side, one of the things I'm impressed by is you don't just have a great engineering team, but you're very quickly building one of, if not the best, kind of scaling go-to-market teams in AI infrastructure.",
+  "zh": "我认为在团队这一侧，让我印象深刻的一点是，你不只有一支出色的工程团队，而且你正在非常迅速地建立起一支即使不是最好的、也是最好的那一档的、AI 基础设施领域的市场推广规模化团队。"
+ },
+ {
+  "seg": 245,
+  "start": 1371.279,
+  "end": 1379.682,
+  "speaker": "Unknown",
+  "en": "It feels like every other week I'm on a call with a sales rep from like a MongoDB or a Databricks who's coming over to Braintrust, which is awesome.",
+  "zh": "感觉每隔一周我就会在电话里遇到一个来自 MongoDB 或 Databricks 之类的销售代表跳槽来 Braintrust，这太棒了。"
+ },
+ {
+  "seg": 246,
+  "start": 1380.062,
+  "end": 1383.663,
+  "speaker": "Unknown",
+  "en": "How have you been able to do that and what have you learned about scaling go-to-market?",
+  "zh": "你是怎么做到的，关于规模化市场推广你学到了什么？"
+ },
+ {
+  "seg": 247,
+  "start": 1384.283,
+  "end": 1392.507,
+  "speaker": "Unknown",
+  "en": "The hardest lesson that I've learned over time is that you can't hire go-to-market people to solve problems that you haven't solved as a company.",
+  "zh": "随着时间推移，我学到的最难的教训是：你不能雇佣市场推广人员去解决你作为一家公司还没有解决的问题。"
+ },
+ {
+  "seg": 248,
+  "start": 1393.328,
+  "end": 1406.594,
+  "speaker": "Unknown",
+  "en": "So I think one of the most common things that founders will do, I'm sure you've seen this, although I think you're too wise to encourage this, is like we're not hitting our sales goals, we can't figure out how to sell larger deals.",
+  "zh": "所以我认为创始人最常做的事情之一——我确信你见过这种情况，虽然我觉得你太明智了不会去鼓励这种做法——就是：我们没有达成销售目标，我们搞不懂怎么卖出更大的单子。"
+ },
+ {
+  "seg": 249,
+  "start": 1406.834,
+  "end": 1412.337,
+  "speaker": "Unknown",
+  "en": "Let's run a search and find a VP of sales who's going to solve all these problems for us and help us find product market fit.",
+  "zh": "我们来发起一次寻访，找一个销售副总裁，让他为我们解决所有这些问题，帮我们找到产品市场契合度。"
+ },
+ {
+  "seg": 250,
+  "start": 1413.418,
+  "end": 1414.018,
+  "speaker": "Unknown",
+  "en": "We didn't do that.",
+  "zh": "我们没有那么做。"
+ },
+ {
+  "seg": 251,
+  "start": 1414.179,
+  "end": 1417.683,
+  "speaker": "Unknown",
+  "en": "You know, you and I had dinner and you were like, hey, we're growing too fast.",
+  "zh": "你知道的，你和我吃过一次晚餐，你说，嘿，我们增长得太快了。"
+ },
+ {
+  "seg": 252,
+  "start": 1419.104,
+  "end": 1423.95,
+  "speaker": "Unknown",
+  "en": "We need to bring people on, otherwise it's gonna just fall, you know, totally fall apart.",
+  "zh": "我们需要招人，不然整个东西就会彻底崩掉，你知道，完全散架。"
+ },
+ {
+  "seg": 253,
+  "start": 1424.991,
+  "end": 1430.918,
+  "speaker": "Unknown",
+  "en": "And kind of like Brainstore, by that point, we had a very clear spec of who our buyer was.",
+  "zh": "有点像 Brainstore 那样，到那个时候，我们对买家是谁已经有了非常明确的规格描述。"
+ },
+ {
+  "seg": 254,
+  "start": 1432.479,
+  "end": 1441.527,
+  "speaker": "Unknown",
+  "en": "What are some examples of companies that have a similar sales motion and sell to that buyer and ideally are not competitive.",
+  "zh": "有哪些公司的销售模式和销售对象与我们类似，而且最好是不构成竞争的，能举几个例子吗？"
+ },
+ {
+  "seg": 255,
+  "start": 1442.528,
+  "end": 1451.536,
+  "speaker": "Unknown",
+  "en": "And so we were able to, you know, almost like handcraft the perfect sales leader and SE leader who know exactly what problems we need to solve.",
+  "zh": "于是我们就能，你知道，几乎是手工打造出完美的销售负责人和 SE 负责人，他们确切地知道我们需要解决什么问题。"
+ },
+ {
+  "seg": 256,
+  "start": 1451.876,
+  "end": 1459.563,
+  "speaker": "Unknown",
+  "en": "In both cases, they actually knew a bunch of our customers because they were selling, you know, products in the previous generation.",
+  "zh": "在这两种情况下，他们其实都认识我们的不少客户，因为他们之前卖的是，你知道，上一代的产品。"
+ },
+ {
+  "seg": 257,
+  "start": 1460.283,
+  "end": 1462.085,
+  "speaker": "Unknown",
+  "en": "That really helped us accelerate quickly.",
+  "zh": "这真的帮助我们快速提速。"
+ },
+ {
+  "seg": 258,
+  "start": 1462.546,
+  "end": 1475.442,
+  "speaker": "Unknown",
+  "en": "And I think when you have a product that's working, great customers and a great team, it becomes a no-brainer for people who are interested in taking their careers to the next level to consider brain trust as an opportunity.",
+  "zh": "而且我认为，当你有一个在运转的产品、很棒的客户和很棒的团队时，对那些想把职业生涯推向下一阶段的人来说，考虑 Braintrust 作为机会就成了不假思索的事。"
+ },
+ {
+  "seg": 259,
+  "start": 1476.383,
+  "end": 1481.105,
+  "speaker": "Unknown",
+  "en": "Now, that said, I think we take recruiting as seriously as we take customer obsession.",
+  "zh": "话虽如此，我认为我们对招聘的重视程度和对客户至上是一样的。"
+ },
+ {
+  "seg": 260,
+  "start": 1481.165,
+  "end": 1490.189,
+  "speaker": "Unknown",
+  "en": "So we'll fly around everywhere in the U.S. or the world, I guess, to meet candidates and take them out to dinner.",
+  "zh": "所以我们会飞遍美国各地，或者说是全世界，去见候选人，带他们出去吃饭。"
+ },
+ {
+  "seg": 261,
+  "start": 1490.329,
+  "end": 1493.11,
+  "speaker": "Unknown",
+  "en": "Our customers get really involved in helping us recruit candidates.",
+  "zh": "我们的客户会非常深入地参与帮助我们招募候选人。"
+ },
+ {
+  "seg": 262,
+  "start": 1493.67,
+  "end": 1496.532,
+  "speaker": "Unknown",
+  "en": "And I really like to think of BrainTrust as like a community.",
+  "zh": "而且我真的很愿意把 BrainTrust 看作一个社区。"
+ },
+ {
+  "seg": 263,
+  "start": 1497.132,
+  "end": 1504.336,
+  "speaker": "Unknown",
+  "en": "So if we have great sales folks working at the company, I think it's great for our customers.",
+  "zh": "所以如果我们公司里有很棒的销售人员，我认为这对我们的客户是好事。"
+ },
+ {
+  "seg": 264,
+  "start": 1504.656,
+  "end": 1508.178,
+  "speaker": "Unknown",
+  "en": "And of course, if we have great customers, it's great for the go-to-market folks.",
+  "zh": "当然，如果我们有很棒的客户，这对市场推广团队也是好事。"
+ },
+ {
+  "seg": 265,
+  "start": 1508.218,
+  "end": 1510.239,
+  "speaker": "Unknown",
+  "en": "And so we just try to embrace that.",
+  "zh": "所以我们就试着拥抱这一点。"
+ },
+ {
+  "seg": 266,
+  "start": 1510.699,
+  "end": 1513.44,
+  "speaker": "Unknown",
+  "en": "So yeah, there's customer obsession and there's talent obsession.",
+  "zh": "所以，是的，有客户至上，也有人才至上。"
+ },
+ {
+  "seg": 267,
+  "start": 1513.74,
+  "end": 1514.381,
+  "speaker": "Unknown",
+  "en": "You've got both.",
+  "zh": "你两者都做到了。"
+ },
+ {
+  "seg": 268,
+  "start": 1514.881,
+  "end": 1517.442,
+  "speaker": "Unknown",
+  "en": "AI is exploding, BrainTrust is exploding.",
+  "zh": "AI 正在爆发，BrainTrust 也在爆发。"
+ },
+ {
+  "seg": 269,
+  "start": 1517.622,
+  "end": 1520.164,
+  "speaker": "Unknown",
+  "en": "Help us dream about the next few years for BrainTrust.",
+  "zh": "帮我们畅想一下 BrainTrust 未来几年吧。"
+ },
+ {
+  "seg": 270,
+  "start": 1520.264,
+  "end": 1522.545,
+  "speaker": "Unknown",
+  "en": "What's ahead for this AI developer platform?",
+  "zh": "这个 AI 开发者平台的前方是什么？"
+ },
+ {
+  "seg": 271,
+  "start": 1523.17,
+  "end": 1527.454,
+  "speaker": "Unknown",
+  "en": "The interesting thing about AI is there's very little that we can predict.",
+  "zh": "AI 有个有趣之处，就是几乎没有什么是我们能预测的。"
+ },
+ {
+  "seg": 272,
+  "start": 1528.174,
+  "end": 1542.647,
+  "speaker": "Unknown",
+  "en": "But if you look backwards over the past decade, despite all the things that have fundamentally changed, I think one thing that hasn't changed is that AI systems are getting simpler and more people are using AI.",
+  "zh": "但如果你回顾过去十年，尽管很多东西已经发生了根本性的变化，我认为有一件事没有变，那就是 AI 系统正变得更简单，而且越来越多的人在用 AI。"
+ },
+ {
+  "seg": 273,
+  "start": 1543.108,
+  "end": 1545.69,
+  "speaker": "Unknown",
+  "en": "And those are kind of the core tenants that I think about.",
+  "zh": "这些差不多就是我所思考的核心信条。"
+ },
+ {
+  "seg": 274,
+  "start": 1546.01,
+  "end": 1547.612,
+  "speaker": "Unknown",
+  "en": "Braintrust is a really simple product.",
+  "zh": "Braintrust 是一个非常简单的产品。"
+ },
+ {
+  "seg": 275,
+  "start": 1548.032,
+  "end": 1556.841,
+  "speaker": "Unknown",
+  "en": "If you build simple agents and you build simple software, then I think you have a higher chance of success, and Braintrust really embraces that philosophy.",
+  "zh": "如果你构建简单的智能体、构建简单的软件，那么我认为你成功的几率更高，而 Braintrust 真的拥抱了这一理念。"
+ },
+ {
+  "seg": 276,
+  "start": 1557.762,
+  "end": 1565.731,
+  "speaker": "Unknown",
+  "en": "And so I think we will continue to see simpler and simpler products that solve more and more interesting problems over the next several years.",
+  "zh": "所以我认为，在未来几年里，我们会继续看到越来越简单的产品，解决越来越有趣的问题。"
+ },
+ {
+  "seg": 277,
+  "start": 1566.611,
+  "end": 1570.213,
+  "speaker": "Unknown",
+  "en": "And I think that's paired with inherent demand for using these products.",
+  "zh": "而且我认为这与使用这些产品的内在需求是相伴的。"
+ },
+ {
+  "seg": 278,
+  "start": 1570.253,
+  "end": 1582.138,
+  "speaker": "Unknown",
+  "en": "We're just scratching the surface on, if you consider some of the customers that we talked about, the number of queries per second that they solicit for their AI products versus their traditional products.",
+  "zh": "我们才刚刚触及表面——如果你看看我们谈过的一些客户，他们的 AI 产品所 solicited 的每秒查询量与传统产品相比的数字。"
+ },
+ {
+  "seg": 279,
+  "start": 1582.218,
+  "end": 1588.922,
+  "speaker": "Unknown",
+  "en": "And I think closing that gap and making every product experience an AI product experience is gonna be the journey.",
+  "zh": "我认为缩小这个差距，让每一个产品体验都成为 AI 产品体验，将会是这段旅程。"
+ },
+ {
+  "seg": 280,
+  "start": 1589.602,
+  "end": 1594.044,
+  "speaker": "Unknown",
+  "en": "For us, I think that means continuing to innovate on the core platform, you know,",
+  "zh": "对我们来说，我认为这意味着继续在核心平台上创新，你知道，"
+ },
+ {
+  "seg": 281,
+  "start": 1594.824,
+  "end": 1598.166,
+  "speaker": "Unknown",
+  "en": "Supporting really, really large scale is really important.",
+  "zh": "支持非常非常大的规模是很重要的。"
+ },
+ {
+  "seg": 282,
+  "start": 1598.926,
+  "end": 1604.87,
+  "speaker": "Unknown",
+  "en": "And the other thing that we're really working hard on right now is actually simplifying our own product experience.",
+  "zh": "而我们目前正在努力攻克的另一件事，其实是简化我们自己的产品体验。"
+ },
+ {
+  "seg": 283,
+  "start": 1604.91,
+  "end": 1616.156,
+  "speaker": "Unknown",
+  "en": "So as of the most recent vintage of models, we hit a threshold change or a step function change where models are now sufficiently good at looking at their own work.",
+  "zh": "因为就最近这批模型而言，我们达到了一个阈值式变化或称阶跃函数式的变化——模型现在已经有足够的能力审视自己的工作。"
+ },
+ {
+  "seg": 284,
+  "start": 1617.056,
+  "end": 1618.237,
+  "speaker": "Unknown",
+  "en": "That they can self-improve.",
+  "zh": "以至于它们可以自我改进。"
+ },
+ {
+  "seg": 285,
+  "start": 1618.997,
+  "end": 1632.943,
+  "speaker": "Unknown",
+  "en": "So we've seen incredible results with automatic prompt improvement, automatic dataset generation, digging through logs to find interesting cases, understanding what's not working by analyzing data for multiple experiments.",
+  "zh": "所以我们已经在自动提示词改进、自动数据集生成、翻查日志找出有趣的案例、通过分析多次实验的数据来理解哪里不奏效等方面，看到了令人难以置信的成果。"
+ },
+ {
+  "seg": 286,
+  "start": 1634.924,
+  "end": 1638.045,
+  "speaker": "Unknown",
+  "en": "Already shipped Loop, which is the agent that's built into Braintrust.",
+  "zh": "我们已经发布了 Loop，它是内置于 Braintrust 的智能体。"
+ },
+ {
+  "seg": 287,
+  "start": 1638.426,
+  "end": 1644.608,
+  "speaker": "Unknown",
+  "en": "Well, we actually think it'll help us avoid building a bunch of features and maybe even remove some features of the product over time.",
+  "zh": "嗯，我们其实认为它会帮助我们避免构建一堆功能，甚至假以时日可能会移除产品的一些功能。"
+ },
+ {
+  "seg": 288,
+  "start": 1645.249,
+  "end": 1652.912,
+  "speaker": "Unknown",
+  "en": "So I think this is going to be another really big trend for Braintrust, you know, really becoming ourselves an AI native experience.",
+  "zh": "所以我认为这将成为 Braintrust 的另一个非常大的趋势，你知道，让我们自己也真正成为一个 AI 原生的体验。"
+ },
+ {
+  "seg": 289,
+  "start": 1653.841,
+  "end": 1654.281,
+  "speaker": "Unknown",
+  "en": "Awesome, Anka.",
+  "zh": "太棒了，Anka。"
+ },
+ {
+  "seg": 290,
+  "start": 1654.301,
+  "end": 1655.522,
+  "speaker": "Unknown",
+  "en": "Well, thanks for joining us today.",
+  "zh": "好的，感谢你今天来到我们的节目。"
+ },
+ {
+  "seg": 291,
+  "start": 1655.582,
+  "end": 1659.905,
+  "speaker": "Unknown",
+  "en": "And it's been just such fun to work with you, also to become close friends.",
+  "zh": "和你共事一直非常愉快，也成为亲密的朋友。"
+ },
+ {
+  "seg": 292,
+  "start": 1659.966,
+  "end": 1662.407,
+  "speaker": "Unknown",
+  "en": "And I think we're just getting started at BrainTrust.",
+  "zh": "而且我认为我们在 BrainTrust 才刚刚起步。"
+ },
+ {
+  "seg": 293,
+  "start": 1662.427,
+  "end": 1663.808,
+  "speaker": "Unknown",
+  "en": "So, so, so excited for the future.",
+  "zh": "所以，所以，对未来感到非常非常兴奋。"
+ },
+ {
+  "seg": 294,
+  "start": 1663.888,
+  "end": 1664.969,
+  "speaker": "Unknown",
+  "en": "The feeling is very mutual.",
+  "zh": "我也有完全相同的感受。"
+ },
+ {
+  "seg": 295,
+  "start": 1665.309,
+  "end": 1665.95,
+  "speaker": "Unknown",
+  "en": "It's been a blast.",
+  "zh": "这一直是一段非常愉快的经历。"
+ }
+]

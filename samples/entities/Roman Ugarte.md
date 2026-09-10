@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
+[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":51,"SpaceXAI":1,"OpenClaw":15,"OpenAI":99,"Anthropic":111,"Codex":42,"Cowork":4,"Salesforce":17,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":52,"SpaceXAI":1,"OpenClaw":15,"OpenAI":100,"Anthropic":112,"Codex":42,"Cowork":4,"Salesforce":17,"智能体":1}</script>
 
 <script>
 (function(){

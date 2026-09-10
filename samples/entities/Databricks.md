@@ -42,7 +42,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[护栏]] · [[Cursor]] · [[Lovable]] · [[Snowflake]] · [[Claude]] · [[Meta]] · [[Google]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":111,"护栏":2,"Cursor":51,"Lovable":15,"Snowflake":6,"Claude":50,"Meta":29,"Google":38,"Lenny":67}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":112,"护栏":2,"Cursor":52,"Lovable":15,"Snowflake":6,"Claude":50,"Meta":29,"Google":38,"Lenny":67}</script>
 
 <script>
 (function(){

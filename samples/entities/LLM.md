@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>28</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>29</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,6 +19,7 @@ unlisted: true
 - **[[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]]**(22:58起):本集提到它们在夜间和周末往往处于闲置状态,应该被推向连续数小时乃至整夜的高自主性运行,去完成人类睡觉前描述好的多个实验方向。
 - **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(30:52起):本集在谈及用 AI 总结退订理由时提及，大语言模型本质上是一台预测最可能性的「平均机器」，它擅长提炼通用主题，却很难找出真正能触发产品改进的、那些不平均的具体痛点细节
 - **[[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]]**(20:53起):本集说孩子可以和 LLM 谈论感兴趣的话题、问无限数量的问题并获得即时反馈，让一对一辅导在经济上变得可行
+- **[[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|《评测优先:Braintrust 创始人谈 AI 产品开发的真正工程》]]**(05:13起):本集说没有人真正知道 LLM 是如何工作的，它们的行为不可预测，所以你能控制的只有期望它产出什么
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(10:42起):本集提到从业者现在晚上要花时间喂养这头在夜间运行的野兽，这带来了跟上前沿的压力，但也带来了让工作自动化的可能。
 - **[[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]]**(26:56起):本集把它说成：本质上依然是训练数据的函数，擅长模仿已有事物，但很难跳出固有分布去创造尚未存在的新文化或新概念。
 - **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]]**(04:20起):本集说它彻底改变了公司的架构和产品；CEO 现在每天用它递归扫描全公司的 Slack、Notion 和 PR，生成直观的『船长日志』，让组织层级变扁平。
@@ -42,7 +43,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*19 条*
+*20 条*
 
 ![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q1]]
 
@@ -51,6 +52,8 @@ unlisted: true
 ![[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill#^q3]]
 
 ![[2025-12-07-lennys-surge-ai-edwin-chen#^q6]]
+
+![[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar#^q2]]
 
 ![[2026-06-25-practicalai-aiuc-1-building-trust-in-ai-agents#^q3]]
 
@@ -84,7 +87,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*28 集*
+*29 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -94,6 +97,7 @@ unlisted: true
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为概念
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念(提及)
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念
+- [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|《评测优先:Braintrust 创始人谈 AI 产品开发的真正工程》]] — 作为概念
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为概念(提及)
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]] — 作为概念(提及)
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念
@@ -119,9 +123,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[ChatGPT]] · [[OpenAI]] · [[Claude]] · [[Claude Code]] · [[护栏]] · [[Google]] · [[MCP]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[OpenAI]] · [[Claude]] · [[Claude Code]] · [[护栏]] · [[Google]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":111,"Lenny":67,"ChatGPT":53,"OpenAI":99,"Claude":50,"Claude Code":48,"护栏":2,"Google":38,"MCP":28}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":112,"ChatGPT":54,"Lenny":67,"OpenAI":100,"Claude":50,"Claude Code":49,"护栏":2,"Google":38,"MCP":29}</script>
 
 <script>
 (function(){

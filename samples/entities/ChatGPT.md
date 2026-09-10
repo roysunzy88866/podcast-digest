@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">概念 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>53</b> 集 · <b>15</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">概念 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>54</b> 集 · <b>15</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -28,6 +28,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]]**(07:10起):本集称 ChatGPT 几乎肯定比你今天的医生更好，但它无法获得行医执照，不能替代医生
 - **[[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]]**(24:38起):多处被提及：用于生成 PRD 文档、作为外部诊断工具、嘉宾构建了自定义 GPT（Lovable PRD generator）
 - **[[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]]**(21:30起):本集提到连接公司内部知识的 ChatGPT 可以扫描 Slack 和文档，主动告诉管理者工程师下周可能被什么卡住
+- **[[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|《评测优先:Braintrust 创始人谈 AI 产品开发的真正工程》]]**(00:05起):本集把它作为标杆 AI 产品：用过 ChatGPT、Cursor 的人开始对所有产品都有同样的期待
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(06:08起):本集将其描述为一种给出相当通用答案的通用 AI 聊天产品,并强调未来专门针对个人的 AI 教练会比通用 ChatGPT 强大得多。
 - **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]]**(02:06起):本集把它说成:传统的托管型 AI 工具;嘉宾将 OpenClaw 与之对比,强调用 OpenClaw 就像“自己组装电脑”,学到的东西远超按按按钮就用 ChatGPT,体验也更有趣。
 - **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]]**(70:36起):本集提到消费者会花钱试用它，但发现每月支付 20 美元后，得到的只是一个类似“Siri 1.0”的体验，从而对它失去耐心。
@@ -101,7 +102,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*53 集*
+*54 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
@@ -119,6 +120,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念(提及)
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]] — 作为被讨论公司(提及)
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]] — 作为被讨论公司(提及)
+- [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|《评测优先:Braintrust 创始人谈 AI 产品开发的真正工程》]] — 作为被讨论公司(提及)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为概念(提及)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为概念
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为概念(提及)
@@ -161,9 +163,9 @@ aliases: ["chat gpt", "ChatGPD"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude]] · [[Google]] · [[Anthropic]] · [[Codex]] · [[Cursor]] · [[vibe coding]] · [[LLM]]
+[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude]] · [[Google]] · [[Anthropic]] · [[Codex]] · [[Cursor]] · [[LLM]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":99,"Lenny":67,"Claude":50,"Google":38,"Anthropic":111,"Codex":42,"Cursor":51,"vibe coding":30,"LLM":28}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":100,"Lenny":67,"Claude":50,"Google":38,"Anthropic":112,"Codex":42,"Cursor":52,"LLM":29,"vibe coding":30}</script>
 
 <script>
 (function(){

@@ -1,0 +1,974 @@
+{
+  "episode_id": "2026-09-10-practicalai-computer-use-agents-and-the-future-of-th",
+  "podcast": "Practical AI",
+  "date": "2026-09-10",
+  "tags": [
+    "智能体",
+    "Computer-Use",
+    "MCP",
+    "AI 基础设施",
+    "电商与支付"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "chris-benson",
+      "type": "person",
+      "role": "host",
+      "name": "Chris Benson",
+      "file": "Chris Benson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.29,
+            63.46
+          ],
+          "quote": "Hey. Welcome to another episode of the Practical AI Podcast. I am Chris Benson, your cohost. Daniel is out today, and he's really gonna miss this one because we have an old friend of the podcast who has been on multiple times, Demetrios Brinkmann, who is okay. Let's get the title right here, Demetrios.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "demetrios-brinkmann",
+      "type": "person",
+      "role": "cohost",
+      "name": "Demetrios Brinkmann",
+      "file": "Demetrios Brinkmann",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.29,
+            63.46
+          ],
+          "quote": "Hey. Welcome to another episode of the Practical AI Podcast. I am Chris Benson, your cohost. Daniel is out today, and he's really gonna miss this one because we have an old friend of the podcast who has been on multiple times, Demetrios Brinkmann, who is okay. Let's get the title right here, Demetrios.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：智能体从「玩具」到天天在用，Demetrios 从最大唱反调者到公开认错「它们当时就要来了，而且来势汹汹」，并给出买机票、驾照换证、LinkedIn 人脉整理等真实工作流。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            310.795,
+            332.785
+          ],
+          "quote": "We've been doing so much already in the MLOps community around Agents. You know? The MLOps community started as putting machine learning into production. Then when LLMs came out and they were all the rage, we kind of started incorporating more of the putting LLMs into production. And then Agents became a real thing, and they became something that we were using every day.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 24,
+          "t": [
+            332.785,
+            366.41498
+          ],
+          "quote": "And then it was like, okay. Well, what about putting agents into production? And so it just kinda made sense when we were looking at, hey. Is there a home for the ML Ops community to do more and have more resources around it and take the same types of stuff that we're doing and the same reasons that people enjoy being in, like, this very deep technical community and then just, like, do more and better. And so that was the pitch.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 49,
+          "t": [
+            761.65497,
+            795.725
+          ],
+          "quote": "Yeah, mean, when you think about just like, so much has happened. Just since we talked last, so much has happened. This world, the rise of Agents were around last time we talked, but they were still in absolute infancy. And at this point, it is dominating everything going forward and just growing. That sounds very hype y, and I apologize for that, but it's just, the monster gets bigger and bigger.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 50,
+          "t": [
+            796.045,
+            826.505
+          ],
+          "quote": "Me tell you, because I was the one who was probably the biggest naysayer on the hype naming and agents, and it's like, yeah. Yeah. I remember using, what was it, like, baby AGI back in the day and just getting mad because all it did was give me so it got stuck in a recursive loop, and I got, like, a $80 API bill from OpenAI. And it was like, these agents don't work, dude. What's going on?",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 62,
+          "t": [
+            990.045,
+            1025.175
+          ],
+          "quote": "I'm the same. I get it. It's funny when you say that because I'm having agents do all the things, and my focus has been on a little bit different use case in swarms of agents, where you have many agents addressing really complex things at once. But then, it's funny, like, if I'm doing something like you and it's my personal bank account, which doesn't have anywhere near as many zeros as I wish it did, I'm the same way. I'm like, that very what would really have quite a small purchase, but I'm like, okay.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 63,
+          "t": [
+            1025.175,
+            1062.9199
+          ],
+          "quote": "So I have that same reservation. Like, they're doing amazing things, you know, what you can get agents to go do, and yet there's still that that intrinsic trust factor. And if you and I are having that with the of the fact that this is what we do, then I know we have to deal with that with general population as Oh, one they percent. Come So it's interesting to see the technology running into this amazing space that is beyond really where anybody was predicting this fast. And then simultaneously, Do I want it to buy the movie tickets for me?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 84,
+          "t": [
+            1377.885,
+            1445.9501
+          ],
+          "quote": "that you That's can exactly really what I was gonna ask you next. I literally was in my head, I'm like, oh, I know where I wanna go, and that's it. And that is with the inevitability of the B2B use case, being an Agentic to Agentic use case, where you're doing agents interoperating with agents beyond your borker, in other words, some other entity, another commercial entity or whatever it is that you're talking about, and instead of being static APIs that your agent is going and talking to, or you're web scraping with the agent and doing the of the form stuff that we're talking about, what are your thoughts around when is every organization out there going to have an agentic interface in which your agents, as you're doing what you're describing, are just interoperating, giving it a lot more fluidity and dynamic capability because you're doing an agent to agent interaction, which can accommodate things. It's no longer just the static API that your agent has navigate. What are your thoughts around that, and like how far out do you think it is before we get to that?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 85,
+          "t": [
+            1445.9501,
+            1504.5499
+          ],
+          "quote": "Well, I think that's one reason that MCP is so popular is because of those use cases, and it feels like that's the way that the industry has standardized on being able to give agents access to different systems. Right? But then what we have to do is we have to wait for everyone to have MCP servers that are good enough for my agent just to pick up and use at will and use well so that I can get what I need done, which feels like there still needs to be some maturing that needs to happen before we get to that point. And so that's why it's beautiful with computer use because you don't have to wait for the other person to set up an MCP server, or you don't have to go and build an MCP server to enable that. And there's a lot of these use cases that who knows if they even are gonna build an MCP server.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 136,
+          "t": [
+            2597.505,
+            2615.835
+          ],
+          "quote": "Which is it is really where we're going. I mean, that's where I'm already trying to go. Don't want to be amazon.com. Spend, I always have chats open. I always have agents doing stuff, and I do my shopping that way, you know, and I only will go to where I have to do that.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 137,
+          "t": [
+            2615.835,
+            2624.475
+          ],
+          "quote": "And actually, at this point, even for Amazon, I just need the agents to buy the stuff within thresholds and stuff like that and be done with it. So, yeah, exactly what you're",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 143,
+          "t": [
+            2711.585,
+            2719.85
+          ],
+          "quote": "Maybe, but maybe not. And so we're gonna have to start building our ecommerce websites to entice the agents, not the humans.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 144,
+          "t": [
+            2719.85,
+            2721.53
+          ],
+          "quote": "So that's where think agents,",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 145,
+          "t": [
+            2721.53,
+            2730.8252
+          ],
+          "quote": "but we want the agents, we wanna entice them to go back and give you information. Right? So we've completely lost our relationship with the customer.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 146,
+          "t": [
+            2731.145,
+            2794.4202
+          ],
+          "quote": "I agree. I think we're in transition. And going back when I was talking about having an Agentic interface instead of And this is where I think there's room, not just room, this is where I think it almost has to go, given the necessities of marketing branding, capturing the customer, holding the customer, enticing the customer with various incentives, that kind of thing, is that you can't just have your agents go to an MCP server. I think that's how things will start, but I think for the sellers, for the companies that are trying to produce that, I think that they have to have these agentic interfaces that are going beyond MCP, where you're just going out and getting access to a tool or something, but you're actually having a negotiation across agents where that can happen, and then agents on both sides are getting smarter, or it may be that you have combinations of purchasing agents, and then you have negotiation agents, and things like that. I talked about kind of the swarms.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 150,
+          "t": [
+            2878.73,
+            2906.525
+          ],
+          "quote": "learn you. There's there's a few things that for me are wild there. It is true that, yeah, we can fan out right now and create these swarms, and these agents can go off and hit a 100 different websites looking for shoes, right, and or one item that we're trying to shop for. But what happens when I go and I say, cool. So get me these shoes and that dress and that and this banana.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 151,
+          "t": [
+            2907.15,
+            2933.415
+          ],
+          "quote": "And the agent now, where are you gonna do the payments? And this is where why it all started for me. And so, first of all, actually, even taking another step back, does any of this even matter? Is there going to be a forcing function to create this reality if with browser use, I can already get what I want? So first of all, I will just say that, like, browser use is good enough for my agents to go and browse the front end Yeah.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 152,
+          "t": [
+            2933.495,
+            2947.3098
+          ],
+          "quote": "And get me what I want. So why is there going to be an incentive to create this new Internet where agents are talking to agents, you've got these swarms, and all this complex stuff happening? Because I just, I've already got what I need. Right? That's the point.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 156,
+          "t": [
+            2972.77,
+            2992.0151
+          ],
+          "quote": "Here's here's the button. Are you okay to buy it? And we eventually click on it and say yes or no. But it's not that far off of a reality if we are living in this timeline where agents do that. When Anthropic or OpenAI, they say, well, why not just pay me directly as OpenAI?",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 160,
+          "t": [
+            3057.19,
+            3113.4702
+          ],
+          "quote": "But I will know that I will have all of my agents that are looking out for my interests, and they have learned me very, very well, and there is a lot of private profiling that, in other words, my agents profiling me and my wife and my daughter and our needs and how often we get things and when we need it, what the circumstances are, and my agents will learn that very well. And from my standpoint, I want good quality. I want it when I want it. I want to not spend too much money, and I don't really care where it comes from, if I can return it expeditiously as well and all that. So I'm gonna leave that to my agents at some point to figure out, you go to the marketplace, you go directly to an Agentic interface, you go to more of a Shopify or Amazon today and scrape it on the don't care, just make it happen, make sure all these things that I care about are in place, and don't bother me with it.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 162,
+          "t": [
+            3119.885,
+            3152.655
+          ],
+          "quote": "Yeah. Yeah. And but don't that's why I feel like the friction, there's still some there's still some big question marks because the ideal scenario for us as a consumer is exactly what you just mapped out, where it knows us better than we know ourselves. Right? And I'm okay if I have an agent or my swarm of agents, my army of agents that I know are looking out for my best interest, I'm okay with giving it all the information it needs, and having like the top recommender system.",
+          "speaker": "Demetrios"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "Computer-Use",
+      "file": "Computer-Use",
+      "primary": true,
+      "how_described": "本集说成：让模型直接像人一样操作电脑屏幕的技能，配合 OpenAI 最新模型后「扔给它的事情几乎没有完不成的」，核心价值是不用再为每件事找 API。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            826.665,
+            845.64
+          ],
+          "quote": "Yeah. But since then, you're right, man. Like, I'm fully bought in now, and I am the first one to say that I was way wrong. Like, they were coming, and they came hard, and I wanna tell you about the newest stuff that I've been doing, specifically with, like, computer use.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 55,
+          "t": [
+            866.23,
+            897.14
+          ],
+          "quote": "Yeah. And so since that came out, if you specifically use the Computer-Use skill, it is so good. There are very few things that I can throw at it that it does not accomplish, which is wild because okay. So now I'd never have to worry about getting APIs for anything. I don't have to worry about, oh, but I can't reach that data because of some block or something that's wrong with it.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 56,
+          "t": [
+            897.7,
+            921.13
+          ],
+          "quote": "And granted, this is me as a personal use type thing. Like, I'm I'm able to do that. I have my three or four different Gmails logged in, and so Computer-Use can go and look at all three or four of them, which I know that with one I can't remember if it's Hermes or Grock Bot. You can also set up multiple accounts. But",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 59,
+          "t": [
+            936.375,
+            961.905
+          ],
+          "quote": "And so you don't have to worry you don't have to fiddle with any connections or anything. You can just go and it'll use computer use, and that is great. That's like quality of life thing. But what was wild to me is now I can set up these workflows or triggers, I guess is what you call them, that, hey. When you see something, then just do this automatically.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 60,
+          "t": [
+            961.905,
+            983.96
+          ],
+          "quote": "So for example, one of these things is, as you know, we've had all these conferences all over the world, and I've been taking a lot of flights. Well, I will buy the flight with Computer-Use. I just say, find me the best flight on this day to this day. And then before it actually pays, I'm the one who actually will click the button because Sure. We're still not at that point.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 75,
+          "t": [
+            1212.265,
+            1215.065
+          ],
+          "quote": "So, okay, fair Back to computer use.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 76,
+          "t": [
+            1215.625,
+            1240.415
+          ],
+          "quote": "Yeah. So I have something like that going. I also have a great use case that I had this morning was I need to update my Spanish driver's license to a German driver's license. And so I before computer use was going and taking screenshots and then giving it to my agent and saying or giving it just to the chat, really. It wasn't even an agent.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 78,
+          "t": [
+            1259.935,
+            1291.635
+          ],
+          "quote": "But what it does have is a web page where I can go and submit something, or I can have Computer-Use go and submit something. So now it just did it. It created my appointment, and then it created a calendar invite for me so I know when the appointment is, and it said everything I needed to bring, and it said my cancellation number, it said my, like, main number, blah blah blah. That's all there, and I didn't have to worry about it at all. And I changed that, like three different times, and all I have to do is say, like, change it to a different day because I can't do it on this day anymore.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 81,
+          "t": [
+            1318.865,
+            1348.8549
+          ],
+          "quote": "I think for me, the biggest eye opener of getting it right was now anytime I encounter a forum, when I'm using the Internet. Right? And I'm going through my day to day, and I'm using the Internet, and I encounter a form, and it has this big trigger that goes off in my head, and I'm like, why didn't I ask Computer-Use to do this whole task? Because I just got to this point where I realized, oh, forms, I don't have to fill out anymore. That's something that is good enough to be done by Computer-Use.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 85,
+          "t": [
+            1445.9501,
+            1504.5499
+          ],
+          "quote": "Well, I think that's one reason that MCP is so popular is because of those use cases, and it feels like that's the way that the industry has standardized on being able to give agents access to different systems. Right? But then what we have to do is we have to wait for everyone to have MCP servers that are good enough for my agent just to pick up and use at will and use well so that I can get what I need done, which feels like there still needs to be some maturing that needs to happen before we get to that point. And so that's why it's beautiful with computer use because you don't have to wait for the other person to set up an MCP server, or you don't have to go and build an MCP server to enable that. And there's a lot of these use cases that who knows if they even are gonna build an MCP server.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 89,
+          "t": [
+            1553.6649,
+            1584.305
+          ],
+          "quote": "Can we figure out a way to make it work with I mean, I don't know how it's gonna play out because I will say that there's a security nightmare happening if you just start doing, like, computer use. Everyone at your company now has computer use going on all five of their emails and all of your ERP systems or you're like like on the oh, man. Basically, any anything that you can think of. God. That sounds so dangerous, but wow.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 97,
+          "t": [
+            1791.9401,
+            1827.875
+          ],
+          "quote": "Like, there's not a lot that I throw at it these days that it can't do. And I keep going back to, like, my personal Computer-Use stuff, which is great. Going to the b to b stuff, though, this is where I really feel like you're putting pressure on what we do at work because if what we do at work still feels cumbersome or we have to be really technical in order to get the advances that AI brings, then we're doing it wrong. It really feels like that's not how it should be. And so how can we enable that type of thing?",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 98,
+          "t": [
+            1827.875,
+            1857.865
+          ],
+          "quote": "But with all of the enterprise y features you that you the organizations have come to grow and they've loved over these years, you know, just like Mhmm. Role based access control is one. And so I guess if you're using Computer-Use, you've already got your roles set out, and so you're not gonna have problems with that. But there's a lot of I will not be naive and say that it's the end all to be all, especially inside of the enterprise. It could cause a lot of problems.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 100,
+          "t": [
+            1894.09,
+            1912.485
+          ],
+          "quote": "And so what I did is I told Computer-Use, I said, go and look through all my LinkedIn. Because LinkedIn has this API that you cannot it's notoriously hard. Like, you can't get stuff from LinkedIn's API. It's not like x where you can pay and then you get everything. It's fully locked down.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 108,
+          "t": [
+            2066.34,
+            2121.2
+          ],
+          "quote": "Hopefully, yeah, hopefully, I've I've inspired you, and please write me if you use Computer-Use and you find a rough edge where it doesn't do something. But, man, these different, like, five, ten step procedures where it does stuff is it's incredible. But, anyway, on the harnesses, and I wanna talk to you about is really just how much of the harness is being blurred into the actual model, it feels like, and how we've got now these, you know, like, Claude code harness doesn't there's a whole lot of things wrong with it right now today with, like, Fable and Opus five. That's, again, time stamping it. People are not happy with the Claude code experience, and I myself have pretty much stopped using it, which is wild because, I don't know, six months ago, I put up with all the crap that Anthropic was doing.",
+          "speaker": "Demetrios"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 是给智能体接入外部系统的行业标准化协议，被捐赠给 Linux 基金会后从 Anthropic 拥有变成中立管理机构引导；与 Computer-Use 互补而非替代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            275.995,
+            310.795
+          ],
+          "quote": "Well, so I'm super excited because in the beginning of the year or just at the end of last year, MCP got donated to the Linux Foundation. They created the Agentic AI Foundation around it. And out of that, there's just been, like, huge interest from all the top players because now MCP went from being something that was owned by Anthropic Yep. To being this neutral governing body that is steering it. And so I was sitting there, and I was like, man, that is an awesome opportunity.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 26,
+          "t": [
+            388.475,
+            437.37
+          ],
+          "quote": "Next week, I'm going to Japan for MCP Dev Summit, and then I'm right back in Amsterdam for Agent Con. Agent Con is, like, our big flagship event in Europe, and that is September 17. And then we have another Agent Con in North America in San Jose on October 22, and you'll like this. One thing I'm doing for Agent Con that is very much in the spirit of what we did in the MO ops days is I got a thirty six hour livestream put together. So we have the live event, and what I, you know, I love watching Coachella or, like, these very highly produced events that are both they're taking the virtual aspect into consideration.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 85,
+          "t": [
+            1445.9501,
+            1504.5499
+          ],
+          "quote": "Well, I think that's one reason that MCP is so popular is because of those use cases, and it feels like that's the way that the industry has standardized on being able to give agents access to different systems. Right? But then what we have to do is we have to wait for everyone to have MCP servers that are good enough for my agent just to pick up and use at will and use well so that I can get what I need done, which feels like there still needs to be some maturing that needs to happen before we get to that point. And so that's why it's beautiful with computer use because you don't have to wait for the other person to set up an MCP server, or you don't have to go and build an MCP server to enable that. And there's a lot of these use cases that who knows if they even are gonna build an MCP server.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 86,
+          "t": [
+            1504.71,
+            1530.0299
+          ],
+          "quote": "Like, the German government DMV, I'm not sure they ever are gonna have an MCP server that my agent can go and talk to. Right? So that's going back to this b to c use case in a way. But if you think about it, what what's incredible for me is us consumers are tasting this, like, forbidden fruit of, wow, things can really be that easy? Like, it can just work?",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 146,
+          "t": [
+            2731.145,
+            2794.4202
+          ],
+          "quote": "I agree. I think we're in transition. And going back when I was talking about having an Agentic interface instead of And this is where I think there's room, not just room, this is where I think it almost has to go, given the necessities of marketing branding, capturing the customer, holding the customer, enticing the customer with various incentives, that kind of thing, is that you can't just have your agents go to an MCP server. I think that's how things will start, but I think for the sellers, for the companies that are trying to produce that, I think that they have to have these agentic interfaces that are going beyond MCP, where you're just going out and getting access to a tool or something, but you're actually having a negotiation across agents where that can happen, and then agents on both sides are getting smarter, or it may be that you have combinations of purchasing agents, and then you have negotiation agents, and things like that. I talked about kind of the swarms.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "agentic-ai-foundation",
+      "type": "company",
+      "role": "company",
+      "name": "Agentic AI Foundation",
+      "file": "Agentic AI Foundation",
+      "primary": true,
+      "how_described": "本集说它是 Linux 基金会围绕 MCP 成立的基金会，MLOps 社区已并入；成员公司超 250 家、大使申请超千份、分会覆盖 80 多个城市。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            64.02,
+            83.1
+          ],
+          "quote": "Head of development experience and a member of the nontechnical staff at the Agentic AI Foundation. And he's also, by the way, as most folks who have seen shows with us before, he's the founder of the MLOps community. Oh my god. That's the longest title, Demetrios, I think I've had to do on the show.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 21,
+          "t": [
+            267.39,
+            275.995
+          ],
+          "quote": "That's a pretty good point. Yeah. I mean, tell tell me about MLOps community and and the Agentic AI Foundation and what what happened here.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 22,
+          "t": [
+            275.995,
+            310.795
+          ],
+          "quote": "Well, so I'm super excited because in the beginning of the year or just at the end of last year, MCP got donated to the Linux Foundation. They created the Agentic AI Foundation around it. And out of that, there's just been, like, huge interest from all the top players because now MCP went from being something that was owned by Anthropic Yep. To being this neutral governing body that is steering it. And so I was sitting there, and I was like, man, that is an awesome opportunity.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 25,
+          "t": [
+            366.735,
+            388.475
+          ],
+          "quote": "And, luckily, the folks at the Agentic AI Foundation were on board, and so we we kinda merged. We're now going to be doing a bit of a rebrand. The ML Ops community is becoming the Agentic AI community or the Agentic AI Foundation community. And we're just doing more of the same. Like, we're doing a whole lot of conferences.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 41,
+          "t": [
+            675.46497,
+            696.68
+          ],
+          "quote": "Well, yeah, I think that's been some of the biggest surprises for me is how the community has rallied, and there's so much interest, not only from the member companies of the Agentic AI Foundation. Now there's over 250, which is wild to think about how many companies. Yeah. They wanna be members, and they wanna be a part of this movement. Right?",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 133,
+          "t": [
+            2532.815,
+            2560.625
+          ],
+          "quote": "That novel of a term. I think we're all okay with saying that these days because the majority of our work gets done from the chat. And so what I realized, and this came from me being in Seoul, and I talked to a lot of payment processing companies who just joined the Agentic AI Foundation. And they were wondering, like, well, what is the future of payments? How is it gonna work?",
+          "speaker": "Demetrios"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集说 harness 是实验室提供的围绕模型的执行框架（含工具调用、系统提示词），其与模型的边界正在模糊——旧模型的长系统提示词「几乎像被 RL 进了新模型」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            2066.34,
+            2121.2
+          ],
+          "quote": "Hopefully, yeah, hopefully, I've I've inspired you, and please write me if you use Computer-Use and you find a rough edge where it doesn't do something. But, man, these different, like, five, ten step procedures where it does stuff is it's incredible. But, anyway, on the harnesses, and I wanna talk to you about is really just how much of the harness is being blurred into the actual model, it feels like, and how we've got now these, you know, like, Claude code harness doesn't there's a whole lot of things wrong with it right now today with, like, Fable and Opus five. That's, again, time stamping it. People are not happy with the Claude code experience, and I myself have pretty much stopped using it, which is wild because, I don't know, six months ago, I put up with all the crap that Anthropic was doing.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 110,
+          "t": [
+            2134.2852,
+            2160.215
+          ],
+          "quote": "It was so good. And then somehow or another, when they r l'd this last model, and you try and bring a lot of this harness into the model, or I guess it inherently becomes blurry because they have their system prompt. Yeah. After the world uses the model for long enough, that system prompt just, like, keeps getting longer and longer and longer. Right?",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 111,
+          "t": [
+            2160.295,
+            2194.615
+          ],
+          "quote": "And then they come out with a new model, and that system prompt can shrink again because all of that long system prompt from the last model gets almost like RL'd into the new model. But that can create some weird janky stuff that happens, and we're seeing that. And I'm sure that Anthropic's next model is gonna be incredible, and we're gonna be right back at like, oh, wow. They were able to do it. But this is just for me, when it comes to harnesses, it is so fascinating to see how these I think some people call it the inner harness.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 112,
+          "t": [
+            2194.615,
+            2225.125
+          ],
+          "quote": "Basically, the harness that the labs provide is very much, like, you are super optimized for the model that is that lab is putting out. Yeah. And if you wanna have your own kind of harness, if you're trying to run PIE or some of the or Hermes or whatever, you know what? It's actually like, maybe you're gonna do better on some open source models. And a lot of these open source models coming from China are really great with that.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 113,
+          "t": [
+            2225.125,
+            2258.58
+          ],
+          "quote": "And so there was something that a friend my friend Drew told me how a lot of times in Pi, you would hear Mario, the creator of Pi, talk about how he had to fight with Claude to not, like, make these API calls like Claude code API calls, then it it was like, man, I have to fight against the model to not act like the harness that it was trained with. You know? So that's fascinating for me to just think about all of that, and how it's going to affect the next few months that we're seeing the models come out with.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 116,
+          "t": [
+            2312.5999,
+            2342.18
+          ],
+          "quote": "For me, it's just it would be really wild if the research labs didn't have the best product, because they're getting all of this data on how folks are using their products, and then they can incorporate that into the product itself. Right? The model or the harness that they're giving. So that's why it's it's crazy to me right now that Claude Code is having this moment where it's like, man, they might have gone a little too far on this. They they may have tried to push it too much.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 120,
+          "t": [
+            2398.81,
+            2414.2852
+          ],
+          "quote": "It's interesting to see how all this is gonna shake out in the harness merging with different models space, and what the relationship is, and where the line between the two is being drawn in terms of that.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说人们对 Claude Code 的体验非常不满，Demetrios 几乎停用了它，而六个月前他还因产品太优秀而容忍 Anthropic 的一切问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            2066.34,
+            2121.2
+          ],
+          "quote": "Hopefully, yeah, hopefully, I've I've inspired you, and please write me if you use Computer-Use and you find a rough edge where it doesn't do something. But, man, these different, like, five, ten step procedures where it does stuff is it's incredible. But, anyway, on the harnesses, and I wanna talk to you about is really just how much of the harness is being blurred into the actual model, it feels like, and how we've got now these, you know, like, Claude code harness doesn't there's a whole lot of things wrong with it right now today with, like, Fable and Opus five. That's, again, time stamping it. People are not happy with the Claude code experience, and I myself have pretty much stopped using it, which is wild because, I don't know, six months ago, I put up with all the crap that Anthropic was doing.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 113,
+          "t": [
+            2225.125,
+            2258.58
+          ],
+          "quote": "And so there was something that a friend my friend Drew told me how a lot of times in Pi, you would hear Mario, the creator of Pi, talk about how he had to fight with Claude to not, like, make these API calls like Claude code API calls, then it it was like, man, I have to fight against the model to not act like the harness that it was trained with. You know? So that's fascinating for me to just think about all of that, and how it's going to affect the next few months that we're seeing the models come out with.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 116,
+          "t": [
+            2312.5999,
+            2342.18
+          ],
+          "quote": "For me, it's just it would be really wild if the research labs didn't have the best product, because they're getting all of this data on how folks are using their products, and then they can incorporate that into the product itself. Right? The model or the harness that they're giving. So that's why it's it's crazy to me right now that Claude Code is having this moment where it's like, man, they might have gone a little too far on this. They they may have tried to push it too much.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 118,
+          "t": [
+            2360.3552,
+            2389.4648
+          ],
+          "quote": "Yeah. I think I think there's a lot of work there that needs to be done to improve because we're seeing, kind of to your point, we're seeing user experience very jittery. Goes from being very good to being a struggle. And then I see people, I mean, even things like rolling back to older models within Claude Code, for instance, because they're complaining about how Opus is so verbose, and it is. It drives me nuts.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "mlops-community",
+      "type": "company",
+      "role": "company",
+      "name": "MLOps community",
+      "file": "MLOps community",
+      "primary": true,
+      "how_described": "本集说它由 Demetrios 创立，从把机器学习投入生产起步，随 LLM 与智能体演进，如今并入 Agentic AI 基金会、正品牌重塑为 Agentic AI 社区。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            64.02,
+            83.1
+          ],
+          "quote": "Head of development experience and a member of the nontechnical staff at the Agentic AI Foundation. And he's also, by the way, as most folks who have seen shows with us before, he's the founder of the MLOps community. Oh my god. That's the longest title, Demetrios, I think I've had to do on the show.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 21,
+          "t": [
+            267.39,
+            275.995
+          ],
+          "quote": "That's a pretty good point. Yeah. I mean, tell tell me about MLOps community and and the Agentic AI Foundation and what what happened here.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 23,
+          "t": [
+            310.795,
+            332.785
+          ],
+          "quote": "We've been doing so much already in the MLOps community around Agents. You know? The MLOps community started as putting machine learning into production. Then when LLMs came out and they were all the rage, we kind of started incorporating more of the putting LLMs into production. And then Agents became a real thing, and they became something that we were using every day.",
+          "speaker": "Demetrios"
+        }
+      ]
+    },
+    {
+      "id": "swarms",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体蜂群 (swarms)",
+      "file": "智能体蜂群",
+      "primary": true,
+      "how_described": "Chris 提出的愿景：多个智能体分工协作（采购智能体、谈判智能体各司其职），你的智能体比你还懂你，「在你还没意识到它存在之前就满足你的愿望」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            990.045,
+            1025.175
+          ],
+          "quote": "I'm the same. I get it. It's funny when you say that because I'm having agents do all the things, and my focus has been on a little bit different use case in swarms of agents, where you have many agents addressing really complex things at once. But then, it's funny, like, if I'm doing something like you and it's my personal bank account, which doesn't have anywhere near as many zeros as I wish it did, I'm the same way. I'm like, that very what would really have quite a small purchase, but I'm like, okay.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 146,
+          "t": [
+            2731.145,
+            2794.4202
+          ],
+          "quote": "I agree. I think we're in transition. And going back when I was talking about having an Agentic interface instead of And this is where I think there's room, not just room, this is where I think it almost has to go, given the necessities of marketing branding, capturing the customer, holding the customer, enticing the customer with various incentives, that kind of thing, is that you can't just have your agents go to an MCP server. I think that's how things will start, but I think for the sellers, for the companies that are trying to produce that, I think that they have to have these agentic interfaces that are going beyond MCP, where you're just going out and getting access to a tool or something, but you're actually having a negotiation across agents where that can happen, and then agents on both sides are getting smarter, or it may be that you have combinations of purchasing agents, and then you have negotiation agents, and things like that. I talked about kind of the swarms.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 150,
+          "t": [
+            2878.73,
+            2906.525
+          ],
+          "quote": "learn you. There's there's a few things that for me are wild there. It is true that, yeah, we can fan out right now and create these swarms, and these agents can go off and hit a 100 different websites looking for shoes, right, and or one item that we're trying to shop for. But what happens when I go and I say, cool. So get me these shoes and that dress and that and this banana.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 152,
+          "t": [
+            2933.495,
+            2947.3098
+          ],
+          "quote": "And get me what I want. So why is there going to be an incentive to create this new Internet where agents are talking to agents, you've got these swarms, and all this complex stuff happening? Because I just, I've already got what I need. Right? That's the point.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 155,
+          "t": [
+            2949.5498,
+            2972.77
+          ],
+          "quote": "that's where there's potential that it never happens. But I will I will go with you on this idea of, like, alright. If we do get there to the the swarms, and now I've just told my agent that I want three different things from three different merchants. The way that we do that today is, like, the agent will go to each one of these websites and it will buy them. Or it will tell us, hey.",
+          "speaker": "Demetrios"
+        }
+      ]
+    },
+    {
+      "id": "disintermediate",
+      "type": "concept",
+      "role": "concept",
+      "name": "去中介化 (disintermediate)",
+      "file": "去中介化",
+      "primary": true,
+      "how_described": "本集说若 Anthropic 或 OpenAI 直接做你的支付处理商，Shopify 就被绕过，市场变成「一个包含我所有 SKU、能被搜索、能在聊天里被购买的智能体」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            2992.0151,
+            3014.335
+          ],
+          "quote": "I can be your payment processor, and you just pay me, and so then, you know what happens? You don't even need then you disintermediate Shopify. Like, why do I, as a merchant, even need to create a Shopify store? I just create the marketplace is all going towards the chat. And so now, what is is a marketplace now?",
+          "speaker": "Demetrios"
+        }
+      ]
+    },
+    {
+      "id": "browser-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "browser use",
+      "file": "browser use",
+      "primary": false,
+      "how_described": "本集说 browser use 已足够好到让智能体浏览前端、拿到想要的东西，因此Demetrios 质疑是否还会有激励去创造智能体互操作的新互联网。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            2907.15,
+            2933.415
+          ],
+          "quote": "And the agent now, where are you gonna do the payments? And this is where why it all started for me. And so, first of all, actually, even taking another step back, does any of this even matter? Is there going to be a forcing function to create this reality if with browser use, I can already get what I want? So first of all, I will just say that, like, browser use is good enough for my agents to go and browse the front end Yeah.",
+          "speaker": "Demetrios"
+        }
+      ]
+    },
+    {
+      "id": "linux-foundation",
+      "type": "company",
+      "role": "company",
+      "name": "Linux Foundation",
+      "file": "Linux Foundation",
+      "primary": false,
+      "how_described": "本集说 MCP 被捐赠给 Linux 基金会，后者围绕它创建了 Agentic AI 基金会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            275.995,
+            310.795
+          ],
+          "quote": "Well, so I'm super excited because in the beginning of the year or just at the end of last year, MCP got donated to the Linux Foundation. They created the Agentic AI Foundation around it. And out of that, there's just been, like, huge interest from all the top players because now MCP went from being something that was owned by Anthropic Yep. To being this neutral governing body that is steering it. And so I was sitting there, and I was like, man, that is an awesome opportunity.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 44,
+          "t": [
+            733.895,
+            750.13
+          ],
+          "quote": "Yeah. That's huge. Like, pretty quick, I mean, considering you're only talking a few months. Yeah. It's, so it's The Linux Foundation's gonna be like, well, we took him on, but oh my gosh, the baby's growing up pretty quick here.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集多次提到：最新模型发布配合 Computer-Use 效果惊人；并被讨论是否可能既知道你的一切、又运营市场、每笔交易抽成，构成信任陷阱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            254.27,
+            265.79
+          ],
+          "quote": "I just find it hilarious that everyone at Anthropic or OpenAI, they're members of the technical staff. And so I had to go against the grain and be a member of the nontechnical staff.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 50,
+          "t": [
+            796.045,
+            826.505
+          ],
+          "quote": "Me tell you, because I was the one who was probably the biggest naysayer on the hype naming and agents, and it's like, yeah. Yeah. I remember using, what was it, like, baby AGI back in the day and just getting mad because all it did was give me so it got stuck in a recursive loop, and I got, like, a $80 API bill from OpenAI. And it was like, these agents don't work, dude. What's going on?",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 53,
+          "t": [
+            846.90497,
+            863.91
+          ],
+          "quote": "Because that man, I feel like my life has changed. And there's something that happened, I will say, in the latest OpenAI model release, which came out what? It's 5.6 is what we're at right now.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 156,
+          "t": [
+            2972.77,
+            2992.0151
+          ],
+          "quote": "Here's here's the button. Are you okay to buy it? And we eventually click on it and say yes or no. But it's not that far off of a reality if we are living in this timeline where agents do that. When Anthropic or OpenAI, they say, well, why not just pay me directly as OpenAI?",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 163,
+          "t": [
+            3152.815,
+            3195.7002
+          ],
+          "quote": "It's like, I will gladly give you anything, any information. You can quiz me or grill me on my likes and dislikes, because I trust that you're looking out for my best interest. Right? Now the big question mark here and where OpenAI could potentially fumble is if they see that, wow, we could be the marketplace, and we can make money anytime there's a transaction that happens, wouldn't that incentivize them to only show things that are coming from their marketplace? So I know I'm making all kinds of big leaps here in, like, what the potential future could be, because OpenAI does not have a marketplace right now, and they've never stated that they wanna be a marketplace.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 164,
+          "t": [
+            3196.4202,
+            3239.945
+          ],
+          "quote": "But if this is one of the potential timelines, and you think about it, like, they would only push their own product. However, that could make me feel like, oh, well, they're taking advantage of me because they're playing both sides. They know everything about me, and then they're finding a way to leverage the what the merchants have on OpenAI. Like, I would feel like I wouldn't trust it as much if I knew that they were in the middle of it. But if it wasn't agent, like you were saying, where it is going out and doing the searching on my behalf out in the wild wild west of the agent verse, then maybe I would feel a little bit more okay with it.",
+          "speaker": "Demetrios"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集说 MCP 原是 Anthropic 推出的协议；其 Claude Code 体验下滑，但 Demetrios 仍看好实验室「拿到了所有用户数据」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            254.27,
+            265.79
+          ],
+          "quote": "I just find it hilarious that everyone at Anthropic or OpenAI, they're members of the technical staff. And so I had to go against the grain and be a member of the nontechnical staff.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 22,
+          "t": [
+            275.995,
+            310.795
+          ],
+          "quote": "Well, so I'm super excited because in the beginning of the year or just at the end of last year, MCP got donated to the Linux Foundation. They created the Agentic AI Foundation around it. And out of that, there's just been, like, huge interest from all the top players because now MCP went from being something that was owned by Anthropic Yep. To being this neutral governing body that is steering it. And so I was sitting there, and I was like, man, that is an awesome opportunity.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 108,
+          "t": [
+            2066.34,
+            2121.2
+          ],
+          "quote": "Hopefully, yeah, hopefully, I've I've inspired you, and please write me if you use Computer-Use and you find a rough edge where it doesn't do something. But, man, these different, like, five, ten step procedures where it does stuff is it's incredible. But, anyway, on the harnesses, and I wanna talk to you about is really just how much of the harness is being blurred into the actual model, it feels like, and how we've got now these, you know, like, Claude code harness doesn't there's a whole lot of things wrong with it right now today with, like, Fable and Opus five. That's, again, time stamping it. People are not happy with the Claude code experience, and I myself have pretty much stopped using it, which is wild because, I don't know, six months ago, I put up with all the crap that Anthropic was doing.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 109,
+          "t": [
+            2121.2,
+            2134.2852
+          ],
+          "quote": "I put up with everything. Maybe not all the crap. I love Anthropic. I love everybody there, but I put up with everything that was going on. There's so much drama in the news all the time because they had such a superior product.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 111,
+          "t": [
+            2160.295,
+            2194.615
+          ],
+          "quote": "And then they come out with a new model, and that system prompt can shrink again because all of that long system prompt from the last model gets almost like RL'd into the new model. But that can create some weird janky stuff that happens, and we're seeing that. And I'm sure that Anthropic's next model is gonna be incredible, and we're gonna be right back at like, oh, wow. They were able to do it. But this is just for me, when it comes to harnesses, it is so fascinating to see how these I think some people call it the inner harness.",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 156,
+          "t": [
+            2972.77,
+            2992.0151
+          ],
+          "quote": "Here's here's the button. Are you okay to buy it? And we eventually click on it and say yes or no. But it's not that far off of a reality if we are living in this timeline where agents do that. When Anthropic or OpenAI, they say, well, why not just pay me directly as OpenAI?",
+          "speaker": "Demetrios"
+        }
+      ]
+    },
+    {
+      "id": "system-prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "system prompt",
+      "file": "system prompt",
+      "primary": false,
+      "how_described": "本集说模型发布后系统提示词越用越长，新模型训练时旧提示词被 RL 进去，提示词又能缩短——但会产生一些奇怪的、糟糕的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            2134.2852,
+            2160.215
+          ],
+          "quote": "It was so good. And then somehow or another, when they r l'd this last model, and you try and bring a lot of this harness into the model, or I guess it inherently becomes blurry because they have their system prompt. Yeah. After the world uses the model for long enough, that system prompt just, like, keeps getting longer and longer and longer. Right?",
+          "speaker": "Demetrios"
+        },
+        {
+          "seg": 111,
+          "t": [
+            2160.295,
+            2194.615
+          ],
+          "quote": "And then they come out with a new model, and that system prompt can shrink again because all of that long system prompt from the last model gets almost like RL'd into the new model. But that can create some weird janky stuff that happens, and we're seeing that. And I'm sure that Anthropic's next model is gonna be incredible, and we're gonna be right back at like, oh, wow. They were able to do it. But this is just for me, when it comes to harnesses, it is so fascinating to see how these I think some people call it the inner harness.",
+          "speaker": "Demetrios"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

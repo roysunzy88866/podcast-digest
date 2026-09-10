@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]]
+[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DoorDash":6,"Dot":1,"Waymo":13,"智能体商务":3,"智能体":1,"自主性":6,"分发":5,"harness":22,"开放权重模型":9}</script>
+<script type="application/json" class="pd-epn">{"DoorDash":6,"Dot":1,"Waymo":13,"智能体商务":3,"智能体":1,"自主性":6,"分发":5,"harness":23,"开放权重模型":9}</script>
 
 <script>
 (function(){

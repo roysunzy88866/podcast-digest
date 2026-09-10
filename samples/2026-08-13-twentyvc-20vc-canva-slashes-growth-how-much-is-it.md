@@ -147,8 +147,8 @@ Rory认为这是一个"之前"和"之后"之间出现裂缝的时期，能跳过
 **换个口味**
 
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同公司:Figma、Notion · 同概念:智能体 (agent)</span>
+- [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|评测优先:Braintrust 创始人谈 AI 产品开发的真正工程]]<span class="pd-rz">同公司:Datadog、ChatGPT、Figma · 同概念:智能体 (agent)、可观测性 (observability)</span>
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Notion、Anthropic、OpenAI · 同概念:智能体 (agent)</span>
-- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:ChatGPT、Google · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

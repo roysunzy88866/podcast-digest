@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]]
+[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"transformer":6,"Attention is All You Need":1,"LLM":28,"GPU":15,"OpenAI":99,"开源运动":1,"编码智能体":3,"分布式模型":1,"研究突破":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"transformer":6,"Attention is All You Need":1,"LLM":29,"GPU":15,"OpenAI":100,"开源运动":1,"编码智能体":3,"分布式模型":1,"研究突破":1}</script>
 
 <script>
 (function(){

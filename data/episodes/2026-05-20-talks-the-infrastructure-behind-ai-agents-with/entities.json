@@ -1,0 +1,789 @@
+{
+  "episode_id": "2026-05-20-talks-the-infrastructure-behind-ai-agents-with",
+  "podcast": "精选演讲",
+  "date": "2026-05-20",
+  "tags": [
+    "AI 基础设施",
+    "推理",
+    "开源模型",
+    "后训练",
+    "GPU 容量"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "julian",
+      "type": "person",
+      "role": "host",
+      "name": "Julian",
+      "file": "Julian",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            27.135,
+            29.377
+          ],
+          "quote": "Julian, thank you so much for joining us on Change Agents.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "base-10",
+      "type": "company",
+      "role": "company",
+      "name": "Base 10",
+      "file": "Base 10",
+      "primary": true,
+      "how_described": "本集说它是一家 AI 基础设施公司，专注为世界上增长最快的公司提供生产级推理，产品分共享 API、专用推理和训练/后训练三块。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            31.219,
+            34.923
+          ],
+          "quote": "To set context, why don't we start with what is Base 10?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            36.785,
+            42.691
+          ],
+          "quote": "Base 10 is an AI infrastructure company, and we focus on production-grade inference for the fastest-growing companies in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            438.35,
+            444.803
+          ],
+          "quote": "And I think infrastructure players like Base 10 have really helped make it viable to running and training your models yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            973.252,
+            984.517
+          ],
+          "quote": "Are there any changes that happened that you couldn't have predicted or didn't predict that affected Base 10 positively in the last couple of years?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1206.979,
+            1213.824
+          ],
+          "quote": "Again, like, base 10 today sits on, you know, I've lost track now, but like between 50 and 20 clouds and, you know, between 80 and 100 regions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1378.191,
+            1380.993
+          ],
+          "quote": "And so how does Base 10 stay competitive today?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1397.143,
+            1404.269
+          ],
+          "quote": "You know, we try to spend, you know, basically every engineer at Base 10 has probably spoken to a customer in the last couple weeks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集主线：推理正从「我需要跑这个模型」变成「一套运行这些智能体的工具」，推理栈上不断积累模型路由、沙箱等原语。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            36.785,
+            42.691
+          ],
+          "quote": "Base 10 is an AI infrastructure company, and we focus on production-grade inference for the fastest-growing companies in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            155.672,
+            162.195
+          ],
+          "quote": "You know, I feel like sometimes the misconception when we talk about inference is we think about these kind of shared endpoints, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            164.816,
+            170.598
+          ],
+          "quote": "But really what you've talked about is most of your customers are using dedicated inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            333.533,
+            343.236
+          ],
+          "quote": "And as I said earlier, we have a belief that there's going to be a lot more post-trained models, and we've built a product to kind of help people kind of bridge that gap between training and inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            450.06,
+            455.764
+          ],
+          "quote": "And I think historically we've thought about inference and post-training as these distinct capabilities.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            499.715,
+            506.942
+          ],
+          "quote": "To some extent, I think the future of the world is to start to think about kind of as much of like in context training and inference at the same time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            506.962,
+            516.311
+          ],
+          "quote": "And the way we think about that is like continual learning is that when there are lots of long horizon agentic tasks, there's a lot of inference work that needs to be done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            634.094,
+            651.861
+          ],
+          "quote": "And so given this is change agents and we like to talk about agents here, you know, if you are of the belief, which I think a lot of us are, that agentic work or longer horizon agents are going to make up a larger percentage of workloads, of AI workloads in the future, how does that change the inference stack and inference needs?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            692.653,
+            698.018
+          ],
+          "quote": "Inference goes from, I need to run this model to a set of tools to run these agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            698.738,
+            704.664
+          ],
+          "quote": "And that's kind of like where we think the inference stack is going over time where, you know, there is...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            706.102,
+            715.666
+          ],
+          "quote": "This core inference runtime that is very reliable and very performant and has a great developer experience, and that's what we have spent a bunch of time building alongside these great customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            716.086,
+            723.59
+          ],
+          "quote": "But over time, that will evolve to not only that inference type, but the set of primitives that need to exist on top of that to be able to use them in the authentic settings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            724.29,
+            734.818
+          ],
+          "quote": "And that's very much how we think about it, which is like inference turns from a narrow solution to a set of tools to solve a broader problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            734.958,
+            743.565
+          ],
+          "quote": "It feels like there's just this broader set of capabilities that are accumulating in the inference, what we're calling the inference stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            766.603,
+            777.012
+          ],
+          "quote": "But then you're also thinking about the customer that's just getting started, you know, maybe an enterprise customer that's just getting started on their inference, on their AI journey and just thinking about, you know, using open source models for the first time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1215.846,
+            1226.875
+          ],
+          "quote": "And, you know, our explicit strategy is that inference actually you want to be distributed for a number of reasons, both for reliability failover, but also so you can serve models closer to end customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1368.426,
+            1377.531
+          ],
+          "quote": "How do you get the most performant kernels, but then also how do you run this inference workload in the most cost-efficient and utilization maximizing way possible.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dedicated-inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "专用推理 (dedicated inference)",
+      "file": "专用推理",
+      "primary": true,
+      "how_described": "本集说大多数客户都以专用方式使用 Base 10，掌控模型如何运行、性能特性与可靠性 SLA——这是 Base 10 真正的立身之处。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            164.816,
+            170.598
+          ],
+          "quote": "But really what you've talked about is most of your customers are using dedicated inference.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说开源已经变好，最有力的证明是最挑剔、能力至上的客户都在用开源模型，因为没人愿意在能力上妥协。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            14.159,
+            21.203
+          ],
+          "quote": "And the testament to how good open source is going is how many people are using open source models because no one wants to make that trade-off.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            229.253,
+            235.641
+          ],
+          "quote": "You know, some combination of closed source models and open source models and custom models to power those workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            293.556,
+            302.64
+          ],
+          "quote": "So there's shared APIs, and so think about the best open source models that exist today, you can kind of come to us and use in a multi-tenancy way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            302.66,
+            309.843
+          ],
+          "quote": "You don't really have a ton of control around your SLAs, but what we try to provide is an easy on-ramp to using open source models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            766.603,
+            777.012
+          ],
+          "quote": "But then you're also thinking about the customer that's just getting started, you know, maybe an enterprise customer that's just getting started on their inference, on their AI journey and just thinking about, you know, using open source models for the first time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1027.798,
+            1035.965
+          ],
+          "quote": "And you also don't know, like, you know, we think, like, you know, in the future there's going to be a lot of open-source models and custom models, but there will also be some great close-source models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1077.651,
+            1084.737
+          ],
+          "quote": "And the testament to how good open source has gone is how many people are using open source models because no one wants to make that trade-off.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集说公司正用自己应用和工作流的数据后训练模型，让模型擅长那件具体的事——这是「从租用到拥有的智能」的核心；需求爆发因开源够好、公司到了规模、有了成功样板。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            117.604,
+            121.206
+          ],
+          "quote": "And to us, the idea of owned intelligence is that you are post-training your own models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            316.4,
+            329.552
+          ],
+          "quote": "And that is when you have a model and you have some sort of point of view on how that model runs on, you know, post-training that model on the performance characteristics or the reliability SLA that you want to deliver.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            343.296,
+            353.898
+          ],
+          "quote": "And we're doing that both with our training product, and then most recently with some work we're doing around post-training, we acquired a company in November could pass to basically bridge that gap.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            354.865,
+            360.446
+          ],
+          "quote": "And I feel like you've been on this post-training concept for a very long time, actually.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            369.588,
+            374.049
+          ],
+          "quote": "Like, why do you think the shift in demand on post-training and fine-tuning has happened now?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            402.601,
+            406.771
+          ],
+          "quote": "I think there's enough examples now of a post-training working.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            415.898,
+            429.121
+          ],
+          "quote": "But today, you know, there are enough examples with, you know, Cursor and Intercom and Decagon and all these companies that are, you know, saying, hey, we are post-training models in this way that they're like new blueprints today on how to do this work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            450.06,
+            455.764
+          ],
+          "quote": "And I think historically we've thought about inference and post-training as these distinct capabilities.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            591.759,
+            597.525
+          ],
+          "quote": "But also, you know, we're doing it hand-in-hand with a bunch of really great customers and helping them post-training models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            597.545,
+            604.052
+          ],
+          "quote": "So we're kind of almost designing training tools and doing post-training research in the context of customer value.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "continual-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续学习 (continual learning)",
+      "file": "持续学习",
+      "primary": true,
+      "how_described": "本集说持续训练如今已是工程问题（跑模型、收生产轨迹、拿人类反馈、重训、重部署），未来方向是上下文内训练和推理同时进行，让模型持续演化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            51.519,
+            61.549
+          ],
+          "quote": "And part of that is, you know, using the best-in-class continual learning research such that customers will post-trained models as they move from rented to owned intelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            506.962,
+            516.311
+          ],
+          "quote": "And the way we think about that is like continual learning is that when there are lots of long horizon agentic tasks, there's a lot of inference work that needs to be done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            524.435,
+            531.558
+          ],
+          "quote": "So when we think about continual learning, we are thinking about what are the sets of tools that need to exist over that period.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU 容量 (capacity)",
+      "file": "GPU 容量",
+      "primary": true,
+      "how_described": "本集说容量受限程度比外界想象的糟糕 10 倍，要数月规划、要够大规模才有资格拿，最大的公司还在吸走所有供应。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            910.181,
+            917.146
+          ],
+          "quote": "And I think, you know, it'd be, you know, one of the hardest things right now, for example, is we're doing capacity planning for like four, six months from now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            921.528,
+            925.989
+          ],
+          "quote": "Like, you don't know what's going to be new at the model layer or just from a capacity perspective?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1150.845,
+            1155.788
+          ],
+          "quote": "And then you've spoken a lot about the elephant in the room about capacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1156.668,
+            1159.23
+          ],
+          "quote": "How capacity-constrained is the market today?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1160.59,
+            1166.894
+          ],
+          "quote": "I think about all the rhetoric in the news on X about how capacity-constrained is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1173.227,
+            1181.449
+          ],
+          "quote": "You know, you have to do multi-month long or quarter long planning to get this capacity and also like you have to be at a sufficient scale to be able to get capacity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1182.209,
+            1186.43
+          ],
+          "quote": "Not only that, you know, there is a lot of demands for this capacity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1186.93,
+            1190.651
+          ],
+          "quote": "You know, the largest companies in the world are trying to make sure they're not capacity constrained.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1202.316,
+            1206.459
+          ],
+          "quote": "Like, we've designed for this world where that all your capacity doesn't need to be in one place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1298.703,
+            1307.149
+          ],
+          "quote": "And then the other thing that you didn't talk about is not only is it hard to get capacity, but the frontier hardware is continuously getting updated and changing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "distributed",
+      "type": "concept",
+      "role": "concept",
+      "name": "分布式推理 (distributed)",
+      "file": "分布式推理",
+      "primary": true,
+      "how_described": "本集说推理天然应该分布式，既为可靠性故障转移，也为更靠近终端客户服务；Base 10 跑在多家云、80 到 100 个区域上，靠拼接多集群抢下零散容量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 236,
+          "t": [
+            1215.846,
+            1226.875
+          ],
+          "quote": "And, you know, our explicit strategy is that inference actually you want to be distributed for a number of reasons, both for reliability failover, but also so you can serve models closer to end customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1236.941,
+            1243.946
+          ],
+          "quote": "And that, just to clarify, that distributed plane, that is a choice that you guys made early on in the construction of the software.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vpc",
+      "type": "concept",
+      "role": "concept",
+      "name": "VPC",
+      "file": "VPC",
+      "primary": false,
+      "how_described": "本集说企业要求一切部署在自己的 VPC 上，Base 10 由此把一切构建成可部署到不同 VPC，成为多集群能力的起源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 251,
+          "t": [
+            1274.936,
+            1282.181
+          ],
+          "quote": "But one way that we realized that they were going to consume machine learning and AI at the time was that everything needed to be deployed on their VPC.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理模型 (reasoning model)",
+      "file": "推理模型",
+      "primary": false,
+      "how_described": "本集把推理模型的进步举为例图：一个谁都无法预测、却给 Base 10 带来巨大上行惊喜的变化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            991.281,
+            993.363
+          ],
+          "quote": "I think reasoning model is a good example of this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集说 Cursor、Intercom、Decagon 等公司给出了后训练奏效的成功样板，成了可照抄的新蓝图。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            147.857,
+            154.415
+          ],
+          "quote": "Very recently with Abridged and Decagon and OpenAvidance and Cursor and Intercom persecuting their own lives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            415.898,
+            429.121
+          ],
+          "quote": "But today, you know, there are enough examples with, you know, Cursor and Intercom and Decagon and all these companies that are, you know, saying, hey, we are post-training models in this way that they're like new blueprints today on how to do this work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "decagon",
+      "type": "company",
+      "role": "company",
+      "name": "Decagon",
+      "file": "Decagon",
+      "primary": false,
+      "how_described": "本集把它列为已用后训练模型取得成效的公司样板之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            147.857,
+            154.415
+          ],
+          "quote": "Very recently with Abridged and Decagon and OpenAvidance and Cursor and Intercom persecuting their own lives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            415.898,
+            429.121
+          ],
+          "quote": "But today, you know, there are enough examples with, you know, Cursor and Intercom and Decagon and all these companies that are, you know, saying, hey, we are post-training models in this way that they're like new blueprints today on how to do this work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "intercom",
+      "type": "company",
+      "role": "company",
+      "name": "Intercom",
+      "file": "Intercom",
+      "primary": false,
+      "how_described": "本集把它列为以特定方式后训练模型的公司样板之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            147.857,
+            154.415
+          ],
+          "quote": "Very recently with Abridged and Decagon and OpenAvidance and Cursor and Intercom persecuting their own lives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            415.898,
+            429.121
+          ],
+          "quote": "But today, you know, there are enough examples with, you know, Cursor and Intercom and Decagon and all these companies that are, you know, saying, hey, we are post-training models in this way that they're like new blueprints today on how to do this work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "sandbox",
+      "reason": "专名「sandbox」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

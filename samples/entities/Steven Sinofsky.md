@@ -46,11 +46,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
+[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":111,"Theo Jaffe":6,"Martin Casado":4,"Sofia Puccini":4,"OpenAI":99,"监管俘获":3,"Google":38,"precautionary principle":1,"Microsoft":24,"开源":18}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":112,"Theo Jaffe":6,"Martin Casado":4,"Sofia Puccini":4,"OpenAI":100,"监管俘获":3,"Google":38,"precautionary principle":1,"Microsoft":24,"开源":18}</script>
 
 <script>
 (function(){

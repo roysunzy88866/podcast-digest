@@ -1,0 +1,27 @@
+{
+  "id": "2026-08-25-talks-canva-cofounder-and-coo-cliff-obrecht-in",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/4GmHpHyoKmo.m4a",
+  "duration_sec": 2453.436,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 506,
+  "asr": true,
+  "title_en": "Canva cofounder and COO Cliff Obrecht in conversation with John Collison",
+  "podcast": "精选演讲",
+  "date": "2026-08-25",
+  "added": "2026-09-10",
+  "added_at": "2026-09-10T11:31:49.008Z",
+  "speaker_map": {
+    "SPEAKER_01": "John Collison",
+    "SPEAKER_00": "Cliff Obrecht"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "John Collison",
+  "cohosts": [
+    "Cliff Obrecht"
+  ],
+  "title_zh": "Canva 联合创始人:AI 把设计成本从零变成美分之后",
+  "guest_name": "Cliff Obrecht",
+  "guest_title": "Canva 联合创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

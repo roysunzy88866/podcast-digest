@@ -1,0 +1,863 @@
+{
+  "episode_id": "2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar",
+  "podcast": "精选演讲",
+  "date": "2026-02-24",
+  "tags": [
+    "评测",
+    "AI 产品开发",
+    "创业与公司故事",
+    "客户至上",
+    "数据库基础设施"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "ankur-goyal",
+      "type": "person",
+      "role": "host",
+      "name": "Ankur Goyal",
+      "file": "Ankur Goyal",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "braintrust",
+      "type": "company",
+      "role": "company",
+      "name": "Braintrust",
+      "file": "Braintrust",
+      "primary": true,
+      "how_described": "本集主角：Ankur 创办的 AI 开发者平台，帮助开发者构建真正有效的 AI，以评测为核心，客户包括 Stripe、Instacart、Airtable 等高品味公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.471,
+            4.572
+          ],
+          "quote": "Today's conversation is with Ankur Guyal, the founder and CEO of Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 3,
+          "t": [
+            15.934,
+            20.075
+          ],
+          "quote": "Now with Braintrust, he's helping developers build AI that actually works.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            250.127,
+            252.108
+          ],
+          "quote": "And that's how BrainTrust really got started.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            279.308,
+            288.653
+          ],
+          "quote": "But one of the things that struck me in our first conversation about Braintrust was the way you framed evals to me as the core of what product development means in AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            426.568,
+            436.535
+          ],
+          "quote": "So I remember early in the Braintrust journey we were talking and you said something like, I'm paraphrasing, but you said like, I worked on Empyra for many years, but now I think I understand what product market fit means.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            437.715,
+            444.54
+          ],
+          "quote": "And one of the things that stands out to me about Braintrust is just the quality of customers that you're working with, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            476.752,
+            487.242
+          ],
+          "quote": "And I think what I felt early on at Braintrust, I certainly saw at Figma, is you were always successful despite all of these things not existing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            537.757,
+            547.121
+          ],
+          "quote": "You know, the Stripe folks were at our office yesterday and we had another really fun open brainstorm about the next 12 months of their roadmap and what they want BrainTrust to help them with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            557.567,
+            565.255
+          ],
+          "quote": "One of the things I've heard when I talk to different AI companies out there who have looked at different platforms and chosen BrainTrust and asked, like, why did you choose BrainTrust?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            750.952,
+            758.154
+          ],
+          "quote": "So for the first year of Braintrust, we used the sort of standard medley of open source database stuff that everyone does in the space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            855.466,
+            871.258
+          ],
+          "quote": "Often when people on the outside talk about Braintrust, I feel like the common analogy I hear is Braintrust is something like Datadog for AI workloads, which I think really understates and is too myopic of a view of the role Braintrust plays for AI developers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            907.202,
+            912.865
+          ],
+          "quote": "And you invest in Braintrust as a business to achieve in a different outcome, which is quality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            929.855,
+            938.921
+          ],
+          "quote": "So for example, one of the most powerful features of BrainTrust is the fact that you can take logs and connect them to data sets and those data sets you use for your evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            986.275,
+            992.057
+          ],
+          "quote": "And BrainTrust was really built around those kinds of use cases to begin with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            992.577,
+            1000.38
+          ],
+          "quote": "So I would just say, factually speaking, almost all of our customers are building agents on top of BrainTrust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1000.64,
+            1003.761
+          ],
+          "quote": "And many of our customers are building voice agents on top of BrainTrust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1148.311,
+            1161.709
+          ],
+          "quote": "And I think if you look at the roster of customers that Braintrust has helped with that problem, it becomes a pretty obvious choice that Braintrust is probably something that, you know, if you consider, will help you achieve that outcome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1166.836,
+            1174.703
+          ],
+          "quote": "within Braintrust to hire an incredible go-to-market team, make it super easy for anyone to sign up for the product, try it, have really good docs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1182.711,
+            1189.356
+          ],
+          "quote": "One of the things you were sharing with me a few weeks ago, but there was a customer where more non-engineers were using Braintrust than engineers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1202.125,
+            1205.327
+          ],
+          "quote": "Tell me more about that, like who's using Braintrust, who's not an engineer and why?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1301.99,
+            1307.991
+          ],
+          "quote": "It allows engineers, if they want, to write custom code that renders a custom UI within Braintrust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1316.393,
+            1318.794
+          ],
+          "quote": "So you shared a photo with me recently of the whole Braintrust team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1339.521,
+            1343.085
+          ],
+          "quote": "And I'd never tried that before, but I tried it at Braintrust",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1371.279,
+            1379.682
+          ],
+          "quote": "It feels like every other week I'm on a call with a sales rep from like a MongoDB or a Databricks who's coming over to Braintrust, which is awesome.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1493.67,
+            1496.532
+          ],
+          "quote": "And I really like to think of BrainTrust as like a community.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1514.881,
+            1517.442
+          ],
+          "quote": "AI is exploding, BrainTrust is exploding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1517.622,
+            1520.164
+          ],
+          "quote": "Help us dream about the next few years for BrainTrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1546.01,
+            1547.612
+          ],
+          "quote": "Braintrust is a really simple product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1548.032,
+            1556.841
+          ],
+          "quote": "If you build simple agents and you build simple software, then I think you have a higher chance of success, and Braintrust really embraces that philosophy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1634.924,
+            1638.045
+          ],
+          "quote": "Already shipped Loop, which is the agent that's built into Braintrust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1645.249,
+            1652.912
+          ],
+          "quote": "So I think this is going to be another really big trend for Braintrust, you know, really becoming ourselves an AI native experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1659.966,
+            1662.407
+          ],
+          "quote": "And I think we're just getting started at BrainTrust.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "本集核心主张：如果你在构建 AI 产品，除了评测之外做任何事都没有意义；评测是把出问题的案例捕获下来、让任何改动有据可查的「真正的工程」，且投入不会随换模型而蒸发",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            20.855,
+            23.916
+          ],
+          "quote": "In our discussion, we cover why evals are core to AI development,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            192.463,
+            194.887
+          ],
+          "quote": "And we had to build tools to help us do evals really well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            196.763,
+            202.764
+          ],
+          "quote": "And that's where I realized that if you're building an AI product, there's no point doing anything other than evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            203.124,
+            205.345
+          ],
+          "quote": "Everything should revolve around your evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            273.624,
+            278.708
+          ],
+          "quote": "And there were a number of companies that had gone started around different components of tooling, including evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            279.308,
+            288.653
+          ],
+          "quote": "But one of the things that struck me in our first conversation about Braintrust was the way you framed evals to me as the core of what product development means in AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            323.841,
+            333.329
+          ],
+          "quote": "And so that craft of actually deciding what you want the LLM to behave or how you want it to behave is really like the fundamental craft of building evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            333.829,
+            341.176
+          ],
+          "quote": "I think once you embrace evals, then you realize that what the LLM does is merely a function of the evals that you're producing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            360.946,
+            370.309
+          ],
+          "quote": "When you really embrace it, you realize that the work that you put into doing evals doesn't evaporate every time you try a new model or you change some wording or you change your use case a little bit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            929.855,
+            938.921
+          ],
+          "quote": "So for example, one of the most powerful features of BrainTrust is the fact that you can take logs and connect them to data sets and those data sets you use for your evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            939.762,
+            949.788
+          ],
+          "quote": "And when you run evals, the code and prompts and stuff that you use for your evals are closely connected to GitHub and your code base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            960.958,
+            971.527
+          ],
+          "quote": "So another kind of misnomer I hear in the background AI chatter is like, oh, well, there's going to be a new company for agent evals and there's going to be a new company for voice evals and these things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1012.229,
+            1018.957
+          ],
+          "quote": "But the deeper reason is that there are a lot of really hard infrastructure problems that go into supporting evals in the first place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1033.186,
+            1043.768
+          ],
+          "quote": "Another problem that we solve is running evals that might take a really, really long period of time, sometimes days, and accumulating the data in a way that's easy to visualize.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说没有人真正知道 LLM 是如何工作的，它们的行为不可预测，所以你能控制的只有期望它产出什么",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            313.111,
+            317.135
+          ],
+          "quote": "Well, you can control what you expect the LLM to produce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            317.395,
+            323.381
+          ],
+          "quote": "And you can use that information to help you build a product around an LLM that is more likely to produce the thing that you want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            323.841,
+            333.329
+          ],
+          "quote": "And so that craft of actually deciding what you want the LLM to behave or how you want it to behave is really like the fundamental craft of building evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            333.829,
+            341.176
+          ],
+          "quote": "I think once you embrace evals, then you realize that what the LLM does is merely a function of the evals that you're producing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            842.457,
+            852.044
+          ],
+          "quote": "And it's very, very purpose-built for dealing with weird LLM-shaped data, like lots and lots of text, insane JSON that you could never dream of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            891.752,
+            899.657
+          ],
+          "quote": "So if you think that brain trust is like Datadog, but like the UI is a little bit better for LLM stuff, I think that's not the right way to think about it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体就是一个带工具的 for 循环，Braintrust 几乎所有客户都在上面构建智能体，智能体只会产生更多数据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            960.958,
+            971.527
+          ],
+          "quote": "So another kind of misnomer I hear in the background AI chatter is like, oh, well, there's going to be a new company for agent evals and there's going to be a new company for voice evals and these things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1634.924,
+            1638.045
+          ],
+          "quote": "Already shipped Loop, which is the agent that's built into Braintrust.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompt)",
+      "file": "提示词",
+      "primary": true,
+      "how_described": "本集说提示词越来越大、越来越多，医生非常擅长为提示词做贡献让模型在微妙病例上保持正轨，自动提示词改进也已落地",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            341.196,
+            348.742
+          ],
+          "quote": "And if it doesn't behave well, instead of thinking about, okay, let me tweak this wording in the prompt to say I'm going to lose my job or whatever it is,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1618.997,
+            1632.943
+          ],
+          "quote": "So we've seen incredible results with automatic prompt improvement, automatic dataset generation, digging through logs to find interesting cases, understanding what's not working by analyzing data for multiple experiments.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "brainstore",
+      "type": "company",
+      "role": "company",
+      "name": "Brainstore",
+      "file": "Brainstore",
+      "primary": true,
+      "how_described": "本集说它是 Braintrust 自建的第三个数据库系统，在客户日志系统被指数级增长压垮后才动手，专门为处理海量文本和疯狂 JSON 的 LLM 形态数据而构建",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            726.192,
+            731.698
+          ],
+          "quote": "And I'm thinking about what you guys have built with BrainStore and what it enables in terms of user experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            741.03,
+            750.752
+          ],
+          "quote": "But one of the things that sets Brainstore apart that I think is quite cool is that we knew exactly what the problems were that we needed to solve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            804.186,
+            810.79
+          ],
+          "quote": "And I kept having to hold myself back from building a system like Brainstore because I really wanted to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            852.704,
+            854.426
+          ],
+          "quote": "It just works really well in Brainstore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1424.991,
+            1430.918
+          ],
+          "quote": "And kind of like Brainstore, by that point, we had a very clear spec of who our buyer was.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "datadog",
+      "type": "company",
+      "role": "company",
+      "name": "Datadog",
+      "file": "Datadog",
+      "primary": true,
+      "how_described": "本集用它讨论「AI 版 Datadog」类比的错处：投资 Datadog 是为了达成正常运行时间，而投资 Braintrust 是为了达成质量，本质是不同的目标",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            855.466,
+            871.258
+          ],
+          "quote": "Often when people on the outside talk about Braintrust, I feel like the common analogy I hear is Braintrust is something like Datadog for AI workloads, which I think really understates and is too myopic of a view of the role Braintrust plays for AI developers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            891.752,
+            899.657
+          ],
+          "quote": "So if you think that brain trust is like Datadog, but like the UI is a little bit better for LLM stuff, I think that's not the right way to think about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            900.938,
+            906.161
+          ],
+          "quote": "You invest in Datadog as a business to achieve a particular outcome, which is uptime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            913.505,
+            924.252
+          ],
+          "quote": "And I think that there's a lot of shared wisdom and insight that we draw inspiration from Datadog for to deliver the quality goal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            949.989,
+            951.249
+          ],
+          "quote": "We admire Datadog a lot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说把 Braintrust 和 Datadog 都当成可观测性产品是短视的看法——两者目标本质不同",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            884.527,
+            891.732
+          ],
+          "quote": "So the myopic version of this analogy is thinking about both products as observability products.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": false,
+      "how_described": "本集说 Ankur 上一家公司被 Figma 收购后他在那里领导 AI 团队，并反复以 Figma 早期非设计师用户超过设计师的经历作类比",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            10.433,
+            15.214
+          ],
+          "quote": "He previously founded Empira, which was acquired by Figma, where he went on to lead the AI team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            167.261,
+            169.983
+          ],
+          "quote": "And then Figma acquired us, and I led the AI team there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            208.646,
+            210.426
+          ],
+          "quote": "At Figma, we had exactly the same problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            476.752,
+            487.242
+          ],
+          "quote": "And I think what I felt early on at Braintrust, I certainly saw at Figma, is you were always successful despite all of these things not existing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1189.416,
+            1200.063
+          ],
+          "quote": "And like, I had this flashback to the early Figma days when sort of Figma tipped and in many accounts, more non-designers started using the product than designers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1283.3,
+            1286.222
+          ],
+          "quote": "And I think Figma's, you know, obviously a great example of that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "impira",
+      "type": "company",
+      "role": "company",
+      "name": "Impira",
+      "file": "Impira",
+      "primary": false,
+      "how_described": "本集说这是 Ankur 在 ChatGPT 出现前创办的公司，做文档提取，被 Figma 收购；他在这里第一次意识到评测的重要性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            39.632,
+            62.037
+          ],
+          "quote": "I'll tell you my recollection of it, which is I was, I think, a month or two into venture capital, and I walk into this conference room in our old San Francisco office, and, you know, I was meeting with you, and you were like, guys, I just got off of an international flight, like I think it was a red eye or something, and I spent the whole flight building this product I'm about to show you, which is the kernel of my company, Impira.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            574.773,
+            582.496
+          ],
+          "quote": "One of the mistakes I made at Impira is that I did not create enough time for myself to think about product problems deeply.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集把它作为标杆 AI 产品：用过 ChatGPT、Cursor 的人开始对所有产品都有同样的期待",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.132,
+            9.893
+          ],
+          "quote": "Ankur is a repeat founder who started working in AI long before the debut of ChatGPT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            170.564,
+            176.127
+          ],
+          "quote": "And at Empyra, we were doing AI stuff in the prehistoric, pre-ChatGPT era.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1091.907,
+            1101.533
+          ],
+          "quote": "Those of us who use great AI products like ChatGPT, Cursor, et cetera, I think we start to expect that kind of experience from all the products that we use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

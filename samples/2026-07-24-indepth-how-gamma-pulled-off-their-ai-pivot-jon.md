@@ -182,8 +182,8 @@ Gamma 很早就押注做[[横向产品|横向产品]]而非聚焦特定人群的
 **顺着「产品方法」挖下去**
 
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM、评测 (evals)、护栏 (guardrails)</span>
+- [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|评测优先:Braintrust 创始人谈 AI 产品开发的真正工程]]<span class="pd-rz">同概念:LLM、评测 (evals)</span>
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|AI 产品不能照搬软件老办法：从高控制低自主开始]]<span class="pd-rz">同公司:Salesforce · 同概念:评测 (evals)、护栏 (guardrails)</span>
-- [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|一个PM用Claude CoWork建的自愈型工作系统]]<span class="pd-rz">同公司:Notion、Optimizely、Slack</span>
 
 </div>
 <div class="pd-ex">

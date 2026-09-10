@@ -25,7 +25,7 @@ unlisted: true
 
 [[Yash]] · [[Builder Pack]] · [[All Access]] · [[智能体]] · [[MCP]] · [[Codex]] · [[Claude]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Yash":1,"Builder Pack":1,"All Access":1,"智能体":1,"MCP":28,"Codex":42,"Claude":50,"Anthropic":111,"OpenAI":99,"Cursor":51}</script>
+<script type="application/json" class="pd-epn">{"Yash":1,"Builder Pack":1,"All Access":1,"智能体":1,"MCP":29,"Codex":42,"Claude":50,"Anthropic":112,"OpenAI":100,"Cursor":52}</script>
 
 <script>
 (function(){

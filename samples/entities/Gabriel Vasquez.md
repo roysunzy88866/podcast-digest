@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
+[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":3,"Angela Strange":1,"a16z":11,"Adi":1,"Eleven Labs":5,"Cognition":15,"Vercel":13,"Brex":4,"OpenAI":99,"DoorDash":6}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":3,"Angela Strange":1,"a16z":11,"Adi":1,"Eleven Labs":5,"Cognition":15,"Vercel":13,"Brex":4,"OpenAI":100,"DoorDash":6}</script>
 
 <script>
 (function(){

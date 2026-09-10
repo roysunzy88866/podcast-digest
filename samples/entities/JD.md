@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
+[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Julie Yoo]] [[Anish Acharya]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Town":3,"Plaid":2,"AI 助手":1,"智能体":1,"网络效应":5,"护城河":9,"模型路由":4,"前沿模型":8,"Anthropic":111}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Town":3,"Plaid":2,"AI 助手":1,"智能体":1,"网络效应":5,"护城河":9,"模型路由":4,"前沿模型":8,"Anthropic":112}</script>
 
 <script>
 (function(){

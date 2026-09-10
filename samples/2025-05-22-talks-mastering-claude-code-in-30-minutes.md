@@ -151,7 +151,7 @@ Boris 说自己是普通用户，一次跑一个 Claude。但他看到的高级�
 
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同公司:Anthropic、Claude Code · 同概念:智能体 (agentic)、MCP</span>
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM、MCP</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、Claude Code</span>
+- [[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|当智能体学会替你操作电脑：聊天即新浏览器]]<span class="pd-rz">同公司:Claude Code、Anthropic · 同概念:MCP</span>
 
 </div>
 </div>

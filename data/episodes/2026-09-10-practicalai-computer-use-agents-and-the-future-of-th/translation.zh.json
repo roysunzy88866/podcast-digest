@@ -1,0 +1,1418 @@
+[
+ {
+  "seg": 0,
+  "start": 1.76,
+  "end": 35.77,
+  "speaker": "Narrator",
+  "en": "Welcome to the Practical AI Podcast, where we break down the real world applications of artificial intelligence and how it's shaping the way we live, work, and create. Our goal is to help make AI technology practical, productive, and accessible to everyone. Whether you're a developer, business leader, or just curious about the tech behind the buzz, you're in the right place. Be sure to connect with us on LinkedIn, X, or Blue Sky to stay up to date with episode drops, behind the scenes content, and AI insights. You can learn more at practicalai.fm.",
+  "zh": "欢迎收听 Practical AI 播客，在这里我们剖析人工智能的真实世界应用，以及它如何塑造我们的生活、工作和创造方式。我们的目标是帮助让 AI 技术对每个人来说都实用、高效且易于获取。无论你是开发者、企业领导者，还是只是对热门话题背后的技术感到好奇，你都是来对了地方。请务必在 LinkedIn、X 或 Blue Sky 上与我们联系，以及时获取节目更新、幕后内容和 AI 洞见。你可以在 practicalai.fm 了解更多。"
+ },
+ {
+  "seg": 1,
+  "start": 35.77,
+  "end": 37.45,
+  "speaker": "Narrator",
+  "en": "Now onto the show.",
+  "zh": "现在开始本期节目。"
+ },
+ {
+  "seg": 2,
+  "start": 41.29,
+  "end": 63.46,
+  "speaker": "Chris Benson",
+  "en": "Hey. Welcome to another episode of the Practical AI Podcast. I am Chris Benson, your cohost. Daniel is out today, and he's really gonna miss this one because we have an old friend of the podcast who has been on multiple times, Demetrios Brinkmann, who is okay. Let's get the title right here, Demetrios.",
+  "zh": "嘿，欢迎收听 Practical AI 播客的另一期节目。我是 Chris Benson，你的联合主持人。Daniel 今天不在，他真的会错过这一期，因为我们迎来了播客的一位老朋友，他已多次做客，Demetrios Brinkmann，他是——好，让我们把头衔念对，Demetrios。"
+ },
+ {
+  "seg": 3,
+  "start": 64.02,
+  "end": 83.1,
+  "speaker": "Chris Benson",
+  "en": "Head of development experience and a member of the nontechnical staff at the Agentic AI Foundation. And he's also, by the way, as most folks who have seen shows with us before, he's the founder of the MLOps community. Oh my god. That's the longest title, Demetrios, I think I've had to do on the show.",
+  "zh": "Agentic AI 基金会的开发者体验负责人以及非技术职员成员。顺便说一下，正如大多数看过我们之前节目的朋友所知，他还是 MLOps 社区的创始人。天哪，Demetrios，我想这是我在节目里念过的最长的头衔了。"
+ },
+ {
+  "seg": 4,
+  "start": 83.1,
+  "end": 84.3,
+  "speaker": "Demetrios Brinkmann",
+  "en": "I made it hard on you.",
+  "zh": "我把它弄难了。"
+ },
+ {
+  "seg": 5,
+  "start": 84.3,
+  "end": 124.295,
+  "speaker": "Chris Benson",
+  "en": "You made it real I'll tell you what, I just read a paragraph. So great to have you back. I've lost count of how many times we've done this together. For those who are joining us that are not familiar with you, in addition to all these hats that you wear, amazing thought leader in the world of AI, I know we're gonna have some really good stuff to talk about today, and I know that the viewers and the listeners will enjoy this as much as I do. And before we start, I have to say, so after the last time we talked, you had sent me It's a super cool t shirt.",
+  "zh": "你把它弄得真难，我告诉你，我刚刚读了一整段。很高兴你回来了。我都数不清我们一起做过多少次了。对于不熟悉你的新听众，除了你戴着的这些帽子之外，你还是 AI 领域了不起的思想领袖。我知道我们今天会有一些非常棒的内容可聊，我知道观众和听众会像我一样享受这期节目。在开始之前，我必须说，上次我们聊完之后，你寄给了我——一件超酷的 T 恤。"
+ },
+ {
+  "seg": 6,
+  "start": 124.295,
+  "end": 138.34,
+  "speaker": "Chris Benson",
+  "en": "It's one of my favorite bum around the house t shirts. I'm wearing it right now. For those who are watching us on YouTube, it says, I hallucinate more than chat GPT. So my wife is completely sick of seeing me wear it. It's faded red now.",
+  "zh": "它是我最喜欢的在家闲逛穿的 T 恤之一。我现在就穿着它。对于在 YouTube 上看我们的朋友，上面写着：我比 ChatGPT 更会幻觉。所以我妻子已经完全看腻了我穿它。它现在是褪色的红色了。"
+ },
+ {
+  "seg": 7,
+  "start": 138.98,
+  "end": 145.62,
+  "speaker": "Chris Benson",
+  "en": "I'm sorry, man. Looked good when you gave it to me, but it doesn't look good anymore because it's all faded out. But that's because it's a fun t shirt to wear.",
+  "zh": "对不起，哥们。你给我的时候它还挺好看的，但现在不好看了，因为它全褪色了。但那是因为它是一件穿着很有趣的 T 恤。"
+ },
+ {
+  "seg": 8,
+  "start": 145.62,
+  "end": 149.62,
+  "speaker": "Demetrios Brinkmann",
+  "en": "I'm send you the next one. Anytime I wear it",
+  "zh": "我会给你寄下一件。每次我穿着它"
+ },
+ {
+  "seg": 9,
+  "start": 149.62,
+  "end": 164.91501,
+  "speaker": "Chris Benson",
+  "en": "out, have to tell people. Everyone asks me about the hallucination thing. Then I have to also say, and just because there are people at my real job, I'm not hallucinating. Just so you know, there's no drug test required or anything. No hallucinating here whatsoever.",
+  "zh": "出门，都得跟人解释。每个人都问我那个幻觉的事。然后我还得说，就因为我真实工作里有同事在，我没有在产生幻觉。只是让你知道，不需要做药物检测什么的。这里绝对没有任何幻觉。"
+ },
+ {
+  "seg": 10,
+  "start": 165.83,
+  "end": 182.635,
+  "speaker": "Chris Benson",
+  "en": "So with all the fun start, this is probably not the show most viewers were expecting that we'd start with, but we always have fun. How are you doing? Things have really changed since the last time we talked for you. Tell us where you're at, what you're doing, what's going on with it at this point.",
+  "zh": "好了，玩笑开完了。这大概不是大多数观众预期我们开场的方式，但我们总是玩得很开心。你最近怎么样？自从上次我们聊过之后，你的情况真的变了不少。告诉我们你现在在哪里、在做什么、目前进展如何。"
+ },
+ {
+  "seg": 11,
+  "start": 182.635,
+  "end": 200.18001,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Well, first of all, let me just say that the last time we chatted, we came up with some bangers that people are still hitting me up for, like Broccoli AI. Don't know if I you remember do. Going I do. Gartner hype cycle. And we created our own Gartner hype cycle.",
+  "zh": "嗯，首先，让我说上次我们聊天的时候，我们想出了一些「爆款」，至今还有人因此联系我，比如 Broccoli AI。不知道你还记不记得。记得。"
+ },
+ {
+  "seg": 12,
+  "start": 200.18001,
+  "end": 216.675,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And one of the things that was on there was Broccoli AI. It was almost peak hype. So Yeah. And for those who didn't hear that episode, is that AI that you probably don't like because it tastes bad, but you need it because it's good for your organization.",
+  "zh": "Gartner 炒作周期。我们还创建了自己的 Gartner 炒作周期。其中在列表上的一样东西就是 Broccoli AI。它几乎处于炒作顶峰。所以，是的。对于那些没听过那期节目的人：那是一种你可能不喜欢的 AI，因为它味道不好，但你又需要它，因为它对你的组织有好处。"
+ },
+ {
+  "seg": 13,
+  "start": 216.675,
+  "end": 238.85,
+  "speaker": "Chris Benson",
+  "en": "That's right. That was something, and Daniel is not here today, but he was also all about that. There are things in our world, the hype tends to take over, but there are things in our AI world that you just gotta do to do this stuff well, and some of it's not the coolest and most fun thing, and we were talking about that, that Broccoli AI was born.",
+  "zh": "没错。那确实是一件事，虽然 Daniel 今天不在，但他当时也非常认同。在我们的世界里，炒作往往占据上风，但在我们的 AI 世界里，有些事情你就是必须去做才能把事情做好，其中一些并不是最酷、最好玩的事情，我们当时就是在聊这个，Broccoli AI 就这么诞生了。"
+ },
+ {
+  "seg": 14,
+  "start": 239.57,
+  "end": 239.81,
+  "speaker": "Demetrios Brinkmann",
+  "en": "So there",
+  "zh": "所以就是"
+ },
+ {
+  "seg": 15,
+  "start": 239.81,
+  "end": 240.05,
+  "speaker": "Chris Benson",
+  "en": "you go.",
+  "zh": "这样。"
+ },
+ {
+  "seg": 16,
+  "start": 240.185,
+  "end": 249.145,
+  "speaker": "Demetrios Brinkmann",
+  "en": "The next thing I wanna say is I'm gonna get you the new shirt that says member of the nontechnical staff. Excellent. You can join me in my ranks.",
+  "zh": "接下来我想说的是，我会给你寄一件新 T 恤，上面写着「非技术职员成员」。太好了。你可以加入我的行列。"
+ },
+ {
+  "seg": 17,
+  "start": 249.305,
+  "end": 254.105,
+  "speaker": "Chris Benson",
+  "en": "Excellent. I gotta get my ego stroked right there. You know? That's good. I appreciate that.",
+  "zh": "太好了。我正需要被人吹捧一下呢。你知道的，这很好。我很感激。"
+ },
+ {
+  "seg": 18,
+  "start": 254.27,
+  "end": 265.79,
+  "speaker": "Demetrios Brinkmann",
+  "en": "I just find it hilarious that everyone at Anthropic or OpenAI, they're members of the technical staff. And so I had to go against the grain and be a member of the nontechnical staff.",
+  "zh": "我只是觉得很好笑，Anthropic 或 OpenAI 的每个人都是技术职员成员，所以我必须反其道而行，成为非技术职员成员。"
+ },
+ {
+  "seg": 19,
+  "start": 265.79,
+  "end": 266.35,
+  "speaker": "Chris Benson",
+  "en": "That's where",
+  "zh": "就是这么来的。"
+ },
+ {
+  "seg": 20,
+  "start": 266.35,
+  "end": 267.15002,
+  "speaker": "Demetrios Brinkmann",
+  "en": "that came from.",
+  "zh": "那个就是这么来的。"
+ },
+ {
+  "seg": 21,
+  "start": 267.39,
+  "end": 275.995,
+  "speaker": "Chris Benson",
+  "en": "That's a pretty good point. Yeah. I mean, tell tell me about MLOps community and and the Agentic AI Foundation and what what happened here.",
+  "zh": "这是个很好的观点。是的，跟我讲讲 MLOps 社区和 Agentic AI 基金会吧，这里发生了什么？"
+ },
+ {
+  "seg": 22,
+  "start": 275.995,
+  "end": 310.795,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Well, so I'm super excited because in the beginning of the year or just at the end of last year, MCP got donated to the Linux Foundation. They created the Agentic AI Foundation around it. And out of that, there's just been, like, huge interest from all the top players because now MCP went from being something that was owned by Anthropic Yep. To being this neutral governing body that is steering it. And so I was sitting there, and I was like, man, that is an awesome opportunity.",
+  "zh": "嗯，我超级兴奋，因为在今年年初，或者说就在去年年底，MCP 被捐赠给了 Linux 基金会。他们围绕它创建了 Agentic AI 基金会。从那以后，所有顶级玩家都表现出了巨大的兴趣，因为现在 MCP 从一个由 Anthropic 拥有的东西，变成了这个中立的管理机构在引导它。所以我当时坐在那里想，老兄，这真是一个绝佳的机会。"
+ },
+ {
+  "seg": 23,
+  "start": 310.795,
+  "end": 332.785,
+  "speaker": "Demetrios Brinkmann",
+  "en": "We've been doing so much already in the MLOps community around Agents. You know? The MLOps community started as putting machine learning into production. Then when LLMs came out and they were all the rage, we kind of started incorporating more of the putting LLMs into production. And then Agents became a real thing, and they became something that we were using every day.",
+  "zh": "我们在 MLOps 社区已经在智能体方面做了很多工作。你知道的，MLOps 社区最初是把机器学习投入生产。然后当 LLM 出现并风靡一时，我们开始纳入更多把 LLM 投入生产的内容。接着智能体成了真实的东西，成了我们每天都在使用的东西。"
+ },
+ {
+  "seg": 24,
+  "start": 332.785,
+  "end": 366.41498,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And then it was like, okay. Well, what about putting agents into production? And so it just kinda made sense when we were looking at, hey. Is there a home for the ML Ops community to do more and have more resources around it and take the same types of stuff that we're doing and the same reasons that people enjoy being in, like, this very deep technical community and then just, like, do more and better. And so that was the pitch.",
+  "zh": "然后就是，好，那把智能体投入生产呢？所以当我们在看「嘿，MLOps 社区有没有一个地方可以做更多、拥有更多资源，并把我们在做的同类事情、以及人们喜欢待在这个非常深入的技术社区里的同样理由，拿过来做得更多、更好」的时候，这就顺理成章了。这就是那次提议。"
+ },
+ {
+  "seg": 25,
+  "start": 366.735,
+  "end": 388.475,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And, luckily, the folks at the Agentic AI Foundation were on board, and so we we kinda merged. We're now going to be doing a bit of a rebrand. The ML Ops community is becoming the Agentic AI community or the Agentic AI Foundation community. And we're just doing more of the same. Like, we're doing a whole lot of conferences.",
+  "zh": "幸运的是，Agentic AI 基金会的人同意了，所以我们合并了。我们现在要做一点品牌重塑。MLOps 社区正在变成 Agentic AI 社区，或者叫 Agentic AI 基金会社区。而我们只是在做更多同样的事。比如，我们在办一大堆会议。"
+ },
+ {
+  "seg": 26,
+  "start": 388.475,
+  "end": 437.37,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Next week, I'm going to Japan for MCP Dev Summit, and then I'm right back in Amsterdam for Agent Con. Agent Con is, like, our big flagship event in Europe, and that is September 17. And then we have another Agent Con in North America in San Jose on October 22, and you'll like this. One thing I'm doing for Agent Con that is very much in the spirit of what we did in the MO ops days is I got a thirty six hour livestream put together. So we have the live event, and what I, you know, I love watching Coachella or, like, these very highly produced events that are both they're taking the virtual aspect into consideration.",
+  "zh": "下周我要去日本参加 MCP Dev Summit，然后马上回到阿姆斯特丹参加 Agent Con。Agent Con 是我们在欧洲的大型旗舰活动，时间是 9 月 17 日。然后我们 10 月 22 日在圣何塞还有一场北美的 Agent Con，你会喜欢这个的。我为 Agent Con 做的一件事非常符合我们在 MLOps 时代的精神，就是我安排了一个 36 小时的直播。所以我们有线下活动，而你知道，我喜欢看 Coachella 或者这些制作非常精良的活动，它们同时把虚拟端也考虑进去了。"
+ },
+ {
+  "seg": 27,
+  "start": 437.45,
+  "end": 468.545,
+  "speaker": "Demetrios Brinkmann",
+  "en": "It's not just like a in person and you fully optimize for in person, but then the virtual aspect isn't really there. So what I decided to do is how can we make the agent con in Amsterdam absolutely, like, optimized for in person, but not forgetting about the virtual aspect? And that's why we decided to do, you know, thirty six hours livestreaming the whole thing. I'm gonna be hosting it, so we'll be popping in and out. It's gonna be, like, ESPN style, play by play of the talks.",
+  "zh": "不只是线下活动并且完全为线下优化，然后虚拟端就没什么存在感了。所以我决定做的是：我们怎么能让阿姆斯特丹的 Agent Con 绝对为线下优化，同时不忘记虚拟端？这就是为什么我们决定，你知道的，36 小时全程直播。我会主持，所以我们会不断进出。它会像 ESPN 风格那样，对演讲进行实况解说。"
+ },
+ {
+  "seg": 28,
+  "start": 468.545,
+  "end": 484.32,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Oh, what does that mean? What do we think? I'm gonna be grabbing people from the crowd, walking around the Expo Hall. All that is to say, it's the first time I'm going fully all in on it, so there's gonna be a few problems, things will break, but that's where I'm at right now.",
+  "zh": "哦，那是什么意思？我们怎么想？我会从人群中拉人，在展馆里走来走去。说这么多，这是我第一次完全全力以赴投入其中，所以会有一些问题，东西会出故障，但我现在就是这个状态。"
+ },
+ {
+  "seg": 29,
+  "start": 484.32,
+  "end": 495.615,
+  "speaker": "Chris Benson",
+  "en": "It sounds like a lot of fun. So I just you're not gonna stay up for thirty six hours there, right? Mean, I would Please not tell me you're be not able gonna do that to yourself. I was gonna say, you'd just be",
+  "zh": "听起来很有趣。所以我只是……你不会在那儿 36 小时不睡觉吧？我是说，我会求求你别说你要这样对自己。我本来想说，你只会变得"
+ },
+ {
+  "seg": 30,
+  "start": 495.615,
+  "end": 497.535,
+  "speaker": "Demetrios Brinkmann",
+  "en": "babbling, You'd bring you tricks in there.",
+  "zh": "语无伦次。你会往里带点招数进去吧。"
+ },
+ {
+  "seg": 31,
+  "start": 497.775,
+  "end": 500.335,
+  "speaker": "Chris Benson",
+  "en": "Okay, okay, okay, I gotcha.",
+  "zh": "好好好，明白了。"
+ },
+ {
+  "seg": 32,
+  "start": 500.87,
+  "end": 512.63,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Yeah. Because there's gonna be breakout sessions. Right? There's really three or four tracks going on at once. And so we'll be live streaming the main track during the day when it's actually happening live.",
+  "zh": "是的，因为会有分组会议，对吧？实际上同时有三四个轨道在进行。所以我们会在白天主轨道真实进行时直播主轨道。"
+ },
+ {
+  "seg": 33,
+  "start": 512.79004,
+  "end": 538.47,
+  "speaker": "Demetrios Brinkmann",
+  "en": "But then we're recording all of the breakout tracks, and then we're going to put those back to back on top of it. But there's some other cool things that I don't wanna fully give away yet, but I'm be recording some stuff that we can splice in in between different talks. And we're we've also got some of the sponsors to, like, give us some cool material that we can also splice in. So it's gonna be an event. That's for sure.",
+  "zh": "但我们会录下所有分组轨道，然后把它们一个接一个地接在直播上面。还有一些其他很酷的东西我还不想完全剧透，但我会录一些可以在不同演讲之间拼接进去的内容。我们还让一些赞助商给了我们一些很酷的素材，也可以拼接进去。所以它肯定会是一场盛事，这是肯定的。"
+ },
+ {
+  "seg": 34,
+  "start": 538.55,
+  "end": 545.375,
+  "speaker": "Demetrios Brinkmann",
+  "en": "It may totally fall flat on its face, but I'm gonna go down with the ship if it does.",
+  "zh": "它可能会彻底失败，但如果真失败了，我会和船一起沉下去。"
+ },
+ {
+  "seg": 35,
+  "start": 545.615,
+  "end": 563.47,
+  "speaker": "Chris Benson",
+  "en": "Okay. Fair enough. I'm just glad you have something there to mix in with it so that I'm imagining interviewing you right after a thirty six hour marathon, and you're just laying your head on the desk, unable to function. So it's good. I'm glad we got the stuff in there, get a little sleep in the process.",
+  "zh": "好吧，行吧。我只是很高兴你有东西可以穿插进去，因为我在想象 36 小时马拉松之后紧接着采访你，你就趴在桌子上，无法正常运转。所以很好，我很高兴我们安排了那些内容，可以在这个过程中睡一会儿。"
+ },
+ {
+  "seg": 36,
+  "start": 563.79,
+  "end": 566.91,
+  "speaker": "Chris Benson",
+  "en": "Looking forward to watching the live feed myself as we get there.",
+  "zh": "我自己也期待着到时候观看直播。"
+ },
+ {
+  "seg": 37,
+  "start": 568.765,
+  "end": 582.99005,
+  "speaker": "Sponsor",
+  "en": "Listen. I've been to an incredible amount of AI events, many of which are good, but many of which are not practical. You know I love practicality. We're on Practical AI. And some are just hype focused.",
+  "zh": "听着，我参加过非常多的 AI 活动，其中很多不错，但很多并不实用。你知道我有多爱实用性。我们在做 Practical AI。还有一些只是专注于炒作。"
+ },
+ {
+  "seg": 38,
+  "start": 582.99005,
+  "end": 634.38,
+  "speaker": "Sponsor",
+  "en": "Some are sales focused. That's why I'm always eager to share about an event that I truly think is practical and useful for people. That's what I discovered last year at the Midwest AI Summit, and they're gonna have another Midwest AI Summit October 15 in Indianapolis this year, 2026. One of the reasons why I love this event was there was an AI engineering lounge where you could sit down and talk through your use cases with actual experienced AI engineers and practitioners to really brainstorm and come back from the event with actual solutions and practicality rather than just a bunch of content and slides. But there were also amazing keynote speakers, speakers from, even that had been on the podcast before, like Rajeev Shah, was at last year's event.",
+  "zh": "有些是专注于销售的。这就是为什么我总是乐于分享一个我真心认为对人们实用且有用的活动。这就是我去年在 Midwest AI Summit 上的发现，今年 2026 年 10 月 15 日他们将在印第安纳波利斯举办另一届 Midwest AI Summit。我爱这个活动的原因之一是那里有一个 AI 工程休息室，你可以坐下来与真正有经验的 AI 工程师和从业者讨论你的用例，真正地进行头脑风暴，从活动中带着真正的解决方案和实用性回来，而不只是一堆内容和幻灯片。那里还有很棒的主题演讲者，有来自——甚至上过这个播客的演讲者，比如 Rajeev Shah，参加了去年的活动。"
+ },
+ {
+  "seg": 39,
+  "start": 634.46,
+  "end": 656.425,
+  "speaker": "Sponsor",
+  "en": "I would really recommend that you go to midwestaisummit.com. And, for our listeners, you can actually get 20% off with the code Practical AI 20. So go to Midwest AI Summit dot com. Don't miss your chance to attend this event and get 20% off with the code Practical AI 20.",
+  "zh": "我真心推荐你去 midwestaisummit.com。而且对我们的听众，你们可以用代码 Practical AI 20 获得 20% 的折扣。所以去 Midwest AI Summit dot com。不要错过参加这个活动的机会，用代码 Practical AI 20 获得 20% 的折扣。"
+ },
+ {
+  "seg": 40,
+  "start": 661.52,
+  "end": 675.46497,
+  "speaker": "Chris Benson",
+  "en": "Okay, so lot of cool events that you're working on, and it sounds like a lot of fun. Looking forward to seeing how all that goes, but you're not just doing events, I know that, so what else you got going on there?",
+  "zh": "好的，你在筹备很多很酷的活动，听起来很有趣。期待看到这一切的进展，但我知道你不只是在做活动，那你还有什么在进行中？"
+ },
+ {
+  "seg": 41,
+  "start": 675.46497,
+  "end": 696.68,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Well, yeah, I think that's been some of the biggest surprises for me is how the community has rallied, and there's so much interest, not only from the member companies of the Agentic AI Foundation. Now there's over 250, which is wild to think about how many companies. Yeah. They wanna be members, and they wanna be a part of this movement. Right?",
+  "zh": "嗯，是的，我觉得这对我来说是最大的惊喜之一，就是社区如何团结起来，兴趣如此之大，不仅来自 Agentic AI 基金会的成员公司。现在有超过 250 家了，想想有多少公司简直疯狂。是的。他们想成为成员，想成为这场运动的一部分。对吧？"
+ },
+ {
+  "seg": 42,
+  "start": 696.68,
+  "end": 731.83997,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And then we've got ambassadors around the globe. So we opened up the ambassador program, and there was over a thousand applications of people that wanted to be an ambassador. And we also set up these local chapters of community events, so anybody can organize a community event, and now we're in over 80 cities, and there's, like, 250 different community chapter leads. And all of that is just to say, like, it's kinda taken on its own thing. It's Yeah.",
+  "zh": "然后我们有遍布全球的大使。我们开放了大使计划，收到了超过一千份想成为大使的申请。我们还建立了这些社区活动的本地分会，任何人都可以组织社区活动，现在我们已经进入超过 80 个城市，有大约 250 个不同的社区分会负责人。说这么多只是想表达，它有点像自己长成了一个独立的东西。是的。"
+ },
+ {
+  "seg": 43,
+  "start": 732.135,
+  "end": 733.895,
+  "speaker": "Demetrios Brinkmann",
+  "en": "That's a big thing.",
+  "zh": "这是件大事。"
+ },
+ {
+  "seg": 44,
+  "start": 733.895,
+  "end": 750.13,
+  "speaker": "Chris Benson",
+  "en": "Yeah. That's huge. Like, pretty quick, I mean, considering you're only talking a few months. Yeah. It's, so it's The Linux Foundation's gonna be like, well, we took him on, but oh my gosh, the baby's growing up pretty quick here.",
+  "zh": "是的，那规模很大。而且相当快，我是说，考虑到你只讲了几个月。是的，所以——Linux 基金会可能会想：好吧，我们接纳了他，但天哪，这孩子长得真快。"
+ },
+ {
+  "seg": 45,
+  "start": 750.21,
+  "end": 750.37,
+  "speaker": "Chris Benson",
+  "en": "You",
+  "zh": "你"
+ },
+ {
+  "seg": 46,
+  "start": 750.37,
+  "end": 758.93,
+  "speaker": "Demetrios Brinkmann",
+  "en": "know. Is one of the Don't quote me on it, but I think it's one of the biggest foundations in the Lytics Foundation even.",
+  "zh": "知道的。别引用我的话，但我认为它甚至是 Lytics 基金会里最大的基金会之一。"
+ },
+ {
+  "seg": 47,
+  "start": 759.73,
+  "end": 760.61,
+  "speaker": "Chris Benson",
+  "en": "I would not be surprised.",
+  "zh": "我不会感到惊讶。"
+ },
+ {
+  "seg": 48,
+  "start": 760.61,
+  "end": 761.25,
+  "speaker": "Demetrios Brinkmann",
+  "en": "It's longer than a year.",
+  "zh": "的时间超过一年了。"
+ },
+ {
+  "seg": 49,
+  "start": 761.65497,
+  "end": 795.725,
+  "speaker": "Chris Benson",
+  "en": "Yeah, mean, when you think about just like, so much has happened. Just since we talked last, so much has happened. This world, the rise of Agents were around last time we talked, but they were still in absolute infancy. And at this point, it is dominating everything going forward and just growing. That sounds very hype y, and I apologize for that, but it's just, the monster gets bigger and bigger.",
+  "zh": "是的，我是说，当你想想，发生了太多事情。就自从我们上次聊过之后，发生了太多事情。这个世界——智能体的崛起在我们上次聊的时候就存在了，但它们还处于绝对的婴儿期。而现在，它正在主导未来的一切，还在不断增长。这听起来很有炒作味，我为这个道歉，但事实就是，这个怪物越变越大。"
+ },
+ {
+  "seg": 50,
+  "start": 796.045,
+  "end": 826.505,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Me tell you, because I was the one who was probably the biggest naysayer on the hype naming and agents, and it's like, yeah. Yeah. I remember using, what was it, like, baby AGI back in the day and just getting mad because all it did was give me so it got stuck in a recursive loop, and I got, like, a $80 API bill from OpenAI. And it was like, these agents don't work, dude. What's going on?",
+  "zh": "我跟你说，因为我可能是对智能体这个炒作式命名最大的唱反调者，就是这样，是吧。是啊。我还记得当年用那个叫什么来着，好像是 baby AGI,气得我不行，因为它只是让我——它陷入了递归循环，然后我收到了 OpenAI 的，大概是 80 美元的 API 账单。当时我就想，这些智能体根本不顶用啊老兄，这是怎么回事？"
+ },
+ {
+  "seg": 51,
+  "start": 826.665,
+  "end": 845.64,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Yeah. But since then, you're right, man. Like, I'm fully bought in now, and I am the first one to say that I was way wrong. Like, they were coming, and they came hard, and I wanna tell you about the newest stuff that I've been doing, specifically with, like, computer use.",
+  "zh": "是啊。不过从那以后，你说得对，老兄。我现在完全入坑了，而且我是第一个承认自己大错特错的人。它们当时就要来了，而且来势汹汹。我想跟你讲讲我最近在做的新东西，特别是关于 computer use(计算机操作)这块的。"
+ },
+ {
+  "seg": 52,
+  "start": 845.945,
+  "end": 846.90497,
+  "speaker": "Chris Benson",
+  "en": "Yeah. Go for it.",
+  "zh": "是啊，说吧。"
+ },
+ {
+  "seg": 53,
+  "start": 846.90497,
+  "end": 863.91,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Because that man, I feel like my life has changed. And there's something that happened, I will say, in the latest OpenAI model release, which came out what? It's 5.6 is what we're at right now.",
+  "zh": "因为老兄，我感觉我的人生都变了。而且我要说，在 OpenAI 最新一次模型发布中发生了一件事，那是啥时候发的来着？现在是 5.6 了吧，我们现在用的版本。"
+ },
+ {
+  "seg": 54,
+  "start": 863.91,
+  "end": 865.19,
+  "speaker": "Chris Benson",
+  "en": "So it's like five But",
+  "zh": "所以大概是五——但是"
+ },
+ {
+  "seg": 55,
+  "start": 866.23,
+  "end": 897.14,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Yeah. And so since that came out, if you specifically use the Computer-Use skill, it is so good. There are very few things that I can throw at it that it does not accomplish, which is wild because okay. So now I'd never have to worry about getting APIs for anything. I don't have to worry about, oh, but I can't reach that data because of some block or something that's wrong with it.",
+  "zh": "对。自从那个版本出来之后，如果你特别用 Computer-Use 这个技能，它真的太强了。我扔给它的事情几乎没有它完不成的，这太离谱了，因为——好。所以现在我再也不用为任何事情去搞 API 了。我也不用担心，哦，因为某个封锁或者数据哪里有问题，我够不着那些数据。"
+ },
+ {
+  "seg": 56,
+  "start": 897.7,
+  "end": 921.13,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And granted, this is me as a personal use type thing. Like, I'm I'm able to do that. I have my three or four different Gmails logged in, and so Computer-Use can go and look at all three or four of them, which I know that with one I can't remember if it's Hermes or Grock Bot. You can also set up multiple accounts. But",
+  "zh": "当然，这是我作为个人使用场景来说的。就是，我能做到这样。我登录了自己的三四个不同的 Gmail,所以 Computer-Use 可以去看所有这三四个邮箱。我知道，我记得不清楚是 Hermes 还是 Grock Bot,你也可以设置多个账号。但是"
+ },
+ {
+  "seg": 57,
+  "start": 921.13,
+  "end": 921.69,
+  "speaker": "Chris Benson",
+  "en": "just to be",
+  "zh": "就是能够"
+ },
+ {
+  "seg": 58,
+  "start": 921.69,
+  "end": 936.375,
+  "speaker": "Demetrios Brinkmann",
+  "en": "able to, like, use that, throw at it, like, hey. Check all of my emails and give me the daily briefing, and also check Slack and give me a daily briefing. And not just one of the Slack workspaces that I'm in, like, all five of them. Yeah. Right?",
+  "zh": "像那样去用它，扔给它，比如，嘿，把我所有的邮件都查一遍，给我一份每日简报，然后再查一下 Slack,给我一份每日简报。而且不只是我所在的那一个 Slack 工作区，是全部五个。是啊，对吧？"
+ },
+ {
+  "seg": 59,
+  "start": 936.375,
+  "end": 961.905,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And so you don't have to worry you don't have to fiddle with any connections or anything. You can just go and it'll use computer use, and that is great. That's like quality of life thing. But what was wild to me is now I can set up these workflows or triggers, I guess is what you call them, that, hey. When you see something, then just do this automatically.",
+  "zh": "所以你不用操心——你不用去折腾任何连接之类的。你直接上手，它就会用 computer use,这很棒。这算是提升生活品质的事。但让我觉得震撼的是，现在我可以设置这些工作流，或者说触发器，我猜是这么叫的，就是，嘿，当你看到某个东西的时候，就自动做这个。"
+ },
+ {
+  "seg": 60,
+  "start": 961.905,
+  "end": 983.96,
+  "speaker": "Demetrios Brinkmann",
+  "en": "So for example, one of these things is, as you know, we've had all these conferences all over the world, and I've been taking a lot of flights. Well, I will buy the flight with Computer-Use. I just say, find me the best flight on this day to this day. And then before it actually pays, I'm the one who actually will click the button because Sure. We're still not at that point.",
+  "zh": "比如说，其中一件事是，如你所知，我们去了世界各地这么多场会议，我坐了很多趟飞机。那我会用 Computer-Use 买机票。我就说，帮我在这一天到这一天找最好的航班。然后在它真正付款之前，实际点那个按钮的是我，因为——当然。我们还没到那一步。"
+ },
+ {
+  "seg": 61,
+  "start": 984.44495,
+  "end": 990.045,
+  "speaker": "Demetrios Brinkmann",
+  "en": "But Or I need a few more zeros in my bank account before I'm cool with it being at that point.",
+  "zh": "但是，或者说我银行账户里还得再多几个零，我才能接受它到那一步。"
+ },
+ {
+  "seg": 62,
+  "start": 990.045,
+  "end": 1025.175,
+  "speaker": "Chris Benson",
+  "en": "I'm the same. I get it. It's funny when you say that because I'm having agents do all the things, and my focus has been on a little bit different use case in swarms of agents, where you have many agents addressing really complex things at once. But then, it's funny, like, if I'm doing something like you and it's my personal bank account, which doesn't have anywhere near as many zeros as I wish it did, I'm the same way. I'm like, that very what would really have quite a small purchase, but I'm like, okay.",
+  "zh": "我也一样，我懂。你说这个很有意思，因为我让智能体做各种事情，而我的关注点在稍微不一样的用例上，就是智能体集群(swarm),让很多智能体同时处理非常复杂的事情。但有意思的是，如果我在做跟你一样的事，而且是涉及我个人的银行账户——它里面的零可远没我希望的那么多——我也是同样的反应。就是，那其实是一笔很小的消费，但我会想，好吧。"
+ },
+ {
+  "seg": 63,
+  "start": 1025.175,
+  "end": 1062.9199,
+  "speaker": "Chris Benson",
+  "en": "So I have that same reservation. Like, they're doing amazing things, you know, what you can get agents to go do, and yet there's still that that intrinsic trust factor. And if you and I are having that with the of the fact that this is what we do, then I know we have to deal with that with general population as Oh, one they percent. Come So it's interesting to see the technology running into this amazing space that is beyond really where anybody was predicting this fast. And then simultaneously, Do I want it to buy the movie tickets for me?",
+  "zh": "所以我有同样的顾虑。就是，它们在做着令人惊叹的事情，你知道，你能让智能体去做的那些事，然而仍然存在那种内在的信任因素。如果你和我——我们干的就是这一行——都有这种顾虑，那我知道面对普通大众我们更得应对这个问题。哦，百分之百。就是说，看到技术跑进这个惊人的领域，快到真的超出所有人的预测，这很有意思。而与此同时，我要不要让它替我买电影票？"
+ },
+ {
+  "seg": 64,
+  "start": 1063.3999,
+  "end": 1066.8649,
+  "speaker": "Chris Benson",
+  "en": "Okay. That's not too expensive. I'll just tell to do it. You know?",
+  "zh": "好吧，那个不算太贵，我就让它去做。你懂吗？"
+ },
+ {
+  "seg": 65,
+  "start": 1067.1849,
+  "end": 1076.8649,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Totally. You know what? Though, I've seen and I've heard of my friends saying, like, they'll set up rules where if it's under $20,",
+  "zh": "完全理解。不过你知道吗，我见过也听朋友说过，他们会设置规则，比如如果金额在 20 美元以下，"
+ },
+ {
+  "seg": 66,
+  "start": 1077.1849,
+  "end": 1078.945,
+  "speaker": "Chris Benson",
+  "en": "the agent can just I've done that.",
+  "zh": "智能体就可以直接——我做过这个。"
+ },
+ {
+  "seg": 67,
+  "start": 1080.2001,
+  "end": 1103.1649,
+  "speaker": "Demetrios Brinkmann",
+  "en": "I'm still afraid of that because I'm like, yeah, it can just buy something for $20 20 times, and then I'm pissed. Good. Good. Because it can figure out we've all heard those stories, so I'm not quite there yet, but I wanted to mention the the different workflows that I have set up around it. So for example, this workflow of buy my ticket, get the ticket, cool.",
+  "zh": "我还是怕这个，因为我会想，是啊，它可以一次花 20 美元、花个二十次，然后我就火了。好。好。因为它能琢磨出来——我们都听过那些故事，所以我还没到那一步。但我想提一下我围绕它设置的那些不同工作流。比如，这个工作流是：买我的票，拿到票，好了。"
+ },
+ {
+  "seg": 68,
+  "start": 1103.1649,
+  "end": 1148.01,
+  "speaker": "Demetrios Brinkmann",
+  "en": "I don't have to fill out any forms anymore, which is absolutely Like, on the Internet, you know how many pointless forms you have to fill out, which are just your name and your phone number and whatever, like, oh, passport number, and I never have it memorized, so then I have to go and search for it and find that number, and boom, I got it. Well, now I don't have to do that because I have my all my information stored in a document that the agent can reference. Yeah. And then it'll buy the flight, and when it comes time to check-in, I just told an agent, hey, monitor my inbox, and if you ever see a email come through that says it's time for you to check-in, just go check-in. You don't even have to ask me.",
+  "zh": "我再也不用填任何表单了，这简直——就是，在互联网上，你知道你得填多少毫无意义的表单吗，无非就是你的名字、你的电话号码之类的，哦，护照号码，我从来记不住，所以我得去搜一下、找到那个号码，然后，砰，我拿到了。现在我不必这么做了，因为我把我所有的信息都存在一个智能体可以引用的文档里了。是啊。然后它会把机票买好，等到了值机的时候，我只是跟智能体说，嘿，盯着我的收件箱，如果你看到一封邮件说该值机了，就去值机。你都不用问我。"
+ },
+ {
+  "seg": 69,
+  "start": 1148.01,
+  "end": 1165.44,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Just go and do it. Check-in. Send me the boarding pass to my phone. And so now, I don't ever have to work at any of that, which total side note, I'm pretty sure, like, checking in why do we have to do that still? Somebody needs to explain why checking I'm in is still a",
+  "zh": "直接去办就行。值机。把登机牌发到我手机上。所以现在，这些事我完全不用管了。顺带说一句，我很确定，值机——为什么我们还得做这个？得有人给我解释一下为什么值机还是一个"
+ },
+ {
+  "seg": 70,
+  "start": 1166.32,
+  "end": 1168.64,
+  "speaker": "Chris Benson",
+  "en": "not sure. I don't know.",
+  "zh": "不确定。我不知道。"
+ },
+ {
+  "seg": 71,
+  "start": 1168.64,
+  "end": 1187.235,
+  "speaker": "Demetrios Brinkmann",
+  "en": "I spend so much money on a flight. Who's gonna just miss I don't know. That's for me, and I'm sure there's plenty of people that will check-in, and they still miss their flight. So it's not like it's a good gauge of who's actually gonna show up for the flight. So that's a total non agent, non AI tangent.",
+  "zh": "我在机票上花了那么多钱。谁会就这么错过——我不知道。至少对我而言，我确定有很多人值了机，还是会错过他们的航班。所以这并不是一个能很好衡量谁真的会来乘机的指标。所以这完全是跑题了，跟智能体、跟 AI 无关。"
+ },
+ {
+  "seg": 72,
+  "start": 1187.235,
+  "end": 1193.6499,
+  "speaker": "Chris Benson",
+  "en": "Suspect the people missing the flight, like they've checked in. I just don't think there's a strong correlation between the two.",
+  "zh": "怀疑那些错过航班的人，比如他们都值过机了。我只是不觉得这两者之间有很强的相关性。"
+ },
+ {
+  "seg": 73,
+  "start": 1193.73,
+  "end": 1196.53,
+  "speaker": "Demetrios Brinkmann",
+  "en": "It doesn't make any sense to me. I'm sure there",
+  "zh": "这对我来说毫无道理。我确定"
+ },
+ {
+  "seg": 74,
+  "start": 1196.53,
+  "end": 1212.265,
+  "speaker": "Chris Benson",
+  "en": "is somebody at one of these airlines out there listening right now going, Oh, these guys totally don't get it. They don't understand. They don't understand why. There's a very clear reason we do this, and we acknowledge that for that person, just to let you know. We just don't understand our We don't get it.",
+  "zh": "某家航空公司现在正在听的人会说，哦，这帮家伙完全不懂。他们不明白。他们不明白为什么。我们这么做有非常明确的理由。我们向你承认这一点，就为了让你知道。我们只是不理解我们的——我们不懂。"
+ },
+ {
+  "seg": 75,
+  "start": 1212.265,
+  "end": 1215.065,
+  "speaker": "Chris Benson",
+  "en": "So, okay, fair Back to computer use.",
+  "zh": "好，行，公平。回到 computer use。"
+ },
+ {
+  "seg": 76,
+  "start": 1215.625,
+  "end": 1240.415,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Yeah. So I have something like that going. I also have a great use case that I had this morning was I need to update my Spanish driver's license to a German driver's license. And so I before computer use was going and taking screenshots and then giving it to my agent and saying or giving it just to the chat, really. It wasn't even an agent.",
+  "zh": "是啊。我有类似那样的东西在跑。我还有一个很棒的用例，今天早上刚遇到：我需要把我的西班牙驾照换成德国驾照。于是，在 computer use 出现之前，我会去截屏，然后把截图给我的智能体，说——或者说就发给聊天，其实那都算不上智能体。"
+ },
+ {
+  "seg": 77,
+  "start": 1240.4951,
+  "end": 1259.6,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And saying, what does this say? What should I click on? Where should I put my information? Because this is a perfect example of the German government in my small town does not have an API that my coding agent can access and submit something through. Right?",
+  "zh": "然后问，这上面写的什么？我应该点哪里？我的信息该填在哪？因为这是一个完美的例子：我们小镇的德国政府没有一个我的编程智能体可以访问并提交东西的 API。对吧？"
+ },
+ {
+  "seg": 78,
+  "start": 1259.935,
+  "end": 1291.635,
+  "speaker": "Demetrios Brinkmann",
+  "en": "But what it does have is a web page where I can go and submit something, or I can have Computer-Use go and submit something. So now it just did it. It created my appointment, and then it created a calendar invite for me so I know when the appointment is, and it said everything I needed to bring, and it said my cancellation number, it said my, like, main number, blah blah blah. That's all there, and I didn't have to worry about it at all. And I changed that, like three different times, and all I have to do is say, like, change it to a different day because I can't do it on this day anymore.",
+  "zh": "但它有的，是一个网页，我可以去上面提交东西，或者我可以让 Computer-Use 去提交。所以现在它直接办好了。它帮我创建了预约，然后给我创建了一个日历邀请，好让我知道预约是什么时候，它列出了我需要带的所有东西，列出了我的取消号码、我的主号码，等等等等。全都在那里，我完全不用操心。而且我改了大概三次预约，我要做的就是说一句，改成另一天吧，因为那天我不行了。"
+ },
+ {
+  "seg": 79,
+  "start": 1291.635,
+  "end": 1314.16,
+  "speaker": "Chris Benson",
+  "en": "Yeah. So I'm curious, like, what do you think are some really You've talked a little bit about how you're using it. What do you think are some really good opportunities for folks watching or listening out there? As they're listening and they've heard some of the things that you're talking about, what would you suggest to go try out? What are some of the fruits that maybe people haven't picked from yet?",
+  "zh": "是啊。所以我很好奇，你觉得有哪些真正——你已经聊了一点你是怎么用它。你觉得对屏幕前观看或收听的朋友们来说，有哪些真正好的机会？当他们听着、听到了你讲的这些事，你会建议他们去尝试什么？有哪些也许是大家还没摘到的果实？"
+ },
+ {
+  "seg": 80,
+  "start": 1314.3049,
+  "end": 1318.865,
+  "speaker": "Chris Benson",
+  "en": "And you're just like, oh, man, this is amazing. You know, just like other than flights.",
+  "zh": "然后你就会觉得，哦，老兄，这也太惊人了。你知道，除了机票以外。"
+ },
+ {
+  "seg": 81,
+  "start": 1318.865,
+  "end": 1348.8549,
+  "speaker": "Demetrios Brinkmann",
+  "en": "I think for me, the biggest eye opener of getting it right was now anytime I encounter a forum, when I'm using the Internet. Right? And I'm going through my day to day, and I'm using the Internet, and I encounter a form, and it has this big trigger that goes off in my head, and I'm like, why didn't I ask Computer-Use to do this whole task? Because I just got to this point where I realized, oh, forms, I don't have to fill out anymore. That's something that is good enough to be done by Computer-Use.",
+  "zh": "对我来说，最大的顿悟是，现在每次我遇到表单，在我上网的时候。对吧？我过着我的日常，用着互联网，遇到一个表单，我脑子里就会触发一个巨大的警报，我心想，我为什么不直接让 Computer-Use 去做这一整件事？因为我到了这个境界，意识到，哦，表单，我再也不用填了。这种事情已经好到可以交给 Computer-Use 去做了。"
+ },
+ {
+  "seg": 82,
+  "start": 1348.855,
+  "end": 1358.84,
+  "speaker": "Demetrios Brinkmann",
+  "en": "So I just go and I I now am like, oh, right. Let's see if let's see if they can do that. Boom. So that would be one. Anytime you encounter a form on the Internet.",
+  "zh": "所以我直接就去，我现在就是，哦，对，看看它能不能搞定。砰。所以这算一个。每次你在互联网上遇到表单。"
+ },
+ {
+  "seg": 83,
+  "start": 1358.84,
+  "end": 1376.845,
+  "speaker": "Demetrios Brinkmann",
+  "en": "However, I will caveat this with a conversation that I just had yesterday with my friend Sam, who was saying, like, this is such a thing that you can do if you're b to c. But if you're trying to do this in B2B, like, good luck, dude. You're gonna go tell your employees",
+  "zh": "不过，我要用一个昨天刚跟我的朋友 Sam 聊过的话题来加个限定，他说，如果你是 to C(面向消费者)，这是很可行的事。但如果你想在 B2B 里做这个，那祝你好运吧老兄。你要去告诉你的员工"
+ },
+ {
+  "seg": 84,
+  "start": 1377.885,
+  "end": 1445.9501,
+  "speaker": "Chris Benson",
+  "en": "that you That's can exactly really what I was gonna ask you next. I literally was in my head, I'm like, oh, I know where I wanna go, and that's it. And that is with the inevitability of the B2B use case, being an Agentic to Agentic use case, where you're doing agents interoperating with agents beyond your borker, in other words, some other entity, another commercial entity or whatever it is that you're talking about, and instead of being static APIs that your agent is going and talking to, or you're web scraping with the agent and doing the of the form stuff that we're talking about, what are your thoughts around when is every organization out there going to have an agentic interface in which your agents, as you're doing what you're describing, are just interoperating, giving it a lot more fluidity and dynamic capability because you're doing an agent to agent interaction, which can accommodate things. It's no longer just the static API that your agent has navigate. What are your thoughts around that, and like how far out do you think it is before we get to that?",
+  "zh": "说——这正是我接下来想问你的。我脑子里正好在想，哦，我知道我想聊到哪儿，就是这个。就是 B2B 用例的必然归宿，会是智能体对智能体(Agentic to Agentic)的用例，让你的智能体与你的边界之外——换句话说，另一个实体、另一个商业实体或者不管什么对象——的智能体互操作。而不再是你的智能体去对接静态 API,或者你用智能体做网页抓取、去填我们刚才说的那些表单。你怎么看多久之后，每一家组织都会有一个智能体接口，让你那些像你描述的那样行动的智能体直接互操作，带来更高的流动性和动态能力，因为你们做的是智能体对智能体的交互，可以容纳各种变化。不再只是你的智能体要去应付的静态 API。你对此怎么看，你觉得离那一步还有多远？"
+ },
+ {
+  "seg": 85,
+  "start": 1445.9501,
+  "end": 1504.5499,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Well, I think that's one reason that MCP is so popular is because of those use cases, and it feels like that's the way that the industry has standardized on being able to give agents access to different systems. Right? But then what we have to do is we have to wait for everyone to have MCP servers that are good enough for my agent just to pick up and use at will and use well so that I can get what I need done, which feels like there still needs to be some maturing that needs to happen before we get to that point. And so that's why it's beautiful with computer use because you don't have to wait for the other person to set up an MCP server, or you don't have to go and build an MCP server to enable that. And there's a lot of these use cases that who knows if they even are gonna build an MCP server.",
+  "zh": "嗯，我觉得这正是 MCP 这么火的原因之一，就是因为那些用例。而且感觉这就是行业已经标准化下来的、能给智能体接入不同系统的方式。对吧？但接下来我们要做的，是等所有人都拥有足够好的 MCP 服务器，好到我的智能体可以随手拿起来就用、而且用得好，从而把我需要的事情办成。感觉在那之前还需要一些成熟的过程。所以这就是 computer use 的美妙之处，因为你不用等对方搭好一个 MCP 服务器，或者你自己去建一个 MCP 服务器来实现这件事。而且有很多这样的用例，谁知道对方到底会不会去建 MCP 服务器呢。"
+ },
+ {
+  "seg": 86,
+  "start": 1504.71,
+  "end": 1530.0299,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Like, the German government DMV, I'm not sure they ever are gonna have an MCP server that my agent can go and talk to. Right? So that's going back to this b to c use case in a way. But if you think about it, what what's incredible for me is us consumers are tasting this, like, forbidden fruit of, wow, things can really be that easy? Like, it can just work?",
+  "zh": "比如，德国政府的车管所，我不确定他们什么时候会有一个我的智能体可以去对话的 MCP 服务器。对吧？所以这在某种程度上又回到了 to C 的用例。但你想一想，对我来说最不可思议的是，我们消费者正在尝到这种禁果的感觉：哇，事情真的可以这么容易吗？它真的可以直接就用？"
+ },
+ {
+  "seg": 87,
+  "start": 1530.11,
+  "end": 1530.67,
+  "speaker": "Chris Benson",
+  "en": "Mhmm.",
+  "zh": "嗯哼。"
+ },
+ {
+  "seg": 88,
+  "start": 1530.67,
+  "end": 1553.6649,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And then you know that that pressure is going to start building on the software that we have and we're using in our day to day lives at the office. Like, that's how I feel. I feel like it's coming. It's just gonna put a lot of pressure on, hey. This is this doesn't have to be like this, or we don't have to be blocked by something.",
+  "zh": "然后你知道，那种压力会开始压在我们拥有的、日常在办公室使用的软件上。我就是这么感觉的。我觉得它要来了。它会带来巨大的压力，就是，嘿，这——事情不应该是这个样子，我们不应该被什么东西卡住。"
+ },
+ {
+  "seg": 89,
+  "start": 1553.6649,
+  "end": 1584.305,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Can we figure out a way to make it work with I mean, I don't know how it's gonna play out because I will say that there's a security nightmare happening if you just start doing, like, computer use. Everyone at your company now has computer use going on all five of their emails and all of your ERP systems or you're like like on the oh, man. Basically, any anything that you can think of. God. That sounds so dangerous, but wow.",
+  "zh": "能不能想办法让它运作起来——我是说，我不知道最后会怎么演变，因为我得说，如果你直接开始大规模用 computer use，会有一场安全噩梦。你公司里每个人现在都用 computer use 操作着他们的五个邮箱和你们所有的 ERP 系统，或者——哦，老兄，基本上是你能想到的任何东西。天啊。听起来太危险了，但是哇。"
+ },
+ {
+  "seg": 90,
+  "start": 1584.305,
+  "end": 1586.75,
+  "speaker": "Demetrios Brinkmann",
+  "en": "It is, like, quality of life there.",
+  "zh": "它确实是生活品质上的东西。"
+ },
+ {
+  "seg": 91,
+  "start": 1586.75,
+  "end": 1671.1649,
+  "speaker": "Chris Benson",
+  "en": "I think, you you talk about the security issue, and I think you're at the place, at the center of, at the foundation, where as good security architectures are further developed, they will find their way into the foundation probably for purposes of getting widespread acceptance through the world. I think there's another point I'm gonna diverge hard as you were doing that. As you're talking about that, I think that what you were describing there is very much the story starting with us and the people watching this, because these are AI native folks. The folks that are showing up for your podcast and showing up for this podcast are folks that they work in it, they care enough about it, and they're following that. I'm curious, what's it gonna take to bring because we're all kind of going, Holy cow, look at what I can do now, which is kind of what What you're does it take to bring We're only now getting to where the general population is starting to get comfortable using just kind of what seems very old fashioned chat, whether it's Gemini or ChatGPT or Quad or whatever, they're just coming along there.",
+  "zh": "我觉得，你说到安全问题，而你正处在——处在基础层的中心位置，随着好的安全架构进一步发展，它们很可能会进入基础层，大概是为了在世界范围内获得广泛接受。我还想说另一个点，我要在你讲的时候大大岔开一下。你讲到那些的时候，我觉得你描述的非常像是——这个故事是从我们、还有观看这个节目的人开始的，因为这些人都是 AI 原生的人。来听你的播客、来听这个播客的人，都是在这一行里工作的人，他们足够在乎这件事，并且在跟进。我很好奇，要怎样做才能——因为我们都有点在说，天哪，看看我现在能做到什么，差不多就是那种——要怎样做才能——我们现在才刚刚到达普通大众开始习惯使用那种看起来非常老式的聊天的阶段，不管是 Gemini 还是 ChatGPT 还是 Quad 还是别的什么，他们才刚刚跟上来。"
+ },
+ {
+  "seg": 92,
+  "start": 1671.1649,
+  "end": 1698.0449,
+  "speaker": "Chris Benson",
+  "en": "What does it take to bring that in? Not only for just so they can do this, but as they're worrying about jobs and all the bigger things everyone is so concerned about in the world, how that all How do you bring the masses that are not AI native into being able to do this to get the benefits? Because right now, they're just all scared to death, you know? Yeah. Get that more and more.",
+  "zh": "要怎样把他们带进来？不只是让他们能做这些事，还有当他们担心工作、担心世界上所有人都在担心的那些更大的事情的时候，这一切要怎么——你要怎么把那些不是 AI 原生的大众带进能够做这些事、获得这些好处的状态？因为现在，他们全都吓坏了，你知道吗？是啊。这种感觉越来越强。"
+ },
+ {
+  "seg": 93,
+  "start": 1698.0449,
+  "end": 1738.4598,
+  "speaker": "Demetrios Brinkmann",
+  "en": "I remember back in the day when Google came out, or when the search engines came out, the Internet came out, and it was magical that you could go to a website, or you could search something and find information on the Internet. Yeah. And we were there was a lot of people that were just early adopters, and they were very early on that and using it. It feels a little bit like that now in that so my wife is not very technologically savvy. She avoids phones and computers at all costs, but today she had to cancel her PayPal account and then start a new one.",
+  "zh": "我记得当年 Google 出来的时候，或者搜索引擎出来的时候，互联网出来的时候，你能上一个网站，或者搜一个东西、在互联网上找到信息，那是有魔力的。是啊。当时有很多人就是早期采用者，他们很早就用上了。现在感觉有点像那个时候，比如说，我妻子技术方面不太灵光。她不惜一切代价躲着手机和电脑，但今天她得取消她的 PayPal 账户，然后再开一个新的。"
+ },
+ {
+  "seg": 94,
+  "start": 1739.1,
+  "end": 1754.415,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And I told her, okay. Watch this. And I downloaded ChatGPT on her computer, and then I got her set up. I also got her set up with WhisperFlow so you can just talk to the computer. And I I gave it to I said, hey.",
+  "zh": "我就跟她说，好，看好了。我在她电脑上下载了 ChatGPT，然后帮她设置好了。我还给她配了 WhisperFlow，这样就能直接对着电脑说话了。然后我给了它，我说，嘿。"
+ },
+ {
+  "seg": 95,
+  "start": 1754.415,
+  "end": 1777.365,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Look. I need to get rid of my PayPal account, and I need to start a new one. Let's start with just, like, deleting this PayPal account and, like, canceling everything that's related to it. And it did that, and my wife's eyes lit up because for her, that is so much time that she would have had to have spent, especially yeah. Because she's not It's incredible.",
+  "zh": "听着，我需要把我的 PayPal 账户弄掉，我需要开一个新的。先从这个开始吧，比如把这个 PayPal 账户删掉，把跟它相关的东西都取消掉。它就这么办了，我妻子的眼睛都亮了，因为对她来说，那是她本来不得不花费的大量时间，尤其是——对，因为她不——太不可思议了。"
+ },
+ {
+  "seg": 96,
+  "start": 1777.365,
+  "end": 1791.9401,
+  "speaker": "Demetrios Brinkmann",
+  "en": "So you have those experiences for someone, and they're it's instantly bought in. It's like, oh, okay. So tell me what else can I do here? Or let me try. And then the person just tries, and there's not a lot that's what I'm saying.",
+  "zh": "所以你给某个人这种体验，他们就瞬间入坑了。就是，哦，好。那告诉我还能干什么？或者让我试试。然后这个人就去试了，而且没有太多——这就是我说的意思。"
+ },
+ {
+  "seg": 97,
+  "start": 1791.9401,
+  "end": 1827.875,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Like, there's not a lot that I throw at it these days that it can't do. And I keep going back to, like, my personal Computer-Use stuff, which is great. Going to the b to b stuff, though, this is where I really feel like you're putting pressure on what we do at work because if what we do at work still feels cumbersome or we have to be really technical in order to get the advances that AI brings, then we're doing it wrong. It really feels like that's not how it should be. And so how can we enable that type of thing?",
+  "zh": "就是说，如今我扔给它的东西，很少有它做不到的。我一直在绕回我个人用的 Computer-Use 那些事，很棒。但说到 to B 那一边，这才是我真正觉得你在给我们工作场合施压的地方，因为如果我们在工作中做的事仍然感觉笨重，或者我们必须非常技术化才能获得 AI 带来的进步，那我们就做错了。真的感觉不应该是那样的。那我们怎么才能实现那种东西？"
+ },
+ {
+  "seg": 98,
+  "start": 1827.875,
+  "end": 1857.865,
+  "speaker": "Demetrios Brinkmann",
+  "en": "But with all of the enterprise y features you that you the organizations have come to grow and they've loved over these years, you know, just like Mhmm. Role based access control is one. And so I guess if you're using Computer-Use, you've already got your roles set out, and so you're not gonna have problems with that. But there's a lot of I will not be naive and say that it's the end all to be all, especially inside of the enterprise. It could cause a lot of problems.",
+  "zh": "但是要带上所有那些企业级的功能——你们组织这些年来已经养成并且喜爱的那些，你知道，比如——嗯哼。基于角色的访问控制就是一项。所以我想如果你用的是 Computer-Use，你的角色已经划好了，所以这方面不会有问题。但还有很多——我不会天真到说它就是万能的终极答案，尤其是在企业内部。它可能造成很多问题。"
+ },
+ {
+  "seg": 99,
+  "start": 1857.865,
+  "end": 1893.61,
+  "speaker": "Demetrios Brinkmann",
+  "en": "However, man, the thing that is great for me is using it on my personal use cases, and I'll give you another one. I've got, like, 20 of them that I've been doing because as you asked, and I think it's good to, like, stimulate folks' creativity when they hear it. I have this 36 livestream coming up, and I want to reach out to everyone that I've had a conversation with on LinkedIn that's been, like, an actual two way conversation, and it's been a few turns back and forth. Right? So acquaintances, you could put in parentheses.",
+  "zh": "不过，老兄，对我来说最棒的就是把它用在我的个人用例上，我再给你一个例子。我大概有二十个这样的例子，因为我一直在做，因为正如你问的，我觉得这能激发听到的人的创造力。我有一个即将到来的 36 小时直播，我想联系到每一个我在 LinkedIn 上真正有过对话的人，就是那种真正的双向对话，来回聊过好几轮的。对吧？熟人，可以打上括号标注。"
+ },
+ {
+  "seg": 100,
+  "start": 1894.09,
+  "end": 1912.485,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And so what I did is I told Computer-Use, I said, go and look through all my LinkedIn. Because LinkedIn has this API that you cannot it's notoriously hard. Like, you can't get stuff from LinkedIn's API. It's not like x where you can pay and then you get everything. It's fully locked down.",
+  "zh": "所以我就跟 Computer-Use 说,我说,去把我的整个 LinkedIn 都翻一遍。因为 LinkedIn 有一个 API,你是——出了名的难用。你是拿不到 LinkedIn API 里的东西的。它不像 x,你可以付钱然后拿到所有数据。它完全被锁死了。"
+ },
+ {
+  "seg": 101,
+  "start": 1912.4851,
+  "end": 1958.87,
+  "speaker": "Demetrios Brinkmann",
+  "en": "So I was sitting there and I was like, I wanna analyze all of my DMs and see who I've interacted with a bit, and then we make this short list of people that I can reach out to and let them know that I'm having this livestream event. And what it did was instead of just going through all of my DMs, it was like, oh, well, you know what? I just found this ability to download all your data. So it downloaded all of my data, but LinkedIn has to package it up and then send it to your email over forty eight hour span. So what it did is it set a reminder for itself to just kept checking my email, and so then once it got my data, then it analyzed everything.",
+  "zh": "所以我当时坐在那儿想,我想分析我所有的私信,看看我跟哪些人有过一些互动,然后我们做一份简短名单,我可以去联系这些人,告诉他们我要办这个直播活动。而它做了什么呢,它没有直接去翻我所有的私信,而是说,哦,你知道吗?我刚好发现了这个下载你所有数据的功能。于是它把我的全部数据都下载了,但 LinkedIn 需要把数据打包好,然后在四十八小时的时间跨度内发送到你的邮箱。于是它给自己设了一个提醒,不停地检查我的邮箱,然后一旦拿到了我的数据,它就把所有东西都分析了。"
+ },
+ {
+  "seg": 102,
+  "start": 1958.87,
+  "end": 1988.835,
+  "speaker": "Demetrios Brinkmann",
+  "en": "It created this short list of 500 people, and then it created personalized messages that I could send them to let them know about the thirty six hour livestream. But then I went one step further, and I because AI and why not. Right? I said, well, create a personalized media kit for each person in case they need some Yeah. Kind of And so every single person has their own website that says like, hey, Chris, you're awesome for doing this, and here's some inspiration in case you wanna post this.",
+  "zh": "它做出了一份 500 人的简短名单,然后为每个人创建了个性化消息,我可以发给他们,告诉他们这个三十六小时直播的事。但接着我又更进一步,我——因为都是 AI 了,何乐而不为,对吧?我说,那就为每个人创建一个个性化的媒体资料包,以防他们需要一些——对。差不多这样。于是每一个人都有自己的专属网站,上面写着类似,嘿,Chris,你来做这件事太棒了,这里有一些灵感,如果你想发帖的话。"
+ },
+ {
+  "seg": 103,
+  "start": 1988.835,
+  "end": 2018.675,
+  "speaker": "Demetrios Brinkmann",
+  "en": "You can just copy paste, or here's some prompts if you wanna write it yourself. And by the way, here's some funny photos of me if you wanna add those, but I would love it if you share about this livestream event. And so now those are firing off, And you may say that is absolutely ridiculous because I took all of the personalization out of it and tried to make it as personalized as possible still, or maybe it's cool. I don't know. But that's another thing that I've been doing over the past twenty four hours.",
+  "zh": "你可以直接复制粘贴,或者这里有一些提示词,如果你想自己写的话。顺便说一下,这里有一些我的搞笑照片,如果你想加上这些的话,但如果你能帮忙宣传这个直播活动,我会非常开心。所以现在这些消息正在发出,你可能会说这太荒唐了,因为我把所有的个性化都拿掉了,同时又试图让它尽可能保持个性化,或者也可能这很酷。我不知道。但这就是我过去二十四小时里做的另一件事。"
+ },
+ {
+  "seg": 104,
+  "start": 2018.675,
+  "end": 2051.325,
+  "speaker": "Chris Benson",
+  "en": "Very cool, man. Is I've had some similar things. Don't have time to cover it all today, but I love the inspiration that you're offering, and I'm hoping that folks watching or listening are kind of thinking of the things that they can go do and stuff. One of the things I want to make sure that we get in is I know you have an interest in harnesses and the current state and some of the challenges around that. I wanted to make sure we fit that in today.",
+  "zh": "它就是那种,有点像「讲给我听就像我五岁一样」的东西。"
+ },
+ {
+  "seg": 105,
+  "start": 2052.765,
+  "end": 2056.845,
+  "speaker": "Chris Benson",
+  "en": "I'll toss the ball to you and let you run with that, because I know you have some thinking around it.",
+  "zh": "我把球抛给你,让你接着讲下去,因为我知道你在这方面有一些思考。"
+ },
+ {
+  "seg": 106,
+  "start": 2056.98,
+  "end": 2064.26,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Let me keep blabbing. Yeah. This is the episode nobody asked for, but we're getting somehow. Just making a bad time, man.",
+  "zh": "让我继续唠吧。对。这是一期没人要求做的节目,但我们 somehow 就做到这儿了。就是图个乐,老兄。"
+ },
+ {
+  "seg": 107,
+  "start": 2064.42,
+  "end": 2066.34,
+  "speaker": "Chris Benson",
+  "en": "We always have a good time, so let's go for it.",
+  "zh": "我们一直都聊得很开心,那就来吧。"
+ },
+ {
+  "seg": 108,
+  "start": 2066.34,
+  "end": 2121.2,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Hopefully, yeah, hopefully, I've I've inspired you, and please write me if you use Computer-Use and you find a rough edge where it doesn't do something. But, man, these different, like, five, ten step procedures where it does stuff is it's incredible. But, anyway, on the harnesses, and I wanna talk to you about is really just how much of the harness is being blurred into the actual model, it feels like, and how we've got now these, you know, like, Claude code harness doesn't there's a whole lot of things wrong with it right now today with, like, Fable and Opus five. That's, again, time stamping it. People are not happy with the Claude code experience, and I myself have pretty much stopped using it, which is wild because, I don't know, six months ago, I put up with all the crap that Anthropic was doing.",
+  "zh": "希望——对,希望我启发到了你,如果你用了 Computer-Use 并发现它做不到某些事情的粗糙边缘,请写信给我。但是,老兄,这些不同的,比如五步、十步的流程,它能把事情办好,真是不可思议。不过,总之,关于 harness,我想跟你聊的其实主要是 harness 有多少正在被模糊进模型本身,感觉上是这样,以及我们现在有了这些,你知道的,比如 Claude code harness——就目前今天而言,比如配合 Fable 和 Opus 五,它有太多问题。这又是在标记时间戳了。人们对 Claude code 的体验很不满意,而我自己已经几乎停止使用它了,这很疯狂,因为,我不知道,六个月前,Anthropic 干的所有破事我都忍了。"
+ },
+ {
+  "seg": 109,
+  "start": 2121.2,
+  "end": 2134.2852,
+  "speaker": "Demetrios Brinkmann",
+  "en": "I put up with everything. Maybe not all the crap. I love Anthropic. I love everybody there, but I put up with everything that was going on. There's so much drama in the news all the time because they had such a superior product.",
+  "zh": "我什么都忍了。也许不是所有破事。我爱 Anthropic,我爱那里的每一个人,但当时发生的一切我都忍了。新闻里总是有那么多戏,因为他们的产品实在太优秀了。"
+ },
+ {
+  "seg": 110,
+  "start": 2134.2852,
+  "end": 2160.215,
+  "speaker": "Demetrios Brinkmann",
+  "en": "It was so good. And then somehow or another, when they r l'd this last model, and you try and bring a lot of this harness into the model, or I guess it inherently becomes blurry because they have their system prompt. Yeah. After the world uses the model for long enough, that system prompt just, like, keeps getting longer and longer and longer. Right?",
+  "zh": "它太好了。然后不知怎么的,当他们把最后一个模型做了 RL 之后,当你试图把很多这种 harness 带进模型里,或者我猜它本质上就变得模糊了,因为他们有他们的 system prompt。对。当世界把这个模型用了足够久之后,那个 system prompt 就会变得越来越长、越来越长、越来越长。对吧?"
+ },
+ {
+  "seg": 111,
+  "start": 2160.295,
+  "end": 2194.615,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And then they come out with a new model, and that system prompt can shrink again because all of that long system prompt from the last model gets almost like RL'd into the new model. But that can create some weird janky stuff that happens, and we're seeing that. And I'm sure that Anthropic's next model is gonna be incredible, and we're gonna be right back at like, oh, wow. They were able to do it. But this is just for me, when it comes to harnesses, it is so fascinating to see how these I think some people call it the inner harness.",
+  "zh": "然后他们推出一个新模型,那个 system prompt 就可以再次缩短,因为上一个模型那一大段 system prompt 几乎就像被 RL 进了新模型。但这会产生一些奇怪的、糟糕的东西,我们正在看到这种情况。而且我确信 Anthropic 的下一个模型会很不可思议,我们又会回到那种,哦,哇,他们做到了。但对我来说,说到 harness,看到这些真是非常迷人,我想有些人称之为 inner harness(内层 harness)。"
+ },
+ {
+  "seg": 112,
+  "start": 2194.615,
+  "end": 2225.125,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Basically, the harness that the labs provide is very much, like, you are super optimized for the model that is that lab is putting out. Yeah. And if you wanna have your own kind of harness, if you're trying to run PIE or some of the or Hermes or whatever, you know what? It's actually like, maybe you're gonna do better on some open source models. And a lot of these open source models coming from China are really great with that.",
+  "zh": "基本上,实验室提供的 harness 在很大程度上就是,你对那个实验室推出的模型是极度优化过的。对。而如果你想拥有自己的那种 harness,如果你想跑 PIE 或者一些——或者 Hermes 或别的什么,你知道吗?实际上,也许你在一些开源模型上会做得更好。而这些来自中国的开源模型,很多在这方面真的很出色。"
+ },
+ {
+  "seg": 113,
+  "start": 2225.125,
+  "end": 2258.58,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And so there was something that a friend my friend Drew told me how a lot of times in Pi, you would hear Mario, the creator of Pi, talk about how he had to fight with Claude to not, like, make these API calls like Claude code API calls, then it it was like, man, I have to fight against the model to not act like the harness that it was trained with. You know? So that's fascinating for me to just think about all of that, and how it's going to affect the next few months that we're seeing the models come out with.",
+  "zh": "所以有一件事,我的朋友 Drew 告诉我,很多时候在 Pi 里,你会听到 Pi 的创造者 Mario 谈到他不得不和 Claude 抗争,不让它,比如,发起这些 API 调用,像 Claude code 那样的 API 调用,然后就是,老兄,我不得不和模型对抗,不让它表现得像它被训练时所用的那个 harness。你知道吗?所以对我来说,思考这一切,以及它将如何影响我们接下来几个月看到的模型发布,真是很迷人。"
+ },
+ {
+  "seg": 114,
+  "start": 2258.58,
+  "end": 2291.31,
+  "speaker": "Chris Benson",
+  "en": "How do you think, you know, as we look at that, and right now, with Hermes and Pi on the rise, and with Cloud Code having been through these user challenges, and if you go into some of the forums on that, people are just really frustrated with it. And I have too, so I use Cloud Code quite a lot, and there's all sorts of issues. So it's a love hate relationship. There are things I love about it. There are things I'm like, Oh, God.",
+  "zh": "你怎么看,当我们审视这一点,而现在,Hermes 和 Pi 正在崛起,Cloud Code 经历了这些用户挑战,如果你去一些相关论坛看看,人们对它真的非常沮丧。我也一样,所以我用 Cloud Code 用得挺多,各种问题都有。所以这是一种又爱又恨的关系。有些地方我爱它。有些地方我就想,哦,天哪。"
+ },
+ {
+  "seg": 115,
+  "start": 2292.5898,
+  "end": 2312.5999,
+  "speaker": "Chris Benson",
+  "en": "And obviously with Codex out there, what do you think of either is the future or do you have any suggestions on where things need to go, both for users or even for the companies? Have folks from all these organizations who tune in. So you know, like, how do you see this shaking out going forward?",
+  "zh": "显然还有 Codex 在那里,你觉得哪个是未来,或者你有什么建议说事情该往哪里走,无论是对用户还是对这些公司?这些组织的 folks 都会收听。所以,你觉得这件事接下来会怎么发展?"
+ },
+ {
+  "seg": 116,
+  "start": 2312.5999,
+  "end": 2342.18,
+  "speaker": "Demetrios Brinkmann",
+  "en": "For me, it's just it would be really wild if the research labs didn't have the best product, because they're getting all of this data on how folks are using their products, and then they can incorporate that into the product itself. Right? The model or the harness that they're giving. So that's why it's it's crazy to me right now that Claude Code is having this moment where it's like, man, they might have gone a little too far on this. They they may have tried to push it too much.",
+  "zh": "对我来说,如果研究实验室不拥有最好的产品,那才真是疯了,因为他们拿到了所有关于人们如何使用他们产品的数据,然后他们可以把这些融入到产品本身。对吧?融进他们提供的模型或 harness。所以这正是为什么现在 Claude Code 正经历这种时刻让我觉得疯狂,就像,老兄,他们可能在这上面走得太远了。他们可能推得太猛了。"
+ },
+ {
+  "seg": 117,
+  "start": 2342.74,
+  "end": 2360.3552,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And the fact that they have all that information and this and this data of people using it and how they're using it makes me think that they are for sure going to have the best product. However, today, as it stands, that's not necessarily the case.",
+  "zh": "而他们拥有所有这些人们使用它的信息和数据这一事实,让我觉得他们肯定会拥有最好的产品。然而,就今天而言,情况不一定如此。"
+ },
+ {
+  "seg": 118,
+  "start": 2360.3552,
+  "end": 2389.4648,
+  "speaker": "Chris Benson",
+  "en": "Yeah. I think I think there's a lot of work there that needs to be done to improve because we're seeing, kind of to your point, we're seeing user experience very jittery. Goes from being very good to being a struggle. And then I see people, I mean, even things like rolling back to older models within Claude Code, for instance, because they're complaining about how Opus is so verbose, and it is. It drives me nuts.",
+  "zh": "对。我觉得那边有很多工作需要做来改进,因为正像你说的,我们看到用户体验非常颠簸。从非常好直接变成一场挣扎。然后我看到人们,我是说,甚至比如在 Claude Code 里回退到更旧的模型,因为他们抱怨 Opus 太啰嗦了,而它确实啰嗦。这快把我逼疯了。"
+ },
+ {
+  "seg": 119,
+  "start": 2389.4648,
+  "end": 2398.57,
+  "speaker": "Chris Benson",
+  "en": "But I'm like, Oh my God, you just wrote a book on this last thing, and I just wanna get to the end. That's my typical thing. I want to get to the end. Get there. Yeah.",
+  "zh": "但我心想,哦天哪,你刚才就上一件事写了一整本书,我只是想看到结尾。这就是我的常态。我就想看到结尾。快点到那儿。对。"
+ },
+ {
+  "seg": 120,
+  "start": 2398.81,
+  "end": 2414.2852,
+  "speaker": "Chris Benson",
+  "en": "It's interesting to see how all this is gonna shake out in the harness merging with different models space, and what the relationship is, and where the line between the two is being drawn in terms of that.",
+  "zh": "看到这一切在 harness 与不同模型融合这个领域会怎么发展,它们的关系是什么,以及两者之间的界线画在哪里,是很有意思的。"
+ },
+ {
+  "seg": 121,
+  "start": 2415.245,
+  "end": 2417.8052,
+  "speaker": "Demetrios Brinkmann",
+  "en": "By the way, have you seen the Bro skill?",
+  "zh": "顺便问一下,你见过那个 Bro skill 吗?"
+ },
+ {
+  "seg": 122,
+  "start": 2417.8052,
+  "end": 2419.5652,
+  "speaker": "Chris Benson",
+  "en": "I have not seen the Bro skill.",
+  "zh": "我没见过那个 Bro skill。"
+ },
+ {
+  "seg": 123,
+  "start": 2419.5652,
+  "end": 2444.7651,
+  "speaker": "Demetrios Brinkmann",
+  "en": "So this skill is incredible. For anybody who's having these issues like you're having where it's like, man, that was a book, and I don't know if I understand half of it. You use you invoke the bro skill, and it forces the model to explain things very simply so that it doesn't give you these this jargon and all these big words and all this stuff that you're like, woah. What is what does that even mean? Right?",
+  "zh": "这个 skill 太不可思议了。对于任何正在经历你所经历的这些问题的人,就是那种,老兄,那是一整本书,我不知道我是否理解了其中一半。你调用这个 bro skill,它会强迫模型用非常简单的方式解释事情,这样它就不会给你这些行话、所有这些大词、所有这些让你觉得,哇,这到底,这到底是什么意思的东西。对吧?"
+ },
+ {
+  "seg": 124,
+  "start": 2444.7651,
+  "end": 2447.8052,
+  "speaker": "Demetrios Brinkmann",
+  "en": "It just is like kinda explain it to me like I'm five type thing.",
+  "zh": "这就像那种“给我一个五岁小孩能听懂的解释”类型的东西。"
+ },
+ {
+  "seg": 125,
+  "start": 2447.8052,
+  "end": 2448.445,
+  "speaker": "Chris Benson",
+  "en": "Yeah. Yep.",
+  "zh": "对。对。"
+ },
+ {
+  "seg": 126,
+  "start": 2448.445,
+  "end": 2477.525,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And so that is a very, very useful one. Another skill that is quite useful is called show me. Okay. And so this one basically just makes it give you visuals when it's instead of, like, writing the book and trying to explain it in words that you kinda get lost in, it will give you visuals so that it can go with it. And both of those together are very useful",
+  "zh": "所以那是一个非常、非常有用的一个。另一个相当有用的 skill 叫 show me。好的。而这个基本上就是让它给你可视化的东西,当它——与其写一本书并试图用让你有点迷失的文字来解释,它会给你可视化的东西来配合它。这两个一起用非常有用"
+ },
+ {
+  "seg": 127,
+  "start": 2477.605,
+  "end": 2478.005,
+  "speaker": "Chris Benson",
+  "en": "Oh, dude.",
+  "zh": "哦,老兄。"
+ },
+ {
+  "seg": 128,
+  "start": 2478.085,
+  "end": 2479.845,
+  "speaker": "Demetrios Brinkmann",
+  "en": "When you're encountering these problems.",
+  "zh": "当你遇到这些问题的时候。"
+ },
+ {
+  "seg": 129,
+  "start": 2479.925,
+  "end": 2501.645,
+  "speaker": "Chris Benson",
+  "en": "I am that like today, because I spend a lot of time in client code, and I didn't know that, so I am invoking those today, because I have an emotional cycle that goes with using it as I prompt through things, then I'm going scroll yeah. So you've just solved it for me. Dude, just just go ahead.",
+  "zh": "我就是那样——就像今天,因为我花很多时间在 client code 里,而我之前不知道这个,所以我今天就要调用这些,因为我用它的时候有一个情绪循环,当我 prompt 各种东西之后,然后我就去滚动——对。所以你刚刚帮我解决了。老兄,你继续,继续说。"
+ },
+ {
+  "seg": 130,
+  "start": 2502.2048,
+  "end": 2531.855,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Oh, sorry to cut you off, but you know what I would love to get your take on. Some other thing that I've been thinking about deeply is really along the lines of the shopping experience and where we're going to shop in the future on the Internet. Because for me, it feels like we're not that far off from doing everything in the chat. Like, the chat is the new browser in a way. Yeah.",
+  "zh": "哦,抱歉打断你,但你知道我很想听听你的看法的是什么吗?我一直在深入思考的另一件事,其实是沿着购物体验这条线,以及我们未来将在互联网上的哪里购物。因为对我来说,感觉我们离在聊天里做完所有事情已经不远了。就像,聊天在某种程度上就是新的浏览器。对。"
+ },
+ {
+  "seg": 131,
+  "start": 2531.855,
+  "end": 2532.255,
+  "speaker": "Demetrios Brinkmann",
+  "en": "That's not",
+  "zh": "那不是"
+ },
+ {
+  "seg": 132,
+  "start": 2532.4148,
+  "end": 2532.7349,
+  "speaker": "Chris Benson",
+  "en": "It is.",
+  "zh": "它就是。"
+ },
+ {
+  "seg": 133,
+  "start": 2532.815,
+  "end": 2560.625,
+  "speaker": "Demetrios Brinkmann",
+  "en": "That novel of a term. I think we're all okay with saying that these days because the majority of our work gets done from the chat. And so what I realized, and this came from me being in Seoul, and I talked to a lot of payment processing companies who just joined the Agentic AI Foundation. And they were wondering, like, well, what is the future of payments? How is it gonna work?",
+  "zh": "那个新颖的说法。我想这些天我们都可以接受这么说,因为我们大部分工作都是从聊天里完成的。所以我意识到的这一点,这来自我在首尔的时候,我和很多刚加入 Agentic AI Foundation 的支付处理公司聊过。他们想知道,比如,支付的未来是什么?它会怎么运作?"
+ },
+ {
+  "seg": 134,
+  "start": 2560.865,
+  "end": 2589.905,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Where are people going to pay? Especially if you start to think about ecommerce worlds and you think about folks have Shopify stores, or you can even think about Amazon. Right? And normally, what we do is we go to some ecommerce store and we buy something from this Shopify store by having an experience on that website. Or we go to Amazon, and we pick out what we want, and then we buy something from Amazon, and it comes same day or the next day or whatever.",
+  "zh": "人们会在哪里付款?尤其是当你开始思考电商世界,你想到有 Shopify 店铺的 folks,或者你甚至可以想到 Amazon。对吧?通常,我们做的是去某个电商店铺,我们通过在那个网站上体验来从这个 Shopify 店铺买东西。或者我们去 Amazon,挑好我们想要的,然后从 Amazon 买东西,当天或第二天或什么时候送到。"
+ },
+ {
+  "seg": 135,
+  "start": 2589.985,
+  "end": 2597.505,
+  "speaker": "Demetrios Brinkmann",
+  "en": "But what happens when our whole experience is being done through the chat, and the agent is the one that's going, and",
+  "zh": "但当我们的整个体验都是通过聊天完成的,而智能体是那个去执行的一方,那会发生什么,"
+ },
+ {
+  "seg": 136,
+  "start": 2597.505,
+  "end": 2615.835,
+  "speaker": "Chris Benson",
+  "en": "Which is it is really where we're going. I mean, that's where I'm already trying to go. Don't want to be amazon.com. Spend, I always have chats open. I always have agents doing stuff, and I do my shopping that way, you know, and I only will go to where I have to do that.",
+  "zh": "而这确实就是我们正在走向的方向。我是说,我自己已经在试着这么做了。不想上 amazon.com。花钱,我总是开着聊天。我总是让智能体在干活,我就是这样购物的,你知道的,我只会在不得不的时候才去。"
+ },
+ {
+  "seg": 137,
+  "start": 2615.835,
+  "end": 2624.475,
+  "speaker": "Chris Benson",
+  "en": "And actually, at this point, even for Amazon, I just need the agents to buy the stuff within thresholds and stuff like that and be done with it. So, yeah, exactly what you're",
+  "zh": "实际上,到了这个地步,就连 Amazon,我也只需要智能体在阈值之类的范围内把东西买了,然后就完事。所以,对,正是你说的"
+ },
+ {
+  "seg": 138,
+  "start": 2624.475,
+  "end": 2653.795,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Well, here's what gets me about this is how there there's so many things that are big question marks in my mind. Right? The first one is, how is Amazon just gonna let that happen? A, because they normally, when you, a human user, log on to Amazon and you shop around, they get all that first party data, and that is used to serve up recommendations or it's used to get you on other things. Right?",
+  "zh": "好,这里让我在意的是,有太多东西在我脑子里是大大的问号。对吧?第一个是,Amazon 怎么会就这么放任那种情况发生?首先,因为通常,当你,一个人类用户,登录 Amazon 逛来逛去,他们拿到所有那些第一方数据,而那被用来推送推荐,或者被用来把你引向别的东西。对吧?"
+ },
+ {
+  "seg": 139,
+  "start": 2653.795,
+  "end": 2666.6702,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And hopefully, increase the amount of money that you spend on Amazon. Or, again, not singling out Amazon, there's plenty of other e commerce stores out there. We can just use Shopify John's e commerce store.",
+  "zh": "然后,理想情况下,增加你在 Amazon 上花的钱。或者,再说一次,不是单独针对 Amazon,外面还有很多其他电商店铺。我们就用 Shopify John 的电商店铺。"
+ },
+ {
+  "seg": 140,
+  "start": 2666.6702,
+  "end": 2667.23,
+  "speaker": "Chris Benson",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 141,
+  "start": 2667.23,
+  "end": 2698.1902,
+  "speaker": "Demetrios Brinkmann",
+  "en": "So, now what happens? They're just gonna be like, alright, cool. Well, now that it's an agent doing it, you don't understand the intent. You don't understand the agent just goes for the thing. It's using it in a way that you're not used to seeing a human use it, and it also bypasses all this stuff that we spent the last twenty, twenty five years optimizing, like the upsell or the pop ups or the all this stuff that it's like, oh, yeah, Chris, by the way, if you spend 3 more dollars, we're gonna give you free shipping.",
+  "zh": "那么,现在会发生什么?他们就会说,好吧,行。既然现在是智能体在做这件事,你不理解那个意图。你不理解,智能体就直接奔着那个东西去了。它以一种你 привы не习惯看到人类使用的方式在使用它,而且它还绕过了我们过去二十、二十五年优化出来的所有这些东西,像追加销售或者弹窗或者所有这种,哦,对,Chris,顺便说一下,如果你再多花 3 美元,我们就给你免运费。"
+ },
+ {
+  "seg": 142,
+  "start": 2698.67,
+  "end": 2711.585,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And the agent doesn't care about that. Right? The agent just gets the stuff and gets out. It doesn't have that kind of discernment, at least as of now. Maybe it'll come back to you and say, oh, Chris, by the way, there's these things.",
+  "zh": "而智能体不在乎那些。对吧?智能体就是拿到东西就走。它没有那种辨别力,至少目前没有。也许它会回来跟你说,哦,Chris,顺便说一下,有这些东西。"
+ },
+ {
+  "seg": 143,
+  "start": 2711.585,
+  "end": 2719.85,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Maybe, but maybe not. And so we're gonna have to start building our ecommerce websites to entice the agents, not the humans.",
+  "zh": "也许会,也许不会。所以我们将不得不开始构建我们的电商网站来吸引智能体,而不是人类。"
+ },
+ {
+  "seg": 144,
+  "start": 2719.85,
+  "end": 2721.53,
+  "speaker": "Chris Benson",
+  "en": "So that's where think agents,",
+  "zh": "所以这就是要 think agents 的地方,"
+ },
+ {
+  "seg": 145,
+  "start": 2721.53,
+  "end": 2730.8252,
+  "speaker": "Demetrios Brinkmann",
+  "en": "but we want the agents, we wanna entice them to go back and give you information. Right? So we've completely lost our relationship with the customer.",
+  "zh": "但我们想要智能体,我们想吸引它们回来并给你信息。对吧?所以我们已经完全失去了和客户的关系。"
+ },
+ {
+  "seg": 146,
+  "start": 2731.145,
+  "end": 2794.4202,
+  "speaker": "Chris Benson",
+  "en": "I agree. I think we're in transition. And going back when I was talking about having an Agentic interface instead of And this is where I think there's room, not just room, this is where I think it almost has to go, given the necessities of marketing branding, capturing the customer, holding the customer, enticing the customer with various incentives, that kind of thing, is that you can't just have your agents go to an MCP server. I think that's how things will start, but I think for the sellers, for the companies that are trying to produce that, I think that they have to have these agentic interfaces that are going beyond MCP, where you're just going out and getting access to a tool or something, but you're actually having a negotiation across agents where that can happen, and then agents on both sides are getting smarter, or it may be that you have combinations of purchasing agents, and then you have negotiation agents, and things like that. I talked about kind of the swarms.",
+  "zh": "我同意。我觉得我们处在过渡期。回到我之前说的拥有一个智能体化界面而不是——这就是我认为有空间的地方,不只是空间,这就是我认为它几乎必然会走向的方向,考虑到营销品牌、捕获客户、留住客户、用各种激励吸引客户等等的必要性,就是你不能只让你的智能体去访问一个 MCP server。我认为事情会那样开始,但对于卖家,对于那些试图生产这些的公司,我认为他们必须拥有超越 MCP 的智能体化界面,在 MCP 里你只是出去获得对一个工具或什么的访问,但你实际上是跨智能体进行一场谈判,在那里这些可以发生,然后双方的智能体都变得更聪明,或者可能是你有了采购智能体的组合,然后你有谈判智能体,诸如此类。我谈过那种 swarms。"
+ },
+ {
+  "seg": 147,
+  "start": 2794.4202,
+  "end": 2852.6301,
+  "speaker": "Chris Benson",
+  "en": "You may have a mini swarm that does your shopping where each agent has its own set of responsibilities, including the negotiation from the upsell and all the other concerns that come about. So I think that to make it incredibly rich in the agentic context, the same way they've been trying to do it in a human world, is to make that an agentic to agentic transaction transaction with with all those kind of communications that go on in there, and it may bring it back. And then you develop a profile yourself as a consumer of the things that are interesting to you and not, and so your agent learns your preferences, and then when a deal comes from the agent that it's interacting with, kind of upsell thing, your agent understands your behavior and what would be acceptable, and it can act autonomously to a certain degree to satisfy your wishes before you even know it's there. That's what I think is happening. I",
+  "zh": "你可能有一个为你购物的小型 swarm,其中每个智能体都有自己的一套职责,包括对追加销售的谈判以及随之而来的所有其他考虑。所以我认为,要让它在智能体化语境中变得极其丰富,就像他们在人类世界里一直试图做的那样,就是把它变成一个智能体对智能体的交易,包含其中进行的所有那种沟通,这也许能把它带回来。然后你自己作为一个消费者,发展出一个关于什么东西对你有吸引力、什么没有的画像,于是你的智能体学习你的偏好,然后当一笔来自它所交互的智能体的交易出现时,类似追加销售的东西,你的智能体理解你的行为和什么会是可接受的,它可以在一定程度上自主行动,在你甚至还没意识到它存在之前就满足你的愿望。这就是我认为正在发生的事。我"
+ },
+ {
+  "seg": 148,
+  "start": 2855.19,
+  "end": 2874.915,
+  "speaker": "Demetrios Brinkmann",
+  "en": "like that vision, and I do like the idea of, oh, it's gonna have its ear to the street, and constantly be getting hit up with offers, potentially, that's that's the world, and then it discerns whether or not it should tell you about the offer. Because the last thing we want is an agent that's constantly pinging us about, oh, there's this cool offer. There's this cool offer.",
+  "zh": "喜欢那个愿景,而且我确实喜欢这个想法,哦,它会耳听八方,持续不断地收到各种 offer,潜在的,那就是那个世界,然后它甄别是否应该告诉你这个 offer。因为我们最不想要的就是一个不停地 ping 我们的智能体,说,哦,有这个很酷的 offer。有这个很酷的 offer。"
+ },
+ {
+  "seg": 149,
+  "start": 2874.915,
+  "end": 2878.73,
+  "speaker": "Chris Benson",
+  "en": "Like, it'll have to know you. Yeah. Yeah. It's you'll have to",
+  "zh": "就像,它必须懂你。对。对。你必须得"
+ },
+ {
+  "seg": 150,
+  "start": 2878.73,
+  "end": 2906.525,
+  "speaker": "Demetrios Brinkmann",
+  "en": "learn you. There's there's a few things that for me are wild there. It is true that, yeah, we can fan out right now and create these swarms, and these agents can go off and hit a 100 different websites looking for shoes, right, and or one item that we're trying to shop for. But what happens when I go and I say, cool. So get me these shoes and that dress and that and this banana.",
+  "zh": "让你了解。有几点对我来说很疯狂。确实是这样，是的，我们现在可以扇出，创建这些蜂群，这些智能体可以分头去访问 100 个不同的网站去找鞋子，对吧，或者去找我们想买的一个商品。但当我走过去说，好，帮我把这些鞋子、那条裙子、还有这个香蕉都买回来，会发生什么？"
+ },
+ {
+  "seg": 151,
+  "start": 2907.15,
+  "end": 2933.415,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And the agent now, where are you gonna do the payments? And this is where why it all started for me. And so, first of all, actually, even taking another step back, does any of this even matter? Is there going to be a forcing function to create this reality if with browser use, I can already get what I want? So first of all, I will just say that, like, browser use is good enough for my agents to go and browse the front end Yeah.",
+  "zh": "现在这个智能体，你要在哪里做支付？这就是这一切对我来说的起点。所以，首先，实际上，再退一步说，这一切到底重不重要？如果我用浏览器使用就已经能得到我想要的东西，还会有强制性的推动力去创造这个现实吗？所以首先，我只想说，浏览器使用对我的智能体来说已经足够好，可以浏览前端了。是的。"
+ },
+ {
+  "seg": 152,
+  "start": 2933.495,
+  "end": 2947.3098,
+  "speaker": "Demetrios Brinkmann",
+  "en": "And get me what I want. So why is there going to be an incentive to create this new Internet where agents are talking to agents, you've got these swarms, and all this complex stuff happening? Because I just, I've already got what I need. Right? That's the point.",
+  "zh": "帮我拿到我想要的东西。那为什么还会有激励去创造这个新的互联网——智能体和智能体对话，有这些蜂群，还有所有这些复杂的事情在发生？因为我已经得到了我需要的东西。对吧？这就是关键。"
+ },
+ {
+  "seg": 153,
+  "start": 2947.3098,
+  "end": 2949.23,
+  "speaker": "Demetrios Brinkmann",
+  "en": "With BrowserView. It's a",
+  "zh": "用 BrowserView。这是个"
+ },
+ {
+  "seg": 154,
+  "start": 2949.23,
+  "end": 2949.5498,
+  "speaker": "Chris Benson",
+  "en": "good So",
+  "zh": "好事，那么"
+ },
+ {
+  "seg": 155,
+  "start": 2949.5498,
+  "end": 2972.77,
+  "speaker": "Demetrios Brinkmann",
+  "en": "that's where there's potential that it never happens. But I will I will go with you on this idea of, like, alright. If we do get there to the the swarms, and now I've just told my agent that I want three different things from three different merchants. The way that we do that today is, like, the agent will go to each one of these websites and it will buy them. Or it will tell us, hey.",
+  "zh": "这就是有可能这一切永远不会发生的地方。但我会在这一点上同意你的想法，比如，好吧，如果我们真的到了那个蜂群的阶段，现在我刚刚告诉我的智能体我想从三个不同的商家买三样不同的东西。我们今天做这件事的方式是，智能体会去访问每一个网站然后购买。或者它会告诉我们，嘿。"
+ },
+ {
+  "seg": 156,
+  "start": 2972.77,
+  "end": 2992.0151,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Here's here's the button. Are you okay to buy it? And we eventually click on it and say yes or no. But it's not that far off of a reality if we are living in this timeline where agents do that. When Anthropic or OpenAI, they say, well, why not just pay me directly as OpenAI?",
+  "zh": "这是购买按钮，你确定要买吗？然后我们最终点击它，说是或否。但如果我们生活在一个智能体真的这样做的时代线里，这离现实并不遥远。当 Anthropic 或 OpenAI 说，那为什么不直接以 OpenAI 的身份向我付款呢？"
+ },
+ {
+  "seg": 157,
+  "start": 2992.0151,
+  "end": 3014.335,
+  "speaker": "Demetrios Brinkmann",
+  "en": "I can be your payment processor, and you just pay me, and so then, you know what happens? You don't even need then you disintermediate Shopify. Like, why do I, as a merchant, even need to create a Shopify store? I just create the marketplace is all going towards the chat. And so now, what is is a marketplace now?",
+  "zh": "我可以做你的支付处理商，你直接付给我，然后你猜怎么着？你甚至不再需要——然后你就去中介化了 Shopify。比如，作为一个商家，我为什么还需要创建一个 Shopify 店铺？我只需要创建——市场全都转向聊天。那么现在，市场是什么呢？"
+ },
+ {
+  "seg": 158,
+  "start": 3014.335,
+  "end": 3028.81,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Is it just me creating an agent with my with all these different SKUs that is easily searchable, and then it can be bought through an agent on the chat, right? Do you see where I'm going with it?",
+  "zh": "是不是就变成了我创建一个包含我所有不同 SKU 的智能体，它可以被轻松搜索到，然后可以通过聊天里的智能体购买，对吧？你明白我想说什么吗？"
+ },
+ {
+  "seg": 159,
+  "start": 3028.81,
+  "end": 3057.19,
+  "speaker": "Chris Benson",
+  "en": "I do see where you're going, and I think that that also will I think what I'm saying is likely to happen, but I also think, inclusively, what you're saying, I think there'll be a lot of experimentation from different types of merchants on how that, and there will be third party marketplaces forming to see if that works. So I think we'll see all of those. I know as a consumer, I don't wanna be shopping. It's not what I do. I don't care about it.",
+  "zh": "我明白你想说什么了，我认为那也将会——我认为我说的很可能会发生，但我同时也认为，把你说的也包括在内，我认为不同类型的商家会在这方面做大量实验，也会有第三方市场形成来看这是否可行。所以我认为这些我们都会看到。作为消费者，我知道我不想购物。那不是我做的事。我不在乎这个。"
+ },
+ {
+  "seg": 160,
+  "start": 3057.19,
+  "end": 3113.4702,
+  "speaker": "Chris Benson",
+  "en": "But I will know that I will have all of my agents that are looking out for my interests, and they have learned me very, very well, and there is a lot of private profiling that, in other words, my agents profiling me and my wife and my daughter and our needs and how often we get things and when we need it, what the circumstances are, and my agents will learn that very well. And from my standpoint, I want good quality. I want it when I want it. I want to not spend too much money, and I don't really care where it comes from, if I can return it expeditiously as well and all that. So I'm gonna leave that to my agents at some point to figure out, you go to the marketplace, you go directly to an Agentic interface, you go to more of a Shopify or Amazon today and scrape it on the don't care, just make it happen, make sure all these things that I care about are in place, and don't bother me with it.",
+  "zh": "但我会知道，我会有所有维护我利益的智能体，它们非常非常了解我，并且有大量的私人画像，换句话说，我的智能体给我、我妻子、我女儿以及我们的需求、我们购买东西的频率、什么时候需要、在什么情况下做画像，而我的智能体会非常了解这些。从我的角度看，我想要好的质量。我想在我需要的时候拿到它。我不想花太多钱，我也不太在乎它从哪来，只要我能迅速退货等等。所以我在某个时候会把这一切留给我的智能体去解决，你去市场，你直接去一个智能体接口，你去更接近今天的 Shopify 或 Amazon 去抓取，我不在乎，只要把事情办成，确保我在乎的这些条件都到位，并且不要拿这些事烦我。"
+ },
+ {
+  "seg": 161,
+  "start": 3113.55,
+  "end": 3119.3901,
+  "speaker": "Chris Benson",
+  "en": "Period. That's where I'm going. Bang. That I'm a demanding customer.",
+  "zh": "就这样。这就是我的立场。砰。我是个要求很高的客户。"
+ },
+ {
+  "seg": 162,
+  "start": 3119.885,
+  "end": 3152.655,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Yeah. Yeah. And but don't that's why I feel like the friction, there's still some there's still some big question marks because the ideal scenario for us as a consumer is exactly what you just mapped out, where it knows us better than we know ourselves. Right? And I'm okay if I have an agent or my swarm of agents, my army of agents that I know are looking out for my best interest, I'm okay with giving it all the information it needs, and having like the top recommender system.",
+  "zh": "是的。是的。但是，难道不——这就是为什么我觉得摩擦，仍然有一些——仍然有一些很大的问号，因为作为消费者，理想场景正是你刚才描绘的那样，它比我们自己还了解我们。对吧？如果我有一个智能体，或者我的智能体蜂群、我的智能体大军，我知道它们在维护我的最大利益，我可以接受给它所需的全部信息，并且拥有一个顶级的推荐系统。"
+ },
+ {
+  "seg": 163,
+  "start": 3152.815,
+  "end": 3195.7002,
+  "speaker": "Demetrios Brinkmann",
+  "en": "It's like, I will gladly give you anything, any information. You can quiz me or grill me on my likes and dislikes, because I trust that you're looking out for my best interest. Right? Now the big question mark here and where OpenAI could potentially fumble is if they see that, wow, we could be the marketplace, and we can make money anytime there's a transaction that happens, wouldn't that incentivize them to only show things that are coming from their marketplace? So I know I'm making all kinds of big leaps here in, like, what the potential future could be, because OpenAI does not have a marketplace right now, and they've never stated that they wanna be a marketplace.",
+  "zh": "就像，我会乐意给你任何信息。你可以就我的喜好和厌恶来测验我、盘问我，因为我相信你在维护我的最大利益。对吧？现在这里的大问号，也就是 OpenAI 可能会搞砸的地方是，如果他们看到，哇，我们可以成为市场，而且每一次交易发生时我们都能赚钱，这难道不会激励他们只展示来自他们市场的东西吗？所以我知道我在这里做着各种大胆的跳跃，去想象潜在的未来可能是什么样，因为 OpenAI 现在并没有一个市场，他们也从未表示过想成为市场。"
+ },
+ {
+  "seg": 164,
+  "start": 3196.4202,
+  "end": 3239.945,
+  "speaker": "Demetrios Brinkmann",
+  "en": "But if this is one of the potential timelines, and you think about it, like, they would only push their own product. However, that could make me feel like, oh, well, they're taking advantage of me because they're playing both sides. They know everything about me, and then they're finding a way to leverage the what the merchants have on OpenAI. Like, I would feel like I wouldn't trust it as much if I knew that they were in the middle of it. But if it wasn't agent, like you were saying, where it is going out and doing the searching on my behalf out in the wild wild west of the agent verse, then maybe I would feel a little bit more okay with it.",
+  "zh": "但如果这是潜在的时代线之一，你想想看，他们只会推销自己的产品。然而，那可能会让我觉得，哦，好吧，他们在占我便宜，因为他们两边通吃。他们知道关于我的一切，然后又想办法利用商家在 OpenAI 上的东西。比如，如果我知道他们身处其中，我会觉得没那么信任它了。但如果它不是智能体——就像你说的——如果它是替我出去搜索、在那片智能体宇宙的狂野西部里行动的，那也许我会觉得稍微能接受一点。"
+ },
+ {
+  "seg": 165,
+  "start": 3239.945,
+  "end": 3242.76,
+  "speaker": "Demetrios Brinkmann",
+  "en": "I don't know. These are like the thought experiments.",
+  "zh": "我不知道。这些就像是思想实验。"
+ },
+ {
+  "seg": 166,
+  "start": 3242.76,
+  "end": 3260.9053,
+  "speaker": "Chris Benson",
+  "en": "I think it's gonna be messy. I think it's gonna be messy, and people will try it out. On that note, I'm gonna wind us up, and this has been a fun, fun conversation. I always love these. Getting you back on the show and talking about these things.",
+  "zh": "我觉得这会是一团糟。我觉得会是一团糟，人们会去尝试。说到这里，我要收尾了，这是一次非常有趣的对话。我一直很喜欢这些。欢迎你回到节目来聊这些话题。"
+ },
+ {
+  "seg": 167,
+  "start": 3261.7852,
+  "end": 3292.165,
+  "speaker": "Chris Benson",
+  "en": "I think we're just at a moment in time where any of these things that we've just talked about might happen. And I think it's worth talking about because things are happening so much faster than anyone's expecting right now that I wouldn't surprise to see some of these things occurring before this year is out, as people start experimenting. So we'll see. Our next conversation, we'll look back, and this one will seem so outdated. This will seem so",
+  "zh": "我认为我们正处在一个时刻，我们刚刚聊到的这些事情中的任何一件都可能发生。我认为这值得聊，因为现在事情发生的速度比任何人预期的都快得多，我不会惊讶于在年内就看到其中一些事情出现，因为人们开始实验了。我们拭目以待。我们下次对话时回头看，这一期会显得如此过时。这一期会显得如此"
+ },
+ {
+  "seg": 168,
+  "start": 3292.325,
+  "end": 3294.165,
+  "speaker": "Demetrios Brinkmann",
+  "en": "It will be great to What were we",
+  "zh": "到那时会很棒——我们在想"
+ },
+ {
+  "seg": 169,
+  "start": 3294.165,
+  "end": 3297.125,
+  "speaker": "Chris Benson",
+  "en": "thinking about that? Like, We oh my were so far off.",
+  "zh": "什么来着？就像，我们哦天哪，我们差得也太远了。"
+ },
+ {
+  "seg": 170,
+  "start": 3297.35,
+  "end": 3297.83,
+  "speaker": "Demetrios Brinkmann",
+  "en": "We were",
+  "zh": "我们"
+ },
+ {
+  "seg": 171,
+  "start": 3297.83,
+  "end": 3304.3901,
+  "speaker": "Chris Benson",
+  "en": "so far off and all that. And it was so so much more than what we were expecting. So we'll see. Anyway I'm excited",
+  "zh": "差得太远了，诸如此类。而且实际发生的事情比我们预期的多得多。我们拭目以待。总之，我很期待"
+ },
+ {
+  "seg": 172,
+  "start": 3304.3901,
+  "end": 3304.87,
+  "speaker": "Demetrios Brinkmann",
+  "en": "for it.",
+  "zh": "那个。"
+ },
+ {
+  "seg": 173,
+  "start": 3304.87,
+  "end": 3317.405,
+  "speaker": "Chris Benson",
+  "en": "Demetrios, thank you again for coming on and having conversation. I hope the viewers and listeners enjoyed it as much as I did. I got some cool topics, man. So I'll see you next time. Thanks for coming on the show.",
+  "zh": "Demetrios，再次感谢你来节目做客并交谈。我希望观众和听众像我一样享受它。我拿到了一些很酷的话题，伙计。那我们下次见。感谢你来节目。"
+ },
+ {
+  "seg": 174,
+  "start": 3317.405,
+  "end": 3318.0452,
+  "speaker": "Demetrios Brinkmann",
+  "en": "Ciao.",
+  "zh": "再见。"
+ },
+ {
+  "seg": 175,
+  "start": 3325.405,
+  "end": 3346.0352,
+  "speaker": "Narrator",
+  "en": "Alright. That's our show for this week. If you haven't checked out our website, head to practicalai.fm and be sure to connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the latest AI developments, and we would love for you to join the conversation. Thanks to our partner Prediction Guard for providing operational support for the show.",
+  "zh": "好了，这就是本周的节目。如果你还没看过我们的网站，请前往 practicalai.fm，并务必在 LinkedIn、X 或 Blue Sky 上与我们联系。你会看到我们发布与最新 AI 进展相关的见解，我们很乐意你加入讨论。感谢我们的合作伙伴 Prediction Guard 为节目提供运营支持。"
+ },
+ {
+  "seg": 176,
+  "start": 3346.2751,
+  "end": 3355.5576,
+  "speaker": "Narrator",
+  "en": "Check them out at predictionguard.com. Also, thanks to Breakmaster Cylinder for beats and to you for listening. That's all for now, but you'll hear from us again next week.",
+  "zh": "请访问 predictionguard.com 查看他们。同时，感谢 Breakmaster Cylinder 提供的节拍，也感谢你的收听。本期就到这里，我们下周再见。"
+ }
+]

@@ -1,0 +1,172 @@
+{
+  "title_zh": "当智能体学会替你操作电脑：聊天即新浏览器",
+  "tldr": "MLOps 社区创始人 Demetrios Brinkmann 谈 Agentic AI 基金会、Computer-Use 实战用法，以及 harness 融入模型与智能体购物时代的隐忧。",
+  "digest_md": "这一集聊的是智能体(agents,能自主执行任务的 AI)从「玩具」到「天天在用」的这一年：主持人 Chris Benson 请回了老朋友 Demetrios Brinkmann——他是 MLOps 社区的创始人，如今在 Agentic AI 基金会担任开发者体验负责人。最反直觉的一点是：Demetrios 曾是智能体最大的唱反调者，当年玩 baby AGI 被坑进递归循环、收到 OpenAI 约 80 美元的 API 账单，如今他公开认错：「它们当时就要来了，而且来势汹汹」，现在已经完全入坑 [13:46 Demetrios Brinkmann]。\n\n## MLOps 社区并入 Agentic AI 基金会\n\n事情的起点是 MCP(模型上下文协议，Anthropic 推出的、给智能体接入外部系统的标准协议)被捐赠给了 Linux 基金会，后者围绕它成立了 Agentic AI 基金会 [04:35 Demetrios Brinkmann]。「MCP 从 Anthropic 拥有的东西，变成了一个中立的管理机构在引导」，于是 MLOps 社区顺势并入，正在品牌重塑为 Agentic AI 社区 [05:10 Demetrios Brinkmann]。\n\n增长速度惊人：基金会成员公司已超过 250 家；大使计划收到超过一千份申请；本地社区分会已覆盖 80 多个城市、约 250 位分会负责人 [11:15 Demetrios Brinkmann]。\n\n活动上 Demetrios 也在下一盘大棋：九月十七日阿姆斯特丹的 Agent Con（欧洲旗舰活动）、十月二十二日圣何塞的北美场，以及日本 MCP Dev Summit。最特别的是阿姆斯特丹场配了一个 36 小时直播——白天直播主轨道，分组轨道全部录下后背靠背接播，他自己做 ESPN 风格的实况解说 [06:28 Demetrios Brinkmann]。\n\n## Computer-Use:人生被改变的实操\n\nOpenAI 最新模型(他说的版本是 5.6)发布后，配合 Computer-Use 技能(让模型直接像人一样操作电脑屏幕)，「我扔给它的事情几乎没有它完不成的」[14:26 Demetrios Brinkmann]。核心价值：再也不用为每件事找 API。他给出了几个真实工作流：\n\n- **买机票+自动值机**：让 Computer-Use 找最好的航班，付款前由他自己点按钮；再告诉智能体「盯着收件箱，看到值机邮件就去值机，把登机牌发我手机」——全程不用问 [18:23 Demetrios Brinkmann]。\n- **德国驾照换证**：小镇政府没有 API,但有一个网页。Computer-Use 直接创建了预约、生成了日历邀请、列好要带的材料和取消号码；改期只需要说一句话 [20:59 Demetrios Brinkmann]。\n- **LinkedIn 人脉整理**：LinkedIn 的 API 出了名地锁死，智能体自己发现可以下载全部数据，因 LinkedIn 要 48 小时打包发邮件，它「给自己设了个提醒，不停地查邮箱」，拿到数据后分析所有私信，筛出 500 人名单、写好个性化消息，甚至给每个人建了专属宣传网站 [31:52 Demetrios Brinkmann]。\n\n他最大的顿悟是：**遇到表单就该想到它**——「为什么我不直接让 Computer-Use 去做这整件事？表单，我再也不用填了」[22:28 Demetrios Brinkmann]。\n\n但两位主持人都承认信任红线：付款按钮仍自己点，有人设「20 美元以下自动买」的规则，Demetrios 仍不敢——「它可以一次花 20 美元、花个二十次，然后我就火了」[18:00 Demetrios Brinkmann]。\n\n## B2B 为什么难，MCP 与 Computer-Use 的分工\n\nto C 很美好，to B「祝你好运」[22:38 Demetrios Brinkmann]。行业标准化方向是 MCP,但要等所有机构的 MCP 服务器足够好、能被智能体「随手拿起来就用」，还需要成熟期。Computer-Use 的美妙正在于此：不用等对方建 MCP 服务器——「德国政府的车管所，我不确定他们什么时候会有一个我的智能体可以去对话的 MCP 服务器」[25:04 Demetrios Brinkmann]。\n\nDemetrios 认为消费者尝到这种「禁果」后，压力会传导到办公软件上：「如果我们在工作中做的事仍然笨重、必须非常技术化才能获得 AI 的进步，那我们就做错了」[29:51 Demetrios Brinkmann]。代价则是企业级的安全噩梦：公司里每个人用 Computer-Use 操作五个邮箱和全部 ERP 系统，「听起来太危险了」[25:53 Demetrios Brinkmann]。\n\n## Harness 正在被「吸进」模型里\n\n一个更技术层的观察：实验室提供的 harness(围绕模型的执行框架，含工具调用、系统提示词等)与模型本身的边界正在模糊。每次新模型发布后，系统提示词越用越长；下一个模型训练时，这一大段提示词「几乎就像被 RL 进了新模型」，于是提示词又能缩短——但这个过程「会产生一些奇怪的、糟糕的东西」[36:00 Demetrios Brinkmann]。\n\n代价已经显现：人们对 Claude Code 的体验非常不满，Demetrios 本人几乎停用了它——而六个月前，「Anthropic 干的所有破事我都忍了，因为他们的产品实在太优秀了」[35:21 Demetrios Brinkmann]。他引用朋友 Drew 转述的细节:Pi 的创造者 Mario 不得不和模型「对抗」，不让它发起 Claude Code 式的 API 调用——「我不得不和模型对抗，不让它表现得像它被训练时所用的那个 harness」[37:05 Demetrios Brinkmann]。逻辑上他仍然看好实验室：「他们拿到了所有关于人们怎么使用产品的数据」，理应做出最好的产品；但「就今天而言，情况不一定如此」[38:32 Demetrios Brinkmann]。\n\n实用解法是两个社区 skill:「bro」强制模型像给五岁小孩解释一样说话，治好 Opus 式啰嗦；「show me」让它给可视化而不是写一整本书 [40:19 Demetrios Brinkmann]。\n\n## 聊天是新浏览器，购物即将重构\n\nDemetrios 在首尔和一批刚加入基金会的支付公司聊出一个判断：「聊天在某种程度上就是新的浏览器」，我们离「所有事都在聊天里完成」不远了 [42:11 Demetrios Brinkmann]。他抛出几个大问号：\n\n- **电商的反击**：智能体绕过了电商二十五年优化的东西——追加销售、弹窗、「再多花 3 美元免运费」。「智能体不在乎，拿到东西就走」。所以「我们将不得不开始构建我们的电商网站来吸引智能体，而不是人类」[45:11 Demetrios Brinkmann]。\n- **去中介化**：如果 Anthropic 或 OpenAI 说「干脆直接付给我，我做你的支付处理商」，Shopify 就被绕过了——市场变成「一个包含我所有 SKU、能被搜索、能在聊天里被购买的智能体」[49:52 Demetrios Brinkmann]。\n- **最大的信任陷阱**：如果 OpenAI 既知道你的一切、又运营市场、每笔交易都抽成，「这难道不会激励他们只展示来自自己市场的东西？」——它两边通吃，你就没法信任它了 [53:16 Demetrios Brinkmann]。\n\nChris 的愿景是智能体蜂群(swarm,多智能体分工协作)：采购智能体、谈判智能体各司其职，你的智能体比你还懂你，「在你甚至还没意识到它存在之前就满足你的愿望」[46:34 Chris Benson]。而 Demetrios 保留了一个釜底抽薪的疑问：既然浏览器使用已经够好、能拿到我要的一切，「为什么还会有激励去创造这个智能体互操作的新互联网？」——它可能根本不会发生 [48:53 Demetrios Brinkmann]。\n\n## 本集带走\n\n- **遇到表单就是信号**：上网时每碰到一个要填的表单(值机、预约、注册)，先想「能不能整个任务都交给 Computer-Use」,而不只是填表那一步。\n- **两个立刻能用的 skill**:「bro」让模型用人话解释、「show me」让它给可视化，专治长篇大论看不懂。\n- **付款仍留给人**：让智能体找、比价、填表，最后一步的支付按钮自己点；「20 美元以下自动买」这类规则要想清楚它重复执行 20 次的后果。\n- **MCP 与 Computer-Use 是互补而非替代**：有 API/协议的用 MCP,没有的(政府网页、锁死 API 的平台)用 Computer-Use 兜底，不用等对方建设。\n- **harness 与模型的边界正在消失**：旧模型的系统提示词会被训练进新模型，选工具时注意「模型在偏袒自己实验室的 harness」,必要时考虑开源模型。",
+  "quotes": [
+    {
+      "en": "There are very few things that I can throw at it that it does not accomplish, which is wild.",
+      "zh": "我扔给它的事情几乎没有它完不成的，这太离谱了。",
+      "timestamp": "14:33",
+      "speaker": "Demetrios Brinkmann"
+    },
+    {
+      "en": "I'm like, why didn't I ask Computer-Use to do this whole task? Because I just got to this point where I realized, oh, forms, I don't have to fill out anymore.",
+      "zh": "我心想，我为什么不直接让 Computer-Use 去做这一整件事？因为我到了这个境界，意识到，哦，表单，我再也不用填了。",
+      "timestamp": "22:15",
+      "speaker": "Demetrios Brinkmann"
+    },
+    {
+      "en": "tasting this, like, forbidden fruit of, wow, things can really be that easy? Like, it can just work?",
+      "zh": "我们消费者正在尝到这种禁果的感觉：哇，事情真的可以这么容易吗？它真的可以直接就用？",
+      "timestamp": "25:23",
+      "speaker": "Demetrios Brinkmann"
+    },
+    {
+      "en": "If what we do at work still feels cumbersome or we have to be really technical in order to get the advances that AI brings, then we're doing it wrong.",
+      "zh": "如果我们在工作中做的事仍然感觉笨重，或者必须非常技术化才能获得 AI 带来的进步，那我们就做错了。",
+      "timestamp": "30:11",
+      "speaker": "Demetrios Brinkmann"
+    },
+    {
+      "en": "I have to fight against the model to not act like the harness that it was trained with.",
+      "zh": "我不得不和模型对抗，不让它表现得像它被训练时所用的那个 harness。",
+      "timestamp": "37:22",
+      "speaker": "Demetrios Brinkmann"
+    },
+    {
+      "en": "It would be really wild if the research labs didn't have the best product, because they're getting all of this data on how folks are using their products.",
+      "zh": "如果研究实验室不拥有最好的产品，那才真是疯了，因为他们拿到了所有关于人们如何使用他们产品的数据。",
+      "timestamp": "38:34",
+      "speaker": "Demetrios Brinkmann"
+    },
+    {
+      "en": "The chat is the new browser in a way.",
+      "zh": "聊天在某种程度上就是新的浏览器。",
+      "timestamp": "42:08",
+      "speaker": "Demetrios Brinkmann"
+    },
+    {
+      "en": "And so we're gonna have to start building our ecommerce websites to entice the agents, not the humans.",
+      "zh": "所以我们将不得不开始构建我们的电商网站来吸引智能体，而不是人类。",
+      "timestamp": "45:13",
+      "speaker": "Demetrios Brinkmann"
+    },
+    {
+      "en": "Your agent understands your behavior and what would be acceptable, and it can act autonomously to a certain degree to satisfy your wishes before you even know it's there.",
+      "zh": "你的智能体理解你的行为和什么会是可接受的，它可以在一定程度上自主行动，在你甚至还没意识到它存在之前就满足你的愿望。",
+      "timestamp": "47:19",
+      "speaker": "Chris Benson"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "13:46",
+      "speaker": "Demetrios Brinkmann",
+      "en": "I'm fully bought in now, and I am the first one to say that I was way wrong. Like, they were coming, and they came hard.",
+      "zh": "我现在完全入坑了，而且我是第一个承认自己大错特错的人。它们当时就要来了，而且来势汹汹。"
+    },
+    {
+      "timestamp": "14:26",
+      "speaker": "Demetrios Brinkmann",
+      "en": "There are very few things that I can throw at it that it does not accomplish, which is wild.",
+      "zh": "我扔给它的事情几乎没有它完不成的，这太离谱了。"
+    },
+    {
+      "timestamp": "14:57",
+      "speaker": "Demetrios Brinkmann",
+      "en": "So now I'd never have to worry about getting APIs for anything.",
+      "zh": "所以现在我再也不用为任何事情去搞 API 了。"
+    },
+    {
+      "timestamp": "18:00",
+      "speaker": "Demetrios Brinkmann",
+      "en": "I'm still afraid of that because I'm like, yeah, it can just buy something for $20 20 times, and then I'm pissed.",
+      "zh": "我还是怕这个，因为我会想，是啊，它可以一次花 20 美元、花个二十次，然后我就火了。"
+    },
+    {
+      "timestamp": "22:28",
+      "speaker": "Demetrios Brinkmann",
+      "en": "I'm like, why didn't I ask Computer-Use to do this whole task? Because I just got to this point where I realized, oh, forms, I don't have to fill out anymore.",
+      "zh": "我心想，我为什么不直接让 Computer-Use 去做这一整件事？因为我到了这个境界，意识到，哦，表单，我再也不用填了。"
+    },
+    {
+      "timestamp": "22:38",
+      "speaker": "Demetrios Brinkmann",
+      "en": "But if you're trying to do this in B2B, like, good luck, dude.",
+      "zh": "但如果你想在 B2B 里做这个，那祝你好运吧老兄。"
+    },
+    {
+      "timestamp": "25:04",
+      "speaker": "Demetrios Brinkmann",
+      "en": "Like, the German government DMV, I'm not sure they ever are gonna have an MCP server that my agent can go and talk to.",
+      "zh": "比如，德国政府的车管所，我不确定他们什么时候会有一个我的智能体可以去对话的 MCP 服务器。"
+    },
+    {
+      "timestamp": "25:30",
+      "speaker": "Demetrios Brinkmann",
+      "en": "We're tasting this, like, forbidden fruit of, wow, things can really be that easy? Like, it can just work?",
+      "zh": "我们消费者正在尝到这种禁果的感觉：哇，事情真的可以这么容易吗？它真的可以直接就用？"
+    },
+    {
+      "timestamp": "29:51",
+      "speaker": "Demetrios Brinkmann",
+      "en": "If what we do at work still feels cumbersome or we have to be really technical in order to get the advances that AI brings, then we're doing it wrong.",
+      "zh": "如果我们在工作中做的事仍然感觉笨重，或者必须非常技术化才能获得 AI 带来的进步，那我们就做错了。"
+    },
+    {
+      "timestamp": "31:52",
+      "speaker": "Demetrios Brinkmann",
+      "en": "So what it did is it set a reminder for itself to just kept checking my email, and so then once it got my data, then it analyzed everything.",
+      "zh": "于是它给自己设了一个提醒，不停地检查我的邮箱，然后一旦拿到了我的数据，它就把所有东西都分析了。"
+    },
+    {
+      "timestamp": "35:21",
+      "speaker": "Demetrios Brinkmann",
+      "en": "I put up with everything that was going on. There's so much drama in the news all the time because they had such a superior product.",
+      "zh": "当时发生的一切我都忍了。新闻里总是有那么多戏，因为他们的产品实在太优秀了。"
+    },
+    {
+      "timestamp": "36:34",
+      "speaker": "Demetrios Brinkmann",
+      "en": "I have to fight against the model to not act like the harness that it was trained with.",
+      "zh": "我不得不和模型对抗，不让它表现得像它被训练时所用的那个 harness。"
+    },
+    {
+      "timestamp": "38:32",
+      "speaker": "Demetrios Brinkmann",
+      "en": "It would be really wild if the research labs didn't have the best product, because they're getting all of this data on how folks are using their products.",
+      "zh": "如果研究实验室不拥有最好的产品，那才真是疯了，因为他们拿到了所有关于人们如何使用他们产品的数据。"
+    },
+    {
+      "timestamp": "42:11",
+      "speaker": "Demetrios Brinkmann",
+      "en": "The chat is the new browser in a way.",
+      "zh": "聊天在某种程度上就是新的浏览器。"
+    },
+    {
+      "timestamp": "45:11",
+      "speaker": "Demetrios Brinkmann",
+      "en": "And so we're gonna have to start building our ecommerce websites to entice the agents, not the humans.",
+      "zh": "所以我们将不得不开始构建我们的电商网站来吸引智能体，而不是人类。"
+    },
+    {
+      "timestamp": "48:53",
+      "speaker": "Demetrios Brinkmann",
+      "en": "So why is there going to be an incentive to create this new Internet where agents are talking to agents? Because I just, I've already got what I need.",
+      "zh": "那为什么还会有激励去创造这个智能体互操作的新互联网？因为我已经得到了我需要的东西。"
+    },
+    {
+      "timestamp": "53:16",
+      "speaker": "Demetrios Brinkmann",
+      "en": "Wouldn't that incentivize them to only show things that are coming from their marketplace?",
+      "zh": "这难道不会激励他们只展示来自他们市场的东西吗？"
+    },
+    {
+      "timestamp": "46:34",
+      "speaker": "Chris Benson",
+      "en": "Your agent understands your behavior and what would be acceptable, and it can act autonomously to a certain degree to satisfy your wishes before you even know it's there.",
+      "zh": "你的智能体理解你的行为和什么会是可接受的，它可以在一定程度上自主行动，在你甚至还没意识到它存在之前就满足你的愿望。"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊智能体,就是能自己动手干活的AI——这一年它们是怎么从玩具变成天天在用的工具的。请来的主角叫 Demetrios Brinkmann,MLOps 社区的创始人,如今在 Agentic AI 基金会当开发者体验负责人。有意思的是,这家伙曾经是智能体最大的唱反调者,当年玩 baby AGI 被坑进递归循环,还吃了一张 OpenAI 大约八十美元的账单。可如今公开认错,原话是:它们当时就要来了,而且来势汹汹。现在,已经完全入坑。\n\n那这个基金会是打哪儿来的?背景得先交代一下。Anthropic 推出了一个叫 MCP 的东西,模型上下文协议,说白了就是给智能体接入外部系统的标准接口。MCP 被捐给了 Linux 基金会,后者围绕它成立了 Agentic AI 基金会。用 Demetrios 的话说,MCP 从 Anthropic 自家拥有的东西,变成了一个中立机构在引导。于是 MLOps 社区顺势并入,正在改名叫 Agentic AI 社区。增长速度相当吓人:成员公司超过两百五十家,大使计划收到一千多份申请,本地分会铺到了八十多个城市。\n\n接下来是这期最实用的部分,Computer-Use,让模型像人一样直接操作电脑屏幕。OpenAI 出了新模型之后配合这个能力,Demetrios 的原话是:我扔给它的事情几乎没有它完不成的。核心价值就一条——再也不用为每件事去找 API 了。举几个真实例子。买机票,让智能体找最好的航班,付款前自己点按钮;然后告诉智能体盯着收件箱,看到值机邮件就去值机,登机牌发到手机上,全程不用再问。再比如德国驾照换证,小镇政府哪有什么 API,就一个网页,Computer-Use 直接建好预约、生成日历邀请、列好要带的材料。还有 LinkedIn,API 出了名地锁死,智能体自己发现可以下载数据,因为 LinkedIn 要四十八小时打包发邮件,它居然给自己设了个提醒,不停查邮箱,拿到数据后筛出五百人名单、写好个性化消息。\n\n讲到这儿,Demetrios 有个顿悟值得记住:遇到表单就该想到它。原话是,表单,我再也不用填了。不过信任红线两位主持人都认:付款按钮仍然自己点。有人设了二十美元以下自动买的规则,Demetrios 还是不敢——它可以一次花二十、花个二十次,然后我就火了。\n\n那企业里为什么用不上?to C 很美好,to B 只能说祝你好运。行业标准化靠 MCP,但要等所有机构的 MCP 服务器足够好,还得一段成熟期。Computer-Use 的美妙正在这:不用等对方建接口——德国政府的车管所,谁知道什么时候才会有智能体能对话的服务器。所以这两者是互补的:有协议的用 MCP,没有的用 Computer-Use 兜底。消费者尝到这个禁果之后,压力自然会传导到办公软件上,原话说得很重:如果我们在工作中做的事仍然笨重、必须非常技术化才能获得 AI 的进步,那我们就做错了。当然代价是企业级的安全噩梦,公司里每个人都能操作全部系统,听起来太危险了。\n\n再往技术深处走一步,有个更隐蔽的观察:harness,就是围绕模型的执行框架,工具调用、系统提示词这些,正在被吸进模型里。每次新模型发布,系统提示词越用越长,下一个模型训练时,这一大段几乎像被强化学习进了新模型,提示词又能缩短——但这个过程会产生一些奇怪的、糟糕的东西。后果已经显现:Demetrios 几乎停用了 Claude Code,而六个月前,Anthropic 干的所有破事都忍了,因为产品实在太优秀。有个细节很形象,Pi 的创造者不得不和模型对抗,原话是:不让它表现得像它被训练时所用的那个 harness。\n\n最后聊到一个更大的判断:聊天就是新的浏览器。智能体绕过了电商二十五年优化的所有东西——追加销售、弹窗、免运费话术,智能体不在乎,拿到东西就走。所以以后电商网站可能得建成吸引智能体、而不是吸引人的样子。更狠的问题是,如果 OpenAI 既知道你的一切、又运营市场、每笔交易还抽成,那它凭什么只推别家的东西?它两边通吃,你就没法信任它了。\n\n所以这期留给你的一句话是:表单,我再也不用填了——下次碰到要填的表单,先想想整件事能不能直接交给智能体去做。"
+}
