@@ -164,3 +164,17 @@ describe("drift #82 · 判官 token 预算(200 会把 JSON 截断成认不出 �
     expect(src).toContain("认不出 → 放行(fail-open)");
   });
 });
+
+describe("drift #97 · 源清单不是判据(曾误杀 TWIML)", () => {
+  it("★★★ system prompt 明令:不许用「源不在清单内」当拒绝理由", () => {
+    const src = readFileSync(new URL("../scripts/taste-judge.mjs", import.meta.url), "utf8");
+    expect(src).toContain("不是判据");
+    expect(src).toMatch(/绝不可用「该源不在清单内/);
+  });
+  it("★★★ 品味档案的源清单一节已标为历史记录(判官读的是这份文档)", () => {
+    const doc = readFileSync(new URL("../需求共创/内容品味档案.md", import.meta.url), "utf8");
+    const i = doc.indexOf("📡 源清单");
+    expect(i).toBeGreaterThan(-1);
+    expect(doc.slice(i, i + 400)).toContain("不是判据");
+  });
+});
