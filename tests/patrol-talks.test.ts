@@ -6,20 +6,7 @@ import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import {
-  parseChannelFeed,
-  parseVideosPage,
-  parseDurationText,
-  prefilterSkip,
-  indexPatrolLog,
-  dedupSkip,
-  parseVerdict,
-  judgeAllows,
-  extractChannelInfo,
-  verifyChannelTitle,
-  parseDotEnv,
-  loadSubscriptions,
-} from "../scripts/patrol-talks.mjs";
+import { parseChannelFeed, parseVideosPage, parseDurationText, prefilterSkip, indexPatrolLog, dedupSkip, parseVerdict, judgeAllows, extractChannelInfo, verifyChannelTitle, parseDotEnv, loadSubscriptions, fetchText, FETCH_RETRY } from "../scripts/patrol-talks.mjs";
 
 const FIX = resolve(dirname(fileURLToPath(import.meta.url)), "fixtures");
 const feedXml = readFileSync(resolve(FIX, "yt-channel-feed.xml"), "utf8");
@@ -215,5 +202,38 @@ describe("drift #82 · 演讲巡航判官同一 token 预算 bug", () => {
     expect(src).toContain('String(JUDGE_MAX_TOKENS)');
     expect(src).toMatch(/import \{ JUDGE_MAX_TOKENS \} from "\.\/taste-judge\.mjs"/);
     expect(src).not.toMatch(/"--max-tokens", *"200"/);
+  });
+});
+
+describe("drift #96 · 取 feed 要扛住代理抽风(实测 mihomo 会几分钟内 200→000→200)", () => {
+  const noSleep = () => Promise.resolve();
+  it("★★★ 连接层失败会重试,中途成功即返回(一次抽风不该让整个频道当轮归零)", async () => {
+    let n = 0;
+    const fetchImpl = async () => {
+      if (++n < 3) throw new Error("fetch failed");
+      return { ok: true, status: 200, text: async () => "<feed/>" };
+    };
+    const r = await fetchText("https://x/y", { fetchImpl, sleep: noSleep });
+    expect(r).toEqual({ ok: true, status: 200, text: "<feed/>" });
+    expect(n).toBe(3);
+  });
+  it("★★★ 连败到上限 → 抛错并点明「代理抽风」,不静默当成没内容", async () => {
+    let n = 0;
+    const fetchImpl = async () => { n++; throw new Error("fetch failed"); };
+    await expect(fetchText("https://x/y", { fetchImpl, sleep: noSleep })).rejects.toThrow(/代理抽风/);
+    expect(n).toBe(FETCH_RETRY + 1); // 首试 + 重试次数
+  });
+  it("★★★ HTTP 状态码**不**重试:404 是频道配错,重试无意义且拖慢整轮", async () => {
+    let n = 0;
+    const fetchImpl = async () => { n++; return { ok: false, status: 404, text: async () => "" }; };
+    const r = await fetchText("https://x/y", { fetchImpl, sleep: noSleep });
+    expect(r.status).toBe(404);
+    expect(n).toBe(1);
+  });
+  it("★★ 退避是递增的(别把抽风窗口里的重试挤在同一瞬间)", async () => {
+    const waits: number[] = [];
+    const fetchImpl = async () => { throw new Error("fetch failed"); };
+    await fetchText("https://x/y", { fetchImpl, sleep: async (ms: number) => { waits.push(ms); }, backoffMs: 1000 }).catch(() => {});
+    expect(waits).toEqual([1000, 2000, 3000]);
   });
 });

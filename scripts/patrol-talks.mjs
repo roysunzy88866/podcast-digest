@@ -246,9 +246,24 @@ function shOrThrow(cmd, args, opts = {}) {
   return r;
 }
 
-async function fetchText(url) {
-  const res = await fetch(url, { redirect: "follow", headers: BROWSER_HEADERS });
-  return { ok: res.ok, status: res.status, text: res.ok ? await res.text() : "" };
+// drift #96(2026-09-10 实测):Mac mini 的代理(mihomo:7890)会**间歇性抽风** —— 同一分钟内 github 从 200 变 000
+// 再变回 200,端口一直 LISTEN。巡航一天只跑三班,撞上坏窗口就「8 个频道全部 fetch failed」整轮归零
+// (patrol-log 里 git-pull-failed / discover-error / yt-dlp SSL EOF 都是同一根源)。
+// 修:网络层异常重试 —— **只重试抛出来的连接错**(代理抽风),HTTP 状态码不重试(404=频道配错,重试无意义)。
+export const FETCH_RETRY = 3;
+export const FETCH_BACKOFF_MS = 4000;
+export async function fetchText(url, { retries = FETCH_RETRY, fetchImpl = fetch, sleep = (ms) => new Promise((r) => setTimeout(r, ms)), backoffMs = FETCH_BACKOFF_MS } = {}) {
+  let last;
+  for (let i = 0; i <= retries; i++) {
+    try {
+      const res = await fetchImpl(url, { redirect: "follow", headers: BROWSER_HEADERS });
+      return { ok: res.ok, status: res.status, text: res.ok ? await res.text() : "" };
+    } catch (e) {
+      last = e; // 连接层失败(代理抽风/DNS/超时)才重试
+      if (i < retries) await sleep(backoffMs * (i + 1)); // 递增退避:4s / 8s / 12s
+    }
+  }
+  throw new Error(`取不到 ${url}(网络/代理连败 ${retries + 1} 次,多半是代理抽风):${last?.message ?? ""}`);
 }
 
 /** 订阅条目 → channelId。有 channelId 直用;只有 handle 时解析并防钓鱼校验(ADR 0018.6),不过校验响亮抛。 */
