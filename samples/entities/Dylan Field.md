@@ -46,7 +46,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]]
+[[Tibo Sottiaux]] [[Eric Simons]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]]
 
 </div>
 

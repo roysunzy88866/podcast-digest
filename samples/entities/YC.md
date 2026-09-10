@@ -50,7 +50,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Garry Tan]] · [[AGI]] · [[Claude]] · [[StarCloud]] · [[技能文件]] · [[推理]] · [[RAG]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":98,"Garry Tan":2,"AGI":20,"Claude":50,"StarCloud":3,"技能文件":2,"推理":5,"RAG":8,"主观能动性":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":99,"Garry Tan":2,"AGI":20,"Claude":50,"StarCloud":3,"技能文件":2,"推理":5,"RAG":8,"主观能动性":17}</script>
 
 <script>
 (function(){

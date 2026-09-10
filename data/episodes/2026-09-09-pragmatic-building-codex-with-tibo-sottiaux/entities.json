@@ -1,0 +1,2114 @@
+{
+  "episode_id": "2026-09-09-pragmatic-building-codex-with-tibo-sottiaux",
+  "podcast": "The Pragmatic Engineer",
+  "date": "2026-09-09",
+  "tags": [
+    "AI 编程",
+    "Codex",
+    "开源",
+    "代码评审",
+    "智能体"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "tibo-sottiaux",
+      "type": "person",
+      "role": "host",
+      "name": "Tibo Sottiaux",
+      "file": "Tibo Sottiaux",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集主线:OpenAI 的编程智能体产品,嘉宾从产品立项起领导其团队;用 Rust 写、CLI/SDK 开源、不绑定 OpenAI 模型,并已合并进 ChatGPT。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.491,
+            4.414
+          ],
+          "quote": "Codex is one of the most popular AI coding harnesses today, but how did it all start?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1,
+          "t": [
+            5.074,
+            9.717
+          ],
+          "quote": "Many of you will know today's guest, Tebow, from his generous and pretty frequent Codex usage resets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            10.297,
+            14.46
+          ],
+          "quote": "He was also there when Codex as a product started and has led the broader Codex team since.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            14.92,
+            19.163
+          ],
+          "quote": "Today we cover how Codex started and why it was built in Rust and made open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            19.683,
+            22.765
+          ],
+          "quote": "How coderies are changing inside the Codex team and OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            26.607,
+            32.511
+          ],
+          "quote": "What the merge of Codex into ChatGPT looked like and the many underappreciated engineering challenges of this project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            836.366,
+            851.573
+          ],
+          "quote": "And that's also, to me, what I've carried with me when building Codex, when building products, is having a community, listen to the community, just really focus on a really intense feedback loop, and then building something that is just",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            857.782,
+            860.706
+          ],
+          "quote": "And then, of course, you start to work pretty quickly on Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            887.238,
+            888.058
+          ],
+          "quote": "It's Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            947.319,
+            950.602
+          ],
+          "quote": "Those were truly the precursor to Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1020.177,
+            1027.946
+          ],
+          "quote": "And then that led to a sprint, which was like the initial cloud codex that we launched, which didn't really have PMF because it was like a little bit too high friction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1028.935,
+            1037.222
+          ],
+          "quote": "And we also launched the Codex CLI and we continued to push, but it was always this idea of, hey, how do we get models to really help here?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1044.128,
+            1048.793
+          ],
+          "quote": "But then you made this interesting decision where for Codex, you built it in Rust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1384.98,
+            1390.406
+          ],
+          "quote": "Like whenever we hire someone and they join the Codex team, it's like they've seen the repo before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1394.389,
+            1402.714
+          ],
+          "quote": "Yeah, it's like in onboarding, it's just like you use Codex to look at the repo, you know, with you and you ask some questions, but it's like, it's not a secret issue that you can get productive right away.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1486.556,
+            1494.298
+          ],
+          "quote": "And on top of the open source, one thing that surprised me about Codex, and I didn't even know about it until recently, it's not tied to the OpenAI models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1494.798,
+            1497.479
+          ],
+          "quote": "You can use other models with Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1867.089,
+            1877.915
+          ],
+          "quote": "Speaking of the harness, can you tell me how it works today in the sense of like, when I start a Codex task, does it run always on my machine?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2132.673,
+            2143.08
+          ],
+          "quote": "And I think it's the same thing that, you know, we ship like Codex remote where, you know, execution is like still happening on your laptop, but it would be wonderful if, you know, you didn't have to keep your laptop open.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2143.52,
+            2147.763
+          ],
+          "quote": "Can you tell me a bit on how in the past, how did you improve Codex?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2147.843,
+            2150.285
+          ],
+          "quote": "Because I remember when I first used Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2279.991,
+            2282.733
+          ],
+          "quote": "Inside of the Codex team, do you have specific goals?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2282.753,
+            2292.242
+          ],
+          "quote": "Do you say like, all right, right now the Codex as a harness and model combined is not very good at this, or it's kind of doing silly mistakes right here?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2292.282,
+            2299.288
+          ],
+          "quote": "Or how can I imagine how, as the engineering team, how you're working on the next version of Codex?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2419.484,
+            2428.926
+          ],
+          "quote": "The software development lifecycle on Codex in the sense of whenever a new engineer joins a team, any team, it's like, okay, how are things done here?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2449.931,
+            2455.173
+          ],
+          "quote": "When someone joins the Codex team, you know, they've clearly been contributing to the open source part.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2463.077,
+            2468.519
+          ],
+          "quote": "And then the thing that they hear the most about, like when they have a question is like, have you asked Codex?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2469.079,
+            2474.481
+          ],
+          "quote": "And Codex is just by default at OpenAI is like plugged into everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2490.334,
+            2499.984
+          ],
+          "quote": "And so the easiest way to understand the state of a project or who is working on something or why a decision was made is like Codex knows about it all internally.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2575.547,
+            2576.828
+          ],
+          "quote": "I talk it through with Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2577.008,
+            2584.435
+          ],
+          "quote": "Maybe I talk with it with some of my colleagues, like here's a cool new feature I'm going to build as my first contribution or first major contribution to Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2586.197,
+            2587.798
+          ],
+          "quote": "Obviously, I code it down with Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2599.668,
+            2603.45
+          ],
+          "quote": "You know, the thing is because Codex itself, it goes out to millions of people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2613.975,
+            2633.454
+          ],
+          "quote": "But it's surprisingly a similar process, whether you ship on Codex or ChatGPT, even though ChatGPT goes out to a billion active users and growing, you can ship a PR, you can make a change and get it shipped the next day or even the same day, and it just goes out to a billion users and it's fine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2814.79,
+            2822.584
+          ],
+          "quote": "One of the early projects that I did on Codex was working with research on developing a code review model that was",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3083.185,
+            3095.212
+          ],
+          "quote": "Inside of Codex and OpenAI, what do you see maintenance becoming cheaper changing in terms of, instead of what you're building, what the ambition is, the, I guess, custom tooling, those kinds of things?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3625.186,
+            3630.069
+          ],
+          "quote": "And so I, you know, I will send off Codex to just like look at it overnight.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 729,
+          "t": [
+            3646.098,
+            3647.579
+          ],
+          "quote": "The slash goal command to Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 738,
+          "t": [
+            3680.504,
+            3695.914
+          ],
+          "quote": "Speaking of hard problems and the fact that you're not out of them, one of the interesting things that you've shipped from the outside, I would say it was, you know, as an engineer, it was moderately interesting, is the, what you call the merge, which is Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 740,
+          "t": [
+            3697.935,
+            3702.017
+          ],
+          "quote": "And the reason I say that as engineers is kind of moderately interesting because we've been using Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 744,
+          "t": [
+            3705.539,
+            3710.662
+          ],
+          "quote": "Like, I just went there and I just immediately went to Codex because I don't really use ChatGPT in the app per se.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3727.09,
+            3732.912
+          ],
+          "quote": "And how did Codex and other tools help you get it done in ways that would have been hard before?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 749,
+          "t": [
+            3732.932,
+            3742.155
+          ],
+          "quote": "Because since you've launched the merge, the numbers that you keep sharing of how many people use Codex, it's going up way faster than before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 758,
+          "t": [
+            3772.711,
+            3774.132
+          ],
+          "quote": "Codex, fully local.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3822.902,
+            3832.411
+          ],
+          "quote": "ChatGPT work is essentially running the full Codex harness together with a cloud computer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 774,
+          "t": [
+            3859.696,
+            3861.557
+          ],
+          "quote": "And then Codex just works on it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 777,
+          "t": [
+            3868.62,
+            3875.363
+          ],
+          "quote": "Obviously, Codex helped to make it more efficient, look at and build a lot of the infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 778,
+          "t": [
+            3876.443,
+            3892.509
+          ],
+          "quote": "And then help resolve a lot of the little differences as well that had been occurring between Codex and ChatGPT, like merging plugins, architecture, merging library, and really, really working towards a unified system, which is really the goal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3892.549,
+            3897.49
+          ],
+          "quote": "You shouldn't feel like you can do something in Codex that you can't do in ChatGPT or vice versa.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 781,
+          "t": [
+            3904.873,
+            3915.342
+          ],
+          "quote": "And so it was very fun as well because Codex throughout the whole journey also acted as a journalist to sort of like document all the steps and the debates and the discussions that the teams were having.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 784,
+          "t": [
+            3927.211,
+            3933.837
+          ],
+          "quote": "And so there's like a very fun journalistic element to it where we have a full recounting that Codex did over time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 791,
+          "t": [
+            3975.798,
+            3978.1
+          ],
+          "quote": "And how do you personally use Codex?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 796,
+          "t": [
+            4002.878,
+            4022.994
+          ],
+          "quote": "My calendar is fine and it's just I am capable of doing so many more things nowadays because I have the technology like Codex and I actually shifted a lot of like my work on mobile using ChatGPT work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 806,
+          "t": [
+            4071.181,
+            4084.265
+          ],
+          "quote": "And so there's pretty much like, there's no question really that I feel I cannot ask that, you know, Codex will be able to sort of like do at least a first pass of thinking through, whether it is like public sentiment on a feature, looking at production logs for",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 821,
+          "t": [
+            4152.37,
+            4167.753
+          ],
+          "quote": "And as closing, what would your advice be for a software engineer, such as AI engineer, someone who builds software, who would want to get the skillset and the experience to have the opportunity to work at a place like the Codex team, like OpenAI or like an AI startup.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 848,
+          "t": [
+            4298.119,
+            4304.984
+          ],
+          "quote": "From the inside the Codex team see their job as building clutches for the model with the harness, the tools and the setup instruction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 853,
+          "t": [
+            4331.945,
+            4336.987
+          ],
+          "quote": "I also enjoyed hearing what the merge, merging ChatGPT and Codex look like from the inside.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 854,
+          "t": [
+            4337.587,
+            4351.231
+          ],
+          "quote": "It was merging a previously fully local coding agent, Codex, into a managed cloud-based stack and doing it efficient enough so that it can be included in OpenAI's $20 per month plan when $20 is not all that much in terms of compute purchase.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 855,
+          "t": [
+            4351.971,
+            4361.936
+          ],
+          "quote": "It was pretty amusing to hear how Codex itself acted as a journalist of the whole project, as it was present in all the Slack conversations and all the documents, and so it could capture all the important debates and decisions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 860,
+          "t": [
+            4387.408,
+            4392.85
+          ],
+          "quote": "Do check out the show notes below for deep dives on how Codex, Claude Code, and Cursor were built and other related topics.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "嘉宾 2024 年加入的公司,Codex 所在;内部 Codex 默认接入一切,安全检查是全 OpenAI 所有 PR 的强制项。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            19.683,
+            22.765
+          ],
+          "quote": "How coderies are changing inside the Codex team and OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            32.831,
+            37.994
+          ],
+          "quote": "If you want to understand how teams inside of OpenAI plan, review and ship software, this episode is for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            252.275,
+            253.636
+          ],
+          "quote": "To be here at OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            383.457,
+            391.799
+          ],
+          "quote": "And I remember 2015, Google was a really, really competitive place to get into, like maybe as competitive as OpenAI is today in terms of the industry or in terms of prestige.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            767.232,
+            768.453
+          ],
+          "quote": "OpenAI was just like crushing it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            773.159,
+            775.062
+          ],
+          "quote": "I met a couple of people from OpenAI and then...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            805.68,
+            811.166
+          ],
+          "quote": "And then I joined pre-reasoning efforts immediately, like typical OpenAI fashions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            918.649,
+            921.73
+          ],
+          "quote": "And so when I joined OpenAI, it was like with the same idea.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            950.642,
+            966.712
+          ],
+          "quote": "And this was like we were training internal models to be very proficient on the Python code base of OpenAI, and then very proficient with having good taste in architecture, good taste in code style.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1003.684,
+            1012.149
+          ],
+          "quote": "And so he just sort of encouraged that we would be thinking about this, not just as a tool for OpenAI itself, but also as something that we would actually make it through a product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1224.78,
+            1240.866
+          ],
+          "quote": "It's not a given, especially, you know, there used to be jokes about OpenAI having things closed, but this is actually the opposite, where like this is open, whereas like some competitors would ship closed source harnesses, which again, I think it's very easy to understand why you want something closed source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1486.556,
+            1494.298
+          ],
+          "quote": "And on top of the open source, one thing that surprised me about Codex, and I didn't even know about it until recently, it's not tied to the OpenAI models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1578.95,
+            1587.657
+          ],
+          "quote": "So it's like maybe today you love using OpenAI models and you're super productive with them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2469.079,
+            2474.481
+          ],
+          "quote": "And Codex is just by default at OpenAI is like plugged into everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2878.54,
+            2891.909
+          ],
+          "quote": "This is also true for security, for example, where they're capable of reasoning across very, very complex things and then coming up with, hey, you have a critical security vulnerability here, which is now mandatory across all of OpenAI pull requests.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3083.185,
+            3095.212
+          ],
+          "quote": "Inside of Codex and OpenAI, what do you see maintenance becoming cheaper changing in terms of, instead of what you're building, what the ambition is, the, I guess, custom tooling, those kinds of things?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3213.263,
+            3219.967
+          ],
+          "quote": "I remember when I talked with Peter Steinberger, that was before he joined OpenAI, but about OpenClaw and how he thinks about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3341.94,
+            3345.061
+          ],
+          "quote": "But how do you and the folks at OpenAI like deal with it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3470.887,
+            3476.792
+          ],
+          "quote": "And so what it allows us to do at OpenAI, it allows us to run our inference much more efficiently.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 745,
+          "t": [
+            3711.363,
+            3720.428
+          ],
+          "quote": "But I talked with folks at OpenAI and people in your team and, you know, they were telling me like there was a lot of preparation going on, a lot of engineering challenges.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3791.54,
+            3799.145
+          ],
+          "quote": "Which is also why all of us joined OpenAI is to benefit this very, very broad population across the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 785,
+          "t": [
+            3934.977,
+            3948.904
+          ],
+          "quote": "And yeah, it's just it's kind of become known as well as like the toggle arc of OpenAI, where, you know, we introduced like the work toggle, which there was also a lot of debate around of like, you know, whether this was like the right thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 821,
+          "t": [
+            4152.37,
+            4167.753
+          ],
+          "quote": "And as closing, what would your advice be for a software engineer, such as AI engineer, someone who builds software, who would want to get the skillset and the experience to have the opportunity to work at a place like the Codex team, like OpenAI or like an AI startup.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 828,
+          "t": [
+            4195.739,
+            4208.43
+          ],
+          "quote": "But people that do externally well at OpenAI are like, you know, people that just sort of like are able to like grok a system quickly and like, you know, also dive into like a new code base and sort of like, you know, make sense of it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 854,
+          "t": [
+            4337.587,
+            4351.231
+          ],
+          "quote": "It was merging a previously fully local coding agent, Codex, into a managed cloud-based stack and doing it efficient enough so that it can be included in OpenAI's $20 per month plan when $20 is not all that much in terms of compute purchase.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集讲了 Codex 合并进 ChatGPT 的工程:ChatGPT 是完全托管、云端、为规模和效率而建的技术栈,目标是纳入 20 美元 plus 套餐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            26.607,
+            32.511
+          ],
+          "quote": "What the merge of Codex into ChatGPT looked like and the many underappreciated engineering challenges of this project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            559.043,
+            572.357
+          ],
+          "quote": "And a fun story that you recently shared on X as well is how you were part of the team that built this internal Googlebot that was, if you want to say, similar to ChatGPT, but a year before ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            769.475,
+            772.599
+          ],
+          "quote": "I thought ChatGPT was like, you know, taking off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            776.182,
+            779.384
+          ],
+          "quote": "You know, you only have like 20 people working on ChatGPT?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1921.599,
+            1935.114
+          ],
+          "quote": "But it is something that is evolving and shifting, where you can select to run this in the cloud, which then runs in a managed VM, where it's the same VM that you get through ChatGPT work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2108.447,
+            2113.649
+          ],
+          "quote": "It's like one thing that we've seen a ton of success with with ChatGPT work is like, it's just available on your mobile.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2607.913,
+            2612.056
+          ],
+          "quote": "But if it's ChatGPT, then it also goes out to like even a lot bigger number of people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2613.975,
+            2633.454
+          ],
+          "quote": "But it's surprisingly a similar process, whether you ship on Codex or ChatGPT, even though ChatGPT goes out to a billion active users and growing, you can ship a PR, you can make a change and get it shipped the next day or even the same day, and it just goes out to a billion users and it's fine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 739,
+          "t": [
+            3696.494,
+            3697.915
+          ],
+          "quote": "appeared inside of ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 742,
+          "t": [
+            3703.098,
+            3705.219
+          ],
+          "quote": "You can now open it in the ChatGPT app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 744,
+          "t": [
+            3705.539,
+            3710.662
+          ],
+          "quote": "Like, I just went there and I just immediately went to Codex because I don't really use ChatGPT in the app per se.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 754,
+          "t": [
+            3754.259,
+            3759.562
+          ],
+          "quote": "ChatGPT is fully managed, cloud-based.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3822.902,
+            3832.411
+          ],
+          "quote": "ChatGPT work is essentially running the full Codex harness together with a cloud computer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 767,
+          "t": [
+            3838.737,
+            3846.632
+          ],
+          "quote": "So, you know, if you are creative with the prompt is that, you know, you can get ChatGPT to, like, you know, train another model in there, you know.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 778,
+          "t": [
+            3876.443,
+            3892.509
+          ],
+          "quote": "And then help resolve a lot of the little differences as well that had been occurring between Codex and ChatGPT, like merging plugins, architecture, merging library, and really, really working towards a unified system, which is really the goal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3892.549,
+            3897.49
+          ],
+          "quote": "You shouldn't feel like you can do something in Codex that you can't do in ChatGPT or vice versa.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 790,
+          "t": [
+            3969.775,
+            3975.138
+          ],
+          "quote": "But over time, we're bringing this, you know, all the way to like, you know, everyone that uses ChatGPT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 796,
+          "t": [
+            4002.878,
+            4022.994
+          ],
+          "quote": "My calendar is fine and it's just I am capable of doing so many more things nowadays because I have the technology like Codex and I actually shifted a lot of like my work on mobile using ChatGPT work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 853,
+          "t": [
+            4331.945,
+            4336.987
+          ],
+          "quote": "I also enjoyed hearing what the merge, merging ChatGPT and Codex look like from the inside.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-work",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT work",
+      "file": "ChatGPT work",
+      "primary": true,
+      "how_described": "云端运行完整 Codex harness 加一台强大云机器的产品;嘉宾把大量工作移到手机上的 ChatGPT work,语音听写派任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 404,
+          "t": [
+            1921.599,
+            1935.114
+          ],
+          "quote": "But it is something that is evolving and shifting, where you can select to run this in the cloud, which then runs in a managed VM, where it's the same VM that you get through ChatGPT work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2108.447,
+            2113.649
+          ],
+          "quote": "It's like one thing that we've seen a ton of success with with ChatGPT work is like, it's just available on your mobile.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3822.902,
+            3832.411
+          ],
+          "quote": "ChatGPT work is essentially running the full Codex harness together with a cloud computer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 796,
+          "t": [
+            4002.878,
+            4022.994
+          ],
+          "quote": "My calendar is fine and it's just I am capable of doing so many more things nowadays because I have the technology like Codex and I actually shifted a lot of like my work on mobile using ChatGPT work.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集核心框架:「harness 总是比模型领先一点」——它是围绕模型的工具与执行框架,给模型配拐杖(护栏、安全、效率、可控性),随模型变强而缩减。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 274,
+          "t": [
+            1311.578,
+            1319.963
+          ],
+          "quote": "But also we didn't have all the answers and sort of being very open about, hey, this is what a good harness looks like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1523.003,
+            1531.33
+          ],
+          "quote": "Part of this community and building an excellent coding harness is like, why would you couple it to your model?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1614.094,
+            1618.395
+          ],
+          "quote": "So, you know, we try them in the same harness and, you know, it's just all good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1636.052,
+            1647.722
+          ],
+          "quote": "But I kind of appreciate it because I feel to me like it's kind of honest, like, look, like it forces the whole company to be to compete the best in everywhere in the model layer and the harness layer with open source with with chooseable models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1867.089,
+            1877.915
+          ],
+          "quote": "Speaking of the harness, can you tell me how it works today in the sense of like, when I start a Codex task, does it run always on my machine?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2176.576,
+            2182.918
+          ],
+          "quote": "As a dev, how can I imagine you making each version better between the harness and then between the model?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2187.52,
+            2192.602
+          ],
+          "quote": "So the harness, in a sense, is always a little bit ahead of the model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2219.028,
+            2220.649
+          ],
+          "quote": "And so that's the role of the harness, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2227.912,
+            2240.579
+          ],
+          "quote": "And then the harness usually is also responsible for, you know, what we call like the developer message, which is sort of like infected in the context at the start of each turn.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2249.528,
+            2254.313
+          ],
+          "quote": "A lot of what you have is the result of the harness and the model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2272.21,
+            2279.636
+          ],
+          "quote": "So over time, what we see is like the system, the developer message shrinks and then the harness also shrinks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2282.753,
+            2292.242
+          ],
+          "quote": "Do you say like, all right, right now the Codex as a harness and model combined is not very good at this, or it's kind of doing silly mistakes right here?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2324.761,
+            2334.114
+          ],
+          "quote": "And it's a process where it's a collaboration between research and the engineering team, like primarily building the core agent harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2347.346,
+            2354.031
+          ],
+          "quote": "And then, you know, we always sort of like look at it as like, OK, this should this be like a harness change or should this be a model change?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2361.557,
+            2374.405
+          ],
+          "quote": "And then depending on how soon we can just fix it in the model, at which level of training, then we might decide to not even do something in the harness at all and just wait for the model to solve it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 731,
+          "t": [
+            3648.12,
+            3651.442
+          ],
+          "quote": "And back to, you know, maybe like the harness is a crutch, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3674.439,
+            3675.66
+          ],
+          "quote": "You don't need a harness around it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3822.902,
+            3832.411
+          ],
+          "quote": "ChatGPT work is essentially running the full Codex harness together with a cloud computer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 847,
+          "t": [
+            4293.376,
+            4297.639
+          ],
+          "quote": "Another interesting one was Tebow saying how the harness is always a step ahead of the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 848,
+          "t": [
+            4298.119,
+            4304.984
+          ],
+          "quote": "From the inside the Codex team see their job as building clutches for the model with the harness, the tools and the setup instruction.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复出现的通用主线:Codex 是编码智能体,智能体核心与产品界面要干净分离;OpenAI 内部用智能体分析反馈、贡献代码,软件生命周期被压缩到一个周末。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            100.144,
+            106.569
+          ],
+          "quote": "If you're building a multi-tenant AI product, every user and their agent can have their own dedicated search index without any overhead.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1073.751,
+            1083.178
+          ],
+          "quote": "From first principles, like we very early on, we were thinking about the product interface and the agent as different things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1087.705,
+            1100.699
+          ],
+          "quote": "to build the core of the agent in a way that was robust, that was secure as well, that was, you know, engineered for efficiency and skill.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1183.667,
+            1191.41
+          ],
+          "quote": "But having a very clean separation between the agent itself, which can exist irrespective of the product,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1242.347,
+            1253.121
+          ],
+          "quote": "There was something really cool about the idea of having the code open source because fundamentally what you're billing is you're billing a coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1691.799,
+            1695.802
+          ],
+          "quote": "Like it or not, Git is becoming a bottleneck for modern agent-heavy software development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1745.767,
+            1750.888
+          ],
+          "quote": "I find that the prompt and conversation with the agent carries more information than the PR itself, at least for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1751.308,
+            1758.393
+          ],
+          "quote": "Entire captures all the prompt history with your agent right in the repo, easy to check back, and has a pretty innovative UI to show all of this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1768.339,
+            1771.401
+          ],
+          "quote": "Oh, and did I mention that it works with any agent and it's open source?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1823.794,
+            1830.935
+          ],
+          "quote": "JaneStreet, Fly.io, and the etcd community ship agent-written code with full confidence because they know it's been verified by Antisysys.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2072.536,
+            2078.882
+          ],
+          "quote": "So like the setup cost and this maintenance cost is like if your agent is capable of doing it, you know, it should just do it for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2241.519,
+            2249.127
+          ],
+          "quote": "And so that affects, obviously, the purpose of that is to affect the behavior of the agent throughout the turn.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2324.761,
+            2334.114
+          ],
+          "quote": "And it's a process where it's a collaboration between research and the engineering team, like primarily building the core agent harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2515.455,
+            2518.577
+          ],
+          "quote": "And so that, you know, your agent can go through things and like, you know, reason through things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2685.111,
+            2688.776
+          ],
+          "quote": "And so like the overall power of the agent and making things better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2807.228,
+            2810.332
+          ],
+          "quote": "Did you find it fine to hand it off to an agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 622,
+          "t": [
+            3050.636,
+            3057.76
+          ],
+          "quote": "And I think that is then worthy, you know, having like a really good conversation on, you know, maybe assisted by your favorite agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3372.434,
+            3377.217
+          ],
+          "quote": "Because I'm sure there's stuff that you've been really good at related to software that now you can hand off to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 760,
+          "t": [
+            3778.995,
+            3790.403
+          ],
+          "quote": "the same benefits and the same capabilities from this local coding agent and then build a product around it and build it in a way where it can benefit like a much much broader pool of people which is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 811,
+          "t": [
+            4099.231,
+            4103.653
+          ],
+          "quote": "It's like my personal agent in like all the ways.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 854,
+          "t": [
+            4337.587,
+            4351.231
+          ],
+          "quote": "It was merging a previously fully local coding agent, Codex, into a managed cloud-based stack and doing it efficient enough so that it can be included in OpenAI's $20 per month plan when $20 is not all that much in terms of compute purchase.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rust",
+      "type": "concept",
+      "role": "concept",
+      "name": "Rust",
+      "file": "Rust",
+      "primary": true,
+      "how_described": "本集解释了为什么反直觉地用 Rust 写 Codex:静态编译验证对智能体友好,Rust 边界在物理上强制智能体核心与产品分离。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.92,
+            19.163
+          ],
+          "quote": "Today we cover how Codex started and why it was built in Rust and made open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1044.128,
+            1048.793
+          ],
+          "quote": "But then you made this interesting decision where for Codex, you built it in Rust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1049.333,
+            1053.036
+          ],
+          "quote": "And at the time, the model was not on distribution for Rust, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1053.096,
+            1055.979
+          ],
+          "quote": "It wasn't as good as it was in Rust and it was in Python or TypeScript.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1065.966,
+            1069.589
+          ],
+          "quote": "Most of the other harnesses built were actually not built in Rust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1122.8,
+            1127.064
+          ],
+          "quote": "And so it's a trade-off, but we had very prolific and amazing Rust developers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1127.485,
+            1130.188
+          ],
+          "quote": "Our internal models were not bad at Rust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1137.838,
+            1148.229
+          ],
+          "quote": "So it turns out it was quite clear that Rust as a language would actually be quite good for agents fairly quickly if we decided to put some effort into it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1209.477,
+            1212.178
+          ],
+          "quote": "Like the Rust boundary, in a sense, was very useful for that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "Codex 的 CLI、SDK 全开源,是所有大实验室中独一无二的;好处是社区改进和快速入职,代价是被抄袭和应付随机贡献的「额外的税」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.92,
+            19.163
+          ],
+          "quote": "Today we cover how Codex started and why it was built in Rust and made open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1212.815,
+            1219.778
+          ],
+          "quote": "One interesting decision that you made, which is unique across all of the major labs, is having this built-in open source, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1219.818,
+            1223.159
+          ],
+          "quote": "The CLI is open source, the SDK and the apps driver are all open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1240.946,
+            1242.047
+          ],
+          "quote": "Why did you want it open source?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1242.347,
+            1253.121
+          ],
+          "quote": "There was something really cool about the idea of having the code open source because fundamentally what you're billing is you're billing a coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1268.436,
+            1278.523
+          ],
+          "quote": "Also, it felt at the time is like, you know, very clear to us that if we were going to be successful, open source itself would change and the role of code itself would change.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1330.209,
+            1336.172
+          ],
+          "quote": "There's like, you know, crazy smart people is like, you know, we're going to get inspired by other open source project as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1353.619,
+            1362.362
+          ],
+          "quote": "But looking back or taking the experience, what are the benefits you've seen, the kind of enduring benefits, the enduring teams benefits from being open source?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1362.422,
+            1366.843
+          ],
+          "quote": "And just honestly, what are things that are kind of hard about being open source, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1411.4,
+            1412.621
+          ],
+          "quote": "Right, open source is changing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1486.556,
+            1494.298
+          ],
+          "quote": "And on top of the open source, one thing that surprised me about Codex, and I didn't even know about it until recently, it's not tied to the OpenAI models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1547.204,
+            1550.107
+          ],
+          "quote": "It's the same reasoning with, you know, it is open source in the first place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1636.052,
+            1647.722
+          ],
+          "quote": "But I kind of appreciate it because I feel to me like it's kind of honest, like, look, like it forces the whole company to be to compete the best in everywhere in the model layer and the harness layer with open source with with chooseable models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1768.339,
+            1771.401
+          ],
+          "quote": "Oh, and did I mention that it works with any agent and it's open source?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2449.931,
+            2455.173
+          ],
+          "quote": "When someone joins the Codex team, you know, they've clearly been contributing to the open source part.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3378.758,
+            3390.746
+          ],
+          "quote": "You know, we talked about it stinging for your features to be implemented open source, but it can also sting that I've been really good at, like, I don't know, refactoring or right now it might be architecture, but maybe the model will be really good at that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 844,
+          "t": [
+            4275.825,
+            4280.128
+          ],
+          "quote": "I appreciated how Tebow talked about not just the upsides of open source but also the downsides.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说明 Codex 默认在沙箱中运行,每次工具执行都发生在沙箱内,沙箱外命令需向用户请求许可。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 395,
+          "t": [
+            1880.076,
+            1881.477
+          ],
+          "quote": "Does it use a sandbox?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1896.756,
+            1905.904
+          ],
+          "quote": "If there is a command that should run with additional permissions outside of the sandbox, it will ask you as a user for permission.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1906.925,
+            1910.628
+          ],
+          "quote": "But every tool execution happens within the sandbox by default.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码评审 (code review)",
+      "file": "代码评审",
+      "primary": true,
+      "how_described": "本集说代码评审的角色正在改变:模型在代码评审上超越人类,正确性与安全层被自动化,人留下的是关于意图的讨论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 377,
+          "t": [
+            1785.801,
+            1792.607
+          ],
+          "quote": "Reviewing every line of code is becoming a challenge with the amount of code that agents generate, which is why Antisysys goes well beyond code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2592.843,
+            2599.648
+          ],
+          "quote": "Do you still have the concept of code review or AI code review, a verification of rolling out, a verifying of stage rolled out?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2666.836,
+            2674.322
+          ],
+          "quote": "So a lot of the process of code review and deploys and catching regressions, all of that is pretty much automated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2739.37,
+            2744.613
+          ],
+          "quote": "You kind of mentioned just briefly the review, the code review, but I wanted to go back to it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2767.124,
+            2780.873
+          ],
+          "quote": "Because for a very long time, until maybe a year or two ago, I would have said your code review has all these benefits, knowledge sharing, the second pair of eyes, removing the bus factor, because now someone else understands that when that person is out that they can jump in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2790.77,
+            2794.014
+          ],
+          "quote": "And what was the value of code review?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2811.645,
+            2814.169
+          ],
+          "quote": "Yeah, the role of code review is changing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2814.79,
+            2822.584
+          ],
+          "quote": "One of the early projects that I did on Codex was working with research on developing a code review model that was",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2859.367,
+            2867.572
+          ],
+          "quote": "And so we developed like these code review models and, you know, we released them and now they're like the same level of like capability and like ability to...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2873.216,
+            2876.438
+          ],
+          "quote": "When we benchmark them, it's like they're superhuman in code review.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2899.453,
+            2903.255
+          ],
+          "quote": "And the role of code review now is like, I think it was always about correctness.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理模型 (reasoning models)",
+      "file": "推理模型",
+      "primary": false,
+      "how_described": "嘉宾加入 OpenAI 时恰逢推理模型发布前夕,一个月后公司发布了 01。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            811.186,
+            818.294
+          ],
+          "quote": "Like I joined, it was like, oh yeah, you know, like there's this thing going on, like, you know, we're going to launch reasoning models, like, you know, it's like a new paradigm.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": false,
+      "how_described": "嘉宾在 Google 后转到 DeepMind 做研究基础设施,参与给内部大语言模型搭了套比 ChatGPT 早约一年的聊天界面,但未能产品化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            244.092,
+            251.735
+          ],
+          "quote": "I did that for a little while and then moved to London to work initially at Google and then DeepMind and then now moved.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            392.199,
+            395.68
+          ],
+          "quote": "You worked on Maps initially, and then you moved over to DeepMind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            504.644,
+            507.347
+          ],
+          "quote": "And then after roughly a year, I couldn't ignore DeepMind.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            577.446,
+            578.487
+          ],
+          "quote": "This was part of DeepMind.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            587.113,
+            589.594
+          ],
+          "quote": "It was not the main thrust of DeepMind.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            589.614,
+            596.979
+          ],
+          "quote": "DeepMind was very much worried and busy thinking about grand challenges and games and thinking about RL.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            655.346,
+            664.211
+          ],
+          "quote": "That caught up like, you know, like wildfires, like, you know, this application is just sort of like, you know, everyone was kind of like sharing little conversations within DeepMind.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            673.074,
+            675.555
+          ],
+          "quote": "But DeepMind was just not set up.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "嘉宾 2015 年入职 Google,做过让网页更快的产品(两年后被砍),学到「永远质疑你项目的影响力」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            244.092,
+            251.735
+          ],
+          "quote": "I did that for a little while and then moved to London to work initially at Google and then DeepMind and then now moved.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            378.415,
+            381.996
+          ],
+          "quote": "And then after a startup, you ended up at Google and first at Google London.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            383.457,
+            391.799
+          ],
+          "quote": "And I remember 2015, Google was a really, really competitive place to get into, like maybe as competitive as OpenAI is today in terms of the industry or in terms of prestige.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            405.603,
+            408.344
+          ],
+          "quote": "Yes, I didn't start on Google Maps.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            419.346,
+            427.507
+          ],
+          "quote": "At the time, Google was seeing the transition from desktop to mobile and more and more traffic going to mobile phones.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            476.137,
+            481.082
+          ],
+          "quote": "You know, unfortunately you only have, you know, hundreds of users and this is clearly not Google scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            500.04,
+            501.882
+          ],
+          "quote": "And then I moved into Google Maps.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            502.122,
+            504.284
+          ],
+          "quote": "Google Maps was super fun, worked on reviews.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            675.575,
+            678.936
+          ],
+          "quote": "There was the right way to launch products at Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            700.343,
+            709.107
+          ],
+          "quote": "Just putting myself back into your shoes, like you're, you know, if it's 2024 or 2023, you're inside of Google who are publishing amazing papers, doing really good research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2428.986,
+            2447.751
+          ],
+          "quote": "And, you know, back pre-AI, it would have been you joined a company like Uber or Google and they would tell you like, cool, the way it works is we have an idea or the PM has an idea, we make a plan, we get together, we do some estimations, we break up the work, we code the work, we do tests, we do code reviews, we release, we do feature flags, and then, you know, we're on call.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2744.833,
+            2753.777
+          ],
+          "quote": "You worked at Google on a product used by hundreds of millions, which is Google Maps, and Google is very well known for their culture of very strict code reviews.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 626,
+          "t": [
+            3069.577,
+            3082.304
+          ],
+          "quote": "You know, maintenance is always such a hot topic whenever we build something inside of all these companies like Google, Uber, even startups, like building was the fun part, but then maintenance was the painful and that's when we learned like, okay, it was not, we're building it, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 805,
+          "t": [
+            4067.62,
+            4070.641
+          ],
+          "quote": "We have a lot in Notion and Google Docs as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "harness 的角色之一就是提供护栏,比如安全性,让模型更可引导、更可控。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 465,
+          "t": [
+            2220.669,
+            2227.332
+          ],
+          "quote": "It's like, you know, provide guardrails, like safety, make it more efficient, make it more like steerable, controllable.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

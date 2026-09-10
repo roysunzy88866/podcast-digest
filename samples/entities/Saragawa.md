@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]]
+[[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":24,"Azure":3,"GitHub":21,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":21,"轨迹":1,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":24,"Azure":3,"GitHub":21,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":22,"轨迹":1,"智能体":1}</script>
 
 <script>
 (function(){

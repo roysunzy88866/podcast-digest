@@ -184,8 +184,8 @@ Ajaya 最后指出，这件事可能"是我们关于失控所能得到的最清�
 **换个口味**
 
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|Codex 负责人亲述:OpenAI 内部如何造编程智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同公司:Modal、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)、提示词注入 (prompt injection)</span>
 
 </div>
 </div>

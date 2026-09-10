@@ -42,11 +42,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
+[[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"沙箱":36,"智能体":1,"推理":5,"Modal":5,"Cognition":15,"Anthropic":110,"Louis Knight-Webb":1,"Akshat Bubna":1,"AI Engineers":1,"Vibhu":1}</script>
+<script type="application/json" class="pd-epn">{"沙箱":37,"智能体":1,"推理":5,"Modal":5,"Cognition":15,"Anthropic":111,"Louis Knight-Webb":1,"Akshat Bubna":1,"AI Engineers":1,"Vibhu":1}</script>
 
 <script>
 (function(){

@@ -545,7 +545,7 @@ unlisted: true
 
 [[Jacob Efron]] · [[Benedict Evans]] · [[OpenAI]] · [[Anthropic]] · [[LLM]] · [[基础模型]] · [[算力扩展]] · [[网络效应]] · [[AGI]] · [[企业软件]]
 
-<script type="application/json" class="pd-epn">{"Jacob Efron":1,"Benedict Evans":2,"OpenAI":98,"Anthropic":110,"LLM":28,"基础模型":1,"算力扩展":1,"网络效应":5,"AGI":20,"企业软件":3}</script>
+<script type="application/json" class="pd-epn">{"Jacob Efron":1,"Benedict Evans":2,"OpenAI":99,"Anthropic":111,"LLM":28,"基础模型":1,"算力扩展":1,"网络效应":5,"AGI":20,"企业软件":3}</script>
 
 <script>
 (function(){

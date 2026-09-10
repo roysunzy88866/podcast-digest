@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
+[[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":14,"Replit Agent":1,"智能体":1,"vibe coding":29,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":6,"一人独角兽":1,"提示词":2}</script>
+<script type="application/json" class="pd-epn">{"Replit":15,"Replit Agent":1,"智能体":1,"vibe coding":30,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":6,"一人独角兽":1,"提示词":2}</script>
 
 <script>
 (function(){

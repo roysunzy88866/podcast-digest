@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
+[[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Stripe":28,"Kai":1,"智能体":1,"治理":2,"项目":1,"工具策略":1,"人在回路":6,"技能":12,"沙箱":36}</script>
+<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Stripe":28,"Kai":1,"智能体":1,"治理":2,"项目":1,"工具策略":1,"人在回路":6,"技能":12,"沙箱":37}</script>
 
 <script>
 (function(){

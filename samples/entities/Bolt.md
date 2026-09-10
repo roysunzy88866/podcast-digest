@@ -7,35 +7,41 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Bolt</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Bolt">BO</div><div class="pi"><h1 class="pt">Bolt</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Bolt">BO</div><div class="pi"><h1 class="pt">Bolt</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]]**(00:42起):本集提到 Bolt 是 Base44 在 vibe coding 领域资金非常充足的竞争对手之一
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(00:11起):本集说它是一款降低开发门槛的 AI 应用构建工具。嘉宾用它起步,但发现它会替用户做大量决策且过于「自以为是」,一旦要做接入支付等严肃功能就会带来大量 Bug,迫使他「毕业」换用 Cursor。
+- **[[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]]**(00:20起):本集说它是 StackBlitz 2024 年 10 月上线的最后一个产品点子，第一个月从零做到 500 万美元 ARR，并开创了按用量定价的行业范式
 
 ## ① 提到它的金句
 
-*2 条*
+*4 条*
 
 ![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q2]]
 
 ![[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n#^q11]]
 
+![[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p#^q2]]
+
+![[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p#^q12]]
+
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司
+- [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Base44]] · [[Wix]] · [[Lovable]] · [[Replit]] · [[Cursor]] · [[Maor Shlomo]] · [[Zevi Arnovitz]] · [[Vercel]] · [[Claude Code]]
+[[Lovable]] · [[Replit]] · [[Cursor]] · [[Lenny]] · [[Anthropic]] · [[Base44]] · [[智能体]] · [[Wix]] · [[vibe coding]] · [[Maor Shlomo]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Base44":3,"Wix":3,"Lovable":14,"Replit":14,"Cursor":50,"Maor Shlomo":1,"Zevi Arnovitz":1,"Vercel":13,"Claude Code":48}</script>
+<script type="application/json" class="pd-epn">{"Lovable":15,"Replit":15,"Cursor":51,"Lenny":67,"Anthropic":111,"Base44":3,"智能体":1,"Wix":3,"vibe coding":30,"Maor Shlomo":1}</script>
 
 <script>
 (function(){

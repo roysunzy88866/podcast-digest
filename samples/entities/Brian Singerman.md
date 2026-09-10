@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]]
+[[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":3,"SpaceX":12,"Palantir":12,"Airbnb":10,"OpenAI":98,"Anthropic":110,"Cognition":15,"Ramp":6}</script>
+<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":3,"SpaceX":12,"Palantir":12,"Airbnb":10,"OpenAI":99,"Anthropic":111,"Cognition":15,"Ramp":6}</script>
 
 <script>
 (function(){

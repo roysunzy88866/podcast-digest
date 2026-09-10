@@ -25,7 +25,7 @@ unlisted: true
 
 [[Patrick Collison]] · [[Amjad Masad]] · [[Stripe]] · [[Replit]] · [[OpenAI]] · [[智能体]] · [[垂直 SaaS]] · [[护城河]] · [[开源模型]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":2,"Amjad Masad":2,"Stripe":28,"Replit":14,"OpenAI":98,"智能体":1,"垂直 SaaS":1,"护城河":9,"开源模型":5,"LLM":28}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":2,"Amjad Masad":2,"Stripe":28,"Replit":15,"OpenAI":99,"智能体":1,"垂直 SaaS":1,"护城河":9,"开源模型":5,"LLM":28}</script>
 
 <script>
 (function(){

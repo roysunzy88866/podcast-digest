@@ -125,9 +125,9 @@ jsonLd: |
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR]]<span class="pd-rz">同公司:Cursor · 同概念:vibe coding、开源 (open source)</span>
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同公司:Lovable · 同概念:vibe coding</span>
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|氛围编码 vs 氛围工程：智能体时代谁被淘汰]]<span class="pd-rz">同公司:Claude · 同概念:vibe coding</span>
-- [[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|Wix CEO Avishai:SaaS 末日下,我们凭什么值钱]]<span class="pd-rz">同概念:vibe coding、开源 (open source)</span>
 
 </div>
 <div class="pd-ex">

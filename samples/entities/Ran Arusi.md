@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]]
+[[Tibo Sottiaux]] [[Eric Simons]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":8,"智能体":1,"可教授的知识与习得的知识":1,"工作流":1,"软件工厂":5,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":110}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":8,"智能体":1,"可教授的知识与习得的知识":1,"工作流":1,"软件工厂":5,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":111}</script>
 
 <script>
 (function(){

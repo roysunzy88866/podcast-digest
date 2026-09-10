@@ -38,7 +38,7 @@ aliases: ["Reynold", "Reynolds"]
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
+[[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]]
 
 </div>
 

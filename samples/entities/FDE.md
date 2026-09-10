@@ -33,7 +33,7 @@ unlisted: true
 
 [[工作流]] · [[Anthropic]] · [[OpenAI]] · [[Alex Lieberman]] · [[Simon Maple]] · [[Claire Veau]] · [[Ran Arusi]] · [[10X]] · [[智能体]] · [[内容机器]]
 
-<script type="application/json" class="pd-epn">{"工作流":1,"Anthropic":110,"OpenAI":98,"Alex Lieberman":1,"Simon Maple":8,"Claire Veau":1,"Ran Arusi":1,"10X":1,"智能体":1,"内容机器":1}</script>
+<script type="application/json" class="pd-epn">{"工作流":1,"Anthropic":111,"OpenAI":99,"Alex Lieberman":1,"Simon Maple":8,"Claire Veau":1,"Ran Arusi":1,"10X":1,"智能体":1,"内容机器":1}</script>
 
 <script>
 (function(){

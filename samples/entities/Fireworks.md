@@ -37,7 +37,7 @@ unlisted: true
 
 [[Harry Stebbings]] · [[Cursor]] · [[Anthropic]] · [[OpenRouter]] · [[智能体]] · [[推理]] · [[OpenAI]] · [[NVIDIA]] · [[前沿模型]] · [[Sequoia]]
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Cursor":50,"Anthropic":110,"OpenRouter":9,"智能体":1,"推理":5,"OpenAI":98,"NVIDIA":31,"前沿模型":8,"Sequoia":4}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Cursor":51,"Anthropic":111,"OpenRouter":9,"智能体":1,"推理":5,"OpenAI":99,"NVIDIA":31,"前沿模型":8,"Sequoia":4}</script>
 
 <script>
 (function(){

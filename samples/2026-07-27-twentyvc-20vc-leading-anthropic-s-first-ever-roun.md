@@ -148,7 +148,7 @@ Harry 问：手里有 Anthropic、Lovable、Legora、OpenRouter,你本可以募�
 
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、OpenAI、Cursor</span>
 - [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|AI解数学题≠理解数学]]<span class="pd-rz">同公司:Anthropic、OpenAI、ChatGPT</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI</span>
+- [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|Codex 负责人亲述:OpenAI 内部如何造编程智能体]]<span class="pd-rz">同公司:OpenAI、ChatGPT · 同概念:开源模型 (open source)</span>
 
 </div>
 </div>

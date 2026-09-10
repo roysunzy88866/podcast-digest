@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Rust</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Rust">RU</div><div class="pi"><h1 class="pt">Rust</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Rust">RU</div><div class="pi"><h1 class="pt">Rust</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(05:47起):本集把它说成:Anthropic 内部已经用它重写了 Claude Code 底层
 - **[[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]]**(15:15起):本集提到:错误处理做得好看的一门语言,作为对比点;BAML 想从根上治 AI 套 try-catch 的毛病,拿出 Rust 级别的保证。
+- **[[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]]**(00:14起):本集解释了为什么反直觉地用 Rust 写 Codex:静态编译验证对智能体友好,Rust 边界在物理上强制智能体核心与产品分离。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
 - [[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]] — 作为概念(提及)
+- [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude]] · [[Simon Willison]] · [[Vaibhav Gupta]] · [[Cat Wu]] · [[BAML]] · [[Thariq Shihipar]] · [[垃圾话]] · [[Anthropic]] · [[代码审查]]
+[[智能体]] · [[代码审查]] · [[Codex]] · [[沙箱]] · [[Claude]] · [[Simon Willison]] · [[Vaibhav Gupta]] · [[Tibo Sottiaux]] · [[Cat Wu]] · [[BAML]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude":50,"Simon Willison":1,"Vaibhav Gupta":1,"Cat Wu":1,"BAML":1,"Thariq Shihipar":1,"垃圾话":2,"Anthropic":110,"代码审查":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"代码审查":2,"Codex":42,"沙箱":37,"Claude":50,"Simon Willison":1,"Vaibhav Gupta":1,"Tibo Sottiaux":1,"Cat Wu":1,"BAML":1}</script>
 
 <script>
 (function(){

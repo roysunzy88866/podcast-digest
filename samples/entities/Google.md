@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>37</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>38</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -48,10 +48,11 @@ unlisted: true
 - **[[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]]**(04:12起):本集提及 Freeberg 在 Google 员工不到千人时加入，IPO 后获得了资产，完成了从劳动到资本的跨越
 - **[[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]]**(23:54起):本集称它是「外面那个大魔王」:用一个爬虫干两件事(搜索+喂 AI),抓取的网络内容超过 OpenAI 两倍、Anthropic 四倍、Microsoft 五倍,正把昨天的搜索垄断变现成明天的 AI 垄断;Prince 预计 9 月中旬后数百万网站将从它的雷达上消失,这会动摇 PageRank 的根基。
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(00:00起):本集开场:JD 知道自己在做的东西是 Google 接下来 12 个月排名前三的优先事项;Google 也被列为起跑门上的巨头竞争者。
+- **[[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]]**(04:04起):嘉宾 2015 年入职 Google,做过让网页更快的产品(两年后被砍),学到「永远质疑你项目的影响力」。
 
 ## ① 提到它的金句
 
-*22 条*
+*23 条*
 
 ![[2025-07-31-lennys-he-saved-openai-bret-taylor#^q1]]
 
@@ -97,9 +98,11 @@ unlisted: true
 
 ![[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t#^q1]]
 
+![[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p#^q5]]
+
 ## ② 出现在这些集
 
-*37 集*
+*38 集*
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
@@ -138,6 +141,7 @@ unlisted: true
 - [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]] — 作为被讨论公司(提及)
 - [[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]] — 作为被讨论公司
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司
+- [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -145,7 +149,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[Meta]] · [[Claude]] · [[Apple]] · [[NVIDIA]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":98,"Anthropic":110,"ChatGPT":52,"Lenny":67,"Meta":29,"Claude":50,"Apple":15,"NVIDIA":31,"Amazon":11}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":99,"Anthropic":111,"ChatGPT":53,"Lenny":67,"Meta":29,"Claude":50,"Apple":15,"NVIDIA":31,"Amazon":11}</script>
 
 <script>
 (function(){

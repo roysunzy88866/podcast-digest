@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
+[[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":50,"Claude Code":48,"智能体":1,"对抗性智能体":1,"MCP":28,"知识库":1,"技能":12,"vibe coding":29,"红队测试":3}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":50,"Claude Code":48,"智能体":1,"对抗性智能体":1,"MCP":28,"知识库":1,"技能":12,"vibe coding":30,"红队测试":3}</script>
 
 <script>
 (function(){

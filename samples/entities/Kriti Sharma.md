@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
+[[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]] [[Anish Acharya]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Craig Smith":1,"Nexus Black":1,"IFS":1,"Anthropic":110,"William Grant":1,"Boston Dynamics":2,"智能体":1,"Resolve":1,"知识表征":1,"管道和仪表图":1}</script>
+<script type="application/json" class="pd-epn">{"Craig Smith":1,"Nexus Black":1,"IFS":1,"Anthropic":111,"William Grant":1,"Boston Dynamics":2,"智能体":1,"Resolve":1,"知识表征":1,"管道和仪表图":1}</script>
 
 <script>
 (function(){

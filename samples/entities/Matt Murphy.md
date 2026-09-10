@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]]
+[[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Anthropic":110,"Menlo":1,"OpenAI":98,"Lovable":14,"Lagura":1,"OpenRouter":9,"Eleven Labs":5,"ChatGPT":52,"Cursor":50}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Anthropic":111,"Menlo":1,"OpenAI":99,"Lovable":15,"Lagura":1,"OpenRouter":9,"Eleven Labs":5,"ChatGPT":53,"Cursor":51}</script>
 
 <script>
 (function(){

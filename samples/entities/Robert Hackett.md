@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]]
+[[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":1,"加密货币":1,"区块链":2,"分词":3,"开源":16,"JP Morgan":3,"Stripe":28}</script>
+<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":1,"稳定币":1,"加密货币":1,"区块链":2,"分词":3,"开源":18,"JP Morgan":3,"Stripe":28}</script>
 
 <script>
 (function(){

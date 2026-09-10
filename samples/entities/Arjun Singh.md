@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]] [[Yana Welinder]] [[Wes Bos]]
+[[Tibo Sottiaux]] [[Eric Simons]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":1,"沙箱":36,"基准测试":7,"上下文":14,"开放权重模型":9,"Slack":23,"Claude Code":48,"Codex":41,"Cursor":50}</script>
+<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":1,"沙箱":37,"基准测试":7,"上下文":14,"开放权重模型":9,"Slack":23,"Claude Code":48,"Codex":42,"Cursor":51}</script>
 
 <script>
 (function(){

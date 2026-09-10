@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>vibe coding</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>29</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>30</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -40,6 +40,7 @@ unlisted: true
 - **[[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|《Addy Osmani：从造浏览器到对抗认知投降》]]**(77:24起):本集仅在提及 Addy 写过的书名时带过，未展开讨论
 - **[[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]]**(33:14起):本集说 Martin 以一种 VC 方式做 vibe coding 来构建复古电子游戏，把它比作以前车库里搞火车模型的爱好的现代版
 - **[[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]]**(30:47起):本集说「网站 vibe coding 已经过时了」,该提升编程野心去做 3D 游戏、桌面应用、黑硬件。
+- **[[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]]**(10:51起):本集把它说成整个品类：从让用户做出可爱演示，演化成能部署到生产环境的端到端编程工具
 
 ## ① 提到它的金句
 
@@ -53,7 +54,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*29 集*
+*30 集*
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -84,14 +85,15 @@ unlisted: true
 - [[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering|《Addy Osmani：从造浏览器到对抗认知投降》]] — 作为概念(提及)
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为概念(提及)
 - [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]] — 作为概念
+- [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Cursor]] · [[Claude]] · [[ChatGPT]] · [[Anthropic]] · [[护栏]] · [[OpenAI]] · [[Claude Code]] · [[Codex]]
+[[智能体]] · [[Lenny]] · [[Cursor]] · [[Anthropic]] · [[Claude]] · [[ChatGPT]] · [[护栏]] · [[OpenAI]] · [[Replit]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":67,"Cursor":50,"Claude":50,"ChatGPT":52,"Anthropic":110,"护栏":2,"OpenAI":98,"Claude Code":48,"Codex":41}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":67,"Cursor":51,"Anthropic":111,"Claude":50,"ChatGPT":53,"护栏":2,"OpenAI":99,"Replit":15,"Claude Code":48}</script>
 
 <script>
 (function(){

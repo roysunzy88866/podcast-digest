@@ -128,8 +128,8 @@ Zevi 的这套观察建立在他一个非常有趣的认知上：他把不同的
 **顺着「AI 编程」挖下去**
 
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)</span>
+- [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR]]<span class="pd-rz">同公司:Bolt、Cursor、Anthropic、Lovable · 同概念:智能体 (agent)</span>
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)</span>
-- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Cursor、Anthropic · 同概念:Codex、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

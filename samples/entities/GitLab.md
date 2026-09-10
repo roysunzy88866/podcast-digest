@@ -25,7 +25,7 @@ unlisted: true
 
 [[Paul Graham]] · [[YC]] · [[OpenAI]] · [[ChatGPT]] · [[StarCloud]] · [[Reddit]] · [[AGI]] · [[推理]] · [[图灵测试]]
 
-<script type="application/json" class="pd-epn">{"Paul Graham":1,"YC":11,"OpenAI":98,"ChatGPT":52,"StarCloud":3,"Reddit":4,"AGI":20,"推理":5,"图灵测试":1}</script>
+<script type="application/json" class="pd-epn">{"Paul Graham":1,"YC":11,"OpenAI":99,"ChatGPT":53,"StarCloud":3,"Reddit":4,"AGI":20,"推理":5,"图灵测试":1}</script>
 
 <script>
 (function(){

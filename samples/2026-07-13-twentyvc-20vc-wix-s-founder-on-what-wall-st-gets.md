@@ -141,8 +141,8 @@ Avishai 最鲜明的立场是：“我们都给了 AI 太多的赞誉。它惊�
 **顺着「创业与行业」挖下去**
 
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|一个人六个月做出八千万美元公司]]<span class="pd-rz">同公司:Base44、Wix · 同概念:LLM、vibe coding</span>
+- [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR]]<span class="pd-rz">同概念:SaaS、vibe coding、开源模型 (open source)</span>
 - [[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|Benedict Evans:AI 价值会落在哪一层?]]<span class="pd-rz">同概念:AGI、LLM</span>
-- [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|Gamma 联创复盘：押注空白页，赌出一亿用户]]<span class="pd-rz">同公司:Salesforce · 同概念:LLM</span>
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,178 @@
+{
+  "title_zh": "解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR",
+  "tldr": "StackBlitz CEO Eric Simons 讲述 Bolt 在解散边缘上线、30 天营收暴涨十倍的转型故事，以及他对 SaaS 按席位定价、开源开放权重的判断。",
+  "digest_md": "一家公司花七年做到 50 万美元 ARR,董事会会议已经排上日程，准备开完就解散公司——结果上线了一个新产品，30 天内营收从 50 万涨到 550 万美元，第二个月冲到 2050 万。这期节目里，Product School CEO Carlos 对话 StackBlitz(也就是 Bolt 背后的公司)的 CEO Eric Simons,讲的不只是一段逆袭故事，更是他对当下 AI 产品竞争、定价和开源的一整套判断。\n\n## 七年磨一门技术，结果市场是个幻影\n\nEric 高中毕业没上大学，17、18 岁写软件每小时能挣 50 美元，算下来读伊利诺伊大学香槟分校一年本州学费要三万美元，他觉得「这账不划算」——去大学能学到的，读教科书免费就能学。他和联合创始人 13 岁就在同一条街上一起学编程 [02:07 Eric Simons]。\n\n2017 年他们创办 StackBlitz,洞察是：浏览器已经足够强大，可以像 Figma 把设计搬上 web 那样，把全栈 Web 开发整个搬进浏览器标签页。他们写了一个能在浏览器里的 WebAssembly 上运行的「操作系统」，花了三四年才建好，2021 年发布，进入云 IDE(在云端写代码的开发环境)市场。结果证明那是个「幻影市场」：炒作很多，但开发者对自己的本地环境非常满意，没人愿意掏钱。到 2024 年，他们和所有云 IDE 公司都陷入困境，于是定下目标：年底前必须让营收出现拐点、证明这是门风投规模的生意，否则解散公司。2024 年全年试了一堆点子全失败，Bolt 是最后一个。2024 年 10 月上线，第一个月从零做到 500 万美元 ARR——而一个月后就是那场原本要解散公司的董事会会议。当时团队只有 10 到 12 人，一夜之间醒来多了数万甚至数十万付费客户 [06:17 Eric Simons]。\n\n没有现成打法。常规上，一家 ARR 2000 万美元的公司扩充团队会给你至少两年准备时间，他们只有两个月，只能自己创造新的打法 [08:50 Eric Simons]。\n\n## 深耕 B2B 产品构建者，不做「什么都要」\n\n上线后他们做过各种用户，如今高度聚焦 B2B:PM、设计师、工程师这些「专业的产品构建者」。B2B 营收同比大幅增长，是公司增长最快的板块 [09:56 Eric Simons]。\n\n具体产品方向上，他们认为核心用例会走向更深的集成：比如 PM 想在与生产环境分离的环境里快速迭代体验，难点是「怎么把改动嫁接回生产代码库、并让工程团队签字认可」——他们做的就是用完全相同的生产组件、自动把改动拉进去的无缝交接流。另一头是创业者，他们平台上有很多用户靠 Bolt 建的生意赚到了数百万美元。「原型是什么？不就是一份把功能发布到你真实生产代码库的提案吗？」[11:16 Eric Simons]\n\n面对 Replit、Lovable 等一众竞品，他借了主持人 ChatGPT 对 Anthropic 的类比：他们选的是 Anthropic 式路线——把 B2B 里特定用户和工作流做到极致好，而不是在消费端「把数亿美元到处乱撒」。他强调对创业公司来说，深耕一个特定 ICP(理想客户画像)和工作流才是关键，这正是他们有、而走得太宽的对手没有的深度 [13:30 Eric Simons]。\n\n## Yahoo 和 AOL 的警告：小搜索框才是巨无霸\n\n他们最近也上线了幻灯片功能，和 Gamma 这类公司「撞车」。Eric 说那本来只是给自己做的好玩项目，而且开源了，不算进军幻灯片业务。真正让他警惕的是互联网泡沫时代的教训：当年所有人都在做门户网站(Yahoo、AOL),每个公司都想什么都做——「搜索只是上面那个小框而已」。结果那个小框才是巨无霸。Google 说「其他全忘掉，就把那个输入框做到世界最好」，而这件事就发生在其他公司眼皮底下，他们因为太不聚焦完全错过了。「我们身在其中，可能觉得这次不一样——直到看清这次并没有什么不同，某些公司因为真正聚焦而脱颖而出。」[16:00 Eric Simons]\n\n他还引了老 Netscape CEO 的名言：软件行业赚钱的方式只有两种——打包和解包，两者分阶段轮回。Netflix 靠打包崛起，如今流媒体一大堆又开始解包；当打包过度时，价值就流向解包那边，他觉得市场正在接近这个临界点 [19:22 Eric Simons]。\n\n## 为什么签开放权重公开信\n\nStackBlitz 从创立起就深投开源——早期连不盈利时都往开源砸钱，Web 开发工具 Vite 就靠他们最早出资、并雇人全职维护 [20:37 Eric Simons]。Eric 最近签署了由 Microsoft 发起的开放权重公开信(开放权重，指把模型的参数公开，任何人都能下载、微调、自部署)。他的类比是 90 年代的 Windows 对 Linux:Windows 活得很好，但 Linux 是今天所有超大规模云厂商的功臣；当年甚至有人喊「Linux 也许应该被立法禁止」，现在回头看很疯狂。他判断：快进十年二十年，如果开放权重模型不是全球创新故事的关键支柱，他会很惊讶。\n\n地缘政治上他认为，若西方国家切断来自非西方国家的开源模型、强迫大家用前沿实验室的模型，是「非常糟糕的主意」——那不是国家层面想赢的打法。他还举了具体的经济账：有公司在研究优化开源模型，把 Kimi K2 跑到现价的十分之一是可能的(比标价便宜 80%~90%),因为能拿到权重；而 Cursor 用自己的数据微调开源权重做 Composer 模型，把体验抬高一截、价格只是零头。「如果人们拿不到可用的开放权重，创新就不会发生。」[23:49 Eric Simons]\n\n这也是他们定价激进的原因：开源模型正在追上实验室，只差最后一小段；几周内他们会推出以前根本不可能的价格点。核心逻辑是「把降下来的成本让给用户，让用产品的人得到更划算的经济决策」[24:52 Eric Simons]。\n\n## 「Sorry, SaaS」:按席位收费是最大的风险点\n\n纽约和旧金山的广告牌上写着「Sorry, SaaS」——他们在「为 SaaS 末日道歉」。Eric 认为，按席位收费是 SaaS 生意最大的风险点：智能体越来越能干，某些产品不再需要那么多席位——不是人不在了，而是智能体替人做事，按使用量收费合理得多。\n\nBolt 自己就是按用量定价的开创者。上线时全行业都学 Netflix 收月费——20 美元随便用、用多了限流。结果 Bolt 上线头 24 到 48 小时，用户把 9 美元的订阅「用穿了」，还喊着「我想给你更多钱」，于是 72 小时内他们上线了基于用量的定价。几周后巴克莱投行发报告给全部客户，说这家籍籍无名的公司所用的模式最终会成为行业标准——后来果然如此，Claude 的 20/100/200 美元档就是这种模式 [26:14 Eric Simons]。\n\n他的推演是：如果按席位强行收费而价值不在，用户就会用智能体去打你的 API——最后公司里只有 3 个人真用你的产品，2000 人经 API 由智能体获取。所以必须问「这所有人实际获得了多少价值」。他视之为「健康的利润率挤水分」：像 Shopify 这样的公司在「SaaS 全完蛋」的唱衰中穿针而过，它们就是其他 SaaS 公司要对标的黄金标准——就像互联网泡沫时代，传统媒体有的穿过去了，有的没有。「生活和生意就是这样：你有多擅长快速拥抱痛苦，然后挺过去、想清楚该做什么？」[30:26 Eric Simons]\n\n至于「AI 抢走工作」，他的观察很直接：人们并没有因为 AI 失去工作，至少远没到某些 AI 领袖宣称的程度；真正发生的是，AI 让「你强迫人们买的那些席位」的价值受到了质疑。问题回到了在位者身上——你得去创新。\n\n## 本集带走\n\n- **「别死」是第一策略**：创业是耐力运动，像 Ironman 训练一样靠日复一日挺过痛苦；留牌桌上的复利远大于赢短跑。他定的硬门槛值得借鉴——给转型设死线(「年底证不出风投规模生意就解散」)，倒逼出 Bolt。\n- **深挖一个 ICP,别当门户**：Yahoo/AOL 的教训是「什么都做」会错过眼皮底下的搜索框；Bolt 选了 Anthropic 式路线，把 PM 和产品构建者的工作流做到对手没有的深度。\n- **按价值定价，别按席位**：上线 72 小时就切到用量计价，被巴克莱认定为行业定价范式；席位模式在智能体时代的死穴是「3 个真人 + 2000 个 API 智能体」。\n- **开放权重是成本武器**：开源模型追平实验室后，可用自有权重和自有数据微调，把价格打到几分之一(Cursor Composer、十分之一价跑 Kimi K2 都是例证)，低价本身就是产品竞争力。",
+  "quotes": [
+    {
+      "en": "We launched in October of 2024, and in the first month we went from zero to five million of ARR.",
+      "zh": "我们在 2024 年 10 月上线，第一个月我们从零做到了 500 万美元的 ARR。",
+      "timestamp": "00:27",
+      "speaker": "Eric Simons"
+    },
+    {
+      "en": "Bolt was actually the last product idea we tried. We launched in October of 2024, and our board meeting was one month later, where we were going to start spinning down the company.",
+      "zh": "Bolt 其实是我们尝试的最后一个产品点子。我们在 2024 年 10 月上线，而一个月后就是董事会会议，我们本来打算在那个会上开始解散公司。",
+      "timestamp": "07:53",
+      "speaker": "Eric Simons"
+    },
+    {
+      "en": "Normally the playbook to grow the team of a company that's at 20 million of ARR gives you a minimum of two years to prepare. That happened in two months for us. There were no playbooks, so we ended up having to create new playbooks.",
+      "zh": "通常来说，给一家 ARR 达到 2000 万美元的公司扩充团队的常规操作，会给你至少两年的准备时间。而我们这一切发生在两个月之内。没有任何现成的打法，所以我们最终不得不创造新的打法。",
+      "timestamp": "09:18",
+      "speaker": "Eric Simons"
+    },
+    {
+      "en": "We're taking a very Anthropic-type approach: really trying to make certain types of users and workflows within B2B usage insanely great, and we're not just spraying hundreds of millions of dollars at everything on the consumer side.",
+      "zh": "我们走的是一条非常 Anthropic 式的路线：真正把 B2B 使用场景中的某些用户类型和工作流做到极致好，而不是在消费端把数亿美元到处乱撒。",
+      "timestamp": "15:05",
+      "speaker": "Eric Simons"
+    },
+    {
+      "en": "Google was like, \"All this other stuff, forget it, just the input box: how do we make that thing insanely good and the best in the world?\" And that was actually right underneath the other guys' noses, but they were so unfocused that they completely missed it.",
+      "zh": "Google 说，「其他的东西都忘掉吧，就那个输入框：我们怎么把那个东西做到极致好、做到世界最好？」而这件事其实就发生在其他那些公司的眼皮底下，但他们太不聚焦了，完全错过了。",
+      "timestamp": "17:27",
+      "speaker": "Eric Simons"
+    },
+    {
+      "en": "We're in the middle of this, so it may seem like this time is different, until it's clear that this time isn't different, and certain companies break away because they actually focused.",
+      "zh": "我们身在其中，所以可能觉得这次不一样，直到人们看清这次并没有什么不同，某些公司因为真正聚焦而脱颖而出。",
+      "timestamp": "17:49",
+      "speaker": "Eric Simons"
+    },
+    {
+      "en": "His name slips my mind, but he said there are only two ways to make money in the software business: bundling and unbundling.",
+      "zh": "他的名字我一时想不起来，但他说过，在软件行业，赚钱的方式只有两种：打包和解包。",
+      "timestamp": "19:26",
+      "speaker": "Eric Simons"
+    },
+    {
+      "en": "Imagine running Kimi K2 at one-tenth the current price. It's possible, if not 90%, then 80% off the list price, because they have access to the weights. If you don't have access to open model weights people can use, no innovation happens.",
+      "zh": "想象一下以现价的十分之一运行 Kimi K2。这是可能的，就算不是便宜 90%,也能比标价便宜 80%,因为他们能拿到权重。如果人们拿不到可以使用的开放模型权重，创新就不会发生。",
+      "timestamp": "23:09",
+      "speaker": "Eric Simons"
+    },
+    {
+      "en": "Geopolitically, I think it's a very bad idea, if Western countries were to try to bifurcate the open-source models coming from non-Western states, restricting their availability within Western states and forcing use of frontier labs.",
+      "zh": "从地缘政治角度说，如果西方国家试图把来自非西方国家的开源模型做分叉切断，限制它们在西方国家内的可用性，强迫人们使用前沿实验室的模型，我认为那是一个非常糟糕的主意。",
+      "timestamp": "22:24",
+      "speaker": "Eric Simons"
+    },
+    {
+      "en": "For us, we want to get really aggressive on pricing. The big sea change happening here is that open-source models are really catching up with the labs.",
+      "zh": "对我们来说，我们想在定价上变得非常激进。这里正在发生的巨大变化是，开源模型真的在追赶那些实验室。",
+      "timestamp": "24:52",
+      "speaker": "Eric Simons"
+    },
+    {
+      "en": "I think the per-seat model is the biggest risk point for SaaS businesses. With agents, as agents become more capable and powerful, you may not need as many seats for certain types of products.",
+      "zh": "我认为按席位收费模式是 SaaS 生意最大的风险点。随着智能体变得越来越能干、越来越强大，某些类型的产品你可能不再需要那么多席位。",
+      "timestamp": "26:25",
+      "speaker": "Eric Simons"
+    },
+    {
+      "en": "Within 72 hours, we shipped usage-based pricing, where you could upgrade to the amount of usage you wanted. Within a few weeks of that, Barclays, an investment banking outfit, wrote a report they sent to their whole client base that said, \"We think this model, that this random company StackBlitz, Bolt, has, is actually going to end up being how this stuff gets priced.\"",
+      "zh": "在 72 小时内，我们上线了基于用量的定价，你可以升级到想要的使用量。在那之后几周内，巴克莱，一家投行，写了一份报告发给他们的全部客户，说，「我们认为这家叫 StackBlitz 的、籍籍无名的公司，Bolt,所采用的这种模式，最终会成为这类产品的定价方式。」",
+      "timestamp": "27:38",
+      "speaker": "Eric Simons"
+    },
+    {
+      "en": "But such is life and business: how good are you at embracing pain quickly, and then pushing through it and figuring out what needs to be done?",
+      "zh": "但生活和生意就是这样：你有多擅长快速拥抱痛苦，然后挺过去、想清楚该做什么？",
+      "timestamp": "31:22",
+      "speaker": "Eric Simons"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:20",
+      "speaker": "Eric Simons",
+      "en": "We launched in October of 2024, and in the first month we went from zero to five million of ARR.",
+      "zh": "我们在 2024 年 10 月上线，第一个月我们从零做到了 500 万美元的 ARR。"
+    },
+    {
+      "timestamp": "03:52",
+      "speaker": "Eric Simons",
+      "en": "A couple of years ago I got into doing Ironmans, and it's very analogous: you have to be going for very long stretches, and it's not even about race day, it's about all of the training that goes into it.",
+      "zh": "几年前我开始参加 Ironman 铁人三项，道理非常类似：你必须坚持很长很长的时间，而且关键甚至不在比赛当天，而在于为此付出的所有训练。"
+    },
+    {
+      "timestamp": "06:17",
+      "speaker": "Eric Simons",
+      "en": "Bolt was actually the last product idea we tried. We launched in October of 2024, and our board meeting was one month later, where we were going to start spinning down the company.",
+      "zh": "Bolt 其实是我们尝试的最后一个产品点子。我们在 2024 年 10 月上线，而一个月后就是董事会会议，我们本来打算在那个会上开始解散公司。"
+    },
+    {
+      "timestamp": "08:50",
+      "speaker": "Eric Simons",
+      "en": "Normally the playbook to grow the team of a company that's at 20 million of ARR gives you a minimum of two years to prepare. That happened in two months for us. There were no playbooks, so we ended up having to create new playbooks.",
+      "zh": "通常来说，给一家 ARR 达到 2000 万美元的公司扩充团队的常规操作，会给你至少两年的准备时间。而我们这一切发生在两个月之内。没有任何现成的打法，所以我们最终不得不创造新的打法。"
+    },
+    {
+      "timestamp": "13:30",
+      "speaker": "Eric Simons",
+      "en": "We're taking a very Anthropic-type approach: really trying to make certain types of users and workflows within B2B usage insanely great, and we're not just spraying hundreds of millions of dollars at everything on the consumer side.",
+      "zh": "我们走的是一条非常 Anthropic 式的路线：真正把 B2B 使用场景中的某些用户类型和工作流做到极致好，而不是在消费端把数亿美元到处乱撒。"
+    },
+    {
+      "timestamp": "16:00",
+      "speaker": "Eric Simons",
+      "en": "Google was like, \"All this other stuff, forget it, just the input box: how do we make that thing insanely good and the best in the world?\" And that was actually right underneath the other guys' noses, but they were so unfocused that they completely missed it.",
+      "zh": "Google 说，「其他的东西都忘掉吧，就那个输入框：我们怎么把那个东西做到极致好、做到世界最好？」而这件事其实就发生在其他那些公司的眼皮底下，但他们太不聚焦了，完全错过了。"
+    },
+    {
+      "timestamp": "16:00",
+      "speaker": "Eric Simons",
+      "en": "We're in the middle of this, so it may seem like this time is different, until it's clear that this time isn't different, and certain companies break away because they actually focused.",
+      "zh": "我们身在其中，所以可能觉得这次不一样，直到人们看清这次并没有什么不同，某些公司因为真正聚焦而脱颖而出。"
+    },
+    {
+      "timestamp": "19:22",
+      "speaker": "Eric Simons",
+      "en": "His name slips my mind, but he said there are only two ways to make money in the software business: bundling and unbundling.",
+      "zh": "他的名字我一时想不起来，但他说过，在软件行业，赚钱的方式只有两种：打包和解包。"
+    },
+    {
+      "timestamp": "22:26",
+      "speaker": "Eric Simons",
+      "en": "Imagine running Kimi K2 at one-tenth the current price. It's possible, if not 90%, then 80% off the list price, because they have access to the weights. If you don't have access to open model weights people can use, no innovation happens.",
+      "zh": "想象一下以现价的十分之一运行 Kimi K2。这是可能的，就算不是便宜 90%,也能比标价便宜 80%,因为他们能拿到权重。如果人们拿不到可以使用的开放模型权重，创新就不会发生。"
+    },
+    {
+      "timestamp": "23:20",
+      "speaker": "Eric Simons",
+      "en": "Geopolitically, I think it's a very bad idea, if Western countries were to try to bifurcate the open-source models coming from non-Western states, restricting their availability within Western states and forcing use of frontier labs.",
+      "zh": "从地缘政治角度说，如果西方国家试图把来自非西方国家的开源模型做分叉切断，限制它们在西方国家内的可用性，强迫人们使用前沿实验室的模型，我认为那是一个非常糟糕的主意。"
+    },
+    {
+      "timestamp": "24:52",
+      "speaker": "Eric Simons",
+      "en": "For us, we want to get really aggressive on pricing. The big sea change happening here is that open-source models are really catching up with the labs.",
+      "zh": "对我们来说，我们想在定价上变得非常激进。这里正在发生的巨大变化是，开源模型真的在追赶那些实验室。"
+    },
+    {
+      "timestamp": "26:14",
+      "speaker": "Eric Simons",
+      "en": "I think the per-seat model is the biggest risk point for SaaS businesses. With agents, as agents become more capable and powerful, you may not need as many seats for certain types of products.",
+      "zh": "我认为按席位收费模式是 SaaS 生意最大的风险点。随着智能体变得越来越能干、越来越强大，某些类型的产品你可能不再需要那么多席位。"
+    },
+    {
+      "timestamp": "27:53",
+      "speaker": "Eric Simons",
+      "en": "Within 72 hours, we shipped usage-based pricing, where you could upgrade to the amount of usage you wanted. Within a few weeks of that, Barclays, an investment banking outfit, wrote a report they sent to their whole client base that said, \"We think this model, that this random company StackBlitz, Bolt, has, is actually going to end up being how this stuff gets priced.\"",
+      "zh": "在 72 小时内，我们上线了基于用量的定价，你可以升级到想要的使用量。在那之后几周内，巴克莱，一家投行，写了一份报告发给他们的全部客户，说，「我们认为这家叫 StackBlitz 的、籍籍无名的公司，Bolt,所采用的这种模式，最终会成为这类产品的定价方式。」"
+    },
+    {
+      "timestamp": "28:34",
+      "speaker": "Eric Simons",
+      "en": "People are not losing their jobs because of AI, at least certainly not to the degree some AI leaders said it was going to happen. What's actually going on is it's bringing into question the value of all these seats you're forcing people to buy.",
+      "zh": "人们并没有因为 AI 而失去工作，至少肯定没有达到某些 AI 领袖所说的那种程度。实际正在发生的是，它让所有这些你强迫人们购买的席位的价值受到质疑。"
+    },
+    {
+      "timestamp": "30:26",
+      "speaker": "Eric Simons",
+      "en": "But such is life and business: how good are you at embracing pain quickly, and then pushing through it and figuring out what needs to be done?",
+      "zh": "但生活和生意就是这样：你有多擅长快速拥抱痛苦，然后挺过去、想清楚该做什么？"
+    }
+  ],
+  "voice_script": "今天这个故事，主角是 StackBlitz 的 CEO Eric Simons,也就是 AI 编程产品 Bolt 背后的公司。这期节目里，Product School 的 CEO Carlos 采访了这位创始人。要聊的核心就一件事：一家公司在解散边缘上线了 Bolt,30 天内营收从 50 万美元暴涨到 550 万美元，第二个月直接冲到 2050 万。而除了这段逆袭，更有价值的是这一路走来沉淀下的一整套判断——关于 AI 产品的竞争、定价，还有开源。\n\n先说来龙去脉。Eric 高中毕业没上大学，十几岁写软件每小时能挣 50 美元，算下来读一年大学的学费要三万美元，觉得这账不划算，能学的东西读教科书免费就能学。2017 年，他和 13 岁起就在同一条街上一起学编程的联合创始人创办了 StackBlitz。当时的洞察是：浏览器已经足够强大，可以像 Figma 把设计搬上网页那样，把全栈开发整个搬进浏览器标签页。为此写了一个能在浏览器里运行的操作系统，花了三四年，2021 年发布，进入云 IDE 市场——也就是在云端写代码的开发环境。\n\n结果证明，那是个幻影市场。炒作很多，但开发者对自己的本地环境非常满意，没人愿意掏钱。到 2024 年，公司已经陷入困境，于是定下目标：年底前必须让营收出现拐点、证明这是门风投规模的生意，否则解散公司。那一年试了一堆点子，全失败，Bolt 是最后一个。2024 年 10 月上线，第一个月从零做到 500 万美元 ARR。而一个月后，就是那场原本要解散公司的董事会会议。当时团队只有十来个人，一夜之间醒来，多了数万甚至数十万付费客户。按常规，一家 ARR 两千万美元的公司扩充团队，至少给你两年准备时间，他们只有两个月，没有任何现成打法，只能自己创造新的打法。\n\n那产品方向上，为什么今天能站住脚？关键是聚焦。上线后做过各种用户，如今高度聚焦 B2B——PM、设计师、工程师这些专业的产品构建者，这已经是公司增长最快的板块。面对 Replit、Lovable 这些竞品，Eric 说的原话很有劲：我们走的是一条非常 Anthropic 式的路线，把 B2B 场景中某些用户和工作流做到极致好，而不是在消费端把数亿美元到处乱撒。举个例子，PM 想快速迭代体验，难点是怎么把改动嫁接回生产代码库、让工程团队签字认可，Bolt 做的就是用完全相同的生产组件、把改动无缝拉进去。有句话值得记住：原型是什么？不就是一份把功能发布到真实生产代码库的提案吗？\n\n不过最近上线幻灯片功能、和 Gamma 撞车，也让这个话题延伸到了一个更大的警告。那个功能本来只是给自己做的好玩项目，还开源了，不算进军幻灯片业务。真正让人警惕的是互联网泡沫时代的教训：当年 Yahoo、AOL 这些门户什么都想做，「搜索只是上面那个小框而已」，结果那个小框成了巨无霸。Google 说，其他全忘掉，就把那个输入框做到世界最好——而这件事就发生在其他公司眼皮底下，因为太不聚焦，完全错过。原话是这么说的：我们身在其中，可能觉得这次不一样，直到看清这次并没有什么不同，某些公司因为真正聚焦而脱颖而出。\n\n聚焦之外，定价是另一条主线，而且 Bolt 在这件事上是有开创性的。上线时全行业都学 Netflix 收月费，20 美元随便用、用多了限流。结果上线头 48 小时，用户把 9 美元的订阅「用穿了」，还喊着想给更多钱，于是 72 小时内切到了按用量计价。几周后，巴克莱投行发报告给全部客户，说这家籍籍无名的公司所用的模式最终会成为行业标准——后来果然如此，Claude 的 20、100、200 美元档位就是这种模式。背后的逻辑很直接：智能体越来越能干，按席位收费就成了 SaaS 最大的风险点——不是人不在了，而是智能体替人做事。如果强行按席位收费而价值不在，用户就会用智能体去打你的 API,最后公司里只有 3 个人真用你的产品，2000 人经 API 由智能体获取。这被视作一场「健康的利润率挤水分」，Shopify 就是在唱衰中穿针而过的黄金标准。至于 AI 抢工作，观察很直接：人们并没有因此失去工作，真正被质疑的，是你强迫人们买的那些席位的价值，问题回到了在位者身上——你得去创新。\n\n支撑激进定价的，还有开放权重这张牌。StackBlitz 从创立起就深投开源，早期连不盈利时都往开源砸钱，Web 开发工具 Vite 就靠最早出资、并雇人全职维护。Eric 最近签了 Microsoft 发起的开放权重公开信——开放权重，就是把模型参数公开，任何人都能下载、微调、自部署。类比是 90 年代的 Windows 对 Linux:Windows 活得很好，但 Linux 成了今天所有超大规模云厂商的功臣。经济账也很具体：因为能拿到权重，把 Kimi K2 跑到现价的十分之一是可能的；Cursor 用自有数据微调开源权重做 Composer 模型，体验抬高一截，价格只是零头。原话是：如果人们拿不到可用的开放权重，创新就不会发生。\n\n回头看这一集，从解散边缘到一夜翻身，靠的不是运气，是几条朴素的判断：别死是第一策略，创业是耐力运动，留牌桌上的复利远大于赢短跑；深挖一个客户群，别当什么都想做的门户；按价值定价，别按席位；把开放权重当成本武器，降下来的成本让给用户。就像结尾那句话说的——生活和生意就是这样，你有多擅长快速拥抱痛苦，然后挺过去、想清楚该做什么。"
+}

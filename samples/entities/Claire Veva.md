@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Yana Welinder]] [[Wes Bos]] [[Arjun Singh]]
+[[Tibo Sottiaux]] [[Eric Simons]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Yana Welinder]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Yana Welinder":1,"Yanabana":1,"Codex":41,"ChatGPT":52,"Stripe":28,"GitHub":21,"Vercel":13,"Superhuman":4,"智能体":1,"计算机使用":9}</script>
+<script type="application/json" class="pd-epn">{"Yana Welinder":1,"Yanabana":1,"Codex":42,"ChatGPT":53,"Stripe":28,"GitHub":21,"Vercel":13,"Superhuman":4,"智能体":1,"计算机使用":9}</script>
 
 <script>
 (function(){

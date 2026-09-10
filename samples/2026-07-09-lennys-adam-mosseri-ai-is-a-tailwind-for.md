@@ -185,8 +185,8 @@ Adam 也分享了自己处理漫天仇恨的方法:换位思考。当年 25 岁�
 **换个口味**
 
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同概念:vibe coding、品味 (taste)</span>
+- [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR]]<span class="pd-rz">同公司:anthropic · 同概念:vibe coding</span>
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|Google搜索没死，AI让它扩张了]]<span class="pd-rz">同公司:instagram · 同概念:reels、stories</span>
-- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:instagram、facebook</span>
 
 </div>
 </div>

@@ -1,0 +1,166 @@
+{
+  "title_zh": "Codex 负责人亲述:OpenAI 内部如何造编程智能体",
+  "tldr": "OpenAI Codex 团队负责人 Thibaut 讲述 Codex 的诞生:为何用 Rust、为何开源不绑自家模型、harness 与模型如何协同进化,以及合并进 ChatGPT 背后的工程挑战。",
+  "digest_md": "这一集聊的是 OpenAI 的编程智能体 Codex——它是怎么起步的、为什么做成了今天这个样子。主角是 Thibaut,他在 Codex 作为产品立项时就在场,并从那时起一直领导着更广的 Codex 团队。他的经历有点意思:大学学应用数学,在比利时做过医药供应链优化的创业公司,2015 年进 Google,做过让网页更快的产品(两年后被砍掉,他从中学会「永远质疑你项目的影响力」),后来转去 DeepMind 做研究基础设施——在那里,他参与给一个内部大语言模型搭了套聊天界面,比 ChatGPT 早了约一年,在 DeepMind 内部像野火一样传播,但因为 DeepMind 没有产品化条件没能对外发布。2024 年他加入 OpenAI,恰逢推理模型发布前夕,随后开始做 Codex 的前身。\n\n## 为什么反直觉地用 Rust 写 Codex\n\n当时模型对 Rust 并不在分布内——也就是写 Rust 不如写 Python、TypeScript 好。但 Thibaut 团队从第一性原理出发,把「智能体核心」和「产品界面」当成两个不同的东西:核心要稳健、安全、为效率和规模而工程化。做过从玩具到数据中心规模项目的人都知道,早期决定非常关键。他们团队有一批很强的 Rust 工程师,而且 Rust 静态编译验证的特性对智能体反而友好——编译器本身就是一层即时反馈。更重要的设计原则是:智能体与产品干净分离,「如果你把所有东西写在同一个代码库、同一种语言里,不可避免会写得草率,把不该纠缠的东西纠缠在一起,然后阻止之后的进一步创新」[19:54 Thibaut]。Rust 的边界在物理上强制了这种分离。\n\n## 为什么开源、为什么允许接别家模型\n\n在所有大实验室里,Codex 是独一无二的:CLI、SDK 全开源。理由很直接:你在造一个编码智能体,它自然会指向它自己,能靠社区改进它、从中学到很多;而且他们判断如果自己成功了,开源和代码的角色本身都会变,「如果你不亲眼见证问题,就很难解决它们」[21:22 Thibaut]。诚实的代价也有:别人可能在你发布前就把你公开开发的功能抄走(「有点难过,但这是游戏的一部分」);被随机贡献淹没,要应付这笔「额外的税」;跨仓库工作要划人为边界。好处是新员工入职前就看过仓库和 PR,上手极快。\n\n同样反直觉的是,Codex 不绑定 OpenAI 模型。Thibaut 的逻辑:开源之下,任何人 fork 加 10 行代码就能接别家模型,逼人用 fork 只会给自己制造负担——「为什么不一开始就支持呢」。而且用户明天可能想试新模型,强迫人家换整套环境很蠢,挡掉这类反馈更亏。「为什么要强迫你彻底改变你的整个环境,就为了试一个新模型?」[26:31 Thibaut] 底层态度是:靠最好的模型、最好的产品赢,不靠锁定赢。\n\n## harness 与模型:拐杖会不断消失\n\n他给了一个理解 Codex 演进的关键框架:「harness 总是比模型领先一点」[36:27 Thibaut]。所谓 harness(围绕模型的工具与执行框架),角色是给模型配「拐杖」:护栏、安全、效率、可控性,还有每轮注入上下文的开发者消息。早期模型不会主动跑测试,你得提醒;后来训练模型学会反思你真正想要什么,这些提示就不需要了。所以随时间推移,开发者消息在缩减,harness 也在缩减。团队的工作方式是研究与工程协同设计:发现弱项或想做新功能时,先问这是 harness 层改还是模型层改,模型层多快能修——如果一个月内模型能解决,可能根本不在 harness 里动手。他给开发者的忠告:「如果你在搭建一个一万行的代码拐杖来绕过模型的缺陷,那你很可能在做错误的事情」[42:29 Thibaut]。\n\n反馈分析也全程用智能体完成:跨编程、金融、营销等所有使用场景归纳主题、排优先级。\n\n## 内部怎么开发软件:评审、维护、架构都变了\n\nOpenAI 内部 Codex 默认接入一切——Slack、所有文档、所有代码。新人最常听到的一句话是「你问过 Codex 了吗」。团队刻意在公开频道工作、宽权限开放文档,就是为了让智能体能推理所有上下文。\n\n代码评审的分工正在重划。他们早早就和研究部门做了代码评审模型,能深挖三四层依赖、发现文档本身是错的这类需要人类数小时才能抓到的逻辑错误,现在这能力已并入主线模型:「当我们做基准测试时,它们在代码评审上是超越人类的」[47:53 Thibaut]。安全检查是全 OpenAI 所有 PR 的强制项,标出严重漏洞会直接阻止合并,全自动。评审里「正确性」这层被自动化拿走了,留下的是关于意图的讨论——你到底想做什么、值不值得做——而且这种讨论不必发生在代码旁边。他有个「盒子与不变量」的心智模型:你们就该约定清楚盒子做什么、必须满足哪些不变量(资源、数据访问、安全),至于盒子内部,「可以是字面意义上的任何东西」,你不需要在意。\n\n维护这口锅也轻了。依赖升级这种没人爱干但又关乎安全的事,模型横扫代码库几小时搞定。更重要的是重构和重架构曾是要几年的昂贵工程,现在被极度加速——「犯错的成本在下降」[53:03 Thibaut]。于是软件工程的老规则反而更值钱:好的抽象、画出正确的盒子形状,让盒子内改动不影响其余系统。还有一点很震撼:以前一个产品一年才慢慢加到几十上百个工程师,「突然你有一百个智能体在为这个东西做贡献」的事,现在一个周末就能发生——软件生命周期被整体压缩了。\n\n## 合并进 ChatGPT:表面轻描淡写,底下全是工程\n\nCodex 出现在 ChatGPT 应用里,用户看着平平无奇,实际是两个完全不同技术栈的合并:ChatGPT 完全托管、云端、为规模和效率而建;Codex 完全本地。合并的目标是让本地智能体的能力变成云版本,服务数亿用户且高效到能纳入 20 美元的 plus 套餐。云端那台机器意外地强大:有互联网访问、非常宽容,有用户让它在里面装 Blender 做 3D 建模,甚至训练另一个模型。整个合并过程里,Codex 自己充当了「记者」——它读得到所有 Slack 讨论和文档,把团队关于怎么合并、怎么命名、work 开关对不对的激烈辩论全程记录了下来。方向是完全统一:「你要构建的是一个统一的产品,让你接触到同样的智能,但是以你想使用的方式来使用它」[64:57 Thibaut]。\n\n## 他本人怎么用:日程像俄罗斯方块,却干得更多\n\nPeter Steinberger 让主持人问他:日程表像俄罗斯方块,你怎么还这么愉快?答案是把大量工作移到手机上的 ChatGPT work:开会间隙用语音听写派任务、提问题,配一整套自定义技能和指令,让它按他能高效消化的风格产出报告和代码探索。「我有的任何问题,都能在 30 分钟内得到答案」——Slack、Notion、Google Docs 里的公开信息全在 Codex 射程内。周末他还会做代码探索和原型:醒来想到一个想法,一天之内做出东西给人看、被批评、给团队启发,然后把它从脑子里清空,继续干别的。\n\n## 本集带走\n\n- **架构分离要靠物理边界强制**:Codex 把智能体核心(Rust)和产品界面分开,同一代码库必然长出纠缠, Languages 边界是护栏不是装饰。\n- **harness 是暂时性拐杖**:凡是你在 harness 里绕模型缺陷写的补丁,下一版模型大概率会自己学会——与其堆一万行拐杖代码,不如判断该等模型还是该动手。\n- **评审重点从代码转向意图**:正确性、安全类评审已被超越人类的模型接管(OpenAI 已强制拦截带安全漏洞的 PR),人该谈的是「要做什么、值不值得做」以及盒子的不变量。\n- **好抽象在 AI 时代更值钱**:重构成本暴跌、犯错成本下降,但画出正确的盒子边界决定了你能不能让改动锁在盒子内。\n- **个人杠杆的极限在被重写**:语音听写 + 接入全部工作上下文的个人智能体,把「任何问题 30 分钟内得到答案」变成日常;想法到原型可以压缩到一天。",
+  "quotes": [
+    {
+      "en": "And if you write everything in the same code base, in the same language, it's like inevitably you're going to be a little bit sloppy and you're going to intertwine things more than you should.",
+      "zh": "如果你把所有东西都写在同一个代码库里、同一种语言里,那不可避免地你会写得有点草率,你会把不该纠缠的东西纠缠在一起。",
+      "timestamp": "19:54",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "Why force you to go and completely change your setup just to try a new model?",
+      "zh": "为什么要强迫你彻底改变你的整个环境,就为了试一个新模型?",
+      "timestamp": "26:31",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "So the harness, in a sense, is always a little bit ahead of the model.",
+      "zh": "从某种意义上说,harness 总是比模型领先一点。",
+      "timestamp": "36:27",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "If you're doing something and you're building like this 10,000 lines of code crutch to work around the model flaws, you're probably doing the wrong thing.",
+      "zh": "如果你在做某件事,而且你在搭建一个一万行的代码拐杖来绕过模型的缺陷,那你很可能在做错误的事情。",
+      "timestamp": "42:29",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "But it's surprisingly a similar process, whether you ship on Codex or ChatGPT, even though ChatGPT goes out to a billion active users and growing, you can ship a PR, you can make a change and get it shipped the next day or even the same day, and it just goes out to a billion users and it's fine.",
+      "zh": "但出人意料的是,无论你是在 Codex 还是 ChatGPT 上发布,流程都很相似——尽管 ChatGPT 推向十亿活跃用户而且还在增长,你可以提交一个 PR、做一个改动,第二天甚至同一天发布,它就推向十亿用户,而且没问题。",
+      "timestamp": "43:33",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "When we benchmark them, it's like they're superhuman in code review.",
+      "zh": "当我们做基准测试时,它们在代码评审上是超越人类的。",
+      "timestamp": "47:53",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "Maintenance is really like sort of like a tax that you pay over time just to keep things running.",
+      "zh": "维护其实就像一种你随时间支付、只为让事情保持运转的税。",
+      "timestamp": "51:35",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "Going back to having the box with invariants, if you draw the right shape, you're going to be able to change things much more quickly within the box and not affect the rest of the services or the rest of your infrastructure.",
+      "zh": "回到那个带有不变量的盒子,如果你画出正确的形状,你就能在盒子内更快地改变东西,而不影响其余的服务或其余的基础设施。",
+      "timestamp": "53:16",
+      "speaker": "Tibo Sottiaux"
+    },
+    {
+      "en": "Like if you can't explain what you're trying to achieve, if you can't explain your intent, if you don't have a tie to a community, if you don't have the taste, it's going to be much harder to do great work.",
+      "zh": "如果你无法解释你想要达成什么,如果你无法解释你的意图,如果你没有与一个社区的联结,如果你没有品味,做出出色的工作会难得多。",
+      "timestamp": "70:55",
+      "speaker": "Tibo Sottiaux"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "19:54",
+      "speaker": "Thibaut",
+      "en": "And if you write everything in the same code base, in the same language, it's like inevitably you're going to be a little bit sloppy and you're going to intertwine things more than you should.",
+      "zh": "如果你把所有东西都写在同一个代码库里、同一种语言里,那不可避免地你会写得有点草率,你会把不该纠缠的东西纠缠在一起。"
+    },
+    {
+      "timestamp": "21:22",
+      "speaker": "Thibaut",
+      "en": "I think, you know, it's hard to solve problems if you don't sort of like witness them yourself.",
+      "zh": "我想,如果你不亲眼见证问题,就很难解决它们。"
+    },
+    {
+      "timestamp": "26:31",
+      "speaker": "Thibaut",
+      "en": "Why force you to go and completely change your setup just to try a new model?",
+      "zh": "为什么要强迫你彻底改变你的整个环境,就为了试一个新模型?"
+    },
+    {
+      "timestamp": "36:27",
+      "speaker": "Thibaut",
+      "en": "So the harness, in a sense, is always a little bit ahead of the model.",
+      "zh": "从某种意义上说,harness 总是比模型领先一点。"
+    },
+    {
+      "timestamp": "37:52",
+      "speaker": "Thibaut",
+      "en": "So over time, what we see is like the system, the developer message shrinks and then the harness also shrinks.",
+      "zh": "所以随着时间推移,我们看到的是,开发者消息在缩减,harness 也在缩减。"
+    },
+    {
+      "timestamp": "42:29",
+      "speaker": "Thibaut",
+      "en": "If you're doing something and you're building like this 10,000 lines of code crutch to work around the model flaws, you're probably doing the wrong thing.",
+      "zh": "如果你在做某件事,而且你在搭建一个一万行的代码拐杖来绕过模型的缺陷,那你很可能在做错误的事情。"
+    },
+    {
+      "timestamp": "43:33",
+      "speaker": "Thibaut",
+      "en": "But it's surprisingly a similar process, whether you ship on Codex or ChatGPT, even though ChatGPT goes out to a billion active users and growing, you can ship a PR, you can make a change and get it shipped the next day or even the same day, and it just goes out to a billion users and it's fine.",
+      "zh": "但出人意料的是,无论你是在 Codex 还是 ChatGPT 上发布,流程都很相似——尽管 ChatGPT 推向十亿活跃用户而且还在增长,你可以提交一个 PR、做一个改动,第二天甚至同一天发布,它就推向十亿用户,而且没问题。"
+    },
+    {
+      "timestamp": "47:53",
+      "speaker": "Thibaut",
+      "en": "When we benchmark them, it's like they're superhuman in code review.",
+      "zh": "当我们做基准测试时,它们在代码评审上是超越人类的。"
+    },
+    {
+      "timestamp": "48:51",
+      "speaker": "Thibaut",
+      "en": "I think all of it is changing, like the correctness, the cybersecurity, I think that will be automated.",
+      "zh": "我认为这一切都在改变,正确性、网络安全,我认为这些会被自动化。"
+    },
+    {
+      "timestamp": "49:35",
+      "speaker": "Thibaut",
+      "en": "And then the code doesn't matter as much.",
+      "zh": "然后代码本身就不那么重要了。"
+    },
+    {
+      "timestamp": "51:35",
+      "speaker": "Thibaut",
+      "en": "Maintenance is really like sort of like a tax that you pay over time just to keep things running.",
+      "zh": "维护其实就像一种你随时间支付、只为让事情保持运转的税。"
+    },
+    {
+      "timestamp": "53:03",
+      "speaker": "Thibaut",
+      "en": "So the cost of mistakes, I would say, is going down.",
+      "zh": "所以我认为犯错的成本在下降。"
+    },
+    {
+      "timestamp": "53:16",
+      "speaker": "Thibaut",
+      "en": "Going back to having the box with invariants, if you draw the right shape, you're going to be able to change things much more quickly within the box and not affect the rest of the services or the rest of your infrastructure.",
+      "zh": "回到那个带有不变量的盒子,如果你画出正确的形状,你就能在盒子内更快地改变东西,而不影响其余的服务或其余的基础设施。"
+    },
+    {
+      "timestamp": "57:42",
+      "speaker": "Thibaut",
+      "en": "It should make you a better engineer if you just really care about the outcome and the system working well.",
+      "zh": "如果你真的在乎结果和系统良好运行,它应该会让你成为一个更好的工程师。"
+    },
+    {
+      "timestamp": "64:52",
+      "speaker": "Thibaut",
+      "en": "You shouldn't feel like you can do something in Codex that you can't do in ChatGPT or vice versa.",
+      "zh": "你不应该觉得有什么事你能在 Codex 里做却不能在 ChatGPT 里做,反之亦然。"
+    },
+    {
+      "timestamp": "64:57",
+      "speaker": "Thibaut",
+      "en": "What we're trying to build is one unified product that gives you access to the same intelligence, but in the way that you want to use it.",
+      "zh": "我们要构建的是一个统一的产品,让你接触到同样的智能,但是以你想使用的方式来使用它。"
+    },
+    {
+      "timestamp": "70:55",
+      "speaker": "Thibaut",
+      "en": "Like if you can't explain what you're trying to achieve, if you can't explain your intent, if you don't have a tie to a community, if you don't have the taste, it's going to be much harder to do great work.",
+      "zh": "如果你无法解释你想要达成什么,如果你无法解释你的意图,如果你没有与一个社区的联结,如果你没有品味,做出出色的工作会难得多。"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊一个挺有意思的人，聊一个挺有意思的产品。产品是 OpenAI 的编程智能体 Codex,人呢，是 Codex 团队的负责人 Thibaut。这个人从 Codex 作为产品立项那天就在场，一直带队做到今天。他的来路值得交代一下：大学学应用数学，在比利时做过医药供应链优化的创业公司，2015 年进了 Google,做过一个让网页更快的产品，两年后被砍掉——从这事儿里学到一句话，叫“永远质疑你项目的影响力”。后来转去 DeepMind 做研究基础设施，在那儿参与给一个内部大语言模型搭了套聊天界面，比 ChatGPT 还早了大约一年，在 DeepMind 内部像野火一样传开，可惜 DeepMind 没有产品化的条件，没能对外发布。2024 年加入 OpenAI,赶在推理模型发布前夕，随后开始做 Codex 的前身。\n\n那 Codex 到底做对了什么？咱们从第一个反直觉的决定说起：用 Rust 写。\n\n你得知道当时的背景——模型写 Rust 并不在分布内，说白了，写 Rust 不如写 Python、TypeScript 顺。那为什么偏选 Rust?团队从第一性原理出发，把“智能体核心”和“产品界面”当成两个不同的东西：核心要稳健、安全、为效率和规模而工程化。做过从玩具到数据中心规模项目的人都知道，早期决定非常关键。团队里本来就有一批很强的 Rust 工程师，而且 Rust 静态编译验证的特性，对智能体反而友好——编译器本身就是一层即时反馈。但更关键的是一条设计原则，用 Thibaut 原话说：“如果你把所有东西都写在同一个代码库里、同一种语言里，那不可避免地你会写得有点草率，你会把不该纠缠的东西纠缠在一起。”Rust 的边界，就在物理上强制了智能体和产品的分离。\n\n这就引出第二个反直觉的地方：开源，而且不绑自家模型。你要知道，在所有大实验室里，Codex 是独一份的——CLI、SDK 全开源。理由很直接：你在造一个编码智能体，它自然会指向它自己，能靠社区改进，也能从中学到很多。而且团队有个判断：如果自己成功了，开源和代码的角色本身都会变，“如果你不亲眼见证问题，就很难解决它们”。诚实的代价也有——别人可能在你发布前就把你公开开发的功能抄走，用 Thibaut 的话说“有点难过，但这是游戏的一部分”；还要应付随机贡献的“额外的税”。好处是新员工入职前就看过仓库和 PR,上手极快。\n\n那为什么不绑 OpenAI 自己的模型？逻辑很简单：开源之下，任何人 fork 一下、加十行代码就能接别家模型，逼人用 fork 只是给自己制造负担——“为什么不一开始就支持呢”。用户明天可能就想试个新模型，强迫人家换整套环境很蠢，挡掉这类反馈更亏。底层态度是：靠最好的模型、最好的产品赢，不靠锁定赢。\n\n说完这些决定，咱们往深一层走，看一个理解 Codex 演进的关键框架：harness 与模型的关系。先解释一下，所谓 harness,就是围绕模型的工具与执行框架。Thibaut 有句话：“harness 总是比模型领先一点。”角色是给模型配“拐杖”——护栏、安全、效率、可控性，还有每轮注入上下文的开发者消息。早期模型不会主动跑测试，你得提醒；后来模型学会反思你真正想要什么，这些提示就不需要了。所以随时间推移，开发者消息在缩减，harness 也在缩减。工作方式是研究与工程协同设计：发现弱项时，先问这是 harness 层改还是模型层改——如果一个月内模型能自己解决，可能根本不在 harness 里动手。有句话值得每个开发者记住：“如果你在搭建一个一万行的代码拐杖来绕过模型的缺陷，那你很可能在做错误的事情。”\n\n那这套东西在自己人手里用起来是什么样？OpenAI 内部，Codex 默认接入一切——Slack、所有文档、所有代码，新人最常听到的一句话是“你问过 Codex 了吗”。团队刻意在公开频道工作、宽权限开放文档，就是为了让智能体能推理所有上下文。\n\n在这种环境下，代码评审的分工正在重划。他们早早就和研究部门做了代码评审模型，能深挖三四层依赖、发现“文档本身是错的”这种需要人类数小时才能抓到的逻辑错误，现在这能力已经并入主线模型——“当我们做基准测试时，它们在代码评审上是超越人类的”。安全检查更是全 OpenAI 所有 PR 的强制项，标出严重漏洞直接阻止合并，全自动。评审里“正确性”这一层被自动化拿走了，留下的是关于意图的讨论——你到底想做什么、值不值得做。Thibaut 有个心智模型叫“盒子与不变量”：你们约定清楚盒子做什么、必须满足哪些不变量——资源、数据访问、安全——至于盒子内部，可以是字面意义上的任何东西，你不需要在意。\n\n这个思路带来的连锁反应比你想的大。维护这口锅轻了：依赖升级这种没人爱干但关乎安全的事，模型横扫代码库几小时搞定。更震撼的是重构和重架构，以前是要几年的昂贵工程，现在被极度加速——“犯错的成本在下降”。所以软件工程的老规则反而更值钱：好的抽象、画出正确的盒子形状，让盒内改动不影响其余系统。还有一点：以前一个产品要一年才慢慢加到几十上百个工程师，现在“突然你有一百个智能体在为这个东西做贡献”的事，一个周末就能发生——软件生命周期被整体压缩了。\n\n接下来聊合并进 ChatGPT 这件事，表面轻描淡写，底下全是工程。用户看着 Codex 出现在 ChatGPT 应用里，平平无奇；实际是把两个完全不同技术栈的东西合到一起——ChatGPT 完全托管、云端、为规模和效率而建，Codex 完全本地。合并的目标，是让本地智能体的能力变成云版本，服务数亿用户，还要高效到能纳入 20 美元的 plus 套餐。顺带一提，云端那台机器意外地强大：有互联网访问、非常宽容，有用户让它在里面装 Blender 做 3D 建模，甚至训练另一个模型。整个合并过程里还有个妙处：Codex 自己充当了“记者”——读得到所有 Slack 讨论和文档，把团队关于怎么合并、怎么命名的激烈辩论全程记录了下来。方向是完全统一的：“你要构建的是一个统一的产品，让你接触到同样的智能，但是以你想使用的方式来使用它。”\n\n最后说说 Thibaut 本人怎么用这些东西。有人问过：日程表像俄罗斯方块，怎么还干得这么愉快？答案是把大量工作移到手机上的 ChatGPT work:开会间隙用语音听写派任务、提问题，配一整套自定义技能和指令，让它按自己能高效消化的风格产出报告。“我有的任何问题，都能在 30 分钟内得到答案”——Slack、Notion、Google Docs 里的公开信息全在射程内。周末还会做代码探索和原型：醒来想到一个想法，一天之内做出东西给人看、被批评、给团队启发，然后从脑子里清空，继续干别的。\n\n所以这一集带走的话可以是这么一句：与其堆一万行拐杖代码去绕模型的缺陷，不如先判断清楚——这事儿是该等模型自己学会，还是该你现在动手。"
+}

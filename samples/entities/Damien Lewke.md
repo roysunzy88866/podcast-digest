@@ -51,7 +51,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Nebulock]] · [[客户发现]] · [[The Mom Test]] · [[九十进九十]] · [[设计合作伙伴]] · [[POC 流程]] · [[产品市场契合]] · [[执行发起人]] · [[solo founder]] · [[DPA]]
+[[Nebulock]] · [[客户发现]] · [[The Mom Test]] · [[九十进九十]] · [[设计合作伙伴]] · [[POC 流程]] · [[产品市场契合]] · [[执行发起人]] · [[solo founder]] · [[ICP]]
 
 ## ④ 也在聊「增长与销售」的人
 
@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nebulock":1,"客户发现":1,"The Mom Test":1,"九十进九十":1,"设计合作伙伴":2,"POC 流程":1,"产品市场契合":18,"执行发起人":1,"solo founder":1,"DPA":1}</script>
+<script type="application/json" class="pd-epn">{"Nebulock":1,"客户发现":1,"The Mom Test":1,"九十进九十":1,"设计合作伙伴":2,"POC 流程":1,"产品市场契合":18,"执行发起人":1,"solo founder":1,"ICP":2}</script>
 
 <script>
 (function(){

@@ -133,9 +133,9 @@ Swyx 对黑客松持明确反对态度——"很多人为了赢会作弊，激�
 
 **换个口味**
 
+- [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR]]<span class="pd-rz">同公司:Anthropic、Cursor · 同概念:vibe coding、智能体 (agent)</span>
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-02-12-lennys-engineers-are-becoming-sorcerers|OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)</span>
 
 </div>
 </div>

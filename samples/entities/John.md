@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]]
+[[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":11,"创始人-市场契合度":3,"智能体":1,"模型能力的边缘":1,"垂直化":1,"SaaS":14}</script>
+<script type="application/json" class="pd-epn">{"YC":11,"创始人-市场契合度":3,"智能体":1,"模型能力的边缘":1,"垂直化":1,"SaaS":15}</script>
 
 <script>
 (function(){

@@ -158,7 +158,7 @@ X（Twitter）适合触达科技圈和早期采用者，Hacker News 也算这个
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:Replit · 同概念:vibe coding、智能体 (agent)</span>
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]]<span class="pd-rz">同公司:Replit · 同概念:vibe coding、智能体 (agent)</span>
-- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Replit · 同概念:智能体 (agent)</span>
+- [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR]]<span class="pd-rz">同公司:Anthropic、Replit · 同概念:vibe coding、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

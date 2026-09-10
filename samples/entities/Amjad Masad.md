@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jordan Tigani]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]] [[Paul Graham]]
+[[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]] [[Cliff Weitzman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":14,"智能体":1,"Patrick Collison":2,"公开构建":1,"Stripe":28,"vibe coding":29,"Magic School":1,"真实性":2,"OpenAI":98,"Anthropic":110}</script>
+<script type="application/json" class="pd-epn">{"Replit":15,"智能体":1,"Patrick Collison":2,"公开构建":1,"Stripe":28,"vibe coding":30,"Magic School":1,"真实性":2,"OpenAI":99,"Anthropic":111}</script>
 
 <script>
 (function(){

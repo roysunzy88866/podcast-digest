@@ -122,8 +122,8 @@ Peter 描绘了他理想中的最终形态：未来，智能体不应该被绑�
 **顺着「智能体」挖下去**
 
 - [[2026-09-06-lennys-why-companies-are-becoming-a-series|a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小]]<span class="pd-rz">同公司:OpenAI · 同概念:Codex、循环 (loop)、智能体 (agent)</span>
+- [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|Codex 负责人亲述:OpenAI 内部如何造编程智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:Codex、harness、智能体 (agent)</span>
 - [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|Factory CEO Matan:早两年等于错，退款、路由器与软件工厂]]<span class="pd-rz">同公司:OpenAI · 同概念:Codex、harness、智能体 (agent)</span>
-- [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:OpenAI · 同概念:循环 (loop)、智能体 (agent)、Codex</span>
 
 </div>
 <div class="pd-ex">
