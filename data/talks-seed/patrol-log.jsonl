@@ -927,3 +927,4 @@
 {"ts":"2026-09-10T08:34:45.993Z","action":"seeded","channel":"greylock","videoId":"U5OM6MRI9mw","title":"Braintrust's Ankur Goyal on Why Evals Are the Core of AI Development","durationSec":1672,"verdict":"对味","reason":"创始人深谈 Braintrust 落地与建司方法(eval/客户文化/团队),正是 Glean/Cresta 那类企业 agent 落地+创始人对谈"}
 {"ts":"2026-09-10T08:35:06.493Z","action":"prefilter-skip","channel":"greylock","videoId":"cP8uIOlRT-o","title":"AI Agents' Unlimited Revenue Potential","reason":"时长 62s < 下限 1200s"}
 {"ts":"2026-09-10T08:35:27.269Z","action":"prefilter-skip","channel":"greylock","videoId":"Jzj7lOIBg2s","title":"Fixing the AI Agent Discovery Problem","reason":"时长 67s < 下限 1200s"}
+{"ts":"2026-09-10T13:41:50.655Z","action":"git-pull-failed","videoId":null,"error":"error: RPC failed; curl 28 Failed to connect to github.com port 443 after 75000 ms: Couldn't connect to server\nfatal: expected flush after ref listing\n"}
