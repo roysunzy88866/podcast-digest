@@ -2,7 +2,7 @@
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, dedupeNewPicks, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, backfillFloorISO, BACKFILL_MAX_AGE_DAYS, parseMaxAgeDays, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, neverFitsBudget, JOB_SETUP_MIN, TRANSIENT_CAP, noteTransientFail, clearTransient, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, dedupeNewPicks, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, backfillFloorISO, BACKFILL_MAX_AGE_DAYS, parseMaxAgeDays, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, neverFitsBudget, JOB_SETUP_MIN, TRANSIENT_CAP, noteTransientFail, clearTransient, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS, talkItemFromSeed } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -633,11 +633,31 @@ describe("estimateEpisodeMin / hasTimeBudget · C32 按音频时长估时(固定
       expect(latestStart + actualIfFallback + OVERHEAD, `${audioMin} 分音频回落`).toBeLessThan(timeout);
     }
   });
-  it("★★★ 三处耗时循环都装了守卫(新集=停手 outOfTimeBudget;补历史/补活=skip 跳长集 timeBudgetCheck)", () => {
+  it("★★★ 四处耗时循环都装了守卫(新集=停手 outOfTimeBudget;补历史/补活/演讲=skip 跳长集 timeBudgetCheck)", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
     expect(src).toContain('outOfTimeBudget("新集", item, source, id)'); // 新集保守停手(cutoff 敏感;W5 后 id 先算好)
     expect(src).toContain('timeBudgetCheck("补历史", item, source, id)'); // 补历史:太长跳过试下一条
     expect(src).toContain('timeBudgetCheck("补活", item, source, id)');
+    expect(src).toContain('timeBudgetCheck("演讲", item, source, id)'); // drift #99:talks 原来只有数量限流,两班冲破 350
+  });
+  it("★★★ drift #99 源码锚:演讲循环里预算检查在 processEpisode 之前,stop 即 break(剩余种子不记账、留给下一班)", () => {
+    const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+    const fn = src.slice(src.indexOf("function processTalksSource("), src.indexOf("async function processSource("));
+    const iCheck = fn.indexOf('timeBudgetCheck("演讲"');
+    const iRun = fn.indexOf("processEpisode(item, id, source, state)");
+    const iLedger = fn.indexOf("state.talkVideoIds[videoId] = id");
+    expect(iCheck).toBeGreaterThan(-1);
+    expect(iCheck).toBeLessThan(iRun); // 先判预算再开工 —— 否则会像 09-10 那样转写到一半被平台杀
+    expect(iRun).toBeLessThan(iLedger); // 只有做完才记 videoId;被预算挡下的种子不记账 → 下一班自动再进场
+    expect(iRun).toBeLessThan(fn.indexOf("cleanIds.push(id)")); // 被挡下的也进不了 cleanIds(GLM 008[2])
+    expect(fn.indexOf("if (!item.enclosureUrl)")).toBeLessThan(iCheck); // 坏种子(缺音频)无论预算都先响亮报(GLM 008[4])
+    expect(fn.slice(iCheck, iCheck + 160)).toMatch(/if \(tv === "stop"\) break;[\s\S]*?if \(tv === "skip"\) continue;/);
+  });
+  it("★★ 种子时长常是字符串(\"2737\"),估时照样按真实时长算 —— 否则补了守卫也会按「时长未知 220 分」把 talks 全饿死", () => {
+    const asStr = talkItemFromSeed({ title: "t", url: "u", upload_date: "2026-09-07", audio_asset_url: "x", duration_sec: "2737" });
+    const asNum = talkItemFromSeed({ title: "t", url: "u", upload_date: "2026-09-07", audio_asset_url: "x", duration_sec: 2737 });
+    expect(estimateEpisodeMin(asStr.durationSec, true)).toBe(estimateEpisodeMin(asNum.durationSec, true));
+    expect(estimateEpisodeMin(asStr.durationSec, true)).toBeLessThan(UNKNOWN_DURATION_MIN); // 46 分钟的演讲不该按最坏估
   });
   it("★★★ 补历史/补活遇长集是 skip(试下一条)不是 break 掉整批(2026-08-24 真凶:154分集把整班毙了)", () => {
     const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");

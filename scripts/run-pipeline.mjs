@@ -1668,6 +1668,14 @@ function processTalksSource(source, state, { dryRun }) {
       skipped.push({ id, reason: "种子缺 audio_asset_url(音频未上传)", retry: true });
       continue;
     }
+    // 缺音频检查放在预算检查前(GLM 008[4]):坏种子无论预算紧不紧都要响亮报,别被报成「放不下」。
+    // drift #99(2026-09-11 实证):talks 原来只有「每班 3 条」数量限流、**没有时间预算** ——
+    //   播客源先吃掉 194-208 分,talks 再硬挤 3 条 → 09-10 两班连续冲破 350 被平台砍,部署步 skipped、
+    //   YC harness 那集转写到一半被杀(白烧)。巡航 09-09 修好后种子一班 14-19 条,这个缺口才暴露。
+    //   与补历史/补活同款:放不下就停;没做的种子原样留在种子区(不记 videoId)→ 下一班自动再进场。
+    const tv = timeBudgetCheck("演讲", item, source, id);
+    if (tv === "stop") break;
+    if (tv === "skip") continue; // 这条太长、预算还够更短的 → 试下一条
     let res;
     try {
       res = processEpisode(item, id, source, state);
