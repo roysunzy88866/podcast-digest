@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":16,"智能体":1,"Codex":44,"Claude Code":53,"MCP":34,"提示注入":1,"CLI":2,"护城河":9,"ChatGPT":57}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":16,"智能体":219,"Codex":44,"Claude Code":55,"MCP":35,"提示注入":1,"CLI":2,"护城河":9,"ChatGPT":59}</script>
 
 <script>
 (function(){

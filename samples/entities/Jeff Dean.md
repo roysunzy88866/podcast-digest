@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"多智能体系统":1,"专用推理硬件":1,"推理":5,"上下文工程":12,"TPU":3,"MapReduce":1,"蒸馏":10,"AlphaFold":2,"Gemini":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":219,"多智能体系统":5,"专用推理硬件":1,"推理":42,"上下文工程":12,"TPU":3,"MapReduce":1,"蒸馏":10,"AlphaFold":2,"Gemini":6}</script>
 
 <script>
 (function(){

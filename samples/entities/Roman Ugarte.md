@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":54,"SpaceXAI":1,"OpenClaw":16,"OpenAI":102,"Anthropic":115,"Codex":44,"Cowork":4,"Salesforce":17,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":55,"SpaceXAI":1,"OpenClaw":16,"OpenAI":102,"Anthropic":115,"Codex":44,"Cowork":4,"Salesforce":17,"智能体":219}</script>
 
 <script>
 (function(){

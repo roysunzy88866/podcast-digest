@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"LongLake":1,"智能体":1,"异步智能体":1,"同步智能体":1,"AI 同事":1,"沙箱":41,"后训练":1,"持续学习":2,"现实世界的评估":1,"Copilot":8}</script>
+<script type="application/json" class="pd-epn">{"LongLake":1,"智能体":219,"异步智能体":1,"同步智能体":1,"AI 同事":1,"沙箱":41,"后训练":20,"持续学习":8,"现实世界的评估":1,"Copilot":8}</script>
 
 <script>
 (function(){

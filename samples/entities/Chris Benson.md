@@ -59,9 +59,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Daniel Whitenack]] · [[Anthropic]] · [[智能体]] · [[护栏]] · [[OpenAI]] · [[Claude Code]] · [[MCP]] · [[Hugging Face]] · [[爆炸半径]] · [[Workday]]
+[[智能体]] · [[Daniel Whitenack]] · [[Anthropic]] · [[护栏]] · [[OpenAI]] · [[Claude Code]] · [[MCP]] · [[Hugging Face]] · [[开源模型]] · [[爆炸半径]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":6,"Anthropic":115,"智能体":1,"护栏":2,"OpenAI":102,"Claude Code":53,"MCP":34,"Hugging Face":20,"爆炸半径":3,"Workday":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":219,"Daniel Whitenack":6,"Anthropic":115,"护栏":43,"OpenAI":102,"Claude Code":55,"MCP":35,"Hugging Face":20,"开源模型":16,"爆炸半径":3}</script>
 
 <script>
 (function(){

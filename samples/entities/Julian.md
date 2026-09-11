@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Base 10":1,"推理":5,"专用推理":1,"开源模型":6,"后训练":1,"持续学习":2,"GPU 容量":1,"分布式推理":1,"Cursor":54,"Decagon":5}</script>
+<script type="application/json" class="pd-epn">{"Base 10":1,"推理":42,"专用推理":1,"开源模型":16,"后训练":20,"持续学习":8,"GPU 容量":1,"分布式推理":1,"Cursor":55,"Decagon":5}</script>
 
 <script>
 (function(){

@@ -1,0 +1,99 @@
+{
+  "title_zh": "把画布交给智能体：TLDraw 的空间协作实验",
+  "tldr": "TLDraw 产品工程师 Max Schraich 演示为什么无限画布是和智能体协作的好地方，以及他们怎么让 LLM 学会看懂、操作 2D 空间。",
+  "digest_md": "这一集是 TLDraw 的产品工程师 Max Schraich 的现场演讲，主题是「画布上的智能体」。TLDraw 你可能用过——它是一个免费的无限画布白板应用，总部在伦敦；但它更重要的身份是为很多无限画布体验提供动力的 SDK 引擎——想把画布部分做对(选择、缩放、箭头这些)其实非常难，所以 Replit 全新的智能体画布功能就构建在 TLDraw 之上 [02:03 Max Schraich]。\n\n开场他先现场演示了一个「极限测试」：让智能体读同事 Spencer 发来的邮件链接，找到 Notion 文档里的规格说明，然后在 TLDraw 桌面应用上把那个演示构建出来——全程不用人碰键盘。这个演示直到演讲结束还在跑，他坦言「它已经跑了 13 分钟了……它通常快得多」[15:23 Max Schraich]。\n\n## 为什么智能体天生不会「看」画布\n\nClaude Code 这类编码智能体之所以好用，是因为它们工作的媒介——写代码——本质上就是它们被训练的媒介：文本进、文本出 [04:17 Max Schraich]。而画布完全是另一回事：他问观众有没有试过让智能体对齐一个 UI 元素，结果发现它们完全做不到。智能体在 2D 空间中工作和理解 2D 空间非常非常糟糕，要让它做到需要大量工程工作 [04:45 Max Schraich]。\n\n## 第一步：教会 LLM 「看懂」画布(Teach 项目)\n\nTLDraw 做的第一个项目叫 Teach,核心是教会 LLM 如何同时通过截图和画布的 JSON 数据来理解画布上实际有什么——「这不是一个简单的问题」[06:08 Max Schraich]。演示很有说服力：他在画布上画了几根蜡烛和一个鼠标形状，只说一句「让鼠标吹灭蜡烛」，模型就自己造出了风和烟、摆对了位置——而这些全都是普通形状，不是什么特殊的鼠标图形。这是单次提示词完成的。\n\n## 第二步：从单次提示到智能体式工作(Agent Starter Kit)\n\n单次提示不够，他们又做了 MIT 许可的 TLDraw Agent Starter Kit,把「看懂画布」包进一个让智能体自主工作的框架。演示：画布上有一只小猫，他让智能体「在画布其他地方找到猫的朋友，带一只过来，她最喜欢的颜色是红色」。智能体自己缩放视图去侦察画布上有什么、给自己列了待办目标——就像你问编码智能体「这个东西定义在代码库哪里」，它会自己搜索找到一样 [07:23 Max Schraich]。\n\n## 第三步：Fairies——多智能体在画布上协作\n\n接下来是 Fairies 项目：每个「小仙子」是一个智能体，在画布上以可爱的形象出现(可以换帽子、换颜色，甚至有个「腿长滑块」——他强调这不傻，当多个智能体同时在画布上工作时，分清哪个是哪个很重要)。最关键的演示是多智能体协调：他全选了几只小仙子，相当于开了一个「智能体群聊」，然后说「我 10 分钟后有董事会会议，把我 2025 财年的财务数据画成备忘录」。结果：一只小仙子自动成为「编排者」，写出了计划、把任务分配出去，然后等待其他小仙子完成，完成后会被通知去审查 [11:03 Max Schraich]。\n\n他点出这套交互的真正价值：如果有 10 个智能体在干活，你不需要去读聊天记录才知道发生了什么——**直接看智能体在画布上的状态就行** [10:35 Max Schraich]。画布上让人类协作舒服的一切(光标、视口、实时同步)，同样让它成为与智能体协作的绝佳场所 [03:54 Max Schraich]。\n\n## 跳出画布：TechTree 和「拿桌面应用当窗口管理器」\n\nFairies 的局限是「被困在画布里」——整个 harness 必须是画布 harness,很难和真实世界的东西配合。于是两个延伸：\n\n**TechTree 应用**：TLDraw 内部接近发布时会抛弃所有任务管理软件，手画一张巨大的依赖图。他做了个原型，让依赖图里的每个任务节点都是一个可启动的编码智能体，自主干活、开 PR、合并，而且多人协作——同事可以直接进来加任务、看进度。代码全是智能体写的，他自己一行没写。\n\n**桌面应用即脚本环境**：TLDraw 桌面应用在本地运行，暴露出编辑器实例，带一个服务器，让任何智能体(比如 Claude Code)直接对着编辑器写纯 JavaScript——相当于把桌面应用变成脚本环境。同事的玩法更野：把 TLDraw 桌面应用当窗口管理器，让 Claude Code(它能访问真实电脑)画矩形、写 AppleScript 去真的移动窗口，甚至用真实窗口玩 Pong。他的结论是：你能拿到画布的全部基础元素、做出那些奇怪的空间界面，同时让智能体在真实世界里工作、访问真实数据 [17:28 Max Schraich]。\n\n## 本集带走\n\n- **智能体搞不定 2D 空间，但可以教**：编码智能体好用是因为「文本进、文本出」正好匹配训练媒介；要让它们在画布上工作，得同时喂截图和结构化数据(JSON),教它理解看到的是什么、以及它的动作会怎么改变画布。\n- **画布是比聊天窗口更好的智能体界面**：多个智能体并行干活时，不用读任何聊天记录，直接看画布上的状态、任务、动画就知道谁在干嘛、谁在等谁。\n- **多智能体协调可以在画布上自然涌现**：全选一组智能体当「群聊」发指令，就能让其中一只自动成为编排者，分配任务、等待完成、再审查。\n- **画布不必是牢笼**：把桌面应用暴露成脚本环境，智能体既拥有画布的空间界面原语，又能操作真实文件、真实窗口——从白板工具变成能干实事的临时 UI。\n- **画布本身就该是「和智能体协作的场所」**：这是他的核心主张——远程办公时代我们已经在画布上和人协作，和智能体协作也应该是同一件事。\n\n> 【背景】TLDraw 是一家总部在伦敦的公司，旗下有同名无限画布白板应用，并向第三方提供构建画布类产品的 SDK;Replit、幻灯片设计器等产品都基于它构建。",
+  "quotes": [],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:17",
+      "speaker": "Max Schraich",
+      "en": "Writing code is essentially the medium in which they were trained. It's text in, text out.",
+      "zh": "写代码本质上就是它们被训练的媒介。文本进，文本出。"
+    },
+    {
+      "timestamp": "04:45",
+      "speaker": "Max Schraich",
+      "en": "Agents are really, really bad at working in 2D space and understanding 2D space, and it actually requires a lot of engineering work to get them to do it.",
+      "zh": "智能体在 2D 空间中工作、理解 2D 空间这方面非常非常糟糕，要让它们做到实际上需要大量的工程工作。"
+    },
+    {
+      "timestamp": "04:07",
+      "speaker": "Max Schraich",
+      "en": "All of the things that make just the Canvas in general a really great place for interacting with and collaborating with your colleagues also make it a really great place for interacting and collaborating with agents.",
+      "zh": "所有让画布本身就成为与同事互动协作的绝佳场所的东西，同样也让它成为与智能体互动协作的绝佳场所。"
+    },
+    {
+      "timestamp": "07:58",
+      "speaker": "Max Schraich",
+      "en": "This is kind of like turning that single shot prompting experience into this kind of like agentic thing that you can have, it can autonomously set goals and work towards them.",
+      "zh": "这差不多就是把那种单次提示词的体验转变成智能体式的体验——它可以自主设定目标并朝着目标努力。"
+    },
+    {
+      "timestamp": "10:35",
+      "speaker": "Max Schraich",
+      "en": "I don't have to read a chat in order to know what's actually going on. I can look at the state of the agents and I can actually see what's happening.",
+      "zh": "我不需要读聊天记录就能知道实际发生了什么。我可以看智能体的状态，我真的能看到正在发生什么。"
+    },
+    {
+      "timestamp": "12:07",
+      "speaker": "Max Schraich",
+      "en": "The fairies are trapped in the canvas.",
+      "zh": "小仙子被困在画布里了。"
+    },
+    {
+      "timestamp": "15:23",
+      "speaker": "Max Schraich",
+      "en": "It's been working for 13 minutes. That's actually fine.",
+      "zh": "它已经跑了 13 分钟了。这其实没问题。"
+    },
+    {
+      "timestamp": "16:44",
+      "speaker": "Max Schraich",
+      "en": "You can kind of make all of these, like, ephemeral UIs and have them actually be doing things in the real world.",
+      "zh": "你可以做出所有这些临时性的 UI,并让它们真正在现实世界里做事。"
+    },
+    {
+      "timestamp": "17:28",
+      "speaker": "Max Schraich",
+      "en": "This lets you do all of the weird spatial interfaces that you can do on the canvas. You get all of the primitives of the canvas. But you can have your agents working in the real world.",
+      "zh": "它让你能做出画布上所有那些奇怪的空间界面。你能获得画布的全部基础元素。但你可以让你的智能体在真实世界里工作。"
+    },
+    {
+      "timestamp": "18:00",
+      "speaker": "Max Schraich",
+      "en": "I think that the canvas can be a place where we collaborate with agents.",
+      "zh": "我认为画布可以成为我们与智能体协作的场所。"
+    },
+    {
+      "timestamp": "02:35",
+      "speaker": "Max Schraich",
+      "en": "If you're like Replit, Replit has their whole new agent canvas stuff built on top of tldraw.",
+      "zh": "或者如果你是 Replit——Replit 全新的智能体画布功能就是构建在 tldraw 之上的。"
+    },
+    {
+      "timestamp": "02:53",
+      "speaker": "Max Schraich",
+      "en": "They would have trouble making the actual Canvas part of the app. They would get stuck on the canvas.",
+      "zh": "他们做不出应用的「画布」部分。他们会卡在画布上。"
+    },
+    {
+      "timestamp": "11:52",
+      "speaker": "Max Schraich",
+      "en": "If you want to build something like this, this requires you to opt in and have your entire harness be a canvas harness.",
+      "zh": "如果你想做这样的东西，这要求你选择加入，让你的整个 harness 成为一个画布 harness。"
+    },
+    {
+      "timestamp": "15:11",
+      "speaker": "Max Schraich",
+      "en": "Here's the moment of truth. Let's see if that demo that I had it build in the beginning worked.",
+      "zh": "见证时刻到了。让我们看看我一开始让它构建的那个演示能不能用。"
+    },
+    {
+      "timestamp": "06:22",
+      "speaker": "Max Schraich",
+      "en": "We teach it how to actually act on the canvas and to understand how the actions that it produces will affect the canvas.",
+      "zh": "我们教它如何真正在画布上行动，并理解它产生的动作会如何影响画布。"
+    }
+  ],
+  "voice_script": "今天这一集来自 TLDraw 的产品工程师 Max Schraich 的一场现场演讲，主题叫「画布上的智能体」。先交代一下背景：TLDraw 是一家总部在伦敦的公司，你可能用过它那个免费的无限画布白板应用。但它更重要的身份，是给很多画布类产品提供动力的引擎——想把画布做对其实非常难，选择、缩放、箭头，每一个细节都是坑，所以 Replit 全新的智能体画布功能，就是构建在 TLDraw 之上的。\n\n那一个做白板的公司，为什么要去研究智能体？Max 开场先秀了一手：让智能体去读一封邮件、找到 Notion 文档里的规格说明，然后在 TLDraw 桌面应用上把那个演示构建出来——全程不用人碰键盘。这个演示在演讲现场一直跑着，跑到最后还在转。他自己也笑说，它已经跑了 13 分钟了，通常要快得多。\n\n演示很爽，但背后有个大问题。你想想，Claude Code 这类编码智能体为什么好用？因为它们工作的媒介就是文本，写代码嘛，文本进、文本出，正好匹配它们被训练的媒介。画布就完全是另一回事了。Max 现场问观众：有没有试过让智能体对齐一个 UI 元素？结果是完全做不到。智能体在 2D 空间里工作和理解 2D 空间，非常非常糟糕。要让它们在画布上干活，需要大量的工程工作。\n\n那怎么教？这就是演讲的主线了，TLDraw 一共走了三步。\n\n第一步，得先让大模型学会「看懂」画布。他们做了一个叫 Teach 的项目，核心是教模型同时通过两样东西来理解画布上有什么：一是截图，二是画布的 JSON 数据。Max 坦言这不是一个简单的问题。但效果很直观：他在画布上画了几根蜡烛和一个鼠标形状，只说了一句「让鼠标吹灭蜡烛」，模型就自己造出了风和烟、还把位置都摆对了。你注意，那全都是普通形状，不是什么特殊的鼠标图形，而且这是一次提示词就完成的。\n\n不过单次提示还不够。你给一句指令，它做一件事，这不算智能体。所以第二步，他们做了一个 MIT 许可的 Agent Starter Kit,把看懂画布的能力包进一个让智能体自主干活的框架。演示是这样的：画布上有一只小猫，Max 对智能体说，去画布其他地方找到猫的朋友，带一只过来，它最喜欢的颜色是红色。智能体就自己缩放视图去侦察画布上有什么，还给自己列了待办目标。这感觉就像你问编码智能体「这个东西定义在代码库哪里」，它会自己去搜索找到一样。\n\n再往下走一步，就引出了第三步，一个叫 Fairies 的项目：每一个「小仙子」就是一个智能体，在画布上以可爱的形象出现，可以换帽子、换颜色，甚至还有个腿长滑块。Max 特别强调这个滑块不傻——当好多智能体同时在画布上干活的时候，分清哪个是哪个非常重要。这一步最关键的演示是多智能体协调：他全选了几只小仙子，相当于开了一个智能体群聊，然后说，我 10 分钟后有董事会会议，把我 2025 财年的财务数据画成备忘录。结果呢？一只小仙子自动成了编排者，写出计划、把任务分配出去，然后等着其他小仙子干完，干完了再去审查。\n\n到这儿你可能觉得，这不就是在画布里玩花活吗？但 Max 点出了这套交互真正的价值：如果有 10 个智能体在同时干活，你根本不需要去读聊天记录才知道发生了什么——直接看智能体在画布上的状态就行。画布上那些让人类协作舒服的东西，光标、视口、实时同步，同样让它成为和智能体协作的绝佳场所。\n\n那问题来了：智能体被困在画布里，终究只能摆弄画布上的东西，怎么跟真实世界配合？TLDraw 做了两个延伸。\n\n第一个叫 TechTree。TLDraw 内部有个习惯，快发布的时候会扔掉所有任务管理软件，手画一张巨大的依赖图。Max 就做了个原型，让依赖图里的每个任务节点都是一个可以启动的编码智能体，自主干活、开 PR、合并，还支持多人协作，同事可以直接进来加任务、看进度。整个项目代码全是智能体写的，他自己一行没写。\n\n第二个更野：TLDraw 桌面应用是在本地跑的，它把编辑器实例暴露出来，还带一个服务器，任何智能体——比如 Claude Code——都可以直接对着编辑器写纯 JavaScript,相当于把桌面应用变成了一个脚本环境。他们同事的玩法更进一步：把 TLDraw 桌面应用当窗口管理器，让 Claude Code——它能访问真实电脑——在画布上画矩形，写 AppleScript 去真的移动窗口，甚至用真实窗口玩 Pong。Max 的结论是：你能拿到画布的全部基础元素，做出那些奇怪的空间界面，同时让智能体在真实世界里工作、访问真实数据。\n\n所以回头看，这一集真正想说的是：智能体天生搞不定 2D 空间，但这是可以教的，喂截图加结构化数据就行；而一旦教会了，画布就可能是比聊天窗口更好的智能体界面——十几个智能体在干活，你扫一眼画布就知道谁在干嘛、谁在等谁。远程办公的这些年，我们早就在画布上和人协作了。和智能体协作，也应该是同一件事。"
+}

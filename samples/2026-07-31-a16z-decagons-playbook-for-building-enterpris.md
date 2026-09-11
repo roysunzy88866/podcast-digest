@@ -10,14 +10,14 @@ description: "Decagon 畅谈为何九成工作流转用开源模型,以及企业
 host: "[[Sarah Wang]]"
 cohosts: ["[[Kimberley Tan]]", "[[Jesse Zhang]]", "[[Ashwin Srinivas]]"]
 companies: ["[[Decagon]]"]
-concepts: ["[[智能体]]", "[[开源模型]]", "[[微调]]", "[[业务逻辑]]", "[[前向部署工程师]]", "[[Duet]]", "[[延迟]]", "[[推理]]"]
+concepts: ["[[智能体]]", "[[开源模型]]", "[[微调]]", "[[业务逻辑]]", "[[前向部署工程师]]", "[[Duet]]", "[[延迟]]", "[[推理能力]]"]
 category: 创业与行业
 tags:
   - 创业与行业
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris#post","headline":"Decagon 的 AI 寺庙:开源、Duet 与护城河","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris","mainEntityOfPage":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris","description":"Decagon 畅谈为何九成工作流转用开源模型,以及企业 AI 的护城河到底在哪。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Sarah Wang"},{"@type":"Person","name":"Kimberley Tan"},{"@type":"Person","name":"Jesse Zhang"},{"@type":"Person","name":"Ashwin Srinivas"},{"@type":"Organization","name":"Decagon"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"开源模型 (open source models)"},{"@type":"Thing","name":"微调 (fine-tune)"},{"@type":"Thing","name":"业务逻辑 (business logic)"},{"@type":"Thing","name":"前向部署工程师 (forward deployed engineer)"},{"@type":"Thing","name":"Duet"},{"@type":"Thing","name":"延迟 (latency)"},{"@type":"Thing","name":"推理 (reasoning)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Decagon 的 AI 寺庙:开源、Duet 与护城河","item":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris#post","headline":"Decagon 的 AI 寺庙:开源、Duet 与护城河","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris","mainEntityOfPage":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris","description":"Decagon 畅谈为何九成工作流转用开源模型,以及企业 AI 的护城河到底在哪。","datePublished":"2026-07-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Sarah Wang"},{"@type":"Person","name":"Kimberley Tan"},{"@type":"Person","name":"Jesse Zhang"},{"@type":"Person","name":"Ashwin Srinivas"},{"@type":"Organization","name":"Decagon"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"开源模型 (open source models)"},{"@type":"Thing","name":"微调 (fine-tune)"},{"@type":"Thing","name":"业务逻辑 (business logic)"},{"@type":"Thing","name":"前向部署工程师 (forward deployed engineer)"},{"@type":"Thing","name":"Duet"},{"@type":"Thing","name":"延迟 (latency)"},{"@type":"Thing","name":"推理能力 (reasoning)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Decagon 的 AI 寺庙:开源、Duet 与护城河","item":"https://talk.solomind.cc/2026-07-31-a16z-decagons-playbook-for-building-enterpris"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Decagon 的 AI 寺庙:开源、Duet 与护城河</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[Decagon]]
 >
-> **概念** [[智能体]] · [[开源模型]] · [[微调]] · [[业务逻辑]] · [[前向部署工程师]] · [[Duet]] · [[延迟]] · [[推理]]
+> **概念** [[智能体]] · [[开源模型]] · [[微调]] · [[业务逻辑]] · [[前向部署工程师]] · [[Duet]] · [[延迟]] · [[推理能力]]
 
 一家做企业客服的公司,竟然把九成的工作流从最贵的前沿大模型,换成了自己[[微调|微调]]的开源小模型——不仅没掉链子,反而更聪明、更便宜、更快。说这话的人是 [[Decagon|Decagon]] 的创始人 Jesse 和 Ashwin,他们做的是帮大企业搭 AI [[智能体|智能体]]的生意。
 
@@ -75,7 +75,7 @@ Jesse 坦言,前沿实验室确实有小模型,「但你无法真正以你想要
 
 哪怕假设未来真的实现了 AGI(通用人工智能),模型无所不能,Jesse 依然认为软件不会消失 <button class="pd-ts" data-t="19:56" data-who="Jesse" data-en="And human beings have needed to use software for lots of things. You know, you need databases to put stuff in. You need CRMs to track things." aria-label="回原文"></button>。因为即使人类某种程度上就是一种 AGI,我们不还是需要数据库、需要 CRM(客户关系管理系统)来存取信息吗? 
 
-AGI 智能体同样需要个地方来存放工作、拉取信息并[[推理|推理]]。未来,应用层公司也许最终会演变成特定垂直领域的「实验室」 <button class="pd-ts" data-t="20:40" data-who="Jesse" data-en="So I think there will always be a space for application layer companies. Maybe in the long term, application layer companies just become labs for specific verticals, because your primary product ends up being the models that are just really good at doing those specific tasks." aria-label="回原文"></button>,但这块阵地会一直在。
+AGI 智能体同样需要个地方来存放工作、拉取信息并[[推理能力|推理]]。未来,应用层公司也许最终会演变成特定垂直领域的「实验室」 <button class="pd-ts" data-t="20:40" data-who="Jesse" data-en="So I think there will always be a space for application layer companies. Maybe in the long term, application layer companies just become labs for specific verticals, because your primary product ends up being the models that are just really good at doing those specific tasks." aria-label="回原文"></button>,但这块阵地会一直在。
 
 那么,既然提到了那些干苦力的外包工程师,这到底是个明智策略还是个陷阱?
 

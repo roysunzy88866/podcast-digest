@@ -49,9 +49,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Meta]] · [[后训练]] · [[前向部署工程师]] · [[Microsoft]] · [[主观能动性]] · [[ChatGPT]] · [[Cursor]]
+[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Meta]] · [[开源模型]] · [[后训练]] · [[前向部署工程师]] · [[Microsoft]] · [[主观能动性]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":115,"智能体":1,"OpenAI":102,"Meta":29,"后训练":1,"前向部署工程师":7,"Microsoft":24,"主观能动性":17,"ChatGPT":57,"Cursor":54}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":115,"智能体":219,"OpenAI":102,"Meta":29,"开源模型":16,"后训练":20,"前向部署工程师":7,"Microsoft":24,"主观能动性":17,"ChatGPT":59}</script>
 
 <script>
 (function(){

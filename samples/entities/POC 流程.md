@@ -7,17 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>POC 流程 (POC process)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="POC 流程">PO</div><div class="pi"><h1 class="pt">POC 流程 (POC process)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="POC 流程">PO</div><div class="pi"><h1 class="pt">POC 流程 (POC process)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-20-pmf-1st-time-solo-founder-does-90-interviews|《90 天 90 场访谈：一个 Solo Founder 的两年 2500 万之路》]]**(00:00起):本集反复讨论的可重复概念验证流程：设定预期、锁定范围、确认预算，并把法律文书（DPA/采购）与 POC 并行；最终做到一个月、只占客户两小时。
-
-## ① 提到它的金句
-
-*1 条*
-
-![[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh#^q11]]
 
 ## ② 出现在这些集
 
@@ -31,7 +25,7 @@ unlisted: true
 
 [[Damien Lewke]] · [[Nebulock]] · [[客户发现]] · [[The Mom Test]] · [[九十进九十]] · [[设计合作伙伴]] · [[产品市场契合]] · [[执行发起人]] · [[solo founder]] · [[ICP]]
 
-<script type="application/json" class="pd-epn">{"Damien Lewke":1,"Nebulock":1,"客户发现":1,"The Mom Test":1,"九十进九十":1,"设计合作伙伴":2,"产品市场契合":18,"执行发起人":1,"solo founder":1,"ICP":2}</script>
+<script type="application/json" class="pd-epn">{"Damien Lewke":1,"Nebulock":1,"客户发现":1,"The Mom Test":1,"九十进九十":1,"设计合作伙伴":3,"产品市场契合":18,"执行发起人":1,"solo founder":1,"ICP":2}</script>
 
 <script>
 (function(){

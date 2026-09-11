@@ -35,17 +35,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Daytona]] · [[Cognition]] · [[Neon]] · [[Parallel]] · [[智能体]] · [[沙箱]] · [[突发负载]] · [[裸金属]] · [[计算机使用]] · [[托管型 Kubernetes]]
+[[Daytona]] · [[Cognition]] · [[Neon]] · [[Parallel]] · [[Devin]] · [[智能体]] · [[沙箱]] · [[突发负载]] · [[裸金属]] · [[计算机使用]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":16,"Neon":2,"Parallel":5,"智能体":1,"沙箱":41,"突发负载":1,"裸金属":1,"计算机使用":10,"托管型 Kubernetes":1}</script>
+<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":16,"Neon":2,"Parallel":5,"Devin":2,"智能体":219,"沙箱":41,"突发负载":1,"裸金属":1,"计算机使用":10}</script>
 
 <script>
 (function(){

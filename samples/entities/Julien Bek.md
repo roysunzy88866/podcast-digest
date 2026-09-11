@@ -45,7 +45,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Harry Stebbings]] · [[Sequoia]] · [[智能体]] · [[Copilot]] · [[自动驾驶]] · [[服务伪装成软件]] · [[IC]] · [[AEO]] · [[Sierra]] · [[SpaceX]]
+[[Harry Stebbings]] · [[Sequoia]] · [[智能体]] · [[Copilot]] · [[全自动模式]] · [[服务伪装成软件]] · [[IC]] · [[AEO]] · [[Sierra]] · [[SpaceX]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Sequoia":4,"智能体":1,"Copilot":8,"自动驾驶":1,"服务伪装成软件":1,"IC":7,"AEO":3,"Sierra":5,"SpaceX":12}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Sequoia":4,"智能体":219,"Copilot":8,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":3,"Sierra":5,"SpaceX":12}</script>
 
 <script>
 (function(){

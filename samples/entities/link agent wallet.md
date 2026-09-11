@@ -25,7 +25,7 @@ unlisted: true
 
 [[David George]] · [[Will Gabrick]] · [[Stripe]] · [[Stripe Minions]] · [[智能体]] · [[智能体商务]] · [[稳定币]] · [[微交易]] · [[Tempo]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"David George":3,"Will Gabrick":1,"Stripe":29,"Stripe Minions":1,"智能体":1,"智能体商务":3,"稳定币":2,"微交易":1,"Tempo":1,"主观能动性":17}</script>
+<script type="application/json" class="pd-epn">{"David George":3,"Will Gabrick":1,"Stripe":29,"Stripe Minions":1,"智能体":219,"智能体商务":3,"稳定币":4,"微交易":1,"Tempo":1,"主观能动性":17}</script>
 
 <script>
 (function(){

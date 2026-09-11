@@ -1,0 +1,1786 @@
+[
+ {
+  "seg": 0,
+  "start": 13.757,
+  "end": 18.925,
+  "speaker": "Unknown",
+  "en": "Thank you for coming here to my talk to watch me talk about agents on the canvas.",
+  "zh": "感谢大家来到我的演讲，看我讲画布上的智能体。"
+ },
+ {
+  "seg": 1,
+  "start": 20.608,
+  "end": 25.114,
+  "speaker": "Unknown",
+  "en": "The first thing I'm going to do though is before, I have to record my screen.",
+  "zh": "不过我要做的第一件事是，在此之前，我得录一下屏幕。"
+ },
+ {
+  "seg": 2,
+  "start": 25.215,
+  "end": 29.02,
+  "speaker": "Unknown",
+  "en": "The first thing I'm going to do is I'm going to ask my agent to do something on the canvas.",
+  "zh": "我要做的第一件事是让我的智能体在画布上做点事情。"
+ },
+ {
+  "seg": 3,
+  "start": 31.305,
+  "end": 39.909,
+  "speaker": "Unknown",
+  "en": "And what I'm gonna do is say, hey, my colleague Spencer just emailed me a link to a Notion document for a really cool demo we could build with the TLDRAW desktop app.",
+  "zh": "我要做的是说：嘿，我的同事 Spencer 刚给我发了一封邮件，链接到一个 Notion 文档，是我们可以用 TLDRAW 桌面应用构建的一个很酷的演示。"
+ },
+ {
+  "seg": 4,
+  "start": 40.169,
+  "end": 43.591,
+  "speaker": "Unknown",
+  "en": "Can you find that document and then can you build it on the desktop app?",
+  "zh": "你能找到那个文档，然后在桌面应用上把它构建出来吗？"
+ },
+ {
+  "seg": 5,
+  "start": 45.732,
+  "end": 46.012,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 6,
+  "start": 50.223,
+  "end": 54.247,
+  "speaker": "Unknown",
+  "en": "Okay, so that's gonna build and then we're gonna come back to it later and hopefully it'll work.",
+  "zh": "好，它会开始构建，然后我们稍后再回来看，希望它能成功。"
+ },
+ {
+  "seg": 7,
+  "start": 54.587,
+  "end": 58.09,
+  "speaker": "Unknown",
+  "en": "Hi everyone, my name is Max Schraich, thanks so much for coming.",
+  "zh": "大家好，我叫 Max Schraich，非常感谢大家前来。"
+ },
+ {
+  "seg": 8,
+  "start": 58.791,
+  "end": 64.916,
+  "speaker": "Unknown",
+  "en": "I work on Agents on the Canvas at TLDraw, I'm a product engineer there.",
+  "zh": "我在 TLDraw 做「画布上的智能体」方面的工作，我是那里的产品工程师。"
+ },
+ {
+  "seg": 9,
+  "start": 65.316,
+  "end": 67.698,
+  "speaker": "Unknown",
+  "en": "So first things first, am I qualified to be giving this talk?",
+  "zh": "那么首先，我有资格做这个演讲吗？"
+ },
+ {
+  "seg": 10,
+  "start": 67.879,
+  "end": 68.619,
+  "speaker": "Unknown",
+  "en": "I like to think so.",
+  "zh": "我愿意认为是有的。"
+ },
+ {
+  "seg": 11,
+  "start": 69.06,
+  "end": 72.282,
+  "speaker": "Unknown",
+  "en": "I've been doing like Agents on the Canvas stuff since before ChatGPT came out.",
+  "zh": "我从 ChatGPT 出来之前就开始做「画布上的智能体」这类东西了。"
+ },
+ {
+  "seg": 12,
+  "start": 73.443,
+  "end": 74.244,
+  "speaker": "Unknown",
+  "en": "I think it's really cool.",
+  "zh": "我觉得这真的很酷。"
+ },
+ {
+  "seg": 13,
+  "start": 74.324,
+  "end": 79.226,
+  "speaker": "Unknown",
+  "en": "I think there's like so much UX stuff you can do with, when you get LLMs, you have them working in space.",
+  "zh": "我觉得有很多 UX 上的东西可以做的，当你让 LLM 在空间中工作时。"
+ },
+ {
+  "seg": 14,
+  "start": 79.966,
+  "end": 81.087,
+  "speaker": "Unknown",
+  "en": "And I think it's really interesting.",
+  "zh": "我觉得这非常有趣。"
+ },
+ {
+  "seg": 15,
+  "start": 81.147,
+  "end": 83.348,
+  "speaker": "Unknown",
+  "en": "I've been doing it for about as long as you can have been doing it.",
+  "zh": "我做这件事的时间，差不多是能做这件事的最长时间了。"
+ },
+ {
+  "seg": 16,
+  "start": 84.589,
+  "end": 86.75,
+  "speaker": "Unknown",
+  "en": "More recently, I've been talking about this a lot.",
+  "zh": "最近，我一直在大量谈论这个话题。"
+ },
+ {
+  "seg": 17,
+  "start": 87.53,
+  "end": 88.05,
+  "speaker": "Unknown",
+  "en": "Here's some proof.",
+  "zh": "这里有一些证据。"
+ },
+ {
+  "seg": 18,
+  "start": 89.991,
+  "end": 92.592,
+  "speaker": "Unknown",
+  "en": "And yeah, so I work at this company called TLDraw.",
+  "zh": "是的，我在这家叫 TLDraw 的公司工作。"
+ },
+ {
+  "seg": 19,
+  "start": 92.872,
+  "end": 93.673,
+  "speaker": "Unknown",
+  "en": "Can I get a quick show of hands?",
+  "zh": "能快速举个手吗？"
+ },
+ {
+  "seg": 20,
+  "start": 93.693,
+  "end": 95.674,
+  "speaker": "Unknown",
+  "en": "Has anybody ever heard of or used TLDraw before?",
+  "zh": "有没有人以前听说过或者用过 TLDraw？"
+ },
+ {
+  "seg": 21,
+  "start": 96.294,
+  "end": 98.395,
+  "speaker": "Unknown",
+  "en": "Yeah, okay.",
+  "zh": "有，好的。"
+ },
+ {
+  "seg": 22,
+  "start": 98.535,
+  "end": 99.056,
+  "speaker": "Unknown",
+  "en": "Awesome, so yeah.",
+  "zh": "太棒了，好的。"
+ },
+ {
+  "seg": 23,
+  "start": 99.596,
+  "end": 104.499,
+  "speaker": "Unknown",
+  "en": "The thing that you probably use if you use TLDraw is this app right here.",
+  "zh": "如果你用过 TLDraw，你用过的很可能是右边这个应用。"
+ },
+ {
+  "seg": 24,
+  "start": 104.519,
+  "end": 105.759,
+  "speaker": "Unknown",
+  "en": "So this is all TLDraw.",
+  "zh": "所以这全是 TLDraw。"
+ },
+ {
+  "seg": 25,
+  "start": 106.22,
+  "end": 110.122,
+  "speaker": "Unknown",
+  "en": "It's a free Infinite Canvas whiteboarding app.",
+  "zh": "它是一个免费的无限画布白板应用。"
+ },
+ {
+  "seg": 26,
+  "start": 110.142,
+  "end": 115.645,
+  "speaker": "Unknown",
+  "en": "We have selections and arrows and resizing and all the things that you need in a...",
+  "zh": "我们有选择、箭头、调整大小，以及一个……需要的所有东西。"
+ },
+ {
+  "seg": 27,
+  "start": 116.225,
+  "end": 116.705,
+  "speaker": "Unknown",
+  "en": "And a whiteboard.",
+  "zh": "还有一个白板。"
+ },
+ {
+  "seg": 28,
+  "start": 117.625,
+  "end": 120.506,
+  "speaker": "Unknown",
+  "en": "TL Draw is also the company that makes this app.",
+  "zh": "TLDraw 也是制作这个应用的公司。"
+ },
+ {
+  "seg": 29,
+  "start": 120.827,
+  "end": 121.727,
+  "speaker": "Unknown",
+  "en": "It's based in London.",
+  "zh": "它总部在伦敦。"
+ },
+ {
+  "seg": 30,
+  "start": 121.847,
+  "end": 123.187,
+  "speaker": "Unknown",
+  "en": "It's where I work.",
+  "zh": "那是我工作的地方。"
+ },
+ {
+  "seg": 31,
+  "start": 123.688,
+  "end": 131.25,
+  "speaker": "Unknown",
+  "en": "But the last thing that TL Draw is, which is, I think, in my opinion, the most important, is it's the Infinite Canvas SDKs that powers this app.",
+  "zh": "但 TLDraw 的最后一个身份，我认为也是最重要的，就是为这个应用提供动力的无限画布 SDKs。"
+ },
+ {
+  "seg": 32,
+  "start": 131.79,
+  "end": 141.734,
+  "speaker": "Unknown",
+  "en": "And so what that means is that this is kind of the TL Draw, the SDKs, the engine that powers a lot of Infinite Canvas experiences, because it turns out it's really hard to get that kind of stuff right.",
+  "zh": "这意味着这有点像 TLDraw——这些 SDKs——是驱动很多无限画布体验的引擎，因为事实证明要把这类东西做对真的很难。"
+ },
+ {
+  "seg": 33,
+  "start": 143.535,
+  "end": 153.751,
+  "speaker": "Unknown",
+  "en": "And so if you ever want to build a Miro competitor or a slide designer or if you're like Replit, Replit has their whole new agent canvas stuff built on top of tldraw.",
+  "zh": "所以如果你想构建一个 Miro 的竞品、或者一个幻灯片设计器，或者如果你是 Replit——Replit 全新的智能体画布功能就是构建在 tldraw 之上的。"
+ },
+ {
+  "seg": 34,
+  "start": 155.591,
+  "end": 172.737,
+  "speaker": "Unknown",
+  "en": "And so the reason we built TLDraw in the first place was that we were running into this issue, or people were running into this issue where they had this idea for this really great killer Canvas app, and they went to go build it, and everybody would run into the same problem where they would run into, they would have trouble making the actual Canvas part of the app.",
+  "zh": "我们最初构建 TLDraw 的原因是，我们自己遇到过这个问题，或者人们遇到过这个问题：他们有了一个非常棒的杀手级画布应用的想法，然后动手去构建，每个人都会遇到同样的麻烦，就是应用的「画布」部分做不出来。"
+ },
+ {
+  "seg": 35,
+  "start": 173.697,
+  "end": 177.983,
+  "speaker": "Unknown",
+  "en": "And they would, you know, try to deal with resizing and selection and, you know, all the matrix math.",
+  "zh": "他们会试着处理调整大小、选择，还有所有的矩阵数学。"
+ },
+ {
+  "seg": 36,
+  "start": 178.523,
+  "end": 181.647,
+  "speaker": "Unknown",
+  "en": "And the issue is that they wouldn't be able to build their actual app itself.",
+  "zh": "问题在于他们没办法去构建应用本身。"
+ },
+ {
+  "seg": 37,
+  "start": 181.667,
+  "end": 182.769,
+  "speaker": "Unknown",
+  "en": "They would get stuck on the canvas.",
+  "zh": "他们会卡在画布上。"
+ },
+ {
+  "seg": 38,
+  "start": 182.789,
+  "end": 189.557,
+  "speaker": "Unknown",
+  "en": "And so we built Tealdraw to kind of be the engine that could power, that could be the canvas so that they could focus on the actual app.",
+  "zh": "所以我们构建了 Tealdraw，让它成为那个能提供动力的引擎、能成为画布，这样他们就能专注于真正的应用。"
+ },
+ {
+  "seg": 39,
+  "start": 190.478,
+  "end": 195.941,
+  "speaker": "Unknown",
+  "en": "When LLMs came out, we, like a lot of other people, saw that this was going to be this weird, new type of software.",
+  "zh": "当 LLM 出现时，我们和很多其他人一样，看到这将会是一种奇怪的新型软件。"
+ },
+ {
+  "seg": 40,
+  "start": 195.961,
+  "end": 200.344,
+  "speaker": "Unknown",
+  "en": "I don't know if anyone, I'm sure a lot of you were building in 2022, and it was really exciting.",
+  "zh": "不知道有没有人……我相信你们很多人在 2022 年就在构建了，那真的很令人兴奋。"
+ },
+ {
+  "seg": 41,
+  "start": 201.484,
+  "end": 203.225,
+  "speaker": "Unknown",
+  "en": "And a lot of people, it was the exact same thing.",
+  "zh": "而对很多人来说，情况一模一样。"
+ },
+ {
+  "seg": 42,
+  "start": 203.265,
+  "end": 210.75,
+  "speaker": "Unknown",
+  "en": "People had the idea, had an idea for this cool app that would involve LLMs on the canvas, having them manipulating things in space.",
+  "zh": "人们有了想法，有了一个涉及画布上 LLM 的酷应用的想法，让它们在空间中操作各种东西。"
+ },
+ {
+  "seg": 43,
+  "start": 211.49,
+  "end": 213.073,
+  "speaker": "Unknown",
+  "en": "But then they would try to build it and they'd get stuck.",
+  "zh": "但然后他们试着去构建，就卡住了。"
+ },
+ {
+  "seg": 44,
+  "start": 213.935,
+  "end": 223.513,
+  "speaker": "Unknown",
+  "en": "There are no best practices, people didn't really know how to do it, and so at TL Draw we realized that we need to make it easy for people to build with agents, with LLMs on the canvas.",
+  "zh": "没有最佳实践，人们不太知道怎么做，所以在 TLDraw 我们意识到，我们需要让人们可以轻松地用智能体、用画布上的 LLM 来构建。"
+ },
+ {
+  "seg": 45,
+  "start": 224.997,
+  "end": 229.281,
+  "speaker": "Unknown",
+  "en": "And also, so TLDraw, the SDK as well as the app has multiplayer built in with like live sync.",
+  "zh": "另外，TLDraw 的 SDK 和应用本身都内置了多人协作功能，有实时同步。"
+ },
+ {
+  "seg": 46,
+  "start": 229.321,
+  "end": 229.921,
+  "speaker": "Unknown",
+  "en": "It's really nice.",
+  "zh": "真的非常好用。"
+ },
+ {
+  "seg": 47,
+  "start": 230.041,
+  "end": 231.542,
+  "speaker": "Unknown",
+  "en": "There's cursors.",
+  "zh": "有光标。"
+ },
+ {
+  "seg": 48,
+  "start": 231.562,
+  "end": 234.324,
+  "speaker": "Unknown",
+  "en": "You can see your collaborators' cursors and selections and viewports.",
+  "zh": "你能看到协作者的光标、选择区域和视口。"
+ },
+ {
+  "seg": 49,
+  "start": 234.885,
+  "end": 246.473,
+  "speaker": "Unknown",
+  "en": "And I think all of the things that make just the Canvas in general a really great place for interacting with and collaborating with your colleagues also make it a really great place for interacting and collaborating with agents.",
+  "zh": "我认为所有这些让画布本身就成为一个与同事互动协作的绝佳场所的东西，同样也让它成为一个与智能体互动协作的绝佳场所。"
+ },
+ {
+  "seg": 50,
+  "start": 247.094,
+  "end": 250.997,
+  "speaker": "Unknown",
+  "en": "And I hope I'm going to be able to show you guys some of that in the demos that come up.",
+  "zh": "我希望在接下来的演示中能给大家展示其中一些内容。"
+ },
+ {
+  "seg": 51,
+  "start": 252.618,
+  "end": 256.983,
+  "speaker": "Unknown",
+  "en": "So before we talk about agents on the canvas, really quickly I want to talk about agents not on the canvas.",
+  "zh": "所以在谈论画布上的智能体之前，我想快速谈一下不在画布上的智能体。"
+ },
+ {
+  "seg": 52,
+  "start": 257.664,
+  "end": 269.717,
+  "speaker": "Unknown",
+  "en": "I'm sure you guys have all used an app that looks like this, Claude Code, and I'm gonna really oversimplify here, but basically part of the reason why these apps are so good and why they work is because the medium in which they're working",
+  "zh": "我相信你们都用过看起来像这样的应用，Claude Code，我在这里会非常简化地说，但这些应用之所以这么好用、之所以能奏效，基本上其中一个原因是它们工作的媒介"
+ },
+ {
+  "seg": 53,
+  "start": 270.518,
+  "end": 272.88,
+  "speaker": "Unknown",
+  "en": "Writing code is essentially the medium in which they were trained.",
+  "zh": "写代码本质上就是它们被训练的媒介。"
+ },
+ {
+  "seg": 54,
+  "start": 273.14,
+  "end": 274.422,
+  "speaker": "Unknown",
+  "en": "It's text in, text out.",
+  "zh": "就是文本进，文本出。"
+ },
+ {
+  "seg": 55,
+  "start": 274.442,
+  "end": 275.262,
+  "speaker": "Unknown",
+  "en": "That's how they were trained.",
+  "zh": "它们就是这样被训练的。"
+ },
+ {
+  "seg": 56,
+  "start": 276.703,
+  "end": 279.446,
+  "speaker": "Unknown",
+  "en": "And when we work with them, we give them a prompt and they write code.",
+  "zh": "当我们与它们协作时，我们给它们一个提示词，它们写代码。"
+ },
+ {
+  "seg": 57,
+  "start": 279.486,
+  "end": 281.147,
+  "speaker": "Unknown",
+  "en": "It's text in, text out.",
+  "zh": "就是文本进，文本出。"
+ },
+ {
+  "seg": 58,
+  "start": 281.908,
+  "end": 283.85,
+  "speaker": "Unknown",
+  "en": "Again, oversimplifying, but that's essentially how they work.",
+  "zh": "再说一次，这是过度简化，但这基本上就是它们的工作方式。"
+ },
+ {
+  "seg": 59,
+  "start": 285.036,
+  "end": 301.317,
+  "speaker": "Unknown",
+  "en": "I don't know if you guys have ever tried to get your agents to do UI stuff and tried to get them to align something, found that they could not do that whatsoever, because it turns out agents are really, really bad at working in 2D space and understanding 2D space, and it actually requires a lot of engineering work to get them to...",
+  "zh": "我不知道你们有没有试过让你们的智能体做 UI 相关的事情，试过让它们对齐某个东西，结果发现它们完全做不到，因为事实证明智能体在 2D 空间中工作、理解 2D 空间这方面非常非常糟糕，而这实际上需要大量的工程工作才能让它们……"
+ },
+ {
+  "seg": 60,
+  "start": 302.238,
+  "end": 302.518,
+  "speaker": "Unknown",
+  "en": "Do it.",
+  "zh": "做到这一点。"
+ },
+ {
+  "seg": 61,
+  "start": 303.018,
+  "end": 306.439,
+  "speaker": "Unknown",
+  "en": "And that's kind of the project that we've been embarking on at TealDraw recently.",
+  "zh": "而这差不多就是我们最近在 TealDraw 上着手进行的项目。"
+ },
+ {
+  "seg": 62,
+  "start": 307.779,
+  "end": 318.922,
+  "speaker": "Unknown",
+  "en": "And so the first thing we had to do, this is an older project, but the first thing we had to do is get them to teach them, teach the agents, or at this point, not agents, LLMs, to understand the canvas and understand kind of what they're even looking at.",
+  "zh": "所以我们要做的第一件事，这是一个较早的项目，我们要做的第一件事就是教它们、教这些智能体，或者在这个阶段还不算智能体，是 LLM，去理解画布、理解它们看到的到底是什么。"
+ },
+ {
+  "seg": 63,
+  "start": 319.242,
+  "end": 326.484,
+  "speaker": "Unknown",
+  "en": "So we had this project called Teach, where we taught, so I'm gonna prompt this really quick.",
+  "zh": "所以我们有一个叫 Teach 的项目，我们教了，我快速输入一个提示词。"
+ },
+ {
+  "seg": 64,
+  "start": 326.544,
+  "end": 329.225,
+  "speaker": "Unknown",
+  "en": "I'm gonna say, hey, make the mouse blow out the candle.",
+  "zh": "我要说，嘿，让鼠标吹灭蜡烛。"
+ },
+ {
+  "seg": 65,
+  "start": 331.749,
+  "end": 331.909,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 66,
+  "start": 332.469,
+  "end": 333.61,
+  "speaker": "Unknown",
+  "en": "So that's gonna take a second.",
+  "zh": "这需要一点时间。"
+ },
+ {
+  "seg": 67,
+  "start": 333.69,
+  "end": 346.136,
+  "speaker": "Unknown",
+  "en": "This is an older project, but basically what we had to do is we had to kind of like teach the LLMs how to take the screenshot that we give it and the JSON and all of the other information about the Canvas and, oh.",
+  "zh": "这是一个较早的项目，但基本上我们要做的是，我们得教会 LLM 如何处理我们给它的截图和 JSON 以及关于画布的所有其他信息，哦。"
+ },
+ {
+  "seg": 68,
+  "start": 347.576,
+  "end": 349.057,
+  "speaker": "Unknown",
+  "en": "Yeah, there, okay, so yeah, that's some wind.",
+  "zh": "对，好了，是的，那是一阵风。"
+ },
+ {
+  "seg": 69,
+  "start": 352.053,
+  "end": 353.595,
+  "speaker": "Unknown",
+  "en": "Is it, sometimes it gives us smoke as well.",
+  "zh": "是不是，有时候它还会给出烟。"
+ },
+ {
+  "seg": 70,
+  "start": 353.615,
+  "end": 354.717,
+  "speaker": "Unknown",
+  "en": "Yeah, and we got a little smoke as well.",
+  "zh": "是的，我们也有了一点烟。"
+ },
+ {
+  "seg": 71,
+  "start": 355.057,
+  "end": 362.087,
+  "speaker": "Unknown",
+  "en": "So we basically had to take it, how to like, and I want to be very clear, this is not like a special mouse shape.",
+  "zh": "所以我们基本上得让它知道怎么……我想非常明确地说，这不是什么特殊的鼠标形状。"
+ },
+ {
+  "seg": 72,
+  "start": 362.147,
+  "end": 367.034,
+  "speaker": "Unknown",
+  "en": "These are just like, you know, these are just shapes on the canvas.",
+  "zh": "这些只是……你知道的，这些只是画布上的形状。"
+ },
+ {
+  "seg": 73,
+  "start": 367.054,
+  "end": 367.334,
+  "speaker": "Unknown",
+  "en": "This is,",
+  "zh": "这是,"
+ },
+ {
+  "seg": 74,
+  "start": 368.235,
+  "end": 381.483,
+  "speaker": "Unknown",
+  "en": "And so the work behind this, it's a single-shot prompt, but we basically, we tell the agent how to interpret both via screenshots and via the data what is actually on the canvas, like what it's looking at, which is actually, you know, it's not a trivial problem.",
+  "zh": "而这背后的工作是单次提示词，但我们基本上是告诉智能体如何通过截图和数据来理解画布上实际有什么，比如它看到的是什么，这其实……你知道的，这不是一个简单的问题。"
+ },
+ {
+  "seg": 75,
+  "start": 382.123,
+  "end": 389.607,
+  "speaker": "Unknown",
+  "en": "And then also how to, we teach it how to actually act on the canvas and to understand how the actions that it produces will affect the canvas.",
+  "zh": "然后还有如何行动，我们教它如何真正在画布上行动，并理解它产生的动作会如何影响画布。"
+ },
+ {
+  "seg": 76,
+  "start": 389.627,
+  "end": 396.571,
+  "speaker": "Unknown",
+  "en": "So, you know, it got, it made the smoke, it made the wind, it got the positions right, and it understood what it was doing.",
+  "zh": "所以，你知道的，它做出了烟，做出了风，把位置弄对了，并且理解了自己在做什么。"
+ },
+ {
+  "seg": 77,
+  "start": 398.689,
+  "end": 407.072,
+  "speaker": "Unknown",
+  "en": "So we got this, we kind of figured out how the, we taught it what the canvas is, but this was like a single shot, single prompt kind of thing.",
+  "zh": "所以我们得到了这个，我们差不多弄清楚了怎么……我们教会了它画布是什么，但这只是一种单次、单个提示词的事情。"
+ },
+ {
+  "seg": 78,
+  "start": 408.512,
+  "end": 417.015,
+  "speaker": "Unknown",
+  "en": "And so the next thing we built is the TealDraw Agent Starter Kit, which basically turns that and wraps in a harness that lets an agent work agentically on the canvas.",
+  "zh": "于是我们接下来构建的是 TealDraw Agent Starter Kit，它基本上就是把那个东西包装进一个框架里，让智能体能够以智能体式的方式在画布上工作。"
+ },
+ {
+  "seg": 79,
+  "start": 417.675,
+  "end": 421.416,
+  "speaker": "Unknown",
+  "en": "The code is also MIT-licensed, you can find it on the website.",
+  "zh": "代码也是 MIT 许可的，你可以在网站上找到它。"
+ },
+ {
+  "seg": 80,
+  "start": 421.436,
+  "end": 424.697,
+  "speaker": "Unknown",
+  "en": "So here's a little cat, I'm gonna make this a little bigger.",
+  "zh": "这里是一只小猫，我把它放大一点。"
+ },
+ {
+  "seg": 81,
+  "start": 424.717,
+  "end": 426.398,
+  "speaker": "Unknown",
+  "en": "What I'm gonna say is,",
+  "zh": "我要说的是,"
+ },
+ {
+  "seg": 82,
+  "start": 427.318,
+  "end": 432.527,
+  "speaker": "Unknown",
+  "en": "Hey, so somewhere else on the canvas there are some friends for the cat.",
+  "zh": "嘿，在画布的其他地方有一些这只猫的朋友。"
+ },
+ {
+  "seg": 83,
+  "start": 432.667,
+  "end": 435.653,
+  "speaker": "Unknown",
+  "en": "Can you please bring one of them over to the cat?",
+  "zh": "你能把其中一只带到猫这里来吗？"
+ },
+ {
+  "seg": 84,
+  "start": 435.773,
+  "end": 436.835,
+  "speaker": "Unknown",
+  "en": "Her favorite color is red.",
+  "zh": "她最喜欢的颜色是红色。"
+ },
+ {
+  "seg": 85,
+  "start": 439.067,
+  "end": 441.348,
+  "speaker": "Unknown",
+  "en": "And so I'm gonna zoom out and I'm gonna show you guys what's actually going on.",
+  "zh": "然后我会缩小画面，给你们看看实际发生的情况。"
+ },
+ {
+  "seg": 86,
+  "start": 441.368,
+  "end": 443.488,
+  "speaker": "Unknown",
+  "en": "So you can see the view of the agent.",
+  "zh": "你可以看到智能体的视图。"
+ },
+ {
+  "seg": 87,
+  "start": 443.848,
+  "end": 460.393,
+  "speaker": "Unknown",
+  "en": "There's some potential friends over here and if you read the, and basically what's going on is that the agent has kind of like, we've given it a prompt and using the information it has about the canvas, it's going to kind of like make some goals for itself.",
+  "zh": "这边有一些潜在的朋友，如果你阅读……基本上发生的事情是，智能体差不多……我们给了它一个提示词，利用它掌握的关于画布的信息，它会给自己设定一些目标。"
+ },
+ {
+  "seg": 88,
+  "start": 460.413,
+  "end": 462.154,
+  "speaker": "Unknown",
+  "en": "You can see there's some to-dos in the corner here.",
+  "zh": "你可以看到角落里有一些待办事项。"
+ },
+ {
+  "seg": 89,
+  "start": 462.694,
+  "end": 465.715,
+  "speaker": "Unknown",
+  "en": "It changed its view in order to see what's going on.",
+  "zh": "它改变了自己的视图，以便看清发生了什么。"
+ },
+ {
+  "seg": 90,
+  "start": 466.555,
+  "end": 469.317,
+  "speaker": "Unknown",
+  "en": "What was, you know, the other stuff that was on the canvas.",
+  "zh": "就是画布上原本有什么其他东西。"
+ },
+ {
+  "seg": 91,
+  "start": 469.357,
+  "end": 476.541,
+  "speaker": "Unknown",
+  "en": "The same way that if you ask a coding agent, you know, you ask it, you know, where do we define this thing in the code base?",
+  "zh": "就像你问一个编码智能体，你知道的，你问它，我们在代码库的哪里定义了这个东西？"
+ },
+ {
+  "seg": 92,
+  "start": 476.601,
+  "end": 478.182,
+  "speaker": "Unknown",
+  "en": "It can go, it can search, it can find it.",
+  "zh": "它可以去搜索，可以找到它。"
+ },
+ {
+  "seg": 93,
+  "start": 478.202,
+  "end": 490.73,
+  "speaker": "Unknown",
+  "en": "So this is kind of like turning that single shot prompting experience into this kind of like agentic thing that you can have, you know, it can autonomously set goals and work towards them.",
+  "zh": "所以这差不多就是把那种单次提示词的体验转变成这种智能体式的体验，你知道的，它可以自主设定目标并朝着目标努力。"
+ },
+ {
+  "seg": 94,
+  "start": 491.821,
+  "end": 510.83,
+  "speaker": "Unknown",
+  "en": "The next thing we did, we did this project called Fairies, and so we basically, we had this agent experience, but we realized that, you know, TL Draw and, you know, the Canvas in general is so collaborative, it's so multi-playered, and we wanted to basically, we wanted people to be able to work together with their agents, and we also wanted the agents to be able to work together.",
+  "zh": "我们接下来做的，是一个叫 Fairies 的项目，所以我们基本上，我们有了这个智能体体验，但我们意识到，你知道的，TL Draw 和……你知道的，画布总体上是非常协作的，非常多人同时使用的，所以我们基本上希望……我们希望人们能够和他们的智能体一起协作，我们也希望智能体之间能够协作。"
+ },
+ {
+  "seg": 95,
+  "start": 512.27,
+  "end": 512.811,
+  "speaker": "Unknown",
+  "en": "So this is...",
+  "zh": "所以这是……"
+ },
+ {
+  "seg": 96,
+  "start": 513.671,
+  "end": 514.492,
+  "speaker": "Unknown",
+  "en": "This is a ferry.",
+  "zh": "这是一个 fairy（小精灵）。"
+ },
+ {
+  "seg": 97,
+  "start": 514.952,
+  "end": 520.197,
+  "speaker": "Unknown",
+  "en": "There's also, if you guys want to scan this QR code, you can actually, this is multiplayer, you can join if you want.",
+  "zh": "还有的就是，如果你们想扫描这个二维码，你们实际上可以……这是多人协作的，你们想加入的话可以加入。"
+ },
+ {
+  "seg": 98,
+  "start": 520.537,
+  "end": 523.04,
+  "speaker": "Unknown",
+  "en": "It requires a Gmail signup, but you don't need to pay for tokens.",
+  "zh": "它需要 Gmail 注册，但你不需要为 token 付费。"
+ },
+ {
+  "seg": 99,
+  "start": 523.781,
+  "end": 524.641,
+  "speaker": "Unknown",
+  "en": "This is what the link is.",
+  "zh": "这就是链接。"
+ },
+ {
+  "seg": 100,
+  "start": 524.661,
+  "end": 526.703,
+  "speaker": "Unknown",
+  "en": "So basically, this is a ferry.",
+  "zh": "所以基本上，这是一只小仙子。"
+ },
+ {
+  "seg": 101,
+  "start": 526.723,
+  "end": 529.045,
+  "speaker": "Unknown",
+  "en": "This ferry's name is Joan.",
+  "zh": "这只小仙子的名字叫 Joan。"
+ },
+ {
+  "seg": 102,
+  "start": 529.085,
+  "end": 532.128,
+  "speaker": "Unknown",
+  "en": "They don't like being grabbed.",
+  "zh": "它们不喜欢被抓住。"
+ },
+ {
+  "seg": 103,
+  "start": 532.328,
+  "end": 533.329,
+  "speaker": "Unknown",
+  "en": "You can throw them around.",
+  "zh": "你可以把它们扔来扔去。"
+ },
+ {
+  "seg": 104,
+  "start": 533.349,
+  "end": 535.371,
+  "speaker": "Unknown",
+  "en": "We added a lot of really important stuff.",
+  "zh": "我们加了很多非常重要的东西。"
+ },
+ {
+  "seg": 105,
+  "start": 537.213,
+  "end": 538.214,
+  "speaker": "Unknown",
+  "en": "You can change its hat.",
+  "zh": "你可以换它的帽子。"
+ },
+ {
+  "seg": 106,
+  "start": 539.695,
+  "end": 541.217,
+  "speaker": "Unknown",
+  "en": "You can change the color.",
+  "zh": "你可以换颜色。"
+ },
+ {
+  "seg": 107,
+  "start": 541.237,
+  "end": 551.506,
+  "speaker": "Unknown",
+  "en": "And this seems silly, but it's actually really important, and I'll talk about this a little bit more later, but actually understanding when you get a high-level view of, when you see your agents working on the canvas, it's important to know which one is which.",
+  "zh": "这看起来很傻，但实际上非常重要，我稍后会多讲一点，就是说，当你从高层次视角看到你的智能体在画布上工作时，分清哪一个是哪个很重要。"
+ },
+ {
+  "seg": 108,
+  "start": 551.526,
+  "end": 555.409,
+  "speaker": "Unknown",
+  "en": "And so differentiating them is actually important, which is why, of course, we added the leg slider.",
+  "zh": "所以区分它们其实很重要，这也是为什么，当然，我们加了一个腿的滑块。"
+ },
+ {
+  "seg": 109,
+  "start": 557.771,
+  "end": 562.456,
+  "speaker": "Unknown",
+  "en": "But so, you know, I can say like, you know, I can say hey to it.",
+  "zh": "不过，你知道，我可以跟它打招呼。"
+ },
+ {
+  "seg": 110,
+  "start": 564.588,
+  "end": 569.25,
+  "speaker": "Unknown",
+  "en": "And I can say, you know, something like draw a cat and I can have it work.",
+  "zh": "我可以说类似画一只猫的话，然后让它去干活。"
+ },
+ {
+  "seg": 111,
+  "start": 569.27,
+  "end": 572.591,
+  "speaker": "Unknown",
+  "en": "But the most important thing here is that fairies have friends, right?",
+  "zh": "但这里最重要的是，小仙子是有朋友的，对吧？"
+ },
+ {
+  "seg": 112,
+  "start": 572.651,
+  "end": 574.912,
+  "speaker": "Unknown",
+  "en": "And they can, here we go.",
+  "zh": "它们可以，来了。"
+ },
+ {
+  "seg": 113,
+  "start": 576.112,
+  "end": 577.633,
+  "speaker": "Unknown",
+  "en": "And fairies can work together.",
+  "zh": "而且小仙子可以协同工作。"
+ },
+ {
+  "seg": 114,
+  "start": 577.653,
+  "end": 582.535,
+  "speaker": "Unknown",
+  "en": "And so we kind of designed this like multi-agent collaboration system that works on the canvas.",
+  "zh": "所以我们设计了一种在画布上运行的多智能体协作系统。"
+ },
+ {
+  "seg": 115,
+  "start": 583.775,
+  "end": 587.697,
+  "speaker": "Unknown",
+  "en": "And I'm gonna actually, I'm gonna go to, I think one of my,",
+  "zh": "而我实际上要，我要去，我想是我的，"
+ },
+ {
+  "seg": 116,
+  "start": 589.329,
+  "end": 589.989,
+  "speaker": "Unknown",
+  "en": "Yeah, I think so.",
+  "zh": "对，我想是的。"
+ },
+ {
+  "seg": 117,
+  "start": 590.029,
+  "end": 593.271,
+  "speaker": "Unknown",
+  "en": "My colleagues' agents are here working, making this really great scene.",
+  "zh": "我同事的智能体正在这里工作，制作这个很棒的场景。"
+ },
+ {
+  "seg": 118,
+  "start": 595.352,
+  "end": 597.153,
+  "speaker": "Unknown",
+  "en": "I'm gonna bring mine over.",
+  "zh": "我要把我的带过来。"
+ },
+ {
+  "seg": 119,
+  "start": 598.213,
+  "end": 598.693,
+  "speaker": "Unknown",
+  "en": "Summon.",
+  "zh": "召唤。"
+ },
+ {
+  "seg": 120,
+  "start": 600.194,
+  "end": 601.615,
+  "speaker": "Unknown",
+  "en": "And I'm gonna give them a slightly different prompt.",
+  "zh": "然后我要给它们一个稍有不同的提示词。"
+ },
+ {
+  "seg": 121,
+  "start": 601.635,
+  "end": 604.916,
+  "speaker": "Unknown",
+  "en": "So I'm gonna select them all, and now I have a group chat of the agents, right?",
+  "zh": "所以我把它们全选上，现在我就有了一个智能体的群聊，对吧？"
+ },
+ {
+  "seg": 122,
+  "start": 605.116,
+  "end": 610.739,
+  "speaker": "Unknown",
+  "en": "And I'm gonna say, hey, I have a board meeting coming up in like 10 minutes, and I don't have any of my figures.",
+  "zh": "然后我要说，嘿，我大概 10 分钟后有个董事会会议，但我一张图都没有。"
+ },
+ {
+  "seg": 123,
+  "start": 610.859,
+  "end": 615.341,
+  "speaker": "Unknown",
+  "en": "Can you draw up like a little memo for all of my financial data for fiscal year 2025?",
+  "zh": "你能为我 2025 财年的所有财务数据整理一份小备忘录吗？"
+ },
+ {
+  "seg": 124,
+  "start": 615.361,
+  "end": 615.581,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 125,
+  "start": 618.83,
+  "end": 625.153,
+  "speaker": "Unknown",
+  "en": "Okay, so what's gonna happen there basically is this kind of like creates this multi-agent coordination thing.",
+  "zh": "好，那里基本上会发生的事情就是，这会创建一种多智能体协调机制。"
+ },
+ {
+  "seg": 126,
+  "start": 625.674,
+  "end": 629.596,
+  "speaker": "Unknown",
+  "en": "We have one of the fairies is writing out a plan.",
+  "zh": "其中一只小仙子正在写一个计划。"
+ },
+ {
+  "seg": 127,
+  "start": 630.176,
+  "end": 630.857,
+  "speaker": "Unknown",
+  "en": "You can see it.",
+  "zh": "你可以看到。"
+ },
+ {
+  "seg": 128,
+  "start": 632.297,
+  "end": 635.059,
+  "speaker": "Unknown",
+  "en": "And again, the animations are kind of cute and funny but it's actually really important.",
+  "zh": "再说一次，这些动画有点可爱搞笑，但实际上非常重要。"
+ },
+ {
+  "seg": 129,
+  "start": 635.119,
+  "end": 639.121,
+  "speaker": "Unknown",
+  "en": "I don't have to read a chat or go through, you know, imagine if I have 10 agents working.",
+  "zh": "我不需要去读聊天记录或者翻看，你想想要是我有 10 个智能体在工作。"
+ },
+ {
+  "seg": 130,
+  "start": 639.441,
+  "end": 642.383,
+  "speaker": "Unknown",
+  "en": "I don't have to read a chat in order to know what's actually going on.",
+  "zh": "我不需要读聊天记录就能知道实际发生了什么。"
+ },
+ {
+  "seg": 131,
+  "start": 642.423,
+  "end": 647.686,
+  "speaker": "Unknown",
+  "en": "I can look at the state of the agents and I can actually, you know, I can see what's happening.",
+  "zh": "我可以看智能体的状态，而且我真的，你知道，我能看到正在发生什么。"
+ },
+ {
+  "seg": 132,
+  "start": 648.306,
+  "end": 651.969,
+  "speaker": "Unknown",
+  "en": "We have a task here that's been defined.",
+  "zh": "我们这里有一个已经定义好的任务。"
+ },
+ {
+  "seg": 133,
+  "start": 654.191,
+  "end": 658.795,
+  "speaker": "Unknown",
+  "en": "It seems like the ferry is waiting for that to finish.",
+  "zh": "看起来那只小仙子在等它完成。"
+ },
+ {
+  "seg": 134,
+  "start": 660.737,
+  "end": 663.058,
+  "speaker": "Unknown",
+  "en": "Yeah, so that one's bored, that one's waiting.",
+  "zh": "对，那只很无聊，那只还在等。"
+ },
+ {
+  "seg": 135,
+  "start": 663.078,
+  "end": 664.4,
+  "speaker": "Unknown",
+  "en": "So this is the orchestrator ferry.",
+  "zh": "这就是编排者小仙子。"
+ },
+ {
+  "seg": 136,
+  "start": 664.48,
+  "end": 670.665,
+  "speaker": "Unknown",
+  "en": "What it's done is it's assigned the task, and now it's waiting for the other ones to start and finish it.",
+  "zh": "它做的是分配了任务，现在它在等其他那些开始并完成它。"
+ },
+ {
+  "seg": 137,
+  "start": 670.925,
+  "end": 674.188,
+  "speaker": "Unknown",
+  "en": "And it's going to get notified, it's gonna get prompted in order to review.",
+  "zh": "而且它会收到通知，它会被提示去进行审查。"
+ },
+ {
+  "seg": 138,
+  "start": 675.938,
+  "end": 679.68,
+  "speaker": "Unknown",
+  "en": "It seems like for whatever reason my internet's not working, but thankfully, oh, nevermind.",
+  "zh": "不知道为什么我的网络好像不好用了，不过还好，哦，没事了。"
+ },
+ {
+  "seg": 139,
+  "start": 680.921,
+  "end": 691.588,
+  "speaker": "Unknown",
+  "en": "So yeah, we have one, we have this one, so yeah, we have one fairy who made the task, one fairy who's working on it, and so this is this kind of, you know, multi-agent coordination system on the canvas.",
+  "zh": "所以是的，我们有，我们有这一只，是的，我们有一只小仙子创建了任务，另一只小仙子在处理它，这就是画布上的这种多智能体协调系统。"
+ },
+ {
+  "seg": 140,
+  "start": 691.668,
+  "end": 694.109,
+  "speaker": "Unknown",
+  "en": "I have, you know, you can see my colleague has his agents over here.",
+  "zh": "我有，你知道，你可以看到我同事的智能体在那边。"
+ },
+ {
+  "seg": 141,
+  "start": 694.75,
+  "end": 695.87,
+  "speaker": "Unknown",
+  "en": "They're working as well.",
+  "zh": "它们也在工作。"
+ },
+ {
+  "seg": 142,
+  "start": 697.151,
+  "end": 702.955,
+  "speaker": "Unknown",
+  "en": "And so you can kind of collaborate with people and with agents in this environment, and I think that's really cool.",
+  "zh": "所以你可以在这种环境里和人们以及智能体协作，我觉得这真的很酷。"
+ },
+ {
+  "seg": 143,
+  "start": 704.336,
+  "end": 704.496,
+  "speaker": "Unknown",
+  "en": "The,",
+  "zh": "这个，"
+ },
+ {
+  "seg": 144,
+  "start": 706.782,
+  "end": 712.767,
+  "speaker": "Unknown",
+  "en": "So the next thing, so the problem with fairies is that they're kind of trapped in the canvas.",
+  "zh": "接下来，小仙子的问题在于它们某种程度上被困在画布里。"
+ },
+ {
+  "seg": 145,
+  "start": 712.787,
+  "end": 721.534,
+  "speaker": "Unknown",
+  "en": "And all the stuff you've seen before, this requires, if you want to build something like this, this requires you to opt in and have your entire harness be a canvas harness.",
+  "zh": "而你之前看到的所有东西，如果你想做这样的东西，这要求你选择加入，让你的整个 harness 成为一个画布 harness。"
+ },
+ {
+  "seg": 146,
+  "start": 722.775,
+  "end": 727.279,
+  "speaker": "Unknown",
+  "en": "And the downside of that is that it makes it really hard to have any of this work with stuff outside in the real world.",
+  "zh": "这样做的坏处是，这让这些东西很难与外部真实世界的东西配合工作。"
+ },
+ {
+  "seg": 147,
+  "start": 727.299,
+  "end": 729.921,
+  "speaker": "Unknown",
+  "en": "The fairies are trapped in the canvas.",
+  "zh": "小仙子被困在画布里了。"
+ },
+ {
+  "seg": 148,
+  "start": 730.682,
+  "end": 730.842,
+  "speaker": "Unknown",
+  "en": "And,",
+  "zh": "而且，"
+ },
+ {
+  "seg": 149,
+  "start": 733.296,
+  "end": 735.177,
+  "speaker": "Unknown",
+  "en": "So I built this experiment.",
+  "zh": "所以我做了这个实验。"
+ },
+ {
+  "seg": 150,
+  "start": 735.197,
+  "end": 737.077,
+  "speaker": "Unknown",
+  "en": "We had a little hackathon internally.",
+  "zh": "我们内部搞了一次小型黑客马拉松。"
+ },
+ {
+  "seg": 151,
+  "start": 738.278,
+  "end": 753.784,
+  "speaker": "Unknown",
+  "en": "But first, as a quick motivation for that, at TLDraw, whenever we're getting closer to a launch, we abandon all of our task-tracking software, and we make just one massive dependency graph of how, like, so this is what an actual, this is a real thing from when we launched ferries, actually.",
+  "zh": "但首先，作为这件事的一个简单动机，在 TLDraw，每当我们接近一次发布时，我们会抛弃所有任务跟踪软件，只做一个巨大的依赖图，大概就是，这是一个真实的，这其实是当我们发布 ferries 时的一张真实的东西。"
+ },
+ {
+  "seg": 152,
+  "start": 755.004,
+  "end": 761.126,
+  "speaker": "Unknown",
+  "en": "And so this is what it looks like when we're really, like, when shit is hitting the fan at TLDraw when we're launching something.",
+  "zh": "这就是我们真正，就是我们发布东西时 TLDraw 场面失控时的样子。"
+ },
+ {
+  "seg": 153,
+  "start": 763.027,
+  "end": 771.193,
+  "speaker": "Unknown",
+  "en": "And I really like this interface because it kind of lets you, this is not like a special app, this is still just tealdraw.com, you can move your shapes around and things like that.",
+  "zh": "我真的很喜欢这个界面，因为它可以让你——这不是什么特殊应用，这仍然只是 tealdraw.com，你可以移动你的图形之类的东西。"
+ },
+ {
+  "seg": 154,
+  "start": 773.014,
+  "end": 779.419,
+  "speaker": "Unknown",
+  "en": "But I really like this because it lets you see what depends on what, it lets you know what's coming next, it lets you get a high-level overview.",
+  "zh": "但我真的很喜欢这个，因为它让你看到什么依赖于什么，让你知道接下来要来的是什么，让你有一个高层级的概览。"
+ },
+ {
+  "seg": 155,
+  "start": 779.439,
+  "end": 783.962,
+  "speaker": "Unknown",
+  "en": "These are all green because we finished them, but you can imagine during the project, some of them are in process.",
+  "zh": "这些都是绿色的，因为我们已经完成了，但你可以想象在项目进行中，其中一些是进行中的。"
+ },
+ {
+  "seg": 156,
+  "start": 784.622,
+  "end": 787.024,
+  "speaker": "Unknown",
+  "en": "And I really wanted something like this.",
+  "zh": "我真的很想要这样的东西。"
+ },
+ {
+  "seg": 157,
+  "start": 788.605,
+  "end": 791.606,
+  "speaker": "Unknown",
+  "en": "But something that could actually do the work itself.",
+  "zh": "但要一个能真正自己完成工作的东西。"
+ },
+ {
+  "seg": 158,
+  "start": 791.726,
+  "end": 794.888,
+  "speaker": "Unknown",
+  "en": "And so I prototyped this thing.",
+  "zh": "所以我做了这个东西的原型。"
+ },
+ {
+  "seg": 159,
+  "start": 794.908,
+  "end": 796.388,
+  "speaker": "Unknown",
+  "en": "It's called the TechTree app.",
+  "zh": "它叫 TechTree 应用。"
+ },
+ {
+  "seg": 160,
+  "start": 796.408,
+  "end": 797.549,
+  "speaker": "Unknown",
+  "en": "And basically it's similar to this.",
+  "zh": "基本上它和这个类似。"
+ },
+ {
+  "seg": 161,
+  "start": 797.589,
+  "end": 798.669,
+  "speaker": "Unknown",
+  "en": "It's a dependency graph.",
+  "zh": "它是一个依赖图。"
+ },
+ {
+  "seg": 162,
+  "start": 799.089,
+  "end": 808.473,
+  "speaker": "Unknown",
+  "en": "But each of these tasks is a coding agent that you can kick off and you can have your agent kind of like be running and doing them autonomously.",
+  "zh": "但这里的每个任务都是一个编码智能体，你可以启动它，你可以让你的智能体自主运行并完成它们。"
+ },
+ {
+  "seg": 163,
+  "start": 810.134,
+  "end": 815.636,
+  "speaker": "Unknown",
+  "en": "The project itself that's working on, it's this little, this is just kind of like a demo app.",
+  "zh": "它正在做的这个项目本身，就是这个小，这只是一个演示应用。"
+ },
+ {
+  "seg": 164,
+  "start": 815.836,
+  "end": 817.437,
+  "speaker": "Unknown",
+  "en": "But this is, oh, can I?",
+  "zh": "但这是——哦，我可以吗？"
+ },
+ {
+  "seg": 165,
+  "start": 818.795,
+  "end": 823.878,
+  "speaker": "Unknown",
+  "en": "Yeah, so this is a little fun, you know, multimodal input thing.",
+  "zh": "可以，所以这是一个有点有趣的，你知道的，多模态输入的东西。"
+ },
+ {
+  "seg": 166,
+  "start": 823.898,
+  "end": 825.139,
+  "speaker": "Unknown",
+  "en": "I haven't written any of the code for this.",
+  "zh": "这个的代码我一行都没写。"
+ },
+ {
+  "seg": 167,
+  "start": 825.179,
+  "end": 827.58,
+  "speaker": "Unknown",
+  "en": "This is all written by agents.",
+  "zh": "这些全是智能体写的。"
+ },
+ {
+  "seg": 168,
+  "start": 827.94,
+  "end": 831.982,
+  "speaker": "Unknown",
+  "en": "But I can manage all of the work that's being done in this desktop app, or in this app here.",
+  "zh": "但我可以在这个桌面应用里，或者说在这个应用里，管理所有正在进行的工作。"
+ },
+ {
+  "seg": 169,
+  "start": 832.683,
+  "end": 838.206,
+  "speaker": "Unknown",
+  "en": "And so I can do something, like I can see this one has finished building some gesture controls for the canvas.",
+  "zh": "所以我可以做一些事情，比如我可以看到这一个已经完成了为画布构建一些手势控制。"
+ },
+ {
+  "seg": 170,
+  "start": 838.646,
+  "end": 843.329,
+  "speaker": "Unknown",
+  "en": "So I can open the PR, and unfortunately, sorry Jeffrey, I am just going to merge this.",
+  "zh": "所以我可以打开这个 PR，很遗憾，抱歉 Jeffrey，我就直接合并它了。"
+ },
+ {
+  "seg": 171,
+  "start": 843.369,
+  "end": 846.85,
+  "speaker": "Unknown",
+  "en": "I am not going to have it be explained to me.",
+  "zh": "我不会让它给我解释一遍。"
+ },
+ {
+  "seg": 172,
+  "start": 846.87,
+  "end": 847.471,
+  "speaker": "Unknown",
+  "en": "But so this is,",
+  "zh": "但这就是，"
+ },
+ {
+  "seg": 173,
+  "start": 849.089,
+  "end": 850.63,
+  "speaker": "Unknown",
+  "en": "And so, yeah, great, awesome, it looks good.",
+  "zh": "然后，好，很棒，看起来不错。"
+ },
+ {
+  "seg": 174,
+  "start": 851.551,
+  "end": 855.434,
+  "speaker": "Unknown",
+  "en": "And then, you know, eventually this is gonna get marked as complete.",
+  "zh": "然后，你知道的，最终它会被标记为完成。"
+ },
+ {
+  "seg": 175,
+  "start": 855.474,
+  "end": 859.616,
+  "speaker": "Unknown",
+  "en": "And this is also a multiplayer, which is really cool, and you can have people working together.",
+  "zh": "而且这也是多人协作的，这真的很酷，你可以让人们一起工作。"
+ },
+ {
+  "seg": 176,
+  "start": 860.137,
+  "end": 861.418,
+  "speaker": "Unknown",
+  "en": "Yeah, so that's finished.",
+  "zh": "是的，那个已经完成了。"
+ },
+ {
+  "seg": 177,
+  "start": 862.118,
+  "end": 866.862,
+  "speaker": "Unknown",
+  "en": "And you can also prompt from, like, inside the app.",
+  "zh": "你还可以在应用内部直接提示。"
+ },
+ {
+  "seg": 178,
+  "start": 867.142,
+  "end": 868.323,
+  "speaker": "Unknown",
+  "en": "You can draw and have a prompt.",
+  "zh": "你可以画图并附带一个提示词。"
+ },
+ {
+  "seg": 179,
+  "start": 868.343,
+  "end": 874.207,
+  "speaker": "Unknown",
+  "en": "So I can basically, I can just take all of this and I can draw a little, like, so this is my prompt and I can wrap it in a task.",
+  "zh": "所以我基本上可以，我可以把这整块拿过来，画一个小，比如这是我的提示词，我可以把它包进一个任务里。"
+ },
+ {
+  "seg": 180,
+  "start": 876.068,
+  "end": 880.11,
+  "speaker": "Unknown",
+  "en": "And I can, you know, call it facial animation canvas control.",
+  "zh": "然后我可以，你知道的，叫它面部动画画布控制。"
+ },
+ {
+  "seg": 181,
+  "start": 880.91,
+  "end": 883.051,
+  "speaker": "Unknown",
+  "en": "And then I can assign that to Claude and I can just hit run.",
+  "zh": "然后我可以把它分配给 Claude，然后直接点击运行。"
+ },
+ {
+  "seg": 182,
+  "start": 883.071,
+  "end": 884.152,
+  "speaker": "Unknown",
+  "en": "And so now that's working as well.",
+  "zh": "现在那个也在运行了。"
+ },
+ {
+  "seg": 183,
+  "start": 884.172,
+  "end": 897.697,
+  "speaker": "Unknown",
+  "en": "And so this is kind of like, you know, this is kind of something similar to Conductor or OpenAI Symphony where you're using a kind of like one abstract interface above what the actual, in order to like manage your multi-agent coordination and things like that.",
+  "zh": "所以这有点像，你知道的，这有点类似于 Conductor 或 OpenAI Symphony，你在实际的东西之上用一种抽象接口，以便管理你的多智能体协调之类的事情。"
+ },
+ {
+  "seg": 184,
+  "start": 897.757,
+  "end": 903.46,
+  "speaker": "Unknown",
+  "en": "And the thing I like about this also is that because this is multiplayer, one of my colleagues can come and join and add tasks",
+  "zh": "而且我还喜欢这个的一点是，因为它是多人协作的，我的一个同事可以过来加入并添加任务，"
+ },
+ {
+  "seg": 185,
+  "start": 904.2,
+  "end": 906.443,
+  "speaker": "Unknown",
+  "en": "And edit things and see the work that's been going on.",
+  "zh": "编辑东西，并看到一直在进行的工作。"
+ },
+ {
+  "seg": 186,
+  "start": 906.483,
+  "end": 909.946,
+  "speaker": "Unknown",
+  "en": "So it's much more collaborative than like your own instance of something.",
+  "zh": "所以它比你自己单独的一个实例要有协作性得多。"
+ },
+ {
+  "seg": 187,
+  "start": 911.828,
+  "end": 912.709,
+  "speaker": "Unknown",
+  "en": "Here's the moment of truth.",
+  "zh": "见证时刻到了。"
+ },
+ {
+  "seg": 188,
+  "start": 912.749,
+  "end": 918.835,
+  "speaker": "Unknown",
+  "en": "Let's see if that demo that I had it build in the beginning worked.",
+  "zh": "让我们看看我一开始让它构建的那个演示能不能用。"
+ },
+ {
+  "seg": 189,
+  "start": 920.237,
+  "end": 923.46,
+  "speaker": "Unknown",
+  "en": "Alright, it hasn't built the fluid simulation yet.",
+  "zh": "好了，它还没把流体模拟构建出来。"
+ },
+ {
+  "seg": 190,
+  "start": 923.52,
+  "end": 924.721,
+  "speaker": "Unknown",
+  "en": "It's been working for 13 minutes.",
+  "zh": "它已经跑了 13 分钟了。"
+ },
+ {
+  "seg": 191,
+  "start": 928.561,
+  "end": 929.161,
+  "speaker": "Unknown",
+  "en": "That's actually fine.",
+  "zh": "这其实没问题。"
+ },
+ {
+  "seg": 192,
+  "start": 929.181,
+  "end": 931.482,
+  "speaker": "Unknown",
+  "en": "So basically this is the tldraw desktop app.",
+  "zh": "所以基本上这就是 tldraw 桌面应用。"
+ },
+ {
+  "seg": 193,
+  "start": 931.862,
+  "end": 935.583,
+  "speaker": "Unknown",
+  "en": "Something that's really cool here is that we have, so this is running locally.",
+  "zh": "这里有一个很酷的东西是，我们有，所以这是在本地运行的。"
+ },
+ {
+  "seg": 194,
+  "start": 935.623,
+  "end": 936.463,
+  "speaker": "Unknown",
+  "en": "It's working on files.",
+  "zh": "它在处理文件。"
+ },
+ {
+  "seg": 195,
+  "start": 936.843,
+  "end": 937.643,
+  "speaker": "Unknown",
+  "en": "We'll see if it finishes.",
+  "zh": "我们看看它能不能完成。"
+ },
+ {
+  "seg": 196,
+  "start": 937.843,
+  "end": 938.503,
+  "speaker": "Unknown",
+  "en": "We'll let this run.",
+  "zh": "我们让它继续跑。"
+ },
+ {
+  "seg": 197,
+  "start": 938.523,
+  "end": 945.625,
+  "speaker": "Unknown",
+  "en": "But basically what this does is this basically exposes the editor instance of the tldraw app that's running here.",
+  "zh": "但基本上它做的是，这基本上把这里运行的 tldraw 应用的编辑器实例暴露出来。"
+ },
+ {
+  "seg": 198,
+  "start": 946.245,
+  "end": 954.147,
+  "speaker": "Unknown",
+  "en": "And it has a server that lets any agent, for example, my Claude Code, write just plain JavaScript against the editor.",
+  "zh": "而且它有一个服务器，让任何智能体，比如我的 Claude Code，可以直接对着编辑器写纯 JavaScript。"
+ },
+ {
+  "seg": 199,
+  "start": 956.507,
+  "end": 967.342,
+  "speaker": "Unknown",
+  "en": "And it basically, it's code mode if you've ever used code mode, but you can basically turn your Teal Draw desktop app into a scripting environment.",
+  "zh": "它基本上，如果你用过 code mode 的话它就是 code mode，但你基本上可以把你的 Teal Draw 桌面应用变成一个脚本环境。"
+ },
+ {
+  "seg": 200,
+  "start": 967.522,
+  "end": 970.145,
+  "speaker": "Unknown",
+  "en": "And one of my colleagues actually is...",
+  "zh": "我的其中一位同事其实……"
+ },
+ {
+  "seg": 201,
+  "start": 972.188,
+  "end": 977.835,
+  "speaker": "Unknown",
+  "en": "I'm gonna, this is the kind of off the rails bit of the canvas here, or of the talk.",
+  "zh": "我要,这是画布或者说这场演讲里有点跑偏的部分。"
+ },
+ {
+  "seg": 202,
+  "start": 978.595,
+  "end": 982.22,
+  "speaker": "Unknown",
+  "en": "So here's something my colleague made using the same thing.",
+  "zh": "所以这是我的同事用同样的东西做出来的东西。"
+ },
+ {
+  "seg": 203,
+  "start": 982.28,
+  "end": 987.866,
+  "speaker": "Unknown",
+  "en": "So this is, he has a tldraw desktop app in the corner here, and he's using it as his window manager.",
+  "zh": "这里,他在角落里有一个 tldraw 桌面应用,他把它当作他的窗口管理器来用。"
+ },
+ {
+  "seg": 204,
+  "start": 989.768,
+  "end": 995.67,
+  "speaker": "Unknown",
+  "en": "And what he did, the way he did this was he just told Claude Code to, because Claude Code has access to your actual computer, it's not locked into the canvas.",
+  "zh": "他做到这一点的方式就是直接让 Claude Code 去,因为 Claude Code 可以访问你的真实电脑,它不被锁定在画布里。"
+ },
+ {
+  "seg": 205,
+  "start": 996.831,
+  "end": 1004.754,
+  "speaker": "Unknown",
+  "en": "It basically, you know, it made some rectangles and it probably wrote some AppleScript or something to actually re, you know, move the things around.",
+  "zh": "它基本上,你知道,画了一些矩形,然后可能写了一些 AppleScript 之类的来真正地,你知道,移动那些东西。"
+ },
+ {
+  "seg": 206,
+  "start": 1004.774,
+  "end": 1011.216,
+  "speaker": "Unknown",
+  "en": "And so you can kind of make all of these, like, ephemeral UIs and have them actually be doing things in the real world.",
+  "zh": "所以你可以做出所有这些,比如,临时性的 UI,并让它们真正在现实世界里做事。"
+ },
+ {
+  "seg": 207,
+  "start": 1012.877,
+  "end": 1014.558,
+  "speaker": "Unknown",
+  "en": "Another really cool one that he did was...",
+  "zh": "他做的另一个非常酷的东西是……"
+ },
+ {
+  "seg": 208,
+  "start": 1016.418,
+  "end": 1020.401,
+  "speaker": "Unknown",
+  "en": "If this loads, it's Pong on the desktop.",
+  "zh": "如果这个能加载的话,这是桌面上的 Pong。"
+ },
+ {
+  "seg": 209,
+  "start": 1021.582,
+  "end": 1023.583,
+  "speaker": "Unknown",
+  "en": "Let's hit it with a little refresh there and see if it works.",
+  "zh": "让我们刷新一下,看看能不能运行。"
+ },
+ {
+  "seg": 210,
+  "start": 1024.104,
+  "end": 1034.631,
+  "speaker": "Unknown",
+  "en": "Yeah, so this is, he's got in the corner here, you know, you have TLDraw running, this is the desktop app, and it's using the Windows in order to play Pong.",
+  "zh": "好的,这里是,他在角落里,你知道,TLDraw 正在运行,这是桌面应用,它在利用窗口来玩 Pong。"
+ },
+ {
+  "seg": 211,
+  "start": 1035.031,
+  "end": 1043.958,
+  "speaker": "Unknown",
+  "en": "And so again, like kind of crazy, but there's, you know, maybe it seems a little silly, but let's see if this worked.",
+  "zh": "所以再说一次,挺疯狂的,但是,你知道,也许看起来有点傻,不过让我们看看这个有没有生效。"
+ },
+ {
+  "seg": 212,
+  "start": 1044.33,
+  "end": 1045.211,
+  "speaker": "Unknown",
+  "en": "Oh, it's still working, man.",
+  "zh": "哦,它还在运行呢,伙计。"
+ },
+ {
+  "seg": 213,
+  "start": 1045.231,
+  "end": 1046.212,
+  "speaker": "Unknown",
+  "en": "It's usually much faster.",
+  "zh": "它通常快得多。"
+ },
+ {
+  "seg": 214,
+  "start": 1048.113,
+  "end": 1055.899,
+  "speaker": "Unknown",
+  "en": "But I think this stuff is so cool because this lets you do all of the weird spatial interfaces that you can do on the canvas.",
+  "zh": "但我觉得这些东西非常酷,因为它让你能做出画布上所有那些奇怪的空间界面。"
+ },
+ {
+  "seg": 215,
+  "start": 1055.999,
+  "end": 1057.881,
+  "speaker": "Unknown",
+  "en": "You get all of the primitives of the canvas.",
+  "zh": "你能获得画布的全部基础元素。"
+ },
+ {
+  "seg": 216,
+  "start": 1059.402,
+  "end": 1062.645,
+  "speaker": "Unknown",
+  "en": "But you can have your agents working in the real world.",
+  "zh": "但你可以让你的智能体在真实世界里工作。"
+ },
+ {
+  "seg": 217,
+  "start": 1062.665,
+  "end": 1064.787,
+  "speaker": "Unknown",
+  "en": "It has access to real data.",
+  "zh": "它可以访问真实数据。"
+ },
+ {
+  "seg": 218,
+  "start": 1065.047,
+  "end": 1066.988,
+  "speaker": "Unknown",
+  "en": "If I scroll up, I'll show that...",
+  "zh": "如果我往上滚动,我会展示……"
+ },
+ {
+  "seg": 219,
+  "start": 1069.061,
+  "end": 1077.979,
+  "speaker": "Unknown",
+  "en": "If, you know, this is my Claude code and it found, it got the Gmail, it got the Notion doc, it found the spec and it's going to implement it.",
+  "zh": "你知道,这是我的 Claude Code,它找到了,它拿到了 Gmail,拿到了 Notion 文档,找到了规格说明,然后要去实现它。"
+ },
+ {
+  "seg": 220,
+  "start": 1080.777,
+  "end": 1106.693,
+  "speaker": "Unknown",
+  "en": "But yeah, so to sum up, I think that agents working on the canvas is so cool and I think that there's so much we can do if we use the canvas as a place to work with agents and I think the place part of it is really important because when we do, with remote work, collaboration, we do a lot of stuff online with each other and we collaborate with people on the canvas and I think that the canvas can be a place where we collaborate with agents",
+  "zh": "不过,总结一下,我觉得智能体在画布上工作这件事太酷了,我觉得如果我们把画布当作与智能体协作的场所,我们可以做很多事,我认为「场所」这一点非常重要,因为当我们进行远程办公、协作时,我们在网上做很多事,我们在画布上与人协作,我认为画布可以成为我们与智能体协作的场所"
+ },
+ {
+  "seg": 221,
+  "start": 1107.553,
+  "end": 1111.799,
+  "speaker": "Unknown",
+  "en": "And I'm vamping because I'm trying to see if this is finished, but I don't think it's going to finish.",
+  "zh": "我在这里即兴发挥,因为我想看看这个是不是完成了,但我觉得它不会完成。"
+ },
+ {
+  "seg": 222,
+  "start": 1112.099,
+  "end": 1112.78,
+  "speaker": "Unknown",
+  "en": "But thank you so much.",
+  "zh": "但非常感谢大家。"
+ }
+]

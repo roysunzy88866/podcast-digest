@@ -62,9 +62,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Microsoft]] · [[SpaceX]] · [[Sophia Du]] · [[Steven Sinofsky]] · [[Sarah Wang]] · [[Justin Johnson]] · [[Theo Jaffe]]
+[[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Microsoft]] · [[SpaceX]] · [[缩放定律]] · [[Sophia Du]] · [[Steven Sinofsky]] · [[Sarah Wang]] · [[Justin Johnson]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":102,"Anthropic":115,"Cursor":54,"Microsoft":24,"SpaceX":12,"Sophia Du":4,"Steven Sinofsky":2,"Sarah Wang":2,"Justin Johnson":2,"Theo Jaffe":6}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":102,"Anthropic":115,"Cursor":55,"Microsoft":24,"SpaceX":12,"缩放定律":6,"Sophia Du":4,"Steven Sinofsky":2,"Sarah Wang":2,"Justin Johnson":2}</script>
 
 <script>
 (function(){

@@ -7,43 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>自我改进 harness (self-improving harnesses)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="自我改进 harness">自我</div><div class="pi"><h1 class="pt">自我改进 harness (self-improving harnesses)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="自我改进 harness">自我</div><div class="pi"><h1 class="pt">自我改进 harness (self-improving harnesses)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-07-talks-why-the-harness-matters-more-than-the-mo|《别小看 harness：智能体的「脚手架」正在决定成绩》]]**(01:56起):主持人划分的最近六个月新阶段：harness 本身成为可学习对象——DSPY 用遗传编程学系统提示词，Darwin Gödel 机器连 harness 代码都让模型改，continual harness 做测试时训练更新权重。
-
-## ① 提到它的金句
-
-*14 条*
-
-![[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#^q1]]
-
-![[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark#^q6]]
-
-![[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge#^q4]]
-
-![[2026-07-31-talks-building-deep-agents-and-deploying-in-pr#^q1]]
-
-![[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1#^q7]]
-
-![[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil#^q4]]
-
-![[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat#^q1]]
-
-![[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat#^q2]]
-
-![[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ#^q10]]
-
-![[2026-09-07-talks-why-the-harness-matters-more-than-the-mo#^q1]]
-
-![[2026-09-07-talks-why-the-harness-matters-more-than-the-mo#^q2]]
-
-![[2026-09-07-talks-why-the-harness-matters-more-than-the-mo#^q3]]
-
-![[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux#^q3]]
-
-![[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th#^q5]]
 
 ## ② 出现在这些集
 
@@ -57,7 +25,7 @@ unlisted: true
 
 [[harness]] · [[智能体]] · [[子智能体]] · [[RLM]] · [[沙箱]] · [[上下文工程]] · [[REPL]] · [[技能]] · [[Prime Agent]] · [[OpenJarvis]]
 
-<script type="application/json" class="pd-epn">{"harness":26,"智能体":1,"子智能体":1,"RLM":1,"沙箱":41,"上下文工程":12,"REPL":1,"技能":13,"Prime Agent":1,"OpenJarvis":1}</script>
+<script type="application/json" class="pd-epn">{"harness":27,"智能体":219,"子智能体":6,"RLM":1,"沙箱":41,"上下文工程":12,"REPL":1,"技能":13,"Prime Agent":1,"OpenJarvis":1}</script>
 
 <script>
 (function(){

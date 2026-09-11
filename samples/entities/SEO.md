@@ -43,9 +43,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Google]] · [[ChatGPT]] · [[推理]] · [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Andrew]] · [[Cloudflare]] · [[LLM]] · [[Sonia]]
+[[Google]] · [[ChatGPT]] · [[推理]] · [[智能体]] · [[爬取]] · [[OpenAI]] · [[Lenny]] · [[Andrew]] · [[Cloudflare]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"Google":38,"ChatGPT":57,"推理":5,"智能体":1,"OpenAI":102,"Lenny":67,"Andrew":3,"Cloudflare":9,"LLM":29,"Sonia":2}</script>
+<script type="application/json" class="pd-epn">{"Google":38,"ChatGPT":59,"推理":42,"智能体":219,"爬取":3,"OpenAI":102,"Lenny":67,"Andrew":3,"Cloudflare":9,"LLM":31}</script>
 
 <script>
 (function(){

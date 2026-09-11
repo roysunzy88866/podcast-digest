@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeremiah Lowin]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]]
+[[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"编排器":2,"护栏":2,"循环":1,"规则":1,"police 文件":1,"vibe coding":30,"vibe engineering":1,"技能文件":2,"Codex":44}</script>
+<script type="application/json" class="pd-epn">{"智能体":219,"编排器":2,"护栏":43,"循环":7,"规则":1,"police 文件":1,"vibe coding":31,"vibe engineering":1,"技能文件":3,"Codex":44}</script>
 
 <script>
 (function(){

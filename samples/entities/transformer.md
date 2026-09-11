@@ -40,9 +40,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[LLM]] · [[预训练]] · [[强化学习]] · [[持续学习]] · [[Anthropic]] · [[Barney Hussey-Yeo]] · [[Sonja]] · [[Zubin Gharemani]]
+[[智能体]] · [[OpenAI]] · [[LLM]] · [[预训练]] · [[强化学习]] · [[持续学习]] · [[Anthropic]] · [[编码智能体]] · [[Barney Hussey-Yeo]] · [[Sonja]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":102,"LLM":29,"预训练":6,"强化学习":16,"持续学习":2,"Anthropic":115,"Barney Hussey-Yeo":1,"Sonja":1,"Zubin Gharemani":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":219,"OpenAI":102,"LLM":31,"预训练":6,"强化学习":16,"持续学习":8,"Anthropic":115,"编码智能体":11,"Barney Hussey-Yeo":1,"Sonja":1}</script>
 
 <script>
 (function(){

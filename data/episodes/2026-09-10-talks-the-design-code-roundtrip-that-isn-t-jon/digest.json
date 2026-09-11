@@ -1,0 +1,154 @@
+{
+  "title_zh": "设计-代码往返并不存在：一位 30 年老兵的实测与漂移警告",
+  "tldr": "ReWeaver AI 创始人 Jonathan Gordon 用五种工具配置实测「设计↔代码往返」，揭示 AI 时代的漂移问题与确定性护栏方案。",
+  "digest_md": "这一集是 ReWeaver AI 创始人 Jonathan Gordon 的一场演讲，主题听起来有点「扫兴」：**那个大家以为已经被 AI 解决的「设计-代码往返」，其实并不存在**。所谓设计-代码往返(design-code round trip),指的是设计与工程之间双向的完整闭环——设计能变成代码、代码能回到设计，全程没有任何保真度损失，并且带着持久的溯源信息，确切知道每个元素来自哪里。\n\n先说主角是谁。Jonathan 过去 30 多年一直在构建和设计编码工具、开发者工具和 IDE,而且作为设计师，他花了大量时间和设计、工程团队泡在一起，研究怎么把「设计交接给代码」这件事做好。他的结论很坦白：这从来不是一门完美的科学。他和工程师谈判、请他们喝酒、交朋友，把东西交付到了客户手里——**但闭环从未闭合，因为工程有工程的需求(技术约束)，设计有设计的愿景，目标从一开始就分叉了**。\n\n## AI 让他以为闭环有救了，结果被 innerHTML 一盆冷水浇醒\n\n然后 AI 和 LLM 出现了。在他看来，这意味着某种根本性的变化：现在有一个智能，既理解设计意图，同一个智能还能写代码。他心想，也许终于能以推理的速度闭合这个闭环了。于是他 all in——从 2025 年开始全力 vibe coding(凭感觉和 AI 对话写代码、不细看代码本身)，Cursor 甚至给他发邮件说他的使用量位居前 0.1%,他自嘲「我需要多花点时间在户外」。\n\n转折发生在他彻底沉浸在 vibe 里的一天。一大墙文字滚过，他全不在意，直到瞥见一条 innerHTML 语句——他记得很久以前 innerHTML 就是个安全漏洞，可以向其中注入内容。他拦住 LLM 问「你刚才做了什么？」,对方还非常自豪地解释了一遍。他只好让它撤销重来。那一刻他意识到：也许不能盲目往前冲，**也许我现在需要看一看代码了**。而这一生他看过很多代码——他进去看了，然后发现了问题。\n\n## 业界宣称「往返已解决」，他试了五种工具配置：并没有\n\n当业界开始宣称已经解决了往返问题——包括那个从 Claude Code 直接生成 Figma 画板的著名演示(他强调这不是对 Anthropic 或 Figma 的抨击，「那简直是魔法」)——他像审视 vibe coding 一样深入挖了下去。\n\n他现场演示了自己构建的 harness(测试框架)：左边是 AI 生成的代码，右边是 Figma 或 Sketch 里的设计(用什么源头并不重要)。从任一侧出发、带上一个 prompt,调用 LLM 就能往另一侧更新——比如「拿这个表单，从它构建一个设计系统」，代码和运行时里的设计系统都真的建出来了，还带着跳回 Figma 的链接。他加了 company 字段和橙色按钮，代码更新、设计也更新，「这太棒了」。\n\n但真正的杀手锏是那个「Show Drift」按钮——这是 ReWeaver AI 的代码首次公开亮相。点下去，会同时从代码和设计两侧生成一份问题清单，跨多个维度：设计质量、代码质量、性能、design tokens 等等。他现场演示了一个无障碍问题：某元素没有 ARIA live region(一种让屏幕阅读器播报内容的无障碍机制)，盲人用户就收不到关于它的播报。ReWeaver 发现它、说能修、然后修掉了。\n\n谈到无障碍他动了真感情：他在微软做过无障碍工作，当 LLM 刚问世时他非常沮丧，因为生成的代码开箱即无障碍不达标。「我当时想，什么，模型没有在无障碍方面接受过训练？」——随即他想起了 20 年前工程师需要接受无障碍培训的岁月，**「所以现在我们又来了一遍，只不过这次是在无障碍方面训练 LLM,而不是工程师」**。\n\n他认真试过五种不同的工具配置，做双向的代码↔设计往返，结论是「结果不太顺利」：从未真正实现完整往返，大量有损问题——绑定丢失、设计的修改保留了但代码没有。他不说我们永远到不了那一步，但即使到了，他也怀疑能否完全到达。所以他说，不该说「也许」需要像 ReWeaver 这样的工具——**我们确实需要，来帮我们看见漂移**。\n\n## 核心洞见：漂移就是新的技术债，解法是确定性护栏\n\n这整段经历凸显了一个他从构建开发者工具的过去带来的判断：**开发者工具在本质上是确定性的**——你写代码、编译、得到 AST,每次运行结果相同。但当你把 AI 放进流程的中间、前面或末端，你不再必然得到相同的结果。\n\n于是他给出了本集最扎心的一句判断：当下的漂移在写代码时就会浮现，但**随时间推移累积的漂移，是你接下来六个月要承受的痛苦，「因为随时间推移的漂移就是新的技术债」——而且它会壮丽地堆满你的代码库**。应对方法：你需要看代码、找到漂移、修复漂移，而做法是在 AI 周围设置**确定性的护栏**——AI 仍然在那里，但被护栏围着。\n\n他还做了一个对照实验：在一个 UI 足够复杂的代码库上跑 12 次迭代。纯 AI 主导、全程 LLM,起步只有 30% 的保真度(真正的像素级完美)，且会逐渐退化；叠加确定性护栏(发现问题、修复问题)后大幅提升——但到不了 100%,因为「那 10% 是人类判断，人类决策」。**人仍然在这个等式里。**\n\n他进一步指出三个盲区：其一是模型本身——非确定性、概率性，当下就有漂移。而今天的现状是「我们被锁定在 AI 上」：设计到代码靠 AI,代码到设计靠 AI,循环、聊天机器人、跨工具链的工作流，还始终有 token 成本要留意。在这个世界里，**「智能体在掌控，人类在环路中」**。\n\n## 他要提出的替代方案：人类掌控，而非人类在环路中\n\n他想提出点不一样的。理想中的往返应该是什么样：完全双向、两个方向都能编辑、无损、所有界面都被保留(从代码到设计再回来，不会有奇怪的东西坏掉)、**溯源信息被携带**——你在 Figma 里看到这个按钮想改它，就得知道是哪一行代码写出了它。核心是确定性的调和：护栏知道有修复方案就修，不知道就明确告诉你「这里有问题，但需要你来修」。\n\n具体到产品：ReWeaver 的核心是九个维度的确定性护栏，作为顶层的软件质量与生产就绪度维度——其中设计一致性是核心(代码与设计系统不一致就得修)，无障碍性单列一个维度(他承认「也许这有点自私，但我认为这是核心」)，AI 代码生成治理也是关键一环。值得注意的是 **ReWeaver 自己不写代码**：你说「应用修复」，它替你写，你能看到代码被写出来，也随时可以说「算了，撤销」或干脆忽略。而且它用全本地 LLM,零额外 token 成本，想接 Claude 也随你。\n\n所有这些背后是一条核心原则：**人类始终掌控**——掌控成本、掌控代码、掌控设计，「因为这就是我们几十年来一直在做的事。我们一直在掌控。我们不需要失去控制」。他不否认「人类在环路中」也不错，但「人类掌控」是更有理想主义追求的目标。因为归根结底：你需要的，其实就是你得到的——他管这叫 Winniwig(What You Need Is What You Get)。\n\n最后是行动号召：现在就可以在 reweaver.ai/playground 用自己的 AI 生成代码跑扫描，页面还有个小挑战——**如果你能让 AI 生成出足够低 PDR(生产漂移比)得分的代码，就能拿到 beta 前排席位**。beta 计划七月中旬放出，他在找早期用户帮他把产品做得更好。\n\n## 本集带走\n\n- **别信「往返已解决」的宣传**：实测五种工具配置，双向设计↔代码往返仍会大量有损——绑定丢失、一侧改动另一侧没跟上。真要用，先在自己的真实项目里验证。\n- **随时间累积的漂移是新的技术债**：单次生成的漂移当场能看见，但反复迭代堆下来的漂移会在几个月后压垮代码库，必须主动检测和管理。\n- **用确定性护栏围住 AI**:开发者工具天生是确定性的，AI 是概率性的；在 AI 周围加确定性的检查与调和(发现问题就修、修不了就明确报告)，能把保真度从约 30% 大幅拉高。\n- **到不了 100% 是故意的**：最后约 10% 是人类判断和决策，工具应该把问题亮出来让能力保留在人手里，而不是替你拍板。\n- **无障碍问题又回来了**：LLM 生成的代码开箱即无障碍不达标，就像 20 年前工程师需要培训一样，现在要靠工具和护栏去训练/约束模型。\n- **选工具看三件事**：是否携带溯源信息(设计里的按钮能否定位到代码)、是否有额外 token 成本(本地方案可做到零)、以及人类是否始终掌控每一步修改。",
+  "quotes": [
+    {
+      "en": "Because drift over time is the new tech debt.",
+      "zh": "因为随时间推移的漂移就是新的技术债。",
+      "timestamp": "14:28",
+      "speaker": "Jonathan Gordon"
+    },
+    {
+      "en": "In a sense, now we have one intelligence that understands design intent and the same intelligence can write code.",
+      "zh": "从某种意义上说，现在我们有一个理解设计意图的智能，而同一个智能也能写代码。",
+      "timestamp": "03:26",
+      "speaker": "Jonathan Gordon"
+    },
+    {
+      "en": "So in this world, the agents are in control and the humans in the loop.",
+      "zh": "所以在这个世界里，智能体在掌控，人类在环路中。",
+      "timestamp": "14:01",
+      "speaker": "Jonathan Gordon"
+    },
+    {
+      "en": "You can't get to 100 because that 10% is human judgment, human decision making.",
+      "zh": "你到不了 100,因为那 10% 是人类判断，人类决策。",
+      "timestamp": "13:27",
+      "speaker": "Jonathan Gordon"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "14:28",
+      "speaker": "Unknown",
+      "en": "Because drift over time is the new tech debt.",
+      "zh": "因为随时间推移的漂移就是新的技术债。"
+    },
+    {
+      "timestamp": "14:33",
+      "speaker": "Unknown",
+      "en": "And it's gonna pile itself gloriously over your code base.",
+      "zh": "而且它会壮丽地堆满你的代码库。"
+    },
+    {
+      "timestamp": "10:33",
+      "speaker": "Unknown",
+      "en": "So here we are again now, training LLMs instead of engineers on accessibility.",
+      "zh": "所以现在我们又来了一遍，只不过这次是在无障碍方面训练 LLM,而不是工程师。"
+    },
+    {
+      "timestamp": "10:23",
+      "speaker": "Unknown",
+      "en": "I thought, what, models weren't trained on accessibility?",
+      "zh": "我当时想，什么，模型没有在无障碍方面接受过训练？"
+    },
+    {
+      "timestamp": "03:26",
+      "speaker": "Unknown",
+      "en": "In a sense, now we have one intelligence that understands design intent and the same intelligence can write code.",
+      "zh": "从某种意义上说，现在我们有一个理解设计意图的智能，而同一个智能也能写代码。"
+    },
+    {
+      "timestamp": "03:42",
+      "speaker": "Unknown",
+      "en": "At the speed of inference, we could close this loop.",
+      "zh": "以推理的速度，我们可以闭合这个闭环。"
+    },
+    {
+      "timestamp": "14:01",
+      "speaker": "Unknown",
+      "en": "So in this world, the agents are in control and the humans in the loop.",
+      "zh": "所以在这个世界里，智能体在掌控，人类在环路中。"
+    },
+    {
+      "timestamp": "16:02",
+      "speaker": "Unknown",
+      "en": "We've been in control. We don't need to lose control.",
+      "zh": "我们一直在掌控。我们不需要失去控制。"
+    },
+    {
+      "timestamp": "13:27",
+      "speaker": "Unknown",
+      "en": "You can't get to 100 because that 10% is human judgment, human decision making.",
+      "zh": "你到不了 100,因为那 10% 是人类判断，人类决策。"
+    },
+    {
+      "timestamp": "12:47",
+      "speaker": "Unknown",
+      "en": "Drift lurks in the dark.",
+      "zh": "漂移潜伏在黑暗中。"
+    },
+    {
+      "timestamp": "12:54",
+      "speaker": "Unknown",
+      "en": "And you do that with deterministic guardrails around the AI.",
+      "zh": "而你做到这一点的方法，是在 AI 周围设置确定性的护栏。"
+    },
+    {
+      "timestamp": "05:51",
+      "speaker": "Unknown",
+      "en": "And I got into this mode of like, oh, maybe I need to steer this thing a little bit better.",
+      "zh": "然后我进入了这样一种状态：哦，也许我需要更好地引导这个东西。"
+    },
+    {
+      "timestamp": "05:45",
+      "speaker": "Unknown",
+      "en": "And it explained to me what it did and it was very proud of itself.",
+      "zh": "它向我解释了它做了什么，还非常为此自豪。"
+    },
+    {
+      "timestamp": "04:21",
+      "speaker": "Unknown",
+      "en": "And I thought to myself, I need to spend more time outside.",
+      "zh": "我心想，我需要多花点时间在户外。"
+    },
+    {
+      "timestamp": "11:41",
+      "speaker": "Unknown",
+      "en": "Lots of lossy issues, bindings were lost, design change survived but code didn't.",
+      "zh": "很多有损的问题，绑定丢失了，设计的修改保留了但代码没有。"
+    },
+    {
+      "timestamp": "11:59",
+      "speaker": "Unknown",
+      "en": "And maybe we need tools like Reweaver, I shouldn't say maybe, we do need tools like Reweaver to help us understand the drift.",
+      "zh": "也许我们需要像 ReWeaver 这样的工具——不，我不该说也许，我们确实需要像 ReWeaver 这样的工具来帮助我们理解漂移。"
+    },
+    {
+      "timestamp": "15:01",
+      "speaker": "Unknown",
+      "en": "Where did this start from? What line of code wrote this button?",
+      "zh": "这个是从哪里开始的？哪一行代码写出了这个按钮？"
+    },
+    {
+      "timestamp": "15:02",
+      "speaker": "Unknown",
+      "en": "I see this button in Figma. I want to change it.",
+      "zh": "我在 Figma 里看到这个按钮。我想改它。"
+    },
+    {
+      "timestamp": "01:12",
+      "speaker": "Unknown",
+      "en": "A design code round trip is a full loop between design and engineering in both directions without any loss of fidelity and with a persistent provenance so it knows exactly where everything came from.",
+      "zh": "设计-代码往返是设计与工程之间双向的完整闭环，没有任何保真度损失，并且带有持久的溯源信息，能确切知道每个东西来自哪里。"
+    },
+    {
+      "timestamp": "02:38",
+      "speaker": "Unknown",
+      "en": "We never found that magic sauce that just made everything come together where intent matched the outcome.",
+      "zh": "我们从未找到那种魔法秘方，让一切完美融合，让意图与结果相匹配。"
+    }
+  ],
+  "voice_script": "今天的主角叫 Jonathan Gordon,是 ReWeaver AI 的创始人。过去三十多年，一直在构建和设计编码工具、开发者工具和 IDE,而且作为设计师，花了大量时间和设计团队、工程团队泡在一起，研究怎么把「设计交接给代码」这件事做好。这一集要聊的问题，听起来有点扫兴：那个大家以为已经被 AI 解决的「设计-代码往返」，其实并不存在。\n\n先交代一下什么是设计-代码往返。指的是设计和工程之间双向的完整闭环——设计能变成代码，代码也能回到设计，全程没有任何保真度损失，而且带着持久的溯源信息，确切知道每个元素来自哪里。\n\n那这个问题是怎么来的？Jonathan 的结论很坦白：这从来不是一门完美的科学。过去三十年，和工程师谈判、请他们喝酒、交朋友，把东西交付到了客户手里——但闭环从未闭合。因为工程有工程的需求，是技术约束；设计有设计的愿景。目标从一开始就分叉了。\n\n然后 AI 和大语言模型出现了。在 Jonathan 看来，这意味着某种根本性的变化：从某种意义上说，现在有一个理解设计意图的智能，而同一个智能也能写代码。心想，也许终于能以推理的速度闭合这个闭环了。于是 all in——从 2025 年开始全力 vibe coding,就是凭感觉和 AI 对话写代码，不细看代码本身。Cursor 甚至发邮件说使用量位居前百分之零点一。自嘲说「我需要多花点时间在户外」。\n\n但转折发生在彻底沉浸在 vibe 里的某一天。一大墙文字滚过，全不在意，直到瞥见一条 innerHTML 语句——很久以前 innerHTML 就是个安全漏洞，可以向其中注入内容。拦住大模型问「你刚才做了什么？」,对方还非常自豪地解释了一遍。只好让它撤销重来。那一刻才意识到：也许不能盲目往前冲，也许现在需要看一看代码了。而这一生看过很多代码，进去看了，果然发现了问题。\n\n这就引出了本集的核心部分。当业界开始宣称已经解决了往返问题——包括那个从 Claude Code 直接生成 Figma 画板的著名演示——Jonathan 强调这不是对 Anthropic 或 Figma 的抨击，「那简直是魔法」——但还是像审视 vibe coding 一样，深入挖了下去。\n\n现场演示了一个自建的测试框架：左边是 AI 生成的代码，右边是 Figma 或 Sketch 里的设计。从任一侧出发、带一个 prompt 调用大模型，就能往另一侧更新。比如「拿这个表单，构建一个设计系统」，代码和运行时里的设计系统都真的建出来了。加一个字段、改一个按钮，代码更新，设计也更新。「这太棒了」——但真正的杀手锏，是一个叫「显示漂移」的按钮，这是 ReWeaver AI 的代码首次公开亮相。点下去，会同时从代码和设计两侧生成一份问题清单，覆盖设计质量、代码质量、性能、design tokens 等多个维度。现场演示了一个无障碍问题：某元素缺少让屏幕阅读器播报内容的机制，盲人用户就收不到信息。ReWeaver 发现它、说能修，然后修掉了。\n\n谈到无障碍，Jonathan 动了真感情。在微软做过无障碍工作，当大语言模型刚问世时非常沮丧，因为生成的代码开箱即无障碍不达标。「我当时想，什么，模型没有在无障碍方面接受过训练？」——随即想起二十年前工程师需要接受无障碍培训的岁月。所以现在又来了一遍，只不过这次是在无障碍方面训练大模型，而不是工程师。\n\n接下来是最关键的实测。Jonathan 认真试过五种不同的工具配置，做双向的代码和设计往返，结论是「结果不太顺利」：从未真正实现完整往返，大量有损问题——绑定丢失、设计的修改保留了但代码没有。不敢说永远到不了那一步，但即使到了，也怀疑能否完全到达。所以不该说「也许」需要像 ReWeaver 这样的工具——我们确实需要，来帮我们看见漂移。\n\n那漂移为什么这么可怕？这里就要搬出 Jonathan 从构建开发者工具的过去带来的一个判断了：开发者工具在本质上是确定性的——写代码、编译、得到结果，每次运行都相同。但当你把 AI 放进流程的中间、前面或末端，就不再必然得到相同的结果。于是有了本集最扎心的一句判断：当下的漂移在写代码时就会浮现，但随时间推移累积的漂移，是你接下来六个月要承受的痛苦，「因为随时间推移的漂移就是新的技术债」——而且它会壮丽地堆满你的代码库。应对方法就是看代码、找到漂移、修复漂移，具体做法是在 AI 周围设置确定性的护栏——AI 仍然在那里，但被护栏围着。\n\n还有个对照实验能说明问题：在一个足够复杂的代码库上跑十二次迭代。纯 AI 主导、全程大模型，起步只有百分之三十的像素级保真度，而且会逐渐退化；叠加确定性护栏之后大幅提升——但到不了百分之百，「因为那 10% 是人类判断，人类决策」。人仍然在这个等式里。\n\n那 ReWeaver 的方案具体是什么？核心是九个维度的确定性护栏，其中设计一致性是核心——代码与设计系统不一致就得修；无障碍性单列一个维度；AI 代码生成治理也是关键一环。值得注意的是，ReWeaver 自己不写代码：你说「应用修复」，它替你写，你能看到代码被写出来，也随时可以撤销或干脆忽略。而且它用全本地大模型，零额外 token 成本。背后是一条核心原则：人类始终掌控——掌控成本、掌控代码、掌控设计。「因为这就是我们几十年来一直在做的事。我们不需要失去控制。」Jonathan 不否认「人类在环路中」也不错，但「人类掌控」是更有理想主义追求的目标。这还引出一个说法，叫 Winniwig——你需要的就是你得到的。\n\n最后是一个行动号召：现在就可以在 reweaver.ai/playground 用自己的 AI 生成代码跑扫描，页面还有个小挑战——如果你能让 AI 生成出足够低的生产漂移比得分，就能拿到 beta 前排席位，beta 计划七月中旬放出。\n\n这集带走的就一句话：别轻信「往返已解决」的宣传，随时间累积的漂移就是新的技术债，解法是用确定性护栏围住 AI——但最后那百分之十，永远留给人类的判断和决策。"
+}

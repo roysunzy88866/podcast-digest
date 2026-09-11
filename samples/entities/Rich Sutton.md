@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oak Lab":1,"苦涩的教训":1,"大世界假说":1,"持续学习":2,"合成数据":5,"灾难性遗忘":2,"持续反向传播":1,"大语言模型":1,"智能体":1,"强化学习":16}</script>
+<script type="application/json" class="pd-epn">{"Oak Lab":1,"苦涩的教训":6,"大世界假说":1,"持续学习":8,"合成数据":5,"灾难性遗忘":2,"持续反向传播":1,"大语言模型":4,"智能体":219,"强化学习":16}</script>
 
 <script>
 (function(){

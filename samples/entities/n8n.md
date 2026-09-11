@@ -21,7 +21,7 @@ unlisted: true
 
 [[Jan Oberhauser]] · [[智能体]] · [[工作流]] · [[开源]] · [[fair-code]] · [[LLM]] · [[人在回路]] · [[自托管]] · [[自带密钥]] · [[编排]]
 
-<script type="application/json" class="pd-epn">{"Jan Oberhauser":1,"智能体":1,"工作流":1,"开源":20,"fair-code":1,"LLM":29,"人在回路":7,"自托管":1,"自带密钥":1,"编排":4}</script>
+<script type="application/json" class="pd-epn">{"Jan Oberhauser":1,"智能体":219,"工作流":6,"开源":20,"fair-code":1,"LLM":31,"人在回路":7,"自托管":1,"自带密钥":1,"编排":4}</script>
 
 <script>
 (function(){

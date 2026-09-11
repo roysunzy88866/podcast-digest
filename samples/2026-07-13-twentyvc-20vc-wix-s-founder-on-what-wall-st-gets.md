@@ -151,7 +151,7 @@ Avishai 最鲜明的立场是：“我们都给了 AI 太多的赞誉。它惊�
 
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同概念:AGI、LLM、vibe coding、Claude Code</span>
 - [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下]]<span class="pd-rz">同概念:LLM、vibe coding、Claude Code</span>
-- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同概念:Claude Code、LLM</span>
+- [[2026-09-10-talks-the-design-code-roundtrip-that-isn-t-jon|设计-代码往返并不存在：一位 30 年老兵的实测与漂移警告]]<span class="pd-rz">同概念:LLM、vibe coding、Claude Code</span>
 
 </div>
 </div>

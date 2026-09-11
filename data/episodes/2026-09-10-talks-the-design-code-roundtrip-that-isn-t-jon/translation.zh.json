@@ -1,0 +1,2146 @@
+[
+ {
+  "seg": 0,
+  "start": 12.873,
+  "end": 13.473,
+  "speaker": "Unknown",
+  "en": "Hello, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.734,
+  "end": 15.654,
+  "speaker": "Unknown",
+  "en": "I'm Jonathan Gordon.",
+  "zh": "我是 Jonathan Gordon。"
+ },
+ {
+  "seg": 2,
+  "start": 15.694,
+  "end": 20.396,
+  "speaker": "Unknown",
+  "en": "I'm a founder of ReWeaver AI, a new company, new on the scene, let's say.",
+  "zh": "我是 ReWeaver AI 的创始人，一家新公司，可以说是新入场的。"
+ },
+ {
+  "seg": 3,
+  "start": 20.756,
+  "end": 23.116,
+  "speaker": "Unknown",
+  "en": "I want to share one thing with all of you that was really fascinating.",
+  "zh": "我想和大家分享一件非常有趣的事。"
+ },
+ {
+  "seg": 4,
+  "start": 23.157,
+  "end": 29.739,
+  "speaker": "Unknown",
+  "en": "So I plugged in my laptop, and I realized I had to mirror, so I no longer have my speaker notes.",
+  "zh": "我插上了笔记本电脑，然后发现我得做屏幕镜像，所以我的演讲者备注不见了。"
+ },
+ {
+  "seg": 5,
+  "start": 30.439,
+  "end": 34.72,
+  "speaker": "Unknown",
+  "en": "So I went into Claude, and I said, can you extract my speaker notes from my slide deck, please?",
+  "zh": "于是我打开 Claude，说：能帮我从我的幻灯片里提取出演讲者备注吗？"
+ },
+ {
+  "seg": 6,
+  "start": 35.461,
+  "end": 36.581,
+  "speaker": "Unknown",
+  "en": "And I have my speaker notes now.",
+  "zh": "现在我有演讲者备注了。"
+ },
+ {
+  "seg": 7,
+  "start": 38.242,
+  "end": 39.022,
+  "speaker": "Unknown",
+  "en": "I love AI.",
+  "zh": "我爱 AI。"
+ },
+ {
+  "seg": 8,
+  "start": 41.542,
+  "end": 42.623,
+  "speaker": "Unknown",
+  "en": "The suspense was killing me.",
+  "zh": "这种悬念快要把我折磨死了。"
+ },
+ {
+  "seg": 9,
+  "start": 42.803,
+  "end": 43.764,
+  "speaker": "Unknown",
+  "en": "I was talking to Claude.",
+  "zh": "我在和 Claude 对话。"
+ },
+ {
+  "seg": 10,
+  "start": 43.784,
+  "end": 46.386,
+  "speaker": "Unknown",
+  "en": "Now who knows if it got it right?",
+  "zh": "至于它提取得对不对，谁知道呢？"
+ },
+ {
+  "seg": 11,
+  "start": 46.426,
+  "end": 47.147,
+  "speaker": "Unknown",
+  "en": "I don't know, whatever.",
+  "zh": "我不知道，无所谓。"
+ },
+ {
+  "seg": 12,
+  "start": 48.708,
+  "end": 51.21,
+  "speaker": "Unknown",
+  "en": "So I also realized that my title slide buried the lead.",
+  "zh": "我还意识到我的标题页把重点埋没了。"
+ },
+ {
+  "seg": 13,
+  "start": 51.371,
+  "end": 52.131,
+  "speaker": "Unknown",
+  "en": "I shouldn't have put it up.",
+  "zh": "我不应该放那一页的。"
+ },
+ {
+  "seg": 14,
+  "start": 53.853,
+  "end": 55.494,
+  "speaker": "Unknown",
+  "en": "But nonetheless, let's play with this.",
+  "zh": "不过，我们还是继续玩下去吧。"
+ },
+ {
+  "seg": 15,
+  "start": 56.895,
+  "end": 58.757,
+  "speaker": "Unknown",
+  "en": "So yeah, my name's Jonathan.",
+  "zh": "所以是的，我叫 Jonathan。"
+ },
+ {
+  "seg": 16,
+  "start": 59.418,
+  "end": 62.941,
+  "speaker": "Unknown",
+  "en": "I'm here to talk to you about the design code round trip that isn't.",
+  "zh": "我今天要和大家谈谈那个并不存在的设计-代码往返。"
+ },
+ {
+  "seg": 17,
+  "start": 64.262,
+  "end": 67.605,
+  "speaker": "Unknown",
+  "en": "And I guess probably the best thing to do first is to explain",
+  "zh": "我想首先最好先解释一下"
+ },
+ {
+  "seg": 18,
+  "start": 68.485,
+  "end": 71.387,
+  "speaker": "Unknown",
+  "en": "what I think a design code round trip should be.",
+  "zh": "我认为设计-代码往返应该是什么。"
+ },
+ {
+  "seg": 19,
+  "start": 72.628,
+  "end": 90.38,
+  "speaker": "Unknown",
+  "en": "A design code round trip is a full loop between design and engineering in both directions without any loss of fidelity and with a persistent provenance so it knows exactly where everything came from.",
+  "zh": "设计-代码往返是设计与工程之间双向的完整闭环，没有任何保真度损失，并且带有持久的溯源信息，能确切知道每个东西来自哪里。"
+ },
+ {
+  "seg": 20,
+  "start": 90.4,
+  "end": 96.485,
+  "speaker": "Unknown",
+  "en": "You know, that perfect dream world that we live in where there is no drift",
+  "zh": "你知道，那个我们梦想中的完美世界，那里没有任何漂移"
+ },
+ {
+  "seg": 21,
+  "start": 97.513,
+  "end": 101.216,
+  "speaker": "Unknown",
+  "en": "In between the gaps of design and code.",
+  "zh": "存在于设计和代码之间的缝隙里。"
+ },
+ {
+  "seg": 22,
+  "start": 103.477,
+  "end": 105.499,
+  "speaker": "Unknown",
+  "en": "Today's tools, design is amazing.",
+  "zh": "今天的工具，设计方面很惊艳。"
+ },
+ {
+  "seg": 23,
+  "start": 105.539,
+  "end": 106.099,
+  "speaker": "Unknown",
+  "en": "It's incredible.",
+  "zh": "非常不可思议。"
+ },
+ {
+  "seg": 24,
+  "start": 106.119,
+  "end": 106.899,
+  "speaker": "Unknown",
+  "en": "It's magic.",
+  "zh": "简直是魔法。"
+ },
+ {
+  "seg": 25,
+  "start": 107.42,
+  "end": 108.28,
+  "speaker": "Unknown",
+  "en": "I asked for something.",
+  "zh": "我要了个东西。"
+ },
+ {
+  "seg": 26,
+  "start": 108.32,
+  "end": 108.701,
+  "speaker": "Unknown",
+  "en": "I get it.",
+  "zh": "我就得到了。"
+ },
+ {
+  "seg": 27,
+  "start": 108.721,
+  "end": 109.321,
+  "speaker": "Unknown",
+  "en": "It's clickable.",
+  "zh": "它是可以点击的。"
+ },
+ {
+  "seg": 28,
+  "start": 109.401,
+  "end": 110.542,
+  "speaker": "Unknown",
+  "en": "It's interactive.",
+  "zh": "它是交互式的。"
+ },
+ {
+  "seg": 29,
+  "start": 110.582,
+  "end": 111.423,
+  "speaker": "Unknown",
+  "en": "It's amazing to me.",
+  "zh": "对我来说太惊人了。"
+ },
+ {
+  "seg": 30,
+  "start": 112.804,
+  "end": 114.845,
+  "speaker": "Unknown",
+  "en": "But nobody really looks at the code anymore, it seems.",
+  "zh": "但似乎已经没有人真正去看代码了。"
+ },
+ {
+  "seg": 31,
+  "start": 116.106,
+  "end": 117.707,
+  "speaker": "Unknown",
+  "en": "And so I kind of want to go there.",
+  "zh": "所以我有点想深入那个领域。"
+ },
+ {
+  "seg": 32,
+  "start": 117.727,
+  "end": 118.848,
+  "speaker": "Unknown",
+  "en": "I want to go into that space.",
+  "zh": "我想走进那个空间。"
+ },
+ {
+  "seg": 33,
+  "start": 120.349,
+  "end": 120.589,
+  "speaker": "Unknown",
+  "en": "Whoops.",
+  "zh": "哎呀。"
+ },
+ {
+  "seg": 34,
+  "start": 121.149,
+  "end": 123.211,
+  "speaker": "Unknown",
+  "en": "Of course I have to get my mouse to the right location.",
+  "zh": "当然，我得把鼠标移到正确的位置。"
+ },
+ {
+  "seg": 35,
+  "start": 124.291,
+  "end": 124.692,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 36,
+  "start": 125.332,
+  "end": 126.153,
+  "speaker": "Unknown",
+  "en": "A little bit about me.",
+  "zh": "简单介绍一下我自己。"
+ },
+ {
+  "seg": 37,
+  "start": 127.66,
+  "end": 136.427,
+  "speaker": "Unknown",
+  "en": "The past 30 plus years I've been building and designing coding tools, developer tools, IDEs at these companies.",
+  "zh": "过去 30 多年里，我一直在这些公司构建和设计编码工具、开发者工具、IDE。"
+ },
+ {
+  "seg": 38,
+  "start": 138.309,
+  "end": 145.294,
+  "speaker": "Unknown",
+  "en": "So I've spent a lot of time with, as a designer, I've spent a lot of time with design and engineering teams trying to understand",
+  "zh": "作为一名设计师，我花了很多时间和设计团队、工程团队在一起，试图理解"
+ },
+ {
+  "seg": 39,
+  "start": 146.425,
+  "end": 148.106,
+  "speaker": "Unknown",
+  "en": "How do we do that handoff well?",
+  "zh": "我们怎样才能做好那次交接？"
+ },
+ {
+  "seg": 40,
+  "start": 148.186,
+  "end": 150.407,
+  "speaker": "Unknown",
+  "en": "How do we handoff from design to code?",
+  "zh": "我们怎样从设计交接给代码？"
+ },
+ {
+  "seg": 41,
+  "start": 150.848,
+  "end": 154.29,
+  "speaker": "Unknown",
+  "en": "How do we get what we wanted to be delivered to the customer?",
+  "zh": "我们怎样让我们想要的东西交付到客户手中？"
+ },
+ {
+  "seg": 42,
+  "start": 155.971,
+  "end": 157.251,
+  "speaker": "Unknown",
+  "en": "It was never a perfect science.",
+  "zh": "这从来都不是一门完美的科学。"
+ },
+ {
+  "seg": 43,
+  "start": 157.492,
+  "end": 158.452,
+  "speaker": "Unknown",
+  "en": "We never got it.",
+  "zh": "我们从来没做到过。"
+ },
+ {
+  "seg": 44,
+  "start": 158.512,
+  "end": 166.657,
+  "speaker": "Unknown",
+  "en": "We never found that magic sauce that just made everything come together where intent matched the outcome.",
+  "zh": "我们从未找到那种魔法秘方，让一切完美融合，让意图与结果相匹配。"
+ },
+ {
+  "seg": 45,
+  "start": 168.844,
+  "end": 169.904,
+  "speaker": "Unknown",
+  "en": "But I developed techniques.",
+  "zh": "但我发展出了一些技巧。"
+ },
+ {
+  "seg": 46,
+  "start": 170.084,
+  "end": 172.005,
+  "speaker": "Unknown",
+  "en": "I negotiated with engineers.",
+  "zh": "我和工程师谈判。"
+ },
+ {
+  "seg": 47,
+  "start": 172.085,
+  "end": 173.066,
+  "speaker": "Unknown",
+  "en": "I brought them out for drinks.",
+  "zh": "我请他们出去喝酒。"
+ },
+ {
+  "seg": 48,
+  "start": 173.226,
+  "end": 174.126,
+  "speaker": "Unknown",
+  "en": "I made them my friends.",
+  "zh": "我和他们交上了朋友。"
+ },
+ {
+  "seg": 49,
+  "start": 175.647,
+  "end": 177.428,
+  "speaker": "Unknown",
+  "en": "I got things delivered to customers.",
+  "zh": "我把东西交付到了客户手中。"
+ },
+ {
+  "seg": 50,
+  "start": 178.949,
+  "end": 180.49,
+  "speaker": "Unknown",
+  "en": "But the loop was never closed.",
+  "zh": "但这个闭环从未被闭合。"
+ },
+ {
+  "seg": 51,
+  "start": 181.751,
+  "end": 183.752,
+  "speaker": "Unknown",
+  "en": "And it's because our outcomes diverged.",
+  "zh": "原因是我们的目标发生了分歧。"
+ },
+ {
+  "seg": 52,
+  "start": 184.532,
+  "end": 188.034,
+  "speaker": "Unknown",
+  "en": "Engineering had one set of requirements, technical constraints.",
+  "zh": "工程有一套需求，技术约束。"
+ },
+ {
+  "seg": 53,
+  "start": 188.074,
+  "end": 191.576,
+  "speaker": "Unknown",
+  "en": "Design had a vision for the future, a new rebranding, whatever.",
+  "zh": "设计有一个对未来的愿景，一次新的品牌重塑，诸如此类。"
+ },
+ {
+  "seg": 54,
+  "start": 191.776,
+  "end": 195.418,
+  "speaker": "Unknown",
+  "en": "So this has existed, dare I say, for decades.",
+  "zh": "所以，可以说，这种状况已经存在了几十年。"
+ },
+ {
+  "seg": 55,
+  "start": 197.696,
+  "end": 206.061,
+  "speaker": "Unknown",
+  "en": "Then along comes AI and LLM and prompting ourself into a fully running application.",
+  "zh": "然后出现了 AI 和 LLM，通过提示词让我们直接进入一个完全运行的应用。"
+ },
+ {
+  "seg": 56,
+  "start": 206.081,
+  "end": 216.308,
+  "speaker": "Unknown",
+  "en": "In a sense, now we have one intelligence that understands design intent and the same intelligence can write code.",
+  "zh": "从某种意义上说，现在我们有一个理解设计意图的智能体智能，而同一个智能也能写代码。"
+ },
+ {
+  "seg": 57,
+  "start": 217.329,
+  "end": 221.031,
+  "speaker": "Unknown",
+  "en": "So I thought to myself, oh my god, I think we might be able to close this loop.",
+  "zh": "所以我心想，天哪，我觉得我们也许能够闭合这个闭环了。"
+ },
+ {
+  "seg": 58,
+  "start": 222.012,
+  "end": 223.853,
+  "speaker": "Unknown",
+  "en": "At the speed of inference, we could close this loop.",
+  "zh": "以推理的速度，我们可以闭合这个闭环。"
+ },
+ {
+  "seg": 59,
+  "start": 225.075,
+  "end": 227.699,
+  "speaker": "Unknown",
+  "en": "And so I was curious.",
+  "zh": "所以我很好奇。"
+ },
+ {
+  "seg": 60,
+  "start": 228.119,
+  "end": 229.261,
+  "speaker": "Unknown",
+  "en": "I'm curious by nature.",
+  "zh": "我天性好奇。"
+ },
+ {
+  "seg": 61,
+  "start": 230.503,
+  "end": 231.184,
+  "speaker": "Unknown",
+  "en": "So I went all in.",
+  "zh": "所以我全力以赴了。"
+ },
+ {
+  "seg": 62,
+  "start": 232.425,
+  "end": 239.475,
+  "speaker": "Unknown",
+  "en": "That's my GitHub before Vibe Coding happened on the left, on my left, on your whatever.",
+  "zh": "这是我在 vibe coding 发生之前的 GitHub，左边，在我的左边，在你们的随便哪边。"
+ },
+ {
+  "seg": 63,
+  "start": 240.717,
+  "end": 241.438,
+  "speaker": "Unknown",
+  "en": "Then after.",
+  "zh": "然后是之后的。"
+ },
+ {
+  "seg": 64,
+  "start": 242.582,
+  "end": 251.705,
+  "speaker": "Unknown",
+  "en": "So I think everybody probably gets a sense of what my life was like from April 2025, and if you wanna scroll till today, it's even more so.",
+  "zh": "所以我想每个人大概都能感受到我从 2025 年 4 月开始的生活是什么样子，如果你滚动到今天，那就更是如此了。"
+ },
+ {
+  "seg": 65,
+  "start": 253.306,
+  "end": 260.448,
+  "speaker": "Unknown",
+  "en": "I got this email from Cursor one day that said I was in the top 0.1% of usage of Cursor.",
+  "zh": "有一天我收到 Cursor 的一封邮件，说我的 Cursor 使用量位居前 0.1%。"
+ },
+ {
+  "seg": 66,
+  "start": 261.849,
+  "end": 264.59,
+  "speaker": "Unknown",
+  "en": "And I thought to myself, I need to spend more time outside.",
+  "zh": "我心想，我需要多花点时间在户外。"
+ },
+ {
+  "seg": 67,
+  "start": 268.351,
+  "end": 269.252,
+  "speaker": "Unknown",
+  "en": "Then there was a bill.",
+  "zh": "然后有一张账单。"
+ },
+ {
+  "seg": 68,
+  "start": 271.347,
+  "end": 279.81,
+  "speaker": "Unknown",
+  "en": "But at the time it was the $20 deal and I kind of monitored but every now and again I'd pay for a little bit more, get another hit.",
+  "zh": "但当时还是 20 美元的套餐，我算是有所控制，但时不时还是会多付一点，再来一次。"
+ },
+ {
+  "seg": 69,
+  "start": 281.53,
+  "end": 283.351,
+  "speaker": "Unknown",
+  "en": "And this was my life, Vibe Coding.",
+  "zh": "这就是我的生活，vibe coding。"
+ },
+ {
+  "seg": 70,
+  "start": 284.291,
+  "end": 292.093,
+  "speaker": "Unknown",
+  "en": "From that point in April until today, I'm trying to figure out can I go from design to code?",
+  "zh": "从 4 月的那个时候直到今天，我一直在试图弄清楚，能否从设计到代码？"
+ },
+ {
+  "seg": 71,
+  "start": 292.113,
+  "end": 293.554,
+  "speaker": "Unknown",
+  "en": "Can I go from code to design?",
+  "zh": "能否从代码到设计？"
+ },
+ {
+  "seg": 72,
+  "start": 293.594,
+  "end": 297.255,
+  "speaker": "Unknown",
+  "en": "Can I build a tool to go from design to code and code to design?",
+  "zh": "我能否构建一个从设计到代码、再从代码到设计的工具？"
+ },
+ {
+  "seg": 73,
+  "start": 297.515,
+  "end": 299.476,
+  "speaker": "Unknown",
+  "en": "A full round trip without",
+  "zh": "一次完整的往返，而不"
+ },
+ {
+  "seg": 74,
+  "start": 300.331,
+  "end": 304.693,
+  "speaker": "Unknown",
+  "en": "Any loss of fidelity, that pixel perfect dream that we have.",
+  "zh": "有任何保真度的损失，那个我们梦寐以求的像素级完美。"
+ },
+ {
+  "seg": 75,
+  "start": 305.894,
+  "end": 328.367,
+  "speaker": "Unknown",
+  "en": "I remember vividly one day I was just hammering away at the keyboard, just vibing my way, I was really feeling the vibe, and this wall of text was coming by and I was completely ignoring it, and code was being written, just watching that come by, and I remember seeing a statement that was an inner HTML statement.",
+  "zh": "我清楚地记得有一天，我正在拼命敲键盘，一路 vibing，我真的很沉浸在那个 vibe 里，一大墙的文字不断滚过，我完全忽略了它，代码正在被写出来，我就看着它滚过，然后我记得看到了一条 inner HTML 语句。"
+ },
+ {
+  "seg": 76,
+  "start": 329.93,
+  "end": 337.996,
+  "speaker": "Unknown",
+  "en": "And I remember from way back when that innerHTML was a security vulnerability that people can actually inject into innerHTML.",
+  "zh": "而我记得很久以前 innerHTML 是一个安全漏洞，人们实际上可以向 innerHTML 注入内容。"
+ },
+ {
+  "seg": 77,
+  "start": 339.037,
+  "end": 344.12,
+  "speaker": "Unknown",
+  "en": "And I stopped it and I said, wait a minute, wait a minute, to my LLM, wait a minute, what did you just do?",
+  "zh": "于是我拦住了它，对我的 LLM 说，等等，等一下，等一下，你刚才做了什么？"
+ },
+ {
+  "seg": 78,
+  "start": 345.241,
+  "end": 347.503,
+  "speaker": "Unknown",
+  "en": "And it explained to me what it did and it was very proud of itself.",
+  "zh": "它向我解释了它做了什么，还非常为此自豪。"
+ },
+ {
+  "seg": 79,
+  "start": 347.583,
+  "end": 351.125,
+  "speaker": "Unknown",
+  "en": "And I said, revert that, do this instead, blah, blah.",
+  "zh": "我说，撤销那个，改成这样做， blah blah。"
+ },
+ {
+  "seg": 80,
+  "start": 351.886,
+  "end": 355.508,
+  "speaker": "Unknown",
+  "en": "And I got into this mode of like, oh, maybe I need to steer this thing a little bit better.",
+  "zh": "然后我进入了这样一种状态：哦，也许我需要更好地引导这个东西。"
+ },
+ {
+  "seg": 81,
+  "start": 355.548,
+  "end": 356.909,
+  "speaker": "Unknown",
+  "en": "Maybe I can't just go blindly in.",
+  "zh": "也许我不能就这么盲目地冲进去。"
+ },
+ {
+  "seg": 82,
+  "start": 357.39,
+  "end": 358.931,
+  "speaker": "Unknown",
+  "en": "Maybe I need to look at the code now.",
+  "zh": "也许我现在需要看一看代码了。"
+ },
+ {
+  "seg": 83,
+  "start": 360.15,
+  "end": 361.771,
+  "speaker": "Unknown",
+  "en": "And I've looked at a lot of code in my life.",
+  "zh": "而我这一生看过很多代码。"
+ },
+ {
+  "seg": 84,
+  "start": 362.771,
+  "end": 364.552,
+  "speaker": "Unknown",
+  "en": "So I went ahead and went in and looked at the code.",
+  "zh": "于是我走进去看了代码。"
+ },
+ {
+  "seg": 85,
+  "start": 365.473,
+  "end": 368.054,
+  "speaker": "Unknown",
+  "en": "And I, whoops, I'm sorry, I clicked too ahead.",
+  "zh": "然后，哎呀，抱歉，我点得太快了。"
+ },
+ {
+  "seg": 86,
+  "start": 369.135,
+  "end": 370.535,
+  "speaker": "Unknown",
+  "en": "And I found issues.",
+  "zh": "然后我发现了问题。"
+ },
+ {
+  "seg": 87,
+  "start": 371.696,
+  "end": 379.2,
+  "speaker": "Unknown",
+  "en": "And so I went a little bit deeper when the industry started to tell me that they had solved the round trip.",
+  "zh": "当业界开始告诉我他们已经解决了这个往返问题时，我又更深入地挖掘了一点。"
+ },
+ {
+  "seg": 88,
+  "start": 380.521,
+  "end": 383.622,
+  "speaker": "Unknown",
+  "en": "That you could go a true round trip workflow.",
+  "zh": "说你可以实现真正的往返工作流。"
+ },
+ {
+  "seg": 89,
+  "start": 383.662,
+  "end": 386.084,
+  "speaker": "Unknown",
+  "en": "You could round trip between code and Canvas.",
+  "zh": "你可以在代码和 Canvas 之间往返。"
+ },
+ {
+  "seg": 90,
+  "start": 386.124,
+  "end": 388.445,
+  "speaker": "Unknown",
+  "en": "I think folks in the room might remember back in February,",
+  "zh": "我觉得在座的人可能还记得 2 月份的时候，"
+ },
+ {
+  "seg": 91,
+  "start": 389.637,
+  "end": 391.859,
+  "speaker": "Unknown",
+  "en": "No slam on Anthropic or Figma.",
+  "zh": "这不是对 Anthropic 或 Figma 的抨击。"
+ },
+ {
+  "seg": 92,
+  "start": 392.799,
+  "end": 397.382,
+  "speaker": "Unknown",
+  "en": "There was this demo that showed going from Claude Code into Figma.",
+  "zh": "有这样一个演示，展示了从 Claude Code 进入 Figma。"
+ },
+ {
+  "seg": 93,
+  "start": 398.103,
+  "end": 398.763,
+  "speaker": "Unknown",
+  "en": "And it was magic.",
+  "zh": "那简直是魔法。"
+ },
+ {
+  "seg": 94,
+  "start": 398.963,
+  "end": 399.604,
+  "speaker": "Unknown",
+  "en": "It was incredible.",
+  "zh": "难以置信。"
+ },
+ {
+  "seg": 95,
+  "start": 399.624,
+  "end": 404.167,
+  "speaker": "Unknown",
+  "en": "I couldn't believe you could build a Figma artboard from a prompt in Claude Code.",
+  "zh": "我不敢相信你可以在 Claude Code 里用一条 prompt 构建出一个 Figma 画板。"
+ },
+ {
+  "seg": 96,
+  "start": 405.488,
+  "end": 406.509,
+  "speaker": "Unknown",
+  "en": "And then I had to go deeper.",
+  "zh": "然后我不得不更深入。"
+ },
+ {
+  "seg": 97,
+  "start": 406.929,
+  "end": 407.69,
+  "speaker": "Unknown",
+  "en": "And I had to look deeper.",
+  "zh": "我不得不看得更深。"
+ },
+ {
+  "seg": 98,
+  "start": 407.85,
+  "end": 409.351,
+  "speaker": "Unknown",
+  "en": "In the same way that I looked at vibe coding.",
+  "zh": "就像我审视 vibe coding 那样。"
+ },
+ {
+  "seg": 99,
+  "start": 409.371,
+  "end": 410.311,
+  "speaker": "Unknown",
+  "en": "Like, is this real?",
+  "zh": "比如，这是真的吗？"
+ },
+ {
+  "seg": 100,
+  "start": 410.391,
+  "end": 411.012,
+  "speaker": "Unknown",
+  "en": "Is the hype real?",
+  "zh": "炒作是真的吗？"
+ },
+ {
+  "seg": 101,
+  "start": 411.99,
+  "end": 419.436,
+  "speaker": "Unknown",
+  "en": "So I went deeper and then more announcements were made all the way up until last week when FigmaConfig announced that code is now material.",
+  "zh": "于是我深入研究了下去，然后又有更多公告发布，一直持续到上周，FigmaConfig 宣布代码现在是「material」了。"
+ },
+ {
+  "seg": 102,
+  "start": 420.777,
+  "end": 424.42,
+  "speaker": "Unknown",
+  "en": "Does that mean there is no even handoff that exists anymore?",
+  "zh": "这是否意味着连交付环节都不复存在了？"
+ },
+ {
+  "seg": 103,
+  "start": 426.121,
+  "end": 427.863,
+  "speaker": "Unknown",
+  "en": "So I'm monitoring, trying to keep up.",
+  "zh": "所以我在持续监控，努力跟上。"
+ },
+ {
+  "seg": 104,
+  "start": 428.363,
+  "end": 430.124,
+  "speaker": "Unknown",
+  "en": "Things are happening at warp speed.",
+  "zh": "事情正在以光速发生。"
+ },
+ {
+  "seg": 105,
+  "start": 431.746,
+  "end": 437.39,
+  "speaker": "Unknown",
+  "en": "But they said the round trip was solved and I started messing around and realized it wasn't.",
+  "zh": "但他们说往返（round trip）问题已经解决了，我上手摆弄了一下，发现并没有。"
+ },
+ {
+  "seg": 106,
+  "start": 437.73,
+  "end": 439.392,
+  "speaker": "Unknown",
+  "en": "And so I wanna share with all of you",
+  "zh": "所以我想和大家分享"
+ },
+ {
+  "seg": 107,
+  "start": 441.156,
+  "end": 442.277,
+  "speaker": "Unknown",
+  "en": "A harness that I built.",
+  "zh": "我构建的一个 harness。"
+ },
+ {
+  "seg": 108,
+  "start": 443.077,
+  "end": 443.338,
+  "speaker": "Unknown",
+  "en": "Whoops.",
+  "zh": "哎呀。"
+ },
+ {
+  "seg": 109,
+  "start": 444.238,
+  "end": 445.079,
+  "speaker": "Unknown",
+  "en": "Oh, wait a minute.",
+  "zh": "哦，等一下。"
+ },
+ {
+  "seg": 110,
+  "start": 445.439,
+  "end": 446.079,
+  "speaker": "Unknown",
+  "en": "Localhost.",
+  "zh": "Localhost。"
+ },
+ {
+  "seg": 111,
+  "start": 446.86,
+  "end": 447.961,
+  "speaker": "Unknown",
+  "en": "Where are you, localhost?",
+  "zh": "你在哪里，localhost？"
+ },
+ {
+  "seg": 112,
+  "start": 449.982,
+  "end": 451.223,
+  "speaker": "Unknown",
+  "en": "Come back to me, localhost.",
+  "zh": "回来吧，localhost。"
+ },
+ {
+  "seg": 113,
+  "start": 451.323,
+  "end": 451.603,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 114,
+  "start": 453.344,
+  "end": 457.127,
+  "speaker": "Unknown",
+  "en": "I don't know what just happened there, and now I'm afraid to restart this.",
+  "zh": "我不知道刚才发生了什么，现在我不敢重启这个了。"
+ },
+ {
+  "seg": 115,
+  "start": 457.807,
+  "end": 458.928,
+  "speaker": "Unknown",
+  "en": "Okay, I think we're okay.",
+  "zh": "好的，我觉得我们没问题了。"
+ },
+ {
+  "seg": 116,
+  "start": 460.389,
+  "end": 466.193,
+  "speaker": "Unknown",
+  "en": "I created this harness, and what this harness is, is on, I'm gonna say left, I hope everybody",
+  "zh": "我创建了这个 harness，这个 harness 是在——我打算说左边，希望大家都——"
+ },
+ {
+  "seg": 117,
+  "start": 467.099,
+  "end": 467.74,
+  "speaker": "Unknown",
+  "en": "Is that your left?",
+  "zh": "那是你们的左边吗？"
+ },
+ {
+  "seg": 118,
+  "start": 467.84,
+  "end": 468.28,
+  "speaker": "Unknown",
+  "en": "It is your left.",
+  "zh": "是你们的左边。"
+ },
+ {
+  "seg": 119,
+  "start": 468.34,
+  "end": 468.68,
+  "speaker": "Unknown",
+  "en": "Okay, good.",
+  "zh": "好，很好。"
+ },
+ {
+  "seg": 120,
+  "start": 470.222,
+  "end": 472.663,
+  "speaker": "Unknown",
+  "en": "On your left is code that was generated by AI.",
+  "zh": "你们的左边是由 AI 生成的代码。"
+ },
+ {
+  "seg": 121,
+  "start": 472.784,
+  "end": 475.145,
+  "speaker": "Unknown",
+  "en": "This is all real, what you're seeing here.",
+  "zh": "你们在这里看到的一切都是真实的。"
+ },
+ {
+  "seg": 122,
+  "start": 475.866,
+  "end": 476.867,
+  "speaker": "Unknown",
+  "en": "Generated by AI.",
+  "zh": "由 AI 生成。"
+ },
+ {
+  "seg": 123,
+  "start": 478.068,
+  "end": 486.034,
+  "speaker": "Unknown",
+  "en": "And on your right is a design, be it a canvas that I created in Figma, be it something I created in Sketch.",
+  "zh": "而右边是一个设计，可以是我在 Figma 里创建的画布，也可以是我在 Sketch 里创建的东西。"
+ },
+ {
+  "seg": 124,
+  "start": 486.254,
+  "end": 489.377,
+  "speaker": "Unknown",
+  "en": "It's not really relevant, what the sources are here.",
+  "zh": "这里用什么源头其实并不重要。"
+ },
+ {
+  "seg": 125,
+  "start": 489.697,
+  "end": 492.099,
+  "speaker": "Unknown",
+  "en": "But the reality is I'm trying to illustrate a round trip.",
+  "zh": "但实际情况是，我想演示一个往返（round trip）。"
+ },
+ {
+  "seg": 126,
+  "start": 493.341,
+  "end": 499.928,
+  "speaker": "Unknown",
+  "en": "And so a round trip starts with code or starts with design and it has a prompt associated with it.",
+  "zh": "一个往返可以从代码开始，或者从设计开始，并且它有一个关联的 prompt。"
+ },
+ {
+  "seg": 127,
+  "start": 500.188,
+  "end": 507.295,
+  "speaker": "Unknown",
+  "en": "So some LLM I call off and I say in this instance I want to take this form and I want to build a design system from it.",
+  "zh": "于是我调用某个 LLM，在这个例子里我说，我想拿这个表单，并且想从它构建一个设计系统。"
+ },
+ {
+  "seg": 128,
+  "start": 507.395,
+  "end": 513.662,
+  "speaker": "Unknown",
+  "en": "So there are tools that do this that can extract code and build design systems from graphical canvases.",
+  "zh": "确实有一些工具可以做到这一点，能从图形画布中提取代码并构建设计系统。"
+ },
+ {
+  "seg": 129,
+  "start": 514.022,
+  "end": 515.443,
+  "speaker": "Unknown",
+  "en": "And so I can do that.",
+  "zh": "所以我可以这么做。"
+ },
+ {
+  "seg": 130,
+  "start": 516.435,
+  "end": 519.158,
+  "speaker": "Unknown",
+  "en": "And it updated the code and created some styles.",
+  "zh": "然后它更新了代码，创建了一些样式。"
+ },
+ {
+  "seg": 131,
+  "start": 519.878,
+  "end": 524.923,
+  "speaker": "Unknown",
+  "en": "And it also actually created a design system that works in runtime here.",
+  "zh": "而且它实际上还创建了一个能在这里在运行时工作的设计系统。"
+ },
+ {
+  "seg": 132,
+  "start": 524.963,
+  "end": 529.768,
+  "speaker": "Unknown",
+  "en": "So this is like a real app that got built that is also living in Figma.",
+  "zh": "所以这是一个真正被构建出来的应用，同时也存在于 Figma 中。"
+ },
+ {
+  "seg": 133,
+  "start": 529.968,
+  "end": 531.089,
+  "speaker": "Unknown",
+  "en": "So there's a link up here.",
+  "zh": "这里上面有个链接。"
+ },
+ {
+  "seg": 134,
+  "start": 531.109,
+  "end": 532.37,
+  "speaker": "Unknown",
+  "en": "I won't go there, but trust me.",
+  "zh": "我不会点进去，但相信我。"
+ },
+ {
+  "seg": 135,
+  "start": 533.372,
+  "end": 534.252,
+  "speaker": "Unknown",
+  "en": "So we can say stable.",
+  "zh": "所以我们可以看 stable 这个。"
+ },
+ {
+  "seg": 136,
+  "start": 534.793,
+  "end": 538.474,
+  "speaker": "Unknown",
+  "en": "If I click that link, it would go to Figma and show me the full-blown design system that was built.",
+  "zh": "如果我点击那个链接，它会跳到 Figma，向我展示被构建出来的完整设计系统。"
+ },
+ {
+  "seg": 137,
+  "start": 538.954,
+  "end": 549.798,
+  "speaker": "Unknown",
+  "en": "And a design system, for those that don't know, is composed of components and tokens and variables and styles that all are used as a basis for building software from.",
+  "zh": "设计系统，对于不了解的人来说，是由组件、token、变量和样式组成的，它们都是构建软件的基础。"
+ },
+ {
+  "seg": 138,
+  "start": 550.078,
+  "end": 556.581,
+  "speaker": "Unknown",
+  "en": "So code and design together really work well when there's a design system and there's a code base that understands it.",
+  "zh": "所以，当有一个设计系统，并且有一个理解它的代码库时，代码和设计在一起才能真正配合得好。"
+ },
+ {
+  "seg": 139,
+  "start": 557.341,
+  "end": 562.383,
+  "speaker": "Unknown",
+  "en": "Now, move back and forth, you throw something over here and you say, okay, I wanna build an orange button.",
+  "zh": "现在，来回切换，你在这边丢一个东西过去，说，好，我想构建一个橙色按钮。"
+ },
+ {
+  "seg": 140,
+  "start": 563.489,
+  "end": 566.17,
+  "speaker": "Unknown",
+  "en": "And I've added a company field and an orange button.",
+  "zh": "然后我添加了一个 company 字段和一个橙色按钮。"
+ },
+ {
+  "seg": 141,
+  "start": 566.19,
+  "end": 567.09,
+  "speaker": "Unknown",
+  "en": "The code is updated.",
+  "zh": "代码被更新了。"
+ },
+ {
+  "seg": 142,
+  "start": 567.13,
+  "end": 568.15,
+  "speaker": "Unknown",
+  "en": "The design is updated.",
+  "zh": "设计被更新了。"
+ },
+ {
+  "seg": 143,
+  "start": 568.631,
+  "end": 569.491,
+  "speaker": "Unknown",
+  "en": "This is awesome.",
+  "zh": "这太棒了。"
+ },
+ {
+  "seg": 144,
+  "start": 569.591,
+  "end": 570.211,
+  "speaker": "Unknown",
+  "en": "Could I go back?",
+  "zh": "我能回退吗？"
+ },
+ {
+  "seg": 145,
+  "start": 570.691,
+  "end": 571.011,
+  "speaker": "Unknown",
+  "en": "Maybe.",
+  "zh": "也许吧。"
+ },
+ {
+  "seg": 146,
+  "start": 572.712,
+  "end": 574.752,
+  "speaker": "Unknown",
+  "en": "But I have a button up here called Show Drift.",
+  "zh": "但我在上面有一个叫 Show Drift 的按钮。"
+ },
+ {
+  "seg": 147,
+  "start": 575.933,
+  "end": 580.054,
+  "speaker": "Unknown",
+  "en": "So Show Drift is Reweaver AI working right now.",
+  "zh": "Show Drift 就是 Reweaver AI 此刻正在运行。"
+ },
+ {
+  "seg": 148,
+  "start": 580.654,
+  "end": 584.835,
+  "speaker": "Unknown",
+  "en": "And this is real Reweaver code for the first time introduced to the public ever.",
+  "zh": "而这是 Reweaver 的代码首次向公众展示。"
+ },
+ {
+  "seg": 149,
+  "start": 585.936,
+  "end": 590.297,
+  "speaker": "Unknown",
+  "en": "And if I click Show Drift, I'll see a list of issues that got generated",
+  "zh": "如果我点击 Show Drift，我会看到一个被生成的问题列表"
+ },
+ {
+  "seg": 150,
+  "start": 591.317,
+  "end": 602.461,
+  "speaker": "Unknown",
+  "en": "From both the code and the design at the same time, there are across several different dimensions that you can see here, design quality, code quality, performance, design tokens, et cetera.",
+  "zh": "同时从代码和设计出发,你可以在这里看到跨越多个不同维度的评估:设计质量、代码质量、性能、design tokens 等等。"
+ },
+ {
+  "seg": 151,
+  "start": 603.582,
+  "end": 614.366,
+  "speaker": "Unknown",
+  "en": "One of the ones of note that I find really important from my perspective is that at Microsoft, I worked on accessibility, and I learned a lot about what it means to build an accessible software system.",
+  "zh": "其中我认为从我的角度非常重要的一点是,我在微软做过无障碍方面的工作,我学到了很多关于构建无障碍软件系统意味着什么。"
+ },
+ {
+  "seg": 152,
+  "start": 615.774,
+  "end": 622.456,
+  "speaker": "Unknown",
+  "en": "I want to be honest with all of you, I was very frustrated when I first saw LLMs come out and they generated code that was inaccessible, period, out of the box.",
+  "zh": "我想对大家说实话,当 LLM 刚问世时,我非常沮丧,因为它们生成的代码是无障碍不达标的,就是这样,开箱即不行。"
+ },
+ {
+  "seg": 153,
+  "start": 623.177,
+  "end": 626.358,
+  "speaker": "Unknown",
+  "en": "I thought, what, models weren't trained on accessibility?",
+  "zh": "我当时想,什么,模型没有在无障碍方面接受过训练?"
+ },
+ {
+  "seg": 154,
+  "start": 627.978,
+  "end": 633.66,
+  "speaker": "Unknown",
+  "en": "And I was reminded 20 years ago when engineers needed to be trained on accessibility.",
+  "zh": "这让我想起 20 年前,当时工程师需要接受无障碍方面的培训。"
+ },
+ {
+  "seg": 155,
+  "start": 633.701,
+  "end": 638.182,
+  "speaker": "Unknown",
+  "en": "So here we are again now, training LLMs instead of engineers on accessibility.",
+  "zh": "所以现在我们又来了一遍,只不过这次是在无障碍方面训练 LLM,而不是工程师。"
+ },
+ {
+  "seg": 156,
+  "start": 639.363,
+  "end": 640.543,
+  "speaker": "Unknown",
+  "en": "So found issues.",
+  "zh": "所以发现了问题。"
+ },
+ {
+  "seg": 157,
+  "start": 641.923,
+  "end": 643.004,
+  "speaker": "Unknown",
+  "en": "Here's an issue where",
+  "zh": "这里有一个问题,"
+ },
+ {
+  "seg": 158,
+  "start": 644.457,
+  "end": 648.219,
+  "speaker": "Unknown",
+  "en": "Has no ARIA live region so it won't be announced by a screen reader.",
+  "zh": "没有 ARIA live region,所以屏幕阅读器不会播报它。"
+ },
+ {
+  "seg": 159,
+  "start": 648.459,
+  "end": 651.501,
+  "speaker": "Unknown",
+  "en": "A blind user using this won't get an announcement about this element.",
+  "zh": "使用这个的盲人用户不会收到关于这个元素的播报。"
+ },
+ {
+  "seg": 160,
+  "start": 652.241,
+  "end": 658.004,
+  "speaker": "Unknown",
+  "en": "So Reweaver found that and Reweaver says it can fix it and Reweaver fixed it.",
+  "zh": "Reweaver 发现了这个问题,Reweaver 说它可以修复,Reweaver 就修复了。"
+ },
+ {
+  "seg": 161,
+  "start": 658.184,
+  "end": 661.906,
+  "speaker": "Unknown",
+  "en": "Now the red went away but there's also a blue issue here as well.",
+  "zh": "现在红色问题消失了,但这里还有一个蓝色问题。"
+ },
+ {
+  "seg": 162,
+  "start": 662.246,
+  "end": 674.012,
+  "speaker": "Unknown",
+  "en": "So Reweaver stacks up issues and basically scans the code and scans the design and produces guardrails to a sense but also a way to fix the code and make it better.",
+  "zh": "所以 Reweaver 会堆叠问题,基本上是扫描代码、扫描设计,产生某种护栏,同时也是一种修复代码、让它变得更好的方式。"
+ },
+ {
+  "seg": 163,
+  "start": 676.148,
+  "end": 684.691,
+  "speaker": "Unknown",
+  "en": "So I did that across multiple dimensions, you know, with the intention of seeing if anybody had solved the round trip problem.",
+  "zh": "所以我在多个维度上做了这件事,目的就是想看看是否有人解决了往返问题。"
+ },
+ {
+  "seg": 164,
+  "start": 686.072,
+  "end": 687.773,
+  "speaker": "Unknown",
+  "en": "And it didn't go well.",
+  "zh": "结果不太顺利。"
+ },
+ {
+  "seg": 165,
+  "start": 689.073,
+  "end": 691.074,
+  "speaker": "Unknown",
+  "en": "I never got really the full round trip.",
+  "zh": "我从来没有真正实现完整的往返。"
+ },
+ {
+  "seg": 166,
+  "start": 691.114,
+  "end": 700.898,
+  "speaker": "Unknown",
+  "en": "I really tried, hopefully this slide tells you, I tried five different tool setups, trying to do code, design, code, round trip, both directions, bi-directional.",
+  "zh": "我是认真的,希望这张幻灯片能告诉你,我尝试了五种不同的工具配置,试图做代码到设计、设计到代码的往返,双向的。"
+ },
+ {
+  "seg": 167,
+  "start": 701.757,
+  "end": 709.363,
+  "speaker": "Unknown",
+  "en": "Lots of lossy issues, bindings were lost, design change survived but code didn't.",
+  "zh": "很多有损的问题,绑定丢失了,设计的修改保留了但代码没有。"
+ },
+ {
+  "seg": 168,
+  "start": 710.865,
+  "end": 719.272,
+  "speaker": "Unknown",
+  "en": "I'm not gonna say we're not gonna get there, but even if we do get there and we're able to do this, I wonder if we'll get fully there.",
+  "zh": "我不会说我们永远到不了那一步,但即使我们到了那一步、能够做到这一点,我也怀疑我们能否完全到达。"
+ },
+ {
+  "seg": 169,
+  "start": 719.992,
+  "end": 729.24,
+  "speaker": "Unknown",
+  "en": "And maybe we need tools like Reweaver, I shouldn't say maybe, we do need tools like Reweaver to help us understand the drift.",
+  "zh": "也许我们需要像 Reweaver 这样的工具,不,我不该说也许,我们确实需要像 Reweaver 这样的工具来帮助我们理解漂移。"
+ },
+ {
+  "seg": 170,
+  "start": 730.722,
+  "end": 734.444,
+  "speaker": "Unknown",
+  "en": "So that whole experience for me really highlighted something from my past.",
+  "zh": "所以这整段经历对我而言真正凸显了我过去经历过的一件事。"
+ },
+ {
+  "seg": 171,
+  "start": 735.145,
+  "end": 744.071,
+  "speaker": "Unknown",
+  "en": "I had built a lot of software development tools, designed and built software development tools, and developer tools in their nature are deterministic.",
+  "zh": "我构建过很多软件开发工具,设计和构建过软件开发工具,而开发者工具在本质上是确定性的。"
+ },
+ {
+  "seg": 172,
+  "start": 744.691,
+  "end": 748.374,
+  "speaker": "Unknown",
+  "en": "You write code, you compile it, you get an AST.",
+  "zh": "你写代码,编译它,得到一个 AST。"
+ },
+ {
+  "seg": 173,
+  "start": 748.514,
+  "end": 750.695,
+  "speaker": "Unknown",
+  "en": "Every time you run that code, you'll get the same result.",
+  "zh": "每次运行那段代码,你都会得到相同的结果。"
+ },
+ {
+  "seg": 174,
+  "start": 751.456,
+  "end": 757.62,
+  "speaker": "Unknown",
+  "en": "When you put AI in the middle of that, or in the front of that, or at the end of that, you're not gonna necessarily get the same outcomes.",
+  "zh": "当你把 AI 放在其中的中间、前面或末端,你不一定会得到相同的结果。"
+ },
+ {
+  "seg": 175,
+  "start": 758.737,
+  "end": 765.203,
+  "speaker": "Unknown",
+  "en": "Now there are tools that'll help you understand, Reweaver being one of them, that there's a mismatch, there's Drift there.",
+  "zh": "现在有一些工具能帮你理解,Reweaver 就是其中之一,即存在不匹配,那里存在漂移。"
+ },
+ {
+  "seg": 176,
+  "start": 766.043,
+  "end": 767.525,
+  "speaker": "Unknown",
+  "en": "And we need to be aware of Drift.",
+  "zh": "我们需要意识到漂移。"
+ },
+ {
+  "seg": 177,
+  "start": 767.665,
+  "end": 769.266,
+  "speaker": "Unknown",
+  "en": "Drift lurks in the dark.",
+  "zh": "漂移潜伏在黑暗中。"
+ },
+ {
+  "seg": 178,
+  "start": 770.087,
+  "end": 773.17,
+  "speaker": "Unknown",
+  "en": "You need to look at the code, you need to find the Drift, you need to fix the Drift.",
+  "zh": "你需要查看代码,你需要找到漂移,你需要修复漂移。"
+ },
+ {
+  "seg": 179,
+  "start": 774.13,
+  "end": 777.593,
+  "speaker": "Unknown",
+  "en": "And you do that with deterministic guardrails around the AI.",
+  "zh": "而你做到这一点的方法,是在 AI 周围设置确定性的护栏。"
+ },
+ {
+  "seg": 180,
+  "start": 777.854,
+  "end": 778.975,
+  "speaker": "Unknown",
+  "en": "The AI is still there.",
+  "zh": "AI 仍然在那里。"
+ },
+ {
+  "seg": 181,
+  "start": 780.132,
+  "end": 785.714,
+  "speaker": "Unknown",
+  "en": "So I ran another experiment, 12 iterations on a codebase with complex enough UI to it.",
+  "zh": "所以我做了另一个实验,在一个有相当复杂 UI 的代码库上进行了 12 次迭代。"
+ },
+ {
+  "seg": 182,
+  "start": 785.734,
+  "end": 789.475,
+  "speaker": "Unknown",
+  "en": "And I did one where it was just pure AI-led, just LLM all the way.",
+  "zh": "其中一次是纯 AI 主导的,全程都是 LLM。"
+ },
+ {
+  "seg": 183,
+  "start": 790.615,
+  "end": 799.918,
+  "speaker": "Unknown",
+  "en": "And it degraded a little bit, but it started at 30% quality, 30% fidelity, 30% true pixel perfection.",
+  "zh": "它有一点退化,但它起步时是 30% 的质量,30% 的保真度,30% 的真正像素级完美。"
+ },
+ {
+  "seg": 184,
+  "start": 801.098,
+  "end": 806.36,
+  "speaker": "Unknown",
+  "en": "And then I put it on top of deterministic guardrails, where we found the issues, we fixed the issues,",
+  "zh": "然后我在上面加了确定性的护栏,我们发现问题,修复问题,"
+ },
+ {
+  "seg": 185,
+  "start": 807.377,
+  "end": 814.001,
+  "speaker": "Unknown",
+  "en": "You can't get to 100 because that 10% is human judgment, human decision making.",
+  "zh": "你到不了 100,因为那 10% 是人类判断,人类决策。"
+ },
+ {
+  "seg": 186,
+  "start": 814.181,
+  "end": 817.263,
+  "speaker": "Unknown",
+  "en": "So the human is still there in this equation.",
+  "zh": "所以在这个等式里,人仍然在那里。"
+ },
+ {
+  "seg": 187,
+  "start": 820.545,
+  "end": 821.806,
+  "speaker": "Unknown",
+  "en": "So what is it today?",
+  "zh": "那么今天是什么状况?"
+ },
+ {
+  "seg": 188,
+  "start": 822.987,
+  "end": 828.03,
+  "speaker": "Unknown",
+  "en": "Today I would call it we're locked into AI and that's okay, we'll go there, we'll embrace that.",
+  "zh": "今天我会说,我们被锁定在 AI 上,这没关系,我们会走向那里,我们会拥抱它。"
+ },
+ {
+  "seg": 189,
+  "start": 828.785,
+  "end": 838.333,
+  "speaker": "Unknown",
+  "en": "But we're locked into AI for design to code, we're locked into AI for code to design, looping, chatbots, what we call span the chain workflows where you're jumping across tools.",
+  "zh": "但我们被锁定在 AI 上做设计到代码、代码到设计、循环、聊天机器人,还有我们所谓的跨越链条的工作流,也就是你在多个工具之间跳转。"
+ },
+ {
+  "seg": 190,
+  "start": 839.314,
+  "end": 841.216,
+  "speaker": "Unknown",
+  "en": "And there's always token costs to be aware of, of course.",
+  "zh": "当然,总是有 token 成本需要留意。"
+ },
+ {
+  "seg": 191,
+  "start": 841.957,
+  "end": 845.44,
+  "speaker": "Unknown",
+  "en": "So in this world, the agents are in control and the humans in the loop.",
+  "zh": "所以在这个世界里,智能体在掌控,人类在环路中。"
+ },
+ {
+  "seg": 192,
+  "start": 846.581,
+  "end": 847.742,
+  "speaker": "Unknown",
+  "en": "I'd like to propose something else.",
+  "zh": "我想提出一些不同的东西。"
+ },
+ {
+  "seg": 193,
+  "start": 848.562,
+  "end": 851.505,
+  "speaker": "Unknown",
+  "en": "Before I do, there are three blind spots we need to be aware of.",
+  "zh": "在此之前,有三个盲区我们需要意识到。"
+ },
+ {
+  "seg": 194,
+  "start": 852.086,
+  "end": 853.547,
+  "speaker": "Unknown",
+  "en": "One is the model itself.",
+  "zh": "一个是模型本身。"
+ },
+ {
+  "seg": 195,
+  "start": 853.827,
+  "end": 855.388,
+  "speaker": "Unknown",
+  "en": "You can ask the questions, it'll give you answers.",
+  "zh": "你可以提问,它会给你答案。"
+ },
+ {
+  "seg": 196,
+  "start": 856.767,
+  "end": 857.827,
+  "speaker": "Unknown",
+  "en": "But it's non-deterministic.",
+  "zh": "但它是非确定性的。"
+ },
+ {
+  "seg": 197,
+  "start": 857.887,
+  "end": 858.608,
+  "speaker": "Unknown",
+  "en": "It's probabilistic.",
+  "zh": "它是概率性的。"
+ },
+ {
+  "seg": 198,
+  "start": 859.748,
+  "end": 860.989,
+  "speaker": "Unknown",
+  "en": "There will be drift in the moment.",
+  "zh": "当下就会有漂移。"
+ },
+ {
+  "seg": 199,
+  "start": 861.069,
+  "end": 862.829,
+  "speaker": "Unknown",
+  "en": "When you're writing code, drift will surface.",
+  "zh": "当你在写代码时,漂移就会浮现。"
+ },
+ {
+  "seg": 200,
+  "start": 863.61,
+  "end": 868.392,
+  "speaker": "Unknown",
+  "en": "But drift over time is the pain that you'll be experiencing for the next six months.",
+  "zh": "但随着时间推移产生的漂移，是你在接下来六个月里要经历的痛苦。"
+ },
+ {
+  "seg": 201,
+  "start": 868.832,
+  "end": 872.133,
+  "speaker": "Unknown",
+  "en": "Because drift over time is the new tech debt.",
+  "zh": "因为随时间推移的漂移就是新的技术债。"
+ },
+ {
+  "seg": 202,
+  "start": 873.373,
+  "end": 879.356,
+  "speaker": "Unknown",
+  "en": "And it's gonna pile itself gloriously over your code base.",
+  "zh": "它会壮丽地堆满你的代码库。"
+ },
+ {
+  "seg": 203,
+  "start": 880.376,
+  "end": 881.637,
+  "speaker": "Unknown",
+  "en": "We wanna do something about it.",
+  "zh": "我们想做点什么来解决它。"
+ },
+ {
+  "seg": 204,
+  "start": 882.535,
+  "end": 888.642,
+  "speaker": "Unknown",
+  "en": "So here's where we think it isn't, meaning what it could be, what it should be.",
+  "zh": "所以我们认为它不应该是现在这样，也就是说，它可能是什么，它应该是什么。"
+ },
+ {
+  "seg": 205,
+  "start": 889.723,
+  "end": 890.684,
+  "speaker": "Unknown",
+  "en": "Fully bi-directional.",
+  "zh": "完全双向。"
+ },
+ {
+  "seg": 206,
+  "start": 891.625,
+  "end": 892.286,
+  "speaker": "Unknown",
+  "en": "Edit both ways.",
+  "zh": "两个方向都能编辑。"
+ },
+ {
+  "seg": 207,
+  "start": 892.546,
+  "end": 893.027,
+  "speaker": "Unknown",
+  "en": "Lossless.",
+  "zh": "无损。"
+ },
+ {
+  "seg": 208,
+  "start": 893.794,
+  "end": 894.995,
+  "speaker": "Unknown",
+  "en": "All surface is preserved.",
+  "zh": "所有界面都被保留。"
+ },
+ {
+  "seg": 209,
+  "start": 895.095,
+  "end": 899.397,
+  "speaker": "Unknown",
+  "en": "So if you go from code to design and design to code, nothing's breaking weirdly for you.",
+  "zh": "所以如果你从代码到设计、再从设计到代码，不会有奇怪的东西坏掉。"
+ },
+ {
+  "seg": 210,
+  "start": 900.138,
+  "end": 901.118,
+  "speaker": "Unknown",
+  "en": "Provenance is carried.",
+  "zh": "溯源信息被携带。"
+ },
+ {
+  "seg": 211,
+  "start": 901.379,
+  "end": 902.579,
+  "speaker": "Unknown",
+  "en": "Where did this start from?",
+  "zh": "这个是从哪里开始的？"
+ },
+ {
+  "seg": 212,
+  "start": 903.4,
+  "end": 905.881,
+  "speaker": "Unknown",
+  "en": "What line of code wrote this button?",
+  "zh": "哪一行代码写出了这个按钮？"
+ },
+ {
+  "seg": 213,
+  "start": 907.542,
+  "end": 908.683,
+  "speaker": "Unknown",
+  "en": "I see this button in Figma.",
+  "zh": "我在 Figma 里看到这个按钮。"
+ },
+ {
+  "seg": 214,
+  "start": 908.803,
+  "end": 909.524,
+  "speaker": "Unknown",
+  "en": "I want to change it.",
+  "zh": "我想改它。"
+ },
+ {
+  "seg": 215,
+  "start": 910.104,
+  "end": 913.126,
+  "speaker": "Unknown",
+  "en": "I need to change that code, or somebody needs to change that code.",
+  "zh": "我需要改那段代码，或者有人需要改那段代码。"
+ },
+ {
+  "seg": 216,
+  "start": 913.886,
+  "end": 915.027,
+  "speaker": "Unknown",
+  "en": "We have to control the drift.",
+  "zh": "我们必须控制漂移。"
+ },
+ {
+  "seg": 217,
+  "start": 916.204,
+  "end": 918.826,
+  "speaker": "Unknown",
+  "en": "It's deterministic reconciliation at its core.",
+  "zh": "它的核心是确定性的调和。"
+ },
+ {
+  "seg": 218,
+  "start": 919.026,
+  "end": 928.254,
+  "speaker": "Unknown",
+  "en": "So with deterministic guardrails, and I'm happy to talk after if folks are interested in what I mean by that, accept or refuse.",
+  "zh": "所以借助确定性护栏——如果大家对我这个说法感兴趣，我很乐意会后聊聊——接受或拒绝。"
+ },
+ {
+  "seg": 219,
+  "start": 928.674,
+  "end": 931.656,
+  "speaker": "Unknown",
+  "en": "So if they know there's a fix, they will fix it.",
+  "zh": "所以如果它们知道有修复方案，它们会修复它。"
+ },
+ {
+  "seg": 220,
+  "start": 932.297,
+  "end": 937.281,
+  "speaker": "Unknown",
+  "en": "If they don't know there's a fix, they will tell you there's an issue, but you need to fix it.",
+  "zh": "如果它们不知道有修复方案，它们会告诉你这里有个问题，但需要你来修复。"
+ },
+ {
+  "seg": 221,
+  "start": 939.142,
+  "end": 941.304,
+  "speaker": "Unknown",
+  "en": "And with Ruby Weaver, there's zero extra token costs.",
+  "zh": "而且用 Ruby Weaver，没有任何额外的 token 成本。"
+ },
+ {
+  "seg": 222,
+  "start": 941.805,
+  "end": 943.386,
+  "speaker": "Unknown",
+  "en": "So we're fully local LLM.",
+  "zh": "所以我们完全是本地 LLM。"
+ },
+ {
+  "seg": 223,
+  "start": 944.322,
+  "end": 947.745,
+  "speaker": "Unknown",
+  "en": "But if you want to open up Claude or whatever and connect to us, you can.",
+  "zh": "但如果你想打开 Claude 或别的什么并连接到我们，你可以。"
+ },
+ {
+  "seg": 224,
+  "start": 948.545,
+  "end": 952.969,
+  "speaker": "Unknown",
+  "en": "But at its core, and our core principle is the human is in control, always.",
+  "zh": "但就核心而言，我们的核心原则是：人类始终掌控。"
+ },
+ {
+  "seg": 225,
+  "start": 954.009,
+  "end": 959.834,
+  "speaker": "Unknown",
+  "en": "In control of cost, in control of code, in control of design, because that's what we've been doing for decades.",
+  "zh": "掌控成本，掌控代码，掌控设计，因为这就是我们几十年来一直在做的事。"
+ },
+ {
+  "seg": 226,
+  "start": 961.175,
+  "end": 961.956,
+  "speaker": "Unknown",
+  "en": "We've been in control.",
+  "zh": "我们一直在掌控。"
+ },
+ {
+  "seg": 227,
+  "start": 962.896,
+  "end": 964.017,
+  "speaker": "Unknown",
+  "en": "We don't need to lose control.",
+  "zh": "我们不需要失去控制。"
+ },
+ {
+  "seg": 228,
+  "start": 964.598,
+  "end": 968.961,
+  "speaker": "Unknown",
+  "en": "And I'm not saying loop isn't good, but human in control is, I think, a little more aspirational.",
+  "zh": "我不是说 loop 不好，但人类掌控，我认为更有点理想主义的追求。"
+ },
+ {
+  "seg": 229,
+  "start": 970.102,
+  "end": 971.103,
+  "speaker": "Unknown",
+  "en": "Because at the end of the day,",
+  "zh": "因为归根结底，"
+ },
+ {
+  "seg": 230,
+  "start": 972.105,
+  "end": 974.586,
+  "speaker": "Unknown",
+  "en": "What you need is actually what you get.",
+  "zh": "你需要的，其实就是你得到的。"
+ },
+ {
+  "seg": 231,
+  "start": 975.707,
+  "end": 976.667,
+  "speaker": "Unknown",
+  "en": "I call it Winniwig.",
+  "zh": "我把它叫做 Winniwig。"
+ },
+ {
+  "seg": 232,
+  "start": 977.187,
+  "end": 977.788,
+  "speaker": "Unknown",
+  "en": "Can I use that?",
+  "zh": "我能用这个词吗？"
+ },
+ {
+  "seg": 233,
+  "start": 978.168,
+  "end": 978.608,
+  "speaker": "Unknown",
+  "en": "Winniwig?",
+  "zh": "Winniwig？"
+ },
+ {
+  "seg": 234,
+  "start": 980.629,
+  "end": 981.789,
+  "speaker": "Unknown",
+  "en": "So what are we building?",
+  "zh": "那么我们在构建什么？"
+ },
+ {
+  "seg": 235,
+  "start": 981.869,
+  "end": 987.092,
+  "speaker": "Unknown",
+  "en": "At its core, what we're building are nine dimensions of deterministic guardrails.",
+  "zh": "核心，我们在构建的是九个维度的确定性护栏。"
+ },
+ {
+  "seg": 236,
+  "start": 988.612,
+  "end": 996.416,
+  "speaker": "Unknown",
+  "en": "Inside of this is a lot of stuff, but these are our top-level software quality, software production readiness dimensions.",
+  "zh": "里面有很多东西，但这些是我们顶层上的软件质量、软件生产就绪度维度。"
+ },
+ {
+  "seg": 237,
+  "start": 997.363,
+  "end": 1004.688,
+  "speaker": "Unknown",
+  "en": "Design consistency being core, of course, and when you have a design system and the code is inconsistent with it and vice versa, we need to fix that.",
+  "zh": "设计一致性当然是核心，当你有一个设计系统，而代码与它不一致，或反过来，我们需要修复它。"
+ },
+ {
+  "seg": 238,
+  "start": 1004.748,
+  "end": 1009.671,
+  "speaker": "Unknown",
+  "en": "So there's a lot of design consistency work that's going into the foundation.",
+  "zh": "所以有很多设计一致性的工作正在进入这个基础。"
+ },
+ {
+  "seg": 239,
+  "start": 1010.591,
+  "end": 1012.733,
+  "speaker": "Unknown",
+  "en": "Accessibility is its own dimension.",
+  "zh": "无障碍性是它自己的一个维度。"
+ },
+ {
+  "seg": 240,
+  "start": 1013.693,
+  "end": 1016.195,
+  "speaker": "Unknown",
+  "en": "Maybe selfish of me, but I think it's core.",
+  "zh": "也许这有点自私,但我认为这是核心。"
+ },
+ {
+  "seg": 241,
+  "start": 1017.496,
+  "end": 1019.417,
+  "speaker": "Unknown",
+  "en": "AI code generation, too.",
+  "zh": "AI 代码生成也是。"
+ },
+ {
+  "seg": 242,
+  "start": 1020.337,
+  "end": 1027.181,
+  "speaker": "Unknown",
+  "en": "Or AI code, sorry, governance, AI code generation governance is another really critical piece because the code is just flying through the system.",
+  "zh": "AI 代码生成，也是。"
+ },
+ {
+  "seg": 243,
+  "start": 1028.022,
+  "end": 1029.342,
+  "speaker": "Unknown",
+  "en": "And we need to govern that code.",
+  "zh": "抱歉，是 AI 代码，治理，AI 代码生成治理是另一个非常关键的部分，因为代码正在系统里飞速穿梭。"
+ },
+ {
+  "seg": 244,
+  "start": 1029.422,
+  "end": 1031.324,
+  "speaker": "Unknown",
+  "en": "Now we're not gonna change the code.",
+  "zh": "我们需要治理那些代码。"
+ },
+ {
+  "seg": 245,
+  "start": 1031.844,
+  "end": 1033.145,
+  "speaker": "Unknown",
+  "en": "Reweaver actually doesn't write code.",
+  "zh": "现在我们不会去改代码。"
+ },
+ {
+  "seg": 246,
+  "start": 1033.225,
+  "end": 1033.905,
+  "speaker": "Unknown",
+  "en": "You write code.",
+  "zh": "Reweaver 实际上不写代码。"
+ },
+ {
+  "seg": 247,
+  "start": 1034.646,
+  "end": 1037.227,
+  "speaker": "Unknown",
+  "en": "Reweaver will do what you want it to do.",
+  "zh": "是你写代码。"
+ },
+ {
+  "seg": 248,
+  "start": 1037.367,
+  "end": 1040.789,
+  "speaker": "Unknown",
+  "en": "So if you say, apply the fix, it'll write the code for you.",
+  "zh": "Reweaver 会做你想让它做的事。"
+ },
+ {
+  "seg": 249,
+  "start": 1040.909,
+  "end": 1042.19,
+  "speaker": "Unknown",
+  "en": "You can see the code being written.",
+  "zh": "你可以看到代码正在被写出来。"
+ },
+ {
+  "seg": 250,
+  "start": 1042.49,
+  "end": 1043.711,
+  "speaker": "Unknown",
+  "en": "You can say, never mind, undo.",
+  "zh": "你可以说,算了,撤销。"
+ },
+ {
+  "seg": 251,
+  "start": 1044.452,
+  "end": 1045.052,
+  "speaker": "Unknown",
+  "en": "You can ignore it.",
+  "zh": "你可以忽略它。"
+ },
+ {
+  "seg": 252,
+  "start": 1046.321,
+  "end": 1050.764,
+  "speaker": "Unknown",
+  "en": "So, at the end of the day, catch what drifts in a closed loop before anything merges.",
+  "zh": "所以,归根结底,就是在一个闭环里,在任何东西合并之前抓住漂移的东西。"
+ },
+ {
+  "seg": 253,
+  "start": 1050.844,
+  "end": 1051.545,
+  "speaker": "Unknown",
+  "en": "That's the goal.",
+  "zh": "这就是目标。"
+ },
+ {
+  "seg": 254,
+  "start": 1053.166,
+  "end": 1055.728,
+  "speaker": "Unknown",
+  "en": "You can try it out with your own code today, right now.",
+  "zh": "你今天、现在就可以用自己的代码试一试。"
+ },
+ {
+  "seg": 255,
+  "start": 1056.068,
+  "end": 1063.954,
+  "speaker": "Unknown",
+  "en": "You can go to reweaver.ai slash playground, and we built kind of a similar harness to what I built there where you can put your AI-generated code.",
+  "zh": "你可以访问 reweaver.ai slash playground,我们搭建了一个和我在那边搭建的差不多的测试框架,你可以在那里放入你 AI 生成的代码。"
+ },
+ {
+  "seg": 256,
+  "start": 1064.752,
+  "end": 1069.954,
+  "speaker": "Unknown",
+  "en": "On the left, on the left, you can scan it and get your results for that code.",
+  "zh": "在左边,在左边,你可以扫描它,并得到那段代码的结果。"
+ },
+ {
+  "seg": 257,
+  "start": 1070.454,
+  "end": 1073.135,
+  "speaker": "Unknown",
+  "en": "There's also a fun little challenge on that page.",
+  "zh": "那个页面上还有一个小挑战。"
+ },
+ {
+  "seg": 258,
+  "start": 1073.676,
+  "end": 1085.96,
+  "speaker": "Unknown",
+  "en": "If you can get AI to generate code that gives you a score lower than .30 PDR, which is production drift ratio, will get you a frontline seat on the beta.",
+  "zh": "如果你能让 AI 生成出 PDR(即 production drift ratio,生产漂移比)得分低于 .30 的代码,你就能获得 beta 的前排席位。"
+ },
+ {
+  "seg": 259,
+  "start": 1087.001,
+  "end": 1089.902,
+  "speaker": "Unknown",
+  "en": "But you'll also get yourself showcased at the bottom on the crawl, so.",
+  "zh": "而且你还会在底部的 crawl 上获得展示,所以。"
+ },
+ {
+  "seg": 260,
+  "start": 1090.602,
+  "end": 1091.703,
+  "speaker": "Unknown",
+  "en": "Give it a shot, take a look.",
+  "zh": "试一试,看一看。"
+ },
+ {
+  "seg": 261,
+  "start": 1093.269,
+  "end": 1095.351,
+  "speaker": "Unknown",
+  "en": "Meanwhile, I'm looking for people to join our beta.",
+  "zh": "同时,我在寻找加入我们 beta 的人。"
+ },
+ {
+  "seg": 262,
+  "start": 1095.471,
+  "end": 1099.275,
+  "speaker": "Unknown",
+  "en": "We're gonna basically blast out mid-July, hopefully.",
+  "zh": "我们基本上打算在七月中旬放出,希望如此。"
+ },
+ {
+  "seg": 263,
+  "start": 1101.197,
+  "end": 1107.303,
+  "speaker": "Unknown",
+  "en": "So, would love for you to join if you're interested, to make the product better, to sanity check us.",
+  "zh": "所以,如果你有兴趣,非常欢迎你加入,帮助把产品做得更好,帮我们做合理性检验。"
+ },
+ {
+  "seg": 264,
+  "start": 1108.584,
+  "end": 1109.285,
+  "speaker": "Unknown",
+  "en": "Basically, that's it.",
+  "zh": "基本上就是这些。"
+ },
+ {
+  "seg": 265,
+  "start": 1109.545,
+  "end": 1112.528,
+  "speaker": "Unknown",
+  "en": "And you can also reach me online or outside.",
+  "zh": "你也可以在线上或线下联系我。"
+ },
+ {
+  "seg": 266,
+  "start": 1112.829,
+  "end": 1113.529,
+  "speaker": "Unknown",
+  "en": "Happy to talk more.",
+  "zh": "很乐意多聊。"
+ },
+ {
+  "seg": 267,
+  "start": 1114.63,
+  "end": 1114.951,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

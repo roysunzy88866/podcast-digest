@@ -43,9 +43,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[NVIDIA]] · [[后训练]] · [[Redwood Research]] · [[ChatGPT]] · [[Hugging Face]] · [[GPU]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理能力]] · [[NVIDIA]] · [[后训练]] · [[Redwood Research]] · [[ChatGPT]] · [[Hugging Face]] · [[GPU]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":102,"Anthropic":115,"推理":5,"NVIDIA":33,"后训练":1,"Redwood Research":3,"ChatGPT":57,"Hugging Face":20,"GPU":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":219,"OpenAI":102,"Anthropic":115,"推理能力":5,"NVIDIA":33,"后训练":20,"Redwood Research":3,"ChatGPT":59,"Hugging Face":20,"GPU":16}</script>
 
 <script>
 (function(){

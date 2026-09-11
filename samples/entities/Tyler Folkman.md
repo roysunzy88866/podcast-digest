@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maximillian Piras]] [[Roman Ugarte]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]]
+[[Maximillian Piras]] [[Vincent Wendy]] [[Roman Ugarte]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":54,"Herder":1,"循环":1,"智能体":1,"技能":13,"闸门":1,"原型":4,"钩子":1,"构建者":3}</script>
+<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":55,"Herder":1,"循环":7,"智能体":219,"技能":13,"闸门":1,"原型":4,"钩子":1,"构建者":3}</script>
 
 <script>
 (function(){

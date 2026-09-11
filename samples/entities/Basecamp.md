@@ -27,7 +27,7 @@ unlisted: true
 
 [[Kimberly]] · [[Jason]] · [[David]] · [[37Signals]] · [[客户反馈]] · [[入职引导]] · [[路线图]] · [[画中画导览]] · [[共识错觉]] · [[引导漂移]]
 
-<script type="application/json" class="pd-epn">{"Kimberly":3,"Jason":3,"David":3,"37Signals":4,"客户反馈":2,"入职引导":2,"路线图":1,"画中画导览":1,"共识错觉":1,"引导漂移":2}</script>
+<script type="application/json" class="pd-epn">{"Kimberly":3,"Jason":3,"David":3,"37Signals":4,"客户反馈":2,"入职引导":2,"路线图":1,"画中画导览":1,"共识错觉":1,"引导漂移":3}</script>
 
 <script>
 (function(){

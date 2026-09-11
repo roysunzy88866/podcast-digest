@@ -7,41 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>个人 AGI (personal AGI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="个人 AGI">个人</div><div class="pi"><h1 class="pt">个人 AGI (personal AGI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="个人 AGI">个人</div><div class="pi"><h1 class="pt">个人 AGI (personal AGI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]]**(06:08起):本集将个人 AGI 定义为在你的基础设施上运行、从你拥有的记忆中读取、执行你写的流程并每天复利增长的智能体，区别于租用的公司 AGI
-
-## ① 提到它的金句
-
-*13 条*
-
-![[2025-06-22-lennys-the-quiet-architect-peter-deng#^q3]]
-
-![[2025-07-17-lennys-inside-every-dan-shipper#^q4]]
-
-![[2025-11-16-lennys-the-godmother-of-ai#^q2]]
-
-![[2026-04-05-lennys-anthropics-1b-to-19b-growth-run#^q4]]
-
-![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q5]]
-
-![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q6]]
-
-![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q8]]
-
-![[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto#^q6]]
-
-![[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy#^q3]]
-
-![[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1#^q6]]
-
-![[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau#^q7]]
-
-![[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran#^q6]]
-
-![[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr#^q17]]
 
 ## ② 出现在这些集
 
@@ -55,7 +25,7 @@ unlisted: true
 
 [[Garry Tan]] · [[智能体]] · [[技能文件]] · [[上下文]] · [[Latent Space]] · [[确定性空间]] · [[工作记忆]] · [[OpenClaw]] · [[Claude Code]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"Garry Tan":2,"智能体":1,"技能文件":2,"上下文":15,"Latent Space":2,"确定性空间":2,"工作记忆":2,"OpenClaw":16,"Claude Code":53,"Codex":44}</script>
+<script type="application/json" class="pd-epn">{"Garry Tan":2,"智能体":219,"技能文件":3,"上下文":15,"Latent Space":2,"确定性空间":2,"工作记忆":2,"OpenClaw":16,"Claude Code":55,"Codex":44}</script>
 
 <script>
 (function(){

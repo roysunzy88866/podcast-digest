@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":1,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":17,"OpenAI":102,"Anthropic":115}</script>
+<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":219,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":17,"OpenAI":102,"Anthropic":115}</script>
 
 <script>
 (function(){

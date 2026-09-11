@@ -29,9 +29,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Simon Maple]] · [[智能体]] · [[Guy Fajani]] · [[Guy Pajani]] · [[循环工程]] · [[暗工厂]] · [[技能]] · [[上下文]] · [[验证器]] · [[可观测性]]
+[[Simon Maple]] · [[智能体]] · [[验证器]] · [[Guy Fajani]] · [[Guy Pajani]] · [[循环工程]] · [[暗工厂]] · [[技能]] · [[上下文]] · [[软件工厂]]
 
-<script type="application/json" class="pd-epn">{"Simon Maple":8,"智能体":1,"Guy Fajani":3,"Guy Pajani":3,"循环工程":4,"暗工厂":2,"技能":13,"上下文":15,"验证器":1,"可观测性":19}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":8,"智能体":219,"验证器":5,"Guy Fajani":3,"Guy Pajani":3,"循环工程":4,"暗工厂":2,"技能":13,"上下文":15,"软件工厂":5}</script>
 
 <script>
 (function(){

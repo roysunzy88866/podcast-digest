@@ -48,9 +48,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Chris Benson]] · [[护栏]] · [[智能体]] · [[Anthropic]] · [[Claude Code]] · [[提示词注入]] · [[OpenAI]] · [[Hugging Face]] · [[MCP]] · [[爆炸半径]]
+[[Chris Benson]] · [[智能体]] · [[护栏]] · [[Anthropic]] · [[开源模型]] · [[提示词注入]] · [[OpenAI]] · [[Hugging Face]] · [[Claude Code]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"Chris Benson":7,"护栏":2,"智能体":1,"Anthropic":115,"Claude Code":53,"提示词注入":11,"OpenAI":102,"Hugging Face":20,"MCP":34,"爆炸半径":3}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":7,"智能体":219,"护栏":43,"Anthropic":115,"开源模型":16,"提示词注入":11,"OpenAI":102,"Hugging Face":20,"Claude Code":55,"MCP":35}</script>
 
 <script>
 (function(){

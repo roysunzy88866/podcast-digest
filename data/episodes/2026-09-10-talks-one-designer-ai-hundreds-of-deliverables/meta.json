@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-10-talks-one-designer-ai-hundreds-of-deliverables",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/O1FN4awNEtM.m4a",
+  "duration_sec": 998.142,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 196,
+  "asr": true,
+  "title_en": "One Designer + AI. Hundreds of Deliverables. — Vincent Wendy, AI Engineer",
+  "podcast": "精选演讲",
+  "date": "2026-09-10",
+  "added": "2026-09-12",
+  "added_at": "2026-09-11T20:25:24.538Z",
+  "speaker_map": {
+    "SPEAKER_00": "Vincent Wendy"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Vincent Wendy"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "一个设计师 + AI：如何撑起 7000 人大会的全部设计",
+  "guest_name": "Vincent Wendy",
+  "guest_title": "AI Engineer 高级创意设计师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

@@ -139,7 +139,7 @@ Srini 选 [[Cursor|Cursor]]（一个 AI 加持的集成开发环境）做这一�
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同公司:Figma · 同概念:Figma Make、产品构建者 (product builder)、MCP</span>
 - [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具]]<span class="pd-rz">同公司:Cursor、Figma · 同概念:智能体 (agent)</span>
-- [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料]]<span class="pd-rz">同公司:Figma · 同概念:智能体 (agent)、MCP</span>
+- [[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|一个设计师 + AI：如何撑起 7000 人大会的全部设计]]<span class="pd-rz">同公司:Figma · 同概念:设计系统 (design system)、LLM、MCP</span>
 
 </div>
 <div class="pd-ex">

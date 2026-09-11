@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeremiah Lowin]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]]
+[[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":8,"Simon Boudrien":1,"Datadog":7,"智能体":1,"评估":24,"上下文":15,"Cursor":54,"开源权重模型":1,"代码审查":2,"OpenClaw":16}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":8,"Simon Boudrien":1,"Datadog":7,"智能体":219,"评估":24,"上下文":15,"Cursor":55,"开源权重模型":1,"代码审查":10,"OpenClaw":16}</script>
 
 <script>
 (function(){

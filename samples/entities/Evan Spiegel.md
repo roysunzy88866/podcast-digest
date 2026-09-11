@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maximillian Piras]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]]
+[[Maximillian Piras]] [[Vincent Wendy]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Snap":1,"Snapchat":2,"Spectacles":1,"Specs":1,"Glean":1,"分发":5,"护城河":9,"网络效应":5,"增强现实":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Snap":1,"Snapchat":2,"Spectacles":1,"Specs":1,"Glean":1,"分发":5,"护城河":9,"网络效应":8,"增强现实":1}</script>
 
 <script>
 (function(){

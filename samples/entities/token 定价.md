@@ -7,63 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>token 定价 (token pricing)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="token 定价">TO</div><div class="pi"><h1 class="pt">token 定价 (token pricing)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>24</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="token 定价">TO</div><div class="pi"><h1 class="pt">token 定价 (token pricing)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|《Benedict Evans:AI 价值会落在哪一层?》]]**(03:52起):本集说 Evans 写 token 定价的文章时并列拆解半导体、移动、光纤、操作系统各自的规律——类比没有预测力,但能告诉你该看什么;并讨论价格崩塌与帕累托曲线上各位置的 ROI。
-
-## ① 提到它的金句
-
-*24 条*
-
-![[2026-02-19-lennys-head-of-claude-code-what-happens#^q12]]
-
-![[2026-05-03-lennys-why-cultivating-agency-matters-more#^q7]]
-
-![[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers#^q3]]
-
-![[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b#^q1]]
-
-![[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued#^q2]]
-
-![[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark#^q8]]
-
-![[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge#^q1]]
-
-![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q9]]
-
-![[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int#^q5]]
-
-![[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int#^q7]]
-
-![[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int#^q17]]
-
-![[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit#^q2]]
-
-![[2026-08-08-talks-realtime-multiplayer-automation-and-you#^q1]]
-
-![[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si#^q2]]
-
-![[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe#^q8]]
-
-![[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin#^q5]]
-
-![[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n#^q4]]
-
-![[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi#^q7]]
-
-![[2026-08-29-yc-max-junestrand-you-need-the-willingness#^q11]]
-
-![[2026-09-04-a16z-fei-fei-li-the-race-to-build-world-model#^q5]]
-
-![[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t#^q5]]
-
-![[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read#^q1]]
-
-![[2026-09-10-talks-mousepower-agents-that-can-t-be-measured#^q3]]
-
-![[2026-singju-openclaw-80apps#^q2]]
 
 ## ② 出现在这些集
 
@@ -77,7 +25,7 @@ unlisted: true
 
 [[Jacob Efron]] · [[Benedict Evans]] · [[OpenAI]] · [[Anthropic]] · [[LLM]] · [[基础模型]] · [[AI 编程]] · [[算力扩展]] · [[网络效应]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"Jacob Efron":1,"Benedict Evans":2,"OpenAI":102,"Anthropic":115,"LLM":29,"基础模型":1,"AI 编程":1,"算力扩展":1,"网络效应":5,"AGI":20}</script>
+<script type="application/json" class="pd-epn">{"Jacob Efron":1,"Benedict Evans":2,"OpenAI":102,"Anthropic":115,"LLM":31,"基础模型":5,"AI 编程":4,"算力扩展":1,"网络效应":8,"AGI":20}</script>
 
 <script>
 (function(){

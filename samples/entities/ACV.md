@@ -29,7 +29,7 @@ unlisted: true
 
 [[PLG]] · [[Cursor]] · [[Anthropic]] · [[Jen Abel]] · [[Ben Rudolph]] · [[Elena Berger]] · [[Lenny]] · [[Peregrine]] · [[Joe Schmidt]] · [[企业销售]]
 
-<script type="application/json" class="pd-epn">{"PLG":8,"Cursor":54,"Anthropic":115,"Jen Abel":1,"Ben Rudolph":2,"Elena Berger":3,"Lenny":67,"Peregrine":2,"Joe Schmidt":1,"企业销售":3}</script>
+<script type="application/json" class="pd-epn">{"PLG":8,"Cursor":55,"Anthropic":115,"Jen Abel":1,"Ben Rudolph":2,"Elena Berger":3,"Lenny":67,"Peregrine":2,"Joe Schmidt":1,"企业销售":3}</script>
 
 <script>
 (function(){

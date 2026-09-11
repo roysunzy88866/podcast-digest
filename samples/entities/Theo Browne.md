@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeremiah Lowin]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]]
+[[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sonnet 3.5":1,"Opus 4.5":1,"Mythos":3,"编排":4,"拟物化":1,"沉没成本心态":1,"AWS":10,"Vercel":13,"Reddit":4,"Slack":24}</script>
+<script type="application/json" class="pd-epn">{"Sonnet 3.5":1,"Opus 4.5":1,"Mythos":3,"编排":4,"拟物化":1,"沉没成本心态":1,"AWS":10,"Vercel":13,"Reddit":4,"Slack":25}</script>
 
 <script>
 (function(){

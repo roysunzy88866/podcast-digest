@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Maor Shlomo]] · [[Base44]] · [[Wix]] · [[Lovable]] · [[Bolt]] · [[Replit]] · [[Vercel]] · [[Cursor]] · [[MongoDB]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Maor Shlomo":1,"Base44":3,"Wix":3,"Lovable":15,"Bolt":3,"Replit":15,"Vercel":13,"Cursor":54,"MongoDB":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Maor Shlomo":1,"Base44":3,"Wix":3,"Lovable":15,"Bolt":3,"Replit":16,"Vercel":13,"Cursor":55,"MongoDB":4}</script>
 
 <script>
 (function(){

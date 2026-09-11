@@ -31,9 +31,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Redwood Research]] · [[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[RL]] · [[沙箱]] · [[Theo Jaffe]] · [[Ajaya Khatra]] · [[Ryan Greenblatt]] · [[Modal]]
+[[Redwood Research]] · [[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[奖励黑客]] · [[RL]] · [[沙箱]] · [[Theo Jaffe]] · [[Ajaya Khatra]] · [[Ryan Greenblatt]]
 
-<script type="application/json" class="pd-epn">{"Redwood Research":3,"OpenAI":102,"Hugging Face":20,"智能体":1,"RL":7,"沙箱":41,"Theo Jaffe":6,"Ajaya Khatra":1,"Ryan Greenblatt":2,"Modal":6}</script>
+<script type="application/json" class="pd-epn">{"Redwood Research":3,"OpenAI":102,"Hugging Face":20,"智能体":219,"奖励黑客":4,"RL":7,"沙箱":41,"Theo Jaffe":6,"Ajaya Khatra":1,"Ryan Greenblatt":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-10-talks-the-design-code-roundtrip-that-isn-t-jon",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/NW-jwOVr32w.m4a",
+  "duration_sec": 1114.951,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 268,
+  "asr": true,
+  "title_en": "The Design-Code Roundtrip That Isn't — Jonathan Gordon, ReWeaver AI",
+  "podcast": "精选演讲",
+  "date": "2026-09-10",
+  "added": "2026-09-12",
+  "added_at": "2026-09-11T19:50:26.494Z",
+  "speaker_map": {
+    "SPEAKER_00": "Jonathan Gordon"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Jonathan Gordon"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "设计-代码往返并不存在：一位 30 年老兵的实测与漂移警告",
+  "guest_name": "Jonathan Gordon",
+  "guest_title": "ReWeaver AI 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

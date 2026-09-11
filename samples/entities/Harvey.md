@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[前沿模型]] · [[推理]] · [[微调]] · [[Sierra]] · [[ChatGPT]] · [[PLG]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":54,"OpenAI":102,"Anthropic":115,"前沿模型":8,"推理":5,"微调":1,"Sierra":5,"ChatGPT":57,"PLG":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":219,"Cursor":55,"OpenAI":102,"Anthropic":115,"前沿模型":15,"推理":42,"微调":15,"Sierra":5,"ChatGPT":59,"PLG":8}</script>
 
 <script>
 (function(){

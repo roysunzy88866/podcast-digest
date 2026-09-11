@@ -84,7 +84,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Robert Hackett":1,"AI":16,"清晰法案":1,"生产力增长":1,"稳定币":2,"一对一辅导":1,"加密货币":2,"超级赋能个体":1,"区块链":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Robert Hackett":1,"AI":16,"清晰法案":1,"生产力增长":1,"稳定币":4,"一对一辅导":1,"加密货币":2,"超级赋能个体":1,"区块链":2}</script>
 
 <script>
 (function(){

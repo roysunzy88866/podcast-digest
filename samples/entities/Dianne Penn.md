@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maximillian Piras]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]]
+[[Maximillian Piras]] [[Vincent Wendy]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Anthropic":115,"OpenAI":102,"Claude":54,"Claude Code":53,"评估":24,"涌现能力":1,"金门大桥版 Claude":1,"前沿模型":8,"技能":13}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Anthropic":115,"OpenAI":102,"Claude":55,"Claude Code":55,"评估":24,"涌现能力":1,"金门大桥版 Claude":1,"前沿模型":15,"技能":13}</script>
 
 <script>
 (function(){

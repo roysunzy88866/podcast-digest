@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Microsoft":24,"智能体":1,"智能体网络":2,"MCP":34,"缩放定律":1,"康威定律":1}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":24,"智能体":219,"智能体网络":2,"MCP":35,"缩放定律":6,"康威定律":2}</script>
 
 <script>
 (function(){

@@ -31,9 +31,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude Code]] · [[harness]] · [[Anthropic]] · [[Deep Agents]] · [[LangChain]] · [[护栏]] · [[中间件]] · [[文件系统]] · [[Brendan McManus]]
+[[智能体]] · [[Claude Code]] · [[harness]] · [[Anthropic]] · [[子智能体]] · [[Deep Agents]] · [[LangChain]] · [[护栏]] · [[中间件]] · [[文件系统]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":53,"harness":26,"Anthropic":115,"Deep Agents":3,"LangChain":5,"护栏":2,"中间件":2,"文件系统":3,"Brendan McManus":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":219,"Claude Code":55,"harness":27,"Anthropic":115,"子智能体":6,"Deep Agents":3,"LangChain":5,"护栏":43,"中间件":2,"文件系统":3}</script>
 
 <script>
 (function(){

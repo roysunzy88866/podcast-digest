@@ -1,0 +1,1570 @@
+[
+ {
+  "seg": 0,
+  "start": 12.595,
+  "end": 12.996,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 14.838,
+  "end": 15.359,
+  "speaker": "Unknown",
+  "en": "Hello, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 2,
+  "start": 15.819,
+  "end": 17.482,
+  "speaker": "Unknown",
+  "en": "Hope you guys are having a good time at the conference.",
+  "zh": "希望大家在这次大会上玩得开心。"
+ },
+ {
+  "seg": 3,
+  "start": 18.483,
+  "end": 24.171,
+  "speaker": "Unknown",
+  "en": "So before we start, how many of you are actually designers, like a product designer?",
+  "zh": "在开始之前，在座有多少人是设计师，比如产品设计师？"
+ },
+ {
+  "seg": 4,
+  "start": 24.191,
+  "end": 26.294,
+  "speaker": "Unknown",
+  "en": "Hey, one hands and other.",
+  "zh": "嘿，有一个人举手了，还有别的。"
+ },
+ {
+  "seg": 5,
+  "start": 26.714,
+  "end": 26.914,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 6,
+  "start": 28.659,
+  "end": 32.022,
+  "speaker": "Unknown",
+  "en": "And how many, I assume that the rest of you are engineers?",
+  "zh": "那有多少人——我猜剩下的都是工程师？"
+ },
+ {
+  "seg": 7,
+  "start": 32.663,
+  "end": 33.124,
+  "speaker": "Unknown",
+  "en": "Is that correct?",
+  "zh": "对吗？"
+ },
+ {
+  "seg": 8,
+  "start": 33.584,
+  "end": 34.445,
+  "speaker": "Unknown",
+  "en": "Yeah, pretty much.",
+  "zh": "是的，差不多。"
+ },
+ {
+  "seg": 9,
+  "start": 34.525,
+  "end": 34.805,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 10,
+  "start": 35.506,
+  "end": 50.401,
+  "speaker": "Unknown",
+  "en": "So today's talk is a non-technical talk, but more of a real-world experience, how I created the design for AI engineer, this conference, and our other past conference as well, and how AI has helped me.",
+  "zh": "所以今天的演讲不是技术演讲，更多是真实世界的经验分享：我是如何为 AI Engineer 这个大会以及我们过去的大会做设计的，以及 AI 是如何帮助我的。"
+ },
+ {
+  "seg": 11,
+  "start": 51.221,
+  "end": 52.322,
+  "speaker": "Unknown",
+  "en": "And so the talk",
+  "zh": "所以这场演讲"
+ },
+ {
+  "seg": 12,
+  "start": 53.325,
+  "end": 59.429,
+  "speaker": "Unknown",
+  "en": "Today is one designer plus AI, which is me as the designer, and hundreds of deliverables.",
+  "zh": "今天是一个设计师加 AI——也就是我作为设计师——加上数百个交付物。"
+ },
+ {
+  "seg": 13,
+  "start": 60.429,
+  "end": 61.13,
+  "speaker": "Unknown",
+  "en": "All right, let's start.",
+  "zh": "好，我们开始。"
+ },
+ {
+  "seg": 14,
+  "start": 62.15,
+  "end": 63.411,
+  "speaker": "Unknown",
+  "en": "So my name is Vincent Wendy.",
+  "zh": "我叫 Vincent Wendy。"
+ },
+ {
+  "seg": 15,
+  "start": 63.671,
+  "end": 66.653,
+  "speaker": "Unknown",
+  "en": "I am a senior creative designer at AI Engineer.",
+  "zh": "我是 AI Engineer 的高级创意设计师。"
+ },
+ {
+  "seg": 16,
+  "start": 67.834,
+  "end": 70.936,
+  "speaker": "Unknown",
+  "en": "And at AI Engineer, it's a very small team.",
+  "zh": "在 AI Engineer，这是一个非常小的团队。"
+ },
+ {
+  "seg": 17,
+  "start": 71.076,
+  "end": 75.679,
+  "speaker": "Unknown",
+  "en": "So we only have around 12 people to 15 people at the moment.",
+  "zh": "我们目前只有大约 12 到 15 个人。"
+ },
+ {
+  "seg": 18,
+  "start": 76.359,
+  "end": 79.921,
+  "speaker": "Unknown",
+  "en": "And everyone has been doing their own thing.",
+  "zh": "每个人都在做自己的事情。"
+ },
+ {
+  "seg": 19,
+  "start": 81.746,
+  "end": 88.689,
+  "speaker": "Unknown",
+  "en": "I think AI has been a really helpful way to helping everybody doing everything.",
+  "zh": "我觉得 AI 一直是帮助每个人完成所有工作的非常有用的方式。"
+ },
+ {
+  "seg": 20,
+  "start": 89.469,
+  "end": 95.152,
+  "speaker": "Unknown",
+  "en": "And even at this scale, we have a problem, obviously.",
+  "zh": "即便在这个规模下，我们显然也有问题。"
+ },
+ {
+  "seg": 21,
+  "start": 95.932,
+  "end": 99.714,
+  "speaker": "Unknown",
+  "en": "And the problem is the scale problem, or I would call the challenges.",
+  "zh": "而这个问题就是规模问题，或者我称之为挑战。"
+ },
+ {
+  "seg": 22,
+  "start": 100.695,
+  "end": 102.215,
+  "speaker": "Unknown",
+  "en": "And how to overcome it?",
+  "zh": "如何克服它？"
+ },
+ {
+  "seg": 23,
+  "start": 103.316,
+  "end": 106.077,
+  "speaker": "Unknown",
+  "en": "It's basically automation.",
+  "zh": "基本上就是自动化。"
+ },
+ {
+  "seg": 24,
+  "start": 106.097,
+  "end": 108.958,
+  "speaker": "Unknown",
+  "en": "And we get to that in the later part of this talk.",
+  "zh": "我们会在这次演讲的后面部分讲到。"
+ },
+ {
+  "seg": 25,
+  "start": 112.506,
+  "end": 117.447,
+  "speaker": "Unknown",
+  "en": "When I prepared this talk, we only expected 6,000 attendees, and now it's 7,000.",
+  "zh": "当我准备这场演讲时，我们只预计有 6,000 名参会者，现在是 7,000。"
+ },
+ {
+  "seg": 26,
+  "start": 117.768,
+  "end": 119.168,
+  "speaker": "Unknown",
+  "en": "Well, good for us.",
+  "zh": "嗯，这对我们是好事。"
+ },
+ {
+  "seg": 27,
+  "start": 120.288,
+  "end": 130.351,
+  "speaker": "Unknown",
+  "en": "And then we have 140 sponsors, more, 140-plus sponsors, and then 300-plus speakers, 600-plus sessions, and one designer.",
+  "zh": "然后我们有 140 个赞助商，更多，140 多个赞助商，然后是 300 多位演讲者，600 多场议程，以及一个设计师。"
+ },
+ {
+  "seg": 28,
+  "start": 132.012,
+  "end": 135.673,
+  "speaker": "Unknown",
+  "en": "And everybody needs every design, right?",
+  "zh": "而每个人都需要每一种设计，对吧？"
+ },
+ {
+  "seg": 29,
+  "start": 135.853,
+  "end": 137.493,
+  "speaker": "Unknown",
+  "en": "Like, every single thing needs design.",
+  "zh": "就像，每一样东西都需要设计。"
+ },
+ {
+  "seg": 30,
+  "start": 138.153,
+  "end": 139.914,
+  "speaker": "Unknown",
+  "en": "Sponsor needs assets, speaker needs graphics.",
+  "zh": "赞助商需要素材，演讲者需要图形。"
+ },
+ {
+  "seg": 31,
+  "start": 141.045,
+  "end": 142.747,
+  "speaker": "Unknown",
+  "en": "You need signage so you don't get lost.",
+  "zh": "你需要指示牌才不会迷路。"
+ },
+ {
+  "seg": 32,
+  "start": 143.668,
+  "end": 147.853,
+  "speaker": "Unknown",
+  "en": "And this is basically what we do, what I do.",
+  "zh": "这基本上就是我们做的，我所做的。"
+ },
+ {
+  "seg": 33,
+  "start": 148.995,
+  "end": 151.778,
+  "speaker": "Unknown",
+  "en": "So from stickers, do you like your swag, your stickers?",
+  "zh": "所以从贴纸开始——你们喜欢你们的周边、你们的贴纸吗？"
+ },
+ {
+  "seg": 34,
+  "start": 152.839,
+  "end": 155.643,
+  "speaker": "Unknown",
+  "en": "Well, I hope you do, because I create that design too.",
+  "zh": "嗯，我希望你们喜欢，因为那些设计也是我做的。"
+ },
+ {
+  "seg": 35,
+  "start": 157.292,
+  "end": 172.4,
+  "speaker": "Unknown",
+  "en": "To a landing page, speaker announcement, track mascot, all the stuff that you see, most of the stuff that you see here from a signage to a digital signage, landing page, everything is a deliverable.",
+  "zh": "再到落地页、演讲者公告、赛道吉祥物，你们在这里看到的所有东西——从指示牌到数字指示牌、落地页，一切——大部分你在这里看到的东西都是交付物。"
+ },
+ {
+  "seg": 36,
+  "start": 173.3,
+  "end": 178.623,
+  "speaker": "Unknown",
+  "en": "And 1,000 details means 1,000 ways to fail, right?",
+  "zh": "而 1,000 个细节就意味着 1,000 种失败的方式，对吧？"
+ },
+ {
+  "seg": 37,
+  "start": 181.947,
+  "end": 184.128,
+  "speaker": "Unknown",
+  "en": "A missing sponsor logos is going to be a huge issue.",
+  "zh": "缺了一个赞助商 logo 会是个大问题。"
+ },
+ {
+  "seg": 38,
+  "start": 184.768,
+  "end": 189.269,
+  "speaker": "Unknown",
+  "en": "And speakers that have a wrong schedule also a huge issue, right?",
+  "zh": "演讲者的日程错了也是个大问题，对吧？"
+ },
+ {
+  "seg": 39,
+  "start": 190.069,
+  "end": 196.831,
+  "speaker": "Unknown",
+  "en": "And it seems impossible to handle that many kind of deliverables, but yeah, meet my design team.",
+  "zh": "处理这么多类型的交付物看起来不可能，但是，介绍一下我的设计团队。"
+ },
+ {
+  "seg": 40,
+  "start": 197.791,
+  "end": 203.113,
+  "speaker": "Unknown",
+  "en": "So it's me and Devin, GPT, and Figma.",
+  "zh": "就是我，加上 Devin、GPT 和 Figma。"
+ },
+ {
+  "seg": 41,
+  "start": 206.89,
+  "end": 214.193,
+  "speaker": "Unknown",
+  "en": "And right now, we are at the stage where tools isn't the, like, it's not a problem anymore, but having a real problem is our advantage.",
+  "zh": "而现在，我们处于这样一个阶段：工具不再是问题了，反而拥有真实的问题成了我们的优势。"
+ },
+ {
+  "seg": 42,
+  "start": 215.093,
+  "end": 221.156,
+  "speaker": "Unknown",
+  "en": "So, for example, when someone asked me, what inspired you when designing in AI Engineer?",
+  "zh": "比如，当有人问我，你在设计 AI Engineer 时灵感来自哪里？"
+ },
+ {
+  "seg": 43,
+  "start": 221.916,
+  "end": 229.639,
+  "speaker": "Unknown",
+  "en": "I don't know the answer back then, but after I think about it, it's actually a problem that inspired me to, like, designing in this AI Engineer.",
+  "zh": "我当时不知道答案，但后来我想了想，其实是一个问题激发了我对 AI Engineer 的设计。"
+ },
+ {
+  "seg": 44,
+  "start": 229.859,
+  "end": 233.36,
+  "speaker": "Unknown",
+  "en": "And we'll get to that in the later part of this talk.",
+  "zh": "我们会在这次演讲的后面部分讲到。"
+ },
+ {
+  "seg": 45,
+  "start": 236.082,
+  "end": 239.746,
+  "speaker": "Unknown",
+  "en": "Have you guys seen the talk by Simon Wilson, like in 2025?",
+  "zh": "你们看过 Simon Wilson 在 2025 年左右的那场演讲吗？"
+ },
+ {
+  "seg": 46,
+  "start": 239.786,
+  "end": 240.026,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "看过。"
+ },
+ {
+  "seg": 47,
+  "start": 242.269,
+  "end": 242.469,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 48,
+  "start": 242.789,
+  "end": 244.091,
+  "speaker": "Unknown",
+  "en": "And it's pretty interesting, right?",
+  "zh": "那挺有意思的，对吧？"
+ },
+ {
+  "seg": 49,
+  "start": 244.651,
+  "end": 253.801,
+  "speaker": "Unknown",
+  "en": "He asked every LLM to create a vector file, which is basically a pelican riding a bicycle.",
+  "zh": "他让每一个 LLM 去创建一个矢量文件，基本上就是一只鹈鹕骑自行车。"
+ },
+ {
+  "seg": 50,
+  "start": 254.945,
+  "end": 260.45,
+  "speaker": "Unknown",
+  "en": "And it is basically to test, and I test it again, and it's still doing this for the basic model.",
+  "zh": "基本上就是去测试，我又测试了一次，基础模型仍然出现这种情况。"
+ },
+ {
+  "seg": 51,
+  "start": 261.151,
+  "end": 263.433,
+  "speaker": "Unknown",
+  "en": "And it's not usable for me as a designer.",
+  "zh": "作为设计师，这对我来说没法用。"
+ },
+ {
+  "seg": 52,
+  "start": 263.733,
+  "end": 266.615,
+  "speaker": "Unknown",
+  "en": "But as a designer, we have to think outside the box.",
+  "zh": "但作为设计师，我们必须跳出固有思维。"
+ },
+ {
+  "seg": 53,
+  "start": 267.576,
+  "end": 275.443,
+  "speaker": "Unknown",
+  "en": "And we could simply ask ChatGPT, create a stale image like a PNG for a pelican riding a bicycle, and then I can factorize it on Figma.",
+  "zh": "我们可以简单地问 ChatGPT,创建一张静态图片，比如一个 PNG,内容是一只骑自行车的鹈鹕，然后我可以在 Figma 上把它矢量化。"
+ },
+ {
+  "seg": 54,
+  "start": 276.544,
+  "end": 277.585,
+  "speaker": "Unknown",
+  "en": "And we can ship that now.",
+  "zh": "现在我们就能把它发布出去了。"
+ },
+ {
+  "seg": 55,
+  "start": 278.646,
+  "end": 280.848,
+  "speaker": "Unknown",
+  "en": "So we have to think outside the box here.",
+  "zh": "所以在这里我们必须跳出固有思维。"
+ },
+ {
+  "seg": 56,
+  "start": 282.089,
+  "end": 284.31,
+  "speaker": "Unknown",
+  "en": "Regardless the capabilities of the LLM.",
+  "zh": "不管 LLM 的能力如何。"
+ },
+ {
+  "seg": 57,
+  "start": 285.15,
+  "end": 290.112,
+  "speaker": "Unknown",
+  "en": "And so how to solve this scale problem, right?",
+  "zh": "那么如何解决这个规模化问题呢？"
+ },
+ {
+  "seg": 58,
+  "start": 292.853,
+  "end": 294.014,
+  "speaker": "Unknown",
+  "en": "Basically five things.",
+  "zh": "基本上是五件事。"
+ },
+ {
+  "seg": 59,
+  "start": 294.334,
+  "end": 301.137,
+  "speaker": "Unknown",
+  "en": "So foundation first, reasonable designs, automated workflows, validated output, and also removed frictions.",
+  "zh": "打好基础、可复用的设计、自动化工作流、验证输出，还有消除摩擦。"
+ },
+ {
+  "seg": 60,
+  "start": 303.011,
+  "end": 311.538,
+  "speaker": "Unknown",
+  "en": "The foundation is definitely the core part that we need to set up right, like the design system, typography, colors, components, like other stuff.",
+  "zh": "基础绝对是我们需要搭建的核心部分，比如设计系统、字体排印、颜色、组件，还有其他东西。"
+ },
+ {
+  "seg": 61,
+  "start": 312.458,
+  "end": 319.524,
+  "speaker": "Unknown",
+  "en": "And once this is set up, like for example, when we create the website, it's all set up within this thing.",
+  "zh": "一旦这些都搭好了，比如我们创建网站时，一切都搭建在这个体系之内。"
+ },
+ {
+  "seg": 62,
+  "start": 320.344,
+  "end": 322.506,
+  "speaker": "Unknown",
+  "en": "And yeah, this is just an example.",
+  "zh": "对，这只是个例子。"
+ },
+ {
+  "seg": 63,
+  "start": 322.546,
+  "end": 331.193,
+  "speaker": "Unknown",
+  "en": "Like we have the colors, primary, and then also the accent colors, the typography, and also the tagline, all the other stuff.",
+  "zh": "比如我们有颜色、主色，还有强调色、字体排印，还有标语，以及其他所有东西。"
+ },
+ {
+  "seg": 64,
+  "start": 333.021,
+  "end": 337.756,
+  "speaker": "Unknown",
+  "en": "And also, have you guys, are you guys familiar with the atomic designs?",
+  "zh": "另外，你们熟悉原子化设计吗？"
+ },
+ {
+  "seg": 65,
+  "start": 338.82,
+  "end": 356.374,
+  "speaker": "Unknown",
+  "en": "So yeah, my previous background is I'm a product designer, so I'm pretty familiar with the thing where we need to create a user-centric design and also like atomic designs, right, where we create the smallest part possible and then combining it into like basically a Lego pieces and then into deliverables.",
+  "zh": "对，我的背景是产品设计师，所以我很熟悉我们需要做以用户为中心的设计，还有原子化设计，对吧，就是创建尽可能小的部件，然后把它们组合成基本的乐高积木，再变成交付物。"
+ },
+ {
+  "seg": 66,
+  "start": 357.175,
+  "end": 362.018,
+  "speaker": "Unknown",
+  "en": "And this is pretty useful in my job desk right now.",
+  "zh": "这在我现在的工作岗位上非常有用。"
+ },
+ {
+  "seg": 67,
+  "start": 362.979,
+  "end": 365.581,
+  "speaker": "Unknown",
+  "en": "So once we set up all of those",
+  "zh": "所以一旦我们搭建好了所有这些"
+ },
+ {
+  "seg": 68,
+  "start": 366.642,
+  "end": 367.182,
+  "speaker": "Unknown",
+  "en": "Foundation.",
+  "zh": "基础。"
+ },
+ {
+  "seg": 69,
+  "start": 367.682,
+  "end": 370.743,
+  "speaker": "Unknown",
+  "en": "We basically need to create, for example, we use Devin a lot.",
+  "zh": "我们基本上就需要去创建，比如，我们经常用 Devin。"
+ },
+ {
+  "seg": 70,
+  "start": 371.623,
+  "end": 373.844,
+  "speaker": "Unknown",
+  "en": "At the office, everybody uses Devin.",
+  "zh": "在办公室，每个人都用 Devin。"
+ },
+ {
+  "seg": 71,
+  "start": 374.284,
+  "end": 377.305,
+  "speaker": "Unknown",
+  "en": "Everybody like abusing Devin, for example.",
+  "zh": "每个人都可以说是滥用 Devin,比如。"
+ },
+ {
+  "seg": 72,
+  "start": 377.885,
+  "end": 378.105,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 73,
+  "start": 378.905,
+  "end": 387.368,
+  "speaker": "Unknown",
+  "en": "And so in this case, I just need, hey, we use this desktop typography and this mobile typography, because we know",
+  "zh": "所以在这种情况下，我只需要说，嘿，我们用这个桌面端字体排印和这个移动端字体排印，因为我们知道"
+ },
+ {
+  "seg": 74,
+  "start": 389.83,
+  "end": 396.077,
+  "speaker": "Unknown",
+  "en": "Claude or any other LLMs love to throw in some random font size, right?",
+  "zh": "Claude 或任何其他 LLM 都喜欢乱扔一些随机的字号，对吧？"
+ },
+ {
+  "seg": 75,
+  "start": 396.358,
+  "end": 401.283,
+  "speaker": "Unknown",
+  "en": "And if we don't define it, it's just delivering a slope, like the previous slope.",
+  "zh": "如果我们不定义好，它就只会交付出一个 slope,像之前那个 slope 一样。"
+ },
+ {
+  "seg": 76,
+  "start": 402.765,
+  "end": 406.489,
+  "speaker": "Unknown",
+  "en": "And yeah, typography, color, and stuff.",
+  "zh": "对，字体排印、颜色之类的。"
+ },
+ {
+  "seg": 77,
+  "start": 408.533,
+  "end": 410.534,
+  "speaker": "Unknown",
+  "en": "And then it comes to reusable design.",
+  "zh": "接下来就到了可复用设计。"
+ },
+ {
+  "seg": 78,
+  "start": 411.254,
+  "end": 425.398,
+  "speaker": "Unknown",
+  "en": "So once we set up it right, like the website has the branding to it, all the other themes on the AI Engineer, like for example the marketing themes, can create everything basically.",
+  "zh": "一旦我们搭建好了，比如网站有了自己的品牌化，AI Engineer 的所有其他主题，比如市场主题，就基本上都能创建一切了。"
+ },
+ {
+  "seg": 79,
+  "start": 425.578,
+  "end": 427.819,
+  "speaker": "Unknown",
+  "en": "Like they can create an email design based on that.",
+  "zh": "比如他们可以基于它创建邮件设计。"
+ },
+ {
+  "seg": 80,
+  "start": 428.119,
+  "end": 437.242,
+  "speaker": "Unknown",
+  "en": "They can create a flyer, a document, just based on the website because it's already defined, like it defined early.",
+  "zh": "他们可以创建传单、文档，直接基于网站就行，因为它已经定义好了，很早就定义好了。"
+ },
+ {
+  "seg": 81,
+  "start": 439.238,
+  "end": 443.281,
+  "speaker": "Unknown",
+  "en": "And yeah, once you get the design, you can just rinse and repeat.",
+  "zh": "对，一旦你拿到了设计，你就可以不断地重复使用。"
+ },
+ {
+  "seg": 82,
+  "start": 444.301,
+  "end": 449.365,
+  "speaker": "Unknown",
+  "en": "For example, the mascot, it all has pretty much the same design, and it's rinse and repeat.",
+  "zh": "比如吉祥物，它们的设计基本都一样，就是重复使用。"
+ },
+ {
+  "seg": 83,
+  "start": 449.925,
+  "end": 457.59,
+  "speaker": "Unknown",
+  "en": "And if you're already defining those things, you can basically create one design that works for all.",
+  "zh": "如果你已经定义好了这些东西，你基本上就能创建一个适用于所有场景的设计。"
+ },
+ {
+  "seg": 84,
+  "start": 458.331,
+  "end": 462.994,
+  "speaker": "Unknown",
+  "en": "And this is the part that I'm most interested to talk about, which is the automated workflows.",
+  "zh": "这是我最感兴趣谈论的部分，就是自动化工作流。"
+ },
+ {
+  "seg": 85,
+  "start": 464.715,
+  "end": 465.976,
+  "speaker": "Unknown",
+  "en": "Before, for example,",
+  "zh": "以前，比如，"
+ },
+ {
+  "seg": 86,
+  "start": 466.921,
+  "end": 469.362,
+  "speaker": "Unknown",
+  "en": "If you take a look outside the room, there's a schedule, right?",
+  "zh": "如果你看看房间外面，那里有一个日程表，对吧？"
+ },
+ {
+  "seg": 87,
+  "start": 469.822,
+  "end": 471.844,
+  "speaker": "Unknown",
+  "en": "The schedule for each and everyone.",
+  "zh": "每个人每场活动的日程表。"
+ },
+ {
+  "seg": 88,
+  "start": 472.844,
+  "end": 477.827,
+  "speaker": "Unknown",
+  "en": "So we used to do it manually on Figma, but now we use Devin for it.",
+  "zh": "我们以前在 Figma 上手动做，但现在我们用 Devin 来做。"
+ },
+ {
+  "seg": 89,
+  "start": 478.787,
+  "end": 481.568,
+  "speaker": "Unknown",
+  "en": "And let me show you.",
+  "zh": "让我给你展示一下。"
+ },
+ {
+  "seg": 90,
+  "start": 484.33,
+  "end": 484.45,
+  "speaker": "Unknown",
+  "en": "Hey.",
+  "zh": "嘿。"
+ },
+ {
+  "seg": 91,
+  "start": 486.142,
+  "end": 488.724,
+  "speaker": "Unknown",
+  "en": "So right now we just pulled the latest data.",
+  "zh": "现在我们刚拉取了最新的数据。"
+ },
+ {
+  "seg": 92,
+  "start": 489.124,
+  "end": 494.988,
+  "speaker": "Unknown",
+  "en": "I just asked Devin, like, hey, I want this room at this base.",
+  "zh": "我只是问 Devin,嘿，我要这个房间、这个基准。"
+ },
+ {
+  "seg": 93,
+  "start": 495.209,
+  "end": 498.111,
+  "speaker": "Unknown",
+  "en": "And then we can just export it, download it to VNG.",
+  "zh": "然后我们就可以直接导出，下载成 VNG。"
+ },
+ {
+  "seg": 94,
+  "start": 498.511,
+  "end": 500.112,
+  "speaker": "Unknown",
+  "en": "And the data is accurate.",
+  "zh": "数据是准确的。"
+ },
+ {
+  "seg": 95,
+  "start": 500.252,
+  "end": 505.036,
+  "speaker": "Unknown",
+  "en": "And then we can just ship it to the flash drive and then put it on the screen.",
+  "zh": "然后我们就可以把它拷到 U 盘上，再放到屏幕上。"
+ },
+ {
+  "seg": 96,
+  "start": 507.235,
+  "end": 513.42,
+  "speaker": "Unknown",
+  "en": "It was like impossible before because the friction is just too much between the designers and the developers.",
+  "zh": "以前这几乎是不可能的，因为设计师和开发者之间的摩擦太大了。"
+ },
+ {
+  "seg": 97,
+  "start": 514.2,
+  "end": 529.972,
+  "speaker": "Unknown",
+  "en": "We cannot make things like pixel perfect because once we tell the designer, hey, this is the design, and then, sorry, the engineers that created the design, for example, hey, I need this to be delivered, and then they don't create it pixel perfect.",
+  "zh": "我们没法做到像素级还原，因为一旦我们告诉设计师，嘿，这是设计稿，然后，抱歉，是创建设计的工程师，比如，嘿，我需要这个被交付，然后他们做出来的不是像素级还原的。"
+ },
+ {
+  "seg": 98,
+  "start": 530.632,
+  "end": 532.974,
+  "speaker": "Unknown",
+  "en": "It's a lot of feedback, right?",
+  "zh": "反馈就很多，对吧？"
+ },
+ {
+  "seg": 99,
+  "start": 533.534,
+  "end": 535.756,
+  "speaker": "Unknown",
+  "en": "But with DevIn, we just say, hey,",
+  "zh": "但用 Devin,我们只需要说，嘿，"
+ },
+ {
+  "seg": 100,
+  "start": 537.668,
+  "end": 539.129,
+  "speaker": "Unknown",
+  "en": "Can you make this more accurate?",
+  "zh": "你能让这个更准确吗?"
+ },
+ {
+  "seg": 101,
+  "start": 539.769,
+  "end": 541.29,
+  "speaker": "Unknown",
+  "en": "We can just connect it to MCP.",
+  "zh": "我们可以直接把它连接到 MCP。"
+ },
+ {
+  "seg": 102,
+  "start": 541.771,
+  "end": 553.819,
+  "speaker": "Unknown",
+  "en": "And then if it doesn't work, we can just always give a spec sheet or something that can be defined, like what's the spacing, what's the font size, et cetera.",
+  "zh": "如果不行的话,我们总是可以提供一份规格表或者可以定义的东西,比如间距是多少、字号是多少,等等。"
+ },
+ {
+  "seg": 103,
+  "start": 554.639,
+  "end": 559.542,
+  "speaker": "Unknown",
+  "en": "And this is what we do for the speaker announcement.",
+  "zh": "这就是我们为演讲者公告做的事情。"
+ },
+ {
+  "seg": 104,
+  "start": 561.482,
+  "end": 566.145,
+  "speaker": "Unknown",
+  "en": "We have 300 plus speakers, and it's impossible for me to handle one by one, right?",
+  "zh": "我们有 300 多位演讲者,让我一个一个处理是不可能的,对吧?"
+ },
+ {
+  "seg": 105,
+  "start": 566.565,
+  "end": 577.613,
+  "speaker": "Unknown",
+  "en": "So we create this thing, which you can also access to speaker announcement, and you can also try it yourself, like this one, for example.",
+  "zh": "所以我们做了这个东西,你也可以访问演讲者公告,你也可以自己试试,比如这一个。"
+ },
+ {
+  "seg": 106,
+  "start": 578.273,
+  "end": 582.316,
+  "speaker": "Unknown",
+  "en": "You can select it right here, and then you can also change your name.",
+  "zh": "你可以在这里选中它,然后你也可以更改你的名字。"
+ },
+ {
+  "seg": 107,
+  "start": 584.219,
+  "end": 584.419,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 108,
+  "start": 584.899,
+  "end": 588.24,
+  "speaker": "Unknown",
+  "en": "For example, this, you can change the name to whatever you want.",
+  "zh": "比如,这里,你可以把名字改成任何你想要的。"
+ },
+ {
+  "seg": 109,
+  "start": 588.86,
+  "end": 592.921,
+  "speaker": "Unknown",
+  "en": "And we also have the landscape mode, which can be also loaded.",
+  "zh": "我们还有横屏模式,也可以加载。"
+ },
+ {
+  "seg": 110,
+  "start": 593.541,
+  "end": 599.022,
+  "speaker": "Unknown",
+  "en": "If the speaker also have the headshot and all the details, it will automatically export.",
+  "zh": "如果演讲者还有头像和所有详细信息,它会自动导出。"
+ },
+ {
+  "seg": 111,
+  "start": 599.582,
+  "end": 604.203,
+  "speaker": "Unknown",
+  "en": "And we also have the trading cards, which is surprisingly pretty popular.",
+  "zh": "我们还有集换卡,这个出乎意料地很受欢迎。"
+ },
+ {
+  "seg": 112,
+  "start": 605.723,
+  "end": 607.363,
+  "speaker": "Unknown",
+  "en": "And we have a different theme.",
+  "zh": "我们有不同的主题。"
+ },
+ {
+  "seg": 113,
+  "start": 607.663,
+  "end": 610.784,
+  "speaker": "Unknown",
+  "en": "And this is all pixel perfect.",
+  "zh": "而且这些都是像素级完美的。"
+ },
+ {
+  "seg": 114,
+  "start": 611.004,
+  "end": 612.504,
+  "speaker": "Unknown",
+  "en": "For example, this one.",
+  "zh": "比如,这一个。"
+ },
+ {
+  "seg": 115,
+  "start": 614.439,
+  "end": 616.841,
+  "speaker": "Unknown",
+  "en": "This is inspired by TBPN.",
+  "zh": "这个的灵感来自 TBPN。"
+ },
+ {
+  "seg": 116,
+  "start": 620.004,
+  "end": 622.867,
+  "speaker": "Unknown",
+  "en": "And how do I deliver this in Pixel Perfect?",
+  "zh": "那我是如何做到像素级完美交付的呢?"
+ },
+ {
+  "seg": 117,
+  "start": 623.387,
+  "end": 624.308,
+  "speaker": "Unknown",
+  "en": "Let's jump into it.",
+  "zh": "让我们深入看一下。"
+ },
+ {
+  "seg": 118,
+  "start": 625.99,
+  "end": 631.495,
+  "speaker": "Unknown",
+  "en": "So the process here is before",
+  "zh": "这里流程是,之前"
+ },
+ {
+  "seg": 119,
+  "start": 632.698,
+  "end": 642.482,
+  "speaker": "Unknown",
+  "en": "When I started my career as a product designer, it used to be just, OK, we need to research, we need to build product, like design thinking in general, right?",
+  "zh": "当我刚开始我的产品设计师职业生涯时,通常就是,好的,我们需要做研究,我们需要构建产品,就是一般的设计思维,对吧?"
+ },
+ {
+  "seg": 120,
+  "start": 642.822,
+  "end": 644.843,
+  "speaker": "Unknown",
+  "en": "And then feedback loop and stuff like that.",
+  "zh": "然后是反馈循环之类的。"
+ },
+ {
+  "seg": 121,
+  "start": 645.303,
+  "end": 649.185,
+  "speaker": "Unknown",
+  "en": "But right now, it's just outdated for me.",
+  "zh": "但现在,对我来说它已经过时了。"
+ },
+ {
+  "seg": 122,
+  "start": 649.745,
+  "end": 652.787,
+  "speaker": "Unknown",
+  "en": "Like, in my case, we just go to Slack,",
+  "zh": "就我的情况,我们直接去 Slack,"
+ },
+ {
+  "seg": 123,
+  "start": 653.876,
+  "end": 674.532,
+  "speaker": "Unknown",
+  "en": "Figma, and then send it back to Slack, because our Devin lives in Slack, and then ship all the things that he needs, like, for example, if we can connect the MCP or also the spec document, which is, for example, the spec sheet like this, which is a plug-in in Figma, if you're interested.",
+  "zh": "Figma,然后再发回 Slack,因为我们的 Devin 住在 Slack 里,然后把他需要的所有东西都发过去,比如,如果我们可以连接 MCP 或者还有规格文档,比如像这样的规格表,这是 Figma 里的一个插件,如果你感兴趣的话。"
+ },
+ {
+  "seg": 124,
+  "start": 675.373,
+  "end": 679.476,
+  "speaker": "Unknown",
+  "en": "It's free, and it basically gives an annotation to the PDF.",
+  "zh": "它是免费的,基本上会给 PDF 加上标注。"
+ },
+ {
+  "seg": 125,
+  "start": 682.378,
+  "end": 684.799,
+  "speaker": "Unknown",
+  "en": "Yeah, all designers don't name their layers.",
+  "zh": "是啊,所有设计师都不给图层命名。"
+ },
+ {
+  "seg": 126,
+  "start": 684.839,
+  "end": 689.101,
+  "speaker": "Unknown",
+  "en": "So this is just like some random frame three, frame four.",
+  "zh": "所以就只是一些随机的 frame three、frame four。"
+ },
+ {
+  "seg": 127,
+  "start": 689.401,
+  "end": 691.142,
+  "speaker": "Unknown",
+  "en": "But the LLM will get it.",
+  "zh": "但 LLM 能理解。"
+ },
+ {
+  "seg": 128,
+  "start": 692.062,
+  "end": 699.986,
+  "speaker": "Unknown",
+  "en": "And it's basically defining all this spacing, all this font size, and then all the colors and stuff.",
+  "zh": "它基本上定义了所有这些间距、所有这些字号,还有所有颜色之类的东西。"
+ },
+ {
+  "seg": 129,
+  "start": 700.426,
+  "end": 703.587,
+  "speaker": "Unknown",
+  "en": "It's definitely going to help you develop a pixel perfect product.",
+  "zh": "它绝对能帮你开发出像素级完美的产品。"
+ },
+ {
+  "seg": 130,
+  "start": 707.302,
+  "end": 714.988,
+  "speaker": "Unknown",
+  "en": "We also have just recently, like today, have photos, which we have to create the thumbnail for its speaker, right?",
+  "zh": "我们最近,就是今天,还有照片,我们必须为演讲者创建缩略图,对吧?"
+ },
+ {
+  "seg": 131,
+  "start": 715.268,
+  "end": 718.27,
+  "speaker": "Unknown",
+  "en": "And then we asked Devon, like, hey, who is this person?",
+  "zh": "然后我们问 Devon,嘿,这个人是谁?"
+ },
+ {
+  "seg": 132,
+  "start": 718.411,
+  "end": 721.933,
+  "speaker": "Unknown",
+  "en": "And yeah, it kind of did.",
+  "zh": "是的,它还真做出来了。"
+ },
+ {
+  "seg": 133,
+  "start": 721.993,
+  "end": 729.259,
+  "speaker": "Unknown",
+  "en": "Like, I make a Tinder kind of, you know, detection if this is the same person or not.",
+  "zh": "比如,我做了一个类似 Tinder 的检测,判断这是不是同一个人。"
+ },
+ {
+  "seg": 134,
+  "start": 729.719,
+  "end": 730.88,
+  "speaker": "Unknown",
+  "en": "And I think it's pretty accurate.",
+  "zh": "而且我觉得它挺准的。"
+ },
+ {
+  "seg": 135,
+  "start": 731.501,
+  "end": 732.762,
+  "speaker": "Unknown",
+  "en": "It's Jason Liu, yes.",
+  "zh": "是 Jason Liu,没错。"
+ },
+ {
+  "seg": 136,
+  "start": 733.582,
+  "end": 735.484,
+  "speaker": "Unknown",
+  "en": "And then we can use this to, like,",
+  "zh": "然后我们可以用它来做,比如,"
+ },
+ {
+  "seg": 137,
+  "start": 737.472,
+  "end": 747.355,
+  "speaker": "Unknown",
+  "en": "For context, like before when we create the thumbnail, we have to search all the codes that photographer have and search it one by one and maybe by time if possible.",
+  "zh": "提供上下文,以前我们创建缩略图时,必须搜索摄影师有的所有编码,一个一个地找,可能的话再按时间找。"
+ },
+ {
+  "seg": 138,
+  "start": 747.795,
+  "end": 750.535,
+  "speaker": "Unknown",
+  "en": "But now we can just like, oh, this is Jason Liu.",
+  "zh": "但现在我们可以直接说,哦,这是 Jason Liu。"
+ },
+ {
+  "seg": 139,
+  "start": 750.875,
+  "end": 751.596,
+  "speaker": "Unknown",
+  "en": "Download that photo.",
+  "zh": "下载那张照片。"
+ },
+ {
+  "seg": 140,
+  "start": 751.756,
+  "end": 754.476,
+  "speaker": "Unknown",
+  "en": "And then we can paste it into the thumbnail, right?",
+  "zh": "然后把它粘贴到缩略图里,对吧?"
+ },
+ {
+  "seg": 141,
+  "start": 754.957,
+  "end": 756.357,
+  "speaker": "Unknown",
+  "en": "And it's pretty amazing.",
+  "zh": "这非常神奇。"
+ },
+ {
+  "seg": 142,
+  "start": 756.837,
+  "end": 764.059,
+  "speaker": "Unknown",
+  "en": "I mean, the world that we live in right now is actually like the state for me as a designer is already at the peak because",
+  "zh": "我的意思是,我们现在生活的这个世界,对身为设计师的我来说,状态已经达到了巅峰,因为"
+ },
+ {
+  "seg": 143,
+  "start": 765.925,
+  "end": 767.607,
+  "speaker": "Unknown",
+  "en": "What else can you ask for, right?",
+  "zh": "你还能要求什么呢,对吧?"
+ },
+ {
+  "seg": 144,
+  "start": 768.228,
+  "end": 770.27,
+  "speaker": "Unknown",
+  "en": "I mean, we already have things to automate.",
+  "zh": "我的意思是,我们已经有了可以自动化的东西。"
+ },
+ {
+  "seg": 145,
+  "start": 770.33,
+  "end": 773.053,
+  "speaker": "Unknown",
+  "en": "We already have things to create the design fast.",
+  "zh": "我们已经有了可以快速创建设计的东西。"
+ },
+ {
+  "seg": 146,
+  "start": 774.094,
+  "end": 781.262,
+  "speaker": "Unknown",
+  "en": "Basically, all you need is a problem, because once you have a problem that worth solving, you can basically solve anything.",
+  "zh": "基本上,你需要的只是一个问题,因为一旦你有一个值得解决的问题,你基本上就能解决任何东西。"
+ },
+ {
+  "seg": 147,
+  "start": 783.084,
+  "end": 783.965,
+  "speaker": "Unknown",
+  "en": "And back to my talk.",
+  "zh": "回到我的演讲。"
+ },
+ {
+  "seg": 148,
+  "start": 784.145,
+  "end": 785.667,
+  "speaker": "Unknown",
+  "en": "I got sidetracked like that.",
+  "zh": "我就像那样跑题了。"
+ },
+ {
+  "seg": 149,
+  "start": 786.408,
+  "end": 786.608,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 150,
+  "start": 787.828,
+  "end": 788.688,
+  "speaker": "Unknown",
+  "en": "And then, yeah.",
+  "zh": "然后呢,是的。"
+ },
+ {
+  "seg": 151,
+  "start": 789.028,
+  "end": 791.109,
+  "speaker": "Unknown",
+  "en": "And this is also the amazing thing that we test.",
+  "zh": "这也是我们测试过的很棒的一件事。"
+ },
+ {
+  "seg": 152,
+  "start": 791.789,
+  "end": 796.229,
+  "speaker": "Unknown",
+  "en": "So as you know, we have like hundreds of sponsors, right?",
+  "zh": "如你所知,我们有几百个赞助商,对吧?"
+ },
+ {
+  "seg": 153,
+  "start": 796.85,
+  "end": 797.95,
+  "speaker": "Unknown",
+  "en": "Like 140 plus.",
+  "zh": "大概 140 多个。"
+ },
+ {
+  "seg": 154,
+  "start": 798.35,
+  "end": 803.571,
+  "speaker": "Unknown",
+  "en": "And as you can see at the lobby, we have the banner with all the sponsors.",
+  "zh": "如你在大厅所见,有一块印有所有赞助商的横幅。"
+ },
+ {
+  "seg": 155,
+  "start": 804.411,
+  "end": 812.872,
+  "speaker": "Unknown",
+  "en": "And I basically tell Devin, like, hi, could you check if there are any missing logos in this graphic?",
+  "zh": "我 basically 告诉 Devin,嘿,你能不能检查一下这张图里有没有缺失的 logo?"
+ },
+ {
+  "seg": 156,
+  "start": 813.512,
+  "end": 816.833,
+  "speaker": "Unknown",
+  "en": "And the accuracy is 100% based on the test that I",
+  "zh": "根据我的测试,准确率是 100%,"
+ },
+ {
+  "seg": 157,
+  "start": 818.873,
+  "end": 820.837,
+  "speaker": "Unknown",
+  "en": "So, which is pretty wild.",
+  "zh": "这相当离谱。"
+ },
+ {
+  "seg": 158,
+  "start": 820.937,
+  "end": 827.692,
+  "speaker": "Unknown",
+  "en": "And we use the same thing for the T-shirt that you got for your swag.",
+  "zh": "我们把同样的方法用在了你拿到手的周边 T 恤上。"
+ },
+ {
+  "seg": 159,
+  "start": 828.878,
+  "end": 834.323,
+  "speaker": "Unknown",
+  "en": "And, yeah, surprisingly, Devin knows how to, like, visualize things, right?",
+  "zh": "而且,是的,出乎意料的是,Devin 知道怎么把东西可视化出来,对吧?"
+ },
+ {
+  "seg": 160,
+  "start": 834.503,
+  "end": 836.405,
+  "speaker": "Unknown",
+  "en": "Like, how to detect things visually.",
+  "zh": "比如怎么从视觉上检测东西。"
+ },
+ {
+  "seg": 161,
+  "start": 837.185,
+  "end": 842.71,
+  "speaker": "Unknown",
+  "en": "And that is very surprising, because as a human, we can, like, give errors.",
+  "zh": "这非常令人惊讶，因为作为人类，我们可以，比如，给出错误。"
+ },
+ {
+  "seg": 162,
+  "start": 843.07,
+  "end": 845.452,
+  "speaker": "Unknown",
+  "en": "Oh, turns out there's one motion that is missing.",
+  "zh": "哦,结果发现少了一个动图(motion)。"
+ },
+ {
+  "seg": 163,
+  "start": 846.033,
+  "end": 849.015,
+  "speaker": "Unknown",
+  "en": "But with this kind of thing, we can, like, double check.",
+  "zh": "但有了这种东西,我们就可以进行复核。"
+ },
+ {
+  "seg": 164,
+  "start": 849.416,
+  "end": 852.118,
+  "speaker": "Unknown",
+  "en": "So human plus AI, combine it.",
+  "zh": "也就是人类加 AI,结合起来。"
+ },
+ {
+  "seg": 165,
+  "start": 853.159,
+  "end": 854.46,
+  "speaker": "Unknown",
+  "en": "Well, you've got your own QA team.",
+  "zh": "嗯,你等于有了自己的 QA 团队。"
+ },
+ {
+  "seg": 166,
+  "start": 855.341,
+  "end": 856.341,
+  "speaker": "Unknown",
+  "en": "And then remove fiction.",
+  "zh": "然后是消除虚构(remove fiction)。"
+ },
+ {
+  "seg": 167,
+  "start": 857.493,
+  "end": 861.154,
+  "speaker": "Unknown",
+  "en": "So this is just the way of thinking.",
+  "zh": "这只是一种思考方式。"
+ },
+ {
+  "seg": 168,
+  "start": 861.454,
+  "end": 866.796,
+  "speaker": "Unknown",
+  "en": "So as a designer, we have to think as a user, not as a designer, right?",
+  "zh": "作为设计师,我们必须以用户的身份思考,而不是以设计师的身份,对吧?"
+ },
+ {
+  "seg": 169,
+  "start": 867.156,
+  "end": 868.596,
+  "speaker": "Unknown",
+  "en": "Because every user has its needs.",
+  "zh": "因为每个用户都有自己的需求。"
+ },
+ {
+  "seg": 170,
+  "start": 869.617,
+  "end": 873.078,
+  "speaker": "Unknown",
+  "en": "You can walk through the, for example, the map plan here.",
+  "zh": "你可以走一遍,比如,这里的地图规划。"
+ },
+ {
+  "seg": 171,
+  "start": 873.558,
+  "end": 879.92,
+  "speaker": "Unknown",
+  "en": "So basically, I'm imagining myself as an attendee to go to the registration, go to the",
+  "zh": "基本 上,我会把自己想象成一名与会者,去注册,去"
+ },
+ {
+  "seg": 172,
+  "start": 881.958,
+  "end": 885.959,
+  "speaker": "Unknown",
+  "en": "See the wayfinding and the QR code and then all the stuff.",
+  "zh": "看导视和二维码以及所有这些东西。"
+ },
+ {
+  "seg": 173,
+  "start": 886.459,
+  "end": 894.84,
+  "speaker": "Unknown",
+  "en": "Basically, everything needs to be connected so you guys don't get lost and knows how to find your rooms and other stuff.",
+  "zh": "基本 上,所有东西都需要相互连接,这样你们才不会迷路,才知道怎么找到自己的房间和其他东西。"
+ },
+ {
+  "seg": 174,
+  "start": 896.061,
+  "end": 899.161,
+  "speaker": "Unknown",
+  "en": "And the real job is handling exceptions.",
+  "zh": "而真正的工作是处理例外情况。"
+ },
+ {
+  "seg": 175,
+  "start": 900.101,
+  "end": 902.942,
+  "speaker": "Unknown",
+  "en": "So for example, there is a schedule update.",
+  "zh": "比如,有一个日程更新。"
+ },
+ {
+  "seg": 176,
+  "start": 910.983,
+  "end": 913.764,
+  "speaker": "Unknown",
+  "en": "When we create this thing, it doesn't have an edit button.",
+  "zh": "当我们创建这个东西时,它并没有编辑按钮。"
+ },
+ {
+  "seg": 177,
+  "start": 914.044,
+  "end": 918.945,
+  "speaker": "Unknown",
+  "en": "And then one morning, it just, hey, this schedule needs to be updated.",
+  "zh": "然后某天早上,突然,嘿,这个日程需要更新。"
+ },
+ {
+  "seg": 178,
+  "start": 919.125,
+  "end": 920.726,
+  "speaker": "Unknown",
+  "en": "And we don't have those edit buttons.",
+  "zh": "而我们没有那种编辑按钮。"
+ },
+ {
+  "seg": 179,
+  "start": 921.106,
+  "end": 924.527,
+  "speaker": "Unknown",
+  "en": "I could just ask Devin, hey, can you add me an edit button?",
+  "zh": "我可以直接问 Devin,嘿,你能给我加一个编辑按钮吗?"
+ },
+ {
+  "seg": 180,
+  "start": 925.047,
+  "end": 925.727,
+  "speaker": "Unknown",
+  "en": "And then it did.",
+  "zh": "然后它就加了。"
+ },
+ {
+  "seg": 181,
+  "start": 925.967,
+  "end": 933.729,
+  "speaker": "Unknown",
+  "en": "So we can change everything now and then ship it to PNG and replug it to the screen, which is pretty convenient, right?",
+  "zh": "这样我们现在就可以改任何东西,然后导出成 PNG,再重新贴到屏幕上,这相当方便,对吧?"
+ },
+ {
+  "seg": 182,
+  "start": 934.389,
+  "end": 936.31,
+  "speaker": "Unknown",
+  "en": "And those exceptions, right,",
+  "zh": "而那些例外情况,对吧,"
+ },
+ {
+  "seg": 183,
+  "start": 937.717,
+  "end": 941.099,
+  "speaker": "Unknown",
+  "en": "It's not possible before when we have to do it manually and stuff.",
+  "zh": "在以前我们得手动去做的时候是不可能的。"
+ },
+ {
+  "seg": 184,
+  "start": 941.84,
+  "end": 943.761,
+  "speaker": "Unknown",
+  "en": "But now it's just get easier.",
+  "zh": "但现在就变得简单多了。"
+ },
+ {
+  "seg": 185,
+  "start": 944.422,
+  "end": 959.272,
+  "speaker": "Unknown",
+  "en": "And so the takeaway here is that to solve the scale problem, you have to actually think small, think all the smallest thing possible, think everything that can go wrong and will go wrong, and then try to solve it before.",
+  "zh": "所以这里的要点是,要解决规模化问题,你必须真正地往小处想,想所有尽可能小的事情,想所有可能出错和必将出错的事情,然后提前尝试解决它们。"
+ },
+ {
+  "seg": 186,
+  "start": 959.853,
+  "end": 964.456,
+  "speaker": "Unknown",
+  "en": "And also, like, yeah, right now basically you can automate everything.",
+  "zh": "而且,是的,现在基本 上你可以把一切都自动化。"
+ },
+ {
+  "seg": 187,
+  "start": 968.21,
+  "end": 978.235,
+  "speaker": "Unknown",
+  "en": "At this moment, having a problem is actually going to benefit you because that's going to help you ship a better product, going to ship things that are good.",
+  "zh": "在这个时刻,遇到问题其实对你有利,因为这会帮你交付更好的产品,交付好的东西。"
+ },
+ {
+  "seg": 188,
+  "start": 978.795,
+  "end": 980.856,
+  "speaker": "Unknown",
+  "en": "And yeah, I think that's all that I can share.",
+  "zh": "是的,我想我能分享的就这些了。"
+ },
+ {
+  "seg": 189,
+  "start": 981.016,
+  "end": 983.857,
+  "speaker": "Unknown",
+  "en": "Hope my talk has some benefits to you.",
+  "zh": "希望我的演讲对你有一些帮助。"
+ },
+ {
+  "seg": 190,
+  "start": 983.978,
+  "end": 986.159,
+  "speaker": "Unknown",
+  "en": "And yeah, that's all.",
+  "zh": "是的,就到这里。"
+ },
+ {
+  "seg": 191,
+  "start": 986.259,
+  "end": 986.659,
+  "speaker": "Unknown",
+  "en": "Thanks, guys.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 192,
+  "start": 998.002,
+  "end": 998.022,
+  "speaker": "Unknown",
+  "en": ".",
+  "zh": "。"
+ },
+ {
+  "seg": 193,
+  "start": 998.042,
+  "end": 998.062,
+  "speaker": "Unknown",
+  "en": ".",
+  "zh": "。"
+ },
+ {
+  "seg": 194,
+  "start": 998.082,
+  "end": 998.102,
+  "speaker": "Unknown",
+  "en": ".",
+  "zh": "。"
+ },
+ {
+  "seg": 195,
+  "start": 998.122,
+  "end": 998.142,
+  "speaker": "Unknown",
+  "en": ".",
+  "zh": "。"
+ }
+]

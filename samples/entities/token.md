@@ -107,9 +107,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[OpenAI]] · [[NVIDIA]] · [[ChatGPT]] · [[护栏]] · [[OpenRouter]] · [[GPU]]
+[[智能体]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[OpenAI]] · [[NVIDIA]] · [[ChatGPT]] · [[后训练]] · [[OpenRouter]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":115,"Cursor":54,"推理":5,"OpenAI":102,"NVIDIA":33,"ChatGPT":57,"护栏":2,"OpenRouter":10,"GPU":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":219,"Anthropic":115,"Cursor":55,"推理":42,"OpenAI":102,"NVIDIA":33,"ChatGPT":59,"后训练":20,"OpenRouter":10,"护栏":43}</script>
 
 <script>
 (function(){

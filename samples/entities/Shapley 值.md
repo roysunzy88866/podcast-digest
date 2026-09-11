@@ -1,16 +1,18 @@
 ---
-title: Shapley 值 (Shapley values)
+title: Shapley 值 (Shapley value)
 entity_type: 概念
 type: entity
 unlisted: true
+aliases: ["Shapley value", "Shapley values"]
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Shapley 值 (Shapley values)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Shapley 值 (Shapley value)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Shapley 值">SH</div><div class="pi"><h1 class="pt">Shapley 值 (Shapley values)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Shapley 值">SH</div><div class="pi"><h1 class="pt">Shapley 值 (Shapley value)</h1><div class="byl">概念 · 又名 Shapley value / Shapley values</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]]**(42:24起):本集说 Shapley 值是一种博弈论概念，用于公平分配合作创造的价值；Parallel 借鉴它来计算每个内容来源的增量贡献——从语料库移除某来源看输出质量下降多少，再算需要多少额外算力来弥补，那个算力成本就是该来源该得的报酬
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(42:21起):本集说 Shapley 值是博弈论中在协作里分配超额价值的数学方法——从语料库拿掉某个内容源看智能体输出质量下降多少，补多少算力能挽回，差值就是该来源的价值；但直接算太贵，实际用模型估算
 
 ## ① 提到它的金句
@@ -21,17 +23,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为概念
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Andrew]] · [[Sonia]] · [[Parag]] · [[Parallel]] · [[智能体]] · [[智能体搜索]] · [[搜索智能体]] · [[索引]] · [[推理]] · [[后台智能体]]
+[[Andrew]] · [[Sonia]] · [[Parag]] · [[Parallel]] · [[智能体]] · [[搜索智能体]] · [[索引]] · [[爬取]] · [[推理]] · [[后台智能体]]
 
-<script type="application/json" class="pd-epn">{"Andrew":3,"Sonia":2,"Parag":2,"Parallel":5,"智能体":1,"智能体搜索":1,"搜索智能体":2,"索引":2,"推理":5,"后台智能体":4}</script>
+<script type="application/json" class="pd-epn">{"Andrew":3,"Sonia":2,"Parag":2,"Parallel":5,"智能体":219,"搜索智能体":2,"索引":2,"爬取":3,"推理":42,"后台智能体":4}</script>
 
 <script>
 (function(){

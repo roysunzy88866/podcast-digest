@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeremiah Lowin]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]]
+[[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub Next":1,"Copilot":8,"ACE":1,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":2,"提示词注入":11,"Cloudflare":9,"Slack":24}</script>
+<script type="application/json" class="pd-epn">{"GitHub Next":1,"Copilot":8,"ACE":1,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":43,"提示词注入":11,"Cloudflare":9,"Slack":25}</script>
 
 <script>
 (function(){

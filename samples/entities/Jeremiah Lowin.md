@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Maximillian Piras]] [[Jordan Tigani]] [[Tibo Sottiaux]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Maximillian Piras]] [[Jonathan Gordon]] [[Max Drake]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":2,"MCP":34,"FastMCP":1,"Prefab":1,"智能体":1,"沙箱":41,"生成式 UI":2,"Claude":54}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":2,"MCP":35,"FastMCP":1,"Prefab":1,"智能体":219,"沙箱":41,"生成式 UI":2,"Claude":55}</script>
 
 <script>
 (function(){

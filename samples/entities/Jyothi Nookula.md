@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":54,"Claude Code":53,"智能体":1,"对抗性智能体":1,"MCP":34,"知识库":1,"技能":13,"vibe coding":30,"红队测试":3}</script>
+<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":55,"Claude Code":55,"智能体":219,"对抗性智能体":1,"MCP":35,"知识库":1,"技能":13,"vibe coding":31,"红队测试":3}</script>
 
 <script>
 (function(){

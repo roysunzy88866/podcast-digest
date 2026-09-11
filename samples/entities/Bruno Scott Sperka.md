@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeremiah Lowin]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]]
+[[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":22,"Terraform":1,"Hashicorp":1,"Kubernetes":5,"开源":20,"智能体":1,"PR":4,"AI":16,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":22,"Terraform":1,"Hashicorp":1,"Kubernetes":5,"开源":20,"智能体":219,"PR":4,"AI":16,"工匠精神":1}</script>
 
 <script>
 (function(){

@@ -29,9 +29,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[World Labs]] · [[空间智能]] · [[Waymo]] · [[Justin Johnson]] · [[强化学习]] · [[世界模型]] · [[Lenny]] · [[Fei-Fei Li]] · [[Sam Charrington]] · [[Martin Casado]]
+[[World Labs]] · [[空间智能]] · [[世界模型]] · [[Waymo]] · [[Justin Johnson]] · [[强化学习]] · [[Lenny]] · [[Fei-Fei Li]] · [[Sam Charrington]] · [[Martin Casado]]
 
-<script type="application/json" class="pd-epn">{"World Labs":4,"空间智能":3,"Waymo":13,"Justin Johnson":2,"强化学习":16,"世界模型":5,"Lenny":67,"Fei-Fei Li":1,"Sam Charrington":3,"Martin Casado":4}</script>
+<script type="application/json" class="pd-epn">{"World Labs":4,"空间智能":3,"世界模型":6,"Waymo":13,"Justin Johnson":2,"强化学习":16,"Lenny":67,"Fei-Fei Li":1,"Sam Charrington":3,"Martin Casado":4}</script>
 
 <script>
 (function(){

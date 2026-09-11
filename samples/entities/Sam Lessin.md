@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maximillian Piras]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]]
+[[Maximillian Piras]] [[Vincent Wendy]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Airbnb":10,"Facebook":11,"YC":11,"礼仪":1,"富足心态":1,"低心率":1,"EA":1,"vibe coding":30}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Airbnb":10,"Facebook":11,"YC":11,"礼仪":1,"富足心态":1,"低心率":1,"EA":1,"vibe coding":31}</script>
 
 <script>
 (function(){

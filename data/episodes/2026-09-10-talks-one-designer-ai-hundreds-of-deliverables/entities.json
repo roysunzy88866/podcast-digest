@@ -1,0 +1,521 @@
+{
+  "episode_id": "2026-09-10-talks-one-designer-ai-hundreds-of-deliverables",
+  "podcast": "精选演讲",
+  "date": "2026-09-10",
+  "tags": [
+    "AI 编程",
+    "设计",
+    "自动化工作流",
+    "大会幕后",
+    "人机协作"
+  ],
+  "categories": [
+    "AI 编程",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "vincent-wendy",
+      "type": "person",
+      "role": "guest",
+      "name": "Vincent Wendy",
+      "file": "Vincent Wendy",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            62.15,
+            63.411
+          ],
+          "quote": "So my name is Vincent Wendy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-engineer",
+      "type": "company",
+      "role": "company",
+      "name": "AI Engineer",
+      "file": "AI Engineer",
+      "primary": true,
+      "how_described": "本集嘉宾所在的大会组织：约 12-15 人的小团队，办 7000 人规模的大会，有 140 多个赞助商、300 多位演讲者、600 多场议程，只有一个设计师。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            35.506,
+            50.401
+          ],
+          "quote": "So today's talk is a non-technical talk, but more of a real-world experience, how I created the design for AI engineer, this conference, and our other past conference as well, and how AI has helped me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            63.671,
+            66.653
+          ],
+          "quote": "I am a senior creative designer at AI Engineer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            67.834,
+            70.936
+          ],
+          "quote": "And at AI Engineer, it's a very small team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            215.093,
+            221.156
+          ],
+          "quote": "So, for example, when someone asked me, what inspired you when designing in AI Engineer?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            221.916,
+            229.639
+          ],
+          "quote": "I don't know the answer back then, but after I think about it, it's actually a problem that inspired me to, like, designing in this AI Engineer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            411.254,
+            425.398
+          ],
+          "quote": "So once we set up it right, like the website has the branding to it, all the other themes on the AI Engineer, like for example the marketing themes, can create everything basically.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "devin",
+      "type": "concept",
+      "role": "concept",
+      "name": "Devin",
+      "file": "Devin",
+      "primary": true,
+      "how_described": "本集说它是嘉宾的整个「设计团队」核心：住在 Slack 里，用来生成日程牌、演讲者公告图，检查赞助商横幅缺失 logo（测试准确率 100%），甚至现场识别照片里的人是谁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            197.791,
+            203.113
+          ],
+          "quote": "So it's me and Devin, GPT, and Figma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            367.682,
+            370.743
+          ],
+          "quote": "We basically need to create, for example, we use Devin a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            371.623,
+            373.844
+          ],
+          "quote": "At the office, everybody uses Devin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            374.284,
+            377.305
+          ],
+          "quote": "Everybody like abusing Devin, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            472.844,
+            477.827
+          ],
+          "quote": "So we used to do it manually on Figma, but now we use Devin for it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            489.124,
+            494.988
+          ],
+          "quote": "I just asked Devin, like, hey, I want this room at this base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            533.534,
+            535.756
+          ],
+          "quote": "But with DevIn, we just say, hey,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            653.876,
+            674.532
+          ],
+          "quote": "Figma, and then send it back to Slack, because our Devin lives in Slack, and then ship all the things that he needs, like, for example, if we can connect the MCP or also the spec document, which is, for example, the spec sheet like this, which is a plug-in in Figma, if you're interested.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            804.411,
+            812.872
+          ],
+          "quote": "And I basically tell Devin, like, hi, could you check if there are any missing logos in this graphic?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            828.878,
+            834.323
+          ],
+          "quote": "And, yeah, surprisingly, Devin knows how to, like, visualize things, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            921.106,
+            924.527
+          ],
+          "quote": "I could just ask Devin, hey, can you add me an edit button?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": true,
+      "how_described": "本集说以前日程牌都在 Figma 上手动做，现在 Figma 与 Devin、Slack 连成工作流，还配合一个免费的规格表插件把间距、字号、颜色标注成规格文档交给 AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            197.791,
+            203.113
+          ],
+          "quote": "So it's me and Devin, GPT, and Figma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            267.576,
+            275.443
+          ],
+          "quote": "And we could simply ask ChatGPT, create a stale image like a PNG for a pelican riding a bicycle, and then I can factorize it on Figma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            472.844,
+            477.827
+          ],
+          "quote": "So we used to do it manually on Figma, but now we use Devin for it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            653.876,
+            674.532
+          ],
+          "quote": "Figma, and then send it back to Slack, because our Devin lives in Slack, and then ship all the things that he needs, like, for example, if we can connect the MCP or also the spec document, which is, for example, the spec sheet like this, which is a plug-in in Figma, if you're interested.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT",
+      "file": "GPT",
+      "primary": true,
+      "how_described": "本集把 GPT 列为嘉宾「设计团队」成员之一，并用 ChatGPT 生成静态 PNG 图片再在 Figma 上矢量化的例子说明要跳出 LLM 能力局限思考。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            197.791,
+            203.113
+          ],
+          "quote": "So it's me and Devin, GPT, and Figma.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "design-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计系统 (design system)",
+      "file": "设计系统",
+      "primary": true,
+      "how_described": "本集说它是「基础先行」的核心：提前定义好颜色、字体排印、组件，否则 Claude 或任何 LLM 会乱扔随机字号，交付出来就是废品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            303.011,
+            311.538
+          ],
+          "quote": "The foundation is definitely the core part that we need to set up right, like the design system, typography, colors, components, like other stuff.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pixel-perfect",
+      "type": "concept",
+      "role": "concept",
+      "name": "像素级还原 (pixel perfect)",
+      "file": "像素级还原",
+      "primary": true,
+      "how_described": "本集说设计师和开发者之间的老大难是做出来不是像素级还原、反馈无穷；现在 Devin 配 Figma 规格表插件「绝对能帮你开发出像素级完美的产品」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            514.2,
+            529.972
+          ],
+          "quote": "We cannot make things like pixel perfect because once we tell the designer, hey, this is the design, and then, sorry, the engineers that created the design, for example, hey, I need this to be delivered, and then they don't create it pixel perfect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            607.663,
+            610.784
+          ],
+          "quote": "And this is all pixel perfect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            620.004,
+            622.867
+          ],
+          "quote": "And how do I deliver this in Pixel Perfect?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            700.426,
+            703.587
+          ],
+          "quote": "It's definitely going to help you develop a pixel perfect product.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动化 (automation)",
+      "file": "自动化",
+      "primary": true,
+      "how_described": "本集把自动化作为解决规模化问题的答案：从手动 Figma 到一句指令生成导出，「现在基本上你可以把一切都自动化」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            103.316,
+            106.077
+          ],
+          "quote": "It's basically automation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集以「鹈鹕骑自行车」矢量图测试说明 LLM 直接产矢量文件对设计师没法用；并提醒 Claude 或任何 LLM 都爱乱扔随机字号，须靠设计系统约束。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            244.651,
+            253.801
+          ],
+          "quote": "He asked every LLM to create a vector file, which is basically a pelican riding a bicycle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            282.089,
+            284.31
+          ],
+          "quote": "Regardless the capabilities of the LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            689.401,
+            691.142
+          ],
+          "quote": "But the LLM will get it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集提到可以把 Devin 连接到 MCP 来提升还原准确度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            539.769,
+            541.29
+          ],
+          "quote": "We can just connect it to MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            653.876,
+            674.532
+          ],
+          "quote": "Figma, and then send it back to Slack, because our Devin lives in Slack, and then ship all the things that he needs, like, for example, if we can connect the MCP or also the spec document, which is, for example, the spec sheet like this, which is a plug-in in Figma, if you're interested.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集说 Devin 住在 Slack 里，设计流程变成 Slack 发需求 → Figma → 发回 Slack。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            649.745,
+            652.787
+          ],
+          "quote": "Like, in my case, we just go to Slack,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            653.876,
+            674.532
+          ],
+          "quote": "Figma, and then send it back to Slack, because our Devin lives in Slack, and then ship all the things that he needs, like, for example, if we can connect the MCP or also the spec document, which is, for example, the spec sheet like this, which is a plug-in in Figma, if you're interested.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集顺带提到「Claude 或任何其他 LLM 都喜欢乱扔一些随机的字号」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            389.83,
+            396.077
+          ],
+          "quote": "Claude or any other LLMs love to throw in some random font size, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集举例说可以问 ChatGPT 生成一张骑自行车的鹈鹕 PNG，再到 Figma 上矢量化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            267.576,
+            275.443
+          ],
+          "quote": "And we could simply ask ChatGPT, create a stale image like a PNG for a pelican riding a bicycle, and then I can factorize it on Figma.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "atomic design",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

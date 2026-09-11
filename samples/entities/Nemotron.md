@@ -35,9 +35,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[NVIDIA]] · [[护栏]] · [[Anthropic]] · [[OpenAI]] · [[前沿模型]] · [[OpenRouter]] · [[沙箱]] · [[Jensen Huang]] · [[Jensen Wong]]
+[[智能体]] · [[NVIDIA]] · [[前沿模型]] · [[护栏]] · [[Anthropic]] · [[OpenAI]] · [[沙箱]] · [[开源模型]] · [[OpenRouter]] · [[Jensen Huang]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"NVIDIA":33,"护栏":2,"Anthropic":115,"OpenAI":102,"前沿模型":8,"OpenRouter":10,"沙箱":41,"Jensen Huang":3,"Jensen Wong":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":219,"NVIDIA":33,"前沿模型":15,"护栏":43,"Anthropic":115,"OpenAI":102,"沙箱":41,"开源模型":16,"OpenRouter":10,"Jensen Huang":3}</script>
 
 <script>
 (function(){

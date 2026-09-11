@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>harness</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>26</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>27</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -36,6 +36,7 @@ unlisted: true
 - **[[2026-09-07-talks-why-the-harness-matters-more-than-the-mo|《别小看 harness：智能体的「脚手架」正在决定成绩》]]**(00:08起):本集主线概念：包裹在 LLM 外面、提供持久状态/工具/计算的那层脚手架；主持人强调同一套权重换个 harness 就能让 ArcAGI 从 30% 到 95%，并将其分为静态 harness 与自我改进 harness 两个时代。
 - **[[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]]**(21:51起):本集核心框架:「harness 总是比模型领先一点」——它是围绕模型的工具与执行框架,给模型配拐杖(护栏、安全、效率、可控性),随模型变强而缩减。
 - **[[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]]**(34:26起):本集说 harness 是实验室提供的围绕模型的执行框架（含工具调用、系统提示词），其与模型的边界正在模糊——旧模型的长系统提示词「几乎像被 RL 进了新模型」。
+- **[[2026-09-10-talks-the-spatial-harness-bringing-agents-to-t|《把画布交给智能体：TLDraw 的空间协作实验》]]**(06:48起):本集说 Fairies 的局限是整个 harness 必须是画布 harness,导致智能体被困在画布里、难以和真实世界配合。
 
 ## ① 提到它的金句
 
@@ -71,7 +72,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*26 集*
+*27 集*
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
@@ -99,6 +100,7 @@ unlisted: true
 - [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]] — 作为概念
 - [[2026-09-09-talks-acp-the-universal-remote-control-for-ai|《AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议》]] — 作为概念
 - [[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]] — 作为概念
+- [[2026-09-10-talks-the-spatial-harness-bringing-agents-to-t|《把画布交给智能体：TLDraw 的空间协作实验》]] — 作为概念(提及)
 
 ## ③ 关联
 
@@ -106,7 +108,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[OpenAI]] · [[Codex]] · [[护栏]] · [[评估]] · [[推理]] · [[上下文]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":115,"Claude Code":53,"沙箱":41,"OpenAI":102,"Codex":44,"护栏":2,"评估":24,"推理":5,"上下文":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":219,"Anthropic":115,"Claude Code":55,"沙箱":41,"OpenAI":102,"Codex":44,"护栏":43,"评估":24,"推理":42,"上下文":15}</script>
 
 <script>
 (function(){

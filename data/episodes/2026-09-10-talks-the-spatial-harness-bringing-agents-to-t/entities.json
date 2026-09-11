@@ -1,0 +1,979 @@
+{
+  "episode_id": "2026-09-10-talks-the-spatial-harness-bringing-agents-to-t",
+  "podcast": "精选演讲",
+  "date": "2026-09-10",
+  "tags": [
+    "智能体",
+    "画布界面",
+    "多智能体协作",
+    "AI 编程",
+    "产品设计"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "max-drake",
+      "type": "person",
+      "role": "guest",
+      "name": "Max Drake",
+      "file": "Max Drake",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "tldraw",
+      "type": "company",
+      "role": "company",
+      "name": "TLDraw",
+      "file": "TLDraw",
+      "primary": true,
+      "how_described": "本集说 TLDraw 是总部在伦敦的公司，旗下有免费的无限画布白板应用，同时提供驱动很多无限画布体验(包括 Replit 的智能体画布)的 SDK 引擎。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            31.305,
+            39.909
+          ],
+          "quote": "And what I'm gonna do is say, hey, my colleague Spencer just emailed me a link to a Notion document for a really cool demo we could build with the TLDRAW desktop app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            58.791,
+            64.916
+          ],
+          "quote": "I work on Agents on the Canvas at TLDraw, I'm a product engineer there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            89.991,
+            92.592
+          ],
+          "quote": "And yeah, so I work at this company called TLDraw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            93.693,
+            95.674
+          ],
+          "quote": "Has anybody ever heard of or used TLDraw before?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            99.596,
+            104.499
+          ],
+          "quote": "The thing that you probably use if you use TLDraw is this app right here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            104.519,
+            105.759
+          ],
+          "quote": "So this is all TLDraw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            143.535,
+            153.751
+          ],
+          "quote": "And so if you ever want to build a Miro competitor or a slide designer or if you're like Replit, Replit has their whole new agent canvas stuff built on top of tldraw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            155.591,
+            172.737
+          ],
+          "quote": "And so the reason we built TLDraw in the first place was that we were running into this issue, or people were running into this issue where they had this idea for this really great killer Canvas app, and they went to go build it, and everybody would run into the same problem where they would run into, they would have trouble making the actual Canvas part of the app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            224.997,
+            229.281
+          ],
+          "quote": "And also, so TLDraw, the SDK as well as the app has multiplayer built in with like live sync.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            738.278,
+            753.784
+          ],
+          "quote": "But first, as a quick motivation for that, at TLDraw, whenever we're getting closer to a launch, we abandon all of our task-tracking software, and we make just one massive dependency graph of how, like, so this is what an actual, this is a real thing from when we launched ferries, actually.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            755.004,
+            761.126
+          ],
+          "quote": "And so this is what it looks like when we're really, like, when shit is hitting the fan at TLDraw when we're launching something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            929.181,
+            931.482
+          ],
+          "quote": "So basically this is the tldraw desktop app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            938.523,
+            945.625
+          ],
+          "quote": "But basically what this does is this basically exposes the editor instance of the tldraw app that's running here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            982.28,
+            987.866
+          ],
+          "quote": "So this is, he has a tldraw desktop app in the corner here, and he's using it as his window manager.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1024.104,
+            1034.631
+          ],
+          "quote": "Yeah, so this is, he's got in the corner here, you know, you have TLDraw running, this is the desktop app, and it's using the Windows in order to play Pong.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心主线：智能体天生不擅长理解和操作 2D 画布空间，但可以通过喂截图与 JSON 数据教会它们；画布可作为与多个智能体协作、直接看状态而非读聊天记录的场所。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            25.215,
+            29.02
+          ],
+          "quote": "The first thing I'm going to do is I'm going to ask my agent to do something on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            143.535,
+            153.751
+          ],
+          "quote": "And so if you ever want to build a Miro competitor or a slide designer or if you're like Replit, Replit has their whole new agent canvas stuff built on top of tldraw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            368.235,
+            381.483
+          ],
+          "quote": "And so the work behind this, it's a single-shot prompt, but we basically, we tell the agent how to interpret both via screenshots and via the data what is actually on the canvas, like what it's looking at, which is actually, you know, it's not a trivial problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            408.512,
+            417.015
+          ],
+          "quote": "And so the next thing we built is the TealDraw Agent Starter Kit, which basically turns that and wraps in a harness that lets an agent work agentically on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            441.368,
+            443.488
+          ],
+          "quote": "So you can see the view of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            443.848,
+            460.393
+          ],
+          "quote": "There's some potential friends over here and if you read the, and basically what's going on is that the agent has kind of like, we've given it a prompt and using the information it has about the canvas, it's going to kind of like make some goals for itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            469.357,
+            476.541
+          ],
+          "quote": "The same way that if you ask a coding agent, you know, you ask it, you know, where do we define this thing in the code base?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            491.821,
+            510.83
+          ],
+          "quote": "The next thing we did, we did this project called Fairies, and so we basically, we had this agent experience, but we realized that, you know, TL Draw and, you know, the Canvas in general is so collaborative, it's so multi-playered, and we wanted to basically, we wanted people to be able to work together with their agents, and we also wanted the agents to be able to work together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            577.653,
+            582.535
+          ],
+          "quote": "And so we kind of designed this like multi-agent collaboration system that works on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            618.83,
+            625.153
+          ],
+          "quote": "Okay, so what's gonna happen there basically is this kind of like creates this multi-agent coordination thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            680.921,
+            691.588
+          ],
+          "quote": "So yeah, we have one, we have this one, so yeah, we have one fairy who made the task, one fairy who's working on it, and so this is this kind of, you know, multi-agent coordination system on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            799.089,
+            808.473
+          ],
+          "quote": "But each of these tasks is a coding agent that you can kick off and you can have your agent kind of like be running and doing them autonomously.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            884.172,
+            897.697
+          ],
+          "quote": "And so this is kind of like, you know, this is kind of something similar to Conductor or OpenAI Symphony where you're using a kind of like one abstract interface above what the actual, in order to like manage your multi-agent coordination and things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            946.245,
+            954.147
+          ],
+          "quote": "And it has a server that lets any agent, for example, my Claude Code, write just plain JavaScript against the editor.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-coordination",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体协调 (multi-agent coordination)",
+      "file": "多智能体协调",
+      "primary": true,
+      "how_described": "本集在 Fairies 演示中展示：全选多个智能体当群聊发指令，一只自动成为编排者，写计划、分配任务、等待完成再审查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            618.83,
+            625.153
+          ],
+          "quote": "Okay, so what's gonna happen there basically is this kind of like creates this multi-agent coordination thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            680.921,
+            691.588
+          ],
+          "quote": "So yeah, we have one, we have this one, so yeah, we have one fairy who made the task, one fairy who's working on it, and so this is this kind of, you know, multi-agent coordination system on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            884.172,
+            897.697
+          ],
+          "quote": "And so this is kind of like, you know, this is kind of something similar to Conductor or OpenAI Symphony where you're using a kind of like one abstract interface above what the actual, in order to like manage your multi-agent coordination and things like that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集以 Claude Code 为例说编码智能体好用是因为文本进、文本出匹配训练媒介；TechTree 里每个任务节点就是一个可自主启动、开 PR、合并的编码智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            469.357,
+            476.541
+          ],
+          "quote": "The same way that if you ask a coding agent, you know, you ask it, you know, where do we define this thing in the code base?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            799.089,
+            808.473
+          ],
+          "quote": "But each of these tasks is a coding agent that you can kick off and you can have your agent kind of like be running and doing them autonomously.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说 Claude Code 是典型的编码智能体应用，且能访问真实电脑——同事让它画矩形、写 AppleScript 移动真实窗口、用真实窗口玩 Pong。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            257.664,
+            269.717
+          ],
+          "quote": "I'm sure you guys have all used an app that looks like this, Claude Code, and I'm gonna really oversimplify here, but basically part of the reason why these apps are so good and why they work is because the medium in which they're working",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            946.245,
+            954.147
+          ],
+          "quote": "And it has a server that lets any agent, for example, my Claude Code, write just plain JavaScript against the editor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            989.768,
+            995.67
+          ],
+          "quote": "And what he did, the way he did this was he just told Claude Code to, because Claude Code has access to your actual computer, it's not locked into the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1069.061,
+            1077.979
+          ],
+          "quote": "If, you know, this is my Claude code and it found, it got the Gmail, it got the Notion doc, it found the spec and it's going to implement it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "canvas",
+      "type": "concept",
+      "role": "concept",
+      "name": "画布 (canvas)",
+      "file": "画布",
+      "primary": true,
+      "how_described": "本集的核心主张：让人类协作舒服的一切(光标、视口、实时同步)也让画布成为与智能体协作的绝佳场所，画布应成为我们与智能体协作的「场所」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            13.757,
+            18.925
+          ],
+          "quote": "Thank you for coming here to my talk to watch me talk about agents on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            25.215,
+            29.02
+          ],
+          "quote": "The first thing I'm going to do is I'm going to ask my agent to do something on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            58.791,
+            64.916
+          ],
+          "quote": "I work on Agents on the Canvas at TLDraw, I'm a product engineer there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            69.06,
+            72.282
+          ],
+          "quote": "I've been doing like Agents on the Canvas stuff since before ChatGPT came out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            106.22,
+            110.122
+          ],
+          "quote": "It's a free Infinite Canvas whiteboarding app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            123.688,
+            131.25
+          ],
+          "quote": "But the last thing that TL Draw is, which is, I think, in my opinion, the most important, is it's the Infinite Canvas SDKs that powers this app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            131.79,
+            141.734
+          ],
+          "quote": "And so what that means is that this is kind of the TL Draw, the SDKs, the engine that powers a lot of Infinite Canvas experiences, because it turns out it's really hard to get that kind of stuff right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            143.535,
+            153.751
+          ],
+          "quote": "And so if you ever want to build a Miro competitor or a slide designer or if you're like Replit, Replit has their whole new agent canvas stuff built on top of tldraw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            155.591,
+            172.737
+          ],
+          "quote": "And so the reason we built TLDraw in the first place was that we were running into this issue, or people were running into this issue where they had this idea for this really great killer Canvas app, and they went to go build it, and everybody would run into the same problem where they would run into, they would have trouble making the actual Canvas part of the app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            181.667,
+            182.769
+          ],
+          "quote": "They would get stuck on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            182.789,
+            189.557
+          ],
+          "quote": "And so we built Tealdraw to kind of be the engine that could power, that could be the canvas so that they could focus on the actual app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            203.265,
+            210.75
+          ],
+          "quote": "People had the idea, had an idea for this cool app that would involve LLMs on the canvas, having them manipulating things in space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            213.935,
+            223.513
+          ],
+          "quote": "There are no best practices, people didn't really know how to do it, and so at TL Draw we realized that we need to make it easy for people to build with agents, with LLMs on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            234.885,
+            246.473
+          ],
+          "quote": "And I think all of the things that make just the Canvas in general a really great place for interacting with and collaborating with your colleagues also make it a really great place for interacting and collaborating with agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            252.618,
+            256.983
+          ],
+          "quote": "So before we talk about agents on the canvas, really quickly I want to talk about agents not on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            307.779,
+            318.922
+          ],
+          "quote": "And so the first thing we had to do, this is an older project, but the first thing we had to do is get them to teach them, teach the agents, or at this point, not agents, LLMs, to understand the canvas and understand kind of what they're even looking at.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            333.69,
+            346.136
+          ],
+          "quote": "This is an older project, but basically what we had to do is we had to kind of like teach the LLMs how to take the screenshot that we give it and the JSON and all of the other information about the Canvas and, oh.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            362.147,
+            367.034
+          ],
+          "quote": "These are just like, you know, these are just shapes on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            368.235,
+            381.483
+          ],
+          "quote": "And so the work behind this, it's a single-shot prompt, but we basically, we tell the agent how to interpret both via screenshots and via the data what is actually on the canvas, like what it's looking at, which is actually, you know, it's not a trivial problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            382.123,
+            389.607
+          ],
+          "quote": "And then also how to, we teach it how to actually act on the canvas and to understand how the actions that it produces will affect the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            398.689,
+            407.072
+          ],
+          "quote": "So we got this, we kind of figured out how the, we taught it what the canvas is, but this was like a single shot, single prompt kind of thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            408.512,
+            417.015
+          ],
+          "quote": "And so the next thing we built is the TealDraw Agent Starter Kit, which basically turns that and wraps in a harness that lets an agent work agentically on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            427.318,
+            432.527
+          ],
+          "quote": "Hey, so somewhere else on the canvas there are some friends for the cat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            443.848,
+            460.393
+          ],
+          "quote": "There's some potential friends over here and if you read the, and basically what's going on is that the agent has kind of like, we've given it a prompt and using the information it has about the canvas, it's going to kind of like make some goals for itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            466.555,
+            469.317
+          ],
+          "quote": "What was, you know, the other stuff that was on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            491.821,
+            510.83
+          ],
+          "quote": "The next thing we did, we did this project called Fairies, and so we basically, we had this agent experience, but we realized that, you know, TL Draw and, you know, the Canvas in general is so collaborative, it's so multi-playered, and we wanted to basically, we wanted people to be able to work together with their agents, and we also wanted the agents to be able to work together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            541.237,
+            551.506
+          ],
+          "quote": "And this seems silly, but it's actually really important, and I'll talk about this a little bit more later, but actually understanding when you get a high-level view of, when you see your agents working on the canvas, it's important to know which one is which.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            577.653,
+            582.535
+          ],
+          "quote": "And so we kind of designed this like multi-agent collaboration system that works on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            680.921,
+            691.588
+          ],
+          "quote": "So yeah, we have one, we have this one, so yeah, we have one fairy who made the task, one fairy who's working on it, and so this is this kind of, you know, multi-agent coordination system on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            706.782,
+            712.767
+          ],
+          "quote": "So the next thing, so the problem with fairies is that they're kind of trapped in the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            712.787,
+            721.534
+          ],
+          "quote": "And all the stuff you've seen before, this requires, if you want to build something like this, this requires you to opt in and have your entire harness be a canvas harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            727.299,
+            729.921
+          ],
+          "quote": "The fairies are trapped in the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            832.683,
+            838.206
+          ],
+          "quote": "And so I can do something, like I can see this one has finished building some gesture controls for the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            876.068,
+            880.11
+          ],
+          "quote": "And I can, you know, call it facial animation canvas control.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            972.188,
+            977.835
+          ],
+          "quote": "I'm gonna, this is the kind of off the rails bit of the canvas here, or of the talk.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            989.768,
+            995.67
+          ],
+          "quote": "And what he did, the way he did this was he just told Claude Code to, because Claude Code has access to your actual computer, it's not locked into the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1048.113,
+            1055.899
+          ],
+          "quote": "But I think this stuff is so cool because this lets you do all of the weird spatial interfaces that you can do on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1055.999,
+            1057.881
+          ],
+          "quote": "You get all of the primitives of the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1080.777,
+            1106.693
+          ],
+          "quote": "But yeah, so to sum up, I think that agents working on the canvas is so cool and I think that there's so much we can do if we use the canvas as a place to work with agents and I think the place part of it is really important because when we do, with remote work, collaboration, we do a lot of stuff online with each other and we collaborate with people on the canvas and I think that the canvas can be a place where we collaborate with agents",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fairies",
+      "type": "concept",
+      "role": "concept",
+      "name": "Fairies",
+      "file": "Fairies",
+      "primary": true,
+      "how_described": "本集说 Fairies 是 TLDraw 的多智能体协作项目，每个小仙子是画布上一个可视化智能体形象，可换帽子、换颜色、调腿长以分清谁是谁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            491.821,
+            510.83
+          ],
+          "quote": "The next thing we did, we did this project called Fairies, and so we basically, we had this agent experience, but we realized that, you know, TL Draw and, you know, the Canvas in general is so collaborative, it's so multi-playered, and we wanted to basically, we wanted people to be able to work together with their agents, and we also wanted the agents to be able to work together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            569.27,
+            572.591
+          ],
+          "quote": "But the most important thing here is that fairies have friends, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            576.112,
+            577.633
+          ],
+          "quote": "And fairies can work together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            625.674,
+            629.596
+          ],
+          "quote": "We have one of the fairies is writing out a plan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            706.782,
+            712.767
+          ],
+          "quote": "So the next thing, so the problem with fairies is that they're kind of trapped in the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            727.299,
+            729.921
+          ],
+          "quote": "The fairies are trapped in the canvas.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-starter-kit",
+      "type": "concept",
+      "role": "concept",
+      "name": "Agent Starter Kit",
+      "file": "Agent Starter Kit",
+      "primary": true,
+      "how_described": "本集说这是 TLDraw 的 MIT 许可项目，把「看懂画布」包进一个让智能体自主设定目标、朝目标工作的 harness 框架。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            408.512,
+            417.015
+          ],
+          "quote": "And so the next thing we built is the TealDraw Agent Starter Kit, which basically turns that and wraps in a harness that lets an agent work agentically on the canvas.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "techtree",
+      "type": "concept",
+      "role": "concept",
+      "name": "TechTree 应用 (TechTree)",
+      "file": "TechTree 应用",
+      "primary": true,
+      "how_described": "本集说 TechTree 是一个依赖图原型，每个任务节点是可启动的编码智能体，自主干活、开 PR、合并，且多人协作，全部代码由智能体写成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            794.908,
+            796.388
+          ],
+          "quote": "It's called the TechTree app.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": false,
+      "how_described": "本集提到 Replit 全新的智能体画布功能构建在 tldraw 之上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            143.535,
+            153.751
+          ],
+          "quote": "And so if you ever want to build a Miro competitor or a slide designer or if you're like Replit, Replit has their whole new agent canvas stuff built on top of tldraw.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集提到他从 ChatGPT 出来之前就开始做画布上的智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            69.06,
+            72.282
+          ],
+          "quote": "I've been doing like Agents on the Canvas stuff since before ChatGPT came out.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (harness)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集说 Fairies 的局限是整个 harness 必须是画布 harness,导致智能体被困在画布里、难以和真实世界配合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            408.512,
+            417.015
+          ],
+          "quote": "And so the next thing we built is the TealDraw Agent Starter Kit, which basically turns that and wraps in a harness that lets an agent work agentically on the canvas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            712.787,
+            721.534
+          ],
+          "quote": "And all the stuff you've seen before, this requires, if you want to build something like this, this requires you to opt in and have your entire harness be a canvas harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -55,17 +55,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Gamma]] · [[PowerPoint]] · [[Google Slides]] · [[Optimizely]] · [[Notion]] · [[Slack]] · [[Loom]] · [[Salesforce]] · [[ChatGPT]] · [[生成式 AI]]
+[[Gamma]] · [[PowerPoint]] · [[Google Slides]] · [[Optimizely]] · [[Notion]] · [[Slack]] · [[Loom]] · [[Salesforce]] · [[Canvas]] · [[ChatGPT]]
 
 ## ④ 也在聊「产品方法」的人
 
 <div class="pd-peers">
 
-[[Maximillian Piras]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]]
+[[Maximillian Piras]] [[Vincent Wendy]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gamma":3,"PowerPoint":1,"Google Slides":1,"Optimizely":2,"Notion":12,"Slack":24,"Loom":1,"Salesforce":17,"ChatGPT":57,"生成式 AI":6}</script>
+<script type="application/json" class="pd-epn">{"Gamma":3,"PowerPoint":1,"Google Slides":1,"Optimizely":2,"Notion":12,"Slack":25,"Loom":1,"Salesforce":17,"Canvas":2,"ChatGPT":59}</script>
 
 <script>
 (function(){

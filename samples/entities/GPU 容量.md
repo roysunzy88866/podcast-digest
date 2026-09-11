@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPU 容量 (capacity)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GPU 容量">GP</div><div class="pi"><h1 class="pt">GPU 容量 (capacity)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GPU 容量">GP</div><div class="pi"><h1 class="pt">GPU 容量 (capacity)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,9 +15,23 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*1 条*
+*8 条*
 
-![[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d#^q9]]
+![[2026-06-03-latent-space-satya-2026#^q5]]
+
+![[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut#^q6]]
+
+![[2026-08-05-yc-building-the-first-data-centers-in-space#^q6]]
+
+![[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s#^q2]]
+
+![[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s#^q3]]
+
+![[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai#^q2]]
+
+![[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai#^q8]]
+
+![[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t#^q12]]
 
 ## ② 出现在这些集
 
@@ -31,7 +45,7 @@ unlisted: true
 
 [[Julian]] · [[Base 10]] · [[推理]] · [[专用推理]] · [[开源模型]] · [[后训练]] · [[持续学习]] · [[分布式推理]] · [[Cursor]] · [[Decagon]]
 
-<script type="application/json" class="pd-epn">{"Julian":1,"Base 10":1,"推理":5,"专用推理":1,"开源模型":6,"后训练":1,"持续学习":2,"分布式推理":1,"Cursor":54,"Decagon":5}</script>
+<script type="application/json" class="pd-epn">{"Julian":1,"Base 10":1,"推理":42,"专用推理":1,"开源模型":16,"后训练":20,"持续学习":8,"分布式推理":1,"Cursor":55,"Decagon":5}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":2,"Waymo":13,"ChatGPT":57,"物理 AI":7,"强化学习":16,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":6}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":2,"Waymo":13,"ChatGPT":59,"物理 AI":7,"强化学习":16,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":6}</script>
 
 <script>
 (function(){

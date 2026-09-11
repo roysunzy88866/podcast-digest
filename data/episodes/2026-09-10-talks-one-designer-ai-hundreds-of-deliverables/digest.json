@@ -1,0 +1,124 @@
+{
+  "title_zh": "一个设计师 + AI：如何撑起 7000 人大会的全部设计",
+  "tldr": "AI Engineer 大会高级创意设计师 Vincent Wendy 分享：一个人如何靠 Devin、GPT 和 Figma 产出数百个设计交付物。",
+  "digest_md": "一个人要给一场 7000 人的大会做完所有设计——贴纸、落地页、300 多位演讲者的公告图、600 多场议程的日程牌、140 多个赞助商的横幅——听上去不可能。这一集的演讲者 Vincent Wendy 是 AI Engineer 大会的高级创意设计师，他所在团队只有大约 12 到 15 个人，而设计师只有他一个。他的答案是把 AI 当设计团队用：「就是我和 Devin、GPT 和 Figma。」\n\n他的解法可以归纳成五件事：打好基础、可复用设计、自动化工作流、验证输出、消除摩擦。\n\n## 基础先行：不让 AI 乱发挥\n\n基础是指设计系统——颜色、字体排印、组件。Wendy 的背景是产品设计师，熟悉原子化设计（把设计拆成尽可能小的部件，像乐高一样组合成完整交付物）。这套思路直接决定了他怎么指挥 AI：用 Devin 时，他会明确告诉它「我们用这套桌面端字体排印和这套移动端字体排印」——因为「Claude 或任何其他 LLM 都喜欢乱扔一些随机的字号」，不提前定义好，交付出来就是废品。基础打好后，网站的品牌体系定义清楚了，市场团队就能基于它生成邮件设计、传单、文档，「不断地重复使用」。\n\n## 自动化工作流：从手动 Figma 到 Devin 生成\n\n这是他最花心思的部分。以前会场每个房间的日程牌都在 Figma 上手动做，现在改成直接对 Devin 说「我要这个房间、这个基准」，Devin 拉取最新数据后直接导出 PNG，拷到 U 盘就能上屏，数据还是准确的。\n\n像素级还原这个老大难也被解决了。以前设计师和开发者之间摩擦很大，做出来不是像素级还原，反馈来回无穷。现在 Devin 住在 Slack 里，流程变成：Slack 发需求 → Figma → 发回 Slack。配合 Figma 里的一个免费规格表插件，把间距、字号、颜色全部标注成规格文档交给 AI，「它绝对能帮你开发出像素级完美的产品」。他甚至说，以前那套「研究—构建—反馈循环」的设计思维流程，对他来说已经过时了。\n\n300 多位演讲者的公告图也做成了可自助生成的工具，支持改名字、横屏模式、头像自动导入，还有出乎意料受欢迎的「集换卡」主题。连照片识别都用上了：现场摄影师拍的照片以前要按编码一张张找，现在问 Devin「这个人是谁」，配一个类似 Tinder 的左右比对来判断是不是同一个人，「我觉得它挺准的」。\n\n## 验证输出：AI 当 QA 团队\n\n140 多个赞助商的横幅，缺一个 logo 都是大事故。Wendy 直接问 Devin「你能不能检查一下这张图里有没有缺失的 logo？」——据他的测试，准确率是 100%，「这相当离谱」。同样的方法也用来复核周边 T 恤。人类肉眼复核会有疏漏，AI 可以兜底：「人类加 AI，结合起来」，等于有了一支自己的 QA 团队。\n\n## 真正的工作是处理例外\n\n日程突然要更新，而生成的工具没有编辑按钮——以前这很麻烦，现在直接问 Devin「你能给我加一个编辑按钮吗？」，加完导出 PNG 重贴上屏即可。他的结论是：要解决规模化问题，必须往小处想——「想所有尽可能小的事情，想所有可能出错和必将出错的事情，然后提前尝试解决它们」。而在 AI 能力已经够用的今天，「拥有真实的问题成了我们的优势」，因为一旦你有一个值得解决的问题，你基本上就能解决任何东西。\n\n## 本集带走\n\n- **先搭设计系统再指挥 AI**：把颜色、字号、间距提前定义清楚，否则 LLM 会自由发挥出一堆随机值，交付即废品。\n- **把 AI 接进真实工作流**：Devin 住在 Slack 里，配 Figma 规格表插件（自动标注间距/字号/颜色），一句话就能生成像素级还原的交付物。\n- **重复性设计全部自动化**：日程牌、演讲者公告、赞助商横幅这类批量交付物，从手动 Figma 改成一句指令生成导出。\n- **用 AI 做视觉复核**：检查 logo 缺失、照片识别匹配真人，AI 当 QA，人加 AI 双保险。\n- **换个视角看问题**：在工具不再是瓶颈的当下，手上有一个真实的、值得解决的问题反而是最大优势。",
+  "quotes": [
+    {
+      "en": "And 1,000 details means 1,000 ways to fail, right?",
+      "zh": "而 1,000 个细节就意味着 1,000 种失败的方式，对吧？",
+      "timestamp": "02:53",
+      "speaker": "Vincent Wendy"
+    },
+    {
+      "en": "And right now, we are at the stage where tools isn't the, like, it's not a problem anymore, but having a real problem is our advantage.",
+      "zh": "而现在，我们处于这样一个阶段：工具不再是问题了，反而拥有真实的问题成了我们的优势。",
+      "timestamp": "03:26",
+      "speaker": "Vincent Wendy"
+    },
+    {
+      "en": "Basically, all you need is a problem, because once you have a problem that worth solving, you can basically solve anything.",
+      "zh": "基本上，你需要的只是一个问题，因为一旦你有一个值得解决的问题，你基本上就能解决任何东西。",
+      "timestamp": "12:54",
+      "speaker": "Vincent Wendy"
+    },
+    {
+      "en": "And the real job is handling exceptions.",
+      "zh": "而真正的工作是处理例外情况。",
+      "timestamp": "14:56",
+      "speaker": "Vincent Wendy"
+    },
+    {
+      "en": "And so the takeaway here is that to solve the scale problem, you have to actually think small, think all the smallest thing possible, think everything that can go wrong and will go wrong, and then try to solve it before.",
+      "zh": "所以这里的要点是，要解决规模化问题，你必须真正地往小处想，想所有尽可能小的事情，想所有可能出错和必将出错的事情，然后提前尝试解决它们。",
+      "timestamp": "15:44",
+      "speaker": "Vincent Wendy"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:53",
+      "speaker": "Vincent Wendy",
+      "en": "And 1,000 details means 1,000 ways to fail, right?",
+      "zh": "而 1,000 个细节就意味着 1,000 种失败的方式，对吧？"
+    },
+    {
+      "timestamp": "03:17",
+      "speaker": "Vincent Wendy",
+      "en": "So it's me and Devin, GPT, and Figma.",
+      "zh": "就是我，加上 Devin、GPT 和 Figma。"
+    },
+    {
+      "timestamp": "03:26",
+      "speaker": "Vincent Wendy",
+      "en": "And right now, we are at the stage where tools isn't the, like, it's not a problem anymore, but having a real problem is our advantage.",
+      "zh": "而现在，我们处于这样一个阶段：工具不再是问题了，反而拥有真实的问题成了我们的优势。"
+    },
+    {
+      "timestamp": "06:29",
+      "speaker": "Vincent Wendy",
+      "en": "Claude or any other LLMs love to throw in some random font size, right?",
+      "zh": "Claude 或任何其他 LLM 都喜欢乱扔一些随机的字号，对吧？"
+    },
+    {
+      "timestamp": "08:34",
+      "speaker": "Vincent Wendy",
+      "en": "We cannot make things like pixel perfect because once we tell the designer, hey, this is the design, and then, sorry, the engineers that created the design, for example, hey, I need this to be delivered, and then they don't create it pixel perfect.",
+      "zh": "我们没法做到像素级还原，因为一旦我们告诉做设计的工程师，嘿，这是设计稿，我要这个被交付出来，他们做出来的却不是像素级还原的。"
+    },
+    {
+      "timestamp": "11:40",
+      "speaker": "Vincent Wendy",
+      "en": "It's definitely going to help you develop a pixel perfect product.",
+      "zh": "它绝对能帮你开发出像素级完美的产品。"
+    },
+    {
+      "timestamp": "12:54",
+      "speaker": "Vincent Wendy",
+      "en": "Basically, all you need is a problem, because once you have a problem that worth solving, you can basically solve anything.",
+      "zh": "基本上，你需要的只是一个问题，因为一旦你有一个值得解决的问题，你基本上就能解决任何东西。"
+    },
+    {
+      "timestamp": "13:33",
+      "speaker": "Vincent Wendy",
+      "en": "And the accuracy is 100% based on the test that I",
+      "zh": "根据我的测试，准确率是 100%"
+    },
+    {
+      "timestamp": "13:57",
+      "speaker": "Vincent Wendy",
+      "en": "And that is very surprising, because as a human, we can, like, give errors.",
+      "zh": "这非常令人惊讶，因为作为人类，我们会出错。"
+    },
+    {
+      "timestamp": "14:09",
+      "speaker": "Vincent Wendy",
+      "en": "So human plus AI, combine it.",
+      "zh": "也就是人类加 AI，结合起来。"
+    },
+    {
+      "timestamp": "14:56",
+      "speaker": "Vincent Wendy",
+      "en": "And the real job is handling exceptions.",
+      "zh": "而真正的工作是处理例外情况。"
+    },
+    {
+      "timestamp": "15:44",
+      "speaker": "Vincent Wendy",
+      "en": "And so the takeaway here is that to solve the scale problem, you have to actually think small, think all the smallest thing possible, think everything that can go wrong and will go wrong, and then try to solve it before.",
+      "zh": "所以这里的要点是，要解决规模化问题，你必须真正地往小处想，想所有尽可能小的事情，想所有可能出错和必将出错的事情，然后提前尝试解决它们。"
+    },
+    {
+      "timestamp": "12:36",
+      "speaker": "Vincent Wendy",
+      "en": "I mean, the world that we live in right now is actually like the state for me as a designer is already at the peak because",
+      "zh": "我的意思是，我们现在生活的这个世界，对身为设计师的我来说，状态已经达到了巅峰，因为"
+    },
+    {
+      "timestamp": "14:13",
+      "speaker": "Vincent Wendy",
+      "en": "Well, you've got your own QA team.",
+      "zh": "嗯，你等于有了自己的 QA 团队。"
+    }
+  ],
+  "voice_script": "今天这期,聊一件听起来根本不可能的事:一个人,给一场 7000 人的大会,做完所有的设计。\n\n具体点说,贴纸、落地页、300 多位演讲者的公告图、600 多场议程的日程牌、140 多个赞助商的横幅——全是一个人干的。这个人叫 Vincent Wendy,是 AI Engineer 大会的高级创意设计师。所在团队大概十二到十五个人,但设计师就一个。那这么多活儿怎么干完的?答案是把 AI 当成一支设计团队来用。用 Wendy 自己的话说:就是我和 Devin、GPT 和 Figma。\n\n这套打法可以拆成五件事:打好基础、可复用设计、自动化工作流、验证输出、消除摩擦。咱们顺着讲。\n\n先说基础。Wendy 是产品设计师出身,熟悉一套叫原子化设计的思路——说白了,就是把设计拆成尽可能小的部件,像乐高一样,小块小块拼成完整的交付物。这套思路直接决定了怎么指挥 AI。用 Devin 的时候,会提前明确告诉它:我们就用这套桌面端字体排印,和这套移动端字体排印。为什么要这么较真?因为 Claude 或者随便哪个大模型,都喜欢乱扔一些随机的字号——你要是不提前定义好,交付出来就是废品。反过来,基础一旦打好,网站的品牌体系就定清楚了,市场团队可以基于它去生成邮件设计、传单、文档,不断地重复使用。\n\n基础有了,接下来才是他最花心思的部分:把工作流自动化。以前,会场每个房间的日程牌,都是在 Figma 上一张一张手动做。现在改成直接对 Devin 说:我要这个房间、这个基准。Devin 拉取最新数据,直接导出 PNG,拷到 U 盘就能上屏,数据还是准的。\n\n再往前一步,连设计师和开发者之间的老大难——像素级还原——也被解决了。以前这两边摩擦很大,做出来不是像素级还原,反馈来回无穷。现在 Devin 就住在 Slack 里,流程变成:在 Slack 发需求,Devin 去改 Figma,再发回 Slack。配合 Figma 里一个免费的规格表插件,把间距、字号、颜色全部标注成规格文档交给 AI,原话是——它绝对能帮你开发出像素级完美的产品。这话听着夸张,但 Wendy 甚至觉得,以前那套\"研究、构建、反馈循环\"的设计思维流程,对自己来说已经过时了。\n\n批量活儿也能自助化。300 多位演讲者的公告图,做成了一个工具,支持改名字、横屏模式、头像自动导入,其中还有个\"集换卡\"主题,受欢迎程度出乎意料。连照片识别都用上了:现场摄影师拍的照片,以前要按编码一张张找,现在直接问 Devin\"这个人是谁\",再配一个类似 Tinder 的左右比对,判断是不是同一个人。准不准?原话是:我觉得它挺准的。\n\n那生成出来的东西,谁来检查?这就要说到第三件事:让 AI 当 QA 团队。140 多个赞助商的横幅,缺一个 logo 都是大事故。Wendy 的做法很直接,问 Devin:你能不能检查一下这张图里有没有缺失的 logo?据测试,准确率是 100%,用原话说,\"这相当离谱\"。同样的方法也拿来复核周边 T 恤。人眼复核会有疏漏,AI 来兜底——人类加 AI,结合起来,等于自己养了一支 QA 团队。\n\n讲到这里,你可能觉得流程已经很顺了。但真正的挑战在这儿:真正的工作,是处理例外情况。举个例子,日程突然要更新,而生成的工具没有编辑按钮——以前这种事很麻烦,现在直接问 Devin:\"你能给我加一个编辑按钮吗?\"加完,导出 PNG,重新贴上屏,完事。从这里,能提炼出一个很实在的心法。要解决规模化问题,必须往小处想——想所有尽可能小的事情,想所有可能出错和必将出错的事情,然后提前解决。1000 个细节,就意味着 1000 种失败的方式。\n\n最后想说一个视角上的转变。以前设计师的瓶颈是工具、是人手,现在 AI 的能力已经够用了,工具不再是问题——那什么成了稀缺的东西?答案是,真实的、值得解决的问题。Wendy 有句话说得很到位:基本上,你需要的只是一个问题,因为一旦你有一个值得解决的问题,你基本上就能解决任何东西。一个人撑起 7000 人大会的全部设计,靠的不是什么魔法,就是这个道理。"
+}
