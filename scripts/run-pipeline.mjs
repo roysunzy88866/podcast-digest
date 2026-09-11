@@ -114,6 +114,11 @@ export const SOURCES = [
   //   grit:近 60 天 5 集、中位 65 分;题材对味(Arena CEO 谈 AI 榜单 / Booking CEO 谈 AI)。
   //   注:2026-08-21 调研曾判「偏管理/GTM,最边缘」未加 —— 本次用户看过当期标题后拍板加,反转旧裁决。
   { key: "grit", name: "Grit", feedUrl: "https://feeds.transistor.fm/go-to-market-grit", asr: "whisperx" },
+  // C39c(2026-09-12 用户「看看能不能抓一些内容源,你自己干」→ 夜间第三/四批实测后加):
+  //   mos=Masters of Scale:近 60 天 21 集、中位 32 分(便宜);Reid Hoffman 的创始人/CEO 访谈,约六成对味(掺体育/宏观/职场,交判官)。
+  { key: "mos", name: "Masters of Scale", feedUrl: "https://rss.art19.com/masters-of-scale", asr: "whisperx" },
+  //   strictlyvc:近 60 天 6 集、中位 32 分;TechCrunch 的 VC/创始人访谈(Grindr CEO 谈 AI / AI-native VC),约八成对味。
+  { key: "strictlyvc", name: "StrictlyVC Download", feedUrl: "https://feeds.megaphone.fm/YFL5140015188", asr: "whisperx" },
   { key: "ainativedev", name: "The AI-Native Dev", feedUrl: "https://rss.buzzsprout.com/2375985.rss", asr: "whisperx" }, // AI 原生开发,buzzsprout 词级 JSON(实测 579 段/集),周更约 60 分
   // 2026-09-03 用户拍板扩源(drift #81)。本轮候选全部 curl 实抓核过(iTunes 解析 feed → 真取 → parseFeed):
   //   只收「近 60 天有产量 + 单集成本放得进一个班次」的。**两源都不进补历史池** —— 用户要「只往前抓」。
@@ -149,6 +154,8 @@ export const BACKFILL_FEED_KEYS = [
   "sourcery", "iltb", "generalist",
   // C39b(2026-09-10):第二轮三源同样进池(供给见底才加的,必须能挖存货)
   "sed", "twist", "grit",
+  // C39c(2026-09-12):第三轮两源同样进池
+  "mos", "strictlyvc",
 ];
 
 // 带浏览器 UA:Substack 对裸 node 请求可能 403(drift #28)

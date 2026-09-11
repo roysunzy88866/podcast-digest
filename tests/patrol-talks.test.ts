@@ -15,8 +15,8 @@ const handleHtml = readFileSync(resolve(FIX, "yt-handle-page.html"), "utf8");
 
 describe("订阅配置(规则是数据)", () => {
   const subs = loadSubscriptions();
-  it("8 频道齐且 channel_id 对(2026-08-31 Anthropic / 09-09 YC / 09-10 Sequoia+Greylock)", () => {
-    expect(subs.map((s) => s.name).sort()).toEqual(["AI Engineer", "Anthropic", "Axios", "Greylock", "LangChain", "Sequoia Capital", "Stripe", "Y Combinator"]);
+  it("9 频道齐且 channel_id 对(2026-08-31 Anthropic / 09-09 YC / 09-10 Sequoia+Greylock / 09-12 Cursor)", () => {
+    expect(subs.map((s) => s.name).sort()).toEqual(["AI Engineer", "Anthropic", "Axios", "Cursor", "Greylock", "LangChain", "Sequoia Capital", "Stripe", "Y Combinator"]);
     const byName = Object.fromEntries(subs.map((s) => [s.name, s]));
     expect(byName["AI Engineer"].channelId).toBe("UCLKPca3kwwd-B59HNr-_lvA");
     expect(byName["Axios"].channelId).toBe("UCfU4-ArXuSX0tpyApyklMAg");
@@ -33,6 +33,9 @@ describe("订阅配置(规则是数据)", () => {
     expect(byName["Greylock"].channelId).toBe("UCZ7x7yDBbEFCGztD8BYvRhA");
     expect(byName["Sequoia Capital"].filters.minDurationSec).toBe(900); // 滤掉 <15 分钟预告片(GLM 001[1]:原漏钉)
     expect(byName["Greylock"].filters.minDurationSec).toBe(1200); // 滤掉 5-12 分钟招聘/融资短片
+    // 2026-09-12 用户夜间委托「自己干」:Cursor 频道 09-03 一次发 5 条 54-65 分钟 AI 编程实操深讲,与 Anthropic 频道同类
+    expect(byName["Cursor"].channelId).toBe("UC6YYHJzM6PhZ2Yey9BQiUaw");
+    expect(byName["Cursor"].filters.minDurationSec).toBe(1500); // 滤掉 1-3 分钟产品短片与 15 分钟 Compile 短讲
   });
   it("过滤规则以数据形式存在:Axios 标题必含 / LangChain 时长下限 / 各家 judgeHint", () => {
     const byName = Object.fromEntries(subs.map((s) => [s.name, s]));

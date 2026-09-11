@@ -370,3 +370,20 @@
 - **验收口径**:下一班 `gate-all` 实体层应为 **0 条**;仍红 = 还有第三类未知死链,再查。
 - **教训**:①部署与闸门解耦后,闸门红灯**不再阻断任何东西** → 极易长期"默认红"。红灯要么真拦、要么清零,**不许常驻**;②「防崩溃」式兜底(遇坏数据建父目录)会把响亮失败变成静默错误 —— 兜底时要同时修数据的形状。
 
+## drift #101(2026-09-12 凌晨,用户委托「你自己干」):夜间第三轮加源 + 「❌ 不抓」节也是非判据
+- **委托原话**:「你今天是在干什么呀?…把现在的内容罗列,自己理一理,看看能不能抓一些内容源了。你自己干吧,我睡觉了。」
+- **盘点(供给侧现状)**:源表 42 → 近 30 天按原发布日出货 118 集 = **3.9/天**,头部集中(a16z 18 / twentyvc 11 / talks 11 / lennys 8);
+  30 天零产出 9 源,其中 6 个是 09-10 刚加、还没轮到的(iltb/generalist/sed/twist/grit/engenable),3 个老源:changelog(3 集全被判官正确拒:传统软件工程)、unsupervised(4 集:2 判官拒、1 被 [1301] 内容审查放弃、1 已入库)、**cheekypint 自 2026-04-27 停更**(60 天 0 集,08-21 已列观察名单,现 4.5 个月 → 建议摘除,待用户定)。
+  60 天窗口候选:09-09 见底时 1 集 → 加 8 源后 **68 集**(sourcery 23 / sed 17 / twist 16 / howiai 6 / grit 5),约够 17 天顶量。
+- **本轮实测 19 个候选,加 3 个**:
+  | 源 | 类型 | 近60天 | 中位 | 判断 |
+  |---|---|---|---|---|
+  | mos (Masters of Scale) | 播客 | 21 | 32分 | Reid Hoffman 创始人/CEO 访谈,逐条看 21 集约六成对味(Autodesk/Shopify AI agents/Canva/Satya…),掺 NFL/美联储/职场关系交判官 |
+  | strictlyvc (StrictlyVC Download) | 播客 | 6 | 32分 | TechCrunch 的 VC/创始人访谈,八成对味,便宜 |
+  | Cursor | YouTube | 5 长片/60天 | 54-65分 | 09-03 一次性发 5 条 AI 编程实操深讲(重构遗留库/模型选择与 token 效率/agent 团队),与 Anthropic 频道同类;爆发式节奏 |
+- **列给用户定(边缘,未加)**:My First Million(20 集/60 分,商业点子+生活方式,约四成对味)· How I Built This(17 集/51 分,消费品牌创始人故事,约三成对味,且「Advice Line」是来电体)。
+- **实测排除(免重查)**:Super Data Science(模型发布/学术/月度回顾 ❌)· Lex Fridman(中位 149 分,估 291 > 280 预算,放不进)· Moonshots(多主题新闻速览 ❌)· Sharp Tech(只发 21 分钟预告,正片付费墙,同 Stratechery)· Odd Lots(feed 抓不到)· Robot Brains(2023 停)· Exponent(2022 停)· The Circuit(2026-02 停,可惜 37/37 带稿)· Upstream(2025-05 停)· Startup Grind(2023 停)· Startup Ideas Podcast(iTunes 查不到)。YouTube:Scale AI(Chain of Thought 系列=基准评测 ❌,Local Optima 60 天仅 1 条)· W&B(60 天 2 条 79-94 分钟长访谈,量少且贵)· Hugging Face(Journal Club=论文 ❌)· Cloudflare/Replit/Anyscale/Fireworks(产品/技术宣传)· Together/Perplexity/Mistral/Notion(handle 空)。
+- **顺手修**:品味档案「### ❌ 不抓(已砍)」一节列着 **Cognitive Revolution**(2026-08-16 已重新在册),而 drift #97 的「非判据」警示只盖了「📡 源清单」节。判官 2026-07-31 确曾以「源单在册 Unsupervised Learning 属 ❌ 不抓清单」拒过在册源。补同款警示 + 测试锚。
+- **产能账**:三轮共 11 源(42→44 播客/RSS + 9 YouTube 频道)。本轮毛 +0.5/天,过判官约 +0.3 → 预计约 **4.7–5.0 篇/天**,与目标 5 对齐。
+- **教训(第三次同型)**:凡是喂给判官的活文档,**任何**列源名的段落都会被当判据 —— 不止一节;要么把源清单类内容整段移出品味档案,要么每节都标。已记入待办:下次整理品味档案时把「📡 源清单」「❌ 不抓」两节整体搬到 docs/源清单-*.md。
+

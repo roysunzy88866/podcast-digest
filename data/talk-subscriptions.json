@@ -72,6 +72,15 @@
         "minDurationSec": 1200,
         "judgeHint": "要的是 35-58 分钟的企业 agent 落地案例与创始人对谈(Glean/Cresta/Box/Harvey/Braintrust/Baseten 那类)。噪音:5-12 分钟的招聘/融资建议短片、产品发布公告(如「Introducing SuperMe」)一律不对味,已由时长下限滤掉大部分。"
       }
+    },
+    {
+      "key": "cursor",
+      "name": "Cursor",
+      "channelId": "UC6YYHJzM6PhZ2Yey9BQiUaw",
+      "filters": {
+        "minDurationSec": 1500,
+        "judgeHint": "本频道大半是 1-3 分钟产品短片/客户案例(已由时长下限滤掉),另有 15 分钟左右的 Compile 会议短讲(偏学术,也滤掉)。要的是 50-65 分钟的 AI 编程实操深讲(重构遗留代码库 / 模型选择与 token 效率 / 让 agent 团队协作),与 Anthropic 频道的 Mastering Claude Code 同类。「Introducing X / Meet X」这种发布会式产品宣讲不对味;方法论与实操教学对味。实证 2026-09-03 一次性发了 5 条长片,节奏偏爆发式。"
+      }
     }
   ]
 }

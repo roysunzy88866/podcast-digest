@@ -176,5 +176,9 @@ describe("drift #97 · 源清单不是判据(曾误杀 TWIML)", () => {
     const i = doc.indexOf("📡 源清单");
     expect(i).toBeGreaterThan(-1);
     expect(doc.slice(i, i + 400)).toContain("不是判据");
+    // drift #101:「❌ 不抓(已砍)」那节也列着已重新在册的源(Cognitive Revolution),同样要标非判据
+    const j = doc.indexOf("### ❌ 不抓(已砍)");
+    expect(j).toBeGreaterThan(-1);
+    expect(doc.slice(j, j + 400)).toContain("不是判据");
   });
 });
