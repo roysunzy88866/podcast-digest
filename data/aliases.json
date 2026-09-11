@@ -13,7 +13,7 @@
     "forms": "所有算作「这个实体出现了」的书写形式 = 正确名 + 别名 + 缩写 + 官方稿误写。D17 与补链都读它",
     "evidence": "每个非显然 form 的出处,便于复核。不写出处的 form 不许进表"
   },
-  "_merge_doc": "顶层 `_merge` = 变体 id 归并组(Scenario 2c),与 entities[] 分开是**刻意的**:GLM 常把同一概念派成不同 id(单复数/词性 agent/agents/agentic),各自却落同一个中文 file → 生成期 out.set 后写覆盖丢页。这些是**常用译名概念词**(评估/剧本),若登记进 entities[] 会被 gate-facts D17 当中文专名误判(实测 5 处误报);gate-facts 只读 entities[],放这里天然隔离。build-entities 生成期读 `_merge` 做 id 归一(name/file/forms 供聚合与金句召回,variants 供归并)。**只人工在此点名的才并**:语义可能不同的(soul=配置义 vs 一个模型)不点名→不并。",
+  "_merge_doc": "顶层 `_merge` = 变体 id 归并组(Scenario 2c),与 entities[] 分开是**刻意的**:GLM 常把同一概念派成不同 id(单复数/词性 agent/agents/agentic),各自却落同一个中文 file → 生成期 out.set 后写覆盖丢页。这些是**常用译名概念词**(评估/剧本),若登记进 entities[] 会被 gate-facts D17 当中文专名误判(实测 5 处误报);gate-facts 只读 entities[],放这里天然隔离。build-entities 生成期读 `_merge` 做 id 归一(name/file/forms 供聚合与金句召回,variants 供归并)。**只人工在此点名的才并**:语义可能不同的(soul=配置义 vs 一个模型)不点名→不并。**variants 为空的组=只改名拆页**:两个异概念 id 撞了同一个中文 file 时,给其中一个在这里指定新 name/file(不进 entities[] 同理防 D17),drift #102。",
   "_诚实边界": "forms 里混着「正确名」与「转写错形式」是有意为之:D17 只回答『这个专名在原文出现过吗』,回答不了『原文写对了吗』。官方稿本身会错(Modo/Mattia),那层靠英文原稿存档 + 事后可查兜,不宣称零失真。",
   "entities": [
     {
@@ -325,8 +325,8 @@
       "type": "concept",
       "name": "智能体 (agent)",
       "file": "智能体",
-      "forms": ["智能体", "agent", "agents", "agentic"],
-      "variants": ["agents", "agentic"],
+      "forms": ["智能体", "agent", "agents", "agentic", "agentic systems"],
+      "variants": ["agents", "agentic", "agentic-systems"],
       "evidence": "2026-07-30 变体归并(Scenario 2c,用户拍板):GLM 跨集把同一概念派成 agent(29集)/agents(7集)/agentic(1集),三者各自却落 file=智能体 → 后写覆盖前写,页面只剩 1 集。归并后聚回 37 集。呼应裁决 #10 早定的 aliases:[Agent,agent,agents] 设计意图"
     },
     {
@@ -382,6 +382,474 @@
       "forms": ["技能", "skills", "skill"],
       "variants": ["skill"],
       "evidence": "2026-07-30 变体归并(Scenario 2c):skills(2集)/ skill(1集)同概念(单复数),各落 file=技能 → 后写覆盖前写。⚠️ 剧本同样刻意不进 entities[](常用词,防 D17 误报)"
+    },
+    {
+      "id": "multimodal",
+      "type": "concept",
+      "name": "多模态 (multimodal)",
+      "file": "多模态",
+      "forms": ["多模态", "multimodal", "multimodality"],
+      "variants": ["multimodality"],
+      "evidence": "2026-09-11 变体归并(drift #102):multimodal(3集) / multimodality(1集) 同概念,各落 file=多模态 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "workflow",
+      "type": "concept",
+      "name": "工作流 (workflow)",
+      "file": "工作流",
+      "forms": ["工作流", "workflow", "Workflows"],
+      "variants": ["workflows"],
+      "evidence": "2026-09-11 变体归并(drift #102):workflow(5集) / workflows(1集) 同概念,各落 file=工作流 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "name": "后训练 (post training)",
+      "file": "后训练",
+      "forms": ["后训练", "post training", "post-train"],
+      "variants": ["post-train"],
+      "evidence": "2026-09-11 变体归并(drift #102):post-training(19集) / post-train(1集) 同概念,各落 file=后训练 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "large-language-models",
+      "type": "concept",
+      "name": "大语言模型 (large language models)",
+      "file": "大语言模型",
+      "forms": ["大语言模型", "large language models", "large language model"],
+      "variants": ["large-language-model"],
+      "evidence": "2026-09-11 变体归并(drift #102):large-language-models(3集) / large-language-model(1集) 同概念,各落 file=大语言模型 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "network-effects",
+      "type": "concept",
+      "name": "网络效应 (network effects)",
+      "file": "网络效应",
+      "forms": ["网络效应", "network effects", "network effect"],
+      "variants": ["network-effect"],
+      "evidence": "2026-09-11 变体归并(drift #102):network-effects(5集) / network-effect(3集) 同概念,各落 file=网络效应 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "build-in-public",
+      "type": "concept",
+      "name": "公开构建 (build in public)",
+      "file": "公开构建",
+      "forms": ["公开构建", "build in public", "building public"],
+      "variants": ["building-public"],
+      "evidence": "2026-09-11 变体归并(drift #102):build-in-public(1集) / building-public(1集) 同概念,各落 file=公开构建 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "prompt",
+      "type": "concept",
+      "name": "提示词 (prompt)",
+      "file": "提示词",
+      "forms": ["提示词", "prompt", "prompts"],
+      "variants": ["prompts"],
+      "evidence": "2026-09-11 变体归并(drift #102):prompt(8集) / prompts(2集) 同概念,各落 file=提示词 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "name": "缩放定律 (scaling laws)",
+      "file": "缩放定律",
+      "forms": ["缩放定律", "scaling laws", "scaling law"],
+      "variants": ["scaling-law"],
+      "evidence": "2026-09-11 变体归并(drift #102):scaling-laws(5集) / scaling-law(1集) 同概念,各落 file=缩放定律 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "outcome-based-pricing",
+      "type": "concept",
+      "name": "基于结果的定价 (outcome-based pricing)",
+      "file": "基于结果的定价",
+      "forms": ["基于结果的定价", "outcome-based pricing", "outcomes-based pricing"],
+      "variants": ["outcomes-based-pricing"],
+      "evidence": "2026-09-11 变体归并(drift #102):outcome-based-pricing(2集) / outcomes-based-pricing(1集) 同概念,各落 file=基于结果的定价 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "forms": ["前沿模型", "frontier models", "frontier model"],
+      "variants": ["frontier-model"],
+      "evidence": "2026-09-11 变体归并(drift #102):frontier-models(8集) / frontier-model(7集) 同概念,各落 file=前沿模型 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "forms": ["护栏", "guardrails", "safeguards"],
+      "variants": ["safeguards"],
+      "evidence": "2026-09-11 变体归并(drift #102):guardrails(40集) / safeguards(2集) 同概念,各落 file=护栏 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "name": "微调 (fine tune)",
+      "file": "微调",
+      "forms": ["微调", "fine tune", "fine-tuning", "fine-tuned"],
+      "variants": ["fine-tuning", "fine-tuned"],
+      "evidence": "2026-09-11 变体归并(drift #102):fine-tune(8集) / fine-tuning(6集) / fine-tuned(1集) 同概念,各落 file=微调 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "forms": ["开源模型", "open source models", "open models"],
+      "variants": ["open-models"],
+      "evidence": "2026-09-11 变体归并(drift #102):open-source-models(10集) / open-models(6集) 同概念,各落 file=开源模型 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "hallucination",
+      "type": "concept",
+      "name": "幻觉 (hallucination)",
+      "file": "幻觉",
+      "forms": ["幻觉", "hallucination", "hallucinations"],
+      "variants": ["hallucinations"],
+      "evidence": "2026-09-11 变体归并(drift #102):hallucination(4集) / hallucinations(4集) 同概念,各落 file=幻觉 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "systems-thinking",
+      "type": "concept",
+      "name": "系统思维 (systems thinking)",
+      "file": "系统思维",
+      "forms": ["系统思维", "systems thinking", "system thinking"],
+      "variants": ["system-thinking"],
+      "evidence": "2026-09-11 变体归并(drift #102):systems-thinking(3集) / system-thinking(1集) 同概念,各落 file=系统思维 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "conway-s-law",
+      "type": "concept",
+      "name": "康威定律 (Conway's Law)",
+      "file": "康威定律",
+      "forms": ["康威定律", "Conway's Law", "Conway"],
+      "variants": ["conway"],
+      "evidence": "2026-09-11 变体归并(drift #102):conway-s-law(1集) / conway(1集) 同概念,各落 file=康威定律 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "design-partner",
+      "type": "concept",
+      "name": "设计合作伙伴 (design partner)",
+      "file": "设计合作伙伴",
+      "forms": ["设计合作伙伴", "design partner", "design partners"],
+      "variants": ["design-partners"],
+      "evidence": "2026-09-11 变体归并(drift #102):design-partner(2集) / design-partners(1集) 同概念,各落 file=设计合作伙伴 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "forms": ["世界模型", "world model", "world models"],
+      "variants": ["world-models"],
+      "evidence": "2026-09-11 变体归并(drift #102):world-model(5集) / world-models(1集) 同概念,各落 file=世界模型 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "bitter-lesson",
+      "type": "concept",
+      "name": "苦涩的教训 (bitter lesson)",
+      "file": "苦涩的教训",
+      "forms": ["苦涩的教训", "bitter lesson", "The Bitter Lesson"],
+      "variants": ["the-bitter-lesson"],
+      "evidence": "2026-09-11 变体归并(drift #102):bitter-lesson(5集) / the-bitter-lesson(1集) 同概念,各落 file=苦涩的教训 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "point-solution",
+      "type": "concept",
+      "name": "单点解决方案 (point solution)",
+      "file": "单点解决方案",
+      "forms": ["单点解决方案", "point solution", "point solutions"],
+      "variants": ["point-solutions"],
+      "evidence": "2026-09-11 变体归并(drift #102):point-solution(1集) / point-solutions(1集) 同概念,各落 file=单点解决方案 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "coding-agents",
+      "type": "concept",
+      "name": "编码智能体 (coding agents)",
+      "file": "编码智能体",
+      "forms": ["编码智能体", "coding agents", "coding agent"],
+      "variants": ["coding-agent"],
+      "evidence": "2026-09-11 变体归并(drift #102):coding-agents(7集) / coding-agent(3集) 同概念,各落 file=编码智能体 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "ai-coding",
+      "type": "concept",
+      "name": "AI 编程 (AI coding)",
+      "file": "AI 编程",
+      "forms": ["AI coding"],
+      "variants": ["coding"],
+      "evidence": "2026-09-11 变体归并(drift #102):ai-coding(2集) / coding(1集) 同概念,各落 file=AI 编程 → 后写覆盖前写、丢页。泛词变体只归并 id、不进 forms(防金句召回误拉);file 不进 forms(norm 去中文后只剩单词 ai,会召回全库带 AI 的句子)"
+    },
+    {
+      "id": "foundation-models",
+      "type": "concept",
+      "name": "基础模型 (foundation models)",
+      "file": "基础模型",
+      "forms": ["基础模型", "foundation models", "foundation model"],
+      "variants": ["foundation-model"],
+      "evidence": "2026-09-11 变体归并(drift #102):foundation-models(4集) / foundation-model(1集) 同概念,各落 file=基础模型 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "agentic-loop",
+      "type": "concept",
+      "name": "智能体循环 (agentic loop)",
+      "file": "智能体循环",
+      "forms": ["智能体循环", "agentic loop", "agent loop"],
+      "variants": ["agent-loop"],
+      "evidence": "2026-09-11 变体归并(drift #102):agentic-loop(2集) / agent-loop(1集) 同概念,各落 file=智能体循环 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "continual-learning",
+      "type": "concept",
+      "name": "持续学习 (continual learning)",
+      "file": "持续学习",
+      "forms": ["持续学习", "continual learning", "continuous learning"],
+      "variants": ["continuous-learning"],
+      "evidence": "2026-09-11 变体归并(drift #102):continual-learning(6集) / continuous-learning(2集) 同概念,各落 file=持续学习 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "jevons-paradox",
+      "type": "concept",
+      "name": "杰文斯悖论 (Jevons paradox)",
+      "file": "杰文斯悖论",
+      "forms": ["杰文斯悖论", "Jevons paradox", "Javon's paradox"],
+      "variants": ["javon-s-paradox"],
+      "evidence": "2026-09-11 变体归并(drift #102):jevons-paradox(2集) / javon-s-paradox(1集) 同概念,各落 file=杰文斯悖论 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "forms": ["数据中心", "data center", "data centers"],
+      "variants": ["data-centers"],
+      "evidence": "2026-09-11 变体归并(drift #102):data-center(6集) / data-centers(3集) 同概念,各落 file=数据中心 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "stablecoin",
+      "type": "concept",
+      "name": "稳定币 (stablecoin)",
+      "file": "稳定币",
+      "forms": ["稳定币", "stablecoin", "stablecoins"],
+      "variants": ["stablecoins"],
+      "evidence": "2026-09-11 变体归并(drift #102):stablecoin(2集) / stablecoins(2集) 同概念,各落 file=稳定币 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "jailbreak",
+      "type": "concept",
+      "name": "越狱 (jailbreak)",
+      "file": "越狱",
+      "forms": ["越狱", "jailbreak", "jailbreaking"],
+      "variants": ["jailbreaking"],
+      "evidence": "2026-09-11 变体归并(drift #102):jailbreak(1集) / jailbreaking(1集) 同概念,各落 file=越狱 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "shader",
+      "type": "concept",
+      "name": "着色器 (shader)",
+      "file": "着色器",
+      "forms": ["着色器", "shader", "shaders"],
+      "variants": ["shaders"],
+      "evidence": "2026-09-11 变体归并(drift #102):shader(1集) / shaders(1集) 同概念,各落 file=着色器 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "verifier",
+      "type": "concept",
+      "name": "验证器 (verifier)",
+      "file": "验证器",
+      "forms": ["验证器", "verifier", "verifiers", "validator"],
+      "variants": ["verifiers", "validator"],
+      "evidence": "2026-09-11 变体归并(drift #102):verifier(2集) / verifiers(2集) / validator(1集) 同概念,各落 file=验证器 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "forms": ["代码审查", "code review", "code reviews"],
+      "variants": ["code-reviews"],
+      "evidence": "2026-09-11 变体归并(drift #102):code-review(7集) / code-reviews(2集) 同概念,各落 file=代码审查 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "agentic-identity",
+      "type": "concept",
+      "name": "智能体身份 (agentic identity)",
+      "file": "智能体身份",
+      "forms": ["智能体身份", "agentic identity", "agent identities"],
+      "variants": ["agent-identities"],
+      "evidence": "2026-09-11 变体归并(drift #102):agentic-identity(1集) / agent-identities(1集) 同概念,各落 file=智能体身份 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "closed-source-models",
+      "type": "concept",
+      "name": "闭源模型 (closed source models)",
+      "file": "闭源模型",
+      "forms": ["闭源模型", "closed source models"],
+      "variants": ["closed"],
+      "evidence": "2026-09-11 变体归并(drift #102):closed-source-models(1集) / closed(1集) 同概念,各落 file=闭源模型 → 后写覆盖前写、丢页。泛词变体只归并 id、不进 forms(防金句召回误拉)"
+    },
+    {
+      "id": "loop",
+      "type": "concept",
+      "name": "循环 (loop)",
+      "file": "循环",
+      "forms": ["循环", "loop", "loops"],
+      "variants": ["loops"],
+      "evidence": "2026-09-11 变体归并(drift #102):loop(6集) / loops(1集) 同概念,各落 file=循环 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "skill-file",
+      "type": "concept",
+      "name": "技能文件 (skill file)",
+      "file": "技能文件",
+      "forms": ["技能文件", "skill file", "skill files"],
+      "variants": ["skill-files"],
+      "evidence": "2026-09-11 变体归并(drift #102):skill-file(2集) / skill-files(1集) 同概念,各落 file=技能文件 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "embedding-model",
+      "type": "concept",
+      "name": "嵌入模型 (embedding model)",
+      "file": "嵌入模型",
+      "forms": ["嵌入模型", "embedding model"],
+      "variants": ["embedding"],
+      "evidence": "2026-09-11 变体归并(drift #102):embedding-model(1集) / embedding(1集) 同概念,各落 file=嵌入模型 → 后写覆盖前写、丢页。泛词变体只归并 id、不进 forms(防金句召回误拉)"
+    },
+    {
+      "id": "ai-assistant",
+      "type": "concept",
+      "name": "AI 助手 (AI assistant)",
+      "file": "AI 助手",
+      "forms": ["AI assistant", "AI assistants"],
+      "variants": ["ai-assistants"],
+      "evidence": "2026-09-11 变体归并(drift #102):ai-assistant(1集) / ai-assistants(1集) 同概念,各落 file=AI 助手 → 后写覆盖前写、丢页。file 不进 forms(norm 去中文后只剩单词 ai,会召回全库带 AI 的句子)"
+    },
+    {
+      "id": "model-routing",
+      "type": "concept",
+      "name": "模型路由 (model routing)",
+      "file": "模型路由",
+      "forms": ["模型路由", "model routing"],
+      "variants": ["routing"],
+      "evidence": "2026-09-11 变体归并(drift #102):model-routing(4集) / routing(2集) 同概念,各落 file=模型路由 → 后写覆盖前写、丢页。泛词变体只归并 id、不进 forms(防金句召回误拉)"
+    },
+    {
+      "id": "determinism",
+      "type": "concept",
+      "name": "确定性 (determinism)",
+      "file": "确定性",
+      "forms": ["确定性", "determinism", "deterministic"],
+      "variants": ["deterministic"],
+      "evidence": "2026-09-11 变体归并(drift #102):determinism(1集) / deterministic(1集) 同概念,各落 file=确定性 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "subagent",
+      "type": "concept",
+      "name": "子智能体 (subagent)",
+      "file": "子智能体",
+      "forms": ["子智能体", "subagent", "sub-agents", "subagents"],
+      "variants": ["sub-agents", "subagents"],
+      "evidence": "2026-09-11 变体归并(drift #102):subagent(3集) / sub-agents(2集) / subagents(1集) 同概念,各落 file=子智能体 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "dynamic-workflow",
+      "type": "concept",
+      "name": "动态工作流 (dynamic workflow)",
+      "file": "动态工作流",
+      "forms": ["动态工作流", "dynamic workflow", "dynamic workflows"],
+      "variants": ["dynamic-workflows"],
+      "evidence": "2026-09-11 变体归并(drift #102):dynamic-workflow(1集) / dynamic-workflows(1集) 同概念,各落 file=动态工作流 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "multi-agent-systems",
+      "type": "concept",
+      "name": "多智能体系统 (multi-agent systems)",
+      "file": "多智能体系统",
+      "forms": ["多智能体系统", "multi-agent systems", "multi-agent system"],
+      "variants": ["multi-agent-system"],
+      "evidence": "2026-09-11 变体归并(drift #102):multi-agent-systems(4集) / multi-agent-system(1集) 同概念,各落 file=多智能体系统 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "vertical-integration",
+      "type": "concept",
+      "name": "垂直整合 (vertical integration)",
+      "file": "垂直整合",
+      "forms": ["垂直整合", "vertical integration", "vertically integrated"],
+      "variants": ["vertically-integrated"],
+      "evidence": "2026-09-11 变体归并(drift #102):vertical-integration(2集) / vertically-integrated(2集) 同概念,各落 file=垂直整合 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "cloud",
+      "type": "concept",
+      "name": "云计算 (cloud)",
+      "file": "云计算",
+      "forms": ["云计算", "cloud", "cloud computing"],
+      "variants": ["cloud-computing"],
+      "evidence": "2026-09-11 变体归并(drift #102):cloud(3集) / cloud-computing(1集) 同概念,各落 file=云计算 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "crawl",
+      "type": "concept",
+      "name": "爬取 (crawl)",
+      "file": "爬取",
+      "forms": ["爬取", "crawl", "crawling"],
+      "variants": ["crawling"],
+      "evidence": "2026-09-11 变体归并(drift #102):crawl(2集) / crawling(1集) 同概念,各落 file=爬取 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "shapley-value",
+      "type": "concept",
+      "name": "Shapley 值 (Shapley value)",
+      "file": "Shapley 值",
+      "forms": ["Shapley 值", "Shapley value", "Shapley values"],
+      "variants": ["shapley-values"],
+      "evidence": "2026-09-11 变体归并(drift #102):shapley-value(1集) / shapley-values(1集) 同概念,各落 file=Shapley 值 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "reward-hacking",
+      "type": "concept",
+      "name": "奖励黑客 (reward hacking)",
+      "file": "奖励黑客",
+      "forms": ["奖励黑客", "reward hacking", "reward hack"],
+      "variants": ["reward-hack"],
+      "evidence": "2026-09-11 变体归并(drift #102):reward-hacking(3集) / reward-hack(1集) 同概念,各落 file=奖励黑客 → 后写覆盖前写、丢页"
+    },
+    {
+      "id": "conversion-rate",
+      "type": "concept",
+      "name": "转化率 (conversion rate)",
+      "file": "转化率",
+      "forms": ["转化率", "conversion rate"],
+      "variants": ["conversion"],
+      "evidence": "2026-09-11 变体归并(drift #102):conversion-rate(1集) / conversion(1集) 同概念,各落 file=转化率 → 后写覆盖前写、丢页。泛词变体只归并 id、不进 forms(防金句召回误拉)"
+    },
+    {
+      "id": "reasoning",
+      "type": "concept",
+      "name": "推理能力 (reasoning)",
+      "file": "推理能力",
+      "forms": ["推理能力", "reasoning"],
+      "variants": [],
+      "evidence": "2026-09-11 异概念拆页(drift #102,用户拍板):reasoning(5集)与 inference(42集)不是一回事却同落 file=推理 → 丢页。variants 为空=只改名拆页不归并;inference 保留原名"
+    },
+    {
+      "id": "bot",
+      "type": "concept",
+      "name": "AI Bot (bot)",
+      "file": "AI Bot",
+      "forms": ["AI Bot", "bot"],
+      "variants": [],
+      "evidence": "2026-09-11 异概念拆页(drift #102,用户拍板):bot(3集)与 robotics(4集)不是一回事却同落 file=机器人 → 丢页。variants 为空=只改名拆页不归并;robotics 保留原名"
+    },
+    {
+      "id": "autopilot",
+      "type": "concept",
+      "name": "全自动模式 (autopilot)",
+      "file": "全自动模式",
+      "forms": ["全自动模式", "autopilot"],
+      "variants": [],
+      "evidence": "2026-09-11 异概念拆页(drift #102,用户拍板):autopilot(1集)与 self-driving(1集)不是一回事却同落 file=自动驾驶 → 丢页。variants 为空=只改名拆页不归并;self-driving 保留原名"
     }
   ]
 }
