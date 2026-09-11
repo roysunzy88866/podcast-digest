@@ -1,0 +1,761 @@
+{
+  "episode_id": "2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p",
+  "podcast": "精选演讲",
+  "date": "2026-09-09",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "MCP",
+    "企业 AI 落地",
+    "上下文工程"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "ajay-prakash",
+      "type": "person",
+      "role": "guest",
+      "name": "Ajay Prakash",
+      "file": "Ajay Prakash",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "linkedin",
+      "type": "company",
+      "role": "company",
+      "name": "LinkedIn",
+      "file": "LinkedIn",
+      "primary": true,
+      "how_described": "本集主讲人所在的公司,拥有超过 1,000 个仓库、数千个微服务和大量自建基础设施,他们为编码智能体搭建了 Contextual Agent Playbooks and Tools 系统让 AI 在企业内真正可用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            20.282,
+            26.606
+          ],
+          "quote": "But yeah, my name is Ajay, and I am a software engineer at LinkedIn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            28.027,
+            36.072
+          ],
+          "quote": "Today I'm going to be talking about how we are doing context engineering to improve the performance of coding agents at LinkedIn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            169.445,
+            182.146
+          ],
+          "quote": "So this is how teams at LinkedIn are using coding agents as effective coworkers with deep understanding of LinkedIn's internal systems and code to help the teams be really productive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            185.452,
+            193.094
+          ],
+          "quote": "And this is possible because of a system that we built called Contextual Agent Playbooks and Tools at LinkedIn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            210.813,
+            220.721
+          ],
+          "quote": "So just like any other company, even at LinkedIn, we wanted to use the coding agents for our engineers and everyone to be really productive with the AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            222.757,
+            236.586
+          ],
+          "quote": "So we started giving these coding agents to all of the engineers, and the problem was the coding agents doesn't really, or the wipe coding doesn't really work in a large enterprise like LinkedIn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            246.74,
+            256.552
+          ],
+          "quote": "So they don't have the context of how we are mature code bases at LinkedIn or our internal frameworks, our internal systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            296.63,
+            309.157
+          ],
+          "quote": "To understand the problem, to get more perspective, so if you look at the LinkedIn stack, we have over 1,000 repos which make up thousands of microservices and apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            327.916,
+            335.959
+          ],
+          "quote": "We have our own configuration management system, which is purely internal to LinkedIn and coding agents doesn't have any idea about them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            356.345,
+            370.951
+          ],
+          "quote": "How can we make any coding agent like Cursor or Claude Code or GitHub Copilot understand our LinkedIn's internal system so well that they can ship the code that our engineers can trust?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            415.2,
+            422.326
+          ],
+          "quote": "So we have a pretty sophisticated CodeSearch system at LinkedIn where engineers can go and search for code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            447.879,
+            460.926
+          ],
+          "quote": "And the agent can use the code search tools to figure out the right examples of how we do things at LinkedIn and use that to give you an answer and also implement it based on its findings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            701.822,
+            728.947
+          ],
+          "quote": "For example, if the engineer goes and asks, how do I set up an Airflow DAG at LinkedIn, the agent will first decide, okay, so I have a playbook for creating that specific task, and it will use that first, uses that playbook to get the information, and then it calls the necessary, follows that instructions and calls the relevant tools to get the job done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            733.512,
+            744.38
+          ],
+          "quote": "Mainly because now anyone at LinkedIn can go ahead and create, set up a playbook and check it into a repository and make it available for everyone else at LinkedIn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            939.55,
+            949.012
+          ],
+          "quote": "So this particular system, we have one local MCP server, and it is automatically installed on all of the LinkedIn laptops by default.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            949.272,
+            962.336
+          ],
+          "quote": "So if you join LinkedIn and you get a laptop, it is pre-installed, and any updates to the MCP server or the playbooks of the tools, it automatically gets updated every one hour on all the laptops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            1182.528,
+            1192.556
+          ],
+          "quote": "In a large enterprise like LinkedIn, it's not just enough to give all of the engineers all the latest and greatest tools and models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            1203.314,
+            1206.817
+          ],
+          "quote": "Thank you for attending, and feel free to connect with me on LinkedIn.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agents)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集主线:在 LinkedIn 这样的企业里,由于只在开源仓库上训练、缺乏内部上下文,编码智能体会幻觉、卡住、编造错误内容;补足上下文基础设施后,它们能像高效同事一样端到端完成事故排查、写代码等工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            28.027,
+            36.072
+          ],
+          "quote": "Today I'm going to be talking about how we are doing context engineering to improve the performance of coding agents at LinkedIn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            169.445,
+            182.146
+          ],
+          "quote": "So this is how teams at LinkedIn are using coding agents as effective coworkers with deep understanding of LinkedIn's internal systems and code to help the teams be really productive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            203.968,
+            210.793
+          ],
+          "quote": "To understand why we built the system, we have to go back to the early days of coding agents, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            210.813,
+            220.721
+          ],
+          "quote": "So just like any other company, even at LinkedIn, we wanted to use the coding agents for our engineers and everyone to be really productive with the AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            222.757,
+            236.586
+          ],
+          "quote": "So we started giving these coding agents to all of the engineers, and the problem was the coding agents doesn't really, or the wipe coding doesn't really work in a large enterprise like LinkedIn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            292.227,
+            294.529
+          ],
+          "quote": "So coding agents was not effective.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            327.916,
+            335.959
+          ],
+          "quote": "We have our own configuration management system, which is purely internal to LinkedIn and coding agents doesn't have any idea about them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            431.133,
+            434.576
+          ],
+          "quote": "So we made that available to the coding agents via MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            986.637,
+            1003.228
+          ],
+          "quote": "These are the playbooks which are very specific to your code repository, and you can just have them checked in with your repo, and only when the coding agents are working in your repo, those playbooks will be automatically picked up.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "Anthropic 发布的为智能体构建工具的行业标准协议;LinkedIn 构建了内部 MCP,把 CodeSearch、Docs、Jira、Slack 等工具开放给智能体,并面临超过三四十个工具会拖垮性能的通病",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            390.447,
+            402.77
+          ],
+          "quote": "So in early 2025, last year, so Anthropic released MCP and it quickly became the industry standard for building tools to the agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            403.811,
+            408.932
+          ],
+          "quote": "We leveraged that and pretty early on, we built our own internal MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            431.133,
+            434.576
+          ],
+          "quote": "So we made that available to the coding agents via MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            476.981,
+            483.163
+          ],
+          "quote": "So every tool that we added to our internal MCP, it created more value.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            642.995,
+            660.486
+          ],
+          "quote": "So we built a system, we invented a system in early 2025 called as Playbooks, where we not only provide the tools to the agents via MCP, we also allow the agents to access these instructions and prompts via MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            846.283,
+            859.938
+          ],
+          "quote": "And Playbooks are a little bit more nuanced because it helps us seamlessly capture all of the organizational context and service via MCP without much of a setup.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            934.108,
+            937.829
+          ],
+          "quote": "So what does the architecture of a MCP server looks like?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            939.55,
+            949.012
+          ],
+          "quote": "So this particular system, we have one local MCP server, and it is automatically installed on all of the LinkedIn laptops by default.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            949.272,
+            962.336
+          ],
+          "quote": "So if you join LinkedIn and you get a laptop, it is pre-installed, and any updates to the MCP server or the playbooks of the tools, it automatically gets updated every one hour on all the laptops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            1015.101,
+            1020.524
+          ],
+          "quote": "And also this is one MCP server which is serving all of the playbooks and tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            1040.899,
+            1042.88
+          ],
+          "quote": "So this is a common problem with MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            1058.173,
+            1063.995
+          ],
+          "quote": "Surfacing all of these playbooks and tools through MCP, we replace them with three meta tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            1158.978,
+            1174.542
+          ],
+          "quote": "So even before creating an MCP server, we thought, okay, our fundamental principle should be how do we ensure not just productivity, but how do we ensure the quality and also reliability of the system so that it doesn't degrade as we",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "playbooks",
+      "type": "concept",
+      "role": "concept",
+      "name": "Playbooks",
+      "file": "Playbooks",
+      "primary": true,
+      "how_described": "LinkedIn 2025 年初发明的系统:把指令和提示词本身做成 MCP 上的资源,像普通工具一样被智能体调用,从而捕获隐性知识;原则是自包含、拆小再引用,且让智能体使用后自己提 PR 更新,形成自我学习飞轮",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            185.452,
+            193.094
+          ],
+          "quote": "And this is possible because of a system that we built called Contextual Agent Playbooks and Tools at LinkedIn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            642.995,
+            660.486
+          ],
+          "quote": "So we built a system, we invented a system in early 2025 called as Playbooks, where we not only provide the tools to the agents via MCP, we also allow the agents to access these instructions and prompts via MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            661.386,
+            662.227
+          ],
+          "quote": "We call it Playbooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            747.562,
+            760.712
+          ],
+          "quote": "So as people started creating more playbooks, so we wanted, so this is one of two foundational principles we want everyone to follow when creating a playbook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            784.613,
+            793.258
+          ],
+          "quote": "And the second most important one is to break a big playbook into multiple smaller playbooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            794.258,
+            796.86
+          ],
+          "quote": "And reference those smaller playbooks from a bigger playbook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            808.873,
+            815.018
+          ],
+          "quote": "So if you have a small self-contained playbooks, it can be used from multiple, referenced from multiple playbooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            821.856,
+            833.561
+          ],
+          "quote": "Context, which means the agent, only when it needs to read a smaller playbook, instead of reading the entire, all of the playbooks at once, it can progressively go and read the playbooks as it wants.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            837.143,
+            845.127
+          ],
+          "quote": "So playbooks are very similar to skills, but we developed this entire system around playbooks even before skills was a thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            846.283,
+            859.938
+          ],
+          "quote": "And Playbooks are a little bit more nuanced because it helps us seamlessly capture all of the organizational context and service via MCP without much of a setup.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            863.302,
+            867.827
+          ],
+          "quote": "And another cool thing about this Playbooks is the self-improving loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            869.471,
+            875.237
+          ],
+          "quote": "So you have engineers creating these playbooks and checking into the repository.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            906.096,
+            920.369
+          ],
+          "quote": "And we also encourage the agents to figure out how to improve the playbook and use that context to update the playbooks, check out the repository and update the playbooks and create a PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            921.21,
+            925.534
+          ],
+          "quote": "And once it gets approved, the playbooks gets updated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            949.272,
+            962.336
+          ],
+          "quote": "So if you join LinkedIn and you get a laptop, it is pre-installed, and any updates to the MCP server or the playbooks of the tools, it automatically gets updated every one hour on all the laptops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            964.287,
+            975.632
+          ],
+          "quote": "And we have a concept of two local playbooks and central playbooks, which means, so central playbooks are the playbooks which are cross-cutting in nature, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            975.672,
+            982.735
+          ],
+          "quote": "So you have, these playbooks apply for multiple repositories, not just one code repository.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            983.295,
+            984.816
+          ],
+          "quote": "And then you have local playbooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            986.637,
+            1003.228
+          ],
+          "quote": "These are the playbooks which are very specific to your code repository, and you can just have them checked in with your repo, and only when the coding agents are working in your repo, those playbooks will be automatically picked up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            1003.748,
+            1013.595
+          ],
+          "quote": "So this helps us scale the local playbooks which are very specific to repo without having to worry about changing the central repository.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            1015.101,
+            1020.524
+          ],
+          "quote": "And also this is one MCP server which is serving all of the playbooks and tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            1036.517,
+            1040.179
+          ],
+          "quote": "You may be wondering how many tools and playbooks it can support, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            1058.173,
+            1063.995
+          ],
+          "quote": "Surfacing all of these playbooks and tools through MCP, we replace them with three meta tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            1066.896,
+            1072.038
+          ],
+          "quote": "The agent first uses this tool to search for the relevant tools and playbooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            1110.318,
+            1118.6
+          ],
+          "quote": "So now we have over 8,000 users daily, using the system daily, using tools and Playbooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            1119.06,
+            1122.021
+          ],
+          "quote": "So we have over 1,300 tools and over 600 Playbooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            1134.728,
+            1141.656
+          ],
+          "quote": "So across different functions, they are using the tools and bringing their playbooks to automate their workflows.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "本集开场点题:LinkedIn 通过为编码智能体补足工具、指令和组织上下文来提升其性能的做法,包括解决上下文过载、知识散落、无持久记忆三大问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            28.027,
+            36.072
+          ],
+          "quote": "Today I'm going to be talking about how we are doing context engineering to improve the performance of coding agents at LinkedIn.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体基础设施 (infrastructure)",
+      "file": "智能体基础设施",
+      "primary": true,
+      "how_described": "本集核心经验:在大型企业里,光把最新工具和模型发给工程师不够,必须为智能体构建正确的基础设施让它们在企业环境内运作,否则发挥不了作用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 147,
+          "t": [
+            1175.502,
+            1181.947
+          ],
+          "quote": "And the second one was build the right infrastructure for agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            1192.816,
+            1199.301
+          ],
+          "quote": "They are not very effective if you don't build the right infrastructure for the agents to operate within your enterprise.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codesearch",
+      "type": "concept",
+      "role": "concept",
+      "name": "CodeSearch",
+      "file": "CodeSearch",
+      "primary": false,
+      "how_described": "LinkedIn 第一个接入内部 MCP 的工具,把跨数千个仓库的代码搜索开放给智能体,被称为一个非常强大的解锁",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            410.095,
+            413.118
+          ],
+          "quote": "And the first tool that we built was CodeSearch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            415.2,
+            422.326
+          ],
+          "quote": "So we have a pretty sophisticated CodeSearch system at LinkedIn where engineers can go and search for code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

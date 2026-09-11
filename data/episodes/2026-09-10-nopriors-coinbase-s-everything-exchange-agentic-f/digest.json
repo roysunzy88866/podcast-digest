@@ -1,0 +1,196 @@
+{
+  "title_zh": "给 AI 开银行账户：Brian Armstrong 谈智能体金融与抗衰老第二幕",
+  "tldr": "Coinbase 联合创始人兼 CEO Brian Armstrong 讲智能体金融、稳定币支付、公司内部的 AI「大脑」，以及他的抗衰老公司 NewLimit。",
+  "digest_md": "这一集的主角是 Brian Armstrong——Coinbase 的联合创始人兼 CEO,全球最早、最重要的加密货币公司掌门人，同时还是抗衰老公司 NewLimit 的联合创始人。他抛出的最抓人的判断是：AI 智能体数量很快会超过人类，因此智能体经济迟早会比人类经济更大——而金融系统还没准备好接住它们，Coinbase 想抢先把这件事做掉 [00:35 Brian Armstrong]。\n\n## 给 AI「上户口」：智能体金融\n\nCoinbase 的三大方向是：一切交易所(Everything Exchange,把股票、商品、加密货币、衍生品、预测市场汇到一个地方交易)、稳定币支付、以及他称之为「智能体金融」的第三块 [02:13 Brian Armstrong]。\n\n其中最有意思的是：AI 智能体本身需要拥有自己的金融账户。「我们不希望 AI 们没有银行账户，它们也理应享有金融服务。」[00:20 Brian Armstrong] 他们做了极简的工具：一条命令、一段提示词粘贴进你的 AI 智能体，它就拥有了自己的金融账户——用的是自托管钱包和加密货币通道，所以没有 KYC 流程。他开玩笑说：「AI 智能体没有政府身份证件，没法走进银行网点——至少目前还没有，除非带上它们的人形机器人伙伴。」[04:30 Brian Armstrong]\n\n为什么这很关键？因为今天的智能体干活时经常卡住：撞到付费墙、要你手动输信用卡、订酒店网页填不了。未来智能体会像员工一样拥有自己的消费账户。实现路径上，他们孵化了支付协议 X402(让智能体在小额支付时按需自动付费)并已交给 Linux 基金会，Google、Cloudflare、AWS 都在参与 [05:57 Brian Armstrong]。\n\n小额支付正是加密轨道的用武之地：信用卡交易最低要收约 30 美分固定费用外加百分比，而他们看到的数据是，约 76% 的智能体商务交易低于 30 美分——这类交易(智能体之间互相调用搜索、金融数据，像一次工具调用)用银行卡根本不经济 [07:11 Brian Armstrong]。这些低价值交易大多是「收集信息」：风投汇编付费墙数据、招聘人员抓取 LinkedIn 等 [07:23 Brian Armstrong]。\n\n## 为什么未来仍需要货币\n\n对于「AI 时代不再需要钱」的说法(比如 Elon 的观点)，Armstrong 部分认同：极限情况下你确实可以用能量和质量来衡量稀缺，但稀缺性会长期存在——土地、能源、芯片，「戴森球在相当远的未来都还是会昂贵的」[10:23 Brian Armstrong]。所以交换媒介仍不可或缺：「加密货币对人类来说真的、真的很好，而它对 AI 来说将是必不可少的。」[10:39 Brian Armstrong]\n\n## 一切交易所与代币化\n\n一个反直觉的数据：Coinbase 现在 88% 的收入来自非比特币交易——尽管股价仍与比特币高度相关 [18:43 Brian Armstrong]。下一步是代币化(用链上代币一比一代表现实资产)：稳定币是第一个主要用例，他们刚推出真正代币化的股票产品——不是合成衍生品，而是与托管中实际证券一比一对应的证券，目前仅在美国以外可用，正与 SEC 沟通美国落地 [19:07 Brian Armstrong]。驱动因素是全球约 40 亿人没有任何券商或美国投资账户，就像 Tether 靠美元账户在美国以外成功一样，这个群体想要高质量投资渠道 [19:45 Brian Armstrong]。「钱现在可以像一条 WhatsApp 消息一样以信息的速度移动」——送一股股票给侄子，直接发到他的钱包，不用走陈旧的过户流程 [20:37 Brian Armstrong]。\n\n预测市场也是重点：上线几个月收入运行率就到了约 1 亿美元，环比增速超 100%。他认为体育只是娱乐化的表层，更大的想象是政策与「人生大问题」——比如就「实施某项政策后失业率会怎样」形成市场来指导决策，甚至「有没有上帝」这类观点市场，像股票一样可以随时押注、没有结算日 [22:33 Brian Armstrong]。\n\n## Coinbase 内部：给公司造一个会自我改进的「大脑」\n\n内部 AI 使用上，他们从编程工具、风控反欺诈、AI 客服这些入场级应用起步，现在 pushing 边界的是「递归自我改进」：给每个团队、每个服务仓库甚至每个人建一个「大脑」——本质是该服务历史上所有事故、财务控制、A/B 测试、被接受或拒绝的 PR 完整记录的 markdown 文件集合 [12:39 Brian Armstrong]。\n\n关键机制在反馈闭环：智能体改代码时先「摄取」这个大脑；人类审查发现遗漏后，不许只手动修完就发布——**你的修正上下文必须写回大脑**，这样修好的不只是这一例，而是今后所有同类情况。结果是一次性通过的 PR 接受率随时间持续上升 [13:48 Brian Armstrong]。\n\n作为 CEO 的他本人已经重度使用：让高端模型把复杂功能拆成三阶段、每阶段 10 项，再并行启动 10 个智能体(优先用更便宜的模型，比如开源模型和 Grok)去执行——上播客前两分钟刚收到通知：第一阶段的 10 件事全部完成待审 [15:13 Brian Armstrong]。他的感受：「与其打扰团队让他们做事，我直接发一个 PR 给他们审，事情已经做完了。那是个神奇的时刻，非常令人上瘾。」[15:47 Brian Armstrong]\n\n对于「公司会不会缩到 10 个人」，他的判断是：**被消除的是任务，不是人**[17:12 Brian Armstrong]。「现有的人会完成多得多的工作，一切的速度都会加快」——当然也确实会出现两三个人做到过去不可想象之事的公司 [17:27 Brian Armstrong]。\n\n## NewLimit:用 AI 做表观遗传重编程\n\nCoinbase 上市后(2021 年、已盈利)，他按「软件赚钱后应投硬科技」的信念开启第二幕，靠一系列聪明人晚宴锁定方向：表观遗传重编程——通过调整「转录因子」(能重编程细胞类型的蛋白质)让老细胞恢复年轻时的功能，而不改变细胞类型。这个方向让他「连续三个月停不下来地想」，就像 2010 年遇到比特币时那样 [27:36 Brian Armstrong]。\n\nNewLimit 现在南旧金山有约五六十人的实验室，流程是：AI 前沿模型从数百万个转录因子组合假设中推荐实验 → 大规模混合筛选找表型命中 → 功能性测定(动物模型)。「我们已经构建了表观遗传重编程领域领先的前沿模型。」[28:39 Brian Armstrong] 进展：已在人性化小鼠模型中证明至少一种人类细胞类型的成功重编程，正在非人灵长类上测试，第一个一期临床试验明年启动，未来几年将有 3-10 个候选药物从这个平台产出 [29:19 Brian Armstrong]。\n\n前三个细胞类型是肝细胞、血管细胞、免疫 T 细胞，路线模仿 GLP-1 药物：先攻无药可医的高未满足需求——比如酒精性肝病患者，确诊后 12 个月存活率很低、基本只能等肝移植；仅这一适应症若成功就可能值约 200 亿美元。但终极目标是让 40 岁的人拥有 20 岁的肝脏、免疫系统、血管乃至皮肤——「如果能让皮肤恢复年轻，那可能就是一个万亿美元级的市场」[33:40 Brian Armstrong]。底层逻辑是「大多数致我们于死地的疾病都与年龄高度相关」——不追每种疾病的症状，而是解决元问题：恢复细胞年轻时的功能，攻击根源 [34:00 Brian Armstrong]。\n\n## 未来五年：认知增强、胚胎编辑与自由城市\n\n他的前沿思考清单还有几项：\n\n- **认知增强**：儿童期补充叶酸等营养素能提升智商，这提示可以拉平人类天生的认知基线——他认为这是又一个「元问题」，还没有找到好的切入论点，欢迎有人告诉他 [36:53 Brian Armstrong]。他说我们正处在竞赛中：AI 越来越聪明，人类也需要在某刻掌控自身进化。\n- **胚胎编辑**：他投资了做胚胎编辑的公司(争议话题)，但皮尤调查显示 80% 的美国人支持用于疾病预防的胚胎编辑 [38:43 Brian Armstrong]。他预测有一天不做基因筛查编辑就生孩子会像不开安全带开车一样反常 [39:11 Brian Armstrong]。对主持人「编辑套餐会削弱人类神经多样性」的担忧，他反对：人类偏好本身有无限多样性，多数编辑只是提高底线、孩子仍是他们自己，极限情况下甚至可能带来「天生长鳃能在水下呼吸」的多样性 [40:12 Brian Armstrong]。\n- **特殊经济区/自由城市**：他关注洪都拉斯的 Prospera(Coinbase 投资了以学习)，更看好在美国联邦土地上划出 10-100 平方英里的区域，豁免 EPA、FAA 等繁文缛节，让核电、数据中心、无人机配送在安全受控的「沙箱」里实验，有效再推广到全美。「现在的问题是，很多情况下根本没有沙箱去尝试这些创新」[44:03 Brian Armstrong],而创业者不能迭代就无法解决问题。\n\n## 本集带走\n\n- **小额智能体支付是加密轨道的天然场景**：76% 的智能体交易低于 30 美分，信用卡 30 美分起步的费用结构完全不适用——X402 这类协议正在填补。\n- **建「公司大脑」+ 强制写回，才有递归自我改进**：事故史、A/B 测试、PR 历史做成 markdown 大脑，智能体改码前摄取；人工修正的上下文必须回写，让一次性通过率持续上升。\n- **被自动化的是任务不是人**：现有团队产出倍增、利润率随之上行，同时两三人的超级公司也会出现。\n- **抗衰老走「元问题」路线**：不逐个治病，而是用 AI+大规模筛选恢复细胞年轻功能，先打无药可医的适应症(如酒精性肝病)，皮肤年轻化是万亿美元级终局。\n- **做建设者比当批评者难得多也值得得多**：「你会摔个大跟头，但你会体会到做出贡献有多难。」[35:51 Brian Armstrong]",
+  "quotes": [
+    {
+      "en": "It kind of stands to reason that the agentic economy will be bigger than the human economy at some point in the not too distant future as well.",
+      "zh": "顺理成章地，在不久的将来的某个时点，智能体经济也会比人类经济更庞大。",
+      "timestamp": "00:37",
+      "speaker": "Brian Armstrong"
+    },
+    {
+      "en": "They can't walk into a bank branch, at least not yet, without their humanoid robot companion.",
+      "zh": "它们没法走进银行网点——至少目前还没有，除非带上它们的人形机器人伙伴。",
+      "timestamp": "04:30",
+      "speaker": "Brian Armstrong"
+    },
+    {
+      "en": "I think crypto was really, really good for humans, and it's going to be essential for AI.",
+      "zh": "我认为加密货币对人类来说真的、真的很好，而它对 AI 来说将是必不可少的。",
+      "timestamp": "10:39",
+      "speaker": "Brian Armstrong"
+    },
+    {
+      "en": "That context has to go back into the brain so that you not only fix it in this case, but in all future cases going forward.",
+      "zh": "那个上下文必须回到大脑里，这样你不仅在这次修好了它，而且在今后所有情况下都修好了它。",
+      "timestamp": "13:57",
+      "speaker": "Brian Armstrong"
+    },
+    {
+      "en": "And instead of bugging the team and asking them to do something, I just send them a PR for review and it's already done.",
+      "zh": "与其打扰团队让他们做某事，我只是发给他们一个 PR 供审阅，而事情已经做完了。",
+      "timestamp": "15:47",
+      "speaker": "Brian Armstrong"
+    },
+    {
+      "en": "But, you know, actually 88% of our revenue is from non-Bitcoin trading at this point.",
+      "zh": "但是，你知道，实际上我们 88% 的收入目前来自非比特币交易。",
+      "timestamp": "18:43",
+      "speaker": "Brian Armstrong"
+    },
+    {
+      "en": "It's like money can now move at the speed of information, just like a WhatsApp message.",
+      "zh": "就像钱现在可以以信息的速度移动，就像一条 WhatsApp 消息一样。",
+      "timestamp": "20:37",
+      "speaker": "Brian Armstrong"
+    },
+    {
+      "en": "That's probably a trillion dollar market right there if you can get your skin rejuvenated.",
+      "zh": "如果能让皮肤恢复年轻，那可能就是一个万亿美元级的市场。",
+      "timestamp": "33:40",
+      "speaker": "Brian Armstrong"
+    },
+    {
+      "en": "And most of the diseases that take us out are all correlated with age.",
+      "zh": "而且大多数致我们于死地的疾病都与年龄相关。",
+      "timestamp": "34:00",
+      "speaker": "Brian Armstrong"
+    },
+    {
+      "en": "I think it's better to try to be a builder and you're gonna fall flat on your face and you'll get an appreciation for how hard it is to contribute sometimes.",
+      "zh": "我觉得最好尝试去做一个建设者，你会摔个大跟头，你会体会到有时候做出贡献有多难。",
+      "timestamp": "35:55",
+      "speaker": "Brian Armstrong"
+    },
+    {
+      "en": "But actually, if you look at the Pew Research, 80% of Americans, embryo editing for disease prevention is supported by the population.",
+      "zh": "但实际上，如果你看皮尤研究中心的数据，80% 的美国人支持用于疾病预防的胚胎编辑。",
+      "timestamp": "38:43",
+      "speaker": "Brian Armstrong"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:20",
+      "speaker": "Brian Armstrong",
+      "en": "They deserve financial services as well.",
+      "zh": "它们也理应享有金融服务。"
+    },
+    {
+      "timestamp": "00:37",
+      "speaker": "Brian Armstrong",
+      "en": "It kind of stands to reason that the agentic economy will be bigger than the human economy at some point in the not too distant future as well.",
+      "zh": "顺理成章地，在不久的将来的某个时点，智能体经济也会比人类经济更庞大。"
+    },
+    {
+      "timestamp": "03:01",
+      "speaker": "Brian Armstrong",
+      "en": "You can send money at the speed of information, right?",
+      "zh": "你可以以信息的速度发送资金，对吧？"
+    },
+    {
+      "timestamp": "04:30",
+      "speaker": "Brian Armstrong",
+      "en": "They can't walk into a bank branch, at least not yet, without their humanoid robot companion.",
+      "zh": "它们没法走进银行网点——至少目前还没有，除非带上它们的人形机器人伙伴。"
+    },
+    {
+      "timestamp": "10:39",
+      "speaker": "Brian Armstrong",
+      "en": "I think crypto was really, really good for humans, and it's going to be essential for AI.",
+      "zh": "我认为加密货币对人类来说真的、真的很好，而它对 AI 来说将是必不可少的。"
+    },
+    {
+      "timestamp": "13:48",
+      "speaker": "Brian Armstrong",
+      "en": "That context has to go back into the brain so that you not only fix it in this case, but in all future cases going forward.",
+      "zh": "那个上下文必须回到大脑里，这样你不仅在这次修好了它，而且在今后所有情况下都修好了它。"
+    },
+    {
+      "timestamp": "14:49",
+      "speaker": "Brian Armstrong",
+      "en": "It's now even allowing people like me, the CEO, to get back in there and ship features.",
+      "zh": "它现在甚至允许像我这样的 CEO 重新回到那里发布功能。"
+    },
+    {
+      "timestamp": "15:47",
+      "speaker": "Brian Armstrong",
+      "en": "And instead of bugging the team and asking them to do something, I just send them a PR for review and it's already done.",
+      "zh": "与其打扰团队让他们做某事，我只是发给他们一个 PR 供审阅，而事情已经做完了。"
+    },
+    {
+      "timestamp": "15:52",
+      "speaker": "Brian Armstrong",
+      "en": "That's a magical moment that I just like, it's very addictive.",
+      "zh": "那是一个神奇的时刻，我就是觉得，非常令人上瘾。"
+    },
+    {
+      "timestamp": "17:12",
+      "speaker": "Brian Armstrong",
+      "en": "I think tasks are being eliminated.",
+      "zh": "我认为被消除的是任务。"
+    },
+    {
+      "timestamp": "18:43",
+      "speaker": "Brian Armstrong",
+      "en": "But, you know, actually 88% of our revenue is from non-Bitcoin trading at this point.",
+      "zh": "但是，你知道，实际上我们 88% 的收入目前来自非比特币交易。"
+    },
+    {
+      "timestamp": "20:37",
+      "speaker": "Brian Armstrong",
+      "en": "It's like money can now move at the speed of information, just like a WhatsApp message.",
+      "zh": "就像钱现在可以以信息的速度移动，就像一条 WhatsApp 消息一样。"
+    },
+    {
+      "timestamp": "28:39",
+      "speaker": "Brian Armstrong",
+      "en": "We've built the leading frontier model for epigenetic reprogramming.",
+      "zh": "我们已经构建了表观遗传重编程领域领先的前沿模型。"
+    },
+    {
+      "timestamp": "33:40",
+      "speaker": "Brian Armstrong",
+      "en": "That's probably a trillion dollar market right there if you can get your skin rejuvenated.",
+      "zh": "如果能让皮肤恢复年轻，那可能就是一个万亿美元级的市场。"
+    },
+    {
+      "timestamp": "34:00",
+      "speaker": "Brian Armstrong",
+      "en": "And most of the diseases that take us out are all correlated with age.",
+      "zh": "而且大多数致我们于死地的疾病都与年龄相关。"
+    },
+    {
+      "timestamp": "35:51",
+      "speaker": "Brian Armstrong",
+      "en": "I think it's better to try to be a builder and you're gonna fall flat on your face and you'll get an appreciation for how hard it is to contribute sometimes.",
+      "zh": "我觉得最好尝试去做一个建设者，你会摔个大跟头，你会体会到有时候做出贡献有多难。"
+    },
+    {
+      "timestamp": "38:43",
+      "speaker": "Brian Armstrong",
+      "en": "But actually, if you look at the Pew Research, 80% of Americans, embryo editing for disease prevention is supported by the population.",
+      "zh": "但实际上，如果你看皮尤研究中心的数据，80% 的美国人支持用于疾病预防的胚胎编辑。"
+    },
+    {
+      "timestamp": "39:11",
+      "speaker": "Brian Armstrong",
+      "en": "Why would you do that? It's like driving without a seatbelt or something like that.",
+      "zh": "你为什么要那样做？就像不开安全带开车之类的。"
+    },
+    {
+      "timestamp": "44:03",
+      "speaker": "Brian Armstrong",
+      "en": "The problem right now is, in many cases, there is no sandbox to go try this innovation.",
+      "zh": "现在的问题是，在很多情况下，没有沙箱可以去尝试这些创新。"
+    },
+    {
+      "timestamp": "44:11",
+      "speaker": "Brian Armstrong",
+      "en": "You can't really solve a problem as an entrepreneur unless you can iterate on it, right?",
+      "zh": "作为创业者，你没法真正解决一个问题，除非你能对它进行迭代，对吧？"
+    }
+  ],
+  "voice_script": "今天这期聊的是 Brian Armstrong。这个名字你可能不熟，但 Coinbase 你多半听说过——全球最早、最重要的加密货币公司，Brian 就是联合创始人兼 CEO。而且这个人不止干加密，还开了一家抗衰老公司叫 NewLimit。所以这一集话题很散，但串起来其实是一条线：AI 越来越多，钱和公司该怎么跟着变。\n\n先说最抓人的一个判断。Brian 认为，AI 智能体的数量很快会超过人类，所以智能体经济迟早会比人类经济更庞大。但问题来了——现在的金融系统根本没准备好接住这些东西。为什么？举个例子：今天你让一个 AI 智能体帮你干活，它经常卡在半路上——撞到付费墙了，要你手动输信用卡，订个酒店网页填不了。说白了，AI 没有银行账户。Brian 有句话挺有意思：「我们不希望 AI 们没有银行账户，它们也理应享有金融服务。」还开玩笑说，AI 没有政府身份证件，没法走进银行网点——至少目前还没有，除非带上人形机器人伙伴。\n\n那怎么解决？Coinbase 做了个极简的工具：一条命令、一段提示词，粘贴进你的 AI 智能体，它就拥有了自己的金融账户。用的是自托管钱包和加密货币通道，不需要 KYC 那套流程。他们还孵化了一个支付协议叫 X402,让智能体在小额支付时按需自动付费，现在交给 Linux 基金会了，Google、Cloudflare、AWS 都在参与。\n\n为什么非用加密轨道不可？看一组数据就明白了。信用卡交易最低要收大约 30 美分的固定费用，外加百分比。而 Coinbase 看到的数据是，约 76% 的智能体商务交易低于 30 美分——比如智能体之间互相调用一次搜索、查一次金融数据，本质就是一次工具调用。这类交易用银行卡根本不经济，加密轨道正好补上。\n\n这里自然会引出一个问题：都 AI 时代了，还需要货币吗？有人觉得不需要了，比如 Elon。Brian 部分认同，说极限情况下确实可以用能量和质量来衡量稀缺。但他认为稀缺性会长期存在——土地、能源、芯片，「戴森球在相当远的未来都还是会昂贵的」。所以有句话说得挺重：「加密货币对人类来说真的、真的很好，而它对 AI 来说将是必不可少的。」\n\n顺着钱这个话题，再往下讲一层。Coinbase 有个反直觉的数据：88% 的收入来自非比特币交易——尽管股价还是跟比特币高度相关。下一步的重点是代币化，说白了就是用链上代币一比一代表现实资产。他们刚推出真正代币化的股票，不是合成衍生品，而是和托管中的实际证券一一对应的证券，目前只在美国以外可用。为什么做这个？因为全球大约有 40 亿人没有任何券商或美国投资账户，这个群体想要高质量的投资渠道。Brian 的形容很妙：钱现在可以像一条 WhatsApp 消息一样以信息的速度移动——送一股股票给侄子，直接发到钱包，不用走那些陈旧的过户流程。预测市场也是重点，上线几个月收入运行率就到了约一亿美元。体育只是表层，更大的想象是拿政策、甚至人生大问题来做市场，帮人形成判断。\n\n再把镜头转到 Coinbase 内部。编程工具、风控、AI 客服这些是入场级应用，真正往边界推的是「递归自我改进」。做法是给每个团队、每个服务仓库甚至每个人建一个「大脑」——本质是一堆 markdown 文件，记着这个服务历史上所有事故、财务控制、A/B 测试、被接受或拒绝的 PR。关键机制在反馈闭环：智能体改代码前先摄取这个大脑；人类审查发现遗漏后，不许只手动修完就发布，修正的上下文必须写回大脑。这样修好的不只是这一例，而是今后所有同类情况。结果是一次性通过的 PR 接受率持续上升。\n\nBrian 自己已经重度使用。让高端模型把复杂功能拆成三阶段、每阶段十项，再并行启动十个智能体去执行。上播客前两分钟刚收到通知：第一阶段十件事全部完成待审。感受是：「与其打扰团队让他们做事，我直接发一个 PR 给他们审，事情已经做完了。那是个神奇的时刻，非常令人上瘾。」那公司会不会缩到十个人？判断是：被消除的是任务，不是人。现有的人会完成多得多的工作——当然，两三个人做出过去不可想象之事的公司，也确实会出现。\n\n最后说说第二幕，抗衰老公司 NewLimit。Coinbase 上市且盈利之后，Brian 按「软件赚钱后应投硬科技」的信念开新局，靠一系列聪明人晚宴锁定了方向：表观遗传重编程。解释一下，就是通过调整「转录因子」——一种能重编程细胞类型的蛋白质——让老细胞恢复年轻时的功能，但不改变细胞类型。这个方向让 Brian 连续三个月停不下来地想，就像 2010 年遇到比特币那样。NewLimit 在南旧金山有五六十人的实验室，流程是 AI 模型从数百万个转录因子组合里推荐实验，然后大规模筛选、功能测定。进展不小：已在人性化小鼠模型中证明至少一种人类细胞类型成功重编程，正在非人灵长类上测试，第一个一期临床试验明年启动。路线模仿 GLP-1 药物，先攻无药可医的高需求，比如酒精性肝病。但终极目标是让 40 岁的人拥有 20 岁的肝脏、免疫系统、血管乃至皮肤——底层逻辑是，大多数致命疾病都和年龄高度相关，与其逐个治症状，不如解决元问题：恢复细胞年轻时的功能。\n\n还有一个观点值得记住：做建设者，比当批评者难得多也值得得多——「你会摔个大跟头，但你会体会到做出贡献有多难。」\n\n回到开头那条主线。AI 数量会超过人类，智能体经济会比人类经济更庞大——那么趁现在把它们的银行账户、支付通道、甚至自我改进的公司大脑都建好，就是在为那个世界提前施工。用 Brian 自己的话收尾：加密货币对人类来说真的、真的很好，而它对 AI 来说，将是必不可少的。"
+}

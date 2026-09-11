@@ -1,0 +1,487 @@
+{
+  "episode_id": "2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2",
+  "podcast": "Sourcery",
+  "date": "2026-09-10",
+  "tags": [
+    "国防科技",
+    "造船业",
+    "自主系统",
+    "再工业化",
+    "采购改革"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "saronic",
+      "type": "company",
+      "role": "company",
+      "name": "Saronic",
+      "file": "Saronic",
+      "primary": true,
+      "how_described": "本集主线公司：做自主水面舰艇，估值 92.5 亿美元、累计融资 26 亿美元，刚宣布 30 亿美元的 Port Alpha 巨型船厂计划，缘起是中国造船量对美 230 比 1 的差距判断。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            359.757,
+            361.958
+          ],
+          "quote": "And that's the whole genesis behind Saronic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            487.955,
+            491.177
+          ],
+          "quote": "I mean, we're on this like big Saronic tour today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            518.496,
+            523.462
+          ],
+          "quote": "It turns out it really only takes a good breakfast to get me to throw in my lot with Saronic.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 119,
+          "t": [
+            529.349,
+            531.09
+          ],
+          "quote": "Early Saronic was super fun.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 138,
+          "t": [
+            573.021,
+            579.583
+          ],
+          "quote": "So a lot of the executional arm of the business tends to be in operations here at Saronic, and we think about that very critically.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1207.675,
+            1210.177
+          ],
+          "quote": "Saronic operates in dog years.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1480.903,
+            1483.525
+          ],
+          "quote": "So we're on a big tour of Saronic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1501.679,
+            1506.023
+          ],
+          "quote": "Can you explain a little bit of what you were doing prior to Saronic and how you got involved?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1697.831,
+            1702.214
+          ],
+          "quote": "So Saronic, I believe, closed government contracts within the first 90 days of founding?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2182.454,
+            2186.16
+          ],
+          "quote": "So for people who don't know you, you are the CTO of Saronic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2298.93,
+            2303.754
+          ],
+          "quote": "But I met some great people there, some of whom now work at Saronic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "port-alpha",
+      "type": "concept",
+      "role": "concept",
+      "name": "Port Alpha",
+      "file": "Port Alpha",
+      "primary": true,
+      "how_described": "本集说它是 Saronic 刚宣布的、投资 30 亿美元的巨型船厂计划，为未来 400-1200 英尺大船铺路，需提前锁定钢材等关键供应链。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            74.936,
+            77.697
+          ],
+          "quote": "But Port Alpha, $3 billion Port Alpha.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            711.51,
+            735.763
+          ],
+          "quote": "The shipyard is interesting because a lot of our focus, and we can talk about this in context of Port Alpha later, is how do you move a lot of the final outfitting and the on-unit, so like on the ship, traditional work up front to being done in sub-assemblies, and that's where we lean into solutions like PATH, bringing those piece parts out, doing them somewhere else, and then assembling modules into larger modules, into supermodules.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 166,
+          "t": [
+            736.168,
+            751.885
+          ],
+          "quote": "If you think about, you know, in that period of time, you built Corsair, you built Marauder, you're in production, working on Port Alpha, what do the next 10 years look like?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            851.177,
+            862.753
+          ],
+          "quote": "As it expands into Port Alpha in particular, we're starting to brush up on some of these problems here in Franklin, but things like global supply chain become much more pressing issues.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 188,
+          "t": [
+            873.381,
+            883.027
+          ],
+          "quote": "I've reached out to critical suppliers for Port Alpha, make sure that the steel pipeline is in place, how we're thinking about scaling, kind of moving those rocks ahead of the avalanche that is about to come.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1218.962,
+            1222.465
+          ],
+          "quote": "That looks at us, you know, through construction in Port Alpha.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "shipbuilding",
+      "type": "concept",
+      "role": "concept",
+      "name": "造船差距 (shipbuilding)",
+      "file": "造船差距",
+      "primary": true,
+      "how_described": "本集的核心背景：中国造船量对美 230 比 1，军用约 6-7 比 1，商用船 1000 比 5，靠全面补贴压价吸走全球产能，决定海军力量的是谁能造得最多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            89.24,
+            94.461
+          ],
+          "quote": "Palantir CTO, Sean, just talked about this, but we're ratioed by China in shipbuilding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            137.393,
+            143.259
+          ],
+          "quote": "They put out a maritime executive order and the maritime action plan specifically around shipbuilding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 31,
+          "t": [
+            143.579,
+            149.805
+          ],
+          "quote": "You have the Ships Act, which is in Congress, which is focused on obviously the shipbuilding industry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 32,
+          "t": [
+            149.865,
+            157.532
+          ],
+          "quote": "So there's a lot of focus on defense, defense technology, the industrial base and shipbuilding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            229.862,
+            238.046
+          ],
+          "quote": "So you have a lot of focus from Congress because look, there's a 30 year shipbuilding plan in the Navy right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 64,
+          "t": [
+            318.944,
+            321.785
+          ],
+          "quote": "Because it's not just the U.S. that's struggling in shipbuilding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            322.145,
+            327.026
+          ],
+          "quote": "China has 57% of total global shipbuilding capacity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 82,
+          "t": [
+            391.39,
+            394.532
+          ],
+          "quote": "Their entire shipbuilding industry is completely subsidized.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2126.185,
+            2141.598
+          ],
+          "quote": "I'm really excited to see, as we move into shipbuilding, taking the same technological elements that are in the platforms behind us and putting them into larger and larger ships, because frankly, that gets more and more people out of harm's way.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "autonomy",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主化 (autonomy)",
+      "file": "自主化",
+      "primary": true,
+      "how_described": "本集说自主化是 Saronic 的产品方向——自主水面舰艇（autonomous surface vessels），并指出今天约一万亿美元的国防预算里只有 1% 投向自主化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            164.518,
+            171.285
+          ],
+          "quote": "We talked about the request for 1.5 trillion and where the budget is today, right around a trillion dollars for 26, 1% went towards autonomy.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "acquisition-reform",
+      "type": "concept",
+      "role": "concept",
+      "name": "采购改革 (acquisition reform)",
+      "file": "采购改革",
+      "primary": true,
+      "how_described": "Rob 的核心主张：采购的魔力发生在双方有信任和对结果的共同承诺时；关键是把刹车定位到个人，不能让合同官依据没有余地的手册任意否决全链路一致的决策。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 276,
+          "t": [
+            1296.022,
+            1300.004
+          ],
+          "quote": "I think you'll get a phenomenal conversation with Rob about acquisition reform.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1806.5,
+            1814.386
+          ],
+          "quote": "A commonality between most of them so far, I don't know, maybe Vib will say the same thing, is that you're a huge fan of acquisition reform.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "co-design",
+      "type": "concept",
+      "role": "concept",
+      "name": "软硬协同设计 (co-design)",
+      "file": "软硬协同设计",
+      "primary": true,
+      "how_described": "Vib 的工程哲学：历史上所有船都为人设计，去掉人的约束（商用 0.4-0.6 G vs 无人船 20+ G）可以砍掉大量复杂性；硬件提前八个月在房间里搭全、仿真先行，船下水时直接做应用层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 281,
+          "t": [
+            1322.301,
+            1329.764
+          ],
+          "quote": "But his philosophy around kind of software hardware co-design I think is powerful and unique and will give you an insight on how these things can work in the future.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2575.01,
+            2576.751
+          ],
+          "quote": "Like how do you co-design with the boat?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2702.871,
+            2706.975
+          ],
+          "quote": "I would say the next phase of the co-design looks like what you said, like sensor placement.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-tooling",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 工具 (AI tooling)",
+      "file": "AI 工具",
+      "primary": true,
+      "how_described": "本集说 AI 工具让写代码更快、调试周期更快，因此机器人开发要在前期把硬件全部在台架上组装测试、重投可观测性和仿真；Rob 还期待用 AI 增强采办队伍，帮合同官发现自己其实拥有的机动空间。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 527,
+          "t": [
+            2441.683,
+            2446.087
+          ],
+          "quote": "Today with AI tooling, you can write code a lot faster, but that also means your debug cycles are a lot faster.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 AI (open source AI)",
+      "file": "开源 AI",
+      "primary": false,
+      "how_described": "Vib 收尾说他非常兴奋于开源 AI 这波浪潮，认为它会让工具和资源平民化，正如互联网建立在少数几个开源代码库之上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 751,
+          "t": [
+            3490.761,
+            3495.404
+          ],
+          "quote": "It's not a hot take, I think, but I'm pretty excited about the wave of open source AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 757,
+          "t": [
+            3531.996,
+            3534.838
+          ],
+          "quote": "And so I'm excited about the wave of open source AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "本集说 Saronic 用 Palantir 的 Foundry 做内部制造执行系统和 MRP，是规划业务物流的骨干软件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            89.24,
+            94.461
+          ],
+          "quote": "Palantir CTO, Sean, just talked about this, but we're ratioed by China in shipbuilding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            561.417,
+            562.537
+          ],
+          "quote": "You have one with Palantir.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            580.503,
+            582.144
+          ],
+          "quote": "Palantir is pretty straightforward.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3138.841,
+            3142.925
+          ],
+          "quote": "You have one with Palantir, Path Robotics, one with NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3214.769,
+            3222.431
+          ],
+          "quote": "With Palantir, it's predominantly related to internal business systems with Foundry to go and accelerate manufacturing and manufacturing effectiveness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

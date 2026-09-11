@@ -1,0 +1,162 @@
+{
+  "episode_id": "2026-09-09-talks-the-exact-tools-used-to-port-a-massive-c",
+  "podcast": "精选演讲",
+  "date": "2026-09-09",
+  "tags": [
+    "AI 编程",
+    "Claude Code",
+    "代码迁移",
+    "任务设定雄心",
+    "工作流"
+  ],
+  "categories": [
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            7.957,
+            11.879
+          ],
+          "quote": "For deployment, I realized that Claude Code had figured out a better deployment story with Bun.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bun",
+      "type": "company",
+      "role": "company",
+      "name": "Bun",
+      "file": "Bun",
+      "primary": true,
+      "how_described": "本集说它是一个 JavaScript 运行时，Claude Code 用它解决了部署问题，方案比说话人现有 Python 技术栈更好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            7.957,
+            11.879
+          ],
+          "quote": "For deployment, I realized that Claude Code had figured out a better deployment story with Bun.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "typescript",
+      "type": "concept",
+      "role": "concept",
+      "name": "TypeScript",
+      "file": "TypeScript",
+      "primary": true,
+      "how_described": "本集说说话人决定把整个几十万行的 Python 代码库在一个周末内移植到 TypeScript，并让它能跑、能部署。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            12.2,
+            15.762
+          ],
+          "quote": "And I was like, okay, I need to port this whole thing from Python to TypeScript.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            41.102,
+            49.809
+          ],
+          "quote": "So that probably ranks on like the more unreasonable things like, yeah, just port this entire Python code base to TypeScript, get it working, get it deployable in, you know, a weekend.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "type": "concept",
+      "role": "concept",
+      "name": "Python",
+      "file": "Python",
+      "primary": true,
+      "how_described": "本集里是说话人原有的技术栈，因部署方案不如 Bun 而被整个移植走。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            12.2,
+            15.762
+          ],
+          "quote": "And I was like, okay, I need to port this whole thing from Python to TypeScript.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            41.102,
+            49.809
+          ],
+          "quote": "So that probably ranks on like the more unreasonable things like, yeah, just port this entire Python code base to TypeScript, get it working, get it deployable in, you know, a weekend.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dynamic-workflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "动态工作流 (dynamic workflow)",
+      "file": "动态工作流",
+      "primary": true,
+      "how_described": "本集说说话人搭了一套动态工作流设置，让智能体在周末持续移植、验证、反复检查、对照阅读两边代码，周一回来验收成果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            26.79,
+            41.082
+          ],
+          "quote": "And I basically created this dynamic workflow setup and over the weekend had to port the whole thing, like verify it, double check it, then read both code, like basically churn and churn and churn and then came back Monday to complete a workflow that was a ported version of that thing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prompting",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompting)",
+      "file": "提示词",
+      "primary": false,
+      "how_described": "本集提到「在提示词上更雄心一点」，作为回应「要不讲道理一点」号召的一部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            4.414,
+            7.456
+          ],
+          "quote": "In what ways have you been more ambitious, your prompting?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

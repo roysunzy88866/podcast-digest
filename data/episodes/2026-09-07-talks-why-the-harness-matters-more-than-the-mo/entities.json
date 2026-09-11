@@ -1,0 +1,2070 @@
+{
+  "episode_id": "2026-09-07-talks-why-the-harness-matters-more-than-the-mo",
+  "podcast": "精选演讲",
+  "date": "2026-09-07",
+  "tags": [
+    "智能体",
+    "harness",
+    "上下文管理",
+    "自我改进",
+    "本地推理"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集主线概念：包裹在 LLM 外面、提供持久状态/工具/计算的那层脚手架；主持人强调同一套权重换个 harness 就能让 ArcAGI 从 30% 到 95%，并将其分为静态 harness 与自我改进 harness 两个时代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            8.522,
+            10.023
+          ],
+          "quote": "Welcome to YC Harness Club.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 5,
+          "t": [
+            20.342,
+            21.122
+          ],
+          "quote": "Welcome to Harness Night.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 22,
+          "t": [
+            74.642,
+            88.705
+          ],
+          "quote": "So I think harnesses have long been belittled as subpar research, yet it literally gives us an 18% bump in the difference between harness one and harness two.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 28,
+          "t": [
+            111.435,
+            116.36
+          ],
+          "quote": "And so I call this the static harness era, where there isn't self-improvement on the harness.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 53,
+          "t": [
+            236.867,
+            247.974
+          ],
+          "quote": "And just with some harness, this thing that doesn't deserve any research, just some wrapper and some scaffolding, we can get to 95% and ABO from NVIDIA got to 100%.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 57,
+          "t": [
+            269.037,
+            271.078
+          ],
+          "quote": "And I ended up building a harness by accident.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 99,
+          "t": [
+            470.085,
+            477.409
+          ],
+          "quote": "So the initial harness, the GPT-2, February, 2019 is a while not end of sequence loop.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 101,
+          "t": [
+            478.089,
+            482.892
+          ],
+          "quote": "And then we basically have top piece sampling and then we have the environment and that's the harness.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 104,
+          "t": [
+            487.534,
+            489.135
+          ],
+          "quote": "And so that's the V0 harness.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 111,
+          "t": [
+            517.96,
+            523.987
+          ],
+          "quote": "And then the entire last six years has been giving more functionality into the harness, into a static harness.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 172,
+          "t": [
+            773.075,
+            775.256
+          ],
+          "quote": "And that's what I call like harness v1.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 175,
+          "t": [
+            778.937,
+            781.599
+          ],
+          "quote": "I'm not updating the harness itself.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 203,
+          "t": [
+            848.552,
+            850.173
+          ],
+          "quote": "And that's basically harness v1.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 204,
+          "t": [
+            851.374,
+            857.84
+          ],
+          "quote": "And the cool part, this is the most exciting part where we're seeing a lot of advancements, where you're letting the harness itself learn.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 205,
+          "t": [
+            858.361,
+            862.765
+          ],
+          "quote": "Either we're learning the system prompt or we're learning the harness itself, which is very trippy.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 215,
+          "t": [
+            913.242,
+            919.266
+          ],
+          "quote": "Not only are you allowed to change the system prompt, but you're allowed to change the harness itself, the harness code that is actually running.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 216,
+          "t": [
+            919.726,
+            931.495
+          ],
+          "quote": "And so you can imagine basically what happens is you have this archive of many different agents, which is harness and system prompt, and you sample from them.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 220,
+          "t": [
+            945.269,
+            952.771
+          ],
+          "quote": "You can actually, you have a meta harness that actually allows the agent to modify its own harness so that it can become a different harness.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 222,
+          "t": [
+            959.093,
+            964.314
+          ],
+          "quote": "And then the meta harness, which is the main harness, is to produce harnesses, right, which is a really meta concept.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 224,
+          "t": [
+            973.957,
+            988.62
+          ],
+          "quote": "And so it just keeps adding more and more CRUD into the harness code, all the green that you see here, the meta prompt, the system prompts of all the agents, how many agents there are, and you kind of grow this meta harness over time.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 227,
+          "t": [
+            994.703,
+            999.225
+          ],
+          "quote": "You have to drive down and talk to him a lot a bit about continual harness, which is, I love it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1118.049,
+            1122.253
+          ],
+          "quote": "My name's Seth, and I'm going to be presenting Prime Agent, which is a self-improving RLM harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1123.274,
+            1133.484
+          ],
+          "quote": "My job here tonight, I think, is to try to convince all of you to take a very first principles style approach to thinking about how you build your harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1183.145,
+            1190.81
+          ],
+          "quote": "The harness itself is the layer between the LLM and the world that adds things like this persistent state, tools and compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1271.376,
+            1289.204
+          ],
+          "quote": "And then we also have these other features that we expose from Continual Harness where it's able to provide like live CRUD operations on all of the components that we mentioned in order to manage its memory skills, sub-agents persistently and prompt its own system prompt persistently.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1335.73,
+            1344.956
+          ],
+          "quote": "And so the very earliest form of harnesses that we've seen that are still used to this day, even by those who say we want the most minimal harness possible, is compaction.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1491.699,
+            1496.542
+          ],
+          "quote": "But when you look at a harness, it's looking a lot more like a Von Neumann computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1507.42,
+            1510.102
+          ],
+          "quote": "And so yeah, the idea of like, how do you build a good harness?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1614.777,
+            1623.164
+          ],
+          "quote": "I talk a little bit about continual harness, which we have in a prior paper of mine, which talks about cutting the entire harness state.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1635.307,
+            1643.79
+          ],
+          "quote": "And so we just kind of want to expose the ability for the agent to leverage all that information in order to update what the future harness is going to look like.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1677.659,
+            1685.847
+          ],
+          "quote": "And one of the kit build is that you want to build your harness such that it is a bit better than what the current models are able to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1686.067,
+            1694.975
+          ],
+          "quote": "So then you can get those reasoning traces and use that to leverage your next iteration of model, and they'll be able to handle the harness and be able to bootstrap themselves to a higher and higher performance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1734.099,
+            1741.545
+          ],
+          "quote": "The last thing that we look at when it comes to how did we want to design our harness is we were really thinking about long horizon performance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1839.372,
+            1842.275
+          ],
+          "quote": "I ran some results with Continual Harness, and we got 20% with Gemini Flash.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1848.018,
+            1853.861
+          ],
+          "quote": "People think that's really cool that our like general harness that didn't even like, wasn't even structured for ArcGGI did really well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1937.607,
+            1945.528
+          ],
+          "quote": "You can see that compared to like what were the, like the week before we did this, OpenAI was like, guys, the harness matters a lot when you're doing evaluations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2108.199,
+            2112.961
+          ],
+          "quote": "We can't attribute any of the benefits to it with the harness versus the model there because it's a very hard task.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2216.737,
+            2225.843
+          ],
+          "quote": "If there's one thing that I find interesting today about what takeaways you should actually add to your own harness, I think that you should think about agentic context management.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2393.428,
+            2401.435
+          ],
+          "quote": "And so to construct OpenJarvis, we wanted to create the simplest set of primitives for which you define any sort of harness or personal AI stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2585.341,
+            2605.939
+          ],
+          "quote": "These OpenJarvis configurations that were actually optimized by cloud LMs like Claude or ChatGPT were much more effective than local stacks that were just deployed out of the box because you could actually cater to the specific LMs, the specific harness that was needed for different kinds of workloads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2677.63,
+            2685.252
+          ],
+          "quote": "What we also found is that the whole OpenJarvis harness was cheaper to optimize than alternatives, which might require more data and more LM calls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2758.293,
+            2767.06
+          ],
+          "quote": "Hi, I'm Josh, and this is Regan, and we're working on QM, which is YC's open source agent harness for work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3366.472,
+            3371.317
+          ],
+          "quote": "And so pushing that decision into the agent itself rather than the harness has been a really, really powerful thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3407.525,
+            3411.727
+          ],
+          "quote": "And as a general rule, what we've tried to do is keep the harness extremely thin.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 626,
+          "t": [
+            3442.309,
+            3451.332
+          ],
+          "quote": "Yeah, we're sort of trying to be this like AGI anticipating harness, although since we aren't there yet, there are a few things that we've run into.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3502.671,
+            3509.236
+          ],
+          "quote": "The other thing that we've seen a lot of is, so this harness is supposed to work, it works in multiplayer, it works in Slack.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集贯穿始终的主角：从带工具的循环系统提示词，到能自选沙箱、运行时与模型的智能体，模型能力与 harness 表达性共同决定智能体表现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            104.448,
+            106.831
+          ],
+          "quote": "And how long an agent can be running.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 54,
+          "t": [
+            247.994,
+            251.416
+          ],
+          "quote": "So Prime Agent and NVIDIA, which both recently just came out.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 67,
+          "t": [
+            325.286,
+            333.129
+          ],
+          "quote": "And then I have a scoping agent that will kind of look up papers that are similar, look up GitHub repos.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 68,
+          "t": [
+            333.189,
+            341.433
+          ],
+          "quote": "We'll give it to a PI agent named Chris Ray, who will then give it to a research agent named John Southide-Cohen.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 73,
+          "t": [
+            353.58,
+            367.545
+          ],
+          "quote": "And then whenever you're ready and Chris Ray will kind of keep tabs on you, keep nagging you every hour or so, then it goes to this author agent to say, okay, now stop, freeze the idea, start writing ablations and then start writing the paper.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 74,
+          "t": [
+            367.985,
+            375.133
+          ],
+          "quote": "And so then what this is turned into, so this is the scoping agent and then you have this cockpit that kind of you can view from anywhere.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 163,
+          "t": [
+            720.193,
+            727.735
+          ],
+          "quote": "Ideas of being multi-agent, letting the agent reflect on its own output and improve it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 164,
+          "t": [
+            728.055,
+            733.296
+          ],
+          "quote": "And then this idea of multi-agent goes even further where I can actually spawn.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 165,
+          "t": [
+            733.556,
+            745.559
+          ],
+          "quote": "One of the tools could be I can spawn a set of sub-agents and they persist in these persistent repls and they'll be able to be running and I can interact with them and I'll have the sub-agent list.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 170,
+          "t": [
+            762.248,
+            767.312
+          ],
+          "quote": "And at the Leafs, whenever I want, I can call the LLM query to spawn that LLM agent as well.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 171,
+          "t": [
+            768.693,
+            771.595
+          ],
+          "quote": "And then I have this main orchestrator agent that's running all of that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 181,
+          "t": [
+            793.092,
+            796.474
+          ],
+          "quote": "And basically what that means to summarize all this, you have some agent spec.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 187,
+          "t": [
+            804.278,
+            806.74
+          ],
+          "quote": "You specify a skills list, the sub-agent list.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 220,
+          "t": [
+            945.269,
+            952.771
+          ],
+          "quote": "You can actually, you have a meta harness that actually allows the agent to modify its own harness so that it can become a different harness.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 223,
+          "t": [
+            965.034,
+            973.496
+          ],
+          "quote": "And so this is the output space where you're configuring multi-agent context compilation and you're doing this and you have allowed CRUD on all of it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1058.629,
+            1073.092
+          ],
+          "quote": "Uh, at Princeton, uh, researcher at Prime Intellect and the author of Prime Agent, um, John Sadefalcone, who's a, the first time we've had a, a, a callback, um, presenter, very excited about that, PhD under Chris and Azalea, um,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1096.812,
+            1106.36
+          ],
+          "quote": "And so QM at YC, we had this general agent that we use and they came out with QM a month ago and it is like meaningfully better and is so functional and I use it every day.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1118.049,
+            1122.253
+          ],
+          "quote": "My name's Seth, and I'm going to be presenting Prime Agent, which is a self-improving RLM harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1344.976,
+            1356.165
+          ],
+          "quote": "Because compaction is a very generalized tool for the agent to be able to summarize its own context history in order to work past its context length working window.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1390.549,
+            1399.553
+          ],
+          "quote": "Your agent can then programmatically manipulate them and run all sorts of programs directly on the information there, saving tons of tokens rather than putting it directly into context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1401.434,
+            1409.718
+          ],
+          "quote": "You're basically saving context here because you can task the agent with a specific set of information in order to perform some operations in the report back at the end.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1605.049,
+            1614.337
+          ],
+          "quote": "And then, of course, you know, we don't want to use a lot of RAM, so we can move them offloaded in an inactive state, which then can be called back at any time by messaging them in this persistence of agent setup.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1635.307,
+            1643.79
+          ],
+          "quote": "And so we just kind of want to expose the ability for the agent to leverage all that information in order to update what the future harness is going to look like.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1654.934,
+            1662.437
+          ],
+          "quote": "Memory, which could just be long-term storage about things that are important, as well as the sub-agent specifications that we talked about in this very persistent manner.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1695.416,
+            1699.419
+          ],
+          "quote": "One of the coolest features that we have in Prime Agent that we've had...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1785.359,
+            1791.345
+          ],
+          "quote": "I have a couple experiments that I'm going to show after we've shared our design philosophy here about how we created a prime agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1865.845,
+            1867.586
+          ],
+          "quote": "And I'm just gonna throw this directly into Prime Agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1902.678,
+            1909.882
+          ],
+          "quote": "And then the general system prompt for prime agent, which is like you have a REPL, you can call sub-agents, you can use it programmatically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1980.201,
+            1989.271
+          ],
+          "quote": "And so rather than having bad results, I just deferred to the original Claude Code results and some other people have run it with similar configurations to Prime Agent and gotten much better results since then.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1990.012,
+            1995.854
+          ],
+          "quote": "But what's interesting is that a lot of the really popular harnesses don't necessarily do well when Prime Agent does well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1995.874,
+            2003.577
+          ],
+          "quote": "So like for Hermes Agent, we spent a lot of money very quickly and we had to cut it off because they spent like $5,000 without making much performance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2276.606,
+            2285.215
+          ],
+          "quote": "But projects like OpenClaw and Hermes Agent typically rely on cloud LMs for most of the intelligence and for most of the queries.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2361.419,
+            2379.535
+          ],
+          "quote": "And so with this project, we wanted to explore the main question of can we build the core of a personal AI stack, namely the model inference, the agent execution, the memory, the learning, basically the parts that are mostly reliant on the cloud today, entirely on device while staying competitive with these cloud-only stacks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2432.773,
+            2456.663
+          ],
+          "quote": "For actually making all of these agents and intelligence useful, you need some set of tools and memory that can be run through a standard MCP protocol, and you need some sort of set of primitives for actually doing learning, whether it's prompt-based techniques like JetBar or DSPy, whether it's weight-based techniques like GRPO and SFT and LoRa, you need some way to actually get the agent to improve over time and actually be able to make it more personal and more effective.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2758.293,
+            2767.06
+          ],
+          "quote": "Hi, I'm Josh, and this is Regan, and we're working on QM, which is YC's open source agent harness for work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2829.745,
+            2847.317
+          ],
+          "quote": "So you might be wondering why we built this, and it's really the result of a string of internal agent projects that have kind of unwound throughout the years, and all of which were really riding this tailwind of increasingly capable models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2853.78,
+            2857.581
+          ],
+          "quote": "We internally refer to it as the quote unquote like general agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2880.747,
+            2888.293
+          ],
+          "quote": "Interestingly, the scope of what the general agent was good at just increased, I guess unsurprisingly, as the underlying models got better.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2945.75,
+            2964.513
+          ],
+          "quote": "We also on top of that had a small loop going where we would observe sort of how the bot failed, where it went wrong, and then update the agent.md which was present in the codebase at the time to make sure that the thing got better as we like observed the usage.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2985.267,
+            2992.752
+          ],
+          "quote": "So OpenClaw in particular was useful because it was the first agent that a lot of them had used that had their own computer, that had its own computer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 566,
+          "t": [
+            3079.806,
+            3084.471
+          ],
+          "quote": "So OpenClaw gives the agent its own computer, and we start to see really impressive returns from that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3139.654,
+            3143.555
+          ],
+          "quote": "The agent has its own computer, which is super powerful, but it's also trapped inside that computer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 581,
+          "t": [
+            3167.064,
+            3170.388
+          ],
+          "quote": "So everything is centralized from all the agent conversations that people are having.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 582,
+          "t": [
+            3171.229,
+            3176.774
+          ],
+          "quote": "And then we expose those to the agent itself so it can look at all the context that's sort of aggregating from across the system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 583,
+          "t": [
+            3177.214,
+            3185.662
+          ],
+          "quote": "And then the other thing we do is we start thinking about sandboxes less as this home where the agent lives and where it's kind of stuck in a lot of ways.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 584,
+          "t": [
+            3186.283,
+            3191.166
+          ],
+          "quote": "And Sandbox has become more of this thing, more of a resource that the agent can dip into and use as needed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3195.349,
+            3203.275
+          ],
+          "quote": "The other thing that this starts to open up is this idea of you're accumulating this large eval set of all the traces that you have from the conversations that people are having with the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 602,
+          "t": [
+            3293.667,
+            3302.771
+          ],
+          "quote": "So the way that works is the agent will put forward a plan to edit the database that a person can kind of give a once over and ensure it's not doing anything crazy before the write actually happens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3308.513,
+            3318.197
+          ],
+          "quote": "It's a little bit like I think if you guys use Claude Code in the early days, like you might have been reviewing the tool uses very closely and eventually you start to build up more trust in the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3321.958,
+            3331.745
+          ],
+          "quote": "Yeah, so sort of like I was saying, the sandboxes in this system we like to think of as a resource for the agent, and less where the agent actually lives.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3332.285,
+            3342.472
+          ],
+          "quote": "So in QM, the agent can basically, by default, it's going to be using a particular sandbox, so that's going to be one that's been allocated to the user that it's talking to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 609,
+          "t": [
+            3344.773,
+            3349.738
+          ],
+          "quote": "There are environments that the agent can kind of converge on and can collaborate with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 610,
+          "t": [
+            3350.779,
+            3360.968
+          ],
+          "quote": "And then the other key thing is that if the agent is working on like a heavier dev workload, it can go and reach for a machine that has more resources.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3366.472,
+            3371.317
+          ],
+          "quote": "And so pushing that decision into the agent itself rather than the harness has been a really, really powerful thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 613,
+          "t": [
+            3372.277,
+            3377.001
+          ],
+          "quote": "Similarly, allowing the agent to tap into its own runtime.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3391.012,
+            3396.497
+          ],
+          "quote": "So what we can do when the agent can control its own runtime, it can just pop out into another model when it needs to avoid a situation like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3473.004,
+            3479.23
+          ],
+          "quote": "So the agent is not allowed to give up on his task before a certain amount of like wall clock times, like a couple hours.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 635,
+          "t": [
+            3509.276,
+            3521.306
+          ],
+          "quote": "But because of the artifacts of its training, effectively, what we see is that the agent can get very confused about the situation that it's in, even if we specify this pretty clearly in the system prompt.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 640,
+          "t": [
+            3552.872,
+            3556.335
+          ],
+          "quote": "But it takes some actual work to recreate this with an agent.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "sub-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (sub-agents)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            733.556,
+            745.559
+          ],
+          "quote": "One of the tools could be I can spawn a set of sub-agents and they persist in these persistent repls and they'll be able to be running and I can interact with them and I'll have the sub-agent list.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 166,
+          "t": [
+            745.759,
+            749.48
+          ],
+          "quote": "I can invoke those ones and I can keep adding to the launch sub-agents.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1171.897,
+            1178.061
+          ],
+          "quote": "You can even message other sessions of LLMs that are going on and create sub-agents in order to do all of these very cool things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1216.243,
+            1222.688
+          ],
+          "quote": "And this root session is basically the project orchestrator over all of these different sub-agents that it's controlling.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1223.128,
+            1225.39
+          ],
+          "quote": "And you don't have to ask it to start sub-agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1225.59,
+            1227.752
+          ],
+          "quote": "It will leverage sub-agents when they're useful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1238.464,
+            1241.088
+          ],
+          "quote": "All your tools, all your memories, all your sub-agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1271.376,
+            1289.204
+          ],
+          "quote": "And then we also have these other features that we expose from Continual Harness where it's able to provide like live CRUD operations on all of the components that we mentioned in order to manage its memory skills, sub-agents persistently and prompt its own system prompt persistently.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1399.593,
+            1400.694
+          ],
+          "quote": "You can also create sub-agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1547.395,
+            1553.579
+          ],
+          "quote": "They have to have the ability to programmatically create sub-agents and access state and have different feedback mechanisms.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1567.29,
+            1573.837
+          ],
+          "quote": "What we do beyond what was in the RLM paper is we think about the age sub-agents as these persistent subsessions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1662.757,
+            1667.524
+          ],
+          "quote": "Were there certain sub-agents that we want to reuse at a later time because the context is useful?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1902.678,
+            1909.882
+          ],
+          "quote": "And then the general system prompt for prime agent, which is like you have a REPL, you can call sub-agents, you can use it programmatically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2183.951,
+            2196.46
+          ],
+          "quote": "And here one of the main benefits is they can use like the sub-agents that can divvy up into different tasks in the factory in order to research and build and gather resources and build the next items to design the factory.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rlm",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLM",
+      "file": "RLM",
+      "primary": true,
+      "how_described": "Prime Agent 的基础原则：一切都跑在一个 IPython shell 里，工具、记忆、子智能体都是其中的程序对象，可递归调用 RLM query 解决更大一类问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            750.46,
+            753.743
+          ],
+          "quote": "And then RLM went even crazier to allow this in a recursive fashion.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 168,
+          "t": [
+            754.363,
+            756.665
+          ],
+          "quote": "And it exposes this RLM query.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 169,
+          "t": [
+            756.905,
+            761.888
+          ],
+          "quote": "So I keep recursively calling the RLM query to solve a larger class of problems.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1118.049,
+            1122.253
+          ],
+          "quote": "My name's Seth, and I'm going to be presenting Prime Agent, which is a self-improving RLM harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1560.663,
+            1565.028
+          ],
+          "quote": "The way we manage, and I'm sure you're all familiar with the RLM paper from my co-author, Alex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1567.29,
+            1573.837
+          ],
+          "quote": "What we do beyond what was in the RLM paper is we think about the age sub-agents as these persistent subsessions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1574.734,
+            1587.48
+          ],
+          "quote": "So the parent station can create, spin up a new RLM subagent and each of these are then admitted, they run some tasks and then they finish and report back to some end state to the parent session.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2051.59,
+            2071.678
+          ],
+          "quote": "And we found that what's really interesting is because it has this REPL access in the RLM, it's able to use these programs in order to kind of do these like out of experiment loop designs in order to try things out in a lot more expressible and free way before submitting the final solution to the grader.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集的反复主题：ArcAGI 首跑 99.9% 是因为作弊，Seth 为此正经搭了沙箱；QM 更把沙箱从「智能体的家」降格为「按需取用的资源」，让智能体自己选机器强度与提供商。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 528,
+          "t": [
+            2782.392,
+            2791.339
+          ],
+          "quote": "Each person works within QM in their own personal context that has its own sandbox, files, and crons.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 574,
+          "t": [
+            3124.703,
+            3132.969
+          ],
+          "quote": "So the first way that we do that with QM is by essentially pulling the brain of the system up out of the sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 584,
+          "t": [
+            3186.283,
+            3191.166
+          ],
+          "quote": "And Sandbox has become more of this thing, more of a resource that the agent can dip into and use as needed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3332.285,
+            3342.472
+          ],
+          "quote": "So in QM, the agent can basically, by default, it's going to be using a particular sandbox, so that's going to be one that's been allocated to the user that it's talking to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3361.828,
+            3365.712
+          ],
+          "quote": "If it's working on something that's simpler, it'll just go for a sandbox that's less powerful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 617,
+          "t": [
+            3398.23,
+            3404.782
+          ],
+          "quote": "Similarly, like in the earlier situation, it's often useful to pop between different sandbox providers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 620,
+          "t": [
+            3412.487,
+            3425.612
+          ],
+          "quote": "We think of the kind of core of the system as being these three tools, where you have execution in a remote sandbox, reading and writing from object storage, and then publishing internal apps, a pretty simple sort of get backed system.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文管理 (context engineering)",
+      "file": "上下文管理",
+      "primary": true,
+      "how_described": "本集把上下文当分层缓存（L1 权重、L2 活跃上下文、L3 磁盘、中间 REPL），核心手段是压缩（compaction）与对状态做 CRUD/精炼，程序化操作数据以省 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            70.9,
+            73.221
+          ],
+          "quote": "Context engineering is not a research problem.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "repl",
+      "type": "concept",
+      "role": "concept",
+      "name": "REPL",
+      "file": "REPL",
+      "primary": true,
+      "how_described": "本集反复强调的可表达性能力：变量留在内存、用程序直接操作数据而非塞进上下文；Seth 说 ArcAGI 高分很大程度上归功于 REPL 上的推理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 296,
+          "t": [
+            1371.557,
+            1380.885
+          ],
+          "quote": "If we're at the L2, which is, I could think, at a means in between what the active context is and working with your file system, you might have a live REPL.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1437.44,
+            1444.684
+          ],
+          "quote": "I like to think of this at the REPL as this agentic garbage collection where we're just cleaning up the variables in our state as well as like what sub-ages could be used.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1543.472,
+            1547.355
+          ],
+          "quote": "They have to be able to have a Python REPL so they can run programs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1792.225,
+            1804.449
+          ],
+          "quote": "We're going to talk a little bit about test time scaling and RKGI results, as well as looking at, you know, is it actually helpful and why is it actually helpful for our information management, for the REPL that we're working on, these long contexts.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1902.678,
+            1909.882
+          ],
+          "quote": "And then the general system prompt for prime agent, which is like you have a REPL, you can call sub-agents, you can use it programmatically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1920.97,
+            1928.835
+          ],
+          "quote": "And it's a lot of really cool stuff that it seems like it was doing reasonable reasoning while leveraging the REPL that we had.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2051.59,
+            2071.678
+          ],
+          "quote": "And we found that what's really interesting is because it has this REPL access in the RLM, it's able to use these programs in order to kind of do these like out of experiment loop designs in order to try things out in a lot more expressible and free way before submitting the final solution to the grader.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "self-improving-harnesses",
+      "type": "concept",
+      "role": "concept",
+      "name": "自我改进 harness (self-improving harnesses)",
+      "file": "自我改进 harness",
+      "primary": true,
+      "how_described": "主持人划分的最近六个月新阶段：harness 本身成为可学习对象——DSPY 用遗传编程学系统提示词，Darwin Gödel 机器连 harness 代码都让模型改，continual harness 做测试时训练更新权重。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            116.4,
+            122.266
+          ],
+          "quote": "And then this latest, maybe last six months, has all been on the self-improving harnesses.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "test-time-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试时训练 (test time training)",
+      "file": "测试时训练",
+      "primary": false,
+      "how_described": "continual harness 的做法：在测试时用刚学到的一小批示例更新模型权重本身，主持人称其为极重要的研究方向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 232,
+          "t": [
+            1024.896,
+            1036.3
+          ],
+          "quote": "So you're actually doing a test time training on the LLM based on a small amount of examples that you just learned, which I think is actually a huge, huge important research direction that we should get working.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": false,
+      "how_described": "源自 Voyager：把工具链蒸馏回系统提示词，即今天的 skills.md 式技能；Seth 把它定义为达成特定目标的一组指令或程序，可被反思精炼。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            215.315,
+            222.102
+          ],
+          "quote": "These games to make sure they're all orthogonal skills from game one to game two so that it's isolating this fluid intelligence measure.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 103,
+          "t": [
+            483.932,
+            486.854
+          ],
+          "quote": "There's no tool calling, there's no skills, there's nothing like that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 140,
+          "t": [
+            635.177,
+            638.021
+          ],
+          "quote": "And this is where skills kind of came about.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 145,
+          "t": [
+            645.926,
+            650.969
+          ],
+          "quote": "And so I have this skills.md and I have the name of it that I can go and search.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 148,
+          "t": [
+            659.213,
+            663.999
+          ],
+          "quote": "That I can basically, now I have on-the-fly tools or on-the-fly skills.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 187,
+          "t": [
+            804.278,
+            806.74
+          ],
+          "quote": "You specify a skills list, the sub-agent list.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1271.376,
+            1289.204
+          ],
+          "quote": "And then we also have these other features that we expose from Continual Harness where it's able to provide like live CRUD operations on all of the components that we mentioned in order to manage its memory skills, sub-agents persistently and prompt its own system prompt persistently.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1449.568,
+            1457.676
+          ],
+          "quote": "And then on top of that, we have this notion of refinement where we're updating and deleting the skills and memories and prompts that are stored on your system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1645.41,
+            1647.211
+          ],
+          "quote": "Do we need to create some skills?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1647.311,
+            1654.874
+          ],
+          "quote": "And skills I think of as a set of instructions or a program in order to achieve some specific goal.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "prime-agent",
+      "type": "company",
+      "role": "company",
+      "name": "Prime Agent",
+      "file": "Prime Agent",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            247.994,
+            251.416
+          ],
+          "quote": "So Prime Agent and NVIDIA, which both recently just came out.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1058.629,
+            1073.092
+          ],
+          "quote": "Uh, at Princeton, uh, researcher at Prime Intellect and the author of Prime Agent, um, John Sadefalcone, who's a, the first time we've had a, a, a callback, um, presenter, very excited about that, PhD under Chris and Azalea, um,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1118.049,
+            1122.253
+          ],
+          "quote": "My name's Seth, and I'm going to be presenting Prime Agent, which is a self-improving RLM harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1695.416,
+            1699.419
+          ],
+          "quote": "One of the coolest features that we have in Prime Agent that we've had...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1785.359,
+            1791.345
+          ],
+          "quote": "I have a couple experiments that I'm going to show after we've shared our design philosophy here about how we created a prime agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1865.845,
+            1867.586
+          ],
+          "quote": "And I'm just gonna throw this directly into Prime Agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1902.678,
+            1909.882
+          ],
+          "quote": "And then the general system prompt for prime agent, which is like you have a REPL, you can call sub-agents, you can use it programmatically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1980.201,
+            1989.271
+          ],
+          "quote": "And so rather than having bad results, I just deferred to the original Claude Code results and some other people have run it with similar configurations to Prime Agent and gotten much better results since then.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1990.012,
+            1995.854
+          ],
+          "quote": "But what's interesting is that a lot of the really popular harnesses don't necessarily do well when Prime Agent does well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openjarvis",
+      "type": "company",
+      "role": "company",
+      "name": "OpenJarvis",
+      "file": "OpenJarvis",
+      "primary": true,
+      "how_described": "斯坦福 John 介绍的个人 AI 本地栈：用五个原语（界面、智能体逻辑、模型、推理引擎、学习系统）定义，让云端模型离线优化本地配置，实测约 800 倍更低运行成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 239,
+          "t": [
+            1073.852,
+            1083.478
+          ],
+          "quote": "And he's the author of OpenJarvis with Avonica from my lab, Hazy, which is a personal OpenJarvis, which I think is really cool.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2379.995,
+            2381.977
+          ],
+          "quote": "And so we decided to propose OpenJarvis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2393.428,
+            2401.435
+          ],
+          "quote": "And so to construct OpenJarvis, we wanted to create the simplest set of primitives for which you define any sort of harness or personal AI stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2457.083,
+            2465.067
+          ],
+          "quote": "And so to kind of walk through like what OpenJarvis looks like, we tried to go with all of the standard interfaces that people are already custom to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2585.341,
+            2605.939
+          ],
+          "quote": "These OpenJarvis configurations that were actually optimized by cloud LMs like Claude or ChatGPT were much more effective than local stacks that were just deployed out of the box because you could actually cater to the specific LMs, the specific harness that was needed for different kinds of workloads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2642.697,
+            2654.849
+          ],
+          "quote": "What we also found is that no matter which CloudLM we picked, it was useful in terms of optimizing the whole agentic loop for these local OpenJarvis configurations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2677.63,
+            2685.252
+          ],
+          "quote": "What we also found is that the whole OpenJarvis harness was cheaper to optimize than alternatives, which might require more data and more LM calls.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "qm",
+      "type": "company",
+      "role": "company",
+      "name": "QM",
+      "file": "QM",
+      "primary": true,
+      "how_described": "YC 开源的工作智能体 harness，给每位员工可定制助手：把大脑拉出沙箱集中存进 Postgres、沙箱变成资源、harness 极薄（三个核心工具），并做了 grind 工具防止智能体过早放弃。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 191,
+          "t": [
+            816.745,
+            820.246
+          ],
+          "quote": "My Slack channel, which we'll hear about QM, which is like, I use it every day.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1094.53,
+            1096.572
+          ],
+          "quote": "We'll be talking about QM.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1096.812,
+            1106.36
+          ],
+          "quote": "And so QM at YC, we had this general agent that we use and they came out with QM a month ago and it is like meaningfully better and is so functional and I use it every day.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2758.293,
+            2767.06
+          ],
+          "quote": "Hi, I'm Josh, and this is Regan, and we're working on QM, which is YC's open source agent harness for work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2767.5,
+            2780.81
+          ],
+          "quote": "QM is one system that gives every employee at YC an open claw-like assistant that's fully customizable and available in Slack or via WebUI, which is what we're looking at here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2782.392,
+            2791.339
+          ],
+          "quote": "Each person works within QM in their own personal context that has its own sandbox, files, and crons.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2792.219,
+            2797.604
+          ],
+          "quote": "And they can also work with QM in a multiplayer setting like a Slack channel.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2798.452,
+            2807.501
+          ],
+          "quote": "People use QM for a pretty broad range of things, like a lot of automations, like email triage, like legal and finance workflows.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 574,
+          "t": [
+            3124.703,
+            3132.969
+          ],
+          "quote": "So the first way that we do that with QM is by essentially pulling the brain of the system up out of the sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3332.285,
+            3342.472
+          ],
+          "quote": "So in QM, the agent can basically, by default, it's going to be using a particular sandbox, so that's going to be one that's been allocated to the user that it's talking to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 646,
+          "t": [
+            3589.958,
+            3591.899
+          ],
+          "quote": "You can try out QM, it's open source.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "本集讲它是第一个「拥有自己电脑」的智能体，YC 合伙人今年 1 月开始用，极可定制，是 QM 演化链条上的关键一环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 462,
+          "t": [
+            2276.606,
+            2285.215
+          ],
+          "quote": "But projects like OpenClaw and Hermes Agent typically rely on cloud LMs for most of the intelligence and for most of the queries.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2965.033,
+            2969.576
+          ],
+          "quote": "And so in January of this year, a lot of the partners started using OpenClaw.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2985.267,
+            2992.752
+          ],
+          "quote": "So OpenClaw in particular was useful because it was the first agent that a lot of them had used that had their own computer, that had its own computer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 566,
+          "t": [
+            3079.806,
+            3084.471
+          ],
+          "quote": "So OpenClaw gives the agent its own computer, and we start to see really impressive returns from that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3133.009,
+            3138.212
+          ],
+          "quote": "So with Hermes and with OpenClaw, you effectively have...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集作为对比参照：YC 曾把它塞进 VM 接 Slack；Seth 拿它跑 ArcAGI 结果不佳，且提到早期用它时要仔细审查工具调用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 261,
+          "t": [
+            1197.213,
+            1201.735
+          ],
+          "quote": "So you open up your PrimeAgent on your computer just like you would Claude Code, Codex, Py, etc.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1973.974,
+            1976.016
+          ],
+          "quote": "So some people ask me, like, did you run this with Claude Code?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1980.201,
+            1989.271
+          ],
+          "quote": "And so rather than having bad results, I just deferred to the original Claude Code results and some other people have run it with similar configurations to Prime Agent and gotten much better results since then.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2027.123,
+            2039.713
+          ],
+          "quote": "And we found that it was mainly parity or slightly better than these other harnesses, like across different models versus doing like PyMono, Claude Code, Codex with GLM 5.2, Opus 5, and 5.6 as our setting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2903.984,
+            2919.153
+          ],
+          "quote": "By then, a lot of our engineers started using Claude Code and Codex, and we realized that you could pretty easily run these in a VM, and then we hooked that up to a Slack tag, which was a pretty powerful medium for people who just wanted to run a one-off code change.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3308.513,
+            3318.197
+          ],
+          "quote": "It's a little bit like I think if you guys use Claude Code in the early days, like you might have been reviewing the tool uses very closely and eventually you start to build up more trust in the agent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集作为 harness 对比项出现：YC 工程师曾把它与 Claude Code 一起塞进 VM 使用，也是 Seth 长程评测的对比 harness 之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 261,
+          "t": [
+            1197.213,
+            1201.735
+          ],
+          "quote": "So you open up your PrimeAgent on your computer just like you would Claude Code, Codex, Py, etc.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2027.123,
+            2039.713
+          ],
+          "quote": "And we found that it was mainly parity or slightly better than these other harnesses, like across different models versus doing like PyMono, Claude Code, Codex with GLM 5.2, Opus 5, and 5.6 as our setting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2903.984,
+            2919.153
+          ],
+          "quote": "By then, a lot of our engineers started using Claude Code and Codex, and we realized that you could pretty easily run these in a VM, and then we hooked that up to a Slack tag, which was a pretty powerful medium for people who just wanted to run a one-off code change.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "local-lms",
+      "type": "concept",
+      "role": "concept",
+      "name": "本地推理 (local LMs)",
+      "file": "本地推理",
+      "primary": true,
+      "how_described": "OpenJarvis 的核心主张：本地模型只落后前沿 6-12 个月、加速器越来越强，未来日常推理调用的很大部分甚至多数会走本地设备而非云端。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 470,
+          "t": [
+            2312.985,
+            2318.566
+          ],
+          "quote": "And so the local LMs are finally good enough to actually run a lot of these queries that people care about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2567.417,
+            2583.661
+          ],
+          "quote": "And so this is a nice way of taking advantages of the capabilities of cloud LMs to diagnose proposed changes and gates to create improved solutions for these local LMs while not incurring the cost of those cloud LMs when you actually deploy these local stacks at inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2728.196,
+            2739.166
+          ],
+          "quote": "And so if you're excited about anything in the stack, whether it's better local LMs, better accelerators, better inference engines for deploying beyond data centers, please reach out.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集在部署语境中反复出现：本地推理成本/延迟大降、云端优化本地栈但部署推理零云端成本、harness 跑出的推理轨迹可喂下一版模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 477,
+          "t": [
+            2361.419,
+            2379.535
+          ],
+          "quote": "And so with this project, we wanted to explore the main question of can we build the core of a personal AI stack, namely the model inference, the agent execution, the memory, the learning, basically the parts that are mostly reliant on the cloud today, entirely on device while staying competitive with these cloud-only stacks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2415.504,
+            2422.148
+          ],
+          "quote": "So this could be Quen, GBD OSS, Gemma 3N, and then whatever actual inference engine you need to run it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2567.417,
+            2583.661
+          ],
+          "quote": "And so this is a nice way of taking advantages of the capabilities of cloud LMs to diagnose proposed changes and gates to create improved solutions for these local LMs while not incurring the cost of those cloud LMs when you actually deploy these local stacks at inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2660.855,
+            2677.37
+          ],
+          "quote": "But what was interesting to see is that you could pick Gemini, you could pick other larger LM families like Kimi and GLM and use them to optimize these local configurations so that you could capture those efficiency gains, capture those performance gains for local inference later.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2706.378,
+            2722.792
+          ],
+          "quote": "We think in the very near future, you're going to see a huge proportion, maybe even a majority, of people's daily inference calls going to local devices and on-prem laptops or on-prem workstations, as opposed to the kind of standard of today where everything's being pushed up to the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2728.196,
+            2739.166
+          ],
+          "quote": "And so if you're excited about anything in the stack, whether it's better local LMs, better accelerators, better inference engines for deploying beyond data centers, please reach out.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

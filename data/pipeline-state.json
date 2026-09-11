@@ -51,7 +51,10 @@
     "U8oDMct5-gw": "2026-05-20-talks-the-infrastructure-behind-ai-agents-with",
     "4GmHpHyoKmo": "2026-08-25-talks-canva-cofounder-and-coo-cliff-obrecht-in",
     "Uny6LpmjraI": "2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs",
-    "CEYGln3s9MM": "2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver"
+    "CEYGln3s9MM": "2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver",
+    "n9xKblqyQ28": "2026-09-07-talks-why-the-harness-matters-more-than-the-mo",
+    "9wZpvF3QleU": "2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p",
+    "AJhjm4_UJIk": "2026-09-09-talks-the-exact-tools-used-to-port-a-massive-c"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
@@ -72,7 +75,7 @@
     "trainingdata": "2026-09-01T09:00:00.000Z",
     "bigtech": "2026-09-09T11:54:00.000Z",
     "aiandi": "2026-09-02T17:13:19.000Z",
-    "nopriors": "2026-08-27T10:00:00.000Z",
+    "nopriors": "2026-09-10T10:00:00.000Z",
     "thepeel": "2026-08-27T14:06:16.000Z",
     "beyondcoding": "2026-09-09T12:00:00.000Z",
     "founders": "2026-09-05T16:21:00.000Z",
@@ -80,7 +83,7 @@
     "doac": "2026-09-03T05:00:00.000Z",
     "deepmind": "2026-09-09T16:08:26.000Z",
     "twentyvc": "2026-09-10T07:07:00.000Z",
-    "cogrev": "2026-09-05T23:39:30.000Z",
+    "cogrev": "2026-09-10T20:15:44.000Z",
     "knowledge": "2026-09-01T10:00:00.000Z",
     "pragmatic": "2026-09-09T15:57:24.000Z",
     "practicalai": "2026-09-03T09:00:00.000Z",
@@ -99,11 +102,11 @@
     "ainativedev": "2026-09-08T12:00:00.000Z",
     "newcomer": "2026-08-26T15:00:00.000Z",
     "engenable": "2026-08-26T04:55:58.000Z",
-    "sourcery": "2026-09-08T10:00:00.000Z",
+    "sourcery": "2026-09-10T10:00:00.000Z",
     "iltb": "2026-09-08T08:00:00.000Z",
     "generalist": "2026-09-08T11:00:00.000Z",
     "sed": "2026-09-10T09:00:00.000Z",
-    "twist": "2026-09-04T16:44:00.000Z",
+    "twist": "2026-09-10T20:27:00.000Z",
     "grit": "2026-09-07T09:38:47.000Z"
   },
   "skipped": [
@@ -922,6 +925,24 @@
       "reason": "题材不对味:网络安全主题属传统工程/安全领域,非档案收录的 AI 商业/产业/实操面",
       "title": "The Reason 30 Years of Cybersecurity Has Failed - and What Actually Fixes It | Trent Telford, Qanapi",
       "pubDate": "2026-09-10T13:43:00.000Z"
+    },
+    {
+      "id": "2026-09-10-cogrev-nathan-goes-to-china-3-us-china-relation",
+      "reason": "题材不对味:拿不准:地缘政治+AI 交易思辨访谈,偏政策/大势评论,与档案「产业格局/创始人故事」的实盘题材契合度不明",
+      "title": "Nathan Goes to China #3: US-China Relations, the Art of the AI Deal & the Road to Pax Robotica",
+      "pubDate": "2026-09-10T20:15:44.000Z"
+    },
+    {
+      "id": "2026-09-09-twist-did-openai-steal-the-navier-stokes-solut",
+      "reason": "题材不对味:模型前沿研究热点(OpenAI 与 Navier-Stokes 解题之争)属学术/架构前沿与本周热点话题,落在不要面",
+      "title": "Did OpenAI Steal the Navier-Stokes Solution? | E2335",
+      "pubDate": "2026-09-09T20:21:00.000Z"
+    },
+    {
+      "id": "2026-09-10-twist-becki-degraw-on-founder-vesting-advisor",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Becki DeGraw on founder vesting, advisor equity & the 4-term-sheet play",
+      "pubDate": "2026-09-10T20:27:00.000Z"
     }
   ]
 }

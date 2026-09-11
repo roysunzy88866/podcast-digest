@@ -1,0 +1,1054 @@
+{
+  "episode_id": "2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f",
+  "podcast": "No Priors",
+  "date": "2026-09-10",
+  "tags": [
+    "加密货币与稳定币",
+    "智能体经济",
+    "AI 在企业内部",
+    "生物科技与长寿",
+    "监管与创新"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "elad-gil",
+      "type": "person",
+      "role": "host",
+      "name": "Elad Gil",
+      "file": "Elad Gil",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "brian-armstrong",
+      "type": "person",
+      "role": "cohost",
+      "name": "Brian Armstrong",
+      "file": "Brian Armstrong",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            50.139,
+            60.067
+          ],
+          "quote": "Today I know priors, we are joined by Brian Armstrong, the co-founder and CEO of Coinbase, one of the world's most important and earliest crypto companies that has also been quite aggressive at adopting AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "coinbase",
+      "type": "company",
+      "role": "company",
+      "name": "Coinbase",
+      "file": "Coinbase",
+      "primary": true,
+      "how_described": "本集说它是最早、最重要的加密货币公司之一，正推进三大方向：一切交易所(Everything Exchange)、稳定币支付、以及智能体金融，并要把 AI 深度引入公司内部。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            50.139,
+            60.067
+          ],
+          "quote": "Today I know priors, we are joined by Brian Armstrong, the co-founder and CEO of Coinbase, one of the world's most important and earliest crypto companies that has also been quite aggressive at adopting AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            101.128,
+            107.355
+          ],
+          "quote": "I think there's a bunch of stuff relevant to Coinbase and crypto and, you know, agentic finance and things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            117.4,
+            118.44
+          ],
+          "quote": "And maybe we start with Coinbase.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            118.5,
+            121.641
+          ],
+          "quote": "So Coinbase has been making some really big moves.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            133.043,
+            141.029
+          ],
+          "quote": "Yeah, so we're at a really exciting time in Coinbase's history because on the one hand, every asset class is coming on chain.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 45,
+          "t": [
+            202.332,
+            205.114
+          ],
+          "quote": "And we're building this into Coinbase in a number of different ways.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            236.893,
+            239.435
+          ],
+          "quote": "So we've launched an advisor in the Coinbase product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 66,
+          "t": [
+            282.523,
+            286.152
+          ],
+          "quote": "And is that tied to an account of somebody who's already on Coinbase?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            296.838,
+            305.968
+          ],
+          "quote": "So it's going to be possible to create a separate agentic account with segregated funds on Coinbase in the near future, and you can give your agent access to just that, to do trading and payments on your behalf.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 87,
+          "t": [
+            357.162,
+            362.223
+          ],
+          "quote": "X402, which is one that we incubated at Coinbase that we actually put into the Linux Foundation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            385.036,
+            389.661
+          ],
+          "quote": "We have a product called Coinbase Business that helps companies accept stablecoin payments.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 118,
+          "t": [
+            509.739,
+            517.441
+          ],
+          "quote": "If you train it on 100,000 compliance cases within Coinbase proprietary data, a small open-weight model can actually outperform a frontier model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 156,
+          "t": [
+            693.454,
+            698.179
+          ],
+          "quote": "I mean, the other thing you folks have really been focused on is the use of AI within Coinbase itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            751.263,
+            756.504
+          ],
+          "quote": "You can have a brain for each individual, which, by the way, I believe they should be able to take with them when they leave Coinbase.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1035.435,
+            1041.659
+          ],
+          "quote": "And so if you take a company like any sort of company today, Coinbase or others that exist today, it's not that...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1109.836,
+            1116.801
+          ],
+          "quote": "What proportion of Coinbase, either volume or revenue, is sort of those other ancillary areas now outside of crypto?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1192.13,
+            1196.413
+          ],
+          "quote": "So they don't have any ability to invest in Coinbase, NVIDIA, Apple, whatever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1316.967,
+            1319.069
+          ],
+          "quote": "They're growing super fast inside the Coinbase app.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1504.422,
+            1507.682
+          ],
+          "quote": "Okay, so basically Coinbase went public in 2021.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1516.684,
+            1519.225
+          ],
+          "quote": "And I realized I'm just at the beginning of the journey with Coinbase.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1783.427,
+            1787.688
+          ],
+          "quote": "And yeah, I mean, I want to make sure that I'm focused on Coinbase.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1799.111,
+            1803.333
+          ],
+          "quote": "So I probably tried like 10 different ideas before Coinbase started to really work, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2112.876,
+            2116.058
+          ],
+          "quote": "Either for Coinbase or NewLimit or in general, like in the world, you know?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2174.332,
+            2175.812
+          ],
+          "quote": "Like that's what's happening at Coinbase.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2537.526,
+            2545.633
+          ],
+          "quote": "There's one called Prospera, which is in Honduras, and Coinbase actually made an investment in that just to learn more about it and see what was going on.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "newlimit",
+      "type": "company",
+      "role": "company",
+      "name": "NewLimit",
+      "file": "NewLimit",
+      "primary": true,
+      "how_described": "本集说它是 Brian 联合创办的抗衰老/长寿公司，用 AI 前沿模型加大规模混合筛选做表观遗传重编程，已建表观遗传重编程领域领先的前沿模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            60.287,
+            72.377
+          ],
+          "quote": "Brian is also the co-founder of NewLimit, which is a anti-aging and longevity company doing really interesting things in biology, including certain types of high throughput screening to understand aging, different uses of AI, et cetera.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1438.646,
+            1442.067
+          ],
+          "quote": "The thing that you've been working on is NewLimit, which is, I think...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1672.673,
+            1684.878
+          ],
+          "quote": "Through a series of these dinners, we happened to find the right group of people that came together, which turned out to be Jacob Kimmel, who's now the CEO of NewLimit, Blake Byers, one of the other co-founders, Greg Johnson, who co-founded the company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 440,
+          "t": [
+            1913.183,
+            1914.283
+          ],
+          "quote": "There's newlimit.com.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2112.876,
+            2116.058
+          ],
+          "quote": "Either for Coinbase or NewLimit or in general, like in the world, you know?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复谈 AI 智能体：数量将超过人类、需要自己的金融账户、作为专门化服务互相调用、并在公司内部作为可并行执行任务的工程师使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            25.683,
+            32.651
+          ],
+          "quote": "And so we've made some simple tools where with a single command you just prompt, you paste it into your AI agent, it can now have its own financial account.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 59,
+          "t": [
+            252.579,
+            258.601
+          ],
+          "quote": "And so we've made some simple tools where with a single command, you just prompt, you paste it into your AI agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            275.697,
+            281.963
+          ],
+          "quote": "And so now any AI agent can have its own financial account to do payments, to pay for goods.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 72,
+          "t": [
+            296.838,
+            305.968
+          ],
+          "quote": "So it's going to be possible to create a separate agentic account with segregated funds on Coinbase in the near future, and you can give your agent access to just that, to do trading and payments on your behalf.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 74,
+          "t": [
+            308.351,
+            312.395
+          ],
+          "quote": "We're also going to provide self-custodial wallets to any AI agent out there that wants to",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            318.8,
+            328.706
+          ],
+          "quote": "And so what's fascinating is that today we often talk to these agents and, you know, it's sort of like one person to one agent and they go get some work done, but they often get stuck.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            520.982,
+            526.787
+          ],
+          "quote": "A bunch of specialist agents, it might be like, hey, this agent is just really good at ordering you pizza, if that's what you want.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 121,
+          "t": [
+            526.867,
+            529.849
+          ],
+          "quote": "Or this agent is like a really incredible designer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 172,
+          "t": [
+            770.028,
+            780.89
+          ],
+          "quote": "What we're just now launching and seeing recently is like every time the agent comes in to make a change to that service, it's actually ingesting the brain for the team working on it and for that repository.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            811.587,
+            813.608
+          ],
+          "quote": "You ask the agent, hey, I wanna make a change to this service.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 188,
+          "t": [
+            828.052,
+            842.825
+          ],
+          "quote": "But the key step that we're trying to really enforce now in our software factory or software development lifecycle is when you go to make that change and edit the agent's thinking, that context has to go back into the brain so that you not only fix it in this case, but in all future cases going forward.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            856.918,
+            873.63
+          ],
+          "quote": "And just getting our own internal agent harness, which we call Toshi, just integrated with all these tools, like it can now make calls out to external vendors and pay using the agentic finance economy, like over these X-402 protocols.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 201,
+          "t": [
+            909.736,
+            913.258
+          ],
+          "quote": "And by the way, you know, recommend the right agent to use because they might be cheaper models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            939.073,
+            946.378
+          ],
+          "quote": "And now, instead of pinging the team in Slack, I can basically tag an agent in Slack with that comment or drop it into our internal harness.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agentic-finance",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体金融 (agentic finance)",
+      "file": "智能体金融",
+      "primary": true,
+      "how_described": "本集说这是 Coinbase 的第三大方向：让 AI 智能体拥有自己的金融账户和消费账户，不被排除在金融服务之外，称智能体经济将比人类经济更大。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            101.128,
+            107.355
+          ],
+          "quote": "I think there's a bunch of stuff relevant to Coinbase and crypto and, you know, agentic finance and things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            198.649,
+            201.691
+          ],
+          "quote": "And so we call this agentic finance or AI5.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            856.918,
+            873.63
+          ],
+          "quote": "And just getting our own internal agent harness, which we call Toshi, just integrated with all these tools, like it can now make calls out to external vendors and pay using the agentic finance economy, like over these X-402 protocols.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2168.669,
+            2174.252
+          ],
+          "quote": "So anyway, to answer your question directly, I mean, my main focus is gonna be on agentic finance, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "x402",
+      "type": "concept",
+      "role": "concept",
+      "name": "X402",
+      "file": "X402",
+      "primary": true,
+      "how_described": "本集说它是 Coinbase 孵化、已交给 Linux 基金会的支付协议，让智能体在小额支付时按需自动付费，Google、Cloudflare、AWS 都在参与。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            357.162,
+            362.223
+          ],
+          "quote": "X402, which is one that we incubated at Coinbase that we actually put into the Linux Foundation.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stablecoin",
+      "type": "concept",
+      "role": "concept",
+      "name": "稳定币 (stablecoin)",
+      "file": "稳定币",
+      "primary": true,
+      "how_described": "本集说稳定币支付在疯狂增长、是代币化的第一个主要用例，让资金以信息的速度移动，也是智能体账户和支付的基础通道。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            169.19,
+            172.932
+          ],
+          "quote": "The next big area that's emerging is stablecoin payments, which have just been growing like crazy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            173.773,
+            176.435
+          ],
+          "quote": "Even when Bitcoin prices are down, stablecoin payments just keep growing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            176.615,
+            180.937
+          ],
+          "quote": "And so we're helping companies all over the world integrate stablecoin payments, which are fast and cheap and global.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            313.156,
+            315.117
+          ],
+          "quote": "Hold a balance in stablecoin or event.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 86,
+          "t": [
+            349.238,
+            356.402
+          ],
+          "quote": "It's going to need probably like a stablecoin backed credit card for backward compatibility, but we're seeing a lot of agentic payment now flow over these new protocols like",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            385.036,
+            389.661
+          ],
+          "quote": "We have a product called Coinbase Business that helps companies accept stablecoin payments.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            390.061,
+            393.585
+          ],
+          "quote": "And that's good for humans who want to pay with stablecoin payments, but it's also good for agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            395.942,
+            399.904
+          ],
+          "quote": "You mentioned things like stablecoin or crypto backed credit cards.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2177.356,
+            2180.158
+          ],
+          "quote": "And then stablecoin payments and everything's changed.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tokenization",
+      "type": "concept",
+      "role": "concept",
+      "name": "代币化 (tokenization)",
+      "file": "代币化",
+      "primary": true,
+      "how_described": "本集说这是一个用链上代币一比一代表现实资产的趋势：稳定币是第一个用例，现已推出真正代币化的股票，接下来私募信贷、国债等一切都会被代币化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 258,
+          "t": [
+            1171.317,
+            1174.339
+          ],
+          "quote": "And so this is like broadly a trend called tokenization, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "prediction-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "预测市场 (prediction market)",
+      "file": "预测市场",
+      "primary": true,
+      "how_described": "本集说它在 Coinbase 上线几个月收入运行率就达约 1 亿美元、环比增速超 100%，体育只是表层，更大的想象是政策市场与无结算日的观点市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 308,
+          "t": [
+            1369.071,
+            1370.673
+          ],
+          "quote": "And then a prediction market could form on that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "recursive-self-improvement",
+      "type": "concept",
+      "role": "concept",
+      "name": "递归自我改进 (recursive self-improvement)",
+      "file": "递归自我改进",
+      "primary": true,
+      "how_described": "本集说 Coinbase 内部正在追求这个目标：为每个团队、仓库、个人建「大脑」，智能体改码前摄取它，人工修正的上下文必须写回大脑，使一次性通过的 PR 接受率持续上升。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 162,
+          "t": [
+            723.502,
+            736.477
+          ],
+          "quote": "And then the things that we've started to do recently where we're sort of pushing the boundaries here, I think one of them is that, you know, we basically want to get as close as we can and actually achieve recursive self-improvement, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            850.913,
+            853.095
+          ],
+          "quote": "And you've now got like a recursive self-improvement",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "crypto",
+      "type": "concept",
+      "role": "concept",
+      "name": "加密货币 (crypto)",
+      "file": "加密货币",
+      "primary": true,
+      "how_described": "本集说加密货币是人类金融系统的现代化轨道，对人类「真的、真的很好」，对 AI 则将是必不可少的；目前仅支撑全球 GDP 约 0.5%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            50.139,
+            60.067
+          ],
+          "quote": "Today I know priors, we are joined by Brian Armstrong, the co-founder and CEO of Coinbase, one of the world's most important and earliest crypto companies that has also been quite aggressive at adopting AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            82.828,
+            91.858
+          ],
+          "quote": "And we'll be talking about everything from what's happening in the crypto world to what's happening in AI to what's happening in biology to how different individuals can have an impact over time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            101.128,
+            107.355
+          ],
+          "quote": "I think there's a bunch of stuff relevant to Coinbase and crypto and, you know, agentic finance and things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            146.174,
+            159.464
+          ],
+          "quote": "And so for markets and trading and that out there is stocks and commodities and crypto and derivatives, perpetual futures, like it's all coming to one place where traders can do everything in one spot, including prediction markets too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 61,
+          "t": [
+            261.103,
+            264.006
+          ],
+          "quote": "And it's using a self-custodial wallet and crypto rails.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            395.942,
+            399.904
+          ],
+          "quote": "You mentioned things like stablecoin or crypto backed credit cards.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 97,
+          "t": [
+            400.185,
+            406.769
+          ],
+          "quote": "How do you think about what proportion of the future value in the agentic future is going to be crypto versus more standardized finance rails?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            630.164,
+            639.31
+          ],
+          "quote": "And it's really cool to see that as AI emerges, crypto rails are just kind of a nice compliment for all that stuff to finally work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 145,
+          "t": [
+            639.41,
+            643.633
+          ],
+          "quote": "I think crypto was really, really good for humans, and it's going to be essential for AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 147,
+          "t": [
+            649.065,
+            653.027
+          ],
+          "quote": "Early AI community, it overlaps so much with the crypto community, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            653.067,
+            666.832
+          ],
+          "quote": "In terms of you'd see, you know, computer science majors coming out of MIT and depending on the year that they graduated, they would go into crypto and two years later, they're all going into AI and it was roughly the same people in terms of people really into certain tips of math or algorithms or other things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            666.852,
+            677.777
+          ],
+          "quote": "So there's interesting bifurcation, I feel too, of people's careers is based on when they graduated in terms of whether they ended up doing crypto, you know, in 2020 or whatever it was versus AI in 2022.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1109.836,
+            1116.801
+          ],
+          "quote": "What proportion of Coinbase, either volume or revenue, is sort of those other ancillary areas now outside of crypto?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1143.232,
+            1147.417
+          ],
+          "quote": "But I also think all these other things are... Crypto is updating every aspect of the financial system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1241.239,
+            1242.72
+          ],
+          "quote": "And crypto is updating all those rails.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1523.266,
+            1525.967
+          ],
+          "quote": "About half of 1% of global GDP is running on crypto.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2180.298,
+            2184.48
+          ],
+          "quote": "Crypto is really only powering about half of 1% of global GDP right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2185.441,
+            2193.826
+          ],
+          "quote": "There's maybe about 700 million people in the world who have used crypto or hold crypto, but not all of them use it every month, which might be more like in the 50 to 100 million people.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2468.213,
+            2474.775
+          ],
+          "quote": "So one thing that's long been discussed in crypto circles and libertarian circles and other things are basically different forms of special economic zones.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2493.669,
+            2501.054
+          ],
+          "quote": "How do you think about that or how's your thinking evolved over time, especially since crypto has played a prominent role in some of the underpinnings and philosophies behind some of these things?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2587.22,
+            2600.154
+          ],
+          "quote": "And if we say, all right, we think it's important strategically for America to get really good at nuclear power or drug discovery or having a crypto or drone delivery or whatever it is.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "epigenetic-reprogramming",
+      "type": "concept",
+      "role": "concept",
+      "name": "表观遗传重编程 (epigenetic reprogramming)",
+      "file": "表观遗传重编程",
+      "primary": true,
+      "how_described": "本集说这是 NewLimit 的核心方向：通过调整转录因子让细胞恢复年轻时的功能而不改变细胞类型，已在人性化小鼠模型中证明至少一种人类细胞类型成功重编程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 377,
+          "t": [
+            1626.7,
+            1635.124
+          ],
+          "quote": "And people had all kinds of ideas, but one of them they came back with was this epigenetic reprogramming idea, which some labs had seen early results with, like Shinya Yamanaka's lab.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1656.578,
+            1662.403
+          ],
+          "quote": "And I started to feel about epigenetic reprogramming kind of how I did about Bitcoin at that time where I just couldn't stop thinking about it for like three months.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1719.512,
+            1723.436
+          ],
+          "quote": "We've built the leading frontier model for epigenetic reprogramming.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-enhancement",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知增强 (cognitive enhancement)",
+      "file": "认知增强",
+      "primary": true,
+      "how_described": "本集说 Brian 正思考的一个前沿想法：如儿童期补充叶酸能提升智商所提示的，通过疗法拉平人类天生的认知基线，是又一个尚未找到切入论点的元问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 503,
+          "t": [
+            2213.149,
+            2218.276
+          ],
+          "quote": "One idea I've been contemplating a little bit is around cognitive enhancement.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "special-economic-zones",
+      "type": "concept",
+      "role": "concept",
+      "name": "特殊经济区 (special economic zones)",
+      "file": "特殊经济区",
+      "primary": true,
+      "how_described": "本集说它是对抗过度监管的元问题方案：Brian 更看好在美国联邦土地上划出 10-100 平方英里的「自由城市」，在安全受控的沙箱里实验核电、数据中心、无人机配送。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 559,
+          "t": [
+            2468.213,
+            2474.775
+          ],
+          "quote": "So one thing that's long been discussed in crypto circles and libertarian circles and other things are basically different forms of special economic zones.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2501.79,
+            2509.592
+          ],
+          "quote": "Yeah, so I'm super interested in special economic zones because again, I'm interested in meta problems that unlock progress across a whole category of things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2656.184,
+            2663.211
+          ],
+          "quote": "And so, anyway, I think it'd be really fun to get these creative cities or special economic zones in the US.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 593,
+          "t": [
+            2671.58,
+            2677.187
+          ],
+          "quote": "And in some ways, like the U.S. is 50 special economic zones because of federalism and the state system.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tether",
+      "type": "company",
+      "role": "company",
+      "name": "Tether",
+      "file": "Tether",
+      "primary": false,
+      "how_described": "本集提它在美国以外因美元计价账户需求而非常成功，类比 40 亿人想获得高质量投资渠道的代币化股票机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 264,
+          "t": [
+            1198.214,
+            1206.097
+          ],
+          "quote": "Much like Tether was very successful, ex-US, because a lot of people wanted dollar-denominated accounts, there's like 4 billion people who want access to high-quality investments.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1277.532,
+            1282.395
+          ],
+          "quote": "To your point, it feels like the stablecoins and tether were the first version of that with USD.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

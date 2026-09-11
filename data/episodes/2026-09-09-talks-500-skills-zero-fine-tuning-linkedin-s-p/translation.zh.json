@@ -1,0 +1,1218 @@
+[
+ {
+  "seg": 0,
+  "start": 12.457,
+  "end": 12.997,
+  "speaker": "Unknown",
+  "en": "Hey, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.458,
+  "end": 13.958,
+  "speaker": "Unknown",
+  "en": "Good morning.",
+  "zh": "早上好。"
+ },
+ {
+  "seg": 2,
+  "start": 16.099,
+  "end": 17.62,
+  "speaker": "Unknown",
+  "en": "Thanks for being here.",
+  "zh": "感谢各位来到这里。"
+ },
+ {
+  "seg": 3,
+  "start": 18.221,
+  "end": 19.702,
+  "speaker": "Unknown",
+  "en": "I see people are still coming.",
+  "zh": "我看到还有人正在入场。"
+ },
+ {
+  "seg": 4,
+  "start": 20.282,
+  "end": 26.606,
+  "speaker": "Unknown",
+  "en": "But yeah, my name is Ajay, and I am a software engineer at LinkedIn.",
+  "zh": "是的，我叫 Ajay,是 LinkedIn 的一名软件工程师。"
+ },
+ {
+  "seg": 5,
+  "start": 28.027,
+  "end": 36.072,
+  "speaker": "Unknown",
+  "en": "Today I'm going to be talking about how we are doing context engineering to improve the performance of coding agents at LinkedIn.",
+  "zh": "今天我要讲的是我们在 LinkedIn 如何做上下文工程来提升编码智能体的性能。"
+ },
+ {
+  "seg": 6,
+  "start": 40.18,
+  "end": 50.003,
+  "speaker": "Unknown",
+  "en": "Okay, imagine you're a software engineer in a big tech company, and your products are being used by millions of users on a daily basis.",
+  "zh": "好，想象你是一家大型科技公司的软件工程师，你的产品每天被数百万用户使用。"
+ },
+ {
+  "seg": 7,
+  "start": 51.403,
+  "end": 59.145,
+  "speaker": "Unknown",
+  "en": "And you happen to be on a team which owns a set of very critical services, and you're on call, right?",
+  "zh": "而你恰好在一个负责一组非常关键服务的团队里，并且你正在值班，对吧？"
+ },
+ {
+  "seg": 8,
+  "start": 60.246,
+  "end": 64.687,
+  "speaker": "Unknown",
+  "en": "And you get an alert saying that there is an error spike in one of your services.",
+  "zh": "这时你收到一条警报，说你的某个服务出现了错误激增。"
+ },
+ {
+  "seg": 9,
+  "start": 66.122,
+  "end": 78.406,
+  "speaker": "Unknown",
+  "en": "And by the time you're trying to figure out how to deal with this issue, you take the link to the alert, give it to a coding agent like Claude Code or GitHub Copilot.",
+  "zh": "在你试图弄清楚如何处理这个问题的时候，你把警报的链接拿出来，交给一个像 Claude Code 或 GitHub Copilot 这样的编码智能体。"
+ },
+ {
+  "seg": 10,
+  "start": 80.687,
+  "end": 86.269,
+  "speaker": "Unknown",
+  "en": "While you're trying to figure out how to deal with the issue, the coding agent is working in the background.",
+  "zh": "当你还在试图弄清楚如何处理这个问题时，这个编码智能体正在后台工作。"
+ },
+ {
+  "seg": 11,
+  "start": 87.09,
+  "end": 90.711,
+  "speaker": "Unknown",
+  "en": "It will fetch the instructions on how to debug such issues in your company.",
+  "zh": "它会获取关于在你们公司如何调试这类问题的指令。"
+ },
+ {
+  "seg": 12,
+  "start": 92.045,
+  "end": 98.67,
+  "speaker": "Unknown",
+  "en": "And identifies that, based on that instruction, it identifies that this alert is happening in a specific service.",
+  "zh": "并根据这些指令，识别出这条警报发生在某个特定的服务上。"
+ },
+ {
+  "seg": 13,
+  "start": 99.01,
+  "end": 103.393,
+  "speaker": "Unknown",
+  "en": "Then it fetches instruction and context on how to debug that particular service.",
+  "zh": "然后它会获取关于如何调试那个特定服务的指令和上下文。"
+ },
+ {
+  "seg": 14,
+  "start": 104.314,
+  "end": 115.181,
+  "speaker": "Unknown",
+  "en": "And it will fetch, based on those instructions, it will take actions like fetching logs, metrics, and then it uses those logs to identify the root cause of the issue.",
+  "zh": "接着它会根据这些指令采取行动，比如获取日志、指标，然后利用这些日志来找出问题的根本原因。"
+ },
+ {
+  "seg": 15,
+  "start": 115.522,
+  "end": 119.885,
+  "speaker": "Unknown",
+  "en": "So it identifies, based on the error logs, where the issue is happening.",
+  "zh": "于是它根据错误日志识别出问题发生的位置。"
+ },
+ {
+  "seg": 16,
+  "start": 121.097,
+  "end": 126.782,
+  "speaker": "Unknown",
+  "en": "And it doesn't just find the root cause, it also figures out the steps to mitigate the issue.",
+  "zh": "而且它不只是找到根本原因，还会想出缓解这个问题的步骤。"
+ },
+ {
+  "seg": 17,
+  "start": 127.263,
+  "end": 136.972,
+  "speaker": "Unknown",
+  "en": "And once it finds all the details, it summarizes and give it to you, saying this is the error and this is the issue and this is the actions that you need to take to mitigate.",
+  "zh": "一旦它找到所有细节，它就会总结并给你，说：这是错误、这是问题、这是你需要采取的缓解行动。"
+ },
+ {
+  "seg": 18,
+  "start": 137.252,
+  "end": 143.418,
+  "speaker": "Unknown",
+  "en": "And once you confirm, it also goes ahead and takes those actions on your behalf to mitigate the issue.",
+  "zh": "而一旦你确认，它还会继续代你采取那些行动来缓解问题。"
+ },
+ {
+  "seg": 19,
+  "start": 145.583,
+  "end": 147.425,
+  "speaker": "Unknown",
+  "en": "And it doesn't just stop there.",
+  "zh": "而且它不会就此停住。"
+ },
+ {
+  "seg": 20,
+  "start": 148.066,
+  "end": 153.171,
+  "speaker": "Unknown",
+  "en": "It updates your incident management system with all the details, error metrics, and dashboards, et cetera.",
+  "zh": "它会用所有细节、错误指标、仪表盘等等来更新你的事件管理系统。"
+ },
+ {
+  "seg": 21,
+  "start": 153.432,
+  "end": 159.638,
+  "speaker": "Unknown",
+  "en": "And also, it checks out the code and creates a PR for you to fix the root cause of the issue.",
+  "zh": "而且，它还会检出代码并创建一个 PR 来修复问题的根本原因。"
+ },
+ {
+  "seg": 22,
+  "start": 160.439,
+  "end": 166.726,
+  "speaker": "Unknown",
+  "en": "All of this happens in a matter of few minutes, which would have easily taken few hours if you were to do it manually.",
+  "zh": "所有这些都在几分钟内完成，而如果你手动去做，很容易要花上几个小时。"
+ },
+ {
+  "seg": 23,
+  "start": 168.163,
+  "end": 169.325,
+  "speaker": "Unknown",
+  "en": "This is not fiction.",
+  "zh": "这不是虚构。"
+ },
+ {
+  "seg": 24,
+  "start": 169.445,
+  "end": 182.146,
+  "speaker": "Unknown",
+  "en": "So this is how teams at LinkedIn are using coding agents as effective coworkers with deep understanding of LinkedIn's internal systems and code to help the teams be really productive.",
+  "zh": "这就是 LinkedIn 的团队把编码智能体当作高效同事来使用的方式——它们对 LinkedIn 的内部系统和代码有深入理解，帮助团队真正高效。"
+ },
+ {
+  "seg": 25,
+  "start": 185.452,
+  "end": 193.094,
+  "speaker": "Unknown",
+  "en": "And this is possible because of a system that we built called Contextual Agent Playbooks and Tools at LinkedIn.",
+  "zh": "而这之所以可能，是因为我们构建了一个系统，在 LinkedIn 叫做 Contextual Agent Playbooks and Tools。"
+ },
+ {
+  "seg": 26,
+  "start": 193.435,
+  "end": 200.557,
+  "speaker": "Unknown",
+  "en": "And today I'm going to talk about why we built the system, how we built it, and what are our learnings from the success.",
+  "zh": "今天我要讲的是我们为什么构建这个系统、我们如何构建它，以及我们从成功中学到了什么。"
+ },
+ {
+  "seg": 27,
+  "start": 203.968,
+  "end": 210.793,
+  "speaker": "Unknown",
+  "en": "To understand why we built the system, we have to go back to the early days of coding agents, right?",
+  "zh": "要理解我们为什么构建这个系统，我们得回到编码智能体的早期，对吧？"
+ },
+ {
+  "seg": 28,
+  "start": 210.813,
+  "end": 220.721,
+  "speaker": "Unknown",
+  "en": "So just like any other company, even at LinkedIn, we wanted to use the coding agents for our engineers and everyone to be really productive with the AI.",
+  "zh": "和其他任何公司一样，在 LinkedIn,我们也想让工程师和所有人借助 AI 真正高效地使用编码智能体。"
+ },
+ {
+  "seg": 29,
+  "start": 222.757,
+  "end": 236.586,
+  "speaker": "Unknown",
+  "en": "So we started giving these coding agents to all of the engineers, and the problem was the coding agents doesn't really, or the wipe coding doesn't really work in a large enterprise like LinkedIn.",
+  "zh": "于是我们开始把这些编码智能体发给所有工程师，但问题是，编码智能体，或者说 wipe coding,在像 LinkedIn 这样的大型企业里并不真正奏效。"
+ },
+ {
+  "seg": 30,
+  "start": 239.831,
+  "end": 246.279,
+  "speaker": "Unknown",
+  "en": "So the biggest problem is the coding agent or the LLMs are trained on open source repos, right?",
+  "zh": "最大的问题在于，编码智能体或者说 LLM 是在开源仓库上训练的，对吧？"
+ },
+ {
+  "seg": 31,
+  "start": 246.74,
+  "end": 256.552,
+  "speaker": "Unknown",
+  "en": "So they don't have the context of how we are mature code bases at LinkedIn or our internal frameworks, our internal systems.",
+  "zh": "所以它们不了解 LinkedIn 这些成熟的代码库是如何运作的，也不了解我们的内部框架、我们的内部系统。"
+ },
+ {
+  "seg": 32,
+  "start": 258.275,
+  "end": 277.226,
+  "speaker": "Unknown",
+  "en": "So what used to happen was the engineers used to do wipe code or try the agentic coding, but because the agents lacked context, they used to hallucinate and get stuck in between, or even more dangerous, they used to make up things which is not correct.",
+  "zh": "于是之前的情况是，工程师们去做 wipe code 或尝试 agentic coding,但因为智能体缺乏上下文，它们会产生幻觉、中途卡住，或者更危险的是，它们会编造一些不正确的东西。"
+ },
+ {
+  "seg": 33,
+  "start": 277.947,
+  "end": 281.009,
+  "speaker": "Unknown",
+  "en": "So the engineers had to prompt these agents",
+  "zh": "所以工程师们不得不手动给这些智能体写提示词，"
+ },
+ {
+  "seg": 34,
+  "start": 282.362,
+  "end": 287.905,
+  "speaker": "Unknown",
+  "en": "Manually, to do the right thing, which used to take more time than the manual coding itself.",
+  "zh": "让它们做正确的事，而这往往比手动编码本身还要花时间。"
+ },
+ {
+  "seg": 35,
+  "start": 288.886,
+  "end": 291.747,
+  "speaker": "Unknown",
+  "en": "So a lot of people, a lot of engineers went back to manual coding.",
+  "zh": "于是很多人，很多工程师又回到了手动编码。"
+ },
+ {
+  "seg": 36,
+  "start": 292.227,
+  "end": 294.529,
+  "speaker": "Unknown",
+  "en": "So coding agents was not effective.",
+  "zh": "所以编码智能体并没有奏效。"
+ },
+ {
+  "seg": 37,
+  "start": 296.63,
+  "end": 309.157,
+  "speaker": "Unknown",
+  "en": "To understand the problem, to get more perspective, so if you look at the LinkedIn stack, we have over 1,000 repos which make up thousands of microservices and apps.",
+  "zh": "为了理解这个问题，获得更多视角，如果你看看 LinkedIn 的技术栈，我们有超过 1,000 个仓库，组成了数千个微服务和应用。"
+ },
+ {
+  "seg": 38,
+  "start": 310.671,
+  "end": 317.053,
+  "speaker": "Unknown",
+  "en": "And we have a lot of all of these apps and services are built on a lot of internal frameworks and libraries.",
+  "zh": "而我们所有这些应用和服务都是构建在大量内部框架和库之上的。"
+ },
+ {
+  "seg": 39,
+  "start": 318.313,
+  "end": 321.374,
+  "speaker": "Unknown",
+  "en": "And we also have a lot of custom built infra.",
+  "zh": "我们还有大量自建的基础设施。"
+ },
+ {
+  "seg": 40,
+  "start": 321.995,
+  "end": 324.015,
+  "speaker": "Unknown",
+  "en": "For example, we have our own databases.",
+  "zh": "比如，我们有自己的数据库。"
+ },
+ {
+  "seg": 41,
+  "start": 324.175,
+  "end": 327.736,
+  "speaker": "Unknown",
+  "en": "We have our own experimentation and tracking platform.",
+  "zh": "我们有自己的实验和追踪平台。"
+ },
+ {
+  "seg": 42,
+  "start": 327.916,
+  "end": 335.959,
+  "speaker": "Unknown",
+  "en": "We have our own configuration management system, which is purely internal to LinkedIn and coding agents doesn't have any idea about them.",
+  "zh": "我们有自己的配置管理系统，这些都是 LinkedIn 纯内部的，编码智能体对它们一无所知。"
+ },
+ {
+  "seg": 43,
+  "start": 337.84,
+  "end": 345.324,
+  "speaker": "Unknown",
+  "en": "And engineers go through a week-long bootcamp whenever a new engineer joins, just to get familiar with these systems.",
+  "zh": "每当新工程师加入时，都要经历为期一周的培训营，就是为了熟悉这些系统。"
+ },
+ {
+  "seg": 44,
+  "start": 349.586,
+  "end": 355.33,
+  "speaker": "Unknown",
+  "en": "So we looked at this problem, and we asked ourselves the question,",
+  "zh": "于是我们审视这个问题，我们问了自己一个问题："
+ },
+ {
+  "seg": 45,
+  "start": 356.345,
+  "end": 370.951,
+  "speaker": "Unknown",
+  "en": "How can we make any coding agent like Cursor or Claude Code or GitHub Copilot understand our LinkedIn's internal system so well that they can ship the code that our engineers can trust?",
+  "zh": "我们怎样才能让任何编码智能体，比如 Cursor、Claude Code 或 GitHub Copilot,把 LinkedIn 的内部系统理解得如此透彻，以至于它们能交付我们工程师可以信任的代码？"
+ },
+ {
+  "seg": 46,
+  "start": 372.591,
+  "end": 381.495,
+  "speaker": "Unknown",
+  "en": "By trust, I mean the code should be correct, and also the quality of the code should be as good as it is written by an actual engineer.",
+  "zh": "我说的信任，是指代码应该是正确的，而且代码质量应该和一个真正的工程师写的一样好。"
+ },
+ {
+  "seg": 47,
+  "start": 382.445,
+  "end": 387.546,
+  "speaker": "Unknown",
+  "en": "So that is the bar we set up and wanted to figure out how do we get there.",
+  "zh": "这就是我们设定的标准，并且想弄清楚如何达到它。"
+ },
+ {
+  "seg": 48,
+  "start": 390.447,
+  "end": 402.77,
+  "speaker": "Unknown",
+  "en": "So in early 2025, last year, so Anthropic released MCP and it quickly became the industry standard for building tools to the agents.",
+  "zh": "2025 年初，也就是去年，Anthropic 发布了 MCP,它很快成为为智能体构建工具的行业标准。"
+ },
+ {
+  "seg": 49,
+  "start": 403.811,
+  "end": 408.932,
+  "speaker": "Unknown",
+  "en": "We leveraged that and pretty early on, we built our own internal MCP.",
+  "zh": "我们利用了这一点，并且很早地，我们构建了自己的内部 MCP。"
+ },
+ {
+  "seg": 50,
+  "start": 410.095,
+  "end": 413.118,
+  "speaker": "Unknown",
+  "en": "And the first tool that we built was CodeSearch.",
+  "zh": "而我们构建的第一个工具是 CodeSearch。"
+ },
+ {
+  "seg": 51,
+  "start": 415.2,
+  "end": 422.326,
+  "speaker": "Unknown",
+  "en": "So we have a pretty sophisticated CodeSearch system at LinkedIn where engineers can go and search for code.",
+  "zh": "我们在 LinkedIn 有一套相当复杂的 CodeSearch 系统，工程师可以去那里搜索代码。"
+ },
+ {
+  "seg": 52,
+  "start": 422.486,
+  "end": 430.353,
+  "speaker": "Unknown",
+  "en": "It will ingest all of, search for any code across thousands of repos using keywords and custom filters and rejects, et cetera.",
+  "zh": "它会摄取并搜索跨数千个仓库的任意代码，支持关键词、自定义过滤器、正则等等。"
+ },
+ {
+  "seg": 53,
+  "start": 431.133,
+  "end": 434.576,
+  "speaker": "Unknown",
+  "en": "So we made that available to the coding agents via MCP.",
+  "zh": "于是我们通过 MCP 把它开放给了编码智能体。"
+ },
+ {
+  "seg": 54,
+  "start": 435.753,
+  "end": 441.976,
+  "speaker": "Unknown",
+  "en": "This was a really powerful unlock because now you don't have to manually figure out how to do better search.",
+  "zh": "这是一个非常强大的解锁，因为现在你不必再手动琢磨如何做更好的搜索。"
+ },
+ {
+  "seg": 55,
+  "start": 442.216,
+  "end": 447.859,
+  "speaker": "Unknown",
+  "en": "The agent, you ask a question, hey, how do I set up a particular thing?",
+  "zh": "智能体——你问一个问题，嘿，我该怎么设置某个东西？"
+ },
+ {
+  "seg": 56,
+  "start": 447.879,
+  "end": 460.926,
+  "speaker": "Unknown",
+  "en": "And the agent can use the code search tools to figure out the right examples of how we do things at LinkedIn and use that to give you an answer and also implement it based on its findings.",
+  "zh": "智能体就可以用代码搜索工具找出我们在 LinkedIn 做事情的正确示例，并据此给你答案，还会基于它的发现去实现它。"
+ },
+ {
+  "seg": 57,
+  "start": 461.986,
+  "end": 462.967,
+  "speaker": "Unknown",
+  "en": "This was really powerful.",
+  "zh": "这真的很强大。"
+ },
+ {
+  "seg": 58,
+  "start": 464.103,
+  "end": 466.406,
+  "speaker": "Unknown",
+  "en": "So we added more tools.",
+  "zh": "于是我们添加了更多工具。"
+ },
+ {
+  "seg": 59,
+  "start": 466.466,
+  "end": 474.397,
+  "speaker": "Unknown",
+  "en": "We added Docs, Jira, Slack, even connected to all of our data platforms.",
+  "zh": "我们添加了 Docs、Jira、Slack，甚至连接了我们所有的数据平台。"
+ },
+ {
+  "seg": 60,
+  "start": 475.541,
+  "end": 476.561,
+  "speaker": "Unknown",
+  "en": "And even feature flags.",
+  "zh": "甚至还有功能开关。"
+ },
+ {
+  "seg": 61,
+  "start": 476.981,
+  "end": 483.163,
+  "speaker": "Unknown",
+  "en": "So every tool that we added to our internal MCP, it created more value.",
+  "zh": "我们添加到内部 MCP 的每一个工具，都创造了更多价值。"
+ },
+ {
+  "seg": 62,
+  "start": 484.123,
+  "end": 503.948,
+  "speaker": "Unknown",
+  "en": "It's almost like a compounding effect, because now our engineer can bring in the PRDs, product requirement documents, and design docs, and also their Jira tasks, which has different context, and use all this to give to the coding agent to automate their, or help with their coding.",
+  "zh": "这几乎像一种复利效应，因为现在我们的工程师可以带来 PRD、产品需求文档和设计文档，还有他们的 Jira 任务——包含不同的上下文——把这一切都给编码智能体，让它们自动化，或者辅助他们的编码工作。"
+ },
+ {
+  "seg": 63,
+  "start": 507.34,
+  "end": 509.003,
+  "speaker": "Unknown",
+  "en": "But there was a problem.",
+  "zh": "但存在一个问题。"
+ },
+ {
+  "seg": 64,
+  "start": 509.063,
+  "end": 513.67,
+  "speaker": "Unknown",
+  "en": "So you connect all these tools, but it's not enough, right?",
+  "zh": "你连接了所有这些工具，但这还不够，对吧？"
+ },
+ {
+  "seg": 65,
+  "start": 513.85,
+  "end": 521.381,
+  "speaker": "Unknown",
+  "en": "So even with a slightly complex workflow, the agents used to not do really well.",
+  "zh": "即使面对稍微复杂一点的工作流，智能体过去也做不太好。"
+ },
+ {
+  "seg": 66,
+  "start": 522.541,
+  "end": 537.206,
+  "speaker": "Unknown",
+  "en": "The problem, for example, if you give a context, it is with the tools, the agent was able to answer questions, answer basic questions and find code examples, but it cannot do a complete job reliably end-to-end.",
+  "zh": "问题在于，比如，你给出上下文——有了这些工具，智能体能够回答问题、回答基本问题并找到代码示例，但它无法可靠地端到端完成一份完整的工作。"
+ },
+ {
+  "seg": 67,
+  "start": 538.724,
+  "end": 547.446,
+  "speaker": "Unknown",
+  "en": "The main problem was to do a specific job end-to-end, it needs to have a lot of tribal knowledge, right?",
+  "zh": "主要问题是要端到端完成一份特定的工作，它需要拥有大量隐性知识，对吧？"
+ },
+ {
+  "seg": 68,
+  "start": 547.466,
+  "end": 556.808,
+  "speaker": "Unknown",
+  "en": "So all of, for example, how to fix a particular error or how to configure, how do you debug a particular error log, right?",
+  "zh": "比如，如何修复某个特定错误，或者如何配置，如何调试某个特定的错误日志，对吧？"
+ },
+ {
+  "seg": 69,
+  "start": 557.248,
+  "end": 563.77,
+  "speaker": "Unknown",
+  "en": "So all of this knowledge, even though you have access to the tools, it is scattered across a lot of different surfaces.",
+  "zh": "所有这些知识，即使你能访问那些工具，也散落在很多不同的表面上。"
+ },
+ {
+  "seg": 70,
+  "start": 564.43,
+  "end": 568.111,
+  "speaker": "Unknown",
+  "en": "For example, docs, wikis, and Slack conversations.",
+  "zh": "例如，文档、wiki，以及 Slack 对话。"
+ },
+ {
+  "seg": 71,
+  "start": 570.492,
+  "end": 578.338,
+  "speaker": "Unknown",
+  "en": "And most of the times I may have experienced that docs and wikis might be outdated, written, and there might be like duplicate docs, right?",
+  "zh": "而且很多时候我可能经历过，文档和 wiki 可能过时了、写完了，而且可能存在重复的文档，对吧？"
+ },
+ {
+  "seg": 72,
+  "start": 579.318,
+  "end": 584.001,
+  "speaker": "Unknown",
+  "en": "So the problem is the agents, even though they have access to the tools, they used to get lost.",
+  "zh": "所以问题在于，智能体即使能访问那些工具，过去也常常会迷失。"
+ },
+ {
+  "seg": 73,
+  "start": 585.743,
+  "end": 588.104,
+  "speaker": "Unknown",
+  "en": "The second problem was context overload.",
+  "zh": "第二个问题是上下文过载。"
+ },
+ {
+  "seg": 74,
+  "start": 589.725,
+  "end": 591.787,
+  "speaker": "Unknown",
+  "en": "As agents use more and more tools,",
+  "zh": "随着智能体使用越来越多的工具，"
+ },
+ {
+  "seg": 75,
+  "start": 593.065,
+  "end": 611.018,
+  "speaker": "Unknown",
+  "en": "Their context gets overloaded, which means every tool output, it takes up space in the context, which will eventually cause the agent to compact its, while it is working, compact its context, which causes it to lose some of the information.",
+  "zh": "它们的上下文会过载，这意味着每个工具的输出都会占用上下文中的空间，这最终会导致智能体在工作过程中压缩它的上下文，从而导致它丢失一些信息。"
+ },
+ {
+  "seg": 76,
+  "start": 611.098,
+  "end": 612.459,
+  "speaker": "Unknown",
+  "en": "Then it has to do all over again.",
+  "zh": "然后它就得从头再来一遍。"
+ },
+ {
+  "seg": 77,
+  "start": 614.384,
+  "end": 626.395,
+  "speaker": "Unknown",
+  "en": "And the third problem was even if the agent was able to figure out all these details, it doesn't have a way to retain this information.",
+  "zh": "第三个问题是，即使智能体能够弄清楚所有这些细节，它也没有办法保留这些信息。"
+ },
+ {
+  "seg": 78,
+  "start": 626.535,
+  "end": 628.297,
+  "speaker": "Unknown",
+  "en": "It doesn't have a durable memory.",
+  "zh": "它没有持久记忆。"
+ },
+ {
+  "seg": 79,
+  "start": 628.357,
+  "end": 635.303,
+  "speaker": "Unknown",
+  "en": "So every time an engineer asks the agent to do a certain task, they have to start from scratch.",
+  "zh": "所以每次工程师让智能体做某个任务，它们都得从头开始。"
+ },
+ {
+  "seg": 80,
+  "start": 638.152,
+  "end": 639.733,
+  "speaker": "Unknown",
+  "en": "So how do we solve this problem?",
+  "zh": "那么我们如何解决这个问题？"
+ },
+ {
+  "seg": 81,
+  "start": 640.373,
+  "end": 642.955,
+  "speaker": "Unknown",
+  "en": "So we give these instructions right away, right?",
+  "zh": "我们直接给出这些指令，对吧？"
+ },
+ {
+  "seg": 82,
+  "start": 642.995,
+  "end": 660.486,
+  "speaker": "Unknown",
+  "en": "So we built a system, we invented a system in early 2025 called as Playbooks, where we not only provide the tools to the agents via MCP, we also allow the agents to access these instructions and prompts via MCP.",
+  "zh": "于是我们构建了一个系统——我们在 2025 年初发明了一个叫 Playbooks 的系统——我们不仅通过 MCP 向智能体提供工具，我们还允许智能体通过 MCP 访问这些指令和提示词。"
+ },
+ {
+  "seg": 83,
+  "start": 661.386,
+  "end": 662.227,
+  "speaker": "Unknown",
+  "en": "We call it Playbooks.",
+  "zh": "我们称之为 Playbooks。"
+ },
+ {
+  "seg": 84,
+  "start": 663.26,
+  "end": 669.342,
+  "speaker": "Unknown",
+  "en": "And playbook, it just appears just like any other regular tool.",
+  "zh": "而 playbook，它的呈现方式就和任何其他普通工具一样。"
+ },
+ {
+  "seg": 85,
+  "start": 670.843,
+  "end": 673.504,
+  "speaker": "Unknown",
+  "en": "And they have names and description on what it does.",
+  "zh": "它们有名字和描述，说明它是做什么的。"
+ },
+ {
+  "seg": 86,
+  "start": 674.344,
+  "end": 679.186,
+  "speaker": "Unknown",
+  "en": "And the agent can decide to invoke that playbook just like any other regular tool.",
+  "zh": "智能体可以决定调用那个 playbook，就像调用任何其他普通工具一样。"
+ },
+ {
+  "seg": 87,
+  "start": 680.066,
+  "end": 689.83,
+  "speaker": "Unknown",
+  "en": "And when the playbook is invoked, the instructions and the context within that playbook are returned as the tool output to the coding agent.",
+  "zh": "当 playbook 被调用时，该 playbook 中的指令和上下文会作为工具输出返回给编码智能体。"
+ },
+ {
+  "seg": 88,
+  "start": 691.288,
+  "end": 700.556,
+  "speaker": "Unknown",
+  "en": "So that way the agents have both tools as well as instructions on how to use tools to set up or perform a task.",
+  "zh": "这样一来，智能体既拥有工具，也拥有关于如何使用这些工具来设置或执行任务的指令。"
+ },
+ {
+  "seg": 89,
+  "start": 701.822,
+  "end": 728.947,
+  "speaker": "Unknown",
+  "en": "For example, if the engineer goes and asks, how do I set up an Airflow DAG at LinkedIn, the agent will first decide, okay, so I have a playbook for creating that specific task, and it will use that first, uses that playbook to get the information, and then it calls the necessary, follows that instructions and calls the relevant tools to get the job done.",
+  "zh": "例如，如果工程师去问，我如何在 LinkedIn 设置一个 Airflow DAG，智能体会先判断，好的，我有一个用于创建那个特定任务的 playbook，它会先使用那个 playbook 获取信息，然后按照那些指令，调用相关的工具把工作完成。"
+ },
+ {
+  "seg": 90,
+  "start": 730.048,
+  "end": 731.128,
+  "speaker": "Unknown",
+  "en": "This was really powerful.",
+  "zh": "这真的很强大。"
+ },
+ {
+  "seg": 91,
+  "start": 733.512,
+  "end": 744.38,
+  "speaker": "Unknown",
+  "en": "Mainly because now anyone at LinkedIn can go ahead and create, set up a playbook and check it into a repository and make it available for everyone else at LinkedIn.",
+  "zh": "主要是因为现在 LinkedIn 的任何人都可以去创建、设置一个 playbook，把它检入一个仓库，并让它对 LinkedIn 的其他所有人可用。"
+ },
+ {
+  "seg": 92,
+  "start": 747.562,
+  "end": 760.712,
+  "speaker": "Unknown",
+  "en": "So as people started creating more playbooks, so we wanted, so this is one of two foundational principles we want everyone to follow when creating a playbook.",
+  "zh": "随着人们开始创建越来越多的 playbook，我们希望——这是我们在创建 playbook 时希望每个人遵循的两条基本原则之一。"
+ },
+ {
+  "seg": 93,
+  "start": 761.899,
+  "end": 768.203,
+  "speaker": "Unknown",
+  "en": "The first one is a playbook should be self-contained, which means it should do a very specific task.",
+  "zh": "第一条是 playbook 应该是自包含的，这意味着它应该只做一个非常具体的任务。"
+ },
+ {
+  "seg": 94,
+  "start": 768.504,
+  "end": 779.431,
+  "speaker": "Unknown",
+  "en": "Only, for example, if it is for setting up an Airflow DAG, it should be about the instruction and the construct should be about one specific task.",
+  "zh": "比如，如果它是用于设置一个 Airflow DAG 的，那么它的指令和结构就应该只关于这一个特定任务。"
+ },
+ {
+  "seg": 95,
+  "start": 779.611,
+  "end": 783.614,
+  "speaker": "Unknown",
+  "en": "This helps the agents pick the right playbook for the right task.",
+  "zh": "这有助于智能体为正确的任务挑选正确的 playbook。"
+ },
+ {
+  "seg": 96,
+  "start": 784.613,
+  "end": 793.258,
+  "speaker": "Unknown",
+  "en": "And the second most important one is to break a big playbook into multiple smaller playbooks.",
+  "zh": "第二条最重要的是把一个大的 playbook 拆分成多个更小的 playbook。"
+ },
+ {
+  "seg": 97,
+  "start": 794.258,
+  "end": 796.86,
+  "speaker": "Unknown",
+  "en": "And reference those smaller playbooks from a bigger playbook.",
+  "zh": "并在一个更大的 playbook 中引用那些更小的 playbook。"
+ },
+ {
+  "seg": 98,
+  "start": 797.944,
+  "end": 805.43,
+  "speaker": "Unknown",
+  "en": "This is a really powerful principle because just like, so it has two main advantages, right?",
+  "zh": "这是一个非常强大的原则，因为它——它有两个主要优点，对吧？"
+ },
+ {
+  "seg": 99,
+  "start": 805.49,
+  "end": 808.553,
+  "speaker": "Unknown",
+  "en": "So the first one is reusability.",
+  "zh": "第一个是可复用性。"
+ },
+ {
+  "seg": 100,
+  "start": 808.873,
+  "end": 815.018,
+  "speaker": "Unknown",
+  "en": "So if you have a small self-contained playbooks, it can be used from multiple, referenced from multiple playbooks.",
+  "zh": "所以如果你有一个小的自包含的 playbook,它可以被多个 playbook 使用、被多个 playbook 引用。"
+ },
+ {
+  "seg": 101,
+  "start": 816.019,
+  "end": 820.343,
+  "speaker": "Unknown",
+  "en": "And if you, the another big advantage is progressive discovery of",
+  "zh": "而且如果你——另一个很大的优势是渐进式发现"
+ },
+ {
+  "seg": 102,
+  "start": 821.856,
+  "end": 833.561,
+  "speaker": "Unknown",
+  "en": "Context, which means the agent, only when it needs to read a smaller playbook, instead of reading the entire, all of the playbooks at once, it can progressively go and read the playbooks as it wants.",
+  "zh": "上下文,也就是说智能体只在需要读取某个更小的 playbook 时,才去读它,而不是一次性读取全部所有 playbook,它可以按需渐进地去读取这些 playbook。"
+ },
+ {
+  "seg": 103,
+  "start": 833.962,
+  "end": 836.743,
+  "speaker": "Unknown",
+  "en": "So this is the same concept as skills as well.",
+  "zh": "所以这和 skills 的概念也是一样的。"
+ },
+ {
+  "seg": 104,
+  "start": 837.143,
+  "end": 845.127,
+  "speaker": "Unknown",
+  "en": "So playbooks are very similar to skills, but we developed this entire system around playbooks even before skills was a thing.",
+  "zh": "所以 playbook 和 skills 非常相似,但我们在 skills 出现之前就已经围绕 playbook 开发了这一整套系统。"
+ },
+ {
+  "seg": 105,
+  "start": 846.283,
+  "end": 859.938,
+  "speaker": "Unknown",
+  "en": "And Playbooks are a little bit more nuanced because it helps us seamlessly capture all of the organizational context and service via MCP without much of a setup.",
+  "zh": "而 Playbook 有一些更细微的优势,因为它帮助我们通过 MCP 无缝地捕获所有组织上下文和服务,而不需要太多的设置。"
+ },
+ {
+  "seg": 106,
+  "start": 863.302,
+  "end": 867.827,
+  "speaker": "Unknown",
+  "en": "And another cool thing about this Playbooks is the self-improving loop.",
+  "zh": "这个 Playbook 另一个很酷的地方是自我改进的闭环。"
+ },
+ {
+  "seg": 107,
+  "start": 869.471,
+  "end": 875.237,
+  "speaker": "Unknown",
+  "en": "So you have engineers creating these playbooks and checking into the repository.",
+  "zh": "工程师们创建这些 playbook 并提交到代码仓库。"
+ },
+ {
+  "seg": 108,
+  "start": 875.738,
+  "end": 880.463,
+  "speaker": "Unknown",
+  "en": "And one of the main problem with any knowledge base is it gets outdated.",
+  "zh": "任何知识库的主要问题之一就是它会过时。"
+ },
+ {
+  "seg": 109,
+  "start": 881.984,
+  "end": 885.368,
+  "speaker": "Unknown",
+  "en": "The biggest problem is how do you keep the context fresh, right?",
+  "zh": "最大的问题是如何保持上下文的新鲜度,对吧?"
+ },
+ {
+  "seg": 110,
+  "start": 885.969,
+  "end": 888.572,
+  "speaker": "Unknown",
+  "en": "So great thing about agents is they can improvise.",
+  "zh": "智能体的一个很棒的优点是它们可以即兴发挥。"
+ },
+ {
+  "seg": 111,
+  "start": 889.893,
+  "end": 899.696,
+  "speaker": "Unknown",
+  "en": "So we encourage the agents to whenever they use a particular playbook at the end of the session to identify the learnings.",
+  "zh": "所以我们鼓励智能体,每当它们使用某个特定 playbook 时,在会话结束时去总结学到的经验。"
+ },
+ {
+  "seg": 112,
+  "start": 900.236,
+  "end": 904.958,
+  "speaker": "Unknown",
+  "en": "So any outdated information or any discrepancy or any missing information",
+  "zh": "即任何过时的信息、任何不一致之处或任何缺失的信息"
+ },
+ {
+  "seg": 113,
+  "start": 906.096,
+  "end": 920.369,
+  "speaker": "Unknown",
+  "en": "And we also encourage the agents to figure out how to improve the playbook and use that context to update the playbooks, check out the repository and update the playbooks and create a PR.",
+  "zh": "我们还鼓励智能体想办法改进这个 playbook,并利用那些上下文来更新这些 playbook,检出代码仓库、更新 playbook 并创建一个 PR。"
+ },
+ {
+  "seg": 114,
+  "start": 921.21,
+  "end": 925.534,
+  "speaker": "Unknown",
+  "en": "And once it gets approved, the playbooks gets updated.",
+  "zh": "一旦获得批准,playbook 就会被更新。"
+ },
+ {
+  "seg": 115,
+  "start": 925.554,
+  "end": 930.619,
+  "speaker": "Unknown",
+  "en": "This creates a really seamless flywheel of self-learning loop.",
+  "zh": "这就形成了一个非常无缝的自我学习飞轮闭环。"
+ },
+ {
+  "seg": 116,
+  "start": 934.108,
+  "end": 937.829,
+  "speaker": "Unknown",
+  "en": "So what does the architecture of a MCP server looks like?",
+  "zh": "那么 MCP 服务器的架构是什么样的呢?"
+ },
+ {
+  "seg": 117,
+  "start": 939.55,
+  "end": 949.012,
+  "speaker": "Unknown",
+  "en": "So this particular system, we have one local MCP server, and it is automatically installed on all of the LinkedIn laptops by default.",
+  "zh": "在这个特定系统中,我们有一个本地 MCP 服务器,它默认自动安装在所有 LinkedIn 的笔记本电脑上。"
+ },
+ {
+  "seg": 118,
+  "start": 949.272,
+  "end": 962.336,
+  "speaker": "Unknown",
+  "en": "So if you join LinkedIn and you get a laptop, it is pre-installed, and any updates to the MCP server or the playbooks of the tools, it automatically gets updated every one hour on all the laptops.",
+  "zh": "所以如果你加入 LinkedIn 并拿到一台笔记本电脑,它已经预装好了,而且 MCP 服务器或工具的 playbook 的任何更新,都会每小时自动更新到所有笔记本电脑上。"
+ },
+ {
+  "seg": 119,
+  "start": 964.287,
+  "end": 975.632,
+  "speaker": "Unknown",
+  "en": "And we have a concept of two local playbooks and central playbooks, which means, so central playbooks are the playbooks which are cross-cutting in nature, right?",
+  "zh": "我们还有本地 playbook 和中央 playbook 两个概念,也就是说,中央 playbook 是那些跨领域的 playbook,对吧?"
+ },
+ {
+  "seg": 120,
+  "start": 975.672,
+  "end": 982.735,
+  "speaker": "Unknown",
+  "en": "So you have, these playbooks apply for multiple repositories, not just one code repository.",
+  "zh": "所以这些 playbook 适用于多个代码仓库,而不只是一个代码仓库。"
+ },
+ {
+  "seg": 121,
+  "start": 983.295,
+  "end": 984.816,
+  "speaker": "Unknown",
+  "en": "And then you have local playbooks.",
+  "zh": "然后你还有本地 playbook。"
+ },
+ {
+  "seg": 122,
+  "start": 986.637,
+  "end": 1003.228,
+  "speaker": "Unknown",
+  "en": "These are the playbooks which are very specific to your code repository, and you can just have them checked in with your repo, and only when the coding agents are working in your repo, those playbooks will be automatically picked up.",
+  "zh": "这些是针对你的代码仓库非常特定的 playbook,你可以把它们直接提交到你的仓库里,只有当编码智能体在你的仓库中工作时,这些 playbook 才会被自动拾取。"
+ },
+ {
+  "seg": 123,
+  "start": 1003.748,
+  "end": 1013.595,
+  "speaker": "Unknown",
+  "en": "So this helps us scale the local playbooks which are very specific to repo without having to worry about changing the central repository.",
+  "zh": "这帮助我们扩展了那些针对特定仓库的本地 playbook,而无需担心改动中央代码仓库。"
+ },
+ {
+  "seg": 124,
+  "start": 1015.101,
+  "end": 1020.524,
+  "speaker": "Unknown",
+  "en": "And also this is one MCP server which is serving all of the playbooks and tools.",
+  "zh": "而且这是一个 MCP 服务器,同时服务所有的 playbook 和工具。"
+ },
+ {
+  "seg": 125,
+  "start": 1021.005,
+  "end": 1033.993,
+  "speaker": "Unknown",
+  "en": "So this man helps us do a lot of central things like seamless authentication, telemetry, and that we can use for learning to make the whole ecosystem better.",
+  "zh": "这帮助我们做了很多集中化的事情,比如无缝的认证、遥测,我们可以利用这些来学习,让整个生态系统变得更好。"
+ },
+ {
+  "seg": 126,
+  "start": 1036.517,
+  "end": 1040.179,
+  "speaker": "Unknown",
+  "en": "You may be wondering how many tools and playbooks it can support, right?",
+  "zh": "你可能想知道它可以支持多少工具和 playbook,对吧?"
+ },
+ {
+  "seg": 127,
+  "start": 1040.899,
+  "end": 1042.88,
+  "speaker": "Unknown",
+  "en": "So this is a common problem with MCP.",
+  "zh": "这是 MCP 的一个常见问题。"
+ },
+ {
+  "seg": 128,
+  "start": 1043.621,
+  "end": 1053.826,
+  "speaker": "Unknown",
+  "en": "We cannot scale it beyond 30 or 40 tools without degrading the context or degrading the performance of the system.",
+  "zh": "如果超过 30 或 40 个工具,我们就无法在不降低上下文质量或系统性能的情况下扩展。"
+ },
+ {
+  "seg": 129,
+  "start": 1054.766,
+  "end": 1057.148,
+  "speaker": "Unknown",
+  "en": "So what we do is instead of...",
+  "zh": "所以我们所做的是,不是……"
+ },
+ {
+  "seg": 130,
+  "start": 1058.173,
+  "end": 1063.995,
+  "speaker": "Unknown",
+  "en": "Surfacing all of these playbooks and tools through MCP, we replace them with three meta tools.",
+  "zh": "通过 MCP 呈现所有这些 playbook 和工具,我们用三个元工具替代它们。"
+ },
+ {
+  "seg": 131,
+  "start": 1064.635,
+  "end": 1065.956,
+  "speaker": "Unknown",
+  "en": "So the first one is search.",
+  "zh": "第一个是搜索。"
+ },
+ {
+  "seg": 132,
+  "start": 1066.896,
+  "end": 1072.038,
+  "speaker": "Unknown",
+  "en": "The agent first uses this tool to search for the relevant tools and playbooks.",
+  "zh": "智能体首先使用这个工具来搜索相关的工具和 playbook。"
+ },
+ {
+  "seg": 133,
+  "start": 1073.157,
+  "end": 1074.919,
+  "speaker": "Unknown",
+  "en": "Using keywords and tags.",
+  "zh": "使用关键词和标签。"
+ },
+ {
+  "seg": 134,
+  "start": 1075.88,
+  "end": 1077.801,
+  "speaker": "Unknown",
+  "en": "So we also control the system instructions.",
+  "zh": "我们还控制系统指令。"
+ },
+ {
+  "seg": 135,
+  "start": 1078.522,
+  "end": 1086.189,
+  "speaker": "Unknown",
+  "en": "So every coding agent is pre-configured with system instruction on how to use these tools and how to use the search really efficiently.",
+  "zh": "每个编码智能体都预配置了系统指令,说明如何使用这些工具,以及如何非常高效地使用搜索。"
+ },
+ {
+  "seg": 136,
+  "start": 1087.11,
+  "end": 1098.38,
+  "speaker": "Unknown",
+  "en": "And once it finds the right set of tool or playbook, it can then get the more details about that particular tool using get schema and then execute that tool or playbook.",
+  "zh": "一旦它找到正确的工具或 playbook 集合,它就可以通过 get schema 获取该特定工具的更多细节,然后执行那个工具或 playbook。"
+ },
+ {
+  "seg": 137,
+  "start": 1099.795,
+  "end": 1107.297,
+  "speaker": "Unknown",
+  "en": "So this has allowed us to scale to thousands of tools in Playbook.",
+  "zh": "这让我们能够扩展到数千个工具和 Playbook。"
+ },
+ {
+  "seg": 138,
+  "start": 1107.557,
+  "end": 1110.158,
+  "speaker": "Unknown",
+  "en": "So this is the growth chart.",
+  "zh": "这是增长图表。"
+ },
+ {
+  "seg": 139,
+  "start": 1110.318,
+  "end": 1118.6,
+  "speaker": "Unknown",
+  "en": "So now we have over 8,000 users daily, using the system daily, using tools and Playbooks.",
+  "zh": "现在我们每天有超过 8,000 名用户,每天都在使用这个系统,使用工具和 Playbook。"
+ },
+ {
+  "seg": 140,
+  "start": 1119.06,
+  "end": 1122.021,
+  "speaker": "Unknown",
+  "en": "So we have over 1,300 tools and over 600 Playbooks.",
+  "zh": "我们有超过 1,300 个工具和超过 600 个 Playbook。"
+ },
+ {
+  "seg": 141,
+  "start": 1126.358,
+  "end": 1128.4,
+  "speaker": "Unknown",
+  "en": "And it's not just engineering, right?",
+  "zh": "而且不仅仅是工程部门,对吧?"
+ },
+ {
+  "seg": 142,
+  "start": 1128.421,
+  "end": 1134.327,
+  "speaker": "Unknown",
+  "en": "So it is not just engineers, but also product managers, designers, TPMs.",
+  "zh": "不仅限于工程师,还有产品经理、设计师、TPM。"
+ },
+ {
+  "seg": 143,
+  "start": 1134.728,
+  "end": 1141.656,
+  "speaker": "Unknown",
+  "en": "So across different functions, they are using the tools and bringing their playbooks to automate their workflows.",
+  "zh": "跨越不同的职能,他们都在使用这些工具,并把自己的 playbook 带进来以自动化他们的工作流。"
+ },
+ {
+  "seg": 144,
+  "start": 1145.475,
+  "end": 1150.856,
+  "speaker": "Unknown",
+  "en": "So I'll leave you with this takeaway, key takeaways based on our learning.",
+  "zh": "所以基于我们的经验,我留给你们这些关键要点。"
+ },
+ {
+  "seg": 145,
+  "start": 1151.456,
+  "end": 1158.618,
+  "speaker": "Unknown",
+  "en": "The first one is the system was successful because we thought about quality and reliability from day one, right?",
+  "zh": "第一个是这个系统的成功,是因为我们从第一天起就考虑了质量和可靠性,对吧?"
+ },
+ {
+  "seg": 146,
+  "start": 1158.978,
+  "end": 1174.542,
+  "speaker": "Unknown",
+  "en": "So even before creating an MCP server, we thought, okay, our fundamental principle should be how do we ensure not just productivity, but how do we ensure the quality and also reliability of the system so that it doesn't degrade as we",
+  "zh": "在像 LinkedIn 这样的大型企业中,仅仅给所有工程师提供最新最好的工具和模型是不够的。"
+ },
+ {
+  "seg": 147,
+  "start": 1175.502,
+  "end": 1181.947,
+  "speaker": "Unknown",
+  "en": "And the second one was build the right infrastructure for agents.",
+  "zh": "第二个要点是为智能体构建正确的基础设施。"
+ },
+ {
+  "seg": 148,
+  "start": 1182.528,
+  "end": 1192.556,
+  "speaker": "Unknown",
+  "en": "In a large enterprise like LinkedIn, it's not just enough to give all of the engineers all the latest and greatest tools and models.",
+  "zh": "在像 LinkedIn 这样的大型企业里，仅仅把所有最新最棒的工具和模型交给所有工程师是不够的。"
+ },
+ {
+  "seg": 149,
+  "start": 1192.816,
+  "end": 1199.301,
+  "speaker": "Unknown",
+  "en": "They are not very effective if you don't build the right infrastructure for the agents to operate within your enterprise.",
+  "zh": "如果你不为智能体构建正确的基础设施让它们在你的企业内运作,它们就不会非常高效。"
+ },
+ {
+  "seg": 150,
+  "start": 1201.793,
+  "end": 1202.894,
+  "speaker": "Unknown",
+  "en": "Yeah, that's my time.",
+  "zh": "是的,我的时间到了。"
+ },
+ {
+  "seg": 151,
+  "start": 1203.314,
+  "end": 1206.817,
+  "speaker": "Unknown",
+  "en": "Thank you for attending, and feel free to connect with me on LinkedIn.",
+  "zh": "感谢大家参加,欢迎在 LinkedIn 上与我联系。"
+ }
+]

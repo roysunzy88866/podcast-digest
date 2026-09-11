@@ -1,0 +1,172 @@
+{
+  "title_zh": "Saronic：用无人船重建美国造船业",
+  "tldr": "Saronic 三位高管详解自主无人艇如何回应中国 230:1 的造船差距：软件定义造船、软硬协同设计、采办改革与再工业化的人才路径。",
+  "digest_md": "中国造船量是美国的 230 倍，而一家成立才四年的公司想用无人自主艇改写这件事。这家公司叫 Saronic，做自主水面舰艇，估值 92.5 亿美元、累计融资 26 亿美元，刚宣布了 30 亿美元的巨型船厂计划 Port Alpha。这一集是节目组对 Saronic 的系列走访，三位高管依次出场：首席法务官 Doug（海事科技行业干了近二十年）、首席商务官 Rob（海军陆战队老兵，服役 22 年）、CTO Vib（曾在 Anderil 做过 Sentry Tower，2017 年还短暂实习过后来倒闭的 Juicero）。\n\n## 造船差距：230 比 1\n\n先看问题的规模。中国造船量对美国是 230 比 1——不过拆开看更细：纯军用战舰，美国每年下水约 5 到 10 艘，中国约 30 艘，差距是 6 到 7 比 1；真正悬殊的是商用船，中国去年造了超过一千艘大型远洋商用船，美国造了 5 艘。美国海军现有约 290 艘舰船，还在萎缩——2018 年国会定的法定最低线是 355 艘，2024 年海军自己说需要 381 艘。海军的 30 年造船计划要在 30 年内补上这个缺口，预算约 1.2 万亿美元。而一艘航母的造价，Doug 引用 130 亿美元，总统上周在同一类活动上引用的已是 190 亿美元。今天的国防预算约一万亿美元，只有 1% 投向自主化。\n\n为什么商用船的差距最要命？Rob 和 Doug 的逻辑是：历史上一再证明，决定海军力量的不是谁的船最精致最贵，而是谁能造得最多。中国靠全面补贴（建造、原材料、劳动力、船厂免费融资）在商用市场压价，正在吸走全球产能——连世界第二、第三大造船国韩国和日本，商用船的模块和劳动力都在依赖中国。一旦台海出事，「中国可以独力对上世界其他地区的造船产能」。Saronic 的全部缘起就是这个判断。\n\n## 从车库到 92.5 亿：怎么起步的\n\nDoug 2022 年和创始人 Dino 一顿早餐就入了伙，早期「真的就是待在奥斯汀南部的一个车库里」。Rob 的入伙更直接：Dino 打电话说「老兄，我需要一个你」。但起步打法很明确：公司成立前 90 天就签下第一份政府合同——一份 CRADA（合作研发协议，一种零成本合同，换来的是窥见客户真实需求的机会）。他们的方法是从舰队层面「毫不留情地寻求洞察」：不去 PEO（项目执行办公室）层面、不从国会山入手，而是找到一线作战人员，问「哪些事是你被迫答应、但手上根本没有条件去做的」。产品路线也是从小做起：Corsair 之前其实还有 Spyglass 和 Cutlass 两款——先做小艇、积累理解和势头，再上大系统；刚建成的 180 英尺无人船 Marauder 之于未来 400 甚至 1200 英尺的大船，正如当年 Spyglass 之于 Corsair。\n\n## 软硬协同设计：无人船的加速器\n\nCTO Vib 讲了最实在的工程方法。核心洞察是：历史上所有船都是为人设计的，而人带来一堆约束——当你真正想清楚「这艘船没有人」，可以砍掉大量复杂性，提高吞吐、缩短建造周期。他给了一个反直觉的数字：商用船的设计目标是让人类承受约 0.4 到 0.6 个 G 的加速度，而 Saronic 的无人船实测见过超过 20 个 G——「人类承受不了那个」。\n\n具体怎么做？第一，机器人软件的开发生命周期变了：有了 AI 工具写代码更快、调试周期也更快，所以要在前期把所有硬件在台架上组装测试、重投可观测性和仿真。Marauder 的发电机组、推进系统、艏侧推，在船开建前八个月就在一个房间里全部搭出来了——船下水时，团队直接进入应用层。第二，电子架构从底层为自主设计：模块化开放系统、标准协议和接口，让任意载荷即插即用；摄像头按配电模块分组供电，可以远程软件断电重启——「工程学 101：关掉再打开」，在对抗性射频环境里你经常不敢开雷达，远程电源循环就是为此准备的。第三，海洋环境本身就是最难的部分：海面是「双流体」的动荡交界，你要为分布尾部那 1% 的坏浪做设计；盐水打上天线就丢服务质量，30 天任务下来鸟会在船上筑巢、有生物污损。而且海事领域几乎没有开源数据和仿真工具——他们找欧洲最大的海事设计公司要仿真软件，凡是 50 英尺以下的船全算出数值不稳定。为此每个平台都有冗余的「pace plan」通信方案（Starlink 及其国防版 Starshield 加超视距射频），断联后的行为逻辑——继续前进、盘旋还是返航——由操作员在任务规划里自行设定。\n\n## 人与制度：再工业化的真正瓶颈\n\n硬科技回流美国，卡的不只是钱。Doug 点了三块：一是政府需求信号要先于市场投入，「先有鸡还是先有蛋」；二是劳动力——过去二十年国防制造业围着认证资质转，质量体系保住了，却把大量劳动力挡在门外，「没有理由一个连轮胎都不会换的人不能去造一艘 Corsair」，解法是更好的设计（「更少的零件就是好的零件」是公司信条）、自动化检测，以及按成年人学习规律设计的学徒制——主持人提到有公司把复杂的线束培训从两年压缩到四周；三是某些产业链已经整体外迁，比如铸造锻造，三到五年内会是硬挑战。他们造 Marauder 时甚至买断了路易斯安那地区绝大部分铝材，现在要提前为 Port Alpha 铺好钢材管道——「在雪崩到来之前先把石头挪开」。\n\nRob 讲了采购改革。他的核心主张：采购上真正的魔力发生在双方有信任、对结果有共同承诺的时候；而现在最有效的变化是「能看到系统里刹车在哪，精确到个人」——不能让一个与任务无关的合同官，依据一本没有余地的手册任意否决项目主管、领导层和作战司令官都一致同意的事。「你的单位里发生和不发生的一切你都要负责」——这是海军陆战队第一天就教的，可如果队里有人能推翻你的决定，问责从何谈起。他对 AI 的期待也落在制度上：用 AI 增强采办队伍，因为他们多次遇到合同官对某项「其实允许你做」的新法规毫不知情、斩钉截铁地说不行——合同官需要的只是一个能说「是的，这可以」的工具，而不是继续靠求稳和旧规则保住职业生涯。\n\n收尾时 Doug 的「最火热观点」把三段访谈串成一句话：随着软件因 AI 兴起而日益商品化，**在真实空间里做硬科技、建造真实有形的东西，将是未来的护城河**。Vib 补了一点他对未来的判断：数百艘无人船的规模会从根本上改变系统的用法——「只有一个的时候你像照顾婴儿，有几百个的时候你能做各种有趣的事」；而海上成本一旦降下来，大量今天贵得做不了的新市场会被打开。\n\n## 本集带走\n\n- **军用差距没那么大，商用差距才致命**：战舰 6-7 比 1，商用船 1000 比 5——中国靠全面补贴压价吸走全球产能，连日韩都在依赖中国模块和劳动力。\n- **造无人船要为「没有人」重新设计**：去掉人的约束（0.4-0.6 G → 20 G 以上），硬件提前八个月在房间里搭全、仿真先行，船下水时直接做应用层。\n- **从一线 operator 找需求，不找办公室**：问一线的人「哪些事你被迫答应却没有条件做」，90 天就能签下第一份政府合同（CRADA）。\n- **采购改革的关键是问责到人**：不能让手握手册的合同官任意否决全链路一致的决策；AI 可以帮采办人员发现自己其实拥有的机动空间。\n- **劳动力靠「降低卓越的门槛」**：更少零件、自动化检测、压缩到数周的实操培训，让没有制造业背景的人也能造船。",
+  "quotes": [
+    {
+      "en": "So China outbuilds the US 230 to 1.",
+      "zh": "中国的造船量是美国的 230 比 1。",
+      "timestamp": "01:35",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "China can now produce the rest of the world in terms of ships.",
+      "zh": "中国现在在造船方面可以胜过世界其他地区的总和。",
+      "timestamp": "07:54",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "That'll cost $1.2 trillion if we can even execute as a country in the first place on that plan.",
+      "zh": "那将花费 1.2 万亿美元——前提是我们国家首先还执行得了那个计划。",
+      "timestamp": "04:05",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "Not only direct construction subsidies, but they subsidize the raw materials, they subsidize the labor, and they basically give them free financing for these shipyards.",
+      "zh": "不仅有直接的建造补贴，他们还补贴原材料、补贴劳动力，而且基本给这些船厂提供免费融资。",
+      "timestamp": "06:34",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "There's no reason somebody who can't change a tire shouldn't be able to go and build a Corsair or work on a Marauder or work on a larger ship.",
+      "zh": "没有理由一个连轮胎都不会换的人不能去造一艘 Corsair、参与 Marauder 或更大的船的工作。",
+      "timestamp": "16:28",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "Less parts are good parts.",
+      "zh": "更少的零件就是好的零件。",
+      "timestamp": "19:02",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "You can't have one human who's not tied to the mission making arbitrary decisions based on a guidebook that doesn't have any wiggle for them.",
+      "zh": "你不能让一个与任务无关的人，依据一本没有任何灵活余地的手册来任意做决定。",
+      "timestamp": "31:41",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "It's surprising how much of the internet is based off of a handful of open source repositories that great engineers have created and not for seeking a bunch of money on the other side, but really just for pushing the needle of technology forward.",
+      "zh": "令人惊讶的是，互联网有多少是基于少数几个开源代码库——它们由优秀的工程师创造，并不是为了赚一大笔钱，而真的只是为了推动技术向前发展。",
+      "timestamp": "58:33",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:08",
+      "speaker": "Doug",
+      "en": "Being successful in real space, doing hard tech, building real things, and manufacturing with real tangible items is going to be the moat of the future.",
+      "zh": "在真实空间中获得成功、做硬科技、建造真实的东西、用真实有形的物品进行制造，将是未来的护城河。"
+    },
+    {
+      "timestamp": "01:35",
+      "speaker": "Doug",
+      "en": "So China outbuilds the US 230 to 1.",
+      "zh": "中国的造船量是美国的 230 比 1。"
+    },
+    {
+      "timestamp": "05:44",
+      "speaker": "Doug",
+      "en": "What has typically just determined naval power is who can build the most ships.",
+      "zh": "通常决定海军力量的，就是谁能建造最多的船。"
+    },
+    {
+      "timestamp": "07:57",
+      "speaker": "Doug",
+      "en": "China can now produce the rest of the world in terms of ships.",
+      "zh": "中国现在在造船方面可以胜过世界其他地区的总和。"
+    },
+    {
+      "timestamp": "04:05",
+      "speaker": "Doug",
+      "en": "That'll cost $1.2 trillion if we can even execute as a country in the first place on that plan.",
+      "zh": "那将花费 1.2 万亿美元——前提是我们国家首先还执行得了那个计划。"
+    },
+    {
+      "timestamp": "06:34",
+      "speaker": "Doug",
+      "en": "Not only direct construction subsidies, but they subsidize the raw materials, they subsidize the labor, and they basically give them free financing for these shipyards.",
+      "zh": "不仅有直接的建造补贴，他们还补贴原材料、补贴劳动力，而且基本给这些船厂提供免费融资。"
+    },
+    {
+      "timestamp": "16:28",
+      "speaker": "Doug",
+      "en": "There's no reason somebody who can't change a tire shouldn't be able to go and build a Corsair or work on a Marauder or work on a larger ship.",
+      "zh": "没有理由一个连轮胎都不会换的人不能去造一艘 Corsair、参与 Marauder 或更大的船的工作。"
+    },
+    {
+      "timestamp": "19:02",
+      "speaker": "Doug",
+      "en": "Less parts are good parts.",
+      "zh": "更少的零件就是好的零件。"
+    },
+    {
+      "timestamp": "20:07",
+      "speaker": "Doug",
+      "en": "Saronic operates in dog years.",
+      "zh": "Saronic 是按狗年运转的。"
+    },
+    {
+      "timestamp": "26:49",
+      "speaker": "Rob",
+      "en": "He called me and said, dude, I need a you.",
+      "zh": "他打电话给我说：老兄，我需要一个你。"
+    },
+    {
+      "timestamp": "29:29",
+      "speaker": "Rob",
+      "en": "So that is the gold standard for us because we can take that, determine the best way to provide a capability that will address that need.",
+      "zh": "所以这对我们来说就是黄金标准：我们可以抓住这一点，确定提供某种能力来满足那个需求的最佳方式。"
+    },
+    {
+      "timestamp": "30:41",
+      "speaker": "Rob",
+      "en": "The real magic happens acquisition wise when there's trust between both entities and a shared commitment to an end result.",
+      "zh": "采购方面真正的魔力，发生在双方之间有信任、并对最终结果有共同承诺的时候。"
+    },
+    {
+      "timestamp": "31:31",
+      "speaker": "Rob",
+      "en": "You can't have one human who's not tied to the mission making arbitrary decisions based on a guidebook that doesn't have any wiggle for them.",
+      "zh": "你不能让一个与任务无关的人，依据一本没有任何灵活余地的手册来任意做决定。"
+    },
+    {
+      "timestamp": "32:04",
+      "speaker": "Rob",
+      "en": "They teach us that first days in the Marine Corps.",
+      "zh": "我们在海军陆战队的第一天他们就这么教我们。"
+    },
+    {
+      "timestamp": "42:29",
+      "speaker": "Vib",
+      "en": "All boats historically have been built for humans.",
+      "zh": "从历史上看，所有的船都是为人类建造的。"
+    },
+    {
+      "timestamp": "49:31",
+      "speaker": "Vib",
+      "en": "Our boats, like we've seen accelerations north of 20 G's before.",
+      "zh": "我们的船，我们见过超过 20 个 G 的加速度。"
+    },
+    {
+      "timestamp": "57:03",
+      "speaker": "Vib",
+      "en": "If you only have one, you're like babying it the whole time.",
+      "zh": "如果你只有一个，你会一直像照顾婴儿一样对待它。"
+    },
+    {
+      "timestamp": "57:34",
+      "speaker": "Vib",
+      "en": "If you reduce the overall cost of doing things in the ocean, there's so many new cool things that you can get into.",
+      "zh": "如果你降低了在海洋上做事的总体成本，你可以涉足这么多新的酷的事情。"
+    },
+    {
+      "timestamp": "58:38",
+      "speaker": "Vib",
+      "en": "It's surprising how much of the internet is based off of a handful of open source repositories that great engineers have created and not for seeking a bunch of money on the other side, but really just for pushing the needle of technology forward.",
+      "zh": "令人惊讶的是，互联网有多少是基于少数几个开源代码库——它们由优秀的工程师创造，并不是为了赚一大笔钱，而真的只是为了推动技术向前发展。"
+    }
+  ],
+  "voice_script": "今天要给你讲的这家公司，叫 Saronic，成立才四年，做的是自主无人艇——就是那种海面上自己开、不需要人的船。估值 92.5 亿美元，累计融资 26 亿，刚宣布了一个 30 亿美元的巨型船厂计划，名字叫 Port Alpha。你可能会想，一家造无人船的初创公司，怎么撑得起这种体量？这一期，节目组连访了三位高管，就为了回答一个问题：中国的造船量是美国的 230 倍，这件事，靠无人船能改写吗？\n\n先把问题的规模摆出来。230 比 1 这个数字，拆开看才看得明白。纯军用战舰，美国每年下水大约 5 到 10 艘，中国大约 30 艘，差距是 6 到 7 比 1，听着吓人，但不算离谱。真正悬殊的是商用船。去年，中国造了超过一千艘大型远洋商用船，美国造了几艘？5 艘。\n\n那为什么商用船的差距最要命？首席法务官 Doug 和首席商务官 Rob 的逻辑是这样的：历史上一再证明，决定海军力量的，从来不是谁的船最精致最贵，而是谁能造得最多。而中国靠全面补贴在商用市场压价——不光补贴建造，还补贴原材料、补贴劳动力，基本等于给船厂提供免费融资。这么压下去，全球产能在被吸走，连世界第二、第三大造船国韩国和日本，商用船的模块和劳动力都在依赖中国。所以一旦台海出事，中国可以独力对上世界其他地区的造船产能。Saronic 整家公司的缘起，就是这个判断。\n\n再看美国海军自己这边。现有约 290 艘舰船，而且还在萎缩。国会 2018 年定的法定最低线是 355 艘，2024 年海军自己又说需要 381 艘。30 年造船计划要在 30 年里补上这个缺口，预算约 1.2 万亿美元——前提还是国家首先执行得了这个计划。而今天约一万亿美元的国防预算里，只有 1% 投向自主化。这就是 Saronic 想撬动的空间。\n\n那这家公司是怎么起来的？Doug 2022 年和创始人 Dino 吃了顿早餐就入伙了，早期真的就是待在奥斯汀南部的一个车库里。Rob 的入伙更直接，Dino 一个电话：「老兄，我需要一个你。」但起步打法很清楚：公司成立前 90 天，就签下了第一份政府合同——一种叫 CRADA 的合作研发协议，零成本合同，换来的是窥见客户真实需求的机会。需求从哪儿找？不从项目执行办公室找，也不从国会山入手，而是找到一线作战人员，问一个问题：哪些事是你被迫答应、但手上根本没有条件去做的。产品路线也是从小做起，Corsair 之前其实还有两款小艇，先积累理解和势头，再上大系统。刚建成的 180 英尺无人船 Marauder，之于未来 400 甚至 1200 英尺的大船，就像当年那款小艇之于 Corsair。\n\n接下来是最有意思的工程部分，CTO Vib 讲的。核心洞察就一句话：历史上所有船都是为人设计的，而人带来一大堆约束。当你真正想清楚这艘船上没有人，可以砍掉大量复杂性，缩短建造周期。有多夸张？商用船的设计目标是让人类承受约 0.4 到 0.6 个 G 的加速度，而 Saronic 的无人船，实测见过超过 20 个 G。用 Vib 的话说，人类承受不了那个。\n\n具体怎么做？三个层面。第一，机器人的开发生命周期变了。有了 AI 工具，写代码更快、调试也更快，所以要把硬件提前在台架上组装测试。Marauder 的发电机组、推进系统、艏侧推，在船开建前八个月，就在一个房间里全部搭出来了——船下水的时候，团队直接进应用层。第二，电子架构从底层为自主设计：模块化开放系统、标准协议，任意载荷即插即用；摄像头按模块分组供电，可以远程断电重启。为什么这事重要？因为在对抗性射频环境里，你经常不敢开雷达，远程电源循环——关掉再打开——就是为此准备的。第三，海洋本身就是最难的部分。海面是双流体的动荡交界，你要为分布尾部那 1% 的坏浪做设计；盐水打上天线就丢信号，30 天任务下来鸟会来筑巢。而且海事领域几乎没有开源数据和仿真工具——找欧洲最大的海事设计公司要仿真软件，50 英尺以下的船全算出数值不稳定。所以每个平台都配了冗余的通信方案，Starlink 加超视距射频，万一断联，继续前进、盘旋还是返航，由操作员提前在任务规划里设定。\n\n讲到这儿，一个更大的问题浮出来了：硬科技回流美国，卡的不只是钱，是人和制度。Doug 点了三块。一是政府需求信号要先于市场投入，老掉牙的鸡生蛋问题。二是劳动力——过去二十年国防制造业围着认证资质转，质量体系保住了，却把大量劳动力挡在了门外。Doug 有句话：没有理由一个连轮胎都不会换的人，不能去造一艘 Corsair。解法是什么？更好的设计——公司的信条是更少的零件就是好的零件——加上自动化检测，和按成年人学习规律设计的学徒制。有公司已经把复杂的线束培训从两年压缩到四周。三是某些产业链已经整体外迁，比如铸造锻造，三到五年内会是硬挑战。他们造 Marauder 的时候，甚至买断了路易斯安那地区绝大部分铝材，现在要提前为 Port Alpha 铺好钢材管道——在雪崩到来之前，先把石头挪开。\n\nRob 从另一个角度切进来：采购。他的核心主张是，采购上真正的魔力，发生在双方有信任、对结果有共同承诺的时候。而现在最有效的变化，是能看到系统里刹车在哪，精确到个人。不能让一个与任务无关的合同官，拿一本没有余地的手册，任意否决项目主管、领导层和作战司令官都一致同意的事。这是从哪来的信念？海军陆战队第一天就教：你的单位里发生和不发生的一切，你都要负责。可如果队里有人能推翻你的决定，问责从何谈起。至于 AI，他的期待也落在制度上：他们多次遇到合同官对某项其实允许的新法规毫不知情、斩钉截铁地说不行。合同官需要的，只是一个能说「是的，这可以」的工具，而不是继续靠求稳保住职业生涯。\n\n三段访谈串起来，Doug 的收尾观点其实是一句话：随着软件因 AI 兴起而日益商品化，在真实空间里做硬科技、建造真实有形的东西，将是未来的护城河。Vib 补了一个对未来的判断：数百艘无人船的规模，会从根本上改变系统的用法——只有一个的时候你像照顾婴儿，有几百个的时候，你能做各种有趣的事。所以回到开头那个 230 比 1：Saronic 押的不是造得更贵，而是换一条路，把造船变成软件问题。在真实空间里建造真实的东西，就是这家公司认定的护城河。"
+}

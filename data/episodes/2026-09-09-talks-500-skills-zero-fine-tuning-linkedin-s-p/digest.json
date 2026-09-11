@@ -1,0 +1,130 @@
+{
+  "title_zh": "LinkedIn 怎么让编码智能体真正读懂内部系统",
+  "tldr": "LinkedIn 软件工程师 Ajay 讲解他们如何用 Playbooks 系统给编码智能体补上企业内部上下文，让 AI 从“会幻觉”变成能端到端处理生产事故的可信同事。",
+  "digest_md": "把一个线上事故的警报链接丢给编码智能体，几分钟后它不只找出根本原因，还会给出缓解步骤、代你执行、更新事件管理系统、再提一个修复代码的 PR——原本要几个小时的人工活，几分钟搞定。这不是演示视频，而是 LinkedIn 团队现在真实的工作方式。讲这个的，是 LinkedIn 软件工程师 Ajay,他介绍了公司内部的「Contextual Agent Playbooks and Tools」系统。\n\n**直接给智能体不够：企业场景的三大坑**\n\n编码智能体是在开源仓库上训练的，所以它们在 LinkedIn 这类大企业里水土不服：不了解内部框架、内部系统，工程师直接用会出现幻觉、中途卡住，甚至更危险——编造出不正确的东西。工程师手动写提示词去纠正，花的功夫比手动写代码还多，很多人干脆退回了手动编码。\n\nLinkedIn 的技术栈有多大？超过 1,000 个仓库，组成数千个微服务，大量自建基础设施——自己的数据库、实验追踪平台、配置管理系统，全是外部模型一无所知的内部系统。新工程师入职都要先上一周的培训营才能熟悉。所以他们给自己定的标准是：让任何编码智能体(Cursor、Claude Code、GitHub Copilot 都行)把内部系统理解到「写出的代码工程师能信任」——代码正确，质量不低于真正的工程师。\n\n他们的第一步是搭内部 MCP(MCP 是 Anthropic 提出的、为智能体接入工具的行业协议)，第一个工具是 CodeSearch,把 LinkedIn 的跨仓库代码搜索开放给智能体。这是个强力解锁：你问「怎么设置某个东西」，智能体能自己搜出公司在LinkedIn 的标准做法，还能照着实现。之后陆续接入了 Docs、Jira、Slack、数据平台甚至功能开关，每加一个工具都产生复利效应——工程师可以把 PRD、设计文档、Jira 任务一起喂给智能体辅助编码。\n\n但光有工具还不够，复杂工作流做不可靠。三个问题：①**隐性知识散落各处**——怎么调试某个错误日志这类知识散在文档、wiki、Slack 对话里，还常常过时、重复，智能体会迷失；②**上下文过载**——每个工具输出都占上下文空间，智能体被迫压缩上下文就会丢信息、从头再来；③**没有持久记忆**——每次任务都从零开始。\n\n**Playbooks:把「怎么干」也变成可调用的工具**\n\n2025 年初他们发明了 Playbooks:不仅通过 MCP 提供工具，还把指令和提示词本身也做成 MCP 上的资源。一个 playbook 就像一个普通工具，有名字和描述；智能体判断需要时调用它，里面的操作指令就作为工具输出返回。比如工程师问「怎么在 LinkedIn 设置一个 Airflow DAG」,智能体先调用对应的 playbook 拿到标准步骤，再按步骤调工具把活干完。\n\n关键在于：LinkedIn 的任何人都能创建 playbook、提交到仓库、开放给全公司。为防止 playbook 泛滥失控，他们定了两条原则：一是**自包含**——一个 playbook 只做一个具体任务，这样智能体才能为任务挑对 playbook;二是**拆小再引用**——大 playbook 拆成多个小的、由大引用小，好处是可复用，加上「渐进式发现」：智能体只在需要时才读某个小 playbook,不用一次性吞下所有内容。这套东西和后来出现的 skills 概念很相似，但他们做在 skills 出现之前，而且通过 MCP 捕获组织上下文几乎零设置。\n\n**最巧的设计：智能体自己维护 playbook**\n\n知识库最大的问题是过时。他们的解法是让智能体参与维护：每次使用某个 playbook,鼓励智能体在会话结束时总结学到的经验——哪些信息过时了、哪里有出入、缺什么——然后自己检出仓库、更新 playbook、提 PR,批准后即生效。由此形成一个自我学习的飞轮。\n\n架构上一个本地 MCP 服务器默认预装在所有 LinkedIn 笔记本上，每小时自动更新；playbook 分两层——中央 playbook 覆盖跨仓库的通用场景，本地 playbook 跟着各自仓库走、只在智能体于该仓库工作时被自动拾取。单一服务器还带来集中的认证和遥测数据，可用于持续改进。\n\n还有一个 MCP 的通病要解决：直接呈现超过三四十个工具就会拖垮性能。他们的做法是用**三个元工具**替代全部呈现——先 search 按关键词和标签搜出相关工具/playbook(配合预配置的系统指令教智能体高效搜索)，再 get schema 拿到细节，最后执行。这让系统扩展到了数千个工具和 playbook。\n\n**规模与经验**\n\n现在每天有超过 8,000 名用户在使用，平台上有超过 1,300 个工具、600 多个 playbook——而且不只工程师，产品经理、设计师、TPM 都在用，各自带 playbook 进来自动化自己的工作流。\n\nAjay 留下两条核心经验：第一，**从第一天起就把质量和可靠性当根本原则**，而不只是生产力，系统才不会在扩张中劣化；第二，**要为智能体构建正确的基础设施**——在大型企业里，光把最新最好的工具和模型发给所有工程师是不够的，没有基础设施让智能体在企业环境内运作，它们发挥不了作用。\n\n## 本集带走\n\n- **工具之上还要给「操作手册」**：把调试步骤、内部流程这类隐性知识做成智能体可调用的 playbook(它本身就是一种 MCP 工具)，智能体才能可靠地端到端干活，而不只是答基本问题。\n- **playbook 要自包含、要拆小**：一个 playbook 只干一件事；大任务拆成多个小 playbook 互相引用，既可复用，又让智能体按需渐进读取、不撑爆上下文。\n- **工具多了别全量暴露**：超过三四十个工具就会拖垮性能，用「搜索 → 拿 schema → 执行」三个元工具替代，可扩展到数千个工具和 playbook。\n- **让智能体自己维护知识库**：每次使用后总结经验、提 PR 更新 playbook,解决知识库必然过时的老大难，形成自学习飞轮。\n- **企业落地 AI 编码，基础设施是前提**：上下文不足会导致幻觉和编造，工程师反而被提示词拖累退回手动——先补上下文基础设施，再谈生产力。",
+  "quotes": [
+    {
+      "en": "So the engineers had to prompt these agents Manually, to do the right thing, which used to take more time than the manual coding itself.",
+      "zh": "所以工程师们不得不手动给这些智能体写提示词，让它们做正确的事，而这往往比手动编码本身还要花时间。",
+      "timestamp": "04:37",
+      "speaker": "Ajay Prakash"
+    },
+    {
+      "en": "We cannot scale it beyond 30 or 40 tools without degrading the context or degrading the performance of the system.",
+      "zh": "如果超过 30 或 40 个工具,我们就无法在不降低上下文质量或系统性能的情况下扩展。",
+      "timestamp": "17:23",
+      "speaker": "Ajay Prakash"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:48",
+      "speaker": "Unknown",
+      "en": "This is not fiction.",
+      "zh": "这不是虚构。"
+    },
+    {
+      "timestamp": "03:59",
+      "speaker": "Unknown",
+      "en": "So the biggest problem is the coding agent or the LLMs are trained on open source repos, right?",
+      "zh": "最大的问题在于，编码智能体或者说 LLM 是在开源仓库上训练的，对吧？"
+    },
+    {
+      "timestamp": "04:37",
+      "speaker": "Unknown",
+      "en": "So the engineers had to prompt these agents Manually, to do the right thing, which used to take more time than the manual coding itself.",
+      "zh": "所以工程师们不得不手动给这些智能体写提示词，让它们做正确的事，而这往往比手动编码本身还要花时间。"
+    },
+    {
+      "timestamp": "05:56",
+      "speaker": "Unknown",
+      "en": "How can we make any coding agent like Cursor or Claude Code or GitHub Copilot understand our LinkedIn's internal system so well that they can ship the code that our engineers can trust?",
+      "zh": "我们怎样才能让任何编码智能体，比如 Cursor、Claude Code 或 GitHub Copilot,把 LinkedIn 的内部系统理解得如此透彻，以至于它们能交付我们工程师可以信任的代码？"
+    },
+    {
+      "timestamp": "06:22",
+      "speaker": "Unknown",
+      "en": "So that is the bar we set up and wanted to figure out how do we get there.",
+      "zh": "这就是我们设定的标准，并且想弄清楚如何达到它。"
+    },
+    {
+      "timestamp": "07:15",
+      "speaker": "Unknown",
+      "en": "This was a really powerful unlock because now you don't have to manually figure out how to do better search.",
+      "zh": "这是一个非常强大的解锁，因为现在你不必再手动琢磨如何做更好的搜索。"
+    },
+    {
+      "timestamp": "08:04",
+      "speaker": "Unknown",
+      "en": "It's almost like a compounding effect, because now our engineer can bring in the PRDs, product requirement documents, and design docs, and also their Jira tasks, which has different context, and use all this to give to the coding agent to automate their, or help with their coding.",
+      "zh": "这几乎像一种复利效应，因为现在我们的工程师可以带来 PRD、产品需求文档和设计文档，还有他们的 Jira 任务——包含不同的上下文——把这一切都给编码智能体，让它们自动化，或者辅助他们的编码工作。"
+    },
+    {
+      "timestamp": "08:58",
+      "speaker": "Unknown",
+      "en": "The main problem was to do a specific job end-to-end, it needs to have a lot of tribal knowledge, right?",
+      "zh": "主要问题是要端到端完成一份特定的工作，它需要拥有大量隐性知识，对吧？"
+    },
+    {
+      "timestamp": "09:45",
+      "speaker": "Unknown",
+      "en": "The second problem was context overload.",
+      "zh": "第二个问题是上下文过载。"
+    },
+    {
+      "timestamp": "10:26",
+      "speaker": "Unknown",
+      "en": "It doesn't have a durable memory.",
+      "zh": "它没有持久记忆。"
+    },
+    {
+      "timestamp": "13:53",
+      "speaker": "Unknown",
+      "en": "So this is the same concept as skills as well.",
+      "zh": "所以这和 skills 的概念也是一样的。"
+    },
+    {
+      "timestamp": "14:41",
+      "speaker": "Unknown",
+      "en": "The biggest problem is how do you keep the context fresh, right?",
+      "zh": "最大的问题是如何保持上下文的新鲜度,对吧?"
+    },
+    {
+      "timestamp": "15:25",
+      "speaker": "Unknown",
+      "en": "This creates a really seamless flywheel of self-learning loop.",
+      "zh": "这就形成了一个非常无缝的自我学习飞轮闭环。"
+    },
+    {
+      "timestamp": "17:23",
+      "speaker": "Unknown",
+      "en": "We cannot scale it beyond 30 or 40 tools without degrading the context or degrading the performance of the system.",
+      "zh": "如果超过 30 或 40 个工具,我们就无法在不降低上下文质量或系统性能的情况下扩展。"
+    },
+    {
+      "timestamp": "18:30",
+      "speaker": "Unknown",
+      "en": "So now we have over 8,000 users daily, using the system daily, using tools and Playbooks.",
+      "zh": "现在我们每天有超过 8,000 名用户,每天都在使用这个系统,使用工具和 Playbook。"
+    },
+    {
+      "timestamp": "18:46",
+      "speaker": "Unknown",
+      "en": "And it's not just engineering, right?",
+      "zh": "而且不仅仅是工程部门,对吧?"
+    },
+    {
+      "timestamp": "19:18",
+      "speaker": "Unknown",
+      "en": "So even before creating an MCP server, we thought, okay, our fundamental principle should be how do we ensure not just productivity, but how do we ensure the quality and also reliability of the system so that it doesn't degrade as we",
+      "zh": "所以在创建 MCP 服务器之前,我们就想,我们的根本原则应该是如何确保不只是生产力,还要确保系统的质量和可靠性,让它不会随着……而劣化"
+    },
+    {
+      "timestamp": "19:52",
+      "speaker": "Unknown",
+      "en": "They are not very effective if you don't build the right infrastructure for the agents to operate within your enterprise.",
+      "zh": "如果你不为智能体构建正确的基础设施让它们在你的企业内运作,它们就不会非常高效。"
+    }
+  ],
+  "voice_script": "今天这一期，来自 LinkedIn 的一位软件工程师，叫 Ajay。他要讲的，是 LinkedIn 内部一个叫 Playbooks 的系统，解决的是所有大公司都在头疼的一个问题：怎么让编码智能体真正读懂公司内部的系统，从会幻觉的玩具，变成能干活的同事。\n\n先说说这事儿的来龙去脉。现在的编码智能体，都是在开源代码上训练出来的。开源世界的东西它们很熟，可一到 LinkedIn 这种大企业，就水土不服。为什么？你想想 LinkedIn 的技术栈有多大：超过一千个仓库，组成数千个微服务，数据库、实验平台、配置管理系统，全是自己建的。这些东西，外部模型一无所知，就连新来的工程师，都得先上一周培训营才能摸熟。所以让智能体直接上手，结果就是幻觉、中途卡住，甚至更危险，编出不正确的东西。有句原话特别扎心：工程师们不得不手动给智能体写提示词，让它们做正确的事，而这往往比手动编码本身还要花时间。结果很多人干脆退回了手动编码。\n\n那怎么办？LinkedIn 定了一个标准：让任何编码智能体，不管你是 Cursor、Claude Code 还是 GitHub Copilot，把内部系统理解到写出的代码工程师能信任的程度。第一步，他们搭了内部 MCP——MCP 是 Anthropic 提出的一个行业协议，说白了就是给智能体接工具用的标准接口。第一个工具是 CodeSearch，把跨仓库的代码搜索开放给智能体。这一步很关键：你问某个东西怎么设置，智能体能自己搜出公司里的标准做法，还能照着实现。之后陆续接入了文档、Jira、Slack、数据平台，每加一个工具都有复利效应。\n\n但光有工具还不够，复杂的工作流还是做不可靠。问题出在三个地方。第一，隐性知识散落各处——怎么调试某个错误日志这类知识，散在文档、wiki、Slack 对话里，还常常过时。第二，上下文过载，每个工具的输出都占空间，智能体被迫压缩信息就会出错、从头再来。第三，没有持久记忆，每次任务都从零开始。\n\n所以到了 2025 年初，他们发明了 Playbooks。思路很巧：不仅给智能体提供工具，连指令和提示词本身，也做成 MCP 上的资源。一个 playbook 就像一个普通工具，有名字有描述，智能体判断需要时调用它，里面的操作步骤就作为输出返回。比如工程师问怎么设置一个 Airflow 任务，智能体先调对应的 playbook 拿到标准步骤，再照着把活干完。而且任何人都能创建 playbook、提交到仓库、开放给全公司。为了防止泛滥，他们定了两条原则：一是自包含，一个 playbook 只做一个具体任务；二是拆小再引用，大任务拆成多个小的互相引用，智能体只在需要时才读某个小 playbook，不会一次性撑爆上下文。\n\n接下来是最巧的一笔。知识库最大的问题永远是过时，他们的解法是让智能体自己参与维护：每次用完某个 playbook，智能体会总结学到的经验，哪些信息过时了、哪里有出入，然后自己检出仓库、更新、提一个 PR，批准后就生效。这样就形成一个自我学习的飞轮。\n\n当然还有工程细节。一个是部署方式：本地 MCP 服务器预装在所有 LinkedIn 员工的笔记本上，每小时自动更新，playbook 分中央和本地两层。另一个是 MCP 的通病：工具超过三四十个，性能就会被拖垮。用他们的话说，超过 30 或 40 个工具，就无法在不降低上下文质量和系统性能的情况下扩展。解法是用三个元工具替代全部呈现：先搜索，再拿细节，最后执行。这让系统扩展到了数千个工具和 playbook。\n\n效果怎么样？现在每天有超过八千名用户，平台上有超过一千三百个工具、六百多个 playbook，而且不只是工程师，产品经理、设计师都在用，各自带 playbook 进来自动化自己的工作流。\n\n最后 Ajay 留下两条经验。第一，从第一天起就把质量和可靠性当根本原则，而不只是生产力，系统才不会在扩张中劣化。第二，要为智能体构建正确的基础设施——在大型企业里，光把最新的模型发给所有工程师是不够的，没有基础设施，它们发挥不了作用。说白了就是一句话：先补上下文的基础设施，再谈生产力。"
+}
