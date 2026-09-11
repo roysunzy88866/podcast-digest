@@ -13,7 +13,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, realpa
 import { resolve, dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { norm } from "./gate.mjs";
-import { blockId, episodeCategories, renderSiteTopBar, renderSidebarScript } from "./render.mjs";
+import { blockId, episodeCategories, renderSiteTopBar, renderSidebarScript, safeEntityFile } from "./render.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const TYPE_CN = { person: "人物", company: "公司", concept: "概念" };
@@ -59,6 +59,9 @@ export function aggregate(episodes, aliasById = new Map()) {
       });
     }
   }
+  // drift #100:页文件名去路径分隔符(否则「A/B 测试」被 join 成子目录、闸门判死链)。在这一处统一做:
+  // 实体页落盘名、集页(build-pages canon)与实体页(pageById)里的所有 [[链接]] 都取 agg.file,同源一致。
+  for (const a of byId.values()) a.file = safeEntityFile(a.file);
   // 建页门槛:任一集 primary
   return [...byId.values()].filter((a) => a.appearances.some((x) => x.primary));
 }

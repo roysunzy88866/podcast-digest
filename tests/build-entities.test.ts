@@ -1,5 +1,6 @@
 // C3 Scenario 4 · 实体页聚合(自建,ADR 0008)的真业务测试
 // 纪律同前:只调被测函数、不重抄逻辑、可变异验证。
+import { readFileSync } from "node:fs";
 import { describe, it, expect } from "vitest";
 import {
   aggregate,
@@ -468,3 +469,27 @@ describe("变体 id 归并(merge)· 防同 file 覆盖(Scenario 2c)", () => {
     expect(aggs.filter((a) => a.file === "系统提示词").length).toBe(2); // 仍是两个 agg(没被误并)
   });
 });
+
+import { safeEntityFile } from "../scripts/render.mjs";
+describe("drift #100 · 实体名带 / 不再被当成子目录(连续多班 gate-all 死链)", () => {
+  it("★★★ safeEntityFile:路径分隔符换成 -,其余原样", () => {
+    expect(safeEntityFile("A/B 测试")).toBe("A-B 测试");
+    expect(safeEntityFile("安全带/harness")).toBe("安全带-harness");
+    expect(safeEntityFile("a\\b")).toBe("a-b");
+    expect(safeEntityFile("Swyx")).toBe("Swyx");
+    expect(safeEntityFile("智能体")).toBe("智能体");
+    expect(safeEntityFile("../evil")).not.toContain("/"); // 顺带堵住路径穿越
+  });
+  it("★★★ aggregate 出来的页文件名不含 /(实体页落盘名与所有链接都取这里)", () => {
+    const eps: any = [{ meta: { id: "e1", title_zh: "t", date: "2026-07-24" }, entities: { entities: [
+      { id: "a-b-testing", type: "concept", role: "concept", name: "A/B 测试 (A-B testing)", file: "A/B 测试", primary: true },
+    ] } }];
+    expect(aggregate(eps).find((x: any) => x.id === "a-b-testing")!.file).toBe("A-B 测试");
+  });
+  it("★★ 源码锚:全量建页以 agg.file 为 key(与 aggregate 同源,改一处即全链一致)", () => {
+    const src = readFileSync(new URL("../scripts/build-entities.mjs", import.meta.url), "utf8");
+    expect(src).toContain("out.set(agg.file, renderEntityPage(");
+    expect(src).toContain("a.file = safeEntityFile(a.file)");
+  });
+});
+

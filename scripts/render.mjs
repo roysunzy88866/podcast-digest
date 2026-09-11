@@ -74,6 +74,13 @@ const PODCAST_COLORS = { "Lenny's Podcast": "#6366f1", "Latent Space": "#0e7490"
 export const coverColor = (podcast) => PODCAST_COLORS[podcast] ?? "#64748b";
 
 /** 只收 primary、按角色分组(US-6:详情页关联区要「按角色分行」,不是一排无差别标签) */
+/** 实体页文件名(drift #100):名字里的 / \ 会被 join 成子目录(「A/B 测试」→ entities/A/B 测试.md),
+ *  而闸门只在实体目录顶层找页 → 连续多班 gate-all 报死链。build-entities 的 aggregate() 出口统一过这一道,
+ *  实体页落盘名与所有 [[链接]] 同源;原词仍作 sourceForm 供正文找字(不在抽取源头改名,否则正文找不到词)。 */
+export function safeEntityFile(name) {
+  return String(name ?? "").replace(/[\\/]+/g, "-");
+}
+
 export function groupByRole(entities) {
   const prim = asArr(entities).filter((e) => e.primary);
   const pick = (pred) => prim.filter(pred).map((e) => ({ id: e.id, name: e.name, file: e.file, role: e.role }));
@@ -774,7 +781,10 @@ function renderFrontmatter(meta, digest, entities) {
   // 与上面的 cover 色值分开两个字段 —— cover 是卡片色条,image 是真图片,别混用。
   if (meta.cover_image?.file) lines.push(`image: "/covers/${meta.id}.jpg"`);
   if (digest.tldr) lines.push(`description: ${yamlScalar(digest.tldr)}`);
-  if (meta.host) lines.push(`host: "[[${meta.host}]]"`); // 无 host → 整行不写(不打印 null)
+  // host 用归一后的 host 实体 file(drift #100):原来直接拼 meta.host,绕开了跨集归一 —— modal 集 meta.host=swyx、
+  // 权威页是 Swyx.md,Linux 区分大小写即死链,连续多班 gate-all 红。没有实体数据的老集仍回落 meta.host。
+  const hostFile = safeEntityFile((entities && groupByRole(entities).host[0]?.file) || meta.host || ""); // 回落分支也过一道(GLM 013[2])
+  if (hostFile) lines.push(`host: "[[${hostFile}]]"`); // 无 host → 整行不写(不打印 null)
   if (entities) {
     const g = groupByRole(entities);
     const wl = (arr) => arr.map((x) => `"[[${x.file}]]"`).join(", ");

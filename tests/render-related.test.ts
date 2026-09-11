@@ -107,3 +107,31 @@ describe("renderAllEpisodes · 集页双链用聚合权威名(漂移不再产死
     expect(renderAllEpisodes([a]).get("epA")).toBe(single);
   });
 });
+
+describe("drift #100 · 页头 host 与带 / 的概念都链到真实存在的实体页", () => {
+  const mk = (id: string, date: string, ents: any[], meta: any = {}) => ({
+    meta: { id, title_zh: id, podcast: "P", date, duration_sec: 60, source_url: "http://x", ...meta },
+    digest: { tldr: "t", digest_md: "本集聊了 A/B 测试 的实践。", quotes: [] },
+    entities: { entities: ents },
+  });
+  it("★★★ 同一人跨集大小写不同(Swyx / swyx):后见集页头 host 链权威名 [[Swyx]],不再写出死链 [[swyx]]", () => {
+    const a = mk("epA", "2026-06-16", [{ id: "swyx", type: "person", role: "guest", name: "Swyx", file: "Swyx", primary: true }]);
+    const b = mk("epB", "2026-07-08", [{ id: "swyx", type: "person", role: "host", name: "swyx", file: "swyx", primary: true }], { host: "swyx" });
+    const pb = renderAllEpisodes([a, b] as any).get("epB")!;
+    expect(pb).toContain('host: "[[Swyx]]"');
+    expect(pb).not.toContain('host: "[[swyx]]"');
+  });
+  it("★★ 没有实体数据的老集仍回落 meta.host(行为不变);回落值同样去斜杠(GLM 013[2])", () => {
+    expect(renderEpisode({ ...META, host: "Lenny" } as any, DIGEST)).toContain('host: "[[Lenny]]"');
+    expect(renderEpisode({ ...META, host: "A/B 主持" } as any, DIGEST)).toContain('host: "[[A-B 主持]]"');
+    expect(renderEpisode(META as any, DIGEST)).not.toContain("host:"); // 无 host 仍整行不写
+  });
+  it("★★★ 概念名带 /(A/B 测试):页头链 [[A-B 测试]]、正文链 [[A-B 测试|A/B 测试]](读者看到原词),链接目标里不再有斜杠", () => {
+    const a = mk("epA", "2026-07-24", [{ id: "a-b-testing", type: "concept", role: "concept", name: "A/B 测试 (A-B testing)", file: "A/B 测试", primary: true }]);
+    const pa = renderAllEpisodes([a] as any).get("epA")!;
+    expect(pa).toContain('"[[A-B 测试]]"');
+    expect(pa).toContain("[[A-B 测试|A/B 测试]]");
+    expect(pa).not.toMatch(/\[\[A\/B 测试(\]\]|\|)/);
+  });
+});
+
