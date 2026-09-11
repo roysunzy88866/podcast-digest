@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tane":1,"Walden":1,"模型路由":4,"智能体":1,"上下文压缩":1,"RL":7,"蒸馏":10,"KV 缓存":2,"Cognition":16,"OpenRouter":9}</script>
+<script type="application/json" class="pd-epn">{"Tane":1,"Walden":1,"模型路由":4,"智能体":1,"上下文压缩":1,"RL":7,"蒸馏":10,"KV 缓存":2,"Cognition":16,"OpenRouter":10}</script>
 
 <script>
 (function(){

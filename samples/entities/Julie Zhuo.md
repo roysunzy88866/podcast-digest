@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":1,"构建者":3,"可观测性":19,"对话分析":1,"评估":23,"维度思维":1,"ChatGPT":55,"Cursor":54,"OpenAI":102}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":1,"构建者":3,"可观测性":19,"对话分析":1,"评估":24,"维度思维":1,"ChatGPT":55,"Cursor":54,"OpenAI":102}</script>
 
 <script>
 (function(){

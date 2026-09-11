@@ -1,0 +1,160 @@
+{
+  "title_zh": "Circleback 创始人 Ali：把公司记忆和运营流程全部交给智能体",
+  "tldr": "Circleback 联合创始人 Ali 展示自己的 AI 工作台：怎么用智能体接管招聘跟踪、客服、运营，以及哪些事绝不让 AI 碰。",
+  "digest_md": "这一集是 Circleback 联合创始人 Ali 的「装备与工作流」访谈。Circleback 是一款 AI 会议笔记工具：录制并转写会议、写笔记、分配行动项，还能把会议里的信息自动同步到 CRM、问题跟踪器、Slack 这些应用里。Ali 来自 YC 24 冬季批次。而他自己的用法比产品介绍激进得多——他直接把 Circleback 当公司的招聘系统和客户记忆库在用，日常写代码也几乎全交给智能体。\n\n## 桌上那点事：键盘和一个被「催眠」买来的小车\n\nAli 的桌面刻意保持精简。键盘是一把 Topre（Tokyo Precision 的缩写）薄膜键盘——不是机械键盘，很难买到，说明书全是日文。他喜欢它的手感：敲击感好、不算吵、按键触发靠前不用按到底；而机械键盘的青轴茶轴在他们的开放式办公室里太吵了。桌上还有个小玩具车：他在做产品用户引导研究时被 Teemu 的广告「催眠」，一路走完引导流程、购物车里堆了六样东西加 400 美元返现，差点按下结账——「每个环节都注入了恰到好处的多巴胺」。最后他清醒过来全删了，只留下这个小车当解压玩具。另外还有 AirPods Max，他不常戴，但戴上就是一种信号——像在 MSN 或 AIM 上把状态设成「专注中」。\n\n## 把 Circleback 用成 ATS 和公司大脑\n\n一个意想不到的用法：Ali 把 Circleback 当作自己的 ATS（求职者跟踪系统）。他建了一个视图，筛选出「Circleback 成员所有来自面试、还没完成的行动项」，一眼看到哪些候选人需要回复、谁在被谁面试；对特别感兴趣的候选人，他会打开对方个人页面，看这人和团队接触的完整时间线——邮件、会议全在里面——确认下一轮是否约好、上一轮表现如何。对 Y Combinator 也有专门的公司页面，能看到接触过哪些人、欠不欠对方行动项、明天有什么会议。\n\n他还会让 Circleback 帮自己准备会议：这次访谈前一晚，他让 Circleback 翻遍两人往来的邮件和过往对话，生成一份带日历来源、列出待准备事项和值得展示内容的备战材料。\n\n还有一个每天用很多次的小技巧：长按手机的操作按钮直接在 Circleback 开始录音，不用摆弄手机；手表应用也在内测，按一下表盘就能开录——在办公室走动或散步没带手机时特别好用。\n\n## Telegram 上的智能体团队，正在搬进 Slack\n\nAli 在 Telegram 上养了一组智能体：一个主力，再加管财务的、管客户的、管人力运营的（名字都起得很随意）。大概 10%-20% 的时间花在这上面，因为很多事「一直开着、一直在工作」——那正是他理想中的状态。\n\n他们正在把这些流程从他的私人智能体迁到公司 Slack 频道：每收到一封客户邮件，Slack 上自动开一个带调查过程的新线程，来回沟通全在那里完成；销售线索同理。好处是这变成了全公司的努力，所有人都能看到客户在问什么、关心什么、为什么没成交。他们的客户光谱很宽——既有坐在格子间、只用这一款非 Microsoft 产品的传统企业，也有大量成长期初创公司和 YC 公司——所以他们坚持每周工程师值班轮换，由一名工程师处理所有进来的支持请求、直接面对客户。\n\n## 写代码：从自己写到编排智能体\n\n直到圣诞节前后 Ali 还在自己写大量代码，之后转向 Claude Code，现在主要用一个编排型智能体调度器：发出几个任务，回头审查。只有文案和小样式调整他还直接手动改——「直接编辑文件更快」。大多数事情上他们已经建了足够的脚手架和基础设施，智能体可以端到端完成。瓶颈随之变成代码审查：他们按 PR 类型派出不同的审查智能体，不只查代码质量，还包括架构、产品、甚至写进产品里的文案，确保一切与团队惯常做法一致。\n\n他现在很少待在编辑器里——用轻量的 Zed 只是为了快速看 diff 和小改动。更有意思的是运营工作：以前他得登录工资软件处理杂事，现在大量自动化了，「不再一直被经营公司周围的琐事压得喘不过气」，做最擅长、杠杆最高的事的时间比六个月前多了。他把每周四定为无会议日，戴上耳机把惦记的事在一天内端到端上线。最近的精力重心是审代码而非写代码——因为团队已有不少优秀工程师，瓶颈是引入更多人才、提升产品决策的吞吐量。\n\n## 质量怎么保：评估和「不打地鼠」\n\n对可量化、有对错答案的部分，他们建了评估（evals，用固定测试集检验每次改动的效果）。比如开会时说「我现在就发给你」、且已有信号表明事情当场完成了，就不该再列为行动项——那是多余的噪音。写作风格也是核心：笔记必须像人写的，而且他们对「什么是好」很有主张——比如绝不让笔记出现「discussed（讨论了）」这个词，因为开会当然是讨论过了，这词不增加任何价值。这些标准都进了评估，每次换模型或改提示词都跑一遍。他的理由很直接：没有好的增量改进系统，你就会一直玩打地鼠——概览变好了，主题部分又变太长了。\n\n文化上他们「token maxing」：不只完成任务，还要用让下次更容易、产出更好的方式完成；用 AI 的预算不设上限，信任每个人的判断，只在 show and tell 环节互相展示新工具和用法。「也许规模扩大 10 倍就不适用了，但现在我们只在乎用最好的工具产出最高质量的成果。」\n\n## 哪些事绝不让智能体碰\n\n边界很清晰：智能体绝不自主发邮件——草稿可以，发送不行。产品文案可以先出一稿，但绝不能直接进生产环境。涉及数据访问和安全的事，可以让子智能体做一遍审查，但架构必须由工程师来设计，再让智能体把它构建出来——「我们基本不想让智能体去做架构设计」。\n\n## 为什么「记录一切」是必然\n\nAli 的核心论点：随着 LLM 变强、AI 智能体在公司里干更多活，记录一切会成为默认。因为「正在发生的一切的上下文变得极其重要，否则你的 AI 智能体就是在孤立地工作」——它不知道今天早些时候说了什么、客户说了什么。不记录的机会成本已经很高，只会越来越高。难点在另一半：不仅要容易记录，还要让客户确信内容只分享给合适的人——你在一对一里说的话不会被分享给全公司。\n\n对软件工程的前景，他持非常乐观的态度：可能性的边界现在更多取决于想象力，而不是团队技能或带宽；出货速度不再是最重要的，重要的是你决定构建什么、以及怎么构建才能让系统持续组合、互相协作。这个领域看起来每隔几周就在变，「现在是成为建造者的绝佳时代，尤其在创业公司——你可以玩最新的工具，而且不会被繁文缛节拖累。」\n\n## 本集带走\n\n- **给工具一个「视图」而非一个入口**：Ali 用 Circleback 的筛选视图（来自面试、未完成的行动项）直接当招聘跟踪系统，把会议、邮件、候选人时间线收进一个页面，会议准备也交给它翻历史往来生成。\n- **运营流程迁进公司共享渠道**：客户邮件和销售线索自动在 Slack 开线程，让处理变成全公司可见的努力，而不是困在创始人私人智能体里。\n- **写代码的重心从写移到审**：用编排型智能体并行派任务，按 PR 类型派出不同审查智能体（代码质量、架构、产品、文案各管一摊），人只管审和定架构。\n- **给 AI 改进建评估，别打地鼠**：把「不该出现的词」「不该列为行动项的情况」这类标准固化进 evals，每次换模型、改提示词都回归一遍。\n- **智能体红线明确到动作级**：可写邮件草稿但绝不发送、文案只出初稿不进生产、安全架构必须人设计智能体只做实现和审查。\n- **上下文决定智能体上限**：不记录一切，智能体就在孤立工作——记录的机会成本只会越来越高，但要配好权限边界让人敢录每一次对话。",
+  "quotes": [
+    {
+      "en": "I think it's an incredibly exciting time to be building software because the bounds of what's possible is now more so your imagination, not so much the skills that your team or you have or the bandwidth that you have.",
+      "zh": "我认为现在是构建软件极其令人兴奋的时代，因为可能性的边界更多取决于你的想象力，而不是你或团队的技能或带宽。",
+      "timestamp": "14:08",
+      "speaker": "Ali Haghani"
+    },
+    {
+      "en": "How fast you ship, but what you decide to build and how you decide to build it in order to be able to continue composing the systems that you build together and having them interoperate and work together.",
+      "zh": "更重要的不再是你出货多快，而是你决定构建什么、以及怎么构建，才能让你建的系统持续组合在一起、互相协作运作。",
+      "timestamp": "14:31",
+      "speaker": "Ali Haghani"
+    },
+    {
+      "en": "Maybe that doesn't scale when we're like 10x the size, but right now we just care about using the best tools to produce the highest quality output.",
+      "zh": "也许等我们规模扩大 10 倍时这就不适用了，但现在我们只在乎用最好的工具产出最高质量的成果。",
+      "timestamp": "11:17",
+      "speaker": "Ali Haghani"
+    },
+    {
+      "en": "Because if you don't have good systems in place to make incremental improvements, you're constantly playing this game of whack-a-mole.",
+      "zh": "因为如果你没有好的系统来做增量改进，你就会一直玩打地鼠的游戏。",
+      "timestamp": "10:36",
+      "speaker": "Ali Haghani"
+    },
+    {
+      "en": "Never send an email on its own of draft is okay.",
+      "zh": "绝不自主发送邮件，草稿是可以的。",
+      "timestamp": "12:27",
+      "speaker": "Ali Haghani"
+    },
+    {
+      "en": "We basically don't want to let the agent architect the thing, but like the engineer or whoever's working on it should architect it and then have the AI agent actually built it out.",
+      "zh": "我们基本不想让智能体去做架构设计，而应该由工程师或负责的人来做架构，再让 AI 智能体真正把它构建出来。",
+      "timestamp": "12:48",
+      "speaker": "Ali Haghani"
+    },
+    {
+      "en": "I love writing code and like building the product so as much as I can, but recently I've been like consciously weeding myself off of it because the bottlenecks of the company.",
+      "zh": "我热爱写代码、喜欢构建产品，能写多少就写多少，但最近我在有意识地让自己戒掉这件事，因为公司的瓶颈不在这。",
+      "timestamp": "07:47",
+      "speaker": "Ali Haghani"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:09",
+      "speaker": "Ali",
+      "en": "Like there's the right amount of dopamine injection at every level.",
+      "zh": "每个环节都注入了恰到好处的多巴胺。"
+    },
+    {
+      "timestamp": "13:22",
+      "speaker": "Ali",
+      "en": "And so the opportunity cost of not recording is already pretty high and it's only going to become higher and higher.",
+      "zh": "所以不记录的机会成本已经很高了，而且只会越来越高。"
+    },
+    {
+      "timestamp": "13:12",
+      "speaker": "Ali",
+      "en": "The context of everything that's going on is super important because otherwise your AI agent is working in isolation.",
+      "zh": "正在发生的一切的上下文极其重要，否则你的 AI 智能体就是在孤立地工作。"
+    },
+    {
+      "timestamp": "14:08",
+      "speaker": "Ali",
+      "en": "I think it's an incredibly exciting time to be building software because the bounds of what's possible is now more so your imagination, not so much the skills that your team or you have or the bandwidth that you have.",
+      "zh": "我认为现在是构建软件极其令人兴奋的时代，因为可能性的边界更多取决于你的想象力，而不是你或团队的技能或带宽。"
+    },
+    {
+      "timestamp": "14:31",
+      "speaker": "Ali",
+      "en": "How fast you ship, but what you decide to build and how you decide to build it in order to be able to continue composing the systems that you build together and having them interoperate and work together.",
+      "zh": "更重要的不再是你出货多快，而是你决定构建什么、以及怎么构建，才能让你建的系统持续组合在一起、互相协作运作。"
+    },
+    {
+      "timestamp": "11:17",
+      "speaker": "Ali",
+      "en": "Maybe that doesn't scale when we're like 10x the size, but right now we just care about using the best tools to produce the highest quality output.",
+      "zh": "也许等我们规模扩大 10 倍时这就不适用了，但现在我们只在乎用最好的工具产出最高质量的成果。"
+    },
+    {
+      "timestamp": "10:36",
+      "speaker": "Ali",
+      "en": "Because if you don't have good systems in place to make incremental improvements, you're constantly playing this game of whack-a-mole.",
+      "zh": "因为如果你没有好的系统来做增量改进，你就会一直玩打地鼠的游戏。"
+    },
+    {
+      "timestamp": "10:23",
+      "speaker": "Ali",
+      "en": "Obviously, things were discussed. It's a meeting. It doesn't add any value.",
+      "zh": "显然，事情都被讨论过了。这是一场会议。这词不增加任何价值。"
+    },
+    {
+      "timestamp": "12:27",
+      "speaker": "Ali",
+      "en": "Never send an email on its own of draft is okay.",
+      "zh": "绝不自主发送邮件，草稿是可以的。"
+    },
+    {
+      "timestamp": "12:52",
+      "speaker": "Ali",
+      "en": "We basically don't want to let the agent architect the thing, but like the engineer or whoever's working on it should architect it and then have the AI agent actually built it out.",
+      "zh": "我们基本不想让智能体去做架构设计，而应该由工程师或负责的人来做架构，再让 AI 智能体真正把它构建出来。"
+    },
+    {
+      "timestamp": "05:35",
+      "speaker": "Ali",
+      "en": "That's the state ideally I want them to be in.",
+      "zh": "那是我理想中希望它们所处的状态。"
+    },
+    {
+      "timestamp": "07:47",
+      "speaker": "Ali",
+      "en": "I love writing code and like building the product so as much as I can, but recently I've been like consciously weeding myself off of it because the bottlenecks of the company.",
+      "zh": "我热爱写代码、喜欢构建产品，能写多少就写多少，但最近我在有意识地让自己戒掉这件事，因为公司的瓶颈不在这。"
+    },
+    {
+      "timestamp": "08:25",
+      "speaker": "Ali",
+      "en": "But Thursdays is my no meeting day which I look forward to every week.",
+      "zh": "但每周四是我的无会议日，我每周都盼着这一天。"
+    },
+    {
+      "timestamp": "11:43",
+      "speaker": "Ali",
+      "en": "I use Zed right now as my editor, just to go in and like review diffs really quickly or make small changes.",
+      "zh": "我现在用 Zed 当编辑器，只是进去快速审查 diff 或做些小改动。"
+    },
+    {
+      "timestamp": "08:50",
+      "speaker": "Ali",
+      "en": "For copy, I like to be able to quickly change it and see how it looks in context on the product.",
+      "zh": "比如文案，我喜欢能快速修改它，并在产品上下文里看它呈现的效果。"
+    },
+    {
+      "timestamp": "12:08",
+      "speaker": "Ali",
+      "en": "Just in terms of being able to do more of the things that I'm most high leverage at and really good at, I'm doing more of that now than I was six months ago because I'm not constantly underwater from all the miscellaneous things that surround running a company.",
+      "zh": "单就能做更多我最能发挥杠杆、最擅长的事而言，我现在比六个月前做得多了，因为我不再一直被经营公司周围那些琐事压得喘不过气。"
+    },
+    {
+      "timestamp": "09:58",
+      "speaker": "Ali",
+      "en": "The other things that we've really tried to do is the writing style, actually getting struggle back notes to seem like they're written by a person.",
+      "zh": "我们真正努力去做的另一件事是写作风格，让 Circleback 笔记看起来真的像是一个人写的。"
+    },
+    {
+      "timestamp": "14:53",
+      "speaker": "Ali",
+      "en": "And I think it's an awesome time to be a builder, especially at a startup because you get to play around with the latest tools and you're not bogged down by the red tape.",
+      "zh": "我认为现在是成为建造者的绝佳时代，尤其在创业公司，因为你可以玩最新的工具，而且不会被繁文缛节拖累。"
+    }
+  ],
+  "voice_script": "今天咱们来聊聊 Circleback 的联合创始人 Ali。这家公司做的是 AI 会议笔记：录会、转写、写笔记、分派行动项，还能把会议里的信息自动同步到 CRM、问题跟踪器、Slack 这些地方。Ali 来自 YC 24 冬季批次，但这期节目有意思的地方在于，他自己在公司里的用法，比产品介绍激进得多——把自家产品当招聘系统和公司记忆库用，写代码也几乎全交给智能体。今天咱们就顺着这条线，看看一个 AI 创业公司创始人，到底是怎么把自己公司大部分运营交给机器的。\n\n先说一个最意外的用法：把 Circleback 当求职者跟踪系统。一般公司招人得买专门的 ATS 软件，但 Ali 直接在 Circleback 里建了一个视图，筛选出所有来自面试、还没完成的行动项，一眼就能看到哪些候选人需要回复、谁在被谁面试。对特别感兴趣的候选人，还能打开对方的个人页面，看这人和团队接触的完整时间线——邮件、会议全在里面。对 Y Combinator 这种重要合作方，也有专门的公司页面，能看到接触过哪些人、欠不欠对方行动项、明天有什么会。你看，这就是把散落在各处的公司记忆，收进了一个页面。\n\n顺着这个思路往下走，会议准备也能交给它。这次访谈前一晚，Ali 就让 Circleback 翻遍两人往来的邮件和过往对话，自动生成一份备战材料，列出待准备事项和值得展示的内容。还有个小技巧很实用：长按手机的操作按钮就能直接开始录音，手表应用在内测中，按一下表盘就开录，散步没带手机时特别好用。\n\n好，公司记忆有了，那日常运营呢？这就引出下一个话题——Ali 在 Telegram 上养了一组智能体：一个主力，再加管财务的、管客户的、管人力运营的。大概 10% 到 20% 的时间花在这上面，因为很多事一直开着、一直在工作，那正是理想中的状态。不过私人智能体有个问题：所有事都困在创始人一个人手里。所以他们正在把这些流程迁到公司 Slack 频道——每收到一封客户邮件，Slack 上自动开一个带调查过程的新线程，来回沟通全在那里完成，销售线索同理。这样处理客户问题就变成了全公司的事，所有人都能看到客户在问什么、为什么没成交。他们还坚持每周工程师值班轮换，由一名工程师直接面对所有支持请求。\n\n那写代码呢？ Ali 说，直到圣诞节前后自己还在写大量代码，之后转向了 Claude Code，现在主要用一个编排型智能体调度器——发出几个任务，回头审查就行。只有文案和小样式调整还手动改，因为直接编辑文件更快。这里有个关键转折：重心从写代码变成了审代码。他们按 PR 类型派出不同的审查智能体，不只查代码质量，还包括架构、产品、甚至写进产品里的文案。所以现在 Ali 很少待在编辑器里，用轻量的 Zed 只是为了快速看 diff。结果是大量运营琐事也自动化了，不再被经营公司周围的杂事压得喘不过气。团队还把每周四定为无会议日，戴上耳机把惦记的事一天内端到端上线。\n\n可你可能会问：让 AI 干这么多活，质量怎么保证？他们建了评估系统，用固定测试集检验每次改动的效果。举个例子，开会时说\"我现在就发给你\"、且信号表明事情当场完成了，就不该再列为行动项——那是多余的噪音。写作风格也是核心：笔记必须像人写的，而且绝不让笔记出现\"discussed\"这个词，因为开会当然是讨论过了，这词不增加任何价值。这些标准全进了评估，每次换模型或改提示词都跑一遍。用 Ali 的原话说：\"如果你没有好的系统来做增量改进，你就会一直玩打地鼠的游戏。\"文化上他们追求的是不只完成任务，还要用让下次更容易的方式完成，AI 的预算不设上限，只在分享环节互相展示新工具。\n\n那边界在哪？这一点他们的红线划得非常清楚，精确到动作级：智能体绝不自主发邮件——草稿可以，发送不行。产品文案可以先出一稿，但绝不能直接进生产环境。涉及数据访问和安全的事，架构必须由工程师来设计，再让智能体把它构建出来。用 Ali 自己的话说：\"我们基本不想让智能体去做架构设计。\"\n\n最后聊聊背后那个更大的判断。 Ali 的核心论点是：随着 AI 智能体在公司里干更多活，记录一切会成为默认。因为正在发生的一切的上下文变得极其重要——不记录的话，你的智能体就是在孤立地工作，它不知道今天早些时候说了什么、客户说了什么。不记录的机会成本已经很高，只会越来越高。当然难点在另一半：要让客户确信内容只分享给合适的人，你在一对一里说的话不会被传遍全公司。\n\n对软件工程的前景， Ali 非常乐观，有句话值得记住：现在是构建软件极其令人兴奋的时代，因为可能性的边界更多取决于你的想象力，而不是你或团队的技能或带宽。你决定构建什么，比你能出货多快更重要——而现在，正是成为建造者的绝佳时代。"
+}

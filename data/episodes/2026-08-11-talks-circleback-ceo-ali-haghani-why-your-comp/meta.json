@@ -1,0 +1,24 @@
+{
+  "id": "2026-08-11-talks-circleback-ceo-ali-haghani-why-your-comp",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/4YWO4sSRrTE.m4a",
+  "duration_sec": 906.428,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 153,
+  "asr": true,
+  "title_en": "Circleback CEO Ali Haghani: Why Your Company Should Be Recording More Meetings",
+  "podcast": "精选演讲",
+  "date": "2026-08-11",
+  "added": "2026-09-11",
+  "added_at": "2026-09-11T09:16:04.884Z",
+  "speaker_map": {
+    "SPEAKER_01": "Ali Haghani"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Ali Haghani",
+  "cohosts": [],
+  "title_zh": "Circleback 创始人 Ali：把公司记忆和运营流程全部交给智能体",
+  "guest_name": "Ali Haghani",
+  "guest_title": "Circleback 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

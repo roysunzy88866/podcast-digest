@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Base 10":1,"推理":5,"专用推理":1,"开源模型":5,"后训练":1,"持续学习":2,"GPU 容量":1,"分布式推理":1,"Cursor":54,"Decagon":5}</script>
+<script type="application/json" class="pd-epn">{"Base 10":1,"推理":5,"专用推理":1,"开源模型":6,"后训练":1,"持续学习":2,"GPU 容量":1,"分布式推理":1,"Cursor":54,"Decagon":5}</script>
 
 <script>
 (function(){

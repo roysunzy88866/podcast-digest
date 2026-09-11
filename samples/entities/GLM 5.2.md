@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[沙箱]] · [[Chris Benson]] · [[Arjun Singh]] · [[Daniel Whitenack]] · [[Superconductor]] · [[OpenAI]] · [[基准测试]] · [[Hugging Face]] · [[上下文]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":39,"Chris Benson":7,"Arjun Singh":1,"Daniel Whitenack":6,"Superconductor":1,"OpenAI":102,"基准测试":7,"Hugging Face":20,"上下文":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":39,"Chris Benson":7,"Arjun Singh":1,"Daniel Whitenack":6,"Superconductor":1,"OpenAI":102,"基准测试":8,"Hugging Face":20,"上下文":15}</script>
 
 <script>
 (function(){

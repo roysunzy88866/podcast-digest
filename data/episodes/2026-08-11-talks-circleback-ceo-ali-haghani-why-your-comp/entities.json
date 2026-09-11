@@ -1,0 +1,427 @@
+{
+  "episode_id": "2026-08-11-talks-circleback-ceo-ali-haghani-why-your-comp",
+  "podcast": "精选演讲",
+  "date": "2026-08-11",
+  "tags": [
+    "AI 会议笔记",
+    "智能体工作流",
+    "AI 编程",
+    "公司运营",
+    "评估体系"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "ali-haghani",
+      "type": "person",
+      "role": "host",
+      "name": "Ali Haghani",
+      "file": "Ali Haghani",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "circleback",
+      "type": "company",
+      "role": "company",
+      "name": "Circleback",
+      "file": "Circleback",
+      "primary": true,
+      "how_described": "本集主产品：一款 AI 笔记工具，录制并转写会议、写笔记、分配行动项，还能自动同步到 CRM、问题跟踪器、Slack，并可作为公司记忆大脑供智能体连接查询。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.28,
+            2.102
+          ],
+          "quote": "Hey, I'm Ali, co-founder of Circleback.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2,
+          "t": [
+            15.731,
+            20.554
+          ],
+          "quote": "Circleback is an AI note taker that captures and organizes everything from your conversations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            171.064,
+            175.506
+          ],
+          "quote": "Can you share some unexpected ways you are using Circleback?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            185.703,
+            192.63
+          ],
+          "quote": "So this view is basically any action item that belongs to someone at Circleback that is not done and is from an interview.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            222.228,
+            228.514
+          ],
+          "quote": "And generally, I also use Circleback to kind of keep track of people and companies that we're talking to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 42,
+          "t": [
+            228.834,
+            235.881
+          ],
+          "quote": "And so, for example, with the Y Combinator company page in Circleback, I can see who are all the people that we've talked to at YC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            255.558,
+            261.424
+          ],
+          "quote": "One thing that I was doing literally last night in preparation for this interview was I asked Circleback to prep me for this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            293.848,
+            296.35
+          ],
+          "quote": "I have it set to start a recording on Circleback.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            429.311,
+            437.533
+          ],
+          "quote": "It's also super helpful because when they share feedback while they're at our office, Circleback captures it and these were some things that we were going to look into for them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            437.973,
+            444.275
+          ],
+          "quote": "And then I can actually go back and look at the recording of the meeting that we imported into Circleback from here and jump to a specific part.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            446.336,
+            448.698
+          ],
+          "quote": "What was on Chris's wish list for Circleback?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心：Ali 在 Telegram 上养了一组智能体（主力、财务、客户、人力运营）并正在迁入 Slack；写代码靠编排型智能体派任务、按 PR 类型派审查智能体；红线明确——绝不自主发邮件、不做架构设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            350.7,
+            360.227
+          ],
+          "quote": "Yeah, so I have my like main claw agent and then I have one for finance, one for customers, one for people ops.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            516.549,
+            524.053
+          ],
+          "quote": "I think a lot of people went through this around then and now I'm at a point where I mostly use like an orchestrating agent orchestrator to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            759.091,
+            776.535
+          ],
+          "quote": "And then anything with data access and security, it's good for reviewing and doing, like that's one of our sub-agents that does a pass, but we basically don't want to let the agent architect the thing, but like the engineer or whoever's working on it should architect it and then have",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            777.116,
+            779.1
+          ],
+          "quote": "The AI agent actually built it out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            792.628,
+            799.091
+          ],
+          "quote": "The context of everything that's going on becomes super important because otherwise your AI agent is working in isolation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说 Ali 在圣诞节前后从自己写大量代码转向使用 Claude Code，之后进一步演进到编排型智能体调度器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            508.465,
+            516.509
+          ],
+          "quote": "I was like writing a lot of code myself even like through Christmas and then I started using Claude Code again around that time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说他们为可量化、有对错答案的部分建了 evals（固定测试集），比如「不该列为行动项的情况」「笔记里绝不出现 discussed 这个词」，每次换模型或改提示词都跑一遍，否则就是在打地鼠。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            579.447,
+            588.233
+          ],
+          "quote": "We have evals in place for things where it's quantifiable or there's a right or wrong answer, like what things should come up as action items.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            627.392,
+            635.778
+          ],
+          "quote": "So that's, I think, somewhere in our evals as well when we, like, update models or change prompts to see how is it faring with every incremental change that we make.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "y-combinator",
+      "type": "company",
+      "role": "company",
+      "name": "Y Combinator",
+      "file": "Y Combinator",
+      "primary": true,
+      "how_described": "本集说 Circleback 来自 YC 24 冬季批次；Ali 用 Circleback 建了专门的 YC 公司页面，跟踪接触过的 YC 人员、行动项和完整对话时间线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            228.834,
+            235.881
+          ],
+          "quote": "And so, for example, with the Y Combinator company page in Circleback, I can see who are all the people that we've talked to at YC.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "concept",
+      "role": "concept",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集说他们正把私人智能体里的流程迁到公司 Slack 频道：客户邮件和销售线索自动开线程，让处理变成全公司可见的努力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            25.737,
+            34.382
+          ],
+          "quote": "It also lets you build automations to pull custom info from those meetings and update other apps that you use like your CRM, your issue tracker, your Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            364.89,
+            373.376
+          ],
+          "quote": "We're also in the middle of moving all of these processes that currently live in my open claw to actual Slack channels at the company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            373.876,
+            380.34
+          ],
+          "quote": "So anytime we get a customer email, there's like a new thread on Slack with the investigation and you can kind of do the whole back and forth there.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "telegram",
+      "type": "concept",
+      "role": "concept",
+      "name": "Telegram",
+      "file": "Telegram",
+      "primary": false,
+      "how_described": "本集说 Ali 在 Telegram 上养了一组智能体团队（主力、财务、客户、人力运营），大约 10%-20% 的时间花在这上面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            321.226,
+            325.83
+          ],
+          "quote": "How much of your day do you spend in OpenClaw, Telegram versus coding tools?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            347.05,
+            350.353
+          ],
+          "quote": "Can you share more about the different agents that you created in Telegram?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ats",
+      "type": "concept",
+      "role": "concept",
+      "name": "ATS",
+      "file": "ATS",
+      "primary": false,
+      "how_described": "本集说 Ali 把 Circleback 当作自己的 ATS 来用：筛选来自面试、未完成的行动项，并查看候选人与团队接触的完整时间线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            176.114,
+            179.477
+          ],
+          "quote": "Yeah, so I kind of use it as my ATS.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集说当智能体能端到端写代码后，瓶颈变成代码审查：他们按 PR 类型派出不同审查智能体，查代码质量、架构、产品甚至文案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            549.85,
+            575.722
+          ],
+          "quote": "And then the bottleneck then becomes code review which we've also done a lot to kind of spawn different types of agents depending on what the PR is and making sure that everything not just from like a code quality standpoint but also architecture and like product and even like the copy of what we're putting in goes through that AI review that makes sure everything is consistent with how we usually do things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "topre",
+      "type": "concept",
+      "role": "concept",
+      "name": "Topre",
+      "file": "Topre",
+      "primary": false,
+      "how_described": "本集说 Ali 的键盘是 Topre（Tokyo Precision 缩写）薄膜键盘，非机械，难买、说明书是日文，手感好、不吵、触发靠前。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            66.92,
+            70.222
+          ],
+          "quote": "This style of keyboard is called Topre, which I think is...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "zed",
+      "type": "concept",
+      "role": "concept",
+      "name": "Zed",
+      "file": "Zed",
+      "primary": false,
+      "how_described": "本集说 Ali 现在很少待在编辑器里，只把轻量的 Zed 用于快速看 diff 和做小改动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            703.728,
+            711.28
+          ],
+          "quote": "Like I use a very lightweight, I use Zed right now as my editor, just to go in and like review diffs really quickly or make small changes.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

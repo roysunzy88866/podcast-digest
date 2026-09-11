@@ -39,7 +39,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Boom]] · [[XB-1]] · [[马赫切断]] · [[Overture]] · [[MakeBoom]] · [[Blade Runner]] · [[superpower]] · [[超音速飞行]] · [[第一性原理]] · [[Amazon]]
+[[Boom]] · [[XB-1]] · [[马赫切断]] · [[Overture]] · [[MakeBoom]] · [[Blade Runner]] · [[superpower]] · [[超音速飞行]] · [[第一性原理]] · [[Y Combinator]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Boom":1,"XB-1":1,"马赫切断":1,"Overture":1,"MakeBoom":1,"Blade Runner":1,"superpower":1,"超音速飞行":1,"第一性原理":4,"Amazon":11}</script>
+<script type="application/json" class="pd-epn">{"Boom":1,"XB-1":1,"马赫切断":1,"Overture":1,"MakeBoom":1,"Blade Runner":1,"superpower":1,"超音速飞行":1,"第一性原理":4,"Y Combinator":3}</script>
 
 <script>
 (function(){

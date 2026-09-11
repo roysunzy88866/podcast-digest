@@ -39,7 +39,7 @@ unlisted: true
 
 [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[推理]] · [[智能体]] · [[开源模型]] · [[Cisco]] · [[微调]] · [[Julian]]
 
-<script type="application/json" class="pd-epn">{"Cursor":54,"OpenAI":102,"Anthropic":114,"推理":5,"智能体":1,"开源模型":5,"Cisco":3,"微调":1,"Julian":1}</script>
+<script type="application/json" class="pd-epn">{"Cursor":54,"OpenAI":102,"Anthropic":114,"推理":5,"智能体":1,"开源模型":6,"Cisco":3,"微调":1,"Julian":1}</script>
 
 <script>
 (function(){

@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":32,"OpenAI":102,"Anthropic":114,"Microsoft":24,"Palantir":14,"开源模型":5,"封闭模型":2,"沙箱":39,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":33,"OpenAI":102,"Anthropic":114,"Microsoft":24,"Palantir":14,"开源模型":6,"封闭模型":2,"沙箱":39,"智能体":1}</script>
 
 <script>
 (function(){

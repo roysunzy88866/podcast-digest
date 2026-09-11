@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Harry Stebbings]] · [[Jerry Murdock]] · [[Fireworks]] · [[前沿模型]] · [[开源模型]] · [[沙箱]] · [[智能体]] · [[推理]] · [[GPU]] · [[持续学习模型]]
+[[Harry Stebbings]] · [[Jerry Murdock]] · [[Fireworks]] · [[前沿模型]] · [[开源模型]] · [[沙箱]] · [[智能体]] · [[推理]] · [[Docker]] · [[GPU]]
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Jerry Murdock":1,"Fireworks":4,"前沿模型":8,"开源模型":5,"沙箱":39,"智能体":1,"推理":5,"GPU":15,"持续学习模型":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Jerry Murdock":1,"Fireworks":4,"前沿模型":8,"开源模型":6,"沙箱":39,"智能体":1,"推理":5,"Docker":3,"GPU":16}</script>
 
 <script>
 (function(){

@@ -73,7 +73,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Lenny]] · [[LLM]] · [[Claude Code]] · [[Microsoft]] · [[NVIDIA]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":102,"Anthropic":114,"Cursor":54,"Lenny":67,"LLM":29,"Claude Code":51,"Microsoft":24,"NVIDIA":32,"Salesforce":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":102,"Anthropic":114,"Cursor":54,"Lenny":67,"LLM":29,"Claude Code":52,"Microsoft":24,"NVIDIA":33,"Salesforce":17}</script>
 
 <script>
 (function(){

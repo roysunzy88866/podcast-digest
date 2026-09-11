@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>51</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>52</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -44,6 +44,7 @@ unlisted: true
 - **[[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]]**(12:27起):本集把它说成:直接在终端里写代码的 AI 智能体，它的爆火让原本远离终端的设计师也学起了 GitHub，催生了设计工具向桌面端的进化。
 - **[[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]]**(03:33起):本集说它是一个系统,涉及如何配置工作流(如使用 ClaudeMD 文件设定分层规则),并且可以被配置在持续集成流水线中运行。
 - **[[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]]**(09:35起):本集把它说成:Anthropic 的编码智能体,在其代码库基准测试中质量虽好但较慢且明显更贵;团队上个月跑了 3300 次该会话,折合 1 万美元 token 价值。
+- **[[2026-08-11-talks-circleback-ceo-ali-haghani-why-your-comp|《Circleback 创始人 Ali：把公司记忆和运营流程全部交给智能体》]]**(08:28起):本集说 Ali 在圣诞节前后从自己写大量代码转向使用 Claude Code，之后进一步演进到编排型智能体调度器。
 - **[[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]]**(03:48起):本集把它说成：一个使用 bash 和 grep 等终端工具的激动人心的智能体产品,被封装进 Agent SDK 中作为内置循环。
 - **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]]**(09:32起):本集说日常软件开发大概是 Cursor 和 Claude Code 各占一半，一个月后很多手写的循环工程会变成 Claude Code 里挽具的一部分
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(57:00起):本集说 Matt 用 Claude Code 在电脑上搭建营销操作系统，接入邮箱定时检查简报请求、自动询价谈判、写文案发邮件
@@ -79,7 +80,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*51 集*
+*52 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
@@ -115,6 +116,7 @@ unlisted: true
 - [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]] — 作为被讨论公司
 - [[2026-08-08-talks-anthropic-s-cca-exam-as-a-field-guide-fo|《别迷信大上下文：拆解 Claude 认证架构师考试的反模式》]] — 作为概念
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]] — 作为被讨论公司
+- [[2026-08-11-talks-circleback-ceo-ali-haghani-why-your-comp|《Circleback 创始人 Ali：把公司记忆和运营流程全部交给智能体》]] — 作为概念
 - [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]] — 作为概念(提及)
 - [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]] — 作为被讨论公司(提及)
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司(提及)
@@ -137,9 +139,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[Lenny]] · [[Cursor]] · [[沙箱]] · [[Claude]] · [[harness]] · [[评估]]
+[[智能体]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[Lenny]] · [[Cursor]] · [[沙箱]] · [[Claude]] · [[评估]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":114,"Codex":44,"OpenAI":102,"Lenny":67,"Cursor":54,"沙箱":39,"Claude":52,"harness":26,"评估":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":114,"Codex":44,"OpenAI":102,"Lenny":67,"Cursor":54,"沙箱":39,"Claude":52,"评估":24,"Slack":24}</script>
 
 <script>
 (function(){

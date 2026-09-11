@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Block":3,"Goose":2,"Zed":2,"JetBrains":2,"ACP（智能体客户端协议）":1,"MCP":33,"harness":26,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Block":3,"Goose":2,"Zed":3,"JetBrains":2,"ACP（智能体客户端协议）":1,"MCP":33,"harness":26,"智能体":1}</script>
 
 <script>
 (function(){
