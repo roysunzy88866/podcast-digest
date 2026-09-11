@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Harry Stebbings]] · [[Madhavan Ramanujam]] · [[Bret Taylor]] · [[Sarah Wang]] · [[Julien Bek]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":52,"OpenAI":100,"Anthropic":112,"Lenny":67,"Harry Stebbings":15,"Madhavan Ramanujam":1,"Bret Taylor":1,"Sarah Wang":2,"Julien Bek":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":54,"OpenAI":102,"Anthropic":114,"Lenny":67,"Harry Stebbings":15,"Madhavan Ramanujam":1,"Bret Taylor":1,"Sarah Wang":2,"Julien Bek":1}</script>
 
 <script>
 (function(){

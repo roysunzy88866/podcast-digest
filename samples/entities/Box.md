@@ -43,7 +43,7 @@ unlisted: true
 
 [[Lenny]] · [[护栏]] · [[Jeetu Patel]] · [[Jessica Fain]] · [[Aaron Levie]] · [[Cisco]] · [[Webflow]] · [[Sofia Puccini]] · [[NVIDIA]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"护栏":2,"Jeetu Patel":1,"Jessica Fain":1,"Aaron Levie":1,"Cisco":3,"Webflow":2,"Sofia Puccini":4,"NVIDIA":31,"Slack":23}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"护栏":2,"Jeetu Patel":1,"Jessica Fain":1,"Aaron Levie":1,"Cisco":3,"Webflow":2,"Sofia Puccini":4,"NVIDIA":32,"Slack":23}</script>
 
 <script>
 (function(){

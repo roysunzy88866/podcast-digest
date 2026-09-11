@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":31,"深度学习":3,"智能体":1,"沙箱":37,"Condi Rice":1,"harness":23,"Jerry":1,"AMD":2,"前沿模型":8,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":32,"深度学习":3,"智能体":1,"沙箱":39,"Condi Rice":1,"harness":26,"Jerry":1,"AMD":2,"前沿模型":8,"Sega":1}</script>
 
 <script>
 (function(){

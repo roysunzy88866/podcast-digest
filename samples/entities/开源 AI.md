@@ -7,15 +7,16 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>开源 AI (open source AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="开源 AI">开源</div><div class="pi"><h1 class="pt">开源 AI (open source AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>262</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="开源 AI">开源</div><div class="pi"><h1 class="pt">开源 AI (open source AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>267</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]]**(118:35起):本集将开源 AI 与 Netscape 时代的 Firefox/Apache 类比，指出开源权重模型让任何人免费使用 AI，不需要付费给 Anthropic 或 OpenAI，是防止 AI 价值集中在少数公司的关键
+- **[[2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2|《Saronic：用无人船重建美国造船业》]]**(58:10起):Vib 收尾说他非常兴奋于开源 AI 这波浪潮，认为它会让工具和资源平民化，正如互联网建立在少数几个开源代码库之上。
 
 ## ① 提到它的金句
 
-*262 条*
+*267 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -483,6 +484,8 @@ unlisted: true
 
 ![[2026-09-03-practicalai-less-about-models-more-about-architectur#^q7]]
 
+![[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver#^q4]]
+
 ![[2026-09-04-pg-how-to-build-product-loops-in-claude-cod#^q3]]
 
 ![[2026-09-04-pg-how-to-build-product-loops-in-claude-cod#^q4]]
@@ -539,21 +542,30 @@ unlisted: true
 
 ![[2026-09-08-lennys-how-we-built-grok-bot-in-a-month#^q9]]
 
+![[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f#^q2]]
+
+![[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why#^q1]]
+
+![[2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f#^q3]]
+
 ![[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th#^q4]]
+
+![[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y#^q1]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]] — 作为概念
+- [[2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2|《Saronic：用无人船重建美国造船业》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[开放权重模型]] · [[智能体]] · [[表观遗传重编程]] · [[AI]] · [[主观能动性]] · [[财富税]] · [[PCAST]] · [[Anthropic]] · [[OpenAI]] · [[Palantir]]
+[[Palantir]] · [[开放权重模型]] · [[Saronic]] · [[智能体]] · [[Port Alpha]] · [[表观遗传重编程]] · [[造船差距]] · [[AI]] · [[自主性]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"开放权重模型":9,"智能体":1,"表观遗传重编程":1,"AI":15,"主观能动性":17,"财富税":1,"PCAST":1,"Anthropic":112,"OpenAI":100,"Palantir":12}</script>
+<script type="application/json" class="pd-epn">{"Palantir":14,"开放权重模型":9,"Saronic":1,"智能体":1,"Port Alpha":1,"表观遗传重编程":2,"造船差距":1,"AI":16,"自主性":7,"主观能动性":17}</script>
 
 <script>
 (function(){

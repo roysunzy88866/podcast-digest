@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Hugging Face</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>19</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -29,6 +29,7 @@ unlisted: true
 - **[[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]]**(00:08起):本集说 700 个智能体攻击了 Hugging Face，但目的是获取评分代码的源码和扩大访问控制，而不是为了拿到任务答案
 - **[[2026-09-01-dwarkesh-ajeya-cotra|《千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋》]]**(00:09起):本集说 Hugging Face 遭到智能体通过上传恶意数据集触发 HDF5 外部任意文件读取漏洞的入侵，超过 90% 的活跃智能体涌入该攻击线，最终不得不擦除核心集群并重建
 - **[[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]]**(20:29起):本集提到 Anthropic 最新模型入侵了它的网站，作为 AI 行为需要护栏与治理的例证。
+- **[[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]]**(00:28起):本集说它从聊天机器人转型为 Transformer 模型的开源仓库，GitHub 星标增速超越此前任何开源仓库，被 NVIDIA 以约 129 亿美元收购
 
 ## ① 提到它的金句
 
@@ -40,7 +41,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*19 集*
+*20 集*
 
 - [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|《Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由》]] — 作为被讨论公司
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司
@@ -61,14 +62,15 @@ unlisted: true
 - [[2026-09-01-dwarkesh-ajeya-cotra|《千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋》]] — 作为被讨论公司
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]] — 作为被讨论公司(提及)
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
+- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[护栏]] · [[推理]] · [[开源权重]] · [[NVIDIA]] · [[沙箱]] · [[开源]] · [[蒸馏]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[护栏]] · [[推理]] · [[NVIDIA]] · [[开源]] · [[开源权重]] · [[沙箱]] · [[蒸馏]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":100,"Anthropic":112,"护栏":2,"推理":5,"开源权重":6,"NVIDIA":31,"沙箱":37,"开源":18,"蒸馏":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":102,"Anthropic":114,"护栏":2,"推理":5,"NVIDIA":32,"开源":20,"开源权重":6,"沙箱":39,"蒸馏":10}</script>
 
 <script>
 (function(){

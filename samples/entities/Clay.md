@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Clay</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Clay">CL</div><div class="pi"><h1 class="pt">Clay</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Clay">CL</div><div class="pi"><h1 class="pt">Clay</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(50:00起):本集提到 Clay 的 CEO Kareem 是 Brian 认识的唯一一个强调工作生活平衡的 CEO，算是异类。
+- **[[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]]**(01:35起):本集把它说成：一家做 go-to-market 数据产品的公司，本身正在从 web UI 转变为一个智能体界面，让所有能力对内外部智能体可用。
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(52:03起):本集说它以 70 亿美元估值融资；Harry 因自己的智能体坚持只肯用 Clay 而从怀疑者变成皈依者——「跟智能体争论不值得」，看多逻辑是智能体化的 GTM 使用量会爆炸式增长。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
+- [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]] — 作为被讨论公司
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Salesforce]] · [[智能体]] · [[Brian Halligan]] · [[Harry Stebbings]] · [[Lenny]] · [[NVIDIA]] · [[HubSpot]] · [[Hugging Face]] · [[Sequoia]] · [[OpenAI]]
+[[智能体]] · [[Salesforce]] · [[Brian Halligan]] · [[Vishu]] · [[Harry Stebbings]] · [[Lenny]] · [[Claygent]] · [[NVIDIA]] · [[HubSpot]] · [[Sculptor]]
 
-<script type="application/json" class="pd-epn">{"Salesforce":17,"智能体":1,"Brian Halligan":1,"Harry Stebbings":15,"Lenny":67,"NVIDIA":31,"HubSpot":5,"Hugging Face":19,"Sequoia":4,"OpenAI":100}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Salesforce":17,"Brian Halligan":1,"Vishu":1,"Harry Stebbings":15,"Lenny":67,"Claygent":1,"NVIDIA":32,"HubSpot":5,"Sculptor":1}</script>
 
 <script>
 (function(){

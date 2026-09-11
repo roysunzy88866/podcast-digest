@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>trace</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="trace">TR</div><div class="pi"><h1 class="pt">trace</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="trace">TR</div><div class="pi"><h1 class="pt">trace</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]]**(13:57起):本集说 trace 是事件序列日志的工程术语，包含系统提示词、工具调用、用户对话等完整交互记录，是错误分析的基本数据单元。
+- **[[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]]**(01:41起):本集把它说成：智能体运行记录，量大到不可能人工全看；生产 traces 被引擎批量分析加人工翻看，并要反哺离线 eval。
 
 ## ① 提到它的金句
 
@@ -23,17 +24,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]] — 作为概念
+- [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Hamel Husain]] · [[Shreya Shankar]] · [[评估]] · [[错误分析]] · [[开放式编码]] · [[轴向编码]] · [[LLM 判别器]] · [[智能体]] · [[Anthropic]]
+[[评估]] · [[LLM 判别器]] · [[智能体]] · [[Lenny]] · [[Vishu]] · [[Hamel Husain]] · [[Clay]] · [[Shreya Shankar]] · [[Claygent]] · [[错误分析]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Hamel Husain":1,"Shreya Shankar":1,"评估":22,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":2,"智能体":1,"Anthropic":112}</script>
+<script type="application/json" class="pd-epn">{"评估":23,"LLM 判别器":3,"智能体":1,"Lenny":67,"Vishu":1,"Hamel Husain":1,"Clay":3,"Shreya Shankar":1,"Claygent":1,"错误分析":1}</script>
 
 <script>
 (function(){

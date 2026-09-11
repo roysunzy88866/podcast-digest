@@ -42,11 +42,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"沙箱":37,"智能体":1,"推理":5,"Modal":5,"Cognition":15,"Anthropic":112,"Louis Knight-Webb":1,"Akshat Bubna":1,"AI Engineers":1,"Vibhu":1}</script>
+<script type="application/json" class="pd-epn">{"沙箱":39,"智能体":1,"推理":5,"Modal":6,"Cognition":16,"Anthropic":114,"Louis Knight-Webb":1,"Akshat Bubna":1,"AI Engineers":1,"Vibhu":1}</script>
 
 <script>
 (function(){

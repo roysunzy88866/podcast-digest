@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Spark</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Spark">SP</div><div class="pi"><h1 class="pt">Spark</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Spark">SP</div><div class="pi"><h1 class="pt">Spark</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]]**(00:19起):嘉宾过往主导的知名分布式计算框架，强调库的可组合性与生态开放。Databricks 此次开源智能体底座 Omnigen 正是沿袭了当年 Spark 开源带动网络效应、众人贡献连接器的哲学。
+- **[[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]]**(03:22起):本集说 Spark 是 Databricks 早期的开源产品、伯克利创始人发明的海量数据处理引擎，有几百万免费用户，是公司开源变现起点——CIO 们曾带几百人来见 Spark 的发明者。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为概念
+- [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Snowflake]] · [[MosaicML]] · [[Neon]] · [[Omnigen]] · [[LTAP]] · [[HTAP]] · [[Dream Engine]]
+[[Databricks]] · [[智能体]] · [[数据科学智能体]] · [[Matei Zaharia]] · [[Ron Gabrisko]] · [[Reynold Xin]] · [[a16z]] · [[Snowflake]] · [[Cursor]] · [[MosaicML]]
 
-<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Reynold Xin":1,"Databricks":10,"Snowflake":6,"MosaicML":1,"Neon":2,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1}</script>
+<script type="application/json" class="pd-epn">{"Databricks":11,"智能体":1,"数据科学智能体":3,"Matei Zaharia":1,"Ron Gabrisko":1,"Reynold Xin":1,"a16z":12,"Snowflake":7,"Cursor":54,"MosaicML":1}</script>
 
 <script>
 (function(){

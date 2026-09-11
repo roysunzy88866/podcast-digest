@@ -165,8 +165,8 @@ Daniel 自己则更偏爱那种由高信念创始人领导的公司。在节目�
 **换个口味**
 
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:工具框架 (harness)、智能体 (agent)、评估 (eval)</span>
+- [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|Clay 的智能体矩阵：如何为数十亿次运行建评估]]<span class="pd-rz">同概念:工具框架 (harness)、智能体 (agent)、评估 (eval)</span>
 - [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|Factory CEO Matan:早两年等于错，退款、路由器与软件工厂]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:工具框架 (harness)、智能体 (agent)</span>
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Claude Code · 同概念:工具框架 (harness)、智能体 (agent)</span>
 
 </div>
 </div>

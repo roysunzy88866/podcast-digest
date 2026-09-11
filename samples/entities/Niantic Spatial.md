@@ -25,7 +25,7 @@ unlisted: true
 
 [[Brian McClendon]] · [[Google Earth]] · [[Google Maps]] · [[NVIDIA]] · [[四维世界模型]] · [[视觉定位]] · [[Gaussian Splats]] · [[仿真到真实]] · [[数字分身]] · [[自检机制]]
 
-<script type="application/json" class="pd-epn">{"Brian McClendon":1,"Google Earth":1,"Google Maps":2,"NVIDIA":31,"四维世界模型":1,"视觉定位":1,"Gaussian Splats":2,"仿真到真实":1,"数字分身":3,"自检机制":1}</script>
+<script type="application/json" class="pd-epn">{"Brian McClendon":1,"Google Earth":1,"Google Maps":2,"NVIDIA":32,"四维世界模型":1,"视觉定位":1,"Gaussian Splats":2,"仿真到真实":1,"数字分身":3,"自检机制":1}</script>
 
 <script>
 (function(){

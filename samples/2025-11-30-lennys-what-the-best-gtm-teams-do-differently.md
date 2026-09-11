@@ -106,7 +106,7 @@ Jeanne 认为，最厉害的销售组织绝对不只是完成指标，它们还�
 
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Vercel · 同概念:go-to-market、智能体 (agent)</span>
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Stripe · 同概念:PLG</span>
-- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同嘉宾:Lenny · 同概念:智能体 (agent)</span>
+- [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战]]<span class="pd-rz">同概念:go-to-market、智能体 (agent)、PLG</span>
 
 </div>
 <div class="pd-ex">

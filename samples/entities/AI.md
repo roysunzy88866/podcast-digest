@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>15</b> 集 · <b>262</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>16</b> 集 · <b>267</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -25,11 +25,12 @@ unlisted: true
 - **[[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]]**(00:36起):本集称其为'我们这个时代最重要的主题'，既讨论了它对就业的影响（企业拿到 AI 杠杆后会做更多新产品、雇更多人），也讨论了它在生命科学药物发现中将成功率从 1% 提升到 75%
 - **[[2026-09-02-a16z-inside-modernas-personalized-cancer-vacc|《20年、上千项试验失败后:第一支真正起效的癌症疫苗》]]**(17:56起):本集说要用 AI 挖掘三期全部血液样本和测序数据，弄清那 20% 无应答患者为什么没应答，再改进十年未变的算法
 - **[[2026-09-02-beyondcoding-why-robots-need-a-different-map-google-e|《Google Earth 之父的下一站：给真实世界建一个 4D 模型》]]**(01:29起):本集贯穿的主线:AI 擅长可自检的问题但解读视觉信息很糟糕;各代模型在某些类别上上下跳动而非逼近完美,不要为用 AI 而用 AI,也不要盲目开三个模型互相打。
+- **[[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver|《Sea 创始人 Forrest:从网吧预付卡到 100 亿美元放贷》]]**(27:44起):本集谈了三个真实落地场景:超过 80% 客户咨询 100% 由 AI 处理且满意度超人工、游戏美术外包几乎全由 AI 完成、游戏中聪明的机器人陪新玩家玩
 - **[[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|《为什么医疗是 AI 受益最大的行业: Julie Yu 的判断》]]**(00:06起):本集主线论点：医疗保健将是从 AI 中受益最多的行业——它没有旧软件的沉没成本，可以直接跳到 AI 原生工作流，并迎来第一波真正的有机采用浪潮。
 
 ## ① 提到它的金句
 
-*262 条*
+*267 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -497,6 +498,8 @@ unlisted: true
 
 ![[2026-09-03-practicalai-less-about-models-more-about-architectur#^q7]]
 
+![[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver#^q4]]
+
 ![[2026-09-04-pg-how-to-build-product-loops-in-claude-cod#^q3]]
 
 ![[2026-09-04-pg-how-to-build-product-loops-in-claude-cod#^q4]]
@@ -553,11 +556,19 @@ unlisted: true
 
 ![[2026-09-08-lennys-how-we-built-grok-bot-in-a-month#^q9]]
 
+![[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f#^q2]]
+
+![[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why#^q1]]
+
+![[2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f#^q3]]
+
 ![[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th#^q4]]
+
+![[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y#^q1]]
 
 ## ② 出现在这些集
 
-*15 集*
+*16 集*
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为概念
 - [[2025-11-02-lennys-the-making-of-canva|《Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来》]] — 作为概念
@@ -573,6 +584,7 @@ unlisted: true
 - [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]] — 作为概念
 - [[2026-09-02-a16z-inside-modernas-personalized-cancer-vacc|《20年、上千项试验失败后:第一支真正起效的癌症疫苗》]] — 作为概念(提及)
 - [[2026-09-02-beyondcoding-why-robots-need-a-different-map-google-e|《Google Earth 之父的下一站：给真实世界建一个 4D 模型》]] — 作为概念
+- [[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver|《Sea 创始人 Forrest:从网吧预付卡到 100 亿美元放贷》]] — 作为概念
 - [[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|《为什么医疗是 AI 受益最大的行业: Julie Yu 的判断》]] — 作为概念
 
 ## ③ 关联
@@ -581,7 +593,7 @@ unlisted: true
 
 [[Lenny]] · [[Claude]] · [[Stripe]] · [[a16z]] · [[智能体]] · [[Google]] · [[MCP]] · [[LLM]] · [[Anthropic]] · [[Databricks]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Claude":50,"Stripe":28,"a16z":11,"智能体":1,"Google":38,"MCP":29,"LLM":29,"Anthropic":112,"Databricks":10}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Claude":52,"Stripe":29,"a16z":12,"智能体":1,"Google":38,"MCP":33,"LLM":29,"Anthropic":114,"Databricks":11}</script>
 
 <script>
 (function(){

@@ -113,7 +113,7 @@ Managed Agents 解决这个问题的方法是:把每一次交互(用户消息、
 
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic · 同概念:做梦 (dreaming)、安全带/harness (harness)、智能体 (agent)、沙箱 (sandbox)、Claude Code、可观测性 (observability)</span>
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Managed Agents、上下文工程 (context engineering)、安全带/harness (harness)、智能体 (agent)、Messages API</span>
-- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)、Claude Code</span>
+- [[2026-09-07-talks-why-the-harness-matters-more-than-the-mo|别小看 harness：智能体的「脚手架」正在决定成绩]]<span class="pd-rz">同概念:上下文工程 (context engineering)、安全带/harness (harness)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

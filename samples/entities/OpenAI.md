@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>100</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>102</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -110,6 +110,8 @@ unlisted: true
 - **[[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|《初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论》]]**(01:13起):本集顺带提到 OpenAI 与 Grok 反而在放开随意使用，与 Anthropic 收紧订阅形成对照。
 - **[[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]]**(07:36起):本集提及它是 Cursor 面对的史上增长最快竞争对手之一，其 Codex 产品走的是与 Grok Bot 相反的路线。
 - **[[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]]**(00:19起):嘉宾 2024 年加入的公司,Codex 所在;内部 Codex 默认接入一切,安全检查是全 OpenAI 所有 PR 的强制项。
+- **[[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]]**(10:36起):本集提到可选添加 OpenAI 的 API 密钥,让社交评论网络工具自动标注团队划分
+- **[[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]]**(06:21起):本集说 OpenAI 用美国芯片训练前沿模型、自研芯片组（Jalapeno）、并已开始不再通过 API 开放前沿模型
 - **[[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]]**(04:14起):本集多次提到：最新模型发布配合 Computer-Use 效果惊人；并被讨论是否可能既知道你的一切、又运营市场、每笔交易抽成，构成信任陷阱。
 
 ## ① 提到它的金句
@@ -152,7 +154,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*100 集*
+*102 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -253,15 +255,17 @@ unlisted: true
 - [[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|《初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论》]] — 作为被讨论公司(提及)
 - [[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]] — 作为被讨论公司(提及)
 - [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]] — 作为被讨论公司
+- [[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]] — 作为被讨论公司(提及)
+- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]] — 作为被讨论公司
 - [[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Google]] · [[ChatGPT]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[Lenny]] · [[Codex]] · [[Claude]]
+[[智能体]] · [[Anthropic]] · [[Cursor]] · [[Google]] · [[ChatGPT]] · [[推理]] · [[NVIDIA]] · [[Lenny]] · [[Codex]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":112,"Google":38,"ChatGPT":54,"Cursor":52,"推理":5,"NVIDIA":31,"Lenny":67,"Codex":42,"Claude":50}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":114,"Cursor":54,"Google":38,"ChatGPT":55,"推理":5,"NVIDIA":32,"Lenny":67,"Codex":44,"Claude":52}</script>
 
 <script>
 (function(){

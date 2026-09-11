@@ -7,16 +7,17 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 基础设施 (infrastructure)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 基础设施">AI</div><div class="pi"><h1 class="pt">AI 基础设施 (infrastructure)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>262</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 基础设施">AI</div><div class="pi"><h1 class="pt">AI 基础设施 (infrastructure)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>267</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(25:49起):本集把它说成:人类在能源、公路、铁路和互联网之上,正在铺设的一层全新的「智能层」,这是由工业驱动而非季节性消费拉动的底层重构。
 - **[[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]]**(00:12起):本集说采购、招聘、预算、安全、质量等支持系统就是公司的操作系统,基础设施决定速度,速度决定成败
+- **[[2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p|《LinkedIn 怎么让编码智能体真正读懂内部系统》]]**(19:35起):本集核心经验:在大型企业里,光把最新工具和模型发给工程师不够,必须为智能体构建正确的基础设施让它们在企业环境内运作,否则发挥不了作用
 
 ## ① 提到它的金句
 
-*262 条*
+*267 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -484,6 +485,8 @@ unlisted: true
 
 ![[2026-09-03-practicalai-less-about-models-more-about-architectur#^q7]]
 
+![[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver#^q4]]
+
 ![[2026-09-04-pg-how-to-build-product-loops-in-claude-cod#^q3]]
 
 ![[2026-09-04-pg-how-to-build-product-loops-in-claude-cod#^q4]]
@@ -540,22 +543,31 @@ unlisted: true
 
 ![[2026-09-08-lennys-how-we-built-grok-bot-in-a-month#^q9]]
 
+![[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f#^q2]]
+
+![[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why#^q1]]
+
+![[2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f#^q3]]
+
 ![[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th#^q4]]
+
+![[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y#^q1]]
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为概念
 - [[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]] — 作为概念
+- [[2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p|《LinkedIn 怎么让编码智能体真正读懂内部系统》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[Jensen Wong]] · [[Max Hodak]] · [[Mike Allen]] · [[Science]] · [[NVIDIA]] · [[Neuralink]] · [[OpenAI]] · [[SpaceX]] · [[Microsoft]]
+[[Anthropic]] · [[Jensen Wong]] · [[Max Hodak]] · [[Ajay Prakash]] · [[Mike Allen]] · [[Science]] · [[LinkedIn]] · [[NVIDIA]] · [[Neuralink]] · [[编码智能体]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":112,"Jensen Wong":1,"Max Hodak":1,"Mike Allen":1,"Science":1,"NVIDIA":31,"Neuralink":1,"OpenAI":100,"SpaceX":12,"Microsoft":24}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":114,"Jensen Wong":1,"Max Hodak":1,"Ajay Prakash":1,"Mike Allen":1,"Science":1,"LinkedIn":2,"NVIDIA":32,"Neuralink":1,"编码智能体":3}</script>
 
 <script>
 (function(){

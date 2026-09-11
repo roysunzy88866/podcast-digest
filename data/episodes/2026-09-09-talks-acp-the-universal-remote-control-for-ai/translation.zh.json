@@ -1,0 +1,986 @@
+[
+ {
+  "seg": 0,
+  "start": 12.727,
+  "end": 13.147,
+  "speaker": "Unknown",
+  "en": "Hey, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 15.069,
+  "end": 16.069,
+  "speaker": "Unknown",
+  "en": "My name's Alex Hancock.",
+  "zh": "我叫 Alex Hancock。"
+ },
+ {
+  "seg": 2,
+  "start": 16.43,
+  "end": 18.771,
+  "speaker": "Unknown",
+  "en": "Today I'm going to talk about universal remote control for AI.",
+  "zh": "今天我要讲的是 AI 的通用遥控器。"
+ },
+ {
+  "seg": 3,
+  "start": 19.432,
+  "end": 25.416,
+  "speaker": "Unknown",
+  "en": "And before I start, I just want to say the previous speaker said that MCP client maintainers haven't implemented support for tasks because they're smart.",
+  "zh": "在开始之前，我只想说一下，刚才上一位演讲者说 MCP 客户端的维护者们之所以还没有实现对任务的支持，是因为他们很聪明。"
+ },
+ {
+  "seg": 4,
+  "start": 25.996,
+  "end": 27.357,
+  "speaker": "Unknown",
+  "en": "I'm an MCP client maintainer.",
+  "zh": "我就是一个 MCP 客户端的维护者。"
+ },
+ {
+  "seg": 5,
+  "start": 27.377,
+  "end": 28.298,
+  "speaker": "Unknown",
+  "en": "I can tell you it's just because I'm",
+  "zh": "我可以告诉你们，其实只是因为我"
+ },
+ {
+  "seg": 6,
+  "start": 32.713,
+  "end": 34.875,
+  "speaker": "Unknown",
+  "en": "Okay, so a little bit about me before we start.",
+  "zh": "好的，在开始之前先简单介绍一下我自己。"
+ },
+ {
+  "seg": 7,
+  "start": 35.356,
+  "end": 40.781,
+  "speaker": "Unknown",
+  "en": "I am a software engineer at Block, which is the parent company of Cash App and Square and Tidal.",
+  "zh": "我是 Block 的一名软件工程师，Block 是 Cash App、Square 和 Tidal 的母公司。"
+ },
+ {
+  "seg": 8,
+  "start": 41.001,
+  "end": 42.342,
+  "speaker": "Unknown",
+  "en": "We have a few different things going on now.",
+  "zh": "我们现在同时在做好几件不同的事情。"
+ },
+ {
+  "seg": 9,
+  "start": 43.103,
+  "end": 44.744,
+  "speaker": "Unknown",
+  "en": "And I've worked there for a long time.",
+  "zh": "我在那里工作了很长时间。"
+ },
+ {
+  "seg": 10,
+  "start": 44.764,
+  "end": 49.269,
+  "speaker": "Unknown",
+  "en": "I worked on Square product stuff and Cash App stuff, but I've been doing open source AI for the last couple years.",
+  "zh": "我做过 Square 产品相关的工作和 Cash App 相关的工作，但过去几年我一直在做开源 AI。"
+ },
+ {
+  "seg": 11,
+  "start": 50.049,
+  "end": 56.515,
+  "speaker": "Unknown",
+  "en": "Specifically, I work on this open source harness project called Goose, which started as an internal project at Block.",
+  "zh": "具体来说，我参与维护这个叫 Goose 的开源 harness 项目，它最初是 Block 的一个内部项目。"
+ },
+ {
+  "seg": 12,
+  "start": 57.354,
+  "end": 58.474,
+  "speaker": "Unknown",
+  "en": "Yeah, some goose fans out there.",
+  "zh": "是的，现场还有一些 Goose 的粉丝。"
+ },
+ {
+  "seg": 13,
+  "start": 59.035,
+  "end": 63.076,
+  "speaker": "Unknown",
+  "en": "And then, yeah, we open sourced it and we donated it to the Linux Foundation.",
+  "zh": "后来我们把它开源了，并捐赠给了 Linux 基金会。"
+ },
+ {
+  "seg": 14,
+  "start": 63.456,
+  "end": 67.158,
+  "speaker": "Unknown",
+  "en": "So now the IP is there, but we still, lots of us from blocks still work on it.",
+  "zh": "所以现在知识产权归基金会所有，但 Block 的很多同事仍在参与开发。"
+ },
+ {
+  "seg": 15,
+  "start": 68.078,
+  "end": 71.879,
+  "speaker": "Unknown",
+  "en": "I'm also a maintainer of MCP, the model context protocol.",
+  "zh": "我同时也是 MCP,即模型上下文协议的维护者。"
+ },
+ {
+  "seg": 16,
+  "start": 72.239,
+  "end": 74.3,
+  "speaker": "Unknown",
+  "en": "I work on the Rust SDK for that project.",
+  "zh": "我负责该项目 Rust SDK 的工作。"
+ },
+ {
+  "seg": 17,
+  "start": 74.98,
+  "end": 81.723,
+  "speaker": "Unknown",
+  "en": "And more recently, I've also started some work on ACP, the agent client protocol, which is what I'm gonna talk about today.",
+  "zh": "最近，我也开始参与 ACP,即智能体客户端协议的一些工作，这也是我今天要讲的内容。"
+ },
+ {
+  "seg": 18,
+  "start": 83.217,
+  "end": 93.867,
+  "speaker": "Unknown",
+  "en": "So I think we have an issue with harnesses that I want to try to put to you all today, propose to you all today as a problem and then recommend a solution.",
+  "zh": "所以我认为我们在 harness 方面存在一个问题，今天我想把这个问题呈现给大家，然后推荐一个解决方案。"
+ },
+ {
+  "seg": 19,
+  "start": 94.547,
+  "end": 99.792,
+  "speaker": "Unknown",
+  "en": "So what I've been noticing recently is that we've got lots of great harnesses out there, right?",
+  "zh": "我最近注意到的是，市面上有很多很棒的 harness,对吧？"
+ },
+ {
+  "seg": 20,
+  "start": 99.912,
+  "end": 108.119,
+  "speaker": "Unknown",
+  "en": "There are ones from the labs, there are ones from different companies, there's lots of open standards-based ones, but I noticed that the interface to them",
+  "zh": "有来自各大实验室的，有来自不同公司的，也有很多基于开放标准的，但我注意到它们的接口"
+ },
+ {
+  "seg": 21,
+  "start": 108.86,
+  "end": 110.822,
+  "speaker": "Unknown",
+  "en": "is often custom or bespoke.",
+  "zh": "往往是自定义的或专用的。"
+ },
+ {
+  "seg": 22,
+  "start": 111.162,
+  "end": 118.608,
+  "speaker": "Unknown",
+  "en": "And in the worst case, it's like you might have some harnesses where there's literally only one client application you can use to control that harness, right?",
+  "zh": "最糟糕的情况是，你可能遇到某些 harness, literally 只有一个客户端应用可以用来控制它，对吧？"
+ },
+ {
+  "seg": 23,
+  "start": 119.449,
+  "end": 132.539,
+  "speaker": "Unknown",
+  "en": "And I think this has a couple issues with it, but the analogy that I'll make with the web is it would be like if you had to use one browser or one given protocol to connect to every website, right?",
+  "zh": "我认为这有几个问题，但我要用 web 来打个比方：这就好比你每连接一个网站都得使用某一个特定的浏览器或某一个特定的协议，对吧？"
+ },
+ {
+  "seg": 24,
+  "start": 132.559,
+  "end": 133.28,
+  "speaker": "Unknown",
+  "en": "That just wouldn't work.",
+  "zh": "那是行不通的。"
+ },
+ {
+  "seg": 25,
+  "start": 133.3,
+  "end": 137.022,
+  "speaker": "Unknown",
+  "en": "You wouldn't have something like the open web if that were the reality.",
+  "zh": "如果现实是这样，就不会有开放 web 这样的东西。"
+ },
+ {
+  "seg": 26,
+  "start": 137.783,
+  "end": 139.424,
+  "speaker": "Unknown",
+  "en": "With browsers, and so I think we can do better.",
+  "zh": "浏览器也一样，所以我认为我们可以做得更好。"
+ },
+ {
+  "seg": 27,
+  "start": 140.844,
+  "end": 146.907,
+  "speaker": "Unknown",
+  "en": "And the thing about standards, by finding a standard, and the thing about standards is that they create ecosystems and markets.",
+  "zh": "关于标准，找到标准，标准的意义在于它们能创造出生态系统和市场。"
+ },
+ {
+  "seg": 28,
+  "start": 147.927,
+  "end": 156.351,
+  "speaker": "Unknown",
+  "en": "And I would argue that in the agentic AI space, we have a good standard for the agent going out and doing things, right?",
+  "zh": "我想说的是，在 agentic AI 领域，对于智能体走出去执行操作这件事，我们已经有一个好的标准了，对吧？"
+ },
+ {
+  "seg": 29,
+  "start": 156.431,
+  "end": 160.392,
+  "speaker": "Unknown",
+  "en": "Calling tools, taking actions in other systems, reading resources, reading data.",
+  "zh": "调用工具、在其他系统中执行操作、读取资源、读取数据。"
+ },
+ {
+  "seg": 30,
+  "start": 160.852,
+  "end": 164.094,
+  "speaker": "Unknown",
+  "en": "We've all benefited as a community from having MCP.",
+  "zh": "我们整个社区都因为有了 MCP 而受益。"
+ },
+ {
+  "seg": 31,
+  "start": 165.054,
+  "end": 171.876,
+  "speaker": "Unknown",
+  "en": "And the most powerful thing about MCP is not anything about MCP itself, but it's that everyone uses MCP.",
+  "zh": "而 MCP 最强大的地方不在于 MCP 本身的任何特性，而在于所有人都在使用 MCP。"
+ },
+ {
+  "seg": 32,
+  "start": 172.637,
+  "end": 181.119,
+  "speaker": "Unknown",
+  "en": "And that's why we have thousands or tens of thousands of servers around the world, and all the agents can connect to them and go and do things in those other systems.",
+  "zh": "正因如此，全世界才有成千上万乃至上万个 server,所有智能体都能连接到它们，并在那些其他系统中执行操作。"
+ },
+ {
+  "seg": 33,
+  "start": 182.52,
+  "end": 190.903,
+  "speaker": "Unknown",
+  "en": "I would say that we don't yet have a good solution or a standard for client software to tell agents what to do.",
+  "zh": "我想说的是，对于客户端软件如何告诉智能体该做什么，我们还没有一个好的解决方案或标准。"
+ },
+ {
+  "seg": 34,
+  "start": 192.082,
+  "end": 194.862,
+  "speaker": "Unknown",
+  "en": "Giving it tasks, telling it what to work on, and getting updates.",
+  "zh": "给它分配任务、告诉它该处理什么工作，并获取进展更新。"
+ },
+ {
+  "seg": 35,
+  "start": 195.948,
+  "end": 206.636,
+  "speaker": "Unknown",
+  "en": "And so I'm gonna put forward an option today that I think is a good option that we on our team have been working on and we think is a good solution in the open standards space.",
+  "zh": "所以今天我要提出一个方案，我认为这是个好方案，我们团队一直在做这方面的工作，我们认为在开放标准领域它是一个好的解决方案。"
+ },
+ {
+  "seg": 36,
+  "start": 207.737,
+  "end": 213.942,
+  "speaker": "Unknown",
+  "en": "And this is ACP, so Agent Client Protocol is the name of this project and it came from the editor companies.",
+  "zh": "这就是 ACP,Agent Client Protocol 是这个项目的名字，它来自编辑器公司。"
+ },
+ {
+  "seg": 37,
+  "start": 214.222,
+  "end": 222.569,
+  "speaker": "Unknown",
+  "en": "It came from like if you've used the Zed text editor or you've used any of JetBrains products, the Zed folks and the JetBrains folks teamed up",
+  "zh": "它来自——如果你用过 Zed 文本编辑器，或者用过 JetBrains 的任何产品，Zed 的人和 JetBrains 的人组队"
+ },
+ {
+  "seg": 38,
+  "start": 223.309,
+  "end": 227.652,
+  "speaker": "Unknown",
+  "en": "And proposed a standard for clients to be able to control harnesses.",
+  "zh": "提出了一个让客户端能够控制 harness 的标准。"
+ },
+ {
+  "seg": 39,
+  "start": 227.692,
+  "end": 229.833,
+  "speaker": "Unknown",
+  "en": "And it makes sense if you put yourself in their shoes, right?",
+  "zh": "如果你站在他们的角度想，这是很合理的，对吧？"
+ },
+ {
+  "seg": 40,
+  "start": 229.893,
+  "end": 245.663,
+  "speaker": "Unknown",
+  "en": "What they wanted to be able to do is write a single high-quality client implementation in an editor, maybe in Zed or in IntelliJ or something like that, and be able to control any harness with that single client implementation, sending tasks, getting results back,",
+  "zh": "他们想要做的是在编辑器里，也许是在 Zed 或 IntelliJ 之类的编辑器里，只写一个高质量的客户端实现，然后就能用这一个客户端实现控制任何 harness,发送任务、拿回结果、"
+ },
+ {
+  "seg": 41,
+  "start": 246.583,
+  "end": 248.504,
+  "speaker": "Unknown",
+  "en": "Seeing what files are being edited, et cetera.",
+  "zh": "查看正在编辑哪些文件，等等。"
+ },
+ {
+  "seg": 42,
+  "start": 248.524,
+  "end": 250.705,
+  "speaker": "Unknown",
+  "en": "It makes a ton of sense if you put yourself in their shoes, right?",
+  "zh": "如果你站在他们的角度想，这是非常合理的，对吧？"
+ },
+ {
+  "seg": 43,
+  "start": 251.305,
+  "end": 258.028,
+  "speaker": "Unknown",
+  "en": "But we saw this on the Goose team, and we think that there is a much broader utility than just editors, right?",
+  "zh": "但我们 Goose 团队看到了这个项目，我们认为它的用途远不止编辑器，对吧？"
+ },
+ {
+  "seg": 44,
+  "start": 258.088,
+  "end": 262.53,
+  "speaker": "Unknown",
+  "en": "So it's relatively neutral, and it doesn't have many editor-specific features.",
+  "zh": "所以它是相对中立的，没有太多编辑器特有的功能。"
+ },
+ {
+  "seg": 45,
+  "start": 262.61,
+  "end": 268.092,
+  "speaker": "Unknown",
+  "en": "And so we think that this can be spread to a wider range of client software.",
+  "zh": "因此我们认为它可以推广到更广泛的客户端软件。"
+ },
+ {
+  "seg": 46,
+  "start": 269.042,
+  "end": 285.976,
+  "speaker": "Unknown",
+  "en": "To go into a little bit more depth about ACP's design and what you can do with it, it lets you establish connections between clients and agent harnesses that have a given set of capabilities associated with the connection, and then you can make sessions.",
+  "zh": "再稍微深入讲一下 ACP 的设计以及你能用它做什么：它让你能在客户端和智能体 harness 之间建立连接，连接带有给定的一组能力，然后你就可以创建会话。"
+ },
+ {
+  "seg": 47,
+  "start": 286.597,
+  "end": 293.102,
+  "speaker": "Unknown",
+  "en": "Within sessions, you can send user messages, the things that a user is maybe typing into the app or that the client software wants to send.",
+  "zh": "在会话中，你可以发送用户消息，也就是用户可能正在输入到应用里的内容，或者客户端软件想要发送的内容。"
+ },
+ {
+  "seg": 48,
+  "start": 293.823,
+  "end": 302.17,
+  "speaker": "Unknown",
+  "en": "The agent can then respond to those with text, more images or audio, text, et cetera, or updates about what's going on.",
+  "zh": "智能体然后可以用文本、更多图片或音频、文本等来回应，或者发送关于当前进展的更新。"
+ },
+ {
+  "seg": 49,
+  "start": 302.23,
+  "end": 307.614,
+  "speaker": "Unknown",
+  "en": "So, like, if a tool is called, it can send a tool call notification and explain what tool was called and what the metadata was.",
+  "zh": "比如，当某个工具被调用时，它可以发送一条工具调用通知，说明调用了什么工具以及元数据是什么。"
+ },
+ {
+  "seg": 50,
+  "start": 308.515,
+  "end": 318.343,
+  "speaker": "Unknown",
+  "en": "And it can also send things like permission requests so that if the client software needs to show the user, you know, should I do this tool call, yes or no, it can go over this,",
+  "zh": "它还可以发送诸如权限请求之类的东西，这样如果客户端软件需要向用户展示，你知道的，我该不该执行这个工具调用，是或否，它可以通过这个，"
+ },
+ {
+  "seg": 51,
+  "start": 319.604,
+  "end": 320.165,
+  "speaker": "Unknown",
+  "en": "This protocol.",
+  "zh": "这个协议。"
+ },
+ {
+  "seg": 52,
+  "start": 320.785,
+  "end": 322.666,
+  "speaker": "Unknown",
+  "en": "And it's pretty simple in its design.",
+  "zh": "它的设计相当简单。"
+ },
+ {
+  "seg": 53,
+  "start": 323.607,
+  "end": 325.168,
+  "speaker": "Unknown",
+  "en": "It uses JSON RPC messages.",
+  "zh": "它使用 JSON RPC 消息。"
+ },
+ {
+  "seg": 54,
+  "start": 325.428,
+  "end": 331.313,
+  "speaker": "Unknown",
+  "en": "And the thing we like about it most is that it's extensible as well, so you're not limited to just what's in the vanilla protocol.",
+  "zh": "而我们最喜欢它的一点是它也是可扩展的，所以你不局限于原生协议里已有的那些东西。"
+ },
+ {
+  "seg": 55,
+  "start": 331.813,
+  "end": 333.855,
+  "speaker": "Unknown",
+  "en": "You can add custom methods.",
+  "zh": "你可以添加自定义方法。"
+ },
+ {
+  "seg": 56,
+  "start": 334.035,
+  "end": 338.978,
+  "speaker": "Unknown",
+  "en": "The convention is you put an underscore, and then you start to put your custom methods.",
+  "zh": "惯例是加一个下划线，然后开始写你的自定义方法。"
+ },
+ {
+  "seg": 57,
+  "start": 339.399,
+  "end": 343.422,
+  "speaker": "Unknown",
+  "en": "And the thing I like about this is that if enough harness projects or client projects adopt this,",
+  "zh": "而我喜欢这一点的地方在于，如果有足够多的 harness 项目或客户端项目采用这个，"
+ },
+ {
+  "seg": 58,
+  "start": 344.182,
+  "end": 347.424,
+  "speaker": "Unknown",
+  "en": "We can start to see what we're all doing that's the same, right?",
+  "zh": "我们就能开始看到我们大家在做的哪些是相同的，对吧？"
+ },
+ {
+  "seg": 59,
+  "start": 347.645,
+  "end": 365.438,
+  "speaker": "Unknown",
+  "en": "Like if the Codex team has some custom methods, the Goose team has some custom methods, the Klein team has some custom methods, whoever, we can see what emerges in the ecosystem and what makes sense to get on a standards track and bring into the protocol itself so that this is sort of shaped by usage and shaped by the community.",
+  "zh": "比如 Codex 团队有一些自定义方法，Goose 团队有一些自定义方法，Klein 团队有一些自定义方法，无论谁，我们都能看到生态系统中涌现出什么，以及什么东西值得走上标准化轨道并被纳入协议本身，这样这个东西就是由使用方式塑造的、由社区塑造的。"
+ },
+ {
+  "seg": 60,
+  "start": 367.279,
+  "end": 368.12,
+  "speaker": "Unknown",
+  "en": "I'm gonna do a demo.",
+  "zh": "我要做一个演示。"
+ },
+ {
+  "seg": 61,
+  "start": 369.255,
+  "end": 371.418,
+  "speaker": "Unknown",
+  "en": "of a standard IO version of this.",
+  "zh": "演示这个的一个标准 IO 版本。"
+ },
+ {
+  "seg": 62,
+  "start": 371.438,
+  "end": 376.064,
+  "speaker": "Unknown",
+  "en": "So I'm gonna open Zed and I just have a really simple project here",
+  "zh": "所以我要打开 Zed，我这里有一个非常简单的项目"
+ },
+ {
+  "seg": 63,
+  "start": 377.548,
+  "end": 379.55,
+  "speaker": "Unknown",
+  "en": "Where I'll say, tell me about this project.",
+  "zh": "我会说，告诉我关于这个项目的情况。"
+ },
+ {
+  "seg": 64,
+  "start": 379.65,
+  "end": 382.091,
+  "speaker": "Unknown",
+  "en": "And so this is a single HTML file.",
+  "zh": "这是一个单一的 HTML 文件。"
+ },
+ {
+  "seg": 65,
+  "start": 382.912,
+  "end": 389.797,
+  "speaker": "Unknown",
+  "en": "So you can see I was able to type my query into Zed, and this is, the agent in play here is Goose, so it's using Goose's ACP interface.",
+  "zh": "你可以看到我能够在 Zed 里输入我的查询，这里用到的智能体是 Goose，所以它使用的是 Goose 的 ACP 接口。"
+ },
+ {
+  "seg": 66,
+  "start": 390.598,
+  "end": 400.285,
+  "speaker": "Unknown",
+  "en": "And it's, you can see it's like sending text back, it's sending tool call information back about what it read and what it did, and then it found, you know, that it's a single HTML file and it explained it.",
+  "zh": "而且，你可以看到它像是在往回发送文本，发送工具调用信息，关于它读了什么、做了什么，然后它发现，你知道的，这是一个单一的 HTML 文件，然后它做了解释。"
+ },
+ {
+  "seg": 67,
+  "start": 401.165,
+  "end": 403.767,
+  "speaker": "Unknown",
+  "en": "And I'll do another, I'll do another one.",
+  "zh": "我再做一个，我再做另一个。"
+ },
+ {
+  "seg": 68,
+  "start": 403.847,
+  "end": 406.549,
+  "speaker": "Unknown",
+  "en": "This is one from a company called Poolside AI.",
+  "zh": "这是来自一家叫 Poolside AI 的公司的。"
+ },
+ {
+  "seg": 69,
+  "start": 408.43,
+  "end": 411.552,
+  "speaker": "Unknown",
+  "en": "I'll say, tell me about this project in the same project.",
+  "zh": "在同一个项目里，我会说，告诉我关于这个项目的情况。"
+ },
+ {
+  "seg": 70,
+  "start": 411.752,
+  "end": 421.596,
+  "speaker": "Unknown",
+  "en": "And so this is a terminal-based client getting exactly the same experience from the same agent, one implementation on the harness side, and you can now use any client, right?",
+  "zh": "这是一个基于终端的客户端，从同一个智能体那里获得了完全相同的体验，harness 侧只需一个实现，而现在你可以使用任何客户端，对吧？"
+ },
+ {
+  "seg": 71,
+  "start": 421.696,
+  "end": 423.056,
+  "speaker": "Unknown",
+  "en": "And so you can see it did the same thing.",
+  "zh": "你可以看到它做了同样的事情。"
+ },
+ {
+  "seg": 72,
+  "start": 423.096,
+  "end": 428.538,
+  "speaker": "Unknown",
+  "en": "It showed me some text results back, it showed a tool call, and then it showed it's streaming in a summary.",
+  "zh": "它给我展示了一些文本结果，展示了一个工具调用，然后它展示出正在流式输出一个总结。"
+ },
+ {
+  "seg": 73,
+  "start": 430.659,
+  "end": 434.341,
+  "speaker": "Unknown",
+  "en": "So that's a basic demo showing two clients talking to the same agent,",
+  "zh": "这就是一个基础演示，展示了两个客户端与同一个智能体通信，"
+ },
+ {
+  "seg": 74,
+  "start": 435.588,
+  "end": 437.289,
+  "speaker": "Unknown",
+  "en": "Over standard IO locally in this case.",
+  "zh": "在这个例子里是通过标准 IO 在本地进行。"
+ },
+ {
+  "seg": 75,
+  "start": 438.349,
+  "end": 440.31,
+  "speaker": "Unknown",
+  "en": "But local obviously isn't enough, right?",
+  "zh": "但显然只有本地是不够的，对吧？"
+ },
+ {
+  "seg": 76,
+  "start": 440.39,
+  "end": 443.03,
+  "speaker": "Unknown",
+  "en": "If you want this to take off, you have to be able to do remote as well.",
+  "zh": "如果你想让这个东西流行起来，你必须也能做到远程。"
+ },
+ {
+  "seg": 77,
+  "start": 443.491,
+  "end": 444.771,
+  "speaker": "Unknown",
+  "en": "Agents are going to be running in the cloud.",
+  "zh": "智能体将会在云端运行。"
+ },
+ {
+  "seg": 78,
+  "start": 445.611,
+  "end": 449.112,
+  "speaker": "Unknown",
+  "en": "And so when we came to this project, we saw that it did not have remote support yet.",
+  "zh": "所以当我们接手这个项目时，我们看到它还没有远程支持。"
+ },
+ {
+  "seg": 79,
+  "start": 449.472,
+  "end": 451.753,
+  "speaker": "Unknown",
+  "en": "So we specified an HTTP transport.",
+  "zh": "于是我们指定了一个 HTTP 传输。"
+ },
+ {
+  "seg": 80,
+  "start": 452.313,
+  "end": 454.914,
+  "speaker": "Unknown",
+  "en": "There's an HTTP version and there's a WebSocket upgrade.",
+  "zh": "有一个 HTTP 版本，还有一个 WebSocket 升级。"
+ },
+ {
+  "seg": 81,
+  "start": 455.574,
+  "end": 462.896,
+  "speaker": "Unknown",
+  "en": "And so now the messages are the same, the protocol semantics are the same, but there's a new transport that is just landing now that enables remote.",
+  "zh": "现在消息是一样的，协议语义是一样的，但有一个刚刚落地的新传输层，它启用了远程。"
+ },
+ {
+  "seg": 82,
+  "start": 465.277,
+  "end": 470.659,
+  "speaker": "Unknown",
+  "en": "The way we think about this on the Goose team, the agentic stack, is there's sort of these four important components, right?",
+  "zh": "我们在 Goose 团队是这样看待这个智能体技术栈的：大致有这四个重要的组件，对吧？"
+ },
+ {
+  "seg": 83,
+  "start": 470.679,
+  "end": 476.842,
+  "speaker": "Unknown",
+  "en": "You have the client, which is like the app that the user is using or a headless app running somewhere on a machine.",
+  "zh": "你有客户端，就是用户正在使用的应用，或者在某台机器上运行的无头应用。"
+ },
+ {
+  "seg": 84,
+  "start": 477.362,
+  "end": 480.464,
+  "speaker": "Unknown",
+  "en": "There's the harness, which is the program that implements the tool calling loop.",
+  "zh": "有 harness，它是实现工具调用循环的程序。"
+ },
+ {
+  "seg": 85,
+  "start": 481.544,
+  "end": 484.005,
+  "speaker": "Unknown",
+  "en": "There are the tools themselves, this is often MCP.",
+  "zh": "有工具本身，这通常是 MCP。"
+ },
+ {
+  "seg": 86,
+  "start": 484.565,
+  "end": 486.206,
+  "speaker": "Unknown",
+  "en": "And then there's the model, right?",
+  "zh": "然后还有模型，对吧？"
+ },
+ {
+  "seg": 87,
+  "start": 486.346,
+  "end": 490.448,
+  "speaker": "Unknown",
+  "en": "And if you do a remote transport for the agent client protocol,",
+  "zh": "如果你为智能体客户端协议做一个远程传输，"
+ },
+ {
+  "seg": 88,
+  "start": 491.643,
+  "end": 494.647,
+  "speaker": "Unknown",
+  "en": "And MCP has remote transport for tool calling.",
+  "zh": "而且 MCP 已经有用于工具调用的远程传输。"
+ },
+ {
+  "seg": 89,
+  "start": 495.468,
+  "end": 499.674,
+  "speaker": "Unknown",
+  "en": "And the models have kind of all had remote endpoints like responses APIs for a long time.",
+  "zh": "而模型其实早就都有了远程端点，比如 responses API 已经存在很长时间了。"
+ },
+ {
+  "seg": 90,
+  "start": 500.094,
+  "end": 503.859,
+  "speaker": "Unknown",
+  "en": "Now you have the flexibility to move all of these four components around.",
+  "zh": "现在你有了灵活性，可以随意移动这四个组件。"
+ },
+ {
+  "seg": 91,
+  "start": 504.06,
+  "end": 505.441,
+  "speaker": "Unknown",
+  "en": "They could all be on the same machine.",
+  "zh": "它们可以全都在同一台机器上。"
+ },
+ {
+  "seg": 92,
+  "start": 506.062,
+  "end": 508.185,
+  "speaker": "Unknown",
+  "en": "The harness could be on a different machine than the client.",
+  "zh": "harness 可以和客户端在不同的机器上。"
+ },
+ {
+  "seg": 93,
+  "start": 509.406,
+  "end": 511.327,
+  "speaker": "Unknown",
+  "en": "The model could be the only thing that's remote.",
+  "zh": "模型可以是唯一远程的东西。"
+ },
+ {
+  "seg": 94,
+  "start": 511.387,
+  "end": 513.167,
+  "speaker": "Unknown",
+  "en": "The tools could be the only thing that's remote.",
+  "zh": "工具可以是唯一远程的东西。"
+ },
+ {
+  "seg": 95,
+  "start": 514.508,
+  "end": 522.29,
+  "speaker": "Unknown",
+  "en": "Aligning on standards and making sure that they have good transport stories is what's going to let us move all the pieces of this agentic stack around.",
+  "zh": "在标准上达成一致并确保它们有良好的传输方案，正是让我们能够移动这个智能体技术栈所有部件的关键。"
+ },
+ {
+  "seg": 96,
+  "start": 523.11,
+  "end": 525.391,
+  "speaker": "Unknown",
+  "en": "And I can show a quick demo of this as well.",
+  "zh": "我也可以快速演示一下这个。"
+ },
+ {
+  "seg": 97,
+  "start": 526.617,
+  "end": 528.819,
+  "speaker": "Unknown",
+  "en": "So this is a client.",
+  "zh": "这是一个客户端。"
+ },
+ {
+  "seg": 98,
+  "start": 528.879,
+  "end": 536.344,
+  "speaker": "Unknown",
+  "en": "Just to show how easy it is to create clients for this, I just vibe-coded this last night, and I'll say, write a poem.",
+  "zh": "只是为了展示为这个创建客户端有多容易，我昨晚就是用 vibe coding 做出来的，我会说，写一首诗。"
+ },
+ {
+  "seg": 99,
+  "start": 537.025,
+  "end": 540.187,
+  "speaker": "Unknown",
+  "en": "So this is, again, connecting to that same process on my machine.",
+  "zh": "所以这再次是连接到我机器上的同一个进程。"
+ },
+ {
+  "seg": 100,
+  "start": 541.488,
+  "end": 543.77,
+  "speaker": "Unknown",
+  "en": "In this case, I'm running it over the network, but it's on my machine.",
+  "zh": "在这个例子里，我是通过网络来运行它的，但它就在我的机器上。"
+ },
+ {
+  "seg": 101,
+  "start": 543.91,
+  "end": 547.373,
+  "speaker": "Unknown",
+  "en": "It's connecting and sending goose instructions for what to do.",
+  "zh": "它在连接并发送 goose 的操作指令。"
+ },
+ {
+  "seg": 102,
+  "start": 548.854,
+  "end": 558.5,
+  "speaker": "Unknown",
+  "en": "So this could be in a container, it could be up in the cloud, but the messages are the same, and the library you use is the same, so you can just switch between local and remote very, very easily.",
+  "zh": "所以它可以在容器里，也可以在云端，但消息是一样的，你用的库也是一样的，所以你可以在本地和远程之间非常非常轻松地切换。"
+ },
+ {
+  "seg": 103,
+  "start": 561.772,
+  "end": 568.135,
+  "speaker": "Unknown",
+  "en": "So if you want to get plugged into this ecosystem, start experimenting with support, either making your own clients or adding stuff to harnesses.",
+  "zh": "所以如果你想接入这个生态系统，开始尝试这些支持，要么做你自己的客户端，要么往 harness 里添加东西。"
+ },
+ {
+  "seg": 104,
+  "start": 568.755,
+  "end": 573.477,
+  "speaker": "Unknown",
+  "en": "This will link you to the agent client protocol site for how to get started.",
+  "zh": "这里会给你链接到智能体客户端协议的网站，告诉你如何入门。"
+ },
+ {
+  "seg": 105,
+  "start": 573.557,
+  "end": 577.138,
+  "speaker": "Unknown",
+  "en": "There's a number of clients and agent servers already out there.",
+  "zh": "已经有不少客户端和智能体服务器了。"
+ },
+ {
+  "seg": 106,
+  "start": 577.758,
+  "end": 583.181,
+  "speaker": "Unknown",
+  "en": "This ranges from editors, desktop applications, mobile applications, terminal-based things.",
+  "zh": "这涵盖了编辑器、桌面应用、移动应用、基于终端的东西。"
+ },
+ {
+  "seg": 107,
+  "start": 583.761,
+  "end": 584.641,
+  "speaker": "Unknown",
+  "en": "There's a proliferation.",
+  "zh": "现在是一派繁荣。"
+ },
+ {
+  "seg": 108,
+  "start": 587.182,
+  "end": 594.844,
+  "speaker": "Unknown",
+  "en": "I think the use cases are potentially huge if we get some interoperability going here because people can make personal clients.",
+  "zh": "我觉得如果我们能在这里实现一些互操作性，用例可能会非常巨大，因为人们可以做出个人客户端。"
+ },
+ {
+  "seg": 109,
+  "start": 594.884,
+  "end": 597.664,
+  "speaker": "Unknown",
+  "en": "That's exactly how you want it, orchestrating your agents.",
+  "zh": "这正是你想要的方式，编排你的智能体。"
+ },
+ {
+  "seg": 110,
+  "start": 598.285,
+  "end": 606.106,
+  "speaker": "Unknown",
+  "en": "You could have clients created for certain business domains or an individual company or a set of clients from a company.",
+  "zh": "你可以为特定的业务领域或某一家公司创建客户端，或者来自一家公司的一组客户端。"
+ },
+ {
+  "seg": 111,
+  "start": 606.146,
+  "end": 610.147,
+  "speaker": "Unknown",
+  "en": "You could customize a white label client and have it work with all the harnesses.",
+  "zh": "你可以定制一个白标客户端，让它与所有 harness 一起工作。"
+ },
+ {
+  "seg": 112,
+  "start": 610.847,
+  "end": 612.968,
+  "speaker": "Unknown",
+  "en": "And I also think if we make a new category here,",
+  "zh": "而且我还认为，如果我们在这里开辟一个新类别，"
+ },
+ {
+  "seg": 113,
+  "start": 613.928,
+  "end": 616.369,
+  "speaker": "Unknown",
+  "en": "We're going to see quality of the clients go up, right?",
+  "zh": "我们会看到客户端的质量上升，对吧？"
+ },
+ {
+  "seg": 114,
+  "start": 616.489,
+  "end": 624.074,
+  "speaker": "Unknown",
+  "en": "Because any time you get an ecosystem or a marketplace going and there's many options, users can vote with their feet if clients aren't meeting their needs.",
+  "zh": "因为任何时候，只要一个生态系统或市场运转起来，选项一多，用户就能用脚投票，如果客户端满足不了他们的需求的话。"
+ },
+ {
+  "seg": 115,
+  "start": 624.314,
+  "end": 627.675,
+  "speaker": "Unknown",
+  "en": "And so people will start to compete on the quality of the user experience.",
+  "zh": "于是人们就会开始在用户体验质量上展开竞争。"
+ },
+ {
+  "seg": 116,
+  "start": 627.816,
+  "end": 632.358,
+  "speaker": "Unknown",
+  "en": "And overall, I think this should drive up the user experience of using AI.",
+  "zh": "总体而言，我认为这会推高使用 AI 的用户体验。"
+ },
+ {
+  "seg": 117,
+  "start": 633.399,
+  "end": 634.239,
+  "speaker": "Unknown",
+  "en": "That's what I've got today.",
+  "zh": "这就是我今天要讲的内容。"
+ },
+ {
+  "seg": 118,
+  "start": 634.319,
+  "end": 635.019,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 119,
+  "start": 635.46,
+  "end": 639.122,
+  "speaker": "Unknown",
+  "en": "And if you want to chat with me, find me after or send me an email.",
+  "zh": "如果你想和我聊聊，散会后找我，或者给我发邮件。"
+ },
+ {
+  "seg": 120,
+  "start": 640.322,
+  "end": 641.583,
+  "speaker": "Unknown",
+  "en": "Happy to get you plugged into this work.",
+  "zh": "很乐意帮你接入这项工作。"
+ },
+ {
+  "seg": 121,
+  "start": 642.724,
+  "end": 643.024,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 122,
+  "start": 650.445,
+  "end": 650.926,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

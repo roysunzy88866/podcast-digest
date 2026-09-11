@@ -150,7 +150,7 @@ Rackspace 的定位是「从芯片到成果」：与 AMD 合作、自有数据�
 
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:线束 (harness)、评估 (eval)</span>
 - [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]]<span class="pd-rz">同概念:线束 (harness)、评估 (eval)</span>
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic · 同概念:线束 (harness)、推理 (inference)</span>
+- [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|Clay 的智能体矩阵：如何为数十亿次运行建评估]]<span class="pd-rz">同概念:线束 (harness)、评估 (eval)</span>
 
 </div>
 </div>

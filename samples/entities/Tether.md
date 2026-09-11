@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Tether</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Tether">TE</div><div class="pi"><h1 class="pt">Tether</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Tether">TE</div><div class="pi"><h1 class="pt">Tether</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-10-eyeonai-in-5-years-90-of-what-you-use-ai-for-wil|《Tether 做本地 AI：数据中心造太多了》]]**(00:56起):本集说 Tether 是一家诞生于2014年的公司，做数字美元（USDT），拥有5.73亿用户，每季度增长超3000万，不收交易费、靠持有的美元国库券利息赚钱
+- **[[2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f|《给 AI 开银行账户：Brian Armstrong 谈智能体金融与抗衰老第二幕》]]**(19:58起):本集提它在美国以外因美元计价账户需求而非常成功，类比 40 亿人想获得高质量投资渠道的代币化股票机会。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-10-eyeonai-in-5-years-90-of-what-you-use-ai-for-wil|《Tether 做本地 AI：数据中心造太多了》]] — 作为被讨论公司
+- [[2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f|《给 AI 开银行账户：Brian Armstrong 谈智能体金融与抗衰老第二幕》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Paolo Ardoino]] · [[QVAC]] · [[推理]] · [[微调]] · [[BitNet]] · [[LoRa]] · [[数据中心]] · [[去中介化]] · [[智能体]] · [[GPU]]
+[[智能体]] · [[Paolo Ardoino]] · [[Elad Gil]] · [[QVAC]] · [[Brian Armstrong]] · [[推理]] · [[Coinbase]] · [[微调]] · [[NewLimit]] · [[BitNet]]
 
-<script type="application/json" class="pd-epn">{"Paolo Ardoino":1,"QVAC":1,"推理":5,"微调":1,"BitNet":1,"LoRa":1,"数据中心":3,"去中介化":2,"智能体":1,"GPU":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Paolo Ardoino":1,"Elad Gil":1,"QVAC":1,"Brian Armstrong":1,"推理":5,"Coinbase":4,"微调":1,"NewLimit":2,"BitNet":1}</script>
 
 <script>
 (function(){

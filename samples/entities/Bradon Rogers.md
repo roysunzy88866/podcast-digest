@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Greg":1,"Island":1,"智能体":1,"护栏":2,"MCP":29,"企业浏览器":1,"拦截页面":1,"AI Protect":1,"AI Publish":1,"vibe coding":30}</script>
+<script type="application/json" class="pd-epn">{"Greg":1,"Island":1,"智能体":1,"护栏":2,"MCP":33,"企业浏览器":1,"拦截页面":1,"AI Protect":1,"AI Publish":1,"vibe coding":30}</script>
 
 <script>
 (function(){

@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-09-talks-your-agents-lack-context-here-s-how-to-f",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/KcVkq5L-0f0.m4a",
+  "duration_sec": 834.454,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 157,
+  "asr": true,
+  "title_en": "Your agents lack context: Here's how to fix \"You're absolutely right!\" — Brandon Waselnuk, Unblocked",
+  "podcast": "精选演讲",
+  "date": "2026-09-09",
+  "added": "2026-09-11",
+  "added_at": "2026-09-11T05:26:07.831Z",
+  "speaker_map": {
+    "SPEAKER_00": "Brandon Waselnuk"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Brandon Waselnuk"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "差距不再是智能，而是上下文：给智能体造一个「上下文引擎」",
+  "guest_name": "Brandon Waselnuk",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=none"
+}

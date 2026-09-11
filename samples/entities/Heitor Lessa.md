@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"规范驱动开发":1,"苏格拉底方法":1,"对抗性审查":1,"合并检查":1,"命令":1,"技能":12,"确定性":1,"伪造证据":1,"三层模型分层":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"规范驱动开发":1,"苏格拉底方法":1,"对抗性审查":1,"合并检查":1,"命令":1,"技能":13,"确定性":1,"伪造证据":1,"三层模型分层":1}</script>
 
 <script>
 (function(){

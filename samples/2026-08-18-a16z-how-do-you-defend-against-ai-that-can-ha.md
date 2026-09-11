@@ -130,8 +130,8 @@ jsonLd: |
 **换个口味**
 
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同公司:Hugging Face · 同概念:护栏 (guardrails)、推理 (inference)、智能体 (agent)</span>
+- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Hugging Face · 同概念:推理 (inference)、智能体 (agent)</span>
 - [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR]]<span class="pd-rz">同公司:Hugging Face · 同概念:护栏 (guardrails)、智能体 (agent)</span>
-- [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 </div>

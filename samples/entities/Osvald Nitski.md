@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Mercor":1,"智能体":1,"开源":18,"RL 环境":2,"编码智能体":3,"评估":22,"机器人":2,"合成数据":5}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Mercor":1,"智能体":1,"开源":20,"RL 环境":2,"编码智能体":3,"评估":23,"机器人":3,"合成数据":5}</script>
 
 <script>
 (function(){

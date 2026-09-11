@@ -145,8 +145,8 @@ Alex 强调他们追的不只是窗口大小，而是四个维度：**大小、�
 **顺着「智能体」挖下去**
 
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图]]<span class="pd-rz">同概念:RAG、上下文工程 (context engineering)、智能体 (agent)</span>
+- [[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|差距不再是智能，而是上下文：给智能体造一个「上下文引擎」]]<span class="pd-rz">同概念:RAG、上下文工程 (context engineering)、智能体 (agent)</span>
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|Bret Taylor：智能体是新应用，软件要按结果定价]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
-- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

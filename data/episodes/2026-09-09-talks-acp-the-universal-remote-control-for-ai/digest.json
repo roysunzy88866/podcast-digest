@@ -1,0 +1,70 @@
+{
+  "title_zh": "AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议",
+  "tldr": "Block 工程师、MCP 维护者 Alex Hancock 提出 ACP(智能体客户端协议)，解决客户端被锁定在单一 harness 的问题。",
+  "digest_md": "这一集是一个短演讲，主角是 Alex Hancock——Block(旗下有 Cash App、Square 和 Tidal)的软件工程师，他维护开源智能体项目 Goose(最初是 Block 内部项目，后开源并捐赠给 Linux 基金会)，同时也是 MCP(模型上下文协议，即智能体调用工具的开放标准)的 Rust SDK 维护者 [00:35 Alex Hancock]。他开场还开了个玩笑：上一位演讲者说 MCP 客户端维护者还没实现对「任务」的支持是因为聪明，而他本人就是维护者，「我可以告诉你们，其实只是因为我(懒)」[00:19 Alex Hancock]。\n\n## 问题：智能体被「专用遥控器」锁死\n\n市面上有很多优秀的 harness(来自各大实验室、不同公司，也有很多基于开放标准的)，但它们的**接口往往是自定义或专用的**。最糟的情况是：某个 harness 只有一个客户端应用能控制它 [01:51 Alex Hancock]。他用 web 打比方：这就好比你每连一个网站都得换一个特定浏览器或协议——那样根本不会有开放 web [02:12 Alex Hancock]。\n\n而标准的意义在于创造生态和市场。在智能体领域，智能体「走出去干活」这一环已经有好标准了——MCP,全球有成千上万个 server,所有智能体都能连上去操作别的系统。但 MCP 最强大的地方不在协议本身的任何特性，**而在于所有人都在用它** [02:45 Alex Hancock]。缺的是另一环：**客户端软件如何给智能体分配任务、告诉它做什么、并拿到进展更新——这块还没有标准** [03:02 Alex Hancock]。\n\n## 方案：ACP\n\nACP(Agent Client Protocol,智能体客户端协议)由编辑器公司发起——Zed 和 JetBrains 组队提出，让客户端能控制 harness。他们的动机很直接：在编辑器里只写一个高质量客户端实现，就能控制任何 harness、发送任务、拿结果、看文件改动 [03:49 Alex Hancock]。Goose 团队发现它**相对中立、没有太多编辑器特有的功能**，所以用途远不止编辑器，可以推广到更广的客户端软件 [04:18 Alex Hancock]。\n\n它的设计要点：\n\n- **连接带能力协商**：客户端和 harness 建立连接(带一组能力声明)，然后创建会话；会话里可以发送用户消息，智能体回以文本、图片、音频或进展更新 [04:29 Alex Hancock]。\n- **透明与授权**：工具被调用时会推送通知(说明调了什么工具、元数据是什么)；还能发**权限请求**，让客户端向用户展示「这个工具调用要不要执行」[05:02 Alex Hancock]。\n- **简单且可扩展**：用 JSON RPC 消息，不局限于原生协议，可以加自定义方法(惯例是加下划线前缀)[05:23 Alex Hancock]。他特别看重这一点：如果 Codex、Goose 等各家团队都加自定义方法，大家就能看到生态里涌现出什么，哪些值得走上标准化轨道纳入协议本身——**让协议由使用方式和社区来塑造** [05:44 Alex Hancock]。\n\n## 现场演示\n\n他打开 Zed 编辑器，对一个单 HTML 文件项目问「介绍一下这个项目」，底层智能体是 Goose,走 Goose 的 ACP 接口，能看到它流式返回文本和工具调用信息 [06:17 Alex Hancock]。然后用**同一个智能体、换一个基于终端的第三方客户端**(来自 Poolside AI),得到完全相同的体验——harness 侧只需一个实现，任何客户端都能用 [06:48 Alex Hancock]。\n\n他还展示了本地之外的远程能力。他们接手时 ACP 还没有远程支持，于是补上了 HTTP 传输(含 WebSocket 升级)，消息和协议语义不变 [07:25 Alex Hancock]。他昨晚用 vibe coding(用自然语言让 AI 生成程序)随手写了个客户端，连到同一进程发指令——代码可以跑在容器里或云端，消息和库完全一样，本地远程轻松切换 [08:48 Alex Hancock]。\n\n## 四层技术栈全部可远程化\n\nGoose 团队把智能体技术栈拆成四个组件：客户端(用户用的应用或无头应用)、harness(工具调用循环)、工具(通常就是 MCP)、模型 [07:45 Alex Hancock]。现在 MCP 有远程传输，模型的 API 本来就是远程端点，再补上 ACP 的远程传输——**四个组件都可以随意挪位置**：可以全在一台机器上，harness 和客户端分开，模型或工具单独远程 [08:20 Alex Hancock]。在标准上对齐并做好传输方案，正是能自由移动这套技术栈的关键 [08:34 Alex Hancock]。\n\n## 意义：客户端生态与市场\n\n现有生态已经有编辑器、桌面应用、移动应用、终端工具等各类客户端在接 ACP [09:37 Alex Hancock]。他设想的前景：人们可以做**个人客户端**，按自己喜欢的方式编排智能体；可以为特定业务领域或某家公司定制客户端；也可以做白标客户端对接所有 harness [09:47 Alex Hancock]。更重要的是，一旦开辟出这个新类别、有了市场和多种选择，用户就能用脚投票，开发者会在**用户体验质量**上竞争，整体推高使用 AI 的体验 [10:10 Alex Hancock]。\n\n## 本集带走\n\n- **行业的缺口在「遥控」这一环**：MCP 解决了智能体出去调工具的标准，但客户端怎么给智能体派任务、收更新，此前各家都是自定义接口，最糟时一个 harness 只配一个客户端。\n- **ACP 是 Zed 和 JetBrains 发起的开放标准**：设计极简(JSON RPC)、带能力协商、支持工具调用通知和权限请求，还允许加下划线前缀的自定义方法——协议进化靠社区实际用法推动。\n- **补上 HTTP 远程传输后，四层技术栈(客户端/harness/工具/模型)每一层都可以独立远程部署**，本地和远程用同一套消息和库，切换零成本。\n- **一次 harness 实现，处处可接入**：Goose 在 Zed 和终端客户端上给出完全相同的体验；想接入可以自己做客户端或给 harness 加支持，ACP 官网有入门指引。",
+  "quotes": [
+    {
+      "en": "And the most powerful thing about MCP is not anything about MCP itself, but it's that everyone uses MCP.",
+      "zh": "MCP 最强大的地方不在于 MCP 本身的任何特性，而在于所有人都在使用 MCP。",
+      "timestamp": "02:45",
+      "speaker": "Alex Hancock"
+    },
+    {
+      "en": "Like if the Codex team has some custom methods, the Goose team has some custom methods, the Klein team has some custom methods, whoever, we can see what emerges in the ecosystem and what makes sense to get on a standards track and bring into the protocol itself so that this is sort of shaped by usage and shaped by the community.",
+      "zh": "比如 Codex 团队有自定义方法，Goose 团队有自定义方法，Klein 团队也有，无论谁，我们都能看到生态里涌现出什么，哪些值得走上标准化轨道纳入协议本身——让这个东西由使用方式塑造、由社区塑造。",
+      "timestamp": "05:47",
+      "speaker": "Alex Hancock"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:45",
+      "speaker": "Alex Hancock",
+      "en": "And the most powerful thing about MCP is not anything about MCP itself, but it's that everyone uses MCP.",
+      "zh": "MCP 最强大的地方不在于 MCP 本身的任何特性，而在于所有人都在使用 MCP。"
+    },
+    {
+      "timestamp": "01:51",
+      "speaker": "Alex Hancock",
+      "en": "And in the worst case, it's like you might have some harnesses where there's literally only one client application you can use to control that harness, right?",
+      "zh": "最糟糕的情况是，你可能遇到某些 harness,真的只有一个客户端应用能用来控制它，对吧？"
+    },
+    {
+      "timestamp": "02:13",
+      "speaker": "Alex Hancock",
+      "en": "You wouldn't have something like the open web if that were the reality.",
+      "zh": "如果现实是那样，就不会有开放 web 这样的东西。"
+    },
+    {
+      "timestamp": "05:44",
+      "speaker": "Alex Hancock",
+      "en": "We can start to see what we're all doing that's the same, right?",
+      "zh": "我们就能开始看到我们大家在做的哪些是相同的，对吧？"
+    },
+    {
+      "timestamp": "05:47",
+      "speaker": "Alex Hancock",
+      "en": "Like if the Codex team has some custom methods, the Goose team has some custom methods, the Klein team has some custom methods, whoever, we can see what emerges in the ecosystem and what makes sense to get on a standards track and bring into the protocol itself so that this is sort of shaped by usage and shaped by the community.",
+      "zh": "比如 Codex 团队有自定义方法，Goose 团队有自定义方法，Klein 团队也有，无论谁，我们都能看到生态里涌现出什么，哪些值得走上标准化轨道纳入协议本身——让这个东西由使用方式塑造、由社区塑造。"
+    },
+    {
+      "timestamp": "08:34",
+      "speaker": "Alex Hancock",
+      "en": "Aligning on standards and making sure that they have good transport stories is what's going to let us move all the pieces of this agentic stack around.",
+      "zh": "在标准上达成一致并确保它们有良好的传输方案，正是让我们能够移动这个智能体技术栈所有部件的关键。"
+    },
+    {
+      "timestamp": "10:16",
+      "speaker": "Alex Hancock",
+      "en": "Because any time you get an ecosystem or a marketplace going and there's many options, users can vote with their feet if clients aren't meeting their needs.",
+      "zh": "因为任何时候，只要一个生态系统或市场运转起来、选项一多，如果客户端满足不了需求，用户就能用脚投票。"
+    },
+    {
+      "timestamp": "09:54",
+      "speaker": "Alex Hancock",
+      "en": "That's exactly how you want it, orchestrating your agents.",
+      "zh": "这正是你想要的方式——编排你的智能体。"
+    }
+  ],
+  "voice_script": "今天要跟你聊的这个人，叫 Alex Hancock。他是 Block 的软件工程师——Block 就是旗下有 Cash App、Square 那些产品的公司——同时他维护一个开源智能体项目叫 Goose,还是 MCP 的 Rust SDK 维护者。MCP 是什么？就是智能体去调用工具的开放标准，可以说是这个领域最重要的一块基石。所以这个人来聊智能体行业的标准问题，是有分量的。开场他还开了个玩笑：上一位演讲的人说，MCP 客户端维护者还没实现对「任务」的支持，是因为他们聪明。而他自己就是那个维护者，他的回答是——我可以告诉你们，其实只是因为我懒。\n\n玩笑归玩笑，这期短演讲要讲的是一个真实存在的行业缺口。你把智能体想象成一台能干活的机器，那总得有个东西去遥控它、给它派活。市面上有很多优秀的 harness——说白了就是驱动智能体干活的那个框架，来自各大实验室和公司。但问题是，这些 harness 的接口往往是各家自己定的，甚至是专用的。最糟的情况是什么？某一个 harness,只有一个特定的客户端应用能控制它。Alex 打了个比方，这就好比你每上一个网站，都得换一个专门的浏览器、用一套专门的协议。真要那样，根本就不会有开放 web 这回事。\n\n那有人可能会问，智能体领域不是已经有 MCP 了吗？这就得把事情拆开看了。智能体「走出去干活」这一环，也就是去调工具、操作别的系统，MCP 已经解决得很好，全球有成千上万个 server 接在上面。而且有一句话特别值得记住：MCP 最强大的地方，不在于协议本身的任何特性，而在于所有人都在用它。标准的意义就在这，它创造生态、创造市场。但缺的是另一环——客户端软件怎么给智能体分配任务、告诉它做什么、并且拿到进展更新？这块之前完全没有标准，各家都是自定义接口。\n\n于是就有了 ACP,全名叫智能体客户端协议。发起方是两家编辑器公司，Zed 和 JetBrains 组队提出的。他们的动机很直接：在编辑器里只要写一个高质量的客户端实现，就能控制任何 harness——发任务、拿结果、看文件改动。Goose 团队去看了一圈，发现这个协议相对中立，没有太多编辑器特有的功能，所以用途远不止编辑器，可以推广到更广的客户端软件。\n\n那这个协议长什么样？几个要点。第一，连接的时候带能力协商，客户端和 harness 先互相声明自己支持什么，然后建会话，会话里发消息，智能体回以文本、图片、音频或者进展更新。第二，透明和授权：智能体调用工具时，会推送通知告诉客户端调了什么、元数据是什么；还能发权限请求，让客户端去问用户——这个工具调用，要不要执行。第三，简单且可扩展，底层就是 JSON RPC 消息，而且允许各家加自定义方法，惯例是加个下划线前缀。这一点 Alex 特别看重，因为如果 Codex、Goose 这些团队都往里加自定义方法，大家就能看到生态里涌现出了什么，哪些值得被吸收进协议本身。一句话：让协议由使用方式塑造，由社区塑造。\n\n光说设计还不够，现场有演示。打开 Zed 编辑器，对一个单 HTML 文件的项目问「介绍一下这个项目」，底层智能体是 Goose,走 ACP 接口，能看到流式返回的文本和工具调用。然后关键一步来了——同一个智能体，换一个来自 Poolside AI 的、基于终端的第三方客户端，体验完全相同。也就是说，harness 侧只需要实现一次，任何客户端都能接进来。\n\n再往前推一步：本地能连，远程呢？他们接手的时候 ACP 还没有远程支持，于是补上了 HTTP 传输，还带 WebSocket 升级，消息和协议语义完全不变。Alex 甚至前一天晚上用 vibe coding——就是用自然语言让 AI 顺手写程序——随手写了个客户端，连到同一个进程发指令。代码跑在容器里还是云端都行，本地远程切换零成本。\n\n为什么这件事值得单说？因为 Goose 团队把整个智能体技术栈拆成了四层：客户端，就是你用的那个应用；harness,负责工具调用循环；工具，通常就是 MCP;还有模型本身。MCP 早就有远程传输，模型的 API 本来就是远程端点，现在 ACP 又补上了远程——这四层就可以随意挪位置了，可以全在一台机器上，也可以拆开，各自独立部署。在标准上对齐，正是能自由移动这套技术栈的关键。\n\n那最终意义在哪？现在已经有编辑器、桌面应用、移动应用、终端工具等各类客户端在接 ACP 了。往大了想，人们可以做个人客户端，按自己喜欢的方式编排智能体；可以为特定领域或某家公司做定制；也可以做白标客户端，对接所有 harness。而一旦这个新类别有了市场、有了多种选择，用户就能用脚投票，开发者就会在体验质量上真刀真枪地竞争。\n\nMCP 解决了智能体怎么出去干活，ACP 解决了你怎么遥控它——一次 harness 实现，处处可接入，整个行业的遥控器，终于可以通用了。"
+}

@@ -154,9 +154,9 @@ Mark 对此毫不客气:这对行业来说就是致命一击。用造车的工�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f|给 AI 开银行账户：Brian Armstrong 谈智能体金融与抗衰老第二幕]]<span class="pd-rz">同公司:Coinbase · 同概念:代币化 (tokenization)、加密货币 (crypto)、稳定币 (stablecoin)</span>
 - [[2026-08-24-thepeel-brexs-1st-employee-on-thinking-like-a-fo|不是创始人也能当 CEO:Michael Tannenbaum 的运营者心法]]<span class="pd-rz">同概念:区块链 (blockchain)、代币化 (tokenization)</span>
 - [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由]]<span class="pd-rz">同概念:开源软件 (open source)</span>
-- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同概念:开源软件 (open source)</span>
 
 </div>
 <div class="pd-ex">

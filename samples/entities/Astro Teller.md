@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"X":2,"Alphabet":1,"Waymo":13,"Google Brain":1,"Wing":1,"登月项目":1,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":18}</script>
+<script type="application/json" class="pd-epn">{"X":2,"Alphabet":1,"Waymo":13,"Google Brain":1,"Wing":1,"登月项目":2,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":18}</script>
 
 <script>
 (function(){

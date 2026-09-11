@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Kiriti Badam":1,"智能体":1,"非确定性":1,"主观能动性":17,"评估":22,"生产监控":1,"持续校准持续开发":1,"飞轮":2,"行为校准":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Kiriti Badam":1,"智能体":1,"非确定性":1,"主观能动性":17,"评估":23,"生产监控":1,"持续校准持续开发":1,"飞轮":2,"行为校准":1}</script>
 
 <script>
 (function(){

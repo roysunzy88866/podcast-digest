@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Eric Simons]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]]
+[[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Willison":1,"Thariq Shihipar":1,"Anthropic":112,"Claude Code":49,"ClaudeTag":1,"Fable":9,"Slack":23,"Bun":1,"Rust":3,"Gemini":6}</script>
+<script type="application/json" class="pd-epn">{"Simon Willison":1,"Thariq Shihipar":1,"Anthropic":114,"Claude Code":51,"ClaudeTag":1,"Fable":9,"Slack":23,"Bun":2,"Rust":3,"Gemini":6}</script>
 
 <script>
 (function(){

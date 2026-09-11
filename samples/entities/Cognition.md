@@ -8,7 +8,7 @@ aliases: ["cognition"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cognition</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cognition">CO</div><div class="pi"><h1 class="pt">Cognition</h1><div class="byl">公司 · 又名 cognition</div><div class="nums">本站收录 <b>15</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cognition">CO</div><div class="pi"><h1 class="pt">Cognition</h1><div class="byl">公司 · 又名 cognition</div><div class="nums">本站收录 <b>16</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -27,10 +27,11 @@ aliases: ["cognition"]
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(64:19起):本集说它是企业中除 Factory 外唯一其他的模型无关供应商，其云产品在模仿人类软件工程师的理念上非常未来主义
 - **[[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]]**(12:21起):本集提到 Scott 在 Cognition，在讨论创始人信任谁时被顺带举例
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(36:34起):本集说据报道它正以约 460 亿美元估值融资、年底 ARR 将达 16 亿，且它甚至不是品类前两三名——印证市场大到连第三名都能成（Postmates 效应）。
+- **[[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]]**(16:23起):本集在列举在中国开源模型上微调/后训练的垂直 AI 公司时顺带提到 Cognition
 
 ## ② 出现在这些集
 
-*15 集*
+*16 集*
 
 - [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为被讨论公司(提及)
 - [[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]] — 作为被讨论公司(提及)
@@ -47,14 +48,15 @@ aliases: ["cognition"]
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司(提及)
 - [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为被讨论公司(提及)
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
+- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[Stripe]] · [[推理]] · [[Claude Code]] · [[Salesforce]] · [[SpaceX]] · [[沙箱]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[Stripe]] · [[Claude Code]] · [[NVIDIA]] · [[Salesforce]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":112,"OpenAI":100,"Cursor":52,"Stripe":28,"推理":5,"Claude Code":49,"Salesforce":17,"SpaceX":12,"沙箱":37}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":114,"OpenAI":102,"Cursor":54,"推理":5,"Stripe":29,"Claude Code":51,"NVIDIA":32,"Salesforce":17,"SpaceX":12}</script>
 
 <script>
 (function(){

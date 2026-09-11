@@ -8,13 +8,13 @@ type: episode
 cover: "#64748b"
 description: Seth（Prime Agent 作者）、John（OpenJarvis 作者）、YC 的 Josh 和 Regan（QM 团队）分别讲智能体 harness 的设计实践与实验结果。
 companies: ["[[Prime Agent]]", "[[OpenJarvis]]", "[[QM]]", "[[OpenClaw]]"]
-concepts: ["[[harness]]", "[[智能体]]", "[[子智能体]]", "[[RLM]]", "[[沙箱]]", "[[上下文管理]]", "[[REPL]]", "[[自我改进 harness]]", "[[本地推理]]"]
+concepts: ["[[harness]]", "[[智能体]]", "[[子智能体]]", "[[RLM]]", "[[沙箱]]", "[[上下文工程]]", "[[REPL]]", "[[自我改进 harness]]", "[[本地推理]]"]
 category: 智能体
 tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-07-talks-why-the-harness-matters-more-than-the-mo#post","headline":"别小看 harness：智能体的「脚手架」正在决定成绩","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-07-talks-why-the-harness-matters-more-than-the-mo","mainEntityOfPage":"https://talk.solomind.cc/2026-09-07-talks-why-the-harness-matters-more-than-the-mo","description":"Seth（Prime Agent 作者）、John（OpenJarvis 作者）、YC 的 Josh 和 Regan（QM 团队）分别讲智能体 harness 的设计实践与实验结果。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Organization","name":"Prime Agent"},{"@type":"Organization","name":"OpenJarvis"},{"@type":"Organization","name":"QM"},{"@type":"Organization","name":"OpenClaw"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"子智能体 (sub-agents)"},{"@type":"Thing","name":"RLM"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"上下文管理 (context engineering)"},{"@type":"Thing","name":"REPL"},{"@type":"Thing","name":"自我改进 harness (self-improving harnesses)"},{"@type":"Thing","name":"本地推理 (local LMs)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"别小看 harness：智能体的「脚手架」正在决定成绩","item":"https://talk.solomind.cc/2026-09-07-talks-why-the-harness-matters-more-than-the-mo"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-07-talks-why-the-harness-matters-more-than-the-mo#post","headline":"别小看 harness：智能体的「脚手架」正在决定成绩","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-07-talks-why-the-harness-matters-more-than-the-mo","mainEntityOfPage":"https://talk.solomind.cc/2026-09-07-talks-why-the-harness-matters-more-than-the-mo","description":"Seth（Prime Agent 作者）、John（OpenJarvis 作者）、YC 的 Josh 和 Regan（QM 团队）分别讲智能体 harness 的设计实践与实验结果。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Organization","name":"Prime Agent"},{"@type":"Organization","name":"OpenJarvis"},{"@type":"Organization","name":"QM"},{"@type":"Organization","name":"OpenClaw"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"子智能体 (sub-agents)"},{"@type":"Thing","name":"RLM"},{"@type":"Thing","name":"沙箱 (sandbox)"},{"@type":"Thing","name":"上下文工程 (context engineering)"},{"@type":"Thing","name":"REPL"},{"@type":"Thing","name":"自我改进 harness (self-improving harnesses)"},{"@type":"Thing","name":"本地推理 (local LMs)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"别小看 harness：智能体的「脚手架」正在决定成绩","item":"https://talk.solomind.cc/2026-09-07-talks-why-the-harness-matters-more-than-the-mo"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别小看 harness：智能体的「脚手架」正在决定成绩</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -30,7 +30,7 @@ jsonLd: |
 > [!info] 关联
 > **公司** [[Prime Agent]] · [[OpenJarvis]] · [[QM]] · [[OpenClaw]]
 >
-> **概念** [[harness]] · [[智能体]] · [[子智能体]] · [[RLM]] · [[沙箱]] · [[上下文管理]] · [[REPL]] · [[自我改进 harness]] · [[本地推理]]
+> **概念** [[harness]] · [[智能体]] · [[子智能体]] · [[RLM]] · [[沙箱]] · [[上下文工程]] · [[REPL]] · [[自我改进 harness]] · [[本地推理]]
 
 这一集是 YC 的「Harness Night」——专门讨论[[智能体|智能体]] [[harness|harness]]（包裹在模型外面、提供工具/记忆/循环的那层「脚手架」）的专场。主持人先抛出全场的问题意识：harness 长期被贬低为「不算研究的提示词工程」，但同一套模型权重，换一个 harness 就能在 ArcAGI 上从 30% 拉到 95%（NVIDIA 的方案甚至到 100%）——「不配做研究的包装层」直接决定了任务能不能跑通。他把行业发展分成两个阶段：过去六年的「静态 harness 时代」（人往 harness 里加功能），和最近六个月的「[[自我改进 harness|自我改进 harness]] 时代」（harness 自己学习自己）。
 
@@ -117,6 +117,29 @@ QM 的两个关键设计决策：一是把系统的大脑从沙箱里拉出来�
 > <span class="qz">所以你能放进「大脑」里的信息，实际上受限于你的权限系统有多好。</span>  
 > *And so the information that you can put in the brain is effectively like bounded by how good your permission system is.*  
 > <span class="qm">—— 嘉宾 · [59:22]</span> ^q8
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「智能体」挖下去**
+
+- [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生]]<span class="pd-rz">同概念:harness、上下文管理 (context engineering)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Claude Code · 同概念:harness、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:harness、上下文管理 (context engineering)、智能体 (agent)、技能 (skills)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同公司:OpenClaw、Claude Code、Codex · 同概念:智能体 (agent)</span>
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:harness、智能体 (agent)</span>
+- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

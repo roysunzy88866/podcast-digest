@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Roman Ugarte]] [[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]]
+[[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Omni":1,"Looker":1,"Snowflake":6,"Databricks":10,"Google":38,"BI":1,"数据模型":1,"创新者的窘境":3,"产品市场契合":18,"AI":15}</script>
+<script type="application/json" class="pd-epn">{"Omni":1,"Looker":1,"Snowflake":7,"Databricks":11,"Google":38,"BI":1,"数据模型":1,"创新者的窘境":3,"产品市场契合":18,"AI":16}</script>
 
 <script>
 (function(){

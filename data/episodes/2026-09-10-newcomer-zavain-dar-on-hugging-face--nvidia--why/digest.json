@@ -1,0 +1,196 @@
+{
+  "title_zh": "从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来",
+  "tldr": "风险投资机构 Dimension 的 Zavandar 解读 NVIDIA 收购 Hugging Face 的战略意图、中美 AI 开源缠斗，以及 AI 制药能否兑现治愈疾病的承诺。",
+  "digest_md": "这一集的嘉宾是 Zavandar，投资机构 Dimension 的联合创始人——早年在 Lux 时，他参与投资了 Hugging Face，那家公司刚刚被 NVIDIA 以约 129 亿美元收入囊中。他刚和 Dimension 团队从中国考察回来，写了一封被称为「上海 2025 之前和之后」的笔记。三件事在他身上交汇：NVIDIA 的开源大棋、中国的 AI 与生物科技浪潮、以及 AI 能否真的把大多数人类疾病治好。\n\n## NVIDIA 为什么买 Hugging Face\n\n「我认为他们现在拥有了软件史上最重要的开源仓库，对 ML 和 AI 来说更是一次相变。」Zavandar 这样解释这笔交易。\n\n他的推理是：NVIDIA 的成功几乎与开源的崛起一一对应。软件和硅片之间需要一个介质，如果这个介质被开源标准化，NVIDIA 就处在最有利的位置，确保自己的芯片继续称霸。这还能制衡 Anthropic 和 OpenAI 的影响力——Google 有 TPU，Amazon 有 Tranium，OpenAI 也在做自己的芯片。\n\n主持人提出一个有趣的角度：传统商学院的智慧是「把你的互补品商品化」，但 NVIDIA 似乎在把客户商品化。Zavandar 的回应是：这其实是在帮 NVIDIA 的新一批客户。软件层越商品化，搭一家推理公司就越容易——而搭推理公司必然要买一堆 NVIDIA 芯片。受益最大的不是 OpenAI，而是 NeoCloud（新兴的 GPU 云厂商）——Modal、Fireworks 等这类 NeoCloud 公司。Jensen 两三年前就刻意投资多元生态，就是为了让没有任何一个客户或供应商能拿捏 NVIDIA。\n\n顺带一提他对 Google 的判断：DeepMind 的多位领导人（Demis、Jeff Dean、John Jumper 等）陆续离开或被请出门，而 Google Cloud 上 Gemini 和开源模型的推理收入在火箭般蹿升。他的读法是：Google 的肢体语言表明，它更想做 Google Cloud，而不是成为下一个 OpenAI。\n\n## 中美 AI 的蒸馏缠绕：一项技术要跨太平洋两次\n\n讲到今天的美国开源，Zavandar 直言不讳：「毫无疑问，从数量上看我们是半步，我们落后了。」原因包括人才、资本、资源，以及能否合法地用前沿模型做蒸馏。\n\n但他认为「开源来源的主权」这个问题被过度聚焦了。一个模型如果按定义是开放的（许可证不绑定国家偏好），它来自哪个国家重要吗？当然要警惕模型里可能内嵌的后门或准宣传性质的潜在表征，但这里面存在「虚假的精确性」。\n\n他给了一幅今天技术流动的完整图景：Anthropic 或 OpenAI 用美国芯片、大体上用美国数据训练前沿模型 → 中国实验室（比如做 Kimi 的 Moonshot）对它做蒸馏——快速连续地问模型一堆问题，构建出模型的一个表征——然后把这个表征开源 → 硅谷的垂直 AI 公司（Harvey、Cursor、Cognition）再在这些中国模型上做微调或后训练。结果就是：**一项技术在到达终端消费者之前，跨越太平洋两次**。一个美国律师用 Harvey，背后已经接触过亚洲和美国的技术、芯片、数据和人才。Zavandar 认为，现在切断这条跨太平洋纽带，等于砍掉美国垂直 AI 创新能力的大腿——除非真正的美国开源先赶上。\n\n那能不能阻止蒸馏？「你本身无法阻止蒸馏，但实验室可以做得好得多去追踪它——你应该能追踪它何时发生，也应该能封锁那些地址。」而这件事走到极限，是 Anthropic 和 OpenAI 已经开始不再通过 API 开放前沿模型：无法编程访问，就无法以蒸馏所需的规模去查询。副作用是，中美前沿模型的差距可能因此拉大——仅仅因为美国的模型不再可被蒸馏。\n\n## 上海 2025：一次相变\n\n为什么跑去中国？Dimension 去年在上海投了一家科技与生物科技交汇的公司（Helixon），由一位前 UIUC 计算机科学终身教授创办，融了 7.87 亿美元，与赛诺菲有多个合作，已有多款药物进入临床。今年他们再赴上海、北京、香港，见了投资者、创业者、实验室、银行家。\n\n他的总结很直白：去年那次中国之行对他的冲击，等同于 2017 年第一次看到 Transformer 论文的结果。「我的人生分为 Transformer 模型之前和之后。而在很多方面，我把人生看作上海 2025 之前和上海 2025 之后。」\n\n具体看到了什么？「一个年轻、受教育程度高、高度自律、高度勤奋、高度聪明的群体，怀着深沉且一致的抱负去做了不起的科学技术；而且他们不是在推特上谈论这件事——我觉得这很多时候就是美国创业圈变成的样子——而是直接去做下一件事。」 他说这让他想起 80、90 年代的伯克利和早期硅谷，那时还没有狗仔队风格的创业者和投资人照片，还没有这么多「看我」式的自我陶醉。\n\n关于美国切断 NVIDIA 芯片供应是否是错误决策，他的判断是「还没有定论」：芯片匮乏确实迫使中国的编译器工程师、系统工程师、底层汇编工程师从裸金属一路创新，绕开了部分出口管制，也让中国模型更便宜、更可持续；但现在美国前沿实验室仍然明显领先，主要靠更好的硅片——不过美国电力是个隐患，中国则缺芯片和算力。最该盯的是中国半导体行业创新的速度和节奏，它比 24 个月前大多数行业观察者预测的要快。「从长远来看，你必须认为他们会追上来。没有什么是可以永远完全防御的。」中国每年毕业的 STEM 毕业生比全球其他地方都多。\n\n## AI 制药：最该乐观也最难的部分\n\nZavandar 先自我交代：2013 年入行以来，他因为**低估**技术与科学进步速度而亏掉的钱，远远多于因为高估而亏掉的。「我错过了本应该做的交易，我当时觉得这会花太长时间。」所以现在遇到聪明人说「牵强」的事，他会先去理解对方的出发点。\n\n他的核心判断：「在我们的有生之年，人类的绝大多数疾病应该被解决、应该可以被治疗。我认为我们正在那条路上。」\n\nAI 制药公司在做什么？他举了两类：\n- **设计药物本身**：像 Chai 这样的公司开发生成式技术，让生物学家可以说「我想上调或下调这个蛋白质的这个位点」「为我设计能结合那个蛋白质表位的抗体序列」「设计一个能命中胞内蛋白别构口袋的小分子」。这是以前从未拥有过的工具箱。\n- **绘制生物学图谱**：不只是设计药物，还要知道药物该做什么——整合文献、多模态生物数据、EHR/EMR（电子健康记录），实时更新认知。Dimension 内部孵化、后来卖给了 Anthropic 的 Coefficient 就是这么起步的：德国一个小实验室发表的结果，礼来做 IL-6 试验的研究者几乎不可能看到，但一个实时梳理全世界知识库的智能体应该能在第二天更新你的试验设计。\n\n但难的部分他也说得很清楚：**最耗时的环节过去是、将来也会继续是人体试验**——先安全性、再有效性、再一二三期临床试验，目前没有任何 in silico 或动物模型能完全替代。他讲了一个惨痛案例：Novo 刚刚在三期失败了一个针对 IL-6 的抗体。所有生物学、理论、体内甚至人体证据都表明下调 IL-6 能降低心脏病发病率，二期所有相关生物标志物也都压下去了，三期花了超过 5 亿美元、跑了约四年——结果相关性只有 1%（风险比 0.99）。「生物学真的很难。我们以为掌握了所有生物标志物，它们最终被证明是相关性，而非因果性。」 在找到更好的生物标志物、更好理解疾病生物学之前，失败仍会继续。\n\n至于永生，他的态度审慎：也许可以想象把衰老功能冻结在 27 岁或 33 岁，像 NewLimit 这样的公司走的路线不是一步到位，而是针对特定器官或细胞，用极致精度扰动它们的「年龄」。\n\n他还抛出一个更大的图景：当前 AI 研究有两大分支——一个围绕数学这样的**先验知识**（不需要实证检验、纸笔可推导的东西，理论上 AI 可以给出全部数学的真假证明，走向「先验人类知识的完全闭合」）；另一个围绕物理化学这类**实证知识**，做法是给 AI 模型和实验之间建立闭环接口，让实验结果回来更新模型的先验。\n\n## 硅谷对反移民浪潮的沉默\n\n结尾话题转向政治。Zavandar 对硅谷同行在美国转向反移民时的集体沉默深感幻灭：「对于这场辩论面前，我的许多硅谷风投同行集体掉针般的沉默，我深感幻灭。」 他的逻辑是：美国之所以是美国，是因为一直是全球人才流失的受益者；每个职位理论上都应该在全球范围内招揽最优秀的人；而且除了涉密岗位，基于公民身份做招聘决定在大多数情况下本来就是违法的。「对美国人来说，让有才华的人在这里缴我们的税、在这里创办公司，是更好的。」\n\n## 本集带走\n\n- **NVIDIA 买 Hugging Face 买的是标准化的位置**：软件与硅片之间的开源介质握在手里，推理层越商品化，卖芯片的越受益——且最大买家已从大模型公司转向 NeoCloud。\n- **蒸馏链条切不断**：美国训练 → 中国蒸馏开源 → 美国垂直公司微调，一项技术跨太平洋两次。真正的堵法是关闭前沿模型的 API 访问——这已经发生了，副作用是中美差距可能因此拉大。\n- **看中国 AI，盯两点**：中国半导体行业创新的速度节奏（快于 24 个月前的预期），以及缺芯片但强底层的优化路径。长期看没有什么是永远可防御的。\n- **AI 制药的真实进度条**：生成式设计药物分子和实时图谱整合已是真工具，但人体临床试验仍是最长的一环——IL-6 抗体三期失败（5 亿美元、四年、1% 相关性）说明生物标志物常常是相关性而非因果性。\n- **对投资人/观察者的提醒**：即使只投美国，对中国正在发生的事无知也是劣势——中美生物科技的交织程度前所未有，未来你吃的药可能发明于苏州的实验室。",
+  "quotes": [
+    {
+      "en": "I think they now have the most important open source repository in the history of software and definitely for kind of ML and AI, like a phase shift.",
+      "zh": "我认为他们现在拥有了软件史上最重要的开源仓库，对 ML 和 AI 来说更是如此，就像一次相变。",
+      "timestamp": "00:02",
+      "speaker": "Zavain Dar"
+    },
+    {
+      "en": "And instead of them tweeting about the thing, which is I think oftentimes like what American entrepreneurship and technology has become, they do the next thing.",
+      "zh": "他们不是在推特上谈论这件事——我觉得这很多时候就是美国创业和科技圈变成的样子——而是直接去做下一件事。",
+      "timestamp": "21:47",
+      "speaker": "Zavain Dar"
+    },
+    {
+      "en": "It's definitely, I mean this with all respect, it's, you know, it's quantitatively a half step.",
+      "zh": "毫无疑问，我说这话没有任何不敬——从数量上看，美国开源只走了半步。",
+      "timestamp": "11:29",
+      "speaker": "Zavain Dar"
+    },
+    {
+      "en": "This technology crossing the Pacific twice before it comes to the end consumer.",
+      "zh": "这项技术在到达终端消费者之前，跨越太平洋两次。",
+      "timestamp": "16:39",
+      "speaker": "Zavain Dar"
+    },
+    {
+      "en": "And so you might end up seeing a little bit of a growing gap between Chinese frontier models and American frontier models simply because American frontier models are no longer distillable simply because they've shut down API access.",
+      "zh": "所以你最终可能会看到中美前沿模型之间出现不断扩大的差距，仅仅因为美国前沿模型不再可被蒸馏——仅仅因为它们关闭了 API 访问。",
+      "timestamp": "18:22",
+      "speaker": "Zavain Dar"
+    },
+    {
+      "en": "Our frontier labs are meaningfully ahead of the Chinese frontier labs in no small part because we have better silicon.",
+      "zh": "我们的前沿实验室明显领先于中国的前沿实验室，很大程度上是因为我们有更好的硅片。",
+      "timestamp": "26:37",
+      "speaker": "Zavain Dar"
+    },
+    {
+      "en": "Nothing is fully defensible forever.",
+      "zh": "没有什么是可以永远完全防御的。",
+      "timestamp": "27:42",
+      "speaker": "Zavain Dar"
+    },
+    {
+      "en": "Underestimating the velocity of technology and science progress than overestimating the velocity.",
+      "zh": "因低估技术与科学进步的速度而亏掉的钱，远远多于因高估速度而亏掉的。",
+      "timestamp": "32:57",
+      "speaker": "Zavain Dar"
+    },
+    {
+      "en": "And I think we're on that path.",
+      "zh": "绝大多数人类疾病应该被解决、应该可以被治疗——我认为我们正在这条路上。",
+      "timestamp": "33:57",
+      "speaker": "Zavain Dar"
+    },
+    {
+      "en": "Those ended up being correlative, not causal.",
+      "zh": "那些生物标志物最终被证明是相关性，而非因果性。",
+      "timestamp": "37:53",
+      "speaker": "Zavain Dar"
+    },
+    {
+      "en": "We're potentially nearing the asymptote of the full closure of a priori human knowledge.",
+      "zh": "我们可能正在接近先验人类知识完全闭合的渐近线。",
+      "timestamp": "44:22",
+      "speaker": "Zavain Dar"
+    },
+    {
+      "en": "Deeply disenchanted by the large sound of a pin dropping from many of my Silicon Valley venture peers in the face of this debate.",
+      "zh": "对于这场辩论面前，我的许多硅谷风投同行集体掉针般的沉默，我深感幻灭。",
+      "timestamp": "47:56",
+      "speaker": "Zavain Dar"
+    },
+    {
+      "en": "It's better for Americans that the talented people are here paying our taxes.",
+      "zh": "对美国人来说，让有才华的人在这里缴我们的税，是更好的。",
+      "timestamp": "47:22",
+      "speaker": "Eric Newcomer"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:02",
+      "speaker": "Zavandar",
+      "en": "I think they now have the most important open source repository in the history of software and definitely for kind of ML and AI, like a phase shift.",
+      "zh": "我认为他们现在拥有了软件史上最重要的开源仓库，对 ML 和 AI 来说更是如此，就像一次相变。"
+    },
+    {
+      "timestamp": "21:17",
+      "speaker": "Zavandar",
+      "en": "And in a lot of ways, I kind of think of my life before Shanghai 2025 and after Shanghai 2025.",
+      "zh": "而在很多方面，我有点把自己的人生看作上海 2025 之前和上海 2025 之后。"
+    },
+    {
+      "timestamp": "21:47",
+      "speaker": "Zavandar",
+      "en": "And instead of them tweeting about the thing, which is I think oftentimes like what American entrepreneurship and technology has become, they do the next thing.",
+      "zh": "他们不是在推特上谈论这件事——我觉得这很多时候就是美国创业和科技圈变成的样子——而是直接去做下一件事。"
+    },
+    {
+      "timestamp": "11:29",
+      "speaker": "Zavandar",
+      "en": "It's definitely, I mean this with all respect, it's, you know, it's quantitatively a half step.",
+      "zh": "毫无疑问，我说这话没有任何不敬——从数量上看，美国开源只走了半步。"
+    },
+    {
+      "timestamp": "16:39",
+      "speaker": "Zavandar",
+      "en": "This technology crossing the Pacific twice before it comes to the end consumer.",
+      "zh": "这项技术在到达终端消费者之前，跨越太平洋两次。"
+    },
+    {
+      "timestamp": "17:19",
+      "speaker": "Zavandar",
+      "en": "But we can't stop distillation, right?",
+      "zh": "但我们无法阻止蒸馏，对吧？"
+    },
+    {
+      "timestamp": "18:22",
+      "speaker": "Zavandar",
+      "en": "And so you might end up seeing a little bit of a growing gap between Chinese frontier models and American frontier models simply because American frontier models are no longer distillable simply because they've shut down API access.",
+      "zh": "所以你最终可能会看到中美前沿模型之间出现不断扩大的差距，仅仅因为美国前沿模型不再可被蒸馏——仅仅因为它们关闭了 API 访问。"
+    },
+    {
+      "timestamp": "26:06",
+      "speaker": "Zavandar",
+      "en": "Our frontier labs are meaningfully ahead of the Chinese frontier labs in no small part because we have better silicon.",
+      "zh": "我们的前沿实验室明显领先于中国的前沿实验室，很大程度上是因为我们有更好的硅片。"
+    },
+    {
+      "timestamp": "27:39",
+      "speaker": "Zavandar",
+      "en": "Nothing is fully defensible forever.",
+      "zh": "没有什么是可以永远完全防御的。"
+    },
+    {
+      "timestamp": "27:53",
+      "speaker": "Zavandar",
+      "en": "China graduates more STEM graduates than the world globally every year.",
+      "zh": "中国每年毕业的 STEM 毕业生比全球其他地方都多。"
+    },
+    {
+      "timestamp": "33:02",
+      "speaker": "Zavandar",
+      "en": "Underestimating the velocity of technology and science progress than overestimating the velocity.",
+      "zh": "因低估技术与科学进步的速度而亏掉的钱，远远多于因高估速度而亏掉的。"
+    },
+    {
+      "timestamp": "33:57",
+      "speaker": "Zavandar",
+      "en": "And I think we're on that path.",
+      "zh": "绝大多数人类疾病应该被解决、应该可以被治疗——我认为我们正在这条路上。"
+    },
+    {
+      "timestamp": "37:43",
+      "speaker": "Zavandar",
+      "en": "It was a 0.99 hazard ratio, which is the equivalent of 1% correlation between that drug and decreasing heart disease.",
+      "zh": "风险比是 0.99，相当于该药物与降低心脏病之间只有 1% 的相关性。"
+    },
+    {
+      "timestamp": "37:52",
+      "speaker": "Zavandar",
+      "en": "Those ended up being correlative, not causal.",
+      "zh": "那些生物标志物最终被证明是相关性，而非因果性。"
+    },
+    {
+      "timestamp": "44:22",
+      "speaker": "Zavandar",
+      "en": "We're potentially nearing the asymptote of the full closure of a priori human knowledge.",
+      "zh": "我们可能正在接近先验人类知识完全闭合的渐近线。"
+    },
+    {
+      "timestamp": "44:43",
+      "speaker": "Zavandar",
+      "en": "Anything that you can deduce with a pen and paper.",
+      "zh": "任何你能够用纸笔推导出来的东西。"
+    },
+    {
+      "timestamp": "47:56",
+      "speaker": "Zavandar",
+      "en": "Deeply disenchanted by the large sound of a pin dropping from many of my Silicon Valley venture peers in the face of this debate.",
+      "zh": "对于这场辩论面前，我的许多硅谷风投同行集体掉针般的沉默，我深感幻灭。"
+    },
+    {
+      "timestamp": "47:22",
+      "speaker": "Zavandar",
+      "en": "It's better for Americans that the talented people are here paying our taxes.",
+      "zh": "对美国人来说，让有才华的人在这里缴我们的税，是更好的。"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊一个人和三件事。人叫Zavandar，投资机构Dimension的联合创始人，早年在Lux的时候参与投资了Hugging Face——就是最近刚被NVIDIA以大约129亿美元买下的那家公司。他刚带着团队从中国考察回来，写下了一封广为流传的笔记，说自己的人生分成了\"上海2025之前\"和\"上海2025之后\"。这一集，就是围绕三条线展开的：NVIDIA买Hugging Face到底图什么、中美AI怎么缠在一起，以及AI制药到底能不能兑现治愈疾病的承诺。\n\n先说第一件事，NVIDIA为什么要买Hugging Face。Zavandar的原话是，现在NVIDIA手里握着的，是软件史上最重要的开源仓库，对机器学习和AI来说，这就像一次相变。这话说得很大，推理其实很清楚：软件和芯片之间需要一个介质，如果这个介质被开源标准化了，那NVIDIA就站在了最有利的位置，能确保自己的芯片继续称霸。顺便还能制衡Anthropic和OpenAI的影响力，毕竟Google有TPU，Amazon有自己的芯片，OpenAI也在造芯。\n\n主持人当时提出一个有意思的角度：商学院教的是\"把你的互补品商品化\"，可NVIDIA这操作，怎么像是在把客户商品化？回答是，这其实是在帮NVIDIA的新一批客户。软件层越商品化，开一家推理公司就越容易，而开推理公司必然要买一堆NVIDIA芯片。所以最大受益者不是OpenAI，而是Modal、Fireworks这类新兴的GPU云厂商。Jensen两三年前就刻意投资多元生态，就是为了让任何一个客户或供应商都拿捏不了NVIDIA。\n\n顺着开源这个话题，就引出了第二个问题：今天美国在开源上到底处于什么位置？Zavandar说得很直白，毫无疑问，从数量上看美国只走了半步，落后了。原因包括人才、资本、资源，还有能不能合法地用前沿模型做蒸馏——蒸馏，说白了就是拿一个模型连续追问无数问题，快速构建出它的一个表征，等于把模型学的东西抄走一份。\n\n但真正有意思的，是把整条技术流动的线画出来：Anthropic或OpenAI用美国芯片训练前沿模型；中国的实验室，比如做Kimi的Moonshot，对这些模型做蒸馏，然后把表征开源；接着硅谷的垂直AI公司，像Harvey、Cursor、Cognition，再在中国模型上做微调。结果就是，一项技术在到达终端消费者之前，要跨越太平洋两次。一个美国律师用Harvey办案，背后已经混着亚洲和美国的技术、芯片、数据和人才。所以现在的判断是：如果切断这条纽带，等于砍掉美国垂直AI创新能力的大腿，除非美国自己的开源先赶上。\n\n那能阻止蒸馏吗？模型本身拦不住，但实验室可以追踪蒸馏什么时候发生、封锁那些地址。而这件事走到极限，就是Anthropic和OpenAI已经开始不再通过API开放前沿模型——没法编程访问，就没法以蒸馏需要的规模去查询。副作用也很扎心：中美前沿模型的差距可能因此拉大，仅仅因为美国的模型不再可被蒸馏。\n\n正是带着这些问题，Dimension团队去了中国。去年他们在上海投了一家科技与生物科技交汇的公司，今年又跑了上海、北京、香港。Zavandar的总结很直接：那次中国之行带来的冲击，等同于2017年第一次看到Transformer论文。具体看到了什么？一个年轻、受教育程度高、高度勤奋的群体，怀着深沉而一致的抱负去做真正的科学，而且不是在推特上谈论这件事，是直接去做下一件事。这让他想起八十年代的伯克利和早期硅谷。至于芯片管制，判断是\"还没定论\"：缺芯片确实逼着中国的编译器工程师、系统工程师从底层一路创新，让模型更便宜；但美国前沿实验室仍明显领先，主要靠更好的硅片。长远看，必须认为中国会追上来，没有什么是可以永远完全防御的——中国每年毕业的STEM学生比全球其他地方加起来都多。\n\n这就很自然地引出了第三条线：AI制药。Zavandar先自我交代，2013年入行以来，因为低估技术进步速度而亏掉的钱，远多于高估亏掉的。所以现在的核心判断是：在我们的有生之年，人类绝大多数疾病应该可以被治疗，我们正在那条路上。AI制药公司在做两类事，一类是设计药物本身，比如开发生成式工具，让生物学家能直接要求设计一个命中某个蛋白口袋的小分子；另一类是绘制生物学图谱，实时整合全世界的文献和病历数据——德国一个小实验室发的结果，礼来的研究者几乎不可能看到，但一个智能体第二天就该更新你的试验设计。\n\n难的部分也得说透：最耗时的环节过去是、将来也是人体试验。Novo刚在三期失败了一个针对IL-6的抗体，花掉超过5亿美元、跑了大约四年，所有二期生物标志物都压下去了，最后相关风险只降低1%。生物学真的很难，我们以为掌握了标志物，最后发现那是相关性，不是因果性。\n\n最后，把一句话留给各位：在AI制药这件事上，最有力的信念恰恰来自那些曾经低估过它的人——我们正在治愈大多数疾病的路上，只是生物学还会继续让人付出学费。"
+}

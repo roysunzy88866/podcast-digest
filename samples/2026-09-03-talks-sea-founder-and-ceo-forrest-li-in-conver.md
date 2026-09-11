@@ -10,14 +10,14 @@ description: Sea 集团创始人 Forrest(Lion City Sailors 队主、新加坡足
 host: "[[Tyler Bryson]]"
 cohosts: ["[[Forrest Li]]"]
 companies: ["[[Sea]]", "[[Garena]]", "[[Shopee]]", "[[Money]]", "[[Free Fire]]", "[[Shopee Pay]]", "[[S Pay Later]]", "[[Stripe]]", "[[GMAP]]"]
-concepts: ["[[预付卡]]", "[[自下而上]]", "[[信用卡渗透率]]", "[[AI]]", "[[机器人(游戏 NPC)]]", "[[谦逊]]"]
+concepts: ["[[预付卡]]", "[[自下而上]]", "[[信用卡渗透率]]", "[[AI]]", "[[机器人]]", "[[谦逊]]"]
 category: 创业与行业
 tags:
   - 创业与行业
   - 产品方法
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver#post","headline":"Sea 创始人 Forrest:从网吧预付卡到 100 亿美元放贷","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver","mainEntityOfPage":"https://talk.solomind.cc/2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver","description":"Sea 集团创始人 Forrest(Lion City Sailors 队主、新加坡足协会长)在 Stripe 新加坡活动上讲创业史：靠支付突破起家、自下而上做本地化、AI 客服满意度超人工。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Tyler Bryson"},{"@type":"Person","name":"Forrest Li"},{"@type":"Organization","name":"Sea"},{"@type":"Organization","name":"Garena"},{"@type":"Organization","name":"Shopee"},{"@type":"Organization","name":"Money"},{"@type":"Organization","name":"Free Fire"},{"@type":"Organization","name":"Shopee Pay"},{"@type":"Organization","name":"S Pay Later"},{"@type":"Organization","name":"Stripe"},{"@type":"Organization","name":"GMAP"},{"@type":"Thing","name":"预付卡 (prepaid card)"},{"@type":"Thing","name":"自下而上 (bottom-up)"},{"@type":"Thing","name":"信用卡渗透率 (credit card penetration)"},{"@type":"Thing","name":"AI"},{"@type":"Thing","name":"机器人(游戏 NPC) (bot)"},{"@type":"Thing","name":"谦逊 (humble)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Sea 创始人 Forrest:从网吧预付卡到 100 亿美元放贷","item":"https://talk.solomind.cc/2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver#post","headline":"Sea 创始人 Forrest:从网吧预付卡到 100 亿美元放贷","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver","mainEntityOfPage":"https://talk.solomind.cc/2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver","description":"Sea 集团创始人 Forrest(Lion City Sailors 队主、新加坡足协会长)在 Stripe 新加坡活动上讲创业史：靠支付突破起家、自下而上做本地化、AI 客服满意度超人工。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Tyler Bryson"},{"@type":"Person","name":"Forrest Li"},{"@type":"Organization","name":"Sea"},{"@type":"Organization","name":"Garena"},{"@type":"Organization","name":"Shopee"},{"@type":"Organization","name":"Money"},{"@type":"Organization","name":"Free Fire"},{"@type":"Organization","name":"Shopee Pay"},{"@type":"Organization","name":"S Pay Later"},{"@type":"Organization","name":"Stripe"},{"@type":"Organization","name":"GMAP"},{"@type":"Thing","name":"预付卡 (prepaid card)"},{"@type":"Thing","name":"自下而上 (bottom-up)"},{"@type":"Thing","name":"信用卡渗透率 (credit card penetration)"},{"@type":"Thing","name":"AI"},{"@type":"Thing","name":"机器人 (bot)"},{"@type":"Thing","name":"谦逊 (humble)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Sea 创始人 Forrest:从网吧预付卡到 100 亿美元放贷","item":"https://talk.solomind.cc/2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sea 创始人 Forrest:从网吧预付卡到 100 亿美元放贷</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[Sea]] · [[Garena]] · [[Shopee]] · [[Money]] · [[Free Fire]] · [[Shopee Pay]] · [[S Pay Later]] · [[Stripe]] · [[GMAP]]
 >
-> **概念** [[预付卡]] · [[自下而上]] · [[信用卡渗透率]] · [[AI]] · [[机器人(游戏 NPC)]] · [[谦逊]]
+> **概念** [[预付卡]] · [[自下而上]] · [[信用卡渗透率]] · [[AI]] · [[机器人]] · [[谦逊]]
 
 这一集是 [[Stripe|Stripe]] 巡回活动新加坡站的炉边谈话，主持人 Tyler 对话的是 [[Sea|Sea]] 集团创始人 Forrest——他一手创办了 [[Garena|Garena]](游戏)、[[Shopee|Shopee]](电商)和金融业务三块业务，如今公司有 6 万名员工。最反直觉的一点是：这家游戏公司早期最关键的突破，不是游戏，而是支付。
 
@@ -138,6 +138,29 @@ Forrest 自己是重度玩家，来新加坡后发现这里有非常浓厚的游
 > <span class="qz">问题有时甚至会自行解决。但非常重要的事情就是相信自己，信任自己，永远、永远不要放弃。</span>  
 > *The problem sometimes even just solved by itself. But the very important thing is just trust yourself, believe yourself, and never, never give up.*  
 > <span class="qm">—— Forrest Li · [41:01]</span> ^q8
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同公司:Stripe · 同概念:AI</span>
+- [[2025-11-02-lennys-the-making-of-canva|Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来]]<span class="pd-rz">同概念:AI</span>
+- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Stripe</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Stripe</span>
+- [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同概念:AI</span>
+- [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|开源贡献的真正门槛：不是代码，是认知负荷]]<span class="pd-rz">同概念:AI</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

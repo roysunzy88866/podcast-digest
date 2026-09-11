@@ -1,0 +1,4514 @@
+[
+ {
+  "seg": 0,
+  "start": 0.051,
+  "end": 1.952,
+  "speaker": "Unknown",
+  "en": "What do you think NVIDIA sees with this deal?",
+  "zh": "你觉得 NVIDIA 从这笔交易中看到了什么？"
+ },
+ {
+  "seg": 1,
+  "start": 2.192,
+  "end": 11.495,
+  "speaker": "Unknown",
+  "en": "I think they now have the most important open source repository in the history of software and definitely for kind of ML and AI, like a phase shift.",
+  "zh": "我认为他们现在拥有了软件史上最重要的开源仓库，当然对于 ML 和 AI 来说更是如此，就像一次相变。"
+ },
+ {
+  "seg": 2,
+  "start": 11.555,
+  "end": 14.696,
+  "speaker": "Unknown",
+  "en": "There was my life before, you know, Transformer models and after.",
+  "zh": "有我之前的生活，你知道，Transformer 模型之前和之后。"
+ },
+ {
+  "seg": 3,
+  "start": 14.796,
+  "end": 20.178,
+  "speaker": "Unknown",
+  "en": "And in a lot of ways, I kind of think of my life before Shanghai 2025 and after Shanghai 2025.",
+  "zh": "而且在很多方面，我有点把我的生活分为上海 2025 之前和上海 2025 之后。"
+ },
+ {
+  "seg": 4,
+  "start": 20.198,
+  "end": 23.399,
+  "speaker": "Unknown",
+  "en": "The vast majority of human disease should be solved, should be treatable.",
+  "zh": "绝大多数人类疾病应该被解决，应该可以被治疗。"
+ },
+ {
+  "seg": 5,
+  "start": 23.939,
+  "end": 25.44,
+  "speaker": "Unknown",
+  "en": "And I think we're on that path.",
+  "zh": "而且我认为我们正在这条路上。"
+ },
+ {
+  "seg": 6,
+  "start": 25.66,
+  "end": 28.582,
+  "speaker": "Unknown",
+  "en": "Zavindar is one of the smartest investors I know.",
+  "zh": "Zavindar 是我认识的最聪明的投资人之一。"
+ },
+ {
+  "seg": 7,
+  "start": 28.702,
+  "end": 36.866,
+  "speaker": "Unknown",
+  "en": "Back when he was at the venture capital firm Lux, he helped to invest in Hugging Face long before NVIDIA scooped it up for some $13 billion.",
+  "zh": "早在他还在风险投资公司 Lux 的时候，他参与投资了 Hugging Face，远在 NVIDIA 以大约 130 亿美元将其收入囊中之前。"
+ },
+ {
+  "seg": 8,
+  "start": 37.107,
+  "end": 47.632,
+  "speaker": "Unknown",
+  "en": "He unpacks NVIDIA's open source endgame, China's AI and biotech surge, and whether AI can deliver on its boldest promise yet, designing better drugs and transforming human health.",
+  "zh": "他解读了 NVIDIA 的开源终局、中国的 AI 和生物科技浪潮，以及 AI 能否兑现其迄今最大胆的承诺——设计更好的药物、变革人类健康。"
+ },
+ {
+  "seg": 9,
+  "start": 48.813,
+  "end": 50.714,
+  "speaker": "Unknown",
+  "en": "I'm Eric Newcomer, host of this podcast.",
+  "zh": "我是 Eric Newcomer，这个播客的主持人。"
+ },
+ {
+  "seg": 10,
+  "start": 50.734,
+  "end": 52.575,
+  "speaker": "Unknown",
+  "en": "Go read our sub stack at Newcomer.co.",
+  "zh": "去 Newcomer.co 阅读我们的 sub stack。"
+ },
+ {
+  "seg": 11,
+  "start": 52.995,
+  "end": 53.616,
+  "speaker": "Unknown",
+  "en": "Let's get into it.",
+  "zh": "我们开始吧。"
+ },
+ {
+  "seg": 12,
+  "start": 55.323,
+  "end": 57.224,
+  "speaker": "Unknown",
+  "en": "Zavandar, welcome to the Newcomer Podcast.",
+  "zh": "Zavandar，欢迎来到 Newcomer 播客。"
+ },
+ {
+  "seg": 13,
+  "start": 57.444,
+  "end": 58.024,
+  "speaker": "Unknown",
+  "en": "What's up, Eric?",
+  "zh": "怎么样，Eric？"
+ },
+ {
+  "seg": 14,
+  "start": 58.164,
+  "end": 58.825,
+  "speaker": "Unknown",
+  "en": "Thanks for having me.",
+  "zh": "谢谢你邀请我。"
+ },
+ {
+  "seg": 15,
+  "start": 58.845,
+  "end": 59.985,
+  "speaker": "Unknown",
+  "en": "Yeah, thrilled to have you.",
+  "zh": "是的，很高兴有你来。"
+ },
+ {
+  "seg": 16,
+  "start": 60.105,
+  "end": 62.026,
+  "speaker": "Unknown",
+  "en": "There's so much I want to talk about.",
+  "zh": "我有好多想聊的。"
+ },
+ {
+  "seg": 17,
+  "start": 62.066,
+  "end": 67.969,
+  "speaker": "Unknown",
+  "en": "You and your firm Dimension just went on a journey to China and wrote a note digesting that.",
+  "zh": "你和你的公司 Dimension 刚刚去了中国一趟，并写了一份笔记消化此行。"
+ },
+ {
+  "seg": 18,
+  "start": 68.369,
+  "end": 77.633,
+  "speaker": "Unknown",
+  "en": "You were part of an investment when you were at Lux in Hugging Face, which is this phenomenal, insane exit to NVIDIA, something like $12.9 billion plus retention.",
+  "zh": "你在 Lux 时参与了 Hugging Face 的投资，那是给 NVIDIA 的一笔惊人的、疯狂的退出，大约 129 亿美元外加留任。"
+ },
+ {
+  "seg": 19,
+  "start": 79.594,
+  "end": 88.181,
+  "speaker": "Unknown",
+  "en": "And then you're sort of at the heart of investing in AI companies that are trying to transform science and biology.",
+  "zh": "而且你如今处于投资那些试图变革科学和生物学的 AI 公司的核心。"
+ },
+ {
+  "seg": 20,
+  "start": 88.201,
+  "end": 93.766,
+  "speaker": "Unknown",
+  "en": "And that's at the core of some of like the biggest promises that the AI industry is making.",
+  "zh": "而这正是 AI 行业所作出的最大承诺的一部分。"
+ },
+ {
+  "seg": 21,
+  "start": 93.806,
+  "end": 101.732,
+  "speaker": "Unknown",
+  "en": "So I want you to sort of play tour guide a little bit and explain what's going on there and what companies can do and can't do.",
+  "zh": "所以我想让你当一下导游，解释一下那里正在发生什么，以及这些公司能做什么、不能做什么。"
+ },
+ {
+  "seg": 22,
+  "start": 101.792,
+  "end": 102.473,
+  "speaker": "Unknown",
+  "en": "You're an investor.",
+  "zh": "你是一位投资人。"
+ },
+ {
+  "seg": 23,
+  "start": 103.173,
+  "end": 112.518,
+  "speaker": "Unknown",
+  "en": "Coefficient Bio, which I reported sold for something like $400 million to Anthropic early on, a great early return for Dimension.",
+  "zh": "Coefficient Bio，据我报道它早期以大约 4 亿美元卖给了 Anthropic，对 Dimension 来说是一笔很棒的早期回报。"
+ },
+ {
+  "seg": 24,
+  "start": 112.859,
+  "end": 116.781,
+  "speaker": "Unknown",
+  "en": "Let's start off on Hugging Face, just given it's so fresh in everyone's mind.",
+  "zh": "我们从 Hugging Face 开始吧，毕竟它还让大家记忆犹新。"
+ },
+ {
+  "seg": 25,
+  "start": 117.141,
+  "end": 118.542,
+  "speaker": "Unknown",
+  "en": "What did you guys see?",
+  "zh": "你们当时看到了什么？"
+ },
+ {
+  "seg": 26,
+  "start": 119.463,
+  "end": 121.524,
+  "speaker": "Unknown",
+  "en": "Brandon Reeves at Lux invested with you.",
+  "zh": "Lux 的 Brandon Reeves 和你一起投资。"
+ },
+ {
+  "seg": 27,
+  "start": 121.544,
+  "end": 124.806,
+  "speaker": "Unknown",
+  "en": "What did you guys see when you made the investment?",
+  "zh": "你们做投资时看到了什么？"
+ },
+ {
+  "seg": 28,
+  "start": 125.466,
+  "end": 128.788,
+  "speaker": "Unknown",
+  "en": "And then, yeah, what do you think NVIDIA has seen with this deal?",
+  "zh": "然后，是的，你觉得 NVIDIA 从这笔交易中看到了什么？"
+ },
+ {
+  "seg": 29,
+  "start": 129.289,
+  "end": 129.669,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 30,
+  "start": 129.829,
+  "end": 140.737,
+  "speaker": "Unknown",
+  "en": "You know, I think at Lux, we'd been investing in and around kind of ML and AI really since 2014, around when I joined the firm.",
+  "zh": "你知道，我认为在 Lux，我们大约从 2014 年开始就在 ML 和 AI 领域及其周边进行投资，大概是我加入公司的时候。"
+ },
+ {
+  "seg": 31,
+  "start": 140.777,
+  "end": 155.167,
+  "speaker": "Unknown",
+  "en": "And a lot of it was spurred by advancements we were watching, at least at that point, just in our backyard in Stanford, with kind of the emergence and maturation and scale of neural nets, which then became kind of deep nets and deep learning.",
+  "zh": "其中很多是受到我们当时观察到的进展推动，至少在那时，就在我们后院的斯坦福，神经网络的兴起、成熟和规模化，后来演变成了深度网络和深度学习。"
+ },
+ {
+  "seg": 32,
+  "start": 157.348,
+  "end": 161.569,
+  "speaker": "Unknown",
+  "en": "Hugging Face was a company we had been aware of and had been tracking.",
+  "zh": "Hugging Face 是我们一直在关注和追踪的公司。"
+ },
+ {
+  "seg": 33,
+  "start": 161.589,
+  "end": 171.952,
+  "speaker": "Unknown",
+  "en": "It was formerly kind of a chatbot, transitioned into a kind of an open source repo for a Transformer model, specifically at that point, not to get too technical BART and BERT models.",
+  "zh": "它以前是个聊天机器人，转型成了一个 Transformer 模型的开源仓库，具体在那时，不深入技术细节的话，是 BART 和 BERT 模型。"
+ },
+ {
+  "seg": 34,
+  "start": 172.132,
+  "end": 181.295,
+  "speaker": "Unknown",
+  "en": "It was actually sourced by our former partner, Zach Schilder, who I think got an email from Betaworks, if I'm remembering correctly, saying, hey, one of our companies, there used to be a chatbot, they're moving into",
+  "zh": "这个项目实际上是由我们前合伙人 Zach Schilder 找到的，如果我没记错的话，他收到了 Betaworks 的一封邮件说，嘿，我们的一家公司，以前是个聊天机器人，他们正在转向"
+ },
+ {
+  "seg": 35,
+  "start": 181.935,
+  "end": 184.597,
+  "speaker": "Unknown",
+  "en": "The enterprise space, it's kind of deep tech and AI.",
+  "zh": "企业领域，算是深度科技和 AI。"
+ },
+ {
+  "seg": 36,
+  "start": 184.617,
+  "end": 186.438,
+  "speaker": "Unknown",
+  "en": "We think Lux might be interested in it.",
+  "zh": "我们觉得 Lux 可能会感兴趣。"
+ },
+ {
+  "seg": 37,
+  "start": 187.198,
+  "end": 188.999,
+  "speaker": "Unknown",
+  "en": "And Zach kind of shared it around internally.",
+  "zh": "Zach 在内部把它分享了一圈。"
+ },
+ {
+  "seg": 38,
+  "start": 189.059,
+  "end": 190.2,
+  "speaker": "Unknown",
+  "en": "Brandon and I raised our hands.",
+  "zh": "Brandon 和我举了手。"
+ },
+ {
+  "seg": 39,
+  "start": 191.52,
+  "end": 194.642,
+  "speaker": "Unknown",
+  "en": "Brandon gets truly kind of all of the credit here.",
+  "zh": "Brandon 在这里真的功不可没。"
+ },
+ {
+  "seg": 40,
+  "start": 194.722,
+  "end": 200.005,
+  "speaker": "Unknown",
+  "en": "He was uniquely the champion, the table pounder, vociferous that kind of we should be involved.",
+  "zh": "他是独一无二的拥护者、拍桌者，声嘶力竭地主张我们应该参与。"
+ },
+ {
+  "seg": 41,
+  "start": 200.965,
+  "end": 205.488,
+  "speaker": "Unknown",
+  "en": "We ended up leading the Series A after spending time with Clem and Julian and Thomas.",
+  "zh": "在与 Clem、Julian 和 Thomas 相处之后，我们最终领投了 A 轮。"
+ },
+ {
+  "seg": 42,
+  "start": 206.068,
+  "end": 214.773,
+  "speaker": "Unknown",
+  "en": "My memory is that it was a little bit of a competitive Series A, so we kind of took out, you know, Clem and Julian to Lucienne, a French bot here in this village.",
+  "zh": "我的记忆是那是一场竞争挺激烈的 A 轮，所以我们带着 Clem 和 Julian 去了 Lucienne，这是这个村子里的一家法式小馆。"
+ },
+ {
+  "seg": 43,
+  "start": 214.793,
+  "end": 218.135,
+  "speaker": "Unknown",
+  "en": "If you've been there, I had cocktails at Garfunkel's and now defuncts.",
+  "zh": "如果你去过那里，我在现已停业的 Garfunkel's 喝了鸡尾酒。"
+ },
+ {
+  "seg": 44,
+  "start": 218.155,
+  "end": 219.816,
+  "speaker": "Unknown",
+  "en": "You're like, I was part of the courting.",
+  "zh": "你会说，我是追求过程的一部分。"
+ },
+ {
+  "seg": 45,
+  "start": 220.196,
+  "end": 220.836,
+  "speaker": "Unknown",
+  "en": "I was good at it.",
+  "zh": "我很擅长这个。"
+ },
+ {
+  "seg": 46,
+  "start": 220.876,
+  "end": 221.717,
+  "speaker": "Unknown",
+  "en": "Kind of, yeah.",
+  "zh": "算是吧，是的。"
+ },
+ {
+  "seg": 47,
+  "start": 222.017,
+  "end": 226.461,
+  "speaker": "Unknown",
+  "en": "That's a good dinner companion.",
+  "zh": "那是个好的晚餐伴侣。"
+ },
+ {
+  "seg": 48,
+  "start": 227.082,
+  "end": 232.487,
+  "speaker": "Unknown",
+  "en": "You can kind of conversate with the founders in their language, quite literally.",
+  "zh": "你可以和创始人用他们的语言交谈，相当字面意义上的。"
+ },
+ {
+  "seg": 49,
+  "start": 232.567,
+  "end": 237.071,
+  "speaker": "Unknown",
+  "en": "They'd been in like sort of chatbot territory before, right?",
+  "zh": "他们之前也做过类似聊天机器人的领域，对吧？"
+ },
+ {
+  "seg": 50,
+  "start": 237.131,
+  "end": 240.293,
+  "speaker": "Unknown",
+  "en": "But then they had, but they were pretty technical for what they were doing.",
+  "zh": "但他们，对于他们在做的事情来说，他们相当有技术功底。"
+ },
+ {
+  "seg": 51,
+  "start": 240.313,
+  "end": 240.413,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 52,
+  "start": 240.633,
+  "end": 244.455,
+  "speaker": "Unknown",
+  "en": "I mean, Julian did his grad school in computer science at Stanford.",
+  "zh": "我是说，Julian 在斯坦福读的是计算机科学研究生。"
+ },
+ {
+  "seg": 53,
+  "start": 244.515,
+  "end": 247.776,
+  "speaker": "Unknown",
+  "en": "Thomas, was he called Polytech, computer science PhD.",
+  "zh": "Thomas，他是叫 Polytech 吗，计算机科学博士。"
+ },
+ {
+  "seg": 54,
+  "start": 248.977,
+  "end": 254.9,
+  "speaker": "Unknown",
+  "en": "They were amongst some of the earliest true kind of innovators and application engineers atop of transformer models.",
+  "zh": "他们是最早在 transformer 模型之上做真正创新和应用工程师的那批人之一。"
+ },
+ {
+  "seg": 55,
+  "start": 255.42,
+  "end": 261.104,
+  "speaker": "Unknown",
+  "en": "And so their initial application was more of a chatbot Tamagotchi-like thing for kids.",
+  "zh": "所以他们最初的应用更像是一个给孩子们用的类似电子宠物（Tamagotchi）的聊天机器人。"
+ },
+ {
+  "seg": 56,
+  "start": 262.265,
+  "end": 267.068,
+  "speaker": "Unknown",
+  "en": "Frankly, we met the company after they had already transitioned, but right after they transitioned.",
+  "zh": "坦白说，我们是在他们转型之后才认识这家公司的，但就在他们转型之后不久。"
+ },
+ {
+  "seg": 57,
+  "start": 267.088,
+  "end": 270.231,
+  "speaker": "Unknown",
+  "en": "And what was immediately evident then was...",
+  "zh": "那时候立刻显而易见的是……"
+ },
+ {
+  "seg": 58,
+  "start": 272.372,
+  "end": 280.495,
+  "speaker": "Unknown",
+  "en": "Just an insane amount of developer pull for what they were tracking.",
+  "zh": "他们所追踪的那种开发者拉力，量大到疯狂。"
+ },
+ {
+  "seg": 59,
+  "start": 280.515,
+  "end": 289.658,
+  "speaker": "Unknown",
+  "en": "I remember Brandon coming into a Monday IC and showing the GitHub stars over time for the Hugging Face repo, and it was outpacing any other prior open source repo we had ever seen.",
+  "zh": "我记得 Brandon 在一次周一的 IC 会议上展示 Hugging Face 仓库的 GitHub 星标随时间的变化，它超越了我们此前见过的任何其他开源仓库。"
+ },
+ {
+  "seg": 60,
+  "start": 291.419,
+  "end": 298.864,
+  "speaker": "Unknown",
+  "en": "So we ended up leading the A. Brandon, again, truly getting all the credit here, took the board seat.",
+  "zh": "所以我们最终领投了 A 轮。Brandon，再说一次，功劳真的全在他，拿了董事会席位。"
+ },
+ {
+  "seg": 61,
+  "start": 298.944,
+  "end": 302.406,
+  "speaker": "Unknown",
+  "en": "I was kind of shadowing along as a board observer with him.",
+  "zh": "我当时作为董事会观察员跟着他一起。"
+ },
+ {
+  "seg": 62,
+  "start": 303.167,
+  "end": 307.81,
+  "speaker": "Unknown",
+  "en": "And then obviously, you know, I left in 2022, but like what he and Clem and Julian and Thomas",
+  "zh": "然后显然，你知道，我 2022 年离开了，但他和 Clem、Julian 还有 Thomas……"
+ },
+ {
+  "seg": 63,
+  "start": 308.55,
+  "end": 310.311,
+  "speaker": "Unknown",
+  "en": "And then others around the firm, too.",
+  "zh": "以及公司里的其他人。"
+ },
+ {
+  "seg": 64,
+  "start": 310.371,
+  "end": 316.295,
+  "speaker": "Unknown",
+  "en": "Kotu came in, Sequoia came in, Addition, LeafExcel came in to get just a bunch of credit.",
+  "zh": "Kotu 进来了，Sequoia 进来了，Addition、LeafExcel 进来了，就只是为了凑一份功劳。"
+ },
+ {
+  "seg": 65,
+  "start": 316.935,
+  "end": 332.825,
+  "speaker": "Unknown",
+  "en": "I posted on Twitter a little bit of a funny kind of tongue-in-cheek comment, which is we actually approached Betaworks multiple times after we joined the board to try to buy their equity at a premium to where we had just invested, but kind of seeing just how special this team was.",
+  "zh": "我在 Twitter 上发了一条有点好玩的半开玩笑的评论，就是我们加入董事会之后实际上多次接触 Betaworks，试图以高于我们刚投资的估值溢价购买他们的股权，因为我们看到了这个团队有多特别。"
+ },
+ {
+  "seg": 66,
+  "start": 332.865,
+  "end": 337.328,
+  "speaker": "Unknown",
+  "en": "And to their credit, they deftly shirked our offers.",
+  "zh": "而且值得称赞的是，他们巧妙地回绝了我们的报价。"
+ },
+ {
+  "seg": 67,
+  "start": 338.349,
+  "end": 340.571,
+  "speaker": "Unknown",
+  "en": "I think a really good day and outcome for everybody.",
+  "zh": "我觉得这对每个人来说都是非常好的一天和结果。"
+ },
+ {
+  "seg": 68,
+  "start": 340.591,
+  "end": 342.953,
+  "speaker": "Unknown",
+  "en": "And what do you think NVIDIA sees with this deal?",
+  "zh": "那你觉得 NVIDIA 从这笔交易中看到了什么？"
+ },
+ {
+  "seg": 69,
+  "start": 343.83,
+  "end": 356.693,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I think they now have the most kind of important open source repository in the history of software and definitely for kind of ML and AI.",
+  "zh": "是的，我是说，我觉得他们现在拥有了软件历史上最重要——至少对于 ML 和 AI 而言绝对是——的开源仓库。"
+ },
+ {
+  "seg": 70,
+  "start": 356.733,
+  "end": 364.936,
+  "speaker": "Unknown",
+  "en": "If you think of where NVIDIA goes, NVIDIA is successful almost one-to-one with kind of the rise of open source.",
+  "zh": "如果你想 NVIDIA 走到哪里，NVIDIA 的成功几乎与开源的崛起是一对一的。"
+ },
+ {
+  "seg": 71,
+  "start": 365.416,
+  "end": 369.737,
+  "speaker": "Unknown",
+  "en": "And so the ability to standardize essentially the",
+  "zh": "所以本质上把那个东西标准化的能力"
+ },
+ {
+  "seg": 72,
+  "start": 370.517,
+  "end": 380.588,
+  "speaker": "Unknown",
+  "en": "The medium between software and silicon, if that can be kind of intermediated with open source, NVIDIA is in a really good spot to make sure that their chipsets kind of reign supreme.",
+  "zh": "软件和硅之间的介质，如果这能够通过开源来中介，NVIDIA 就处于一个非常好的位置，确保他们的芯片组称霸。"
+ },
+ {
+  "seg": 73,
+  "start": 381.709,
+  "end": 386.794,
+  "speaker": "Unknown",
+  "en": "It also, I think, helps counterbalance a lot of the pull that Anthropic and OpenAI have right now.",
+  "zh": "我还觉得，这有助于制衡 Anthropic 和 OpenAI 现在拥有的很多拉力。"
+ },
+ {
+  "seg": 74,
+  "start": 386.814,
+  "end": 392.1,
+  "speaker": "Unknown",
+  "en": "And all you have to do is see OpenAI launch something like, was it Jalapeno, their own chipset?",
+  "zh": "你只需要看看 OpenAI 发布了类似的东西，是叫 Jalapeno 吗，他们自己的芯片组？"
+ },
+ {
+  "seg": 75,
+  "start": 392.86,
+  "end": 401.567,
+  "speaker": "Unknown",
+  "en": "I know Anthropic's thinking about it and obviously- I imagine Anthropic is thinking- Google's got TPUs, Amazon's got Tranium.",
+  "zh": "我知道 Anthropic 在考虑这个，显然——我想 Anthropic 在考虑——Google 有 TPU，Amazon 有 Tranium。"
+ },
+ {
+  "seg": 76,
+  "start": 401.607,
+  "end": 409.734,
+  "speaker": "Unknown",
+  "en": "There's a take I've seen online that's sort of the traditional business school wisdom is that you commoditize your compliment.",
+  "zh": "我在网上看到过一种说法，传统商学院的智慧是你要把你的互补品商品化。"
+ },
+ {
+  "seg": 77,
+  "start": 410.074,
+  "end": 416.96,
+  "speaker": "Unknown",
+  "en": "You make something that you need to buy my service really cheap and easy to get so that you're happy to buy my service.",
+  "zh": "你把某种买我的服务所需要的东西做得非常便宜且容易获得，这样你就很乐意买我的服务。"
+ },
+ {
+  "seg": 78,
+  "start": 417.46,
+  "end": 425.851,
+  "speaker": "Unknown",
+  "en": "But NVIDIA seems to be commoditizing their customer, which you'd think they would want their customers to thrive to continue to spend money on NVIDIA.",
+  "zh": "但 NVIDIA 似乎在把他们的客户商品化，你会觉得他们应该希望他们的客户蓬勃发展，以继续在 NVIDIA 上花钱。"
+ },
+ {
+  "seg": 79,
+  "start": 425.911,
+  "end": 433.681,
+  "speaker": "Unknown",
+  "en": "I know you get to live in the world of early stage startups and NVIDIA's corporate strategy is a little far afield, but do you have any thoughts on",
+  "zh": "我知道你身处早期创业公司的世界，而 NVIDIA 的公司战略有点遥远，但你对此有什么想法吗"
+ },
+ {
+  "seg": 80,
+  "start": 435.589,
+  "end": 439.171,
+  "speaker": "Unknown",
+  "en": "Anthropic and OpenAI, NVIDIA needs those companies to succeed.",
+  "zh": "Anthropic 和 OpenAI，NVIDIA 需要这些公司成功。"
+ },
+ {
+  "seg": 81,
+  "start": 439.251,
+  "end": 440.411,
+  "speaker": "Unknown",
+  "en": "It's going to be pretty brutal.",
+  "zh": "否则将会相当残酷。"
+ },
+ {
+  "seg": 82,
+  "start": 441.091,
+  "end": 449.474,
+  "speaker": "Unknown",
+  "en": "If they don't, I imagine it's a huge percentage of the spend has to do either from OpenAI or because people are using OpenAI or whatever.",
+  "zh": "如果他们不成功，我想很大比例的支出要么来自 OpenAI，要么是因为人们在用 OpenAI 之类的。"
+ },
+ {
+  "seg": 83,
+  "start": 449.654,
+  "end": 450.715,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 84,
+  "start": 450.795,
+  "end": 457.297,
+  "speaker": "Unknown",
+  "en": "I think two years ago that probably was true where the lion's share of NVIDIA's revenue came from the hyperscalers and the frontier labs.",
+  "zh": "我觉得两年前可能确实是这样，NVIDIA 收入的绝大部分来自超大规模云厂商和前沿实验室。"
+ },
+ {
+  "seg": 85,
+  "start": 457.737,
+  "end": 464.901,
+  "speaker": "Unknown",
+  "en": "Today, it's the hyperscalers vis-a-vis inference, not necessarily just on their models, but on open source models, and then also the NeoClouds.",
+  "zh": "今天，是超大规模云厂商，就推理而言，不一定只是在他们的模型上，而是在开源模型上，然后还有 NeoCloud。"
+ },
+ {
+  "seg": 86,
+  "start": 466.242,
+  "end": 470.865,
+  "speaker": "Unknown",
+  "en": "So, you know, the modals, the base hands, the fireworks, the Nebiuses, the core weaves of the world.",
+  "zh": "所以，你知道，那些 Modal、Basehunt、Fireworks、Nebius、CoreWeave 之类的。"
+ },
+ {
+  "seg": 87,
+  "start": 471.726,
+  "end": 475.828,
+  "speaker": "Unknown",
+  "en": "But in some ways, some of those are NVIDIA, too, in certain ways.",
+  "zh": "但在某些方面，其中一些在某种程度上也是 NVIDIA 的。"
+ },
+ {
+  "seg": 88,
+  "start": 475.908,
+  "end": 477.829,
+  "speaker": "Unknown",
+  "en": "NVIDIA has funded them, they're using NVIDIA chips.",
+  "zh": "NVIDIA 给他们投了资，他们在用 NVIDIA 芯片。"
+ },
+ {
+  "seg": 89,
+  "start": 477.889,
+  "end": 478.59,
+  "speaker": "Unknown",
+  "en": "Has put them in business.",
+  "zh": "让他们做起了生意。"
+ },
+ {
+  "seg": 90,
+  "start": 478.65,
+  "end": 485.114,
+  "speaker": "Unknown",
+  "en": "I mean, at this point, they're, you know, runaway freight trains in terms of business momentum, revenue, customer traction, so on and so forth.",
+  "zh": "我是说，在这一点上，就业务势头、收入、客户牵引力等等而言，他们你知道的，是脱轨狂奔的货运列车。"
+ },
+ {
+  "seg": 91,
+  "start": 485.834,
+  "end": 486.235,
+  "speaker": "Unknown",
+  "en": "NVIDIA",
+  "zh": "NVIDIA"
+ },
+ {
+  "seg": 92,
+  "start": 487.667,
+  "end": 501.634,
+  "speaker": "Unknown",
+  "en": "Again, probably in a strategically shrewd way, Jensen gets a lot of credit for this, made the ecosystem more diverse, like deliberately started investing in a diverse ecosystem two or three years ago.",
+  "zh": "再说一次，可能是以一种战略上精明的方式，Jensen 在这方面功劳很大，让生态系统更多元化了，像是两三年前刻意开始投资于一个多元的生态系统。"
+ },
+ {
+  "seg": 93,
+  "start": 502.094,
+  "end": 506.656,
+  "speaker": "Unknown",
+  "en": "So no one customer or provider could get too much leverage over them.",
+  "zh": "这样没有任何一个客户或供应商能对他们拥有太多杠杆。"
+ },
+ {
+  "seg": 94,
+  "start": 507.056,
+  "end": 516.101,
+  "speaker": "Unknown",
+  "en": "If you think about what it means to make the soft, to commoditize the software layer, and we can debate whether or not that's actually happening or to what extent or what the various shades of gray there are.",
+  "zh": "如果你想把软件商品化意味着什么，我们可以争论这是否真的在发生，或者到什么程度，或者其中有多少种灰色地带。"
+ },
+ {
+  "seg": 95,
+  "start": 516.601,
+  "end": 522.025,
+  "speaker": "Unknown",
+  "en": "But if you think about what it means to commoditize the software layer, it means it's much easier now for someone to kind of set up an inference company.",
+  "zh": "但如果你想软件层商品化意味着什么，那就是现在对某人来说搭起一家推理公司容易多了。"
+ },
+ {
+  "seg": 96,
+  "start": 522.445,
+  "end": 523.866,
+  "speaker": "Unknown",
+  "en": "And how do you set up an inference company?",
+  "zh": "那你要怎么搭起一家推理公司？"
+ },
+ {
+  "seg": 97,
+  "start": 523.906,
+  "end": 526.648,
+  "speaker": "Unknown",
+  "en": "You're going to need necessarily— Buy a bunch of chips from NVIDIA.",
+  "zh": "你必然会需要—— 买一堆 NVIDIA 的芯片。"
+ },
+ {
+  "seg": 98,
+  "start": 526.728,
+  "end": 527.528,
+  "speaker": "Unknown",
+  "en": "Buy a bunch of chips.",
+  "zh": "买一堆芯片。"
+ },
+ {
+  "seg": 99,
+  "start": 527.669,
+  "end": 529.23,
+  "speaker": "Unknown",
+  "en": "And so I think it's helping their customer.",
+  "zh": "所以我觉得这是在帮他们的客户。"
+ },
+ {
+  "seg": 100,
+  "start": 529.45,
+  "end": 531.111,
+  "speaker": "Unknown",
+  "en": "Actually, it's helping their new cohort of customers more.",
+  "zh": "实际上，这对他们的新一批客户帮助更大。"
+ },
+ {
+  "seg": 101,
+  "start": 531.131,
+  "end": 532.572,
+  "speaker": "Unknown",
+  "en": "Their customers, the NeoCloud, you're saying.",
+  "zh": "你说的是他们的客户，NeoCloud。"
+ },
+ {
+  "seg": 102,
+  "start": 532.592,
+  "end": 532.972,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 103,
+  "start": 533.192,
+  "end": 533.372,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 104,
+  "start": 533.452,
+  "end": 541.618,
+  "speaker": "Unknown",
+  "en": "Or the hyperscalers, Google, obviously, with their kind of potentially shuttering DeepMind instead to focus more so on kind of the Google Cloud.",
+  "zh": "或者是超大规模云厂商，比如 Google，显然，他们可能会关停 DeepMind，转而更专注于 Google Cloud。"
+ },
+ {
+  "seg": 105,
+  "start": 541.961,
+  "end": 543.302,
+  "speaker": "Unknown",
+  "en": "You think they're going to shutter DeepMind?",
+  "zh": "你认为他们会关停 DeepMind？"
+ },
+ {
+  "seg": 106,
+  "start": 543.402,
+  "end": 546.804,
+  "speaker": "Unknown",
+  "en": "Well, they've divested some of their resources into DeepMind.",
+  "zh": "嗯，他们已经把一部分资源剥离进了 DeepMind。"
+ },
+ {
+  "seg": 107,
+  "start": 546.864,
+  "end": 555.11,
+  "speaker": "Unknown",
+  "en": "And I think that's tantamount to some sort of reflection that they're probably saying, at least today, the revenue is coming from inference.",
+  "zh": "我认为这相当于某种反思，他们大概是在说，至少在今天，收入是来自推理的。"
+ },
+ {
+  "seg": 108,
+  "start": 555.23,
+  "end": 555.75,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 109,
+  "start": 556.211,
+  "end": 561.715,
+  "speaker": "Unknown",
+  "en": "So it's more like Google Cloud than it is be the next OpenAI.",
+  "zh": "所以这更像是做 Google Cloud，而不是成为下一个 OpenAI。"
+ },
+ {
+  "seg": 110,
+  "start": 562.175,
+  "end": 562.535,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "说得对。"
+ },
+ {
+  "seg": 111,
+  "start": 562.835,
+  "end": 563.015,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 112,
+  "start": 563.055,
+  "end": 564.316,
+  "speaker": "Unknown",
+  "en": "You think that's how they're committed?",
+  "zh": "你认为他们对此有多投入？"
+ },
+ {
+  "seg": 113,
+  "start": 564.516,
+  "end": 568.219,
+  "speaker": "Unknown",
+  "en": "I think that's certainly the body language that you're reading if you're observing them.",
+  "zh": "如果你观察他们，我认为这肯定是你在解读出的肢体语言。"
+ },
+ {
+  "seg": 114,
+  "start": 568.479,
+  "end": 568.679,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 115,
+  "start": 568.759,
+  "end": 569.12,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有意思。"
+ },
+ {
+  "seg": 116,
+  "start": 569.8,
+  "end": 574.424,
+  "speaker": "Unknown",
+  "en": "I mean, obviously, Demis is chair, Jeff Dean leaves, tons of negative signals.",
+  "zh": "我是说，显然，Demis 是主席，Jeff Dean 离开，大量负面信号。"
+ },
+ {
+  "seg": 117,
+  "start": 574.444,
+  "end": 576.306,
+  "speaker": "Unknown",
+  "en": "You just had Marty Chavez on your podcast.",
+  "zh": "你刚上了 Marty Chavez 的播客。"
+ },
+ {
+  "seg": 118,
+  "start": 576.446,
+  "end": 579.689,
+  "speaker": "Unknown",
+  "en": "Yeah, he spoke at one of our events in my podcast feed.",
+  "zh": "是的，他在我们的一个活动上演讲，就在我的播客流里。"
+ },
+ {
+  "seg": 119,
+  "start": 579.829,
+  "end": 584.973,
+  "speaker": "Unknown",
+  "en": "I imagine the debate internally at the Google board level and then between Google Cloud and DeepMind.",
+  "zh": "我能想象在 Google 董事会层面内部、以及在 Google Cloud 和 DeepMind 之间的那场辩论。"
+ },
+ {
+  "seg": 120,
+  "start": 585.053,
+  "end": 589.758,
+  "speaker": "Unknown",
+  "en": "And certainly, you were starting to see these tensions arise, which is, hey, we're spending a ton of money on DeepMind.",
+  "zh": "当然，你开始看到这些紧张关系浮现，就是，嘿，我们在 DeepMind 上花了那么多钱。"
+ },
+ {
+  "seg": 121,
+  "start": 590.898,
+  "end": 592.359,
+  "speaker": "Unknown",
+  "en": "We're in third or fourth place.",
+  "zh": "我们排在第三或第四名。"
+ },
+ {
+  "seg": 122,
+  "start": 592.9,
+  "end": 594.521,
+  "speaker": "Unknown",
+  "en": "It's not generating a ton of revenue.",
+  "zh": "它没产生多少收入。"
+ },
+ {
+  "seg": 123,
+  "start": 595.141,
+  "end": 603.887,
+  "speaker": "Unknown",
+  "en": "And oh, by the way, if you look at Google Cloud right now, the money from inference on Gemini and open source is rocketing.",
+  "zh": "而且哦，顺便说一下，如果你现在看 Google Cloud，Gemini 和开源上的推理收入在火箭般蹿升。"
+ },
+ {
+  "seg": 124,
+  "start": 604.047,
+  "end": 607.369,
+  "speaker": "Unknown",
+  "en": "We are giving more of our TPUs now to Google Cloud than we are DeepMind.",
+  "zh": "我们现在把更多 TPU 给了 Google Cloud，而不是 DeepMind。"
+ },
+ {
+  "seg": 125,
+  "start": 607.389,
+  "end": 609.11,
+  "speaker": "Unknown",
+  "en": "And there was tension between those two factions.",
+  "zh": "这两个派系之间存在紧张关系。"
+ },
+ {
+  "seg": 126,
+  "start": 609.29,
+  "end": 612.312,
+  "speaker": "Unknown",
+  "en": "And what you ended up seeing was essentially Demis and John Jumper.",
+  "zh": "而你最终看到的基本上是 Demis 和 John Jumper。"
+ },
+ {
+  "seg": 127,
+  "start": 613.473,
+  "end": 623.516,
+  "speaker": "Unknown",
+  "en": "Jeff Dean, Kwok Lee, many of the leaders of the DeepMind Google Brain org slowly leaving and or being shown the door, I think it's probably a little bit of both, in favor of Google Cloud.",
+  "zh": "Jeff Dean、Kwok Lee，DeepMind Google Brain 组织的许多领导人慢慢离开，和/或被请出门，我认为可能两者都有，为了 Google Cloud 的利益。"
+ },
+ {
+  "seg": 128,
+  "start": 623.756,
+  "end": 627.257,
+  "speaker": "Unknown",
+  "en": "You must be startup hunting out of all these DeepMind people then.",
+  "zh": "那你肯定在这些 DeepMind 的人里物色初创公司。"
+ },
+ {
+  "seg": 129,
+  "start": 627.697,
+  "end": 629.858,
+  "speaker": "Unknown",
+  "en": "For sure, yeah.",
+  "zh": "当然，是的。"
+ },
+ {
+  "seg": 130,
+  "start": 629.878,
+  "end": 633.079,
+  "speaker": "Unknown",
+  "en": "I think we're startup hunting just out of the most talented people on the planet.",
+  "zh": "我认为我们是在这个星球上最有才华的人里物色初创公司。"
+ },
+ {
+  "seg": 131,
+  "start": 634.059,
+  "end": 639.021,
+  "speaker": "Unknown",
+  "en": "Right now, of course, something like Google DeepMind is a really interesting place to be hunting.",
+  "zh": "眼下，像 Google DeepMind 这样的地方当然是一个非常有意思的猎场。"
+ },
+ {
+  "seg": 132,
+  "start": 639.52,
+  "end": 642.802,
+  "speaker": "Unknown",
+  "en": "I mean, the other piece of this, I broke the news in Newcomer.",
+  "zh": "我是说，这件事的另一块拼图，我在 Newcomer 爆了这条新闻。"
+ },
+ {
+  "seg": 133,
+  "start": 642.822,
+  "end": 657.132,
+  "speaker": "Unknown",
+  "en": "It was a huge scoop for us that NVIDIA was doing this weird partnership with Poolside, $6 billion to acquire a lot of Poolside and then invest some in their main company, which is sort of continuing hard at work.",
+  "zh": "对我们来说这是个巨大的独家新闻：NVIDIA 正在和 Poolside 做一个奇怪的伙伴关系，60 亿美元收购大量 Poolside 的股份，然后投资一部分给他们的主营公司，也就是还在努力工作的那家。"
+ },
+ {
+  "seg": 134,
+  "start": 657.733,
+  "end": 660.415,
+  "speaker": "Unknown",
+  "en": "And they have a separate infrastructure company, so a very complicated deal.",
+  "zh": "而且他们还有一家单独的基础设施公司，所以是一笔非常复杂的交易。"
+ },
+ {
+  "seg": 135,
+  "start": 661.155,
+  "end": 666.72,
+  "speaker": "Unknown",
+  "en": "But so yeah, between Hugging Face and Poolside, Poolside had really leaned into American open source.",
+  "zh": "不过是啊，在 Hugging Face 和 Poolside 之间，Poolside 真的很深耕美国开源。"
+ },
+ {
+  "seg": 136,
+  "start": 667.04,
+  "end": 670.723,
+  "speaker": "Unknown",
+  "en": "NVIDIA is gonna be sort of like a key player in this American open source thing.",
+  "zh": "NVIDIA 将会是这个美国开源事业里的一个关键玩家。"
+ },
+ {
+  "seg": 137,
+  "start": 670.944,
+  "end": 678.11,
+  "speaker": "Unknown",
+  "en": "That sort of fits into the next piece of the conversation, which is you go to China, where a lot of the open source work is being done.",
+  "zh": "这就引出了对话的下一部分，也就是你去中国看看，那里做了大量开源工作。"
+ },
+ {
+  "seg": 138,
+  "start": 678.53,
+  "end": 685.076,
+  "speaker": "Unknown",
+  "en": "I guess before we get to the journey to China, what do you make of American open source today?",
+  "zh": "我想在开始中国之旅之前，你对今天的美国开源怎么看？"
+ },
+ {
+  "seg": 139,
+  "start": 685.116,
+  "end": 688.719,
+  "speaker": "Unknown",
+  "en": "Like how credible are American open source models?",
+  "zh": "比如美国开源模型的可信度有多高？"
+ },
+ {
+  "seg": 140,
+  "start": 689.059,
+  "end": 696.224,
+  "speaker": "Unknown",
+  "en": "It's definitely, I mean this with all respect, it's, you know, it's quantitatively a half step.",
+  "zh": "毫无疑问，我是说这话没有任何不敬，它，你知道，从数量上看是半步。"
+ },
+ {
+  "seg": 141,
+  "start": 696.244,
+  "end": 696.704,
+  "speaker": "Unknown",
+  "en": "We're behind.",
+  "zh": "我们落后了。"
+ },
+ {
+  "seg": 142,
+  "start": 697.004,
+  "end": 697.225,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 143,
+  "start": 697.425,
+  "end": 697.625,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 144,
+  "start": 697.845,
+  "end": 708.412,
+  "speaker": "Unknown",
+  "en": "And for a whole milieu of reasons, talent, capital, resources, whether or not one can legally hear and distill against the frontier models or not.",
+  "zh": "出于一连串原因——人才、资本、资源，以及能否合法地听并用前沿模型做蒸馏。"
+ },
+ {
+  "seg": 145,
+  "start": 708.432,
+  "end": 709.953,
+  "speaker": "Unknown",
+  "en": "Trying to get us to compete on a different.",
+  "zh": "试图让我们在不同的方面竞争。"
+ },
+ {
+  "seg": 146,
+  "start": 710.093,
+  "end": 711.234,
+  "speaker": "Unknown",
+  "en": "It's a slightly different playing field.",
+  "zh": "这是一个稍微不同的竞技场。"
+ },
+ {
+  "seg": 147,
+  "start": 711.274,
+  "end": 718,
+  "speaker": "Unknown",
+  "en": "How much the government is investing in it, what chipsets and what data the two continents have.",
+  "zh": "政府投入多少，两个大洲各自拥有什么芯片组和什么数据。"
+ },
+ {
+  "seg": 148,
+  "start": 721.764,
+  "end": 730.592,
+  "speaker": "Unknown",
+  "en": "I think there's a whole other question in terms of what it means to be American open source versus European open source or Japanese, Chinese, so on and so forth, and why that necessarily matters.",
+  "zh": "我认为还有一整个其他问题，就是作为美国开源意味着什么，对比欧洲开源或日本、中国等等，以及为什么那必然重要。"
+ },
+ {
+  "seg": 149,
+  "start": 730.612,
+  "end": 733.474,
+  "speaker": "Unknown",
+  "en": "I think there's somewhat of a false focus on it.",
+  "zh": "我认为这上面有一种多少算虚假的关注点。"
+ },
+ {
+  "seg": 150,
+  "start": 733.575,
+  "end": 734.195,
+  "speaker": "Unknown",
+  "en": "What do you mean?",
+  "zh": "你这话是什么意思？"
+ },
+ {
+  "seg": 151,
+  "start": 735.116,
+  "end": 735.897,
+  "speaker": "Unknown",
+  "en": "If you go to Europe,",
+  "zh": "如果你去看欧洲，"
+ },
+ {
+  "seg": 152,
+  "start": 736.417,
+  "end": 737.538,
+  "speaker": "Unknown",
+  "en": "They're all about sovereign AI.",
+  "zh": "他们满脑子都是主权AI。"
+ },
+ {
+  "seg": 153,
+  "start": 737.558,
+  "end": 752.647,
+  "speaker": "Unknown",
+  "en": "They're like, you know, I mean, Cohere is literally, you know, a Canadian company building ties to Germany, spending time in London with the idea that like, oh, we need, every democracy needs, that's not America needs to be tied together.",
+  "zh": "他们会说，你知道，我的意思是，Cohere 简直就是一个加拿大公司，在与德国建立联系，花时间在伦敦，想法是，哦，我们需要，每一个民主国家都需要，不只是美国需要彼此联结在一起。"
+ },
+ {
+  "seg": 154,
+  "start": 752.687,
+  "end": 756.87,
+  "speaker": "Unknown",
+  "en": "So I do think Europe is very mindful, obviously, of where this stuff is coming from.",
+  "zh": "所以我确实认为，欧洲显然非常在意这些东西来自哪里。"
+ },
+ {
+  "seg": 155,
+  "start": 757.01,
+  "end": 760.912,
+  "speaker": "Unknown",
+  "en": "Closed source sovereign AI makes a bunch of sense.",
+  "zh": "闭源的主权AI是很有道理的。"
+ },
+ {
+  "seg": 156,
+  "start": 761.373,
+  "end": 764.755,
+  "speaker": "Unknown",
+  "en": "And you could argue open AI and Anthropic are closed source American AI.",
+  "zh": "而且你可以说 OpenAI 和 Anthropic 就是闭源的美国AI。"
+ },
+ {
+  "seg": 157,
+  "start": 765.139,
+  "end": 777.482,
+  "speaker": "Unknown",
+  "en": "And even just in terms of the Trump admins ability to say, hey, don't open up that, shut down that, work here, we want this before you open it to others, et cetera, et cetera, you're already starting to see, potentially even taking equity positions in OpenAI and or Anthropic.",
+  "zh": "甚至单就特朗普政府的能力而言，它可以说，嘿，别开放那个，关掉那个，在这里干活，在你向别人开放之前我们要先得到这个，等等等等，你已经开始看到，甚至可能在入股 OpenAI 和/或 Anthropic。"
+ },
+ {
+  "seg": 158,
+  "start": 777.542,
+  "end": 781.443,
+  "speaker": "Unknown",
+  "en": "Though Anthropic did successfully sue the Defense Department, at least.",
+  "zh": "不过至少 Anthropic 确实成功起诉过国防部。"
+ },
+ {
+  "seg": 159,
+  "start": 781.643,
+  "end": 784.284,
+  "speaker": "Unknown",
+  "en": "Yes, but definitely there's a lot of influence.",
+  "zh": "是的，但毫无疑问存在大量的影响力。"
+ },
+ {
+  "seg": 160,
+  "start": 784.364,
+  "end": 784.684,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 161,
+  "start": 785.064,
+  "end": 787.266,
+  "speaker": "Unknown",
+  "en": "Open source is a little bit different.",
+  "zh": "开源则有点不一样。"
+ },
+ {
+  "seg": 162,
+  "start": 787.767,
+  "end": 800.22,
+  "speaker": "Unknown",
+  "en": "If something is definitionally open, assuming the license, whether it's an MIT license or something else, doesn't back prop in some way, shape, or form to some sort of kind of",
+  "zh": "如果某个东西按定义是开放的，假设许可证，无论是 MIT 许可证还是别的什么，不会以某种方式、形态或形式反向传播到某种"
+ },
+ {
+  "seg": 163,
+  "start": 802.483,
+  "end": 808.391,
+  "speaker": "Unknown",
+  "en": "country preference, which they don't right now, it's unclear to me why it matters.",
+  "zh": "国家偏好上——而目前它们并不会——那我不明白这为什么重要。"
+ },
+ {
+  "seg": 164,
+  "start": 808.531,
+  "end": 815.24,
+  "speaker": "Unknown",
+  "en": "And I can imagine, and just to kind of say what I think an intelligent computer scientist who might be listening to this would say is,",
+  "zh": "而且我可以想象，简单说说我认为一个可能正在收听这档节目的聪明计算机科学家会说的话是，"
+ },
+ {
+  "seg": 165,
+  "start": 815.781,
+  "end": 818.503,
+  "speaker": "Unknown",
+  "en": "What about backdoors built in the open source?",
+  "zh": "开源里内嵌的后门怎么办？"
+ },
+ {
+  "seg": 166,
+  "start": 818.903,
+  "end": 830.973,
+  "speaker": "Unknown",
+  "en": "What if there's latent representations that are quasi-propaganda in terms of what the model would respond back with or suggest based on how it's trained or how it's productized for you?",
+  "zh": "如果模型基于它的训练方式或产品化方式，在回应或建议中带有某种准宣传性质的潜在表征，那怎么办？"
+ },
+ {
+  "seg": 167,
+  "start": 831.353,
+  "end": 833.235,
+  "speaker": "Unknown",
+  "en": "And so we should be wary of that.",
+  "zh": "所以我们应该对此保持警惕。"
+ },
+ {
+  "seg": 168,
+  "start": 833.255,
+  "end": 842.562,
+  "speaker": "Unknown",
+  "en": "But I think there tends to be sometimes a little bit of a false precision when there's too much focus on the sovereignty of where open source comes from.",
+  "zh": "但我认为，有时候当人们过度聚焦于开源来源的主权问题时，会出现某种虚假的精确性。"
+ },
+ {
+  "seg": 169,
+  "start": 843.189,
+  "end": 843.389,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 170,
+  "start": 843.709,
+  "end": 848.712,
+  "speaker": "Unknown",
+  "en": "And, you know, open source in AI can be different than open source elsewhere in that there are like layers to it.",
+  "zh": "而且，你知道，AI 中的开源可能与其他领域的开源不同，因为它是有层次的。"
+ },
+ {
+  "seg": 171,
+  "start": 848.732,
+  "end": 854.094,
+  "speaker": "Unknown",
+  "en": "And people, you know, we've seen with Meta and others where they'll say open source, but that doesn't really mean you can just start like rip it and go.",
+  "zh": "人们，你知道，我们在 Meta 和其他公司身上见过，他们会说开源，但这并不真的意味着你可以直接拿来就用。"
+ },
+ {
+  "seg": 172,
+  "start": 854.515,
+  "end": 863.879,
+  "speaker": "Unknown",
+  "en": "But now the distillation where you can basically have somebody else's model and easily sort of like, oh, figure out how it does things and do it yourself.",
+  "zh": "但现在有了蒸馏，你基本上可以拿别人的模型，轻松地搞清楚它是怎么做事的，然后自己做一遍。"
+ },
+ {
+  "seg": 173,
+  "start": 863.959,
+  "end": 871.123,
+  "speaker": "Unknown",
+  "en": "There's almost been less of a concern where, you know, this has come up in the US government's interest in like, should we ban Chinese models?",
+  "zh": "这几乎反而没那么受关注，你知道，这在美国政府的兴趣中出现过，比如，我们该不该封禁中国模型？"
+ },
+ {
+  "seg": 174,
+  "start": 872.07,
+  "end": 874.672,
+  "speaker": "Unknown",
+  "en": "I think there's been this response of what does that even mean?",
+  "zh": "我觉得有一种回应是，那到底是什么意思？"
+ },
+ {
+  "seg": 175,
+  "start": 874.833,
+  "end": 880.197,
+  "speaker": "Unknown",
+  "en": "We just like rip off their model and call it our US one and it'd be slightly different.",
+  "zh": "我们就直接扒了他们的模型，管它叫我们的美国模型，稍微改一改。"
+ },
+ {
+  "seg": 176,
+  "start": 880.237,
+  "end": 885.382,
+  "speaker": "Unknown",
+  "en": "And I guess hopefully we'd weed out whatever propaganda was built in, but maybe we don't understand it well enough.",
+  "zh": "而且我希望我们能剔除掉里面内嵌的任何宣传内容，但也许我们理解得不够透彻。"
+ },
+ {
+  "seg": 177,
+  "start": 885.502,
+  "end": 888.805,
+  "speaker": "Unknown",
+  "en": "But, you know, what sue us and say that that's actually the old model.",
+  "zh": "可是，你知道，谁来起诉我们，说那其实是旧模型。"
+ },
+ {
+  "seg": 178,
+  "start": 888.845,
+  "end": 890.026,
+  "speaker": "Unknown",
+  "en": "It's like, well, we say it's a new model.",
+  "zh": "就像，好吧，我们说它是新模型。"
+ },
+ {
+  "seg": 179,
+  "start": 890.046,
+  "end": 890.807,
+  "speaker": "Unknown",
+  "en": "You know, I don't know.",
+  "zh": "你知道，我不知道。"
+ },
+ {
+  "seg": 180,
+  "start": 890.827,
+  "end": 891.628,
+  "speaker": "Unknown",
+  "en": "What do you make of that?",
+  "zh": "你怎么看那个？"
+ },
+ {
+  "seg": 181,
+  "start": 891.968,
+  "end": 892.689,
+  "speaker": "Unknown",
+  "en": "That debate.",
+  "zh": "那场争论。"
+ },
+ {
+  "seg": 182,
+  "start": 892.949,
+  "end": 893.709,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 183,
+  "start": 893.749,
+  "end": 909.439,
+  "speaker": "Unknown",
+  "en": "I think any talk of, in some sense, severing this figurative cord that crosses the Pacific in terms of silicon and data and compute and models and weight seems far-fetched at best.",
+  "zh": "我认为任何谈论——某种意义上——切断这条跨越太平洋的、涉及硅片、数据、算力、模型和权重的比喻性线缆的说法，往最好了说都显得牵强。"
+ },
+ {
+  "seg": 184,
+  "start": 910.02,
+  "end": 917.705,
+  "speaker": "Unknown",
+  "en": "And just to give kind of a brief vignette of I think how most vertical AI companies today",
+  "zh": "而且简单举个小例子，说明我认为今天大多数垂直AI公司"
+ },
+ {
+  "seg": 185,
+  "start": 918.425,
+  "end": 922.967,
+  "speaker": "Unknown",
+  "en": "are using something like KimiK3 or GLM from ZAI.",
+  "zh": "正在使用类似 KimiK3 或来自 ZAI 的 GLM 这样的东西。"
+ },
+ {
+  "seg": 186,
+  "start": 922.987,
+  "end": 928.129,
+  "speaker": "Unknown",
+  "en": "They talk about using, you know, Fireworks or Base10, Modal, whatever.",
+  "zh": "他们会说使用，你知道，Fireworks 或 Base10、Modal 之类的。"
+ },
+ {
+  "seg": 187,
+  "start": 928.169,
+  "end": 931.791,
+  "speaker": "Unknown",
+  "en": "But a lot of times they're sort of the route to use these Chinese models.",
+  "zh": "但很多时候那其实是他们使用这些中国模型的途径。"
+ },
+ {
+  "seg": 188,
+  "start": 931.831,
+  "end": 942.955,
+  "speaker": "Unknown",
+  "en": "And so, like, oftentimes what happens, and at least up until now, this is what has been happening, which is Anthropic or OpenAI will use American chips, so NVIDIA, AMD, so on and so forth, to train Frontier models.",
+  "zh": "所以，经常发生的情况是，至少到目前为止一直是这样，即 Anthropic 或 OpenAI 会用美国的芯片，也就是 NVIDIA、AMD 等等，来训练前沿模型。"
+ },
+ {
+  "seg": 189,
+  "start": 943.775,
+  "end": 947.356,
+  "speaker": "Unknown",
+  "en": "Largely with American data, using Mercur and Surge and Scale, so on and so forth.",
+  "zh": "很大程度上用美国的数据，使用 Mercur 和 Surge 以及 Scale 等等。"
+ },
+ {
+  "seg": 190,
+  "start": 948.096,
+  "end": 952.237,
+  "speaker": "Unknown",
+  "en": "The web, of course, maybe the largest, biggest free dataset out there.",
+  "zh": "互联网，当然，也许是那里最大、最庞大的免费数据集。"
+ },
+ {
+  "seg": 191,
+  "start": 953.418,
+  "end": 954.218,
+  "speaker": "Unknown",
+  "en": "They will train these models.",
+  "zh": "他们会训练这些模型。"
+ },
+ {
+  "seg": 192,
+  "start": 956.258,
+  "end": 961.38,
+  "speaker": "Unknown",
+  "en": "A Chinese lab, maybe Moonshot, which produces Kimi, will distill against it.",
+  "zh": "一个中国实验室，也许是生产 Kimi 的 Moonshot，会对它做蒸馏。"
+ },
+ {
+  "seg": 193,
+  "start": 961.84,
+  "end": 965.661,
+  "speaker": "Unknown",
+  "en": "So they'll ask it a bunch of questions in quick succession, and they kind of build a representation.",
+  "zh": "所以他们会快速连续地向它问一堆问题，然后差不多构建出一个表征。"
+ },
+ {
+  "seg": 194,
+  "start": 965.741,
+  "end": 966.181,
+  "speaker": "Unknown",
+  "en": "RIP it off.",
+  "zh": "把它扒下来。"
+ },
+ {
+  "seg": 195,
+  "start": 966.281,
+  "end": 966.641,
+  "speaker": "Unknown",
+  "en": "RIP it off.",
+  "zh": "把它扒下来。"
+ },
+ {
+  "seg": 196,
+  "start": 966.981,
+  "end": 969.882,
+  "speaker": "Unknown",
+  "en": "Yeah, build a representation of the model.",
+  "zh": "是的，构建出模型的一个表征。"
+ },
+ {
+  "seg": 197,
+  "start": 970.682,
+  "end": 980.97,
+  "speaker": "Unknown",
+  "en": "And so that representation already has embedded in it the data that was American vis-a-vis kind of the silicon that was American, vis-a-vis the talent that was American, so on and so forth.",
+  "zh": "于是那个表征里已经内嵌了美国的数据，对应着美国的硅片，对应着美国的人才，等等等等。"
+ },
+ {
+  "seg": 198,
+  "start": 981.13,
+  "end": 982.752,
+  "speaker": "Unknown",
+  "en": "They'll then open source that model.",
+  "zh": "然后他们会把那个模型开源。"
+ },
+ {
+  "seg": 199,
+  "start": 983.432,
+  "end": 987.375,
+  "speaker": "Unknown",
+  "en": "And then this has happened, you know, with Harvey or with Cursor or with Cognition.",
+  "zh": "然后这种事就发生在了，你知道，Harvey、或者 Cursor、或者 Cognition 身上。"
+ },
+ {
+  "seg": 200,
+  "start": 988.196,
+  "end": 996.782,
+  "speaker": "Unknown",
+  "en": "You know, any of the vertical AI companies now that Silicon Valley is storing hundreds of millions if not billions of dollars towards will fine-tune or post-train against these Chinese models.",
+  "zh": "你知道,现在任何一家硅谷正在投入数亿美元甚至数十亿美元的垂直 AI 公司,都会针对这些中国模型进行微调或后训练。"
+ },
+ {
+  "seg": 201,
+  "start": 996.802,
+  "end": 998.604,
+  "speaker": "Unknown",
+  "en": "And so what you end up with is this, you know,",
+  "zh": "所以你最终得到的是,你知道,"
+ },
+ {
+  "seg": 202,
+  "start": 999.044,
+  "end": 1003.166,
+  "speaker": "Unknown",
+  "en": "This technology crossing the Pacific twice before it comes to the end consumer.",
+  "zh": "这项技术在到达终端消费者之前,跨越太平洋两次。"
+ },
+ {
+  "seg": 203,
+  "start": 1003.186,
+  "end": 1013.911,
+  "speaker": "Unknown",
+  "en": "So if I'm a lawyer and I'm using Harvey, it's already crossed the Pacific twice and it's already touched both Asian and American technology and silicon and data and talent.",
+  "zh": "所以如果我是一名律师,我在使用 Harvey,它已经跨越太平洋两次了,它已经接触过亚洲和美国的技术、芯片、数据和人才。"
+ },
+ {
+  "seg": 204,
+  "start": 1014.071,
+  "end": 1018.793,
+  "speaker": "Unknown",
+  "en": "And so to cut it, what I think really chop at",
+  "zh": "所以要切断它,我认为真正会砍掉"
+ },
+ {
+  "seg": 205,
+  "start": 1019.813,
+  "end": 1030.036,
+  "speaker": "Unknown",
+  "en": "You know, at the knees of vertical AI and American kind of, you know, vertical AI software's ability to innovate right now, maybe unless like truly U.S. open source catches up.",
+  "zh": "你知道,砍掉垂直 AI 和美国垂直 AI 软件目前创新能力的大腿,除非真正的美国开源赶上来了。"
+ },
+ {
+  "seg": 206,
+  "start": 1030.136,
+  "end": 1038.059,
+  "speaker": "Unknown",
+  "en": "If U.S. open source catches up, then I think you can start to think about ways to kind of maybe cut the cross-specific technological tether.",
+  "zh": "如果美国开源赶上来了,那我想你可以开始考虑一些办法,或许切断这种特定的跨太平洋技术纽带。"
+ },
+ {
+  "seg": 207,
+  "start": 1039.119,
+  "end": 1040.72,
+  "speaker": "Unknown",
+  "en": "But we can't stop distillation, right?",
+  "zh": "但我们无法阻止蒸馏,对吧?"
+ },
+ {
+  "seg": 208,
+  "start": 1042.25,
+  "end": 1045.393,
+  "speaker": "Unknown",
+  "en": "You can't stop distillation, per se.",
+  "zh": "你本身无法阻止蒸馏。"
+ },
+ {
+  "seg": 209,
+  "start": 1045.493,
+  "end": 1048.875,
+  "speaker": "Unknown",
+  "en": "I think the labs can probably be far better at tracking it.",
+  "zh": "我觉得实验室们大概可以做得好得多,去追踪它。"
+ },
+ {
+  "seg": 210,
+  "start": 1049.176,
+  "end": 1051.578,
+  "speaker": "Unknown",
+  "en": "Just like who's aggressively using our model?",
+  "zh": "就像,谁在激进地使用我们的模型?"
+ },
+ {
+  "seg": 211,
+  "start": 1051.598,
+  "end": 1052.999,
+  "speaker": "Unknown",
+  "en": "Yeah, it's like a DDoS attack.",
+  "zh": "我认为这件事走到极限时会是,而且你其实已经开始看到这一点,Anthropic 和 OpenAI 不再通过 API 开放他们的前沿模型。"
+ },
+ {
+  "seg": 212,
+  "start": 1053.019,
+  "end": 1055.841,
+  "speaker": "Unknown",
+  "en": "You should be able to track when it's happening and you should be able to shut down the addresses.",
+  "zh": "你应该能够追踪它何时发生,你也应该能够封锁那些地址。"
+ },
+ {
+  "seg": 213,
+  "start": 1055.861,
+  "end": 1061.706,
+  "speaker": "Unknown",
+  "en": "And we're seeing reporting now about trying to hide some of the thinking potentially to sort of cloak how stuff works.",
+  "zh": "而我们现在看到有报道说,试图隐藏一些思维过程,可能是为了掩盖东西是如何运作的。"
+ },
+ {
+  "seg": 214,
+  "start": 1061.946,
+  "end": 1064.208,
+  "speaker": "Unknown",
+  "en": "And there's numerous theories.",
+  "zh": "而且有很多种理论。"
+ },
+ {
+  "seg": 215,
+  "start": 1064.248,
+  "end": 1066.71,
+  "speaker": "Unknown",
+  "en": "No one's come out and said, here's exactly why this is happening.",
+  "zh": "没有人站出来说,这里就是发生这一切的确切原因。"
+ },
+ {
+  "seg": 216,
+  "start": 1066.73,
+  "end": 1070.973,
+  "speaker": "Unknown",
+  "en": "But a very reasonable theory is that Anthropic and OpenAI have been chasing revenue.",
+  "zh": "但一个非常合理的理论是,Anthropic 和 OpenAI 一直在追逐收入。"
+ },
+ {
+  "seg": 217,
+  "start": 1071.453,
+  "end": 1076.536,
+  "speaker": "Unknown",
+  "en": "And of course, even if you're distilling a model, you're calling kind of inference to Anthropic or to OpenAI quite a bit.",
+  "zh": "当然,即使你在蒸馏一个模型,你也在相当频繁地调用 Anthropic 或 OpenAI 的推理。"
+ },
+ {
+  "seg": 218,
+  "start": 1077.237,
+  "end": 1078.578,
+  "speaker": "Unknown",
+  "en": "And that helps their revenue numbers.",
+  "zh": "而这有助于他们的收入数字。"
+ },
+ {
+  "seg": 219,
+  "start": 1078.618,
+  "end": 1080.739,
+  "speaker": "Unknown",
+  "en": "It's good money in the short run.",
+  "zh": "短期内这是笔好钱。"
+ },
+ {
+  "seg": 220,
+  "start": 1080.779,
+  "end": 1083.18,
+  "speaker": "Unknown",
+  "en": "Let them distill it and then ban it after you get paid for it.",
+  "zh": "让他们蒸馏,等你收到钱之后再封禁。"
+ },
+ {
+  "seg": 221,
+  "start": 1083.2,
+  "end": 1092.246,
+  "speaker": "Unknown",
+  "en": "I think where this goes at the limit, though, is, and you're, again, already starting to see this, Anthropic and OpenAI not opening up vis-a-vis API their frontier models.",
+  "zh": "不过,我认为这件事走到极限时会是——而且你其实已经看到苗头了——Anthropic 和 OpenAI 不再通过 API 开放他们的前沿模型。"
+ },
+ {
+  "seg": 222,
+  "start": 1092.706,
+  "end": 1100.993,
+  "speaker": "Unknown",
+  "en": "Which, if a frontier model isn't programmatically available, you can't query it at the volume and scale that one would need to distill against it.",
+  "zh": "也就是说,如果一个前沿模型无法通过编程方式访问,你就无法以蒸馏它所需的体量和规模去查询它。"
+ },
+ {
+  "seg": 223,
+  "start": 1102.394,
+  "end": 1116.465,
+  "speaker": "Unknown",
+  "en": "And so you might end up seeing a little bit of a growing gap between Chinese frontier models and American frontier models simply because American frontier models are no longer distillable simply because they've shut down API access.",
+  "zh": "所以你最终可能会看到中国前沿模型和美国前沿模型之间出现一点不断扩大的差距,仅仅因为美国前沿模型不再可被蒸馏,仅仅因为它们关闭了 API 访问。"
+ },
+ {
+  "seg": 224,
+  "start": 1116.937,
+  "end": 1120.979,
+  "speaker": "Unknown",
+  "en": "So we sort of explained one of the many reasons why it'd be interesting to go to China right now.",
+  "zh": "所以我们大致解释了为什么现在去中国会很有意思的众多原因之一。"
+ },
+ {
+  "seg": 225,
+  "start": 1122.36,
+  "end": 1124.141,
+  "speaker": "Unknown",
+  "en": "Explain a little bit about the trip.",
+  "zh": "讲讲这次旅行吧。"
+ },
+ {
+  "seg": 226,
+  "start": 1124.361,
+  "end": 1124.941,
+  "speaker": "Unknown",
+  "en": "Where'd you go?",
+  "zh": "你去了哪里?"
+ },
+ {
+  "seg": 227,
+  "start": 1125.081,
+  "end": 1125.962,
+  "speaker": "Unknown",
+  "en": "Who showed you around?",
+  "zh": "谁带你参观的?"
+ },
+ {
+  "seg": 228,
+  "start": 1126.382,
+  "end": 1128.983,
+  "speaker": "Unknown",
+  "en": "What were you trying to learn?",
+  "zh": "你想了解什么?"
+ },
+ {
+  "seg": 229,
+  "start": 1130.164,
+  "end": 1143.851,
+  "speaker": "Unknown",
+  "en": "So maybe as a little bit of context, we went out to Shanghai last year and, at least from our second fund, ended up making one of the bigger capital investments that we made from the fund into a Cayman Topco.",
+  "zh": "那么作为一点背景,我们去年去了上海,至少从我们的第二期基金来说,最终做出了我们从该基金中最大的一笔资本投资之一,投给了一个开曼 Topco。"
+ },
+ {
+  "seg": 230,
+  "start": 1144.751,
+  "end": 1150.357,
+  "speaker": "Unknown",
+  "en": "Uh, but essentially, um, you know, uh, Chinese, uh, kind of footprinted, uh, company, uh, based in Shanghai.",
+  "zh": "呃,但本质上,呃,你知道,呃,一家中国,呃,可以说是本土化布局的,呃,公司,呃,总部在上海。"
+ },
+ {
+  "seg": 231,
+  "start": 1150.377,
+  "end": 1153.38,
+  "speaker": "Unknown",
+  "en": "And that was a company that sat at the intersection of, you know, tech and biotech.",
+  "zh": "而那家公司正好处于,你知道,科技和生物科技的交汇点。"
+ },
+ {
+  "seg": 232,
+  "start": 1153.4,
+  "end": 1154.041,
+  "speaker": "Unknown",
+  "en": "So what's it called?",
+  "zh": "那它叫什么?"
+ },
+ {
+  "seg": 233,
+  "start": 1154.682,
+  "end": 1156.383,
+  "speaker": "Unknown",
+  "en": "Irindel, uh, or Helixon.",
+  "zh": "Irindel,呃,或者 Helixon。"
+ },
+ {
+  "seg": 234,
+  "start": 1156.443,
+  "end": 1157.384,
+  "speaker": "Unknown",
+  "en": "It's got like kind of two names.",
+  "zh": "它大概有两个名字。"
+ },
+ {
+  "seg": 235,
+  "start": 1157.404,
+  "end": 1159.046,
+  "speaker": "Unknown",
+  "en": "Um, uh, you know.",
+  "zh": "呃,你知道的。"
+ },
+ {
+  "seg": 236,
+  "start": 1159.066,
+  "end": 1159.807,
+  "speaker": "Unknown",
+  "en": "And how's it doing?",
+  "zh": "那它做得怎么样?"
+ },
+ {
+  "seg": 237,
+  "start": 1160.367,
+  "end": 1160.988,
+  "speaker": "Unknown",
+  "en": "Extremely well.",
+  "zh": "非常好。"
+ },
+ {
+  "seg": 238,
+  "start": 1161.128,
+  "end": 1184.515,
+  "speaker": "Unknown",
+  "en": "Yeah, no, so it was founded by a Chinese-born, US-educated, formerly kind of tenured UIUC computer science professor, who during COVID moved back first to Beijing and then Shanghai, decided to start this company, ended up raising $787 million from us and DST and Hill House and a number of kind of global tech and healthcare-oriented investors.",
+  "zh": "是的,不,它是由一位出生在中国、在美国受教育、曾是 UIUC 计算机科学终身教授的人创立的,他在疫情期间先搬回了北京,然后是上海,决定创办这家公司,最终从我们、DST、Hill House 以及许多全球科技和医疗健康导向的投资者那里融了 7.87 亿美元。"
+ },
+ {
+  "seg": 239,
+  "start": 1185.395,
+  "end": 1189.977,
+  "speaker": "Unknown",
+  "en": "Have a number of large pharma partnerships and collaborations with Sanofi.",
+  "zh": "与赛诺菲有多个大型制药合作伙伴关系和合作。"
+ },
+ {
+  "seg": 240,
+  "start": 1190.037,
+  "end": 1200.061,
+  "speaker": "Unknown",
+  "en": "For example, a few that they haven't yet announced have multiple drugs in the clinic and frankly have a technology that's working.",
+  "zh": "比如说,有几个他们还没公布的,有多款药物进入临床,坦率地说,拥有一项真正在起作用的技术。"
+ },
+ {
+  "seg": 241,
+  "start": 1200.181,
+  "end": 1205.803,
+  "speaker": "Unknown",
+  "en": "And so we invested in them last year based on a visit there.",
+  "zh": "所以我们去年基于一次实地考察投资了他们。"
+ },
+ {
+  "seg": 242,
+  "start": 1206.683,
+  "end": 1214.186,
+  "speaker": "Unknown",
+  "en": "Again, this year we decided to go back out, spend time with them, and also kind of get more ingratiated not only in the biotech ecosystem in China, but then also in the AI.",
+  "zh": "再说一次,今年我们决定再出去一趟,陪他们待一段时间,同时也不仅更深入地融入中国的生物科技生态,还有 AI。"
+ },
+ {
+  "seg": 243,
+  "start": 1215.046,
+  "end": 1232.552,
+  "speaker": "Unknown",
+  "en": "Ecosystem, we ended up kind of landing in Shanghai, spending time in Shanghai and Beijing and Hong Kong and mostly spend time with investors and entrepreneurs and labs and kind of everyone in and around the ecosystems like bankers and advisors and kind of the whole spiel.",
+  "zh": "生态,我们最终落脚在上海,在上海、北京和香港待了一段时间,主要和投资者、创业者、实验室,以及这些生态内外的所有人打交道,比如银行家和顾问,整套流程。"
+ },
+ {
+  "seg": 244,
+  "start": 1232.592,
+  "end": 1241.115,
+  "speaker": "Unknown",
+  "en": "Anything one would do if, you know, for example, if we were going to go visit London and want to get smart on the tech ecosystem, probably the same kind of cadre or, you know, a collage of different kind of",
+  "zh": "任何一个人会做的事,比如,假设我们要去伦敦访问,想了解那里的科技生态,大概也是同样一类人,或者你知道,我们见到的各种不同"
+ },
+ {
+  "seg": 245,
+  "start": 1241.675,
+  "end": 1243.016,
+  "speaker": "Unknown",
+  "en": "sorts of people that we met.",
+  "zh": "类型的人的组合。"
+ },
+ {
+  "seg": 246,
+  "start": 1243.036,
+  "end": 1246.158,
+  "speaker": "Unknown",
+  "en": "And what were some of your key takeaways?",
+  "zh": "那你的一些关键收获是什么?"
+ },
+ {
+  "seg": 247,
+  "start": 1247.459,
+  "end": 1248.079,
+  "speaker": "Unknown",
+  "en": "You wrote a letter.",
+  "zh": "你写了一封信。"
+ },
+ {
+  "seg": 248,
+  "start": 1248.259,
+  "end": 1248.679,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 249,
+  "start": 1248.739,
+  "end": 1250.1,
+  "speaker": "Unknown",
+  "en": "You structured your thoughts here.",
+  "zh": "你在这里整理了你的想法。"
+ },
+ {
+  "seg": 250,
+  "start": 1250.46,
+  "end": 1251.221,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 251,
+  "start": 1251.941,
+  "end": 1260.126,
+  "speaker": "Unknown",
+  "en": "Going to China last year was as big of a, oh, wow, this is happening and it's going to be a tsunami wave when it happens.",
+  "zh": "去年去中国，是一次和——哦，哇，这正在发生，而且一旦发生就会像海啸一样——一样大的体验，"
+ },
+ {
+  "seg": 252,
+  "start": 1260.506,
+  "end": 1260.846,
+  "speaker": "Unknown",
+  "en": "For me,",
+  "zh": "对我来说，"
+ },
+ {
+  "seg": 253,
+  "start": 1264.848,
+  "end": 1271.971,
+  "speaker": "Unknown",
+  "en": "As seeing the first results from Transformer models and the Transformer papers were in like 2017 for me.",
+  "zh": "就像第一次看到 Transformer 模型的结果那样，Transformer 论文对我来说大概是 2017 年的事。"
+ },
+ {
+  "seg": 254,
+  "start": 1272.151,
+  "end": 1273.972,
+  "speaker": "Unknown",
+  "en": "And so like a phase shift.",
+  "zh": "所以就像一次相变。"
+ },
+ {
+  "seg": 255,
+  "start": 1274.032,
+  "end": 1277.153,
+  "speaker": "Unknown",
+  "en": "There was my life before, you know, Transformer models and after.",
+  "zh": "我的人生分为 Transformer 模型之前，你知道的，和之后。"
+ },
+ {
+  "seg": 256,
+  "start": 1277.273,
+  "end": 1281.315,
+  "speaker": "Unknown",
+  "en": "And in a lot of ways, I kind of think of my life before Shanghai 2025 and after Shanghai 2025.",
+  "zh": "而在很多方面，我有点把自己的人生看作上海 2025 之前和上海 2025 之后。"
+ },
+ {
+  "seg": 257,
+  "start": 1284.836,
+  "end": 1306.896,
+  "speaker": "Unknown",
+  "en": "A young, highly educated, highly disciplined, highly hard work, highly intelligent population with deep and aligned ambitions to do amazing science and technology to create and capture value and an ecosystem in a culture that does a thing.",
+  "zh": "一个年轻、受教育程度高、高度自律、高度勤奋、高度聪明的群体，怀着深沉且一致的抱负去做了不起的科学技术、去创造和获取价值，以及一个会真正做成这件事的生态和文化。"
+ },
+ {
+  "seg": 258,
+  "start": 1307.797,
+  "end": 1315.284,
+  "speaker": "Unknown",
+  "en": "And instead of them tweeting about the thing, which is I think oftentimes like what American entrepreneurship and technology has become, they do the next thing.",
+  "zh": "而且他们不是在推特上谈论这件事——我觉得这很多时候就是美国创业和科技圈变成的样子——而是直接去做下一件事。"
+ },
+ {
+  "seg": 259,
+  "start": 1315.844,
+  "end": 1318.006,
+  "speaker": "Unknown",
+  "en": "And in that way, it was a little bit refreshing.",
+  "zh": "从这个角度说，这有点让人耳目一新。"
+ },
+ {
+  "seg": 260,
+  "start": 1318.046,
+  "end": 1321.329,
+  "speaker": "Unknown",
+  "en": "I grew up in Berkeley in the 80s, 90s, and early 2000s.",
+  "zh": "我在伯克利长大，那是 80 年代、90 年代和 2000 年代初。"
+ },
+ {
+  "seg": 261,
+  "start": 1324.352,
+  "end": 1327.636,
+  "speaker": "Unknown",
+  "en": "My mom was actually a computer science student at Cal.",
+  "zh": "我妈妈其实是 Cal 的计算机系学生。"
+ },
+ {
+  "seg": 262,
+  "start": 1327.776,
+  "end": 1334.144,
+  "speaker": "Unknown",
+  "en": "And so a lot of her friends were early Google employees and early tech Silicon Valley folks.",
+  "zh": "所以她的很多朋友都是 Google 早期员工和早期硅谷科技圈的人。"
+ },
+ {
+  "seg": 263,
+  "start": 1334.164,
+  "end": 1337.088,
+  "speaker": "Unknown",
+  "en": "And this was before tech and Silicon Valley had really jumped the shark.",
+  "zh": "那还是科技和硅谷真正变得俗烂跳梁之前。"
+ },
+ {
+  "seg": 264,
+  "start": 1337.508,
+  "end": 1338.97,
+  "speaker": "Unknown",
+  "en": "And it reminded me of that.",
+  "zh": "这让我想起了那时候。"
+ },
+ {
+  "seg": 265,
+  "start": 1339.13,
+  "end": 1344.272,
+  "speaker": "Unknown",
+  "en": "That's the feeling of just kind of being in and around a milieu of deeply ambitious, very intelligent people.",
+  "zh": "那种身处在一群极有抱负、非常聪明的人的氛围之中或周围的感觉。"
+ },
+ {
+  "seg": 266,
+  "start": 1344.292,
+  "end": 1348.693,
+  "speaker": "Unknown",
+  "en": "Where Silicon Valley has become, look at me, sort of so much promotion.",
+  "zh": "而硅谷已经变成了“看我”式的，太多营销宣传了。"
+ },
+ {
+  "seg": 267,
+  "start": 1348.733,
+  "end": 1349.834,
+  "speaker": "Unknown",
+  "en": "Quasi-navel-gazing.",
+  "zh": "准自我陶醉。"
+ },
+ {
+  "seg": 268,
+  "start": 1349.894,
+  "end": 1360.197,
+  "speaker": "Unknown",
+  "en": "I know you had the TBPN guys, and I really like what they're doing, but I got a text from a friend yesterday showing me a screenshot of a paparazzi-style picture of some entrepreneur or investor.",
+  "zh": "我知道你请过 TBPN 那帮人，我也真的很喜欢他们在做的事，但昨天我收到一个朋友的短信，给我看了一张狗仔队风格的照片截图，拍的是某个创业者或投资人。"
+ },
+ {
+  "seg": 269,
+  "start": 1362.378,
+  "end": 1364.34,
+  "speaker": "Unknown",
+  "en": "And it's just become a little bit navel-gazing.",
+  "zh": "这就变得有点自我陶醉了。"
+ },
+ {
+  "seg": 270,
+  "start": 1364.46,
+  "end": 1370.064,
+  "speaker": "Unknown",
+  "en": "And don't get me wrong, we should celebrate entrepreneurs and investors and people taking risks and people creating and inventing.",
+  "zh": "别误会我的意思，我们应该赞美创业者和投资人、赞美敢于冒险的人、创造和发明的人。"
+ },
+ {
+  "seg": 271,
+  "start": 1371.966,
+  "end": 1377.21,
+  "speaker": "Unknown",
+  "en": "But you also need to give space and time for long-form thinking and focus and space to actually do work.",
+  "zh": "但你也需要给长线的思考、专注以及真正做事的空间留出空间和时间。"
+ },
+ {
+  "seg": 272,
+  "start": 1377.951,
+  "end": 1388.119,
+  "speaker": "Unknown",
+  "en": "China can often make America feel like Europe in the same way that when we sit here and we think about the work ethic or the drive or the pace of business velocity in Europe, it's a step slower.",
+  "zh": "中国常常能让美国感觉像欧洲，就像我们坐在这里看欧洲的工作伦理、干劲或商业节奏时，会觉得慢一拍一样。"
+ },
+ {
+  "seg": 273,
+  "start": 1388.647,
+  "end": 1393.248,
+  "speaker": "Unknown",
+  "en": "I don't know, having an 11th month old, I am now decidedly anti-996.",
+  "zh": "我不知道，有了个 11 个月大的孩子之后，我现在是坚定的反 996 派。"
+ },
+ {
+  "seg": 274,
+  "start": 1393.388,
+  "end": 1401.91,
+  "speaker": "Unknown",
+  "en": "Or it's like, I understand that there are different phases of life, but it just feels that a company, you know, would have that expectation.",
+  "zh": "或者说，我知道人生有不同的阶段，但一家公司，你知道的，会有那样的期望，"
+ },
+ {
+  "seg": 275,
+  "start": 1402.03,
+  "end": 1404.131,
+  "speaker": "Unknown",
+  "en": "It's just like, I mean, this is how Europeans feel about Americans.",
+  "zh": "这就像，我是说，这就是欧洲人对美国人的感觉。"
+ },
+ {
+  "seg": 276,
+  "start": 1404.151,
+  "end": 1407.171,
+  "speaker": "Unknown",
+  "en": "It's like, we achieved all this to not have to do that.",
+  "zh": "就是，我们奋斗到了这一步，就是为了不用再那样做。"
+ },
+ {
+  "seg": 277,
+  "start": 1407.231,
+  "end": 1409.752,
+  "speaker": "Unknown",
+  "en": "You know, there are some things that, that matter more.",
+  "zh": "你知道，有些事情，比那更重要。"
+ },
+ {
+  "seg": 278,
+  "start": 1410.752,
+  "end": 1418.554,
+  "speaker": "Unknown",
+  "en": "And so, you know, I guess being America somewhere between Europe and China, you know, you get to feel a little good about like, oh, maybe it's the sort of happy media",
+  "zh": "所以，你知道，我想美国处在欧洲和中国之间的某个位置，你知道，你可以有点自我感觉良好，比如，哦，也许这是一种幸福的中庸"
+ },
+ {
+  "seg": 279,
+  "start": 1418.594,
+  "end": 1421.629,
+  "speaker": "Unknown",
+  "en": "Yeah, and some, like, look, I...",
+  "zh": "是啊，而且有些，比如，你看，我……"
+ },
+ {
+  "seg": 280,
+  "start": 1423.45,
+  "end": 1431.552,
+  "speaker": "Unknown",
+  "en": "I wonder if a normative assessment of 996 is the question that we should be asking, or if it's just observational.",
+  "zh": "我在想，对 996 做规范性的评判是不是我们该问的问题，还是说它只是一个观察性的问题。"
+ },
+ {
+  "seg": 281,
+  "start": 1431.672,
+  "end": 1433.413,
+  "speaker": "Unknown",
+  "en": "Oh, okay, this is 996.",
+  "zh": "哦，好吧，这是 996。"
+ },
+ {
+  "seg": 282,
+  "start": 1433.453,
+  "end": 1438.694,
+  "speaker": "Unknown",
+  "en": "And one can and should, of course, ask the question, do we as a society have enough to take care of everybody?",
+  "zh": "当然，人们可以也应该去问这个问题：我们作为一个社会，是否有足够的能力照顾好每一个人？"
+ },
+ {
+  "seg": 283,
+  "start": 1439.574,
+  "end": 1444.215,
+  "speaker": "Unknown",
+  "en": "And or have we become slaves to a perpetual hamster wheel?",
+  "zh": "又或者，我们是否已经成了永不停转的仓鼠轮的奴隶？"
+ },
+ {
+  "seg": 284,
+  "start": 1444.315,
+  "end": 1447.676,
+  "speaker": "Unknown",
+  "en": "And is there any way, can we imagine a world where you find a little bit more balance?",
+  "zh": "还有，有没有可能，我们能不能想象一个能找到多一点平衡的世界？"
+ },
+ {
+  "seg": 285,
+  "start": 1447.936,
+  "end": 1448.156,
+  "speaker": "Unknown",
+  "en": "For sure.",
+  "zh": "当然可以。"
+ },
+ {
+  "seg": 286,
+  "start": 1448.176,
+  "end": 1449.997,
+  "speaker": "Unknown",
+  "en": "But if you're trying to find the best investments, the ones do.",
+  "zh": "但如果你要找最好的投资，那些确实……"
+ },
+ {
+  "seg": 287,
+  "start": 1450.417,
+  "end": 1452.798,
+  "speaker": "Unknown",
+  "en": "Yeah, a little bit of both.",
+  "zh": "是啊，两者都有一点。"
+ },
+ {
+  "seg": 288,
+  "start": 1452.838,
+  "end": 1467.622,
+  "speaker": "Unknown",
+  "en": "I think the best entrepreneurs also tend to be creative and spunky and I think oftentimes are spiky, to use maybe the word of the year in the kind of venture entrepreneurial community, in all sorts of ways that aren't just work-related.",
+  "zh": "我觉得最好的创业者往往也有创造力和闯劲，而且我觉得他们往往在很多与工作无关的方面也是“尖锐”的——用创投创业圈今年的年度词来说的话。"
+ },
+ {
+  "seg": 289,
+  "start": 1467.906,
+  "end": 1483.456,
+  "speaker": "Unknown",
+  "en": "I mean, one of the observations that really resonated with me is that, you know, I feel like every work of fiction, you sort of like the villain is created by the good intentions of the heroes or whatever, or this is, you know, it's opposition.",
+  "zh": "我是说，有一个让我特别有共鸣的观察是，你知道，我觉得每一部虚构作品里，反派的诞生往往源于英雄的善意或者诸如此类，或者说，这是一种对立。"
+ },
+ {
+  "seg": 290,
+  "start": 1483.476,
+  "end": 1486.578,
+  "speaker": "Unknown",
+  "en": "And it's like the U.S. was like, okay, we want to stop China.",
+  "zh": "就像美国当时是：好吧，我们想遏制中国。"
+ },
+ {
+  "seg": 291,
+  "start": 1486.618,
+  "end": 1488.839,
+  "speaker": "Unknown",
+  "en": "We're going to crack down on these NVIDIA chips.",
+  "zh": "我们要对这些 NVIDIA 芯片下手。"
+ },
+ {
+  "seg": 292,
+  "start": 1488.919,
+  "end": 1494.323,
+  "speaker": "Unknown",
+  "en": "And then through the deprivation of not having access to the best chips, China sort of",
+  "zh": "然后正是由于拿不到最好的芯片所带来的匮乏，中国某种程度"
+ },
+ {
+  "seg": 293,
+  "start": 1494.983,
+  "end": 1505.028,
+  "speaker": "Unknown",
+  "en": "Been able to do things in sort of more humble ways, which has allowed those models to be cheaper, which means that they're more sustainable, more usable, better for these vertical application companies we're talking about.",
+  "zh": "能够用更朴素的方式做成一些事，这让那些模型更便宜，也就是说更可持续、更可用，更适合我们正在谈论的这些垂直应用公司。"
+ },
+ {
+  "seg": 294,
+  "start": 1505.468,
+  "end": 1511.811,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, that's sort of, it's a nice, it's a nice story, but I mean, you also want to have like the best chips in the world.",
+  "zh": "是啊，我是说，这算是个，这是个不错的故事，但我是说，你也会想要拥有世界上最好的芯片。"
+ },
+ {
+  "seg": 295,
+  "start": 1511.831,
+  "end": 1514.293,
+  "speaker": "Unknown",
+  "en": "Do you think the US made a mistake by",
+  "zh": "你觉得美国犯了个错误吗，"
+ },
+ {
+  "seg": 296,
+  "start": 1515.053,
+  "end": 1518.556,
+  "speaker": "Unknown",
+  "en": "By restricting the access or this would happen anyway?",
+  "zh": "限制获取渠道是个错误，还是说反正这也会发生？"
+ },
+ {
+  "seg": 297,
+  "start": 1518.576,
+  "end": 1520.538,
+  "speaker": "Unknown",
+  "en": "I think the jury's out.",
+  "zh": "我觉得还没有定论。"
+ },
+ {
+  "seg": 298,
+  "start": 1522.459,
+  "end": 1530.626,
+  "speaker": "Unknown",
+  "en": "Certainly, with no doubt, what has happened is we cut off a supply of cutting edge chipsets, namely through NVIDIA.",
+  "zh": "毫无疑问，确实发生的事情是，我们切断了一条尖端芯片组的供应渠道，主要是通过 NVIDIA。"
+ },
+ {
+  "seg": 299,
+  "start": 1531.567,
+  "end": 1536.831,
+  "speaker": "Unknown",
+  "en": "And that forced the frontier labs and engineers in Beijing and Shanghai.",
+  "zh": "而这迫使北京和上海的前沿实验室和工程师们。"
+ },
+ {
+  "seg": 300,
+  "start": 1537.072,
+  "end": 1543.317,
+  "speaker": "Unknown",
+  "en": "And a lot of the AI work specifically happens in Beijing or in and around Beijing because that's where Xinguah and Peking University that kind of academic talent is.",
+  "zh": "而且很多 AI 相关的工作特别发生在北京，或北京及周边地区，因为新国大和北京大学那类学术人才就在那里。"
+ },
+ {
+  "seg": 301,
+  "start": 1544.778,
+  "end": 1557.528,
+  "speaker": "Unknown",
+  "en": "It forced the compilers engineers and the systems engineers and the low-level assembly code engineers to really innovate all the way down to the bare metal in a way where the American labs aren't.",
+  "zh": "这迫使编译器工程师、系统工程师和底层汇编代码工程师真正地从最底层裸金属一路进行创新，而美国的实验室并非如此。"
+ },
+ {
+  "seg": 302,
+  "start": 1558.028,
+  "end": 1562.792,
+  "speaker": "Unknown",
+  "en": "In some ways, that circumvented the export controls that we'd put on.",
+  "zh": "从某种程度上说，这绕开了我们所实施的出口管制。"
+ },
+ {
+  "seg": 303,
+  "start": 1563.612,
+  "end": 1565.833,
+  "speaker": "Unknown",
+  "en": "In other ways, the Chinese labs are still struggling.",
+  "zh": "从另外的角度看，中国的实验室仍在挣扎之中。"
+ },
+ {
+  "seg": 304,
+  "start": 1566.153,
+  "end": 1574.075,
+  "speaker": "Unknown",
+  "en": "And so what are the two worlds where we'll look back and say, was this a right decision or the wrong decision?",
+  "zh": "那么未来我们将回顾并说，这是一个正确的决定还是一个错误决定的，是哪两个世界呢？"
+ },
+ {
+  "seg": 305,
+  "start": 1574.475,
+  "end": 1579.156,
+  "speaker": "Unknown",
+  "en": "If right or wrong, this is depending on whether or not we win the AI race against China.",
+  "zh": "对或错，这取决于我们能否在与中国的 AI 竞赛中获胜。"
+ },
+ {
+  "seg": 306,
+  "start": 1580.716,
+  "end": 1591.319,
+  "speaker": "Unknown",
+  "en": "If Chinese engineers and computer scientists are able to innovate such that they make irrelevant the US's lead on silicon,",
+  "zh": "如果中国的工程师和计算机科学家能够创新到让美国在硅片上的领先地位变得无关紧要，"
+ },
+ {
+  "seg": 307,
+  "start": 1592.739,
+  "end": 1595.661,
+  "speaker": "Unknown",
+  "en": "Then, yeah, for sure, we'll look back and say, man, that was the wrong decision.",
+  "zh": "那么，是的，毫无疑问，我们回顾时会说，天哪，那是个错误的决定。"
+ },
+ {
+  "seg": 308,
+  "start": 1595.901,
+  "end": 1597.182,
+  "speaker": "Unknown",
+  "en": "That's not the case right now.",
+  "zh": "现在情况还不是这样。"
+ },
+ {
+  "seg": 309,
+  "start": 1597.302,
+  "end": 1603.646,
+  "speaker": "Unknown",
+  "en": "Our frontier labs are meaningfully ahead of the Chinese frontier labs in no small part because we have better silicon.",
+  "zh": "我们的前沿实验室明显领先于中国的前沿实验室，很大程度上是因为我们有更好的硅片。"
+ },
+ {
+  "seg": 310,
+  "start": 1604.166,
+  "end": 1607.908,
+  "speaker": "Unknown",
+  "en": "We don't have as much power, and at some point we'll kind of run up against that wall.",
+  "zh": "我们没有那么多电力，而且到某个时候我们会撞上那堵墙。"
+ },
+ {
+  "seg": 311,
+  "start": 1608.628,
+  "end": 1609.889,
+  "speaker": "Unknown",
+  "en": "But right now we have a meaningful lead.",
+  "zh": "但现在我们有明显的领先优势。"
+ },
+ {
+  "seg": 312,
+  "start": 1610.229,
+  "end": 1612.531,
+  "speaker": "Unknown",
+  "en": "China, even if it has enough power, it doesn't have enough chips.",
+  "zh": "中国即使有足够的电力，它也没有足够的芯片。"
+ },
+ {
+  "seg": 313,
+  "start": 1612.551,
+  "end": 1613.591,
+  "speaker": "Unknown",
+  "en": "It doesn't have enough compute.",
+  "zh": "它没有足够的算力。"
+ },
+ {
+  "seg": 314,
+  "start": 1614.052,
+  "end": 1618.154,
+  "speaker": "Unknown",
+  "en": "And so right now they've done an amazing job optimizing at a very low level.",
+  "zh": "所以现在他们在非常低的层面上做了了不起的优化工作。"
+ },
+ {
+  "seg": 315,
+  "start": 1618.614,
+  "end": 1620.716,
+  "speaker": "Unknown",
+  "en": "It still isn't enough to catch up to our frontier labs.",
+  "zh": "这仍然不足以追上我们的前沿实验室。"
+ },
+ {
+  "seg": 316,
+  "start": 1621.676,
+  "end": 1623.437,
+  "speaker": "Unknown",
+  "en": "But it's certainly something that we should be paying attention to.",
+  "zh": "但这当然是我们应该关注的事情。"
+ },
+ {
+  "seg": 317,
+  "start": 1623.917,
+  "end": 1627.299,
+  "speaker": "Unknown",
+  "en": "And the question is, are we creating an enemy in the future?",
+  "zh": "问题在于，我们是否在未来制造出一个敌人？"
+ },
+ {
+  "seg": 318,
+  "start": 1627.399,
+  "end": 1633.642,
+  "speaker": "Unknown",
+  "en": "Or somebody who wants to catch us up on the Silicon level, then they'll both have power and better low-level software engineering than us.",
+  "zh": "或者说，制造出一个在硅片层面想要追上我们的人，到那时他们将同时拥有电力和比我们更好的底层软件工程。"
+ },
+ {
+  "seg": 319,
+  "start": 1634.082,
+  "end": 1635.282,
+  "speaker": "Unknown",
+  "en": "That's kind of a scary world.",
+  "zh": "那是一个相当可怕的世界。"
+ },
+ {
+  "seg": 320,
+  "start": 1635.302,
+  "end": 1636.703,
+  "speaker": "Unknown",
+  "en": "And so we should be tracking those two.",
+  "zh": "所以我们应该追踪这两个方面。"
+ },
+ {
+  "seg": 321,
+  "start": 1637.023,
+  "end": 1643.666,
+  "speaker": "Unknown",
+  "en": "I think probably what's the most interesting is to watch the velocity and the cadence of innovation from the Chinese semiconductor industry.",
+  "zh": "我认为最有趣的可能是观察中国半导体行业创新的速度和节奏。"
+ },
+ {
+  "seg": 322,
+  "start": 1644.106,
+  "end": 1651.749,
+  "speaker": "Unknown",
+  "en": "And right now that's, I think, moving faster than what most industry kind of viewers would have predicted 24 months ago.",
+  "zh": "而现在，我认为它的发展速度比大多数行业观察者 24 个月前所预测的要快。"
+ },
+ {
+  "seg": 323,
+  "start": 1652.31,
+  "end": 1656.752,
+  "speaker": "Unknown",
+  "en": "And so I think that's probably where we want to be paying the most attention to.",
+  "zh": "所以我认为这可能是我们最应该密切关注的地方。"
+ },
+ {
+  "seg": 324,
+  "start": 1657.012,
+  "end": 1658.672,
+  "speaker": "Unknown",
+  "en": "Just do you think they will catch up?",
+  "zh": "那么你认为他们会追上来吗？"
+ },
+ {
+  "seg": 325,
+  "start": 1659.253,
+  "end": 1661.994,
+  "speaker": "Unknown",
+  "en": "In the fullness of time, you have to think that they will catch up.",
+  "zh": "从长远来看，你必须认为他们会追上来的。"
+ },
+ {
+  "seg": 326,
+  "start": 1662.6,
+  "end": 1664.941,
+  "speaker": "Unknown",
+  "en": "Nothing is fully defensible forever.",
+  "zh": "没有什么是可以永远完全防御的。"
+ },
+ {
+  "seg": 327,
+  "start": 1665.081,
+  "end": 1672.804,
+  "speaker": "Unknown",
+  "en": "And if you have, again, a large, extremely intelligent, extremely motivated and capitalized population to go and pursue these things, they will.",
+  "zh": "而且，如果你再次拥有一大群极其聪明、极其有动力且有资本支持的人去追求这些事情，他们会的。"
+ },
+ {
+  "seg": 328,
+  "start": 1673.104,
+  "end": 1679.006,
+  "speaker": "Unknown",
+  "en": "China graduates more STEM graduates than the world globally every year.",
+  "zh": "中国每年毕业的 STEM 毕业生比全球其他地方都多。"
+ },
+ {
+  "seg": 329,
+  "start": 1679.386,
+  "end": 1684.928,
+  "speaker": "Unknown",
+  "en": "And so there's just like hundreds of thousands of extremely intelligent people who will go and pursue these questions.",
+  "zh": "所以有数十万极其聪明的人会去研究这些问题。"
+ },
+ {
+  "seg": 330,
+  "start": 1685.623,
+  "end": 1689.266,
+  "speaker": "Unknown",
+  "en": "To what extent do you feel free to be a global investor?",
+  "zh": "你在多大程度上觉得自己可以做一个全球投资者？"
+ },
+ {
+  "seg": 331,
+  "start": 1689.566,
+  "end": 1690.567,
+  "speaker": "Unknown",
+  "en": "I'm sort of a globalist.",
+  "zh": "我算是个全球主义者。"
+ },
+ {
+  "seg": 332,
+  "start": 1690.607,
+  "end": 1694.45,
+  "speaker": "Unknown",
+  "en": "I want a world where the US and China can share technology.",
+  "zh": "我想要一个美中能够共享技术的世界。"
+ },
+ {
+  "seg": 333,
+  "start": 1694.47,
+  "end": 1700.755,
+  "speaker": "Unknown",
+  "en": "Obviously, I want Chinese to follow agreed-upon rules and compete on a level playing field.",
+  "zh": "显然，我希望中国遵守共同商定的规则，在公平的竞技场上竞争。"
+ },
+ {
+  "seg": 334,
+  "start": 1701.175,
+  "end": 1703.157,
+  "speaker": "Unknown",
+  "en": "And there's some protectionism issues I have.",
+  "zh": "而且我有一些保护主义方面的顾虑。"
+ },
+ {
+  "seg": 335,
+  "start": 1703.257,
+  "end": 1708.281,
+  "speaker": "Unknown",
+  "en": "But generally, I'd like to see a world of cooperation and fair competition.",
+  "zh": "但总的来说，我希望看到一个合作与公平竞争的世界。"
+ },
+ {
+  "seg": 336,
+  "start": 1709.622,
+  "end": 1718.989,
+  "speaker": "Unknown",
+  "en": "But just a few years ago, Sequoia Capital had to spin out of China, literally GGV, which was known for being this cross-border investor, split the firm.",
+  "zh": "但就在几年前，红杉资本不得不从中国分拆出去，真的，GGV，这家以跨境投资著称的机构，把公司拆分了。"
+ },
+ {
+  "seg": 337,
+  "start": 1719.51,
+  "end": 1723.033,
+  "speaker": "Unknown",
+  "en": "But now it does seem like there's some comfort.",
+  "zh": "但现在看起来确实有一些宽松的迹象。"
+ },
+ {
+  "seg": 338,
+  "start": 1723.093,
+  "end": 1730.499,
+  "speaker": "Unknown",
+  "en": "I mean, the information, which obviously journalism is different, but Jessica Lesson just sort of talked about hiring a new reporter to really focus in on China.",
+  "zh": "我是说，The Information——显然新闻行业情况不同——但 Jessica Lesson 就提到招了一位新记者，专门聚焦中国。"
+ },
+ {
+  "seg": 339,
+  "start": 1730.519,
+  "end": 1731.68,
+  "speaker": "Unknown",
+  "en": "And there's just like a mood",
+  "zh": "而且有一种氛围"
+ },
+ {
+  "seg": 340,
+  "start": 1732.961,
+  "end": 1738.405,
+  "speaker": "Unknown",
+  "en": "That people feel a little bit more comfortable saying, you know, that they spent time there and you've invested around those companies.",
+  "zh": "让人们觉得稍微更自在一点，可以说，你知道的，他们曾在那里待过、投资过那类公司。"
+ },
+ {
+  "seg": 341,
+  "start": 1738.425,
+  "end": 1744.23,
+  "speaker": "Unknown",
+  "en": "Like, what's your read on how free you are to invest in Chinese companies and what the mood is right now?",
+  "zh": "比如说，你怎么看你投资中国公司有多自由，以及现在的氛围是什么样的？"
+ },
+ {
+  "seg": 342,
+  "start": 1745.094,
+  "end": 1763.712,
+  "speaker": "Unknown",
+  "en": "Maybe I'll start with saying we invest in companies largely globally for the vast majority in the West and largely avoid regimes in areas that we kind of view as unethical or kind of adversarial to Western values.",
+  "zh": "也许我可以先说，我们基本上在全球范围内投资公司，绝大多数在西方，而且基本避开那些我们认为不道德的或对西方价值观有对抗性的地区的政权。"
+ },
+ {
+  "seg": 343,
+  "start": 1764.093,
+  "end": 1769.078,
+  "speaker": "Unknown",
+  "en": "And so we don't have investments in Russia, for example, or Iran, for example, right now.",
+  "zh": "所以我们现在没有在俄罗斯的投资，比如，也没有在伊朗的投资，对吧。"
+ },
+ {
+  "seg": 344,
+  "start": 1772.139,
+  "end": 1779.322,
+  "speaker": "Unknown",
+  "en": "I think it's a shame that people are fearful such that they shunt their curiosity in these situations.",
+  "zh": "我认为很遗憾的是，人们因为恐惧而在这些情况下扼杀了他们的好奇心。"
+ },
+ {
+  "seg": 345,
+  "start": 1779.342,
+  "end": 1785.204,
+  "speaker": "Unknown",
+  "en": "And I think that being open and honest with your curiosity and learning from how others do things is really, really valuable.",
+  "zh": "而且我认为，坦诚地对待自己的好奇心并向他人学习做事的方式，是非常非常有价值的。"
+ },
+ {
+  "seg": 346,
+  "start": 1785.584,
+  "end": 1787.545,
+  "speaker": "Unknown",
+  "en": "We don't have a China strategy per se.",
+  "zh": "我们本身并没有一个中国战略。"
+ },
+ {
+  "seg": 347,
+  "start": 1788.165,
+  "end": 1795.367,
+  "speaker": "Unknown",
+  "en": "And again, we have one investment that we made in a company that came in Topco, happens to be footprinted in Shanghai.",
+  "zh": "再说，我们有一笔投资，投的是一家进入 Topco 的公司，它恰好 footprint 在上海。"
+ },
+ {
+  "seg": 348,
+  "start": 1797.008,
+  "end": 1798.689,
+  "speaker": "Unknown",
+  "en": "But I do think that there's a lot that we can learn.",
+  "zh": "但我确实认为有很多我们可以学习的东西。"
+ },
+ {
+  "seg": 349,
+  "start": 1799.51,
+  "end": 1811.759,
+  "speaker": "Unknown",
+  "en": "And especially right now, if you read the letter, I think one of the points I really tried to imbue was biotech and tech today are more interwoven between the US and China than arguably they've ever been before.",
+  "zh": "尤其是现在，如果你读那封信，我想我真正想灌输的一个要点是，今天的生物科技和科技在美国与中国之间的交织程度，可以说是前所未有的。"
+ },
+ {
+  "seg": 350,
+  "start": 1812.46,
+  "end": 1822.608,
+  "speaker": "Unknown",
+  "en": "And so to have your eyes shut off to what's happening there, I think it's positioning you, even if you only focus on the US, you are disadvantaged to be ignorant or naive about what's happening in China.",
+  "zh": "因此，对那里正在发生的事情视而不见，我认为这会让你处于不利地位，即使你只关注美国，对中国正在发生的事情一无所知或天真无知，也会让你处于劣势。"
+ },
+ {
+  "seg": 351,
+  "start": 1823.353,
+  "end": 1832.787,
+  "speaker": "Unknown",
+  "en": "Have, this is gonna, this is not my area of expertise, but have Americans really benefited from like novel Chinese drugs to date?",
+  "zh": "有，这会，这不是我的专业领域，但到目前为止，美国人真的从新颖的中国药物中受益过吗？"
+ },
+ {
+  "seg": 352,
+  "start": 1832.827,
+  "end": 1834.269,
+  "speaker": "Unknown",
+  "en": "And is that a world we're about to enter?",
+  "zh": "以及那是否是一个我们即将进入的世界？"
+ },
+ {
+  "seg": 353,
+  "start": 1834.717,
+  "end": 1841.043,
+  "speaker": "Unknown",
+  "en": "Yeah, we are certainly entering that world.",
+  "zh": "是的，我们当然正在进入那个世界。"
+ },
+ {
+  "seg": 354,
+  "start": 1841.203,
+  "end": 1854.735,
+  "speaker": "Unknown",
+  "en": "If anyone has been following Summit, which is a US biotech company that's got a drug that's going after PD-1 VEGF, that molecule was out-licensed from Acaso, which is a Chinese biotech.",
+  "zh": "如果有人一直在关注 Summit，这是一家美国生物技术公司，他们有一种针对 PD-1 VEGF 的药物，那个分子是从 Acaso 对外授权的，Acaso 是一家中国生物技术公司。"
+ },
+ {
+  "seg": 355,
+  "start": 1855.916,
+  "end": 1870.248,
+  "speaker": "Unknown",
+  "en": "B1, which was formerly known as BiGene, now European domiciled, founded and really kind of brought to maturity in China, now has kind of commercial global ambitions with their kind of commercial drug pipeline as well.",
+  "zh": "B1，前身为 BiGene，现在注册地在欧洲，在中国创立并真正走向成熟，现在凭借他们的商业化药物管线也有了真正的全球商业雄心。"
+ },
+ {
+  "seg": 356,
+  "start": 1870.809,
+  "end": 1877.375,
+  "speaker": "Unknown",
+  "en": "If you look at like where the, at this point, the majority of pharma out licensing and BD dollars are going, it's going into China.",
+  "zh": "如果你看看现在大部分制药对外授权和 BD 资金流向哪里，正在流向中国。"
+ },
+ {
+  "seg": 357,
+  "start": 1877.895,
+  "end": 1879.076,
+  "speaker": "Unknown",
+  "en": "And so, you know,",
+  "zh": "所以，你知道，"
+ },
+ {
+  "seg": 358,
+  "start": 1880.137,
+  "end": 1898.855,
+  "speaker": "Unknown",
+  "en": "All you need to do is look at the large billions of upfront and biobucks dollars that may be, for example, GSK spending on Chinese assets to see, OK, if those assets are now entering GSK's pipeline in the next three, four, five years at some point, assuming that they're approved, they will be commercially available.",
+  "zh": "你只需要看看那些可能比如 GSK 花在中国资产上的数十亿美元首付款和 biobucks 资金，就能明白，如果这些资产在假设获批的情况下，在未来的三、四、五年内某个时点进入 GSK 的管线，它们将会实现商业化。"
+ },
+ {
+  "seg": 359,
+  "start": 1899.216,
+  "end": 1903.54,
+  "speaker": "Unknown",
+  "en": "And we'll all be at that point taking an antibody that was maybe invented in a lab in Suzhou.",
+  "zh": "而到那时，我们所有人都可能在服用一种也许是在苏州某个实验室里发明的抗体。"
+ },
+ {
+  "seg": 360,
+  "start": 1905.602,
+  "end": 1906.142,
+  "speaker": "Unknown",
+  "en": "So it's coming.",
+  "zh": "所以它正在到来。"
+ },
+ {
+  "seg": 361,
+  "start": 1906.322,
+  "end": 1906.723,
+  "speaker": "Unknown",
+  "en": "It's coming.",
+  "zh": "它正在到来。"
+ },
+ {
+  "seg": 362,
+  "start": 1906.883,
+  "end": 1907.964,
+  "speaker": "Unknown",
+  "en": "Yeah, it's coming.",
+  "zh": "是啊，它正在到来。"
+ },
+ {
+  "seg": 363,
+  "start": 1908.424,
+  "end": 1919.334,
+  "speaker": "Unknown",
+  "en": "And so this sort of transitions us to this, you know, field that's, you know, just hard to understand for many of us or like, you know, AI and biology.",
+  "zh": "于是这就把我们引向了这个，你知道，对我们很多人来说都很难理解的领域，也就是，你知道，AI 与生物学。"
+ },
+ {
+  "seg": 364,
+  "start": 1919.395,
+  "end": 1927.982,
+  "speaker": "Unknown",
+  "en": "It's like, you know, I think some of the largest pronouncements from people like Dario at Anthropic are like, oh, you know, I mean, he literally said something the other day that's like,",
+  "zh": "就是，你知道，我认为像 Anthropic 的 Dario 这样的人发出的一些最大胆的宣言，比如，哦，你知道，我是说，他前几天真的说过类似这样的话，"
+ },
+ {
+  "seg": 365,
+  "start": 1928.623,
+  "end": 1933.565,
+  "speaker": "Unknown",
+  "en": "Oh, we want to win people over by curing cancer or something, you know, then we'll really earn goodwill.",
+  "zh": "哦，我们想通过治愈癌症来赢得人心之类的，你知道，那样我们才能真正赢得善意。"
+ },
+ {
+  "seg": 366,
+  "start": 1933.605,
+  "end": 1935.206,
+  "speaker": "Unknown",
+  "en": "And that's the kind of stuff that will move the needle.",
+  "zh": "而正是这类事情才会真正推动局面。"
+ },
+ {
+  "seg": 367,
+  "start": 1935.226,
+  "end": 1940.849,
+  "speaker": "Unknown",
+  "en": "And I think some people reacted to that, like, even if that's true, it's going to take time so long.",
+  "zh": "而我认为有些人对此的反应是，即使那是真的，也需要很长时间。"
+ },
+ {
+  "seg": 368,
+  "start": 1940.989,
+  "end": 1943.25,
+  "speaker": "Unknown",
+  "en": "And obviously you have to run experiments.",
+  "zh": "显然你必须做实验。"
+ },
+ {
+  "seg": 369,
+  "start": 1943.75,
+  "end": 1948.913,
+  "speaker": "Unknown",
+  "en": "You might think you have the answer, but it could take years and years until people really believe or, you know.",
+  "zh": "你可能觉得自己已经有了答案，但可能需要很多很多年人们才会真正相信，或者，你知道。"
+ },
+ {
+  "seg": 370,
+  "start": 1949.173,
+  "end": 1967.6,
+  "speaker": "Unknown",
+  "en": "Not believe it's even the wrong word until it's proven and goes through sort of the human processes that it has to, but where, you know, what makes you most optimistic about sort of drug discovery and disease, attacking diseases with AI and, and where, where are you sort of like, this is going to take a long time?",
+  "zh": "相信甚至是错误的词，直到它被证明，并经过它必须经历的人类流程，但是，你知道，关于用 AI 攻击疾病、进行药物发现，是什么最让你乐观，以及在哪些方面你会觉得，这需要很长时间？"
+ },
+ {
+  "seg": 371,
+  "start": 1968,
+  "end": 1975.123,
+  "speaker": "Unknown",
+  "en": "I'll, maybe I'll preface in that I've lost in my investment career, which like really started in 2013, lost far more money",
+  "zh": "我，也许我先说一句，在我的投资生涯中——真正开始于 2013 年——因为"
+ },
+ {
+  "seg": 372,
+  "start": 1977.662,
+  "end": 1982.905,
+  "speaker": "Unknown",
+  "en": "Underestimating the velocity of technology and science progress than overestimating the velocity.",
+  "zh": "低估技术与科学进步的速度而亏掉的钱，远远多于因高估速度而亏掉的钱。"
+ },
+ {
+  "seg": 373,
+  "start": 1982.925,
+  "end": 1984.226,
+  "speaker": "Unknown",
+  "en": "Like you missed deals you should have done.",
+  "zh": "比如你错过了本应该做的交易。"
+ },
+ {
+  "seg": 374,
+  "start": 1984.466,
+  "end": 1985.406,
+  "speaker": "Unknown",
+  "en": "I missed deals.",
+  "zh": "我错过了交易。"
+ },
+ {
+  "seg": 375,
+  "start": 1985.426,
+  "end": 1986.927,
+  "speaker": "Unknown",
+  "en": "I thought this would take too long.",
+  "zh": "我当时觉得这会花太长时间。"
+ },
+ {
+  "seg": 376,
+  "start": 1987.107,
+  "end": 1990.269,
+  "speaker": "Unknown",
+  "en": "I didn't think it was tractable, so on and so forth.",
+  "zh": "我觉得它不可行，诸如此类。"
+ },
+ {
+  "seg": 377,
+  "start": 1990.829,
+  "end": 2005.538,
+  "speaker": "Unknown",
+  "en": "And so I think I have learned through a negative Pavlovian response to really attempt to understand why someone who's really intelligent, even if they're saying something that I think is far-fetched to try to understand where they're coming from.",
+  "zh": "所以我认为我通过一种负面的巴甫洛夫式反应学到了，要真正尝试去理解一个真正聪明的人，即使他们在说一些我觉得牵强的话，也要试图理解他们的出发点。"
+ },
+ {
+  "seg": 378,
+  "start": 2006.479,
+  "end": 2013.127,
+  "speaker": "Unknown",
+  "en": "I think what Daria said, which is really inspiring, is it's one thing to talk about it.",
+  "zh": "我认为 Dario 说的那些话，真正鼓舞人心的是，谈论它是一回事。"
+ },
+ {
+  "seg": 379,
+  "start": 2013.427,
+  "end": 2015.47,
+  "speaker": "Unknown",
+  "en": "It's another thing to actually go do it.",
+  "zh": "真正去做是另一回事。"
+ },
+ {
+  "seg": 380,
+  "start": 2015.89,
+  "end": 2019.955,
+  "speaker": "Unknown",
+  "en": "And we can talk about Coefficient and the team and kind of our views on what they're doing.",
+  "zh": "我们可以聊聊 Coefficient 和那个团队，以及我们对其正在做的事情的看法。"
+ },
+ {
+  "seg": 381,
+  "start": 2021.717,
+  "end": 2022.919,
+  "speaker": "Unknown",
+  "en": "But I think in our lifetime.",
+  "zh": "但我认为在我们的有生之年。"
+ },
+ {
+  "seg": 382,
+  "start": 2023.379,
+  "end": 2036.548,
+  "speaker": "Unknown",
+  "en": "I don't think it's hard for me to have, you know, the fidelity to say seven or 10 years or 15 or 20 years, but certainly in our lifetime, assuming, you know, we live to ripe, healthy ages, the vast majority of human disease should be solved, should be treatable.",
+  "zh": "我不认为对我来说很难，你知道，精确地说出是七年还是十年，或者十五或二十年，但在我们的有生之年，假设，你知道，我们活到健康长寿的年龄，人类的绝大多数疾病应该被解决，应该可以被治疗。"
+ },
+ {
+  "seg": 383,
+  "start": 2037.088,
+  "end": 2038.629,
+  "speaker": "Unknown",
+  "en": "And I think we're on that path.",
+  "zh": "而我认为我们正在那条路上。"
+ },
+ {
+  "seg": 384,
+  "start": 2038.669,
+  "end": 2049.996,
+  "speaker": "Unknown",
+  "en": "And, you know, we can talk about a company like Chai that essentially has developed generative technologies to perturb biology in exactly kind of the way one would want to.",
+  "zh": "而且，你知道，我们可以聊聊像 Chai 这样的公司，它基本上开发出了生成式技术，能够以恰到好处的方式去扰动生物学。"
+ },
+ {
+  "seg": 385,
+  "start": 2050.036,
+  "end": 2052.498,
+  "speaker": "Unknown",
+  "en": "So a biologist can say, hey, I want to perturb",
+  "zh": "所以一个生物学家可以说，嘿，我想扰动"
+ },
+ {
+  "seg": 386,
+  "start": 2052.938,
+  "end": 2057.801,
+  "speaker": "Unknown",
+  "en": "This protein at this site by upregulating it or downregulating it.",
+  "zh": "这个蛋白质的这个位点，上调它或下调它。"
+ },
+ {
+  "seg": 387,
+  "start": 2057.861,
+  "end": 2058.741,
+  "speaker": "Unknown",
+  "en": "Sorry, perturb.",
+  "zh": "而从制药资金、收入以及他们获得的势头来看，你能看到这一点。"
+ },
+ {
+  "seg": 388,
+  "start": 2058.821,
+  "end": 2061.163,
+  "speaker": "Unknown",
+  "en": "Is this a model or is this in a lab or?",
+  "zh": "这是在模型里，还是在实验室里？"
+ },
+ {
+  "seg": 389,
+  "start": 2062.603,
+  "end": 2065.585,
+  "speaker": "Unknown",
+  "en": "In a human or an animal setting.",
+  "zh": "是在人体还是动物身上。"
+ },
+ {
+  "seg": 390,
+  "start": 2065.685,
+  "end": 2066.686,
+  "speaker": "Unknown",
+  "en": "So I want to get a protein.",
+  "zh": "所以我想拿到一个蛋白质。"
+ },
+ {
+  "seg": 391,
+  "start": 2066.706,
+  "end": 2070.608,
+  "speaker": "Unknown",
+  "en": "I want to get this protein into this cell type or into this organ type.",
+  "zh": "我想把这个蛋白质送进这种细胞类型或这种器官类型。"
+ },
+ {
+  "seg": 392,
+  "start": 2071.529,
+  "end": 2083.683,
+  "speaker": "Unknown",
+  "en": "And then at that organ type, I want it to hit another protein and the protein that I want to hit it on, the target in kind of biotech pharma speak, I want to attach my protein that I generated onto this part of that.",
+  "zh": "然后在那个器官类型里，我想让它去结合另一个蛋白质，而我想让它结合的那个蛋白质，用生物制药行话来说就是靶点，我想把我生成的这个蛋白质连接到它的这个部位上。"
+ },
+ {
+  "seg": 393,
+  "start": 2084.084,
+  "end": 2084.865,
+  "speaker": "Unknown",
+  "en": "It's called an epitope.",
+  "zh": "这叫做表位。"
+ },
+ {
+  "seg": 394,
+  "start": 2086.186,
+  "end": 2086.727,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "于是……"
+ },
+ {
+  "seg": 395,
+  "start": 2087.848,
+  "end": 2088.948,
+  "speaker": "Unknown",
+  "en": "That's kind of amazing.",
+  "zh": "这挺了不起的。"
+ },
+ {
+  "seg": 396,
+  "start": 2089.008,
+  "end": 2092.23,
+  "speaker": "Unknown",
+  "en": "That's a toolkit that we just never had before.",
+  "zh": "那是我们以前从未拥有过的工具箱。"
+ },
+ {
+  "seg": 397,
+  "start": 2092.29,
+  "end": 2095.971,
+  "speaker": "Unknown",
+  "en": "And you're seeing it in terms of the pharma dollars and the revenue and the traction that they're getting.",
+  "zh": "而且你能从制药行业的资金、收入以及他们获得的增长势头中看到这一点。"
+ },
+ {
+  "seg": 398,
+  "start": 2097.671,
+  "end": 2102.873,
+  "speaker": "Unknown",
+  "en": "But that's kind of like one step of many that's all simultaneously kind of happening all at once.",
+  "zh": "但这只是许多步骤中的一步，而所有这些步骤正在同时发生。"
+ },
+ {
+  "seg": 399,
+  "start": 2103.529,
+  "end": 2108.472,
+  "speaker": "Unknown",
+  "en": "So in our lifetime, we have the ability to sort of treat all these diseases.",
+  "zh": "所以在我们的有生之年，我们有能力去治疗所有这些疾病。"
+ },
+ {
+  "seg": 400,
+  "start": 2109.072,
+  "end": 2111.073,
+  "speaker": "Unknown",
+  "en": "Does that mean we're living forever?",
+  "zh": "这是不是意味着我们能永生?"
+ },
+ {
+  "seg": 401,
+  "start": 2111.113,
+  "end": 2112.794,
+  "speaker": "Unknown",
+  "en": "It means we're living to 200?",
+  "zh": "是不是意味着我们能活到 200 岁?"
+ },
+ {
+  "seg": 402,
+  "start": 2113.114,
+  "end": 2114.455,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 403,
+  "start": 2114.535,
+  "end": 2121.278,
+  "speaker": "Unknown",
+  "en": "And maybe before we get to that question, I think the long pole is and will continue to be testing in humans.",
+  "zh": "在回答那个问题之前,我认为最耗时的部分过去是、将来也会继续是人体试验。"
+ },
+ {
+  "seg": 404,
+  "start": 2121.518,
+  "end": 2129.483,
+  "speaker": "Unknown",
+  "en": "Like, we don't have in silico systems to replace, nor do we have animal models to replace in totality.",
+  "zh": "我们没有能替代的 in silico 系统,也没有能完全替代的动物模型。"
+ },
+ {
+  "seg": 405,
+  "start": 2129.763,
+  "end": 2141.57,
+  "speaker": "Unknown",
+  "en": "Like, the necessary requirement to test in a step-wise function, first safety, then efficacy, then really testing safety and efficacy in a phase one, two, and three kind of trial for most drugs.",
+  "zh": "就是说,分步骤测试的必要条件是:先安全性,然后有效性,然后对大多数药物来说,真正在类似一期、二期、三期试验中测试安全性和有效性。"
+ },
+ {
+  "seg": 406,
+  "start": 2141.59,
+  "end": 2150.435,
+  "speaker": "Unknown",
+  "en": "I actually saw Jacob Kimmel, who's the founder, president, and CEO of New Limit, kind of comment, I think, on Twitter recently that",
+  "zh": "我最近看到 Jacob Kimmel,他是 New Limit 的创始人、总裁兼 CEO,我想是在 Twitter 上评论说"
+ },
+ {
+  "seg": 407,
+  "start": 2151.475,
+  "end": 2153.497,
+  "speaker": "Unknown",
+  "en": "That this kind of long pole will continue to exist.",
+  "zh": "这种最耗时的部分会继续存在。"
+ },
+ {
+  "seg": 408,
+  "start": 2153.537,
+  "end": 2160.243,
+  "speaker": "Unknown",
+  "en": "We don't really have line of sight to something that's going to meaningfully step function, change it, or decrease kind of the timing of it.",
+  "zh": "我们真的没有看到有什么东西能阶梯函数式地、有意义地改变它,或者缩短它的时间。"
+ },
+ {
+  "seg": 409,
+  "start": 2160.563,
+  "end": 2162.185,
+  "speaker": "Unknown",
+  "en": "We might be able to multiplex it.",
+  "zh": "我们也许能把它多重化。"
+ },
+ {
+  "seg": 410,
+  "start": 2162.625,
+  "end": 2170.212,
+  "speaker": "Unknown",
+  "en": "So when you're kind of enrolling in a clinical trial, can we be creative or intelligent about testing multiple drugs in one person at the same time to get kind of a",
+  "zh": "就是说,当你招募临床试验受试者时,我们能不能有创意或聪明地在同一个人身上同时测试多种药物,从而得到一种——"
+ },
+ {
+  "seg": 411,
+  "start": 2170.492,
+  "end": 2176.854,
+  "speaker": "Unknown",
+  "en": "And to say it in sort of the dumbest way possible, if a drug professes to keep you alive forever, you have to run that experiment.",
+  "zh": "用尽可能笨的方式来说,如果一种药物宣称能让你永远活着,你就必须做那个实验。"
+ },
+ {
+  "seg": 412,
+  "start": 2176.874,
+  "end": 2189.557,
+  "speaker": "Unknown",
+  "en": "You know, it's like, it's like, oh, this is gonna help you, you know, 30 years from now, how do you really, you know, it's not hurting you in the near term, maybe it shows some immediate benefit, but you don't necessarily know, no, you might have some theory of the case, why.",
+  "zh": "你知道,就像,哦,这会在 30 年后帮到你,你怎么真正,你知道,它近期对你没有伤害,也许它显示出一些即时益处,但你不一定知道,不,你可能有一些关于这个案例的理论,说明为什么。"
+ },
+ {
+  "seg": 413,
+  "start": 2190.117,
+  "end": 2204.406,
+  "speaker": "Unknown",
+  "en": "AI believes it'll do X, Y, and Z. Novo just had a failed phase three antibody that was going after an interligum, so kind of an extracellular protein called IL-6.",
+  "zh": "AI 相信它会做到 X、Y、Z。Novo 刚刚有一个失败的三期抗体,针对的是一种 interligum,也就是一种叫做 IL-6 的细胞外蛋白。"
+ },
+ {
+  "seg": 414,
+  "start": 2205.066,
+  "end": 2215.113,
+  "speaker": "Unknown",
+  "en": "And we had every biological and theoretical and kind of in vivo and even in human reason to believe that if we kind of shut down or downregulated",
+  "zh": "我们有生物学上、理论上以及 kind of 体内甚至人体上的所有理由相信,如果我们关闭或下调"
+ },
+ {
+  "seg": 415,
+  "start": 2215.913,
+  "end": 2223.615,
+  "speaker": "Unknown",
+  "en": "IL-6, it would reduce the rate of heart disease, essentially ASCVD, various forms of heart attack and heart disease.",
+  "zh": "IL-6,它就会降低心脏病的发病率,基本上就是 ASCVD,各种形式的心脏病发作和心脏病。"
+ },
+ {
+  "seg": 416,
+  "start": 2224.756,
+  "end": 2227.856,
+  "speaker": "Unknown",
+  "en": "We took this kind of drug through the preclinical setting.",
+  "zh": "我们把这种药物带到了临床前阶段。"
+ },
+ {
+  "seg": 417,
+  "start": 2228.857,
+  "end": 2229.797,
+  "speaker": "Unknown",
+  "en": "We took it into phase one.",
+  "zh": "我们把它推进到一期。"
+ },
+ {
+  "seg": 418,
+  "start": 2229.837,
+  "end": 2230.377,
+  "speaker": "Unknown",
+  "en": "It proved safe.",
+  "zh": "它被证明是安全的。"
+ },
+ {
+  "seg": 419,
+  "start": 2230.397,
+  "end": 2233.838,
+  "speaker": "Unknown",
+  "en": "We took it into a phase two setting, which is a little bit shorter.",
+  "zh": "我们把它推进到二期,这一阶段时间要短一些。"
+ },
+ {
+  "seg": 420,
+  "start": 2233.878,
+  "end": 2239.08,
+  "speaker": "Unknown",
+  "en": "So you didn't have the full three or four years required to see, hey, on average, are people having less heart attacks?",
+  "zh": "所以你没有完整的三四年时间去看到,嘿,平均而言,人们的心脏病发作是不是更少了?"
+ },
+ {
+  "seg": 421,
+  "start": 2239.42,
+  "end": 2243.641,
+  "speaker": "Unknown",
+  "en": "But we had all of the biomarkers that we thought were highly correlated to heart health.",
+  "zh": "但我们拥有所有我们认为与心脏健康高度相关的生物标志物。"
+ },
+ {
+  "seg": 422,
+  "start": 2244.101,
+  "end": 2249.846,
+  "speaker": "Unknown",
+  "en": "And we were taking down aisle six and it was taking down all of the biomarkers that we thought were highly correlated to heart disease.",
+  "zh": "我们在压低 IL-6,它也在压低所有我们认为与心脏病高度相关的生物标志物。"
+ },
+ {
+  "seg": 423,
+  "start": 2250.227,
+  "end": 2252.309,
+  "speaker": "Unknown",
+  "en": "We then ran it in a phase three setting.",
+  "zh": "然后我们在三期的环境中做了试验。"
+ },
+ {
+  "seg": 424,
+  "start": 2252.369,
+  "end": 2257.093,
+  "speaker": "Unknown",
+  "en": "It cost hundreds of millions, I think over $500 million was the aggregate cost of this phase three.",
+  "zh": "它花费了数亿美元,我想这个三期的总成本超过 5 亿美元。"
+ },
+ {
+  "seg": 425,
+  "start": 2257.113,
+  "end": 2260.816,
+  "speaker": "Unknown",
+  "en": "It took about four years to run and there was zero correlation.",
+  "zh": "它花了大约四年时间运行,结果零相关。"
+ },
+ {
+  "seg": 426,
+  "start": 2261.597,
+  "end": 2263.798,
+  "speaker": "Unknown",
+  "en": "There was 1% correlation.",
+  "zh": "相关性是 1%。"
+ },
+ {
+  "seg": 427,
+  "start": 2263.838,
+  "end": 2268.74,
+  "speaker": "Unknown",
+  "en": "It was a 0.99 hazard ratio, which is the equivalent of 1% correlation between that drug and decreasing heart disease.",
+  "zh": "风险比是 0.99,相当于该药物与降低心脏病之间有 1% 的相关性。"
+ },
+ {
+  "seg": 428,
+  "start": 2269.26,
+  "end": 2270.74,
+  "speaker": "Unknown",
+  "en": "And so what does it mean?",
+  "zh": "那么这意味着什么?"
+ },
+ {
+  "seg": 429,
+  "start": 2270.78,
+  "end": 2272.301,
+  "speaker": "Unknown",
+  "en": "It means that biology is really hard.",
+  "zh": "这意味着生物学真的很难。"
+ },
+ {
+  "seg": 430,
+  "start": 2272.361,
+  "end": 2273.641,
+  "speaker": "Unknown",
+  "en": "We thought we had all of the biomarkers.",
+  "zh": "我们以为我们掌握了所有的生物标志物。"
+ },
+ {
+  "seg": 431,
+  "start": 2273.701,
+  "end": 2275.782,
+  "speaker": "Unknown",
+  "en": "Those ended up being correlative, not causal.",
+  "zh": "那些最终被证明是相关性,而非因果性。"
+ },
+ {
+  "seg": 432,
+  "start": 2276.322,
+  "end": 2278.263,
+  "speaker": "Unknown",
+  "en": "The drug did what we expected it to do.",
+  "zh": "药物做了我们期望它做的事。"
+ },
+ {
+  "seg": 433,
+  "start": 2278.283,
+  "end": 2279.544,
+  "speaker": "Unknown",
+  "en": "It was taking down IL-6.",
+  "zh": "它在压低 IL-6。"
+ },
+ {
+  "seg": 434,
+  "start": 2279.604,
+  "end": 2283.285,
+  "speaker": "Unknown",
+  "en": "It was taking down kind of that pathogenic protein.",
+  "zh": "它在压低那种致病蛋白。"
+ },
+ {
+  "seg": 435,
+  "start": 2284.245,
+  "end": 2286.047,
+  "speaker": "Unknown",
+  "en": "But it wasn't actually reducing the disease.",
+  "zh": "但它实际上并没有减少疾病。"
+ },
+ {
+  "seg": 436,
+  "start": 2286.087,
+  "end": 2295.032,
+  "speaker": "Unknown",
+  "en": "And so until we figure out better biomarkers, until we better understand human disease biology, it's still going to take time and there still will be failure.",
+  "zh": "所以,在我们找到更好的生物标志物之前,在我们更好地理解人类疾病生物学之前,仍然需要时间,而且仍然会失败。"
+ },
+ {
+  "seg": 437,
+  "start": 2295.312,
+  "end": 2309.04,
+  "speaker": "Unknown",
+  "en": "But if we cure all disease or just cancer, does that just mean there's still a clock or this is an attempt to sort of we will not die of natural causes?",
+  "zh": "但如果我们治愈了所有疾病,或者只是治愈了癌症,这是不是意味着仍然有一个时钟,或者这是一种尝试,让我们不会死于自然原因?"
+ },
+ {
+  "seg": 438,
+  "start": 2310.341,
+  "end": 2311.842,
+  "speaker": "Unknown",
+  "en": "That's somewhat of a philosophical",
+  "zh": "这在某种程度上是一个哲学"
+ },
+ {
+  "seg": 439,
+  "start": 2313.163,
+  "end": 2317.087,
+  "speaker": "Unknown",
+  "en": "A question, do you think aging is a disease or is it, you know, part of the human condition?",
+  "zh": "问题,你认为衰老是一种疾病,还是,你知道,人类境况的一部分?"
+ },
+ {
+  "seg": 440,
+  "start": 2317.107,
+  "end": 2320.05,
+  "speaker": "Unknown",
+  "en": "I think there are many smart people who would answer on both sides.",
+  "zh": "我认为有很多聪明人会站在两边回答。"
+ },
+ {
+  "seg": 441,
+  "start": 2321.091,
+  "end": 2327.197,
+  "speaker": "Unknown",
+  "en": "Oh, because your claim might be accept aging or like, are you sort of leaving aging out of?",
+  "zh": "哦,因为你的主张可能是接受衰老,还是说,你是在某种程度上把衰老排除在外?"
+ },
+ {
+  "seg": 442,
+  "start": 2327.837,
+  "end": 2334.28,
+  "speaker": "Unknown",
+  "en": "There are reasons to believe that aging might be helpful to some extent.",
+  "zh": "有理由相信,衰老在某种程度上可能是有帮助的。"
+ },
+ {
+  "seg": 443,
+  "start": 2334.58,
+  "end": 2335.64,
+  "speaker": "Unknown",
+  "en": "For an evolutionary process.",
+  "zh": "对进化过程而言。"
+ },
+ {
+  "seg": 444,
+  "start": 2335.66,
+  "end": 2338.021,
+  "speaker": "Unknown",
+  "en": "Yeah, for the first 20 or 30 years of our lives.",
+  "zh": "是的,对我们生命的前二三十年而言。"
+ },
+ {
+  "seg": 445,
+  "start": 2338.061,
+  "end": 2339.281,
+  "speaker": "Unknown",
+  "en": "But then we haven't really evolved.",
+  "zh": "但之后我们就没有真正进化了。"
+ },
+ {
+  "seg": 446,
+  "start": 2340.022,
+  "end": 2346.284,
+  "speaker": "Unknown",
+  "en": "There's very little in human evolution that's based on the years 30 plus, simply because the vast majority of our ancestors never made it past those years.",
+  "zh": "人类进化中几乎没有基于 30 岁以后年份的内容,原因很简单,我们绝大多数祖先从未活过那些年份。"
+ },
+ {
+  "seg": 447,
+  "start": 2346.944,
+  "end": 2353.809,
+  "speaker": "Unknown",
+  "en": "And so, yeah, could we imagine a world where we maybe freeze the aging function at around 27 or 33 in that range?",
+  "zh": "所以,是的,我们能不能想象一个世界,我们也许把衰老功能冻结在大约 27 岁或 33 岁那个范围?"
+ },
+ {
+  "seg": 448,
+  "start": 2354.129,
+  "end": 2355.31,
+  "speaker": "Unknown",
+  "en": "Perhaps, if that's possible.",
+  "zh": "也许,如果那是可能的话。"
+ },
+ {
+  "seg": 449,
+  "start": 2355.81,
+  "end": 2369.659,
+  "speaker": "Unknown",
+  "en": "Companies like NewLimit, by the way, like not in this fantastical, let's go do it all at once, freeze at 27, but like let's be organ or cell specific and figure out a way to perturb the age of particular cell types or organ types with exquisite precision and control.",
+  "zh": "顺便说一句,像 NewLimit 这样的公司,不是那种幻想式的、一次性全部搞定、冻结在 27 岁,而是让我们针对特定器官或细胞,用极致的精度和控制力找出扰动特定细胞类型或器官类型年龄的方法。"
+ },
+ {
+  "seg": 450,
+  "start": 2370.06,
+  "end": 2371.401,
+  "speaker": "Unknown",
+  "en": "Like that's what they're going after.",
+  "zh": "就像，这就是他们要追求的东西。"
+ },
+ {
+  "seg": 451,
+  "start": 2374.447,
+  "end": 2385.815,
+  "speaker": "Unknown",
+  "en": "How much is it sort of generative models, like the LLMs we all know, like, is it, I go into OpenAI, you know, some private version of OpenAI and I ask like, what should we do?",
+  "zh": "那么有多少是生成式模型，就像我们都知道的 LLM,比如说，我进入 OpenAI,你知道，某个私人版本的 OpenAI,然后问，我们应该做什么？"
+ },
+ {
+  "seg": 452,
+  "start": 2386.015,
+  "end": 2397.983,
+  "speaker": "Unknown",
+  "en": "And like, it spits out some answer and then scientists run around and run experiments or what, how should we imagine what these like, sort of AI drug discovery companies are doing or like, what's, what are their key approaches?",
+  "zh": "然后它吐出某个答案，接着科学家们跑来跑去地做实验，还是什么，我们应该怎么想象这些 AI 药物发现公司在做的事情，或者说，它们的关键方法是什么？"
+ },
+ {
+  "seg": 453,
+  "start": 2398.803,
+  "end": 2404.007,
+  "speaker": "Unknown",
+  "en": "So there are, I think, you know, a handful, like maybe to name a few of them.",
+  "zh": "所以我认为，你知道，有那么几种，也许举几个例子。"
+ },
+ {
+  "seg": 454,
+  "start": 2404.708,
+  "end": 2413.815,
+  "speaker": "Unknown",
+  "en": "There's companies like Chai, again, for example, who are developing technology to help you design what an industry is called composition of matter.",
+  "zh": "有像 Chai 这样的公司，再举个例子，它们在开发技术，帮助你设计行业中所谓的「物质的组成」。"
+ },
+ {
+  "seg": 455,
+  "start": 2414.155,
+  "end": 2423.943,
+  "speaker": "Unknown",
+  "en": "So I want to design a small molecule or an antibody or a macrocycle or, you know, a radio ligand therapy, help me generative algorithm design the actual thing.",
+  "zh": "如果我是，比如说，礼来，我正在做一个针对 IL-6 的试验，而德国有个小研究实验室发表了一个结果，那么作为试验研究者的我，碰巧看到那个结果的几率有多大？"
+ },
+ {
+  "seg": 456,
+  "start": 2424.823,
+  "end": 2426.545,
+  "speaker": "Unknown",
+  "en": "There are- And so that's, I build a specific-",
+  "zh": "有——所以那是，我构建一个特定的——"
+ },
+ {
+  "seg": 457,
+  "start": 2427.265,
+  "end": 2433.126,
+  "speaker": "Unknown",
+  "en": "Model that is sort of thinking through it around these problems, trained on it, and then it's coming up with answers itself.",
+  "zh": "模型，围绕这些问题进行某种思考，在这些问题上训练，然后它自己提出答案。"
+ },
+ {
+  "seg": 458,
+  "start": 2433.346,
+  "end": 2433.726,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "正是如此。"
+ },
+ {
+  "seg": 459,
+  "start": 2433.746,
+  "end": 2450.77,
+  "speaker": "Unknown",
+  "en": "And instead of saying, hey, write me an essay or write me a poem as one might do to Claude or Anthropic, it's saying, design for me the antibody sequence of a drug that binds to that epitope of that protein, or design for me a small molecule that hits into that allosteric pocket of that intracellular protein, so on and so forth.",
+  "zh": "而不是像人们对 Claude 或 Anthropic 可能做的那样说，嘿，给我写篇文章或写首诗，而是说，为我设计能结合那个蛋白质的、那个表位的药物抗体序列，或者为我设计一个能命中那个胞内蛋白的别构口袋的小分子，等等等等。"
+ },
+ {
+  "seg": 460,
+  "start": 2451.71,
+  "end": 2454.791,
+  "speaker": "Unknown",
+  "en": "There are companies that are trying to map biology.",
+  "zh": "还有公司在尝试绘制生物学图谱。"
+ },
+ {
+  "seg": 461,
+  "start": 2454.992,
+  "end": 2457.833,
+  "speaker": "Unknown",
+  "en": "So it's not just about designing the medicine.",
+  "zh": "所以这不仅仅是设计药物。"
+ },
+ {
+  "seg": 462,
+  "start": 2457.873,
+  "end": 2461.274,
+  "speaker": "Unknown",
+  "en": "It's about knowing what the medicine should do.",
+  "zh": "还在于知道药物应该做什么。"
+ },
+ {
+  "seg": 463,
+  "start": 2461.774,
+  "end": 2464.175,
+  "speaker": "Unknown",
+  "en": "And so that's often reading literature.",
+  "zh": "所以这通常是阅读文献。"
+ },
+ {
+  "seg": 464,
+  "start": 2464.315,
+  "end": 2468.117,
+  "speaker": "Unknown",
+  "en": "It's understanding, you know, large multimodal biological",
+  "zh": "是理解，你知道，大型多模态的生物学"
+ },
+ {
+  "seg": 465,
+  "start": 2468.617,
+  "end": 2475.1,
+  "speaker": "Unknown",
+  "en": "And human health data sets, so multi-omeg, human health, EHR, EMR, kind of coalescing all of that and making sense of it.",
+  "zh": "和人类健康数据集，比如 multi-omeg、人类健康、EHR、EMR,把所有这些整合起来并理解它们。"
+ },
+ {
+  "seg": 466,
+  "start": 2476.381,
+  "end": 2480.482,
+  "speaker": "Unknown",
+  "en": "We started actually a company internally at Dimension called Coefficient.",
+  "zh": "我们实际上在 Dimension 内部创办了一家叫 Coefficient 的公司。"
+ },
+ {
+  "seg": 467,
+  "start": 2481.143,
+  "end": 2486.165,
+  "speaker": "Unknown",
+  "en": "And one of the ways we used it internally before kind of spinning it out into a new code",
+  "zh": "在把它分拆成一个新的……之前，我们在内部使用它的方式之一"
+ },
+ {
+  "seg": 468,
+  "start": 2486.925,
+  "end": 2499.929,
+  "speaker": "Unknown",
+  "en": "was to make sense of new papers, new ideas, new pathways, new targets, new potential remedies in ways that we could very quickly make sense and get smart in these areas, even if we'd never kind of seen them.",
+  "zh": "是去理解新论文、新想法、新通路、新靶点、新的潜在疗法，让我们能非常快地理解这些领域并变得内行，即使我们从来没接触过它们。"
+ },
+ {
+  "seg": 469,
+  "start": 2500.17,
+  "end": 2502.23,
+  "speaker": "Unknown",
+  "en": "It could have helped you just invest in great companies.",
+  "zh": "它本可以帮助你只是投资优秀公司。"
+ },
+ {
+  "seg": 470,
+  "start": 2502.35,
+  "end": 2502.73,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "正是如此。"
+ },
+ {
+  "seg": 471,
+  "start": 2503.551,
+  "end": 2505.291,
+  "speaker": "Unknown",
+  "en": "And that's frankly how we used it.",
+  "zh": "而且坦白说我们就是这么用它。"
+ },
+ {
+  "seg": 472,
+  "start": 2505.571,
+  "end": 2509.153,
+  "speaker": "Unknown",
+  "en": "And in every day across, you know, the 10...",
+  "zh": "而每一天，横跨，你知道，那 10……"
+ },
+ {
+  "seg": 473,
+  "start": 2509.173,
+  "end": 2513.254,
+  "speaker": "Unknown",
+  "en": "This Coefficient Bio, which sold Anthropic for like $400 million.",
+  "zh": "这个 Coefficient Bio,以大约 4 亿美元卖给了 Anthropic。"
+ },
+ {
+  "seg": 474,
+  "start": 2513.374,
+  "end": 2513.794,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "正是如此。"
+ },
+ {
+  "seg": 475,
+  "start": 2513.934,
+  "end": 2515.495,
+  "speaker": "Unknown",
+  "en": "And every day across the...",
+  "zh": "而每一天，横跨……"
+ },
+ {
+  "seg": 476,
+  "start": 2516.695,
+  "end": 2520.098,
+  "speaker": "Unknown",
+  "en": "Am I making this up like a 30,000 IRR or something?",
+  "zh": "我是瞎编的吗？好像有 30000 的 IRR 之类的？"
+ },
+ {
+  "seg": 477,
+  "start": 2520.979,
+  "end": 2531.287,
+  "speaker": "Unknown",
+  "en": "I probably shouldn't say the specific financials of it, but although, again, here to my Dimension co-founder, Adam Goldburn, gets a bunch of credit.",
+  "zh": "我大概不该说它的具体财务数据，不过话说回来，在此给我的 Dimension 联合创始人 Adam Goldburn 记一大功。"
+ },
+ {
+  "seg": 478,
+  "start": 2531.347,
+  "end": 2535.631,
+  "speaker": "Unknown",
+  "en": "He was kind of the entrepreneur, investor, co-founder of the business.",
+  "zh": "他可以说是这家企业的创业者、投资人、联合创始人。"
+ },
+ {
+  "seg": 479,
+  "start": 2535.671,
+  "end": 2538.173,
+  "speaker": "Unknown",
+  "en": "It was his idea to spin out what we were developing internally.",
+  "zh": "把我们在内部开发的东西分拆出去是他的主意，"
+ },
+ {
+  "seg": 480,
+  "start": 2538.733,
+  "end": 2539.414,
+  "speaker": "Unknown",
+  "en": "into a company.",
+  "zh": "分拆成一家公司。"
+ },
+ {
+  "seg": 481,
+  "start": 2539.514,
+  "end": 2549.342,
+  "speaker": "Unknown",
+  "en": "He was single-handedly responsible for recruiting the founding team, galvanizing them, financing them, and then working with them through kind of the early innings of the coefficient build.",
+  "zh": "他单枪匹马负责招募创始团队、凝聚他们、为他们融资，然后和他们一起走过 Coefficient 构建的早期阶段。"
+ },
+ {
+  "seg": 482,
+  "start": 2549.402,
+  "end": 2555.487,
+  "speaker": "Unknown",
+  "en": "We were extremely lucky to partner with Nathan and Aris and Sam and Jesse and the team there.",
+  "zh": "我们非常幸运能与 Nathan、Aris、Sam、Jesse 和那里的团队合作。"
+ },
+ {
+  "seg": 483,
+  "start": 2557.208,
+  "end": 2570.756,
+  "speaker": "Unknown",
+  "en": "And to give you just maybe like a quick sense of like where at least we were kind of thinking about building it, every day there's 10,000 plus, tens of thousands of universities that are all pursuing different parts of science.",
+  "zh": "为了让你快速感受一下，至少我们在构建它时是怎么想的，每天有 10000 多、数以万计的大学在追求科学的不同部分。"
+ },
+ {
+  "seg": 484,
+  "start": 2570.916,
+  "end": 2573.598,
+  "speaker": "Unknown",
+  "en": "Every day they're putting online new results, new data.",
+  "zh": "每天它们都在网上发布新结果、新数据。"
+ },
+ {
+  "seg": 485,
+  "start": 2574.598,
+  "end": 2591.369,
+  "speaker": "Unknown",
+  "en": "If I am, let's say, Lilly, and I'm running a trial against IL-6 maybe, and there's a small research lab in Germany that publishes a result, what are the odds that I, as the trial investigator, will happen to see that result?",
+  "zh": "假如我是 Lilly,我正在做一个针对 IL-6 的试验,德国有个小型研究实验室发表了一个结果,那么作为试验研究者,我恰好会看到那个结果的几率有多大?"
+ },
+ {
+  "seg": 486,
+  "start": 2591.829,
+  "end": 2593.05,
+  "speaker": "Unknown",
+  "en": "Zero to none, right?",
+  "zh": "几乎为零，对吧？"
+ },
+ {
+  "seg": 487,
+  "start": 2593.49,
+  "end": 2600.755,
+  "speaker": "Unknown",
+  "en": "But if I have an agent, quote unquote, online scouring the world's kind of corpus of knowledge in real time, so being able to incorporate in real time",
+  "zh": "但如果我有一个「智能体」，打引号的智能体，在线实时梳理全世界的知识库，也就是能够实时地纳入"
+ },
+ {
+  "seg": 488,
+  "start": 2601.195,
+  "end": 2607.439,
+  "speaker": "Unknown",
+  "en": "Against your world model, what do you think the probability distribution of different biological phenomena to be true is?",
+  "zh": "你的世界模型，即你认为不同生物现象为真的概率分布是什么？"
+ },
+ {
+  "seg": 489,
+  "start": 2607.979,
+  "end": 2618.506,
+  "speaker": "Unknown",
+  "en": "If you see a result from a small research university in the suburbs of Berlin come online, you should be able to, the next day, update what your thinking is, update the Gantt chart.",
+  "zh": "如果看到柏林郊区某所小型研究型大学的一个结果上线，你应该能够在第二天就更新你的想法，更新甘特图。"
+ },
+ {
+  "seg": 490,
+  "start": 2618.746,
+  "end": 2619.506,
+  "speaker": "Unknown",
+  "en": "No, actually, you know what?",
+  "zh": "不，其实，你知道吗？"
+ },
+ {
+  "seg": 491,
+  "start": 2619.526,
+  "end": 2623.809,
+  "speaker": "Unknown",
+  "en": "We should look at that patient criteria, not what we had before, so on and so forth.",
+  "zh": "我们应该看看那个患者标准，而不是我们之前的那个，等等等等。"
+ },
+ {
+  "seg": 492,
+  "start": 2626.23,
+  "end": 2627.131,
+  "speaker": "Unknown",
+  "en": "I think that's where we're trending.",
+  "zh": "我认为那就是我们正在走向的方向。"
+ },
+ {
+  "seg": 493,
+  "start": 2627.572,
+  "end": 2641.385,
+  "speaker": "Unknown",
+  "en": "It makes me really hopeful that we will get more accurate with our kind of scientific- I hear this stuff and it's just like the average American is so underestimating how revolutionary what's happening with generative",
+  "zh": "这让我非常有希望，我们的科学会变得更精准——我听到这些东西，就感觉普通美国人实在太低估了生成式所带来的这场变革。"
+ },
+ {
+  "seg": 494,
+  "start": 2641.585,
+  "end": 2644.507,
+  "speaker": "Unknown",
+  "en": "Yeah, it's like, I mean, Americans are pretty hostile to it.",
+  "zh": "是啊，就是说，美国人对它相当敌视。"
+ },
+ {
+  "seg": 495,
+  "start": 2645.068,
+  "end": 2649.571,
+  "speaker": "Unknown",
+  "en": "And partially the, you know, AI industry gets some of the blame for how they talk about it.",
+  "zh": "而部分原因，你知道，AI 行业在谈论它的方式上也得担一些责。"
+ },
+ {
+  "seg": 496,
+  "start": 2649.691,
+  "end": 2659.358,
+  "speaker": "Unknown",
+  "en": "But just, just on science alone, the amount that people see opportunity, it's sad that, yeah, the American public sort of hasn't gotten that message.",
+  "zh": "但仅就科学而言，人们看到的机会之多，遗憾的是，美国公众算是没收到这个信息。"
+ },
+ {
+  "seg": 497,
+  "start": 2659.378,
+  "end": 2659.678,
+  "speaker": "Unknown",
+  "en": "It's so cool.",
+  "zh": "太酷了。"
+ },
+ {
+  "seg": 498,
+  "start": 2659.698,
+  "end": 2660.459,
+  "speaker": "Unknown",
+  "en": "It's so fucking cool.",
+  "zh": "太他妈酷了。"
+ },
+ {
+  "seg": 499,
+  "start": 2660.479,
+  "end": 2662.36,
+  "speaker": "Unknown",
+  "en": "Like, and like what's happening in math right now?",
+  "zh": "比如说，比如现在数学领域正在发生什么？"
+ },
+ {
+  "seg": 500,
+  "start": 2662.62,
+  "end": 2670.528,
+  "speaker": "Unknown",
+  "en": "We're potentially nearing the asymptote of the full closure of a priori human knowledge.",
+  "zh": "我们可能正在接近先验人类知识完全闭合的渐近线。"
+ },
+ {
+  "seg": 501,
+  "start": 2673.445,
+  "end": 2678.487,
+  "speaker": "Unknown",
+  "en": "Man, like as a nerd and as a geek growing up, like that's like the coolest fucking thing.",
+  "zh": "天哪，作为一个从小长大的书呆子和极客，这简直是他妈最酷的事情。"
+ },
+ {
+  "seg": 502,
+  "start": 2678.507,
+  "end": 2679.347,
+  "speaker": "Unknown",
+  "en": "Translate that?",
+  "zh": "翻译一下？"
+ },
+ {
+  "seg": 503,
+  "start": 2679.467,
+  "end": 2683.048,
+  "speaker": "Unknown",
+  "en": "You just think AI is about to sort of solve all these unsolved truths?",
+  "zh": "你就是觉得 AI 即将解决所有这些未解的真理？"
+ },
+ {
+  "seg": 504,
+  "start": 2683.128,
+  "end": 2685.329,
+  "speaker": "Unknown",
+  "en": "Anything that you can deduce with a pen and paper.",
+  "zh": "任何你能够用纸笔推导出来的东西。"
+ },
+ {
+  "seg": 505,
+  "start": 2685.569,
+  "end": 2690.991,
+  "speaker": "Unknown",
+  "en": "So like mathematics, for example, we should have the full closure of it.",
+  "zh": "比如数学，我们应该能实现它的完全闭合。"
+ },
+ {
+  "seg": 506,
+  "start": 2691.211,
+  "end": 2698.633,
+  "speaker": "Unknown",
+  "en": "We can, in theory, I think sooner rather than later, be on a path towards essentially like having a pamphlet of...",
+  "zh": "我认为，在理论上， sooner rather than later,我们基本上可以走上这样一条道路，即拥有一本小册子……"
+ },
+ {
+  "seg": 507,
+  "start": 2698.933,
+  "end": 2701.294,
+  "speaker": "Unknown",
+  "en": "Here's all of mathematics, and here's kind of like the proofs.",
+  "zh": "这是全部的数学，这里是那些证明。"
+ },
+ {
+  "seg": 508,
+  "start": 2701.594,
+  "end": 2712.236,
+  "speaker": "Unknown",
+  "en": "To the extent that, I mean, there's no complete representation of it, but to the extent that for any statement, we should be able to kind of give a true or false proof for the most part, we're on that path.",
+  "zh": "在某种程度上——我是说，并不存在对它的完全表示——但在某种程度上，对于任何一个陈述，我们大体上都能给出一个真或假的证明，我们正在那条路上。"
+ },
+ {
+  "seg": 509,
+  "start": 2712.536,
+  "end": 2713.596,
+  "speaker": "Unknown",
+  "en": "And that's done.",
+  "zh": "而这就完成了。"
+ },
+ {
+  "seg": 510,
+  "start": 2713.616,
+  "end": 2717.097,
+  "speaker": "Unknown",
+  "en": "Where it's sort of, you could solve it with binary is sort of the claim, or?",
+  "zh": "也就是说，你基本上可以用二元判断来解决它，是这个意思吗？"
+ },
+ {
+  "seg": 511,
+  "start": 2717.257,
+  "end": 2718.398,
+  "speaker": "Unknown",
+  "en": "You can solve, yeah.",
+  "zh": "你可以解决，是的。"
+ },
+ {
+  "seg": 512,
+  "start": 2718.698,
+  "end": 2720.078,
+  "speaker": "Unknown",
+  "en": "In philosophy, it's called a priori.",
+  "zh": "在哲学里，这叫先验(a priori)。"
+ },
+ {
+  "seg": 513,
+  "start": 2720.098,
+  "end": 2724.539,
+  "speaker": "Unknown",
+  "en": "So it's things that you can deduce without kind of empirical testing.",
+  "zh": "就是指你不需要某种实证检验就能推导出来的东西。"
+ },
+ {
+  "seg": 514,
+  "start": 2724.839,
+  "end": 2728.62,
+  "speaker": "Unknown",
+  "en": "Physics, chemistry, astrology space, so on and so forth, astronomy space.",
+  "zh": "物理、化学、占星太空等等，天文太空。"
+ },
+ {
+  "seg": 515,
+  "start": 2729.28,
+  "end": 2730.781,
+  "speaker": "Unknown",
+  "en": "Those are more empirical sciences.",
+  "zh": "那些更偏实证科学。"
+ },
+ {
+  "seg": 516,
+  "start": 2730.801,
+  "end": 2733.003,
+  "speaker": "Unknown",
+  "en": "So it's a posteriori.",
+  "zh": "所以那是后验(a posteriori)。"
+ },
+ {
+  "seg": 517,
+  "start": 2733.123,
+  "end": 2738.067,
+  "speaker": "Unknown",
+  "en": "So you need to be able to then query the universe, get more data, and then help guide your knowledge back.",
+  "zh": "所以你就需要能够去查询宇宙，获取更多数据，然后把你的知识引导回来。"
+ },
+ {
+  "seg": 518,
+  "start": 2738.687,
+  "end": 2744.931,
+  "speaker": "Unknown",
+  "en": "And that's where there are two major branches of AI research right now.",
+  "zh": "而这正是当前 AI 研究的两大主要分支所在。"
+ },
+ {
+  "seg": 519,
+  "start": 2745.011,
+  "end": 2746.833,
+  "speaker": "Unknown",
+  "en": "One is in and around mathematics, which is",
+  "zh": "一个是在数学领域及其周边，也就是"
+ },
+ {
+  "seg": 520,
+  "start": 2747.393,
+  "end": 2748.154,
+  "speaker": "Unknown",
+  "en": "A priori knowledge.",
+  "zh": "先验知识。"
+ },
+ {
+  "seg": 521,
+  "start": 2748.594,
+  "end": 2750.375,
+  "speaker": "Unknown",
+  "en": "And the other is around kind of empirical knowledge.",
+  "zh": "另一个则是围绕某种实证知识。"
+ },
+ {
+  "seg": 522,
+  "start": 2750.635,
+  "end": 2763.663,
+  "speaker": "Unknown",
+  "en": "So you're seeing so many kind of labs being spun up to essentially have closed loop interfaces between kind of the AI model and some sort of set of experiments that they can run and then have it come back and update the priors of the AI model.",
+  "zh": "所以你会看到这么多实验室被创办出来，本质上是在 AI 模型与它们能运行的某种实验集合之间建立闭环接口，然后让结果回来更新 AI 模型的先验。"
+ },
+ {
+  "seg": 523,
+  "start": 2764.142,
+  "end": 2772.471,
+  "speaker": "Unknown",
+  "en": "I feel like, you know, what do you make of Silicon Valley's sort of, I guess, silence on some of the U.S. turn against immigrants?",
+  "zh": "我觉得，你怎么看硅谷对美国转向反移民这一趋势的某种……沉默？"
+ },
+ {
+  "seg": 524,
+  "start": 2774.433,
+  "end": 2775.294,
+  "speaker": "Unknown",
+  "en": "It's so weird.",
+  "zh": "这太奇怪了。"
+ },
+ {
+  "seg": 525,
+  "start": 2775.434,
+  "end": 2777.616,
+  "speaker": "Unknown",
+  "en": "It's sort of dark, right?",
+  "zh": "有点黑暗，对吧？"
+ },
+ {
+  "seg": 526,
+  "start": 2777.656,
+  "end": 2778.397,
+  "speaker": "Unknown",
+  "en": "It's so dark.",
+  "zh": "太黑暗了。"
+ },
+ {
+  "seg": 527,
+  "start": 2779.558,
+  "end": 2780.239,
+  "speaker": "Unknown",
+  "en": "The fact that we can",
+  "zh": "我们竟然能"
+ },
+ {
+  "seg": 528,
+  "start": 2783.14,
+  "end": 2800.547,
+  "speaker": "Unknown",
+  "en": "I'm all for opening the Overton window, but I find it deeply troubling that there's not more pushback against essentially a view that we should have some sort of reverse DEI for",
+  "zh": "我完全支持打开奥弗顿之窗，但我发现一件深感不安的事是，对于一种本质上主张我们应该搞某种反向 DEI 的观点，竟没有更多的反击。"
+ },
+ {
+  "seg": 529,
+  "start": 2801.948,
+  "end": 2810.237,
+  "speaker": "Unknown",
+  "en": "I believe we are as a country and as an economy, certainly who we are because we've been the beneficiaries of global brain drain.",
+  "zh": "我相信我们作为一个国家、作为一个经济体，我们之所以是今天的我们，肯定是因为我们一直是全球人才流失( brain drain )的受益者。"
+ },
+ {
+  "seg": 530,
+  "start": 2810.617,
+  "end": 2819.387,
+  "speaker": "Unknown",
+  "en": "And so for every role and every company, in theory, all things equal, we should be able to find the best person, source the best person globally.",
+  "zh": "所以对于每一个职位、每一家公司，理论上，在其他条件相同的情况下，我们应该能在全球范围内找到、招揽最优秀的人。"
+ },
+ {
+  "seg": 531,
+  "start": 2820.087,
+  "end": 2822.891,
+  "speaker": "Unknown",
+  "en": "And that's why our companies by and large have been successful.",
+  "zh": "这就是为什么我们的公司总体上一直很成功。"
+ },
+ {
+  "seg": 532,
+  "start": 2822.991,
+  "end": 2823.932,
+  "speaker": "Unknown",
+  "en": "And it's good for America.",
+  "zh": "而且这对美国有好处。"
+ },
+ {
+  "seg": 533,
+  "start": 2823.952,
+  "end": 2828.437,
+  "speaker": "Unknown",
+  "en": "I mean, Palmer Luckey has been fighting with Paul Graham, probably fighting as we speak for days.",
+  "zh": "我是说，Palmer Luckey 一直在和 Paul Graham 斗，可能我们说话这会儿都已经斗了好几天了。"
+ },
+ {
+  "seg": 534,
+  "start": 2829.018,
+  "end": 2831.941,
+  "speaker": "Unknown",
+  "en": "And it's like successful American companies",
+  "zh": "而成功的美国公司"
+ },
+ {
+  "seg": 535,
+  "start": 2832.995,
+  "end": 2836.118,
+  "speaker": "Unknown",
+  "en": "Will either hire everybody or they'll open up offices somewhere else.",
+  "zh": "要么把所有人都招进来，要么去别的地方开设办公室。"
+ },
+ {
+  "seg": 536,
+  "start": 2836.158,
+  "end": 2842.865,
+  "speaker": "Unknown",
+  "en": "So like a global multinational is still going to hire people outside of the U.S. And so I don't even understand.",
+  "zh": "所以像一家全球跨国公司仍然会在美国以外招人。所以我甚至都搞不懂。"
+ },
+ {
+  "seg": 537,
+  "start": 2842.985,
+  "end": 2847.429,
+  "speaker": "Unknown",
+  "en": "It's better for Americans that the talented people are here paying our taxes.",
+  "zh": "对美国人来说，让有才华的人在这里缴我们的税，是更好的。"
+ },
+ {
+  "seg": 538,
+  "start": 2847.51,
+  "end": 2854.837,
+  "speaker": "Unknown",
+  "en": "Starting our companies here, being aligned with our governments, hiring with and building with our values.",
+  "zh": "在这里创办公司，与我们的政府保持一致，用我们的价值观来招聘、来建设。"
+ },
+ {
+  "seg": 539,
+  "start": 2855.017,
+  "end": 2874.196,
+  "speaker": "Unknown",
+  "en": "But the defense, I mean, Kerry Tan, I understand you have like the, you know, the White House space or like the FTC or whatever it was like zeroed in on you, but just like not even, immigrants have given the Silicon Valley so much and to not even like defend them at this moment just feels pretty neat to me.",
+  "zh": "但在国防方面，我是说，Kerry Tan,我理解你那种，你知道，白宫那边或者 FTC 或者不管什么机构盯上你的处境，但就连……移民给了硅谷这么多，而在这个时刻甚至不去为他们辩护，我觉得这挺不妙的。"
+ },
+ {
+  "seg": 540,
+  "start": 2876.238,
+  "end": 2887.591,
+  "speaker": "Unknown",
+  "en": "Deeply disenchanted by the large sound of a pin dropping from many of my Silicon Valley venture peers in the face of this debate.",
+  "zh": "对于这场辩论面前，我的许多硅谷风投同行集体掉针般的沉默，我深感幻灭。"
+ },
+ {
+  "seg": 541,
+  "start": 2887.871,
+  "end": 2888.232,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 542,
+  "start": 2890.454,
+  "end": 2893.437,
+  "speaker": "Unknown",
+  "en": "I don't think that would have happened like 10 years ago or 15 years ago.",
+  "zh": "我不觉得这种事在 10 年前或 15 年前会发生。"
+ },
+ {
+  "seg": 543,
+  "start": 2893.897,
+  "end": 2901.624,
+  "speaker": "Unknown",
+  "en": "Frankly, for the most part, it's illegal to hire on the basis of citizenship.",
+  "zh": "坦率地说，在大多数情况下，基于公民身份来招聘是违法的。"
+ },
+ {
+  "seg": 544,
+  "start": 2902.544,
+  "end": 2905.227,
+  "speaker": "Unknown",
+  "en": "That's a funny twist on it.",
+  "zh": "这在这一点上是个有趣的反转。"
+ },
+ {
+  "seg": 545,
+  "start": 2905.627,
+  "end": 2908.509,
+  "speaker": "Unknown",
+  "en": "And there are times when you legally need to find an American citizen.",
+  "zh": "当然，有些时候你在法律上确实需要找美国公民。"
+ },
+ {
+  "seg": 546,
+  "start": 2909.35,
+  "end": 2912.313,
+  "speaker": "Unknown",
+  "en": "CIA are government-related, it's classified, so on and so forth.",
+  "zh": "CIA 或政府相关的，涉密的，等等。"
+ },
+ {
+  "seg": 547,
+  "start": 2912.894,
+  "end": 2919.48,
+  "speaker": "Unknown",
+  "en": "But for the most part, again, all things equal, it is actually illegal to make a hiring decision based on citizenship.",
+  "zh": "但在大多数情况下，再说一次，在其他条件相同的情况下，基于公民身份做招聘决定实际上是违法的。"
+ },
+ {
+  "seg": 548,
+  "start": 2919.961,
+  "end": 2923.284,
+  "speaker": "Unknown",
+  "en": "And so, yeah, we're just in a weird moment in time.",
+  "zh": "所以，是的，我们只是处在一个奇怪的时间节点上。"
+ },
+ {
+  "seg": 549,
+  "start": 2923.304,
+  "end": 2924.245,
+  "speaker": "Unknown",
+  "en": "I hope we swing out of it.",
+  "zh": "我希望我们能从中摆荡出来。"
+ },
+ {
+  "seg": 550,
+  "start": 2924.265,
+  "end": 2925.807,
+  "speaker": "Unknown",
+  "en": "Yeah, I hope we swing out of it.",
+  "zh": "是啊，希望我们能从中走出来。"
+ },
+ {
+  "seg": 551,
+  "start": 2931.323,
+  "end": 2932.884,
+  "speaker": "Unknown",
+  "en": "Well, great to have you on the show.",
+  "zh": "好了，很高兴邀请你来到节目。"
+ },
+ {
+  "seg": 552,
+  "start": 2933.224,
+  "end": 2937.085,
+  "speaker": "Unknown",
+  "en": "A lot to be hopeful for and so much change in the world.",
+  "zh": "有很多值得期待的事情，世界也在发生这么多变化。"
+ },
+ {
+  "seg": 553,
+  "start": 2937.105,
+  "end": 2938.286,
+  "speaker": "Unknown",
+  "en": "So really appreciate you coming on.",
+  "zh": "真的很感谢你来做这期节目。"
+ },
+ {
+  "seg": 554,
+  "start": 2938.506,
+  "end": 2938.766,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 555,
+  "start": 2938.926,
+  "end": 2939.286,
+  "speaker": "Unknown",
+  "en": "Thanks, Eric.",
+  "zh": "谢谢，Eric。"
+ },
+ {
+  "seg": 556,
+  "start": 2939.646,
+  "end": 2940.686,
+  "speaker": "Unknown",
+  "en": "That's our episode.",
+  "zh": "这就是我们本期节目。"
+ },
+ {
+  "seg": 557,
+  "start": 2940.726,
+  "end": 2942.167,
+  "speaker": "Unknown",
+  "en": "This is The Newcomer Podcast.",
+  "zh": "这是 The Newcomer Podcast。"
+ },
+ {
+  "seg": 558,
+  "start": 2942.187,
+  "end": 2942.987,
+  "speaker": "Unknown",
+  "en": "Thanks for listening.",
+  "zh": "感谢收听。"
+ },
+ {
+  "seg": 559,
+  "start": 2943.047,
+  "end": 2944.588,
+  "speaker": "Unknown",
+  "en": "Please like, comment, subscribe.",
+  "zh": "请点赞、评论、订阅。"
+ },
+ {
+  "seg": 560,
+  "start": 2944.628,
+  "end": 2948.249,
+  "speaker": "Unknown",
+  "en": "Go find us on our sub stack at newcomer.co.",
+  "zh": "到我们的 substack 上找我们，地址是 newcomer.co。"
+ },
+ {
+  "seg": 561,
+  "start": 2948.269,
+  "end": 2953.611,
+  "speaker": "Unknown",
+  "en": "If you're hungry for more podcasting, I also have a talk show called The Cerebral Valley Show.",
+  "zh": "如果你还想听更多播客，我还有一档脱口秀节目叫 The Cerebral Valley Show。"
+ },
+ {
+  "seg": 562,
+  "start": 2954.592,
+  "end": 2955.412,
+  "speaker": "Unknown",
+  "en": "We love your comments.",
+  "zh": "我们喜欢你们的评论。"
+ },
+ {
+  "seg": 563,
+  "start": 2955.512,
+  "end": 2958.093,
+  "speaker": "Unknown",
+  "en": "Thanks for all your support and see you next week.",
+  "zh": "感谢大家的支持，下周见。"
+ }
+]

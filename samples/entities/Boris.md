@@ -33,17 +33,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[Claude Code]] · [[智能体]] · [[ClaudeMD]] · [[MCP]] · [[SDK]] · [[LLM]] · [[GitHub]] · [[CI-CD]] · [[多模态]]
+[[Anthropic]] · [[Claude Code]] · [[智能体]] · [[ClaudeMD]] · [[MCP]] · [[SDK]] · [[LLM]] · [[GitHub]] · [[JetBrains]] · [[Zed]]
 
 ## ④ 也在聊「AI 编程」的人
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Eric Simons]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]]
+[[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":112,"Claude Code":49,"智能体":1,"ClaudeMD":2,"MCP":29,"SDK":1,"LLM":29,"GitHub":21,"CI-CD":8,"多模态":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":114,"Claude Code":51,"智能体":1,"ClaudeMD":2,"MCP":33,"SDK":1,"LLM":29,"GitHub":22,"JetBrains":2,"Zed":2}</script>
 
 <script>
 (function(){

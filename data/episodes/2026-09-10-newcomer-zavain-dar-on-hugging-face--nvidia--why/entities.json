@@ -1,0 +1,1401 @@
+{
+  "episode_id": "2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why",
+  "podcast": "Newcomer Pod",
+  "date": "2026-09-10",
+  "tags": [
+    "NVIDIA 与开源",
+    "中美 AI",
+    "蒸馏",
+    "AI 制药",
+    "创业投资"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "zavain-dar",
+      "type": "person",
+      "role": "host",
+      "name": "Zavain Dar",
+      "file": "Zavain Dar",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "eric-newcomer",
+      "type": "person",
+      "role": "cohost",
+      "name": "Eric Newcomer",
+      "file": "Eric Newcomer",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            48.813,
+            50.714
+          ],
+          "quote": "I'm Eric Newcomer, host of this podcast.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说 NVIDIA 收购 Hugging Face 是拿下软件与硅片之间的开源介质以标准化它，确保自家芯片继续称霸，并刻意投资多元生态（含 NeoCloud）以防任何客户拿捏它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.051,
+            1.952
+          ],
+          "quote": "What do you think NVIDIA sees with this deal?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 7,
+          "t": [
+            28.702,
+            36.866
+          ],
+          "quote": "Back when he was at the venture capital firm Lux, he helped to invest in Hugging Face long before NVIDIA scooped it up for some $13 billion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 8,
+          "t": [
+            37.107,
+            47.632
+          ],
+          "quote": "He unpacks NVIDIA's open source endgame, China's AI and biotech surge, and whether AI can deliver on its boldest promise yet, designing better drugs and transforming human health.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            68.369,
+            77.633
+          ],
+          "quote": "You were part of an investment when you were at Lux in Hugging Face, which is this phenomenal, insane exit to NVIDIA, something like $12.9 billion plus retention.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            125.466,
+            128.788
+          ],
+          "quote": "And then, yeah, what do you think NVIDIA has seen with this deal?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            340.591,
+            342.953
+          ],
+          "quote": "And what do you think NVIDIA sees with this deal?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            356.733,
+            364.936
+          ],
+          "quote": "If you think of where NVIDIA goes, NVIDIA is successful almost one-to-one with kind of the rise of open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            370.517,
+            380.588
+          ],
+          "quote": "The medium between software and silicon, if that can be kind of intermediated with open source, NVIDIA is in a really good spot to make sure that their chipsets kind of reign supreme.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            417.46,
+            425.851
+          ],
+          "quote": "But NVIDIA seems to be commoditizing their customer, which you'd think they would want their customers to thrive to continue to spend money on NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            425.911,
+            433.681
+          ],
+          "quote": "I know you get to live in the world of early stage startups and NVIDIA's corporate strategy is a little far afield, but do you have any thoughts on",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            435.589,
+            439.171
+          ],
+          "quote": "Anthropic and OpenAI, NVIDIA needs those companies to succeed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            450.795,
+            457.297
+          ],
+          "quote": "I think two years ago that probably was true where the lion's share of NVIDIA's revenue came from the hyperscalers and the frontier labs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            471.726,
+            475.828
+          ],
+          "quote": "But in some ways, some of those are NVIDIA, too, in certain ways.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            475.908,
+            477.829
+          ],
+          "quote": "NVIDIA has funded them, they're using NVIDIA chips.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            485.834,
+            486.235
+          ],
+          "quote": "NVIDIA",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            523.906,
+            526.648
+          ],
+          "quote": "You're going to need necessarily— Buy a bunch of chips from NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            642.822,
+            657.132
+          ],
+          "quote": "It was a huge scoop for us that NVIDIA was doing this weird partnership with Poolside, $6 billion to acquire a lot of Poolside and then invest some in their main company, which is sort of continuing hard at work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            667.04,
+            670.723
+          ],
+          "quote": "NVIDIA is gonna be sort of like a key player in this American open source thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            931.831,
+            942.955
+          ],
+          "quote": "And so, like, oftentimes what happens, and at least up until now, this is what has been happening, which is Anthropic or OpenAI will use American chips, so NVIDIA, AMD, so on and so forth, to train Frontier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1486.618,
+            1488.839
+          ],
+          "quote": "We're going to crack down on these NVIDIA chips.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1522.459,
+            1530.626
+          ],
+          "quote": "Certainly, with no doubt, what has happened is we cut off a supply of cutting edge chipsets, namely through NVIDIA.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集说它从聊天机器人转型为 Transformer 模型的开源仓库，GitHub 星标增速超越此前任何开源仓库，被 NVIDIA 以约 129 亿美元收购",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            28.702,
+            36.866
+          ],
+          "quote": "Back when he was at the venture capital firm Lux, he helped to invest in Hugging Face long before NVIDIA scooped it up for some $13 billion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            68.369,
+            77.633
+          ],
+          "quote": "You were part of an investment when you were at Lux in Hugging Face, which is this phenomenal, insane exit to NVIDIA, something like $12.9 billion plus retention.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            112.859,
+            116.781
+          ],
+          "quote": "Let's start off on Hugging Face, just given it's so fresh in everyone's mind.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            157.348,
+            161.569
+          ],
+          "quote": "Hugging Face was a company we had been aware of and had been tracking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            280.515,
+            289.658
+          ],
+          "quote": "I remember Brandon coming into a Monday IC and showing the GitHub stars over time for the Hugging Face repo, and it was outpacing any other prior open source repo we had ever seen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            661.155,
+            666.72
+          ],
+          "quote": "But so yeah, between Hugging Face and Poolside, Poolside had really leaned into American open source.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "本集把开源说成 NVIDIA 成功的一对一对应物，并讨论美国开源落后中国半步、开源来源主权问题是虚假的精确性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.192,
+            11.495
+          ],
+          "quote": "I think they now have the most important open source repository in the history of software and definitely for kind of ML and AI, like a phase shift.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            37.107,
+            47.632
+          ],
+          "quote": "He unpacks NVIDIA's open source endgame, China's AI and biotech surge, and whether AI can deliver on its boldest promise yet, designing better drugs and transforming human health.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            161.589,
+            171.952
+          ],
+          "quote": "It was formerly kind of a chatbot, transitioned into a kind of an open source repo for a Transformer model, specifically at that point, not to get too technical BART and BERT models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            280.515,
+            289.658
+          ],
+          "quote": "I remember Brandon coming into a Monday IC and showing the GitHub stars over time for the Hugging Face repo, and it was outpacing any other prior open source repo we had ever seen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            343.83,
+            356.693
+          ],
+          "quote": "Yeah, I mean, I think they now have the most kind of important open source repository in the history of software and definitely for kind of ML and AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            356.733,
+            364.936
+          ],
+          "quote": "If you think of where NVIDIA goes, NVIDIA is successful almost one-to-one with kind of the rise of open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            370.517,
+            380.588
+          ],
+          "quote": "The medium between software and silicon, if that can be kind of intermediated with open source, NVIDIA is in a really good spot to make sure that their chipsets kind of reign supreme.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            457.737,
+            464.901
+          ],
+          "quote": "Today, it's the hyperscalers vis-a-vis inference, not necessarily just on their models, but on open source models, and then also the NeoClouds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            595.141,
+            603.887
+          ],
+          "quote": "And oh, by the way, if you look at Google Cloud right now, the money from inference on Gemini and open source is rocketing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            661.155,
+            666.72
+          ],
+          "quote": "But so yeah, between Hugging Face and Poolside, Poolside had really leaned into American open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            667.04,
+            670.723
+          ],
+          "quote": "NVIDIA is gonna be sort of like a key player in this American open source thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            670.944,
+            678.11
+          ],
+          "quote": "That sort of fits into the next piece of the conversation, which is you go to China, where a lot of the open source work is being done.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            678.53,
+            685.076
+          ],
+          "quote": "I guess before we get to the journey to China, what do you make of American open source today?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            685.116,
+            688.719
+          ],
+          "quote": "Like how credible are American open source models?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            721.764,
+            730.592
+          ],
+          "quote": "I think there's a whole other question in terms of what it means to be American open source versus European open source or Japanese, Chinese, so on and so forth, and why that necessarily matters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            785.064,
+            787.266
+          ],
+          "quote": "Open source is a little bit different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            815.781,
+            818.503
+          ],
+          "quote": "What about backdoors built in the open source?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            833.255,
+            842.562
+          ],
+          "quote": "But I think there tends to be sometimes a little bit of a false precision when there's too much focus on the sovereignty of where open source comes from.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            843.709,
+            848.712
+          ],
+          "quote": "And, you know, open source in AI can be different than open source elsewhere in that there are like layers to it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            848.732,
+            854.094
+          ],
+          "quote": "And people, you know, we've seen with Meta and others where they'll say open source, but that doesn't really mean you can just start like rip it and go.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            981.13,
+            982.752
+          ],
+          "quote": "They'll then open source that model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1019.813,
+            1030.036
+          ],
+          "quote": "You know, at the knees of vertical AI and American kind of, you know, vertical AI software's ability to innovate right now, maybe unless like truly U.S. open source catches up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1030.136,
+            1038.059
+          ],
+          "quote": "If U.S. open source catches up, then I think you can start to think about ways to kind of maybe cut the cross-specific technological tether.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "本集说蒸馏无法被阻止，只能被追踪和封锁地址；中国实验室对美国前沿模型蒸馏后开源，硅谷垂直公司再微调，一项技术跨太平洋两次",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 172,
+          "t": [
+            854.515,
+            863.879
+          ],
+          "quote": "But now the distillation where you can basically have somebody else's model and easily sort of like, oh, figure out how it does things and do it yourself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1039.119,
+            1040.72
+          ],
+          "quote": "But we can't stop distillation, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1042.25,
+            1045.393
+          ],
+          "quote": "You can't stop distillation, per se.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说软件层商品化让搭推理公司更容易、必然买 NVIDIA 芯片，且 Google Cloud 上 Gemini 与开源模型的推理收入在火箭般蹿升",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            457.737,
+            464.901
+          ],
+          "quote": "Today, it's the hyperscalers vis-a-vis inference, not necessarily just on their models, but on open source models, and then also the NeoClouds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            516.601,
+            522.025
+          ],
+          "quote": "But if you think about what it means to commoditize the software layer, it means it's much easier now for someone to kind of set up an inference company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            522.445,
+            523.866
+          ],
+          "quote": "And how do you set up an inference company?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            546.864,
+            555.11
+          ],
+          "quote": "And I think that's tantamount to some sort of reflection that they're probably saying, at least today, the revenue is coming from inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            595.141,
+            603.887
+          ],
+          "quote": "And oh, by the way, if you look at Google Cloud right now, the money from inference on Gemini and open source is rocketing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1071.453,
+            1076.536
+          ],
+          "quote": "And of course, even if you're distilling a model, you're calling kind of inference to Anthropic or to OpenAI quite a bit.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "neocloud",
+      "type": "concept",
+      "role": "concept",
+      "name": "NeoCloud",
+      "file": "NeoCloud",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            531.131,
+            532.572
+          ],
+          "quote": "Their customers, the NeoCloud, you're saying.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "frontier-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier model)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集说 Anthropic 和 OpenAI 已开始不再通过 API 开放前沿模型，使其不可被蒸馏，可能导致中美前沿模型差距扩大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            1092.706,
+            1100.993
+          ],
+          "quote": "Which, if a frontier model isn't programmatically available, you can't query it at the volume and scale that one would need to distill against it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vertical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直 AI (vertical AI)",
+      "file": "垂直 AI",
+      "primary": true,
+      "how_described": "本集说 Harvey、Cursor、Cognition 等垂直 AI 公司在中国开源模型上微调/后训练，切断跨太平洋纽带会砍掉美国垂直 AI 创新能力的大腿",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            910.02,
+            917.705
+          ],
+          "quote": "And just to give kind of a brief vignette of I think how most vertical AI companies today",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            988.196,
+            996.782
+          ],
+          "quote": "You know, any of the vertical AI companies now that Silicon Valley is storing hundreds of millions if not billions of dollars towards will fine-tune or post-train against these Chinese models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1019.813,
+            1030.036
+          ],
+          "quote": "You know, at the knees of vertical AI and American kind of, you know, vertical AI software's ability to innovate right now, maybe unless like truly U.S. open source catches up.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集以 Coefficient 为例说，一个在线实时梳理全世界知识库的智能体应该能在德国小实验室结果发布的第二天更新你的临床试验设计",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 487,
+          "t": [
+            2593.49,
+            2600.755
+          ],
+          "quote": "But if I have an agent, quote unquote, online scouring the world's kind of corpus of knowledge in real time, so being able to incorporate in real time",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 训练前沿模型、已开始不再通过 API 开放它们以阻止蒸馏，Dario 放话要通过治愈癌症赢得人心，且收购了 Coefficient Bio",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            103.173,
+            112.518
+          ],
+          "quote": "Coefficient Bio, which I reported sold for something like $400 million to Anthropic early on, a great early return for Dimension.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            381.709,
+            386.794
+          ],
+          "quote": "It also, I think, helps counterbalance a lot of the pull that Anthropic and OpenAI have right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            392.86,
+            401.567
+          ],
+          "quote": "I know Anthropic's thinking about it and obviously- I imagine Anthropic is thinking- Google's got TPUs, Amazon's got Tranium.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            435.589,
+            439.171
+          ],
+          "quote": "Anthropic and OpenAI, NVIDIA needs those companies to succeed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            761.373,
+            764.755
+          ],
+          "quote": "And you could argue open AI and Anthropic are closed source American AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            765.139,
+            777.482
+          ],
+          "quote": "And even just in terms of the Trump admins ability to say, hey, don't open up that, shut down that, work here, we want this before you open it to others, et cetera, et cetera, you're already starting to see, potentially even taking equity positions in OpenAI and or Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            777.542,
+            781.443
+          ],
+          "quote": "Though Anthropic did successfully sue the Defense Department, at least.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            931.831,
+            942.955
+          ],
+          "quote": "And so, like, oftentimes what happens, and at least up until now, this is what has been happening, which is Anthropic or OpenAI will use American chips, so NVIDIA, AMD, so on and so forth, to train Frontier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1066.73,
+            1070.973
+          ],
+          "quote": "But a very reasonable theory is that Anthropic and OpenAI have been chasing revenue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1071.453,
+            1076.536
+          ],
+          "quote": "And of course, even if you're distilling a model, you're calling kind of inference to Anthropic or to OpenAI quite a bit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1083.2,
+            1092.246
+          ],
+          "quote": "I think where this goes at the limit, though, is, and you're, again, already starting to see this, Anthropic and OpenAI not opening up vis-a-vis API their frontier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1919.395,
+            1927.982
+          ],
+          "quote": "It's like, you know, I think some of the largest pronouncements from people like Dario at Anthropic are like, oh, you know, I mean, he literally said something the other day that's like,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2433.746,
+            2450.77
+          ],
+          "quote": "And instead of saying, hey, write me an essay or write me a poem as one might do to Claude or Anthropic, it's saying, design for me the antibody sequence of a drug that binds to that epitope of that protein, or design for me a small molecule that hits into that allosteric pocket of that intracellular protein, so on and so forth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2509.173,
+            2513.254
+          ],
+          "quote": "This Coefficient Bio, which sold Anthropic for like $400 million.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 用美国芯片训练前沿模型、自研芯片组（Jalapeno）、并已开始不再通过 API 开放前沿模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            381.709,
+            386.794
+          ],
+          "quote": "It also, I think, helps counterbalance a lot of the pull that Anthropic and OpenAI have right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            386.814,
+            392.1
+          ],
+          "quote": "And all you have to do is see OpenAI launch something like, was it Jalapeno, their own chipset?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            435.589,
+            439.171
+          ],
+          "quote": "Anthropic and OpenAI, NVIDIA needs those companies to succeed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            441.091,
+            449.474
+          ],
+          "quote": "If they don't, I imagine it's a huge percentage of the spend has to do either from OpenAI or because people are using OpenAI or whatever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            556.211,
+            561.715
+          ],
+          "quote": "So it's more like Google Cloud than it is be the next OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            765.139,
+            777.482
+          ],
+          "quote": "And even just in terms of the Trump admins ability to say, hey, don't open up that, shut down that, work here, we want this before you open it to others, et cetera, et cetera, you're already starting to see, potentially even taking equity positions in OpenAI and or Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            931.831,
+            942.955
+          ],
+          "quote": "And so, like, oftentimes what happens, and at least up until now, this is what has been happening, which is Anthropic or OpenAI will use American chips, so NVIDIA, AMD, so on and so forth, to train Frontier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1066.73,
+            1070.973
+          ],
+          "quote": "But a very reasonable theory is that Anthropic and OpenAI have been chasing revenue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1071.453,
+            1076.536
+          ],
+          "quote": "And of course, even if you're distilling a model, you're calling kind of inference to Anthropic or to OpenAI quite a bit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1083.2,
+            1092.246
+          ],
+          "quote": "I think where this goes at the limit, though, is, and you're, again, already starting to see this, Anthropic and OpenAI not opening up vis-a-vis API their frontier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2374.447,
+            2385.815
+          ],
+          "quote": "How much is it sort of generative models, like the LLMs we all know, like, is it, I go into OpenAI, you know, some private version of OpenAI and I ask like, what should we do?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": true,
+      "how_described": "本集说 Demis、Jeff Dean、John Jumper 等 DeepMind 领导人陆续离开或被请出门，Google 的肢体语言表明它更想做 Google Cloud 而不是下一个 OpenAI",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            533.452,
+            541.618
+          ],
+          "quote": "Or the hyperscalers, Google, obviously, with their kind of potentially shuttering DeepMind instead to focus more so on kind of the Google Cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            541.961,
+            543.302
+          ],
+          "quote": "You think they're going to shutter DeepMind?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            543.402,
+            546.804
+          ],
+          "quote": "Well, they've divested some of their resources into DeepMind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            579.829,
+            584.973
+          ],
+          "quote": "I imagine the debate internally at the Google board level and then between Google Cloud and DeepMind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            585.053,
+            589.758
+          ],
+          "quote": "And certainly, you were starting to see these tensions arise, which is, hey, we're spending a ton of money on DeepMind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            604.047,
+            607.369
+          ],
+          "quote": "We are giving more of our TPUs now to Google Cloud than we are DeepMind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            613.473,
+            623.516
+          ],
+          "quote": "Jeff Dean, Kwok Lee, many of the leaders of the DeepMind Google Brain org slowly leaving and or being shown the door, I think it's probably a little bit of both, in favor of Google Cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            623.756,
+            627.257
+          ],
+          "quote": "You must be startup hunting out of all these DeepMind people then.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            634.059,
+            639.021
+          ],
+          "quote": "Right now, of course, something like Google DeepMind is a really interesting place to be hunting.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "moonshot",
+      "type": "company",
+      "role": "company",
+      "name": "Moonshot",
+      "file": "Moonshot",
+      "primary": true,
+      "how_described": "本集说 Moonshot 生产 Kimi，对美国前沿模型做蒸馏、构建表征后开源，是美国前沿模型流向中国的关键一环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            956.258,
+            961.38
+          ],
+          "quote": "A Chinese lab, maybe Moonshot, which produces Kimi, will distill against it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "helixon",
+      "type": "company",
+      "role": "company",
+      "name": "Helixon",
+      "file": "Helixon",
+      "primary": true,
+      "how_described": "本集说 Helixon 是 Dimension 在上海投资的科技与生物科技交汇公司，由前 UIUC 终身教授创办，融了 7.87 亿美元，与赛诺菲合作、多款药物进入临床",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 233,
+          "t": [
+            1154.682,
+            1156.383
+          ],
+          "quote": "Irindel, uh, or Helixon.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coefficient",
+      "type": "company",
+      "role": "company",
+      "name": "Coefficient",
+      "file": "Coefficient",
+      "primary": true,
+      "how_described": "本集说 Coefficient 由 Dimension 内部孵化、以约 4 亿美元卖给 Anthropic，做法是实时整合文献与多模态生物数据、EHR/EMR 来绘制生物学图谱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            103.173,
+            112.518
+          ],
+          "quote": "Coefficient Bio, which I reported sold for something like $400 million to Anthropic early on, a great early return for Dimension.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2015.89,
+            2019.955
+          ],
+          "quote": "And we can talk about Coefficient and the team and kind of our views on what they're doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2476.381,
+            2480.482
+          ],
+          "quote": "We started actually a company internally at Dimension called Coefficient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2509.173,
+            2513.254
+          ],
+          "quote": "This Coefficient Bio, which sold Anthropic for like $400 million.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2539.514,
+            2549.342
+          ],
+          "quote": "He was single-handedly responsible for recruiting the founding team, galvanizing them, financing them, and then working with them through kind of the early innings of the coefficient build.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chai",
+      "type": "company",
+      "role": "company",
+      "name": "Chai",
+      "file": "Chai",
+      "primary": true,
+      "how_described": "本集说 Chai 开发生成式技术，让生物学家能设计结合特定表位的抗体序列或命中别构口袋的小分子，是以前从未有过的工具箱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 384,
+          "t": [
+            2038.669,
+            2049.996
+          ],
+          "quote": "And, you know, we can talk about a company like Chai that essentially has developed generative technologies to perturb biology in exactly kind of the way one would want to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2404.708,
+            2413.815
+          ],
+          "quote": "There's companies like Chai, again, for example, who are developing technology to help you design what an industry is called composition of matter.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "newlimit",
+      "type": "company",
+      "role": "company",
+      "name": "NewLimit",
+      "file": "NewLimit",
+      "primary": true,
+      "how_described": "本集说 NewLimit 不幻想一步到位冻结年龄，而是针对特定器官或细胞、用极致精度扰动它们的年龄",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 449,
+          "t": [
+            2355.81,
+            2369.659
+          ],
+          "quote": "Companies like NewLimit, by the way, like not in this fantastical, let's go do it all at once, freeze at 27, but like let's be organ or cell specific and figure out a way to perturb the age of particular cell types or organ types with exquisite precision and control.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "modal",
+      "type": "company",
+      "role": "company",
+      "name": "Modal",
+      "file": "Modal",
+      "primary": false,
+      "how_described": "本集在列举 NeoCloud 时顺带提到 Modal，作为使用中国开源模型路径的推理服务之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            922.987,
+            928.129
+          ],
+          "quote": "They talk about using, you know, Fireworks or Base10, Modal, whatever.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": false,
+      "how_described": "本集以 Harvey（美国律师在用的产品）为例说明垂直 AI 模型已跨太平洋两次",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            983.432,
+            987.375
+          ],
+          "quote": "And then this has happened, you know, with Harvey or with Cursor or with Cognition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1003.186,
+            1013.911
+          ],
+          "quote": "So if I'm a lawyer and I'm using Harvey, it's already crossed the Pacific twice and it's already touched both Asian and American technology and silicon and data and talent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集在列举在中国开源模型上微调/后训练的垂直 AI 公司时顺带提到 Cursor",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            983.432,
+            987.375
+          ],
+          "quote": "And then this has happened, you know, with Harvey or with Cursor or with Cognition.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集在列举在中国开源模型上微调/后训练的垂直 AI 公司时顺带提到 Cognition",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            983.432,
+            987.375
+          ],
+          "quote": "And then this has happened, you know, with Harvey or with Cursor or with Cognition.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "biomarkers",
+      "type": "concept",
+      "role": "concept",
+      "name": "生物标志物 (biomarkers)",
+      "file": "生物标志物",
+      "primary": true,
+      "how_described": "本集用 Novo IL-6 抗体三期失败（5 亿美元、四年、风险比 0.99）说明生物标志物常常是相关性而非因果性，找到更好的生物标志物前失败仍会继续",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 421,
+          "t": [
+            2239.42,
+            2243.641
+          ],
+          "quote": "But we had all of the biomarkers that we thought were highly correlated to heart health.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2244.101,
+            2249.846
+          ],
+          "quote": "And we were taking down aisle six and it was taking down all of the biomarkers that we thought were highly correlated to heart disease.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2272.361,
+            2273.641
+          ],
+          "quote": "We thought we had all of the biomarkers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2286.087,
+            2295.032
+          ],
+          "quote": "And so until we figure out better biomarkers, until we better understand human disease biology, it's still going to take time and there still will be failure.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tune)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "本集说硅谷垂直 AI 公司会在这些中国开源模型上做微调或后训练",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            988.196,
+            996.782
+          ],
+          "quote": "You know, any of the vertical AI companies now that Silicon Valley is storing hundreds of millions if not billions of dollars towards will fine-tune or post-train against these Chinese models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "CoreWeave",
+      "reason": "专名「CoreWeave」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

@@ -45,7 +45,7 @@ unlisted: true
 
 [[Google]] · [[ChatGPT]] · [[推理]] · [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Andrew]] · [[Cloudflare]] · [[LLM]] · [[Sonia]]
 
-<script type="application/json" class="pd-epn">{"Google":38,"ChatGPT":54,"推理":5,"智能体":1,"OpenAI":100,"Lenny":67,"Andrew":3,"Cloudflare":9,"LLM":29,"Sonia":2}</script>
+<script type="application/json" class="pd-epn">{"Google":38,"ChatGPT":55,"推理":5,"智能体":1,"OpenAI":102,"Lenny":67,"Andrew":3,"Cloudflare":9,"LLM":29,"Sonia":2}</script>
 
 <script>
 (function(){

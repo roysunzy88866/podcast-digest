@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":3,"Stripe":28,"Stripe Minions":1,"智能体":1,"智能体商务":3,"稳定币":1,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":17}</script>
+<script type="application/json" class="pd-epn">{"David George":3,"Stripe":29,"Stripe Minions":1,"智能体":1,"智能体商务":3,"稳定币":2,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":17}</script>
 
 <script>
 (function(){

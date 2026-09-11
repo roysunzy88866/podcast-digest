@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>FDE</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="FDE">FD</div><div class="pi"><h1 class="pt">FDE</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="FDE">FD</div><div class="pi"><h1 class="pt">FDE</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-20-howiai-how-the-founder-of-morning-brew-built-a|《10X 的 AI 内容机器：让员工发帖不再尴尬》]]**(25:09起):本集说 FDE(驻在客户现场帮企业落地 AI 的工程师)比以往更重要,因为 AI 转型只能靠理解企业业务背景来实现;现场演示的爆点就是 Aaron Levy 与 Ethan Mollick 关于『FDE 是不是万能解药』的公开交锋。
 - **[[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|《初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论》]]**(33:17起):本集说 FDE 被部署到客户公司（远程），深入理解规格之外的真实使用方式；第一次做的项目类型嘉宾必到场，「这是人力时间，不能规模化」。
+- **[[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]]**(29:16起):本集说每家公司都有 FDE（前置部署工程师）模式、Databricks 的最好：关键在于不只交付项目，还要让方案可扩展、成本高效、随时间演进而不必重新布线一切。
 
 ## ① 提到它的金句
 
@@ -22,18 +23,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-20-howiai-how-the-founder-of-morning-brew-built-a|《10X 的 AI 内容机器：让员工发帖不再尴尬》]] — 作为概念
 - [[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|《初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论》]] — 作为概念
+- [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[工作流]] · [[Anthropic]] · [[OpenAI]] · [[Alex Lieberman]] · [[Simon Maple]] · [[Claire Veau]] · [[Ran Arusi]] · [[10X]] · [[智能体]] · [[内容机器]]
+[[工作流]] · [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Alex Lieberman]] · [[Simon Maple]] · [[Ron Gabrisko]] · [[Claire Veau]] · [[Ran Arusi]] · [[Databricks]]
 
-<script type="application/json" class="pd-epn">{"工作流":1,"Anthropic":112,"OpenAI":100,"Alex Lieberman":1,"Simon Maple":8,"Claire Veau":1,"Ran Arusi":1,"10X":1,"智能体":1,"内容机器":1}</script>
+<script type="application/json" class="pd-epn">{"工作流":1,"智能体":1,"Anthropic":114,"OpenAI":102,"Alex Lieberman":1,"Simon Maple":8,"Ron Gabrisko":1,"Claire Veau":1,"Ran Arusi":1,"Databricks":11}</script>
 
 <script>
 (function(){

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":4,"评估":22,"基准测试":7,"智能体":1,"RLGym":1,"迁移":1,"Claude Code":49,"Codex":42,"Anthropic":112}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":4,"评估":23,"基准测试":7,"智能体":1,"RLGym":1,"迁移":1,"Claude Code":51,"Codex":44,"Anthropic":114}</script>
 
 <script>
 (function(){

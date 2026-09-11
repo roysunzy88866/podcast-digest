@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tether":1,"QVAC":1,"推理":5,"微调":1,"BitNet":1,"LoRa":1,"数据中心":3,"去中介化":2,"智能体":1,"GPU":15}</script>
+<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":5,"微调":1,"BitNet":1,"LoRa":1,"数据中心":3,"去中介化":2,"智能体":1,"GPU":15}</script>
 
 <script>
 (function(){

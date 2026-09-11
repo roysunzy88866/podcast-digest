@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Eric Simons]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]]
+[[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Fajani":3,"harness 工程":1,"Codex":42,"OpenAI":100,"智能体":1,"提示词注入":11,"护栏":2,"上下文工程":9,"Symfony":1,"规范":1}</script>
+<script type="application/json" class="pd-epn">{"Guy Fajani":3,"harness 工程":1,"Codex":44,"OpenAI":102,"智能体":1,"提示词注入":11,"护栏":2,"上下文工程":12,"Symfony":1,"规范":1}</script>
 
 <script>
 (function(){

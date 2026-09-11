@@ -137,7 +137,7 @@ AI 让个别工程师写得飞快，但很多团队的整体产出却陷入了�
 
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
-- [[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
+- [[2026-09-07-talks-why-the-harness-matters-more-than-the-mo|别小看 harness：智能体的「脚手架」正在决定成绩]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
 
 </div>
 </div>

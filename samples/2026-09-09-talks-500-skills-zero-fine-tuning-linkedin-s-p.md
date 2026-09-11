@@ -9,14 +9,14 @@ cover: "#64748b"
 description: LinkedIn 软件工程师 Ajay 讲解他们如何用 Playbooks 系统给编码智能体补上企业内部上下文，让 AI 从“会幻觉”变成能端到端处理生产事故的可信同事。
 guests: ["[[Ajay Prakash]]"]
 companies: ["[[LinkedIn]]"]
-concepts: ["[[编码智能体]]", "[[MCP]]", "[[Playbooks]]", "[[上下文工程]]", "[[智能体基础设施]]"]
+concepts: ["[[编码智能体]]", "[[MCP]]", "[[剧本]]", "[[上下文工程]]", "[[AI 基础设施]]"]
 category: AI 编程
 tags:
   - AI 编程
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p#post","headline":"LinkedIn 怎么让编码智能体真正读懂内部系统","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p","mainEntityOfPage":"https://talk.solomind.cc/2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p","description":"LinkedIn 软件工程师 Ajay 讲解他们如何用 Playbooks 系统给编码智能体补上企业内部上下文，让 AI 从“会幻觉”变成能端到端处理生产事故的可信同事。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Ajay Prakash"},{"@type":"Organization","name":"LinkedIn"},{"@type":"Thing","name":"编码智能体 (coding agents)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"Playbooks"},{"@type":"Thing","name":"上下文工程 (context engineering)"},{"@type":"Thing","name":"智能体基础设施 (infrastructure)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"LinkedIn 怎么让编码智能体真正读懂内部系统","item":"https://talk.solomind.cc/2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p#post","headline":"LinkedIn 怎么让编码智能体真正读懂内部系统","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p","mainEntityOfPage":"https://talk.solomind.cc/2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p","description":"LinkedIn 软件工程师 Ajay 讲解他们如何用 Playbooks 系统给编码智能体补上企业内部上下文，让 AI 从“会幻觉”变成能端到端处理生产事故的可信同事。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Ajay Prakash"},{"@type":"Organization","name":"LinkedIn"},{"@type":"Thing","name":"编码智能体 (coding agents)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"剧本 (playbooks)"},{"@type":"Thing","name":"上下文工程 (context engineering)"},{"@type":"Thing","name":"AI 基础设施 (infrastructure)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"LinkedIn 怎么让编码智能体真正读懂内部系统","item":"https://talk.solomind.cc/2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LinkedIn 怎么让编码智能体真正读懂内部系统</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -34,9 +34,9 @@ jsonLd: |
 >
 > **公司** [[LinkedIn]]
 >
-> **概念** [[编码智能体]] · [[MCP]] · [[Playbooks]] · [[上下文工程]] · [[智能体基础设施]]
+> **概念** [[编码智能体]] · [[MCP]] · [[剧本]] · [[上下文工程]] · [[AI 基础设施]]
 
-把一个线上事故的警报链接丢给[[编码智能体|编码智能体]]，几分钟后它不只找出根本原因，还会给出缓解步骤、代你执行、更新事件管理系统、再提一个修复代码的 PR——原本要几个小时的人工活，几分钟搞定。这不是演示视频，而是 [[LinkedIn|LinkedIn]] 团队现在真实的工作方式。讲这个的，是 LinkedIn 软件工程师 Ajay,他介绍了公司内部的「Contextual Agent [[Playbooks|Playbooks]] and Tools」系统。
+把一个线上事故的警报链接丢给[[编码智能体|编码智能体]]，几分钟后它不只找出根本原因，还会给出缓解步骤、代你执行、更新事件管理系统、再提一个修复代码的 PR——原本要几个小时的人工活，几分钟搞定。这不是演示视频，而是 [[LinkedIn|LinkedIn]] 团队现在真实的工作方式。讲这个的，是 LinkedIn 软件工程师 Ajay,他介绍了公司内部的「Contextual Agent [[剧本|Playbooks]] and Tools」系统。
 
 **直接给智能体不够：企业场景的三大坑**
 
@@ -87,6 +87,29 @@ Ajay 留下两条核心经验：第一，**从第一天起就把质量和可靠�
 > <span class="qz">如果超过 30 或 40 个工具,我们就无法在不降低上下文质量或系统性能的情况下扩展。</span>  
 > *We cannot scale it beyond 30 or 40 tools without degrading the context or degrading the performance of the system.*  
 > <span class="qm">—— Ajay Prakash · [17:23]</span> ^q2
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「AI 编程」挖下去**
+
+- [[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|差距不再是智能，而是上下文：给智能体造一个「上下文引擎」]]<span class="pd-rz">同概念:MCP、上下文工程 (context engineering)</span>
+- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同概念:MCP</span>
+- [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同概念:MCP</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:MCP、上下文工程 (context engineering)</span>
+- [[2025-07-31-lennys-he-saved-openai-bret-taylor|Bret Taylor：智能体是新应用，软件要按结果定价]]<span class="pd-rz">同概念:上下文工程 (context engineering)、MCP</span>
+- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同概念:MCP</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

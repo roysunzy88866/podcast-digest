@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>29</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>33</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -38,12 +38,18 @@ unlisted: true
 - **[[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]]**(38:49起):本集说 MCP 是让客户接入其平台的连接协议，用 MCP 的客户上线更多智能体，因此上线时定下『90 天 100 个用户』的硬指标作为实验案例
 - **[[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]]**(55:25起):本集说 2025 年靠工具和 MCP 解决了 LLM 知识截止日期问题；MongoDB 提供 MCP 服务器让智能体更容易访问数据。
 - **[[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]]**(18:00起):本集说大家都讨论 MCP 和 CLI、称「没有 UI 才是下一个 UI」,但既然 AI 能替你点按钮,SaaS 不必都改造成 CLI/MCP,「UI 回来了」;她的产品智能功能也通过 MCP 暴露出去。
+- **[[2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p|《LinkedIn 怎么让编码智能体真正读懂内部系统》]]**(06:30起):Anthropic 发布的为智能体构建工具的行业标准协议;LinkedIn 构建了内部 MCP,把 CodeSearch、Docs、Jira、Slack 等工具开放给智能体,并面临超过三四十个工具会拖垮性能的通病
+- **[[2026-09-09-talks-acp-the-universal-remote-control-for-ai|《AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议》]]**(00:19起):智能体走出去调用工具的开放标准，全球有数以万计的 server；本集强调它最强大之处在于所有人都在用，并把它作为智能体技术栈中「工具」一层的标准，与 ACP 互补
+- **[[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|《把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律》]]**(00:48起):本集反复强调纯文本 MCP（不返回 UI）能让模型自由多次搜索、深挖数据，是构建 MCP Apps 的数据基础层
+- **[[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]]**(04:57起):让智能体从外部源系统取信息的协议,很棒但存在平台期:工具描述写得不好智能体可能不调用,且有搜索满足偏差——获取信息不等于理解
 - **[[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]]**(04:35起):本集说 MCP 是给智能体接入外部系统的行业标准化协议，被捐赠给 Linux 基金会后从 Anthropic 拥有变成中立管理机构引导；与 Computer-Use 互补而非替代。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(05:25起):Anthropic 提出的一套让大模型调用外部工具/数据的协议。嘉宾采取反潮流做法“故意不为 OpenClaw 构建 MCP 支持”，直言“不需要它”，因为 CLI 更简单即插即用，而 MCP 改配置还要重启，且连 Anthropic 自己做相关定制功能都觉得棘手。
 
 ## ① 提到它的金句
 
-*2 条*
+*3 条*
+
+![[2026-09-09-talks-acp-the-universal-remote-control-for-ai#^q1]]
 
 ![[2026-singju-openclaw-80apps#^q4]]
 
@@ -51,7 +57,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*29 集*
+*33 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
@@ -80,6 +86,10 @@ unlisted: true
 - [[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]] — 作为概念
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]] — 作为概念(提及)
 - [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]] — 作为概念
+- [[2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p|《LinkedIn 怎么让编码智能体真正读懂内部系统》]] — 作为概念
+- [[2026-09-09-talks-acp-the-universal-remote-control-for-ai|《AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议》]] — 作为概念
+- [[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|《把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律》]] — 作为概念
+- [[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]] — 作为概念
 - [[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
@@ -87,9 +97,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Claude]] · [[Codex]] · [[Claude Code]] · [[OpenAI]] · [[护栏]] · [[计算机使用]] · [[Lenny]] · [[Figma]]
+[[智能体]] · [[Anthropic]] · [[Claude]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[护栏]] · [[计算机使用]] · [[Lenny]] · [[Figma]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":112,"Claude":50,"Codex":42,"Claude Code":49,"OpenAI":100,"护栏":2,"计算机使用":10,"Lenny":67,"Figma":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":114,"Claude":52,"OpenAI":102,"Codex":44,"Claude Code":51,"护栏":2,"计算机使用":10,"Lenny":67,"Figma":15}</script>
 
 <script>
 (function(){

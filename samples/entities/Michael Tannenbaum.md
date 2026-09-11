@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":4,"Kiavi":1,"高管心态":1,"市场":2,"区块链":2,"分词":3,"SoftBank":4,"Meta":29}</script>
+<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":4,"Kiavi":1,"高管心态":1,"市场":2,"区块链":2,"分词":4,"SoftBank":4,"Meta":29}</script>
 
 <script>
 (function(){

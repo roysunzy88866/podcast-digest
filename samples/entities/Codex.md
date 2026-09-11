@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>42</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>44</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -41,6 +41,7 @@ unlisted: true
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(49:56起):本集说 OpenAI 在编码领域被 Anthropic 打了措手落后 'turn their ship and focus it on Codex, which is still in the process of being released'
 - **[[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]]**(22:02起):本集说 Codex 适合低延迟、需要人在旁边随时干预的场景，如大量前端 UI 打磨和验证，搭配 Goal 机制和浏览器使用
 - **[[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl|《LongLake：把AI塞进真实服务业务的笨办法》]]**(05:46起):本集将其与 Claude Code 并列作为同步智能体的例子，也是编码智能体的代表
+- **[[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]]**(02:26起):本集与 Claude 并列提及，作为可在好 eval 保护下替你改 prompt 的编码智能体之一。
 - **[[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]]**(01:19起):本集说 Codex 是面向开发者的编码模式，有完整编码 UI（如工作树），是 ChatGPT 中与智能体协作的核心能力层，Work 模式底层也是 Codex
 - **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(05:54起):本集顺带提及，说 Daniel 认为像 Codex 这样的工具理论上也能用来构建类似的自改进系统，关键不在工具本身
 - **[[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]]**(36:44起):本集说可以用 Codex 让它上网找五个代数几何里的最新猜想然后去证明，以此玩'老虎机'在一小时内产出三篇正确但质量很差的论文
@@ -48,6 +49,7 @@ unlisted: true
 - **[[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]]**(05:48起):本集中 Claire 让 Codex 接管 Chrome 更新 CRM 工作流、构建 AIM 风格 Mac 应用,还把它接入 Divoom 屏幕和 Codex hooks,作为她与模型协作的主要入口。
 - **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(38:30起):Speechify 团队使用量排第三的 AI 编程工具，「有一点使用，没那么大」。
 - **[[2026-09-06-lennys-why-companies-are-becoming-a-series|《a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小》]]**(04:21起):本集说 OpenAI 的市场团队用 Codex 比工程团队还勤，因为 AI 把他们的工作蒸馏成最擅长、最感兴趣的部分；Anish 还用 Codex 给妻子做了母亲节幻灯片。
+- **[[2026-09-07-talks-why-the-harness-matters-more-than-the-mo|《别小看 harness：智能体的「脚手架」正在决定成绩》]]**(19:57起):本集作为 harness 对比项出现：YC 工程师曾把它与 Claude Code 一起塞进 VM 使用，也是 Seth 长程评测的对比 harness 之一。
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(31:47起):本集说 Codex 背后有一百个人在让它变好,你的智能体至少得同样能干,否则用户凭什么为你付 50 美元而不是给 OpenAI 付 24.99;现在与 Claude 五五开使用。
 - **[[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]]**(02:56起):本集多次提及：主持人把用例从它转移到 Grok Bot；Roman 说技术上它能做到同样的事，但走的是把产品合并成一个东西的路线。
 - **[[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]]**(00:00起):本集主线:OpenAI 的编程智能体产品,嘉宾从产品立项起领导其团队;用 Rust 写、CLI/SDK 开源、不绑定 OpenAI 模型,并已合并进 ChatGPT。
@@ -55,7 +57,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*9 条*
+*11 条*
 
 ![[2026-02-12-lennys-engineers-are-becoming-sorcerers#^q2]]
 
@@ -71,13 +73,17 @@ unlisted: true
 
 ![[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering#^q4]]
 
+![[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs#^q2]]
+
 ![[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to#^q2]]
 
 ![[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux#^q5]]
 
+![[2026-09-09-talks-acp-the-universal-remote-control-for-ai#^q2]]
+
 ## ② 出现在这些集
 
-*42 集*
+*44 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
@@ -110,6 +116,7 @@ unlisted: true
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为概念(提及)
 - [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为被讨论公司
 - [[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl|《LongLake：把AI塞进真实服务业务的笨办法》]] — 作为被讨论公司(提及)
+- [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]] — 作为被讨论公司(提及)
 - [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|《OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心》]] — 作为概念
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为被讨论公司(提及)
 - [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]] — 作为概念
@@ -117,6 +124,7 @@ unlisted: true
 - [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]] — 作为概念
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为被讨论公司(提及)
 - [[2026-09-06-lennys-why-companies-are-becoming-a-series|《a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小》]] — 作为被讨论公司
+- [[2026-09-07-talks-why-the-harness-matters-more-than-the-mo|《别小看 harness：智能体的「脚手架」正在决定成绩》]] — 作为被讨论公司(提及)
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司
 - [[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]] — 作为被讨论公司(提及)
 - [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]] — 作为被讨论公司
@@ -126,9 +134,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[Claude]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[护栏]] · [[沙箱]]
+[[智能体]] · [[Claude Code]] · [[OpenAI]] · [[Claude]] · [[Cursor]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[沙箱]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":100,"Claude Code":49,"Cursor":52,"Claude":50,"Anthropic":112,"ChatGPT":54,"Lenny":67,"护栏":2,"沙箱":37}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":51,"OpenAI":102,"Claude":52,"Cursor":54,"Anthropic":114,"ChatGPT":55,"Lenny":67,"沙箱":39,"护栏":2}</script>
 
 <script>
 (function(){

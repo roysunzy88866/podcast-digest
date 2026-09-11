@@ -7,31 +7,35 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Goose</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Goose">GO</div><div class="pi"><h1 class="pt">Goose</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Goose">GO</div><div class="pi"><h1 class="pt">Goose</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]]**(00:27起):本集说它是 Block 开发并开源的通用桌面 AI 智能体程序,基于 MCP 协议构建,能给大模型装上手脚去跨系统编排任务、自动写代码甚至连续数小时做实验。
+- **[[2026-09-09-talks-acp-the-universal-remote-control-for-ai|《AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议》]]**(00:50起):本集主角之一：开源的 harness（工具调用循环）项目，最初是 Block 内部项目，后开源并捐赠给 Linux 基金会；演示中作为底层智能体，在 Zed 和终端客户端上给出完全相同的体验
 
 ## ① 提到它的金句
 
-*1 条*
+*2 条*
 
 ![[2026-05-10-lennys-how-to-build-a-company-that-withstands#^q1]]
 
+![[2026-09-09-talks-acp-the-universal-remote-control-for-ai#^q2]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为概念
+- [[2026-09-09-talks-acp-the-universal-remote-control-for-ai|《AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Dhanji Prasanna]] · [[Block]] · [[智能体]] · [[MCP]] · [[康威定律]] · [[职能型架构]] · [[LLM]] · [[开源模型]] · [[Anthropic]]
+[[Block]] · [[智能体]] · [[MCP]] · [[Lenny]] · [[Alex Hancock]] · [[Dhanji Prasanna]] · [[Zed]] · [[康威定律]] · [[JetBrains]] · [[职能型架构]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Dhanji Prasanna":1,"Block":2,"智能体":1,"MCP":29,"康威定律":1,"职能型架构":1,"LLM":29,"开源模型":5,"Anthropic":112}</script>
+<script type="application/json" class="pd-epn">{"Block":3,"智能体":1,"MCP":33,"Lenny":67,"Alex Hancock":1,"Dhanji Prasanna":1,"Zed":2,"康威定律":1,"JetBrains":2,"职能型架构":1}</script>
 
 <script>
 (function(){

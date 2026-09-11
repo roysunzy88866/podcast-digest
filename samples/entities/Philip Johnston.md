@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"StarCloud":3,"数据中心":3,"SpaceX":12,"NVIDIA":31,"发射成本":1,"H100":1,"基准测试":7,"相变材料":1,"辐射":1,"McKinsey":5}</script>
+<script type="application/json" class="pd-epn">{"StarCloud":3,"数据中心":3,"SpaceX":12,"NVIDIA":32,"发射成本":1,"H100":1,"基准测试":7,"相变材料":1,"辐射":1,"McKinsey":5}</script>
 
 <script>
 (function(){

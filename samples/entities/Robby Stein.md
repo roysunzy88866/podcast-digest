@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Roman Ugarte]] [[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]]
+[[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Google":38,"AI Mode":1,"AI Overviews":1,"Google Lens":1,"ChatGPT":54,"Gemini":6,"Instagram":4,"Stories":2,"Close Friends":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Google":38,"AI Mode":1,"AI Overviews":1,"Google Lens":1,"ChatGPT":55,"Gemini":6,"Instagram":4,"Stories":2,"Close Friends":1}</script>
 
 <script>
 (function(){

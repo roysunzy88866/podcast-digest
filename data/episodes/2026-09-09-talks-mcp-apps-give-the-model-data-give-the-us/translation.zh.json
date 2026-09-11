@@ -1,0 +1,1186 @@
+[
+ {
+  "seg": 0,
+  "start": 13.735,
+  "end": 14.375,
+  "speaker": "Unknown",
+  "en": "Hey, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.455,
+  "end": 15.356,
+  "speaker": "Unknown",
+  "en": "I'm Dustin Mahalik.",
+  "zh": "我是 Dustin Mahalik。"
+ },
+ {
+  "seg": 2,
+  "start": 15.916,
+  "end": 17.437,
+  "speaker": "Unknown",
+  "en": "I work at Indeed.",
+  "zh": "我在 Indeed 工作。"
+ },
+ {
+  "seg": 3,
+  "start": 18.397,
+  "end": 20.158,
+  "speaker": "Unknown",
+  "en": "We're the number one job site in the world.",
+  "zh": "我们是全球排名第一的求职网站。"
+ },
+ {
+  "seg": 4,
+  "start": 21.018,
+  "end": 22.599,
+  "speaker": "Unknown",
+  "en": "And I have to apologize for my voice.",
+  "zh": "我要为我的嗓音道歉。"
+ },
+ {
+  "seg": 5,
+  "start": 22.979,
+  "end": 24.96,
+  "speaker": "Unknown",
+  "en": "I'm recovering from a cold that I had last week.",
+  "zh": "我上周感冒了，现在还在恢复中。"
+ },
+ {
+  "seg": 6,
+  "start": 26.981,
+  "end": 31.403,
+  "speaker": "Unknown",
+  "en": "Yeah, so at Indeed, we build job search.",
+  "zh": "是的，在 Indeed，我们做求职搜索。"
+ },
+ {
+  "seg": 7,
+  "start": 32.063,
+  "end": 36.285,
+  "speaker": "Unknown",
+  "en": "And I also work on a team that does AI platform.",
+  "zh": "我也在一个做 AI 平台的团队工作。"
+ },
+ {
+  "seg": 8,
+  "start": 36.906,
+  "end": 41.488,
+  "speaker": "Unknown",
+  "en": "And I do like AI guardrails and gateways and compliance stuff.",
+  "zh": "我负责的东西包括 AI 护栏、网关和合规相关的内容。"
+ },
+ {
+  "seg": 9,
+  "start": 42.348,
+  "end": 47.492,
+  "speaker": "Unknown",
+  "en": "Occasionally my team gets cool projects to work on because we have relationships with the vendors.",
+  "zh": "偶尔我们团队会接到一些很酷的项目，因为我们和厂商有关系。"
+ },
+ {
+  "seg": 10,
+  "start": 48.273,
+  "end": 52.196,
+  "speaker": "Unknown",
+  "en": "MCP Apps is one of those and MCP Connectors.",
+  "zh": "MCP Apps 就是其中之一，还有 MCP Connectors。"
+ },
+ {
+  "seg": 11,
+  "start": 52.576,
+  "end": 55.398,
+  "speaker": "Unknown",
+  "en": "So this is a little bit of like practical MCP Apps.",
+  "zh": "所以这是一些关于 MCP Apps 的实践分享。"
+ },
+ {
+  "seg": 12,
+  "start": 55.899,
+  "end": 59.381,
+  "speaker": "Unknown",
+  "en": "They gave a great introduction to MCP Apps.",
+  "zh": "他们已经对 MCP Apps 做了很好的介绍。"
+ },
+ {
+  "seg": 13,
+  "start": 59.401,
+  "end": 70.03,
+  "speaker": "Unknown",
+  "en": "This is a little bit of a lessons from the trenches which is a little bit of like what did we learn in building MCP and MCP Apps for Claude, ChatGPT, and our own",
+  "zh": "这个分享有点像「来自实战的经验教训」，也就是我们在为 Claude、ChatGPT 以及我们自己的"
+ },
+ {
+  "seg": 14,
+  "start": 70.63,
+  "end": 76.335,
+  "speaker": "Unknown",
+  "en": "Internal CareerScout, which is our agent that we have for job seekers.",
+  "zh": "内部 CareerScout 构建 MCP 和 MCP Apps 的过程中学到的东西，CareerScout 是我们面向求职者的智能体。"
+ },
+ {
+  "seg": 15,
+  "start": 78.356,
+  "end": 81.519,
+  "speaker": "Unknown",
+  "en": "So this is the chat-based interface.",
+  "zh": "这是基于聊天界面的。"
+ },
+ {
+  "seg": 16,
+  "start": 81.699,
+  "end": 84.281,
+  "speaker": "Unknown",
+  "en": "So a lot of my examples are gonna be job search.",
+  "zh": "所以我的很多例子都会围绕求职搜索。"
+ },
+ {
+  "seg": 17,
+  "start": 84.641,
+  "end": 86.563,
+  "speaker": "Unknown",
+  "en": "I have a lot of screenshots of job searches.",
+  "zh": "我有很多求职搜索的截图。"
+ },
+ {
+  "seg": 18,
+  "start": 88.044,
+  "end": 96.191,
+  "speaker": "Unknown",
+  "en": "So this is a job search which is basically, you know, I'm looking for a barista in Austin, and this is a text-based response.",
+  "zh": "这是一个求职搜索，基本上，你知道，我在 Austin 找咖啡师，这是一个基于文本的响应。"
+ },
+ {
+  "seg": 19,
+  "start": 96.891,
+  "end": 98.233,
+  "speaker": "Unknown",
+  "en": "And this works pretty well.",
+  "zh": "它的效果还不错。"
+ },
+ {
+  "seg": 20,
+  "start": 99.314,
+  "end": 101.716,
+  "speaker": "Unknown",
+  "en": "As we kind of discussed, there's no branding here.",
+  "zh": "正如我们刚才讨论的，这里没有品牌元素。"
+ },
+ {
+  "seg": 21,
+  "start": 101.856,
+  "end": 103.138,
+  "speaker": "Unknown",
+  "en": "There's no Indeed branding.",
+  "zh": "没有 Indeed 的品牌。"
+ },
+ {
+  "seg": 22,
+  "start": 104.899,
+  "end": 107.782,
+  "speaker": "Unknown",
+  "en": "Claude decided to say these are some jobs in Austin.",
+  "zh": "Claude 决定说这些是 Austin 的一些工作。"
+ },
+ {
+  "seg": 23,
+  "start": 107.822,
+  "end": 109.865,
+  "speaker": "Unknown",
+  "en": "These are some jobs in some suburbs of Austin.",
+  "zh": "这些是 Austin 郊区的一些工作。"
+ },
+ {
+  "seg": 24,
+  "start": 110.325,
+  "end": 110.826,
+  "speaker": "Unknown",
+  "en": "That's cool.",
+  "zh": "这挺好的。"
+ },
+ {
+  "seg": 25,
+  "start": 110.846,
+  "end": 112.047,
+  "speaker": "Unknown",
+  "en": "That's probably good for the user.",
+  "zh": "这对用户来说可能是好事。"
+ },
+ {
+  "seg": 26,
+  "start": 112.447,
+  "end": 118.794,
+  "speaker": "Unknown",
+  "en": "There may be some limitations of what we can do for branding or how we can",
+  "zh": "在品牌展示或者我们如何控制方面，可能存在一些限制。"
+ },
+ {
+  "seg": 27,
+  "start": 120.235,
+  "end": 121.436,
+  "speaker": "Unknown",
+  "en": "How we can control things.",
+  "zh": "就是我们能如何控制这些事情。"
+ },
+ {
+  "seg": 28,
+  "start": 122.036,
+  "end": 133.901,
+  "speaker": "Unknown",
+  "en": "And you'd actually be surprised, unless you've tried to do this yourself, that it's really hard to get Claude or ChatGPT to link to things, because they don't want you to leave their environment.",
+  "zh": "你实际上会感到惊讶，除非你自己尝试过，要让 Claude 或 ChatGPT 链接到某些东西真的很难，因为它们不想让你离开它们的环境。"
+ },
+ {
+  "seg": 29,
+  "start": 134.301,
+  "end": 145.606,
+  "speaker": "Unknown",
+  "en": "It makes complete sense, but if you get back, here's five jobs that are somewhere on the internet without any links, that's a terrible user experience.",
+  "zh": "这完全说得通，但如果你得到的回复是「这是互联网上某处的五份工作」却没有任何链接，那是一种糟糕的用户体验。"
+ },
+ {
+  "seg": 30,
+  "start": 145.626,
+  "end": 146.467,
+  "speaker": "Unknown",
+  "en": "So it took us",
+  "zh": "所以我们花了"
+ },
+ {
+  "seg": 31,
+  "start": 147.327,
+  "end": 153.25,
+  "speaker": "Unknown",
+  "en": "A ridiculous number of hours in evals to make sure that Claude would consistently link to things.",
+  "zh": "非常多的 evals 时间，来确保 Claude 能稳定地提供链接。"
+ },
+ {
+  "seg": 32,
+  "start": 154.35,
+  "end": 159.333,
+  "speaker": "Unknown",
+  "en": "So with MCP apps and with apps SDK, we can kind of control that.",
+  "zh": "有了 MCP apps 和 apps SDK，我们就能在一定程度上控制这一点。"
+ },
+ {
+  "seg": 33,
+  "start": 160.333,
+  "end": 163.995,
+  "speaker": "Unknown",
+  "en": "We can decide that we've got an apply button.",
+  "zh": "我们可以决定有一个申请按钮。"
+ },
+ {
+  "seg": 34,
+  "start": 164.355,
+  "end": 168.297,
+  "speaker": "Unknown",
+  "en": "We can decide what stuff is important that we want to highlight at the top.",
+  "zh": "我们可以决定哪些内容是重要的、要放在顶部突出显示。"
+ },
+ {
+  "seg": 35,
+  "start": 168.817,
+  "end": 174.339,
+  "speaker": "Unknown",
+  "en": "We can provide a link to view details so that when you click it, you get",
+  "zh": "我们可以提供一个查看详情的链接，当你点击它时，你会得到"
+ },
+ {
+  "seg": 36,
+  "start": 175.78,
+  "end": 181.926,
+  "speaker": "Unknown",
+  "en": "A pop-up, a modal that has all the job details so you don't have to leave the environment.",
+  "zh": "一个弹窗，一个 modal，包含所有职位详情，这样你就不必离开环境。"
+ },
+ {
+  "seg": 37,
+  "start": 182.327,
+  "end": 184.809,
+  "speaker": "Unknown",
+  "en": "So it's a win-win for both companies.",
+  "zh": "所以这对两家公司来说都是双赢。"
+ },
+ {
+  "seg": 38,
+  "start": 189.55,
+  "end": 206.337,
+  "speaker": "Unknown",
+  "en": "So, MCP apps is really good, but if you're thinking about, hey, I wanna build an MCP app, or I wanna take my website, I wanna put it in ChatGPT or Claude, it's not quite just as easy as dragging and dropping into a chat interface.",
+  "zh": "所以，MCP apps 确实很好，但如果你在想，嘿，我想构建一个 MCP app，或者我想把我的网站放进 ChatGPT 或 Claude，它并不像拖拽进一个聊天界面那么简单。"
+ },
+ {
+  "seg": 39,
+  "start": 206.377,
+  "end": 211.959,
+  "speaker": "Unknown",
+  "en": "You really wanna think about how you are representing the data, how you're making it available to the user.",
+  "zh": "你真的需要思考你如何表示数据，如何把它呈现给用户。"
+ },
+ {
+  "seg": 40,
+  "start": 212.779,
+  "end": 225.424,
+  "speaker": "Unknown",
+  "en": "So if you do a very naive thing, which is you still call your existing APIs for loading data, then it basically becomes a black box to the model, right?",
+  "zh": "所以如果你做一件非常朴素的事情，也就是你仍然调用现有的 API 来加载数据，那么它对模型来说基本上就成了一个黑盒，对吧？"
+ },
+ {
+  "seg": 41,
+  "start": 225.804,
+  "end": 227.785,
+  "speaker": "Unknown",
+  "en": "So you say, hey, I want to do something.",
+  "zh": "所以你说，嘿，我想做点什么。"
+ },
+ {
+  "seg": 42,
+  "start": 227.805,
+  "end": 229.366,
+  "speaker": "Unknown",
+  "en": "The model says, cool, I'll call a tool.",
+  "zh": "模型说，好，我会调用一个工具。"
+ },
+ {
+  "seg": 43,
+  "start": 230.306,
+  "end": 237.373,
+  "speaker": "Unknown",
+  "en": "The tool says, okay, I'm gonna show some stuff, but the model has no idea what you're displaying.",
+  "zh": "工具说，好吧，我要展示一些东西，但模型完全不知道你在展示什么。"
+ },
+ {
+  "seg": 44,
+  "start": 238.073,
+  "end": 244.58,
+  "speaker": "Unknown",
+  "en": "So there's all these follow-up questions, like tell me about the first result, or please rank this list of companies.",
+  "zh": "所以会出现所有这些后续问题，比如告诉我第一个结果的情况，或者请对这份公司列表进行排名。"
+ },
+ {
+  "seg": 45,
+  "start": 245.02,
+  "end": 247.322,
+  "speaker": "Unknown",
+  "en": "The model has no idea what data is being displayed.",
+  "zh": "模型不知道正在展示的是什么数据。"
+ },
+ {
+  "seg": 46,
+  "start": 248.183,
+  "end": 258.646,
+  "speaker": "Unknown",
+  "en": "So the very first rule for me building MCP apps, anything that you show to the user also needs to be provided as data to the model.",
+  "zh": "所以对我来说，构建 MCP apps 的第一条规则是，任何你展示给用户的东西，也需要作为数据提供给模型。"
+ },
+ {
+  "seg": 47,
+  "start": 259.286,
+  "end": 263.868,
+  "speaker": "Unknown",
+  "en": "I think this makes sense, but I've definitely seen some MCP apps where they just",
+  "zh": "我觉得这说得通，但我确实见过一些 MCP apps，它们只是"
+ },
+ {
+  "seg": 48,
+  "start": 264.468,
+  "end": 268.592,
+  "speaker": "Unknown",
+  "en": "You know, use it to inject some HTML on the page and then call some APIs.",
+  "zh": "你知道，用它往页面上注入一些 HTML，然后调用一些 API。"
+ },
+ {
+  "seg": 49,
+  "start": 269.332,
+  "end": 272.515,
+  "speaker": "Unknown",
+  "en": "And that just makes a big black box for the model.",
+  "zh": "而这只会给模型制造一个大黑盒。"
+ },
+ {
+  "seg": 50,
+  "start": 273.036,
+  "end": 278.561,
+  "speaker": "Unknown",
+  "en": "So this is really easy to do using MCP spec and the MCP app spec.",
+  "zh": "所以使用 MCP 规范和 MCP app 规范来做这件事非常容易。"
+ },
+ {
+  "seg": 51,
+  "start": 278.641,
+  "end": 283.766,
+  "speaker": "Unknown",
+  "en": "This structured content, this is what you would already be returning if you were doing just text-based MCP.",
+  "zh": "这个结构化内容，如果你本来就在做纯文本的 MCP,这就是你本来就会返回的东西。"
+ },
+ {
+  "seg": 52,
+  "start": 284.566,
+  "end": 286.808,
+  "speaker": "Unknown",
+  "en": "And then this resource URI, that's",
+  "zh": "然后这个资源 URI,它"
+ },
+ {
+  "seg": 53,
+  "start": 287.509,
+  "end": 289.05,
+  "speaker": "Unknown",
+  "en": "Points to where the HTML is.",
+  "zh": "指向 HTML 所在的位置。"
+ },
+ {
+  "seg": 54,
+  "start": 289.45,
+  "end": 292.473,
+  "speaker": "Unknown",
+  "en": "You need to return both of these and you need to keep them in sync, right?",
+  "zh": "你需要把这两个都返回，而且你需要让它们保持同步，对吧？"
+ },
+ {
+  "seg": 55,
+  "start": 292.753,
+  "end": 298.417,
+  "speaker": "Unknown",
+  "en": "If you add something new to the API, you need to make sure you add that same data back.",
+  "zh": "如果你在 API 里加了新东西，你需要确保把同样的数据也加回去。"
+ },
+ {
+  "seg": 56,
+  "start": 300.679,
+  "end": 304.081,
+  "speaker": "Unknown",
+  "en": "So kind of the next step that",
+  "zh": "所以接下来的这一步"
+ },
+ {
+  "seg": 57,
+  "start": 305.562,
+  "end": 322.832,
+  "speaker": "Unknown",
+  "en": "That once you do that you'll find is that now you've provided data to the model and you provided this black box that it has no idea about, it's still gonna try and describe the, it's still gonna try and take the output and describe it as it normally would.",
+  "zh": "一旦你这么做了，你会发现，现在你已经把数据提供给了模型，还提供了一个它完全不了解的黑盒，它还是会尝试去描述，它还是会像往常一样尝试拿输出并对它进行描述。"
+ },
+ {
+  "seg": 58,
+  "start": 323.192,
+  "end": 328.716,
+  "speaker": "Unknown",
+  "en": "So you end up with like here's your display and then here's the model doing basically the same thing that it would normally do.",
+  "zh": "所以最终的结果就是，这里是你的展示，然后模型基本上在做它平时本来就会做的同样的事情。"
+ },
+ {
+  "seg": 59,
+  "start": 330.077,
+  "end": 337.143,
+  "speaker": "Unknown",
+  "en": "So what you need to do is you need to update your description in order to tell it that you're gonna be displaying stuff in your MCP app.",
+  "zh": "所以你需要做的是更新你的描述，告诉它你会在你的 MCP app 里展示内容。"
+ },
+ {
+  "seg": 60,
+  "start": 337.243,
+  "end": 349.774,
+  "speaker": "Unknown",
+  "en": "That way you get this like nice, you know, here's a list of, you know, here's a little summary of things and, you know, the results are shown above with links rather than it trying to like do a whole text-based display.",
+  "zh": "这样你就能得到这种不错的，你知道的，这里是一个列表，这里是一点东西的摘要，结果通过链接展示在上方，而不是它试图做一整套基于文本的展示。"
+ },
+ {
+  "seg": 61,
+  "start": 351.196,
+  "end": 353.658,
+  "speaker": "Unknown",
+  "en": "You'll end up with this a little bit of a battle between like",
+  "zh": "你最终会遇到这么一种小小的拉锯，"
+ },
+ {
+  "seg": 62,
+  "start": 353.878,
+  "end": 361.262,
+  "speaker": "Unknown",
+  "en": "What gets displayed in UI and what gets displayed by the model, you can try and steer that with descriptions.",
+  "zh": "就是什么显示在 UI 里、什么由模型来显示，你可以试着用描述来引导这一点。"
+ },
+ {
+  "seg": 63,
+  "start": 361.582,
+  "end": 371.047,
+  "speaker": "Unknown",
+  "en": "So even something as simple as results were automatically displayed to the user as UI components at the top of your tool description, that covers quite a bit of the cases.",
+  "zh": "所以哪怕简单到在工具描述的顶部写上「结果已作为 UI 组件自动展示给用户」，这就能覆盖相当多的情况。"
+ },
+ {
+  "seg": 64,
+  "start": 376.903,
+  "end": 385.166,
+  "speaker": "Unknown",
+  "en": "So that's one of the next things that you're gonna want to do once you're providing both data and API access.",
+  "zh": "所以这是你在同时提供数据和 API 访问之后，接下来要做的其中一件事。"
+ },
+ {
+  "seg": 65,
+  "start": 385.326,
+  "end": 387.987,
+  "speaker": "Unknown",
+  "en": "The next thing is there's these interactable pieces, right?",
+  "zh": "下一点是，这里有一些可交互的部件，对吧？"
+ },
+ {
+  "seg": 66,
+  "start": 388.107,
+  "end": 392.809,
+  "speaker": "Unknown",
+  "en": "There's the Apply button, there's the View Details button, which pops up a big job description.",
+  "zh": "有 Apply 按钮，有 View Details 按钮，它会弹出一个大段的职位描述。"
+ },
+ {
+  "seg": 67,
+  "start": 394.249,
+  "end": 401.432,
+  "speaker": "Unknown",
+  "en": "This is the same case where, you know, as you interact with those, the model's not gonna know necessarily what you're looking at.",
+  "zh": "这是同样的问题，你知道，当你与这些交互时，模型不一定知道你在看什么。"
+ },
+ {
+  "seg": 68,
+  "start": 401.472,
+  "end": 406.054,
+  "speaker": "Unknown",
+  "en": "So when you click View Details, you get a big modal that hears everything about the job.",
+  "zh": "所以当你点击 View Details 时，你会得到一个大弹窗，里面有关于这个职位的一切。"
+ },
+ {
+  "seg": 69,
+  "start": 407.99,
+  "end": 410.992,
+  "speaker": "Unknown",
+  "en": "There's once again a whole bunch of questions that the user could ask.",
+  "zh": "又一次，用户可以问一大堆问题。"
+ },
+ {
+  "seg": 70,
+  "start": 411.953,
+  "end": 413.634,
+  "speaker": "Unknown",
+  "en": "Write a cover letter for this job.",
+  "zh": "为这个职位写一封求职信。"
+ },
+ {
+  "seg": 71,
+  "start": 414.014,
+  "end": 415.455,
+  "speaker": "Unknown",
+  "en": "Summarize this job description.",
+  "zh": "总结一下这个职位描述。"
+ },
+ {
+  "seg": 72,
+  "start": 415.475,
+  "end": 422.42,
+  "speaker": "Unknown",
+  "en": "It has no idea because you've loaded that data in either via API or you've loaded it in dynamically.",
+  "zh": "它完全不知道，因为你要么是通过 API 加载了那些数据，要么是动态加载进来的。"
+ },
+ {
+  "seg": 73,
+  "start": 423.32,
+  "end": 426.963,
+  "speaker": "Unknown",
+  "en": "You've returned 10 jobs and user clicks on one.",
+  "zh": "你返回了 10 个职位，用户点击了其中一个。"
+ },
+ {
+  "seg": 74,
+  "start": 427.723,
+  "end": 430.448,
+  "speaker": "Unknown",
+  "en": "The model has no idea which one you've clicked on.",
+  "zh": "模型完全不知道你点了哪一个。"
+ },
+ {
+  "seg": 75,
+  "start": 431.95,
+  "end": 438.681,
+  "speaker": "Unknown",
+  "en": "So any information about user interactions, you also need to provide to the model.",
+  "zh": "所以任何关于用户交互的信息，你也都需要提供给模型。"
+ },
+ {
+  "seg": 76,
+  "start": 440.942,
+  "end": 445.265,
+  "speaker": "Unknown",
+  "en": "And once again, MCP app spec has a pretty easy way to handle it.",
+  "zh": "再说一次，MCP app 规范有一个相当简单的处理方式。"
+ },
+ {
+  "seg": 77,
+  "start": 445.585,
+  "end": 455.553,
+  "speaker": "Unknown",
+  "en": "There's this update model context method, which lets you pass in a string that is, so for MCP apps, there's a single string.",
+  "zh": "有一个 update model context 方法，它让你传入一个字符串，对于 MCP app 来说，就是单个字符串。"
+ },
+ {
+  "seg": 78,
+  "start": 456.333,
+  "end": 462.798,
+  "speaker": "Unknown",
+  "en": "So if you wanna track multiple events over time, you kinda have to append multiple things to the string.",
+  "zh": "所以如果你想在一段时间内追踪多个事件，你就得往那个字符串里追加多个内容。"
+ },
+ {
+  "seg": 79,
+  "start": 463.278,
+  "end": 482.87,
+  "speaker": "Unknown",
+  "en": "But this is an example from the MCP apps documentation where basically this is a shopping cart application and they add the total cost and all the items that are on the shopping cart so the user can ask for tell me information about the items that are in my shopping cart.",
+  "zh": "但这是 MCP apps 文档里的一个例子，基本上是一个购物车应用，它们把总金额和购物车里的所有商品都加进去，这样用户就可以问了，告诉我我购物车里有哪些商品的信息。"
+ },
+ {
+  "seg": 80,
+  "start": 486.043,
+  "end": 504.225,
+  "speaker": "Unknown",
+  "en": "So these two things give you an app that the model can kind of see what's going on, but it doesn't necessarily make a really good MCP app yet because it gives you some UI that looks like what you want, but",
+  "zh": "所以这两件事能让你得到一个模型大致能看到发生了什么的 app,但它还不一定能成为一个真正好的 MCP app,因为它给了你一些看起来符合你想要的 UI,但是"
+ },
+ {
+  "seg": 81,
+  "start": 505.126,
+  "end": 513.614,
+  "speaker": "Unknown",
+  "en": "The thing that I usually do, I don't give Claude my easy problems to solve.",
+  "zh": "我平时通常做的事，我不会把我的简单问题丢给 Claude 去解决。"
+ },
+ {
+  "seg": 82,
+  "start": 513.755,
+  "end": 516.437,
+  "speaker": "Unknown",
+  "en": "I give Claude my really hard problems to solve.",
+  "zh": "我把真正难的问题丢给 Claude 去解决。"
+ },
+ {
+  "seg": 83,
+  "start": 516.457,
+  "end": 520.481,
+  "speaker": "Unknown",
+  "en": "If I just wanted to do one search, I would go to the web and do one search.",
+  "zh": "如果我只是想做一次搜索，我会直接上网做一次搜索。"
+ },
+ {
+  "seg": 84,
+  "start": 520.621,
+  "end": 521.963,
+  "speaker": "Unknown",
+  "en": "I want to do a whole bunch of searches.",
+  "zh": "我想做一大堆搜索。"
+ },
+ {
+  "seg": 85,
+  "start": 523.324,
+  "end": 528.809,
+  "speaker": "Unknown",
+  "en": "This is out of date because there's no Sonnet V here yet, but this is...",
+  "zh": "这个已经过时了，因为这里还没有 Sonnet V,但这是……"
+ },
+ {
+  "seg": 86,
+  "start": 529.77,
+  "end": 530.99,
+  "speaker": "Unknown",
+  "en": "Screenshot from two days ago.",
+  "zh": "两天前的截图。"
+ },
+ {
+  "seg": 87,
+  "start": 531.871,
+  "end": 536.672,
+  "speaker": "Unknown",
+  "en": "But yeah, so this job search is, hey, I'm looking for this title.",
+  "zh": "不过对，这个求职搜索是，嘿，我在找这个职位名称。"
+ },
+ {
+  "seg": 88,
+  "start": 537.893,
+  "end": 541.734,
+  "speaker": "Unknown",
+  "en": "I'm willing to relocate, so I want to search across a whole bunch of different cities.",
+  "zh": "我愿意搬家，所以我想在一大堆不同的城市里搜索。"
+ },
+ {
+  "seg": 89,
+  "start": 543.034,
+  "end": 547.276,
+  "speaker": "Unknown",
+  "en": "I'm looking for the highest paying options, so I want you to just cherry pick a few out of there.",
+  "zh": "我找的是薪资最高的选项，所以我想让你从里面挑出几个来。"
+ },
+ {
+  "seg": 90,
+  "start": 547.636,
+  "end": 550.077,
+  "speaker": "Unknown",
+  "en": "There's some industries that I absolutely don't want to work in.",
+  "zh": "有一些行业是我绝对不想去的。"
+ },
+ {
+  "seg": 91,
+  "start": 551.836,
+  "end": 555.177,
+  "speaker": "Unknown",
+  "en": "Text-based MCP does really well.",
+  "zh": "基于文本的 MCP 在这方面做得非常好。"
+ },
+ {
+  "seg": 92,
+  "start": 556.017,
+  "end": 556.997,
+  "speaker": "Unknown",
+  "en": "We all see this, right?",
+  "zh": "我们都见过这种情况，对吧？"
+ },
+ {
+  "seg": 93,
+  "start": 557.357,
+  "end": 561.358,
+  "speaker": "Unknown",
+  "en": "Claude will do 10 different searches, 15 different searches.",
+  "zh": "Claude 会做 10 次不同的搜索，15 次不同的搜索。"
+ },
+ {
+  "seg": 94,
+  "start": 561.878,
+  "end": 569.66,
+  "speaker": "Unknown",
+  "en": "It'll filter, it'll pull out all the individual pieces, and then it gives you a nice table at the bottom, which is super nice.",
+  "zh": "它会过滤，会把所有单独的部分都提取出来，然后在最后给你一张漂亮的表格，非常棒。"
+ },
+ {
+  "seg": 95,
+  "start": 570.72,
+  "end": 580.302,
+  "speaker": "Unknown",
+  "en": "But with the MCP app that we were just discussing, we said, hey, my results are gonna be displayed in this UI.",
+  "zh": "但是用我们刚才讨论的那个 MCP app,我们说了，嘿，我的结果会显示在这个 UI 里。"
+ },
+ {
+  "seg": 96,
+  "start": 585.137,
+  "end": 588.618,
+  "speaker": "Unknown",
+  "en": "Claude will call it once, and then it'll be like, oh, I guess the results are already displayed.",
+  "zh": "Claude 只会调用一次，然后它就会觉得，哦，我猜结果已经显示了。"
+ },
+ {
+  "seg": 97,
+  "start": 588.638,
+  "end": 590.458,
+  "speaker": "Unknown",
+  "en": "I'm not gonna like do a deep dive, right?",
+  "zh": "我就不深挖了，对吧？"
+ },
+ {
+  "seg": 98,
+  "start": 590.478,
+  "end": 602.603,
+  "speaker": "Unknown",
+  "en": "Like it doesn't, you as a user are not gonna want 10 different parasels, and Claude will also notice that like it's already been displaying some stuff, and it won't call,",
+  "zh": "就是说，作为用户你不会想要 10 个不同的 parasels,Claude 也会注意到它已经展示了一些内容，所以它就不会再去调用，"
+ },
+ {
+  "seg": 99,
+  "start": 603.243,
+  "end": 604.685,
+  "speaker": "Unknown",
+  "en": "to show 10 different carousels.",
+  "zh": "去展示 10 个不同的轮播。"
+ },
+ {
+  "seg": 100,
+  "start": 606.246,
+  "end": 616.817,
+  "speaker": "Unknown",
+  "en": "And so what you really want to do, and this is rule three, this supersedes all the other rules, which is basically you want to separate your data processing from your UI rendering.",
+  "zh": "所以你真正想做的事情——这是规则三，它优先于其他所有规则——基本上就是你要把你的数据处理和你的 UI 渲染分离开来。"
+ },
+ {
+  "seg": 101,
+  "start": 618.514,
+  "end": 629.078,
+  "speaker": "Unknown",
+  "en": "And this particular wording I stole from OpenAI Apps SDK documentation.",
+  "zh": "而这个特定的措辞是我从 OpenAI Apps SDK 文档里偷来的。"
+ },
+ {
+  "seg": 102,
+  "start": 629.098,
+  "end": 631.239,
+  "speaker": "Unknown",
+  "en": "There's a couple places where they say this.",
+  "zh": "他们在好几个地方都说了这句话。"
+ },
+ {
+  "seg": 103,
+  "start": 632.339,
+  "end": 638.081,
+  "speaker": "Unknown",
+  "en": "But basically, you want to separate your data processing from your UI rendering.",
+  "zh": "但基本上，你要把你的数据处理和你的 UI 渲染分离开来。"
+ },
+ {
+  "seg": 104,
+  "start": 638.802,
+  "end": 641.903,
+  "speaker": "Unknown",
+  "en": "So the job search that we had",
+  "zh": "所以我们刚才做的那个职位搜索"
+ },
+ {
+  "seg": 105,
+  "start": 642.883,
+  "end": 646.691,
+  "speaker": "Unknown",
+  "en": "We're just gonna have that be a standard text-based MCP application.",
+  "zh": "我们就让它作为一个标准的基于文本的 MCP 应用。"
+ },
+ {
+  "seg": 106,
+  "start": 647.171,
+  "end": 649.716,
+  "speaker": "Unknown",
+  "en": "Claude can call that as many times as it wants.",
+  "zh": "Claude 想调用它多少次都可以。"
+ },
+ {
+  "seg": 107,
+  "start": 650.378,
+  "end": 654.566,
+  "speaker": "Unknown",
+  "en": "And then we have a render tool that either you can pass",
+  "zh": "然后我们有一个渲染工具，你要么可以传入"
+ },
+ {
+  "seg": 108,
+  "start": 656.053,
+  "end": 661.857,
+  "speaker": "Unknown",
+  "en": "You could have the model basically pass all the data that it wants to render in, or you can do a reference to it.",
+  "zh": "你可以让模型基本上把它想渲染的所有数据传进来，或者你可以用一个引用。"
+ },
+ {
+  "seg": 109,
+  "start": 662.357,
+  "end": 673.745,
+  "speaker": "Unknown",
+  "en": "So in our particular case, we had search jobs, now we have a search jobs that doesn't return any UI, and we have a render jobs widget that takes a list of IDs.",
+  "zh": "所以在我们的具体案例里，我们有 search jobs，现在我们有了一个不返回任何 UI 的 search jobs，还有一个接受一组 ID 的 render jobs widget。"
+ },
+ {
+  "seg": 110,
+  "start": 674.565,
+  "end": 681.129,
+  "speaker": "Unknown",
+  "en": "And so that list of IDs can be, Claude can do a search, it can get",
+  "zh": "所以那组 ID 可以是——Claude 可以做一次搜索，它可以拿到"
+ },
+ {
+  "seg": 111,
+  "start": 682.705,
+  "end": 684.326,
+  "speaker": "Unknown",
+  "en": "100 different jobs that it cares about.",
+  "zh": "它关心的 100 个不同的职位。"
+ },
+ {
+  "seg": 112,
+  "start": 684.446,
+  "end": 685.446,
+  "speaker": "Unknown",
+  "en": "It can filter those.",
+  "zh": "它可以过滤这些结果。"
+ },
+ {
+  "seg": 113,
+  "start": 685.566,
+  "end": 690.088,
+  "speaker": "Unknown",
+  "en": "It could find five that it cares about, and it can show those five to the user.",
+  "zh": "它可以找出五个它关心的，然后把这五个展示给用户。"
+ },
+ {
+  "seg": 114,
+  "start": 691.689,
+  "end": 696.171,
+  "speaker": "Unknown",
+  "en": "Now, as you make these render calls, you need to update the descriptions to say,",
+  "zh": "现在，当你做这些渲染调用时，你需要更新描述来说明，"
+ },
+ {
+  "seg": 115,
+  "start": 699.152,
+  "end": 700.273,
+  "speaker": "Unknown",
+  "en": "Where do they get the data?",
+  "zh": "数据从哪里来？"
+ },
+ {
+  "seg": 116,
+  "start": 700.634,
+  "end": 702.115,
+  "speaker": "Unknown",
+  "en": "What format the data should be?",
+  "zh": "数据应该是什么格式？"
+ },
+ {
+  "seg": 117,
+  "start": 703.056,
+  "end": 715.41,
+  "speaker": "Unknown",
+  "en": "But it's a fairly easy mechanism to update your tool description to say you need to always call one of these three tools first in order to get the data that you're gonna be using for rendering.",
+  "zh": "但这是一个相当容易的机制，更新你的工具描述，说你必须始终先调用这三个工具之一，以获得你将要用于渲染的数据。"
+ },
+ {
+  "seg": 118,
+  "start": 716.511,
+  "end": 719.013,
+  "speaker": "Unknown",
+  "en": "So search jobs, this is a pretty good...",
+  "zh": "所以 search jobs，这是一个相当不错的……"
+ },
+ {
+  "seg": 119,
+  "start": 721.106,
+  "end": 727.348,
+  "speaker": "Unknown",
+  "en": "It's a pretty good example of where we want to split data from rendering.",
+  "zh": "它是一个相当好的例子，说明我们想在哪里把数据和渲染分开。"
+ },
+ {
+  "seg": 120,
+  "start": 727.828,
+  "end": 736.351,
+  "speaker": "Unknown",
+  "en": "I think there's a ton of other, like, in most industries, you can kind of come up with like, hey, where do I want to, you know, where do I want to split?",
+  "zh": "我认为还有很多其他的，比如，在大多数行业里，你差不多都能想出来，比如，嘿，我想在哪里，你知道，我想在哪里拆分？"
+ },
+ {
+  "seg": 121,
+  "start": 736.371,
+  "end": 745.354,
+  "speaker": "Unknown",
+  "en": "Like, I want the model to be able to explore this data, and then I want it to turn around and choose to be able to render it, right?",
+  "zh": "比如，我想让模型能够探索这些数据，然后我想让它转过来选择能够把它渲染出来，对吧？"
+ },
+ {
+  "seg": 122,
+  "start": 745.374,
+  "end": 749.036,
+  "speaker": "Unknown",
+  "en": "Like, there's examples of, you know,",
+  "zh": "比如，有各种各样的例子，你知道，"
+ },
+ {
+  "seg": 123,
+  "start": 750.136,
+  "end": 754.579,
+  "speaker": "Unknown",
+  "en": "E-commerce, a bunch of e-commerce options.",
+  "zh": "电子商务，一堆电子商务的应用场景。"
+ },
+ {
+  "seg": 124,
+  "start": 754.719,
+  "end": 760.764,
+  "speaker": "Unknown",
+  "en": "If you've got a map, maybe you want to come up with five different addresses and then you pass in addresses.",
+  "zh": "如果你有一个地图，也许你想找出五个不同的地址，然后传入这些地址。"
+ },
+ {
+  "seg": 125,
+  "start": 761.764,
+  "end": 765.787,
+  "speaker": "Unknown",
+  "en": "The other thing that you can do is you can let the model be a lot more creative.",
+  "zh": "另一件你能做的事情是，你可以让模型更有创造力得多。"
+ },
+ {
+  "seg": 126,
+  "start": 765.867,
+  "end": 771.711,
+  "speaker": "Unknown",
+  "en": "One of the things that we've seen in some of this text-based stuff is that",
+  "zh": "我们在一些这类基于文本的东西里看到的情况之一是，"
+ },
+ {
+  "seg": 127,
+  "start": 772.632,
+  "end": 778.513,
+  "speaker": "Unknown",
+  "en": "You know the model will say like this is a reason why I picked this one or this is a reason why this is really good.",
+  "zh": "你知道，模型会说，比如，这是我选这个的原因，或者这是这个东西非常好的一个原因。"
+ },
+ {
+  "seg": 128,
+  "start": 779.493,
+  "end": 789.376,
+  "speaker": "Unknown",
+  "en": "And so you know potentially we can add something to the render jobs widget where you say give us an ID and a reason why you think that this is a good fit.",
+  "zh": "所以你知道，我们也许可以给 render jobs widget 增加一些东西，让你说，给我们一个 ID，以及你认为这是一个好的匹配的理由。"
+ },
+ {
+  "seg": 129,
+  "start": 789.936,
+  "end": 795.277,
+  "speaker": "Unknown",
+  "en": "Or give us an ID and highlight a section of the job description that is really good.",
+  "zh": "或者给我们一个 ID，并高亮职位描述里非常好的一个部分。"
+ },
+ {
+  "seg": 130,
+  "start": 796.718,
+  "end": 812.313,
+  "speaker": "Unknown",
+  "en": "So you can get really creative with your render tools to be able to give some extra character that the model can inject into those so that you've got a much better experience for the user.",
+  "zh": "所以你可以让你的渲染工具变得非常有创造力，给模型提供一些可以注入其中的额外个性，这样你就能给用户带来好得多的体验。"
+ },
+ {
+  "seg": 131,
+  "start": 814.188,
+  "end": 828.918,
+  "speaker": "Unknown",
+  "en": "So the key takeaways, when building MCP apps, you want to focus on the data before you focus on the UI, which sounds opposite of how we were thinking about it, of like, hey, there's all these MCP apps.",
+  "zh": "所以关键要点是，在构建 MCP 应用时，你要在关注 UI 之前先关注数据，这听起来和我们之前的思考方式相反，比如，嘿，有这么多 MCP 应用。"
+ },
+ {
+  "seg": 132,
+  "start": 829.458,
+  "end": 832.1,
+  "speaker": "Unknown",
+  "en": "It's how I put UI into ChatGPT.",
+  "zh": "它是我把 UI 放进 ChatGPT 的方式。"
+ },
+ {
+  "seg": 133,
+  "start": 833,
+  "end": 838.083,
+  "speaker": "Unknown",
+  "en": "I think if you want to really have a good MCP apps experience, you need to...",
+  "zh": "我认为如果你想真正拥有一个好的 MCP 应用体验，你需要……"
+ },
+ {
+  "seg": 134,
+  "start": 839.004,
+  "end": 854.527,
+  "speaker": "Unknown",
+  "en": "You look at and see what data do I want to give to the model, what data do I want it to be able to do, and then rendering is a side effect of that, or it's a result of the model exploring the data.",
+  "zh": "你去看看，我想给模型什么数据，我想让它能对这些数据做什么，然后渲染就是它的一个副作用，或者说是模型探索数据的一个结果。"
+ },
+ {
+  "seg": 135,
+  "start": 855.987,
+  "end": 863.449,
+  "speaker": "Unknown",
+  "en": "And then I think small composable tools, right, so basically, you know,",
+  "zh": "然后我认为是小的可组合工具，对吧，基本上，你知道，"
+ },
+ {
+  "seg": 136,
+  "start": 864.381,
+  "end": 867.042,
+  "speaker": "Unknown",
+  "en": "Maybe there's two or three different ways you can search for jobs.",
+  "zh": "也许有两三种不同的方式可以搜索职位。"
+ },
+ {
+  "seg": 137,
+  "start": 867.462,
+  "end": 871.062,
+  "speaker": "Unknown",
+  "en": "We can build two or three different search tools, and then there's one render tool.",
+  "zh": "我们可以构建两三个不同的搜索工具，然后有一个渲染工具。"
+ },
+ {
+  "seg": 138,
+  "start": 871.482,
+  "end": 874.563,
+  "speaker": "Unknown",
+  "en": "Or maybe there's two render tools.",
+  "zh": "或者也许有两个渲染工具。"
+ },
+ {
+  "seg": 139,
+  "start": 874.583,
+  "end": 879.104,
+  "speaker": "Unknown",
+  "en": "There's one that's render a list of jobs, one that's highlight one particular job.",
+  "zh": "一个是渲染一组职位，一个是高亮某个特定职位。"
+ },
+ {
+  "seg": 140,
+  "start": 879.724,
+  "end": 882.485,
+  "speaker": "Unknown",
+  "en": "So you can build a bunch of much smaller tools.",
+  "zh": "所以你可以构建一堆小得多的工具。"
+ },
+ {
+  "seg": 141,
+  "start": 882.965,
+  "end": 892.787,
+  "speaker": "Unknown",
+  "en": "The descriptions can be fairly simple so you don't overload the model, but it gives the model flexibility about how it wants to explore the data and how it wants to render the tools.",
+  "zh": "描述可以相当简单，这样就不会让模型过载，但它给了模型灵活性，让它可以按自己想的方式去探索数据、按自己想的方式去渲染这些工具。"
+ },
+ {
+  "seg": 142,
+  "start": 894.733,
+  "end": 898.335,
+  "speaker": "Unknown",
+  "en": "So that's basically my talk.",
+  "zh": "所以这基本上就是我的演讲。"
+ },
+ {
+  "seg": 143,
+  "start": 898.435,
+  "end": 900.416,
+  "speaker": "Unknown",
+  "en": "I'm a few minutes fast.",
+  "zh": "我快了几分钟。"
+ },
+ {
+  "seg": 144,
+  "start": 901.957,
+  "end": 908.22,
+  "speaker": "Unknown",
+  "en": "But I don't have a booth that I'm gonna hang out in, but I'll hang out in the hall if anyone has any questions.",
+  "zh": "不过我没有展位可以待，但如果任何人有问题，我会在大厅里待着。"
+ },
+ {
+  "seg": 145,
+  "start": 908.86,
+  "end": 915.403,
+  "speaker": "Unknown",
+  "en": "And I am either my last name or my first initial last name on most social media platforms.",
+  "zh": "我在大多数社交媒体平台上的账号要么是我的姓，要么是我的名字首字母加姓。"
+ },
+ {
+  "seg": 146,
+  "start": 916.084,
+  "end": 916.404,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 147,
+  "start": 923.825,
+  "end": 925.049,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ }
+]

@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Bun</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Bun">BU</div><div class="pi"><h1 class="pt">Bun</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Bun">BU</div><div class="pi"><h1 class="pt">Bun</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(05:47起):本集把它说成:Anthropic 内部已经用它(搭配 Rust)重写了 Claude Code,且效果很好
+- **[[2026-09-09-talks-the-exact-tools-used-to-port-a-massive-c|《一个周末把几十万行代码从 Python 移植到 TypeScript》]]**(00:07起):本集说它是一个 JavaScript 运行时，Claude Code 用它解决了部署问题，方案比说话人现有 Python 技术栈更好。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
+- [[2026-09-09-talks-the-exact-tools-used-to-port-a-massive-c|《一个周末把几十万行代码从 Python 移植到 TypeScript》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Simon Willison]] · [[Cat Wu]] · [[Thariq Shihipar]] · [[Anthropic]] · [[Claude Code]] · [[ClaudeTag]] · [[Fable]] · [[Slack]] · [[Rust]] · [[Gemini]]
+[[Claude Code]] · [[Simon Willison]] · [[TypeScript]] · [[Cat Wu]] · [[Python]] · [[Thariq Shihipar]] · [[动态工作流]] · [[Anthropic]] · [[ClaudeTag]] · [[Fable]]
 
-<script type="application/json" class="pd-epn">{"Simon Willison":1,"Cat Wu":1,"Thariq Shihipar":1,"Anthropic":112,"Claude Code":49,"ClaudeTag":1,"Fable":9,"Slack":23,"Rust":3,"Gemini":6}</script>
+<script type="application/json" class="pd-epn">{"Claude Code":51,"Simon Willison":1,"TypeScript":2,"Cat Wu":1,"Python":4,"Thariq Shihipar":1,"动态工作流":1,"Anthropic":114,"ClaudeTag":1,"Fable":9}</script>
 
 <script>
 (function(){

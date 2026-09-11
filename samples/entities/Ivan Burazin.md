@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":15,"Neon":2,"Parallel":4,"智能体":1,"沙箱":37,"突发负载":1,"裸金属":1,"计算机使用":10,"托管型 Kubernetes":1}</script>
+<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":16,"Neon":2,"Parallel":4,"智能体":1,"沙箱":39,"突发负载":1,"裸金属":1,"计算机使用":10,"托管型 Kubernetes":1}</script>
 
 <script>
 (function(){

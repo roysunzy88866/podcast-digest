@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>harness</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>23</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>26</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -30,14 +30,16 @@ unlisted: true
 - **[[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]]**(03:48起):本集把它说成：围绕模型构建的外部控制框架。当模型进步而安全带不跟着变时,它会变成拖累性能的死重;必须模块化以便随模型演进快速迭代。
 - **[[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]]**(19:36起):本集把它说成：模型上层的编排工具（如 Claude Code、OpenCode），像高功能保姆管住顽童。过去 18 个月的能力提升很大部分来自挽具与后训练，而非动辄十亿美元的预训练。
 - **[[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|《AI智能体安全：它们听起来像实习生》]]**(06:14起):本集将其描述为套在模型外面让它能调用工具的框架，说为了让 OpenClaw、Scout 这些套索有效，你想给它接上一切——所有邮件、日历、数据库
+- **[[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]]**(03:02起):本集把它说成：Clay 各产品线共用的 eval/智能体测试框架，开发者只需自带 eval 套件和 LLM 裁判即可即插即用；智能体调用工具失败时也用它来改进。
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(19:52起):本集称其为新一代应用，所有逻辑在这里发生、状态在这里维护，上下文窗口扩展通过智能体内部的压缩机制而非模型层解决，持续学习也发生在套索层
 - **[[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]]**(32:10起):嘉宾认为是最关键的新构建：把机器学习模型与可用成果绑起来的机制；同一个模型配两个不同线束会得到两个不同成果，编码工具好用靠的是编码线束而非模型本身。
+- **[[2026-09-07-talks-why-the-harness-matters-more-than-the-mo|《别小看 harness：智能体的「脚手架」正在决定成绩》]]**(00:08起):本集主线概念：包裹在 LLM 外面、提供持久状态/工具/计算的那层脚手架；主持人强调同一套权重换个 harness 就能让 ArcAGI 从 30% 到 95%，并将其分为静态 harness 与自我改进 harness 两个时代。
 - **[[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]]**(21:51起):本集核心框架:「harness 总是比模型领先一点」——它是围绕模型的工具与执行框架,给模型配拐杖(护栏、安全、效率、可控性),随模型变强而缩减。
 - **[[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]]**(34:26起):本集说 harness 是实验室提供的围绕模型的执行框架（含工具调用、系统提示词），其与模型的边界正在模糊——旧模型的长系统提示词「几乎像被 RL 进了新模型」。
 
 ## ① 提到它的金句
 
-*11 条*
+*14 条*
 
 ![[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#^q1]]
 
@@ -57,13 +59,19 @@ unlisted: true
 
 ![[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ#^q10]]
 
+![[2026-09-07-talks-why-the-harness-matters-more-than-the-mo#^q1]]
+
+![[2026-09-07-talks-why-the-harness-matters-more-than-the-mo#^q2]]
+
+![[2026-09-07-talks-why-the-harness-matters-more-than-the-mo#^q3]]
+
 ![[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux#^q3]]
 
 ![[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th#^q5]]
 
 ## ② 出现在这些集
 
-*23 集*
+*26 集*
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
@@ -84,18 +92,21 @@ unlisted: true
 - [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|《Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生》]] — 作为概念
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|《AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱》]] — 作为概念
 - [[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|《AI智能体安全：它们听起来像实习生》]] — 作为概念(提及)
+- [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]] — 作为概念
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为概念
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]] — 作为概念
+- [[2026-09-07-talks-why-the-harness-matters-more-than-the-mo|《别小看 harness：智能体的「脚手架」正在决定成绩》]] — 作为概念
 - [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|《Codex 负责人亲述:OpenAI 内部如何造编程智能体》]] — 作为概念
+- [[2026-09-09-talks-acp-the-universal-remote-control-for-ai|《AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议》]] — 作为概念
 - [[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Claude Code]] · [[OpenAI]] · [[护栏]] · [[沙箱]] · [[Codex]] · [[评估]] · [[上下文]] · [[推理]]
+[[智能体]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[OpenAI]] · [[Codex]] · [[护栏]] · [[评估]] · [[推理]] · [[上下文]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":112,"Claude Code":49,"OpenAI":100,"护栏":2,"沙箱":37,"Codex":42,"评估":22,"上下文":14,"推理":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":114,"Claude Code":51,"沙箱":39,"OpenAI":102,"Codex":44,"护栏":2,"评估":23,"推理":5,"上下文":15}</script>
 
 <script>
 (function(){

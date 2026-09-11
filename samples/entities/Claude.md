@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>50</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>52</b> 集 · <b>26</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -54,16 +54,18 @@ unlisted: true
 - **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]]**(03:51起):本集举 Claude 为例，说在本地用 Claude 做研究生成子智能体时，子智能体会话日志藏在本机隐藏文件夹的 JSON Lines 文件里，属于黑盒问题
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(29:37起):本集说 Claude 有点抽象，基本上只是别人的电脑，很难向普通人解释它是什么
 - **[[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]]**(11:37起):本集提到 ClaudeMD 拥有最高优先级的配置文件，Claude app 被用来在移动端管理智能体配置，Claude Design 被用来创建董事会演示文稿
+- **[[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]]**(00:00起):本集提到有好的 eval 套件就可以放心让 Claude 这类编码智能体替你改提示词。
 - **[[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]]**(77:40起):本集两处提及：一是作为需付费的私有模型；二是说现在用 Claude 做邮件整理和日程安排，替代了助理的工作
 - **[[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]]**(09:28起):本集说 Claude 在很长一段时间里对研究数学没有用，大概在 Opus 4.5 或 4.6 左右赶上，并且在解释结果时对用户已知和未知内容的判断（心智理论）不如 5.6 准确
 - **[[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|《被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史》]]**(11:40起):本集说她用 Claude 的项目功能为每个客户和专栏搭建上下文，还跟 Claude 聊着把复合工程插件改造成了写作插件
 - **[[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]]**(03:45起):本集反复使用的 AI 工具：通过 .claude 目录加载技能、用 hooks 在会话收尾时强制触发改进循环、用 slash loop 做定时循环；Tyler 还吐槽 Opus 5 特别啰嗦。
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(34:36起):本集说团队在 Codex 和 Claude 之间的使用大概五五开(五个月前还以 Claude 为主),同时 Anthropic 的 Claude 被用作界面层输出的例子。
 - **[[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|《初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论》]]**(41:27起):本集提及 OpenClaw 用 Claude Pro/Max 套餐当大脑被封禁一事，牵出对订阅模式的批评。
+- **[[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|《把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律》]]**(00:59起):本集讨论的主要宿主模型之一：让它在带 UI 的场景下保持多轮搜索很难，需要靠工具描述引导和搜索/渲染分离来纠正行为
 
 ## ① 提到它的金句
 
-*23 条*
+*26 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q5]]
 
@@ -109,11 +111,17 @@ unlisted: true
 
 ![[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering#^q4]]
 
+![[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs#^q2]]
+
 ![[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin#^q2]]
+
+![[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us#^q1]]
+
+![[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us#^q3]]
 
 ## ② 出现在这些集
 
-*50 集*
+*52 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -159,20 +167,22 @@ unlisted: true
 - [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]] — 作为概念(提及)
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
 - [[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]] — 作为被讨论公司(提及)
+- [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]] — 作为被讨论公司(提及)
 - [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]] — 作为被讨论公司(提及)
 - [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|《AI解数学题≠理解数学》]] — 作为概念
 - [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|《被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史》]] — 作为被讨论公司
 - [[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]] — 作为被讨论公司
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司
 - [[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|《初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论》]] — 作为概念(提及)
+- [[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|《把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Lenny]] · [[Codex]] · [[Google]] · [[Claude Code]] · [[MCP]] · [[vibe coding]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Codex]] · [[OpenAI]] · [[Lenny]] · [[Google]] · [[MCP]] · [[Claude Code]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":112,"ChatGPT":54,"OpenAI":100,"Lenny":67,"Codex":42,"Google":38,"Claude Code":49,"MCP":29,"vibe coding":30}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":114,"ChatGPT":55,"Codex":44,"OpenAI":102,"Lenny":67,"Google":38,"MCP":33,"Claude Code":51,"vibe coding":30}</script>
 
 <script>
 (function(){

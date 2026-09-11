@@ -1,0 +1,94 @@
+{
+  "title_zh": "把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律",
+  "tldr": "Indeed 的 AI 平台工程师 Dustin Mahalik 分享为 Claude、ChatGPT 构建 MCP Apps 的实战经验：先给模型数据，再谈 UI。",
+  "digest_md": "把自家网站塞进 ChatGPT 或 Claude 的聊天窗口里，听起来像拖拽一下就完事——Indeed（全球排名第一的求职网站）做 AI 平台的 Dustin Mahalik 告诉你：不是。他和团队在为 Claude、ChatGPT 和自家求职智能体 CareerScout 构建 MCP Apps（让第三方应用以 UI 组件形式嵌入聊天界面的规范）时踩过一堆坑，总结出几条铁律 [00:48 Dustin Mahalik]。\n\n## 第一个坑：聊天窗口容不下「品牌」\n\n最基本的文本版 MCP 调用效果其实不错——搜「Austin 的咖啡师」，Claude 能给出像样的职位列表。但问题很明显：没有 Indeed 的品牌、没有申请按钮、没有详情页，Claude 只是说「这些是 Austin 的一些工作」[01:36 Dustin Mahalik]。\n\n更反直觉的是：**要让 Claude 或 ChatGPT 输出链接非常难**，因为它们不想让用户离开自己的环境。这说得通，但结果是「这是互联网上某处的五份工作，没有链接」——糟糕的用户体验。他们花了「荒谬的小时数」跑 evals（评估测试）才让 Claude 稳定地带链接。有了 MCP Apps 和 apps SDK，这些就能自己控制了：申请按钮、置顶要突出的内容、点「查看详情」弹出职位信息的弹窗，用户不用离开聊天环境，对双方都是双赢 [02:02 Dustin Mahalik]。\n\n## 铁律一：给用户看的，也要给模型看\n\n最朴素的接法是：继续调用现有 API 加载数据，把界面塞进聊天框。这会让 UI 变成模型的黑盒——模型调用了一个工具，工具展示了些东西，但**模型完全不知道展示的是什么**。用户追问「讲讲第一个结果」或「给这些公司排名」时，模型一脸懵 [03:32 Dustin Mahalik]。\n\n所以第一条规则：**任何展示给用户的内容，也必须作为数据提供给模型**。他见过不少 MCP Apps 只是往页面注入 HTML 再调 API，结果就是给模型造了个大黑盒。具体做法靠 MCP 规范里的结构化内容（structured content，做纯文本 MCP 时本来就会返回的那部分）加资源 URI（指向 HTML 所在位置），两者都要返回、且必须保持同步——API 加了新字段，给模型的数据也要跟着加 [04:08 Dustin Mahalik]。\n\n## 铁律二：用户的每次交互，也要告诉模型\n\n做到第一条还不够。模型拿到了数据，但仍会像平时那样用文字把内容复述一遍，和你的 UI 重复。解法是更新工具描述，开头写一句「结果已作为 UI 组件自动展示给用户」——就这么简单一句，就能覆盖相当多的情况，让模型只给个简短摘要，而不是整套文字版展示。当然，UI 里显示什么、模型显示什么之间总有点拉锯，只能靠描述去引导 [05:30 Dustin Mahalik]。\n\n紧接着的坑是可交互部件：用户点了「查看详情」弹出大段职位描述，或者从返回的 10 个职位里点了某一个——模型照样不知道你在看什么，「给这个职位写封求职信」这种请求就无从下手 [06:25 Dustin Mahalik]。\n\n解法是 MCP Apps 规范里的 update model context 方法：把用户交互信息以字符串形式传给模型。它只支持单个字符串，要追踪多个事件就得往里追加。官方文档的购物车例子就是这么做：把总价和所有商品写进去，用户才能问「我购物车里有什么」[07:25 Dustin Mahalik]。\n\n## 铁律三（优先级最高）：数据处理与 UI 渲染分离\n\n做到前两条，模型「看得见」了，但还有个致命问题。他举了个硬核搜索的例子：找某职位、愿搬去多个城市、只看薪资最高的、排除某些行业——这类任务文本版 MCP 表现极好，Claude 会做十几次搜索、过滤、汇总成一张漂亮的表格。但一旦声明「结果会显示在 UI 里」，Claude 就只调用一次工具，心想「结果已经展示了」，不再深挖——用户不想要 10 个轮播组件，Claude 也注意到已经展示过，就不肯再调了 [08:33 Dustin Mahalik]。\n\n所以规则三，**优先于其他所有规则**：把数据处理和 UI 渲染分开（这个措辞他直接从 OpenAI Apps SDK 文档里「偷」来的）。具体做法：职位搜索做成纯文本 MCP，Claude 想调多少次调多少次；另做一个渲染工具（render jobs widget），接受一列职位 ID。Claude 可以搜出 100 个职位、过滤到 5 个，再只把这 5 个交给渲染。工具描述里写明「必须始终先调用搜索工具之一拿到数据再渲染」即可 [10:06 Dustin Mahalik]。\n\n这套「探索数据 → 选择渲染」的拆分思路几乎能套进任何行业：电商的应用场景、地图（先找出五个地址再传入渲染）等等 [12:25 Dustin Mahalik]。\n\n## 渲染工具还能让模型发挥创造力\n\n文本版交互里模型常会说「我选这个是因为……」，这可以搬进 UI：给渲染工具加个参数，让模型传入 ID 外加一个「为什么这是好匹配」的理由，或者让它高亮职位描述里最值得看的一段。渲染工具设计得越有想象力，模型能注入的个性就越多，用户体验就越好 [12:41 Dustin Mahalik]。\n\n## 总原则：数据先行，UI 是副作用\n\n关键要点听起来和直觉相反：构建 MCP Apps 时，**先想数据、再想 UI**。不是「我怎么把 UI 塞进 ChatGPT」，而是「我想给模型什么数据、想让它能对这些数据做什么」——渲染只是模型探索数据的副产品 [13:34 Dustin Mahalik]。\n\n工具设计上走「小而可组合」路线：两三种搜索方式就做两三个搜索工具，渲染工具也可以拆成一个渲染职位列表、一个高亮单个职位。描述保持简单以免模型过载，但给了模型自由探索、自由组合的灵活性 [14:15 Dustin Mahalik]。\n\n## 本集带走\n\n- **别只调老 API 塞 UI**：模型看不到你的界面就是黑盒，追问必翻车。展示给用户的每个数据，都要同步给模型（结构化内容 + 资源 URI，且保持同步）。\n- **用工具描述划清分工**：写明「结果已作为 UI 自动展示」，模型就不会再用文字复述一遍。\n- **交互状态也要上报**：用户点了哪条、弹窗里是什么，用 update model context 传给模型——它只收一个字符串，多事件靠追加。\n- **数据和渲染必须拆开**：搜索工具纯文本、随便多调；渲染工具只收 ID。否则模型调一次就收工，不再深挖。\n- **先数据后 UI**：想清楚给模型什么数据、让它能做什么，渲染是探索的副产品。\n- **小工具 + 简单描述**：多个窄搜索工具配一两个渲染工具，给模型组合自由，又不让它过载。\n- **让渲染工具有个性**：让模型传入推荐理由或高亮段落，UI 体验立刻上一档。",
+  "quotes": [
+    {
+      "en": "you'd actually be surprised, unless you've tried to do this yourself, that it's really hard to get Claude or ChatGPT to link to things, because they don't want you to leave their environment.",
+      "zh": "除非你自己试过，否则你会惊讶：要让 Claude 或 ChatGPT 输出链接真的很难，因为它们不想让你离开它们的环境。",
+      "timestamp": "02:02",
+      "speaker": "Dustin Mihalik"
+    },
+    {
+      "en": "anything that you show to the user also needs to be provided as data to the model.",
+      "zh": "任何你展示给用户的东西，也需要作为数据提供给模型。",
+      "timestamp": "04:13",
+      "speaker": "Dustin Mihalik"
+    },
+    {
+      "en": "I don't give Claude my easy problems to solve. I give Claude my really hard problems to solve.",
+      "zh": "我不会把简单的问题丢给 Claude 去解决，我把真正难的问题丢给 Claude 去解决。",
+      "timestamp": "08:26",
+      "speaker": "Dustin Mihalik"
+    },
+    {
+      "en": "you want to focus on the data before you focus on the UI",
+      "zh": "你要在关注 UI 之前先关注数据",
+      "timestamp": "13:39",
+      "speaker": "Dustin Mihalik"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:02",
+      "speaker": "Dustin Mahalik",
+      "en": "you'd actually be surprised, unless you've tried to do this yourself, that it's really hard to get Claude or ChatGPT to link to things, because they don't want you to leave their environment.",
+      "zh": "除非你自己试过，否则你会惊讶：要让 Claude 或 ChatGPT 输出链接真的很难，因为它们不想让你离开它们的环境。"
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "Dustin Mahalik",
+      "en": "anything that you show to the user also needs to be provided as data to the model.",
+      "zh": "任何你展示给用户的东西，也需要作为数据提供给模型。"
+    },
+    {
+      "timestamp": "08:33",
+      "speaker": "Dustin Mahalik",
+      "en": "I don't give Claude my easy problems to solve. I give Claude my really hard problems to solve.",
+      "zh": "我不会把简单的问题丢给 Claude 去解决，我把真正难的问题丢给 Claude 去解决。"
+    },
+    {
+      "timestamp": "10:06",
+      "speaker": "Dustin Mahalik",
+      "en": "you want to separate your data processing from your UI rendering.",
+      "zh": "你要把你的数据处理和你的 UI 渲染分离开来。"
+    },
+    {
+      "timestamp": "09:45",
+      "speaker": "Dustin Mahalik",
+      "en": "Claude will call it once, and then it'll be like, oh, I guess the results are already displayed.",
+      "zh": "Claude 只会调用一次，然后它就会想，哦，我猜结果已经显示了。"
+    },
+    {
+      "timestamp": "13:34",
+      "speaker": "Dustin Mahalik",
+      "en": "you want to focus on the data before you focus on the UI",
+      "zh": "你要在关注 UI 之前先关注数据"
+    },
+    {
+      "timestamp": "13:59",
+      "speaker": "Dustin Mahalik",
+      "en": "rendering is a side effect of that, or it's a result of the model exploring the data.",
+      "zh": "渲染只是它的一个副作用，或者是模型探索数据的一个结果。"
+    },
+    {
+      "timestamp": "12:41",
+      "speaker": "Dustin Mahalik",
+      "en": "you can get really creative with your render tools to be able to give some extra character that the model can inject into those",
+      "zh": "你可以让你的渲染工具变得非常有创造力，给模型提供一些可以注入其中的额外个性"
+    },
+    {
+      "timestamp": "14:42",
+      "speaker": "Dustin Mahalik",
+      "en": "The descriptions can be fairly simple so you don't overload the model, but it gives the model flexibility about how it wants to explore the data and how it wants to render the tools.",
+      "zh": "描述可以相当简单，这样就不会让模型过载，但它给了模型灵活性，让它按自己想的方式去探索数据、去渲染工具。"
+    },
+    {
+      "timestamp": "03:26",
+      "speaker": "Dustin Mahalik",
+      "en": "it's not quite just as easy as dragging and dropping into a chat interface.",
+      "zh": "它并不像拖拽进一个聊天界面那么简单。"
+    }
+  ],
+  "voice_script": "今天要聊的是Indeed的故事。Indeed是全球排名第一的求职网站，做AI平台的工程师Dustin Mahalik，最近分享了一个很实战的话题：怎么把自家网站装进ChatGPT或者Claude的聊天窗口里。\n\n这事儿现在很多人都在琢磨。因为ChatGPT、Claude这些聊天助手，已经成了很多人获取信息的第一入口。如果能把自己网站的服务以应用的形式嵌进去，用户在聊天里就能搜职位、投简历，那流量入口就完全不一样了。这个规范叫MCP Apps，说白了就是让第三方应用以界面组件的形式，嵌进聊天界面里。听起来像拖拽一下就完事，但Indeed的团队在为Claude、ChatGPT，还有自家求职智能体CareerScout做这件事的时候，踩了一堆坑，最后总结出几条铁律。今天就把这条线给你讲清楚。\n\n先说最直观的坑。最基本的文本版MCP调用，效果其实不差。你搜\"Austin的咖啡师\"，Claude能给出像样的职位列表。但问题很明显：没有Indeed的品牌，没有申请按钮，没有详情页，Claude只是干巴巴地说一句\"这些是Austin的一些工作\"。\n\n更反直觉的是，想让Claude或ChatGPT输出一个链接，非常难。因为平台不想让用户离开自己的环境。这道理说得通，但结果就是\"这是互联网上某处的五份工作，没有链接\"，用户体验很糟糕。Indeed的团队花了荒谬的小时数跑评估测试，才让Claude稳定地带着链接。而有了MCP Apps，这些就归你自己控制了：申请按钮、置顶要突出的内容、点\"查看详情\"弹出职位信息的弹窗，用户不用离开聊天环境，对双方都是双赢。\n\n那是不是把界面塞进聊天框就完事了？这就是第一个大坑。最朴素的接法是：继续调用现有API加载数据，把界面直接展示出来。但这样一来，界面就成了模型的黑盒——模型调用了一个工具，工具展示了些东西，可模型完全不知道展示的到底是什么。用户追问一句\"讲讲第一个结果\"，或者\"给这些公司排个名\"，模型当场就懵了。\n\n所以第一条铁律是：任何展示给用户的内容，也必须作为数据提供给模型。Dustin见过不少MCP Apps只是往页面注入HTML再调API，结果就是给模型造了个大黑盒。具体做法靠两个东西：一个是MCP规范里的结构化内容——做纯文本MCP时本来就会返回的那部分数据；另一个是资源URI，指向HTML所在的位置。两者都要返回，而且必须保持同步——API加了新字段，给模型的数据也得跟着加。\n\n做到这一步，模型看得见数据了，但新的问题又来了：模型还是习惯用文字把内容复述一遍，跟你的界面重复。解法简单得出奇——更新工具描述，开头加一句\"结果已作为UI组件自动展示给用户\"。就这么一句话，就能覆盖相当多的情况，让模型只给个简短摘要，而不是再输出一整套文字版。当然，界面里显示什么、模型显示什么之间总有点拉锯，只能靠描述去慢慢引导。\n\n紧接着还有一个隐蔽的坑：用户的交互。用户点了\"查看详情\"，弹出大段职位描述，或者从返回的十个职位里点了某一个——这些动作，模型照样不知道。\"给这个职位写封求职信\"这种请求，就无从下手了。解法是MCP Apps规范里一个叫update model context的方法，把用户的交互信息以字符串形式传给模型。注意它只支持单个字符串，要追踪多个事件就得往里追加。官方文档的购物车例子就是这么做的：把总价和所有商品都写进去，用户才能问出\"我购物车里有什么\"。\n\n那做到这儿是不是就齐活了？还不行，这里藏着最致命的一个问题，也就引出了优先级最高的第三条铁律。Dustin举了个硬核搜索的例子：找某个职位，愿意搬去多个城市，只看薪资最高的，还要排除某些行业。这种任务，文本版MCP表现极好，Claude会做十几次搜索、过滤，最后汇总成一张漂亮的表格。可你一旦声明\"结果会显示在界面里\"，Claude就只调用一次工具，心想\"结果已经展示了\"，不再深挖。用户不想要十个轮播组件，Claude也注意到已经展示过了，就不肯再调了。\n\n所以规则三是：把数据处理和UI渲染分开——这个措辞Dustin直接是从OpenAI Apps SDK文档里\"偷\"来的。具体做法是，职位搜索做成纯文本MCP，Claude想调多少次就调多少次；另外做一个渲染工具，接受一列职位ID。这样Claude可以搜出一百个职位、过滤到五个，再只把这五个交给渲染。工具描述里写明\"必须始终先调用搜索工具拿到数据再渲染\"，就够了。\n\n这套\"探索数据、再选择渲染\"的拆分思路，几乎能套进任何行业——电商的应用场景、地图也行，先找出五个地址再传进去渲染。\n\n更有意思的是，渲染工具还能让模型发挥创造力。文本交互里模型常说\"我选这个是因为……\"，这完全可以搬进界面里：给渲染工具加个参数，让模型传入职位ID，外加一个\"为什么这是好匹配\"的理由，或者让它高亮职位描述里最值得看的一段。渲染工具设计得越有想象力，模型能注入的个性就越多，用户体验就越好。\n\n把这几条串起来，整个思路可以归结成一句总原则：构建MCP Apps的时候，先想数据，再想UI。不是问\"我怎么把界面塞进ChatGPT\"，而是问\"我想给模型什么数据、想让它能对这些数据做什么\"——渲染只是模型探索数据的副产品。工具设计上走小而可组合的路线：两三种搜索方式就做两三个搜索工具，渲染工具也可以拆成一个渲染列表、一个高亮单个职位。描述保持简单，免得模型过载，但又给了模型自由探索、自由组合的灵活性。\n\n如果这期你只能记住一句话，就记住这条：在做聊天里的应用时，要在关注UI之前，先关注数据——给对了数据，界面自然就立起来了。"
+}

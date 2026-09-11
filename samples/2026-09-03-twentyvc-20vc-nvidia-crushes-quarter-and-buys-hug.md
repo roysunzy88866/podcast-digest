@@ -177,9 +177,9 @@ Stripe 收购 PayPal 告吹，众人判断只是价格之舞：传言一方出�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Anthropic、Hugging Face、NVIDIA、OpenAI、Cognition、Cursor · 同概念:开源模型 (open source)、智能体 (agent)</span>
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"]]<span class="pd-rz">同公司:Anthropic、Hugging Face、NVIDIA、OpenAI、Cursor · 同概念:智能体 (agent)</span>
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同公司:Anthropic、Hugging Face、NVIDIA、OpenAI · 同概念:开源模型 (open source)</span>
-- [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、Cursor · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

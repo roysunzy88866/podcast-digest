@@ -6,16 +6,17 @@ source_url: undefined
 duration: "59:48"
 type: episode
 cover: "#64748b"
+image: "/covers/2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2.jpg"
 description: "Saronic 三位高管详解自主无人艇如何回应中国 230:1 的造船差距：软件定义造船、软硬协同设计、采办改革与再工业化的人才路径。"
 companies: ["[[Saronic]]"]
-concepts: ["[[Port Alpha]]", "[[造船差距]]", "[[自主化]]", "[[采购改革]]", "[[软硬协同设计]]", "[[AI 工具]]"]
+concepts: ["[[Port Alpha]]", "[[造船差距]]", "[[自主性]]", "[[采购改革]]", "[[软硬协同设计]]", "[[AI 工具]]"]
 category: 创业与行业
 tags:
   - 创业与行业
   - 组织与领导力
-socialImage: "https://talk.solomind.cc/index-og-image.webp"
+socialImage: "https://talk.solomind.cc/covers/2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2#post","headline":"Saronic：用无人船重建美国造船业","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2","mainEntityOfPage":"https://talk.solomind.cc/2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2","description":"Saronic 三位高管详解自主无人艇如何回应中国 230:1 的造船差距：软件定义造船、软硬协同设计、采办改革与再工业化的人才路径。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Organization","name":"Saronic"},{"@type":"Thing","name":"Port Alpha"},{"@type":"Thing","name":"造船差距 (shipbuilding)"},{"@type":"Thing","name":"自主化 (autonomy)"},{"@type":"Thing","name":"采购改革 (acquisition reform)"},{"@type":"Thing","name":"软硬协同设计 (co-design)"},{"@type":"Thing","name":"AI 工具 (AI tooling)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Saronic：用无人船重建美国造船业","item":"https://talk.solomind.cc/2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2#post","headline":"Saronic：用无人船重建美国造船业","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2","mainEntityOfPage":"https://talk.solomind.cc/2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2","description":"Saronic 三位高管详解自主无人艇如何回应中国 230:1 的造船差距：软件定义造船、软硬协同设计、采办改革与再工业化的人才路径。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2.jpg","about":[{"@type":"Organization","name":"Saronic"},{"@type":"Thing","name":"Port Alpha"},{"@type":"Thing","name":"造船差距 (shipbuilding)"},{"@type":"Thing","name":"自主性 (autonomy)"},{"@type":"Thing","name":"采购改革 (acquisition reform)"},{"@type":"Thing","name":"软硬协同设计 (co-design)"},{"@type":"Thing","name":"AI 工具 (AI tooling)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Saronic：用无人船重建美国造船业","item":"https://talk.solomind.cc/2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Saronic：用无人船重建美国造船业</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -31,7 +32,7 @@ jsonLd: |
 > [!info] 关联
 > **公司** [[Saronic]]
 >
-> **概念** [[Port Alpha]] · [[造船差距]] · [[自主化]] · [[采购改革]] · [[软硬协同设计]] · [[AI 工具]]
+> **概念** [[Port Alpha]] · [[造船差距]] · [[自主性]] · [[采购改革]] · [[软硬协同设计]] · [[AI 工具]]
 
 中国造船量是美国的 230 倍，而一家成立才四年的公司想用无人自主艇改写这件事。这家公司叫 [[Saronic|Saronic]]，做自主水面舰艇，估值 92.5 亿美元、累计融资 26 亿美元，刚宣布了 30 亿美元的巨型船厂计划 [[Port Alpha|Port Alpha]]。这一集是节目组对 Saronic 的系列走访，三位高管依次出场：首席法务官 Doug（海事科技行业干了近二十年）、首席商务官 Rob（海军陆战队老兵，服役 22 年）、CTO Vib（曾在 Anderil 做过 Sentry Tower，2017 年还短暂实习过后来倒闭的 Juicero）。
 
@@ -41,7 +42,7 @@ jsonLd: |
 
 美国海军现有约 290 艘舰船，还在萎缩——2018 年国会定的法定最低线是 355 艘，2024 年海军自己说需要 381 艘。海军的 30 年造船计划要在 30 年内补上这个缺口，预算约 1.2 万亿美元。
 
-而一艘航母的造价，Doug 引用 130 亿美元，总统上周在同一类活动上引用的已是 190 亿美元。今天的国防预算约一万亿美元，只有 1% 投向[[自主化|自主化]]。
+而一艘航母的造价，Doug 引用 130 亿美元，总统上周在同一类活动上引用的已是 190 亿美元。今天的国防预算约一万亿美元，只有 1% 投向[[自主性|自主化]]。
 
 为什么商用船的差距最要命？Rob 和 Doug 的逻辑是：历史上一再证明，决定海军力量的不是谁的船最精致最贵，而是谁能造得最多。
 
@@ -114,6 +115,27 @@ Rob 讲了[[采购改革|采购改革]]。他的核心主张：采购上真正�
 > <span class="qz">令人惊讶的是，互联网有多少是基于少数几个开源代码库——它们由优秀的工程师创造，并不是为了赚一大笔钱，而真的只是为了推动技术向前发展。</span>  
 > *It's surprising how much of the internet is based off of a handful of open source repositories that great engineers have created and not for seeking a bunch of money on the other side, but really just for pushing the needle of technology forward.*  
 > <span class="qm">—— 嘉宾 · [58:33]</span> ^q8
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]]<span class="pd-rz">同概念:自主化 (autonomy)</span>
+- [[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」]]<span class="pd-rz">同概念:自主化 (autonomy)</span>
+- [[2026-07-23-a16z-building-the-physical-ai-stack-travis-ka|Travis Kalanick：为什么把下一家公司赌在工业AI]]<span class="pd-rz">同概念:自主化 (autonomy)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同概念:自主化 (autonomy)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

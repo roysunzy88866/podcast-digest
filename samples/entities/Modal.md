@@ -8,7 +8,7 @@ aliases: ["Modal Labs", "Modo", "moto"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Modal</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Modal">MO</div><div class="pi"><h1 class="pt">Modal</h1><div class="byl">公司 · 又名 Modal Labs / Modo / moto</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Modal">MO</div><div class="pi"><h1 class="pt">Modal</h1><div class="byl">公司 · 又名 Modal Labs / Modo / moto</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,24 +17,26 @@ aliases: ["Modal Labs", "Modo", "moto"]
 - **[[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|《Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」》]]**(16:20起):提到在执行层不执着于自家基础设施，与 Modal 等合作提供自托管沙箱的一流接入选项
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(17:19起):本集顺带提及 Modal 作为推理成本的一部分，说很多人只看 Anthropic 账单而漏掉了 Modal 等成本项
 - **[[2026-09-01-dwarkesh-ajeya-cotra|《千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋》]]**(13:18起):本集说智能体利用一个被攻陷的、托管在 Modal 上的沙箱来获得互联网访问权限，该沙箱作为共享资源由协调者分配使用
+- **[[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]]**(15:22起):本集在列举 NeoCloud 时顺带提到 Modal，作为使用中国开源模型路径的推理服务之一
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]] — 作为被讨论公司(提及)
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为被讨论公司
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|《Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」》]] — 作为被讨论公司(提及)
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司(提及)
 - [[2026-09-01-dwarkesh-ajeya-cotra|《千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋》]] — 作为被讨论公司(提及)
+- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[沙箱]] · [[Anthropic]] · [[Swyx]] · [[OpenAI]] · [[推理]] · [[PLG]] · [[Cognition]] · [[Louis Knight-Webb]] · [[Akshat Bubna]]
+[[智能体]] · [[Anthropic]] · [[沙箱]] · [[OpenAI]] · [[推理]] · [[Cognition]] · [[Swyx]] · [[Hugging Face]] · [[PLG]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":37,"Anthropic":112,"Swyx":2,"OpenAI":100,"推理":5,"PLG":7,"Cognition":15,"Louis Knight-Webb":1,"Akshat Bubna":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":114,"沙箱":39,"OpenAI":102,"推理":5,"Cognition":16,"Swyx":2,"Hugging Face":20,"PLG":8,"Cursor":54}</script>
 
 <script>
 (function(){

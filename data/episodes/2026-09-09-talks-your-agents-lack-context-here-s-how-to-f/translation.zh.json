@@ -1,0 +1,1258 @@
+[
+ {
+  "seg": 0,
+  "start": 12.477,
+  "end": 13.038,
+  "speaker": "Unknown",
+  "en": "Good afternoon.",
+  "zh": "下午好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.058,
+  "end": 16.186,
+  "speaker": "Unknown",
+  "en": "I hope you're all having a lovely day here at AIE.",
+  "zh": "希望大家在 AIE 现场都度过了美好的一天。"
+ },
+ {
+  "seg": 2,
+  "start": 16.969,
+  "end": 21.973,
+  "speaker": "Unknown",
+  "en": "We've had great weather, though the UV's been like nine, so hopefully you put your sunscreen on, you're being appropriate adults.",
+  "zh": "天气一直很好,不过紫外线指数大概到了九,所以希望大家涂了防晒霜,表现得像个负责任的成年人。"
+ },
+ {
+  "seg": 3,
+  "start": 22.834,
+  "end": 38.868,
+  "speaker": "Unknown",
+  "en": "I'm here to talk to you about context engineering, and I have the good fortune of following AJ from LinkedIn, because he talked a lot about the system that we actually design and sell to other solutions, and I'm gonna give you a bunch of open source tools, so if you watched that last talk just before me, you're gonna get a bunch of tool chains so you can go mess around yourself, and I'll teach you a bunch of techniques today.",
+  "zh": "我今天要跟大家聊聊上下文工程,我有幸排在 LinkedIn 的 AJ 之后演讲,因为他讲了很多我们实际设计并销售给其他解决方案的系统,而我会给你们一堆开源工具,所以如果你听了我之前那场演讲,你会拿到一堆工具链,可以自己去折腾,今天我还会教你们一堆技巧。"
+ },
+ {
+  "seg": 4,
+  "start": 39.449,
+  "end": 42.291,
+  "speaker": "Unknown",
+  "en": "The goal, of course, is to fix, you're absolutely right.",
+  "zh": "当然,目标是修好——你说得完全对。"
+ },
+ {
+  "seg": 5,
+  "start": 43.092,
+  "end": 47.933,
+  "speaker": "Unknown",
+  "en": "I think they've taken that out of the prompts now, so it just says you're right or other things, but I'm sure you've all been there.",
+  "zh": "我想他们现在已经把那个从提示词里去掉了,所以现在只说“你说得对”之类的话,但我相信大家都经历过这种情况。"
+ },
+ {
+  "seg": 6,
+  "start": 49.393,
+  "end": 49.994,
+  "speaker": "Unknown",
+  "en": "So I'm Brandon.",
+  "zh": "我是 Brandon。"
+ },
+ {
+  "seg": 7,
+  "start": 50.614,
+  "end": 51.334,
+  "speaker": "Unknown",
+  "en": "I work at Unblocked.",
+  "zh": "我在 Unblocked 工作。"
+ },
+ {
+  "seg": 8,
+  "start": 52.154,
+  "end": 53.014,
+  "speaker": "Unknown",
+  "en": "Yes, I have a coconut.",
+  "zh": "是的,我手里有一个椰子。"
+ },
+ {
+  "seg": 9,
+  "start": 53.254,
+  "end": 56.455,
+  "speaker": "Unknown",
+  "en": "We've been giving these away for fresh context, fresh coconuts.",
+  "zh": "我们一直在送这些,为了新鲜上下文,新鲜椰子。"
+ },
+ {
+  "seg": 10,
+  "start": 57.355,
+  "end": 67.038,
+  "speaker": "Unknown",
+  "en": "But the thing that I want to talk to you about is with these models, especially with mythoclass models, I think Fable 5's coming back today, so they say, you can watch my grain call recording, try to book this.",
+  "zh": "但我想跟你们聊的是,有了这些模型,尤其是 with mythoclass models,我想 Fable 5 今天要回归了,所以他们说,你可以看我的 grain call 录音,试着预订这个。"
+ },
+ {
+  "seg": 11,
+  "start": 67.998,
+  "end": 68.498,
+  "speaker": "Unknown",
+  "en": "We'll ignore it.",
+  "zh": "我们会忽略它。"
+ },
+ {
+  "seg": 12,
+  "start": 69.505,
+  "end": 78.07,
+  "speaker": "Unknown",
+  "en": "Well, what I want you to do is to think about the fact that with these tools, AI-generated code should feel like it was written by someone who's been on your team for years.",
+  "zh": "好吧,我想让你们思考的是,有了这些工具,AI 生成的代码应该让人感觉是那种已经在你团队待了多年的人写出来的。"
+ },
+ {
+  "seg": 13,
+  "start": 81.512,
+  "end": 86.235,
+  "speaker": "Unknown",
+  "en": "So to get in the right headspace, for years you have to consider that you have been the context engine.",
+  "zh": "所以要进入正确的思维状态——待了多年,你必须意识到,你一直是那个上下文引擎。"
+ },
+ {
+  "seg": 14,
+  "start": 87.256,
+  "end": 87.956,
+  "speaker": "Unknown",
+  "en": "How did you do that?",
+  "zh": "你是怎么做到的?"
+ },
+ {
+  "seg": 15,
+  "start": 89.577,
+  "end": 93.16,
+  "speaker": "Unknown",
+  "en": "You built context by going to work and asking questions,",
+  "zh": "你通过去上班、问问题来构建上下文,"
+ },
+ {
+  "seg": 16,
+  "start": 94.273,
+  "end": 100.054,
+  "speaker": "Unknown",
+  "en": "Shipping PRs and getting them rejected, going to meetings, and all this slowly over time built up the engine that is your brain.",
+  "zh": "提交 PR 然后被拒绝,去开会,这一切随着时间慢慢累积,构建出了你的大脑这个引擎。"
+ },
+ {
+  "seg": 17,
+  "start": 100.854,
+  "end": 102.014,
+  "speaker": "Unknown",
+  "en": "You understand how it works here.",
+  "zh": "你理解这里是如何运作的。"
+ },
+ {
+  "seg": 18,
+  "start": 102.214,
+  "end": 103.275,
+  "speaker": "Unknown",
+  "en": "You know how stuff gets shipped.",
+  "zh": "你知道东西是怎么发布出去的。"
+ },
+ {
+  "seg": 19,
+  "start": 103.735,
+  "end": 107.695,
+  "speaker": "Unknown",
+  "en": "You were on call that night when you took prod down and why that happened.",
+  "zh": "你还记得那天晚上你值班把生产环境搞挂了,以及那是怎么发生的。"
+ },
+ {
+  "seg": 20,
+  "start": 108.636,
+  "end": 112.456,
+  "speaker": "Unknown",
+  "en": "The problem is that these agents have this exact same problem.",
+  "zh": "问题是,这些智能体面临着完全相同的问题。"
+ },
+ {
+  "seg": 21,
+  "start": 112.976,
+  "end": 119.338,
+  "speaker": "Unknown",
+  "en": "Every time you create a new terminal session with an agent in it, it's very intelligent, but it doesn't have any context on how your company operates.",
+  "zh": "每次你创建一个带有智能体的新终端会话,它非常聪明,但它对你公司如何运作没有任何上下文。"
+ },
+ {
+  "seg": 22,
+  "start": 119.958,
+  "end": 121.138,
+  "speaker": "Unknown",
+  "en": "So it needs to get that somehow.",
+  "zh": "所以它需要以某种方式获取这些。"
+ },
+ {
+  "seg": 23,
+  "start": 122.192,
+  "end": 129.116,
+  "speaker": "Unknown",
+  "en": "The problem is as you move these agents up in scale, that cost compounds if you get it incorrect at the beginning.",
+  "zh": "问题在于,当你把这些智能体的规模往上扩时,如果一开始就搞错了,那个成本会不断复利累积。"
+ },
+ {
+  "seg": 24,
+  "start": 129.617,
+  "end": 131.738,
+  "speaker": "Unknown",
+  "en": "They'll leverage off context and content.",
+  "zh": "它们会依赖上下文和内容。"
+ },
+ {
+  "seg": 25,
+  "start": 131.758,
+  "end": 135.44,
+  "speaker": "Unknown",
+  "en": "We're just gonna fix this because I think people want to take some photos.",
+  "zh": "我们把这个修一下,因为我想有人想拍点照片。"
+ },
+ {
+  "seg": 26,
+  "start": 137.782,
+  "end": 138.162,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "完美。"
+ },
+ {
+  "seg": 27,
+  "start": 139.357,
+  "end": 140.998,
+  "speaker": "Unknown",
+  "en": "That context issue will compound.",
+  "zh": "那个上下文问题会不断复利累积。"
+ },
+ {
+  "seg": 28,
+  "start": 141.519,
+  "end": 148.263,
+  "speaker": "Unknown",
+  "en": "So at the far left, we all remember the age-old time of two years ago where we had tab-complete models that were pretty cool.",
+  "zh": "在最左边,我们都记得两年前那段古老时光,那时我们有了相当酷的 tab 补全模型。"
+ },
+ {
+  "seg": 29,
+  "start": 148.864,
+  "end": 151.205,
+  "speaker": "Unknown",
+  "en": "What happened is it popped up and said, hey, do you want to tab this?",
+  "zh": "发生的事情是,它弹出来问,嘿,你想 tab 这个吗?"
+ },
+ {
+  "seg": 30,
+  "start": 151.266,
+  "end": 153.907,
+  "speaker": "Unknown",
+  "en": "And quickly in your head, with your context, and you go, no, that's bad.",
+  "zh": "你脑子里带着你的上下文快速判断,然后说,不,这不行。"
+ },
+ {
+  "seg": 31,
+  "start": 154.388,
+  "end": 156.429,
+  "speaker": "Unknown",
+  "en": "Or you went, oh, sweet, you hit tab, nice.",
+  "zh": "或者你说,哦,不错,你按下 tab,挺好。"
+ },
+ {
+  "seg": 32,
+  "start": 157.07,
+  "end": 168.138,
+  "speaker": "Unknown",
+  "en": "As we move along the agentic kind of adoption curve, what happens is you are moving into more situations in which you have agents running without a human in the loop, or at least you wish you didn't have to be in the loop.",
+  "zh": "随着我们沿着智能体式采用曲线往前走,你会越来越多地进入这样的情形:智能体在没有人在环的情况下运行,或者至少你希望自己不必在环里。"
+ },
+ {
+  "seg": 33,
+  "start": 168.958,
+  "end": 188.878,
+  "speaker": "Unknown",
+  "en": "What they need is some way to be able to ask the questions they need when they hit walls in order to write code or solve or basically fix the issue and ultimately output code that's mergeable into your code base, especially with many people here who actually work in brownfield code bases that have been around for a long time that run real revenue across them, not just greenfield fund projects.",
+  "zh": "它们需要的是某种方式,在撞墙的时候能够提出它们需要的问题,以便编写代码或解决、基本上修复问题,并最终输出可以合并进你代码库的代码,尤其是这里有很多人实际工作在那种存在了很久、承载着真实营收的老旧(brownfield)代码库里,而不只是绿地试验项目。"
+ },
+ {
+  "seg": 34,
+  "start": 190.86,
+  "end": 194.102,
+  "speaker": "Unknown",
+  "en": "So that cost of bad context compounding at the beginning is cheap.",
+  "zh": "所以糟糕上下文在初期累积的成本是便宜的。"
+ },
+ {
+  "seg": 35,
+  "start": 194.322,
+  "end": 199.385,
+  "speaker": "Unknown",
+  "en": "If you think like shift left, finding a defect or a bug, you'll want to find it as early as possible.",
+  "zh": "如果你按“左移”的思路想,发现一个缺陷或 bug,你会想尽可能早地发现它。"
+ },
+ {
+  "seg": 36,
+  "start": 199.806,
+  "end": 201.066,
+  "speaker": "Unknown",
+  "en": "It's the same with context.",
+  "zh": "上下文也是一样。"
+ },
+ {
+  "seg": 37,
+  "start": 201.767,
+  "end": 203.748,
+  "speaker": "Unknown",
+  "en": "Because as you move across, you get into doom loops.",
+  "zh": "因为随着你往前走,你会进入厄运循环(doom loops)。"
+ },
+ {
+  "seg": 38,
+  "start": 204.208,
+  "end": 205.849,
+  "speaker": "Unknown",
+  "en": "You usually ask your agent to do something.",
+  "zh": "你通常让你的智能体做某件事。"
+ },
+ {
+  "seg": 39,
+  "start": 206.029,
+  "end": 206.95,
+  "speaker": "Unknown",
+  "en": "It's like, hey, I did it.",
+  "zh": "它说,嘿,我做完了。"
+ },
+ {
+  "seg": 40,
+  "start": 206.97,
+  "end": 208.011,
+  "speaker": "Unknown",
+  "en": "And you're like, no, man.",
+  "zh": "而你说,不,哥们。"
+ },
+ {
+  "seg": 41,
+  "start": 208.331,
+  "end": 209.852,
+  "speaker": "Unknown",
+  "en": "And then you correct and correct and correct.",
+  "zh": "然后你纠正、纠正、再纠正。"
+ },
+ {
+  "seg": 42,
+  "start": 210.312,
+  "end": 211.693,
+  "speaker": "Unknown",
+  "en": "That's wasted search tokens.",
+  "zh": "那是浪费的搜索 token。"
+ },
+ {
+  "seg": 43,
+  "start": 211.833,
+  "end": 213.494,
+  "speaker": "Unknown",
+  "en": "It's also wasted rework time.",
+  "zh": "也是浪费的返工时间。"
+ },
+ {
+  "seg": 44,
+  "start": 214.134,
+  "end": 217.657,
+  "speaker": "Unknown",
+  "en": "And that is not acceptable with the tokenomics we have coming.",
+  "zh": "而以我们即将迎来的 token 经济学来看,这是不可接受的。"
+ },
+ {
+  "seg": 45,
+  "start": 218.517,
+  "end": 221.521,
+  "speaker": "Unknown",
+  "en": "And then as you move into parallel agents, et cetera, you start hitting a review tax.",
+  "zh": "然后当你进入并行智能体等等阶段,你开始碰到审查税。"
+ },
+ {
+  "seg": 46,
+  "start": 222.062,
+  "end": 233.997,
+  "speaker": "Unknown",
+  "en": "So these AI code reviewers we're trying to use, but again, key context is important there so that those code reviews are able to basically understand how the operations of the business are so it knows the business logic and more.",
+  "zh": "我们正在尝试使用这些 AI 代码审查器,但同样,关键上下文在那里很重要,这样那些代码审查才能基本理解业务的运作方式,从而知道业务逻辑等等。"
+ },
+ {
+  "seg": 47,
+  "start": 234.903,
+  "end": 248.613,
+  "speaker": "Unknown",
+  "en": "And then finally, if your hope is to move all the way out of the loop, you're like background agents, get it done, make no mistakes, you really need to make sure that you have a context engine so those agents can query it and get all the answers they need so they can keep operating in an effective way.",
+  "zh": "最后,如果你的希望是完全走出这个环,你会说后台智能体,把它搞定,别犯错,那你真的需要确保你有一个上下文引擎,让那些智能体可以查询它并获得它们需要的所有答案,以便它们能持续以高效的方式运作。"
+ },
+ {
+  "seg": 48,
+  "start": 250.979,
+  "end": 253.261,
+  "speaker": "Unknown",
+  "en": "There are some common approaches that don't work.",
+  "zh": "有一些行不通的常见做法。"
+ },
+ {
+  "seg": 49,
+  "start": 253.642,
+  "end": 255.303,
+  "speaker": "Unknown",
+  "en": "They're basically like a local maxima.",
+  "zh": "它们基本上像是局部最优。"
+ },
+ {
+  "seg": 50,
+  "start": 256.064,
+  "end": 262.59,
+  "speaker": "Unknown",
+  "en": "Two of the ones we see the most with our hundreds of enterprise clients and mid-market sized businesses is the curated context trap.",
+  "zh": "从我们数百个企业客户和中型企业客户来看,最常见的问题之一就是「精选上下文陷阱」。"
+ },
+ {
+  "seg": 51,
+  "start": 263.17,
+  "end": 270.778,
+  "speaker": "Unknown",
+  "en": "If you've ever sat down and taken a virtual file system or maybe a local file system, you put some markdown files in it and you're like, here's all the context of this project, it's how it works.",
+  "zh": "如果你曾经坐下来,弄一个虚拟文件系统或者本地文件系统,往里面放一些 markdown 文件,然后说,这里就是这个项目的全部上下文,它就是这么运作的。"
+ },
+ {
+  "seg": 52,
+  "start": 271.318,
+  "end": 275.842,
+  "speaker": "Unknown",
+  "en": "You then allow your agent to grep over that and it gets a bunch of good data and then it will perform better.",
+  "zh": "然后你允许你的智能体在上面 grep,它会拿到一堆好数据,然后表现会更好。"
+ },
+ {
+  "seg": 53,
+  "start": 276.503,
+  "end": 281.607,
+  "speaker": "Unknown",
+  "en": "The issue is first now you have to distribute that so maybe throw it up in the GitHub and your team can grab it.",
+  "zh": "问题首先是现在你得分发它,也许扔到 GitHub 上让你的团队去拿。"
+ },
+ {
+  "seg": 54,
+  "start": 282.187,
+  "end": 294.636,
+  "speaker": "Unknown",
+  "en": "But then the next is that repo is gonna rot just like all the other docs you wrote down and then who at your org is the omnipotent one who has the taste to curate this file or repo for literally everyone in the org.",
+  "zh": "但接下来就是那个仓库会像你写过的所有其他文档一样腐化,而且你们组织里谁是那个无所不能的人,有品位为整个组织的每一个人去策划这个文件或仓库。"
+ },
+ {
+  "seg": 55,
+  "start": 295.116,
+  "end": 296.297,
+  "speaker": "Unknown",
+  "en": "So you start to hit these issues.",
+  "zh": "所以你开始碰到这些问题。"
+ },
+ {
+  "seg": 56,
+  "start": 297.178,
+  "end": 298.659,
+  "speaker": "Unknown",
+  "en": "The next is the MCP plateau.",
+  "zh": "下一个是 MCP 平台期。"
+ },
+ {
+  "seg": 57,
+  "start": 299.67,
+  "end": 301.03,
+  "speaker": "Unknown",
+  "en": "This one is pretty clear.",
+  "zh": "这个很清楚。"
+ },
+ {
+  "seg": 58,
+  "start": 301.45,
+  "end": 302.29,
+  "speaker": "Unknown",
+  "en": "We have MCPs.",
+  "zh": "我们有 MCP。"
+ },
+ {
+  "seg": 59,
+  "start": 302.49,
+  "end": 303.031,
+  "speaker": "Unknown",
+  "en": "They're great.",
+  "zh": "它们很棒。"
+ },
+ {
+  "seg": 60,
+  "start": 303.311,
+  "end": 307.271,
+  "speaker": "Unknown",
+  "en": "You can give it to your agent, and now it can basically get information from another source system.",
+  "zh": "你可以把它给你的智能体,现在它基本上可以从另一个源系统获取信息。"
+ },
+ {
+  "seg": 61,
+  "start": 308.111,
+  "end": 315.933,
+  "speaker": "Unknown",
+  "en": "The problem is, of course, based on how you write the server description, the tool descriptions, your agent may never call it, even though it should have.",
+  "zh": "问题是,当然,取决于你怎么写服务描述、工具描述,你的智能体可能永远不会调用它,即便它本应调用。"
+ },
+ {
+  "seg": 62,
+  "start": 316.653,
+  "end": 320.194,
+  "speaker": "Unknown",
+  "en": "Or if it does, there's a known bias called the satisfaction of search bias.",
+  "zh": "或者如果它调用了,有一个已知的偏差叫「搜索满足偏差」。"
+ },
+ {
+  "seg": 63,
+  "start": 320.834,
+  "end": 327.635,
+  "speaker": "Unknown",
+  "en": "What that means is the agent, when it finds the first piece of information that it thinks is correct, it goes, oh, I have what I need, and it proceeds.",
+  "zh": "意思是,当智能体找到它认为正确的第一份信息时,它会说,哦,我有了我需要的东西,然后继续进行。"
+ },
+ {
+  "seg": 64,
+  "start": 328.555,
+  "end": 338.142,
+  "speaker": "Unknown",
+  "en": "In most organizations, there's a Slack conversation from last night that says you should be doing A instead of doing B, and the agent will never find it if it found some architecture record first.",
+  "zh": "在大多数组织中,会有一个昨晚的 Slack 对话说你应该做 A 而不是做 B,而如果智能体先找到了某份架构记录,它永远不会再发现那条信息。"
+ },
+ {
+  "seg": 65,
+  "start": 338.963,
+  "end": 341.185,
+  "speaker": "Unknown",
+  "en": "So it doesn't actually consider all of the context.",
+  "zh": "所以它实际上并没有考虑全部上下文。"
+ },
+ {
+  "seg": 66,
+  "start": 343.066,
+  "end": 346.549,
+  "speaker": "Unknown",
+  "en": "The problem here is access to information is not understanding.",
+  "zh": "这里的问题在于,获取信息不等于理解。"
+ },
+ {
+  "seg": 67,
+  "start": 347.229,
+  "end": 350.352,
+  "speaker": "Unknown",
+  "en": "So to deliver understanding to a model, you have to do other techniques.",
+  "zh": "所以要向模型交付理解,你必须用其他技术。"
+ },
+ {
+  "seg": 68,
+  "start": 352.452,
+  "end": 356.798,
+  "speaker": "Unknown",
+  "en": "What I'm basically trying to say is what your agent can't see is everything below the waterline.",
+  "zh": "我基本上想说的是,你的智能体看不到的是水面以下的一切。"
+ },
+ {
+  "seg": 69,
+  "start": 357.338,
+  "end": 370.696,
+  "speaker": "Unknown",
+  "en": "It can 100% get code that compiles, but that code that compiles is taking down prod and you have a P0 at 1 in the morning because it missed the fact that you have a certain rollout procedure, you're supposed to turn off a feature flag, whatever it might be.",
+  "zh": "它完全能拿到能编译的代码,但那段能编译的代码正在搞垮生产环境,你在凌晨一点有一个 P0,因为它漏掉了你有一个特定的发布流程,你应该关掉某个 feature flag,诸如此类。"
+ },
+ {
+  "seg": 70,
+  "start": 372.975,
+  "end": 378.937,
+  "speaker": "Unknown",
+  "en": "So your team needs a context engine because what it should do is understand who you are and where you work in an organization.",
+  "zh": "所以你的团队需要一个上下文引擎,因为它应该做的是理解你是谁、你在组织中在哪里工作。"
+ },
+ {
+  "seg": 71,
+  "start": 379.317,
+  "end": 393.52,
+  "speaker": "Unknown",
+  "en": "So if I say to you, I want to get auth stood up, it knows where I work, it knows where my git commits are, it knows who reviews those commits, and it understands that my context, it can focus me and then use that as a trigger point to find the rest of the information.",
+  "zh": "所以如果我对你说,我想把 auth 搭起来,它知道我在哪里工作,它知道我的 git 提交在哪里,它知道谁审查这些提交,它理解我的上下文,它可以聚焦我,然后把那作为触发点去找其余的信息。"
+ },
+ {
+  "seg": 72,
+  "start": 394.18,
+  "end": 399.622,
+  "speaker": "Unknown",
+  "en": "It resolves conflicts, as mentioned, an old architecture diagram and last night's Slack convo with the CTO.",
+  "zh": "它解决冲突,如前所述,一份旧的架构图和昨晚与 CTO 的 Slack 对话。"
+ },
+ {
+  "seg": 73,
+  "start": 400.302,
+  "end": 401.023,
+  "speaker": "Unknown",
+  "en": "Which one is right?",
+  "zh": "哪一个是对的?"
+ },
+ {
+  "seg": 74,
+  "start": 401.623,
+  "end": 404.466,
+  "speaker": "Unknown",
+  "en": "You need to use a bunch of techniques to determine that.",
+  "zh": "你需要用一堆技术来判定。"
+ },
+ {
+  "seg": 75,
+  "start": 405.326,
+  "end": 407.108,
+  "speaker": "Unknown",
+  "en": "Respects, permissions, and governance, of course.",
+  "zh": "当然还有尊重权限和治理。"
+ },
+ {
+  "seg": 76,
+  "start": 407.668,
+  "end": 418.318,
+  "speaker": "Unknown",
+  "en": "MCP allows us to use OAuth and other scopes and SSO, but if someone asks a question over here who's not supposed to know about secret project A, you need to make sure that doesn't leak into the response.",
+  "zh": "MCP 允许我们使用 OAuth 和其他 scope 以及 SSO,但如果这边有人问了一个不应该知道机密项目 A 的问题,你需要确保它不会泄漏进响应里。"
+ },
+ {
+  "seg": 77,
+  "start": 419.361,
+  "end": 423.625,
+  "speaker": "Unknown",
+  "en": "And then finally, deliver the right context at the right time to the model in a token-optimized way.",
+  "zh": "最后,以 token 优化的方式,在正确的时机向模型交付正确的上下文。"
+ },
+ {
+  "seg": 78,
+  "start": 424.466,
+  "end": 437.758,
+  "speaker": "Unknown",
+  "en": "We have multiple surface areas because human engineers still talk to Unblocked all the time to get information they need in Slack or otherwise, but then you want token-optimized responses if you're just speaking machine to machine in order to not waste a bunch of bold classes on your token spend.",
+  "zh": "我们有多个表面,因为人类工程师仍然经常和 Unblocked 交谈,在 Slack 或其他地方获取他们需要的信息,但如果你只是机器对机器地对话,你需要 token 优化的响应,以免在你的 token 花费上浪费一大堆 bold classes。"
+ },
+ {
+  "seg": 79,
+  "start": 439.833,
+  "end": 440.974,
+  "speaker": "Unknown",
+  "en": "This is how an engine works.",
+  "zh": "这就是这个引擎如何运作的。"
+ },
+ {
+  "seg": 80,
+  "start": 441.394,
+  "end": 447.218,
+  "speaker": "Unknown",
+  "en": "I'm gonna be brief on this, but basically on the left-hand side, you see all the data sources that are coming in.",
+  "zh": "我会简短一点,基本上在左手边,你看到所有进来的数据源。"
+ },
+ {
+  "seg": 81,
+  "start": 447.979,
+  "end": 454.723,
+  "speaker": "Unknown",
+  "en": "For us, we focus on engineering teams, and that's who uses us, as well as the technically-like teams around it, like support, sales, and otherwise.",
+  "zh": "对我们来说,我们专注于工程团队,那是使用我们的群体,还有它周围偏技术的团队,比如支持、销售等。"
+ },
+ {
+  "seg": 82,
+  "start": 455.604,
+  "end": 456.665,
+  "speaker": "Unknown",
+  "en": "You ingest all that data.",
+  "zh": "你摄取所有那些数据。"
+ },
+ {
+  "seg": 83,
+  "start": 457.065,
+  "end": 460.108,
+  "speaker": "Unknown",
+  "en": "You get real-time data from tools like your instant management tool chain.",
+  "zh": "你从工具那里获得实时数据,比如你的即时管理工具链。"
+ },
+ {
+  "seg": 84,
+  "start": 460.768,
+  "end": 461.849,
+  "speaker": "Unknown",
+  "en": "It comes into the engine.",
+  "zh": "它进入引擎。"
+ },
+ {
+  "seg": 85,
+  "start": 462.189,
+  "end": 463.39,
+  "speaker": "Unknown",
+  "en": "Where that engine is, it thinks.",
+  "zh": "引擎在那里,它思考。"
+ },
+ {
+  "seg": 86,
+  "start": 463.791,
+  "end": 465.692,
+  "speaker": "Unknown",
+  "en": "At the bottom, I'll expand on that slide in a moment.",
+  "zh": "在底部,我稍后会展开那页幻灯片。"
+ },
+ {
+  "seg": 87,
+  "start": 466.333,
+  "end": 468.995,
+  "speaker": "Unknown",
+  "en": "But basically, it uses these six key characteristics.",
+  "zh": "但基本上,它使用这六个关键特征。"
+ },
+ {
+  "seg": 88,
+  "start": 469.635,
+  "end": 474.339,
+  "speaker": "Unknown",
+  "en": "And then on the right, you output the context to the exact workflow in the manner that it is needed.",
+  "zh": "然后在右边,你以它所需要的方式,把上下文输出到确切的工作流中。"
+ },
+ {
+  "seg": 89,
+  "start": 476.247,
+  "end": 480.909,
+  "speaker": "Unknown",
+  "en": "Those six key points, as mentioned, unified system context, you have to go across the whole thing.",
+  "zh": "这六个关键点,如前所述,统一系统上下文,你必须贯穿全局。"
+ },
+ {
+  "seg": 90,
+  "start": 481.509,
+  "end": 494.975,
+  "speaker": "Unknown",
+  "en": "At large orgs, companies like LinkedIn Scale, Workday, General Motors, whatever, they need this type of data, they need to understand everything that's happening, and Tharik this morning actually talking about Fable coming out potentially later today,",
+  "zh": "在大型组织,像 LinkedIn 规模、Workday、通用汽车这样的公司,他们需要这种类型的数据,他们需要理解正在发生的一切,而 Tharik 今天早上实际上谈到了 Fable 可能在今天晚些时候发布,"
+ },
+ {
+  "seg": 91,
+  "start": 495.675,
+  "end": 500.878,
+  "speaker": "Unknown",
+  "en": "He mentioned that you need to actually provide a map and then let Fable discover the territory.",
+  "zh": "他提到你实际上需要提供一张地图,然后让 Fable 去发现疆域。"
+ },
+ {
+  "seg": 92,
+  "start": 501.439,
+  "end": 509.264,
+  "speaker": "Unknown",
+  "en": "The way to help confine that is making sure that these models have access to all of the context because they will find your unknown unknowns.",
+  "zh": "帮助限定这一点的方法是确保这些模型能访问全部上下文,因为它们会找到你的未知的未知。"
+ },
+ {
+  "seg": 93,
+  "start": 509.904,
+  "end": 515.508,
+  "speaker": "Unknown",
+  "en": "There are definitely things going on in your company that you're just unaware of but would be really helpful for the task you're trying to do.",
+  "zh": "你的公司里肯定有一些事情你完全不知道,但对你正在尝试做的任务会非常有帮助。"
+ },
+ {
+  "seg": 94,
+  "start": 517,
+  "end": 523.402,
+  "speaker": "Unknown",
+  "en": "That'll move faster, but the targeted retrieval, you should be able to, if you provide a link quickly, unfurl it, get that document back and move along.",
+  "zh": "这会走得更快,但还有定向检索,如果你提供了一个链接,你应该能快速展开它,取回那份文档然后继续。"
+ },
+ {
+  "seg": 95,
+  "start": 523.722,
+  "end": 529.084,
+  "speaker": "Unknown",
+  "en": "So two tasks, deep research, go long, that's fine, but you also need speed when speed is required.",
+  "zh": "所以两种任务,深度研究,走长线,那没问题,但在需要速度的时候你也需要速度。"
+ },
+ {
+  "seg": 96,
+  "start": 529.745,
+  "end": 535.046,
+  "speaker": "Unknown",
+  "en": "Conflict resolution, we already talked about that, but one thing says do A, one thing says do B, who is right?",
+  "zh": "冲突解决,我们已经谈过了,一个东西说做 A,一个东西说做 B,谁是对的?"
+ },
+ {
+  "seg": 97,
+  "start": 535.807,
+  "end": 539.208,
+  "speaker": "Unknown",
+  "en": "Personalized relevance, who am I, where do I work, what am I working on?",
+  "zh": "个性化相关性,我是谁,我在哪里工作,我在做什么?"
+ },
+ {
+  "seg": 98,
+  "start": 539.848,
+  "end": 544.39,
+  "speaker": "Unknown",
+  "en": "That token optimization, making sure the response is good and effective and doesn't bloat the window.",
+  "zh": "还有那个 token 优化,确保响应是好的、有效的,不会撑爆窗口。"
+ },
+ {
+  "seg": 99,
+  "start": 545.21,
+  "end": 549.131,
+  "speaker": "Unknown",
+  "en": "And then permission enforcement, of course, OAuth, you shouldn't see it, you shouldn't see it.",
+  "zh": "还有权限强制执行,当然,OAuth,你不该看到它,你不该看到它。"
+ },
+ {
+  "seg": 100,
+  "start": 550.631,
+  "end": 556.892,
+  "speaker": "Unknown",
+  "en": "What we did with some tests is we actually ran the exact same prompt to the same model, and one with context and one without.",
+  "zh": "我们在一些测试中所做的是,我们实际上向同一个模型运行完全相同的提示词,一个带上下文,一个不带。"
+ },
+ {
+  "seg": 101,
+  "start": 557.492,
+  "end": 563.993,
+  "speaker": "Unknown",
+  "en": "This is the wall clock time savings, and then two hours, which was great, and then the tokens savings.",
+  "zh": "这是实际耗时上的节省,然后是两个小时,这很棒,然后是 token 的节省。"
+ },
+ {
+  "seg": 102,
+  "start": 564.213,
+  "end": 571.815,
+  "speaker": "Unknown",
+  "en": "So it was a sizable task, it took about 21 million tokens without, and then 18, or sorry, 10.8 million tokens with it.",
+  "zh": "所以这是一个相当大的任务,不带上下文用了大约 2100 万 token,然后带上下文用了 1800 万,不对,抱歉,是 1080 万 token。"
+ },
+ {
+  "seg": 103,
+  "start": 572.655,
+  "end": 585.126,
+  "speaker": "Unknown",
+  "en": "This is the type of experience that you typically see when you're using a context engine because the majority of those wasted search tokens where it has to grep at the beginning of every session to understand and discover things are no longer there when it's hydrated with context.",
+  "zh": "这就是你在使用上下文引擎时通常会看到的那种体验,因为那些被浪费的搜索 token——每次会话开头它必须用 grep 去理解和发现东西——在注入了上下文之后就不再存在了。"
+ },
+ {
+  "seg": 104,
+  "start": 585.706,
+  "end": 586.307,
+  "speaker": "Unknown",
+  "en": "Hydrated.",
+  "zh": "注入。"
+ },
+ {
+  "seg": 105,
+  "start": 587.488,
+  "end": 591.511,
+  "speaker": "Unknown",
+  "en": "And then as you move forward, you get these types of outcomes.",
+  "zh": "然后随着你往前推进,你会得到这类结果。"
+ },
+ {
+  "seg": 106,
+  "start": 591.551,
+  "end": 597.797,
+  "speaker": "Unknown",
+  "en": "50% fewer tokens, faster triage, and the answer quality is actually better because it knew what was going on inside of the business.",
+  "zh": "token 减少 50%,分诊更快,而且答案质量实际上更好,因为它知道业务内部正在发生什么。"
+ },
+ {
+  "seg": 107,
+  "start": 599.498,
+  "end": 600.199,
+  "speaker": "Unknown",
+  "en": "Now this next part",
+  "zh": "现在这个下一部分"
+ },
+ {
+  "seg": 108,
+  "start": 601.192,
+  "end": 602.253,
+  "speaker": "Unknown",
+  "en": "You'll probably want a photo.",
+  "zh": "你们可能想拍张照。"
+ },
+ {
+  "seg": 109,
+  "start": 602.493,
+  "end": 609.818,
+  "speaker": "Unknown",
+  "en": "If you don't know, you can actually take a picture of a QR code and then later in photos tap on it and then load the link so you don't need to float here because I'm going to give you three QR codes.",
+  "zh": "如果你们不知道,你其实可以拍一张二维码的照片,然后稍后在照片应用里点它并加载链接,所以你不需要挤到前面来,因为我要给你们三个二维码。"
+ },
+ {
+  "seg": 110,
+  "start": 611.36,
+  "end": 613.261,
+  "speaker": "Unknown",
+  "en": "This first one is for the social comment network.",
+  "zh": "第一个是社交评论网络的。"
+ },
+ {
+  "seg": 111,
+  "start": 613.281,
+  "end": 614.382,
+  "speaker": "Unknown",
+  "en": "I'll pop that up so you can take a photo.",
+  "zh": "我会把它投出来,好让你们拍照。"
+ },
+ {
+  "seg": 112,
+  "start": 615.262,
+  "end": 622.728,
+  "speaker": "Unknown",
+  "en": "But this is an open source tool that we've got that actually using all deterministic programming goes over your GitHub and understands who works on your team.",
+  "zh": "但这是我们开源的一个工具,它实际上用全确定性的编程来遍历你的 GitHub,理解你的团队里都是谁在工作。"
+ },
+ {
+  "seg": 113,
+  "start": 622.848,
+  "end": 623.709,
+  "speaker": "Unknown",
+  "en": "This is my real team.",
+  "zh": "这是我真实的团队。"
+ },
+ {
+  "seg": 114,
+  "start": 623.989,
+  "end": 626.771,
+  "speaker": "Unknown",
+  "en": "We called Rasheen the machine because he ships like crazy.",
+  "zh": "我们叫 Rasheen「机器」,因为他疯狂地交付代码。"
+ },
+ {
+  "seg": 115,
+  "start": 627.331,
+  "end": 630.994,
+  "speaker": "Unknown",
+  "en": "But on the right, you can see who he commits, where he commits, who's reviewing his work.",
+  "zh": "在右边,你可以看到他提交了什么、在哪里提交、谁在审查他的工作。"
+ },
+ {
+  "seg": 116,
+  "start": 631.174,
+  "end": 633.856,
+  "speaker": "Unknown",
+  "en": "And then in those tabs, you can find a distilled experts graph.",
+  "zh": "然后在这些标签页里,你可以找到一个提炼出来的专家图谱。"
+ },
+ {
+  "seg": 117,
+  "start": 634.216,
+  "end": 636.197,
+  "speaker": "Unknown",
+  "en": "You get full coverage of what's going on in your business.",
+  "zh": "你可以全面覆盖你的业务里正在发生的事情。"
+ },
+ {
+  "seg": 118,
+  "start": 636.557,
+  "end": 644.563,
+  "speaker": "Unknown",
+  "en": "And if you optionally add one of the API keys for either OpenAI or Anthropic, it'll determine what your teams are by doing some labeling for you.",
+  "zh": "如果你可选地添加 OpenAI 或 Anthropic 的 API 密钥之一,它会通过为你做一些标注来确定你的团队划分。"
+ },
+ {
+  "seg": 119,
+  "start": 645.103,
+  "end": 652.288,
+  "speaker": "Unknown",
+  "en": "It's a really cool tool to understand where your team works and get that social network in there in order to focus a context engine if you're gonna be building these tools yourself.",
+  "zh": "这是一个非常酷的工具,可以了解你的团队在哪里工作,并把那个社交网络放进去,以便在你打算自己构建这类工具时聚焦一个上下文引擎。"
+ },
+ {
+  "seg": 120,
+  "start": 653.69,
+  "end": 655.751,
+  "speaker": "Unknown",
+  "en": "The next is called the repo rules agent.",
+  "zh": "下一个叫 repo rules 智能体。"
+ },
+ {
+  "seg": 121,
+  "start": 656.191,
+  "end": 658.391,
+  "speaker": "Unknown",
+  "en": "This is a sample from our real code base.",
+  "zh": "这是我们真实代码库里的一个样例。"
+ },
+ {
+  "seg": 122,
+  "start": 658.551,
+  "end": 661.012,
+  "speaker": "Unknown",
+  "en": "I'm gonna pop that up anyway so you don't need to talk to the thing.",
+  "zh": "我反正会把它投出来,这样你们就不用去操作那个东西了。"
+ },
+ {
+  "seg": 123,
+  "start": 661.072,
+  "end": 671.395,
+  "speaker": "Unknown",
+  "en": "But in short, what it does is discover all the places your team has written rules files, checks them all, and then tells you what severities you've given, what other things you've given.",
+  "zh": "简而言之,它的作用是找出你团队写了规则文件的所有地方,把它们全部检查一遍,然后告诉你你给了什么严重级别、还给了什么其他东西。"
+ },
+ {
+  "seg": 124,
+  "start": 671.435,
+  "end": 672.176,
+  "speaker": "Unknown",
+  "en": "Should I just switch to this?",
+  "zh": "我是不是该切换到这个?"
+ },
+ {
+  "seg": 125,
+  "start": 673.736,
+  "end": 675.017,
+  "speaker": "Unknown",
+  "en": "It tells you what, whoa, hey.",
+  "zh": "它会告诉你什么,哇,嘿。"
+ },
+ {
+  "seg": 126,
+  "start": 675.597,
+  "end": 676.337,
+  "speaker": "Unknown",
+  "en": "It's good to meet you all.",
+  "zh": "很高兴见到大家。"
+ },
+ {
+  "seg": 127,
+  "start": 677.923,
+  "end": 686.432,
+  "speaker": "Unknown",
+  "en": "Basically it will find all the rules that are inside of your repo and then tell you if you have duplicate issues or other problems and then you can grep over it as an index.",
+  "zh": "基本上它会找出你仓库里的所有规则,然后告诉你是否存在重复问题或其他问题,然后你可以把它作为一个索引来 grep。"
+ },
+ {
+  "seg": 128,
+  "start": 686.732,
+  "end": 691.317,
+  "speaker": "Unknown",
+  "en": "So that index can be called and you can dedupe and it'll help improve your retrieval of context.",
+  "zh": "所以这个索引可以被调用,你可以去重,它会有助于提升你的上下文检索。"
+ },
+ {
+  "seg": 129,
+  "start": 692.819,
+  "end": 700.427,
+  "speaker": "Unknown",
+  "en": "And then finally on Monday we delivered this workshop which was going beyond RAG and taught how to build a relational context engine from scratch.",
+  "zh": "最后,在周一我们交付了这个工作坊,内容是超越 RAG,教如何从零构建一个关系型上下文引擎。"
+ },
+ {
+  "seg": 130,
+  "start": 701.453,
+  "end": 703.175,
+  "speaker": "Unknown",
+  "en": "So if you scan that, you'll get the full workbook.",
+  "zh": "所以如果你扫那个码,你会得到完整的工作册。"
+ },
+ {
+  "seg": 131,
+  "start": 703.216,
+  "end": 706.5,
+  "speaker": "Unknown",
+  "en": "It has six PRs stacked that teach you how to walk through doing this.",
+  "zh": "它有六个堆叠的 PR,教你如何一步步完成这件事。"
+ },
+ {
+  "seg": 132,
+  "start": 707.081,
+  "end": 709.785,
+  "speaker": "Unknown",
+  "en": "But in short, RAG is an incredible technique, and you want that.",
+  "zh": "简而言之,RAG 是一项了不起的技术,你会想要它。"
+ },
+ {
+  "seg": 133,
+  "start": 710.325,
+  "end": 718.016,
+  "speaker": "Unknown",
+  "en": "But the other half of the problem is what people actually ask is, what are the open PRs that I worked on in the last week with authentication?",
+  "zh": "但问题的另一半是,人们实际问的是,过去一周我参与处理过哪些关于鉴权的开放 PR?"
+ },
+ {
+  "seg": 134,
+  "start": 718.917,
+  "end": 721.019,
+  "speaker": "Unknown",
+  "en": "RAG cannot answer that question alone.",
+  "zh": "RAG 单独无法回答那个问题。"
+ },
+ {
+  "seg": 135,
+  "start": 721.039,
+  "end": 721.94,
+  "speaker": "Unknown",
+  "en": "You need queries.",
+  "zh": "你需要查询。"
+ },
+ {
+  "seg": 136,
+  "start": 722.54,
+  "end": 733.79,
+  "speaker": "Unknown",
+  "en": "So this shows you how to do a schema-less basically lookup that allows the agent to discover a schema and then write queries against it deterministically in order to get that type of relational data out.",
+  "zh": "所以这展示了如何做一个基本上的无 schema 查找,让智能体先发现一个 schema,然后确定性地针对它编写查询,以取出那种类型的关系数据。"
+ },
+ {
+  "seg": 137,
+  "start": 734.791,
+  "end": 735.672,
+  "speaker": "Unknown",
+  "en": "Very useful technique.",
+  "zh": "非常有用的技术。"
+ },
+ {
+  "seg": 138,
+  "start": 737.957,
+  "end": 741.458,
+  "speaker": "Unknown",
+  "en": "Use cases of a context engine, of course, do go beyond code generation.",
+  "zh": "当然,上下文引擎的使用场景确实不止于代码生成。"
+ },
+ {
+  "seg": 139,
+  "start": 741.738,
+  "end": 743.139,
+  "speaker": "Unknown",
+  "en": "This is where we live a lot.",
+  "zh": "这是我们大量投入的地方。"
+ },
+ {
+  "seg": 140,
+  "start": 743.359,
+  "end": 744.659,
+  "speaker": "Unknown",
+  "en": "A lot of our customers spend their time.",
+  "zh": "我们的很多客户把时间花在这里。"
+ },
+ {
+  "seg": 141,
+  "start": 745.179,
+  "end": 755.582,
+  "speaker": "Unknown",
+  "en": "But it's amazing to see what happens when a bunch of other people around the business start picking up these tools, customer success people, solving tickets right at the time that it comes in from a customer.",
+  "zh": "但看到业务周围的一群其他人开始拿起这些工具时发生的事情,真是令人惊叹,客户成功人员,在客户提出工单的那一刻就把它解决掉。"
+ },
+ {
+  "seg": 142,
+  "start": 756.282,
+  "end": 765.505,
+  "speaker": "Unknown",
+  "en": "We've got salespeople closing deals earlier in their quarter because they're able to just query the unblocked context engine on the fly while in the field, and so many more.",
+  "zh": "我们有销售人员更早在他们的季度内完成交易,因为他们能够在外出时随手查询 unblocked 上下文引擎,还有更多更多。"
+ },
+ {
+  "seg": 143,
+  "start": 768.235,
+  "end": 786.85,
+  "speaker": "Unknown",
+  "en": "What you can also do is if you saw that curve chart earlier where I talked about the levels, we've built a fun little tool where basically an LLM will quiz you and ask you about what's going on and then it will map you to exactly where you are and then tell you some techniques about how to level up through that if you are looking to basically compound your capabilities and ship with AI tools at scale.",
+  "zh": "你还可以做的是,如果你之前看到我谈到那些等级时用的那条曲线图,我们做了一个有趣的小工具,基本上一个大模型会测验你,问你在做什么,然后它会把你的位置精确地映射出来,然后告诉你一些如何升级的技巧,如果你想要复利式地提升你的能力并大规模地用 AI 工具交付的话。"
+ },
+ {
+  "seg": 144,
+  "start": 787.41,
+  "end": 789.032,
+  "speaker": "Unknown",
+  "en": "It's readiness.getonblock.com.",
+  "zh": "它是 readiness.getonblock.com。"
+ },
+ {
+  "seg": 145,
+  "start": 791.455,
+  "end": 793.196,
+  "speaker": "Unknown",
+  "en": "The gap is not intelligence any longer.",
+  "zh": "差距不再是智能了。"
+ },
+ {
+  "seg": 146,
+  "start": 793.676,
+  "end": 794.296,
+  "speaker": "Unknown",
+  "en": "It's context.",
+  "zh": "是上下文。"
+ },
+ {
+  "seg": 147,
+  "start": 795.057,
+  "end": 799.059,
+  "speaker": "Unknown",
+  "en": "We will continue to get incredible models like Mythos as it's been grown by Anthropic.",
+  "zh": "我们会继续得到像 Mythos 这样令人惊叹的模型,它由 Anthropic 培育。"
+ },
+ {
+  "seg": 148,
+  "start": 799.519,
+  "end": 802.38,
+  "speaker": "Unknown",
+  "en": "And I'm sure Sol, once I'm allowed to see it, I'll get it.",
+  "zh": "而且我确信 Sol,一旦我被允许看到它,我就会拿到它。"
+ },
+ {
+  "seg": 149,
+  "start": 802.44,
+  "end": 803.461,
+  "speaker": "Unknown",
+  "en": "Happy Canada Day, by the way.",
+  "zh": "顺便说一句,加拿大国庆日快乐。"
+ },
+ {
+  "seg": 150,
+  "start": 805.021,
+  "end": 812.985,
+  "speaker": "Unknown",
+  "en": "But what's happening is it's about the context you surround these models with in order for them to be effective and token efficient inside of your organization.",
+  "zh": "但实际情况是，关键在于你在这些模型周围构建的上下文，才能让它们在你的组织内部做到高效且 token 高效。"
+ },
+ {
+  "seg": 151,
+  "start": 815.887,
+  "end": 818.888,
+  "speaker": "Unknown",
+  "en": "So I have a question slide, but I'm not sure I'm allowed.",
+  "zh": "我有一个提问的环节页，但我不确定我是否被允许提问。"
+ },
+ {
+  "seg": 152,
+  "start": 820.925,
+  "end": 821.085,
+  "speaker": "Unknown",
+  "en": "Nope.",
+  "zh": "不允许。"
+ },
+ {
+  "seg": 153,
+  "start": 821.425,
+  "end": 824.227,
+  "speaker": "Unknown",
+  "en": "So what you'll do is come meet me at booth P16.",
+  "zh": "所以你们可以到 P16 展位来找我。"
+ },
+ {
+  "seg": 154,
+  "start": 824.588,
+  "end": 825.508,
+  "speaker": "Unknown",
+  "en": "You can look for the coconut.",
+  "zh": "你们可以找那个椰子。"
+ },
+ {
+  "seg": 155,
+  "start": 826.569,
+  "end": 829.131,
+  "speaker": "Unknown",
+  "en": "It would be great to hang out with all of you and get into details here if you need it.",
+  "zh": "如果你们有需要，能和大家一起聊聊、深入探讨这些细节，那就再好不过了。"
+ },
+ {
+  "seg": 156,
+  "start": 829.671,
+  "end": 834.454,
+  "speaker": "Unknown",
+  "en": "Thank you for your time.",
+  "zh": "感谢大家的时间。"
+ }
+]

@@ -166,8 +166,8 @@ Bolt 自己就是[[按用量定价|按用量定价]]的开创者。上线时全�
 **顺着「创业与行业」挖下去**
 
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Cursor · 同概念:Anthropic 式路线 (Anthropic)、开源 (open source)、智能体 (agent)</span>
-- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:Cursor · 同概念:Anthropic 式路线 (Anthropic)、SaaS</span>
-- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同公司:Cursor · 同概念:Anthropic 式路线 (Anthropic)、开源 (open source)</span>
+- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Cursor · 同概念:Anthropic 式路线 (Anthropic)、开源 (open source)、智能体 (agent)</span>
+- [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战]]<span class="pd-rz">同公司:Cursor · 同概念:开源 (open source)、按用量定价 (usage-based pricing)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

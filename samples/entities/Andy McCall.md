@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Colin Zima]] [[Lindsey Scrase]] [[Ben Rudolph]]
+[[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Colin Zima]] [[Lindsey Scrase]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":3,"Joe Schmidt":1,"Lighthouse":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":3,"PLG":7,"Decagon":5}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":3,"Joe Schmidt":1,"Lighthouse":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":3,"PLG":8,"Decagon":5}</script>
 
 <script>
 (function(){

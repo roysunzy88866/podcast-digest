@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[Block]] · [[智能体]] · [[Dhanji Prasanna]] · [[Keith Rabois]] · [[Eric Sager]] · [[Willem Avé]] · [[Goose]] · [[PayPal]] · [[Plaid]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Block":2,"智能体":1,"Dhanji Prasanna":1,"Keith Rabois":1,"Eric Sager":1,"Willem Avé":1,"Goose":1,"PayPal":5,"Plaid":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Block":3,"智能体":1,"Dhanji Prasanna":1,"Keith Rabois":1,"Eric Sager":1,"Willem Avé":1,"Goose":2,"PayPal":5,"Plaid":2}</script>
 
 <script>
 (function(){

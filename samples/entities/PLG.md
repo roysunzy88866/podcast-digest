@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PLG</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PLG">PL</div><div class="pi"><h1 class="pt">PLG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PLG">PL</div><div class="pi"><h1 class="pt">PLG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>8</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(00:10起):本集说 PLG（产品驱动增长）假设你有一个针对人的完美自助服务漏斗，付费是验证你拥有 PLG 的最简单方式，且在智能体时代仍需为智能体做研究优化
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(32:03起):本集说以前认为 PLG 在开发工具领域行不通，但现在因为每个人都想搭智能体，PLG 在 AI 基础设施领域变得火热
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(50:36起):本集说 Town 超过 15% 的试用者转化为付费,对 PLG 来说极高,靠的是强制连接邮箱和日历、开局流失 30% 也在所不惜。
+- **[[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]]**(43:02起):本集提到 Databricks 早期试过 PLG、以为客户会主动上门但不管用，因为开源客户不想买任何东西；PLG 对 Anthropic 这类公司很有效，但就算 PLG 起飞也需要销售去谈企业客户。
 
 ## ① 提到它的金句
 
@@ -29,7 +30,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为概念
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为概念
@@ -38,14 +39,15 @@ unlisted: true
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为概念
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为概念(提及)
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为概念
+- [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Cursor]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[Modal]] · [[Harry Stebbings]] · [[token]]
+[[智能体]] · [[Cursor]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[go-to-market]] · [[Modal]] · [[Harry Stebbings]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":52,"OpenAI":100,"Google":38,"Anthropic":112,"ChatGPT":54,"Lenny":67,"Modal":5,"Harry Stebbings":15,"token":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":54,"OpenAI":102,"Google":38,"Anthropic":114,"ChatGPT":55,"Lenny":67,"go-to-market":8,"Modal":6,"Harry Stebbings":15}</script>
 
 <script>
 (function(){

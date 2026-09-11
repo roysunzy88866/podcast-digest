@@ -6,18 +6,19 @@ source_url: undefined
 duration: "45:08"
 type: episode
 cover: "#64748b"
+image: "/covers/2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f.jpg"
 description: Coinbase 联合创始人兼 CEO Brian Armstrong 讲智能体金融、稳定币支付、公司内部的 AI「大脑」，以及他的抗衰老公司 NewLimit。
 host: "[[Elad Gil]]"
 cohosts: ["[[Brian Armstrong]]"]
 companies: ["[[Coinbase]]", "[[NewLimit]]"]
-concepts: ["[[智能体]]", "[[智能体金融]]", "[[X402]]", "[[稳定币]]", "[[代币化]]", "[[预测市场]]", "[[递归自我改进]]", "[[加密货币]]", "[[表观遗传重编程]]", "[[认知增强]]", "[[特殊经济区]]"]
+concepts: ["[[智能体]]", "[[智能体金融]]", "[[X402]]", "[[稳定币]]", "[[分词]]", "[[预测市场]]", "[[递归自我改进]]", "[[加密货币]]", "[[表观遗传重编程]]", "[[认知增强]]", "[[特殊经济区]]"]
 category: 创业与行业
 tags:
   - 创业与行业
   - 智能体
-socialImage: "https://talk.solomind.cc/index-og-image.webp"
+socialImage: "https://talk.solomind.cc/covers/2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f#post","headline":"给 AI 开银行账户：Brian Armstrong 谈智能体金融与抗衰老第二幕","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f","mainEntityOfPage":"https://talk.solomind.cc/2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f","description":"Coinbase 联合创始人兼 CEO Brian Armstrong 讲智能体金融、稳定币支付、公司内部的 AI「大脑」，以及他的抗衰老公司 NewLimit。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Elad Gil"},{"@type":"Person","name":"Brian Armstrong"},{"@type":"Organization","name":"Coinbase"},{"@type":"Organization","name":"NewLimit"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"智能体金融 (agentic finance)"},{"@type":"Thing","name":"X402"},{"@type":"Thing","name":"稳定币 (stablecoin)"},{"@type":"Thing","name":"代币化 (tokenization)"},{"@type":"Thing","name":"预测市场 (prediction market)"},{"@type":"Thing","name":"递归自我改进 (recursive self-improvement)"},{"@type":"Thing","name":"加密货币 (crypto)"},{"@type":"Thing","name":"表观遗传重编程 (epigenetic reprogramming)"},{"@type":"Thing","name":"认知增强 (cognitive enhancement)"},{"@type":"Thing","name":"特殊经济区 (special economic zones)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"给 AI 开银行账户：Brian Armstrong 谈智能体金融与抗衰老第二幕","item":"https://talk.solomind.cc/2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f#post","headline":"给 AI 开银行账户：Brian Armstrong 谈智能体金融与抗衰老第二幕","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f","mainEntityOfPage":"https://talk.solomind.cc/2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f","description":"Coinbase 联合创始人兼 CEO Brian Armstrong 讲智能体金融、稳定币支付、公司内部的 AI「大脑」，以及他的抗衰老公司 NewLimit。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f.jpg","about":[{"@type":"Person","name":"Elad Gil"},{"@type":"Person","name":"Brian Armstrong"},{"@type":"Organization","name":"Coinbase"},{"@type":"Organization","name":"NewLimit"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"智能体金融 (agentic finance)"},{"@type":"Thing","name":"X402"},{"@type":"Thing","name":"稳定币 (stablecoin)"},{"@type":"Thing","name":"分词 (tokenization)"},{"@type":"Thing","name":"预测市场 (prediction market)"},{"@type":"Thing","name":"递归自我改进 (recursive self-improvement)"},{"@type":"Thing","name":"加密货币 (crypto)"},{"@type":"Thing","name":"表观遗传重编程 (epigenetic reprogramming)"},{"@type":"Thing","name":"认知增强 (cognitive enhancement)"},{"@type":"Thing","name":"特殊经济区 (special economic zones)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"给 AI 开银行账户：Brian Armstrong 谈智能体金融与抗衰老第二幕","item":"https://talk.solomind.cc/2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>给 AI 开银行账户：Brian Armstrong 谈智能体金融与抗衰老第二幕</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +36,7 @@ jsonLd: |
 >
 > **公司** [[Coinbase]] · [[NewLimit]]
 >
-> **概念** [[智能体]] · [[智能体金融]] · [[X402]] · [[稳定币]] · [[代币化]] · [[预测市场]] · [[递归自我改进]] · [[加密货币]] · [[表观遗传重编程]] · [[认知增强]] · [[特殊经济区]]
+> **概念** [[智能体]] · [[智能体金融]] · [[X402]] · [[稳定币]] · [[分词]] · [[预测市场]] · [[递归自我改进]] · [[加密货币]] · [[表观遗传重编程]] · [[认知增强]] · [[特殊经济区]]
 
 这一集的主角是 [[Brian Armstrong|Brian Armstrong]]——[[Coinbase|Coinbase]] 的联合创始人兼 CEO,全球最早、最重要的[[加密货币|加密货币]]公司掌门人，同时还是抗衰老公司 [[NewLimit|NewLimit]] 的联合创始人。他抛出的最抓人的判断是：AI [[智能体|智能体]]数量很快会超过人类，因此智能体经济迟早会比人类经济更大——而金融系统还没准备好接住它们，Coinbase 想抢先把这件事做掉 <button class="pd-ts" data-t="00:35" data-who="Brian Armstrong" data-en="So it'll be interesting to see how the agentic economy evolves. There'll be more agents than humans in the not too distant future. It kind of stands to reason that the agentic economy will be bigger than the human economy at some point in the not too distant future as well." aria-label="回原文"></button>。
 
@@ -59,7 +60,7 @@ Coinbase 的三大方向是：一切交易所(Everything Exchange,把股票、�
 
 ## 一切交易所与代币化
 
-一个反直觉的数据：Coinbase 现在 88% 的收入来自非比特币交易——尽管股价仍与比特币高度相关 <button class="pd-ts" data-t="18:43" data-who="Brian Armstrong" data-en="Yeah, well, we actually shared in our recent earnings deck, which are, you know, those are the only numbers I'm probably allowed to talk about. But, you know, actually 88% of our revenue is from non-Bitcoin trading at this point." aria-label="回原文"></button>。下一步是[[代币化|代币化]](用链上代币一比一代表现实资产)：稳定币是第一个主要用例，他们刚推出真正代币化的股票产品——不是合成衍生品，而是与托管中实际证券一比一对应的证券，目前仅在美国以外可用，正与 SEC 沟通美国落地 <button class="pd-ts" data-t="19:07" data-who="Brian Armstrong" data-en="But I also think all these other things are... Crypto is updating every aspect of the financial system. So we just announced our tokenized stocks product, which is only available outside the US right now, unfortunately, but we're working with the SEC and others to get in a path to do it in the US." aria-label="回原文"></button>。
+一个反直觉的数据：Coinbase 现在 88% 的收入来自非比特币交易——尽管股价仍与比特币高度相关 <button class="pd-ts" data-t="18:43" data-who="Brian Armstrong" data-en="Yeah, well, we actually shared in our recent earnings deck, which are, you know, those are the only numbers I'm probably allowed to talk about. But, you know, actually 88% of our revenue is from non-Bitcoin trading at this point." aria-label="回原文"></button>。下一步是[[分词|代币化]](用链上代币一比一代表现实资产)：稳定币是第一个主要用例，他们刚推出真正代币化的股票产品——不是合成衍生品，而是与托管中实际证券一比一对应的证券，目前仅在美国以外可用，正与 SEC 沟通美国落地 <button class="pd-ts" data-t="19:07" data-who="Brian Armstrong" data-en="But I also think all these other things are... Crypto is updating every aspect of the financial system. So we just announced our tokenized stocks product, which is only available outside the US right now, unfortunately, but we're working with the SEC and others to get in a path to do it in the US." aria-label="回原文"></button>。
 
 驱动因素是全球约 40 亿人没有任何券商或美国投资账户，就像 Tether 靠美元账户在美国以外成功一样，这个群体想要高质量投资渠道 <button class="pd-ts" data-t="19:45" data-who="Brian Armstrong" data-en="Now we're seeing it with stocks, which is really exciting. There's something like 4 billion people in the world who don't have access to any brokerage or US investment account." aria-label="回原文"></button>。「钱现在可以像一条 WhatsApp 消息一样以信息的速度移动」——送一股股票给侄子，直接发到他的钱包，不用走陈旧的过户流程 <button class="pd-ts" data-t="20:37" data-who="Brian Armstrong" data-en="You don't have to like go through some complex stock transfer process that's antiquated. It's like money can now move at the speed of information, just like a WhatsApp message." aria-label="回原文"></button>。
 
@@ -146,6 +147,29 @@ NewLimit 现在南旧金山有约五六十人的实验室，流程是：AI 前�
 > <span class="qz">但实际上，如果你看皮尤研究中心的数据，80% 的美国人支持用于疾病预防的胚胎编辑。</span>  
 > *But actually, if you look at the Pew Research, 80% of Americans, embryo editing for disease prevention is supported by the population.*  
 > <span class="qm">—— Brian Armstrong · [38:43]</span> ^q11
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at|加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法]]<span class="pd-rz">同公司:Coinbase · 同概念:代币化 (tokenization)、加密货币 (crypto)、稳定币 (stablecoin)</span>
+- [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|David Freeberg：美国正在走向社会主义，但AI能开另一扇门]]<span class="pd-rz">同概念:智能体 (agent)、表观遗传重编程 (epigenetic reprogramming)</span>
+- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:NewLimit · 同概念:智能体 (agent)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗]]<span class="pd-rz">同概念:智能体 (agent)、递归自我改进 (recursive self-improvement)</span>
+- [[2026-08-28-cogrev-ai-am-highlights-recursive-self-improvem|RL环境的供应链黑箱与模型的分工时代]]<span class="pd-rz">同概念:智能体 (agent)、递归自我改进 (recursive self-improvement)</span>
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder]]<span class="pd-rz">同公司:Coinbase · 同概念:智能体 (agent)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

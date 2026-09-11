@@ -164,9 +164,9 @@ Dhanji 分享了自己的亲身经历：他需要整理各种格式（截图、P
 
 **换个口味**
 
+- [[2026-09-09-talks-acp-the-universal-remote-control-for-ai|AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议]]<span class="pd-rz">同公司:Block · 同概念:Goose、MCP、智能体 (agent)</span>
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM、MCP</span>
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM、智能体 (agent)、MCP</span>
-- [[2026-06-11-practicalai-zero-trust-for-ai-agents|Anthropic 零信任框架：智能体安全的六层防御]]<span class="pd-rz">同公司:Anthropic · 同概念:MCP、智能体 (agent)</span>
 
 </div>
 </div>

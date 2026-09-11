@@ -1,0 +1,130 @@
+{
+  "title_zh": "差距不再是智能，而是上下文：给智能体造一个「上下文引擎」",
+  "tldr": "Unblocked 的 Brandon 讲解为什么 AI 编程智能体缺的不是聪明而是公司内部上下文，以及如何用上下文引擎解决。",
+  "digest_md": "Unblocked 的 Brandon 在 AIE 演讲，主题是「上下文工程」——怎么让 AI 编程智能体真正懂你的公司。他开场甩出的核心判断是：**差距不再是智能了，是上下文**。模型会继续变强，但要让它们在你的组织里高效、省 token 地干活，关键是你围绕模型构建的上下文。\n\n他给的目标画面是：AI 生成的代码，应该让人感觉是「一个已经在你团队待了多年的人写出来的」。而要做到这一点，你得先意识到——**你自己一直都是那个上下文引擎**。你通过上班提问、提交 PR 被拒、开会、某晚值班把生产环境搞挂并搞清原因，慢慢把大脑 build 成了懂这家公司的引擎。而每次新开一个终端会话里的智能体，它非常聪明，却对你公司如何运作一无所知。\n\n## 糟糕上下文的成本会复利累积\n\n单个智能体阶段，坏上下文的代价还便宜；但沿着智能体采用曲线往前走，成本会不断复利：\n\n- **厄运循环(doom loops)**:你让智能体做事，它说「我做完了」，你说「不对」，然后反复纠正——浪费搜索 token 和返工时间。\n- **审查税**：进入并行智能体阶段后，AI 代码审查器同样需要关键上下文，才能理解业务逻辑、做出有效审查。\n- **完全走出人工环节**：想让后台智能体「搞定它、别犯错」，就必须有一个它能随时查询的上下文引擎。\n\n他类比软件工程里的「左移」(尽早发现缺陷)：上下文问题也要尽早发现，越晚越贵。\n\n## 两个行不通的常见做法\n\n从他们数百个企业和中型客户来看，最常见的两个「局部最优」陷阱：\n\n**1. 精选上下文陷阱**：往文件系统里放一堆 markdown 文件，写上「这就是项目的全部上下文」，让智能体去 grep。问题：你得分发它；那个仓库会像你写过的所有其他文档一样腐化；而且你组织里谁是那个有品位、能为所有人策划这个仓库的「全知者」？\n\n**2. MCP 平台期**：MCP(让智能体从外部系统取信息的协议)很棒，但取决于你怎么写工具描述，智能体可能根本不调用它；即使调用了，还有「搜索满足偏差」——智能体找到第一份它认为正确的信息就说「够了」，然后继续干活。可大多数组织里，昨晚有条 Slack 对话说你应该做 A 而不是 B,如果它先找到了某份架构记录，它永远不会再发现那条。**根本问题：获取信息不等于理解**。用他的比喻：你的智能体看不到的是水面以下的一切——它完全能写出能编译的代码，但那段代码在凌晨一点把生产环境搞挂了，因为它不知道你们有个特定的发布流程、应该先关掉某个 feature flag。\n\n## 上下文引擎的六个关键特征\n\nBrandon 给出的引擎设计要点：①**统一系统上下文**——贯穿全组织的数据(他们面向工程团队及支持、销售等周边技术团队)；②**定向检索**——给个链接就能快速展开取回文档，深度研究走长线、需要速度时也要快；③**冲突解决**——旧架构图说做 A、昨晚和 CTO 的 Slack 对话说做 B,谁对？要用技术去判定；④**个性化相关性**——我是谁、我在哪工作、我在做什么；⑤**token 优化**——人机对话可以啰嗦，机器对机器必须精简，不撑爆上下文窗口；⑥**权限强制执行**——通过 OAuth 等机制，不该看到机密项目 A 的人，答案里绝不能泄漏。\n\n他提到一个对比测试：同一个模型跑完全相同的提示词，带上下文 vs 不带。一个大任务，不带上下文用了约 2100 万 token,带上下文只用 1080 万，实际耗时省了两小时。日常效果是 token 减少约 50%、分诊更快，而且答案质量更好——因为它知道业务内部正在发生什么。\n\n## 三个开源工具，自己动手\n\nBrandon 现场发了三个二维码，给出可以直接拿走用的工具：\n\n1. **社交评论网络工具**：全确定性编程遍历你的 GitHub,搞清你的团队里谁在干什么——谁提交了什么、在哪提交、谁在审查，并产出一张「专家图谱」；可选地加上 OpenAI 或 Anthropic 的 API 密钥，它还能自动标注出你的团队划分。这是给上下文引擎做「聚焦」的地基。\n2. **repo rules 智能体**：找出你仓库里所有规则文件，检查重复和冲突，并生成一个可 grep 的索引，去重后提升上下文检索质量。\n3. **「超越 RAG」工作册**：六个堆叠的 PR,教你从零构建关系型上下文引擎。核心洞见：RAG 很了不起，但人们实际问的是「过去一周我参与过哪些关于鉴权的开放 PR」——**RAG 单独答不了这种问题，你需要查询**：让智能体先发现 schema,再确定性地对它写查询，取出关系型数据。\n\n他还提到，这套东西不止用于代码生成：客户成功人员在工单进来的那一刻就解决它，销售人员在 field 里随手查上下文引擎、更早在季度内成交。\n\n## 本集带走\n\n- **把自己当成(过时的)上下文引擎**：你脑中「公司怎么运作」的知识，正是智能体缺的东西——工程化地把它们交付给模型。\n- **警惕两个陷阱**：手写 markdown 上下文仓库会腐化且没人维护得了；MCP 给了信息入口，但「找到第一条就满足」的偏差会让智能体漏掉关键的最新决策。\n- **信息 ≠ 理解**：能编译的代码也可能搞挂生产环境，缺的是发布流程、feature flag 这类「水面以下」的组织知识。\n- **RAG 不够，查询来补**：关系型问题(「我上周做过的关于 X 的 PR」)需要让智能体发现 schema 并确定性查询，不能只靠向量检索。\n- **上下文能直接省钱**：实测同一个任务，带上下文从 2100 万 token 降到 1080 万，省约一半 token 和两小时。",
+  "quotes": [
+    {
+      "en": "The gap is not intelligence any longer. It's context.",
+      "zh": "差距不再是智能了,是上下文。",
+      "timestamp": "13:11",
+      "speaker": "Brandon Waselnuk"
+    },
+    {
+      "en": "AI-generated code should feel like it was written by someone who's been on your team for years.",
+      "zh": "AI 生成的代码,应该让人感觉是那种已经在你团队待了多年的人写出来的。",
+      "timestamp": "01:13",
+      "speaker": "Brandon Waselnuk"
+    },
+    {
+      "en": "The problem here is access to information is not understanding.",
+      "zh": "这里的问题在于,获取信息不等于理解。",
+      "timestamp": "05:43",
+      "speaker": "Brandon Waselnuk"
+    },
+    {
+      "en": "In most organizations, there's a Slack conversation from last night that says you should be doing A instead of doing B, and the agent will never find it if it found some architecture record first.",
+      "zh": "在大多数组织中,昨晚有一条 Slack 对话说你应该做 A 而不是 B,而如果智能体先找到了某份架构记录,它永远不会发现那条信息。",
+      "timestamp": "05:28",
+      "speaker": "Brandon Waselnuk"
+    },
+    {
+      "en": "That repo is gonna rot just like all the other docs you wrote down and then who at your org is the omnipotent one who has the taste to curate this file or repo for literally everyone in the org.",
+      "zh": "那个仓库会像你写过的所有其他文档一样腐化,而且你们组织里谁是那个无所不能、有品位为整个组织的每一个人去策划这个仓库的人?",
+      "timestamp": "04:43",
+      "speaker": "Brandon Waselnuk"
+    },
+    {
+      "en": "As you move into parallel agents, et cetera, you start hitting a review tax.",
+      "zh": "当你进入并行智能体等阶段,你开始碰到审查税。",
+      "timestamp": "03:38",
+      "speaker": "Brandon Waselnuk"
+    },
+    {
+      "en": "Making sure that these models have access to all of the context because they will find your unknown unknowns.",
+      "zh": "确保这些模型能访问全部上下文,因为它们会找到你的未知的未知。",
+      "timestamp": "08:22",
+      "speaker": "Brandon Waselnuk"
+    },
+    {
+      "en": "50% fewer tokens, faster triage, and the answer quality is actually better because it knew what was going on inside of the business.",
+      "zh": "token 减少 50%,分诊更快,而且答案质量实际上更好,因为它知道业务内部正在发生什么。",
+      "timestamp": "09:51",
+      "speaker": "Brandon Waselnuk"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "13:11",
+      "speaker": "Brandon",
+      "en": "The gap is not intelligence any longer. It's context.",
+      "zh": "差距不再是智能了,是上下文。"
+    },
+    {
+      "timestamp": "01:09",
+      "speaker": "Brandon",
+      "en": "AI-generated code should feel like it was written by someone who's been on your team for years.",
+      "zh": "AI 生成的代码,应该让人感觉是那种已经在你团队待了多年的人写出来的。"
+    },
+    {
+      "timestamp": "05:43",
+      "speaker": "Brandon",
+      "en": "The problem here is access to information is not understanding.",
+      "zh": "这里的问题在于,获取信息不等于理解。"
+    },
+    {
+      "timestamp": "05:28",
+      "speaker": "Brandon",
+      "en": "In most organizations, there's a Slack conversation from last night that says you should be doing A instead of doing B, and the agent will never find it if it found some architecture record first.",
+      "zh": "在大多数组织中,昨晚有一条 Slack 对话说你应该做 A 而不是 B,而如果智能体先找到了某份架构记录,它永远不会发现那条信息。"
+    },
+    {
+      "timestamp": "05:52",
+      "speaker": "Brandon",
+      "en": "What your agent can't see is everything below the waterline.",
+      "zh": "你的智能体看不到的,是水面以下的一切。"
+    },
+    {
+      "timestamp": "04:42",
+      "speaker": "Brandon",
+      "en": "That repo is gonna rot just like all the other docs you wrote down and then who at your org is the omnipotent one who has the taste to curate this file or repo for literally everyone in the org.",
+      "zh": "那个仓库会像你写过的所有其他文档一样腐化,而且你们组织里谁是那个无所不能、有品位为整个组织的每一个人去策划这个仓库的人?"
+    },
+    {
+      "timestamp": "05:20",
+      "speaker": "Brandon",
+      "en": "The agent, when it finds the first piece of information that it thinks is correct, it goes, oh, I have what I need, and it proceeds.",
+      "zh": "当智能体找到它认为正确的第一份信息时,它会说,哦,我有了我需要的东西,然后继续进行。"
+    },
+    {
+      "timestamp": "03:38",
+      "speaker": "Brandon",
+      "en": "As you move into parallel agents, et cetera, you start hitting a review tax.",
+      "zh": "当你进入并行智能体等阶段,你开始碰到审查税。"
+    },
+    {
+      "timestamp": "08:21",
+      "speaker": "Brandon",
+      "en": "Making sure that these models have access to all of the context because they will find your unknown unknowns.",
+      "zh": "确保这些模型能访问全部上下文,因为它们会找到你的未知的未知。"
+    },
+    {
+      "timestamp": "12:01",
+      "speaker": "Brandon",
+      "en": "RAG cannot answer that question alone. You need queries.",
+      "zh": "RAG 单独无法回答那个问题。你需要查询。"
+    },
+    {
+      "timestamp": "09:51",
+      "speaker": "Brandon",
+      "en": "50% fewer tokens, faster triage, and the answer quality is actually better because it knew what was going on inside of the business.",
+      "zh": "token 减少 50%,分诊更快,而且答案质量实际上更好,因为它知道业务内部正在发生什么。"
+    },
+    {
+      "timestamp": "03:21",
+      "speaker": "Brandon",
+      "en": "Because as you move across, you get into doom loops.",
+      "zh": "因为随着你往前走,你会进入厄运循环。"
+    }
+  ],
+  "voice_script": "今天要跟你聊的这个人叫 Brandon,来自一家叫 Unblocked 的公司。他在一个叫 AIE 的场合做过一场演讲，讲的是怎么让 AI 编程智能体真正懂你的公司。这场演讲的核心判断一句话就能说完：模型之间的差距，不再是智能了，是上下文。也就是说，模型会一直变强，但想让它们在你的组织里高效干活、还省 token,关键不在于模型本身，而在于你围绕模型构建了什么样的上下文。\n\n先把这个背景垫清楚。Brandon 给了一个很有画面感的目标：AI 生成的代码，应该让人感觉是那种已经在你团队待了多年的人写出来的。为什么这么说？你想啊，一个程序员是怎么变成“懂公司”的？你入职之后到处提问，第一次提交 PR 被打回来，开各种会，某天晚上值班把生产环境搞挂了、然后一点点搞清楚原因——就是这些经历，把你的大脑慢慢 build 成了一台懂这家公司的引擎。所以他说，你自己一直都是那个上下文引擎。可问题是，每次新开一个终端会话里的智能体，它非常聪明，却对你公司怎么运作一无所知。\n\n那这个差距的代价有多大？单看一个智能体干一件事，坏上下文的成本还不算贵。但沿着智能体的采用曲线往前走，成本会像复利一样累积。先是厄运循环：你让智能体做事，它说做完了，你说不对，然后你来我往反复纠正，搜索的 token 和返工的时间全在烧。等你进入并行跑多个智能体的阶段，又会碰到审查税——AI 代码审查器同样需要关键上下文，才能理解业务逻辑、做出有效的审查。再往后，你想让后台的智能体自己搞定、别犯错，那就必须有一个它能随时查询的上下文引擎。Brandon 打了个比方，说这跟软件工程里的“左移”是一个道理——缺陷要尽早发现，越晚越贵。上下文问题也一样。\n\n那怎么办？很多人已经试过一些办法了，但从他们数百个企业和中型客户的经验看，最常见的两个路子都走不通。第一个，叫精选上下文陷阱：往文件系统里放一堆 markdown 文件，写上“这就是项目的全部上下文”，让智能体自己去 grep。听着挺好，问题一大堆——你得分发这些文件；那个仓库会像你写过的所有其他文档一样腐化；而且你想想，你们组织里谁是那个有品位、能为所有人策划这个仓库的全知者？根本没这种人。\n\n第二个路子是 MCP——就是让智能体从外部系统取信息的一种协议。工具本身很棒，但取决于你怎么写工具描述，智能体可能压根不调用它；就算调用了，还有个更隐蔽的坑，叫搜索满足偏差：智能体找到第一份它认为正确的信息，就说“够了”，继续干活。可大多数组织里，昨晚有一条 Slack 对话说你应该做 A 而不是 B,如果智能体先翻到了某份架构记录，它永远不会发现那条信息。Brandon 有句话点得很透：获取信息，不等于理解。他还有个比喻：你的智能体看不到的，是水面以下的一切——它完全能写出能编译的代码，但那段代码可能在凌晨一点把生产环境搞挂了，因为它不知道你们有个特定的发布流程，应该先关掉某个 feature flag。\n\n既然信息不等于理解，那就需要一个真正会理解的东西。Brandon 给出了上下文引擎的六个关键特征。统一系统上下文，数据要贯穿全组织，不只工程团队，还有支持、销售这些周边技术团队。定向检索，给个链接就能快速取回文档，需要速度的时候也要快。冲突解决——旧架构图说做 A、昨晚跟 CTO 的 Slack 对话说做 B,听谁的？得用技术来判定。还有个性化相关性，也就是我是谁、我在哪工作、我在做什么。然后是 token 优化，人跟人说话可以啰嗦，机器对机器必须精简，不然上下文窗口直接撑爆。最后是权限强制执行，通过 OAuth 这些机制，不该看到机密项目的人，答案里绝不能泄漏。\n\n这套东西灵不灵？他们做过一个对比测试：同一个模型，跑完全相同的提示词，一次带上下文、一次不带。一个大任务下来，不带上下文用了大约 2100 万 token,带上下文只用 1080 万，实际还省了两个小时的耗时。日常效果是 token 减少一半左右，分诊更快，答案质量反而更好——因为它知道业务内部正在发生什么。\n\n更实在的是，Brandon 现场发了三个二维码，给出了可以直接拿走用的工具。第一个是社交评论网络工具，用完全确定性的编程遍历你的 GitHub,搞清楚你的团队里谁在干什么——谁提交了什么、在哪提交、谁在审查——最后产出一张专家图谱，这是给上下文引擎做聚焦的地基。第二个是 repo rules 智能体，找出你仓库里所有的规则文件，检查重复和冲突，生成一个可以 grep 的索引，提升检索质量。第三个叫“超越 RAG”工作册，六个堆叠的 PR,教你从零构建一个关系型的上下文引擎。这里面的核心洞见是：RAG 很了不起，但人们实际问的问题往往是“过去一周我参与过哪些关于鉴权的开放 PR”——这种问题 RAG 单独答不了，你需要的是查询：让智能体先发现数据的结构，再确定性地对它写查询，把关系型数据取出来。\n\n这套东西的用处还不止写代码。客户成功人员可以在工单进来的那一刻就解决它，销售人员随手查一下上下文引擎，能把成交做得更早。\n\n所以最后带走一句话就好：你脑子里那些“公司怎么运作”的知识，正是智能体最缺的东西——把它工程化地交付给模型，因为差距不再是智能了，是上下文。"
+}

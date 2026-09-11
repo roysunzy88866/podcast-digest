@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":1,"MCP":29,"沙箱":37,"连接器":3,"智能 LLM 路由器":1,"可观测性":19,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":1,"MCP":33,"沙箱":39,"连接器":3,"智能 LLM 路由器":1,"可观测性":19,"后训练":1}</script>
 
 <script>
 (function(){

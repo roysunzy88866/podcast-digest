@@ -1,0 +1,640 @@
+{
+  "episode_id": "2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us",
+  "podcast": "精选演讲",
+  "date": "2026-09-09",
+  "tags": [
+    "MCP",
+    "智能体",
+    "工具设计",
+    "AI 产品",
+    "聊天界面应用"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "dustin-mihalik",
+      "type": "person",
+      "role": "guest",
+      "name": "Dustin Mihalik",
+      "file": "Dustin Mihalik",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "mcp-apps",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP Apps",
+      "file": "MCP Apps",
+      "primary": true,
+      "how_described": "本集主线：让第三方应用以 UI 组件形式嵌入 Claude/ChatGPT 聊天界面的规范，Indeed 团队分享了构建时的三条铁律与踩坑经验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            48.273,
+            52.196
+          ],
+          "quote": "MCP Apps is one of those and MCP Connectors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            52.576,
+            55.398
+          ],
+          "quote": "So this is a little bit of like practical MCP Apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            55.899,
+            59.381
+          ],
+          "quote": "They gave a great introduction to MCP Apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            59.401,
+            70.03
+          ],
+          "quote": "This is a little bit of a lessons from the trenches which is a little bit of like what did we learn in building MCP and MCP Apps for Claude, ChatGPT, and our own",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            154.35,
+            159.333
+          ],
+          "quote": "So with MCP apps and with apps SDK, we can kind of control that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            189.55,
+            206.337
+          ],
+          "quote": "So, MCP apps is really good, but if you're thinking about, hey, I wanna build an MCP app, or I wanna take my website, I wanna put it in ChatGPT or Claude, it's not quite just as easy as dragging and dropping into a chat interface.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            248.183,
+            258.646
+          ],
+          "quote": "So the very first rule for me building MCP apps, anything that you show to the user also needs to be provided as data to the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            259.286,
+            263.868
+          ],
+          "quote": "I think this makes sense, but I've definitely seen some MCP apps where they just",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            445.585,
+            455.553
+          ],
+          "quote": "There's this update model context method, which lets you pass in a string that is, so for MCP apps, there's a single string.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            463.278,
+            482.87
+          ],
+          "quote": "But this is an example from the MCP apps documentation where basically this is a shopping cart application and they add the total cost and all the items that are on the shopping cart so the user can ask for tell me information about the items that are in my shopping cart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            814.188,
+            828.918
+          ],
+          "quote": "So the key takeaways, when building MCP apps, you want to focus on the data before you focus on the UI, which sounds opposite of how we were thinking about it, of like, hey, there's all these MCP apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            833,
+            838.083
+          ],
+          "quote": "I think if you want to really have a good MCP apps experience, you need to...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集反复强调纯文本 MCP（不返回 UI）能让模型自由多次搜索、深挖数据，是构建 MCP Apps 的数据基础层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            48.273,
+            52.196
+          ],
+          "quote": "MCP Apps is one of those and MCP Connectors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            52.576,
+            55.398
+          ],
+          "quote": "So this is a little bit of like practical MCP Apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            55.899,
+            59.381
+          ],
+          "quote": "They gave a great introduction to MCP Apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            59.401,
+            70.03
+          ],
+          "quote": "This is a little bit of a lessons from the trenches which is a little bit of like what did we learn in building MCP and MCP Apps for Claude, ChatGPT, and our own",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            154.35,
+            159.333
+          ],
+          "quote": "So with MCP apps and with apps SDK, we can kind of control that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            189.55,
+            206.337
+          ],
+          "quote": "So, MCP apps is really good, but if you're thinking about, hey, I wanna build an MCP app, or I wanna take my website, I wanna put it in ChatGPT or Claude, it's not quite just as easy as dragging and dropping into a chat interface.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            248.183,
+            258.646
+          ],
+          "quote": "So the very first rule for me building MCP apps, anything that you show to the user also needs to be provided as data to the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            259.286,
+            263.868
+          ],
+          "quote": "I think this makes sense, but I've definitely seen some MCP apps where they just",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            273.036,
+            278.561
+          ],
+          "quote": "So this is really easy to do using MCP spec and the MCP app spec.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            278.641,
+            283.766
+          ],
+          "quote": "This structured content, this is what you would already be returning if you were doing just text-based MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            330.077,
+            337.143
+          ],
+          "quote": "So what you need to do is you need to update your description in order to tell it that you're gonna be displaying stuff in your MCP app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            440.942,
+            445.265
+          ],
+          "quote": "And once again, MCP app spec has a pretty easy way to handle it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            445.585,
+            455.553
+          ],
+          "quote": "There's this update model context method, which lets you pass in a string that is, so for MCP apps, there's a single string.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            463.278,
+            482.87
+          ],
+          "quote": "But this is an example from the MCP apps documentation where basically this is a shopping cart application and they add the total cost and all the items that are on the shopping cart so the user can ask for tell me information about the items that are in my shopping cart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            486.043,
+            504.225
+          ],
+          "quote": "So these two things give you an app that the model can kind of see what's going on, but it doesn't necessarily make a really good MCP app yet because it gives you some UI that looks like what you want, but",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            551.836,
+            555.177
+          ],
+          "quote": "Text-based MCP does really well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            570.72,
+            580.302
+          ],
+          "quote": "But with the MCP app that we were just discussing, we said, hey, my results are gonna be displayed in this UI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            642.883,
+            646.691
+          ],
+          "quote": "We're just gonna have that be a standard text-based MCP application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            814.188,
+            828.918
+          ],
+          "quote": "So the key takeaways, when building MCP apps, you want to focus on the data before you focus on the UI, which sounds opposite of how we were thinking about it, of like, hey, there's all these MCP apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            833,
+            838.083
+          ],
+          "quote": "I think if you want to really have a good MCP apps experience, you need to...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "indeed",
+      "type": "company",
+      "role": "company",
+      "name": "Indeed",
+      "file": "Indeed",
+      "primary": true,
+      "how_described": "全球排名第一的求职网站，嘉宾所在公司，正在为 Claude、ChatGPT 和自家智能体构建 MCP Apps",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            15.916,
+            17.437
+          ],
+          "quote": "I work at Indeed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            26.981,
+            31.403
+          ],
+          "quote": "Yeah, so at Indeed, we build job search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            101.856,
+            103.138
+          ],
+          "quote": "There's no Indeed branding.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "careerscout",
+      "type": "concept",
+      "role": "concept",
+      "name": "CareerScout",
+      "file": "CareerScout",
+      "primary": true,
+      "how_described": "Indeed 内部面向求职者的智能体，是他们构建 MCP 和 MCP Apps 的对象之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            70.63,
+            76.335
+          ],
+          "quote": "Internal CareerScout, which is our agent that we have for job seekers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集讨论的主要宿主模型之一：让它在带 UI 的场景下保持多轮搜索很难，需要靠工具描述引导和搜索/渲染分离来纠正行为",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            59.401,
+            70.03
+          ],
+          "quote": "This is a little bit of a lessons from the trenches which is a little bit of like what did we learn in building MCP and MCP Apps for Claude, ChatGPT, and our own",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            104.899,
+            107.782
+          ],
+          "quote": "Claude decided to say these are some jobs in Austin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            122.036,
+            133.901
+          ],
+          "quote": "And you'd actually be surprised, unless you've tried to do this yourself, that it's really hard to get Claude or ChatGPT to link to things, because they don't want you to leave their environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            147.327,
+            153.25
+          ],
+          "quote": "A ridiculous number of hours in evals to make sure that Claude would consistently link to things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            189.55,
+            206.337
+          ],
+          "quote": "So, MCP apps is really good, but if you're thinking about, hey, I wanna build an MCP app, or I wanna take my website, I wanna put it in ChatGPT or Claude, it's not quite just as easy as dragging and dropping into a chat interface.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            505.126,
+            513.614
+          ],
+          "quote": "The thing that I usually do, I don't give Claude my easy problems to solve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            513.755,
+            516.437
+          ],
+          "quote": "I give Claude my really hard problems to solve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            557.357,
+            561.358
+          ],
+          "quote": "Claude will do 10 different searches, 15 different searches.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            585.137,
+            588.618
+          ],
+          "quote": "Claude will call it once, and then it'll be like, oh, I guess the results are already displayed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            590.478,
+            602.603
+          ],
+          "quote": "Like it doesn't, you as a user are not gonna want 10 different parasels, and Claude will also notice that like it's already been displaying some stuff, and it won't call,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            647.171,
+            649.716
+          ],
+          "quote": "Claude can call that as many times as it wants.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            674.565,
+            681.129
+          ],
+          "quote": "And so that list of IDs can be, Claude can do a search, it can get",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "另一个宿主平台：本集说它不想让用户离开自己的环境，所以很难让它稳定输出链接",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            59.401,
+            70.03
+          ],
+          "quote": "This is a little bit of a lessons from the trenches which is a little bit of like what did we learn in building MCP and MCP Apps for Claude, ChatGPT, and our own",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            122.036,
+            133.901
+          ],
+          "quote": "And you'd actually be surprised, unless you've tried to do this yourself, that it's really hard to get Claude or ChatGPT to link to things, because they don't want you to leave their environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            189.55,
+            206.337
+          ],
+          "quote": "So, MCP apps is really good, but if you're thinking about, hey, I wanna build an MCP app, or I wanna take my website, I wanna put it in ChatGPT or Claude, it's not quite just as easy as dragging and dropping into a chat interface.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            829.458,
+            832.1
+          ],
+          "quote": "It's how I put UI into ChatGPT.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "structured-content",
+      "type": "concept",
+      "role": "concept",
+      "name": "结构化内容 (structured content)",
+      "file": "结构化内容",
+      "primary": true,
+      "how_described": "MCP 规范里本来就会返回的那部分数据，需与资源 URI 一起返回并保持同步，让模型看到展示给用户的每个数据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            278.641,
+            283.766
+          ],
+          "quote": "This structured content, this is what you would already be returning if you were doing just text-based MCP.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "update-model-context",
+      "type": "concept",
+      "role": "concept",
+      "name": "update model context",
+      "file": "update model context",
+      "primary": true,
+      "how_described": "MCP app 规范里把用户交互信息（如点击了哪个职位）传给模型的方法，只支持单个字符串，多事件靠追加",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            445.585,
+            455.553
+          ],
+          "quote": "There's this update model context method, which lets you pass in a string that is, so for MCP apps, there's a single string.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "apps-sdk",
+      "type": "concept",
+      "role": "concept",
+      "name": "apps SDK",
+      "file": "apps SDK",
+      "primary": false,
+      "how_described": "与 MCP Apps 一起让 Indeed 控制申请按钮、突出内容和详情弹窗；数据处理与 UI 渲染分离的措辞来自 OpenAI Apps SDK 文档",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            154.35,
+            159.333
+          ],
+          "quote": "So with MCP apps and with apps SDK, we can kind of control that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            618.514,
+            629.078
+          ],
+          "quote": "And this particular wording I stole from OpenAI Apps SDK documentation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

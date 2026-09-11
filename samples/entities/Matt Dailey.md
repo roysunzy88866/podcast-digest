@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Roman Ugarte]] [[Tyler Folkman]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]] [[Grant LaFontaine]] [[Quintin]]
+[[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"REF":1,"速度病":1,"智能体":1,"决策层":1,"上下文工程":9,"状态":1,"原型重力":1,"智能体破产":1,"IDE":3,"计划模式":3}</script>
+<script type="application/json" class="pd-epn">{"REF":1,"速度病":1,"智能体":1,"决策层":1,"上下文工程":12,"状态":1,"原型重力":1,"智能体破产":1,"IDE":3,"计划模式":3}</script>
 
 <script>
 (function(){

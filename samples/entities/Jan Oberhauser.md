@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"n8n":1,"智能体":1,"工作流":1,"开源":18,"fair-code":1,"LLM":29,"人在回路":7,"自托管":1,"自带密钥":1,"编排":4}</script>
+<script type="application/json" class="pd-epn">{"n8n":1,"智能体":1,"工作流":1,"开源":20,"fair-code":1,"LLM":29,"人在回路":7,"自托管":1,"自带密钥":1,"编排":4}</script>
 
 <script>
 (function(){

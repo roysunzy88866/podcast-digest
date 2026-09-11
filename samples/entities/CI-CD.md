@@ -44,9 +44,9 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[MCP]] · [[Codex]] · [[OpenAI]] · [[护栏]] · [[Anthropic]] · [[Cursor]] · [[Claude]] · [[Simon Maple]] · [[多模态]]
+[[智能体]] · [[MCP]] · [[Codex]] · [[OpenAI]] · [[护栏]] · [[Anthropic]] · [[Cursor]] · [[Claude]] · [[Simon Maple]] · [[Python]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":29,"Codex":42,"OpenAI":100,"护栏":2,"Anthropic":112,"Cursor":52,"Claude":50,"Simon Maple":8,"多模态":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":33,"Codex":44,"OpenAI":102,"护栏":2,"Anthropic":114,"Cursor":54,"Claude":52,"Simon Maple":8,"Python":4}</script>
 
 <script>
 (function(){

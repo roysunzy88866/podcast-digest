@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Eric Simons]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]]
+[[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":2,"智能体":1,"代码审查":2,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":1,"TypeScript":1,"JavaScript":1}</script>
+<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":2,"智能体":1,"代码审查":2,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":1,"TypeScript":2,"JavaScript":1}</script>
 
 <script>
 (function(){

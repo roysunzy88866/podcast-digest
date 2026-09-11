@@ -54,6 +54,29 @@ jsonLd: |
 > <span class="qz">所以那大概算是比较不讲道理的事情之一，比如，对，就把这整个 Python 代码库移植到 TypeScript，让它跑起来、能部署，就在一个周末之内。</span>  
 > *So that probably ranks on like the more unreasonable things like, yeah, just port this entire Python code base to TypeScript, get it working, get it deployable in, you know, a weekend.*  
 > <span class="qm">—— 嘉宾 · [00:41]</span> ^q1
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「AI 编程」挖下去**
+
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Bun、Claude Code</span>
+- [[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|用 AI 对抗 AI：一种不用读代码的编程语言 BAML]]<span class="pd-rz">同概念:TypeScript、Python</span>
+- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同公司:Claude Code</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Claude Code</span>
+- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Claude Code</span>
+- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同公司:Claude Code</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

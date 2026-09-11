@@ -225,7 +225,7 @@ Google 赢 Yahoo 是这样，Facebook 赢 MySpace 也是这样 <button class="pd
 
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|SaaS增长该抄电商作业：付费广告立刻开打]]<span class="pd-rz">同公司:Google、ChatGPT · 同概念:智能体 (agent)</span>
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同公司:ChatGPT、Google</span>
-- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Claude、Cursor · 同概念:智能体 (agent)</span>
+- [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

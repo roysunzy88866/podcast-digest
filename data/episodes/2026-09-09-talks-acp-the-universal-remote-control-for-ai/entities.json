@@ -1,0 +1,571 @@
+{
+  "episode_id": "2026-09-09-talks-acp-the-universal-remote-control-for-ai",
+  "podcast": "精选演讲",
+  "date": "2026-09-09",
+  "tags": [
+    "智能体",
+    "开放标准",
+    "AI 编程",
+    "开发者工具"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "alex-hancock",
+      "type": "person",
+      "role": "guest",
+      "name": "Alex Hancock",
+      "file": "Alex Hancock",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            15.069,
+            16.069
+          ],
+          "quote": "My name's Alex Hancock.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "block",
+      "type": "company",
+      "role": "company",
+      "name": "Block",
+      "file": "Block",
+      "primary": true,
+      "how_described": "嘉宾 Alex Hancock 所在的公司，是 Cash App、Square 和 Tidal 的母公司；Goose 最初是 Block 的内部项目，开源后 Block 仍有许多同事参与开发",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            35.356,
+            40.781
+          ],
+          "quote": "I am a software engineer at Block, which is the parent company of Cash App and Square and Tidal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            50.049,
+            56.515
+          ],
+          "quote": "Specifically, I work on this open source harness project called Goose, which started as an internal project at Block.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "goose",
+      "type": "company",
+      "role": "company",
+      "name": "Goose",
+      "file": "Goose",
+      "primary": true,
+      "how_described": "本集主角之一：开源的 harness（工具调用循环）项目，最初是 Block 内部项目，后开源并捐赠给 Linux 基金会；演示中作为底层智能体，在 Zed 和终端客户端上给出完全相同的体验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            50.049,
+            56.515
+          ],
+          "quote": "Specifically, I work on this open source harness project called Goose, which started as an internal project at Block.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            57.354,
+            58.474
+          ],
+          "quote": "Yeah, some goose fans out there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            251.305,
+            258.028
+          ],
+          "quote": "But we saw this on the Goose team, and we think that there is a much broader utility than just editors, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            347.645,
+            365.438
+          ],
+          "quote": "Like if the Codex team has some custom methods, the Goose team has some custom methods, the Klein team has some custom methods, whoever, we can see what emerges in the ecosystem and what makes sense to get on a standards track and bring into the protocol itself so that this is sort of shaped by usage and shaped by the community.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            382.912,
+            389.797
+          ],
+          "quote": "So you can see I was able to type my query into Zed, and this is, the agent in play here is Goose, so it's using Goose's ACP interface.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            465.277,
+            470.659
+          ],
+          "quote": "The way we think about this on the Goose team, the agentic stack, is there's sort of these four important components, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            543.91,
+            547.373
+          ],
+          "quote": "It's connecting and sending goose instructions for what to do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "zed",
+      "type": "company",
+      "role": "company",
+      "name": "Zed",
+      "file": "Zed",
+      "primary": true,
+      "how_described": "文本编辑器公司，与 JetBrains 一起发起 ACP；演示中在 Zed 编辑器里用单个客户端实现控制 Goose 智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            214.222,
+            222.569
+          ],
+          "quote": "It came from like if you've used the Zed text editor or you've used any of JetBrains products, the Zed folks and the JetBrains folks teamed up",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            229.893,
+            245.663
+          ],
+          "quote": "What they wanted to be able to do is write a single high-quality client implementation in an editor, maybe in Zed or in IntelliJ or something like that, and be able to control any harness with that single client implementation, sending tasks, getting results back,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            371.438,
+            376.064
+          ],
+          "quote": "So I'm gonna open Zed and I just have a really simple project here",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            382.912,
+            389.797
+          ],
+          "quote": "So you can see I was able to type my query into Zed, and this is, the agent in play here is Goose, so it's using Goose's ACP interface.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jetbrains",
+      "type": "company",
+      "role": "company",
+      "name": "JetBrains",
+      "file": "JetBrains",
+      "primary": true,
+      "how_described": "编辑器公司，与 Zed 组队提出 ACP 标准，动机是在编辑器里只写一个高质量客户端实现就能控制任何 harness",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            214.222,
+            222.569
+          ],
+          "quote": "It came from like if you've used the Zed text editor or you've used any of JetBrains products, the Zed folks and the JetBrains folks teamed up",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "poolside-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Poolside AI",
+      "file": "Poolside AI",
+      "primary": false,
+      "how_described": "提供演示中基于终端的第三方 ACP 客户端，与 Zed 连接同一智能体获得完全相同的体验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            403.847,
+            406.549
+          ],
+          "quote": "This is one from a company called Poolside AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "linux-foundation",
+      "type": "company",
+      "role": "company",
+      "name": "Linux Foundation",
+      "file": "Linux Foundation",
+      "primary": false,
+      "how_described": "Goose 开源后捐赠给 Linux 基金会，知识产权归基金会所有",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            59.035,
+            63.076
+          ],
+          "quote": "And then, yeah, we open sourced it and we donated it to the Linux Foundation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-client-protocol",
+      "type": "concept",
+      "role": "concept",
+      "name": "ACP（智能体客户端协议） (agent client protocol)",
+      "file": "ACP（智能体客户端协议）",
+      "primary": true,
+      "how_described": "本集核心方案：由 Zed 和 JetBrains 发起的开放标准，让客户端软件能控制 harness——发送任务、拿回结果、看进展更新；设计极简（JSON RPC）、带能力协商、支持工具调用通知和权限请求，可用下划线前缀加自定义方法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            74.98,
+            81.723
+          ],
+          "quote": "And more recently, I've also started some work on ACP, the agent client protocol, which is what I'm gonna talk about today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            207.737,
+            213.942
+          ],
+          "quote": "And this is ACP, so Agent Client Protocol is the name of this project and it came from the editor companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            486.346,
+            490.448
+          ],
+          "quote": "And if you do a remote transport for the agent client protocol,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            568.755,
+            573.477
+          ],
+          "quote": "This will link you to the agent client protocol site for how to get started.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "智能体走出去调用工具的开放标准，全球有数以万计的 server；本集强调它最强大之处在于所有人都在用，并把它作为智能体技术栈中「工具」一层的标准，与 ACP 互补",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            19.432,
+            25.416
+          ],
+          "quote": "And before I start, I just want to say the previous speaker said that MCP client maintainers haven't implemented support for tasks because they're smart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            25.996,
+            27.357
+          ],
+          "quote": "I'm an MCP client maintainer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            68.078,
+            71.879
+          ],
+          "quote": "I'm also a maintainer of MCP, the model context protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            160.852,
+            164.094
+          ],
+          "quote": "We've all benefited as a community from having MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            165.054,
+            171.876
+          ],
+          "quote": "And the most powerful thing about MCP is not anything about MCP itself, but it's that everyone uses MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            481.544,
+            484.005
+          ],
+          "quote": "There are the tools themselves, this is often MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            491.643,
+            494.647
+          ],
+          "quote": "And MCP has remote transport for tool calling.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            50.049,
+            56.515
+          ],
+          "quote": "Specifically, I work on this open source harness project called Goose, which started as an internal project at Block.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            111.162,
+            118.608
+          ],
+          "quote": "And in the worst case, it's like you might have some harnesses where there's literally only one client application you can use to control that harness, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            229.893,
+            245.663
+          ],
+          "quote": "What they wanted to be able to do is write a single high-quality client implementation in an editor, maybe in Zed or in IntelliJ or something like that, and be able to control any harness with that single client implementation, sending tasks, getting results back,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            339.399,
+            343.422
+          ],
+          "quote": "And the thing I like about this is that if enough harness projects or client projects adopt this,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            411.752,
+            421.596
+          ],
+          "quote": "And so this is a terminal-based client getting exactly the same experience from the same agent, one implementation on the harness side, and you can now use any client, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            477.362,
+            480.464
+          ],
+          "quote": "There's the harness, which is the program that implements the tool calling loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            506.062,
+            508.185
+          ],
+          "quote": "The harness could be on a different machine than the client.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主角概念：在 agentic AI 领域，「智能体走出去干活」已有 MCP 好标准，但客户端如何给智能体分配任务、收进展更新还没有标准；智能体技术栈被拆为客户端/harness/工具/模型四层，全部可远程化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            74.98,
+            81.723
+          ],
+          "quote": "And more recently, I've also started some work on ACP, the agent client protocol, which is what I'm gonna talk about today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            147.927,
+            156.351
+          ],
+          "quote": "And I would argue that in the agentic AI space, we have a good standard for the agent going out and doing things, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            207.737,
+            213.942
+          ],
+          "quote": "And this is ACP, so Agent Client Protocol is the name of this project and it came from the editor companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            269.042,
+            285.976
+          ],
+          "quote": "To go into a little bit more depth about ACP's design and what you can do with it, it lets you establish connections between clients and agent harnesses that have a given set of capabilities associated with the connection, and then you can make sessions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            293.823,
+            302.17
+          ],
+          "quote": "The agent can then respond to those with text, more images or audio, text, et cetera, or updates about what's going on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            382.912,
+            389.797
+          ],
+          "quote": "So you can see I was able to type my query into Zed, and this is, the agent in play here is Goose, so it's using Goose's ACP interface.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            411.752,
+            421.596
+          ],
+          "quote": "And so this is a terminal-based client getting exactly the same experience from the same agent, one implementation on the harness side, and you can now use any client, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            430.659,
+            434.341
+          ],
+          "quote": "So that's a basic demo showing two clients talking to the same agent,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            486.346,
+            490.448
+          ],
+          "quote": "And if you do a remote transport for the agent client protocol,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            568.755,
+            573.477
+          ],
+          "quote": "This will link you to the agent client protocol site for how to get started.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            573.557,
+            577.138
+          ],
+          "quote": "There's a number of clients and agent servers already out there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "sandbox",
+      "reason": "专名「sandbox」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "vibe coding",
+      "reason": "专名「vibe coding」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

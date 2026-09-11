@@ -9,13 +9,13 @@ cover: "#64748b"
 description: Clay 团队（Jeff、Vishu、Saroosh）讲解旗下研究智能体与工作流智能体的运行规模，以及他们为智能体产品构建评估体系、数据飞轮与统一数据基础的具体做法。
 host: "[[Vishu]]"
 companies: ["[[Clay]]", "[[Claygent]]", "[[Sculptor]]", "[[LangChain]]"]
-concepts: ["[[智能体]]", "[[评估]]", "[[轨迹]]", "[[LLM 裁判]]", "[[测试框架]]", "[[数据湖]]"]
+concepts: ["[[智能体]]", "[[评估]]", "[[trace]]", "[[LLM 判别器]]", "[[harness]]", "[[数据湖]]"]
 category: 智能体
 tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs#post","headline":"Clay 的智能体矩阵：如何为数十亿次运行建评估","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs","mainEntityOfPage":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs","description":"Clay 团队（Jeff、Vishu、Saroosh）讲解旗下研究智能体与工作流智能体的运行规模，以及他们为智能体产品构建评估体系、数据飞轮与统一数据基础的具体做法。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Vishu"},{"@type":"Organization","name":"Clay"},{"@type":"Organization","name":"Claygent"},{"@type":"Organization","name":"Sculptor"},{"@type":"Organization","name":"LangChain"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"轨迹 (trace)"},{"@type":"Thing","name":"LLM 裁判 (LLM as a judge)"},{"@type":"Thing","name":"测试框架 (harness)"},{"@type":"Thing","name":"数据湖 (data lake)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Clay 的智能体矩阵：如何为数十亿次运行建评估","item":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs#post","headline":"Clay 的智能体矩阵：如何为数十亿次运行建评估","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs","mainEntityOfPage":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs","description":"Clay 团队（Jeff、Vishu、Saroosh）讲解旗下研究智能体与工作流智能体的运行规模，以及他们为智能体产品构建评估体系、数据飞轮与统一数据基础的具体做法。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Vishu"},{"@type":"Organization","name":"Clay"},{"@type":"Organization","name":"Claygent"},{"@type":"Organization","name":"Sculptor"},{"@type":"Organization","name":"LangChain"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"trace"},{"@type":"Thing","name":"LLM 判别器 (LLM as a judge)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"数据湖 (data lake)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Clay 的智能体矩阵：如何为数十亿次运行建评估","item":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Clay 的智能体矩阵：如何为数十亿次运行建评估</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -33,7 +33,7 @@ jsonLd: |
 >
 > **公司** [[Clay]] · [[Claygent]] · [[Sculptor]] · [[LangChain]]
 >
-> **概念** [[智能体]] · [[评估]] · [[轨迹]] · [[LLM 裁判]] · [[测试框架]] · [[数据湖]]
+> **概念** [[智能体]] · [[评估]] · [[trace]] · [[LLM 判别器]] · [[harness]] · [[数据湖]]
 
 这一集是 [[Clay|Clay]] 团队的工程分享，主角是三位讲者：Jeff、负责[[评估|评估]]体系的 [[Vishu|Vishu]]、负责数据基础的 Saroosh。Clay 是一家做进入市场（go-to-market，即帮企业找客户、拓业务）数据产品的公司，这一集聊的是他们怎么把[[智能体|智能体]]（agent，能自主多步执行任务的 AI）做成生产级产品。
 
@@ -51,13 +51,13 @@ Vishu 承认，最初构建智能体产品时「我们的评估并不好」，�
 
 他们的评估哲学有几条优先级。第一是分层级：本地开发用的 eval 要便宜、要快，不搞沙箱、不搞虚拟文件系统，就是个命令行评估套件——开发者改了什么，智能体就地替他跑；而在 CI（持续集成，代码合并前自动跑检查的机制）或 staging 环境跑的 eval，要尽可能贴近生产环境。
 
-用他的话说，这是「在开发者所在之处满足他们」——不必去平台网页上手动启动实验、配置托管智能体 [02:53–03:34 Vishu]。第二，评估要持久化、有版本管理，他们用 [[LangChain|LangChain]] 存储，本地跑的结果也写上去。第三，eval [[测试框架|测试框架]]在产品各部分之间可扩展：团队正在走向「Sculptor 在 Clay 里替你做所有事」的世界，所以 Clay 各产品线共用同一个 harness（测试框架），开发者加新产品时只需自带 eval 套件和自己的 [[LLM 裁判|LLM 裁判]]（用大模型给输出打分的自动化评估器），框架其余部分即插即用 [03:38–04:14 Vishu]。
+用他的话说，这是「在开发者所在之处满足他们」——不必去平台网页上手动启动实验、配置托管智能体 [02:53–03:34 Vishu]。第二，评估要持久化、有版本管理，他们用 [[LangChain|LangChain]] 存储，本地跑的结果也写上去。第三，eval [[harness|测试框架]]在产品各部分之间可扩展：团队正在走向「Sculptor 在 Clay 里替你做所有事」的世界，所以 Clay 各产品线共用同一个 harness（测试框架），开发者加新产品时只需自带 eval 套件和自己的 [[LLM 判别器|LLM 裁判]]（用大模型给输出打分的自动化评估器），框架其余部分即插即用 [03:38–04:14 Vishu]。
 
 ## 覆盖率矩阵：每一格都要有东西
 
 他们把 eval 按确定/非确定、离线/在线分成四个格子，目标是每格都放几样东西 <button class="pd-ts" data-t="04:22" data-who="Vishu" data-en="So more on our eval philosophy. So this is our, how we think about eval coverage. And the goal is to have a few things in each of these boxes." aria-label="回原文"></button>：
 
-- **确定性 + 离线**：Goldens（预先定好的标准答案）。但他们发现，评估简单的东西很好用，评估复杂查询时就太静态了——关键词换个顺序、节点顺序一变就失效，产生太多误报，「noisy 的 eval 最终就被忽视了」。于是他们改用结构化的 eval 检查，只看查询中真正关心的部分，更宽容。这一格还有[[轨迹|轨迹]]/工具断言：比如智能体在回答定价问题，就断言它真的去读了定价数据。
+- **确定性 + 离线**：Goldens（预先定好的标准答案）。但他们发现，评估简单的东西很好用，评估复杂查询时就太静态了——关键词换个顺序、节点顺序一变就失效，产生太多误报，「noisy 的 eval 最终就被忽视了」。于是他们改用结构化的 eval 检查，只看查询中真正关心的部分，更宽容。这一格还有[[trace|轨迹]]/工具断言：比如智能体在回答定价问题，就断言它真的去读了定价数据。
 - **非确定 + 离线**：LLM as a judge，以及模拟用户的多轮对话评估。这里有个反直觉的发现：让一个智能体扮演用户来对话，效果反而不如把用户每一轮的话硬编码进去的确定性版本——扮演用户的智能体太吵了，「它就像另一个你需要管理、保持更新、还要为它做 eval 的智能体，所以最终不值得」<button class="pd-ts" data-t="05:49" data-who="Vishu" data-en="You can do this or you can do the non-deterministic version of this which is like just hard coding the user turns and actually during our development process we found that these deterministic multi-turn evals were actually the most useful." aria-label="回原文"></button>。
 - **确定性 + 在线**：A-B 测试用的客观指标——延迟、成本、用户有没有从聊天走到产品其他部分、是不是卡住、是不是愤然退出。
 - **非确定 + 在线**：这是他们用 LangChain 最多的地方，直接用现成的在线评估器，比如 NPS 式的用户满意度分数、感知类评估器（看用户是不是在纠正智能体、把它往别的方向引导），再用引擎批量分析生产 traces，加上人工翻看 [06:00–06:57 Vishu]。
@@ -120,6 +120,29 @@ Saroosh 收尾，指出前面的飞轮有个瓶颈：「用我们的数据基础
 > <span class="qz">所以我认为这是我第一次能够告诉一个智能体，看这 10,000 个例子并找出趋势。</span>  
 > *So I think it's one of the first times I've been able to tell an agent, look at these 10,000 examples and find trends.*  
 > <span class="qm">—— 嘉宾 · [11:44]</span> ^q7
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「智能体」挖下去**
+
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:LangChain · 同概念:智能体 (agent)、测试框架 (harness)、沙箱 (sandbox)</span>
+- [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同概念:LLM 裁判 (LLM as a judge)、智能体 (agent)、轨迹 (trace)</span>
+- [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:智能体 (agent)、测试框架 (harness)、评估 (eval)</span>
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:智能体 (agent)、测试框架 (harness)</span>
+- [[2026-09-03-practicalai-less-about-models-more-about-architectur|Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构]]<span class="pd-rz">同概念:测试框架 (harness)、评估 (eval)</span>
+- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Claude、Codex · 同概念:智能体 (agent)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

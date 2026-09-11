@@ -55,17 +55,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[ChatGPT]] · [[Claude]] · [[Facebook]] · [[Google]] · [[Apple]] · [[HubSpot]] · [[Zynga]] · [[Cursor]] · [[分发平台]]
+[[Lenny]] · [[ChatGPT]] · [[Claude]] · [[Facebook]] · [[Google]] · [[LinkedIn]] · [[Apple]] · [[HubSpot]] · [[Zynga]] · [[Cursor]]
 
 ## ④ 也在聊「增长与销售」的人
 
 <div class="pd-peers">
 
-[[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Colin Zima]] [[Lindsey Scrase]]
+[[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Colin Zima]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"ChatGPT":54,"Claude":50,"Facebook":11,"Google":38,"Apple":15,"HubSpot":5,"Zynga":2,"Cursor":52,"分发平台":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"ChatGPT":55,"Claude":52,"Facebook":11,"Google":38,"LinkedIn":2,"Apple":15,"HubSpot":5,"Zynga":2,"Cursor":54}</script>
 
 <script>
 (function(){

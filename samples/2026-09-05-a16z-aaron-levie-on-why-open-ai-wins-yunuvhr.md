@@ -188,8 +188,8 @@ Box 没有因为 AI 少招工程师，反而在想办法多招。「我们有几
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同嘉宾:Sofia Puccini、Theo Jaffe · 同公司:Anthropic、OpenAI · 同概念:开源权重 (open weights)、蒸馏 (distillation)</span>
+- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、蒸馏 (distillation)</span>
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Kimi K3 冲击波:开源逼近前沿,格局要变]]<span class="pd-rz">同嘉宾:Sofia Puccini、Theo Jaffe · 同公司:Anthropic、OpenAI · 同概念:蒸馏 (distillation)、Kimi K3</span>
-- [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、蒸馏 (distillation)</span>
 
 </div>
 <div class="pd-ex">

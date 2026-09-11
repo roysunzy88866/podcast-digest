@@ -1,0 +1,1409 @@
+{
+  "episode_id": "2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y",
+  "podcast": "The Peel",
+  "date": "2026-09-10",
+  "tags": [
+    "企业销售",
+    "开源变现",
+    "定价策略",
+    "AI 基础设施",
+    "创业与行业"
+  ],
+  "categories": [
+    "增长与销售",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "ron-gabrisko",
+      "type": "person",
+      "role": "host",
+      "name": "Ron Gabrisko",
+      "file": "Ron Gabrisko",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": true,
+      "how_described": "本集核心公司：从收入不到 100 万美元做到公开披露 69 亿美元的数据与 AI 平台，靠三个早期押注——全力上云、全力开源、全力做数据与 AI，并在开源之上建托管云服务变现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            10.343,
+            14.965
+          ],
+          "quote": "So you joined Databricks before you guys were really out of business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            67.652,
+            70.594
+          ],
+          "quote": "What do you think is the key to success for Databricks?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            84.929,
+            101.592
+          ],
+          "quote": "Yeah, I mean, I think the keys to success at Databricks, you know, I can talk about kind of how we built it in each stage is, but overall, like we made, you know, first of all, we have seven of the greatest, smartest founders on the planet, all PhDs from Berkeley.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            338.505,
+            344.809
+          ],
+          "quote": "And so if you think about one of the ways Databricks changed the market, too, was like, how do you monetize open source?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            391.77,
+            403.034
+          ],
+          "quote": "So at the time you had just a bunch of people using the open source product that was Databricks and you started to essentially like start to get people to pay.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            531.232,
+            539.896
+          ],
+          "quote": "You know, Databricks just comes, you know, right out of the box, ready to use, which was huge for like, you know, we kind of created the data science market.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            699.495,
+            704.079
+          ],
+          "quote": "So how do you describe the Databricks product for somebody who's never come across it before?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            772.678,
+            776.782
+          ],
+          "quote": "Like, you know, early days, I would say someone will solve cancer with Databricks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            850.071,
+            853.777
+          ],
+          "quote": "So that's, you know, anyway, high level overview on Databricks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            856.268,
+            862.132
+          ],
+          "quote": "Well, I was going to ask you about Genie, because I know you said you run your team on Databricks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            867.777,
+            870.078
+          ],
+          "quote": "Yeah, we run all Databricks on Databricks, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            994.885,
+            998.988
+          ],
+          "quote": "It's just like you're like messaging Genie, like the Databricks product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1161.173,
+            1175.146
+          ],
+          "quote": "So in terms of like Databricks versus the market, because I see all the time, every day, maybe it's actually tailed off a bit, but there was a time where like every day there was just like a new AI product that solved all your business problems or whatever, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1177.889,
+            1180.571
+          ],
+          "quote": "So like, what do you think Databricks kind of differentiates on?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1200.233,
+            1208.095
+          ],
+          "quote": "The key for Databricks and even the key for a lot of these companies to be successful at AI is all about the context of your data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1234.955,
+            1239.859
+          ],
+          "quote": "And so that's been the key for Databricks is just, you know, how we built out our data platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1276.665,
+            1277.907
+          ],
+          "quote": "That's the key to Databricks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1367.761,
+            1372.143
+          ],
+          "quote": "Well, Databricks comes along and now I can run that in a minute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1496.136,
+            1498.437
+          ],
+          "quote": "And so that's been a big difference at Databricks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1786.271,
+            1799.455
+          ],
+          "quote": "And so I think we're still at early days on how we automate all those processes, but I'm starting to see the early wins at a bunch of these customers, at a bunch of Databricks customers, and so that's super exciting for sure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1800.403,
+            1807.545
+          ],
+          "quote": "So internally at Databricks, I guess you've, I mean, you've probably added billions in revenue since kind of the ChatGPT moment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1820.429,
+            1823.87
+          ],
+          "quote": "I mean, listen, I run our entire business on Databricks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1936.886,
+            1945.957
+          ],
+          "quote": "And I think probably one of the most interesting things about kind of like your story with Databricks is you originally joined after a conversation with an investor in the company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1962.892,
+            1968.316
+          ],
+          "quote": "It's called Databricks, but it's got the most upside of any company in my whole portfolio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2312.86,
+            2316.163
+          ],
+          "quote": "So I had some advice on here's how I would pitch Databricks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 659,
+          "t": [
+            3011.602,
+            3015.023
+          ],
+          "quote": "Because I think you get a job at Databricks, it's a lottery ticket.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 851,
+          "t": [
+            3852.765,
+            3874.587
+          ],
+          "quote": "And so a lot of like, I just hosted a couple big, one big bank and one big healthcare company on the East Coast, like brought their whole team because they're, you know, they're going to come to Silicon Valley and San Francisco and they're going to want to see, you know, Databricks and OpenAI and Anthropic and, you know, NVIDIA if they're in town or the big hyperscalers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 901,
+          "t": [
+            4130.494,
+            4151.503
+          ],
+          "quote": "Was there anything as you started to kind of like, you know, climb the ladder, people started to pay you, Databricks really started taking off, like anything that was kind of surprising or unintuitive that, I don't know, maybe you got wrong initially or you kind of like changed and just like things you wouldn't have expected as things really started to scale up?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 908,
+          "t": [
+            4165.175,
+            4175.021
+          ],
+          "quote": "You know, I think, so one thing that I noticed is like, when we started selling Databricks, we were doing like 15K, 18K deals, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1100,
+          "t": [
+            5106.78,
+            5115.185
+          ],
+          "quote": "I mean, we're open source, so, you know, you can kind of plug in anything into the Databricks platform, but we serve all the models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1142,
+          "t": [
+            5283.667,
+            5287.109
+          ],
+          "quote": "And I think Databricks is the best on the planet to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1159,
+          "t": [
+            5359.718,
+            5364.141
+          ],
+          "quote": "Are they using Databricks as the product which makes them better?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1169,
+          "t": [
+            5408.519,
+            5412.341
+          ],
+          "quote": "On Databricks, we're a data platform, data and AI platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1195,
+          "t": [
+            5521.755,
+            5527.359
+          ],
+          "quote": "So Databricks is like $188 billion company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1202,
+          "t": [
+            5540.213,
+            5541.875
+          ],
+          "quote": "What's the view inside Databricks?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1219,
+          "t": [
+            5609.397,
+            5615.981
+          ],
+          "quote": "You can't say Databricks, can't say anyone at Databricks, just maybe, or like historical figure from history that you just get a lot of inspiration from?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "genie",
+      "type": "company",
+      "role": "company",
+      "name": "Genie",
+      "file": "Genie",
+      "primary": true,
+      "how_described": "本集介绍为 Databricks 的全新产品：掌握企业全部业务数据的上下文，用英文提问就能在后台自动构建模型、跑 SQL 查询、给出修复建议；Ron 自己用它运营销售业务，营收预测精确到 1%-2% 以内。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 170,
+          "t": [
+            816.601,
+            818.723
+          ],
+          "quote": "So for us, we developed a product called Genie.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            819.563,
+            821.945
+          ],
+          "quote": "And so what Genie, I actually have it on my phone.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            856.268,
+            862.132
+          ],
+          "quote": "Well, I was going to ask you about Genie, because I know you said you run your team on Databricks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            884.67,
+            888.673
+          ],
+          "quote": "And then Genie allows me to just do all the research and questions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            994.885,
+            998.988
+          ],
+          "quote": "It's just like you're like messaging Genie, like the Databricks product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1685.544,
+            1695.048
+          ],
+          "quote": "We do a lot of that automation with Genie and our Genie code and Genie agents inside our business and inside of our customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1828.293,
+            1830.995
+          ],
+          "quote": "Genie will prep me for all my customer meetings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1855.931,
+            1858.876
+          ],
+          "quote": "And 100% of my sellers have Genie on their phones.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1869.967,
+            1873.209
+          ],
+          "quote": "I'm like, hey, I ran Genie.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1916.932,
+            1918.933
+          ],
+          "quote": "Like I said, Genie's super easy to use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2795.975,
+            2798.156
+          ],
+          "quote": "Obviously with Genie, it's like a lot simpler now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3003,
+            3006.061
+          ],
+          "quote": "And then we also make them do a genie demo for their vertical.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1146,
+          "t": [
+            5302.32,
+            5309.225
+          ],
+          "quote": "It's getting there, you know, like, you know, Genie Code now can start building data engineering pipelines for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1152,
+          "t": [
+            5328.751,
+            5333.097
+          ],
+          "quote": "I mean, that's the main use case for us for GenieCode, which is part of Genie.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spark",
+      "type": "company",
+      "role": "company",
+      "name": "Spark",
+      "file": "Spark",
+      "primary": true,
+      "how_described": "本集说 Spark 是 Databricks 早期的开源产品、伯克利创始人发明的海量数据处理引擎，有几百万免费用户，是公司开源变现起点——CIO 们曾带几百人来见 Spark 的发明者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            202.28,
+            205.843
+          ],
+          "quote": "They would bring hundreds of people to meet the inventors of Spark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            362.464,
+            375.388
+          ],
+          "quote": "As we built out this model, because we're still open source core everywhere, now we've had many, many projects beyond Spark, Delta, MLflow, on and on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            407.176,
+            409.777
+          ],
+          "quote": "So, I mean, there were literally millions of people using Spark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            409.817,
+            413.338
+          ],
+          "quote": "So Spark was the open source product early days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            421.503,
+            429.169
+          ],
+          "quote": "Meet with as many customers as possible that were using Spark and understand how they're using it, what are their challenges, what would they pay for?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1316.62,
+            1321.602
+          ],
+          "quote": "Like Spark was just a massive like data processing engine, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 720,
+          "t": [
+            3254.425,
+            3258.208
+          ],
+          "quote": "Like my early thesis was like, Spark is everywhere.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "A16Z",
+      "file": "A16Z",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 407,
+          "t": [
+            1950.362,
+            1955.266
+          ],
+          "quote": "Yeah, no, I met Ben Horwitz from A16Z.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 771,
+          "t": [
+            3486.112,
+            3493.956
+          ],
+          "quote": "And I know you leveraged, I think it was A16Z, kind of a big initial wave of customer introductions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 776,
+          "t": [
+            3504.907,
+            3507.549
+          ],
+          "quote": "Well, I mean, A16Z is a little special.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3563.149,
+            3565.75
+          ],
+          "quote": "And they would do it at, like, A16Z's office.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 806,
+          "t": [
+            3648.228,
+            3651.149
+          ],
+          "quote": "So A16Z, great, great program.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 854,
+          "t": [
+            3889.857,
+            3893.039
+          ],
+          "quote": "But that's kind of what A16Z's model was.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集作为定价案例提到：Ron 曾建议 Cursor 早期的人转向按用量定价，如今那个市场已被按用量定价引爆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 314,
+          "t": [
+            1530.569,
+            1536.292
+          ],
+          "quote": "Get the answers you need while building directly in the tools you are already in, like Claude, Cursor, Lovable, and more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1660.015,
+            1669.778
+          ],
+          "quote": "Like, you know, Claude Code, Codex, Cursor, all those guys, you know, are going after how do you automate coding, accelerate software development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 960,
+          "t": [
+            4379.937,
+            4389.625
+          ],
+          "quote": "I remember talking to some of the early folks at Cursor, and I was like, you guys need to go usage-based, and now that market's just blown up with usage-based pricing, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "本集两次顺带提及：一家做基于价值定价的公司，也是使用 FDE（前置部署工程师）模式的代表。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 919,
+          "t": [
+            4206.85,
+            4210.531
+          ],
+          "quote": "You know, like there's companies out there like Palantir that'll do value-based pricing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1165,
+          "t": [
+            5391.12,
+            5398.95
+          ],
+          "quote": "Cause like a lot of companies that are using FTEs, you know, Palantir, you know, uses that model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "managed-service",
+      "type": "concept",
+      "role": "concept",
+      "name": "托管服务 (managed service)",
+      "file": "托管服务",
+      "primary": true,
+      "how_described": "本集将其视为 Databricks 改变市场的关键：最早一批「围绕开源的托管云服务」之一，开箱即用——企业自己搭要拼二三十个开源软件、配安全治理，Databricks 拿来就能用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            346.43,
+            348.892
+          ],
+          "quote": "And we built a managed service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            375.448,
+            385.211
+          ],
+          "quote": "But building a managed service around open source and how do you monetize, compute, usage, things of that nature is the future.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            446.563,
+            448.505
+          ],
+          "quote": "And again, we're selling a managed service too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            468.671,
+            471.852
+          ],
+          "quote": "So they need partners, they need a managed service to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            480.134,
+            482.235
+          ],
+          "quote": "And when you say managed service, that means you...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            570.742,
+            578.086
+          ],
+          "quote": "But yeah, creating kind of just an easy to use managed service on top of open source was a big tailwind for us.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "本集主线之一：当年大开源项目变现只能卖支持和服务，Databricks 的打法是面访开源用户、问「你愿意为什么付钱」，在开源之上加安全、可扩展性等付费功能包成托管服务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            123.685,
+            125.467
+          ],
+          "quote": "One was go all in on open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            311.114,
+            318.119
+          ],
+          "quote": "And then with the open source versus closed source, I feel like today, like, open source is not that crazy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            323.453,
+            337.684
+          ],
+          "quote": "I mean, you think of it like back then, like, you know, what were the big open source projects, maybe like Hadoop, Linux, and the model for how you monetize it was just support and services, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            338.505,
+            344.809
+          ],
+          "quote": "And so if you think about one of the ways Databricks changed the market, too, was like, how do you monetize open source?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            348.912,
+            353.376
+          ],
+          "quote": "We built one of the first managed cloud services for open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            354.197,
+            361.423
+          ],
+          "quote": "Now, a lot of the hyperscalers were using open source to monetize their compute, but not a lot of private companies were doing that back then.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            362.464,
+            375.388
+          ],
+          "quote": "As we built out this model, because we're still open source core everywhere, now we've had many, many projects beyond Spark, Delta, MLflow, on and on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            375.448,
+            385.211
+          ],
+          "quote": "But building a managed service around open source and how do you monetize, compute, usage, things of that nature is the future.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            391.77,
+            403.034
+          ],
+          "quote": "So at the time you had just a bunch of people using the open source product that was Databricks and you started to essentially like start to get people to pay.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            409.817,
+            413.338
+          ],
+          "quote": "So Spark was the open source product early days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            440.638,
+            444.981
+          ],
+          "quote": "So you start adding these features as a pay for on top of the open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            457.356,
+            460.299
+          ],
+          "quote": "With open source, they tend to love like building their own stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            461.729,
+            468.631
+          ],
+          "quote": "But when you go to enterprise, they don't necessarily have all the expertise to build large open source projects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            515.504,
+            519.506
+          ],
+          "quote": "You know, 20, 30 different open source pieces of software.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            570.742,
+            578.086
+          ],
+          "quote": "But yeah, creating kind of just an easy to use managed service on top of open source was a big tailwind for us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1187.05,
+            1192.232
+          ],
+          "quote": "Like, I mean, obviously OpenAI and Anthropic had their models, but now there's lots of open source models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 724,
+          "t": [
+            3272.416,
+            3279.82
+          ],
+          "quote": "And so you hire a bunch of people you trust to just go talk to all those open source users and get that information and find those trends.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 726,
+          "t": [
+            3284.403,
+            3304.493
+          ],
+          "quote": "I mean with you know a lot of funding getting thrown around like that's the first step like if you're trying to sell a product you need to hire you know a solid sales leader or at least some sales people that you trust and go you know especially an open source project like go talk to a bunch of customers that use the open source and understand what they'll pay for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 749,
+          "t": [
+            3398.007,
+            3403.952
+          ],
+          "quote": "Well, customers in open source, they don't really want to buy anything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 763,
+          "t": [
+            3443.361,
+            3448.144
+          ],
+          "quote": "That's being said, like if you have a great PLG motion, like our PLG motion was more around open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3448.284,
+            3452.167
+          ],
+          "quote": "It was like we have tons of open source folks coming in the door.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1100,
+          "t": [
+            5106.78,
+            5115.185
+          ],
+          "quote": "I mean, we're open source, so, you know, you can kind of plug in anything into the Databricks platform, but we serve all the models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1103,
+          "t": [
+            5120.988,
+            5127.631
+          ],
+          "quote": "And we think open source models will be used for a lot of the other tasks and that market's going to grow super fast.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "usage-based-pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "按用量定价 (usage-based pricing)",
+      "file": "按用量定价",
+      "primary": true,
+      "how_described": "本集最反直觉的判断：按用户定价已是过去式（按人头收费会让客户限制使用人数、压低用量），要把价格挂在代表价值且随时间增长的单位上——Databricks 选消耗量，编程工具和前沿实验室卖 token 本质也是用量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 958,
+          "t": [
+            4371.261,
+            4375.762
+          ],
+          "quote": "But again, I think everyone is or will move to usage-based pricing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 960,
+          "t": [
+            4379.937,
+            4389.625
+          ],
+          "quote": "I remember talking to some of the early folks at Cursor, and I was like, you guys need to go usage-based, and now that market's just blown up with usage-based pricing, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-sales",
+      "type": "concept",
+      "role": "concept",
+      "name": "企业销售 (enterprise sales)",
+      "file": "企业销售",
+      "primary": true,
+      "how_described": "本集花了最大篇幅教的销售课：销售是「先问诊后开药」，像看医生要先弄清哪里出了问题；推荐 MedPick 和 command of the message 两个框架，技术型买家必须配技术型销售，POC 免费但要有成功标准、时间盒和高管背书。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 538,
+          "t": [
+            2458.014,
+            2461.036
+          ],
+          "quote": "It's a pretty well-known kind of enterprise sales motion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2468.42,
+            2474.181
+          ],
+          "quote": "I mean, those are two frameworks I would recommend for anybody that's trying to learn enterprise sales or build enterprise sales.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 912,
+          "t": [
+            4180.404,
+            4183.666
+          ],
+          "quote": "Usually people say like, especially if you're doing enterprise sales, that's bad.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "go-to-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "进入市场 (go-to-market)",
+      "file": "进入市场",
+      "primary": true,
+      "how_described": "本集嘉宾负责的整个体系：他给了企业阶段地图——0 到一两千万找产品市场契合，两千万到 1 亿建可重复 playbook，1 亿到 10 亿做国际化和渠道，数十亿之后拼领导者和文化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            144.159,
+            148.101
+          ],
+          "quote": "And then I think we have the best go to market team on the planet, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 823,
+          "t": [
+            3743.162,
+            3748.383
+          ],
+          "quote": "Founding team, and they're trying to say, like, how do I build that sales go-to-market engine?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 826,
+          "t": [
+            3755.945,
+            3758.526
+          ],
+          "quote": "It's like, how do I build that go-to-market team?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1007,
+          "t": [
+            4606.723,
+            4621.047
+          ],
+          "quote": "Has anything changed about the go-to-market philosophy, strategy, structure, how you sell as the products become more AI-native, generative AI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1019,
+          "t": [
+            4689.563,
+            4699.167
+          ],
+          "quote": "You know, but I think one of the, a couple of the things that, I mean, each stage, like I said, has been a development for the go-to-market team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1190,
+          "t": [
+            5503.512,
+            5510.055
+          ],
+          "quote": "So that does report up into go-to-market, but that's run by one of our co-founders, Arsalan.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是增长的单位而非员工数——「公司不增长员工数，增长的是智能体」，所以按用户定价过时了；Genie 能启动智能体，企业还要治理智能体确保它们不泄露数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 315,
+          "t": [
+            1536.912,
+            1545.237
+          ],
+          "quote": "And for the first time, understand if your agents actually work, measure quality, debug failures, experiment, and measure their ROI with agent analytics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1556.121,
+            1567.847
+          ],
+          "quote": "The hardest part about building an agent is everything around it, connecting to the tools your team and customers rely on, letting agents take action with the right permissions, and keeping everything reliable and cost-efficient once you're in production.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据上下文 (context)",
+      "file": "数据上下文",
+      "primary": true,
+      "how_described": "本集反复强调的核心论点：「这其实与模型的强大程度无关，模型已经足够聪明了」，把模型和你的专有数据、业务上下文连起来才是企业 AI 成功的关键——四个 C 的第一个就是上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            810.998,
+            816.501
+          ],
+          "quote": "It's all about like having the context of your data and attaching that to AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            959.676,
+            969.484
+          ],
+          "quote": "It's definitely not allowing you to just ask questions and knows all the context, not just from whatever that dashboard was built on, but it knows context of all your data, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1200.233,
+            1208.095
+          ],
+          "quote": "The key for Databricks and even the key for a lot of these companies to be successful at AI is all about the context of your data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1217.702,
+            1221.945
+          ],
+          "quote": "And, you know, it's all about like the context that you provided.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1222.285,
+            1230.131
+          ],
+          "quote": "And so your ability to connect those models with your proprietary data and your context or business is really what unlocks",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1091,
+          "t": [
+            5059.529,
+            5064.852
+          ],
+          "quote": "The first, we talked a little bit about context, like how do I attach AI to my data?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1092,
+          "t": [
+            5064.872,
+            5073.136
+          ],
+          "quote": "It needs the context of my data to be able to be smart about the decisions and the predictions and things I want to make for my business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1124,
+          "t": [
+            5207.804,
+            5210.447
+          ],
+          "quote": "How do you get the context of your enterprise AI data?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "poc",
+      "type": "concept",
+      "role": "concept",
+      "name": "POC",
+      "file": "POC",
+      "primary": false,
+      "how_described": "本集说 Databricks 早期的 POC 和试点基本全免费——「我们不是想靠试点赚钱，是要证明价值」，但要设成功标准、30 天时间盒、必须有高管背书。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 798,
+          "t": [
+            3605.3,
+            3608.881
+          ],
+          "quote": "They give you a POC or they'll give you a small land and now you're in the door.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 816,
+          "t": [
+            3694.885,
+            3700.506
+          ],
+          "quote": "Again, what you're trying to come out of there is with at least one follow up, one relationship, one POC, something like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 889,
+          "t": [
+            4033.493,
+            4037.916
+          ],
+          "quote": "And so that's what a POC or a pilot, in my opinion, is really all about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 891,
+          "t": [
+            4050.546,
+            4059.09
+          ],
+          "quote": "Succeed in a bunch of projects and you have a track record, then you can use a lot of those things and you may not necessarily need to do a POC or a pilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 892,
+          "t": [
+            4059.11,
+            4069.074
+          ],
+          "quote": "But even in those cases, I would fund the POC or pilot if I know I'm gonna get an opportunity and a bigger contract at the end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 893,
+          "t": [
+            4069.094,
+            4077.478
+          ],
+          "quote": "So again, I think for those, I wouldn't make pricing the POC or the pilot the gating factor.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "plg",
+      "type": "concept",
+      "role": "concept",
+      "name": "PLG",
+      "file": "PLG",
+      "primary": false,
+      "how_described": "本集提到 Databricks 早期试过 PLG、以为客户会主动上门但不管用，因为开源客户不想买任何东西；PLG 对 Anthropic 这类公司很有效，但就算 PLG 起飞也需要销售去谈企业客户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 567,
+          "t": [
+            2582.269,
+            2591.292
+          ],
+          "quote": "I'm a big advocate of you need salespeople to grow your company, but the PLG motion has been great for companies like Anthropic and stuff like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2591.312,
+            2592.573
+          ],
+          "quote": "They're doing great with PLG.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2656.487,
+            2662.575
+          ],
+          "quote": "And even in the case where PLG takes off, you want salespeople then to be able to go talk to your enterprise customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 742,
+          "t": [
+            3379.098,
+            3381.819
+          ],
+          "quote": "And initially we thought like, Hey, we tried PLG.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 757,
+          "t": [
+            3426.858,
+            3431.701
+          ],
+          "quote": "Like that's part of the, you know, PLG is more about like people come to you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 763,
+          "t": [
+            3443.361,
+            3448.144
+          ],
+          "quote": "That's being said, like if you have a great PLG motion, like our PLG motion was more around open source.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fde",
+      "type": "concept",
+      "role": "concept",
+      "name": "FDE",
+      "file": "FDE",
+      "primary": false,
+      "how_described": "本集说每家公司都有 FDE（前置部署工程师）模式、Databricks 的最好：关键在于不只交付项目，还要让方案可扩展、成本高效、随时间演进而不必重新布线一切。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 361,
+          "t": [
+            1756.241,
+            1761.063
+          ],
+          "quote": "And so, you know, that level of expertise, I mean, that's how we use our FDE motion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1130,
+          "t": [
+            5225.997,
+            5228.098
+          ],
+          "quote": "Like, I mean, everybody's got an FDE model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

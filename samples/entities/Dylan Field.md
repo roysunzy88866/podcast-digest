@@ -46,11 +46,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tibo Sottiaux]] [[Eric Simons]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]] [[Claire Veva]]
+[[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figma":15,"MCP":29,"Lenny":67,"Nico":1,"Figma Make":2,"GitHub":21,"FigJam":1,"Notion":12,"Dev Mode":1,"Slack":23}</script>
+<script type="application/json" class="pd-epn">{"Figma":15,"MCP":33,"Lenny":67,"Nico":1,"Figma Make":2,"GitHub":22,"FigJam":1,"Notion":12,"Dev Mode":1,"Slack":23}</script>
 
 <script>
 (function(){

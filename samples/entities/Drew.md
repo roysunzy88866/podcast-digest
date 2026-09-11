@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Alexander Whedon]] [[Roman Ugarte]] [[Lucas Kaiser]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[JD]] [[Julie Yoo]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":8,"Guy Fajani":3,"TESL":4,"技能":12,"循环":1,"Factory":4,"Tesla 智能体":1,"代码审查":2,"验证器":1,"上下文":14}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":8,"Guy Fajani":3,"TESL":4,"技能":13,"循环":1,"Factory":4,"Tesla 智能体":1,"代码审查":2,"验证器":1,"上下文":15}</script>
 
 <script>
 (function(){

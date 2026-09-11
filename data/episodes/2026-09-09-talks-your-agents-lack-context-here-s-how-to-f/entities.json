@@ -1,0 +1,488 @@
+{
+  "episode_id": "2026-09-09-talks-your-agents-lack-context-here-s-how-to-f",
+  "podcast": "精选演讲",
+  "date": "2026-09-09",
+  "tags": [
+    "上下文工程",
+    "AI 编程",
+    "智能体",
+    "RAG",
+    "上下文引擎"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "brandon-waselnuk",
+      "type": "person",
+      "role": "guest",
+      "name": "Brandon Waselnuk",
+      "file": "Brandon Waselnuk",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "unblocked",
+      "type": "company",
+      "role": "company",
+      "name": "Unblocked",
+      "file": "Unblocked",
+      "primary": true,
+      "how_described": "嘉宾 Brandon 所在公司,做面向工程团队及周边技术团队的上下文引擎,让智能体和员工随时查询组织上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            50.614,
+            51.334
+          ],
+          "quote": "I work at Unblocked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            424.466,
+            437.758
+          ],
+          "quote": "We have multiple surface areas because human engineers still talk to Unblocked all the time to get information they need in Slack or otherwise, but then you want token-optimized responses if you're just speaking machine to machine in order to not waste a bunch of bold classes on your token spend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            756.282,
+            765.505
+          ],
+          "quote": "We've got salespeople closing deals earlier in their quarter because they're able to just query the unblocked context engine on the fly while in the field, and so many more.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "本集演讲主线:差距不再是智能而是上下文,关键是在模型周围工程化地构建它高效、省 token 干活所需的上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            22.834,
+            38.868
+          ],
+          "quote": "I'm here to talk to you about context engineering, and I have the good fortune of following AJ from LinkedIn, because he talked a lot about the system that we actually design and sell to other solutions, and I'm gonna give you a bunch of open source tools, so if you watched that last talk just before me, you're gonna get a bunch of tool chains so you can go mess around yourself, and I'll teach you a bunch of techniques today.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文引擎 (context engine)",
+      "file": "上下文引擎",
+      "primary": true,
+      "how_described": "本集核心产物:统一系统上下文、定向检索、冲突解决、个性化相关性、token 优化、权限强制执行六特征,供智能体查询以获得对组织的理解",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            81.512,
+            86.235
+          ],
+          "quote": "So to get in the right headspace, for years you have to consider that you have been the context engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            234.903,
+            248.613
+          ],
+          "quote": "And then finally, if your hope is to move all the way out of the loop, you're like background agents, get it done, make no mistakes, you really need to make sure that you have a context engine so those agents can query it and get all the answers they need so they can keep operating in an effective way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            372.975,
+            378.937
+          ],
+          "quote": "So your team needs a context engine because what it should do is understand who you are and where you work in an organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            572.655,
+            585.126
+          ],
+          "quote": "This is the type of experience that you typically see when you're using a context engine because the majority of those wasted search tokens where it has to grep at the beginning of every session to understand and discover things are no longer there when it's hydrated with context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            645.103,
+            652.288
+          ],
+          "quote": "It's a really cool tool to understand where your team works and get that social network in there in order to focus a context engine if you're gonna be building these tools yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            692.819,
+            700.427
+          ],
+          "quote": "And then finally on Monday we delivered this workshop which was going beyond RAG and taught how to build a relational context engine from scratch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            737.957,
+            741.458
+          ],
+          "quote": "Use cases of a context engine, of course, do go beyond code generation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            756.282,
+            765.505
+          ],
+          "quote": "We've got salespeople closing deals earlier in their quarter because they're able to just query the unblocked context engine on the fly while in the field, and so many more.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说每次新开终端会话的智能体非常聪明却对组织一无所知,沿采用曲线走坏上下文成本会复利累积(doom loops、审查税、后台智能体)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            112.976,
+            119.338
+          ],
+          "quote": "Every time you create a new terminal session with an agent in it, it's very intelligent, but it doesn't have any context on how your company operates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            204.208,
+            205.849
+          ],
+          "quote": "You usually ask your agent to do something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            271.318,
+            275.842
+          ],
+          "quote": "You then allow your agent to grep over that and it gets a bunch of good data and then it will perform better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            303.311,
+            307.271
+          ],
+          "quote": "You can give it to your agent, and now it can basically get information from another source system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            308.111,
+            315.933
+          ],
+          "quote": "The problem is, of course, based on how you write the server description, the tool descriptions, your agent may never call it, even though it should have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            320.834,
+            327.635
+          ],
+          "quote": "What that means is the agent, when it finds the first piece of information that it thinks is correct, it goes, oh, I have what I need, and it proceeds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            328.555,
+            338.142
+          ],
+          "quote": "In most organizations, there's a Slack conversation from last night that says you should be doing A instead of doing B, and the agent will never find it if it found some architecture record first.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            352.452,
+            356.798
+          ],
+          "quote": "What I'm basically trying to say is what your agent can't see is everything below the waterline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            653.69,
+            655.751
+          ],
+          "quote": "The next is called the repo rules agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            722.54,
+            733.79
+          ],
+          "quote": "So this shows you how to do a schema-less basically lookup that allows the agent to discover a schema and then write queries against it deterministically in order to get that type of relational data out.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "让智能体从外部源系统取信息的协议,很棒但存在平台期:工具描述写得不好智能体可能不调用,且有搜索满足偏差——获取信息不等于理解",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            297.178,
+            298.659
+          ],
+          "quote": "The next is the MCP plateau.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            407.668,
+            418.318
+          ],
+          "quote": "MCP allows us to use OAuth and other scopes and SSO, but if someone asks a question over here who's not supposed to know about secret project A, you need to make sure that doesn't leak into the response.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集说 RAG 是了不起的技术,但单独答不了「过去一周我参与过哪些关于鉴权的开放 PR」这类关系型问题,需要让智能体发现 schema 并确定性查询来补",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            692.819,
+            700.427
+          ],
+          "quote": "And then finally on Monday we delivered this workshop which was going beyond RAG and taught how to build a relational context engine from scratch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            707.081,
+            709.785
+          ],
+          "quote": "But in short, RAG is an incredible technique, and you want that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            718.917,
+            721.019
+          ],
+          "quote": "RAG cannot answer that question alone.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "satisfaction-of-search-bias",
+      "type": "concept",
+      "role": "concept",
+      "name": "搜索满足偏差 (satisfaction of search bias)",
+      "file": "搜索满足偏差",
+      "primary": false,
+      "how_described": "本集引用的已知偏差:智能体找到第一份认为正确的信息就说够了并继续,从而漏掉昨晚 Slack 里推翻旧结论的最新决策",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            316.653,
+            320.194
+          ],
+          "quote": "Or if it does, there's a known bias called the satisfaction of search bias.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "doom-loops",
+      "type": "concept",
+      "role": "concept",
+      "name": "厄运循环 (doom loops)",
+      "file": "厄运循环",
+      "primary": false,
+      "how_described": "本集用来说明坏上下文复利成本:智能体说做完了、你反复纠正,浪费搜索 token 和返工时间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            201.767,
+            203.748
+          ],
+          "quote": "Because as you move across, you get into doom loops.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到它培育了 Mythos 这类持续变强的模型;其 API 密钥可用于给开源社交评论网络工具做团队标注",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            636.557,
+            644.563
+          ],
+          "quote": "And if you optionally add one of the API keys for either OpenAI or Anthropic, it'll determine what your teams are by doing some labeling for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            795.057,
+            799.059
+          ],
+          "quote": "We will continue to get incredible models like Mythos as it's been grown by Anthropic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到可选添加 OpenAI 的 API 密钥,让社交评论网络工具自动标注团队划分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            636.557,
+            644.563
+          ],
+          "quote": "And if you optionally add one of the API keys for either OpenAI or Anthropic, it'll determine what your teams are by doing some labeling for you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "concept",
+      "role": "concept",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集开源工具用全确定性编程遍历你的 GitHub,搞清团队里谁在提交、在哪提交、谁在审查,产出专家图谱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            276.503,
+            281.607
+          ],
+          "quote": "The issue is first now you have to distribute that so maybe throw it up in the GitHub and your team can grab it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            615.262,
+            622.728
+          ],
+          "quote": "But this is an open source tool that we've got that actually using all deterministic programming goes over your GitHub and understands who works on your team.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "token-optimization",
+      "type": "concept",
+      "role": "concept",
+      "name": "token 优化 (token optimization)",
+      "file": "token 优化",
+      "primary": false,
+      "how_described": "本集说人机对话可以啰嗦,机器对机器必须精简不撑爆上下文窗口;实测带上下文同一任务从 2100 万 token 降到 1080 万",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            539.848,
+            544.39
+          ],
+          "quote": "That token optimization, making sure the response is good and effective and doesn't bloat the window.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

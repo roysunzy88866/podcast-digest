@@ -33,7 +33,7 @@ unlisted: true
 
 [[Lenny]] · [[Brian McClendon]] · [[Bret Taylor]] · [[Niantic Spatial]] · [[Sierra]] · [[Google Earth]] · [[智能体]] · [[NVIDIA]] · [[基于结果的定价]] · [[四维世界模型]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Brian McClendon":1,"Bret Taylor":1,"Niantic Spatial":1,"Sierra":5,"Google Earth":1,"智能体":1,"NVIDIA":31,"基于结果的定价":1,"四维世界模型":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Brian McClendon":1,"Bret Taylor":1,"Niantic Spatial":1,"Sierra":5,"Google Earth":1,"智能体":1,"NVIDIA":32,"基于结果的定价":1,"四维世界模型":1}</script>
 
 <script>
 (function(){

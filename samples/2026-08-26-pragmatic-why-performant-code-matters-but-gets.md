@@ -122,6 +122,7 @@ Casey 在自己的项目里完全不用 AI 工具，原因很简单：他写游�
 **顺着「AI 编程」挖下去**
 
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同概念:测试驱动开发 (test-driven development)</span>
+- [[2026-09-09-talks-the-exact-tools-used-to-port-a-massive-c|一个周末把几十万行代码从 Python 移植到 TypeScript]]<span class="pd-rz">同概念:Python</span>
 
 </div>
 <div class="pd-ex">

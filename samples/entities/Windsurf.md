@@ -29,7 +29,7 @@ unlisted: true
 
 [[ChatGPT]] · [[智能体]] · [[OpenAI]] · [[Copilot]] · [[Cursor]] · [[Lenny]] · [[Ben]] · [[Sarah Wang]] · [[Peter Deng]] · [[Will]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":54,"智能体":1,"OpenAI":100,"Copilot":8,"Cursor":52,"Lenny":67,"Ben":1,"Sarah Wang":2,"Peter Deng":1,"Will":1}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":55,"智能体":1,"OpenAI":102,"Copilot":8,"Cursor":54,"Lenny":67,"Ben":1,"Sarah Wang":2,"Peter Deng":1,"Will":1}</script>
 
 <script>
 (function(){

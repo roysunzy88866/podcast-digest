@@ -64,11 +64,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Demetrios Brinkmann]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]] [[Aaron Schumm]] [[JD]] [[Julie Yoo]] [[Anish Acharya]] [[Aaron Levie]]
+[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":100,"Anthropic":112,"基础模型":1,"AGI":20,"Lenny":67,"Jacob Efron":1,"Google":38,"LLM":29,"Meta":29,"AI 编程":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":102,"Anthropic":114,"基础模型":1,"AGI":20,"Lenny":67,"Jacob Efron":1,"Google":38,"LLM":29,"Meta":29,"AI 编程":1}</script>
 
 <script>
 (function(){

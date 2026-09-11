@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Block</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Block">BL</div><div class="pi"><h1 class="pt">Block</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Block">BL</div><div class="pi"><h1 class="pt">Block</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]]**(01:39起):本集讨论的核心公司,在 CTO 带领下从 GM 结构重组为职能型架构,成功转型为 AI 原生的大型科技公司,内部全员使用自研智能体提升生产力。
 - **[[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活》]]**(00:52起):本集说 Block 是 Square 的控股公司，Jack Dorsey 在组织设计方面是真正的先驱，发布了 Buzz 等新产品
+- **[[2026-09-09-talks-acp-the-universal-remote-control-for-ai|《AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议》]]**(00:35起):嘉宾 Alex Hancock 所在的公司，是 Cash App、Square 和 Tidal 的母公司；Goose 最初是 Block 的内部项目，开源后 Block 仍有许多同事参与开发
 
 ## ① 提到它的金句
 
@@ -24,18 +25,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为被讨论公司
 - [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|《Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活》]] — 作为被讨论公司
+- [[2026-09-09-talks-acp-the-universal-remote-control-for-ai|《AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Square]] · [[Lenny]] · [[Willem Avé]] · [[Dhanji Prasanna]] · [[业务单元模式]] · [[Goose]] · [[职能制]] · [[MCP]] · [[DRI]]
+[[智能体]] · [[Goose]] · [[MCP]] · [[Square]] · [[Lenny]] · [[Willem Avé]] · [[Alex Hancock]] · [[Dhanji Prasanna]] · [[业务单元模式]] · [[Zed]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Square":4,"Lenny":67,"Willem Avé":1,"Dhanji Prasanna":1,"业务单元模式":1,"Goose":1,"职能制":1,"MCP":29,"DRI":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Goose":2,"MCP":33,"Square":4,"Lenny":67,"Willem Avé":1,"Alex Hancock":1,"Dhanji Prasanna":1,"业务单元模式":1,"Zed":2}</script>
 
 <script>
 (function(){

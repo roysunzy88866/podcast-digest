@@ -151,9 +151,9 @@ Anthropic 指控阿里巴巴通过正常付费账号蒸馏(用强模型的输出
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:开源 AI (open source)、推理 (inference)、蒸馏 (distillation)</span>
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同公司:Anthropic、Hugging Face、Mistral · 同概念:开源 AI (open source)、蒸馏 (distillation)</span>
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|主导投资 Anthropic 的人：风投的游戏规则已经彻底变了]]<span class="pd-rz">同公司:Anthropic、Lovable、OpenAI · 同概念:开源 AI (open source)、推理 (inference)</span>
-- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:开源 AI (open source)</span>
 
 </div>
 <div class="pd-ex">
