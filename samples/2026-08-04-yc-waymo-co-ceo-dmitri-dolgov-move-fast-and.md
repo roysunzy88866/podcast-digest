@@ -10,14 +10,14 @@ image: "/covers/2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and.jpg"
 description: Waymo 技术负责人分享在物理世界大规模部署 AI 智能体的七条技术教训，从演示到产品的鸿沟、传感器架构选型，到基础模型与仿真飞轮。
 host: "[[Dmitri Dolgov]]"
 companies: ["[[Waymo]]"]
-concepts: ["[[Waymo driver]]", "[[智能体]]", "[[物理 AI]]", "[[LiDAR]]", "[[端到端模型]]", "[[模拟器]]", "[[世界模型]]", "[[Waymo 基础模型]]", "[[结构增强型端到端]]", "[[闭环仿真]]", "[[飞轮]]", "[[安全与准备框架]]"]
+concepts: ["[[Waymo driver]]", "[[智能体]]", "[[物理 AI]]", "[[LiDAR]]", "[[端到端训练]]", "[[模拟器]]", "[[世界模型]]", "[[Waymo 基础模型]]", "[[结构增强型端到端]]", "[[闭环仿真]]", "[[飞轮]]", "[[安全与准备框架]]"]
 category: 智能体
 tags:
   - 智能体
   - AI 安全
 socialImage: "https://talk.solomind.cc/covers/2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and#post","headline":"Waymo 谈物理 AI 的七条实战教训","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and","mainEntityOfPage":"https://talk.solomind.cc/2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and","description":"Waymo 技术负责人分享在物理世界大规模部署 AI 智能体的七条技术教训，从演示到产品的鸿沟、传感器架构选型，到基础模型与仿真飞轮。","datePublished":"2026-08-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and.jpg","about":[{"@type":"Person","name":"Dmitri Dolgov"},{"@type":"Organization","name":"Waymo"},{"@type":"Thing","name":"Waymo driver"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"物理 AI (physical AI)"},{"@type":"Thing","name":"LiDAR"},{"@type":"Thing","name":"端到端模型 (end-to-end)"},{"@type":"Thing","name":"模拟器 (simulator)"},{"@type":"Thing","name":"世界模型 (world model)"},{"@type":"Thing","name":"Waymo 基础模型 (Waymo Foundation Model)"},{"@type":"Thing","name":"结构增强型端到端 (structure augmented end-to-end)"},{"@type":"Thing","name":"闭环仿真 (closed loop)"},{"@type":"Thing","name":"飞轮 (flywheel)"},{"@type":"Thing","name":"安全与准备框架 (safety and readiness framework)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Waymo 谈物理 AI 的七条实战教训","item":"https://talk.solomind.cc/2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and#post","headline":"Waymo 谈物理 AI 的七条实战教训","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and","mainEntityOfPage":"https://talk.solomind.cc/2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and","description":"Waymo 技术负责人分享在物理世界大规模部署 AI 智能体的七条技术教训，从演示到产品的鸿沟、传感器架构选型，到基础模型与仿真飞轮。","datePublished":"2026-08-31","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and.jpg","about":[{"@type":"Person","name":"Dmitri Dolgov"},{"@type":"Organization","name":"Waymo"},{"@type":"Thing","name":"Waymo driver"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"物理 AI (physical AI)"},{"@type":"Thing","name":"LiDAR"},{"@type":"Thing","name":"端到端训练 (end to end)"},{"@type":"Thing","name":"模拟器 (simulator)"},{"@type":"Thing","name":"世界模型 (world model)"},{"@type":"Thing","name":"Waymo 基础模型 (Waymo Foundation Model)"},{"@type":"Thing","name":"结构增强型端到端 (structure augmented end-to-end)"},{"@type":"Thing","name":"闭环仿真 (closed loop)"},{"@type":"Thing","name":"飞轮 (flywheel)"},{"@type":"Thing","name":"安全与准备框架 (safety and readiness framework)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Waymo 谈物理 AI 的七条实战教训","item":"https://talk.solomind.cc/2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Waymo 谈物理 AI 的七条实战教训</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[Waymo]]
 >
-> **概念** [[Waymo driver]] · [[智能体]] · [[物理 AI]] · [[LiDAR]] · [[端到端模型]] · [[模拟器]] · [[世界模型]] · [[Waymo 基础模型]] · [[结构增强型端到端]] · [[闭环仿真]] · [[飞轮]] · [[安全与准备框架]]
+> **概念** [[Waymo driver]] · [[智能体]] · [[物理 AI]] · [[LiDAR]] · [[端到端训练]] · [[模拟器]] · [[世界模型]] · [[Waymo 基础模型]] · [[结构增强型端到端]] · [[闭环仿真]] · [[飞轮]] · [[安全与准备框架]]
 
 这是 [[Waymo|Waymo]] 的一位技术负责人在 Y Combinator 创业学校上的演讲，主题是：在真实物理世界（而非屏幕上）大规模构建和部署 AI [[智能体|智能体]]，到底需要什么。他们做的产品是 [[Waymo driver|Waymo driver]]——一辆完全没有人开的出租车，目前每周在美国 15 个城市跑超过 400 万英里。最反直觉的一点：[[物理 AI|物理 AI]] 最棒的时刻，看起来应该像什么都没发生——不是炫技，而是安全平稳地把任务完成，车上的人甚至没注意到刚躲过一次危险。
 
@@ -75,7 +75,7 @@ jsonLd: |
 
 导致了统一还是碎片化？"——发布门槛要同时要求突破性能和根本性简化。
 
-这套理念产出了 [[Waymo 基础模型|Waymo 基础模型]]——一个"多模态世界动作语言模型"。多模态指能处理相机、LiDAR、雷达输入；[[世界模型|世界模型]]指内在理解物理规律和社交语义；动作模型指理解自身行动对世界的影响；语言对齐指能调用视觉语言模型的通用世界知识，在罕见语义场景中特别有用。架构是编码器-解码器[[端到端模型|端到端模型]]，分"快慢双路径"：快路径融合原始传感器数据做毫秒级安全决策（像驾驶本能，行人冲出来立刻刹车），慢路径做更复杂的语义理解（比如识别路边着火的车，即使几何上前方畅通也决定绕行）。
+这套理念产出了 [[Waymo 基础模型|Waymo 基础模型]]——一个"多模态世界动作语言模型"。多模态指能处理相机、LiDAR、雷达输入；[[世界模型|世界模型]]指内在理解物理规律和社交语义；动作模型指理解自身行动对世界的影响；语言对齐指能调用视觉语言模型的通用世界知识，在罕见语义场景中特别有用。架构是编码器-解码器[[端到端训练|端到端模型]]，分"快慢双路径"：快路径融合原始传感器数据做毫秒级安全决策（像驾驶本能，行人冲出来立刻刹车），慢路径做更复杂的语义理解（比如识别路边着火的车，即使几何上前方畅通也决定绕行）。
 
 ## 结构增强的端到端：结构要引导规模，不要对抗规模
 

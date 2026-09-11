@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>52</b> 集 · <b>26</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>54</b> 集 · <b>26</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -39,6 +39,7 @@ unlisted: true
 - **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(06:25起):本集把它说成:Anthropic 的模型(演讲中常口误为 Cloud),它的任务视界从 Opus 3 时代的 10-20 分钟一直拉长到了 12 小时以上的长程自主工作。
 - **[[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]]**(07:32起):本集说 Claude 的文字输出风格是冗余废话，形容词堆砌、不停道歉和规避，读起来血压飙升；Claude Code 中的体验比 Worker Chat 稍好
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(00:00起):本集将其描述为 Anthropic 旗下的核心 AI 模型，不仅具备编码、工具调用和智能体能力，还能充当陪练主动反驳用户想法，从而帮助人类得出更好的结论。
+- **[[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int|《Parag Agrawal:当 AI 成为网络的第二个用户》]]**(19:33起):本集说 Roadrunner 演示环境搭建的自动化思路，是把解决方案架构负责人的技能嵌入 Claude 去尝试。
 - **[[2026-07-28-eyeonai-video-is-about-to-stop-being-one-way-and|《Synthesia CEO：AI 视频不会进好莱坞，而是创造新媒介》]]**(32:21起):本集只顺带提到 Victor 最近切换到 Claude 来理解自己的思维方式，用于回答战略问题
 - **[[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]]**(26:18起):本集把它说成:Tom 用以大幅提升独立贡献者(IC)效率的 AI 工具。他不仅用 Claude Code 亲自推过生产代码,还用它直接代替过去需去打断工程师的琐碎提问(如理解代码库逻辑、估算工作量 LOE)。
 - **[[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]]**(00:56起):本集开头提到现在一个多产的16岁少年大概可以直接提示 Claude 去编写他们的 Lisp 方言
@@ -62,6 +63,7 @@ unlisted: true
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(34:36起):本集说团队在 Codex 和 Claude 之间的使用大概五五开(五个月前还以 Claude 为主),同时 Anthropic 的 Claude 被用作界面层输出的例子。
 - **[[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|《初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论》]]**(41:27起):本集提及 OpenClaw 用 Claude Pro/Max 套餐当大脑被封禁一事，牵出对订阅模式的批评。
 - **[[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|《把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律》]]**(00:59起):本集讨论的主要宿主模型之一：让它在带 UI 的场景下保持多轮搜索很难，需要靠工具描述引导和搜索/渲染分离来纠正行为
+- **[[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p|《把互联网装进智能体：FastMCP 作者用 Python 造 UI 的古怪实验》]]**(15:09起):本集演示中作为被请求「流式输出你能想到的最有趣的 UI」的智能体出现。
 
 ## ① 提到它的金句
 
@@ -121,7 +123,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*52 集*
+*54 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -151,6 +153,7 @@ unlisted: true
 - [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为概念
 - [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]] — 作为概念
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念
+- [[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int|《Parag Agrawal:当 AI 成为网络的第二个用户》]] — 作为被讨论公司(提及)
 - [[2026-07-28-eyeonai-video-is-about-to-stop-being-one-way-and|《Synthesia CEO：AI 视频不会进好莱坞，而是创造新媒介》]] — 作为被讨论公司(提及)
 - [[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]] — 作为被讨论公司(提及)
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]] — 作为概念
@@ -175,14 +178,15 @@ unlisted: true
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司
 - [[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|《初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论》]] — 作为概念(提及)
 - [[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|《把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律》]] — 作为概念
+- [[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p|《把互联网装进智能体：FastMCP 作者用 Python 造 UI 的古怪实验》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Codex]] · [[OpenAI]] · [[Lenny]] · [[Google]] · [[MCP]] · [[Claude Code]] · [[vibe coding]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Codex]] · [[OpenAI]] · [[Lenny]] · [[MCP]] · [[Google]] · [[Claude Code]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":114,"ChatGPT":55,"Codex":44,"OpenAI":102,"Lenny":67,"Google":38,"MCP":33,"Claude Code":52,"vibe coding":30}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":115,"ChatGPT":57,"Codex":44,"OpenAI":102,"Lenny":67,"MCP":34,"Google":38,"Claude Code":53,"vibe coding":30}</script>
 
 <script>
 (function(){

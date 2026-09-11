@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]] [[Brandon Waselnuk]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":7,"智能体":1,"计算机使用":10,"MCP":33,"Agentic AI Foundation":1,"harness":26,"Claude Code":52,"MLOps community":1,"智能体蜂群":1,"去中介化":2}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":7,"智能体":1,"计算机使用":10,"MCP":34,"Agentic AI Foundation":1,"harness":26,"Claude Code":53,"MLOps community":1,"智能体蜂群":1,"去中介化":2}</script>
 
 <script>
 (function(){

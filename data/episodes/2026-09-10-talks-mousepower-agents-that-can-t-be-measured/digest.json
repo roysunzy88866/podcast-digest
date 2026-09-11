@@ -1,0 +1,196 @@
+{
+  "title_zh": "鼠标力：为智能体时代找回「马力」这把尺子",
+  "tldr": "Utori 创始设计师 Maximilian Piros 借 James Watt 发明「马力」的故事，论述智能体缺一套能向客户传达价值的衡量标准。",
+  "digest_md": "这一集是场大会演讲，主角叫 Maximilian Piros,他在一家做计算机使用模型(让模型学着像人一样操作电脑，当你拿不到 API 或 MCP 数据时，就派智能体去「亲自用电脑」把信息取回来)的公司 Utori 担任创始设计师，平时的大量工作是跟客户聊：怎么让智能体用起来更直观、他们心里怎么掂量一个用例值不值得派智能体去干。\n\n他每天自己的用法大概是这样：把智能体全放到后台跑，正事只专注一件，周边任务(比如改幻灯片排版)就并行开一堆智能体去探索不同方向。这很爽——直到收到账单。于是你开始怀疑：是不是 vibe coding(凭感觉让 AI 写代码)玩过头了？token 是不是烧太多了？智能体的先后顺序安排得够不够高效？\n\n他抛出本次演讲的论点：**智能体有一个衡量问题(measurement problem)**。在场的人可能不服：「我手上一队智能体跑得好好的，衡量完全没问题。」他承认，但引用 Upton Sinclair 的名言提醒大家：房间里的人全是早期采用者、全有偏见——还有人至今只是把东西复制粘贴进 ChatGPT,而全世界那些我们希望用上智能体的人，心智模型跟我们并不一样。\n\n**蒸汽机怎么卖出去的。** 为了找到解法，他回到很久以前：James Watt 卖蒸汽机时，选的用例是取代马拉磨——当时磨坊(比如啤酒厂磨大麦)的动力来源就是把马套在旋转臂上绕圈走。Watt 明白，采用的一大障碍是认知失调：你得向一帮「用马来思考」的人解释，为什么该换一台冷冰冰、看着吓人的机器——他说这场景对今天做智能体的任何人都不陌生。 Watt 的解法是研究对方的心智模型：他真的去丈量马拉磨的平均性能，得出「马力」这个指标，再以此为基准展示蒸汽机的效率倍数。这个指标并不科学、甚至不一定准确，但它干成了关键的事：**传达了价值提升**，让爱马的人能大致算出采用蒸汽机的收益，跨过「试一试」那道门槛——毕竟说实话，马的氛围感(vibes)是很难打败的，他必须给出一个能算 ROI 的东西。 教训：如果给不出有形的 ROI,就没法传达价值。\n\n**行业自己也没算明白。** 别以为这只是向外行卖货的问题：业内工程师理论上很聪明，照样有人一个季度烧光一整年的 token 预算。他借 RAMP 的说法，称现在是「厄运循环」：超支、同时使用不足——token 拉满把自己逼进紧缩，退出循环，直到 FOMO(错失恐惧)攒够了再回来试。 好的苗头是 Coinbase CEO 在 X 上发的图：他们把默认起步模型调低，只把前沿模型留给最难的任务，结果 AI 支出与 token 用量开始分化。但他认为问题在于这一切**还是太聚焦 token 了**——token 只是系统的输出，必须被干净地追溯到成果：这笔 token 花费消灭了多少 bug?关闭了多少支持请求？再把这些成果与目标进展挂钩。\n\n**瓶颈挪到了验证一侧。** 编程智能体的效率提升大家都能感觉到，但「我们都快被一千个 pull request 折磨至死了」——就连 Anthropic,团队有人声称已解决编程，也承认还没解决代码审查。 于是瓶颈从生成转移到人工审查：你生成了海量的代码，但没法知道其中足够多的一部分是好的、值得这笔花费。他引 Noah Hine 的说法：代码评审底层的假设才是需要重新审视的。好消息是，代码评审之所以让人感觉可解，是因为作为一种文化，它在共同假设上有很好的收敛——大家能用同一把尺子大规模地判断质量。任务就是为智能体时代改写这些假设，从「以计算速度执行」进到「以计算速度衡量」，且衡量方式要契合客户的心智模型。**你造智能体，就得同时帮客户造出验证其输出的方法**，光构建出来不够。\n\n**鼠标力与熵矩阵。** 由此他提出「鼠标力(mouse power)」——智能体时代的马力。但他先自嘲：这没法像 Watt 那样直接量——他真让 Claude 用 vibe coding 做了个测量光标移动速度的装置，想算出智能体能让光标高效多少，结果证明是徒劳的，因为信息空间维度太高了。 所以鼠标力不是一个真指标，而是一个理念：**卖智能体的人，必须同时帮客户解决「怎么验证这活儿干得好」的评分标准问题**。\n\n至于怎么找对要做的智能体，他给出一个基于信息论的思考框架(回到 Claude Shannon 关于熵——即概率分布的不确定性——的思想，熵也是今天训练模型的根基)：两个轴——**x 轴是执行任务步骤的不确定性**(订机票很低：出发地、目的地、选座，路径基本可预测；画一幅杰作则高到没人知道步骤)，**y 轴是验收标准本身的不确定性**。\n\n四个角的结论很干脆：步骤不确定性低 → 别浪费 token,写个脚本就行；步骤不确定性太高 → 数据超出预训练分布，强化学习奖励稀疏，不适合智能体；**验收标准不确定性高 → 验证与执行无法区分**——为了确认它有用，人几乎得把活儿重做一遍，纯浪费 token。 剩下的中间地带才是甜蜜点：任务有一定不确定性(不至于只是脚本、也没出训练分布)，但又相对容易验证价值——形状上像一个「验证比执行容易」的问题。这意味着一个杠杆：**如果你能为验证找到可重复的模式，就直接把智能体也扔去验证——不只造干活的智能体，还造一个验证它工作的智能体。**\n\n他最后说这还只是一个启发思考的想法，希望大家在造下一个智能体时，也能顺手造出它的 mouse power。\n\n## 本集带走\n- **先算 ROI 再谈采用**：客户不肯用，往往不是不兴奋，而是缺一个像「马力」那样的度量，能把智能体的效率提升换算成有形的回报。\n- **别只盯 token**:token 是输出不是价值；要把它追溯到干净的成果(消灭多少 bug、关闭多少工单)，再挂到目标进展上。降默认模型、留前沿模型给硬任务，是个可行起点。\n- **警惕「超支+使用不足」的厄运循环**：token 拉满→紧缩退出→FOMO 回归，打破它靠更好的价值度量。\n- **验收标准的不确定性是第一道闸**：如果验证成果的人几乎得把活儿重做一遍，这个任务就不值得派智能体。\n- **造智能体时同时造它的「鼠标力」**：帮客户建好验证输出的评分标准；验证若可模式化，就让另一个智能体去执行验证。",
+  "quotes": [
+    {
+      "en": "I think it's important to remind ourselves that in some way or another, we probably are selling tokens, whether it's indirectly or directly.",
+      "zh": "我认为提醒自己这一点很重要：不管间接还是直接，我们很可能都在售卖 token。",
+      "timestamp": "05:03",
+      "speaker": "Maximillian Piras"
+    },
+    {
+      "en": "the lesson being if we're not able to give something that is a tangible ROI for our customers, then it's very hard for us to communicate value.",
+      "zh": "教训是：如果我们无法给客户提供某种有形的投资回报率(ROI),那我们就很难传达价值。",
+      "timestamp": "08:49",
+      "speaker": "Maximillian Piras"
+    },
+    {
+      "en": "People are blowing through their entire token budget for a year and they're blowing through it in a quarter or they're dealing with token leaderboards and such.",
+      "zh": "人们把一整年的 token 预算挥霍一空——而且是在一个季度里就挥霍完了——或者他们在应付 token 排行榜之类的东西。",
+      "timestamp": "09:23",
+      "speaker": "Maximillian Piras"
+    },
+    {
+      "en": "right now I think we're kind of in this doom loop where we're overspending and we're underusing.",
+      "zh": "现在，我认为我们有点处于这种厄运循环中：我们超支，同时我们使用不足。",
+      "timestamp": "09:52",
+      "speaker": "Maximillian Piras"
+    },
+    {
+      "en": "tokens are, of course, useful as a measurement of an internal system, but at the end of the day, they're just an output.",
+      "zh": "token 作为内部系统的度量当然是有用的，但归根结底，它们只是一种输出。",
+      "timestamp": "10:49",
+      "speaker": "Maximillian Piras"
+    },
+    {
+      "en": "the problem of course is that we're all kind of dying by a thousand pull requests.",
+      "zh": "但问题当然是我们都在被一千个 pull request 折磨至死。",
+      "timestamp": "11:51",
+      "speaker": "Maximillian Piras"
+    },
+    {
+      "en": "the bottleneck ends up shifting to the verification side, and thus, we don't have a way to measure value at scale and to judge quality at the same speed.",
+      "zh": "瓶颈最终转移到了验证这一侧，因此，我们没有办法大规模地衡量价值，并以同样的速度判断质量。",
+      "timestamp": "12:20",
+      "speaker": "Maximillian Piras"
+    },
+    {
+      "en": "if you're going to think of how to build an agent for something, you also have to think about how do you help the customers build or at least create a method for verifying that the output is good.",
+      "zh": "如果你要考虑如何为某件事构建一个智能体，你也必须考虑如何帮助客户构建，或者至少创建一种方法，来验证输出是好的。",
+      "timestamp": "14:05",
+      "speaker": "Maximillian Piras"
+    },
+    {
+      "en": "if you're going to sell somebody an agent, you also have to help them with the rubric of how do we actually verify that this agent is doing good work",
+      "zh": "如果你要把一个智能体卖给某个人，你也必须帮他们解决评分标准的问题，即我们究竟如何验证这个智能体在做好的工作",
+      "timestamp": "15:44",
+      "speaker": "Maximillian Piras"
+    },
+    {
+      "en": "when you have high uncertainty in the acceptance criteria, you pretty much have a spot where verification is indistinguishable from execution.",
+      "zh": "当验收标准具有很高的不确定性时，你基本上就处于一个验证与执行无法区分的境地。",
+      "timestamp": "19:11",
+      "speaker": "Maximillian Piras"
+    },
+    {
+      "en": "if you can figure out a pretty repeatable pattern for verifying their work, you can actually just throw agents at that problem as well.",
+      "zh": "如果你能找出一个相当可重复的模式来验证它们的工作，你其实也可以直接把智能体扔到那个问题上。",
+      "timestamp": "20:04",
+      "speaker": "Maximillian Piras"
+    },
+    {
+      "en": "you don't just build the agent, you perhaps build the agent that verifies the work of the agent.",
+      "zh": "所以你不只是构建一个智能体，你或许要构建一个用来验证那个智能体工作的智能体。",
+      "timestamp": "20:13",
+      "speaker": "Maximillian Piras"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:13",
+      "speaker": "Unknown",
+      "en": "And it's a lot of fun, of course, until you get the bill. And then you start to wonder, was it all worth it, right?",
+      "zh": "当然这很有趣，直到你收到账单。然后你开始怀疑，这一切到底值不值，对吧？"
+    },
+    {
+      "timestamp": "04:04",
+      "speaker": "Unknown",
+      "en": "I think agents have a measurement problem.",
+      "zh": "我认为智能体存在一个衡量问题。"
+    },
+    {
+      "timestamp": "05:02",
+      "speaker": "Unknown",
+      "en": "I think it's important to remind ourselves that in some way or another, we probably are selling tokens, whether it's indirectly or directly.",
+      "zh": "我认为提醒自己这一点很重要：不管间接还是直接，我们很可能都在售卖 token。"
+    },
+    {
+      "timestamp": "07:08",
+      "speaker": "Unknown",
+      "en": "he needed to understand the mental model of these people and specifically to create a metric that would help him give some baseline of the relative improvement in efficiency.",
+      "zh": "他需要理解这些人的心智模型，特别是要创造一个指标，帮助他给出一个相对效率提升的基准。"
+    },
+    {
+      "timestamp": "07:49",
+      "speaker": "Unknown",
+      "en": "It was not necessarily even accurate, you could say, but the main thing it did was it communicated an increase in value",
+      "zh": "你甚至可以说它不一定准确，但它做的最主要的事情，是传达了一种价值的提升"
+    },
+    {
+      "timestamp": "08:49",
+      "speaker": "Unknown",
+      "en": "the lesson being if we're not able to give something that is a tangible ROI for our customers, then it's very hard for us to communicate value.",
+      "zh": "教训是：如果我们无法给客户提供某种有形的投资回报率(ROI),那我们就很难传达价值。"
+    },
+    {
+      "timestamp": "09:23",
+      "speaker": "Unknown",
+      "en": "People are blowing through their entire token budget for a year and they're blowing through it in a quarter or they're dealing with token leaderboards and such.",
+      "zh": "人们把一整年的 token 预算挥霍一空——而且是在一个季度里就挥霍完了——或者他们在应付 token 排行榜之类的东西。"
+    },
+    {
+      "timestamp": "09:51",
+      "speaker": "Unknown",
+      "en": "right now I think we're kind of in this doom loop where we're overspending and we're underusing.",
+      "zh": "现在，我认为我们有点处于这种厄运循环中：我们超支，同时我们使用不足。"
+    },
+    {
+      "timestamp": "10:48",
+      "speaker": "Unknown",
+      "en": "tokens are, of course, useful as a measurement of an internal system, but at the end of the day, they're just an output.",
+      "zh": "token 作为内部系统的度量当然是有用的，但归根结底，它们只是一种输出。"
+    },
+    {
+      "timestamp": "11:40",
+      "speaker": "Unknown",
+      "en": "the problem of course is that we're all kind of dying by a thousand pull requests.",
+      "zh": "但问题当然是我们都在被一千个 pull request 折磨至死。"
+    },
+    {
+      "timestamp": "11:56",
+      "speaker": "Unknown",
+      "en": "Even Anthropic, who has some people on the team have claimed to have solved coding, they have also admitted that they've not solved code review.",
+      "zh": "就连 Anthropic——他们团队里有些人曾声称已经解决了编程问题——他们也承认他们还没有解决代码审查。"
+    },
+    {
+      "timestamp": "12:22",
+      "speaker": "Unknown",
+      "en": "the bottleneck ends up shifting to the verification side, and thus, we don't have a way to measure value at scale and to judge quality at the same speed.",
+      "zh": "瓶颈最终转移到了验证这一侧，因此，我们没有办法大规模地衡量价值，并以同样的速度判断质量。"
+    },
+    {
+      "timestamp": "12:36",
+      "speaker": "Unknown",
+      "en": "We don't know that enough of it is good to justify the spend.",
+      "zh": "我们并不知道其中足够多的部分是好的，足以证明这笔花费是值得的。"
+    },
+    {
+      "timestamp": "13:20",
+      "speaker": "Unknown",
+      "en": "as a culture, code review has a very good convergence on shared assumptions.",
+      "zh": "作为一种文化，代码评审在共同假设上有非常好的收敛。"
+    },
+    {
+      "timestamp": "14:02",
+      "speaker": "Unknown",
+      "en": "if you're going to think of how to build an agent for something, you also have to think about how do you help the customers build or at least create a method for verifying that the output is good.",
+      "zh": "如果你要考虑如何为某件事构建一个智能体，你也必须考虑如何帮助客户构建，或者至少创建一种方法，来验证输出是好的。"
+    },
+    {
+      "timestamp": "15:38",
+      "speaker": "Unknown",
+      "en": "if you're going to sell somebody an agent, you also have to help them with the rubric of how do we actually verify that this agent is doing good work",
+      "zh": "如果你要把一个智能体卖给某个人，你也必须帮他们解决评分标准的问题，即我们究竟如何验证这个智能体在做好的工作"
+    },
+    {
+      "timestamp": "19:10",
+      "speaker": "Unknown",
+      "en": "when you have high uncertainty in the acceptance criteria, you pretty much have a spot where verification is indistinguishable from execution.",
+      "zh": "当验收标准具有很高的不确定性时，你基本上就处于一个验证与执行无法区分的境地。"
+    },
+    {
+      "timestamp": "20:03",
+      "speaker": "Unknown",
+      "en": "if you can figure out a pretty repeatable pattern for verifying their work, you can actually just throw agents at that problem as well.",
+      "zh": "如果你能找出一个相当可重复的模式来验证它们的工作，你其实也可以直接把智能体扔到那个问题上。"
+    },
+    {
+      "timestamp": "20:12",
+      "speaker": "Unknown",
+      "en": "so you don't just build the agent, you perhaps build the agent that verifies the work of the agent.",
+      "zh": "所以你不只是构建一个智能体，你或许要构建一个用来验证那个智能体工作的智能体。"
+    }
+  ],
+  "voice_script": "今天想给你讲一个挺有意思的提法，叫「鼠标力」。说这话的人叫 Maximilian Piros，是一家做计算机使用模型的公司 Utori 的创始设计师。所谓计算机使用模型，说白了就是让模型学着像人一样操作电脑——当你拿不到 API 或者数据接口的时候，就派智能体去亲自用电脑，把信息取回来。作为创始设计师，平时大量的工作就是跟客户聊：怎么让智能体用起来更直观，客户心里又是怎么掂量一个任务值不值得派智能体去干的。\n\n这是一场大会演讲。Maximilian 先讲了自己的日常用法：把智能体全放到后台跑，自己只专注一件正事，周边任务比如改幻灯片排版，就并行开一堆智能体去探索不同方向。听着很爽，直到收到账单。于是你开始怀疑：是不是凭感觉让 AI 写代码玩过头了？token 是不是烧太多了？智能体的先后顺序安排得够不够高效？\n\n由此引出这次演讲的核心论点：智能体有一个衡量问题。你可能会不服——我手上一队智能体跑得好好的，衡量完全没问题。Maximilian 承认在场的都是高手，但引了一句 Upton Sinclair 的名言提醒大家：房间里的人全是早期采用者，全有偏见。还有人至今只是把东西复制粘贴进 ChatGPT，而全世界那些我们希望用上智能体的人，心智模型跟我们并不一样。\n\n那这个问题有解吗？为了找答案，Maximilian 回到了很久以前，讲了一个蒸汽机怎么卖出去的故事。James Watt 卖蒸汽机的时候，选的用例是取代马拉磨。当时磨坊的动力来源，就是把马套在旋转臂上绕圈走，比如啤酒厂磨大麦就这么干。Watt 明白，采用的一大障碍是认知失调：你得向一帮用马来思考的人解释，为什么该换一台冷冰冰、看着吓人的机器。这个场景，对今天做智能体的任何人都不陌生。Watt 的解法是研究对方的心智模型：真的去丈量马拉磨的平均性能，得出「马力」这个指标，再以此为基准展示蒸汽机的效率倍数。这个指标并不科学，甚至不一定准确，但它干成了关键的事——传达了价值提升，让爱马的人能大致算出换机器的收益，跨过试一试那道门槛。毕竟说实在的，马的氛围感是很难打败的，必须给出一个能算投资回报的东西。教训就在这儿：如果给不出有形的 ROI，就没法传达价值。\n\n别以为这只是向外行卖货的问题，行业自己也没算明白。工程师理论上够聪明了吧，照样有人一个季度烧光一整年的 token 预算。Maximilian 借 RAMP 的说法，称现在是「厄运循环」：超支，同时使用不足——token 拉满把自己逼进紧缩，退出循环，直到错失恐惧攒够了再回来试。好的苗头是 Coinbase 的 CEO 在 X 上发的图：把默认起步模型调低，只把前沿模型留给最难的任务，结果 AI 支出和 token 用量开始分化。但问题在于，这一切还是太聚焦 token 了。用原话说，token 作为内部度量当然有用，但归根结底只是一种输出——必须被干净地追溯到成果：这笔 token 花费消灭了多少 bug？关闭了多少支持请求？再把这些成果跟目标进展挂上钩。\n\n这就把话题推到了更深的一层：瓶颈其实挪到了验证这一侧。编程智能体的效率提升大家都能感觉到，但我们都快被一千个 pull request 折磨至死了。就连 Anthropic，团队有人声称已经解决编程，也承认还没解决代码审查。你生成了海量的代码，但没法知道其中足够多的一部分是好的、值这笔钱。好消息是，代码评审之所以让人觉得可解，是因为作为一种文化，大家在怎么判断质量上有很好的收敛，能用同一把尺子大规模地衡量。任务就是为智能体时代改写这些假设——从以计算速度执行，进到以计算速度衡量，而且衡量方式要契合客户的心智模型。一句话：你造智能体，就得同时帮客户造出验证其输出的方法，光构建出来不够。\n\n于是就有了「鼠标力」这个提法——智能体时代的马力。Maximilian 自己先自嘲：这没法像 Watt 那样直接量。还真试过，让 Claude 做了个测量光标移动速度的装置，想算出智能体能让光标高效多少，结果证明徒劳，因为信息空间的维度太高了。所以鼠标力不是一个真指标，而是一个理念：卖智能体的人，必须同时帮客户解决怎么给这活儿打分的问题。\n\n那怎么找对值得做的智能体？Maximilian 给了一个基于信息论的思考框架，思路回到了 Claude Shannon 关于熵的思想——熵就是概率分布的不确定性，也是今天训练模型的根基。画两条轴：横轴是执行步骤的不确定性，纵轴是验收标准本身的不确定性。四个角的结论很干脆。步骤不确定性低？别浪费 token，写个脚本就行。步骤不确定性太高？数据超出预训练分布，强化学习奖励稀疏，不适合智能体。验收标准不确定性高？验证和执行没法区分——为了确认它有用，人几乎得把活儿重做一遍，纯浪费 token。剩下的中间地带才是甜蜜点：任务有一定不确定性，但又相对容易验证价值。这意味着一个杠杆：如果你能为验证找到可重复的模式，就直接把智能体也扔去验证——不只造干活的智能体，还造一个验证它工作的智能体。\n\n不管间接还是直接，我们很可能都在售卖 token。而要想把它们真正卖出去，就得像 Watt 当年那样，先给客户一把能算出回报的尺子。下次造智能体的时候，顺手把它的鼠标力也一起造出来吧。"
+}

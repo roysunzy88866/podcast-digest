@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[推理]] · [[GPU]] · [[OpenRouter]] · [[Boris]] · [[Harry Stebbings]] · [[Jeffrey Morgan]] · [[Claude Code]] · [[Jerry Murdock]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":114,"推理":5,"GPU":16,"OpenRouter":10,"Boris":1,"Harry Stebbings":15,"Jeffrey Morgan":1,"Claude Code":52,"Jerry Murdock":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":115,"推理":5,"GPU":16,"OpenRouter":10,"Boris":1,"Harry Stebbings":15,"Jeffrey Morgan":1,"Claude Code":53,"Jerry Murdock":1}</script>
 
 <script>
 (function(){

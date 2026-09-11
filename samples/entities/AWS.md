@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Microsoft]] · [[McKinsey]] · [[OpenAI]] · [[token]] · [[NVIDIA]] · [[护栏]] · [[IC]] · [[Databricks]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":114,"Microsoft":24,"McKinsey":5,"OpenAI":102,"token":16,"NVIDIA":33,"护栏":2,"IC":7,"Databricks":11}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":115,"Microsoft":24,"McKinsey":5,"OpenAI":102,"token":17,"NVIDIA":33,"护栏":2,"IC":7,"Databricks":11}</script>
 
 <script>
 (function(){

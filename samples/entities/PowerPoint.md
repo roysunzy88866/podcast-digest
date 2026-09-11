@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jon Noronha]] · [[Gamma]] · [[Google Slides]] · [[Optimizely]] · [[Notion]] · [[Slack]] · [[Loom]] · [[Salesforce]] · [[ChatGPT]] · [[生成式 AI]]
 
-<script type="application/json" class="pd-epn">{"Jon Noronha":1,"Gamma":3,"Google Slides":1,"Optimizely":2,"Notion":12,"Slack":24,"Loom":1,"Salesforce":17,"ChatGPT":55,"生成式 AI":6}</script>
+<script type="application/json" class="pd-epn">{"Jon Noronha":1,"Gamma":3,"Google Slides":1,"Optimizely":2,"Notion":12,"Slack":24,"Loom":1,"Salesforce":17,"ChatGPT":57,"生成式 AI":6}</script>
 
 <script>
 (function(){

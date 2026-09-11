@@ -118,9 +118,9 @@ Claude 可以搜出 100 个职位、过滤到 5 个，再只把这 5 个交给�
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p|把互联网装进智能体：FastMCP 作者用 Python 造 UI 的古怪实验]]<span class="pd-rz">同概念:MCP、MCP Apps、Claude</span>
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长]]<span class="pd-rz">同概念:Claude、MCP</span>
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:Claude、MCP</span>
-- [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|AI解数学题≠理解数学]]<span class="pd-rz">同概念:ChatGPT、Claude</span>
 
 </div>
 <div class="pd-ex">

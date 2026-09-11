@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]]
+[[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]] [[Eric Simons]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"产品市场契合":18,"产品-市场-创始人契合":1,"公司大脑":2,"智能体":1,"MCP":33,"go-to-market":8,"NDA 审查工具":1,"客户之声":1}</script>
+<script type="application/json" class="pd-epn">{"产品市场契合":18,"产品-市场-创始人契合":1,"公司大脑":2,"智能体":1,"MCP":34,"go-to-market":8,"NDA 审查工具":1,"客户之声":1}</script>
 
 <script>
 (function(){

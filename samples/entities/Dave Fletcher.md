@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]] [[Colin Zima]] [[Lindsey Scrase]]
+[[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ken":1,"Lead Dev":1,"AI 编码工具":1,"可观测性":19,"CI-CD":8,"技术债务":1,"AI 优先":2,"DevTools":1}</script>
+<script type="application/json" class="pd-epn">{"Ken":1,"Lead Dev":1,"AI 编码工具":1,"可观测性":19,"CI-CD":9,"技术债务":1,"AI 优先":2,"DevTools":1}</script>
 
 <script>
 (function(){

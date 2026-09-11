@@ -8,7 +8,7 @@ type: episode
 cover: "#0e7490"
 image: "/covers/2026-07-08-latent-space-modal.jpg"
 description: Modal 从无服务器运行时切入，靠 GPU 快照、投机解码和 17 云容量池，在 AI 推理与智能体时代找到了独特的底层定位。
-host: "[[swyx]]"
+host: "[[Swyx]]"
 guests: ["[[Akshat Bubna]]"]
 cohosts: ["[[Vibhu]]"]
 companies: ["[[Modal]]", "[[Kubernetes]]"]

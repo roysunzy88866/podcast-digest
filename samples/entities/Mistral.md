@@ -35,7 +35,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Hugging Face]] · [[开源]] · [[推理]] · [[Stripe]] · [[蒸馏]] · [[Theo Jaffe]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":102,"Anthropic":114,"智能体":1,"Hugging Face":20,"开源":20,"推理":5,"Stripe":29,"蒸馏":10,"Theo Jaffe":6,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":102,"Anthropic":115,"智能体":1,"Hugging Face":20,"开源":20,"推理":5,"Stripe":29,"蒸馏":10,"Theo Jaffe":6,"后训练":1}</script>
 
 <script>
 (function(){

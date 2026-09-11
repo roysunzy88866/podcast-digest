@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":4,"评估":24,"基准测试":8,"智能体":1,"RLGym":1,"迁移":1,"Claude Code":52,"Codex":44,"Anthropic":114}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":4,"评估":24,"基准测试":8,"智能体":1,"RLGym":1,"迁移":1,"Claude Code":53,"Codex":44,"Anthropic":115}</script>
 
 <script>
 (function(){

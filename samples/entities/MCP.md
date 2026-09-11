@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>33</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>34</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -43,6 +43,7 @@ unlisted: true
 - **[[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|《把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律》]]**(00:48起):本集反复强调纯文本 MCP（不返回 UI）能让模型自由多次搜索、深挖数据，是构建 MCP Apps 的数据基础层
 - **[[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]]**(04:57起):让智能体从外部源系统取信息的协议,很棒但存在平台期:工具描述写得不好智能体可能不调用,且有搜索满足偏差——获取信息不等于理解
 - **[[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]]**(04:35起):本集说 MCP 是给智能体接入外部系统的行业标准化协议，被捐赠给 Linux 基金会后从 Anthropic 拥有变成中立管理机构引导；与 Computer-Use 互补而非替代。
+- **[[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p|《把互联网装进智能体：FastMCP 作者用 Python 造 UI 的古怪实验》]]**(00:25起):本集把它描述为智能体调用托管在 MCP 服务器上的外部工具的协议；传统上用户与服务器之间从无直接连接，一切都要经过智能体的大脑和上下文窗口。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(05:25起):Anthropic 提出的一套让大模型调用外部工具/数据的协议。嘉宾采取反潮流做法“故意不为 OpenClaw 构建 MCP 支持”，直言“不需要它”，因为 CLI 更简单即插即用，而 MCP 改配置还要重启，且连 Anthropic 自己做相关定制功能都觉得棘手。
 
 ## ① 提到它的金句
@@ -57,7 +58,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*33 集*
+*34 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
@@ -91,15 +92,16 @@ unlisted: true
 - [[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|《把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律》]] — 作为概念
 - [[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]] — 作为概念
 - [[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]] — 作为概念
+- [[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p|《把互联网装进智能体：FastMCP 作者用 Python 造 UI 的古怪实验》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Claude]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[护栏]] · [[计算机使用]] · [[Lenny]] · [[Figma]]
+[[智能体]] · [[Claude]] · [[Anthropic]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[护栏]] · [[计算机使用]] · [[Lenny]] · [[Figma]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":114,"Claude":52,"OpenAI":102,"Codex":44,"Claude Code":52,"护栏":2,"计算机使用":10,"Lenny":67,"Figma":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude":54,"Anthropic":115,"OpenAI":102,"Codex":44,"Claude Code":53,"护栏":2,"计算机使用":10,"Lenny":67,"Figma":15}</script>
 
 <script>
 (function(){

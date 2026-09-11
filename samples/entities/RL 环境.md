@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Louis Knight-Webb]] · [[Osvald Nitski]] · [[Swyx]] · [[Harry Stebbings]] · [[AI Engineers]] · [[Mercor]] · [[沙箱]] · [[开源]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Louis Knight-Webb":1,"Osvald Nitski":1,"Swyx":2,"Harry Stebbings":15,"AI Engineers":1,"Mercor":1,"沙箱":39,"开源":20,"vibe coding":30}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Louis Knight-Webb":1,"Osvald Nitski":1,"Swyx":2,"Harry Stebbings":15,"AI Engineers":1,"Mercor":1,"沙箱":41,"开源":20,"vibe coding":30}</script>
 
 <script>
 (function(){

@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Dmitri Dolgov]] · [[Waymo]] · [[智能体]] · [[物理 AI]] · [[LiDAR]] · [[端到端模型]] · [[模拟器]] · [[世界模型]] · [[Waymo 基础模型]] · [[结构增强型端到端]]
+[[Dmitri Dolgov]] · [[Waymo]] · [[智能体]] · [[物理 AI]] · [[LiDAR]] · [[端到端训练]] · [[模拟器]] · [[世界模型]] · [[Waymo 基础模型]] · [[结构增强型端到端]]
 
-<script type="application/json" class="pd-epn">{"Dmitri Dolgov":1,"Waymo":13,"智能体":1,"物理 AI":7,"LiDAR":1,"端到端模型":1,"模拟器":3,"世界模型":5,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
+<script type="application/json" class="pd-epn">{"Dmitri Dolgov":1,"Waymo":13,"智能体":1,"物理 AI":7,"LiDAR":1,"端到端训练":2,"模拟器":3,"世界模型":5,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
 
 <script>
 (function(){

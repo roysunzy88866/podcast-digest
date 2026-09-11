@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Elena Berger]] · [[Andy McCall]] · [[Lighthouse]] · [[LandGrab]] · [[Samsara]] · [[Meraki]] · [[Pylon]] · [[ACV]] · [[PLG]] · [[Decagon]]
+[[Elena Berger]] · [[Andy McCall]] · [[Lighthouse]] · [[LandGrab]] · [[Samsara]] · [[Meraki]] · [[Pylon]] · [[ACV]] · [[PLG]] · [[Harvey]]
 
 ## ④ 也在聊「增长与销售」的人
 
 <div class="pd-peers">
 
-[[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Andy McCall]] [[Colin Zima]] [[Lindsey Scrase]]
+[[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Andy McCall]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":3,"Andy McCall":1,"Lighthouse":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":3,"PLG":8,"Decagon":5}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":3,"Andy McCall":1,"Lighthouse":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":3,"PLG":8,"Harvey":8}</script>
 
 <script>
 (function(){

@@ -7,15 +7,16 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>生成式 UI (generative UI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="生成式 UI">生成</div><div class="pi"><h1 class="pt">生成式 UI (generative UI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="生成式 UI">生成</div><div class="pi"><h1 class="pt">生成式 UI (generative UI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]]**(01:32起):本集说生成式 UI 是指根据已有上下文自动生成界面或控制面板，比如智能家居应该根据它知道的信息为你生成一个控制面板，但目前还没产品真正用好它，做出来的设计仍显粗糙
+- **[[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p|《把互联网装进智能体：FastMCP 作者用 Python 造 UI 的古怪实验》]]**(15:00起):本集说它是 Prefab 架构赋能的第三种用法：把官方能力共享给智能体后，它就能流式生成 UI 的协议表示，系统实时修复并渲染，用户甚至无需自己定义界面。
 
 ## ① 提到它的金句
 
-*7 条*
+*9 条*
 
 ![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q2]]
 
@@ -31,19 +32,24 @@ unlisted: true
 
 ![[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us#^q4]]
 
+![[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p#^q2]]
+
+![[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p#^q5]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|《当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下》]] — 作为概念
+- [[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p|《把互联网装进智能体：FastMCP 作者用 Python 造 UI 的古怪实验》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Wes Bos]] · [[vibe coding]] · [[智能体]] · [[迭代循环]] · [[LLM]] · [[本地模型]] · [[个人品牌]] · [[简报]] · [[上下文]] · [[Cursor]]
+[[智能体]] · [[Wes Bos]] · [[Jeremiah Lowin]] · [[vibe coding]] · [[MCP Apps]] · [[迭代循环]] · [[MCP]] · [[LLM]] · [[FastMCP]] · [[本地模型]]
 
-<script type="application/json" class="pd-epn">{"Wes Bos":1,"vibe coding":30,"智能体":1,"迭代循环":1,"LLM":29,"本地模型":3,"个人品牌":1,"简报":2,"上下文":15,"Cursor":54}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Wes Bos":1,"Jeremiah Lowin":1,"vibe coding":30,"MCP Apps":2,"迭代循环":1,"MCP":34,"LLM":29,"FastMCP":1,"本地模型":3}</script>
 
 <script>
 (function(){

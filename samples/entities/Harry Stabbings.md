@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason Lamkin":1,"Canva":4,"智能体":1,"无代码":1,"Figma":15,"Notion":12,"Airtable":3,"Palantir":14,"Replit":15,"ChatGPT":55}</script>
+<script type="application/json" class="pd-epn">{"Jason Lamkin":1,"Canva":4,"智能体":1,"无代码":1,"Figma":15,"Notion":12,"Airtable":3,"Palantir":14,"Replit":15,"ChatGPT":57}</script>
 
 <script>
 (function(){

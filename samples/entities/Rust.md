@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[代码审查]] · [[Codex]] · [[沙箱]] · [[Claude]] · [[Simon Willison]] · [[Vaibhav Gupta]] · [[Tibo Sottiaux]] · [[Cat Wu]] · [[BAML]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"代码审查":2,"Codex":44,"沙箱":39,"Claude":52,"Simon Willison":1,"Vaibhav Gupta":1,"Tibo Sottiaux":1,"Cat Wu":1,"BAML":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"代码审查":2,"Codex":44,"沙箱":41,"Claude":54,"Simon Willison":1,"Vaibhav Gupta":1,"Tibo Sottiaux":1,"Cat Wu":1,"BAML":1}</script>
 
 <script>
 (function(){

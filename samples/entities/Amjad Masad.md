@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]]
+[[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]] [[Eric Simons]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":15,"智能体":1,"Patrick Collison":2,"公开构建":1,"Stripe":29,"vibe coding":30,"Magic School":1,"真实性":2,"OpenAI":102,"Anthropic":114}</script>
+<script type="application/json" class="pd-epn">{"Replit":15,"智能体":1,"Patrick Collison":2,"公开构建":1,"Stripe":29,"vibe coding":30,"Magic School":1,"真实性":2,"OpenAI":102,"Anthropic":115}</script>
 
 <script>
 (function(){

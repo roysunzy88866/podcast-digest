@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]] [[Addy Osmani]]
+[[Jeremiah Lowin]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]] [[Ryan Carson]] [[Rory O'Driscoll]] [[Jason Lemkin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":44,"OpenAI":102,"ChatGPT":55,"ChatGPT work":1,"harness":26,"智能体":1,"Rust":3,"开源":20,"沙箱":39,"代码审查":2}</script>
+<script type="application/json" class="pd-epn">{"Codex":44,"OpenAI":102,"ChatGPT":57,"ChatGPT work":1,"harness":26,"智能体":1,"Rust":3,"开源":20,"沙箱":41,"代码审查":2}</script>
 
 <script>
 (function(){

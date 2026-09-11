@@ -1,0 +1,1066 @@
+{
+  "episode_id": "2026-09-11-engenable-how-okta-sets-guardrails-and-context-for",
+  "podcast": "Engineering Enablement (DX)",
+  "date": "2026-09-11",
+  "tags": [
+    "AI 智能体",
+    "企业身份",
+    "安全与治理",
+    "AI 采用",
+    "工程效能"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "robert-lucero",
+      "type": "person",
+      "role": "host",
+      "name": "Robert Lucero",
+      "file": "Robert Lucero",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            67.997,
+            70.379
+          ],
+          "quote": "We are joined by Robert Lucero.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            141.336,
+            143.317
+          ],
+          "quote": "As Brian mentioned, I am Robert Lucero.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "brian-houck",
+      "type": "person",
+      "role": "cohost",
+      "name": "Brian Houck",
+      "file": "Brian Houck",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            62.531,
+            64.153
+          ],
+          "quote": "I'm your host, Brian Houck.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "okta",
+      "type": "company",
+      "role": "company",
+      "name": "Okta",
+      "file": "Okta",
+      "primary": true,
+      "how_described": "本集嘉宾 Robert Lucero 是 Okta 的首席架构师;Okta 是世界领先的企业身份平台提供商,做「谁有权限访问什么」,他在那里领导生成式 AI 战略并推动内部 AI 采用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            71.2,
+            74.343
+          ],
+          "quote": "Robert is Chief Architect at Okta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            97.086,
+            100.269
+          ],
+          "quote": "At Okta, he led the company's Gen AI strategy,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            143.618,
+            145.299
+          ],
+          "quote": "I'm a chief architect here at Okta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            407.703,
+            424.431
+          ],
+          "quote": "And again, looking at it from the lens of what Okta continues to call the identity fabric and how we think about service accounts, we've been operating in a world of automation, having overscoped tokens and getting direct API access for years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            687.415,
+            692.658
+          ],
+          "quote": "We're lucky to have Aaron Parecki here at Okta who helps guide us in terms of like",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            833.035,
+            846.738
+          ],
+          "quote": "Just for context, back at the end of February, our CEO pulled the Auth0 organization and the Okta research and development team to the side and said, can you write a coding agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1359.058,
+            1369.203
+          ],
+          "quote": "So, you know, as I think about all of this, like what I'm struck by is how quickly the world is changing for a company like Okta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2075.142,
+            2087.035
+          ],
+          "quote": "Helping companies like Okta deliver innovation faster, which in turn allows you to better protect your customers' data and systems.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线:AI 智能体是进入企业系统的非确定性执行者,应该像新员工一样被「入职」治理,而不是像服务账号那样发个大权限令牌;身份层要管它能访问什么、能不能触发某个环境",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.031,
+            12.674
+          ],
+          "quote": "What's interesting about how we think about an AI agent versus onboarding somebody new to the organization is that we put a lot of implicit trust into a person, that they are vetted and governed and that they have some levels of controls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1,
+          "t": [
+            12.774,
+            21.816
+          ],
+          "quote": "So we needed to apply some of this implicit sandboxing capability and apply it to our agent as we were designing and developing it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            267.425,
+            271.387
+          ],
+          "quote": "So if you're operating as like a service account or a single AI agent,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            278.61,
+            294.357
+          ],
+          "quote": "But if I need to then get access to a Google Doc with the spec information, now all of a sudden my agent identity matters and the scope and controls and what it has access to really matters because then it's acting beyond the kind of confines of just content generation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            324.967,
+            332.953
+          ],
+          "quote": "I want to govern what my agent has access to, what it can see, what it can do, and the important resources that it needs to be able to be successful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            489.404,
+            501.828
+          ],
+          "quote": "And like, do you think that like, it sure seems like in the foreseeable future, there will be more agent or non-human identities than human identities?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            543.305,
+            546.748
+          ],
+          "quote": "Or am I tying agent activities to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            600.078,
+            609.88
+          ],
+          "quote": "Like, as you say it, I'm like, well, of course, I just sort of like my mental model was always like, well, of course, every agent is its own unique identity, much like every human is its own unique identity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            613.481,
+            623.203
+          ],
+          "quote": "And even this notion of, you know, when do we spawn up sort of like armies of agents versus it's one agent, it's like, it's almost a technical detail.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            833.035,
+            846.738
+          ],
+          "quote": "Just for context, back at the end of February, our CEO pulled the Auth0 organization and the Okta research and development team to the side and said, can you write a coding agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            866.504,
+            869.506
+          ],
+          "quote": "What resources does this agent need?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            893.253,
+            907.036
+          ],
+          "quote": "And what's interesting about how we think about an AI agent versus onboarding somebody new to the organization is that we put a lot of implicit trust into a person, that they are vetted and governed and that they have some levels of controls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            910.137,
+            917.099
+          ],
+          "quote": "Implicit sandboxing capability and apply it to our agent as we were designing and developing it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            918.159,
+            928.021
+          ],
+          "quote": "One of the scariest things I think we all saw when we were trying to figure this whole thing out was we gave our agent a task, but the environment wasn't set up correctly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            981.566,
+            982.568
+          ],
+          "quote": "Agent autonomy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1014.342,
+            1020.184
+          ],
+          "quote": "Not here's an AI agent that exists on the box and then it goes crazy trying to download things on the internet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1021.064,
+            1033.789
+          ],
+          "quote": "I mean, like the sandboxing point is particularly timely right now since like the OpenAI hugging face issue just came out, you know, where it's like the agent",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1076.72,
+            1086.585
+          ],
+          "quote": "If you started it sort of with a level of trust of a new hire, do you eventually expand that level of trust for that agent as you see it behaving appropriately?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1116.185,
+            1127.634
+          ],
+          "quote": "So as an agent becomes more efficient and effective, I think we're going to lean more on technical controls as a mechanism to gate versus",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1129.021,
+            1140.451
+          ],
+          "quote": "A subjective human assessment of what it can do, because again, the non-determinism, it's really hard to go back to an agent and ask, why did you go delete all these files?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1227.662,
+            1231.605
+          ],
+          "quote": "Human managers, so what makes us think that we'd be effective agent managers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1284.31,
+            1290.238
+          ],
+          "quote": "It's like, I have this identity, it has access to these resources, and it can call this other agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1295.885,
+            1299.768
+          ],
+          "quote": "Coding agents can call a review agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1299.788,
+            1300.889
+          ],
+          "quote": "They can call a test agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1300.909,
+            1302.39
+          ],
+          "quote": "They can call a deploy agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1332.532,
+            1341.02
+          ],
+          "quote": "Like I want to see sort of what that relational graph may end up being, especially as we start looking at agent to agent relationships or agent to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1347.987,
+            1355.675
+          ],
+          "quote": "I want to know why this agent was able to access this resource, even though on paper, it shouldn't have been able to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1587.369,
+            1592.897
+          ],
+          "quote": "Internal Autonomous Coding Agent that we've just launched that targets very specific scoped tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1756.766,
+            1767.899
+          ],
+          "quote": "So our AI enablement team, our core team that launched our autonomous coding agent took a good lens at this and applied these requirements as we were onboarding the initial repos.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1774.72,
+            1778.181
+          ],
+          "quote": "Can an agent work with the code directly?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1778.221,
+            1780.361
+          ],
+          "quote": "So does it have an agent's MD?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1796.424,
+            1799.225
+          ],
+          "quote": "And so those are kind of just like, can a coding agent work on it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1805.866,
+            1813.109
+          ],
+          "quote": "I don't want an agent to go try to figure out what resources it needs and go download a random thing from the internet to try to get it to work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1836.127,
+            1850.038
+          ],
+          "quote": "So if there's not as good tests or as good sort of linting or standards in that repo, we're trying to get people to onboard more of those things in to make an agent more successful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1946.863,
+            1953.225
+          ],
+          "quote": "Okay, if an agent doesn't know what the business outcome is of the task that you're trying to apply, it can write tests.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把沙箱说成对智能体的底线控制:Okta 的编码智能体缺 Java 时自己上网拼 curl 下载来路不明的版本,他们看到后立刻决定「必须把它沙箱化、给它定向控制」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            961.189,
+            962.47
+          ],
+          "quote": "We have to sandbox this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1104.735,
+            1107.718
+          ],
+          "quote": "That's kind of why we've taken the more opinionated sandbox approach.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集把护栏与技术控制、沙箱并列为治理智能体的两层方案之一:不靠逐步升级对智能体的信任,靠技术控制做门禁",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            990.058,
+            993.522
+          ],
+          "quote": "I want to have all the relevant guardrails to control it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1045.736,
+            1048.298
+          ],
+          "quote": "Well, yeah, having those guardrails in place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1151.097,
+            1163.841
+          ],
+          "quote": "And so I think it's tackling it from two layers, which is again, technical controls, sandboxing, guardrails, and then building into enterprise level sort of like networking and security practices.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "type": "concept",
+      "role": "concept",
+      "name": "身份 (identity)",
+      "file": "身份",
+      "primary": true,
+      "how_described": "本集说身份是治理智能体的关键:身份层是控制平面而非编排层,像一张关系图记录「这个身份能访问这些资源、可调用那个智能体」,给可见性与策略洞察",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            83.072,
+            96.445
+          ],
+          "quote": "His work spans everything from developer productivity and engineering metrics, obviously a topic near and dear to my heart, to cloud resiliency, AI adoption, and very importantly, enterprise identity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            101.456,
+            117.42
+          ],
+          "quote": "Looking at everything from driving adoption to modernizing their internal workflows and helping to prepare the world's leading identity platform provider for a future where AI agents are first-class citizens in all of our internal engineering systems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            209.903,
+            214.506
+          ],
+          "quote": "If identity is different, though, are the fundamentals actually changing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            214.526,
+            223.311
+          ],
+          "quote": "And so as I think about it, it's like all of our identity systems are built around this notion of human identity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            223.872,
+            234.198
+          ],
+          "quote": "But as enterprises are managing hundreds or thousands, maybe even millions of agents, what about the fundamentals of identity might be changing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            264.464,
+            267.205
+          ],
+          "quote": "And that's where identity really becomes critical.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            278.61,
+            294.357
+          ],
+          "quote": "But if I need to then get access to a Google Doc with the spec information, now all of a sudden my agent identity matters and the scope and controls and what it has access to really matters because then it's acting beyond the kind of confines of just content generation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            319.983,
+            324.807
+          ],
+          "quote": "Ideal operating that we sort of expect, that's where identity really, really matters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            374.866,
+            385.932
+          ],
+          "quote": "And I'm curious, based on your answers, our identity platform is sort of like the layer that will manage that context that agents are able to access.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            407.703,
+            424.431
+          ],
+          "quote": "And again, looking at it from the lens of what Okta continues to call the identity fabric and how we think about service accounts, we've been operating in a world of automation, having overscoped tokens and getting direct API access for years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            446.659,
+            456.723
+          ],
+          "quote": "So that control plane that the identity layer provides via MCP and scoped roles and fine-grained access or cross-app access with, again, fine-grained controls,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            526.17,
+            534.497
+          ],
+          "quote": "Is every single one of my ephemeral AI workloads an independent identity that gets stood up and tracked?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            534.518,
+            542.565
+          ],
+          "quote": "Or are we looking at it from a system orchestrator that is a defined identity that can spawn tasks and kind of do on behalf of?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            548.009,
+            552.633
+          ],
+          "quote": "either a service account level AI identity or a human-based owner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            560.038,
+            574.388
+          ],
+          "quote": "Will I register them as independent agents or are they agents that are related to me and backed by my core identity but have an AI governance policy based on its sort of like",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            580.233,
+            586.537
+          ],
+          "quote": "We have customers who think that every AI activity, ephemeral or not, is an identity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            600.078,
+            609.88
+          ],
+          "quote": "Like, as you say it, I'm like, well, of course, I just sort of like my mental model was always like, well, of course, every agent is its own unique identity, much like every human is its own unique identity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            652.529,
+            670.966
+          ],
+          "quote": "As it relates to agents, like how you think about that distinction and are we sort of like changing, you know, sort of based on what you just said, like are we changing the very definition of what identity means as now we look at like grouping things together, not as unique entities, but as sort of shared responsibility?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            676.788,
+            679.49
+          ],
+          "quote": "The fundamentals of identity aren't really changing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            735.678,
+            743.188
+          ],
+          "quote": "Like an identity system, that's where you can start to apply your authorization, your governance policies, your fine-grained access, and your controls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            754.602,
+            759.224
+          ],
+          "quote": "But we never really truly did a good job of tracking that as a full-fledged identity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            759.304,
+            774.929
+          ],
+          "quote": "Sometimes there would be like a user record that's a service account at foo.bar, and that would exist in your identity system or in Windows, and then you would assign a role to it, and then you would eventually get a token that you would then use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            782.693,
+            793.163
+          ],
+          "quote": "And this is really good for the identity space because these are the hard questions we've been trying to explain to people over the last three to five years, and AI is just making it apparent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1232.126,
+            1248.379
+          ],
+          "quote": "But again, if that is the future where we're all sort of orchestrating lots of agents and our identity systems are really what are dictating how effective those agents can be beyond the capabilities of the models themselves, of course.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1248.419,
+            1257.026
+          ],
+          "quote": "It's like, it makes me think, do our identity systems, our identity platforms, do those become the orchestration layer for our agents?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1262.553,
+            1272.299
+          ],
+          "quote": "I think my personal view on it is that the identity layer, it's more of a control plane.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1284.31,
+            1290.238
+          ],
+          "quote": "It's like, I have this identity, it has access to these resources, and it can call this other agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1302.53,
+            1305.231
+          ],
+          "quote": "I think that will exist outside of the identity system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "non-deterministic",
+      "type": "concept",
+      "role": "concept",
+      "name": "非确定性 (non-deterministic)",
+      "file": "非确定性",
+      "primary": true,
+      "how_described": "本集反复强调 AI 是非确定性系统——这正是它强大的原因也是风险的来源:它可能自己发现「额外需要」的信息、自己决定去别处找资源,事后很难回头问它为什么",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            439.997,
+            442.178
+          ],
+          "quote": "It's very non-deterministic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            934.843,
+            942.491
+          ],
+          "quote": "But because it's a non-deterministic system and very similar to what we see new hires do, okay, I don't have Java.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1604.872,
+            1615.982
+          ],
+          "quote": "We're seeing value in fixing non-deterministic tests, tackling phones, targeted bug fixes, support in developing and generation of new features with local orchestration.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "service-account",
+      "type": "concept",
+      "role": "concept",
+      "name": "服务账号 (service account)",
+      "file": "服务账号",
+      "primary": true,
+      "how_described": "本集把它说成传统自动化身份的做法:发一个大权限令牌、存进保险库、做点追踪就完事,前提是信任自动化;而 AI 不满足这个前提,所以智能体不能照搬这套",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            267.425,
+            271.387
+          ],
+          "quote": "So if you're operating as like a service account or a single AI agent,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            333.313,
+            344.361
+          ],
+          "quote": "And I don't want to grant it in the same context as like a service account where I flip at a token, hope I vault it correctly and I have tracking on it, but it's acting with an immense set of permissions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            548.009,
+            552.633
+          ],
+          "quote": "either a service account level AI identity or a human-based owner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            759.304,
+            774.929
+          ],
+          "quote": "Sometimes there would be like a user record that's a service account at foo.bar, and that would exist in your identity system or in Windows, and then you would assign a role to it, and then you would eventually get a token that you would then use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            798.788,
+            811.676
+          ],
+          "quote": "This like notion of autonomy and we're like agents, we are expecting to act a lot more autonomously than sort of we want our, like we have historically wanted our like service account driven automation to run.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai-adoption",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 采用 (AI adoption)",
+      "file": "AI 采用",
+      "primary": true,
+      "how_described": "本集回顾 Okta 内部采用曲线:去年推 GitHub Copilot 时大家冷淡,直到 Claude Code 和 Anthropic 编程模型出现,「很多人心中的开关开始翻转」;工程师约 60% 时间在非编码工作上,才是未被度量的价值区",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            83.072,
+            96.445
+          ],
+          "quote": "His work spans everything from developer productivity and engineering metrics, obviously a topic near and dear to my heart, to cloud resiliency, AI adoption, and very importantly, enterprise identity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            145.579,
+            156.667
+          ],
+          "quote": "I won't rehash the intro pieces, but yeah, for the last 18 months, I've been heavily involved and focused on our internal AI adoption strategy for",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-readiness",
+      "type": "concept",
+      "role": "concept",
+      "name": "仓库 AI 就绪度 (AI readiness)",
+      "file": "仓库 AI 就绪度",
+      "primary": true,
+      "how_described": "本集说 Okta 的 AI 赋能团队接入仓库时按就绪标准打分:有没有 agents.md、好的提示词、可发现的依赖;harness 层不让智能体上网凑环境;成熟仓库要有强 CI 和好的评审流程兜底",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 293,
+          "t": [
+            1722.33,
+            1731.075
+          ],
+          "quote": "So you said something in your previous answer, Bob, that like really got me thinking around this notion of like the AI readiness of a repo.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "github-copilot",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub Copilot",
+      "file": "GitHub Copilot",
+      "primary": false,
+      "how_described": "本集提到 Okta 去年在推 GitHub Copilot,但大家很冷淡,因为它在结果上不成功——问它问题它答非所问",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            1441.608,
+            1445.289
+          ],
+          "quote": "We were launching GitHub Copilot at the time, and it was something that was available.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集说去年十、十一月的 Claude Code 窗口期、Anthropic 新编程模型的发布,是 Okta 内部采用态度转折的起点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 249,
+          "t": [
+            1462.347,
+            1471.435
+          ],
+          "quote": "And then fast forward to, I think, around October, November of last year, that's kind of the Claude Code windows, the Anthropic models are launching, the newer, more coding-specific models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tdd",
+      "type": "concept",
+      "role": "concept",
+      "name": "TDD",
+      "file": "TDD",
+      "primary": false,
+      "how_described": "本集提到很多人给智能体的提示词是「以 TDD 开始」,但如果智能体不知道任务的业务结果,它能写出测试和让测试通过的代码——却未必达成最终目标",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 338,
+          "t": [
+            1943.922,
+            1946.463
+          ],
+          "quote": "Prompts being start with TDD.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": false,
+      "how_described": "本集说有强大 CI 系统和好评审流程的成熟仓库,是智能体变更的安全网;测试、linting、标准不够好的仓库要先补课再接入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            874.288,
+            876.869
+          ],
+          "quote": "It needed access to our CI system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            928.221,
+            933.963
+          ],
+          "quote": "And it didn't know about our CI system in terms of how to get the right versions of Java and Maven and some other things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1823.038,
+            1836.007
+          ],
+          "quote": "I think what we've looked at and seen is if a repo is more mature, if it has a strong CI system and a good review process, there's other safety nets that makes those changes more successful.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

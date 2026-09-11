@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Circleback":2,"智能体":1,"Claude Code":52,"评估":24,"Y Combinator":3,"Slack":24,"代码审查":2,"Zed":3}</script>
+<script type="application/json" class="pd-epn">{"Circleback":2,"智能体":1,"Claude Code":53,"评估":24,"Y Combinator":3,"Slack":24,"代码审查":2,"Zed":3}</script>
 
 <script>
 (function(){

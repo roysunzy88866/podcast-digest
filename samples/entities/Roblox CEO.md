@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]]
+[[Maximillian Piras]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Roblox":2,"用户生成内容":1,"虚拟货币":1,"Robux":1,"官僚主义":1,"API":3,"MCP":33,"AI":16}</script>
+<script type="application/json" class="pd-epn">{"Roblox":2,"用户生成内容":1,"虚拟货币":1,"Robux":1,"官僚主义":1,"API":3,"MCP":34,"AI":16}</script>
 
 <script>
 (function(){

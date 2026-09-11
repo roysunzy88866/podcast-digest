@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>regulation</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="regulation">RE</div><div class="pi"><h1 class="pt">regulation</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="regulation">RE</div><div class="pi"><h1 class="pt">regulation</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|《Steven Sinofsky：AI监管为什么急不得》]]**(00:00起):本集核心论点是现在对 AI 搞监管完全是本末倒置，因为在甚至都不知道要监管什么之前就开始了，历史上汽车安全花了60年才进入设计标准
+- **[[2026-09-11-a16z-what-it-takes-to-build-a-startup-andrew|《厨房餐桌上的创业：小科技的真实生存状态》]]**(00:57起):本集把它说成:对这些创始人而言基本就是摩擦——注册公司、开始招人就拿到『这么厚一大摞文件』;真正的政策图景是数据来源要求、隐私法、SB 53 等全部累积起来的『复合体』,且多是为有律师团队的大公司设计的。
 
 ## ① 提到它的金句
 
@@ -25,17 +26,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|《Steven Sinofsky：AI监管为什么急不得》]] — 作为概念
+- [[2026-09-11-a16z-what-it-takes-to-build-a-startup-andrew|《厨房餐桌上的创业：小科技的真实生存状态》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Theo Jaffe]] · [[Sofia Puccini]] · [[Steven Sinofsky]] · [[监管俘获]] · [[precautionary principle]] · [[开源]] · [[bank shots]] · [[AT&T]] · [[Anthropic]] · [[幻觉]]
+[[Theo Jaffe]] · [[Andrew Chen]] · [[Sofia Puccini]] · [[Matt Perault]] · [[Steven Sinofsky]] · [[a16z]] · [[监管俘获]] · [[Speedrun]] · [[precautionary principle]] · [[小科技]]
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":6,"Sofia Puccini":4,"Steven Sinofsky":2,"监管俘获":3,"precautionary principle":1,"开源":20,"bank shots":1,"AT&T":2,"Anthropic":114,"幻觉":4}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":6,"Andrew Chen":1,"Sofia Puccini":4,"Matt Perault":1,"Steven Sinofsky":2,"a16z":13,"监管俘获":3,"Speedrun":1,"precautionary principle":1,"小科技":1}</script>
 
 <script>
 (function(){

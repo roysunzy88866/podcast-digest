@@ -1,0 +1,643 @@
+{
+  "episode_id": "2026-09-11-a16z-what-it-takes-to-build-a-startup-andrew",
+  "podcast": "The a16z Show",
+  "date": "2026-09-11",
+  "tags": [
+    "小科技",
+    "早期投资",
+    "创业政策",
+    "监管环境",
+    "AI 编程"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "andrew-chen",
+      "type": "person",
+      "role": "host",
+      "name": "Andrew Chen",
+      "file": "Andrew Chen",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            29.153,
+            39.696
+          ],
+          "quote": "In this episode, Matt Perrault sits down with A16Z general partner and speedrun lead, Andrew Chen, to talk about Little Tech, the tiny teams at the very beginning of building a company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "matt-perault",
+      "type": "person",
+      "role": "guest",
+      "name": "Matt Perault",
+      "file": "Matt Perault",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "A16Z",
+      "file": "A16Z",
+      "primary": true,
+      "how_described": "本集把它说成:美国知名风险投资机构,Andrew Chen 任普通合伙人,通过 Speedrun 在创业第一天就投资两三人的小团队,并称『我们代表的是生态系统的另一个部分』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            29.153,
+            39.696
+          ],
+          "quote": "In this episode, Matt Perrault sits down with A16Z general partner and speedrun lead, Andrew Chen, to talk about Little Tech, the tiny teams at the very beginning of building a company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            72.308,
+            75.25
+          ],
+          "quote": "Andrew, welcome to the A16Z AI Policy Brief.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            430.643,
+            446.682
+          ],
+          "quote": "Yeah, I think that the way I see the mission for A16Z Speedrun is that we're in the, you know, we want to get as close as possible to the moment that founders are actually created and new companies are created.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            477.158,
+            492.251
+          ],
+          "quote": "For us, one of the really magical things, something that I take a lot of just personal pride and excitement in, is the idea that we are not just waiting for entrepreneurs to show up at our doorstep at A16Z, but we're actually helping create the companies in the first place.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 116,
+          "t": [
+            656.281,
+            663.728
+          ],
+          "quote": "You know, you're not living somewhere fancy, you're somewhere, you know, typically like maybe close to the A16Z office.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            664.208,
+            671.414
+          ],
+          "quote": "A lot of these folks are either working together at their homes, and we also offer access to the A16Z offices.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1085.186,
+            1090.232
+          ],
+          "quote": "And then hopefully we as A16Z get another shot at them, you know, to work together.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1272.669,
+            1275.411
+          ],
+          "quote": "And of course, we as A16Z try to help them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2062.842,
+            2077.655
+          ],
+          "quote": "Folks like A16Z and other venture capital firms and other ecosystem kind of players, what we can do is we can certainly help open the door to creating those conversations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2220.548,
+            2223.451
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z Podcast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2235.382,
+            2241.447
+          ],
+          "quote": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2245.94,
+            2258.95
+          ],
+          "quote": "As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2259.651,
+            2264.294
+          ],
+          "quote": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2264.855,
+            2271.5
+          ],
+          "quote": "For more details, including a link to our investments, please see A16Z.com forward slash disclosures.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "speedrun",
+      "type": "concept",
+      "role": "concept",
+      "name": "Speedrun",
+      "file": "Speedrun",
+      "primary": true,
+      "how_described": "本集把它说成:A16Z 旗下面向最早期的创业项目——向全新初创公司投资至多一百万美元,共度 12 周,结束后办演示日让上千名天使投资人和种子基金接手,上限是『一旦你在别处拿过资本』就不太合适。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            29.153,
+            39.696
+          ],
+          "quote": "In this episode, Matt Perrault sits down with A16Z general partner and speedrun lead, Andrew Chen, to talk about Little Tech, the tiny teams at the very beginning of building a company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            77.712,
+            80.274
+          ],
+          "quote": "So you lead our Speedrun program.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            80.334,
+            82.175
+          ],
+          "quote": "So can you tell us a little bit about what Speedrun is?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            148.812,
+            156.018
+          ],
+          "quote": "We host a speedrun demo day where we have over a thousand angel investors and seed funds and many others come and invest.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 34,
+          "t": [
+            167.869,
+            172.033
+          ],
+          "quote": "How do you decide what looks like a company that you want to have as part of the speedrun program?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 53,
+          "t": [
+            281.63,
+            287.915
+          ],
+          "quote": "So what is kind of interested in the range of types of sizes of companies that might participate in speedrun?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            346.85,
+            351.852
+          ],
+          "quote": "And what are organizations that would be too large to apply for the speedrun?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            422.48,
+            425.001
+          ],
+          "quote": "Speedrun, as you're describing it, is like the littlest of the little tech.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            430.643,
+            446.682
+          ],
+          "quote": "Yeah, I think that the way I see the mission for A16Z Speedrun is that we're in the, you know, we want to get as close as possible to the moment that founders are actually created and new companies are created.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 86,
+          "t": [
+            492.271,
+            495.294
+          ],
+          "quote": "So for example, in the last speedrun bash, there were 70 companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            554.848,
+            558.891
+          ],
+          "quote": "Can you give a little texture to what a day in the life looks like for a speedrun company?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            749.633,
+            754.556
+          ],
+          "quote": "What we do with Speedrun is once per week, we end up having some formal programming.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            858.959,
+            861.3
+          ],
+          "quote": "So what does that look like for speedrun participants?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1787.528,
+            1798.27
+          ],
+          "quote": "So we've been talking a lot about the one-to-one relationships that you've developed as part of the Speedrun program, but you've also been really invested in trying to create ecosystems through the TechWeek program.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1800.791,
+            1808.693
+          ],
+          "quote": "So we started TechWeek and it's a program that sits in our team here within the Speedrun umbrella.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2109.585,
+            2113.469
+          ],
+          "quote": "I'm actually coming out to talk to a speedrun, talk to a speedrun cohort next week.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2145.376,
+            2152.822
+          ],
+          "quote": "And so it's like interesting to see that delta and we've engaged with the speedrun team in the past to make sure policymakers also appreciate that delta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2178.985,
+            2181.928
+          ],
+          "quote": "That have, you know, that are, that are now in the current Badger Speedrun as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "little-tech",
+      "type": "concept",
+      "role": "concept",
+      "name": "小科技 (little tech)",
+      "file": "小科技",
+      "primary": true,
+      "how_described": "本集把它说成:团队平均两到三人、在厨房餐桌上经营公司的初创形态;他们极其专注使命、没有说客、没时间参与政治进程,『实际上没有被代表』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.577,
+            2.158
+          ],
+          "quote": "This is truly little tech.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            29.153,
+            39.696
+          ],
+          "quote": "In this episode, Matt Perrault sits down with A16Z general partner and speedrun lead, Andrew Chen, to talk about Little Tech, the tiny teams at the very beginning of building a company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            297.727,
+            299.67
+          ],
+          "quote": "Yeah, this is truly little tech.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 57,
+          "t": [
+            299.75,
+            302.254
+          ],
+          "quote": "You know, when we talk about little tech, this is it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            422.48,
+            425.001
+          ],
+          "quote": "Speedrun, as you're describing it, is like the littlest of the little tech.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1352.011,
+            1357.476
+          ],
+          "quote": "Cause we, you know, we show up, we represent little tech, but we're not, or I'm not a founder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1431.303,
+            1449.773
+          ],
+          "quote": "But also, on top of that, the folks that maybe do show up in all these places and do advocate for tech, you get a very skewed view because you don't hear from little tech, but you might hear a lot from big tech.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1988.187,
+            1998.838
+          ],
+          "quote": "The second thing is, you know, as we were just talking about a couple of minutes ago, I think a lot of policymakers are not having real conversations with little tech.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2085.422,
+            2096.513
+          ],
+          "quote": "You know, spend time with five or 10 really curated, you know, little tech startups that are, you know, two, three people and just kind of hear like, okay, what do you need to be successful?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "regulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "监管 (regulation)",
+      "file": "监管",
+      "primary": true,
+      "how_described": "本集把它说成:对这些创始人而言基本就是摩擦——注册公司、开始招人就拿到『这么厚一大摞文件』;真正的政策图景是数据来源要求、隐私法、SB 53 等全部累积起来的『复合体』,且多是为有律师团队的大公司设计的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            57.547,
+            69.352
+          ],
+          "quote": "Matt and Andrew discuss how regulation can influence where startups choose to build, what policymakers can learn by hearing directly from founders, and what it takes to create an environment where the next generation of companies can get started.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "venture-capital",
+      "type": "concept",
+      "role": "concept",
+      "name": "风险投资 (venture capital)",
+      "file": "风险投资",
+      "primary": true,
+      "how_described": "本集把它说成:一个大量不成功的行业——通俗的数学是约一半公司倒闭、两三家赚点小钱、所有的钱都赚在最顶尖的那一成,这个分布几十年如一日。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            872.205,
+            882.51
+          ],
+          "quote": "Yeah, I think historically in the venture capital business overall, you often, you know, the colloquial description is something like half the company's",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1554.249,
+            1565.416
+          ],
+          "quote": "And over the last couple of years, all the major venture capital firms had opened offices in various places in London and Europe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2062.842,
+            2077.655
+          ],
+          "quote": "Folks like A16Z and other venture capital firms and other ecosystem kind of players, what we can do is we can certainly help open the door to creating those conversations.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 编程 (AI coding)",
+      "file": "AI 编程",
+      "primary": true,
+      "how_described": "本集把它说成:两三人小团队的标准分工之一——偏技术和产品的创始人大量用 AI 编程,这样就不用外包代码或雇一堆年轻人写代码,先让生意活下来再扩张。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            706.798,
+            712.241
+          ],
+          "quote": "The technology and product co-founder is typically using a lot of AI right now, a lot of AI coding.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tech-week",
+      "type": "concept",
+      "role": "concept",
+      "name": "Tech Week",
+      "file": "Tech Week",
+      "primary": true,
+      "how_described": "本集把它说成:Andrew 团队创办的、在旧金山、洛杉矶、纽约和今年波士顿庆祝初创公司的活动,去年有 4000 名参会者参加政策相关活动,包括上千名政府人士和政策专业人士。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 320,
+          "t": [
+            1809.433,
+            1819.461
+          ],
+          "quote": "And what Tech Week really does is it's really a celebration of startups and technology and progress in all the major cities.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1923.647,
+            1930.712
+          ],
+          "quote": "So yeah, so it's all, it's, it's been, it's been great to, to have that as a, a burgeoning part of the, the tech week ecosystem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1930.892,
+            1948.799
+          ],
+          "quote": "So if you see a local policymaker or a representative from a consulate or member of Congress at a Tech Week event and you're chatting with them on the sidelines, what would you relate to them about the realities of building a competitive company given what you know about what the early, early stage really looks like?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "big-tech",
+      "type": "concept",
+      "role": "concept",
+      "name": "大科技 (big tech)",
+      "file": "大科技",
+      "primary": false,
+      "how_described": "本集把它说成:政策桌上被过多听到的声音——当政策制定者说『整个行业意见一致』时,指的往往是大科技或大型金融机构,而非正在制造颠覆的小团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 239,
+          "t": [
+            1286.3,
+            1307.217
+          ],
+          "quote": "And so generally their interaction on kind of the regulatory side of the world is usually negative because these are things that actually create protections often for either big tech or for other parts of the industry that they end up trying to disrupt.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1431.303,
+            1449.773
+          ],
+          "quote": "But also, on top of that, the folks that maybe do show up in all these places and do advocate for tech, you get a very skewed view because you don't hear from little tech, but you might hear a lot from big tech.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1470.8,
+            1477.825
+          ],
+          "quote": "And when they say all of industry, what they mean is big tech companies or sometimes it might be big financial services companies like large organizations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1486.65,
+            1493.675
+          ],
+          "quote": "Like there's lots of time where we agree with big tech companies, but we'll like when we disagree, we'll say like it's by design, we're representing a different part of the ecosystem.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "wealth-tax",
+      "type": "concept",
+      "role": "concept",
+      "name": "财富税 (wealth tax)",
+      "file": "财富税",
+      "primary": false,
+      "how_described": "本集把它说成:Andrew 公开点名担忧的、正在讨论中的政策——它可能把正在做出巨大贡献的家族办公室和投资人迁往其他地区。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 315,
+          "t": [
+            1760.336,
+            1770.848
+          ],
+          "quote": "And I wonder and I worry about things like the wealth tax that are currently under discussion in its ability to potentially relocate a bunch of",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

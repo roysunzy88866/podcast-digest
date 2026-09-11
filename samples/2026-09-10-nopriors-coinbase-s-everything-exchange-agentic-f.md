@@ -166,7 +166,7 @@ NewLimit 现在南旧金山有约五六十人的实验室，流程是：AI 前�
 
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗]]<span class="pd-rz">同概念:智能体 (agent)、递归自我改进 (recursive self-improvement)</span>
 - [[2026-08-28-cogrev-ai-am-highlights-recursive-self-improvem|RL环境的供应链黑箱与模型的分工时代]]<span class="pd-rz">同概念:智能体 (agent)、递归自我改进 (recursive self-improvement)</span>
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder]]<span class="pd-rz">同公司:Coinbase · 同概念:智能体 (agent)</span>
+- [[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|鼠标力：为智能体时代找回「马力」这把尺子]]<span class="pd-rz">同公司:Coinbase · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

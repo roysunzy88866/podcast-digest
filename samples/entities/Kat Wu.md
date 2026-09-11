@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]] [[Michael Tannenbaum]]
+[[Maximillian Piras]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Anthropic":114,"Claude Code":52,"Co-work":3,"产品品味":1,"智能体":1,"自动化":2,"研究预览版":2,"评估":24,"系统提示词":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Anthropic":115,"Claude Code":53,"Co-work":3,"产品品味":1,"智能体":1,"自动化":2,"研究预览版":2,"评估":24,"系统提示词":4}</script>
 
 <script>
 (function(){

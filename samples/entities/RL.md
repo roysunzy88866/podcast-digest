@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[NVIDIA]] · [[后训练]] · [[Redwood Research]] · [[ChatGPT]] · [[Hugging Face]] · [[GPU]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":102,"Anthropic":114,"推理":5,"NVIDIA":33,"后训练":1,"Redwood Research":3,"ChatGPT":55,"Hugging Face":20,"GPU":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":102,"Anthropic":115,"推理":5,"NVIDIA":33,"后训练":1,"Redwood Research":3,"ChatGPT":57,"Hugging Face":20,"GPU":16}</script>
 
 <script>
 (function(){

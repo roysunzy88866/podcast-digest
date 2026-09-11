@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anish Acharya]] · [[OpenAI]] · [[Anthropic]] · [[Salesforce]] · [[Cursor]] · [[11 Labs]] · [[GrokBot]] · [[Town]] · [[Decagon]] · [[Replit]]
+[[Anish Acharya]] · [[OpenAI]] · [[Anthropic]] · [[Salesforce]] · [[Harvey]] · [[Cursor]] · [[11 Labs]] · [[GrokBot]] · [[Town]] · [[Decagon]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jordan Tigani]] [[Tibo Sottiaux]] [[Ajay Prakash]] [[Alex Hancock]] [[Dustin Mihalik]]
+[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jordan Tigani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":2,"OpenAI":102,"Anthropic":114,"Salesforce":17,"Cursor":54,"11 Labs":4,"GrokBot":4,"Town":3,"Decagon":5,"Replit":15}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":2,"OpenAI":102,"Anthropic":115,"Salesforce":17,"Harvey":8,"Cursor":54,"11 Labs":4,"GrokBot":4,"Town":3,"Decagon":5}</script>
 
 <script>
 (function(){

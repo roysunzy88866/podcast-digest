@@ -154,7 +154,7 @@ Max 最近在 ICML 主题演讲里讲了另一个方向：把**波**引入神经
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:NVIDIA · 同概念:智能体 (agent)、蒸馏 (distillation)</span>
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:NVIDIA · 同概念:智能体 (agent)、蒸馏 (distillation)</span>
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:NVIDIA · 同概念:智能体 (agent)</span>
+- [[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|鼠标力：为智能体时代找回「马力」这把尺子]]<span class="pd-rz">同概念:智能体 (agent)、熵 (entropy)</span>
 
 </div>
 <div class="pd-ex">

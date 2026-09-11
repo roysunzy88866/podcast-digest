@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Chetan Gupta]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]] [[Max]] [[Nick Warner]]
+[[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]] [[Nick Bostrom]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":102,"Hugging Face":20,"Meter":2,"Redwood Research":3,"Modal":6,"智能体":1,"沙箱":39,"RL":7,"Exploit Gym":1,"Artifactory":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":102,"Hugging Face":20,"Meter":2,"Redwood Research":3,"Modal":6,"智能体":1,"沙箱":41,"RL":7,"Exploit Gym":1,"Artifactory":1}</script>
 
 <script>
 (function(){

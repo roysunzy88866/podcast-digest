@@ -45,9 +45,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Cursor]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[go-to-market]] · [[Modal]] · [[Harry Stebbings]]
+[[智能体]] · [[Cursor]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[go-to-market]] · [[Modal]] · [[Harvey]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":54,"OpenAI":102,"Google":38,"Anthropic":114,"ChatGPT":55,"Lenny":67,"go-to-market":8,"Modal":6,"Harry Stebbings":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":54,"OpenAI":102,"Google":38,"Anthropic":115,"ChatGPT":57,"Lenny":67,"go-to-market":8,"Modal":6,"Harvey":8}</script>
 
 <script>
 (function(){

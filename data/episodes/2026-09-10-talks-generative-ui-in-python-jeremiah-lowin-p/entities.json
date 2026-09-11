@@ -1,0 +1,1010 @@
+{
+  "episode_id": "2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p",
+  "podcast": "精选演讲",
+  "date": "2026-09-10",
+  "tags": [
+    "MCP",
+    "智能体",
+    "生成式 UI",
+    "Python 工程",
+    "开源框架"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "jeremiah-lowin",
+      "type": "person",
+      "role": "guest",
+      "name": "Jeremiah Lowin",
+      "file": "Jeremiah Lowin",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "mcp-apps",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP Apps",
+      "file": "MCP Apps",
+      "primary": true,
+      "how_described": "本集说它是 MCP 协议的扩展：工具结果不再返回智能体上下文，而是以完整 HTML/CSS/JavaScript 的形式直接呈现给用户，用户与应用直接交互，「把互联网装进你的智能体」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            34.536,
+            35.858
+          ],
+          "quote": "I want to talk about MCP apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            44.132,
+            47.418
+          ],
+          "quote": "Just a show of hands, MCP apps familiarity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            54.828,
+            60.754
+          ],
+          "quote": "For those that didn't put their hands up, MCP Apps is an extension of the MCP protocol that was introduced, I think, in January of this year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            97.842,
+            102.806
+          ],
+          "quote": "So MCP apps are an extension of this, which allow us actually to bypass the agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            262.838,
+            264.28
+          ],
+          "quote": "What do they need these MCP apps for?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            280.604,
+            286.645
+          ],
+          "quote": "And so it changed the nature of what we expect them to do within MCP Apps Framework, and that constraint became really useful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            565.851,
+            571.036
+          ],
+          "quote": "So I want to bring this back to the thing I opened with now, which is MCP servers and more specifically MCP apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            874.592,
+            880.715
+          ],
+          "quote": "In any client that supports MCP apps, if you ask the agent, I need to upload something, it can now show you this, and you can upload safely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1028.952,
+            1036.978
+          ],
+          "quote": "So if you're using a recent version of Fast MCP, you should be able to install this optional edition, import the components, return them, and start playing with these MCP apps.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把它描述为智能体调用托管在 MCP 服务器上的外部工具的协议；传统上用户与服务器之间从无直接连接，一切都要经过智能体的大脑和上下文窗口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            25.377,
+            32.4
+          ],
+          "quote": "We're gonna try and have the most reasoned approach to a very strange thing that agents in MCP and other things have enabled.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            34.536,
+            35.858
+          ],
+          "quote": "I want to talk about MCP apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            44.132,
+            47.418
+          ],
+          "quote": "Just a show of hands, MCP apps familiarity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            54.828,
+            60.754
+          ],
+          "quote": "For those that didn't put their hands up, MCP Apps is an extension of the MCP protocol that was introduced, I think, in January of this year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            65.538,
+            67.78
+          ],
+          "quote": "for an MCP tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            70.162,
+            75.166
+          ],
+          "quote": "The agent in turn decides to use an MCP tool that's hosted on an MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            83.173,
+            93.22
+          ],
+          "quote": "And so fundamentally, MCP servers are these fantastic ways of adding functions and business logic to your agents, but never a direct connection between a user and the MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            97.842,
+            102.806
+          ],
+          "quote": "So MCP apps are an extension of this, which allow us actually to bypass the agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            156.728,
+            162.772
+          ],
+          "quote": "This is gonna come out in the July MCP release where the agent can actually interact with the app",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            185.652,
+            188.473
+          ],
+          "quote": "FastMCP is one of the most popular ways of building MCP servers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            188.813,
+            196.595
+          ],
+          "quote": "And so whenever new cool things come to the world of MCP, the first thing I wonder is, how can I deliver this to our users?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            253.224,
+            257.31
+          ],
+          "quote": "And so we thought pretty hard about who are our users in the Fast MCP ecosystem?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            262.838,
+            264.28
+          ],
+          "quote": "What do they need these MCP apps for?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            280.604,
+            286.645
+          ],
+          "quote": "And so it changed the nature of what we expect them to do within MCP Apps Framework, and that constraint became really useful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            394.344,
+            404.094
+          ],
+          "quote": "For those of you who do know FastMCP, you know that arguably you could reduce FastMCP down and say the core innovation of FastMCP is that we used a Python decorator to build an entire MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            472.335,
+            477.639
+          ],
+          "quote": "And that JSON protocol is ultimately rendered by a React app, which is hosted as the actual MCP app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            565.851,
+            571.036
+          ],
+          "quote": "So I want to bring this back to the thing I opened with now, which is MCP servers and more specifically MCP apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            588.332,
+            592.353
+          ],
+          "quote": "But the reason we built it, the use case that it is satisfying is for MCP servers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            592.793,
+            599.774
+          ],
+          "quote": "And so I want to give you a quick tour of three ways that you can use it, three increasingly sophisticated ways that you can use it in your MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            602.995,
+            610.156
+          ],
+          "quote": "As I showed you at the beginning of the talk, typically an MCP tool is something your agent calls, and the agent gets the result, and you don't get to interact with it at all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            647.282,
+            650.424
+          ],
+          "quote": "It will automatically infer that you, in fact, want to return an MCP app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            774.161,
+            776.547
+          ],
+          "quote": "And in this case, the MCP server is going to be the back end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            822.905,
+            830.772
+          ],
+          "quote": "So as you can see, because only the agent has access to an MCP server, you can't simply upload a file to an MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            832.353,
+            836.758
+          ],
+          "quote": "And so what ends up happening is a lot of people create basically an upload tool on their MCP server",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            842.28,
+            852.904
+          ],
+          "quote": "You give the agent a megabyte of text, the agent retypes it character by character into the MCP, and now, yes, in fact, you have uploaded it, but it's extremely, extremely inefficient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            853.284,
+            855.805
+          ],
+          "quote": "So this is a really good use case for an MCP app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            874.592,
+            880.715
+          ],
+          "quote": "In any client that supports MCP apps, if you ask the agent, I need to upload something, it can now show you this, and you can upload safely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1026.43,
+            1028.932
+          ],
+          "quote": "And this is already fully baked into Fast MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1028.952,
+            1036.978
+          ],
+          "quote": "So if you're using a recent version of Fast MCP, you should be able to install this optional edition, import the components, return them, and start playing with these MCP apps.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fastmcp",
+      "type": "company",
+      "role": "company",
+      "name": "FastMCP",
+      "file": "FastMCP",
+      "primary": true,
+      "how_described": "本集说它是构建 MCP 服务器最流行的方式之一，核心创新是「用一个 Python 装饰器构建了整个 MCP 服务器」；Prefab 已完全内置其中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            179.23,
+            185.612
+          ],
+          "quote": "Now, some of you may know a framework that I'm the author of and my company maintains called FastMCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            185.652,
+            188.473
+          ],
+          "quote": "FastMCP is one of the most popular ways of building MCP servers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            394.344,
+            404.094
+          ],
+          "quote": "For those of you who do know FastMCP, you know that arguably you could reduce FastMCP down and say the core innovation of FastMCP is that we used a Python decorator to build an entire MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            617.115,
+            618.317
+          ],
+          "quote": "This is a FastMCP tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            642.26,
+            647.202
+          ],
+          "quote": "And when we return this prefab component, FastMCP will automatically detect that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            762.207,
+            764.388
+          ],
+          "quote": "The second thing that we can do is a FastMCP app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            770.711,
+            774.141
+          ],
+          "quote": "A FastMCP app is a full application with a back end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            783.672,
+            800.285
+          ],
+          "quote": "We're gonna write a class, which is our FastMCP app, and then we're gonna decorate at least two functions with app.ui, that's the entry point, that's gonna return the prefab components that form the base UI of that application, and then at least one, I guess this is optional, so zero or more,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            815.85,
+            819.871
+          ],
+          "quote": "One thing that we use and we ship as a built-in component now in FastMCP",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prefab",
+      "type": "company",
+      "role": "company",
+      "name": "Prefab",
+      "file": "Prefab",
+      "primary": true,
+      "how_described": "本集说它是一个限定范围的开源 UI 构建框架，让 Python 工程师用约 130-140 个世界级组件「组合前端而非构建前端」，通过智能体交付表格、表单、图表这类组织内信息工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            296.563,
+            306.168
+          ],
+          "quote": "And so fundamentally with this constraint, we can introduce a piece of software that we open sourced a few months ago and has been surprisingly popular among this crowd called Prefab.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            404.695,
+            409.299
+          ],
+          "quote": "So if you want to take the same reductive approach to prefab, you could say we use a context manager to build an entire UI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            459.472,
+            461.955
+          ],
+          "quote": "And this is the pipeline that Prefab is essentially exposing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            522.304,
+            524.724
+          ],
+          "quote": "These are the docs for the data table component in prefab.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            530.786,
+            531.987
+          ],
+          "quote": "The docs for prefab.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            532.507,
+            534.948
+          ],
+          "quote": "are 100% rendered in Prefab.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            535.149,
+            539.311
+          ],
+          "quote": "So the data table that's here in the basic usage, it is live rendered in Prefab.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            545.935,
+            555.14
+          ],
+          "quote": "If you want, you can take any example in the Prefab docs, you can click a link, pop them into the playground, and you can edit the code live, the Python code live, and you will see the UI update.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            571.476,
+            574.78
+          ],
+          "quote": "You are welcome to use Prefab for any kind of front-end problem you have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            626.431,
+            629.336
+          ],
+          "quote": "If we want to turn this into a fully interactive tool with Prefab,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            632.716,
+            637.918
+          ],
+          "quote": "Instead of returning a Python dictionary at the end, which will go to the agent, we're going to return a prefab component.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            642.26,
+            647.202
+          ],
+          "quote": "And when we return this prefab component, FastMCP will automatically detect that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            783.672,
+            800.285
+          ],
+          "quote": "We're gonna write a class, which is our FastMCP app, and then we're gonna decorate at least two functions with app.ui, that's the entry point, that's gonna return the prefab components that form the base UI of that application, and then at least one, I guess this is optional, so zero or more,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            922.192,
+            928.313
+          ],
+          "quote": "That accepts the JSON, the protocol serialization of a UI that Prefab is based on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1012.24,
+            1014.161
+          ],
+          "quote": "So that's Prefab.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1014.401,
+            1022.467
+          ],
+          "quote": "If you'd like to check it out, if you're curious, if you want to see the weirdest thing I've ever built, along with however many other people, you can see the docs at prefab.prefect.io.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prefect",
+      "type": "company",
+      "role": "company",
+      "name": "Prefect",
+      "file": "Prefect",
+      "primary": false,
+      "how_described": "本集提到演讲者所在的、维护 FastMCP 的公司，其软件哲学是「一行代码，一个显著的大变化」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            709.38,
+            715.528
+          ],
+          "quote": "So this follows a principle that we really try to hold in a lot of our software at Prefect, which is one line of code, one big noticeable change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1014.401,
+            1022.467
+          ],
+          "quote": "If you'd like to check it out, if you're curious, if you want to see the weirdest thing I've ever built, along with however many other people, you can see the docs at prefab.prefect.io.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成用户与 MCP 服务器之间必经的「大脑」：促成一切交互但传统上隔开用户与工具；MCP Apps 则让用户能绕过它直接操作界面，也让智能体可以生成整个 UI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            67.96,
+            69.742
+          ],
+          "quote": "The user makes a request to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            70.162,
+            75.166
+          ],
+          "quote": "The agent in turn decides to use an MCP tool that's hosted on an MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            75.627,
+            82.793
+          ],
+          "quote": "A tool result comes back into the agent's context, and the agent chooses to form some response and send it out to the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            93.24,
+            97.062
+          ],
+          "quote": "It always goes through the brain of the agent, and more importantly, through the context window of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            97.842,
+            102.806
+          ],
+          "quote": "So MCP apps are an extension of this, which allow us actually to bypass the agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            104.967,
+            106.588
+          ],
+          "quote": "The user requests something from the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            106.888,
+            108.108
+          ],
+          "quote": "The agent uses a tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            108.369,
+            111.95
+          ],
+          "quote": "But instead of that tool request going back to the agent, it is sent out to the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            118.554,
+            123.797
+          ],
+          "quote": "And so the idea is you have this way to make, to basically put the internet into your agent, so to speak.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            149.444,
+            155.007
+          ],
+          "quote": "There's a lot of things that you can do as a user now where the agent facilitated it, but you are gonna interact as a human.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            156.728,
+            162.772
+          ],
+          "quote": "This is gonna come out in the July MCP release where the agent can actually interact with the app",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            163.012,
+            174.041
+          ],
+          "quote": "And this will tee up some really interesting use cases we're not going to talk about today, but you could hypothetically play a game of chess against the agent now in a visual app where you make a move and then the agent interacts with the app as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            310.295,
+            315.998
+          ],
+          "quote": "For the purpose of delivering UIs through an agent for the set of purposes that I mentioned a moment ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            497.615,
+            500.337
+          ],
+          "quote": "And because it's serializable, I can generate it from an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            500.537,
+            501.637
+          ],
+          "quote": "I can send it to an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            502.018,
+            504.339
+          ],
+          "quote": "I can generate it as a human and ask an agent to modify it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            602.995,
+            610.156
+          ],
+          "quote": "As I showed you at the beginning of the talk, typically an MCP tool is something your agent calls, and the agent gets the result, and you don't get to interact with it at all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            618.477,
+            625.87
+          ],
+          "quote": "It's been decorated with a tool decorator, as you can see, and it's just a Python function that returns some information, bearing in mind this information will go to the agent, not the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            632.716,
+            637.918
+          ],
+          "quote": "Instead of returning a Python dictionary at the end, which will go to the agent, we're going to return a prefab component.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            822.905,
+            830.772
+          ],
+          "quote": "So as you can see, because only the agent has access to an MCP server, you can't simply upload a file to an MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            830.872,
+            832.333
+          ],
+          "quote": "It has to go through the brain of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            837.198,
+            841.94
+          ],
+          "quote": "Forget that the agent has to actually call it, and what you end up doing is the world's most expensive copy-paste operation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            842.28,
+            852.904
+          ],
+          "quote": "You give the agent a megabyte of text, the agent retypes it character by character into the MCP, and now, yes, in fact, you have uploaded it, but it's extremely, extremely inefficient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            856.225,
+            863.968
+          ],
+          "quote": "Where you ask the agent to bring up the app interface, you drag a file into it, and now the file bypasses the agent and goes right into the server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            874.592,
+            880.715
+          ],
+          "quote": "In any client that supports MCP apps, if you ask the agent, I need to upload something, it can now show you this, and you can upload safely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            889.259,
+            893.301
+          ],
+          "quote": "So here's the agent is now interacting with a file that I just uploaded, that I dragged and dropped.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            928.753,
+            936.575
+          ],
+          "quote": "And so now as the agent is streaming that information over the wire, we are in real time rendering whatever we've got, healing that JSON and rendering it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            942.676,
+            948.498
+          ],
+          "quote": "All you have to do is use the skill we already ship, share it with your agent so it knows how to write a UI, and off it goes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            964.226,
+            971.11
+          ],
+          "quote": "So as I mentioned, originally the plan was for the agent to send JSON over the wire and have it be rendered into this full React application.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说生成式 UI 的新方案是把 Python 代码流式传输后在沙箱中执行、再在服务器端转成 JSON 渲染，带来 token 效率、成本和延迟的巨大收益。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 217,
+          "t": [
+            988.702,
+            990.203
+          ],
+          "quote": "It's executed in a sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "generative-ui",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 UI (generative UI)",
+      "file": "生成式 UI",
+      "primary": true,
+      "how_described": "本集说它是 Prefab 架构赋能的第三种用法：把官方能力共享给智能体后，它就能流式生成 UI 的协议表示，系统实时修复并渲染，用户甚至无需自己定义界面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            900.842,
+            906.087
+          ],
+          "quote": "The last thing that I want to talk about, which is sort of enabled by this architecture, is a fully generative UI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集演示中作为被请求「流式输出你能想到的最有趣的 UI」的智能体出现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            909.529,
+            914.093
+          ],
+          "quote": "So this is a very simple demo where I asked Claude, hey, I'm giving a talk on this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

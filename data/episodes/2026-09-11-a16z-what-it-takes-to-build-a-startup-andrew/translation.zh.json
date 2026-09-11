@@ -1,0 +1,3170 @@
+[
+ {
+  "seg": 0,
+  "start": 0.577,
+  "end": 2.158,
+  "speaker": "Unknown",
+  "en": "This is truly little tech.",
+  "zh": "这真是“小科技”。"
+ },
+ {
+  "seg": 1,
+  "start": 2.278,
+  "end": 4.059,
+  "speaker": "Unknown",
+  "en": "The average team is two to three people.",
+  "zh": "团队平均只有两到三个人。"
+ },
+ {
+  "seg": 2,
+  "start": 4.139,
+  "end": 7.601,
+  "speaker": "Unknown",
+  "en": "They're running their companies not in their office, not in a co-working space.",
+  "zh": "他们经营公司不在办公室，也不在联合办公空间。"
+ },
+ {
+  "seg": 3,
+  "start": 7.621,
+  "end": 9.282,
+  "speaker": "Unknown",
+  "en": "They are running it at the kitchen table.",
+  "zh": "而是在厨房餐桌上经营。"
+ },
+ {
+  "seg": 4,
+  "start": 9.362,
+  "end": 14.725,
+  "speaker": "Unknown",
+  "en": "For these founders, they are so mission-focused trying to survive as a business.",
+  "zh": "对于这些创始人来说，他们非常专注于使命，努力让公司活下去。"
+ },
+ {
+  "seg": 5,
+  "start": 14.865,
+  "end": 16.466,
+  "speaker": "Unknown",
+  "en": "They just don't have time to participate.",
+  "zh": "他们根本没有时间参与其中。"
+ },
+ {
+  "seg": 6,
+  "start": 16.486,
+  "end": 17.587,
+  "speaker": "Unknown",
+  "en": "They don't have lobbyists.",
+  "zh": "他们没有说客。"
+ },
+ {
+  "seg": 7,
+  "start": 17.647,
+  "end": 19.388,
+  "speaker": "Unknown",
+  "en": "They're not really represented.",
+  "zh": "他们实际上没有被代表。"
+ },
+ {
+  "seg": 8,
+  "start": 19.528,
+  "end": 24.951,
+  "speaker": "Unknown",
+  "en": "It's a choice whether or not each state or each city wants to have startups or not.",
+  "zh": "每个州或每个城市是否想要拥有初创公司，这是一种选择。"
+ },
+ {
+  "seg": 9,
+  "start": 25.531,
+  "end": 28.373,
+  "speaker": "Unknown",
+  "en": "What does it actually look like to build a startup from day one?",
+  "zh": "从第一天起构建一家初创公司究竟是什么样子？"
+ },
+ {
+  "seg": 10,
+  "start": 29.153,
+  "end": 39.696,
+  "speaker": "Unknown",
+  "en": "In this episode, Matt Perrault sits down with A16Z general partner and speedrun lead, Andrew Chen, to talk about Little Tech, the tiny teams at the very beginning of building a company.",
+  "zh": "在本期节目中，Matt Perrault 与 A16Z 普通合伙人兼 Speedrun 负责人 Andrew Chen 对谈，聊聊“小科技”——那些处于创业最初阶段的微小团队。"
+ },
+ {
+  "seg": 11,
+  "start": 40.6,
+  "end": 49.344,
+  "speaker": "Unknown",
+  "en": "Andrew shares what life looks like for founders who are often just two or three people building from a kitchen table, focused on getting a product to work and finding their first customers.",
+  "zh": "Andrew 分享了这些创始人的生活是什么样子：他们通常只有两三个人，在厨房餐桌上创业，专注于让产品跑通并找到他们的第一批客户。"
+ },
+ {
+  "seg": 12,
+  "start": 50.164,
+  "end": 56.887,
+  "speaker": "Unknown",
+  "en": "They rarely have lobbyists, policy teams, or even the time to participate in debates about rules that could directly affect them.",
+  "zh": "他们很少有说客、政策团队，甚至没有时间参与那些可能直接影响他们的规则辩论。"
+ },
+ {
+  "seg": 13,
+  "start": 57.547,
+  "end": 69.352,
+  "speaker": "Unknown",
+  "en": "Matt and Andrew discuss how regulation can influence where startups choose to build, what policymakers can learn by hearing directly from founders, and what it takes to create an environment where the next generation of companies can get started.",
+  "zh": "Matt 和 Andrew 讨论了监管如何影响初创公司选择在哪里落脚，政策制定者能通过直接听取创始人的声音学到什么，以及要如何创造一个让下一代公司能够起步的环境。"
+ },
+ {
+  "seg": 14,
+  "start": 72.308,
+  "end": 75.25,
+  "speaker": "Unknown",
+  "en": "Andrew, welcome to the A16Z AI Policy Brief.",
+  "zh": "Andrew,欢迎来到 A16Z AI Policy Brief。"
+ },
+ {
+  "seg": 15,
+  "start": 76.671,
+  "end": 77.352,
+  "speaker": "Unknown",
+  "en": "Thank you for having me.",
+  "zh": "感谢你们邀请我。"
+ },
+ {
+  "seg": 16,
+  "start": 77.712,
+  "end": 80.274,
+  "speaker": "Unknown",
+  "en": "So you lead our Speedrun program.",
+  "zh": "你负责我们的 Speedrun 项目。"
+ },
+ {
+  "seg": 17,
+  "start": 80.334,
+  "end": 82.175,
+  "speaker": "Unknown",
+  "en": "So can you tell us a little bit about what Speedrun is?",
+  "zh": "那么你能给我们讲讲 Speedrun 是什么吗？"
+ },
+ {
+  "seg": 18,
+  "start": 82.435,
+  "end": 82.675,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 19,
+  "start": 82.735,
+  "end": 88.359,
+  "speaker": "Unknown",
+  "en": "So, you know, many folks in the audience will know that startups have to come from somewhere.",
+  "zh": "你知道,观众中的很多人都会知道,初创公司总得有个来源。"
+ },
+ {
+  "seg": 20,
+  "start": 88.479,
+  "end": 95.484,
+  "speaker": "Unknown",
+  "en": "And so, you know, our job is to try to find them on day one when the founders are just starting to think about their companies.",
+  "zh": "所以,我们的工作就是在第一天就找到他们，也就是创始人刚刚开始构思他们公司的时候。"
+ },
+ {
+  "seg": 21,
+  "start": 95.544,
+  "end": 101.048,
+  "speaker": "Unknown",
+  "en": "And so what's great is we host a program, you know, based in the San Francisco office.",
+  "zh": "很棒的一点是，我们运营一个项目，就设在旧金山办公室。"
+ },
+ {
+  "seg": 22,
+  "start": 101.668,
+  "end": 113.674,
+  "speaker": "Unknown",
+  "en": "Where we will announce to the broader internet and through our marketing channels and podcasts and Substack D's letters and everything else that we'll be investing up to a million dollars into brand new startups.",
+  "zh": "在那里，我们会通过更广泛的互联网，以及我们的营销渠道、播客、Substack 通讯等等一切渠道宣布，我们将向全新的初创公司投资至多一百万美元。"
+ },
+ {
+  "seg": 23,
+  "start": 114.274,
+  "end": 119.757,
+  "speaker": "Unknown",
+  "en": "And the ones that we really focus on are the ones where folks are just getting going.",
+  "zh": "而我们真正聚焦的，是那些刚刚起步的人。"
+ },
+ {
+  "seg": 24,
+  "start": 119.917,
+  "end": 128.301,
+  "speaker": "Unknown",
+  "en": "Folks that maybe have full-time jobs and they're starting to come up with a new idea with their best friend and they want to go start something.",
+  "zh": "那些也许还有全职工作、正在和最好的朋友构思一个新想法、想要去开创一番事业的人。"
+ },
+ {
+  "seg": 25,
+  "start": 129.241,
+  "end": 130.062,
+  "speaker": "Unknown",
+  "en": "It could be folks that",
+  "zh": "也可能是这样的人"
+ },
+ {
+  "seg": 26,
+  "start": 130.582,
+  "end": 136.285,
+  "speaker": "Unknown",
+  "en": "Have already left their roles or they just graduated from school and they are coming up with something new.",
+  "zh": "已经离开了自己的岗位，或者刚从学校毕业，他们正在构思新的东西。"
+ },
+ {
+  "seg": 27,
+  "start": 136.305,
+  "end": 138.426,
+  "speaker": "Unknown",
+  "en": "And so what we do is we spend 12 weeks with them.",
+  "zh": "我们要做的是与他们共度 12 周。"
+ },
+ {
+  "seg": 28,
+  "start": 138.446,
+  "end": 144.349,
+  "speaker": "Unknown",
+  "en": "They get the full force and power of the firm and all of our relationships and all of that great stuff.",
+  "zh": "他们能获得整个公司的全力支持，以及我们所有的关系网等一切好的资源。"
+ },
+ {
+  "seg": 29,
+  "start": 144.449,
+  "end": 147.431,
+  "speaker": "Unknown",
+  "en": "And then after we invest, then we share them with the broader",
+  "zh": "然后在我们投资之后，我们会把他们分享给更广泛的"
+ },
+ {
+  "seg": 30,
+  "start": 148.812,
+  "end": 156.018,
+  "speaker": "Unknown",
+  "en": "We host a speedrun demo day where we have over a thousand angel investors and seed funds and many others come and invest.",
+  "zh": "我们举办一个 Speedrun 演示日，会有超过一千名天使投资人、种子基金以及其他许多机构前来投资。"
+ },
+ {
+  "seg": 31,
+  "start": 156.098,
+  "end": 158.781,
+  "speaker": "Unknown",
+  "en": "And then we go from there and kind of release them off in the world.",
+  "zh": "然后我们从那里继续，把他们放到世界上去。"
+ },
+ {
+  "seg": 32,
+  "start": 158.821,
+  "end": 167.028,
+  "speaker": "Unknown",
+  "en": "And hopefully we have the opportunity to invest more in the future and to work with founders as kind of the beginning of a lifelong relationship with them.",
+  "zh": "并且希望我们未来有机会投得更多，与创始人合作，作为与他们终身关系的开端。"
+ },
+ {
+  "seg": 33,
+  "start": 167.068,
+  "end": 167.549,
+  "speaker": "Unknown",
+  "en": "That's the idea.",
+  "zh": "就是这个想法。"
+ },
+ {
+  "seg": 34,
+  "start": 167.869,
+  "end": 172.033,
+  "speaker": "Unknown",
+  "en": "How do you decide what looks like a company that you want to have as part of the speedrun program?",
+  "zh": "你如何判断什么样的公司是你想纳入 Speedrun 项目的？"
+ },
+ {
+  "seg": 35,
+  "start": 172.347,
+  "end": 181.534,
+  "speaker": "Unknown",
+  "en": "At its core in the earliest days, there are just so many famous examples of ideas changing all the time.",
+  "zh": "在最早期，本质上有很多想法不断改变的经典例子。"
+ },
+ {
+  "seg": 36,
+  "start": 182.515,
+  "end": 191.762,
+  "speaker": "Unknown",
+  "en": "Many of you guys know that a product we use every day, Slack, originally started out as a browser-based video game company.",
+  "zh": "你们很多人都知道，我们每天都在使用的产品 Slack，最初是一家基于浏览器的视频游戏公司。"
+ },
+ {
+  "seg": 37,
+  "start": 192.522,
+  "end": 198.346,
+  "speaker": "Unknown",
+  "en": "And many, many other examples down the line.",
+  "zh": "之后还有很多很多其他的例子。"
+ },
+ {
+  "seg": 38,
+  "start": 198.746,
+  "end": 202.288,
+  "speaker": "Unknown",
+  "en": "And so what we try to do at its core is to really just invest in the best people.",
+  "zh": "所以我们本质上要做的，就是真正投资于最优秀的人。"
+ },
+ {
+  "seg": 39,
+  "start": 203.389,
+  "end": 207.452,
+  "speaker": "Unknown",
+  "en": "And so we're looking for folks that have had some really unique experience.",
+  "zh": "我们在寻找那些有过非常独特经历的人。"
+ },
+ {
+  "seg": 40,
+  "start": 208.773,
+  "end": 211.555,
+  "speaker": "Unknown",
+  "en": "in their past.",
+  "zh": "在他们的过去。"
+ },
+ {
+  "seg": 41,
+  "start": 211.635,
+  "end": 224.767,
+  "speaker": "Unknown",
+  "en": "And that could be anything from enormous athletic accomplishments on their way to a career in tech, or it could be that they started a GitHub repo that has now thousands of stars and has grown incredibly fast.",
+  "zh": "这可以是任何事情，从在走向科技职业生涯路上取得过非凡的运动成就，到他们启动了一个如今已有数千颗星、增长极其迅速的 GitHub 仓库。"
+ },
+ {
+  "seg": 42,
+  "start": 225.047,
+  "end": 231.372,
+  "speaker": "Unknown",
+  "en": "Or it could be some of the traditional markers where they have gone to elite universities and had sort of learned elite",
+  "zh": "也可能是一些传统的标志，比如他们上过精英大学，学过精英"
+ },
+ {
+  "seg": 43,
+  "start": 233.314,
+  "end": 238.858,
+  "speaker": "Unknown",
+  "en": "You know, like incredible, unique insights at some of our best AI companies.",
+  "zh": "你知道,在我们一些最优秀的 AI 公司里获得过难以置信的、独特的洞察。"
+ },
+ {
+  "seg": 44,
+  "start": 238.918,
+  "end": 242.121,
+  "speaker": "Unknown",
+  "en": "And then they're ready to use that in a new company as well.",
+  "zh": "然后他们也准备好在新公司里运用这些。"
+ },
+ {
+  "seg": 45,
+  "start": 242.141,
+  "end": 243.522,
+  "speaker": "Unknown",
+  "en": "I think we're very open-minded.",
+  "zh": "我认为我们思想非常开放。"
+ },
+ {
+  "seg": 46,
+  "start": 243.562,
+  "end": 247.024,
+  "speaker": "Unknown",
+  "en": "And so we actually have, you know, mostly folks out of the Bay Area",
+  "zh": "所以我们实际上有,大多数来自湾区的人"
+ },
+ {
+  "seg": 47,
+  "start": 248.038,
+  "end": 255.386,
+  "speaker": "Unknown",
+  "en": "Actually, all over America, a very, you know, a little slice from, you know, other places in the world, mostly focused on the US.",
+  "zh": "实际上遍布全美国，还有很小一部分来自世界其他地方，主要聚焦于美国。"
+ },
+ {
+  "seg": 48,
+  "start": 256.387,
+  "end": 264.035,
+  "speaker": "Unknown",
+  "en": "And it's amazing to watch founders that are from, whether it's, you know, New York or Texas or Florida or Midwest or, you know, any of these other places actually.",
+  "zh": "观察那些来自，无论是纽约、德州、佛州、中西部，还是其他任何地方的创始人，真是太美妙了。"
+ },
+ {
+  "seg": 49,
+  "start": 264.495,
+  "end": 268.478,
+  "speaker": "Unknown",
+  "en": "Come to San Francisco, get to experience kind of what it's like to be in the Bay Area.",
+  "zh": "来到旧金山，体验一下身处湾区是什么感觉。"
+ },
+ {
+  "seg": 50,
+  "start": 268.498,
+  "end": 273.202,
+  "speaker": "Unknown",
+  "en": "We work with them, of course, and a lot of them go back to their home communities and continue to build their companies.",
+  "zh": "我们当然和他们合作,他们中很多人回到自己的家乡社区,继续建设他们的公司。"
+ },
+ {
+  "seg": 51,
+  "start": 273.543,
+  "end": 278.647,
+  "speaker": "Unknown",
+  "en": "And of course, quite a few of them stay in the Bay Area as well to build the next generation of tech companies here.",
+  "zh": "当然,也有相当多的人留在湾区,在这里建设下一代科技公司。"
+ },
+ {
+  "seg": 52,
+  "start": 278.987,
+  "end": 281.409,
+  "speaker": "Unknown",
+  "en": "We're very happy when either of those happen.",
+  "zh": "这两种情况发生时,我们都很高兴。"
+ },
+ {
+  "seg": 53,
+  "start": 281.63,
+  "end": 287.915,
+  "speaker": "Unknown",
+  "en": "So what is kind of interested in the range of types of sizes of companies that might participate in speedrun?",
+  "zh": "那么,可能参加 speedrun 的公司在类型和规模上的范围是什么样的?这挺有意思的。"
+ },
+ {
+  "seg": 54,
+  "start": 287.935,
+  "end": 289.816,
+  "speaker": "Unknown",
+  "en": "It sounds like on the small side, it might be...",
+  "zh": "听起来在小的一端,可能是……"
+ },
+ {
+  "seg": 55,
+  "start": 290.857,
+  "end": 297.347,
+  "speaker": "Unknown",
+  "en": "A couple of people who just decided to, who just have an idea, like really the smallest of the small, how large did the companies get?",
+  "zh": "两个刚决定——刚有一个想法的人,真的是最小中的最小,那这些公司最大能到多大?"
+ },
+ {
+  "seg": 56,
+  "start": 297.727,
+  "end": 299.67,
+  "speaker": "Unknown",
+  "en": "Yeah, this is truly little tech.",
+  "zh": "是的,这就是真正的 little tech。"
+ },
+ {
+  "seg": 57,
+  "start": 299.75,
+  "end": 302.254,
+  "speaker": "Unknown",
+  "en": "You know, when we talk about little tech, this is it.",
+  "zh": "你知道,当我们谈到 little tech 时,说的就是这个。"
+ },
+ {
+  "seg": 58,
+  "start": 302.274,
+  "end": 306.48,
+  "speaker": "Unknown",
+  "en": "This is, you know, I think the average team is two to three people.",
+  "zh": "这个,我觉得团队平均是两到三个人。"
+ },
+ {
+  "seg": 59,
+  "start": 307.922,
+  "end": 312.99,
+  "speaker": "Unknown",
+  "en": "They're running their companies not in their office, not in a co-working space.",
+  "zh": "他们经营公司不是在办公室,不是在联合办公空间。"
+ },
+ {
+  "seg": 60,
+  "start": 313.05,
+  "end": 315.133,
+  "speaker": "Unknown",
+  "en": "They're running it at the kitchen table.",
+  "zh": "他们是在厨房餐桌上经营。"
+ },
+ {
+  "seg": 61,
+  "start": 315.253,
+  "end": 322.744,
+  "speaker": "Unknown",
+  "en": "It's really sort of the source of a lot of the success that we've seen in the overall",
+  "zh": "这真的可以说是我们所见过的整体成功的源泉之一,"
+ },
+ {
+  "seg": 62,
+  "start": 323.625,
+  "end": 346.63,
+  "speaker": "Unknown",
+  "en": "You know, American industry has been, you know, really starts in these very small places and, you know, and then, yeah, we invest up to a million dollars and then hopefully they raise more at Demo Day and hopefully they keep going and eventually they become incredible employers and, you know, pillars of the industry and we want to be with them from that journey from day one.",
+  "zh": "你知道,美国工业的成功,真的是从这些非常小的地方开始的,然后,是的,我们投资至多一百万美元,然后希望他们在 Demo Day 上融到更多,希望他们继续前进,最终成为了不起的雇主,成为行业的支柱,而我们想从第一天起就陪伴他们走过这段旅程。"
+ },
+ {
+  "seg": 63,
+  "start": 346.85,
+  "end": 351.852,
+  "speaker": "Unknown",
+  "en": "And what are organizations that would be too large to apply for the speedrun?",
+  "zh": "那么,什么样的组织会大到不适合申请 speedrun?"
+ },
+ {
+  "seg": 64,
+  "start": 351.892,
+  "end": 353.172,
+  "speaker": "Unknown",
+  "en": "Like what's the upper bound?",
+  "zh": "比如上限是什么?"
+ },
+ {
+  "seg": 65,
+  "start": 353.892,
+  "end": 367.476,
+  "speaker": "Unknown",
+  "en": "I mean, honestly, for us, we would say, as soon as you've taken capital elsewhere, you know, we would consider that not maybe not disqualifying, but it would be sort of like, you know, maybe so.",
+  "zh": "说实话,对我们来说,我们会说,一旦你在别处拿过资本,我们就会认为这不一定算取消资格,但大概就是……可能吧。"
+ },
+ {
+  "seg": 66,
+  "start": 367.816,
+  "end": 373.278,
+  "speaker": "Unknown",
+  "en": "So you're kind of at a point where the question is, well, how many folks can you get to bootstrap the company together?",
+  "zh": "所以你就处在这样一个节点,问题变成:你能召集多少人一起自力更生地把公司做起来?"
+ },
+ {
+  "seg": 67,
+  "start": 374.138,
+  "end": 387.424,
+  "speaker": "Unknown",
+  "en": "So if you have a group of five friends that all went to college and they trust each other a lot and they want to spend six months on their own dime working on something, of course, we would love to back a team like that, especially one with that much trust.",
+  "zh": "所以如果你有五个都上过大学、彼此非常信任的朋友,想自掏腰包花六个月时间做一件事,我们当然很乐意支持这样的团队,尤其是有这么多信任的团队。"
+ },
+ {
+  "seg": 68,
+  "start": 388.024,
+  "end": 394.067,
+  "speaker": "Unknown",
+  "en": "But very rarely would we see a team above three, four, five people at that point.",
+  "zh": "但在那个阶段,我们很少见到超过三、四、五人的团队。"
+ },
+ {
+  "seg": 69,
+  "start": 394.367,
+  "end": 401.09,
+  "speaker": "Unknown",
+  "en": "At some point, you know, you kind of don't want to divide the company's ownership to be too small, especially because people come and go.",
+  "zh": "到了某个程度,你其实不想把公司的所有权分得太碎,尤其是因为人员会有来有走。"
+ },
+ {
+  "seg": 70,
+  "start": 402.011,
+  "end": 406.513,
+  "speaker": "Unknown",
+  "en": "You probably need to, you know, some people's life situations will be such that you'll need to actually pay them.",
+  "zh": "你可能需要——你知道,有些人的生活状况会使得你确实需要付他们工资。"
+ },
+ {
+  "seg": 71,
+  "start": 407.513,
+  "end": 410.495,
+  "speaker": "Unknown",
+  "en": "And so, yeah, so we, again, really, it's...",
+  "zh": "所以,是的,我们再说一次,真的,它是……"
+ },
+ {
+  "seg": 72,
+  "start": 411.575,
+  "end": 414.476,
+  "speaker": "Unknown",
+  "en": "It's like a two or three person thing, typically.",
+  "zh": "它通常就是一个两三人的事情。"
+ },
+ {
+  "seg": 73,
+  "start": 414.496,
+  "end": 417.658,
+  "speaker": "Unknown",
+  "en": "So we invest in different phases of company life cycles.",
+  "zh": "所以我们投资于公司生命周期的不同阶段。"
+ },
+ {
+  "seg": 74,
+  "start": 417.678,
+  "end": 420.279,
+  "speaker": "Unknown",
+  "en": "We have a growth team that's when companies tend to get larger.",
+  "zh": "我们有一个 growth 团队,那是公司趋于变大的阶段。"
+ },
+ {
+  "seg": 75,
+  "start": 420.299,
+  "end": 422.019,
+  "speaker": "Unknown",
+  "en": "We have a venture team when companies are smaller.",
+  "zh": "我们有一个 venture 团队,针对较小的公司。"
+ },
+ {
+  "seg": 76,
+  "start": 422.48,
+  "end": 425.001,
+  "speaker": "Unknown",
+  "en": "Speedrun, as you're describing it, is like the littlest of the little tech.",
+  "zh": "Speedrun,就像你描述的那样,是 little tech 中最小的那种。"
+ },
+ {
+  "seg": 77,
+  "start": 425.381,
+  "end": 430.443,
+  "speaker": "Unknown",
+  "en": "Why did we as a firm and why did you decide that this was an important part of a life cycle to support?",
+  "zh": "为什么我们作为一家机构,为什么你决定这是生命周期中值得支持的重要一环?"
+ },
+ {
+  "seg": 78,
+  "start": 430.643,
+  "end": 446.682,
+  "speaker": "Unknown",
+  "en": "Yeah, I think that the way I see the mission for A16Z Speedrun is that we're in the, you know, we want to get as close as possible to the moment that founders are actually created and new companies are created.",
+  "zh": "是的,我对 A16Z Speedrun 使命的理解是,我们要尽可能接近创始人和新公司真正诞生的那一刻。"
+ },
+ {
+  "seg": 79,
+  "start": 449.133,
+  "end": 453.157,
+  "speaker": "Unknown",
+  "en": "My first couple of years at the firm, I spent more in Series A, Series B.",
+  "zh": "我在这家机构的前几年,更多做的是 Series A、Series B。"
+ },
+ {
+  "seg": 80,
+  "start": 453.297,
+  "end": 459.883,
+  "speaker": "Unknown",
+  "en": "And so you're writing checks there where these are mature businesses, or there's at least a glimmer of a business there.",
+  "zh": "你在那里开的支票,对应的是成熟的企业,或者至少已经有一点业务的雏形。"
+ },
+ {
+  "seg": 81,
+  "start": 459.923,
+  "end": 463.105,
+  "speaker": "Unknown",
+  "en": "And so you're investing 10, 15, $20 million.",
+  "zh": "所以你投的是一千万、一千五百万、两千万美元。"
+ },
+ {
+  "seg": 82,
+  "start": 463.186,
+  "end": 471.393,
+  "speaker": "Unknown",
+  "en": "And so by that point, yeah, you have customers, you have metrics to look at, you have a team, et cetera.",
+  "zh": "到那个阶段,是的,你有客户,有可以看的指标,有团队,等等。"
+ },
+ {
+  "seg": 83,
+  "start": 472.113,
+  "end": 473.815,
+  "speaker": "Unknown",
+  "en": "And that's a wonderful place to invest.",
+  "zh": "那是一个很棒的投资阶段。"
+ },
+ {
+  "seg": 84,
+  "start": 474.515,
+  "end": 476.597,
+  "speaker": "Unknown",
+  "en": "And historically, it's been maybe the best place to invest.",
+  "zh": "而且从历史上看,它可能一直是最好的投资阶段。"
+ },
+ {
+  "seg": 85,
+  "start": 477.158,
+  "end": 492.251,
+  "speaker": "Unknown",
+  "en": "For us, one of the really magical things, something that I take a lot of just personal pride and excitement in, is the idea that we are not just waiting for entrepreneurs to show up at our doorstep at A16Z, but we're actually helping create the companies in the first place.",
+  "zh": "对我们来说,一件非常神奇的事、一件让我个人感到非常自豪和兴奋的事,是这样一个理念:我们不只是在 A16Z 门口等着创业者上门,而是我们真的在一开始就参与创造这些公司。"
+ },
+ {
+  "seg": 86,
+  "start": 492.271,
+  "end": 495.294,
+  "speaker": "Unknown",
+  "en": "So for example, in the last speedrun bash, there were 70 companies.",
+  "zh": "比如,在上一届 speedrun bash 上,有 70 家公司。"
+ },
+ {
+  "seg": 87,
+  "start": 496.334,
+  "end": 509.025,
+  "speaker": "Unknown",
+  "en": "And of the 70, there was probably a dozen where, you know, these were folks that had full-time jobs and they had to turn in the laptops and their badges and we couldn't even wire the money over because, you know, they didn't have a company to even incorporate.",
+  "zh": "在这 70 家中,大概有十几家,这些人原本有全职工作,他们不得不交还笔记本电脑和工牌,而我们甚至没法把钱打过去,因为他们甚至还没有注册公司。"
+ },
+ {
+  "seg": 88,
+  "start": 509.445,
+  "end": 522.317,
+  "speaker": "Unknown",
+  "en": "And so we sort of, you know, helped incept these, the idea of like, hey, like, let's create the most powerful and, you know, best path to starting the company.",
+  "zh": "所以我们算是帮助孕育了这些——这个想法,就是:嘿,让我们创造最强大、最好的创业路径。"
+ },
+ {
+  "seg": 89,
+  "start": 522.917,
+  "end": 527.478,
+  "speaker": "Unknown",
+  "en": "And I think a lot of those founders eventually would have would have eventually started businesses.",
+  "zh": "而且我认为,那些创始人中很多最终反正也会创业的。"
+ },
+ {
+  "seg": 90,
+  "start": 527.498,
+  "end": 531.579,
+  "speaker": "Unknown",
+  "en": "You know, when you're a founder, sometimes you just can't get that bug, you know, out of your ear.",
+  "zh": "你知道,当你是一个创始人时,有时候你就是没法把那只虫子从耳朵里弄出去。"
+ },
+ {
+  "seg": 91,
+  "start": 532.059,
+  "end": 537.74,
+  "speaker": "Unknown",
+  "en": "But I do I would like to think that we maybe, you know, hold some of that actively forward.",
+  "zh": "但我愿意相信,我们也许把其中一些主动往前推了。"
+ },
+ {
+  "seg": 92,
+  "start": 538.12,
+  "end": 547.042,
+  "speaker": "Unknown",
+  "en": "And so many folks that maybe would have waited another for another five or 10 years of work experience and financial stability, you know, maybe they would have taken that that that jump.",
+  "zh": "很多原本也许还要再等五年或十年工作经验和财务稳定的人,也许就这样迈出了那一步。"
+ },
+ {
+  "seg": 93,
+  "start": 547.542,
+  "end": 554.748,
+  "speaker": "Unknown",
+  "en": "And what an amazing time in the AI era, you know, to encourage them to, you know, jump in at the right moment.",
+  "zh": "而在 AI 时代,这是多么好的时机,去鼓励他们在正确的时刻纵身一跃。"
+ },
+ {
+  "seg": 94,
+  "start": 554.848,
+  "end": 558.891,
+  "speaker": "Unknown",
+  "en": "Can you give a little texture to what a day in the life looks like for a speedrun company?",
+  "zh": "你能具体讲讲一家 speedrun 公司的日常是什么样的吗?"
+ },
+ {
+  "seg": 95,
+  "start": 558.931,
+  "end": 572.882,
+  "speaker": "Unknown",
+  "en": "Like when they're part of the program, what does their day to day look like both as part of the program and then I assume you see, you know, again, there's like high levels of variance, I'm sure, but like what are the kind of the common things that you see about founders who are operating at this stage?",
+  "zh": "比如他们参加这个项目时,作为项目的一部分,他们的日常是什么样的?我猜,你知道,Again,我确信差异会很大,但你看到的处于这个阶段的创始人,有哪些共同点?"
+ },
+ {
+  "seg": 96,
+  "start": 573.042,
+  "end": 574.103,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, definitely.",
+  "zh": "是的,是的,当然。"
+ },
+ {
+  "seg": 97,
+  "start": 574.163,
+  "end": 588.013,
+  "speaker": "Unknown",
+  "en": "So, you know, if you can kind of picture in your head, you might have, you know, two founders that are originally, you know, they're based in Austin, Texas, they're based in Chicago, they're based in, you know, pick your city.",
+  "zh": "你知道,你可以在脑海里想象一下,可能有两位创始人,他们原本在德克萨斯州奥斯汀,在芝加哥,在——你随便挑个城市。"
+ },
+ {
+  "seg": 98,
+  "start": 588.974,
+  "end": 600.063,
+  "speaker": "Unknown",
+  "en": "We also have had teams from, you know, from Utah, we've had teams from all over the US, quite a few from New York, quite a few from Pacific Northwest as well.",
+  "zh": "我们也有来自犹他州的团队,来自全美各地的团队,相当多来自纽约,也有相当多来自太平洋西北地区。"
+ },
+ {
+  "seg": 99,
+  "start": 600.943,
+  "end": 602.925,
+  "speaker": "Unknown",
+  "en": "So kind of imagine you have two people.",
+  "zh": "所以大概想象一下你有两个人。"
+ },
+ {
+  "seg": 100,
+  "start": 602.985,
+  "end": 604.246,
+  "speaker": "Unknown",
+  "en": "They get accepted to this program.",
+  "zh": "他们被这个项目录取了。"
+ },
+ {
+  "seg": 101,
+  "start": 604.706,
+  "end": 605.506,
+  "speaker": "Unknown",
+  "en": "They're very excited.",
+  "zh": "他们非常兴奋。"
+ },
+ {
+  "seg": 102,
+  "start": 606.047,
+  "end": 608.148,
+  "speaker": "Unknown",
+  "en": "They have to incorporate the company.",
+  "zh": "他们必须注册成立公司。"
+ },
+ {
+  "seg": 103,
+  "start": 608.648,
+  "end": 609.209,
+  "speaker": "Unknown",
+  "en": "They get the money.",
+  "zh": "他们拿到了钱。"
+ },
+ {
+  "seg": 104,
+  "start": 609.229,
+  "end": 610.23,
+  "speaker": "Unknown",
+  "en": "It gets wired in.",
+  "zh": "钱被电汇进来了。"
+ },
+ {
+  "seg": 105,
+  "start": 610.41,
+  "end": 612.711,
+  "speaker": "Unknown",
+  "en": "They've never seen that much money in their life, right?",
+  "zh": "他们这辈子从没见过这么多钱，对吧？"
+ },
+ {
+  "seg": 106,
+  "start": 612.731,
+  "end": 614.632,
+  "speaker": "Unknown",
+  "en": "Like they're excited, right?",
+  "zh": "就是说他们很兴奋，对吧？"
+ },
+ {
+  "seg": 107,
+  "start": 614.833,
+  "end": 616.994,
+  "speaker": "Unknown",
+  "en": "So they buy plane tickets.",
+  "zh": "于是他们买机票。"
+ },
+ {
+  "seg": 108,
+  "start": 617.014,
+  "end": 617.915,
+  "speaker": "Unknown",
+  "en": "They come to San Francisco.",
+  "zh": "来到旧金山。"
+ },
+ {
+  "seg": 109,
+  "start": 618.515,
+  "end": 625.857,
+  "speaker": "Unknown",
+  "en": "And they typically, you know, what we'll do is we have a, we literally have a welcome to SF guide that is, these are the neighborhoods we recommend.",
+  "zh": "然后通常，你知道，我们会做的是，我们真的有一份「欢迎来到 SF」指南，上面写着，这些是我们推荐的街区。"
+ },
+ {
+  "seg": 110,
+  "start": 625.997,
+  "end": 628.538,
+  "speaker": "Unknown",
+  "en": "Here's how you go on Airbnb and, you know, pick the right ones.",
+  "zh": "教你怎么上 Airbnb，你知道，挑对的地方。"
+ },
+ {
+  "seg": 111,
+  "start": 629.218,
+  "end": 632.159,
+  "speaker": "Unknown",
+  "en": "And so they do that and we try to create a community.",
+  "zh": "他们就这么做，我们努力营造一个社区。"
+ },
+ {
+  "seg": 112,
+  "start": 632.219,
+  "end": 639.801,
+  "speaker": "Unknown",
+  "en": "And so we have all these Slack instances and email lists and, you know, and you're meeting other founders.",
+  "zh": "所以我们有很多 Slack 实例和邮件列表，你知道，你会见到其他创始人。"
+ },
+ {
+  "seg": 113,
+  "start": 639.841,
+  "end": 644.763,
+  "speaker": "Unknown",
+  "en": "And so, you know, back to your kind of a day in the life of, you kind of imagine a founder",
+  "zh": "那么，你知道，回到你说的「一天的生活是什么样的」，你可以想象一个创始人"
+ },
+ {
+  "seg": 114,
+  "start": 646.814,
+  "end": 651.638,
+  "speaker": "Unknown",
+  "en": "You know, waking up, they're often, you know, for the duration of the program, they're roommates with their co-founder.",
+  "zh": "你知道，早上醒来，通常在整个项目期间，他们和联合创始人合住。"
+ },
+ {
+  "seg": 115,
+  "start": 651.758,
+  "end": 656.261,
+  "speaker": "Unknown",
+  "en": "So you are spending 24-7 together, like truly.",
+  "zh": "所以你们是一天 24 小时、一周 7 天都待在一起，真的是这样。"
+ },
+ {
+  "seg": 116,
+  "start": 656.281,
+  "end": 663.728,
+  "speaker": "Unknown",
+  "en": "You know, you're not living somewhere fancy, you're somewhere, you know, typically like maybe close to the A16Z office.",
+  "zh": "你知道，他们住的地方不豪华，住的地方，你知道，通常可能离 A16Z 办公室比较近。"
+ },
+ {
+  "seg": 117,
+  "start": 664.208,
+  "end": 671.414,
+  "speaker": "Unknown",
+  "en": "A lot of these folks are either working together at their homes, and we also offer access to the A16Z offices.",
+  "zh": "这些人很多要么在家里一起工作，我们也提供 A16Z 办公室的使用权。"
+ },
+ {
+  "seg": 118,
+  "start": 671.434,
+  "end": 672.155,
+  "speaker": "Unknown",
+  "en": "So sometimes they'll",
+  "zh": "所以有时候他们会"
+ },
+ {
+  "seg": 119,
+  "start": 673.215,
+  "end": 685.145,
+  "speaker": "Unknown",
+  "en": "You know, end up walking in or taking an Uber in, taking a Waymo into the office and then they end up in, we have a couple of co-working spaces where you'll spend time.",
+  "zh": "你知道，最后走路上班，或者打车、坐 Waymo 到办公室，然后他们会到，我们有几个共享办公空间，他们会在那里度过时间。"
+ },
+ {
+  "seg": 120,
+  "start": 685.586,
+  "end": 689.169,
+  "speaker": "Unknown",
+  "en": "And the only thing that they should be spending time on really is just to figure out",
+  "zh": "而他们真正应该花时间的唯一一件事，其实就是要搞清楚"
+ },
+ {
+  "seg": 121,
+  "start": 690.349,
+  "end": 692.41,
+  "speaker": "Unknown",
+  "en": "Is this business gonna work?",
+  "zh": "这门生意到底能不能成？"
+ },
+ {
+  "seg": 122,
+  "start": 692.671,
+  "end": 694.612,
+  "speaker": "Unknown",
+  "en": "They gotta build the product and they gotta sell the product.",
+  "zh": "他们得把产品做出来，还得把产品卖出去。"
+ },
+ {
+  "seg": 123,
+  "start": 695.892,
+  "end": 698.474,
+  "speaker": "Unknown",
+  "en": "And they gotta do it in a short period of time.",
+  "zh": "而且得在很短的时间内做到。"
+ },
+ {
+  "seg": 124,
+  "start": 698.634,
+  "end": 706.278,
+  "speaker": "Unknown",
+  "en": "And so typically you'll have maybe two co-founders, one will be more of a business co-founder, one will be more of a technology and product co-founder.",
+  "zh": "所以通常你会有大概两个联合创始人，一个更偏商业的联合创始人，一个更偏技术和产品的联合创始人。"
+ },
+ {
+  "seg": 125,
+  "start": 706.798,
+  "end": 712.241,
+  "speaker": "Unknown",
+  "en": "The technology and product co-founder is typically using a lot of AI right now, a lot of AI coding.",
+  "zh": "负责技术和产品的联合创始人现在通常会大量使用 AI，大量用 AI 编程。"
+ },
+ {
+  "seg": 126,
+  "start": 712.761,
+  "end": 715.002,
+  "speaker": "Unknown",
+  "en": "So rather than going out and needing to",
+  "zh": "这样就不用出去需要"
+ },
+ {
+  "seg": 127,
+  "start": 716.884,
+  "end": 725.052,
+  "speaker": "Unknown",
+  "en": "Add a lot of cost and maybe outsourcing parts of your coding or hiring a bunch of young people to do coding.",
+  "zh": "增加很多成本，比如把部分编程工作外包，或者雇一大堆年轻人来写代码。"
+ },
+ {
+  "seg": 128,
+  "start": 725.472,
+  "end": 730.177,
+  "speaker": "Unknown",
+  "en": "You can just focus on just, hey, how effective can one or two people be right now?",
+  "zh": "你可以只专注于，嘿，现在一两个人能有多高的效率？"
+ },
+ {
+  "seg": 129,
+  "start": 730.297,
+  "end": 732.679,
+  "speaker": "Unknown",
+  "en": "And let's just make this business stable and survive.",
+  "zh": "先让这门生意稳定下来、活下来。"
+ },
+ {
+  "seg": 130,
+  "start": 732.739,
+  "end": 734.561,
+  "speaker": "Unknown",
+  "en": "Then let's go hire a bunch of folks.",
+  "zh": "然后再去雇一大堆人。"
+ },
+ {
+  "seg": 131,
+  "start": 734.802,
+  "end": 739.827,
+  "speaker": "Unknown",
+  "en": "Then the business co-founder is often out there interviewing customers, talking to customers, trying to make deals happen.",
+  "zh": "而商业联合创始人通常在外面访谈客户、和客户交谈、努力促成交易。"
+ },
+ {
+  "seg": 132,
+  "start": 740.867,
+  "end": 749.493,
+  "speaker": "Unknown",
+  "en": "And so there's often this dichotomy that we see of kind of like the outwards-facing business co-founder and then the inwards-facing product and technology founder as well.",
+  "zh": "所以我们经常看到这种二元分工，一个是面向对外的商业联合创始人，另一个是面向对内的产品和技术的创始人。"
+ },
+ {
+  "seg": 133,
+  "start": 749.633,
+  "end": 754.556,
+  "speaker": "Unknown",
+  "en": "What we do with Speedrun is once per week, we end up having some formal programming.",
+  "zh": "我们在 Speedrun 做的是，每周一次，我们会安排一些正式的活动。"
+ },
+ {
+  "seg": 134,
+  "start": 754.696,
+  "end": 759.358,
+  "speaker": "Unknown",
+  "en": "So we want to make sure the companies have as much time to work as possible, but we will call them in once per week.",
+  "zh": "所以我们想确保公司有尽可能多的时间工作，但我们会每周叫他们来一次。"
+ },
+ {
+  "seg": 135,
+  "start": 759.378,
+  "end": 760.619,
+  "speaker": "Unknown",
+  "en": "They come to the ACC and Z office.",
+  "zh": "他们来到 ACC 和 Z 办公室。"
+ },
+ {
+  "seg": 136,
+  "start": 760.639,
+  "end": 761.5,
+  "speaker": "Unknown",
+  "en": "We'll typically have...",
+  "zh": "我们通常会安排……"
+ },
+ {
+  "seg": 137,
+  "start": 762.26,
+  "end": 772.463,
+  "speaker": "Unknown",
+  "en": "A speaker who is, you know, we've had some amazing, amazing founders, you know, the founder of, you know, Zynga or, you know, Vercel.",
+  "zh": "一位演讲者，你知道，我们请过一些非常了不起、非常了不起的创始人，你知道，Zynga 的创始人，或者，你知道，Vercel 的创始人。"
+ },
+ {
+  "seg": 138,
+  "start": 773.344,
+  "end": 776.245,
+  "speaker": "Unknown",
+  "en": "We've had the, you know, C-level folks from OpenAI.",
+  "zh": "我们请过，你知道，OpenAI 的 C 级高管。"
+ },
+ {
+  "seg": 139,
+  "start": 776.285,
+  "end": 782.447,
+  "speaker": "Unknown",
+  "en": "We've had, you know, we've had, of course, Marc Andreessen and Ben Horowitz with us many times as well.",
+  "zh": "我们还请过，你知道，当然，Marc Andreessen 和 Ben Horowitz 也多次和我们在一起。"
+ },
+ {
+  "seg": 140,
+  "start": 783.387,
+  "end": 784.827,
+  "speaker": "Unknown",
+  "en": "You know, that's always fantastic.",
+  "zh": "你知道，那总是非常棒。"
+ },
+ {
+  "seg": 141,
+  "start": 784.847,
+  "end": 786.668,
+  "speaker": "Unknown",
+  "en": "And then we do these office hours where they will",
+  "zh": "然后我们会做这些 office hours，他们会"
+ },
+ {
+  "seg": 142,
+  "start": 787.448,
+  "end": 795.851,
+  "speaker": "Unknown",
+  "en": "sit in a group of 20, 30 companies and they will talk to each other about problems they're trying to solve.",
+  "zh": "坐成 20、30 家公司一组，他们互相讨论自己试图解决的问题。"
+ },
+ {
+  "seg": 143,
+  "start": 795.871,
+  "end": 811.777,
+  "speaker": "Unknown",
+  "en": "So we run these office hours, we talk about everything from hiring your first employees to signing your first customers, how do you launch on social media, what's the difference between selling into a large enterprise versus selling into SMB, all the things that you need to do.",
+  "zh": "所以我们运营这些 office hours，讨论的内容从雇你的第一批员工，到签下你的第一批客户，怎么在社交媒体上发布，卖给大型企业和卖给 SMB 有什么区别，所有你需要做的事情。"
+ },
+ {
+  "seg": 144,
+  "start": 811.997,
+  "end": 813.978,
+  "speaker": "Unknown",
+  "en": "And of course, how is everyone using AI?",
+  "zh": "当然，还有大家是怎么使用 AI 的？"
+ },
+ {
+  "seg": 145,
+  "start": 815.178,
+  "end": 817.119,
+  "speaker": "Unknown",
+  "en": "What are all the new tools that everybody's using?",
+  "zh": "大家都在用哪些新工具？"
+ },
+ {
+  "seg": 146,
+  "start": 818.12,
+  "end": 819.4,
+  "speaker": "Unknown",
+  "en": "We spend a lot of time on that as well.",
+  "zh": "我们在这方面也花了很多时间。"
+ },
+ {
+  "seg": 147,
+  "start": 819.941,
+  "end": 829.646,
+  "speaker": "Unknown",
+  "en": "And then hopefully the rest of the week they're out and about working and they're being immersed in kind of the milieu of the SFTech ecosystem.",
+  "zh": "然后希望一周剩下的时间他们在外面奔走工作，沉浸在 SF 科技生态的氛围之中。"
+ },
+ {
+  "seg": 148,
+  "start": 830.026,
+  "end": 833.908,
+  "speaker": "Unknown",
+  "en": "So they're meeting a ton of people, meeting a ton of investors, learning all of that.",
+  "zh": "所以他们见很多人，见很多投资人，学习所有这些东西。"
+ },
+ {
+  "seg": 149,
+  "start": 834.068,
+  "end": 840.852,
+  "speaker": "Unknown",
+  "en": "And so, yeah, so we're very excited about just everything that can happen in just a couple of weeks.",
+  "zh": "所以，是的，我们对短短几周内能发生的这一切感到非常兴奋。"
+ },
+ {
+  "seg": 150,
+  "start": 841.232,
+  "end": 847.014,
+  "speaker": "Unknown",
+  "en": "So I know, like, obviously, the most exciting thing to talk about is success, the success part of the ecosystem.",
+  "zh": "我知道，显然，最令人兴奋的话题是成功，生态系统中成功的那部分。"
+ },
+ {
+  "seg": 151,
+  "start": 847.374,
+  "end": 849.435,
+  "speaker": "Unknown",
+  "en": "But in venture, like, there's a lot of not success, right?",
+  "zh": "但在风险投资中，有很多不成功的情况，对吧？"
+ },
+ {
+  "seg": 152,
+  "start": 849.455,
+  "end": 851.156,
+  "speaker": "Unknown",
+  "en": "It's like sort of the nature of the business.",
+  "zh": "这有点像是这个行业的本性。"
+ },
+ {
+  "seg": 153,
+  "start": 851.216,
+  "end": 853.597,
+  "speaker": "Unknown",
+  "en": "And I assume- The majority of the business, yeah.",
+  "zh": "我想——是这个行业的大多数情况，是的。"
+ },
+ {
+  "seg": 154,
+  "start": 853.837,
+  "end": 858.939,
+  "speaker": "Unknown",
+  "en": "And the earlier you go in the life cycle, the more true that is, the more companies don't succeed.",
+  "zh": "而且你越往生命周期的早期走，这一点就越真实，不成功的公司就越多。"
+ },
+ {
+  "seg": 155,
+  "start": 858.959,
+  "end": 861.3,
+  "speaker": "Unknown",
+  "en": "So what does that look like for speedrun participants?",
+  "zh": "那么对 speedrun 参与者来说，那是什么样子呢？"
+ },
+ {
+  "seg": 156,
+  "start": 861.96,
+  "end": 871.004,
+  "speaker": "Unknown",
+  "en": "When companies come through the program and then they're not able to launch a successful business, at least the one that we funded as part of the program, what does that pathway look like?",
+  "zh": "当公司完成这个项目，但没能建立起一个成功的业务，至少不是我们作为项目一部分资助的那家，那条路径是什么样子？"
+ },
+ {
+  "seg": 157,
+  "start": 871.404,
+  "end": 871.965,
+  "speaker": "Unknown",
+  "en": "Yeah, that's right.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 158,
+  "start": 872.205,
+  "end": 882.51,
+  "speaker": "Unknown",
+  "en": "Yeah, I think historically in the venture capital business overall, you often, you know, the colloquial description is something like half the company's",
+  "zh": "是的，我认为从历史上看，在整个风险投资行业中，你经常——你知道，通俗的说法是，大概一半的公司"
+ },
+ {
+  "seg": 159,
+  "start": 883.45,
+  "end": 885.391,
+  "speaker": "Unknown",
+  "en": "Uh, you know, don't, don't work out at all, right?",
+  "zh": "呃，你知道，完全，完全不成，对吧？"
+ },
+ {
+  "seg": 160,
+  "start": 885.411,
+  "end": 888.452,
+  "speaker": "Unknown",
+  "en": "They just kind of outright, um, uh, you know, fold.",
+  "zh": "它们就是干脆，呃，你知道，倒闭了。"
+ },
+ {
+  "seg": 161,
+  "start": 888.972,
+  "end": 905.398,
+  "speaker": "Unknown",
+  "en": "Then you'll have another, you know, if, if that's, if that's like five and 10 companies, you'll have another, you know, two or three where you make a little money and then all, all, all the money is made in that kind of top, top decile, you know, the, the one, the one out of 10 that really where you get, where you get the grand slam.",
+  "zh": "然后你还会有，你知道，如果那是，如果那是五到十家公司，你还会再有，你知道，两三家能赚点小钱，然后所有的钱都是在最顶尖的那一成里赚到的，你知道，十家公司里那一家，真正让你，让你打出全垒打的那一家。"
+ },
+ {
+  "seg": 162,
+  "start": 906.199,
+  "end": 910.14,
+  "speaker": "Unknown",
+  "en": "Um, and that just seems to be true mathematically, which is, which is, you know, just amazing.",
+  "zh": "呃，这在数学上似乎就是成立的，这，这，你知道，真是令人惊叹。"
+ },
+ {
+  "seg": 163,
+  "start": 910.16,
+  "end": 911.861,
+  "speaker": "Unknown",
+  "en": "It's been very consistent over many decades.",
+  "zh": "几十年来一直非常一致。"
+ },
+ {
+  "seg": 164,
+  "start": 912.481,
+  "end": 919.449,
+  "speaker": "Unknown",
+  "en": "So, to your question on what happens to the ones that fold, well, a bunch of great things happen, right?",
+  "zh": "所以，回到你的问题，那些倒闭的公司后来怎么样了？其实，很多好事情会发生，对吧？"
+ },
+ {
+  "seg": 165,
+  "start": 919.609,
+  "end": 930.061,
+  "speaker": "Unknown",
+  "en": "I mean, first, we think that even though we as a firm make the money on the power law kind of exceptional",
+  "zh": "我是说，首先，我们认为尽管我们作为一家机构，是在那种幂律分布的、异常杰出的"
+ },
+ {
+  "seg": 166,
+  "start": 931.142,
+  "end": 932.142,
+  "speaker": "Unknown",
+  "en": "Companies that break through.",
+  "zh": "公司突破出来时赚到钱的。"
+ },
+ {
+  "seg": 167,
+  "start": 932.162,
+  "end": 941.785,
+  "speaker": "Unknown",
+  "en": "We make our reputations with how we work with all the founders that are working hard, working 100 hours a week.",
+  "zh": "我们的声誉来自于我们如何与所有那些努力工作、每周工作 100 小时的创始人合作。"
+ },
+ {
+  "seg": 168,
+  "start": 943.325,
+  "end": 945.486,
+  "speaker": "Unknown",
+  "en": "They're completely plugged in.",
+  "zh": "他们完全投入其中。"
+ },
+ {
+  "seg": 169,
+  "start": 945.546,
+  "end": 947.446,
+  "speaker": "Unknown",
+  "en": "They're working weekends, like the whole thing.",
+  "zh": "他们周末也在工作，就是全套的那种状态。"
+ },
+ {
+  "seg": 170,
+  "start": 948.006,
+  "end": 949.406,
+  "speaker": "Unknown",
+  "en": "And it just doesn't work out.",
+  "zh": "而事情就是没有成。"
+ },
+ {
+  "seg": 171,
+  "start": 949.567,
+  "end": 951.367,
+  "speaker": "Unknown",
+  "en": "And sometimes it's to no fault of their own.",
+  "zh": "有时候这完全不是他们自己的错。"
+ },
+ {
+  "seg": 172,
+  "start": 951.487,
+  "end": 953.507,
+  "speaker": "Unknown",
+  "en": "Sometimes there's just a market downturn.",
+  "zh": "有时候只是市场下行。"
+ },
+ {
+  "seg": 173,
+  "start": 953.648,
+  "end": 955.108,
+  "speaker": "Unknown",
+  "en": "They're starting a pre-AI company.",
+  "zh": "他们在做一家前 AI 时代的公司。"
+ },
+ {
+  "seg": 174,
+  "start": 955.708,
+  "end": 966.571,
+  "speaker": "Unknown",
+  "en": "When everybody's doing AI, it's because they are, you know, their co-founder got sick, you know, it's because of all these kind of, you know, like many, many different potential things that could happen.",
+  "zh": "而所有人都在做 AI，或者是因为，你知道，他们的联合创始人生病了，你知道，是由于这些各种各样的原因，很多很多潜在的事情都可能发生。"
+ },
+ {
+  "seg": 175,
+  "start": 967.111,
+  "end": 973.573,
+  "speaker": "Unknown",
+  "en": "And so as a result, the best thing we can do for those companies is number one, should we back the founders again?",
+  "zh": "因此，我们能为这些公司做的最好的事情是，第一，我们要不要再次投资这些创始人？"
+ },
+ {
+  "seg": 176,
+  "start": 974.013,
+  "end": 980.735,
+  "speaker": "Unknown",
+  "en": "You know, that's like one, I think, very special thing about kind of that Silicon Valley mentality is like, okay, great, you've already, you've just spent",
+  "zh": "你知道，我认为，这是那种硅谷心态中非常特别的一点，就是，好吧，太好了，你已经，你刚刚花了"
+ },
+ {
+  "seg": 177,
+  "start": 981.335,
+  "end": 986.137,
+  "speaker": "Unknown",
+  "en": "You know, a million bucks educating these founders about how to start a company.",
+  "zh": "你知道，一百万美元来教育这些创始人如何创办一家公司。"
+ },
+ {
+  "seg": 178,
+  "start": 986.417,
+  "end": 988.558,
+  "speaker": "Unknown",
+  "en": "Hopefully they can start another company.",
+  "zh": "希望他们能再创办另一家公司。"
+ },
+ {
+  "seg": 179,
+  "start": 988.758,
+  "end": 1001.924,
+  "speaker": "Unknown",
+  "en": "And by the way, like whether you're talking about Uber or Slack or, you know, Microsoft or OpenAI or any of these companies, and when you look at the CEO and the founders involved,",
+  "zh": "顺便说一句，不管你说的是 Uber 还是 Slack，或者，你知道，微软还是 OpenAI，或者这些公司中的任何一家，当你看 CEO 和参与其中的创始人时，"
+ },
+ {
+  "seg": 180,
+  "start": 1002.944,
+  "end": 1008.127,
+  "speaker": "Unknown",
+  "en": "Very frequently, more often than not, they have been involved in many other things along the way.",
+  "zh": "很多时候，甚至多数情况下，他们在此过程中都参与过许多其他的事情。"
+ },
+ {
+  "seg": 181,
+  "start": 1008.348,
+  "end": 1023.577,
+  "speaker": "Unknown",
+  "en": "And so we often love the idea of, and we just did actually, just actually last week, we just funded a founder again on a better idea than his first idea, even though he ended up just returning a little bit of the capital that he spent.",
+  "zh": "所以我们经常喜欢这个想法，而且我们实际上刚刚这么做了，就在上周，我们刚刚再次资助了一位创始人，投的是一个比他第一个想法更好的想法，尽管他最后只是退还了一小部分他花掉的资金。"
+ },
+ {
+  "seg": 182,
+  "start": 1023.857,
+  "end": 1025.558,
+  "speaker": "Unknown",
+  "en": "So I think that's great.",
+  "zh": "所以我觉得这很棒。"
+ },
+ {
+  "seg": 183,
+  "start": 1025.918,
+  "end": 1029.981,
+  "speaker": "Unknown",
+  "en": "The other version is, sometimes these founders, they need a little bit of a recharge.",
+  "zh": "另一种情况是，有时候这些创始人，他们需要一点休整。"
+ },
+ {
+  "seg": 184,
+  "start": 1031.041,
+  "end": 1037.347,
+  "speaker": "Unknown",
+  "en": "And what that means is they went at it completely, just 150%.",
+  "zh": "这意味着他们曾经完全投入，百分之一百五地拼。"
+ },
+ {
+  "seg": 185,
+  "start": 1038.088,
+  "end": 1042.472,
+  "speaker": "Unknown",
+  "en": "And what they need is they need a little bit of time to rebuild their finances.",
+  "zh": "而他们需要的是一点时间来重建自己的财务状况。"
+ },
+ {
+  "seg": 186,
+  "start": 1042.532,
+  "end": 1044.674,
+  "speaker": "Unknown",
+  "en": "They probably weren't paying themselves that well.",
+  "zh": "他们以前可能给自己开的薪水并不高。"
+ },
+ {
+  "seg": 187,
+  "start": 1045.495,
+  "end": 1048.838,
+  "speaker": "Unknown",
+  "en": "They probably need some time to focus on their health.",
+  "zh": "他们可能需要一些时间来关注自己的健康。"
+ },
+ {
+  "seg": 188,
+  "start": 1048.898,
+  "end": 1056.264,
+  "speaker": "Unknown",
+  "en": "We find that a lot of these founders become very hot commodities because that means that you can get somebody that works hard",
+  "zh": "我们发现，很多这样的创始人变得非常抢手，因为这意味着你可以得到一个工作努力的人，"
+ },
+ {
+  "seg": 189,
+  "start": 1056.865,
+  "end": 1065.391,
+  "speaker": "Unknown",
+  "en": "You know, works on unstructured problems, is completely current on all of the newest technology, and you can get them, you know, at your company.",
+  "zh": "你知道，处理非结构化的问题，对所有最新的技术完全紧跟潮流，而且你可以把这样的人，你知道，招到你的公司。"
+ },
+ {
+  "seg": 190,
+  "start": 1065.531,
+  "end": 1069.774,
+  "speaker": "Unknown",
+  "en": "And so what we've been seeing is a lot of, a lot of teams will end up hiring, hiring each other.",
+  "zh": "所以我们看到的是，很多，很多团队最终会互相招聘。"
+ },
+ {
+  "seg": 191,
+  "start": 1069.794,
+  "end": 1074.537,
+  "speaker": "Unknown",
+  "en": "You know, if one doesn't work out, you kind of like, but you respect the founder, like, great, you hire them.",
+  "zh": "你知道，如果一家的业务没成，但你尊重那位创始人，那么，太好了，你把他招进来。"
+ },
+ {
+  "seg": 192,
+  "start": 1074.878,
+  "end": 1077.299,
+  "speaker": "Unknown",
+  "en": "And then maybe they spend, you know, two or three years with you.",
+  "zh": "然后也许他会在你那里待上，你知道，两三年。"
+ },
+ {
+  "seg": 193,
+  "start": 1077.68,
+  "end": 1080.481,
+  "speaker": "Unknown",
+  "en": "Maybe they'll lead some new initiatives and new products in your, in your business.",
+  "zh": "也许他会领导你，你的业务中的一些新举措和新产品。"
+ },
+ {
+  "seg": 194,
+  "start": 1080.982,
+  "end": 1082.163,
+  "speaker": "Unknown",
+  "en": "And then a few years later,",
+  "zh": "然后几年之后，"
+ },
+ {
+  "seg": 195,
+  "start": 1082.783,
+  "end": 1085.166,
+  "speaker": "Unknown",
+  "en": "They spin out and they're ready to start a new company.",
+  "zh": "他们独立出来，准备创办一家新公司。"
+ },
+ {
+  "seg": 196,
+  "start": 1085.186,
+  "end": 1090.232,
+  "speaker": "Unknown",
+  "en": "And then hopefully we as A16Z get another shot at them, you know, to work together.",
+  "zh": "然后希望我们 A16Z 能再得到一次机会，你 know，再次合作。"
+ },
+ {
+  "seg": 197,
+  "start": 1090.272,
+  "end": 1092.274,
+  "speaker": "Unknown",
+  "en": "So yeah, so that's sort of all by design.",
+  "zh": "所以是的，这些基本上都是有意设计的。"
+ },
+ {
+  "seg": 198,
+  "start": 1092.755,
+  "end": 1096.399,
+  "speaker": "Unknown",
+  "en": "And I think it's perfectly expected, you know, as outcomes.",
+  "zh": "我认为，作为结果，这是完全在预期之中的。"
+ },
+ {
+  "seg": 199,
+  "start": 1096.419,
+  "end": 1099.803,
+  "speaker": "Unknown",
+  "en": "And we just want to partner with these founders for their whole professional career.",
+  "zh": "我们只是想与这些创始人合作他们的整个职业生涯。"
+ },
+ {
+  "seg": 200,
+  "start": 1100.043,
+  "end": 1105.628,
+  "speaker": "Unknown",
+  "en": "So I'd love to turn to policy now, since we're a policy substack.",
+  "zh": "所以我很想转到政策话题上，因为我们是一个政策 substack。"
+ },
+ {
+  "seg": 201,
+  "start": 1105.648,
+  "end": 1106.549,
+  "speaker": "Unknown",
+  "en": "This is a policy, yeah.",
+  "zh": "这确实是政策，是的。"
+ },
+ {
+  "seg": 202,
+  "start": 1106.589,
+  "end": 1108.671,
+  "speaker": "Unknown",
+  "en": "Yeah, it's a policy brief.",
+  "zh": "是的，这是一份政策简报。"
+ },
+ {
+  "seg": 203,
+  "start": 1108.791,
+  "end": 1114.837,
+  "speaker": "Unknown",
+  "en": "And so I'd love to like understand more about how the companies you work with think about policy issues.",
+  "zh": "所以我很想更多地了解你合作的公司是如何看待政策问题的。"
+ },
+ {
+  "seg": 204,
+  "start": 1114.877,
+  "end": 1115.637,
+  "speaker": "Unknown",
+  "en": "This is something that we",
+  "zh": "这是我们"
+ },
+ {
+  "seg": 205,
+  "start": 1117.082,
+  "end": 1122.744,
+  "speaker": "Unknown",
+  "en": "We obviously do to some extent, but you're like living and breathing the founder side of it on a daily basis.",
+  "zh": "我们显然在一定程度上会做的事，但你是每天都在亲身经历创始人这一面的人。"
+ },
+ {
+  "seg": 206,
+  "start": 1123.225,
+  "end": 1125.505,
+  "speaker": "Unknown",
+  "en": "And we've tried to kind of channel the concept in different ways.",
+  "zh": "我们也尝试过用不同的方式来阐释这个概念。"
+ },
+ {
+  "seg": 207,
+  "start": 1125.526,
+  "end": 1131.548,
+  "speaker": "Unknown",
+  "en": "Like we recently wrote this piece called Greetings from a Garage about what it looks like from a policy perspective.",
+  "zh": "比如我们最近写了一篇叫《来自车库的问候》的文章，从政策视角来看"
+ },
+ {
+  "seg": 208,
+  "start": 1131.688,
+  "end": 1139.691,
+  "speaker": "Unknown",
+  "en": "If a couple of people go into a garage to build the next great tech tool in California, what is the regulatory landscape that they have to deal with?",
+  "zh": "如果几个人走进加州的一个车库，去打造下一个伟大的科技工具，他们要面对的监管环境是什么样的？"
+ },
+ {
+  "seg": 209,
+  "start": 1140.231,
+  "end": 1143.453,
+  "speaker": "Unknown",
+  "en": "And it was a really helpful exercise because",
+  "zh": "这是一个非常有帮助的练习，因为"
+ },
+ {
+  "seg": 210,
+  "start": 1144.333,
+  "end": 1148.3,
+  "speaker": "Unknown",
+  "en": "Often policy teams, legal teams will think about just incremental burden.",
+  "zh": "通常政策团队、法务团队只会考虑增量负担。"
+ },
+ {
+  "seg": 211,
+  "start": 1148.841,
+  "end": 1151.786,
+  "speaker": "Unknown",
+  "en": "Like if we pass, there's a new law that's been proposed.",
+  "zh": "比如如果我们通过——有一部新法律被提出来了。"
+ },
+ {
+  "seg": 212,
+  "start": 1151.806,
+  "end": 1153.329,
+  "speaker": "Unknown",
+  "en": "What happens if we pass this new law?",
+  "zh": "如果我们通过这部新法律会发生什么？"
+ },
+ {
+  "seg": 213,
+  "start": 1153.369,
+  "end": 1155.132,
+  "speaker": "Unknown",
+  "en": "How at the risk or not is it going to be?",
+  "zh": "它的风险或不风险程度会是怎样？"
+ },
+ {
+  "seg": 214,
+  "start": 1155.212,
+  "end": 1156.234,
+  "speaker": "Unknown",
+  "en": "How helpful is it going to be?",
+  "zh": "它会有多大帮助？"
+ },
+ {
+  "seg": 215,
+  "start": 1157.117,
+  "end": 1165.585,
+  "speaker": "Unknown",
+  "en": "And I think the insight that the head of our state team, Kevin, had when we were thinking about this piece is like, it's not just the incremental burden.",
+  "zh": "而我认为我们州团队负责人 Kevin 在构思这篇文章时的洞见是，这不只是增量负担的问题。"
+ },
+ {
+  "seg": 216,
+  "start": 1165.925,
+  "end": 1170.929,
+  "speaker": "Unknown",
+  "en": "It's all the things that a founder has to face from the moment they're building with the technology.",
+  "zh": "而是创始人从开始用这项技术构建的那一刻起就必须面对的所有事情。"
+ },
+ {
+  "seg": 217,
+  "start": 1170.969,
+  "end": 1175.473,
+  "speaker": "Unknown",
+  "en": "So like in California, that doesn't just mean SB 53, which was passed last year.",
+  "zh": "所以比如在加州，这不只意味着去年通过的 SB 53。"
+ },
+ {
+  "seg": 218,
+  "start": 1175.533,
+  "end": 1179.497,
+  "speaker": "Unknown",
+  "en": "It means all these data provenance requirements from the session before.",
+  "zh": "它还意味着上一届会议提出的所有这些数据来源要求。"
+ },
+ {
+  "seg": 219,
+  "start": 1179.557,
+  "end": 1182.719,
+  "speaker": "Unknown",
+  "en": "It means privacy law in California that was passed several years before.",
+  "zh": "它还意味着加州几年前通过的隐私法。"
+ },
+ {
+  "seg": 220,
+  "start": 1183.06,
+  "end": 1184.021,
+  "speaker": "Unknown",
+  "en": "It's all cumulative.",
+  "zh": "这些全都是累积的。"
+ },
+ {
+  "seg": 221,
+  "start": 1184.601,
+  "end": 1187.922,
+  "speaker": "Unknown",
+  "en": "And the moment that you start building the tool, you have to comply with all these things.",
+  "zh": "而从你开始构建这个工具的那一刻起，你就必须遵守所有这些东西。"
+ },
+ {
+  "seg": 222,
+  "start": 1188.002,
+  "end": 1192.263,
+  "speaker": "Unknown",
+  "en": "And so really the policy picture is the composite of all those things.",
+  "zh": "所以真正的政策图景是所有这些东西的复合体。"
+ },
+ {
+  "seg": 223,
+  "start": 1192.303,
+  "end": 1193.663,
+  "speaker": "Unknown",
+  "en": "It's not any individual one of them.",
+  "zh": "而不是其中任何单独一项。"
+ },
+ {
+  "seg": 224,
+  "start": 1194.203,
+  "end": 1207.366,
+  "speaker": "Unknown",
+  "en": "So I'm curious what you, like, you know, when you're at the stage, like you're literally at the, like, we just met in the coffee shop where, you know, we're in the garage, we're roommates, we're, you know, we're in the shared Waymo on the way to the A6CZ office.",
+  "zh": "所以我很好奇你，你知道，当你处于那个阶段——就像我们刚刚在咖啡店见面时，你知道，我们在车库里，我们是室友，我们，你知道，我们坐在开往 A16Z 办公室的共享 Waymo 上。"
+ },
+ {
+  "seg": 225,
+  "start": 1208.386,
+  "end": 1212.267,
+  "speaker": "Unknown",
+  "en": "At that phase, how do the people that you work with think about policy issues?",
+  "zh": "在那个阶段，你合作的人是怎么看待政策问题的？"
+ },
+ {
+  "seg": 226,
+  "start": 1212.985,
+  "end": 1221.43,
+  "speaker": "Unknown",
+  "en": "For these founders, they are so mission-focused to just make their company, make their product.",
+  "zh": "对于这些创始人来说，他们非常专注于使命，只想把公司做起来，把产品做出来。"
+ },
+ {
+  "seg": 227,
+  "start": 1221.45,
+  "end": 1223.752,
+  "speaker": "Unknown",
+  "en": "I mean, it's not even a company at that point.",
+  "zh": "我是说，在那个时候它甚至还算不上一家公司。"
+ },
+ {
+  "seg": 228,
+  "start": 1223.832,
+  "end": 1226.834,
+  "speaker": "Unknown",
+  "en": "They might even think of that as a project or as a product.",
+  "zh": "他们可能甚至把它当作一个项目或一个产品。"
+ },
+ {
+  "seg": 229,
+  "start": 1226.994,
+  "end": 1231.477,
+  "speaker": "Unknown",
+  "en": "There's no company because it's just the two guys or gals trying to make things work.",
+  "zh": "没有公司可言，因为就是两个家伙或姑娘在努力把事情搞定。"
+ },
+ {
+  "seg": 230,
+  "start": 1232.017,
+  "end": 1238.702,
+  "speaker": "Unknown",
+  "en": "And so for them, from a policy perspective, look, I think every obstacle that is put in front of them",
+  "zh": "所以对他们来说，从政策的角度来看，你看，我认为摆在面前的每一个障碍"
+ },
+ {
+  "seg": 231,
+  "start": 1240.143,
+  "end": 1247.109,
+  "speaker": "Unknown",
+  "en": "Along the way for them to just prove that their initial product can even work just adds friction, you know, for the most part.",
+  "zh": "在他们前行的路上，为了证明他们最初的产品能否行得通，大体上都只是增加了摩擦。"
+ },
+ {
+  "seg": 232,
+  "start": 1247.129,
+  "end": 1255.416,
+  "speaker": "Unknown",
+  "en": "So I think most of the founders, when you talk to them, they really see all that stuff as like, oh, wow, I've incorporated, I'm doing this thing, I'm hiring these people.",
+  "zh": "所以我觉得大多数创始人，当你和他们交谈时，他们真的把这些东西都看作是，哦，哇，我注册了公司，我在做这件事，我在招这些人。"
+ },
+ {
+  "seg": 233,
+  "start": 1255.596,
+  "end": 1257.718,
+  "speaker": "Unknown",
+  "en": "Okay, you get the stack of paperwork this big.",
+  "zh": "好的，你拿到了这么厚一大摞文件。"
+ },
+ {
+  "seg": 234,
+  "start": 1259.038,
+  "end": 1265.003,
+  "speaker": "Unknown",
+  "en": "And, you know, a lot of these laws, a lot of the paperwork is designed for companies that are much, much larger than them, right?",
+  "zh": "而且，你知道，很多这些法律、很多这些文书工作，是为比他们大得多的公司设计的，对吧？"
+ },
+ {
+  "seg": 235,
+  "start": 1265.143,
+  "end": 1272.649,
+  "speaker": "Unknown",
+  "en": "And have the ability to comply because they have teams of lawyers and teams of, you know, people, experts, you know, that are in there.",
+  "zh": "那些公司有能力去合规，因为他们有律师团队，有团队，你知道，专家在里面。"
+ },
+ {
+  "seg": 236,
+  "start": 1272.669,
+  "end": 1275.411,
+  "speaker": "Unknown",
+  "en": "And of course, we as A16Z try to help them.",
+  "zh": "当然，我们作为 A16Z 会尽力帮助他们。"
+ },
+ {
+  "seg": 237,
+  "start": 1276.392,
+  "end": 1282.477,
+  "speaker": "Unknown",
+  "en": "But for most of these folks, all they're trying to do is they're just trying to get going at all.",
+  "zh": "但对这些人中的大多数人来说，他们想做的只是想先起步。"
+ },
+ {
+  "seg": 238,
+  "start": 1283.297,
+  "end": 1285.739,
+  "speaker": "Unknown",
+  "en": "And to survive as a business.",
+  "zh": "想作为一家企业活下来。"
+ },
+ {
+  "seg": 239,
+  "start": 1286.3,
+  "end": 1307.217,
+  "speaker": "Unknown",
+  "en": "And so generally their interaction on kind of the regulatory side of the world is usually negative because these are things that actually create protections often for either big tech or for other parts of the industry that they end up trying to disrupt.",
+  "zh": "所以通常，他们在监管这一侧的互动体验往往是负面的，因为这些事情实际上往往是给大型科技公司，或者给他们最终要去颠覆的行业中其他部分创造保护的。"
+ },
+ {
+  "seg": 240,
+  "start": 1307.677,
+  "end": 1309.138,
+  "speaker": "Unknown",
+  "en": "So I'd say that's kind of one major part.",
+  "zh": "所以我会说这是主要的一个方面。"
+ },
+ {
+  "seg": 241,
+  "start": 1309.158,
+  "end": 1316.141,
+  "speaker": "Unknown",
+  "en": "The other part is that, you know, for many of these founders, they just don't have time to participate, right?",
+  "zh": "另一个方面是，你知道，对很多这些创始人来说，他们根本没有时间参与，对吧？"
+ },
+ {
+  "seg": 242,
+  "start": 1316.161,
+  "end": 1330.368,
+  "speaker": "Unknown",
+  "en": "They don't, like, these guys, like, don't have, you know, they don't have lobbyists, they don't have, you know, they're not involved in the political process, they're not really represented in all these ways, because frankly, they just don't have time.",
+  "zh": "他们没有，就像，这些人，你知道，他们没有游说者，他们没有，你知道，他们不参与政治进程，他们在所有这些方面都没有真正的代表，因为坦白说，他们就是没时间。"
+ },
+ {
+  "seg": 243,
+  "start": 1330.968,
+  "end": 1338.056,
+  "speaker": "Unknown",
+  "en": "You know, they may not even have time to shower or to, you know, like have a nice dinner for themselves.",
+  "zh": "你知道，他们可能连洗澡的时间都没有，或者，你知道，给自己好好吃顿晚饭的时间都没有。"
+ },
+ {
+  "seg": 244,
+  "start": 1338.717,
+  "end": 1348.287,
+  "speaker": "Unknown",
+  "en": "They're working, you know, that hard, much less to do things that are kind of sit outside, you know, they're kind of just day to day of just survival, you know, at that point.",
+  "zh": "他们在，你知道，那么拼命地工作，更不用说去做那些，你知道，坐在他们日常生存之外的事情了，你知道，在那个时候就是这样。"
+ },
+ {
+  "seg": 245,
+  "start": 1348.327,
+  "end": 1349.548,
+  "speaker": "Unknown",
+  "en": "And that's a compounding thing.",
+  "zh": "而这是一个不断加剧的事情。"
+ },
+ {
+  "seg": 246,
+  "start": 1349.588,
+  "end": 1351.971,
+  "speaker": "Unknown",
+  "en": "I mean, I think that's a dynamic that we encounter all the time.",
+  "zh": "我是说，我认为这是我们经常遇到的一种动态。"
+ },
+ {
+  "seg": 247,
+  "start": 1352.011,
+  "end": 1357.476,
+  "speaker": "Unknown",
+  "en": "Cause we, you know, we show up, we represent little tech, but we're not, or I'm not a founder.",
+  "zh": "因为我们，你知道，我们出现，我们代表小科技（little tech），但我们不是，或者我不是创始人。"
+ },
+ {
+  "seg": 248,
+  "start": 1357.997,
+  "end": 1362.802,
+  "speaker": "Unknown",
+  "en": "And so when, when we show up, people are like, well, we would, we'd rather talk to the startup.",
+  "zh": "所以当我们出现时，人们会说，嗯，我们，我们更愿意和初创公司谈。"
+ },
+ {
+  "seg": 249,
+  "start": 1363.002,
+  "end": 1368.948,
+  "speaker": "Unknown",
+  "en": "We don't want to talk to the investor in the startup, but the challenge is the, like, as you're saying, like the startups are.",
+  "zh": "我们不想和初创公司的投资人谈，但挑战在于，就像你说的，初创公司他们……"
+ },
+ {
+  "seg": 250,
+  "start": 1369.689,
+  "end": 1385.877,
+  "speaker": "Unknown",
+  "en": "Not showering, working 100-hour weeks, like doing, they're not gonna go and like make the drive to Sacramento or the flight to Washington or flight to Brussels and represent what it's like for them to try to build under the, in the current regulatory environment.",
+  "zh": "不洗澡，每周工作100小时，比如他们不会开车去萨克拉门托，或者飞去华盛顿、飞去布鲁塞尔，去代表他们在当前监管环境下努力创业的真实情况。"
+ },
+ {
+  "seg": 251,
+  "start": 1386.237,
+  "end": 1386.578,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 252,
+  "start": 1386.738,
+  "end": 1396.523,
+  "speaker": "Unknown",
+  "en": "Yeah, well, and their timeline, a startup, a two-person startup's timeline, not only is it not a year, like you may not know if you have a company in a year.",
+  "zh": "是啊，还有他们的时间线，一个两人初创公司的时间线，不仅不是一年——你可能一年后都不知道自己还有没有公司。"
+ },
+ {
+  "seg": 253,
+  "start": 1397.363,
+  "end": 1399.084,
+  "speaker": "Unknown",
+  "en": "It may not even be six months.",
+  "zh": "可能连六个月都没有。"
+ },
+ {
+  "seg": 254,
+  "start": 1399.785,
+  "end": 1401.005,
+  "speaker": "Unknown",
+  "en": "It may not even be three months.",
+  "zh": "可能连三个月都没有。"
+ },
+ {
+  "seg": 255,
+  "start": 1401.526,
+  "end": 1405.268,
+  "speaker": "Unknown",
+  "en": "You might be working on really small time schedules.",
+  "zh": "你可能是在非常小的时间尺度上工作。"
+ },
+ {
+  "seg": 256,
+  "start": 1405.868,
+  "end": 1420.778,
+  "speaker": "Unknown",
+  "en": "And so to make the investment, to fly to one of these places and to be involved, I do think it's really hard to carve out time and do it, which is why I think both it's really important to have some mechanism to represent these.",
+  "zh": "所以要做这种投入，飞到那些地方去参与，我确实觉得很难挤出时间去做，这也是为什么我认为既需要有一种机制来代表这些公司。"
+ },
+ {
+  "seg": 257,
+  "start": 1421.438,
+  "end": 1423.999,
+  "speaker": "Unknown",
+  "en": "Because these are the future job creators.",
+  "zh": "因为这些人是未来的就业创造者。"
+ },
+ {
+  "seg": 258,
+  "start": 1424.039,
+  "end": 1430.943,
+  "speaker": "Unknown",
+  "en": "These are the companies that are going to be employing folks and driving, continuing America's success on the technology field.",
+  "zh": "这些是将来会雇用员工、推动并延续美国在科技领域成功的公司。"
+ },
+ {
+  "seg": 259,
+  "start": 1431.303,
+  "end": 1449.773,
+  "speaker": "Unknown",
+  "en": "But also, on top of that, the folks that maybe do show up in all these places and do advocate for tech, you get a very skewed view because you don't hear from little tech, but you might hear a lot from big tech.",
+  "zh": "但除此之外，那些可能确实出现在这些地方为科技发声的人，你会得到一种非常扭曲的视角，因为你听不到小科技的声音，但你可能会听到很多大科技的声音。"
+ },
+ {
+  "seg": 260,
+  "start": 1450.213,
+  "end": 1462.87,
+  "speaker": "Unknown",
+  "en": "You know, you might hear a lot about a lot from, you know, the industries that are getting disrupted and very little from the, you know, the 30 year olds that are, you know, that are spending night and day trying to make that happen.",
+  "zh": "你知道的，你可能会听到很多来自被颠覆的行业的意见，而几乎听不到那些日夜不休努力让颠覆成真的、你知道的，30来岁的年轻人的声音。"
+ },
+ {
+  "seg": 261,
+  "start": 1463.376,
+  "end": 1467.579,
+  "speaker": "Unknown",
+  "en": "So sometimes we actually get hostile reactions from policymakers when we raise that point.",
+  "zh": "所以有时候当我们提出这个观点时，政策制定者实际上会有敌意的反应。"
+ },
+ {
+  "seg": 262,
+  "start": 1467.639,
+  "end": 1470.62,
+  "speaker": "Unknown",
+  "en": "Like they'll say, well, all of industry agrees on this.",
+  "zh": "比如他们会说，整个行业在这点上意见一致。"
+ },
+ {
+  "seg": 263,
+  "start": 1470.8,
+  "end": 1477.825,
+  "speaker": "Unknown",
+  "en": "And when they say all of industry, what they mean is big tech companies or sometimes it might be big financial services companies like large organizations.",
+  "zh": "而当他们说整个行业时，他们的意思是大科技公司，有时候可能是大型金融服务公司，也就是大型机构。"
+ },
+ {
+  "seg": 264,
+  "start": 1477.865,
+  "end": 1480.826,
+  "speaker": "Unknown",
+  "en": "And they say, you have a different view and we need you to get on board.",
+  "zh": "他们说，你有一种不同的观点，我们需要你加入进来。"
+ },
+ {
+  "seg": 265,
+  "start": 1481.247,
+  "end": 1482.708,
+  "speaker": "Unknown",
+  "en": "And we'll say in the policy conversation.",
+  "zh": "而我们会在政策对话中说。"
+ },
+ {
+  "seg": 266,
+  "start": 1483.508,
+  "end": 1486.63,
+  "speaker": "Unknown",
+  "en": "Like it's sort of by design, at least some percent of the time.",
+  "zh": "你知道的，这在某种程度上是设计使然，至少在某个比例上是。"
+ },
+ {
+  "seg": 267,
+  "start": 1486.65,
+  "end": 1493.675,
+  "speaker": "Unknown",
+  "en": "Like there's lots of time where we agree with big tech companies, but we'll like when we disagree, we'll say like it's by design, we're representing a different part of the ecosystem.",
+  "zh": "我们有很多时候是同意大科技公司的，但当我们不同意的时候，我们会说，这是设计使然，我们代表的是生态系统的另一个部分。"
+ },
+ {
+  "seg": 268,
+  "start": 1493.715,
+  "end": 1495.336,
+  "speaker": "Unknown",
+  "en": "So of course we don't agree on everything.",
+  "zh": "所以我们当然不会在所有事情上都意见一致。"
+ },
+ {
+  "seg": 269,
+  "start": 1495.896,
+  "end": 1496.216,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 270,
+  "start": 1496.636,
+  "end": 1496.957,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 271,
+  "start": 1497.697,
+  "end": 1498.117,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 272,
+  "start": 1498.297,
+  "end": 1498.658,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 273,
+  "start": 1498.678,
+  "end": 1498.838,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 274,
+  "start": 1498.878,
+  "end": 1503.401,
+  "speaker": "Unknown",
+  "en": "It's just from an ROI, time ROI standpoint, it just doesn't make any sense.",
+  "zh": "从投资回报率、时间投资回报率的角度来看，这根本说不通。"
+ },
+ {
+  "seg": 275,
+  "start": 1503.461,
+  "end": 1512.747,
+  "speaker": "Unknown",
+  "en": "I think there's also a really unique thing because these teams are so small and they're kind of at their inception, which is they get to pick where they start the company from.",
+  "zh": "我觉得还有一个非常独特的地方，因为这些团队非常小，而且基本处于初创阶段，那就是他们可以选择公司从哪里起步。"
+ },
+ {
+  "seg": 276,
+  "start": 1513.475,
+  "end": 1513.655,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 277,
+  "start": 1513.955,
+  "end": 1519.82,
+  "speaker": "Unknown",
+  "en": "And, you know, I was, you know, I moved to the Bay Area in 2007.",
+  "zh": "你知道的，我是在2007年搬到湾区的。"
+ },
+ {
+  "seg": 278,
+  "start": 1519.92,
+  "end": 1528.948,
+  "speaker": "Unknown",
+  "en": "And in 2007, the world revolved around, you know, Palo Alto and Mountain View and kind of the peninsula, you know, what we think of as Silicon Valley.",
+  "zh": "在2007年，世界是围绕着你知道的帕罗奥图、山景城，还有那种半岛地区，也就是我们所说的硅谷转的。"
+ },
+ {
+  "seg": 279,
+  "start": 1529.008,
+  "end": 1534.292,
+  "speaker": "Unknown",
+  "en": "But, you know, I think folks I think are familiar with this now that we saw a...",
+  "zh": "但你知道，我想大家现在应该都熟悉了，我们看到了一场……"
+ },
+ {
+  "seg": 280,
+  "start": 1534.973,
+  "end": 1543.74,
+  "speaker": "Unknown",
+  "en": "You know, whole scale migration of the startup, the center of the startup ecosystem being from the peninsula to San Francisco proper.",
+  "zh": "你知道的，初创公司生态中心的整体迁移，从半岛迁到了旧金山市区。"
+ },
+ {
+  "seg": 281,
+  "start": 1544.04,
+  "end": 1552.968,
+  "speaker": "Unknown",
+  "en": "And then, you know, subsequently, we've seen it now spread where, you know, New York is one of now one of the huge, you know, startup hubs that's emerged.",
+  "zh": "然后，你知道，后来我们又看到它进一步扩散，纽约现在成为了新兴的大型初创公司中心之一。"
+ },
+ {
+  "seg": 282,
+  "start": 1554.249,
+  "end": 1565.416,
+  "speaker": "Unknown",
+  "en": "And over the last couple of years, all the major venture capital firms had opened offices in various places in London and Europe.",
+  "zh": "而在过去几年里，所有主要的风险投资公司都在伦敦和欧洲各地开设了办公室。"
+ },
+ {
+  "seg": 283,
+  "start": 1565.816,
+  "end": 1568.318,
+  "speaker": "Unknown",
+  "en": "There's been other major hubs that have created.",
+  "zh": "还出现了其他一些主要中心。"
+ },
+ {
+  "seg": 284,
+  "start": 1568.998,
+  "end": 1575.142,
+  "speaker": "Unknown",
+  "en": "And so I think there is also an interesting thing where that almost becomes part of one of the most important choices that you can make as a startup.",
+  "zh": "所以我觉得还有一个有意思的地方，这几乎成为了你作为初创公司能做的最重要的选择之一。"
+ },
+ {
+  "seg": 285,
+  "start": 1576.098,
+  "end": 1578.199,
+  "speaker": "Unknown",
+  "en": "Which is where are you gonna plant roots?",
+  "zh": "也就是你要在哪里扎根？"
+ },
+ {
+  "seg": 286,
+  "start": 1578.239,
+  "end": 1579.539,
+  "speaker": "Unknown",
+  "en": "Where are you gonna hire people from?",
+  "zh": "你要从哪里招人？"
+ },
+ {
+  "seg": 287,
+  "start": 1579.559,
+  "end": 1580.8,
+  "speaker": "Unknown",
+  "en": "Where are you gonna do that?",
+  "zh": "你要在哪里做这些事？"
+ },
+ {
+  "seg": 288,
+  "start": 1580.92,
+  "end": 1592.144,
+  "speaker": "Unknown",
+  "en": "And if you end up working on an AI company and you know from day one that there's gonna be a bunch of extra rules about how you can use AI, you know,",
+  "zh": "而如果你最终在做一个AI公司，并且从第一天起就知道会有很多关于你如何使用AI的额外规则，你知道，"
+ },
+ {
+  "seg": 289,
+  "start": 1592.904,
+  "end": 1598.99,
+  "speaker": "Unknown",
+  "en": "The two guys, two gals startup, they're very mobile.",
+  "zh": "那两个小伙子、两个姑娘的初创公司，他们的流动性非常强。"
+ },
+ {
+  "seg": 290,
+  "start": 1599.571,
+  "end": 1602.814,
+  "speaker": "Unknown",
+  "en": "They can pick and choose where they want to go, and they do.",
+  "zh": "他们可以挑选想去的地方，而且他们也确实这么做了。"
+ },
+ {
+  "seg": 291,
+  "start": 1602.974,
+  "end": 1607.518,
+  "speaker": "Unknown",
+  "en": "And historically, the Bay Area has benefited from that mobility.",
+  "zh": "从历史上看，湾区从这种流动性中受益匪浅。"
+ },
+ {
+  "seg": 292,
+  "start": 1607.538,
+  "end": 1609.98,
+  "speaker": "Unknown",
+  "en": "I think there's some interesting stats about how",
+  "zh": "我觉得有一些有意思的数据表明"
+ },
+ {
+  "seg": 293,
+  "start": 1611.441,
+  "end": 1618.424,
+  "speaker": "Unknown",
+  "en": "Nearly 50% of venture-backed startups are first-generation immigrants, for example, you know, people who relocate in order to do it.",
+  "zh": "将近50%获得风险投资支持的初创公司是由第一代移民创办的，比如，你知道，是为了创业而搬迁来的人。"
+ },
+ {
+  "seg": 294,
+  "start": 1619.284,
+  "end": 1629.608,
+  "speaker": "Unknown",
+  "en": "And I bet you, if you were to say, okay, well, the other 50%, how many of them are actually native San Franciscans versus people who, you know, move here, the answer would be, you know, it's probably approaching 100% at that point.",
+  "zh": "而我敢打赌，如果你问，好吧，那另外50%，其中有多少是真正的旧金山本地人，而不是你知道的搬来这里的人，答案可能是，你知道，那时可能接近100%了。"
+ },
+ {
+  "seg": 295,
+  "start": 1629.768,
+  "end": 1633.13,
+  "speaker": "Unknown",
+  "en": "I think the important note there is, like, the Bay Area has certainly benefited from this.",
+  "zh": "我觉得这里重要的一点是，湾区确实从中受益了。"
+ },
+ {
+  "seg": 296,
+  "start": 1633.53,
+  "end": 1636.271,
+  "speaker": "Unknown",
+  "en": "You know, it's not certain that it'll last forever.",
+  "zh": "你知道的，这不一定能永远持续下去。"
+ },
+ {
+  "seg": 297,
+  "start": 1636.851,
+  "end": 1642.472,
+  "speaker": "Unknown",
+  "en": "It's not certain that California will always be the best place to start companies.",
+  "zh": "加州不一定会一直是创办公司的最佳地点。"
+ },
+ {
+  "seg": 298,
+  "start": 1642.572,
+  "end": 1647.633,
+  "speaker": "Unknown",
+  "en": "And so I think it's important for us to preserve this ecosystem because it is very, very special.",
+  "zh": "所以我认为我们必须保护这个生态系统，因为它非常、非常特殊。"
+ },
+ {
+  "seg": 299,
+  "start": 1647.653,
+  "end": 1658.035,
+  "speaker": "Unknown",
+  "en": "It is something that is unique, not just in the world, but even within the US in order to have this fertile of an ecosystem for startups and new technology.",
+  "zh": "它是独一无二的，不仅在世界范围内，甚至在美国国内，能拥有这样一个如此肥沃的初创公司和新技术生态系统。"
+ },
+ {
+  "seg": 300,
+  "start": 1658.496,
+  "end": 1665.397,
+  "speaker": "Unknown",
+  "en": "Are you hearing founders talk about regulatory issues as one factor that they consider and where they end up citing the business?",
+  "zh": "你有没有听到创始人们把监管问题作为他们考虑的一个因素，以及他们最终把业务落在哪里？"
+ },
+ {
+  "seg": 301,
+  "start": 1665.657,
+  "end": 1669.48,
+  "speaker": "Unknown",
+  "en": "Yeah, I think that it is sometimes indirect.",
+  "zh": "是的，我认为它有时是间接的。"
+ },
+ {
+  "seg": 302,
+  "start": 1670.601,
+  "end": 1677.027,
+  "speaker": "Unknown",
+  "en": "I think, for example, just, you know, like cost of living is a great, you know, is a really simple one.",
+  "zh": "我认为，比如，你知道吗，就像生活成本是一个很好的，你知道吗，是一个非常简单的例子。"
+ },
+ {
+  "seg": 303,
+  "start": 1677.187,
+  "end": 1690.719,
+  "speaker": "Unknown",
+  "en": "Or if you're building a deep tech company, if you're building the next generation of manufacturing, you have to go somewhere where people are building, you know, building large, that there's large scale lab and warehouse space at reasonable prices.",
+  "zh": "或者如果你在创办一家深科技公司，如果你在打造下一代制造业，你必须去人们在建造的地方，你知道吗，那里有大规模的实验室和仓库空间，而且价格合理。"
+ },
+ {
+  "seg": 304,
+  "start": 1691.259,
+  "end": 1702.071,
+  "speaker": "Unknown",
+  "en": "And so I think you're seeing these pockets like El Segundo in LA, you're seeing folks building things in Texas for many of those reasons.",
+  "zh": "所以我认为你正在看到这些聚集区，比如洛杉矶的 El Segundo，你也看到人们基于这些原因在德克萨斯州建造东西。"
+ },
+ {
+  "seg": 305,
+  "start": 1702.552,
+  "end": 1705.896,
+  "speaker": "Unknown",
+  "en": "I think the Bay Area has hugely benefited from",
+  "zh": "我认为湾区已经从中获益巨大，"
+ },
+ {
+  "seg": 306,
+  "start": 1707.777,
+  "end": 1710.099,
+  "speaker": "Unknown",
+  "en": "Just the AI wave, you know, really centered here.",
+  "zh": "就是 AI 浪潮，你知道吗，真的以这里为中心。"
+ },
+ {
+  "seg": 307,
+  "start": 1710.159,
+  "end": 1713.44,
+  "speaker": "Unknown",
+  "en": "So I think that's really extended the life of the CETO system in a big way.",
+  "zh": "所以我认为这在很大程度上真正延长了 CETO 体系的生命周期。"
+ },
+ {
+  "seg": 308,
+  "start": 1713.46,
+  "end": 1718.023,
+  "speaker": "Unknown",
+  "en": "A lot of people have been coming back to the Bay Area since the sort of COVID dispersal.",
+  "zh": "自疫情那种分散之后，很多人一直在回到湾区。"
+ },
+ {
+  "seg": 309,
+  "start": 1719.223,
+  "end": 1729.609,
+  "speaker": "Unknown",
+  "en": "And then I do think that, you know, the ability for, again, another indirect kind of, you know, force is that the startups have to really move where there's investors.",
+  "zh": "然后我确实认为，你知道吗，再一次，另一个间接的，你知道吗，力量是，初创公司必须真正搬到有投资人的地方。"
+ },
+ {
+  "seg": 310,
+  "start": 1729.929,
+  "end": 1736.074,
+  "speaker": "Unknown",
+  "en": "It turns out it's a lot easier to code and it's a lot easier to get your first dollar revenue and it's a lot easier to hire your first employee.",
+  "zh": "事实证明，写代码要容易得多，获得第一笔收入要容易得多，雇用第一名员工也要容易得多。"
+ },
+ {
+  "seg": 311,
+  "start": 1736.094,
+  "end": 1737.055,
+  "speaker": "Unknown",
+  "en": "You can kind of do that anywhere.",
+  "zh": "你基本上在任何地方都可以做到这些。"
+ },
+ {
+  "seg": 312,
+  "start": 1737.955,
+  "end": 1744.28,
+  "speaker": "Unknown",
+  "en": "But actually getting capital to really scale your business requires the ability for investors to be there.",
+  "zh": "但真正获得资本来扩展你的业务，需要投资人能够到场。"
+ },
+ {
+  "seg": 313,
+  "start": 1744.32,
+  "end": 1752.787,
+  "speaker": "Unknown",
+  "en": "And so I think that's why when you look around the world, a lot of the biggest startup hubs happen to be kind of where you have",
+  "zh": "所以我认为这就是为什么当你环顾世界，很多最大的初创企业聚集地恰好出现在你有"
+ },
+ {
+  "seg": 314,
+  "start": 1753.828,
+  "end": 1760.195,
+  "speaker": "Unknown",
+  "en": "Great universities co-located with customers, co-located with investors, kind of all in one spot.",
+  "zh": "优秀的大学、与客户毗邻、与投资人毗邻的地方，基本上都在同一个地方。"
+ },
+ {
+  "seg": 315,
+  "start": 1760.336,
+  "end": 1770.848,
+  "speaker": "Unknown",
+  "en": "And I wonder and I worry about things like the wealth tax that are currently under discussion in its ability to potentially relocate a bunch of",
+  "zh": "如果你想要有初创公司，你就必须做一些让环境有利于初创公司的事情。"
+ },
+ {
+  "seg": 316,
+  "start": 1771.689,
+  "end": 1787.308,
+  "speaker": "Unknown",
+  "en": "Family offices and investors that are currently contributing in a big way and moving them to other geographies as one of the potential negatives for making the Silicon Valley thing less dynamic and less powerful as a result.",
+  "zh": "目前正在做出巨大贡献的家族办公室和投资人迁往其他地区，这是让硅谷模式变得不那么有活力、不那么强大的潜在负面因素之一。"
+ },
+ {
+  "seg": 317,
+  "start": 1787.528,
+  "end": 1798.27,
+  "speaker": "Unknown",
+  "en": "So we've been talking a lot about the one-to-one relationships that you've developed as part of the Speedrun program, but you've also been really invested in trying to create ecosystems through the TechWeek program.",
+  "zh": "所以我们一直在大量谈论你在 Speedrun 项目中建立的一对一关系，但你也一直非常投入于通过 TechWeek 项目尝试创建生态系统。"
+ },
+ {
+  "seg": 318,
+  "start": 1799.011,
+  "end": 1800.431,
+  "speaker": "Unknown",
+  "en": "What was the idea behind that program?",
+  "zh": "那个项目背后的想法是什么？"
+ },
+ {
+  "seg": 319,
+  "start": 1800.791,
+  "end": 1808.693,
+  "speaker": "Unknown",
+  "en": "So we started TechWeek and it's a program that sits in our team here within the Speedrun umbrella.",
+  "zh": "所以我们创办了 TechWeek，它是一个隶属于我们团队、处于 Speedrun 体系之下的项目。"
+ },
+ {
+  "seg": 320,
+  "start": 1809.433,
+  "end": 1819.461,
+  "speaker": "Unknown",
+  "en": "And what Tech Week really does is it's really a celebration of startups and technology and progress in all the major cities.",
+  "zh": "而 Tech Week 真正做的，是在所有主要城市庆祝初创公司、技术和进步。"
+ },
+ {
+  "seg": 321,
+  "start": 1819.501,
+  "end": 1822.984,
+  "speaker": "Unknown",
+  "en": "And so we hosted in San Francisco, we hosted in LA, we hosted in New York.",
+  "zh": "所以我们在旧金山举办过，在洛杉矶举办过，在纽约举办过。"
+ },
+ {
+  "seg": 322,
+  "start": 1823.464,
+  "end": 1826.647,
+  "speaker": "Unknown",
+  "en": "And then for the first time this year, we're actually hosting it in Boston as well.",
+  "zh": "然后今年第一次，我们实际上也在波士顿举办。"
+ },
+ {
+  "seg": 323,
+  "start": 1827.248,
+  "end": 1830.05,
+  "speaker": "Unknown",
+  "en": "How do you discover a founder before they know if they're a founder?",
+  "zh": "你如何在一个创始人还不知道自己是创始人之前发现他们？"
+ },
+ {
+  "seg": 324,
+  "start": 1830.57,
+  "end": 1853.536,
+  "speaker": "Unknown",
+  "en": "Well, we just feel like if you're a type of person with certain kinds of work experience, certain resume, and you're finding yourself attending a bunch of startup events, you know, like the probability of you starting something, like you're probably startup curious, but you're probably gonna get there like sometime in the next few years.",
+  "zh": "嗯，我们只是觉得，如果你是那种有特定工作经历、特定履历的人，而且你发现自己在参加一大堆初创公司活动，你知道吗，比如你启动某件事的概率，你可能对初创公司好奇，但你可能要在未来几年内才会走到那一步。"
+ },
+ {
+  "seg": 325,
+  "start": 1853.756,
+  "end": 1855.697,
+  "speaker": "Unknown",
+  "en": "So that's what we found, which has been fantastic.",
+  "zh": "所以这就是我们发现的，效果一直非常棒。"
+ },
+ {
+  "seg": 326,
+  "start": 1856.637,
+  "end": 1860.801,
+  "speaker": "Unknown",
+  "en": "Is policy showing up at Tech Weeks?",
+  "zh": "政策有出现在 Tech Week 上吗？"
+ },
+ {
+  "seg": 327,
+  "start": 1860.861,
+  "end": 1864.544,
+  "speaker": "Unknown",
+  "en": "Are you seeing it in the various different local ecosystems that you're tapping into?",
+  "zh": "你在你所接触的各个不同的本地生态系统中看到它了吗？"
+ },
+ {
+  "seg": 328,
+  "start": 1864.864,
+  "end": 1866.846,
+  "speaker": "Unknown",
+  "en": "Yeah, so we would love to do more.",
+  "zh": "是的，所以我们很希望做更多。"
+ },
+ {
+  "seg": 329,
+  "start": 1867.306,
+  "end": 1874.973,
+  "speaker": "Unknown",
+  "en": "It's definitely exciting to see more and more of an ecosystem around policy.",
+  "zh": "看到围绕政策越来越成规模的生态系统，确实令人兴奋。"
+ },
+ {
+  "seg": 330,
+  "start": 1875.694,
+  "end": 1882.74,
+  "speaker": "Unknown",
+  "en": "So for example, I think across all of the Tech Weeks last year, we had 4,000 attendees attending various",
+  "zh": "比如，我认为去年所有 Tech Week 加起来，我们有 4000 名参会者参加了各种"
+ },
+ {
+  "seg": 331,
+  "start": 1883.22,
+  "end": 1889.127,
+  "speaker": "Unknown",
+  "en": "Policy-related events, and that includes over a thousand folks from government, over a thousand policy professionals.",
+  "zh": "与政策相关的活动，其中包括来自政府的一千多人，一千多名政策专业人士。"
+ },
+ {
+  "seg": 332,
+  "start": 1889.287,
+  "end": 1893.932,
+  "speaker": "Unknown",
+  "en": "And then oftentimes we've had events where local government will come together.",
+  "zh": "而且通常我们举办过本地政府聚在一起的活动。"
+ },
+ {
+  "seg": 333,
+  "start": 1893.952,
+  "end": 1896.635,
+  "speaker": "Unknown",
+  "en": "So I know whether that's in the mayor's office.",
+  "zh": "所以我知道无论是市长办公室，"
+ },
+ {
+  "seg": 334,
+  "start": 1899.979,
+  "end": 1903.184,
+  "speaker": "Unknown",
+  "en": "Or, you know, folks that work on the national sphere.",
+  "zh": "还是，你知道吗，在国家级层面工作的人。"
+ },
+ {
+  "seg": 335,
+  "start": 1903.444,
+  "end": 1914.981,
+  "speaker": "Unknown",
+  "en": "We also have had a bunch of the consulates, you know, involved as well because, you know, they're all very interested in kind of building that bridge between their countries and particularly the San Francisco.",
+  "zh": "我们也有过很多领事馆，你知道吗，参与进来，因为，你知道吗，他们都非常有兴趣在他们国家与特别是旧金山之间搭建桥梁，"
+ },
+ {
+  "seg": 336,
+  "start": 1915.642,
+  "end": 1916.563,
+  "speaker": "Unknown",
+  "en": "You know, system.",
+  "zh": "你知道的，这个体系。"
+ },
+ {
+  "seg": 337,
+  "start": 1916.623,
+  "end": 1921.586,
+  "speaker": "Unknown",
+  "en": "So, you know, the British consulate's been super involved on, on, on tons of stuff.",
+  "zh": "所以，你知道吗，英国领事馆在、在、在大量的事情上都超级活跃。"
+ },
+ {
+  "seg": 338,
+  "start": 1921.826,
+  "end": 1923.627,
+  "speaker": "Unknown",
+  "en": "And then, you know, many other countries as well.",
+  "zh": "然后，你知道吗，还有很多其他国家也是。"
+ },
+ {
+  "seg": 339,
+  "start": 1923.647,
+  "end": 1930.712,
+  "speaker": "Unknown",
+  "en": "So yeah, so it's all, it's, it's been, it's been great to, to have that as a, a burgeoning part of the, the tech week ecosystem.",
+  "zh": "所以是的，这一切，它是，它一直，一直很棒，能把它作为 Tech Week 生态系统中一个，一个蓬勃发展的部分。"
+ },
+ {
+  "seg": 340,
+  "start": 1930.892,
+  "end": 1948.799,
+  "speaker": "Unknown",
+  "en": "So if you see a local policymaker or a representative from a consulate or member of Congress at a Tech Week event and you're chatting with them on the sidelines, what would you relate to them about the realities of building a competitive company given what you know about what the early, early stage really looks like?",
+  "zh": "所以如果你在 Tech Week 活动上看到一个本地政策制定者、或者一位领事馆代表、或者一位国会议员，你在活动间隙和他们聊天，基于你对早期、早期阶段真实情况的理解，你会向他们传达关于打造一家有竞争力的公司的哪些现实？"
+ },
+ {
+  "seg": 341,
+  "start": 1949.24,
+  "end": 1949.9,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 342,
+  "start": 1949.96,
+  "end": 1954.182,
+  "speaker": "Unknown",
+  "en": "Well, I think I'd say a couple of things.",
+  "zh": "嗯，我想我会说几点。"
+ },
+ {
+  "seg": 343,
+  "start": 1954.282,
+  "end": 1956.923,
+  "speaker": "Unknown",
+  "en": "I think the first is to just",
+  "zh": "我认为第一点就是"
+ },
+ {
+  "seg": 344,
+  "start": 1958.685,
+  "end": 1967.792,
+  "speaker": "Unknown",
+  "en": "Have them understand that it's a choice whether or not each state or each city wants to have startups or not.",
+  "zh": "让他们理解，每个州或每个城市是否想要有初创公司，这是一个选择。"
+ },
+ {
+  "seg": 345,
+  "start": 1967.892,
+  "end": 1973.837,
+  "speaker": "Unknown",
+  "en": "If you want to have startups, you have to do things to make it conducive to having startups.",
+  "zh": "如果你想拥有初创公司生态，你就必须做一些事情，让它有利于初创公司的产生。"
+ },
+ {
+  "seg": 346,
+  "start": 1974.317,
+  "end": 1978.48,
+  "speaker": "Unknown",
+  "en": "And there's a long list of things that might be involved in there.",
+  "zh": "而其中可能涉及一长串的事情。"
+ },
+ {
+  "seg": 347,
+  "start": 1979.341,
+  "end": 1987.187,
+  "speaker": "Unknown",
+  "en": "And it's not just for the founders, it's for the angel investors, it's for the employees, it's for all these things that kind of surround that whole group.",
+  "zh": "而且这不仅仅是为创始人，也是为天使投资人，为员工，为围绕着这整个群体的所有这些角色。"
+ },
+ {
+  "seg": 348,
+  "start": 1988.187,
+  "end": 1998.838,
+  "speaker": "Unknown",
+  "en": "The second thing is, you know, as we were just talking about a couple of minutes ago, I think a lot of policymakers are not having real conversations with little tech.",
+  "zh": "第二点是，你知道，就像我们几分钟前刚谈到的，我认为很多政策制定者没有和小科技（little tech）进行真正的对话。"
+ },
+ {
+  "seg": 349,
+  "start": 1999.819,
+  "end": 2002.441,
+  "speaker": "Unknown",
+  "en": "You know, it takes a little, there's a little bit more friction.",
+  "zh": "你知道，这需要一点，这里有一点更多的摩擦。"
+ },
+ {
+  "seg": 350,
+  "start": 2002.481,
+  "end": 2004.463,
+  "speaker": "Unknown",
+  "en": "You have to kind of put in a little bit more time into it.",
+  "zh": "你得在它上面多花一点时间。"
+ },
+ {
+  "seg": 351,
+  "start": 2004.483,
+  "end": 2009.028,
+  "speaker": "Unknown",
+  "en": "But again, you know, if we want to have, if we decide, you know, hey, the...",
+  "zh": "但再说一次，你知道，如果我们想要——如果我们决定，你知道，嘿，那个……"
+ },
+ {
+  "seg": 352,
+  "start": 2009.748,
+  "end": 2011.57,
+  "speaker": "Unknown",
+  "en": "We want to have more startups in America.",
+  "zh": "我们想让美国有更多初创公司。"
+ },
+ {
+  "seg": 353,
+  "start": 2011.59,
+  "end": 2017.034,
+  "speaker": "Unknown",
+  "en": "We want more innovation in America, or we're talking about that kind of at the city level.",
+  "zh": "我们想让美国有更多创新，或者我们在城市层面谈论这类事。"
+ },
+ {
+  "seg": 354,
+  "start": 2017.234,
+  "end": 2022.619,
+  "speaker": "Unknown",
+  "en": "You know, we have to figure out, like, what are the things that we can unblock for a lot of these companies?",
+  "zh": "你知道，我们必须弄清楚，比如，我们可以为这些公司中的许多解除哪些障碍？"
+ },
+ {
+  "seg": 355,
+  "start": 2022.659,
+  "end": 2023.379,
+  "speaker": "Unknown",
+  "en": "And those things change.",
+  "zh": "而这些事情是会变化的。"
+ },
+ {
+  "seg": 356,
+  "start": 2023.399,
+  "end": 2031.025,
+  "speaker": "Unknown",
+  "en": "You know, a software company will tell you something different than an AI-native company, which will tell you something different than a hardware company and a robotics company.",
+  "zh": "你知道，一家软件公司告诉你的东西，会和一家 AI 原生公司不一样，而后者说的又和硬件公司、机器人公司不一样。"
+ },
+ {
+  "seg": 357,
+  "start": 2031.126,
+  "end": 2032.106,
+  "speaker": "Unknown",
+  "en": "You know, it's very dynamic.",
+  "zh": "你知道，这是非常动态的。"
+ },
+ {
+  "seg": 358,
+  "start": 2032.126,
+  "end": 2035.949,
+  "speaker": "Unknown",
+  "en": "You know, one year, you know, for example, this year, we are seeing",
+  "zh": "你知道，某一年，比如今年，我们看到"
+ },
+ {
+  "seg": 359,
+  "start": 2037.146,
+  "end": 2039.588,
+  "speaker": "Unknown",
+  "en": "Way more robotics companies than in any year past.",
+  "zh": "机器人公司比以往任何一年都多得多。"
+ },
+ {
+  "seg": 360,
+  "start": 2040.128,
+  "end": 2050.554,
+  "speaker": "Unknown",
+  "en": "And they have very different needs compared to, you know, they have supply chain needs, they have, you know, real estate needs, they have a different set of investors, they have potentially a different set of partners.",
+  "zh": "而它们的需求非常不同，你知道，它们有供应链需求，有房地产需求，有一群不同的投资人，可能还有一群不同的合作伙伴。"
+ },
+ {
+  "seg": 361,
+  "start": 2050.835,
+  "end": 2055.838,
+  "speaker": "Unknown",
+  "en": "And so, you know, we have to actually, you know, dig into that in a real way.",
+  "zh": "所以你知道，我们必须真正地、认真地深入挖掘这些。"
+ },
+ {
+  "seg": 362,
+  "start": 2055.858,
+  "end": 2060.2,
+  "speaker": "Unknown",
+  "en": "And then maybe, you know, thirdly, to just maybe talk our book, I think working with",
+  "zh": "然后也许，你知道，第三点，可能算是给自己辩护一下，我认为与"
+ },
+ {
+  "seg": 363,
+  "start": 2062.842,
+  "end": 2077.655,
+  "speaker": "Unknown",
+  "en": "Folks like A16Z and other venture capital firms and other ecosystem kind of players, what we can do is we can certainly help open the door to creating those conversations.",
+  "zh": "像 A16Z 这样的公司以及其他风险投资公司和其他生态系统的参与者合作，我们能做的，就是我们确实能帮助打开大门、促成那些对话。"
+ },
+ {
+  "seg": 364,
+  "start": 2078.296,
+  "end": 2083.22,
+  "speaker": "Unknown",
+  "en": "And so open offer to the policy folks that are listening to this.",
+  "zh": "所以向正在收听这期节目的政策人士发出公开邀请。"
+ },
+ {
+  "seg": 365,
+  "start": 2083.56,
+  "end": 2084.761,
+  "speaker": "Unknown",
+  "en": "Anybody that wants to come and...",
+  "zh": "任何想过来的人……"
+ },
+ {
+  "seg": 366,
+  "start": 2085.422,
+  "end": 2096.513,
+  "speaker": "Unknown",
+  "en": "You know, spend time with five or 10 really curated, you know, little tech startups that are, you know, two, three people and just kind of hear like, okay, what do you need to be successful?",
+  "zh": "你知道，花时间和五到十家经过精心筛选的小型科技初创公司在一起——它们可能只有两三个人——就是听听看：好，你们需要什么才能成功？"
+ },
+ {
+  "seg": 367,
+  "start": 2096.573,
+  "end": 2098.534,
+  "speaker": "Unknown",
+  "en": "Like, we're very happy to arrange that.",
+  "zh": "我们非常乐意安排这样的事。"
+ },
+ {
+  "seg": 368,
+  "start": 2098.835,
+  "end": 2106.462,
+  "speaker": "Unknown",
+  "en": "Also, a lot of these companies are very interested to, you know, like certain sectors are particularly interested in partnering, you know, with government.",
+  "zh": "另外，这些公司中有非常多非常有兴趣——某些行业尤其有兴趣——与政府建立合作关系。"
+ },
+ {
+  "seg": 369,
+  "start": 2106.482,
+  "end": 2107.483,
+  "speaker": "Unknown",
+  "en": "So I think that's all great.",
+  "zh": "所以我认为这些都很棒。"
+ },
+ {
+  "seg": 370,
+  "start": 2107.623,
+  "end": 2109.545,
+  "speaker": "Unknown",
+  "en": "I'm a policy person who's interested in doing that.",
+  "zh": "我是一个有兴趣做这件事的政策人士。"
+ },
+ {
+  "seg": 371,
+  "start": 2109.585,
+  "end": 2113.469,
+  "speaker": "Unknown",
+  "en": "I'm actually coming out to talk to a speedrun, talk to a speedrun cohort next week.",
+  "zh": "我下周实际上要出去，和一个 speedrun 批次聊一聊。"
+ },
+ {
+  "seg": 372,
+  "start": 2113.489,
+  "end": 2114.911,
+  "speaker": "Unknown",
+  "en": "So I'm looking forward to it.",
+  "zh": "所以我很期待。"
+ },
+ {
+  "seg": 373,
+  "start": 2115.091,
+  "end": 2122.598,
+  "speaker": "Unknown",
+  "en": "It's been fun doing that in the past, because like you said, you really see in those conversations, like when you talk through various different policy issues, sometimes they're not",
+  "zh": "过去做这种事一直很有趣，因为就像你说的，在那些对话中你真的能看到，当你讨论各种不同的政策议题时，有时候它们"
+ },
+ {
+  "seg": 374,
+  "start": 2123.279,
+  "end": 2125.881,
+  "speaker": "Unknown",
+  "en": "That relevant necessarily to people in the room and then others really are.",
+  "zh": "不一定和房间里的人那么相关，而另一些则真的非常相关。"
+ },
+ {
+  "seg": 375,
+  "start": 2126.141,
+  "end": 2144.355,
+  "speaker": "Unknown",
+  "en": "We've had conversations in the past where we're talking about various different policy initiatives that are moving and then you see like a panic look on someone's face where they're like, I'm building in a way that I think I'm building into a use case that might face regulatory headwinds, but I think the use case is really compelling and I don't think policymakers understand what we're trying to do.",
+  "zh": "我们过去有过这样的对话：我们在讨论各种正在推进的政策举措，然后你看到某人脸上出现惊慌的表情，他们像是说：我正在做的东西，我觉得我正在做一个可能面临监管逆风的用例，但我认为这个用例真的很有说服力，而我认为政策制定者并不理解我们想做的事。"
+ },
+ {
+  "seg": 376,
+  "start": 2145.376,
+  "end": 2152.822,
+  "speaker": "Unknown",
+  "en": "And so it's like interesting to see that delta and we've engaged with the speedrun team in the past to make sure policymakers also appreciate that delta.",
+  "zh": "所以看到这种落差很有意思，我们过去也曾与 speedrun 团队合作，确保政策制定者也能理解这种落差。"
+ },
+ {
+  "seg": 377,
+  "start": 2153.425,
+  "end": 2163.193,
+  "speaker": "Unknown",
+  "en": "Yes, I think that's right, and I think it's such, it is a wonderful thing to spend time with these teams because they're often very much young people.",
+  "zh": "是的，我认为说得对，而且我觉得花时间和这些团队在一起是一件非常美好的事情，因为他们往往都是非常年轻的人。"
+ },
+ {
+  "seg": 378,
+  "start": 2164.053,
+  "end": 2165.975,
+  "speaker": "Unknown",
+  "en": "We have a lot of folks that are in their early 20s.",
+  "zh": "我们有很多二十岁出头的人。"
+ },
+ {
+  "seg": 379,
+  "start": 2165.995,
+  "end": 2174.762,
+  "speaker": "Unknown",
+  "en": "I think we even have a team that's all 18 and 19-year-olds, for example, in the current batch who decided to forego college and instead start the dream company.",
+  "zh": "我想我们甚至有一个团队全是 18、19 岁的年轻人，比如在这一批里，他们决定放弃上大学，转而创办梦想中的公司。"
+ },
+ {
+  "seg": 380,
+  "start": 2174.782,
+  "end": 2178.625,
+  "speaker": "Unknown",
+  "en": "We also have folks that are co-founders of billion-dollar companies that",
+  "zh": "我们也有一些人是十亿美元级别公司的联合创始人，他们"
+ },
+ {
+  "seg": 381,
+  "start": 2178.985,
+  "end": 2181.928,
+  "speaker": "Unknown",
+  "en": "That have, you know, that are, that are now in the current Badger Speedrun as well.",
+  "zh": "他们，你知道，他们现在也在当前的 Badger Speedrun 里。"
+ },
+ {
+  "seg": 382,
+  "start": 2181.948,
+  "end": 2193.24,
+  "speaker": "Unknown",
+  "en": "But because these guys are all getting started, uh, like, like there's, if the conversations are so genuine, they're just full of optimism, they're so fun to talk, they're all on the cutting edge.",
+  "zh": "但因为这些人都是刚刚起步，呃，就像是，这些对话如此真诚，他们满怀乐观，和他们聊天太有趣了，他们都站在最前沿。"
+ },
+ {
+  "seg": 383,
+  "start": 2193.68,
+  "end": 2200.948,
+  "speaker": "Unknown",
+  "en": "You know, they're not at a point where, um, uh, you know, they, they, they are at the risk of, uh, you know, um, uh,",
+  "zh": "你知道，他们还没到那种，呃，你知道，他们，他们，他们还没有到那种风险，呃，你知道，呃，"
+ },
+ {
+  "seg": 384,
+  "start": 2202.869,
+  "end": 2206.551,
+  "speaker": "Unknown",
+  "en": "Hitting into a lot of laws and hitting into a lot of different things.",
+  "zh": "撞上很多法律、撞上很多各种各样的东西。"
+ },
+ {
+  "seg": 385,
+  "start": 2206.631,
+  "end": 2213.114,
+  "speaker": "Unknown",
+  "en": "It's often just a really fantastic set of conversations just based on where these guys are.",
+  "zh": "仅凭这些人所处的阶段，这往往就是一组真正精彩的对话。"
+ },
+ {
+  "seg": 386,
+  "start": 2213.394,
+  "end": 2215.495,
+  "speaker": "Unknown",
+  "en": "Andrew, thanks so much for joining the AI Policy Brief.",
+  "zh": "Andrew，非常感谢你参加 AI Policy Brief。"
+ },
+ {
+  "seg": 387,
+  "start": 2216.535,
+  "end": 2217.356,
+  "speaker": "Unknown",
+  "en": "Awesome, thank you for having me.",
+  "zh": "太好了，谢谢你们邀请我。"
+ },
+ {
+  "seg": 388,
+  "start": 2220.548,
+  "end": 2223.451,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z Podcast。"
+ },
+ {
+  "seg": 389,
+  "start": 2224.051,
+  "end": 2230.878,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这一期，请务必点赞、评论、订阅，给我们留下评分或评论，并分享给你的朋友和家人。"
+ },
+ {
+  "seg": 390,
+  "start": 2231.238,
+  "end": 2234.801,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "更多剧集请访问 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 391,
+  "start": 2235.382,
+  "end": 2241.447,
+  "speaker": "Unknown",
+  "en": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 上关注我们 @A16Z，并订阅我们的 Substack：a16z.substack.com。"
+ },
+ {
+  "seg": 392,
+  "start": 2241.467,
+  "end": 2243.93,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening and I'll see you in the next episode.",
+  "zh": "再次感谢收听，我们下期再见。"
+ },
+ {
+  "seg": 393,
+  "start": 2245.94,
+  "end": 2258.95,
+  "speaker": "Unknown",
+  "en": "As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+  "zh": "提醒一下，此内容仅供参考，不应被视为法律、商业、税务或投资建议，也不应用于评估任何投资或证券，且不面向任何 A16Z 基金的任何投资者或潜在投资者。"
+ },
+ {
+  "seg": 394,
+  "start": 2259.651,
+  "end": 2264.294,
+  "speaker": "Unknown",
+  "en": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+  "zh": "请注意，A16Z 及其关联机构可能也持有本播客中讨论的公司的投资。"
+ },
+ {
+  "seg": 395,
+  "start": 2264.855,
+  "end": 2271.5,
+  "speaker": "Unknown",
+  "en": "For more details, including a link to our investments, please see A16Z.com forward slash disclosures.",
+  "zh": "更多详情，包括我们投资的链接，请参阅 A16Z.com forward slash disclosures。"
+ }
+]

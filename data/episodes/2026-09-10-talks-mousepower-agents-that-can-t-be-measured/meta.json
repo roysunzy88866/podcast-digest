@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-10-talks-mousepower-agents-that-can-t-be-measured",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/8KkibGU_DDY.m4a",
+  "duration_sec": 1234.876,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 170,
+  "asr": true,
+  "title_en": "Mousepower: agents that can’t be measured, can’t be managed. — Maximillian Piras, Yutori",
+  "podcast": "精选演讲",
+  "date": "2026-09-10",
+  "added": "2026-09-12",
+  "added_at": "2026-09-11T17:02:06.609Z",
+  "speaker_map": {
+    "SPEAKER_00": "Maximillian Piras"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Maximillian Piras"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "鼠标力：为智能体时代找回「马力」这把尺子",
+  "guest_name": "Maximillian Piras",
+  "guest_title": "Utori 创始设计师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]] [[Lucas Kaiser]]
+[[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]] [[Eric Simons]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":3,"NVIDIA":33,"Google":38,"TPU":3,"OpenAI":102,"Anthropic":114,"Broadcom":2,"AMD":2,"Gemini":6,"ChatGPT":55}</script>
+<script type="application/json" class="pd-epn">{"David George":3,"NVIDIA":33,"Google":38,"TPU":3,"OpenAI":102,"Anthropic":115,"Broadcom":2,"AMD":2,"Gemini":6,"ChatGPT":57}</script>
 
 <script>
 (function(){

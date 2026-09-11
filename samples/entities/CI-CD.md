@@ -8,7 +8,7 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>CI/CD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="CI-CD">CI</div><div class="pi"><h1 class="pt">CI/CD</h1><div class="byl">概念 · 又名 CICD / CI CD / CI / CD</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="CI-CD">CI</div><div class="pi"><h1 class="pt">CI/CD</h1><div class="byl">概念 · 又名 CICD / CI CD / CI / CD</div><div class="nums">本站收录 <b>9</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 - **[[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]]**(04:20起):本集把它说成:自动跑测试的流程;在架构不变量被打破、出现漏掉边界的包时,CI 或 git 提交历史立刻标红报警,守住代码库收敛。
 - **[[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]]**(32:34起):后台智能体的第一个应用场景：当 CI 失败且是 lint 错误或格式问题时，智能体自动修复，开发者无需手动回来处理。
 - **[[2026-08-20-devtools-dave-fletcher-from-leaddev-what-engineer|《工程领导者的AI工具购买真相》]]**(02:54起):本集说 CICD 和 QA 测试工具在资深工程领导者中非常受欢迎，是代码生成自动化后瓶颈转移到下游的体现
+- **[[2026-09-11-engenable-how-okta-sets-guardrails-and-context-for|《当 AI 智能体成为「新员工」:Okta 首席架构师谈智能体身份与安全》]]**(14:34起):本集说有强大 CI 系统和好评审流程的成熟仓库,是智能体变更的安全网;测试、linting、标准不够好的仓库要先补课再接入
 
 ## ① 提到它的金句
 
@@ -29,7 +30,7 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念(提及)
 - [[2026-02-12-lennys-engineers-are-becoming-sorcerers|《OpenAI 内部怎么用 AI 写代码：从巫师比喻到一人独角兽的二阶效应》]] — 作为概念(提及)
@@ -39,14 +40,15 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 - [[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]] — 作为概念
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]] — 作为概念(提及)
 - [[2026-08-20-devtools-dave-fletcher-from-leaddev-what-engineer|《工程领导者的AI工具购买真相》]] — 作为概念
+- [[2026-09-11-engenable-how-okta-sets-guardrails-and-context-for|《当 AI 智能体成为「新员工」:Okta 首席架构师谈智能体身份与安全》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[MCP]] · [[Codex]] · [[OpenAI]] · [[护栏]] · [[Anthropic]] · [[Cursor]] · [[Claude]] · [[Simon Maple]] · [[Python]]
+[[智能体]] · [[护栏]] · [[MCP]] · [[Codex]] · [[沙箱]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Claude]] · [[Simon Maple]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":33,"Codex":44,"OpenAI":102,"护栏":2,"Anthropic":114,"Cursor":54,"Claude":52,"Simon Maple":8,"Python":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"护栏":2,"MCP":34,"Codex":44,"沙箱":41,"OpenAI":102,"Anthropic":115,"Cursor":54,"Claude":54,"Simon Maple":8}</script>
 
 <script>
 (function(){

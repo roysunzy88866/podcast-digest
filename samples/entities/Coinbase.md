@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Coinbase</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Coinbase">CO</div><div class="pi"><h1 class="pt">Coinbase</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Coinbase">CO</div><div class="pi"><h1 class="pt">Coinbase</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,23 +15,25 @@ unlisted: true
 - **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(42:37起):本集顺带提及的一家加密货币交易所，主持人的朋友曾在这里的工程团队进行过删除本地 IDE 等极端管理实验。
 - **[[2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at|《加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法》]]**(16:41起):本集说它是一家总部位于美国、在合规和监管上投入巨大金钱与时间的优质加密公司，常被海外不做合规的对手（如 FTX）通过低费率抢走市场。
 - **[[2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f|《给 AI 开银行账户：Brian Armstrong 谈智能体金融与抗衰老第二幕》]]**(00:50起):本集说它是最早、最重要的加密货币公司之一，正推进三大方向：一切交易所(Everything Exchange)、稳定币支付、以及智能体金融，并要把 AI 深度引入公司内部。
+- **[[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|《鼠标力：为智能体时代找回「马力」这把尺子》]]**(10:21起):本集引 Coinbase CEO 在 X 上发的图：把默认起步模型调低、只把前沿模型留给最难的任务，结果 AI 支出与 token 用量开始分化——虽然仍太聚焦 token。
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再当「答案机器」：高管教练Rachel Lockett的领导力实操课》]] — 作为被讨论公司(提及)
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为被讨论公司(提及)
 - [[2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at|《加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法》]] — 作为被讨论公司(提及)
 - [[2026-09-10-nopriors-coinbase-s-everything-exchange-agentic-f|《给 AI 开银行账户：Brian Armstrong 谈智能体金融与抗衰老第二幕》]] — 作为被讨论公司
+- [[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|《鼠标力：为智能体时代找回「马力」这把尺子》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[联合创始人]] · [[智能体]] · [[稳定币]] · [[Stripe]] · [[加密货币]] · [[分词]] · [[Lenny]] · [[Claire Vo]] · [[Robert Hackett]] · [[Elad Gil]]
+[[智能体]] · [[联合创始人]] · [[稳定币]] · [[Stripe]] · [[加密货币]] · [[分词]] · [[Lenny]] · [[Claire Vo]] · [[Robert Hackett]] · [[Elad Gil]]
 
-<script type="application/json" class="pd-epn">{"联合创始人":2,"智能体":1,"稳定币":2,"Stripe":29,"加密货币":2,"分词":4,"Lenny":67,"Claire Vo":3,"Robert Hackett":1,"Elad Gil":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"联合创始人":2,"稳定币":2,"Stripe":29,"加密货币":2,"分词":4,"Lenny":67,"Claire Vo":3,"Robert Hackett":1,"Elad Gil":1}</script>
 
 <script>
 (function(){

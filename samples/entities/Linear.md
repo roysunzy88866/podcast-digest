@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[原型]] · [[Slack]] · [[Codex]] · [[Claude]] · [[Harry Stebbings]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":67,"Cursor":54,"OpenAI":102,"Anthropic":114,"原型":4,"Slack":24,"Codex":44,"Claude":52,"Harry Stebbings":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":67,"Cursor":54,"OpenAI":102,"Anthropic":115,"原型":4,"Slack":24,"Codex":44,"Claude":54,"Harry Stebbings":15}</script>
 
 <script>
 (function(){

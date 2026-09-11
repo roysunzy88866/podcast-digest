@@ -1,0 +1,1362 @@
+[
+ {
+  "seg": 0,
+  "start": 13.104,
+  "end": 14.366,
+  "speaker": "Unknown",
+  "en": "Well, thanks a lot for your time.",
+  "zh": "好的，非常感谢大家抽出时间。"
+ },
+ {
+  "seg": 1,
+  "start": 14.426,
+  "end": 25.297,
+  "speaker": "Unknown",
+  "en": "Really appreciate you dropping by, and it's always a great honor to speak at the World's Fair, so I'll do my best to give you guys some valuable insights and, yeah, hopefully make it worth your time.",
+  "zh": "真的很感谢各位到场，能在世博会这样的场合演讲一直是莫大的荣幸，所以我会尽力给大家带来一些有价值的见解，希望不辜负大家的时间。"
+ },
+ {
+  "seg": 2,
+  "start": 26.178,
+  "end": 34.966,
+  "speaker": "Unknown",
+  "en": "So my name is Maximilian Piros, and today I'll be talking about mouse power, and this is a talk about measuring agents through mental models.",
+  "zh": "我叫 Maximilian Piros，今天我要讲的是 mouse power，这是一场关于通过心智模型来衡量智能体的演讲。"
+ },
+ {
+  "seg": 3,
+  "start": 35.86,
+  "end": 41.003,
+  "speaker": "Unknown",
+  "en": "But before I get into talking about measuring agents, I'm going to talk through a bit about how I use them every day.",
+  "zh": "但在开始讲衡量智能体之前，我想先讲讲我每天是如何使用它们的。"
+ },
+ {
+  "seg": 4,
+  "start": 41.664,
+  "end": 44.486,
+  "speaker": "Unknown",
+  "en": "And it might seem familiar to you, but just to level set, we'll go through it.",
+  "zh": "这可能对你们来说很熟悉，但为了统一认知基础，我们还是过一遍。"
+ },
+ {
+  "seg": 5,
+  "start": 45.166,
+  "end": 48.949,
+  "speaker": "Unknown",
+  "en": "So I tend to background them, like I'm sure a lot of you people are as well.",
+  "zh": "我习惯把它们放到后台运行，我相信在座的很多人也是这样。"
+ },
+ {
+  "seg": 6,
+  "start": 50.25,
+  "end": 57.114,
+  "speaker": "Unknown",
+  "en": "So while my active attention is focusing on one thing, like perhaps giving this talk to you, I still want to make some progress on peripheral tasks.",
+  "zh": "当我的主动注意力专注于某件事时，比如现在给大家做这个演讲，我仍然希望在周边任务上也取得一些进展。"
+ },
+ {
+  "seg": 7,
+  "start": 58.155,
+  "end": 67.921,
+  "speaker": "Unknown",
+  "en": "I'll keep my attention focused on giving this talk while my agents can help me explore some designs in the background because I think that my slides need a bit of work.",
+  "zh": "我会把注意力集中在做这个演讲上，同时我的智能体可以在后台帮我探索一些设计方案，因为我觉得我的幻灯片还需要改进。"
+ },
+ {
+  "seg": 8,
+  "start": 68.101,
+  "end": 70.483,
+  "speaker": "Unknown",
+  "en": "So I've got my design system already set up.",
+  "zh": "所以我已经搭好了我的设计系统。"
+ },
+ {
+  "seg": 9,
+  "start": 70.523,
+  "end": 73.105,
+  "speaker": "Unknown",
+  "en": "I've got some guidance given to my agents.",
+  "zh": "我也给智能体提供了一些指导。"
+ },
+ {
+  "seg": 10,
+  "start": 73.245,
+  "end": 82.571,
+  "speaker": "Unknown",
+  "en": "So I'll kick off an agent to just try to explore some different directions on the type treatment and the layout and just try to get as many explorations as possible.",
+  "zh": "所以我会启动一个智能体，让它尝试探索一些不同的方向，比如字体处理和排版，并尽可能多地进行探索。"
+ },
+ {
+  "seg": 11,
+  "start": 83.251,
+  "end": 87.334,
+  "speaker": "Unknown",
+  "en": "But of course, one agent's never enough, so I like to kick off a bunch in parallel.",
+  "zh": "当然，一个智能体永远不够，所以我喜欢并行启动一堆。"
+ },
+ {
+  "seg": 12,
+  "start": 87.354,
+  "end": 97.401,
+  "speaker": "Unknown",
+  "en": "You know, I've got a lot of slides to get through, so I need all of my agents on and exploring it in different directions, and hopefully I can get some interesting things to make my slides a bit better.",
+  "zh": "大家知道，我有很多幻灯片要完成，所以我需要所有智能体都开着，朝不同方向探索，希望能得到一些有趣的东西，让我的幻灯片变得更好一点。"
+ },
+ {
+  "seg": 13,
+  "start": 98.441,
+  "end": 103.825,
+  "speaker": "Unknown",
+  "en": "And hopefully they can finish the job pretty soon, because we're obviously kind of up against the deadline here.",
+  "zh": "希望它们能很快完成任务，因为我们显然已经有点赶 deadline 了。"
+ },
+ {
+  "seg": 14,
+  "start": 106.258,
+  "end": 108.78,
+  "speaker": "Unknown",
+  "en": "So this is generally how I work.",
+  "zh": "这就是我平时的工作方式。"
+ },
+ {
+  "seg": 15,
+  "start": 108.8,
+  "end": 117.908,
+  "speaker": "Unknown",
+  "en": "I'm sure it's probably familiar to a lot of you where we're just trying to kick off agents for as much as possible in parallel because it always feels like there's just way more research to do.",
+  "zh": "我相信对很多人来说这很熟悉：我们就是尽量并行地启动尽可能多的智能体，因为总感觉有太多研究要做。"
+ },
+ {
+  "seg": 16,
+  "start": 117.928,
+  "end": 119.269,
+  "speaker": "Unknown",
+  "en": "We want it to be as thorough as possible.",
+  "zh": "我们希望做到尽可能彻底。"
+ },
+ {
+  "seg": 17,
+  "start": 119.85,
+  "end": 121.851,
+  "speaker": "Unknown",
+  "en": "There's way more design explorations to do.",
+  "zh": "设计探索的空间远远没到头。"
+ },
+ {
+  "seg": 18,
+  "start": 121.991,
+  "end": 128.777,
+  "speaker": "Unknown",
+  "en": "So whenever our main focus is on one thing, why not kick a bunch of agents off in parallel and just try to maximize your time?",
+  "zh": "所以每当我们的主要精力集中在某件事上时，为什么不并行启动一堆智能体，尽量把时间最大化呢？"
+ },
+ {
+  "seg": 19,
+  "start": 129.478,
+  "end": 132.44,
+  "speaker": "Unknown",
+  "en": "And it's a lot of fun, of course, until you get the bill.",
+  "zh": "当然这很有趣，直到你收到账单。"
+ },
+ {
+  "seg": 20,
+  "start": 133.421,
+  "end": 136.944,
+  "speaker": "Unknown",
+  "en": "And then you start to wonder, was it all worth it, right?",
+  "zh": "然后你开始怀疑，这一切到底值不值，对吧？"
+ },
+ {
+  "seg": 21,
+  "start": 137.724,
+  "end": 139.566,
+  "speaker": "Unknown",
+  "en": "Did you vibe code too hard?",
+  "zh": "你是不是 vibe coding 玩过头了？"
+ },
+ {
+  "seg": 22,
+  "start": 140.546,
+  "end": 141.987,
+  "speaker": "Unknown",
+  "en": "Were you token maxing too much?",
+  "zh": "你是不是 token 烧太多了？"
+ },
+ {
+  "seg": 23,
+  "start": 142.287,
+  "end": 147.771,
+  "speaker": "Unknown",
+  "en": "Like, could you have been more efficient in how you approached sequencing your agents?",
+  "zh": "比如，在安排智能体的先后顺序上，你本可以更高效一些吗？"
+ },
+ {
+  "seg": 24,
+  "start": 148.752,
+  "end": 150.193,
+  "speaker": "Unknown",
+  "en": "And so this is what I'm going to get into today.",
+  "zh": "所以这就是我今天要讲的内容。"
+ },
+ {
+  "seg": 25,
+  "start": 150.233,
+  "end": 155.277,
+  "speaker": "Unknown",
+  "en": "It's how do we value the token cost, and specifically, how do we help our customers value it?",
+  "zh": "就是我们如何评估 token 成本，具体来说，我们如何帮助客户评估它？"
+ },
+ {
+  "seg": 26,
+  "start": 156.295,
+  "end": 163.537,
+  "speaker": "Unknown",
+  "en": "So for the past year and a half, I've had the pleasure of working as the founding designer at a company called Utori, and we focus on computer use models.",
+  "zh": "过去一年半，我有幸在一家叫 Utori 的公司担任创始设计师，我们专注于计算机使用模型。"
+ },
+ {
+  "seg": 27,
+  "start": 164.057,
+  "end": 179.082,
+  "speaker": "Unknown",
+  "en": "These are models that learn to use a computer like a human would, and the use case for them is when you can't get information from an API or an MCP, why not just send an agent out to use a computer like a human would, and then we can extract all types of data and manipulate it.",
+  "zh": "这些是学习像人类一样使用计算机的模型，它们的用例是：当你无法从 API 或 MCP 获取信息时，为什么不直接派一个智能体像人类一样去使用计算机，然后我们就可以提取各种类型的数据并进行操作。"
+ },
+ {
+  "seg": 28,
+  "start": 179.675,
+  "end": 183.879,
+  "speaker": "Unknown",
+  "en": "in ways that let us access all the stuff that wasn't accessible previously.",
+  "zh": "用那些能让我们访问以前无法访问的东西的方式。"
+ },
+ {
+  "seg": 29,
+  "start": 183.939,
+  "end": 191.865,
+  "speaker": "Unknown",
+  "en": "So obviously less efficient than APIs and MCPs, but as a last resort, just have an agent go use the computer and try to get the information.",
+  "zh": "所以这显然比 API 和 MCP 效率低，但作为最后手段，就让一个智能体去用计算机并尝试获取信息。"
+ },
+ {
+  "seg": 30,
+  "start": 192.746,
+  "end": 195.568,
+  "speaker": "Unknown",
+  "en": "Here's the utori agent using the utori website.",
+  "zh": "这是 Utori 智能体在使用 Utori 网站。"
+ },
+ {
+  "seg": 31,
+  "start": 196.029,
+  "end": 198.751,
+  "speaker": "Unknown",
+  "en": "It's checking out its own benchmarks, so kinda.",
+  "zh": "它在查看自己的基准测试，算是吧。"
+ },
+ {
+  "seg": 32,
+  "start": 199.308,
+  "end": 200.529,
+  "speaker": "Unknown",
+  "en": "It's admiring itself in a way.",
+  "zh": "某种程度上它在自我欣赏。"
+ },
+ {
+  "seg": 33,
+  "start": 200.649,
+  "end": 203.371,
+  "speaker": "Unknown",
+  "en": "So, yeah, it gets a bit weird.",
+  "zh": "是的，这有点奇怪。"
+ },
+ {
+  "seg": 34,
+  "start": 203.851,
+  "end": 210.496,
+  "speaker": "Unknown",
+  "en": "And a lot of what I do as a founding designer there is talk to customers, try to understand how can we make agents as intuitive as possible?",
+  "zh": "我作为创始设计师，很多工作是和客户交流，试图理解我们如何能让智能体尽可能直观？"
+ },
+ {
+  "seg": 35,
+  "start": 210.756,
+  "end": 215.899,
+  "speaker": "Unknown",
+  "en": "How do we figure out the mental models they're using to value the use cases they want to send out agents for?",
+  "zh": "我们如何弄清楚他们用来评估想派智能体去做的用例的心智模型？"
+ },
+ {
+  "seg": 36,
+  "start": 217,
+  "end": 219.862,
+  "speaker": "Unknown",
+  "en": "And a lot of them do seem pretty confused so far.",
+  "zh": "到目前为止，很多客户似乎相当困惑。"
+ },
+ {
+  "seg": 37,
+  "start": 220.242,
+  "end": 226.607,
+  "speaker": "Unknown",
+  "en": "A lot of people are excited about agents, but a phrase that comes up quite often is that they feel like they're just scratching the surface.",
+  "zh": "很多人对智能体感到兴奋，但经常出现的一句话是，他们感觉自己只是浅尝辄止。"
+ },
+ {
+  "seg": 38,
+  "start": 227.648,
+  "end": 230.169,
+  "speaker": "Unknown",
+  "en": "It seems like it's not quite intuitive how we can best use them yet.",
+  "zh": "我们如何才能最好地使用它们，似乎还不太直观。"
+ },
+ {
+  "seg": 39,
+  "start": 230.85,
+  "end": 237.194,
+  "speaker": "Unknown",
+  "en": "And so in a lot of my customer discussions, it always comes down to a question of, like, what is the best way to use agents?",
+  "zh": "在我的很多客户讨论中，问题总是归结为：使用智能体的最佳方式是什么？"
+ },
+ {
+  "seg": 40,
+  "start": 238.255,
+  "end": 243.719,
+  "speaker": "Unknown",
+  "en": "What are the best use cases for them, and how do I think about the trade-offs with regards to token costs relative to value?",
+  "zh": "它们的最佳用例是什么，以及我该如何权衡 token 成本与价值之间的关系？"
+ },
+ {
+  "seg": 41,
+  "start": 244.3,
+  "end": 252.286,
+  "speaker": "Unknown",
+  "en": "So I think we're still kind of building this muscle today, and this leads me to the thesis of the talk, which is that I think agents have a measurement problem.",
+  "zh": "所以我认为我们今天仍在这块肌肉的锻炼中，这就引出了本次演讲的论点，那就是我认为智能体存在一个衡量问题。"
+ },
+ {
+  "seg": 42,
+  "start": 253.347,
+  "end": 260.032,
+  "speaker": "Unknown",
+  "en": "And as an example, here's me at work trying to measure some agents, and one of my coworkers took this photo and told me it looked like",
+  "zh": "举个例子，这是我工作时试图衡量一些智能体的照片，我的一位同事拍了这张照片，并说这看起来像"
+ },
+ {
+  "seg": 43,
+  "start": 260.742,
+  "end": 263.304,
+  "speaker": "Unknown",
+  "en": "I was trying to solve the mystery of Pepe Silva.",
+  "zh": "我在试图解开 Pepe Silva 之谜。"
+ },
+ {
+  "seg": 44,
+  "start": 264.164,
+  "end": 273.91,
+  "speaker": "Unknown",
+  "en": "As you can see, it's not an easy task to measure agents, but I'm sure some of you are saying, hold on a sec, what is this guy talking about?",
+  "zh": "大家可以看到，衡量智能体不是件容易的事，但我相信你们有些人在想：等等，这家伙在说什么？"
+ },
+ {
+  "seg": 45,
+  "start": 274.39,
+  "end": 276.211,
+  "speaker": "Unknown",
+  "en": "I've got a fleet of agents working for me right now.",
+  "zh": "我现在就有一队智能体在为我工作。"
+ },
+ {
+  "seg": 46,
+  "start": 276.391,
+  "end": 286.317,
+  "speaker": "Unknown",
+  "en": "We're building our next million-dollar app as we speak, and I'm having a totally fine time measuring my agents, to which I will agree with you, but then I will point you to",
+  "zh": "我们正在构建下一个价值百万美元的应用，而且我衡量自己的智能体完全没问题，对此我会同意你的看法，但接着我会让你们看"
+ },
+ {
+  "seg": 47,
+  "start": 286.837,
+  "end": 302.105,
+  "speaker": "Unknown",
+  "en": "the mandatory Upton Sinclair quote to remind us all that everybody in this room is very biased and we're early adopters and we're very excited to explore this new technology but it doesn't mean that we represent the people that ultimately we're going to be trying to help adopt this technology.",
+  "zh": "那句必引的 Upton Sinclair 名言，提醒我们所有人：这个房间里的每个人都非常有偏见，我们都是早期采用者，我们对探索这项新技术非常兴奋，但这并不意味着我们能代表那些我们最终要帮助采用这项技术的人。"
+ },
+ {
+  "seg": 48,
+  "start": 302.905,
+  "end": 310.453,
+  "speaker": "Unknown",
+  "en": "And so, you know, I think it's important to remind ourselves that in some way or another, we probably are selling tokens, whether it's indirectly or directly.",
+  "zh": "所以，大家知道，我认为提醒自己这一点很重要：不管间接还是直接，我们很可能都在售卖 token。"
+ },
+ {
+  "seg": 49,
+  "start": 310.993,
+  "end": 316.799,
+  "speaker": "Unknown",
+  "en": "And so when we think about our own token usage, is it really representative of all the people out there who have never touched an agent yet?",
+  "zh": "所以当我们审视自己的 token 用量时，它真的能代表那些从未接触过智能体的人吗？"
+ },
+ {
+  "seg": 50,
+  "start": 317.62,
+  "end": 319.842,
+  "speaker": "Unknown",
+  "en": "Some people are still copy and pasting into ChatGPT.",
+  "zh": "有些人还在复制粘贴到 ChatGPT 里。"
+ },
+ {
+  "seg": 51,
+  "start": 321.043,
+  "end": 327.508,
+  "speaker": "Unknown",
+  "en": "I may be married to one of these people, and despite how much I tried to get her to try out agents, she has not let me set her up with it yet.",
+  "zh": "我可能就和其中一个人结了婚，尽管我费了多大劲想让她试试智能体，她还是没让我给她装上。"
+ },
+ {
+  "seg": 52,
+  "start": 328.208,
+  "end": 340.016,
+  "speaker": "Unknown",
+  "en": "And so, as a reminder, when we think about helping people adopt agents, you know, all the people across the world that we think could get as much excitement and value as we do when we run off parallel agents, let's just remember this quote.",
+  "zh": "所以，提醒一下，当我们思考如何帮助人们采用智能体时——你知道，全世界所有那些我们认为能像我们一样，在并行运行多个智能体时获得同样的兴奋感和价值的人——让我们记住这句话。"
+ },
+ {
+  "seg": 53,
+  "start": 341.297,
+  "end": 346.541,
+  "speaker": "Unknown",
+  "en": "And so it really boils down to the age-old problem of a new technology.",
+  "zh": "所以这实际上归结为一个新技术由来已久的问题。"
+ },
+ {
+  "seg": 54,
+  "start": 347.343,
+  "end": 357.046,
+  "speaker": "Unknown",
+  "en": "And of course there's tons of history we can go to to study how if people saw this in the past we have this really exciting new thing but we haven't quite figured out the right ways to communicate it.",
+  "zh": "当然，有大量的历史可以供我们研究过去人们如何看待这种情况：我们有了非常令人兴奋的新东西，但还没有完全找到正确的沟通方式。"
+ },
+ {
+  "seg": 55,
+  "start": 357.967,
+  "end": 365.189,
+  "speaker": "Unknown",
+  "en": "And so for this talk I'll go back to the 1700s and we can take some notes from when James Watt was trying to sell steam engines.",
+  "zh": "所以在这次演讲中，我会回到18世纪，我们可以从 James Watt 试图销售蒸汽机时学到一些东西。"
+ },
+ {
+  "seg": 56,
+  "start": 366.189,
+  "end": 372.212,
+  "speaker": "Unknown",
+  "en": "And at the time he decided that a great use case for his steam engines was trying to replace a horse gin.",
+  "zh": "当时他决定，他的蒸汽机的一个绝佳用例就是尝试取代马拉磨。"
+ },
+ {
+  "seg": 57,
+  "start": 372.912,
+  "end": 376.353,
+  "speaker": "Unknown",
+  "en": "And these are the, was the power source of a mill at the time so when you're",
+  "zh": "这些是——是当时磨坊的动力来源，所以当你——"
+ },
+ {
+  "seg": 58,
+  "start": 377.042,
+  "end": 393.814,
+  "speaker": "Unknown",
+  "en": "For let's say a brewery and you need some power source to grind your barley or whatever, I don't know, I'm not like a big brewery guy, so I don't know exactly how it's made, but you need a power source and the power source at the time that was common was you hooked a horse up to a rotary arm and the horse walked in a circle and that's how you generated your power.",
+  "zh": "比如说一个啤酒厂，你需要某种动力源来研磨大麦或别的什么，我不知道，我不是什么啤酒厂行家，所以我不清楚它具体是怎么做的，但你需要一个动力源，而当时常见的动力源是你把一匹马套在一根旋转臂上，马绕着圈走，这就是你产生动力的方式。"
+ },
+ {
+  "seg": 59,
+  "start": 394.854,
+  "end": 402.54,
+  "speaker": "Unknown",
+  "en": "And seems crazy today maybe, but at the time it was commonplace and Watt thought you know it would be much better than a horse is like a very efficient machine.",
+  "zh": "今天看来也许很疯狂，但在当时这是司空见惯的，而 Watt 觉得你知道，马是一种非常高效的机器，所以要比马好得多会很难。"
+ },
+ {
+  "seg": 60,
+  "start": 403.35,
+  "end": 427.543,
+  "speaker": "Unknown",
+  "en": "Although he rightfully acknowledged that one of the big barriers to adopting it would be this cognitive dissonance of trying to tell people who kind of think in horses how do you adapt to this cold machine that's kind of intimidating and scary and perhaps somebody's gonna say it's gonna solve all your problems but you can't quite see the vision yet so perhaps that sounds familiar to any of us working in agents today.",
+  "zh": "不过他也有理由地承认，采用它的一个大障碍会是这种认知失调：要向那些习惯用马来思考的人解释，你该如何适应这台冷冰冰的、有点令人生畏和吓人的机器，也许有人会说它会解决你所有的问题，但你还没能完全看到那个愿景——所以对我们今天从事智能体工作的任何人来说，这也许听起来很熟悉。"
+ },
+ {
+  "seg": 61,
+  "start": 428.435,
+  "end": 438.868,
+  "speaker": "Unknown",
+  "en": "And what solution was that he needed to understand the mental model of these people and specifically to create a metric that would help him give some baseline of the relative improvement in efficiency.",
+  "zh": "那他需要什么解决方案呢？他需要理解这些人的心智模型，特别是要创造一个指标，帮助他给出一个相对效率提升的基准。"
+ },
+ {
+  "seg": 62,
+  "start": 439.833,
+  "end": 456.456,
+  "speaker": "Unknown",
+  "en": "And so he literally studied horse gins and tried to get some kind of armchair measurements of how is, like, what are the mechanics and the average performance of it, and eventually came to a metric called horsepower, which may sound familiar.",
+  "zh": "于是他真的研究了马拉磨，并试图获得一些大致的测量数据——它的机制是什么、平均性能如何——最终得出了一个叫做马力的指标，这个名词你可能听着耳熟。"
+ },
+ {
+  "seg": 63,
+  "start": 457.336,
+  "end": 468.858,
+  "speaker": "Unknown",
+  "en": "And he used this measure to, you know, this was to quantify the general power that the horses were creating at the time, and then he could use it as a basis to show the multiplier of efficiency that a steam engine could provide.",
+  "zh": "他用这个度量——你知道，这是为了量化当时马产生的总体动力——然后他可以以此为基准来展示蒸汽机能提供的效率倍数。"
+ },
+ {
+  "seg": 64,
+  "start": 469.738,
+  "end": 472.859,
+  "speaker": "Unknown",
+  "en": "And this metric was not very scientific at the time.",
+  "zh": "而这个指标在当时并不十分科学。"
+ },
+ {
+  "seg": 65,
+  "start": 472.959,
+  "end": 492.323,
+  "speaker": "Unknown",
+  "en": "It was not necessarily even accurate, you could say, but the main thing it did was it communicated an increase in value, and so this let people who love horses, let them kind of calibrate the efficiency gains that they could get by attempting to adopt a steam engine.",
+  "zh": "你甚至可以说它不一定准确，但它做的主要事情是传达了一种价值的提升，这让热爱马的人们能够大致校准他们通过尝试采用蒸汽机所能获得的效率收益。"
+ },
+ {
+  "seg": 66,
+  "start": 492.343,
+  "end": 498.805,
+  "speaker": "Unknown",
+  "en": "So not even necessarily what you would get when you use it, but what would get you over the limit of trying it out in the first place.",
+  "zh": "所以这不一定是说你实际使用时会得到什么，而是什么能让你跨过最初尝试一下的那道门槛。"
+ },
+ {
+  "seg": 67,
+  "start": 500.576,
+  "end": 514.306,
+  "speaker": "Unknown",
+  "en": "And, you know, it's a pretty big feat because, like, although he had efficiency on his side with regards to this metric, you know, let's be honest, regardless of how efficient this was, horses just have great vibes.",
+  "zh": "而且，你知道，这是一个相当了不起的成就，因为，虽然在这个指标上效率站在他这一边，你知道，说实话，无论它有多高效，马就是有超棒的氛围感。"
+ },
+ {
+  "seg": 68,
+  "start": 514.626,
+  "end": 525.074,
+  "speaker": "Unknown",
+  "en": "So, like, it's kind of hard to beat the vibes of horses and so he knew he had to kind of overcome the emotion and actually speak to something that gave him an ability to calculate the ROI.",
+  "zh": "所以，你知道，很难打败马的氛围感，因此他知道他必须克服情绪因素，真正去谈论某种能让他有能力计算投资回报率(ROI)的东西。"
+ },
+ {
+  "seg": 69,
+  "start": 526.415,
+  "end": 527.876,
+  "speaker": "Unknown",
+  "en": "And, oh, sorry, skipped something.",
+  "zh": "然后，哦，抱歉，跳过了一点内容。"
+ },
+ {
+  "seg": 70,
+  "start": 529.044,
+  "end": 537.633,
+  "speaker": "Unknown",
+  "en": "And so, yeah, the lesson being if we're not able to give something that is a tangible ROI for our customers, then it's very hard for us to communicate value.",
+  "zh": "所以，是的，教训是：如果我们无法给客户提供某种有形的投资回报率(ROI),那我们就很难传达价值。"
+ },
+ {
+  "seg": 71,
+  "start": 538.818,
+  "end": 547.507,
+  "speaker": "Unknown",
+  "en": "And I think we only need to look to our own industry to see all the examples where other people in the technology sector are failing to calculate good ROIs as well.",
+  "zh": "而且我认为我们只需要看看我们自己的行业，就能看到技术领域的其他人在计算良好的投资回报率(ROI)方面同样失败的所有例子。"
+ },
+ {
+  "seg": 72,
+  "start": 548.107,
+  "end": 562.722,
+  "speaker": "Unknown",
+  "en": "And so we might in this room think this is somewhat of a solved problem, but if you look to the other engineers in the world who are perhaps not as AI-pilled, they're theoretically very smart and should be able to figure out how to calculate this quite well, but then you get these scenarios where",
+  "zh": "所以在这个房间里，我们可能认为这算是一个已经解决了的问题，但如果你看看世界上其他工程师——他们也许没有那么被 AI 洗脑——他们理论上非常聪明，应该能很好地弄清楚如何计算这个，但然后你就会遇到这样的情形："
+ },
+ {
+  "seg": 73,
+  "start": 563.308,
+  "end": 571.955,
+  "speaker": "Unknown",
+  "en": "People are blowing through their entire token budget for a year and they're blowing through it in a quarter or they're dealing with token leaderboards and such.",
+  "zh": "人们把一整年的 token 预算挥霍一空，而且是在一个季度里就挥霍完了，或者他们在应付 token 排行榜之类的东西。"
+ },
+ {
+  "seg": 74,
+  "start": 572.135,
+  "end": 578.921,
+  "speaker": "Unknown",
+  "en": "And so obviously the incentives haven't quite aligned and we haven't perhaps got the right measure of value in terms of the technology sector itself.",
+  "zh": "所以很明显，激励机制还没有完全对齐，我们也许还没有找到对技术行业本身而言正确的价值度量。"
+ },
+ {
+  "seg": 75,
+  "start": 579.481,
+  "end": 590.31,
+  "speaker": "Unknown",
+  "en": "And so how then do we end up scaling past that and talk to people who have no idea what we're talking about but still try to provide them a measure of increased efficiency with agents.",
+  "zh": "那么，我们要如何超越这一点，与那些完全不知道我们在说什么的人对话，同时仍然尝试向他们提供一种衡量智能体效率提升的度量。"
+ },
+ {
+  "seg": 76,
+  "start": 591.601,
+  "end": 596.543,
+  "speaker": "Unknown",
+  "en": "And so right now I think we're kind of in this doom loop where we're overspending and we're underusing.",
+  "zh": "所以现在，我认为我们有点处于这种厄运循环中：我们超支，同时我们使用不足。"
+ },
+ {
+  "seg": 77,
+  "start": 597.163,
+  "end": 599.964,
+  "speaker": "Unknown",
+  "en": "This is a term I borrowed from RAMP and they have a great blog post on this.",
+  "zh": "这是我从 RAMP 那里借来的一个术语，他们有一篇关于这个的很棒的博客文章。"
+ },
+ {
+  "seg": 78,
+  "start": 600.485,
+  "end": 611.229,
+  "speaker": "Unknown",
+  "en": "And so it's kind of this vicious cycle where we're just token maxing and ourselves into austerity and then kind of dropping out of the loop until we get more FOMO to get activated enough to try it again.",
+  "zh": "所以有点像这种恶性循环：我们只是不停地 token 拉满，把自己逼进紧缩状态，然后退出这个循环，直到我们获得更多 FOMO(错失恐惧)，被激发到足以再次尝试。"
+ },
+ {
+  "seg": 79,
+  "start": 612.31,
+  "end": 617.632,
+  "speaker": "Unknown",
+  "en": "And so I think we have to break this loop and I think the way we do that is by getting better measures that will communicate value.",
+  "zh": "所以我认为我们必须打破这个循环，我认为我们做到这一点的方式是获得能传达价值的更好度量。"
+ },
+ {
+  "seg": 80,
+  "start": 619.198,
+  "end": 621.239,
+  "speaker": "Unknown",
+  "en": "Some people are obviously on the right track.",
+  "zh": "有些人显然走在正确的轨道上。"
+ },
+ {
+  "seg": 81,
+  "start": 621.259,
+  "end": 634.004,
+  "speaker": "Unknown",
+  "en": "There was this chart floating around on X recently that the Coinbase CEO posted where they had internally started changing the defaults of what models they will start with and trying to only save the frontier models for the hardest tasks.",
+  "zh": "最近 X 上流传着这样一张图表，是 Coinbase 的 CEO 发的，他们内部开始改变他们起步时使用的默认模型，并尝试只把前沿模型留给最难的任务。"
+ },
+ {
+  "seg": 82,
+  "start": 634.224,
+  "end": 639.586,
+  "speaker": "Unknown",
+  "en": "And as a result, saw AI spend start to diverge from token usage.",
+  "zh": "结果，他们看到 AI 支出开始与 token 使用量出现分化。"
+ },
+ {
+  "seg": 83,
+  "start": 640.366,
+  "end": 641.826,
+  "speaker": "Unknown",
+  "en": "And this is a good start.",
+  "zh": "这是一个好的开始。"
+ },
+ {
+  "seg": 84,
+  "start": 641.906,
+  "end": 644.187,
+  "speaker": "Unknown",
+  "en": "RAMP also, as I mentioned, has a great blog post about this.",
+  "zh": "RAMP 同样，正如我提到的，有一篇关于这个的很棒的博客文章。"
+ },
+ {
+  "seg": 85,
+  "start": 644.547,
+  "end": 647.969,
+  "speaker": "Unknown",
+  "en": "But I think the problem is still that it's too focused on tokens.",
+  "zh": "但我认为问题仍然是它太聚焦于 token 了。"
+ },
+ {
+  "seg": 86,
+  "start": 648.949,
+  "end": 656.751,
+  "speaker": "Unknown",
+  "en": "And tokens are, of course, useful as a measurement of an internal system, but at the end of the day, they're just an output.",
+  "zh": "当然，token 作为内部系统的度量是有用的，但归根结底，它们只是一种输出。"
+ },
+ {
+  "seg": 87,
+  "start": 656.931,
+  "end": 660.812,
+  "speaker": "Unknown",
+  "en": "And so the tokens need to then be traced very cleanly to an outcome.",
+  "zh": "所以 token 需要随后被非常清晰地追溯到某个成果。"
+ },
+ {
+  "seg": 88,
+  "start": 661.432,
+  "end": 666.774,
+  "speaker": "Unknown",
+  "en": "So how many bugs did the tokens, sorry, how many...",
+  "zh": "那么 token 带来了多少个 bug——抱歉，多少个……"
+ },
+ {
+  "seg": 89,
+  "start": 667.574,
+  "end": 669.435,
+  "speaker": "Unknown",
+  "en": "Bugs squashed at the tokens that we bought.",
+  "zh": "在我们购买的 token 中被消灭的 bug。"
+ },
+ {
+  "seg": 90,
+  "start": 670.235,
+  "end": 672.256,
+  "speaker": "Unknown",
+  "en": "Sorry, totally butchered that.",
+  "zh": "抱歉，我完全说砸了。"
+ },
+ {
+  "seg": 91,
+  "start": 672.536,
+  "end": 675.317,
+  "speaker": "Unknown",
+  "en": "How many bugs got squashed with our token spend?",
+  "zh": "我们的 token 花费消灭了多少个 bug?"
+ },
+ {
+  "seg": 92,
+  "start": 675.897,
+  "end": 678.238,
+  "speaker": "Unknown",
+  "en": "How many support requests got closed, et cetera?",
+  "zh": "关闭了多少个支持请求，等等？"
+ },
+ {
+  "seg": 93,
+  "start": 678.298,
+  "end": 683.58,
+  "speaker": "Unknown",
+  "en": "So clean outcomes and then cleanly tying those to progress on our objectives.",
+  "zh": "所以要干净的成果，然后把这些干净地与我们在目标上的进展挂钩。"
+ },
+ {
+  "seg": 94,
+  "start": 684.08,
+  "end": 687.662,
+  "speaker": "Unknown",
+  "en": "And so without a very tight measure of ROI, this becomes very hard to do.",
+  "zh": "而没有一个非常严格的 ROI 度量，这就变得非常难做到。"
+ },
+ {
+  "seg": 95,
+  "start": 689.422,
+  "end": 696.885,
+  "speaker": "Unknown",
+  "en": "And I think I'll take this further and say that it did not even be the broader technology industry that's encountering this problem.",
+  "zh": "而且我想更进一步说，遇到这个问题的甚至不只是更广泛的技术行业。"
+ },
+ {
+  "seg": 96,
+  "start": 697.495,
+  "end": 699.776,
+  "speaker": "Unknown",
+  "en": "But also many of us in this room perhaps are.",
+  "zh": "这个房间里的我们许多人也许也是。"
+ },
+ {
+  "seg": 97,
+  "start": 700.596,
+  "end": 714.522,
+  "speaker": "Unknown",
+  "en": "And although we're all probably enjoying coding with various agents and feeling like it does feel like there's something there in terms of the increase in ability and efficiency, the problem of course is that we're all kind of dying by a thousand pull requests.",
+  "zh": "虽然我们可能都在享受用各种智能体编程，并感觉它在能力和效率的提升方面确实有些名堂，但问题当然是我们都在被一千个 pull request 折磨至死。"
+ },
+ {
+  "seg": 98,
+  "start": 716.043,
+  "end": 723.989,
+  "speaker": "Unknown",
+  "en": "Even Anthropic, who has some people on the team have claimed to have solved coding, they have also admitted that they've not solved code review.",
+  "zh": "就连 Anthropic——他们团队里有些人曾声称已经解决了编程问题——他们也承认他们还没有解决代码审查。"
+ },
+ {
+  "seg": 99,
+  "start": 724.609,
+  "end": 739.56,
+  "speaker": "Unknown",
+  "en": "And so as a result, the bottleneck is now shifted to human review where the efficiency gains from coding agents aren't quite, aren't seen yet because we spend most of the time reviewing the code and we've not figured out how to scale that in tandem with the generation of the code itself.",
+  "zh": "因此，瓶颈现在转移到了人工审查上，来自编程智能体的效率提升还没有真正显现出来，因为我们把大部分时间花在审查代码上，而我们还没有弄清楚如何让这一环节与代码生成本身同步扩展。"
+ },
+ {
+  "seg": 100,
+  "start": 740.321,
+  "end": 741.982,
+  "speaker": "Unknown",
+  "en": "And so the bottleneck ends up",
+  "zh": "所以瓶颈最终"
+ },
+ {
+  "seg": 101,
+  "start": 742.493,
+  "end": 750.598,
+  "speaker": "Unknown",
+  "en": "Shifting to the verification side, and thus, we don't have a way to measure value at scale and to judge quality at the same speed.",
+  "zh": "转移到了验证这一侧，因此，我们没有办法大规模地衡量价值，并以同样的速度判断质量。"
+ },
+ {
+  "seg": 102,
+  "start": 750.918,
+  "end": 755.421,
+  "speaker": "Unknown",
+  "en": "And so, again, going back to the ROI calculations, we generate all this code, but how do we know?",
+  "zh": "所以，再回到 ROI 计算这个问题，我们生成了这么多代码，但我们怎么知道？"
+ },
+ {
+  "seg": 103,
+  "start": 756.102,
+  "end": 758.663,
+  "speaker": "Unknown",
+  "en": "We don't know that enough of it is good to justify the spend.",
+  "zh": "我们并不知道其中足够多的部分是好的，足以证明这笔花费是值得的。"
+ },
+ {
+  "seg": 104,
+  "start": 760.425,
+  "end": 768.23,
+  "speaker": "Unknown",
+  "en": "And of course, maybe code review was always flawed, but it's just that agents are now exposing it for the, or exposing the actual problem.",
+  "zh": "当然，也许代码评审一直以来就是有缺陷的，只是智能体现在把它暴露出来了，或者说暴露了真正的问题。"
+ },
+ {
+  "seg": 105,
+  "start": 769.438,
+  "end": 779.552,
+  "speaker": "Unknown",
+  "en": "And I like this quote by Noah Hine from a post about how to solve code review where he's mentioning specifically that the assumptions underneath code review are what needs to be revisited.",
+  "zh": "我喜欢 Noah Hine 在一篇关于如何解决代码评审的文章里的这句话，他特别提到，代码评审底层的假设才是需要重新审视的东西。"
+ },
+ {
+  "seg": 106,
+  "start": 779.912,
+  "end": 786.561,
+  "speaker": "Unknown",
+  "en": "So we have to check our priors to try to figure out a new basis for how we can code review in the age of agents.",
+  "zh": "所以我们必须检查我们的先验认知，试着为智能体时代的代码评审找出一个新的基础。"
+ },
+ {
+  "seg": 107,
+  "start": 787.282,
+  "end": 789.743,
+  "speaker": "Unknown",
+  "en": "And I'm not going to go into how to solve code review.",
+  "zh": "我不打算讲如何解决代码评审。"
+ },
+ {
+  "seg": 108,
+  "start": 789.763,
+  "end": 795.365,
+  "speaker": "Unknown",
+  "en": "I think that's definitely a talk that's better given by somebody else and is a totally different subject.",
+  "zh": "我觉得那绝对是更适合由别人来讲的主题，而且是一个完全不同的主题。"
+ },
+ {
+  "seg": 109,
+  "start": 795.405,
+  "end": 799.787,
+  "speaker": "Unknown",
+  "en": "But what I think is important for this talk is why does code review feel like it is solvable?",
+  "zh": "但我认为对这次演讲来说重要的是，为什么代码评审让人感觉是可以解决的？"
+ },
+ {
+  "seg": 110,
+  "start": 800.247,
+  "end": 808.631,
+  "speaker": "Unknown",
+  "en": "And I think that Noah's hitting on something important here, which is that as a culture, code review has a very good convergence on shared assumptions.",
+  "zh": "我认为 Noah 在这里触及了某个重要的东西，那就是作为一种文化，代码评审在共同假设上有非常好的收敛。"
+ },
+ {
+  "seg": 111,
+  "start": 808.791,
+  "end": 809.431,
+  "speaker": "Unknown",
+  "en": "And that lets you",
+  "zh": "这让你能够"
+ },
+ {
+  "seg": 112,
+  "start": 811.532,
+  "end": 819.117,
+  "speaker": "Unknown",
+  "en": "That lets you measure things at scale when we can all kind of converge on the measurement and it becomes somewhat of a clear rubric.",
+  "zh": "这让你能够大规模地衡量事物，当我们都能在衡量标准上达成大致的收敛时，它就变成了某种清晰的评分标准。"
+ },
+ {
+  "seg": 113,
+  "start": 819.377,
+  "end": 826.361,
+  "speaker": "Unknown",
+  "en": "And so the task at hand now is we have to adapt those assumptions for the agentic age.",
+  "zh": "所以现在手头的任务是，我们必须为智能体时代调整那些假设。"
+ },
+ {
+  "seg": 114,
+  "start": 829.393,
+  "end": 841.168,
+  "speaker": "Unknown",
+  "en": "And so, we need to go, if we're able to do that, then we can go from execution at the speed of compute to measurement at the speed of compute, and of course, the measurements need to fit the mental models of the customers using it.",
+  "zh": "这样，如果我们能够做到这一点，我们就能从以计算速度执行，进到以计算速度衡量，当然，这些衡量方式需要契合使用它的客户的心智模型。"
+ },
+ {
+  "seg": 115,
+  "start": 842.089,
+  "end": 856.377,
+  "speaker": "Unknown",
+  "en": "And I think the lesson here being that if you're going to think of how to build an agent for something, you also have to think about how do you help the customers build or at least create a method for verifying that the output is good.",
+  "zh": "我认为这里的教训是，如果你要考虑如何为某件事构建一个智能体，你也必须考虑如何帮助客户构建，或者至少创建一种方法，来验证输出是好的。"
+ },
+ {
+  "seg": 116,
+  "start": 856.777,
+  "end": 861.82,
+  "speaker": "Unknown",
+  "en": "And so it's not enough to build it, we also have to help them get to clear ROI calculations to justify their spend.",
+  "zh": "所以光把它构建出来还不够，我们还必须帮助他们得到清晰的 ROI 计算，以证明他们的花费是值得的。"
+ },
+ {
+  "seg": 117,
+  "start": 866.139,
+  "end": 873.481,
+  "speaker": "Unknown",
+  "en": "And so this brings me to the idea of mouse power, which could be the equivalent of horsepower for the agentic age.",
+  "zh": "这就引出了我所说的“鼠标力(mouse power)”的概念，它可能是智能体时代相当于“马力(horsepower)”的东西。"
+ },
+ {
+  "seg": 118,
+  "start": 874.021,
+  "end": 894.905,
+  "speaker": "Unknown",
+  "en": "Just as James Watt was able to show a measure of efficiency relative to the horses in the gins, in the horse gins that were the source of power at the time, we perhaps can also figure out how do we create a baseline of efficiency for the way we use computers today and can then demonstrate how much better or perhaps more performant on certain vectors an agent could be at that task.",
+  "zh": "就像 James Watt 当年能够展示一种相对于马的效率度量——以当时作为动力来源的马拉碾(horse gins)为参照——我们或许也能想出，如何为我们今天使用计算机的方式建立一个效率基线，然后展示一个智能体在那项任务上能好多少，或者说在某些维度上性能强多少。"
+ },
+ {
+  "seg": 119,
+  "start": 896.69,
+  "end": 910.999,
+  "speaker": "Unknown",
+  "en": "And of course it's not as easy, perhaps as easy a task as he had back then where he could just study the horse gen, because it's not as if we can create some method to measure our cursor movements and like figure out the delta of how much more efficient an agent could move them.",
+  "zh": "当然，这件事不像他当年那么容易，他那时候只需要研究马拉碾就行了，因为我们没法创造某种方法来测量我们的光标移动，然后算出一个智能体能让它们高效多少的差值。"
+ },
+ {
+  "seg": 120,
+  "start": 911.519,
+  "end": 915.681,
+  "speaker": "Unknown",
+  "en": "And thus we can say, yeah, agents are this much more performant than humans at these tasks.",
+  "zh": "这样我们就能说，是的，智能体在这些任务上比人类强这么多。"
+ },
+ {
+  "seg": 121,
+  "start": 915.721,
+  "end": 917.022,
+  "speaker": "Unknown",
+  "en": "Trust me, I've tried.",
+  "zh": "相信我，我试过了。"
+ },
+ {
+  "seg": 122,
+  "start": 917.062,
+  "end": 929.109,
+  "speaker": "Unknown",
+  "en": "I had Claude Vibecode me, this measurement device, and I thought maybe if I can figure out the movement, like the potential movement across the screen and measure how fast it went, I could get some clean measure of mouse power.",
+  "zh": "我让 Claude 用 vibe coding 给我做了这个测量装置，我想也许如果我能弄清楚光标的移动，比如它在屏幕上可能的移动范围，并测量它移动得多快，我就能得到一个干净的鼠标力度量。"
+ },
+ {
+  "seg": 123,
+  "start": 929.889,
+  "end": 931.41,
+  "speaker": "Unknown",
+  "en": "But of course, it's only joking.",
+  "zh": "但当然，这只是开玩笑。"
+ },
+ {
+  "seg": 124,
+  "start": 931.77,
+  "end": 938.134,
+  "speaker": "Unknown",
+  "en": "This is, of course, like a fool's errand because information space is just way too high dimensional, and so",
+  "zh": "这当然是像一场徒劳之举，因为信息空间的维度实在太高了，所以"
+ },
+ {
+  "seg": 125,
+  "start": 938.694,
+  "end": 955.527,
+  "speaker": "Unknown",
+  "en": "I think mouse power is never going to be a metric, of course, but it's more so an idea, which the idea being, if you're going to sell somebody an agent, you also have to help them with the rubric of how do we actually verify that this agent is doing good work, and thus we can have a good measure of saying that these tokens are worth it.",
+  "zh": "我认为鼠标力永远不会成为一个指标，当然，它更多是一个理念，这个理念就是：如果你要把一个智能体卖给某个人，你也必须帮他们解决评分标准的问题，即我们究竟如何验证这个智能体在做好的工作，这样我们才能有一个好的度量来说这些 token 是值得的。"
+ },
+ {
+  "seg": 126,
+  "start": 957.089,
+  "end": 980.085,
+  "speaker": "Unknown",
+  "en": "So how to do that, of course, is really up to you, and I won't be able to tell you how do you, I don't have any good frameworks for how do you figure out the right measurements to help provide anybody you're building an agent for, but what I can do is give an idea that I've been kicking around, which is based in information theory, so going back to Claude Shannon's ideas about measuring entropy in information.",
+  "zh": "至于怎么做，当然完全取决于你们，我没法告诉你们怎么做，我没有任何好的框架来帮你弄清楚正确的衡量方式，去帮助任何你为之构建智能体的人，但我能做的是给出一个我一直在琢磨的想法，它基于信息论，也就是回到 Claude Shannon 关于度量信息中熵的思想。"
+ },
+ {
+  "seg": 127,
+  "start": 981.125,
+  "end": 987.992,
+  "speaker": "Unknown",
+  "en": "Entropy being the uncertainty of a probability distribution and of course very much the basis of how we train agents today.",
+  "zh": "熵是概率分布的不确定性，当然，它也是我们今天训练智能体的根本基础。"
+ },
+ {
+  "seg": 128,
+  "start": 988.693,
+  "end": 992.937,
+  "speaker": "Unknown",
+  "en": "Things like cross entropy and such being a big factor in determining how capable an agent is.",
+  "zh": "诸如交叉熵之类的东西，是决定一个智能体能力有多强的重要因素。"
+ },
+ {
+  "seg": 129,
+  "start": 993.858,
+  "end": 1002.367,
+  "speaker": "Unknown",
+  "en": "I think that entropy is an interesting idea to think through with regards to not just the performance of an agent but also the tasks that we're sending them out to perform on.",
+  "zh": "我认为熵是一个有意思的、值得深入思考的想法，不仅是关于智能体的性能，也是关于我们派它们去执行的任务。"
+ },
+ {
+  "seg": 130,
+  "start": 1003.087,
+  "end": 1011.81,
+  "speaker": "Unknown",
+  "en": "And so I put together this matrix, which it maps on the x-axis, the uncertainty in the steps it takes to perform a task.",
+  "zh": "所以我做了一个矩阵，它在 x 轴上映射的是执行一个任务所需的步骤中的不确定性。"
+ },
+ {
+  "seg": 131,
+  "start": 1012.29,
+  "end": 1019.433,
+  "speaker": "Unknown",
+  "en": "And so when we're thinking of building an agent, I think it's not enough to just think what would be a valuable task for the agent to do, but also thinking about how",
+  "zh": "所以当我们考虑构建一个智能体时，我认为仅仅考虑什么是对智能体有价值的任务是不够的，还要考虑"
+ },
+ {
+  "seg": 132,
+  "start": 1020.874,
+  "end": 1023.776,
+  "speaker": "Unknown",
+  "en": "How much uncertainty are in the steps to perform that task itself?",
+  "zh": "执行那个任务的步骤本身有多少不确定性？"
+ },
+ {
+  "seg": 133,
+  "start": 1024.197,
+  "end": 1030.582,
+  "speaker": "Unknown",
+  "en": "So, an example would be booking a flight has much less uncertainty than, let's say, painting a masterpiece, right?",
+  "zh": "举个例子，预订一趟航班的不确定性，比如说，要远小于画一幅杰作，对吧？"
+ },
+ {
+  "seg": 134,
+  "start": 1030.943,
+  "end": 1035.106,
+  "speaker": "Unknown",
+  "en": "Because you know there's certain information that has to happen in the flight purchase.",
+  "zh": "因为你知道，在购买航班的过程中有某些信息是必须发生的。"
+ },
+ {
+  "seg": 135,
+  "start": 1035.526,
+  "end": 1038.229,
+  "speaker": "Unknown",
+  "en": "There has to be a departing destination, arriving destination.",
+  "zh": "必须有一个出发地、一个目的地。"
+ },
+ {
+  "seg": 136,
+  "start": 1038.649,
+  "end": 1039.85,
+  "speaker": "Unknown",
+  "en": "There's going to be a seat chosen.",
+  "zh": "还要选一个座位。"
+ },
+ {
+  "seg": 137,
+  "start": 1039.89,
+  "end": 1041.051,
+  "speaker": "Unknown",
+  "en": "It might be by the person.",
+  "zh": "可能是由人来选。"
+ },
+ {
+  "seg": 138,
+  "start": 1041.071,
+  "end": 1041.872,
+  "speaker": "Unknown",
+  "en": "It might just be random.",
+  "zh": "也可能就是随机的。"
+ },
+ {
+  "seg": 139,
+  "start": 1042.612,
+  "end": 1045.095,
+  "speaker": "Unknown",
+  "en": "But these things have to happen for that task to be completed.",
+  "zh": "但要让那个任务完成，这些事情都必须发生。"
+ },
+ {
+  "seg": 140,
+  "start": 1045.535,
+  "end": 1049.679,
+  "speaker": "Unknown",
+  "en": "And on the other hand, there is the task of like painting a masterpiece, right?",
+  "zh": "而另一方面，还有像画一幅杰作这样的任务，对吧？"
+ },
+ {
+  "seg": 141,
+  "start": 1049.839,
+  "end": 1051.5,
+  "speaker": "Unknown",
+  "en": "And who knows what the steps are to that.",
+  "zh": "谁知道那需要哪些步骤。"
+ },
+ {
+  "seg": 142,
+  "start": 1052.181,
+  "end": 1059.967,
+  "speaker": "Unknown",
+  "en": "Maybe you can get an agent to do it, but it would be very hard to figure out how we can actually create a relatively predictable pathway to that.",
+  "zh": "也许你能让一个智能体去做，但要弄清楚我们如何真正为它创建一条相对可预测的路径，会非常困难。"
+ },
+ {
+  "seg": 143,
+  "start": 1060.848,
+  "end": 1065.631,
+  "speaker": "Unknown",
+  "en": "But then on the other axis is the uncertainty in the acceptance criteria itself.",
+  "zh": "然后在另一条轴上，是验收标准本身的不确定性。"
+ },
+ {
+  "seg": 144,
+  "start": 1066.131,
+  "end": 1074.015,
+  "speaker": "Unknown",
+  "en": "So not just can the agent perform the task, but can we help somebody actually, or is there actually a clean rubric for how it's graded?",
+  "zh": "所以不只是智能体能不能执行这个任务，而是我们能不能真正帮某个人，或者说究竟有没有一个干净的评分标准来说明它如何被评分？"
+ },
+ {
+  "seg": 145,
+  "start": 1074.655,
+  "end": 1083.119,
+  "speaker": "Unknown",
+  "en": "And so thinking about ideas on these two axes and where they intersect perhaps gives us a better guide for how to build agents, and we can run through a few examples.",
+  "zh": "所以思考这两条轴上的想法以及它们的交点，也许能给我们一个更好的构建智能体的指引，我们可以过几个例子。"
+ },
+ {
+  "seg": 146,
+  "start": 1084.7,
+  "end": 1087.862,
+  "speaker": "Unknown",
+  "en": "So if we look at the left side, your right side,",
+  "zh": "那么如果我们看左边，你们的那边，"
+ },
+ {
+  "seg": 147,
+  "start": 1089.268,
+  "end": 1091.749,
+  "speaker": "Unknown",
+  "en": "Yes, nope, you're left as well.",
+  "zh": "对，不，也是你们那边。"
+ },
+ {
+  "seg": 148,
+  "start": 1092.19,
+  "end": 1096.232,
+  "speaker": "Unknown",
+  "en": "Then, I know the last speaker was also confused by that.",
+  "zh": "我知道上一位演讲者也被这个搞糊涂了。"
+ },
+ {
+  "seg": 149,
+  "start": 1096.892,
+  "end": 1107.338,
+  "speaker": "Unknown",
+  "en": "So, yeah, on the left side, when uncertainty in the task steps are low, then it's a very predictable outcome, or it's a very predictable pathway to achieve that goal.",
+  "zh": "那么，是的，在左边，当任务步骤的不确定性低时，结果就是非常可预测的，或者说达成那个目标的路径是非常可预测的。"
+ },
+ {
+  "seg": 150,
+  "start": 1107.958,
+  "end": 1110.439,
+  "speaker": "Unknown",
+  "en": "And so then, you know, why would you waste tokens?",
+  "zh": "所以，你知道，为什么要浪费 token 呢？"
+ },
+ {
+  "seg": 151,
+  "start": 1110.459,
+  "end": 1111.22,
+  "speaker": "Unknown",
+  "en": "Just write a script.",
+  "zh": "直接写个脚本就行了。"
+ },
+ {
+  "seg": 152,
+  "start": 1111.98,
+  "end": 1120.905,
+  "speaker": "Unknown",
+  "en": "On the other side, when the steps to perform the task are very high in uncertainty, then you have very unpredictable information.",
+  "zh": "另一方面，当执行任务的步骤具有很高的不确定性时，你就会得到非常不可预测的信息。"
+ },
+ {
+  "seg": 153,
+  "start": 1121.105,
+  "end": 1127.609,
+  "speaker": "Unknown",
+  "en": "And so it's probably at risk of being out of distribution and pre-training and probably has very sparse rewards for reinforcement learning.",
+  "zh": "所以它很可能面临超出分布的风险，超出了预训练的分布，并且在强化学习中可能有非常稀疏的奖励。"
+ },
+ {
+  "seg": 154,
+  "start": 1128.009,
+  "end": 1133.752,
+  "speaker": "Unknown",
+  "en": "And so perhaps it's not a good task for an agent because it's just much harder to figure out how to actually model that data.",
+  "zh": "所以这对智能体来说可能不是一个好任务，因为要弄清楚如何真正对该数据建模要难得多。"
+ },
+ {
+  "seg": 155,
+  "start": 1134.793,
+  "end": 1136.834,
+  "speaker": "Unknown",
+  "en": "And so obviously in the middle is...",
+  "zh": "显然，中间是……"
+ },
+ {
+  "seg": 156,
+  "start": 1138.879,
+  "end": 1141.701,
+  "speaker": "Unknown",
+  "en": "I think I'm out of time, but I'm not getting kicked off yet.",
+  "zh": "我想我的时间到了，但我还没被赶下台。"
+ },
+ {
+  "seg": 157,
+  "start": 1143.123,
+  "end": 1144.103,
+  "speaker": "Unknown",
+  "en": "So I'll just finish this up quickly.",
+  "zh": "所以我就快速把这个讲完。"
+ },
+ {
+  "seg": 158,
+  "start": 1144.444,
+  "end": 1150.368,
+  "speaker": "Unknown",
+  "en": "So yeah, in the middle is probably the sweet spot, but then on the other axis, what's the uncertainty in verifying that this is actually valuable?",
+  "zh": "是的，中间大概是最优区间，但在另一个轴上，验证这个东西真正有价值的难度有多不确定？"
+ },
+ {
+  "seg": 159,
+  "start": 1150.849,
+  "end": 1157.514,
+  "speaker": "Unknown",
+  "en": "So when you have high uncertainty in the acceptance criteria, you pretty much have a spot where verification is indistinguishable from execution.",
+  "zh": "当验收标准具有很高的不确定性时，你基本上就处于一个验证与执行无法区分的境地。"
+ },
+ {
+  "seg": 160,
+  "start": 1157.935,
+  "end": 1163.879,
+  "speaker": "Unknown",
+  "en": "So why would you build an agent for something that to verify it was useful, a person pretty much has to do the work again?",
+  "zh": "那么，为什么你要为一个东西构建智能体，而为了验证它是否有用，一个人几乎得把工作重做一遍？"
+ },
+ {
+  "seg": 161,
+  "start": 1164.28,
+  "end": 1166.341,
+  "speaker": "Unknown",
+  "en": "So like waste of tokens, obviously.",
+  "zh": "显然，这就是浪费 token。"
+ },
+ {
+  "seg": 162,
+  "start": 1167.162,
+  "end": 1187.458,
+  "speaker": "Unknown",
+  "en": "And then it leaves that middle area where you have this interesting intersection of tasks that are not too uncertain in that they have a degree of uncertainty where they're not just a script or they're not out of distribution for training, but they have enough uncertainty to be interesting.",
+  "zh": "这样就剩下中间那块区域，那里有一类任务处于有趣的交集上：它们不是太不确定，即它们有一定程度的不确定性，使得它们不只是一个脚本、也没有超出训练分布，但它们又有足够的不确定性而变得有趣。"
+ },
+ {
+  "seg": 163,
+  "start": 1187.498,
+  "end": 1195.885,
+  "speaker": "Unknown",
+  "en": "But at the same time, they also have a property being relatively easy to validate the, to check the value of them.",
+  "zh": "但与此同时，它们还具有另一个特性，就是相对容易验证、容易检查它们的价值。"
+ },
+ {
+  "seg": 164,
+  "start": 1196.498,
+  "end": 1202.482,
+  "speaker": "Unknown",
+  "en": "And so they become in this place where they kind of become the shape of an MP style problem, which means they're easier to verify than to execute.",
+  "zh": "于是它们就处在这样一个位置上，形状变得有点像 MP 风格的问题，也就是说它们验证起来比执行起来更容易。"
+ },
+ {
+  "seg": 165,
+  "start": 1203.083,
+  "end": 1210.929,
+  "speaker": "Unknown",
+  "en": "And the reason I say that is because if you can figure out a pretty repeatable pattern for verifying their work, you can actually just throw agents at that problem as well.",
+  "zh": "我这么说是因为，如果你能找出一个相当可重复的模式来验证它们的工作，你其实也可以直接把智能体扔到那个问题上。"
+ },
+ {
+  "seg": 166,
+  "start": 1212.069,
+  "end": 1217.013,
+  "speaker": "Unknown",
+  "en": "And so of course you don't just build the agent, you perhaps build the agent that verifies the work of the agent.",
+  "zh": "所以当然，你不只是构建一个智能体，你或许要构建一个用来验证那个智能体工作的智能体。"
+ },
+ {
+  "seg": 167,
+  "start": 1218.694,
+  "end": 1224.999,
+  "speaker": "Unknown",
+  "en": "And so yeah, this is perhaps, this is a thought starter mostly, kind of still in the works, so.",
+  "zh": "是的，这大概——这主要是一个启发思考的东西，还在打磨中。"
+ },
+ {
+  "seg": 168,
+  "start": 1225.675,
+  "end": 1233.393,
+  "speaker": "Unknown",
+  "en": "I'm happy to hear any thoughts on it, but with this guidance, I hope when you're building your next agent, you can also figure out how to also build its mouse power.",
+  "zh": "我很乐意听到任何想法，但有了这个指引，我希望当你构建下一个智能体时，也能想出如何同时构建它的 mouse power。"
+ },
+ {
+  "seg": 169,
+  "start": 1234.255,
+  "end": 1234.876,
+  "speaker": "Unknown",
+  "en": "And thanks very much.",
+  "zh": "非常感谢。"
+ }
+]

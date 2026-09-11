@@ -42,7 +42,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[LLM]] · [[预训练]] · [[强化学习]] · [[持续学习]] · [[Anthropic]] · [[Barney Hussey-Yeo]] · [[Sonja]] · [[Zubin Gharemani]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":102,"LLM":29,"预训练":6,"强化学习":15,"持续学习":2,"Anthropic":114,"Barney Hussey-Yeo":1,"Sonja":1,"Zubin Gharemani":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":102,"LLM":29,"预训练":6,"强化学习":16,"持续学习":2,"Anthropic":115,"Barney Hussey-Yeo":1,"Sonja":1,"Zubin Gharemani":1}</script>
 
 <script>
 (function(){

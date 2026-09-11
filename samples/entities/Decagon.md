@@ -37,9 +37,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[推理]] · [[智能体]] · [[开源模型]] · [[Cisco]] · [[微调]] · [[Julian]]
+[[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[推理]] · [[智能体]] · [[Harvey]] · [[开源模型]] · [[Cisco]] · [[微调]]
 
-<script type="application/json" class="pd-epn">{"Cursor":54,"OpenAI":102,"Anthropic":114,"推理":5,"智能体":1,"开源模型":6,"Cisco":3,"微调":1,"Julian":1}</script>
+<script type="application/json" class="pd-epn">{"Cursor":54,"OpenAI":102,"Anthropic":115,"推理":5,"智能体":1,"Harvey":8,"开源模型":6,"Cisco":3,"微调":1}</script>
 
 <script>
 (function(){

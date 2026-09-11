@@ -1,0 +1,36 @@
+{
+  "id": "2026-09-11-engenable-how-okta-sets-guardrails-and-context-for",
+  "audio_mp3": "https://anchor.fm/s/1116ee148/podcast/play/125484854/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-9%2F431556002-44100-2-c57eb5729ed18.mp3",
+  "duration_sec": 2243.807,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 405,
+  "asr": true,
+  "title_en": "How Okta sets guardrails and context for AI agents",
+  "podcast": "Engineering Enablement (DX)",
+  "date": "2026-09-11",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45774466/45774466-1789052402793-156dfb158ebd6.jpg",
+  "added": "2026-09-12",
+  "added_at": "2026-09-11T16:23:12.181Z",
+  "speaker_map": {
+    "SPEAKER_00": "Robert Lucero",
+    "SPEAKER_01": "Brian Houck"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Robert Lucero",
+  "cohosts": [
+    "Brian Houck"
+  ],
+  "title_zh": "当 AI 智能体成为「新员工」:Okta 首席架构师谈智能体身份与安全",
+  "guest_name": "Robert Lucero",
+  "guest_title": "Okta 首席架构师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45774466/45774466-1789052402793-156dfb158ebd6.jpg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-09-11T18:18:50.780Z"
+  }
+}

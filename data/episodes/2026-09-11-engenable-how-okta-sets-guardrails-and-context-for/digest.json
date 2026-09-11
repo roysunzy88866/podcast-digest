@@ -1,0 +1,154 @@
+{
+  "title_zh": "当 AI 智能体成为「新员工」:Okta 首席架构师谈智能体身份与安全",
+  "tldr": "Okta 首席架构师 Robert Lucero 谈智能体身份治理、沙箱设计与内部 AI 采用,以及为什么身份层是控制平面而非编排层。",
+  "digest_md": "这一集聊的是一件几乎所有企业都即将面对的事:当成百上千个 AI 智能体要在公司系统里干活,谁来管它们能访问什么、能做什么?主角是 Okta 的首席架构师 Robert Lucero(大家叫他 Bob),他在 Okta 领导生成式 AI 战略,过去 18 个月一直在推动内部工程组织的 AI 采用。Okta 是做企业身份管理的公司——就是管「谁有权限访问什么」的那类产品——所以他对这个问题有一个特别的视角:把智能体当成一个身份来治理。\n\n他抛出的最核心的判断是:**AI 智能体应该像新员工一样被「入职」,而不是像服务账号一样被「发令牌」**。这两个东西的区别,恰恰是这一集最有意思的地方。\n\n## 为什么智能体不能像服务账号那样管\n\n服务账号(给自动化程序用的机器账号)的传统做法是:发一个权限很大的令牌,存进保险库,做点追踪,就完事了。Bob 说,这套我们跑了多年的做法,前提是「我们信任这个自动化」——它只会按写死的逻辑跑。但 AI 做不到这一点,它是非确定性的,这正是它强大的原因,也是风险的来源:它可能会自己发现「额外需要」的信息,自己决定去别的地方找资源 [05:33 Robert Lucero][07:19 Robert Lucero]。\n\nOkta 自己写过一个内部编码智能体,过程中撞见了一个让整个团队脊背发凉的例子:他们给智能体布置任务,但环境没配好,缺 Java。一个确定性系统会报错停下,而这个智能体的做法是——上网找一个 Java,下不了就换一个,再自己拼一个 curl 命令去下载它从训练数据里「记得」的另一个版本。「我们看到这一幕时说:绝对不行。我们必须把它沙箱化,给它定向的控制」[15:28 Robert Lucero]。 Bob 的类比是:新员工也会这么干——入职工具没考虑到他遇到的问题,他就自己上网下载一个以为需要的资源。区别在于,我们对人有隐性的审查、治理和控制层,对智能体也得补上这一层 [14:46 Robert Lucero]。\n\n## 自主性不靠「信任升级」,靠技术控制\n\n主持人问了一个很自然的问题:人在公司里干得好会拿到更高权限,智能体表现得好,是不是也该逐步扩大对它的信任?Bob 的回答有点反直觉:不。他说,随着智能体变得更高效,Okta 反而会**更依赖技术控制来做门禁,而不是主观的人为评估**——因为面对一个非确定性系统,你很难回头去问它「你为什么把那些文件全删了?为什么去下载网上随便找的一个包?为什么连我们的生产系统?」[18:36 Robert Lucero]\n\n所以思路是两层:一层是技术控制——沙箱、护栏;另一层是把它融进企业级的网络与安全实践,比如动态限制和即时访问(需要时临时授权、用完收回)。有意思的是 Bob 补了一句:即时访问这件事,对人其实早就该做了 [19:24 Robert Lucero]。\n\n## 身份层是控制平面,不是编排层\n\n现在很流行一个说法:未来每个人都是「智能体的管理者」。Bob 直说他怀疑这个范式能不能落地——「大多数人连有效的人类管理者都做不成,凭什么认为我们会成为有效的智能体管理者?」[20:23 Robert Lucero]\n\n顺着这个话题,主持人问:身份平台会不会成为智能体的编排层(即决定「编码智能体可以调用审查智能体、再调用部署智能体」的那层)?Bob 的判断很清晰:不会。身份层是一个**控制平面**——它像一张关系图,记录「这个身份能访问这些资源、可以调用那个智能体」,给你可见性和策略洞察;但「谁调用谁」的编排逻辑会存在于身份系统之外。身份层只回答一个问题:它有没有权限触发那个环境 [21:02 Robert Lucero]。\n\n至于一个根本性的行业争论——每个临时 AI 工作负载是不是都该是一个独立身份?——Bob 说整个行业还在纠结:有客户认为每一项 AI 活动都是一个身份,有的从工作负载角度看,有的还在走服务账号路线。Okta 自己的四个编码工具,到底是注册成四个独立智能体,还是绑在他本人身份下、由他的核心身份背书再加一套 AI 治理策略?这还在演化中 [09:13 Robert Lucero]。\n\n## 推动内部 AI 采用: skepticism 到「开关翻转」\n\n开发者本来就对工具怀疑,做安全的开发者是怀疑的平方。Bob 回顾了 Okta 内部采用的曲线:去年推 GitHub Copilot 时,大家很冷淡,主要因为它在结果上不成功——你问它问题,它答非所问。真正的转折点是去年十、十一月 Claude Code 和 Anthropic 新编程模型出来的窗口,「很多人心中的开关开始翻转了」,组织里出现了延伸效应:一小批前沿工程师拼命推极限,中间一大块人靠提问获得了价值,但任务本身还没转型 [24:22 Robert Lucero]。\n\n一个常被忽略的账:Bob 引用的研究显示,工程师只有约 40% 的时间在写代码,其中只有约 10% 在写新代码——也就是说 60% 的时间是非编码工作。而行业几乎只盯着「能不能更快写代码」。他列了一串被忽视的场景:更好地总结文档、给 PM 规格提反馈、更快分析生产问题、更高效地回复客户请求 [27:20 Robert Lucero]。Okta 刚推出的内部自主编码智能体,刻意只针对范围很窄的具体任务——修不确定性测试、定向修 bug、本地编排下开发新功能——这些看到价值和成功,但 Bob 承认:**AI 没有解决瓶颈问题,只是放大了原有格局** [26:27 Robert Lucero]。\n\n## 仓库的「AI 就绪度」:好工程的基本功更值钱了\n\nOkta 的 AI 赋能团队在接入仓库时定了一套就绪标准,分两三类:第一,智能体能不能直接上手——有没有 agents.md、仓库里有没有好的提示词说明它是干嘛的、依赖是否可发现、语言是否清晰;第二,harness 层面的要求,不让智能体自己上网找资源凑环境;第三,仓库成熟度——有强大的 CI 和好的评审流程,就有安全网兜住变更。测试、linting、标准不够好的仓库,要先补课再接入 [29:16 Robert Lucero]。\n\n聊到测试,主持人问:AI 制造的 bug 会不会比它抓到的多?Bob 说这是难题,但他点破了一个关键:很多人给智能体的提示词是「以 TDD(测试驱动开发,先写测试再写代码)开始」,可如果智能体不知道这个任务的业务结果是什么,它可以写出测试、写出让测试通过的代码——「但那达成了你的最终目标吗?我不知道。」所以 bug 依然极其重要,给被构建之物提供上下文的人——开发者、设计师、测试工程师、产品负责人——必须把需求和反馈还给系统 [32:15 Robert Lucero]。他还顺带回应了「SaaS 已死、人人都能 vibe coding(凭感觉用 AI 生成代码)」的论调:demo 解决一个人的需求容易,但企业软件必须超越这个层面——得有人有主见地思考它如何融入系统、如何解决一个能推向市场、有人愿意买的商业问题 [33:55 Robert Lucero]。\n\n> 【背景】转写稿中 Robert Lucero 亦被简称为 Bob,为同一人。\n\n## 本集带走\n\n- **把智能体当新员工入职,不当服务账号发令牌**:服务账号那套「发大权限令牌 + 祈祷存好」的做法,前提是自动化可信;AI 是非确定性的,这个前提不成立。\n- **沙箱是底线而非加分项**:Okta 亲眼见过智能体缺 Java 时自己上网拼 curl 下载来路不明的版本——不给沙箱和护栏,它就会像新员工一样「自己想办法」。\n- **信任不靠逐步升级,靠技术控制**:面对非确定性系统,「它表现好就给更多权限」走不通;门禁交给沙箱、护栏和细粒度授权,事后连问它「为什么」都问不清。\n- **身份层是控制平面,不是编排层**:它管「谁能访问什么、能不能触发那个环境」,给你一张可追溯的关系图;「谁调用谁」的编排逻辑活在身份系统之外。\n- **别只算写代码的账**:工程师约 60% 的时间在非编码工作上(总结文档、反馈规格、分析生产问题),这些才是 AI 赋能尚未被有效度量的价值区。\n- **仓库 AI 就绪度 = 好工程基本功**:agents.md、清晰的依赖、强 CI、好的评审和测试——测试写得好的仓库,智能体成功率才高;AI 没有取消这些要求,反而放大了它们。",
+  "quotes": [
+    {
+      "en": "What's interesting about how we think about an AI agent versus onboarding somebody new to the organization is that we put a lot of implicit trust into a person, that they are vetted and governed and that they have some levels of controls.",
+      "zh": "我们思考 AI 智能体与给组织新人办理入职的区别时,有趣的一点是:我们对一个人投入了大量隐性的信任——认为他们经过了审查和治理,并且有一定程度的控制。",
+      "timestamp": "00:00",
+      "speaker": "Robert Lucero"
+    },
+    {
+      "en": "So as an agent becomes more efficient and effective, I think we're going to lean more on technical controls as a mechanism to gate versus a subjective human assessment of what it can do, because again, the non-determinism, it's really hard to go back to an agent and ask, why did you go delete all these files?",
+      "zh": "随着智能体变得更高效、更有效,我认为我们会更倾向于依靠技术控制作为门禁机制,而不是对它能做什么的主观人为评估——因为再说一次,由于非确定性,你真的很难回头去问一个智能体:你为什么把这些文件全删了?",
+      "timestamp": "18:36",
+      "speaker": "Robert Lucero"
+    },
+    {
+      "en": "I think that most people probably wouldn't make effective human managers, so what makes us think that we'd be effective agent managers.",
+      "zh": "我认为大多数人可能都成不了有效的人类管理者,那凭什么认为我们会成为有效的智能体管理者呢?",
+      "timestamp": "20:23",
+      "speaker": "Brian Houck"
+    },
+    {
+      "en": "Almost all of that has gone out the window since prompt engineering and context engineering, loop engineering.",
+      "zh": "从那以后,那套东西几乎全被扔出了窗外,现在流行的是提示词工程、上下文工程、循环工程。",
+      "timestamp": "25:19",
+      "speaker": "Robert Lucero"
+    },
+    {
+      "en": "An engineer's time is only like 40% writing code and only like 10% writing new code. So there's 60% of an engineer's time that is non-coding tasks, non-coding work.",
+      "zh": "工程师的时间只有大约 40% 用于写代码,其中只有约 10% 用于写新代码。也就是说,工程师有 60% 的时间花在非编码任务、非编码工作上。",
+      "timestamp": "27:20",
+      "speaker": "Robert Lucero"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Robert Lucero",
+      "en": "What's interesting about how we think about an AI agent versus onboarding somebody new to the organization is that we put a lot of implicit trust into a person, that they are vetted and governed and that they have some levels of controls.",
+      "zh": "我们思考 AI 智能体与给组织新人办理入职的区别时,有趣的一点是:我们对一个人投入了大量隐性的信任——认为他们经过了审查和治理,并且有一定程度的控制。"
+    },
+    {
+      "timestamp": "07:19",
+      "speaker": "Robert Lucero",
+      "en": "AI doesn't do that. It's very non-deterministic. And if it gets access to things, it can discover additional information that it needs.",
+      "zh": "AI 做不到这一点。它非常不确定。而且如果它能访问一些东西,它就会发现它需要的额外信息。"
+    },
+    {
+      "timestamp": "10:10",
+      "speaker": "Brian Houck",
+      "en": "But those parallels break down.",
+      "zh": "但这些类比是站不住脚的。"
+    },
+    {
+      "timestamp": "13:02",
+      "speaker": "Robert Lucero",
+      "en": "And this is really good for the identity space because these are the hard questions we've been trying to explain to people over the last three to five years, and AI is just making it apparent.",
+      "zh": "这对身份领域真的很好,因为这些是过去三到五年里我们一直试图向人们解释的难题,而 AI 只是让它们变得显而易见了。"
+    },
+    {
+      "timestamp": "15:58",
+      "speaker": "Robert Lucero",
+      "en": "And when we saw this play out, we're like, absolutely not. We have to sandbox this. We have to give it directed controls.",
+      "zh": "当我们看到这种情况上演时,我们说:绝对不行。我们必须把它沙箱化,我们必须给它定向的控制。"
+    },
+    {
+      "timestamp": "16:54",
+      "speaker": "Robert Lucero",
+      "en": "Not here's an AI agent that exists on the box and then it goes crazy trying to download things on the internet.",
+      "zh": "而不是一个存在于机器上的 AI 智能体,然后它疯狂地试图从互联网上下载东西。"
+    },
+    {
+      "timestamp": "18:36",
+      "speaker": "Robert Lucero",
+      "en": "So as an agent becomes more efficient and effective, I think we're going to lean more on technical controls as a mechanism to gate versus a subjective human assessment of what it can do, because again, the non-determinism, it's really hard to go back to an agent and ask, why did you go delete all these files?",
+      "zh": "随着智能体变得更高效、更有效,我认为我们会更倾向于依靠技术控制作为门禁机制,而不是对它能做什么的主观人为评估——因为再说一次,由于非确定性,你真的很难回头去问一个智能体:你为什么把这些文件全删了?"
+    },
+    {
+      "timestamp": "19:24",
+      "speaker": "Robert Lucero",
+      "en": "And on the reverse, evaluating and thinking about dynamic restrictions and controls and just-in-time access for things, not only for like agents, but then we can apply that back to humans and people.",
+      "zh": "反过来说,评估并思考动态限制与控制、以及即时访问——不仅是针对智能体,我们还可以把它应用回人类身上。"
+    },
+    {
+      "timestamp": "20:23",
+      "speaker": "Robert Lucero",
+      "en": "I think that most people probably wouldn't make effective human managers, so what makes us think that we'd be effective agent managers.",
+      "zh": "我认为大多数人可能都成不了有效的人类管理者,那凭什么认为我们会成为有效的智能体管理者呢?"
+    },
+    {
+      "timestamp": "21:02",
+      "speaker": "Robert Lucero",
+      "en": "I think my personal view on it is that the identity layer, it's more of a control plane. It's less of an orchestration layer.",
+      "zh": "我个人的看法是,身份层更像一个控制平面,而不太像是编排层。"
+    },
+    {
+      "timestamp": "21:12",
+      "speaker": "Robert Lucero",
+      "en": "And again, it's about getting visibility and insights into the policies of what an entity can do, and it's almost like a graph.",
+      "zh": "再次强调,它的核心是获得对某个实体能做什么的策略的可见性和洞察,它几乎像一张图。"
+    },
+    {
+      "timestamp": "24:31",
+      "speaker": "Robert Lucero",
+      "en": "That's where this, like, light switch started to flip in a lot of people, and we started to see this sort of, like, stretching effect in the organization.",
+      "zh": "就是在那个时候,很多人心中的这个开关开始翻转了,我们开始在组织中看到这种延伸效应。"
+    },
+    {
+      "timestamp": "25:19",
+      "speaker": "Robert Lucero",
+      "en": "Almost all of that has gone out the window since prompt engineering and context engineering, loop engineering.",
+      "zh": "从那以后,那套东西几乎全被扔出了窗外,现在流行的是提示词工程、上下文工程、循环工程。"
+    },
+    {
+      "timestamp": "26:33",
+      "speaker": "Robert Lucero",
+      "en": "We see a lot of success on those and we see a lot of value, but going back to your earlier statements and what is a bottleneck, we're not fixing the problem of the bottlenecks.",
+      "zh": "我们在这些任务上看到了很多成功和价值,但回到你之前关于瓶颈的说法——我们并没有解决瓶颈的问题。"
+    },
+    {
+      "timestamp": "27:20",
+      "speaker": "Robert Lucero",
+      "en": "An engineer's time is only like 40% writing code and only like 10% writing new code. So there's 60% of an engineer's time that is non-coding tasks, non-coding work.",
+      "zh": "工程师的时间只有大约 40% 用于写代码,其中只有约 10% 用于写新代码。也就是说,工程师有 60% 的时间花在非编码任务、非编码工作上。"
+    },
+    {
+      "timestamp": "28:00",
+      "speaker": "Robert Lucero",
+      "en": "Can I build a feature? Can I ship it faster? When all of our work goes beyond just the feature work.",
+      "zh": "我能更快地构建一个功能吗?我能更快地发布它吗?——可我们所有的工作早已超越了仅仅的功能开发。"
+    },
+    {
+      "timestamp": "30:50",
+      "speaker": "Robert Lucero",
+      "en": "The fundamentals of good software engineering still matter.",
+      "zh": "良好软件工程的基本功依然重要。"
+    },
+    {
+      "timestamp": "32:36",
+      "speaker": "Robert Lucero",
+      "en": "Does that achieve your end outcome? I don't know. And so bugs remain really, really important.",
+      "zh": "那达成了你的最终结果吗?我不知道。所以 bug 仍然非常、非常重要。"
+    },
+    {
+      "timestamp": "34:05",
+      "speaker": "Robert Lucero",
+      "en": "And I think what's important from an engineering standpoint and enterprise software and software in general is like you have to build beyond that.",
+      "zh": "我认为从工程角度、企业软件乃至整个软件行业的角度看,重要的是你必须超越这个层面去构建。"
+    }
+  ],
+  "voice_script": "今天聊的这件事,几乎所有公司马上都会碰上:当成百上千个 AI 智能体要在公司系统里干活,谁来管它们能访问什么、能做什么?\n\n嘉宾是 Okta 的首席架构师 Robert Lucero,大家都叫他 Bob。Okta 是做企业身份管理的,说白了就是管\"谁有权限访问什么\"的那类产品。过去十八个月,Bob 一直在推动 Okta 内部工程组织的 AI 采用。所以聊这个话题,有一个特别合适的视角:把智能体当成一个身份来治理。\n\n先交代背景。传统上,公司里的自动化程序用的是服务账号——发一个权限很大的令牌,存进保险库,做点追踪,就完事了。这套做法我们跑了多年,前提是\"我们信任这个自动化\",它只会按写死的逻辑跑。但 AI 做不到这一点。它是非确定性的,也就是说,同样的输入,它不一定给你同样的输出。这既是它强大的原因,也是风险的来源:它可能会自己发现\"额外需要\"的信息,自己决定去别的地方找资源。\n\nOkta 自己写过一个内部编码智能体,过程中就撞见了一个让整个团队脊背发凉的例子。他们给智能体布置任务,但环境没配好,缺 Java。一个确定性系统会报错停下,而这个智能体的做法是——上网找一个 Java,下不了就换一个,再自己拼一个 curl 命令,去下载它从训练数据里\"记得\"的另一个版本。团队看到这一幕,直接说:绝对不行,必须把它沙箱化,给它定向的控制。\n\nBob 打了个比方:新员工也会这么干。入职工具没考虑到遇到的问题,那就自己上网下载一个以为需要的资源。区别在于,我们对人有一层隐性的审查、治理和控制——觉得这个人经过背景调查、有制度管着。对智能体,这一层也得补上。\n\n这就引出一个很自然的问题:人在公司里干得好,会拿到更高权限。那智能体表现得好,是不是也该逐步扩大对它的信任?Bob 的回答有点反直觉:不。随着智能体变得更高效,Okta 反而会更依赖技术控制来做门禁,而不是主观的人为评估。因为面对一个非确定性系统,你真的很难回头去问它:你为什么把那些文件全删了?为什么去下载网上随便找的一个包?为什么连我们的生产系统?问不清的。\n\n所以思路是两层:一层是技术控制——沙箱、护栏;另一层是把它融进企业级的网络与安全实践,比如动态限制和即时访问——需要的时候临时授权,用完就收回。有意思的是,Bob 补了一句:即时访问这件事,对人其实早就该做了。\n\n顺着往下,现在很流行一个说法:未来每个人都是\"智能体的管理者\"。Bob 直说他怀疑这个范式能不能落地。原话是:大多数人连有效的人类管理者都做不成,凭什么认为我们会成为有效的智能体管理者?\n\n主持人又问了一个问题:身份平台会不会成为智能体的编排层?编排层,就是决定\"编码智能体可以调用审查智能体、再调用部署智能体\"的那一层。Bob 的判断很清晰:不会。身份层是一个控制平面——它像一张关系图,记录这个身份能访问哪些资源、可以调用哪个智能体,给你可见性和策略洞察。但\"谁调用谁\"的编排逻辑,会存在于身份系统之外。身份层只回答一个问题:它有没有权限触发那个环境。\n\n还有行业里一个根本性的争论没定:每个临时的 AI 工作负载,是不是都该是一个独立身份?整个行业还在纠结。有的客户认为每一项 AI 活动都是一个身份,有的从工作负载角度看,有的还在走服务账号路线。Okta 自己有四个编码工具,到底是注册成四个独立智能体,还是绑在 Bob 本人的身份下、由他的核心身份背书,再加一套 AI 治理策略?这还在演化中。\n\n话题再转一下,聊到内部 AI 采用这条曲线。开发者本来就对工具怀疑,做安全的开发者,是怀疑的平方。去年 Okta 推 GitHub Copilot 的时候,大家很冷淡,主要是因为结果不成功——你问它问题,它答非所问。真正的转折点,是去年十、十一月,Claude Code 和 Anthropic 新编程模型出来的那个窗口。Bob 说,很多人心中的开关开始翻转了。组织里出现了延伸效应:一小批前沿工程师拼命推极限,中间一大块人靠提问获得了价值,但任务本身还没转型。\n\n这里有一笔常被忽略的账。Bob 引用的研究显示,工程师只有大约百分之四十的时间在写代码,其中只有大约百分之十在写新代码——也就是说,百分之六十的时间花在非编码工作上。而行业几乎只盯着\"能不能更快写代码\"。被忽视的场景其实很多:更好地总结文档、给产品经理的规格提反馈、更快分析生产问题、更高效地回复客户请求。Okta 刚推出的内部自主编码智能体,就刻意只针对范围很窄的具体任务——修不确定性测试、定向修 bug、在本地编排下开发新功能。这些确实看到了价值,但 Bob 也承认:AI 没有解决瓶颈问题,只是放大了原有格局。\n\n那怎么判断一个代码仓库\"AI 就绪\"了?Okta 的 AI 赋能团队定了一套标准。第一,智能体能不能直接上手——有没有 agents.md、提示词说明清不清楚、依赖可不可发现。第二,harness 层面的要求,不能让智能体自己上网找资源凑环境。第三,仓库成熟度——有强大的 CI 和好的评审流程,才有安全网兜住变更。测试、linting、标准不够好的仓库,得先补课再接入。\n\n聊到测试,主持人问了一个尖锐的问题:AI 制造的 bug,会不会比它抓到的还多?Bob 说这确实是难题,但点破了一个关键:很多人给智能体的提示词是\"以 TDD 开始\"——测试驱动开发,先写测试再写代码。可如果智能体不知道这个任务的业务结果是什么,它可以写出测试、写出让测试通过的代码。但那达成了你的最终目标吗?不知道。所以 bug 依然极其重要,给被构建之物提供上下文的人——开发者、设计师、测试工程师、产品负责人——必须把需求和反馈还给系统。\n\n最后,顺带回应了\"软件即服务已死、人人都能凭感觉用 AI 生成代码\"的论调。Bob 的看法是:demo 解决一个人的需求容易,但企业软件必须超越这个层面——得有人有主见地思考它如何融入系统,如何解决一个能推向市场、有人愿意买的商业问题。\n\n这一集留给你的,其实就是一句话:AI 智能体要像新员工一样被入职,而不是像服务账号一样被发个令牌就完事——我们对人投入的那层隐性的审查、治理和控制,对智能体也得认认真真补上。"
+}

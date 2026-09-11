@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Goose]] · [[MCP]] · [[Square]] · [[Lenny]] · [[Willem Avé]] · [[Alex Hancock]] · [[Dhanji Prasanna]] · [[业务单元模式]] · [[Zed]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Goose":2,"MCP":33,"Square":4,"Lenny":67,"Willem Avé":1,"Alex Hancock":1,"Dhanji Prasanna":1,"业务单元模式":1,"Zed":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Goose":2,"MCP":34,"Square":4,"Lenny":67,"Willem Avé":1,"Alex Hancock":1,"Dhanji Prasanna":1,"业务单元模式":1,"Zed":3}</script>
 
 <script>
 (function(){

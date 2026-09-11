@@ -1,0 +1,781 @@
+{
+  "episode_id": "2026-09-10-talks-mousepower-agents-that-can-t-be-measured",
+  "podcast": "精选演讲",
+  "date": "2026-09-10",
+  "tags": [
+    "智能体",
+    "ROI 与价值度量",
+    "token 经济",
+    "代码审查",
+    "信息论"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "maximillian-piras",
+      "type": "person",
+      "role": "guest",
+      "name": "Maximillian Piras",
+      "file": "Maximillian Piras",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "utori",
+      "type": "company",
+      "role": "company",
+      "name": "Utori",
+      "file": "Utori",
+      "primary": true,
+      "how_described": "本集说它是演讲者担任创始设计师的公司，专注计算机使用模型——当你拿不到 API 或 MCP 数据时，就派智能体像人一样使用计算机去取回和操作数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            156.295,
+            163.537
+          ],
+          "quote": "So for the past year and a half, I've had the pleasure of working as the founding designer at a company called Utori, and we focus on computer use models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            192.746,
+            195.568
+          ],
+          "quote": "Here's the utori agent using the utori website.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线概念：智能体有一个衡量问题——大家并行跑一堆智能体很爽，但很难向客户传达 token 花费换来的价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            73.245,
+            82.571
+          ],
+          "quote": "So I'll kick off an agent to just try to explore some different directions on the type treatment and the layout and just try to get as many explorations as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            83.251,
+            87.334
+          ],
+          "quote": "But of course, one agent's never enough, so I like to kick off a bunch in parallel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            164.057,
+            179.082
+          ],
+          "quote": "These are models that learn to use a computer like a human would, and the use case for them is when you can't get information from an API or an MCP, why not just send an agent out to use a computer like a human would, and then we can extract all types of data and manipulate it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            183.939,
+            191.865
+          ],
+          "quote": "So obviously less efficient than APIs and MCPs, but as a last resort, just have an agent go use the computer and try to get the information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            192.746,
+            195.568
+          ],
+          "quote": "Here's the utori agent using the utori website.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            310.993,
+            316.799
+          ],
+          "quote": "And so when we think about our own token usage, is it really representative of all the people out there who have never touched an agent yet?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            842.089,
+            856.377
+          ],
+          "quote": "And I think the lesson here being that if you're going to think of how to build an agent for something, you also have to think about how do you help the customers build or at least create a method for verifying that the output is good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            874.021,
+            894.905
+          ],
+          "quote": "Just as James Watt was able to show a measure of efficiency relative to the horses in the gins, in the horse gins that were the source of power at the time, we perhaps can also figure out how do we create a baseline of efficiency for the way we use computers today and can then demonstrate how much better or perhaps more performant on certain vectors an agent could be at that task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            896.69,
+            910.999
+          ],
+          "quote": "And of course it's not as easy, perhaps as easy a task as he had back then where he could just study the horse gen, because it's not as if we can create some method to measure our cursor movements and like figure out the delta of how much more efficient an agent could move them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            938.694,
+            955.527
+          ],
+          "quote": "I think mouse power is never going to be a metric, of course, but it's more so an idea, which the idea being, if you're going to sell somebody an agent, you also have to help them with the rubric of how do we actually verify that this agent is doing good work, and thus we can have a good measure of saying that these tokens are worth it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            957.089,
+            980.085
+          ],
+          "quote": "So how to do that, of course, is really up to you, and I won't be able to tell you how do you, I don't have any good frameworks for how do you figure out the right measurements to help provide anybody you're building an agent for, but what I can do is give an idea that I've been kicking around, which is based in information theory, so going back to Claude Shannon's ideas about measuring entropy in information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            988.693,
+            992.937
+          ],
+          "quote": "Things like cross entropy and such being a big factor in determining how capable an agent is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            993.858,
+            1002.367
+          ],
+          "quote": "I think that entropy is an interesting idea to think through with regards to not just the performance of an agent but also the tasks that we're sending them out to perform on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            1012.29,
+            1019.433
+          ],
+          "quote": "And so when we're thinking of building an agent, I think it's not enough to just think what would be a valuable task for the agent to do, but also thinking about how",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            1052.181,
+            1059.967
+          ],
+          "quote": "Maybe you can get an agent to do it, but it would be very hard to figure out how we can actually create a relatively predictable pathway to that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            1066.131,
+            1074.015
+          ],
+          "quote": "So not just can the agent perform the task, but can we help somebody actually, or is there actually a clean rubric for how it's graded?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1128.009,
+            1133.752
+          ],
+          "quote": "And so perhaps it's not a good task for an agent because it's just much harder to figure out how to actually model that data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1157.935,
+            1163.879
+          ],
+          "quote": "So why would you build an agent for something that to verify it was useful, a person pretty much has to do the work again?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1212.069,
+            1217.013
+          ],
+          "quote": "And so of course you don't just build the agent, you perhaps build the agent that verifies the work of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1225.675,
+            1233.393
+          ],
+          "quote": "I'm happy to hear any thoughts on it, but with this guidance, I hope when you're building your next agent, you can also figure out how to also build its mouse power.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机使用模型 (computer use models)",
+      "file": "计算机使用模型",
+      "primary": true,
+      "how_described": "本集说这是 Utori 的方向：学习像人类一样使用计算机的模型，作为拿不到 API/MCP 时的最后手段。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            156.295,
+            163.537
+          ],
+          "quote": "So for the past year and a half, I've had the pleasure of working as the founding designer at a company called Utori, and we focus on computer use models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mental-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "心智模型 (mental models)",
+      "file": "心智模型",
+      "primary": true,
+      "how_described": "本集说 James Watt 靠研究『用马思考的人』的心智模型造出马力指标；今天卖智能体也得让度量契合客户的心智模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            26.178,
+            34.966
+          ],
+          "quote": "So my name is Maximilian Piros, and today I'll be talking about mouse power, and this is a talk about measuring agents through mental models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            210.756,
+            215.899
+          ],
+          "quote": "How do we figure out the mental models they're using to value the use cases they want to send out agents for?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            829.393,
+            841.168
+          ],
+          "quote": "And so, we need to go, if we're able to do that, then we can go from execution at the speed of compute to measurement at the speed of compute, and of course, the measurements need to fit the mental models of the customers using it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mouse-power",
+      "type": "concept",
+      "role": "concept",
+      "name": "鼠标力 (mouse power)",
+      "file": "鼠标力",
+      "primary": true,
+      "how_described": "本集提出的核心理念：智能体时代相当于马力（horsepower）的东西——卖智能体的人必须同时帮客户解决『如何验证这活儿干得好』的评分标准问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            26.178,
+            34.966
+          ],
+          "quote": "So my name is Maximilian Piros, and today I'll be talking about mouse power, and this is a talk about measuring agents through mental models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            866.139,
+            873.481
+          ],
+          "quote": "And so this brings me to the idea of mouse power, which could be the equivalent of horsepower for the agentic age.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            917.062,
+            929.109
+          ],
+          "quote": "I had Claude Vibecode me, this measurement device, and I thought maybe if I can figure out the movement, like the potential movement across the screen and measure how fast it went, I could get some clean measure of mouse power.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            938.694,
+            955.527
+          ],
+          "quote": "I think mouse power is never going to be a metric, of course, but it's more so an idea, which the idea being, if you're going to sell somebody an agent, you also have to help them with the rubric of how do we actually verify that this agent is doing good work, and thus we can have a good measure of saying that these tokens are worth it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1225.675,
+            1233.393
+          ],
+          "quote": "I'm happy to hear any thoughts on it, but with this guidance, I hope when you're building your next agent, you can also figure out how to also build its mouse power.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集说 token 只是系统的输出而非价值本身，必须被干净地追溯到成果（消灭多少 bug、关闭多少支持请求）；行业内存在超支+使用不足的厄运循环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            140.546,
+            141.987
+          ],
+          "quote": "Were you token maxing too much?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            150.233,
+            155.277
+          ],
+          "quote": "It's how do we value the token cost, and specifically, how do we help our customers value it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            238.255,
+            243.719
+          ],
+          "quote": "What are the best use cases for them, and how do I think about the trade-offs with regards to token costs relative to value?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            310.993,
+            316.799
+          ],
+          "quote": "And so when we think about our own token usage, is it really representative of all the people out there who have never touched an agent yet?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            563.308,
+            571.955
+          ],
+          "quote": "People are blowing through their entire token budget for a year and they're blowing through it in a quarter or they're dealing with token leaderboards and such.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            600.485,
+            611.229
+          ],
+          "quote": "And so it's kind of this vicious cycle where we're just token maxing and ourselves into austerity and then kind of dropping out of the loop until we get more FOMO to get activated enough to try it again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            634.224,
+            639.586
+          ],
+          "quote": "And as a result, saw AI spend start to diverge from token usage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            672.536,
+            675.317
+          ],
+          "quote": "How many bugs got squashed with our token spend?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "roi",
+      "type": "concept",
+      "role": "concept",
+      "name": "ROI",
+      "file": "ROI",
+      "primary": true,
+      "how_described": "本集反复强调：Watt 的马力让爱马的人能算出采用蒸汽机的收益；给不出有形 ROI，就没法传达智能体的价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            514.626,
+            525.074
+          ],
+          "quote": "So, like, it's kind of hard to beat the vibes of horses and so he knew he had to kind of overcome the emotion and actually speak to something that gave him an ability to calculate the ROI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            529.044,
+            537.633
+          ],
+          "quote": "And so, yeah, the lesson being if we're not able to give something that is a tangible ROI for our customers, then it's very hard for us to communicate value.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            684.08,
+            687.662
+          ],
+          "quote": "And so without a very tight measure of ROI, this becomes very hard to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            750.918,
+            755.421
+          ],
+          "quote": "And so, again, going back to the ROI calculations, we generate all this code, but how do we know?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            856.777,
+            861.82
+          ],
+          "quote": "And so it's not enough to build it, we also have to help them get to clear ROI calculations to justify their spend.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集说瓶颈已从生成转移到人工审查一侧：连 Anthropic 都承认还没解决代码审查，它之所以感觉可解是因为文化上在共同假设上有好的收敛。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            716.043,
+            723.989
+          ],
+          "quote": "Even Anthropic, who has some people on the team have claimed to have solved coding, they have also admitted that they've not solved code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            760.425,
+            768.23
+          ],
+          "quote": "And of course, maybe code review was always flawed, but it's just that agents are now exposing it for the, or exposing the actual problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            769.438,
+            779.552
+          ],
+          "quote": "And I like this quote by Noah Hine from a post about how to solve code review where he's mentioning specifically that the assumptions underneath code review are what needs to be revisited.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            779.912,
+            786.561
+          ],
+          "quote": "So we have to check our priors to try to figure out a new basis for how we can code review in the age of agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            787.282,
+            789.743
+          ],
+          "quote": "And I'm not going to go into how to solve code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            795.405,
+            799.787
+          ],
+          "quote": "But what I think is important for this talk is why does code review feel like it is solvable?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            800.247,
+            808.631
+          ],
+          "quote": "And I think that Noah's hitting on something important here, which is that as a culture, code review has a very good convergence on shared assumptions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证 (verification)",
+      "file": "验证",
+      "primary": true,
+      "how_described": "本集说瓶颈转移到了验证一侧：若验收标准不确定性太高，验证与执行无法区分——验证的人几乎得把活儿重做一遍，纯浪费 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            742.493,
+            750.598
+          ],
+          "quote": "Shifting to the verification side, and thus, we don't have a way to measure value at scale and to judge quality at the same speed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1150.849,
+            1157.514
+          ],
+          "quote": "So when you have high uncertainty in the acceptance criteria, you pretty much have a spot where verification is indistinguishable from execution.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "entropy",
+      "type": "concept",
+      "role": "concept",
+      "name": "熵 (entropy)",
+      "file": "熵",
+      "primary": true,
+      "how_described": "本集借 Claude Shannon 关于熵（概率分布的不确定性）的思想构建二维矩阵：x 轴是执行步骤的不确定性，y 轴是验收标准的不确定性，中间地带才是派智能体的甜蜜点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            957.089,
+            980.085
+          ],
+          "quote": "So how to do that, of course, is really up to you, and I won't be able to tell you how do you, I don't have any good frameworks for how do you figure out the right measurements to help provide anybody you're building an agent for, but what I can do is give an idea that I've been kicking around, which is based in information theory, so going back to Claude Shannon's ideas about measuring entropy in information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            981.125,
+            987.992
+          ],
+          "quote": "Entropy being the uncertainty of a probability distribution and of course very much the basis of how we train agents today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            988.693,
+            992.937
+          ],
+          "quote": "Things like cross entropy and such being a big factor in determining how capable an agent is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            993.858,
+            1002.367
+          ],
+          "quote": "I think that entropy is an interesting idea to think through with regards to not just the performance of an agent but also the tasks that we're sending them out to perform on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": false,
+      "how_described": "本集顺带提到：步骤不确定性太高的任务超出预训练分布，在强化学习中奖励会非常稀疏，不适合智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            1121.105,
+            1127.609
+          ],
+          "quote": "And so it's probably at risk of being out of distribution and pre-training and probably has very sparse rewards for reinforcement learning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集提到全世界还有人只是把东西复制粘贴进 ChatGPT，说明早期采用者并不能代表未来的采用人群。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            317.62,
+            319.842
+          ],
+          "quote": "Some people are still copy and pasting into ChatGPT.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说就连 Anthropic——团队里有人声称已解决编程——也承认还没解决代码审查，说明瓶颈转移到了验证一侧。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            716.043,
+            723.989
+          ],
+          "quote": "Even Anthropic, who has some people on the team have claimed to have solved coding, they have also admitted that they've not solved code review.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coinbase",
+      "type": "company",
+      "role": "company",
+      "name": "Coinbase",
+      "file": "Coinbase",
+      "primary": true,
+      "how_described": "本集引 Coinbase CEO 在 X 上发的图：把默认起步模型调低、只把前沿模型留给最难的任务，结果 AI 支出与 token 用量开始分化——虽然仍太聚焦 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            621.259,
+            634.004
+          ],
+          "quote": "There was this chart floating around on X recently that the Coinbase CEO posted where they had internally started changing the defaults of what models they will start with and trying to only save the frontier models for the hardest tasks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ramp",
+      "type": "company",
+      "role": "company",
+      "name": "RAMP",
+      "file": "RAMP",
+      "primary": false,
+      "how_described": "本集说『厄运循环』这个术语借自 RAMP 的博客文章：超支、同时使用不足，token 拉满把自己逼进紧缩再退出循环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            597.163,
+            599.964
+          ],
+          "quote": "This is a term I borrowed from RAMP and they have a great blog post on this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            641.906,
+            644.187
+          ],
+          "quote": "RAMP also, as I mentioned, has a great blog post about this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}
