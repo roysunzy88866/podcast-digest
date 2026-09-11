@@ -126,6 +126,16 @@ export function canonicalizeEpisodes(episodes, canonById, aliasById = new Map())
   });
 }
 
+const CJK = /[㐀-鿿豈-﫿]/;
+/**
+ * 书写形式 → 金句召回用的英文片段(drift #103)。norm 只留 ASCII,夹中文的串里贴着中文的 ASCII
+ * 只是中文词的碎片:file「生成式 AI」会剩单词 ai → 召回全库 268 条。故夹中文的串按括号切段、
+ * 只留不含中文的段(=「生成式 AI (generative AI)」括号里的英文原名);纯 ASCII 串原样。
+ */
+function recallForms(s) {
+  return CJK.test(s) ? s.split(/[()（）]/).filter((seg) => !CJK.test(seg)) : [s];
+}
+
 /**
  * 实体的金句(🔒 第 24 轮):
  *   · 人物页 = 该人本人说的金句(speaker == name)
@@ -136,6 +146,7 @@ export function quotesFor(agg, episodes, aliasById = new Map()) {
   const out = [];
   const alias = aliasById.get(agg.id);
   const forms = (alias ? [alias.name, ...(alias.forms ?? [])] : [agg.name, agg.file])
+    .flatMap(recallForms)
     .map((f) => norm(f))
     .filter((ws) => ws.length);
   for (const ep of episodes) {

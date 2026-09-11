@@ -403,3 +403,11 @@
 - **提交受控绕过 gate-all(--no-verify,同 #38–#42 口径)**:本次只提交 aliases.json + 文档,不提交本地重建的 samples(云端每班全量重渲染)→ pre-commit 的 gate-all 必然判仓库里的旧 samples 与新别名表「对不上」(实体层 1473 + 集页 9 集,含 reasoning/bot/autopilot 改名集和 #100 的旧集页)。**实测**:本地重建实体页 + 集页后跑完整 `gate-all`,**只剩音频层 662 条**(gitignore 的云端产物),非音频红项 0 → 确认绕过的只是「待云端重渲染」,再还原 samples 提交。验收:下一班云端重渲染后 gate-all 这两层应自然转绿。
 - **残留**:D50② 仍成立 —— 硬闸门仍被 soul 组挡着;下一次回潮仍只会在 CI stderr 里 warn。另:没有别名表条目、中文 file 夹 ASCII 词的其他实体页有同类误拉(见上面 ai 那条),属于 `quotesFor` 代码层问题,不在本次纯数据修复范围内,已另开任务。
 
+
+## drift #103(2026-09-11 实证):实体页金句召回被中文 file 里的英文碎片带偏 —— 42 页各挂全库 268 条
+- **现象**:`quotesFor` 在实体无别名条目时拿 `[name, file]` 当书写形式,过 `norm()` 只留 ASCII。中文 file「生成式 AI」「AI 泡沫」「宪法 AI」被剩成单词 `ai` → 命中全库所有带 AI 的金句。HEAD 实测 **42 页正好 268 条**(= 全库含 ai 的金句数,`grep -l '<b>268</b> 条金句' samples/entities/*.md`);同类还有「金门大桥版 Claude」剩 claude(26 条)、「LLM 裁判」剩 llm(21)、「token 定价」剩 token(20)等。drift #102 只修了它自己写的两条别名(AI 编程 / AI 助手),代码层问题当时另开任务 = 本条。
+- **修(代码,`build-entities.mjs` `recallForms`)**:夹中文的书写形式按括号切段、只留不含中文的段;纯 ASCII 串原样。实测全库 1540 个夹中文的 name 全是「中文 (english)」形状,括号里正是英文原名 → 照用;中文 file 没括号 → 不再贡献书写形式。人物页走 speaker == name,不受影响。别名表路径同口径(实测别名页 0 页变化)。
+- **效果(全库 2131 页逐页对比)**:71 页变化,69 降 2 升。42 个「268」页 → 0–13 条,留下的都真提到该词(「生成式 AI」2 条都含 generative AI、「AI 垃圾内容」4 条都含 AI slop);「宪法 AI」「AI 泡沫」等全库没有金句提到 → 0 条,金句墙整栏不显示。只有「AI」页本身仍 268(正确)。附带:括号英文能命中了 —— 旧 name 形式被剩成 `ai generative ai` 三连,本来永远命中不了。
+- **残留(未修,已另开任务)**:①括号英文本身是泛词时仍误拉:「Flash Attention 之前的注意力 (attention)」0→4、「GPU 容量 (capacity)」1→8、「AI 基础设施 (infrastructure)」268→13,拉进 pay attention / management capacity 这类句 —— 属 GLM 给的英文原名太泛(数据问题),可用别名表 forms 钉住;②纯英文常用词公司名「Work」119 /「Make」110 /「Every」99 条,早就这样、与本次无关。
+- **验证**:vitest 1387 全绿(新增 4 条;撤掉修复时其中 2 条挂 = 测试真能抓);本地 `build-entities` + `build-pages` + `gate-entities` 全过;本地重建后完整 `gate-all` 只剩音频层 662 条(gitignore 的云端产物,同 #102),非音频红项 0。本地重建的 samples 已还原不提交。GLM 20260911-026 裁 **noise**(3 条低危:无括号英文→零形式是本修目标;假名/谚文/扩展B 全库 0 条不可达)。
+- **提交受控绕过 gate-all(--no-verify,同 #102 口径)**:只提交代码 + 测试 + 文档,仓库里旧 samples 与新召回口径对不上,等云端下一班全量重渲染。**验收**:下一班后线上除「AI」页外不再有 268 条金句的页。

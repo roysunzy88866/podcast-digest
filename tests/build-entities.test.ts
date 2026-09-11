@@ -493,3 +493,25 @@ describe("drift #100 · 实体名带 / 不再被当成子目录(连续多班 gat
   });
 });
 
+
+describe("drift #103 · 夹中文的 file 不再按英文碎片召回全库金句", () => {
+  const ep = (en: string[]) => ({ meta: { id: "e" }, digest: { quotes: en.map((s) => ({ zh: "", en: s, timestamp: "00:01", speaker: "X" })) }, entities: { entities: [] } });
+  const EPQ = [ep(["AI is everywhere", "generative AI is here"])];
+  it("★★★ 无别名条目:file「生成式 AI」不再剩单词 ai 命中任意带 AI 的句", () => {
+    const agg = { id: "generative-ai", type: "concept", name: "生成式 AI (generative AI)", file: "生成式 AI" };
+    expect(quotesFor(agg, EPQ).map((x) => x.q.en)).toEqual(["generative AI is here"]); // 括号里的英文原名照样命中
+  });
+  it("★★ 纯 ASCII 的 file/name 原样当书写形式(AI 页照旧收所有提到 AI 的句)", () => {
+    const agg = { id: "ai", type: "concept", name: "AI", file: "AI" };
+    expect(quotesFor(agg, EPQ).length).toBe(2);
+  });
+  it("★★ 别名表的 name 同口径:「AI 编程 (AI coding)」只按 ai coding 召回", () => {
+    const alias = new Map([["ai-coding", { id: "ai-coding", name: "AI 编程 (AI coding)", file: "AI 编程", forms: [] }]]);
+    const agg = { id: "ai-coding", type: "concept", name: "AI 编程 (AI coding)", file: "AI 编程" };
+    expect(quotesFor(agg, [ep(["AI is everywhere", "AI coding changed my job"])], alias).map((x) => x.q.en)).toEqual(["AI coding changed my job"]);
+  });
+  it("★★ 人物页不受影响:仍按 speaker == name", () => {
+    const agg = { id: "x", type: "person", name: "X", file: "X" };
+    expect(quotesFor(agg, EPQ).length).toBe(2);
+  });
+});
