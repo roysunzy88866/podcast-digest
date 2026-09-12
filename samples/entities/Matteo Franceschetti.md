@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Eight Sleep":1,"Anthropic":117,"Claude":56,"智能体":224,"CAC":1,"增量测试":1,"人形机器人":2,"Xiaomi":1,"OpenAI":104}</script>
+<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Eight Sleep":1,"Anthropic":118,"Claude":56,"智能体":226,"CAC":1,"增量测试":1,"人形机器人":2,"Xiaomi":1,"OpenAI":105}</script>
 
 <script>
 (function(){

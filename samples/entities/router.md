@@ -25,7 +25,7 @@ unlisted: true
 
 [[Matan Grinberg]] · [[Factory]] · [[Droid]] · [[智能体]] · [[harness]] · [[模型独立性]] · [[token]] · [[开源模型]] · [[软件工厂]] · [[基于结果的付费]]
 
-<script type="application/json" class="pd-epn">{"Matan Grinberg":1,"Factory":4,"Droid":1,"智能体":224,"harness":29,"模型独立性":1,"token":19,"开源模型":16,"软件工厂":5,"基于结果的付费":3}</script>
+<script type="application/json" class="pd-epn">{"Matan Grinberg":1,"Factory":4,"Droid":1,"智能体":226,"harness":30,"模型独立性":1,"token":19,"开源模型":16,"软件工厂":5,"基于结果的付费":3}</script>
 
 <script>
 (function(){

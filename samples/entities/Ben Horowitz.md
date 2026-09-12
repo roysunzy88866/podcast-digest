@@ -71,7 +71,7 @@ unlisted: true
 
 [[a16z]] · [[air bed and breakfast]] · [[Travis Kalanick]] · [[Theo Jaffe]] · [[Google]] · [[Uber]] · [[Sofia Puccini]] · [[Apple]] · [[Atoms]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"a16z":13,"air bed and breakfast":1,"Travis Kalanick":2,"Theo Jaffe":6,"Google":39,"Uber":8,"Sofia Puccini":4,"Apple":17,"Atoms":2,"NVIDIA":33}</script>
+<script type="application/json" class="pd-epn">{"a16z":14,"air bed and breakfast":1,"Travis Kalanick":2,"Theo Jaffe":6,"Google":40,"Uber":8,"Sofia Puccini":4,"Apple":17,"Atoms":2,"NVIDIA":33}</script>
 
 <script>
 (function(){

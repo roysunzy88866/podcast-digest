@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>56</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>57</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -63,6 +63,7 @@ unlisted: true
 - **[[2026-09-10-talks-the-spatial-harness-bringing-agents-to-t|《把画布交给智能体：TLDraw 的空间协作实验》]]**(04:17起):本集说 Claude Code 是典型的编码智能体应用，且能访问真实电脑——同事让它画矩形、写 AppleScript 移动真实窗口、用真实窗口玩 Pong。
 - **[[2026-09-11-engenable-how-okta-sets-guardrails-and-context-for|《当 AI 智能体成为「新员工」:Okta 首席架构师谈智能体身份与安全》]]**(24:22起):本集说去年十、十一月的 Claude Code 窗口期、Anthropic 新编程模型的发布,是 Okta 内部采用态度转折的起点
 - **[[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]]**(40:20起):本集说它是 Tibo 在 Squad 里叠加的订阅之一,并强调「如果只是埋头给它写提示词,你每天都会被绑在电脑前」。
+- **[[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]]**(05:09起):本集反复提及：作为编程智能体活得不错的代表，其团队原则是『什么比我亲自做更好？让 Claude 做』
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(02:55起):本集讨论的 Anthropic 推出的同类命令行编码智能体。嘉宾持反向观点，认为全世界都在用但他“不觉得可以用 Claude Code 构建任何东西”，并提及初版 OpenClaw 曾在连接 WhatsApp 和 Claude Code 的依赖间加了点“胶水”。
 
 ## ① 提到它的金句
@@ -83,7 +84,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*56 集*
+*57 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
@@ -140,6 +141,7 @@ unlisted: true
 - [[2026-09-10-talks-the-spatial-harness-bringing-agents-to-t|《把画布交给智能体：TLDraw 的空间协作实验》]] — 作为概念
 - [[2026-09-11-engenable-how-okta-sets-guardrails-and-context-for|《当 AI 智能体成为「新员工」:Okta 首席架构师谈智能体身份与安全》]] — 作为被讨论公司(提及)
 - [[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]] — 作为被讨论公司(提及)
+- [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
 
 ## ③ 关联
@@ -148,7 +150,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[Lenny]] · [[Cursor]] · [[沙箱]] · [[harness]] · [[Claude]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"智能体":224,"Anthropic":117,"Codex":45,"OpenAI":104,"Lenny":67,"Cursor":56,"沙箱":41,"harness":29,"Claude":56,"评估":24}</script>
+<script type="application/json" class="pd-epn">{"智能体":226,"Anthropic":118,"Codex":46,"OpenAI":105,"Lenny":67,"Cursor":58,"沙箱":41,"harness":30,"Claude":56,"评估":24}</script>
 
 <script>
 (function(){

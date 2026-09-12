@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Google]] · [[ChatGPT]] · [[Salesforce]] · [[go-to-market]] · [[Brian Balfour]] · [[Jason Cohen]] · [[Brian Halligan]] · [[Sam Blond]]
 
-<script type="application/json" class="pd-epn">{"智能体":224,"Lenny":67,"Google":39,"ChatGPT":59,"Salesforce":17,"go-to-market":8,"Brian Balfour":1,"Jason Cohen":1,"Brian Halligan":1,"Sam Blond":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":226,"Lenny":67,"Google":40,"ChatGPT":59,"Salesforce":17,"go-to-market":8,"Brian Balfour":1,"Jason Cohen":1,"Brian Halligan":1,"Sam Blond":1}</script>
 
 <script>
 (function(){

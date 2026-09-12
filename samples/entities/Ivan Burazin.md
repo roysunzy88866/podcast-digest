@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":16,"Neon":2,"Parallel":5,"Devin":2,"智能体":224,"沙箱":41,"突发负载":1,"裸金属":1,"计算机使用":10}</script>
+<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":16,"Neon":2,"Parallel":5,"Devin":2,"智能体":226,"沙箱":41,"突发负载":1,"裸金属":1,"计算机使用":10}</script>
 
 <script>
 (function(){

@@ -125,9 +125,9 @@ Peter 的逻辑很直接：没有任何一个心智正常的人类会去手动�
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:护城河 (moat)、智能体 (agent)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Codex、ChatGPT · 同概念:护城河 (moat)、智能体 (agent)</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同公司:Claude Code · 同概念:OpenClaw、智能体 (agent)</span>
-- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]]<span class="pd-rz">同嘉宾:Peter Steinberger · 同公司:Codex · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

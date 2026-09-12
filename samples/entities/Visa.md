@@ -27,7 +27,7 @@ unlisted: true
 
 [[Eric Sager]] · [[Alex Rampell]] · [[Plaid]] · [[Max Levchin]] · [[Square]] · [[Affirm]] · [[OpenAI]] · [[PayPal]] · [[Replit]] · [[TrialPay]]
 
-<script type="application/json" class="pd-epn">{"Eric Sager":1,"Alex Rampell":2,"Plaid":2,"Max Levchin":1,"Square":4,"Affirm":2,"OpenAI":104,"PayPal":5,"Replit":16,"TrialPay":1}</script>
+<script type="application/json" class="pd-epn">{"Eric Sager":1,"Alex Rampell":2,"Plaid":2,"Max Levchin":1,"Square":4,"Affirm":2,"OpenAI":105,"PayPal":5,"Replit":16,"TrialPay":1}</script>
 
 <script>
 (function(){

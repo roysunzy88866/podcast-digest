@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anish Acharya</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anish Acharya">AN</div><div class="pi"><h1 class="pt">Anish Acharya</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anish Acharya">AN</div><div class="pi"><h1 class="pt">Anish Acharya</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>41</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*23 条*
+*41 条*
 
 ![[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer#^q1]]
 
@@ -59,18 +59,55 @@ unlisted: true
 
 ![[2026-09-06-lennys-why-companies-are-becoming-a-series#^q14]]
 
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q1]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q2]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q3]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q4]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q5]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q6]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q7]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q8]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q9]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q10]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q11]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q12]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q13]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q15]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q16]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q17]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q18]]
+
+![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q19]]
+
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|《AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意》]] — 作为主持
 - [[2026-09-06-lennys-why-companies-are-becoming-a-series|《a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小》]] — 作为联合主持
+- [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Cursor]] · [[智能体]] · [[护城河]] · [[编码智能体]] · [[Jen Ka]] · [[Lenny]] · [[Anthropic]] · [[a16z]] · [[Salesforce]]
+[[OpenAI]] · [[Cursor]] · [[智能体]] · [[护城河]] · [[编码智能体]] · [[Anthropic]] · [[a16z]] · [[Decagon]] · [[循环]] · [[个人智能体]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -80,7 +117,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":104,"Cursor":56,"智能体":224,"护城河":9,"编码智能体":11,"Jen Ka":1,"Lenny":67,"Anthropic":117,"a16z":13,"Salesforce":17}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":105,"Cursor":58,"智能体":226,"护城河":10,"编码智能体":12,"Anthropic":118,"a16z":14,"Decagon":6,"循环":8,"个人智能体":2}</script>
 
 <script>
 (function(){

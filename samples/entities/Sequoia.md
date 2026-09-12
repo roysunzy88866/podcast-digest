@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Salesforce]] · [[Harry Stebbings]] · [[Microsoft]] · [[SpaceX]] · [[OpenAI]] · [[Fireworks]] · [[Cursor]] · [[Brian Halligan]]
 
-<script type="application/json" class="pd-epn">{"智能体":224,"Anthropic":117,"Salesforce":17,"Harry Stebbings":15,"Microsoft":24,"SpaceX":12,"OpenAI":104,"Fireworks":4,"Cursor":56,"Brian Halligan":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":226,"Anthropic":118,"Salesforce":17,"Harry Stebbings":15,"Microsoft":24,"SpaceX":12,"OpenAI":105,"Fireworks":4,"Cursor":58,"Brian Halligan":1}</script>
 
 <script>
 (function(){

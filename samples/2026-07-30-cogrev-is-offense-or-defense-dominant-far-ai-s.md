@@ -211,8 +211,8 @@ Adam 大致同意主持人提出的二分法 <button class="pd-ts" data-t="96:15
 **换个口味**
 
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:后训练 (post-training)、智能体 (agent)</span>
+- [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:开放权重模型 (open weight)、智能体 (agent)</span>
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"]]<span class="pd-rz">同公司:Anthropic、OpenAI、Hugging Face · 同概念:开放权重模型 (open weight)、智能体 (agent)</span>
-- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]]<span class="pd-rz">同公司:Anthropic、OpenAI、Google · 同概念:思维链监控 (chain of thought)</span>
 
 </div>
 </div>

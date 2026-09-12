@@ -35,7 +35,7 @@ unlisted: true
 
 [[Ranjan Roy]] · [[Willem Avé]] · [[Sophia Du]] · [[Alex]] · [[Square]] · [[Julie Yoo]] · [[Google]] · [[Block]] · [[a16z]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Ranjan Roy":2,"Willem Avé":1,"Sophia Du":4,"Alex":4,"Square":4,"Julie Yoo":1,"Google":39,"Block":3,"a16z":13,"OpenAI":104}</script>
+<script type="application/json" class="pd-epn">{"Ranjan Roy":2,"Willem Avé":1,"Sophia Du":4,"Alex":4,"Square":4,"Julie Yoo":1,"Google":40,"Block":3,"a16z":14,"OpenAI":105}</script>
 
 <script>
 (function(){

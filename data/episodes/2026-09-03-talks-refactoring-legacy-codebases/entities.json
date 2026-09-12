@@ -1,0 +1,2516 @@
+{
+  "episode_id": "2026-09-03-talks-refactoring-legacy-codebases",
+  "podcast": "精选演讲",
+  "date": "2026-09-03",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "遗留代码重构",
+    "云端智能体",
+    "开发工具"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "regan",
+      "type": "person",
+      "role": "host",
+      "name": "Regan",
+      "file": "Regan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            11.614,
+            15.396
+          ],
+          "quote": "I'm going to be one of your hosts today, and I'm joined by the lovely Regan.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 5,
+          "t": [
+            15.637,
+            16.957
+          ],
+          "quote": "Regan, do you want to do a quick intro?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 7,
+          "t": [
+            18.258,
+            18.778
+          ],
+          "quote": "I'm Regan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            550.394,
+            554.378
+          ],
+          "quote": "We have a great blog post about this, Regan, actually, if you can put that in the chat as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 738,
+          "t": [
+            3426.912,
+            3429.994
+          ],
+          "quote": "Regan, anything that you think would be interesting and then we can close out.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "amrita",
+      "type": "person",
+      "role": "cohost",
+      "name": "Amrita",
+      "file": "Amrita",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            10.013,
+            11.114
+          ],
+          "quote": "I am Amrita.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            112.907,
+            114.928
+          ],
+          "quote": "I am Amrita.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            746.265,
+            749.406
+          ],
+          "quote": "I believe the answer is no, but correct me if I'm wrong about that, Amrita.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1567.86,
+            1571.282
+          ],
+          "quote": "I can say, you know, Amrita and Reagan and Ronnie.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3032.965,
+            3040.128
+          ],
+          "quote": "One other question also, Amrita, about whether you use skills and if so, if you have a preferred set.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集主角：Cursor 官方研讨会，现场演示用它的 IDE / 智能体窗口 / CLI / 云端智能体重构遗留代码库，把它说成模型聚合加一层 harness 的 AI 编程平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            4.93,
+            8.993
+          ],
+          "quote": "If you are in refactoring legacy code bases with Cursor, you are in the right place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 8,
+          "t": [
+            18.899,
+            21.02
+          ],
+          "quote": "I'm also one of the field engineers here at Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            32.867,
+            42.038
+          ],
+          "quote": "And so if you want to see more Cursor workshops, go to cursor.com slash workshops, and you'll see the full list of both previous and upcoming workshops that are happening.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            54.938,
+            58.679
+          ],
+          "quote": "It's nice to see how many corners of the earth that cursor reaches.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            118.831,
+            122.172
+          ],
+          "quote": "And we are hosting Refactoring Legacy Codebases with Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            125.294,
+            134.339
+          ],
+          "quote": "So I actually recommend folks have Cursor up on their machines with me while I'm going through some of these and trying out all of the different tools and features that I'm going to be using.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            194.719,
+            196.32
+          ],
+          "quote": "So thank you, Cursor IT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            230.434,
+            233.235
+          ],
+          "quote": "And then the second question is, why use Cursor to do it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            234.076,
+            242.959
+          ],
+          "quote": "And I actually want to switch the order of these two questions today because the first one I like to answer with slides and show you all a little bit of what makes Cursor special.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            243.559,
+            252.208
+          ],
+          "quote": "And then the second one is a little bit more of a demo rather than just talking because I'm actually going to migrate a couple of components with you all and show you the best way to do it with Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            253.688,
+            258.549
+          ],
+          "quote": "So for context, I was a software engineer before I was a field engineer here at Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            263.411,
+            276.114
+          ],
+          "quote": "And today I want to speak a little bit as to what makes Cursor different and why I like to especially do really large migrations, refactoring, any work basically in monorepos or multiple services within Cursor specifically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            277.533,
+            281.615
+          ],
+          "quote": "If you haven't used Cursor maybe in the last six months or so, this might look new to you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            283.096,
+            287.338
+          ],
+          "quote": "And this is what we kind of see as the future of development with Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            293.962,
+            298.405
+          ],
+          "quote": "And then in the middle is the agent or the chat where you actually talk to Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            303.264,
+            306.288
+          ],
+          "quote": "You also have the option in Cursor to use the IDE as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            306.929,
+            310.493
+          ],
+          "quote": "So this is where Cursor started, and this is where a lot of developers still choose to stay.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            324.686,
+            334.536
+          ],
+          "quote": "The cursor CLI is great if you want to preserve any TMUX workflows, if you want to work in some IDEs like maybe Android Studio or Xcode that don't have a native cursor solution just yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            335.396,
+            337.298
+          ],
+          "quote": "And so the cursor CLI is available.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            349.455,
+            352.256
+          ],
+          "quote": "We have the Cursor Cloud or Cursor Cloud Agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            352.977,
+            361.082
+          ],
+          "quote": "And this is a really great way to use Cursor because basically these agents operate autonomously and they operate on remote machines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            374.826,
+            388.29
+          ],
+          "quote": "With the Cursor Cloud, you can actually just send off a large agent like we're going to do shortly and have that agent work on refactoring until it's finished and prove that it's actually done what it's supposed to with videos, screenshots, and testing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            389.327,
+            396.034
+          ],
+          "quote": "So the cursor browser is where we're going to actually be showing some of this today, but there are other places where you could use the cursor cloud agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            396.434,
+            399.618
+          ],
+          "quote": "A very common way that we use it at cursor is actually with Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            400.018,
+            409.488
+          ],
+          "quote": "So you can see here, we actually have a cursor agent that lives inside of our channel that is able to check whether our documentation online goes out of sync with our implementation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            410.048,
+            420.858
+          ],
+          "quote": "And this is really great because it can open up a PR, it can have someone review it, and it automatically gives you just visibility into what cursor is doing without you ever having to open the cursor app or the browser.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            422.013,
+            425.454
+          ],
+          "quote": "And then the last place that you can use the Cursor Cloud is the mobile app.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            425.694,
+            427.014
+          ],
+          "quote": "So we have a Cursor mobile app.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            451.028,
+            454.871
+          ],
+          "quote": "Now, another thing that makes Cursor special is its model flexibility.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            455.111,
+            463.077
+          ],
+          "quote": "So I think a lot of you folks know this, but Cursor offers all the models from all the Frontier Labs right now, in addition to a lot of the open source models as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            530.138,
+            535.983
+          ],
+          "quote": "With that said, I like to talk a little bit about what makes model flexibility in Cursor actually effective.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            545.09,
+            550.014
+          ],
+          "quote": "So this is actually a case study that we did at Cursor where we tried to rebuild SQLite from scratch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            590.119,
+            599.086
+          ],
+          "quote": "So now I want to talk a little bit about, you know, the cursor harness is what we call it, but what lives between the platform, which we introduced cursor with, and then the model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            599.787,
+            607.973
+          ],
+          "quote": "So the platform is basically all the different surfaces you can use cursor and the model is what I talked about, which is the LLMs that cursor can, you know, leverage or delegate to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            608.674,
+            614.196
+          ],
+          "quote": "But in between all of those, we have what we call the cursor harness, which is made up of all of these different things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            620.818,
+            632.502
+          ],
+          "quote": "All of these tools make it so that using these models in cursor actually make it more powerful for refactoring large code bases or migrating from one version of SQL Alchemy to the next.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            633.082,
+            639.785
+          ],
+          "quote": "And so that's why I really recommend trying out something like this within Cursor, because there's much more than just the model and the platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            646.929,
+            657.474
+          ],
+          "quote": "It was written by two of our lovely engineers, and it goes a little bit deeper into what we do within Cursor to make it really powerful as a layer on top of the models that we provide.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            660.037,
+            665.138
+          ],
+          "quote": "So that was a bit of a speed run through why cursor, what makes cursor special and what makes it different.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            665.678,
+            670.659
+          ],
+          "quote": "Now I'm going to talk about what are the best ways to actually do a refactoring with cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            681.021,
+            687.582
+          ],
+          "quote": "The first is we're going to use cursor canvas to audit our code base and use cursor plan mode to strategize what we're going to migrate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            700.876,
+            719.719
+          ],
+          "quote": "Then we're going to hand off those tickets to a cursor cloud agent, and this is where you're going to see how you can have a local plan and a local set of tickets that you've made, but then you can delegate them to these autonomous cursor cloud agents that can go off and work on them with your laptop shut, with you on a walk, with you asleep, and then come back to you with the result.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            720.819,
+            731.994
+          ],
+          "quote": "And then lastly, I'm going to talk about automations and cursor and how you can build workflows and tools to maintain a really good level of quality and stability for whatever you've refactored or migrated over.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            739.602,
+            745.924
+          ],
+          "quote": "Yeah, there's a quick question on whether DeepSeek, v4, Flasher Pro will be coming to Cursor, hosted on US servers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            755.78,
+            758.281
+          ],
+          "quote": "All right, so let's now get into the Cursor product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            758.521,
+            763.242
+          ],
+          "quote": "As I mentioned, please use or please have Cursor up on your screen while I'm talking.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            798.195,
+            801.557
+          ],
+          "quote": "I'll actually open it up here in the cursor browser so you can see it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            802.277,
+            810.783
+          ],
+          "quote": "So I cloned the WordPress repo, and what I did is I just asked Cursor to run the web app for WordPress in the Cursor browser.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            811.263,
+            822.611
+          ],
+          "quote": "You can do that just by tagging at browser in Cursor, and Cursor actually has a built-in browser that's able to run anything from a full-stack app to just a front-end app, and you can actually just open it up here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            848.442,
+            850.063
+          ],
+          "quote": "And I'm going to use cursor canvas for that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1003.641,
+            1005.223
+          ],
+          "quote": "Cursor is really good at drawing diagrams.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1005.723,
+            1016.433
+          ],
+          "quote": "Cursor uses mermaid diagrams as its base, but you can actually connect Cursor to Lucidchart, to ExcalaDraw, to FigJam, and have it actually print out its diagrams at any of those services.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1036.84,
+            1042.021
+          ],
+          "quote": "But before it's going to go and actually write the plan, what Cursor is very good at is getting direction from me early.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1053.583,
+            1055.864
+          ],
+          "quote": "And then sometimes Cursor will ask you more than one question.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1072.23,
+            1075.711
+          ],
+          "quote": "Cursor is never going to go in and actually make or write code in plan mode.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1080.384,
+            1084.028
+          ],
+          "quote": "While this is running, I want to go back and show you the Canvas that Cursor created.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1084.468,
+            1086.991
+          ],
+          "quote": "So again, this is a built-in tool within Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1087.531,
+            1091.995
+          ],
+          "quote": "And Cursor is actually the only tool I know that has this, where I can open this Canvas here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1092.396,
+            1095.418
+          ],
+          "quote": "And what I love about Cursor Canvas is it can take any data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1210.884,
+            1215.808
+          ],
+          "quote": "While this is working, I do want to talk about how you can have multiple agents up in cursor at once.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1328.696,
+            1331.497
+          ],
+          "quote": "And again, it's for anyone in my cursor team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1334.037,
+            1336.338
+          ],
+          "quote": "Anyone who is in the same cursor team as me can see it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1336.658,
+            1341.619
+          ],
+          "quote": "But if I sent this to my mom or my dad, they're not going to be able to open it because they're not in my cursor team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1486.679,
+            1492.903
+          ],
+          "quote": "So we now actually have Google Drive, Google Calendar, and your Gmail all as plugins within Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1493.224,
+            1503.271
+          ],
+          "quote": "So you can actually connect to any of these if you want to, for example, publish your plan to a Google Doc or if you want to take your calendar into account when scheduling something with Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1504.032,
+            1506.594
+          ],
+          "quote": "So you can use all of these plugins within Cursor now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1525.423,
+            1529.685
+          ],
+          "quote": "So very powerful plugin and very powerful integration within Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1757.699,
+            1762.183
+          ],
+          "quote": "So here is the cursor cloud agent browser interface.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1762.384,
+            1767.649
+          ],
+          "quote": "So as you can see here, it's really at a very simple URL, cursor.com slash agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1777.118,
+            1781.842
+          ],
+          "quote": "So this is the one that I was working in locally, but because it's in GitHub, I can just connect that via cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1782.983,
+            1787.965
+          ],
+          "quote": "Another cool thing about Cursor Cloud is that you can actually connect multiple repos.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1816.714,
+            1829.617
+          ],
+          "quote": "So this is a huge differentiator within Cursor, multi-repo cloud agents, because the reality is, unless you have a monorepo or unless you're working in smaller repos, you probably do want context from one repo going into another.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1860.177,
+            1872.5
+          ],
+          "quote": "These are all models you can only get in Cursor because these cloud agents are able to use them in a really fast, efficient way and only cost you maybe like three or four dollars for an entire migration.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1909.221,
+            1920.344
+          ],
+          "quote": "But what I like about it is it's really great, again, if you want to do a dependency update or a Python version update, you can kind of have Cursor working on that until you think that it's ready and everything has been tested fully.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2060.606,
+            2066.967
+          ],
+          "quote": "So another great thing about the cursor cloud is the fact that you can connect all the MCPs that you had locally in the cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2079.891,
+            2087.042
+          ],
+          "quote": "PagerDuty, all of these things kind of live here and all you have to do is just add them with the plus symbol and Cursor will immediately start looking at them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2094.192,
+            2096.095
+          ],
+          "quote": "So I'm going to let Cursor work on this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2124.1,
+            2133.482
+          ],
+          "quote": "So ways that we've seen this at Cursor is we've gone through backlogs of tickets on Fridays because, you know, we just ask Cursor to do it and we come back on Monday and review the PRs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2170.709,
+            2174.352
+          ],
+          "quote": "This is the main agent run, very similar to what you see in regular cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2180.258,
+            2183.561
+          ],
+          "quote": "So Cursor Cloud Agents run on remote VMs, Linux VMs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2187.143,
+            2192.968
+          ],
+          "quote": "So if you have any full stack front end applications that need testing, Cursor can actually do that testing for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2200.373,
+            2208.9
+          ],
+          "quote": "But this is a video that's taken by Cursor of it implementing a feature that I asked it to implement of switching a theme in a code base.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2209.76,
+            2215.145
+          ],
+          "quote": "So this is Cursor using its own mouse, its own computer, and actually going in and testing something for me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2228.515,
+            2233.739
+          ],
+          "quote": "And by sending them off to Cursor Cloud agents, these agents can self-verify and let you know, like,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2264.169,
+            2272.215
+          ],
+          "quote": "So once Cursor starts making full changes to the code, you will start to see them here and it'll look like basically any form of like version control UI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2326.483,
+            2330.244
+          ],
+          "quote": "And let me actually go to the cursor app.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2340.907,
+            2344.408
+          ],
+          "quote": "And the Cursor app, again, is available on the App Store, but this is basically what it looks like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2430.145,
+            2433.967
+          ],
+          "quote": "Automations in cursor are basically scheduled or triggered cloud agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2696.327,
+            2698.888
+          ],
+          "quote": "So automations and cursor are really, really powerful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2714.294,
+            2717.755
+          ],
+          "quote": "It's a really great way of taking advantage of these cursor cloud agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2783.211,
+            2789.056
+          ],
+          "quote": "And here example is a video of Cursor kind of testing exactly what it did by migrating the feature over.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2797.423,
+            2800.806
+          ],
+          "quote": "You can even see that Cursor labels the different parts of the video.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2822.496,
+            2831.318
+          ],
+          "quote": "Just so you all can see what multi-ticket or multi-PR cloud agents look like, I asked Cursor to put up PRs for two JIRA tickets that I had earlier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2864.656,
+            2873.841
+          ],
+          "quote": "Okay, that's a little bit about migrations within Cursor that I kind of highlighted both what we do at Cursor versus also what I've seen out in the field.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2874.981,
+            2884.386
+          ],
+          "quote": "Some things that I do like to add is Cursor Cloud Agents is probably one of the best features I've seen for any AI product in a while.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2894.571,
+            2901.192
+          ],
+          "quote": "If you want to set up a cloud agent, all you do is cursor.com slash onboard, and it will walk you through the steps of creating a new environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2919.337,
+            2926.129
+          ],
+          "quote": "If you scroll down to our docs, let me see, cursor, cookbook, refactoring, code bases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2940.623,
+            2957.037
+          ],
+          "quote": "But generally what I recommend is going back to those four steps, use Canvas to audit and plan mode to strategize, use plugins to scope your tickets, hand off to cursor cloud agents, and then use automations to prevent something like this happening in the future.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2978.903,
+            2985.786
+          ],
+          "quote": "So environment keys, API keys, secrets, all of those things live in your Cursor Cloud environment setup.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2994.37,
+            2999.392
+          ],
+          "quote": "Set particular IPs to be allow listed so that Cursor can only, you know, access certain links.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3003.714,
+            3009.736
+          ],
+          "quote": "If you're ever curious about cloud agent security, we have a good, so everything kind of lives in cursor.com slash cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 661,
+          "t": [
+            3043.97,
+            3047.631
+          ],
+          "quote": "And a cool thing about plugins, if we go back to cursor,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3078.953,
+            3084.218
+          ],
+          "quote": "They have MCPs, but then they also have a ton of cool skills that I automatically get by default when I use the cursor plugin.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 683,
+          "t": [
+            3132.791,
+            3138.594
+          ],
+          "quote": "So you guys can get our full list of skills that we at Cursor use ourselves because we've kind of open sourced this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 685,
+          "t": [
+            3146.979,
+            3151.862
+          ],
+          "quote": "So using the create skill function within cursor and creating workflows that make sense for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 691,
+          "t": [
+            3191.315,
+            3197.4
+          ],
+          "quote": "So there are options if you want to interface with Cursor Cloud, but you have infra that you need to stay on your network.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3203.284,
+            3215.832
+          ],
+          "quote": "It is a good way to use cursor, but we do often see like some of our most secure customers use cursor cloud agents with one of these tools, or they just trust the cursor security that we've had around cloud agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3222.919,
+            3230.11
+          ],
+          "quote": "And then one other question on whether Cursor can learn and adapt to a team's collaborative work on a project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 703,
+          "t": [
+            3245.708,
+            3256.618
+          ],
+          "quote": "And this basically does exactly what you said, where if you add this plugin to Cursor, so I'll just add it for myself, you can see it actually add to what we have the agents.md file.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 708,
+          "t": [
+            3274.13,
+            3275.811
+          ],
+          "quote": "Cursor is working on memory management.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 719,
+          "t": [
+            3338.379,
+            3342.503
+          ],
+          "quote": "So you can reference past conversations in Cursor, actually.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 720,
+          "t": [
+            3342.523,
+            3349.929
+          ],
+          "quote": "So if I go to Cursor, if you ever want to use a past conversation as context, you can actually do at past.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 729,
+          "t": [
+            3374.797,
+            3377.858
+          ],
+          "quote": "But in cursor local, you can see your previous conversations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 730,
+          "t": [
+            3384.15,
+            3389.953
+          ],
+          "quote": "And actually, if you're ever curious about what Cursor Cloud has access to, we actually have a Cursor Cloud MCP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 731,
+          "t": [
+            3390.833,
+            3395.856
+          ],
+          "quote": "Reagan, if you can find the docs for that, it's just, it lives in our Cursor documentation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 732,
+          "t": [
+            3395.936,
+            3401.999
+          ],
+          "quote": "So if you ever want to use the Cursor Cloud MCP, you can use it for, here it is actually, I found it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 742,
+          "t": [
+            3455.549,
+            3466.813
+          ],
+          "quote": "If it's more so like a local file, for example, so when we go back to cursor here, you could actually have it access like a local plan if that plan is committed to your repo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 756,
+          "t": [
+            3511.99,
+            3515.49
+          ],
+          "quote": "I hope everyone is able to go and try out Cursor Cloud now.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：可以自主运行、合上笔记本仍继续工作、用截图视频和测试自我验证的开发智能体，官方称智能体窗口是 Cursor 开发的未来方向",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            293.962,
+            298.405
+          ],
+          "quote": "And then in the middle is the agent or the chat where you actually talk to Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            361.362,
+            366.243
+          ],
+          "quote": "Meaning that I can launch an agent and close my laptop and the agent will still continue to run.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            366.704,
+            374.326
+          ],
+          "quote": "And that's really great for these long migrations or refactoring projects, which you have to do a lot of back and forth with the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            374.826,
+            388.29
+          ],
+          "quote": "With the Cursor Cloud, you can actually just send off a large agent like we're going to do shortly and have that agent work on refactoring until it's finished and prove that it's actually done what it's supposed to with videos, screenshots, and testing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            389.327,
+            396.034
+          ],
+          "quote": "So the cursor browser is where we're going to actually be showing some of this today, but there are other places where you could use the cursor cloud agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            400.018,
+            409.488
+          ],
+          "quote": "So you can see here, we actually have a cursor agent that lives inside of our channel that is able to check whether our documentation online goes out of sync with our implementation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            555.118,
+            559.242
+          ],
+          "quote": "And we actually showed in this blog post that thanks to kind of our agent swarm,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            700.876,
+            719.719
+          ],
+          "quote": "Then we're going to hand off those tickets to a cursor cloud agent, and this is where you're going to see how you can have a local plan and a local set of tickets that you've made, but then you can delegate them to these autonomous cursor cloud agents that can go off and work on them with your laptop shut, with you on a walk, with you asleep, and then come back to you with the result.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            933.238,
+            935.44
+          ],
+          "quote": "While that's working, I'm gonna launch another agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1216.568,
+            1219.57
+          ],
+          "quote": "So for example, you have one agent running, but you want to look at another agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1228.996,
+            1231.218
+          ],
+          "quote": "And you can see kind of you have one agent running here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1231.658,
+            1235.381
+          ],
+          "quote": "In the meantime, you can kind of look and see at your other agent and how it's working.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1244.308,
+            1248.712
+          ],
+          "quote": "If I have a long running agent and I want to see like, hmm, what is it doing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1262.442,
+            1264.963
+          ],
+          "quote": "And this doesn't conflict at all with this parent agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1272.105,
+            1283.708
+          ],
+          "quote": "So I love using that sometimes when I have a long running agent because I can use it to kind of double click on a particular part of the code base or see kind of what's going on while my parent agent still continues to run.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1355.788,
+            1363.345
+          ],
+          "quote": "And then one other question around whether the IDE is a better place to generate code or our agent's window application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1378.65,
+            1382.072
+          ],
+          "quote": "I like the agents window because I spend most of my time in my agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1658.328,
+            1660.309
+          ],
+          "quote": "This is kind of when an agent is already running.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1702.061,
+            1721.545
+          ],
+          "quote": "And this is where you really see a huge gain in time and a huge kind of, I want to say, difference in effort for doing something like this because you can now send this off to a cloud agent and the cloud agent can now work on this while you close your laptop or while you work on something else that's not going to constrain your machine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1747.336,
+            1748.978
+          ],
+          "quote": "You can even launch a new agent here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1749.119,
+            1753.124
+          ],
+          "quote": "Instead of doing from Mac, you can hit cloud and it will automatically launch a cloud agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1757.699,
+            1762.183
+          ],
+          "quote": "So here is the cursor cloud agent browser interface.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1809.692,
+            1816.314
+          ],
+          "quote": "And then you can select as many different kind of services you want, and a cloud agent will work across all of those services.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1838.741,
+            1850.871
+          ],
+          "quote": "And this is important because cloud agents, because they can take a long time or they can send you back screenshots and videos of what they've done, they can use more tokens than a normal local agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2113.778,
+            2121.159
+          ],
+          "quote": "As we saw earlier, we have this plan, we edited it, we turned it into tickets, and now the tickets will actually be implemented by this cloud agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2166.665,
+            2169.948
+          ],
+          "quote": "While it's working, I'm gonna do a quick tour of just the cloud agent environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2170.709,
+            2174.352
+          ],
+          "quote": "This is the main agent run, very similar to what you see in regular cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2174.833,
+            2179.638
+          ],
+          "quote": "But what's nice about the cloud agent is you can also see that desktop that has access to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2344.468,
+            2346.829
+          ],
+          "quote": "So you can see here, I have one agent working.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2347.009,
+            2349.57
+          ],
+          "quote": "That's the JIRA Tickets agent that we just launched.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2360.735,
+            2364.236
+          ],
+          "quote": "And then the beautiful thing about mobile is that you can also just launch an agent from here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2364.616,
+            2368.785
+          ],
+          "quote": "So I can go ahead and just say, hey, I want to build an agent in this particular repository.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2372.011,
+            2374.216
+          ],
+          "quote": "And then I can just launch that agent and immediately.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2396.621,
+            2398.343
+          ],
+          "quote": "is a new cloud agent has been launched.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2570.886,
+            2578.972
+          ],
+          "quote": "I think it's a very kind of creative way to see what parts of your day can actually be done by an agent or actually be helped by an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2667.019,
+            2672.1
+          ],
+          "quote": "And you can see this is another time-based trigger, but the agent is an incident investigation automation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2720.401,
+            2725.324
+          ],
+          "quote": "With the last kind of five minutes I have, I do want to come back to our original cloud agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 596,
+          "t": [
+            2740.955,
+            2748.26
+          ],
+          "quote": "So if you ever want to add a follow-up, if you ever want to interfere with a cloud agent, or if you don't agree with what it's doing, you can always add that here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2751.622,
+            2756.324
+          ],
+          "quote": "The goal is for the cloud agent to do most of the work, but for you to still be in the loop when you want.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2894.571,
+            2901.192
+          ],
+          "quote": "If you want to set up a cloud agent, all you do is cursor.com slash onboard, and it will walk you through the steps of creating a new environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3000.152,
+            3002.893
+          ],
+          "quote": "So you can put all of those things inside of your cloud agent setup.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3003.714,
+            3009.736
+          ],
+          "quote": "If you're ever curious about cloud agent security, we have a good, so everything kind of lives in cursor.com slash cloud.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cloud-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "云端智能体 (cloud agent)",
+      "file": "云端智能体",
+      "primary": true,
+      "how_described": "本集把它说成：运行在远程 Linux 虚拟机上、可跨多仓库工作、一次完整迁移只花三四美元的自主智能体，被称为『很长一段时间以来最好的 AI 产品功能之一』",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            389.327,
+            396.034
+          ],
+          "quote": "So the cursor browser is where we're going to actually be showing some of this today, but there are other places where you could use the cursor cloud agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            700.876,
+            719.719
+          ],
+          "quote": "Then we're going to hand off those tickets to a cursor cloud agent, and this is where you're going to see how you can have a local plan and a local set of tickets that you've made, but then you can delegate them to these autonomous cursor cloud agents that can go off and work on them with your laptop shut, with you on a walk, with you asleep, and then come back to you with the result.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1702.061,
+            1721.545
+          ],
+          "quote": "And this is where you really see a huge gain in time and a huge kind of, I want to say, difference in effort for doing something like this because you can now send this off to a cloud agent and the cloud agent can now work on this while you close your laptop or while you work on something else that's not going to constrain your machine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1749.119,
+            1753.124
+          ],
+          "quote": "Instead of doing from Mac, you can hit cloud and it will automatically launch a cloud agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1757.699,
+            1762.183
+          ],
+          "quote": "So here is the cursor cloud agent browser interface.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1809.692,
+            1816.314
+          ],
+          "quote": "And then you can select as many different kind of services you want, and a cloud agent will work across all of those services.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2113.778,
+            2121.159
+          ],
+          "quote": "As we saw earlier, we have this plan, we edited it, we turned it into tickets, and now the tickets will actually be implemented by this cloud agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2166.665,
+            2169.948
+          ],
+          "quote": "While it's working, I'm gonna do a quick tour of just the cloud agent environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2174.833,
+            2179.638
+          ],
+          "quote": "But what's nice about the cloud agent is you can also see that desktop that has access to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2396.621,
+            2398.343
+          ],
+          "quote": "is a new cloud agent has been launched.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2720.401,
+            2725.324
+          ],
+          "quote": "With the last kind of five minutes I have, I do want to come back to our original cloud agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 596,
+          "t": [
+            2740.955,
+            2748.26
+          ],
+          "quote": "So if you ever want to add a follow-up, if you ever want to interfere with a cloud agent, or if you don't agree with what it's doing, you can always add that here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2751.622,
+            2756.324
+          ],
+          "quote": "The goal is for the cloud agent to do most of the work, but for you to still be in the loop when you want.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2894.571,
+            2901.192
+          ],
+          "quote": "If you want to set up a cloud agent, all you do is cursor.com slash onboard, and it will walk you through the steps of creating a new environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3000.152,
+            3002.893
+          ],
+          "quote": "So you can put all of those things inside of your cloud agent setup.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3003.714,
+            3009.736
+          ],
+          "quote": "If you're ever curious about cloud agent security, we have a good, so everything kind of lives in cursor.com slash cloud.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "refactoring",
+      "type": "concept",
+      "role": "concept",
+      "name": "重构 (refactoring)",
+      "file": "重构",
+      "primary": true,
+      "how_described": "本集主题本身：给出用 AI 重构遗留代码库的四步法——Canvas 审计、plan 模式定策略、拆 JIRA 工单、云端智能体逐单执行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            4.93,
+            8.993
+          ],
+          "quote": "If you are in refactoring legacy code bases with Cursor, you are in the right place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            118.831,
+            122.172
+          ],
+          "quote": "And we are hosting Refactoring Legacy Codebases with Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            207.136,
+            209.618
+          ],
+          "quote": "So today's session is about refactoring Lexi code bases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            263.411,
+            276.114
+          ],
+          "quote": "And today I want to speak a little bit as to what makes Cursor different and why I like to especially do really large migrations, refactoring, any work basically in monorepos or multiple services within Cursor specifically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            366.704,
+            374.326
+          ],
+          "quote": "And that's really great for these long migrations or refactoring projects, which you have to do a lot of back and forth with the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            374.826,
+            388.29
+          ],
+          "quote": "With the Cursor Cloud, you can actually just send off a large agent like we're going to do shortly and have that agent work on refactoring until it's finished and prove that it's actually done what it's supposed to with videos, screenshots, and testing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            620.818,
+            632.502
+          ],
+          "quote": "All of these tools make it so that using these models in cursor actually make it more powerful for refactoring large code bases or migrating from one version of SQL Alchemy to the next.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            665.678,
+            670.659
+          ],
+          "quote": "Now I'm going to talk about what are the best ways to actually do a refactoring with cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            671.259,
+            680.121
+          ],
+          "quote": "And we're going to go through a couple steps today, four steps actually, which I've seen both internally for refactoring as well as what I've seen with customers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2220.569,
+            2225.753
+          ],
+          "quote": "And so when you're doing migrations or when you're doing refactoring, you always want to make sure that you're not breaking anything, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2240.929,
+            2248.46
+          ],
+          "quote": "And so by doing that, you're kind of given more confidence and trust with these agents that they are able to do the refactoring without having to break anything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2414.815,
+            2418.118
+          ],
+          "quote": "We're gonna come back and see how this refactoring migration does.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2625.559,
+            2633.626
+          ],
+          "quote": "And so this is where these cloud agents' automations come in is that they're able to do things ahead of time so that you can avoid having to do refactoring in the future.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2919.337,
+            2926.129
+          ],
+          "quote": "If you scroll down to our docs, let me see, cursor, cookbook, refactoring, code bases.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "plan-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "plan 模式 (plan mode)",
+      "file": "plan 模式",
+      "primary": true,
+      "how_described": "本集把它说成：输出是 markdown 文档、永远不会写代码只写策略的模式，配合 Ask Question 工具让智能体动笔前先追问范围",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            681.021,
+            687.582
+          ],
+          "quote": "The first is we're going to use cursor canvas to audit our code base and use cursor plan mode to strategize what we're going to migrate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            936.301,
+            938.863
+          ],
+          "quote": "And this is actually where I'm going to go into plan mode.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1066.688,
+            1071.15
+          ],
+          "quote": "But the cool thing about plan mode, as I mentioned, is the output is a markdown file.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1072.23,
+            1075.711
+          ],
+          "quote": "Cursor is never going to go in and actually make or write code in plan mode.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1636.794,
+            1651.5
+          ],
+          "quote": "I'm going to exit out of plan mode now and I'm going to say divide this plan into JIRA tickets and publish them to the WordPress space I have in Atlassian.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2940.623,
+            2957.037
+          ],
+          "quote": "But generally what I recommend is going back to those four steps, use Canvas to audit and plan mode to strategize, use plugins to scope your tickets, hand off to cursor cloud agents, and then use automations to prevent something like this happening in the future.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把它说成：把 Atlassian、Datadog、Figma、Google 等外部工具接进 Cursor（本地和云端通用）的插件/集成体系",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            1098.181,
+            1099.943
+          ],
+          "quote": "You can give it data from an MCP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1462.752,
+            1465.375
+          ],
+          "quote": "And the way we're going to do that is via the Atlassian MCP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2056.965,
+            2060.246
+          ],
+          "quote": "And now it's actually going to use the JIRA MCP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2512.512,
+            2516.515
+          ],
+          "quote": "You can cross check with, and I can actually tag an MCP here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2520.478,
+            2523.541
+          ],
+          "quote": "MCP, Statsig.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2525.222,
+            2526.663
+          ],
+          "quote": "I can add a custom MCP for it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            3075.77,
+            3078.933
+          ],
+          "quote": "They have, oh, that's just the MCP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 730,
+          "t": [
+            3384.15,
+            3389.953
+          ],
+          "quote": "And actually, if you're ever curious about what Cursor Cloud has access to, we actually have a Cursor Cloud MCP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 732,
+          "t": [
+            3395.936,
+            3401.999
+          ],
+          "quote": "So if you ever want to use the Cursor Cloud MCP, you can use it for, here it is actually, I found it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pr",
+      "type": "concept",
+      "role": "concept",
+      "name": "PR",
+      "file": "PR",
+      "primary": true,
+      "how_described": "本集反复强调：永远一工单一 PR、绝不搞塞几千行的巨型 PR，否则没法 review",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            410.048,
+            420.858
+          ],
+          "quote": "And this is really great because it can open up a PR, it can have someone review it, and it automatically gives you just visibility into what cursor is doing without you ever having to open the cursor app or the browser.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1994.316,
+            2004.926
+          ],
+          "quote": "Put up a separate PR for each ticket and make sure that you verify your changes using screenshots or video recordings.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2101.536,
+            2113.758
+          ],
+          "quote": "You want to make sure that it's not putting everything into one giant PR because that's just so untenable to review, but it's also really good for kind of walking through the steps that it's going to take.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2276.959,
+            2279.92
+          ],
+          "quote": "But at the end, I can show you kind of an open PR I had earlier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2299.491,
+            2303.894
+          ],
+          "quote": "And then once you're ready, you can go ahead and just open up that PR and have someone review it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2444.635,
+            2447.157
+          ],
+          "quote": "So a PR being opened, a label being changed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2543.819,
+            2559.325
+          ],
+          "quote": "I could say, put up a PR with the remove flags and tests confirming that removing the flags has not introduced any regressions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2559.405,
+            2564.547
+          ],
+          "quote": "And then I can even say, send me a Slack message with the PR once you are finished.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2585.436,
+            2592.081
+          ],
+          "quote": "I'll have to connect my Slack instance, but this is kind of an example to show you that you can say it will just DM me a message with the PR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2813.253,
+            2818.195
+          ],
+          "quote": "Right now, you know, this PR is already pretty big, so maybe I'd want to just scope it just to these two components.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2822.496,
+            2831.318
+          ],
+          "quote": "Just so you all can see what multi-ticket or multi-PR cloud agents look like, I asked Cursor to put up PRs for two JIRA tickets that I had earlier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2831.878,
+            2841.384
+          ],
+          "quote": "And you can see here, if I actually open this, you can actually toggle between these two PRs and kind of go through each one and see what one PR did versus the other.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2841.765,
+            2849.39
+          ],
+          "quote": "And so when you have a whole stack of PRs that are working on a migration, you can kind of go between all of them and see what each PR actually covered.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2850.191,
+            2856.981
+          ],
+          "quote": "And so that is a really great way, again, to use cloud agents because you don't want one giant PR with thousands of lines of code.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "test-coverage",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试覆盖率 (test coverage)",
+      "file": "测试覆盖率",
+      "primary": true,
+      "how_described": "本集把它说成：迁移前用 Canvas 可视化审计的对象，标出缺口和迁移后应补测试的位置",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            843.22,
+            847.902
+          ],
+          "quote": "And I'm going to see what tests currently are here and what can be improved for test coverage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            894.387,
+            906.273
+          ],
+          "quote": "Slash canvas is something that everyone should have access to that analyzes test coverage for this code base, highlights any gaps,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            908.087,
+            923.205
+          ],
+          "quote": "and presents the information to me about where I can add more test coverage if I migrate this to React, this code base.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1155.02,
+            1167.116
+          ],
+          "quote": "I like using it as a way to, again, print out test coverage docs or anything around coverage generally before I do a migration, because it's a really great way, again, to visualize your code base in a very fast and easy way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2649.075,
+            2651.475
+          ],
+          "quote": "So you can see there's one for adding test coverage.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "automations",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动化 (automations)",
+      "file": "自动化",
+      "primary": true,
+      "how_described": "本集把它说成：被调度或被触发的云端智能体，现场演示了每周清理陈旧 feature flag 的『防回潮』自动化，让维护从被动救火变主动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            720.819,
+            731.994
+          ],
+          "quote": "And then lastly, I'm going to talk about automations and cursor and how you can build workflows and tools to maintain a really good level of quality and stability for whatever you've refactored or migrated over.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2422.101,
+            2424.703
+          ],
+          "quote": "But while this is working, I wanna talk a little bit about automations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2430.145,
+            2433.967
+          ],
+          "quote": "Automations in cursor are basically scheduled or triggered cloud agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2455.485,
+            2464.134
+          ],
+          "quote": "So a lot of times I've seen automations being built for when you drag one ticket from to do to in progress because you could just set up a Jira webhook.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2464.694,
+            2470.837
+          ],
+          "quote": "So automations are really great for, you know, expediting workflows, but they're also really great for maintenance and stability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2569.425,
+            2570.786
+          ],
+          "quote": "I really love creating automations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2625.559,
+            2633.626
+          ],
+          "quote": "And so this is where these cloud agents' automations come in is that they're able to do things ahead of time so that you can avoid having to do refactoring in the future.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2638.97,
+            2641.573
+          ],
+          "quote": "And so automations are a great way to go about that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2696.327,
+            2698.888
+          ],
+          "quote": "So automations and cursor are really, really powerful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2705.43,
+            2713.633
+          ],
+          "quote": "I think it makes coding really enjoyable, but it's also very powerful depending on, you know, whether you chain automations together or whether you set up custom webhooks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2940.623,
+            2957.037
+          ],
+          "quote": "But generally what I recommend is going back to those four steps, use Canvas to audit and plan mode to strategize, use plugins to scope your tickets, hand off to cursor cloud agents, and then use automations to prevent something like this happening in the future.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 711,
+          "t": [
+            3282.095,
+            3285.898
+          ],
+          "quote": "And we actually have a version of it in specifically our automations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 712,
+          "t": [
+            3286.459,
+            3295.005
+          ],
+          "quote": "So if you go to your automations and let's actually go to this one here, you'll notice that every automation has something called a memories.md file.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 713,
+          "t": [
+            3295.485,
+            3298.708
+          ],
+          "quote": "This is how automations learn to get better each time they run.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 716,
+          "t": [
+            3314.608,
+            3319.22
+          ],
+          "quote": "So memories.md and automations is kind of our also solution to that in the cloud.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "feature-flag",
+      "type": "concept",
+      "role": "concept",
+      "name": "feature flag",
+      "file": "feature flag",
+      "primary": true,
+      "how_described": "本集用它做自动化示例：每周扫描仓库找出 30 天未使用的陈旧 flag，与 Datadog/Sentry 交叉核对后提交删除 PR",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 536,
+          "t": [
+            2473.759,
+            2480.802
+          ],
+          "quote": "I like to call it my feature flag cleaner because this was an automation that I wish I had back when I was an engineer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2602.845,
+            2605.186
+          ],
+          "quote": "So you can do this for feature flag cleanup.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集把它说成：Cursor 在平台与模型之间的层——工具执行、缓存管理、动态上下文管理、上下文组装，是重构大代码库真正发力的地方",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            590.119,
+            599.086
+          ],
+          "quote": "So now I want to talk a little bit about, you know, the cursor harness is what we call it, but what lives between the platform, which we introduced cursor with, and then the model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            608.674,
+            614.196
+          ],
+          "quote": "But in between all of those, we have what we call the cursor harness, which is made up of all of these different things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            639.805,
+            641.946
+          ],
+          "quote": "There's also the harness that we provide on top of it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            642.447,
+            646.909
+          ],
+          "quote": "And if you want more technical details about the harness, feel free to check out this blog post from April.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "composer",
+      "type": "concept",
+      "role": "concept",
+      "name": "Composer",
+      "file": "Composer",
+      "primary": false,
+      "how_described": "本集提到：Cursor 自家的内部模型，被归为更偏执行导向、便宜快速的模型之一，适合云端批量执行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            463.117,
+            472.503
+          ],
+          "quote": "So Kimi, GLM, and then obviously our own in-house models, Composer being one of them, and then Grok46 actually being the latest and greatest of them all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            502.712,
+            518.221
+          ],
+          "quote": "So it's a little bit more expensive than Composer and GPT, which are more kind of execution-focused models, but for how powerful it is and how capable it is of doing long-running tasks, it's very inexpensive compared to some of these other frontier labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1856.816,
+            1859.737
+          ],
+          "quote": "Grok 4.6, Composer 2.5, GPT 5.6.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2010.148,
+            2011.169
+          ],
+          "quote": "Sometimes I use Composer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

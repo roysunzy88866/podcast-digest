@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bolt":3,"StackBlitz":1,"云 IDE":1,"vibe coding":31,"智能体":224,"开放权重":4,"开源":20,"按用量定价":2,"按席位收费":1,"SaaS":15}</script>
+<script type="application/json" class="pd-epn">{"Bolt":3,"StackBlitz":1,"云 IDE":1,"vibe coding":32,"智能体":226,"开放权重":4,"开源":20,"按用量定价":2,"按席位收费":1,"SaaS":15}</script>
 
 <script>
 (function(){

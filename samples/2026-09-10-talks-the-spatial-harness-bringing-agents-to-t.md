@@ -89,9 +89,9 @@ Fairies 的局限是「被困在画布里」——整个 harness 必须是画布
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、编码智能体 (coding agent)</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、沙箱 (harness)</span>
 - [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|Factory CEO Matan:早两年等于错，退款、路由器与软件工厂]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、沙箱 (harness)</span>
-- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

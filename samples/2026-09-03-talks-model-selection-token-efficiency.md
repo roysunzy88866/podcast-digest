@@ -149,9 +149,9 @@ Santi 称这是全场最有价值的一条：用智能体之前先规划。太�
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-09-03-talks-refactoring-legacy-codebases|用 Cursor 重构遗留代码库：从 PHP 到 React 的完整工作流]]<span class="pd-rz">同公司:Cursor · 同概念:harness、智能体 (agent)、规划模式 (Plan Mode)、MCP</span>
 - [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同公司:Cursor · 同概念:智能体 (agent)、规划模式 (Plan Mode)</span>
 - [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]]<span class="pd-rz">同概念:harness、压缩 (compaction)、智能体 (agent)</span>
-- [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同公司:Cursor · 同概念:智能体 (agent)、harness、token、技能 (skills)</span>
 
 </div>
 <div class="pd-ex">

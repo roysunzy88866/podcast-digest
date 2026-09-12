@@ -168,8 +168,8 @@ Kitsa 的观点很直白：这个行业大多数人是"薪水过高用来瞎搞"
 **换个口味**
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Claude、Codex、Cursor · 同概念:护栏 (guardrails)、智能体 (agent)</span>
+- [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Codex、Cursor · 同概念:循环 (loop)、智能体 (agent)、vibe coding</span>
 - [[2026-09-06-lennys-why-companies-are-becoming-a-series|a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小]]<span class="pd-rz">同公司:Codex、Cursor · 同概念:循环 (loop)、智能体 (agent)</span>
-- [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史]]<span class="pd-rz">同公司:Claude、Codex · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

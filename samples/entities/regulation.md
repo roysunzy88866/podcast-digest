@@ -37,7 +37,7 @@ unlisted: true
 
 [[Theo Jaffe]] · [[Andrew Chen]] · [[Sofia Puccini]] · [[Matt Perault]] · [[Steven Sinofsky]] · [[a16z]] · [[监管俘获]] · [[Speedrun]] · [[precautionary principle]] · [[小科技]]
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":6,"Andrew Chen":1,"Sofia Puccini":4,"Matt Perault":1,"Steven Sinofsky":2,"a16z":13,"监管俘获":3,"Speedrun":1,"precautionary principle":1,"小科技":1}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":6,"Andrew Chen":1,"Sofia Puccini":4,"Matt Perault":1,"Steven Sinofsky":2,"a16z":14,"监管俘获":3,"Speedrun":1,"precautionary principle":1,"小科技":1}</script>
 
 <script>
 (function(){

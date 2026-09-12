@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"SubQuadratic":1,"稀疏注意力":1,"上下文工程":12,"智能体":224,"RAG":9,"预训练":6,"DeepSeek Sparse Attention":1,"KVCache":1,"transformer":6,"Opus 4.6":1}</script>
+<script type="application/json" class="pd-epn">{"SubQuadratic":1,"稀疏注意力":1,"上下文工程":12,"智能体":226,"RAG":9,"预训练":6,"DeepSeek Sparse Attention":1,"KVCache":1,"transformer":6,"Opus 4.6":1}</script>
 
 <script>
 (function(){

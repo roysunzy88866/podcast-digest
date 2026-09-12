@@ -151,9 +151,9 @@ Speechify 内部用 [[Claude Code|Claude Code]](第一)、Cursor、Codex,把 Lin
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Anthropic、Claude Code、OpenAI、Codex、Cursor · 同概念:循环 (loop)、智能体 (agent)</span>
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:GPU、推理 (inference)、智能体 (agent)</span>
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、Cursor · 同概念:GPU</span>
 
 </div>
 <div class="pd-ex">

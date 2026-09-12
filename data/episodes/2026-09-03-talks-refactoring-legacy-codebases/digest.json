@@ -1,0 +1,142 @@
+{
+  "title_zh": "用 Cursor 重构遗留代码库：从 PHP 到 React 的完整工作流",
+  "tldr": "Cursor 现场工程师 Amrita 演示重构遗留代码库的完整流程：审计、规划、拆工单、云端智能体执行与自动化维护。",
+  "digest_md": "这一集是 Cursor 官方的一场实操研讨会，主题是「用 Cursor 重构遗留代码库」。主讲人是 Amrita,她在加入 Cursor 做现场工程师之前是一名软件工程师，今天她用真实的 WordPress 开源仓库做演示——那里面大量组件还是 PHP 写的老代码——现场跑一遍完整的迁移流程，把 PHP 组件迁移到 React。她开场抛出的钩子很具体：同样的迁移，云端智能体可以合上笔记本让它自己干，一次完整迁移可能只花三四美元。\n\n先说为什么是 Cursor。它有四种使用形态：IDE(VS Code 的一个 fork,喜欢原版调试器和扩展的人可以留下)、独立的智能体窗口(你的智能体按仓库排在旁边，是官方眼中的发展方向)、cursor CLI(适合保留 TMUX 工作流、或在 Android Studio/Xcode 这类没有原生 Cursor 方案的 IDE 里干活)，以及今天的主角 Cursor Cloud Agents——运行在远程 Linux 虚拟机上的自主智能体，你可以启动任务后合上笔记本，它继续跑，完成后用视频、截图和测试证明自己确实做完了。云端智能体还能接进 Slack(比如自动检查在线文档和实现是否脱节、开 PR 供人审查)和 iOS 移动应用(可以从手机启动智能体、从本地转到云端继续处理)。\n\n模型灵活性是另一个卖点。Cursor 聚合了各大前沿实验室的模型加开源模型(Kimi、GLM、自家的 Composer,以及刚发布的 Grok 4.6),但真正的价值在于**组合**：官方做过一个从零重建 SQLite 的案例研究，用一个更重型的模型做规划、一个更偏执行的模型写代码，总成本比单用 Fable 或单用 GPT-5.5 便宜得多。Amrita 自己的选择是：写计划用 GPT-5.6 Sol,因为它「写得比 Grok 好」；云端批量执行用 Grok 4.6,因为她「通常避开 Anthropic 模型，它们往往比较贵」。而且模型不是全部——模型之上还有 Cursor 的 harness(工具执行、缓存管理、动态上下文管理、上下文组装这一层)，这才是重构大代码库时真正发力的地方。\n\n## 第一步：用 Canvas 审计 + Plan 模式定策略\n\n方法论一共四步：审计、规划、拆工单、云端执行，最后加一层自动化防回潮。\n\n审计用内置的 slash canvas:一句话让它分析代码库的测试覆盖率、标出缺口、并展示迁移到 React 后应在哪里补测试。Canvas 会生成可交互的可视化——按管理后台页面列出覆盖情况、标注「建议接下来迁移的」「之后的」「已在 React 里的」，还能一句话改成柱状图。Canvas 可以发布成链接分享给同团队的人(团队外打不开)，也能下载成 PDF。Amrita 把它当作迁移前快速「可视化代码库」的标准动作。\n\n规划切到 plan 模式(输出是 markdown 文档，它永远不会在 plan 模式里写代码)，并让她把要求写具体：迁移遗留组件、加测试验证无回归、**画出当前架构图和迁移后的目标架构图**(Cursor 用 mermaid 画图，也可以连到 Lucidchart、FigJam 输出)。关键动作是让智能体尽早来问你：它内置 Ask Question 工具，会追问「遗留组件太模糊，范围是什么？」,你可以配置成至少问五个问题再动笔。计划遵循存在 Confluence 里的统一模板，产出包含功能/非功能需求、高层方案、现状与目标架构图、API 设计、数据模型和 feature flag 变更。\n\n## 第二步：用插件把计划拆成 JIRA 工单\n\n计划写好后，让她「把计划拆分为 JIRA 工单，发布到 Atlassian 的 WordPress 空间」。这靠的是 Cursor 的插件体系：Atlassian(Jira)、Datadog、Figma,以及新上的 Google Drive / Google Calendar / Gmail 都能直接接。生成的每个工单自带目标、范围、验收标准、测试、依赖和备注，并自动分成多个阶段。多个不相关的任务还能开多任务模式并行处理。\n\n## 第三步：交给云端智能体，合上笔记本\n\n接下来是本场最有含金量的部分：在 cursor.com/agents 里，她只说「找到 WordPress 看板上所有指派给我的 JIRA 工单并全部处理，**每个工单单独开一个 PR**,并用截图或录像验证更改」。\n\n几个关键细节：\n\n- **多仓库**：云端智能体可以一次连多个仓库跨服务工作，官方称之为巨大差异化优势——改一个内部 SDK 的字段，所有依赖的客户端服务都能一起更新。\n- **成本**：云端智能体因为跑得久、还会回传截图视频，token 消耗比本地高，所以要选便宜快的模型(Grok 4.6、Composer 2.5、GPT-5.6),一次完整迁移约三四美元。\n- **环境**：首次搭建约 10-20 分钟，之后以「build」保存，后续秒起；本地的 MCP(Atlassian、Datadog 等)可以直接搬进云端。\n- **自我验证**：云端智能体跑在带鼠标的 Linux 虚拟机上，能自己打开应用点击测试。她展示了之前一次 PHP→React 迁移的成品视频——Cursor 自己点登录、看评论、看用户，给视频各段加标注，证明迁移没引入回归。不想等的话还有「长时间运行智能体」模式，适合依赖更新、Python 版本升级这类要跑到测完为止的活。\n- **多 PR 而不是巨型 PR**:一个塞几千行的 PR 根本没法 review,正确姿势是一工单一 PR,然后在不同 PR 之间切换着看各自覆盖了什么。\n\nCursor 内部实际的用法：周五让 Cursor 清积压工单，周一回来 review PR;分布在不同时区的团队可以靠云端智能体异步接力——一个团队睡觉，另一个团队接上。\n\n## 第四步：用自动化防回潮\n\n自动化(Automations)本质上就是「被调度或被触发的云端智能体」，触发方式包括时间、事件(PR 被打开、标签变更)、Slack/Teams 新消息、自定义 webhook(常见用法：Jira 工单从 to do 拖到 in progress 就自动触发)。\n\nAmrita 现场建了一个「feature flag 清理器」：每周扫一遍仓库，找出过去 30 天没被使用的陈旧 feature flag,和 Datadog、Sentry 交叉核对确认没有问题，提交删除的 PR 并附上确认无回归的测试，完成后 Slack 私信她 review。她点破了这步的意义：遗留代码库沦落到要大重构，往往就是因为不够主动——依赖没更新、事情没提前做。自动化让你「防患于未然」，从被动救火变成主动维护。不想从零建的话有现成模板：补测试覆盖、扫漏洞、事件分流(他们自己 on-call 就在用类似的——凌晨三点不叫醒人，先自动初查再发简报给值班者)。\n\n## 问答里值得记的几点\n\n- 云环境的 API 密钥、机密、IP 允许列表都在环境设置里配置；企业数据存哪、存多久有专门文档。\n- 私有网络接入：不在 AWS 用 Cloudflare Tunnel,在 AWS 用 PrivateLink,也有 Tailscale/VPN 方案；还有自托管云智能体选项，但他们更常看到安全要求最高的客户直接用托管方案。\n- 团队协作风格的学习：Continual Learning 插件会往 agents.md 里写你的写作/编码风格，可做团队级；automations 则各自有 memories.md 文件，每次运行后从你的反馈中学习、越跑越好。\n- 想了解 Cursor Cloud 能访问什么，有一个 Cursor Cloud MCP,可以用来诊断失败的 run 和环境配置问题。\n- 本地可以用「@ chats」引用过去的对话作上下文，但这套是否延伸到云端她当场测了、表示要再确认。\n\n## 本集带走\n\n- **四步法**：Canvas 审计覆盖率 → plan 模式定策略(要求画现状+目标架构图)→ Atlassian MCP 拆成带验收标准的分阶段 JIRA 工单 → 云端智能体逐单执行、每单一 PR。\n- **让智能体先问你**：进 plan 模式后主动让它追问范围(可配置至少五问)，比事后返工便宜得多。\n- **云端选便宜快的模型**：云端跑得久、耗 token 多，规划用重型模型、执行用便宜的，SQLite 案例证明组合比单模型便宜得多。\n- **永远多 PR,不搞巨型 PR**:几千行的 PR 没法 review;一工单一 PR 才能逐个核对覆盖范围。\n- **用自动化消灭未来的重构**：feature flag 清理、依赖更新、漏洞扫描这类活交给定时/事件触发的智能体，遗留代码是「不够主动」攒出来的。\n- **让智能体自我验证**：要求它交截图、录屏、端到端测试来证明没引入回归，你对它的信任才立得住。",
+  "quotes": [
+    {
+      "en": "So this is a huge differentiator within Cursor, multi-repo cloud agents, because the reality is, unless you have a monorepo or unless you're working in smaller repos, you probably do want context from one repo going into another.",
+      "zh": "这是 Cursor 内部的一个巨大差异化优势——多仓库云端智能体，因为现实是，除非你有 monorepo 或者在小仓库里工作，你很可能确实希望一个仓库的上下文进入另一个仓库。",
+      "timestamp": "30:16",
+      "speaker": "Amrita"
+    },
+    {
+      "en": "These are all models you can only get in Cursor because these cloud agents are able to use them in a really fast, efficient way and only cost you maybe like three or four dollars for an entire migration.",
+      "zh": "这些都是你只能在 Cursor 得到的模型，这些云端智能体能以非常快速高效的方式使用它们，而且一次完整的迁移可能只花你三四美元。",
+      "timestamp": "31:00",
+      "speaker": "Amrita"
+    },
+    {
+      "en": "Some things that I do like to add is Cursor Cloud Agents is probably one of the best features I've seen for any AI product in a while.",
+      "zh": "我还想补充的一点是，Cursor 云端智能体可能是很长一段时间以来我在任何 AI 产品中见过的最好的功能之一。",
+      "timestamp": "47:54",
+      "speaker": "Amrita"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "06:06",
+      "speaker": "Unknown",
+      "en": "And that's really great for these long migrations or refactoring projects, which you have to do a lot of back and forth with the agent.",
+      "zh": "对于这些漫长的迁移或重构项目来说这非常棒，因为你需要和智能体做大量的来回交互。"
+    },
+    {
+      "timestamp": "09:28",
+      "speaker": "Unknown",
+      "en": "So it kind of highlights the importance of having a wide range of models because models are good at different things and they should be leveraged for different things.",
+      "zh": "这凸显了拥有广泛模型的重要性，因为模型擅长不同的事情，它们应该被用于不同的事情。"
+    },
+    {
+      "timestamp": "16:55",
+      "speaker": "Unknown",
+      "en": "It's a better writer than Grok.",
+      "zh": "它写得比 Grok 还好。"
+    },
+    {
+      "timestamp": "17:55",
+      "speaker": "Unknown",
+      "en": "It's only going to write you a strategy.",
+      "zh": "它只会给你写一份策略。"
+    },
+    {
+      "timestamp": "18:19",
+      "speaker": "Unknown",
+      "en": "In this case, it took data from the code base.",
+      "zh": "在这个例子里，它从代码库获取了数据。"
+    },
+    {
+      "timestamp": "19:42",
+      "speaker": "Unknown",
+      "en": "So it's a living, breathing document that is really easy to spin up.",
+      "zh": "所以它是一份活生生、会呼吸的文档，而且非常容易创建。"
+    },
+    {
+      "timestamp": "23:10",
+      "speaker": "Unknown",
+      "en": "We will never stop supporting the IDE.",
+      "zh": "我们永远不会停止支持 IDE。"
+    },
+    {
+      "timestamp": "30:16",
+      "speaker": "Unknown",
+      "en": "So this is a huge differentiator within Cursor, multi-repo cloud agents, because the reality is, unless you have a monorepo or unless you're working in smaller repos, you probably do want context from one repo going into another.",
+      "zh": "这是 Cursor 内部的一个巨大差异化优势——多仓库云端智能体，因为现实是，除非你有 monorepo 或者在小仓库里工作，你很可能确实希望一个仓库的上下文进入另一个仓库。"
+    },
+    {
+      "timestamp": "30:51",
+      "speaker": "Unknown",
+      "en": "So you want to make sure that you actually have cheaper, faster models for your cloud agents.",
+      "zh": "所以你要确保你的云端智能体实际上用的是更便宜、更快的模型。"
+    },
+    {
+      "timestamp": "31:00",
+      "speaker": "Unknown",
+      "en": "These are all models you can only get in Cursor because these cloud agents are able to use them in a really fast, efficient way and only cost you maybe like three or four dollars for an entire migration.",
+      "zh": "这些都是你只能在 Cursor 得到的模型，这些云端智能体能以非常快速高效的方式使用它们，而且一次完整的迁移可能只花你三四美元。"
+    },
+    {
+      "timestamp": "33:32",
+      "speaker": "Unknown",
+      "en": "I usually stay away from Anthropic models here because they can tend to be pricey.",
+      "zh": "我在这里通常避开 Anthropic 模型，因为它们往往比较贵。"
+    },
+    {
+      "timestamp": "35:01",
+      "speaker": "Unknown",
+      "en": "You want to make sure that it's not putting everything into one giant PR because that's just so untenable to review, but it's also really good for kind of walking through the steps that it's going to take.",
+      "zh": "你要确保它不会把所有东西都塞进一个巨大的 PR,因为那样的 PR 根本没法 review,而且多工单也很适合走查它要执行的各个步骤。"
+    },
+    {
+      "timestamp": "35:36",
+      "speaker": "Unknown",
+      "en": "So it's a really great way to just basically have always on agents that work for you.",
+      "zh": "所以这基本上是一种非常好的方式，拥有全天候为你工作的智能体。"
+    },
+    {
+      "timestamp": "37:08",
+      "speaker": "Unknown",
+      "en": "And by sending them off to Cursor Cloud agents, these agents can self-verify and let you know, like,",
+      "zh": "把它们交给 Cursor 云端智能体，这些智能体可以自我验证并让你知道。"
+    },
+    {
+      "timestamp": "43:54",
+      "speaker": "Unknown",
+      "en": "That's always been my mentality with engineering is that you want to try and nip it in the bud.",
+      "zh": "这一直是我在工程上的心态：你要尽力防患于未然。"
+    },
+    {
+      "timestamp": "43:45",
+      "speaker": "Unknown",
+      "en": "And so this is where these cloud agents' automations come in is that they're able to do things ahead of time so that you can avoid having to do refactoring in the future.",
+      "zh": "所以这就是云端智能体自动化的用武之地——它们能够提前把事情做好，从而让你避免将来不得不做重构。"
+    },
+    {
+      "timestamp": "47:37",
+      "speaker": "Unknown",
+      "en": "You want multiple PRs that are tackling separate components or separate services.",
+      "zh": "你想要的是多个 PR,各自处理不同的组件或不同的服务。"
+    },
+    {
+      "timestamp": "54:55",
+      "speaker": "Unknown",
+      "en": "This is how automations learn to get better each time they run.",
+      "zh": "这就是自动化每次运行时学习变得更好的方式。"
+    },
+    {
+      "timestamp": "47:54",
+      "speaker": "Unknown",
+      "en": "Some things that I do like to add is Cursor Cloud Agents is probably one of the best features I've seen for any AI product in a while.",
+      "zh": "我还想补充的一点是，Cursor 云端智能体可能是很长一段时间以来我在任何 AI 产品中见过的最好的功能之一。"
+    }
+  ],
+  "voice_script": "今天咱们聊一场很实在的实操演示，主角是 Cursor 的现场工程师 Amrita。加入 Cursor 之前她本身就是软件工程师，所以讲东西特别落地。这期她干的活是：拿真实的 WordPress 开源仓库，里面一堆组件还是 PHP 写的老代码，现场演示怎么用 Cursor 把这些老组件迁移到 React,而且把完整流程走了一遍。\n\n为什么这事值得听？她说了一个很具体的数字：同样的迁移，交给云端智能体，你可以合上笔记本让它自己干，一次完整迁移可能只花三四美元。这个价格听着不像重构一个遗留代码库，倒像买杯咖啡。\n\n先交代一下 Cursor 有哪几种用法，不然后面听不懂。第一种是 IDE,就是 VS Code 的一个分支，喜欢原版调试器和扩展的人可以继续用。第二种是独立的智能体窗口，你的智能体按仓库排在旁边，官方认为这是发展方向。第三种是命令行工具，适合保留 TMUX 工作流的人，或者在 Android Studio、Xcode 这类没有原生 Cursor 的环境里干活。第四种是今天的主角，云端智能体，跑在远程 Linux 虚拟机上，你启动任务之后可以合上笔记本，它继续跑，做完之后拿视频、截图和测试来证明自己确实干完了。还能接进 Slack,比如自动检查文档和实现有没有脱节，开个 PR 让人审查；手机上也有应用，可以从本地转到云端继续处理。\n\n模型这块也有讲究。Cursor 聚合了各大实验室的模型，还有开源的 Kimi、GLM、自家的 Composer,以及刚发布的 Grok 4.6。但真正值钱的不是模型多，而是组合。官方做过一个从零重建 SQLite 的案例：用一个重型模型做规划，一个偏执行的模型写代码，总成本比单用一个高级模型便宜得多。Amrita 自己的选择也很有代表性：写计划用 GPT-5.6 Sol,因为写得比 Grok 好；云端批量执行用 Grok 4.6,因为 Anthropic 的模型往往比较贵。而且模型不是全部，模型之上还有一层工具执行、缓存和动态上下文管理，重构大代码库时真正发力的是这一层。\n\n那具体怎么干？她给了一套四步法。第一步是审计加规划。用内置的 canvas 功能，一句话让它分析代码库的测试覆盖率、标出缺口，还能可视化出哪些页面建议先迁移、哪些已经迁完了，可以发布成链接分享给团队，也能下载成 PDF。然后切到 plan 模式，这个模式永远不写代码，只输出文档。关键动作是要求画出现在和迁移后的两张架构图，更重要的是让智能体尽早来问你，它可以配置成至少问五个问题再动笔。范围不清楚就开干，才是最贵的返工。\n\n计划有了，第二步就是拆工单。通过 Atlassian 插件，一句话把计划拆成 JIRA 工单发出去，每个工单自带目标、范围、验收标准、测试和依赖，还自动分好阶段。\n\n第三步最有含金量：交给云端智能体。她只说了一句，找到看板上指派给我的所有工单，全部处理，每个工单单独开一个 PR,用截图或录像验证更改。这里面几个细节特别值得记。云端智能体能一次连多个仓库跨服务工作，改一个内部 SDK 的字段，所有依赖的服务都能一起更新。成本上，因为云端跑得久、还要回传截图视频，token 消耗比本地高，所以要选便宜快的模型。智能体跑在带鼠标的虚拟机上，能自己打开应用点击测试——她展示过之前一次迁移的成品视频，Cursor 自己点登录、看评论、逐段加标注，证明没引入回归。还有一条纪律：永远一工单一 PR,几千行的巨型 PR 根本没法 review。\n\n最后一步是防回潮。自动化本质上就是定时或事件触发的云端智能体。现场她建了一个 feature flag 清理器：每周扫一遍仓库，找出三十天没人用的陈旧 flag,和 Datadog、Sentry 交叉核对，提交删除的 PR,完成后 Slack 私信她。这步的意义被她点破了：遗留代码库沦落到要大重构，往往就是因为不够主动，依赖没更新、事情没提前做。自动化让你从被动救火变成主动维护，用现在的一次三四美元，消灭未来的一次大重构。"
+}

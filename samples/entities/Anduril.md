@@ -29,7 +29,7 @@ unlisted: true
 
 [[Stripe]] · [[OpenAI]] · [[Harj]] · [[Mike LeBlanc]] · [[Brian Singerman]] · [[Patrick Collison]] · [[Foundation]] · [[Founders Fund]] · [[Atlas]] · [[人形机器人]]
 
-<script type="application/json" class="pd-epn">{"Stripe":29,"OpenAI":104,"Harj":1,"Mike LeBlanc":1,"Brian Singerman":1,"Patrick Collison":2,"Foundation":1,"Founders Fund":1,"Atlas":2,"人形机器人":2}</script>
+<script type="application/json" class="pd-epn">{"Stripe":29,"OpenAI":105,"Harj":1,"Mike LeBlanc":1,"Brian Singerman":1,"Patrick Collison":2,"Foundation":1,"Founders Fund":1,"Atlas":2,"人形机器人":2}</script>
 
 <script>
 (function(){

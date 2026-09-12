@@ -67,7 +67,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sofia Puccini":4,"Theo Jaffe":6,"Box":3,"Anthropic":117,"OpenAI":104,"开放权重":4,"蒸馏":10,"推理":42,"模型路由":6,"闭源模型":2}</script>
+<script type="application/json" class="pd-epn">{"Sofia Puccini":4,"Theo Jaffe":6,"Box":3,"Anthropic":118,"OpenAI":105,"开放权重":4,"蒸馏":10,"推理":42,"模型路由":6,"闭源模型":2}</script>
 
 <script>
 (function(){

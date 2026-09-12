@@ -29,7 +29,7 @@ aliases: ["tiktok", "tik tok"]
 
 [[Instagram]] · [[智能体]] · [[Anthropic]] · [[Claude]] · [[Lenny]] · [[Victor Riparbelli]] · [[Harry Stabbings]] · [[Adam Mosseri]] · [[Synthesia]] · [[Matteo Franceschetti]]
 
-<script type="application/json" class="pd-epn">{"Instagram":4,"智能体":224,"Anthropic":117,"Claude":56,"Lenny":67,"Victor Riparbelli":1,"Harry Stabbings":2,"Adam Mosseri":1,"Synthesia":1,"Matteo Franceschetti":1}</script>
+<script type="application/json" class="pd-epn">{"Instagram":4,"智能体":226,"Anthropic":118,"Claude":56,"Lenny":67,"Victor Riparbelli":1,"Harry Stabbings":2,"Adam Mosseri":1,"Synthesia":1,"Matteo Franceschetti":1}</script>
 
 <script>
 (function(){

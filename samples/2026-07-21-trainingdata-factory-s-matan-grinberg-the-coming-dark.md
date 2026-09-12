@@ -165,7 +165,7 @@ Matan 说今天的每个公司都有[[软件工厂|软件工厂]]，只不过效
 
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Factory、Anthropic、OpenAI · 同概念:harness、开源模型 (open models)、智能体 (agent)、token</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Codex、Anthropic、OpenAI · 同概念:token、智能体 (agent)</span>
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Claude Code、Anthropic · 同概念:harness、智能体 (agent)</span>
+- [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Claude Code、Codex、Anthropic、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

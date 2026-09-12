@@ -35,7 +35,7 @@ unlisted: true
 
 [[Chris Benson]] · [[Daniel Widenach]] · [[智能体]] · [[多智能体架构]] · [[智能体控制框架]] · [[开源权重]] · [[封闭模型]] · [[垂直整合]] · [[开放框架]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"Chris Benson":7,"Daniel Widenach":1,"智能体":224,"多智能体架构":1,"智能体控制框架":1,"开源权重":6,"封闭模型":2,"垂直整合":4,"开放框架":1,"护栏":43}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":7,"Daniel Widenach":1,"智能体":226,"多智能体架构":1,"智能体控制框架":1,"开源权重":7,"封闭模型":2,"垂直整合":4,"开放框架":1,"护栏":43}</script>
 
 <script>
 (function(){

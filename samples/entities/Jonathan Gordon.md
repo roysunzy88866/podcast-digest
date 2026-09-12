@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"ReWeaver AI":1,"设计-代码往返":1,"引导漂移":3,"确定性护栏":1,"vibe coding":31,"无障碍性":1,"技术债务":2,"溯源信息":1,"设计系统":6,"LLM":31}</script>
+<script type="application/json" class="pd-epn">{"ReWeaver AI":1,"设计-代码往返":1,"引导漂移":3,"确定性护栏":1,"vibe coding":32,"无障碍性":1,"技术债务":2,"溯源信息":1,"设计系统":6,"LLM":31}</script>
 
 <script>
 (function(){

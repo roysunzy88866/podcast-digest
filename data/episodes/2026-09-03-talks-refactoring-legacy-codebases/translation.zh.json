@@ -1,0 +1,6082 @@
+[
+ {
+  "seg": 0,
+  "start": 1.508,
+  "end": 2.909,
+  "speaker": "Unknown",
+  "en": "It's so good to see everyone.",
+  "zh": "很高兴见到大家。"
+ },
+ {
+  "seg": 1,
+  "start": 2.929,
+  "end": 4.09,
+  "speaker": "Unknown",
+  "en": "Thank you all for joining.",
+  "zh": "感谢各位的参与。"
+ },
+ {
+  "seg": 2,
+  "start": 4.93,
+  "end": 8.993,
+  "speaker": "Unknown",
+  "en": "If you are in refactoring legacy code bases with Cursor, you are in the right place.",
+  "zh": "如果你正在用 Cursor 重构遗留代码库，那你来对地方了。"
+ },
+ {
+  "seg": 3,
+  "start": 10.013,
+  "end": 11.114,
+  "speaker": "Unknown",
+  "en": "I am Amrita.",
+  "zh": "我是 Amrita。"
+ },
+ {
+  "seg": 4,
+  "start": 11.614,
+  "end": 15.396,
+  "speaker": "Unknown",
+  "en": "I'm going to be one of your hosts today, and I'm joined by the lovely Regan.",
+  "zh": "我今天将是你们的主持人之一，和我一起的还有可爱的 Regan。"
+ },
+ {
+  "seg": 5,
+  "start": 15.637,
+  "end": 16.957,
+  "speaker": "Unknown",
+  "en": "Regan, do you want to do a quick intro?",
+  "zh": "Regan，你想做个简短的自我介绍吗？"
+ },
+ {
+  "seg": 6,
+  "start": 17.698,
+  "end": 18.198,
+  "speaker": "Unknown",
+  "en": "Hey, everyone.",
+  "zh": "嘿，大家好。"
+ },
+ {
+  "seg": 7,
+  "start": 18.258,
+  "end": 18.778,
+  "speaker": "Unknown",
+  "en": "I'm Regan.",
+  "zh": "我是 Regan。"
+ },
+ {
+  "seg": 8,
+  "start": 18.899,
+  "end": 21.02,
+  "speaker": "Unknown",
+  "en": "I'm also one of the field engineers here at Cursor.",
+  "zh": "我也是 Cursor 的现场工程师之一。"
+ },
+ {
+  "seg": 9,
+  "start": 22.875,
+  "end": 23.296,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 10,
+  "start": 23.376,
+  "end": 30.284,
+  "speaker": "Unknown",
+  "en": "And then we're also joined by Ronnie, who's going to be off camera, but she's basically our workshop magician.",
+  "zh": "我们还有 Ronnie 一起参与，她不会出现在镜头前，但她基本上是我们的研讨会魔术师。"
+ },
+ {
+  "seg": 11,
+  "start": 30.384,
+  "end": 32.326,
+  "speaker": "Unknown",
+  "en": "She organizes all of these workshops for us.",
+  "zh": "她为我们组织所有这些研讨会。"
+ },
+ {
+  "seg": 12,
+  "start": 32.867,
+  "end": 42.038,
+  "speaker": "Unknown",
+  "en": "And so if you want to see more Cursor workshops, go to cursor.com slash workshops, and you'll see the full list of both previous and upcoming workshops that are happening.",
+  "zh": "所以如果你想看到更多 Cursor 研讨会，请访问 cursor.com/workshops，你会在那里看到已举办和即将举办的所有研讨会的完整列表。"
+ },
+ {
+  "seg": 13,
+  "start": 43.975,
+  "end": 44.215,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 14,
+  "start": 44.735,
+  "end": 48.576,
+  "speaker": "Unknown",
+  "en": "I'll let folks trickle in and we'll get started in a couple of minutes.",
+  "zh": "我会让大家陆续进来，几分钟后我们开始。"
+ },
+ {
+  "seg": 15,
+  "start": 48.876,
+  "end": 53.898,
+  "speaker": "Unknown",
+  "en": "I do love if people can share where they are calling in from.",
+  "zh": "我很希望大家能分享自己从哪里接入。"
+ },
+ {
+  "seg": 16,
+  "start": 54.938,
+  "end": 58.679,
+  "speaker": "Unknown",
+  "en": "It's nice to see how many corners of the earth that cursor reaches.",
+  "zh": "很高兴看到 Cursor 触达了地球上多少个角落。"
+ },
+ {
+  "seg": 17,
+  "start": 59.499,
+  "end": 61.6,
+  "speaker": "Unknown",
+  "en": "But yeah, happy to have you all here.",
+  "zh": "是的，很高兴你们都在这里。"
+ },
+ {
+  "seg": 18,
+  "start": 61.68,
+  "end": 64.92,
+  "speaker": "Unknown",
+  "en": "Thank you for joining, whether it's morning, evening, afternoon for you all.",
+  "zh": "感谢你们的参与，不管现在对你们来说是早上、晚上还是下午。"
+ },
+ {
+  "seg": 19,
+  "start": 64.94,
+  "end": 67.641,
+  "speaker": "Unknown",
+  "en": "We're going to get started in a couple of minutes or so.",
+  "zh": "我们将在几分钟左右后开始。"
+ },
+ {
+  "seg": 20,
+  "start": 89.497,
+  "end": 90.319,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 21,
+  "start": 91.16,
+  "end": 91.601,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 22,
+  "start": 91.621,
+  "end": 92.903,
+  "speaker": "Unknown",
+  "en": "I'm seeing Dolomites.",
+  "zh": "我看到有人来自多洛米蒂山。"
+ },
+ {
+  "seg": 23,
+  "start": 93.083,
+  "end": 95.306,
+  "speaker": "Unknown",
+  "en": "I'm seeing Tennessee, Vancouver.",
+  "zh": "我看到田纳西州、温哥华。"
+ },
+ {
+  "seg": 24,
+  "start": 97.51,
+  "end": 98.572,
+  "speaker": "Unknown",
+  "en": "Joining from India.",
+  "zh": "有人从印度加入。"
+ },
+ {
+  "seg": 25,
+  "start": 99.172,
+  "end": 99.693,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 26,
+  "start": 100.054,
+  "end": 100.615,
+  "speaker": "Unknown",
+  "en": "Love seeing this.",
+  "zh": "很高兴看到这些。"
+ },
+ {
+  "seg": 27,
+  "start": 109.285,
+  "end": 109.705,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 28,
+  "start": 110.586,
+  "end": 112.887,
+  "speaker": "Unknown",
+  "en": "For folks just joining, we're going to get started in just a minute or so.",
+  "zh": "对刚加入的朋友们说，我们马上就要开始了。"
+ },
+ {
+  "seg": 29,
+  "start": 112.907,
+  "end": 114.928,
+  "speaker": "Unknown",
+  "en": "I am Amrita.",
+  "zh": "我是 Amrita。"
+ },
+ {
+  "seg": 30,
+  "start": 114.988,
+  "end": 118.25,
+  "speaker": "Unknown",
+  "en": "I'm joined by my colleague, Reagan and Ronnie, who will be off camera.",
+  "zh": "我的同事 Reagan 和 Ronnie 和我一起，Ronnie 不会出现在镜头前。"
+ },
+ {
+  "seg": 31,
+  "start": 118.831,
+  "end": 122.172,
+  "speaker": "Unknown",
+  "en": "And we are hosting Refactoring Legacy Codebases with Cursor.",
+  "zh": "我们正在主持「用 Cursor 重构遗留代码库」这场研讨会。"
+ },
+ {
+  "seg": 32,
+  "start": 122.893,
+  "end": 125.274,
+  "speaker": "Unknown",
+  "en": "Today's session is going to be pretty interactive.",
+  "zh": "今天的环节将会相当互动。"
+ },
+ {
+  "seg": 33,
+  "start": 125.294,
+  "end": 134.339,
+  "speaker": "Unknown",
+  "en": "So I actually recommend folks have Cursor up on their machines with me while I'm going through some of these and trying out all of the different tools and features that I'm going to be using.",
+  "zh": "所以我实际上建议大家在我讲解的过程中，在你们的机器上打开 Cursor，尝试我将要使用的所有不同工具和功能。"
+ },
+ {
+  "seg": 34,
+  "start": 135.46,
+  "end": 138.302,
+  "speaker": "Unknown",
+  "en": "But with that said, I think we should probably kick it off.",
+  "zh": "话虽如此，我想我们应该可以开始了。"
+ },
+ {
+  "seg": 35,
+  "start": 139.322,
+  "end": 145.346,
+  "speaker": "Unknown",
+  "en": "This meeting is being recorded and we will send out the recording, I want to say within a couple days or so.",
+  "zh": "本次会议正在录制，我们会发出录像，我想大概几天之内。"
+ },
+ {
+  "seg": 36,
+  "start": 145.466,
+  "end": 147.407,
+  "speaker": "Unknown",
+  "en": "Look out for a email from Luma.",
+  "zh": "请留意来自 Luma 的邮件。"
+ },
+ {
+  "seg": 37,
+  "start": 148.028,
+  "end": 153.031,
+  "speaker": "Unknown",
+  "en": "And then for folks who maybe have attended previous workshops, the recordings are coming.",
+  "zh": "对于那些可能参加过之前研讨会的朋友，录像正在准备中。"
+ },
+ {
+  "seg": 38,
+  "start": 153.111,
+  "end": 155.352,
+  "speaker": "Unknown",
+  "en": "We just have a ton in our little backlog.",
+  "zh": "我们积压的东西实在太多了。"
+ },
+ {
+  "seg": 39,
+  "start": 155.412,
+  "end": 160.155,
+  "speaker": "Unknown",
+  "en": "So keep an eye out for those as well if you have attended some and have not gotten the recordings just yet.",
+  "zh": "所以如果你参加过但还没有收到录像，也请留意一下。"
+ },
+ {
+  "seg": 40,
+  "start": 162.457,
+  "end": 162.737,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 41,
+  "start": 164.085,
+  "end": 164.806,
+  "speaker": "Unknown",
+  "en": "Let's kick it off.",
+  "zh": "我们开始吧。"
+ },
+ {
+  "seg": 42,
+  "start": 165.166,
+  "end": 166.267,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 43,
+  "start": 166.468,
+  "end": 166.988,
+  "speaker": "Unknown",
+  "en": "I'm Marita.",
+  "zh": "我是 Marita。"
+ },
+ {
+  "seg": 44,
+  "start": 168.37,
+  "end": 169.991,
+  "speaker": "Unknown",
+  "en": "I am going to be leading the workshop today.",
+  "zh": "今天我将主持这个研讨会。"
+ },
+ {
+  "seg": 45,
+  "start": 170.472,
+  "end": 173.535,
+  "speaker": "Unknown",
+  "en": "If you have any questions, please feel free to put them in the chat.",
+  "zh": "如果你有任何问题，请随时发在聊天里。"
+ },
+ {
+  "seg": 46,
+  "start": 173.635,
+  "end": 175.477,
+  "speaker": "Unknown",
+  "en": "And Reagan is actually going to be curating them.",
+  "zh": "Reagan 实际上会负责整理这些问题。"
+ },
+ {
+  "seg": 47,
+  "start": 175.577,
+  "end": 180.522,
+  "speaker": "Unknown",
+  "en": "And I'll be stopping here and there for just answering anything that comes up.",
+  "zh": "我会不时停下来，解答出现的任何问题。"
+ },
+ {
+  "seg": 48,
+  "start": 181.535,
+  "end": 190.438,
+  "speaker": "Unknown",
+  "en": "As you can see, this is a bit of a more advanced AV setup than what I'm used to, which is why I keep looking between my laptop and the camera if you guys don't know where I'm looking.",
+  "zh": "如你们所见，这里的音视频设置比我习惯的要高级一些，这就是为什么如果你们不知道我在看哪里的话，我会不停地在笔记本电脑和摄像头之间来回看。"
+ },
+ {
+  "seg": 49,
+  "start": 191.358,
+  "end": 194.579,
+  "speaker": "Unknown",
+  "en": "If you've attended my previous workshops, they were a lot less professional.",
+  "zh": "如果你参加过我之前的研讨会，那些可没这么专业。"
+ },
+ {
+  "seg": 50,
+  "start": 194.719,
+  "end": 196.32,
+  "speaker": "Unknown",
+  "en": "So thank you, Cursor IT.",
+  "zh": "所以谢谢你，Cursor IT。"
+ },
+ {
+  "seg": 51,
+  "start": 197.32,
+  "end": 198.16,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 52,
+  "start": 198.24,
+  "end": 200.961,
+  "speaker": "Unknown",
+  "en": "I'm going to get started and show some slides, and then we're going to dive into the product.",
+  "zh": "我要开始了，先展示一些幻灯片，然后我们会深入产品。"
+ },
+ {
+  "seg": 53,
+  "start": 205.435,
+  "end": 205.935,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 54,
+  "start": 207.136,
+  "end": 209.618,
+  "speaker": "Unknown",
+  "en": "So today's session is about refactoring Lexi code bases.",
+  "zh": "今天这场分享是关于重构 Lexi 代码库的。"
+ },
+ {
+  "seg": 55,
+  "start": 209.999,
+  "end": 215.222,
+  "speaker": "Unknown",
+  "en": "And I want everyone today to leave today's session with two main takeaways.",
+  "zh": "我希望今天每个人在离开时都能带走两个主要要点。"
+ },
+ {
+  "seg": 56,
+  "start": 215.283,
+  "end": 218.445,
+  "speaker": "Unknown",
+  "en": "And actually, before I forget, let me make sure I am recording.",
+  "zh": "实际上，趁我还没忘记，让我确认一下我正在录制。"
+ },
+ {
+  "seg": 57,
+  "start": 219.33,
+  "end": 220.21,
+  "speaker": "Unknown",
+  "en": "One second.",
+  "zh": "稍等一下。"
+ },
+ {
+  "seg": 58,
+  "start": 221.531,
+  "end": 222.331,
+  "speaker": "Unknown",
+  "en": "Oh, yes, I think I am.",
+  "zh": "哦，是的，我想我在录。"
+ },
+ {
+  "seg": 59,
+  "start": 223.572,
+  "end": 229.754,
+  "speaker": "Unknown",
+  "en": "So the first question is, what are the best ways to refactor legacy code bases with AI?",
+  "zh": "第一个问题是，用 AI 重构遗留代码库的最佳方式是什么？"
+ },
+ {
+  "seg": 60,
+  "start": 230.434,
+  "end": 233.235,
+  "speaker": "Unknown",
+  "en": "And then the second question is, why use Cursor to do it?",
+  "zh": "第二个问题是，为什么要用 Cursor 来做？"
+ },
+ {
+  "seg": 61,
+  "start": 234.076,
+  "end": 242.959,
+  "speaker": "Unknown",
+  "en": "And I actually want to switch the order of these two questions today because the first one I like to answer with slides and show you all a little bit of what makes Cursor special.",
+  "zh": "今天我实际上想调换这两个问题的顺序，因为第一个问题我喜欢用幻灯片来回答，给大家展示一点 Cursor 的特别之处。"
+ },
+ {
+  "seg": 62,
+  "start": 243.559,
+  "end": 252.208,
+  "speaker": "Unknown",
+  "en": "And then the second one is a little bit more of a demo rather than just talking because I'm actually going to migrate a couple of components with you all and show you the best way to do it with Cursor.",
+  "zh": "而第二个问题则更偏演示一些，而不只是口头讲，因为我真的会和大家一起迁移几个组件，并展示用 Cursor 做这件事的最佳方式。"
+ },
+ {
+  "seg": 63,
+  "start": 253.688,
+  "end": 258.549,
+  "speaker": "Unknown",
+  "en": "So for context, I was a software engineer before I was a field engineer here at Cursor.",
+  "zh": "背景说一下，在来到 Cursor 担任现场工程师之前，我是一名软件工程师。"
+ },
+ {
+  "seg": 64,
+  "start": 258.589,
+  "end": 262.91,
+  "speaker": "Unknown",
+  "en": "And so I've used a lot of AI tools and there's a lot of great AI tools out there.",
+  "zh": "所以我用过很多 AI 工具，市面上有很多很棒的 AI 工具。"
+ },
+ {
+  "seg": 65,
+  "start": 263.411,
+  "end": 276.114,
+  "speaker": "Unknown",
+  "en": "And today I want to speak a little bit as to what makes Cursor different and why I like to especially do really large migrations, refactoring, any work basically in monorepos or multiple services within Cursor specifically.",
+  "zh": "今天我想稍微讲一下 Cursor 的不同之处，以及为什么我特别喜欢在 Cursor 里做大型迁移、重构，基本上任何在 monorepo 或多个服务中的工作。"
+ },
+ {
+  "seg": 66,
+  "start": 277.533,
+  "end": 281.615,
+  "speaker": "Unknown",
+  "en": "If you haven't used Cursor maybe in the last six months or so, this might look new to you.",
+  "zh": "如果你大概最近六个月没用过 Cursor,这个界面对你来说可能是新的。"
+ },
+ {
+  "seg": 67,
+  "start": 281.735,
+  "end": 282.916,
+  "speaker": "Unknown",
+  "en": "This is the agents window.",
+  "zh": "这是智能体窗口。"
+ },
+ {
+  "seg": 68,
+  "start": 283.096,
+  "end": 287.338,
+  "speaker": "Unknown",
+  "en": "And this is what we kind of see as the future of development with Cursor.",
+  "zh": "这是我们在某种程度上视为 Cursor 开发未来方向的东西。"
+ },
+ {
+  "seg": 69,
+  "start": 288.139,
+  "end": 293.742,
+  "speaker": "Unknown",
+  "en": "As you can see, your agents kind of live off to the side in their repositories.",
+  "zh": "如你所见，你的智能体在旁边按各自的代码库排列。"
+ },
+ {
+  "seg": 70,
+  "start": 293.962,
+  "end": 298.405,
+  "speaker": "Unknown",
+  "en": "And then in the middle is the agent or the chat where you actually talk to Cursor.",
+  "zh": "中间是智能体或聊天区，你在这里真正与 Cursor 对话。"
+ },
+ {
+  "seg": 71,
+  "start": 298.445,
+  "end": 301.927,
+  "speaker": "Unknown",
+  "en": "You can pick your models and you can work across different repositories.",
+  "zh": "你可以选择你的模型，也可以跨不同代码库工作。"
+ },
+ {
+  "seg": 72,
+  "start": 303.264,
+  "end": 306.288,
+  "speaker": "Unknown",
+  "en": "You also have the option in Cursor to use the IDE as well.",
+  "zh": "在 Cursor 中你也可以选择使用 IDE。"
+ },
+ {
+  "seg": 73,
+  "start": 306.929,
+  "end": 310.493,
+  "speaker": "Unknown",
+  "en": "So this is where Cursor started, and this is where a lot of developers still choose to stay.",
+  "zh": "这是 Cursor 起步的地方，也是很多开发者仍然选择停留的地方。"
+ },
+ {
+  "seg": 74,
+  "start": 311.614,
+  "end": 312.736,
+  "speaker": "Unknown",
+  "en": "It's a fork of VS Code.",
+  "zh": "它是 VS Code 的一个 fork。"
+ },
+ {
+  "seg": 75,
+  "start": 312.796,
+  "end": 319.925,
+  "speaker": "Unknown",
+  "en": "So if you like the VS Code debugger, if you like extensions and having the terminal kind of up on the bottom there, then this is a great place to work.",
+  "zh": "所以如果你喜欢 VS Code 的调试器，喜欢扩展，喜欢终端就在下面那里，那这里是个很好的工作环境。"
+ },
+ {
+  "seg": 76,
+  "start": 320.983,
+  "end": 324.066,
+  "speaker": "Unknown",
+  "en": "We also have a CLI, which a lot of folks might not know about.",
+  "zh": "我们还有一个 CLI,很多人可能不知道。"
+ },
+ {
+  "seg": 77,
+  "start": 324.686,
+  "end": 334.536,
+  "speaker": "Unknown",
+  "en": "The cursor CLI is great if you want to preserve any TMUX workflows, if you want to work in some IDEs like maybe Android Studio or Xcode that don't have a native cursor solution just yet.",
+  "zh": "如果你想保留任何 TMUX 工作流，或者想在某些还没有原生 Cursor 方案的 IDE 里工作，比如 Android Studio 或 Xcode,cursor CLI 就很棒。"
+ },
+ {
+  "seg": 78,
+  "start": 335.396,
+  "end": 337.298,
+  "speaker": "Unknown",
+  "en": "And so the cursor CLI is available.",
+  "zh": "所以 cursor CLI 是可用的。"
+ },
+ {
+  "seg": 79,
+  "start": 337.358,
+  "end": 338.279,
+  "speaker": "Unknown",
+  "en": "It's on our website.",
+  "zh": "它在我们的网站上。"
+ },
+ {
+  "seg": 80,
+  "start": 338.319,
+  "end": 339.56,
+  "speaker": "Unknown",
+  "en": "You can download it and use it.",
+  "zh": "你可以下载并使用它。"
+ },
+ {
+  "seg": 81,
+  "start": 339.62,
+  "end": 344.185,
+  "speaker": "Unknown",
+  "en": "And it's very similar to any of the other, you know, TUI, AI products that you've used.",
+  "zh": "它和你用过的其他任何 TUI AI 产品都非常相似。"
+ },
+ {
+  "seg": 82,
+  "start": 345.232,
+  "end": 348.974,
+  "speaker": "Unknown",
+  "en": "And then lastly, this is actually where we're gonna be spending most of our time in today.",
+  "zh": "最后，这实际上是我们今天大部分时间要花的地方。"
+ },
+ {
+  "seg": 83,
+  "start": 349.455,
+  "end": 352.256,
+  "speaker": "Unknown",
+  "en": "We have the Cursor Cloud or Cursor Cloud Agents.",
+  "zh": "我们有 Cursor Cloud,即 Cursor Cloud Agents。"
+ },
+ {
+  "seg": 84,
+  "start": 352.977,
+  "end": 361.082,
+  "speaker": "Unknown",
+  "en": "And this is a really great way to use Cursor because basically these agents operate autonomously and they operate on remote machines.",
+  "zh": "这是一种非常好用的 Cursor 方式，因为这些智能体基本上是自主运行的，并且运行在远程机器上。"
+ },
+ {
+  "seg": 85,
+  "start": 361.362,
+  "end": 366.243,
+  "speaker": "Unknown",
+  "en": "Meaning that I can launch an agent and close my laptop and the agent will still continue to run.",
+  "zh": "意味着我可以启动一个智能体然后合上笔记本，智能体仍然会继续运行。"
+ },
+ {
+  "seg": 86,
+  "start": 366.704,
+  "end": 374.326,
+  "speaker": "Unknown",
+  "en": "And that's really great for these long migrations or refactoring projects, which you have to do a lot of back and forth with the agent.",
+  "zh": "这对于这些漫长的迁移或重构项目来说非常棒，因为你需要和智能体做大量的来回交互。"
+ },
+ {
+  "seg": 87,
+  "start": 374.826,
+  "end": 388.29,
+  "speaker": "Unknown",
+  "en": "With the Cursor Cloud, you can actually just send off a large agent like we're going to do shortly and have that agent work on refactoring until it's finished and prove that it's actually done what it's supposed to with videos, screenshots, and testing.",
+  "zh": "有了 Cursor Cloud,你实际上可以直接发送一个大型智能体任务，就像我们稍后要做的那样，让那个智能体持续做重构直到完成，并通过视频、截图和测试来证明它确实完成了它应该做的事。"
+ },
+ {
+  "seg": 88,
+  "start": 389.327,
+  "end": 396.034,
+  "speaker": "Unknown",
+  "en": "So the cursor browser is where we're going to actually be showing some of this today, but there are other places where you could use the cursor cloud agent.",
+  "zh": "所以 Cursor 浏览器版是我们今天要实际展示其中一部分的地方，但还有其他地方可以使用 Cursor 云端智能体。"
+ },
+ {
+  "seg": 89,
+  "start": 396.434,
+  "end": 399.618,
+  "speaker": "Unknown",
+  "en": "A very common way that we use it at cursor is actually with Slack.",
+  "zh": "我们在 Cursor 内部使用它的一个非常常见方式实际上是通过 Slack。"
+ },
+ {
+  "seg": 90,
+  "start": 400.018,
+  "end": 409.488,
+  "speaker": "Unknown",
+  "en": "So you can see here, we actually have a cursor agent that lives inside of our channel that is able to check whether our documentation online goes out of sync with our implementation.",
+  "zh": "你可以在这里看到，我们的频道里确实有一个 cursor 智能体，它能够检查我们的在线文档是否与我们的实现脱节。"
+ },
+ {
+  "seg": 91,
+  "start": 410.048,
+  "end": 420.858,
+  "speaker": "Unknown",
+  "en": "And this is really great because it can open up a PR, it can have someone review it, and it automatically gives you just visibility into what cursor is doing without you ever having to open the cursor app or the browser.",
+  "zh": "这非常棒，因为它可以打开一个 PR,可以让某人审查它，而且它会自动让你看到 Cursor 在做什么，而你完全不需要打开 Cursor 应用或浏览器。"
+ },
+ {
+  "seg": 92,
+  "start": 422.013,
+  "end": 425.454,
+  "speaker": "Unknown",
+  "en": "And then the last place that you can use the Cursor Cloud is the mobile app.",
+  "zh": "最后一个可以使用 Cursor Cloud 的地方是移动应用。"
+ },
+ {
+  "seg": 93,
+  "start": 425.694,
+  "end": 427.014,
+  "speaker": "Unknown",
+  "en": "So we have a Cursor mobile app.",
+  "zh": "我们有一个 Cursor 移动应用。"
+ },
+ {
+  "seg": 94,
+  "start": 427.054,
+  "end": 430.875,
+  "speaker": "Unknown",
+  "en": "It's available on the App Store just for iOS right now, Android coming soon.",
+  "zh": "它目前在 App Store 上只有 iOS 版，Android 版即将推出。"
+ },
+ {
+  "seg": 95,
+  "start": 431.435,
+  "end": 433.756,
+  "speaker": "Unknown",
+  "en": "And you can navigate through all your agents.",
+  "zh": "你可以在其中浏览你所有的智能体。"
+ },
+ {
+  "seg": 96,
+  "start": 433.816,
+  "end": 440.078,
+  "speaker": "Unknown",
+  "en": "You can pass off your agents from local to cloud and then work on them from the app wherever you are.",
+  "zh": "你可以把你的智能体从本地转到云端，然后无论你在哪里都可以从应用上继续处理它们。"
+ },
+ {
+  "seg": 97,
+  "start": 440.098,
+  "end": 448.72,
+  "speaker": "Unknown",
+  "en": "And it's a really great way of, again, taking a step back from your laptop, closing it, and then working with your agents completely remotely from your phone.",
+  "zh": "这又是一个很好的方式，让你从笔记本电脑旁抽身、合上它，然后完全通过手机远程与你的智能体协作。"
+ },
+ {
+  "seg": 98,
+  "start": 451.028,
+  "end": 454.871,
+  "speaker": "Unknown",
+  "en": "Now, another thing that makes Cursor special is its model flexibility.",
+  "zh": "现在，另一个让 Cursor 特别的地方是它的模型灵活性。"
+ },
+ {
+  "seg": 99,
+  "start": 455.111,
+  "end": 463.077,
+  "speaker": "Unknown",
+  "en": "So I think a lot of you folks know this, but Cursor offers all the models from all the Frontier Labs right now, in addition to a lot of the open source models as well.",
+  "zh": "我想你们很多人都知道这一点，但 Cursor 目前提供所有前沿实验室的所有模型，此外还有许多开源模型。"
+ },
+ {
+  "seg": 100,
+  "start": 463.117,
+  "end": 472.503,
+  "speaker": "Unknown",
+  "en": "So Kimi, GLM, and then obviously our own in-house models, Composer being one of them, and then Grok46 actually being the latest and greatest of them all.",
+  "zh": "所以有 Kimi、GLM，然后显然还有我们自己的内部模型，Composer 是其中之一，然后 Grok46 实际上是其中最新最棒的。"
+ },
+ {
+  "seg": 101,
+  "start": 473.444,
+  "end": 479.932,
+  "speaker": "Unknown",
+  "en": "Grok 4.6 was actually released, I want to say yesterday, and it was, or it is an amazing model.",
+  "zh": "Grok 4.6 实际上是，我想说是昨天发布的，它是一个，或者它是一个令人惊叹的模型。"
+ },
+ {
+  "seg": 102,
+  "start": 480.032,
+  "end": 489.324,
+  "speaker": "Unknown",
+  "en": "You can see how it's benchmarked here compared to a lot of the other frontier labs on a various set of benchmarks that are kind of published to external third parties.",
+  "zh": "你可以在这里看到它与许多其他前沿实验室在一系列面向外部第三方发布的基准测试上的对比。"
+ },
+ {
+  "seg": 103,
+  "start": 490.224,
+  "end": 498.249,
+  "speaker": "Unknown",
+  "en": "So you can see here that it's a really strong model, but I think what also makes Grok really powerful is how cheap it is and how effective it is for such a powerful model.",
+  "zh": "所以你可以看到它是一个非常强的模型，但我认为让 Grok 真正强大的还有它的价格有多便宜，以及这样一个强大模型有多高效。"
+ },
+ {
+  "seg": 104,
+  "start": 498.749,
+  "end": 502.612,
+  "speaker": "Unknown",
+  "en": "You can see here where Grok stands kind of compared to some of these other frontier models.",
+  "zh": "你可以在这里看到 Grok 与其他一些前沿模型相比所处的位置。"
+ },
+ {
+  "seg": 105,
+  "start": 502.712,
+  "end": 518.221,
+  "speaker": "Unknown",
+  "en": "So it's a little bit more expensive than Composer and GPT, which are more kind of execution-focused models, but for how powerful it is and how capable it is of doing long-running tasks, it's very inexpensive compared to some of these other frontier labs.",
+  "zh": "所以它比 Composer 和 GPT 稍微贵一点，而那两个是更偏执行导向的模型，但考虑到它的强大程度以及它执行长时间运行任务的能力，与一些其他前沿实验室相比它是非常便宜的。"
+ },
+ {
+  "seg": 106,
+  "start": 519.082,
+  "end": 525.316,
+  "speaker": "Unknown",
+  "en": "So we're going to be spending some time with Grok46 today and I'll actually show you and talk through when I decide to use it and when I don't.",
+  "zh": "所以我们今天会花一些时间在 Grok46 上，我实际上会向你展示并讲解我什么时候决定用它、什么时候不用。"
+ },
+ {
+  "seg": 107,
+  "start": 525.797,
+  "end": 528.322,
+  "speaker": "Unknown",
+  "en": "But I highly recommend if you haven't tried it yet to give it a go.",
+  "zh": "但我强烈建议如果你还没试过的话，去试一试。"
+ },
+ {
+  "seg": 108,
+  "start": 530.138,
+  "end": 535.983,
+  "speaker": "Unknown",
+  "en": "With that said, I like to talk a little bit about what makes model flexibility in Cursor actually effective.",
+  "zh": "说了这些，我想稍微谈一下是什么让 Cursor 中的模型灵活性真正有效。"
+ },
+ {
+  "seg": 109,
+  "start": 536.743,
+  "end": 544.41,
+  "speaker": "Unknown",
+  "en": "And this is the fact that you can combine different models to have a really good output for a very small amount of money.",
+  "zh": "这就是你可以组合不同的模型，以非常少的钱获得非常好的输出。"
+ },
+ {
+  "seg": 110,
+  "start": 545.09,
+  "end": 550.014,
+  "speaker": "Unknown",
+  "en": "So this is actually a case study that we did at Cursor where we tried to rebuild SQLite from scratch.",
+  "zh": "所以这实际上是我们在 Cursor 做过的一个案例研究，我们尝试从零开始重建 SQLite。"
+ },
+ {
+  "seg": 111,
+  "start": 550.394,
+  "end": 554.378,
+  "speaker": "Unknown",
+  "en": "We have a great blog post about this, Regan, actually, if you can put that in the chat as well.",
+  "zh": "我们有一篇很棒的关于这个的博客文章，Reagan，实际上，你能把它也放到聊天里吗。"
+ },
+ {
+  "seg": 112,
+  "start": 555.118,
+  "end": 559.242,
+  "speaker": "Unknown",
+  "en": "And we actually showed in this blog post that thanks to kind of our agent swarm,",
+  "zh": "我们在这篇博客文章中实际展示了，多亏了我们的智能体集群，"
+ },
+ {
+  "seg": 113,
+  "start": 559.922,
+  "end": 568.565,
+  "speaker": "Unknown",
+  "en": "We were able to rebuild SQLite with these combination of models for much cheaper than if someone were just to use Fable or if someone just used GPT-5.5.",
+  "zh": "我们能够用这些模型的组合以便宜得多的成本重建 SQLite，比如果只用 Fable 或者只用 GPT-5.5 要便宜得多。"
+ },
+ {
+  "seg": 114,
+  "start": 568.945,
+  "end": 576.067,
+  "speaker": "Unknown",
+  "en": "So it kind of highlights the importance of having a wide range of models because models are good at different things and they should be leveraged for different things.",
+  "zh": "所以这有点凸显了拥有广泛模型的重要性，因为模型擅长不同的事情，它们应该被用于不同的事情。"
+ },
+ {
+  "seg": 115,
+  "start": 576.507,
+  "end": 588.331,
+  "speaker": "Unknown",
+  "en": "And so with this chart here, you can kind of see how using one heavier duty model for planning and one more execution focused model for actual writing code is really useful for your general budget.",
+  "zh": "通过这张图表，你可以大致看到用一个更重型的模型做规划、用一个更偏执行导向的模型实际写代码，对你的总体预算是多么有用。"
+ },
+ {
+  "seg": 116,
+  "start": 590.119,
+  "end": 599.086,
+  "speaker": "Unknown",
+  "en": "So now I want to talk a little bit about, you know, the cursor harness is what we call it, but what lives between the platform, which we introduced cursor with, and then the model.",
+  "zh": "所以现在我想稍微谈一下，你知道的，我们称之为 cursor harness 的东西，它存在于平台和我们介绍 Cursor 时的模型之间。"
+ },
+ {
+  "seg": 117,
+  "start": 599.787,
+  "end": 607.973,
+  "speaker": "Unknown",
+  "en": "So the platform is basically all the different surfaces you can use cursor and the model is what I talked about, which is the LLMs that cursor can, you know, leverage or delegate to.",
+  "zh": "平台基本上是你使用 Cursor 的所有不同界面，而模型就是我谈到的，也就是 Cursor 可以利用或委派的 LLM。"
+ },
+ {
+  "seg": 118,
+  "start": 608.674,
+  "end": 614.196,
+  "speaker": "Unknown",
+  "en": "But in between all of those, we have what we call the cursor harness, which is made up of all of these different things.",
+  "zh": "但在所有这些之间，我们有我们所说的 cursor harness，它由所有这些不同的东西组成。"
+ },
+ {
+  "seg": 119,
+  "start": 614.476,
+  "end": 620.598,
+  "speaker": "Unknown",
+  "en": "So tool execution, cache management, dynamic context management, context assembly.",
+  "zh": "比如工具执行、缓存管理、动态上下文管理、上下文组装。"
+ },
+ {
+  "seg": 120,
+  "start": 620.818,
+  "end": 632.502,
+  "speaker": "Unknown",
+  "en": "All of these tools make it so that using these models in cursor actually make it more powerful for refactoring large code bases or migrating from one version of SQL Alchemy to the next.",
+  "zh": "所有这些工具使得在 Cursor 中使用这些模型在重构大型代码库或者从一个版本的 SQL Alchemy 迁移到下一个版本时真正更强大。"
+ },
+ {
+  "seg": 121,
+  "start": 633.082,
+  "end": 639.785,
+  "speaker": "Unknown",
+  "en": "And so that's why I really recommend trying out something like this within Cursor, because there's much more than just the model and the platform.",
+  "zh": "所以这就是为什么我真的推荐在 Cursor 中尝试这样的东西，因为远不止模型和平台。"
+ },
+ {
+  "seg": 122,
+  "start": 639.805,
+  "end": 641.946,
+  "speaker": "Unknown",
+  "en": "There's also the harness that we provide on top of it.",
+  "zh": "还有我们在其之上提供的 harness。"
+ },
+ {
+  "seg": 123,
+  "start": 642.447,
+  "end": 646.909,
+  "speaker": "Unknown",
+  "en": "And if you want more technical details about the harness, feel free to check out this blog post from April.",
+  "zh": "如果你想了解更多关于 harness 的技术细节，欢迎查看这篇四月的博客文章。"
+ },
+ {
+  "seg": 124,
+  "start": 646.929,
+  "end": 657.474,
+  "speaker": "Unknown",
+  "en": "It was written by two of our lovely engineers, and it goes a little bit deeper into what we do within Cursor to make it really powerful as a layer on top of the models that we provide.",
+  "zh": "它是由我们两位可爱的工程师撰写的，它更深入地介绍了我们在 Cursor 内部做了什么，使它作为我们提供的模型之上的一层真正强大。"
+ },
+ {
+  "seg": 125,
+  "start": 659.397,
+  "end": 659.657,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 126,
+  "start": 660.037,
+  "end": 665.138,
+  "speaker": "Unknown",
+  "en": "So that was a bit of a speed run through why cursor, what makes cursor special and what makes it different.",
+  "zh": "那是一段快速过一遍为什么选择 Cursor、是什么让 Cursor 特别以及是什么让它与众不同。"
+ },
+ {
+  "seg": 127,
+  "start": 665.678,
+  "end": 670.659,
+  "speaker": "Unknown",
+  "en": "Now I'm going to talk about what are the best ways to actually do a refactoring with cursor.",
+  "zh": "现在我要谈谈用 Cursor 实际做重构的最佳方式。"
+ },
+ {
+  "seg": 128,
+  "start": 671.259,
+  "end": 680.121,
+  "speaker": "Unknown",
+  "en": "And we're going to go through a couple steps today, four steps actually, which I've seen both internally for refactoring as well as what I've seen with customers.",
+  "zh": "今天我们要过几个步骤，实际上是四个步骤，这些既是我在内部重构中看到的，也是我在客户那里看到的。"
+ },
+ {
+  "seg": 129,
+  "start": 681.021,
+  "end": 687.582,
+  "speaker": "Unknown",
+  "en": "The first is we're going to use cursor canvas to audit our code base and use cursor plan mode to strategize what we're going to migrate.",
+  "zh": "第一步是我们将使用 cursor canvas 来审计我们的代码库，并使用 cursor plan mode 来 strategize 我们要迁移什么。"
+ },
+ {
+  "seg": 130,
+  "start": 688.638,
+  "end": 693.541,
+  "speaker": "Unknown",
+  "en": "Then we're going to leverage plugins to actually take this plan that we've built and write tickets.",
+  "zh": "然后我们将利用插件来实际拿这个我们构建好的计划并写出工单。"
+ },
+ {
+  "seg": 131,
+  "start": 693.681,
+  "end": 699.425,
+  "speaker": "Unknown",
+  "en": "So we're going to make actually a whole JIRA epic of tickets for a migration from PHP to React.",
+  "zh": "所以我们要实际为一次从 PHP 到 React 的迁移制作一整套 JIRA epic 工单。"
+ },
+ {
+  "seg": 132,
+  "start": 700.876,
+  "end": 719.719,
+  "speaker": "Unknown",
+  "en": "Then we're going to hand off those tickets to a cursor cloud agent, and this is where you're going to see how you can have a local plan and a local set of tickets that you've made, but then you can delegate them to these autonomous cursor cloud agents that can go off and work on them with your laptop shut, with you on a walk, with you asleep, and then come back to you with the result.",
+  "zh": "然后我们会把这些工单交给一个 cursor cloud agent，这就是你将看到的地方，你可以有一个本地计划和一组你做好的本地工单，然后你可以把它们委派给这些自主的 cursor cloud agent，它们可以在你合上笔记本、你在散步、你睡着的时候继续工作，然后带着结果回到你身边。"
+ },
+ {
+  "seg": 133,
+  "start": 720.819,
+  "end": 731.994,
+  "speaker": "Unknown",
+  "en": "And then lastly, I'm going to talk about automations and cursor and how you can build workflows and tools to maintain a really good level of quality and stability for whatever you've refactored or migrated over.",
+  "zh": "最后，我要谈谈 Cursor 中的 automations，以及你如何构建工作流和工具来为你重构或迁移的任何东西保持非常好的质量和稳定性水平。"
+ },
+ {
+  "seg": 134,
+  "start": 733.496,
+  "end": 735.159,
+  "speaker": "Unknown",
+  "en": "I finished this first part of slides.",
+  "zh": "我讲完了幻灯片的第一部分。"
+ },
+ {
+  "seg": 135,
+  "start": 735.199,
+  "end": 738.123,
+  "speaker": "Unknown",
+  "en": "Reagan, are there any questions I can answer before I go into the demo?",
+  "zh": "Reagan，在我进入演示之前，有什么问题我可以回答的吗？"
+ },
+ {
+  "seg": 136,
+  "start": 739.602,
+  "end": 745.924,
+  "speaker": "Unknown",
+  "en": "Yeah, there's a quick question on whether DeepSeek, v4, Flasher Pro will be coming to Cursor, hosted on US servers.",
+  "zh": "是的，有一个简短的问题，问 DeepSeek、v4、Flasher Pro 是否会进入 Cursor，托管在美国服务器上。"
+ },
+ {
+  "seg": 137,
+  "start": 746.265,
+  "end": 749.406,
+  "speaker": "Unknown",
+  "en": "I believe the answer is no, but correct me if I'm wrong about that, Amrita.",
+  "zh": "我相信答案是否定的，但如果我说错了请纠正我，Amrita。"
+ },
+ {
+  "seg": 138,
+  "start": 749.786,
+  "end": 752.067,
+  "speaker": "Unknown",
+  "en": "I don't think we have any plans for that one yet, correct?",
+  "zh": "我不认为我们有任何相关计划，对吗？"
+ },
+ {
+  "seg": 139,
+  "start": 752.847,
+  "end": 753.027,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 140,
+  "start": 754.448,
+  "end": 754.708,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 141,
+  "start": 755.78,
+  "end": 758.281,
+  "speaker": "Unknown",
+  "en": "All right, so let's now get into the Cursor product.",
+  "zh": "好，那么现在让我们进入 Cursor 产品。"
+ },
+ {
+  "seg": 142,
+  "start": 758.521,
+  "end": 763.242,
+  "speaker": "Unknown",
+  "en": "As I mentioned, please use or please have Cursor up on your screen while I'm talking.",
+  "zh": "正如我提到的，在我讲话时请使用 Cursor 或者请把 Cursor 放在你的屏幕上。"
+ },
+ {
+  "seg": 143,
+  "start": 763.302,
+  "end": 769.303,
+  "speaker": "Unknown",
+  "en": "I do feel like it makes it a lot more interactive and relevant for you if you're able to kind of follow along with what I'm doing.",
+  "zh": "我确实觉得如果你能跟着我做的东西走，这会让你更有互动感和相关性。"
+ },
+ {
+  "seg": 144,
+  "start": 769.743,
+  "end": 773.484,
+  "speaker": "Unknown",
+  "en": "And you could do it with any repository, any folder, anything that you have already.",
+  "zh": "你可以用任何仓库、任何文件夹、任何你已经有的东西来做。"
+ },
+ {
+  "seg": 145,
+  "start": 774.284,
+  "end": 780.445,
+  "speaker": "Unknown",
+  "en": "But try and see if you can emulate any of the things that I'm doing because it'll make it a lot more valuable if you can see it on your own screen.",
+  "zh": "但试着看看你能不能模仿我做的任何一件事，因为如果你能在自己的屏幕上看到，它会更有价值得多。"
+ },
+ {
+  "seg": 146,
+  "start": 782.045,
+  "end": 782.325,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 147,
+  "start": 782.986,
+  "end": 786.368,
+  "speaker": "Unknown",
+  "en": "So today I'm going to be working actually in just an open source repository.",
+  "zh": "所以今天我实际上会只在一个开源仓库里工作。"
+ },
+ {
+  "seg": 148,
+  "start": 786.388,
+  "end": 798.075,
+  "speaker": "Unknown",
+  "en": "This is, if you all remember WordPress, I actually had a WordPress account maybe back in, I don't know, when I was a teenager and I used it to create blog posts and it's a pretty, you know, old website.",
+  "zh": "这个，如果你们还记得 WordPress 的话，实际上我可能早在，我不知道，我十几岁的时候就有过一个 WordPress 账户，我用它来写博客文章，它是一个相当，你知道的，老的网站。"
+ },
+ {
+  "seg": 149,
+  "start": 798.195,
+  "end": 801.557,
+  "speaker": "Unknown",
+  "en": "I'll actually open it up here in the cursor browser so you can see it.",
+  "zh": "我实际上会在 cursor 浏览器里把它打开，这样你们可以看到它。"
+ },
+ {
+  "seg": 150,
+  "start": 802.277,
+  "end": 810.783,
+  "speaker": "Unknown",
+  "en": "So I cloned the WordPress repo, and what I did is I just asked Cursor to run the web app for WordPress in the Cursor browser.",
+  "zh": "所以我克隆了 WordPress 的仓库，我所做的就是让 Cursor 在 Cursor 浏览器里运行 WordPress 的 web 应用。"
+ },
+ {
+  "seg": 151,
+  "start": 811.263,
+  "end": 822.611,
+  "speaker": "Unknown",
+  "en": "You can do that just by tagging at browser in Cursor, and Cursor actually has a built-in browser that's able to run anything from a full-stack app to just a front-end app, and you can actually just open it up here.",
+  "zh": "你只需要在 Cursor 里标记 at browser 就能做到，Cursor 实际上有一个内置浏览器，既能运行全栈应用也能运行纯前端应用，你可以直接在这里打开它。"
+ },
+ {
+  "seg": 152,
+  "start": 822.631,
+  "end": 824.152,
+  "speaker": "Unknown",
+  "en": "So I'm going to open up the browser.",
+  "zh": "所以我要打开这个浏览器。"
+ },
+ {
+  "seg": 153,
+  "start": 824.232,
+  "end": 825.052,
+  "speaker": "Unknown",
+  "en": "You can see it here.",
+  "zh": "你可以在这里看到它。"
+ },
+ {
+  "seg": 154,
+  "start": 825.653,
+  "end": 828.635,
+  "speaker": "Unknown",
+  "en": "To have a little more real estate, I'm just going to close this side panel for now.",
+  "zh": "为了有更大的屏幕空间，我先把这个侧边面板关掉。"
+ },
+ {
+  "seg": 155,
+  "start": 829.315,
+  "end": 831.556,
+  "speaker": "Unknown",
+  "en": "But here I have the WordPress browser.",
+  "zh": "这里就是我的 WordPress 浏览器。"
+ },
+ {
+  "seg": 156,
+  "start": 832.216,
+  "end": 836.098,
+  "speaker": "Unknown",
+  "en": "So I can see all my full stack WordPress app running up in here.",
+  "zh": "我可以看到我完整的全栈 WordPress 应用在上面跑起来了。"
+ },
+ {
+  "seg": 157,
+  "start": 836.818,
+  "end": 840.039,
+  "speaker": "Unknown",
+  "en": "And what I'm going to do actually is I'm going to do two things.",
+  "zh": "我实际上要做两件事。"
+ },
+ {
+  "seg": 158,
+  "start": 840.539,
+  "end": 842.62,
+  "speaker": "Unknown",
+  "en": "I'm first going to audit this code base.",
+  "zh": "我首先要审计这个代码库。"
+ },
+ {
+  "seg": 159,
+  "start": 843.22,
+  "end": 847.902,
+  "speaker": "Unknown",
+  "en": "And I'm going to see what tests currently are here and what can be improved for test coverage.",
+  "zh": "我要看看现在有哪些测试，以及测试覆盖率哪些地方可以改进。"
+ },
+ {
+  "seg": 160,
+  "start": 848.442,
+  "end": 850.063,
+  "speaker": "Unknown",
+  "en": "And I'm going to use cursor canvas for that.",
+  "zh": "我要用 cursor canvas 来做这件事。"
+ },
+ {
+  "seg": 161,
+  "start": 850.783,
+  "end": 858.669,
+  "speaker": "Unknown",
+  "en": "And then at the same time, I'm going to work on a migration plan where a lot of these components are pretty old and they're all written in PHP.",
+  "zh": "同时，我要制定一个迁移计划，因为这里面很多组件都相当老了，而且都是用 PHP 写的。"
+ },
+ {
+  "seg": 162,
+  "start": 859.15,
+  "end": 861.632,
+  "speaker": "Unknown",
+  "en": "I want to migrate some of these components to React.",
+  "zh": "我想把这些组件中的一部分迁移到 React。"
+ },
+ {
+  "seg": 163,
+  "start": 862.593,
+  "end": 866.936,
+  "speaker": "Unknown",
+  "en": "So just so you all can see what I'm working with, this is kind of the WordPress website.",
+  "zh": "让大家看看我要处理的东西，这大概就是那个 WordPress 网站。"
+ },
+ {
+  "seg": 164,
+  "start": 867.276,
+  "end": 871.18,
+  "speaker": "Unknown",
+  "en": "It's built in a mixture of PHP and React, but there's still a lot of legacy code here.",
+  "zh": "它是 PHP 和 React 混合构建的，但这里仍有很多遗留代码。"
+ },
+ {
+  "seg": 165,
+  "start": 871.58,
+  "end": 877.585,
+  "speaker": "Unknown",
+  "en": "So I'm going to work on migrating that legacy code over to React, which is its current modern framework right now.",
+  "zh": "所以我要把这些遗留代码迁移到 React，也就是它现在的现代框架。"
+ },
+ {
+  "seg": 166,
+  "start": 879.059,
+  "end": 883.321,
+  "speaker": "Unknown",
+  "en": "So what I'm going to do is I'm going to close this, and I'm going to open up a new chat.",
+  "zh": "所以我要做的是把这个关掉，然后开一个新的聊天。"
+ },
+ {
+  "seg": 167,
+  "start": 884.282,
+  "end": 885.122,
+  "speaker": "Unknown",
+  "en": "And I'm going to do two things.",
+  "zh": "我要做两件事。"
+ },
+ {
+  "seg": 168,
+  "start": 885.162,
+  "end": 887.183,
+  "speaker": "Unknown",
+  "en": "So the first thing, as I mentioned, is I'm going to create a canvas.",
+  "zh": "第一件事，正如我提到的，我要创建一个 canvas。"
+ },
+ {
+  "seg": 169,
+  "start": 887.203,
+  "end": 891.105,
+  "speaker": "Unknown",
+  "en": "So I'm going to say, create a canvas.",
+  "zh": "所以我要说，创建一个 canvas。"
+ },
+ {
+  "seg": 170,
+  "start": 891.185,
+  "end": 894.067,
+  "speaker": "Unknown",
+  "en": "This is, again, built-in skill, so you all should see it with me.",
+  "zh": "再说一次，这是内置技能，所以大家应该会和我一起看到它。"
+ },
+ {
+  "seg": 171,
+  "start": 894.387,
+  "end": 906.273,
+  "speaker": "Unknown",
+  "en": "Slash canvas is something that everyone should have access to that analyzes test coverage for this code base, highlights any gaps,",
+  "zh": "Slash canvas 是每个人都应该能用的东西，它会分析这个代码库的测试覆盖率，标出任何缺口，"
+ },
+ {
+  "seg": 172,
+  "start": 908.087,
+  "end": 923.205,
+  "speaker": "Unknown",
+  "en": "and presents the information to me about where I can add more test coverage if I migrate this to React, this code base.",
+  "zh": "并向我展示如果我把这个代码库迁移到 React 的话，我可以在哪里增加更多测试覆盖率。"
+ },
+ {
+  "seg": 173,
+  "start": 925.091,
+  "end": 926.352,
+  "speaker": "Unknown",
+  "en": "So I'm gonna send that one off.",
+  "zh": "所以我把这个发送出去。"
+ },
+ {
+  "seg": 174,
+  "start": 926.652,
+  "end": 932.598,
+  "speaker": "Unknown",
+  "en": "You can see here, it automatically starts running inside of my WordPress repo on the side here, which I love.",
+  "zh": "你可以在这里看到，它自动开始在我旁边这个 WordPress 仓库里运行了，我很喜欢这一点。"
+ },
+ {
+  "seg": 175,
+  "start": 933.238,
+  "end": 935.44,
+  "speaker": "Unknown",
+  "en": "While that's working, I'm gonna launch another agent.",
+  "zh": "趁它在工作，我要启动另一个智能体。"
+ },
+ {
+  "seg": 176,
+  "start": 936.301,
+  "end": 938.863,
+  "speaker": "Unknown",
+  "en": "And this is actually where I'm going to go into plan mode.",
+  "zh": "而这一次实际上我要进入 plan 模式。"
+ },
+ {
+  "seg": 177,
+  "start": 938.983,
+  "end": 942.787,
+  "speaker": "Unknown",
+  "en": "So this is where I actually want to develop the strategy for doing the migration.",
+  "zh": "因为在这里我是真的想为这次迁移制定策略。"
+ },
+ {
+  "seg": 178,
+  "start": 943.467,
+  "end": 945.768,
+  "speaker": "Unknown",
+  "en": "And in this scenario, I actually am going to change my model.",
+  "zh": "而在这个场景里，我实际上要换一下我的模型。"
+ },
+ {
+  "seg": 179,
+  "start": 945.908,
+  "end": 948.63,
+  "speaker": "Unknown",
+  "en": "I'm going to use GPT-56 Sol.",
+  "zh": "我要用 GPT-56 Sol。"
+ },
+ {
+  "seg": 180,
+  "start": 948.85,
+  "end": 949.75,
+  "speaker": "Unknown",
+  "en": "I love this model.",
+  "zh": "我很喜欢这个模型。"
+ },
+ {
+  "seg": 181,
+  "start": 949.87,
+  "end": 951.851,
+  "speaker": "Unknown",
+  "en": "It's a really great model for writing.",
+  "zh": "它在写作方面非常出色。"
+ },
+ {
+  "seg": 182,
+  "start": 951.892,
+  "end": 953.392,
+  "speaker": "Unknown",
+  "en": "I think it's actually a better writer.",
+  "zh": "我觉得它实际上是个更好的写作者。"
+ },
+ {
+  "seg": 183,
+  "start": 953.853,
+  "end": 955.694,
+  "speaker": "Unknown",
+  "en": "Our head of DevRel actually said this.",
+  "zh": "我们的 DevRel 负责人确实这么说过。"
+ },
+ {
+  "seg": 184,
+  "start": 955.814,
+  "end": 957.655,
+  "speaker": "Unknown",
+  "en": "It's a better writer than Grok.",
+  "zh": "它比 Grok 写得更好。"
+ },
+ {
+  "seg": 185,
+  "start": 957.795,
+  "end": 959.736,
+  "speaker": "Unknown",
+  "en": "But obviously, there's gaps in other places.",
+  "zh": "但显然，它在其他方面还有差距。"
+ },
+ {
+  "seg": 186,
+  "start": 960.236,
+  "end": 963.017,
+  "speaker": "Unknown",
+  "en": "But because I like its writing style, I like to use it for planning.",
+  "zh": "不过因为我喜欢它的写作风格，我喜欢用它来做规划。"
+ },
+ {
+  "seg": 187,
+  "start": 963.618,
+  "end": 971.542,
+  "speaker": "Unknown",
+  "en": "So I'm going to go ahead here and say, I want to migrate the components in this code base.",
+  "zh": "所以我要在这里继续说，我想迁移这个代码库里的组件。"
+ },
+ {
+  "seg": 188,
+  "start": 973.39,
+  "end": 978.173,
+  "speaker": "Unknown",
+  "en": "Say the legacy components of this code base from PHP to React.",
+  "zh": "就是把这个代码库的遗留组件从 PHP 迁移到 React。"
+ },
+ {
+  "seg": 189,
+  "start": 979.514,
+  "end": 986.678,
+  "speaker": "Unknown",
+  "en": "I want to make sure that tests are added to verify no regressions have been introduced.",
+  "zh": "我要确保添加测试以验证没有引入回归。"
+ },
+ {
+  "seg": 190,
+  "start": 988.559,
+  "end": 1002.347,
+  "speaker": "Unknown",
+  "en": "And then something I like to say as well, I say, I want you to draw a diagram of the current status quo technical architecture and how that will change with the migration.",
+  "zh": "然后我还喜欢说的一点是，我说，我要你画一张当前现状技术架构的图，以及迁移之后架构会如何变化。"
+ },
+ {
+  "seg": 191,
+  "start": 1003.641,
+  "end": 1005.223,
+  "speaker": "Unknown",
+  "en": "Cursor is really good at drawing diagrams.",
+  "zh": "Cursor 画图非常擅长。"
+ },
+ {
+  "seg": 192,
+  "start": 1005.723,
+  "end": 1016.433,
+  "speaker": "Unknown",
+  "en": "Cursor uses mermaid diagrams as its base, but you can actually connect Cursor to Lucidchart, to ExcalaDraw, to FigJam, and have it actually print out its diagrams at any of those services.",
+  "zh": "Cursor 以 mermaid 图为基础，但你其实可以把 Cursor 连接到 Lucidchart、ExcalaDraw、FigJam，让它在那些服务里实际输出图表。"
+ },
+ {
+  "seg": 193,
+  "start": 1016.834,
+  "end": 1021.819,
+  "speaker": "Unknown",
+  "en": "So I like to do that sometimes, but usually the first mermaid diagram is a good place to start.",
+  "zh": "所以我有时喜欢这么做，不过通常第一张 mermaid 图就已经是很好的起点了。"
+ },
+ {
+  "seg": 194,
+  "start": 1023.017,
+  "end": 1028.018,
+  "speaker": "Unknown",
+  "en": "So you can see here for the plan, what it's doing is it's actually using my plan skill.",
+  "zh": "你可以在这里看到，对于这个计划，它实际上在用我的 plan 技能。"
+ },
+ {
+  "seg": 195,
+  "start": 1028.178,
+  "end": 1036,
+  "speaker": "Unknown",
+  "en": "This is a TDD template that actually lives in Confluence that it's able to pull on to make sure that all my plans look the same.",
+  "zh": "这是一个 TDD 模板，实际存放在 Confluence 里，它能够调取它，以确保我所有的计划看起来格式一致。"
+ },
+ {
+  "seg": 196,
+  "start": 1036.84,
+  "end": 1042.021,
+  "speaker": "Unknown",
+  "en": "But before it's going to go and actually write the plan, what Cursor is very good at is getting direction from me early.",
+  "zh": "但在它真正去写计划之前，Cursor 非常擅长的一点是尽早从我这里获取方向。"
+ },
+ {
+  "seg": 197,
+  "start": 1042.541,
+  "end": 1045.642,
+  "speaker": "Unknown",
+  "en": "So you can see it's saying, hey, legacy components is a little vague here.",
+  "zh": "你可以看到它在说，嘿，「遗留组件」这里有点模糊。"
+ },
+ {
+  "seg": 198,
+  "start": 1045.782,
+  "end": 1047.442,
+  "speaker": "Unknown",
+  "en": "What scope should this design target?",
+  "zh": "这个设计应该以什么范围为标准？"
+ },
+ {
+  "seg": 199,
+  "start": 1048.522,
+  "end": 1052.543,
+  "speaker": "Unknown",
+  "en": "And I'm going to say one screen for now, and then we'll do a reusable phased pattern.",
+  "zh": "而我要说，先做一块屏幕，然后再用可复用的分阶段模式。"
+ },
+ {
+  "seg": 200,
+  "start": 1053.583,
+  "end": 1055.864,
+  "speaker": "Unknown",
+  "en": "And then sometimes Cursor will ask you more than one question.",
+  "zh": "然后有时候 Cursor 会问你不止一个问题。"
+ },
+ {
+  "seg": 201,
+  "start": 1055.984,
+  "end": 1059.005,
+  "speaker": "Unknown",
+  "en": "So it's kind of up to you how you want to customize that tool.",
+  "zh": "所以这有点取决于你想怎么自定义那个工具。"
+ },
+ {
+  "seg": 202,
+  "start": 1059.045,
+  "end": 1060.346,
+  "speaker": "Unknown",
+  "en": "It's called the Ask Question tool.",
+  "zh": "它叫 Ask Question 工具。"
+ },
+ {
+  "seg": 203,
+  "start": 1060.766,
+  "end": 1066.188,
+  "speaker": "Unknown",
+  "en": "And you can make it so that it actually asks you at least five questions before it goes in and writes a plan.",
+  "zh": "你可以让它在进去写计划之前至少问你五个问题。"
+ },
+ {
+  "seg": 204,
+  "start": 1066.688,
+  "end": 1071.15,
+  "speaker": "Unknown",
+  "en": "But the cool thing about plan mode, as I mentioned, is the output is a markdown file.",
+  "zh": "但正如我提到的，计划模式（plan mode）很酷的一点是输出是一个 markdown 文件。"
+ },
+ {
+  "seg": 205,
+  "start": 1071.19,
+  "end": 1071.87,
+  "speaker": "Unknown",
+  "en": "It's a document.",
+  "zh": "它是一份文档。"
+ },
+ {
+  "seg": 206,
+  "start": 1072.23,
+  "end": 1075.711,
+  "speaker": "Unknown",
+  "en": "Cursor is never going to go in and actually make or write code in plan mode.",
+  "zh": "在计划模式中，Cursor 永远不会进去真正编写代码。"
+ },
+ {
+  "seg": 207,
+  "start": 1075.751,
+  "end": 1077.592,
+  "speaker": "Unknown",
+  "en": "It's only going to write you a strategy.",
+  "zh": "它只会给你写一份策略。"
+ },
+ {
+  "seg": 208,
+  "start": 1078.903,
+  "end": 1079.864,
+  "speaker": "Unknown",
+  "en": "So I'll let this run.",
+  "zh": "所以我会让它跑完。"
+ },
+ {
+  "seg": 209,
+  "start": 1080.384,
+  "end": 1084.028,
+  "speaker": "Unknown",
+  "en": "While this is running, I want to go back and show you the Canvas that Cursor created.",
+  "zh": "在它运行的时候，我想回过头给你们看 Cursor 创建的 Canvas。"
+ },
+ {
+  "seg": 210,
+  "start": 1084.468,
+  "end": 1086.991,
+  "speaker": "Unknown",
+  "en": "So again, this is a built-in tool within Cursor.",
+  "zh": "再说一次，这是 Cursor 内置的一个工具。"
+ },
+ {
+  "seg": 211,
+  "start": 1087.531,
+  "end": 1091.995,
+  "speaker": "Unknown",
+  "en": "And Cursor is actually the only tool I know that has this, where I can open this Canvas here.",
+  "zh": "而且 Cursor 实际上是我所知道的唯一一个有这个功能的工具，我可以在这里打开这个 Canvas。"
+ },
+ {
+  "seg": 212,
+  "start": 1092.396,
+  "end": 1095.418,
+  "speaker": "Unknown",
+  "en": "And what I love about Cursor Canvas is it can take any data.",
+  "zh": "我喜欢 Cursor Canvas 的地方是它可以接收任何数据。"
+ },
+ {
+  "seg": 213,
+  "start": 1095.619,
+  "end": 1097.801,
+  "speaker": "Unknown",
+  "en": "It can take files, Excel spreadsheets.",
+  "zh": "它可以接收文件、Excel 电子表格。"
+ },
+ {
+  "seg": 214,
+  "start": 1098.181,
+  "end": 1099.943,
+  "speaker": "Unknown",
+  "en": "You can give it data from an MCP.",
+  "zh": "你可以给它来自 MCP 的数据。"
+ },
+ {
+  "seg": 215,
+  "start": 1100.363,
+  "end": 1102.145,
+  "speaker": "Unknown",
+  "en": "In this case, it took data from the code base.",
+  "zh": "在这个例子里，它从代码库获取了数据。"
+ },
+ {
+  "seg": 216,
+  "start": 1102.625,
+  "end": 1116.814,
+  "speaker": "Unknown",
+  "en": "And it creates these beautiful interactive visualizations that I can use if I want to present this to my leadership team or if I want to just look and visualize things that usually is presented in just tables or raw data.",
+  "zh": "然后它创建出这些漂亮的交互式可视化，如果我想把这个展示给我的领导团队，或者我只是想查看和可视化那些通常只用表格或原始数据呈现的东西，我都可以用。"
+ },
+ {
+  "seg": 217,
+  "start": 1117.334,
+  "end": 1121.737,
+  "speaker": "Unknown",
+  "en": "So you can see here it creates this really nice table of the coverage by the different admin screens.",
+  "zh": "你们可以在这里看到，它创建了一张非常漂亮的表格，展示了不同管理后台页面的覆盖情况。"
+ },
+ {
+  "seg": 218,
+  "start": 1122.198,
+  "end": 1126.24,
+  "speaker": "Unknown",
+  "en": "And I love how it does this where it says, hey, these are the things I think you should migrate next.",
+  "zh": "我很喜欢它这样做，它会提示：嘿，这些是我认为你应该接下来迁移的东西。"
+ },
+ {
+  "seg": 219,
+  "start": 1126.62,
+  "end": 1128.141,
+  "speaker": "Unknown",
+  "en": "These are the things that you should do after.",
+  "zh": "这些是你之后应该做的事情。"
+ },
+ {
+  "seg": 220,
+  "start": 1128.201,
+  "end": 1130.463,
+  "speaker": "Unknown",
+  "en": "And these are the components that are already in React.",
+  "zh": "这些是已经在 React 里的组件。"
+ },
+ {
+  "seg": 221,
+  "start": 1130.883,
+  "end": 1133.324,
+  "speaker": "Unknown",
+  "en": "So it kind of filters everything really nicely.",
+  "zh": "所以它把一切都过滤得很好。"
+ },
+ {
+  "seg": 222,
+  "start": 1134.205,
+  "end": 1141.909,
+  "speaker": "Unknown",
+  "en": "It says here are the places to add coverage, here are the places with client.js that has no queue unit tests, and then this is the way to structure new tests.",
+  "zh": "它说这里是要添加覆盖的地方，这里是 client.js 中没有队列单元测试的地方，然后这是组织新测试的方式。"
+ },
+ {
+  "seg": 223,
+  "start": 1142.489,
+  "end": 1145.871,
+  "speaker": "Unknown",
+  "en": "The cool thing about canvases as well is that you can actually modify them.",
+  "zh": "Canvas 还有一个很酷的地方是你可以实际修改它。"
+ },
+ {
+  "seg": 224,
+  "start": 1145.951,
+  "end": 1148.893,
+  "speaker": "Unknown",
+  "en": "So I can, for example, say make this a bar chart.",
+  "zh": "比如我可以说，把它变成一个柱状图。"
+ },
+ {
+  "seg": 225,
+  "start": 1149.473,
+  "end": 1151.556,
+  "speaker": "Unknown",
+  "en": "Instead, and it can go ahead and do that.",
+  "zh": "它就可以直接去做。"
+ },
+ {
+  "seg": 226,
+  "start": 1151.916,
+  "end": 1154.94,
+  "speaker": "Unknown",
+  "en": "But I like using canvases as a way to audit code bases.",
+  "zh": "但我喜欢把 Canvas 当作审计代码库的一种方式。"
+ },
+ {
+  "seg": 227,
+  "start": 1155.02,
+  "end": 1167.116,
+  "speaker": "Unknown",
+  "en": "I like using it as a way to, again, print out test coverage docs or anything around coverage generally before I do a migration, because it's a really great way, again, to visualize your code base in a very fast and easy way.",
+  "zh": "我喜欢用它来，再强调一下，在迁移之前打印出测试覆盖文档或任何关于覆盖率的东西，因为它是一种非常快速简便地可视化你的代码库的好方法。"
+ },
+ {
+  "seg": 228,
+  "start": 1167.777,
+  "end": 1170.298,
+  "speaker": "Unknown",
+  "en": "What's also cool about Canvas is you can share them.",
+  "zh": "Canvas 还有一个很酷的地方是你可以分享它们。"
+ },
+ {
+  "seg": 229,
+  "start": 1170.438,
+  "end": 1171.859,
+  "speaker": "Unknown",
+  "en": "So I can actually publish this.",
+  "zh": "所以我可以实际发布这个。"
+ },
+ {
+  "seg": 230,
+  "start": 1172.479,
+  "end": 1182.184,
+  "speaker": "Unknown",
+  "en": "And now anyone who has the link to my Canvas, so for example, if I sent this to Reagan, she can actually open it up in her browser and see my Canvas and see any changes that I make to the Canvas.",
+  "zh": "现在任何拥有我的 Canvas 链接的人，比如，如果我把它发给 Reagan，她可以在她的浏览器里打开它，查看我的 Canvas，并看到我对 Canvas 做的任何更改。"
+ },
+ {
+  "seg": 231,
+  "start": 1182.585,
+  "end": 1185.646,
+  "speaker": "Unknown",
+  "en": "So it's a living, breathing document that is really easy to spin up.",
+  "zh": "所以它是一份活生生的、会呼吸的文档，非常容易创建。"
+ },
+ {
+  "seg": 232,
+  "start": 1186.006,
+  "end": 1187.127,
+  "speaker": "Unknown",
+  "en": "Just use slash Canvas.",
+  "zh": "只要用 slash Canvas 就行。"
+ },
+ {
+  "seg": 233,
+  "start": 1188.952,
+  "end": 1190.454,
+  "speaker": "Unknown",
+  "en": "Okay, so this is good data.",
+  "zh": "好的，这是很好的数据。"
+ },
+ {
+  "seg": 234,
+  "start": 1190.574,
+  "end": 1196,
+  "speaker": "Unknown",
+  "en": "I want to make sure that I take some of this into account, especially maybe the screens that it's thinking of migrating next.",
+  "zh": "我想确保把其中一些纳入考虑，尤其是它认为接下来要迁移的那些页面。"
+ },
+ {
+  "seg": 235,
+  "start": 1196.201,
+  "end": 1198.443,
+  "speaker": "Unknown",
+  "en": "I'll look and see if the plan covers any of these.",
+  "zh": "我会看看计划是否涵盖了其中任何一项。"
+ },
+ {
+  "seg": 236,
+  "start": 1199.124,
+  "end": 1200.806,
+  "speaker": "Unknown",
+  "en": "I'm not going to go back to my plan here.",
+  "zh": "我不打算回到我的计划这里。"
+ },
+ {
+  "seg": 237,
+  "start": 1200.826,
+  "end": 1202.588,
+  "speaker": "Unknown",
+  "en": "Oh, looks like it's asking me some more question.",
+  "zh": "哦，看起来它又在问我更多问题。"
+ },
+ {
+  "seg": 238,
+  "start": 1203.289,
+  "end": 1205.992,
+  "speaker": "Unknown",
+  "en": "Hmm, which legacy component should anchor the migration plan?",
+  "zh": "嗯，应该用哪个旧组件作为迁移计划的锚点？"
+ },
+ {
+  "seg": 239,
+  "start": 1206.172,
+  "end": 1207.033,
+  "speaker": "Unknown",
+  "en": "This is a good question.",
+  "zh": "这是个好问题。"
+ },
+ {
+  "seg": 240,
+  "start": 1207.293,
+  "end": 1209.136,
+  "speaker": "Unknown",
+  "en": "I'm going to say the profile for now.",
+  "zh": "我现在要说 profile。"
+ },
+ {
+  "seg": 241,
+  "start": 1210.884,
+  "end": 1215.808,
+  "speaker": "Unknown",
+  "en": "While this is working, I do want to talk about how you can have multiple agents up in cursor at once.",
+  "zh": "趁它在运行，我确实想谈谈如何在 Cursor 里同时开启多个智能体。"
+ },
+ {
+  "seg": 242,
+  "start": 1216.568,
+  "end": 1219.57,
+  "speaker": "Unknown",
+  "en": "So for example, you have one agent running, but you want to look at another agent.",
+  "zh": "比如，你有一个智能体在运行，但你想看另一个智能体。"
+ },
+ {
+  "seg": 243,
+  "start": 1219.93,
+  "end": 1222.412,
+  "speaker": "Unknown",
+  "en": "You can actually tile your agents left and right here.",
+  "zh": "你实际上可以在这里把你的智能体左右平铺。"
+ },
+ {
+  "seg": 244,
+  "start": 1222.812,
+  "end": 1225.854,
+  "speaker": "Unknown",
+  "en": "So for your Tmux users, you don't have to stay in the terminal.",
+  "zh": "所以对于你们这些 Tmux 用户来说，你不必待在终端里。"
+ },
+ {
+  "seg": 245,
+  "start": 1225.874,
+  "end": 1228.116,
+  "speaker": "Unknown",
+  "en": "You can actually have something similar just like this.",
+  "zh": "你可以拥有类似这样的东西。"
+ },
+ {
+  "seg": 246,
+  "start": 1228.996,
+  "end": 1231.218,
+  "speaker": "Unknown",
+  "en": "And you can see kind of you have one agent running here.",
+  "zh": "你们可以看到你有一个智能体在这里运行。"
+ },
+ {
+  "seg": 247,
+  "start": 1231.658,
+  "end": 1235.381,
+  "speaker": "Unknown",
+  "en": "In the meantime, you can kind of look and see at your other agent and how it's working.",
+  "zh": "与此同时，你可以查看你的另一个智能体以及它的工作情况。"
+ },
+ {
+  "seg": 248,
+  "start": 1235.901,
+  "end": 1236.942,
+  "speaker": "Unknown",
+  "en": "So very cool.",
+  "zh": "非常酷。"
+ },
+ {
+  "seg": 249,
+  "start": 1237.002,
+  "end": 1240.285,
+  "speaker": "Unknown",
+  "en": "I do this a lot when I have two long running agents run side by side.",
+  "zh": "当我有两个长时间运行的智能体并排运行时，我经常这样做。"
+ },
+ {
+  "seg": 250,
+  "start": 1241.146,
+  "end": 1243.448,
+  "speaker": "Unknown",
+  "en": "Sometimes also, let me actually close this out.",
+  "zh": "有时候，让我实际把它关掉。"
+ },
+ {
+  "seg": 251,
+  "start": 1244.308,
+  "end": 1248.712,
+  "speaker": "Unknown",
+  "en": "If I have a long running agent and I want to see like, hmm, what is it doing?",
+  "zh": "如果我有一个长时间运行的智能体，我想看看，嗯，它在做什么？"
+ },
+ {
+  "seg": 252,
+  "start": 1248.772,
+  "end": 1250.574,
+  "speaker": "Unknown",
+  "en": "Or why did it make this particular decision?",
+  "zh": "或者它为什么做出这个特定的决定？"
+ },
+ {
+  "seg": 253,
+  "start": 1251.655,
+  "end": 1261.423,
+  "speaker": "Unknown",
+  "en": "I can see actually more details by highlighting something, hitting add to side chat and saying, what exactly were these patterns?",
+  "zh": "我可以通过高亮某段内容、点击“添加到侧边聊天”并询问“这些模式到底是什么？”来查看更多细节。"
+ },
+ {
+  "seg": 254,
+  "start": 1262.442,
+  "end": 1264.963,
+  "speaker": "Unknown",
+  "en": "And this doesn't conflict at all with this parent agent.",
+  "zh": "而且这完全不会与父智能体冲突。"
+ },
+ {
+  "seg": 255,
+  "start": 1265.063,
+  "end": 1271.745,
+  "speaker": "Unknown",
+  "en": "It's more so like if you've used slash btw and Claude Code before, an easier, more UI friendly way of seeing that.",
+  "zh": "这更像是，如果你以前用过 Claude Code 的 slash btw,这是一种更简单、对 UI 更友好的方式来看待这件事。"
+ },
+ {
+  "seg": 256,
+  "start": 1272.105,
+  "end": 1283.708,
+  "speaker": "Unknown",
+  "en": "So I love using that sometimes when I have a long running agent because I can use it to kind of double click on a particular part of the code base or see kind of what's going on while my parent agent still continues to run.",
+  "zh": "所以当我有长时间运行的智能体时，我很喜欢用这个功能，因为我可以用它来深入挖掘代码库的某个特定部分，或者查看正在进行的情况，同时我的父智能体仍在继续运行。"
+ },
+ {
+  "seg": 257,
+  "start": 1285.538,
+  "end": 1286.581,
+  "speaker": "Unknown",
+  "en": "I'm going to close this for now.",
+  "zh": "与此同时，Reagan,还有其他我可以回答的问题吗？"
+ },
+ {
+  "seg": 258,
+  "start": 1287.202,
+  "end": 1290.089,
+  "speaker": "Unknown",
+  "en": "And looks like the plan is almost done.",
+  "zh": "看起来计划差不多完成了。"
+ },
+ {
+  "seg": 259,
+  "start": 1290.189,
+  "end": 1292.114,
+  "speaker": "Unknown",
+  "en": "It's refining the phased migration plan.",
+  "zh": "它正在完善分阶段迁移计划。"
+ },
+ {
+  "seg": 260,
+  "start": 1292.976,
+  "end": 1295.222,
+  "speaker": "Unknown",
+  "en": "In the meantime, Reagan, are there any other questions I can answer?",
+  "zh": "在此期间，Reagan，还有其他我可以回答的问题吗？"
+ },
+ {
+  "seg": 261,
+  "start": 1297.393,
+  "end": 1298.433,
+  "speaker": "Unknown",
+  "en": "Yeah, one quick question.",
+  "zh": "是的，有一个简短的问题。"
+ },
+ {
+  "seg": 262,
+  "start": 1299.034,
+  "end": 1304.316,
+  "speaker": "Unknown",
+  "en": "Opening the canvas in the browser, do you mind just showing where you can find the click to copy link?",
+  "zh": "关于在浏览器中打开画布，你能展示一下在哪里可以找到点击复制链接吗？"
+ },
+ {
+  "seg": 263,
+  "start": 1304.916,
+  "end": 1305.596,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "当然可以。"
+ },
+ {
+  "seg": 264,
+  "start": 1305.736,
+  "end": 1307.297,
+  "speaker": "Unknown",
+  "en": "So I'm going to go back to the canvas here.",
+  "zh": "我回到这里的画布。"
+ },
+ {
+  "seg": 265,
+  "start": 1307.977,
+  "end": 1309.397,
+  "speaker": "Unknown",
+  "en": "As you can see, I published the link.",
+  "zh": "正如你所看到的，我发布了链接。"
+ },
+ {
+  "seg": 266,
+  "start": 1309.637,
+  "end": 1313.239,
+  "speaker": "Unknown",
+  "en": "And I actually made this change where I made that from a pie chart to a pie chart.",
+  "zh": "而且我实际上做了这个修改，把它从一个饼图改成了一个饼图。"
+ },
+ {
+  "seg": 267,
+  "start": 1313.259,
+  "end": 1314.379,
+  "speaker": "Unknown",
+  "en": "So I'm going to sync it.",
+  "zh": "所以我要同步它。"
+ },
+ {
+  "seg": 268,
+  "start": 1314.939,
+  "end": 1317.92,
+  "speaker": "Unknown",
+  "en": "And then what I'm going to do is I'm going to copy the link right here.",
+  "zh": "然后我要做的是，复制这里的链接。"
+ },
+ {
+  "seg": 269,
+  "start": 1317.94,
+  "end": 1320.641,
+  "speaker": "Unknown",
+  "en": "And I'll actually open it up in the browser for you guys.",
+  "zh": "然后我会实际在浏览器中为你们打开它。"
+ },
+ {
+  "seg": 270,
+  "start": 1320.661,
+  "end": 1322.102,
+  "speaker": "Unknown",
+  "en": "So I'm going to open up my browser.",
+  "zh": "我要打开我的浏览器。"
+ },
+ {
+  "seg": 271,
+  "start": 1322.122,
+  "end": 1324.783,
+  "speaker": "Unknown",
+  "en": "And what we're going to do is we're going to paste that here.",
+  "zh": "我们要做的是，把它粘贴在这里。"
+ },
+ {
+  "seg": 272,
+  "start": 1326.636,
+  "end": 1328.556,
+  "speaker": "Unknown",
+  "en": "And boom, here's my canvas.",
+  "zh": "瞧，这是我的画布。"
+ },
+ {
+  "seg": 273,
+  "start": 1328.696,
+  "end": 1331.497,
+  "speaker": "Unknown",
+  "en": "And again, it's for anyone in my cursor team.",
+  "zh": "再说一次，它对我 Cursor 团队里的任何人开放。"
+ },
+ {
+  "seg": 274,
+  "start": 1331.677,
+  "end": 1332.817,
+  "speaker": "Unknown",
+  "en": "So Reagan can see it.",
+  "zh": "所以 Reagan 可以看到它。"
+ },
+ {
+  "seg": 275,
+  "start": 1333.017,
+  "end": 1333.937,
+  "speaker": "Unknown",
+  "en": "My manager can see it.",
+  "zh": "我的经理可以看到它。"
+ },
+ {
+  "seg": 276,
+  "start": 1334.037,
+  "end": 1336.338,
+  "speaker": "Unknown",
+  "en": "Anyone who is in the same cursor team as me can see it.",
+  "zh": "任何和我同在同一个 Cursor 团队的人都可以看到它。"
+ },
+ {
+  "seg": 277,
+  "start": 1336.658,
+  "end": 1341.619,
+  "speaker": "Unknown",
+  "en": "But if I sent this to my mom or my dad, they're not going to be able to open it because they're not in my cursor team.",
+  "zh": "但如果我把它发给我妈妈或爸爸，他们将无法打开它，因为他们不在我的 Cursor 团队里。"
+ },
+ {
+  "seg": 278,
+  "start": 1342.239,
+  "end": 1344.739,
+  "speaker": "Unknown",
+  "en": "But this is great if you ever want to kind of share data like this.",
+  "zh": "但如果你想分享这样的数据，这非常棒。"
+ },
+ {
+  "seg": 279,
+  "start": 1344.779,
+  "end": 1349.86,
+  "speaker": "Unknown",
+  "en": "You can also download it as a PDF if you want to print it out or use it as a leave behind.",
+  "zh": "如果你想打印出来或作为留存资料，你也可以把它下载为 PDF。"
+ },
+ {
+  "seg": 280,
+  "start": 1350.58,
+  "end": 1354.401,
+  "speaker": "Unknown",
+  "en": "So really great way, again, to share data like this from your code base.",
+  "zh": "所以这确实是一种从代码库分享这类数据的好方法。"
+ },
+ {
+  "seg": 281,
+  "start": 1355.788,
+  "end": 1363.345,
+  "speaker": "Unknown",
+  "en": "And then one other question around whether the IDE is a better place to generate code or our agent's window application.",
+  "zh": "然后还有另一个问题，关于 IDE 是生成代码更好的地方，还是我们的智能体窗口应用程序。"
+ },
+ {
+  "seg": 282,
+  "start": 1364.08,
+  "end": 1366.161,
+  "speaker": "Unknown",
+  "en": "Yeah, it honestly is a personal preference.",
+  "zh": "是的，老实说这是个人偏好。"
+ },
+ {
+  "seg": 283,
+  "start": 1366.862,
+  "end": 1377.149,
+  "speaker": "Unknown",
+  "en": "I find that people like the IDE when they like the VS Code debugger or when they have specific VS Code extensions that they have been using for years and they want to preserve those.",
+  "zh": "我发现，当人们喜欢 VS Code 调试器，或者当他们有多年一直在使用的特定 VS Code 扩展并想保留它们时，他们会喜欢 IDE。"
+ },
+ {
+  "seg": 284,
+  "start": 1378.65,
+  "end": 1382.072,
+  "speaker": "Unknown",
+  "en": "I like the agents window because I spend most of my time in my agent.",
+  "zh": "我喜欢智能体窗口，因为我大部分时间都花在我的智能体上。"
+ },
+ {
+  "seg": 285,
+  "start": 1382.412,
+  "end": 1386.555,
+  "speaker": "Unknown",
+  "en": "And then when I do need to review code, I do most of that actually in the cloud, which I'll show later.",
+  "zh": "当我确实需要审查代码时，我实际上大部分是在云端做的，我稍后会展示。"
+ },
+ {
+  "seg": 286,
+  "start": 1387.456,
+  "end": 1390.398,
+  "speaker": "Unknown",
+  "en": "So that's why I prefer the agents window, but it's a personal preference.",
+  "zh": "所以这就是我更喜欢智能体窗口的原因，但这是个人偏好。"
+ },
+ {
+  "seg": 287,
+  "start": 1390.818,
+  "end": 1392.619,
+  "speaker": "Unknown",
+  "en": "We will never stop supporting the IDE.",
+  "zh": "我们永远不会停止支持 IDE。"
+ },
+ {
+  "seg": 288,
+  "start": 1392.659,
+  "end": 1393.859,
+  "speaker": "Unknown",
+  "en": "The IDE will always be there.",
+  "zh": "IDE 会一直存在。"
+ },
+ {
+  "seg": 289,
+  "start": 1394.919,
+  "end": 1397.7,
+  "speaker": "Unknown",
+  "en": "But it is kind of up to you as to how you want to use it.",
+  "zh": "但如何使用它取决于你自己。"
+ },
+ {
+  "seg": 290,
+  "start": 1398.801,
+  "end": 1399.001,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 291,
+  "start": 1399.141,
+  "end": 1403.542,
+  "speaker": "Unknown",
+  "en": "And I have another question on whether Browser and Canvas are available in IDE.",
+  "zh": "我还有另一个问题，关于 Browser 和 Canvas 在 IDE 中是否可用。"
+ },
+ {
+  "seg": 292,
+  "start": 1403.883,
+  "end": 1404.763,
+  "speaker": "Unknown",
+  "en": "And I believe the answer is no.",
+  "zh": "我相信答案是否定的。"
+ },
+ {
+  "seg": 293,
+  "start": 1405.583,
+  "end": 1407.224,
+  "speaker": "Unknown",
+  "en": "So Browser and Canvas are.",
+  "zh": "所以 Browser 和 Canvas 是可用的。"
+ },
+ {
+  "seg": 294,
+  "start": 1407.824,
+  "end": 1413.586,
+  "speaker": "Unknown",
+  "en": "So actually, if I open up the IDE here, you can actually open up the browser just by doing Command Shift B.",
+  "zh": "实际上，如果我在这里打开 IDE，你只需按 Command Shift B 就可以打开浏览器。"
+ },
+ {
+  "seg": 295,
+  "start": 1413.926,
+  "end": 1415.787,
+  "speaker": "Unknown",
+  "en": "So I can go to that same local host.",
+  "zh": "所以我可以访问同一个本地主机。"
+ },
+ {
+  "seg": 296,
+  "start": 1415.847,
+  "end": 1417.807,
+  "speaker": "Unknown",
+  "en": "I believe it was 8888.",
+  "zh": "我记得是 8888。"
+ },
+ {
+  "seg": 297,
+  "start": 1417.967,
+  "end": 1418.448,
+  "speaker": "Unknown",
+  "en": "Let me check.",
+  "zh": "让我检查一下。"
+ },
+ {
+  "seg": 298,
+  "start": 1421.486,
+  "end": 1422.187,
+  "speaker": "Unknown",
+  "en": "Yep, there we go.",
+  "zh": "是的，好了。"
+ },
+ {
+  "seg": 299,
+  "start": 1422.387,
+  "end": 1426.192,
+  "speaker": "Unknown",
+  "en": "So you can open up the browser in the IDE, and then you can open up canvases as well.",
+  "zh": "所以你可以在 IDE 中打开浏览器，也可以打开画布。"
+ },
+ {
+  "seg": 300,
+  "start": 1426.212,
+  "end": 1427.794,
+  "speaker": "Unknown",
+  "en": "You can just do slash canvas.",
+  "zh": "你只需要输入 slash canvas。"
+ },
+ {
+  "seg": 301,
+  "start": 1428.395,
+  "end": 1429.637,
+  "speaker": "Unknown",
+  "en": "Let's see if that loads here.",
+  "zh": "我们看看它能不能在这里加载出来。"
+ },
+ {
+  "seg": 302,
+  "start": 1430.879,
+  "end": 1435.665,
+  "speaker": "Unknown",
+  "en": "Looks like it's having some issues loading, but you can open up a canvas inside of the IDE as well.",
+  "zh": "看起来加载有点问题，不过你也可以在 IDE 里打开一个 canvas。"
+ },
+ {
+  "seg": 303,
+  "start": 1440.042,
+  "end": 1440.322,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 304,
+  "start": 1441.183,
+  "end": 1443.223,
+  "speaker": "Unknown",
+  "en": "Looks like this plan is taking a little bit longer.",
+  "zh": "看起来这个计划要花的时间稍微长一点。"
+ },
+ {
+  "seg": 305,
+  "start": 1443.464,
+  "end": 1445.044,
+  "speaker": "Unknown",
+  "en": "Maybe I'm just used to Grok speed.",
+  "zh": "可能只是我习惯了 Grok 的速度。"
+ },
+ {
+  "seg": 306,
+  "start": 1445.684,
+  "end": 1447.465,
+  "speaker": "Unknown",
+  "en": "So we'll give it a little bit more time.",
+  "zh": "那我们再多给它一点时间。"
+ },
+ {
+  "seg": 307,
+  "start": 1448.226,
+  "end": 1451.647,
+  "speaker": "Unknown",
+  "en": "While it's working, I'm going to show you all kind of where we're going to go from here.",
+  "zh": "趁它在工作，我先给大家展示一下我们接下来要做什么。"
+ },
+ {
+  "seg": 308,
+  "start": 1452.267,
+  "end": 1460.251,
+  "speaker": "Unknown",
+  "en": "So once we have the plan, we're actually going to divide up the plan into JIRA tickets and populate this JIRA board that I have set up.",
+  "zh": "所以等我们拿到计划之后，我们实际上会把这个计划拆分成 JIRA tickets，并填充到我预先设置好的这个 JIRA board 里。"
+ },
+ {
+  "seg": 309,
+  "start": 1460.291,
+  "end": 1462.272,
+  "speaker": "Unknown",
+  "en": "It's just an empty board with those tickets.",
+  "zh": "它就是一个空的 board，带着那些 tickets。"
+ },
+ {
+  "seg": 310,
+  "start": 1462.752,
+  "end": 1465.375,
+  "speaker": "Unknown",
+  "en": "And the way we're going to do that is via the Atlassian MCP.",
+  "zh": "而我们做这件事的方式是通过 Atlassian MCP。"
+ },
+ {
+  "seg": 311,
+  "start": 1465.536,
+  "end": 1471.723,
+  "speaker": "Unknown",
+  "en": "So if you guys use Jira, if you use Linear, use monday.com, those all live actually in here now.",
+  "zh": "如果你们用 Jira、用 Linear、用 monday.com，这些现在实际上都在这里面了。"
+ },
+ {
+  "seg": 312,
+  "start": 1472.184,
+  "end": 1478.952,
+  "speaker": "Unknown",
+  "en": "So if you go to customize, you can kind of see the list of plugins that actually, let me just do the ones for me.",
+  "zh": "如果你点 customize，你可以看到插件列表，实际上——让我只看看我自己的那些。"
+ },
+ {
+  "seg": 313,
+  "start": 1480.734,
+  "end": 1482.516,
+  "speaker": "Unknown",
+  "en": "You can see the list of MCPs that I have.",
+  "zh": "你可以看到我拥有的 MCP 列表。"
+ },
+ {
+  "seg": 314,
+  "start": 1482.596,
+  "end": 1486.619,
+  "speaker": "Unknown",
+  "en": "So Atlassian, Datadog, Figma, Google is a big one now.",
+  "zh": "有 Atlassian、Datadog、Figma，Google 现在是一个大头。"
+ },
+ {
+  "seg": 315,
+  "start": 1486.679,
+  "end": 1492.903,
+  "speaker": "Unknown",
+  "en": "So we now actually have Google Drive, Google Calendar, and your Gmail all as plugins within Cursor.",
+  "zh": "所以我们现在实际上有了 Google Drive、Google Calendar 和你的 Gmail，全部作为 Cursor 里的插件。"
+ },
+ {
+  "seg": 316,
+  "start": 1493.224,
+  "end": 1503.271,
+  "speaker": "Unknown",
+  "en": "So you can actually connect to any of these if you want to, for example, publish your plan to a Google Doc or if you want to take your calendar into account when scheduling something with Cursor.",
+  "zh": "所以你实际上可以连接其中任何一个，比如你想把你的计划发布到 Google Doc，或者你想在用 Cursor 安排日程时把你的日历考虑进去。"
+ },
+ {
+  "seg": 317,
+  "start": 1504.032,
+  "end": 1506.594,
+  "speaker": "Unknown",
+  "en": "So you can use all of these plugins within Cursor now.",
+  "zh": "所以你现在可以在 Cursor 里使用所有这些插件。"
+ },
+ {
+  "seg": 318,
+  "start": 1507.514,
+  "end": 1513.537,
+  "speaker": "Unknown",
+  "en": "And then the last one that I'll show, which we'll use later, is you can also have the Figma plugin.",
+  "zh": "然后我要展示的最后一个，我们稍后会用到的，是你也可以装 Figma 插件。"
+ },
+ {
+  "seg": 319,
+  "start": 1514.237,
+  "end": 1520.12,
+  "speaker": "Unknown",
+  "en": "And this is really great if you ever want to, again, publish to a FigJam or pull in design systems.",
+  "zh": "如果你想要发布到 FigJam 或者引入设计系统，这真的非常好用。"
+ },
+ {
+  "seg": 320,
+  "start": 1520.26,
+  "end": 1525.343,
+  "speaker": "Unknown",
+  "en": "If you ever want to migrate design systems, you can pull in Figma designs for that as well.",
+  "zh": "如果你想要迁移设计系统，你也可以拉取 Figma 的设计来做这件事。"
+ },
+ {
+  "seg": 321,
+  "start": 1525.423,
+  "end": 1529.685,
+  "speaker": "Unknown",
+  "en": "So very powerful plugin and very powerful integration within Cursor.",
+  "zh": "所以这是非常强大的插件，也是 Cursor 里非常强大的集成。"
+ },
+ {
+  "seg": 322,
+  "start": 1531.956,
+  "end": 1532.216,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 323,
+  "start": 1532.236,
+  "end": 1535.119,
+  "speaker": "Unknown",
+  "en": "I have one hand raised by Frank.",
+  "zh": "我看到 Frank 举了手。"
+ },
+ {
+  "seg": 324,
+  "start": 1535.279,
+  "end": 1537.801,
+  "speaker": "Unknown",
+  "en": "Frank, if you want to go ahead and come off mute, feel free.",
+  "zh": "Frank，如果你想解除静音发言，请随意。"
+ },
+ {
+  "seg": 325,
+  "start": 1546.008,
+  "end": 1546.268,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 326,
+  "start": 1546.288,
+  "end": 1549.031,
+  "speaker": "Unknown",
+  "en": "I think we'll have to take your question in the chat, Frank.",
+  "zh": "我想我们得在聊天里回答你的问题了，Frank。"
+ },
+ {
+  "seg": 327,
+  "start": 1549.491,
+  "end": 1550.172,
+  "speaker": "Unknown",
+  "en": "Sorry about that.",
+  "zh": "不好意思。"
+ },
+ {
+  "seg": 328,
+  "start": 1551.729,
+  "end": 1553.089,
+  "speaker": "Unknown",
+  "en": "But our plan is now ready.",
+  "zh": "不过我们的计划现在准备好了。"
+ },
+ {
+  "seg": 329,
+  "start": 1553.91,
+  "end": 1562.676,
+  "speaker": "Unknown",
+  "en": "As you can see, we have, as I mentioned, it follows a template that is in Confluence, which is great because I want all my plans to look the same.",
+  "zh": "正如你们看到的，我们有——就像我提到的——它遵循一个在 Confluence 里的模板，这很棒，因为我希望我所有的计划看起来都一样。"
+ },
+ {
+  "seg": 330,
+  "start": 1562.716,
+  "end": 1565.638,
+  "speaker": "Unknown",
+  "en": "But as you can see, the plan is a living, breathing document.",
+  "zh": "但正如你们所见，这个计划是一份活生生的、可以不断变化的文档。"
+ },
+ {
+  "seg": 331,
+  "start": 1565.778,
+  "end": 1566.799,
+  "speaker": "Unknown",
+  "en": "So I can edit it.",
+  "zh": "所以我可以编辑它。"
+ },
+ {
+  "seg": 332,
+  "start": 1566.879,
+  "end": 1567.719,
+  "speaker": "Unknown",
+  "en": "I can change it.",
+  "zh": "我可以修改它。"
+ },
+ {
+  "seg": 333,
+  "start": 1567.86,
+  "end": 1571.282,
+  "speaker": "Unknown",
+  "en": "I can say, you know, Amrita and Reagan and Ronnie.",
+  "zh": "我可以说，你知道，Amrita、Reagan 和 Ronnie。"
+ },
+ {
+  "seg": 334,
+  "start": 1572.404,
+  "end": 1575.631,
+  "speaker": "Unknown",
+  "en": "It kind of is allowing me to basically modify and edit it.",
+  "zh": "它基本上允许我去修改和编辑它。"
+ },
+ {
+  "seg": 335,
+  "start": 1575.952,
+  "end": 1580.782,
+  "speaker": "Unknown",
+  "en": "I can even add parts of this to the chat and I can say something like shorten this section.",
+  "zh": "我甚至可以把其中一部分加到聊天里，然后说类似于「缩短这一节」的话。"
+ },
+ {
+  "seg": 336,
+  "start": 1582.927,
+  "end": 1587.949,
+  "speaker": "Unknown",
+  "en": "I'm actually going to switch back to Grok now because I want something a little faster and more efficient.",
+  "zh": "我现在实际上要切回 Grok，因为我想要更快、更高效一点的东西。"
+ },
+ {
+  "seg": 337,
+  "start": 1588.97,
+  "end": 1595.253,
+  "speaker": "Unknown",
+  "en": "But you can see here the plan is really great at kind of walking you through what the steps it's going to take to actually migrate these things over.",
+  "zh": "但你可以看到，这个计划真的非常擅长带你一步步了解它实际迁移这些东西要采取的步骤。"
+ },
+ {
+  "seg": 338,
+  "start": 1595.693,
+  "end": 1597.874,
+  "speaker": "Unknown",
+  "en": "So you can see these are the functional requirements.",
+  "zh": "你可以看到这些是功能性需求。"
+ },
+ {
+  "seg": 339,
+  "start": 1597.894,
+  "end": 1599.395,
+  "speaker": "Unknown",
+  "en": "These are some non-functional requirements.",
+  "zh": "这些是一些非功能性需求。"
+ },
+ {
+  "seg": 340,
+  "start": 1599.895,
+  "end": 1601.135,
+  "speaker": "Unknown",
+  "en": "This is the high-level approach.",
+  "zh": "这是高层方案。"
+ },
+ {
+  "seg": 341,
+  "start": 1601.355,
+  "end": 1602.276,
+  "speaker": "Unknown",
+  "en": "You can see that it does",
+  "zh": "你可以看到它做了"
+ },
+ {
+  "seg": 342,
+  "start": 1602.656,
+  "end": 1606.539,
+  "speaker": "Unknown",
+  "en": "Both like a current status quo architecture diagram that I asked it to do.",
+  "zh": "一张我让它做的当前现状架构图。"
+ },
+ {
+  "seg": 343,
+  "start": 1606.899,
+  "end": 1610.302,
+  "speaker": "Unknown",
+  "en": "But then it also says this is what the target architecture is going to look like.",
+  "zh": "然后它还说明了目标架构会是什么样子。"
+ },
+ {
+  "seg": 344,
+  "start": 1610.342,
+  "end": 1611.803,
+  "speaker": "Unknown",
+  "en": "And these are some changes I'm going to make.",
+  "zh": "以及这些是我要做的 一些改动。"
+ },
+ {
+  "seg": 345,
+  "start": 1612.644,
+  "end": 1615.646,
+  "speaker": "Unknown",
+  "en": "It's going through the sequence and data flow of the code base, which is really nice.",
+  "zh": "它梳理了代码库的顺序和数据流，这非常好。"
+ },
+ {
+  "seg": 346,
+  "start": 1616.086,
+  "end": 1621.63,
+  "speaker": "Unknown",
+  "en": "And then it's walking through the API design, any data models that need to be updated, and any feature flags we need to change.",
+  "zh": "然后它还走了一遍 API 设计、任何需要更新的数据模型，以及任何我们需要改动的 feature flags。"
+ },
+ {
+  "seg": 347,
+  "start": 1622.511,
+  "end": 1627.215,
+  "speaker": "Unknown",
+  "en": "So what I'm going to do now is I'm actually going to ask it to divide up this plan into JIRA tickets.",
+  "zh": "所以我现在要做的是，我实际上要让它把这个计划拆分成 JIRA tickets。"
+ },
+ {
+  "seg": 348,
+  "start": 1627.855,
+  "end": 1629.496,
+  "speaker": "Unknown",
+  "en": "So I'm going to minimize this again.",
+  "zh": "所以我要再次把这个最小化。"
+ },
+ {
+  "seg": 349,
+  "start": 1631.212,
+  "end": 1632.813,
+  "speaker": "Unknown",
+  "en": "I'm actually going to...",
+  "zh": "我实际上要……"
+ },
+ {
+  "seg": 350,
+  "start": 1633.513,
+  "end": 1634.554,
+  "speaker": "Unknown",
+  "en": "I was asking me one more question.",
+  "zh": "我被问了我最后一个问题。"
+ },
+ {
+  "seg": 351,
+  "start": 1634.574,
+  "end": 1635.934,
+  "speaker": "Unknown",
+  "en": "I'll say core precedent here.",
+  "zh": "我会说这里的核心先例。"
+ },
+ {
+  "seg": 352,
+  "start": 1636.794,
+  "end": 1651.5,
+  "speaker": "Unknown",
+  "en": "I'm going to exit out of plan mode now and I'm going to say divide this plan into JIRA tickets and publish them to the WordPress space I have in Atlassian.",
+  "zh": "我现在要退出计划模式，然后我要说把这个计划拆分为 JIRA 工单，并发布到我在 Atlassian 的 WordPress 空间。"
+ },
+ {
+  "seg": 353,
+  "start": 1652.92,
+  "end": 1653.961,
+  "speaker": "Unknown",
+  "en": "And I'm going to send that over.",
+  "zh": "然后我要把它发送过去。"
+ },
+ {
+  "seg": 354,
+  "start": 1655.886,
+  "end": 1658.268,
+  "speaker": "Unknown",
+  "en": "As you can see, I have some messages queued up.",
+  "zh": "正如你所看到的，我有一些消息排着队。"
+ },
+ {
+  "seg": 355,
+  "start": 1658.328,
+  "end": 1660.309,
+  "speaker": "Unknown",
+  "en": "This is kind of when an agent is already running.",
+  "zh": "这有点像一个智能体已经在运行的情况。"
+ },
+ {
+  "seg": 356,
+  "start": 1660.329,
+  "end": 1665.792,
+  "speaker": "Unknown",
+  "en": "I'm actually going to show you a mode called multitask mode where it can actually work on both of these things in parallel.",
+  "zh": "我实际上要给你们展示一个叫多任务模式的模式，它可以真正并行处理这两件事。"
+ },
+ {
+  "seg": 357,
+  "start": 1666.192,
+  "end": 1668.634,
+  "speaker": "Unknown",
+  "en": "As you can see, these two agents aren't really that related.",
+  "zh": "正如你所看到的，这两个智能体其实没什么关联。"
+ },
+ {
+  "seg": 358,
+  "start": 1668.814,
+  "end": 1671.415,
+  "speaker": "Unknown",
+  "en": "One of them is, again, shortening the executive summary.",
+  "zh": "其中一个，再说一次，是在缩短执行摘要。"
+ },
+ {
+  "seg": 359,
+  "start": 1671.755,
+  "end": 1673.777,
+  "speaker": "Unknown",
+  "en": "The other one is dividing the plan into JIRA tickets.",
+  "zh": "另一个是在把计划拆分为 JIRA 工单。"
+ },
+ {
+  "seg": 360,
+  "start": 1673.797,
+  "end": 1675.778,
+  "speaker": "Unknown",
+  "en": "So it can work on both of those things at once.",
+  "zh": "所以它可以同时处理这两件事。"
+ },
+ {
+  "seg": 361,
+  "start": 1676.658,
+  "end": 1685.682,
+  "speaker": "Unknown",
+  "en": "But this is a great way to, again, speed up and expedite your workflows whenever you have any particular phased work or things that need to get done in sequence.",
+  "zh": "但这是一个加速和加快你工作流的好方法，只要你有什么特定分阶段的工作或需要按顺序完成的事情。"
+ },
+ {
+  "seg": 362,
+  "start": 1686.642,
+  "end": 1689.183,
+  "speaker": "Unknown",
+  "en": "So you can see here it says, all right, I'm shortening the plan summary.",
+  "zh": "所以你可以看到这里它说，好，我正在缩短计划摘要。"
+ },
+ {
+  "seg": 363,
+  "start": 1689.683,
+  "end": 1693.165,
+  "speaker": "Unknown",
+  "en": "And then now it's working on the JIRA tickets division.",
+  "zh": "然后现在它在处理 JIRA 工单的拆分。"
+ },
+ {
+  "seg": 364,
+  "start": 1694.74,
+  "end": 1694.98,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很酷。"
+ },
+ {
+  "seg": 365,
+  "start": 1695.06,
+  "end": 1701.821,
+  "speaker": "Unknown",
+  "en": "So while it's dividing this up to JIRA tickets, I now want to talk a little bit about how you can go from local work to the cloud.",
+  "zh": "那么当它在把这些拆分成 JIRA 工单的时候，我现在想稍微谈谈你如何从本地工作转到云端。"
+ },
+ {
+  "seg": 366,
+  "start": 1702.061,
+  "end": 1721.545,
+  "speaker": "Unknown",
+  "en": "And this is where you really see a huge gain in time and a huge kind of, I want to say, difference in effort for doing something like this because you can now send this off to a cloud agent and the cloud agent can now work on this while you close your laptop or while you work on something else that's not going to constrain your machine.",
+  "zh": "这才是你真正看到巨大时间收益的地方，以及我想说，做这样的事情在投入上的巨大差异，因为你现在可以把它发给一个云端智能体，云端智能体就可以处理这个，而你可以合上笔记本电脑，或者去处理其他不会占用你机器的事情。"
+ },
+ {
+  "seg": 367,
+  "start": 1722.992,
+  "end": 1725.394,
+  "speaker": "Unknown",
+  "en": "So you can see here it's working on making this into tickets.",
+  "zh": "所以你可以看到这里它正在把这些做成工单。"
+ },
+ {
+  "seg": 368,
+  "start": 1726.315,
+  "end": 1728.036,
+  "speaker": "Unknown",
+  "en": "There's an option here to build into the cloud.",
+  "zh": "这里有一个选项可以构建到云端。"
+ },
+ {
+  "seg": 369,
+  "start": 1728.236,
+  "end": 1732.74,
+  "speaker": "Unknown",
+  "en": "So if you want to just go straight from your plan into the cloud, you can hit that button no problem.",
+  "zh": "所以如果你想直接从你的计划进入云端，你可以点那个按钮，没问题。"
+ },
+ {
+  "seg": 370,
+  "start": 1733.24,
+  "end": 1735.582,
+  "speaker": "Unknown",
+  "en": "I'm actually going to go doing it ticket by ticket.",
+  "zh": "我实际上打算逐个工单地来做。"
+ },
+ {
+  "seg": 371,
+  "start": 1735.863,
+  "end": 1739.305,
+  "speaker": "Unknown",
+  "en": "So I'm not going to hit this button today, but just so you know, that is an option.",
+  "zh": "所以我今天不会点这个按钮，但只是让你知道，这是一个选项。"
+ },
+ {
+  "seg": 372,
+  "start": 1740.206,
+  "end": 1744.011,
+  "speaker": "Unknown",
+  "en": "What I'm going to do actually is I'm going to show you how I go from here to the cloud.",
+  "zh": "我实际上要做的是，我会给你们展示我怎么从这里转到云端。"
+ },
+ {
+  "seg": 373,
+  "start": 1744.292,
+  "end": 1745.594,
+  "speaker": "Unknown",
+  "en": "So there's multiple ways.",
+  "zh": "所以有多种方式。"
+ },
+ {
+  "seg": 374,
+  "start": 1745.814,
+  "end": 1746.915,
+  "speaker": "Unknown",
+  "en": "You can go from here.",
+  "zh": "你可以从这里开始。"
+ },
+ {
+  "seg": 375,
+  "start": 1747.336,
+  "end": 1748.978,
+  "speaker": "Unknown",
+  "en": "You can even launch a new agent here.",
+  "zh": "你甚至可以在这里启动一个新的智能体。"
+ },
+ {
+  "seg": 376,
+  "start": 1749.119,
+  "end": 1753.124,
+  "speaker": "Unknown",
+  "en": "Instead of doing from Mac, you can hit cloud and it will automatically launch a cloud agent.",
+  "zh": "不用从 Mac 端操作，你可以点云，它会自动启动一个云端智能体。"
+ },
+ {
+  "seg": 377,
+  "start": 1753.705,
+  "end": 1756.749,
+  "speaker": "Unknown",
+  "en": "But the way that I like to do it is I like to actually just go to the browser.",
+  "zh": "但我喜欢的方式是，我实际上喜欢直接去浏览器。"
+ },
+ {
+  "seg": 378,
+  "start": 1757.699,
+  "end": 1762.183,
+  "speaker": "Unknown",
+  "en": "So here is the cursor cloud agent browser interface.",
+  "zh": "这是 Cursor 云端智能体的浏览器界面。"
+ },
+ {
+  "seg": 379,
+  "start": 1762.384,
+  "end": 1767.649,
+  "speaker": "Unknown",
+  "en": "So as you can see here, it's really at a very simple URL, cursor.com slash agents.",
+  "zh": "正如你所看到的，它就在一个非常简单的 URL，cursor.com 斜杠 agents。"
+ },
+ {
+  "seg": 380,
+  "start": 1768.269,
+  "end": 1772.513,
+  "speaker": "Unknown",
+  "en": "And you can see that I have some of my previous agents kind of pinned off here to the side.",
+  "zh": "你可以看到我把我之前的一些智能体钉在旁边的位置。"
+ },
+ {
+  "seg": 381,
+  "start": 1773.234,
+  "end": 1776.978,
+  "speaker": "Unknown",
+  "en": "You can see that I can kind of pick the repos that I work in in the cloud.",
+  "zh": "你可以看到我可以在云端挑选我工作的仓库。"
+ },
+ {
+  "seg": 382,
+  "start": 1777.118,
+  "end": 1781.842,
+  "speaker": "Unknown",
+  "en": "So this is the one that I was working in locally, but because it's in GitHub, I can just connect that via cursor.",
+  "zh": "这是我之前在本地工作的那个，但因为它在 GitHub 上，我可以通过 Cursor 直接连接它。"
+ },
+ {
+  "seg": 383,
+  "start": 1782.983,
+  "end": 1787.965,
+  "speaker": "Unknown",
+  "en": "Another cool thing about Cursor Cloud is that you can actually connect multiple repos.",
+  "zh": "Cursor Cloud 另一个很酷的地方是，你实际上可以连接多个仓库。"
+ },
+ {
+  "seg": 384,
+  "start": 1788.405,
+  "end": 1806.351,
+  "speaker": "Unknown",
+  "en": "So this is really great if you A, are a microservices shop, or B, if you, for example, have one internal SDK that a bunch of your other kind of client services rely on, and you make a change to one SDK, you know, field or JSON file, and all the other clients need to get updated.",
+  "zh": "所以这非常棒，如果你 A，是一家微服务店，或者 B，如果你，比如说，有一个内部 SDK，你很多其他的客户端服务都依赖它，然后你改了那个 SDK 的一个字段或 JSON 文件，所有其他客户端都需要更新。"
+ },
+ {
+  "seg": 385,
+  "start": 1806.871,
+  "end": 1809.372,
+  "speaker": "Unknown",
+  "en": "So what you can do there is you can hit select multiple,",
+  "zh": "所以你在那里可以做的是，你可以点选择多个，"
+ },
+ {
+  "seg": 386,
+  "start": 1809.692,
+  "end": 1816.314,
+  "speaker": "Unknown",
+  "en": "And then you can select as many different kind of services you want, and a cloud agent will work across all of those services.",
+  "zh": "然后你可以选择你想要的任意多个不同的服务，一个云端智能体会跨所有那些服务工作。"
+ },
+ {
+  "seg": 387,
+  "start": 1816.714,
+  "end": 1829.617,
+  "speaker": "Unknown",
+  "en": "So this is a huge differentiator within Cursor, multi-repo cloud agents, because the reality is, unless you have a monorepo or unless you're working in smaller repos, you probably do want context from one repo going into another.",
+  "zh": "所以这是 Cursor 内部的一个巨大差异化优势，多仓库云端智能体，因为现实是，除非你有一个 monorepo，或者除非你在较小的仓库里工作，你很可能确实希望一个仓库的上下文进入另一个仓库。"
+ },
+ {
+  "seg": 388,
+  "start": 1830.077,
+  "end": 1833.258,
+  "speaker": "Unknown",
+  "en": "And so this is the way to do that with multi-repo cloud agents.",
+  "zh": "而这就是用多仓库云端智能体做到这一点的方式。"
+ },
+ {
+  "seg": 389,
+  "start": 1834.758,
+  "end": 1838.601,
+  "speaker": "Unknown",
+  "en": "Another thing about cloud agents is you get that same flexibility with models here.",
+  "zh": "关于云端智能体的另一件事是，你在这里获得同样的模型灵活性。"
+ },
+ {
+  "seg": 390,
+  "start": 1838.741,
+  "end": 1850.871,
+  "speaker": "Unknown",
+  "en": "And this is important because cloud agents, because they can take a long time or they can send you back screenshots and videos of what they've done, they can use more tokens than a normal local agent.",
+  "zh": "这很重要，因为云端智能体，因为它们可能花费很长时间，或者它们可以给你发回它们所做工作的截图和视频，它们会比普通本地智能体使用更多 token。"
+ },
+ {
+  "seg": 391,
+  "start": 1851.272,
+  "end": 1855.996,
+  "speaker": "Unknown",
+  "en": "So you want to make sure that you actually have cheaper, faster models for your cloud agents.",
+  "zh": "所以你要确保你的云端智能体实际上用的是更便宜、更快的模型。"
+ },
+ {
+  "seg": 392,
+  "start": 1856.816,
+  "end": 1859.737,
+  "speaker": "Unknown",
+  "en": "Grok 4.6, Composer 2.5, GPT 5.6.",
+  "zh": "Grok 4.6、Composer 2.5、GPT 5.6。"
+ },
+ {
+  "seg": 393,
+  "start": 1860.177,
+  "end": 1872.5,
+  "speaker": "Unknown",
+  "en": "These are all models you can only get in Cursor because these cloud agents are able to use them in a really fast, efficient way and only cost you maybe like three or four dollars for an entire migration.",
+  "zh": "这些都是你只能在 Cursor 得到的模型，因为这些云端智能体能够以非常快速、高效的方式使用它们，而且一次完整的迁移可能只花你三四美元。"
+ },
+ {
+  "seg": 394,
+  "start": 1873.26,
+  "end": 1884.523,
+  "speaker": "Unknown",
+  "en": "And so I really recommend kind of playing around with these models here because this is where you see a huge kind of gain in efficiency and cost when you use cheaper, faster models for your cloud work.",
+  "zh": "所以我真的推荐试试这里的这些模型，因为当你为云端工作使用更便宜、更快的模型时，这里就是你看到效率和成本巨大收益的地方。"
+ },
+ {
+  "seg": 395,
+  "start": 1885.582,
+  "end": 1888.785,
+  "speaker": "Unknown",
+  "en": "And then the last thing I'll show is something called, and do we have it here?",
+  "zh": "然后我要展示的最后一件事是一个叫……我们有这里吗？"
+ },
+ {
+  "seg": 396,
+  "start": 1888.825,
+  "end": 1889.045,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "有。"
+ },
+ {
+  "seg": 397,
+  "start": 1889.205,
+  "end": 1890.146,
+  "speaker": "Unknown",
+  "en": "Long running agents.",
+  "zh": "长时间运行智能体。"
+ },
+ {
+  "seg": 398,
+  "start": 1890.686,
+  "end": 1892.548,
+  "speaker": "Unknown",
+  "en": "So we don't use this that often.",
+  "zh": "所以我们不常用这个。"
+ },
+ {
+  "seg": 399,
+  "start": 1893.068,
+  "end": 1898.252,
+  "speaker": "Unknown",
+  "en": "It's basically similar to slash goal where it will keep working on a task until it's finished.",
+  "zh": "它基本上类似于 slash goal，会一直处理一个任务直到完成。"
+ },
+ {
+  "seg": 400,
+  "start": 1898.453,
+  "end": 1905.438,
+  "speaker": "Unknown",
+  "en": "If you ever want to turn it on and just use it, you can actually set like time limits as to when it should be done or when it should work until.",
+  "zh": "如果你想开启它然后直接使用，你实际上可以设置时间限制，规定它应该在什么时候完成，或者应该工作到什么时候。"
+ },
+ {
+  "seg": 401,
+  "start": 1905.939,
+  "end": 1908.501,
+  "speaker": "Unknown",
+  "en": "And so it is really good for that particular scenario.",
+  "zh": "所以它确实非常适合那个特定场景。"
+ },
+ {
+  "seg": 402,
+  "start": 1909.221,
+  "end": 1920.344,
+  "speaker": "Unknown",
+  "en": "But what I like about it is it's really great, again, if you want to do a dependency update or a Python version update, you can kind of have Cursor working on that until you think that it's ready and everything has been tested fully.",
+  "zh": "但我喜欢它的地方在于，再说一次，如果你想做依赖更新或者 Python 版本更新，你可以让 Cursor 在那上面工作，直到你觉得它准备好了、所有东西都经过了充分测试。"
+ },
+ {
+  "seg": 403,
+  "start": 1921.925,
+  "end": 1922.045,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 404,
+  "start": 1922.065,
+  "end": 1923.405,
+  "speaker": "Unknown",
+  "en": "So I'm going to disable this for now.",
+  "zh": "那么我现在要把它禁用。"
+ },
+ {
+  "seg": 405,
+  "start": 1924.086,
+  "end": 1928.307,
+  "speaker": "Unknown",
+  "en": "And I'm going to select the repository that I'm working in, which was the WordPress develop one.",
+  "zh": "然后我要选择我正在工作的仓库，就是那个 WordPress develop 的仓库。"
+ },
+ {
+  "seg": 406,
+  "start": 1928.647,
+  "end": 1935.069,
+  "speaker": "Unknown",
+  "en": "Oh, I'm actually going to just refresh the page real quick because I don't want to do multi-repos.",
+  "zh": "哦，实际上我要快速刷新一下页面，因为我不想做多仓库。"
+ },
+ {
+  "seg": 407,
+  "start": 1937.11,
+  "end": 1938.311,
+  "speaker": "Unknown",
+  "en": "And give it a second.",
+  "zh": "稍等一下。"
+ },
+ {
+  "seg": 408,
+  "start": 1938.331,
+  "end": 1944.413,
+  "speaker": "Unknown",
+  "en": "It looks like we might have a outage, but let's see how far we can get.",
+  "zh": "看起来我们可能遇到了一次故障（outage），但让我们看看能走多远。"
+ },
+ {
+  "seg": 409,
+  "start": 1945.013,
+  "end": 1945.573,
+  "speaker": "Unknown",
+  "en": "Here we go.",
+  "zh": "来了。"
+ },
+ {
+  "seg": 410,
+  "start": 1946.734,
+  "end": 1949.975,
+  "speaker": "Unknown",
+  "en": "What I'm going to do now, so it looks like, let's see how our",
+  "zh": "我现在要做的，看起来是，让我们看看我们的"
+ },
+ {
+  "seg": 411,
+  "start": 1951.138,
+  "end": 1952.018,
+  "speaker": "Unknown",
+  "en": "Tickets did.",
+  "zh": "工单做得怎么样了。"
+ },
+ {
+  "seg": 412,
+  "start": 1952.479,
+  "end": 1953.039,
+  "speaker": "Unknown",
+  "en": "Beautiful.",
+  "zh": "漂亮。"
+ },
+ {
+  "seg": 413,
+  "start": 1953.139,
+  "end": 1956.36,
+  "speaker": "Unknown",
+  "en": "So it kind of divided up all these tickets into different phases.",
+  "zh": "所以它把这些工单大致划分成了不同的阶段。"
+ },
+ {
+  "seg": 414,
+  "start": 1956.54,
+  "end": 1957.08,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 415,
+  "start": 1957.821,
+  "end": 1959.802,
+  "speaker": "Unknown",
+  "en": "What I'm going to do is I'm actually going to show you all these tickets.",
+  "zh": "我要做的是，实际上我要给你们展示所有这些工单。"
+ },
+ {
+  "seg": 416,
+  "start": 1959.902,
+  "end": 1960.802,
+  "speaker": "Unknown",
+  "en": "So here they are.",
+  "zh": "它们在这里。"
+ },
+ {
+  "seg": 417,
+  "start": 1961.202,
+  "end": 1968.705,
+  "speaker": "Unknown",
+  "en": "You can see here that each ticket has a goal, scope, some acceptance criteria, some tests, dependencies, and notes.",
+  "zh": "你可以看到这里每个工单都有一个目标（goal）、范围（scope）、一些验收标准（acceptance criteria）、一些测试（tests）、依赖（dependencies）和备注（notes）。"
+ },
+ {
+  "seg": 418,
+  "start": 1968.765,
+  "end": 1970.206,
+  "speaker": "Unknown",
+  "en": "I'm going to just assign this to me.",
+  "zh": "我要把它指派给我自己。"
+ },
+ {
+  "seg": 419,
+  "start": 1971.026,
+  "end": 1974.808,
+  "speaker": "Unknown",
+  "en": "So I'm going to assign all of these tickets, maybe phase one and phase two.",
+  "zh": "所以我要把所有这些工单都指派给我，可能是第一阶段和第二阶段。"
+ },
+ {
+  "seg": 420,
+  "start": 1976.909,
+  "end": 1979.77,
+  "speaker": "Unknown",
+  "en": "And then what I'll do is I'll say,",
+  "zh": "然后我要做的是我会说，"
+ },
+ {
+  "seg": 421,
+  "start": 1980.923,
+  "end": 1993.535,
+  "speaker": "Unknown",
+  "en": "Go here and I'll say, find all the JIRA tickets in the WordPress board that are assigned to me and work on all of them.",
+  "zh": "到这里来，我会说，找到 WordPress 看板上所有指派给我的 JIRA 工单，并把它们全部处理。"
+ },
+ {
+  "seg": 422,
+  "start": 1994.316,
+  "end": 2004.926,
+  "speaker": "Unknown",
+  "en": "Put up a separate PR for each ticket and make sure that you verify your changes using screenshots or video recordings.",
+  "zh": "为每个工单分别提交一个 PR，并确保你用截图或视频录像来验证你的更改。"
+ },
+ {
+  "seg": 423,
+  "start": 2007.385,
+  "end": 2009.527,
+  "speaker": "Unknown",
+  "en": "For this, I actually will stick with 4.6.",
+  "zh": "对这个，我实际上会继续用 4.6。"
+ },
+ {
+  "seg": 424,
+  "start": 2010.148,
+  "end": 2011.169,
+  "speaker": "Unknown",
+  "en": "Sometimes I use Composer.",
+  "zh": "有时我用 Composer。"
+ },
+ {
+  "seg": 425,
+  "start": 2011.209,
+  "end": 2012.291,
+  "speaker": "Unknown",
+  "en": "Sometimes I use GPT.",
+  "zh": "有时我用 GPT。"
+ },
+ {
+  "seg": 426,
+  "start": 2012.631,
+  "end": 2015.595,
+  "speaker": "Unknown",
+  "en": "I usually stay away from Anthropic models here because they can tend to be pricey.",
+  "zh": "我在这里通常避开 Anthropic 模型，因为它们往往比较贵。"
+ },
+ {
+  "seg": 427,
+  "start": 2016.376,
+  "end": 2017.998,
+  "speaker": "Unknown",
+  "en": "But I'm going to go ahead and send this out.",
+  "zh": "但我要直接把这个发出去。"
+ },
+ {
+  "seg": 428,
+  "start": 2019.039,
+  "end": 2021.042,
+  "speaker": "Unknown",
+  "en": "And this is a very cool thing about Cloud Agents.",
+  "zh": "而这是 Cloud Agents 非常酷的一点。"
+ },
+ {
+  "seg": 429,
+  "start": 2021.282,
+  "end": 2024.226,
+  "speaker": "Unknown",
+  "en": "So Cloud Agents set up the environment for you remotely.",
+  "zh": "Cloud Agents 会在远程为你搭建好环境。"
+ },
+ {
+  "seg": 430,
+  "start": 2025.066,
+  "end": 2028.569,
+  "speaker": "Unknown",
+  "en": "And the first time you do it, it will take maybe like 10 to 20 minutes.",
+  "zh": "你第一次做的时候，大概需要 10 到 20 分钟。"
+ },
+ {
+  "seg": 431,
+  "start": 2029.049,
+  "end": 2035.153,
+  "speaker": "Unknown",
+  "en": "But then once you've done it, it saves that environment using something called a build so that it doesn't have to do it each time.",
+  "zh": "但一旦你做过之后，它会用一个叫 build 的东西保存那个环境，这样它就不必每次都重新搭建。"
+ },
+ {
+  "seg": 432,
+  "start": 2035.593,
+  "end": 2037.654,
+  "speaker": "Unknown",
+  "en": "And then it immediately starts working on it.",
+  "zh": "然后它立即开始在上面工作。"
+ },
+ {
+  "seg": 433,
+  "start": 2038.295,
+  "end": 2041.657,
+  "speaker": "Unknown",
+  "en": "So you can see here, this is a pretty big repository, this WordPress repository.",
+  "zh": "所以你可以看到，这是一个相当大的仓库，这个 WordPress 仓库。"
+ },
+ {
+  "seg": 434,
+  "start": 2041.757,
+  "end": 2046.6,
+  "speaker": "Unknown",
+  "en": "But because I set up the environment yesterday, it's able to kind of work on it no problem.",
+  "zh": "但因为我昨天已经搭建好了环境，它能够毫无问题地在上面工作。"
+ },
+ {
+  "seg": 435,
+  "start": 2046.88,
+  "end": 2051.063,
+  "speaker": "Unknown",
+  "en": "And all it needs is basically any install scripts or snapshots that I've given it before.",
+  "zh": "而且它需要的基本上就是我之前给它的任何安装脚本或快照。"
+ },
+ {
+  "seg": 436,
+  "start": 2051.543,
+  "end": 2052.783,
+  "speaker": "Unknown",
+  "en": "So it's looking pretty good.",
+  "zh": "所以看起来相当不错。"
+ },
+ {
+  "seg": 437,
+  "start": 2052.963,
+  "end": 2056.024,
+  "speaker": "Unknown",
+  "en": "It's pretty ready to work on these things.",
+  "zh": "它已经准备好处理这些东西了。"
+ },
+ {
+  "seg": 438,
+  "start": 2056.965,
+  "end": 2060.246,
+  "speaker": "Unknown",
+  "en": "And now it's actually going to use the JIRA MCP.",
+  "zh": "而现在它实际上要使用 JIRA MCP 了。"
+ },
+ {
+  "seg": 439,
+  "start": 2060.606,
+  "end": 2066.967,
+  "speaker": "Unknown",
+  "en": "So another great thing about the cursor cloud is the fact that you can connect all the MCPs that you had locally in the cloud.",
+  "zh": "所以 cursor cloud 的另一个很棒之处在于，你可以把本地已有的所有 MCP 连接到云端。"
+ },
+ {
+  "seg": 440,
+  "start": 2067.308,
+  "end": 2069.628,
+  "speaker": "Unknown",
+  "en": "You can see here that I have Atlassian turned on.",
+  "zh": "你可以在这里看到我开启了 Atlassian。"
+ },
+ {
+  "seg": 441,
+  "start": 2069.648,
+  "end": 2072.109,
+  "speaker": "Unknown",
+  "en": "I have, I believe, Datadog as well.",
+  "zh": "我记得我还开启了 Datadog。"
+ },
+ {
+  "seg": 442,
+  "start": 2072.809,
+  "end": 2073.369,
+  "speaker": "Unknown",
+  "en": "There it is.",
+  "zh": "在那里。"
+ },
+ {
+  "seg": 443,
+  "start": 2073.749,
+  "end": 2075.89,
+  "speaker": "Unknown",
+  "en": "And you can add as many MCPs as you want.",
+  "zh": "而且你可以添加任意多的 MCP。"
+ },
+ {
+  "seg": 444,
+  "start": 2075.99,
+  "end": 2078.451,
+  "speaker": "Unknown",
+  "en": "So again, Google Drive, Granola,",
+  "zh": "所以再说一次，Google Drive、Granola、"
+ },
+ {
+  "seg": 445,
+  "start": 2079.891,
+  "end": 2087.042,
+  "speaker": "Unknown",
+  "en": "PagerDuty, all of these things kind of live here and all you have to do is just add them with the plus symbol and Cursor will immediately start looking at them.",
+  "zh": "PagerDuty，所有这些东西都在这里，你只需要用加号添加它们，Cursor 就会立即开始查看它们。"
+ },
+ {
+  "seg": 446,
+  "start": 2087.582,
+  "end": 2090.346,
+  "speaker": "Unknown",
+  "en": "So you can see here it says, all right, I found three sequential tickets.",
+  "zh": "所以你可以看到它说，好的，我找到了三个连续的工单。"
+ },
+ {
+  "seg": 447,
+  "start": 2090.487,
+  "end": 2093.731,
+  "speaker": "Unknown",
+  "en": "I'm going to expect the parent ticket before starting phase one.",
+  "zh": "我会在开始第一阶段之前先处理父工单。"
+ },
+ {
+  "seg": 448,
+  "start": 2094.192,
+  "end": 2096.095,
+  "speaker": "Unknown",
+  "en": "So I'm going to let Cursor work on this.",
+  "zh": "所以我要让 Cursor 在这上面工作。"
+ },
+ {
+  "seg": 449,
+  "start": 2096.715,
+  "end": 2101.216,
+  "speaker": "Unknown",
+  "en": "This is kind of where you start with these migrations is you kind of give it the set of tickets.",
+  "zh": "这基本上就是你开始做这类迁移的方式，就是给它这一组工单。"
+ },
+ {
+  "seg": 450,
+  "start": 2101.536,
+  "end": 2113.758,
+  "speaker": "Unknown",
+  "en": "You want to make sure that it's not putting everything into one giant PR because that's just so untenable to review, but it's also really good for kind of walking through the steps that it's going to take.",
+  "zh": "你要确保它不会把所有东西都塞进一个巨大的 PR,因为那样的 PR 根本没法 review,但它也非常适合用来走查它要执行的各个步骤。"
+ },
+ {
+  "seg": 451,
+  "start": 2113.778,
+  "end": 2121.159,
+  "speaker": "Unknown",
+  "en": "As we saw earlier, we have this plan, we edited it, we turned it into tickets, and now the tickets will actually be implemented by this cloud agent.",
+  "zh": "正如我们之前看到的,我们有这个计划,我们对它进行了编辑,把它变成了工单,现在这些工单将实际由这个云端智能体来实现。"
+ },
+ {
+  "seg": 452,
+  "start": 2121.44,
+  "end": 2123.32,
+  "speaker": "Unknown",
+  "en": "I can shut my laptop and be done for the day.",
+  "zh": "我可以合上笔记本电脑,今天的工作就结束了。"
+ },
+ {
+  "seg": 453,
+  "start": 2124.1,
+  "end": 2133.482,
+  "speaker": "Unknown",
+  "en": "So ways that we've seen this at Cursor is we've gone through backlogs of tickets on Fridays because, you know, we just ask Cursor to do it and we come back on Monday and review the PRs.",
+  "zh": "我们在 Cursor 见过这种用法的方式是,我们在周五清理积压的工单,因为,你知道,我们只是让 Cursor 去做,然后周一回来 review 那些 PR。"
+ },
+ {
+  "seg": 454,
+  "start": 2134.082,
+  "end": 2135.803,
+  "speaker": "Unknown",
+  "en": "This is really great for distributed teams.",
+  "zh": "这对分布式团队来说非常棒。"
+ },
+ {
+  "seg": 455,
+  "start": 2136.023,
+  "end": 2146.165,
+  "speaker": "Unknown",
+  "en": "If you have like a team in Europe and a team in Asia, you can have those teams literally work with each other asynchronously via cloud agents because when one team goes to sleep, the other team can pick it up.",
+  "zh": "所以如果你有任何需要测试的全栈前端应用,Cursor 实际上可以替你做那个测试。"
+ },
+ {
+  "seg": 456,
+  "start": 2146.985,
+  "end": 2151.787,
+  "speaker": "Unknown",
+  "en": "So it's a really great way to just basically have always on agents that work for you.",
+  "zh": "所以这基本上是一种非常好的方式,拥有全天候为你工作的智能体。"
+ },
+ {
+  "seg": 457,
+  "start": 2152.548,
+  "end": 2155.329,
+  "speaker": "Unknown",
+  "en": "And I really love it because it speeds up a lot of my workflows.",
+  "zh": "我真的很喜欢它,因为它加速了我的很多工作流程。"
+ },
+ {
+  "seg": 458,
+  "start": 2155.989,
+  "end": 2162.272,
+  "speaker": "Unknown",
+  "en": "And as I was kind of going to talk about a little bit later, they're able to verify and test their own work.",
+  "zh": "正如我稍后会讲到的那样,它们能够验证和测试自己的工作。"
+ },
+ {
+  "seg": 459,
+  "start": 2163.942,
+  "end": 2166.104,
+  "speaker": "Unknown",
+  "en": "Okay, so this is gonna take a little bit.",
+  "zh": "好,这需要一点时间。"
+ },
+ {
+  "seg": 460,
+  "start": 2166.665,
+  "end": 2169.948,
+  "speaker": "Unknown",
+  "en": "While it's working, I'm gonna do a quick tour of just the cloud agent environment.",
+  "zh": "趁它在运行,我来快速介绍一下云端智能体的环境。"
+ },
+ {
+  "seg": 461,
+  "start": 2170.709,
+  "end": 2174.352,
+  "speaker": "Unknown",
+  "en": "This is the main agent run, very similar to what you see in regular cursor.",
+  "zh": "这是主智能体运行界面,和你在普通 cursor 里看到的非常相似。"
+ },
+ {
+  "seg": 462,
+  "start": 2174.833,
+  "end": 2179.638,
+  "speaker": "Unknown",
+  "en": "But what's nice about the cloud agent is you can also see that desktop that has access to.",
+  "zh": "但云端智能体的好处是,你还可以看到它能访问的那个桌面。"
+ },
+ {
+  "seg": 463,
+  "start": 2180.258,
+  "end": 2183.561,
+  "speaker": "Unknown",
+  "en": "So Cursor Cloud Agents run on remote VMs, Linux VMs.",
+  "zh": "Cursor Cloud Agents 运行在远程 VM 上,也就是 Linux VM 上。"
+ },
+ {
+  "seg": 464,
+  "start": 2184.161,
+  "end": 2186.643,
+  "speaker": "Unknown",
+  "en": "And so because of that, they have access to a computer and mouse.",
+  "zh": "正因为如此,它们可以访问一台电脑和一个鼠标。"
+ },
+ {
+  "seg": 465,
+  "start": 2187.143,
+  "end": 2192.968,
+  "speaker": "Unknown",
+  "en": "So if you have any full stack front end applications that need testing, Cursor can actually do that testing for you.",
+  "zh": "所以如果你有任何需要测试的全栈前端应用，Cursor 实际上可以帮你做那些测试。"
+ },
+ {
+  "seg": 466,
+  "start": 2193.728,
+  "end": 2196.13,
+  "speaker": "Unknown",
+  "en": "In fact, you can see an example of it here.",
+  "zh": "事实上,你可以在这里看到一个例子。"
+ },
+ {
+  "seg": 467,
+  "start": 2196.931,
+  "end": 2199.633,
+  "speaker": "Unknown",
+  "en": "This was in another repository I was working in, Grafana.",
+  "zh": "这是在我工作的另一个仓库 Grafana 里的。"
+ },
+ {
+  "seg": 468,
+  "start": 2200.373,
+  "end": 2208.9,
+  "speaker": "Unknown",
+  "en": "But this is a video that's taken by Cursor of it implementing a feature that I asked it to implement of switching a theme in a code base.",
+  "zh": "这是一段由 Cursor 拍摄的视频,内容是它实现我要求它实现的一个功能,也就是在代码库中切换主题。"
+ },
+ {
+  "seg": 469,
+  "start": 2209.76,
+  "end": 2215.145,
+  "speaker": "Unknown",
+  "en": "So this is Cursor using its own mouse, its own computer, and actually going in and testing something for me.",
+  "zh": "所以这是 Cursor 在使用它自己的鼠标、它自己的电脑,实际进去替我测试某个东西。"
+ },
+ {
+  "seg": 470,
+  "start": 2215.645,
+  "end": 2216.926,
+  "speaker": "Unknown",
+  "en": "I'm not controlling anything here.",
+  "zh": "我在这里没有控制任何东西。"
+ },
+ {
+  "seg": 471,
+  "start": 2217.066,
+  "end": 2219.988,
+  "speaker": "Unknown",
+  "en": "It's doing the full recording and then sending that back to me.",
+  "zh": "它在做完整的录制,然后把录屏发回给我。"
+ },
+ {
+  "seg": 472,
+  "start": 2220.569,
+  "end": 2225.753,
+  "speaker": "Unknown",
+  "en": "And so when you're doing migrations or when you're doing refactoring, you always want to make sure that you're not breaking anything, right?",
+  "zh": "所以当你在做迁移或者做重构时,你总是想确保自己没有破坏任何东西,对吧?"
+ },
+ {
+  "seg": 473,
+  "start": 2225.773,
+  "end": 2228.015,
+  "speaker": "Unknown",
+  "en": "You want to make sure that no regressions are being introduced.",
+  "zh": "你要确保没有引入回归。"
+ },
+ {
+  "seg": 474,
+  "start": 2228.515,
+  "end": 2233.739,
+  "speaker": "Unknown",
+  "en": "And by sending them off to Cursor Cloud agents, these agents can self-verify and let you know, like,",
+  "zh": "通过把它们交给 Cursor Cloud Agents,这些智能体可以自我验证并让你知道,比如,"
+ },
+ {
+  "seg": 475,
+  "start": 2234.62,
+  "end": 2235.642,
+  "speaker": "Unknown",
+  "en": "Hey, I took a screenshot.",
+  "zh": "嘿,我截了一张图。"
+ },
+ {
+  "seg": 476,
+  "start": 2235.662,
+  "end": 2236.563,
+  "speaker": "Unknown",
+  "en": "Does this look OK?",
+  "zh": "这个看起来没问题吗?"
+ },
+ {
+  "seg": 477,
+  "start": 2236.783,
+  "end": 2238.446,
+  "speaker": "Unknown",
+  "en": "Or hey, I tested this end to end.",
+  "zh": "或者嘿,我做了这个的端到端测试。"
+ },
+ {
+  "seg": 478,
+  "start": 2238.546,
+  "end": 2240.388,
+  "speaker": "Unknown",
+  "en": "Is this the workflow that you were expecting?",
+  "zh": "这是你预期的工作流程吗?"
+ },
+ {
+  "seg": 479,
+  "start": 2240.929,
+  "end": 2248.46,
+  "speaker": "Unknown",
+  "en": "And so by doing that, you're kind of given more confidence and trust with these agents that they are able to do the refactoring without having to break anything.",
+  "zh": "通过这样做,你会对这些智能体多一份信心和信任,相信它们能够在不破坏任何东西的情况下完成重构。"
+ },
+ {
+  "seg": 480,
+  "start": 2249.798,
+  "end": 2253.501,
+  "speaker": "Unknown",
+  "en": "So as I mentioned, this is kind of, oh, sorry, this is what I was working in.",
+  "zh": "所以正如我提到的,这有点——哦,抱歉,这是我刚才在里面工作的项目。"
+ },
+ {
+  "seg": 481,
+  "start": 2253.801,
+  "end": 2261.507,
+  "speaker": "Unknown",
+  "en": "This is kind of a great way to do these tests because they have access to their own computer and their own test suite.",
+  "zh": "这是做这类测试的一种非常好的方式,因为它们可以访问自己的电脑和自己的测试套件。"
+ },
+ {
+  "seg": 482,
+  "start": 2261.607,
+  "end": 2263.669,
+  "speaker": "Unknown",
+  "en": "But this is also a great place to review changes.",
+  "zh": "但这也是一个很好的 review 变更的地方。"
+ },
+ {
+  "seg": 483,
+  "start": 2264.169,
+  "end": 2272.215,
+  "speaker": "Unknown",
+  "en": "So once Cursor starts making full changes to the code, you will start to see them here and it'll look like basically any form of like version control UI.",
+  "zh": "所以一旦 Cursor 开始对代码做完整的修改,你就会开始在这里看到它们,它看起来基本上就像任何一种版本控制 UI。"
+ },
+ {
+  "seg": 484,
+  "start": 2272.676,
+  "end": 2275.478,
+  "speaker": "Unknown",
+  "en": "So you'll see kind of what has been removed, what has been changed.",
+  "zh": "所以你会看到哪些内容被删除了,哪些内容被修改了。"
+ },
+ {
+  "seg": 485,
+  "start": 2275.738,
+  "end": 2276.819,
+  "speaker": "Unknown",
+  "en": "You can follow along here.",
+  "zh": "你可以在这里跟进。"
+ },
+ {
+  "seg": 486,
+  "start": 2276.959,
+  "end": 2279.92,
+  "speaker": "Unknown",
+  "en": "But at the end, I can show you kind of an open PR I had earlier.",
+  "zh": "最后,我可以给你看一个我之前开过的 PR。"
+ },
+ {
+  "seg": 487,
+  "start": 2280.721,
+  "end": 2283.462,
+  "speaker": "Unknown",
+  "en": "You can see all the changes that were made and review them.",
+  "zh": "你可以看到所有做过的修改并进行 review。"
+ },
+ {
+  "seg": 488,
+  "start": 2283.883,
+  "end": 2285.283,
+  "speaker": "Unknown",
+  "en": "You can also look at CI.",
+  "zh": "你也可以查看 CI。"
+ },
+ {
+  "seg": 489,
+  "start": 2285.463,
+  "end": 2287.325,
+  "speaker": "Unknown",
+  "en": "So you can see all the checks that are passing.",
+  "zh": "你可以看到所有正在通过的检查。"
+ },
+ {
+  "seg": 490,
+  "start": 2287.805,
+  "end": 2290.546,
+  "speaker": "Unknown",
+  "en": "Right now, I just have one, which is CursorBugBot.",
+  "zh": "现在我只有一个,就是 CursorBugBot。"
+ },
+ {
+  "seg": 491,
+  "start": 2290.827,
+  "end": 2292.848,
+  "speaker": "Unknown",
+  "en": "But you can also see your history of your commits.",
+  "zh": "但你也可以查看你的提交历史。"
+ },
+ {
+  "seg": 492,
+  "start": 2293.288,
+  "end": 2299.051,
+  "speaker": "Unknown",
+  "en": "So it's a really nice kind of, I want to say, quick snapshot into your Git changes here.",
+  "zh": "所以这是一个非常不错的,我想说,对你 Git 变更的快速快照。"
+ },
+ {
+  "seg": 493,
+  "start": 2299.491,
+  "end": 2303.894,
+  "speaker": "Unknown",
+  "en": "And then once you're ready, you can go ahead and just open up that PR and have someone review it.",
+  "zh": "然后一旦你准备好了,你就可以直接打开那个 PR,让某个人来 review 它。"
+ },
+ {
+  "seg": 494,
+  "start": 2304.354,
+  "end": 2306.335,
+  "speaker": "Unknown",
+  "en": "So I live in the browser view.",
+  "zh": "我平时主要待在浏览器视图里。"
+ },
+ {
+  "seg": 495,
+  "start": 2306.475,
+  "end": 2308.015,
+  "speaker": "Unknown",
+  "en": "I think it's a really great way to work.",
+  "zh": "我觉得这是一种非常好的工作方式。"
+ },
+ {
+  "seg": 496,
+  "start": 2308.876,
+  "end": 2313.978,
+  "speaker": "Unknown",
+  "en": "But if you, let's say, are on the go a lot, you're traveling a lot, that's actually where I like to use my phone.",
+  "zh": "但如果你,比如说,经常在外面跑、经常出差,那其实正是我喜欢用手机的时候。"
+ },
+ {
+  "seg": 497,
+  "start": 2314.298,
+  "end": 2320.78,
+  "speaker": "Unknown",
+  "en": "Oh, so I'm going to connect my phone real quick so you can see.",
+  "zh": "哦,我马上连接一下我的手机,让你看看。"
+ },
+ {
+  "seg": 498,
+  "start": 2326.483,
+  "end": 2330.244,
+  "speaker": "Unknown",
+  "en": "And let me actually go to the cursor app.",
+  "zh": "让我实际打开 cursor 应用。"
+ },
+ {
+  "seg": 499,
+  "start": 2334.354,
+  "end": 2335.372,
+  "speaker": "Unknown",
+  "en": "Go connect.",
+  "zh": "去连接。"
+ },
+ {
+  "seg": 500,
+  "start": 2340.907,
+  "end": 2344.408,
+  "speaker": "Unknown",
+  "en": "And the Cursor app, again, is available on the App Store, but this is basically what it looks like.",
+  "zh": "而 Cursor 应用，再说一次，已经在 App Store 上架了，但这基本上就是它的样子。"
+ },
+ {
+  "seg": 501,
+  "start": 2344.468,
+  "end": 2346.829,
+  "speaker": "Unknown",
+  "en": "So you can see here, I have one agent working.",
+  "zh": "你们可以在这里看到，我有一个智能体正在工作。"
+ },
+ {
+  "seg": 502,
+  "start": 2347.009,
+  "end": 2349.57,
+  "speaker": "Unknown",
+  "en": "That's the JIRA Tickets agent that we just launched.",
+  "zh": "那是我们刚刚推出的 JIRA Tickets 智能体。"
+ },
+ {
+  "seg": 503,
+  "start": 2349.67,
+  "end": 2351.291,
+  "speaker": "Unknown",
+  "en": "I can see all my agents that I've launched.",
+  "zh": "我可以看到我启动过的所有智能体。"
+ },
+ {
+  "seg": 504,
+  "start": 2351.371,
+  "end": 2353.512,
+  "speaker": "Unknown",
+  "en": "So here were a couple that I launched yesterday.",
+  "zh": "这里有几个是我昨天启动的。"
+ },
+ {
+  "seg": 505,
+  "start": 2353.932,
+  "end": 2357.033,
+  "speaker": "Unknown",
+  "en": "Here was some that I did, again, to set up my dev environment.",
+  "zh": "这里还有一些是我为了设置开发环境而做的。"
+ },
+ {
+  "seg": 506,
+  "start": 2357.853,
+  "end": 2360.214,
+  "speaker": "Unknown",
+  "en": "I can also go through all my different workspaces.",
+  "zh": "我还可以浏览我所有不同的工作区。"
+ },
+ {
+  "seg": 507,
+  "start": 2360.735,
+  "end": 2364.236,
+  "speaker": "Unknown",
+  "en": "And then the beautiful thing about mobile is that you can also just launch an agent from here.",
+  "zh": "而移动端的美妙之处在于，你还可以直接从这里启动一个智能体。"
+ },
+ {
+  "seg": 508,
+  "start": 2364.616,
+  "end": 2368.785,
+  "speaker": "Unknown",
+  "en": "So I can go ahead and just say, hey, I want to build an agent in this particular repository.",
+  "zh": "所以我可以直接说，嘿，我想在这个特定的仓库里构建一个智能体。"
+ },
+ {
+  "seg": 509,
+  "start": 2368.805,
+  "end": 2371.29,
+  "speaker": "Unknown",
+  "en": "I want to build it on this particular branch.",
+  "zh": "我想在这个特定的分支上构建它。"
+ },
+ {
+  "seg": 510,
+  "start": 2372.011,
+  "end": 2374.216,
+  "speaker": "Unknown",
+  "en": "And then I can just launch that agent and immediately.",
+  "zh": "然后我就可以启动那个智能体，立即。"
+ },
+ {
+  "seg": 511,
+  "start": 2375.284,
+  "end": 2376.845,
+  "speaker": "Unknown",
+  "en": "See that show up in the browser.",
+  "zh": "看到它出现在浏览器里。"
+ },
+ {
+  "seg": 512,
+  "start": 2376.985,
+  "end": 2382.527,
+  "speaker": "Unknown",
+  "en": "So for example, I could say something like, tell me about this code base.",
+  "zh": "比如说，我可以说类似这样的话，跟我讲讲这个代码库。"
+ },
+ {
+  "seg": 513,
+  "start": 2382.547,
+  "end": 2383.447,
+  "speaker": "Unknown",
+  "en": "We'll do something simple.",
+  "zh": "我们来做个简单的事。"
+ },
+ {
+  "seg": 514,
+  "start": 2383.847,
+  "end": 2385.888,
+  "speaker": "Unknown",
+  "en": "With Grafana, I'll use auto for now.",
+  "zh": "用 Grafana,我现在先用 auto。"
+ },
+ {
+  "seg": 515,
+  "start": 2385.948,
+  "end": 2389.91,
+  "speaker": "Unknown",
+  "en": "This is kind of our smart router that we have that actually chooses between our models.",
+  "zh": "这有点像是我们的智能路由器，它实际上会在我们的模型之间做选择。"
+ },
+ {
+  "seg": 516,
+  "start": 2390.69,
+  "end": 2391.67,
+  "speaker": "Unknown",
+  "en": "And I'll send that off.",
+  "zh": "然后我把它发送出去。"
+ },
+ {
+  "seg": 517,
+  "start": 2392.371,
+  "end": 2395.112,
+  "speaker": "Unknown",
+  "en": "And then what you can actually see if I go back to the browser.",
+  "zh": "然后你们实际上可以看到，如果我回到浏览器。"
+ },
+ {
+  "seg": 518,
+  "start": 2396.621,
+  "end": 2398.343,
+  "speaker": "Unknown",
+  "en": "is a new cloud agent has been launched.",
+  "zh": "一个新的云端智能体已经被启动了。"
+ },
+ {
+  "seg": 519,
+  "start": 2398.543,
+  "end": 2402.606,
+  "speaker": "Unknown",
+  "en": "So it's a really seamless flow from desktop to app back to desktop.",
+  "zh": "所以这是一个从桌面到应用再回到桌面的非常无缝的流程。"
+ },
+ {
+  "seg": 520,
+  "start": 2402.886,
+  "end": 2407.409,
+  "speaker": "Unknown",
+  "en": "You can always basically have visibility into your agents and know exactly what they're doing.",
+  "zh": "你基本上始终可以查看你的智能体，并且确切地知道它们在做什么。"
+ },
+ {
+  "seg": 521,
+  "start": 2410.232,
+  "end": 2413.994,
+  "speaker": "Unknown",
+  "en": "Okay, we have about 10 minutes before I'm happy to open it up for questions.",
+  "zh": "好的，我们还有大约 10 分钟，我很乐意开放提问。"
+ },
+ {
+  "seg": 522,
+  "start": 2414.815,
+  "end": 2418.118,
+  "speaker": "Unknown",
+  "en": "We're gonna come back and see how this refactoring migration does.",
+  "zh": "我们会回来看看这个重构迁移做得怎么样了。"
+ },
+ {
+  "seg": 523,
+  "start": 2418.338,
+  "end": 2421.98,
+  "speaker": "Unknown",
+  "en": "If it doesn't finish, I have a previous run that I can show you all.",
+  "zh": "如果它没跑完，我有一个之前跑的可以给你们看。"
+ },
+ {
+  "seg": 524,
+  "start": 2422.101,
+  "end": 2424.703,
+  "speaker": "Unknown",
+  "en": "But while this is working, I wanna talk a little bit about automations.",
+  "zh": "但在它运行的同时，我想稍微讲一下自动化。"
+ },
+ {
+  "seg": 525,
+  "start": 2425.463,
+  "end": 2429.585,
+  "speaker": "Unknown",
+  "en": "So this is the last of the four kind of bullet points I showed earlier.",
+  "zh": "这是我之前展示的四个要点中的最后一个。"
+ },
+ {
+  "seg": 526,
+  "start": 2430.145,
+  "end": 2433.967,
+  "speaker": "Unknown",
+  "en": "Automations in cursor are basically scheduled or triggered cloud agents.",
+  "zh": "Cursor 中的自动化基本上就是被调度或被触发的云端智能体。"
+ },
+ {
+  "seg": 527,
+  "start": 2434.608,
+  "end": 2440.531,
+  "speaker": "Unknown",
+  "en": "So if I go to new automation here, you'll see that there's a number of different ways you can launch an automation.",
+  "zh": "所以如果我在这里点新建自动化，你们会看到有很多不同的方式可以启动一个自动化。"
+ },
+ {
+  "seg": 528,
+  "start": 2441.051,
+  "end": 2442.433,
+  "speaker": "Unknown",
+  "en": "You can launch it based on time.",
+  "zh": "你可以基于时间来启动它。"
+ },
+ {
+  "seg": 529,
+  "start": 2442.733,
+  "end": 2444.515,
+  "speaker": "Unknown",
+  "en": "You can launch it based on an event happening.",
+  "zh": "你可以基于某个事件发生来启动它。"
+ },
+ {
+  "seg": 530,
+  "start": 2444.635,
+  "end": 2447.157,
+  "speaker": "Unknown",
+  "en": "So a PR being opened, a label being changed.",
+  "zh": "比如一个 PR 被打开了，一个标签被修改了。"
+ },
+ {
+  "seg": 531,
+  "start": 2447.678,
+  "end": 2451.621,
+  "speaker": "Unknown",
+  "en": "You can launch it based on a new message being sent in Slack or in Teams.",
+  "zh": "你可以基于 Slack 或 Teams 中有新消息发出而启动它。"
+ },
+ {
+  "seg": 532,
+  "start": 2452.162,
+  "end": 2455.425,
+  "speaker": "Unknown",
+  "en": "And then you can also have your own custom webhook if you want.",
+  "zh": "然后如果你愿意，你还可以使用自己的自定义 webhook。"
+ },
+ {
+  "seg": 533,
+  "start": 2455.485,
+  "end": 2464.134,
+  "speaker": "Unknown",
+  "en": "So a lot of times I've seen automations being built for when you drag one ticket from to do to in progress because you could just set up a Jira webhook.",
+  "zh": "所以我很多次见到自动化被用于当你把一张工单从 to do 拖到 in progress 的时候，因为你可以直接设置一个 Jira webhook。"
+ },
+ {
+  "seg": 534,
+  "start": 2464.694,
+  "end": 2470.837,
+  "speaker": "Unknown",
+  "en": "So automations are really great for, you know, expediting workflows, but they're also really great for maintenance and stability.",
+  "zh": "所以自动化非常适合，你知道，加速工作流，但它们对于维护和稳定性也非常有用。"
+ },
+ {
+  "seg": 535,
+  "start": 2471.457,
+  "end": 2473.238,
+  "speaker": "Unknown",
+  "en": "So I'll create an automation with you all.",
+  "zh": "所以我会和你们一起创建一个自动化。"
+ },
+ {
+  "seg": 536,
+  "start": 2473.759,
+  "end": 2480.802,
+  "speaker": "Unknown",
+  "en": "I like to call it my feature flag cleaner because this was an automation that I wish I had back when I was an engineer.",
+  "zh": "我喜欢叫它我的 feature flag 清理器，因为这是当我还是工程师的时候就希望拥有的一个自动化。"
+ },
+ {
+  "seg": 537,
+  "start": 2481.703,
+  "end": 2488.006,
+  "speaker": "Unknown",
+  "en": "And basically what this does is I can say that, you know, let's say every week might be a little overkill, but that's fine.",
+  "zh": "基本上它的作用是，我可以说，你知道，假设每周一次可能有点过度，但没关系。"
+ },
+ {
+  "seg": 538,
+  "start": 2488.026,
+  "end": 2488.686,
+  "speaker": "Unknown",
+  "en": "We can tune it.",
+  "zh": "我们可以调整。"
+ },
+ {
+  "seg": 539,
+  "start": 2489.346,
+  "end": 2492.548,
+  "speaker": "Unknown",
+  "en": "Every week I want you to look through this repo.",
+  "zh": "每周我要你查看这个仓库。"
+ },
+ {
+  "seg": 540,
+  "start": 2494.85,
+  "end": 2503.481,
+  "speaker": "Unknown",
+  "en": "And I want you to see if there are any stale feature flags that have not been used.",
+  "zh": "我要你看看有没有任何过去没被使用过的陈旧 feature flag。"
+ },
+ {
+  "seg": 541,
+  "start": 2505.467,
+  "end": 2510.031,
+  "speaker": "Unknown",
+  "en": "Over the last 30 months, sorry, 30 weeks, 30 days.",
+  "zh": "在过去 30 个月里，抱歉，30 周，30 天。"
+ },
+ {
+  "seg": 542,
+  "start": 2512.512,
+  "end": 2516.515,
+  "speaker": "Unknown",
+  "en": "You can cross check with, and I can actually tag an MCP here.",
+  "zh": "你可以交叉核对，而且我实际上可以在这里标记一个 MCP。"
+ },
+ {
+  "seg": 543,
+  "start": 2516.535,
+  "end": 2518.417,
+  "speaker": "Unknown",
+  "en": "So I can tag, for example, Statsig.",
+  "zh": "比如我可以标记 Statsig。"
+ },
+ {
+  "seg": 544,
+  "start": 2518.717,
+  "end": 2520.458,
+  "speaker": "Unknown",
+  "en": "Let me see if I can connect that here.",
+  "zh": "让我看看能不能在这里连接它。"
+ },
+ {
+  "seg": 545,
+  "start": 2520.478,
+  "end": 2523.541,
+  "speaker": "Unknown",
+  "en": "MCP, Statsig.",
+  "zh": "MCP,Statsig。"
+ },
+ {
+  "seg": 546,
+  "start": 2523.781,
+  "end": 2524.782,
+  "speaker": "Unknown",
+  "en": "Oh, it's not connected.",
+  "zh": "哦，它没连接上。"
+ },
+ {
+  "seg": 547,
+  "start": 2524.842,
+  "end": 2525.182,
+  "speaker": "Unknown",
+  "en": "That's okay.",
+  "zh": "没关系。"
+ },
+ {
+  "seg": 548,
+  "start": 2525.222,
+  "end": 2526.663,
+  "speaker": "Unknown",
+  "en": "I can add a custom MCP for it.",
+  "zh": "我可以为它添加一个自定义 MCP。"
+ },
+ {
+  "seg": 549,
+  "start": 2527.063,
+  "end": 2529.705,
+  "speaker": "Unknown",
+  "en": "In the meantime, let me just actually just do Datadog.",
+  "zh": "与此同时，我就直接用 Datadog 吧。"
+ },
+ {
+  "seg": 550,
+  "start": 2530.686,
+  "end": 2532.968,
+  "speaker": "Unknown",
+  "en": "You can cross check with Datadog and Sentry.",
+  "zh": "你可以和 Datadog 以及 Sentry 交叉核对。"
+ },
+ {
+  "seg": 551,
+  "start": 2535.236,
+  "end": 2541.959,
+  "speaker": "Unknown",
+  "en": "to make sure that there have not been any issues with any of the flags.",
+  "zh": "以确保所有这些 flag 都没有出现任何问题。"
+ },
+ {
+  "seg": 552,
+  "start": 2543.819,
+  "end": 2559.325,
+  "speaker": "Unknown",
+  "en": "I could say, put up a PR with the remove flags and tests confirming that removing the flags has not introduced any regressions.",
+  "zh": "我可以说,提交一个删除这些 flag 的 PR,并附上测试,确认删除这些 flag 没有引入任何回归。"
+ },
+ {
+  "seg": 553,
+  "start": 2559.405,
+  "end": 2564.547,
+  "speaker": "Unknown",
+  "en": "And then I can even say, send me a Slack message with the PR once you are finished.",
+  "zh": "然后我甚至可以说,完成后给我发一条 Slack 消息,附上那个 PR。"
+ },
+ {
+  "seg": 554,
+  "start": 2566.143,
+  "end": 2566.984,
+  "speaker": "Unknown",
+  "en": "So I can review it.",
+  "zh": "这样我就可以审查它。"
+ },
+ {
+  "seg": 555,
+  "start": 2569.425,
+  "end": 2570.786,
+  "speaker": "Unknown",
+  "en": "I really love creating automations.",
+  "zh": "我真的很喜欢创建自动化。"
+ },
+ {
+  "seg": 556,
+  "start": 2570.886,
+  "end": 2578.972,
+  "speaker": "Unknown",
+  "en": "I think it's a very kind of creative way to see what parts of your day can actually be done by an agent or actually be helped by an agent.",
+  "zh": "我认为这是一种很有创意的方式,可以看到你一天当中哪些部分实际上可以由一个智能体完成,或者由一个智能体提供帮助。"
+ },
+ {
+  "seg": 557,
+  "start": 2579.732,
+  "end": 2582.414,
+  "speaker": "Unknown",
+  "en": "So you can see here it has a tool to open a pull request.",
+  "zh": "你可以在这里看到,它有一个打开 pull request 的工具。"
+ },
+ {
+  "seg": 558,
+  "start": 2582.454,
+  "end": 2584.776,
+  "speaker": "Unknown",
+  "en": "I'm going to add another tool to send to Slack here.",
+  "zh": "我要在这里添加另一个工具,用于发送到 Slack。"
+ },
+ {
+  "seg": 559,
+  "start": 2585.436,
+  "end": 2592.081,
+  "speaker": "Unknown",
+  "en": "I'll have to connect my Slack instance, but this is kind of an example to show you that you can say it will just DM me a message with the PR.",
+  "zh": "我需要连接我的 Slack 实例,但这算是一个示例,向你展示你可以说它会直接私信我一条带 PR 的消息。"
+ },
+ {
+  "seg": 560,
+  "start": 2593.221,
+  "end": 2595.542,
+  "speaker": "Unknown",
+  "en": "As I mentioned, you can connect one repo.",
+  "zh": "正如我提到的,你可以连接一个仓库。"
+ },
+ {
+  "seg": 561,
+  "start": 2595.562,
+  "end": 2599.404,
+  "speaker": "Unknown",
+  "en": "You can also connect multiple repos if you wanted to work across multiple repos.",
+  "zh": "如果你想跨多个仓库工作,你也可以连接多个仓库。"
+ },
+ {
+  "seg": 562,
+  "start": 2600.204,
+  "end": 2602.745,
+  "speaker": "Unknown",
+  "en": "But this is a great way, again, to maintain your code bases.",
+  "zh": "但这再强调一次,是维护你代码库的一个很好的方式。"
+ },
+ {
+  "seg": 563,
+  "start": 2602.845,
+  "end": 2605.186,
+  "speaker": "Unknown",
+  "en": "So you can do this for feature flag cleanup.",
+  "zh": "所以你可以用这个来做功能 flag 清理。"
+ },
+ {
+  "seg": 564,
+  "start": 2605.206,
+  "end": 2606.907,
+  "speaker": "Unknown",
+  "en": "You can do it for dependency updates.",
+  "zh": "你也可以用它来做依赖更新。"
+ },
+ {
+  "seg": 565,
+  "start": 2607.347,
+  "end": 2610.188,
+  "speaker": "Unknown",
+  "en": "And this is kind of proactive rather than being reactive.",
+  "zh": "这在某种程度上是主动的,而不是被动响应的。"
+ },
+ {
+  "seg": 566,
+  "start": 2610.968,
+  "end": 2614.45,
+  "speaker": "Unknown",
+  "en": "A lot of times when you refactor a legacy code base, you ask,",
+  "zh": "很多时候,当你重构一个遗留代码库时,你会问,"
+ },
+ {
+  "seg": 567,
+  "start": 2615.03,
+  "end": 2616.451,
+  "speaker": "Unknown",
+  "en": "How did we get into the state?",
+  "zh": "我们是怎么落到这个地步的?"
+ },
+ {
+  "seg": 568,
+  "start": 2616.631,
+  "end": 2617.652,
+  "speaker": "Unknown",
+  "en": "Why did this happen?",
+  "zh": "为什么会这样?"
+ },
+ {
+  "seg": 569,
+  "start": 2617.672,
+  "end": 2621.275,
+  "speaker": "Unknown",
+  "en": "And a lot of times it could just be because things weren't proactive enough.",
+  "zh": "而很多时候,原因可能只是事情不够主动。"
+ },
+ {
+  "seg": 570,
+  "start": 2621.456,
+  "end": 2622.857,
+  "speaker": "Unknown",
+  "en": "The dependencies weren't getting updated.",
+  "zh": "依赖项没有得到更新。"
+ },
+ {
+  "seg": 571,
+  "start": 2622.877,
+  "end": 2625.159,
+  "speaker": "Unknown",
+  "en": "We weren't able to do things ahead of time.",
+  "zh": "我们没能提前把事情做好。"
+ },
+ {
+  "seg": 572,
+  "start": 2625.559,
+  "end": 2633.626,
+  "speaker": "Unknown",
+  "en": "And so this is where these cloud agents' automations come in is that they're able to do things ahead of time so that you can avoid having to do refactoring in the future.",
+  "zh": "所以这就是这些云端智能体自动化的用武之地——它们能够提前把事情做好,从而让你避免将来不得不做重构。"
+ },
+ {
+  "seg": 573,
+  "start": 2634.447,
+  "end": 2638.75,
+  "speaker": "Unknown",
+  "en": "That's always been my mentality with engineering is that you want to try and nip it in the bud.",
+  "zh": "这一直是我在工程上的心态:你要尽力防患于未然。"
+ },
+ {
+  "seg": 574,
+  "start": 2638.97,
+  "end": 2641.573,
+  "speaker": "Unknown",
+  "en": "And so automations are a great way to go about that.",
+  "zh": "而自动化正是实现这一点的好方法。"
+ },
+ {
+  "seg": 575,
+  "start": 2642.753,
+  "end": 2645.754,
+  "speaker": "Unknown",
+  "en": "If you don't want to start from scratch with an automation, that's totally fine.",
+  "zh": "如果你不想从零开始创建一个自动化,那完全没问题。"
+ },
+ {
+  "seg": 576,
+  "start": 2645.814,
+  "end": 2648.595,
+  "speaker": "Unknown",
+  "en": "We have some really good templates here.",
+  "zh": "我们这里有一些非常好的模板。"
+ },
+ {
+  "seg": 577,
+  "start": 2649.075,
+  "end": 2651.475,
+  "speaker": "Unknown",
+  "en": "So you can see there's one for adding test coverage.",
+  "zh": "你可以看到,有一个是添加测试覆盖率的。"
+ },
+ {
+  "seg": 578,
+  "start": 2651.495,
+  "end": 2653.836,
+  "speaker": "Unknown",
+  "en": "There's one for scanning your code base for vulnerabilities.",
+  "zh": "有一个是扫描你的代码库查找漏洞的。"
+ },
+ {
+  "seg": 579,
+  "start": 2654.316,
+  "end": 2657.017,
+  "speaker": "Unknown",
+  "en": "There's really good ones for incident triaging.",
+  "zh": "还有一些非常好的用于事件分流的模板。"
+ },
+ {
+  "seg": 580,
+  "start": 2657.157,
+  "end": 2663.618,
+  "speaker": "Unknown",
+  "en": "So if you have a Datadog Alerts channel, if you use PagerDuty or Incident.io, you can actually start with any of these.",
+  "zh": "所以如果你有一个 Datadog 告警频道,如果你使用 PagerDuty 或 Incident.io,你都可以从其中任何一个开始。"
+ },
+ {
+  "seg": 581,
+  "start": 2663.738,
+  "end": 2665.499,
+  "speaker": "Unknown",
+  "en": "So let me actually do maybe this one here.",
+  "zh": "那让我实际操作一下,也许是这里的这个。"
+ },
+ {
+  "seg": 582,
+  "start": 2667.019,
+  "end": 2672.1,
+  "speaker": "Unknown",
+  "en": "And you can see this is another time-based trigger, but the agent is an incident investigation automation.",
+  "zh": "你可以看到这是另一种基于时间的触发器,但这个智能体是一个事件调查自动化。"
+ },
+ {
+  "seg": 583,
+  "start": 2672.761,
+  "end": 2675.261,
+  "speaker": "Unknown",
+  "en": "We actually use something similar to this for our on-call.",
+  "zh": "我们自己的 on-call 实际上也在用类似这样的东西。"
+ },
+ {
+  "seg": 584,
+  "start": 2675.401,
+  "end": 2684.964,
+  "speaker": "Unknown",
+  "en": "So instead of waking up someone at 3 a.m., it will do an initial kind of investigation and then send the person on call of like a brief summary of what it's found already.",
+  "zh": "所以它不是在凌晨三点叫醒某个人,而是会先做一次初步的调查,然后给值班的人发送一份它已经发现了什么的简短摘要。"
+ },
+ {
+  "seg": 585,
+  "start": 2685.924,
+  "end": 2695.647,
+  "speaker": "Unknown",
+  "en": "As I mentioned, it can send to Slack, can use Datadog, and you can kind of, you know, customize it so that maybe it publishes to Notion or publishes to Confluence, whatever your tools are.",
+  "zh": "正如我提到的,它可以发送到 Slack,可以使用 Datadog,而且你可以进行自定义,比如让它发布到 Notion 或发布到 Confluence, whatever 你的工具是什么。"
+ },
+ {
+  "seg": 586,
+  "start": 2696.327,
+  "end": 2698.888,
+  "speaker": "Unknown",
+  "en": "So automations and cursor are really, really powerful.",
+  "zh": "所以自动化在 cursor 中真的非常非常强大。"
+ },
+ {
+  "seg": 587,
+  "start": 2698.988,
+  "end": 2705.23,
+  "speaker": "Unknown",
+  "en": "I highly recommend if you have some time today, try and build one because it's really fun.",
+  "zh": "我强烈建议,如果你今天有时间,试着构建一个,因为这真的很好玩。"
+ },
+ {
+  "seg": 588,
+  "start": 2705.43,
+  "end": 2713.633,
+  "speaker": "Unknown",
+  "en": "I think it makes coding really enjoyable, but it's also very powerful depending on, you know, whether you chain automations together or whether you set up custom webhooks.",
+  "zh": "我认为它让编程变得非常有趣,但它也非常强大,取决于你是否把多个自动化串联起来,或者你是否设置了自定义 webhook。"
+ },
+ {
+  "seg": 589,
+  "start": 2714.294,
+  "end": 2717.755,
+  "speaker": "Unknown",
+  "en": "It's a really great way of taking advantage of these cursor cloud agents.",
+  "zh": "这是利用这些 cursor 云端智能体的一个非常好的方式。"
+ },
+ {
+  "seg": 590,
+  "start": 2719.44,
+  "end": 2720.281,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 591,
+  "start": 2720.401,
+  "end": 2725.324,
+  "speaker": "Unknown",
+  "en": "With the last kind of five minutes I have, I do want to come back to our original cloud agent.",
+  "zh": "在我剩下的最后大约五分钟里,我确实想回到我们最初的那个云端智能体。"
+ },
+ {
+  "seg": 592,
+  "start": 2725.985,
+  "end": 2728.166,
+  "speaker": "Unknown",
+  "en": "You can see here that it's setting up Docker environments.",
+  "zh": "你可以在这里看到,它正在设置 Docker 环境。"
+ },
+ {
+  "seg": 593,
+  "start": 2728.226,
+  "end": 2730.588,
+  "speaker": "Unknown",
+  "en": "It's making sure that the tests that it's running all work.",
+  "zh": "它在确保它运行的测试都能正常工作。"
+ },
+ {
+  "seg": 594,
+  "start": 2731.388,
+  "end": 2732.829,
+  "speaker": "Unknown",
+  "en": "So this is exactly what I would want.",
+  "zh": "所以这正是我想要的结果。"
+ },
+ {
+  "seg": 595,
+  "start": 2733.61,
+  "end": 2740.915,
+  "speaker": "Unknown",
+  "en": "As kind of someone has mentioned, cloud agents are meant to be autonomous, but they are also meant to have user input.",
+  "zh": "正如有人提到的那样,云端智能体被设计成自主的,但它们也被设计成可以有用户输入。"
+ },
+ {
+  "seg": 596,
+  "start": 2740.955,
+  "end": 2748.26,
+  "speaker": "Unknown",
+  "en": "So if you ever want to add a follow-up, if you ever want to interfere with a cloud agent, or if you don't agree with what it's doing, you can always add that here.",
+  "zh": "所以,如果你想添加后续指令,如果你想干预一个云端智能体,或者你不同意它正在做的事情,你随时可以在这里添加。"
+ },
+ {
+  "seg": 597,
+  "start": 2748.58,
+  "end": 2750.901,
+  "speaker": "Unknown",
+  "en": "You can always interrupt it from your mobile app as well.",
+  "zh": "你也随时可以从你的手机应用上中断它。"
+ },
+ {
+  "seg": 598,
+  "start": 2751.622,
+  "end": 2756.324,
+  "speaker": "Unknown",
+  "en": "The goal is for the cloud agent to do most of the work, but for you to still be in the loop when you want.",
+  "zh": "目标是让云端智能体完成大部分工作,但在你想要的时候你仍然能参与其中。"
+ },
+ {
+  "seg": 599,
+  "start": 2756.845,
+  "end": 2762.208,
+  "speaker": "Unknown",
+  "en": "And so if you do want to kind of interrupt it at all, you can always add a follow up here and it will take that into account.",
+  "zh": "所以如果你确实想要干预它,你随时可以在这里添加一条后续指令,它会把这个考虑进去。"
+ },
+ {
+  "seg": 600,
+  "start": 2764.135,
+  "end": 2764.415,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 601,
+  "start": 2765.336,
+  "end": 2769.92,
+  "speaker": "Unknown",
+  "en": "Since I don't think we're going to get this finished today, I do want to show you all what a finished migration can look like.",
+  "zh": "既然我觉得我们今天没法把这个做完，我确实想给大家展示一下一个完成的迁移是什么样子的。"
+ },
+ {
+  "seg": 602,
+  "start": 2770.16,
+  "end": 2777.286,
+  "speaker": "Unknown",
+  "en": "So I'm actually going to show this one here, which is a migration, again, from PHP to React.",
+  "zh": "所以我实际上要展示这里的这一个，这也是一次迁移，再说一次，是从 PHP 迁移到 React。"
+ },
+ {
+  "seg": 603,
+  "start": 2777.346,
+  "end": 2779.408,
+  "speaker": "Unknown",
+  "en": "It migrated two specific components.",
+  "zh": "它迁移了两个特定的组件。"
+ },
+ {
+  "seg": 604,
+  "start": 2780.048,
+  "end": 2782.751,
+  "speaker": "Unknown",
+  "en": "And I asked it to verify that it worked with end-to-end testing.",
+  "zh": "我让它通过端到端测试来验证迁移是否生效。"
+ },
+ {
+  "seg": 605,
+  "start": 2783.211,
+  "end": 2789.056,
+  "speaker": "Unknown",
+  "en": "And here example is a video of Cursor kind of testing exactly what it did by migrating the feature over.",
+  "zh": "这里这个例子是一段 Cursor 对它迁移过来的功能进行精确测试的视频。"
+ },
+ {
+  "seg": 606,
+  "start": 2789.556,
+  "end": 2791.458,
+  "speaker": "Unknown",
+  "en": "So you can see here that it's clicking on things.",
+  "zh": "所以你可以在这里看到，它在点击各种东西。"
+ },
+ {
+  "seg": 607,
+  "start": 2791.578,
+  "end": 2797.083,
+  "speaker": "Unknown",
+  "en": "It's making sure that what it's migrated over has not regressed and it's working as expected.",
+  "zh": "它在确保它迁移过来的内容没有出现回退，并且按预期正常工作。"
+ },
+ {
+  "seg": 608,
+  "start": 2797.423,
+  "end": 2800.806,
+  "speaker": "Unknown",
+  "en": "You can even see that Cursor labels the different parts of the video.",
+  "zh": "你甚至可以看到 Cursor 给视频的不同部分做了标注。"
+ },
+ {
+  "seg": 609,
+  "start": 2800.866,
+  "end": 2802.267,
+  "speaker": "Unknown",
+  "en": "So this is the logging in section.",
+  "zh": "这是登录部分。"
+ },
+ {
+  "seg": 610,
+  "start": 2802.307,
+  "end": 2803.368,
+  "speaker": "Unknown",
+  "en": "This is the viewing comments.",
+  "zh": "这是查看评论。"
+ },
+ {
+  "seg": 611,
+  "start": 2803.388,
+  "end": 2804.529,
+  "speaker": "Unknown",
+  "en": "This is the viewing users.",
+  "zh": "这是查看用户。"
+ },
+ {
+  "seg": 612,
+  "start": 2804.93,
+  "end": 2807.292,
+  "speaker": "Unknown",
+  "en": "And those were the two components that I needed to migrate over.",
+  "zh": "而这些正是我需要迁移的那两个组件。"
+ },
+ {
+  "seg": 613,
+  "start": 2808.192,
+  "end": 2809.592,
+  "speaker": "Unknown",
+  "en": "And so this is really great.",
+  "zh": "所以这真的很棒。"
+ },
+ {
+  "seg": 614,
+  "start": 2809.612,
+  "end": 2812.853,
+  "speaker": "Unknown",
+  "en": "You can expand this across other parts of your code base if you want.",
+  "zh": "如果你愿意，你可以把它扩展到代码库的其他部分。"
+ },
+ {
+  "seg": 615,
+  "start": 2813.253,
+  "end": 2818.195,
+  "speaker": "Unknown",
+  "en": "Right now, you know, this PR is already pretty big, so maybe I'd want to just scope it just to these two components.",
+  "zh": "现在，你知道，这个 PR 已经相当大了，所以也许我只想把它限定在这两个组件上。"
+ },
+ {
+  "seg": 616,
+  "start": 2819.035,
+  "end": 2822.036,
+  "speaker": "Unknown",
+  "en": "But this is kind of where I mentioned where you can do tickets at a time.",
+  "zh": "但这就是我提到的那种「一次一个工单」的场景。"
+ },
+ {
+  "seg": 617,
+  "start": 2822.496,
+  "end": 2831.318,
+  "speaker": "Unknown",
+  "en": "Just so you all can see what multi-ticket or multi-PR cloud agents look like, I asked Cursor to put up PRs for two JIRA tickets that I had earlier.",
+  "zh": "为了让大家看看多工单或多 PR 云智能体是什么样子，我让 Cursor 为我之前的两个 JIRA 工单提交了 PR。"
+ },
+ {
+  "seg": 618,
+  "start": 2831.878,
+  "end": 2841.384,
+  "speaker": "Unknown",
+  "en": "And you can see here, if I actually open this, you can actually toggle between these two PRs and kind of go through each one and see what one PR did versus the other.",
+  "zh": "你可以看到这里，如果我实际打开它，你可以在这两个 PR 之间切换，逐个查看，看看其中一个 PR 做了什么，另一个又做了什么。"
+ },
+ {
+  "seg": 619,
+  "start": 2841.765,
+  "end": 2849.39,
+  "speaker": "Unknown",
+  "en": "And so when you have a whole stack of PRs that are working on a migration, you can kind of go between all of them and see what each PR actually covered.",
+  "zh": "所以当你有一整套正在进行迁移的 PR 时，你可以在它们之间来回查看，看看每个 PR 实际覆盖了什么。"
+ },
+ {
+  "seg": 620,
+  "start": 2850.191,
+  "end": 2856.981,
+  "speaker": "Unknown",
+  "en": "And so that is a really great way, again, to use cloud agents because you don't want one giant PR with thousands of lines of code.",
+  "zh": "所以这又是一次证明，这是使用云智能体的一个非常好的方式，因为你不会想要一个包含数千行代码的巨大 PR。"
+ },
+ {
+  "seg": 621,
+  "start": 2857.041,
+  "end": 2862.449,
+  "speaker": "Unknown",
+  "en": "You want multiple PRs that are tackling separate components or separate services.",
+  "zh": "你想要的是多个 PR，各自处理不同的组件或不同的服务。"
+ },
+ {
+  "seg": 622,
+  "start": 2864.656,
+  "end": 2873.841,
+  "speaker": "Unknown",
+  "en": "Okay, that's a little bit about migrations within Cursor that I kind of highlighted both what we do at Cursor versus also what I've seen out in the field.",
+  "zh": "好的，这就是关于 Cursor 内迁移的一些内容，我既重点介绍了我们在 Cursor 所做的，也介绍了我在实践中所看到的。"
+ },
+ {
+  "seg": 623,
+  "start": 2874.981,
+  "end": 2884.386,
+  "speaker": "Unknown",
+  "en": "Some things that I do like to add is Cursor Cloud Agents is probably one of the best features I've seen for any AI product in a while.",
+  "zh": "我还想补充的一点是，Cursor 云智能体可能是很长一段时间以来我在任何 AI 产品中见过的最好的功能之一。"
+ },
+ {
+  "seg": 624,
+  "start": 2884.646,
+  "end": 2891.77,
+  "speaker": "Unknown",
+  "en": "And so if you haven't tried it out yet, please, please do try and either use the browser Slack or your mobile app to just see how it works.",
+  "zh": "所以如果你还没试过，请、请务必试试，用浏览器、Slack 或者你的手机应用来看看它是怎么工作的。"
+ },
+ {
+  "seg": 625,
+  "start": 2892.51,
+  "end": 2894.391,
+  "speaker": "Unknown",
+  "en": "Setting it up is very quite simple, actually.",
+  "zh": "实际上，设置起来非常简单。"
+ },
+ {
+  "seg": 626,
+  "start": 2894.571,
+  "end": 2901.192,
+  "speaker": "Unknown",
+  "en": "If you want to set up a cloud agent, all you do is cursor.com slash onboard, and it will walk you through the steps of creating a new environment.",
+  "zh": "如果你想设置一个云智能体，你要做的就是访问 cursor.com/onboard，它会引导你完成创建新环境的步骤。"
+ },
+ {
+  "seg": 627,
+  "start": 2901.252,
+  "end": 2904.993,
+  "speaker": "Unknown",
+  "en": "So it will ask you to link to your GitHub, and then you can go ahead and start linking.",
+  "zh": "它会要求你关联你的 GitHub，然后你就可以开始关联了。"
+ },
+ {
+  "seg": 628,
+  "start": 2905.473,
+  "end": 2909.834,
+  "speaker": "Unknown",
+  "en": "And then once you have it all set up, that's when you can actually start doing some of these migrations.",
+  "zh": "一旦你全部设置好，那时你就可以真正开始做一些这样的迁移了。"
+ },
+ {
+  "seg": 629,
+  "start": 2910.734,
+  "end": 2914.575,
+  "speaker": "Unknown",
+  "en": "But if you have any questions on migrations, we also have a good cookbook.",
+  "zh": "但如果你对迁移有任何疑问，我们也有一份很好的 cookbook。"
+ },
+ {
+  "seg": 630,
+  "start": 2915.055,
+  "end": 2917.496,
+  "speaker": "Unknown",
+  "en": "Let me see if I can find it quickly.",
+  "zh": "让我看看能不能快速找到它。"
+ },
+ {
+  "seg": 631,
+  "start": 2917.516,
+  "end": 2917.856,
+  "speaker": "Unknown",
+  "en": "Oops.",
+  "zh": "哎呀。"
+ },
+ {
+  "seg": 632,
+  "start": 2919.337,
+  "end": 2926.129,
+  "speaker": "Unknown",
+  "en": "If you scroll down to our docs, let me see, cursor, cookbook, refactoring, code bases.",
+  "zh": "如果你往下滚动到我们的文档，让我看看，cursor、cookbook、refactoring、code bases。"
+ },
+ {
+  "seg": 633,
+  "start": 2927.011,
+  "end": 2927.531,
+  "speaker": "Unknown",
+  "en": "There it is.",
+  "zh": "在那儿。"
+ },
+ {
+  "seg": 634,
+  "start": 2928.012,
+  "end": 2928.673,
+  "speaker": "Unknown",
+  "en": "Oh, wait, that's me.",
+  "zh": "哦，等等，那是我自己。"
+ },
+ {
+  "seg": 635,
+  "start": 2932.035,
+  "end": 2932.796,
+  "speaker": "Unknown",
+  "en": "Maybe we took it down.",
+  "zh": "也许我们把它下架了。"
+ },
+ {
+  "seg": 636,
+  "start": 2933.476,
+  "end": 2936.839,
+  "speaker": "Unknown",
+  "en": "We had a good doc on kind of best practices for legacy code bases.",
+  "zh": "我们曾有一份关于遗留代码库最佳实践的好文档。"
+ },
+ {
+  "seg": 637,
+  "start": 2936.879,
+  "end": 2939.582,
+  "speaker": "Unknown",
+  "en": "So if I find it, I'll try and send it out in the following email.",
+  "zh": "所以如果我找到了，我会尽量在随后的邮件里发给大家。"
+ },
+ {
+  "seg": 638,
+  "start": 2940.623,
+  "end": 2957.037,
+  "speaker": "Unknown",
+  "en": "But generally what I recommend is going back to those four steps, use Canvas to audit and plan mode to strategize, use plugins to scope your tickets, hand off to cursor cloud agents, and then use automations to prevent something like this happening in the future.",
+  "zh": "但总的来说，我建议回到那四个步骤：用 Canvas 做审计，用 plan mode 做策略规划，用插件来限定工单范围，交给 Cursor 云智能体，然后再用自动化来防止这样的事情在未来发生。"
+ },
+ {
+  "seg": 639,
+  "start": 2959.024,
+  "end": 2959.385,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太精彩了。"
+ },
+ {
+  "seg": 640,
+  "start": 2959.685,
+  "end": 2962.189,
+  "speaker": "Unknown",
+  "en": "I will stop there and I'm happy to open it up for questions.",
+  "zh": "我就讲到这里，我很乐意开放提问。"
+ },
+ {
+  "seg": 641,
+  "start": 2962.289,
+  "end": 2964.532,
+  "speaker": "Unknown",
+  "en": "Reagan, I'll let you be the kind of question curator.",
+  "zh": "Reagan，我让你来当提问的主持者。"
+ },
+ {
+  "seg": 642,
+  "start": 2965.433,
+  "end": 2968.437,
+  "speaker": "Unknown",
+  "en": "Is there anything that we should talk about with the last 10 minutes that we have?",
+  "zh": "在我们剩下的 10 分钟里，有什么我们应该聊聊的吗？"
+ },
+ {
+  "seg": 643,
+  "start": 2969.699,
+  "end": 2975.047,
+  "speaker": "Unknown",
+  "en": "Yeah, we had a couple questions on how the cloud environment handles required environment variables.",
+  "zh": "是的，我们有几个问题，关于云环境如何处理必需的环境变量。"
+ },
+ {
+  "seg": 644,
+  "start": 2977.722,
+  "end": 2978.182,
+  "speaker": "Unknown",
+  "en": "Great question.",
+  "zh": "好问题。"
+ },
+ {
+  "seg": 645,
+  "start": 2978.903,
+  "end": 2985.786,
+  "speaker": "Unknown",
+  "en": "So environment keys, API keys, secrets, all of those things live in your Cursor Cloud environment setup.",
+  "zh": "所以环境密钥、API 密钥、机密信息，所有这些都存放在你的 Cursor 云环境设置里。"
+ },
+ {
+  "seg": 646,
+  "start": 2986.546,
+  "end": 2993.69,
+  "speaker": "Unknown",
+  "en": "So when you set up an environment, you can actually put whatever API keys you want, routing rules, you can...",
+  "zh": "所以当你设置一个环境时，你实际上可以放入任何你想要的 API 密钥、路由规则，你可以……"
+ },
+ {
+  "seg": 647,
+  "start": 2994.37,
+  "end": 2999.392,
+  "speaker": "Unknown",
+  "en": "Set particular IPs to be allow listed so that Cursor can only, you know, access certain links.",
+  "zh": "设置特定的 IP 进入允许列表，这样 Cursor 就只能访问某些链接。"
+ },
+ {
+  "seg": 648,
+  "start": 3000.152,
+  "end": 3002.893,
+  "speaker": "Unknown",
+  "en": "So you can put all of those things inside of your cloud agent setup.",
+  "zh": "所以你可以把所有这些东西放进你的云智能体设置里。"
+ },
+ {
+  "seg": 649,
+  "start": 3003.714,
+  "end": 3009.736,
+  "speaker": "Unknown",
+  "en": "If you're ever curious about cloud agent security, we have a good, so everything kind of lives in cursor.com slash cloud.",
+  "zh": "如果你对云智能体的安全性感到好奇，我们有一份很好的……总之所有东西都在 cursor.com/cloud 里。"
+ },
+ {
+  "seg": 650,
+  "start": 3010.296,
+  "end": 3013.377,
+  "speaker": "Unknown",
+  "en": "But if you want to know more about like, where does data live?",
+  "zh": "但如果你想了解更多，比如，数据存在哪里？"
+ },
+ {
+  "seg": 651,
+  "start": 3013.397,
+  "end": 3014.438,
+  "speaker": "Unknown",
+  "en": "How long does it live for?",
+  "zh": "会保存多久？"
+ },
+ {
+  "seg": 652,
+  "start": 3015.198,
+  "end": 3017.459,
+  "speaker": "Unknown",
+  "en": "We have a really good enterprise doc on this.",
+  "zh": "我们有一份关于这个的很好的企业文档。"
+ },
+ {
+  "seg": 653,
+  "start": 3018.179,
+  "end": 3020.4,
+  "speaker": "Unknown",
+  "en": "If you go to docs and then we go to...",
+  "zh": "如果你进入 docs，然后我们去到……"
+ },
+ {
+  "seg": 654,
+  "start": 3021.06,
+  "end": 3021.76,
+  "speaker": "Unknown",
+  "en": "Oh, here, cloud.",
+  "zh": "哦，这里，cloud。"
+ },
+ {
+  "seg": 655,
+  "start": 3022.06,
+  "end": 3028.243,
+  "speaker": "Unknown",
+  "en": "You can see everything around like security, secrets, our versions of private connectivity and all of those things.",
+  "zh": "你可以看到所有相关内容，比如安全性、密钥、我们的私有连接版本以及所有这些东西。"
+ },
+ {
+  "seg": 656,
+  "start": 3032.305,
+  "end": 3032.885,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 657,
+  "start": 3032.965,
+  "end": 3040.128,
+  "speaker": "Unknown",
+  "en": "One other question also, Amrita, about whether you use skills and if so, if you have a preferred set.",
+  "zh": "另一个问题，Amrita，是关于你们是否使用 skills，如果用的话，有没有一套偏好的。"
+ },
+ {
+  "seg": 658,
+  "start": 3040.168,
+  "end": 3041.389,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 659,
+  "start": 3041.609,
+  "end": 3042.309,
+  "speaker": "Unknown",
+  "en": "I love skills.",
+  "zh": "我很喜欢 skills。"
+ },
+ {
+  "seg": 660,
+  "start": 3042.829,
+  "end": 3043.57,
+  "speaker": "Unknown",
+  "en": "I do use them.",
+  "zh": "我确实在用。"
+ },
+ {
+  "seg": 661,
+  "start": 3043.97,
+  "end": 3047.631,
+  "speaker": "Unknown",
+  "en": "And a cool thing about plugins, if we go back to cursor,",
+  "zh": "关于插件有一个很酷的事情，如果我们回到 cursor，"
+ },
+ {
+  "seg": 662,
+  "start": 3050.107,
+  "end": 3054.972,
+  "speaker": "Unknown",
+  "en": "Is skills can live inside of a plugin that you can use.",
+  "zh": "skills 可以存在于你能使用的插件里面。"
+ },
+ {
+  "seg": 663,
+  "start": 3055.012,
+  "end": 3059.015,
+  "speaker": "Unknown",
+  "en": "So for example, if I go to the Atlassian plugin, let's find it here.",
+  "zh": "举个例子，如果我打开 Atlassian 插件，让我们在这里找到它。"
+ },
+ {
+  "seg": 664,
+  "start": 3060.236,
+  "end": 3065.461,
+  "speaker": "Unknown",
+  "en": "You can see that they have MCPs, but these are skills that actually the Atlassian team has published.",
+  "zh": "你可以看到他们有 MCPs，但这些实际上是 Atlassian 团队发布的 skills。"
+ },
+ {
+  "seg": 665,
+  "start": 3065.561,
+  "end": 3070.666,
+  "speaker": "Unknown",
+  "en": "And so anytime I use the Atlassian plugin, I not only get their MCPs, I also get their skills.",
+  "zh": "所以任何时候我使用 Atlassian 插件，我不仅得到他们的 MCPs，还得到他们的 skills。"
+ },
+ {
+  "seg": 666,
+  "start": 3071.666,
+  "end": 3075.43,
+  "speaker": "Unknown",
+  "en": "Similarly with, sorry, with Figma.",
+  "zh": "Figma 也是类似，抱歉，Figma 也是这样。"
+ },
+ {
+  "seg": 667,
+  "start": 3075.77,
+  "end": 3078.933,
+  "speaker": "Unknown",
+  "en": "They have, oh, that's just the MCP.",
+  "zh": "他们有，哦，那只是 MCP。"
+ },
+ {
+  "seg": 668,
+  "start": 3078.953,
+  "end": 3084.218,
+  "speaker": "Unknown",
+  "en": "They have MCPs, but then they also have a ton of cool skills that I automatically get by default when I use the cursor plugin.",
+  "zh": "他们有 MCPs，但他们还有一大堆很酷的 skills，我在使用 cursor 插件时默认自动就能获得。"
+ },
+ {
+  "seg": 669,
+  "start": 3084.799,
+  "end": 3088.542,
+  "speaker": "Unknown",
+  "en": "So I love to use skills from these plugins that I heavily lean on.",
+  "zh": "所以我很喜欢用这些我重度依赖的插件里的 skills。"
+ },
+ {
+  "seg": 670,
+  "start": 3089.263,
+  "end": 3091.705,
+  "speaker": "Unknown",
+  "en": "But then I also have a couple skills that I like to use.",
+  "zh": "不过我自己也有几个喜欢用的 skills。"
+ },
+ {
+  "seg": 671,
+  "start": 3091.825,
+  "end": 3095.549,
+  "speaker": "Unknown",
+  "en": "So for example, yesterday I was working inside of",
+  "zh": "举个例子，昨天我在"
+ },
+ {
+  "seg": 672,
+  "start": 3096.209,
+  "end": 3098.391,
+  "speaker": "Unknown",
+  "en": "This Gutenberg open source repo.",
+  "zh": "这个 Gutenberg 开源仓库里工作。"
+ },
+ {
+  "seg": 673,
+  "start": 3098.431,
+  "end": 3101.212,
+  "speaker": "Unknown",
+  "en": "It's one of the WordPress kind of sub repos.",
+  "zh": "它是 WordPress 的一个子仓库。"
+ },
+ {
+  "seg": 674,
+  "start": 3101.633,
+  "end": 3103.654,
+  "speaker": "Unknown",
+  "en": "And I have a skill called slash onboard.",
+  "zh": "我有一个叫 slash onboard 的 skill。"
+ },
+ {
+  "seg": 675,
+  "start": 3103.994,
+  "end": 3109.598,
+  "speaker": "Unknown",
+  "en": "It's a skill that I actually made myself, but I do this anytime I'm in a new repo and I want to just learn about it.",
+  "zh": "这个 skill 实际上是我自己做的，但每次我进入一个新仓库想了解它时我都会这么做。"
+ },
+ {
+  "seg": 676,
+  "start": 3109.698,
+  "end": 3112.139,
+  "speaker": "Unknown",
+  "en": "So I want to learn, you know, what's the tech stack?",
+  "zh": "就是我想了解，你知道，技术栈是什么？"
+ },
+ {
+  "seg": 677,
+  "start": 3112.219,
+  "end": 3114.081,
+  "speaker": "Unknown",
+  "en": "What versions of Python do I need to use it?",
+  "zh": "需要什么版本的 Python 才能用它？"
+ },
+ {
+  "seg": 678,
+  "start": 3115.081,
+  "end": 3115.842,
+  "speaker": "Unknown",
+  "en": "What does it do?",
+  "zh": "它是做什么的？"
+ },
+ {
+  "seg": 679,
+  "start": 3116.082,
+  "end": 3118.463,
+  "speaker": "Unknown",
+  "en": "Where's the, you know, where's the backend and frontend living?",
+  "zh": "你知道，后端和前端在哪里？"
+ },
+ {
+  "seg": 680,
+  "start": 3118.583,
+  "end": 3120.565,
+  "speaker": "Unknown",
+  "en": "And so I like to use that as a skill.",
+  "zh": "所以我喜欢把它作为一个 skill 来用。"
+ },
+ {
+  "seg": 681,
+  "start": 3121.725,
+  "end": 3124.927,
+  "speaker": "Unknown",
+  "en": "There's a couple of other skills that a lot of people on my team lean on.",
+  "zh": "还有其他几个 skill 是我团队里很多人都在用的。"
+ },
+ {
+  "seg": 682,
+  "start": 3124.947,
+  "end": 3132.391,
+  "speaker": "Unknown",
+  "en": "We have a skill called Superpowers that, or sorry, a plugin called Superpowers that is actually available for everybody.",
+  "zh": "我们有一个叫 Superpowers 的 skill，抱歉，是一个叫 Superpowers 的插件，实际上对所有人都可用。"
+ },
+ {
+  "seg": 683,
+  "start": 3132.791,
+  "end": 3138.594,
+  "speaker": "Unknown",
+  "en": "So you guys can get our full list of skills that we at Cursor use ourselves because we've kind of open sourced this.",
+  "zh": "所以你们可以拿到我们在 Cursor 自己使用的完整 skills 清单，因为我们把它开源了。"
+ },
+ {
+  "seg": 684,
+  "start": 3139.174,
+  "end": 3146.719,
+  "speaker": "Unknown",
+  "en": "So this is kind of like a bit of a cursory overview into skills, but my recommendation is honestly creating your own skills.",
+  "zh": "所以这只是对 skills 的一个比较粗略的概览，但我的建议其实是创建你自己的 skills。"
+ },
+ {
+  "seg": 685,
+  "start": 3146.979,
+  "end": 3151.862,
+  "speaker": "Unknown",
+  "en": "So using the create skill function within cursor and creating workflows that make sense for you.",
+  "zh": "就是使用 cursor 里的 create skill 功能，创建对你来说合理的工作流。"
+ },
+ {
+  "seg": 686,
+  "start": 3154.427,
+  "end": 3164.055,
+  "speaker": "Unknown",
+  "en": "Well, one other question just came in on that says a lot of our services interface behind private networks on Azure.",
+  "zh": "好，还有一个相关问题进来了，说我们很多服务在 Azure 上的私有网络后面进行交互。"
+ },
+ {
+  "seg": 687,
+  "start": 3164.496,
+  "end": 3169.5,
+  "speaker": "Unknown",
+  "en": "So how can they leverage cloud agents to work within these given IP restrictions?",
+  "zh": "那么在这些给定的 IP 限制下，他们如何利用 cloud agents 来工作？"
+ },
+ {
+  "seg": 688,
+  "start": 3169.958,
+  "end": 3173.921,
+  "speaker": "Unknown",
+  "en": "Yeah, we actually have a section in our doc for that called private connectivity.",
+  "zh": "是的，我们文档里其实有一个专门讲这个的部分，叫 private connectivity。"
+ },
+ {
+  "seg": 689,
+  "start": 3174.582,
+  "end": 3187.912,
+  "speaker": "Unknown",
+  "en": "So if you have, you know, things that live on your guys' infra, options that we offer are Cloudflare tunnels, if you're not on AWS, AWS private link, if you are on AWS, and then sometimes like VPN work.",
+  "zh": "所以如果你有，你知道，放在你们自己基础设施上的东西，我们提供的选项有 Cloudflare tunnels，如果你不在 AWS 上；AWS private link，如果你在 AWS 上；然后有时还有 VPN 方面的工作。"
+ },
+ {
+  "seg": 690,
+  "start": 3187.972,
+  "end": 3190.474,
+  "speaker": "Unknown",
+  "en": "So if you guys are on tail scale, sometimes we offer that as well.",
+  "zh": "所以如果你们用的是 tail scale，有时我们也提供这个。"
+ },
+ {
+  "seg": 691,
+  "start": 3191.315,
+  "end": 3197.4,
+  "speaker": "Unknown",
+  "en": "So there are options if you want to interface with Cursor Cloud, but you have infra that you need to stay on your network.",
+  "zh": "所以如果你想和 Cursor Cloud 交互，但你有需要留在你自己网络里的基础设施，是有选项的。"
+ },
+ {
+  "seg": 692,
+  "start": 3198.18,
+  "end": 3200.202,
+  "speaker": "Unknown",
+  "en": "There also is self-host cloud agents.",
+  "zh": "还有自托管 cloud agents。"
+ },
+ {
+  "seg": 693,
+  "start": 3200.342,
+  "end": 3202.463,
+  "speaker": "Unknown",
+  "en": "We don't necessarily recommend this off the bat.",
+  "zh": "我们不一定一开始就推荐这个。"
+ },
+ {
+  "seg": 694,
+  "start": 3203.284,
+  "end": 3215.832,
+  "speaker": "Unknown",
+  "en": "It is a good way to use cursor, but we do often see like some of our most secure customers use cursor cloud agents with one of these tools, or they just trust the cursor security that we've had around cloud agents.",
+  "zh": "它是使用 cursor 的一种好方式，但我们经常看到，我们一些安全要求最高的客户用其中一个工具配合 cursor cloud agents，或者他们就是信任我们在 cloud agents 方面已有的 cursor 安全性。"
+ },
+ {
+  "seg": 695,
+  "start": 3216.932,
+  "end": 3220.615,
+  "speaker": "Unknown",
+  "en": "So up to you on how you want to do that, but there are options in the docs.",
+  "zh": "所以取决于你想怎么做，但文档里有这些选项。"
+ },
+ {
+  "seg": 696,
+  "start": 3222.599,
+  "end": 3222.759,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 697,
+  "start": 3222.919,
+  "end": 3230.11,
+  "speaker": "Unknown",
+  "en": "And then one other question on whether Cursor can learn and adapt to a team's collaborative work on a project.",
+  "zh": "然后还有一个问题，是关于 Cursor 能否学习并适应一个团队在项目上的协作工作。"
+ },
+ {
+  "seg": 698,
+  "start": 3230.651,
+  "end": 3236.96,
+  "speaker": "Unknown",
+  "en": "So can it build its knowledge so that it approaches future build plans better based off of past experiences?",
+  "zh": "也就是说，它能否积累自己的知识，从而基于过去的经验更好地处理未来的构建计划？"
+ },
+ {
+  "seg": 699,
+  "start": 3237.661,
+  "end": 3238.882,
+  "speaker": "Unknown",
+  "en": "That is a great question.",
+  "zh": "这是个很好的问题。"
+ },
+ {
+  "seg": 700,
+  "start": 3239.463,
+  "end": 3241.364,
+  "speaker": "Unknown",
+  "en": "So we have actually a plugin for that.",
+  "zh": "所以我们实际上有一个插件可以做到这件事。"
+ },
+ {
+  "seg": 701,
+  "start": 3241.805,
+  "end": 3243.466,
+  "speaker": "Unknown",
+  "en": "So you guys all should have access to it.",
+  "zh": "你们大家都应该有权限使用它。"
+ },
+ {
+  "seg": 702,
+  "start": 3243.486,
+  "end": 3244.747,
+  "speaker": "Unknown",
+  "en": "It's called Continual Learning.",
+  "zh": "它叫 Continual Learning。"
+ },
+ {
+  "seg": 703,
+  "start": 3245.708,
+  "end": 3256.618,
+  "speaker": "Unknown",
+  "en": "And this basically does exactly what you said, where if you add this plugin to Cursor, so I'll just add it for myself, you can see it actually add to what we have the agents.md file.",
+  "zh": "它基本上做的正是你说的那件事，如果你把这个插件添加到 Cursor，我自己来添加一下，你可以看到它实际上会往我们的 agents.md 文件里添加。"
+ },
+ {
+  "seg": 704,
+  "start": 3257.819,
+  "end": 3265.164,
+  "speaker": "Unknown",
+  "en": "information and data about how you work, what's your writing style, what's your coding style, and it'll immediately start learning.",
+  "zh": "关于你怎么工作的信息和数据，你的写作风格是什么，你的编码风格是什么，而且它会立即开始学习。"
+ },
+ {
+  "seg": 705,
+  "start": 3265.544,
+  "end": 3269.046,
+  "speaker": "Unknown",
+  "en": "You could have this be a team plugin so that everyone on your team uses it.",
+  "zh": "你可以把它作为团队插件，这样你团队里的每个人都使用它。"
+ },
+ {
+  "seg": 706,
+  "start": 3269.066,
+  "end": 3270.687,
+  "speaker": "Unknown",
+  "en": "You would have it just be a personal plugin.",
+  "zh": "你也可以让它只是一个个人插件。"
+ },
+ {
+  "seg": 707,
+  "start": 3271.388,
+  "end": 3273.169,
+  "speaker": "Unknown",
+  "en": "But this is a great way to do that.",
+  "zh": "但这是做到这件事的一个很好的方式。"
+ },
+ {
+  "seg": 708,
+  "start": 3274.13,
+  "end": 3275.811,
+  "speaker": "Unknown",
+  "en": "Cursor is working on memory management.",
+  "zh": "Cursor 正在做记忆管理。"
+ },
+ {
+  "seg": 709,
+  "start": 3275.871,
+  "end": 3280.014,
+  "speaker": "Unknown",
+  "en": "It's something that I think all the labs and all the AI tools are working on.",
+  "zh": "我认为这是所有实验室和所有 AI 工具都在做的东西。"
+ },
+ {
+  "seg": 710,
+  "start": 3280.094,
+  "end": 3281.255,
+  "speaker": "Unknown",
+  "en": "It's a very important problem.",
+  "zh": "这是一个非常重要的问题。"
+ },
+ {
+  "seg": 711,
+  "start": 3282.095,
+  "end": 3285.898,
+  "speaker": "Unknown",
+  "en": "And we actually have a version of it in specifically our automations.",
+  "zh": "我们实际上在具体的 automations 里有它一个版本。"
+ },
+ {
+  "seg": 712,
+  "start": 3286.459,
+  "end": 3295.005,
+  "speaker": "Unknown",
+  "en": "So if you go to your automations and let's actually go to this one here, you'll notice that every automation has something called a memories.md file.",
+  "zh": "所以如果你去到你的 automations，我们实际上去到这里的这一个，你会注意到每个 automation 都有一个叫 memories.md 的文件。"
+ },
+ {
+  "seg": 713,
+  "start": 3295.485,
+  "end": 3298.708,
+  "speaker": "Unknown",
+  "en": "This is how automations learn to get better each time they run.",
+  "zh": "这就是 automation 每次运行时学习变得更好的方式。"
+ },
+ {
+  "seg": 714,
+  "start": 3299.388,
+  "end": 3309.796,
+  "speaker": "Unknown",
+  "en": "So this is a really cool feature because once an automation runs, let's say it, you know, missed something or you had to follow up with it and say, hey, I actually didn't like the way that you phrased this to me in Slack.",
+  "zh": "所以这是一个非常酷的功能，因为一旦一个 automation 运行了，比如说它，你知道，漏掉了什么，或者你必须跟进它并说，嘿，我其实不喜欢你在 Slack 里对我这样表述的方式。"
+ },
+ {
+  "seg": 715,
+  "start": 3310.216,
+  "end": 3314.146,
+  "speaker": "Unknown",
+  "en": "It will learn from that kind of feedback and then get better in each subsequent run.",
+  "zh": "它会从这类反馈中学习，然后在后续每次运行中变得更好。"
+ },
+ {
+  "seg": 716,
+  "start": 3314.608,
+  "end": 3319.22,
+  "speaker": "Unknown",
+  "en": "So memories.md and automations is kind of our also solution to that in the cloud.",
+  "zh": "所以 memories.md 和 automations 是我们在云端对此的另一种解决方案。"
+ },
+ {
+  "seg": 717,
+  "start": 3323.667,
+  "end": 3335.257,
+  "speaker": "Unknown",
+  "en": "Well, one question on cloud agents, like if they do end up crashing, if the context is stored and whether they can be recovered based off of that existing run.",
+  "zh": "好，关于 cloud agents 有一个问题，比如如果它们最终崩溃了，上下文是否被存储，以及是否可以基于已有的那次运行恢复它们。"
+ },
+ {
+  "seg": 718,
+  "start": 3335.837,
+  "end": 3337.679,
+  "speaker": "Unknown",
+  "en": "That is a good question.",
+  "zh": "这是个好问题。"
+ },
+ {
+  "seg": 719,
+  "start": 3338.379,
+  "end": 3342.503,
+  "speaker": "Unknown",
+  "en": "So you can reference past conversations in Cursor, actually.",
+  "zh": "所以你实际上可以在 Cursor 里引用过去的对话。"
+ },
+ {
+  "seg": 720,
+  "start": 3342.523,
+  "end": 3349.929,
+  "speaker": "Unknown",
+  "en": "So if I go to Cursor, if you ever want to use a past conversation as context, you can actually do at past.",
+  "zh": "所以如果我去到 Cursor，如果你想用过去的对话作为上下文，你实际上可以输入 at past。"
+ },
+ {
+  "seg": 721,
+  "start": 3350.509,
+  "end": 3352.53,
+  "speaker": "Unknown",
+  "en": "Sorry, at and then chats.",
+  "zh": "抱歉，是 at 然后输入 chats。"
+ },
+ {
+  "seg": 722,
+  "start": 3352.75,
+  "end": 3355.191,
+  "speaker": "Unknown",
+  "en": "And it can actually go through all your previous chats.",
+  "zh": "它实际上可以遍历你所有以前的聊天。"
+ },
+ {
+  "seg": 723,
+  "start": 3355.611,
+  "end": 3357.931,
+  "speaker": "Unknown",
+  "en": "But I don't think this actually extends to cloud.",
+  "zh": "但我不认为这个实际延伸到了 cloud。"
+ },
+ {
+  "seg": 724,
+  "start": 3357.991,
+  "end": 3359.192,
+  "speaker": "Unknown",
+  "en": "So I would have to double check.",
+  "zh": "所以我得再确认一下。"
+ },
+ {
+  "seg": 725,
+  "start": 3359.712,
+  "end": 3361.713,
+  "speaker": "Unknown",
+  "en": "In fact, let me just try it here.",
+  "zh": "其实，让我就在这里试一下。"
+ },
+ {
+  "seg": 726,
+  "start": 3361.733,
+  "end": 3369.455,
+  "speaker": "Unknown",
+  "en": "I'm going to go ahead and say, can you see all my previous conversations in this repo in the cloud?",
+  "zh": "我来说一句：你能看到我在这个 repo 里在 cloud 中的所有以前的对话吗？"
+ },
+ {
+  "seg": 727,
+  "start": 3371.556,
+  "end": 3373.296,
+  "speaker": "Unknown",
+  "en": "I'm curious to see if it will be able to solve it.",
+  "zh": "我很好奇它能不能解决这个问题。"
+ },
+ {
+  "seg": 728,
+  "start": 3373.316,
+  "end": 3374.017,
+  "speaker": "Unknown",
+  "en": "I actually don't know.",
+  "zh": "我其实不知道。"
+ },
+ {
+  "seg": 729,
+  "start": 3374.797,
+  "end": 3377.858,
+  "speaker": "Unknown",
+  "en": "But in cursor local, you can see your previous conversations.",
+  "zh": "但在 cursor 本地，你可以看到你以前的对话。"
+ },
+ {
+  "seg": 730,
+  "start": 3384.15,
+  "end": 3389.953,
+  "speaker": "Unknown",
+  "en": "And actually, if you're ever curious about what Cursor Cloud has access to, we actually have a Cursor Cloud MCP.",
+  "zh": "而且实际上，如果你想知道 Cursor Cloud 能访问什么，我们实际上有一个 Cursor Cloud MCP。"
+ },
+ {
+  "seg": 731,
+  "start": 3390.833,
+  "end": 3395.856,
+  "speaker": "Unknown",
+  "en": "Reagan, if you can find the docs for that, it's just, it lives in our Cursor documentation.",
+  "zh": "Reagan，如果你能找到它的文档，它就在我们的 Cursor 文档里。"
+ },
+ {
+  "seg": 732,
+  "start": 3395.936,
+  "end": 3401.999,
+  "speaker": "Unknown",
+  "en": "So if you ever want to use the Cursor Cloud MCP, you can use it for, here it is actually, I found it.",
+  "zh": "所以如果你想使用 Cursor Cloud MCP，你可以用它来——在这儿，其实我找到了。"
+ },
+ {
+  "seg": 733,
+  "start": 3402.759,
+  "end": 3407.681,
+  "speaker": "Unknown",
+  "en": "You can use it to ever, to diagnose runs that haven't worked, to diagnose your setup and your environment.",
+  "zh": "你可以用它来诊断没有运行成功的 run，诊断你的设置和你的环境。"
+ },
+ {
+  "seg": 734,
+  "start": 3408.181,
+  "end": 3411.163,
+  "speaker": "Unknown",
+  "en": "It's a really great way of actually interacting with the cloud itself.",
+  "zh": "这是与 cloud 本身实际交互的一个非常好的方式。"
+ },
+ {
+  "seg": 735,
+  "start": 3417.705,
+  "end": 3418.105,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 736,
+  "start": 3419.306,
+  "end": 3420.447,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 737,
+  "start": 3420.567,
+  "end": 3426.872,
+  "speaker": "Unknown",
+  "en": "I can take maybe one more question if someone wants to come off mute and ask live or I'll take one from the chat.",
+  "zh": "如果有人想解除静音现场提问，我可以再回答一个问题，或者我从聊天里挑一个。"
+ },
+ {
+  "seg": 738,
+  "start": 3426.912,
+  "end": 3429.994,
+  "speaker": "Unknown",
+  "en": "Regan, anything that you think would be interesting and then we can close out.",
+  "zh": "Regan，你觉得有什么有意思的吗，然后我们就可以收尾了。"
+ },
+ {
+  "seg": 739,
+  "start": 3433.437,
+  "end": 3440.582,
+  "speaker": "Unknown",
+  "en": "Yeah, there's one interesting question about running cloud agents on a schedule that need access to something on a local.",
+  "zh": "是的，有一个有趣的问题，关于按计划运行需要访问本地某些东西的 cloud agents。"
+ },
+ {
+  "seg": 740,
+  "start": 3441.603,
+  "end": 3443.764,
+  "speaker": "Unknown",
+  "en": "I'm wondering if there's any way to do that.",
+  "zh": "我想知道有没有办法做到这一点。"
+ },
+ {
+  "seg": 741,
+  "start": 3444.644,
+  "end": 3455.188,
+  "speaker": "Unknown",
+  "en": "So that's when you would probably have to set up AWS PrivateLink or a Cloudflare Tunnel to access something that was on your infra.",
+  "zh": "那种情况下你可能就得设置 AWS PrivateLink 或 Cloudflare Tunnel 来访问你基础设施上的某些东西。"
+ },
+ {
+  "seg": 742,
+  "start": 3455.549,
+  "end": 3466.813,
+  "speaker": "Unknown",
+  "en": "If it's more so like a local file, for example, so when we go back to cursor here, you could actually have it access like a local plan if that plan is committed to your repo.",
+  "zh": "如果它更像是比如一个本地文件，那么当我们回到这里的 cursor，你实际上可以让它访问比如一个本地 plan，前提是这个 plan 提交到了你的 repo。"
+ },
+ {
+  "seg": 743,
+  "start": 3467.233,
+  "end": 3473.056,
+  "speaker": "Unknown",
+  "en": "So skills in your repo, plans in your repo, files in your repo, your automation can access.",
+  "zh": "所以你 repo 里的 skills、repo 里的 plans、repo 里的文件，你的 automation 都可以访问。"
+ },
+ {
+  "seg": 744,
+  "start": 3473.156,
+  "end": 3479.119,
+  "speaker": "Unknown",
+  "en": "But if it's on your machine, it would have to use PrivateLink or some other connection.",
+  "zh": "但如果它在你的机器上，就必须使用 PrivateLink 或某种其他连接。"
+ },
+ {
+  "seg": 745,
+  "start": 3480.019,
+  "end": 3486.902,
+  "speaker": "Unknown",
+  "en": "With that said, we do have a really cool tool called GrokBot, which is a general knowledge product, but you can use it for coding.",
+  "zh": "话虽如此，我们确实有一个很酷的工具叫 GrokBot，它是一个通用知识产品，但你也可以用它来写代码。"
+ },
+ {
+  "seg": 746,
+  "start": 3487.502,
+  "end": 3489.223,
+  "speaker": "Unknown",
+  "en": "I'm doing a workshop on that next Thursday.",
+  "zh": "下周四我会做一场关于它的 workshop。"
+ },
+ {
+  "seg": 747,
+  "start": 3489.303,
+  "end": 3492.705,
+  "speaker": "Unknown",
+  "en": "So if you're interested, that actually has a really great solution for",
+  "zh": "所以如果你感兴趣，它实际上对这个问题有一个非常好的解决方案，"
+ },
+ {
+  "seg": 748,
+  "start": 3493.245,
+  "end": 3497.026,
+  "speaker": "Unknown",
+  "en": "Using cloud and local together to work on multiple things on your machine.",
+  "zh": "即把 cloud 和 local 结合起来，在你机器上处理多项事务。"
+ },
+ {
+  "seg": 749,
+  "start": 3501.207,
+  "end": 3501.527,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 750,
+  "start": 3502.007,
+  "end": 3503.067,
+  "speaker": "Unknown",
+  "en": "I'll stop sharing now.",
+  "zh": "我现在停止共享了。"
+ },
+ {
+  "seg": 751,
+  "start": 3503.408,
+  "end": 3504.568,
+  "speaker": "Unknown",
+  "en": "Thank you guys so much.",
+  "zh": "非常感谢大家。"
+ },
+ {
+  "seg": 752,
+  "start": 3505.468,
+  "end": 3506.828,
+  "speaker": "Unknown",
+  "en": "This was a wonderful session.",
+  "zh": "这是一场很棒的分享。"
+ },
+ {
+  "seg": 753,
+  "start": 3506.908,
+  "end": 3507.188,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 754,
+  "start": 3507.208,
+  "end": 3508.929,
+  "speaker": "Unknown",
+  "en": "Thank you so much, Reagan, for curating.",
+  "zh": "非常感谢 Reagan 的策划。"
+ },
+ {
+  "seg": 755,
+  "start": 3510.109,
+  "end": 3511.369,
+  "speaker": "Unknown",
+  "en": "I hope everyone learned something new.",
+  "zh": "我希望每个人都学到了新东西。"
+ },
+ {
+  "seg": 756,
+  "start": 3511.99,
+  "end": 3515.49,
+  "speaker": "Unknown",
+  "en": "I hope everyone is able to go and try out Cursor Cloud now.",
+  "zh": "我希望大家现在都能去试试 Cursor Cloud。"
+ },
+ {
+  "seg": 757,
+  "start": 3516.251,
+  "end": 3517.231,
+  "speaker": "Unknown",
+  "en": "Thank you guys so much.",
+  "zh": "非常感谢大家。"
+ },
+ {
+  "seg": 758,
+  "start": 3517.871,
+  "end": 3520.052,
+  "speaker": "Unknown",
+  "en": "It's always, I feel so lucky to be able to do this every day.",
+  "zh": "我总是觉得,能每天做这件事是多么幸运。"
+ },
+ {
+  "seg": 759,
+  "start": 3520.332,
+  "end": 3521.412,
+  "speaker": "Unknown",
+  "en": "So thank you guys.",
+  "zh": "所以谢谢大家。"
+ }
+]

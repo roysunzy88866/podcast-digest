@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>56</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>58</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -58,6 +58,7 @@ unlisted: true
 - **[[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]]**(25:19起):本集在赞助商段和正文中各提一次，说它是几个月前被大量炒作的编码工具，但 Daniel 觉得对 PM 不够友好而选择等待 CoWork
 - **[[2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced|《从 OpenClaw 全面迁往 GrokBot：一位创业者的一线实战报告》]]**(00:13起):本集把它说成：GrokBot 可以启动的云端编码任务执行方——PR 的 rebase 和按评论改代码交给 Cursor 云端智能体去干，Holly 修 bug 也被授权用它。
 - **[[2026-09-03-talks-model-selection-token-efficiency|《Token 都烧在哪了：Cursor 工程师教你把 AI 编程成本打下来》]]**(00:18起):本集把它说成:把智能体放在中心舞台的 AI 编程工具,为每个模型单独调校 harness,并提供 Cursor Router、Ask/Plan/Debug 模式等帮助用户控制 token 花费的功能
+- **[[2026-09-03-talks-refactoring-legacy-codebases|《用 Cursor 重构遗留代码库：从 PHP 到 React 的完整工作流》]]**(00:04起):本集主角：Cursor 官方研讨会，现场演示用它的 IDE / 智能体窗口 / CLI / 云端智能体重构遗留代码库，把它说成模型聚合加一层 harness 的 AI 编程平台
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(00:58起):本集说它是占主导地位的编程应用，被 OpenAI 切断模型访问后回应称那只占流量的 5%。
 - **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(38:30起):Speechify 团队使用的 AI 编程工具之一，使用量排第二（Claude Code 之后、Codex 之前）。
 - **[[2026-09-06-lennys-why-companies-are-becoming-a-series|《a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小》]]**(06:58起):本集说 Cursor 曾因「没护城河」被批评，但高 NPS 高日活本身就是好东西，随时间捕获所有推理轨迹、训练了自己的 Composer 模型。
@@ -67,10 +68,11 @@ unlisted: true
 - **[[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]]**(16:23起):本集在列举在中国开源模型上微调/后训练的垂直 AI 公司时顺带提到 Cursor
 - **[[2026-09-10-talks-the-design-code-roundtrip-that-isn-t-jon|《设计-代码往返并不存在：一位 30 年老兵的实测与漂移警告》]]**(04:13起):Jonathan 沉浸 vibe coding 时期使用的工具，曾发邮件告知他的使用量位居前 0.1%。
 - **[[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]]**(25:30起):本集作为定价案例提到：Ron 曾建议 Cursor 早期的人转向按用量定价，如今那个市场已被按用量定价引爆。
+- **[[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]]**(43:13起):本集用它说明『护城河是被发现的』：曾被批评没护城河，随时间捕获推理轨迹、训练了自己的模型
 
 ## ① 提到它的金句
 
-*6 条*
+*9 条*
 
 ![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q2]]
 
@@ -82,11 +84,17 @@ unlisted: true
 
 ![[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin#^q8]]
 
+![[2026-09-03-talks-refactoring-legacy-codebases#^q1]]
+
+![[2026-09-03-talks-refactoring-legacy-codebases#^q2]]
+
+![[2026-09-03-talks-refactoring-legacy-codebases#^q3]]
+
 ![[2026-09-08-lennys-how-we-built-grok-bot-in-a-month#^q10]]
 
 ## ② 出现在这些集
 
-*56 集*
+*58 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
@@ -135,6 +143,7 @@ unlisted: true
 - [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|《一个PM用Claude CoWork建的自愈型工作系统》]] — 作为被讨论公司(提及)
 - [[2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced|《从 OpenClaw 全面迁往 GrokBot：一位创业者的一线实战报告》]] — 作为被讨论公司
 - [[2026-09-03-talks-model-selection-token-efficiency|《Token 都烧在哪了：Cursor 工程师教你把 AI 编程成本打下来》]] — 作为被讨论公司
+- [[2026-09-03-talks-refactoring-legacy-codebases|《用 Cursor 重构遗留代码库：从 PHP 到 React 的完整工作流》]] — 作为被讨论公司
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为被讨论公司(提及)
 - [[2026-09-06-lennys-why-companies-are-becoming-a-series|《a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小》]] — 作为被讨论公司
@@ -144,14 +153,15 @@ unlisted: true
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]] — 作为被讨论公司(提及)
 - [[2026-09-10-talks-the-design-code-roundtrip-that-isn-t-jon|《设计-代码往返并不存在：一位 30 年老兵的实测与漂移警告》]] — 作为概念(提及)
 - [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]] — 作为被讨论公司(提及)
+- [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Codex]] · [[Lenny]] · [[Claude Code]] · [[推理]] · [[vibe coding]] · [[ChatGPT]] · [[Lovable]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Codex]] · [[Lenny]] · [[Claude Code]] · [[vibe coding]] · [[推理]] · [[ChatGPT]] · [[Lovable]]
 
-<script type="application/json" class="pd-epn">{"智能体":224,"OpenAI":104,"Anthropic":117,"Codex":45,"Lenny":67,"Claude Code":56,"推理":42,"vibe coding":31,"ChatGPT":59,"Lovable":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":226,"OpenAI":105,"Anthropic":118,"Codex":46,"Lenny":67,"Claude Code":57,"vibe coding":32,"推理":42,"ChatGPT":59,"Lovable":15}</script>
 
 <script>
 (function(){

@@ -27,7 +27,7 @@ unlisted: true
 
 [[OpenAI]] · [[Eric Sager]] · [[Harry Stebbings]] · [[Square]] · [[JD]] · [[Visa]] · [[Town]] · [[Replit]] · [[AI 助手]] · [[公司文化]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":104,"Eric Sager":1,"Harry Stebbings":15,"Square":4,"JD":1,"Visa":2,"Town":3,"Replit":16,"AI 助手":2,"公司文化":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":105,"Eric Sager":1,"Harry Stebbings":15,"Square":4,"JD":1,"Visa":2,"Town":3,"Replit":16,"AI 助手":2,"公司文化":1}</script>
 
 <script>
 (function(){

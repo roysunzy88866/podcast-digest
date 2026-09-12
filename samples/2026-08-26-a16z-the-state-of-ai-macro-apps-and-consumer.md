@@ -148,8 +148,8 @@ Anish 对「模型商品化」的判断是明确的否定。他给自己定的�
 **顺着「智能体」挖下去**
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、GrokBot、OpenAI、11 Labs、Cursor、Town · 同概念:开放权重模型 (open weight models)、护城河 (moat)、智能体 (agent)</span>
+- [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Anthropic、OpenAI、Cursor · 同概念:个人智能体 (personal agents)、护城河 (moat)、智能体 (agent)</span>
 - [[2026-09-06-lennys-why-companies-are-becoming-a-series|a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小]]<span class="pd-rz">同公司:OpenAI、Cursor · 同概念:护城河 (moat)、智能体 (agent)、编码智能体 (coding agents)</span>
-- [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:开放权重模型 (open weight models)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

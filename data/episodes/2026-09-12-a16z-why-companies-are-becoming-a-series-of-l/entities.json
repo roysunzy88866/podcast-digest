@@ -1,0 +1,1431 @@
+{
+  "episode_id": "2026-09-12-a16z-why-companies-are-becoming-a-series-of-l",
+  "podcast": "The a16z Show",
+  "date": "2026-09-12",
+  "tags": [
+    "AI 与职业焦虑",
+    "智能体循环",
+    "消费级 AI",
+    "护城河",
+    "创业雄心"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "anish-acharya",
+      "type": "person",
+      "role": "host",
+      "name": "Anish Acharya",
+      "file": "Anish Acharya",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            95.263,
+            109.226
+          ],
+          "quote": "This one comes from Lenny's podcast, where Lenny Richitsky sits down with A16Z general partner Anish Acharya for a wide-ranging conversation about AI, company building, and why Anish thinks we should be more ambitious about what this technology makes possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            146.718,
+            148.541
+          ],
+          "quote": "Today, my guest is Anish Acharya.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "A16Z",
+      "file": "A16Z",
+      "primary": true,
+      "how_described": "嘉宾 Anish Acharya 是其普通合伙人，专注消费领域投资；本集讨论他们如今嫌想法太小才不接洽的投资观",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            95.263,
+            109.226
+          ],
+          "quote": "This one comes from Lenny's podcast, where Lenny Richitsky sits down with A16Z general partner Anish Acharya for a wide-ranging conversation about AI, company building, and why Anish thinks we should be more ambitious about what this technology makes possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            148.821,
+            153.208
+          ],
+          "quote": "Anish is general partner at A16Z, where he focuses on consumer investing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            160.458,
+            162.682
+          ],
+          "quote": "He's been at A16Z for over seven years now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2989.852,
+            2992.418
+          ],
+          "quote": "So you focus on consumer at A16Z.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1137,
+          "t": [
+            4624.543,
+            4627.426
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z Podcast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1140,
+          "t": [
+            4639.358,
+            4645.064
+          ],
+          "quote": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1143,
+          "t": [
+            4655.944,
+            4663.427
+          ],
+          "quote": "This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with A16Z.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1144,
+          "t": [
+            4663.847,
+            4670.89
+          ],
+          "quote": "Such advertisements, companies, and individuals are not endorsed by AH Capital Management LLC, A16Z, or any of its affiliates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1145,
+          "t": [
+            4671.37,
+            4677.052
+          ],
+          "quote": "Information is from sources deemed reliable on the date of publication, but A16Z does not guarantee its accuracy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kavak",
+      "type": "company",
+      "role": "company",
+      "name": "Kavak",
+      "file": "Kavak",
+      "primary": true,
+      "how_described": "本集举的最佳实践案例：墨西哥二手车公司，面向每个客户跑一个智能体，卡住时打电话给人类并学习轨迹",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            507.842,
+            512.445
+          ],
+          "quote": "And you see this with, of course, sophisticated companies like Google, but even a company like Kavak.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1121.491,
+            1125.212
+          ],
+          "quote": "And there's a really interesting example I heard from Ale at Kavak.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集提到其 go-to-market 团队用 Codex 比工程团队还多，以及其模型与『太危险而不能发布』的讨论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            366.534,
+            374.2
+          ],
+          "quote": "Something I've been thinking about recently is seeing all these, like even seeing these crazy stories about OpenAI's models, hacking, hugging face.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            939.93,
+            945.134
+          ],
+          "quote": "I just saw a tweet that I think at OpenAI, the go-to-market team now is using Codex more.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2461.024,
+            2464.007
+          ],
+          "quote": "I saw OpenAI recently slow down their AI development.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2483.177,
+            2496.426
+          ],
+          "quote": "I mean, without commenting on OpenAI specifically, I think that maybe I'm a little skeptical on some of these things where I think the kind of the aura that Anthropic got from having a model that was too dangerous to release was extraordinary.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2539.305,
+            2546.728
+          ],
+          "quote": "Yeah, I always think about that when I have folks from Anthropic and OpenAI on the podcast, just like how an advantage they have when they have the best model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2552.553,
+            2562.36
+          ],
+          "quote": "It's crazy, though, you know, to take the other side for a moment, like it felt like Anthropic was unassailable and now OpenAI has had an amazing six months and open weights are also ripping.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说 Anthropic 曾从『太危险而不能发布』的模型获得非凡光环，但行业趋势证明它并未因此无懈可击",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 579,
+          "t": [
+            2483.177,
+            2496.426
+          ],
+          "quote": "I mean, without commenting on OpenAI specifically, I think that maybe I'm a little skeptical on some of these things where I think the kind of the aura that Anthropic got from having a model that was too dangerous to release was extraordinary.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2539.305,
+            2546.728
+          ],
+          "quote": "Yeah, I always think about that when I have folks from Anthropic and OpenAI on the podcast, just like how an advantage they have when they have the best model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2552.553,
+            2562.36
+          ],
+          "quote": "It's crazy, though, you know, to take the other side for a moment, like it felt like Anthropic was unassailable and now OpenAI has had an amazing six months and open weights are also ripping.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "wabi",
+      "type": "company",
+      "role": "company",
+      "name": "Wabi",
+      "file": "Wabi",
+      "primary": true,
+      "how_described": "Anish 投资的公司，被描述为一个迷你应用平台，人们可以创建、消费、分享迷你应用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            312.756,
+            315.398
+          ],
+          "quote": "Replit, Wabi, like they're all sort of working.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3035.446,
+            3040.769
+          ],
+          "quote": "You know, and probably the best example of a company that we've invested in is Wabi, where it's sort of a platform for mini apps.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 742,
+          "t": [
+            3103.36,
+            3105.402
+          ],
+          "quote": "And then Wabi, I guess, would fit in that first one.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集用它说明『护城河是被发现的』：曾被批评没护城河，随时间捕获推理轨迹、训练了自己的模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 595,
+          "t": [
+            2593.126,
+            2595.348
+          ],
+          "quote": "And that's, I know a lot of the good work the cursor team did.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3212.976,
+            3215.096
+          ],
+          "quote": "Another great example of this is Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 826,
+          "t": [
+            3396.258,
+            3401.926
+          ],
+          "quote": "Because there's so much, like there's co-work, there's ChatGPT work, there's Cursor, there's GrokBot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 840,
+          "t": [
+            3436.06,
+            3439.121
+          ],
+          "quote": "And I think Cursor has a $300 a month plan now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 846,
+          "t": [
+            3444.023,
+            3445.084
+          ],
+          "quote": "Yeah, RIP Cursor.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "decagon",
+      "type": "company",
+      "role": "company",
+      "name": "Decagon",
+      "file": "Decagon",
+      "primary": false,
+      "how_described": "本集引用其创始人 Jesse 的话：护城河往往是被发现出来的，而不是被设计出来的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 775,
+          "t": [
+            3188.966,
+            3196.029
+          ],
+          "quote": "One is something that Jesse from Decagon said, which I love, and that is that moats are most often discovered, not designed.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集作为成熟公司例子：买下 Anish 的公司、内部未裁员而是加速推进路线图、Gemini 靠分发推广但仍未称胜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            169.644,
+            174.905
+          ],
+          "quote": "He founded a company called Social Deck, which he sold to Google and then ended up leading a number of efforts within Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 116,
+          "t": [
+            507.842,
+            512.445
+          ],
+          "quote": "And you see this with, of course, sophisticated companies like Google, but even a company like Kavak.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            581.7,
+            590.627
+          ],
+          "quote": "I mean, I think if you even just think of the kind of incentives for the CEO and executives, you know, Sundar running Google, he doesn't want to run a more efficient $4 trillion company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            601.877,
+            607.922
+          ],
+          "quote": "And then I don't know what you hear, but anecdotally, I talked to a good friend who's an executive at Google and I said, hey, have you laid anyone off?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1777.642,
+            1787.866
+          ],
+          "quote": "For me, it's easier to think of a new feature to add to my DJ streaming app or my sort of Google Reader for X that I use than it is to kind of find a part of my life to automate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 452,
+          "t": [
+            1943.039,
+            1946.781
+          ],
+          "quote": "And then the Instagram person is like, wow, this is like a better Google search, kind of.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2032.944,
+            2043.769
+          ],
+          "quote": "You know, the idea, there's a thousand Google committees who would, you know, roll in their graves at the idea that they're going to release a model that's disagreeable or, God forbid, it should be like sexually suggestive or, but guess what?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 693,
+          "t": [
+            2937.659,
+            2942.725
+          ],
+          "quote": "I have a guest post coming together from someone at Google that works on a lot of their lab stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 877,
+          "t": [
+            3622.398,
+            3625.98
+          ],
+          "quote": "And every time you go search Google, I guess, do you think, do you feel like that?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 880,
+          "t": [
+            3630.706,
+            3636.915
+          ],
+          "quote": "I think it's easier because like Gemini, despite all the kind of heavy cross-selling Google has done, nobody would say they're winning.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "credit-karma",
+      "type": "company",
+      "role": "company",
+      "name": "Credit Karma",
+      "file": "Credit Karma",
+      "primary": false,
+      "how_described": "本集提到 Anish 的上一家公司 Snowball 卖给了它，他在那里做到消费产品与信用卡业务 GM",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            175.245,
+            186.107
+          ],
+          "quote": "Then he started a new company called Snowball, which he then again sold, this time to Credit Karma, where he moved to VPR product and then GM of the broader consumer product and the whole entire credit card business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 994,
+          "t": [
+            4160.322,
+            4165.384
+          ],
+          "quote": "I know that our mutual friend, Nikhil Singal, you worked at Credit Karma with him.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "granola",
+      "type": "company",
+      "role": "company",
+      "name": "Granola",
+      "file": "Granola",
+      "primary": false,
+      "how_described": "本集举其为例：两年前被批评、没有强持久性故事，却凭极高打磨度广受喜爱且增长居前",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 818,
+          "t": [
+            3367.964,
+            3368.884
+          ],
+          "quote": "I mean, look at granola.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 822,
+          "t": [
+            3383.77,
+            3389.133
+          ],
+          "quote": "I just saw Ram put out a report of the fastest growing companies according to their data and granola is like number two or three.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：带工具、记忆和技能文件、在循环中运行的模型；智能体帮你爬山到局部最大值后需要人类介入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            522.77,
+            527.292
+          ],
+          "quote": "And kind of at the end of the six week course, they ship a cutting edge in production agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            915.323,
+            917.924
+          ],
+          "quote": "And there's kind of this like agent to human kind of back and forth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            920.45,
+            927.138
+          ],
+          "quote": "If you've ever tried to have an agent come up with a business idea for you, like, you know, hey, Claude, make me a million dollars, make no mistakes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1060.063,
+            1072.437
+          ],
+          "quote": "So going back to this loops idea, the way I'm thinking about it is how can every function start to think of their function as setting up an agent to be able to just go from input to some kind of impact?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1125.272,
+            1135.976
+          ],
+          "quote": "He's probably the most sophisticated thinker on this stuff that I get to hang out with, where he said anytime they have an agent per customer, they sell used cars online, and when the agent gets stuck, it actually calls a human.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1136.676,
+            1138.859
+          ],
+          "quote": "And the human will coach the agent through.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1139.079,
+            1144.825
+          ],
+          "quote": "Now the magic of that is not only does it unblock the agent, but of course the agent then captures all the traces and learns from it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1147.549,
+            1150.632
+          ],
+          "quote": "It's either a knowledge gap or a data gap that you have to give the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1157.227,
+            1160.512
+          ],
+          "quote": "You need to start thinking about every function as an agent loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 743,
+          "t": [
+            3105.422,
+            3108.344
+          ],
+          "quote": "It's like a personal coding agent that can build whatever you want for you.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "循环 (loop)",
+      "file": "循环",
+      "primary": true,
+      "how_described": "本集的核心主张：公司正在变成一组组级联的循环——每人一个、每职能一个，直到能运营公司大部分业务的循环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            45.408,
+            52.035
+          ],
+          "quote": "I think we're going to see this sort of cascading set of everything from a loop per person to loops that can run large parts of the company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            55.638,
+            58.721
+          ],
+          "quote": "The loop will help you climb to the local maxima, but then it plateaus.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            687.003,
+            692.107
+          ],
+          "quote": "Agents, of course, are just models in a loop with tools and memory and skill files.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            737.385,
+            741.288
+          ],
+          "quote": "So you have a coding loop and the kind of change it makes is to the code base.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            744.189,
+            757.775
+          ],
+          "quote": "So if you're the GM of a business, you're looking across many job functions and you've got loops running in coding and marketing and sales and support and legal, the output of all of those loops is something that is itself a loop that you should be able to optimize for.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            769.06,
+            780.331
+          ],
+          "quote": "So I think we're going to see this sort of cascading set of everything from a loop per person, loop per job function, loop across entire business units to loops that can run large parts of the company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            820.12,
+            830.266
+          ],
+          "quote": "What you're saying here is engineering and building more and more is becoming this loop of input, feedback, support ticket, whatever input of just like what to build.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            843.794,
+            848.277
+          ],
+          "quote": "So maybe describe what that loop looks like or may look like for within a company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 196,
+          "t": [
+            867.067,
+            872.968
+          ],
+          "quote": "So the loop version of that should be that every variant gets generated, every variant gets measured.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            886.171,
+            889.472
+          ],
+          "quote": "The loop will help you climb to the local maxima, but then it plateaus.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1091.655,
+            1100.203
+          ],
+          "quote": "And so the question I think about now is just like, which skills can you not just turn into a loop because the output is so hard to verify?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1157.227,
+            1160.512
+          ],
+          "quote": "You need to start thinking about every function as an agent loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1896.804,
+            1906.251
+          ],
+          "quote": "Along these lines, I saw somewhere you have this really interesting take that like the big opportunity, maybe just in consumer, but broadly is this idea of loop, make me happier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2002.018,
+            2008.363
+          ],
+          "quote": "We talked about this idea of loop, like grow my business, loop, find me more sales, loop, close support tickets.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2008.403,
+            2015.508
+          ],
+          "quote": "But the way you're describing here, I think you, the way you had it, I have my notes here, just like loop, improve my health or loop, make me a better friend.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2061.412,
+            2066.398
+          ],
+          "quote": "App product that is exactly this loop around improving my connections with my friends and family.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2123.526,
+            2128.09
+          ],
+          "quote": "I think that we're starting to have conversations about things like Loop make me happier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2547.468,
+            2551.99
+          ],
+          "quote": "Just like that's a loop right there is just have the best model for longer and they can move so much faster.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 754,
+          "t": [
+            3138.536,
+            3141.038
+          ],
+          "quote": "And it's interesting that they connect to this idea of loop.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编程智能体 (coding agent)",
+      "file": "编程智能体",
+      "primary": true,
+      "how_described": "本集说是『与整个世界交互的通用问题解决工具』：人们用 Claude Code 剪视频、用 Codex 在飞机上给孩子做游戏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 743,
+          "t": [
+            3105.422,
+            3108.344
+          ],
+          "quote": "It's like a personal coding agent that can build whatever you want for you.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集反复提及：作为编程智能体活得不错的代表，其团队原则是『什么比我亲自做更好？让 Claude 做』",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            309.075,
+            312.196
+          ],
+          "quote": "And yet Claude Code, Codex, lovable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 679,
+          "t": [
+            2894.777,
+            2897.522
+          ],
+          "quote": "I think a lot about on the Claude Code team, they have a principle.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 721,
+          "t": [
+            3019.618,
+            3028.882
+          ],
+          "quote": "You know, people use Claude Code to edit videos, you know, or Codex to create a game that they play with their kid on an airplane ride.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说 OpenAI 的 go-to-market 团队用 Codex 比工程团队还多，把销售工作蒸馏成他们最擅长的事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            309.075,
+            312.196
+          ],
+          "quote": "And yet Claude Code, Codex, lovable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            939.93,
+            945.134
+          ],
+          "quote": "I just saw a tweet that I think at OpenAI, the go-to-market team now is using Codex more.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 219,
+          "t": [
+            945.354,
+            949.377
+          ],
+          "quote": "More of the go-to-market team is using Codex more often than even the engineering team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 721,
+          "t": [
+            3019.618,
+            3028.882
+          ],
+          "quote": "You know, people use Claude Code to edit videos, you know, or Codex to create a game that they play with their kid on an airplane ride.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 987,
+          "t": [
+            4131.485,
+            4142.748
+          ],
+          "quote": "You know, I mean, for example, when I was playing around with Codex, I had it build a slide deck for Mother's Day for my wife that pulled from my text messages.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-weight",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open weight)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集说开放权重与前沿模型将并存：中等智能职能用经强化学习调优的开放权重模型，且它让成本大幅下降",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            296.49,
+            300.992
+          ],
+          "quote": "You know, you've got labs, you've got open weight, you've got different variations within both.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1286.305,
+            1289.369
+          ],
+          "quote": "You know, one is the question of open weight versus frontier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1380.135,
+            1394.81
+          ],
+          "quote": "And those will often be open weight, sort of biased with reinforcement learning, you know, things that make the models even cheaper, more performant for a narrow job, along with, you know, incredibly, quote unquote, expensive, but performant frontier tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2120.965,
+            2123.506
+          ],
+          "quote": "Like the open weight models mean things are way cheaper.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集说前沿模型定价『不理性』——为概念上一分额外智能要多付 100 倍，但对上行无界的工作值得付费",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 288,
+          "t": [
+            1314.173,
+            1323.157
+          ],
+          "quote": "And what's interesting is that frontier models are actually irrationally priced in that, you know, first of all, Mythos is infinite dollars a token, you can't use it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1420.348,
+            1428.033
+          ],
+          "quote": "Function and model where specific functions that have a lot more upside and in potential leverage go for the frontier models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1528.741,
+            1536.903
+          ],
+          "quote": "And like, I think, I think people, the point people forget is that the models that are not the frontier models, they were like, that was what the frontier was, I don't know, six months ago.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rsi",
+      "type": "concept",
+      "role": "concept",
+      "name": "RSI",
+      "file": "RSI",
+      "primary": true,
+      "how_described": "本集说实验室里真正发生的不是 RSI 那种可能失控的递归自我改进，而是不真正递归的自催化效应",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            334.911,
+            337.613
+          ],
+          "quote": "There's this sort of discussion about RSI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            337.733,
+            341.716
+          ],
+          "quote": "And I know RSI is like recursive self-improvement is a fun term to throw around.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            342.096,
+            351.723
+          ],
+          "quote": "But if you ask the most sophisticated individuals at the labs, it's not actually RSI that's occurring, which could lead to some sort of runaway winner because they were an epsilon ahead of the others.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "permanent-underclass",
+      "type": "concept",
+      "role": "concept",
+      "name": "永久下层阶级 (permanent underclass)",
+      "file": "永久下层阶级",
+      "primary": true,
+      "how_described": "本集开篇主题：Anish 称之为『硅谷集体共有的黑暗幻想』，数据与竞争格局都不支持这种恐慌",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            4.19,
+            9.474
+          ],
+          "quote": "I want to talk about this idea that if you fall behind, you're going to become part of this permanent underclass.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 30,
+          "t": [
+            121.169,
+            131.5
+          ],
+          "quote": "They also discuss why he's skeptical of fears around an AI permanent underclass, where the biggest opportunities in consumer AI may emerge, and why moats are often discovered rather than designed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            199.26,
+            202.366
+          ],
+          "quote": "I want to talk about this meme of the permanent underclass.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 47,
+          "t": [
+            204.298,
+            219.512
+          ],
+          "quote": "It's kind of this joke that people half joke about, this idea that if you kind of fall behind and aren't just like on top of all the latest AI tools, aren't becoming the most productive person ever, you're going to become part of this permanent underclass and fall behind and have a really hard time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            251.979,
+            256.945
+          ],
+          "quote": "And yet there's this sort of discussion of permanent underclass, being outside of the light cone, I've heard it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1933.513,
+            1940.898
+          ],
+          "quote": "The XAI user is like, you know, fearful of being outside of the permanent underclass, is really opinionated on GLM 53 versus Kimi K3.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2312.779,
+            2315.861
+          ],
+          "quote": "And, you know, and yet we're here talking about permanent underclass.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "moat",
+      "type": "concept",
+      "role": "concept",
+      "name": "护城河 (moat)",
+      "file": "护城河",
+      "primary": true,
+      "how_described": "本集主张：护城河大多是被发现的而非被设计的；经典护城河（网络效应、品牌、规模）今天依然有效",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 777,
+          "t": [
+            3205.213,
+            3209.174
+          ],
+          "quote": "I've got to have some really sophisticated, you know, idea of what my moat will be.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 780,
+          "t": [
+            3215.136,
+            3222.358
+          ],
+          "quote": "They were criticized a lot for not having a moat, but it turned out that initially being a high-end PSDAU product was really good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 789,
+          "t": [
+            3252.428,
+            3256.091
+          ],
+          "quote": "Every moat from five years ago generally is still a good moat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 810,
+          "t": [
+            3318.08,
+            3327.506
+          ],
+          "quote": "So on this moat idea, so say you're a founder and you're just like, you know, you're putting a pitch together, trying to pitch you or other VCs, what's the best way to talk about a moat?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 812,
+          "t": [
+            3331.789,
+            3342.936
+          ],
+          "quote": "Yeah, I think that we would happily take a bet on a product that doesn't have a quote unquote moat or durability story if it has, you know, a lot of momentum, a lot of craft, a lot of, you know, sort of growing engagement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 831,
+          "t": [
+            3414.327,
+            3422.992
+          ],
+          "quote": "And so to me, that tells you there's so much opportunity in the actual user experience being a moat or at least giving you a lot of time to find something that is durable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 849,
+          "t": [
+            3452.736,
+            3467.049
+          ],
+          "quote": "I call the distribution this new moat, but it's like, it's always been a moat, but it feels like more and more that is actually a massive advantage because everybody is, there's like a thousand launch videos a day, everyone's launching, launch, launch, launch, and really",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "primary": true,
+      "how_described": "本集说 AI 是一项真正放大我们主观能动性的技术，把技能从欲望中拆分出来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            16.68,
+            19.622
+          ],
+          "quote": "This is a technology that really amplifies our agency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            487.911,
+            491.872
+          ],
+          "quote": "You know, we have this abstraction of consumers that they're sort of these low-agency NBCs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2098.219,
+            2102.425
+          ],
+          "quote": "Like chat makes sense if you're the highest agency person in the world, which is Elon and Sam.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2216.702,
+            2222.443
+          ],
+          "quote": "So I think one of the really magical things is this is a technology that really amplifies our identity, our agency.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "personal-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "个人智能体 (personal agents)",
+      "file": "个人智能体",
+      "primary": true,
+      "how_described": "本集列为三大消费机会之一：GrokBot、Instinct 和 ChatGPT 的 agent 产品是他喜欢的代表",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 591,
+          "t": [
+            2581.276,
+            2583.738
+          ],
+          "quote": "Oh man, I mean, we should talk about the personal agents thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 726,
+          "t": [
+            3045.931,
+            3047.152
+          ],
+          "quote": "Personal agents, we had this",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1066,
+          "t": [
+            4375.636,
+            4377.937
+          ],
+          "quote": "Oh man, I've spent a lot of time with the personal agents.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "companionship-products",
+      "type": "concept",
+      "role": "concept",
+      "name": "陪伴类产品 (companionship products)",
+      "file": "陪伴类产品",
+      "primary": true,
+      "how_described": "本集说这一领域谈论起来不舒服所以被讨论不够，但增长巨大，主力用户其实是四五十岁的女性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 734,
+          "t": [
+            3072.605,
+            3079.107
+          ],
+          "quote": "It's companionship products, all that, that entire area is, you know, uncomfortable to talk about.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "network-effects",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effects)",
+      "file": "网络效应",
+      "primary": false,
+      "how_described": "本集说它是移动时代的黄金标准护城河，导致上个时代剧烈中心化；如今最好的第三方网络效应是草根口碑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            275.841,
+            278.142
+          ],
+          "quote": "If you look at network effects, that's sort of the gold standard.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            278.162,
+            279.763
+          ],
+          "quote": "You worked on a network effects product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3244.843,
+            3251.948
+          ],
+          "quote": "So it's network effects, it's scale advantages, it's brand effects, proprietary sort of data or what was historically called a cornered resource.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pareto-efficiency",
+      "type": "concept",
+      "role": "concept",
+      "name": "帕累托效率 (Pareto efficiency)",
+      "file": "帕累托效率",
+      "primary": false,
+      "how_described": "本集用它切分模型选择：处在性价比最优权衡曲线上才算为性能付了理性的价格",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1289.489,
+            1292.472
+          ],
+          "quote": "So I'm sure, are you familiar with kind of Pareto efficiency?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1294.603,
+            1306.909
+          ],
+          "quote": "Yeah, so Pareto efficiency is just, you know, for price performance, for example, what is the kind of, the efficient frontier is what's considered the optimal trade-off of, you know, a unit of performance for a unit of price.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集提到：谈论 vibe coding 的人多、敢于谈论自己项目的人少，而学习恰恰来自执行和发布",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 688,
+          "t": [
+            2918.638,
+            2923.843
+          ],
+          "quote": "You know, it's funny if you look at the number of people that are talking about vibe coding versus the number of people that are talking about their projects.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":2,"MCP":36,"Indeed":1,"CareerScout":1,"Claude":56,"ChatGPT":59,"结构化内容":1,"update model context":1}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":2,"MCP":37,"Indeed":1,"CareerScout":1,"Claude":56,"ChatGPT":59,"结构化内容":1,"update model context":1}</script>
 
 <script>
 (function(){

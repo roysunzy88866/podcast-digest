@@ -25,7 +25,7 @@ unlisted: true
 
 [[Madhavan Ramanujam]] · [[Lenny]] · [[Intercom]] · [[Cursor]] · [[Superhuman]] · [[Sierra]] · [[Delphi]] · [[Slack]] · [[Canva]] · [[GitHub]]
 
-<script type="application/json" class="pd-epn">{"Madhavan Ramanujam":1,"Lenny":67,"Intercom":6,"Cursor":56,"Superhuman":4,"Sierra":5,"Delphi":3,"Slack":25,"Canva":4,"GitHub":22}</script>
+<script type="application/json" class="pd-epn">{"Madhavan Ramanujam":1,"Lenny":67,"Intercom":6,"Cursor":58,"Superhuman":4,"Sierra":5,"Delphi":3,"Slack":25,"Canva":4,"GitHub":22}</script>
 
 <script>
 (function(){

@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[Cursor]] · [[11 Labs]] · [[GrokBot]] · [[护城河]] · [[开放权重模型]] · [[Justine Moore]]
 
-<script type="application/json" class="pd-epn">{"智能体":224,"OpenAI":104,"Anthropic":117,"Google":39,"Cursor":56,"11 Labs":4,"GrokBot":4,"护城河":9,"开放权重模型":9,"Justine Moore":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":226,"OpenAI":105,"Anthropic":118,"Google":40,"Cursor":58,"11 Labs":4,"GrokBot":4,"护城河":10,"开放权重模型":9,"Justine Moore":1}</script>
 
 <script>
 (function(){

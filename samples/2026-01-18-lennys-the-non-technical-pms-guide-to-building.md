@@ -136,9 +136,9 @@ Zevi 的这套观察建立在他一个非常有趣的认知上：他把不同的
 
 **换个口味**
 
+- [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Cursor、Anthropic · 同概念:Claude Code、Codex、智能体 (agent)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Cursor、Anthropic、Meta · 同概念:Codex、智能体 (agent)</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Cursor、Linear、Anthropic · 同概念:智能体 (agent)</span>
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同概念:Claude Code、Codex、智能体 (agent)</span>
 
 </div>
 </div>
