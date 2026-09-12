@@ -2,7 +2,7 @@
 // 守:RSS 解析 / 过滤 ainews+无音频 / 派 id 按源(C8 去 latent-space 硬编码)/ cutoff 去重「只向前看」(drift #22)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
-import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, dedupeNewPicks, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, backfillFloorISO, BACKFILL_MAX_AGE_DAYS, parseMaxAgeDays, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, neverFitsBudget, JOB_SETUP_MIN, TRANSIENT_CAP, noteTransientFail, clearTransient, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS, talkItemFromSeed } from "../scripts/run-pipeline.mjs";
+import { parseFeed, isInterview, deriveId, selectNew, selectBackfill, selectBackfillRecent, selectBackfillGlobal, dedupeCandidatesByTitle, dedupeNewPicks, backfillCandidates, backfillStockWarning, countsTowardDailyTarget, episodeDate, backfillFloorISO, BACKFILL_MAX_AGE_DAYS, parseMaxAgeDays, hasTimeBudget, timeBudgetVerdict, estimateEpisodeMin, neverFitsBudget, JOB_SETUP_MIN, TRANSIENT_CAP, noteTransientFail, clearTransient, JOB_BUDGET_MIN, TRANSCRIBE_RATIO, POST_CHAIN_MIN, UNKNOWN_DURATION_MIN, bjDay, BACKFILL_SINCE, DAILY_TARGET, SOURCES, needsReseed, appendSkip, advanceCutoffGuarded, cacheBustFeedUrl, BACKFILL_FEED_KEYS, talkItemFromSeed, fetchFeed, FEED_FETCH_RETRY } from "../scripts/run-pipeline.mjs";
 
 // 镜像 Substack 播客 feed 形状:CDATA 标题、enclosure 音频、ainews 每日快讯混入。
 // (URL 用 /p/slug 是 Substack 通例;Lenny's / Latent 同构)
@@ -1111,5 +1111,35 @@ describe("drift #83 · neverFitsBudget 扣开班固定开销", () => {
     expect(neverFitsBudget(LIMIT + 1)).toBe(true);
     expect(neverFitsBudget(LIMIT)).toBe(false);          // 恰好卡在上限:空班放得下
     expect(neverFitsBudget(120)).toBe(false);
+  });
+});
+
+describe("drift #102 · 云端取 feed 扛住 runner 网络抖动(09-12 早班 grit 一次 fetch failed 整班跳过)", () => {
+  const noSleep = () => Promise.resolve();
+  it("★★★ 连接层失败重试,中途成功即返回正文", async () => {
+    let n = 0;
+    const fetchImpl = async () => { if (++n < 2) throw new Error("fetch failed"); return { ok: true, status: 200, text: async () => "<rss/>" }; };
+    expect(await fetchFeed("https://x/feed", { fetchImpl, sleep: noSleep })).toBe("<rss/>");
+    expect(n).toBe(2);
+  });
+  it("★★★ 连败到上限 → 抛错并点明连败次数,不静默当成「无新集」", async () => {
+    let n = 0;
+    const fetchImpl = async () => { n++; throw new Error("fetch failed"); };
+    await expect(fetchFeed("https://x/feed", { fetchImpl, sleep: noSleep })).rejects.toThrow(/连败/);
+    expect(n).toBe(FEED_FETCH_RETRY + 1);
+    const err: any = await fetchFeed("https://x/feed", { fetchImpl, sleep: noSleep }).catch((e) => e);
+    expect(err.cause?.message).toBe("fetch failed"); // 原始错误随 cause 保留,排障能看到首错栈(GLM 012[2])
+  });
+  it("★★★ HTTP 状态码不重试(404/403 = 源配错或被封,重试只是拖慢整班)", async () => {
+    let n = 0;
+    const fetchImpl = async () => { n++; return { ok: false, status: 403, text: async () => "" }; };
+    await expect(fetchFeed("https://x/feed", { fetchImpl, sleep: noSleep })).rejects.toThrow(/HTTP 403/);
+    expect(n).toBe(1);
+  });
+  it("★★ 每次重试换 cache-buster 暗号(别撞同一份 CDN 缓存)", async () => {
+    const urls: string[] = [];
+    const fetchImpl = async (u: string) => { urls.push(u); throw new Error("fetch failed"); };
+    await fetchFeed("https://x/feed", { fetchImpl, sleep: noSleep }).catch(() => {});
+    expect(new Set(urls).size).toBe(urls.length);
   });
 });

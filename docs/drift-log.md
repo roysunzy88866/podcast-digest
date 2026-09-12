@@ -411,3 +411,11 @@
 - **残留(未修,已另开任务)**:①括号英文本身是泛词时仍误拉:「Flash Attention 之前的注意力 (attention)」0→4、「GPU 容量 (capacity)」1→8、「AI 基础设施 (infrastructure)」268→13,拉进 pay attention / management capacity 这类句 —— 属 GLM 给的英文原名太泛(数据问题),可用别名表 forms 钉住;②纯英文常用词公司名「Work」119 /「Make」110 /「Every」99 条,早就这样、与本次无关。
 - **验证**:vitest 1387 全绿(新增 4 条;撤掉修复时其中 2 条挂 = 测试真能抓);本地 `build-entities` + `build-pages` + `gate-entities` 全过;本地重建后完整 `gate-all` 只剩音频层 662 条(gitignore 的云端产物,同 #102),非音频红项 0。本地重建的 samples 已还原不提交。GLM 20260911-026 裁 **noise**(3 条低危:无括号英文→零形式是本修目标;假名/谚文/扩展B 全库 0 条不可达)。
 - **提交受控绕过 gate-all(--no-verify,同 #102 口径)**:只提交代码 + 测试 + 文档,仓库里旧 samples 与新召回口径对不上,等云端下一班全量重渲染。**验收**:下一班后线上除「AI」页外不再有 268 条金句的页。
+
+## drift #102(2026-09-12 早班实证):云端取 feed 无重试 → 一次抖动整源跳过 + 编排器假红;6 条待裁孪生种子收口
+- **现象**:早班 34660027991 编排器 failure。拆开看三件:①`源 grit 本轮失败:fetch failed`(上一班同源正常,一次性网络抖动);②事实层拦 1 集(正常质量关);③`::error::⛔ 待裁(疑似重复)` ×6。死链 0、部署 success —— 所以红灯是**噪音**,但会掩盖真问题。
+- **①修**:`fetchFeed` 原来单次 fetch;改为与 patrol `fetchText`(drift #96)同口径的重试:只重试连接错、HTTP 状态不重试、每次换 cache-buster 暗号、连败响亮抛。+4 测试。
+- **③收口**:6 条种子逐条核实 = YC 播客 RSS / Training Data RSS **已发布集的 YouTube 同一场**(标题前 40 字完全一致)。这是加 YC/Sequoia 频道时预见的孪生(drift #94/#95:「长片与播客重复,交跨源判重」),判重正确把它们拦成待裁。按 ADR 0017「去留归人:人工删种子」删掉(仅 seed.json)。
+- **小 todo(未做)**:待裁孪生目前只能靠删文件收口,且每班重复 `::error` 报;值得给 `ledger-overrides` 加一类「videoId → 库内集 id」的孪生确认,让 selectTalks 第 1 层直接判 done。等再积几条再做,别为 6 条造机制。
+- **教训**:同一品牌的 YouTube 频道与播客 RSS 大量重合(YC 6 条里 4 条是孪生)—— 订 YouTube 频道的**净增量**要按去重后算,drift #101 的产能账已是净值,但下次评估频道时先量重合率。
+

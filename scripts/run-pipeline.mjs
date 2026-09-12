@@ -805,16 +805,31 @@ export function cacheBustFeedUrl(feedUrl, nonce) {
   return u.toString();
 }
 
-async function fetchFeed(feedUrl) {
+// drift #102(2026-09-12 实证):云端取 feed 原来一次不重试 —— 09-12 早班 grit 一次「fetch failed」就让该源整班跳过,
+// 且编排器步骤被标 failure(其余源正常、部署也成功,纯噪音)。与 patrol 的 fetchText(drift #96)同口径:
+// **只重试抛出来的连接错**(runner 网络抖动),HTTP 状态码不重试(404/403 是源配错或被封,重试无意义)。
+export const FEED_FETCH_RETRY = 2;
+export const FEED_FETCH_BACKOFF_MS = 3000;
+export async function fetchFeed(feedUrl, { retries = FEED_FETCH_RETRY, fetchImpl = fetch, sleep = (ms) => new Promise((r) => setTimeout(r, ms)), backoffMs = FEED_FETCH_BACKOFF_MS } = {}) {
   // cache-buster + no-cache:逼 CDN 每轮回源取最新 feed。注:Substack feed 对 US runner 有轻微地理陈旧
   // (只差最新几篇「文字帖」,不漏带音频的播客集,故容忍;曾误当断更查了一圈,来龙去脉见 drift #56)。
-  const url = cacheBustFeedUrl(feedUrl, Date.now());
-  const res = await fetch(url, {
-    redirect: "follow",
-    headers: { ...BROWSER_HEADERS, "Cache-Control": "no-cache", Pragma: "no-cache" },
-  });
-  if (!res.ok) throw new Error(`取 RSS 失败 HTTP ${res.status}: ${feedUrl}`);
-  return await res.text();
+  let last;
+  for (let i = 0; i <= retries; i++) {
+    try {
+      const url = cacheBustFeedUrl(feedUrl, Date.now() + i); // 每次重试换暗号,别撞同一份 CDN 缓存
+      const res = await fetchImpl(url, {
+        redirect: "follow",
+        headers: { ...BROWSER_HEADERS, "Cache-Control": "no-cache", Pragma: "no-cache" },
+      });
+      if (!res.ok) throw Object.assign(new Error(`取 RSS 失败 HTTP ${res.status}: ${feedUrl}`), { noRetry: true });
+      return await res.text();
+    } catch (e) {
+      if (e?.noRetry) throw e; // HTTP 状态码:不重试
+      last = e;
+      if (i < retries) await sleep(backoffMs * (i + 1)); // 递增退避 3s / 6s
+    }
+  }
+  throw new Error(`取 RSS 连败 ${retries + 1} 次(网络抖动?):${feedUrl} —— ${last?.message ?? ""}`, { cause: last }); // 保留首错栈(GLM 012[2])
 }
 
 /** 补历史:读本机备好的全历史列表(vendored,drift #28)→ items[](同 parseFeed 结构)。 */
