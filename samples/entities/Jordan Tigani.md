@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MotherDuck":1,"DuckDB":1,"DuckDB Labs":1,"BigQuery":1,"Snowflake":7,"open core":1,"数据仓库":3,"智能体":226,"仪表盘":1}</script>
+<script type="application/json" class="pd-epn">{"MotherDuck":1,"DuckDB":1,"DuckDB Labs":1,"BigQuery":1,"Snowflake":7,"open core":1,"数据仓库":3,"智能体":229,"仪表盘":1}</script>
 
 <script>
 (function(){

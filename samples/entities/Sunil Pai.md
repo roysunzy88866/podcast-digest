@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Thomas Ankcorn":1,"Matt Carey":1,"Cloudflare":9,"code mode":2,"MCP":37,"智能体":226,"沙箱":41,"可观测性":19,"pie":1,"Cloudflare Worker":2}</script>
+<script type="application/json" class="pd-epn">{"Thomas Ankcorn":1,"Matt Carey":1,"Cloudflare":9,"code mode":2,"MCP":38,"智能体":229,"沙箱":41,"可观测性":19,"pie":1,"Cloudflare Worker":2}</script>
 
 <script>
 (function(){

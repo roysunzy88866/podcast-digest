@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]]
+[[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Kevin DeFarco]] [[Roshan]] [[Noah]] [[Tyler Bryson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":56,"Herder":1,"循环":8,"智能体":226,"技能":14,"闸门":1,"原型":4,"钩子":1,"构建者":3}</script>
+<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":56,"Herder":1,"循环":8,"智能体":229,"技能":14,"闸门":1,"原型":4,"钩子":1,"构建者":3}</script>
 
 <script>
 (function(){

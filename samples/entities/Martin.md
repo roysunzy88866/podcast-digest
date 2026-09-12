@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]]
+[[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Santi Garza":1,"Cursor":58,"智能体":226,"token":19,"harness":30,"上下文窗口":4,"提示词":11,"缓存":1,"压缩":2,"模型选择":1}</script>
+<script type="application/json" class="pd-epn">{"Santi Garza":1,"Cursor":58,"智能体":229,"token":19,"harness":30,"上下文窗口":4,"提示词":11,"缓存":1,"压缩":2,"模型选择":1}</script>
 
 <script>
 (function(){

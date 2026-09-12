@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Benedict Evans":2,"OpenAI":105,"Anthropic":118,"LLM":31,"基础模型":5,"AI 编程":4,"算力扩展":1,"网络效应":9,"AGI":20,"企业软件":3}</script>
+<script type="application/json" class="pd-epn">{"Benedict Evans":2,"OpenAI":105,"Anthropic":118,"LLM":31,"基础模型":5,"AI 编程":4,"算力扩展":1,"网络效应":10,"AGI":20,"企业软件":3}</script>
 
 <script>
 (function(){

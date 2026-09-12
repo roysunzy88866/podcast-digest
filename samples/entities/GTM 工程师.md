@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jeanne DeWitt Grosser]] · [[Lenny]] · [[Vercel]] · [[Stripe]] · [[Gong]] · [[OpenAI]] · [[go-to-market]] · [[智能体]] · [[市场细分]] · [[PLG]]
 
-<script type="application/json" class="pd-epn">{"Jeanne DeWitt Grosser":1,"Lenny":67,"Vercel":13,"Stripe":29,"Gong":1,"OpenAI":105,"go-to-market":8,"智能体":226,"市场细分":1,"PLG":8}</script>
+<script type="application/json" class="pd-epn">{"Jeanne DeWitt Grosser":1,"Lenny":67,"Vercel":13,"Stripe":29,"Gong":1,"OpenAI":105,"go-to-market":8,"智能体":229,"市场细分":1,"PLG":8}</script>
 
 <script>
 (function(){

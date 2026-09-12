@@ -27,7 +27,7 @@ unlisted: true
 
 [[Ivan Burazin]] · [[Vincent Wendy]] · [[Daytona]] · [[AI Engineer]] · [[Cognition]] · [[Figma]] · [[Neon]] · [[GPT]] · [[Parallel]] · [[设计系统]]
 
-<script type="application/json" class="pd-epn">{"Ivan Burazin":1,"Vincent Wendy":1,"Daytona":3,"AI Engineer":1,"Cognition":16,"Figma":17,"Neon":2,"GPT":3,"Parallel":5,"设计系统":6}</script>
+<script type="application/json" class="pd-epn">{"Ivan Burazin":1,"Vincent Wendy":1,"Daytona":3,"AI Engineer":1,"Cognition":17,"Figma":17,"Neon":2,"GPT":3,"Parallel":5,"设计系统":6}</script>
 
 <script>
 (function(){

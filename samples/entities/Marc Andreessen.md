@@ -80,11 +80,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Robert Hackett":1,"AI":16,"清晰法案":1,"生产力增长":1,"稳定币":4,"一对一辅导":1,"加密货币":2,"超级赋能个体":1,"区块链":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Robert Hackett":1,"AI":17,"清晰法案":1,"生产力增长":1,"稳定币":4,"一对一辅导":1,"加密货币":2,"超级赋能个体":1,"区块链":2}</script>
 
 <script>
 (function(){

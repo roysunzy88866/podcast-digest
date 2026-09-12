@@ -1,0 +1,710 @@
+{
+  "episode_id": "2026-09-01-mos-when-ai-agents-do-your-shopping-everythi",
+  "podcast": "Masters of Scale",
+  "date": "2026-09-01",
+  "tags": [
+    "智能体商务",
+    "AI 转型",
+    "电商",
+    "组织与领导力",
+    "公司战略"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "bob-safian",
+      "type": "person",
+      "role": "host",
+      "name": "Bob Safian",
+      "file": "Bob Safian",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            103.254,
+            106.718
+          ],
+          "quote": "I'm Bob Safian and this is Rapid Response.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 16,
+          "t": [
+            109.642,
+            110.603
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1875.165,
+            1876.226
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1967.501,
+            1968.601
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "jess-hertz",
+      "type": "person",
+      "role": "guest",
+      "name": "Jess Hertz",
+      "file": "Jess Hertz",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            49.973,
+            54.516
+          ],
+          "quote": "That's Jess Hertz, COO of online shopping platform Shopify.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 17,
+          "t": [
+            110.683,
+            113.667
+          ],
+          "quote": "I'm here with Jess Hertz, COO of Shopify.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1293.688,
+            1301.812
+          ],
+          "quote": "Before the break, Shopify COO Jess Hertz shared how the company is reacting to chaotic change from trade tensions to AI pressures.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": true,
+      "how_described": "本集主角：总部位于渥太华的加拿大电商公司，支撑美国超过 14% 的电商市场，自称「统一的商务运营系统」，COO Jess Hertz 谈其应对贸易战与 AI 冲击之道",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            49.973,
+            54.516
+          ],
+          "quote": "That's Jess Hertz, COO of online shopping platform Shopify.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 9,
+          "t": [
+            54.917,
+            67.706
+          ],
+          "quote": "As trade war erupts between the US and Canada, I wanted to talk to Jess because Shopify is a Canada-based company with most of its customers in the US, creating a potentially tense dynamic.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 12,
+          "t": [
+            84.659,
+            95.548
+          ],
+          "quote": "Even addressing Shopify CEO Toby Lukey's controversial memo last year, dictating the teams prove AI can't do a job before hiring any new staff.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 17,
+          "t": [
+            110.683,
+            113.667
+          ],
+          "quote": "I'm here with Jess Hertz, COO of Shopify.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 22,
+          "t": [
+            121.921,
+            126.742
+          ],
+          "quote": "So Shopify is a Canadian company headquartered in Ottawa.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 39,
+          "t": [
+            199.029,
+            208.098
+          ],
+          "quote": "You don't necessarily talk about Shopify as being a Canadian brand because it's a global business, but do you have conversations about that?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 68,
+          "t": [
+            350.402,
+            359.706
+          ],
+          "quote": "So when you became COO at Shopify last October, your first internal message to the staff said the company had drifted from its core.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 76,
+          "t": [
+            394.365,
+            401.127
+          ],
+          "quote": "It's not actually aligned with the merchant outcome and our business model of Shopify, which is we only succeed when our merchants succeed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            428.756,
+            436.921
+          ],
+          "quote": "We chatted just a bit before we started recording about Shopify CEO, Toby Lutke, who's called himself a chaos engine.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 111,
+          "t": [
+            584.998,
+            590.162
+          ],
+          "quote": "Shopify just posted its, I think, fifth consecutive quarter of growth above 30%.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 121,
+          "t": [
+            655.711,
+            663.674
+          ],
+          "quote": "And for our listeners who may not be as Shopify-versed, Sidekick is our AI-powered commerce agent that lives within Shopify.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            724.433,
+            733.84
+          ],
+          "quote": "What I would say is I think we're past that, you know, Sasspocalypse moment where I think Shopify has certainly kind of come out the other end of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            734.481,
+            740.866
+          ],
+          "quote": "And the way that I really think about that is complexity is both the challenge and the moat for Shopify.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 134,
+          "t": [
+            741.567,
+            746.731
+          ],
+          "quote": "As you mentioned, we're building all of these products, but really when you think about it, a complex world helps Shopify.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            761.399,
+            769.342
+          ],
+          "quote": "And with buyers across, you know, different channels, it helps Shopify actually do better because that complexity is hard.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 146,
+          "t": [
+            807.991,
+            813.253
+          ],
+          "quote": "And because Shopify is that reliable infrastructure, that's why we're such a valuable player.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 149,
+          "t": [
+            828.103,
+            837.607
+          ],
+          "quote": "They'll be relying on Shopify to help them manage that, which is good for you, but might also make them feel a little bit more beholden, a little bit more trapped?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 151,
+          "t": [
+            840.648,
+            854.953
+          ],
+          "quote": "I think the nice part about Shopify, even if you look at things like the Universal Commerce Protocol, which is the open commerce standard that we developed with Google, which is really the kind of transaction layer of commerce, the merchant continues to be the merchant of record.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 165,
+          "t": [
+            911.614,
+            915.035
+          ],
+          "quote": "Headcount for Shopify has been flat for more than eight quarters.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            976.02,
+            979.683
+          ],
+          "quote": "When I joined Shopify, we had this idea of the T-shaped person, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1293.688,
+            1301.812
+          ],
+          "quote": "Before the break, Shopify COO Jess Hertz shared how the company is reacting to chaotic change from trade tensions to AI pressures.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1302.432,
+            1315.658
+          ],
+          "quote": "Now she shares signals she's gleaning from within the Shopify ecosystem, how the company avoids having its fastest growing merchants outgrow the platform, and why the culture at Shopify is overtly unsentimental.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1322.858,
+            1330.003
+          ],
+          "quote": "Shopify powers like one seventh of all U.S. commerce and your merchants are mostly smaller businesses.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1342.632,
+            1349.717
+          ],
+          "quote": "Are there things you at Shopify try to do to help small businesses that are under pressure?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1562.823,
+            1566.107
+          ],
+          "quote": "They're gonna grow beyond what Shopify can do for them.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1566.738,
+            1568.339
+          ],
+          "quote": "They are a Shopify merchant, actually.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1572.021,
+            1574.362
+          ],
+          "quote": "We actually don't think that they're going to outgrow Shopify.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1584.606,
+            1602.439
+          ],
+          "quote": "And I think part of the ability of Shopify to say, you know, we build one unified data model, we make it extensible, it's how a large brand can run, you know, a thousand different campus stores, 1200 storefronts, you know, 6 million SKUs on one stack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1643.698,
+            1649.4
+          ],
+          "quote": "And one of the things I loved most about Shopify when I came in was this phrase, keep your identity lightweight.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1778.849,
+            1782.432
+          ],
+          "quote": "So what's at stake for Shopify right now?",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "river",
+      "type": "concept",
+      "role": "concept",
+      "name": "River",
+      "file": "River",
+      "primary": true,
+      "how_described": "本集说它是活在公司 Slack 里的内部智能体工具：在公开频道读代码、跑测试，存在于约 10000 个频道，90% 员工用过，五个月运行 27.5 万个会话，靠降低信息传递的交易成本提升公司速度，且有网络效应",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            501.738,
+            504.822
+          ],
+          "quote": "And we have this amazing tool called River.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            505.803,
+            510.108
+          ],
+          "quote": "And River is basically an agent that lives within our Slack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 103,
+          "t": [
+            546.47,
+            551.373
+          ],
+          "quote": "And so this concept of River, you know, River can read everything in public channels at all times.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            564.059,
+            566.76
+          ],
+          "quote": "Because River gets better with every interaction.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体（agentic shopping / agentic commerce）说成电商的新上行引擎：智能体奖励精准和个性化而非流行度，75% 归因 AI 的订单来自前 100 类目之外，Catalog 目录数据让智能体渠道转化率达抓取数据的 2 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            505.803,
+            510.108
+          ],
+          "quote": "And River is basically an agent that lives within our Slack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 121,
+          "t": [
+            655.711,
+            663.674
+          ],
+          "quote": "And for our listeners who may not be as Shopify-versed, Sidekick is our AI-powered commerce agent that lives within Shopify.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            685.423,
+            697.729
+          ],
+          "quote": "And so when someone comes from an agentic channel, the conversion rate that when an agent is using our catalog data is 2x compared to if it's just using scraped data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            817.534,
+            827.138
+          ],
+          "quote": "And for these merchants who are like looking at agentic shopping and this future of having an AI agent between them and a customer,",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "sidekick",
+      "type": "concept",
+      "role": "concept",
+      "name": "Sidekick",
+      "file": "Sidekick",
+      "primary": true,
+      "how_described": "本集说它是 Shopify 内置的 AI 驱动商务智能体，帮助商家卖出更多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            645.048,
+            654.951
+          ],
+          "quote": "And we do have early signs that Sidekick is helping merchants sell more, and merchants who are a part of Catalog are really starting to make more money.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 121,
+          "t": [
+            655.711,
+            663.674
+          ],
+          "quote": "And for our listeners who may not be as Shopify-versed, Sidekick is our AI-powered commerce agent that lives within Shopify.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            664.514,
+            668.775
+          ],
+          "quote": "And what we're really seeing is that merchants are bringing Sidekick more and more into their business.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "catalog",
+      "type": "concept",
+      "role": "concept",
+      "name": "Catalog",
+      "file": "Catalog",
+      "primary": true,
+      "how_described": "本集说它是 Shopify 面向智能体的产品层，让产品可被 AI 理解、发现、购买；智能体使用其目录数据时转化率是仅用抓取数据的 2 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            645.048,
+            654.951
+          ],
+          "quote": "And we do have early signs that Sidekick is helping merchants sell more, and merchants who are a part of Catalog are really starting to make more money.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 123,
+          "t": [
+            669.596,
+            674.397
+          ],
+          "quote": "And really on the Catalog piece, that's our product layer for Agentic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            685.423,
+            697.729
+          ],
+          "quote": "And so when someone comes from an agentic channel, the conversion rate that when an agent is using our catalog data is 2x compared to if it's just using scraped data.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "universal-commerce-protocol",
+      "type": "concept",
+      "role": "concept",
+      "name": "Universal Commerce Protocol",
+      "file": "Universal Commerce Protocol",
+      "primary": true,
+      "how_described": "本集说它是 Shopify 与 Google 共同开发的开放商业标准、商业的交易层，保证商户始终是记录商户（merchant of record），不存在绕开商家的问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            840.648,
+            854.953
+          ],
+          "quote": "I think the nice part about Shopify, even if you look at things like the Universal Commerce Protocol, which is the open commerce standard that we developed with Google, which is really the kind of transaction layer of commerce, the merchant continues to be the merchant of record.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "x-shaped-people",
+      "type": "concept",
+      "role": "concept",
+      "name": "X 型人 (X-shaped people)",
+      "file": "X 型人",
+      "primary": true,
+      "how_described": "本集由 Jess 提出的理论：AI 正把理想员工从 T 型人推向 X 型人——多重专业高峰，能更快吸收复杂性、学新领域，「愿意的话当一个 7 分设计师」，而团队拼合（像俄罗斯方块）才是加速剂",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 181,
+          "t": [
+            991.071,
+            998.517
+          ],
+          "quote": "But what I think we're starting to see is AI is really pushing towards what I'm calling X-shaped people, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "t-shaped-person",
+      "type": "concept",
+      "role": "concept",
+      "name": "T 型人 (T-shaped person)",
+      "file": "T 型人",
+      "primary": true,
+      "how_described": "本集说这是 Shopify 原有的员工理念：广度加一根深入的专业纵向（如法律或监管手艺），X 型人是它被 AI 推动的演化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            961.797,
+            969.745
+          ],
+          "quote": "I heard you say that the ideal employee has evolved from being a T-shaped person to an X-shaped person.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 178,
+          "t": [
+            976.02,
+            979.683
+          ],
+          "quote": "When I joined Shopify, we had this idea of the T-shaped person, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tariffs",
+      "type": "concept",
+      "role": "concept",
+      "name": "关税 (tariffs)",
+      "file": "关税",
+      "primary": true,
+      "how_described": "本集把关税说成中小商家的宏观变数：第一波关税出台时 Shopify 团队一个周末赶出关税和税费计算器，Jess 认为这是商家的「闪耀时刻」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            162.118,
+            164.92
+          ],
+          "quote": "But the tariffs are the big elephant in the room.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 36,
+          "t": [
+            165.72,
+            178.951
+          ],
+          "quote": "And, you know, I think we've operated through lots of moments of uncertainty, even when the first kind of tariffs came into place where we had a team spending the weekend building a duties and taxes calculator.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            208.258,
+            212.202
+          ],
+          "quote": "If it were a tariffs between any countries, you would be reacting the same way?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 41,
+          "t": [
+            212.322,
+            215.706
+          ],
+          "quote": "Tariffs between any countries, we would be reacting the same way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1331.164,
+            1337.989
+          ],
+          "quote": "As you mentioned, those are the kinds of businesses that can be vulnerable to things like tariffs and trade wars and oil price spikes and things like that.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "network-effects",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effects)",
+      "file": "网络效应",
+      "primary": false,
+      "how_described": "本集说 River 每次交互都会变好，因此具有网络效应",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            560.537,
+            563.999
+          ],
+          "quote": "And, you know, the other piece of that is really also the network effects, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

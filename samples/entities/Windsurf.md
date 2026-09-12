@@ -31,7 +31,7 @@ unlisted: true
 
 [[ChatGPT]] · [[智能体]] · [[OpenAI]] · [[Copilot]] · [[Cursor]] · [[Lenny]] · [[Parallel]] · [[Ben]] · [[Sarah Wang]] · [[Peter Deng]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":59,"智能体":226,"OpenAI":105,"Copilot":8,"Cursor":58,"Lenny":67,"Parallel":5,"Ben":1,"Sarah Wang":2,"Peter Deng":1}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":59,"智能体":229,"OpenAI":105,"Copilot":8,"Cursor":58,"Lenny":67,"Parallel":5,"Ben":1,"Sarah Wang":2,"Peter Deng":1}</script>
 
 <script>
 (function(){

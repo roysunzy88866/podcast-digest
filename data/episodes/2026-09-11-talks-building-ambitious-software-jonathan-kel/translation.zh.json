@@ -1,0 +1,1370 @@
+[
+ {
+  "seg": 0,
+  "start": 12.721,
+  "end": 13.102,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "你好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.084,
+  "end": 20.096,
+  "speaker": "Unknown",
+  "en": "My name is Jonathan Kelly, and today we're going to talk about what it means to build ambitious software in the age of AI.",
+  "zh": "我叫 Jonathan Kelly，今天我们要聊聊在 AI 时代构建有雄心的软件意味着什么。"
+ },
+ {
+  "seg": 2,
+  "start": 22.588,
+  "end": 26.889,
+  "speaker": "Unknown",
+  "en": "Five years ago, I made the first commit ever to a project called Dioxys.",
+  "zh": "五年前，我对一个叫 Dioxys 的项目做了第一次提交。"
+ },
+ {
+  "seg": 3,
+  "start": 27.769,
+  "end": 44.372,
+  "speaker": "Unknown",
+  "en": "I used the last summer I had as an undergraduate, and instead of getting an internship at Google or doing research in AI, like many of my friends at the time, I spent it exploring an idea I had for a cross-platform app framework written in the Rust programming language.",
+  "zh": "我用掉了本科阶段的最后一个暑假，没有像当时许多朋友那样去 Google 实习或做 AI 研究，而是花时间探索了我的一个想法：用 Rust 编程语言写一个跨平台应用框架。"
+ },
+ {
+  "seg": 4,
+  "start": 44.472,
+  "end": 46.773,
+  "speaker": "Unknown",
+  "en": "In 2021, Rust was still pretty niche.",
+  "zh": "在 2021 年，Rust 还相当小众。"
+ },
+ {
+  "seg": 5,
+  "start": 48.01,
+  "end": 56.552,
+  "speaker": "Unknown",
+  "en": "But the ecosystem was growing, the tooling was improving, and the pitch of native performance, a solid type system, and simple cross-compilation really sold me.",
+  "zh": "但生态系统在成长，工具链在改善，而原生性能、健全的类型系统和简单的交叉编译这些卖点深深打动了我。"
+ },
+ {
+  "seg": 6,
+  "start": 57.032,
+  "end": 58.033,
+  "speaker": "Unknown",
+  "en": "It's extremely nerdy.",
+  "zh": "这非常极客。"
+ },
+ {
+  "seg": 7,
+  "start": 60.273,
+  "end": 62.394,
+  "speaker": "Unknown",
+  "en": "The idea for Dioxys was straightforward.",
+  "zh": "Dioxys 的想法很简单。"
+ },
+ {
+  "seg": 8,
+  "start": 63.194,
+  "end": 66.215,
+  "speaker": "Unknown",
+  "en": "What if we had an actually good cross-platform app framework?",
+  "zh": "如果我们有一个真正优秀的跨平台应用框架会怎样？"
+ },
+ {
+  "seg": 9,
+  "start": 67.166,
+  "end": 78.238,
+  "speaker": "Unknown",
+  "en": "Instead of wading through dozens of tool chains, programming languages, and IDEs, what if we simply rotor all of our apps in Rust using HTML and CSS as the markup language?",
+  "zh": "不用在几十种工具链、编程语言和 IDE 之间跋涉，如果我们简单地用 Rust 重写所有应用，并用 HTML 和 CSS 作为标记语言会怎样？"
+ },
+ {
+  "seg": 10,
+  "start": 79.399,
+  "end": 86.948,
+  "speaker": "Unknown",
+  "en": "This was back in the day, 2021, where React Native was janky, Flutter was too slow, and neither performed well with native APIs.",
+  "zh": "那是 2021 年，React Native 还很蹩脚，Flutter 太慢，而且两者在与原生 API 配合时表现都不好。"
+ },
+ {
+  "seg": 11,
+  "start": 88.01,
+  "end": 95.432,
+  "speaker": "Unknown",
+  "en": "On the flip, with Rust, we could build native apps directly with no VM, no IPC, no JavaScript.",
+  "zh": "反过来，用 Rust，我们可以直接构建原生应用，没有虚拟机，没有 IPC，没有 JavaScript。"
+ },
+ {
+  "seg": 12,
+  "start": 96.172,
+  "end": 106.255,
+  "speaker": "Unknown",
+  "en": "And if we used a little bit of HTML and CSS for the UI and take some inspiration from React for the reactivity, we could reuse vast amounts of web components and web tooling.",
+  "zh": "如果我们用一点 HTML 和 CSS 做界面，并从 React 借鉴一些响应式设计的灵感，我们就可以复用大量的 Web 组件和 Web 工具。"
+ },
+ {
+  "seg": 13,
+  "start": 107.196,
+  "end": 111.537,
+  "speaker": "Unknown",
+  "en": "The goal was an extremely powerful app framework that was still quite familiar to the average developer.",
+  "zh": "目标是一个极其强大的应用框架，同时对普通开发者来说又相当熟悉。"
+ },
+ {
+  "seg": 14,
+  "start": 113.658,
+  "end": 114.398,
+  "speaker": "Unknown",
+  "en": "Sounds easy, right?",
+  "zh": "听起来很容易，对吧？"
+ },
+ {
+  "seg": 15,
+  "start": 115.428,
+  "end": 121.935,
+  "speaker": "Unknown",
+  "en": "Well, as they say, we choose to build an app framework from scratch, not because it's easy, but because we thought it would be easy.",
+  "zh": "嗯，正如人们所说，我们选择从零构建一个应用框架，不是因为它容易，而是因为我们以为它会容易。"
+ },
+ {
+  "seg": 16,
+  "start": 123.416,
+  "end": 126.74,
+  "speaker": "Unknown",
+  "en": "In reality, trying to challenge React Native in Flutter is extremely ambitious.",
+  "zh": "实际上，挑战 React Native 和 Flutter 是极其有雄心的。"
+ },
+ {
+  "seg": 17,
+  "start": 127.761,
+  "end": 131.985,
+  "speaker": "Unknown",
+  "en": "In 2021, there were very few off-the-shelf components you could use to build Dioxys.",
+  "zh": "在 2021 年，几乎没有现成的组件可以用来构建 Dioxys。"
+ },
+ {
+  "seg": 18,
+  "start": 132.897,
+  "end": 139.88,
+  "speaker": "Unknown",
+  "en": "Everything from reactivity to font rendering to hot reloading and application bundling had to be built from scratch.",
+  "zh": "从响应式到字体渲染再到热重载和应用打包，一切都必须从零构建。"
+ },
+ {
+  "seg": 19,
+  "start": 140.401,
+  "end": 141.281,
+  "speaker": "Unknown",
+  "en": "There's nothing we could use.",
+  "zh": "没有任何我们能用的东西。"
+ },
+ {
+  "seg": 20,
+  "start": 142.341,
+  "end": 147.404,
+  "speaker": "Unknown",
+  "en": "For us, tasks like building a web browser were just necessary steps along the way.",
+  "zh": "对我们来说，像构建一个 Web 浏览器这样的任务只是途中的必要步骤。"
+ },
+ {
+  "seg": 21,
+  "start": 149.927,
+  "end": 155.471,
+  "speaker": "Unknown",
+  "en": "Now, today, in 2026, Dioxys has achieved and far surpassed its original mission.",
+  "zh": "如今，在 2026 年，Dioxys 已经实现并远远超越了它最初的使命。"
+ },
+ {
+  "seg": 22,
+  "start": 156.331,
+  "end": 164.517,
+  "speaker": "Unknown",
+  "en": "We support all the features we originally set out to build, from cross-platform support to native rendering to Rust hot reload and bundle splitting.",
+  "zh": "我们支持了我们最初着手构建的所有特性，从跨平台支持到原生渲染，再到 Rust 热重载和分包。"
+ },
+ {
+  "seg": 23,
+  "start": 165.117,
+  "end": 169.76,
+  "speaker": "Unknown",
+  "en": "We've basically reinvented and improved the entire app development stack.",
+  "zh": "我们基本上重新发明并改进了整个应用开发技术栈。"
+ },
+ {
+  "seg": 24,
+  "start": 170.981,
+  "end": 179.467,
+  "speaker": "Unknown",
+  "en": "Users can ship a powerful full-stack web application in the exact same code base, sharing components as their iOS and Android apps.",
+  "zh": "用户可以在完全相同的代码库中发布一个强大的全栈 Web 应用，与他们的 iOS 和 Android 应用共享组件。"
+ },
+ {
+  "seg": 25,
+  "start": 181.12,
+  "end": 186.263,
+  "speaker": "Unknown",
+  "en": "The Dioxys project now has nearly 37,000 stars on GitHub with millions of downloads.",
+  "zh": "Dioxys 项目现在在 GitHub 上有近 37,000 颗星，下载量达数百万。"
+ },
+ {
+  "seg": 26,
+  "start": 187.203,
+  "end": 193.386,
+  "speaker": "Unknown",
+  "en": "Apps built in Dioxys are rolled out across the globe with a cumulative estimate of over 200 million end users.",
+  "zh": "用 Dioxys 构建的应用在全球范围内推广，累计估计超过 2 亿终端用户。"
+ },
+ {
+  "seg": 27,
+  "start": 194.367,
+  "end": 203.632,
+  "speaker": "Unknown",
+  "en": "Users have built things like AI assistance, software for voting, data science tools, and even collision avoidance system for satellites in space.",
+  "zh": "用户构建了诸如 AI 助手、投票软件、数据科学工具，甚至太空卫星的碰撞规避系统。"
+ },
+ {
+  "seg": 28,
+  "start": 205.773,
+  "end": 209.515,
+  "speaker": "Unknown",
+  "en": "We've put a ton of effort into making Dioxys as user-friendly as possible.",
+  "zh": "我们投入了大量精力让 Dioxys 尽可能地对用户友好。"
+ },
+ {
+  "seg": 29,
+  "start": 210.347,
+  "end": 217.35,
+  "speaker": "Unknown",
+  "en": "Fewer files, unified build tooling, hot reloading, asset optimization, everything you need to easily ship across all platforms.",
+  "zh": "更少的文件、统一的构建工具、热重载、资源优化，以及轻松发布到所有平台所需的一切。"
+ },
+ {
+  "seg": 30,
+  "start": 218.531,
+  "end": 221.952,
+  "speaker": "Unknown",
+  "en": "Because Dioxys apps are written in Rust, they are structurally very simple.",
+  "zh": "因为 Dioxys 应用是用 Rust 编写的，它们在结构上非常简单。"
+ },
+ {
+  "seg": 31,
+  "start": 222.973,
+  "end": 225.874,
+  "speaker": "Unknown",
+  "en": "You rarely need to drop into platform-specific code.",
+  "zh": "你几乎不需要深入平台特定的代码。"
+ },
+ {
+  "seg": 32,
+  "start": 226.994,
+  "end": 231.216,
+  "speaker": "Unknown",
+  "en": "Because all Rust projects are alike, it's very easy for developers to dive into a new project.",
+  "zh": "因为所有 Rust 项目都很相似，开发者很容易深入一个新项目。"
+ },
+ {
+  "seg": 33,
+  "start": 231.796,
+  "end": 234.178,
+  "speaker": "Unknown",
+  "en": "You can completely skip annoying build system setup.",
+  "zh": "你可以完全跳过烦人的构建系统设置。"
+ },
+ {
+  "seg": 34,
+  "start": 235.098,
+  "end": 237.279,
+  "speaker": "Unknown",
+  "en": "All you need is a main.rs to get started.",
+  "zh": "你只需要一个 main.rs 就能上手。"
+ },
+ {
+  "seg": 35,
+  "start": 239.972,
+  "end": 247.316,
+  "speaker": "Unknown",
+  "en": "One of the most ambitious goals we had for Dioxys was to ship our own lightweight but fully-featured HTML and CSS rendering engine called Blitz.",
+  "zh": "我们对 Dioxys 最有雄心的目标之一，是发布我们自己轻量级但功能齐全的 HTML 和 CSS 渲染引擎，名为 Blitz。"
+ },
+ {
+  "seg": 36,
+  "start": 248.376,
+  "end": 256.641,
+  "speaker": "Unknown",
+  "en": "We extracted the browser-grade CSS engine out of Firefox, built our own HTML, DOM, and developed a hybrid GPU rendering pipeline.",
+  "zh": "我们从 Firefox 中提取了浏览器级的 CSS 引擎，构建了我们自己的 HTML 和 DOM，并开发了混合 GPU 渲染管线。"
+ },
+ {
+  "seg": 37,
+  "start": 257.781,
+  "end": 267.587,
+  "speaker": "Unknown",
+  "en": "Compared to Electron apps, which are RAM and storage hogs, Blitz apps are lightweight, coming in at less than five megabytes bundle sizes and consume less than 50 megabytes of RAM at runtime.",
+  "zh": "与那些吃内存和存储的 Electron 应用相比，Blitz 应用很轻量，安装包小于 5 MB，运行时内存占用小于 50 MB。"
+ },
+ {
+  "seg": 38,
+  "start": 268.609,
+  "end": 269.229,
+  "speaker": "Unknown",
+  "en": "And they're pretty cool.",
+  "zh": "而且它们相当酷。"
+ },
+ {
+  "seg": 39,
+  "start": 269.249,
+  "end": 271.71,
+  "speaker": "Unknown",
+  "en": "You can write your own custom components, spinning cubes.",
+  "zh": "你可以编写自己的自定义组件，比如旋转的立方体。"
+ },
+ {
+  "seg": 40,
+  "start": 271.85,
+  "end": 273.21,
+  "speaker": "Unknown",
+  "en": "You can customize the browser however you want.",
+  "zh": "你可以随心所欲地定制浏览器。"
+ },
+ {
+  "seg": 41,
+  "start": 273.23,
+  "end": 273.95,
+  "speaker": "Unknown",
+  "en": "It's a very cool project.",
+  "zh": "这是一个非常酷的项目。"
+ },
+ {
+  "seg": 42,
+  "start": 275.551,
+  "end": 281.753,
+  "speaker": "Unknown",
+  "en": "We also worked on a tool called SubSecond, which is our generic hot reload engine for Rust, C, and C++.",
+  "zh": "我们还开发了一个叫 SubSecond 的工具，这是我们面向 Rust、C 和 C++ 的通用热重载引擎。"
+ },
+ {
+  "seg": 43,
+  "start": 282.633,
+  "end": 290.115,
+  "speaker": "Unknown",
+  "en": "SubSecond watches your code for edits, recompiles parts of the code that changed, and patches the running app in place all in 100 milliseconds.",
+  "zh": "SubSecond 监视你的代码编辑，重新编译发生变化的部分，并原地修补正在运行的应用，全部在 100 毫秒内完成。"
+ },
+ {
+  "seg": 44,
+  "start": 291.786,
+  "end": 299.728,
+  "speaker": "Unknown",
+  "en": "This was an incredibly difficult technical challenge and is the only hot reload engine for native compiled code to have such wide language and runtime support.",
+  "zh": "这是一个极其困难的技术挑战，也是唯一一个对原生编译代码拥有如此广泛语言和运行时支持的热重载引擎。"
+ },
+ {
+  "seg": 45,
+  "start": 300.308,
+  "end": 304.509,
+  "speaker": "Unknown",
+  "en": "It works on every major operating system and even the web where Rust is compiled into WebAssembly.",
+  "zh": "它能在所有主流操作系统上工作，甚至能在 Web 上工作，那里 Rust 被编译成 WebAssembly。"
+ },
+ {
+  "seg": 46,
+  "start": 305.189,
+  "end": 306.069,
+  "speaker": "Unknown",
+  "en": "No one has done this before.",
+  "zh": "之前没有人做到过这一点。"
+ },
+ {
+  "seg": 47,
+  "start": 308.43,
+  "end": 318.972,
+  "speaker": "Unknown",
+  "en": "I'm talking about these because these projects we've worked on along the way over the past five years are incredibly ambitious and are the result of a tiny but capable team of cracked engineers.",
+  "zh": "我讲这些是因为我们在过去五年里一路开发的这些项目非常有雄心，它们是一支小而能干的顶级工程师团队的成果。"
+ },
+ {
+  "seg": 48,
+  "start": 320.035,
+  "end": 326.799,
+  "speaker": "Unknown",
+  "en": "We've labored over quality, read every line of code with our own two eyes, and maintained a frequent but ambitious release cadence.",
+  "zh": "我们在质量上下足了功夫，亲眼读过每一行代码，并保持了频繁而有雄心的发布节奏。"
+ },
+ {
+  "seg": 49,
+  "start": 328.14,
+  "end": 335.024,
+  "speaker": "Unknown",
+  "en": "The most amazing thing, every line of code in Dioxys, until very recently, has been painstakingly written by hand.",
+  "zh": "最令人惊叹的是，直到最近之前，Dioxys 中的每一行代码都是 painstakingly（辛勤地）手工编写的。"
+ },
+ {
+  "seg": 50,
+  "start": 337.365,
+  "end": 338.246,
+  "speaker": "Unknown",
+  "en": "Why do I say recently?",
+  "zh": "为什么我说最近?"
+ },
+ {
+  "seg": 51,
+  "start": 339.086,
+  "end": 345.45,
+  "speaker": "Unknown",
+  "en": "Well, if you aren't aware, software engineering and development has taken a massive turn in the past six months.",
+  "zh": "好吧,如果你还不知道的话,软件工程和开发在过去六个月里发生了巨大的转变。"
+ },
+ {
+  "seg": 52,
+  "start": 346.619,
+  "end": 351.341,
+  "speaker": "Unknown",
+  "en": "AI coding agents got really, really good, and specifically, they got really good at Rust.",
+  "zh": "AI 编程智能体变得非常、非常好,具体来说,它们在 Rust 上变得非常擅长。"
+ },
+ {
+  "seg": 53,
+  "start": 352.581,
+  "end": 358.364,
+  "speaker": "Unknown",
+  "en": "Our team, a bunch of cracked Rust engineers, has been quite skeptical of AI for a long time.",
+  "zh": "我们的团队,一群顶级 Rust 工程师,长期以来对 AI 相当持怀疑态度。"
+ },
+ {
+  "seg": 54,
+  "start": 359.324,
+  "end": 364.726,
+  "speaker": "Unknown",
+  "en": "We had not felt the AGI, so to speak, and we definitely weren't using AI in our day-to-day work.",
+  "zh": "可以说,我们没有感受到 AGI,我们也确实没有在日常工作中使用 AI。"
+ },
+ {
+  "seg": 55,
+  "start": 365.587,
+  "end": 370.369,
+  "speaker": "Unknown",
+  "en": "We thought the two things were incompatible, shipping high-quality code and using agentic coding tools.",
+  "zh": "我们认为这两件事是不兼容的:交付高质量代码和使用智能体编程工具。"
+ },
+ {
+  "seg": 56,
+  "start": 371.589,
+  "end": 376.091,
+  "speaker": "Unknown",
+  "en": "Seeing them get really good at Rust was a huge surprise to us, so we were finally excited.",
+  "zh": "看到它们在 Rust 上变得非常擅长,对我们来说是一个巨大的惊喜,所以我们终于兴奋起来了。"
+ },
+ {
+  "seg": 57,
+  "start": 378.563,
+  "end": 380.684,
+  "speaker": "Unknown",
+  "en": "With this newfound excitement, we started building.",
+  "zh": "带着这份新获得的兴奋,我们开始构建。"
+ },
+ {
+  "seg": 58,
+  "start": 381.565,
+  "end": 387.948,
+  "speaker": "Unknown",
+  "en": "Our team maxed out our Claude Code subscriptions, churned out tens of thousands of lines of Rust, and built all sorts of features we had long wished to have.",
+  "zh": "我们的团队用尽了我们的 Claude Code 订阅额度,产出了数万行 Rust 代码,构建了我们一直希望拥有的各种功能。"
+ },
+ {
+  "seg": 59,
+  "start": 389.208,
+  "end": 394.511,
+  "speaker": "Unknown",
+  "en": "Unfortunately, very little of the code cleared our quality bar of should we merge this in.",
+  "zh": "不幸的是,这些代码中很少有能通过我们“是否应该合并进去”的质量门槛。"
+ },
+ {
+  "seg": 60,
+  "start": 395.492,
+  "end": 404.136,
+  "speaker": "Unknown",
+  "en": "Thousands of lines of new features, bug fixes, and integrations we had wanted for years sat there in draft and continued to sit there in draft.",
+  "zh": "我们多年来一直想要的新功能、bug 修复和集成,成千上万行的代码一直躺在草稿里,并持续躺在草稿里。"
+ },
+ {
+  "seg": 61,
+  "start": 405.392,
+  "end": 413.201,
+  "speaker": "Unknown",
+  "en": "We definitely did not know how to properly wield these tools, and it was way too easy to become what we call a slop cannon.",
+  "zh": "我们确实不知道如何正确地使用这些工具,而且太容易变成我们所说的“slop cannon”(垃圾代码炮)。"
+ },
+ {
+  "seg": 62,
+  "start": 415.163,
+  "end": 418.507,
+  "speaker": "Unknown",
+  "en": "So we reflected a bit and studied what worked and what didn't.",
+  "zh": "所以我们做了一些反思,研究了什么有效、什么无效。"
+ },
+ {
+  "seg": 63,
+  "start": 420.926,
+  "end": 426.629,
+  "speaker": "Unknown",
+  "en": "One thing we realized over all these years, we had put a ton of effort into making Dioxys extremely developer-friendly.",
+  "zh": "这些年来我们意识到的一件事是,我们在让 Dioxys 对开发者极其友好方面投入了大量精力。"
+ },
+ {
+  "seg": 64,
+  "start": 427.469,
+  "end": 430.971,
+  "speaker": "Unknown",
+  "en": "Easy to read, easy to write, good tools, good error messages.",
+  "zh": "易于阅读、易于编写、好用的工具、好的错误信息。"
+ },
+ {
+  "seg": 65,
+  "start": 431.792,
+  "end": 433.672,
+  "speaker": "Unknown",
+  "en": "The coding agents generally don't care about this.",
+  "zh": "编程智能体通常并不在乎这些。"
+ },
+ {
+  "seg": 66,
+  "start": 434.493,
+  "end": 438.155,
+  "speaker": "Unknown",
+  "en": "We tried to make Rust easy for humans, and in fact, it didn't really matter.",
+  "zh": "我们努力让 Rust 对人类变得容易,而事实上,这并不重要。"
+ },
+ {
+  "seg": 67,
+  "start": 438.855,
+  "end": 444.138,
+  "speaker": "Unknown",
+  "en": "Coding agents excel with Dioxys, still, fortunately, because Rust is harder to write.",
+  "zh": "编程智能体在 Dioxys 上依然表现出色,幸运的是,这是因为 Rust 更难编写。"
+ },
+ {
+  "seg": 68,
+  "start": 444.798,
+  "end": 453.782,
+  "speaker": "Unknown",
+  "en": "The coding agents deal with the development burden for you, they handle the edge cases, and they fight the bar checker, saving you from the cognitive burden of writing Rust apps.",
+  "zh": "编程智能体为你承担开发负担,它们处理边界情况,与借用检查器搏斗,把你从编写 Rust 应用的认知负担中解救出来。"
+ },
+ {
+  "seg": 69,
+  "start": 454.743,
+  "end": 458.344,
+  "speaker": "Unknown",
+  "en": "The learning curve, which we fought to reduce, is now a feature.",
+  "zh": "我们曾经努力降低的学习曲线,现在变成了一个特性。"
+ },
+ {
+  "seg": 70,
+  "start": 460.225,
+  "end": 467.349,
+  "speaker": "Unknown",
+  "en": "So, throughout the process of adopting the coding tools to work on Dioxys, we learned a wide array of lessons.",
+  "zh": "所以,在让编程工具应用于 Dioxys 的整个过程中,我们学到了大量的经验教训。"
+ },
+ {
+  "seg": 71,
+  "start": 468.598,
+  "end": 473.844,
+  "speaker": "Unknown",
+  "en": "Many of the things the coding agents do really well today and many things they just aren't there yet.",
+  "zh": "有很多编程智能体今天做得非常好的事情,也有很多它们还远远没做到的事情。"
+ },
+ {
+  "seg": 72,
+  "start": 474.805,
+  "end": 483.154,
+  "speaker": "Unknown",
+  "en": "So the next couple slides I want to talk about some of the things we learned and what it means to build ambitious software projects in the age of Agenda coding.",
+  "zh": "在接下来的几页幻灯片中,我想谈谈我们学到的一些东西,以及在智能体编程(Agenda coding)时代构建雄心勃勃的软件项目意味着什么。"
+ },
+ {
+  "seg": 73,
+  "start": 485.697,
+  "end": 490.342,
+  "speaker": "Unknown",
+  "en": "It's important to talk about first what it means to build an ambitious software project.",
+  "zh": "首先谈谈构建一个雄心勃勃的软件项目意味着什么,这很重要。"
+ },
+ {
+  "seg": 74,
+  "start": 492.032,
+  "end": 494.394,
+  "speaker": "Unknown",
+  "en": "There's many different types of software out there.",
+  "zh": "世面上有许多不同类型的软件。"
+ },
+ {
+  "seg": 75,
+  "start": 494.614,
+  "end": 496.135,
+  "speaker": "Unknown",
+  "en": "It depends on what you ship every day.",
+  "zh": "这取决于你每天交付的是什么。"
+ },
+ {
+  "seg": 76,
+  "start": 497.336,
+  "end": 502.359,
+  "speaker": "Unknown",
+  "en": "You might be doing research and the quality of your code isn't the most important thing.",
+  "zh": "你可能在搞研究,代码质量并不是最重要的。"
+ },
+ {
+  "seg": 77,
+  "start": 502.399,
+  "end": 507.002,
+  "speaker": "Unknown",
+  "en": "You might be doing prototyping code and iterating fast and moving quickly is important.",
+  "zh": "你可能在写原型代码,快速迭代和快速行动是重要的。"
+ },
+ {
+  "seg": 78,
+  "start": 507.302,
+  "end": 510.404,
+  "speaker": "Unknown",
+  "en": "You might be building applications, which people don't see the code internally.",
+  "zh": "你可能在构建应用程序,人们看不到内部代码。"
+ },
+ {
+  "seg": 79,
+  "start": 510.864,
+  "end": 512.826,
+  "speaker": "Unknown",
+  "en": "They just see what it looks like on the outside.",
+  "zh": "他们只看到外表呈现的样子。"
+ },
+ {
+  "seg": 80,
+  "start": 514.046,
+  "end": 516.168,
+  "speaker": "Unknown",
+  "en": "But for us and for Dioxys,",
+  "zh": "但对我们和 Dioxys 来说,"
+ },
+ {
+  "seg": 81,
+  "start": 517.511,
+  "end": 519.712,
+  "speaker": "Unknown",
+  "en": "We care about a few different things.",
+  "zh": "我们关心几个不同的方面。"
+ },
+ {
+  "seg": 82,
+  "start": 520.572,
+  "end": 526.074,
+  "speaker": "Unknown",
+  "en": "Primarily, of course, we care that our code works all the time, and that if it breaks, we can easily fix it.",
+  "zh": "首先,当然,我们关心我们的代码始终能正常运行,并且如果出了问题,我们能轻松修复。"
+ },
+ {
+  "seg": 83,
+  "start": 527.214,
+  "end": 542.119,
+  "speaker": "Unknown",
+  "en": "I think this is something people don't think about enough these days, that you need to continue to build easily maintainable code, and the velocity that you ship lays down on this substrate that you've built, and if the substrate isn't good, nothing you build on top is going to be good.",
+  "zh": "我认为这是如今人们思考得不够的一点:你需要持续构建易于维护的代码,你交付的速度建立在你构建的这份基底之上,如果基底不好,你在上面构建的任何东西都不会好。"
+ },
+ {
+  "seg": 84,
+  "start": 543.78,
+  "end": 546.361,
+  "speaker": "Unknown",
+  "en": "Secondarily, we care about shipping new features.",
+  "zh": "其次,我们关心交付新功能。"
+ },
+ {
+  "seg": 85,
+  "start": 547.837,
+  "end": 548.957,
+  "speaker": "Unknown",
+  "en": "Our roadmap is really long.",
+  "zh": "我们的路线图非常长。"
+ },
+ {
+  "seg": 86,
+  "start": 549.658,
+  "end": 551.458,
+  "speaker": "Unknown",
+  "en": "It extends into the far future.",
+  "zh": "它延伸到遥远的未来。"
+ },
+ {
+  "seg": 87,
+  "start": 551.979,
+  "end": 561.922,
+  "speaker": "Unknown",
+  "en": "There's dozens of features we still have yet to build for Dioxys, and we want to ship these quickly to keep up with the times, but we also want to maintain quality.",
+  "zh": "还有数十个功能我们尚未为 Dioxys 构建,我们想快速交付这些功能以跟上时代,但我们也想保持质量。"
+ },
+ {
+  "seg": 88,
+  "start": 562.883,
+  "end": 577.268,
+  "speaker": "Unknown",
+  "en": "When building a large, ambitious project like Dioxys, there's a constant tension of shipping fast, adding new features, and then also making sure you don't break things and that in a patch release you're not breaking APIs that millions of people rely on.",
+  "zh": "在构建像 Dioxys 这样大型、雄心勃勃的项目时,始终存在一种张力:快速交付、添加新功能,同时确保不破坏东西,确保在一个补丁版本中不会破坏数百万人依赖的 API。"
+ },
+ {
+  "seg": 89,
+  "start": 578.63,
+  "end": 582.612,
+  "speaker": "Unknown",
+  "en": "For a project that people build their businesses on, there's also a high bar for releases.",
+  "zh": "对于一个人们赖以建立业务的项目来说,发布的门槛也很高。"
+ },
+ {
+  "seg": 90,
+  "start": 583.212,
+  "end": 590.515,
+  "speaker": "Unknown",
+  "en": "We need to maintain high quality of our documentation, of our examples, of our tests, of our benchmarks.",
+  "zh": "我们需要保持文档、示例、测试、基准测试的高质量。"
+ },
+ {
+  "seg": 91,
+  "start": 590.876,
+  "end": 593.957,
+  "speaker": "Unknown",
+  "en": "If anything is out of place, people figure it out pretty quickly.",
+  "zh": "只要有任何地方不对劲,人们很快就会发现。"
+ },
+ {
+  "seg": 92,
+  "start": 596.588,
+  "end": 604.315,
+  "speaker": "Unknown",
+  "en": "So we really do like coding agents as a form of an excellent assistant for very hard technical problems.",
+  "zh": "所以我们确实非常喜欢把编程智能体作为解决非常困难的技术问题的绝佳助手。"
+ },
+ {
+  "seg": 93,
+  "start": 605.236,
+  "end": 613.223,
+  "speaker": "Unknown",
+  "en": "Coding agents bring a level of patience and massive knowledge that is very hard to muster as an individual working on a very large software project.",
+  "zh": "编程智能体带来了一种程度的耐心和海量知识,这是个人在参与一个非常大的软件项目时很难具备的。"
+ },
+ {
+  "seg": 94,
+  "start": 614.577,
+  "end": 617.339,
+  "speaker": "Unknown",
+  "en": "Many problems in Dioxys are knowledge problems.",
+  "zh": "Dioxys 中的许多问题都是知识问题。"
+ },
+ {
+  "seg": 95,
+  "start": 618.3,
+  "end": 627.386,
+  "speaker": "Unknown",
+  "en": "Our team can't feasibly know every detail about every build system, every runtime, every operating system, every programming language, every API, every quirk.",
+  "zh": "我们的团队不可能了解每个构建系统、每个运行时、每个操作系统、每个编程语言、每个 API、每个怪癖的每一个细节。"
+ },
+ {
+  "seg": 96,
+  "start": 628.567,
+  "end": 631.269,
+  "speaker": "Unknown",
+  "en": "Fortunately, this is exactly where the coding agents excel.",
+  "zh": "幸运的是,这正是编程智能体擅长的地方。"
+ },
+ {
+  "seg": 97,
+  "start": 632.273,
+  "end": 641.723,
+  "speaker": "Unknown",
+  "en": "They can quickly sift through thousands of pages of documentation, read all the bespoke APIs, dig into binaries, reverse engineer APIs.",
+  "zh": "它们可以快速翻阅数千页的文档,阅读所有定制 API,深入二进制文件,对 API 进行逆向工程。"
+ },
+ {
+  "seg": 98,
+  "start": 642.323,
+  "end": 645.567,
+  "speaker": "Unknown",
+  "en": "They have so much more patience than an individual developer does.",
+  "zh": "它们比单个开发者有多得多的耐心。"
+ },
+ {
+  "seg": 99,
+  "start": 647.075,
+  "end": 655.599,
+  "speaker": "Unknown",
+  "en": "We were able to implement things like Kotlin and Swift plugins for Dioxys, deeply integrated into our build system, which is a really hard feature.",
+  "zh": "我们得以实现像 Kotlin 和 Swift 插件这样的东西,深度集成到我们的构建系统中,这是一个非常难的功能。"
+ },
+ {
+  "seg": 100,
+  "start": 656.079,
+  "end": 663.142,
+  "speaker": "Unknown",
+  "en": "If you know React natives, Turbo modules, these things took many years of development to get right by people writing them by hand.",
+  "zh": "如果你了解 React Native、Turbo modules,这些东西花了开发者很多年手工编写才做对。"
+ },
+ {
+  "seg": 101,
+  "start": 663.782,
+  "end": 668.344,
+  "speaker": "Unknown",
+  "en": "We were able to ship this in like two to three weeks with coding agents, and we probably could have gone faster.",
+  "zh": "我们用编程智能体大概两到三周就把它发布出来了，而且我们本可以更快。"
+ },
+ {
+  "seg": 102,
+  "start": 668.364,
+  "end": 674.167,
+  "speaker": "Unknown",
+  "en": "I think implementation was done in like the first day, and we spent two weeks building test cases and testing on real devices.",
+  "zh": "我认为实现大概第一天就完成了，然后我们花了两个周构建测试用例并在真实设备上测试。"
+ },
+ {
+  "seg": 103,
+  "start": 675.577,
+  "end": 684.564,
+  "speaker": "Unknown",
+  "en": "And in Blitz, the thing on the right, our custom web engine, web agents have accelerated debugging hard CSS styling and layout issues for us.",
+  "zh": "而在 Blitz——右边这个东西，我们的自定义 web 引擎——web 智能体为我们加速了棘手的 CSS 样式和布局问题的调试。"
+ },
+ {
+  "seg": 104,
+  "start": 685.385,
+  "end": 687.867,
+  "speaker": "Unknown",
+  "en": "The agents know the CSS spec exceptionally well.",
+  "zh": "这些智能体对 CSS 规范掌握得非常透彻。"
+ },
+ {
+  "seg": 105,
+  "start": 688.408,
+  "end": 696.935,
+  "speaker": "Unknown",
+  "en": "You might be writing a line of code that's trying to resolve some sort of painting or layout issue, and the agents can instantly recall exactly how Google, Chrome, and Safari do it,",
+  "zh": "你可能正在写一行代码来解决某个绘制或布局问题，智能体能立刻准确回忆起 Google、Chrome 和 Safari 是怎么处理的，"
+ },
+ {
+  "seg": 106,
+  "start": 697.515,
+  "end": 707.668,
+  "speaker": "Unknown",
+  "en": "can tell you the right way of handling it for your problem, and you don't have to go open the WebKit source code that's nested deep somewhere in Apple's Git repositories.",
+  "zh": "能告诉你针对你的问题正确的处理方式，而你不必去翻开深藏在 Apple 的 Git 仓库某处的 WebKit 源码。"
+ },
+ {
+  "seg": 107,
+  "start": 709.142,
+  "end": 718.505,
+  "speaker": "Unknown",
+  "en": "We're able to invest time in doing things the right way, not the hacky way, which interestingly is a turn compared to how we used to do it.",
+  "zh": "我们能够投入时间以正确的方式做事，而不是取巧的方式，有趣的是这和我们过去的做法相反。"
+ },
+ {
+  "seg": 108,
+  "start": 719.185,
+  "end": 727.108,
+  "speaker": "Unknown",
+  "en": "We would always gauge a project based on its complexity and tend to take shortcuts as humans to ship things faster, but not at a high quality bar.",
+  "zh": "我们过去总是根据项目复杂度来评估它，并倾向于作为人类走捷径来更快地发布东西，但达不到很高的质量标准。"
+ },
+ {
+  "seg": 109,
+  "start": 727.748,
+  "end": 733.35,
+  "speaker": "Unknown",
+  "en": "So coding agents give us the ability to maintain quality and do things the right way, which is very interesting.",
+  "zh": "所以编程智能体让我们有能力保持质量、以正确的方式做事，这非常有趣。"
+ },
+ {
+  "seg": 110,
+  "start": 735.465,
+  "end": 742.707,
+  "speaker": "Unknown",
+  "en": "A less sexy application of coding agents for ambitious projects is actually doing the extremely mundane tasks.",
+  "zh": "对于雄心勃勃的项目，编程智能体一个不那么光鲜的应用实际上是做极其平凡的任务。"
+ },
+ {
+  "seg": 111,
+  "start": 743.928,
+  "end": 744.728,
+  "speaker": "Unknown",
+  "en": "Our team is very small.",
+  "zh": "我们的团队非常小。"
+ },
+ {
+  "seg": 112,
+  "start": 744.768,
+  "end": 747.569,
+  "speaker": "Unknown",
+  "en": "We have three core engineers working on Dioxys.",
+  "zh": "我们有三个核心工程师在开发 Dioxys。"
+ },
+ {
+  "seg": 113,
+  "start": 747.689,
+  "end": 757.792,
+  "speaker": "Unknown",
+  "en": "Any time that we spend verifying the tarball extracts into the right directory structure is time wasted from us thinking about the architecture and the hard problems of our software.",
+  "zh": "我们花在验证 tarball 解压出正确目录结构上的任何时间，都是从思考架构和软件难题上浪费掉的时间。"
+ },
+ {
+  "seg": 114,
+  "start": 759.272,
+  "end": 766.197,
+  "speaker": "Unknown",
+  "en": "Dioxys is a large project, and it's been a challenge to maintain a high-quality bar across the entire codebase, across every release.",
+  "zh": "Dioxys 是一个大项目，在整个代码库、每个版本中保持高质量标准一直是个挑战。"
+ },
+ {
+  "seg": 115,
+  "start": 766.897,
+  "end": 770.139,
+  "speaker": "Unknown",
+  "en": "In one release, we might add an extension for a new editor like Zend.",
+  "zh": "在某个版本中，我们可能会为一个新编辑器添加扩展，比如 Zend。"
+ },
+ {
+  "seg": 116,
+  "start": 770.94,
+  "end": 775.443,
+  "speaker": "Unknown",
+  "en": "We might not be able to test that editor every time we do a patch release, and it might be easy to break that.",
+  "zh": "我们可能无法在每次发布补丁版本时都测试那个编辑器，它可能很容易被弄坏。"
+ },
+ {
+  "seg": 117,
+  "start": 776.605,
+  "end": 782.993,
+  "speaker": "Unknown",
+  "en": "Applying agents to the problem actually lets us automate many of these hard, tedious tasks that would have taken countless hours before.",
+  "zh": "把智能体应用到这个问题上，实际上让我们能自动化许多以前要耗费无数小时的困难乏味的任务。"
+ },
+ {
+  "seg": 118,
+  "start": 784.355,
+  "end": 787.239,
+  "speaker": "Unknown",
+  "en": "And then for us, the code is the product.",
+  "zh": "而对我们来说，代码就是产品。"
+ },
+ {
+  "seg": 119,
+  "start": 787.679,
+  "end": 793.727,
+  "speaker": "Unknown",
+  "en": "People download the code, they build on the code, users interact with their APIs, they read our docs, and they build on our architecture.",
+  "zh": "人们下载代码，在代码之上构建，用户与他们的 API 交互，他们阅读我们的文档，并在我们的架构之上构建。"
+ },
+ {
+  "seg": 120,
+  "start": 794.508,
+  "end": 808.058,
+  "speaker": "Unknown",
+  "en": "So any laziness in the quality of the code, the SDKs that we ship to users, translates directly into a worse developer experience, and people either getting upset, their businesses being stalled, or them turning off the product.",
+  "zh": "所以代码质量、我们交付给用户的 SDK 中的任何偷懒，都直接转化为更差的开发者体验，人们要么感到不满，要么他们的业务停滞，要么关闭这个产品。"
+ },
+ {
+  "seg": 121,
+  "start": 809.279,
+  "end": 820.428,
+  "speaker": "Unknown",
+  "en": "So coding agents have been excellent at maintaining tasks like verifying release checklists, backporting bug fixes onto stable releases, and ensuring our docs and documents are of extremely high quality.",
+  "zh": "所以编程智能体在维护诸如验证发布清单、把 bug 修复向后移植到稳定版本、以及确保我们的文档具有极高的质量等任务上表现出色。"
+ },
+ {
+  "seg": 122,
+  "start": 821.61,
+  "end": 835.063,
+  "speaker": "Unknown",
+  "en": "We still do write a lot of .comments ourselves, but it's very easy to give the agent a task of making sure everything is documented properly, everything has an example, and everything actually is documenting the thing that it says in the way that it says.",
+  "zh": "我们仍然会自己写很多 .comments,但把「确保一切都被正确文档化、一切都有示例、一切确实以它所述的方式记录了它所说的事情」这个任务交给智能体非常容易。"
+ },
+ {
+  "seg": 123,
+  "start": 836.084,
+  "end": 843.351,
+  "speaker": "Unknown",
+  "en": "As humans, you know, you'll go edit the code, but you won't edit the comment, so a lot of your comments will actually be out of date over time, and things get very confusing.",
+  "zh": "作为人类，你知道，你会去改代码，但不会改注释，所以很多注释实际上会随时间过时，事情变得非常混乱。"
+ },
+ {
+  "seg": 124,
+  "start": 844.392,
+  "end": 850.518,
+  "speaker": "Unknown",
+  "en": "And if you just look at the numbers, we've shipped more patch releases in our most recent Diaccess version than we ever had before.",
+  "zh": "如果你只看数字，我们在最近的 Diaccess 版本中发布的补丁版本比以往任何时候都多。"
+ },
+ {
+  "seg": 125,
+  "start": 850.798,
+  "end": 859.367,
+  "speaker": "Unknown",
+  "en": "So we've been able to maintain weekly or multiple times a week release cadence for a large ambitious piece of software in a way that we would be scared to do a release earlier.",
+  "zh": "所以我们能够对一个大型雄心勃勃的软件保持每周或每周多次的发布节奏，而我们以前会对这样的发布感到害怕。"
+ },
+ {
+  "seg": 126,
+  "start": 862.172,
+  "end": 872.755,
+  "speaker": "Unknown",
+  "en": "One thing I'm not 100% convinced yet, we have found varying levels of success, is using AI to write tests, or at least blindly writing tests.",
+  "zh": "有一件事我还没有百分之百信服，我们取得了不同程度的成功，那就是用 AI 写测试，或者至少是盲目地写测试。"
+ },
+ {
+  "seg": 127,
+  "start": 874.255,
+  "end": 876.456,
+  "speaker": "Unknown",
+  "en": "One place we've struggled with Dioxys is testing.",
+  "zh": "我们在 Dioxys 上挣扎的一个地方是测试。"
+ },
+ {
+  "seg": 128,
+  "start": 876.916,
+  "end": 882.357,
+  "speaker": "Unknown",
+  "en": "It can be very hard to test foundational software, especially like end-to-end for complex systems.",
+  "zh": "测试基础软件可能非常困难，尤其是对复杂系统做端到端测试。"
+ },
+ {
+  "seg": 129,
+  "start": 883.057,
+  "end": 890.219,
+  "speaker": "Unknown",
+  "en": "It's hard to test that your extension installs into Z and works the way you want it to do without literally opening Z and using the extension.",
+  "zh": "如果不是真的打开 Z 并使用那个扩展，很难测试你的扩展是否安装到 Z 中并按你期望的方式工作。"
+ },
+ {
+  "seg": 130,
+  "start": 892.079,
+  "end": 894.741,
+  "speaker": "Unknown",
+  "en": "The coding agents struggle here, too, to an extent.",
+  "zh": "编程智能体在某种程度上在这里也很吃力。"
+ },
+ {
+  "seg": 131,
+  "start": 896.401,
+  "end": 899.983,
+  "speaker": "Unknown",
+  "en": "They also have a tendency to write kind of sloppy tests.",
+  "zh": "它们也有写出有点粗糙的测试的倾向。"
+ },
+ {
+  "seg": 132,
+  "start": 900.103,
+  "end": 904.805,
+  "speaker": "Unknown",
+  "en": "You'll give it a constructor, and then it will go test the constructor, and that's not a very interesting test.",
+  "zh": "你给它一个构造函数，然后它就去测试那个构造函数，而那不是一个很有意思的测试。"
+ },
+ {
+  "seg": 133,
+  "start": 905.506,
+  "end": 911.409,
+  "speaker": "Unknown",
+  "en": "They can easily write tests for any given API, but much like humans, they fail to write the right tests.",
+  "zh": "它们可以轻松地为任何给定的 API 写测试，但和人类一样，它们无法写出正确的测试。"
+ },
+ {
+  "seg": 134,
+  "start": 912.349,
+  "end": 930.012,
+  "speaker": "Unknown",
+  "en": "So we still find ourselves enumerating test conditions manually, crafting test APIs ourselves and handling test runners, but it is sometimes a great sounding board to come up with the test ideas for a particular thing you're trying to make sure has coverage and then enumerating the edge conditions.",
+  "zh": "所以我们仍然发现自己手动列举测试条件、自己打造测试 API、处理测试运行器，但有时候它是为一个你想确保有覆盖的特定东西想出测试点子、然后列举边界条件的绝佳参谋。"
+ },
+ {
+  "seg": 135,
+  "start": 931.734,
+  "end": 936.981,
+  "speaker": "Unknown",
+  "en": "But one place that we've actually really enjoyed using coding agents to do testing is building test harnesses.",
+  "zh": "但我们真正喜欢用编程智能体做测试的一个地方是构建测试工具。"
+ },
+ {
+  "seg": 136,
+  "start": 937.001,
+  "end": 946.974,
+  "speaker": "Unknown",
+  "en": "So fuzzing is a critical part of building production-grade software, which means taking your application and putting it under millions of different inputs",
+  "zh": "模糊测试是构建生产级软件的关键部分，也就是把你的应用置于数百万种不同的输入之下"
+ },
+ {
+  "seg": 137,
+  "start": 948.195,
+  "end": 957.857,
+  "speaker": "Unknown",
+  "en": "Quite often adversarial inputs, basically like malformed inputs or ways of using the software that users should not be using the software, but they can use the software.",
+  "zh": "通常是对抗性输入，基本上就是格式错误的输入，或者用户不应该使用这个软件的方式，但他们可以这样做。"
+ },
+ {
+  "seg": 138,
+  "start": 958.357,
+  "end": 960.918,
+  "speaker": "Unknown",
+  "en": "And coding agents are excellent at building these harnesses.",
+  "zh": "编程智能体非常擅长构建这些工具。"
+ },
+ {
+  "seg": 139,
+  "start": 964.179,
+  "end": 968.34,
+  "speaker": "Unknown",
+  "en": "One thing we've found that code architecture is still an art.",
+  "zh": "我们发现的一件事是，代码架构仍然是一门艺术。"
+ },
+ {
+  "seg": 140,
+  "start": 971.097,
+  "end": 974.18,
+  "speaker": "Unknown",
+  "en": "Coding agents enable you to ship at an exceptionally high velocity.",
+  "zh": "编程智能体让你能以极高的速度发布。"
+ },
+ {
+  "seg": 141,
+  "start": 974.361,
+  "end": 975.141,
+  "speaker": "Unknown",
+  "en": "I mentioned this earlier.",
+  "zh": "我之前提到过这一点。"
+ },
+ {
+  "seg": 142,
+  "start": 975.642,
+  "end": 981.408,
+  "speaker": "Unknown",
+  "en": "If the substrate on which your agent's code lands is bad, their contributions will be bad as well.",
+  "zh": "如果你的智能体代码所落地的底层基础不好，它们的贡献也会不好。"
+ },
+ {
+  "seg": 143,
+  "start": 982.189,
+  "end": 990.177,
+  "speaker": "Unknown",
+  "en": "Unlike a human engineer, coding agents aren't typically afraid to voluntarily go on a huge refactor of a system or redesign the architecture when a feature doesn't quite fit.",
+  "zh": "不像人类工程师，编程智能体通常不怕主动对一个系统进行大规模重构，或在某个功能不太契合时重新设计架构。"
+ },
+ {
+  "seg": 144,
+  "start": 990.777,
+  "end": 991.718,
+  "speaker": "Unknown",
+  "en": "They'll typically just ship.",
+  "zh": "它们通常就直接发布了。"
+ },
+ {
+  "seg": 145,
+  "start": 992.729,
+  "end": 999.572,
+  "speaker": "Unknown",
+  "en": "Most of our development time is actually now spent thinking about software architecture, about what features we'll want in the future and how the system will evolve.",
+  "zh": "我们大部分开发时间现在实际上花在思考软件架构上，思考我们未来想要哪些功能以及系统将如何演进。"
+ },
+ {
+  "seg": 146,
+  "start": 1000.332,
+  "end": 1005.255,
+  "speaker": "Unknown",
+  "en": "Just like human engineers can write spaghetti code, so can the agents, but now just faster.",
+  "zh": "就像人类工程师能写出面条式代码一样，智能体也能，只是现在更快了。"
+ },
+ {
+  "seg": 147,
+  "start": 1006.335,
+  "end": 1019.201,
+  "speaker": "Unknown",
+  "en": "However, I will say with Fable-level tools, the actual code quality itself is so high, provided you properly communicate your intent, that proper software architecture will probably take the vast majority of time in the future.",
+  "zh": "不过，我要说的是，有了 Fable 级别的工具，只要你正确传达你的意图，实际代码质量本身非常高，以至于正确的软件架构在未来可能占据绝大部分时间。"
+ },
+ {
+  "seg": 148,
+  "start": 1019.601,
+  "end": 1021.002,
+  "speaker": "Unknown",
+  "en": "Actual code writing, not so much.",
+  "zh": "实际的代码编写，就没那么多了。"
+ },
+ {
+  "seg": 149,
+  "start": 1023.587,
+  "end": 1030.457,
+  "speaker": "Unknown",
+  "en": "One thing we do for Dioxys, which maybe you guys still do, maybe you don't, is we review every PR line by line.",
+  "zh": "我们为 Dioxys 做的一件事——你们可能现在还在做，可能不做——是我们逐行审查每一个 PR。"
+ },
+ {
+  "seg": 150,
+  "start": 1031.719,
+  "end": 1037.728,
+  "speaker": "Unknown",
+  "en": "We definitely use AI review to spot bugs ahead of time, but we still do like to read the code that we ship.",
+  "zh": "我们确实会用 AI 审查来提前发现 bug,但我们仍然喜欢亲自阅读我们要发布的代码。"
+ },
+ {
+  "seg": 151,
+  "start": 1039.17,
+  "end": 1041.933,
+  "speaker": "Unknown",
+  "en": "We receive lots and lots of PRs from strangers, actually.",
+  "zh": "实际上,我们会收到很多很多来自陌生人的 PR。"
+ },
+ {
+  "seg": 152,
+  "start": 1042.553,
+  "end": 1044.135,
+  "speaker": "Unknown",
+  "en": "Dioxys' big open source project.",
+  "zh": "Dioxys 的大型开源项目。"
+ },
+ {
+  "seg": 153,
+  "start": 1045.056,
+  "end": 1046.658,
+  "speaker": "Unknown",
+  "en": "And not every PR is made the same.",
+  "zh": "而且并不是每个 PR 都是一样的。"
+ },
+ {
+  "seg": 154,
+  "start": 1047.619,
+  "end": 1050.923,
+  "speaker": "Unknown",
+  "en": "We find that users can be quite bad at communicating their intent to the models.",
+  "zh": "我们发现,用户在向模型传达自己的意图方面可能相当糟糕。"
+ },
+ {
+  "seg": 155,
+  "start": 1051.624,
+  "end": 1054.947,
+  "speaker": "Unknown",
+  "en": "Contributors don't usually think deeply about how the code base should evolve over time.",
+  "zh": "贡献者通常不会深入思考代码库应该随着时间如何演进。"
+ },
+ {
+  "seg": 156,
+  "start": 1054.987,
+  "end": 1056.95,
+  "speaker": "Unknown",
+  "en": "They just want their bug fix or their feature in.",
+  "zh": "他们只是想让自己的 bug 修复或功能被合并进去。"
+ },
+ {
+  "seg": 157,
+  "start": 1057.971,
+  "end": 1059.352,
+  "speaker": "Unknown",
+  "en": "And many solutions are glued in place.",
+  "zh": "而且很多解决方案都是硬拼凑上去的。"
+ },
+ {
+  "seg": 158,
+  "start": 1060.033,
+  "end": 1066.782,
+  "speaker": "Unknown",
+  "en": "So we're not quite at the point where the coding agents can read our minds, and thus we're still limited by the medium of text.",
+  "zh": "所以我们还没到编码智能体能读懂我们心思的地步,因此我们仍然受限于文本这一媒介。"
+ },
+ {
+  "seg": 159,
+  "start": 1067.603,
+  "end": 1070.386,
+  "speaker": "Unknown",
+  "en": "And as ridiculous as it sounds, prompt engineering is quite real.",
+  "zh": "尽管听起来很荒唐,提示词工程是相当真实的。"
+ },
+ {
+  "seg": 160,
+  "start": 1070.647,
+  "end": 1075.393,
+  "speaker": "Unknown",
+  "en": "The quality of an implementation can be very much dependent on the prompt that you give the model.",
+  "zh": "一个实现的质量在很大程度上可能取决于你给模型的提示词。"
+ },
+ {
+  "seg": 161,
+  "start": 1076.71,
+  "end": 1079.171,
+  "speaker": "Unknown",
+  "en": "But in a sense, nothing really has changed.",
+  "zh": "但从某种意义上说,其实什么都没有改变。"
+ },
+ {
+  "seg": 162,
+  "start": 1079.271,
+  "end": 1082.352,
+  "speaker": "Unknown",
+  "en": "Reading code has always been more important than writing code.",
+  "zh": "阅读代码一直以来都比编写代码更重要。"
+ },
+ {
+  "seg": 163,
+  "start": 1082.913,
+  "end": 1086.294,
+  "speaker": "Unknown",
+  "en": "Maybe not in the beginning, but eventually as the project evolves, it does.",
+  "zh": "也许一开始不是这样,但随着项目演进,最终会变成这样。"
+ },
+ {
+  "seg": 164,
+  "start": 1087.715,
+  "end": 1095.618,
+  "speaker": "Unknown",
+  "en": "So my closing thoughts on using coding agents to build ambitious software is that code is now cheap, but quality is not.",
+  "zh": "所以关于使用编码智能体构建有雄心的软件,我的结语是:代码现在很廉价,但质量不是。"
+ },
+ {
+  "seg": 165,
+  "start": 1097.519,
+  "end": 1101.981,
+  "speaker": "Unknown",
+  "en": "The job of a software engineer has never really been about putting lines of code on the screen.",
+  "zh": "软件工程师的工作从来都不只是把代码行放到屏幕上。"
+ },
+ {
+  "seg": 166,
+  "start": 1103.044,
+  "end": 1114.049,
+  "speaker": "Unknown",
+  "en": "It's been about architecting elegant solutions to complex problems to thinking 10 steps ahead about how a system will evolve, about retaining flexibility in the face of changing requirements.",
+  "zh": "而是为复杂问题架构优雅的解决方案,是提前思考十步系统将如何演进,是在需求变化面前保持灵活性。"
+ },
+ {
+  "seg": 167,
+  "start": 1115.029,
+  "end": 1119.671,
+  "speaker": "Unknown",
+  "en": "These facts have not changed, and the bar for software engineering is higher than ever.",
+  "zh": "这些事实都没有改变,而且软件工程的门槛比以往任何时候都更高。"
+ },
+ {
+  "seg": 168,
+  "start": 1122.142,
+  "end": 1128.146,
+  "speaker": "Unknown",
+  "en": "If you would like to work on the tools of the next generation of software, Cognition, the people who have acquired Dioxys are hiring.",
+  "zh": "如果你想为下一代软件的工具而工作,Cognition,也就是收购了 Dioxys 的那家公司,正在招聘。"
+ },
+ {
+  "seg": 169,
+  "start": 1128.966,
+  "end": 1132.608,
+  "speaker": "Unknown",
+  "en": "The Dioxys team joined Cognition to be part of the future, and hopefully you will too.",
+  "zh": "Dioxys 团队加入了 Cognition,为的是成为未来的一部分,希望你也一样。"
+ },
+ {
+  "seg": 170,
+  "start": 1133.149,
+  "end": 1133.449,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

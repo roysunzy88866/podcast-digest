@@ -46,11 +46,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]]
+[[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figma":17,"MCP":37,"Lenny":67,"Nico":1,"Figma Make":2,"GitHub":22,"FigJam":1,"Notion":12,"Dev Mode":1,"Slack":25}</script>
+<script type="application/json" class="pd-epn">{"Figma":17,"MCP":38,"Lenny":67,"Nico":1,"Figma Make":2,"GitHub":22,"FigJam":1,"Notion":12,"Dev Mode":1,"Slack":25}</script>
 
 <script>
 (function(){

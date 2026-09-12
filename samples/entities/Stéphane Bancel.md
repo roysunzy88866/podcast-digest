@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jorge Conde":1,"Moderna":1,"Merck":1,"mRNA":1,"癌症疫苗":1,"Keytruda":1,"CAR T 疗法":2,"个性化医疗":1,"FDA":1,"AI":16}</script>
+<script type="application/json" class="pd-epn">{"Jorge Conde":1,"Moderna":1,"Merck":1,"mRNA":1,"癌症疫苗":1,"Keytruda":1,"CAR T 疗法":2,"个性化医疗":1,"FDA":1,"AI":17}</script>
 
 <script>
 (function(){

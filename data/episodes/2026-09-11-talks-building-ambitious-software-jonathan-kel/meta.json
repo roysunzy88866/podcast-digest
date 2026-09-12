@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-11-talks-building-ambitious-software-jonathan-kel",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/H7vFrcNWXzs.m4a",
+  "duration_sec": 1133.449,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 171,
+  "asr": true,
+  "title_en": "Building ambitious software — Jonathan Kelley, Dioxus Labs & Cognition",
+  "podcast": "精选演讲",
+  "date": "2026-09-11",
+  "added": "2026-09-13",
+  "added_at": "2026-09-12T20:35:01.850Z",
+  "speaker_map": {
+    "SPEAKER_00": "Jonathan Kelley"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Jonathan Kelley"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "从拒用 AI 到全面拥抱：Dioxus 团队的智能体编程实战课",
+  "guest_name": "Jonathan Kelley",
+  "guest_title": "Dioxus 框架缔造者",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

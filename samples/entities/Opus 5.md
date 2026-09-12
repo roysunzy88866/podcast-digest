@@ -29,7 +29,7 @@ unlisted: true
 
 [[Anthropic]] · [[提示词注入]] · [[OpenAI]] · [[智能体]] · [[Fable]] · [[GPT-506]] · [[Boris Cherny]] · [[Aaron Levie]] · [[Claude]] · [[Cloud Code]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":118,"提示词注入":11,"OpenAI":105,"智能体":226,"Fable":9,"GPT-506":1,"Boris Cherny":2,"Aaron Levie":1,"Claude":56,"Cloud Code":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":118,"提示词注入":11,"OpenAI":105,"智能体":229,"Fable":9,"GPT-506":1,"Boris Cherny":2,"Aaron Levie":1,"Claude":56,"Cloud Code":3}</script>
 
 <script>
 (function(){

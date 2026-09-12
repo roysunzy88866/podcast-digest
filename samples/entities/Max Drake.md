@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TLDraw":1,"智能体":226,"多智能体协调":2,"编码智能体":12,"Claude Code":57,"Canvas":2,"Fairies":1,"Agent Starter Kit":1,"TechTree 应用":1,"Replit":16}</script>
+<script type="application/json" class="pd-epn">{"TLDraw":1,"智能体":229,"多智能体协调":2,"编码智能体":12,"Claude Code":58,"Canvas":2,"Fairies":1,"Agent Starter Kit":1,"TechTree 应用":1,"Replit":16}</script>
 
 <script>
 (function(){

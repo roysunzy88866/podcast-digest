@@ -1,0 +1,29 @@
+{
+  "id": "2026-09-03-talks-grok-bot-for-product-best-practices",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/x5OawRpQxII.m4a",
+  "duration_sec": 3231.12,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 711,
+  "asr": true,
+  "title_en": "Grok Bot For Product Best Practices",
+  "podcast": "精选演讲",
+  "date": "2026-09-03",
+  "added": "2026-09-13",
+  "added_at": "2026-09-12T20:00:37.625Z",
+  "speaker_map": {
+    "SPEAKER_01": "Kevin DeFarco",
+    "SPEAKER_02": "Roshan",
+    "SPEAKER_00": "Noah"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Kevin DeFarco",
+  "cohosts": [
+    "Roshan",
+    "Noah"
+  ],
+  "title_zh": "一个有电脑的智能体:让 AI 同事团替你做产品",
+  "guest_name": "Kevin DeFarco",
+  "guest_title": "SpaceX AI 产品团队",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

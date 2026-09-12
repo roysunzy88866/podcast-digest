@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
+[[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Eight Sleep":1,"Anthropic":118,"Claude":56,"智能体":226,"CAC":1,"增量测试":1,"人形机器人":2,"Xiaomi":1,"OpenAI":105}</script>
+<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Eight Sleep":1,"Anthropic":118,"Claude":56,"智能体":229,"CAC":1,"增量测试":1,"人形机器人":2,"Xiaomi":1,"OpenAI":105}</script>
 
 <script>
 (function(){

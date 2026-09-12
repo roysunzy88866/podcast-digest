@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]]
+[[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Block":3,"Goose":2,"智能体":226,"MCP":37,"康威定律":2,"职能型架构":1,"LLM":31,"开源模型":16,"Anthropic":118}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Block":3,"Goose":2,"智能体":229,"MCP":38,"康威定律":2,"职能型架构":1,"LLM":31,"开源模型":16,"Anthropic":118}</script>
 
 <script>
 (function(){

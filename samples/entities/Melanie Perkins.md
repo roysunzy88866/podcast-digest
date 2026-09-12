@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]]
+[[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Kevin DeFarco]] [[Roshan]] [[Noah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Canva":4,"Column B":1,"疯狂大目标":1,"从混乱到清晰":1,"使命支柱":1,"两步计划":1,"前端重写":1,"AI":16}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Canva":4,"Column B":1,"疯狂大目标":1,"从混乱到清晰":1,"使命支柱":1,"两步计划":1,"前端重写":1,"AI":17}</script>
 
 <script>
 (function(){

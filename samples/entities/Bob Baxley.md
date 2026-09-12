@@ -51,7 +51,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]]
+[[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Kevin DeFarco]] [[Roshan]] [[Noah]]
 
 </div>
 

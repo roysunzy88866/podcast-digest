@@ -113,7 +113,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Cursor]] · [[OpenAI]] · [[推理]] · [[NVIDIA]] · [[Codex]] · [[后训练]] · [[OpenRouter]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"智能体":226,"Anthropic":118,"Cursor":58,"OpenAI":105,"推理":42,"NVIDIA":33,"Codex":46,"后训练":20,"OpenRouter":10,"harness":30}</script>
+<script type="application/json" class="pd-epn">{"智能体":229,"Anthropic":118,"Cursor":58,"OpenAI":105,"推理":42,"NVIDIA":33,"Codex":46,"后训练":20,"OpenRouter":10,"harness":30}</script>
 
 <script>
 (function(){

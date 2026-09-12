@@ -49,7 +49,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[Salesforce]] · [[OpenRouter]] · [[开源]] · [[Meta]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":226,"Anthropic":118,"OpenAI":105,"Cursor":58,"推理":42,"Salesforce":17,"OpenRouter":10,"开源":20,"Meta":30,"Claude Code":57}</script>
+<script type="application/json" class="pd-epn">{"智能体":229,"Anthropic":118,"OpenAI":105,"Cursor":58,"推理":42,"Salesforce":17,"OpenRouter":10,"开源":21,"Meta":30,"Claude Code":58}</script>
 
 <script>
 (function(){

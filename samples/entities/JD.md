@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Town":3,"Plaid":2,"AI 助手":2,"智能体":226,"网络效应":9,"护城河":10,"模型路由":6,"前沿模型":16,"Anthropic":118}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Town":3,"Plaid":2,"AI 助手":2,"智能体":229,"网络效应":10,"护城河":10,"模型路由":6,"前沿模型":16,"Anthropic":118}</script>
 
 <script>
 (function(){

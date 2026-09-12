@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>37</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>38</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -38,6 +38,7 @@ unlisted: true
 - **[[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]]**(38:49起):本集说 MCP 是让客户接入其平台的连接协议，用 MCP 的客户上线更多智能体，因此上线时定下『90 天 100 个用户』的硬指标作为实验案例
 - **[[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]]**(55:25起):本集说 2025 年靠工具和 MCP 解决了 LLM 知识截止日期问题；MongoDB 提供 MCP 服务器让智能体更容易访问数据。
 - **[[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]]**(18:00起):本集说大家都讨论 MCP 和 CLI、称「没有 UI 才是下一个 UI」,但既然 AI 能替你点按钮,SaaS 不必都改造成 CLI/MCP,「UI 回来了」;她的产品智能功能也通过 MCP 暴露出去。
+- **[[2026-09-03-talks-grok-bot-for-product-best-practices|《一个有电脑的智能体:让 AI 同事团替你做产品》]]**(31:12起):本集提到连接器、MCP 和集成是整个行业智能体故事中重要的一部分，GrokBot 通过 marketplace 让智能体接入 Slack、Notion、Figma 等工具。
 - **[[2026-09-03-talks-model-selection-token-efficiency|《Token 都烧在哪了：Cursor 工程师教你把 AI 编程成本打下来》]]**(30:03起):本集把它说成:harness 协调的工具调用之一;不用的 MCP 服务器应审计删掉,避免白白占据每轮上下文
 - **[[2026-09-03-talks-refactoring-legacy-codebases|《用 Cursor 重构遗留代码库：从 PHP 到 React 的完整工作流》]]**(18:18起):本集把它说成：把 Atlassian、Datadog、Figma、Google 等外部工具接进 Cursor（本地和云端通用）的插件/集成体系
 - **[[2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p|《LinkedIn 怎么让编码智能体真正读懂内部系统》]]**(06:30起):Anthropic 发布的为智能体构建工具的行业标准协议;LinkedIn 构建了内部 MCP,把 CodeSearch、Docs、Jira、Slack 等工具开放给智能体,并面临超过三四十个工具会拖垮性能的通病
@@ -61,7 +62,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*37 集*
+*38 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
@@ -90,6 +91,7 @@ unlisted: true
 - [[2026-08-31-pmf-he-sold-his-8-figure-business-to-bet-on|《三次找到产品市场匹配：一个创始人的实战手册》]] — 作为概念
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]] — 作为概念(提及)
 - [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]] — 作为概念
+- [[2026-09-03-talks-grok-bot-for-product-best-practices|《一个有电脑的智能体:让 AI 同事团替你做产品》]] — 作为概念(提及)
 - [[2026-09-03-talks-model-selection-token-efficiency|《Token 都烧在哪了：Cursor 工程师教你把 AI 编程成本打下来》]] — 作为概念(提及)
 - [[2026-09-03-talks-refactoring-legacy-codebases|《用 Cursor 重构遗留代码库：从 PHP 到 React 的完整工作流》]] — 作为概念
 - [[2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p|《LinkedIn 怎么让编码智能体真正读懂内部系统》]] — 作为概念
@@ -107,7 +109,7 @@ unlisted: true
 
 [[智能体]] · [[Claude]] · [[Anthropic]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[Cursor]] · [[护栏]] · [[Figma]] · [[计算机使用]]
 
-<script type="application/json" class="pd-epn">{"智能体":226,"Claude":56,"Anthropic":118,"OpenAI":105,"Codex":46,"Claude Code":57,"Cursor":58,"护栏":43,"Figma":17,"计算机使用":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":229,"Claude":56,"Anthropic":118,"OpenAI":105,"Codex":46,"Claude Code":58,"Cursor":58,"护栏":43,"Figma":17,"计算机使用":10}</script>
 
 <script>
 (function(){

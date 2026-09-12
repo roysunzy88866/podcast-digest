@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"a16z":14,"Kairos":1,"Council Health":1,"AI":16,"智能体 AI":3,"大型语言模型":4,"电子健康记录":1,"第三方支付体系":1,"消费级医疗":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"a16z":14,"Kairos":1,"Council Health":1,"AI":17,"智能体 AI":3,"大型语言模型":4,"电子健康记录":1,"第三方支付体系":1,"消费级医疗":1}</script>
 
 <script>
 (function(){

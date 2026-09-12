@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]]
+[[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Fajani":3,"harness 工程":1,"Codex":46,"OpenAI":105,"智能体":226,"提示词注入":11,"护栏":43,"上下文工程":12,"Symfony":1,"规范":1}</script>
+<script type="application/json" class="pd-epn">{"Guy Fajani":3,"harness 工程":1,"Codex":46,"OpenAI":105,"智能体":229,"提示词注入":11,"护栏":43,"上下文工程":12,"Symfony":1,"规范":1}</script>
 
 <script>
 (function(){

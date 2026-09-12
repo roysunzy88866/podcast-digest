@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"n8n":1,"智能体":226,"工作流":6,"开源":20,"fair-code":1,"LLM":31,"人在回路":8,"自托管":1,"自带密钥":1,"编排":4}</script>
+<script type="application/json" class="pd-epn">{"n8n":1,"智能体":229,"工作流":6,"开源":21,"fair-code":1,"LLM":31,"人在回路":8,"自托管":1,"自带密钥":1,"编排":4}</script>
 
 <script>
 (function(){

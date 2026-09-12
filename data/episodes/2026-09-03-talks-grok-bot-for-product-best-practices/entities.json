@@ -1,0 +1,1183 @@
+{
+  "episode_id": "2026-09-03-talks-grok-bot-for-product-best-practices",
+  "podcast": "精选演讲",
+  "date": "2026-09-03",
+  "tags": [
+    "智能体",
+    "多智能体协作",
+    "产品管理",
+    "记忆与例程",
+    "AI 编程"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "kevin-defarco",
+      "type": "person",
+      "role": "host",
+      "name": "Kevin DeFarco",
+      "file": "Kevin DeFarco",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            3.312,
+            7.592
+          ],
+          "quote": "I'm Kevin DeFarco over from the SpaceX AI product team.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "roshan",
+      "type": "person",
+      "role": "cohost",
+      "name": "Roshan",
+      "file": "Roshan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            12.113,
+            14.594
+          ],
+          "quote": "Hey, I'm Roshan, also on the product team at SpaceX AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 111,
+          "t": [
+            525.166,
+            537.209
+          ],
+          "quote": "As Roshan mentioned, like being a product manager, there can be context which lives in Notion, in Slack, in Gmail, and many other surfaces, your support tools, your CRM, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            566.465,
+            574.452
+          ],
+          "quote": "This is a combination of things that Roshan and I and the product team over at SpaceX AI have found to be very useful for product management.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            759.757,
+            764.319
+          ],
+          "quote": "And yes, as Roshan mentioned, the PMs often wear many hats.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "noah",
+      "type": "person",
+      "role": "cohost",
+      "name": "Noah",
+      "file": "Noah",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            22.195,
+            26.316
+          ],
+          "quote": "And we are joined by Noah, who will be moderating today's discussion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            26.356,
+            27.456
+          ],
+          "quote": "Noah, do you want to introduce yourself?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            29.661,
+            30.321
+          ],
+          "quote": "My name is Noah.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2710.969,
+            2717.651
+          ],
+          "quote": "All right, Noah, I believe you have been curating some of the top questions coming in as we went.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3103.434,
+            3112.441
+          ],
+          "quote": "And then, you know, Noah, to your point around pulling back the curtain a little bit, I think a lot of the ways that we find ourselves interacting with GrokBots is sort of through those connections that we've been talking about.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "grokbot",
+      "type": "company",
+      "role": "company",
+      "name": "GrokBot",
+      "file": "GrokBot",
+      "primary": true,
+      "how_described": "本集介绍它是「一个拥有电脑的智能体」加「一支可以交给真正工作的 AI 队友」：智能体有自己的持久电脑和运行环境，像同事一样私信往来、端到端完成任务，卡住时会回来找你。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            7.772,
+            11.713
+          ],
+          "quote": "Very excited to be presenting GrokBot for product with my colleague.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 7,
+          "t": [
+            14.894,
+            18.194
+          ],
+          "quote": "I have been spending a bunch of time using GrokBot and working on it behind the scenes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 28,
+          "t": [
+            90.85,
+            96.992
+          ],
+          "quote": "And so very excited to talk about GrokBot and the ways that we've been using it on the SpaceX AI product team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            97.872,
+            102.373
+          ],
+          "quote": "And so with that, wanted to share a little backdrop of why we built GrokBot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            102.933,
+            107.679
+          ],
+          "quote": "Yeah, so I thought it'd be helpful to just kick off with some general context and kind of why, yeah, why GrokBot exists.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 60,
+          "t": [
+            267.871,
+            277.375
+          ],
+          "quote": "And why this distinction is so important, I think, is because it's a lot of the inspiration behind the design of GrokBot and how it works and how we're thinking about the roadmap, too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            346.388,
+            351.589
+          ],
+          "quote": "For those of you who had all the ones in the chat at the beginning from having used GrokBot, hopefully you've seen some of this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            353.21,
+            355.212
+          ],
+          "quote": "But I guess that brings us to, well, what is GrokBot?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            359.376,
+            367.363
+          ],
+          "quote": "So if there's sort of two things that you're using when you're talking about GrokBot or when you're talking about it with your friends and colleagues, the first is that it's an agent with a computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            393.507,
+            400.791
+          ],
+          "quote": "And I've been pretty excited to see a lot of folks on X and other places talking about how GrokBot seems to be more of a doing agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 87,
+          "t": [
+            404.612,
+            412.698
+          ],
+          "quote": "Yeah, I think one of the things that we wanted to incorporate into GrokBot is thinking about working with sort of your best colleague or your best coworker or teammate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            461.138,
+            465.58
+          ],
+          "quote": "One of the things that I've found, Grokbot, to be very helpful with is keeping me focused.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            476.104,
+            495.716
+          ],
+          "quote": "And so I like to think about GrokBot as sort of sitting on top of my shoulder, being able to review all of the emails coming into my inbox, see what I'm responding to, see the different Slack threads that I'm actually engaging with, maybe the Slack threads that I need to know about but are missing, and curate this attention list that can then be used in different ways.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            718.677,
+            730.143
+          ],
+          "quote": "And so there was a really great designer who posted a design system there and kind of took that and put some of the context into GrokBot and you can kind of have supplemented that as well with some other design best practices.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 142,
+          "t": [
+            730.163,
+            746.272
+          ],
+          "quote": "And I think it's been like one of the more fun ways to do design and Pixel has access to Figma, of course, so can get into Figma and help make designs and slides and also has access to our design system so that when we want to make something that matches the GrokBot brand or matches other parts of the SpaceX AI brand,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 171,
+          "t": [
+            881.337,
+            883.358
+          ],
+          "quote": "So we'll pan over to GrokBot here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 172,
+          "t": [
+            883.978,
+            893.4
+          ],
+          "quote": "And just to orient you, if you were one of the folks who put a zero in the chat when we were gathering, meaning you have not used GrokBot before, well, this is GrokBot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 176,
+          "t": [
+            902.542,
+            905.504
+          ],
+          "quote": "But essentially, GrokBot is meant to really just be simple.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1009.754,
+            1020.74
+          ],
+          "quote": "And so we are asking our colleagues here in GrokBot to hallucinate a little bit and create some fictitious data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1191.324,
+            1200.867
+          ],
+          "quote": "And so while Quora sets that up, we are going to, I think, build a feature together live with our Grokbot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1270.898,
+            1282.446
+          ],
+          "quote": "I'm loving two-way voice, but while we have you all here, maybe you can throw in your top GrokBot feature requests for anybody who has been using the product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1289.07,
+            1296.915
+          ],
+          "quote": "Connect GrokBot to Tesla, account switcher, ability to switch models, sync of draft messages.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1561.961,
+            1569.149
+          ],
+          "quote": "We'll also call out that GrokBot right now internally in SpaceX AI is sitting on a great foundation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1576.978,
+            1581.24
+          ],
+          "quote": "data set and a good data lake to connect GrokBot too.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1581.32,
+            1595.205
+          ],
+          "quote": "And so there's been a lot of hard work on our data engineering team who are using GrokBot to build a lot of these data sets and curate a lot of this good data on top of which Ashley can query and provide trusted insights.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1656.865,
+            1666.145
+          ],
+          "quote": "Let's write a PRD RFC for voice mode in GrokBot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1710.658,
+            1718.703
+          ],
+          "quote": "So one of the cool things about GrokBot, can you also loop in Pixel to help with design?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1856.626,
+            1862.788
+          ],
+          "quote": "And so as we're launching new features into GrokBot, being able to see how they're going is really helpful to the product team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1872.73,
+            1879.315
+          ],
+          "quote": "Recently launched support for the X MCP in GrokBot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1969.797,
+            1971.497
+          ],
+          "quote": "Our GrokBot voice mode.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1995.023,
+            1997.704
+          ],
+          "quote": "Voice mode on GrokBot, which is very cool.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2070.677,
+            2074.199
+          ],
+          "quote": "So one thing that you can do in GrokBot is you can actually just create a group chat.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2202.147,
+            2209.831
+          ],
+          "quote": "And one of the amazing things of GrokBot is it is able to actually spin off cloud agents to do coding tasks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2210.111,
+            2221.896
+          ],
+          "quote": "And so you can think of GrokBot as being able to hook into a specific coding harness and a set of cloud agent environments, which is really optimized for coding tasks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2245.445,
+            2250.81
+          ],
+          "quote": "And so one of the ideas that inspired this particular feature in GrokBot was making that feel really native.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2347.487,
+            2350.11
+          ],
+          "quote": "And so we saw that mock-up of GrokBot on mobile voice.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2364.441,
+            2371.026
+          ],
+          "quote": "I can talk into GrokBot with the speech of text flow and maybe soon a voice flow.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2456.433,
+            2461.295
+          ],
+          "quote": "So for your development workflows, if you're excited to use GrokBot for this, obviously, that might look different.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2635.102,
+            2643.066
+          ],
+          "quote": "So let's fire that off and let's let XBot respond to anybody in my DMs with a little promo code for GrokBot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2659.714,
+            2664.516
+          ],
+          "quote": "I would love to hear what you build and very excited to get GrokBot in your hands.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2702.556,
+            2706.877
+          ],
+          "quote": "But yeah, very excited to see what you build, very excited for everything that's to come in GrokBot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2720.951,
+            2733.754
+          ],
+          "quote": "There's a lot in here around just what is the future of GrokBot look like as far as the platform itself, but also how does that connect with things like cursor cloud agents and stuff like that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2743.135,
+            2748.618
+          ],
+          "quote": "Really, I think we want GrokBot to be the platform for you to do your most useful work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2833.983,
+            2845.93
+          ],
+          "quote": "And so a lot of that means new tools, new connectors, and new ways of working that are going to allow your GrokBot team to be able to take on more and higher complexity work over time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 661,
+          "t": [
+            2949.131,
+            2956.994
+          ],
+          "quote": "And anybody who's invested heavily in agent contact systems, in your skills, all of that ports over to GrokBot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 663,
+          "t": [
+            2964.577,
+            2972.419
+          ],
+          "quote": "for those who are used to working with agents exclusively via the text box is your GrokBot team can learn on the job.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2998.246,
+            3003.307
+          ],
+          "quote": "There's a lot of curiosity just into how our team is using GrokBot as a whole.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3004.187,
+            3011.728
+          ],
+          "quote": "People have asked what portion of Cursor or SpaceX in general is using GrokBot in their work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 669,
+          "t": [
+            3011.748,
+            3021.43
+          ],
+          "quote": "We talked a lot about the PM use cases here, but there's also questions of like, hey, how much of the features that get shipped are designed by GrokBot versus you all?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3066.042,
+            3075.051
+          ],
+          "quote": "The other thing which I think was sort of novel here and not expected is just how useful GrokBot has been for product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3088.842,
+            3102.053
+          ],
+          "quote": "And we've seen a significant number of our merge pull requests these days are now coming from colleagues in GrokBot actually initiating the work with cloud agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3112.521,
+            3116.645
+          ],
+          "quote": "So a lot of times folks will have a GrokBot helping them monitor Slack.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "spacex-ai",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX AI",
+      "file": "SpaceX AI",
+      "primary": true,
+      "how_described": "本集两位演示者所在的 AI 产品团队，GrokBot 即出自这里；内部数据显示相当大比例的合并 PR 由 GrokBot 里的同事通过云端智能体发起。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            3.312,
+            7.592
+          ],
+          "quote": "I'm Kevin DeFarco over from the SpaceX AI product team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            12.113,
+            14.594
+          ],
+          "quote": "Hey, I'm Roshan, also on the product team at SpaceX AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 28,
+          "t": [
+            90.85,
+            96.992
+          ],
+          "quote": "And so very excited to talk about GrokBot and the ways that we've been using it on the SpaceX AI product team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            566.465,
+            574.452
+          ],
+          "quote": "This is a combination of things that Roshan and I and the product team over at SpaceX AI have found to be very useful for product management.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            621.961,
+            634.984
+          ],
+          "quote": "And so these engineers are able to both learn from existing code and PRs that we have historically pushed across SpaceX AI and learn some of the best practices, encode some of the",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            635.404,
+            641.957
+          ],
+          "quote": "Skills from some of the best engineers across SpaceX AI to be able to work just like an engineer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            730.163,
+            746.272
+          ],
+          "quote": "And I think it's been like one of the more fun ways to do design and Pixel has access to Figma, of course, so can get into Figma and help make designs and slides and also has access to our design system so that when we want to make something that matches the GrokBot brand or matches other parts of the SpaceX AI brand,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1561.961,
+            1569.149
+          ],
+          "quote": "We'll also call out that GrokBot right now internally in SpaceX AI is sitting on a great foundation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成应「像同事而非像软件」协作的存在：聊天框局限了它，给它能验证自己输出的独立环境和持久记忆，产出质量显著更好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            143.632,
+            148.597
+          ],
+          "quote": "And so really wanting to think about what the right interface is and the right way to interact with an agent would be.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            216.992,
+            221.973
+          ],
+          "quote": "The last thing I wanted to mention here is that, you know, it gets really hard to babysit multiple agent threads.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            222.113,
+            232.775
+          ],
+          "quote": "We had a lot of folks internally who had built their own sort of, you know, coordinator agent that was then calling out to other agents, but that wasn't ever really done in a really first class way across products.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            283.157,
+            289.02
+          ],
+          "quote": "Obviously, sort of connectors and MCPs and integrations have been a really strong and important part of the agent story across the industry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            359.376,
+            367.363
+          ],
+          "quote": "So if there's sort of two things that you're using when you're talking about GrokBot or when you're talking about it with your friends and colleagues, the first is that it's an agent with a computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 80,
+          "t": [
+            370.986,
+            376.211
+          ],
+          "quote": "It sort of gives the agent its own machine, its own environment to operate in, just like I was talking about.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            393.507,
+            400.791
+          ],
+          "quote": "And I've been pretty excited to see a lot of folks on X and other places talking about how GrokBot seems to be more of a doing agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 112,
+          "t": [
+            537.229,
+            549.972
+          ],
+          "quote": "And so being able to have an agent, a colleague that you can work with who can help you collect that, synthesize that, and formulate that into new product directions, very exciting, and we'll go deep into that use case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            764.519,
+            770.782
+          ],
+          "quote": "And so being able to have a colleague, an agent that you can turn to for a lot of this work is very helpful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            799.08,
+            800.461
+          ],
+          "quote": "Could this just be one agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            832.924,
+            839.427
+          ],
+          "quote": "So each agent is learning on the job, you're coaching them, you're giving them feedback, and so they're able to learn different things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            865.728,
+            868.65
+          ],
+          "quote": "I've tried having just one agent and like my brain can't handle it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 190,
+          "t": [
+            949.569,
+            957.596
+          ],
+          "quote": "We have categories where we've broken these down and everything from agent orchestration tools to inbox tools, you know, MCPs that are in here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            975.175,
+            977.998
+          ],
+          "quote": "And once you do that set up once, sort of every agent benefits.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1126.616,
+            1129.877
+          ],
+          "quote": "So routines are ways that you can automate agent tasks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1139.88,
+            1145.842
+          ],
+          "quote": "Sometimes if an agent sees you do these tasks or do some tasks over and over again, it'll suggest or automatically create a routine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1501.949,
+            1507.674
+          ],
+          "quote": "And one very useful pro tip is to always ask the agent to bring in citations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1509.595,
+            1516.841
+          ],
+          "quote": "And maybe there's some additional editing or follow-up questions that you want to provide on the underlying data set that agent had used.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1812.206,
+            1818.348
+          ],
+          "quote": "I think one of the cool things here too is they're sharing, but also each agent still has its own memories, its own context, its own routines.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2210.111,
+            2221.896
+          ],
+          "quote": "And so you can think of GrokBot as being able to hook into a specific coding harness and a set of cloud agent environments, which is really optimized for coding tasks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2227.919,
+            2244.845
+          ],
+          "quote": "Yeah, I think this goes back to what we were talking about earlier with what we saw internally, which is a lot of our really great engineers found themselves managing multiple sort of even dozens or hundreds of agent threads over the course of a day and sort of were creating their own versions of orchestrator or coordinator or sort of manager agents",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2607.549,
+            2612.012
+          ],
+          "quote": "But I do see one other agent here, which looks like Xbot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2614.954,
+            2621.379
+          ],
+          "quote": "Xbot is actually an agent which manages my XDMs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2882.783,
+            2886.445
+          ],
+          "quote": "And particularly because they behave, I think, differently than a lot of other agent products do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 655,
+          "t": [
+            2929.859,
+            2937.446
+          ],
+          "quote": "Like I work with my agent who remembers the stuff that's most recent, some of the older stuff that's like kind of fallen off the roadmap list, for example,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 661,
+          "t": [
+            2949.131,
+            2956.994
+          ],
+          "quote": "And anybody who's invested heavily in agent contact systems, in your skills, all of that ports over to GrokBot.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "multiple-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体团队 (multiple agents)",
+      "file": "多智能体团队",
+      "primary": true,
+      "how_described": "本集说为什么是多个智能体而不是一个：对应真实组织的专家分工、可引用性、各自的「范围记忆」、还能并行运行；只用一个智能体「大脑根本受不了」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            800.781,
+            810.529
+          ],
+          "quote": "And I think we've sort of distilled this down into a few sort of helpful principles of why multiple agents or multiple colleagues really makes the most sense.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cloud-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "云端智能体 (cloud agents)",
+      "file": "云端智能体",
+      "primary": true,
+      "how_described": "本集说 GrokBot 能派生云端智能体去做编码任务，让管理者智能体编排几十上百个编码线程；让智能体验证自己的工作会带来显著更好的结果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            192.003,
+            202.327
+          ],
+          "quote": "We actually saw a lot of this with cloud agents early on, where giving agents the ability to verify their work and verify their output results in dramatically better outcomes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2202.147,
+            2209.831
+          ],
+          "quote": "And one of the amazing things of GrokBot is it is able to actually spin off cloud agents to do coding tasks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2222.096,
+            2227.779
+          ],
+          "quote": "And so you can have this great handoff and these managers of cloud agents going forward.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2720.951,
+            2733.754
+          ],
+          "quote": "There's a lot in here around just what is the future of GrokBot look like as far as the platform itself, but also how does that connect with things like cursor cloud agents and stuff like that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2770.79,
+            2777.051
+          ],
+          "quote": "And so obviously for coding workflows, that means things like cloud agents and making that experience really great.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 633,
+          "t": [
+            2789.734,
+            2794.998
+          ],
+          "quote": "Long story short, you know, we talked earlier and showed you earlier how these agents, these bots can create cloud agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3078.734,
+            3088.722
+          ],
+          "quote": "And so really the connection to cloud agents and having a really great coding harness alongside a autonomous colleague has been really magical.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3088.842,
+            3102.053
+          ],
+          "quote": "And we've seen a significant number of our merge pull requests these days are now coming from colleagues in GrokBot actually initiating the work with cloud agents.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "routine",
+      "type": "concept",
+      "role": "concept",
+      "name": "例程 (routine)",
+      "file": "例程",
+      "primary": true,
+      "how_described": "本集说 routines 是定时重复、原生具备智能体能力的自动化任务，比如每小时整理收件箱、给新功能发小时级数据简报，让分析从盯仪表盘变成被动推送。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 229,
+          "t": [
+            1118.633,
+            1124.735
+          ],
+          "quote": "And so what's going to happen under the hood here is Cora is actually going to set up what we call a routine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1139.88,
+            1145.842
+          ],
+          "quote": "Sometimes if an agent sees you do these tasks or do some tasks over and over again, it'll suggest or automatically create a routine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1893.483,
+            1895.505
+          ],
+          "quote": "And so this is me setting up a routine here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1929.373,
+            1933.417
+          ],
+          "quote": "And so, yeah, it looks like we have a routine that's created.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1959.07,
+            1968.777
+          ],
+          "quote": "And while we were setting up that routine, PMP has returned with our product review doc, and so we have a draft of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2876.398,
+            2881.982
+          ],
+          "quote": "Yeah, we spend a lot of time thinking about, call it like the memory system and routine system for these agents.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集说每个智能体有自己的持久记忆和上下文：偏好设定一次处处生效（如 Pixel 总用深色模式），对话可连续运行数月、随时间越用越聪明。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            298.685,
+            303.247
+          ],
+          "quote": "I think long running context and memory is really important about it here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 156,
+          "t": [
+            831.083,
+            832.904
+          ],
+          "quote": "You also have scope memory, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2876.398,
+            2881.982
+          ],
+          "quote": "Yeah, we spend a lot of time thinking about, call it like the memory system and routine system for these agents.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集提到连接器、MCP 和集成是整个行业智能体故事中重要的一部分，GrokBot 通过 marketplace 让智能体接入 Slack、Notion、Figma 等工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 414,
+          "t": [
+            1872.73,
+            1879.315
+          ],
+          "quote": "Recently launched support for the X MCP in GrokBot.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

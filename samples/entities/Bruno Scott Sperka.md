@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]]
+[[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":22,"Terraform":1,"Hashicorp":1,"Kubernetes":5,"开源":20,"智能体":226,"PR":5,"AI":16,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":22,"Terraform":1,"Hashicorp":1,"Kubernetes":5,"开源":21,"智能体":229,"PR":5,"AI":17,"工匠精神":1}</script>
 
 <script>
 (function(){

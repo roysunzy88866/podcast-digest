@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]]
+[[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Willison":1,"Cat Wu":1,"Anthropic":118,"Claude Code":57,"ClaudeTag":1,"Fable":9,"Slack":25,"Bun":2,"Rust":3,"Gemini":6}</script>
+<script type="application/json" class="pd-epn">{"Simon Willison":1,"Cat Wu":1,"Anthropic":118,"Claude Code":58,"ClaudeTag":1,"Fable":9,"Slack":25,"Bun":2,"Rust":4,"Gemini":6}</script>
 
 <script>
 (function(){

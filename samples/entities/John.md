@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":11,"创始人-市场契合度":3,"智能体":226,"模型能力的边缘":1,"垂直化":1,"SaaS":15}</script>
+<script type="application/json" class="pd-epn">{"YC":11,"创始人-市场契合度":3,"智能体":229,"模型能力的边缘":1,"垂直化":1,"SaaS":15}</script>
 
 <script>
 (function(){

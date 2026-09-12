@@ -25,7 +25,7 @@ unlisted: true
 
 [[Alex Rampell]] · [[Max Levchin]] · [[Affirm]] · [[PayPal]] · [[TrialPay]] · [[Visa]] · [[1-800-Flowers]] · [[支付]] · [[信用卡]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Alex Rampell":2,"Max Levchin":1,"Affirm":2,"PayPal":5,"TrialPay":1,"Visa":2,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":226}</script>
+<script type="application/json" class="pd-epn">{"Alex Rampell":2,"Max Levchin":1,"Affirm":2,"PayPal":5,"TrialPay":1,"Visa":2,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":229}</script>
 
 <script>
 (function(){

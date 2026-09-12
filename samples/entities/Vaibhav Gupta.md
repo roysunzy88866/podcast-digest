@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]]
+[[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":3,"智能体":226,"代码审查":10,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":1,"TypeScript":2,"JavaScript":1}</script>
+<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":3,"智能体":229,"代码审查":10,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":1,"TypeScript":2,"JavaScript":1}</script>
 
 <script>
 (function(){

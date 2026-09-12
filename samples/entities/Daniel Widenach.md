@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":7,"智能体":226,"多智能体架构":1,"智能体控制框架":1,"AI 模型":1,"开源权重":7,"封闭模型":2,"垂直整合":4,"开放框架":1,"护栏":43}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":7,"智能体":229,"多智能体架构":1,"智能体控制框架":1,"AI 模型":1,"开源权重":7,"封闭模型":2,"垂直整合":4,"开放框架":1,"护栏":43}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Resolve AI":1,"GitHub":22,"Slack":25,"智能体":226,"后台智能体":4,"生产上下文":1,"可观测性":19,"沙箱":41,"部署监控":1,"功能开关":3}</script>
+<script type="application/json" class="pd-epn">{"Resolve AI":1,"GitHub":22,"Slack":25,"智能体":229,"后台智能体":4,"生产上下文":1,"可观测性":19,"沙箱":41,"部署监控":1,"功能开关":3}</script>
 
 <script>
 (function(){

@@ -44,7 +44,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Google]] · [[Microsoft]] · [[NVIDIA]] · [[智能体]] · [[Meta]] · [[Apple]] · [[资本支出]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":105,"Anthropic":118,"Google":40,"Microsoft":24,"NVIDIA":33,"智能体":226,"Meta":30,"Apple":17,"资本支出":4,"主观能动性":18}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":105,"Anthropic":118,"Google":40,"Microsoft":24,"NVIDIA":33,"智能体":229,"Meta":30,"Apple":17,"资本支出":4,"主观能动性":18}</script>
 
 <script>
 (function(){

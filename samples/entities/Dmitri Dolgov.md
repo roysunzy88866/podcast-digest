@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Waymo":13,"Waymo driver":1,"智能体":226,"物理 AI":7,"LiDAR":1,"端到端训练":2,"模拟器":3,"世界模型":6,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
+<script type="application/json" class="pd-epn">{"Waymo":13,"Waymo driver":1,"智能体":229,"物理 AI":7,"LiDAR":1,"端到端训练":2,"模拟器":3,"世界模型":6,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
 
 <script>
 (function(){

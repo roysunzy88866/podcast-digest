@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":2,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":6,"智能体":226,"开源模型":16,"微调":15,"业务逻辑":1,"前向部署工程师":7,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":2,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":6,"智能体":229,"开源模型":16,"微调":15,"业务逻辑":1,"前向部署工程师":7,"Duet":1}</script>
 
 <script>
 (function(){

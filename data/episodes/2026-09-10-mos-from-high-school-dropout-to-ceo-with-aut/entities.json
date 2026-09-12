@@ -1,0 +1,698 @@
+{
+  "episode_id": "2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut",
+  "podcast": "Masters of Scale",
+  "date": "2026-09-10",
+  "tags": [
+    "领导力",
+    "AI 战略",
+    "企业转型",
+    "人才观",
+    "职业成长"
+  ],
+  "categories": [
+    "组织与领导力",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jeff-berman",
+      "type": "person",
+      "role": "host",
+      "name": "Jeff Berman",
+      "file": "Jeff Berman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            45.017,
+            46.358
+          ],
+          "quote": "I'm Jeff Berman, your host.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 500,
+          "t": [
+            1919.718,
+            1920.359
+          ],
+          "quote": "I'm Jeff Berman.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "andrew-anagnost",
+      "type": "person",
+      "role": "guest",
+      "name": "Andrew Anagnost",
+      "file": "Andrew Anagnost",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            47.007,
+            51.668
+          ],
+          "quote": "With us today is Andrew Anagnost, the CEO of Autodesk.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 496,
+          "t": [
+            1893.598,
+            1896.54
+          ],
+          "quote": "Thanks again to Andrew Anagnost for joining us on Masters of Scale.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "autodesk",
+      "type": "company",
+      "role": "company",
+      "name": "Autodesk",
+      "file": "Autodesk",
+      "primary": true,
+      "how_described": "本集称它为「没人听说过的最大科技公司」——马路上的汽车、桥梁、手机、建筑物几乎都用它的软件设计制造;嘉宾作为 CEO 讲述其联席 CEO 过渡、订阅制转型与砍业务的三道测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            47.007,
+            51.668
+          ],
+          "quote": "With us today is Andrew Anagnost, the CEO of Autodesk.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 18,
+          "t": [
+            63.993,
+            67.057
+          ],
+          "quote": "Yeah, we like to talk about Autodesk as the biggest tech company nobody's heard of.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 73,
+          "t": [
+            285.227,
+            286.447
+          ],
+          "quote": "How do you end up at Autodesk?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 96,
+          "t": [
+            370.743,
+            374.306
+          ],
+          "quote": "So I was actually recruited out of this company by Autodesk.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 110,
+          "t": [
+            412.111,
+            413.291
+          ],
+          "quote": "How big was Autodesk at the time?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 145,
+          "t": [
+            536.096,
+            538.598
+          ],
+          "quote": "Even the company that I run now is Autodesk.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 223,
+          "t": [
+            890.163,
+            905.538
+          ],
+          "quote": "And here's the reason why I did it, because you might not know, but I was the one that led the subscription transition at Autodesk and started fixing the back office and trying to get it in a position where it can scale in an era where we have SaaS products.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 228,
+          "t": [
+            919.489,
+            926.254
+          ],
+          "quote": "The next thing I did was I made a couple of large acquisitions for Autodesk to scale the construction business because",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1127.333,
+            1132.858
+          ],
+          "quote": "Is there something special about Autodesk, the markets we serve, or what we do that gives us some kind of right to win?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1218.968,
+            1224.67
+          ],
+          "quote": "So we leap into technologies at Autodesk, we hop into adjacencies.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1471.873,
+            1473.494
+          ],
+          "quote": "How are you getting people to Autodesk?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1522.495,
+            1527.259
+          ],
+          "quote": "I find in my world and at Autodesk, you find the people that love the problem.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集说 Autodesk 很早投入 AI,把它当作处于设计与制造之间的「项目大脑」,连接并自动化双方决策;并主张用 AI 交付精确性、速度和总拥有成本将定义未来的纵向软件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            810.474,
+            813.595
+          ],
+          "quote": "Humans will never be more intelligent than AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            815.716,
+            818.797
+          ],
+          "quote": "Those are great at AI and those that went out of business because they weren't.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            824.205,
+            831.089
+          ],
+          "quote": "I'm Rana Elkayubi, and on my podcast, Pioneers of AI, we answer that question and so many more.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 210,
+          "t": [
+            831.81,
+            838.113
+          ],
+          "quote": "As an AI scientist, entrepreneur, and investor, I know what it takes to build AI that works for everyone.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 211,
+          "t": [
+            838.914,
+            846.938
+          ],
+          "quote": "Every week, I sit down with the pioneers shaping our future, and we take you behind the scenes of the AI that's transforming our lives.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 212,
+          "t": [
+            848.519,
+            851.141
+          ],
+          "quote": "Find Pioneers of AI wherever you tune in.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1226.851,
+            1228.732
+          ],
+          "quote": "We were on AI quite early.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1240.343,
+            1243.487
+          ],
+          "quote": "Where are you in your AI transformation and where do you see it going?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1299.118,
+            1301.16
+          ],
+          "quote": "So where are we on our AI journey?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1309.806,
+            1329.02
+          ],
+          "quote": "So use AI as kind of project intelligence or a brain in the middle that kind of helps you make decisions about design that are informed by what it takes to construct or manufacture something or make decisions about construction or manufacturing that inform the design and connect those things and automate them as much as you possibly can.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1346.269,
+            1349.071
+          ],
+          "quote": "We've got AI under everything.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1349.131,
+            1355.655
+          ],
+          "quote": "We built our own custom AI models off of data that we have from our customers, controversial with our customers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1451.304,
+            1457.807
+          ],
+          "quote": "The ability to deliver precision, speed, and total cost of ownership is going to define vertical software in the future with AI.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "large-language-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "大语言模型 (large language models)",
+      "file": "大语言模型",
+      "primary": true,
+      "how_described": "本集讨论「大语言模型不是要取代那个世界吗」:在他的行业里「大概对就是错」,用横向工具解决纵向问题要靠复杂循环和大量提示词、烧掉大量算力,所以不迷信通用大模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 350,
+          "t": [
+            1388.623,
+            1393.147
+          ],
+          "quote": "And you know, everybody says, well, aren't the large language models going to replace that world?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "custom-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "定制模型 (custom models)",
+      "file": "定制模型",
+      "primary": true,
+      "how_described": "本集说他们基于客户数据构建自己的定制 AI 模型(对客户有争议但保持透明),更小、更精确、不需要大量提示词,因为在精度攸关的行业精确性至关重要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 348,
+          "t": [
+            1377.713,
+            1382.958
+          ],
+          "quote": "And we're doing it by using the data to train our own custom models that are high speed, high performance.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1403.877,
+            1405.998
+          ],
+          "quote": "That's why we need custom models that are more precise.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "subscription",
+      "type": "concept",
+      "role": "concept",
+      "name": "订阅制转型 (subscription)",
+      "file": "订阅制转型",
+      "primary": true,
+      "how_described": "本集提到嘉宾在 Autodesk 主导了订阅转型——他称之为一次「飞跃」而非小跳,并因此深知后端地基撑不起想建的摩天大楼,上任后把钱投向被忽视的后端办公室。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            890.163,
+            905.538
+          ],
+          "quote": "And here's the reason why I did it, because you might not know, but I was the one that led the subscription transition at Autodesk and started fixing the back office and trying to get it in a position where it can scale in an era where we have SaaS products.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1196.279,
+            1198.02
+          ],
+          "quote": "So when we went to subscription, that was a leap.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "empathy",
+      "type": "concept",
+      "role": "concept",
+      "name": "同理心 (empathy)",
+      "file": "同理心",
+      "primary": true,
+      "how_described": "本集把同理心列为勇气、学识、同理心三信条之一:同理心不是同情,是「我知道这会让你受伤,让我告诉你为什么以及我今后会怎么做」,是把勇气与结果粘合在一起的方式;没有同理心的勇气只是刻薄。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 398,
+          "t": [
+            1571.954,
+            1575.275
+          ],
+          "quote": "And my reflexive answer, the answer I gave was empathy.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1579.658,
+            1585.439
+          ],
+          "quote": "You talk about empathy, you practice empathy, you have a core set of leadership beliefs where empathy is central to it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1589,
+            1593.841
+          ],
+          "quote": "Look, I think these people who are saying that empathy is a weakness don't understand empathy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 410,
+          "t": [
+            1606.243,
+            1609.825
+          ],
+          "quote": "Look, I operate from an ethos of courage, scholarship, and empathy, all right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1609.845,
+            1613.646
+          ],
+          "quote": "And the two anchors, courage and empathy, actually lever off each other.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1638.377,
+            1642.601
+          ],
+          "quote": "So the counterbalance of courage, courage without empathy is just meanness and nastiness.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1660.249,
+            1661.829
+          ],
+          "quote": "Empathy is not sympathy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1670.772,
+            1672.473
+          ],
+          "quote": "That's what empathy is, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 430,
+          "t": [
+            1672.773,
+            1675.794
+          ],
+          "quote": "Empathy is the way you glue courage with an outcome.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 437,
+          "t": [
+            1701.61,
+            1703.39
+          ],
+          "quote": "So I think empathy is a superpower.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 460,
+          "t": [
+            1771.053,
+            1774.935
+          ],
+          "quote": "That's why I've always talked about this notion of courage, scholarship, and empathy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1774.955,
+            1779.518
+          ],
+          "quote": "And I bookmark everything with courage and empathy because I just think you have to lead that way.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 462,
+          "t": [
+            1779.891,
+            1784.355
+          ],
+          "quote": "Well, here's to more courage and empathy and scholarship across our world.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "startup",
+      "type": "concept",
+      "role": "concept",
+      "name": "初创公司 (startup)",
+      "file": "初创公司",
+      "primary": true,
+      "how_described": "本集劝年轻人趁年轻去试试创业:初创公司层级低、决策快,能学到一套大公司学不到的技能——那里每个人都太谨慎、太讲政治,而这一切在初创公司里都被剥离掉了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            24.065,
+            25.306
+          ],
+          "quote": "Try a startup while you're young.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 10,
+          "t": [
+            33.544,
+            35.026
+          ],
+          "quote": "All that's stripped away in a startup.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 74,
+          "t": [
+            286.547,
+            287.868
+          ],
+          "quote": "So I actually went to a startup.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 75,
+          "t": [
+            288.108,
+            296.451
+          ],
+          "quote": "It was a deep technology startup in Boston and spent almost five years at a startup, which was a magical experience, all right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 76,
+          "t": [
+            296.471,
+            299.633
+          ],
+          "quote": "I mean, I tell young people, you should try a startup while you're young.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 78,
+          "t": [
+            300.693,
+            305.918
+          ],
+          "quote": "When you're at a startup, what you do is you learn a little of everything very quickly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 79,
+          "t": [
+            306.398,
+            308.58
+          ],
+          "quote": "And a startup is very low hierarchy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 83,
+          "t": [
+            323.793,
+            333.982
+          ],
+          "quote": "You learn a set of skills that is really hard to learn in a larger company because everybody's being so careful in a larger company or they're being so political or all these things, all that's stripped away in a startup.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 95,
+          "t": [
+            361.313,
+            370.602
+          ],
+          "quote": "This high speed connection that you have in a startup where, you know, you've been sitting there late at night eating with these people and you can call BS on them and they don't feel bad doesn't translate.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 103,
+          "t": [
+            384.314,
+            393.14
+          ],
+          "quote": "The only reason I took the job though is because it was in a team that was trying to fight against this company that I had actually partnered with at my startup.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 112,
+          "t": [
+            414.772,
+            416.553
+          ],
+          "quote": "Okay, but still not an early stage startup.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 113,
+          "t": [
+            416.633,
+            417.433
+          ],
+          "quote": "Not an early stage startup.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "autocad",
+      "type": "concept",
+      "role": "concept",
+      "name": "AutoCAD",
+      "file": "AutoCAD",
+      "primary": false,
+      "how_described": "本集提到 AutoCAD 是大多数人知道的、Autodesk 起家的那款产品,庞大的成熟部门建立在它之上,反叛团队正是与之对抗。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            433.423,
+            442.348
+          ],
+          "quote": "We were butting up against the big established part of the company that was really built on top of the poor product that the company started with, which was called AutoCAD, the name that most people know.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "netflix",
+      "type": "company",
+      "role": "company",
+      "name": "Netflix",
+      "file": "Netflix",
+      "primary": false,
+      "how_described": "本集以 Netflix 的转型为例说明范式转变来临时该做「飞跃」而非小跳。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            1188.495,
+            1194.438
+          ],
+          "quote": "Like, just think about the Netflix transition as an example, which, okay, it's illogical, but that was more of a leap than a hop.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

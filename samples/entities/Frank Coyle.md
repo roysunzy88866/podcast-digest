@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":118,"Claude 认证架构师考试":1,"智能体":226,"循环":8,"停止原因":1,"反模式":1,"上下文溢出":1,"上下文分叉":1,"Model Context Protocol":2,"Claude Code":57}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":118,"Claude 认证架构师考试":1,"智能体":229,"循环":8,"停止原因":1,"反模式":1,"上下文溢出":1,"上下文分叉":1,"Model Context Protocol":2,"Claude Code":58}</script>
 
 <script>
 (function(){

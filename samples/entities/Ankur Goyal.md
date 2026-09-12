@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Braintrust":1,"评估":24,"LLM":31,"智能体":226,"提示词":11,"Brainstore":1,"Datadog":7,"可观测性":19,"Figma":17,"ChatGPT":59}</script>
+<script type="application/json" class="pd-epn">{"Braintrust":1,"评估":24,"LLM":31,"智能体":229,"提示词":11,"Brainstore":1,"Datadog":7,"可观测性":19,"Figma":17,"ChatGPT":59}</script>
 
 <script>
 (function(){

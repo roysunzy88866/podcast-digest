@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Patrick Collison]] · [[Stripe]] · [[Atlas]] · [[精益创业]] · [[智能体]] · [[YC]] · [[Google]] · [[Claude]] · [[OpenAI]] · [[Anduril]]
+[[Patrick Collison]] · [[Stripe]] · [[Atlas]] · [[精益创业]] · [[智能体]] · [[YC]] · [[Google]] · [[Claude]] · [[OpenAI]] · [[Shopify]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":2,"Stripe":29,"Atlas":2,"精益创业":1,"智能体":226,"YC":11,"Google":40,"Claude":56,"OpenAI":105,"Anduril":3}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":2,"Stripe":29,"Atlas":2,"精益创业":1,"智能体":229,"YC":11,"Google":40,"Claude":56,"OpenAI":105,"Shopify":6}</script>
 
 <script>
 (function(){

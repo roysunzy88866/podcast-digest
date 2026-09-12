@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[go-to-market]] · [[Modal]] · [[Harvey]]
 
-<script type="application/json" class="pd-epn">{"智能体":226,"Cursor":58,"OpenAI":105,"Google":40,"Anthropic":118,"ChatGPT":59,"Lenny":67,"go-to-market":8,"Modal":6,"Harvey":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":229,"Cursor":58,"OpenAI":105,"Google":40,"Anthropic":118,"ChatGPT":59,"Lenny":67,"go-to-market":8,"Modal":6,"Harvey":8}</script>
 
 <script>
 (function(){

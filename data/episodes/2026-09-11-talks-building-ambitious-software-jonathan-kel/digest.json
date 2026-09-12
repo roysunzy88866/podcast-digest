@@ -1,0 +1,184 @@
+{
+  "title_zh": "从拒用 AI 到全面拥抱：Dioxus 团队的智能体编程实战课",
+  "tldr": "Dioxus 框架缔造者 Jonathan Kelly 讲述一支顶级 Rust 团队如何从质疑 AI 转向全面用智能体编程，以及他们踩过的坑。",
+  "digest_md": "Jonathan Kelly 是 Dioxus 的创造者——一个用 Rust 语言写的跨平台应用框架（目标是像 React Native 那样一套代码跑多个平台，但性能是纯原生的）。五年前他用本科最后一个暑假启动了这个项目，如今它有近 37,000 GitHub 星、数百万下载、累计超过 2 亿终端用户，甚至被 Cognition 收购。但这场分享真正想讲的，是一支「顶级 Rust 工程师团队」如何从长期怀疑 AI，到彻底改变工作方式的故事。\n\n## 他们的起点：AI 写的代码全躺在草稿里\n\nDioxus 团队一直认为「交付高质量代码」和「用智能体编程工具」不兼容，日常完全不碰 AI。转折发生在过去六个月：AI 编程智能体在 Rust 上突然变得非常强，他们兴奋地用爆了 Claude Code 订阅额度，产出数万行 Rust 代码——结果很少有代码能过他们「是否该合并」的质量门槛，成千上万行想要多年的功能和修复一直躺在草稿里。Kelly 承认，当时太容易变成他们所谓的「slop cannon」（垃圾代码炮）——疯狂生成、无法合入 [05:39 Jonathan Kelly–06:45]。\n\n## 反直觉的发现：为人类做的易用性优化，智能体不在乎\n\n反思后他们意识到一件讽刺的事：这些年他们拼命让 Dioxus 对人类开发者友好——好读、好写、好工具、好错误信息——而编程智能体根本不在乎这些。但 Dioxus 对智能体依然友好，原因是 Rust 本身难写：智能体替你承担开发负担、处理边界情况、跟借用检查器（Rust 中防止内存错误、对新手最劝退的机制）搏斗。Kelly 的总结很有味道：「我们曾经努力降低的学习曲线，现在变成了一个特性。」\n\n## 智能体真正擅长的三件事\n\n**知识问题。** Dioxys 的很多难题本质是知识问题——团队不可能懂每个构建系统、每个操作系统、每个 API 的每个怪癖。智能体能翻几千页文档、逆向工程 API，比任何个人都有耐心。最典型的例子：他们给 Dioxus 做了 Kotlin 和 Swift 插件，深度集成进构建系统——React Native 的同类功能（Turbo modules）花了好几年才做对，他们用智能体两三周就发布了，实现第一天就完成，剩下两周全花在真实设备测试上。在自研渲染引擎 Blitz 里，智能体对 CSS 规范熟到能立刻说出 Chrome 和 Safari 是怎么处理某个布局问题的，不用去翻 Apple 仓库深处的 WebKit 源码。\n\n**用正确的方式做事。** 过去人类总按项目复杂度决定要不要走捷径；现在智能体让「用正确的方式、不取巧」变得可负担——这是相对过去做法的一个反转。\n\n**平凡琐事。** 团队只有三个核心工程师，花在「验证压缩包解压出正确目录」上的每一分钟都是从架构思考里偷走的。发布清单验证、bug 修复向后移植、保证文档质量，全部交给智能体。结果是：他们做到了每周甚至一周多次的发布节奏——以前他们对发布是害怕的。文档这块尤其受益：人类改代码不改注释，注释很快过时；让智能体检「每条文档是否如实描述了它说的东西」很容易。\n\n## 还没到位的地方\n\n**写测试。** Kelly 明确说自己还没百分之百信服用 AI 写测试。智能体能给任何 API 轻松写出测试，但和人类一样写不出「对的测试」——你给它一个构造函数，它就去测那个构造函数，没意思。团队仍然手动列举测试条件、自己设计测试 API。不过有个例外他们很喜欢：**构建模糊测试工具**（fuzzing，即把程序置于数百万种包括恶意格式错误在内的输入下找崩溃）——智能体搭这类测试架子非常在行。\n\n**架构仍是人的活。** 智能体速度极高，但「它们落地的基底不好，贡献也不会好」。而且和人类工程师不同，智能体不怕随便大规模重构——功能不合身就直接发了。所以团队大部分开发时间现在花在思考架构和系统未来演进上。「人类能写面条代码，智能体也能，只是更快。」\n\n**意图传达。** 他们逐行审查每一个 PR（也收到大量陌生人贡献的 PR），发现用户向模型传达意图的能力相当差，很多解决方案是硬拼凑的。智能体还读不了心思，仍然受限于文本媒介——「提示词工程是相当真实的」。但从另一个角度，什么都没变：读代码从来都比写代码重要。\n\n## 结语\n\nKelly 的收尾：「代码现在很廉价，但质量不是。」软件工程师的工作从来不是往屏幕上堆代码行，而是为复杂问题设计优雅方案、提前十步思考系统演进、在需求变化中保持灵活性——这些没变，而且软件工程的门槛比以往任何时候都高。\n\n## 本集带走\n\n- **AI 代码过不了质量门槛，先怀疑工作方式而不是工具**：他们的数万行代码躺草稿，问题出在不会用，反思后才有产出。\n- **智能体最适合「知识型难题」**：跨语言集成、文档检索、逆向 API 这类拼耐心和知识广度的活，几天顶几年。\n- **难度可以是卖点**：Rust 难写反而成了智能体场景的优势，因为它把人类最痛的部分接走了。\n- **别让智能体盲目写测试**：让它写测试用例多半平庸，让它搭模糊测试这类测试基础设施则非常值。\n- **人的时间该花在架构和意图传达上**：基底不好智能体贡献也差；提示词质量直接决定实现质量。",
+  "quotes": [
+    {
+      "en": "We definitely did not know how to properly wield these tools, and it was way too easy to become what we call a slop cannon.",
+      "zh": "我们确实不知道如何正确地使用这些工具，而且太容易变成我们所说的「垃圾代码炮」。",
+      "timestamp": "06:45",
+      "speaker": "Jonathan Kelley"
+    },
+    {
+      "en": "We tried to make Rust easy for humans, and in fact, it didn't really matter.",
+      "zh": "我们努力让 Rust 对人类变得容易，而事实上，这并不重要。",
+      "timestamp": "07:14",
+      "speaker": "Jonathan Kelley"
+    },
+    {
+      "en": "The learning curve, which we fought to reduce, is now a feature.",
+      "zh": "我们曾经努力降低的学习曲线，现在变成了一个特性。",
+      "timestamp": "07:34",
+      "speaker": "Jonathan Kelley"
+    },
+    {
+      "en": "The velocity that you ship lays down on this substrate that you've built, and if the substrate isn't good, nothing you build on top is going to be good.",
+      "zh": "你交付的速度建立在你构建的这份基底之上，如果基底不好，你在上面构建的任何东西都不会好。",
+      "timestamp": "08:53",
+      "speaker": "Jonathan Kelley"
+    },
+    {
+      "en": "We were able to ship this in like two to three weeks with coding agents, and we probably could have gone faster.",
+      "zh": "我们用编程智能体大概两到三周就把它发布出来了，而且我们本可以更快。",
+      "timestamp": "11:03",
+      "speaker": "Jonathan Kelley"
+    },
+    {
+      "en": "They can easily write tests for any given API, but much like humans, they fail to write the right tests.",
+      "zh": "它们可以轻松地为任何给定的 API 写测试，但和人类一样，它们无法写出正确的测试。",
+      "timestamp": "15:05",
+      "speaker": "Jonathan Kelley"
+    },
+    {
+      "en": "If the substrate on which your agent's code lands is bad, their contributions will be bad as well.",
+      "zh": "如果你的智能体代码所落地的底层基础不好，它们的贡献也会不好。",
+      "timestamp": "16:15",
+      "speaker": "Jonathan Kelley"
+    },
+    {
+      "en": "Just like human engineers can write spaghetti code, so can the agents, but now just faster.",
+      "zh": "就像人类工程师能写出面条式代码一样，智能体也能，只是现在更快了。",
+      "timestamp": "16:40",
+      "speaker": "Jonathan Kelley"
+    },
+    {
+      "en": "Reading code has always been more important than writing code.",
+      "zh": "阅读代码一直以来都比编写代码更重要。",
+      "timestamp": "17:59",
+      "speaker": "Jonathan Kelley"
+    },
+    {
+      "en": "So my closing thoughts on using coding agents to build ambitious software is that code is now cheap, but quality is not.",
+      "zh": "关于使用编码智能体构建有雄心的软件，我的结语是：代码现在很廉价，但质量不是。",
+      "timestamp": "18:07",
+      "speaker": "Jonathan Kelley"
+    },
+    {
+      "en": "The job of a software engineer has never really been about putting lines of code on the screen.",
+      "zh": "软件工程师的工作从来都不只是把代码行放到屏幕上。",
+      "timestamp": "18:17",
+      "speaker": "Jonathan Kelley"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "05:59",
+      "speaker": "Jonathan Kelly",
+      "en": "We thought the two things were incompatible, shipping high-quality code and using agentic coding tools.",
+      "zh": "我们认为这两件事是不兼容的：交付高质量代码和使用智能体编程工具。"
+    },
+    {
+      "timestamp": "06:45",
+      "speaker": "Jonathan Kelly",
+      "en": "We definitely did not know how to properly wield these tools, and it was way too easy to become what we call a slop cannon.",
+      "zh": "我们确实不知道如何正确地使用这些工具，而且太容易变成我们所说的「垃圾代码炮」。"
+    },
+    {
+      "timestamp": "07:14",
+      "speaker": "Jonathan Kelly",
+      "en": "We tried to make Rust easy for humans, and in fact, it didn't really matter.",
+      "zh": "我们努力让 Rust 对人类变得容易，而事实上，这并不重要。"
+    },
+    {
+      "timestamp": "07:34",
+      "speaker": "Jonathan Kelly",
+      "en": "The learning curve, which we fought to reduce, is now a feature.",
+      "zh": "我们曾经努力降低的学习曲线，现在变成了一个特性。"
+    },
+    {
+      "timestamp": "08:47",
+      "speaker": "Jonathan Kelly",
+      "en": "The velocity that you ship lays down on this substrate that you've built, and if the substrate isn't good, nothing you build on top is going to be good.",
+      "zh": "你交付的速度建立在你构建的这份基底之上，如果基底不好，你在上面构建的任何东西都不会好。"
+    },
+    {
+      "timestamp": "10:05",
+      "speaker": "Jonathan Kelly",
+      "en": "Coding agents bring a level of patience and massive knowledge that is very hard to muster as an individual working on a very large software project.",
+      "zh": "编程智能体带来了一种程度的耐心和海量知识，这是个人在参与一个非常大的软件项目时很难具备的。"
+    },
+    {
+      "timestamp": "11:03",
+      "speaker": "Jonathan Kelly",
+      "en": "We were able to ship this in like two to three weeks with coding agents, and we probably could have gone faster.",
+      "zh": "我们用编程智能体大概两到三周就把它发布出来了，而且我们本可以更快。"
+    },
+    {
+      "timestamp": "11:49",
+      "speaker": "Jonathan Kelly",
+      "en": "We're able to invest time in doing things the right way, not the hacky way, which interestingly is a turn compared to how we used to do it.",
+      "zh": "我们能够投入时间以正确的方式做事，而不是取巧的方式，有趣的是这和我们过去的做法相反。"
+    },
+    {
+      "timestamp": "14:22",
+      "speaker": "Jonathan Kelly",
+      "en": "One thing I'm not 100% convinced yet, we have found varying levels of success, is using AI to write tests, or at least blindly writing tests.",
+      "zh": "有一件事我还没有百分之百信服——我们取得了不同程度的成功——那就是用 AI 写测试，或者至少是盲目地写测试。"
+    },
+    {
+      "timestamp": "15:05",
+      "speaker": "Jonathan Kelly",
+      "en": "They can easily write tests for any given API, but much like humans, they fail to write the right tests.",
+      "zh": "它们可以轻松地为任何给定的 API 写测试，但和人类一样，它们无法写出正确的测试。"
+    },
+    {
+      "timestamp": "16:15",
+      "speaker": "Jonathan Kelly",
+      "en": "If the substrate on which your agent's code lands is bad, their contributions will be bad as well.",
+      "zh": "如果你的智能体代码所落地的底层基础不好，它们的贡献也会不好。"
+    },
+    {
+      "timestamp": "16:32",
+      "speaker": "Jonathan Kelly",
+      "en": "Most of our development time is actually now spent thinking about software architecture, about what features we'll want in the future and how the system will evolve.",
+      "zh": "我们大部分开发时间现在实际上花在思考软件架构上，思考我们未来想要哪些功能以及系统将如何演进。"
+    },
+    {
+      "timestamp": "16:40",
+      "speaker": "Jonathan Kelly",
+      "en": "Just like human engineers can write spaghetti code, so can the agents, but now just faster.",
+      "zh": "就像人类工程师能写出面条式代码一样，智能体也能，只是现在更快了。"
+    },
+    {
+      "timestamp": "17:47",
+      "speaker": "Jonathan Kelly",
+      "en": "And as ridiculous as it sounds, prompt engineering is quite real.",
+      "zh": "尽管听起来很荒唐，提示词工程是相当真实的。"
+    },
+    {
+      "timestamp": "17:59",
+      "speaker": "Jonathan Kelly",
+      "en": "Reading code has always been more important than writing code.",
+      "zh": "阅读代码一直以来都比编写代码更重要。"
+    },
+    {
+      "timestamp": "18:07",
+      "speaker": "Jonathan Kelly",
+      "en": "So my closing thoughts on using coding agents to build ambitious software is that code is now cheap, but quality is not.",
+      "zh": "关于使用编码智能体构建有雄心的软件，我的结语是：代码现在很廉价，但质量不是。"
+    },
+    {
+      "timestamp": "18:17",
+      "speaker": "Jonathan Kelly",
+      "en": "The job of a software engineer has never really been about putting lines of code on the screen.",
+      "zh": "软件工程师的工作从来都不只是把代码行放到屏幕上。"
+    },
+    {
+      "timestamp": "18:35",
+      "speaker": "Jonathan Kelly",
+      "en": "These facts have not changed, and the bar for software engineering is higher than ever.",
+      "zh": "这些事实都没有改变，而且软件工程的门槛比以往任何时候都更高。"
+    }
+  ],
+  "voice_script": "今天要讲的主人公叫 Jonathan Kelly，是 Dioxus 这个框架的创造者。Dioxus 是一个用 Rust 写的跨平台应用框架，目标是像 React Native 那样一套代码跑多个平台，但性能是纯原生的。这个项目是五年前他用本科最后一个暑假启动的，如今在 GitHub 上有近三万七千颗星、数百万次下载，累计覆盖超过两亿终端用户，甚至被 Cognition 收购了。但今天真正想讲的，不是这个项目有多成功，而是一个更有意思的故事：一支顶级的 Rust 工程师团队，是怎么从长期怀疑 AI、完全不碰 AI，到彻底改变整个工作方式的。\n\n先交代一下他们的起点。Dioxus 团队一直有个很固执的看法，就是「交付高质量代码」和「用智能体编程工具」这两件事不兼容，所以日常完全不碰 AI。转折发生在过去六个月：AI 编程智能体在 Rust 上突然变得非常强。他们很兴奋，用爆了 Claude Code 的订阅额度，产出数万行 Rust 代码。但结果很尴尬——这些代码很少有能过他们「是否该合并」这个质量门槛的，成千上万行他们盼了好多年的功能和修复，一直躺在草稿里。Kelly 自己也承认，当时太容易变成他们所谓的「垃圾代码炮」——疯狂生成，但没法合入。用他的话说：「我们确实不知道如何正确地使用这些工具。」\n\n那问题到底出在哪？反思之后，他们发现了一件很讽刺的事。这些年他们拼命让 Dioxus 对人类开发者友好——好读、好写、工具好、错误信息好——结果编程智能体根本不在乎这些。可有意思的是，Dioxus 对智能体依然很友好。为什么？因为 Rust 本身难写。智能体替你承担了开发负担，处理边界情况，跟借用检查器搏斗——借用检查器是 Rust 里防止内存错误的机制，也是对新手最劝退的那部分。Kelly 对此有句总结特别有味道：「我们曾经努力降低的学习曲线，现在变成了一个特性。」换句话说，Rust 难写这件事，以前是门槛，现在反而成了卖点，因为它把人类最痛的部分接走了。\n\n想明白这一点之后，他们开始大规模用起来。那智能体到底擅长什么？他们总结出三类活儿。\n\n第一类，是知识问题。Dioxus 的很多难题，本质上是团队不可能懂每个构建系统、每个操作系统、每个 API 的所有怪癖。而智能体能翻几千页文档，能逆向工程 API，比任何个人都有耐心。最典型的例子：他们给 Dioxus 做了 Kotlin 和 Swift 插件，深度集成进构建系统——React Native 的同类功能花了好几年才做对，他们用智能体两三周就发布出来了，实现第一天就完成了，剩下两周全花在真实设备测试上。还有一个细节，在他们自研的渲染引擎 Blitz 里，智能体对 CSS 规范熟到能立刻说出 Chrome 和 Safari 是怎么处理某个布局问题的，根本不用去翻 Apple 仓库深处的 WebKit 源码。\n\n第二类，是用正确的方式做事。以前人类总是看项目复杂度来决定要不要走捷径，现在智能体让「用正确的方式、不取巧」变得可负担了。这是对过去做法的一个反转。\n\n第三类，是平凡琐事。这个团队只有三个核心工程师，花在「验证压缩包解压出正确目录」这种事上的每一分钟，都是从架构思考里偷走的。所以他们把发布清单验证、bug 修复向后移植、文档质量检查，全部交给智能体。结果是他们做到了每周甚至一周多次的发布节奏——而在以前，他们对发布这件事是害怕的。文档这块尤其受益，因为人类改代码从来不改注释，注释很快就过时了；但让智能体去检查「每条文档是否如实描述了它说的东西」，就很容易。\n\n听起来很美好，但还有几个地方没到位，这些坑值得你特别留心。\n\n第一个是写测试。Kelly 明确说自己还没百分之百信服用 AI 写测试。智能体能给任何 API 轻松写出测试，但和人类一样，写不出「对的测试」——你给它一个构造函数，它就去测那个构造函数，没意思。所以团队仍然手动列举测试条件、自己设计测试 API。不过有个例外他们很喜欢，就是模糊测试。模糊测试是把程序置于几百万种输入之下，包括恶意的格式错误，去找崩溃点。智能体搭这类测试架子非常在行。\n\n第二个是架构。智能体速度极高，但就像 Kelly 说的：「你交付的速度建立在你构建的这份基底之上，如果基底不好，你在上面构建的任何东西都不会好。」而且智能体跟人类工程师不一样，它不怕随便大规模重构——功能不合身就直接发了。所以现在团队大部分开发时间，花在思考架构和系统未来演进上。有句话说得挺狠：「人类能写面条代码，智能体也能，只是更快。」\n\n第三个是意图传达。他们逐行审查每一个 PR，也收到大量陌生人贡献的 PR，发现用户向模型传达意图的能力相当差，很多解决方案是硬拼凑出来的。智能体还读不了心思，仍然受限于文本媒介，所以提示词工程是相当真实的。不过换个角度看，什么都没变——读代码，从来都比写代码重要。\n\n所以回头看，这一集讲透了这么几件事：AI 代码过不了质量门槛的时候，先怀疑自己的工作方式，而不是急着怪工具；智能体最适合那些拼耐心和知识广度的知识型难题，几天顶几年；难度可以是卖点，Rust 难写反而成了优势；别让智能体盲目写测试，让它搭测试基础设施才值；而人的时间，应该花在架构和意图传达上。\n\nKelly 的收尾是这么说的：「代码现在很廉价，但质量不是。」软件工程师的工作，从来就不是往屏幕上堆代码行，而是为复杂问题设计优雅方案、提前十步思考系统演进、在需求变化中保持灵活性——这些都没变，而且软件工程的门槛，比以往任何时候都高。"
+}

@@ -1,0 +1,202 @@
+{
+  "title_zh": "Shopify COO 谈 AI 时代的电商：复杂性是我们的护城河",
+  "tldr": "Shopify COO Jess Hertz 谈贸易战下的运营、内部 AI 工具的规模化落地，以及智能体购物正在给商家带来什么。",
+  "digest_md": "这一集的主角是 Jess Hertz，加拿大电商巨头 Shopify 的 COO（首席运营官）。她做过律师、在拜登白宫当过幕僚秘书，去年十月接任 Shopify COO。面对两个大变局——美加贸易战和 AI 冲击电商，她和主持人 Bob Safian 聊了 Shopify 的应对之道。\n\n先说贸易战这个绕不开的话题。Shopify 总部在渥太华，但大部分客户在美国，美加贸易战开打，公司内部却觉得这更多是外部的事——「我们绝对把自己看作一家公司，而不是一个国家」。早在第一波关税出台时，就有团队花一个周末赶出一个关税和税费计算器，帮商家应对。Jess 的态度是：不管关税发生在哪两个国家之间，Shopify 的反应都一样——这对受冲击最大的中小商家是个「闪耀的时刻」，因为他们最需要工具来消化宏观变数。\n\n## 内部工具 River：让信息跑得更快\n\nShopify CEO Toby Lutke 自称「混沌引擎」，去年那份争议备忘录要求：招聘任何新人之前，团队必须先证明 AI 干不了这活。Jess 说这不是 chaos，而是把「在 AI 中保持条件反射式的使用」变成全体员工的基线预期。\n\n落到系统层面，靠的是一个叫 River 的内部工具：一个活在公司 Slack 里的智能体，你在公开频道描述任务，它能读代码、跑测试，存在于大约 10000 个频道里。约 90% 的员工用过它，五个月里运行了 27.5 万个会话、执行了 1500 万次操作。一切必须公开进行——「这是特性，不是缺陷」，因为 River 能随时读取公开频道里的一切，把员工之间传递信息的交易成本降下来。Jess 的判断是：一家公司运转的速度，可以用信息在公司内部流动的速度来衡量；而且 River 每次交互都会变好，有网络效应。\n\n至于 AI 成本——Uber COO 曾引发「AI 隐藏成本」的讨论（花在 token 上的钱可能没有回报），Jess 说 Shopify 团队基本不受限制地用 token，因为「采用率永远不会等同于影响力」，真正要衡量的是影响。硬数据是：Shopify 的人数已超过八个季度持平，收入却在增长 34%。态度很务实：让工程师在不同场景用最好的模型，辅以「经过深思的减速带」做成本控制。\n\n## AI 对生意意味着什么：基本盘 + 新上行\n\nShopify 刚交出连续第五个季度 30% 以上增长的财报。Jess 把增长拆成两块：核心业务极其持久——季度营收几乎 90% 来自入驻超过一年的商家；而智能体（AI 代理帮用户买东西）这块虽然 GMV 还小，但在增长。\n\n两个早期信号值得注意。一是 AI 助手 Sidekick 在帮商家卖出更多。二是面向智能体的产品层 Catalog：智能体用 Shopify 的目录数据时，转化率是只靠抓取数据的 2 倍。\n\n更有意思的是对商家结构的影响。过去搜索奖励流行度和投放花费，现在智能体奖励精准和个性化——上季度 75% 归因于 AI 的订单来自前 100 个类目之外。Jess 举了个自己的例子：给去牧场夏令营的女儿找一个能塞进床底的大箱子，AI 帮她找到威斯康星州一家干了 40 年这行的专门商家。「AI 能够理解真正的需求，而不只是一个关键词」——这正是长尾小众商家的机会。另一个信号：约 10% 的新店铺在注册后一天内就做成第一笔销售，AI 把创业到第一单的时间大幅压缩了。\n\n## 大平台会不会绕开我们？\n\n主持人抛出担忧：Shopify 在和 ChatGPT、Gemini、Copilot 做智能体店面集成，但如果大 AI 平台自建交易层呢？Jess 的回答是：「复杂性既是 Shopify 的挑战，也是它的护城河。」Shopify 一直是统一商务运营系统，是各种销售方式的聚合器——在线店、线下零售、智能体商务。渠道越复杂，商家越难自己管，就越需要可靠的基础设施，而「那个世界里的基础设施只会继续复利式地增长」。\n\n她也不担心商家「长出」Shopify：他们与 Google 共同开发了开放商业标准 Universal Commerce Protocol，交易中商户始终是记录商户（merchant of record，即正式的收款责任方），不存在绕开商家的问题。大品牌也能在同一套架构上跑——统一数据模型、可扩展，一个品牌可以在一套技术栈上运营一千家门店、1200 个店面、600 万个 SKU。留存数据佐证：过去五年，达到 100 万 GMV 的商家留存率 92%，达到 1000 万的留存率 97%。\n\n## X 型人：AI 时代理想员工的形状\n\nJess 的另一个个人理论：过去 Shopify 讲 T 型人——广度加一根深入的专业纵向；AI 正在把它推向 X 型人——多重专业高峰，能更快吸收复杂性、学新领域，「愿意的话当一个 7 分设计师」。她自己现在就自己做数据工作。\n\n但重点不在个人，在团队组合：X 型人像俄罗斯方块一样彼此拼合，「团队构成和不同的人员组合，会随着我们进入 AI 世界变得越来越重要」——正确的拼合本身就是难以想象的工作量的加速剂。\n\n## 不念旧情：混乱背后的锚\n\nJess 自称「非常不念旧情的人」，她认为这既是资产也是阻碍。Shopify 有一句话她最喜欢：「让你的身份保持轻量」——你可以第二天醒来时变得更聪明，不必对想法太执着，哪怕是你自己的点子，也要承认外面有更好的。\n\n但这不等于混乱无序。她说自己「其实并不觉得我们是一家混乱的公司」，因为使命的纯粹性是一种被深深坚守的对齐机制——锚点不动，路径可变，权衡都基于第一性原理。所以「什么是有利害关系的」这个问题，她的答案和公司创立时一样：成为百年企业，让全世界的创业者成长。「我们将全力去赢，否则死也要试。」\n\n## 本集带走\n\n- **激励系统就是战略**：Jess 上任后第一批事就是重审销售团队薪酬方案，让激励和「商家成功我们才成功」对齐——「以商家为执念」要体现在怎么给人付钱上，而不只是口号。\n- **AI 渗透要靠工具+文化双管齐下**：CEO 备忘录定基线预期，内部智能体 River（公开频道、能读代码跑测试）把信息流动速度做成公司速度的引擎。\n- **衡量 AI 的 ROI 看财务不看采用率**：人数八个季度持平、收入增长 34%，token 大胆给团队用，配「减速带」监控。\n- **智能体时代奖励精准而非流行**：75% 归因 AI 的订单来自前 100 类目之外，目录数据带来的转化是抓取数据的 2 倍——小众长尾商家的窗口。\n- **复杂性是护城河不是负担**：渠道越多越碎，商家越需要统一基础设施帮你吸收复杂度。\n- **「身份保持轻量」**：锚定使命不动摇，但对任何具体做法都不执念——包括自己的点子。",
+  "quotes": [
+    {
+      "en": "About 10% of new shops made their first sale within a single day of signing up, which is just incredible.",
+      "zh": "大约 10% 的新商店在注册后一天之内就做成了第一笔销售，这实在太惊人了。",
+      "timestamp": "00:28",
+      "speaker": "Jess Hertz"
+    },
+    {
+      "en": "And I think that is the bet and we are going to win or die trying.",
+      "zh": "我认为这就是我们的赌注，我们将全力去赢，否则死也要试。",
+      "timestamp": "00:40",
+      "speaker": "Jess Hertz"
+    },
+    {
+      "en": "And we definitely think of ourselves as a company rather than a country.",
+      "zh": "我们绝对把自己看作一家公司，而不是一个国家。",
+      "timestamp": "02:38",
+      "speaker": "Jess Hertz"
+    },
+    {
+      "en": "I do think people underestimate how similar politics and tech are, actually.",
+      "zh": "我确实认为人们低估了政治和科技实际上有多相似。",
+      "timestamp": "03:54",
+      "speaker": "Jess Hertz"
+    },
+    {
+      "en": "It's not actually aligned with the merchant outcome and our business model of Shopify, which is we only succeed when our merchants succeed.",
+      "zh": "它实际上不符合商家结果以及 Shopify 的商业模式，也就是只有当我们的商家成功时，我们才成功。",
+      "timestamp": "06:34",
+      "speaker": "Jess Hertz"
+    },
+    {
+      "en": "It's run 275,000 sessions and it's taken 15 million actions in five months.",
+      "zh": "它已经运行了 275,000 个会话，在五个月里执行了 1500 万次操作。",
+      "timestamp": "08:48",
+      "speaker": "Jess Hertz"
+    },
+    {
+      "en": "I do really think the velocity that a company moves at can be judged based on how quickly information is moving within the company.",
+      "zh": "我真的认为，一个公司运转的速度可以根据信息在公司内部流动的速度来判断。",
+      "timestamp": "08:59",
+      "speaker": "Jess Hertz"
+    },
+    {
+      "en": "Almost 90% of our quarterly revenue is from merchants who've been on the platform for over a year.",
+      "zh": "我们季度营收几乎 90% 来自已经在平台上超过一年的商家。",
+      "timestamp": "10:28",
+      "speaker": "Jess Hertz"
+    },
+    {
+      "en": "And so when someone comes from an agentic channel, the conversion rate that when an agent is using our catalog data is 2x compared to if it's just using scraped data.",
+      "zh": "当有人从一个智能体渠道过来时，智能体使用我们的目录数据时，转化率是它仅使用抓取数据时的 2 倍。",
+      "timestamp": "11:25",
+      "speaker": "Jess Hertz"
+    },
+    {
+      "en": "And the way that I really think about that is complexity is both the challenge and the moat for Shopify.",
+      "zh": "而我真正看待这件事的方式是，复杂性既是 Shopify 的挑战，也是它的护城河。",
+      "timestamp": "12:14",
+      "speaker": "Jess Hertz"
+    },
+    {
+      "en": "So 75% of AI-attributed orders last quarter came from categories outside of the top 100, which I find particularly interesting.",
+      "zh": "所以上个季度，75% 归因于 AI 的订单来自前 100 个类目之外，这一点我觉得特别有意思。",
+      "timestamp": "23:31",
+      "speaker": "Jess Hertz"
+    },
+    {
+      "en": "And really, that's kind of the shift, right, that we're seeing, which is AI can understand the actual need and not just a keyword.",
+      "zh": "而这正是我们看到的那种转变，对吧，也就是 AI 能够理解真正的需求，而不只是一个关键词。",
+      "timestamp": "23:42",
+      "speaker": "Jess Hertz"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:02",
+      "speaker": "Jess Hertz",
+      "en": "We power over 14% of the U.S. e-commerce market.",
+      "zh": "我们支撑着美国超过 14% 的电商市场。"
+    },
+    {
+      "timestamp": "00:28",
+      "speaker": "Jess Hertz",
+      "en": "About 10% of new shops made their first sale within a single day of signing up, which is just incredible.",
+      "zh": "大约 10% 的新商店在注册后一天之内就做成了第一笔销售，这实在太惊人了。"
+    },
+    {
+      "timestamp": "00:40",
+      "speaker": "Jess Hertz",
+      "en": "And I think that is the bet and we are going to win or die trying.",
+      "zh": "我认为这就是我们的赌注，我们将全力去赢，否则死也要试。"
+    },
+    {
+      "timestamp": "02:38",
+      "speaker": "Jess Hertz",
+      "en": "And we definitely think of ourselves as a company rather than a country.",
+      "zh": "我们绝对把自己看作一家公司，而不是一个国家。"
+    },
+    {
+      "timestamp": "03:54",
+      "speaker": "Jess Hertz",
+      "en": "I do think people underestimate how similar politics and tech are, actually.",
+      "zh": "我确实认为人们低估了政治和科技实际上有多相似。"
+    },
+    {
+      "timestamp": "04:12",
+      "speaker": "Jess Hertz",
+      "en": "And it really teaches you how to drive hard, how to develop pace, how to compress enormous amounts of information in such a short period of time.",
+      "zh": "它真的教会你如何强力推进、如何发展节奏、如何在极短的时间内压缩海量的信息。"
+    },
+    {
+      "timestamp": "06:34",
+      "speaker": "Jess Hertz",
+      "en": "It's not actually aligned with the merchant outcome and our business model of Shopify, which is we only succeed when our merchants succeed.",
+      "zh": "它实际上不符合商家结果以及 Shopify 的商业模式，也就是只有当我们的商家成功时，我们才成功。"
+    },
+    {
+      "timestamp": "08:33",
+      "speaker": "Jess Hertz",
+      "en": "It all has to be out in the open in public.",
+      "zh": "一切都必须公开进行。"
+    },
+    {
+      "timestamp": "08:48",
+      "speaker": "Jess Hertz",
+      "en": "It's run 275,000 sessions and it's taken 15 million actions in five months.",
+      "zh": "它已经运行了 275,000 个会话，在五个月里执行了 1500 万次操作。"
+    },
+    {
+      "timestamp": "08:59",
+      "speaker": "Jess Hertz",
+      "en": "I do really think the velocity that a company moves at can be judged based on how quickly information is moving within the company.",
+      "zh": "我真的认为，一个公司运转的速度可以根据信息在公司内部流动的速度来判断。"
+    },
+    {
+      "timestamp": "10:33",
+      "speaker": "Jess Hertz",
+      "en": "Almost 90% of our quarterly revenue is from merchants who've been on the platform for over a year.",
+      "zh": "我们季度营收几乎 90% 来自已经在平台上超过一年的商家。"
+    },
+    {
+      "timestamp": "11:25",
+      "speaker": "Jess Hertz",
+      "en": "And so when someone comes from an agentic channel, the conversion rate that when an agent is using our catalog data is 2x compared to if it's just using scraped data.",
+      "zh": "当有人从一个智能体渠道过来时，智能体使用我们的目录数据时，转化率是它仅使用抓取数据时的 2 倍。"
+    },
+    {
+      "timestamp": "12:14",
+      "speaker": "Jess Hertz",
+      "en": "And the way that I really think about that is complexity is both the challenge and the moat for Shopify.",
+      "zh": "而我真正看待这件事的方式是，复杂性既是 Shopify 的挑战，也是它的护城河。"
+    },
+    {
+      "timestamp": "13:23",
+      "speaker": "Jess Hertz",
+      "en": "And the infrastructure in that world is just going to continue to compound.",
+      "zh": "而在那个世界里的基础设施只会继续复利式地增长。"
+    },
+    {
+      "timestamp": "15:05",
+      "speaker": "Jess Hertz",
+      "en": "So that is definitely true. And we are sort of thinking through ways to measure impact.",
+      "zh": "这确实是事实。我们也在思考衡量影响力的方法。"
+    },
+    {
+      "timestamp": "16:38",
+      "speaker": "Jess Hertz",
+      "en": "So you have multiple spikes of expertise, much faster being able to kind of absorb complexity, being able to learn new spaces.",
+      "zh": "也就是你有多重专业高峰，能够更快地吸收复杂性，能够学习新的领域。"
+    },
+    {
+      "timestamp": "17:22",
+      "speaker": "Jess Hertz",
+      "en": "And, you know, I think the idea of team composition and the different constellation of people will only become, you know, more and more important as we enter this AI world.",
+      "zh": "我认为团队构成和不同的人员组合，会随着我们进入这个 AI 世界变得越来越重要。"
+    },
+    {
+      "timestamp": "23:25",
+      "speaker": "Jess Hertz",
+      "en": "But what we're seeing is actually agents are rewarding precision and personalization, right?",
+      "zh": "但我们看到的是，智能体实际上在奖励精准性和个性化，对吧？"
+    },
+    {
+      "timestamp": "23:31",
+      "speaker": "Jess Hertz",
+      "en": "So 75% of AI-attributed orders last quarter came from categories outside of the top 100, which I find particularly interesting.",
+      "zh": "所以上个季度，75% 归因于 AI 的订单来自前 100 个类目之外，这一点我觉得特别有意思。"
+    },
+    {
+      "timestamp": "23:42",
+      "speaker": "Jess Hertz",
+      "en": "And really, that's kind of the shift, right, that we're seeing, which is AI can understand the actual need and not just a keyword.",
+      "zh": "而这正是我们看到的那种转变，对吧，也就是 AI 能够理解真正的需求，而不只是一个关键词。"
+    }
+  ],
+  "voice_script": "今天要给你讲的这位主角，是加拿大电商巨头 Shopify 的 COO，首席运营官，叫 Jess Hertz。这个人的履历挺特别的：做过律师，在拜登的白宫里当过幕僚秘书，去年十月才接任 Shopify 的 COO。她一上任就撞上两个大变局，一个是美加贸易战，一个是 AI 正在冲击电商这一整个行业。这期节目，就是她和主持人聊 Shopify 怎么应对这两件事，里面有好几个判断，值得你听完。\n\n先说贸易战。你可能觉得奇怪，Shopify 总部在渥太华，按理说美加打贸易战，公司应该很紧张才对。但内部其实觉得这更多是外部的事。Jess 有句话很直白：我们绝对把自己看作一家公司，而不是一个国家。这个心态落到实处是什么样？早在第一波关税刚出台的时候，就有团队花一个周末，赶出来一个关税和税费计算器，帮商家应对新情况。Jess 的态度是：不管关税发生在哪两个国家之间，Shopify 的反应都一样。为什么这么快？因为她觉得，这对受冲击最大的中小商家来说，恰恰是个闪耀的时刻——越是宏观变数大，这些商家越需要工具来消化。\n\n那贸易战是外部环境，AI 是另一场仗，打的是公司内部。这里得先交代个背景：Shopify 的 CEO Toby Lutke 去年发过一份很有争议的备忘录，要求招聘任何新人之前，团队必须先证明这活 AI 干不了。听起来很激进，好像公司很混乱。但 Jess 说，这不是混沌，而是把一件事变成全体员工的基线预期——在 AI 中保持条件反射式的使用。\n\n光有预期不够，还得有工具。于是有了 River——一个活在公司 Slack 里的智能体。你在公开频道里描述任务，它能读代码、能跑测试。这个工具存在于大约一万个频道里，约九成的员工用过，五个月里运行了 27.5 万个会话，执行了 1500 万次操作。这里有个很关键的设定：一切必须公开进行。Jess 说这是特性，不是缺陷——因为 River 能随时读取公开频道里的一切，这就把员工之间传递信息的交易成本降下来了。底下有一层她的判断，我觉得很值得记住：一家公司运转的速度，可以用信息在公司内部流动的速度来衡量。而且 River 每次交互都会变好，有网络效应。\n\n你可能会问，这么大规模用 AI，成本扛得住吗？之前 Uber 的 COO 就引发过一场讨论，说花在 token 上的钱可能没有回报。但 Shopify 团队基本不受限制地用 token。Jess 的理由是：采用率永远不会等同于影响力，真正要衡量的是影响。硬数据在这儿摆着——Shopify 的人数已经八个季度持平了，收入却在增长 34%。具体怎么管成本？态度很务实：让工程师在不同场景用最好的模型，再配上一些经过深思的减速带做控制。\n\n内部效率提上去了，那 AI 对这门生意本身意味着什么？Shopify 刚交出连续第五个季度 30% 以上增长的财报。Jess 把增长拆成两块：一块是基本盘，核心业务极其持久，季度营收几乎九成来自入驻超过一年的老商家；另一块是新上行，智能体帮用户买东西这块，成交额还小，但在增长。有两个早期信号：一个是 AI 助手 Sidekick 确实在帮商家卖出更多；另一个更有意思，Shopify 做了个面向智能体的产品叫 Catalog，智能体用 Shopify 的目录数据时，转化率是只靠抓取数据的 2 倍。\n\n而这带来的更深层变化，在商家结构上。过去的搜索，奖励的是流行度和投放花费；现在的智能体，奖励的是精准和个性化。数据是：上季度归因于 AI 的订单里，75% 来自前一百个类目之外。什么意思？就是 AI 能把生意带给那些过去根本搜不到的小众商家。Jess 自己就碰上过一回：要给去牧场夏令营的女儿找一个能塞进床底的大箱子，AI 帮她找到了威斯康星州一家干了四十年这行的专门商家。有句话值得记住：AI 能够理解真正的需求，而不只是一个关键词。还有一个信号也说明问题了：大约 10% 的新店铺，注册之后一天之内就做成了第一笔销售。创业到第一单的时间，被 AI 大幅压缩了。\n\n讲到这儿，一个尖锐的问题就来了。Shopify 现在和 ChatGPT、Gemini、Copilot 都在做智能体店面集成，可要是这些大 AI 平台哪天自建交易层，绕开 Shopify 呢？主持人就把这个问题抛出来了。Jess 的回答是：复杂性既是 Shopify 的挑战，也是它的护城河。这话初听有点绕，其实很好理解：Shopify 一直是统一商务运营系统，是在线店、线下零售、智能体商务各种销售方式的聚合器。渠道越复杂、越碎，商家越难自己管，就越需要可靠的基础设施——而那个世界里的基础设施，只会继续复利式地增长。她也不担心商家绕开平台，因为他们和 Google 共同开发了开放商业标准 Universal Commerce Protocol，交易中商户始终是记录商户，也就是正式的收款责任方。留存数据也给了底气：过去五年，做到 100 万成交额的商家，留存率 92%；做到 1000 万的，留存率 97%。\n\n聊完公司，Jess 还有一个关于人的个人理论，也挺有意思。过去 Shopify 讲 T 型人，就是广度加一根深入的专业纵向；她认为 AI 正在把它推向 X 型人——多重专业高峰，能更快吸收复杂性、学新领域，愿意的话，可以当一个 7 分的设计师。她自己现在就自己做数据工作。但重点不在个人，在团队组合：X 型人像俄罗斯方块一样彼此拼合，正确的拼合本身就是难以想象的工作量的加速剂。团队构成会随着进入 AI 世界变得越来越重要。\n\n最后说说这个人本身。Jess 自称是个非常不念旧情的人，认为这既是资产也是阻碍。Shopify 有一句话她最喜欢：让你的身份保持轻量——你可以第二天醒来时变得更聪明，哪怕是你自己的点子，也要承认外面有更好的。但这不等于混乱无序。她说自己并不觉得这是一家混乱的公司，因为使命的纯粹性是一种被深深坚守的对齐机制：锚点不动，路径可变，权衡都基于第一性原理。什么是有利害关系的？她的答案和公司创立时一样：成为百年企业，让全世界的创业者成长。\n\n这期节目最后还留了一个提醒：激励系统就是战略。Jess 上任后第一批事，就是重审销售团队的薪酬方案，让激励和那句\"以商家为执念\"对齐——只有当商家成功时我们才成功，这句话得体现在怎么给人付钱上，而不只是口号。一句话收尾：锚定使命不动摇，对任何具体做法都不执念，复杂性是你的护城河，不是你的负担——这就是 Shopify 在 AI 时代打法的全部底色。"
+}

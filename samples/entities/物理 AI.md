@@ -37,7 +37,7 @@ unlisted: true
 
 [[Waymo]] · [[智能体]] · [[Tesla]] · [[ChatGPT]] · [[工业 AI]] · [[强化学习]] · [[护栏]] · [[推理]] · [[生成式 AI]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"Waymo":13,"智能体":226,"Tesla":8,"ChatGPT":59,"工业 AI":3,"强化学习":16,"护栏":43,"推理":42,"生成式 AI":6,"Lenny":67}</script>
+<script type="application/json" class="pd-epn">{"Waymo":13,"智能体":229,"Tesla":8,"ChatGPT":59,"工业 AI":3,"强化学习":16,"护栏":43,"推理":42,"生成式 AI":6,"Lenny":67}</script>
 
 <script>
 (function(){

@@ -84,11 +84,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":226,"技能文件":3,"RAG":9,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":46,"YC":11,"上下文工程":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":229,"技能文件":3,"RAG":9,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":46,"YC":11,"上下文工程":12}</script>
 
 <script>
 (function(){

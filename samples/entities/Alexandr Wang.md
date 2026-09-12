@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":2,"Meta":30,"MuseSpark":1,"开源模型":16,"智能体":226,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":18,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":2,"Meta":30,"MuseSpark":1,"开源模型":16,"智能体":229,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":18,"Spark API":1}</script>
 
 <script>
 (function(){

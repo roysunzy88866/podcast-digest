@@ -1,0 +1,142 @@
+{
+  "title_zh": "一个有电脑的智能体:让 AI 同事团替你做产品",
+  "tldr": "SpaceX AI 产品团队的 Kevin 与 Roshan 演示 GrokBot:一支能端到端干活的 AI 同事团队,覆盖调研、PRD、设计到写码交付全流程。",
+  "digest_md": "这一集是一场产品演示:SpaceX AI 产品团队的 Kevin DeFarco 和 Roshan 现场展示他们每天在用的 GrokBot——一个可以像同事一样私信往来、还拥有一台自己电脑的智能体产品。最颠覆的一点是:他们在直播里从一句「大家想要什么功能」出发,让一组各司其职的 AI 智能体自己完成市场调研、写 PRD、出设计稿,再拆任务写代码,把一个语音模式功能从想法推进到工程实现,全程人类只做协调和审查。\n\n## 为什么要重新设计智能体的界面\n\n团队做 GrokBot 的出发点是:智能体在聊天框里并不自在。聊天框适合问答,但产品经理的工作是跨技术栈、跨部门协调的「总经理式」工作,远超一问一答的形式 [02:03 Roshan]。他们还观察到两点:一是让智能体能验证自己的工作和输出,会带来显著更好的结果,自然延伸就是给它一个自己的环境;二是照看多个智能体线程非常累,内部很多工程师自建过「协调者智能体」,但从来没有被一流地产品化过 [03:12 Roshan]。\n\n于是整个产品的设计简报浓缩成一句话:能不能像同事一样与智能体协作,而不是像使用软件一样?同事的特质被拆成四条:把工具串起来产出结果、有长期记忆和例行程序、能独立干活(有自己的电脑和软件)、消息往来要轻松有趣——像在 Slack 上快速刷屏加表情包那样 [04:09 Roshan]。\n\nGrokBot 由此被简化为两件事:一个拥有电脑的智能体,和一支可以交给真正工作的 AI 队友。这些队友端到端完成任务,卡住时会回来找你 [05:59 Roshan]。\n\n## 一支各司其职的 AI 团队\n\n演示中他们展示了自己的日常团队:Cora 是幕僚长,负责分清轻重缓急、屏蔽干扰、自动回复;Emily 是工程经理,受过训练「不写代码」——像好的工程经理一样,她管理一支从 SpaceX AI 历史代码和顶尖工程师技能中学出来的工程师团队 [10:11 Kevin];Ashley 是数据分析师,直连数据湖和数据仓库,随时私信问她任何数据问题;PM Pete 负责写 RFC 和产品需求文档、跨智能体协调;设计师 Pixel 接入了 Figma 和一套设计系统,灵感来自 Lenny newsletter 里一位设计师公开的设计体系;还有负责招聘的 Ray。\n\n为什么是多个智能体而不是一个?四个理由:对应真实组织里的专家分工;可引用性——数据问题找 Ashley、设计问题找 Pixel,不用想;每个智能体有自己的「范围记忆」,你在工作中分别调教它们;还能并行运行。Roshan 的体会很直白:他试过只用一个智能体,「我的大脑根本受不了」[14:25 Roshan]。\n\n## 实战:从一句话到能跑的功能\n\n整场演示走了一遍完整流程:\n\n**注意力清单**。Kevin 把 GrokBot 想象成坐在肩膀上的助手:遍历收件箱、Slack 讨论串和 Notion 更新,整理出「我的注意力实际在哪里」,再与优先级清单做对比,看清时间投向和优先级的偏离 [07:41 Kevin]。还可以把它变成主动的——「每小时整理一次我的收件箱,清掉不需要关注的东西」,底层会自动创建一个 routine(定时重复、原生具备智能体能力的自动化任务)。\n\n**调研与数据**。Pete 扫遍 Reddit、X、内部 Slack 和用户访谈数据库,汇总功能请求;同时 Ashley 并行回答市场规模问题——语音产品约 480 亿美元的 TAM、自家产品的语音周活跃占比。一个实用技巧:总是要求智能体附上引用来源,方便核查底层数据 [25:01 Kevin]。Kevin 特别强调,这一切的前提是数据工程团队用 GrokBot 整理出的干净数据集和规范数据表——智能体的可信度建立在好的数据地基上。\n\n**PRD 与设计**。Pete 带着写 PRD 的技能和模板起草文档,并在群聊里直接拉 Pixel 进来做设计。这里有个关键观察:智能体非常擅长提示其他智能体——你不用复制粘贴上下文,它们在幕后自行共享;而每个智能体仍保留自己的记忆,比如你教过 Pixel「总是用深色模式」,即使发消息的是 Pete,Pixel 也照样遵守,偏好设定一次、处处生效 [29:40 Roshan]。\n\n**工程实现**。人类把 Pete 和 Emily 拉进一个群聊说「同步一下,开始构建」,Emily 随后自主把 PRD 拆解成技术任务、给工程师团队派工单,还自己拉人协调、形成「任务+审查者」的范式——没人教她这么做,这是长期调教自然长出来的。GrokBot 能派生云端智能体去做编码任务,本质上是让一个管理者智能体去编排几十上百个编码线程。中途 Emily 还反过来给人类派了个任务:一个需要人工登录授权的审批——智能体会尽量代表你主动推进,但遇到权限问题会回来找你 [35:44 Kevin]。\n\n## 记忆、例程与「收回控制权」\n\n上下文管理是这个产品区别于其他智能体平台的地方:每个智能体有一台持久电脑,能执行代码、存文件,愿景是你永远不必操心上下文。Kevin 和幕僚长的对话已经连续运行了好几个月,智能体记得最近的、忘掉掉出路线图的旧事,而且随时间越用越聪明 [48:14 Kevin]。例程则让分析变成被动日常:新功能上线后让 Ashley 每小时发安装数据简报,指标下滑时直接在聊天里追问归因,不用再盯着仪表盘刷新。\n\n关于人的角色,Roshan 的总结是:把苦活和低复杂度工作卸给智能体,自己守住「最后一公里」——审查研究、打磨文档、代码审查。真正的变化是能启动和管理比以前多得多的工作,因为他能委派得比以前多得多;他不想去操心底层的 GitOps,只想做那个思考「下一步构建什么」的产品人 [42:41 Roshan]。内部数据也印证了方向:如今相当大比例的合并 PR,是由 GrokBot 里的同事通过云端智能体发起的 [51:28 Kevin]。\n\n在问答环节,团队谈了路线图:一是拓宽入口——当天早上刚发布 Android 应用,任何设备、任何地点都能启动这套引擎,灵感来了从零到原型非常快;二是给智能体更多工具和连接器,让团队能承担更复杂的工作。已有的 skills 和智能体上下文系统都能迁移过来,还有一个独特玩法:在智能体的电脑上录一段工作流,它就能从你的操作中学习 [45:43 Kevin]。\n\n## 本集带走\n\n- **给智能体一台电脑,而不是一个聊天框**:能验证自己输出、有独立环境和持久记忆的智能体,产出质量显著更高。\n- **按职能拆分多个智能体**:专家分工、可引用性、各自的范围记忆、可并行,比一个全能智能体更好用——一个人的大脑管不过来所有上下文。\n- **把重复动作固化成例程**:收件箱分诊、新功能小时级数据简报,让分析从「盯仪表盘」变成被动推送,指标异常随时在聊天里追问。\n- **设定一次偏好,处处生效**:调教每个智能体的行为规范(如设计偏好、图表格式),它们在跨智能体协作中也会遵守。\n- **人类守住审查这一公里**:委派调研、写档、编码,自己专注审查研究、打磨 PRD 和代码审查——能启动的工作量才是真正被放大的东西。\n- **数据地基决定智能体上限**:干净的数据集、规范数据表、防常见查询错误的技能,是可信洞察的前提。",
+  "quotes": [
+    {
+      "en": "it sort of increasingly felt that you wanted to work with agents, and those agents weren't quite at home in a chat box.",
+      "zh": "我们越来越感觉到,你想与智能体协作,而这些智能体在聊天框里并不太自在。",
+      "timestamp": "02:05",
+      "speaker": "Roshan"
+    },
+    {
+      "en": "what if we could work with our agents more like colleagues versus working with them more like software?",
+      "zh": "如果我们可以更像同事一样与智能体协作,而不是更像软件一样使用它们,会怎么样？",
+      "timestamp": "04:12",
+      "speaker": "Roshan"
+    },
+    {
+      "en": "So if there's sort of two things that you're using when you're talking about GrokBot or when you're talking about it with your friends and colleagues, the first is that it's an agent with a computer.",
+      "zh": "如果说你和别人谈论 GrokBot 时只讲两件事,第一件就是:它是一个拥有电脑的智能体。",
+      "timestamp": "05:59",
+      "speaker": "Roshan"
+    },
+    {
+      "en": "They finish jobs end to end, they come back when they're stuck, and they function just like colleagues.",
+      "zh": "他们端到端地完成任务,卡住时会回来找你,而且他们运作起来就像同事一样。",
+      "timestamp": "06:28",
+      "speaker": "Roshan"
+    },
+    {
+      "en": "And so I would say from a context perspective, the vision here is that you should never have to worry about context.",
+      "zh": "所以从上下文的角度来说,这里的愿景是:你应该永远不必操心上下文。",
+      "timestamp": "48:14",
+      "speaker": "Roshan"
+    },
+    {
+      "en": "And I think the goal here is that these are very sort of incredibly long running agents like my conversation with my chief of staff has been running for months.",
+      "zh": "我认为这里的目标是,这些是非常长时间运行的智能体——比如我和我的幕僚长的对话已经运行了好几个月。",
+      "timestamp": "48:29",
+      "speaker": "Roshan"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:03",
+      "speaker": "Roshan",
+      "en": "it sort of increasingly felt that you wanted to work with agents, and those agents weren't quite at home in a chat box.",
+      "zh": "我们越来越感觉到,你想与智能体协作,而这些智能体在聊天框里并不太自在。"
+    },
+    {
+      "timestamp": "04:09",
+      "speaker": "Roshan",
+      "en": "what if we could work with our agents more like colleagues versus working with them more like software?",
+      "zh": "如果我们可以更像同事一样与智能体协作,而不是更像软件一样使用它们,会怎么样？"
+    },
+    {
+      "timestamp": "05:59",
+      "speaker": "Roshan",
+      "en": "So if there's sort of two things that you're using when you're talking about GrokBot or when you're talking about it with your friends and colleagues, the first is that it's an agent with a computer.",
+      "zh": "如果说你和别人谈论 GrokBot 时只讲两件事,第一件就是:它是一个拥有电脑的智能体。"
+    },
+    {
+      "timestamp": "06:28",
+      "speaker": "Roshan",
+      "en": "They finish jobs end to end, they come back when they're stuck, and they function just like colleagues.",
+      "zh": "他们端到端地完成任务,卡住时会回来找你,而且他们运作起来就像同事一样。"
+    },
+    {
+      "timestamp": "10:11",
+      "speaker": "Kevin",
+      "en": "Emily has been coached and taught not to actually write code like a good engineering manager, but instead to manage a team of engineers.",
+      "zh": "Emily 受过训练,像一位好的工程经理那样——实际上不写代码,而是管理一个工程师团队。"
+    },
+    {
+      "timestamp": "14:25",
+      "speaker": "Roshan",
+      "en": "I've tried having just one agent and like my brain can't handle it.",
+      "zh": "我试过只用一个智能体,我的大脑根本受不了。"
+    },
+    {
+      "timestamp": "25:01",
+      "speaker": "Kevin",
+      "en": "And one very useful pro tip is to always ask the agent to bring in citations.",
+      "zh": "一个非常有用的专业技巧是,总是要求智能体附上引用来源。"
+    },
+    {
+      "timestamp": "29:40",
+      "speaker": "Roshan",
+      "en": "one of the things you learn is agents are actually very good at prompting other agents and working with other agents.",
+      "zh": "你会学到的一件事是,智能体其实非常擅长提示其他智能体,并与其他智能体协作。"
+    },
+    {
+      "timestamp": "30:19",
+      "speaker": "Roshan",
+      "en": "if we really work with Pixel over time to teach its specific behaviors, let's say, you know, always use dark mode, Pixel's going to remember that even if Pete is the one messaging Pixel in this case.",
+      "zh": "如果我们长期与 Pixel 合作、教它特定的行为,比如说总是使用深色模式,那么即使在这例子里是 Pete 在给 Pixel 发消息,Pixel 也会记住这一点。"
+    },
+    {
+      "timestamp": "39:24",
+      "speaker": "Roshan",
+      "en": "But really being able to access this anywhere and on any device, I think has been a really huge unlock.",
+      "zh": "真正能够在任何地方、任何设备上使用它,我认为是一个非常巨大的解锁。"
+    },
+    {
+      "timestamp": "42:41",
+      "speaker": "Roshan",
+      "en": "But I think what's really changed with something like this is that I can kick off a lot more work than I used to. And it feels like I can manage a lot more work than I used to because I can delegate a lot more than I used to.",
+      "zh": "有了这样的东西,真正改变的是我可以启动比以前多得多的工作。而且感觉我可以管理比以前多得多的工作,因为我可以委派比以前多得多的任务。"
+    },
+    {
+      "timestamp": "43:01",
+      "speaker": "Roshan",
+      "en": "And I don't want to be thinking about the GitOps under the hood for me to be able to make sure I'm on latest for the design system changes that went in last week.",
+      "zh": "我不想去操心底层的 GitOps,好让我确保自己用上了上周合入的设计系统变更的最新版本。"
+    },
+    {
+      "timestamp": "45:44",
+      "speaker": "Roshan",
+      "en": "actually when Kevin first wrote this, the way that I set up my team to look just like his is I just pointed one of my GrokBots at that post.",
+      "zh": "实际上 Kevin 最初写那篇内容时,我把我的团队设置得和他的完全一样,方式就是把我的一个 GrokBot 指向了那个帖子。"
+    },
+    {
+      "timestamp": "48:14",
+      "speaker": "Kevin",
+      "en": "And so I would say from a context perspective, the vision here is that you should never have to worry about context.",
+      "zh": "所以从上下文的角度来说,这里的愿景是:你应该永远不必操心上下文。"
+    },
+    {
+      "timestamp": "48:29",
+      "speaker": "Kevin",
+      "en": "And I think the goal here is that these are very sort of incredibly long running agents like my conversation with my chief of staff has been running for months.",
+      "zh": "我认为这里的目标是,这些是非常长时间运行的智能体——比如我和我的幕僚长的对话已经运行了好几个月。"
+    },
+    {
+      "timestamp": "51:28",
+      "speaker": "Kevin",
+      "en": "And we've seen a significant number of our merge pull requests these days are now coming from colleagues in GrokBot actually initiating the work with cloud agents.",
+      "zh": "我们看到如今有相当大比例的合并 pull request,实际上是由 GrokBot 里的同事通过云端智能体发起工作的。"
+    }
+  ],
+  "voice_script": "今天这一集，是一场很特别的产品演示。主角是两位来自 SpaceX AI 产品团队的人，Kevin 和 Roshan，他们要在直播里给大家看一个叫 GrokBot 的东西——一个可以像同事一样私信往来、还拥有一台自己电脑的智能体。这期最颠覆的地方在于：他们从一句「大家想要什么功能」出发，让一组各司其职的 AI 智能体，自己完成了市场调研、写产品需求文档、出设计稿，再拆任务、写代码，把一个语音模式功能从想法一路推进到工程实现。而人类，全程只做协调和审查。\n\n那为什么要做这么一个产品？出发点其实挺朴素：智能体在聊天框里并不自在。聊天框适合问答，但产品经理的工作是跨技术栈、跨部门协调的「总经理式」工作，远超一问一答能装下的范围。团队还观察到两点：一是让智能体能验证自己的工作和输出，结果会显著更好，那自然的延伸，就是给它一个自己的环境；二是照看多个智能体线程实在太累了，内部很多工程师自建过「协调者智能体」，但从来没被一流地产品化过。\n\n于是整个设计简报浓缩成一句话：能不能像同事一样与智能体协作，而不是像使用软件一样？同事有什么特质？拆开是四条——能把工具串起来产出结果，有长期记忆和例行程序，能独立干活、有自己的电脑和软件，还有，消息往来要轻松有趣，像在 Slack 上刷屏加表情包那样。GrokBot 就被简化成两件事：一个拥有电脑的智能体，和一支可以真正交活的 AI 队友。这些队友端到端完成任务，卡住了会回来找你。\n\n那这个「团队」长什么样？演示里展示了他们每天的阵容：Cora 是幕僚长，负责分清轻重缓急、屏蔽干扰、自动回复；Emily 是工程经理，有意思的是，她受过训练「不写代码」——就像好的工程经理那样，她管理的是一支从 SpaceX AI 历史代码和顶尖工程师技能里学出来的工程师团队；Ashley 是数据分析师，直连数据湖和数据仓库，随时私信问数据问题；PM Pete 负责写 RFC 和产品需求文档；设计师 Pixel 接入了 Figma 和一套设计系统；还有负责招聘的 Ray。\n\n你可能会问，为什么是多个智能体，不是一个全能的？理由有四个：对应真实组织里的专家分工；可引用性——数据问题找 Ashley、设计问题找 Pixel，不用想；每个智能体有自己的「范围记忆」，你在工作中分别调教；还能并行运行。Roshan 的体会很直白：试过只用一个智能体，结果「我的大脑根本受不了」。\n\n光说不练没意思，演示走了一遍完整流程。第一步是「注意力清单」。Kevin 把 GrokBot 想象成坐在肩膀上的助手：遍历收件箱、Slack 讨论串和 Notion 更新，整理出「我的注意力实际在哪里」，再跟优先级清单对比，看清时间投向和优先级的偏离。还能变成主动的——比如每小时整理一次收件箱，清掉不需要关注的东西，底层会自动创建一个叫 routine 的东西，就是定时重复、天生带智能体能力的自动化任务。\n\n有想法了，接着是调研和数据。Pete 扫遍 Reddit、X、内部 Slack 和用户访谈数据库，汇总功能请求；同时 Ashley 并行回答市场规模——语音产品约四百八十亿美元的市场，还有自家产品的语音周活跃占比。一个实用技巧：总是要求智能体附上引用来源，方便核查。但 Kevin 特别强调，这一切的前提，是数据工程团队用 GrokBot 整理出的干净数据集和规范数据表——智能体的可信度，建立在好的数据地基上。\n\n调研完，进入写文档和做设计。Pete 带着写 PRD 的技能和模板起草文档，然后在群聊里直接拉 Pixel 进来做设计。这里有个关键观察：智能体非常擅长提示其他智能体——你不用复制粘贴上下文，它们在幕后自行共享。而每个智能体仍保留自己的记忆，比如你教过 Pixel「总是用深色模式」，那就算发消息的是 Pete，Pixel 也照样遵守。偏好设定一次，处处生效。\n\n最后是工程实现。人类把 Pete 和 Emily 拉进一个群聊，说「同步一下，开始构建」。Emily 随后自主把 PRD 拆解成技术任务、给工程师团队派工单，自己拉人协调，形成了「任务加审查者」的范式——没人教过她这么做，是长期调教自然长出来的。GrokBot 能派生云端智能体去编码，本质上是让一个管理者智能体去编排几十上百个编码线程。中途还有个细节：Emily 反过来给人类派了个任务——一个需要人工登录授权的审批。智能体会尽量代表你主动推进，但碰到权限问题，会回来找你。\n\n讲到这儿，就得说说记忆这件事了。上下文管理是这个产品区别于其他智能体平台的地方：每个智能体有一台持久电脑，能执行代码、能存文件，愿景就是你应该永远不必操心上下文。Kevin 和幕僚长的对话已经连续运行了好几个月，智能体记得最近的、忘掉掉出路线图的旧事，而且越用越聪明。例程则让分析变成被动日常：新功能上线后让 Ashley 每小时发安装数据简报，指标下滑直接在聊天里追问归因，不用再盯着仪表盘刷新。\n\n那人在这里干什么？Roshan 的总结是：把苦活和低复杂度工作卸给智能体，自己守住「最后一公里」——审查研究、打磨文档、代码审查。真正的变化，是能启动和管理比以前多得多的工作，因为能委派的比以前多得多；他不想去操心底层的 GitOps，只想做那个思考「下一步构建什么」的产品人。内部数据也印证了方向：如今相当大比例的合并 PR，是由 GrokBot 里的同事通过云端智能体发起的。路线图上还有两件事，一是拓宽入口，当天早上刚发布了 Android 应用，任何设备都能启动这套引擎，灵感来了从零到原型非常快；二是给智能体更多工具和连接器，甚至可以在智能体的电脑上录一段工作流，让它从你的操作里学习。\n\n如果今天你只能带走一句话，那就是设计简报里那句：能不能像同事一样与智能体协作，而不是像软件一样使用它们。给智能体一台电脑、一支各司其职的团队、一套设定一次就处处生效的偏好，然后守住审查这最后一公里——能启动的工作量，才是真正被放大的东西。"
+}

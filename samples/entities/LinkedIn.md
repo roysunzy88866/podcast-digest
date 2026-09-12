@@ -35,7 +35,7 @@ unlisted: true
 
 [[Lenny]] · [[Ajay Prakash]] · [[Brian Balfour]] · [[编码智能体]] · [[ChatGPT]] · [[MCP]] · [[Claude]] · [[剧本]] · [[Facebook]] · [[上下文工程]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Ajay Prakash":1,"Brian Balfour":1,"编码智能体":12,"ChatGPT":59,"MCP":37,"Claude":56,"剧本":4,"Facebook":11,"上下文工程":12}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Ajay Prakash":1,"Brian Balfour":1,"编码智能体":12,"ChatGPT":59,"MCP":38,"Claude":56,"剧本":4,"Facebook":11,"上下文工程":12}</script>
 
 <script>
 (function(){

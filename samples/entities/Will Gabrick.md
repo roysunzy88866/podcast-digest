@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":3,"Stripe":29,"Stripe Minions":1,"智能体":226,"智能体商务":3,"稳定币":4,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":18}</script>
+<script type="application/json" class="pd-epn">{"David George":3,"Stripe":29,"Stripe Minions":1,"智能体":229,"智能体商务":3,"稳定币":4,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":18}</script>
 
 <script>
 (function(){

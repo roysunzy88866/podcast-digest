@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brian Armstrong":1,"Coinbase":5,"NewLimit":2,"智能体":226,"智能体金融":1,"X402":1,"稳定币":4,"分词":4,"预测市场":1,"递归自我改进":3}</script>
+<script type="application/json" class="pd-epn">{"Brian Armstrong":1,"Coinbase":5,"NewLimit":2,"智能体":229,"智能体金融":1,"X402":1,"稳定币":4,"分词":4,"预测市场":1,"递归自我改进":3}</script>
 
 <script>
 (function(){

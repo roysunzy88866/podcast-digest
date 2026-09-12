@@ -38,11 +38,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":6,"Marble":4,"Sam Charrington":3,"Martin Casado":4,"高斯溅射":1,"Atlas":2,"智能体":226,"空间智能":3,"PoMDPs":1}</script>
+<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":6,"Marble":4,"Sam Charrington":3,"Martin Casado":4,"高斯溅射":1,"Atlas":2,"智能体":229,"空间智能":3,"PoMDPs":1}</script>
 
 <script>
 (function(){

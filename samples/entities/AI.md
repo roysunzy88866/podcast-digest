@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>16</b> 集 · <b>280</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>17</b> 集 · <b>282</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -27,10 +27,11 @@ unlisted: true
 - **[[2026-09-02-beyondcoding-why-robots-need-a-different-map-google-e|《Google Earth 之父的下一站：给真实世界建一个 4D 模型》]]**(01:29起):本集贯穿的主线:AI 擅长可自检的问题但解读视觉信息很糟糕;各代模型在某些类别上上下跳动而非逼近完美,不要为用 AI 而用 AI,也不要盲目开三个模型互相打。
 - **[[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver|《Sea 创始人 Forrest:从网吧预付卡到 100 亿美元放贷》]]**(27:44起):本集谈了三个真实落地场景:超过 80% 客户咨询 100% 由 AI 处理且满意度超人工、游戏美术外包几乎全由 AI 完成、游戏中聪明的机器人陪新玩家玩
 - **[[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|《为什么医疗是 AI 受益最大的行业: Julie Yu 的判断》]]**(00:06起):本集主线论点：医疗保健将是从 AI 中受益最多的行业——它没有旧软件的沉没成本，可以直接跳到 AI 原生工作流，并迎来第一波真正的有机采用浪潮。
+- **[[2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut|《从高中辍学到 Autodesk CEO:Andrew Anagnost 的「杀死自己业务」领导哲学》]]**(13:30起):本集说 Autodesk 很早投入 AI,把它当作处于设计与制造之间的「项目大脑」,连接并自动化双方决策;并主张用 AI 交付精确性、速度和总拥有成本将定义未来的纵向软件。
 
 ## ① 提到它的金句
 
-*280 条*
+*282 条*
 
 ![[2025-07-06-lennys-the-base44-bootstrapped-startup-success#^q2]]
 
@@ -468,6 +469,10 @@ unlisted: true
 
 ![[2026-09-01-dwarkesh-ajeya-cotra#^q7]]
 
+![[2026-09-01-mos-when-ai-agents-do-your-shopping-everythi#^q11]]
+
+![[2026-09-01-mos-when-ai-agents-do-your-shopping-everythi#^q12]]
+
 ![[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai#^q3]]
 
 ![[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai#^q4]]
@@ -594,7 +599,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*16 集*
+*17 集*
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为概念
 - [[2025-11-02-lennys-the-making-of-canva|《Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来》]] — 作为概念
@@ -612,6 +617,7 @@ unlisted: true
 - [[2026-09-02-beyondcoding-why-robots-need-a-different-map-google-e|《Google Earth 之父的下一站：给真实世界建一个 4D 模型》]] — 作为概念
 - [[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver|《Sea 创始人 Forrest:从网吧预付卡到 100 亿美元放贷》]] — 作为概念
 - [[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|《为什么医疗是 AI 受益最大的行业: Julie Yu 的判断》]] — 作为概念
+- [[2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut|《从高中辍学到 Autodesk CEO:Andrew Anagnost 的「杀死自己业务」领导哲学》]] — 作为概念
 
 ## ③ 关联
 
@@ -619,7 +625,7 @@ unlisted: true
 
 [[Lenny]] · [[Claude]] · [[Stripe]] · [[a16z]] · [[智能体]] · [[Google]] · [[MCP]] · [[LLM]] · [[Anthropic]] · [[Databricks]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Claude":56,"Stripe":29,"a16z":14,"智能体":226,"Google":40,"MCP":37,"LLM":31,"Anthropic":118,"Databricks":11}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Claude":56,"Stripe":29,"a16z":14,"智能体":229,"Google":40,"MCP":38,"LLM":31,"Anthropic":118,"Databricks":11}</script>
 
 <script>
 (function(){

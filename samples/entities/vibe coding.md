@@ -96,7 +96,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[Lenny]] · [[Anthropic]] · [[Claude]] · [[ChatGPT]] · [[OpenAI]] · [[Claude Code]] · [[护栏]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":226,"Cursor":58,"Lenny":67,"Anthropic":118,"Claude":56,"ChatGPT":59,"OpenAI":105,"Claude Code":57,"护栏":43,"Codex":46}</script>
+<script type="application/json" class="pd-epn">{"智能体":229,"Cursor":58,"Lenny":67,"Anthropic":118,"Claude":56,"ChatGPT":59,"OpenAI":105,"Claude Code":58,"护栏":43,"Codex":46}</script>
 
 <script>
 (function(){

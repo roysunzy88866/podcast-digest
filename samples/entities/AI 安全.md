@@ -31,7 +31,7 @@ unlisted: true
 
 [[Alex]] · [[Nick Bostrom]] · [[OpenAI]] · [[Anthropic]] · [[Hugging Face]] · [[NVIDIA]] · [[智能体]] · [[对齐]] · [[护栏]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"Alex":4,"Nick Bostrom":1,"OpenAI":105,"Anthropic":118,"Hugging Face":20,"NVIDIA":33,"智能体":226,"对齐":6,"护栏":43,"开源模型":16}</script>
+<script type="application/json" class="pd-epn">{"Alex":4,"Nick Bostrom":1,"OpenAI":105,"Anthropic":118,"Hugging Face":20,"NVIDIA":33,"智能体":229,"对齐":6,"护栏":43,"开源模型":16}</script>
 
 <script>
 (function(){

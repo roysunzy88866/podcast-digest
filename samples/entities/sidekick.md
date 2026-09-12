@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>sidekick</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="sidekick">SI</div><div class="pi"><h1 class="pt">sidekick</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="sidekick">SI</div><div class="pi"><h1 class="pt">sidekick</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(18:42起):Cognition 抛弃了传统的主智能体+子智能体结构,改用这种持续带有运行上下文的副手机制,所有缓存的 token 成本能便宜 10 倍,大模型和小模型还能随时互换主次位置。
+- **[[2026-09-01-mos-when-ai-agents-do-your-shopping-everythi|《Shopify COO 谈 AI 时代的电商：复杂性是我们的护城河》]]**(10:45起):本集说它是 Shopify 内置的 AI 驱动商务智能体，帮助商家卖出更多
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为概念
+- [[2026-09-01-mos-when-ai-agents-do-your-shopping-everythi|《Shopify COO 谈 AI 时代的电商：复杂性是我们的护城河》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Tane]] · [[Carter]] · [[Walden]] · [[模型路由]] · [[智能体]] · [[上下文压缩]] · [[RL]] · [[蒸馏]] · [[KV 缓存]] · [[Cognition]]
+[[智能体]] · [[Tane]] · [[Bob Safian]] · [[Carter]] · [[Jess Hertz]] · [[Walden]] · [[Shopify]] · [[模型路由]] · [[River]] · [[上下文压缩]]
 
-<script type="application/json" class="pd-epn">{"Tane":1,"Carter":1,"Walden":1,"模型路由":6,"智能体":226,"上下文压缩":1,"RL":7,"蒸馏":10,"KV 缓存":2,"Cognition":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":229,"Tane":1,"Bob Safian":2,"Carter":1,"Jess Hertz":1,"Walden":1,"Shopify":6,"模型路由":6,"River":1,"上下文压缩":1}</script>
 
 <script>
 (function(){

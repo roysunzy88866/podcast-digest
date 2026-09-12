@@ -1,0 +1,830 @@
+{
+  "episode_id": "2026-09-11-talks-building-ambitious-software-jonathan-kel",
+  "podcast": "精选演讲",
+  "date": "2026-09-11",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "Rust",
+    "开源项目",
+    "软件架构"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jonathan-kelley",
+      "type": "person",
+      "role": "guest",
+      "name": "Jonathan Kelley",
+      "file": "Jonathan Kelley",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "dioxys",
+      "type": "company",
+      "role": "company",
+      "name": "Dioxys",
+      "file": "Dioxys",
+      "primary": true,
+      "how_described": "本集介绍它是 Jonathan Kelley 用 Rust 写的跨平台应用框架，目标是挑战 React Native 和 Flutter、以纯原生性能一套代码跑多平台，如今有近 37,000 GitHub 星、数百万下载、累计超 2 亿终端用户，并被 Cognition 收购。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            22.588,
+            26.889
+          ],
+          "quote": "Five years ago, I made the first commit ever to a project called Dioxys.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            60.273,
+            62.394
+          ],
+          "quote": "The idea for Dioxys was straightforward.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            127.761,
+            131.985
+          ],
+          "quote": "In 2021, there were very few off-the-shelf components you could use to build Dioxys.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            149.927,
+            155.471
+          ],
+          "quote": "Now, today, in 2026, Dioxys has achieved and far surpassed its original mission.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            181.12,
+            186.263
+          ],
+          "quote": "The Dioxys project now has nearly 37,000 stars on GitHub with millions of downloads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            187.203,
+            193.386
+          ],
+          "quote": "Apps built in Dioxys are rolled out across the globe with a cumulative estimate of over 200 million end users.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            205.773,
+            209.515
+          ],
+          "quote": "We've put a ton of effort into making Dioxys as user-friendly as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            218.531,
+            221.952
+          ],
+          "quote": "Because Dioxys apps are written in Rust, they are structurally very simple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            239.972,
+            247.316
+          ],
+          "quote": "One of the most ambitious goals we had for Dioxys was to ship our own lightweight but fully-featured HTML and CSS rendering engine called Blitz.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            328.14,
+            335.024
+          ],
+          "quote": "The most amazing thing, every line of code in Dioxys, until very recently, has been painstakingly written by hand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            420.926,
+            426.629
+          ],
+          "quote": "One thing we realized over all these years, we had put a ton of effort into making Dioxys extremely developer-friendly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            438.855,
+            444.138
+          ],
+          "quote": "Coding agents excel with Dioxys, still, fortunately, because Rust is harder to write.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            460.225,
+            467.349
+          ],
+          "quote": "So, throughout the process of adopting the coding tools to work on Dioxys, we learned a wide array of lessons.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            514.046,
+            516.168
+          ],
+          "quote": "But for us and for Dioxys,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            551.979,
+            561.922
+          ],
+          "quote": "There's dozens of features we still have yet to build for Dioxys, and we want to ship these quickly to keep up with the times, but we also want to maintain quality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            562.883,
+            577.268
+          ],
+          "quote": "When building a large, ambitious project like Dioxys, there's a constant tension of shipping fast, adding new features, and then also making sure you don't break things and that in a patch release you're not breaking APIs that millions of people rely on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            614.577,
+            617.339
+          ],
+          "quote": "Many problems in Dioxys are knowledge problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            647.075,
+            655.599
+          ],
+          "quote": "We were able to implement things like Kotlin and Swift plugins for Dioxys, deeply integrated into our build system, which is a really hard feature.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            744.768,
+            747.569
+          ],
+          "quote": "We have three core engineers working on Dioxys.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            759.272,
+            766.197
+          ],
+          "quote": "Dioxys is a large project, and it's been a challenge to maintain a high-quality bar across the entire codebase, across every release.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            874.255,
+            876.456
+          ],
+          "quote": "One place we've struggled with Dioxys is testing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            1023.587,
+            1030.457
+          ],
+          "quote": "One thing we do for Dioxys, which maybe you guys still do, maybe you don't, is we review every PR line by line.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            1042.553,
+            1044.135
+          ],
+          "quote": "Dioxys' big open source project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1122.142,
+            1128.146
+          ],
+          "quote": "If you would like to work on the tools of the next generation of software, Cognition, the people who have acquired Dioxys are hiring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1128.966,
+            1132.608
+          ],
+          "quote": "The Dioxys team joined Cognition to be part of the future, and hopefully you will too.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集结尾提到它是收购了 Dioxys 的公司，正在为「下一代软件的工具」招聘。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            1122.142,
+            1128.146
+          ],
+          "quote": "If you would like to work on the tools of the next generation of software, Cognition, the people who have acquired Dioxys are hiring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1128.966,
+            1132.608
+          ],
+          "quote": "The Dioxys team joined Cognition to be part of the future, and hopefully you will too.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：编程智能体过去六个月在 Rust 上变得很强，擅长知识型难题、正确做事和琐碎任务，但仍写不出对的测试、不懂架构、受限于文本媒介的意图传达。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            821.61,
+            835.063
+          ],
+          "quote": "We still do write a lot of .comments ourselves, but it's very easy to give the agent a task of making sure everything is documented properly, everything has an example, and everything actually is documenting the thing that it says in the way that it says.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            975.642,
+            981.408
+          ],
+          "quote": "If the substrate on which your agent's code lands is bad, their contributions will be bad as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rust",
+      "type": "concept",
+      "role": "concept",
+      "name": "Rust",
+      "file": "Rust",
+      "primary": true,
+      "how_described": "本集说 Dioxys 用 Rust 编写，Rust 难写反而成了优势——智能体替人承担开发负担、与借用检查器搏斗，「我们曾努力降低的学习曲线现在变成了一个特性」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            27.769,
+            44.372
+          ],
+          "quote": "I used the last summer I had as an undergraduate, and instead of getting an internship at Google or doing research in AI, like many of my friends at the time, I spent it exploring an idea I had for a cross-platform app framework written in the Rust programming language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            44.472,
+            46.773
+          ],
+          "quote": "In 2021, Rust was still pretty niche.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            67.166,
+            78.238
+          ],
+          "quote": "Instead of wading through dozens of tool chains, programming languages, and IDEs, what if we simply rotor all of our apps in Rust using HTML and CSS as the markup language?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            88.01,
+            95.432
+          ],
+          "quote": "On the flip, with Rust, we could build native apps directly with no VM, no IPC, no JavaScript.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            156.331,
+            164.517
+          ],
+          "quote": "We support all the features we originally set out to build, from cross-platform support to native rendering to Rust hot reload and bundle splitting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            218.531,
+            221.952
+          ],
+          "quote": "Because Dioxys apps are written in Rust, they are structurally very simple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            226.994,
+            231.216
+          ],
+          "quote": "Because all Rust projects are alike, it's very easy for developers to dive into a new project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            275.551,
+            281.753
+          ],
+          "quote": "We also worked on a tool called SubSecond, which is our generic hot reload engine for Rust, C, and C++.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            300.308,
+            304.509
+          ],
+          "quote": "It works on every major operating system and even the web where Rust is compiled into WebAssembly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            346.619,
+            351.341
+          ],
+          "quote": "AI coding agents got really, really good, and specifically, they got really good at Rust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            352.581,
+            358.364
+          ],
+          "quote": "Our team, a bunch of cracked Rust engineers, has been quite skeptical of AI for a long time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            371.589,
+            376.091
+          ],
+          "quote": "Seeing them get really good at Rust was a huge surprise to us, so we were finally excited.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            381.565,
+            387.948
+          ],
+          "quote": "Our team maxed out our Claude Code subscriptions, churned out tens of thousands of lines of Rust, and built all sorts of features we had long wished to have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            434.493,
+            438.155
+          ],
+          "quote": "We tried to make Rust easy for humans, and in fact, it didn't really matter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            438.855,
+            444.138
+          ],
+          "quote": "Coding agents excel with Dioxys, still, fortunately, because Rust is harder to write.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            444.798,
+            453.782
+          ],
+          "quote": "The coding agents deal with the development burden for you, they handle the edge cases, and they fight the bar checker, saving you from the cognitive burden of writing Rust apps.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bar-checker",
+      "type": "concept",
+      "role": "concept",
+      "name": "借用检查器 (bar checker)",
+      "file": "借用检查器",
+      "primary": false,
+      "how_described": "本集提到编程智能体替开发者「与借用检查器搏斗」，把人从写 Rust 应用的认知负担中解救出来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            444.798,
+            453.782
+          ],
+          "quote": "The coding agents deal with the development burden for you, they handle the edge cases, and they fight the bar checker, saving you from the cognitive burden of writing Rust apps.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "react-native",
+      "type": "concept",
+      "role": "concept",
+      "name": "React Native",
+      "file": "React Native",
+      "primary": false,
+      "how_described": "本集说 2021 年它还很蹩脚，是 Dioxus 要挑战的对象；其 Turbo modules 花了多年手工开发才做对，而 Dioxus 用智能体两三周就发布了同类功能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            79.399,
+            86.948
+          ],
+          "quote": "This was back in the day, 2021, where React Native was janky, Flutter was too slow, and neither performed well with native APIs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            123.416,
+            126.74
+          ],
+          "quote": "In reality, trying to challenge React Native in Flutter is extremely ambitious.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "flutter",
+      "type": "concept",
+      "role": "concept",
+      "name": "Flutter",
+      "file": "Flutter",
+      "primary": false,
+      "how_described": "本集说 2021 年 Flutter 太慢、与原生 API 配合不佳，是 Dioxus 要挑战的框架之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            79.399,
+            86.948
+          ],
+          "quote": "This was back in the day, 2021, where React Native was janky, Flutter was too slow, and neither performed well with native APIs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            123.416,
+            126.74
+          ],
+          "quote": "In reality, trying to challenge React Native in Flutter is extremely ambitious.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "blitz",
+      "type": "concept",
+      "role": "concept",
+      "name": "Blitz",
+      "file": "Blitz",
+      "primary": true,
+      "how_described": "本集说它是 Dioxus 自研的轻量级 HTML/CSS 渲染引擎，从 Firefox 提取浏览器级 CSS 引擎、混合 GPU 渲染管线，安装包小于 5MB；智能体帮它加速 CSS 布局调试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            239.972,
+            247.316
+          ],
+          "quote": "One of the most ambitious goals we had for Dioxys was to ship our own lightweight but fully-featured HTML and CSS rendering engine called Blitz.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            257.781,
+            267.587
+          ],
+          "quote": "Compared to Electron apps, which are RAM and storage hogs, Blitz apps are lightweight, coming in at less than five megabytes bundle sizes and consume less than 50 megabytes of RAM at runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            675.577,
+            684.564
+          ],
+          "quote": "And in Blitz, the thing on the right, our custom web engine, web agents have accelerated debugging hard CSS styling and layout issues for us.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "subsecond",
+      "type": "concept",
+      "role": "concept",
+      "name": "SubSecond",
+      "file": "SubSecond",
+      "primary": false,
+      "how_described": "本集说它是团队面向 Rust、C 和 C++ 的通用热重载引擎，100 毫秒内重编译并原地修补运行中的应用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            275.551,
+            281.753
+          ],
+          "quote": "We also worked on a tool called SubSecond, which is our generic hot reload engine for Rust, C, and C++.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            282.633,
+            290.115
+          ],
+          "quote": "SubSecond watches your code for edits, recompiles parts of the code that changed, and patches the running app in place all in 100 milliseconds.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集说团队用爆了 Claude Code 订阅额度，产出数万行 Rust 代码，但起初很少能过质量门槛。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            381.565,
+            387.948
+          ],
+          "quote": "Our team maxed out our Claude Code subscriptions, churned out tens of thousands of lines of Rust, and built all sorts of features we had long wished to have.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词工程 (prompt engineering)",
+      "file": "提示词工程",
+      "primary": true,
+      "how_described": "本集说尽管听起来荒唐，「提示词工程是相当真实的」——实现的质量很大程度上取决于你给模型的提示词。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            1067.603,
+            1070.386
+          ],
+          "quote": "And as ridiculous as it sounds, prompt engineering is quite real.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fuzzing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模糊测试 (fuzzing)",
+      "file": "模糊测试",
+      "primary": true,
+      "how_described": "本集说它是构建生产级软件的关键部分——把应用置于数百万种包括对抗性输入在内的输入下找崩溃，而编程智能体非常擅长搭建这类测试工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            937.001,
+            946.974
+          ],
+          "quote": "So fuzzing is a critical part of building production-grade software, which means taking your application and putting it under millions of different inputs",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tests",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试 (tests)",
+      "file": "测试",
+      "primary": true,
+      "how_described": "本集说 Kelly 还没百分之百信服用 AI 写测试：智能体能轻松给任何 API 写测试，但和人类一样写不出「对的测试」，团队仍手动列举测试条件、自己设计测试 API。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            583.212,
+            590.515
+          ],
+          "quote": "We need to maintain high quality of our documentation, of our examples, of our tests, of our benchmarks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            862.172,
+            872.755
+          ],
+          "quote": "One thing I'm not 100% convinced yet, we have found varying levels of success, is using AI to write tests, or at least blindly writing tests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            896.401,
+            899.983
+          ],
+          "quote": "They also have a tendency to write kind of sloppy tests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            905.506,
+            911.409
+          ],
+          "quote": "They can easily write tests for any given API, but much like humans, they fail to write the right tests.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件架构 (architecture)",
+      "file": "软件架构",
+      "primary": true,
+      "how_described": "本集说代码架构仍是一门艺术：智能体代码落地的基底不好、贡献也不会好，且智能体不怕随便大规模重构，所以团队大部分开发时间现在花在思考架构与系统演进上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            747.689,
+            757.792
+          ],
+          "quote": "Any time that we spend verifying the tarball extracts into the right directory structure is time wasted from us thinking about the architecture and the hard problems of our software.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            787.679,
+            793.727
+          ],
+          "quote": "People download the code, they build on the code, users interact with their APIs, they read our docs, and they build on our architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            964.179,
+            968.34
+          ],
+          "quote": "One thing we've found that code architecture is still an art.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            982.189,
+            990.177
+          ],
+          "quote": "Unlike a human engineer, coding agents aren't typically afraid to voluntarily go on a huge refactor of a system or redesign the architecture when a feature doesn't quite fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            992.729,
+            999.572
+          ],
+          "quote": "Most of our development time is actually now spent thinking about software architecture, about what features we'll want in the future and how the system will evolve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            1006.335,
+            1019.201
+          ],
+          "quote": "However, I will say with Fable-level tools, the actual code quality itself is so high, provided you properly communicate your intent, that proper software architecture will probably take the vast majority of time in the future.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": false,
+      "how_described": "本集提到 Dioxys 是大型开源项目，收到大量陌生人的 PR，需要逐行审查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            1042.553,
+            1044.135
+          ],
+          "quote": "Dioxys' big open source project.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

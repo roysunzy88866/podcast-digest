@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bolt":3,"StackBlitz":1,"云 IDE":1,"vibe coding":32,"智能体":226,"开放权重":4,"开源":20,"按用量定价":2,"按席位收费":1,"SaaS":15}</script>
+<script type="application/json" class="pd-epn">{"Bolt":3,"StackBlitz":1,"云 IDE":1,"vibe coding":32,"智能体":229,"开放权重":4,"开源":21,"按用量定价":2,"按席位收费":1,"SaaS":15}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
+[[Matteo Franceschetti]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brian Houck":1,"Okta":1,"智能体":226,"沙箱":41,"护栏":43,"身份":3,"非确定性":1,"服务账号":1,"AI 采用":1,"仓库 AI 就绪度":1}</script>
+<script type="application/json" class="pd-epn">{"Brian Houck":1,"Okta":1,"智能体":229,"沙箱":41,"护栏":43,"身份":3,"非确定性":1,"服务账号":1,"AI 采用":1,"仓库 AI 就绪度":1}</script>
 
 <script>
 (function(){

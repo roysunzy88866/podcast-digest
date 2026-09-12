@@ -38,11 +38,11 @@ aliases: ["Reynold", "Reynolds"]
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Databricks":11,"Snowflake":7,"MosaicML":1,"Neon":2,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":226}</script>
+<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Databricks":11,"Snowflake":7,"MosaicML":1,"Neon":2,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":229}</script>
 
 <script>
 (function(){

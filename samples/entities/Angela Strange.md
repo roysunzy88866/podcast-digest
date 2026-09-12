@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"a16z":14,"Adi":1,"Eleven Labs":5,"Cognition":16,"Vercel":13,"Brex":4,"OpenAI":105,"DoorDash":6}</script>
+<script type="application/json" class="pd-epn">{"Gabriel Vasquez":1,"Elena Berger":3,"a16z":14,"Adi":1,"Eleven Labs":5,"Cognition":17,"Vercel":13,"Brex":4,"OpenAI":105,"DoorDash":6}</script>
 
 <script>
 (function(){

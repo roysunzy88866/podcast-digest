@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":2,"MCP":37,"Indeed":1,"CareerScout":1,"Claude":56,"ChatGPT":59,"结构化内容":1,"update model context":1}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":2,"MCP":38,"Indeed":1,"CareerScout":1,"Claude":56,"ChatGPT":59,"结构化内容":1,"update model context":1}</script>
 
 <script>
 (function(){

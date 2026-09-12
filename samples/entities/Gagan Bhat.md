@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":118,"智能体":226,"harness":30,"沙箱":41,"智能体循环":3,"上下文工程":12,"会话日志追踪":2,"泄露的凭证":3,"可观测性":19}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":118,"智能体":229,"harness":30,"沙箱":41,"智能体循环":3,"上下文工程":12,"会话日志追踪":2,"泄露的凭证":3,"可观测性":19}</script>
 
 <script>
 (function(){

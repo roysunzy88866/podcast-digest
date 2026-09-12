@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Malika Rao]]
+[[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben":1,"Walleye":1,"Current":1,"智能体":226,"ChatGPT":59,"情感分析":1,"营运杠杆":1,"Windsurf":4,"LLM":31,"量化投资":1}</script>
+<script type="application/json" class="pd-epn">{"Ben":1,"Walleye":1,"Current":1,"智能体":229,"ChatGPT":59,"情感分析":1,"营运杠杆":1,"Windsurf":4,"LLM":31,"量化投资":1}</script>
 
 <script>
 (function(){

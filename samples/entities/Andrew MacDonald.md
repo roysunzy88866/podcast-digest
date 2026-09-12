@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Uber":8,"Uber One":1,"自主性":7,"智能体":226,"IGB":1,"可变成本模式":1,"分发":5,"Growth Bets":1,"managed transaction":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Uber":8,"Uber One":1,"自主性":7,"智能体":229,"IGB":1,"可变成本模式":1,"分发":5,"Growth Bets":1,"managed transaction":1}</script>
 
 <script>
 (function(){

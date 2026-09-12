@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sharadh Krishnamurthy":1,"Stripe":29,"Kai":1,"智能体":226,"治理":2,"项目":1,"工具策略":1,"人在回路":8,"技能":14,"沙箱":41}</script>
+<script type="application/json" class="pd-epn">{"Sharadh Krishnamurthy":1,"Stripe":29,"Kai":1,"智能体":229,"治理":2,"项目":1,"工具策略":1,"人在回路":8,"技能":14,"沙箱":41}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Harry Stabbings]] · [[Matteo Franceschetti]] · [[Eight Sleep]] · [[Anthropic]] · [[Claude]] · [[智能体]] · [[增量测试]] · [[人形机器人]] · [[Xiaomi]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Matteo Franceschetti":1,"Eight Sleep":1,"Anthropic":118,"Claude":56,"智能体":226,"增量测试":1,"人形机器人":2,"Xiaomi":1,"OpenAI":105}</script>
+<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Matteo Franceschetti":1,"Eight Sleep":1,"Anthropic":118,"Claude":56,"智能体":229,"增量测试":1,"人形机器人":2,"Xiaomi":1,"OpenAI":105}</script>
 
 <script>
 (function(){

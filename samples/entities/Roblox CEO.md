@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]]
+[[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Kevin DeFarco]] [[Roshan]] [[Noah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Roblox":2,"用户生成内容":1,"虚拟货币":1,"Robux":1,"官僚主义":1,"API":3,"MCP":37,"AI":16}</script>
+<script type="application/json" class="pd-epn">{"Roblox":2,"用户生成内容":1,"虚拟货币":1,"Robux":1,"官僚主义":1,"API":3,"MCP":38,"AI":17}</script>
 
 <script>
 (function(){

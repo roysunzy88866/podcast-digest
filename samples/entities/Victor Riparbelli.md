@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Synthesia":1,"虚拟形象":2,"智能体":226,"基础模型层":1,"应用层":2,"LLM":31,"Netflix":3,"TikTok":3,"Instagram":4,"Google":40}</script>
+<script type="application/json" class="pd-epn">{"Synthesia":1,"虚拟形象":2,"智能体":229,"基础模型层":1,"应用层":2,"LLM":31,"Netflix":4,"TikTok":3,"Instagram":4,"Google":40}</script>
 
 <script>
 (function(){

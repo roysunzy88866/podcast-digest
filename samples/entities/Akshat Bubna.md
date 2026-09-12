@@ -38,11 +38,11 @@ aliases: ["Akshat"]
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"Vibhu":1,"Modal":6,"智能体":226,"AX":1,"DX":3,"沙箱":41,"推理":42,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"Vibhu":1,"Modal":6,"智能体":229,"AX":1,"DX":3,"沙箱":41,"推理":42,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

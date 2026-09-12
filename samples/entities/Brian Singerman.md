@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
+[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":3,"SpaceX":12,"Palantir":14,"Airbnb":10,"OpenAI":105,"Anthropic":118,"Cognition":16,"Ramp":7}</script>
+<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":3,"SpaceX":12,"Palantir":14,"Airbnb":10,"OpenAI":105,"Anthropic":118,"Cognition":17,"Ramp":7}</script>
 
 <script>
 (function(){

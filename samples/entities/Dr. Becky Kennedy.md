@@ -53,7 +53,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]] [[Ben]] [[Will]]
+[[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]]
 
 </div>
 
