@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]] [[Eric Simons]]
+[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"transformer":6,"Attention is All You Need":1,"LLM":31,"GPU":16,"OpenAI":103,"开源运动":1,"编码智能体":11,"分布式模型":1,"研究突破":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"transformer":6,"Attention is All You Need":1,"LLM":31,"GPU":16,"OpenAI":104,"开源运动":1,"编码智能体":11,"分布式模型":1,"研究突破":1}</script>
 
 <script>
 (function(){

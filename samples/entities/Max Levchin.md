@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]] [[Eric Simons]]
+[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Rampell":2,"Affirm":2,"PayPal":5,"TrialPay":1,"Visa":2,"MasterCard":1,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":222}</script>
+<script type="application/json" class="pd-epn">{"Alex Rampell":2,"Affirm":2,"PayPal":5,"TrialPay":1,"Visa":2,"MasterCard":1,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":224}</script>
 
 <script>
 (function(){

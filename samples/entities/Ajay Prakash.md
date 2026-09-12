@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]]
+[[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Santi Garza]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"LinkedIn":2,"编码智能体":11,"MCP":35,"剧本":4,"上下文工程":12,"AI 基础设施":3}</script>
+<script type="application/json" class="pd-epn">{"LinkedIn":2,"编码智能体":11,"MCP":36,"剧本":4,"上下文工程":12,"AI 基础设施":3}</script>
 
 <script>
 (function(){

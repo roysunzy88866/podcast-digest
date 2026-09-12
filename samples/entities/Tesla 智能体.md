@@ -25,7 +25,7 @@ unlisted: true
 
 [[Simon Maple]] · [[Drew]] · [[Guy Fajani]] · [[TESL]] · [[技能]] · [[循环]] · [[Factory]] · [[代码审查]] · [[验证器]] · [[上下文]]
 
-<script type="application/json" class="pd-epn">{"Simon Maple":8,"Drew":1,"Guy Fajani":3,"TESL":4,"技能":13,"循环":7,"Factory":4,"代码审查":10,"验证器":5,"上下文":15}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":8,"Drew":1,"Guy Fajani":3,"TESL":4,"技能":14,"循环":7,"Factory":4,"代码审查":10,"验证器":5,"上下文":15}</script>
 
 <script>
 (function(){

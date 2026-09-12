@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":222,"构建者":3,"可观测性":19,"对话分析":1,"评估":24,"维度思维":1,"ChatGPT":59,"Cursor":55,"OpenAI":103}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":224,"构建者":3,"可观测性":19,"对话分析":1,"评估":24,"维度思维":1,"ChatGPT":59,"Cursor":56,"OpenAI":104}</script>
 
 <script>
 (function(){

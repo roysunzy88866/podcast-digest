@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":2,"Stein Pella":1,"Lassie":1,"智能体":222,"人在回路":8,"现有巨头":1,"Superhuman":4,"Stripe":29,"Workday":4}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":2,"Stein Pella":1,"Lassie":1,"智能体":224,"人在回路":8,"现有巨头":1,"Superhuman":4,"Stripe":29,"Workday":4}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1037 @@
+{
+  "episode_id": "2026-09-12-mos-rapid-response-on-s-16-year-overnight-su",
+  "podcast": "Masters of Scale",
+  "date": "2026-09-12",
+  "tags": [
+    "运动品牌",
+    "高端定位与品牌策略",
+    "创新管理",
+    "零售扩张",
+    "创始人领导力"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "bob-safian",
+      "type": "person",
+      "role": "host",
+      "name": "Bob Safian",
+      "file": "Bob Safian",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            78.308,
+            81.693
+          ],
+          "quote": "I'm Bob Safian, and this is Rapid Response.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            88.08,
+            89.181
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1715.808,
+            1716.929
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1769.523,
+            1770.643
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "david-alleman",
+      "type": "person",
+      "role": "cohost",
+      "name": "David Alleman",
+      "file": "David Alleman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            38.577,
+            42.6
+          ],
+          "quote": "That's David Alleman, co-founder and co-CEO of ON.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 177,
+          "t": [
+            923.775,
+            930.4
+          ],
+          "quote": "Before the break, Anz David Alleman talked about the growing opportunity for new sports brands in today's marketplace.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "on",
+      "type": "company",
+      "role": "company",
+      "name": "ON",
+      "file": "ON",
+      "primary": true,
+      "how_described": "本集主角:瑞士运动品牌,靠「云朵鞋底」(cloud tech)创新起步,16 年从零做到接近 40 亿美元品牌,目标是成为最高端而非最大的全球运动品牌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            38.577,
+            42.6
+          ],
+          "quote": "That's David Alleman, co-founder and co-CEO of ON.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 4,
+          "t": [
+            43.2,
+            52.886
+          ],
+          "quote": "ON is the bellwether for a new generation of athletic footwear and apparel companies that are posing a significant challenge to the likes of Nike and Adidas.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 5,
+          "t": [
+            53.406,
+            66.815
+          ],
+          "quote": "David explains how ON is taking advantage of the increased visibility of sports in society, partnering with stars like Zendaya, Roger Federer, and others, and appealing to what he calls the movement class.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 6,
+          "t": [
+            67.335,
+            76.286
+          ],
+          "quote": "Whether you've ever slipped on a pair of OnCloud shoes or not, David's insights will inspire you to keep moving personally and in your business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            89.281,
+            93.963
+          ],
+          "quote": "I'm here with David Aliman, the co-founder and co-CEO of ON.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 13,
+          "t": [
+            98.085,
+            107.589
+          ],
+          "quote": "ON has been an amazing growth story, the lead player in sort of a new generation of athletic footwear and apparel companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            107.95,
+            110.291
+          ],
+          "quote": "Is that how you see ON as like the next?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 18,
+          "t": [
+            122.085,
+            129.113
+          ],
+          "quote": "I think the plan is to be the most premium global sports brand, really based on innovation.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 19,
+          "t": [
+            129.694,
+            131.055
+          ],
+          "quote": "But also on design.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 23,
+          "t": [
+            151.29,
+            155.714
+          ],
+          "quote": "And that's really important for us via our mantra is dream on.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 25,
+          "t": [
+            157.795,
+            164.441
+          ],
+          "quote": "Sometimes I feel like when I go running here in New York, it's a race, even if there's not a race on, because there's so many people out running, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 33,
+          "t": [
+            193.046,
+            200.492
+          ],
+          "quote": "When you look at that sort of competitive landscape, is there a specific spot that on hold?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            237.667,
+            241.932
+          ],
+          "quote": "Sports used to be, probably when we started, still something that you do on the weekend.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 67,
+          "t": [
+            344.666,
+            346.486
+          ],
+          "quote": "On is defined by innovation.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 76,
+          "t": [
+            396.088,
+            402.032
+          ],
+          "quote": "And you didn't kind of store your vacuum cleaner anymore in the closet back, but you hang it on your wall.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 78,
+          "t": [
+            413.518,
+            420.923
+          ],
+          "quote": "And so I think it's a great example of a brand that is based on innovation but reaches millions of consumers.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 85,
+          "t": [
+            442.165,
+            447.089
+          ],
+          "quote": "posted from Roland Garros on his Insta in an on shoe.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 87,
+          "t": [
+            449.351,
+            453.014
+          ],
+          "quote": "And so we went on that date and that's how the relationship formed.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 90,
+          "t": [
+            462.402,
+            468.306
+          ],
+          "quote": "And one of the characters was pretty much formed after Roger with his on-shoes.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 91,
+          "t": [
+            468.867,
+            474.251
+          ],
+          "quote": "And she always had to tie up these on-shoes because we had a special closing mechanism.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 93,
+          "t": [
+            478.134,
+            482.037
+          ],
+          "quote": "So that's how she got to know on, up close, and personal.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 97,
+          "t": [
+            495.892,
+            500.819
+          ],
+          "quote": "You know, I mean, we felt he first pitched us by putting on on his feet.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 108,
+          "t": [
+            536.699,
+            546.086
+          ],
+          "quote": "Well, and it was a good move on his part, too, because instead of taking money, I understand he took equity, and that has worked out very well for him, given how the company has grown.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 113,
+          "t": [
+            560.095,
+            566.177
+          ],
+          "quote": "We always try to innovate on everything, not just on outsource, but also how you do the marketing model.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 123,
+          "t": [
+            608.57,
+            610.151
+          ],
+          "quote": "Come on, that's crazy.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 125,
+          "t": [
+            612.172,
+            616.275
+          ],
+          "quote": "And that was on a rainy day in Zurich, somewhere up in the woods.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 127,
+          "t": [
+            626.421,
+            628.582
+          ],
+          "quote": "And we went on a run and it felt amazing.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 131,
+          "t": [
+            643.489,
+            646.63
+          ],
+          "quote": "You know, it's more brand design really that you've been focused on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 142,
+          "t": [
+            706.177,
+            708.318
+          ],
+          "quote": "And similar things happened later on.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 173,
+          "t": [
+            893.49,
+            900.392
+          ],
+          "quote": "I'm Rana Elkayubi, and on my podcast, Pioneers of AI, we answer that question and so many more.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 185,
+          "t": [
+            977.875,
+            982.417
+          ],
+          "quote": "What prompted you to want to take a more hands-on control?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            982.817,
+            987.959
+          ],
+          "quote": "When you look at Anth's leadership model, we've always operated on very much as a partnership.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 189,
+          "t": [
+            997.102,
+            999.903
+          ],
+          "quote": "Later on, we were joined by other leaders.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1019.468,
+            1024.51
+          ],
+          "quote": "And it gave us the opportunity to always stay focused on building the next",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1238.219,
+            1248.681
+          ],
+          "quote": "Yes, we can control the expression and especially for something like apparel where you can't just put the shoe on a wall as a freestanding object, but where you have to give it space.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1292.559,
+            1295.062
+          ],
+          "quote": "How do you think about tech at on?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1378.294,
+            1396.625
+          ],
+          "quote": "where you have a robotic arm and that robotic arm sprays a small filament in polygonic shapes directly on an outsole so it's not stitched on it just melts with the outsole and it collapses this process of 200 steps into one.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1467.669,
+            1477.616
+          ],
+          "quote": "We are operating with the On Athletic Club, one of the largest athlete group in the industry with runners, sprinters.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1568.931,
+            1579.158
+          ],
+          "quote": "And so on every dimension that we can do to reduce the footprint of on towards the environment is super important.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1607.881,
+            1613.005
+          ],
+          "quote": "So you've been on this 16-year overnight success journey.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1613.425,
+            1615.807
+          ],
+          "quote": "What's at stake for ON right now?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1682.344,
+            1689.369
+          ],
+          "quote": "But David's emphasis on rethinking and creativity, that's the threat that any renegade business poses.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1729.721,
+            1741.784
+          ],
+          "quote": "If you listen to Rapid Response on Masters of Scale, you may be missing half the show, because every Friday we release a second Rapid Response exclusively in the Rapid Response feed.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nike",
+      "type": "company",
+      "role": "company",
+      "name": "Nike",
+      "file": "Nike",
+      "primary": false,
+      "how_described": "本集作为老牌玩家对照组提到:Nike 当年从华夫饼鞋的独特鞋底设计起步,如今正在挣扎。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            43.2,
+            52.886
+          ],
+          "quote": "ON is the bellwether for a new generation of athletic footwear and apparel companies that are posing a significant challenge to the likes of Nike and Adidas.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 16,
+          "t": [
+            112.834,
+            120.142
+          ],
+          "quote": "I mean, you started with a unique sole design, which is also the way that Nike started with their waffle shoes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            176.552,
+            180.356
+          ],
+          "quote": "I mean, Nike's struggling, Adidas seems to be finding its way a little bit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            632.324,
+            641.148
+          ],
+          "quote": "I spent a fair amount of time with the former CEO of Nike, Mark Parker, who started as a shoe designer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1694.533,
+            1700.437
+          ],
+          "quote": "David isn't saying that he's going after the sports giants at Nike and Adidas, but of course, why would he?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "adidas",
+      "type": "company",
+      "role": "company",
+      "name": "Adidas",
+      "file": "Adidas",
+      "primary": false,
+      "how_described": "本集顺带提及:与 Nike 并列的运动品牌老牌玩家,似乎稍微找到了方向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            43.2,
+            52.886
+          ],
+          "quote": "ON is the bellwether for a new generation of athletic footwear and apparel companies that are posing a significant challenge to the likes of Nike and Adidas.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            176.552,
+            180.356
+          ],
+          "quote": "I mean, Nike's struggling, Adidas seems to be finding its way a little bit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1694.533,
+            1700.437
+          ],
+          "quote": "David isn't saying that he's going after the sports giants at Nike and Adidas, but of course, why would he?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "light-spray",
+      "type": "concept",
+      "role": "concept",
+      "name": "light spray",
+      "file": "light spray",
+      "primary": true,
+      "how_described": "本集详述的 ON 喷涂制鞋技术:机械臂把丝线以多边形形状直接喷涂在外底上,不缝、直接熔合,把约 200 道工序压缩成一步,三分钟喷出一只鞋,鞋面碳足迹降低 75% 以上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 246,
+          "t": [
+            1295.242,
+            1301.088
+          ],
+          "quote": "I saw a video of this light spray machine that you're using for a particular shoe, which is pretty cool.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1370.411,
+            1377.814
+          ],
+          "quote": "And so we had a small attack team of five people that then came up with light spray, which is a technology…",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1579.418,
+            1581.94
+          ],
+          "quote": "And take a light spray shoe.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1671.796,
+            1675.259
+          ],
+          "quote": "I keep going back to that light spray shoe that David talked about.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "clean-cloud",
+      "type": "concept",
+      "role": "concept",
+      "name": "Clean Cloud 泡沫 (clean cloud)",
+      "file": "Clean Cloud 泡沫",
+      "primary": true,
+      "how_described": "本集说 ON 从航空业排放中回收「坏云」作为基础原料做成的泡沫材料,体现「竭尽创新所能来降低足迹」的可持续路线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 286,
+          "t": [
+            1537.508,
+            1542.012
+          ],
+          "quote": "I know you have your clean cloud shirts that are made from carbon emissions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1592.628,
+            1594.169
+          ],
+          "quote": "Or you mentioned clean cloud.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1594.289,
+            1602.816
+          ],
+          "quote": "We're actually sucking bad clouds from the air industry emissions, create the base ingredients for foam again to create clean cloud foam.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "innovation",
+      "type": "concept",
+      "role": "concept",
+      "name": "创新 (innovation)",
+      "file": "创新",
+      "primary": true,
+      "how_described": "本集把创新作为 ON 的根本定义:「奢侈品的定义是限制获取渠道,而 On 的定义是创新,我们想把创新带给每一个人」;靠评审会议、阶段门和创新漏斗落地,应对逆境靠创新不靠打折。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            122.085,
+            129.113
+          ],
+          "quote": "I think the plan is to be the most premium global sports brand, really based on innovation.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 38,
+          "t": [
+            224.193,
+            231.06
+          ],
+          "quote": "So we came always from an innovation space and I think that's the unique approach that we keep to this day.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 67,
+          "t": [
+            344.666,
+            346.486
+          ],
+          "quote": "On is defined by innovation.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 68,
+          "t": [
+            346.926,
+            351.907
+          ],
+          "quote": "So we want to bring innovation to everyone to give you a better experience.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 69,
+          "t": [
+            352.047,
+            359.029
+          ],
+          "quote": "Of course, there's a certain price tag for innovation because we invest so much in creating the next.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 77,
+          "t": [
+            402.472,
+            413.218
+          ],
+          "quote": "That created an opportunity for a brand to create something that is at the intersection of innovation, a chat engine in your vacuum cleaner, but also a unique aesthetic.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 78,
+          "t": [
+            413.518,
+            420.923
+          ],
+          "quote": "And so I think it's a great example of a brand that is based on innovation but reaches millions of consumers.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 104,
+          "t": [
+            516.989,
+            524.851
+          ],
+          "quote": "He said, hey, you've been such an amazing innovation player in running, really radically changing the feel of running.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 105,
+          "t": [
+            525.252,
+            529.533
+          ],
+          "quote": "Could you change the feel of tennis as well and bring innovation to a tennis shoe as well?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 107,
+          "t": [
+            530.954,
+            536.038
+          ],
+          "quote": "And three months later, we had him at our innovation space, which we call the Yon Labs in Zurich.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 134,
+          "t": [
+            655.513,
+            661.276
+          ],
+          "quote": "Some of the biggest brands have been created at that intersection of innovation and design.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1067.075,
+            1076.32
+          ],
+          "quote": "And our way to navigate that is definitely not to resort to discounting, but to make sure that we bring the newest innovation into the sport.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1076.84,
+            1090.475
+          ],
+          "quote": "You mentioned the word innovation several times, and I know that as businesses get bigger, it can often be harder to implement that innovation, that risk is harder for folks to take.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1422.319,
+            1431.084
+          ],
+          "quote": "And then we have review meetings where we're basically saying, hey, what is good to go and stage gates and decide what goes down the innovation funnel.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1603.237,
+            1607.3
+          ],
+          "quote": "So we do everything that innovation can do to lower the footprint.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "premium",
+      "type": "concept",
+      "role": "concept",
+      "name": "高端(非奢侈)定位 (premium)",
+      "file": "高端(非奢侈)定位",
+      "primary": true,
+      "how_described": "本集反复强调的高端策略:高端产品不等于奢侈品——奢侈品靠稀缺和限制获取,ON 靠创新普及;高端定价支撑创新投入,ON 是利润率最高的规模化运动品牌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            25.947,
+            34.712
+          ],
+          "quote": "So it's really an opportunity to build a brand that doesn't have to be ultimately the absolute biggest, but is the most premium brand of the future.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 18,
+          "t": [
+            122.085,
+            129.113
+          ],
+          "quote": "I think the plan is to be the most premium global sports brand, really based on innovation.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 63,
+          "t": [
+            326.781,
+            329.882
+          ],
+          "quote": "And that's a huge opportunity for premium products as well.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 64,
+          "t": [
+            330.122,
+            333.623
+          ],
+          "quote": "So it's a premium product, but not necessarily a luxury product.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 70,
+          "t": [
+            359.309,
+            363.89
+          ],
+          "quote": "So that needs a premium brand that can invest",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 71,
+          "t": [
+            364.972,
+            371.641
+          ],
+          "quote": "And so you're not a luxury brand at that end, but you're more a premium brand than some of the legacy players.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1646.613,
+            1651.676
+          ],
+          "quote": "We're also the most premium in terms of margins, the most premium brand.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1652.057,
+            1660.842
+          ],
+          "quote": "So it's really an opportunity to build a brand that doesn't have to be ultimately the absolute biggest, but is the most premium brand of the future.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "movement-class",
+      "type": "concept",
+      "role": "concept",
+      "name": "运动阶层 (movement class)",
+      "file": "运动阶层",
+      "primary": true,
+      "how_described": "本集提出的社会结构观察:过去是关注消费与拥有物品的「休闲阶层」,现在一个新的「运动阶层」正在出现——人们在意体验、活力、长寿,「健康是新的财富」,运动移向社会中心正是 ON 的机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            53.406,
+            66.815
+          ],
+          "quote": "David explains how ON is taking advantage of the increased visibility of sports in society, partnering with stars like Zendaya, Roger Federer, and others, and appealing to what he calls the movement class.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            257.987,
+            260.509
+          ],
+          "quote": "I think there's a new movement class coming along.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "equity",
+      "type": "concept",
+      "role": "concept",
+      "name": "股权替代代言 (equity)",
+      "file": "股权替代代言",
+      "primary": true,
+      "how_described": "本集讲的合作模式创新:与传统代言模式相反,ON 当时说「与其我们给你钱,不如你给我们钱」,给 Federer 股权让他成为共同创业者,公司成长后对他非常划算。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            536.699,
+            546.086
+          ],
+          "quote": "Well, and it was a good move on his part, too, because instead of taking money, I understand he took equity, and that has worked out very well for him, given how the company has grown.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            785.647,
+            790.29
+          ],
+          "quote": "When you've built substantial wealth through your business, it's often tied up in a single equity position.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 157,
+          "t": [
+            796.835,
+            808.102
+          ],
+          "quote": "Creative planning works with business owners to build a strategy around concentrated equity, when to diversify, how to manage tax risk, and how to protect what you've spent years building.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "partnership",
+      "type": "concept",
+      "role": "concept",
+      "name": "合伙制领导 (partnership)",
+      "file": "合伙制领导",
+      "primary": true,
+      "how_described": "本集说 ON 从创立起就靠合伙制运作:最初三人合伙、一度五人,「那是我们的秘密武器,因为它给了我们惊人的带宽去追求非常不同的使命」;今年 5 月 David 和 Casper 接任联合 CEO,只是优先级向运营精确性转移。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            982.817,
+            987.959
+          ],
+          "quote": "When you look at Anth's leadership model, we've always operated on very much as a partnership.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 188,
+          "t": [
+            992.921,
+            996.642
+          ],
+          "quote": "I mean, Olivier Casper and I started the company as a partnership of three.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1000.003,
+            1002.044
+          ],
+          "quote": "At some point, we were a partnership of five.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "societal-shift",
+      "type": "concept",
+      "role": "concept",
+      "name": "社会变迁造品牌 (societal shift)",
+      "file": "社会变迁造品牌",
+      "primary": true,
+      "how_described": "本集的历史观察:每当社会发生转变(19 世纪末旅行兴起造就奢侈箱包品牌、数字设备便携化让设计变得关键),都会为响应它的全新品牌创造成为大品牌的机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            673.09,
+            675.353
+          ],
+          "quote": "So that was a huge societal shift.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

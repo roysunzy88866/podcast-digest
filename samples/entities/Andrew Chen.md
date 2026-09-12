@@ -41,7 +41,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]] [[Eric Simons]] [[Alexander Whedon]]
+[[Bob Safian]] [[David Alleman]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]]
 
 </div>
 

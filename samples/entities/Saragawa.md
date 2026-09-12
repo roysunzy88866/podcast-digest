@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]] [[Jordan Tigani]] [[Eric Simons]]
+[[Bob Safian]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Ron Gabrisko]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":24,"Azure":3,"GitHub":22,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":28,"轨迹":1,"智能体":222}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":24,"Azure":3,"GitHub":22,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":29,"轨迹":1,"智能体":224}</script>
 
 <script>
 (function(){

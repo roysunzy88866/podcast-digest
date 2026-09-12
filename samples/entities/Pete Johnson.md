@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":3,"MongoDB":4,"Voyage AI":1,"Anthropic":116,"Eleven Labs":5,"Uber":8,"智能体":222,"智能体记忆":1,"RAG":9,"嵌入模型":2}</script>
+<script type="application/json" class="pd-epn">{"Nathan":3,"MongoDB":4,"Voyage AI":1,"Anthropic":117,"Eleven Labs":5,"Uber":8,"智能体":224,"智能体记忆":1,"RAG":9,"嵌入模型":2}</script>
 
 <script>
 (function(){

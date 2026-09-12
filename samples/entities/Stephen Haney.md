@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]]
+[[Bob Safian]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Paper":1,"Cursor":55,"Claude Code":56,"Figma":17,"Conductor":1,"智能体":222,"MCP 服务器":1,"代码即真相来源":1,"策展式设计":1,"HTML":1}</script>
+<script type="application/json" class="pd-epn">{"Paper":1,"Cursor":56,"Claude Code":56,"Figma":17,"Conductor":1,"智能体":224,"MCP 服务器":1,"代码即真相来源":1,"策展式设计":1,"HTML":1}</script>
 
 <script>
 (function(){

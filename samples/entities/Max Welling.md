@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":3,"cusp.ai":1,"智能体":222,"等变性":1,"扩散模型":2,"自发对称性破缺":1,"波":1,"机器学习力场":1,"分子动力学":1,"金属有机框架":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":3,"cusp.ai":1,"智能体":224,"等变性":1,"扩散模型":2,"自发对称性破缺":1,"波":1,"机器学习力场":1,"分子动力学":1,"金属有机框架":1}</script>
 
 <script>
 (function(){

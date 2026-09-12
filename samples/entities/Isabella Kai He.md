@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":116,"智能体":222,"harness":28,"沙箱":41,"智能体循环":3,"上下文工程":12,"会话日志追踪":2,"泄露的凭证":3,"可观测性":19}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":117,"智能体":224,"harness":29,"沙箱":41,"智能体循环":3,"上下文工程":12,"会话日志追踪":2,"泄露的凭证":3,"可观测性":19}</script>
 
 <script>
 (function(){

@@ -1,0 +1,833 @@
+{
+  "episode_id": "2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-09-12",
+  "tags": [
+    "AI 智能体",
+    "组织设计",
+    "增长渠道",
+    "硬件出海",
+    "中国市场"
+  ],
+  "categories": [
+    "智能体",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "harry-stabbings",
+      "type": "person",
+      "role": "host",
+      "name": "Harry Stabbings",
+      "file": "Harry Stabbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            33.621,
+            38.424
+          ],
+          "quote": "This is 20VC with me, Harry Stabbings, and in the hot seat today, we have Matteo Franceschetti.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "matteo-franceschetti",
+      "type": "person",
+      "role": "guest",
+      "name": "Matteo Franceschetti",
+      "file": "Matteo Franceschetti",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            33.621,
+            38.424
+          ],
+          "quote": "This is 20VC with me, Harry Stabbings, and in the hot seat today, we have Matteo Franceschetti.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eight-sleep",
+      "type": "company",
+      "role": "company",
+      "name": "Eight Sleep",
+      "file": "Eight Sleep",
+      "primary": true,
+      "how_described": "本集嘉宾公司:智能床垫公司,160 人卖到 35 个国家并进入中国,靠内部 AI 智能体运营邮件营销(近 1 亿美元收入)、付费媒体和财务,人均营收高于 Apple",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            10.994,
+            14.675
+          ],
+          "quote": "Sometimes people say, oh, I'm at the final stage with Anthropic and Eight Sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1374.363,
+            1384.506
+          ],
+          "quote": "And so the Eight Sleep Inc. will probably own three, four, five, ten different businesses, which if you think, and if you look at Chinese companies, it's something they have been doing forever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2117.242,
+            2120.563
+          ],
+          "quote": "You get a DM from Charles saying, I love Eight Sleep, do you want to sponsor me?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2476.39,
+            2480.232
+          ],
+          "quote": "Then he comes to me, and he realizes I'm the CEO of Eight Sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 831,
+          "t": [
+            3165.982,
+            3169.644
+          ],
+          "quote": "Sometimes people say, oh, I'm at the final stage with Anthropic and Eight Sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1020,
+          "t": [
+            3916.892,
+            3918.813
+          ],
+          "quote": "Did he see Eight Sleep become successful?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集作为 Eight Sleep 工程师的编码供应商被讨论:工程师停写代码、主要用 Claude,Matteo 判断其用量会涨(5%→50%)但成本会降、净额下降,并会在 IPO 时买入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            10.994,
+            14.675
+          ],
+          "quote": "Sometimes people say, oh, I'm at the final stage with Anthropic and Eight Sleep.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            295.808,
+            302.133
+          ],
+          "quote": "Hiring today is harder than it's ever been just because of the prizes on offer at OpenAI, Anthropic, and some of the other places.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            350.482,
+            352.784
+          ],
+          "quote": "Have you lost people to OpenAI and Anthropic?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            352.804,
+            360.11
+          ],
+          "quote": "I'm invested in many companies, and they're just like, God, we're getting eaten alive by OpenAI, Anthropic, Cognition, you name these hot companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1337.705,
+            1342.592
+          ],
+          "quote": "Knowing what you know now as a consumer and customer of Claude, would you buy Anthropic at the IPO?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 831,
+          "t": [
+            3165.982,
+            3169.644
+          ],
+          "quote": "Sometimes people say, oh, I'm at the final stage with Anthropic and Eight Sleep.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说 Eight Sleep 的工程师「数百个 AI 工程师」主要用它来写代码,公司每月在它上面花费数百万美元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 279,
+          "t": [
+            1083.704,
+            1091.53
+          ],
+          "quote": "And when you say your AI, it's like your models, it's using GropBod, it's using... Yeah, we probably, I mean, we should check, but I would imagine we are using Claude for that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1209.214,
+            1209.814
+          ],
+          "quote": "Mainly Claude.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1210.134,
+            1211.515
+          ],
+          "quote": "How much do you spend on Claude a month?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1219.077,
+            1226.2
+          ],
+          "quote": "And the thing I'm trying to understand is Mark Benioff said that they spend 300 million a year on Claude, and they have a 6 billion budget for engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1226.56,
+            1229.941
+          ],
+          "quote": "5% of engineering salary is being spent on Claude in particular.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1337.705,
+            1342.592
+          ],
+          "quote": "Knowing what you know now as a consumer and customer of Claude, would you buy Anthropic at the IPO?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 462,
+          "t": [
+            1804.827,
+            1817.269
+          ],
+          "quote": "It's still a bit, you know, sometimes you feel uncomfortable, but I think in a year or two from now, our bots, particularly bots from frontier models, like from X, OpenAI, and Claude, you will start trusting them soon.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线:Eight Sleep 内部有几百甚至几千个智能体,邮件营销由「多个机器人」零人团队运营、数字营销每天收智能体建议报告只做批准/拒绝,公司规模算上「AI 员工」大三四倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 909,
+          "t": [
+            3519.442,
+            3523.204
+          ],
+          "quote": "Other than email marketing, what agent has had the most significant impact?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 969,
+          "t": [
+            3731.608,
+            3736.613
+          ],
+          "quote": "Do you think Bill Gates's suggestion was right that we should tax agent usage and token usage?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cac",
+      "type": "concept",
+      "role": "concept",
+      "name": "CAC",
+      "file": "CAC",
+      "primary": true,
+      "how_described": "本集渠道纪律的核心:一次只做一个渠道、给 CAC 设上限内才加码,且平台报的 CAC 归因虚高(Meta 可能比真实低 20%),要有自己的模型定每个渠道的真实 CAC",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            463.063,
+            465.304
+          ],
+          "quote": "Does CAC go down over time?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            513.509,
+            525.854
+          ],
+          "quote": "The way we usually approach these channels is we start unlocking a small budget per week, we start looking at the CAC, we set a cap to the CAC, and then they can deploy as much as they can within that cap.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            529.095,
+            533.698
+          ],
+          "quote": "So to me, they could deploy $100 million if they are within CAC, the cap of the CAC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            550.847,
+            556.37
+          ],
+          "quote": "So we want to see how much each channel is incremental because we don't look at the CAC from the platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            556.63,
+            560.571
+          ],
+          "quote": "We have our own models now that determine the CAC of each channel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            562.131,
+            564.452
+          ],
+          "quote": "You have your own models to determine the CAC from each channel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            571.753,
+            576.054
+          ],
+          "quote": "If you look at the CAC on Meta, it's probably 20% lower than what the true CAC is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            664.917,
+            668.039
+          ],
+          "quote": "You set the cap to the CAC you want to achieve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            668.359,
+            671.321
+          ],
+          "quote": "And then from there, you start scaling only if you are within CAC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            704.724,
+            712.369
+          ],
+          "quote": "We could be growing 50% more if we wanted year over year this year just by spending more, but then next year you're in trouble because your cac is upside down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 907,
+          "t": [
+            3506.496,
+            3513.299
+          ],
+          "quote": "And so, I don't know, the marketing agents need to make sure that it has perfect access to the revenue by country and the CAC by country.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "incrementality-test",
+      "type": "concept",
+      "role": "concept",
+      "name": "增量测试 (incrementality test)",
+      "file": "增量测试",
+      "primary": true,
+      "how_described": "本集说每六个月做一次:挑两个表现相似的地区、在其中一个关掉某个渠道,看收入差异,立刻算出该渠道的真实增量价值",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            533.958,
+            539.161
+          ],
+          "quote": "The important thing you need to do regularly, probably every six months, is an incrementality test.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "humanoid",
+      "type": "concept",
+      "role": "concept",
+      "name": "人形机器人 (humanoid)",
+      "file": "人形机器人",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 388,
+          "t": [
+            1540.518,
+            1548.826
+          ],
+          "quote": "I think all these automakers should transform themselves and start building humanoids because the humanoid will be what cars were in the 60s.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1552.048,
+            1555.892
+          ],
+          "quote": "They will lose also the humanoid market, which is trillions of dollars.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1566.458,
+            1567.938
+          ],
+          "quote": "The humanoid games, I think.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi",
+      "type": "company",
+      "role": "company",
+      "name": "Xiaomi",
+      "file": "Xiaomi",
+      "primary": true,
+      "how_described": "本集推崇的中国公司样本:做 15 种不同的东西,证明「聚焦」不是永远只做同一件事,而是把积累的能力以任何形式变现,是 Matteo「AI 时代公司应变成控股公司」理论的例证",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 349,
+          "t": [
+            1384.746,
+            1388.248
+          ],
+          "quote": "If you look at Xiaomi, Xiaomi does 15 different things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1395.99,
+            1399.972
+          ],
+          "quote": "Xiaomi, instead of being just like Apple, they also do cars, for example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1485.046,
+            1491.708
+          ],
+          "quote": "Xiaomi, if you go to their stores, it looks like an Apple store, but there are cars, there are no other devices for the home.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2007.682,
+            2014.608
+          ],
+          "quote": "I had Hugo Barra on the show, who was a former exec from Xiaomi, and he taught me something very important in hardware, and I'm intrigued if you agree with it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集顺带谈到:它是抬高招聘薪水的主要买家之一,Sam 转发过一篇呼吁给模型发展「稍微暂停」的帖子,其模型里出现过智能体建立自己群体的实验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            295.808,
+            302.133
+          ],
+          "quote": "Hiring today is harder than it's ever been just because of the prizes on offer at OpenAI, Anthropic, and some of the other places.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            350.482,
+            352.784
+          ],
+          "quote": "Have you lost people to OpenAI and Anthropic?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            352.804,
+            360.11
+          ],
+          "quote": "I'm invested in many companies, and they're just like, God, we're getting eaten alive by OpenAI, Anthropic, Cognition, you name these hot companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1619.269,
+            1628.172
+          ],
+          "quote": "Did you see the paper last night or essay or post last night from someone at OpenAI, Sam promoted it, that basically said, we actually need to put a slight pause on this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1656.489,
+            1669.398
+          ],
+          "quote": "You have seen some of the things that are happening already in terms of cybersecurity, in these civilizations, that there were three attempts of civilization, I think, in an OpenAI model where agents were building their own group.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            1804.827,
+            1817.269
+          ],
+          "quote": "It's still a bit, you know, sometimes you feel uncomfortable, but I think in a year or two from now, our bots, particularly bots from frontier models, like from X, OpenAI, and Claude, you will start trusting them soon.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集说它是 Eight Sleep 最大的付费渠道、通常是新公司该先证明的第一个渠道,且其报的 CAC 可能比真实低 20%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            486.317,
+            490.659
+          ],
+          "quote": "Yeah, then it becomes Meta, Google, TikTok, and all those channels.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            570.433,
+            571.733
+          ],
+          "quote": "We do the same with Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            571.753,
+            576.054
+          ],
+          "quote": "If you look at the CAC on Meta, it's probably 20% lower than what the true CAC is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            601.84,
+            609.742
+          ],
+          "quote": "So if they were both growing 50% year over year, and you start turning off meta in one or the other, you can immediately calculate the value of meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            655.97,
+            656.85
+          ],
+          "quote": "You start with Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            714.671,
+            716.193
+          ],
+          "quote": "You said there about start with Meta.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tiktok",
+      "type": "company",
+      "role": "company",
+      "name": "TikTok",
+      "file": "TikTok",
+      "primary": false,
+      "how_described": "本集说 Eight Sleep 过去六个月才跑通 TikTok,关键靠网红产出足够多的 UGC 内容,并用关停部分地区的增量测试验证其价值",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            486.317,
+            490.659
+          ],
+          "quote": "Yeah, then it becomes Meta, Google, TikTok, and all those channels.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            495.882,
+            498.103
+          ],
+          "quote": "No one that I speak to has managed to make TikTok work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            502.445,
+            508.447
+          ],
+          "quote": "It's usually a matter of amount of content that you can generate with TikTok influencers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            539.601,
+            550.807
+          ],
+          "quote": "And so we might turn off TikTok in certain states in the US or in certain geos, and we start A-B testing what is the growth rate or is the revenue rate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1006.813,
+            1010.036
+          ],
+          "quote": "I'm also really impressed that TikTok works for you because TikTok is freaking hard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1739.848,
+            1755.431
+          ],
+          "quote": "Websites are at the most just literally like if you just want to scroll and see some picture and read a bit more about the product, but all the purchases, all their credit cards are on Red Note or kind of Amazon equivalent and WhatsApp equivalent or TikTok, obviously.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "wechat",
+      "type": "company",
+      "role": "company",
+      "name": "WeChat",
+      "file": "WeChat",
+      "primary": false,
+      "how_described": "本集说中国人不在网站上买东西、一切购买都在微信这类超级应用里完成,这是 Eight Sleep 进中国最难、要从零学起的地方",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 442,
+          "t": [
+            1717.679,
+            1722.501
+          ],
+          "quote": "They only buy on their super apps, so on WeChat, RedNote, and Equivalent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai-seo",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI SEO",
+      "file": "AI SEO",
+      "primary": false,
+      "how_described": "本集说他们因 AI 搜索冲击 Google 投放而新设了这个监测渠道,每周两次看自己在 AI 搜索里的排名",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 221,
+          "t": [
+            858.555,
+            864.139
+          ],
+          "quote": "And so we introduced a new channel that now we monitor that is literally what we call AI SEO.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            864.58,
+            869.984
+          ],
+          "quote": "Now in the report that I receive weekly, twice a week, there is also AI SEO.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 901,
+          "t": [
+            3475.674,
+            3481.619
+          ],
+          "quote": "And so maybe it's AI SEO, maybe the same person oversees this other section and this other section.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "word-of-mouth",
+      "type": "concept",
+      "role": "concept",
+      "name": "口碑 (word of mouth)",
+      "file": "口碑",
+      "primary": false,
+      "how_described": "本集说口碑是他们的第一大渠道,持续复利式增长,占收入约 40%,是评估 CAC 会不会随时间下降时要看的因素",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            466.825,
+            469.667
+          ],
+          "quote": "And so that is another thing you want to assess, which is word of mouth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            469.947,
+            472.389
+          ],
+          "quote": "In our case, word of mouth keeps compounding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            477.892,
+            480.353
+          ],
+          "quote": "40% of your revenue stays word of mouth?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "universal-basic-income",
+      "type": "concept",
+      "role": "concept",
+      "name": "全民基本收入 (universal basic income)",
+      "file": "全民基本收入",
+      "primary": false,
+      "how_described": "本集嘉宾认为全民基本收入终将发生：公司因效率提升而需要更少员工，之后可能通过对公司加税把收入重新分配给每个人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 965,
+          "t": [
+            3715.861,
+            3717.582
+          ],
+          "quote": "Do you believe in universal basic income?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

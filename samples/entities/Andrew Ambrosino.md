@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Codex":45,"OpenAI":103,"ChatGPT":59,"Linear":8,"智能体":222,"品味":9,"原型":4,"主观能动性":17,"策展":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Codex":45,"OpenAI":104,"ChatGPT":59,"Linear":8,"智能体":224,"品味":9,"原型":4,"主观能动性":17,"策展":1}</script>
 
 <script>
 (function(){

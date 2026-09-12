@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Meta</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>29</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>30</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -39,6 +39,7 @@ unlisted: true
 - **[[2026-09-01-twiml-world-models-and-the-future-of-spatial-a|《Justin Johnson：世界模型不只有一种，而语言模型做不到这些》]]**(28:06起):本集提到 Meta 做过经典的高斯溅射重建工作，从大量照片拟合点云，但没有可泛化的大模型
 - **[[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]]**(04:11起):本集说 Meta 是 Arm 自研芯片的第一推动者:想要一款通用的、面向智能体的 CPU,市面上没有,于是找 Arm 合作。
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(09:56起):本集说就个人用例而言最担心的竞争者是 Meta:它会把个人助手塞进 WhatsApp,已拥有分发优势。
+- **[[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|《工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录》]]**(08:06起):本集说它是 Eight Sleep 最大的付费渠道、通常是新公司该先证明的第一个渠道,且其报的 CAC 可能比真实低 20%
 
 ## ① 提到它的金句
 
@@ -56,7 +57,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*29 集*
+*30 集*
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司(提及)
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
@@ -87,14 +88,15 @@ unlisted: true
 - [[2026-09-01-twiml-world-models-and-the-future-of-spatial-a|《Justin Johnson：世界模型不只有一种，而语言模型做不到这些》]] — 作为被讨论公司(提及)
 - [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]] — 作为被讨论公司(提及)
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司
+- [[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|《工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[Claude Code]] · [[Microsoft]] · [[Lenny]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[Claude]] · [[Microsoft]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":222,"Anthropic":116,"OpenAI":103,"Google":39,"Cursor":55,"推理":42,"NVIDIA":33,"Claude Code":56,"Microsoft":24,"Lenny":67}</script>
+<script type="application/json" class="pd-epn">{"智能体":224,"Anthropic":117,"OpenAI":104,"Google":39,"Cursor":56,"推理":42,"NVIDIA":33,"Claude":56,"Microsoft":24,"Claude Code":56}</script>
 
 <script>
 (function(){

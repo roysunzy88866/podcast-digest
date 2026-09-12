@@ -41,7 +41,7 @@ unlisted: true
 
 [[Claude]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[智能体]] · [[Google]] · [[Parallel]] · [[Dr. Fei-Fei Li]] · [[Zico Kolter]] · [[Adam Mosseri]]
 
-<script type="application/json" class="pd-epn">{"Claude":55,"Lenny":67,"Anthropic":116,"ChatGPT":59,"智能体":222,"Google":39,"Parallel":5,"Dr. Fei-Fei Li":1,"Zico Kolter":1,"Adam Mosseri":1}</script>
+<script type="application/json" class="pd-epn">{"Claude":56,"Lenny":67,"Anthropic":117,"ChatGPT":59,"智能体":224,"Google":39,"Parallel":5,"Dr. Fei-Fei Li":1,"Zico Kolter":1,"Adam Mosseri":1}</script>
 
 <script>
 (function(){

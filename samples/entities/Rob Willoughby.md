@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":8,"暗工厂":2,"TESL":4,"智能体":222,"验证器":5,"编排器":2,"沙箱":41,"软件工厂":5,"形式化验证":2}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":8,"暗工厂":2,"TESL":4,"智能体":224,"验证器":5,"编排器":2,"沙箱":41,"软件工厂":5,"形式化验证":2}</script>
 
 <script>
 (function(){

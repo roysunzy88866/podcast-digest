@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Chen]] [[Matt Perault]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]]
+[[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Databricks":11,"数据科学智能体":3,"Spark":2,"a16z":13,"Cursor":55,"Palantir":14,"托管服务":1,"开源":20,"按用量定价":2,"企业销售":3}</script>
+<script type="application/json" class="pd-epn">{"Databricks":11,"数据科学智能体":3,"Spark":2,"a16z":13,"Cursor":56,"Palantir":14,"托管服务":1,"开源":20,"按用量定价":2,"企业销售":3}</script>
 
 <script>
 (function(){

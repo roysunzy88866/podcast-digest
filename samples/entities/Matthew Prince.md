@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare":9,"Google":39,"OpenAI":103,"Anthropic":116,"智能体":222,"智能体商务":3,"爬取":3,"微支付":1,"SEO":6}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare":9,"Google":39,"OpenAI":104,"Anthropic":117,"智能体":224,"智能体商务":3,"爬取":3,"微支付":1,"SEO":6}</script>
 
 <script>
 (function(){

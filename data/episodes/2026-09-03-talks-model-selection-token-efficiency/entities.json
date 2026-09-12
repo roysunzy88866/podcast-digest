@@ -1,0 +1,2048 @@
+{
+  "episode_id": "2026-09-03-talks-model-selection-token-efficiency",
+  "podcast": "精选演讲",
+  "date": "2026-09-03",
+  "tags": [
+    "AI 编程",
+    "token 优化",
+    "模型选择",
+    "提示词工程",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "santi-garza",
+      "type": "person",
+      "role": "host",
+      "name": "Santi Garza",
+      "file": "Santi Garza",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            4.234,
+            5.556
+          ],
+          "quote": "My name is Santi Garza.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "martin",
+      "type": "person",
+      "role": "cohost",
+      "name": "Martin",
+      "file": "Martin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            5.836,
+            12.521
+          ],
+          "quote": "I'm a senior field engineer here at SpaceX AI, and I'm joined by an absolute legend, Martin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            12.661,
+            14.303
+          ],
+          "quote": "Martin, if you'd like to introduce yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            17.028,
+            17.848
+          ],
+          "quote": "My name is Martin.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1031.436,
+            1042.963
+          ],
+          "quote": "Part of my job and Martin's job is to test these models more practically speaking, so actually play around with them, see how they speak, see how they act in different situations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2333.438,
+            2338.002
+          ],
+          "quote": "Before we jump into the demo, Martin, are there some questions in the chat?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2422.367,
+            2423.267
+          ],
+          "quote": "Any other questions, Martin?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 736,
+          "t": [
+            3493.185,
+            3496.428
+          ],
+          "quote": "If there are no major questions, Martin, how are we looking in there?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 755,
+          "t": [
+            3600.708,
+            3607.593
+          ],
+          "quote": "Just want to thank Martin for being a legend in the chat and for answering all those questions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集把它说成:把智能体放在中心舞台的 AI 编程工具,为每个模型单独调校 harness,并提供 Cursor Router、Ask/Plan/Debug 模式等帮助用户控制 token 花费的功能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            18.028,
+            22.731
+          ],
+          "quote": "I'm also a field engineer here on the cursor side, or SpaceX side, rather.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            208.447,
+            230.281
+          ],
+          "quote": "So when you prompt a cursor, for example, the first thing that's going to happen is the harness is going to do some prompt management and take a look at your prompt, but also try to piece together all the context that might be needed for the model to properly service your request.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            251.098,
+            254.701
+          ],
+          "quote": "Cursor actually tunes the harness to every single model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            255.221,
+            264.79
+          ],
+          "quote": "So when you use Cursor, you're actually leveraging years of work in trying to get an agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            311.842,
+            317.208
+          ],
+          "quote": "And so Cursor has had to solve a lot of these problems with working with agents over the years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            317.308,
+            323.815
+          ],
+          "quote": "And so when you use a model through Cursor, you're going to get to leverage all of those efficiency gains.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            466.979,
+            480.624
+          ],
+          "quote": "And so right around 90%, Cursor's Harness starts to say, you know, it rings a little alarm and it says, hold on, we need to start to compact this conversation a little bit and summarize this conversation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            576.277,
+            589.864
+          ],
+          "quote": "And so if you ever see the context window start to summarize on Cursor or on any AI platform, what's happening is it's crunching that middle part and pulling out the key themes the model might need to know going forward.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            658.462,
+            660.944
+          ],
+          "quote": "So Cursor and SpaceX AI are now one company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            807.693,
+            819.94
+          ],
+          "quote": "And so, you know, actually searching through your code base for context, that uses grep and some other fancy things on the cursor side that don't cost you any money.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            905.139,
+            913.412
+          ],
+          "quote": "And so one of the major benefits of Cursor, like top five, top 10 benefits, is that you get to access models across the whole frontier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            914.013,
+            916.874
+          ],
+          "quote": "All these models you see here are available in Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            922.056,
+            925.617
+          ],
+          "quote": "You can actually leverage them all through Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            963.949,
+            971.933
+          ],
+          "quote": "I actually have here, um, I want to show you all because you all should be checking this too, not just here, um, with Cursor, but with other",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1023.086,
+            1025.007
+          ],
+          "quote": "So this is cursor.com slash evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1277.61,
+            1285.772
+          ],
+          "quote": "OK, so apart from choosing the model, you have a few different knobs that you get to control as a cursor user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1435.399,
+            1438.763
+          ],
+          "quote": "But one of Cursor's most popular features is the Cursor Router.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1458.496,
+            1460.137
+          ],
+          "quote": "This is the new cursor router.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1512.257,
+            1513.458
+          ],
+          "quote": "Cursor usage, clearly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1540.019,
+            1541.92
+          ],
+          "quote": "And this isn't just true about the cursor router.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1766.582,
+            1767.762
+          ],
+          "quote": "You get to use it through Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1852.471,
+            1855.673
+          ],
+          "quote": "You have an app mention of a file, which you can do through cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2161.28,
+            2162.861
+          ],
+          "quote": "Be careful with your rules and cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2162.961,
+            2166.905
+          ],
+          "quote": "If you're an advanced cursor user or part of a team, you probably have rules set up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2318.045,
+            2323.629
+          ],
+          "quote": "So we built, Cursor built a mode called debug mode that uses deterministic testing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2429.691,
+            2452.828
+          ],
+          "quote": "Another one is more so now, instead of manually changing the model, if we use cursor router instead, this is a question from Nathan that I already answered, but could be cool to hear for everyone else already here, is as far as actually routing to the specific models, how does the input cache work if it changes models behind the scenes all in one turn, if that makes sense there, Santi?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2454.62,
+            2462.423
+          ],
+          "quote": "Yeah, so you're asking how does the cursor router affect caching given that it's changing the models per turn?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2468.706,
+            2475.029
+          ],
+          "quote": "The cursor router is one of our priorities internally is to help people with spend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2475.369,
+            2479.731
+          ],
+          "quote": "It's always been kind of one of our pillars at cursor and now at SpaceX AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2494.381,
+            2496.502
+          ],
+          "quote": "I mean, it's like overnight with the cursor router.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2574.068,
+            2576.59
+          ],
+          "quote": "This is Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2583.316,
+            2589.741
+          ],
+          "quote": "For anyone who hasn't used Cursor in a couple years, you might remember like early innovations around Tab and Autocomplete and the IDE.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2611.534,
+            2615.195
+          ],
+          "quote": "Cursor is not just a way to build locally with agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2793.293,
+            2796.936
+          ],
+          "quote": "Because I just like showing cursor working in a real project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2941.915,
+            2944.537
+          ],
+          "quote": "Cursor's really good at managing it if you do get to 90%.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2962.691,
+            2970.016
+          ],
+          "quote": "This is tuned for each model by cursor, and it ensures that the model operates with the right context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3095.052,
+            3105.941
+          ],
+          "quote": "These are cursor ships with these and they make it really easy to either create a skill just, you know, you can just describe it or you can take something that the agent did and say, oh, you nailed it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3278.013,
+            3284.516
+          ],
+          "quote": "A cool command called canvas that shifts with cursor that lets you create these really cool React apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 689,
+          "t": [
+            3288.358,
+            3296.187
+          ],
+          "quote": "And I can go in here and I can say, okay, that's how many tokens went into the cursor agent instructions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3360.688,
+            3369.153
+          ],
+          "quote": "The last thing I'll show here is I want to show some of the tools you have on cursor.com.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 705,
+          "t": [
+            3369.674,
+            3373.736
+          ],
+          "quote": "So cursor.com is our whole team and we're encouraged to try a bunch of things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 708,
+          "t": [
+            3380.866,
+            3394.762
+          ],
+          "quote": "So you have a usage tab on cursor.com on your teams, and you can actually go in and there's a lot of cool things you can filter by here, but you can actually go in and see some of these runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3445.693,
+            3449.416
+          ],
+          "quote": "The other thing you can do from here is you can go to Cursor Router.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3582.28,
+            3584.623
+          ],
+          "quote": "You have that option in cursor.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:模型+harness 构成的非确定性协作系统;它的动作(grep、tab 补全)不花 token,唯一花钱的是进出模型的内容,用好它的最大杠杆是先规划好提问",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            198.93,
+            207.576
+          ],
+          "quote": "So I kind of want to break down the anatomy of an agent so that we all know what is actually affecting spend and not affecting spend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            255.221,
+            264.79
+          ],
+          "quote": "So when you use Cursor, you're actually leveraging years of work in trying to get an agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            338.069,
+            344.616
+          ],
+          "quote": "There's a bunch of tools that the agent can use and coordinating API requests and things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            357.22,
+            369.085
+          ],
+          "quote": "And so the harness will check in with the model and the model will, if you pop open the agent trace, you can see it thinking and coordinating with the agent to take action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            793.297,
+            798.783
+          ],
+          "quote": "So, you know, there's a myth that every single action that the agent takes costs tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            801.086,
+            803.488
+          ],
+          "quote": "The agent's actions are free.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1588.328,
+            1598.474
+          ],
+          "quote": "So if you want to really nail it with the agent, you need to plan your shop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1676.621,
+            1682.504
+          ],
+          "quote": "You have to remember that from that point on, the agent is carrying around all of this context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1725.371,
+            1730.357
+          ],
+          "quote": "And so the best thing you can do by far is before prompting the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1732.931,
+            1734.171
+          ],
+          "quote": "You can plan it with the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1736.652,
+            1745.976
+          ],
+          "quote": "But as soon as you and the agent both clarify exactly what it is you're looking for, from there, the agent will take it and it'll be just like straight down the runway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1796.134,
+            1802.817
+          ],
+          "quote": "So now the agent has to figure out, how am I going to go out and find the errors?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1842.122,
+            1852.37
+          ],
+          "quote": "In this case, it costs like 10x as much to figure this one out as the prompt on the right, which has a couple of important anchors for the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1868.924,
+            1877.977
+          ],
+          "quote": "You can actually at mention it and it'll pull in that context and it'll be a great starting point for the agent so it doesn't have to like crawl the entire codebase and figure out what you're talking about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1899.627,
+            1902.728
+          ],
+          "quote": "That is then context that the agent is carrying around on every turn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1909.709,
+            1911.67
+          ],
+          "quote": "And that helps the agent get off to the right start.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2026.738,
+            2030.381
+          ],
+          "quote": "But that's a lot for the agent to carry around.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2060.724,
+            2068.608
+          ],
+          "quote": "These directives help the agent check against the success criteria as it works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2069.248,
+            2078.211
+          ],
+          "quote": "And so it kind of keeps the agent very focused and is more likely to result in kind of a one shot where you take a look at the result and looks exactly like what you wanted.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2145.331,
+            2148.592
+          ],
+          "quote": "And this gives the agent an efficient pointer to that chat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2153.873,
+            2160.159
+          ],
+          "quote": "Start this new chat and just at mention those two chats, pull them in, and the agent will be able to crawl those efficiently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2184.537,
+            2191.559
+          ],
+          "quote": "And skills are very efficient ways of telling the agent how to do something because the agent only knows the title and the description.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2227.104,
+            2230.006
+          ],
+          "quote": "Get some context and pull in some context with the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2263.32,
+            2279.393
+          ],
+          "quote": "If you don't have tests, just ask the agent to build out a test suite, and then you make sure all the tests are passing before the refactor, and then the agent can check against those tests and keep working until all the tests pass with the new code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2323.69,
+            2326.192
+          ],
+          "quote": "So the agent will actually have you reproduce the bug.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2581.714,
+            2583.275
+          ],
+          "quote": "It puts the agent front and center.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2595.568,
+            2596.729
+          ],
+          "quote": "But this is the agent window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2763.686,
+            2776.709
+          ],
+          "quote": "But it's really helpful if I'm working locally with an agent because I can actually point to things and click things and pull context into the agent and the agent can also kind of pair with me here locally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2871.14,
+            2875.924
+          ],
+          "quote": "It's also to ask questions for the agent's benefit because it's able to pull in context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2971.077,
+            2978.321
+          ],
+          "quote": "Tool definitions are tools that the agent has at its disposal, so things like being able to grep.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2982.647,
+            2989.717
+          ],
+          "quote": "It basically is a suite of features that the model can recommend employing for the agent, depending on the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3095.052,
+            3105.941
+          ],
+          "quote": "These are cursor ships with these and they make it really easy to either create a skill just, you know, you can just describe it or you can take something that the agent did and say, oh, you nailed it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3112.265,
+            3123.248
+          ],
+          "quote": "So skills are really efficient because, like I said, it's like a bookshelf where the agent just sees the title and sees the description and knows when to invoke it, or you can invoke it yourself manually.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3133.01,
+            3136.171
+          ],
+          "quote": "And sub-agent definitions, you can take a look at the workshops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3220.221,
+            3222.303
+          ],
+          "quote": "With your agent and you make some big decisions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3240.159,
+            3244.864
+          ],
+          "quote": "And you can go in here and you can actually edit this plan live or work with the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3250.125,
+            3254.946
+          ],
+          "quote": "We already built this, but you'll see a button to build it, and you can choose which agent to use there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 689,
+          "t": [
+            3288.358,
+            3296.187
+          ],
+          "quote": "And I can go in here and I can say, okay, that's how many tokens went into the cursor agent instructions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3312.583,
+            3326.133
+          ],
+          "quote": "The other thing I can do is I can go down to the conversation and pop open the turns and see my message, but then also like, oh, the agent went in and grepped super efficiently, read some files into context, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3329.755,
+            3339.399
+          ],
+          "quote": "I also built a debug with agent tool here, which will actually work with an agent to try to scrutinize and see where we could get efficiency gains.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集把它说成:模型输入输出的基本单位,平均一个词对应一到两个 token;分输入、输出、缓存写入、缓存读取四种,输出最贵,是计费的核心单位",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            127.698,
+            131.122
+          ],
+          "quote": "We will be talking about token optimization and model selection today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            139.053,
+            140.334
+          ],
+          "quote": "What is a token?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            141.154,
+            148.776
+          ],
+          "quote": "So a token is a unit that a model can input or output.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            599.009,
+            602.35
+          ],
+          "quote": "All right, let's talk about token types.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            669.127,
+            673.249
+          ],
+          "quote": "So $2 for an input token from Grok.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1330.35,
+            1332.291
+          ],
+          "quote": "That is more token spend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1371.854,
+            1376.259
+          ],
+          "quote": "On each turn, it's basically, it increases your time to first token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1472.401,
+            1475.182
+          ],
+          "quote": "Cost is going to optimize specifically for token spend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1940.324,
+            1947.391
+          ],
+          "quote": "So every single token is priced 20x more, let's say, than the tokens on the right.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集把它说成:围绕模型的整套调度框架——模型是引擎,harness 是车;它负责提示管理、拼凑上下文、协调工具调用,并替用户处理模型失忆导致的每轮上下文重喂",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            188.122,
+            195.087
+          ],
+          "quote": "A lot of people talk about on X or LinkedIn, I hear a lot of chatter about the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            195.987,
+            198.709
+          ],
+          "quote": "But for a lot of people, they don't know exactly what the harness does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            208.447,
+            230.281
+          ],
+          "quote": "So when you prompt a cursor, for example, the first thing that's going to happen is the harness is going to do some prompt management and take a look at your prompt, but also try to piece together all the context that might be needed for the model to properly service your request.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            230.561,
+            237.306
+          ],
+          "quote": "The analogy I like to use is that if the model is the engine, the harness is essentially the car around the engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            251.098,
+            254.701
+          ],
+          "quote": "Cursor actually tunes the harness to every single model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            324.836,
+            329
+          ],
+          "quote": "The harness also coordinates and orchestrates tool calls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            345.455,
+            351.478
+          ],
+          "quote": "Now, the harness will actually communicate with the model kind of back and forth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            351.558,
+            357.04
+          ],
+          "quote": "So again, think of the model as the brain and the harness as maybe the hands, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            357.22,
+            369.085
+          ],
+          "quote": "And so the harness will check in with the model and the model will, if you pop open the agent trace, you can see it thinking and coordinating with the agent to take action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            408.92,
+            409.98
+          ],
+          "quote": "The harness handles this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            466.979,
+            480.624
+          ],
+          "quote": "And so right around 90%, Cursor's Harness starts to say, you know, it rings a little alarm and it says, hold on, we need to start to compact this conversation a little bit and summarize this conversation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            925.917,
+            929.999
+          ],
+          "quote": "And in fact, you get to use the harness that's tuned to each model as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1362.743,
+            1368.73
+          ],
+          "quote": "So if there are a bunch of, you know, I mentioned that sometimes the harness has to communicate with the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1541.96,
+            1554.227
+          ],
+          "quote": "The reason people find such gains around bug fixing and feature development, et cetera, is because we've, like I said, tuned every harness for the job.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集把它说成:模型能容纳的上下文上限,接近 90% 时 harness 会自动压缩对话;被撑大或塞满失败尝试的上下文会像行李一样在每一轮被带着走、持续烧钱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            448.605,
+            452.147
+          ],
+          "quote": "So models do have a context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            488.595,
+            497.259
+          ],
+          "quote": "So if you bloat the context window yourself, you have to realize that you'll approach that context window a lot faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            576.277,
+            589.864
+          ],
+          "quote": "And so if you ever see the context window start to summarize on Cursor or on any AI platform, what's happening is it's crunching that middle part and pulling out the key themes the model might need to know going forward.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1668.137,
+            1675.901
+          ],
+          "quote": "Now, you have to remember that first slide I showed where the context window grows with each turn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1830.876,
+            1833.398
+          ],
+          "quote": "And that's going to fill up the context window because that's like 100 different tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2536.279,
+            2543.922
+          ],
+          "quote": "Rather than routing it to some big model, for example, with a huge context window, we'll say, oh my god, this is a discrete task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2877.165,
+            2882.37
+          ],
+          "quote": "into the context window, which then can be referenced by another run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2934.929,
+            2936.27
+          ],
+          "quote": "That is the context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 750,
+          "t": [
+            3577.936,
+            3582.18
+          ],
+          "quote": "For a big refactor, I'll widen the context window as big as I can.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3584.823,
+            3590.509
+          ],
+          "quote": "I'll do a million, for example, for the context window, and then I'll use a really beefy model and it's usually worth it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompt)",
+      "file": "提示词",
+      "primary": true,
+      "how_described": "本集把它说成:控制 token 花费的最大杠杆——模糊 prompt 让模型大范围扫描猜测、失败尝试随轮携带,好 prompt 与坏 prompt 实测成本差 10 到 12 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            208.447,
+            230.281
+          ],
+          "quote": "So when you prompt a cursor, for example, the first thing that's going to happen is the harness is going to do some prompt management and take a look at your prompt, but also try to piece together all the context that might be needed for the model to properly service your request.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            369.625,
+            373.847
+          ],
+          "quote": "Eventually, a prompt comes back to you and that's what you see on the other side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            536.113,
+            541.696
+          ],
+          "quote": "So for example, like the system prompt, what rules are there that you've introduced?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            616.052,
+            626.954
+          ],
+          "quote": "So this is going to be partially your own prompting, but it'll also be, like I said, the system prompt and the tool definitions and the things that the model needs to know in order to operate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1410.153,
+            1419.181
+          ],
+          "quote": "And this means like, you know, you don't have to go in and like change the model and, you know, turn all these knobs for every single prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1769.563,
+            1773.304
+          ],
+          "quote": "And so on the left, you'll see kind of a vague prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1786.349,
+            1787.89
+          ],
+          "quote": "Like, what is wrong with this prompt?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1789.651,
+            1795.273
+          ],
+          "quote": "One thing that's wrong with the prompt is you're being very vague about what errors you're talking about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1839.52,
+            1841.982
+          ],
+          "quote": "So that's a vague prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1842.122,
+            1852.37
+          ],
+          "quote": "In this case, it costs like 10x as much to figure this one out as the prompt on the right, which has a couple of important anchors for the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1927.096,
+            1931.939
+          ],
+          "quote": "So instead of using Composer for the vague prompt, let's use Fable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2218.819,
+            2221.841
+          ],
+          "quote": "And you can usually do that with one prompt, oftentimes with Composer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2515.794,
+            2523.476
+          ],
+          "quote": "It's going to take a look at your prompt and say, OK, you know, he or she is asking for a refactor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2960.51,
+            2962.411
+          ],
+          "quote": "I mentioned the system prompt.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cache",
+      "type": "concept",
+      "role": "concept",
+      "name": "缓存 (cache)",
+      "file": "缓存",
+      "primary": true,
+      "how_described": "本集把它说成:模型提供商侧按前缀匹配的缓存系统,让重复读入的对话历史走便宜的缓存读取;会话中途改规则或换模型会击穿缓存,但实际影响只是很小一次波动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            733.654,
+            746.143
+          ],
+          "quote": "And so we created a caching system and so did Anthropic and GPT and most model providers where it'll write those input tokens into a cache.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            750.058,
+            754.479
+          ],
+          "quote": "So rather than reading it fresh, it'll look there first to see if it can pull out of the cache.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            774.824,
+            778.069
+          ],
+          "quote": "Change a rule, for example, halfway through your session, that'll bust the cache.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            782.014,
+            788.964
+          ],
+          "quote": "Also, if you change model providers, the caches do sit on the model provider side, so it'll rewrite to the cache in case anyone's curious.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2361.48,
+            2368.204
+          ],
+          "quote": "The real answer is that it basically has to rebuild the cache and the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2391.135,
+            2394.917
+          ],
+          "quote": "And so the cache gets busted and gets recreated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2395.477,
+            2398.619
+          ],
+          "quote": "You might be saying, oh, man, you know, I was saving so much money with the cache.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2404.661,
+            2407.502
+          ],
+          "quote": "It's just one turn where it writes to cache.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2429.691,
+            2452.828
+          ],
+          "quote": "Another one is more so now, instead of manually changing the model, if we use cursor router instead, this is a question from Nathan that I already answered, but could be cool to hear for everyone else already here, is as far as actually routing to the specific models, how does the input cache work if it changes models behind the scenes all in one turn, if that makes sense there, Santi?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "compaction",
+      "type": "concept",
+      "role": "concept",
+      "name": "压缩 (compaction)",
+      "file": "压缩",
+      "primary": true,
+      "how_described": "本集把它说成:上下文接近上限时 harness 总结中间对话历史腾空间的机制,反复压缩几次对话会变得很模糊、重要细节会丢",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            497.76,
+            507.245
+          ],
+          "quote": "And so when the compaction actually happens, which is the part where you summarize, you lose a lot of the details, like the important details sometimes, that you wanted the model to know.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "model-selection",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型选择 (model selection)",
+      "file": "模型选择",
+      "primary": true,
+      "how_described": "本集把它说成:没有一个模型赢所有类别、前沿领先者频繁易手,锁定单一提供商危险;应按任务阶段换模型——侦察用 Composer、规划用 Grok/Opus、构建回到 Composer",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            127.698,
+            131.122
+          ],
+          "quote": "We will be talking about token optimization and model selection today.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "specialized-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "专门化模型 (specialized model)",
+      "file": "专门化模型",
+      "primary": true,
+      "how_described": "本集把它说成:如 Composer 2.5 这类把参数集中在软件工程任务上的模型——通用推理模型贵在为「教你怎么烤鸡」的参数付费,专门化模型只为用到的参数付费,每任务仅 44 美分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 231,
+          "t": [
+            1211.459,
+            1213.56
+          ],
+          "quote": "And it's a very specialized model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1237.266,
+            1239.106
+          ],
+          "quote": "So it's what we call a specialized model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor-router",
+      "type": "concept",
+      "role": "concept",
+      "name": "路由器 (Cursor Router)",
+      "file": "路由器",
+      "primary": true,
+      "how_described": "本集把它说成:用分类器和海量使用数据把请求路由到最合适模型的功能,有 cost/balance/intelligence 三档;设为组织级政策据报一夜省 30% 到 60%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 276,
+          "t": [
+            1435.399,
+            1438.763
+          ],
+          "quote": "But one of Cursor's most popular features is the Cursor Router.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1458.496,
+            1460.137
+          ],
+          "quote": "This is the new cursor router.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1540.019,
+            1541.92
+          ],
+          "quote": "And this isn't just true about the cursor router.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2429.691,
+            2452.828
+          ],
+          "quote": "Another one is more so now, instead of manually changing the model, if we use cursor router instead, this is a question from Nathan that I already answered, but could be cool to hear for everyone else already here, is as far as actually routing to the specific models, how does the input cache work if it changes models behind the scenes all in one turn, if that makes sense there, Santi?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2454.62,
+            2462.423
+          ],
+          "quote": "Yeah, so you're asking how does the cursor router affect caching given that it's changing the models per turn?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2468.706,
+            2475.029
+          ],
+          "quote": "The cursor router is one of our priorities internally is to help people with spend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2494.381,
+            2496.502
+          ],
+          "quote": "I mean, it's like overnight with the cursor router.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3445.693,
+            3449.416
+          ],
+          "quote": "The other thing you can do from here is you can go to Cursor Router.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "plan-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "规划模式 (Plan Mode)",
+      "file": "规划模式",
+      "primary": true,
+      "how_described": "本集把它说成:类似和 PM、设计师、工程师开需求会的只读模式,会出澄清问题并产出带图表的技术规格,适合配合通用推理模型做规划",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 450,
+          "t": [
+            2230.386,
+            2231.447
+          ],
+          "quote": "Then move to Plan Mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2239.763,
+            2246.547
+          ],
+          "quote": "So first of all, pull in all the relevant context, go into plan mode, and then split into subtasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 667,
+          "t": [
+            3198.782,
+            3201.404
+          ],
+          "quote": "And what I'll want to do is go into plan mode for this one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 669,
+          "t": [
+            3204.547,
+            3217.819
+          ],
+          "quote": "But plan mode is another great read-only feature that will, it's kind of like having a spec meeting with like your PM or your technical PM and like the designer and the engineer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 673,
+          "t": [
+            3222.523,
+            3225.086
+          ],
+          "quote": "And so the plan mode will ask you clarifying questions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 741,
+          "t": [
+            3507.728,
+            3519.099
+          ],
+          "quote": "Maybe just to highlight this one, Jonathan mentioned, sorry if I missed this, but is it better to use plan mode with a more expensive model than use a more efficient model for implementation like Composer 2.5?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 743,
+          "t": [
+            3522.901,
+            3538.672
+          ],
+          "quote": "So plan mode is great for a general reasoning model because when you're planning something, you kind of need to weigh a lot of pros and cons for a feature, for a refactor.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ask-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "提问模式 (Ask Mode)",
+      "file": "提问模式",
+      "primary": true,
+      "how_described": "本集把它说成:完全只读、不写代码不跑改动命令的安全提问模式,用作开发前的侦察步骤,为后续运行拉入上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 448,
+          "t": [
+            2223.121,
+            2226.123
+          ],
+          "quote": "If you have kind of a vague unfamiliar area, start with Ask Mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2817.306,
+            2825.69
+          ],
+          "quote": "And so ask mode, we're going to start in ask mode and we're going to say, is there anything I should know if I want to add a custom color picker to the style panel?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2843.263,
+            2849.108
+          ],
+          "quote": "So if you want to have extra efficiency gains, you can switch to Composer 2.5 for Ask Mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2851.905,
+            2857.429
+          ],
+          "quote": "Ask Mode is a great feature because it's totally safe.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rules",
+      "type": "concept",
+      "role": "concept",
+      "name": "规则 (rules)",
+      "file": "规则",
+      "primary": true,
+      "how_described": "本集把它说成:每一轮全量加载的指令,所以必须保持简短直接,否则每轮都在烧 token;团队可在管理员级共享或强制执行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            536.113,
+            541.696
+          ],
+          "quote": "So for example, like the system prompt, what rules are there that you've introduced?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            542.297,
+            546.119
+          ],
+          "quote": "And don't worry, we'll look at rules during our demo at the end of the presentation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            546.179,
+            548
+          ],
+          "quote": "So what rules have you introduced?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2161.28,
+            2162.861
+          ],
+          "quote": "Be careful with your rules and cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2162.961,
+            2166.905
+          ],
+          "quote": "If you're an advanced cursor user or part of a team, you probably have rules set up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2167.285,
+            2168.346
+          ],
+          "quote": "I have rules set up too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2169.107,
+            2174.892
+          ],
+          "quote": "Just make sure that your always on rules are short because they're in every single turn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2174.972,
+            2176.273
+          ],
+          "quote": "So don't make giant rules.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2990.78,
+            2992.201
+          ],
+          "quote": "OK, let's talk about rules.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2996.704,
+            3001.487
+          ],
+          "quote": "Rules should be short and direct because every single turn is aware of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 624,
+          "t": [
+            3011.077,
+            3012.058
+          ],
+          "quote": "And I go over to rules.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 631,
+          "t": [
+            3034.098,
+            3039.826
+          ],
+          "quote": "But you can also scope rules specifically to your one project as opposed to all your projects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3039.926,
+            3044.052
+          ],
+          "quote": "And teams can actually share or even enforce rules at the admin level.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3297.809,
+            3302.334
+          ],
+          "quote": "I can go in and take a look at the tool definitions, the rules, the skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 693,
+          "t": [
+            3306.619,
+            3308.14
+          ],
+          "quote": "Actually, all of our rules are pretty reasonable.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集把它说成:给智能体提供工作流的高效方式——像书架,智能体只看标题和描述,需要时才把正文载入上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            548.08,
+            550.201
+          ],
+          "quote": "What skills or tools are at your disposal?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2184.537,
+            2191.559
+          ],
+          "quote": "And skills are very efficient ways of telling the agent how to do something because the agent only knows the title and the description.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3047.497,
+            3048.858
+          ],
+          "quote": "So OK, skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 635,
+          "t": [
+            3050.747,
+            3061.015
+          ],
+          "quote": "Skills are more complex, typically more complex like recipes or kind of workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3093.792,
+            3094.752
+          ],
+          "quote": "Sorry, built-in skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3112.265,
+            3123.248
+          ],
+          "quote": "So skills are really efficient because, like I said, it's like a bookshelf where the agent just sees the title and sees the description and knows when to invoke it, or you can invoke it yourself manually.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3297.809,
+            3302.334
+          ],
+          "quote": "I can go in and take a look at the tool definitions, the rules, the skills.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集把它说成:harness 协调的工具调用之一;不用的 MCP 服务器应审计删掉,避免白白占据每轮上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 353,
+          "t": [
+            1803.941,
+            1810.665
+          ],
+          "quote": "I need to maybe hook up to an MCP to go look at the logs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2178.255,
+            2180.496
+          ],
+          "quote": "Make sure that your MCP servers you're still using.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "debug-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "调试模式 (debug mode)",
+      "file": "调试模式",
+      "primary": false,
+      "how_described": "本集把它说成:针对难缠 bug 的模式,用确定性测试逼你先复现 bug、捕获日志,而不是像智能体天性那样瞎猜「我修好了」但 bug 还在",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 464,
+          "t": [
+            2298.457,
+            2302.879
+          ],
+          "quote": "For really hard bug, use debug mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2318.045,
+            2323.629
+          ],
+          "quote": "So we built, Cursor built a mode called debug mode that uses deterministic testing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "test-driven-development",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试驱动开发 (test-driven development)",
+      "file": "测试驱动开发",
+      "primary": false,
+      "how_described": "本集把它说成:重构时的推荐方法——先确保测试全过,没测试就让智能体先建测试套件,重构前后测试全过才算完成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 459,
+          "t": [
+            2258.796,
+            2260.898
+          ],
+          "quote": "I use test-driven development for refactors.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

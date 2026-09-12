@@ -25,7 +25,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]] [[Andy McCall]]
+[[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]]
 
 </div>
 

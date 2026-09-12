@@ -33,7 +33,7 @@ unlisted: true
 
 [[Zico Kolter]] · [[Matt Fredrikson]] · [[Gray Swan]] · [[Snowflake]] · [[Anthropic]] · [[Twitter]] · [[智能体]] · [[红队测试]] · [[提示词注入]] · [[越狱]]
 
-<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":7,"Anthropic":116,"Twitter":6,"智能体":222,"红队测试":3,"提示词注入":11,"越狱":2}</script>
+<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":7,"Anthropic":117,"Twitter":6,"智能体":224,"红队测试":3,"提示词注入":11,"越狱":2}</script>
 
 <script>
 (function(){

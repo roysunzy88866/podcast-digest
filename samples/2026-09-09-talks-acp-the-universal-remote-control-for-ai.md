@@ -95,7 +95,7 @@ Goose 团队把智能体技术栈拆成四个组件：客户端(用户用的应�
 
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同公司:Block、Goose · 同概念:MCP、智能体 (agent)</span>
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:harness、MCP、智能体 (agent)</span>
-- [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同概念:MCP、智能体 (agent)</span>
+- [[2026-09-03-talks-model-selection-token-efficiency|Token 都烧在哪了：Cursor 工程师教你把 AI 编程成本打下来]]<span class="pd-rz">同概念:harness、智能体 (agent)、MCP</span>
 
 </div>
 <div class="pd-ex">

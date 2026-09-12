@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]]
+[[Bob Safian]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Notion":12,"GitHub":22,"Heroku":1,"Anthropic":116,"OpenAI":103,"Figma":17,"主观能动性":17,"可塑软件":1,"智能体":222}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Notion":12,"GitHub":22,"Heroku":1,"Anthropic":117,"OpenAI":104,"Figma":17,"主观能动性":17,"可塑软件":1,"智能体":224}</script>
 
 <script>
 (function(){

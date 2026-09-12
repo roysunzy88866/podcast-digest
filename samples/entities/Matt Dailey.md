@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]]
+[[Bob Safian]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"REF":1,"速度病":1,"智能体":222,"决策层":1,"上下文工程":12,"状态":1,"原型重力":1,"智能体破产":1,"IDE":3,"计划模式":3}</script>
+<script type="application/json" class="pd-epn">{"REF":1,"速度病":1,"智能体":224,"决策层":1,"上下文工程":12,"状态":1,"原型重力":1,"智能体破产":1,"IDE":3,"计划模式":4}</script>
 
 <script>
 (function(){

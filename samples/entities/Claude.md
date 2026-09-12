@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>55</b> 集 · <b>26</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>56</b> 集 · <b>26</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -65,6 +65,7 @@ unlisted: true
 - **[[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|《把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律》]]**(00:59起):本集讨论的主要宿主模型之一：让它在带 UI 的场景下保持多轮搜索很难，需要靠工具描述引导和搜索/渲染分离来纠正行为
 - **[[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p|《把互联网装进智能体：FastMCP 作者用 Python 造 UI 的古怪实验》]]**(15:09起):本集演示中作为被请求「流式输出你能想到的最有趣的 UI」的智能体出现。
 - **[[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]]**(06:29起):本集顺带提到「Claude 或任何其他 LLM 都喜欢乱扔一些随机的字号」。
+- **[[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|《工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录》]]**(18:03起):本集说 Eight Sleep 的工程师「数百个 AI 工程师」主要用它来写代码,公司每月在它上面花费数百万美元
 
 ## ① 提到它的金句
 
@@ -124,7 +125,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*55 集*
+*56 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -181,14 +182,15 @@ unlisted: true
 - [[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|《把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律》]] — 作为概念
 - [[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p|《把互联网装进智能体：FastMCP 作者用 Python 造 UI 的古怪实验》]] — 作为被讨论公司(提及)
 - [[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]] — 作为概念(提及)
+- [[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|《工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Codex]] · [[OpenAI]] · [[Lenny]] · [[MCP]] · [[Google]] · [[Claude Code]] · [[vibe coding]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Codex]] · [[Lenny]] · [[MCP]] · [[Google]] · [[Claude Code]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"智能体":222,"Anthropic":116,"ChatGPT":59,"Codex":45,"OpenAI":103,"Lenny":67,"MCP":35,"Google":39,"Claude Code":56,"vibe coding":31}</script>
+<script type="application/json" class="pd-epn">{"智能体":224,"Anthropic":117,"ChatGPT":59,"OpenAI":104,"Codex":45,"Lenny":67,"MCP":36,"Google":39,"Claude Code":56,"vibe coding":31}</script>
 
 <script>
 (function(){

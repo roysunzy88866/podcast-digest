@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]] [[Jonathan Gordon]]
+[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]] [[Maximillian Piras]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":5,"智能体":222,"基于结果的定价":3,"应用 AI":1,"前沿模型":15,"工具层":1,"上下文工程":12,"编程系统":1,"MCP":35}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":5,"智能体":224,"基于结果的定价":3,"应用 AI":1,"前沿模型":15,"工具层":1,"上下文工程":12,"编程系统":1,"MCP":36}</script>
 
 <script>
 (function(){

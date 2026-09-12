@@ -1,0 +1,172 @@
+{
+  "title_zh": "Token 都烧在哪了：Cursor 工程师教你把 AI 编程成本打下来",
+  "tldr": "Cursor 现场工程师 Santi Garza 拆解 AI 编程的计费机制与模型选择，讲透如何用更精确的提示和路由器大幅省 token、提效率。",
+  "digest_md": "一家全球头部科技公司的 COO 公开说，他们四个月就烧光了整年的 AI 预算。这是 Cursor 现场工程师（field engineer，负责给客户做技术支持、教客户用好 AI 构建）Santi Garza 在这节 token 优化与模型选择工作坊开头讲的故事——他自己说自己最重要的工作，就是让用户真正成为「如何最好地用 AI 构建」方面的专家。而这节课最反直觉的一点是：让智能体不乱花钱的最大杠杆，不是换更便宜的模型，而是你提问的方式——同样一个任务，好 prompt 和坏 prompt 的成本差 10 到 12 倍。\n\n## 智能体的构造：模型是引擎，harness 是车\n\n先拆解计费单位。token 是模型输入输出的基本单位，最接近「一个词」，平均一个词对应一到两个 token；图像和大文件同样会被 token 化。\n\n你在 Cursor 里发一个提示后，真正干活的是两层：模型是引擎，harness（围绕模型的整套调度框架）是引擎周围的那辆车。harness 负责提示管理、拼凑上下文、协调工具调用（MCP、文件读取、API 请求等），并和模型来回通信。同一个引擎装进两辆调校不同的车，性能天差地别——Cursor 会针对每一个模型单独调校 harness [03:50 Santi]。\n\n一个鲜为人知但极重要的事实：**模型有失忆症**。它不记得你上一轮说了什么，每一轮都要把全部上下文重新喂回去——这件事 harness 替你做了，但代价是你要为每轮重复读入的上下文付费 [06:27 Santi]。上下文窗口接近 90% 时，harness 会自动压缩（compaction，即总结旧对话腾空间）：前缀（系统提示词、规则、工具定义）和最新提问不动，被压缩的是中间的对话历史。反复压缩几次，对话就变得很模糊，重要细节会丢 [08:35 Santi]。\n\n## 四种 token，价格差百倍\n\ntoken 分四种：输入 token（喂进模型的）、输出 token（模型生成的，更贵，因为要真算）、缓存写入和缓存读取。缓存系统让重复读入的对话历史走便宜的缓存读取——但缓存按前缀匹配，会话中途改一条规则就会击穿缓存；换模型提供商也会重建缓存，不过 Santi 说实际影响只是很小的一次波动，不必因此不换模型 [39:16 Santi]。\n\n价格量级（每百万 token）：Claude Fable 输入 10 美元、输出 50 美元；Opus 输入 5 美元；Grok 4.6 输入 2 美元；Composer 2.5 输入只要 50 美分 [10:38 Santi]。\n\n还有一个迷思要破除：**智能体的动作不花 token**。它在代码库里用 grep 搜索上下文、tab 补全、耗时很长的操作，都不额外收钱；唯一花钱的是进出模型的内容——思考、读、写 [13:13 Santi]。\n\n## 怎么选模型：没有一个模型赢所有类别\n\n前沿模型的领先者去年换了六次主人，今年更快，所以 Santi 认为锁定单一提供商是危险的。他给六个模型的判断：\n\n- **Grok 4.6**：帕累托前沿（分数和成本的最佳组合），不到 7 美元能拿到 70% 的表现，正好和 Fable 差不多，是唯一做到这一点或接近这个水平的模型。\n- **Claude Fable**：非常贵，但高度复杂、涉及面广、要拉大量文件的问题值得用它——复杂调试、视觉类工作往往结果更好。\n- **Opus**：别因为 Fable 更新就忘了它，写作、执行、沟通类任务有时比 Fable 还好，写文案、计划很出色。\n- **GPT 5.6 Sol**：擅长规划和读代码库；Luna 不是很强但每美元的性价比还行，这个阶段他更推荐 Grok 或 Composer。\n- **Composer 2.5**：他用得最多的模型。它是软件工程专用的专门化模型，快且高效——通用推理模型的贵在于你为「教你怎么烤鸡、给你感情建议」的参数付费，Composer 则把参数集中在软件工程上，你为更多你用到的参数付费 [17:43-21:12 Santi]。\n\n用户可调的旋钮有三个：**努力程度**（effort level，越高模型思考循环越多、越烧 token）；**Fast 模式**（不是让模型算得更快，而是插队到队列最前面、降低首 token 时间，GPT 系约贵 5 倍，只建议演示或时间紧迫时用）；以及**自动路由器**。Cursor Router 用分类器和海量使用数据把请求路由到最合适的模型，有 cost / balance / intelligence 三档，balance 是默认推荐。对管理员：把 auto 设为组织级政策（软性默认或强制锁定），团队报告一夜之间省 30% 到 60% [25:56 Santi]。他个人仍鼓励工程师自己换模型找感觉，「能切换模型、获得一些主观能动性，非常有帮助」，但软性默认至少能防止有人卡在最贵的模型上两周。\n\n## 今天最大的提示：先规划好这一杆\n\nSanti 称这是全场最有价值的一条：用智能体之前先规划。太容易犯的懒是直接说「修复 auth」「加个功能」——AI 推断力很强，但读不了你的心思。后果有两层：模型要大范围扫描代码库猜你在说什么；猜错了你来回纠正，而**从那一刻起，所有失败的尝试都作为上下文行李在每一轮被带着走**，持续烧钱，且模型每轮都要重新搞明白「我们决定不走那条路了」——就像高尔夫进了长草区，出来要多费好几杆 [26:23-28:45 Santi]。\n\n配套技巧：\n\n- **具体性**：「修复空值检查，在这个文件这一行」远好于「修复 auth」；哪怕不知道细节，说「.edu 地址的用户登录失败」也足够有用。\n- **锚点**：@ 提及具体文件或文件夹，把范围限定住，智能体就不用爬整个代码库。实战中同样的任务，模糊 prompt 的成本约是带锚点 prompt 的 10 倍 [30:42 Santi]。\n- **错误日志只贴关键的三行或二十行**，别把几百行的整个文件粘进去——那是每轮都背着的上下文。\n- **每轮限定一个任务**；告诉智能体成功标准（测试全过、符合规格），它会更专注、更容易一次成型。\n- **每个任务开新聊天**。「永远养着一个聊天」是 AI 开发最大的罪过——你以为留住的细节早被压缩没了，新上下文也没空间；需要旧上下文时，@ 引用过去的聊天，那只是一个高效指针，不会全量载入 [34:54 Santi]。\n\n## 黄金路径与演示\n\n几条现成的工作流：小而直接的任务——指明范围、文件或组件，一个 prompt 用 Composer 打发；模糊或不熟悉的领域——先 Ask Mode（完全只读、不会写代码跑命令的安全提问模式）做侦察，再 Plan Mode（类似和 PM、设计师、工程师开需求会，会出澄清问题和技术规格），最后构建；构建功能——拉全上下文、进计划模式、拆子任务，之后可轻松用多任务模式；重构——先测试驱动开发，没测试就让智能体先建测试套件，重构前后测试全过才算完；难缠的 bug——用 debug 模式，它用确定性测试逼你先复现 bug、捕获日志，而不是像智能体天性那样瞎猜「我修好了」但 bug 还在 [36:50-38:52 Santi]。\n\n演示里的真实账单：同一个功能，规划用 Grok 花 0.66 美元，构建用 Composer 花 0.12 美元；而之前让 Fable 直接实现花了 32 美元。悬停 usage 页面还能看到 token 具体烧在哪 [56:38 Santi]。\n\n模型搭配的经验法则（他回应观众提问）：asking（侦察提问）用 Composer，planning 用 Grok 或 Opus 这类扎实的通用推理模型（规划要权衡利弊，值得用贵的，而且循环短、花不了多少），build out 通常回到 Composer；唯一在构建阶段用通用大模型的情况，是任务极复杂、中途要做关键决策——这时把上下文窗口开到一百万，用最强的模型，通常值得 [58:41 Santi]。\n\n## 本集带走\n\n- **先规划再动手**：模糊 prompt 的隐性成本是失败尝试被每一轮携带 + 模型反复猜测，好坏 prompt 实测差 10 倍以上。\n- **按任务阶段换模型**：侦察用 Composer（或它做 Ask Mode 也很好）、规划用 Grok/Opus、构建用 Composer——规划贵一点是值得的投资，构建回到便宜高效的。\n- **提示里给锚点和成功标准**：@ 提及文件/文件夹限定范围，贴日志只贴关键几行，每轮一个任务，测试通过即完成的判据写清楚。\n- **每个任务开新聊天**，旧上下文用 @ 引用聊天（指针，不是全量载入）；永远别养一个聊三个月的对话。\n- **Rules 保持简短**（每轮全量加载），不用的 MCP 服务器做审计删掉，工作流写成 skills（智能体只看标题和描述，需要才载入正文）。\n- **团队层面启用 Cursor Router**：cost/balance/intelligence 三档，设为组织政策据报一夜省 30%–60%；个人玩家可去 cursor.com/evals 看各模型每任务平均成本再自己选。",
+  "quotes": [
+    {
+      "en": "The analogy I like to use is that if the model is the engine, the harness is essentially the car around the engine.",
+      "zh": "我喜欢用的一个类比是：如果模型是引擎，那 harness 本质上就是引擎周围的那辆车。",
+      "timestamp": "03:50",
+      "speaker": "Santi Garza"
+    },
+    {
+      "en": "Dangerous, I would say, to lock into just one provider when the frontier is changing so quickly.",
+      "zh": "我想说，当前沿变化如此之快时，锁定只用一家提供商是有点危险的。",
+      "timestamp": "14:58",
+      "speaker": "Santi Garza"
+    },
+    {
+      "en": "And I'll say that no one model wins every category.",
+      "zh": "我要说，没有一个模型能在所有类别中都获胜。",
+      "timestamp": "17:23",
+      "speaker": "Santi Garza"
+    },
+    {
+      "en": "You're paying for a ton of parameters you don't need.",
+      "zh": "你在为你不需要的大量参数付费。",
+      "timestamp": "20:43",
+      "speaker": "Santi Garza"
+    },
+    {
+      "en": "It does a really good job at inferring what you're trying to say with five words, but it can't read your mind.",
+      "zh": "它在用五个词推断你想说什么这件事上做得非常好，但它不能读懂你的心思。",
+      "timestamp": "27:09",
+      "speaker": "Santi Garza"
+    },
+    {
+      "en": "That is actually going to cost you money over time because every turn is feeding all this extra context from failed attempts, turns gone wrong.",
+      "zh": "随着时间推移，这实际上会让你花钱，因为每一轮都在喂入所有这些来自失败尝试和出错轮次的额外上下文。",
+      "timestamp": "28:12",
+      "speaker": "Santi Garza"
+    },
+    {
+      "en": "One of the greatest sins in AI development, which I see even experts doing sometimes, is like nursing a chat forever.",
+      "zh": "AI 开发中最大的罪过之一——我甚至见过专家也这么做——就是永远地养着一个聊天。",
+      "timestamp": "34:56",
+      "speaker": "Santi Garza"
+    },
+    {
+      "en": "First of all, all the details you think you're keeping, you're not keeping.",
+      "zh": "首先，你以为你保留着的所有细节，你其实没保留住。",
+      "timestamp": "35:25",
+      "speaker": "Santi Garza"
+    },
+    {
+      "en": "Agents like to guess. That's kind of built into their DNA. They're guessers.",
+      "zh": "智能体喜欢猜测。这有点是它们 DNA 里固有的。它们是猜测者。",
+      "timestamp": "38:22",
+      "speaker": "Santi Garza"
+    },
+    {
+      "en": "I built with Composer, $0.12. When compared with 32 US dollars.",
+      "zh": "我用 Composer 构建，0.12 美元。相比之下是 32 美元。",
+      "timestamp": "57:02",
+      "speaker": "Santi Garza"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:50",
+      "speaker": "Santi",
+      "en": "The analogy I like to use is that if the model is the engine, the harness is essentially the car around the engine.",
+      "zh": "我喜欢用的一个类比是：如果模型是引擎，那 harness 本质上就是引擎周围的那辆车。"
+    },
+    {
+      "timestamp": "06:27",
+      "speaker": "Santi",
+      "en": "So models have amnesia.",
+      "zh": "模型是有失忆症的。"
+    },
+    {
+      "timestamp": "13:19",
+      "speaker": "Santi",
+      "en": "It's actually not true. The agent's actions are free.",
+      "zh": "其实这不是真的。智能体的动作是免费的。"
+    },
+    {
+      "timestamp": "14:58",
+      "speaker": "Santi",
+      "en": "Dangerous, I would say, to lock into just one provider when the frontier is changing so quickly.",
+      "zh": "我想说，当前沿变化如此之快时，锁定只用一家提供商是有点危险的。"
+    },
+    {
+      "timestamp": "17:29",
+      "speaker": "Santi",
+      "en": "And I'll say that no one model wins every category.",
+      "zh": "我要说，没有一个模型能在所有类别中都获胜。"
+    },
+    {
+      "timestamp": "20:43",
+      "speaker": "Santi",
+      "en": "You're paying for a ton of parameters you don't need.",
+      "zh": "你在为你不需要的大量参数付费。"
+    },
+    {
+      "timestamp": "26:23",
+      "speaker": "Santi",
+      "en": "So if you want to really nail it with the agent, you need to plan your shot.",
+      "zh": "所以如果你想真正用好智能体，你需要规划你的这一杆。"
+    },
+    {
+      "timestamp": "27:09",
+      "speaker": "Santi",
+      "en": "It does a really good job at inferring what you're trying to say with five words, but it can't read your mind.",
+      "zh": "它在用五个词推断你想说什么这件事上做得非常好，但它不能读懂你的心思。"
+    },
+    {
+      "timestamp": "28:12",
+      "speaker": "Santi",
+      "en": "That is actually going to cost you money over time because every turn is feeding all this extra context from failed attempts, turns gone wrong.",
+      "zh": "随着时间推移，这实际上会让你花钱，因为每一轮都在喂入所有这些来自失败尝试和出错轮次的额外上下文。"
+    },
+    {
+      "timestamp": "28:33",
+      "speaker": "Santi",
+      "en": "And so it's really hard to get out of the weeds.",
+      "zh": "所以要走出草丛真的很难。"
+    },
+    {
+      "timestamp": "31:08",
+      "speaker": "Santi",
+      "en": "You can actually at mention it and it'll pull in that context and it'll be a great starting point for the agent so it doesn't have to like crawl the entire codebase and figure out what you're talking about.",
+      "zh": "你实际上可以 @ 提及它，它会引入那个上下文，这会是智能体的一个很好的起点，这样它就不用爬取整个代码库去弄清楚你说的是什么。"
+    },
+    {
+      "timestamp": "34:56",
+      "speaker": "Santi",
+      "en": "One of the greatest sins in AI development, which I see even experts doing sometimes, is like nursing a chat forever.",
+      "zh": "AI 开发中最大的罪过之一——我甚至见过专家也这么做——就是永远地养着一个聊天。"
+    },
+    {
+      "timestamp": "35:25",
+      "speaker": "Santi",
+      "en": "First of all, all the details you think you're keeping, you're not keeping.",
+      "zh": "首先，你以为你保留着的所有细节，你其实没保留住。"
+    },
+    {
+      "timestamp": "38:22",
+      "speaker": "Santi",
+      "en": "Agents like to guess. That's kind of built into their DNA. They're guessers.",
+      "zh": "智能体喜欢猜测。这有点是它们 DNA 里固有的。它们是猜测者。"
+    },
+    {
+      "timestamp": "41:21",
+      "speaker": "Santi",
+      "en": "It's one of the biggest problems in building with AI right now.",
+      "zh": "这是当前用 AI 构建时最大的问题之一。"
+    },
+    {
+      "timestamp": "57:03",
+      "speaker": "Santi",
+      "en": "I built with Composer, $0.12. When compared with 32 US dollars.",
+      "zh": "我用 Composer 构建，0.12 美元。相比之下是 32 美元。"
+    },
+    {
+      "timestamp": "57:59",
+      "speaker": "Santi",
+      "en": "It's very helpful to be able to switch models and decide what you want, get some agency.",
+      "zh": "能够切换模型、决定你想用什么、获得一些主观能动性，这是非常有帮助的。"
+    }
+  ],
+  "voice_script": "一家全球头部科技公司的COO公开承认，他们四个月就烧光了整年的AI预算。这不是段子，是Cursor现场工程师Santi Garza在一次token优化工作坊开头讲的真实故事。Santi的工作，就是给客户做技术支持，教大家怎么把AI构建这件事用好。而这节课最反直觉的一点是：让智能体不乱花钱的最大杠杆，不是去换更便宜的模型，而是你提问的方式。同样一个任务，好的提示和坏的提示，成本能差十到十二倍。\n\n要搞清楚钱烧在哪，得先明白计费单位。token是模型输入输出的基本单位，最接近一个词，平均一个词对应一到两个token，图像和大文件同样会被token化。你在Cursor里发一个提示之后，真正干活的是两层东西。打个比方：如果模型是引擎，那harness本质上就是引擎周围的那辆车。harness是围绕模型的整套调度框架，负责提示管理、拼凑上下文、协调工具调用，跟模型来回通信。同一个引擎装进两辆调校不同的车，性能天差地别。\n\n这里有一个鲜为人知但极重要的事实：模型有失忆症。它不记得你上一轮说了什么，每一轮都要把全部上下文重新喂回去。这件事harness替你做了，但代价是你要为每轮重复读入的上下文付费。当上下文窗口接近九成时，harness会自动压缩，也就是总结旧对话腾空间——系统提示词和最新提问不动，被压缩的是中间的对话历史。反复压缩几次，对话就变得很模糊，重要细节会丢。\n\n那到底怎么计费？token分四种：输入token、输出token、缓存写入和缓存读取。输出token更贵，因为要真算。缓存系统让重复读入的对话历史走便宜的缓存读取，但缓存按前缀匹配，会话中途改一条规则就会击穿缓存。价格量级上，Claude Fable输入每百万token十美元、输出五十美元；Opus输入五美元；Grok 4.6输入两美元；Composer 2.5只要五十美分。还有一个迷思要破除：智能体的动作不花token。它在代码库里搜索、tab补全、耗时很长的操作，都不额外收钱。唯一花钱的，是进出模型的内容——思考、读、写。\n\n搞清了钱怎么算，下一个问题是模型怎么选。前沿模型的领先者去年换了六次主人，今年更快，所以Santi认为，当前沿变化如此之快时，锁定只用一家提供商是有点危险的。要说清楚，没有一个模型能在所有类别中都获胜。Grok 4.6是分数和成本的最佳组合，不到七美元能拿到七成的表现。Claude Fable非常贵，但复杂调试、视觉类工作往往结果更好。Opus别因为Fable更新就忘了它，写作、计划有时比Fable还出色。而Santi本人用得最多的是Composer 2.5，这是软件工程专用的模型。为什么便宜？因为通用推理模型的贵，在于你为你不需要的大量参数付费——教它怎么烤鸡、给你感情建议的参数你都付了钱，Composer则把参数集中在软件工程上，你为更多你真正用到的参数付费。\n\n用户可调的旋钮还有三个：努力程度，越高模型思考循环越多越烧token；Fast模式，不是算得更快而是插队降低等待时间，GPT系约贵五倍，只建议演示时用；以及自动路由器。Cursor Router用分类器把请求路由到最合适的模型，有cost、balance、intelligence三档，balance是默认推荐。有团队把auto设为组织级政策，据报告一夜之间省了三成到六成。\n\n工具说完了，回到全场最有价值的一条建议：用智能体之前，先规划好这一杆。最容易犯的懒是直接说修复auth、加个功能。AI在用五个词推断你想说什么这件事上做得非常好，但它不能读懂你的心思。后果有两层：模型要大范围扫描代码库猜你在说什么；猜错了你来回纠正，而从那一刻起，所有失败的尝试都作为上下文行李在每一轮被带着走。随着时间推移，这实际上会让你花钱，因为每一轮都在喂入所有这些来自失败尝试和出错轮次的额外上下文。就像高尔夫进了长草区，出来要多费好几杆。\n\n配套的技巧都很具体。要具体，说修复这个文件这一行的空值检查，远好于说修复auth。要用锚点，用@提及具体文件或文件夹，把范围限定住，智能体就不用爬整个代码库——实战中模糊提示的成本约是带锚点提示的十倍。错误日志只贴关键的几行，别把几百行的整个文件粘进去。每轮限定一个任务，并告诉智能体成功标准，比如测试全过。还有最容易被忽视的一条：每个任务开新聊天。永远养着一个聊天，是AI开发最大的罪过——你以为留住的细节早被压缩没了。需要旧上下文时用@引用过去的聊天，那只是个高效指针，不会全量载入。\n\n把规划和模型选型合起来，就成了一套现成的工作流。模糊或不熟悉的领域，先用Ask Mode做侦察，这是完全只读的安全提问模式；再进Plan Mode，类似和产品经理开需求会，会出澄清问题和技术规格；最后构建。演示里的真实账单很能说明问题：同一个功能，规划用Grok花了六毛六美元，构建用Composer花了一毛二美元；而之前让Fable直接实现，花了三十二美元。经验法则是：侦察用Composer，规划用Grok或Opus这类扎实的通用推理模型——规划要权衡利弊，值得用贵的；构建通常回到Composer。唯一在构建阶段用通用大模型的情况，是任务极复杂、中途要做关键决策。\n\n所以你看，省token这件事，核心不在抠抠搜搜换便宜模型，而在你开口之前想清楚要什么、给足锚点和成功标准、按任务阶段换对模型。先规划好这一杆，钱才不会烧在长草区里。"
+}

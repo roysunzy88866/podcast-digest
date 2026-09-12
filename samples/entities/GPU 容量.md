@@ -45,7 +45,7 @@ unlisted: true
 
 [[Julian]] · [[Base 10]] · [[推理]] · [[专用推理]] · [[开源模型]] · [[后训练]] · [[持续学习]] · [[分布式推理]] · [[Cursor]] · [[Decagon]]
 
-<script type="application/json" class="pd-epn">{"Julian":1,"Base 10":1,"推理":42,"专用推理":1,"开源模型":16,"后训练":20,"持续学习":8,"分布式推理":1,"Cursor":55,"Decagon":5}</script>
+<script type="application/json" class="pd-epn">{"Julian":1,"Base 10":1,"推理":42,"专用推理":1,"开源模型":16,"后训练":20,"持续学习":8,"分布式推理":1,"Cursor":56,"Decagon":5}</script>
 
 <script>
 (function(){

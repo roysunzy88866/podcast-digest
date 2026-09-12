@@ -38,7 +38,7 @@ unlisted: true
 
 [[Lenny]] · [[Intercom]] · [[智能体]] · [[Madhavan Ramanujam]] · [[Melanie Perkins]] · [[Harry Stabbings]] · [[John Collison]] · [[Cursor]] · [[Column B]] · [[Jason Lamkin]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Intercom":6,"智能体":222,"Madhavan Ramanujam":1,"Melanie Perkins":1,"Harry Stabbings":1,"John Collison":2,"Cursor":55,"Column B":1,"Jason Lamkin":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Intercom":6,"智能体":224,"Madhavan Ramanujam":1,"Melanie Perkins":1,"Harry Stabbings":2,"John Collison":2,"Cursor":56,"Column B":1,"Jason Lamkin":1}</script>
 
 <script>
 (function(){

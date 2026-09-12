@@ -122,9 +122,9 @@ Mike 一月时公开宣称今年要造 1 万台，这个采访里他还是说 1 
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录]]<span class="pd-rz">同概念:人形机器人 (humanoid)</span>
 - [[2026-07-10-eyeonai-what-industrial-ai-actually-looks-like-k|Kriti Sharma：戴安全帽的AI，三周落地]]<span class="pd-rz">同公司:Boston Dynamics</span>
 - [[2026-07-23-a16z-building-the-physical-ai-stack-travis-ka|Travis Kalanick：为什么把下一家公司赌在工业AI]]<span class="pd-rz">同概念:执行器 (actuator)</span>
-- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|让 AI 像人一样犯错：Simile 创始人的模拟人类生意]]<span class="pd-rz">同概念:仿真 (simulation)</span>
 
 </div>
 <div class="pd-ex">

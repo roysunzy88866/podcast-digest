@@ -1,0 +1,27 @@
+{
+  "id": "2026-09-03-talks-model-selection-token-efficiency",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/KcshxSB3sNY.m4a",
+  "duration_sec": 3627.319,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 761,
+  "asr": true,
+  "title_en": "Model Selection & Token Efficiency",
+  "podcast": "精选演讲",
+  "date": "2026-09-03",
+  "added": "2026-09-12",
+  "added_at": "2026-09-12T11:55:36.922Z",
+  "speaker_map": {
+    "SPEAKER_00": "Santi Garza",
+    "SPEAKER_01": "Martin"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Santi Garza",
+  "cohosts": [
+    "Martin"
+  ],
+  "title_zh": "Token 都烧在哪了：Cursor 工程师教你把 AI 编程成本打下来",
+  "guest_name": "Santi Garza",
+  "guest_title": "Cursor 现场工程师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

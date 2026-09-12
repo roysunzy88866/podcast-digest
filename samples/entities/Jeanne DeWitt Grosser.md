@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]] [[Joe Schmidt]]
+[[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Vercel":13,"Stripe":29,"Gong":1,"OpenAI":103,"go-to-market":8,"智能体":222,"GTM 工程师":1,"市场细分":1,"PLG":8}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Vercel":13,"Stripe":29,"Gong":1,"OpenAI":104,"go-to-market":8,"智能体":224,"GTM 工程师":1,"市场细分":1,"PLG":8}</script>
 
 <script>
 (function(){

@@ -1,0 +1,202 @@
+{
+  "title_zh": "工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录",
+  "tldr": "智能床垫公司 Eight Sleep 的 CEO Matteo Franceschetti 与 20VC 主持人 Harry Stabbings 深谈，讲他怎么用几百个 AI 智能体和 160 人跑 35 个国家的生意。",
+  "digest_md": "这一集是 20VC 主持人 Harry Stabbings 和 Matteo Franceschetti 的第二次对谈。Matteo 是智能床垫公司 Eight Sleep 的 CEO，一家把业务铺到 35 个国家、还开进了中国的硬件公司，而全公司只有 160 个人。开场他就甩出全集最颠覆的一句话：我们的工程师大约一年前就停止写代码了 [19:45 Matteo]——他们的活全交给了「数百个为他们写代码的 AI 工程师」，主要工具是 Claude，每月花在 Claude 上的钱已达数百万美元量级 [19:51 Matteo]。靠这个，这个小团队才能在监管繁多的欧洲、中东、中国都把生意做成 [19:56 Matteo]。\n\n## AI 怎么接管公司运营\n\n最出名的案例是邮件营销：以前有个两人团队，负责人一离职，联合创始人 Alexandra 用三天搭了几套机器人，现在邮件营销带来接近一亿美元收入，团队人数是零 [17:17 Matteo]。数字营销团队则每天早上收到 AI 智能体的建议报告，人只负责批准或拒绝 [18:39 Matteo]。Matteo 说他现在开始分开统计「人类员工」和「AI 员工」——把 AI 员工算上，公司规模大概是三到四倍 [18:18 Matteo]。\n\n为此他六个月前专门设了一个过去不存在的「AI 内部工具团队」，专门造这些内部智能体。这个团队必须和数据工程团队绑得很紧，因为智能体要能精确访问按国家拆分的收入和 CAC（获客成本）数据，要确保智能体 100% 正确 [58:16 Matteo]。\n\n他的组织哲学是「两人小组」：一个领域配两个世界级的人做冗余，但领域可以很大。比如付费媒体团队就两个人，做出两三亿美元 [57:04 Matteo]。财务团队本该 20 人，他们只要 4 个 [59:01 Matteo]。他判断未来不会有职位消失，但同样的人会更横向地覆盖更多领域，公司能精简得多 [57:45 Matteo]。他的预测：三年后 250 人做到 10 亿美元收入 [56:57 Matteo]。\n\n关于 Anthropic 该不该在 IPO 时买，他的判断很具体：会有两个反向的向量——用量会涨，「5% 会变成 50%」，但成本会下降，净额是降的 [21:00 Matteo]。他还举了 Sam Allman 讲的电的类比：电力早期贵到付一小时电费要工作五小时，现在没人在乎晚上的电费 [21:09 Matteo]。他确实会买 Anthropic [22:22 Matteo]。\n\n## 渠道打法：一次只做一个\n\nMatteo 明确反对「同时铺所有渠道」。他的打法：从最大的渠道（通常是 Meta）开始，按公司规模定每周小额预算，给 CAC 设上限，在 CAC 达标内才加码，否则「就是在往窗外扔钱」[10:54 Matteo]。增长团队永远想多花，但你不约束，年底发现搞砸了、开始收缩，第二年就没有同比增长——今天有纪律，明年才能继续涨 [11:20 Matteo]。他说他们今年本来只要多花钱就能多涨 50%，但那样明年 CAC 就倒挂了 [11:44 Matteo]。\n\n两个关键机制：一是**不看平台报的 CAC**——平台归因严重虚高，Meta 报的 CAC 可能比真实的低 20%，他们有自己的模型来定每个渠道的真实 CAC [09:25 Matteo]；二是**每半年做一次增量测试**：挑两个表现相似的地区，在一个地区关掉某个渠道，看收入差异，立刻算出这个渠道的真实价值 [08:53 Matteo]。\n\n口碑占他们收入的约 40%，且持续复利式增长 [07:49 Matteo]。TikTok 是过去六个月才跑通的，关键是靠 TikTok 网红产出足够多的 UGC 内容 [08:22 Matteo]。户外广告是最大的错误——在中东投放时品牌还没准备好；户外广告行得通，但前提是提示后/未提示的品牌知名度达到一定水平，否则路人看到广告也不认识你 [14:58 Matteo]。有意思的是他们没花钱投户外，而是造了一辆后部带卧室的卡车在硅谷巡游，可预约上门试用产品，转化率很高 [16:09 Matteo]。Google 投放则受 AI 搜索冲击，他们新设了「AI SEO」监测项，每周两次看自己在 AI 搜索里的排名 [14:18 Matteo]。\n\n## 硬件创业的真相与中国市场\n\n对想投硬件的投资人，他的忠告：公司头几个月创始人根本不清楚真实生产成本和退货率，他们告诉你的 BOM 和 COGS「很可能至少偏差 50%」[07:25 Matteo]。\n\n中国市场是他的最难战场，因为「中国人不在网站上买东西」——没有我们所知的电商，一切都在微信、RedNote 这类超级应用里完成，他们只能从零学起 [28:22 Matteo]。但他也承认，此时进入中国恰好是时机对了：已在 35 国销售、赞助了 Charles Leclerc、Elon 和扎克伯格都公开谈过他们，品牌已有信任度，能定出价格；「如果五年前做同样的事，我们会被人一个便宜 500 美元的山寨货毁掉」[33:21 Matteo]。\n\n他反复强调「凡事都有时机」：零售不是不行，而是需要二阶条件成熟才能做，对 Eight Sleep 来说时机就是现在 [31:42 Matteo]。\n\n## 招聘、留人与夫妻创业\n\n招聘市场他说「回到了 2021 年」，连产品经理的薪水都失控了，所以他们越来越转向欧洲和美国以外招人 [05:10 Matteo]。比薪水更难的是留人。他给被挖角压力下的创始人的建议很硬：一个真在拿你和 Anthropic 之间「比较最终 offer」的人是危险信号——「这两份工作不可能有任何相似之处，这说明你很迷茫」[52:45 Matteo]。\n\n他提拔内部工程师做 VP 的做法也值得一提：先让他代理三个月、同时跑外部招聘做参照，人选定后还要求他「回去和妻子谈谈，她见证了你这三个月 130% 的投入」——因为要的是这个家庭一起承诺未来三四年 [55:30 Matteo]。\n\nAlexandra 既是他的联合创始人也是妻子。他们的规则：工作走 Slack、生活走 WhatsApp，绝不混用；但更关键的是 Alexandra 立的规矩——「如果我是一个不坐在你旁边的高管，你会在晚上 10 点 15 分为这事打电话给他吗？那就用你对待驻纽约运营 VP 的方式对待我」[44:46 Matteo]。早期磨合最难，他学到的教训是：要求可以同样苛刻，但措辞和方式必须专业 [46:21 Matteo]。\n\n## 中国制造、机器人与更大胆的预测\n\n他非常推崇中国公司：小米做 15 种不同的东西，他们证明了「聚焦」不是永远只做同一件事，而是把自己积累的能力用任何形式变现 [23:36 Matteo]。他由此提出一个理论：AI 时代正确的公司会把自己变成控股公司，Eight Sleep 今天的主业未来只是旗下业务之一 [22:32 Matteo]。他还认为所有中国车厂都会变成机器人公司——人形机器人将是「60 年代的汽车」，不转型的车厂连这个数万亿美元的市场也会一起丢掉 [25:36 Matteo]。\n\n更古怪的那个预测：「现在出生的孩子将永远不需要工作，至少不需要为了钱而工作」[60:18 Matteo]。所以他对「今天该不该上大学」的回答是 100% 不要——至少对想在硅谷创业的人完全没用 [61:42 Matteo]，且认为全民基本收入终将到来 [61:58 Matteo]。他的人生金字塔：健康打底，然后是关系，然后是目标。\n\n## 本集带走\n\n- **工程师停写代码是真实发生的运营决策**：几百个内部 AI 智能体跑邮件营销（近 1 亿美元收入、0 人团队）、付费媒体、财务，公司 160 人对标同行 1000 人规模。\n- **渠道纪律三件套**：一次只做一个渠道、CAC 设上限内才加码、每半年用「关掉一个相似地区」做增量测试——因为平台报的 CAC 普遍虚高（Meta 低约 20%）。\n- **投资人的情报网**：天使投资给他带来融资行情、估值倍数、有效渠道的市场感知，这是被低估的创始人学习方式。\n- **硬件尽调要打对折**：早期创始人报的生产成本、BOM/COGS 大概率偏差至少 50%，退货率他们自己都不知道。\n- **名人大使的两个硬条件**：必须真的自费用过产品、必须和创始人有直接关系，否则只是纯交易，不要。\n- **时机是 CEO 的核心工作**：户外广告、零售、进中国都不是「行不行」，而是二阶条件（品牌知名度、国际背书）到位没有。",
+  "quotes": [
+    {
+      "en": "Well, our engineers stopped coding around a year ago.",
+      "zh": "我们的工程师大约一年前就停止写代码了。",
+      "timestamp": "19:45",
+      "speaker": "Matteo Franceschetti"
+    },
+    {
+      "en": "What they have is hundreds of AI engineers that they code for them.",
+      "zh": "他们拥有的是数百个为他们写代码的 AI 工程师。",
+      "timestamp": "19:51",
+      "speaker": "Matteo Franceschetti"
+    },
+    {
+      "en": "And so now we have a team of zero, and email marketing makes close to 100 million.",
+      "zh": "所以现在我们的团队是零人，而邮件营销带来接近一亿美元的收入。",
+      "timestamp": "17:35",
+      "speaker": "Matteo Franceschetti"
+    },
+    {
+      "en": "We are probably three, four X bigger if you start including all our AI employees.",
+      "zh": "如果把所有 AI 员工都算上，我们的规模大概是三到四倍。",
+      "timestamp": "18:29",
+      "speaker": "Matteo Franceschetti"
+    },
+    {
+      "en": "Our revenue per employees is way higher than Apple.",
+      "zh": "我们的人均营收远高于 Apple。",
+      "timestamp": "56:36",
+      "speaker": "Matteo Franceschetti"
+    },
+    {
+      "en": "The usage will increase, and so the 5% will become 50%, but the cost will go down.",
+      "zh": "用量会增加，所以 5% 会变成 50%，但成本会下降。",
+      "timestamp": "21:00",
+      "speaker": "Matteo Franceschetti"
+    },
+    {
+      "en": "Well, because you cannot trust there will be an excess of attribution from the same platform.",
+      "zh": "因为你不能信任来自同一个平台的归因，归因会严重虚高。",
+      "timestamp": "09:25",
+      "speaker": "Matteo Franceschetti"
+    },
+    {
+      "en": "So your bed will become the most advanced medical platform you ever had.",
+      "zh": "所以你的床将成为你拥有过的最先进的医疗平台。",
+      "timestamp": "31:21",
+      "speaker": "Matteo Franceschetti"
+    },
+    {
+      "en": "And so everything they tell you about BOM and COGS will probably be off by at least 50%.",
+      "zh": "所以他们告诉你的关于 BOM 和 COGS 的一切，很可能至少偏差 50%。",
+      "timestamp": "07:37",
+      "speaker": "Matteo Franceschetti"
+    },
+    {
+      "en": "Then a great brand with a shitty product goes nowhere.",
+      "zh": "当然，一个伟大的品牌配上一个糟糕的产品是走不远的。",
+      "timestamp": "34:59",
+      "speaker": "Matteo Franceschetti"
+    },
+    {
+      "en": "I think all these automakers should transform themselves and start building humanoids because the humanoid will be what cars were in the 60s.",
+      "zh": "我认为所有这些汽车制造商都应该转型，开始制造人形机器人，因为人形机器人将成为 60 年代的汽车。",
+      "timestamp": "25:40",
+      "speaker": "Matteo Franceschetti"
+    },
+    {
+      "en": "That kids that are being born now will never work, at least for money.",
+      "zh": "现在出生的孩子将永远不会工作，至少不会为了钱而工作。",
+      "timestamp": "60:18",
+      "speaker": "Matteo Franceschetti"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "19:45",
+      "speaker": "Matteo",
+      "en": "Well, our engineers stopped coding around a year ago.",
+      "zh": "我们的工程师大约一年前就停止写代码了。"
+    },
+    {
+      "timestamp": "19:51",
+      "speaker": "Matteo",
+      "en": "What they have is hundreds of AI engineers that they code for them.",
+      "zh": "他们拥有的是数百个为他们写代码的 AI 工程师。"
+    },
+    {
+      "timestamp": "17:35",
+      "speaker": "Matteo",
+      "en": "And so now we have a team of zero, and email marketing makes close to 100 million.",
+      "zh": "所以现在我们的团队是零人，而邮件营销带来接近一亿美元的收入。"
+    },
+    {
+      "timestamp": "18:18",
+      "speaker": "Matteo",
+      "en": "We are probably three, four X bigger if you start including all our AI employees.",
+      "zh": "如果把所有 AI 员工都算上，我们的规模大概是三到四倍。"
+    },
+    {
+      "timestamp": "56:36",
+      "speaker": "Matteo",
+      "en": "Our revenue per employees is way higher than Apple.",
+      "zh": "我们的人均营收远高于 Apple。"
+    },
+    {
+      "timestamp": "21:00",
+      "speaker": "Matteo",
+      "en": "The usage will increase, and so the 5% will become 50%, but the cost will go down.",
+      "zh": "用量会增加，所以 5% 会变成 50%，但成本会下降。"
+    },
+    {
+      "timestamp": "10:42",
+      "speaker": "Matteo",
+      "en": "So you need to go one channel at a time.",
+      "zh": "你需要一次只做一个渠道。"
+    },
+    {
+      "timestamp": "11:13",
+      "speaker": "Matteo",
+      "en": "Your growth people, they will always want to grow faster.",
+      "zh": "你的增长团队，他们永远想增长得更快。"
+    },
+    {
+      "timestamp": "09:25",
+      "speaker": "Matteo",
+      "en": "Well, because you cannot trust there will be an excess of attribution from the same platform.",
+      "zh": "因为你不能信任来自同一个平台的归因，归因会严重虚高。"
+    },
+    {
+      "timestamp": "31:21",
+      "speaker": "Matteo",
+      "en": "So your bed will become the most advanced medical platform you ever had.",
+      "zh": "所以你的床将成为你拥有过的最先进的医疗平台。"
+    },
+    {
+      "timestamp": "07:37",
+      "speaker": "Matteo",
+      "en": "And so everything they tell you about BOM and COGS will probably be off by at least 50%.",
+      "zh": "所以他们告诉你的关于 BOM 和 COGS 的一切，很可能至少偏差 50%。"
+    },
+    {
+      "timestamp": "34:59",
+      "speaker": "Matteo",
+      "en": "Then a great brand with a shitty product goes nowhere.",
+      "zh": "当然，一个伟大的品牌配上一个糟糕的产品是走不远的。"
+    },
+    {
+      "timestamp": "23:36",
+      "speaker": "Matteo",
+      "en": "So these companies have already proven that the concept of focus is not, oh, you keep doing the same thing forever.",
+      "zh": "所以这些公司已经证明，聚焦这个概念并不是说，哦，你永远只做同一件事。"
+    },
+    {
+      "timestamp": "25:40",
+      "speaker": "Matteo",
+      "en": "I think all these automakers should transform themselves and start building humanoids because the humanoid will be what cars were in the 60s.",
+      "zh": "我认为所有这些汽车制造商都应该转型，开始制造人形机器人，因为人形机器人将成为 60 年代的汽车。"
+    },
+    {
+      "timestamp": "52:49",
+      "speaker": "Matteo",
+      "en": "And to me, that is a really bad red flag.",
+      "zh": "对我来说，那是一个非常糟糕的危险信号。"
+    },
+    {
+      "timestamp": "44:46",
+      "speaker": "Matteo",
+      "en": "I think the way she framed it was extremely smart.",
+      "zh": "我觉得她设定的方式非常聪明。"
+    },
+    {
+      "timestamp": "60:18",
+      "speaker": "Matteo",
+      "en": "That kids that are being born now will never work, at least for money.",
+      "zh": "现在出生的孩子将永远不会工作，至少不会为了钱而工作。"
+    },
+    {
+      "timestamp": "61:42",
+      "speaker": "Matteo",
+      "en": "No, 100% no.",
+      "zh": "不，百分百不要。"
+    },
+    {
+      "timestamp": "70:22",
+      "speaker": "Matteo",
+      "en": "But then I'm the type of guy that when I have a goal, then you don't stop me.",
+      "zh": "但我是那种一旦有了目标，你就拦不住我的人。"
+    },
+    {
+      "timestamp": "33:21",
+      "speaker": "Matteo",
+      "en": "And so you have a level of trust where you command a certain price.",
+      "zh": "于是你就拥有了一种信任度，让你能够定出某个价格。"
+    }
+  ],
+  "voice_script": "今天这期节目，聊聊一家你可能有印象的公司，Eight Sleep，做智能床垫的。CEO 叫 Matteo Franceschetti，这是 20VC 主持人 Harry Stabbings 和他的第二次对谈。为什么值得听？这家公司业务铺到了 35 个国家，连中国都进去了，全公司只有 160 个人，但年营收做到了让同行只能仰望的水平。而开场 Matteo 就甩出了整期最颠覆的一句话：我们的工程师，大约一年前就停止写代码了。\n\n这活儿去哪了？全交给了数百个专门为他们写代码的 AI 工程师，主要工具是 Claude，每月花在 Claude 上的钱已经是数百万美元的量级。靠这套打法，这么小的团队才在监管繁多的欧洲、中东、中国把生意都做成了。\n\n那 AI 到底是怎么接管公司运营的？最出名的案例是邮件营销。以前有个两人团队管这事，负责人一离职，联合创始人 Alexandra 花了三天搭了几套机器人。现在，邮件营销带来接近一亿美元的收入，团队人数是零。数字营销团队也类似，每天早上收到 AI 智能体的建议报告，人只负责批准或拒绝。Matteo 说，现在公司要分开统计人类员工和 AI 员工了，把 AI 员工算上，公司规模大概是三到四倍。为此六个月前还专门设了一个过去不存在的团队，就叫 AI 内部工具团队，专门造这些智能体，而且必须和数据工程团队绑得很紧，因为智能体要精确访问按国家拆分的收入和获客成本数据，得确保百分之百正确。\n\n这背后是一套组织哲学，叫两人小组：一个领域只配两个世界级的人，但领域可以非常大。付费媒体团队就两个人，做出两三亿美元；财务团队本该二十人，只要四个。Matteo 的判断是，未来不会有职位消失，但同样的人会横向覆盖更多领域。预测很具体：三年后，250 人做到 10 亿美元收入。\n\n不过 AI 只是省钱的那一面，增长那一面，靠的是渠道上的纪律。Matteo 明确反对同时铺所有渠道，打法是从最大的渠道开始，给获客成本设上限，达标之内才加码，否则就是在往窗外扔钱。这里有两个关键机制值得记：一是不看平台报的获客成本，因为归因严重虚高，Meta 报的数字可能比真实的低百分之二十，他们有自己的模型；二是每半年做一次增量测试，挑两个表现相似的地区，在一个地区关掉某个渠道，看收入差多少，真实价值立刻算出来。增长团队永远想多花钱，但不约束，年底发现搞砸了开始收缩，第二年就没有同比增长了。今年本来多花钱就能多涨百分之五十，但那样明年成本就倒挂了。今天有纪律，明年才能继续涨。\n\n那这些打法放到中国市场，还灵吗？不灵。Matteo 说中国是最难的战场，因为中国人不在网站上买东西，一切都在微信、RedNote 这类超级应用里完成，只能从零学起。但也承认，这时候进中国恰好时机对了：已经在 35 国销售，赞助了 Charles Leclerc，Elon 和扎克伯格都公开谈过这个品牌，所以能定出价格。五年前做同样的事，会被人一个便宜五百美元的山寨货毁掉。这就是 Matteo 反复强调的：凡事都有时机，零售也好、户外广告也好，不是行不行的问题，而是条件到位没有。\n\n顺着这个话题，对想投硬件的投资人还有一条忠告：公司头几个月，创始人根本不清楚真实生产成本和退货率，告诉你的成本数据，很可能至少偏差百分之五十。所以尽调要打对折听。\n\n除了生意，这一集里人和人之间的事也很有意思。Alexandra 既是联合创始人也是妻子，两人定了一条规矩：工作走 Slack，生活走 WhatsApp，绝不混用。更关键的是 Alexandra 立的那句话：如果我是一个不坐在你旁边的高管，你会在晚上十点十五分为这事打电话吗？那就用你对待纽约运营副总的方式对待我。早期磨合最难的教训是：要求可以同样苛刻，但措辞和方式必须专业。\n\n最后回到 AI。Matteo 甚至提出了一个理论：AI 时代正确的公司会把自己变成控股公司，今天的主业，未来只是旗下业务之一。还有一个更古怪的预测：现在出生的孩子，将永远不需要工作，至少不需要为了钱而工作。所以对今天该不该上大学，回答是百分之百不要，至少对想创业的人完全没用。\n\n这些东西听着疯狂，但别忘了开场那句：工程师一年前就停写代码了，而这已经是真实发生的运营决策。"
+}

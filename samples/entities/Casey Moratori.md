@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"性能优化":1,"汇编语言":1,"串行依赖链":1,"过早优化":1,"多态":1,"游戏引擎":1,"测试驱动开发":2,"Substack":2,"Python":4,"CPU":4}</script>
+<script type="application/json" class="pd-epn">{"性能优化":1,"汇编语言":1,"串行依赖链":1,"过早优化":1,"多态":1,"游戏引擎":1,"测试驱动开发":3,"Substack":2,"Python":4,"CPU":4}</script>
 
 <script>
 (function(){

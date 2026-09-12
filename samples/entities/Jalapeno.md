@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sachin Katti]] · [[Matt Turk]] · [[OpenAI]] · [[数据中心]] · [[液冷]] · [[Stargate]] · [[MRC]] · [[推理]] · [[GPU]] · [[核能]]
 
-<script type="application/json" class="pd-epn">{"Sachin Katti":1,"Matt Turk":3,"OpenAI":103,"数据中心":9,"液冷":1,"Stargate":1,"MRC":1,"推理":42,"GPU":16,"核能":1}</script>
+<script type="application/json" class="pd-epn">{"Sachin Katti":1,"Matt Turk":3,"OpenAI":104,"数据中心":9,"液冷":1,"Stargate":1,"MRC":1,"推理":42,"GPU":16,"核能":1}</script>
 
 <script>
 (function(){
