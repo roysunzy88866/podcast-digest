@@ -35,7 +35,7 @@ unlisted: true
 
 [[后训练]] · [[智能体]] · [[Lenny]] · [[Laurent]] · [[Alexander Whedon]] · [[Edwin Chen]] · [[Charles Gorintin]] · [[SubQuadratic]] · [[Surge AI]] · [[Alan]]
 
-<script type="application/json" class="pd-epn">{"后训练":20,"智能体":219,"Lenny":67,"Laurent":1,"Alexander Whedon":1,"Edwin Chen":1,"Charles Gorintin":1,"SubQuadratic":1,"Surge AI":1,"Alan":1}</script>
+<script type="application/json" class="pd-epn">{"后训练":20,"智能体":222,"Lenny":67,"Laurent":1,"Alexander Whedon":1,"Edwin Chen":1,"Charles Gorintin":1,"SubQuadratic":1,"Surge AI":1,"Alan":1}</script>
 
 <script>
 (function(){

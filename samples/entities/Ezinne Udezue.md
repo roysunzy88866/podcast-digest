@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maximillian Piras]] [[Vincent Wendy]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]]
+[[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Oji":1,"智能体":219,"LLM":31,"评估":24,"主观能动性":17,"护栏":43,"推理":42,"微调":15,"MCP":35}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Oji":1,"智能体":222,"LLM":31,"评估":24,"主观能动性":17,"护栏":43,"推理":42,"微调":15,"MCP":35}</script>
 
 <script>
 (function(){

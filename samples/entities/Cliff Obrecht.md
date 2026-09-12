@@ -53,7 +53,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":2,"Canva":4,"智能体循环":3,"免费增值":2,"推理":42,"模板":2,"SEO":6,"人在回路":7}</script>
+<script type="application/json" class="pd-epn">{"John Collison":2,"Canva":4,"智能体循环":3,"免费增值":2,"推理":42,"模板":2,"SEO":6,"人在回路":8}</script>
 
 <script>
 (function(){

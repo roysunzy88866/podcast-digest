@@ -1,0 +1,166 @@
+{
+  "title_zh": "终结 AI 垃圾内容：Taste Labs 如何度量并对抗 slop",
+  "tldr": "Taste Labs 创始人 Thais 分析 200 万个网站找出 AI slop 的可量化特征，并讲述如何用品牌遵循与判断力把生成质量拉回正轨。",
+  "digest_md": "这一集聊的是一个所有人都已经感觉到、但很少有人去认真度量的问题：AI slop——AI 生成内容的那种重复、没有灵魂、千篇一律的质感。主角是 Thais，Taste Labs 的创始人，公司几周前刚从 Stout 出来，使命一句话就能说清：终结 AI 垃圾内容。她给出的最反直觉的判断是：**「出色」很难定义，但「垃圾」出奇地好定义**——而只要能把垃圾变成一个可量化、可预测的东西，你就有了对抗它的抓手 [03:22 Thais]。\n\n## 为什么 slop 是个新问题，又不是新问题\n\nslop 这个现象并不新鲜，社交媒体时代就有一堆垃圾内容；但 AI 是它的加速器——任何一个不是设计师、也不是工程师的人，点一个按钮就能做出一整套 PPT、一个网站、一个 web 应用 [03:34 Thais]。Thais 承认这相当神奇，但代价是：生成的成本基本趋于零，而普通人并没有磨练过自己的品味 [03:49 Thais]。一个设计师一生要接触大量东西、学会识别模式、形成观点、学会克制，才能建立起品味——普通人不可能在每个领域都来一遍 [03:59 Thais]。所以她认为「修复 slop 的办法就是让每个人都有品味」是个糟糕的假设，不现实；正确的问题是：怎么让普通人也能创造出伟大的东西 [04:28 Thais]。\n\n她把 slop 拆成三个反复出现的特征 [05:10 Thais]：\n\n1. **重复性**——同样的东西出现太多太多次。\n2. **缺乏契合度（fit）**——内容在特定语境、特定时刻、对特定的人感觉不到「正确」。一个人给宠物店要网站，另一个人给金融公司要网站，设计却趋同了——用心做的话不该趋同 [05:26 Thais]。\n3. **低意图**——一堆人快速提示、想一次性生成完事，但更深层的是，我们构建的系统里缺了「意图解读」这个环节：帮用户弄清自己到底想要什么，为创作补充更多色彩和语境 [06:01 Thais]。\n\n## 把 slop 变成可度量的东西\n\nThais 坚信：要修复一个东西，必须先度量它、理解它 [06:12 Thais]。于是团队做了一次研究：像时光机那样分析过去 10 年超过 200 万个网站，追踪设计趋势，另外合成生成一组 AI 设计网站做对照 [06:41 Thais]。\n\n两个发现。第一，**在 AI 出现之前，互联网就已经在坍缩**——配色越来越相似、布局越来越相似，趋势传播得更快导致同质化；但 AI 让重复发生得更猛，而且几乎不看语境——在完全不同的类别里，你能看到非常相似的模式 [07:08 Thais]。第二，他们做了「探针」（probes）：先对所有网站做模式挖掘，把颜色、字体排印、布局、受众这些模糊特征提炼成接近结构化的东西，再训练一批「婴儿分类器」，每个只负责识别一个特征 [07:42 Thais]。当多个探针同时出现的频率被组合起来，就能高置信度地预测一个网站是不是 AI slop，预测能力非常高 [08:15 Thais]。\n\n而且这套探针**比大多数 LLM-as-a-judge（让一个大模型直接判断内容是优质人类作品还是 AI 垃圾）的方法表现都好** [08:29 Thais]。这证明 slop 不只是模糊的感觉，而是真实存在、可以量化的东西。\n\n## 对抗 slop：模型层之外，推理时同样重要\n\n现在业界大量讨论集中在模型层——怎么让模型标准更高。Thais 不否认这必须解决，但她认为**推理时（inference time，也就是模型实际响应用户的那一刻）的问题同等重要甚至更重要**：因为理解上下文和意图的来回往复，恰恰发生在推理的那一刻；只把模型变好而不解决这一层，slop 会继续存在 [09:44 Thais]。\n\n另一个核心判断：生产成本归零之后，变得昂贵、比以往任何时候都重要的是**判断力**——她刻意不用「品味」这个词，而是指辨别什么是对的、把问题拆解到能真正理解并为它构建解决方案的能力 [09:06 Thais]。\n\n对应三个 slop 特征，他们做了几件事：\n\n**对抗重复性：Creativity API（暂定名）。** 做一个「智能体的灵感机器」，让它产出真正分布之外的东西，而不是落在那个均值里。关键是，这绝不是把模型温度调高然后祈祷——创造力不是随机性，而是在特定领域理解规则和期望之后，有意地在几件事上偏离、打破规则，同时在其他方面保持对该类别期望的遵循 [10:38 Thais]。比如一份好的 pitch deck 长什么样是有规律的，真正的创意是在懂规律的前提下刻意打破其中几条 [11:00 Thais]。\n\n**对抗缺乏契合度：Brand API——他们向公众发布的第一个产品。** 伟大的品牌是几十位设计师投入大量技艺和心血的成果，也就是说「对这个公司什么是伟大的」这份工作其实早就预先做完了，只是我们没把它用好 [11:31 Thais]。Brand API 的做法是：输入一个品牌 URL，把它提取成非常具体的组件，结构化到智能体容易遵循、人也容易对照做判断的程度——既帮智能体产出更贴合品牌的东西，也让你能判断它有没有跑偏、在哪里跑偏 [12:14 Thais]。已有真实案例：让 Claude Design 按某公司品牌做幻灯片，默认产出平庸；走 Brand API 提取流程后，产出与原品牌保真度高得多、细节上感觉也是对的 [13:28 Thais]。更进一步，对于根本没有品牌的普通用户，他们在建一个预制的品牌系统索引：想要「梦幻感」，直接检索一套已被通盘考虑过、内在连贯的梦幻品牌系统，而不是当场生成一个大概率落入 slop 特征的东西 [13:10 Thais]。\n\n**对抗低意图：把探针当闸门。** 那些婴儿分类器可以直接成为 slop 的把关者——不让你的智能体把 slop 交付出去 [11:56 Thais]。\n\n## 别急着争论「模型能不能有品味」\n\n有人会问：人类品味的巅峰会不会被模型达到？Thais 的回答是：我们甚至还没赢得争论这个问题的资格——**现在的问题是门槛还在地上**，先把手头这些分解问题、度量问题的工作做起来，把质量门槛抬高，这才是起点 [14:12 Thais]。\n\n## 本集带走\n\n- **先度量再修复**：把「内容好不好」这种模糊判断拆成颜色、排版、布局等可结构化的特征，训练单一特征的小分类器，组合起来就能高精度预测 slop——比直接让大模型当裁判更有效。\n- **slop 三个特征可当自查清单**：重复性（同质化）、缺乏契合度（不看语境和用户）、低意图（系统不帮用户弄清想要什么）。\n- **品牌资产早就存在，只是没用上**：把现成的品牌规范提取成智能体可遵循、人可验证的结构化组件，是性价比很高的质量提升手段。\n- **创造力 ≠ 调高温度**：真创意是先懂领域规则，再有意识地打破其中几条，其余保持遵循。\n- **推理时和模型层一样值得投入**：理解用户意图、上下文和验证，都发生在推理那一刻，只改模型解决不了 slop。",
+  "quotes": [
+    {
+      "en": "I think it is hard to define what is great sometimes, but I think it's pretty easy to define what is slop in the sense that most people would agree.",
+      "zh": "我觉得有时候很难定义什么是出色，但从大多数人都会同意的意义上说，定义什么是 slop 相当容易。",
+      "timestamp": "03:22",
+      "speaker": "Thais Castello Branco"
+    },
+    {
+      "en": "I think the sense of repetition, of kind of soullessness, is something that all of us feel right now when using AI.",
+      "zh": "我认为那种重复感、那种近乎没有灵魂的感觉，是我们所有人在使用 AI 时此刻都能感受到的。",
+      "timestamp": "03:28",
+      "speaker": "Thais Castello Branco"
+    },
+    {
+      "en": "I think it's quite magical, by the way, that AI has gotten to a point that any human on the planet that is not even a designer, that is not an engineer, can click a button and suddenly make an entire PowerPoint or make a website or make a web app.",
+      "zh": "顺便说一句，我觉得相当神奇的是，AI 已经发展到了这样的程度：地球上任何一个不是设计师、也不是工程师的人，都可以点一个按钮，突然就做出一整套 PowerPoint，或者做出一个网站，或者做出一个 web 应用。",
+      "timestamp": "03:34",
+      "speaker": "Thais Castello Branco"
+    },
+    {
+      "en": "It comes with consequences of suddenly now the cost of generation is basically going to zero.",
+      "zh": "它带来的后果是，生成的成本现在基本上趋于零。",
+      "timestamp": "03:49",
+      "speaker": "Thais Castello Branco"
+    },
+    {
+      "en": "This performed better, by the way, than most LLM-as-a-judge methods of asking an LLM to judge if that is great human quality versus AI-generated slop.",
+      "zh": "顺便说一句，这比大多数 LLM-as-a-judge 方法——也就是让一个 LLM 来判断那是优质的人类作品还是 AI 生成的 slop——表现都要好。",
+      "timestamp": "08:29",
+      "speaker": "Thais Castello Branco"
+    },
+    {
+      "en": "I don't even want to use the word taste here, is judgment.",
+      "zh": "我甚至不想在这里用“品味”这个词，是判断力。",
+      "timestamp": "09:06",
+      "speaker": "Thais Castello Branco"
+    },
+    {
+      "en": "I don't think that we can ignore and just make models better and not solve this otherwise SOP will keep existing.",
+      "zh": "我不认为我们可以只让模型变得更好而无视、不解决这个问题，否则 slop 会继续存在。",
+      "timestamp": "09:57",
+      "speaker": "Thais Castello Branco"
+    },
+    {
+      "en": "Why not retrieve a dreamy brand system that already has been thought out to be cohesive instead of doing like a generative approach the moment of that might end up not so great or might end up again in those pillars of slop.",
+      "zh": "为什么不直接检索一个已经过通盘考虑、具有连贯性的梦幻品牌系统，而不是在那个时刻用生成的方式做出来的东西最终可能不太理想，或者又落入那些 slop 的特征里。",
+      "timestamp": "13:14",
+      "speaker": "Thais Castello Branco"
+    },
+    {
+      "en": "The bar is kind of really, I would say, on the ground.",
+      "zh": "我想说，这个门槛基本上还在地上。",
+      "timestamp": "14:25",
+      "speaker": "Thais Castello Branco"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:22",
+      "speaker": "Thais",
+      "en": "I think it is hard to define what is great sometimes, but I think it's pretty easy to define what is slop in the sense that most people would agree.",
+      "zh": "我觉得有时候很难定义什么是出色，但从大多数人都会同意的意义上说，定义什么是 slop 相当容易。"
+    },
+    {
+      "timestamp": "03:28",
+      "speaker": "Thais",
+      "en": "I think the sense of repetition, of kind of soullessness, is something that all of us feel right now when using AI.",
+      "zh": "我认为那种重复感、那种近乎没有灵魂的感觉，是我们所有人在使用 AI 时此刻都能感受到的。"
+    },
+    {
+      "timestamp": "03:34",
+      "speaker": "Thais",
+      "en": "I think it's quite magical, by the way, that AI has gotten to a point that any human on the planet that is not even a designer, that is not an engineer, can click a button and suddenly make an entire PowerPoint or make a website or make a web app.",
+      "zh": "顺便说一句，我觉得相当神奇的是，AI 已经发展到了这样的程度：地球上任何一个不是设计师、也不是工程师的人，都可以点一个按钮，突然就做出一整套 PowerPoint，或者做出一个网站，或者做出一个 web 应用。"
+    },
+    {
+      "timestamp": "03:49",
+      "speaker": "Thais",
+      "en": "It comes with consequences of suddenly now the cost of generation is basically going to zero.",
+      "zh": "它带来的后果是，生成的成本现在基本上趋于零。"
+    },
+    {
+      "timestamp": "03:59",
+      "speaker": "Thais",
+      "en": "Think about the amount of effort and work that a designer puts in throughout their life to build up their taste.",
+      "zh": "想想一个设计师一生中投入多少精力和努力来建立自己的品味。"
+    },
+    {
+      "timestamp": "04:28",
+      "speaker": "Thais",
+      "en": "I think it would be a bad case scenario for us to just be like, okay, the way to fix slop is for everyone to have taste, because I don't think that's necessarily realistic.",
+      "zh": "我认为，对我们来说，一个糟糕的假设情形是：好吧，修复 slop 的办法就是让每个人都有品味，因为我不认为这一定是现实的。"
+    },
+    {
+      "timestamp": "06:12",
+      "speaker": "Thais",
+      "en": "I'm a big believer, by the way, that in order to fix something, you first have to measure it, and you first have to understand it.",
+      "zh": "顺便说一句，我非常相信一点：要修复某个东西，你必须先度量它，必须先理解它。"
+    },
+    {
+      "timestamp": "07:08",
+      "speaker": "Thais",
+      "en": "So one was that you already kind of saw a bit of a collapse on the internet before even AI.",
+      "zh": "其中之一是，甚至在 AI 出现之前，你就已经在互联网上看到了某种程度的坍缩。"
+    },
+    {
+      "timestamp": "08:29",
+      "speaker": "Thais",
+      "en": "This performed better, by the way, than most LLM-as-a-judge methods of asking an LLM to judge if that is great human quality versus AI-generated slop.",
+      "zh": "顺便说一句，这比大多数 LLM-as-a-judge 方法——也就是让一个 LLM 来判断那是优质的人类作品还是 AI 生成的 slop——表现都要好。"
+    },
+    {
+      "timestamp": "09:06",
+      "speaker": "Thais",
+      "en": "I don't even want to use the word taste here, is judgment.",
+      "zh": "我甚至不想在这里用“品味”这个词，是判断力。"
+    },
+    {
+      "timestamp": "09:44",
+      "speaker": "Thais",
+      "en": "But I actually think this problem of inference time is equally, if not even more important.",
+      "zh": "但我实际上认为推理时这个层面的问题同等重要，甚至更重要。"
+    },
+    {
+      "timestamp": "09:57",
+      "speaker": "Thais",
+      "en": "I don't think that we can ignore and just make models better and not solve this otherwise SOP will keep existing.",
+      "zh": "我不认为我们可以只让模型变得更好而无视、不解决这个问题，否则 slop 会继续存在。"
+    },
+    {
+      "timestamp": "10:43",
+      "speaker": "Thais",
+      "en": "It's not just about like turning up a temperature of a model and kind of fingers crossed hoping for the best.",
+      "zh": "这不仅仅是把模型的温度调高然后祈祷最好的结果。"
+    },
+    {
+      "timestamp": "11:05",
+      "speaker": "Thais",
+      "en": "Because usually creativity isn't randomness, isn't doing something that completely feels off for that situation.",
+      "zh": "因为通常创造力并不是随机性，不是做一些在那个情境下完全让人感觉不对劲的事情。"
+    },
+    {
+      "timestamp": "11:34",
+      "speaker": "Thais",
+      "en": "Like, great brands are the work of dozens of designers putting in a lot of craft and thought and care.",
+      "zh": "比如，伟大的品牌是几十位设计师投入大量技艺、思考和心血的成果。"
+    },
+    {
+      "timestamp": "13:10",
+      "speaker": "Thais",
+      "en": "Why not retrieve a dreamy brand system that already has been thought out to be cohesive instead of doing like a generative approach the moment of that might end up not so great or might end up again in those pillars of slop.",
+      "zh": "为什么不直接检索一个已经过通盘考虑、具有连贯性的梦幻品牌系统，而不是在那个时刻用生成的方式做出来的东西最终可能不太理想，或者又落入那些 slop 的特征里。"
+    },
+    {
+      "timestamp": "14:25",
+      "speaker": "Thais",
+      "en": "The bar is kind of really, I would say, on the ground.",
+      "zh": "我想说，这个门槛基本上还在地上。"
+    }
+  ],
+  "voice_script": "今天这期，聊一个你可能天天都在感受、但很少有人说得清楚的问题：AI 垃圾内容，行话叫 AI slop。就是那种AI生成的东西特有的质感——重复、千篇一律、近乎没有灵魂。今天的嘉宾叫 Thais，是 Taste Labs 的创始人，公司几周前刚从 Stout 独立出来，使命一句话就能说清：终结 AI 垃圾内容。她干的事挺硬核的——带着团队分析了过去十年超过两百万个网站，就为了搞明白一件事：垃圾内容到底能不能被量化？\n\n先交代一下这个问题是怎么来的。垃圾内容其实不新鲜，社交媒体时代就一堆了。但 AI 是它的加速器。Thais 自己也承认，这事相当神奇：地球上任何一个不是设计师、也不是工程师的人，现在点一个按钮，就能做出一整套 PPT、一个网站、一个 web 应用。但代价是什么？生成的成本基本趋于零，而普通人并没有磨练过自己的品味。你想，一个设计师要花一生的时间，接触大量东西、学会识别模式、形成观点、学会克制，才能建立起品味——普通人不可能在每个领域都来一遍。\n\n所以，有人说\"修复 slop 的办法就是让每个人都有品味\"，Thais 觉得这是个糟糕的假设，根本不现实。她提的问题换了个方向：怎么让普通人也能创造出伟大的东西？\n\n那要回答这个问题，得先把 slop 拆开看看，它到底长什么样。研究下来，有三个反复出现的特征。\n\n第一个叫重复性，就是同样的东西出现太多太多次。\n\n第二个叫缺乏契合度，说白了就是内容在特定语境、特定时刻、对特定的人，感觉不到\"对\"。举个例子：一个人给宠物店要网站，另一个人给金融公司要网站，做出来的设计却趋同了——用心做的话，这两件事根本不该长一样。\n\n第三个叫低意图。表面上看，是一堆人快速敲几个提示词、想一次性生成完事。但更深层的问题是，我们构建的系统里，缺了\"意图解读\"这个环节——也就是帮用户弄清楚自己到底想要什么，为创作补充更多色彩和语境。\n\n拆出这三个特征之后，下一个问题就很自然了：既然能描述，能不能度量？Thais 有个信念：要修复一个东西，必须先度量它、理解它。于是就有了那两百万个网站的研究——像时光机一样回看过去十年，追踪设计趋势，再合成生成一组 AI 设计的网站做对照。\n\n结果有两大发现。第一，在 AI 出现之前，互联网就已经在坍缩了——配色越来越像、布局越来越像，因为趋势传播快，导致同质化。但 AI 让重复发生得更猛，而且几乎不看语境：在完全不同的类别里，你能看到非常相似的模式。\n\n第二，他们做了一个叫\"探针\"的东西。做法是先对所有网站做模式挖掘，把颜色、字体排印、布局、受众这些模糊特征，提炼成接近结构化的东西，然后训练一批\"婴儿分类器\"——每个分类器只负责识别一个特征，比如只看颜色，只看布局。关键来了：当多个探针同时出现的频率被组合起来，就能高置信度地预测一个网站是不是 AI slop，预测能力非常高。而且这套方法，比让一个大模型直接当裁判——也就是所谓的 LLM-as-a-judge——表现都要好。这就证明了一件事：slop 不只是模糊的感觉，它是真实存在、可以量化的东西。\n\n好，既然能量化，那怎么对抗它？现在业界大量讨论都集中在模型层——怎么让模型标准更高。Thais 不否认这必须解决，但她认为推理时的问题同等重要，甚至更重要。推理时是什么？就是模型实际响应用户的那一刻。因为理解上下文和意图的来回往复，恰恰发生在那一刻。只把模型变好而不解决这一层，slop 会继续存在。\n\n这里还有个很核心的判断：生产成本归零之后，变得昂贵、比以往任何时候都重要的是判断力。她刻意不用\"品味\"这个词，指的是辨别什么是对的、把问题拆解到能真正理解并构建解决方案的能力。\n\n那具体做了哪些事？还是对应刚才那三个特征。\n\n对抗重复性，他们在做暂定名叫 Creativity API 的东西，定位是\"智能体的灵感机器\"，让它产出真正分布之外的东西。这里有个特别容易误解的点：这绝不是把模型温度调高然后祈祷。创造力不等于随机性，而是先理解一个领域的规则和期望，再有意识地偏离、打破其中几条，同时在其他方面保持遵循。比如一份好的 pitch deck 长什么样是有规律的，真正的创意是在懂规律的前提下，刻意打破其中几条。\n\n对抗缺乏契合度，是 Brand API，这是他们向公众发布的第一个产品。思路很妙：一个伟大的品牌，本来就是几十位设计师投入大量技艺和心血的成果——也就是说，\"对这个公司什么是伟大的\"这份工作早就预先做完了，只是我们没用好。Brand API 的做法是，输入一个品牌网址，把它提取成非常具体的组件，结构化到智能体容易遵循、人也容易对照判断的程度——既帮智能体产出贴合品牌的东西，也让你能看出它有没有跑偏。已经有真实案例了：让 Claude Design 按某公司的品牌做幻灯片，默认产出很平庸；走了 Brand API 的提取流程之后，产出跟原品牌的保真度高得多，细节上感觉就是对的。那没有品牌的普通人怎么办？他们在建一个预制品牌系统的索引——你想要\"梦幻感\"，直接检索一套已经被通盘考虑过、内在连贯的梦幻品牌系统，而不是当场生成一个大概率掉进 slop 特征里的东西。\n\n最后是对抗低意图：那些婴儿分类器可以直接当成闸门，不让你的智能体把 slop 交付出去。\n\n说到这，可能有人会问：人类品味的巅峰，模型到底能不能达到？Thais 的回答挺清醒的：我们甚至还没赢得争论这个问题的资格——现在的问题是，门槛还在地上。先把手头这些分解问题、度量问题的工作做起来，把质量门槛抬高，这才是起点。\n\n有句话值得记住：很难定义什么是出色，但从大多数人都会同意的意义上说，定义什么是 slop，相当容易。而正因为垃圾可以定义，它就可以被度量；可以被度量，它就终将被终结。"
+}

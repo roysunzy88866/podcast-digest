@@ -1,0 +1,130 @@
+{
+  "title_zh": "用形容词驾驭 AI 设计:Impeccable 的控制哲学",
+  "tldr": "Impeccable 开发者分享如何用「更大胆」「提炼」这类设计词汇引导 AI 编程工具,找到人机协作设计的恰当控制度,并主张品味无法自动化。",
+  "digest_md": "这一集是一场约十五分钟的演讲,主角是一位做了二十多年工具的开发者,他造了一个叫 Impeccable 的设计技能(design skill)——一个能装进 Claude Code、GitHub Copilot、Cursor、Codex 等各种编程 harness(即围绕模型的工作环境)里的工具,目的是让 AI 写代码时更有设计感。演讲讲的是他构建这个工具的方法,而不只是工具本身。\n\n开场他放了一个刻意的对比:一个平淡但还行的网站,输入一句「make it bolder」(把它做得更大胆)——装了 Impeccable 之后,输出明显更有冲击力;同一个项目、同一个提示词、同样用 GPT 5.5 extra high 档但不装 Impeccable,差别一眼可见。他坦承结果并不完美,比如章节编号这种「AI 垃圾尾巴」(AI slop,GPT 和 Claude 都爱犯的毛病)有时还是会溜进来。\n\n## 两个世界之间,缺一个中间地带\n\n他认为工程师和设计师的角色正在快速融合——设计师转向代码,工程师转向设计,传统的「PM 定方向 → 设计师出稿 → 交接评审 → 工程师实现」瀑布流程正在大小公司里崩塌。而做设计的实际工作,现在只有两个极端可选:一边是在 Figma、Webflow 里直接操纵像素、边距,另一边是完全甩给智能体说「帮我设计这个」。他觉得中间有个未充分探索的地带:恰到好处的控制程度,在正确的时机把人插入循环。\n\n他还调侃了 AI 设计审美的变迁:2022 年那种紫色渐变已经绝迹,现在前沿模型产出的是「Claude 米色」——Instrument Serif 字体加斜体,他称之为「算法版优衣库」:不一定难看,但所有东西长一个样。\n\n## 第一个核心主张:你无法一次性(one-shot)完成设计\n\n这是他今天最鲜明的观点。想做出真正好看又有效的设计,产物必须是上下文丰富的(被你要做什么、受众是谁所塑造),而且必须多轮迭代——设计本来就是混乱的过程,用户有意见、利益相关者有意见。指望一句「智能体,帮我解决这个问题」就把设计一笔勾销,不会奏效。\n\n更根本的问题是:即便你快速 vibe coding 出一版 2026 年式的 AI slop,页面上**没有任何人做过任何决定**——「也许还算称职,但完全空洞」。你该先问的是:情感领地是什么?这个东西永远不应该给人什么感觉?参考是什么?受众是谁?就像你走进世界最好的设计工作室,对设计总监说「给我个品牌设计」,对方点点头就走——这完全讲不通。\n\n## 形容词必须被赋予含义\n\n他的论点是:造一个工具,给你「恰好足够」的控制力,让你用形容词和动词引导智能体——「更大胆」「更安静」「提炼」(即简化)「打磨」「加密」「加固」(指确保设计在各种设备、响应式等场景下都站得住)。他观察到一个关键现象:一个从没碰过设计的工程师和一个设计师,用完全相同的模型和 harness 做同一个任务,产出的差距天壤之别——差在语言上。所以他一直试图把设计师的语言压缩成一个技能系统。\n\n但「更大胆」到底指什么?直接对 GPT 或 Claude 说「make it bolder」,它只会随心所欲:发明新颜色、新渐变。在 Impeccable 里,「更大胆」的含义不是渐变、不是玻璃效果、不是霓虹,而是真正的层级、比例、果断的字体排版——不破坏设计系统、又能恰当提升用户注意力的东西。\n\n他给智能体的一条真实指令很有意思:「把作品展示给别人,说『我把这个弄大胆了』。如果他们相信了你,你就失败了。」智能体会照此自我反思,经常得出「我这里做得不好」的结论。他借用 Matt Pocock 的说法:形容词是「轻量的词」——模型本身对它有某种理解,你要做的是把它注入、翻译到你所在的领域。\n\n他也承认这个高度解决不了所有问题:探索性阶段、只要把东西摆上屏幕时另说;而且目前 AI 还不足以替代人类完成最后 5%、10% 甚至 20% 把作品从「好」推向「伟大」的工作——但它确实能让作品变好。\n\n## 永远不会有自动模式\n\n很多人每周在推特上求他做一个全自动版 Impeccable,他一律拒绝:「这不是重点。重点是给你一种方式,引导你最终想要得到的东西。」现在就挂着一个实现自动化的 pull request,他会因为违背初衷而关掉——没有 auto,永远不会有。\n\n由此引出他对「品味」的判断(自称火辣观点,中途还口误说反又纠正):品味可以被**放大**(amplified craft)——你可以用工具磨砺品味、展现更多品味;但品味无法被实验室培育。因为品味就其定义而言是情境化的、文化性的、稀缺的——一旦每个人都复制同样的东西,它就变得浑浊,不再被当作品味。\n\n## 本集带走\n\n- **设计的中间地带**:别在像素级操纵和「全交给智能体」两个极端里二选一,用设计词汇(形容词+动词)在恰当控制层级上引导 AI。\n- **one-shot 设计行不通**:好设计需要丰富上下文 + 多轮迭代,先想清情感领地、受众、参考,再动手;没人做过任何决定的页面「也许称职但完全空洞」。\n- **形容词背后必须有定义**:对 AI 说「更大胆」前,先告诉它你的「更大胆」是什么——Impeccable 把它定义为层级、比例、果断排版,而非渐变霓虹。\n- **给智能体自检指令**:「如果别人相信你把它弄大胆了,你就失败了」——让模型自己反思产出是否真的到位。\n- **品味可放大、不可自动化**:工具能磨砺和放大你的品味,但品味本质稀缺、情境化,全自动模式会把它稀释成「算法版优衣库」。",
+  "quotes": [
+    {
+      "en": "I don't think, right now, AI is good enough to replace humans for the last five, 10, maybe even 20% of the work to get it from good to great.",
+      "zh": "我认为,就目前而言,AI 还不足以取代人类完成最后 5%、10%,甚至 20% 的工作,即把作品从好提升到伟大的那部分。",
+      "timestamp": "11:50",
+      "speaker": "Paul Bakaus"
+    },
+    {
+      "en": "An adjective with nothing behind is just a nicer prompt.",
+      "zh": "一个形容词后面不带任何东西,只是一个更好的提示词。",
+      "timestamp": "13:52",
+      "speaker": "Paul Bakaus"
+    },
+    {
+      "en": "There is no auto, and there will be no auto.",
+      "zh": "没有自动模式,也永远不会有自动模式。",
+      "timestamp": "14:43",
+      "speaker": "Paul Bakaus"
+    },
+    {
+      "en": "And I think you can work with tools to sharpen your taste and bring out more of your taste.",
+      "zh": "我认为你可以借助工具来磨砺你的品味,并展现出你更多的品味。",
+      "timestamp": "14:59",
+      "speaker": "Paul Bakaus"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "06:02",
+      "speaker": "Unknown",
+      "en": "You cannot one-shot design.",
+      "zh": "你无法一次性完成设计。"
+    },
+    {
+      "timestamp": "08:05",
+      "speaker": "Unknown",
+      "en": "This was just, I mean, it's maybe competent but completely empty.",
+      "zh": "这就是——我的意思是,它也许还算称职,但完全空洞。"
+    },
+    {
+      "timestamp": "05:50",
+      "speaker": "Unknown",
+      "en": "And when everything looks the same, you kind of get algorithmic Uniqlo, as I call it.",
+      "zh": "当一切都长一个样,你就会得到我所说的算法版优衣库。"
+    },
+    {
+      "timestamp": "10:39",
+      "speaker": "Unknown",
+      "en": "Show someone your work and say, hey, I make this bolder.",
+      "zh": "把你的作品展示给某个人,说:嘿,我把这个弄得更大胆了。"
+    },
+    {
+      "timestamp": "10:43",
+      "speaker": "Unknown",
+      "en": "If they believe you, you failed.",
+      "zh": "如果他们相信了你,你就失败了。"
+    },
+    {
+      "timestamp": "11:50",
+      "speaker": "Unknown",
+      "en": "I don't think, right now, AI is good enough to replace humans for the last five, 10, maybe even 20% of the work to get it from good to great.",
+      "zh": "我认为,就目前而言,AI 还不足以取代人类完成最后 5%、10%,甚至 20% 的工作,即把作品从好提升到伟大的那部分。"
+    },
+    {
+      "timestamp": "13:52",
+      "speaker": "Unknown",
+      "en": "An adjective with nothing behind is just a nicer prompt.",
+      "zh": "一个形容词后面不带任何东西,只是一个更好的提示词。"
+    },
+    {
+      "timestamp": "14:43",
+      "speaker": "Unknown",
+      "en": "There is no auto, and there will be no auto.",
+      "zh": "没有自动模式,也永远不会有自动模式。"
+    },
+    {
+      "timestamp": "14:59",
+      "speaker": "Unknown",
+      "en": "And I think you can work with tools to sharpen your taste and bring out more of your taste.",
+      "zh": "我认为你可以借助工具来磨砺你的品味,并展现出你更多的品味。"
+    },
+    {
+      "timestamp": "15:05",
+      "speaker": "Unknown",
+      "en": "I really do not think it can be lab-grown.",
+      "zh": "但我真的不认为它可以被实验室培育出来。"
+    },
+    {
+      "timestamp": "15:07",
+      "speaker": "Unknown",
+      "en": "I think it is taste, by definition, sort of is contextual, it's cultural, it's scarce, and once everybody replicates the same thing,",
+      "zh": "我认为品味,就其定义而言,是情境化的,是文化性的,是稀缺的,一旦每个人都复制同样的东西,"
+    },
+    {
+      "timestamp": "15:19",
+      "speaker": "Unknown",
+      "en": "It starts to become really muddy, and we don't think of it as taste anymore.",
+      "zh": "它开始变得非常浑浊,我们就不再把它视为品味了。"
+    },
+    {
+      "timestamp": "03:11",
+      "speaker": "Unknown",
+      "en": "Impeccable gives me this shared language of design that everybody can communicate now in.",
+      "zh": "Impeccable 给了我这种共同的设计语言,现在每个人都能用它来沟通。"
+    },
+    {
+      "timestamp": "03:14",
+      "speaker": "Unknown",
+      "en": "But really, these worlds are all colliding, in my opinion.",
+      "zh": "但在我看来,这些世界其实都在相互碰撞。"
+    },
+    {
+      "timestamp": "03:32",
+      "speaker": "Unknown",
+      "en": "I don't know about you, but I think that's starting to collapse very quickly in small and large companies.",
+      "zh": "我不知道你们怎么样,但我认为这在大小公司里都正在快速崩塌。"
+    },
+    {
+      "timestamp": "14:27",
+      "speaker": "Unknown",
+      "en": "The point is to give you a way to steer what you want to end up with.",
+      "zh": "重点是给你一种方式来引导你最终想要得到的东西。"
+    }
+  ],
+  "voice_script": "今天想跟你聊一场只有十五分钟的演讲,讲的人是一位做了二十多年工具的开发者,造了个东西叫 Impeccable。这是一个设计技能包,能装进 Claude Code、Cursor、Copilot 这些编程环境里,目的是让 AI 写代码的时候更有设计感。但这一期真正值得听的,不是这个工具本身,而是讲背后的方法——怎么跟 AI 协作做设计,控制在什么程度才算刚刚好。\n\n先交代一下背景。工程师和设计师这两个角色正在快速融合:设计师在学写代码,工程师在往设计那边走,过去那种产品经理定方向、设计师出稿、评审交接、工程师实现的流程,在大小公司里都在崩塌。真要做设计,眼下只有两个极端可选。一边是在 Figma、Webflow 里亲手抠像素、调边距;另一边是干脆全甩给智能体,说一句\"帮我设计这个\"。演讲者觉得,这中间缺一个还没被充分探索的地带——恰到好处的控制程度,在正确的时机把人插进循环里。\n\n为了说明中间地带的价值,开场放了一个刻意的对比:一个平淡但还算可以的网站,输入一句\"make it bolder\",把它做得更大胆。装了 Impeccable,输出明显更有冲击力;同一个项目、同一句提示词、同样用 GPT 5.5 extra high 档,但不装 Impeccable,差别一眼就能看出来。当然也没吹得那么神,像章节编号这种 AI 垃圾尾巴,有时还是会溜进来。顺带一提,演讲里还调侃了 AI 审美的变迁:2022 年那种紫色渐变已经绝迹,现在前沿模型做出来的是所谓\"Claude 米色\"——Instrument Serif 字体加斜体,被叫做\"算法版优衣库\":不一定难看,但所有东西长一个样。\n\n那为什么不能一步到位呢?这是整场演讲最鲜明的主张:设计没法 one-shot 完成。真正好看又有效的设计,产物必须是被上下文塑造过的——你要做什么、受众是谁,这些都得喂进去,而且必须多轮迭代。设计本来就是混乱的过程,用户有意见,利益相关方也有意见。更要命的是,就算你快速生成一版看起来还行的东西,页面上没有任何人做过任何决定。用原话说,这东西\"也许还算称职,但完全空洞\"。动手之前,你该先问的是:情感领地是什么?这个东西永远不应该给人什么感觉?参考是什么?受众是谁?打个比方,你走进世界上最好的设计工作室,对设计总监说\"给我个品牌设计\",对方点点头就走——这完全讲不通。\n\n既然一步到位不行,人总得有办法把意图传给 AI,这就引出了核心做法:用形容词和动词来引导智能体。\"更大胆\"\"更安静\"\"提炼\"——就是简化,\"打磨\"\"加密\"\"加固\"——意思是确保设计在各种设备、各种响应式场景下都站得住。这里有个关键观察:一个从没碰过设计的工程师和一个设计师,用完全相同的模型和环境做同一个任务,产出差距天壤之别。差在哪?差在语言上。所以整个工具做的事,就是把设计师的语言压缩成一个技能系统。\n\n但\"更大胆\"到底指什么?你直接对 GPT 或 Claude 说\"make it bolder\",它只会随心所欲:发明新颜色、新渐变。在 Impeccable 里,\"更大胆\"的含义被明确定义为:不是渐变、不是玻璃效果、不是霓虹,而是真正的层级、比例、果断的字体排版——不破坏设计系统,又能恰当提升用户注意力的东西。借用 Matt Pocock 的说法,形容词是\"轻量的词\",模型本身对它有某种理解,你要做的是把它注入、翻译到你所在的领域。有一个真实指令特别有意思:让智能体把作品展示给别人,说\"我把这个弄大胆了\",如果别人相信了你,你就失败了。智能体会照着这条自我反思,经常得出\"我这里做得不好\"的结论。\n\n那很多人会问了,能不能干脆做个全自动版?答案很干脆:不行。现在就挂着一个实现自动化的 pull request,会因为违背初衷被关掉。没有 auto,永远不会有。重点不是让 AI 替你干活,而是给你一种方式,引导你最终想要得到的东西。由此带出一个火辣观点——中途还口误说反了又纠正的那种:品味可以被放大,你可以用工具磨砺品味、展现更多品味;但品味无法被实验室培育。因为品味就其定义而言,就是情境化的、文化性的、稀缺的——一旦每个人都复制同样的东西,它就变得浑浊,不再被当作品味。\n\n说完这么多,留一句话给你带走:就目前而言,AI 还不足以取代人类完成最后那 5%、10%,甚至 20% 的工作,也就是把作品从\"好\"推向\"伟大\"的那部分。"
+}

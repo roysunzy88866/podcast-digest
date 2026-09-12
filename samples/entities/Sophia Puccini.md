@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maximillian Piras]] [[Vincent Wendy]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]]
+[[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ruby Thelot":1,"Sophia Du":4,"网络民族志学":1,"响亮的少数派":1,"多元文化":1,"巴尔干化":1,"机械品味":1,"受众捕获":1,"品味":8,"生存风险":2}</script>
+<script type="application/json" class="pd-epn">{"Ruby Thelot":1,"Sophia Du":4,"网络民族志学":1,"响亮的少数派":1,"多元文化":1,"巴尔干化":1,"机械品味":1,"受众捕获":1,"品味":9,"生存风险":2}</script>
 
 <script>
 (function(){

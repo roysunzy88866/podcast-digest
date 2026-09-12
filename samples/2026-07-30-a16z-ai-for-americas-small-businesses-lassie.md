@@ -146,7 +146,7 @@ Frederick 的发现很出人意料:现在的模型在海量数据上训练,体�
 
 - [[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术]]<span class="pd-rz">同公司:Stripe · 同概念:回路中的人类 (human in the loop)、智能体 (agent)</span>
 - [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR]]<span class="pd-rz">同概念:回路中的人类 (human in the loop)、智能体 (agent)</span>
-- [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
+- [[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|不到10人管7个SaaS:让智能体替你做营销的实操系统]]<span class="pd-rz">同概念:回路中的人类 (human in the loop)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

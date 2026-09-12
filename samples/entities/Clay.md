@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Salesforce]] · [[Brian Halligan]] · [[Vishu]] · [[Harry Stebbings]] · [[Lenny]] · [[Claygent]] · [[NVIDIA]] · [[HubSpot]] · [[Sculptor]]
 
-<script type="application/json" class="pd-epn">{"智能体":219,"Salesforce":17,"Brian Halligan":1,"Vishu":1,"Harry Stebbings":15,"Lenny":67,"Claygent":1,"NVIDIA":33,"HubSpot":5,"Sculptor":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":222,"Salesforce":17,"Brian Halligan":1,"Vishu":1,"Harry Stebbings":15,"Lenny":67,"Claygent":1,"NVIDIA":33,"HubSpot":5,"Sculptor":1}</script>
 
 <script>
 (function(){

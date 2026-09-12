@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-10-talks-training-taste-thais-castello-branco-tas",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/sDMGWK4wZ_w.m4a",
+  "duration_sec": 895.459,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 190,
+  "asr": true,
+  "title_en": "Training Taste — Thais Castello Branco, Taste Labs",
+  "podcast": "精选演讲",
+  "date": "2026-09-10",
+  "added": "2026-09-12",
+  "added_at": "2026-09-12T02:19:12.268Z",
+  "speaker_map": {
+    "SPEAKER_00": "Thais Castello Branco"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Thais Castello Branco"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "终结 AI 垃圾内容：Taste Labs 如何度量并对抗 slop",
+  "guest_name": "Thais Castello Branco",
+  "guest_title": "Taste Labs 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

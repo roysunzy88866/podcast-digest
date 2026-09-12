@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]]
+[[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Codex":44,"OpenAI":102,"ChatGPT":59,"Linear":8,"智能体":219,"品味":8,"原型":4,"主观能动性":17,"策展":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Codex":45,"OpenAI":103,"ChatGPT":59,"Linear":8,"智能体":222,"品味":9,"原型":4,"主观能动性":17,"策展":1}</script>
 
 <script>
 (function(){

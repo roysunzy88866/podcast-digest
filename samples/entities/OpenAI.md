@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>102</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>103</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -113,6 +113,7 @@ unlisted: true
 - **[[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]]**(10:36起):本集提到可选添加 OpenAI 的 API 密钥,让社交评论网络工具自动标注团队划分
 - **[[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]]**(06:21起):本集说 OpenAI 用美国芯片训练前沿模型、自研芯片组（Jalapeno）、并已开始不再通过 API 开放前沿模型
 - **[[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]]**(04:14起):本集多次提到：最新模型发布配合 Computer-Use 效果惊人；并被讨论是否可能既知道你的一切、又运营市场、每笔交易抽成，构成信任陷阱。
+- **[[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]]**(13:48起):本集提到 Sam Altman 在全公司会议上称可能放缓 AI 开发节奏——Jason 不信、认为是试探性放风;也提到其数据泄露传闻和允许订阅叠加的决定。
 
 ## ① 提到它的金句
 
@@ -154,7 +155,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*102 集*
+*103 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司
@@ -258,14 +259,15 @@ unlisted: true
 - [[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]] — 作为被讨论公司(提及)
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]] — 作为被讨论公司
 - [[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|《当智能体学会替你操作电脑：聊天即新浏览器》]] — 作为被讨论公司(提及)
+- [[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Cursor]] · [[Google]] · [[ChatGPT]] · [[推理]] · [[NVIDIA]] · [[Lenny]] · [[Codex]] · [[Claude]]
+[[智能体]] · [[Anthropic]] · [[Google]] · [[Cursor]] · [[ChatGPT]] · [[推理]] · [[NVIDIA]] · [[Codex]] · [[Lenny]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":219,"Anthropic":115,"Cursor":55,"Google":38,"ChatGPT":59,"推理":42,"NVIDIA":33,"Lenny":67,"Codex":44,"Claude":55}</script>
+<script type="application/json" class="pd-epn">{"智能体":222,"Anthropic":116,"Google":39,"Cursor":55,"ChatGPT":59,"推理":42,"NVIDIA":33,"Codex":45,"Lenny":67,"Claude":55}</script>
 
 <script>
 (function(){

@@ -1,0 +1,406 @@
+{
+  "episode_id": "2026-09-10-talks-design-at-the-speed-of-adjectives-paul-b",
+  "podcast": "精选演讲",
+  "date": "2026-09-10",
+  "tags": [
+    "AI 编程",
+    "设计",
+    "智能体",
+    "品味",
+    "产品方法"
+  ],
+  "categories": [
+    "AI 编程",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "paul-bakaus",
+      "type": "person",
+      "role": "guest",
+      "name": "Paul Bakaus",
+      "file": "Paul Bakaus",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "impeccable",
+      "type": "company",
+      "role": "company",
+      "name": "Impeccable",
+      "file": "Impeccable",
+      "primary": true,
+      "how_described": "本集主角:一个能把编程 harness 变成更好设计师的设计技能,适用于 Claude Code、GitHub Copilot、Cursor、Codex 等各种 harness,核心是把设计师的语言压缩成形容词与动词构成的技能系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            27.055,
+            34.059
+          ],
+          "quote": "Okay, so this talk, this cold open of this talk will make a lot more sense if you know what impeccable is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            79.096,
+            86.939
+          ],
+          "quote": "So, now, here is the command make it bolder, make the workflow section bolder with impeccable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            89.069,
+            91.009
+          ],
+          "quote": "So this is with Impeccable installed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            118.132,
+            125.753
+          ],
+          "quote": "A lot of people install Impeccable, try it out, and then they ask me, well, I don't know, like, maybe it could be placebo, maybe the model is good enough in itself, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            127.674,
+            137.456
+          ],
+          "quote": "Well, let's compare it to, this is exactly the same project, GPT 5.5 on extra high, same exact prompt without Impeccable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            186.762,
+            190.764
+          ],
+          "quote": "Impeccable gives me this shared language of design that everybody can communicate now in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            611.058,
+            619.843
+          ],
+          "quote": "What it actually means in impeccable, not gradients, not glass, not neon, but actually hierarchy, scale, decisive type.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            631.948,
+            637.93
+          ],
+          "quote": "And this is an actual sentence from the file that is loaded when you say bolder and impeccable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            781.697,
+            791.183
+          ],
+          "quote": "I basically built this command in Impeccable that tries to create something completely over the top, and it was kind of like a half of a joke, maybe?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            862.327,
+            864.088
+          ],
+          "quote": "Just let Impeccable do all the work by itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "编程 harness (harness)",
+      "file": "编程 harness",
+      "primary": true,
+      "how_described": "本集指围绕编程模型的工作环境(如 Claude Code、Cursor、Codex),Impeccable 就是装进这些 harness 里发挥作用的设计技能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            34.78,
+            41.023
+          ],
+          "quote": "But if you don't know what it is, it's a design skill that turns your coding harness into a better designer, and hopefully you into a better designer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            535.052,
+            551.424
+          ],
+          "quote": "And I noticed when seeing two people attempt the exact same task, and one is an engineer who's never really touched design at all, and the other one is a designer, there's a stark difference, even when they use the same model, same harness, everything, in the output that they're getting based on the language that they use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论用形容词和动词引导智能体做设计,强调要给它下具体定义、插入人类自检指令,而不是把它当成能 one-shot 解决问题的黑盒",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            253.787,
+            258.648
+          ],
+          "quote": "And now you're going on the other extreme, which is simply telling your agent, please design this for me or please build this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            405.145,
+            412.33
+          ],
+          "quote": "And wishing it away and just saying, solve this problem for me, agent, will not, unfortunately, solve your problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            491.005,
+            505.237
+          ],
+          "quote": "So my thesis that I make here and what I've been trying to build over the last couple months is a tool that gives you just the amount of control needed to steer your agent in the right direction with adjectives and verbs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            562.964,
+            572.267
+          ],
+          "quote": "And so, for example, you could have like a baseline over here, but then you make it bolder and the agent actually knows what bolder in your context means.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            645.653,
+            653.996
+          ],
+          "quote": "This is something that we actually instruct the agent to do for themselves, and then the agent oftentimes reflects and like, hmm, I don't know.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            835.362,
+            839.884
+          ],
+          "quote": "So you really have to tell the agent what you mean by the word that you're using.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "one-shot",
+      "type": "concept",
+      "role": "concept",
+      "name": "一次性设计 (one-shot)",
+      "file": "一次性设计",
+      "primary": true,
+      "how_described": "本集第一个火辣观点:设计无法 one-shot 完成——好设计需要上下文丰富、多轮迭代,one-shot 产出的页面「也许称职但完全空洞」,因为没人做过任何决定",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            362.339,
+            363.8
+          ],
+          "quote": "You cannot one-shot design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            872.471,
+            874.712
+          ],
+          "quote": "It's never gonna be a tool to one-shot design.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 垃圾 (AI slop)",
+      "file": "AI 垃圾",
+      "primary": true,
+      "how_described": "本集用它形容模型产出的套路化设计:从 2022 年的紫色渐变到如今「Claude 米色」加 Instrument Serif 斜体,被调侃为「算法版优衣库」——所有东西长一个样",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            96.352,
+            104.916
+          ],
+          "quote": "For example, the section numbers that you have there, that's a very typical AI slop tail that GPT loves to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            471.005,
+            479.751
+          ],
+          "quote": "Importantly, on this example, even sort of like the 2026 version of AI Slop, you know, quickly Vibe Coded Pitch, nobody decided anything here.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "品味 (taste)",
+      "file": "品味",
+      "primary": true,
+      "how_described": "本集的结论性观点:品味可以被工具放大(amplified craft),但无法被实验室培育——它本质上是情境化的、文化性的、稀缺的,一旦人人复制就不再被视为品味",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            892.62,
+            894.421
+          ],
+          "quote": "But I think taste cannot be amplified.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            895.322,
+            897.044
+          ],
+          "quote": "Sorry, I think taste can be amplified.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            899.706,
+            904.79
+          ],
+          "quote": "And I think you can work with tools to sharpen your taste and bring out more of your taste.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            907.712,
+            918.14
+          ],
+          "quote": "I think it is taste, by definition, sort of is contextual, it's cultural, it's scarce, and once everybody replicates the same thing,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            919.001,
+            923.263
+          ],
+          "quote": "It starts to become really muddy, and we don't think of it as taste anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            923.283,
+            931.187
+          ],
+          "quote": "That's my opinion, and I know this is like a hotly contested topic, but I'm not trying to solve taste with my tools.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "adjectives",
+      "type": "concept",
+      "role": "concept",
+      "name": "形容词引导设计 (adjectives)",
+      "file": "形容词引导设计",
+      "primary": true,
+      "how_described": "本集核心方法:用「更大胆」「更安静」「提炼」「打磨」「加固」这类轻量词引导智能体,但每个形容词背后必须有明确定义,否则只是「一个更好的提示词」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            156.885,
+            164.23
+          ],
+          "quote": "So designing at the speed of adjectives, and to get the elephant out of the room, they are not just adjectives, they are also verbs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            165.811,
+            167.072
+          ],
+          "quote": "But some of them are adjectives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            491.005,
+            505.237
+          ],
+          "quote": "So my thesis that I make here and what I've been trying to build over the last couple months is a tool that gives you just the amount of control needed to steer your agent in the right direction with adjectives and verbs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            759.375,
+            766.44
+          ],
+          "quote": "You go over to crafting, to iterating with all these verbs and adjectives, and then to the actual hardened and polished phase.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -139,7 +139,7 @@ Saroosh 收尾，指出前面的飞轮有个瓶颈：「用我们的数据基础
 
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:智能体 (agent)、测试框架 (harness)</span>
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构]]<span class="pd-rz">同概念:测试框架 (harness)、评估 (eval)</span>
-- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Claude、Codex · 同概念:智能体 (agent)</span>
+- [[2026-09-10-talks-design-at-the-speed-of-adjectives-paul-b|用形容词驾驭 AI 设计:Impeccable 的控制哲学]]<span class="pd-rz">同概念:智能体 (agent)、测试框架 (harness)</span>
 
 </div>
 </div>

@@ -1,0 +1,517 @@
+{
+  "episode_id": "2026-09-10-talks-training-taste-thais-castello-branco-tas",
+  "podcast": "精选演讲",
+  "date": "2026-09-10",
+  "tags": [
+    "AI slop",
+    "设计",
+    "品味与判断力",
+    "智能体",
+    "LLM-as-a-judge"
+  ],
+  "categories": [
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "thais-castello-branco",
+      "type": "person",
+      "role": "guest",
+      "name": "Thais Castello Branco",
+      "file": "Thais Castello Branco",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "taste-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Taste Labs",
+      "file": "Taste Labs",
+      "primary": true,
+      "how_described": "Thais 创立的公司，几周前从 Stout 出来，使命是解码主观领域、终结 AI slop，与 Frontier Labs 合作评估模型并帮助应用层公司产出更好的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.056,
+            19.198
+          ],
+          "quote": "I'm the founder of Taste Labs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stout",
+      "type": "company",
+      "role": "company",
+      "name": "Stout",
+      "file": "Stout",
+      "primary": false,
+      "how_described": "本集只提一句：Taste Labs 几周前从它孵化出来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            19.338,
+            21.9
+          ],
+          "quote": "For those of you who don't know us, we came out of Stout a few weeks ago.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI slop（AI 垃圾内容） (slop)",
+      "file": "AI slop（AI 垃圾内容）",
+      "primary": true,
+      "how_described": "本集的核心敌人：AI 生成内容重复、缺乏契合度、低意图的质感；Thais 认为它比「出色」更容易定义，且被探针证明是可量化的真实现象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            22.561,
+            26.144
+          ],
+          "quote": "And our whole mission is basically, how do we end AI slop?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            28.106,
+            34.031
+          ],
+          "quote": "And so we really believe that to solve this problem of slop, we have to decode subjective domains.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            124.492,
+            127.473
+          ],
+          "quote": "How do we avoid these patterns of slop, which we'll talk about a lot today?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            200.638,
+            202.239
+          ],
+          "quote": "And slop is kind of the opposite of that, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            202.299,
+            208.52
+          ],
+          "quote": "I think it is hard to define what is great sometimes, but I think it's pretty easy to define what is slop in the sense that most people would agree.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            268.193,
+            274.715
+          ],
+          "quote": "I think it would be a bad case scenario for us to just be like, okay, the way to fix slop is for everyone to have taste, because I don't think that's necessarily realistic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            289.741,
+            292.303
+          ],
+          "quote": "So yeah, I think this phenomenon of slop, by the way, is not new.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            293.243,
+            297.986
+          ],
+          "quote": "If you were in the internet as social media emerged, you probably saw a lot of slop before that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            344.33,
+            349.235
+          ],
+          "quote": "And so this lack of fit and lack of understanding of context is actually a huge problem that leads to slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            387.898,
+            394.583
+          ],
+          "quote": "So you'll go on a little bit of a research journey with me here now, but we basically wanted to figure out, can we measure slop?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            485.944,
+            495.036
+          ],
+          "quote": "And for all these slop sites, we identified, we started identifying like what are the probes that basically mean this site is very likely to be AI slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            503.647,
+            504.388
+          ],
+          "quote": "And predicts slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            509.651,
+            518.776
+          ],
+          "quote": "This performed better, by the way, than most LLM-as-a-judge methods of asking an LLM to judge if that is great human quality versus AI-generated slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            519.657,
+            528.702
+          ],
+          "quote": "And I think it kind of shows this pattern that we see in AI really being an actual quantitative thing that we can see in slop, which I find really cool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            567.547,
+            571.148
+          ],
+          "quote": "So yeah, how do we fight slop, my enemy?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            572.068,
+            577.309
+          ],
+          "quote": "And by the way, I think there's a lot of conversation going around, how do you fight slop at the model layer?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            617.988,
+            631.195
+          ],
+          "quote": "How can we create a system that almost becomes an inspiration machine for your agent so that it can produce something that's actually out of distribution instead of something that is in that same average and kind of mean that we're seeing happen with like the slop sites?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            719.265,
+            725.587
+          ],
+          "quote": "Like how we can actually use this to even become a gate for slop and not let your agent ship slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            790.332,
+            805.467
+          ],
+          "quote": "of almost like pre-created brand systems so that if they want something that feels dreamy, why not retrieve a dreamy brand system that already has been thought out to be cohesive instead of doing like a generative approach the moment of that might end up not so great or might end up again in those pillars of slop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论智能体在应用层容易坍缩到均值、产出 slop；解法是给智能体配灵感机器、品牌组件遵循和把探针当闸门不让它交付 slop。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            617.988,
+            631.195
+          ],
+          "quote": "How can we create a system that almost becomes an inspiration machine for your agent so that it can produce something that's actually out of distribution instead of something that is in that same average and kind of mean that we're seeing happen with like the slop sites?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            719.265,
+            725.587
+          ],
+          "quote": "Like how we can actually use this to even become a gate for slop and not let your agent ship slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            734.07,
+            742.203
+          ],
+          "quote": "And essentially what it does is it can take, let's say, a brand URL and extract this into very specific components that are good for an agent to follow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            742.523,
+            751.065
+          ],
+          "quote": "So basically, how do we turn something as fuzzy as a brand into something so structured that it becomes easy for your agent to follow that, but also for you to judge against it, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            755.207,
+            763.349
+          ],
+          "quote": "So yes, this goes and helps your agent to produce something better, but how can we also add a way for you to judge, okay, is the agent actually staying on track?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            776.859,
+            783.205
+          ],
+          "quote": "But let's say you have an agent or you have an app, and the person that is using your app actually doesn't have a brand.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference-time",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理时 (inference time)",
+      "file": "推理时",
+      "primary": true,
+      "how_described": "本集认为推理时（模型实际响应用户那一刻）的问题同等甚至比模型层更重要，因为理解上下文和意图的来回往复恰恰发生在那一刻。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            584.71,
+            588.851
+          ],
+          "quote": "But I actually think this problem of inference time is equally, if not even more important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            592.592,
+            597.193
+          ],
+          "quote": "And this kind of back and forth of how do you understand this context and intent happens at the moment of inference time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM-as-a-judge",
+      "file": "LLM-as-a-judge",
+      "primary": true,
+      "how_described": "本集说让一个大模型直接判断内容是优质人类作品还是 AI 垃圾的方法，其表现不如他们组合多个探针的做法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            509.651,
+            518.776
+          ],
+          "quote": "This performed better, by the way, than most LLM-as-a-judge methods of asking an LLM to judge if that is great human quality versus AI-generated slop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "type": "concept",
+      "role": "concept",
+      "name": "判断力 (judgment)",
+      "file": "判断力",
+      "primary": true,
+      "how_described": "本集认为生产成本归零后，变得昂贵、比以往任何时候都重要的是判断力——辨别什么是对的、把问题拆解到能理解并构建解决方案的能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            135.455,
+            143.557
+          ],
+          "quote": "So there's lots of things that actually need to be solved as context or judgment or verification at the app layer, which is why we kind of work across both.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            533.345,
+            546.074
+          ],
+          "quote": "And so there's a few, I think I mentioned this before, but as the cost of production basically goes to zero, I think the thing that becomes expensive and matters more than ever is judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            546.194,
+            548.435
+          ],
+          "quote": "I don't even want to use the word taste here, is judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            555.38,
+            564.559
+          ],
+          "quote": "And so, yes, there's this side of judgment that is human judgment that I actually think is more valuable than ever, but there's also this side of how do we build the right tools and systems to fix pieces of this problem, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            714.664,
+            716.224
+          ],
+          "quote": "And then same with intent and judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            751.085,
+            754.646
+          ],
+          "quote": "Because I think the piece that we can't forget here is this judgment and verification.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "probes",
+      "type": "concept",
+      "role": "concept",
+      "name": "探针 (probes)",
+      "file": "探针",
+      "primary": true,
+      "how_described": "本集介绍的模式挖掘后训练出的「婴儿分类器」，每个只识别一个特征（颜色、排印、布局、受众），组合起来能高置信度预测一个网站是不是 AI slop。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            458.077,
+            462.421
+          ],
+          "quote": "So we built this, I call this probes, but basically we did two things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            477.295,
+            479.678
+          ],
+          "quote": "And then how do we train up these probes?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            485.944,
+            495.036
+          ],
+          "quote": "And for all these slop sites, we identified, we started identifying like what are the probes that basically mean this site is very likely to be AI slop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "creativity-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Creativity API",
+      "file": "Creativity API",
+      "primary": true,
+      "how_described": "本集暂定名的产品方向：做智能体的灵感机器，有意产出分布之外的东西——创造力不是调高温度，而是懂规则后刻意打破其中几条。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            610.124,
+            617.567
+          ],
+          "quote": "But I think, for example, for something like repetition, one of the things that we're working on is, I've nicknamed it, I don't know if that's going to be the official name, but like the Creativity API.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "brand-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "brand API",
+      "file": "brand API",
+      "primary": true,
+      "how_described": "本集介绍的第一个公开发布的产品：输入品牌 URL 提取成结构化组件供智能体遵循、人可对照判断；还计划建预制品牌系统的索引供无品牌用户检索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            727.12,
+            729.844
+          ],
+          "quote": "So the brand API is the first product that we're releasing to the public.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

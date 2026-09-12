@@ -56,7 +56,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[物理 AI]] · [[Tesla]] · [[Lenny]] · [[强化学习]] · [[DoorDash]] · [[自主性]] · [[World Labs]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"智能体":219,"ChatGPT":59,"物理 AI":7,"Tesla":8,"Lenny":67,"强化学习":16,"DoorDash":6,"自主性":7,"World Labs":4,"Anthropic":115}</script>
+<script type="application/json" class="pd-epn">{"智能体":222,"ChatGPT":59,"物理 AI":7,"Tesla":8,"Lenny":67,"强化学习":16,"DoorDash":6,"自主性":7,"World Labs":4,"Anthropic":116}</script>
 
 <script>
 (function(){

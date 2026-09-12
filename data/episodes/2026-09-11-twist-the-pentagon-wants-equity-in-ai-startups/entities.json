@@ -1,0 +1,971 @@
+{
+  "episode_id": "2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups",
+  "podcast": "This Week in Startups",
+  "date": "2026-09-11",
+  "tags": [
+    "智能体",
+    "AI 编程",
+    "创业与行业",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:接管「发现新功能→自动做营销」整条流水线的自动化劳动力——监控代码库、生成宣传视频和更新邮件、审查广告表现,纠错方式和管真人一样,大约三四次反馈后就能放手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            136.586,
+            139.487
+          ],
+          "quote": "It was an FBI agent with a machine gun.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2086.985,
+            2092.415
+          ],
+          "quote": "So, you know, if I want to query my photos or if I want to have an agent",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2093.516,
+            2097.801
+          ],
+          "quote": "The agent is running on local hardware, only goes up to the cloud, encrypted.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 652,
+          "t": [
+            2432.39,
+            2436.355
+          ],
+          "quote": "I actually asked my agent to explain it for you so you can fully see it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 659,
+          "t": [
+            2475.257,
+            2481.162
+          ],
+          "quote": "The agent is going to pick the most relevant and high value feature, especially the customer facing features.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2555.583,
+            2568.875
+          ],
+          "quote": "So you have affiliates, people reselling your software, and here you have it doing an update email to all of them, and this agent is doing what with the data, and what is the outcome you're hoping to have?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2569.185,
+            2571.646
+          ],
+          "quote": "This agent is going to work pretty much the same.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 711,
+          "t": [
+            2668.658,
+            2673.443
+          ],
+          "quote": "Like what's the process there and how long does it take until the agent is just ready to knock it out itself?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 713,
+          "t": [
+            2678.458,
+            2684.441
+          ],
+          "quote": "People have this assumption that it would work very differently with an AI agent, but it's the same.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 732,
+          "t": [
+            2746.341,
+            2750.062
+          ],
+          "quote": "You ask about how I would do this without the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 777,
+          "t": [
+            2958.031,
+            2962.796
+          ],
+          "quote": "But I think that's because you are not using agent as their full potential.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 780,
+          "t": [
+            2972.018,
+            2983.947
+          ],
+          "quote": "All the marketing channel that you are using and the agent themselves would come up with very, very interesting use cases that you can just run by yourself on any agent platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3017.44,
+            3040.179
+          ],
+          "quote": "And to create this workflow where the agent would review the ads performance every week for me, and it would give the exact, because I'm a very super noob with Google Ads, and so it would give the exact step-by-step, click on this, click on this, click on this, on how to update the ads to do things properly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 792,
+          "t": [
+            3045.623,
+            3064.694
+          ],
+          "quote": "What's interesting about what you're doing, Lon, what he's doing is he's now taking what he would pay consultants and it would take him six months to get in a groove with them and just saying, well, I'll just upfront that with five hours of, you know, AI agent testing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 795,
+          "t": [
+            3082.497,
+            3091.319
+          ],
+          "quote": "And you are, if you're running a startup and you're not building agent technology like this, and you don't have a dashboard, imagine if your competitor does.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "squad",
+      "type": "company",
+      "role": "company",
+      "name": "Squad",
+      "file": "Squad",
+      "primary": true,
+      "how_described": "本集说它是 Tibo 的新产品,一个智能体平台,可以叠加多个 AI 订阅互相兜底、搭建自跑的工作流并看到所有活动日志,理想客户是月收入 1K-20K 美元、运营多个副业的 web 创始人(squad.so)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 648,
+          "t": [
+            2406.406,
+            2411.028
+          ],
+          "quote": "It's called Squad and that's an agentic platform, I guess like everybody.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2411.989,
+            2419.613
+          ],
+          "quote": "And today I'm going to try to share a few workflows on Squad that you can just apply.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 768,
+          "t": [
+            2919.934,
+            2928.316
+          ],
+          "quote": "But you're stacking them and your system, and your system is called Squad, that's your product to do all this, then stacks them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 822,
+          "t": [
+            3183.48,
+            3185.901
+          ],
+          "quote": "And the product is Squad.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 824,
+          "t": [
+            3191.264,
+            3192.585
+          ],
+          "quote": "But Squad's your new product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 826,
+          "t": [
+            3194.586,
+            3203.131
+          ],
+          "quote": "But Squad is the product, like GrokBot, or I guess Claude Agents or OpenAI's product, Codex.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 832,
+          "t": [
+            3212.016,
+            3218.579
+          ],
+          "quote": "So who are you putting your squad, who's your ideal customer profile for squad, I guess?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 841,
+          "t": [
+            3254.067,
+            3257.729
+          ],
+          "quote": "So about Squad, squad.so, very easy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路 (human in the loop)",
+      "file": "人在回路",
+      "primary": true,
+      "how_described": "本集把它说成智能体工作流的信任节奏:邮件工作流前八周人工审读后才发,之后完全直接发;前两次给反馈、第三四次智能体就能自己搞定。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 701,
+          "t": [
+            2651.842,
+            2654.505
+          ],
+          "quote": "So eight weeks, human in the loop, but now you feel confident enough.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "stacking",
+      "type": "concept",
+      "role": "concept",
+      "name": "订阅叠加 (stacking)",
+      "file": "订阅叠加",
+      "primary": true,
+      "how_described": "本集说它是跑重型智能体工作流的必要做法:这些工作流烧 token 极凶,单一每月 200 美元订阅跑不动,需要同时挂多份 Codex/Grok/Claude Code 订阅互相兜底,且在 OpenAI 放开后现已完全合规。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 753,
+          "t": [
+            2839.535,
+            2841.417
+          ],
+          "quote": "Stacking your AI subscriptions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 768,
+          "t": [
+            2919.934,
+            2928.316
+          ],
+          "quote": "But you're stacking them and your system, and your system is called Squad, that's your product to do all this, then stacks them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 774,
+          "t": [
+            2949.624,
+            2952.365
+          ],
+          "quote": "But when I share on X that I'm stacking,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": true,
+      "how_described": "本集说它发布了首款折叠屏 iPhone Duo(1999 美元起、展开 7.6 英寸),新 CEO John Ternus 主持首场发布会,主持人评价偏冷静:成不成就看双屏价值够不够大,并期待 Ternus 时代全力做健康、交通和本地 AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.191,
+            5.434
+          ],
+          "quote": "Apple has launched the $1,999 iPhone Duo.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2,
+          "t": [
+            9.337,
+            13.539
+          ],
+          "quote": "Apple took an existing product category that was very popular for a very long time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1334.926,
+            1336.647
+          ],
+          "quote": "Apple has launched the $1,999 iPhone Duo.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1342.569,
+            1347.19
+          ],
+          "quote": "Of course, John Turnus took over from Tim Cook as the new CEO of Apple on September 1st.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1352.613,
+            1353.913
+          ],
+          "quote": "It's Apple's first foldable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1449.18,
+            1456.564
+          ],
+          "quote": "And this is another instance where Apple took an existing product category that was very popular for a very long time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1480.986,
+            1488.09
+          ],
+          "quote": "And then the software doesn't seem to leverage it, but Apple has a way of inspiring people to make these kinds of software.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1597.518,
+            1603.82
+          ],
+          "quote": "It's Siri, scroll down a little bit, Siri, the all new dedicated Siri app brings together rich conversations across a user's Apple product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 521,
+          "t": [
+            1929.619,
+            1938.286
+          ],
+          "quote": "I think with all Apple, with new Apple products, and this is like, this is a new product category, to be honest, I need to put it in my hands.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 529,
+          "t": [
+            1972.075,
+            1981.223
+          ],
+          "quote": "I know other people make these kind of things, but I think they should make an Apple Watch that's kind of like the Whoop and, you know, that is like less like a watch and more just like dedicated.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2011.026,
+            2017.73
+          ],
+          "quote": "I would rather have like an Apple suite of high res speakers that were easier to use.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2019.231,
+            2023.113
+          ],
+          "quote": "I would rather have an Apple TV instead of a Samsung or a Sony or whatever I have.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2027.255,
+            2030.657
+          ],
+          "quote": "I'm sure Apple would improve on the Fire TV model, yeah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2032.938,
+            2040.241
+          ],
+          "quote": "Instead of, would you pay $1,000 for an Apple flat panel TV instead of $500 for the junkie version?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2043.922,
+            2045.142
+          ],
+          "quote": "I think it's Apple TV.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 947,
+          "t": [
+            3648.481,
+            3650.022
+          ],
+          "quote": "It's on Apple TV+.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "foldable",
+      "type": "concept",
+      "role": "concept",
+      "name": "折叠屏 (foldable)",
+      "file": "折叠屏",
+      "primary": true,
+      "how_described": "本集把它说成一个已存在五六年的品类,Apple 只是重新发明了它;主持人认为现有折叠屏太厚、展开使用场景不多,双屏价值(如 Slack 频道+讨论串、视频通话+共享浏览器)是成败关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 350,
+          "t": [
+            1340.948,
+            1342.069
+          ],
+          "quote": "It is foldable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1352.613,
+            1353.913
+          ],
+          "quote": "It's Apple's first foldable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1391.112,
+            1396.195
+          ],
+          "quote": "Are you going to rush out and get a double-sided foldable iPhone?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1396.275,
+            1406.159
+          ],
+          "quote": "The foldable for me, this did not result in me using the phone that much because I had the Pixel Fold Pro 9 or whatever.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1435.452,
+            1438.754
+          ],
+          "quote": "I initially was like, I'm never gonna do a foldable again.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1466.197,
+            1468.598
+          ],
+          "quote": "The problem I have with the foldable I have is it's just too thick.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "fluidstack",
+      "type": "company",
+      "role": "company",
+      "name": "FluidStack",
+      "file": "FluidStack",
+      "primary": true,
+      "how_described": "本集说它是五角大楼正洽谈出借 50 亿美元用于 AI 基础设施供应链的初创公司,Jason 强烈反对政府当风投,并对比 Google 担保其租赁换来潜在 14% 股权认股权证的做法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            567.508,
+            574.293
+          ],
+          "quote": "The Pentagon is in talks to lend FluidStack $5 billion for AI infrastructure, Jason.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            579.737,
+            583.04
+          ],
+          "quote": "FluidStack being advised on that loan application by Erebor Bank.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 162,
+          "t": [
+            588.541,
+            604.386
+          ],
+          "quote": "The money not earmarked for building a new AI data center, it's meant to shore up the U.S. supply chain and manufacturing capacities behind the components that go into making data center lands just days after FluidStack closed a $1.5 billion round led by- Wait a second.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            875.787,
+            881.27
+          ],
+          "quote": "Like the Pentagon is giving $5 billion to FluidStack, is my understanding of it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            979.03,
+            981.831
+          ],
+          "quote": "And why can't FluidStack just get a loan?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            997.44,
+            999.442
+          ],
+          "quote": "FluidStack does have similar structures.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1000.262,
+            1008.648
+          ],
+          "quote": "Google, for example, hones a potential 14% equity stake in exchange for guaranteeing FluidStack lease obligations on some of their other data center campuses.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1017.577,
+            1026.548
+          ],
+          "quote": "Google holds warrants for a potential 14% equity stake in exchange for guaranteeing FluidStack lease obligations on key data center campuses.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1192.968,
+            1196.571
+          ],
+          "quote": "When you put your thumb on the scale, like what is Fluidstack's competitors now going to do?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集提到它为 FluidStack 担保部分数据中心租赁义务、换取潜在 14% 股权的认股权证,被 Jason 用来说明政府不擅长精明谈判。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 260,
+          "t": [
+            1000.262,
+            1008.648
+          ],
+          "quote": "Google, for example, hones a potential 14% equity stake in exchange for guaranteeing FluidStack lease obligations on some of their other data center campuses.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1011.971,
+            1013.512
+          ],
+          "quote": "So Google- Yes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1017.577,
+            1026.548
+          ],
+          "quote": "Google holds warrants for a potential 14% equity stake in exchange for guaranteeing FluidStack lease obligations on key data center campuses.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1029.411,
+            1033.692
+          ],
+          "quote": "So the U.S. government doesn't get 14%, but Google let us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1057.479,
+            1065.002
+          ],
+          "quote": "The government's not good at negotiating and being a sharp-elbowed venture capitalist or a sharp corporate development office like Google is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1065.042,
+            1067.643
+          ],
+          "quote": "Google knows they can extract warrants.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 781,
+          "t": [
+            2983.967,
+            2999.038
+          ],
+          "quote": "So step one for a founder is to get everything authenticated, your Google ad account, your Facebook meta ad account, your affiliate account if you're using some third party, and then it eventually figures out",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 784,
+          "t": [
+            3002.322,
+            3009.991
+          ],
+          "quote": "I think you mentioned Google Ads, but I was not super happy about the person working on Google for us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 785,
+          "t": [
+            3010.131,
+            3011.933
+          ],
+          "quote": "Like it was managing Google Ads for us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3017.44,
+            3040.179
+          ],
+          "quote": "And to create this workflow where the agent would review the ads performance every week for me, and it would give the exact, because I'm a very super noob with Google Ads, and so it would give the exact step-by-step, click on this, click on this, click on this, on how to update the ads to do things properly.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集说它是 Tibo 在 Squad 里叠加的订阅之一,并强调「如果只是埋头给它写提示词,你每天都会被绑在电脑前」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 650,
+          "t": [
+            2420.173,
+            2425.801
+          ],
+          "quote": "with Grogbots, with Claude Code or anything that's where you run your agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 751,
+          "t": [
+            2822.065,
+            2829.149
+          ],
+          "quote": "It's like, there's no way you can run this on a 200 per month subscription with Codex or Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 755,
+          "t": [
+            2844.579,
+            2848.042
+          ],
+          "quote": "I even have a Grok one, a Claude Code one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 810,
+          "t": [
+            3131.217,
+            3134.74
+          ],
+          "quote": "You cannot just get stuck into prompting Claude Code.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集说它是 Tibo 在 Squad 里同时挂多个订阅的 AI 编程服务之一,用于工作流互相兜底。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 751,
+          "t": [
+            2822.065,
+            2829.149
+          ],
+          "quote": "It's like, there's no way you can run this on a 200 per month subscription with Codex or Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 826,
+          "t": [
+            3194.586,
+            3203.131
+          ],
+          "quote": "But Squad is the product, like GrokBot, or I guess Claude Agents or OpenAI's product, Codex.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 827,
+          "t": [
+            3203.211,
+            3204.092
+          ],
+          "quote": "No, not Codex.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": false,
+      "how_described": "本集说智能体工作流烧 token 极凶,有 YouTube 博主估算 200 美元订阅相当于每月 1.5 万美元的 API token 用量,公司等于在价格倾销。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            661.126,
+            669.431
+          ],
+          "quote": "Character AI runs over a billion queries every single day on DigitalOcean, and they cut their cost per token in half while doing so.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 750,
+          "t": [
+            2817.923,
+            2821.825
+          ],
+          "quote": "Like, if you run all these, it's gonna burn so much token.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 820,
+          "t": [
+            3167.772,
+            3173.715
+          ],
+          "quote": "And when something is wrong, it might be something about an outdated token or outdated API key.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 Sam Altman 在全公司会议上称可能放缓 AI 开发节奏——Jason 不信、认为是试探性放风;也提到其数据泄露传闻和允许订阅叠加的决定。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            828.73,
+            834.274
+          ],
+          "quote": "If we started owning as a country shares in OpenAI or Grok or SpaceX or...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 216,
+          "t": [
+            843.817,
+            850.518
+          ],
+          "quote": "And if we don't give them the contracts, well, why did we give the contract to OpenAI versus Anthropic if we own 5% of one?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2097.841,
+            2110.757
+          ],
+          "quote": "And with all this data leaking happening at OpenAI, allegedly, and Anthropic, and all those concerns about sovereign AI, I would love to have my iCloud include a $20 subscription to their open source.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2139.924,
+            2148.85
+          ],
+          "quote": "You know, the other story that didn't come up was this story of Sam Altman telling the OpenAI employees that startups are slowing cutting edge AI development.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2211.528,
+            2218.15
+          ],
+          "quote": "In a company-wide meeting this week, Altman told employees that OpenAI could potentially pace its AI development-",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 772,
+          "t": [
+            2935.039,
+            2945.203
+          ],
+          "quote": "It was at one point, but since OpenAI allowed it, Anthropic had to revert their decision and it's now allowed again.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 826,
+          "t": [
+            3194.586,
+            3203.131
+          ],
+          "quote": "But Squad is the product, like GrokBot, or I guess Claude Agents or OpenAI's product, Codex.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到它在 OpenAI 允许订阅叠加后撤回了禁令,以及其数据泄露传闻强化了本地加密 AI 的诉求。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            843.817,
+            850.518
+          ],
+          "quote": "And if we don't give them the contracts, well, why did we give the contract to OpenAI versus Anthropic if we own 5% of one?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2097.841,
+            2110.757
+          ],
+          "quote": "And with all this data leaking happening at OpenAI, allegedly, and Anthropic, and all those concerns about sovereign AI, I would love to have my iCloud include a $20 subscription to their open source.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 772,
+          "t": [
+            2935.039,
+            2945.203
+          ],
+          "quote": "It was at one point, but since OpenAI allowed it, Anthropic had to revert their decision and it's now allowed again.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "TMaker",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

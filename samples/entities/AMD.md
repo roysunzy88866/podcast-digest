@@ -33,7 +33,7 @@ unlisted: true
 
 [[NVIDIA]] · [[GPU]] · [[Condi Rice]] · [[Gavin Baker]] · [[Jensen Huang]] · [[David George]] · [[Parallel]] · [[Google]] · [[深度学习]] · [[TPU]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":33,"GPU":16,"Condi Rice":1,"Gavin Baker":1,"Jensen Huang":3,"David George":3,"Parallel":5,"Google":38,"深度学习":3,"TPU":3}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":33,"GPU":16,"Condi Rice":1,"Gavin Baker":1,"Jensen Huang":3,"David George":3,"Parallel":5,"Google":39,"深度学习":3,"TPU":3}</script>
 
 <script>
 (function(){

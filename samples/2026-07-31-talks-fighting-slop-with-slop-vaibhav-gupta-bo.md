@@ -169,8 +169,8 @@ AI 写代码碰到错误，最常见的套路是套一层 try-catch，再套一�
 **换个口味**
 
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:CI/CD、智能体 (agent)</span>
+- [[2026-09-10-talks-training-taste-thais-castello-branco-tas|终结 AI 垃圾内容：Taste Labs 如何度量并对抗 slop]]<span class="pd-rz">同概念:劣质代码 (slop)、智能体 (agent)</span>
 - [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史]]<span class="pd-rz">同公司:Claude、Codex · 同概念:智能体 (agent)</span>
-- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Claude、Codex · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

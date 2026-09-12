@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maximillian Piras]] [[Vincent Wendy]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]]
+[[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Peter Deng":1,"ChatGPT":59,"Facebook":11,"Uber":8,"Instagram":4,"OpenAI":102,"Copilot":8,"Cursor":55,"Windsurf":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Peter Deng":1,"ChatGPT":59,"Facebook":11,"Uber":8,"Instagram":4,"OpenAI":103,"Copilot":8,"Cursor":55,"Windsurf":4}</script>
 
 <script>
 (function(){

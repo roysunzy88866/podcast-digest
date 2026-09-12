@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"数据中心":9,"token":17,"GPU":16,"推理":42,"商业地产":1,"前沿模型":15,"harness":27,"预训练":6,"后训练":20,"AGI":20}</script>
+<script type="application/json" class="pd-epn">{"数据中心":9,"token":18,"GPU":16,"推理":42,"商业地产":1,"前沿模型":15,"harness":28,"预训练":6,"后训练":20,"AGI":20}</script>
 
 <script>
 (function(){

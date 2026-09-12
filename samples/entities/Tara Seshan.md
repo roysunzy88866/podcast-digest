@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maximillian Piras]] [[Vincent Wendy]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Susan Kare]] [[Elaina O'Mahoney]] [[Srini Raghavan]]
+[[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Susan Kare]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"OpenAI":102,"Codex":44,"Work":1,"ChatGPT":59,"智能体":219,"知识工作":2,"Sites":1,"Stripe":29,"写作即思考":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"OpenAI":103,"Codex":45,"Work":1,"ChatGPT":59,"智能体":222,"知识工作":2,"Sites":1,"Stripe":29,"写作即思考":1}</script>
 
 <script>
 (function(){

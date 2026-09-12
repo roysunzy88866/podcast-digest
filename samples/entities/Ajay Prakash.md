@@ -33,7 +33,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]] [[Casey Moratori]]
+[[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]]
 
 </div>
 

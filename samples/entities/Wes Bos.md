@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]]
+[[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"生成式 UI":2,"vibe coding":31,"智能体":219,"迭代循环":1,"LLM":31,"本地模型":3,"个人品牌":1,"简报":2,"上下文":15,"Cursor":55}</script>
+<script type="application/json" class="pd-epn">{"生成式 UI":2,"vibe coding":31,"智能体":222,"迭代循环":1,"LLM":31,"本地模型":3,"个人品牌":1,"简报":2,"上下文":15,"Cursor":55}</script>
 
 <script>
 (function(){

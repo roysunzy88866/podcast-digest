@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maximillian Piras]] [[Vincent Wendy]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Susan Kare]] [[Elaina O'Mahoney]]
+[[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bumble":1,"滑动":1,"AI":16,"AI 助手":2,"推荐引擎":1,"付费用户":1,"创始人模式":2,"Apple":16,"真实性":2,"交互模型":1}</script>
+<script type="application/json" class="pd-epn">{"Bumble":1,"滑动":1,"AI":16,"AI 助手":2,"推荐引擎":1,"付费用户":1,"创始人模式":2,"Apple":17,"真实性":2,"交互模型":1}</script>
 
 <script>
 (function(){

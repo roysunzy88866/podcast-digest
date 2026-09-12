@@ -25,7 +25,7 @@ unlisted: true
 
 [[Daniel Blum]] · [[Claire Vo]] · [[Co-work]] · [[Claude Code]] · [[Codex]] · [[ChatGPT]] · [[Notion]] · [[Slack]] · [[Whisper]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Daniel Blum":1,"Claire Vo":3,"Co-work":3,"Claude Code":55,"Codex":44,"ChatGPT":59,"Notion":12,"Slack":25,"Whisper":2,"Cursor":55}</script>
+<script type="application/json" class="pd-epn">{"Daniel Blum":1,"Claire Vo":3,"Co-work":3,"Claude Code":56,"Codex":45,"ChatGPT":59,"Notion":12,"Slack":25,"Whisper":2,"Cursor":55}</script>
 
 <script>
 (function(){

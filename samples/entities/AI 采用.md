@@ -25,7 +25,7 @@ unlisted: true
 
 [[Robert Lucero]] · [[Brian Houck]] · [[Okta]] · [[智能体]] · [[沙箱]] · [[护栏]] · [[身份]] · [[非确定性]] · [[服务账号]] · [[仓库 AI 就绪度]]
 
-<script type="application/json" class="pd-epn">{"Robert Lucero":1,"Brian Houck":1,"Okta":1,"智能体":219,"沙箱":41,"护栏":43,"身份":3,"非确定性":1,"服务账号":1,"仓库 AI 就绪度":1}</script>
+<script type="application/json" class="pd-epn">{"Robert Lucero":1,"Brian Houck":1,"Okta":1,"智能体":222,"沙箱":41,"护栏":43,"身份":3,"非确定性":1,"服务账号":1,"仓库 AI 就绪度":1}</script>
 
 <script>
 (function(){

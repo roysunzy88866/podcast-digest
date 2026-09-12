@@ -1,0 +1,1522 @@
+[
+ {
+  "seg": 0,
+  "start": 13.453,
+  "end": 14.194,
+  "speaker": "Unknown",
+  "en": "OK, amazing.",
+  "zh": "好，太棒了。"
+ },
+ {
+  "seg": 1,
+  "start": 15.094,
+  "end": 15.955,
+  "speaker": "Unknown",
+  "en": "It's great to meet everyone.",
+  "zh": "很高兴见到大家。"
+ },
+ {
+  "seg": 2,
+  "start": 16.155,
+  "end": 16.736,
+  "speaker": "Unknown",
+  "en": "I'm Thais.",
+  "zh": "我是 Thais。"
+ },
+ {
+  "seg": 3,
+  "start": 17.056,
+  "end": 19.198,
+  "speaker": "Unknown",
+  "en": "I'm the founder of Taste Labs.",
+  "zh": "我是 Taste Labs 的创始人。"
+ },
+ {
+  "seg": 4,
+  "start": 19.338,
+  "end": 21.9,
+  "speaker": "Unknown",
+  "en": "For those of you who don't know us, we came out of Stout a few weeks ago.",
+  "zh": "对于不了解我们的朋友，我们几周前从 Stout 出来。"
+ },
+ {
+  "seg": 5,
+  "start": 22.561,
+  "end": 26.144,
+  "speaker": "Unknown",
+  "en": "And our whole mission is basically, how do we end AI slop?",
+  "zh": "我们的整个使命基本上就是，如何终结 AI slop(AI 垃圾内容)？"
+ },
+ {
+  "seg": 6,
+  "start": 26.344,
+  "end": 27.445,
+  "speaker": "Unknown",
+  "en": "It's my personal enemy.",
+  "zh": "它是我的个人敌人。"
+ },
+ {
+  "seg": 7,
+  "start": 28.106,
+  "end": 34.031,
+  "speaker": "Unknown",
+  "en": "And so we really believe that to solve this problem of slop, we have to decode subjective domains.",
+  "zh": "所以我们坚信，要解决 slop 这个问题，我们必须解码主观领域。"
+ },
+ {
+  "seg": 8,
+  "start": 34.651,
+  "end": 39.496,
+  "speaker": "Unknown",
+  "en": "There's been so much effort being put into getting models and agents amazing at things like coding and math.",
+  "zh": "人们已经在让模型和智能体在编程和数学等方面变得出色上投入了大量努力。"
+ },
+ {
+  "seg": 9,
+  "start": 40.237,
+  "end": 44.647,
+  "speaker": "Unknown",
+  "en": "And it's time that we put all that same effort into making them great at things like design and writing.",
+  "zh": "现在是时候把同样的努力投入到让它们在设计、写作等方面变得出色上了。"
+ },
+ {
+  "seg": 10,
+  "start": 44.667,
+  "end": 48.877,
+  "speaker": "Unknown",
+  "en": "And so design is this first pillar that we're starting with, and it's been incredibly exciting.",
+  "zh": "所以设计是我们起步的第一个支柱，这一直令人非常兴奋。"
+ },
+ {
+  "seg": 11,
+  "start": 50.642,
+  "end": 51.722,
+  "speaker": "Unknown",
+  "en": "We work primarily in two ways.",
+  "zh": "我们主要通过两种方式开展工作。"
+ },
+ {
+  "seg": 12,
+  "start": 51.943,
+  "end": 64.488,
+  "speaker": "Unknown",
+  "en": "So we work a lot with the Frontier Labs on how do we evaluate their models, understand where they're breaking, understand what could be better about them, and then construct the right either post-training data or RL environments to basically fix that problem.",
+  "zh": "一方面，我们与 Frontier Labs(Frontier 实验室)大量合作，研究如何评估他们的模型，理解它们在哪些地方出问题，理解它们有什么可以改进的地方，然后构建合适的后训练数据或 RL 环境来从根本上解决这个问题。"
+ },
+ {
+  "seg": 13,
+  "start": 64.528,
+  "end": 72.812,
+  "speaker": "Unknown",
+  "en": "And part of this is how do you take something as fuzzy and large as design and break it down to a level that you can identify what is best solved through each method?",
+  "zh": "其中一部分工作是，如何把设计这样模糊而庞大的东西拆解到一定的程度，让你能识别出哪些问题最适合用哪种方法解决？"
+ },
+ {
+  "seg": 14,
+  "start": 73.212,
+  "end": 79.274,
+  "speaker": "Unknown",
+  "en": "What are elements of design that are almost like once you kind of boil down the problem become so specific that they almost become deterministic?",
+  "zh": "设计中有没有一些元素，当你把问题提炼到底之后，会变得非常具体，以至于几乎变成确定性的？"
+ },
+ {
+  "seg": 15,
+  "start": 79.374,
+  "end": 93.54,
+  "speaker": "Unknown",
+  "en": "So for example, if you're trying to train a model to be good at selecting color palettes or have contrast or alignment, those are things that if you define the problem in the context in a specific enough way, you can get to an answer that's like pretty objective or that at least most experts would agree to.",
+  "zh": "举例来说，如果你要训练一个模型擅长选择配色方案，或者掌握对比度或对齐，这些东西只要你以足够具体的方式定义问题和上下文，你就能得到一个相当客观的答案，或者至少是大多数专家都会认可的答案。"
+ },
+ {
+  "seg": 16,
+  "start": 94,
+  "end": 101.383,
+  "speaker": "Unknown",
+  "en": "But maybe other things like aesthetics, you naturally will see this expert disagreement and so then you want to lean on to things that are closer to data.",
+  "zh": "但也许其他一些东西，比如美学，你自然会看到专家之间的分歧，所以那时你就要依靠更接近数据的方法。"
+ },
+ {
+  "seg": 17,
+  "start": 102.143,
+  "end": 104.064,
+  "speaker": "Unknown",
+  "en": "Anyway, we spent a lot of time thinking about all those problems.",
+  "zh": "总之，我们花了大量时间思考这些问题。"
+ },
+ {
+  "seg": 18,
+  "start": 104.484,
+  "end": 111.648,
+  "speaker": "Unknown",
+  "en": "But on the other side is also, without even touching the model layer, how do we actually help agents and app layer companies produce better things?",
+  "zh": "但另一方面是，甚至完全不碰模型层，我们如何真正帮助智能体和应用层公司产出更好的东西？"
+ },
+ {
+  "seg": 19,
+  "start": 112.248,
+  "end": 113.809,
+  "speaker": "Unknown",
+  "en": "And there's a lot that goes into that.",
+  "zh": "这里面有很多学问。"
+ },
+ {
+  "seg": 20,
+  "start": 113.829,
+  "end": 117.791,
+  "speaker": "Unknown",
+  "en": "You have these different sets of problems at the application layer because you're using an off-the-shelf model that",
+  "zh": "你在应用层会遇到这些不同的问题集，因为你使用的是一个现成的模型，它"
+ },
+ {
+  "seg": 21,
+  "start": 118.291,
+  "end": 120.472,
+  "speaker": "Unknown",
+  "en": "It tends to collapse in terms of style.",
+  "zh": "往往在风格上会坍缩。"
+ },
+ {
+  "seg": 22,
+  "start": 120.492,
+  "end": 121.492,
+  "speaker": "Unknown",
+  "en": "It tends to collapse to the mean.",
+  "zh": "它往往会坍缩到均值。"
+ },
+ {
+  "seg": 23,
+  "start": 121.892,
+  "end": 124.072,
+  "speaker": "Unknown",
+  "en": "So how do we force that creativity back to the system?",
+  "zh": "那么我们如何把那种创造力强行还给系统？"
+ },
+ {
+  "seg": 24,
+  "start": 124.492,
+  "end": 127.473,
+  "speaker": "Unknown",
+  "en": "How do we avoid these patterns of slop, which we'll talk about a lot today?",
+  "zh": "我们如何避免这些 slop 模式？这个我们今天会讲很多。"
+ },
+ {
+  "seg": 25,
+  "start": 128.313,
+  "end": 134.875,
+  "speaker": "Unknown",
+  "en": "How do you understand user preferences or brand preference so that you can maintain adherence to that style?",
+  "zh": "你如何理解用户偏好或品牌偏好，从而保持对那种风格的忠实？"
+ },
+ {
+  "seg": 26,
+  "start": 135.455,
+  "end": 143.557,
+  "speaker": "Unknown",
+  "en": "So there's lots of things that actually need to be solved as context or judgment or verification at the app layer, which is why we kind of work across both.",
+  "zh": "所以实际上有很多东西需要在应用层作为上下文、判断或验证来解决，这就是为什么我们两边都做。"
+ },
+ {
+  "seg": 27,
+  "start": 145.763,
+  "end": 150.288,
+  "speaker": "Unknown",
+  "en": "But maybe I'll start with more of a philosophical question of like, how do you define something that is great?",
+  "zh": "不过，也许我先从一个更偏哲学的问题开始，比如，你如何定义某样东西是出色的？"
+ },
+ {
+  "seg": 28,
+  "start": 150.328,
+  "end": 151.89,
+  "speaker": "Unknown",
+  "en": "Like, how do you define greatness?",
+  "zh": "比如，你如何定义卓越？"
+ },
+ {
+  "seg": 29,
+  "start": 152.551,
+  "end": 155.033,
+  "speaker": "Unknown",
+  "en": "And for something like math, it's easier, right?",
+  "zh": "对于数学这样的东西，比较容易，对吧？"
+ },
+ {
+  "seg": 30,
+  "start": 155.053,
+  "end": 157.116,
+  "speaker": "Unknown",
+  "en": "Because there's kind of one objective answer.",
+  "zh": "因为基本上只有一个客观答案。"
+ },
+ {
+  "seg": 31,
+  "start": 157.256,
+  "end": 159.518,
+  "speaker": "Unknown",
+  "en": "And great is the same as correct.",
+  "zh": "出色就等于正确。"
+ },
+ {
+  "seg": 32,
+  "start": 159.959,
+  "end": 161.741,
+  "speaker": "Unknown",
+  "en": "But then for something like writing or design,",
+  "zh": "但对于写作或设计这样的东西，"
+ },
+ {
+  "seg": 33,
+  "start": 163.002,
+  "end": 163.783,
+  "speaker": "Unknown",
+  "en": "It's much harder, right?",
+  "zh": "就难得多，对吧？"
+ },
+ {
+  "seg": 34,
+  "start": 163.803,
+  "end": 169.466,
+  "speaker": "Unknown",
+  "en": "Like how do you define what's like a great tweet or what's a great art piece or what's a great website?",
+  "zh": "比如你如何定义什么是一条出色的推文，或者什么是出色的艺术作品，或者什么是出色的网站？"
+ },
+ {
+  "seg": 35,
+  "start": 169.786,
+  "end": 177.671,
+  "speaker": "Unknown",
+  "en": "I don't know what's the last time that you interacted with a poem or walked into a coffee shop and for some reason it kind of like hit different and it felt very special.",
+  "zh": "我不知道你上一次读一首诗，或者走进一家咖啡店并出于某种原因感觉特别不一样、感觉非常特别，是什么时候了。"
+ },
+ {
+  "seg": 36,
+  "start": 178.332,
+  "end": 181.434,
+  "speaker": "Unknown",
+  "en": "But probably it's a combination of things that it felt very unique.",
+  "zh": "但很可能它是多种因素的组合：它感觉非常独特。"
+ },
+ {
+  "seg": 37,
+  "start": 181.474,
+  "end": 182.554,
+  "speaker": "Unknown",
+  "en": "It felt almost a little different.",
+  "zh": "它感觉几乎有点不一样。"
+ },
+ {
+  "seg": 38,
+  "start": 182.614,
+  "end": 183.595,
+  "speaker": "Unknown",
+  "en": "It kind of called your attention.",
+  "zh": "它吸引了你的注意。"
+ },
+ {
+  "seg": 39,
+  "start": 184.216,
+  "end": 188.201,
+  "speaker": "Unknown",
+  "en": "It felt like it was made with a lot of care and attention to detail and craft.",
+  "zh": "它感觉是用大量的用心、对细节的关注和匠心做出来的。"
+ },
+ {
+  "seg": 40,
+  "start": 188.241,
+  "end": 190.785,
+  "speaker": "Unknown",
+  "en": "And it almost had this sense of authenticity.",
+  "zh": "而且它几乎有这种真实感。"
+ },
+ {
+  "seg": 41,
+  "start": 191.226,
+  "end": 193.188,
+  "speaker": "Unknown",
+  "en": "And I think that's a lot of what AI is missing today.",
+  "zh": "我认为这在很大程度上就是当今 AI 所缺失的东西。"
+ },
+ {
+  "seg": 42,
+  "start": 193.208,
+  "end": 196.894,
+  "speaker": "Unknown",
+  "en": "It's like, how do we take things that are not necessarily average?",
+  "zh": "就是，我们如何做出不一定是平均水平的东西？"
+ },
+ {
+  "seg": 43,
+  "start": 196.934,
+  "end": 199.497,
+  "speaker": "Unknown",
+  "en": "How do we produce things that are purposely out of distribution?",
+  "zh": "我们如何产出刻意跳出分布的东西？"
+ },
+ {
+  "seg": 44,
+  "start": 200.638,
+  "end": 202.239,
+  "speaker": "Unknown",
+  "en": "And slop is kind of the opposite of that, right?",
+  "zh": "而 slop 在某种程度上正是它的反面，对吧？"
+ },
+ {
+  "seg": 45,
+  "start": 202.299,
+  "end": 208.52,
+  "speaker": "Unknown",
+  "en": "I think it is hard to define what is great sometimes, but I think it's pretty easy to define what is slop in the sense that most people would agree.",
+  "zh": "我觉得有时候很难定义什么是出色，但我觉得定义什么是 slop 相当容易，从大多数人都会同意的意义上来说是这样。"
+ },
+ {
+  "seg": 46,
+  "start": 208.98,
+  "end": 214.242,
+  "speaker": "Unknown",
+  "en": "I think the sense of repetition, of kind of soullessness, is something that all of us feel right now when using AI.",
+  "zh": "我认为那种重复感、那种近乎没有灵魂的感觉，是我们所有人在使用 AI 时此刻都能感受到的。"
+ },
+ {
+  "seg": 47,
+  "start": 214.282,
+  "end": 225.965,
+  "speaker": "Unknown",
+  "en": "And I think it's quite magical, by the way, that AI has gotten to a point that any human on the planet that is not even a designer, that is not an engineer, can click a button and suddenly make an entire PowerPoint or make a website or make a web app.",
+  "zh": "顺便说一句，我觉得相当神奇的是，AI 已经发展到了这样的程度：地球上任何一个不是设计师、也不是工程师的人，都可以点一个按钮，突然就做出一整套 PowerPoint,或者做出一个网站，或者做出一个 web 应用。"
+ },
+ {
+  "seg": 48,
+  "start": 226.385,
+  "end": 227.105,
+  "speaker": "Unknown",
+  "en": "That's pretty cool.",
+  "zh": "这相当酷。"
+ },
+ {
+  "seg": 49,
+  "start": 227.625,
+  "end": 229.126,
+  "speaker": "Unknown",
+  "en": "But it comes with consequences, right?",
+  "zh": "但这是有代价的，对吧？"
+ },
+ {
+  "seg": 50,
+  "start": 229.527,
+  "end": 234.41,
+  "speaker": "Unknown",
+  "en": "It comes with consequences of suddenly now the cost of generation is basically going to zero.",
+  "zh": "它带来的后果是，生成的成本现在基本上趋于零。"
+ },
+ {
+  "seg": 51,
+  "start": 235.451,
+  "end": 238.113,
+  "speaker": "Unknown",
+  "en": "But the average person hasn't necessarily honed their taste.",
+  "zh": "但普通人不一定磨练过自己的品味。"
+ },
+ {
+  "seg": 52,
+  "start": 239.153,
+  "end": 244.977,
+  "speaker": "Unknown",
+  "en": "Think about the amount of effort and work that a designer puts in throughout their life to build up their taste.",
+  "zh": "想想一个设计师一生中投入多少精力和努力来建立自己的品味。"
+ },
+ {
+  "seg": 53,
+  "start": 244.997,
+  "end": 248.16,
+  "speaker": "Unknown",
+  "en": "There's all this process of getting exposed to many things.",
+  "zh": "有这么一个接触大量事物的过程。"
+ },
+ {
+  "seg": 54,
+  "start": 248.72,
+  "end": 255.745,
+  "speaker": "Unknown",
+  "en": "And learning to spot patterns and learning to develop a point of view and do things in a courageous way that maybe are a little bit against the norm.",
+  "zh": "学会识别模式、学会形成自己的观点、并以一种也许有点违背常规的勇敢方式去做事。"
+ },
+ {
+  "seg": 55,
+  "start": 256.085,
+  "end": 258.206,
+  "speaker": "Unknown",
+  "en": "Learning what not to do and how to have restraint.",
+  "zh": "学会什么不该做，以及如何克制。"
+ },
+ {
+  "seg": 56,
+  "start": 258.246,
+  "end": 259.807,
+  "speaker": "Unknown",
+  "en": "And that's very hard.",
+  "zh": "而这非常难。"
+ },
+ {
+  "seg": 57,
+  "start": 259.827,
+  "end": 266.352,
+  "speaker": "Unknown",
+  "en": "The average person doesn't necessarily have the time or the skills to go and develop taste in everything, let's say in design.",
+  "zh": "比如说，普通人不一定有时间和技能去在所有事情上培养品味，比如设计。"
+ },
+ {
+  "seg": 58,
+  "start": 268.193,
+  "end": 274.715,
+  "speaker": "Unknown",
+  "en": "I think it would be a bad case scenario for us to just be like, okay, the way to fix slop is for everyone to have taste, because I don't think that's necessarily realistic.",
+  "zh": "我认为，对我们来说，一个糟糕的假设情形是：好吧，修复 slop 的办法就是让每个人都有品味，因为我不认为这一定是现实的。"
+ },
+ {
+  "seg": 59,
+  "start": 275.515,
+  "end": 283.098,
+  "speaker": "Unknown",
+  "en": "I think, how can we understand this better so that we can make, even for the average person, the ability to create something great and to understand maybe their own taste?",
+  "zh": "我在想的是，我们如何能更好地理解这一点，以便即使对普通人来说，我们也能让他们有能力创造出伟大的东西，并可能理解他们自己的品味？"
+ },
+ {
+  "seg": 60,
+  "start": 284.458,
+  "end": 284.698,
+  "speaker": "Unknown",
+  "en": "Easy.",
+  "zh": "更简单。"
+ },
+ {
+  "seg": 61,
+  "start": 284.838,
+  "end": 285.839,
+  "speaker": "Unknown",
+  "en": "More easy.",
+  "zh": "再简单一些。"
+ },
+ {
+  "seg": 62,
+  "start": 285.959,
+  "end": 288.761,
+  "speaker": "Unknown",
+  "en": "So that's a lot of what we're focusing on.",
+  "zh": "所以这就是我们非常关注的事情。"
+ },
+ {
+  "seg": 63,
+  "start": 289.741,
+  "end": 292.303,
+  "speaker": "Unknown",
+  "en": "So yeah, I think this phenomenon of slop, by the way, is not new.",
+  "zh": "所以是的，顺便说一句，我认为 slop 这个现象并不新鲜。"
+ },
+ {
+  "seg": 64,
+  "start": 293.243,
+  "end": 297.986,
+  "speaker": "Unknown",
+  "en": "If you were in the internet as social media emerged, you probably saw a lot of slop before that.",
+  "zh": "如果你在社交媒体兴起的时候就在互联网上，你可能在那之前就见过很多 slop。"
+ },
+ {
+  "seg": 65,
+  "start": 298.346,
+  "end": 305.731,
+  "speaker": "Unknown",
+  "en": "But I do think that AI has been this kind of accelerating force of being able to create things very easily with a click of a button and the thoughtlessness around it.",
+  "zh": "但我确实认为，AI 已经成为一种加速的力量，让人只需点击一下按钮就能非常轻松地创造东西，而且伴随着一种不加思考的态度。"
+ },
+ {
+  "seg": 66,
+  "start": 306.271,
+  "end": 310.456,
+  "speaker": "Unknown",
+  "en": "There's kind of these three characteristics that I would say repeat in SOP.",
+  "zh": "我会说，在 SOP 中反复出现的有这么三个特征。"
+ },
+ {
+  "seg": 67,
+  "start": 310.656,
+  "end": 311.577,
+  "speaker": "Unknown",
+  "en": "So A, repetition.",
+  "zh": "第一个是 A，重复性。"
+ },
+ {
+  "seg": 68,
+  "start": 311.597,
+  "end": 314.68,
+  "speaker": "Unknown",
+  "en": "So you start seeing the same thing many, many, many times.",
+  "zh": "也就是你开始看到同样的东西出现很多很多很多次。"
+ },
+ {
+  "seg": 69,
+  "start": 315.581,
+  "end": 318.084,
+  "speaker": "Unknown",
+  "en": "The second is lack of fit, which I actually think is very related.",
+  "zh": "第二个是缺乏契合度，我实际上认为这与第一个非常相关。"
+ },
+ {
+  "seg": 70,
+  "start": 318.184,
+  "end": 323.29,
+  "speaker": "Unknown",
+  "en": "So fit is kind of this ability for something to feel correct for a specific context, right?",
+  "zh": "所谓契合度，就是某种东西在特定语境下感觉是正确的这种能力，对吧？"
+ },
+ {
+  "seg": 71,
+  "start": 323.31,
+  "end": 325.372,
+  "speaker": "Unknown",
+  "en": "For a specific moment in time, for a specific person.",
+  "zh": "在特定的时刻，对特定的人。"
+ },
+ {
+  "seg": 72,
+  "start": 326.213,
+  "end": 339.686,
+  "speaker": "Unknown",
+  "en": "But suddenly if you have repetition, and let's say one person asks for a website for their pet shop and the other one asks for a website for their finance firm, and somehow those designs converge and look the same, that's quite odd, right?",
+  "zh": "但突然之间，如果你有了重复性，比如说一个人为他们的宠物店要一个网站，另一个人为他们的金融公司要一个网站，而不知怎么的这些设计趋同了、看起来一样，那就相当奇怪了，对吧？"
+ },
+ {
+  "seg": 73,
+  "start": 339.866,
+  "end": 344.29,
+  "speaker": "Unknown",
+  "en": "If you were actually crafting that with care, you wouldn't converge necessarily on those things.",
+  "zh": "如果你真的是用心去打造的，你不一定会趋同到那些东西上。"
+ },
+ {
+  "seg": 74,
+  "start": 344.33,
+  "end": 349.235,
+  "speaker": "Unknown",
+  "en": "And so this lack of fit and lack of understanding of context is actually a huge problem that leads to slop.",
+  "zh": "所以这种缺乏契合度、缺乏对语境的理解，实际上是导致 slop 的一个巨大问题。"
+ },
+ {
+  "seg": 75,
+  "start": 349.875,
+  "end": 356.56,
+  "speaker": "Unknown",
+  "en": "And the third is maybe low intent, which is probably a mix of, yeah, you're going to have a bunch of people prompting really quickly and maybe just wanting to one-shot something.",
+  "zh": "第三个也许是低意图，这可能是以下情况的混合：是的，会有一大堆人非常快速地进行提示，也许只是想一次性生成点什么。"
+ },
+ {
+  "seg": 76,
+  "start": 356.94,
+  "end": 361.243,
+  "speaker": "Unknown",
+  "en": "But I think there's actually this intent interpretation piece that's missing in the systems that we're building.",
+  "zh": "但我认为，实际上在我们正在构建的系统中，缺少的是意图解读这一环节。"
+ },
+ {
+  "seg": 77,
+  "start": 361.584,
+  "end": 363.165,
+  "speaker": "Unknown",
+  "en": "How can you help your user?",
+  "zh": "你如何帮助你的用户？"
+ },
+ {
+  "seg": 78,
+  "start": 363.205,
+  "end": 370.03,
+  "speaker": "Unknown",
+  "en": "How can you help them better understand the intent that they have so that you can add more color and add more context onto what you're trying to create?",
+  "zh": "你如何帮助他们更好地理解他们所拥有的意图，从而为你要创造的东西添加更多的色彩和更多的语境？"
+ },
+ {
+  "seg": 79,
+  "start": 372.266,
+  "end": 379.051,
+  "speaker": "Unknown",
+  "en": "Okay, and I'm a big believer, by the way, that in order to fix something, you first have to measure it, and you first have to understand it.",
+  "zh": "好的，顺便说一句，我非常相信一点：要修复某个东西，你必须先度量它，必须先理解它。"
+ },
+ {
+  "seg": 80,
+  "start": 379.532,
+  "end": 387.858,
+  "speaker": "Unknown",
+  "en": "I think that's exactly why we're so focused on how do we turn these domains into something a bit more verifiable so that we can attach a measure to it.",
+  "zh": "我认为这正是我们如此专注于如何把这些领域变得更可验证的原因，这样我们才能给它附加一个度量。"
+ },
+ {
+  "seg": 81,
+  "start": 387.898,
+  "end": 394.583,
+  "speaker": "Unknown",
+  "en": "So you'll go on a little bit of a research journey with me here now, but we basically wanted to figure out, can we measure slop?",
+  "zh": "所以现在你将和我一起踏上一个小小的研究之旅，我们基本上想弄清楚，我们能否度量 slop？"
+ },
+ {
+  "seg": 82,
+  "start": 394.703,
+  "end": 397.205,
+  "speaker": "Unknown",
+  "en": "Can we actually measure this quantitatively and spot this?",
+  "zh": "我们能否真正做到定量地度量它并识别它？"
+ },
+ {
+  "seg": 83,
+  "start": 397.606,
+  "end": 399.047,
+  "speaker": "Unknown",
+  "en": "And what does that look like?",
+  "zh": "那会是什么样子？"
+ },
+ {
+  "seg": 84,
+  "start": 401.24,
+  "end": 408.846,
+  "speaker": "Unknown",
+  "en": "So we analyzed over 2 million websites from the past 10 years, kind of like way back machine style to try to understand all the trends across design.",
+  "zh": "于是我们分析了过去 10 年超过 200 万个网站，有点像时光机（way back machine）那样的方式，试图理解设计领域的所有趋势。"
+ },
+ {
+  "seg": 85,
+  "start": 409.267,
+  "end": 410.428,
+  "speaker": "Unknown",
+  "en": "How is the internet changing?",
+  "zh": "互联网在如何变化？"
+ },
+ {
+  "seg": 86,
+  "start": 411.108,
+  "end": 413.671,
+  "speaker": "Unknown",
+  "en": "How is design changing over time?",
+  "zh": "设计在随着时间如何变化？"
+ },
+ {
+  "seg": 87,
+  "start": 414.211,
+  "end": 415.612,
+  "speaker": "Unknown",
+  "en": "And two things were interesting.",
+  "zh": "有两件事很有意思。"
+ },
+ {
+  "seg": 88,
+  "start": 415.632,
+  "end": 422.358,
+  "speaker": "Unknown",
+  "en": "And we also, by the way, then kind of synthetically generated a set of design websites so we could kind of compare.",
+  "zh": "顺便说一句，我们还合成式地生成了一组设计网站，以便我们可以进行比较。"
+ },
+ {
+  "seg": 89,
+  "start": 422.718,
+  "end": 426.962,
+  "speaker": "Unknown",
+  "en": "Like, how does human-made sites compare to AI-generated ones?",
+  "zh": "比如，人造网站与 AI 生成的网站相比如何？"
+ },
+ {
+  "seg": 90,
+  "start": 427.357,
+  "end": 428.518,
+  "speaker": "Unknown",
+  "en": "And there were a few things that were interesting.",
+  "zh": "有几件事很有意思。"
+ },
+ {
+  "seg": 91,
+  "start": 428.558,
+  "end": 435.281,
+  "speaker": "Unknown",
+  "en": "So one was that you already kind of saw a bit of a collapse on the internet before even AI.",
+  "zh": "其中之一是，甚至在 AI 出现之前，你就已经在互联网上看到了某种程度的坍缩。"
+ },
+ {
+  "seg": 92,
+  "start": 435.722,
+  "end": 447.408,
+  "speaker": "Unknown",
+  "en": "So you saw kind of the internet becoming more homogenous, using more similar color palettes, using more similar layouts, which is probably a function of more, I would say, this kind of trend spreading more quickly, let's say.",
+  "zh": "所以你看到互联网变得更同质化，使用更相似的配色方案，使用更相似的布局，这大概是一种功能，我会说，这类趋势传播得更快了，比如说。"
+ },
+ {
+  "seg": 93,
+  "start": 448.028,
+  "end": 454.134,
+  "speaker": "Unknown",
+  "en": "But with AI, I think you saw this repetition happening a lot more and being almost more identified regardless of context.",
+  "zh": "但随着 AI 的出现，我认为你看到这种重复发生得更多了，而且几乎在不考虑语境的情况下更容易被识别出来。"
+ },
+ {
+  "seg": 94,
+  "start": 454.154,
+  "end": 457.356,
+  "speaker": "Unknown",
+  "en": "So even in completely different buckets, you saw patterns that were very similar.",
+  "zh": "所以即使在完全不同的类别中，你也会看到非常相似的模式。"
+ },
+ {
+  "seg": 95,
+  "start": 458.077,
+  "end": 462.421,
+  "speaker": "Unknown",
+  "en": "So we built this, I call this probes, but basically we did two things.",
+  "zh": "于是我们构建了这个，我把它叫做探针（probes），但基本上我们做了两件事。"
+ },
+ {
+  "seg": 96,
+  "start": 462.441,
+  "end": 463.622,
+  "speaker": "Unknown",
+  "en": "So we did this pattern mining.",
+  "zh": "我们做了这种模式挖掘。"
+ },
+ {
+  "seg": 97,
+  "start": 464.042,
+  "end": 467.526,
+  "speaker": "Unknown",
+  "en": "On all this data to understand what are features that we can extract from all these sites?",
+  "zh": "在所有这些数据上，以理解我们能从所有这些网站中提取出哪些特征？"
+ },
+ {
+  "seg": 98,
+  "start": 467.626,
+  "end": 470.429,
+  "speaker": "Unknown",
+  "en": "What are all these characteristics that we can make more objective?",
+  "zh": "这些特征中，哪些我们可以变得更客观？"
+ },
+ {
+  "seg": 99,
+  "start": 470.869,
+  "end": 473.392,
+  "speaker": "Unknown",
+  "en": "Colors, typography, layout, audience.",
+  "zh": "颜色、字体排印、布局、受众。"
+ },
+ {
+  "seg": 100,
+  "start": 473.432,
+  "end": 476.835,
+  "speaker": "Unknown",
+  "en": "How can we distill this down into things that become almost structured?",
+  "zh": "我们如何把它提炼成几乎结构化的东西？"
+ },
+ {
+  "seg": 101,
+  "start": 477.295,
+  "end": 479.678,
+  "speaker": "Unknown",
+  "en": "And then how do we train up these probes?",
+  "zh": "然后我们如何训练这些探针？"
+ },
+ {
+  "seg": 102,
+  "start": 479.858,
+  "end": 482.2,
+  "speaker": "Unknown",
+  "en": "So think of these as baby classifiers.",
+  "zh": "把这些想象成婴儿分类器。"
+ },
+ {
+  "seg": 103,
+  "start": 482.24,
+  "end": 485.163,
+  "speaker": "Unknown",
+  "en": "How do we train the ability to spot this one characteristic?",
+  "zh": "我们如何训练出发现这一个特征的能力？"
+ },
+ {
+  "seg": 104,
+  "start": 485.944,
+  "end": 495.036,
+  "speaker": "Unknown",
+  "en": "And for all these slop sites, we identified, we started identifying like what are the probes that basically mean this site is very likely to be AI slop.",
+  "zh": "补充：因为那其实是你与终端用户交互的时刻。"
+ },
+ {
+  "seg": 105,
+  "start": 495.417,
+  "end": 502.566,
+  "speaker": "Unknown",
+  "en": "And especially when you start combining them and you see the frequency of multiple of these happening at once, it became very likely that you could actually like measure",
+  "zh": "尤其是当你开始把它们组合起来，看到多个特征同时出现的频率时，你很可能真的能够去测量"
+ },
+ {
+  "seg": 106,
+  "start": 503.647,
+  "end": 504.388,
+  "speaker": "Unknown",
+  "en": "And predicts slop.",
+  "zh": "并预测 slop。"
+ },
+ {
+  "seg": 107,
+  "start": 504.448,
+  "end": 509.511,
+  "speaker": "Unknown",
+  "en": "And we saw a super high, basically, ability to do that prediction, which was really cool to see.",
+  "zh": "我们看到基本上预测能力非常高，看到这一点真的很酷。"
+ },
+ {
+  "seg": 108,
+  "start": 509.651,
+  "end": 518.776,
+  "speaker": "Unknown",
+  "en": "This performed better, by the way, than most LLM-as-a-judge methods of asking an LLM to judge if that is great human quality versus AI-generated slop.",
+  "zh": "顺便说一句，这比大多数 LLM-as-a-judge 方法——也就是让一个 LLM 来判断那是优质的人类作品还是 AI 生成的 slop——表现都要好。"
+ },
+ {
+  "seg": 109,
+  "start": 518.836,
+  "end": 519.637,
+  "speaker": "Unknown",
+  "en": "So that was pretty cool to see.",
+  "zh": "所以看到这一点相当酷。"
+ },
+ {
+  "seg": 110,
+  "start": 519.657,
+  "end": 528.702,
+  "speaker": "Unknown",
+  "en": "And I think it kind of shows this pattern that we see in AI really being an actual quantitative thing that we can see in slop, which I find really cool.",
+  "zh": "而且我认为这在某种程度上展示了我们在 AI 中看到的这种模式，即 slop 中真正存在一种我们可以看到的、可量化的东西，我觉得这真的很酷。"
+ },
+ {
+  "seg": 111,
+  "start": 529.162,
+  "end": 530.843,
+  "speaker": "Unknown",
+  "en": "But obviously we don't want to stop there, right?",
+  "zh": "但显然我们不想止步于此，对吧？"
+ },
+ {
+  "seg": 112,
+  "start": 530.863,
+  "end": 532.364,
+  "speaker": "Unknown",
+  "en": "We don't want to just measure, stop.",
+  "zh": "我们不想只是测量，然后就停下。"
+ },
+ {
+  "seg": 113,
+  "start": 532.384,
+  "end": 533.325,
+  "speaker": "Unknown",
+  "en": "We want to also solve it.",
+  "zh": "我们还想解决它。"
+ },
+ {
+  "seg": 114,
+  "start": 533.345,
+  "end": 546.074,
+  "speaker": "Unknown",
+  "en": "And so there's a few, I think I mentioned this before, but as the cost of production basically goes to zero, I think the thing that becomes expensive and matters more than ever is judgment.",
+  "zh": "所以有几个——我想我之前提过——随着生产成本基本趋于零，我认为变得昂贵、比以往任何时候都更重要的东西是判断力。"
+ },
+ {
+  "seg": 115,
+  "start": 546.194,
+  "end": 548.435,
+  "speaker": "Unknown",
+  "en": "I don't even want to use the word taste here, is judgment.",
+  "zh": "我甚至不想在这里用“品味”这个词，是判断力。"
+ },
+ {
+  "seg": 116,
+  "start": 548.455,
+  "end": 554.9,
+  "speaker": "Unknown",
+  "en": "I think it's this ability to discern what's right, is this ability to break down a problem so that you can actually understand it and create solutions for it.",
+  "zh": "我认为这是辨别什么是对的能力，是把一个问题拆解开来、从而真正理解它并为它创造解决方案的能力。"
+ },
+ {
+  "seg": 117,
+  "start": 555.38,
+  "end": 564.559,
+  "speaker": "Unknown",
+  "en": "And so, yes, there's this side of judgment that is human judgment that I actually think is more valuable than ever, but there's also this side of how do we build the right tools and systems to fix pieces of this problem, right?",
+  "zh": "所以，是的，判断力有这一面是人类的判断力，我实际上认为它比以往任何时候都更有价值，但也有另一面，就是我们如何构建正确的工具和系统来修复这个问题的一部分，对吧？"
+ },
+ {
+  "seg": 118,
+  "start": 567.547,
+  "end": 571.148,
+  "speaker": "Unknown",
+  "en": "So yeah, how do we fight slop, my enemy?",
+  "zh": "那么，是的，我们如何对抗 slop，我的敌人？"
+ },
+ {
+  "seg": 119,
+  "start": 572.068,
+  "end": 577.309,
+  "speaker": "Unknown",
+  "en": "And by the way, I think there's a lot of conversation going around, how do you fight slop at the model layer?",
+  "zh": "顺便说一句，我认为现在有很多讨论在进行，即如何在模型层对抗 slop？"
+ },
+ {
+  "seg": 120,
+  "start": 577.809,
+  "end": 578.809,
+  "speaker": "Unknown",
+  "en": "How do we make models better?",
+  "zh": "我们如何让模型变得更好？"
+ },
+ {
+  "seg": 121,
+  "start": 579.249,
+  "end": 580.65,
+  "speaker": "Unknown",
+  "en": "How do we make models have a higher bar?",
+  "zh": "我们如何让模型有更高的标准？"
+ },
+ {
+  "seg": 122,
+  "start": 580.81,
+  "end": 584.17,
+  "speaker": "Unknown",
+  "en": "Which, don't get me wrong, it has to be solved and we're working very hard to solve that too.",
+  "zh": "别误会，这必须被解决，我们也在非常努力地解决它。"
+ },
+ {
+  "seg": 123,
+  "start": 584.71,
+  "end": 588.851,
+  "speaker": "Unknown",
+  "en": "But I actually think this problem of inference time is equally, if not even more important.",
+  "zh": "但我实际上认为推理时这个层面的问题同等重要，甚至更重要。"
+ },
+ {
+  "seg": 124,
+  "start": 589.311,
+  "end": 592.072,
+  "speaker": "Unknown",
+  "en": "Because that's actually when you interact with the end user.",
+  "zh": "因为那其实才是你与终端用户互动的时候。"
+ },
+ {
+  "seg": 125,
+  "start": 592.592,
+  "end": 597.193,
+  "speaker": "Unknown",
+  "en": "And this kind of back and forth of how do you understand this context and intent happens at the moment of inference time.",
+  "zh": "而这种理解上下文和意图的来回往复，就发生在推理时的那一刻。"
+ },
+ {
+  "seg": 126,
+  "start": 597.714,
+  "end": 602.103,
+  "speaker": "Unknown",
+  "en": "I don't think that we can ignore and just make models better and not solve this otherwise SOP will keep existing.",
+  "zh": "我不认为我们可以只让模型变得更好而无视、不解决这个问题，否则 slop 会继续存在。"
+ },
+ {
+  "seg": 127,
+  "start": 602.945,
+  "end": 605.43,
+  "speaker": "Unknown",
+  "en": "So maybe breaking down a few of those pieces and kind of",
+  "zh": "那么也许拆解其中几个部分，然后"
+ },
+ {
+  "seg": 128,
+  "start": 607.122,
+  "end": 610.104,
+  "speaker": "Unknown",
+  "en": "A few of the ways that we've thought about solving this are a few solutions that we've built to solve this.",
+  "zh": "我们思考过解决这个问题的几种方式，以及我们为解决这个问题而构建的几个方案。"
+ },
+ {
+  "seg": 129,
+  "start": 610.124,
+  "end": 617.567,
+  "speaker": "Unknown",
+  "en": "But I think, for example, for something like repetition, one of the things that we're working on is, I've nicknamed it, I don't know if that's going to be the official name, but like the Creativity API.",
+  "zh": "但我认为，举例来说，对于重复性这样的问题，我们正在做的事情之一是——我给它起了个绰号，我不知道这是否会是正式名称——就像 Creativity API。"
+ },
+ {
+  "seg": 130,
+  "start": 617.988,
+  "end": 631.195,
+  "speaker": "Unknown",
+  "en": "How can we create a system that almost becomes an inspiration machine for your agent so that it can produce something that's actually out of distribution instead of something that is in that same average and kind of mean that we're seeing happen with like the slop sites?",
+  "zh": "我们如何创建一个几乎成为你的智能体的灵感机器的系统，使它能够产出真正分布之外的东西，而不是那种处于我们看到的 slop 网站那样的同一个平均值和均值范围内的东西？"
+ },
+ {
+  "seg": 131,
+  "start": 631.355,
+  "end": 635.437,
+  "speaker": "Unknown",
+  "en": "So this is one of the ways that practically, if we can intentionally produce something that's out of distribution,",
+  "zh": "所以这是一种实际的方式，如果我们能够有意地产出分布之外的东西，"
+ },
+ {
+  "seg": 132,
+  "start": 635.917,
+  "end": 638.538,
+  "speaker": "Unknown",
+  "en": "You can improve this like overall quality.",
+  "zh": "你就可以提升这种整体质量。"
+ },
+ {
+  "seg": 133,
+  "start": 638.678,
+  "end": 643.04,
+  "speaker": "Unknown",
+  "en": "And by the way, I don't think that this can be something just like randomness.",
+  "zh": "顺便说一句，我不认为这可以只是像随机性那样的东西。"
+ },
+ {
+  "seg": 134,
+  "start": 643.42,
+  "end": 647.682,
+  "speaker": "Unknown",
+  "en": "It's not just about like turning up a temperature of a model and kind of fingers crossed hoping for the best.",
+  "zh": "这不仅仅是把模型的温度调高然后祈祷最好的结果。"
+ },
+ {
+  "seg": 135,
+  "start": 647.742,
+  "end": 653.925,
+  "speaker": "Unknown",
+  "en": "I think it's much more like how do we understand even like what are rules or expectations in specific domains?",
+  "zh": "我认为这更像是我们要如何理解特定领域中的规则或期望是什么？"
+ },
+ {
+  "seg": 136,
+  "start": 653.945,
+  "end": 657.987,
+  "speaker": "Unknown",
+  "en": "Like let's say that you ask for a slide deck for the picture of your startup.",
+  "zh": "比如说，你要求为你的初创公司做一套幻灯片。"
+ },
+ {
+  "seg": 137,
+  "start": 658.847,
+  "end": 660.77,
+  "speaker": "Unknown",
+  "en": "What does a good pitch deck look like?",
+  "zh": "一份好的 pitch deck 是什么样的？"
+ },
+ {
+  "seg": 138,
+  "start": 660.93,
+  "end": 665.515,
+  "speaker": "Unknown",
+  "en": "And then how do you almost intentionally break rules to create things that are more creative?",
+  "zh": "然后你如何几乎有意地打破规则，以创造出更有创意的东西？"
+ },
+ {
+  "seg": 139,
+  "start": 665.535,
+  "end": 671.362,
+  "speaker": "Unknown",
+  "en": "Because usually creativity isn't randomness, isn't doing something that completely feels off for that situation.",
+  "zh": "因为通常创造力并不是随机性，不是做一些在那个情境下完全让人感觉不对劲的事情。"
+ },
+ {
+  "seg": 140,
+  "start": 671.382,
+  "end": 675.306,
+  "speaker": "Unknown",
+  "en": "It's like you intentionally maybe diverge on a couple of things while maintaining kind of",
+  "zh": "而是你有意地在几件事上偏离，同时保持对"
+ },
+ {
+  "seg": 141,
+  "start": 677.108,
+  "end": 680.611,
+  "speaker": "Unknown",
+  "en": "Adherence to expectations of that category, let's say, for others.",
+  "zh": "那个类别的期望的遵循，可以说，在其他方面。"
+ },
+ {
+  "seg": 142,
+  "start": 681.032,
+  "end": 682.173,
+  "speaker": "Unknown",
+  "en": "So that's one of the things we're working on.",
+  "zh": "所以这是我们正在做的事情之一。"
+ },
+ {
+  "seg": 143,
+  "start": 682.613,
+  "end": 691.301,
+  "speaker": "Unknown",
+  "en": "The second one on this problem of fit, I think it's interesting, but brands, as probably a lot of you who are designers know, take so much effort to create great brands.",
+  "zh": "第二个，关于匹配度这个问题，我觉得很有意思——品牌，正如你们中很多做设计师的人可能知道的，需要付出巨大努力才能创造出伟大的品牌。"
+ },
+ {
+  "seg": 144,
+  "start": 691.662,
+  "end": 693.463,
+  "speaker": "Unknown",
+  "en": "Like, great brands are the work of",
+  "zh": "比如，伟大的品牌是"
+ },
+ {
+  "seg": 145,
+  "start": 694.364,
+  "end": 698.309,
+  "speaker": "Unknown",
+  "en": "Dozens of designers putting in a lot of craft and thought and care.",
+  "zh": "几十位设计师投入大量技艺、思考和心血的成果。"
+ },
+ {
+  "seg": 146,
+  "start": 699.19,
+  "end": 703.355,
+  "speaker": "Unknown",
+  "en": "And so we've almost already pre-done the work of defining what is great for that specific company.",
+  "zh": "所以我们其实已经预先完成了为那家特定公司定义什么是伟大的工作。"
+ },
+ {
+  "seg": 147,
+  "start": 703.375,
+  "end": 704.536,
+  "speaker": "Unknown",
+  "en": "And then we're not using it well.",
+  "zh": "然后我们却没有很好地使用它。"
+ },
+ {
+  "seg": 148,
+  "start": 705.057,
+  "end": 707.38,
+  "speaker": "Unknown",
+  "en": "So this brand adherence, I actually think, is a huge problem.",
+  "zh": "所以这种品牌遵循性，我实际上认为是一个巨大的问题。"
+ },
+ {
+  "seg": 149,
+  "start": 707.54,
+  "end": 708.681,
+  "speaker": "Unknown",
+  "en": "And one of the things that can very",
+  "zh": "而其中一件可以非常"
+ },
+ {
+  "seg": 150,
+  "start": 709.542,
+  "end": 711.863,
+  "speaker": "Unknown",
+  "en": "More easily, let's say, raise that bar of quality.",
+  "zh": "更容易地,比如说,提高那个质量门槛。"
+ },
+ {
+  "seg": 151,
+  "start": 711.963,
+  "end": 714.283,
+  "speaker": "Unknown",
+  "en": "So I'll touch on an example on this one specifically.",
+  "zh": "所以我会专门针对这个讲一个例子。"
+ },
+ {
+  "seg": 152,
+  "start": 714.664,
+  "end": 716.224,
+  "speaker": "Unknown",
+  "en": "And then same with intent and judgment.",
+  "zh": "意图和判断力也是一样。"
+ },
+ {
+  "seg": 153,
+  "start": 716.264,
+  "end": 718.585,
+  "speaker": "Unknown",
+  "en": "I think the baby classifiers was a good example.",
+  "zh": "我觉得 baby classifiers 就是一个很好的例子。"
+ },
+ {
+  "seg": 154,
+  "start": 719.265,
+  "end": 725.587,
+  "speaker": "Unknown",
+  "en": "Like how we can actually use this to even become a gate for slop and not let your agent ship slop.",
+  "zh": "比如我们如何真正用它成为 slop 的把关者,不让你的智能体交付 slop。"
+ },
+ {
+  "seg": 155,
+  "start": 727.12,
+  "end": 729.844,
+  "speaker": "Unknown",
+  "en": "So the brand API is the first product that we're releasing to the public.",
+  "zh": "所以 brand API 是我们向公众发布的第一个产品。"
+ },
+ {
+  "seg": 156,
+  "start": 729.864,
+  "end": 733.589,
+  "speaker": "Unknown",
+  "en": "This is already in beta testing with a bunch of our design partners.",
+  "zh": "这已经在和我们的一批设计合作伙伴进行 beta 测试了。"
+ },
+ {
+  "seg": 157,
+  "start": 734.07,
+  "end": 742.203,
+  "speaker": "Unknown",
+  "en": "And essentially what it does is it can take, let's say, a brand URL and extract this into very specific components that are good for an agent to follow.",
+  "zh": "本质上它的作用是,它可以把,比如说,一个品牌 URL 提取成非常具体的组件,这些组件很适合智能体去遵循。"
+ },
+ {
+  "seg": 158,
+  "start": 742.523,
+  "end": 751.065,
+  "speaker": "Unknown",
+  "en": "So basically, how do we turn something as fuzzy as a brand into something so structured that it becomes easy for your agent to follow that, but also for you to judge against it, right?",
+  "zh": "所以基本上,我们如何把像品牌这样模糊的东西变成如此结构化的东西,以至于你的智能体容易遵循它,同时也方便你对照它做判断,对吧?"
+ },
+ {
+  "seg": 159,
+  "start": 751.085,
+  "end": 754.646,
+  "speaker": "Unknown",
+  "en": "Because I think the piece that we can't forget here is this judgment and verification.",
+  "zh": "因为我觉得我们不能忘记的一点就是这个判断和验证。"
+ },
+ {
+  "seg": 160,
+  "start": 755.207,
+  "end": 763.349,
+  "speaker": "Unknown",
+  "en": "So yes, this goes and helps your agent to produce something better, but how can we also add a way for you to judge, okay, is the agent actually staying on track?",
+  "zh": "所以是的,这能帮助你的智能体产出更好的东西,但我们如何也能加上一种方式让你判断,好,智能体是不是真的在正轨上?"
+ },
+ {
+  "seg": 161,
+  "start": 763.409,
+  "end": 767.37,
+  "speaker": "Unknown",
+  "en": "Is it actually performing well to adhere to this brand, or how is it failing, or where is it failing?",
+  "zh": "它是不是真的表现良好、遵循了这个品牌,或者它是怎么失败的,或者它在哪里失败?"
+ },
+ {
+  "seg": 162,
+  "start": 767.91,
+  "end": 772.835,
+  "speaker": "Unknown",
+  "en": "So this is the first flow, I would say, that we are seeing that is really helping to improve quality.",
+  "zh": "所以这是第一个流程,我想说,我们看到的真正有助于提升质量的流程。"
+ },
+ {
+  "seg": 163,
+  "start": 773.536,
+  "end": 776.799,
+  "speaker": "Unknown",
+  "en": "And what's cool is, of course, we're talking here about an example of a brand that already exists.",
+  "zh": "而且很酷的是,当然,我们这里谈的是一个已经存在的品牌的例子。"
+ },
+ {
+  "seg": 164,
+  "start": 776.859,
+  "end": 783.205,
+  "speaker": "Unknown",
+  "en": "But let's say you have an agent or you have an app, and the person that is using your app actually doesn't have a brand.",
+  "zh": "但比如说你有一个智能体或者你有一个应用,而使用你应用的人实际上没有品牌。"
+ },
+ {
+  "seg": 165,
+  "start": 783.305,
+  "end": 784.427,
+  "speaker": "Unknown",
+  "en": "Let's say they're an average consumer.",
+  "zh": "比如他们是一个普通消费者。"
+ },
+ {
+  "seg": 166,
+  "start": 784.867,
+  "end": 789.532,
+  "speaker": "Unknown",
+  "en": "Can we actually, one of the things that we're creating is basically like a repository, like an index of brands.",
+  "zh": "我们能不能真正——我们正在创造的东西之一基本上就像一个仓库,像一个品牌索引。"
+ },
+ {
+  "seg": 167,
+  "start": 790.332,
+  "end": 805.467,
+  "speaker": "Unknown",
+  "en": "of almost like pre-created brand systems so that if they want something that feels dreamy, why not retrieve a dreamy brand system that already has been thought out to be cohesive instead of doing like a generative approach the moment of that might end up not so great or might end up again in those pillars of slop.",
+  "zh": "几乎就像预先创建好的品牌系统,这样如果他们想要有梦幻感的东西,为什么不直接检索一个已经过通盘考虑、具有连贯性的梦幻品牌系统,而不是在那个时刻用生成的方式做出来的东西最终可能不太理想,或者又落入那些 slop 的特征里。"
+ },
+ {
+  "seg": 168,
+  "start": 806.895,
+  "end": 808.695,
+  "speaker": "Unknown",
+  "en": "And I want to show you a real example of this in action.",
+  "zh": "我想给你们展示一个这在实际运行中的真实例子。"
+ },
+ {
+  "seg": 169,
+  "start": 808.715,
+  "end": 812.477,
+  "speaker": "Unknown",
+  "en": "So there's this company that I think is awesome called the General Intelligence Company of New York.",
+  "zh": "有一家公司我觉得很棒,叫做 the General Intelligence Company of New York。"
+ },
+ {
+  "seg": 170,
+  "start": 812.537,
+  "end": 813.337,
+  "speaker": "Unknown",
+  "en": "They have a sick website.",
+  "zh": "他们的网站很酷。"
+ },
+ {
+  "seg": 171,
+  "start": 813.357,
+  "end": 814.017,
+  "speaker": "Unknown",
+  "en": "You guys should check it out.",
+  "zh": "你们应该去看看。"
+ },
+ {
+  "seg": 172,
+  "start": 814.937,
+  "end": 821.839,
+  "speaker": "Unknown",
+  "en": "But basically, if you ask Claude Design to create a slide deck in their branding, the middle one is basically what it comes up with.",
+  "zh": "但基本上,如果你让 Claude Design 按照他们的品牌制作一套幻灯片,中间那个基本上就是它做出来的东西。"
+ },
+ {
+  "seg": 173,
+  "start": 821.859,
+  "end": 823.98,
+  "speaker": "Unknown",
+  "en": "So the one on the left is the original brand.",
+  "zh": "左边那个是原始品牌。"
+ },
+ {
+  "seg": 174,
+  "start": 824.84,
+  "end": 826.3,
+  "speaker": "Unknown",
+  "en": "This is kind of the default.",
+  "zh": "这算是默认水平。"
+ },
+ {
+  "seg": 175,
+  "start": 826.82,
+  "end": 836.063,
+  "speaker": "Unknown",
+  "en": "And if you kind of use this extraction, actually, in the process, it creates something that's way more high fidelity with the original and that even in the details, I would say, feels right.",
+  "zh": "而如果你用这种提取,实际上,在这个过程中,它会创造出与原始品牌保真度更高得多的东西,我可以说,甚至在细节上都感觉是对的。"
+ },
+ {
+  "seg": 176,
+  "start": 836.523,
+  "end": 838.745,
+  "speaker": "Unknown",
+  "en": "So this is just to show an example of it in action.",
+  "zh": "这只是为了展示一个它实际运行的例子。"
+ },
+ {
+  "seg": 177,
+  "start": 840.426,
+  "end": 851.696,
+  "speaker": "Unknown",
+  "en": "But yeah, I think all of us would agree that human taste and kind of the peak of human craft is always going to be deeply valuable.",
+  "zh": "但是,是的,我觉得我们所有人都会同意,人类品味和人类技艺的巅峰永远会有深刻的价值。"
+ },
+ {
+  "seg": 178,
+  "start": 852.096,
+  "end": 861.905,
+  "speaker": "Unknown",
+  "en": "And that right now, I think the challenge is we are almost even not earning the right to debate this, how can we have models reach this pinnacle of taste?",
+  "zh": "而现在,我认为挑战在于,我们甚至几乎还没有赢得争论这个问题的权利——我们如何让模型达到品味的顶峰?"
+ },
+ {
+  "seg": 179,
+  "start": 861.925,
+  "end": 862.905,
+  "speaker": "Unknown",
+  "en": "I don't think it's about that at all.",
+  "zh": "我觉得根本不是关于那个。"
+ },
+ {
+  "seg": 180,
+  "start": 862.925,
+  "end": 864.146,
+  "speaker": "Unknown",
+  "en": "It's like, how do we first just",
+  "zh": "而是像,我们如何首先只是"
+ },
+ {
+  "seg": 181,
+  "start": 864.887,
+  "end": 865.727,
+  "speaker": "Unknown",
+  "en": "Raise the bar.",
+  "zh": "提高门槛。"
+ },
+ {
+  "seg": 182,
+  "start": 865.787,
+  "end": 867.728,
+  "speaker": "Unknown",
+  "en": "The bar is kind of really, I would say, on the ground.",
+  "zh": "我想说,这个门槛基本上还在地上。"
+ },
+ {
+  "seg": 183,
+  "start": 867.748,
+  "end": 876.912,
+  "speaker": "Unknown",
+  "en": "And so I think all of this work that we're putting into how do we decompose a problem and how do we measure it is exactly so that we can at least improve this bar of quality.",
+  "zh": "所以我认为我们投入到如何分解问题、如何衡量问题上的所有这些工作,正是为了让我们至少能提升这个质量门槛。"
+ },
+ {
+  "seg": 184,
+  "start": 876.932,
+  "end": 878.072,
+  "speaker": "Unknown",
+  "en": "And I think we have to start with that.",
+  "zh": "而且我认为我们必须从这里开始。"
+ },
+ {
+  "seg": 185,
+  "start": 881.353,
+  "end": 881.673,
+  "speaker": "Unknown",
+  "en": "That's it.",
+  "zh": "就是这些。"
+ },
+ {
+  "seg": 186,
+  "start": 882.194,
+  "end": 883.854,
+  "speaker": "Unknown",
+  "en": "Thank you very much for the time.",
+  "zh": "非常感谢大家的时间。"
+ },
+ {
+  "seg": 187,
+  "start": 884.475,
+  "end": 885.155,
+  "speaker": "Unknown",
+  "en": "This is awesome.",
+  "zh": "这太棒了。"
+ },
+ {
+  "seg": 188,
+  "start": 895.339,
+  "end": 895.399,
+  "speaker": "Unknown",
+  "en": ".",
+  "zh": "."
+ },
+ {
+  "seg": 189,
+  "start": 895.439,
+  "end": 895.459,
+  "speaker": "Unknown",
+  "en": ".",
+  "zh": "."
+ }
+]

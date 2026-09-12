@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]] [[Drew]]
+[[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Cursor":55,"Claude Code":55,"Bolt":3,"Lovable":15,"Linear":8,"Anthropic":115,"Composer":1,"Base44":3,"Codex":44}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Cursor":55,"Claude Code":56,"Bolt":3,"Lovable":15,"Linear":8,"Anthropic":116,"Composer":1,"Base44":3,"Codex":45}</script>
 
 <script>
 (function(){

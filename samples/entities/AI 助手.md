@@ -28,7 +28,7 @@ aliases: ["AI assistant", "AI assistants"]
 
 [[Apple]] · [[Whitney Wolfe Herd]] · [[Harry Stebbings]] · [[Bumble]] · [[JD]] · [[滑动]] · [[Town]] · [[AI]] · [[Plaid]] · [[推荐引擎]]
 
-<script type="application/json" class="pd-epn">{"Apple":16,"Whitney Wolfe Herd":1,"Harry Stebbings":15,"Bumble":1,"JD":1,"滑动":1,"Town":3,"AI":16,"Plaid":2,"推荐引擎":1}</script>
+<script type="application/json" class="pd-epn">{"Apple":17,"Whitney Wolfe Herd":1,"Harry Stebbings":15,"Bumble":1,"JD":1,"滑动":1,"Town":3,"AI":16,"Plaid":2,"推荐引擎":1}</script>
 
 <script>
 (function(){

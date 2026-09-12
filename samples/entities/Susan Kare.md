@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Maximillian Piras]] [[Vincent Wendy]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]] [[Elaina O'Mahoney]] [[Srini Raghavan]]
+[[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Tyler Bryson]] [[Forrest Li]] [[Daniel Blum]] [[Tara Seshan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Apple":16,"Macintosh":1,"icon":1,"font":1,"Chicago":2,"bitmap":1,"Happy Mac":1,"Microsoft":24,"Facebook":11,"General Magic":2}</script>
+<script type="application/json" class="pd-epn">{"Apple":17,"Macintosh":1,"icon":1,"font":1,"Chicago":2,"bitmap":1,"Happy Mac":1,"Microsoft":24,"Facebook":11,"General Magic":2}</script>
 
 <script>
 (function(){

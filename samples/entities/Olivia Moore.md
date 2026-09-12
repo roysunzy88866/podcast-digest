@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":2,"Stein Pella":1,"Lassie":1,"智能体":219,"人在回路":7,"现有巨头":1,"Superhuman":4,"Stripe":29,"Workday":4}</script>
+<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":2,"Stein Pella":1,"Lassie":1,"智能体":222,"人在回路":8,"现有巨头":1,"Superhuman":4,"Stripe":29,"Workday":4}</script>
 
 <script>
 (function(){
