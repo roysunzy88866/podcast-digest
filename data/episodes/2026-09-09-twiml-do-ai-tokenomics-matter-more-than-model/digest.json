@@ -1,0 +1,208 @@
+{
+  "title_zh": "斯坦福语言学家的代币经济学：你的 token 贬值了",
+  "tldr": "斯坦福教授、BigSpin 联合创始人 Chris Patts 提出「代币经济学」框架，用 CPI 指数测量 token 的真实购买力，发现 token 正在贬值。",
+  "digest_md": "AI 使用的真实成本正在浮出水面，而「我们的 token 到底买到了什么」成了没人认真算过的账。提出这个问题的人是斯坦福语言学教授、初创公司 BigSpin 联合创始人 Chris Potts——他的博士论文研究的是脏话，如今研究的是大模型。他给这种现象起了个名字：tokenflation(代币通胀)。\n\n## token 正在贬值\n\nChris 的切入点很直接：大供应商正在试探着向用户收取真实成本，再加上他们冲刺 IPO 所需的利润。有人发推说 Copilot 通知他上个月账单 500 美元，按新的计费方式下个月将是 11,000 美元——「就像以前打网约车去机场 20 美元，现在要 90 美元，但这更像是 20 涨到 500」。于是人们开始追问：买这些 token 的投资回报率到底是多少？[01:42–02:24 Chris Potts]\n\n## 给 token 编一个「消费者价格指数」\n\n怎么回答这个问题？他的团队借了经济学家的框架：像 CPI(消费者价格指数)那样，先定义一个「商品篮子」——但这里的商品不是鸡蛋和房租，而是工程产出：一个总结、一个 pull request、一次 bug 修复，甚至更宽泛的需求发现和知识积累。然后用「token 花费 ÷ 产出的商品」来衡量 token 的购买力，再做「享乐调整」——比如模型变好了，质量要计入。他们用的质量度量是「代码存活率」：在仓库里存活超过四天的代码行数。[29:30–31:18 Chris Potts]\n\n基于斯坦福发布的 SweChat 基准(约 6000 个真实编码会话的完整元数据)，他们测量了今年 2 月到 4 月中旬 Opus 4.6 的使用：**token 的购买力在下降**——即便用代码存活率做了质量上调。而价值到底去哪了，一个确定的因果因素是 token 用途的迁移：2 月大部分 token 用于生成代码，到 4 月中旬已经相当平均地分给了代码生成、思考和向用户做解释。解释里有价值，但那种价值不反映在 PR 数量上。[31:40–32:48 Chris Potts]\n\n同一时期 Anthropic 还至少两次更改了模型的默认推理档位(从 high 降到 medium、修完上下文管理的 bug 又调回 high),还改了默认上下文窗口——想在这种外部事件不断的环境里预测 token 支出，他直言「基本不可能」。[42:18–43:08 Chris Potts]\n\n## token 的真实成本：每 1 美元可能是 2 到 20 美元\n\ntoken 的真实成本，估计值差异巨大：每花 1 美元，真实成本可能低到 2 美元、高到 20 美元，因为很难把研发、未来建设和折旧都算进去。但「价值在哪里、谁来支付、支付多少」——他认为对全球经济而言没有比这更重要的问题了。而且关键在于：如果 token 涨价只是因为模型思考更多、结果指数级变好，那支出完全合理，「但那不是我们看到的图景」。[43:09–44:22 Chris Potts]\n\n## 回击「bitter lesson」:你们的模型全是手工改出来的\n\n对话里最精彩的一段交锋：有人批评他谈架构是「不够信奉 bitter lesson」(即「别设计结构、只管堆算力堆数据」)。他的反驳是：回到 2017 年的 Transformer,如果真按 bitter lesson 一路放大——n 平方注意力配 100 万上下文窗口——生产出现在这些模型要花数万亿美元，纯属荒谬。人们实际做的是：重新设计位置编码以偏向局部关系、把 MLP 从窄而稠密改成宽而稀疏、打磨激活函数让量化不出外点。「现在的模型相比 2017 年的 Transformer 就是一艘忒修斯之船，唯一留存下来的只有注意力机制和前馈层——这些东西没有一样是 bitter lesson 式的，全都是基于先验和数据直觉、为了省钱做的分析工作。」[14:23–15:59 Chris Potts]\n\n由此引出他的一个犀利观点：学界流行说「我们不理解这些模型怎么工作」，但他认为「你们理解的程度远超你们所承认的——至少不亚于我的汽车修理工对我那辆车的理解」。正是这些深刻直觉让百万级上下文成为可能；说「不懂」是专业知识悖论：你知道得越多，看到的越是尚待解释的东西。[16:19–17:36 Chris Potts]\n\n架构上的不满他也没藏着：现在这种越堆越深的 Transformer 效率极低——那么深的层数并没有用来学模块化、递归的函数。也许用一半深度、四分之一宽度就能得到强得多的模型，那会彻底改写 AI 的经济学。[13:04–13:47 Chris Potts]\n\n## 推理时扩展的清醒曲线：大量 token,小幅收益\n\n至于 token 效率为什么突然成了热词，他说这毫不意外：推理时扩展(让模型在回答时生成大量 token)的曲线早就预测了这一切——对数尺度上多花 token 初期收益不错，但很快趋平，「你得花大量的 token 才能换来性能上的小幅提升」，而且这是推理时扩展的根本属性，与你选哪种方案无关。深层原因在于：Transformer 深度固定、没有递归，唯一的「递归」只能靠生成来凑。如果有了能递归的模型，也许更少的 token 换更大的收益。[33:11–35:21 Chris Potts]\n\n## DSPy 的启示：贡献不止是论文，而且提示词优化没有过时\n\n他的学生 Omar Khatab 创立的 DSPy（把提示词工程变成模块化、可优化编程框架的开源项目）体现了另一种科研观：论文只是贡献的一部分，开源发布和赋能他人才是中心。至于「模型变强了还需要 DSPy 吗」，他反将一军：做个简单的标注实验，拿几个不同模型、或同一个模型跑几次略有不同的数据——你会被仍然存在的变化量震撼。几个 Anthropic 和 GPT 模型给同一份申请书标题投票，每个模型的答案都不一样，还都附上「显然这是最佳选择」的详细理由。在主观任务上，不给出非常具体的判定标准，你就有大麻烦。[18:19–20:12 Chris Potts]\n\n[20:12–24:43 Chris Potts]\n\n## 专家靠「怼」模型取胜，新手委托反而失败\n\nBigSpin 基于 Anthropic 的 AI 熟练度指数做了研究，头条结论：专家表现出「增强式」风格——与 AI 迭代、反驳、抱怨、改需求；新手则「委托」——信任 AI、不加批判地接受。而且前者是成功的因果因素：**正是那些摩擦让专家能更可靠地完成更难的事**；新手接受的东西常常是错的，还无法从基础任务升级。[47:48–49:27 Chris Potts]\n\n给组织的建议分两档：刚起步的，做个实验——就你真正是专家的话题和最好的模型讨论，数数你有多少次必须反驳，然后意识到：在你不懂的领域，它可能同样错误百出。已经走得远的，让一组 LLM 相互交互来改进——BigSpin 现在做 PR,第一轮评审是智能体们互相协作、互相反驳，解决完之后人类才出场，「但让一个智能体自己审自己，它们常常只是自我强化；正是『对手团队』才具有变革性」。[51:21–52:34 Chris Potts]\n\n一个恼人的悖论随之而来：这暗示你不该在没有专业能力评估答案的领域用 AI——可那恰恰是你最需要帮助的地方。软件之所以是例外，是因为它有终极验证步骤：跑一下程序看结果对不对，不需要全面知识，只需要知道想要什么。离开编程、进入法律这类需求严格却没被代码固化的领域，整个图景就崩塌了。[52:44–54:18 Chris Potts]\n\n## 下一个赌注：字节级模型、递归架构、数据投毒\n\n往后看，他押注的方向：一是学生 Julie Kalini 倡导的字节级模型(无分词器，直接在字节上建模)——既是真正公平的多语言模型的关键，也可能是一种推理时扩展；二是递归架构。更大胆的问题：「为什么我们总假设要用基于梯度的学习？没人在探索替代方案，因为人人都把它当真理。」明知千分之一的赌注才会成功，「但如果你不打算冒那种险，当学术研究者还有什么意义？」[58:08–59:18 Chris Potts]\n\n而在可解释性与安全的结合点上，他认为数据才是根本：有证据表明，在预训练数据集里植入极少量样本，就能显著影响最终模型的倾向、偏好和怪癖——数据投毒能藏多深、最少多少样本、为什么会发生，都将是紧迫问题。[57:13–57:46 Chris Potts]\n\n## 本集带走\n\n- **用「代币 CPI」给自己记账**：定义你的产出商品篮子(PR、修复、知识积累)，用 token 花费除以产出，并按质量(如代码存活率)做调整——token 的购买力确实在降，别只看账单。\n- **token 用途在迁移**：同样多的花费，越来越多花在思考和解释而非代码上——这类价值不体现在 PR 数里，评估产出时要选对指标。\n- **对「苦涩教训」的回击**：现在的 Transformer 是无数基于数据直觉的省钱改造堆出来的，不是纯堆算力的产物；架构创新(递归、字节级、甚至放弃梯度)是尚未穷尽的机会。\n- **用 AI 的正确姿势是怼它**：迭代、反驳、改需求；可以拿你真正精通的领域测试模型，体验它错得多频繁。让多个 AI 组成「对手团队」互相评审，别让一个模型自己审自己。\n- **代码是 AI 最强领域的原因是可验证**：跑程序看结果就是验证步骤；在没有这种验证的领域(如法律)，缺乏专业评估能力时用 AI 是真正的风险。",
+  "quotes": [
+    {
+      "en": "All of this analysis work built on intuitions about data and learning led to the model that we have now, which is like a ship of Theseus compared to the 2017 Transformer.",
+      "zh": "所有这些建立在对数据和学习直觉之上的分析工作,造就了我们如今拥有的模型——相比 2017 年的 Transformer,它就像一艘忒修斯之船。",
+      "timestamp": "15:29",
+      "speaker": "Chris Potts"
+    },
+    {
+      "en": "And so when people say, oh, we don't understand, I say, I think you understand much better than you're letting on.",
+      "zh": "所以当人们说「哦,我们不理解」时,我说:我认为你们理解的程度远超你们所承认的。",
+      "timestamp": "16:53",
+      "speaker": "Chris Potts"
+    },
+    {
+      "en": "It's probably a paradox of expertise, right? So the more you do know, the more you feel like there are also mysteries.",
+      "zh": "这大概是一种专业知识的悖论,对吧?你知道得越多,你就越觉得还有谜团存在。",
+      "timestamp": "17:15",
+      "speaker": "Chris Potts"
+    },
+    {
+      "en": "And since they do it very concertedly, you can actually get systematically biased behavior from something that you thought was a very good specification.",
+      "zh": "而且由于它们非常齐心协力地这样做,你实际上可能从一个你原本认为非常好的规格说明中得到系统性的偏差行为。",
+      "timestamp": "25:04",
+      "speaker": "Chris Potts"
+    },
+    {
+      "en": "I saw a tweet from Ed Zitron, just a screenshot from someone who was noticing that Copilot was telling them that their bill last month was $500, and if they keep up the way they are with Copilot's new billing, it will be $11,000 in the next month.",
+      "zh": "我看到 Ed Zitron 的一条推文,只是某人发的截图,注意到 Copilot 告诉他们上个月的账单是 500 美元,如果他们按照 Copilot 新的计费方式继续下去,下个月将是 11,000 美元。",
+      "timestamp": "26:37",
+      "speaker": "Chris Potts"
+    },
+    {
+      "en": "I mean, after all, so all of this stuff is a kind of patch job on the fact that there's no recursion in the depth.",
+      "zh": "我的意思是,毕竟,所有这些东西都是在深度中没有递归这一事实之上的一种打补丁。",
+      "timestamp": "34:52",
+      "speaker": "Chris Potts"
+    },
+    {
+      "en": "I think at the current moment, we just don't know, but there couldn't be a more significant question for the global economy, basically, than where the value is and who's going to pay and how much.",
+      "zh": "我认为在当下,我们就是不知道,但基本上,对于全球经济而言,没有比价值在哪里、谁来支付、支付多少更重要的问题了。",
+      "timestamp": "43:25",
+      "speaker": "Chris Potts"
+    },
+    {
+      "en": "Yes, your token is not buying you what it once did, according to everything we can think to measure here.",
+      "zh": "是的,根据我们在这里能想到的一切测量手段,你的 token 已经买不到它曾经能买到的东西了。",
+      "timestamp": "43:56",
+      "speaker": "Chris Potts"
+    },
+    {
+      "en": "So, and this relates to a line I've had consistently, which is that we should think in terms of systems, not in terms of models.",
+      "zh": "这关系到我一直坚持的一个观点,就是我们应该从系统的角度思考,而不是从模型的角度思考。",
+      "timestamp": "45:11",
+      "speaker": "Chris Potts"
+    },
+    {
+      "en": "Experts can do harder things more reliably as a result of all that friction they introduce, all that pushback.",
+      "zh": "正是由于他们引入的所有那些摩擦、所有那些反驳,专家才能更可靠地完成更难的事情。",
+      "timestamp": "49:09",
+      "speaker": "Chris Potts"
+    },
+    {
+      "en": "That verification step that doesn't imply I have comprehensive knowledge, it just implies that I know what I want to see in the end, is so critical.",
+      "zh": "那个验证步骤——它并不意味着我拥有全面的知识,只意味着我知道我最终想看到什么——实在是太关键了。",
+      "timestamp": "53:30",
+      "speaker": "Chris Potts"
+    },
+    {
+      "en": "Same exact issue, if all the code review agents are biased in the same way, they will miss exactly the same class of bugs and then we're all sunk.",
+      "zh": "完全相同的问题,如果所有的代码审查智能体都以同样的方式带有偏见,它们就会漏掉完全同一类 bug,那我们就全完了。",
+      "timestamp": "55:13",
+      "speaker": "Chris Potts"
+    },
+    {
+      "en": "But what's the point of being an academic researcher if you're not going to take that kind of risk?",
+      "zh": "但如果你不打算承担那种风险,那当学术研究者还有什么意义?",
+      "timestamp": "59:13",
+      "speaker": "Chris Potts"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:48",
+      "speaker": "Chris Potts",
+      "en": "The analogy here is like it used to cost me $20 to take a ride share to the airport, Uber or Lyft, and now it costs $90.",
+      "zh": "这里的类比就像是,以前打个网约车去机场要花 20 美元,Uber 或 Lyft,现在要 90 美元。"
+    },
+    {
+      "timestamp": "15:29",
+      "speaker": "Chris Potts",
+      "en": "All of this analysis work built on intuitions about data and learning led to the model that we have now, which is like a ship of Theseus compared to the 2017 Transformer.",
+      "zh": "所有这些建立在对数据和学习直觉之上的分析工作,造就了我们如今拥有的模型——相比 2017 年的 Transformer,它就像一艘忒修斯之船。"
+    },
+    {
+      "timestamp": "15:42",
+      "speaker": "Chris Potts",
+      "en": "And I claim for you that none of that stuff is bitter lesson-filled.",
+      "zh": "而我向你们主张:这些东西没有一样是充满苦涩教训色彩的。"
+    },
+    {
+      "timestamp": "16:53",
+      "speaker": "Chris Potts",
+      "en": "And so when people say, oh, we don't understand, I say, I think you understand much better than you're letting on.",
+      "zh": "所以当人们说「哦,我们不理解」时,我说:我认为你们理解的程度远超你们所承认的。"
+    },
+    {
+      "timestamp": "16:59",
+      "speaker": "Chris Potts",
+      "en": "I think you understand at least as well as my car mechanic understands how my car works.",
+      "zh": "我认为你们的理解程度,至少不亚于我的汽车修理工对我那辆车如何运作的理解。"
+    },
+    {
+      "timestamp": "17:18",
+      "speaker": "Chris Potts",
+      "en": "It's probably a paradox of expertise, right? So the more you do know, the more you feel like there are also mysteries.",
+      "zh": "这大概是一种专业知识的悖论,对吧?你知道得越多,你就越觉得还有谜团存在。"
+    },
+    {
+      "timestamp": "21:55",
+      "speaker": "Chris Potts",
+      "en": "They will be blown away by the amount of variation that still exists.",
+      "zh": "它们会被仍然存在的变化量所震撼。"
+    },
+    {
+      "timestamp": "25:04",
+      "speaker": "Chris Potts",
+      "en": "And since they do it very concertedly, you can actually get systematically biased behavior from something that you thought was a very good specification.",
+      "zh": "而且由于它们非常齐心协力地这样做,你实际上可能从一个你原本认为非常好的规格说明中得到系统性的偏差行为。"
+    },
+    {
+      "timestamp": "26:37",
+      "speaker": "Chris Potts",
+      "en": "I saw a tweet from Ed Zitron, just a screenshot from someone who was noticing that Copilot was telling them that their bill last month was $500, and if they keep up the way they are with Copilot's new billing, it will be $11,000 in the next month.",
+      "zh": "我看到 Ed Zitron 的一条推文,只是某人发的截图,注意到 Copilot 告诉他们上个月的账单是 500 美元,如果他们按照 Copilot 新的计费方式继续下去,下个月将是 11,000 美元。"
+    },
+    {
+      "timestamp": "33:53",
+      "speaker": "Chris Potts",
+      "en": "You got to spend a lot of tokens for small gains in performance.",
+      "zh": "你得花大量的 token 才能换来性能上的小幅提升。"
+    },
+    {
+      "timestamp": "34:52",
+      "speaker": "Chris Potts",
+      "en": "I mean, after all, so all of this stuff is a kind of patch job on the fact that there's no recursion in the depth.",
+      "zh": "我的意思是,毕竟,所有这些东西都是在深度中没有递归这一事实之上的一种打补丁。"
+    },
+    {
+      "timestamp": "43:25",
+      "speaker": "Chris Potts",
+      "en": "I think at the current moment, we just don't know, but there couldn't be a more significant question for the global economy, basically, than where the value is and who's going to pay and how much.",
+      "zh": "我认为在当下,我们就是不知道,但基本上,对于全球经济而言,没有比价值在哪里、谁来支付、支付多少更重要的问题了。"
+    },
+    {
+      "timestamp": "43:56",
+      "speaker": "Chris Potts",
+      "en": "Yes, your token is not buying you what it once did, according to everything we can think to measure here.",
+      "zh": "是的,根据我们在这里能想到的一切测量手段,你的 token 已经买不到它曾经能买到的东西了。"
+    },
+    {
+      "timestamp": "45:11",
+      "speaker": "Chris Potts",
+      "en": "So, and this relates to a line I've had consistently, which is that we should think in terms of systems, not in terms of models.",
+      "zh": "这关系到我一直坚持的一个观点,就是我们应该从系统的角度思考,而不是从模型的角度思考。"
+    },
+    {
+      "timestamp": "48:50",
+      "speaker": "Chris Potts",
+      "en": "It's really a collaborative mode, whereas novices, low-fluency users, delegate.",
+      "zh": "这真的是一种协作模式,而新手、低熟练度用户则是委托。"
+    },
+    {
+      "timestamp": "49:09",
+      "speaker": "Chris Potts",
+      "en": "Experts can do harder things more reliably as a result of all that friction they introduce, all that pushback.",
+      "zh": "正是由于他们引入的所有那些摩擦、所有那些反驳,专家才能更可靠地完成更难的事情。"
+    },
+    {
+      "timestamp": "52:30",
+      "speaker": "Chris Potts",
+      "en": "It's that team of rivals thing that is transformative.",
+      "zh": "正是那种「对手团队」的东西才具有变革性。"
+    },
+    {
+      "timestamp": "53:30",
+      "speaker": "Chris Potts",
+      "en": "That verification step that doesn't imply I have comprehensive knowledge, it just implies that I know what I want to see in the end, is so critical.",
+      "zh": "那个验证步骤——它并不意味着我拥有全面的知识,只意味着我知道我最终想看到什么——实在是太关键了。"
+    },
+    {
+      "timestamp": "55:13",
+      "speaker": "Chris Potts",
+      "en": "Same exact issue, if all the code review agents are biased in the same way, they will miss exactly the same class of bugs and then we're all sunk.",
+      "zh": "完全相同的问题,如果所有的代码审查智能体都以同样的方式带有偏见,它们就会漏掉完全同一类 bug,那我们就全完了。"
+    },
+    {
+      "timestamp": "59:13",
+      "speaker": "Chris Potts",
+      "en": "But what's the point of being an academic researcher if you're not going to take that kind of risk?",
+      "zh": "但如果你不打算承担那种风险,那当学术研究者还有什么意义?"
+    }
+  ],
+  "voice_script": "今天聊一个特别实际的问题：你的 token 到底贬值了没有？提出这个问题的人，是斯坦福的语言学教授 Chris Potts,也是一家叫 BigSpin 的初创公司的联合创始人。有意思的是，他的博士论文研究的是脏话，现在研究的是大模型。这一期聊的核心，就是他提出的一个新框架——他管这现象叫 tokenflation,代币通胀：我们花出去的 token,购买力正在下降。\n\n这事怎么来的？很简单，大供应商开始试探着把真实成本转给用户，再加上冲刺 IPO 需要的利润。有人发了条推，说 Copilot 通知上个月账单是 500 美元，按新计费方式，下个月将是 11,000 美元。打个比方，就像以前打网约车去机场 20 美元，现在要 90 美元——但这个更夸张，是从 20 涨到 500。于是人们开始追问：买这些 token,投资回报率到底是多少？\n\n怎么回答这个问题？Potts 的团队借了经济学家的老办法，像算 CPI 那样，先定义一个商品篮子。只不过这里的商品不是鸡蛋和房租，而是工程产出：一个总结、一个 pull request、一次 bug 修复，甚至更宽泛的需求发现和知识积累。然后用 token 花费除以产出的商品，来衡量购买力。这里还有个关键步骤，叫享乐调整——模型变好了，质量得计入。他们用的质量度量很聪明，叫代码存活率：在仓库里活过四天的代码行数。\n\n结果呢？基于斯坦福发布的 SweChat 基准，大约六千个真实编码会话的完整元数据，他们测了今年 2 月到 4 月中旬 Opus 4.6 的使用，发现即便做了质量上调，token 的购买力还是在下降。那价值到底去哪了？一个确定的因果因素是用途的迁移：2 月大部分 token 用于生成代码，到 4 月中旬，已经相当平均地分给了代码生成、思考和向用户做解释。解释里当然有价值，但这种价值不体现在 PR 的数量上。更麻烦的是，同一时期 Anthropic 还至少两次更改默认推理档位，还改了默认上下文窗口。想在这种环境里预测 token 支出？原话是：基本不可能。\n\n顺便说一句，token 的真实成本本身就极难算清——每花 1 美元，真实成本可能低到 2 美元，高到 20 美元，因为研发、未来建设、折旧都很难算进去。但 Potts 认为，对全球经济而言，没有比「价值在哪里、谁来支付、支付多少」更重要的问题了。而且关键在于：如果涨价只是因为模型思考更多、结果指数级变好，那支出完全合理——但那不是我们看到的图景。\n\n说到这，就引出了对话里最精彩的一段交锋。有人批评他谈架构，是不够信奉 bitter lesson——就是那句流行的「别设计结构、只管堆算力堆数据」。反驳很硬：回到 2017 年的 Transformer,如果真按这个思路一路放大，拿平方级的注意力去配一百万的上下文窗口，生产出现在这些模型要花数万亿美元，纯属荒谬。人们实际做的是什么？重新设计位置编码以偏向局部关系，把 MLP 从窄而稠密改成宽而稀疏，打磨激活函数让量化不出外点。原话说，现在的模型相比 2017 年的 Transformer 就是一艘忒修斯之船，唯一留存下来的只有注意力机制和前馈层——这些东西没有一样是 bitter lesson 式的，全都是基于先验和数据直觉、为了省钱做的分析工作。\n\n由此还引出一个更犀利的观点。学界流行说「我们不理解这些模型怎么工作」，但 Potts 说：你们理解的程度远超你们所承认的——至少不亚于我的汽车修理工对我那辆车的理解。正是这些深刻直觉，让百万级上下文成为可能。说「不懂」，其实是一种专业知识的悖论：你知道得越多，看到的越是尚待解释的东西。\n\n这条思路再往下推，就解释了 token 效率为什么突然成了热词。推理时扩展——就是让模型回答时生成大量 token——它的曲线早就预测了这一切：对数尺度上多花 token,初期收益不错，但很快趋平，你得花大量的 token 才能换来性能上的小幅提升，而且这是根本属性，换哪种方案都一样。深层原因在于：Transformer 深度固定、没有递归，唯一的递归只能靠生成来凑。如果有了能递归的模型，也许更少的 token 就能换更大的收益。\n\n那在实践层面，该怎么用 AI?BigSpin 基于 Anthropic 的 AI 熟练度指数做了研究，头条结论是：专家表现出「增强式」风格——和 AI 迭代、反驳、抱怨、改需求；新手则是「委托」——信任 AI、不加批判地接受。而且前者是成功的因果因素：正是那些摩擦，让专家能更可靠地完成更难的事。给组织的建议有两档。刚起步的，做个实验：挑一个你真正是专家的话题，和最好的模型讨论，数数你有多少次必须反驳——然后意识到，在你不懂的领域，它可能同样错误百出。已经走得远的，让一组 LLM 相互交互、互相反驳——BigSpin 现在做 PR,第一轮评审是智能体们互相协作，解决完之后人类才出场。因为让一个智能体自己审自己，常常只是自我强化，正是对手团队才具有变革性。\n\n不过这里有个恼人的悖论：这暗示你不该在没有专业能力评估答案的领域用 AI——可那恰恰是你最需要帮助的地方。软件之所以是例外，是因为它有终极验证步骤：跑一下程序看结果对不对，不需要全面知识，只需要知道想要什么。一旦离开编程，进入法律这类需求严格却没被代码固化的领域，整个图景就崩塌了。\n\n往后看，Potts 押注几个方向：学生倡导的字节级模型，直接在字节上建模，这既是真正公平的多语言模型的关键，也可能是一种推理时扩展；还有递归架构；更大胆的问题是——为什么我们总假设要用基于梯度的学习？明知千分之一的赌注才会成功，但如果不打算冒那种险，当学术研究者还有什么意义？而在安全这个点上，他认为数据才是根本：有证据表明，在预训练数据集里植入极少量样本，就能显著影响最终模型的倾向和怪癖。\n\n最后留一句这集最值得记住的话。那些看似「不懂模型」的人做的所有分析工作，基于对数据和学习直觉，恰恰造就了我们如今拥有的模型。所以我们并不是真的不理解 AI——理解得越深，才越明白 token 这笔账，必须自己算。"
+}

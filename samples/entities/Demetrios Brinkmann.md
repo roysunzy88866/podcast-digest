@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":7,"智能体":229,"计算机使用":10,"MCP":38,"Agentic AI Foundation":1,"harness":30,"Claude Code":58,"MLOps community":1,"智能体蜂群":1,"去中介化":2}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":7,"智能体":230,"计算机使用":10,"MCP":38,"Agentic AI Foundation":1,"harness":30,"Claude Code":59,"MLOps community":1,"智能体蜂群":1,"去中介化":2}</script>
 
 <script>
 (function(){

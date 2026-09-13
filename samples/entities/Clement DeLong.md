@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hugging Face":20,"开源":21,"前沿模型":16,"本地模型":3,"模型路由":6,"蒸馏":10,"推理":42,"护栏":43,"Anthropic":118,"OpenAI":105}</script>
+<script type="application/json" class="pd-epn">{"Hugging Face":20,"开源":21,"前沿模型":16,"本地模型":3,"模型路由":6,"蒸馏":10,"推理":42,"护栏":43,"Anthropic":119,"OpenAI":105}</script>
 
 <script>
 (function(){

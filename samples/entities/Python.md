@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Python</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Python">PY</div><div class="pi"><h1 class="pt">Python</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Python">PY</div><div class="pi"><h1 class="pt">Python</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(54:25起):本集说是 Modal 的第一个 SDK 语言，因为这是人们做数据和机器学习用的语言，并指出即使在智能体时代，Python 依然在推理和训练领域占主导。
 - **[[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]]**(04:58起):本集把它说成:一门老牌语言,25 年了还有 bug;想在里面做完整执行跟踪慢得要命,但在 BAML 桥接下可以直接调 BAML 函数并跨语言传 lambda、闭包。
 - **[[2026-08-26-pragmatic-why-performant-code-matters-but-gets|《Casey Moratori：为什么你的软件慢了100倍》]]**(39:31起):本集说 Python 里做 A+B 底层可能要上百条 CPU 指令，而 C 只需一条 add，所以 Python 必须调用 C 写的库做重计算
+- **[[2026-09-08-generalist-an-ex-spacex-engineer-on-elon-musk--star|《SpaceX 老兵造硬件控制软件：Revel 如何把卡在 80 年代的工业软件拉进 21 世纪》]]**(21:04起):本集把 Python 当作易上手的标杆——Revel 语言从它借鉴可及性;同时批评其运行时不安全:一个字符串插值错误就能在 12 小时测试中途杀掉运行时系统。
 - **[[2026-09-09-talks-the-exact-tools-used-to-port-a-massive-c|《一个周末把几十万行代码从 Python 移植到 TypeScript》]]**(00:12起):本集里是说话人原有的技术栈，因部署方案不如 Bun 而被整个移植走。
 
 ## ① 提到它的金句
@@ -26,20 +27,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为概念(提及)
 - [[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]] — 作为概念(提及)
 - [[2026-08-26-pragmatic-why-performant-code-matters-but-gets|《Casey Moratori：为什么你的软件慢了100倍》]] — 作为概念(提及)
+- [[2026-09-08-generalist-an-ex-spacex-engineer-on-elon-musk--star|《SpaceX 老兵造硬件控制软件：Revel 如何把卡在 80 年代的工业软件拉进 21 世纪》]] — 作为概念
 - [[2026-09-09-talks-the-exact-tools-used-to-port-a-massive-c|《一个周末把几十万行代码从 Python 移植到 TypeScript》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[TypeScript]] · [[CI-CD]] · [[Swyx]] · [[Vaibhav Gupta]] · [[Casey Moratori]] · [[Claude Code]] · [[Akshat Bubna]] · [[BAML]] · [[性能优化]]
+[[CI-CD]] · [[智能体]] · [[TypeScript]] · [[Swyx]] · [[Vaibhav Gupta]] · [[Casey Moratori]] · [[Mario]] · [[Claude Code]] · [[Akshat Bubna]] · [[BAML]]
 
-<script type="application/json" class="pd-epn">{"智能体":229,"TypeScript":2,"CI-CD":9,"Swyx":2,"Vaibhav Gupta":1,"Casey Moratori":1,"Claude Code":58,"Akshat Bubna":1,"BAML":1,"性能优化":1}</script>
+<script type="application/json" class="pd-epn">{"CI-CD":10,"智能体":230,"TypeScript":2,"Swyx":2,"Vaibhav Gupta":1,"Casey Moratori":1,"Mario":1,"Claude Code":59,"Akshat Bubna":1,"BAML":1}</script>
 
 <script>
 (function(){

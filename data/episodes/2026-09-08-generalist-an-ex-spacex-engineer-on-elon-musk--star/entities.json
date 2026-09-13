@@ -1,0 +1,973 @@
+{
+  "episode_id": "2026-09-08-generalist-an-ex-spacex-engineer-on-elon-musk--star",
+  "podcast": "The Generalist",
+  "date": "2026-09-08",
+  "tags": [
+    "硬件控制软件",
+    "SpaceX",
+    "编程语言",
+    "AI 与软件",
+    "创业公司故事"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "mario",
+      "type": "person",
+      "role": "host",
+      "name": "Mario",
+      "file": "Mario",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            122.188,
+            124.209
+          ],
+          "quote": "I'm Mario and this is The Generalist.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "scott-morton",
+      "type": "person",
+      "role": "cohost",
+      "name": "Scott Morton",
+      "file": "Scott Morton",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            83.521,
+            86.484
+          ],
+          "quote": "Founded in 2024 by SpaceX veteran Scott Morton,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "revel",
+      "type": "company",
+      "role": "company",
+      "name": "Revel",
+      "file": "Revel",
+      "primary": true,
+      "how_described": "本集主角:为造火箭、核反应堆、超音速飞机等公司提供硬件测试与控制软件平台的初创公司,两年融资 1.8 亿美元、估值刚过 10 亿,自研了专属编程语言。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            50.682,
+            58.823
+          ],
+          "quote": "One of the best parts of being at Revel is that in one day you can go to a nuclear reactor company, you can go to the most cutting edge satellite manufacturer, and then you can go to like a hypercar company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            75.772,
+            83.16
+          ],
+          "quote": "That's what makes Revel one of 2026's narrative violations, a software startup thriving amid the chill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            87.144,
+            96.251
+          ],
+          "quote": "Revel makes testing and control software for companies building rockets, supersonic aircraft, nuclear reactors, and other complex machines.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            115.505,
+            121.208
+          ],
+          "quote": "What he learned from Elon Musk and why Revel decided to create its own programming language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            126.35,
+            129.251
+          ],
+          "quote": "I'm really excited to chat and learn more about you and Revel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            130.912,
+            138.742
+          ],
+          "quote": "I think one of the interesting places to start is maybe noting the sense of Revel being almost a little bit of a narrative violation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            158.144,
+            165.892
+          ],
+          "quote": "Where's the disconnect that people miss in that narrative that leaves the space for Revel to thrive in the way that you have?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            198.786,
+            202.448
+          ],
+          "quote": "And at Revel, I mean, we are fully leveraging AI tools as much as we possibly can.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            315.477,
+            327.467
+          ],
+          "quote": "Yeah, I think it's part of the reason I was excited to have this conversation is that I think Revel feels like an example of what an amazing next-gen software company could look like that you don't want to outsource this capability in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            328.027,
+            337.835
+          ],
+          "quote": "Maybe to take another beat and give folks a better sense of what it is exactly that Revel does, can you sort of give folks a little bit of the texture there?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            467.24,
+            472.163
+          ],
+          "quote": "And I think, you know, there's definitely Revel is kind of part of a couple of companies now that are really focused on this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 97,
+          "t": [
+            495.233,
+            499.297
+          ],
+          "quote": "Also, could Revel have been invented any time in the last decade?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            534.364,
+            537.506
+          ],
+          "quote": "And then it's that experience what we were taking forward to Revel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            582.662,
+            587.785
+          ],
+          "quote": "Is that sort of a decent distillation of some of the dynamics that Revel was walking into?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1433.366,
+            1436.748
+          ],
+          "quote": "And I think probably the first three or four months that Revel's like, oh, is this really gonna work?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1892.871,
+            1908.276
+          ],
+          "quote": "You've sort of found ways to keep solving the same problem, it sounds like, where you're encountering this limit of hardware control and building the language for these systems to work, first in college, then at SpaceX, and now with Revel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            1943.156,
+            1949.563
+          ],
+          "quote": "And so, yeah, I think, I think that background is exactly, has really set me up well to, to, to, to found Revel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2279.898,
+            2282.019
+          ],
+          "quote": "I think we have to adapt some of that for Revel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2453.098,
+            2466.528
+          ],
+          "quote": "And they have now fully standardized on Revel, and they're only using Revel across tiny, even the smallest, like kind of circuit board testing system, all the way up to what they're using at this new site called Site1C, which they're going to use to test their entire stage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 593,
+          "t": [
+            2552.818,
+            2555.981
+          ],
+          "quote": "And then completely cold to revel, had never even seen the platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2620.568,
+            2631.654
+          ],
+          "quote": "I think you've talked before about your position at Revel almost like a mini VC because you have to sort of bet on which companies to sort of resource and dedicate time to getting set up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 621,
+          "t": [
+            2661.015,
+            2666.178
+          ],
+          "quote": "So when you look at Revel the company as a machine at the moment, where do you see the big bottleneck?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2670.33,
+            2684.356
+          ],
+          "quote": "We're, I think we have, at least my bet on the company is that we need to keep an extremely high bar and that just propagates all the way in until Revel is, you know, 200, 500 people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 624,
+          "t": [
+            2684.756,
+            2692.62
+          ],
+          "quote": "If we can maintain that and which is, I think, another kind of lesson from SpaceX is I think they have done a great job of this and we need to replicate that at Revel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 633,
+          "t": [
+            2728.212,
+            2731.214
+          ],
+          "quote": "What does that mean for Revel specifically?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2793.979,
+            2802.584
+          ],
+          "quote": "What do you think the world looks like in five, 10 years from now when some of these different customers that Revel is serving flourish?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2807.467,
+            2821.573
+          ],
+          "quote": "This is one of the best parts of being at Revel, I think, is that you get to, in one day, you can go to a nuclear reactor company, you can go to this, like, the most cutting-edge satellite manufacturer, and then you can go to, like, a hypercar company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2824.975,
+            2831.383
+          ],
+          "quote": "So I think as an engineer that is really great and also I think Revel has a unique position that it's like a one-to-many platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2831.643,
+            2842.156
+          ],
+          "quote": "So if you work inside a company and you're a software engineer you're going to work on just that that company only get exposed to that company's hardware they're building and then at Revel you get to be part of all these missions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 664,
+          "t": [
+            2900.259,
+            2916.831
+          ],
+          "quote": "And they tried one approach before, and they were kind of trying to see if that was going to pan out, and then they're like, okay, let's give Revel a shot, and we're able to very quickly prove ourselves, and then also deliver on the, you know, we say it's 5 to 10x, it's going to increase your cadence of test.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2938.498,
+            2941.74
+          ],
+          "quote": "Revel, if it compiles, it cannot crash.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 721,
+          "t": [
+            3163.382,
+            3170.789
+          ],
+          "quote": "When you think sort of like very long term about what Revel becomes, you know, let's say five, ten years from now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3358.188,
+            3369.501
+          ],
+          "quote": "You know, whatever is going on at Revel or in my personal life, it's like, I listen to this and it's just like, I think it really gives you like, it's like the most zoomed out perspective you could possibly have on everything.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": true,
+      "how_described": "本集称之为软件与硬件的「终极试验场」和高压锅孵化器:Scott 在此亲手构建控制硬件的系统、接住塔等豪赌,并总结其成功关键在于 Elon 愿意在团队身上下巨大赌注。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.111,
+            3.334
+          ],
+          "quote": "SpaceX, at least when I was there, the product was getting things to orbit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2,
+          "t": [
+            5.876,
+            8.218
+          ],
+          "quote": "What we did build actually went viral internally at SpaceX.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 8,
+          "t": [
+            17.147,
+            24.193
+          ],
+          "quote": "Is that at SpaceX or is it leaving SpaceX and delivering this type of platform for all the other companies out there trying to build incredible machines?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            34.241,
+            41.567
+          ],
+          "quote": "One of the biggest keys to SpaceX's success is just that Elon is willing to make massive bets on his team, even though everyone's like, we have no idea how this is going to work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            44.609,
+            46.851
+          ],
+          "quote": "Everyone at SpaceX was like, this is crazy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            83.521,
+            86.484
+          ],
+          "quote": "Founded in 2024 by SpaceX veteran Scott Morton,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            294.896,
+            299.641
+          ],
+          "quote": "It's kind of mostly kind of former SpaceX senior engineers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            370.034,
+            371.715
+          ],
+          "quote": "I saw this problem firsthand at SpaceX.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            372.235,
+            375.156
+          ],
+          "quote": "To have something great at SpaceX, we had to build it all ourselves.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            385.16,
+            386.541
+          ],
+          "quote": "Is that at SpaceX or is it...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 74,
+          "t": [
+            387.242,
+            393.635
+          ],
+          "quote": "Leaving SpaceX and delivering this type of platform for all the other companies out there trying to build incredible machines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            460.736,
+            467.16
+          ],
+          "quote": "And so I think then companies like SpaceX came along and proved that you could do interesting things in hardware.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            502.82,
+            508.485
+          ],
+          "quote": "And also, I think a lot of the companies that are in our space are similar in that they are actually looking to what SpaceX did.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            511.227,
+            512.408
+          ],
+          "quote": "And I think SpaceX really is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            520.254,
+            528.059
+          ],
+          "quote": "I was fortunate to write a ton of control software at SpaceX and then also work on, how are we going to do this in the future?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            565.392,
+            579.28
+          ],
+          "quote": "Then the few newcomers that come in don't have this experience where they get to see exactly how to build this from the inside of somewhere like SpaceX and learn, okay, here are all these edge cases and it's tough to get these companies to adopt it unless it's perfect anyway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            588.373,
+            592.494
+          ],
+          "quote": "Yeah, I would add also that SpaceX is this pressure cooker.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            627.603,
+            642.816
+          ],
+          "quote": "Yeah, you'll know about this much better than I do because of your time at SpaceX, but reading about the company and about sort of Elon's management style, it feels like, you know, there's sort of maybe a preference to in-house as much as possible, but also a lot of pragmatism where it's like, hey, if we can get...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            650.686,
+            661.08
+          ],
+          "quote": "What was it about the old software systems that just clearly did not work for what SpaceX was doing in it such that this kind of an investment was actually worthwhile?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            664.527,
+            669.269
+          ],
+          "quote": "I think there's this big notion that SpaceX vertically integrates everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            840.374,
+            844.557
+          ],
+          "quote": "But SpaceX, at least when I was there, you know, the product was getting things to orbit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            851.282,
+            867.296
+          ],
+          "quote": "What we did build actually went viral internally at SpaceX, which was actually very rare because all the programs are actually very siloed and isolated kind of by design because you want them to move as fast as they can without being kind of, you know, dragging and be like, oh, you can't do that on Starship because this is how we do it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            889.706,
+            894.808
+          ],
+          "quote": "I think I also, you know, I talked to a number of other companies out there outside of SpaceX that were",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 190,
+          "t": [
+            910.32,
+            916.465
+          ],
+          "quote": "And similar to SpaceX, I'd say at a different order of magnitude, but they're like, this is just not going to get anywhere soon.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            937.756,
+            946.259
+          ],
+          "quote": "One of the biggest keys to SpaceX's success is just that Elon is one to make massive bets on his team, that we can do this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1016.482,
+            1020.805
+          ],
+          "quote": "We were, I mean, everyone at SpaceX on the search of her was like, this is crazy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1395.665,
+            1403.871
+          ],
+          "quote": "I was, I actually, I mean, this is exactly what I went through at SpaceX early on is that, so I wrote the propellant load sequence for Falcon 9 and I had to explain to someone else exactly how I wanted to work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1798.388,
+            1812.942
+          ],
+          "quote": "And so then I did start following Elon and just what SpaceX was doing back in, it was like sophomore year of college and just thought that was the most insane version of like, that was like the ultimate building things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 430,
+          "t": [
+            1820.709,
+            1823.432
+          ],
+          "quote": "Let me sneak into SpaceX is how I was thinking about it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 442,
+          "t": [
+            1869.629,
+            1873.63
+          ],
+          "quote": "And then also kind of saw the exact same problem later on at SpaceX and then",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1892.871,
+            1908.276
+          ],
+          "quote": "You've sort of found ways to keep solving the same problem, it sounds like, where you're encountering this limit of hardware control and building the language for these systems to work, first in college, then at SpaceX, and now with Revel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1965.219,
+            1974.164
+          ],
+          "quote": "I mean, I joined SpaceX as a 25-year-old intern and I was like, I'm just going to go in and outwork everyone.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2098.05,
+            2117.665
+          ],
+          "quote": "I mean, it wasn't, it was kind of a volunteer scenario, but then he got pretty involved and, you know, enabling people, I mean, if you fly close to the sun at SpaceX, you know, you're going to have, you're taking a lot of risk for sure, but enabling people to do that and giving them a ton of agency and, but also holding people accountable, I think is the right recipe to do great things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2118.145,
+            2124.55
+          ],
+          "quote": "Flying close to the sun at SpaceX means taking like a big swing on something and putting your name behind it with a lot of resources.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2157.787,
+            2161.889
+          ],
+          "quote": "But yeah, I think there's high risk reward at SpaceX for sure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2268.933,
+            2274.396
+          ],
+          "quote": "So I think I've seen, yeah, the proof is kind of clear with SpaceX what has happened.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 624,
+          "t": [
+            2684.756,
+            2692.62
+          ],
+          "quote": "If we can maintain that and which is, I think, another kind of lesson from SpaceX is I think they have done a great job of this and we need to replicate that at Revel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2701.889,
+            2710.418
+          ],
+          "quote": "That's maybe harder for us a little bit in that we don't have the name brand of SpaceX quite yet, but that's essentially the biggest bottleneck in that we...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3014.762,
+            3017.984
+          ],
+          "quote": "At SpaceX, we really knew how to execute on the engineering side.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 702,
+          "t": [
+            3056.955,
+            3058.677
+          ],
+          "quote": "It's obviously not something that SpaceX had.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 728,
+          "t": [
+            3203.973,
+            3207.676
+          ],
+          "quote": "And then at SpaceX, I wrote a lot of control software, a lot of test software as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3290.541,
+            3294.443
+          ],
+          "quote": "And that's what I was super excited about, working at SpaceX for 10 years.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llvm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLVM",
+      "file": "LLVM",
+      "primary": true,
+      "how_described": "本集说它是 Rust 和 Clang 背后的编译器工具链,正在成为标准;Revel 三个人时就押注用它做自研语言的后端,20 多个月后语言「性能超强」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 231,
+          "t": [
+            1100.008,
+            1108.332
+          ],
+          "quote": "And we are using LLVM as the backend of that, which is the compiler toolchain for Rust and the Clang compiler for C++.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "type": "concept",
+      "role": "concept",
+      "name": "Python",
+      "file": "Python",
+      "primary": true,
+      "how_described": "本集把 Python 当作易上手的标杆——Revel 语言从它借鉴可及性;同时批评其运行时不安全:一个字符串插值错误就能在 12 小时测试中途杀掉运行时系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 271,
+          "t": [
+            1264.26,
+            1266.341
+          ],
+          "quote": "Like Python wasn't even in use back then.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1267.602,
+            1271.964
+          ],
+          "quote": "And so I think, you know, we've taken a lot of cues from Python in our programming language.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1271.984,
+            1280.249
+          ],
+          "quote": "I think Python has been so successful, not because it's interpreted or other aspects of the language, just that it's very accessible, very easy to get started with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2925.114,
+            2926.754
+          ],
+          "quote": "They had to write a lot of Python.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2927.715,
+            2936.677
+          ],
+          "quote": "And then there were heads, a lot of safety issues with that where like, you know, if you have Python, a big difference between Rebel Code and Python is that at the runtime safety.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 673,
+          "t": [
+            2944.601,
+            2946.342
+          ],
+          "quote": "In Python, there's no guarantee of that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集 Scott 说不没人会拿职业生涯去「vibe coding 一个核反应堆的控制系统」——它只加速代码编写环节,浅层 web 应用危险了,高后果软件另有审查与验证壁垒。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            167.533,
+            178.856
+          ],
+          "quote": "That I don't think anyone's really going to kind of bet their career on like vibe coding a control system for let's say a nuclear reactor or a rocket engine or something that's very high consequence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            232.032,
+            236.155
+          ],
+          "quote": "Also, vibe coding only really helps with the authorship component.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": true,
+      "how_described": "本集说 Revel 有一套完整的 CI 系统:实验室里放着平台支持的每一种真实硬件,每次发布都要跑耗时数天的验证流程,确保发布给客户时按预期运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            209.854,
+            211.375
+          ],
+          "quote": "We have a full CI system.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "本集顺带提到 Revel 团队有几位工程师来自 Palantir,如带来产品与客户经验的 Jess Winzinger。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            299.981,
+            303.025
+          ],
+          "quote": "We have several from Palantir and Andrel as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 691,
+          "t": [
+            3010.398,
+            3013.821
+          ],
+          "quote": "Jess Winzinger joined from Palantir, who is, I think...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "impulse-space",
+      "type": "company",
+      "role": "company",
+      "name": "Impulse Space",
+      "file": "Impulse Space",
+      "primary": false,
+      "how_described": "本集提到 Impulse 是 Revel 的客户,原本同一家公司里用着八种不同测试软件,现已全面标准化到 Revel。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            97.192,
+            107.339
+          ],
+          "quote": "In less than two years, it's raised $180 million, won customers like Impulse Space and Radiant Nuclear, and was reportedly valued at just over $1 billion.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "radiant-nuclear",
+      "type": "company",
+      "role": "company",
+      "name": "Radiant Nuclear",
+      "file": "Radiant Nuclear",
+      "primary": false,
+      "how_described": "本集开头一笔带过:Radiant Nuclear 是 Revel 赢得的客户之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            97.192,
+            107.339
+          ],
+          "quote": "In less than two years, it's raised $180 million, won customers like Impulse Space and Radiant Nuclear, and was reportedly valued at just over $1 billion.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Copilot</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Copilot">CO</div><div class="pi"><h1 class="pt">Copilot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Copilot">CO</div><div class="pi"><h1 class="pt">Copilot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,10 +19,17 @@ unlisted: true
 - **[[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]]**(00:56起):本集说 Copilot 是 Microsoft 旗下的领先编码套件，在早期遥遥领先，拥有 VS Code、Office、GitHub 等全部生态
 - **[[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl|《LongLake：把AI塞进真实服务业务的笨办法》]]**(05:31起):本集说副驾驶是智能体自主性谱系最底层，就是两年前的简单 RAG 聊天机器人，问它答、非常快
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(39:44起):本集提到 Microsoft 构建的 Copilot 在法律领域很长一段时间都不起作用，说明通用工具无法替代垂直深耕的产品。
+- **[[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model|《斯坦福语言学家的代币经济学：你的 token 贬值了》]]**(26:37起):本集引 Ed Zitron 转发的例子：有用户收到 Copilot 通知上月账单 500 美元、按新计费下月将是 11,000 美元，作为 token 涨价的引子
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model#^q5]]
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念(提及)
@@ -32,14 +39,15 @@ unlisted: true
 - [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|《a16z 三位投资人复盘 Cursor 早期关键决策》]] — 作为被讨论公司
 - [[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl|《LongLake：把AI塞进真实服务业务的笨办法》]] — 作为概念(提及)
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为概念(提及)
+- [[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model|《斯坦福语言学家的代币经济学：你的 token 贬值了》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Cursor]] · [[ChatGPT]] · [[Claude Code]] · [[Anthropic]] · [[Lenny]] · [[vibe coding]] · [[护栏]] · [[Cloudflare]]
+[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Anthropic]] · [[Cursor]] · [[ChatGPT]] · [[Lenny]] · [[vibe coding]] · [[护栏]] · [[Cloudflare]]
 
-<script type="application/json" class="pd-epn">{"智能体":229,"OpenAI":105,"Cursor":58,"ChatGPT":59,"Claude Code":58,"Anthropic":118,"Lenny":67,"vibe coding":32,"护栏":43,"Cloudflare":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":230,"OpenAI":105,"Claude Code":59,"Anthropic":119,"Cursor":58,"ChatGPT":59,"Lenny":67,"vibe coding":33,"护栏":43,"Cloudflare":9}</script>
 
 <script>
 (function(){

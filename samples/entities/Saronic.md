@@ -25,7 +25,7 @@ unlisted: true
 
 [[Port Alpha]] · [[造船差距]] · [[自主性]] · [[采购改革]] · [[软硬协同设计]] · [[AI 工具]] · [[开源 AI]] · [[Palantir]]
 
-<script type="application/json" class="pd-epn">{"Port Alpha":1,"造船差距":1,"自主性":7,"采购改革":1,"软硬协同设计":1,"AI 工具":1,"开源 AI":2,"Palantir":14}</script>
+<script type="application/json" class="pd-epn">{"Port Alpha":1,"造船差距":1,"自主性":7,"采购改革":1,"软硬协同设计":1,"AI 工具":1,"开源 AI":2,"Palantir":15}</script>
 
 <script>
 (function(){

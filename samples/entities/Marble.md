@@ -31,7 +31,7 @@ unlisted: true
 
 [[World Labs]] · [[空间智能]] · [[世界模型]] · [[Waymo]] · [[Justin Johnson]] · [[强化学习]] · [[Lenny]] · [[Fei-Fei Li]] · [[Sam Charrington]] · [[Martin Casado]]
 
-<script type="application/json" class="pd-epn">{"World Labs":4,"空间智能":3,"世界模型":6,"Waymo":13,"Justin Johnson":2,"强化学习":16,"Lenny":67,"Fei-Fei Li":1,"Sam Charrington":3,"Martin Casado":4}</script>
+<script type="application/json" class="pd-epn">{"World Labs":4,"空间智能":3,"世界模型":6,"Waymo":13,"Justin Johnson":2,"强化学习":16,"Lenny":67,"Fei-Fei Li":1,"Sam Charrington":4,"Martin Casado":4}</script>
 
 <script>
 (function(){

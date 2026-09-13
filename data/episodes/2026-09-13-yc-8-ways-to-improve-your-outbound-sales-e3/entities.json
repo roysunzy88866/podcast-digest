@@ -1,0 +1,513 @@
+{
+  "episode_id": "2026-09-13-yc-8-ways-to-improve-your-outbound-sales-e3",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-09-13",
+  "tags": [
+    "销售与外呼",
+    "创业实战",
+    "创始人主导销售",
+    "客户开发",
+    "增长"
+  ],
+  "categories": [
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "one-schema",
+      "type": "company",
+      "role": "company",
+      "name": "One Schema",
+      "file": "One Schema",
+      "primary": true,
+      "how_described": "主讲人自己创办的公司，他作为创始人通过 founder-led sales 亲自创造并成交了数百万美元收入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            15.277,
+            21.566
+          ],
+          "quote": "As the founder of my company, One Schema, I personally generated and closed millions of dollars in revenue through founder-led sales.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": true,
+      "how_described": "主讲人作为其访问合伙人，辅导过数百家 YC 公司改进外呼；例子中的 Apten 也是 YC S24 批次公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            21.877,
+            25.961
+          ],
+          "quote": "As a visiting partner at YC, I've helped hundreds of YC companies improve their outbound.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            365.042,
+            368.424
+          ],
+          "quote": "It's from the founder of Apten, which is a YC company in the S24 batch.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "apten",
+      "type": "company",
+      "role": "company",
+      "name": "Apten",
+      "file": "Apten",
+      "primary": true,
+      "how_described": "YC S24 批次公司，主讲人展示其创始人写的一封优秀外呼邮件作为范例：用 Tesla 背景建立可信度、痛点命中、行动号召具体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            365.042,
+            368.424
+          ],
+          "quote": "It's from the founder of Apten, which is a YC company in the S24 batch.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "linkedin",
+      "type": "company",
+      "role": "company",
+      "name": "LinkedIn",
+      "file": "LinkedIn",
+      "primary": true,
+      "how_described": "外呼的主阵地之一：主页被比作邮件的主题行，主讲人给了优化主页和积累共同好友的具体建议",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            79.225,
+            81.446
+          ],
+          "quote": "Visit her LinkedIn page and read about her company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            110.929,
+            118.436
+          ],
+          "quote": "But when I opened up his LinkedIn and looked at the prospects that he was selling to, a lot of them were DevRel managers, GTM managers, there was even a customer success manager.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            198.4,
+            204.203
+          ],
+          "quote": "For example, if you search for tech companies in LinkedIn Sales Navigator, you're often going to get a bunch of IT implementation consultancies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            354.954,
+            359.237
+          ],
+          "quote": "As a rough guide, five to eight sentences is good for email, no more than two to five for LinkedIn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            456.714,
+            458.994
+          ],
+          "quote": "Tip number four, improve your LinkedIn profile.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            459.414,
+            461.815
+          ],
+          "quote": "If email has subject lines, LinkedIn has your profile.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            476.394,
+            480.696
+          ],
+          "quote": "The second is you should turn that banner on the top of your LinkedIn page into an ad for your company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            512.419,
+            516.4
+          ],
+          "quote": "Another area to invest for LinkedIn is building up your number of mutual connections.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            569.228,
+            572.39
+          ],
+          "quote": "So for example, make sure their website looks good and their LinkedIn profile looks good.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sales-navigator",
+      "type": "company",
+      "role": "company",
+      "name": "Sales Navigator",
+      "file": "Sales Navigator",
+      "primary": false,
+      "how_described": "LinkedIn 的销售列表构建工具，主讲人提醒搜索结果常混入 IT 实施咨询公司，需逐一核实",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            187.297,
+            198.08
+          ],
+          "quote": "One mistake I'll often see companies make is they'll do a search in a tool like Sales Navigator, and it will return a bunch of profiles that maybe sort of match what they were looking for, but were actually the wrong type of company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            198.4,
+            204.203
+          ],
+          "quote": "For example, if you search for tech companies in LinkedIn Sales Navigator, you're often going to get a bunch of IT implementation consultancies.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "outbound",
+      "type": "concept",
+      "role": "concept",
+      "name": "外呼开发 (outbound)",
+      "file": "外呼开发",
+      "primary": true,
+      "how_described": "本集主线：从手动外呼、定向、写邮件、跟进节奏到固定时间投入的完整方法论",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            9.268,
+            14.876
+          ],
+          "quote": "If you're just starting outbound and your reply rates are low, maybe even close to zero, this video is for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            21.877,
+            25.961
+          ],
+          "quote": "As a visiting partner at YC, I've helped hundreds of YC companies improve their outbound.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            82.346,
+            85.688
+          ],
+          "quote": "Doing this homework personally is how you'll come up with your highest converting outbound ideas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            94.659,
+            97.5
+          ],
+          "quote": "Outbound prospecting is kind of like looking for a needle in a haystack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            153.481,
+            156.003
+          ],
+          "quote": "You should also look at who has already replied to your outbound.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            213.588,
+            218.01
+          ],
+          "quote": "As you do more outbound, you'll start to discover clues about a company that indicate that they need your product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            549.471,
+            555.515
+          ],
+          "quote": "If I'm working with a founder that has on the order of two to three replies on 100 emails, here's typically the order I'll start debugging their outbound.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            635.432,
+            637.833
+          ],
+          "quote": "Tip number seven, block out time for outbound.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            645.777,
+            650.099
+          ],
+          "quote": "And outbound is typically one of the least fun things to do for most founders.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            721.77,
+            723.151
+          ],
+          "quote": "I know that outbound can be a slog.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            723.692,
+            726.575
+          ],
+          "quote": "I have personally sent thousands of outbound emails in my life.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            747.607,
+            749.45
+          ],
+          "quote": "Your outbound will only get easier over time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "founder-led-sales",
+      "type": "concept",
+      "role": "concept",
+      "name": "创始人主导的销售 (founder-led sales)",
+      "file": "创始人主导的销售",
+      "primary": true,
+      "how_described": "主讲人靠它做成数百万美元收入；核心论点是创始人是最了解客户的人，客户知识会复利积累",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            15.277,
+            21.566
+          ],
+          "quote": "As the founder of my company, One Schema, I personally generated and closed millions of dollars in revenue through founder-led sales.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "targeting",
+      "type": "concept",
+      "role": "concept",
+      "name": "定向 (targeting)",
+      "file": "定向",
+      "primary": true,
+      "how_described": "本集说「定向比完美文案更重要」——找对有痛点的人和公司，错误的头衔永远不会买",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            54.589,
+            60.415
+          ],
+          "quote": "The problem could be your messaging or your company targeting, your prospect selection, your deliverability, or your subject line.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            87.534,
+            89.095
+          ],
+          "quote": "Targeting beats perfect messaging.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            250.118,
+            251.039
+          ],
+          "quote": "One more thing on targeting.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "intent-signals",
+      "type": "concept",
+      "role": "concept",
+      "name": "意向信号 (intent signals)",
+      "file": "意向信号",
+      "primary": true,
+      "how_described": "暗示一家公司需要你产品的线索，如招聘启事和公司规模增长（如薪酬软件卡在 100 人区间）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            218.67,
+            219.971
+          ],
+          "quote": "These are called intent signals.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reply-rates",
+      "type": "concept",
+      "role": "concept",
+      "name": "回复率 (reply rates)",
+      "file": "回复率",
+      "primary": true,
+      "how_described": "衡量外呼效果的核心指标：100 封两三封回复即有基线，低时要按「人→公司→主题行→文案→门面→送达率」顺序排查",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            9.268,
+            14.876
+          ],
+          "quote": "If you're just starting outbound and your reply rates are low, maybe even close to zero, this video is for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            122.86,
+            131.367
+          ],
+          "quote": "So if you spend a little bit more time thinking about whether or not the person you're sending the email to actually has the pain point, you'll often end up seeing a huge increase in your reply rates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            534.364,
+            537.164
+          ],
+          "quote": "Tip number five, know what your reply rates are telling you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            537.644,
+            540.025
+          ],
+          "quote": "At first, your reply rates might be very, very low.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            610.9,
+            616.484
+          ],
+          "quote": "Reply rates I find are much higher on these breakup emails because it makes them really low pressure for them to say no.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "breakup-message",
+      "type": "concept",
+      "role": "concept",
+      "name": "分手信 (breakup message)",
+      "file": "分手信",
+      "primary": true,
+      "how_described": "跟进序列的最后一封邮件，回复率反而更高，因为对方说「不」压力极低，而真实的拒绝能改进未来定向",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            596.329,
+            600.072
+          ],
+          "quote": "But the last email that I send a prospect, I often send what's called a breakup message.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场匹配 (product market fit)",
+      "file": "产品市场匹配",
+      "primary": false,
+      "how_described": "本集提到：六个外呼环节全合理却仍零回复，往往预示更深的产品市场匹配问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            575.052,
+            582.837
+          ],
+          "quote": "If you go through all six of these areas and they all seem to be reasonable and you're still getting zero replies, this often might be indicative of a deeper product market fit issue.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

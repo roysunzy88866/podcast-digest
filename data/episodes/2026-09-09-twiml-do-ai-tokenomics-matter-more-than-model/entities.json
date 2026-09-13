@@ -1,0 +1,947 @@
+{
+  "episode_id": "2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model",
+  "podcast": "The TWIML AI Podcast",
+  "date": "2026-09-09",
+  "tags": [
+    "tokenomics",
+    "代币通胀",
+    "AI 经济学",
+    "智能体",
+    "架构研究"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "sam-charrington",
+      "type": "person",
+      "role": "host",
+      "name": "Sam Charrington",
+      "file": "Sam Charrington",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            144.558,
+            148
+          ],
+          "quote": "I'm Sam Charrington, and this is the TwiML AI Podcast.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chris-potts",
+      "type": "person",
+      "role": "cohost",
+      "name": "Chris Potts",
+      "file": "Chris Potts",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            82.731,
+            88.476
+          ],
+          "quote": "One person who's been thinking deeply about this is Stanford professor and Big Spin co-founder Chris Potts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tokenflation",
+      "type": "concept",
+      "role": "concept",
+      "name": "tokenflation",
+      "file": "tokenflation",
+      "primary": true,
+      "how_described": "Chris Potts 在文章中创造的术语，描述 token 购买力持续下降、同样的 token 买不到从前能买到的东西的代币通胀现象",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 436,
+          "t": [
+            2617.722,
+            2627.205
+          ],
+          "quote": "In your article, you coined the term tokenflation to describe at least the recent behavior of token economics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2632.367,
+            2635.928
+          ],
+          "quote": "That's certainly the picture that we get from the CPI, a picture of tokenflation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tokenomics",
+      "type": "concept",
+      "role": "concept",
+      "name": "tokenomics",
+      "file": "tokenomics",
+      "primary": true,
+      "how_described": "本集主线话题：思考 AI 的成本、激励与权衡，追问我们购买的 token 的投资回报率到底在哪里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            73.951,
+            81.777
+          ],
+          "quote": "That's given rise to a new conversation around tokenomics, how we think about the costs, incentives, and trade-offs shaping the next generation of AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            99.025,
+            101.807
+          ],
+          "quote": "Here's Chris explaining how he thinks about tokenomics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1527.973,
+            1538.796
+          ],
+          "quote": "A topic that I really wanted to, a topic that I would really like to dig in to with you based on our previous conversation was the idea of tokenomics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3336.547,
+            3342.712
+          ],
+          "quote": "So we've talked about efficiency, interpretability, tokenomics,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集讨论 AI 计费与价值的基本单位：其真实成本估计每 1 美元可能是 2 到 20 美元，且用途正从代码生成迁移到思考和解释",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            1837.96,
+            1844.404
+          ],
+          "quote": "So we got to figure out what the basket of goods is but then we could start to track it relative to token usage and that would be the consumer price index.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1844.444,
+            1849.387
+          ],
+          "quote": "So for any time period we could just say I've got my token spent and I've got my goods produced.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1968.191,
+            1982.22
+          ],
+          "quote": "And I see that coming up within the same timeframe, it's become very common to now talk about the token efficiency of a new model that's been released with the implication being",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1983.861,
+            1991.126
+          ],
+          "quote": "Tokens of, you know, internal use tokens, thinking tokens versus, you know, per token of output, I guess, is maybe a way to think about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2043.314,
+            2050.701
+          ],
+          "quote": "And when people talk about token efficiency and worry about this, I think what they're seeing is just the real lesson of what we already projected from inference time scaling.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2458.39,
+            2467.914
+          ],
+          "quote": "And I think by that route and from that perspective we just ended up worrying about our own token usage increasing and wondering whether there's real value there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2552.074,
+            2555.955
+          ],
+          "quote": "We have a mysterious sudden rise in the token usage, which we cannot explain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2565.123,
+            2567.626
+          ],
+          "quote": "And all of these things have an effect on the total token output.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2575.693,
+            2587.783
+          ],
+          "quote": "So imagine trying to predict what token spend is going to be like when you have all these exogenous events in addition to changes that we don't even know about and questions about where the value actually lies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2589.457,
+            2594.44
+          ],
+          "quote": "And then, you know, the true cost of a token, the estimates vary wildly for every dollar we spend.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2617.722,
+            2627.205
+          ],
+          "quote": "In your article, you coined the term tokenflation to describe at least the recent behavior of token economics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2636.088,
+            2640.85
+          ],
+          "quote": "Yes, your token is not buying you what it once did, according to everything we can think to measure here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2734.517,
+            2738.744
+          ],
+          "quote": "And everybody immediately saw that that led to like a 5x increase in token usage.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "consumer-price-index",
+      "type": "concept",
+      "role": "concept",
+      "name": "消费者价格指数 (consumer price index)",
+      "file": "消费者价格指数",
+      "primary": true,
+      "how_described": "本集借用经济学框架，定义工程产出的「商品篮子」（PR、bug 修复、知识积累），用 token 花费除以产出并做享乐调整来衡量 token 购买力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 291,
+          "t": [
+            1776.701,
+            1778.762
+          ],
+          "quote": "So we might have like a consumer price index.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1837.96,
+            1844.404
+          ],
+          "quote": "So we got to figure out what the basket of goods is but then we could start to track it relative to token usage and that would be the consumer price index.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1859.021,
+            1863.864
+          ],
+          "quote": "Then you would do the standard consumer price index thing of making what they call a hedonic adjustment.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference-time-scaling",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理时扩展 (inference time scaling)",
+      "file": "推理时扩展",
+      "primary": true,
+      "how_described": "让模型在回答时生成大量 token 的做法；本集称其曲线早已预测了 token 效率焦虑——对数尺度上多花 token 初期有收益但很快趋平",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            1999.652,
+            2008.958
+          ],
+          "quote": "Based on my read of the literature on inference time scaling, what's sometimes called test time scaling, which is just having the models generate lots of tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2043.314,
+            2050.701
+          ],
+          "quote": "And when people talk about token efficiency and worry about this, I think what they're seeing is just the real lesson of what we already projected from inference time scaling.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2051.142,
+            2058.629
+          ],
+          "quote": "And this is independent of the approach to inference time scaling you're taking, whether it's, you know, multiple parallel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2066.752,
+            2069.772
+          ],
+          "quote": "It's just fundamental to inference time scaling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3505.402,
+            3521.677
+          ],
+          "quote": "But also Julie's perspective is that this is speculative, but I think there's something to this that it's a kind of inference time scaling because you do more compute at test time because you have more tokens and therefore more opportunities to build on interesting things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bitter-lesson",
+      "type": "concept",
+      "role": "concept",
+      "name": "bitter lesson",
+      "file": "bitter lesson",
+      "primary": true,
+      "how_described": "「别设计结构、只管堆算力堆数据」的信条；Chris 反击称现在的模型全是基于数据直觉省钱手工改出来的，是忒修斯之船，没有一样是 bitter lesson 式的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            837.265,
+            863.661
+          ],
+          "quote": "With, particularly with folks that are, you know, coming from the frontier labs or, you know, the, the, essentially the frontier labs, I get back this kind of feeling that, yeah, you're just not bitter lesson-pilled enough, like structures, that's old school thinking, you know, you're just trying to like train some features, just collect a lot of data, throw it at the model, and that's all you need.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            886.53,
+            889.412
+          ],
+          "quote": "The bitter lesson-pilled thing to do would be to scale that up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            900.251,
+            901.893
+          ],
+          "quote": "This is the bitter lesson pill thing, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            942.219,
+            944.922
+          ],
+          "quote": "And I claim for you that none of that stuff is bitter lesson-filled.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 162,
+          "t": [
+            953.371,
+            957.997
+          ],
+          "quote": "You're not bitter lesson-pilled enough, apparently, although this is a reductio, I think.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2142.392,
+            2151.235
+          ],
+          "quote": "And we see, like, better improvements than those laws predicted because everyone worked so hard behind the scenes to do very innovative things, which maybe relates to our bitter lesson discussion.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "transformer",
+      "type": "concept",
+      "role": "concept",
+      "name": "transformer",
+      "file": "transformer",
+      "primary": true,
+      "how_described": "2017 年的架构经位置编码、稀疏 MLP、激活函数等大量改造演化至今；Chris 认为堆叠 Transformer 极其低效，深度没有被用来学递归函数",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            868.538,
+            869.599
+          ],
+          "quote": "We've got the transformer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            929.349,
+            937.836
+          ],
+          "quote": "All of this analysis work built on intuitions about data and learning led to the model that we have now, which is like a ship of Theseus compared to the 2017 Transformer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 587,
+          "t": [
+            3377.644,
+            3388.091
+          ],
+          "quote": "What about the architectural innovation that would upend the whole story around the stack transformer and the way we need to do data center build out to even get incremental gains in performance?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3401.001,
+            3402.123
+          ],
+          "quote": "The transformer is good enough.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dspy",
+      "type": "concept",
+      "role": "concept",
+      "name": "DSPy",
+      "file": "DSPy",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            1076.753,
+            1081.037
+          ],
+          "quote": "I also wanted to ask you about DSPY.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1081.197,
+            1098.953
+          ],
+          "quote": "I forgot about this as we were talking earlier, but you were involved in the DSPY, which, well, I'll let you talk about it, but I'm curious how it connects into your research and like, you know, some of these pillars that we've talked about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1147.002,
+            1152.486
+          ],
+          "quote": "And DSPy is a kind of embodiment of that, although he made a similar investment with the Colbert retrieval model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1162.938,
+            1172.928
+          ],
+          "quote": "And of course, DSPy is another wonderful example because in investing in this community and in the open source resource itself, he built a huge following.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1173.758,
+            1181.206
+          ],
+          "quote": "There are lots of startups, mine included, where the core tech stack for the LLMs is built on DSPy, and that has made life so much easier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1191.409,
+            1212.545
+          ],
+          "quote": "Yeah, I was thinking not too long ago the degree to which model strength as a correlate to model size, I suppose, and capability has kind of overcome the need for an explicit framework like DSPY, DSPY.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1217.727,
+            1234.711
+          ],
+          "quote": "DSPy is great four years ago because it's kind of hard to construct the code around one of these systems in a way that's modular and reproducible and so forth because pecking out something where you've got a prompt string in the middle of your code with some slots in it, it's very error prone and it leads to bad system designs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1235.051,
+            1236.371
+          ],
+          "quote": "And DSPy solved that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1258.943,
+            1265.085
+          ],
+          "quote": "And so like, you know, DSPy learned a lot from PyTorch in terms of layer-wise design and the kind of modularity that introduced.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1287.655,
+            1294.638
+          ],
+          "quote": "It just feels like good engineering practices for any agent to think in a modular way, and that's what DSPy encodes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1342.448,
+            1344.589
+          ],
+          "quote": "And then you're right back at that DSPy vision.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2854.711,
+            2861.032
+          ],
+          "quote": "I think this is also kind of echoing back to our conversation about DSPy and like prompt optimization.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-optimization",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词优化 (prompt optimization)",
+      "file": "提示词优化",
+      "primary": true,
+      "how_described": "本集用申请书标题投票实验说明：不同模型在主观任务上答案各异，不给非常具体的判定标准就有大麻烦，所以自动提示词优化仍然必要",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            1181.667,
+            1190.977
+          ],
+          "quote": "And then, of course, it was a platform for him and for us to really think in an innovative way about prompt optimization and agentic workflows and all of those things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1295.198,
+            1303.022
+          ],
+          "quote": "The other side is like the prompt optimization side and a belief people have that the need to be careful with your prompts is diminishing over time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2854.711,
+            2861.032
+          ],
+          "quote": "I think this is also kind of echoing back to our conversation about DSPy and like prompt optimization.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "interpretability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可解释性 (interpretability)",
+      "file": "可解释性",
+      "primary": true,
+      "how_described": "Chris 团队因成本低、且欢迎模型进步而转向的研究方向；他认为学界「不理解模型」是专业知识悖论，人们的理解远超所承认的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            669.59,
+            675.252
+          ],
+          "quote": "I will say one concrete thing we did was orient a lot of our research toward interpretability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3336.547,
+            3342.712
+          ],
+          "quote": "So we've talked about efficiency, interpretability, tokenomics,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 594,
+          "t": [
+            3414.218,
+            3425.364
+          ],
+          "quote": "And that's just because I want to tell the true story of how we go from data to model capabilities, but it also checks a box for me on connecting interpretability to safety.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-poisoning",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据投毒 (data poisoning)",
+      "file": "数据投毒",
+      "primary": true,
+      "how_described": "本集称有证据表明在预训练数据集中植入极少量样本就能显著影响最终模型的倾向与怪癖，是连接可解释性与安全的紧迫问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 597,
+          "t": [
+            3433.728,
+            3442.136
+          ],
+          "quote": "But I will say that when we get into things like data poisoning from innocuous examples, this is probably a growing societal concern.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集讨论编码智能体的价值衡量与协作方式：BigSpin 做 PR 时第一轮评审由智能体对手团队互相反驳完成，单个智能体自审只会自我强化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            1287.655,
+            1294.638
+          ],
+          "quote": "It just feels like good engineering practices for any agent to think in a modular way, and that's what DSPy encodes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1700.238,
+            1704.541
+          ],
+          "quote": "Let's just agree on what it would mean to add value for a coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2342.476,
+            2348.839
+          ],
+          "quote": "We shouldn't penalize the agent if your chat interaction with it about some scientific question didn't lead to a PR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3145.897,
+            3150.482
+          ],
+          "quote": "But when you have one agent do it, they often just reinforce themselves and you don't get good outcomes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3195.665,
+            3201.347
+          ],
+          "quote": "I can have the agent do work for me because probably in the end I can run the program and look at the results.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "byte-level-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "字节级模型 (byte level models)",
+      "file": "字节级模型",
+      "primary": true,
+      "how_described": "Chris 学生 Julie Kalini 倡导的无分词器模型；本集称它是真正公平多语言模型的关键，也可能是一种推理时扩展",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 608,
+          "t": [
+            3488.166,
+            3495.473
+          ],
+          "quote": "I think you had my student Julie Kalini on and she is an advocate for byte level models, essentially tokenizer free models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bigspin",
+      "type": "company",
+      "role": "company",
+      "name": "BigSpin",
+      "file": "BigSpin",
+      "primary": true,
+      "how_described": "Chris Potts 联合创立的初创公司，希望让更多人从 AI 中受益；做了 AI 熟练度研究、token CPI 实验，内部 PR 评审由智能体对手团队完成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            1488.776,
+            1503.728
+          ],
+          "quote": "There is a real, I don't have evidence for this yet, but we have an intuition at BigSpin in the research we've done that you get a kind of paradox that the more requirements you add, actually the more variation you'll see because the different models will key into different sub parts of the requirements.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2402.398,
+            2411.946
+          ],
+          "quote": "I can tell you the lineage of this idea is that we founded this startup, BigSpin, because we would like to see more people benefit from AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 519,
+          "t": [
+            3016.654,
+            3029.48
+          ],
+          "quote": "We can talk in detail if you want about this, but at BigSpin we have lots of these best practices around having language models essentially collaborate on annotation projects to kind of triangulate on the truth and factor out their individual biases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 535,
+          "t": [
+            3117.948,
+            3119.99
+          ],
+          "quote": "For example, at BigSpin, I didn't set this up.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集反复以其为对象：实验期内至少两次更改默认推理档位和上下文窗口；其 AI 熟练度指数是专家「增强式」vs 新手「委托式」研究的基础",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 238,
+          "t": [
+            1451.335,
+            1458.06
+          ],
+          "quote": "So ask a few Anthropic models and a few GPT models, which of these five titles, which is the best?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1543.117,
+            1555.68
+          ],
+          "quote": "I think, you know, folks that use Claude Code, for example, have like a very visceral experience with Anthropic changing the terms around usage, but it's happening under the covers with all of these large",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2538.51,
+            2548.153
+          ],
+          "quote": "For the time period that I was describing for our little CPI experiment, Anthropic changed the default reasoning on the model at least two times.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2912.283,
+            2915.524
+          ],
+          "quote": "And the headline result there actually builds on something that Anthropic did.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            3004.409,
+            3013.073
+          ],
+          "quote": "We built on the work that Anthropic did, which they set up a nice framework with some independent research who were doing this kind of usability stuff.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "token CPI 实验所用数据的来源——SweChat 中保留下来的都是使用 Opus 4.6 的 Claude Code 会话；本集指出模型固定时改进来自产品层的调整",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 249,
+          "t": [
+            1543.117,
+            1555.68
+          ],
+          "quote": "I think, you know, folks that use Claude Code, for example, have like a very visceral experience with Anthropic changing the terms around usage, but it's happening under the covers with all of these large",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2785.359,
+            2790.564
+          ],
+          "quote": "And so was the product in this case specifically Claude Code or?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2793.667,
+            2797.09
+          ],
+          "quote": "I believe we know that these are all Claude Code sessions that we kept in our data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2800.593,
+            2805.217
+          ],
+          "quote": "But I think I can say that all our data are Claude Code sessions using Opus 4.6.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "type": "company",
+      "role": "company",
+      "name": "Copilot",
+      "file": "Copilot",
+      "primary": false,
+      "how_described": "本集引 Ed Zitron 转发的例子：有用户收到 Copilot 通知上月账单 500 美元、按新计费下月将是 11,000 美元，作为 token 涨价的引子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            1597.585,
+            1613.23
+          ],
+          "quote": "I saw a tweet from Ed Zitron, just a screenshot from someone who was noticing that Copilot was telling them that their bill last month was $500, and if they keep up the way they are with Copilot's new billing, it will be $11,000 in the next month.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

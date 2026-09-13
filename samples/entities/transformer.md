@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>transformer</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="transformer">TR</div><div class="pi"><h1 class="pt">transformer</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="transformer">TR</div><div class="pi"><h1 class="pt">transformer</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,18 +16,21 @@ unlisted: true
 - **[[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]]**(12:59起):本集提到:只要 Transformer 仍是计算密集、存储密集的架构,供应链受限环境就会持续三到五年。
 - **[[2026-09-07-a16z-can-open-source-keep-ai-power-from-conce|《Transformer 不满十岁：AI 集中不是宿命》]]**(00:55起):《Attention is All You Need》引入的基础架构,喂整个互联网时相当聪明,但只学一件具体的事就很差,且架构上需要大量资源,导致了当前 AI 的集中化
 - **[[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|《把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力》]]**(00:00起):本集把它描述为注意力平方成本问题的载体,也是 SubQuadratic 想最终完全取代的对象——目标是把算法范式更替从每九年一次压到每 12 个月一次。
+- **[[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model|《斯坦福语言学家的代币经济学：你的 token 贬值了》]]**(14:28起):2017 年的架构经位置编码、稀疏 MLP、激活函数等大量改造演化至今；Chris 认为堆叠 Transformer 极其低效，深度没有被用来学递归函数
 
 ## ① 提到它的金句
 
-*2 条*
+*3 条*
 
 ![[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto#^q1]]
 
 ![[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto#^q3]]
 
+![[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model#^q1]]
+
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念(提及)
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为概念
@@ -35,14 +38,15 @@ unlisted: true
 - [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]] — 作为概念(提及)
 - [[2026-09-07-a16z-can-open-source-keep-ai-power-from-conce|《Transformer 不满十岁：AI 集中不是宿命》]] — 作为概念
 - [[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|《把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力》]] — 作为概念
+- [[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model|《斯坦福语言学家的代币经济学：你的 token 贬值了》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[LLM]] · [[预训练]] · [[强化学习]] · [[持续学习]] · [[Anthropic]] · [[编码智能体]] · [[Barney Hussey-Yeo]] · [[Sonja]]
+[[智能体]] · [[Anthropic]] · [[LLM]] · [[OpenAI]] · [[强化学习]] · [[预训练]] · [[持续学习]] · [[编码智能体]] · [[Barney Hussey-Yeo]] · [[Sonja]]
 
-<script type="application/json" class="pd-epn">{"智能体":229,"OpenAI":105,"LLM":31,"预训练":6,"强化学习":16,"持续学习":8,"Anthropic":118,"编码智能体":12,"Barney Hussey-Yeo":1,"Sonja":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":230,"Anthropic":119,"LLM":31,"OpenAI":105,"强化学习":16,"预训练":6,"持续学习":8,"编码智能体":12,"Barney Hussey-Yeo":1,"Sonja":1}</script>
 
 <script>
 (function(){

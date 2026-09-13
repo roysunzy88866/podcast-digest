@@ -1,0 +1,136 @@
+{
+  "title_zh": "SpaceX 老兵造硬件控制软件：Revel 如何把卡在 80 年代的工业软件拉进 21 世纪",
+  "tldr": "SpaceX 老兵 Scott Morton 创办 Revel,为火箭、核反应堆等硬件打造测试与控制软件，他讲了为什么工业软件停滞四十年，以及自研编程语言的价值。",
+  "digest_md": "一家软件初创公司，在「AI 正在解决所有软件」的 2026 年逆势融了 1.8 亿美元、估值刚过 10 亿，客户是造火箭、核反应堆和超音速飞机的公司——这就是 Revel。主角 Scott Morton 是一位在 SpaceX 待了近 10 年的老兵，曾为 Falcon 9 写推进剂加载程序，也是德州 Starbase 的第一位软件工程师。他创办 Revel 的底气，来自一个他在 SpaceX 亲眼见过的巨大空白：**控制硬件的软件，从上世纪 80 年代起就没有任何实质性进步**。[00:24 未知]\n\n## 为什么这行软件卡在了 1986 年\n\nScott 的解释很直白：测试领域一个主要平台是 1986 年发明的，工业界普遍使用的平台诞生于 1993 年，之后——「什么都没有」。[07:06 未知] 原因是所有软件工程人才都被互联网吸走了，这个领域荒废了，在位者没有任何创新压力，加上这类系统一旦装上就极难拔除、粘性极强，新玩家进不来。而少数进来的新玩家，又没有 SpaceX 那种从内部亲手构建这套系统的经验——Scott 把这总结成一个先有鸡还是先有蛋的困局。[09:39 未知]\n\n他还澄清了一个流行误解：SpaceX 并不是「垂直整合一切」。「如果你在一次会议上说我们应该垂直整合这个，没人知道你在说什么。」[11:16 未知] 自研是穷尽调研所有商业方案、确认都不适合 Starship 之后才做的决定——而且即便如此，在内部说服大家真的自己造，「实际上也非常困难」。[12:16 未知]\n\n旧系统到底差在哪？一是软件工程师和硬件工程师之间缺少共享的格式，协作不畅；二是发射台上跑的软件和飞行器上跑的软件是两套东西，SpaceX 想造一个对两者都适用的。[12:40 未知] 他们的方法朴素得可爱：在一页纸上写下你希望软件具备的所有优点，拿着清单去对照市售方案，再对照自己能造出什么。[13:06 未知] 这套自研系统最终在 SpaceX 内部「疯传」——在项目彼此壁垒森严的公司里，这极其罕见。[14:11 未知] 但 SpaceX 的产品是把东西送上轨道，不是造软件平台，Scott 觉得这套东西从没做到过极限——加上他问遍 SpaceX 之外的初创公司，得到的回答全是「糟透了」，于是他决定离开，把这套经验交付给全世界造机器的公司。[14:49 未知]\n\n## 从 Elon 那里学到的：在团队身上下大赌注\n\nScott 提炼 SpaceX 成功的最大关键之一：「Elon 愿意在他的团队身上下巨大的赌注，即使所有人都说，我们完全不知道这东西会怎么运作。」[00:34 未知] 最生动的例子是接住塔(Catch Tower,用塔上的机械臂在空中「接住」返回的助推器，省掉沉重的着陆腿)——SpaceX 在 Starship 还从未飞过之前就开始建它，最初甚至打算首飞就接。公司里人人都觉得疯了：「我们连一个能飞的飞行器都还没有。」[17:01 未知] 最终它在第 5 次飞行中被接住了。Scott 的复盘：如果等它飞起来再改造，对飞行器设计将是巨大改动——在最初就下注，「事后来看，显然是神来之笔」。[17:34 未知]\n\n这背后的逻辑是：**工程团队天性保守，他们看不到拐角处自己日后会想出什么**。Elon 的做法是持续押注——「情况看起来不妙」的时候说「再花一个月试试」，然后人们会取得自己都没预料到的突破。「很多团队的能力远远超过他们自己想象的。」[20:01 未知] 还有一样：当你用新信息摆到他面前，他会立刻切换方向——激情澎湃但零自我，Scott 认为这是做出最好决策的关键。[37:34 未知]\n\n在 Revel,他复刻了这个打法：公司只有三个人时就押注用 LLVM(Rust 和 Clang 背后的编译器工具链)自研编程语言的后端——团队从没人用过这东西，「但它显然是长期正确的解决方案」。[18:33 未知] 20 多个月后，这门语言「性能超强」。[19:02 未知]\n\n## 自研编程语言：让硬件工程师一小时干完过去六个月的活\n\n为什么一家硬件软件公司要造编程语言？因为和平台一样，**这行已经三四十年没有为控制硬件系统设计的新语言了**。[20:33 未知] 而三十年间软件世界在「人类怎么写好代码」上进步巨大——Python 那时候都还不存在。Revel 的语言借鉴 Python 的易上手，做到三件事：高性能、极易上手、运行时安全——**只要编译通过，就不会崩溃**。「市面上没有任何一门语言能同时做到这三点。」[21:29 未知]\n\n这门语言的用处，解决的是一个真实痛点：控制系统本质上就是「读入温度、压力等输入 → 做数学计算 → 输出开阀或开泵的指令」，语言专为把中间那步做到极致。[22:11 未知] 最懂硬件的恰恰是硬件工程师，但过去他们得把需求极其详细地解释给另一个人，反复迭代，「它总是错的」。Scott 亲历过：他给 Falcon 9 写推进剂加载程序，向另一个人解释清楚想要什么，花了**六个月**；「今天用 Revel,你真的可以在一个小时内完成。」[23:40 未知]\n\n效果超出了预期：硬件工程师每天在用它，甚至客户公司的**技术人员**——那些平时根本接触不到这类工具、只负责跑测试的人——都在读代码、写代码。[24:41 未知] 一家高超音速公司曾花了一年才同意试试，一旦进入，「大概一个月，从一个系统变成差不多 20 个系统」。[48:07 未知] 对比 Python:一个最常见的字符串插值错误就会在 12 小时测试进行到一半时杀掉运行时系统，让硬件处于不安全状态，还得重测；Revel 编译过就不会崩。[48:47 未知] 开源也在计划里，但要等语言和平台先成熟。[24:49 未知]\n\n## 为什么 AI 替代不了，反而成了助推器\n\n主持人问出那个时代之问：AI 都会写代码了，谁还需要你？Scott 的回答是：没人敢拿自己的职业生涯去「vibe coding(凭感觉让 AI 生成代码)一个核反应堆的控制系统」——浅层 web 应用确实麻烦了，但控制高风险系统的软件远不止写代码这一环。[02:47 未知] Revel 每一行代码都有合适的人审查，有一套完整 CI 系统：实验室里放着平台支持的每一种真实硬件，每次发布都要跑一个耗时数天的验证流程。[03:31 未知] AI 目前给他们的只是「编写环节的加速」，而团队以资深前 SpaceX 工程师为主——**给真正知道正确答案长什么样的人装备 AI,才是巨大加速器**。[05:04 未知]\n\n更有意思的是，Scott 发现 Revel 的语言反而是 AI 生成控制代码的最佳格式：高性能、可读、编译过即不崩——你让 AI 生成代码，恰恰最需要这三样。客户已经在大量这么干了。[51:47 未知]\n\n## 生意：一天部署，从测试台杀向工业系统\n\nRebel 的客户覆盖核反应堆、卫星制造、超跑公司——「一天之内你可以全去一遍，挺酷的」。[00:50 未知] 产品按规模推进：小规模台架测试要快迭代，大规模设施(沙漠里的火箭发动机试验场)要安全控制，Rebel 找到了两者兼得的平衡点；下一个阶段是炼油厂这类工业系统。[39:41 未知] 工业系统的跨越在于遥测通道数量：他们已部署在一个 25 万通道的系统上，有的将来会到几百万。[41:33 未知] 一次 bake-off(两套系统做同样的任务对比)中，用了传统工具好几年的工程师花一周完成的任务，一个从没见过 Revel 的工程师**一天**做完了。[42:36 未知] 客户 Impulse 原本同一家公司里用着八种不同的测试软件，现已全面标准化到 Revel。[40:43 未知] 部署快到什么程度？基本一天搞定，最大的系统也只花了两天。[44:00 未知]\n\n对「你们两年，凭什么信你们能活二十年」的疑虑，Scott 的回应是融资策略(账上钱花不完)+ 产品力：产品足够有吸引力，客户至少会试，然后一步步接管他们更多负担。[43:11 未知] 公司当前最大的瓶颈不是需求——「需求已经完全超过了我们目前的规模」——而是**招聘**：保持极高的招人门槛，这是从 SpaceX 学到的另一课，要让公司到 500 人时，每个人环顾四周还是觉得「这是一家了不起的公司」。[44:30 未知] 招人标准里有个具体的信号：看候选人有没有副业项目，是不是那种热爱到业余还在造东西的人。[26:29 未知]\n\nScott 自己就是这么长大的：在威斯康星和父亲的车库里造《疯狂麦克斯》式的越野遥控车，地下室用乐高建了一整座城市加空间站，大学时用尼加拉瓜本地能弄到的材料从零造风力涡轮机——磁铁得寄过去，其余全靠本地机加工，太阳能板支架是木头加废品站零件拼的。[25:40 未知] 他自认不是高中最好的学生，「一直都在高阶数学班，但除此之外就有点不感兴趣」，进了明尼苏达还是那种心态：「看看你左边，看看你右边，你们当中会有两个人毕不了业」——那种必须加倍证明自己的劲儿。[33:19 未知] 25 岁以实习生身份混进 SpaceX,心态是「我要进去把所有人都卷赢」。[32:45 未知]\n\n## 本集带走\n\n- **AI 短期颠覆不了高后果软件**：浅层 web 应用危险了，但核反应堆控制系统的价值在审查、验证、数天级 CI 真机测试——AI 只是加速了「写」这一环，且在懂行的资深工程师手里威力最大。\n- **下注的时机在最初，不在验证之后**：接住塔在 Starship 首飞前开建，Revel 三个人时押注 LLVM 自研语言——等飞起来再改，代价大得多；工程师天性保守，看不到拐角处自己的突破，领导者的作用是替团队扛住这份不确定。\n- **让最懂硬件的人直接写控制代码**：硬件工程师最懂系统，却被迫把需求翻译给软件工程师——Falcon 9 一个加载程序翻译六个月，Revel 一小时；工具的终极形态是消除翻译层。\n- **「编译通过即不崩溃」是控制系统的刚需**：12 小时测试毁于一个字符串插值错误，代价是硬件损坏加重测——运行时安全在这行不是锦上添花。\n- **一个停滞四十年的市场，壁垒不是技术是经验**：这行缺的不是聪明人，是在 SpaceX 级别高压锅里亲手造过整套系统的人——孵化器型公司(如 SpaceX)会持续向外输出这种人和经验。\n- **招人看副业项目**：本质上的 builder、热爱到业余还在造东西的人，会真正在意结果——这是早期创业公司最重要的信号。",
+  "quotes": [
+    {
+      "en": "I don't think anyone's really going to kind of bet their career on like vibe coding a control system for let's say a nuclear reactor or a rocket engine or something that's very high consequence.",
+      "zh": "我不认为真的有人会把自己的职业生涯押在，比如说，用 vibe coding 写一个核反应堆或火箭引擎或某种后果非常严重的系统的控制系统上。",
+      "timestamp": "02:47",
+      "speaker": "Scott Morton"
+    },
+    {
+      "en": "I saw this problem firsthand at SpaceX. To have something great at SpaceX, we had to build it all ourselves.",
+      "zh": "我在 SpaceX 亲眼见过这个问题。在 SpaceX 要做出好东西，我们只能全都自己造。",
+      "timestamp": "06:10",
+      "speaker": "Scott Morton"
+    },
+    {
+      "en": "One of the biggest keys to SpaceX's success is just that Elon is one to make massive bets on his team, that we can do this.",
+      "zh": "SpaceX 成功的最大关键之一就是 Elon 是那种会对他的团队下巨大赌注的人，相信我们能做到。",
+      "timestamp": "15:37",
+      "speaker": "Scott Morton"
+    },
+    {
+      "en": "So if it compiles, it cannot crash. And there's just no language out there that does all those three.",
+      "zh": "也就是说，只要能编译通过，它就不会崩溃。而市面上没有任何一门语言能同时做到这三点。",
+      "timestamp": "21:29",
+      "speaker": "Scott Morton"
+    },
+    {
+      "en": "I think it's not okay to not push hard. If you think something is the right way to do things, you should say it.",
+      "zh": "我认为不去全力推进是不行的。如果你认为某件事是正确的做事方式，你就应该说出来。",
+      "timestamp": "35:39",
+      "speaker": "Scott Morton"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:47",
+      "speaker": "未知",
+      "en": "I don't think anyone's really going to kind of bet their career on like vibe coding a control system for let's say a nuclear reactor or a rocket engine or something that's very high consequence.",
+      "zh": "我不认为真的有人会把自己的职业生涯押在，比如说，用 vibe coding 写一个核反应堆或火箭引擎或某种后果非常严重的系统的控制系统上。"
+    },
+    {
+      "timestamp": "06:10",
+      "speaker": "未知",
+      "en": "I saw this problem firsthand at SpaceX. To have something great at SpaceX, we had to build it all ourselves.",
+      "zh": "我在 SpaceX 亲眼见过这个问题。在 SpaceX 要做出好东西，我们只能全都自己造。"
+    },
+    {
+      "timestamp": "07:09",
+      "speaker": "未知",
+      "en": "It's like 1986 is when one of the major platforms used in tests was invented and really hasn't changed much since then.",
+      "zh": "比如 1986 年是测试中使用的一个主要平台被发明的时间，而且从那以后真的没怎么变过。"
+    },
+    {
+      "timestamp": "11:16",
+      "speaker": "未知",
+      "en": "If you were to say, you know, in a meeting where you're trying to decide what to do, like, we should vertically integrate this, like, you would just be like, like, no one would know what you're talking about.",
+      "zh": "如果你在一次决定该怎么做会议上说，我们应该垂直整合这个，就像，没人知道你在说什么。"
+    },
+    {
+      "timestamp": "14:00",
+      "speaker": "未知",
+      "en": "But SpaceX, at least when I was there, you know, the product was getting things to orbit. It was not building an incredible software platform.",
+      "zh": "但 SpaceX,至少我在那里的时候，你知道，产品是把东西送入轨道。而不是构建一个出色的软件平台。"
+    },
+    {
+      "timestamp": "15:37",
+      "speaker": "未知",
+      "en": "One of the biggest keys to SpaceX's success is just that Elon is one to make massive bets on his team, that we can do this.",
+      "zh": "SpaceX 成功的最大关键之一就是 Elon 是那种会对他的团队下巨大赌注的人，相信我们能做到。"
+    },
+    {
+      "timestamp": "17:34",
+      "speaker": "未知",
+      "en": "And so making that bet at the very beginning, in hindsight, was clearly like a stroke of genius.",
+      "zh": "所以在最初就下那个赌注，事后来看，显然是神来之笔。"
+    },
+    {
+      "timestamp": "19:46",
+      "speaker": "未知",
+      "en": "And so I think Elon just would always make bets on the team and continue to make bets, even though everyone's like, we have no idea how this is going to work.",
+      "zh": "所以我觉得 Elon 总是会押注这个团队，并且持续押注，即使所有人都说，我们完全不知道这怎么能行得通。"
+    },
+    {
+      "timestamp": "20:01",
+      "speaker": "未知",
+      "en": "And so I think a lot of teams are just much more capable than they even imagined.",
+      "zh": "所以我认为，很多团队的能力远远超过他们自己想象的。"
+    },
+    {
+      "timestamp": "21:29",
+      "speaker": "未知",
+      "en": "So if it compiles, it cannot crash. And there's just no language out there that does all those three.",
+      "zh": "也就是说，只要能编译通过，它就不会崩溃。而市面上没有任何一门语言能同时做到这三点。"
+    },
+    {
+      "timestamp": "23:15",
+      "speaker": "未知",
+      "en": "It takes a lot of time. It's, it's always wrong.",
+      "zh": "这要花很多时间。它总是错的。"
+    },
+    {
+      "timestamp": "23:40",
+      "speaker": "未知",
+      "en": "And then with Rebel today, you could do it in literally an hour.",
+      "zh": "而今天用 Rebel,你真的可以在一个小时内完成。"
+    },
+    {
+      "timestamp": "33:19",
+      "speaker": "未知",
+      "en": "I wouldn't say I was the best student in high school. I was always in like advanced math, but otherwise somewhat disinterested.",
+      "zh": "我不算高中最好的学生。我一直都在高阶数学班，但除此之外就有点不感兴趣。"
+    },
+    {
+      "timestamp": "35:39",
+      "speaker": "未知",
+      "en": "I think it's not okay to not push hard. If you think something is the right way to do things, you should say it.",
+      "zh": "我认为不去全力推进是不行的。如果你认为某件事是正确的做事方式，你就应该说出来。"
+    },
+    {
+      "timestamp": "40:52",
+      "speaker": "未知",
+      "en": "And they have now fully standardized on Revel, and they're only using Revel across tiny, even the smallest, like kind of circuit board testing system, all the way up to what they're using at this new site called Site1C, which they're going to use to test their entire stage.",
+      "zh": "而他们现在已经完全标准化到 Revel 上,他们只使用 Revel,从最小的、像电路板测试系统,一直到他们在那个叫 Site1C 的新场地所使用的系统,他们将用它来测试整个级段。"
+    },
+    {
+      "timestamp": "49:06",
+      "speaker": "未知",
+      "en": "And so you may have this simplest mistake that's probably most common is like a string interpolation error. And that will just kill your runtime system in the middle of a test.",
+      "zh": "所以你可能会有最简单的错误,大概最常见的就是字符串插值错误。那就会在测试进行到一半时直接杀掉你的运行时系统。"
+    }
+  ],
+  "voice_script": "今天这家公司有点特别。在 AI 似乎要解决一切软件问题的 2026 年，它逆着风融了 1.8 亿美元，估值刚过 10 亿，客户名单上全是造火箭、造核反应堆、造超音速飞机的硬核公司。这家公司叫 Revel,创始人 Scott Morton 在 SpaceX 待了将近十年，给 Falcon 9 写过推进剂加载程序，还是德州 Starbase 的第一位软件工程师。今天要聊的就是这件事：为什么控制硬件的软件，从上世纪 80 年代起就没怎么进步过？以及，一家初创公司打算怎么把这四十年的窟窿补上。\n\n先说说这个问题是怎么来的。你想想，造火箭、造反应堆的人，靠什么软件来测试和控制那些机器？答案是：主要平台，一个是 1986 年发明的，一个诞生于 1993 年，然后，什么都没有了。为什么停滞成这样？Scott 的解释很直白：所有软件工程人才都被互联网吸走了，这个领域荒废了。在位者没有任何创新压力，这类系统一旦装上又极难拔除，粘性极强，新玩家根本进不来。就算有少数新玩家挤进来了，也缺一样东西——没有 SpaceX 那种从内部亲手构建整套系统的经验。这就成了一个先有鸡还是先有蛋的困局。\n\n那 Scott 是从哪攒下这个经验的？得回到 SpaceX。很多人以为 SpaceX 是垂直整合一切，其实不然——用原话说，如果你在会上说“我们应该垂直整合这个”，没人知道你在说什么。自研是穷尽调研了所有商业方案、确认都不适合 Starship 之后才做的决定，而且即便如此，在内部说服大家真的自己造，也非常困难。\n\n旧系统到底差在哪？两个问题。一是软件工程师和硬件工程师之间没有共享的格式，协作全靠翻译。二是发射台上跑的软件和飞行器上跑的软件是两套东西。他们的办法朴素得可爱：在一页纸上写下希望软件具备的所有优点，拿着清单去对照市售方案，再对照自己能造出什么。结果这套自研系统在 SpaceX 内部疯传——在项目彼此壁垒森严的公司里，这极其罕见。但 SpaceX 的产品是把东西送上轨道，不是造软件平台。再加上问遍外面的初创公司，得到的回答全是“糟透了”，于是决定离开，把这套经验交付给全世界造机器的公司。\n\n这里面还有一条从 Elon 那里学来的方法论，很值得单独讲。用 Scott 的话说，SpaceX 成功的最大关键之一，就是 Elon 愿意在团队身上下巨大的赌注——即使所有人都说，我们完全不知道这东西会怎么运作。最生动的例子是接住塔，就是用塔上的机械臂在空中接住返回的助推器，省掉沉重的着陆腿。SpaceX 在 Starship 还从未飞过之前就开始建它，公司里人人都觉得疯了：我们连一个能飞的飞行器都还没有。最终它在第 5 次飞行中被接住了。复盘的逻辑是：如果等飞起来再改造，对飞行器设计将是巨大改动；在最初就下注，事后来看显然是神来之笔。背后的道理是，工程团队天性保守，看不到拐角处自己日后会想出什么，而很多团队的能力远远超过他们自己的想象。\n\nRevel 复刻了这个打法。公司只有三个人的时候，就押注用 LLVM——就是 Rust 和 Clang 背后那套编译器工具链——自研编程语言的后端，团队里没人用过这东西，但它显然是长期正确的解决方案。20 多个月后，这门语言性能超强。\n\n那为什么一家做硬件软件的公司要造编程语言？因为跟平台一样，这行已经三四十年没有为控制硬件系统设计的新语言了，而这三十年间，软件世界在“人类怎么写好代码”上进步巨大——连 Python 那时候都还不存在。Revel 的语言做到三件事：高性能、极易上手、运行时安全。换句话说，只要编译通过，就不会崩溃，市面上没有任何一门语言能同时做到这三点。\n\n这门语言的用处，解决的是一个真实痛点。控制系统本质上就是读入温度、压力这些输入，做数学计算，然后输出开阀或开泵的指令。最懂硬件的恰恰是硬件工程师，但过去他们得把需求极其详细地解释给另一个人，反复迭代，总是错的。Scott 亲历过：给 Falcon 9 写推进剂加载程序，向另一个人解释清楚想要什么，花了六个月；今天用 Revel,一个小时就能完成。效果甚至超出预期——客户公司里那些平时根本接触不到这类工具、只负责跑测试的技术人员，都在读代码、写代码了。\n\n说到这，那个时代之问就来了：AI 都会写代码了，谁还需要你？Scott 的回答很直接：没人敢拿自己的职业生涯去 vibe coding 一个核反应堆的控制系统。浅层 web 应用确实麻烦了，但控制高风险系统的软件，远不止写代码这一环——每一行代码都有合适的人审查，实验室里放着平台支持的每一种真实硬件，每次发布要跑一个耗时数天的验证流程。AI 目前给的只是编写环节的加速，而给真正知道正确答案长什么样的人装备 AI,才是巨大加速器。更有意思的是，Revel 的语言反而成了 AI 生成控制代码的最佳格式——你让 AI 写代码，恰恰最需要高性能、可读、编译过即不崩这三样，客户已经在大量这么干了。\n\n生意的进展也说明问题。客户覆盖核反应堆、卫星制造、超跑公司；已经部署在一个 25 万遥测通道的系统上。一次对比测试里，用传统工具好几年的工程师花一周完成的任务，一个从没见过 Revel 的工程师一天做完了。部署快到基本一天搞定，最大的系统也只花了两天。而当前最大的瓶颈不是需求——需求已经完全超过了目前的规模——而是招聘：保持极高的门槛，要看候选人是不是那种热爱到业余还在造东西的人。\n\n最后想留给你的一句话：这行缺的从来不是聪明人，而是在 SpaceX 级别的压力锅里亲手造过整套系统的人——而工具的终极形态，就是让最懂硬件的人直接写下控制代码，把翻译层彻底消掉。"
+}
