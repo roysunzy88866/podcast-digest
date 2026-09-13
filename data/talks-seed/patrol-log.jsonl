@@ -970,3 +970,4 @@
 {"ts":"2026-09-12T01:50:49.259Z","action":"rejected","channel":"cursor","videoId":"4CAFK-rc26A","title":"The New PM, Claire Vo | Compile 26","durationSec":1551,"verdict":"不对味","reason":"Compile 会议短讲(26分钟),不在本频道要的 50-65 分钟 AI 编程实操深讲范围内"}
 {"ts":"2026-09-12T01:51:14.102Z","action":"rejected","channel":"cursor","videoId":"ByOF8qByGHU","title":"What Is Your Job Now, Farhan Thawar | Compile 26","durationSec":1600,"verdict":"不对味","reason":"拿不准:Compile 系列短讲、27 分钟且偏行业观点访谈,非本频道要的 50-65 分钟 AI 编程实操深讲,深浅边界存疑"}
 {"ts":"2026-09-13T01:40:57.974Z","action":"prefilter-skip","channel":"yc","videoId":"wr6PMD06hP0","title":"How To Get Better At Outbound Sales","reason":"时长 762s < 下限 900s"}
+{"ts":"2026-09-13T01:44:59.053Z","action":"push-failed","videoId":null,"error":"pull --rebase + push 连败 3 次;种子已在本地提交,下轮巡航随新提交重推"}
