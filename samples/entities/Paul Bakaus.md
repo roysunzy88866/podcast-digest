@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jonathan Kelley]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]] [[Ran Arusi]]
+[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Jonathan Kelley]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Impeccable":1,"harness":30,"智能体":232,"一次性设计":1,"AI 垃圾内容":2,"品味":9,"形容词引导设计":1}</script>
+<script type="application/json" class="pd-epn">{"Impeccable":1,"harness":30,"智能体":233,"一次性设计":1,"AI 垃圾内容":2,"品味":10,"形容词引导设计":1}</script>
 
 <script>
 (function(){

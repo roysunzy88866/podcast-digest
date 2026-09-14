@@ -25,7 +25,7 @@ unlisted: true
 
 [[Zavain Dar]] · [[Eric Newcomer]] · [[NVIDIA]] · [[Hugging Face]] · [[开源]] · [[蒸馏]] · [[推理]] · [[新云]] · [[前沿模型]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Zavain Dar":1,"Eric Newcomer":1,"NVIDIA":33,"Hugging Face":20,"开源":22,"蒸馏":10,"推理":43,"新云":2,"前沿模型":16,"智能体":232}</script>
+<script type="application/json" class="pd-epn">{"Zavain Dar":1,"Eric Newcomer":1,"NVIDIA":34,"Hugging Face":20,"开源":22,"蒸馏":10,"推理":43,"新云":2,"前沿模型":16,"智能体":233}</script>
 
 <script>
 (function(){

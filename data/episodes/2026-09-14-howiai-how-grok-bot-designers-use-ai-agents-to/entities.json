@@ -1,0 +1,723 @@
+{
+  "episode_id": "2026-09-14-howiai-how-grok-bot-designers-use-ai-agents-to",
+  "podcast": "How I AI",
+  "date": "2026-09-14",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "设计",
+    "vibe coding",
+    "工作流自动化"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "claire-vo",
+      "type": "person",
+      "role": "host",
+      "name": "Claire Vo",
+      "file": "Claire Vo",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            74.714,
+            79.936
+          ],
+          "quote": "I'm Claire Vo, product leader and AI obsessive here on a mission to help you build better with these new tools.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "peng-zheng",
+      "type": "person",
+      "role": "guest",
+      "name": "Peng Zheng",
+      "file": "Peng Zheng",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "john-bai",
+      "type": "person",
+      "role": "cohost",
+      "name": "John Bai",
+      "file": "John Bai",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 517,
+          "t": [
+            2436.011,
+            2437.971
+          ],
+          "quote": "You can find me at John Bai, which is just my name.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "grokbot",
+      "type": "company",
+      "role": "company",
+      "name": "GrokBot",
+      "file": "GrokBot",
+      "primary": true,
+      "how_described": "本集主线产品:两位设计团队嘉宾用它把设计工作外包出去——搭打卡流水线、写 Figma 生产任务、生成可交互原型,口号是「用 AI 是为了离开电脑,而不是待在电脑前」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            80.376,
+            88.198
+          ],
+          "quote": "Today, I have John and Pong from the GrokBot design team, and they're going to show us two really awesome AI design use cases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            88.759,
+            99.062
+          ],
+          "quote": "One, how to build a beautiful, custom, and easy to update personal site that meets the bar of a designer, and two, how GrokBot was used to design GrokBot, including",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            187.665,
+            191.367
+          ],
+          "quote": "We did a Ladies Who GrokBot night at Andreessen Horwitz.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            195.009,
+            196.51
+          ],
+          "quote": "GrokBot is having its moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            207.055,
+            213.722
+          ],
+          "quote": "They themselves have found new ways to get work done, build software, do awesome things with GrokBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            214.123,
+            222.632
+          ],
+          "quote": "So how has it been, you know, the past couple of weeks, just been being in the middle of this sort of explosion in GrokBot interest?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            278.023,
+            284.767
+          ],
+          "quote": "And one of the things I love about GrokBot and AI agents in general is it's just really opening up new ways to do",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            289.933,
+            296.922
+          ],
+          "quote": "So walk us through what you're going to show us and why you think GrokBot is the right way to take on this task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            452.623,
+            454.544
+          ],
+          "quote": "So that's when I started to talk to GrokBot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 109,
+          "t": [
+            477.794,
+            481.036
+          ],
+          "quote": "So I just want to test it, how it works with GrokBot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            481.536,
+            484.458
+          ],
+          "quote": "I basically told GrokBot, here is the idea.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            520.235,
+            528.782
+          ],
+          "quote": "So now when I go somewhere, I can basically just send GrokBot a photo, a screenshot, or literally just the name of the place.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 135,
+          "t": [
+            570.816,
+            580.86
+          ],
+          "quote": "So now when I hang out with a friend, I can literally send a screenshot of the place and a screenshot of my friend's social profile and the GrokBot will take over the rest.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1214.639,
+            1226.503
+          ],
+          "quote": "You know, this is a personal use case and I think a really lovely one, but let's switch over to WorkStuff because, John, you've been using GrokBot to design GrokBot and have some really interesting workflows you're going to show us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1228.289,
+            1237.837
+          ],
+          "quote": "I think for me, some folks have already read an article that I wrote that was how I design using, no, no, how I design GrokBot using GrokBot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1259.689,
+            1264.171
+          ],
+          "quote": "Hopefully you can help improve it and share it back with me and I can update it in my own GrokBot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1881.955,
+            1893.937
+          ],
+          "quote": "We've shown sort of like the personal workflows and how you can do kind of amazing things that you wouldn't have been able to do before with very minimal toil using GrokBot as sort of like a development and design pipeline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1894.397,
+            1900.398
+          ],
+          "quote": "John showed us, you know, how to experiment, design, do production more efficiently with GrokBot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体当作连接简单构建块(Google Places API、图像生成、结构化数据、渲染)的那条线,并展示了快问快答里一整支机器人编队(幕僚长、邮件/日历管理器、机器人群组等)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 248,
+          "t": [
+            1143.205,
+            1151.252
+          ],
+          "quote": "Plus, you can access the Vanta agent everywhere you work, whether your team is in Vanta every day or living in tools like Claude or Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1614.726,
+            1619.948
+          ],
+          "quote": "But in essence, it was, when I share an agent, we've been using this term of a snapshot, a template.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1620.148,
+            1624.51
+          ],
+          "quote": "It's not the agent itself, but it's a copy of it to give to another coworker or friend or whatever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1662.64,
+            1669.483
+          ],
+          "quote": "The first being if I click Share Agent here, there's a little screenshot effect, then zooms into it and shows some of the details.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": true,
+      "how_described": "本集里 Figma 是设计师的日常工作载体:John 通过 MCP 让机器人直接读写 Figma 文件,替他完成图标摆放、营销素材批量应用样式等生产设计活。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            13.998,
+            19.2
+          ],
+          "quote": "I was able to just screenshot in Figma these two separate artboards of work that was already in progress.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            60.562,
+            66.666
+          ],
+          "quote": "Like look, your highest calling was never to design gradient fills in Figma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            99.482,
+            103.324
+          ],
+          "quote": "Where Figma Bro can make your life at the gym and work a lot easier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            491.541,
+            492.862
+          ],
+          "quote": "There's no Figma file.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1058.141,
+            1067.551
+          ],
+          "quote": "And what I tell people is like, look, your highest calling was never to like design gradient fills in Figma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1248.425,
+            1256.628
+          ],
+          "quote": "One of the ones I wanted to talk through today was on Figma Bro, which I also shared out as a bot template.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1275.576,
+            1277.037
+          ],
+          "quote": "I have a link in Figma as an example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1305.581,
+            1318.528
+          ],
+          "quote": "It was 8.52, so I was wrapping up at the gym, and I was able to just screenshot in Figma these two separate artboards of work that was already in progress, one being from the icon library and the other being from the brand book.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1353.641,
+            1359.224
+          ],
+          "quote": "And this is the type of thing that maybe, you know, wouldn't take super long in Figma, but now I'm just doing while I'm not even at my computer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1359.535,
+            1367.26
+          ],
+          "quote": "Can you just walk us through exactly how this is hooked up to Figma for folks that kind of just don't even know how this magic happens?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1368.141,
+            1378.888
+          ],
+          "quote": "So there's a Figma MCP, which we use and is pretty effective, uh, especially if you just give the, once you've made the connection, uh, give your bot the link to it and give it some very specific set of controls.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1435.629,
+            1438.309
+          ],
+          "quote": "And so what I did was I'll show you what I did in Figma.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1519.946,
+            1531.057
+          ],
+          "quote": "And then letting Figma bro, love the name, let Figma bro, Figma bro and Tradbot would be friends, by the way, let Figma bro kind of like do the production work, I think is really amazing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1539.885,
+            1557.74
+          ],
+          "quote": "And so the fact that you were at the gym, got asked to do something, you know, especially something like Figma that really does require like your human fingers on a touchpad or whatever to do it, and your disability to be like, yep, go for it, get it done, and finish your workout, I think is so nice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1695.691,
+            1707.314
+          ],
+          "quote": "But I do love how easy it is to take just the concept that normally you would have to either prototype with the noodles in Figma, take the time to actually consider how it gets built if you're prototyping in code,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1856.07,
+            1866.933
+          ],
+          "quote": "Just to recap for folks, Figma Bro, your design spotter while you were at the gym getting the reps in on your artboards, and then experiment in DevBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2353.764,
+            2356.606
+          ],
+          "quote": "You have Figma Bro, I have Trad Bot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "figma-mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "Figma MCP",
+      "file": "Figma MCP",
+      "primary": true,
+      "how_described": "John 介绍它是「让 AI 直接连上 Figma 文件读写内容的接口」,建立连接后把链接和具体控制指令丢给机器人即可。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 295,
+          "t": [
+            1368.141,
+            1378.888
+          ],
+          "quote": "So there's a Figma MCP, which we use and is pretty effective, uh, especially if you just give the, once you've made the connection, uh, give your bot the link to it and give it some very specific set of controls.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "figma-bro",
+      "type": "company",
+      "role": "company",
+      "name": "Figma Bro",
+      "file": "Figma Bro",
+      "primary": true,
+      "how_described": "John 做的专用机器人(已作为 bot 模板公开分享):连上 Figma 后接收截图+语音指令,他在健身房时替同事 Ben 完成社区素材、在开会时批量产出营销图——全程没碰电脑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            99.482,
+            103.324
+          ],
+          "quote": "Where Figma Bro can make your life at the gym and work a lot easier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1248.425,
+            1256.628
+          ],
+          "quote": "One of the ones I wanted to talk through today was on Figma Bro, which I also shared out as a bot template.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1519.946,
+            1531.057
+          ],
+          "quote": "And then letting Figma bro, love the name, let Figma bro, Figma bro and Tradbot would be friends, by the way, let Figma bro kind of like do the production work, I think is really amazing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1856.07,
+            1866.933
+          ],
+          "quote": "Just to recap for folks, Figma Bro, your design spotter while you were at the gym getting the reps in on your artboards, and then experiment in DevBot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2353.764,
+            2356.606
+          ],
+          "quote": "You have Figma Bro, I have Trad Bot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "devbot",
+      "type": "company",
+      "role": "company",
+      "name": "DevBot",
+      "file": "DevBot",
+      "primary": true,
+      "how_described": "John 的第二个机器人(与 Experiments 交替使用),解决「淋浴灵感」问题:语音描述交互想法后,它自己找 MotionGod 协作、重建缺失组件,产出两个可交互原型供团队评估。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            1559.824,
+            1566.028
+          ],
+          "quote": "Yeah, and speaking of on-the-go, the other bot that I want to highlight is DevBot or Experiments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1590.226,
+            1594.41
+          ],
+          "quote": "Which brings me to DevBot, who works really closely with experiments also over here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1717.461,
+            1724.105
+          ],
+          "quote": "So IdeasBot maybe should be the combination of what I'm using today as experiments and DevBot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1856.07,
+            1866.933
+          ],
+          "quote": "Just to recap for folks, Figma Bro, your design spotter while you were at the gym getting the reps in on your artboards, and then experiment in DevBot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prototype",
+      "type": "concept",
+      "role": "concept",
+      "name": "原型 (prototype)",
+      "file": "原型",
+      "primary": true,
+      "how_described": "本集说原型成本趋近于零:用平实语言描述想法,让机器人解读并变成可交互的东西,不合适就扔——Claire 称之为「垃圾桶方法」软件开发。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 338,
+          "t": [
+            1599.574,
+            1611.545
+          ],
+          "quote": "I took a screenshot of our actual mobile app experience, a screenshot of my bot called Slack Search, and gave a voice memo to the bot saying, I wanted to make a specific type of prototype.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1695.691,
+            1707.314
+          ],
+          "quote": "But I do love how easy it is to take just the concept that normally you would have to either prototype with the noodles in Figma, take the time to actually consider how it gets built if you're prototyping in code,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1724.225,
+            1729.349
+          ],
+          "quote": "But yeah, the random shower thoughts can now become a real working prototype.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "trash-can-method",
+      "type": "concept",
+      "role": "concept",
+      "name": "垃圾桶方法 (trash can method)",
+      "file": "垃圾桶方法",
+      "primary": true,
+      "how_described": "Claire Vo 在本集提出的说法:抱着「做出来的东西扔进垃圾桶完全不心疼」的前提去构建,不必每个想法先过 ROI/OKR 审查,也不必为「占用资源」感到压力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 378,
+          "t": [
+            1778.29,
+            1788.313
+          ],
+          "quote": "And so the thing that I call this like the trash, trash can method of software development, which is like building things with the presumption that it is totally inexpensive.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompt)",
+      "file": "提示词",
+      "primary": true,
+      "how_described": "本集反复强调具体 prompt 的价值:Pong 把「暗色模式灯会亮、亮暗两版一致」写进 prompt,John 预先规定画板水平并排、间隔 50-100 像素,免得回来收拾烂摊子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            751.077,
+            752.578
+          ],
+          "quote": "And then this was baked into prompt.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1270.333,
+            1272.954
+          ],
+          "quote": "This is an actual prompt that I gave it using voice recording.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2363.751,
+            2364.551
+          ],
+          "quote": "How do you prompt?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "voice-memo",
+      "type": "concept",
+      "role": "concept",
+      "name": "语音备忘录 (voice memo)",
+      "file": "语音备忘录",
+      "primary": true,
+      "how_described": "本集称语音+截图是最低摩擦的输入方式:John 在健身房用语音描述任务、语音消息迭代大小圆角配色,「经典淋浴灵感」也靠语音备忘录交给机器人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 338,
+          "t": [
+            1599.574,
+            1611.545
+          ],
+          "quote": "I took a screenshot of our actual mobile app experience, a screenshot of my bot called Slack Search, and gave a voice memo to the bot saying, I wanted to make a specific type of prototype.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "taste(品味) (taste)",
+      "file": "taste(品味)",
+      "primary": false,
+      "how_described": "Claire 提到设计师都谈论的那个「品味」——知道什么算好、什么算高质量,AI 补齐了她们缺的硬技能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            911.703,
+            926.437
+          ],
+          "quote": "You know, another thing that I want to call out for designers, because again, in a previous life, I was a designer, is I have considered myself very creative for a very long time and have a good sense of, you know, this thing that everybody's calling taste.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

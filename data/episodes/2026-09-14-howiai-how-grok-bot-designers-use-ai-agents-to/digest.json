@@ -1,0 +1,178 @@
+{
+  "title_zh": "GrokBot 设计团队演示:让 AI 替你离开电脑",
+  "tldr": "GrokBot 设计团队的 Pong 和 John 演示三个真实工作流:自动打卡的个人网站、Figma 生产设计自动化、随手语音生成原型,并分享他们的机器人编队。",
+  "digest_md": "这一集是 How I AI 主持人 Claire Vo(产品负责人)对话 GrokBot 设计团队的两位设计师:Pong 和 John。两人现场演示了他们怎么用 GrokBot 把设计工作「外包」出去——核心态度一句话:**「我用 AI 是为了让我离开电脑,而不是待在电脑前。」**\n\n## Pong 的个人网站:一条自动打卡流水线\n\nPong 吃外卖时盯着饭盒上的红色中式庙宇图案,想知道它是不是真实存在,跑去旧金山唐人街没找到庙,却拍了张小果蔬店的照片,用 AI 把照片变成 3D 黏土微缩模型,顺手扔上了重做中的个人网站首页。然后他意识到一个老问题:设计师花几周做的个人网站,访客看 30 秒就走,连自己都不回访。他想要一个「活」的网站——记录自己去过哪、和谁在一起、在做什么。\n\n关键决定是:**「如果我要做这件事,我不想每次都手动做。」** 他对 GrokBot 只说了一句「这是我的想法,最简单的实现方式是什么」,没有 Figma 文件、没有规格文档,边建边想。最终成品是一条打卡流水线:他随时给机器人发一张照片、一张截图,或者干脆只报一个地名,机器人就会:\n\n- 通过 Google Places API 查出地点和坐标;\n- 处理图片:修正透视、移除行人、分离建筑外立面,生成网站用的 3D 微缩风格图,而且**亮暗主题各生成一张一致版本**——切到暗色模式时「灯会亮起来」,这点是写进 prompt 里的;\n- 把朋友的社交主页截图一起发去,就能把「和谁在一起」也记进去;\n- 转成网站期望的数据结构,直接发布。\n\n现场演示:三人虚拟打卡旧金山 Bernal Heights 的那个「秘密秋千」(有人反复装、市府反复拆的争议景点),几分钟后网站就上线了新条目,还加了个彩蛋——夜晚秋千挂着、白天消失,还原真实情况。\n\nPong 强调这一切「一点都不花哨」:Google 地图、图像生成、结构化数据、网站渲染,都是简单构建块,**GrokBot 是把点连起来的那个东西**。换作以前,他大概会想想需要 CMS、管理后台、部署托管……然后「想着以后再做,然后永远不做」;现在他不需要知道最终系统长什么样,一张随手照片就能起步。\n\n## John 的 Figma Bro:不在电脑前也能干生产设计活\n\nJohn 写过一篇《我如何用 GrokBot 设计 GrokBot》,现场讲了两个机器人。第一个是 **Figma Bro**(他也作为 bot 模板公开分享,欢迎别人改进后回传)。连接方式是 Figma MCP(让 AI 直接连上 Figma 文件读写内容的接口),连好后把 Figma 链接丢给机器人、配上具体控制指令即可——他甚至会预先规定「画板要水平并排、间隔 50 到 100 像素」,免得回来看到乱糟糟的文件。\n\n真实场景一:早上 8:52,他正在健身房收尾,同事 Ben 要一批社区素材。他在 Figma 里截了两个画板(图标库 + 品牌手册)的图,语音描述任务,机器人产出三个输出,他连内容都没细读,把 Slack 上的清单粘贴过去回一句「应该都覆盖了」,再通过几轮语音消息迭代大小、圆角、配色——**全程没碰电脑**。\n\n真实场景二:一小时前,要为当天上线的 bot marketplace 做营销素材。他做好一个模板,给机器人链接并指示:「用品牌手册的背景壁纸,匹配我已有的样式,应用到其余每一个上。」部分图没更新到位就回去催一下,但省掉的是逐站下载照片、改实例、改背景、改文案的全部手工活。**「当我在开这个会的时候,工作正在被完成。」**\n\n## DevBot:淋浴时的灵感变成可交互原型\n\n第二个机器人组合是 **DevBot / Experiments**(两个交替使用),解决「经典淋浴灵感」问题:想法来了、人不在电脑前、想保真又没精力。他截了两张图(自家移动端 App + 一个叫 Slack Search 的 bot),发语音备忘录描述一个交互想法:分享智能体时(分享出去的是模板拷贝,不是本体),能不能做一个 iOS 风格的截图特效——点分享、截屏、缩小、缩放回预览模板?机器人自己去和负责动效的 MotionGod 协作、自己开会、自己重建测试仓库里缺的组件,他几乎没中途检查,回来就得到两个可交互的方案(张扬版和含蓄版)。最终团队决定不采用——因为太像它借鉴的 iOS 截图创意了,但整个探索的成本几乎为零。\n\nClaire Vo 由此提出一个概念:**「垃圾桶方法」软件开发**——抱着「做出来的东西扔进垃圾桶完全不心疼」的前提去构建,无论是原型还是给客户的东西。过去一个好想法要闯两道关卡:产品经理问「优先级呢?ROI 呢?OKR 呢?」,工程师说「我才不建那个蠢东西,我还有技术债」;就算建成了不喜欢,还会有人愤怒「我们投入了时间」。现在你不必关掉大脑里「那如果这样呢」的创造性部分,也不用为「占用资源」感到压力。 John 补了一句:「老实说,这让做设计师重新变有趣了。」\n\n对「AI 威胁创意行业」的焦虑,Claire 的回应是:「听着,你最高的使命从来就不是在 Figma 里设计渐变填充。」AI 让设计师沿杠杆往上走,去做声音、视频、插画这些愉悦感的边缘,而不是困在底层生产活里。两位嘉宾都提到 AI 解锁了原本「无法企及」的技能:John 靠描述和比划就能做动效,Pong 说造物成本骤降,开启了过去想都不敢想的组合。\n\n## 快问快答:他们的机器人编队\n\nPong 把机器人分成「生活」「工作」两个桶:\n\n- **幕僚长**:不知道该委派给谁的事都丢给它。比如晚上让它买 3D 打印耗材,并要求「买完后自动更新 Notion 里的库存清单」——他的心得是**把日常多个任务串起来训练,给它一个更高层的目标,让它自己想出步骤**;下次直接说「做上个月那件事」甚至全自动。\n- **邮件管理器**:列出所有待办,昨晚发现一个 USPS 投递问题,直接让它去联系。\n- **日历管理器**:已经「变成我的日历」——在 LinkedIn 上聊好约咖啡,截个图发过去让它放占位,**「我几乎再也不打开日历应用了」**。\n- **机器人群组**:把 PM、设计师、工程师三个机器人拉进一个群聊,扔进去一个产品点子,看它们从各自角色出发讨论,「一颗简单的种子自己长出新想法」。\n- **每日 7 点个性化 AI 新闻通讯**:要求做事实核查、尽量附官方来源链接。\n- **法律顾问**:比如每月自动查绿卡排期进度并汇报。\n\nJohn 的两个特别用法:一是学日语——让机器人每次回复同时给汉字、注音、英文三层,在日常对话中边用边学;二是**保险管家**——先让它了解自己的保险计划,之后任何收据、医生账单拍照发过去,它会判断是否需要跟进、有没有拿到最大报销,「一半时间其实没额外省出钱,但它给了我安心」。\n\n## 怎么调教犯傻的机器人\n\nJohn 的坦白:在 SpaceX AI 工作排查问题时要交 session ID,「我不想让同事看到我怎么跟机器人说话」,所以随着时间推移变得客气了。但他给了一个实在的技巧:**每次出问题,让机器人「记住这个,以后再遇到就按上次学到的流程来」**——先提炼、再自我迭代,用得越久越贴合你的需求。\n\n## 本集带走\n\n- **想清楚「不想手动重复哪一步」再动手**:Pong 的起点不是技术方案,而是一句「为什么它不能在我去某个地方时自动更新」。把多个简单积木(地图 API、图像生成、结构化数据、渲染)交给智能体串联,不需要先设计完整系统。\n- **语音 + 截图是最被低估的输入方式**:健身时语音描述 + 两张 Figma 截图就能完成生产设计活;给机器人预留具体规范(画板排布、像素间距、亮暗双版本),免得回来收拾烂摊子。\n- **接受「垃圾桶方法」**:以扔掉不心疼为前提做原型,别让每个想法都先过 ROI 审查;不合适就弃,探索成本趋近于零。\n- **把生活任务串成流水线,而不是单点提问**:买耗材 + 更新库存清单;截图对话 + 自动放日历占位。给机器人高层目标,让它自己拆步骤。\n- **让机器人记住教训**:出一次错就让它提炼「以后照上次学的来」,机器人会随使用越来越顺手。\n\n> 【背景】本集转写来自语音识别,「GrokBot」「SpaceX AI」等专名按原稿保留,可能与实际产品名有出入。",
+  "quotes": [
+    {
+      "en": "I use AI to get me off my computer, not on my computer.",
+      "zh": "我用 AI 是为了让我离开电脑,而不是待在电脑前。",
+      "timestamp": "00:00",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "Like look, your highest calling was never to design gradient fills in Figma.",
+      "zh": "比如听着,你最高的使命从来就不是在 Figma 里设计渐变填充。",
+      "timestamp": "01:00",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "I think the opportunity is like the cost of making things become so low that we can imagine something that cost a lot more in the past now.",
+      "zh": "我认为机会在于,造东西的成本变得如此之低,以至于我们过去需要花费多得多的成本才能想象出来的东西,现在做起来太容易了。",
+      "timestamp": "17:10",
+      "speaker": "Peng Zheng"
+    },
+    {
+      "en": "But yeah, the random shower thoughts can now become a real working prototype.",
+      "zh": "但没错,随机的淋浴时灵感现在可以变成真正可用的原型。",
+      "timestamp": "28:44",
+      "speaker": "John Bai"
+    },
+    {
+      "en": "And so the thing that I call this like the trash, trash can method of software development, which is like building things with the presumption that it is totally inexpensive.",
+      "zh": "所以我把这称为软件开发中的垃圾桶方法,也就是抱着扔进垃圾桶完全不心疼的前提去构建东西。",
+      "timestamp": "29:38",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "And I think that's truly the power of it is to train different tasks in our daily life together and give it a higher task and let it figure out what the steps, what it needs to do.",
+      "zh": "我认为这才是它真正的力量所在:把我们日常生活中的不同任务放在一起训练,给它一个更高层次的任务,让它自己去弄清楚步骤、它需要做什么。",
+      "timestamp": "32:54",
+      "speaker": "Peng Zheng"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Unknown",
+      "en": "I use AI to get me off my computer, not on my computer.",
+      "zh": "我用 AI 是为了让我离开电脑,而不是待在电脑前。"
+    },
+    {
+      "timestamp": "00:58",
+      "speaker": "Unknown",
+      "en": "AI can feel like a threat to the creative arts.",
+      "zh": "AI 会让人感觉对创意艺术是一种威胁。"
+    },
+    {
+      "timestamp": "01:00",
+      "speaker": "Unknown",
+      "en": "Like look, your highest calling was never to design gradient fills in Figma.",
+      "zh": "比如听着,你最高的使命从来就不是在 Figma 里设计渐变填充。"
+    },
+    {
+      "timestamp": "07:24",
+      "speaker": "Unknown",
+      "en": "If I'm going to do it, I don't want to manually do it every single time.",
+      "zh": "如果我要做这件事,我不想每次都手动去做。"
+    },
+    {
+      "timestamp": "07:28",
+      "speaker": "Unknown",
+      "en": "Why can't it just update itself when I go somewhere?",
+      "zh": "为什么它不能在我去某个地方的时候自动更新呢?"
+    },
+    {
+      "timestamp": "12:33",
+      "speaker": "Unknown",
+      "en": "And I think it's interesting part for me is none of this is actually fancy.",
+      "zh": "而我觉得有意思的部分是,这一切其实一点都不花哨。"
+    },
+    {
+      "timestamp": "12:38",
+      "speaker": "Unknown",
+      "en": "It's just a bunch of like pretty simple building blocks.",
+      "zh": "只是一些非常简单的构建块拼在一起。"
+    },
+    {
+      "timestamp": "13:07",
+      "speaker": "Unknown",
+      "en": "But here I didn't really have to know like what the final system was going to be.",
+      "zh": "但在这里我其实不需要知道最终的系统会是什么样子。"
+    },
+    {
+      "timestamp": "00:23",
+      "speaker": "Unknown",
+      "en": "I didn't even read most of this stuff.",
+      "zh": "我甚至没有读大部分这些东西。"
+    },
+    {
+      "timestamp": "00:30",
+      "speaker": "Unknown",
+      "en": "While I'm on this call, work is getting done, which I really love.",
+      "zh": "当我在开这个会的时候,工作正在被完成,这一点我非常喜欢。"
+    },
+    {
+      "timestamp": "00:33",
+      "speaker": "Unknown",
+      "en": "I think the fact that I don't have to do this stuff myself is a godsend.",
+      "zh": "我觉得我不必亲自做这些事情,简直是天赐之物。"
+    },
+    {
+      "timestamp": "17:10",
+      "speaker": "Unknown",
+      "en": "I think the opportunity is like the cost of making things become so low that we can imagine something that cost a lot more in the past now.",
+      "zh": "我认为机会在于,造东西的成本变得如此之低,以至于我们过去需要花费多得多的成本才能想象出来的东西,现在做起来太容易了。"
+    },
+    {
+      "timestamp": "16:48",
+      "speaker": "Unknown",
+      "en": "I think many people are discovering that it unlocks a lot of the skill sets that you once thought were inaccessible.",
+      "zh": "我觉得很多人正在发现,它解锁了很多你曾以为无法企及的技能。"
+    },
+    {
+      "timestamp": "28:44",
+      "speaker": "Unknown",
+      "en": "But yeah, the random shower thoughts can now become a real working prototype.",
+      "zh": "但没错,随机的淋浴时灵感现在可以变成真正可用的原型。"
+    },
+    {
+      "timestamp": "29:20",
+      "speaker": "Unknown",
+      "en": "And an engineer being like, I'm not gonna build that stupid thing.",
+      "zh": "还有一个工程师会说,我才不会去构建那个愚蠢的东西。"
+    },
+    {
+      "timestamp": "29:38",
+      "speaker": "Unknown",
+      "en": "And so the thing that I call this like the trash, trash can method of software development, which is like building things with the presumption that it is totally inexpensive.",
+      "zh": "所以我把这称为软件开发中的垃圾桶方法,也就是抱着扔进垃圾桶完全不心疼的前提去构建东西。"
+    },
+    {
+      "timestamp": "30:23",
+      "speaker": "Unknown",
+      "en": "You don't have to shut off that like creative part of your brain that says, well, what if this, what if that?",
+      "zh": "你不必关掉大脑里那个说「那如果这样呢,如果那样呢?」的创造性部分。"
+    },
+    {
+      "timestamp": "30:37",
+      "speaker": "Unknown",
+      "en": "And I think that makes it more fun to be a designer again, honestly.",
+      "zh": "而且我觉得老实说,这让做设计师重新变得更有趣了。"
+    },
+    {
+      "timestamp": "33:52",
+      "speaker": "Unknown",
+      "en": "I almost never open the calendar app anymore.",
+      "zh": "我几乎再也不打开日历应用了。"
+    },
+    {
+      "timestamp": "32:54",
+      "speaker": "Unknown",
+      "en": "And I think that's truly the power of it is to train different tasks in our daily life together and give it a higher task and let it figure out what the steps, what it needs to do.",
+      "zh": "我认为这才是它真正的力量所在:把我们日常生活中的不同任务放在一起训练,给它一个更高层次的任务,让它自己去弄清楚步骤、它需要做什么。"
+    },
+    {
+      "timestamp": "39:36",
+      "speaker": "Unknown",
+      "en": "And I don't want my coworkers seeing how I talk to my bot.",
+      "zh": "而我不想让同事看到我是怎么跟我的机器人说话的。"
+    },
+    {
+      "timestamp": "39:43",
+      "speaker": "Unknown",
+      "en": "I reply with a lot of emotion sometimes, but I think a useful tip is every time you can ask the bot to memorize this, say in the future, if this happened again, then just follow the script you learned last time.",
+      "zh": "我有时回复会带很多情绪,但我认为一个有用的技巧是,每次你都可以让机器人记住这一点,比如说,以后如果再发生这种情况,就按照你上次学到的流程来。"
+    }
+  ],
+  "voice_script": "今天这期，我们听两位设计师聊一件挺颠覆的事：怎么让 AI 替你离开电脑，而不是把你钉在电脑前。说话的两个人叫 Pong 和 John,都在一个叫 GrokBot 的设计团队工作。主持人是 How I AI 的 Claire Vo,本身也是产品负责人。为什么值得听他们讲？因为他们不是在畅谈愿景，是当场演示了三个真实在跑的工作流，从自动更新的个人网站，到健身时用语音完成的活儿，全都是每天在用的东西。这背后的态度，一句话就能说明白：我用 AI,是为了让我离开电脑，而不是待在电脑前。\n\n先说 Pong 的个人网站，这条线最有代表性。事情的起点很小：Pong 吃外卖时盯着饭盒上的红色中式庙宇图案，好奇它是不是真实存在，跑去旧金山唐人街找，庙没找到，倒拍了张小果蔬店的照片。用 AI 把照片变成 3D 黏土微缩模型，顺手放上了正在重做的个人网站首页。这时候，一个老问题冒出来了：设计师花几周做的个人网站，访客看三十秒就走，连自己都不回访。所以想要一个「活」的网站，记录自己去过哪、和谁在一起、在做什么。\n\n那关键决定是什么？「如果我要做这件事，我不想每次都手动做。」注意，起点不是技术方案，是这一句。然后对机器人只说了一句话：「这是我的想法，最简单的实现方式是什么？」没有 Figma 文件，没有规格文档，边建边想。最后做出来的，是一条自动流水线：随手发一张照片、一张截图，甚至只报一个地名，机器人就会去查地点坐标，处理图片，生成网站用的 3D 微缩风格图——而且是亮暗主题各一张，切到暗色模式时灯会亮起来，这点直接写进了指令里。把朋友的社交主页截图一起发过去，连「和谁在一起」都记进去，然后转成数据结构，直接发布。现场三个人虚拟打卡了旧金山那个「秘密秋千」——就是有人反复装、市府反复拆的争议景点，几分钟后网站就上线了新条目，还带彩蛋：夜晚秋千挂着，白天消失，还原真实情况。\n\n这里有个特别值得记住的判断：这一切一点都不花哨。Google 地图、图像生成、结构化数据、网站渲染，都是简单的构建块，AI 是把点连起来的那个东西。换作以前，大概会想着需要什么内容系统、管理后台、部署托管……想着想着就「以后再做，然后永远不做」。现在不用知道最终系统长什么样，一张随手照片就能起步。\n\n那光建网站当然不够，干活本身能不能也外包？这就引出了 John 的第一个机器人，叫 Figma Bro。原理是用 Figma MCP——说白了就是一个让 AI 直接连上 Figma 文件、读写内容的接口——把链接丢给机器人，配上具体控制指令就行。John 甚至会预先规定画板要水平并排、间隔五十到一百像素，免得回来看到乱糟糟的文件。真实场景一：早上八点五十二，John 正在健身房收尾，同事要一批社区素材。截两个画板的图，语音描述任务，机器人产出三个输出，连内容都没细读，把清单粘贴过去回一句「应该都覆盖了」，再通过几轮语音消息迭代大小、圆角、配色——全程没碰电脑。场景二就在一小时前，为当天上线的机器人市场做营销素材：做好一个模板，告诉机器人用品牌手册的背景壁纸，匹配已有样式，应用到其余每一个上。有图没更新到位就回去催一下，但省掉的，是逐个下载照片、改实例、改背景、改文案的全部手工活。有句话原话说得很有劲：「当我在开这个会的时候，工作正在被完成。」\n\n顺着这个思路，John 还有第二个组合，叫 DevBot,解决的是那个经典问题：淋浴时灵感来了，人不在电脑前，想保真又没精力。截两张图，发一段语音备忘录描述交互想法，机器人自己去和负责动效的伙伴协作、自己开会、自己重建测试仓库里缺的组件，回来就拿到两个可交互的方案，一个张扬版一个含蓄版。最终团队决定不采用，因为太像它借鉴的那个 iOS 创意——但整个探索的成本几乎为零。\n\n主持人 Claire Vo 由此提出一个概念，叫「垃圾桶方法」软件开发：抱着做出来的东西扔进垃圾桶完全不心疼的前提去构建。想想过去，一个好想法要闯两道关卡——产品经理问优先级呢、ROI 呢，工程师说我才不建那个蠢东西，我还有技术债；就算建成了不喜欢，还有人愤怒说我们投入了时间。现在，你不必关掉大脑里「那如果这样呢」的创造性部分，也不用为占用资源感到压力。John 补了一句：「老实说，这让做设计师重新变有趣了。」至于 AI 威胁创意行业的焦虑，Claire 的回应是：「听着，你最高的使命从来就不是在 Figma 里设计渐变填充。」AI 让设计师沿杠杆往上走，而不是困在底层生产活里。\n\n工作能外包，生活呢？完全可以，而且思路是同一个：把日常多个任务串起来，给一个更高层的目标，让机器人自己想出步骤。Pong 的机器人编队里，有接手一切杂事的幕僚长——比如晚上让它买 3D 打印耗材，还要求买完后自动更新 Notion 里的库存清单，下次直接说「做上个月那件事」就行；有列出待办、联系快递的邮件管理器；有「已经变成我的日历」的日历管理器，在 LinkedIn 上聊好约咖啡，截个图发过去放占位，几乎再也不打开日历应用了；还有把 PM、设计师、工程师三个机器人拉进一个群聊，扔进去一个点子，看它们从各自角色讨论，一颗简单的种子自己长出新想法。John 那边有两个特别用法：一个是学日语，让机器人每次回复同时给汉字、注音、英文三层；另一个是保险管家，先让它了解自己的保险计划，之后任何收据、账单拍照发过去，它会判断要不要跟进、有没有拿到最大报销。一半时间其实没省出钱，但它给了安心。\n\n最后还有个实在的技巧，关于怎么调教犯傻的机器人：每次出问题，就让机器人「记住这个，以后再遇到就按上次学到的流程来」。先提炼，再自我迭代，用得越久越贴合你的需求。\n\n所以这一集真正想说的，不是某个炫技的演示，而是一种工作方式：想清楚你不想手动重复哪一步，然后把一堆简单的积木交给 AI 去串起来。造东西的成本变得如此之低，以至于过去要花大得多的成本才敢想象的东西，现在做起来太容易了。用 AI,是为了让你离开电脑。"
+}

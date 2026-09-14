@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
+[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Carter":1,"Walden":1,"模型路由":6,"智能体":232,"上下文压缩":1,"RL":7,"蒸馏":10,"KV 缓存":2,"Cognition":17,"OpenRouter":10}</script>
+<script type="application/json" class="pd-epn">{"Carter":1,"Walden":1,"模型路由":6,"智能体":233,"上下文压缩":1,"RL":7,"蒸馏":10,"KV 缓存":2,"Cognition":17,"OpenRouter":10}</script>
 
 <script>
 (function(){

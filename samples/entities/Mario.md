@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
+[[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scott Morton":1,"Revel":1,"SpaceX":13,"LLVM":1,"Python":5,"vibe coding":33,"CI-CD":10,"Palantir":16}</script>
+<script type="application/json" class="pd-epn">{"Scott Morton":1,"Revel":1,"SpaceX":14,"LLVM":1,"Python":5,"vibe coding":33,"CI-CD":10,"Palantir":16}</script>
 
 <script>
 (function(){

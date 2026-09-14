@@ -35,7 +35,7 @@ unlisted: true
 
 [[Jeetu Patel]] · [[Ken]] · [[Lenny]] · [[Dave Fletcher]] · [[Cisco]] · [[Lead Dev]] · [[NVIDIA]] · [[AI 编码工具]] · [[Box]] · [[可观测性]]
 
-<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Ken":1,"Lenny":67,"Dave Fletcher":1,"Cisco":3,"Lead Dev":1,"NVIDIA":33,"AI 编码工具":1,"Box":3,"可观测性":19}</script>
+<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Ken":1,"Lenny":67,"Dave Fletcher":1,"Cisco":3,"Lead Dev":1,"NVIDIA":34,"AI 编码工具":1,"Box":3,"可观测性":19}</script>
 
 <script>
 (function(){

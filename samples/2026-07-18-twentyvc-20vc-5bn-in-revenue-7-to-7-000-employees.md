@@ -184,8 +184,8 @@ Curative 现在约 650 人，短期内会降到 400 左右。他押注两个不�
 **换个口味**
 
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、Salesforce · 同概念:智能体 (agent)</span>
+- [[2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026|26 亿美元大学捐赠基金的 CIO，把风投和 LP 的账算得明明白白]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、Salesforce</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)</span>
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
+[[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Sequoia":4,"智能体":232,"Copilot":9,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":3,"Sierra":5,"SpaceX":13}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Sequoia":4,"智能体":233,"Copilot":9,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":3,"Sierra":5,"SpaceX":14}</script>
 
 <script>
 (function(){

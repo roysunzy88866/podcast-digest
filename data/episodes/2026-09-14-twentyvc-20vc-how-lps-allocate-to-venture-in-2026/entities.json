@@ -1,0 +1,1077 @@
+{
+  "episode_id": "2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-09-14",
+  "tags": [
+    "捐赠基金",
+    "LP 与 GP 关系",
+    "资产配置",
+    "风投行业",
+    "AI 对行业的影响"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "host",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            44.753,
+            46.695
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "david-morehead",
+      "type": "person",
+      "role": "cohost",
+      "name": "David Morehead",
+      "file": "David Morehead",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "endowment",
+      "type": "concept",
+      "role": "concept",
+      "name": "捐赠基金 (endowment)",
+      "file": "捐赠基金",
+      "primary": true,
+      "how_described": "本集以 Baylor 约 26 亿美元的捐赠基金为主线：靠分红付奖学金和讲席教授，因学费收入萎缩未来 10-15 年分配越来越重要，管理原则是复利数学支配一切、追求最大的一堆钱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            31.599,
+            36.222
+          ],
+          "quote": "We happen to have about two and a half percent of the endowment in Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 16,
+          "t": [
+            78.723,
+            81.906
+          ],
+          "quote": "Baylor's endowment is around $2.6 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            333.509,
+            346.159
+          ],
+          "quote": "And so in this time and space, and I think realistically for the next 10 or 15 years, the distributions that are coming off of endowment funds are going to be increasingly important.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            468.007,
+            480.017
+          ],
+          "quote": "Yeah, so basically what we've done is typically higher ed outsources the investment of the endowment to a whole set of different managers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1163.28,
+            1169.483
+          ],
+          "quote": "Like, for example, we happen to have about two and a half percent of the endowment in Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1172.564,
+            1178.467
+          ],
+          "quote": "We've had no exposure to OpenAI, but about two and a half percent of the endowment is in Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1906.636,
+            1910.919
+          ],
+          "quote": "Obviously, as an endowment, you mentioned some of the paying for tuition, really important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2370.992,
+            2376.978
+          ],
+          "quote": "It's always funny to me when people compare an endowment portfolio to the S&P 500 or something like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2388.562,
+            2394.648
+          ],
+          "quote": "What do you see your endowment CIO cohort do that you think is nuts or wild?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2566.647,
+            2570.448
+          ],
+          "quote": "And let's be specific on LPs or endowment fund investors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2576.971,
+            2578.952
+          ],
+          "quote": "With traditional endowment fund investing,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2684.005,
+            2692.572
+          ],
+          "quote": "For a lot of my friends, CIOs of other endowments, sometimes larger, they've been hit with obviously the endowment fund tax, which is really hitting larger organizations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2698.704,
+            2705.146
+          ],
+          "quote": "We are not because our endowment per student is too small to be subject to that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 578,
+          "t": [
+            2714.809,
+            2717.67
+          ],
+          "quote": "The bad news is that we're gonna have to pay an endowment tax.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2717.73,
+            2721.952
+          ],
+          "quote": "The good news is that our endowment is three times bigger than when I last talked to you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2723.992,
+            2728.554
+          ],
+          "quote": "So I would love to have to pay the endowment tax because the endowment was bigger.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2757.554,
+            2762.656
+          ],
+          "quote": "Baylor's is currently to get the endowment higher on a per student basis.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2898.184,
+            2901.366
+          ],
+          "quote": "Like it means nothing to the overall endowment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 730,
+          "t": [
+            3380.469,
+            3385.512
+          ],
+          "quote": "And so to your point of like materiality to a fund, yeah, if you're a 40, 50 billion dollar endowment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 842,
+          "t": [
+            3797.09,
+            3802.571
+          ],
+          "quote": "What other endowment fund do you most respect and admire because of their build out?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lp",
+      "type": "concept",
+      "role": "concept",
+      "name": "LP",
+      "file": "LP",
+      "primary": true,
+      "how_described": "本集主角视角即 LP：抱怨风投基金期限从 10-12 年拉长到 15-18 年、GP 激励与捐赠基金数学不一致，并讲述 LP 如何要求打法一致性、从底层公司倒推仓位规模。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            91.135,
+            95.879
+          ],
+          "quote": "Looking to raise and for managers now wondering how they should operate with their LP base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            507.883,
+            516.793
+          ],
+          "quote": "And at any given point in time, Baylor's risk return need might vary from what the average LP in that fund would desire.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gp",
+      "type": "concept",
+      "role": "concept",
+      "name": "GP",
+      "file": "GP",
+      "primary": true,
+      "how_described": "本集对 GP 提出棒球比喻式要求：你是三垒手就守三垒，改变打法前必须先来谈、有数据证明；不想当新想法的小白鼠。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            10.861,
+            19.549
+          ],
+          "quote": "It's not clear to me that the GP incentives are aligned with the math that runs endowments.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            480.057,
+            491.426
+          ],
+          "quote": "And so by nature, we have a bunch of investments in a number of commingled funds and commingled funds by definition means that there's one GP who's managing the money and then there's like a hundred or a thousand.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            517.193,
+            526.223
+          ],
+          "quote": "And so what we've tried to do is kind of go directly to the GP and say, hey, this commingled thing isn't like totally working for us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 100,
+          "t": [
+            552.337,
+            555.18
+          ],
+          "quote": "Well, we can look at the portfolio, like the GP doesn't know that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            924.689,
+            934.621
+          ],
+          "quote": "I've got to be honest, it's not clear to me that the GP incentives are aligned with the math that runs endowments.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1059.692,
+            1063.599
+          ],
+          "quote": "And I'm not optimizing for the best business for the GP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2877.824,
+            2886.133
+          ],
+          "quote": "And one of the things that we had figured out is that, yeah, you know, we have this relationship with GP and we have this, you know, they send us a little note.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "velocity-of-capital",
+      "type": "concept",
+      "role": "concept",
+      "name": "资本的速度 (velocity of capital)",
+      "file": "资本的速度",
+      "primary": true,
+      "how_described": "本集核心哲学：谈回报必谈时间，18 年 15 倍不如连续三轮 6 年 3 倍（27 倍），资本增速放慢就退出转向下一个东西——『学生不能用回报交学费，必须用美元』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            19.969,
+            26.255
+          ],
+          "quote": "What we're really after is the velocity of capital, not just returns on capital.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1012.347,
+            1019.417
+          ],
+          "quote": "And so what we're really after is the velocity of capital, not just returns on capital.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1019.558,
+            1028.571
+          ],
+          "quote": "Whenever the velocity of capital is going to start to asymptotically approach like wherever it's going to be, then we want to be out and move on to the next thing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "compounding",
+      "type": "concept",
+      "role": "concept",
+      "name": "复利 (compounding)",
+      "file": "复利",
+      "primary": true,
+      "how_described": "本集说复利数学支配最大的那堆钱，是缩短基金期限、追求资本周转速度背后的第一性原理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 179,
+          "t": [
+            992.052,
+            998.597
+          ],
+          "quote": "But the compounding of capital and I'm trying to create the largest pile of money for students.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1008.324,
+            1011.987
+          ],
+          "quote": "And the largest pile of money is governed by like simple compounding math.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1086.294,
+            1096.02
+          ],
+          "quote": "But given the requirements on velocity of cash and the value of compounding, which I very clearly see, do you not have a question internally of, well, why do VC at all?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "privates",
+      "type": "concept",
+      "role": "concept",
+      "name": "私募 (privates)",
+      "file": "私募",
+      "primary": true,
+      "how_described": "本集说『私募存在的唯一理由就是赚钱』：私募会吸干流动性，必须先框死配置区间（35-55%、目标 45%）再当不可变处理，只留 VC、扩张型、成长型股权和并购。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.051,
+            3.714
+          ],
+          "quote": "The single reason that privates exist is to make money.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 112,
+          "t": [
+            600.524,
+            603.426
+          ],
+          "quote": "Publix, privates, credit, debt, venture P?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            625.34,
+            633.505
+          ],
+          "quote": "I think it's really important for, if you're starting with a blank sheet and you're going to do privates, you really need to nail down the private side first, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            678.734,
+            690.157
+          ],
+          "quote": "So our allocation range around privates is 35 to 55, which means that we want 55 to be the case when we have a denominator issue.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 142,
+          "t": [
+            791.806,
+            796.993
+          ],
+          "quote": "And we basically said the single reason that privates exist is to make money.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1876.216,
+            1881.118
+          ],
+          "quote": "I mean, like, basically what we do is we say, this is the amount that's going to be in privates.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2774.182,
+            2787.014
+          ],
+          "quote": "One was that we had increased the allocation to privates by in sort of like annual commitment amount by about 60, 70% in 2020, 2021 and following.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "growth-equity",
+      "type": "concept",
+      "role": "concept",
+      "name": "成长型股权 (growth equity)",
+      "file": "成长型股权",
+      "primary": true,
+      "how_described": "本集说成长型股权是私募侧最大配置、年化约 30%，喜欢它的理由是『归零的更少』，其他部分不必替失败项目买单。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            829.678,
+            838.102
+          ],
+          "quote": "And so we're really focusing, to get back to your question, today, we're focusing on VC, expansion, growth equity capital, and buyout.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            844.496,
+            862.07
+          ],
+          "quote": "How do you think about trying then, if you want VC, you want growth equity, how do you think about trying to get into the big names, the Sequoias, the Benchmarks, the Founders Funds, the you name those big brands versus trying to find the young upstart, the little boutique provider that could do a 10x?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            888.871,
+            899.623
+          ],
+          "quote": "What I will say, though, is that the ladies in our office have had exceptional, absolutely exceptional returns out of like the expansion growth equity category.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 176,
+          "t": [
+            961.717,
+            982.125
+          ],
+          "quote": "And what simple math would suggest is that if you were in a growth equity fund that was six years in weighted average life, and you were up 3x, and then you redeployed into another growth equity fund that was up 3x in six years, and then you did it again, that over the course of 18 years, you'd be up 27x.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1096.32,
+            1101.206
+          ],
+          "quote": "If we can do growth equity or mid-market and get the 3x in six years, I get you, David.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1810.667,
+            1814.608
+          ],
+          "quote": "I think our biggest allocation is in growth equity on the private side.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1819.863,
+            1821.144
+          ],
+          "quote": "Why do you like growth equity?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1839.557,
+            1843.539
+          ],
+          "quote": "Annualizing it like 30% on sort of like the growth equity side.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fund-of-one",
+      "type": "concept",
+      "role": "concept",
+      "name": "fund of one",
+      "file": "fund of one",
+      "primary": true,
+      "how_described": "本集说贝勒出大钱请 GP 跑同样策略但只为自己，换来看组合持仓的查看权，从而按自身组合需要增删暴露（『NVIDIA 够多了』『质量股加大三倍』）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 596,
+          "t": [
+            2811.655,
+            2818.961
+          ],
+          "quote": "And in the first year that we got returns from both, you know, the fund of one category and this other category,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "commingled-funds",
+      "type": "concept",
+      "role": "concept",
+      "name": "混合基金 (commingled funds)",
+      "file": "混合基金",
+      "primary": true,
+      "how_described": "本集说混合基金（一个 GP 管几百上千个 LP）给的是为满足所有 LP 平均需求的平均风险回报，未必是贝勒需要的，所以要减少对它的依赖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            480.057,
+            491.426
+          ],
+          "quote": "And so by nature, we have a bunch of investments in a number of commingled funds and commingled funds by definition means that there's one GP who's managing the money and then there's like a hundred or a thousand.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            494.95,
+            507.603
+          ],
+          "quote": "The issue with commingled funds is, of course, at any given point in time, you're receiving the average risk return profile that that manager is providing in order to keep all of those LPs satisfied.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "forced-selling",
+      "type": "concept",
+      "role": "concept",
+      "name": "被迫卖出 (forced selling)",
+      "file": "被迫卖出",
+      "primary": true,
+      "how_described": "本集明言头号要避免的是欺诈、二号就是被迫卖出——『那是一场灾难』，这正是私募配置设 55% 上限防分母问题的原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            706.046,
+            710.629
+          ],
+          "quote": "The number one thing to avoid is fraud, and the number two thing to avoid is forced selling.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 135,
+          "t": [
+            739.638,
+            748.053
+          ],
+          "quote": "But it wasn't so much that it either constrained our ability to allocate, and it certainly wasn't enough that we got into a forced selling situation.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vibe-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe code",
+      "file": "vibe code",
+      "primary": true,
+      "how_described": "本集用 vibe coding 检验『软件已死』叙事：问经营私人家族企业的朋友能否让女婿 vibe code 一个东西替换 CRM——『一百万年也不会』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 257,
+          "t": [
+            1306.392,
+            1308.653
+          ],
+          "quote": "Somebody is going to vibe code this and whatever.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集透露贝勒把捐赠基金约 2.5% 配在 Anthropic（强调是经理人的功劳不是自己的），且没有 SpaceX 和 OpenAI 的敞口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            31.599,
+            36.222
+          ],
+          "quote": "We happen to have about two and a half percent of the endowment in Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1163.28,
+            1169.483
+          ],
+          "quote": "Like, for example, we happen to have about two and a half percent of the endowment in Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1172.564,
+            1178.467
+          ],
+          "quote": "We've had no exposure to OpenAI, but about two and a half percent of the endowment is in Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1198.031,
+            1216.403
+          ],
+          "quote": "Can I ask you, it's a really different, and I'm not saying with Anthropic here, but I'm saying with positions that go public, Anthropic obviously will be one, but with positions that go public in the past, how do you think about the, I'm going to actively manage it as now the holder versus a common one that I hear, which is, that's not our job.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集用 NVIDIA 举例说明 fund of one 的控制权：下一个边际管理人想加 NVIDIA 时，看一眼自己账本决定『够多了，不要』或『加大三倍』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            541.585,
+            545.089
+          ],
+          "quote": "Say we have NVIDIA in the portfolio, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 99,
+          "t": [
+            545.389,
+            552.017
+          ],
+          "quote": "And then the next marginal manager wants to add NVIDIA to his or her portfolio.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            555.461,
+            558.905
+          ],
+          "quote": "We can look at our portfolio and be like, look, we've got plenty of NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 102,
+          "t": [
+            559.025,
+            561.908
+          ],
+          "quote": "We actually say, no, we don't need more NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 104,
+          "t": [
+            567.17,
+            570.071
+          ],
+          "quote": "The next marginal manager wants to add NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            572.912,
+            577.634
+          ],
+          "quote": "So we'd take the NVIDIA that you're offering, but why don't you make it three times as big?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集引用 Salesforce CEO 的判断『AI 最好也就 93% 正确』，用来说明账目必须 100% 对得上、93% 不行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 264,
+          "t": [
+            1330.117,
+            1353.694
+          ],
+          "quote": "He knows everything that there is to know about that, but he is not going to tear out key important parts of what makes his business run behind the scenes on some unproven thing that I think it was the CEO of Salesforce, like, I don't know, six or eight months ago said that like the best that AI was gonna be is like 93% right, which is like phenomenal.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": false,
+      "how_described": "本集作为参照提及：贝勒没有 SpaceX 的敞口；主持人以 SpaceX 为例说 5 个月翻 5 倍惊人，并提及其 1.8 万亿美元估值讨论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 220,
+          "t": [
+            1150.63,
+            1151.611
+          ],
+          "quote": "I guess that's SpaceX.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1169.663,
+            1172.224
+          ],
+          "quote": "We have no exposure to SpaceX.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1632.945,
+            1642.768
+          ],
+          "quote": "And they decided, those tens of millions of people, that Elon Musk is a premium in himself, that SpaceX should be a $1.8 trillion business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1791.82,
+            1803.384
+          ],
+          "quote": "As venture eats more and more of the world with your OpenAI, your Anthropics, your SpaceX, your biggest companies in the world all being venture-backed companies, do you maybe feel that you need more in venture, more in tech?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2841.405,
+            2849.009
+          ],
+          "quote": "I think we'll be 18.5%, 19% this year without any SpaceX or Cerebrus or anything like that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集顺带提及：贝勒没有 OpenAI 的敞口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            1172.564,
+            1178.467
+          ],
+          "quote": "We've had no exposure to OpenAI, but about two and a half percent of the endowment is in Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1791.82,
+            1803.384
+          ],
+          "quote": "As venture eats more and more of the world with your OpenAI, your Anthropics, your SpaceX, your biggest companies in the world all being venture-backed companies, do you maybe feel that you need more in venture, more in tech?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集说 AI 在数据中心层面遭遇阻力：最有价值的从土地变成有电力的土地、再到有许可的有电力的土地；许可成为瓶颈，贝勒账本里的数据中心场地半年涨了 50%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            39.664,
+            44.527
+          ],
+          "quote": "You are seeing the pushback on AI at the data center level.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 755,
+          "t": [
+            3457.243,
+            3469.167
+          ],
+          "quote": "I mean, like you are seeing the pushback on AI at the data center level because where the data centers are being built is in my neck of the woods, not in Silicon Valley.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 758,
+          "t": [
+            3473.829,
+            3484.097
+          ],
+          "quote": "But like you're seeing this sort of nationally, you're seeing it actually internationally, is that the most valuable thing for a data center used to be power.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3562.703,
+            3571.609
+          ],
+          "quote": "Literally, we have this situation in our book where our data center sites are up 50% from where they were like six months ago.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 806,
+          "t": [
+            3662.054,
+            3666.716
+          ],
+          "quote": "We're not allowed to go outside or move a bin, let alone build a data center.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 810,
+          "t": [
+            3669.857,
+            3676.399
+          ],
+          "quote": "So we have a permitted data center site in the UK and it's worth a lot of money simply because we have a permit.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "private-credit",
+      "type": "concept",
+      "role": "concept",
+      "name": "私募信贷 (private credit)",
+      "file": "私募信贷",
+      "primary": false,
+      "how_described": "本集快问快答中说私募信贷是被过度炒作的资产类别：下行时像股票却没有股票的上行回报，风险回报结构不对劲，所以不喜欢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 830,
+          "t": [
+            3750.417,
+            3756.443
+          ],
+          "quote": "So we don't really like private credit, but we do like the private equity sponsors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 833,
+          "t": [
+            3763.05,
+            3764.852
+          ],
+          "quote": "Private credit, because it's easy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 834,
+          "t": [
+            3765.152,
+            3766.434
+          ],
+          "quote": "Why do you not like private credit?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 838,
+          "t": [
+            3772.119,
+            3777.605
+          ],
+          "quote": "I remember I had a girlfriend who did private credit and she told me it was like crap returns and I listened and I was like, yeah, you're right, it is crap returns.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "type": "concept",
+      "role": "concept",
+      "name": "生物科技 (biotech)",
+      "file": "生物科技",
+      "primary": false,
+      "how_described": "本集结尾说生物科技未来 10 年会比过去 10-20 年影响更大，科学家真正在解决疾病而非只治症状，贝勒正在上面花很多时间。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 861,
+          "t": [
+            3858.633,
+            3867.039
+          ],
+          "quote": "I do think that biotech is going to be even more impactful over the next 10 years than it has been over the last 10 or 20 years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 863,
+          "t": [
+            3869.421,
+            3874.505
+          ],
+          "quote": "In fact, later this week, I'm headed to a biotech conference and then again in October.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 864,
+          "t": [
+            3874.785,
+            3878.167
+          ],
+          "quote": "So biotech is something that we're actually spending a lot of time on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 865,
+          "t": [
+            3878.408,
+            3881.25
+          ],
+          "quote": "We certainly have like a lot of biotech exposure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 868,
+          "t": [
+            3899.225,
+            3905.03
+          ],
+          "quote": "So biotech certainly is something that's like kind of high on the list and that we're spending a bunch of time on.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

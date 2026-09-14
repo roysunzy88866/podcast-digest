@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
+[[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":2,"Stripe":29,"Atlas":2,"精益创业":1,"智能体":232,"YC":12,"Google":40,"Claude":56,"OpenAI":106,"Shopify":6}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":2,"Stripe":29,"Atlas":2,"精益创业":1,"智能体":233,"YC":12,"Google":40,"Claude":56,"OpenAI":107,"Shopify":6}</script>
 
 <script>
 (function(){

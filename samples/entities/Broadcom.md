@@ -35,7 +35,7 @@ unlisted: true
 
 [[OpenAI]] · [[数据中心]] · [[GPU]] · [[推理]] · [[Microsoft]] · [[Gavin Baker]] · [[Sachin Katti]] · [[Tony Kim]] · [[David George]] · [[Matt Turk]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":106,"数据中心":10,"GPU":16,"推理":43,"Microsoft":24,"Gavin Baker":1,"Sachin Katti":1,"Tony Kim":1,"David George":3,"Matt Turk":3}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":107,"数据中心":11,"GPU":16,"推理":43,"Microsoft":24,"Gavin Baker":1,"Sachin Katti":1,"Tony Kim":1,"David George":3,"Matt Turk":3}</script>
 
 <script>
 (function(){

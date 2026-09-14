@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-14-howiai-how-grok-bot-designers-use-ai-agents-to",
+  "audio_mp3": "https://anchor.fm/s/1035b1568/podcast/play/125493254/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-11%2F431716781-44100-2-7d5b279b21bb7.mp3",
+  "duration_sec": 2491.738,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 536,
+  "asr": true,
+  "title_en": "How Grok Bot designers use AI agents to build personal sites and product prototypes | John Bai & Peng Zheng",
+  "podcast": "How I AI",
+  "date": "2026-09-14",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43412682/43412682-1789159477790-ffc13933628c6.jpg",
+  "added": "2026-09-14",
+  "added_at": "2026-09-14T12:36:06.918Z",
+  "speaker_map": {
+    "SPEAKER_00": "Claire Vo",
+    "SPEAKER_01": "John Bai",
+    "SPEAKER_02": "Peng Zheng"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Peng Zheng"
+  ],
+  "host": "Claire Vo",
+  "cohosts": [
+    "John Bai"
+  ],
+  "title_zh": "GrokBot 设计团队演示:让 AI 替你离开电脑",
+  "guest_name": "Peng Zheng",
+  "guest_title": "GrokBot 设计团队",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/43412682/43412682-1789159477790-ffc13933628c6.jpg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-09-14T12:48:42.739Z"
+  }
+}

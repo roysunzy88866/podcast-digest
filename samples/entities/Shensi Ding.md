@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]] [[Jeremiah Lowin]]
+[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":232,"MCP":38,"沙箱":41,"连接器":3,"智能 LLM 路由器":1,"可观测性":19,"后训练":20}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":233,"MCP":38,"沙箱":41,"连接器":3,"智能 LLM 路由器":1,"可观测性":19,"后训练":20}</script>
 
 <script>
 (function(){

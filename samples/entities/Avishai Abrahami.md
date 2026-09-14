@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
+[[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":15,"Wix":3,"Base44":3,"Salesforce":17,"Atlassian":5,"vibe coding":33,"SaaS":15,"回购":1,"股权激励":1,"微调":15}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Wix":3,"Base44":3,"Salesforce":18,"Atlassian":5,"vibe coding":33,"SaaS":15,"回购":1,"股权激励":1,"微调":15}</script>
 
 <script>
 (function(){

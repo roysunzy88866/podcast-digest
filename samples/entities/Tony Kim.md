@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
+[[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"算力":4,"记忆":8,"数据中心":10,"token 流":1,"协同设计":2,"智能体":232,"机器人":5,"推理":43,"Broadcom":3,"Palantir":16}</script>
+<script type="application/json" class="pd-epn">{"算力":4,"记忆":8,"数据中心":11,"token 流":1,"协同设计":2,"智能体":233,"机器人":5,"推理":43,"Broadcom":3,"Palantir":16}</script>
 
 <script>
 (function(){

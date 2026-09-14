@@ -37,7 +37,7 @@ unlisted: true
 
 [[Anthropic]] · [[Lenny]] · [[智能体]] · [[Microsoft]] · [[Claude]] · [[OpenAI]] · [[Lovable]] · [[AWS]] · [[Claude Code]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":120,"Lenny":67,"智能体":232,"Microsoft":24,"Claude":56,"OpenAI":106,"Lovable":15,"AWS":10,"Claude Code":59,"主观能动性":18}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":121,"Lenny":67,"智能体":233,"Microsoft":24,"Claude":56,"OpenAI":107,"Lovable":15,"AWS":10,"Claude Code":59,"主观能动性":18}</script>
 
 <script>
 (function(){

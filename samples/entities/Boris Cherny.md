@@ -66,11 +66,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]] [[Ajay Prakash]] [[Brandon Waselnuk]]
+[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":232,"沙箱":41,"Lenny":67,"Cloud Code":3,"Claude Code":59,"Opus 5":3,"Anthropic":120,"提示词注入":11,"Cowork":4,"系统提示词":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":233,"沙箱":41,"Lenny":67,"Cloud Code":3,"Claude Code":59,"Opus 5":3,"Anthropic":121,"提示词注入":11,"Cowork":4,"系统提示词":4}</script>
 
 <script>
 (function(){
