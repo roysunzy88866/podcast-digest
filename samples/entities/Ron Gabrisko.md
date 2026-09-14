@@ -43,7 +43,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tim Sanders]] [[Craig]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]]
+[[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]]
 
 </div>
 

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]] [[Jay Parikh]] [[Brett]]
+[[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Amar":1,"Rippling":3,"Notion":12,"Apple":17,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合":19,"熵":3,"幂律分布":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Amar":1,"Rippling":3,"Notion":12,"Apple":17,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合":20,"熵":3,"幂律分布":1}</script>
 
 <script>
 (function(){

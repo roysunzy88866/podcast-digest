@@ -31,7 +31,7 @@ unlisted: true
 
 [[Salesforce]] · [[智能体]] · [[Stripe]] · [[OpenAI]] · [[AI]] · [[Databricks]] · [[Claude]] · [[Lenny]] · [[Sam Blond]] · [[Gabriel Vasquez]]
 
-<script type="application/json" class="pd-epn">{"Salesforce":18,"智能体":234,"Stripe":30,"OpenAI":109,"AI":17,"Databricks":11,"Claude":57,"Lenny":67,"Sam Blond":1,"Gabriel Vasquez":1}</script>
+<script type="application/json" class="pd-epn">{"Salesforce":19,"智能体":234,"Stripe":30,"OpenAI":109,"AI":17,"Databricks":11,"Claude":57,"Lenny":67,"Sam Blond":1,"Gabriel Vasquez":1}</script>
 
 <script>
 (function(){

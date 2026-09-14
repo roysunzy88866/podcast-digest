@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Harry Stebbings]] · [[Cursor]] · [[Stripe]] · [[Anthropic]] · [[OpenAI]] · [[Salesforce]] · [[Cognition]] · [[Keith Rabois]] · [[点图]]
 
-<script type="application/json" class="pd-epn">{"智能体":234,"Harry Stebbings":16,"Cursor":58,"Stripe":30,"Anthropic":121,"OpenAI":109,"Salesforce":18,"Cognition":17,"Keith Rabois":1,"点图":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":234,"Harry Stebbings":16,"Cursor":58,"Stripe":30,"Anthropic":121,"OpenAI":109,"Salesforce":19,"Cognition":17,"Keith Rabois":1,"点图":1}</script>
 
 <script>
 (function(){

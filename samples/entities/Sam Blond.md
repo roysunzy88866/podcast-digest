@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tim Sanders]] [[Craig]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]]
+[[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Monaco":1,"Brex":4,"Zenefits":1,"EchoSign":1,"Salesforce":18,"go-to-market":8,"智能体":234,"记录系统":2,"单点解决方案":2,"创新者的窘境":3}</script>
+<script type="application/json" class="pd-epn">{"Monaco":1,"Brex":4,"Zenefits":1,"EchoSign":1,"Salesforce":19,"go-to-market":8,"智能体":234,"记录系统":3,"单点解决方案":2,"创新者的窘境":3}</script>
 
 <script>
 (function(){

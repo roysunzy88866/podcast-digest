@@ -31,7 +31,7 @@ unlisted: true
 
 [[资本配置]] · [[去中心化]] · [[股票回购]] · [[现金流]] · [[Teledyne 回报]] · [[集团企业]] · [[收购]]
 
-<script type="application/json" class="pd-epn">{"资本配置":1,"去中心化":1,"股票回购":1,"现金流":1,"Teledyne 回报":1,"集团企业":1,"收购":1}</script>
+<script type="application/json" class="pd-epn">{"资本配置":1,"去中心化":1,"股票回购":1,"现金流":1,"Teledyne 回报":1,"集团企业":1,"收购":2}</script>
 
 <script>
 (function(){

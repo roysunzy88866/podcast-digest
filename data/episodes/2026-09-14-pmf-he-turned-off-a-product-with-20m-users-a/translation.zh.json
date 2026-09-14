@@ -1,0 +1,826 @@
+[
+ {
+  "seg": 0,
+  "start": 0,
+  "end": 11,
+  "speaker": "Keith Peiris",
+  "en": "I don't want to say this in a cold way. We took it very seriously. We needed to cut burn really aggressively. We spoke to our board and we're like, we're going to turn off the old product. We are going to dramatically cut burn.",
+  "zh": "我不想说得很冷酷。我们对此非常认真。我们需要非常激进地削减消耗。我们和董事会谈了,我们说,我们要关掉旧产品。我们要大幅削减消耗。"
+ },
+ {
+  "seg": 1,
+  "start": 11,
+  "end": 13,
+  "speaker": "Pablo Srugo",
+  "en": "You did this before knowing what you were going to build?",
+  "zh": "你们在还不知道要做什么之前就这么做了?"
+ },
+ {
+  "seg": 2,
+  "start": 13,
+  "end": 15,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, yeah. We're going to go down to like seven people.",
+  "zh": "是的,是的。我们要裁到只剩七个人左右。"
+ },
+ {
+  "seg": 3,
+  "start": 15,
+  "end": 18,
+  "speaker": "Pablo Srugo",
+  "en": "You went from 70 to seven? Yeah. Wow.",
+  "zh": "你从 70 人减到 7 人?是的。哇。"
+ },
+ {
+  "seg": 4,
+  "start": 18,
+  "end": 59,
+  "speaker": "Keith Peiris",
+  "en": "It's a huge build out. You're working on a small ICP, super churny. And then for you to hold on the best ones, you need to run as fast as you can. And actually that difficulty made us excited because we were like, we'd rather tackle a difficult problem than tackle an easy problem and have like a thousand competitors. I'll give a hot take here, which is that, you know, I think everyone says, keep talking to customers, keep finding what your users care about. I think a startup is a deeply personal thing. You have to build a company, a product and service that you love, that moves you emotionally so that you can work on it every single waking hour. And if you are that obsessed about something, it turns out that there will be customers in the world that are as obsessed as you.",
+  "zh": "这是一场巨大的建设。你面对的是一个小 ICP,流失率超高。而要留住最好的那批客户,你需要跑得尽可能快。实际上这种难度反而让我们兴奋,因为我们想,我们宁愿攻克一个困难的问题,也不愿攻克一个简单的问题然后面对一千个竞争者。我在这里给一个火辣的观点,就是,你知道,大家都说,持续和客户交流,持续找到你的用户在乎什么。我认为创业是一件非常个人的事。你必须打造一家你热爱的、能打动你情感的公司、产品和服务,这样你才能在每一个醒着的时刻都投入其中。而事实证明,如果你对某件事如此痴迷,世界上就会有和你一样痴迷的客户。"
+ },
+ {
+  "seg": 5,
+  "start": 59,
+  "end": 78,
+  "speaker": "Previous Guests",
+  "en": "That's product market fit. Product market fit. Product market fit. I called it the product market fit question. Product market fit. Product market fit. Product market fit. Product market fit. I mean, the name of the show is product market fit. Do you think the product market fit show has product market fit? Because if you do, then there's something you just have to do.",
+  "zh": "这就是产品市场契合。产品市场契合。产品市场契合。我把它叫做产品市场契合之问。产品市场契合。产品市场契合。产品市场契合。产品市场契合。我是说,这个节目的名字就叫产品市场契合。你觉得产品市场契合这个节目有产品市场契合吗?因为如果你觉得有,那么有一件事你就必须去做。"
+ },
+ {
+  "seg": 6,
+  "start": 78,
+  "end": 90,
+  "speaker": "Pablo Srugo",
+  "en": "You have to take out your phone. You have to leave the show five stars. It lets us reach more founders and it lets us get better guests. Thank you. Thank you. Keith, welcome to the show, man.",
+  "zh": "你必须拿出手机。你必须给节目打五星。这能让我们触达更多创始人,也能让我们请到更好的嘉宾。谢谢。谢谢。Keith,欢迎来到节目,兄弟。"
+ },
+ {
+  "seg": 7,
+  "start": 90,
+  "end": 91,
+  "speaker": "Keith Peiris",
+  "en": "Excited to be here.",
+  "zh": "很高兴来到这里。"
+ },
+ {
+  "seg": 8,
+  "start": 91,
+  "end": 144,
+  "speaker": "Pablo Srugo",
+  "en": "Dude, this is going to be exciting one. I mean, man, you just went through a big shift, which we're going to go into here. Company changed names from Tome to Lightfield and you're focused on something different. I mean, today you're an AI first, AI native CRM, right? In a way, you look at the earnings calls like HubSpot, Salesforce, like you're what they're scared of, right? You're coming for them amongst other things. So we're going to talk about what you build, how you're building it, why it's different and all these sort of pieces. But let's start with the product market fit moment. And I'm sure you have multiple because you had the old journey, which you went and you raised a Series B, like a $43 million Series B, only kind of old product. And then since pivoting, you've now closed a $45 million Series A. So multiple PMF moments. But tell me about when, after you launched Lightfield, when was the moment when you felt like, this is worth paving into because it's working so well, there's so much demand.",
+  "zh": "兄弟,这期会很精彩。我是说,老兄,你刚刚经历了一次重大转变,我们等会儿会深入聊这个。公司从 Tome 改名为 Lightfield,你现在的焦点也变了。我是说,今天你们是一家 AI 优先、AI 原生的 CRM,对吧?某种意义上,你去看财报电话会,像 HubSpot、Salesforce,你就是他们害怕的那种对手,对吧?你是冲着他们去的, amongst 其他原因。所以我们要聊聊你做了什么、你是怎么做的、为什么它不同,以及这一类的问题。但让我们从产品市场契合时刻说起。我相信你有多个,因为你经历过旧的旅程,你融了一轮 B 轮,大概 4300 万美元的 B 轮,只靠那个旧产品。然后转型之后,你现在又完成了一轮 4500 万美元的 A 轮。所以是多个 PMF 时刻。但跟我说说,在你发布 Lightfield 之后,什么时候你感觉到了,这值得 all in,因为它运转得太好了,需求太旺盛了。"
+ },
+ {
+  "seg": 9,
+  "start": 144,
+  "end": 231,
+  "speaker": "Keith Peiris",
+  "en": "So it was actually, I would say the moment before scale, which is to say with our previous company, we got lots of users. I mean, they had like 20 million users. But the thing that was missing was that, you know, it wasn't like an indispensable part of anyone's life. If I asked our customers, what would happen if we took this away? I think they would be like, yeah, be a little sad. I'd go back to Google Slides. With Lightfield, the thing that got us excited was, you know, a CRM is a lot of work. We're nowhere near done. We're like a year, two and a half. And we're still missing a lot of stuff. We're catching up. But we built the earliest version of Lightfield in about three months. And we started asking customers to use it. At the time, it was friends. It was extended network. And even though it was missing like 99% of the features that Salesforce and HubSpot had, we had customers in it every day. And on the flip side, they had a lot of feedback. Just to compare with Tome, with Tome, we had lots and lots of users and none of them cared enough about the product to give us feedback. Whereas with Lightfield, our slacks were lit up, you know, 24-7, 365, about stuff that could be better, stuff we need to fix, stuff that could be different. And we were like, oh, this means that someone cares about this problem. Like our customers are using this all the time. They're hopping mad at us about the things that we got wrong. There's enough care here that maybe there's something here.",
+  "zh": "所以实际上,我要说那是规模化之前的一个时刻,也就是说在我们的上一家公司,我们获得了大量用户。我是说,他们有大约 2000 万用户。但缺失的是,你知道,它并不是任何人生活中不可或缺的一部分。如果我问我们的客户,如果我们把这个拿走会怎么样?我想他们会说,嗯,会有点难过。我会回到 Google Slides。而 Lightfield,让我们兴奋的事情是,你知道,做 CRM 是大量的工作。我们远未完成。我们才做了大概一年,两年半。而且我们还缺很多东西。我们在追赶。但我们在大约三个月内构建了 Lightfield 最早的版本。然后我们开始请客户使用它。当时是朋友。是人脉圈里的人。尽管它缺少 Salesforce 和 HubSpot 大约 99% 的功能,我们每天都有客户在里面使用。而且反过来说,他们有大量的反馈。和 Tome 对比一下,在 Tome,我们有非常多非常多的用户,却没有一个足够在乎这个产品到愿意给我们反馈。而在 Lightfield,我们的 Slack 每天 24 小时、一年 365 天都被点亮,讨论哪些可以做得更好、哪些我们需要修复、哪些可以做得不同。然后我们就想,哦,这意味着有人在乎这个问题。我们的客户一直在使用它。他们对我们做错的事情气得跳脚。这里有足够的在意,也许这里面有东西。"
+ },
+ {
+  "seg": 10,
+  "start": 231,
+  "end": 241,
+  "speaker": "Pablo Srugo",
+  "en": "What makes you decide to go into, to just even launch this product? I mean, you've got this other product that has pretty serious growth. Like how do you even start thinking about launching something so different?",
+  "zh": "是什么让你决定进入,仅仅说发布这个产品?我是说,你手上有一个增长相当不错的产品。你是怎么开始考虑发布如此不同的东西的?"
+ },
+ {
+  "seg": 11,
+  "start": 241,
+  "end": 272,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, it's so funny. I could talk to you about like the 20 metrics that I looked at that made me believe that, you know, Tome wasn't working. But honestly, the thing that like we really wrestled with is, hey, this is a presentations product and it's never going to be capable of making amazing presentations. It was just missing the context. It was missing the data structure. It was missing so much that we were like, this thing will never grow up and be used by the people that are incredible at making decks.",
+  "zh": "是啊,说来有趣。我可以跟你说我审视过的、让我相信 Tome 行不通的那 20 个指标。但说实话,我们真正挣扎的是,嘿,这是一个演示文稿产品,它永远做不出惊艳的演示文稿。它缺失上下文。它缺失数据结构。它缺失太多东西了,以至于我们觉得,这个东西永远不会长大、永远不会被那些做 deck 特别厉害的人使用。"
+ },
+ {
+  "seg": 12,
+  "start": 272,
+  "end": 274,
+  "speaker": "Pablo Srugo",
+  "en": "Was this like a gamma competitor? Like, is that a fair way to think about it?",
+  "zh": "这是不是类似 Gamma 的竞品?这样理解公平吗?"
+ },
+ {
+  "seg": 13,
+  "start": 274,
+  "end": 454,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, yeah. We were actually on sort of similar trajectories and more power to them. They did great work and executed, but we just didn't like where it was going. And I think deep down at a human level, you're like, we want to make pro tools used by sophisticated users and we want them to like rely on it every day. And we just couldn't see a path for Tome to turn into that. What was funny about the pivot to Lightfield was that we went on this journey with Tome being like, all right, how do we turn this into a serious work tool? And we just followed the journey of who makes a lot of decks, who's in the product the most. It turned out it was sales and marketing folks. So we sort of followed them in. We asked them, hey, could we do a pilot? Can we do some discovery with you? And we found our way into probably 10 companies where they were like, okay, you know, you guys are good at making product. You know, Tome is cool. Let's do a pilot. Maybe you can build decks for us. And when we got there, it was so funny. With all 10 of them, within a few weeks, everyone lost interest in us making decks. They were like, this isn't that big of a problem. We all use templates. We just fill them out. We don't know if we care. Maybe you can do some other things. So we sort of got pulled in, you know, doing things like account research, building proposals, responding to RFPs, writing emails. We just got pulled out of the slide space instantly. And that was the first sign of, wait a minute, maybe we can't sell this presentation product into companies. And then when we were there, we started to ask like, okay, to do all of these things well, like proposals and account research, whatever, what do we need? And at that time, I was like, oh, I assume I just connect to Salesforce and we'll have everything we need and we'll be able to do this work. And it turns out that what you need is not in the traditional CRM to do great generative AI work. It's sort of spread everywhere. It's in your call recorder. It's in your email. It's in your Slack. It's in your data warehouse. We found that it was such a struggle to combine these different types of data because it's super inconsistent, right? Like what the sales rep wrote in Salesforce doesn't match what's in the meeting or what's in the email or what's in the data warehouse. And they're all using different entities. They're all using different paths. We're like, wait a minute, this actually seems like a more important problem, you know, creating like a single source of truth on a customer, you know, inside of a company. And we're like, this seems really important because you're going to have agents all over the place. And if they're a little misaligned, they're going to create bad work. And also companies are getting a little smaller and a little flatter. So it makes sense to build a system where everyone can be aligned and connected to truth. So I think those feelings made us believe, hey, maybe this is a bigger opportunity.",
+  "zh": "是的,是的。我们其实走在相似的轨道上,也祝他们越走越好。他们做了很棒的工作,执行力很强,但我们就是不喜欢那个方向。而且我觉得在人性深处,你想的是,我们要做给复杂用户使用的专业工具,我们要他们每天都依赖它。而我们看不到 Tome 变成那样的路径。转向 Lightfield 有意思的地方在于,我们带着 Tome 走过这样一段旅程:好吧,我们怎么把它变成一个严肃的工作工具?我们只是沿着“谁做的 deck 最多、谁在产品里待得最久”这条线索走。结果发现是销售和市场的人。所以我们某种程度上跟着他们走了进去。我们问他们,嘿,我们能不能做个试点?能不能跟你们一起做些探索?我们就这样进入了大概 10 家公司,他们说,好吧,你们做产品挺厉害的。Tome 挺酷的。我们做个试点吧。也许你们可以帮我们做 deck。等我们到了那里,真是太有趣了。这 10 家公司里,几周之内,所有人都对让我们做 deck 失去了兴趣。他们说,这不是什么大问题。我们都用模板。我们就是填一下。我们不知道自己在不在乎。也许你可以做点别的。所以我们就这样被拉进去了,做类似客户调研、写提案、回复 RFP、写邮件这些事。我们几乎是瞬间被拽出了幻灯片领域。那是第一个信号:等等,也许我们卖不动这个演示文稿产品。然后我们在那里的时候,开始问,好,要把这些事情都做好,比如提案、客户调研什么的,我们需要什么?那时候我想,哦,我以为只要连上 Salesforce 就会有我们需要的全部数据,就能做这些工作了。结果发现,做真正出色的生成式 AI 工作,你需要的东西并不在传统 CRM 里。它散落在各处。它在你的通话录音工具里。它在你的邮件里。它在你的 Slack 里。它在你的数据仓库里。我们发现把这些不同类型的数据整合起来非常痛苦,因为它们极其不一致,对吧?比如销售代表在 Salesforce 里写的,和会议里、邮件里、数据仓库里的对不上。它们用的实体不同。路径也不同。我们就想,等等,这其实看起来是一个更重要的问题,你知道,在公司内部为客户创建一个单一事实来源。我们就觉得,这看起来真的很重要,因为以后到处都会有智能体。而如果它们稍有错位,就会产出糟糕的工作。而且公司在变得更小、更扁平。所以构建一个人人可以对齐、人人都连着真相的系统是有意义的。所以我觉得这些感受让我们相信,嘿,也许这是一个更大的机会。"
+ },
+ {
+  "seg": 14,
+  "start": 454,
+  "end": 469,
+  "speaker": "Pablo Srugo",
+  "en": "Pivots happen all the time, but you'd raise the series B with the old product, which makes me assume that it was like at a certain level in terms of, you know, number of customers, revenue, etc. Like, what can you tell me about just how far was that business when this was happening?",
+  "zh": "转型随时都在发生,但你是拿着旧产品融的 B 轮,这让我假设它在客户数量、营收等方面已经达到了某种水平。关于这个业务当时走到了多远,你能跟我说说吗?"
+ },
+ {
+  "seg": 15,
+  "start": 469,
+  "end": 494,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, I mean, it was like, it was around 20 million users. It was single digit millions of ARR. And the CAC was super low because there was so much organic demand or like any AI productivity tool was because it was all over the place. The cost of goods sold was through the roof because inference was really high. And the repeat usage was low. And the revenue retention was very low.",
+  "zh": "是啊,我是说,大概是 2000 万用户。ARR 是个位数百万美元。CAC 超低,因为有太多自然需求,或者说任何 AI 生产力工具都这样,因为它到处都是。销货成本却高得离谱,因为推理成本非常高。重复使用率很低。营收留存也非常低。"
+ },
+ {
+  "seg": 16,
+  "start": 494,
+  "end": 499,
+  "speaker": "Pablo Srugo",
+  "en": "Were you still growing top line or was top line also because of those things starting to plateau?",
+  "zh": "你们营收还在增长吗,还是说因为那些原因营收也开始进入平台期?"
+ },
+ {
+  "seg": 17,
+  "start": 499,
+  "end": 507,
+  "speaker": "Keith Peiris",
+  "en": "So top line was still growing because you're like, not really paying for growth. It's all like organic. So it's still growing.",
+  "zh": "营收还在增长,因为你基本上不用为增长付费。全都是自然增长。所以还在增长。"
+ },
+ {
+  "seg": 18,
+  "start": 507,
+  "end": 510,
+  "speaker": "Pablo Srugo",
+  "en": "Like doubling, like that, like solid growth or kind of like starting to tail?",
+  "zh": "是翻倍那种,像像那样的稳健增长,还是已经开始走尾了?"
+ },
+ {
+  "seg": 19,
+  "start": 510,
+  "end": 567,
+  "speaker": "Keith Peiris",
+  "en": "I feel like the user growth was still growing. The revenue was like starting to soften because the net retention was so low. And there are companies like this. You know, I won't mention all of them, but you know, it's like a consumer productivity company. It's like 20% NDR, but the whole company works because you don't pay for acquisition. Right. And we thought about it. We're like, look, there's so much demand. The way to build this is you build out all your SEO, your AEO. You keep burn low and it turns into something. But honestly, like deep down, like none of us were just excited about that company. Like none of us wanted to build a presentation product that people use like once a quarter that we could not sell B2B, that, you know, no one who's amazing at making decks would ever use. It was just like wrestling with us, you know, morally every day coming to work of like, ah, did we really like quit our jobs to build this thing?",
+  "zh": "我觉得用户增长还在涨。营收开始疲软,因为净留存太低了。确实有这类公司。你知道,我不会点名所有,但你知道,就像一家消费级生产力公司。NDR 只有 20%,但整个公司能运转,因为你不用为获客付费。对。我们想过。我们想,你看,需求这么多,做这件事的方式就是把你所有的 SEO、AEO 都建起来。保持低消耗,它就会变成点什么。但说实话,内心深处,我们没有人对那家公司感到兴奋。我们没有人想做一个人们一个季度用一次的演示文稿产品,卖不了 B2B,你知道,任何做 deck 特别厉害的人都永远不会用。它每天都在道德层面折磨我们,你知道,每天来上班都想,啊,我们真的辞职就是为了做这个东西吗?"
+ },
+ {
+  "seg": 20,
+  "start": 567,
+  "end": 662,
+  "speaker": "Pablo Srugo",
+  "en": "So here's something that I, that I see all the time, like on just on the VC side, working with founders. It's similar to what you experienced, a little different in terms of the numbers and the type of business, but it's very common to have a product, a business that starts to work. You get to a million, 2 million, 5 million, 10 million, even 20 million, right? Maybe 15, maybe at some point, but you get to a good amount of error. And you start to see that kind of, that's why I was asking about growth, right? You got to, you went like one to two or one to three, but then, you know, three to five and then five to seven. And then you're like, okay, this year we're going to do seven to 10. It's a struggle, right? Because I'm talking to these founders and I'm like, I don't have the answer. Like I don't have, hey, if you do this, you're going to double. I don't have the answer of, hey, you should throw it all away and pivot. It's always, okay, here's what we're going to do different this year on the sales. Here's what we're going to do different on the marketing. The net effect is always plus minus 5%, 10%. Like it's not going to change the whole thing. And I'm being more and more prescriptive with them or at least clear. Like if you do this, like just so you know, if you get to 10 million and you're going 20%, you're worth like 30 million. What's the point almost? But I guess the question to you is because you went through it and you had something real, 20 million users, tens of millions of dollars raised many millions in ARR. What would you say to a founder like that that comes to you and says, Keith, like I got a business, it's working, but I don't see how I can get it back to like inflection. You know, like what, what do I do? Just keep going, keep hustling, whatever. Do I do something abrupt? Like what, what are my choices? What do I do? How do I even think about it?",
+  "zh": "所以有件事是我,是我经常见到的,就只是在 VC 这边,和创始人合作时。和你经历的很像,在数字和业务类型上有些不同,但有一个开始运转的产品、业务是非常常见的。你做到一百万、二百万、五百万、一千万,甚至两千万,对吧?也许 1500 万,也许某个点上,但你做到了一个不错的 ARR。然后你开始看到那种,这也是我为什么问增长,对吧?你做到了,你从一百万到两百万或三百万,但然后,你知道,三百万到五百万,然后五百万到七百万。然后你说,好,今年我们要从七百万做到一千万。这很挣扎,对吧?因为我和这些创始人聊,我就像,我没有答案。就像我没有,嘿,如果你这么做,你就会翻倍。我也没有答案说,嘿,你应该把它全部扔掉然后转型。永远是,好,这是我们今年在销售上要做的不同做法。这是我们在市场上要做的不同做法。净效果总是正负 5%、10%。它不会改变整个局面。我对他们越来越直给,或者至少越来越明确。就像如果你这么做,就像提醒你,如果你做到一千万,增长 20%,你就值大约 3000 万。这有什么意义呢,几乎?但我想问你的是,因为你经历过,而且你有真实的东西,2000 万用户、融了几千万美元、ARR 好几百万。你会对一个来找你说,Keith,我有一个业务,它在运转,但我看不出我怎么能让它重回拐点的创始人说什么?你知道,比如我该怎么办?就是继续干、继续拼之类的吗?我要不要做点决绝的事?比如我的选择是什么?我该怎么办?我该怎么想这件事?"
+ },
+ {
+  "seg": 21,
+  "start": 662,
+  "end": 680,
+  "speaker": "Keith Peiris",
+  "en": "Yeah. I mean, it's, it's very personal, which is to say that, you know, if you're in that state, if you've got distribution, you could think about the next product. Right. And I know many founders that are like, our first product didn't really work, but we got some distribution. So we made the second and the third and then start, things started to work.",
+  "zh": "是啊。我是说,这非常个人化,也就是说,你知道,如果你处于那个状态,如果你手里有分发,你可以考虑下一个产品。对。而且我认识很多创始人,他们都说,我们的第一个产品没真正做成,但我们拿到了一些分发。所以我们做了第二个、第三个,然后事情开始运转了。"
+ },
+ {
+  "seg": 22,
+  "start": 680,
+  "end": 684,
+  "speaker": "Pablo Srugo",
+  "en": "Because you have a relationship with customers. Like that's when you think distribution is what you're saying.",
+  "zh": "因为你和客户有关系。就像,这就是你说的分发是吧。"
+ },
+ {
+  "seg": 23,
+  "start": 684,
+  "end": 758,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, exactly. Exactly. It could be that you've got the right platform, you know, with the data, you know, with the infrastructure and you can build something else. Or maybe you just got a great team, right? And that's your asset and you can figure out what to build next. But I think it really depends on like what you want out of it. Because at that time, you know, when we were adding a million users a month or two million users a month, there probably was a way to get a soft landing for the team, you know, where investors make a little bit of money, the team does okay. We all go work at some big corporation for a couple years and then come out and do the next thing. And that was like top of mind for me. But the thing that actually really pushed me, it was one of my board members, Dan, who's on the board of Lightfield now, because of this advice, he was like, these technology super cycles, they don't happen every day, right? You know, this is the sort of thing that happens like once a decade or once every two decades. And he's like, you're so early. You know, at the time, we were like two years in and he was like, you have a lot of capital, you've got an incredible team. You know, if you go and take the like, the soft landing, you're going to be stuck there for two to four years. You're going to come out and this thing will be over.",
+  "zh": "是,没错。没错。也可能是你有了合适的平台,你知道,带着数据,带着基础设施,你可以构建别的东西。或者也许你就是有一支很棒的团队,对吧?那是你的资产,你可以想清楚接下来做什么。但我觉得这真的取决于你想从中得到什么。因为那时候,你知道,当我们一个月新增一百万或两百万用户的时候,本可能有一种方式给团队一个软着陆,你知道,投资者赚一点钱,团队过得还行。我们都去某个大公司工作几年,然后再出来做下一件事。那是我当时最优先考虑的。但真正推动我的,是我的一位董事会成员 Dan,他现在因为这条建议也在 Lightfield 的董事会,他说,这些技术超级周期不是每天都发生的,对吧?你知道,这种事大概十年一次,或者二十年一次。然后他说,你太早了。你知道,当时我们才做了两年,他说,你有很多资金,你有一支了不起的团队。你知道,如果你去选择软着陆,你会被困在那里两到四年。等你出来,这件事就结束了。"
+ },
+ {
+  "seg": 24,
+  "start": 758,
+  "end": 758,
+  "speaker": "Pablo Srugo",
+  "en": "It's over. Yeah.",
+  "zh": "结束了。是的。"
+ },
+ {
+  "seg": 25,
+  "start": 758,
+  "end": 766,
+  "speaker": "Keith Peiris",
+  "en": "All the great companies, what we made. He was like, dude, why not just burn the boats and go build the thing that you have conviction in?",
+  "zh": "所有伟大的公司,就是我们做过的那些。他说,兄弟,为什么不干脆烧掉船只,去构建你有信念的东西呢?"
+ },
+ {
+  "seg": 26,
+  "start": 766,
+  "end": 773,
+  "speaker": "Pablo Srugo",
+  "en": "Was there a third path of just keep optimizing your business until you kind of cracked it and NDR went from 20 to 40 and you just kind of kept growing that or whatever?",
+  "zh": "有没有第三条路,就是继续优化你的业务,直到你某种程度上破解了它,NDR 从 20 涨到 40,然后你继续让它增长之类的?"
+ },
+ {
+  "seg": 27,
+  "start": 773,
+  "end": 800,
+  "speaker": "Keith Peiris",
+  "en": "I think there was that path. My strong view on this is that you can't take the same product and take NDR from 20 to 40. I think you almost like inherit retention based off of the core product and then you can make it a little better but like, it's not going from 20 to 80 ever, you know, with this kind of product. So I was almost taking for granted that like, retention would be about the same but I could play with acquisition. I could play with selling the next thing.",
+  "zh": "我觉得有那条路。我在这点上有个强烈的看法:你不可能拿着同一个产品把 NDR 从 20 提到 40。我觉得留存几乎是从核心产品继承来的,然后你可以让它好一点点,但是,这种产品不可能从 20 涨到 80,你知道。所以我几乎是理所当然地认为,留存会大致不变,但我可以玩获客。我可以卖下一件东西。"
+ },
+ {
+  "seg": 28,
+  "start": 800,
+  "end": 850,
+  "speaker": "Pablo Srugo",
+  "en": "I think that's true of most metrics, by the way. I don't know if I want to go extreme and say that's always true of all metrics but like, like if your demo to close, making it up, right, is 25% could you optimize to 30? Yes. Could you optimize to 50? Probably not unless maybe you materially change the ACV or something like that and you go after a completely different set of customer but like, you're probably not that bad, you know, at showing a demo and it goes with the same like, if you only get so many demos booked in a week at a certain, like, I'm sure you've tried the low-hanging fruit for almost all the metrics that matter as a smart founder that's been in market for two years, let's say I'm making it up. You've tried all the obvious stuff so the odds that somebody's going to come in and make such a big change on a metric that it's going to take, you know, re-inflect your business, it can happen but it's, a lot of it is kind of false hope, right? I'm with you on that.",
+  "zh": "顺带说,我觉得大多数指标都是这样。我不知道要不要说得太绝对,说所有指标都永远这样,但是,比如你的 demo 到成交率,我编个数字,对吧,是 25%,你能不能优化到 30?能。能不能优化到 50?大概不能,除非也许你大幅改变 ACV 之类的,去打一套完全不同的客户群,但你展示 demo 大概没那么差,你知道。同理,如果你一周只能约到那么多 demo,在某个,我相信作为一个在市场上待了两年的聪明创始人,几乎所有重要指标的唾手可得的果子你都已经试过了,假设我说的是编的。你已经试过所有显而易见的方法了,所以有人进来后在一个指标上做出巨大改变、从而让你的业务重回拐点的概率,可能会发生,但是,其中很多是一种虚假希望,对吧?我同意你的看法。"
+ },
+ {
+  "seg": 29,
+  "start": 850,
+  "end": 881,
+  "speaker": "Keith Peiris",
+  "en": "Yeah. That was one of the realizations I had. I agree for a lot of metrics. I have so many friends who are founders and they're like, my CAC has not changed in eight years. It's like maybe gone up or down 20, 10, 20% but it's not changed. I can make ACVs go up, you know, I can build more product, I can make my sales process a little more optimized but it's sort of like what you have in year one is probably roughly what you'll have in year five, you know, and you have to decide is this the game you want to play?",
+  "zh": "是啊。那是我领悟到的事情之一。对很多指标我都同意。我有好多创始人朋友,他们说,我的 CAC 八年没变过。可能上下浮动 20%、10%、20%,但没变过。我可以让 ACV 涨上去,你知道,我可以做更多产品,我可以让销售流程更优化一点,但大概第一年你有什么,第五年就大致有什么,你知道。你必须决定这是不是你想玩的游戏。"
+ },
+ {
+  "seg": 30,
+  "start": 881,
+  "end": 886,
+  "speaker": "Pablo Srugo",
+  "en": "It's the nature of the beast. Like it's the nature of the business that you're in, the metrics are a fallout of that for the most part.",
+  "zh": "这就是这头野兽的天性。就像,这是你所处的业务的天性,指标大部分是它的副产品。"
+ },
+ {
+  "seg": 31,
+  "start": 886,
+  "end": 887,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, exactly.",
+  "zh": "是,没错。"
+ },
+ {
+  "seg": 32,
+  "start": 887,
+  "end": 956,
+  "speaker": "Pablo Srugo",
+  "en": "Now one thing that you said that I want to dive into and I'm going on this point because the pivot ultimately leads to the problem for you said you have distribution which is I think taken for granted like if you think about it you're starting from zero, you're starting from scratch in a new industry unless you're a domain expert or whatever, even if you are but especially if you're not, you've got to go and get people's attention. Like you've got to go and get people to know that you exist, be willing to give you a shot, give you a chance which is spending on ads, going to conferences, doing all this stuff and it takes a long time. If you've got a business that's doing two, three, five, 10 million in revenue, you've got hundreds of customers that you actually have like a real relationship with and you have whatever team and cash that you have, right? But that's a big edge like trying to leverage that to find, like in your case, you found a completely different problem to solve if I understand correctly for the customers that you had. So I'd love to go deeper on how you did that because I feel like that's a playbook or a path whatever you want to call it that's open to anybody. I mean anybody in this situation could say, okay, you know what? It's true. I have these relationships with these customers rather than thinking from the product what more feature could I add? What else could I do? or limit myself to saying we're a company that does X so we can only do X. You did something different. Like let's go deep on what you did there.",
+  "zh": "现在你说过的一句话我想深入一下,我要抓住这一点,因为转型最终引出了你说的问题:你手里有分发,我觉得这一点被低估了,你想一下,你从零开始,你在一个新行业里从零开始,除非你是领域专家之类的,即使你是、尤其是你不是的时候,你得去获得人们的注意。你得让人们知道你存在,愿意给你一次机会、给你一个尝试,这就是要花广告费、参加大会、做这一切,而这需要很长时间。如果你有一个营收两三百万、五百万、一千万的业务,你有几百个和你有真实关系的客户,还有你手上的团队和资金,对吧?但这是一个很大的优势,就像试图利用它去寻找,比如在你的案例里,如果我没理解错,你为你原有的客户找到了一个完全不同的问题去解决。所以我很想深入了解你是怎么做的,因为我觉得这是一本打法,或者说一条路径,随便你怎么叫,它对任何人都是敞开的。我是说,任何处于这种情况的人都可以说,好,你知道吗?确实,我和这些客户有这些关系,而不是从产品出发想我还能加什么功能?我还能做什么?或者把自己局限在说我们是一家做 X 的公司所以我们只能做 X。你做了不同的事。我们深入聊聊你在那里做了什么吧。"
+ },
+ {
+  "seg": 33,
+  "start": 956,
+  "end": 1075,
+  "speaker": "Keith Peiris",
+  "en": "Yeah. And I think, you know, hindsight's 20-20. To be honest, we had way more consumers than businesses and I think it actually would have been a more direct path to build a second consumer product. You know, we could have built like a, you know, what are these code generating tools or something and I think that would have been a shorter path. I think deep down, you know, Henry and I wanted to build a B2B product. We wanted to build something that like people used every day and cared about and that's probably what steered us. I'd argue it actually steered us initially in a much darker place because it steered us towards sales and marketing. As you know, like GTM tech is so crowded. It's brutal, right? It's super crowded because I would say most sales teams are willing to try something new, see if it helps them be more successful. But the sort of pilot conversion rate is super low. You know, most of these companies don't have proprietary data, right? So it's just a race to the bottom, right? If you have got like 30 tools in every company and they're all trying to offer roughly the same thing because they don't have the data, they don't have the model, right? And it just turns into a commodity game. And that was kind of the, I think the dark thing that we were trying to navigate in the, call it like mid pivot, where we're like, all right, we're here. You know, we've got these customers where we're building these tools. This also isn't going to lead to a very good business, you know, because we're just this layer that sits on top of Salesforce and Snowflake and we're not an LLM company, you know, so we're also just paying Anthropic or OpenAI. We've found some problems to solve, but like this, you know, at the time we were like, this is probably a worse setup than Tome. I think that that took some distance from the problem. You know, we started to sit back and be like, did any of us really wake up to build like this point solution, GTM piece of tech that's like hard to sell, hard to convert? I think we actually just needed some space from the problem to think about like, well, how's the world going to change? What's going to be different? And what do we actually want to do?",
+  "zh": "是啊。而且我觉得,你知道,事后看都是 20-20。说实话,我们的消费者用户远多于企业用户,我觉得做第二款消费级产品其实会是一条更直接的路径。你知道,我们本可以做一个,你知道,这些代码生成工具之类的什么,我觉得那会是一条更短的路。但内心深处,你知道,我和 Henry 想做 B2B 产品。我们想做那种人们每天使用、真正在乎的东西,大概就是这个把我们引向了那里。我得说,它其实一开始把我们引向了一个更黑暗的地方,因为它把我们引向了销售和市场。如你所知,GTM 技术太拥挤了。很残酷,对吧?超级拥挤,因为我要说大多数销售团队愿意尝试新东西,看它能不能帮他们更成功。但那种试点转化率超低。你知道,这些公司大多没有专有数据,对吧?所以就变成了底线竞赛,对吧?如果你在每家公司有大概 30 个工具,它们都因为没有数据、没有模型,所以在提供大致相同的东西,对吧?然后就变成了同质化游戏。我觉得那就是我们在转型中期试图穿越的黑暗地带,就是说,好吧,我们到这里了。你知道,我们有这些客户,我们在给他们做这些工具。这也不会导向一个很好的业务,你知道,因为我们只是叠在 Salesforce 和 Snowflake 之上的一个层,而我们不是一家 LLM 公司,你知道,所以我们也在给 Anthropic 或 OpenAI 付钱。我们找到了一些可以解决的问题,但是,你知道,当时我们想,这个局面可能比 Tome 还糟。我觉得这需要和问题保持一些距离。你知道,我们开始退后一步想,我们中真的有人每天醒来是想做这种难卖、难转化的 GTM 单点技术吗?我觉得我们其实只是需要一些空间来思考,比如,世界将如何改变?会有什么不同?以及我们到底想做什么?"
+ },
+ {
+  "seg": 34,
+  "start": 1075,
+  "end": 1109,
+  "speaker": "Pablo Srugo",
+  "en": "How do you do this as somebody who's running an existing business? This is the problem I have with, like I'm thinking of a founder that I'm having this discussion with and I'm like, you need to find a way to just, we're talking about next quarter and like, are we going to be plus minus 10? And I'm like, man, next quarter, like even if you hit your low, like if you hit your high, it's not that good. And if you hit your low, it's not that bad. Like it just, we're not talking about things that because you're in this situation of plateauing and I'm trying to get them like, just you need time to pull away almost. Let somebody else worry about that. How do you do that? How do you give yourself time to think the way that you're thinking? Like it's easy to do when you have no business. When you have a business happening, it's hard enough to worry about the fires.",
+  "zh": "作为一个正在经营现有业务的人,你怎么做到这一点?这是我的痛点,就像我在想一个我正在和他讨论这件事的创始人,我就想,你需要找到一种方式去,我们在聊下个季度,比如,我们会是正负 10% 吗?我就想,老兄,下个季度,即使你打到了你的低线,如果你打到了你的高线,也没那么好。如果打到了低线,也没那么糟。就像,我们聊的这些事,因为你处于平台期,我想让他们,就是你需要时间抽离出来,几乎。让别人去操心那些。你怎么做到的?你怎么给自己时间去像你那样思考?在没有业务的时候这很容易。当有一个业务在运转时,光是应付那些火情就够难了。"
+ },
+ {
+  "seg": 35,
+  "start": 1109,
+  "end": 1124,
+  "speaker": "Keith Peiris",
+  "en": "The honest truth is that we needed to, I don't want to say this in a cold way. We took it very seriously. We needed to cut burn really aggressively. You know, we spoke to our board and we're like, we're going to turn off the old product. We are going to dramatically cut burn.",
+  "zh": "老实说就是,我们需要,我不想说得很冷酷。我们对此非常认真。我们需要非常激进地削减消耗。你知道,我们和董事会谈了,我们说,我们要关掉旧产品。我们要大幅削减消耗。"
+ },
+ {
+  "seg": 36,
+  "start": 1124,
+  "end": 1134,
+  "speaker": "Pablo Srugo",
+  "en": "You did this before knowing what you were going to build? Yeah. Oh, wow. Okay. That's true. Burn the boats. I mean, that's like, holy shit. Like I got 20 million users. I'm putting that to zero. That's a big move.",
+  "zh": "你们在还不知道要做什么之前就这么做了?是的。哦,哇。好。确实。烧掉船只。我是说,那真是,我去。我有 2000 万用户。我要把它归零。这是一步大棋。"
+ },
+ {
+  "seg": 37,
+  "start": 1134,
+  "end": 1137,
+  "speaker": "Keith Peiris",
+  "en": "Yeah. Yeah. Yeah. We're like, we're going to go down to like seven people.",
+  "zh": "是的。是的。是的。我们说,我们要裁到只剩七个人左右。"
+ },
+ {
+  "seg": 38,
+  "start": 1137,
+  "end": 1137,
+  "speaker": "Pablo Srugo",
+  "en": "From how many?",
+  "zh": "从多少人?"
+ },
+ {
+  "seg": 39,
+  "start": 1137,
+  "end": 1139,
+  "speaker": "Keith Peiris",
+  "en": "I mean, Tome had 70 people.",
+  "zh": "我是说,Tome 有 70 个人。"
+ },
+ {
+  "seg": 40,
+  "start": 1139,
+  "end": 1142,
+  "speaker": "Pablo Srugo",
+  "en": "You went from 70 to seven? Yeah. Wow.",
+  "zh": "你从 70 减到 7?是的。哇。"
+ },
+ {
+  "seg": 41,
+  "start": 1142,
+  "end": 1165,
+  "speaker": "Keith Peiris",
+  "en": "And our board was great. They were supportive. They were like, look, if this is what you guys want to do, I think everyone was like, don't be half in. Like they're like, you're not going to find product market fit again by this being a side project with Tome. Like you have to burn the boats. You have to cut burn. You have to go down to like pre-seed company again. Again, so you can figure it out.",
+  "zh": "而且我们的董事会很棒。他们支持。他们说,看,如果这是你们想做的,我想每个人都在说,不要半心半意。他们说,你不可能靠把这件事当作 Tome 的一个副业项目再找到产品市场契合。你必须烧掉船只。你必须削减消耗。你必须降回一家 pre-seed 公司。再说一次,这样你才能想清楚。"
+ },
+ {
+  "seg": 42,
+  "start": 1165,
+  "end": 1168,
+  "speaker": "Pablo Srugo",
+  "en": "How much did you have in the bank when you did that? After you did that?",
+  "zh": "你们做这件事时账上有多少钱?做完之后?"
+ },
+ {
+  "seg": 43,
+  "start": 1168,
+  "end": 1174,
+  "speaker": "Keith Peiris",
+  "en": "I don't remember exactly, but I would say we had like a solid series A worth of capital in the bank.",
+  "zh": "我记不清确切数字了,但我会说我们账上有差不多一整轮 A 轮的资金。"
+ },
+ {
+  "seg": 44,
+  "start": 1174,
+  "end": 1183,
+  "speaker": "Pablo Srugo",
+  "en": "Sure. Yeah. So you're like, money was not an issue. Like with seven people, you've got infinite runway. You can just like, like that's not going to be the thing that kills you. At this point, it's going to be, do you find something worth going after or not?",
+  "zh": "当然。是的。所以你是说,钱不是问题。就七个人,你有无限的 runway。你就可以,比如那不会是杀死你的东西。到这个节点,杀死你的会是,你有没有找到值得去追的东西。"
+ },
+ {
+  "seg": 45,
+  "start": 1183,
+  "end": 1189,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, exactly. And that was kind of uncomfortable, right? You like throw away something that was sort of working.",
+  "zh": "是,没错。而那是挺让人不舒服的,对吧?你扔掉了一个某种程度上还算在运转的东西。"
+ },
+ {
+  "seg": 46,
+  "start": 1189,
+  "end": 1199,
+  "speaker": "Pablo Srugo",
+  "en": "Dude, it's crazy. I've heard of many people pivoting and even pivoting late, but almost always when they have something else, it's like taking off. Like I almost never heard it like this. So aggressive.",
+  "zh": "兄弟,太疯狂了。我听过很多人转型,甚至很晚才转型,但几乎总是在他们手上已经有另一个东西在起飞的时候。像这样我几乎没听过。如此决绝。"
+ },
+ {
+  "seg": 47,
+  "start": 1199,
+  "end": 1248,
+  "speaker": "Keith Peiris",
+  "en": "Yeah. Yeah. To be honest, it was the right move because you just have so much noise in a company that's half working. Your team, it's not their fault. It's your fault. Red is the CEO. It's my fault. But the team's like, we got to find something to work on. Otherwise, what are we doing? Right? There's sort of like a, like a toxic quality in the air of like, you know, do these guys even know what they're doing? And the truth is we, you know, we, we didn't. And, you know, you're still have customer tickets and you're still have, you know, marketing campaigns and, you know, you still have your like infrabill. So at that point, my view is I have to kill the noise. Right? So we got to cut burn. We got to get everyone out of the room that doesn't want to build the new thing. And unfortunately, we couldn't get rid of this office. We had this giant office and it was kind of awkward for seven people to show up.",
+  "zh": "是啊。是的。说实话,这是正确的做法,因为一个半死不活的公司里有太多噪音。你的团队,这不是他们的错。是你的错。我是 CEO。是我的错。但团队会想,我们得找点事情做。否则我们在干嘛?对吧?空气里有一种,一种有毒的东西,就像,你知道,这帮人到底知不知道自己在干什么?而事实是,你知道,我们,我们当时确实不知道。而且,你知道,你还有客户工单,你还有,你知道,市场活动,你知道,你还有你的 infra 账单。所以在那个点上,我的看法是,我必须杀死噪音。对吧?所以我们得削减消耗。我们得把所有不想构建新东西的人请出房间。而且不幸的是,我们退不掉这个办公室。我们有这个巨大的办公室,七个人出现在那里挺尴尬的。"
+ },
+ {
+  "seg": 48,
+  "start": 1248,
+  "end": 1293,
+  "speaker": "Pablo Srugo",
+  "en": "Dude, we had that. It's funny. My company different. But when I, when I had my startup, we had a decent space, let's say for maybe 40 people, not 70, but, and then we had to go through layoffs and all this stuff and different situation. But the net was, we ended up with seven people and it's so, it's sad, man. Like, it's hard to get out of that. You know, you're looking at it, you're like, can we not, you know, I'd rather be in the garage, man. Oh, you're such a selfish person. I actually can't believe how selfish you are because like, you've been listening to the show. You listened to this episode. You loved it. You've listened to a bunch of other episodes and you haven't told anyone about it. You haven't told any of the many founder friends that you have about it. Think about how many founders have helped you out when you're building your startup. So don't be selfish. Tell your friends about this episode. Tell them about the show and help me help them.",
+  "zh": "兄弟,我们也经历过。有意思。我的公司不一样。但当我做我的创业公司时,我们有一个不错的空间,比方说大概能坐 40 个人,不是 70,但,然后我们经历了裁员和这一切,情况不一样。但最终,我们只剩七个人,太,太让人难受了,老兄。很难走出来。你看着它,你会想,能不能,你知道,我宁愿待在车库里,老兄。哦,你真是个自私的人。我真不敢相信你有多自私,因为,你一直在听这个节目。你听了这一集。你很喜欢。你听过一大堆其他集,却没告诉过任何人。你没告诉你那些众多的创始人朋友。想想你创业时有多少创始人帮过你。所以别自私了。把这集告诉你的朋友。告诉他们这个节目,帮我帮到他们。"
+ },
+ {
+  "seg": 49,
+  "start": 1293,
+  "end": 1332,
+  "speaker": "Keith Peiris",
+  "en": "It's so funny. When you're in that state, you get all of this feedback about stuff that matters. You know, there are definitely people that were like, hey, can we get a new office? You know, or hey, should we pay everyone more to stay? Or, you know, various things. And the truth is that those are symptoms of the bigger problem. The bigger problem is you don't have direction, you know, and you don't have traction. We just ignored all of that. We were like, look, we need to figure this out. You know, and I think to the team's credit, we all sort of realized together, hey, the only play in this space that we would all be excited to spend the next 10 years of our lives on would be to like, go and reinvent the system of record.",
+  "zh": "太有意思了。当你处于那个状态时,你会收到关于各种重要事情的反馈。你知道,肯定有人会说,嘿,我们能换个新办公室吗?你知道,或者嘿,我们要不要给大家加薪留人?或者,你知道,各种各样的事。而事实是,那些都是更大问题的症状。更大的问题是你没有方向,你知道,而且你没有增长。我们只是把这一切都忽略了。我们说,看,我们需要把这件事想清楚。你知道,我觉得要归功于团队,我们都一起意识到,嘿,在这个领域里,唯一一个我们所有人都愿意投入未来 10 年生命的玩法,就是去,重新发明系统记录。"
+ },
+ {
+  "seg": 50,
+  "start": 1332,
+  "end": 1334,
+  "speaker": "Pablo Srugo",
+  "en": "Where does that come from? Like, how do you get to that conclusion?",
+  "zh": "这是从哪儿来的？就是说，你是怎么得出这个结论的？"
+ },
+ {
+  "seg": 51,
+  "start": 1334,
+  "end": 1342,
+  "speaker": "Keith Peiris",
+  "en": "Yeah. One, I think we wanted to build a business with leverage in the future. You know, so we felt like if we're going to be in this space, we have to...",
+  "zh": "好的。第一，我认为我们想在未来构建一个有杠杆的生意。你知道，我们觉得如果我们要进入这个领域，我们必须……"
+ },
+ {
+  "seg": 52,
+  "start": 1342,
+  "end": 1344,
+  "speaker": "Pablo Srugo",
+  "en": "When you say this space, what space do you mean?",
+  "zh": "你说这个领域，你指的是什么领域？"
+ },
+ {
+  "seg": 53,
+  "start": 1344,
+  "end": 1467,
+  "speaker": "Keith Peiris",
+  "en": "I just mean being in go-to-market in general. Okay. We're like, we need to own and index proprietary data. No question. Second, we're like, look, we're productivity tool people. You know, and I think we all got excited about the technical challenge of building, you know, an agentic system of record. We're like, this sounds super hard. You know, even though there's people talking about vibe coding a CRM, you know, to build an automatic agentic CRM that works for like a thousand people, you know, in terms of API data model, we're like, we would enjoy doing this. And then I would say that it feels like one of those strange go-to markets where it's sort of hard to pull off. Let me explain it. You know, ripping out systems of record, it's incredibly hard historically, a little easier now. We're starting to do it now. But the first couple of years of the company, you have to go Greenfield, right? You have to go be new companies for CRM. And then, many have to build fast enough so that when their company works, they don't go to Salesforce, right? We're like, that seems like almost crazy enough of a company that there aren't going to be that many people that try, you know, which is to say it's a huge build out. You're working on a small ICP, super churny, and then for you to hold on the best ones, you need to run as fast as you can. And actually, that difficulty made us excited because we were like, we'd rather tackle a difficult problem than tackle an easy problem and have like a thousand competitors. So that sort of got us excited. And then I think maybe the last part is that it felt like a company-wide problem. And I think that that got the founding team really excited. They're like, look, if you imagine how a system of record works in the future, people that work with customers fill it, everyone benefits from it. You know, engineers should use it, finance should use it, you know, forward-to-play engineers should use that. And we're like, we're actually excited about that to have a small hand in shaping how future companies get built. And we're like, we could all work 14 hours a day on that. So it actually felt like a very personal decision.",
+  "zh": "我只是泛指做 go-to-market。好。我们是说，我们需要拥有并索引专有数据，这是毫无疑问的。第二，我们是说，看，我们是做生产力工具的人。你知道，我认为我们都对构建一个智能体系统的技术挑战感到兴奋。我们是说，这听起来超级难。你知道，尽管有人在谈论用 vibe coding 做一个 CRM，但要构建一个自动化的智能体 CRM，能为一千人服务，你知道，就 API 数据模型而言，我们是说，我们会很享受做这件事。然后我要说，这感觉像是一种很难做成的奇怪的 go-to-market。让我解释一下。你知道，从历史上看，把系统级记录替换掉是非常难的，现在稍微容易一点了。我们现在开始这么做了。但公司的头几年，你必须走 Greenfield 路线，对吧？你必须去找那些还没有用 CRM 的新公司。然后，很多公司必须足够快地构建，这样当他们的公司起量时，他们就不会转去用 Salesforce，对吧？我们是说，这看起来几乎疯狂到不会有那么多人去尝试，你知道，也就是说这是一个巨大的工程。你在服务一个很小的 ICP，流失率超高，然后要留住最好的那些，你必须拼尽全力跑。而实际上，这种难度让我们兴奋，因为我们说，我们宁愿解决一个难题，也不愿解决一个简单问题却面对上千个竞争者。所以这让我们兴奋起来了。然后我想最后一部分是，这感觉像是一个全公司的问题。我认为这让创始团队非常兴奋。他们是说，看，如果你想象一下未来系统级记录的运作方式，与客户打交道的人往里面填数据，所有人都从中受益。你知道，工程师应该用它，财务应该用它，你知道，售前工程师应该用它。我们是说，我们真的很兴奋能在塑造未来公司如何被构建这件事上出一份小力。我们是说，我们都能每天为此工作 14 个小时。所以这实际上感觉像是一个非常个人的决定。"
+ },
+ {
+  "seg": 54,
+  "start": 1467,
+  "end": 1480,
+  "speaker": "Pablo Srugo",
+  "en": "I'm curious to just go a bit deeper on how you end up with this, like, because you mentioned before the story of you going in and trying to help people build decks and you play with Salesforce. Is that what started this idea of like the AI native CRM?",
+  "zh": "我很想深入了解一下你们是怎么走到这一步的，因为你之前提到过你们去帮人做演示文稿、并且用过 Salesforce 的故事。是不是那开启了 AI 原生 CRM 这个想法？"
+ },
+ {
+  "seg": 55,
+  "start": 1480,
+  "end": 1501,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, exactly. It was realizing that we didn't have the data inside of Salesforce or Snowflake or Gong required to get agents to do great work. That's sort of what started this thread. And we were like, oh, what happens if we actually solve that problem well? If we built a system of record design for this, oh, that means that we could go do all of these other things too.",
+  "zh": "是的，没错。是意识到我们在 Salesforce 或 Snowflake 或 Gong 里没有能让智能体出色工作所需的数据。这基本上就是这个线索的开端。我们是说，哦，如果我们真正把这个问题解决好会怎么样？如果我们为此设计一个系统级记录，哦，那意味着我们也可以去做所有这些其他的事情。"
+ },
+ {
+  "seg": 56,
+  "start": 1501,
+  "end": 1513,
+  "speaker": "Pablo Srugo",
+  "en": "And the problem, the way it presented itself for those potential customers is they want to build agents. They want more AI agents doing more work for them, but they're prevented from doing so by the sort of stack that they're kind of working on top of.",
+  "zh": "而这个问题，对于那些潜在客户来说呈现出来的方式是，他们想构建智能体。他们想要更多的 AI 智能体为他们做更多的工作，但他们被阻碍了，因为他们所依赖的那套技术栈。"
+ },
+ {
+  "seg": 57,
+  "start": 1513,
+  "end": 1560,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, exactly. That was the thinking. And then we just kept pulling the thread, you know, because obviously when we were speaking to, you know, we had some mid-market customers early on in the pivot. They were like, that sounds cool. We can't possibly change our system of record. So then we needed to go, honestly, a little earlier. You know, we started speaking to YC companies. You know, we started speaking to seed stage companies, speed run companies. And they were like, if you like solve this problem correctly on day one, that's awesome. One, I would pay you way more than I pay for like a HubSpot or an Adio. And two, you know, we would be inclined to stay on this thing as long as you can keep up with our demands. I think that was the first time we were like, oh, interesting. There's actually like a new kind of wedge to solve the problem we want to solve.",
+  "zh": "是的，没错。这就是我们的想法。然后我们就一直顺着这条线索往下挖，你知道，因为很明显，当我们和……我们在转型早期有一些中型市场客户。他们是说，听起来不错，但我们不可能更换我们的系统级记录。所以老实说，我们需要往更早的阶段走。你知道，我们开始和 YC 公司交谈。你知道，我们开始和种子期公司、speed run 公司交谈。他们是说，如果你能从第一天起就正确地解决这个问题，那就太棒了。第一，我付给你的钱会比我付给 HubSpot 或 Adio 的多得多。第二，你知道，只要你能跟上我们的需求，我们就愿意一直用这个东西。我认为那是我们第一次说，哦，有意思。实际上有一种新的切入点来解决我们想解决的问题。"
+ },
+ {
+  "seg": 58,
+  "start": 1560,
+  "end": 1621,
+  "speaker": "Pablo Srugo",
+  "en": "I mean, the fundamental of any company, except for a few, few, few, few exceptions, but almost every company is a problem that is top of mind today, right now. And understanding, kind of like meeting the market where it's at. So you've got a lot of people who know fundamentally that HubSpot, Salesforce, like they're kind of the old school CRM and they're, you know, they're trying to move into this AI world, but they're not quite there. So I can imagine, you know, 25 year old, 22 year old, whatever, like YC founder, there's a mismatch between their expectations and the way that, you know, HubSpot works and feels. So they're kind of like there. And then you've got the enterprises that maybe are not greenfield, but they want to deploy as many AI agents inside and automate as many workflows as they can. And they're seeing kind of how they might get handcuffed in different places because some tools don't play nice with the others and it just breaks somewhere kind of along that funnel of kind of getting an end-to-end workflow done. And you're coming in at that time saying, we can solve that problem. Like we can make this magic happen for you.",
+  "zh": "我的意思是，除了少数、少数、少数、少数例外，任何公司的根本都是一个当下、此刻最被关注的问题，对吧？也就是理解、迎合市场所处的位置。所以有很多人从根本上知道 HubSpot、Salesforce 之类的，它们算是老派 CRM，你知道，它们在试图进入这个 AI 世界，但还没有完全到位。所以我可以想象，25 岁、22 岁，随便多大年龄的 YC 创始人，他们的期望和 HubSpot 的运作方式和体验之间存在不匹配。所以他们大概处在那个位置。然后你还有那些企业，它们也许不是 Greenfield，但它们想在内部部署尽可能多的 AI 智能体、自动化尽可能多的工作流。而他们开始看到自己可能在不同的地方被束缚住，因为有些工具和其他工具配合得不好，然后在打通端到端工作流的过程中就会在某个环节断掉。而你在那个时候进来，说，我们能解决这个问题。我们能为你让这个魔法发生。"
+ },
+ {
+  "seg": 59,
+  "start": 1621,
+  "end": 1683,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, exactly. In all honesty, we had that level of fidelity when we jumped into it and we found the true wedges six months in, you know, which is to say that, you know, now when we sell to a YC company, we're like, look, we're going to build out this whole system of record for you and the first problem we're going to solve for you that you care about is that we're going to help you do great pipeline generations by understanding the customers you have and helping you build relevant lists and helping you send compelling outreach to them. That's the first problem we're going to solve for you because you don't actually need a system of record right now. And then with our larger companies, we realize we solve different problems. It is the AI agents or in many cases, they're like, look, a big part of our company now is delivery, right, of, you know, implementation and we need perfect handoff between sales and implementation and Salesforce was never designed for FTEs. So I think, you know, now we've got that fidelity of like what pain do we attach to but we didn't quite have that at the moment of pivot.",
+  "zh": "是的，没错。老实说，我们跳进去的时候并没有那种程度的精准认知，是六个月后才找到真正的切入点，你知道，也就是说，现在当我们卖给一家 YC 公司时，我们是说，看，我们会为你搭建整套系统级记录，而我们要为你解决的你关心的第一个问题是，我们会帮助你做出色的 pipeline 生成，通过了解你已有的客户、帮你建立相关的名单、帮你可以向他们发送有吸引力的触达。那是我们要为你解决的第一个问题，因为你现在实际上还不需要一个系统级记录。而对于更大的公司，我们意识到我们解决的是不同的问题。它是 AI 智能体，或者在很多时候，他们是说，看，我们公司现在很大一部分是交付，对吧，就是实施交付，我们需要销售和实施之间完美的交接，而 Salesforce 从来不是为全职员工设计的。所以我想，现在我们已经清楚了要附着在什么痛点上，但在转型的那一刻我们还没有这种认知。"
+ },
+ {
+  "seg": 60,
+  "start": 1683,
+  "end": 1699,
+  "speaker": "Pablo Srugo",
+  "en": "Walk me through, especially, I assume, did you start with YC founders? Like is that the group you deployed to? How did you, because that wedge that you just talked about, I mean, you know, go to market tools that build pipeline and clay and whatever, like all that world. What did you find that was still missing that you guys solved?",
+  "zh": "带我走一遍，尤其是，我猜，你们是从 YC 创始人开始的吗？那是你们部署的群体吗？你们是怎么……因为刚才你谈到的那个切入点，你知道，构建 pipeline 的 go-to-market 工具、clay 之类的，整个那个世界。你们发现还有什么缺失的、而你们把它解决了？"
+ },
+ {
+  "seg": 61,
+  "start": 1699,
+  "end": 1753,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, it was sort of funny. I mean, we're in such a saturated world, right? If you sell to tech companies, those tech companies are getting assaulted with outbound, right? We sort of had this realization of cold should be your last resort. Like your first resort should be go find everyone you've spoken to in the past two years, you know, and try to reactivate them, you know, and get time with them. Then we're like, second, you should go like mine your network and your VC's networks, ask for intros. Then we're like, third, you should go find people talking about the problem you're going to solve on social, you know, and then you sort of keep going through that and you realize, wait a minute, to do that, I can't just buy Clay. I actually need a sort of complete network system of record to approach the problem in this way. And I think that was, that sort of tied the pain and the approach to what we were doing.",
+  "zh": "是的，挺有意思的。你知道，我们处在一个如此饱和的世界，对吧？如果你卖给科技公司，这些科技公司正在被外呼攻势轰炸，对吧？我们大概有过这样一个认识：冷触达应该是你的最后手段。你的第一手段应该是去找过去两年里你交谈过的每一个人，你知道，试着重新激活他们，争取和他们见面。然后我们是说，第二，你应该去挖掘你的网络和你投资人的网络，请求引荐。然后我们是说，第三，你应该去社交平台上找那些在谈论你要解决的问题的人，你知道，然后你顺着这个继续下去，你意识到，等等，要做到这些，我不能只买 Clay。我实际上需要一个完整的网络系统级记录来用这种方式解决问题。我认为就是把痛点和我们的做法联系起来的就是这个。"
+ },
+ {
+  "seg": 62,
+  "start": 1753,
+  "end": 1771,
+  "speaker": "Pablo Srugo",
+  "en": "So it's, it's a bit of a different view of like Clay and all these tools, these modern things, like they're very set up for a cold outbound. Like there's like run the absolute best cold outbound campaign. Your idea was run a different outbound campaign, not necessarily run a hot outbound if you can or a warm and we'll help you do that. And that's kind of where, that's maybe a little bit of the difference.",
+  "zh": "所以这是对 Clay 和所有这些工具、这些新东西的一种不太一样的看法，它们非常适合冷外呼。就是做绝对最好的冷外呼活动。你们的想法是做一个不同的外呼活动，不一定非要做冷外呼，如果可以的话做热外呼或温外呼，而且我们会帮你做到。这大概就是差别所在。"
+ },
+ {
+  "seg": 63,
+  "start": 1771,
+  "end": 1798,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, exactly. Like I think, I think building a startup, you know, it's a momentum game, right? We always tell folks, hey, if your company just raised a seed, you know, build momentum using every tool you have imaginable before you're relying on cold emails. You know, cold emails are something that works when you've got like a brand or if you're, you know, attacking a niche where other people aren't attacking. But we just sort of came up with this different approach while building out the system.",
+  "zh": "是的，没错。我想，构建一家初创公司，你知道，这是一场动量游戏，对吧？我们总是告诉人们，嘿，如果你的公司刚融了种子轮，你知道，在依赖冷邮件之前，用你能想到的每一种工具去建立动量。你知道，冷邮件是在你有品牌的时候、或者你在攻击一个别人没有在攻击的细分领域时才管用的东西。但我们在构建系统的过程中想出了这个不同的方法。"
+ },
+ {
+  "seg": 64,
+  "start": 1798,
+  "end": 1825,
+  "speaker": "Pablo Srugo",
+  "en": "So maybe it's a good point because we've got two kind of tactical areas we want to dive into. One of them is specifically how to sell into YC or Bay Area founders and it probably works for any kind of founder geography that you find yourself in. How to sell to founders. They're obviously a great set of early adopters for many different AI products. This is a strategy that could work for a lot of founders that are just starting off. But how did, how did you do it? What did you do special when it came to selling to these YC founders?",
+  "zh": "所以也许这是个好时机，因为我们有两个战术层面想深入探讨。一个具体是怎么卖给 YC 或湾区创始人，它可能也适用于你所处的任何创始人聚集地。怎么卖给创始人。他们显然是很多不同 AI 产品的优秀早期采用者群体。这是一个对很多刚起步的创始人都适用的策略。但是你是怎么做的？在卖给这些 YC 创始人时，你们做了什么特别的事？"
+ },
+ {
+  "seg": 65,
+  "start": 1825,
+  "end": 1886,
+  "speaker": "Keith Peiris",
+  "en": "We did a couple of things and the first thing I would say is as a founder, you should have good taste on how you want to be bothered, right? Because you're super busy. You're trying to make your company work and you're probably not going to respond to cold email. So the first thing I did is I reached out to folks over LinkedIn instead of email. This is something Lightfield does natively too so we sort of learned. And second, I never led with buy my product. I led with, hey, this is my background. I'm hosting a dinner. Do you want to come to this dinner? Or I led with, you're probably struggling getting go-to-market up and running. Most founders are not go-to-market founders. They're technical. Like we invited the CRO of HubSpot to come speak at our office. You can come hang out. We're not going to try to sell you anything. Or, you know, we brought the guy that wrote Predictable Revenue. You know, how did we get those people to our office? We found a list of great authors who are speakers and we're like, look, we'll buy your book for everyone that comes to this talk. We just need you to show up and hang out. And a lot of them are like, great, sure. If you buy 100 copies of my book, I'll show up. So we started doing that.",
+  "zh": "我们做了几件事，第一件我要说的是，作为一个创始人，你应该对“你希望以什么方式被打扰”有好的品味，对吧？因为你超级忙。你在努力让你的公司运转起来，你很可能不会回复冷邮件。所以我做的第一件事是通过 LinkedIn 而不是邮件去联系别人。这也是 Lightfield 原生支持的功能，所以我们算是学到了。第二，我从不以“买我的产品”开场。我以这样的方式开场，嘿，这是我的背景，我要办一个晚宴，你想来参加这个晚宴吗？或者我以这样的方式开场，你在让 go-to-market 跑起来这件事上大概很挣扎。大多数创始人不是 go-to-market 出身的创始人。他们是技术型的。比如我们邀请 HubSpot 的 CRO 来我们办公室演讲。你可以来交流，我们不会试图向你推销任何东西。或者，你知道，我们请来了写《Predictable Revenue》的那个人。你知道，我们是怎么把这些人请到我们办公室的？我们找到了一份优秀的作者兼演讲者的名单，我们是说，看，所有来参加这场分享的人，我们都会买你的书。我们只需要你到场和大家交流。他们很多人都说，好啊，行。如果你买 100 本我的书，我就到场。所以我们开始这么做了。"
+ },
+ {
+  "seg": 66,
+  "start": 1886,
+  "end": 1933,
+  "speaker": "Pablo Srugo",
+  "en": "So this is like a selling through events strategy. And the LinkedIn thing is interesting. On the one hand, I'm like, is that just a new channel that's going to get crowded like every other channel? Which it might. But the second piece of it is, because I'm thinking of myself, the nice thing about LinkedIn, which will always be true, is you're one click away from the profile. And so if you have some credibility, that's always going to be at least marginally better than something like email where it's just harder to know. Like, you're not going to take that long. Somebody messages you, you kind of like, ignore it. That's it, right? So on LinkedIn, somebody messages you, you might click on the profile, maybe, and then you're like, oh, this person is actually legit. Let's see what they said. You know what I mean? The fact is, it's probably less crowded, so that's part of it. But maybe that's the other side of that equation, which is, if you have credibility, you can exploit it a little bit better on LinkedIn.",
+  "zh": "所以这算是通过活动来销售的策略。LinkedIn 那个点挺有意思。一方面，我在想，这是不是一个会像所有其他渠道一样变得拥挤的新渠道？有可能会。但另一面是，因为我在想我自己，LinkedIn 好的一点，这一点永远成立，是你离那个人的资料只有一次点击的距离。所以如果你有一定的可信度，那总是至少会比邮件略好一点，因为邮件更难判断。你知道，你不会花太长时间。有人给你发消息，你大概就忽略了，就这样，对吧？而在 LinkedIn 上，有人给你发消息，你可能会点开他的资料，也许，然后你就说，哦，这个人其实挺靠谱的，看看他说了什么。你懂我的意思吧。事实上它可能没那么拥挤，所以这是其中一部分。但也许那是等式的另一面，就是，如果你有可信度，你在 LinkedIn 上可以更好地利用它。"
+ },
+ {
+  "seg": 67,
+  "start": 1933,
+  "end": 1973,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, yeah. That's totally right. The other thing that I did, I think if you sell complex software, it's very hard to get anyone to understand why your complex software is better than someone else's. So I think the short form that people use, they look for references. They look for customers they know to understand whether this is legit. And it turns out the easiest way to get good reference customers is to give your software away for free to a couple of people in that network and work hard until they're happy. So I would say our first 10 YC customers were not even customers. We're like, please use our software. Here's a Slack with us. We're going to make it better with you. And we're not going to stop until you're happy.",
+  "zh": "是的，是的。完全正确。我做的另一件事，我想，如果你卖复杂的软件，很难让任何人理解你的复杂软件为什么比别人家的好。所以我想人们用的那个简短方法是，他们找参考案例。他们找自己认识的客户来判断这是不是真的靠谱。而结果表明，拿到优质参考客户最简单的方法，就是把你的软件免费送给那个圈子里的一小部分人，然后努力工作直到他们满意。所以我要说，我们的前 10 个 YC 客户甚至都不算是客户。我们是说，请用我们的软件。这是我们共同的一个 Slack，我们会和你们一起把它做得更好。我们不会停下来，直到你们满意。"
+ },
+ {
+  "seg": 68,
+  "start": 1973,
+  "end": 1979,
+  "speaker": "Pablo Srugo",
+  "en": "And who did you go? Did you go after some really hot YC companies or just any? What kind of logos did you get through that strategy?",
+  "zh": "那你们去找了谁？你们是去追了一些很火的 YC 公司，还是随便找的？通过那个策略你们拿到了什么样的 logo？"
+ },
+ {
+  "seg": 69,
+  "start": 1979,
+  "end": 2006,
+  "speaker": "Keith Peiris",
+  "en": "We did a mix. We got a couple of hot ones. We got a couple of ones that were emerging. And we're like, we're just going to earnestly work towards making you happy. When they were happy, it turns out it's a highly networked group of people. They started posting. You know, in Telegram chats and Bookface and others. And then we started to get referrals. You know, and it was around that time that then we started to charge a little. You know, and we were able to sort of build out organically from there.",
+  "zh": "我们是混合着来的。我们拿到了几个很火的，也拿到了几个正在上升期的。我们是说，我们就是要真诚地努力让你们满意。当他们满意之后，结果发现这是一个联系高度紧密的群体。他们开始发帖。你知道，在 Telegram 群和 Bookface 之类的平台上。然后我们开始获得转介绍。你知道，大概就是在那个时候，我们开始收一点费了。你知道，我们从那里开始有机地发展起来。"
+ },
+ {
+  "seg": 70,
+  "start": 2006,
+  "end": 2023,
+  "speaker": "Pablo Srugo",
+  "en": "Now going back to the event strategy, you use LinkedIn to reach out, you use these kind of credible names to say, hey, like we work with, you know, XYZ, whatever. And then you get them into an event. So now, okay, fine, they're at an event. How does that translate into you getting more customers for your product? How did you do that final link?",
+  "zh": "现在回到活动策略，你用 LinkedIn 去联系，你用这些有分量的名字来说，嘿，我们和某某公司合作过之类的。然后你把他们拉到一场活动上。那么好，行，他们在活动上了。这是怎么转化为你为产品获得更多客户的？最后那一步你是怎么做的？"
+ },
+ {
+  "seg": 71,
+  "start": 2023,
+  "end": 2053,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, we were pretty honest about it. We're like, look, we brought the speaker here to talk about go-to-market. Just so you know, you know, we're building an agentic CRM. Let me show it to you for two minutes. And if you're interested in learning more, I've got like a computer in the back and I can give you a demo after. And it turned out the product demoed well. You know, we build good software. At the end of the night, you know, we always had 10, 20, 30 people that were like, show me what you're building. I'm interested. And that's sort of how it turned into something.",
+  "zh": "是的，我们对此相当坦诚。我们是说，看，我们把演讲嘉宾请到这里来聊 go-to-market。只是让你知道，你知道，我们在构建一个智能体 CRM。让我花两分钟给你展示一下。如果你想了解更多，我后面有台电脑，结束后我可以给你做个演示。结果发现这个产品演示效果很好。你知道，我们做的软件不错。到了晚上结束时，你知道，总是有 10 个、20 个、30 个人说，给我看看你们在做的东西，我感兴趣。大概就是这样把它变成了一个东西。"
+ },
+ {
+  "seg": 72,
+  "start": 2053,
+  "end": 2064,
+  "speaker": "Pablo Srugo",
+  "en": "And that's where you found the wedge of like, it's not just, oh, a new system of record that looks and works better. It's like, I'll help you land more customers through this new, like exploiting your, your, your existing network.",
+  "zh": "而那就是你们找到切入点的时刻，就是，它不只是，哦，一个新的、看起来更好用得也更好的系统级记录。而是，我会通过这个新方法帮你拿下更多客户，比如挖掘你现有的网络。"
+ },
+ {
+  "seg": 73,
+  "start": 2064,
+  "end": 2065,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, exactly.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 74,
+  "start": 2065,
+  "end": 2118,
+  "speaker": "Pablo Srugo",
+  "en": "It goes back to kind of the other points, but you know, the nature of the beast and all these things, any strategy, take this event strategy, you could run it for, you know, really any vertical. And you can probably for sure get a lot of that. In other words, you could do the email stuff as just a matter of time or whatever. If you have credibility, you might get the same or similar response rate. If you have good speakers, you might get the events. But if you don't solve a top of mind problem, you won't get them to use the product at the end of the day, right? Like you'll get the whole thing except the piece that matters. So you still, this is why the growth tactics are just tactics and they need to be put on top of something that at the core is really working. Frankly, changing the core is just so hard. I don't know that they're like, they don't see it or whatever. It's just like, you've got a core, you've built the core, you want it to just work. You're hoping you add a little thing like this and it's just going to take off. And if you're not solving top of my problem, like it's going to fail at some point in that funnel.",
+  "zh": "这又回到了其他那些点上，但你知道，这些事情的本质，任何策略，拿这个活动策略来说，你可以把它用在，你知道，几乎任何垂直领域。而且你肯定能拿到其中很多东西。换句话说，你可以做邮件那些事，只要花时间就行之类的。如果你有可信度，你可能会得到相同或相似的回复率。如果你有好演讲者，你可能会办成活动。但如果你不解决一个当下最被关注的问题，你最终不会让他们用上产品，对吧？就像你什么都能得到，唯独得不到那块真正要紧的。所以你仍然……这就是为什么增长战术只是战术，它们需要叠加在某个核心真正有效的系统之上。坦白说，改变核心实在太难了。我不知道是不是他们看不到之类的原因。就是这样，你有一个核心，你把核心建好了，你只希望它能运转。你希望加上像这样的一点小东西，它就能起飞。但如果你不解决当下最被关注的问题，它就会在那个漏斗的某个环节失败。"
+ },
+ {
+  "seg": 75,
+  "start": 2118,
+  "end": 2162,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, this is so true. It's funny. Now I have some friends that are building different kinds of systems of record, like an HRIS or a CRM vertical. It's so hard, I've found, to struggle when you have a platform because when you're building a platform, you sort of need to build horizontal capability first and then you very quickly have to figure out how to package the capability to find pain and solve pain. And it's just like a little bit of a different style of thinking than building the wedge first. And I feel like you have to go back and forth over and over and over again to make sure you don't overbuild the platform, underbuild the platform, overbuild for the wedge. And, you know, I feel like we change our mindset on that like every few months.",
+  "zh": "是的，这太对了。很有意思。现在我有一些朋友在做不同种类的系统级记录，比如 HRIS 或垂直 CRM。我发现，当你拥有一个平台时，挣扎是很难的，因为当你在构建一个平台时，你大概需要先构建横向能力，然后你很快就得搞清楚如何把能力包装起来去定位痛点、解决痛点。而这是和先构建切入点稍微不一样的一种思维方式。而且我觉得你必须反复地、一遍又一遍地来回调整，确保平台不构建过度、平台不构建不足、切入点不构建过度。而且你知道，我感觉我们每隔几个月就会在这个问题上的心态变一次。"
+ },
+ {
+  "seg": 76,
+  "start": 2162,
+  "end": 2204,
+  "speaker": "Pablo Srugo",
+  "en": "So the other tactical kind of deep dive I want to do is launch videos. So how would it make a launch video hit a million views every time you've had at least four, I believe, launch videos that have hit over a million views these days? I think since the Clueli era, everybody wants to make a great launch video. I saw one for like the Whisperflow notetaker go crazy viral recently, but they already, you know, they have a massive following. So it's probably easier for them than the average person. What have you learned doing these videos? Like, put it this way. Like, I'm a founder. I'm like, yeah, I've got this product. It's a solid product. Believe me. I want to have the absolute best odds that when I make this video, it hits a million views. Like, step by step, what should I do?",
+  "zh": "那么我想做的另一个战术层面的深挖是发布视频。那么你是怎么做到让一个发布视频每次都能达到一百万播放量的？我相信你们最近至少有四个发布视频播放量超过了一百万？我想自从 Clueli 时代以来，每个人都想做出一支出色的发布视频。我最近看到一个像 Whisperflow 笔记应用的视频疯狂传播，但他们你知道的，他们已经有庞大的粉丝群了。所以对他们来说可能比普通人容易。做这些视频你们学到了什么？这么说吧。我是一个创始人。我是说，是，我有这个产品，它是个不错的产品，相信我。我想让我做这个视频时拥有一流的命中率，让它达到一百万播放量。一步一步地，我应该怎么做？"
+ },
+ {
+  "seg": 77,
+  "start": 2204,
+  "end": 2292,
+  "speaker": "Keith Peiris",
+  "en": "It's kind of a product of the company. What do I mean by that? It's very hard to make a video that goes viral for everyone. I mean, you can and there's plenty of cases for it, but I find that what we were looking for, we actually weren't optimizing for a million views. We were optimizing for the people in our ICP feel something when they watch this. And we're like, we need to define this so narrowly so that we can validate if this is true. And in our case, at the time, a year ago, our ICP is different now. We were like, we have to hit a B2B pre-seed founder creator who is on the cusp of finding product market fit. And we need to write a story that emotionally resonates with this person. And we don't care if a late-stage CRO takes this seriously or not. We are going to go very, very narrow and make sure it works. That's sort of the first step. The second is, in our case, this is our taste. You know, we wanted to make it more about the story and the hero's journey than just a product demo. Because, you know, at this point, everyone's got product demos and they all have agents and they all kind of look the same. So we're like, it's really about the hero's arc. And then third, I think the bar to do a video is very high now in terms of production. So we spent a lot of time, the creative at our company, he's like interviewed a lot of directors, looked at lots of styles, looked at lots of videographers. It was a full-time project.",
+  "zh": "它在某种程度上是公司自身的产物。我这是什么意思？很难做一个对所有人都能病毒式传播的视频。我是说，你可以做到，而且有很多这样的案例，但我发现我们在寻找的，我们实际上并不是在优化一百万播放量。我们是在优化让 ICP 里的人看这个视频时有感觉。我们是说，我们需要把这个定义得非常窄，这样我们才能验证这是不是真的。在我们的例子里，一年前的时候，我们的 ICP 现在不一样了。我们是说，我们必须击中一个正处于找到产品市场契合边缘的 B2B 种子前创始人创作者。我们需要写一个能与这个人情感共鸣的故事。我们不在乎一个后期阶段的 CRO 是否把它当回事。我们要走得非常、非常窄，并确保它有效。这大概是第一步。第二，在我们的例子里，这是我们的品味。你知道，我们想让它更多是关于故事和英雄之旅，而不只是一个产品演示。因为你知道，到了这个阶段，人人都有产品演示，他们全都有智能体，他们全都看起来差不多。所以我们是说，关键是英雄的弧线。然后第三，我认为现在做视频的门槛，就制作而言，非常高。所以我们花了大量时间，我们公司的创意负责人，他面试了很多导演，看了很多风格，看了很多摄像师。这是一个全职项目。"
+ },
+ {
+  "seg": 78,
+  "start": 2292,
+  "end": 2296,
+  "speaker": "Pablo Srugo",
+  "en": "What's the budget, realistically, time and dollars, if you want to make a video like this?",
+  "zh": "预算是多少，实际一点，时间和金钱，如果你想做一个这样的视频？"
+ },
+ {
+  "seg": 79,
+  "start": 2296,
+  "end": 2299,
+  "speaker": "Keith Peiris",
+  "en": "We spent two months on it and it's low six figures.",
+  "zh": "我们花了两个月，费用是低六位数。"
+ },
+ {
+  "seg": 80,
+  "start": 2299,
+  "end": 2301,
+  "speaker": "Pablo Srugo",
+  "en": "For like a minute video, I assume?",
+  "zh": "大概是一分钟的视频，我猜？"
+ },
+ {
+  "seg": 81,
+  "start": 2301,
+  "end": 2314,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, I think it was like a minute, probably like a minute 30, two minutes. And honestly, the first 10 takes were not great. Yeah. You sort of have to like grind and grind and grind until it looks good.",
+  "zh": "是的，我想大概一分钟，大概一分半到两分钟。而且说实话，前 10 版都不怎么样。是的。你大概得反复打磨、打磨、再打磨，直到它看起来不错。"
+ },
+ {
+  "seg": 82,
+  "start": 2314,
+  "end": 2320,
+  "speaker": "Pablo Srugo",
+  "en": "And great to who? Like this is you guys watching it and being like, ah, it's not good enough? Or is there some way to kind of test it?",
+  "zh": "对谁来说好？就是你们自己看着说，啊，还不够好？还是有什么测试的方法？"
+ },
+ {
+  "seg": 83,
+  "start": 2320,
+  "end": 2327,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, I mean, for us, we just showed it to people who we want to sell to. We're like, what do you think of this? You know, do you like this?",
+  "zh": "是的，对我们来说，我们就把它放给我们想卖的人看。我们是说，你觉得这个怎么样？你知道，你喜欢这个吗？"
+ },
+ {
+  "seg": 84,
+  "start": 2327,
+  "end": 2331,
+  "speaker": "Pablo Srugo",
+  "en": "And people were honest. I mean, most people would be like, oh yeah, it's good. It's nice. Yeah, I like it. Like, no?",
+  "zh": "而且人们很诚实。我是说，大多数人会说，哦是的，不错，挺好的。是的，我喜欢。是吗？"
+ },
+ {
+  "seg": 85,
+  "start": 2331,
+  "end": 2385,
+  "speaker": "Keith Peiris",
+  "en": "You could start to push. You're like, you know, would you share this on launch day? You know, do you want to buy this product? What do you like about it? You know, and you can start to sort of tease it out. It was like a full-time effort to drive this thing. And then when we started to like it, and it took a lot of iterations, then you have to come up with a distribution plan, right? For us, it was, you know, find all of our angel investors, find all of our customers, ask our friends, our spouses, be like, look, we're going to put this thing out, you know, on Thursday morning. I'm going to send you a calendar invite. We're going to send you a post. I need you to like it, comment it, reshare, all at the same time. And you just, you just go hard as far as you can. It's like, it's one of the three favors that you're going to ask your entire network to your company up and running. And you have to do it all at once to sort of hit the algorithm.",
+  "zh": "你可以开始追问。你是说，你知道，你会在发布日转发这个吗？你知道，你想买这个产品吗？你喜欢它的什么？你知道，你可以开始把它一点点追问出来。推动这件事本身就像一份全职工作。然后当我们开始喜欢它了，而且这花了很多次迭代，那你就得想出一个分发计划，对吧？对我们来说，是，你知道，找出所有我们的天使投资人，找出所有我们的客户，拜托我们的朋友、我们的配偶，是说，看，我们要在周四早上把这个东西发出去。我会给你发一个日历邀请。我们会把帖子发给你。我需要你点赞、评论、转发，全都在同一时间。然后你就，你就尽全力往前冲。这就像，这是你要为让公司运转起来向整个关系网请求的三大人情之一。而且你必须全部同时进行，才能打到算法上。"
+ },
+ {
+  "seg": 86,
+  "start": 2385,
+  "end": 2392,
+  "speaker": "Pablo Srugo",
+  "en": "How many people, realistically, do you need to have actually engage with or reach out to for this to make a dent?",
+  "zh": "实际上，你需要联系多少人真正参与或响应，才能产生效果？"
+ },
+ {
+  "seg": 87,
+  "start": 2392,
+  "end": 2398,
+  "speaker": "Keith Peiris",
+  "en": "You know, we probably reached out to like 500 or so people asking for this favor.",
+  "zh": "你知道，我们大概联系了 500 人左右请求这个帮忙。"
+ },
+ {
+  "seg": 88,
+  "start": 2398,
+  "end": 2403,
+  "speaker": "Pablo Srugo",
+  "en": "Of which, obviously, some percentage actually do, but let's say 200 people or so engage, engage in the post as soon as it goes live.",
+  "zh": "其中显然有某个比例的人真的照做了，但假设 200 人左右在帖子发出的瞬间参与了互动。"
+ },
+ {
+  "seg": 89,
+  "start": 2403,
+  "end": 2421,
+  "speaker": "Keith Peiris",
+  "en": "Yeah, exactly. And you do it all at once. You have to be as coordinated as possible. You have to send everyone reminders. If you do all of the above, you have a chance. It doesn't mean that you'll get it. It might be a day that Anthropic puts out something or there's like a, there's like a big world event, but you sort of have a chance.",
+  "zh": "是的，没错。而且你们要同时进行。你必须尽可能协调一致。你必须给每个人发提醒。如果你做到了以上所有，你就有机会。这不代表你一定能做到。可能那天 Anthropic 发了什么东西，或者有一个什么重大的世界事件，但你大致是有机会的。"
+ },
+ {
+  "seg": 90,
+  "start": 2421,
+  "end": 2435,
+  "speaker": "Pablo Srugo",
+  "en": "Tell me a bit more about, because it goes back to this kind of marketing product thing. That's the marketing side, but the product, the video, what makes a great video? Like, you know, tell me a bit more about that. So if I'm thinking about making one and I just haven't done it, I mean, obviously, I'm going to watch some videos and stuff, but what should I be thinking about?",
+  "zh": "再多讲一些，因为它又回到了这个营销产品的问题。那是营销那一面，但产品、视频，什么造就一支出色的视频？你知道，多讲一点吧。如果我在考虑做一个而我又没做过，我的意思是，显然我会去看一些视频之类的，但我应该思考些什么？"
+ },
+ {
+  "seg": 91,
+  "start": 2435,
+  "end": 2490,
+  "speaker": "Keith Peiris",
+  "en": "I think you just have to have a really detailed sense of the aha moment in your product. And it's funny, it's the same problem with activation, right? You know, if someone goes through your product, like, how do you get them to the aha moment quickly? I think it's the same thing with the video. You're like, okay, unless I'm making like a, you know, like a world model or a video product, you know, I'm building a productivity tool. You know, it isn't going to be as exciting necessarily, you know, the best stuff on X today, but what is that moment of emotional resonance? What is that moment of, oh, this is neat, you know, and you have to talk to your customers. They probably won't be able to tell you exactly what it is, you know, and you're going to have to like take it and think about it and figure out like, how do I do a cut scene of this product such that I can get it to shine for the five seconds that someone stares at this thing?",
+  "zh": "我认为你必须对你的产品里的“啊哈时刻”有非常细致的把握。有意思的是，这和激活是同一个问题，对吧？你知道，如果有人使用你的产品，你怎么让他们快速到达那个“啊哈时刻”？我认为视频也是同一件事。你会想，好，除非我做的是一个，你知道，像世界模型或视频产品，你知道，我做的是一个生产力工具。你知道，它不一定会有那么激动人心，你知道，比不上今天 X 上最好的内容，但那个情感共鸣的时刻是什么？那个“哦，这个真巧妙”的时刻是什么？你知道，而且你必须和你的客户聊。他们可能没法准确告诉你那是什么，你知道，你得自己去消化、思考，搞清楚，我怎么给这个产品做一个剪切镜头，让它能在别人盯着它的那五秒钟里闪闪发光？"
+ },
+ {
+  "seg": 92,
+  "start": 2490,
+  "end": 2496,
+  "speaker": "Pablo Srugo",
+  "en": "Maybe, what did you end up with, for example, for your product? Like what, out of one of the videos, like tell me just a little bit more just to make it tangible.",
+  "zh": "比如说，你们最终为自己的产品想出了什么？就是，在哪一支视频里，多讲一点，让它具体一点。"
+ },
+ {
+  "seg": 93,
+  "start": 2496,
+  "end": 2579,
+  "speaker": "Keith Peiris",
+  "en": "For our ICP at the time, we were like, you just made a product that people love. You haven't figured out how to sell it. That was sort of the angle we wanted to go at, you know, and I think these things all fit together. Our video was actually about a founder. You know, he was building a piece of software to sell the construction companies. We went through the like, the sort of like emotional arc of his first sales call, the guy ignores him. His second sales call sort of gets told to come back next quarter. He just hasn't figured out how to sell this thing yet, even though he knows that his customers love it. And we were like, how can Lightfield tap into this and help him solve this problem? So in the journey of the story, he's like sitting there with his co-founder querying Lightfield. Eventually, Lightfield was like, have you thought about framing the problem this way in your discovery calls? It's funny. It's just a chat interaction. There's like nothing flashy about it, right? But if you're a founder going through that, you're like, wait a minute. That is the revelatory moment that I've been waiting for for the past few months. And we found like showing the product as a friend or a tool that you can use to figure out that unlock. It's funny. We showed it to a founder in the office one day and sort of tears came into his eyes. And we were like, oh, this is it. You know, this is the sort of thing that we have to like build the video around.",
+  "zh": "对于我们当时的 ICP，我们是说，你刚做了一个大家喜爱的产品。你还没搞清楚怎么卖它。那大概是我们想切入的角度，你知道，而且我觉得这些东西都是环环相扣的。我们的视频实际上是关于一个创始人的。你知道，他在做一个软件卖给建筑公司。我们经历了他的第一通销售电话那种情感弧线，对方无视了他。他的第二通销售电话被搪塞说下个季度再来。他就是还没搞清楚怎么卖这个东西，尽管他知道他的客户喜爱它。然后我们是说，Lightfield 怎么能介入这个并帮他解决这个问题？所以在故事的旅程中，他和他的联合创始人坐在那里，查询 Lightfield。最终，Lightfield 说，你有没有想过在你们的 discovery 电话里换一种方式来框定这个问题？有意思的是，它就是一次聊天交互。没有任何炫技的东西，对吧？但如果你是一个正在经历这些的创始人，你会说，等等，这就是我过去几个月一直在等的那顿悟时刻。而且我们发现，把产品展示成一个朋友、一个你可以用来找到那个解锁点的工具。有意思的是，有一天我们给办公室里的一位创始人看，他眼里泛起了泪光。然后我们是说，哦，就是这个。你知道，这就是我们必须围绕它来构建视频的那种东西。"
+ },
+ {
+  "seg": 94,
+  "start": 2579,
+  "end": 2587,
+  "speaker": "Pablo Srugo",
+  "en": "How much do you worry about the first five seconds, the first 10 seconds just to get somebody even giving you a chance to watch the whole video and get to that moment?",
+  "zh": "你有多担心前五秒、前十秒，就是为了让有人愿意给你机会看完整支视频、走到那一刻？"
+ },
+ {
+  "seg": 95,
+  "start": 2587,
+  "end": 2597,
+  "speaker": "Keith Peiris",
+  "en": "Honestly, we didn't worry about him that much. We were like, we just need to make a compelling story that goes somewhere and a post that makes people curious.",
+  "zh": "老实说，我们没那么担心这个。我们是说，我们只需要讲一个有吸引力的、有走向的故事，再加一条让人好奇的帖子。"
+ },
+ {
+  "seg": 96,
+  "start": 2597,
+  "end": 2610,
+  "speaker": "Pablo Srugo",
+  "en": "It's not the classic, like if you listen to people do like, you know, YouTube short form type videos, like they'll tell you, like if you don't hook somebody in the first two seconds, you know, nobody cares about, you know, second 30, nobody's watching. So it's a different kind of viewpoint on it.",
+  "zh": "这不是那种经典说法，如果你听那些做 YouTube 短视频类型内容的人讲，他们会告诉你，如果你不能在前两秒抓住某个人，你知道，没人在乎第三十秒，没人会看下去。所以这是一个不太一样的视角。"
+ },
+ {
+  "seg": 97,
+  "start": 2610,
+  "end": 2648,
+  "speaker": "Keith Peiris",
+  "en": "Yeah. And it was funny, I think, you know, part of it is we tried, my co-founder, Henry, was really instrumental in this. We tried doing the version where you, it became like sizzly in five, 10 seconds and then it just like wasn't a compelling story, you know, and we were like, actually, we should just focus on making this a compelling story. You know, whatever happens, happens, which is kind of a funny mindset, right? And I think in many, many ways, it's sort of how you can run a startup. All you can do is build the best product you can, work as hard as you can, right? You know, whatever happens, happens with the market. And I think that was sort of our view with the video as well.",
+  "zh": "是的。而且有意思，我想，你知道，其中一部分是我们试过，我的联合创始人 Henry 在这件事上起了很大作用。我们试过那种版本，让它在五、十秒内变得抓人，然后它就不是个有吸引力的故事了，你知道，然后我们是说，其实，我们就应该专注于把它做成一个有吸引力的故事。你知道，该发生什么就发生什么，这算是一个挺有意思的心态，对吧？而且我觉得在很多很多方面，这也是你可以运营一家初创公司的方式。你所能做的就是尽你所能做出最好的产品，尽可能努力地工作，对吧？你知道，市场那边该发生什么就发生什么。而我觉得我们对视频的看法也是这样。"
+ },
+ {
+  "seg": 98,
+  "start": 2648,
+  "end": 2658,
+  "speaker": "Pablo Srugo",
+  "en": "Keith, well, that's a great point to end. Let me ask the question we tend to end on, which is, what's like the top piece of advice you would give an early stage founder that is looking for product market fit still?",
+  "zh": "Keith，好，这是一个很好的收尾点。让我问那个我们通常用来收尾的问题，就是，你会给一个还在寻找产品市场契合的早期创始人什么样的、最顶级的建议？"
+ },
+ {
+  "seg": 99,
+  "start": 2658,
+  "end": 2693,
+  "speaker": "Keith Peiris",
+  "en": "I would give a hot take, which is that, you know, I think everyone says, keep talking to customers, keep finding what your users care about. I think a startup is a deeply personal thing. And I think the most valuable thing I've learned in the past few years is you have to build a company, a product and service that you love and that moves you emotionally so that you can work on it every single waking hour. And if you are that obsessed about something, it turns out that there will be customers in the world that are as obsessed as you. So I was thinking, like, like really connect it to, is this what you want to do?",
+  "zh": "我会给一个火辣的观点，就是，你知道，我觉得人人都在说，持续和客户交谈，持续发掘你的用户在乎什么。我认为一家初创公司是一件非常个人化的事。我认为过去几年里我学到的最有价值的一课是，你必须构建一个你热爱的、能在情感上打动你的公司、产品和服务，这样你才能在每个清醒的时刻都为它工作。而如果你对某样东西如此痴迷，结果表明，这个世界上会有和你一样痴迷的客户。所以我一直在想，要真正地和自己确认，这是你真正想做的事吗？"
+ },
+ {
+  "seg": 100,
+  "start": 2693,
+  "end": 2696,
+  "speaker": "Pablo Srugo",
+  "en": "Perfect. Well, Keith, appreciate having you on the show, man. It's been great.",
+  "zh": "好。Keith,感谢你来上节目,哥们。非常棒。"
+ },
+ {
+  "seg": 101,
+  "start": 2696,
+  "end": 2698,
+  "speaker": "Keith Peiris",
+  "en": "Thank you. Great, great being here.",
+  "zh": "谢谢。很荣幸来到这里。"
+ },
+ {
+  "seg": 102,
+  "start": 2698,
+  "end": 2743.6,
+  "speaker": "Pablo Srugo",
+  "en": "Listen, when you go to like a restaurant, you eat a nice, you know, meal, maybe a fancy one, maybe not. Do you leave a tip? I assume you probably leave a tip. You probably leave a tip 100% of the time. Well, guess what? A review is just like a tip and I know you haven't been leaving one. So just like the waiter that doesn't get a tip after hours of great service, I'm getting a little frustrated. So take your phone out and leave a review. It helps the show move up rankings. It helps us get better guests. It doesn't just help me. It helps way more founders. Thank you.",
+  "zh": "听着,当你去一家餐厅,吃了一顿不错的,你知道的,饭,也许是高档的,也许不是。你会留小费吗?我猜你大概会留小费。你很可能 100% 的次数都会留小费。那么你猜怎么着?一条评价就像小费一样,我知道你一直没留。所以就像那个服务了好几个小时却没拿到小费的服务员一样,我有点沮丧了。所以拿出你的手机,留一条评价吧。它帮助节目提升排名。它帮助我们请到更好的嘉宾。它不只是帮了我。它帮到了更多的创业者。谢谢。"
+ }
+]

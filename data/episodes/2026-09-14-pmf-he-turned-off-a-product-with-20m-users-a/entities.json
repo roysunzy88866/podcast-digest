@@ -1,0 +1,649 @@
+{
+  "episode_id": "2026-09-14-pmf-he-turned-off-a-product-with-20m-users-a",
+  "podcast": "The Product Market Fit Show",
+  "date": "2026-09-14",
+  "tags": [
+    "创业转型",
+    "AI 原生 CRM",
+    "销售与 GTM",
+    "指标与留存",
+    "发布视频"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "keith-peiris",
+      "type": "person",
+      "role": "host",
+      "name": "Keith Peiris",
+      "file": "Keith Peiris",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "lightfield",
+      "type": "company",
+      "role": "company",
+      "name": "Lightfield",
+      "file": "Lightfield",
+      "primary": true,
+      "how_described": "本集主角:Tome 转型后的新公司,AI 原生 CRM,为还没用 CRM 的新公司重造系统记录,让智能体拿到做出色工作所需的客户数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            91,
+            144
+          ],
+          "quote": "Dude, this is going to be exciting one. I mean, man, you just went through a big shift, which we're going to go into here. Company changed names from Tome to Lightfield and you're focused on something different. I mean, today you're an AI first, AI native CRM, right? In a way, you look at the earnings calls like HubSpot, Salesforce, like you're what they're scared of, right? You're coming for them amongst other things. So we're going to talk about what you build, how you're building it, why it's different and all these sort of pieces. But let's start with the product market fit moment. And I'm sure you have multiple because you had the old journey, which you went and you raised a Series B, like a $43 million Series B, only kind of old product. And then since pivoting, you've now closed a $45 million Series A. So multiple PMF moments. But tell me about when, after you launched Lightfield, when was the moment when you felt like, this is worth paving into because it's working so well, there's so much demand.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 9,
+          "t": [
+            144,
+            231
+          ],
+          "quote": "So it was actually, I would say the moment before scale, which is to say with our previous company, we got lots of users. I mean, they had like 20 million users. But the thing that was missing was that, you know, it wasn't like an indispensable part of anyone's life. If I asked our customers, what would happen if we took this away? I think they would be like, yeah, be a little sad. I'd go back to Google Slides. With Lightfield, the thing that got us excited was, you know, a CRM is a lot of work. We're nowhere near done. We're like a year, two and a half. And we're still missing a lot of stuff. We're catching up. But we built the earliest version of Lightfield in about three months. And we started asking customers to use it. At the time, it was friends. It was extended network. And even though it was missing like 99% of the features that Salesforce and HubSpot had, we had customers in it every day. And on the flip side, they had a lot of feedback. Just to compare with Tome, with Tome, we had lots and lots of users and none of them cared enough about the product to give us feedback. Whereas with Lightfield, our slacks were lit up, you know, 24-7, 365, about stuff that could be better, stuff we need to fix, stuff that could be different. And we were like, oh, this means that someone cares about this problem. Like our customers are using this all the time. They're hopping mad at us about the things that we got wrong. There's enough care here that maybe there's something here.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 13,
+          "t": [
+            274,
+            454
+          ],
+          "quote": "Yeah, yeah. We were actually on sort of similar trajectories and more power to them. They did great work and executed, but we just didn't like where it was going. And I think deep down at a human level, you're like, we want to make pro tools used by sophisticated users and we want them to like rely on it every day. And we just couldn't see a path for Tome to turn into that. What was funny about the pivot to Lightfield was that we went on this journey with Tome being like, all right, how do we turn this into a serious work tool? And we just followed the journey of who makes a lot of decks, who's in the product the most. It turned out it was sales and marketing folks. So we sort of followed them in. We asked them, hey, could we do a pilot? Can we do some discovery with you? And we found our way into probably 10 companies where they were like, okay, you know, you guys are good at making product. You know, Tome is cool. Let's do a pilot. Maybe you can build decks for us. And when we got there, it was so funny. With all 10 of them, within a few weeks, everyone lost interest in us making decks. They were like, this isn't that big of a problem. We all use templates. We just fill them out. We don't know if we care. Maybe you can do some other things. So we sort of got pulled in, you know, doing things like account research, building proposals, responding to RFPs, writing emails. We just got pulled out of the slide space instantly. And that was the first sign of, wait a minute, maybe we can't sell this presentation product into companies. And then when we were there, we started to ask like, okay, to do all of these things well, like proposals and account research, whatever, what do we need? And at that time, I was like, oh, I assume I just connect to Salesforce and we'll have everything we need and we'll be able to do this work. And it turns out that what you need is not in the traditional CRM to do great generative AI work. It's sort of spread everywhere. It's in your call recorder. It's in your email. It's in your Slack. It's in your data warehouse. We found that it was such a struggle to combine these different types of data because it's super inconsistent, right? Like what the sales rep wrote in Salesforce doesn't match what's in the meeting or what's in the email or what's in the data warehouse. And they're all using different entities. They're all using different paths. We're like, wait a minute, this actually seems like a more important problem, you know, creating like a single source of truth on a customer, you know, inside of a company. And we're like, this seems really important because you're going to have agents all over the place. And if they're a little misaligned, they're going to create bad work. And also companies are getting a little smaller and a little flatter. So it makes sense to build a system where everyone can be aligned and connected to truth. So I think those feelings made us believe, hey, maybe this is a bigger opportunity.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 23,
+          "t": [
+            684,
+            758
+          ],
+          "quote": "Yeah, exactly. Exactly. It could be that you've got the right platform, you know, with the data, you know, with the infrastructure and you can build something else. Or maybe you just got a great team, right? And that's your asset and you can figure out what to build next. But I think it really depends on like what you want out of it. Because at that time, you know, when we were adding a million users a month or two million users a month, there probably was a way to get a soft landing for the team, you know, where investors make a little bit of money, the team does okay. We all go work at some big corporation for a couple years and then come out and do the next thing. And that was like top of mind for me. But the thing that actually really pushed me, it was one of my board members, Dan, who's on the board of Lightfield now, because of this advice, he was like, these technology super cycles, they don't happen every day, right? You know, this is the sort of thing that happens like once a decade or once every two decades. And he's like, you're so early. You know, at the time, we were like two years in and he was like, you have a lot of capital, you've got an incredible team. You know, if you go and take the like, the soft landing, you're going to be stuck there for two to four years. You're going to come out and this thing will be over.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 65,
+          "t": [
+            1825,
+            1886
+          ],
+          "quote": "We did a couple of things and the first thing I would say is as a founder, you should have good taste on how you want to be bothered, right? Because you're super busy. You're trying to make your company work and you're probably not going to respond to cold email. So the first thing I did is I reached out to folks over LinkedIn instead of email. This is something Lightfield does natively too so we sort of learned. And second, I never led with buy my product. I led with, hey, this is my background. I'm hosting a dinner. Do you want to come to this dinner? Or I led with, you're probably struggling getting go-to-market up and running. Most founders are not go-to-market founders. They're technical. Like we invited the CRO of HubSpot to come speak at our office. You can come hang out. We're not going to try to sell you anything. Or, you know, we brought the guy that wrote Predictable Revenue. You know, how did we get those people to our office? We found a list of great authors who are speakers and we're like, look, we'll buy your book for everyone that comes to this talk. We just need you to show up and hang out. And a lot of them are like, great, sure. If you buy 100 copies of my book, I'll show up. So we started doing that.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 93,
+          "t": [
+            2496,
+            2579
+          ],
+          "quote": "For our ICP at the time, we were like, you just made a product that people love. You haven't figured out how to sell it. That was sort of the angle we wanted to go at, you know, and I think these things all fit together. Our video was actually about a founder. You know, he was building a piece of software to sell the construction companies. We went through the like, the sort of like emotional arc of his first sales call, the guy ignores him. His second sales call sort of gets told to come back next quarter. He just hasn't figured out how to sell this thing yet, even though he knows that his customers love it. And we were like, how can Lightfield tap into this and help him solve this problem? So in the journey of the story, he's like sitting there with his co-founder querying Lightfield. Eventually, Lightfield was like, have you thought about framing the problem this way in your discovery calls? It's funny. It's just a chat interaction. There's like nothing flashy about it, right? But if you're a founder going through that, you're like, wait a minute. That is the revelatory moment that I've been waiting for for the past few months. And we found like showing the product as a friend or a tool that you can use to figure out that unlock. It's funny. We showed it to a founder in the office one day and sort of tears came into his eyes. And we were like, oh, this is it. You know, this is the sort of thing that we have to like build the video around.",
+          "speaker": "Keith Peiris"
+        }
+      ]
+    },
+    {
+      "id": "tome",
+      "type": "company",
+      "role": "company",
+      "name": "Tome",
+      "file": "Tome",
+      "primary": true,
+      "how_described": "本集说的旧产品:AI 演示文稿工具,2000 万用户、个位数百万美元 ARR、NDR 约 20%,『拿走测试』下用户只会回到 Google Slides,最终被关掉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            91,
+            144
+          ],
+          "quote": "Dude, this is going to be exciting one. I mean, man, you just went through a big shift, which we're going to go into here. Company changed names from Tome to Lightfield and you're focused on something different. I mean, today you're an AI first, AI native CRM, right? In a way, you look at the earnings calls like HubSpot, Salesforce, like you're what they're scared of, right? You're coming for them amongst other things. So we're going to talk about what you build, how you're building it, why it's different and all these sort of pieces. But let's start with the product market fit moment. And I'm sure you have multiple because you had the old journey, which you went and you raised a Series B, like a $43 million Series B, only kind of old product. And then since pivoting, you've now closed a $45 million Series A. So multiple PMF moments. But tell me about when, after you launched Lightfield, when was the moment when you felt like, this is worth paving into because it's working so well, there's so much demand.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 9,
+          "t": [
+            144,
+            231
+          ],
+          "quote": "So it was actually, I would say the moment before scale, which is to say with our previous company, we got lots of users. I mean, they had like 20 million users. But the thing that was missing was that, you know, it wasn't like an indispensable part of anyone's life. If I asked our customers, what would happen if we took this away? I think they would be like, yeah, be a little sad. I'd go back to Google Slides. With Lightfield, the thing that got us excited was, you know, a CRM is a lot of work. We're nowhere near done. We're like a year, two and a half. And we're still missing a lot of stuff. We're catching up. But we built the earliest version of Lightfield in about three months. And we started asking customers to use it. At the time, it was friends. It was extended network. And even though it was missing like 99% of the features that Salesforce and HubSpot had, we had customers in it every day. And on the flip side, they had a lot of feedback. Just to compare with Tome, with Tome, we had lots and lots of users and none of them cared enough about the product to give us feedback. Whereas with Lightfield, our slacks were lit up, you know, 24-7, 365, about stuff that could be better, stuff we need to fix, stuff that could be different. And we were like, oh, this means that someone cares about this problem. Like our customers are using this all the time. They're hopping mad at us about the things that we got wrong. There's enough care here that maybe there's something here.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 11,
+          "t": [
+            241,
+            272
+          ],
+          "quote": "Yeah, it's so funny. I could talk to you about like the 20 metrics that I looked at that made me believe that, you know, Tome wasn't working. But honestly, the thing that like we really wrestled with is, hey, this is a presentations product and it's never going to be capable of making amazing presentations. It was just missing the context. It was missing the data structure. It was missing so much that we were like, this thing will never grow up and be used by the people that are incredible at making decks.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 13,
+          "t": [
+            274,
+            454
+          ],
+          "quote": "Yeah, yeah. We were actually on sort of similar trajectories and more power to them. They did great work and executed, but we just didn't like where it was going. And I think deep down at a human level, you're like, we want to make pro tools used by sophisticated users and we want them to like rely on it every day. And we just couldn't see a path for Tome to turn into that. What was funny about the pivot to Lightfield was that we went on this journey with Tome being like, all right, how do we turn this into a serious work tool? And we just followed the journey of who makes a lot of decks, who's in the product the most. It turned out it was sales and marketing folks. So we sort of followed them in. We asked them, hey, could we do a pilot? Can we do some discovery with you? And we found our way into probably 10 companies where they were like, okay, you know, you guys are good at making product. You know, Tome is cool. Let's do a pilot. Maybe you can build decks for us. And when we got there, it was so funny. With all 10 of them, within a few weeks, everyone lost interest in us making decks. They were like, this isn't that big of a problem. We all use templates. We just fill them out. We don't know if we care. Maybe you can do some other things. So we sort of got pulled in, you know, doing things like account research, building proposals, responding to RFPs, writing emails. We just got pulled out of the slide space instantly. And that was the first sign of, wait a minute, maybe we can't sell this presentation product into companies. And then when we were there, we started to ask like, okay, to do all of these things well, like proposals and account research, whatever, what do we need? And at that time, I was like, oh, I assume I just connect to Salesforce and we'll have everything we need and we'll be able to do this work. And it turns out that what you need is not in the traditional CRM to do great generative AI work. It's sort of spread everywhere. It's in your call recorder. It's in your email. It's in your Slack. It's in your data warehouse. We found that it was such a struggle to combine these different types of data because it's super inconsistent, right? Like what the sales rep wrote in Salesforce doesn't match what's in the meeting or what's in the email or what's in the data warehouse. And they're all using different entities. They're all using different paths. We're like, wait a minute, this actually seems like a more important problem, you know, creating like a single source of truth on a customer, you know, inside of a company. And we're like, this seems really important because you're going to have agents all over the place. And if they're a little misaligned, they're going to create bad work. And also companies are getting a little smaller and a little flatter. So it makes sense to build a system where everyone can be aligned and connected to truth. So I think those feelings made us believe, hey, maybe this is a bigger opportunity.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 33,
+          "t": [
+            956,
+            1075
+          ],
+          "quote": "Yeah. And I think, you know, hindsight's 20-20. To be honest, we had way more consumers than businesses and I think it actually would have been a more direct path to build a second consumer product. You know, we could have built like a, you know, what are these code generating tools or something and I think that would have been a shorter path. I think deep down, you know, Henry and I wanted to build a B2B product. We wanted to build something that like people used every day and cared about and that's probably what steered us. I'd argue it actually steered us initially in a much darker place because it steered us towards sales and marketing. As you know, like GTM tech is so crowded. It's brutal, right? It's super crowded because I would say most sales teams are willing to try something new, see if it helps them be more successful. But the sort of pilot conversion rate is super low. You know, most of these companies don't have proprietary data, right? So it's just a race to the bottom, right? If you have got like 30 tools in every company and they're all trying to offer roughly the same thing because they don't have the data, they don't have the model, right? And it just turns into a commodity game. And that was kind of the, I think the dark thing that we were trying to navigate in the, call it like mid pivot, where we're like, all right, we're here. You know, we've got these customers where we're building these tools. This also isn't going to lead to a very good business, you know, because we're just this layer that sits on top of Salesforce and Snowflake and we're not an LLM company, you know, so we're also just paying Anthropic or OpenAI. We've found some problems to solve, but like this, you know, at the time we were like, this is probably a worse setup than Tome. I think that that took some distance from the problem. You know, we started to sit back and be like, did any of us really wake up to build like this point solution, GTM piece of tech that's like hard to sell, hard to convert? I think we actually just needed some space from the problem to think about like, well, how's the world going to change? What's going to be different? And what do we actually want to do?",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 39,
+          "t": [
+            1137,
+            1139
+          ],
+          "quote": "I mean, Tome had 70 people.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 41,
+          "t": [
+            1142,
+            1165
+          ],
+          "quote": "And our board was great. They were supportive. They were like, look, if this is what you guys want to do, I think everyone was like, don't be half in. Like they're like, you're not going to find product market fit again by this being a side project with Tome. Like you have to burn the boats. You have to cut burn. You have to go down to like pre-seed company again. Again, so you can figure it out.",
+          "speaker": "Keith Peiris"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": true,
+      "how_described": "本集把它说成:传统 CRM 的在位者,数据不足以让智能体出色工作、『从来不是为智能体设计的』,是 Lightfield 正面挑战的对象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            91,
+            144
+          ],
+          "quote": "Dude, this is going to be exciting one. I mean, man, you just went through a big shift, which we're going to go into here. Company changed names from Tome to Lightfield and you're focused on something different. I mean, today you're an AI first, AI native CRM, right? In a way, you look at the earnings calls like HubSpot, Salesforce, like you're what they're scared of, right? You're coming for them amongst other things. So we're going to talk about what you build, how you're building it, why it's different and all these sort of pieces. But let's start with the product market fit moment. And I'm sure you have multiple because you had the old journey, which you went and you raised a Series B, like a $43 million Series B, only kind of old product. And then since pivoting, you've now closed a $45 million Series A. So multiple PMF moments. But tell me about when, after you launched Lightfield, when was the moment when you felt like, this is worth paving into because it's working so well, there's so much demand.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 9,
+          "t": [
+            144,
+            231
+          ],
+          "quote": "So it was actually, I would say the moment before scale, which is to say with our previous company, we got lots of users. I mean, they had like 20 million users. But the thing that was missing was that, you know, it wasn't like an indispensable part of anyone's life. If I asked our customers, what would happen if we took this away? I think they would be like, yeah, be a little sad. I'd go back to Google Slides. With Lightfield, the thing that got us excited was, you know, a CRM is a lot of work. We're nowhere near done. We're like a year, two and a half. And we're still missing a lot of stuff. We're catching up. But we built the earliest version of Lightfield in about three months. And we started asking customers to use it. At the time, it was friends. It was extended network. And even though it was missing like 99% of the features that Salesforce and HubSpot had, we had customers in it every day. And on the flip side, they had a lot of feedback. Just to compare with Tome, with Tome, we had lots and lots of users and none of them cared enough about the product to give us feedback. Whereas with Lightfield, our slacks were lit up, you know, 24-7, 365, about stuff that could be better, stuff we need to fix, stuff that could be different. And we were like, oh, this means that someone cares about this problem. Like our customers are using this all the time. They're hopping mad at us about the things that we got wrong. There's enough care here that maybe there's something here.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 13,
+          "t": [
+            274,
+            454
+          ],
+          "quote": "Yeah, yeah. We were actually on sort of similar trajectories and more power to them. They did great work and executed, but we just didn't like where it was going. And I think deep down at a human level, you're like, we want to make pro tools used by sophisticated users and we want them to like rely on it every day. And we just couldn't see a path for Tome to turn into that. What was funny about the pivot to Lightfield was that we went on this journey with Tome being like, all right, how do we turn this into a serious work tool? And we just followed the journey of who makes a lot of decks, who's in the product the most. It turned out it was sales and marketing folks. So we sort of followed them in. We asked them, hey, could we do a pilot? Can we do some discovery with you? And we found our way into probably 10 companies where they were like, okay, you know, you guys are good at making product. You know, Tome is cool. Let's do a pilot. Maybe you can build decks for us. And when we got there, it was so funny. With all 10 of them, within a few weeks, everyone lost interest in us making decks. They were like, this isn't that big of a problem. We all use templates. We just fill them out. We don't know if we care. Maybe you can do some other things. So we sort of got pulled in, you know, doing things like account research, building proposals, responding to RFPs, writing emails. We just got pulled out of the slide space instantly. And that was the first sign of, wait a minute, maybe we can't sell this presentation product into companies. And then when we were there, we started to ask like, okay, to do all of these things well, like proposals and account research, whatever, what do we need? And at that time, I was like, oh, I assume I just connect to Salesforce and we'll have everything we need and we'll be able to do this work. And it turns out that what you need is not in the traditional CRM to do great generative AI work. It's sort of spread everywhere. It's in your call recorder. It's in your email. It's in your Slack. It's in your data warehouse. We found that it was such a struggle to combine these different types of data because it's super inconsistent, right? Like what the sales rep wrote in Salesforce doesn't match what's in the meeting or what's in the email or what's in the data warehouse. And they're all using different entities. They're all using different paths. We're like, wait a minute, this actually seems like a more important problem, you know, creating like a single source of truth on a customer, you know, inside of a company. And we're like, this seems really important because you're going to have agents all over the place. And if they're a little misaligned, they're going to create bad work. And also companies are getting a little smaller and a little flatter. So it makes sense to build a system where everyone can be aligned and connected to truth. So I think those feelings made us believe, hey, maybe this is a bigger opportunity.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 33,
+          "t": [
+            956,
+            1075
+          ],
+          "quote": "Yeah. And I think, you know, hindsight's 20-20. To be honest, we had way more consumers than businesses and I think it actually would have been a more direct path to build a second consumer product. You know, we could have built like a, you know, what are these code generating tools or something and I think that would have been a shorter path. I think deep down, you know, Henry and I wanted to build a B2B product. We wanted to build something that like people used every day and cared about and that's probably what steered us. I'd argue it actually steered us initially in a much darker place because it steered us towards sales and marketing. As you know, like GTM tech is so crowded. It's brutal, right? It's super crowded because I would say most sales teams are willing to try something new, see if it helps them be more successful. But the sort of pilot conversion rate is super low. You know, most of these companies don't have proprietary data, right? So it's just a race to the bottom, right? If you have got like 30 tools in every company and they're all trying to offer roughly the same thing because they don't have the data, they don't have the model, right? And it just turns into a commodity game. And that was kind of the, I think the dark thing that we were trying to navigate in the, call it like mid pivot, where we're like, all right, we're here. You know, we've got these customers where we're building these tools. This also isn't going to lead to a very good business, you know, because we're just this layer that sits on top of Salesforce and Snowflake and we're not an LLM company, you know, so we're also just paying Anthropic or OpenAI. We've found some problems to solve, but like this, you know, at the time we were like, this is probably a worse setup than Tome. I think that that took some distance from the problem. You know, we started to sit back and be like, did any of us really wake up to build like this point solution, GTM piece of tech that's like hard to sell, hard to convert? I think we actually just needed some space from the problem to think about like, well, how's the world going to change? What's going to be different? And what do we actually want to do?",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 53,
+          "t": [
+            1344,
+            1467
+          ],
+          "quote": "I just mean being in go-to-market in general. Okay. We're like, we need to own and index proprietary data. No question. Second, we're like, look, we're productivity tool people. You know, and I think we all got excited about the technical challenge of building, you know, an agentic system of record. We're like, this sounds super hard. You know, even though there's people talking about vibe coding a CRM, you know, to build an automatic agentic CRM that works for like a thousand people, you know, in terms of API data model, we're like, we would enjoy doing this. And then I would say that it feels like one of those strange go-to markets where it's sort of hard to pull off. Let me explain it. You know, ripping out systems of record, it's incredibly hard historically, a little easier now. We're starting to do it now. But the first couple of years of the company, you have to go Greenfield, right? You have to go be new companies for CRM. And then, many have to build fast enough so that when their company works, they don't go to Salesforce, right? We're like, that seems like almost crazy enough of a company that there aren't going to be that many people that try, you know, which is to say it's a huge build out. You're working on a small ICP, super churny, and then for you to hold on the best ones, you need to run as fast as you can. And actually, that difficulty made us excited because we were like, we'd rather tackle a difficult problem than tackle an easy problem and have like a thousand competitors. So that sort of got us excited. And then I think maybe the last part is that it felt like a company-wide problem. And I think that that got the founding team really excited. They're like, look, if you imagine how a system of record works in the future, people that work with customers fill it, everyone benefits from it. You know, engineers should use it, finance should use it, you know, forward-to-play engineers should use that. And we're like, we're actually excited about that to have a small hand in shaping how future companies get built. And we're like, we could all work 14 hours a day on that. So it actually felt like a very personal decision.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 54,
+          "t": [
+            1467,
+            1480
+          ],
+          "quote": "I'm curious to just go a bit deeper on how you end up with this, like, because you mentioned before the story of you going in and trying to help people build decks and you play with Salesforce. Is that what started this idea of like the AI native CRM?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 55,
+          "t": [
+            1480,
+            1501
+          ],
+          "quote": "Yeah, exactly. It was realizing that we didn't have the data inside of Salesforce or Snowflake or Gong required to get agents to do great work. That's sort of what started this thread. And we were like, oh, what happens if we actually solve that problem well? If we built a system of record design for this, oh, that means that we could go do all of these other things too.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 58,
+          "t": [
+            1560,
+            1621
+          ],
+          "quote": "I mean, the fundamental of any company, except for a few, few, few, few exceptions, but almost every company is a problem that is top of mind today, right now. And understanding, kind of like meeting the market where it's at. So you've got a lot of people who know fundamentally that HubSpot, Salesforce, like they're kind of the old school CRM and they're, you know, they're trying to move into this AI world, but they're not quite there. So I can imagine, you know, 25 year old, 22 year old, whatever, like YC founder, there's a mismatch between their expectations and the way that, you know, HubSpot works and feels. So they're kind of like there. And then you've got the enterprises that maybe are not greenfield, but they want to deploy as many AI agents inside and automate as many workflows as they can. And they're seeing kind of how they might get handcuffed in different places because some tools don't play nice with the others and it just breaks somewhere kind of along that funnel of kind of getting an end-to-end workflow done. And you're coming in at that time saying, we can solve that problem. Like we can make this magic happen for you.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 59,
+          "t": [
+            1621,
+            1683
+          ],
+          "quote": "Yeah, exactly. In all honesty, we had that level of fidelity when we jumped into it and we found the true wedges six months in, you know, which is to say that, you know, now when we sell to a YC company, we're like, look, we're going to build out this whole system of record for you and the first problem we're going to solve for you that you care about is that we're going to help you do great pipeline generations by understanding the customers you have and helping you build relevant lists and helping you send compelling outreach to them. That's the first problem we're going to solve for you because you don't actually need a system of record right now. And then with our larger companies, we realize we solve different problems. It is the AI agents or in many cases, they're like, look, a big part of our company now is delivery, right, of, you know, implementation and we need perfect handoff between sales and implementation and Salesforce was never designed for FTEs. So I think, you know, now we've got that fidelity of like what pain do we attach to but we didn't quite have that at the moment of pivot.",
+          "speaker": "Keith Peiris"
+        }
+      ]
+    },
+    {
+      "id": "hubspot",
+      "type": "company",
+      "role": "company",
+      "name": "HubSpot",
+      "file": "HubSpot",
+      "primary": false,
+      "how_described": "本集多次把它与 Salesforce 并列为被挑战的老派 CRM;Keith 还请过 HubSpot 的 CRO 来办公室演讲做获客活动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            91,
+            144
+          ],
+          "quote": "Dude, this is going to be exciting one. I mean, man, you just went through a big shift, which we're going to go into here. Company changed names from Tome to Lightfield and you're focused on something different. I mean, today you're an AI first, AI native CRM, right? In a way, you look at the earnings calls like HubSpot, Salesforce, like you're what they're scared of, right? You're coming for them amongst other things. So we're going to talk about what you build, how you're building it, why it's different and all these sort of pieces. But let's start with the product market fit moment. And I'm sure you have multiple because you had the old journey, which you went and you raised a Series B, like a $43 million Series B, only kind of old product. And then since pivoting, you've now closed a $45 million Series A. So multiple PMF moments. But tell me about when, after you launched Lightfield, when was the moment when you felt like, this is worth paving into because it's working so well, there's so much demand.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 9,
+          "t": [
+            144,
+            231
+          ],
+          "quote": "So it was actually, I would say the moment before scale, which is to say with our previous company, we got lots of users. I mean, they had like 20 million users. But the thing that was missing was that, you know, it wasn't like an indispensable part of anyone's life. If I asked our customers, what would happen if we took this away? I think they would be like, yeah, be a little sad. I'd go back to Google Slides. With Lightfield, the thing that got us excited was, you know, a CRM is a lot of work. We're nowhere near done. We're like a year, two and a half. And we're still missing a lot of stuff. We're catching up. But we built the earliest version of Lightfield in about three months. And we started asking customers to use it. At the time, it was friends. It was extended network. And even though it was missing like 99% of the features that Salesforce and HubSpot had, we had customers in it every day. And on the flip side, they had a lot of feedback. Just to compare with Tome, with Tome, we had lots and lots of users and none of them cared enough about the product to give us feedback. Whereas with Lightfield, our slacks were lit up, you know, 24-7, 365, about stuff that could be better, stuff we need to fix, stuff that could be different. And we were like, oh, this means that someone cares about this problem. Like our customers are using this all the time. They're hopping mad at us about the things that we got wrong. There's enough care here that maybe there's something here.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 57,
+          "t": [
+            1513,
+            1560
+          ],
+          "quote": "Yeah, exactly. That was the thinking. And then we just kept pulling the thread, you know, because obviously when we were speaking to, you know, we had some mid-market customers early on in the pivot. They were like, that sounds cool. We can't possibly change our system of record. So then we needed to go, honestly, a little earlier. You know, we started speaking to YC companies. You know, we started speaking to seed stage companies, speed run companies. And they were like, if you like solve this problem correctly on day one, that's awesome. One, I would pay you way more than I pay for like a HubSpot or an Adio. And two, you know, we would be inclined to stay on this thing as long as you can keep up with our demands. I think that was the first time we were like, oh, interesting. There's actually like a new kind of wedge to solve the problem we want to solve.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 58,
+          "t": [
+            1560,
+            1621
+          ],
+          "quote": "I mean, the fundamental of any company, except for a few, few, few, few exceptions, but almost every company is a problem that is top of mind today, right now. And understanding, kind of like meeting the market where it's at. So you've got a lot of people who know fundamentally that HubSpot, Salesforce, like they're kind of the old school CRM and they're, you know, they're trying to move into this AI world, but they're not quite there. So I can imagine, you know, 25 year old, 22 year old, whatever, like YC founder, there's a mismatch between their expectations and the way that, you know, HubSpot works and feels. So they're kind of like there. And then you've got the enterprises that maybe are not greenfield, but they want to deploy as many AI agents inside and automate as many workflows as they can. And they're seeing kind of how they might get handcuffed in different places because some tools don't play nice with the others and it just breaks somewhere kind of along that funnel of kind of getting an end-to-end workflow done. And you're coming in at that time saying, we can solve that problem. Like we can make this magic happen for you.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 65,
+          "t": [
+            1825,
+            1886
+          ],
+          "quote": "We did a couple of things and the first thing I would say is as a founder, you should have good taste on how you want to be bothered, right? Because you're super busy. You're trying to make your company work and you're probably not going to respond to cold email. So the first thing I did is I reached out to folks over LinkedIn instead of email. This is something Lightfield does natively too so we sort of learned. And second, I never led with buy my product. I led with, hey, this is my background. I'm hosting a dinner. Do you want to come to this dinner? Or I led with, you're probably struggling getting go-to-market up and running. Most founders are not go-to-market founders. They're technical. Like we invited the CRO of HubSpot to come speak at our office. You can come hang out. We're not going to try to sell you anything. Or, you know, we brought the guy that wrote Predictable Revenue. You know, how did we get those people to our office? We found a list of great authors who are speakers and we're like, look, we'll buy your book for everyone that comes to this talk. We just need you to show up and hang out. And a lot of them are like, great, sure. If you buy 100 copies of my book, I'll show up. So we started doing that.",
+          "speaker": "Keith Peiris"
+        }
+      ]
+    },
+    {
+      "id": "crm",
+      "type": "concept",
+      "role": "concept",
+      "name": "CRM",
+      "file": "CRM",
+      "primary": true,
+      "how_described": "本集围绕的核心品类:传统 CRM 里没有做生成式 AI 工作所需的数据,信息散落在通话录音、邮件、Slack、数据仓库里彼此对不上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            91,
+            144
+          ],
+          "quote": "Dude, this is going to be exciting one. I mean, man, you just went through a big shift, which we're going to go into here. Company changed names from Tome to Lightfield and you're focused on something different. I mean, today you're an AI first, AI native CRM, right? In a way, you look at the earnings calls like HubSpot, Salesforce, like you're what they're scared of, right? You're coming for them amongst other things. So we're going to talk about what you build, how you're building it, why it's different and all these sort of pieces. But let's start with the product market fit moment. And I'm sure you have multiple because you had the old journey, which you went and you raised a Series B, like a $43 million Series B, only kind of old product. And then since pivoting, you've now closed a $45 million Series A. So multiple PMF moments. But tell me about when, after you launched Lightfield, when was the moment when you felt like, this is worth paving into because it's working so well, there's so much demand.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 9,
+          "t": [
+            144,
+            231
+          ],
+          "quote": "So it was actually, I would say the moment before scale, which is to say with our previous company, we got lots of users. I mean, they had like 20 million users. But the thing that was missing was that, you know, it wasn't like an indispensable part of anyone's life. If I asked our customers, what would happen if we took this away? I think they would be like, yeah, be a little sad. I'd go back to Google Slides. With Lightfield, the thing that got us excited was, you know, a CRM is a lot of work. We're nowhere near done. We're like a year, two and a half. And we're still missing a lot of stuff. We're catching up. But we built the earliest version of Lightfield in about three months. And we started asking customers to use it. At the time, it was friends. It was extended network. And even though it was missing like 99% of the features that Salesforce and HubSpot had, we had customers in it every day. And on the flip side, they had a lot of feedback. Just to compare with Tome, with Tome, we had lots and lots of users and none of them cared enough about the product to give us feedback. Whereas with Lightfield, our slacks were lit up, you know, 24-7, 365, about stuff that could be better, stuff we need to fix, stuff that could be different. And we were like, oh, this means that someone cares about this problem. Like our customers are using this all the time. They're hopping mad at us about the things that we got wrong. There's enough care here that maybe there's something here.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 13,
+          "t": [
+            274,
+            454
+          ],
+          "quote": "Yeah, yeah. We were actually on sort of similar trajectories and more power to them. They did great work and executed, but we just didn't like where it was going. And I think deep down at a human level, you're like, we want to make pro tools used by sophisticated users and we want them to like rely on it every day. And we just couldn't see a path for Tome to turn into that. What was funny about the pivot to Lightfield was that we went on this journey with Tome being like, all right, how do we turn this into a serious work tool? And we just followed the journey of who makes a lot of decks, who's in the product the most. It turned out it was sales and marketing folks. So we sort of followed them in. We asked them, hey, could we do a pilot? Can we do some discovery with you? And we found our way into probably 10 companies where they were like, okay, you know, you guys are good at making product. You know, Tome is cool. Let's do a pilot. Maybe you can build decks for us. And when we got there, it was so funny. With all 10 of them, within a few weeks, everyone lost interest in us making decks. They were like, this isn't that big of a problem. We all use templates. We just fill them out. We don't know if we care. Maybe you can do some other things. So we sort of got pulled in, you know, doing things like account research, building proposals, responding to RFPs, writing emails. We just got pulled out of the slide space instantly. And that was the first sign of, wait a minute, maybe we can't sell this presentation product into companies. And then when we were there, we started to ask like, okay, to do all of these things well, like proposals and account research, whatever, what do we need? And at that time, I was like, oh, I assume I just connect to Salesforce and we'll have everything we need and we'll be able to do this work. And it turns out that what you need is not in the traditional CRM to do great generative AI work. It's sort of spread everywhere. It's in your call recorder. It's in your email. It's in your Slack. It's in your data warehouse. We found that it was such a struggle to combine these different types of data because it's super inconsistent, right? Like what the sales rep wrote in Salesforce doesn't match what's in the meeting or what's in the email or what's in the data warehouse. And they're all using different entities. They're all using different paths. We're like, wait a minute, this actually seems like a more important problem, you know, creating like a single source of truth on a customer, you know, inside of a company. And we're like, this seems really important because you're going to have agents all over the place. And if they're a little misaligned, they're going to create bad work. And also companies are getting a little smaller and a little flatter. So it makes sense to build a system where everyone can be aligned and connected to truth. So I think those feelings made us believe, hey, maybe this is a bigger opportunity.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 53,
+          "t": [
+            1344,
+            1467
+          ],
+          "quote": "I just mean being in go-to-market in general. Okay. We're like, we need to own and index proprietary data. No question. Second, we're like, look, we're productivity tool people. You know, and I think we all got excited about the technical challenge of building, you know, an agentic system of record. We're like, this sounds super hard. You know, even though there's people talking about vibe coding a CRM, you know, to build an automatic agentic CRM that works for like a thousand people, you know, in terms of API data model, we're like, we would enjoy doing this. And then I would say that it feels like one of those strange go-to markets where it's sort of hard to pull off. Let me explain it. You know, ripping out systems of record, it's incredibly hard historically, a little easier now. We're starting to do it now. But the first couple of years of the company, you have to go Greenfield, right? You have to go be new companies for CRM. And then, many have to build fast enough so that when their company works, they don't go to Salesforce, right? We're like, that seems like almost crazy enough of a company that there aren't going to be that many people that try, you know, which is to say it's a huge build out. You're working on a small ICP, super churny, and then for you to hold on the best ones, you need to run as fast as you can. And actually, that difficulty made us excited because we were like, we'd rather tackle a difficult problem than tackle an easy problem and have like a thousand competitors. So that sort of got us excited. And then I think maybe the last part is that it felt like a company-wide problem. And I think that that got the founding team really excited. They're like, look, if you imagine how a system of record works in the future, people that work with customers fill it, everyone benefits from it. You know, engineers should use it, finance should use it, you know, forward-to-play engineers should use that. And we're like, we're actually excited about that to have a small hand in shaping how future companies get built. And we're like, we could all work 14 hours a day on that. So it actually felt like a very personal decision.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 54,
+          "t": [
+            1467,
+            1480
+          ],
+          "quote": "I'm curious to just go a bit deeper on how you end up with this, like, because you mentioned before the story of you going in and trying to help people build decks and you play with Salesforce. Is that what started this idea of like the AI native CRM?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 58,
+          "t": [
+            1560,
+            1621
+          ],
+          "quote": "I mean, the fundamental of any company, except for a few, few, few, few exceptions, but almost every company is a problem that is top of mind today, right now. And understanding, kind of like meeting the market where it's at. So you've got a lot of people who know fundamentally that HubSpot, Salesforce, like they're kind of the old school CRM and they're, you know, they're trying to move into this AI world, but they're not quite there. So I can imagine, you know, 25 year old, 22 year old, whatever, like YC founder, there's a mismatch between their expectations and the way that, you know, HubSpot works and feels. So they're kind of like there. And then you've got the enterprises that maybe are not greenfield, but they want to deploy as many AI agents inside and automate as many workflows as they can. And they're seeing kind of how they might get handcuffed in different places because some tools don't play nice with the others and it just breaks somewhere kind of along that funnel of kind of getting an end-to-end workflow done. And you're coming in at that time saying, we can solve that problem. Like we can make this magic happen for you.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 71,
+          "t": [
+            2023,
+            2053
+          ],
+          "quote": "Yeah, we were pretty honest about it. We're like, look, we brought the speaker here to talk about go-to-market. Just so you know, you know, we're building an agentic CRM. Let me show it to you for two minutes. And if you're interested in learning more, I've got like a computer in the back and I can give you a demo after. And it turned out the product demoed well. You know, we build good software. At the end of the night, you know, we always had 10, 20, 30 people that were like, show me what you're building. I'm interested. And that's sort of how it turned into something.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 75,
+          "t": [
+            2118,
+            2162
+          ],
+          "quote": "Yeah, this is so true. It's funny. Now I have some friends that are building different kinds of systems of record, like an HRIS or a CRM vertical. It's so hard, I've found, to struggle when you have a platform because when you're building a platform, you sort of need to build horizontal capability first and then you very quickly have to figure out how to package the capability to find pain and solve pain. And it's just like a little bit of a different style of thinking than building the wedge first. And I feel like you have to go back and forth over and over and over again to make sure you don't overbuild the platform, underbuild the platform, overbuild for the wedge. And, you know, I feel like we change our mindset on that like every few months.",
+          "speaker": "Keith Peiris"
+        }
+      ]
+    },
+    {
+      "id": "system-of-record",
+      "type": "concept",
+      "role": "concept",
+      "name": "系统记录 (system of record)",
+      "file": "系统记录",
+      "primary": true,
+      "how_described": "本集说它是『公司内部为客户建单一事实来源』的核心系统,团队认定唯一愿意投入未来 10 年的玩法就是重新发明它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            1293,
+            1332
+          ],
+          "quote": "It's so funny. When you're in that state, you get all of this feedback about stuff that matters. You know, there are definitely people that were like, hey, can we get a new office? You know, or hey, should we pay everyone more to stay? Or, you know, various things. And the truth is that those are symptoms of the bigger problem. The bigger problem is you don't have direction, you know, and you don't have traction. We just ignored all of that. We were like, look, we need to figure this out. You know, and I think to the team's credit, we all sort of realized together, hey, the only play in this space that we would all be excited to spend the next 10 years of our lives on would be to like, go and reinvent the system of record.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 53,
+          "t": [
+            1344,
+            1467
+          ],
+          "quote": "I just mean being in go-to-market in general. Okay. We're like, we need to own and index proprietary data. No question. Second, we're like, look, we're productivity tool people. You know, and I think we all got excited about the technical challenge of building, you know, an agentic system of record. We're like, this sounds super hard. You know, even though there's people talking about vibe coding a CRM, you know, to build an automatic agentic CRM that works for like a thousand people, you know, in terms of API data model, we're like, we would enjoy doing this. And then I would say that it feels like one of those strange go-to markets where it's sort of hard to pull off. Let me explain it. You know, ripping out systems of record, it's incredibly hard historically, a little easier now. We're starting to do it now. But the first couple of years of the company, you have to go Greenfield, right? You have to go be new companies for CRM. And then, many have to build fast enough so that when their company works, they don't go to Salesforce, right? We're like, that seems like almost crazy enough of a company that there aren't going to be that many people that try, you know, which is to say it's a huge build out. You're working on a small ICP, super churny, and then for you to hold on the best ones, you need to run as fast as you can. And actually, that difficulty made us excited because we were like, we'd rather tackle a difficult problem than tackle an easy problem and have like a thousand competitors. So that sort of got us excited. And then I think maybe the last part is that it felt like a company-wide problem. And I think that that got the founding team really excited. They're like, look, if you imagine how a system of record works in the future, people that work with customers fill it, everyone benefits from it. You know, engineers should use it, finance should use it, you know, forward-to-play engineers should use that. And we're like, we're actually excited about that to have a small hand in shaping how future companies get built. And we're like, we could all work 14 hours a day on that. So it actually felt like a very personal decision.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 55,
+          "t": [
+            1480,
+            1501
+          ],
+          "quote": "Yeah, exactly. It was realizing that we didn't have the data inside of Salesforce or Snowflake or Gong required to get agents to do great work. That's sort of what started this thread. And we were like, oh, what happens if we actually solve that problem well? If we built a system of record design for this, oh, that means that we could go do all of these other things too.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 57,
+          "t": [
+            1513,
+            1560
+          ],
+          "quote": "Yeah, exactly. That was the thinking. And then we just kept pulling the thread, you know, because obviously when we were speaking to, you know, we had some mid-market customers early on in the pivot. They were like, that sounds cool. We can't possibly change our system of record. So then we needed to go, honestly, a little earlier. You know, we started speaking to YC companies. You know, we started speaking to seed stage companies, speed run companies. And they were like, if you like solve this problem correctly on day one, that's awesome. One, I would pay you way more than I pay for like a HubSpot or an Adio. And two, you know, we would be inclined to stay on this thing as long as you can keep up with our demands. I think that was the first time we were like, oh, interesting. There's actually like a new kind of wedge to solve the problem we want to solve.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 59,
+          "t": [
+            1621,
+            1683
+          ],
+          "quote": "Yeah, exactly. In all honesty, we had that level of fidelity when we jumped into it and we found the true wedges six months in, you know, which is to say that, you know, now when we sell to a YC company, we're like, look, we're going to build out this whole system of record for you and the first problem we're going to solve for you that you care about is that we're going to help you do great pipeline generations by understanding the customers you have and helping you build relevant lists and helping you send compelling outreach to them. That's the first problem we're going to solve for you because you don't actually need a system of record right now. And then with our larger companies, we realize we solve different problems. It is the AI agents or in many cases, they're like, look, a big part of our company now is delivery, right, of, you know, implementation and we need perfect handoff between sales and implementation and Salesforce was never designed for FTEs. So I think, you know, now we've got that fidelity of like what pain do we attach to but we didn't quite have that at the moment of pivot.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 61,
+          "t": [
+            1699,
+            1753
+          ],
+          "quote": "Yeah, it was sort of funny. I mean, we're in such a saturated world, right? If you sell to tech companies, those tech companies are getting assaulted with outbound, right? We sort of had this realization of cold should be your last resort. Like your first resort should be go find everyone you've spoken to in the past two years, you know, and try to reactivate them, you know, and get time with them. Then we're like, second, you should go like mine your network and your VC's networks, ask for intros. Then we're like, third, you should go find people talking about the problem you're going to solve on social, you know, and then you sort of keep going through that and you realize, wait a minute, to do that, I can't just buy Clay. I actually need a sort of complete network system of record to approach the problem in this way. And I think that was, that sort of tied the pain and the approach to what we were doing.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 72,
+          "t": [
+            2053,
+            2064
+          ],
+          "quote": "And that's where you found the wedge of like, it's not just, oh, a new system of record that looks and works better. It's like, I'll help you land more customers through this new, like exploiting your, your, your existing network.",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合 (product market fit)",
+      "file": "产品市场契合",
+      "primary": true,
+      "how_described": "本集(节目名即 PMF)用它串起两次经历:用『拿走测试』判断产品是否扎根——客户气得跳脚提反馈才是真信号。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            59,
+            78
+          ],
+          "quote": "That's product market fit. Product market fit. Product market fit. I called it the product market fit question. Product market fit. Product market fit. Product market fit. Product market fit. I mean, the name of the show is product market fit. Do you think the product market fit show has product market fit? Because if you do, then there's something you just have to do.",
+          "speaker": "Previous Guests"
+        },
+        {
+          "seg": 8,
+          "t": [
+            91,
+            144
+          ],
+          "quote": "Dude, this is going to be exciting one. I mean, man, you just went through a big shift, which we're going to go into here. Company changed names from Tome to Lightfield and you're focused on something different. I mean, today you're an AI first, AI native CRM, right? In a way, you look at the earnings calls like HubSpot, Salesforce, like you're what they're scared of, right? You're coming for them amongst other things. So we're going to talk about what you build, how you're building it, why it's different and all these sort of pieces. But let's start with the product market fit moment. And I'm sure you have multiple because you had the old journey, which you went and you raised a Series B, like a $43 million Series B, only kind of old product. And then since pivoting, you've now closed a $45 million Series A. So multiple PMF moments. But tell me about when, after you launched Lightfield, when was the moment when you felt like, this is worth paving into because it's working so well, there's so much demand.",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 41,
+          "t": [
+            1142,
+            1165
+          ],
+          "quote": "And our board was great. They were supportive. They were like, look, if this is what you guys want to do, I think everyone was like, don't be half in. Like they're like, you're not going to find product market fit again by this being a side project with Tome. Like you have to burn the boats. You have to cut burn. You have to go down to like pre-seed company again. Again, so you can figure it out.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 77,
+          "t": [
+            2204,
+            2292
+          ],
+          "quote": "It's kind of a product of the company. What do I mean by that? It's very hard to make a video that goes viral for everyone. I mean, you can and there's plenty of cases for it, but I find that what we were looking for, we actually weren't optimizing for a million views. We were optimizing for the people in our ICP feel something when they watch this. And we're like, we need to define this so narrowly so that we can validate if this is true. And in our case, at the time, a year ago, our ICP is different now. We were like, we have to hit a B2B pre-seed founder creator who is on the cusp of finding product market fit. And we need to write a story that emotionally resonates with this person. And we don't care if a late-stage CRO takes this seriously or not. We are going to go very, very narrow and make sure it works. That's sort of the first step. The second is, in our case, this is our taste. You know, we wanted to make it more about the story and the hero's journey than just a product demo. Because, you know, at this point, everyone's got product demos and they all have agents and they all kind of look the same. So we're like, it's really about the hero's arc. And then third, I think the bar to do a video is very high now in terms of production. So we spent a lot of time, the creative at our company, he's like interviewed a lot of directors, looked at lots of styles, looked at lots of videographers. It was a full-time project.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 98,
+          "t": [
+            2648,
+            2658
+          ],
+          "quote": "Keith, well, that's a great point to end. Let me ask the question we tend to end on, which is, what's like the top piece of advice you would give an early stage founder that is looking for product market fit still?",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "ndr",
+      "type": "concept",
+      "role": "concept",
+      "name": "NDR",
+      "file": "NDR",
+      "primary": true,
+      "how_described": "本集的强烈观点:指标是业务天性的副产品,『你不可能拿着同一个产品把 NDR 从 20 提到 40』,留存几乎从核心产品继承而来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            510,
+            567
+          ],
+          "quote": "I feel like the user growth was still growing. The revenue was like starting to soften because the net retention was so low. And there are companies like this. You know, I won't mention all of them, but you know, it's like a consumer productivity company. It's like 20% NDR, but the whole company works because you don't pay for acquisition. Right. And we thought about it. We're like, look, there's so much demand. The way to build this is you build out all your SEO, your AEO. You keep burn low and it turns into something. But honestly, like deep down, like none of us were just excited about that company. Like none of us wanted to build a presentation product that people use like once a quarter that we could not sell B2B, that, you know, no one who's amazing at making decks would ever use. It was just like wrestling with us, you know, morally every day coming to work of like, ah, did we really like quit our jobs to build this thing?",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 26,
+          "t": [
+            766,
+            773
+          ],
+          "quote": "Was there a third path of just keep optimizing your business until you kind of cracked it and NDR went from 20 to 40 and you just kind of kept growing that or whatever?",
+          "speaker": "Pablo Srugo"
+        },
+        {
+          "seg": 27,
+          "t": [
+            773,
+            800
+          ],
+          "quote": "I think there was that path. My strong view on this is that you can't take the same product and take NDR from 20 to 40. I think you almost like inherit retention based off of the core product and then you can make it a little better but like, it's not going from 20 to 80 ever, you know, with this kind of product. So I was almost taking for granted that like, retention would be about the same but I could play with acquisition. I could play with selling the next thing.",
+          "speaker": "Keith Peiris"
+        }
+      ]
+    },
+    {
+      "id": "launch-video",
+      "type": "concept",
+      "role": "concept",
+      "name": "发布视频 (launch video)",
+      "file": "发布视频",
+      "primary": true,
+      "how_described": "本集详述其打法:窄定 ICP、讲英雄之旅而非产品演示、两个月低六位数打磨、约 500 人同一时刻点赞评论转发引爆,至少四支破百万播放。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            2162,
+            2204
+          ],
+          "quote": "So the other tactical kind of deep dive I want to do is launch videos. So how would it make a launch video hit a million views every time you've had at least four, I believe, launch videos that have hit over a million views these days? I think since the Clueli era, everybody wants to make a great launch video. I saw one for like the Whisperflow notetaker go crazy viral recently, but they already, you know, they have a massive following. So it's probably easier for them than the average person. What have you learned doing these videos? Like, put it this way. Like, I'm a founder. I'm like, yeah, I've got this product. It's a solid product. Believe me. I want to have the absolute best odds that when I make this video, it hits a million views. Like, step by step, what should I do?",
+          "speaker": "Pablo Srugo"
+        }
+      ]
+    },
+    {
+      "id": "icp",
+      "type": "concept",
+      "role": "concept",
+      "name": "ICP",
+      "file": "ICP",
+      "primary": false,
+      "how_described": "本集说要『把 ICP 定义得极窄』:当时是正处于找到产品市场契合边缘的 B2B 种子前创始人创作者,不在乎后期 CRO 是否当回事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            18,
+            59
+          ],
+          "quote": "It's a huge build out. You're working on a small ICP, super churny. And then for you to hold on the best ones, you need to run as fast as you can. And actually that difficulty made us excited because we were like, we'd rather tackle a difficult problem than tackle an easy problem and have like a thousand competitors. I'll give a hot take here, which is that, you know, I think everyone says, keep talking to customers, keep finding what your users care about. I think a startup is a deeply personal thing. You have to build a company, a product and service that you love, that moves you emotionally so that you can work on it every single waking hour. And if you are that obsessed about something, it turns out that there will be customers in the world that are as obsessed as you.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 53,
+          "t": [
+            1344,
+            1467
+          ],
+          "quote": "I just mean being in go-to-market in general. Okay. We're like, we need to own and index proprietary data. No question. Second, we're like, look, we're productivity tool people. You know, and I think we all got excited about the technical challenge of building, you know, an agentic system of record. We're like, this sounds super hard. You know, even though there's people talking about vibe coding a CRM, you know, to build an automatic agentic CRM that works for like a thousand people, you know, in terms of API data model, we're like, we would enjoy doing this. And then I would say that it feels like one of those strange go-to markets where it's sort of hard to pull off. Let me explain it. You know, ripping out systems of record, it's incredibly hard historically, a little easier now. We're starting to do it now. But the first couple of years of the company, you have to go Greenfield, right? You have to go be new companies for CRM. And then, many have to build fast enough so that when their company works, they don't go to Salesforce, right? We're like, that seems like almost crazy enough of a company that there aren't going to be that many people that try, you know, which is to say it's a huge build out. You're working on a small ICP, super churny, and then for you to hold on the best ones, you need to run as fast as you can. And actually, that difficulty made us excited because we were like, we'd rather tackle a difficult problem than tackle an easy problem and have like a thousand competitors. So that sort of got us excited. And then I think maybe the last part is that it felt like a company-wide problem. And I think that that got the founding team really excited. They're like, look, if you imagine how a system of record works in the future, people that work with customers fill it, everyone benefits from it. You know, engineers should use it, finance should use it, you know, forward-to-play engineers should use that. And we're like, we're actually excited about that to have a small hand in shaping how future companies get built. And we're like, we could all work 14 hours a day on that. So it actually felt like a very personal decision.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 77,
+          "t": [
+            2204,
+            2292
+          ],
+          "quote": "It's kind of a product of the company. What do I mean by that? It's very hard to make a video that goes viral for everyone. I mean, you can and there's plenty of cases for it, but I find that what we were looking for, we actually weren't optimizing for a million views. We were optimizing for the people in our ICP feel something when they watch this. And we're like, we need to define this so narrowly so that we can validate if this is true. And in our case, at the time, a year ago, our ICP is different now. We were like, we have to hit a B2B pre-seed founder creator who is on the cusp of finding product market fit. And we need to write a story that emotionally resonates with this person. And we don't care if a late-stage CRO takes this seriously or not. We are going to go very, very narrow and make sure it works. That's sort of the first step. The second is, in our case, this is our taste. You know, we wanted to make it more about the story and the hero's journey than just a product demo. Because, you know, at this point, everyone's got product demos and they all have agents and they all kind of look the same. So we're like, it's really about the hero's arc. And then third, I think the bar to do a video is very high now in terms of production. So we spent a lot of time, the creative at our company, he's like interviewed a lot of directors, looked at lots of styles, looked at lots of videographers. It was a full-time project.",
+          "speaker": "Keith Peiris"
+        },
+        {
+          "seg": 93,
+          "t": [
+            2496,
+            2579
+          ],
+          "quote": "For our ICP at the time, we were like, you just made a product that people love. You haven't figured out how to sell it. That was sort of the angle we wanted to go at, you know, and I think these things all fit together. Our video was actually about a founder. You know, he was building a piece of software to sell the construction companies. We went through the like, the sort of like emotional arc of his first sales call, the guy ignores him. His second sales call sort of gets told to come back next quarter. He just hasn't figured out how to sell this thing yet, even though he knows that his customers love it. And we were like, how can Lightfield tap into this and help him solve this problem? So in the journey of the story, he's like sitting there with his co-founder querying Lightfield. Eventually, Lightfield was like, have you thought about framing the problem this way in your discovery calls? It's funny. It's just a chat interaction. There's like nothing flashy about it, right? But if you're a founder going through that, you're like, wait a minute. That is the revelatory moment that I've been waiting for for the past few months. And we found like showing the product as a friend or a tool that you can use to figure out that unlock. It's funny. We showed it to a founder in the office one day and sort of tears came into his eyes. And we were like, oh, this is it. You know, this is the sort of thing that we have to like build the video around.",
+          "speaker": "Keith Peiris"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

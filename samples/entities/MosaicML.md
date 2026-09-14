@@ -8,25 +8,27 @@ aliases: ["Mosaic"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MosaicML</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MosaicML">MO</div><div class="pi"><h1 class="pt">MosaicML</h1><div class="byl">公司 · 又名 Mosaic</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MosaicML">MO</div><div class="pi"><h1 class="pt">MosaicML</h1><div class="byl">公司 · 又名 Mosaic</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]]**(57:49起):被 Databricks 收购的团队，早期发布了知名的开源通用大模型。被收购后，Databricks 决定不再让其在烧钱的通用大模型上死磕，而是转作专门领域的小模型（如文档视觉模型）。
+- **[[2026-09-14-sourcery-inside-bending-spoons-buying-airtable--a|《Bending Spoons：买下 AOL 与 Vimeo 的「收购机器」是怎么炼成的》]]**(64:08起):本集提到的一次大收购:一大套移动应用,收购后 Valli 的团队达到 50 人、管理 80 多个应用;Valli 至今仍在监督它。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为被讨论公司
+- [[2026-09-14-sourcery-inside-bending-spoons-buying-airtable--a|《Bending Spoons：买下 AOL 与 Vimeo 的「收购机器」是怎么炼成的》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Snowflake]] · [[Neon]] · [[Omnigen]] · [[LTAP]] · [[HTAP]] · [[Dream Engine]] · [[智能体]]
+[[Matei Zaharia]] · [[Vali]] · [[Reynold Xin]] · [[Luca Ferrari]] · [[Databricks]] · [[Bending Spoons]] · [[Snowflake]] · [[AOL]] · [[Neon]] · [[Grindr]]
 
-<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Reynold Xin":1,"Databricks":11,"Snowflake":7,"Neon":2,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":234}</script>
+<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Vali":1,"Reynold Xin":1,"Luca Ferrari":1,"Databricks":11,"Bending Spoons":1,"Snowflake":7,"AOL":1,"Neon":2,"Grindr":1}</script>
 
 <script>
 (function(){

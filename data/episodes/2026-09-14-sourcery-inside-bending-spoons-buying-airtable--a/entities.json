@@ -1,0 +1,1204 @@
+{
+  "episode_id": "2026-09-14-sourcery-inside-bending-spoons-buying-airtable--a",
+  "podcast": "Sourcery",
+  "date": "2026-09-14",
+  "tags": [
+    "收购与并购",
+    "组织与文化",
+    "人才密度",
+    "上市与融资",
+    "精英体制"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "vali",
+      "type": "person",
+      "role": "host",
+      "name": "Vali",
+      "file": "Vali",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            77.302,
+            85.468
+          ],
+          "quote": "We're going to go for a little walk around the office and then later we're going to speak to the co-founders as well as Vali, the GM of AOL.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 97,
+          "t": [
+            437.42,
+            446.928
+          ],
+          "quote": "We're about to have a couple interviews coming out next with the two other co-founders and Vali, like I mentioned earlier.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 762,
+          "t": [
+            4638.851,
+            4640.272
+          ],
+          "quote": "Vali, thank you so much.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "luca-ferrari",
+      "type": "person",
+      "role": "cohost",
+      "name": "Luca Ferrari",
+      "file": "Luca Ferrari",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            71.618,
+            77.262
+          ],
+          "quote": "All right, we are here at Bending Spoons in Milan, Italy with CEO Luca Ferrari.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 734,
+          "t": [
+            4485.232,
+            4491.894
+          ],
+          "quote": "When I first started, for sure, Francesco Mancone, who's the CTO today, and Luca, Luca Ferrari, our CEO.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bending-spoons",
+      "type": "company",
+      "role": "company",
+      "name": "Bending Spoons",
+      "file": "Bending Spoons",
+      "primary": true,
+      "how_described": "本集主角:意大利米兰起家的公司,靠收购并深度改造互联网老产品(Vimeo、WeTransfer、AOL、Airtable 等)起家,本集核心叙事是「人才密度 + 精英体制 + 拆掉公司化」这套运营模式,并刚完成上市。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            26.746,
+            30.531
+          ],
+          "quote": "And with Bending Spoons, we can take care of it from closing date.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 9,
+          "t": [
+            32.873,
+            40.162
+          ],
+          "quote": "People that come into Bending Spoons, they don't need to come in because they want to work specifically on Vimeo or Retransfer or AOL.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 15,
+          "t": [
+            71.618,
+            77.262
+          ],
+          "quote": "All right, we are here at Bending Spoons in Milan, Italy with CEO Luca Ferrari.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 78,
+          "t": [
+            340.04,
+            341.761
+          ],
+          "quote": "Bending spoons went public.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 103,
+          "t": [
+            460.544,
+            463.907
+          ],
+          "quote": "We're on a wild run here at Bending Spoons.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 143,
+          "t": [
+            645.04,
+            658.178
+          ],
+          "quote": "In the hindsight probably I'm happier that we didn't acquire it because given the fact it would have been so big for Bending Spoons then Bending Spoons would have been Grindr because we would have probably fully focused on that and",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 167,
+          "t": [
+            853.078,
+            858.544
+          ],
+          "quote": "You need to learn and study bending spoons a little bit before really understanding the way it works.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 182,
+          "t": [
+            958.157,
+            962.598
+          ],
+          "quote": "When we started Bending Spoons, we were much more, I would say,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1148.598,
+            1153.42
+          ],
+          "quote": "And with Bending Spoons, we can take care of it from closing date.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1162.232,
+            1177.116
+          ],
+          "quote": "And the second thing is they know that their product legacy will be preserved with Bending Spoons because of our ability to, you know, reignite innovation, put all the Spooners behind the development of the product, the technology.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1322.712,
+            1337.482
+          ],
+          "quote": "The reason why we started offering, let's say, secondary transactions for team members to sell some of their share if they wanted to was to really show the value of their ownership of Bending Spoons, also showing that",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1477.437,
+            1482.94
+          ],
+          "quote": "And I think that speaks highly of how people perceive ownership of bending spoons.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1509.258,
+            1527.606
+          ],
+          "quote": "uh context but yeah I think the reason why we have this churn despite the fact that we have no red no vesting is also the very strong culture we developed the fact that we hire young talent that then develops within Bending Spoons and and so",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1726.182,
+            1736.831
+          ],
+          "quote": "We are on a wild tour of Bending Spoons, and now we're with you, your VP of product, you're a co-founder, you've been with the company since the very beginning, 13 years.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2381.614,
+            2391.302
+          ],
+          "quote": "And one of the dream that we had when we founded Bending Spoons for sure was to create the best company in the world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2413.629,
+            2415.97
+          ],
+          "quote": "So what does that mean inside Bending Spoons?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2878.412,
+            2894.18
+          ],
+          "quote": "But they need to be in love with the idea of being at Bending Spoons and they can actually be exposed to a lot of different products, which has the nice consequence that they can have the same CV that they would get by jumping from one company to the next every couple of years.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 519,
+          "t": [
+            3355.22,
+            3358.304
+          ],
+          "quote": "I said this before, but I'm going to have to come back to Bending Spoons.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3461.994,
+            3463.955
+          ],
+          "quote": "Thank you for having me here at Bending Spoons.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 572,
+          "t": [
+            3537.041,
+            3541.604
+          ],
+          "quote": "How did you know Bending Spoons was going to be the most legit company on Earth?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3557.502,
+            3561.727
+          ],
+          "quote": "And by then, like Bending Spoons was not, of course, as well known as it is today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 588,
+          "t": [
+            3636.667,
+            3646.895
+          ],
+          "quote": "And I think over the years I learned how to just listen to people, understand more about what we do, understand the vision behind Bending Spoons from Luke, from Francesco.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 622,
+          "t": [
+            3836.402,
+            3847.329
+          ],
+          "quote": "And with more and more acquisitions coming into Bending Spoons, many other teams and many other apps and products were embedded into my team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 655,
+          "t": [
+            4009.341,
+            4014.307
+          ],
+          "quote": "This is the moment where we apply our Bending Spoons platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 658,
+          "t": [
+            4027.82,
+            4035.326
+          ],
+          "quote": "We acquired AOL from Yahoo and we had to somehow re-platform everything onto the Bending Spoons platform from the Yahoo one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 690,
+          "t": [
+            4180.204,
+            4184.107
+          ],
+          "quote": "So we believe to give it, you know, a fresh start with Bending Spoons.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 694,
+          "t": [
+            4193.794,
+            4198.998
+          ],
+          "quote": "I am also, but in general, at Bending Spoons, I would say we are very scientific in the way we approach things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 736,
+          "t": [
+            4496.316,
+            4508.86
+          ],
+          "quote": "But there are so many others that it would be unfair not to mention just because they have all really participated in who I am and who I became in Bending Spoons.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 742,
+          "t": [
+            4526.505,
+            4543.428
+          ],
+          "quote": "I would say, sadly, in the sense that I wished for all my friends to have the same experience in their companies, but I feel like, so far, Bending Spoons has really been a one-of-a-kind, at least in Italy, so I hope many other companies will start, you know,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 753,
+          "t": [
+            4604.89,
+            4611.777
+          ],
+          "quote": "We have so many ideas on how to grow the company with synergies, also with Bending Spoons products.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "aol",
+      "type": "company",
+      "role": "company",
+      "name": "AOL",
+      "file": "AOL",
+      "primary": true,
+      "how_described": "本集说它虽被外界视为「死掉的品牌」,但收购时是相当健康的生意:数百万用户仍非常活跃投入;Valli 描述了从 Yahoo 平台剥离迁移、新闻门户改推荐、给被忽视的邮箱产品全新开始的转型计划。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            9.636,
+            11.678
+          ],
+          "quote": "AOL for $1.5 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            32.873,
+            40.162
+          ],
+          "quote": "People that come into Bending Spoons, they don't need to come in because they want to work specifically on Vimeo or Retransfer or AOL.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 11,
+          "t": [
+            43.145,
+            47.849
+          ],
+          "quote": "AOL was a pretty healthy business when we acquired it, and it's still as of today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            77.302,
+            85.468
+          ],
+          "quote": "We're going to go for a little walk around the office and then later we're going to speak to the co-founders as well as Vali, the GM of AOL.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2290.315,
+            2296.422
+          ],
+          "quote": "But she's so impressive, leading 90 products and is the GM of AOL.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2869.362,
+            2877.731
+          ],
+          "quote": "So people that come into BenioSpoons, they don't need to come in because they want to work specifically on Vimeo or WeTransfer or AOL.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 554,
+          "t": [
+            3476.685,
+            3478.047
+          ],
+          "quote": "of AOL now.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 581,
+          "t": [
+            3605.767,
+            3609.409
+          ],
+          "quote": "And now you're GM of AOL and Manage90 products.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3805.553,
+            3811.014
+          ],
+          "quote": "Like, how did that happen and how did the AOL deal happen for you?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3864.517,
+            3869.239
+          ],
+          "quote": "After that, another couple acquisitions came in and then AOL in January this year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3870.079,
+            3878.402
+          ],
+          "quote": "When I knew about AOL and about all the technical challenges that were involved there, I almost always, you know,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3884.155,
+            3887.657
+          ],
+          "quote": "So I volunteered to take on AOL.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 631,
+          "t": [
+            3887.977,
+            3891.399
+          ],
+          "quote": "But you're still managing Mosaic while you're leading AOL.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3899.722,
+            3902.824
+          ],
+          "quote": "Most of my focus right now is on the AOL acquisition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 657,
+          "t": [
+            4021.615,
+            4027.099
+          ],
+          "quote": "This phase for AOL was a bit different because there was this carve out to be done.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 658,
+          "t": [
+            4027.82,
+            4035.326
+          ],
+          "quote": "We acquired AOL from Yahoo and we had to somehow re-platform everything onto the Bending Spoons platform from the Yahoo one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 675,
+          "t": [
+            4092.762,
+            4095.723
+          ],
+          "quote": "AOL is a dead brand.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 681,
+          "t": [
+            4118.786,
+            4126.254
+          ],
+          "quote": "Yeah, so as you say, AOL was a pretty healthy business when we acquired it, and it's still as of today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 750,
+          "t": [
+            4583.559,
+            4600.187
+          ],
+          "quote": "I'm looking forward to making AOL shine and to finish this carve-out process so that we can really get hands-on on focusing 1,000% on the product and making sure we can give the best experience possible to our users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 751,
+          "t": [
+            4600.627,
+            4601.988
+          ],
+          "quote": "What is the opportunity for AOL?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 755,
+          "t": [
+            4613.258,
+            4618.783
+          ],
+          "quote": "Our user base on AOL is extremely engaged, so we believe we can provide a lot of value for them.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "grindr",
+      "type": "company",
+      "role": "company",
+      "name": "Grindr",
+      "file": "Grindr",
+      "primary": true,
+      "how_described": "本集作为「错过的那条鱼」详述:2019 年 Bending Spoons 看中它留存极高但产品糟糕,花近一年做尽调、拼出资金全部到位的要约,仍被稍好的方案截胡;事后反而庆幸,且那九个月压缩学完了大规模融资全流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            476.638,
+            483.142
+          ],
+          "quote": "Well, the one that we remember the most is probably when we tried to acquire Grindr in 2019.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 117,
+          "t": [
+            506.815,
+            512.037
+          ],
+          "quote": "And he heard about the Grindr sale from a friend.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 121,
+          "t": [
+            521.382,
+            524.044
+          ],
+          "quote": "And we've been looking at Grindr, and we saw that",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 143,
+          "t": [
+            645.04,
+            658.178
+          ],
+          "quote": "In the hindsight probably I'm happier that we didn't acquire it because given the fact it would have been so big for Bending Spoons then Bending Spoons would have been Grindr because we would have probably fully focused on that and",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "yahoo",
+      "type": "company",
+      "role": "company",
+      "name": "Yahoo",
+      "file": "Yahoo",
+      "primary": false,
+      "how_described": "本集作为 AOL 的前东家提到:AOL 需从 Yahoo 手中剥离(carve-out),把所有东西从 Yahoo 平台迁到 Bending Spoons 平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 658,
+          "t": [
+            4027.82,
+            4035.326
+          ],
+          "quote": "We acquired AOL from Yahoo and we had to somehow re-platform everything onto the Bending Spoons platform from the Yahoo one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 668,
+          "t": [
+            4072.119,
+            4076.104
+          ],
+          "quote": "So I'm going to be interviewing Jim Lanzone of Yahoo!",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "mosaicml",
+      "type": "company",
+      "role": "company",
+      "name": "MosaicML",
+      "file": "MosaicML",
+      "primary": false,
+      "how_described": "本集提到的一次大收购:一大套移动应用,收购后 Valli 的团队达到 50 人、管理 80 多个应用;Valli 至今仍在监督它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 623,
+          "t": [
+            3848.03,
+            3851.072
+          ],
+          "quote": "And then there was this one big acquisition, which was Mosaic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 631,
+          "t": [
+            3887.977,
+            3891.399
+          ],
+          "quote": "But you're still managing Mosaic while you're leading AOL.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3891.659,
+            3898.702
+          ],
+          "quote": "I have other managers who support on both the Mosaic acquisition and Remini, which I'm overseeing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "acquisition",
+      "type": "concept",
+      "role": "concept",
+      "name": "并购 (acquisition)",
+      "file": "并购",
+      "primary": true,
+      "how_described": "本集把它说成:Bending Spoons 的核心商业模式——谈判胜负手就是价格,出价能力来自整合后创造价值的运营效率;且从不转卖买下的公司,交割日即全盘接管。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            545.485,
+            553.227
+          ],
+          "quote": "But it was everyone we talked about, I thought we were crazy because it would have been a massive acquisition for us at the time.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 127,
+          "t": [
+            553.747,
+            557.888
+          ],
+          "quote": "The equivalent would be today doing a $20 billion acquisition.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 135,
+          "t": [
+            589.981,
+            594.263
+          ],
+          "quote": "After we actually managed to put together a fully financed acquisition offer,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 174,
+          "t": [
+            921.202,
+            924.748
+          ],
+          "quote": "On the acquisition side, you have a thousand potential targets?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 184,
+          "t": [
+            982.417,
+            988.58
+          ],
+          "quote": "With Tractive we have done our first acquisition of a hardware-enabled digital business.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2416.523,
+            2439.905
+          ],
+          "quote": "Right, so the expression startup mode was born out of the necessity to counter some of the most frequent criticism that we get when we acquire companies, which is that given that the acquisition and integration often entails a decrease in headcount.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 596,
+          "t": [
+            3684.004,
+            3687.647
+          ],
+          "quote": "At some point I got asked to join an acquisition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3811.394,
+            3823.377
+          ],
+          "quote": "So it was a pretty long journey because from this first acquisition I was telling you about, basically we started embedding a few more other mobile apps that were, you know, left without a team here and there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3848.03,
+            3851.072
+          ],
+          "quote": "And then there was this one big acquisition, which was Mosaic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3891.659,
+            3898.702
+          ],
+          "quote": "I have other managers who support on both the Mosaic acquisition and Remini, which I'm overseeing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3899.722,
+            3902.824
+          ],
+          "quote": "Most of my focus right now is on the AOL acquisition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 640,
+          "t": [
+            3922.356,
+            3927.497
+          ],
+          "quote": "Exactly what is the process through an acquisition for you guys?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3938.7,
+            3941.54
+          ],
+          "quote": "What is the process like with an acquisition like that?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3941.68,
+            3949.382
+          ],
+          "quote": "So when we start an acquisition, we always start from some very solid basis on which we believe we can.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            4064.527,
+            4071.672
+          ],
+          "quote": "Many surprises, but again, nothing that would change our excitement about the acquisition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 677,
+          "t": [
+            4099.404,
+            4105.526
+          ],
+          "quote": "But talking with their team and understanding the acquisition, no, it was a very healthy company.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "meritocracy",
+      "type": "concept",
+      "role": "concept",
+      "name": "精英体制 (meritocracy)",
+      "file": "精英体制",
+      "primary": true,
+      "how_described": "本集把它说成:贯彻到创始人自己头上——Matt 发现下属更能创造价值便卸任 CPO 让位,CEO Luca 每年发表单问是否有人能更好领导公司;每个职位都可争取,连 CEO 职位也不例外。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 311,
+          "t": [
+            1739.9,
+            1749.724
+          ],
+          "quote": "Well, one very particularly interesting part of your story and what we were talking before the camera started rolling was how much the culture thrives on meritocracy.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1811.442,
+            1824.111
+          ],
+          "quote": "But, you know, beside the personal experience, I think that this example ties to, as you were saying, the concept of meritocracy and how much we care about meritocracy here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1976.423,
+            1985.967
+          ],
+          "quote": "But again, it's a necessary ingredient of this idea of meritocracy if you want to take it to the extreme consequences and live by it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2124.523,
+            2142.113
+          ],
+          "quote": "Even though we made it a point since the very early days never to look at the founder figure as something different from anybody else, we don't want to idolize it in any possible way, there might be anyway an expectation that no matter how meritocratic you are, there might be limits to that meritocracy.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2142.233,
+            2151.358
+          ],
+          "quote": "For example, if that meritocracy conflicts with a founder, you'll stop applying it.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "extreme-ownership",
+      "type": "concept",
+      "role": "concept",
+      "name": "极致所有权 (extreme ownership)",
+      "file": "极致所有权",
+      "primary": true,
+      "how_described": "本集把它说成:招聘两标准「聪明 + 在乎」中的「在乎」——非常在乎把事情做到惊艳、为团队带来最大影响;也是收购后要带回被收购公司的初创式主人翁意识。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            149.181,
+            160.509
+          ],
+          "quote": "And one of the main takeaways is the density of talent that you have here, the extreme ownership culture, and I guess the quality overall.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 44,
+          "t": [
+            180.274,
+            192.158
+          ],
+          "quote": "And then who care means, and that's the extreme ownership trait you just referenced, it means they care tremendously about being amazing at what they do, delivering the greatest possible impact for the team and the company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 594,
+          "t": [
+            3670.914,
+            3677.84
+          ],
+          "quote": "So how did you develop this intense desire and I guess what you guys call extreme ownership?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "startup-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "startup mode",
+      "file": "startup mode",
+      "primary": true,
+      "how_described": "本集把它说成:为反驳「收购后裁员就不在乎产品」的批评而生的理念——团队规模与产品质量的相关性充其量是轻微的,真正杀死产品的是公司化,要把责任碎片化、层级膨胀、激励错位拆掉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 388,
+          "t": [
+            2410.889,
+            2413.589
+          ],
+          "quote": "One of the things you talk a lot about is startup mode.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2416.523,
+            2439.905
+          ],
+          "quote": "Right, so the expression startup mode was born out of the necessity to counter some of the most frequent criticism that we get when we acquire companies, which is that given that the acquisition and integration often entails a decrease in headcount.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2497.795,
+            2503.277
+          ],
+          "quote": "And startup mode is a very good shortcut for this idea.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2763.598,
+            2771.18
+          ],
+          "quote": "Acquire a company, we go in and we allocate a team is we try to bring back this startup mode.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "talent-density",
+      "type": "concept",
+      "role": "concept",
+      "name": "人才密度 (talent density)",
+      "file": "人才密度",
+      "primary": true,
+      "how_described": "本集把它说成:公司真正的秘密优势——招人只看「聪明且在乎」,少数高密度人才能用更少的人做更多的事,连路演时都希望投资者围绕它深挖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 446,
+          "t": [
+            2843.547,
+            2858.345
+          ],
+          "quote": "So for one talent, talent density, even if you believe that all other things being equal, the companies we acquire are equally attractive to talent than we are.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2932.694,
+            2943.123
+          ],
+          "quote": "So through that mechanism, we're actually able to attract and retain talent that contributes to our talent density being higher, typically.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2943.363,
+            2951.35
+          ],
+          "quote": "And so if you have fewer people where talent density is higher, the typical result is that you can do much more with less.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "vesting",
+      "type": "concept",
+      "role": "concept",
+      "name": "归属期 (vesting)",
+      "file": "归属期",
+      "primary": true,
+      "how_described": "本集说他们彻底取消了它:你某年创造价值就当场奖励,第二天离开照样拿到,因为它对留存毫无影响——年流失率仍低于 1%,留存靠强文化而非金手铐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 240,
+          "t": [
+            1315.867,
+            1319.81
+          ],
+          "quote": "Dropping the vesting was something that we introduced more recently.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1445.243,
+            1451.826
+          ],
+          "quote": "Not creating a vesting structure that created like some weird kind of incentives.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1466.892,
+            1469.313
+          ],
+          "quote": "That's the reason for dropping the vesting.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1509.258,
+            1527.606
+          ],
+          "quote": "uh context but yeah I think the reason why we have this churn despite the fact that we have no red no vesting is also the very strong culture we developed the fact that we hire young talent that then develops within Bending Spoons and and so",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "a-b-test",
+      "type": "concept",
+      "role": "concept",
+      "name": "A/B 测试 (A-B test)",
+      "file": "A/B 测试",
+      "primary": true,
+      "how_described": "本集把它说成:收购后运营的铁律——所有发布一律 A/B 测试,「绝不想让主观意见妨碍成功」,没有真正响应的 KPI 就不上线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 696,
+          "t": [
+            4207.367,
+            4213.954
+          ],
+          "quote": "So we A-B test everything we release because we never want opinions to get in the way of success.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ipo",
+      "type": "concept",
+      "role": "concept",
+      "name": "IPO",
+      "file": "IPO",
+      "primary": true,
+      "how_described": "本集详述了 Bending Spoons 的上市:CEO 不上台敲钟、让财务同事 Laura 按红按钮;上市流程被压缩到远短于常规,Matt 的演讲主题是「不可能?也许吧」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            415.605,
+            425.233
+          ],
+          "quote": "And yes, the person ringing the bell is Laura, one of our colleagues from finance, one of the people who put in the greatest amount of effort toward achieving the IPO.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 476,
+          "t": [
+            3085.702,
+            3099.591
+          ],
+          "quote": "I know we have a few minutes left, but I think it was really great to hear over lunch with you and Francesco, the team, how impactful the IPO was for you all and in many different ways.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 478,
+          "t": [
+            3100.912,
+            3103.353
+          ],
+          "quote": "I know you gave a speech at the IPO.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 487,
+          "t": [
+            3133.932,
+            3141.396
+          ],
+          "quote": "And, you know, the IPO was a sort of like forced stop to that mindset so that like for one day we could just",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 491,
+          "t": [
+            3159.808,
+            3162.73
+          ],
+          "quote": "But in a way, you know, that IPO was like a moment where",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 496,
+          "t": [
+            3199.155,
+            3201.035
+          ],
+          "quote": "I mean, that IPO was a clear example of that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 497,
+          "t": [
+            3202.816,
+            3209.142
+          ],
+          "quote": "We compressed the time it typically takes to IPO to much less than it normally does.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "first-principles",
+      "type": "concept",
+      "role": "concept",
+      "name": "第一性原理 (first principles)",
+      "file": "第一性原理",
+      "primary": false,
+      "how_described": "本集说他们尽可能按第一性原理运作:组织效能最大化要求每个职位由最适合的人占据,由此推导出主管该让位;软件方法上也采取第一性原理路径。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 320,
+          "t": [
+            1825.552,
+            1831.616
+          ],
+          "quote": "We try to operate when possible by first principles.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 704,
+          "t": [
+            4259.563,
+            4283.292
+          ],
+          "quote": "Since Bending Spence is quite the first principles approach to software and you worked across so many products, what are the commonalities between maybe mistakes that were embedded in initial products that you had to fix or kind of intuitive things that were missed or some things that were overlooked within those products?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "tender",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

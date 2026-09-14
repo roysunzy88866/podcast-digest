@@ -31,7 +31,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Joel de la Garza]] · [[Datadog]] · [[Cursor]] · [[GitHub]] · [[智能体]] · [[沙箱]] · [[泄露的凭证]] · [[权限]] · [[数据仓库]] · [[软件供应链]]
+[[Joel de la Garza]] · [[Datadog]] · [[Cursor]] · [[GitHub]] · [[Bloomberg]] · [[智能体]] · [[沙箱]] · [[泄露的凭证]] · [[权限]] · [[数据仓库]]
 
 ## ④ 也在聊「AI 安全」的人
 
@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"Datadog":7,"Cursor":58,"GitHub":22,"智能体":234,"沙箱":42,"泄露的凭证":3,"权限":1,"数据仓库":3,"软件供应链":2}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"Datadog":7,"Cursor":58,"GitHub":22,"Bloomberg":3,"智能体":234,"沙箱":42,"泄露的凭证":3,"权限":1,"数据仓库":3}</script>
 
 <script>
 (function(){

@@ -1,0 +1,202 @@
+{
+  "title_zh": "从 2000 万用户到烧掉重来：Tome 创始人的绝地转型与百万播放打法",
+  "tldr": "Lightfield 创始人 Keith Peiris 讲述从演示产品 Tome 激进转型做 AI 原生 CRM 的全过程，以及卖给 YC 创始人、打造百万播放发布视频的具体打法。",
+  "digest_md": "这一集聊的是一次罕见决绝的创业转型：一家有 2000 万用户、融了 4300 万美元 B 轮的公司，在还没想清楚要做什么之前，就决定关掉旧产品、从 70 人裁到 7 人，从零再来。说这话的人是 Keith Peiris,他创办的 Tome 原本是一款 AI 演示文稿产品，如今改名为 Lightfield,做 AI 原生的 CRM(客户关系管理系统)，正面挑战 Salesforce 和 HubSpot。\n\n## 旧产品的问题：用户多，但没人在乎\n\nKeith 判断一个产品有没有真正扎根的标准很朴素：问一句「如果我们把这个拿走，你会怎么样？」。Tome 有 2000 万用户，ARR 只有几百万美元，获客成本超低(全靠自然流量，不用花钱买增长)，但重复使用率低、净收入留存(NDR,即老客户第二年还愿意付多少钱)只有 20% 左右。他形容：「如果我们把产品拿走，用户会有点难过，然后回到 Google Slides。」[02:24 Keith Peiris]\n\n最刺痛他的对比是：Tome 用户海量，却没有一个足够在乎产品到愿意给反馈；而 Lightfield 最早的版本只做了三个月，缺了 Salesforce 约 99% 的功能，客户却每天在里面用，Slack 全天候被「怎么修、怎么改」的抱怨点亮。「他们对我们做错的事气得跳脚——这里有足够的在意，也许这里面有东西。」[02:24 Keith Peiris]\n\n## 决定转型的两个领悟\n\n第一，Tome 永远做不出惊艳的演示文稿。它缺上下文、缺数据结构，「这个东西永远不会长大、永远不会被那些做 deck 特别厉害的人使用」。顺着「谁做 deck 最多」这条线，他们找到了销售和市场团队，进了 10 家公司做试点——结果几周之内，所有人对「帮我们做 deck」失去了兴趣，转而拉着他们做客户调研、写提案、回复 RFP、写邮件。[04:01 Keith Peiris]\n\n第二，做这些事需要的数据根本不在传统 CRM 里。销售信息散落在通话录音、邮件、Slack、数据仓库里，彼此对不上。「我们就想，等等，在公司内部为客户建一个单一事实来源，这其实是个更重要的问题——因为以后到处都会有智能体，它们稍有错位就会产出糟糕的工作。」[04:01 Keith Peiris]\n\n## 烧掉船只：在不知道做什么之前先归零\n\n中间还有一段更黑暗的弯路：他们一度只做成叠在 Salesforce 和 Snowflake 之上的薄薄一层，数据不专有、模型要付钱给 Anthropic 或 OpenAI,「这个局面可能比 Tome 还糟」。[15:56 Keith Peiris]\n\n真正推动决断的是董事会成员 Dan 的一句话：技术超级周期十年、二十年才一次，你现在太早了，资金和团队都在；如果选软着陆，你会被困在大公司两到四年，出来时这波就结束了。「为什么不干脆烧掉船只，去构建你有信念的东西？」[11:24 Keith Peiris]\n\n于是他们在还不知道要做什么的情况下，关掉旧产品、大幅削减消耗、裁到 7 个人。Keith 的理由：一个半死不活的公司里噪音太多——客户工单、市场活动、infra 账单都还在，「我必须杀死噪音，把所有不想构建新东西的人请出房间」。[19:59 Keith Peiris]\n\n还有一个关键认知支撑了这个决定：**指标是业务天性的副产品，很难靠优化翻盘**。Keith 的强烈看法是「你不可能拿着同一个产品把 NDR 从 20 提到 40,留存几乎是从核心产品继承来的」。他好多创始人朋友说自己的获客成本八年没变过，「第一年你有什么，第五年就大致有什么。你必须决定，这是不是你想玩的游戏」。[12:53 Keith Peiris]\n\n## 为什么选「重造系统记录」这条最难的路\n\n团队最终锁定方向，有四个理由：一要拥有并索引专有数据，不做没有数据的同质化工具；二是技术挑战够硬——做一个智能体化的系统记录(system of record,即公司存放客户事实真相的核心系统)，比「vibe coding 一个 CRM」难得多；三是这个赛道打法怪异到没几个人会试——头几年只能做还没有 CRM 的新公司(Greenfield),服务一个小且高流失的客户群，还得跑得够快，免得客户起量后转投 Salesforce。「我们宁愿攻克一个困难的问题，也不愿解决一个简单问题然后面对一千个竞争者。」[22:24 Keith Peiris] 四是这是个全公司的问题——未来销售填数据，工程、财务、售前都受益，创始团队愿意每天为它干 14 小时。\n\n切入点也是被客户逼出来的：中型市场客户说「不可能换系统记录」，于是他们下沉到 YC 和种子期公司，对方回答：「如果你从第一天就解决好这个问题，我付你的钱会超过 HubSpot,而且只要跟得上我们的需求，我们就一直用。」[25:13 Keith Peiris] 六个月后他们才找准痛点：卖给 YC 公司，第一件事不是卖系统记录，而是帮它做 pipeline 生成——基于它已有的客户建名单、写触达；卖给大公司，则是解决销售与实施交付之间的完美交接，因为「Salesforce 从来不是为智能体设计的」。\n\n## 怎么卖给 YC 创始人\n\nKeith 的打法有三招：\n\n- **换渠道、换开场**：不用冷邮件，用 LinkedIn(对方一点击就能看到你的资料和可信度)；从不以「买我的产品」开场，而是请人来办公室办晚宴、请 HubSpot 的 CRO 和《Predictable Revenue》的作者来演讲——「我们不会向你推销任何东西」。请动作者的代价是买他 100 本书送给到场观众。[30:25 Keith Peiris]\n- **免费换参考客户**：复杂软件很难靠讲清楚赢，客户只看参考案例。前 10 个 YC「客户」根本不是客户——免费送，共建 Slack,「不停下来，直到你们满意」。这个圈子高度互联，满意后开始在 Telegram 群和 Bookface 发帖，转介绍自然来了，这时才开始收费。[32:13 Keith Peiris]\n- **销售哲学本身**：冷触达应该是最后手段。第一手段是激活过去两年聊过的每个人，第二是挖自己和投资人的网络要引荐，第三是去社交平台找正在谈论这个问题的人。「要做到这些，我不能只买 Clay,我需要一个完整的网络系统记录。」[28:19 Keith Peiris]\n\n## 百万播放发布视频的完整打法\n\nLightfield 至少有四支发布视频播放量破百万。Keith 强调他们优化的不是播放量，而是「ICP 里的人看视频时有感觉」——当时的 ICP 定义得极窄：正处于找到产品市场契合边缘的 B2B 种子前创始人创作者，「我们不在乎后期阶段的 CRO 把它当不当回事」。[36:44 Keith Peiris]\n\n具体做法：①讲英雄之旅的故事而不是产品演示——「人人都有产品演示，全都有智能体，看起来都差不多」。他们的视频讲一个把软件卖给建筑公司的创始人：第一通销售电话被无视，第二通被搪塞下季度再来，直到他和联合创始人在 Lightfield 里查询，收到一句「你有没有想过在 discovery 电话里换种方式框定问题？」——就是一次平平无奇的聊天交互，却让办公室里试看的一位创始人眼里泛起泪光。「那就是我们要围绕它构建视频的东西。」[41:36 Keith Peiris] ②制作门槛很高：花了两个月、低六位数预算、约一分半到两分钟，「前 10 版都不怎么样」，反复打磨，并直接放给目标客户看、追问「你会在发布日转发吗？你想买吗？」。③分发是同步引爆：提前联系约 500 人(天使投资人、客户、朋友、配偶)，发日历邀请，周四早上同时点赞、评论、转发——「这是你要为让公司运转起来向整个关系网请求的三大人情之一，必须同时进行才能打到算法上」。[39:45 Keith Peiris]\n\n一个反直觉的选择：他们不纠结前五秒的钩子。试过十秒内就抓人的版本，「然后它就不是个有吸引力的故事了」。Keith 把这当成创业方法论本身：「你所能做的就是尽你所能做出最好的产品、尽可能努力地工作，市场那边该发生什么就发生什么。」[43:30 Keith Peiris]\n\n## 本集带走\n\n- **用「拿走测试」判断产品是否扎根**：问客户「如果把这个拿走会怎样」——回答「有点难过，回到旧工具」说明没戏；每天在用、气得跳脚提反馈，才是真正有戏的信号。\n- **指标翻不了盘，业务天性才能**：NDR 从 20 到 40 不靠优化同一个产品实现；获客成本这类指标第一年是什么，第五年大致还是什么。核心不对，销售和营销上的努力只有正负 5-10%。\n- **敢在没想清楚前先归零**：关掉半死不活的旧产品、把消耗砍到底、把不想做新东西的人请出房间——半运转公司的噪音，是思考新方向的头号敌人。\n- **有分发就别从零开始**：旧产品的客户关系是资产，带着「我的客户还有什么更痛的问题」的开放心态进去，问题自己会把方向拽出来。\n- **卖复杂软件：免费送 + 活动做人情**：前 10 个客户免费换满意，靠圈子的转介绍起量；用请名人演讲、办晚宴代替冷邮件，LinkedIn 开场先给背景不推产品。\n- **发布视频：窄定受众、讲故事、同步引爆**：不优化播放量，优化「目标人群看了有感觉」；两个月、低六位数、反复迭代；发布日组织几百人同一时刻点赞评论转发。",
+  "quotes": [
+    {
+      "en": "I'll give a hot take here, which is that, you know, I think everyone says, keep talking to customers, keep finding what your users care about. I think a startup is a deeply personal thing.",
+      "zh": "我给一个火辣的观点：人人都说持续和客户交流、找到用户在乎什么，但我认为创业是一件非常个人化的事。",
+      "timestamp": "00:34",
+      "speaker": "Keith Peiris"
+    },
+    {
+      "en": "And if you are that obsessed about something, it turns out that there will be customers in the world that are as obsessed as you.",
+      "zh": "如果你对某件事如此痴迷，结果表明，这个世界上会有和你一样痴迷的客户。",
+      "timestamp": "00:52",
+      "speaker": "Keith Peiris"
+    },
+    {
+      "en": "But the thing that was missing was that, you know, it wasn't like an indispensable part of anyone's life. If I asked our customers, what would happen if we took this away? I think they would be like, yeah, be a little sad. I'd go back to Google Slides.",
+      "zh": "缺失的是，它并不是任何人生活中不可或缺的一部分。如果我问客户，把这个拿走会怎么样？他们会说，嗯，会有点难过，我回到 Google Slides 就好。",
+      "timestamp": "02:33",
+      "speaker": "Keith Peiris"
+    },
+    {
+      "en": "This is a presentations product and it's never going to be capable of making amazing presentations. It was just missing the context. It was missing the data structure.",
+      "zh": "这是一个演示文稿产品，但它永远做不出惊艳的演示文稿。它缺上下文，缺数据结构。",
+      "timestamp": "04:14",
+      "speaker": "Keith Peiris"
+    },
+    {
+      "en": "He was like, dude, why not just burn the boats and go build the thing that you have conviction in?",
+      "zh": "他说，兄弟，为什么不干脆烧掉船只，去构建你有信念的东西呢？",
+      "timestamp": "12:40",
+      "speaker": "Keith Peiris"
+    },
+    {
+      "en": "My strong view on this is that you can't take the same product and take NDR from 20 to 40. I think you almost like inherit retention based off of the core product.",
+      "zh": "我在这点上有个强烈的看法：你不可能拿着同一个产品把 NDR 从 20 提到 40。留存几乎是从核心产品继承来的。",
+      "timestamp": "12:54",
+      "speaker": "Keith Peiris"
+    },
+    {
+      "en": "I have so many friends who are founders and they're like, my CAC has not changed in eight years.",
+      "zh": "我有好多创始人朋友说，我的获客成本八年没变过。",
+      "timestamp": "14:14",
+      "speaker": "Keith Peiris"
+    },
+    {
+      "en": "We started to sit back and be like, did any of us really wake up to build like this point solution, GTM piece of tech that's like hard to sell, hard to convert?",
+      "zh": "我们退后一步想：我们中真的有人每天醒来，是想做这种难卖、难转化的 GTM 单点技术吗？",
+      "timestamp": "17:35",
+      "speaker": "Keith Peiris"
+    },
+    {
+      "en": "There's sort of like a, like a toxic quality in the air of like, you know, do these guys even know what they're doing? And the truth is we, you know, we, we didn't.",
+      "zh": "空气里有一种有毒的东西，就像，这帮人到底知不知道自己在干什么？而事实是，我们当时确实不知道。",
+      "timestamp": "20:14",
+      "speaker": "Keith Peiris"
+    },
+    {
+      "en": "And actually, that difficulty made us excited because we were like, we'd rather tackle a difficult problem than tackle an easy problem and have like a thousand competitors.",
+      "zh": "这种难度反而让我们兴奋，因为我们宁愿攻克一个困难的问题，也不愿解决一个简单问题然后面对一千个竞争者。",
+      "timestamp": "23:41",
+      "speaker": "Keith Peiris"
+    },
+    {
+      "en": "And Salesforce was never designed for FTEs.",
+      "zh": "而 Salesforce 从来不是为智能体设计的。",
+      "timestamp": "27:52",
+      "speaker": "Keith Peiris"
+    },
+    {
+      "en": "We sort of had this realization of cold should be your last resort. Like your first resort should be go find everyone you've spoken to in the past two years, you know, and try to reactivate them.",
+      "zh": "我们有过这样一个认识：冷触达应该是你的最后手段。第一手段应该是找过去两年聊过的每一个人，试着重新激活他们。",
+      "timestamp": "28:28",
+      "speaker": "Keith Peiris"
+    },
+    {
+      "en": "It turns out the easiest way to get good reference customers is to give your software away for free to a couple of people in that network and work hard until they're happy.",
+      "zh": "结果表明，拿到优质参考客户最简单的方法，就是把软件免费送给圈子里的一小部分人，然后努力工作直到他们满意。",
+      "timestamp": "32:30",
+      "speaker": "Keith Peiris"
+    },
+    {
+      "en": "We actually weren't optimizing for a million views. We were optimizing for the people in our ICP feel something when they watch this.",
+      "zh": "我们实际上并不是在优化一百万播放量。我们是在优化让 ICP 里的人看这个视频时有感觉。",
+      "timestamp": "36:58",
+      "speaker": "Keith Peiris"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:40",
+      "speaker": "Keith Peiris",
+      "en": "I'll give a hot take here, which is that, you know, I think everyone says, keep talking to customers, keep finding what your users care about. I think a startup is a deeply personal thing.",
+      "zh": "我给一个火辣的观点：人人都说持续和客户交流、找到用户在乎什么，但我认为创业是一件非常个人化的事。"
+    },
+    {
+      "timestamp": "00:55",
+      "speaker": "Keith Peiris",
+      "en": "And if you are that obsessed about something, it turns out that there will be customers in the world that are as obsessed as you.",
+      "zh": "如果你对某件事如此痴迷，结果表明，这个世界上会有和你一样痴迷的客户。"
+    },
+    {
+      "timestamp": "02:24",
+      "speaker": "Keith Peiris",
+      "en": "But the thing that was missing was that, you know, it wasn't like an indispensable part of anyone's life. If I asked our customers, what would happen if we took this away? I think they would be like, yeah, be a little sad. I'd go back to Google Slides.",
+      "zh": "缺失的是，它并不是任何人生活中不可或缺的一部分。如果我问客户，把这个拿走会怎么样？他们会说，嗯，会有点难过，我回到 Google Slides 就好。"
+    },
+    {
+      "timestamp": "02:24",
+      "speaker": "Keith Peiris",
+      "en": "Whereas with Lightfield, our slacks were lit up, you know, 24-7, 365, about stuff that could be better, stuff we need to fix, stuff that could be different.",
+      "zh": "而 Lightfield,我们的 Slack 一年 365 天、全天候被点亮，全是在说哪些可以更好、哪些要修、哪些可以做得不一样。"
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "Keith Peiris",
+      "en": "This is a presentations product and it's never going to be capable of making amazing presentations. It was just missing the context. It was missing the data structure.",
+      "zh": "这是一个演示文稿产品，但它永远做不出惊艳的演示文稿。它缺上下文，缺数据结构。"
+    },
+    {
+      "timestamp": "06:23",
+      "speaker": "Keith Peiris",
+      "en": "And we're like, wait a minute, this actually seems like a more important problem, you know, creating like a single source of truth on a customer, you know, inside of a company.",
+      "zh": "我们就想，等等，在公司内部为客户建一个单一事实来源，这看起来才是一个更重要的问题。"
+    },
+    {
+      "timestamp": "06:23",
+      "speaker": "Keith Peiris",
+      "en": "And if they're a little misaligned, they're going to create bad work. And also companies are getting a little smaller and a little flatter.",
+      "zh": "智能体如果稍有错位，就会产出糟糕的工作。而且公司正变得更小、更扁平。"
+    },
+    {
+      "timestamp": "12:38",
+      "speaker": "Keith Peiris",
+      "en": "He was like, dude, why not just burn the boats and go build the thing that you have conviction in?",
+      "zh": "他说，兄弟，为什么不干脆烧掉船只，去构建你有信念的东西呢？"
+    },
+    {
+      "timestamp": "12:53",
+      "speaker": "Keith Peiris",
+      "en": "My strong view on this is that you can't take the same product and take NDR from 20 to 40. I think you almost like inherit retention based off of the core product.",
+      "zh": "我在这点上有个强烈的看法：你不可能拿着同一个产品把 NDR 从 20 提到 40。留存几乎是从核心产品继承来的。"
+    },
+    {
+      "timestamp": "14:10",
+      "speaker": "Keith Peiris",
+      "en": "I have so many friends who are founders and they're like, my CAC has not changed in eight years.",
+      "zh": "我有好多创始人朋友说，我的获客成本八年没变过。"
+    },
+    {
+      "timestamp": "16:42",
+      "speaker": "Keith Peiris",
+      "en": "We started to sit back and be like, did any of us really wake up to build like this point solution, GTM piece of tech that's like hard to sell, hard to convert?",
+      "zh": "我们退后一步想：我们中真的有人每天醒来，是想做这种难卖、难转化的 GTM 单点技术吗？"
+    },
+    {
+      "timestamp": "20:32",
+      "speaker": "Keith Peiris",
+      "en": "There's sort of like a, like a toxic quality in the air of like, you know, do these guys even know what they're doing? And the truth is we, you know, we, we didn't.",
+      "zh": "空气里有一种有毒的东西，就像，这帮人到底知不知道自己在干什么？而事实是，我们当时确实不知道。"
+    },
+    {
+      "timestamp": "23:07",
+      "speaker": "Keith Peiris",
+      "en": "And actually, that difficulty made us excited because we were like, we'd rather tackle a difficult problem than tackle an easy problem and have like a thousand competitors.",
+      "zh": "这种难度反而让我们兴奋，因为我们宁愿攻克一个困难的问题，也不愿解决一个简单问题然后面对一千个竞争者。"
+    },
+    {
+      "timestamp": "27:40",
+      "speaker": "Keith Peiris",
+      "en": "And Salesforce was never designed for FTEs.",
+      "zh": "而 Salesforce 从来不是为智能体设计的。"
+    },
+    {
+      "timestamp": "28:19",
+      "speaker": "Keith Peiris",
+      "en": "We sort of had this realization of cold should be your last resort. Like your first resort should be go find everyone you've spoken to in the past two years, you know, and try to reactivate them.",
+      "zh": "我们有过这样一个认识：冷触达应该是你的最后手段。第一手段应该是找过去两年聊过的每一个人，试着重新激活他们。"
+    },
+    {
+      "timestamp": "32:13",
+      "speaker": "Keith Peiris",
+      "en": "It turns out the easiest way to get good reference customers is to give your software away for free to a couple of people in that network and work hard until they're happy.",
+      "zh": "结果表明，拿到优质参考客户最简单的方法，就是把软件免费送给圈子里的一小部分人，然后努力工作直到他们满意。"
+    },
+    {
+      "timestamp": "36:44",
+      "speaker": "Keith Peiris",
+      "en": "We actually weren't optimizing for a million views. We were optimizing for the people in our ICP feel something when they watch this.",
+      "zh": "我们实际上并不是在优化一百万播放量。我们是在优化让 ICP 里的人看这个视频时有感觉。"
+    },
+    {
+      "timestamp": "43:30",
+      "speaker": "Keith Peiris",
+      "en": "All you can do is build the best product you can, work as hard as you can, right? You know, whatever happens, happens with the market.",
+      "zh": "你所能做的就是尽你所能做出最好的产品、尽可能努力地工作，市场那边该发生什么就发生什么。"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊一个挺少见的创业故事:一家有两千万用户、融了四千三百万美元B轮的公司,决定把产品关掉,从七十个人裁到七个人,从零再来。而且做这个决定的时候,他们还不知道自己接下来要做什么。\n\n说这话的人叫 Keith Peiris,他创办的公司原本叫 Tome,是一款AI演示文稿产品。现在这家公司改名叫 Lightfield,做AI原生的CRM,也就是客户关系管理系统,正面去挑战Salesforce和HubSpot这种巨头。那问题来了——好端端的两千万用户,为什么要烧掉重来?这期就顺着这条线讲透。\n\n先说旧产品的问题。判断一个产品有没有真正扎根,Keith的标准很朴素,就问一句:如果我们把这个拿走,你会怎么样?Tome有两千万用户,年收入几百万美元,获客成本超低,全靠自然流量,不用花钱买增长。听起来挺风光对吧?但重复使用率很低,净收入留存只有百分之二十左右。净收入留存是什么意思呢,就是老客户第二年还愿意付多少钱。Keith形容说,如果问客户把产品拿走会怎么样,他们会说,嗯,会有点难过,我回到Google Slides就好。\n\n而最刺痛他的,是一个对比。Tome用户海量,却没有一个人足够在乎这个产品,在乎到愿意给反馈。而Lightfield最早的版本只做了三个月,比Salesforce缺了大约百分之九十九的功能,客户却每天在里面用,Slack全天候被\"怎么修、怎么改\"的抱怨点亮。用他的话说,客户对他们做错的事气得跳脚——这里有足够的在意,也许这里面有东西。\n\n那旧产品到底为什么不行?两个领悟。第一,Tome永远做不出惊艳的演示文稿,因为它缺上下文、缺数据结构。他们顺着\"谁做deck最多\"这条线去找答案,找到了销售和市场团队,进了十家公司做试点。结果几周之内,所有人对\"帮我们做deck\"失去了兴趣,转而拉着他们做客户调研、写提案、回复招标文件、写邮件。\n\n第二个领悟紧跟着就来了:做这些事需要的数据,根本不在传统CRM里。销售信息散落在通话录音、邮件、Slack、数据仓库里,彼此对不上。他们就意识到,在公司内部为客户建一个单一事实来源,这其实是个更重要的问题——因为以后到处都会有智能体,它们稍有错位,就会产出糟糕的工作。\n\n方向有了,但真要下决心归零,还需要推一把。中间其实还有一段更黑暗的弯路:他们一度只做成叠在Salesforce和Snowflake之上的薄薄一层,数据不专有,模型还要付钱给Anthropic或者OpenAI。这个局面,可能比Tome还糟。真正推动决断的,是董事会成员Dan的一句话:技术超级周期十年、二十年才一次,你现在太早了,资金和团队都在;如果选软着陆,你会被困在大公司两到四年,出来时这波就结束了。Dan说,兄弟,为什么不干脆烧掉船只,去构建你有信念的东西呢?\n\n于是就有了开头那一幕:在还不知道要做什么的情况下,关掉旧产品、大幅削减消耗、裁到七个人。为什么要这么绝?因为一个半死不活的公司里噪音太多——客户工单、市场活动、服务器账单都还在。必须杀死噪音,把所有不想构建新东西的人请出房间。还有一个认知在背后支撑:指标是业务天性的副产品,很难靠优化翻盘。Keith有个强烈的看法:你不可能拿着同一个产品把净收入留存从二十提到四十,留存几乎是从核心产品继承来的。他好多创始人朋友,获客成本八年没变过。第一年你有什么,第五年就大致有什么。你必须决定,这是不是你想玩的游戏。\n\n那归零之后,方向怎么定?他们最终锁定\"重造系统记录\"这条路——系统记录,说白了就是公司存放客户事实真相的核心系统。选这条最难的路,有四个理由:一,要拥有并索引专有数据,不做没有数据的同质化工具;二,技术挑战够硬,做一个智能体化的系统记录,比随便糊一个CRM难得多;三,这个赛道打法怪异到没几个人会试,头几年只能做还没有CRM的新公司,服务一个又小、流失率又高的客户群;四,这是个全公司的问题,销售填数据,工程、财务、售前都受益。他们的态度是:宁愿攻克一个困难的问题,也不愿解决一个简单问题然后面对一千个竞争者。\n\n切入点其实也是被客户逼出来的。中型市场客户说,不可能换系统记录。于是他们下沉到YC和种子期的公司,对方的回答是:如果你从第一天就解决好这个问题,我付你的钱会超过HubSpot,而且只要跟得上我们的需求,就一直用。六个月之后他们才找准痛点:卖给YC公司,第一件事不是卖系统记录,而是帮它做pipeline生成,也就是基于客户已有的客户去建名单、写触达;卖给大公司,则是解决销售和实施交付之间的完美交接,因为Salesforce从来不是为智能体设计的。\n\n方向有了,怎么卖?Keith有三招。第一招,换渠道、换开场。不用冷邮件,用LinkedIn,对方一点击就能看到你的资料和可信度;而且从不以\"买我的产品\"开场,而是请人来办公室办晚宴,请HubSpot的CRO、请《Predictable Revenue》的作者来演讲,声明\"我们不会向你推销任何东西\"。请动作者的代价,是买他一百本书送给到场观众。第二招,免费换参考客户。复杂软件很难靠讲清楚赢,客户只看参考案例,所以前十家YC的所谓\"客户\"根本不是客户——免费送,共建Slack,不停下来,直到对方满意。这个圈子高度互联,满意之后开始在Telegram群和Bookface发帖,转介绍自然就来了,这时候才开始收费。第三招是销售哲学本身:冷触达应该是最后手段。第一手段是激活过去两年聊过的每个人,第二是挖自己和投资人的网络要引荐,第三是去社交平台找正在谈论这个问题的人。\n\n产品之外,他们还有一样做得特别绝的东西:发布视频,至少四支播放量破百万。但Keith强调,他们优化的不是播放量,而是\"目标客户里的人看视频时有感觉\"——当时的受众定义得极窄,就是正处于找到产品市场契合边缘的B2B种子期创始人,后期阶段的销售高管在不在乎,无所谓。具体怎么做?第一,讲英雄之旅的故事,而不是产品演示。原话是:人人都有产品演示,全都有智能体,看起来都差不多。他们的视频讲一个把软件卖给建筑公司的创始人:第一通销售电话被无视,第二通被搪塞下季度再来,直到他在Lightfield里查询,收到一句\"你有没有想过在首次电话里换种方式框定问题?\"——就是一次平平无奇的聊天交互,却让办公室里试看的一位创始人眼里泛起泪光。第二,制作门槛很高:花两个月、低六位数预算,做一分半到两分钟,前十版都不怎么样,反复打磨,直接放给目标客户看,追问\"你会在发布日转发吗?你想买吗?\"第三,分发是同步引爆:提前联系大约五百个人,天使投资人、客户、朋友、配偶,发日历邀请,周四早上同时点赞、评论、转发——必须同时进行,才能打到算法上。还有一个反直觉的选择:他们不纠结前五秒的钩子。试过十秒内就抓人的版本,结果它就不是一个有吸引力的故事了。\n\n回过头看,这一集其实讲了一个朴素的道理:产品扎根不扎根,不看用户多不多,看的是把东西拿走之后,人家会不会真的心疼。指标翻不了盘,业务天性才能。而用Keith自己的话说,你所能做的,就是尽你所能做出最好的产品、尽可能努力地工作,市场那边该发生什么就发生什么。"
+}

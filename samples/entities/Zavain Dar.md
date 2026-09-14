@@ -53,7 +53,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]] [[Demetrios Brinkmann]]
+[[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Eric Newcomer]]
 
 </div>
 

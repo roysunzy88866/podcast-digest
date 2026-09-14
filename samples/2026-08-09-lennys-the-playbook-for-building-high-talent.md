@@ -127,7 +127,7 @@ Adam 说现在的竞争激烈程度如果是十分制，那就是十一分。一
 
 - [[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局]]<span class="pd-rz">同公司:Anthropic · 同概念:前置部署工程师 (forward-deployed engineer)</span>
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]]<span class="pd-rz">同概念:人才密度 (talent density)</span>
-- [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同概念:go-to-market、前置部署工程师 (forward-deployed engineer)、智能体 (agent)</span>
+- [[2026-09-14-sourcery-inside-bending-spoons-buying-airtable--a|Bending Spoons：买下 AOL 与 Vimeo 的「收购机器」是怎么炼成的]]<span class="pd-rz">同概念:人才密度 (talent density)</span>
 
 </div>
 <div class="pd-ex">

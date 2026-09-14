@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]]
+[[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Vestwell":1,"Morgan Stanley":1,"JP Morgan":3,"401(k)":1,"贴牌纯软件":1,"企业销售":3,"产品市场契合":19}</script>
+<script type="application/json" class="pd-epn">{"Vestwell":1,"Morgan Stanley":1,"JP Morgan":3,"401(k)":1,"贴牌纯软件":1,"企业销售":3,"产品市场契合":20}</script>
 
 <script>
 (function(){

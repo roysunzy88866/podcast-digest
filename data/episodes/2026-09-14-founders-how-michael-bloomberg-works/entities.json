@@ -1,0 +1,859 @@
+{
+  "episode_id": "2026-09-14-founders-how-michael-bloomberg-works",
+  "podcast": "Founders",
+  "date": "2026-09-14",
+  "tags": [
+    "创业心法",
+    "销售",
+    "公司故事",
+    "媒体业务",
+    "小赌注与迭代"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "bloomberg",
+      "type": "company",
+      "role": "company",
+      "name": "Bloomberg",
+      "file": "Bloomberg",
+      "primary": true,
+      "how_described": "本集讲述 Michael Bloomberg 被解雇后用 1000 万美元创办的金融信息公司，现为世界上最有价值的私人持有公司之一；他强调业务是生产和分发最准确、最实时的信息与分析，而非硬件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            83.011,
+            86.954
+          ],
+          "quote": "So that is from the beginning of the book that we talked about today, which is the autobiography of Michael Bloomberg.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            87.214,
+            95.422
+          ],
+          "quote": "It is called Bloomberg by Bloomberg, and he's describing the fact that getting fired was one of the best things that ever happened to him.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            102.946,
+            104.747
+          ],
+          "quote": "And so Bloomberg said, I didn't look back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            112.572,
+            114.433
+          ],
+          "quote": "And so Bloomberg grew up working class.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            235.894,
+            246.584
+          ],
+          "quote": "I think Michael Bloomberg would agree with what Ken Griffin was saying, talks a lot about the importance of selling and that this point in his life was hugely beneficial in the future decades of him building his own company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            280.445,
+            283.447
+          ],
+          "quote": "He was probably the best salesperson of Bloomberg when he starts it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            364.31,
+            373.176
+          ],
+          "quote": "The year is 1966 and Michael Bloomberg is 24 years old and he talks about the difference in leadership between the two different people that are gonna run the firm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            651.509,
+            653.971
+          ],
+          "quote": "We are not yet in the story, though, where he starts Bloomberg.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            745.409,
+            756.655
+          ],
+          "quote": "But this, he would have never got the $10 million and then, therefore, the seed capital he needed to start Bloomberg, this, you know, this very valuable business that he still owns today, if it wasn't for the things that he's doing at this point in his career.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            763.119,
+            765.72
+          ],
+          "quote": "Bloomberg is unapologetically extreme and he's also very, very direct.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            830.707,
+            833.409
+          ],
+          "quote": "There's a handful of ideas that Bloomberg repeats throughout this entire book.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            975.087,
+            977.868
+          ],
+          "quote": "A reporter asked me what we at Bloomberg had failed at.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1045.307,
+            1048.189
+          ],
+          "quote": "And then he brings the story to after he got fired and starting Bloomberg.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1048.249,
+            1052.752
+          ],
+          "quote": "And again, I've said this a few times, I think Bloomberg is unapologetically extreme.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1176.282,
+            1181.285
+          ],
+          "quote": "And so he gives an example of this happening early in his career, or early in the days of Bloomberg, I should say.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1200.179,
+            1203.503
+          ],
+          "quote": "He left to advise his partners not to buy from Bloomberg.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1211.792,
+            1218.079
+          ],
+          "quote": "At Bloomberg, and then he's talking about work on product and sales first and work on them in parallel, and then you can work on everything else after that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1218.179,
+            1220.481
+          ],
+          "quote": "At Bloomberg, we always built the product first.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1526.352,
+            1535.154
+          ],
+          "quote": "Over time, the Bloomberg terminal evolved to allow users to run an ever wider array of functions developed by our more than 5,000 programmers and engineers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1592.667,
+            1600.17
+          ],
+          "quote": "So then we get to the very important role that Merrill Lynch plays in Bloomberg Stories, not only their first customer, they're their first major investor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1610.817,
+            1616.042
+          ],
+          "quote": "And around 1996, Michael Bloomberg buys back 10% of the 30%, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1621.495,
+            1633.119
+          ],
+          "quote": "So then about 10 years later in 2008, Michael Bloomberg buys the remaining 20% that Merrill Lynch still owned from this investment they made in 1982 for $4.4 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1817.138,
+            1822.242
+          ],
+          "quote": "Keeps hearing about Bloomberg and this Bloomberg terminal and trying to figure out, okay, what's going on?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 463,
+          "t": [
+            1824.504,
+            1827.387
+          ],
+          "quote": "And he's like, okay, I'm going to go and like interview Michael Bloomberg.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1828.165,
+            1832.848
+          ],
+          "quote": "And so in this part of the book, this is where Bloomberg is describing this first meeting they have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 481,
+          "t": [
+            1880.536,
+            1885.641
+          ],
+          "quote": "And so as Michael Bloomberg builds a relationship with Matt Winkler, he starts seeking Matt's advice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 500,
+          "t": [
+            1966.537,
+            1969.499
+          ],
+          "quote": "Fundamentally, at Bloomberg, we're builders, not buyers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 504,
+          "t": [
+            1981.567,
+            1984.829
+          ],
+          "quote": "I handed him a three page list of what Bloomberg News should be doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            1988.071,
+            1992.334
+          ],
+          "quote": "It should also advertise the analytical and computational powers of the Bloomberg terminal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2056.598,
+            2058.88
+          ],
+          "quote": "A subscription to Bloomberg costs about $22,000 a year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2069.11,
+            2077.359
+          ],
+          "quote": "When customers complain that it's expensive, we tell them, if you can't make $88 a day using Bloomberg, you have a bigger problem than our bill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2081.242,
+            2085.005
+          ],
+          "quote": "I should say, at this point in the story, his company is not called Bloomberg.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2189.2,
+            2190.721
+          ],
+          "quote": "Before they were called Bloomberg Terminals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2205.253,
+            2209.078
+          ],
+          "quote": "Henceforth, the product and the company itself would be Bloomberg.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2309.122,
+            2320.807
+          ],
+          "quote": "He suggested now instead of he goes, so you should buy this, but then you also need somebody in-house to develop audio and video programming at Bloomberg and you should hire me and two other guys to do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2321.287,
+            2324.889
+          ],
+          "quote": "Once again, I said television and radio makes no sense for Bloomberg and I hung up the phone.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2359.577,
+            2362.438
+          ],
+          "quote": "He says, people often ask me why Bloomberg ventured into radio and TV.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2386.645,
+            2391.347
+          ],
+          "quote": "The more exposure Bloomberg has to the fourth estate, the more they'll promote us to the general public.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2419.032,
+            2422.534
+          ],
+          "quote": "is a ad for the Bloomberg subscription.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2424.916,
+            2428.378
+          ],
+          "quote": "Again, everything they do increases the likelihood of selling Bloomberg subscriptions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2469.31,
+            2473.473
+          ],
+          "quote": "Everything we're doing is just increasing the likelihood of selling more Bloomberg subscriptions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2491.926,
+            2497.508
+          ],
+          "quote": "Bloomberg is in the business of giving its customers the information they need in whatever form is most appropriate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 656,
+          "t": [
+            2558.045,
+            2561.047
+          ],
+          "quote": "Every day at Bloomberg, we face challenges that jeopardize our comfortable life.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 662,
+          "t": [
+            2581.875,
+            2584.616
+          ],
+          "quote": "Michael Bloomberg says, what can we do that our competitors can't?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2635.286,
+            2639.69
+          ],
+          "quote": "So a few years after founding Bloomberg, I think it was in the 90s.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 680,
+          "t": [
+            2669.098,
+            2675.003
+          ],
+          "quote": "He says, since Bloomberg was always up against companies many times our size, we had to enter each commercial fight with an advantage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 682,
+          "t": [
+            2678.867,
+            2680.929
+          ],
+          "quote": "At Bloomberg, we do not want fair fights.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 691,
+          "t": [
+            2708.602,
+            2709.942
+          ],
+          "quote": "Bloomberg is saying the exact same thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "salomon-brothers",
+      "type": "company",
+      "role": "company",
+      "name": "Salomon Brothers",
+      "file": "Salomon Brothers",
+      "primary": true,
+      "how_described": "Bloomberg 待了 15 年、39 岁被解雇并拿到 1000 万美元遣散费的华尔街公司；他在那里练出了销售元技能、让自己对老板不可或缺的本事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.112,
+            10.493
+          ],
+          "quote": "John Gutfried, managing partner of Wall Street's hottest firm, told me that my life as Salomon Brothers was finished.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            167.537,
+            175.805
+          ],
+          "quote": "Steve told me to call the firms of Salomon Brothers and Goldman Sachs to say that I was desperate to be an institutional salesperson or an equity trader.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            176.566,
+            180.89
+          ],
+          "quote": "Who are they, meaning who is Goldman Sachs and who is Salomon Brothers, and what would I be doing?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            653.991,
+            659.577
+          ],
+          "quote": "He's still telling us essentially lessons that he learned at Salomon Brothers that he would use when he built his own company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            661.579,
+            664.822
+          ],
+          "quote": "This is a year after he starts working at Salomon Brothers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1241.558,
+            1247.22
+          ],
+          "quote": "I deposited $300,000 of my Salomon Brothers Windfall into a corporate checking account.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "merrill-lynch",
+      "type": "company",
+      "role": "company",
+      "name": "Merrill Lynch",
+      "file": "Merrill Lynch",
+      "primary": true,
+      "how_described": "Bloomberg 的第一个大客户和主要投资人：1982 年以 3000 万美元买下 30% 股份，后来 Bloomberg 分两笔以 2 亿和 44 亿美元买回，美林赚约 46 亿；还派两名交易员天天挑刺帮他打磨产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 361,
+          "t": [
+            1397.407,
+            1400.429
+          ],
+          "quote": "And it bought us our first sale to Merrill Lynch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1401.009,
+            1404.173
+          ],
+          "quote": "And then I love that he sold to Merrill Lynch before he had a product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1592.667,
+            1600.17
+          ],
+          "quote": "So then we get to the very important role that Merrill Lynch plays in Bloomberg Stories, not only their first customer, they're their first major investor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1621.495,
+            1633.119
+          ],
+          "quote": "So then about 10 years later in 2008, Michael Bloomberg buys the remaining 20% that Merrill Lynch still owned from this investment they made in 1982 for $4.4 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1633.679,
+            1639.961
+          ],
+          "quote": "So a way to think about that is for $30 million invested in 1982, Merrill Lynch makes what?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1647.626,
+            1653.691
+          ],
+          "quote": "And so he has two traders working at Merrill Lynch that are essentially telling him everything about the product that needs to be fixed so it's useful to them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "goldman-sachs",
+      "type": "company",
+      "role": "company",
+      "name": "Goldman Sachs",
+      "file": "Goldman Sachs",
+      "primary": false,
+      "how_described": "本集提到 Bloomberg 毕业时同时拿到高盛和所罗门的 offer，高盛开 14000 美元年薪，但他选择了所罗门。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            167.537,
+            175.805
+          ],
+          "quote": "Steve told me to call the firms of Salomon Brothers and Goldman Sachs to say that I was desperate to be an institutional salesperson or an equity trader.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            176.566,
+            180.89
+          ],
+          "quote": "Who are they, meaning who is Goldman Sachs and who is Salomon Brothers, and what would I be doing?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            300.537,
+            304.9
+          ],
+          "quote": "And so I absolutely love this part because he winds up getting an offer from both Goldman Sachs and Solomon Brothers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg-terminal",
+      "type": "concept",
+      "role": "concept",
+      "name": "Bloomberg 终端 (Bloomberg terminal)",
+      "file": "Bloomberg 终端",
+      "primary": true,
+      "how_described": "本集说它从 1983 年「差不多按时」交付的「勉强能用」的机器起步，让没受过专业训练的人敲一个键就得到财务答案，订阅一年约 22000 美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 393,
+          "t": [
+            1526.352,
+            1535.154
+          ],
+          "quote": "Over time, the Bloomberg terminal evolved to allow users to run an ever wider array of functions developed by our more than 5,000 programmers and engineers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1817.138,
+            1822.242
+          ],
+          "quote": "Keeps hearing about Bloomberg and this Bloomberg terminal and trying to figure out, okay, what's going on?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            1988.071,
+            1992.334
+          ],
+          "quote": "It should also advertise the analytical and computational powers of the Bloomberg terminal.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg-news",
+      "type": "concept",
+      "role": "concept",
+      "name": "Bloomberg News",
+      "file": "Bloomberg News",
+      "primary": true,
+      "how_described": "本集说它的设计逻辑是每条新闻内嵌终端功能、等于每条新闻都是产品演示：更多演示带来更多收入，更多收入雇更多记者，飞轮转动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 504,
+          "t": [
+            1981.567,
+            1984.829
+          ],
+          "quote": "I handed him a three page list of what Bloomberg News should be doing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sales",
+      "type": "concept",
+      "role": "concept",
+      "name": "销售 (sales)",
+      "file": "销售",
+      "primary": true,
+      "how_described": "本集反复讲销售是被看不起的二等职业却成了 Bloomberg 创业最锋利的武器——他大概是公司初创时最好的销售员，并引用 Ken Griffin「如果你不喜欢卖东西，克服它」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            49.793,
+            60.897
+          ],
+          "quote": "Just as I did at an earlier career turning point in 1979 when Billy and John told me to give up my sales and trading responsibilities and supervise the computer systems area.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            191.642,
+            195.763
+          ],
+          "quote": "He says security trading and sales were considered second class occupations in those days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            204.725,
+            206.266
+          ],
+          "quote": "Essentially, he's learning the meta skill of sales.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            492.507,
+            494.349
+          ],
+          "quote": "He talks a lot about sales in the book.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            494.709,
+            498.574
+          ],
+          "quote": "He's going to give us basically this definition of what he considers a good sales technique.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1211.792,
+            1218.079
+          ],
+          "quote": "At Bloomberg, and then he's talking about work on product and sales first and work on them in parallel, and then you can work on everything else after that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1349.149,
+            1353.733
+          ],
+          "quote": "Many companies won't sign contracts unless you're certified, and this is causing you to lose out on sales.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2171.477,
+            2183.199
+          ],
+          "quote": "I, on the other hand, were alive and out making speeches and sales calls every day in city after city around the world, turning my name and work into a great weapon that others in the financial news and market data businesses could not match.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2525.559,
+            2530.423
+          ],
+          "quote": "I believe in my design instincts and my sales savvy and my management skills are the best around.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "small-bets",
+      "type": "concept",
+      "role": "concept",
+      "name": "小赌注 (small bets)",
+      "file": "小赌注",
+      "primary": true,
+      "how_described": "本集说 Bloomberg 扩张只做下行有限、上行不封顶的小赌注，用损失得起的资本和可调走的人开始，串联小的渐进进步而非指望中彩票头奖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 665,
+          "t": [
+            2590.177,
+            2596.484
+          ],
+          "quote": "And then he goes back to what he was saying at the beginning of the book, that he prefers a lot of these small bets with limited downside and uncapped upside.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "showing-up",
+      "type": "concept",
+      "role": "concept",
+      "name": "露面 (showing up)",
+      "file": "露面",
+      "primary": true,
+      "how_described": "本集引用书中的话：人生的 80% 就在于露面，你无法控制起点但可以控制努力程度，「我一向比对方更拼命」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            826.784,
+            830.687
+          ],
+          "quote": "It's really on the importance of showing up, working hard, staying flexible, and then loving what you do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            834.27,
+            836.131
+          ],
+          "quote": "It is said that 80% of life is just showing up.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "paywall",
+      "type": "concept",
+      "role": "concept",
+      "name": "付费墙 (paywall)",
+      "file": "付费墙",
+      "primary": false,
+      "how_described": "本集提到 Bloomberg 的内容藏在媒体界最贵的付费墙后，客户嫌贵他答：用彭博一天赚不回 88 美元是你自己的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 522,
+          "t": [
+            2051.874,
+            2056.118
+          ],
+          "quote": "Much of that content sits behind the media world's most expensive paywall.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

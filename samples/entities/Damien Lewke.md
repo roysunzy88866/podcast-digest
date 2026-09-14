@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tim Sanders]] [[Craig]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]]
+[[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nebulock":1,"客户发现":1,"The Mom Test":1,"九十进九十":1,"设计合作伙伴":3,"POC 流程":1,"产品市场契合":19,"执行发起人":1,"solo founder":1,"ICP":2}</script>
+<script type="application/json" class="pd-epn">{"Nebulock":1,"客户发现":1,"The Mom Test":1,"九十进九十":1,"设计合作伙伴":3,"POC 流程":1,"产品市场契合":20,"执行发起人":1,"solo founder":1,"ICP":3}</script>
 
 <script>
 (function(){

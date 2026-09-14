@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]] [[Brian Armstrong]]
+[[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Boom":1,"XB-1":1,"马赫切断":1,"Overture":1,"MakeBoom":1,"Blade Runner":1,"superpower":1,"超音速飞行":1,"第一性原理":4,"Y Combinator":3}</script>
+<script type="application/json" class="pd-epn">{"Boom":1,"XB-1":1,"马赫切断":1,"Overture":1,"MakeBoom":1,"Blade Runner":1,"superpower":1,"超音速飞行":1,"第一性原理":5,"Y Combinator":3}</script>
 
 <script>
 (function(){

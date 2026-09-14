@@ -31,9 +31,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Max Junestrand]] · [[智能体]] · [[微调]] · [[评估]] · [[GPT 3.5]] · [[大语言模型]] · [[LangChain]] · [[Azure]] · [[OpenAI]] · [[Anthropic]]
+[[Max Junestrand]] · [[智能体]] · [[微调]] · [[评估]] · [[GPT 3.5]] · [[大语言模型]] · [[LangChain]] · [[Azure]] · [[Bloomberg]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Max Junestrand":1,"智能体":234,"微调":15,"评估":1,"GPT 3.5":1,"大语言模型":5,"LangChain":5,"Azure":3,"OpenAI":109,"Anthropic":121}</script>
+<script type="application/json" class="pd-epn">{"Max Junestrand":1,"智能体":234,"微调":15,"评估":1,"GPT 3.5":1,"大语言模型":5,"LangChain":5,"Azure":3,"Bloomberg":3,"OpenAI":109}</script>
 
 <script>
 (function(){

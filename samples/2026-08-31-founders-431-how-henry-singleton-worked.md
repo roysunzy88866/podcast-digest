@@ -131,6 +131,18 @@ Singleton 不相信详细的战略规划。"我知道很多人有非常确定的
 > <span class="qz">巴菲特还称商学院不研究 Singleton 是一种犯罪。</span>  
 > *Buffett also called it a crime that business schools did not study Singleton.*  
 > <span class="qm">—— 嘉宾 · [44:17]</span> ^q9
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-09-14-sourcery-inside-bending-spoons-buying-airtable--a|Bending Spoons：买下 AOL 与 Vimeo 的「收购机器」是怎么炼成的]]<span class="pd-rz">同概念:收购 (acquisition)</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){
