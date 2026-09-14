@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Saronic]] · [[Port Alpha]] · [[造船差距]] · [[自主性]] · [[采购改革]] · [[软硬协同设计]] · [[开源 AI]] · [[Palantir]]
+[[Saronic]] · [[Port Alpha]] · [[造船差距]] · [[自主性]] · [[采购改革]] · [[协同设计]] · [[开源 AI]] · [[Palantir]]
 
-<script type="application/json" class="pd-epn">{"Saronic":1,"Port Alpha":1,"造船差距":1,"自主性":7,"采购改革":1,"软硬协同设计":1,"开源 AI":2,"Palantir":15}</script>
+<script type="application/json" class="pd-epn">{"Saronic":1,"Port Alpha":1,"造船差距":1,"自主性":7,"采购改革":1,"协同设计":2,"开源 AI":2,"Palantir":16}</script>
 
 <script>
 (function(){

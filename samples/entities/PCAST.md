@@ -25,7 +25,7 @@ unlisted: true
 
 [[开源 AI]] · [[开放权重模型]] · [[智能体]] · [[表观遗传重编程]] · [[AI]] · [[主观能动性]] · [[财富税]] · [[Anthropic]] · [[OpenAI]] · [[Palantir]]
 
-<script type="application/json" class="pd-epn">{"开源 AI":2,"开放权重模型":9,"智能体":230,"表观遗传重编程":2,"AI":17,"主观能动性":18,"财富税":2,"Anthropic":119,"OpenAI":105,"Palantir":15}</script>
+<script type="application/json" class="pd-epn">{"开源 AI":2,"开放权重模型":9,"智能体":232,"表观遗传重编程":2,"AI":17,"主观能动性":18,"财富税":2,"Anthropic":120,"OpenAI":106,"Palantir":16}</script>
 
 <script>
 (function(){

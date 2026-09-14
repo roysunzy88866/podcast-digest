@@ -1,0 +1,1050 @@
+{
+  "episode_id": "2026-09-07-grit-the-ai-race-has-a-leaderboard-arena-ceo",
+  "podcast": "Grit",
+  "date": "2026-09-07",
+  "tags": [
+    "AI 评测与基准",
+    "开源模型",
+    "中美 AI 竞争",
+    "智能体评估",
+    "创业故事"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "anastasios-angelopoulos",
+      "type": "person",
+      "role": "host",
+      "name": "Anastasios Angelopoulos",
+      "file": "Anastasios Angelopoulos",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            85.559,
+            95.524
+          ],
+          "quote": "Today on Grit, I'm talking with Anastasios Angelopoulos, co-founder and CEO of Arena, the platform the entire AI industry watches to answer one question, which model is actually best?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "mamoun-hamid",
+      "type": "person",
+      "role": "cohost",
+      "name": "Mamoun Hamid",
+      "file": "Mamoun Hamid",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            107.489,
+            109.97
+          ],
+          "quote": "My partner, Mamoun Hamid, joins me as guest host.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "jubin",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jubin",
+      "file": "Jubin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            77.034,
+            85.339
+          ],
+          "quote": "I'm Jubin, partner at Kleiner Perkins, a show where we go beyond the highlight reel and explore the personal and professional challenges of building history-making companies.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "arena",
+      "type": "company",
+      "role": "company",
+      "name": "Arena",
+      "file": "Arena",
+      "primary": true,
+      "how_described": "本集把它说成:整个 AI 行业用来回答「哪个模型最好」的平台,人们在这里在真实世界使用 AI 并留下反馈,公开排行榜当公益运营、靠向实验室卖评估赚钱,八个月做到 1 亿美元年化收入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            59.696,
+            63.579
+          ],
+          "quote": "How can we take an arena and put it within every business in America and every business globally?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            85.559,
+            95.524
+          ],
+          "quote": "Today on Grit, I'm talking with Anastasios Angelopoulos, co-founder and CEO of Arena, the platform the entire AI industry watches to answer one question, which model is actually best?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 19,
+          "t": [
+            95.844,
+            100.567
+          ],
+          "quote": "Anastasios went from a Berkeley statistician to building Chatbot Arena as a research side project,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 56,
+          "t": [
+            185.778,
+            187.741
+          ],
+          "quote": "And in the meantime, we started ARENA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            224.811,
+            229.133
+          ],
+          "quote": "So we built Arena, which is this platform where people go to use AI in the real world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            268.874,
+            280.396
+          ],
+          "quote": "I wouldn't say it's DeepSeek specifically, but, you know, throughout the history of Arena, there have been all these times when people come to me being like, do you think that they're going to consolidate?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            376.805,
+            387.369
+          ],
+          "quote": "The point of Arena is that real users and the utility that these models provide to real users should be at the center of the AI conversation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            544.564,
+            545.644
+          ],
+          "quote": "That's what Arena is all about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            690.155,
+            694.399
+          ],
+          "quote": "What kind of people use Arena on a regular basis?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            699.343,
+            702.265
+          ],
+          "quote": "What would you guess about the Arena users?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            726.984,
+            731.307
+          ],
+          "quote": "It tends to be more knowledge worker professionals that are using ARENA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            753.27,
+            760.655
+          ],
+          "quote": "Like if Harvey and Sierra ever catch up to Cursor, you would expect those numbers to probably start going up in Arena.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 223,
+          "t": [
+            812.076,
+            817.42
+          ],
+          "quote": "The fact that Kimi was number one on our web development arena",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1239.863,
+            1241.464
+          ],
+          "quote": "Arena started with battle mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1297.611,
+            1302.473
+          ],
+          "quote": "So we've moved largely away from battles as the main signal on Arena for this reason.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1354.253,
+            1359.098
+          ],
+          "quote": "And so now all the rankings that we have on Arena go far beyond human preference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1464.77,
+            1469.532
+          ],
+          "quote": "How can we take an arena and put it within every business in America, every business globally?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1671.318,
+            1675.24
+          ],
+          "quote": "And all of the people that we have at Arena are absolutely best in class.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2295.857,
+            2306.741
+          ],
+          "quote": "If you look at the arena, like, you know, we're seeing at times bigger gaps between successive generations of models than we have in history still to this day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2329.591,
+            2336.638
+          ],
+          "quote": "So for example, GPT Image 2 versus 1.5 was, I think, the biggest gap that we have ever seen in history on Arena.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2884.355,
+            2885.316
+          ],
+          "quote": "It's arena.ai.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3100.446,
+            3109.53
+          ],
+          "quote": "Not only is it filled with a bunch of sort of lies, like lies with data, basically incorrect analysis about ARENA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3118.554,
+            3128.559
+          ],
+          "quote": "But actually, when you like dig into the analyses that I had about Arena at the time, it was about, oh, this company is favoring closed source models over open source models and blah, blah, blah from Cohere.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 777,
+          "t": [
+            3174.313,
+            3177.436
+          ],
+          "quote": "Um, but there've been some very low points in arena startup life.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 814,
+          "t": [
+            3332.387,
+            3334.269
+          ],
+          "quote": "Yeah, a lot of big things coming for Arena.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 825,
+          "t": [
+            3374.158,
+            3375.459
+          ],
+          "quote": "But we can actually do that at Arena.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 826,
+          "t": [
+            3376.319,
+            3384.022
+          ],
+          "quote": "And so what we do, if you go to arena.ai slash agent, we have agent mode, where you can do co-working type tasks, like Claude co-work type tasks on arena in browser.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 841,
+          "t": [
+            3424.515,
+            3441.429
+          ],
+          "quote": "And then the second would be how can we take these ideas, the sort of like self-improving data flywheel that we built on Arena that allows us to build the best routers in the world and then copy paste them into every business, help businesses take better advantage of their organically occurring data so that they can build the better routers, avoid vendor lock and get AI sovereignty and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 852,
+          "t": [
+            3489.175,
+            3491.556
+          ],
+          "quote": "I view Arena as being the system of value.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 869,
+          "t": [
+            3567.882,
+            3581.092
+          ],
+          "quote": "My, um, I was going through howling back on the company over the last couple of weeks on some stuff and my fiance on the mirror of our bathroom wrote the man in the arena quote.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 871,
+          "t": [
+            3582.113,
+            3590.5
+          ],
+          "quote": "The full Teddy Roosevelt man in the arena quote, just literally in marker on the entire, on the entire, um, on the entire mirror.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "evaluation",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evaluation)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说他们卖给实验室的核心产品「基本上是一个分析和洞察产品,叫做评估」:在代表真实使用的数据上评估模型检查点,交回洞察仪表盘,这就是把公司规模做到超一亿美元收入的产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            29.561,
+            33.443
+          ],
+          "quote": "The product that we give to them is basically an analysis and insights product called an evaluation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1400.624,
+            1404.487
+          ],
+          "quote": "The product that we give to them is basically an analysis and insights product called an evaluation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": true,
+      "how_described": "本集对它大加批评:模型「全都是针对测试去训练的」,自造基准会饱和(进了训练数据就失效),「基准测试能吸引注意力」;现实才是唯一可信的裁判",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            388.089,
+            392.111
+          ],
+          "quote": "There shouldn't be some random f***ing benchmark that's made by some dude that thinks they're smart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            451.047,
+            459.812
+          ],
+          "quote": "Well, there was this common benchmark that was made, you know, as a particular individual who likes benchmarking things, and made a pelican riding a bicycle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            497.613,
+            500.995
+          ],
+          "quote": "Now I think that benchmark has been saturated because it's made its way into the training data now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            537.142,
+            544.224
+          ],
+          "quote": "And it's not because you are trying to benchmark, but because you're in the natural flow of work and you're getting your job done.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说闭源与开源模型之间正在发生「相变」:Kimi 登顶网页开发 Arena 打破「中国只靠蒸馏美国智能」的叙事,纯开源榜上九家中国模型压在美国最接近者之上;开源模型「以 10% 成本做 90% 的活」是 API 锁定的结构性威胁",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            12.155,
+            23.079
+          ],
+          "quote": "And so if an open source model comes by and it is able to do 90% of the work at 10% of the cost, which is totally feasible that that might happen over the next couple of years, I think that's a pretty structural problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            348.12,
+            353.981
+          ],
+          "quote": "And you've become somewhat of an expert on some of these open source models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 246,
+          "t": [
+            909.497,
+            918.425
+          ],
+          "quote": "Um, but the other aspect of it is that there is a silver lining, which is that I think that there is room for a trillion dollar American company based on open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            937.682,
+            944.965
+          ],
+          "quote": "If you look at open source only models, they would be number 10.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1002.449,
+            1006.571
+          ],
+          "quote": "And maybe if they get back into the open source game, you know, things will work out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1049.684,
+            1053.707
+          ],
+          "quote": "One way is to have licenses that are kind of open source and also kind of not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1067.014,
+            1083.583
+          ],
+          "quote": "And then the other way of going about it, which I think is becoming more and more common with Thinky and Reflection and Mistral and others, is to take the open source and then use it as a way to insert yourself into companies and then build basically an AI modernization motion around that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1094.956,
+            1095.416
+          ],
+          "quote": "Open source.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1095.576,
+            1095.957
+          ],
+          "quote": "Open source.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1095.997,
+            1096.497
+          ],
+          "quote": "Open source.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1106.044,
+            1110.908
+          ],
+          "quote": "Like, why hasn't it been able to break through the top 10 and open source in the benchmarks?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1125.626,
+            1129.29
+          ],
+          "quote": "And then seven months later, they're at a model that's top 10 open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2399.554,
+            2415.639
+          ],
+          "quote": "And so if an open source model comes by and it is able to do 90% of the work at 10% of the cost, which is totally feasible that that might happen over the next couple of years, and that certain businesses might have all their capabilities be able to be done by the mini light version of whatever the next Kimi is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2468.945,
+            2471.827
+          ],
+          "quote": "Mamoun, if he's right, let's just imagine like if open source",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2497.704,
+            2507.326
+          ],
+          "quote": "So I guess if open source can alleviate the gross margin problem because their cost to serve goes down by 80 to 90%, then like naturally does the logic follow that",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 621,
+          "t": [
+            2518.071,
+            2522.653
+          ],
+          "quote": "The open source models will be even better and the cost will come down.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2629.546,
+            2637.582
+          ],
+          "quote": "It's to your point, like, you know, especially as open source, unless like we all just locked down open source from China.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2663.592,
+            2666.833
+          ],
+          "quote": "Maybe the silver lining is then we get a good open source model here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 656,
+          "t": [
+            2683.929,
+            2686.73
+          ],
+          "quote": "So we're going to absolutely need American open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 723,
+          "t": [
+            2946.293,
+            2956.52
+          ],
+          "quote": "And we were still supporting labs and open source and other academics, sort of on an ad hoc basis, giving people data, helping people, you know, do their research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3118.554,
+            3128.559
+          ],
+          "quote": "But actually, when you like dig into the analyses that I had about Arena at the time, it was about, oh, this company is favoring closed source models over open source models and blah, blah, blah from Cohere.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是公司两大优先事项之一:进入智能体后评估的不只是模型还有 harness,他们在 arena.ai/agent 上随机化编排器和 harness 以收集交互效应,甚至畅想智能体自主赋予价值的未来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 562,
+          "t": [
+            2242.592,
+            2255.54
+          ],
+          "quote": "Or is there a construct under which you're making life better for an agent, and therefore an agent with a wallet can pay for that, we call that value, in that the money that the agent is spending doesn't need to come from a human.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 826,
+          "t": [
+            3376.319,
+            3384.022
+          ],
+          "quote": "And so what we do, if you go to arena.ai slash agent, we have agent mode, where you can do co-working type tasks, like Claude co-work type tasks on arena in browser.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 828,
+          "t": [
+            3387.263,
+            3391.785
+          ],
+          "quote": "And when you type something that will basically give the agent a computer and it will go in and it will...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 830,
+          "t": [
+            3397.262,
+            3405.946
+          ],
+          "quote": "Um, and as part of that, we can randomize both the orchestrator and the harness for the agent, so we can collect all of those interaction effects that make it challenging.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 846,
+          "t": [
+            3455.024,
+            3467.008
+          ],
+          "quote": "If you can come help us build out our agent product and our enterprise product, which requires really high availability, high uptime, you know, this routing functionality, data engineering, that's all really important.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kimi",
+      "type": "company",
+      "role": "company",
+      "name": "Kimi",
+      "file": "Kimi",
+      "primary": true,
+      "how_described": "本集说 Kimi 在他们的网页开发 Arena 上排第一,是「第一次看到对蒸馏叙事的违背」,证明中国科学家的智慧与创造力被美国低估",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            362.37,
+            367.315
+          ],
+          "quote": "Really understanding deeply what's happening with Kimi and Quen and others.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 223,
+          "t": [
+            812.076,
+            817.42
+          ],
+          "quote": "The fact that Kimi was number one on our web development arena",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            824.448,
+            830.673
+          ],
+          "quote": "But the fact that Kimi is number one on web development, it's the first time really that we're seeing a violation of the distillation narrative.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            978.694,
+            987.339
+          ],
+          "quote": "Not putting enough resources behind distillation, but also other novel techniques that allow Kimi and Kuen to produce these frontier models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2399.554,
+            2415.639
+          ],
+          "quote": "And so if an open source model comes by and it is able to do 90% of the work at 10% of the cost, which is totally feasible that that might happen over the next couple of years, and that certain businesses might have all their capabilities be able to be done by the mini light version of whatever the next Kimi is.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "leaderboard",
+      "type": "concept",
+      "role": "concept",
+      "name": "排行榜 (leaderboard)",
+      "file": "排行榜",
+      "primary": true,
+      "how_described": "本集说公开排行榜「从来不涉及钱」,当作公益运营以建立信任和中立性;它不只是排行榜——背后是数据公司和真实使用信号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            307.058,
+            312.339
+          ],
+          "quote": "Yeah, because at the time it was still the leaderboard for those, the obvious company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 87,
+          "t": [
+            324.243,
+            325.823
+          ],
+          "quote": "Oh, we just like rank them on the leaderboard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            765.297,
+            766.338
+          ],
+          "quote": "So it's not just a leaderboard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            766.918,
+            767.979
+          ],
+          "quote": "It's not just a leaderboard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            895.162,
+            902.771
+          ],
+          "quote": "If we actually get a Chinese model that's as dominant as Fable has been over the past couple months in the sense that it's topping every leaderboard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            929.519,
+            932.5
+          ],
+          "quote": "Like, I'm curious if the leaderboard suggests that there's anything even close.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1361.801,
+            1364.343
+          ],
+          "quote": "So you're not a leaderboard.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1409.575,
+            1414.199
+          ],
+          "quote": "The numbers you see in the leaderboard, like the leaderboard that you see publicly never touches money.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2312.975,
+            2319.321
+          ],
+          "quote": "are taking bigger step function leaps and improvements in your leaderboard than like GPT 3.5 to 4.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 758,
+          "t": [
+            3088.02,
+            3096.604
+          ],
+          "quote": "And then on top of that, you know, a couple of weeks later, there was this awful moment where there was this paper that was released called Leaderboard Illusion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 759,
+          "t": [
+            3097.184,
+            3098.805
+          ],
+          "quote": "People don't know this about Leaderboard Illusion.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 的庞大消费者业务,并说他看多其消费者广告市场——「仍是 AI 领域最大的机会之一」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            191.361,
+            194.604
+          ],
+          "quote": "And then I remember what happened was that at the beginning was just OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            242.077,
+            255.927
+          ],
+          "quote": "And do you think it was, at that time, you know, this is a year and a half ago or so now, you had OpenAI, Anthropic, Google, and DeepSeek was relatively new.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1137.498,
+            1149.249
+          ],
+          "quote": "But a company like OpenAI or Anthropic has built such a mature pipeline around hardware, around data, they've accrued advantages that need to be overcome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2308.802,
+            2311.803
+          ],
+          "quote": "You're saying that the newer models from Anthropic and OpenAI",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2422.441,
+            2427.504
+          ],
+          "quote": "You know, OpenAI Anthropic, OpenAI has this huge consumer business, which is kind of like going to be able to keep it afloat anyway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2427.864,
+            2437.689
+          ],
+          "quote": "By the way, one thing I'm long is the consumer ads marketplace on OpenAI, which has obviously not been fully utilized to this day, but I think remains one of the biggest opportunities in AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集说 Anthropic 的收入在 API 上一路爆棚,但「来得容易,去得也容易」,人们假设的 API 锁定未必存在",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.091,
+            3.612
+          ],
+          "quote": "Anthropic revenue has been booming, booming, booming on the API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            195.565,
+            201.831
+          ],
+          "quote": "And then Google came in the mix, Anthropic came in the mix, and it just exploded because people wanted to compare, people wanted to understand the differences.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            242.077,
+            255.927
+          ],
+          "quote": "And do you think it was, at that time, you know, this is a year and a half ago or so now, you had OpenAI, Anthropic, Google, and DeepSeek was relatively new.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1137.498,
+            1149.249
+          ],
+          "quote": "But a company like OpenAI or Anthropic has built such a mature pipeline around hardware, around data, they've accrued advantages that need to be overcome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2308.802,
+            2311.803
+          ],
+          "quote": "You're saying that the newer models from Anthropic and OpenAI",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2386.362,
+            2389.926
+          ],
+          "quote": "Anthropic revenue has been booming, booming, booming on the API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2422.441,
+            2427.504
+          ],
+          "quote": "You know, OpenAI Anthropic, OpenAI has this huge consumer business, which is kind of like going to be able to keep it afloat anyway.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "thinking-machine",
+      "type": "company",
+      "role": "company",
+      "name": "Thinking Machine",
+      "file": "Thinking Machine",
+      "primary": false,
+      "how_described": "本集说它是纯开源模型里美国最接近的,只能排第 10,「上面有九家中国的」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 256,
+          "t": [
+            935.621,
+            936.882
+          ],
+          "quote": "Thinking machine's the closest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1149.269,
+            1151.131
+          ],
+          "quote": "There's no question that thinking machine is the underdog.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "router",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

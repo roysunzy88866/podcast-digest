@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scott Morton":1,"Revel":1,"SpaceX":13,"LLVM":1,"Python":5,"vibe coding":33,"CI-CD":10,"Palantir":15}</script>
+<script type="application/json" class="pd-epn">{"Scott Morton":1,"Revel":1,"SpaceX":13,"LLVM":1,"Python":5,"vibe coding":33,"CI-CD":10,"Palantir":16}</script>
 
 <script>
 (function(){

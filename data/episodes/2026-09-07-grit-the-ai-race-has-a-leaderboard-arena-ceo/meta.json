@@ -1,0 +1,38 @@
+{
+  "id": "2026-09-07-grit-the-ai-race-has-a-leaderboard-arena-ceo",
+  "audio_mp3": "https://media.transistor.fm/15e124b1/72dc8302.mp3",
+  "duration_sec": 3615.242,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 882,
+  "asr": true,
+  "title_en": "The AI Race Has a Leaderboard | Arena CEO Anastasios Angelopoulos",
+  "podcast": "Grit",
+  "date": "2026-09-07",
+  "cover_official_url": "https://img.transistorcdn.com/WrmMc9RVZBXqT3r8WANVnijIWF_Ms97sY1NWTIUI-7E/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yZDAw/YWQ0MTg4ZTc4ZmRj/NTgwNThiZmVjNzFm/NWM0MS5wbmc.jpg",
+  "added": "2026-09-14",
+  "added_at": "2026-09-14T01:11:51.345Z",
+  "speaker_map": {
+    "SPEAKER_00": "Anastasios Angelopoulos",
+    "SPEAKER_02": "Mamoun Hamid",
+    "SPEAKER_03": "Jubin"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Anastasios Angelopoulos",
+  "cohosts": [
+    "Mamoun Hamid",
+    "Jubin"
+  ],
+  "title_zh": "Arena CEO:现实是唯一可信的裁判，开源正在改写规则",
+  "guest_name": "Anastasios Angelopoulos",
+  "guest_title": "Arena 联合创始人兼 CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://img.transistorcdn.com/WrmMc9RVZBXqT3r8WANVnijIWF_Ms97sY1NWTIUI-7E/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yZDAw/YWQ0MTg4ZTc4ZmRj/NTgwNThiZmVjNzFm/NWM0MS5wbmc.jpg",
+    "origin_px": "1400x1400",
+    "aspect": 1,
+    "fetched_at": "2026-09-14T02:51:37.058Z"
+  }
+}

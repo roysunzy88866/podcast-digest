@@ -25,7 +25,7 @@ unlisted: true
 
 [[Brian Singerman]] · [[Founders Fund]] · [[Anduril]] · [[SpaceX]] · [[Palantir]] · [[Airbnb]] · [[OpenAI]] · [[Anthropic]] · [[Cognition]] · [[Ramp]]
 
-<script type="application/json" class="pd-epn">{"Brian Singerman":1,"Founders Fund":1,"Anduril":3,"SpaceX":13,"Palantir":15,"Airbnb":10,"OpenAI":105,"Anthropic":119,"Cognition":17,"Ramp":7}</script>
+<script type="application/json" class="pd-epn">{"Brian Singerman":1,"Founders Fund":1,"Anduril":3,"SpaceX":13,"Palantir":16,"Airbnb":10,"OpenAI":106,"Anthropic":120,"Cognition":17,"Ramp":7}</script>
 
 <script>
 (function(){

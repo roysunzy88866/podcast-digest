@@ -1,0 +1,1323 @@
+{
+  "episode_id": "2026-09-03-sourcery-blackrocks-tony-kim-on-ais-next-winners",
+  "podcast": "Sourcery",
+  "date": "2026-09-03",
+  "tags": [
+    "AI 算力",
+    "数据中心",
+    "芯片与内存",
+    "机器人",
+    "投资与市值"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "tony-kim",
+      "type": "person",
+      "role": "host",
+      "name": "Tony Kim",
+      "file": "Tony Kim",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.925,
+            1.406
+          ],
+          "quote": "Tony Kim.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1,
+          "t": [
+            1.466,
+            4.907
+          ],
+          "quote": "Tony Kim, from BlackRock, who runs the global technology team there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            70.126,
+            72.108
+          ],
+          "quote": "Tony Kim, welcome to Sorcery.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 784,
+          "t": [
+            4075.301,
+            4091.673
+          ],
+          "quote": "If you enjoyed this conversation, you're going to love the rest of the RAISE series with Tony Kim from BlackRock, Scott Wu from Cognition, Andrew Feldman from Cerebrus, Rodrigo Yang from Salmonova, Michael Hurlston from Lumentum, CJ Desai from MongoDB, and many, many more.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "算力 (compute)",
+      "file": "算力",
+      "primary": true,
+      "how_described": "本集核心主线：算力的首要地位——AI 之前算力是「事后才考虑的东西」，AI 之后基础算力层涨了约一万倍（一万美元服务器变一百万美元服务器），市值系统性从软件流向算力硬件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            11.091,
+            14.413
+          ],
+          "quote": "So the base layer of compute went up 10,000x.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            27.58,
+            31.202
+          ],
+          "quote": "I don't think people would realize that we are that compute hardware-centric.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            240.773,
+            253.68
+          ],
+          "quote": "Well, I think one of the big ideas obviously clearly is, and we see that in the stock market and we see it in the investment market, is that the primacy of compute and how",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            270.904,
+            274.646
+          ],
+          "quote": "A software-centric world to a compute-centric world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            280.329,
+            283.591
+          ],
+          "quote": "So that's number one, this move to compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            287.294,
+            293.941
+          ],
+          "quote": "The models and the compute are kind of like symbiotic and synonymous with each other.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            294.001,
+            295.984
+          ],
+          "quote": "So the primacy of compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            317.805,
+            329.095
+          ],
+          "quote": "So we had, think of data centers pre-AI, kind of like the scramble to build data centers today, where there's a massive shortage of compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            358.854,
+            370.623
+          ],
+          "quote": "It's incredible what's happening is that the data centers as we put more and more computation because the requirements of these models are requiring more and more compute density.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            494.95,
+            506.774
+          ],
+          "quote": "around AI and this conference and things is around my first comments around the symbiotic relationship between compute and LLMs and AI models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            507.134,
+            519.557
+          ],
+          "quote": "And I think what you're seeing is that the best models obviously are trained on and built on the best compute and most optimized inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            522.7,
+            538.313
+          ],
+          "quote": "This notion of co-design of tightly integrating the design of your silicon to match the parameters and the specs of the model and the model specs informing the design of the compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            559.407,
+            566.6
+          ],
+          "quote": "My panels are today mostly all focused, as you can tell, on the physical layer of AI, the compute stack and the co-integration.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            658.283,
+            670.01
+          ],
+          "quote": "This goes to also, yeah, maybe I'll add a fifth or sixth topic on this around the data center design of the future is, again, back to this co-design element around the model and the compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            671.471,
+            683.678
+          ],
+          "quote": "And, you know, from my observation, again, I'm not building the models, but I observe the compute architectures and what the model guys are going, increasingly more and more of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            692.688,
+            702.773
+          ],
+          "quote": "And so in the initial early days, you notice that we had a ton of compute, ton of parallelism compute, and the models didn't have much memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            734.135,
+            734.575
+          ],
+          "quote": "Compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            743.783,
+            745.705
+          ],
+          "quote": "And today is more compute intensive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            760.04,
+            763.624
+          ],
+          "quote": "It is all about arbitrating memory in some form with your compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            843.644,
+            857.07
+          ],
+          "quote": "But underlying all that, I think we are going to more and more memory than, or let's just say memory in concert with compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            857.51,
+            859.331
+          ],
+          "quote": "Today we're all talking about compute, compute, compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1059.264,
+            1062.246
+          ],
+          "quote": "That was the compute stack, a CPU with a hard drive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1065.489,
+            1073.975
+          ],
+          "quote": "And server prices were tens of thousands of dollars, thousands of dollars, and now those compute servers are millions and tens of millions of dollars.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1074.836,
+            1078.478
+          ],
+          "quote": "So compute was an afterthought.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1087.496,
+            1095.723
+          ],
+          "quote": "Classic Compute Stacks, and then they resold that as platform services, databases, and then SAS built on top of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1117.571,
+            1123.076
+          ],
+          "quote": "And the margins went to that because the cost of compute was so low.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1125.138,
+            1133.385
+          ],
+          "quote": "And therefore everyone said compute is free, it's cheap, it's a commodity, and all the value went to this layer, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1136.187,
+            1142.473
+          ],
+          "quote": "You're reselling, you're building this massive application on a very, very thin layer of compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1195.586,
+            1203.548
+          ],
+          "quote": "So that, what was called the base layer of compute, went up, I don't know, 10,000x.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1288.899,
+            1298.181
+          ],
+          "quote": "Because before you would resell this base layer of low compute and massive SaaS app margins on top.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1298.961,
+            1302.541
+          ],
+          "quote": "Now you've got this massive compute stack and they're reselling those as tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1305.302,
+            1312.203
+          ],
+          "quote": "So that compute factory is creating tokens and then the model guys are then selling their tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1434.171,
+            1442.792
+          ],
+          "quote": "10 trillion in software service internet, 20 trillion in Mag7, 30 trillion in non-Mag7 compute chips hardware.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1445.333,
+            1453.295
+          ],
+          "quote": "That's a, I don't think people would realize that we are that compute hardware centric now, 10, 20, 30.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1473.672,
+            1481.857
+          ],
+          "quote": "And that follows the data center transformation because the primacy of compute, the plurality of the dollars.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1499.77,
+            1507.355
+          ],
+          "quote": "And for those foundational models to exist, it needs to live on the compute stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1528.575,
+            1551.672
+          ],
+          "quote": "And then you need to align offensively, as you say, an investment philosophy and capital allocation philosophy that would mirror what is becoming the new reality, where these intelligence, the insatiable demand for intelligence, and as a function, intelligence begets compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1553.238,
+            1557.379
+          ],
+          "quote": "And intelligence for compute equals basically revenue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1558.34,
+            1568.763
+          ],
+          "quote": "And then if you think that the basis of many companies is around this compute factories and then your ability to resell that intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1611.198,
+            1612.959
+          ],
+          "quote": "And more capable means more compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1867.403,
+            1873.786
+          ],
+          "quote": "So versus like the next three years, it's going to be great for memory or compute or data centers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1906.808,
+            1909.869
+          ],
+          "quote": "My intuition was that we will need AI compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1922.093,
+            1931.835
+          ],
+          "quote": "And so now we sit six, seven years later and the AI accelerator wars have begun and the compute has taken off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 601,
+          "t": [
+            3172.885,
+            3179.747
+          ],
+          "quote": "So it's like compute, models, apps, or compute, models, data, apps, something like that, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3305.291,
+            3326.098
+          ],
+          "quote": "Either you create tokens, compute, you then serve the tokens, Foundation Labs, and then you put a harness, package, context around the token, app services, et cetera.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 635,
+          "t": [
+            3347.34,
+            3351.343
+          ],
+          "quote": "Sitting on a compute foundation that's creating and firing up a token.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 707,
+          "t": [
+            3708.243,
+            3725.397
+          ],
+          "quote": "But I think through it all, I am optimistic that this compute wall, the memory wall, the compute demand, this data center redesign, that it will just plow through.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3801.275,
+            3811.997
+          ],
+          "quote": "of terrestrial compute into space, and that can have huge implications, huge implications of how current data centers are even being built.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "内存 (memory)",
+      "file": "内存",
+      "primary": true,
+      "how_described": "本集第二个大判断：芯片和模型开发正在镜像人脑，模型在加内存（记住行为与偏好），内存的首要地位会超越算力；DRAM、HBM、堆叠 DRAM 等内存形式正被紧密封装进计算架构，RAM 短缺（RAMpocalypse）背后是建厂三四年与今天需求的时长错配。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            654.808,
+            656.929
+          ],
+          "quote": "There's a lot of the memory companies here, but",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            692.688,
+            702.773
+          ],
+          "quote": "And so in the initial early days, you notice that we had a ton of compute, ton of parallelism compute, and the models didn't have much memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            704.13,
+            706.772
+          ],
+          "quote": "And now we're adding memory to the models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            711.536,
+            727.99
+          ],
+          "quote": "And then you look at the future, you know, everyone talks more and more about having AIs that, your personal AI that will, you know, these agentic harnesses that build in the institutional context within an enterprise and memory and storing memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            728.01,
+            732.854
+          ],
+          "quote": "And the human brain is, has a lot more storage of memory than maybe",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            738.579,
+            742.522
+          ],
+          "quote": "But the human brain is very memory intensive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            745.885,
+            751.27
+          ],
+          "quote": "But as you see it with Rampocalypse, the memory intensity has just skyrocketed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            751.51,
+            755.814
+          ],
+          "quote": "And going forward, you will see more and more and more memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            760.04,
+            763.624
+          ],
+          "quote": "It is all about arbitrating memory in some form with your compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            764.785,
+            775.015
+          ],
+          "quote": "Different kinds of memory, SRAM or DRAM or stack DRAM or HBM or high bandwidth flash, all of these memory and storage",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            808.434,
+            814.658
+          ],
+          "quote": "Because it takes three or four years to build a chip fab or a memory fab, but yet everyone is a shortage today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            843.644,
+            857.07
+          ],
+          "quote": "But underlying all that, I think we are going to more and more memory than, or let's just say memory in concert with compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            860.531,
+            862.972
+          ],
+          "quote": "I think the primacy of memory will become even more important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            936.117,
+            940.42
+          ],
+          "quote": "And they were talking about what the proliferation of agents' memory is only increasing more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            943.442,
+            946.904
+          ],
+          "quote": "But on the memory side, to your point, there's only three main players.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1867.403,
+            1873.786
+          ],
+          "quote": "So versus like the next three years, it's going to be great for memory or compute or data centers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2553.57,
+            2558.272
+          ],
+          "quote": "How many friends of yours go in to study new memory design?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2558.972,
+            2564.616
+          ],
+          "quote": "You know, I was talking at dinner last night here at Ray's with one of the biggest memory companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2564.836,
+            2576.803
+          ],
+          "quote": "We cannot get people to design custom memory because like one of those custom co-design with the chip, they want to co-design the memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2581.706,
+            2587.29
+          ],
+          "quote": "We've got to repurpose some of these software programmers into memory co-design architects.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2632.105,
+            2653.049
+          ],
+          "quote": "A baseline LLM that you and I will communicate as a translator, translate and talk to the robot, but then there will be, it's like the human brain, but you also have the brain for the motor functions that control our muscles and our bodies and our reactions, and then the brain for language and memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 707,
+          "t": [
+            3708.243,
+            3725.397
+          ],
+          "quote": "But I think through it all, I am optimistic that this compute wall, the memory wall, the compute demand, this data center redesign, that it will just plow through.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集说数据中心正在被彻底重新设计：数据传输距离从公里收缩到毫米，带宽、功率、热量随之上升；从铜走向光、800 伏供电、固态变压器、SMR 与轨道数据中心都是围绕这些新物理规律。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            108.328,
+            116.353
+          ],
+          "quote": "A third with Lumentum and kind of bringing optics to kind of next-gen data center design.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            303.472,
+            310.178
+          ],
+          "quote": "Where the CapEx, where the money, where the capitalization is all gone, then engenders a whole rethink of the data center.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            311.279,
+            314.983
+          ],
+          "quote": "And so I think there is a redesign of the data center.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            315.203,
+            317.785
+          ],
+          "quote": "And we're going through stages of the data center rebuild.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            330.025,
+            347.112
+          ],
+          "quote": "But on the other hand then you know we're hitting the laws of physics are driving a yet another transformation of data center design going forward and so that's the second and the ramifications of this data center redesign kind of flow through every layer of the AI stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            348.193,
+            352.755
+          ],
+          "quote": "Third within that then you go you know another layer deep in this data center redesign.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            382.999,
+            389.481
+          ],
+          "quote": "And so you have these logarithmic effects of the data center design driven by AI necessity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            390.122,
+            406.228
+          ],
+          "quote": "And effectively, the data center is changing from, you know, before we would transmit data kilometers, and now building to building, and then it's within the building, and then rack to rack, and then now it's within the rack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            441.011,
+            446.754
+          ],
+          "quote": "And so when you think of it in that context, how does the data center need to change?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            476.859,
+            485.471
+          ],
+          "quote": "And these things help address this power density and energy and the laws of physics that are pushing data center design to its very limits.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            633.598,
+            639.121
+          ],
+          "quote": "And so this is like kind of a sub-narrative that is going around in the future design of data center.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            658.283,
+            670.01
+          ],
+          "quote": "This goes to also, yeah, maybe I'll add a fifth or sixth topic on this around the data center design of the future is, again, back to this co-design element around the model and the compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1027.65,
+            1031.994
+          ],
+          "quote": "And cloud computing necessitated a certain kind of data center.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1032.844,
+            1038.447
+          ],
+          "quote": "You remember the good old classic data center, megawatts, not gigawatts, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1151.414,
+            1161.358
+          ],
+          "quote": "And that all of that data center infrastructure that was built, even with AWS and GCP and Azure, that was built for that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1225.559,
+            1230.461
+          ],
+          "quote": "And so this data center is now, it was megawatts, now it's gigawatts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1239.72,
+            1245.362
+          ],
+          "quote": "And so that is the data center and cloud of tomorrow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1250.204,
+            1255.785
+          ],
+          "quote": "The data center of the past is like this old cloud, but yet it facilitated high margins.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1272.968,
+            1276.409
+          ],
+          "quote": "This is an alien data center to this data center.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1334.345,
+            1347.449
+          ],
+          "quote": "And this revenue over here in the old data center that was asset light, high margin is now moving to asset heavy, lower margin, big dollars, but it's a completely new data center.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1473.672,
+            1481.857
+          ],
+          "quote": "And that follows the data center transformation because the primacy of compute, the plurality of the dollars.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 608,
+          "t": [
+            3188.647,
+            3194.752
+          ],
+          "quote": "You know, like this whole data center redesign thing, I think the whole enterprise is redesigning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 707,
+          "t": [
+            3708.243,
+            3725.397
+          ],
+          "quote": "But I think through it all, I am optimistic that this compute wall, the memory wall, the compute demand, this data center redesign, that it will just plow through.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 713,
+          "t": [
+            3747.711,
+            3753.915
+          ],
+          "quote": "It's the progression along this what I call this whole data center reimagination theme.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token-flow",
+      "type": "concept",
+      "role": "concept",
+      "name": "token 流 (token flow)",
+      "file": "token 流",
+      "primary": true,
+      "how_described": "本集给未来企业画的极简图：企业引入 token，下面是数据层，其上是封装公司全部知识的上下文层（Palantir 叫本体论），所有人都在上面构建智能体；方法论是「跟随 token 的流」——要么创建 token、要么服务 token、要么给 token 套上下文重新打包。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 628,
+          "t": [
+            3298.108,
+            3302.27
+          ],
+          "quote": "And then what I call that is a token flow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 631,
+          "t": [
+            3326.865,
+            3337.173
+          ],
+          "quote": "So you must be in this token flow to either resell or repackage the tokens with your context and your very specific application.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 639,
+          "t": [
+            3362.891,
+            3364.132
+          ],
+          "quote": "They are in token flow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3400.184,
+            3403.145
+          ],
+          "quote": "And so they've inserted themselves in this token flow.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "co-design",
+      "type": "concept",
+      "role": "concept",
+      "name": "协同设计 (co-design)",
+      "file": "协同设计",
+      "primary": true,
+      "how_described": "本集说这是许多领先基础模型实验室正在走的新路径：把硅片设计紧密整合去匹配模型的参数和规格，模型规格反过来又影响算力设计；还提到最大的内存公司招不到做定制内存协同设计的人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            117.374,
+            126.099
+          ],
+          "quote": "And then finally with Broadcom and XPU and AI co-design for chips.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            520.498,
+            521.538
+          ],
+          "quote": "But this co-design",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            522.7,
+            538.313
+          ],
+          "quote": "This notion of co-design of tightly integrating the design of your silicon to match the parameters and the specs of the model and the model specs informing the design of the compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            538.953,
+            545.837
+          ],
+          "quote": "And then this kind of co-design is like the new path that many of the leading foundation labs are pursuing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            658.283,
+            670.01
+          ],
+          "quote": "This goes to also, yeah, maybe I'll add a fifth or sixth topic on this around the data center design of the future is, again, back to this co-design element around the model and the compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2564.836,
+            2576.803
+          ],
+          "quote": "We cannot get people to design custom memory because like one of those custom co-design with the chip, they want to co-design the memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2581.706,
+            2587.29
+          ],
+          "quote": "We've got to repurpose some of these software programmers into memory co-design architects.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说未来企业的形态是所有人都在上下文层上构建智能体，智能体带着 token 与数据交互；智能体创造大量数据正向下游传导到数据层和数据库。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 412,
+          "t": [
+            2258.036,
+            2268.699
+          ],
+          "quote": "They build the industry's best speech-to-text, voice agent, and speech understanding models that serve as critical infrastructure for companies like Granola, HayGen, Ashby, and ClickUp.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (robotics)",
+      "file": "机器人",
+      "primary": true,
+      "how_described": "本集讲得最具体的新类别：机器人 = 大脑（基线 LLM + 世界模型）+ 身体（制造硬件生意）；中国有 130-140 家机器人公司、今年 30-40 家潜在 IPO，最终格局是中国的身体 + 西方的大脑；他个人偏爱面向孤独感和老龄化的社交机器人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            49.47,
+            52.091
+          ],
+          "quote": "And there's 130, 140 robotics companies in China.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2330.389,
+            2350.337
+          ],
+          "quote": "I recently visited Figure AI, the humanoid robotics company, and I was just at Config Figma's conference, and Boston Dynamics was there, and one of their head of designs for human-robot interaction was talking about their humanoid robot atlas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2368.741,
+            2369.842
+          ],
+          "quote": "So robotics, yeah.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2604.879,
+            2609.463
+          ],
+          "quote": "But then those models then can be repurposed and implemented in robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2610.903,
+            2614.345
+          ],
+          "quote": "And so the robotics chain is very interesting to me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2619.227,
+            2622.428
+          ],
+          "quote": "Because if you really think about it, what is robotics, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2711.787,
+            2714.907
+          ],
+          "quote": "And there's, I think, 130, 140 robotics companies in China.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2849.506,
+            2857.249
+          ],
+          "quote": "I mean, my view is one of the things I'm most interested in in the robotics side is around not so much the manufacturing robot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 787,
+          "t": [
+            4104.826,
+            4111.453
+          ],
+          "quote": "You can also do paid at sorcery.vc for weekly insights on AI, robotics, enterprise software.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集提到最好的模型建立在最优化推理之上，并提到推理云/边缘云提供「最后一公里的 token」把自己插进 token 流。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            507.134,
+            519.557
+          ],
+          "quote": "And I think what you're seeing is that the best models obviously are trained on and built on the best compute and most optimized inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 190,
+          "t": [
+            974.258,
+            980.321
+          ],
+          "quote": "This has increased an entire rebuild of everything that's going on in tech because we need inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3371.996,
+            3382.881
+          ],
+          "quote": "But some companies have moved into, you know, you're seeing the rise of what I call, I don't know what you call it, inference clouds, edge clouds, edge AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "blackrock",
+      "type": "company",
+      "role": "company",
+      "name": "BlackRock",
+      "file": "BlackRock",
+      "primary": false,
+      "how_described": "嘉宾 Tony Kim 所在机构，他管理 BlackRock 的全球科技团队，横跨公开市场和私募投资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            1.466,
+            4.907
+          ],
+          "quote": "Tony Kim, from BlackRock, who runs the global technology team there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            130.601,
+            134.924
+          ],
+          "quote": "So as the head of global tech for BlackRock, what brings you here?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3912.492,
+            3920.035
+          ],
+          "quote": "Who brought me into BlackRock, who basically gave me carte blanche and the freedom and latitude.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 784,
+          "t": [
+            4075.301,
+            4091.673
+          ],
+          "quote": "If you enjoyed this conversation, you're going to love the rest of the RAISE series with Tony Kim from BlackRock, Scott Wu from Cognition, Andrew Feldman from Cerebrus, Rodrigo Yang from Salmonova, Michael Hurlston from Lumentum, CJ Desai from MongoDB, and many, many more.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "broadcom",
+      "type": "company",
+      "role": "company",
+      "name": "Broadcom",
+      "file": "Broadcom",
+      "primary": false,
+      "how_described": "本集提到 Tony 将在台上和博通的 Charlie 聊 XPU 与芯片的 AI 协同设计，并提及他们新发布的 jalapeno 芯片。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            117.374,
+            126.099
+          ],
+          "quote": "And then finally with Broadcom and XPU and AI co-design for chips.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            545.857,
+            548.699
+          ],
+          "quote": "And this is what I'll talk with Charlie at Broadcom about.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "本集顺带提到 Palantir 把企业上下文层叫做本体论（ontology）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 618,
+          "t": [
+            3267.988,
+            3269.969
+          ],
+          "quote": "I think Palantir calls this ontology.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

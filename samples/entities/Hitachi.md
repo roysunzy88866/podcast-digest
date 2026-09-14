@@ -27,7 +27,7 @@ unlisted: true
 
 [[Anthropic]] · [[Manoj Saxena]] · [[Daniel Whitenack]] · [[TrustWise]] · [[Chris Benson]] · [[Harmony AI]] · [[Chetan Gupta]] · [[智能体]] · [[Rackspace]] · [[运行时控制]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":119,"Manoj Saxena":1,"Daniel Whitenack":6,"TrustWise":1,"Chris Benson":7,"Harmony AI":1,"Chetan Gupta":1,"智能体":230,"Rackspace":2,"运行时控制":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":120,"Manoj Saxena":1,"Daniel Whitenack":6,"TrustWise":1,"Chris Benson":7,"Harmony AI":1,"Chetan Gupta":1,"智能体":232,"Rackspace":2,"运行时控制":1}</script>
 
 <script>
 (function(){

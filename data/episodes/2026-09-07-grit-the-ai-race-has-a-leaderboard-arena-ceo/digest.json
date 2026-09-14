@@ -1,0 +1,190 @@
+{
+  "title_zh": "Arena CEO:现实是唯一可信的裁判，开源正在改写规则",
+  "tldr": "Arena 联合创始人兼 CEO Anastasios Angelopoulos 讲述这个让全行业看榜单的平台如何八个月做到 1 亿美元收入，以及他为什么看空 API 锁定、看多开源。",
+  "digest_md": "这一集聊的是 Arena——整个 AI 行业都盯着它回答一个问题:到底哪个模型最好?主角是联合创始人兼 CEO Anastasios Angelopoulos,一个从伯克利统计学家、理论机器学习博士生走出来的创始人。他最初把 Chatbot Arena 当作「一个副项目的副项目」在 Soda Hall 地下室里做出来，如今这家公司今年 6 月年化收入达到 1 亿美元、估值 17 亿美元。\n\n钩子是收入速度：1 亿美元年化收入只花了**八个月**，公司从 15 到 20 人涨到 75 到 80 人。但 Anastasios 说得更直白：「我们也不知道目标是什么,因为我们一直在超越它。」\n\n## 核心理念:现实是唯一可信的裁判\n\nArena 的起点是一个观察:模型在 MMLU 这类选择题基准上表现好的,往往不是用户真正爱用的那个——因为「它们全都是针对测试去训练的」。所以他信奉一条理念:「现实是唯一一个你真正能信得过的裁判。」\n\n他对学术圈自造基准的批评相当不客气:「不应该是某个自以为聪明的家伙随便搞出来的什么破基准测试。」 基准测试为什么泛滥？「因为基准测试能吸引注意力。」而用户根本不知道什么模型对自己的任务表现最好。他举了「鹈鹕骑自行车」这个曾经风靡 Twitter 的 SVG 基准测试当反面教材——如今连这种测试都饱和了，因为它进了训练数据。\n\n## 不只是排行榜:是一家数据公司\n\nArena 起步是 battle 模式:输入一个 prompt,得到两个回答,用户选哪个更好。但他坦承，历史最大批评是「人类偏好实在是模型质量的一个不完整信号」——人们投票时并不核查事实，还可能投给印证自己偏见的答案。\n\n所以他们在很大程度上放弃了以 battle 为主要信号，现在最重要的信号是**任务完成率**：你的活儿干完了吗？再加上可控性、幻觉率、事实性。事实性用自动化流水线测：提取模型的所有事实性断言，塞进一堆搜索模型去网页找证据支持或推翻。他们还捕捉隐性反馈——用户反复换着问法重问(查询重构)、点下载、合并 PR,「每一次交互都是一条反馈」。\n\n用户画像也出乎意料：28% 是软件工程师，17% 科学家，15% 金融，6% 法律，6% 医疗——是一群知识型工作者，不只工程师。\n\n商业模式上，公开排行榜「从来不涉及钱」，当作公益运营；收费的是与实验室合作：实验室一周有 50 个模型检查点(checkpoints,训练过程中的中间版本)，Arena 在代表真实使用的数据上评估，交回洞察仪表盘。「这就是把我们规模做到超过一亿美元收入的产品。」下一步是把同样的方法塞进每家企业，帮它们搞清哪个模型最适合自己的员工和用户、以及如何在性能与成本间权衡。\n\n## 开源与中国的「翻转时刻」\n\n他认为行业最大变化是闭源与开源模型之间的「相变」。Kimi 在他们的网页开发 Arena 上排第一,是「第一次看到对蒸馏叙事的违背」——「蒸馏叙事」指「中国之所以能跟上，唯一的原因是他们在蒸馏美国的智能」。而「如果他们排第一而美国排第二，这怎么可能是真的？」网页开发不是小类别，「大部分经济价值都来自这里」。他的判断：「我认为美国人还没有充分认识到来自中国科学家的智慧和创造力。」我们正在进入中美之间的「翻转时刻」(flippening)。\n\n开源榜上的差距有多夸张？纯开源模型里美国最接近的是 Thinking Machine,只能排第 10——「上面有九家中国的」，而且因为新模型发布，「现在可能更多了」。为什么美国落后？他的归因是商业模式:花 50 亿美元训练一个前沿模型然后免费送出去，「听起来像个蠢主意」，中国公司因不同的公司动态可以这么做，美国公司不行。现在两条变现路径：一是带营收门槛的「半开源」许可证(产品营收超 2000 万美元就要分成);二是拿开源当打入企业的楔子，围绕它做 AI 现代化业务。他还预测：「会有针对开放模型的严厉监管」——监管俘获几乎必然，但一线希望是美国因此会做出自己的开源模型，因为「我们绝对需要美国的开源」。\n\n## 他做多什么、做空什么\n\n看空 API 层的锁定：「Anthropic 的收入在 API 上一路爆棚……但来得容易，去得也容易。」花那么快花的钱，不可能没有切换供应商的能力。「如果一个开源模型能以 10% 的成本完成 90% 的工作——未来几年完全可能发生——我认为这是相当结构性的问题。」\n\n看多两件事:OpenAI 的消费者广告市场(「至今没被充分开发利用，但仍是 AI 领域最大的机会之一」——能年化做出数千亿美元收入的生意，世上只有广告和伟大的硬件寥寥几类);以及应用层公司——开源把服务成本砍掉 80-90% 后，毛利率问题缓解,「价值会继续往栈的上游走」。被叫了多年「套壳(wrappers)」是「一种非常偷懒的描述方式」。对「模型整合论」的回应：每周都有人问，「而现实总是相反的」——AI 改变每个行业,带来的是百花齐放，「我们的生意如果只有一个模型提供商就很糟……我们想要 10 个,我们想要 50 个」。\n\n## 最糟的一天\n\n创业低谷撞上了人生低谷：种子轮「投资条款书要来了」的阶段，岳父在塞尔维亚心脏病突发去世，他放下一切飞过去，葬礼两天后就开始打电话谈判。妻子几个月里每天哭，后来变成两天一次、四天一次，如今偶尔哭，「她说，我记得我爸爸,但我开始忘记我爸爸了」。几周后又遭遇 MIT、Stanford 等机构联署、背后有 Cohere(当时约排第 70 名)的《Leaderboard Illusion》论文,指控 Arena 偏袒闭源模型——「感觉像被人在背后捅了一刀」。他说妻子花了很久才原谅他把公司放在优先位置,「可能因为她是对的,那些决定确实不全都合理」。\n\n## 接下来\n\n两个优先事项：一是智能体——进入智能体后评估对象不只是模型还有 harness(智能体的执行框架，含子模型、子智能体的多组件系统)，他们在 arena.ai/agent 上把编排器和 harness 随机化以收集交互效应，还做了一年路由器(router,自动帮你选最合适的模型),「路由器现在火了,但我们早就在这局游戏里了」;二是把这套「自我改进的数据飞轮」复制进每家企业，帮它们建自己的路由器、避免供应商锁定、拿到 AI 主权。他对自己的定位一句话:「我把 Arena 视为价值系统……整个游戏的关键就在于选择正确的价值系统,而我们的价值系统是对真实的人有用。」\n\n## 本集带走\n\n- **评估基准的病根是「为测试而训练」**：自造的小基准会饱和(进了训练数据就失效)，人类投票又只是不完整信号。更可靠的信号是任务完成率、查询重构次数、文件下载是否真被使用、PR 是否被合并这类真实使用痕迹。\n- **开源在网页开发等高价值类别已能登顶**，「中国只靠蒸馏美国智能」的叙事被排行榜打破；美国纯开源最强也只排第 10,上面有九家中国模型。\n- **开源冲击下的格局判断**:API 锁定未必存在，「90% 的活、10% 的成本」是结构性威胁；价值可能向应用层转移，OpenAI 最大的未开发金矿可能是消费者广告。\n- **排行榜是公益、评估才是生意**：公开榜单免费做信任，向实验室卖开发期的检查点评估与洞察仪表盘，这就是 1 亿美元收入的来源。\n- **高速增长的用人逻辑**：人员不必随营收线性扩张，只在合同、基础设施等产品需要处补人——八个月内 15-20 人涨到 75-80 人，撑起 1 亿美元年化。",
+  "quotes": [
+    {
+      "en": "That's because they all trained to the test. And so we had this philosophy that it's really about reality. Reality is the only judge that you can actually trust.",
+      "zh": "那是因为它们全都是针对测试去训练的。所以我们有一个理念：真正重要的是现实。现实是唯一一个你真正能信得过的裁判。",
+      "timestamp": "03:35",
+      "speaker": "Anastasios Angelopoulos"
+    },
+    {
+      "en": "There shouldn't be some random f***ing benchmark that's made by some dude that thinks they're smart.",
+      "zh": "不应该是某个自以为聪明的家伙随便搞出来的什么破基准测试。",
+      "timestamp": "06:28",
+      "speaker": "Anastasios Angelopoulos"
+    },
+    {
+      "en": "It's measuring utility by providing utility. The point is that the user incentive and the platform incentive are perfectly aligned because we're trying to measure utility.",
+      "zh": "它通过提供效用来衡量效用。关键在于，用户激励和平台激励完美一致，因为我们是在试图衡量效用。",
+      "timestamp": "09:06",
+      "speaker": "Anastasios Angelopoulos"
+    },
+    {
+      "en": "People are just not understanding that AI, because it transforms every industry, is going to lead to many flowers blooming.",
+      "zh": "人们就是没理解到，AI 因为会改变每一个行业，所以会带来百花齐放。",
+      "timestamp": "04:48",
+      "speaker": "Anastasios Angelopoulos"
+    },
+    {
+      "en": "But I think the number one thing that's starting to happen now is there's a phase shift between closed and open models.",
+      "zh": "但我认为现在开始出现的头号事情是闭源模型和开源模型之间的相变。",
+      "timestamp": "13:19",
+      "speaker": "Anastasios Angelopoulos"
+    },
+    {
+      "en": "You know, I don't think Americans are fully appreciating the intelligence and creativity that's coming from Chinese scientists.",
+      "zh": "你知道，我认为美国人还没有充分认识到来自中国科学家的智慧和创造力。",
+      "timestamp": "14:24",
+      "speaker": "Anastasios Angelopoulos"
+    },
+    {
+      "en": "I'm going to spend $5 billion training a frontier model and then I'm just going to give it away. Sounds stupid, right?",
+      "zh": "我要花 50 亿美元训练一个前沿模型，然后我就这么把它免费送出去。听起来很蠢，对吧？",
+      "timestamp": "17:01",
+      "speaker": "Anastasios Angelopoulos"
+    },
+    {
+      "en": "And if we have two, we're barely making it. We want 10. We want 50.",
+      "zh": "如果有两个，我们也只是勉强撑着。我们想要 10 个。我们想要 50 个。",
+      "timestamp": "45:01",
+      "speaker": "Anastasios Angelopoulos"
+    },
+    {
+      "en": "By the way, one thing I'm long is the consumer ads marketplace on OpenAI, which has obviously not been fully utilized to this day, but I think remains one of the biggest opportunities in AI.",
+      "zh": "顺便说一句，我看多的一件事是 OpenAI 上的消费者广告市场，这显然至今还没有被充分开发利用，但我认为它仍然是 AI 领域最大的机会之一。",
+      "timestamp": "40:27",
+      "speaker": "Anastasios Angelopoulos"
+    },
+    {
+      "en": "I know they were called wrappers for a very long period of time. And I think that's always the very lazy way of... You know, identifying these companies or describing these companies.",
+      "zh": "我知道它们在很长一段时间里被称为套壳（wrappers）。而且我认为这一直是一种非常偷懒的识别这些公司或描述这些公司的方式。",
+      "timestamp": "43:22",
+      "speaker": "Mamoun Hamid"
+    },
+    {
+      "en": "It was nearly a 100% win rate. And by the way, it's almost impossible to get people to agree on anything.",
+      "zh": "胜率接近 100%。而且顺便说一句，要让人们在任何事情上达成一致几乎是不可能的。",
+      "timestamp": "38:57",
+      "speaker": "Anastasios Angelopoulos"
+    },
+    {
+      "en": "And the whole game is about picking the right value system. And so our value system is a utility to real people.",
+      "zh": "而整个游戏的关键就在于选择正确的价值系统。我们的价值系统是对真实的人有用。",
+      "timestamp": "58:30",
+      "speaker": "Anastasios Angelopoulos"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:38",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "That's because they all trained to the test. And so we had this philosophy that it's really about reality. Reality is the only judge that you can actually trust.",
+      "zh": "那是因为它们全都是针对测试去训练的。所以我们有一个理念：真正重要的是现实。现实是唯一一个你真正能信得过的裁判。"
+    },
+    {
+      "timestamp": "06:28",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "There shouldn't be some random f***ing benchmark that's made by some dude that thinks they're smart.",
+      "zh": "不应该是某个自以为聪明的家伙随便搞出来的什么破基准测试。"
+    },
+    {
+      "timestamp": "07:00",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "Because benchmarks attract attention.",
+      "zh": "因为基准测试能吸引注意力。"
+    },
+    {
+      "timestamp": "09:06",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "It's measuring utility by providing utility. The point is that the user incentive and the platform incentive are perfectly aligned because we're trying to measure utility.",
+      "zh": "它通过提供效用来衡量效用。关键在于，用户激励和平台激励完美一致，因为我们是在试图衡量效用。"
+    },
+    {
+      "timestamp": "10:12",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "Anytime you're doing that, that's explicit natural language textual feedback that we can use for our rankings.",
+      "zh": "每当你这么做时，那就是显性的自然语言文字反馈，我们可以用于我们的排名。"
+    },
+    {
+      "timestamp": "11:02",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "Every interaction is a piece of feedback.",
+      "zh": "每一次交互都是一条反馈。"
+    },
+    {
+      "timestamp": "04:48",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "People are just not understanding that AI, because it transforms every industry, is going to lead to many flowers blooming.",
+      "zh": "人们就是没理解到，AI 因为会改变每一个行业，所以会带来百花齐放。"
+    },
+    {
+      "timestamp": "13:19",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "But I think the number one thing that's starting to happen now is there's a phase shift between closed and open models.",
+      "zh": "但我认为现在开始出现的头号事情是闭源模型和开源模型之间的相变。"
+    },
+    {
+      "timestamp": "13:58",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "But how can that be true if they're number one and America's number two?",
+      "zh": "但如果他们排第一而美国排第二，这怎么可能是真的？"
+    },
+    {
+      "timestamp": "14:24",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "You know, I don't think Americans are fully appreciating the intelligence and creativity that's coming from Chinese scientists.",
+      "zh": "你知道，我认为美国人还没有充分认识到来自中国科学家的智慧和创造力。"
+    },
+    {
+      "timestamp": "16:03",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "And we are way, way the hell behind.",
+      "zh": "而我们远远、远远落后得一塌糊涂。"
+    },
+    {
+      "timestamp": "17:06",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "I'm going to spend $5 billion training a frontier model and then I'm just going to give it away. Sounds stupid, right?",
+      "zh": "我要花 50 亿美元训练一个前沿模型，然后我就这么把它免费送出去。听起来很蠢，对吧？"
+    },
+    {
+      "timestamp": "45:01",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "And if we have two, we're barely making it. We want 10. We want 50.",
+      "zh": "如果有两个，我们也只是勉强撑着。我们想要 10 个。我们想要 50 个。"
+    },
+    {
+      "timestamp": "39:40",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "I think that the API layer, people are assuming a degree of lock in the APIs that I don't think is necessarily going to exist.",
+      "zh": "我认为在 API 层，人们假设 API 存在某种程度的锁定，而我不认为这种锁定必然会存在。"
+    },
+    {
+      "timestamp": "40:27",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "By the way, one thing I'm long is the consumer ads marketplace on OpenAI, which has obviously not been fully utilized to this day, but I think remains one of the biggest opportunities in AI.",
+      "zh": "顺便说一句，我看多的一件事是 OpenAI 上的消费者广告市场，这显然至今还没有被充分开发利用，但我认为它仍然是 AI 领域最大的机会之一。"
+    },
+    {
+      "timestamp": "43:22",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "I know they were called wrappers for a very long period of time. And I think that's always the very lazy way of... You know, identifying these companies or describing these companies.",
+      "zh": "我知道它们在很长一段时间里被称为套壳（wrappers）。而且我认为这一直是一种非常偷懒的识别这些公司或描述这些公司的方式。"
+    },
+    {
+      "timestamp": "38:57",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "It was nearly a 100% win rate. And by the way, it's almost impossible to get people to agree on anything.",
+      "zh": "胜率接近 100%。而且顺便说一句，要让人们在任何事情上达成一致几乎是不可能的。"
+    },
+    {
+      "timestamp": "58:30",
+      "speaker": "Anastasios Angelopoulos",
+      "en": "And the whole game is about picking the right value system. And so our value system is a utility to real people.",
+      "zh": "而整个游戏的关键就在于选择正确的价值系统。我们的价值系统是对真实的人有用。"
+    }
+  ],
+  "voice_script": "今天这期,主角是 Anastasios Angelopoulos,波塞冬不认识没关系,Arena 这个名字你多半听说过——就是整个 AI 行业都盯着、想让它回答\"到底哪个模型最好\"的那个平台。这位联合创始人兼 CEO,是从伯克利的统计学家、理论机器学习博士生走出来的创始人。当年把 Chatbot Arena 当成\"一个副项目的副项目\",在学校 Soda Hall 的地下室里鼓捣出来。如今呢,这家公司今年 6 月年化收入做到 1 亿美元,估值 17 亿。注意,这 1 亿美元年化收入,只花了八个月。团队从十五到二十人,涨到了七十五到八十人。主持人问他目标是什么,他回答得很直白:我们也不知道目标是什么,因为我们一直在超越它。\n\n那这个平台到底凭什么?得从它的起点说起。创始人最初观察到一件事:那些在 MMLU 这类选择题基准上表现好的模型,往往不是用户真正爱用的那个。为什么?因为它们全都是针对测试去训练的。所以有这么一条理念,是这家公司的底色:真正重要的是现实,现实是唯一一个你真正能信得过的裁判。\n\n顺着这个理念,对学术圈自造基准的批评就来得不客气了。原话是,不应该是某个自以为聪明的家伙随便搞出来的什么破基准测试。为什么这东西泛滥?因为基准测试能吸引注意力。可用户根本不知道什么模型对自己的任务最好。举过一个反面教材:曾经风靡 Twitter 的\"鹈鹕骑自行车\"SVG 测试。连这种测试如今都饱和了——原因很讽刺,它进了训练数据,模型提前见过答案,测出来当然好看。\n\n说到这儿,你可能会想,排行榜不就靠用户投票吗?这恰恰引出这个平台历史上最大的批评:人类偏好,实在是模型质量的一个不完整信号。人们投票的时候并不核查事实,还可能投给那些印证自己偏见的答案。所以公司基本上放弃了以这种 battle 模式作为主要信号,转向更硬的指标:任务完成率——你的活儿到底干完没有。再加上可控性、幻觉率、事实性。事实性怎么测?用自动化流水线:提取模型的所有事实性断言,塞给一堆搜索模型去网页找证据,看支持还是推翻。还有隐性反馈,比如用户反复换着问法重问、点下载、合并 PR——每一次交互,都是一条反馈。\n\n那这些都是公益吗?公开排行榜确实从来不涉及钱,当公益运营,换来的是全行业的信任。真正收费的,是跟实验室的合作:实验室一周能有五十个模型检查点——就是训练过程中的中间版本——Arena 拿代表真实使用的数据去评估,再交回一份洞察仪表盘。用他自己的话说,这就是把规模做到超过一亿美元收入的产品。下一步,是把同样的方法塞进每家企业,帮它们搞清楚哪个模型最适合自己的员工和用户,怎么在性能和成本之间权衡。\n\n而聊到行业格局,有句话很关键:现在开始出现的头号事情,是闭源模型和开源模型之间的相变。什么叫相变?就是整个状态突然变了。标志性事件是:Kimi,一个中国模型,在他们的网页开发 Arena 上排了第一。这打破了所谓的\"蒸馏叙事\"——那个说法是,中国之所以能跟上,唯一原因是蒸馏美国的智能。可如果中国排第一、美国排第二,这怎么可能是真的?而且网页开发不是小类别,大部分经济价值都来自这里。所以有句判断值得记住:美国人还没有充分认识到来自中国科学家的智慧和创造力。\n\n开源榜上的差距有多夸张?纯开源模型里,美国最接近的是 Thinking Machine,只能排第十,上面有九家中国的——因为新模型不断发布,现在可能更多了。为什么美国落后?归因是商业模式:花五十亿美元训练一个前沿模型,然后免费送出去,听起来像个蠢主意。中国公司因为不同的公司动态可以这么做,美国公司不行。现在两条变现路径:一是带营收门槛的半开源许可证,产品营收超过两千万美元就要分成;二是拿开源当打入企业的楔子,围绕它做 AI 现代化业务。还预测会有针对开放模型的严厉监管,但一线希望是,美国因此会做出自己的开源模型,因为我们绝对需要美国的开源。\n\n这套判断落到具体押注上,就是一空一多。看空 API 层的锁定,理由很直白:Anthropic 的收入在 API 上一路爆棚,但来得容易,去得也容易。花得那么快,不可能没有切换供应商的能力。想象一下,如果开源模型能以百分之十的成本完成百分之九十的工作——未来几年完全可能发生——这对闭源 API 就是相当结构性的问题。看多两件事:一是 OpenAI 的消费者广告市场,至今没被充分开发利用,但仍是 AI 领域最大的机会之一;二是应用层公司,开源把服务成本砍掉八九成之后,毛利率问题缓解,价值会继续往栈的上游走。应用层被叫了多年\"套壳\",这被形容为一种非常偷懒的描述方式。至于每周都有人问的\"模型整合论\",现实总是相反:AI 因为会改变每一个行业,所以会带来百花齐放。用原话说,我们的生意如果只有一个模型提供商就很糟,我们想要十个,我们想要五十个。\n\n这种一路狂奔的创业,代价也是真实的。种子轮\"投资条款书要来了\"的阶段,岳父在塞尔维亚心脏病突发去世。放下一切飞过去,葬礼两天后就开始打电话谈判。妻子几个月里每天哭,后来变成两天一次、四天一次,如今偶尔哭。妻子说过一句话:我记得我爸爸,但我开始忘记我爸爸了。几周后,又碰上 MIT、Stanford 等机构联署、背后站着当时约排第七十名的 Cohere 的那篇《Leaderboard Illusion》论文,指控 Arena 偏袒闭源模型。感觉像被人在背后捅了一刀。妻子花了很久才原谅他把公司放在优先位置——可能因为她是对的,那些决定确实不全都合理。\n\n接下来有两个优先事项。一是智能体,进入智能体时代,评估对象不只是模型,还有 harness,就是智能体的执行框架,里面套着子模型、子智能体等多组件系统。他们在 arena.ai/agent 上把编排器和 harness 随机化,收集交互效应。还做了一年路由器,就是自动帮你选最合适模型的工具——路由器现在火了,但我们早就在这局游戏里了。二是把这套自我改进的数据飞轮复制进每家企业,帮它们建自己的路由器,避免供应商锁定,拿到 AI 主权。\n\n最后,创始人给自己的定位是一句话:我把 Arena 视为价值系统,整个游戏的关键就在于选择正确的价值系统,而我们的价值系统,是对真实的人有用。"
+}

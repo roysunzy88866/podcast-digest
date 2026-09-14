@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Nest":1,"OpenAI":105,"Anthropic":119,"General Magic":2,"Apple":17,"Flighty":1,"iPod":1,"iPhone":1,"智能体":230}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Nest":1,"OpenAI":106,"Anthropic":120,"General Magic":2,"Apple":17,"Flighty":1,"iPod":1,"iPhone":1,"智能体":232}</script>
 
 <script>
 (function(){
