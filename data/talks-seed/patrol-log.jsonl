@@ -971,3 +971,5 @@
 {"ts":"2026-09-12T01:51:14.102Z","action":"rejected","channel":"cursor","videoId":"ByOF8qByGHU","title":"What Is Your Job Now, Farhan Thawar | Compile 26","durationSec":1600,"verdict":"不对味","reason":"拿不准:Compile 系列短讲、27 分钟且偏行业观点访谈,非本频道要的 50-65 分钟 AI 编程实操深讲,深浅边界存疑"}
 {"ts":"2026-09-13T01:40:57.974Z","action":"prefilter-skip","channel":"yc","videoId":"wr6PMD06hP0","title":"How To Get Better At Outbound Sales","reason":"时长 762s < 下限 900s"}
 {"ts":"2026-09-13T01:44:59.053Z","action":"push-failed","videoId":null,"error":"pull --rebase + push 连败 3 次;种子已在本地提交,下轮巡航随新提交重推"}
+{"ts":"2026-09-14T13:40:48.509Z","action":"discover-error","channel":"aie","videoId":null,"error":"取不到 https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA(网络/代理连败 4 次,多半是代理抽风):fetch failed"}
+{"ts":"2026-09-14T13:41:49.623Z","action":"prefilter-skip","channel":"langchain","videoId":"k_ayOKJr6Dk","title":"The One-Line Integration That Got Clay's Agents Into LangSmith","reason":"时长 52s < 下限 600s"}
