@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]]
+[[Greg Brockman]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"Datadog":7,"Cursor":58,"GitHub":22,"智能体":233,"沙箱":41,"泄露的凭证":3,"权限":1,"数据仓库":3,"软件供应链":2}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":4,"Datadog":7,"Cursor":58,"GitHub":22,"智能体":234,"沙箱":42,"泄露的凭证":3,"权限":1,"数据仓库":3,"软件供应链":2}</script>
 
 <script>
 (function(){

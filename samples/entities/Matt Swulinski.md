@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Joe Schmidt]]
+[[Tim Sanders]] [[Craig]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Superhuman":4,"Whisper":2,"Victor":2,"Meta":30,"Google":40,"PLG":8,"智能体":233,"ugc":2,"AEO":3}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Superhuman":4,"Whisper":2,"Victor":2,"Meta":30,"Google":41,"PLG":9,"智能体":234,"ugc":2,"AEO":4}</script>
 
 <script>
 (function(){

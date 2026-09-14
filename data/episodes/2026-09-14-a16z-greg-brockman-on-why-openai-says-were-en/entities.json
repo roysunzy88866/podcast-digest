@@ -1,0 +1,988 @@
+{
+  "episode_id": "2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en",
+  "podcast": "The a16z Show",
+  "date": "2026-09-14",
+  "tags": [
+    "AGI",
+    "AI 安全",
+    "网络安全",
+    "智能体",
+    "OpenAI"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "greg-brockman",
+      "type": "person",
+      "role": "host",
+      "name": "Greg Brockman",
+      "file": "Greg Brockman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            61.696,
+            67.619
+          ],
+          "quote": "Ten years ago, Greg Brockman and Ilyas Huskiver estimated that AGI might be 10 to 15 years away.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 20,
+          "t": [
+            73.163,
+            80.989
+          ],
+          "quote": "In this episode, I sit down with Ben Horowitz and OpenAI co-founder and president Greg Brockman to talk about what has changed and what comes next.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ben-horowitz",
+      "type": "person",
+      "role": "cohost",
+      "name": "Ben Horowitz",
+      "file": "Ben Horowitz",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            73.163,
+            80.989
+          ],
+          "quote": "In this episode, I sit down with Ben Horowitz and OpenAI co-founder and president Greg Brockman to talk about what has changed and what comes next.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集主线公司:Greg 共同创立并担任总裁,讨论其 AGI 时间线、Hugging Face 事件后的防御转向、防御工厂与十亿美元一线防御者承诺、砍掉 Sora 聚焦业务等。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            29.325,
+            34.986
+          ],
+          "quote": "You've made two very big bets in your career, helping build Stripe early and helping, of course, found OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            47.568,
+            51.49
+          ],
+          "quote": "I, throughout OpenAI, have always focused on whatever is the most important problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            68.299,
+            72.482
+          ],
+          "quote": "Today, Greg says we're entering what OpenAI calls the AGI era.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 20,
+          "t": [
+            73.163,
+            80.989
+          ],
+          "quote": "In this episode, I sit down with Ben Horowitz and OpenAI co-founder and president Greg Brockman to talk about what has changed and what comes next.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 21,
+          "t": [
+            81.869,
+            96.84
+          ],
+          "quote": "Greg explains why computer use could fundamentally change our relationship with software, how OpenAI used 10,000 agents to tackle a major mathematics problem, and why increasingly capable models are creating both new possibilities and new security risks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 22,
+          "t": [
+            97.592,
+            110.798
+          ],
+          "quote": "They also get into OpenAI's response to recent cybersecurity developments, why Greg believes defenders have a critical window to use Frontier AI to secure their systems, and how the company is thinking about safety as capabilities advance.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 27,
+          "t": [
+            129.639,
+            135.462
+          ],
+          "quote": "So, Greg, you've made two very big bets in your career, helping build Stripe early and helping, of course, co-found OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 68,
+          "t": [
+            370.467,
+            373.809
+          ],
+          "quote": "Key results that came out of OpenAI in the field at the time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            424.327,
+            430.655
+          ],
+          "quote": "And so it's in some ways that I think that there was this early phase when OpenAI started where we really",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            522.12,
+            524.261
+          ],
+          "quote": "And I think it is not at all unique to OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            539.225,
+            554.397
+          ],
+          "quote": "And so there's this massive wave that's been building for a very long time and we're starting to see the leading edges of this technology and companies like OpenAI can lead by a bit in order to kind of peer into this future and really understand what is possible, how do we shape this technology, but we can't do that alone.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            567.079,
+            573.834
+          ],
+          "quote": "You've called the OpenAI Hugging Face recent incident a watershed moment and talked about how the defender's window is now open.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            840.27,
+            851.561
+          ],
+          "quote": "In the case of cybersecurity, how I think about it, we at OpenAI took our models and applied them to finding vulnerabilities.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1400.856,
+            1405.298
+          ],
+          "quote": "And from the very beginning of OpenAI, I remember in November, 2015, we did this offsite Napa.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1561.256,
+            1572.381
+          ],
+          "quote": "I think we even put this in the OpenAI launch post back in the day in 2015, just saying that the history so far has been somehow it just doesn't play out the way that you think it does, even when there's this like logical conclusion, it should be a certain way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2562.637,
+            2565.699
+          ],
+          "quote": "I think we have very, very helpful engineers at OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2792.298,
+            2799.163
+          ],
+          "quote": "I, throughout OpenAI, have always focused on whatever is the most important problem that I think that I can move the needle on that just isn't gonna happen without me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2945.622,
+            2952.049
+          ],
+          "quote": "And so I think that, again, the theme of OpenAI, certainly for the past five years has been",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "开场被提到是 Greg 职业生涯的第一次大押注:早期参与建设 Stripe。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            29.325,
+            34.986
+          ],
+          "quote": "You've made two very big bets in your career, helping build Stripe early and helping, of course, found OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            129.639,
+            135.462
+          ],
+          "quote": "So, Greg, you've made two very big bets in your career, helping build Stripe early and helping, of course, co-found OpenAI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "astra",
+      "type": "company",
+      "role": "company",
+      "name": "Astra",
+      "file": "Astra",
+      "primary": true,
+      "how_described": "OpenAI 最新模型,Greg 称「把它称作 AGI 是相当合理的」:能连贯运行 24 小时完成任务,计算机使用是其最重磅能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            1.832,
+            6.535
+          ],
+          "quote": "Astra has really hit something that I'm like, okay, I think this is pretty reasonable to call it AGI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            881.736,
+            887.702
+          ],
+          "quote": "When we took Astra, pointed out our systems, we found some new problems, but eventually it saturated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            887.903,
+            893.649
+          ],
+          "quote": "We basically have found, to our knowledge, all of the P0s, all of the critical problems that Astra is smart enough to find.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1276.074,
+            1277.556
+          ],
+          "quote": "Let's transition to Astra.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1293,
+            1298.084
+          ],
+          "quote": "Well, I think that Astra is really a step function on so many axes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2136.931,
+            2144.719
+          ],
+          "quote": "So the amount of water used by Abilene, which is the data center that actually trained Astra, that it uses about the same amount of water as an office building, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2329.459,
+            2333.183
+          ],
+          "quote": "Closing the loop on Astra, you've emphasized that capabilities will still remain jagged.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2346.996,
+            2353.522
+          ],
+          "quote": "And for me, Astra has really hit something that I'm like, okay, I think this is pretty reasonable to call it AGI in that...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "超 10 亿周活,每周 3 亿人用它获取健康帮助;但约 15 亿人用过即弃,Greg 说「新文本框比旧文本框好,但那不是我们曾被承诺的 AI」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            436.518,
+            442.381
+          ],
+          "quote": "And then I think that as things like ChatGPT took off, then people started to see, okay, well, we're not at this point yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1857.255,
+            1864.062
+          ],
+          "quote": "You look at ChatGPT, 300 million health queries or 300 million people every single week using it for help, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1908.015,
+            1910.497
+          ],
+          "quote": "was saved through information delivered by ChatGPT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1920.543,
+            1923.625
+          ],
+          "quote": "She typed into ChatGPT and Chad said, absolutely do not take that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2465.28,
+            2474.447
+          ],
+          "quote": "So we have over a billion weekly active users on ChatGPT, but I think we have something like another maybe 1.5 billion people who have used ChatGPT and don't use it anymore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2496.385,
+            2500.726
+          ],
+          "quote": "These AIs, like if you look at ChatGPT and ChatGPT work, they're both text boxes, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "Greg 拿它对自己的个人网站做渗透测试:15 分钟找出 13 个漏洞,45 分钟自动修好;OpenAI 还为数据中心所在州的大学生提供 Codex 访问额度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            1187.295,
+            1193.098
+          ],
+          "quote": "So I took my codex and asked it, go check out gregrockman.com, tell me if there's any vulnerabilities.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2154.248,
+            2160.27
+          ],
+          "quote": "Ohio and Georgia, where we have data centers we've announced, we've talked about how we're providing credits to every college student for Codex access.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集核心主题:Greg 说 2016/2017 年与 Ilya 推算 10-15 年到 AGI 基本押中,如今「我们处于 AGI 时代」,但 AGI 更像模糊光谱而非时间点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.331,
+            1.632
+          ],
+          "quote": "We're now in the AGI era.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1,
+          "t": [
+            1.832,
+            6.535
+          ],
+          "quote": "Astra has really hit something that I'm like, okay, I think this is pretty reasonable to call it AGI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            61.696,
+            67.619
+          ],
+          "quote": "Ten years ago, Greg Brockman and Ilyas Huskiver estimated that AGI might be 10 to 15 years away.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 19,
+          "t": [
+            68.299,
+            72.482
+          ],
+          "quote": "Today, Greg says we're entering what OpenAI calls the AGI era.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 32,
+          "t": [
+            159.876,
+            168.24
+          ],
+          "quote": "And we kind of came to the conclusion that if you look at Moore's Law progress, that kind of thing, 15 years felt like about the timeline to AGI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            431.115,
+            433.396
+          ],
+          "quote": "We're thinking about AGI safety, things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1144.271,
+            1148.112
+          ],
+          "quote": "You've said that in some ways it is bringing us closer to AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1284.165,
+            1288.451
+          ],
+          "quote": "You said it's sort of closer to the way along to AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2333.723,
+            2339.469
+          ],
+          "quote": "What do you think still left to go or still needs to be fleshed out that approximates most of your definition of AGI?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2340.71,
+            2346.476
+          ],
+          "quote": "Well, I think that AGI has turned out to be less of a point in time and more of this sort of fuzzy spectrum.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2346.996,
+            2353.522
+          ],
+          "quote": "And for me, Astra has really hit something that I'm like, okay, I think this is pretty reasonable to call it AGI in that...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2675.313,
+            2677.135
+          ],
+          "quote": "We want to ensure AGI benefits all of humanity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2904.137,
+            2907.358
+          ],
+          "quote": "I call this, and we call this, we're now in the AGI era.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机使用 (computer use)",
+      "file": "计算机使用",
+      "primary": true,
+      "how_described": "Astra 最重磅的能力:让强化学习的环境就是屏幕像素、键盘、鼠标,与人类同样的接口,任何电脑任务都自动进入分布之内,不必再造 MCP 服务器和连接器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            81.869,
+            96.84
+          ],
+          "quote": "Greg explains why computer use could fundamentally change our relationship with software, how OpenAI used 10,000 agents to tackle a major mathematics problem, and why increasingly capable models are creating both new possibilities and new security risks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1138.15,
+            1143.691
+          ],
+          "quote": "It's incredible to see all the excitement on X, all sorts of view cases, people really accept about computer use.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1278.137,
+            1283.264
+          ],
+          "quote": "It's incredible to see all the excitement online and the use cases, people really excited about computer use, among other things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1343.186,
+            1347.488
+          ],
+          "quote": "And to me, the computer use is the headline thing that we've talked about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1347.969,
+            1352.952
+          ],
+          "quote": "And part of the reason computer use is so significant is that for agentic use cases,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2354.252,
+            2359.155
+          ],
+          "quote": "With its computer use capabilities, you really can ask it to do long-lived tasks and it'll just do it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "Greg 说安全、安保、对齐会成为进步的瓶颈,需随能力一起不断提升;OpenAI 早在 2017 年就布局辩论、迭代放大等监督超智能的想法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            22.384,
+            26.724
+          ],
+          "quote": "You really have to make sure that safety, security, and alignment, those are all standards that you're constantly up-leveling.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            264.061,
+            271.106
+          ],
+          "quote": "And so thinking about as we move to more capable models, you really have to make sure that safety, security, alignment, those are all standards that you're constantly up leveling.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            554.417,
+            565.326
+          ],
+          "quote": "And I think that having coordination, especially the more that we can talk about safety techniques and share what we're seeing, alignment failures, those kinds of things, all of that is going to, again, take a very front seat for this next phase.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 658,
+          "t": [
+            2912.24,
+            2921.123
+          ],
+          "quote": "The point is that we are in a new phase where safety, security, alignment, really thinking about these things, not just at deployment time, but all the way back at development time, evaluation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "Hugging Face 事件的教训之一:前沿实验室要收紧评估期间对模型的沙箱、监控与控制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            579.644,
+            588.171
+          ],
+          "quote": "One is call it a something for us in terms of how we monitor sandbox and control the models during evaluation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "算力 (compute)",
+      "file": "算力",
+      "primary": true,
+      "how_described": "Greg 认为接下来最难的不是模型能力而是算力:「我们没有足够的算力来服务所有需求」;算力进步是技术进步自然产生的浪潮。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            12.599,
+            18.203
+          ],
+          "quote": "The models will be plenty powerful, but it'll be hard to get to everybody given that we won't have enough compute to serve it all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            154.933,
+            159.155
+          ],
+          "quote": "And I remember we did some math on compute in around 2016, 2017.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            214.285,
+            225.473
+          ],
+          "quote": "Well, look, I do think that we are in a world where it is hard for compute to keep up with the demand that we're already seeing in the market, just in terms of how people are going to use this technology benefit from it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            249.45,
+            258.517
+          ],
+          "quote": "So the models will be plenty powerful, or they'll continue, but it'll be hard to get to everybody, certainly in an affordable way, given that we won't have enough compute to serve it all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            279.111,
+            284.355
+          ],
+          "quote": "And so I think in my mind, it's more those constraints and the compute, I think we can make it happen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            527.882,
+            535.284
+          ],
+          "quote": "And I think one thing that's easy to miss is that what we're building is almost a sort of thing that falls out of compute progress.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            535.344,
+            538.805
+          ],
+          "quote": "And in some ways, compute progress is something that falls out of technological progress.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": false,
+      "how_described": "计算机使用的设想源头:2015 年 OpenAI 初期就问「如果我们能做强化学习,环境是屏幕像素、键盘、鼠标呢」;还提到 RLHF/基于人类偏好的强化学习源于 2017。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            377.351,
+            388.617
+          ],
+          "quote": "You can find a paper from 2017 that kind of laid that out with LSTMs and, you know, it was like kind of this very baby result, but also reinforcement learning from human preferences.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1411.521,
+            1418.926
+          ],
+          "quote": "But we also talked about what if we could do reinforcement learning where the environment is screen pixels, keyboard, mouse, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "formally-verifying",
+      "type": "concept",
+      "role": "concept",
+      "name": "形式化验证 (formally verifying)",
+      "file": "形式化验证",
+      "primary": true,
+      "how_described": "Greg 说 AI 让「形式化验证所有软件」这个老梦想变得可能:把 Navier-Stokes 问题形式化进 Lean,AI 就能写出可验证的代码与证明。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            927.44,
+            933.005
+          ],
+          "quote": "And there are ideas, for example, formally verifying all of software that are possible with AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lean",
+      "type": "concept",
+      "role": "concept",
+      "name": "Lean",
+      "file": "Lean",
+      "primary": false,
+      "how_described": "一种可被机器验证的数学证明语言;OpenAI 把 Navier-Stokes 问题形式化成 Lean,使 AI 能写出可验证的证明。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 188,
+          "t": [
+            955.642,
+            956.582
+          ],
+          "quote": "We formalized it into Lean.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2019.468,
+            2022.489
+          ],
+          "quote": "And really wanting to lean into that, that I think we're seeing across the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2576.887,
+            2587.176
+          ],
+          "quote": "And often, actually, sometimes it's interesting in areas like consulting or something where they really lean into like Myers-Briggs and that they do say like, here's like a quick way to know who I am and how I operate.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-centers",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data centers)",
+      "file": "数据中心",
+      "primary": false,
+      "how_described": "Greg 过去两年专注的重点之一;Ben 担心禁建数据中心会把产业推向海外,提到数据中心创造大量蓝领岗位,OpenAI 称其数据中心为闭环水系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            51.69,
+            56.393
+          ],
+          "quote": "For the past two years, it's been the data centers, the infrastructure, the machine learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1800.615,
+            1804.517
+          ],
+          "quote": "And even thinking about things like data centers and these kinds of questions of, do we want AI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2040.796,
+            2046.219
+          ],
+          "quote": "Yeah, particularly if we ban data centers, I think that'll be a problem for us maintaining our lead.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2048.64,
+            2052.302
+          ],
+          "quote": "Data centers overseas, which is what happened with Silicon back in, you know, the 80s or so.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2053.243,
+            2062.949
+          ],
+          "quote": "And there are so many, you know, one of the interesting things about data centers is it creates so many blue collar manufacturing jobs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2063.269,
+            2072.814
+          ],
+          "quote": "I think Switch employs like 45,000 people on kind of a union contract basis to build data centers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2128.604,
+            2132.287
+          ],
+          "quote": "And I think on data centers, so we've made commitments on not increasing",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2134.689,
+            2136.751
+          ],
+          "quote": "Our data centers are all closed loop water.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2154.248,
+            2160.27
+          ],
+          "quote": "Ohio and Georgia, where we have data centers we've announced, we've talked about how we're providing credits to every college student for Codex access.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2799.203,
+            2806.109
+          ],
+          "quote": "And for the past two years, it's been the data centers, the infrastructure, the machine learning, engineering.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

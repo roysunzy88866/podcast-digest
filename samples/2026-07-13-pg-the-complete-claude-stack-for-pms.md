@@ -135,7 +135,7 @@ Jyothi 在 VS Code 里用 [[Claude Code|Claude Code]] 从零搭了个本地知�
 
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Claude · 同概念:MCP、技能 (skills)、智能体 (agent)</span>
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同概念:Claude Code、MCP、智能体 (agent)</span>
-- [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同公司:Claude · 同概念:MCP、智能体 (agent)</span>
+- [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:Claude · 同概念:MCP、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

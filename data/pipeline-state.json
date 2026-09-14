@@ -86,7 +86,7 @@
   "cutoffs": {
     "lennys": "2026-09-08T12:31:49.000Z",
     "pg": "2026-09-04T23:01:00.000Z",
-    "a16z": "2026-09-13T10:00:00.000Z",
+    "a16z": "2026-09-14T10:00:00.000Z",
     "yc": "2026-09-13T15:05:37.000Z",
     "mad": "2026-09-10T11:30:00.000Z",
     "trainingdata": "2026-09-01T09:00:00.000Z",
@@ -110,7 +110,7 @@
     "howiai": "2026-09-14T11:00:00.000Z",
     "unsupervised": "2026-08-03T12:55:21.000Z",
     "twiml": "2026-09-09T20:05:00.000Z",
-    "eyeonai": "2026-09-10T13:43:00.000Z",
+    "eyeonai": "2026-09-14T14:16:00.000Z",
     "indepth": "2026-08-27T11:00:00.000Z",
     "uncapped": "2026-09-01T09:00:00.000Z",
     "pmf": "2026-09-07T09:00:00.000Z",
@@ -1046,6 +1046,24 @@
       "reason": "题材不对味:健康/医疗主题(Function Health、GLP-1),非 AI 商业/产品/创始人题材,不在收录范围",
       "title": "Dr. Mark Hyman on Function Health & GLP-1 microdosing | E2334",
       "pubDate": "2026-09-04T16:44:00.000Z"
+    },
+    {
+      "id": "2026-09-14-lennys-how-grok-bot-designers-use-ai-agents",
+      "reason": "跨源重复:与库内《How Grok Bot designers use AI agents to build personal sites and product prototypes | John Bai & Peng Zheng》同题,不重做(先到者留;误杀可删账本条目重放)",
+      "title": "How Grok Bot designers use AI agents to build personal sites and product prototypes | John Bai & Peng Zheng",
+      "pubDate": "2026-09-14T12:04:39.000Z"
+    },
+    {
+      "id": "2026-08-28-sourcery-inside-rocket-lab-how-sir-peter-beck-is",
+      "reason": "题材不对味:拿不准:火箭发动机工厂探访属航天硬件题材,与档案要的 AI 商业/产业/实操面不匹配",
+      "title": "Inside Rocket Lab: How Sir Peter Beck Is Building Neutron’s Engines | Tour 02",
+      "pubDate": "2026-08-28T10:00:01.000Z"
+    },
+    {
+      "id": "2026-08-26-sourcery-rocket-lab-hq-tour-with-sir-peter-beck",
+      "reason": "题材不对味:拿不准:Rocket Lab 工厂参观属非 AI 的硬件/航天公司内容,与档案核心的 AI 商业/产业/创始人故事不对齐,拿不准故不发。",
+      "title": "Rocket Lab HQ Tour with Sir Peter Beck | Factory Tour: Part I",
+      "pubDate": "2026-08-26T10:00:00.000Z"
     }
   ]
 }

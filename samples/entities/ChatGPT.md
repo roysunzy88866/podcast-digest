@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">概念 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>59</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">概念 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>61</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -69,11 +69,13 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|《鼠标力：为智能体时代找回「马力」这把尺子》]]**(05:17起):本集提到全世界还有人只是把东西复制粘贴进 ChatGPT，说明早期采用者并不能代表未来的采用人群。
 - **[[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]]**(04:27起):本集举例说可以问 ChatGPT 生成一张骑自行车的鹈鹕 PNG，再到 Figma 上矢量化。
 - **[[2026-09-10-talks-the-spatial-harness-bringing-agents-to-t|《把画布交给智能体：TLDraw 的空间协作实验》]]**(01:09起):本集提到他从 ChatGPT 出来之前就开始做画布上的智能体。
+- **[[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]]**(07:16起):超 10 亿周活,每周 3 亿人用它获取健康帮助;但约 15 亿人用过即弃,Greg 说「新文本框比旧文本框好,但那不是我们曾被承诺的 AI」。
+- **[[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]]**(00:38起):本集说它是 B2B 软件调研的主力模型（与 Gemini 合占 81% 一手调研份额），遇到商业意图提示会触发「你的钱、你的命」验证层，超过四分之一的买家甚至用手机上的个人版来选软件。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(01:05起):集里作为对比对象被提及，强调由于在云端运行它只能做有限的事（比如做不到控制嘉宾床的温度），且各家（如 ChatGPT）都有自己的数据孤岛，无法被别的公司提取记忆。
 
 ## ① 提到它的金句
 
-*16 条*
+*17 条*
 
 ![[2025-07-17-lennys-inside-every-dan-shipper#^q8]]
 
@@ -107,9 +109,11 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ![[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us#^q1]]
 
+![[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which#^q5]]
+
 ## ② 出现在这些集
 
-*59 集*
+*61 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
@@ -169,15 +173,17 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|《鼠标力：为智能体时代找回「马力」这把尺子》]] — 作为被讨论公司(提及)
 - [[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]] — 作为概念(提及)
 - [[2026-09-10-talks-the-spatial-harness-bringing-agents-to-t|《把画布交给智能体：TLDraw 的空间协作实验》]] — 作为概念(提及)
+- [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]] — 作为被讨论公司
+- [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]] — 作为被讨论公司
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Claude]] · [[Lenny]] · [[Anthropic]] · [[Google]] · [[Codex]] · [[Cursor]] · [[LLM]] · [[vibe coding]]
+[[智能体]] · [[OpenAI]] · [[Claude]] · [[Lenny]] · [[Google]] · [[Anthropic]] · [[Codex]] · [[Cursor]] · [[LLM]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"智能体":233,"OpenAI":107,"Claude":56,"Lenny":67,"Anthropic":121,"Google":40,"Codex":46,"Cursor":58,"LLM":31,"vibe coding":33}</script>
+<script type="application/json" class="pd-epn">{"智能体":234,"OpenAI":109,"Claude":57,"Lenny":67,"Google":41,"Anthropic":121,"Codex":47,"Cursor":58,"LLM":31,"AGI":21}</script>
 
 <script>
 (function(){

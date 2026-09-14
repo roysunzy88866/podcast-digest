@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]]
+[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":2,"Stein Pella":1,"Lassie":1,"智能体":233,"人在回路":8,"现有巨头":1,"Superhuman":4,"Stripe":29,"Workday":4}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":2,"Stein Pella":1,"Lassie":1,"智能体":234,"人在回路":8,"现有巨头":1,"Superhuman":4,"Stripe":30,"Workday":4}</script>
 
 <script>
 (function(){

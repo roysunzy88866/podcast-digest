@@ -1,0 +1,1006 @@
+{
+  "episode_id": "2026-08-25-mos-ford-s-jim-farley-on-beating-china-and-t",
+  "podcast": "Masters of Scale",
+  "date": "2026-08-25",
+  "tags": [
+    "汽车产业",
+    "电动车",
+    "中美竞争",
+    "制造业",
+    "蓝领技能"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "bob-safian",
+      "type": "person",
+      "role": "host",
+      "name": "Bob Safian",
+      "file": "Bob Safian",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            201.633,
+            205.356
+          ],
+          "quote": "I'm Bob Safian and this is Rapid Response.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 55,
+          "t": [
+            209.192,
+            210.113
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1801.029,
+            1802.15
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1851.518,
+            1852.518
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "jim-farley",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jim Farley",
+      "file": "Jim Farley",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            170.812,
+            177.815
+          ],
+          "quote": "That's Jim Farley, CEO of the Ford Motor Company, with the Strait of Hormuz in the spotlight and gas prices high.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 56,
+          "t": [
+            210.213,
+            213.097
+          ],
+          "quote": "I'm here with Jim Farley, CEO of Ford.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1246.81,
+            1253.654
+          ],
+          "quote": "Before the break, Ford CEO Jim Farley talked about fallout from war in the Middle East and how China is changing the auto business.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "ford",
+      "type": "company",
+      "role": "company",
+      "name": "Ford",
+      "file": "Ford",
+      "primary": true,
+      "how_described": "本集主角:美国标志性车企,CEO Jim Farley 谈其中国竞争威胁、电动车战略转向、UEV 平台与美国品牌责任。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            170.812,
+            177.815
+          ],
+          "quote": "That's Jim Farley, CEO of the Ford Motor Company, with the Strait of Hormuz in the spotlight and gas prices high.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 52,
+          "t": [
+            193.145,
+            199.931
+          ],
+          "quote": "Plus Ford's big bet on a new vehicle platform, his dissatisfaction with some of Ford's own products and more.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 56,
+          "t": [
+            210.213,
+            213.097
+          ],
+          "quote": "I'm here with Jim Farley, CEO of Ford.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 62,
+          "t": [
+            227.353,
+            232.779
+          ],
+          "quote": "I remember coming to Detroit 12 years ago to interview Bill Ford on stage about the future of mobility.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 85,
+          "t": [
+            312.762,
+            314.303
+          ],
+          "quote": "Ford is still a global company.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 126,
+          "t": [
+            482.785,
+            485.447
+          ],
+          "quote": "Not because I'm the CEO of Ford and we're always right.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 163,
+          "t": [
+            660.078,
+            664.882
+          ],
+          "quote": "The Western companies made a lot of money in China for a long time, not Ford, but many of our competitors.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 178,
+          "t": [
+            714.402,
+            720.604
+          ],
+          "quote": "You were personally driving a Chinese EV, which someone could see as like, oh, that's kind of a diss to Ford branded vehicles.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 196,
+          "t": [
+            822.512,
+            825.893
+          ],
+          "quote": "The UEV is kind of like the Model T of the modern Ford.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 201,
+          "t": [
+            840.817,
+            850.72
+          ],
+          "quote": "Universal electric vehicle platform was developed not by Ford, but by a Skunk Works team out in California, mostly motorsports and Tesla folks that we had hired.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 206,
+          "t": [
+            864.178,
+            868.339
+          ],
+          "quote": "They didn't use the Ford system to develop the vehicle and the platform.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 230,
+          "t": [
+            928.687,
+            940.936
+          ],
+          "quote": "You've talked about sort of no more boring products, which implies at least some of Ford's products are boring, which it doesn't necessarily have to do with the technology of it, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 232,
+          "t": [
+            945.139,
+            949.403
+          ],
+          "quote": "I would say I believe that Ford",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1009.992,
+            1013.834
+          ],
+          "quote": "We want vehicles at Ford that are truly differentiating for their customers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1030.54,
+            1037.024
+          ],
+          "quote": "I really believe Ford is about to launch a number of affordable vehicles, not just the UEV platform, but a number of them.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1246.81,
+            1253.654
+          ],
+          "quote": "Before the break, Ford CEO Jim Farley talked about fallout from war in the Middle East and how China is changing the auto business.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1254.234,
+            1265.061
+          ],
+          "quote": "Now he talks about the responsibility of leading an iconic American brand, his focus on what he calls the essential economy, and why Ford has reengaged with Formula One.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1268.433,
+            1270.734
+          ],
+          "quote": "You mentioned Ford as a brand a couple of times.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1270.754,
+            1278.416
+          ],
+          "quote": "I mean, Ford is a quintessential American brand, which can seem like a double-edged sword right now.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1308.163,
+            1309.683
+          ],
+          "quote": "And Ford is a principle company.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1348.141,
+            1362.591
+          ],
+          "quote": "So when people think of Ford, there may be a $300,000 GTD, but they know that it's the same company that makes the white F-150 for their electrician or the cop car or, you know, the first responder vehicle.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1376.664,
+            1381.77
+          ],
+          "quote": "Ford is back in Formula One after 22 year absence, partnering with Team Red Bull.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1424.811,
+            1427.113
+          ],
+          "quote": "We have almost a million subscriptions now at Ford.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1434.097,
+            1439.281
+          ],
+          "quote": "We want customers to know when something's going to fail on their Ford and Formula One's really good at that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1514.06,
+            1521.162
+          ],
+          "quote": "And Ford sees us through our customers because we're 45% share of the commercial market in the US.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1525.244,
+            1528.925
+          ],
+          "quote": "Ford, can you help me find the next generation of my team?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1555.024,
+            1561.314
+          ],
+          "quote": "You know, my son can graduate from high school, can be a technician in a Ford dealership and make 150 grand in three years.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1582.516,
+            1590.479
+          ],
+          "quote": "Your choices about what you're passionate about, your leadership, it has an echo effect beyond Ford's business itself, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1598.569,
+            1606.591
+          ],
+          "quote": "Well, I say I have no rights to play any role outside of being the CEO of Ford and making the company successful without progress at Ford.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1615.973,
+            1619.313
+          ],
+          "quote": "We need to build a sustainable company, but I work for the Ford family.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1640.298,
+            1648.36
+          ],
+          "quote": "And I think that Ford is the kind of company that actually requires a leader like that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1649.92,
+            1652.141
+          ],
+          "quote": "What's at stake for Ford right now?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1652.973,
+            1659.036
+          ],
+          "quote": "I think what's at stake at Ford and our story of success is pretty simple.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1659.876,
+            1670.181
+          ],
+          "quote": "I think it's really reflects the future of our country, not because we are a country, but because Ford is the heart and soul of our industrial base in our country.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1676.003,
+            1687.707
+          ],
+          "quote": "We won't be able to reduce CO2 at large scale without Ford being able to do that, impact our communities positively, not just with economic benefits, but with social progress.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1687.907,
+            1700.891
+          ],
+          "quote": "That's the kind of scale that Ford has, the kind of impact we have on our country, the importance of our sustainment is really tied to the success of the country and even the defense of the country.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1731.885,
+            1736.447
+          ],
+          "quote": "But sometimes you have to shrink to grow like we have at Ford.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1751.895,
+            1754.937
+          ],
+          "quote": "I really believe that in my heart or else I'm not the right leader for Ford.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1765.533,
+            1771.059
+          ],
+          "quote": "Jim has always been passionate, and as Ford's CEO, that urgency is definitely front and center.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1771.599,
+            1780.268
+          ],
+          "quote": "I'm struck by his sense of responsibility that Ford's mission goes beyond mobility to positively impacting community and country.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1780.749,
+            1786.454
+          ],
+          "quote": "Now, one could look at that cynically, that he's wrapping Ford in the American flag to help differentiate it.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1825.129,
+            1834.692
+          ],
+          "quote": "The guests and topics are just as compelling and timely from Ford's CEO to NASA's administrator to the lessons from the Devil Wears Prada.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "byd",
+      "type": "company",
+      "role": "company",
+      "name": "BYD",
+      "file": "BYD",
+      "primary": true,
+      "how_described": "本集说它是对美国成本和竞争威胁最大的对手:成本、供应链、制造专业能力、车辆知识产权业界最强,去年超过 VW 成为中国销量最大品牌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            745.831,
+            755.093
+          ],
+          "quote": "The best in business for us, cost-wise and competition-wise, supply chain, manufacturing expertise, the IP in the vehicle was really BYD.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 187,
+          "t": [
+            756.846,
+            764.633
+          ],
+          "quote": "And BYD became the most volume brand in China, not VW or the Western brands last year.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 189,
+          "t": [
+            767.516,
+            776.945
+          ],
+          "quote": "If we're smart, we'll take the cost competitiveness of BYD and then we'll compete with that platform in parts of the market where we know our customers really well.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 204,
+          "t": [
+            854.435,
+            861.857
+          ],
+          "quote": "We just want you to engineer the most affordable, most efficient electric vehicle on the planet better than BYD.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 217,
+          "t": [
+            902.896,
+            905.056
+          ],
+          "quote": "We couldn't BYD on the cost.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "type": "company",
+      "role": "company",
+      "name": "Tesla",
+      "file": "Tesla",
+      "primary": true,
+      "how_described": "本集说福特电动车曾连续三四年仅次于 Tesla 排第二;UEV 团队多为 Tesla 背景;Farley 认为更大威胁是 BYD,因为 Tesla 一直没有更新车型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            495.232,
+            498.094
+          ],
+          "quote": "We were number two to Tesla for three or four years in EVs.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 183,
+          "t": [
+            731.247,
+            739.649
+          ],
+          "quote": "If you're an American and you want us to beat the Chinese in the car business, you're all going to want to pay attention, not necessarily to Tesla.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 184,
+          "t": [
+            740.269,
+            741.209
+          ],
+          "quote": "Nothing against Tesla.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 201,
+          "t": [
+            840.817,
+            850.72
+          ],
+          "quote": "Universal electric vehicle platform was developed not by Ford, but by a Skunk Works team out in California, mostly motorsports and Tesla folks that we had hired.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi",
+      "type": "company",
+      "role": "company",
+      "name": "Xiaomi",
+      "file": "Xiaomi",
+      "primary": true,
+      "how_described": "Farley 本人在开的小米 SU7,作为亲身研究中国电动车实力的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            726.966,
+            728.446
+          ],
+          "quote": "Xiaomi, yes.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "red-bull",
+      "type": "company",
+      "role": "company",
+      "name": "Red Bull",
+      "file": "Red Bull",
+      "primary": false,
+      "how_described": "福特缺席 22 年后重返 Formula One 的合作车队,动机含 F1 的预测性故障技术转移到工作车辆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 313,
+          "t": [
+            1376.664,
+            1381.77
+          ],
+          "quote": "Ford is back in Formula One after 22 year absence, partnering with Team Red Bull.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "uev",
+      "type": "concept",
+      "role": "concept",
+      "name": "UEV",
+      "file": "UEV",
+      "primary": true,
+      "how_described": "本集称之为「现代福特的 Model T」:加州臭鼬工厂团队开发的通用电动车平台,前后一体式压铸加中间电池,零部件减 30%,三段独立制造,目标 3 万美元平价电动车。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            811.83,
+            821.412
+          ],
+          "quote": "Can you just, for the listeners here who may not know, can you just make sure that you explain what the UEV project is, the universal EV project?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 196,
+          "t": [
+            822.512,
+            825.893
+          ],
+          "quote": "The UEV is kind of like the Model T of the modern Ford.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1030.54,
+            1037.024
+          ],
+          "quote": "I really believe Ford is about to launch a number of affordable vehicles, not just the UEV platform, but a number of them.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1440.662,
+            1441.743
+          ],
+          "quote": "Look at our UEV team.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1442.723,
+            1448.668
+          ],
+          "quote": "We would not have the talent in our UEV team if we didn't have, you know, a connection with Formula One.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "ev",
+      "type": "concept",
+      "role": "concept",
+      "name": "EV",
+      "file": "EV",
+      "primary": true,
+      "how_described": "本集主线:美国电动车涨价近万美元仍占市场 7%,真正卖得动的是平价与二手电动车;福特退出高端、加倍押注平价电动车。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            399.302,
+            408.391
+          ],
+          "quote": "But what's selling an EV is more important, which is it's the real affordable EVs that are more popular, used EVs right now, super popular.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 134,
+          "t": [
+            522.644,
+            525.006
+          ],
+          "quote": "Where the EV market was already going.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 138,
+          "t": [
+            538.814,
+            548.6
+          ],
+          "quote": "You look at Australia, you look in China, you look at Europe, all those markets are moving to a pure EV being kind of a commuter type, low cost vehicle.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 141,
+          "t": [
+            565.35,
+            573.095
+          ],
+          "quote": "But you've had some amazing quotes, the most humbling thing I've ever seen, an existential threat, referring to their EV prowess.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 178,
+          "t": [
+            714.402,
+            720.604
+          ],
+          "quote": "You were personally driving a Chinese EV, which someone could see as like, oh, that's kind of a diss to Ford branded vehicles.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 190,
+          "t": [
+            777.545,
+            789.175
+          ],
+          "quote": "And this kind of next cycle of EV customers in the US, they want pickups and utilities and all these different body styles, but they want it at $30,000, not $50,000, like the first inning.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 194,
+          "t": [
+            811.83,
+            821.412
+          ],
+          "quote": "Can you just, for the listeners here who may not know, can you just make sure that you explain what the UEV project is, the universal EV project?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "hybrid",
+      "type": "concept",
+      "role": "concept",
+      "name": "混动 (hybrid)",
+      "file": "混动",
+      "primary": true,
+      "how_described": "本集说消费者因可负担性转向混动,福特抢先推出混动版 F-150,早于 RAM 等对手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            411.033,
+            417.86
+          ],
+          "quote": "I like to look at the used market even more than the new market to understand what consumers' headset is, and they're more interested in hybrid.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 131,
+          "t": [
+            507.198,
+            511.239
+          ],
+          "quote": "And we also came out with the hybrid F-150, America's best-selling truck.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 132,
+          "t": [
+            511.8,
+            517.402
+          ],
+          "quote": "And we hybridized it before RAM and, well, actually they don't even have a hybrid still.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1383.253,
+            1391.035
+          ],
+          "quote": "I'm curious why now, like, because, I mean, there's F1's cultural growth, there's its new lead into hybrid engines and sustainable fuels.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "used-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "二手车市场 (used market)",
+      "file": "二手车市场",
+      "primary": true,
+      "how_described": "Farley 说二手车市场是新车两倍大、价格更低,是消费者行为更好的预测指标,可在市场发生前看到走向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            411.033,
+            417.86
+          ],
+          "quote": "I like to look at the used market even more than the new market to understand what consumers' headset is, and they're more interested in hybrid.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 111,
+          "t": [
+            418.06,
+            423.386
+          ],
+          "quote": "Because of affordability right now, like everyone, people are moving to the used market first?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 112,
+          "t": [
+            423.726,
+            425.688
+          ],
+          "quote": "Or do you always look at the used market more?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "casting",
+      "type": "concept",
+      "role": "concept",
+      "name": "一体式压铸 (casting)",
+      "file": "一体式压铸",
+      "primary": false,
+      "how_described": "UEV 平台的关键工艺:前后各一个大型一体式压铸件,中间是电池,实现零部件减少约 30% 的彻底简化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 209,
+          "t": [
+            874.966,
+            877.147
+          ],
+          "quote": "There's a large unit casting in the front and the rear.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "electrification",
+      "type": "concept",
+      "role": "concept",
+      "name": "电气化 (electrification)",
+      "file": "电气化",
+      "primary": true,
+      "how_described": "本集说中国政府多年前就押注动力系统变革——电气化,要像太阳能一样真正主导全球汽车业。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            266.57,
+            270.474
+          ],
+          "quote": "A lot of that didn't happen, but electrification sure has.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 96,
+          "t": [
+            350.782,
+            354.044
+          ],
+          "quote": "And the electrification in the first quarter is happening.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 168,
+          "t": [
+            677.072,
+            678.593
+          ],
+          "quote": "Propulsion, electrification.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "essential-economy",
+      "type": "concept",
+      "role": "concept",
+      "name": "必需经济 (essential economy)",
+      "file": "必需经济",
+      "primary": true,
+      "how_described": "Farley 对电工、水管工、卡车司机、焊工等蓝领就业领域的称呼:建 AI 数据中心最缺这批人,职业学校和学徒体系已荒废,企业不能等政府。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 285,
+          "t": [
+            1254.234,
+            1265.061
+          ],
+          "quote": "Now he talks about the responsibility of leading an iconic American brand, his focus on what he calls the essential economy, and why Ford has reengaged with Formula One.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1472.717,
+            1476.4
+          ],
+          "quote": "We call this sector of jobs the essential economy.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "formula-one",
+      "type": "concept",
+      "role": "concept",
+      "name": "Formula One",
+      "file": "Formula One",
+      "primary": true,
+      "how_described": "福特重返的赛车运动:看中其预测性故障部件技术可转移到工作车辆,是福特近百万商用软件订阅的下一波浪潮,也是 UEV 团队人才来源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 285,
+          "t": [
+            1254.234,
+            1265.061
+          ],
+          "quote": "Now he talks about the responsibility of leading an iconic American brand, his focus on what he calls the essential economy, and why Ford has reengaged with Formula One.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1376.664,
+            1381.77
+          ],
+          "quote": "Ford is back in Formula One after 22 year absence, partnering with Team Red Bull.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1412.883,
+            1415.625
+          ],
+          "quote": "Cars get raced, and the ultimate racing is Formula One.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1434.097,
+            1439.281
+          ],
+          "quote": "We want customers to know when something's going to fail on their Ford and Formula One's really good at that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1442.723,
+            1448.668
+          ],
+          "quote": "We would not have the talent in our UEV team if we didn't have, you know, a connection with Formula One.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

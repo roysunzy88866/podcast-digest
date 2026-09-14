@@ -33,7 +33,7 @@ unlisted: true
 
 [[Max Junestrand]] · [[智能体]] · [[微调]] · [[评估]] · [[GPT 3.5]] · [[大语言模型]] · [[LangChain]] · [[Azure]] · [[OpenAI]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Max Junestrand":1,"智能体":233,"微调":15,"评估":1,"GPT 3.5":1,"大语言模型":5,"LangChain":5,"Azure":3,"OpenAI":107,"Anthropic":121}</script>
+<script type="application/json" class="pd-epn">{"Max Junestrand":1,"智能体":234,"微调":15,"评估":1,"GPT 3.5":1,"大语言模型":5,"LangChain":5,"Azure":3,"OpenAI":109,"Anthropic":121}</script>
 
 <script>
 (function(){

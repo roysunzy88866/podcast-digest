@@ -1,0 +1,27 @@
+{
+  "id": "2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en",
+  "audio_mp3": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/fbe64487-d342-4489-8ce5-8c81dc6b9cf8/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=fbe64487-d342-4489-8ce5-8c81dc6b9cf8&feed=JGE3yC0V",
+  "duration_sec": 3051.802,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 693,
+  "asr": true,
+  "title_en": "Greg Brockman on Why OpenAI Says We’re Entering the AGI Era",
+  "podcast": "The a16z Show",
+  "date": "2026-09-14",
+  "added": "2026-09-15",
+  "added_at": "2026-09-14T17:36:57.798Z",
+  "speaker_map": {
+    "SPEAKER_01": "Greg Brockman",
+    "SPEAKER_02": "Ben Horowitz"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Greg Brockman",
+  "cohosts": [
+    "Ben Horowitz"
+  ],
+  "title_zh": "OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型",
+  "guest_name": "Greg Brockman",
+  "guest_title": "OpenAI 总裁",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

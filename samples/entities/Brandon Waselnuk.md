@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]]
+[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unblocked":1,"上下文工程":12,"上下文引擎":1,"智能体":233,"MCP":38,"RAG":9,"Anthropic":121,"OpenAI":107,"GitHub":22}</script>
+<script type="application/json" class="pd-epn">{"Unblocked":1,"上下文工程":12,"上下文引擎":1,"智能体":234,"MCP":39,"RAG":9,"Anthropic":121,"OpenAI":109,"GitHub":22}</script>
 
 <script>
 (function(){

@@ -1,0 +1,172 @@
+{
+  "title_zh": "当 AI 决定买什么软件：G2 的「信任层」生意",
+  "tldr": "G2 首席创新官 Tim Sanders 拆解 ChatGPT 如何验证并推荐软件，以及厂商在 AI 搜索时代的生存法则。",
+  "digest_md": "这一集聊的是一件正在悄悄改变 B2B 软件生意的事：人们在买软件之前，越来越不问 Google，而是直接问 ChatGPT「我该买哪个」。研究显示，一半的 B2B 软件买家已经这么做了，一年前还只有 29%，明年估计到三分之二 [14:59 Unknown]。主角是 Tim Sanders——软件点评平台 G2 的首席创新官，也是哈佛 AI 研究所执行研究员。他带来的最核心的判断是：G2 已经从「点评网站」变成了 AI 时代的「信任层」——因为模型在推荐你花钱买的东西之前，会先做一轮验证，而验证依赖的恰恰是 G2 这类可信第三方。\n\n## 模型推荐软件前，先过一道「验证层」\n\nSanders 透露了一个很多人不知道的机制：当你的提示词表达出「想买什么」，也就是所谓商业意图提示时，ChatGPT 和 Gemini 会触发一套特殊流程——OpenAI 内部叫「你的钱、你的命」（your money, your life），和医疗建议同一待遇。模型不再只做自然语言的模式匹配，而是进入推理时的「验证层」工作：核实它即将推荐的实体「不会导致一次令人后悔的购买」[16:56 Unknown]。它在预测的是：如果 Craig 买了这个 CRM，一年后会不会续约——因为买完就后悔会导致平台健康度下滑。\n\n验证靠什么？据 First Page Sage 拆解的算法，推动一家软件公司被推荐的权重里，41% 是它在权威榜单上的出现和排名，18% 是奖项与认证，16% 是在线评论——全部是第三方信号，厂商自己造不出来。G2 自己审计过：它的引用有 60% 来自 Best of Software 奖项和相关页面 [18:02 Unknown]。这也是 G2 新使命的由来：「成为人工智能时代的信任层」[06:55 Unknown]。\n\n## 被引用不等于被推荐\n\n围绕「怎么让 AI 提到我」，一个叫 AEO（答案引擎优化）的巨大行业正在兴起。但 Sanders 做了一个关键区分：**AI 可见度不等于赢得答案**。模型返回的三四页解释里到处可以引用你的内容，但真正的推荐只在末尾那三条。「被引用不等于被推荐……赢得答案能生成销售管道，而这才是 G2 的生意」[19:38 Unknown]。\n\n点击率数据佐证了这一点：普通引用的点击率只有千分之一到千分之三，但与推荐关联的引用能到 1%–7%。为什么差这么多？因为 2026 年的用户已经信任聊天结果的「解释」部分，「我们只点击那些表面上看有风险、不能轻信的东西」[28:16 Unknown]。代价是：自然流量将趋近于零，「答案是它不会回来了」[54:34 Unknown]——Sanders 认为这是营销人当下情感上最难接受的事，但好消息是 chatbot 带来的流量价值高 2–3 倍，且需要的预算重配并不剧烈：公司每在 AEO 上花 1 美元，还在 SEO/SEM 上花 60 美元，今年大概只需从中挪 4–6% 过来。\n\n## Claude 就像奥斯卡：都在谈论，没人在调研时用\n\n哪家模型在被用于选软件？G2 每年调研的结论很生动：「Claude 就像奥斯卡。人人都在谈论那部电影，但没多少人真正看过那部电影」[00:19 Unknown]。Claude 被大量用于写代码、总结文档、做 PPT，但一手软件调研的市场 81% 在 ChatGPT 和 Gemini 手里，Claude 在调研用例上的净推荐值垫底——实验室把推理 token 投向自己能赢的领域，Claude 押的是代码和设计。另一个证据：第三方研究显示 Claude 做调研调用时执行实时检索的时间不到 40%，OpenAI 则是 100%。还有个惊人数字：超过四分之一的 B2B 软件买家在用自己手机上的个人版 ChatGPT 来选软件，因为它带着自己的记忆，不想忍受公司版的一堆护栏 [23:30 Unknown]。\n\n> 【背景】由于结果每次提问都会波动，G2 追踪引用影响力靠的是 AEO 公司 Profound 每月运行数十万乃至上百万条合成提示词取统计平均，G2 是其最大客户。\n\n## G2 的护城河：宁可砍掉一半评论\n\nG2 平台上有超过 300 万条评论，年访客 9000 万，Sanders 自估占评论市场约 80% 份额。它的纪律是：超过一半的提交内容上不了网站——因为每条评论都要验证撰写者身份、验证你真的拥有该软件，宁可评论量少一半也不做 Reddit 式的匿名聚合。供应商过度激励刷好评？关停、撤下、可能封号。这套严苛流程最初是为买家，如今「智能体也看重这一点」，因为模型基于权重，「现在经过验证的评论拥有最大的权重」[39:58 Unknown]。\n\nG2 对此有切肤之痛：OpenAI 推出 entity update（减少推荐实体、统一公司称谓、大规模奖励真实的人类行为），G2 与 Reddit 本来在 B2B 软件引用上不相上下，「游戏一夜之间改变了」[40:46 Unknown]，Reddit 引用骤降。如果模型的信任流失，同样的命运可能落到 G2 头上——这是让它夜不能寐的事。为了配合模型，G2 全面押注 MCP（模型上下文协议，让 AI 直接调用数据源的接口，他称之为「连接数据与任何系统的通用 USB」[32:33 Unknown]）：模型算力受限、只消费最容易消化的数据，MCP 让 G2 成为「最容易与之做生意的那一个」。\n\n> 【背景】entity update 指 OpenAI 于 2025 年 8 月推出的模型更新。\n\n## 未来：智能体替你下单，SaaS 变成 harness\n\n趋势方面 Sanders 给了几个具体预测：智能体品类（客服智能体、AgentBuilder 等）和 AEO 是增长最快的类目；AI 语音和全栈编排软件（把规则式 AI、RPA、智能体整合进单一工作流）在爆发；他预测第三方智能体护栏服务（代管权限、回滚、QA）五年内会是 300 亿美元的产业，利润率更像服务公司的 30–40%，而非 SaaS 的 75% [45:23 Unknown]。已经有超过 10% 的公司在让智能体处理常规续约决策——他称之为「煤矿里的金丝雀」：三年后，你只需表达业务目标，智能体会写提示词、找软件、甚至替你买下来。\n\n收尾他给了个更大的判断，引用 Satya Nadella 的说法：SaaS 公司就是一个带业务逻辑的 CRUD 数据库，25 年没变过。「五年后，今天成功的公司里有七成将完成从 SaaS 到 harness 的转变」[58:22 Unknown]——所谓 harness，就是技能、上下文、治理、连接器工具这四要素，架在语言模型之上，按消费量收费，加价幅度取决于 harness 本身的价值。\n\n## 厂商怎么做：三件事\n\n如果软件厂商想赢下 AI 优先的购买旅程，Sanders 给的三条优先级：\n\n1. **让自己易于合作**：网站根目录放 llms.txt，声明抓取政策；只封必须封的内容；门禁内容第 91 天对 AI 开放（线索大多产生于头三个月）；少用 PDF，全部用 HTML 或 markdown 发布。\n2. **从可靠榜单赚取信任信号**：找出 AI 可见的高权威榜单和奖项并经营关系。\n3. **归根结底还是产品**：「你不会因为去请求评价就得到好评价，你会得到更多评价；评价质量好，是因为你的产品确实出色」[51:23 Unknown]。他还认为这让真正的产品驱动增长（PLG）首次成为可能——AI 搜索之前，在位者靠遗留体量把市场化获客变成了唯一的游戏。\n\n## 本集带走\n\n- **AI 推荐软件有一套验证机制**：一旦提示词带购买意图，ChatGPT/Gemini 会按「你的钱、你的命」标准做推理时验证，权重最大的是权威榜单（41%），其次是奖项认证（18%）和在线评论（16%）——全是厂商造不出来的第三方信号。\n- **被引用 ≠ 被推荐**：AEO 能帮你获得可见度和一点点流量（点击率微乎其微），但只有进入最终推荐才有 1%–7% 的点击和真正的销售管道，而这一步只能靠第三方信任信号，靠自夸内容赢不了。\n- **厂商自查三件套**：llms.txt、避免 PDF/门禁、经营权威榜单与奖项；预算只需从 SEO/SEM 挪 4–6% 到 AEO，不用大动。\n- **模型的信任说变就变**：OpenAI 的 entity update 一夜之间打掉了 Reddit 的引用份额，评论平台的生死于取决于模型权重，这就是 G2 砍掉一半评论也要做身份与软件所有权验证的原因。\n- **出口方向**：智能体买软件还早，但智能体做续约决策已超 10% 公司在用；五年内七成成功的 SaaS 公司将转型为架在大模型上的 harness，按消费量收费。",
+  "quotes": [
+    {
+      "en": "Claude is like the Oscars. Everybody talks about the movie. Not many people see the movie.",
+      "zh": "Claude 就像奥斯卡。人人都在谈论那部电影，但没多少人真正看过那部电影。",
+      "timestamp": "00:19",
+      "speaker": "Tim Sanders"
+    },
+    {
+      "en": "Absolutely, but AI visibility is not the same thing as winning the answer.",
+      "zh": "当然有这个行业，但 AI 可见度不等于赢得答案。",
+      "timestamp": "18:46",
+      "speaker": "Tim Sanders"
+    },
+    {
+      "en": "So I always tell people, being cited doesn't mean you were recommended.",
+      "zh": "所以我总是告诉人们，被引用不等于被推荐。",
+      "timestamp": "19:38",
+      "speaker": "Tim Sanders"
+    },
+    {
+      "en": "Winning the answer generates pipeline, and that's the business we're in at G2.",
+      "zh": "赢得答案能生成销售管道，而这就是我们在 G2 所做的生意。",
+      "timestamp": "19:49",
+      "speaker": "Tim Sanders"
+    },
+    {
+      "en": "More than one out of four B2B software buyers are using their own ChatGPT, their own phone, because it's got their memory.",
+      "zh": "超过四分之一的 B2B 软件买家在用自己的手机上的个人版 ChatGPT，因为它带着他们的记忆。",
+      "timestamp": "23:33",
+      "speaker": "Tim Sanders"
+    },
+    {
+      "en": "So now we're at a point where we only click on what is risky to believe on its face.",
+      "zh": "所以现在我们到了这样一个阶段：我们只点击那些表面上看有风险、不能轻信的东西。",
+      "timestamp": "28:16",
+      "speaker": "Tim Sanders"
+    },
+    {
+      "en": "And if we are no longer different than by the sheer weight of review sites like Reddit or LinkedIn, we're going to lose.",
+      "zh": "而如果我们不再与 Reddit 或 LinkedIn 这类评论网站的巨大权重有所不同，我们就会输。",
+      "timestamp": "41:37",
+      "speaker": "Tim Sanders"
+    },
+    {
+      "en": "But that's going to be a $30 billion industry within five years.",
+      "zh": "但这将在五年内成为一个 300 亿美元的产业。",
+      "timestamp": "45:31",
+      "speaker": "Tim Sanders"
+    },
+    {
+      "en": "You better build outstanding products because like even with review sites, you don't get good reviews because you ask for them.",
+      "zh": "你最好打造出色的产品，因为就像评论网站一样，你不会因为去请求评价就得到好评价。",
+      "timestamp": "51:25",
+      "speaker": "Tim Sanders"
+    },
+    {
+      "en": "SaaS companies, to quote Satya Nadella, a SaaS company is a cred database with business logic.",
+      "zh": "引用 Satya Nadella 的话，SaaS 公司就是一个带业务逻辑的 CRUD 数据库。",
+      "timestamp": "57:25",
+      "speaker": "Tim Sanders"
+    },
+    {
+      "en": "Five years from now, seven out of 10 companies today that are successful then will have made the switch from SaaS to harness.",
+      "zh": "五年后，今天成功的公司里有七成到那时将完成从 SaaS 到 harness 的转变。",
+      "timestamp": "58:22",
+      "speaker": "Tim Sanders"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:19",
+      "speaker": "Tim Sanders",
+      "en": "Claude is like the Oscars. Everybody talks about the movie. Not many people see the movie.",
+      "zh": "Claude 就像奥斯卡。人人都在谈论那部电影，但没多少人真正看过那部电影。"
+    },
+    {
+      "timestamp": "06:55",
+      "speaker": "Tim Sanders",
+      "en": "G2's new mission is to become the trust layer for the age of artificial intelligence.",
+      "zh": "G2 的新使命是成为人工智能时代的信任层。"
+    },
+    {
+      "timestamp": "16:56",
+      "speaker": "Tim Sanders",
+      "en": "They are validating that the entity that they're about to recommend is not going to lead to a regrettable purchase.",
+      "zh": "它们在验证它们即将推荐的实体不会导致一次令人后悔的购买。"
+    },
+    {
+      "timestamp": "18:46",
+      "speaker": "Tim Sanders",
+      "en": "Absolutely, but AI visibility is not the same thing as winning the answer.",
+      "zh": "当然有这个行业，但 AI 可见度不等于赢得答案。"
+    },
+    {
+      "timestamp": "19:38",
+      "speaker": "Tim Sanders",
+      "en": "So I always tell people, being cited doesn't mean you were recommended.",
+      "zh": "所以我总是告诉人们，被引用不等于被推荐。"
+    },
+    {
+      "timestamp": "19:49",
+      "speaker": "Tim Sanders",
+      "en": "Winning the answer generates pipeline, and that's the business we're in at G2.",
+      "zh": "赢得答案能生成销售管道，而这就是我们在 G2 所做的生意。"
+    },
+    {
+      "timestamp": "23:30",
+      "speaker": "Tim Sanders",
+      "en": "More than one out of four B2B software buyers are using their own ChatGPT, their own phone, because it's got their memory.",
+      "zh": "超过四分之一的 B2B 软件买家在用自己的手机上的个人版 ChatGPT，因为它带着他们的记忆。"
+    },
+    {
+      "timestamp": "27:57",
+      "speaker": "Tim Sanders",
+      "en": "So now we're at a point where we only click on what is risky to believe on its face.",
+      "zh": "所以现在我们到了这样一个阶段：我们只点击那些表面上看有风险、不能轻信的东西。"
+    },
+    {
+      "timestamp": "32:33",
+      "speaker": "Tim Sanders",
+      "en": "And that's why MCP, which we consider the universal USB to connect data with any system or platform, we think it's really important.",
+      "zh": "这就是为什么 MCP——我们把它视为连接数据与任何系统或平台的通用 USB——我们认为它非常重要。"
+    },
+    {
+      "timestamp": "39:58",
+      "speaker": "Tim Sanders",
+      "en": "Because again, models are based on weights and right now verified reviews have the most weight.",
+      "zh": "因为模型是基于权重的，而现在经过验证的评论拥有最大的权重。"
+    },
+    {
+      "timestamp": "41:37",
+      "speaker": "Tim Sanders",
+      "en": "And if we are no longer different than by the sheer weight of review sites like Reddit or LinkedIn, we're going to lose.",
+      "zh": "而如果我们不再与 Reddit 或 LinkedIn 这类评论网站的巨大权重有所不同，我们就会输。"
+    },
+    {
+      "timestamp": "45:23",
+      "speaker": "Tim Sanders",
+      "en": "But that's going to be a $30 billion industry within five years.",
+      "zh": "但这将在五年内成为一个 300 亿美元的产业。"
+    },
+    {
+      "timestamp": "51:23",
+      "speaker": "Tim Sanders",
+      "en": "You better build outstanding products because like even with review sites, you don't get good reviews because you ask for them.",
+      "zh": "你最好打造出色的产品，因为就像评论网站一样，你不会因为去请求评价就得到好评价。"
+    },
+    {
+      "timestamp": "54:34",
+      "speaker": "Tim Sanders",
+      "en": "And the answer is it's not.",
+      "zh": "而（流量会不会回来）的答案是：不会。"
+    },
+    {
+      "timestamp": "57:25",
+      "speaker": "Tim Sanders",
+      "en": "SaaS companies, to quote Satya Nadella, a SaaS company is a cred database with business logic.",
+      "zh": "引用 Satya Nadella 的话，SaaS 公司就是一个带业务逻辑的 CRUD 数据库。"
+    },
+    {
+      "timestamp": "58:22",
+      "speaker": "Tim Sanders",
+      "en": "Five years from now, seven out of 10 companies today that are successful then will have made the switch from SaaS to harness.",
+      "zh": "五年后，今天成功的公司里有七成到那时将完成从 SaaS 到 harness 的转变。"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊一件正在悄悄改变 B2B 软件生意的事。主角叫 Tim Sanders,是软件点评平台 G2 的首席创新官,也是哈佛 AI 研究所的执行研究员。他要讲的问题是:现在的人在买软件之前,越来越不问 Google 了,而是直接问 ChatGPT——\"我该买哪个?\"研究显示,一半的 B2B 软件买家已经这么做了,一年前还只有 29%,明年估计会到三分之二。这个变化为什么重要?因为 ChatGPT 推荐你花钱买的东西之前,其实要走一道验证流程,而这道验证依赖的,恰恰是 G2 这类可信第三方。所以 Sanders 有个核心判断:G2 已经从点评网站,变成了 AI 时代的\"信任层\"。这背后到底是怎么回事?咱们一层一层拆。\n\n先说很多人不知道的一个机制。当你在 ChatGPT 或者 Gemini 里表达出\"想买什么\"——这种叫商业意图提示——模型会触发一套特殊流程。OpenAI 内部管这叫\"你的钱、你的命\",和医疗建议同一待遇。这时候模型不再只是做语言的模式匹配,而是进入推理时的验证层:核实它准备推荐的这家公司,不会导致一次让你后悔的购买。说白了,模型在预测的是:如果这个人买了这个 CRM,一年后会不会续约。因为买完就后悔,平台健康度就会下滑。\n\n那验证靠什么?有人拆解过算法,发现推动一家软件公司被推荐的权重里,41% 是它在权威榜单上的出现和排名,18% 是奖项与认证,16% 是在线评论。你注意到没有,这三样全是第三方信号,厂商自己造不出来。G2 自己审计过,模型给出的引用里,60% 来自它的 Best of Software 奖项和相关页面。这就是 G2 新使命的由来:成为人工智能时代的信任层。\n\n顺着这个话题,就绕不开一个正在兴起的行业,叫 AEO,答案引擎优化——就是帮厂商\"让 AI 提到我\"。但 Sanders 做了一个很关键的区分:被 AI 提到,不等于被 AI 推荐。用他的话说:\"被引用不等于被推荐。\"模型返回的三四页解释里,到处可以引用你的内容,但真正的推荐只在末尾那三条。数据也佐证这一点:普通引用的点击率只有千分之一到千分之三,可一旦跟推荐挂上钩,点击率能到 1% 到 7%。为什么差这么多?因为现在的用户已经信任聊天结果的解释部分了,只会去点那些\"表面上看有风险、不能轻信的东西\"。这意味着什么?意味着自然流量会趋近于零,而且按照 Sanders 的说法,不会回来了。这大概是营销人情感上最难接受的事。不过也有好消息:chatbot 带来的流量价值高两三倍,而且预算重配并不剧烈——公司每在 AEO 上花 1 美元,还在 SEO 和 SEM 上花 60 美元,今年大概只需要从中挪 4% 到 6% 过来就行。\n\n那到底大家在用哪个模型选软件?G2 每年都做调研,结论很生动:\"Claude 就像奥斯卡。人人都在谈论那部电影,但没多少人真正看过那部电影。\"Claude 被大量用来写代码、总结文档、做 PPT,可一手软件调研这个市场,81% 在 ChatGPT 和 Gemini 手里。为什么会这样?因为各家实验室把推理算力投向自己能赢的领域,Claude 押的是代码和设计。还有个证据:第三方研究显示,Claude 做调研时真正执行实时检索的时间不到 40%,OpenAI 则是 100%。另外还有个挺惊人的数字:超过四分之一的 B2B 软件买家,在用自己手机上的个人版 ChatGPT 来选软件——因为个人版带着自己的记忆,谁也不想忍受公司版的一堆护栏。\n\n说到这,你可能会问:那 G2 凭什么成为模型的信任来源?答案在它多年攒下的纪律。平台上超过 300 万条评论,年访客 9000 万,但超过一半的提交内容上不了网站——因为每条评论都要验证撰写者身份、验证你真的拥有这款软件。宁可评论量少一半,也不做 Reddit 式的匿名聚合。供应商想刷好评?关停、撤下,甚至封号。这套严苛流程最初是为买家做的,如今在 AI 时代反而成了护城河——因为模型是按权重来的,现在经过验证的评论拥有最大的权重。\n\n不过这门生意也不是高枕无忧。G2 有过切肤之痛:OpenAI 做过一次叫 entity update 的模型更新,减少推荐实体、统一公司称谓、大规模奖励真实的人类行为。之前 G2 和 Reddit 在 B2B 软件引用上本来不相上下,一夜之间格局就变了,Reddit 的引用骤降。这说明什么?说明模型的信任说变就变,同样的命运也可能落到 G2 头上——这是让它夜不能寐的事。所以 G2 在全面押注一个叫 MCP 的东西,模型上下文协议,说白了就是让 AI 直接调用数据源的接口,相当于连接数据与任何系统的通用 USB。因为模型算力受限,只消费最容易消化的数据,MCP 就能让 G2 成为\"最容易与之做生意的那一个\"。\n\n再往远处看,Sanders 给了几个预测。智能体品类和 AEO 是增长最快的类目;AI 语音和全栈编排软件在爆发;他还预测,第三方智能体护栏服务——就是代管权限、回滚、质量检测这类——五年内会是一个 300 亿美元的产业,不过利润率更像服务公司的 30% 到 40%,而不是 SaaS 的 75%。已经有超过 10% 的公司在让智能体处理常规续约决策了,Sanders 把这叫\"煤矿里的金丝雀\":三年后,你只需要表达业务目标,智能体会自己写提示词、找软件,甚至替你把软件买下来。再往前一步,他引用微软的 Satya Nadella 的说法:SaaS 公司就是一个带业务逻辑的数据库,25 年没变过。所以他判断,五年后,今天成功的公司里有七成会完成从 SaaS 到 harness 的转变——所谓 harness,就是把技能、上下文、治理、连接器这四样东西架在语言模型之上,按消费量收费。\n\n那如果今天你就是个软件厂商,该怎么办?Sanders 给了三件事。第一,让自己易于合作:在网站根目录放一个 llms.txt,声明抓取政策;只封必须封的内容;门禁内容到第 91 天就对 AI 开放,因为线索大多产生在头三个月;少用 PDF,全部用 HTML 或者 markdown 发布。第二,从可靠榜单上赚取信任信号,找出那些 AI 看重的高权威榜单和奖项,去经营关系。第三,归根结底还是产品。有句话很值得记住:\"你不会因为去请求评价就得到好评价,你只会得到更多评价;评价质量好,是因为你的产品确实出色。\"Sanders 甚至认为,这让真正的产品驱动增长第一次成为可能——因为在这波 AI 搜索之前,在位者靠着遗留体量,把市场化获客变成了唯一的游戏。\n\n回头看这一集,其实就讲了一件事:当 AI 开始替人决定买什么软件,谁的信任够硬,谁就站在推荐的末尾那三条里。被引用不等于被推荐——赢得答案,才能生成销售管道,而这就是 G2 的生意。"
+}

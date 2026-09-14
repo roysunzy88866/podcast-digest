@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]]
+[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":2,"Clio":1,"智能体":233,"LLM":31,"推荐系统":1,"监督学习":2,"强化学习":16,"transformer":7,"创造性破坏":1,"Anthropic":121}</script>
+<script type="application/json" class="pd-epn">{"John Collison":2,"Clio":1,"智能体":234,"LLM":31,"推荐系统":1,"监督学习":2,"强化学习":17,"transformer":7,"创造性破坏":1,"Anthropic":121}</script>
 
 <script>
 (function(){

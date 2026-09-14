@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]]
+[[Greg Brockman]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":4,"OpenAI":107,"Anthropic":121,"Hugging Face":20,"NVIDIA":34,"智能体":233,"对齐":6,"AI 安全":1,"护栏":43,"开源模型":16}</script>
+<script type="application/json" class="pd-epn">{"Alex":4,"OpenAI":109,"Anthropic":121,"Hugging Face":20,"NVIDIA":34,"智能体":234,"对齐":7,"AI 安全":1,"护栏":44,"开源模型":16}</script>
 
 <script>
 (function(){

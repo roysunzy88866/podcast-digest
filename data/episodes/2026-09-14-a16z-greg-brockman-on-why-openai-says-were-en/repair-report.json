@@ -1,0 +1,75 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "10:18",
+      "speaker": "Greg Brockman",
+      "trimmed": false,
+      "tsWas": "10:18",
+      "spkWas": "Greg Brockman"
+    },
+    {
+      "i": 2,
+      "timestamp": "15:22",
+      "speaker": "Greg Brockman",
+      "trimmed": false,
+      "tsWas": "15:22",
+      "spkWas": "Greg Brockman"
+    },
+    {
+      "i": 4,
+      "timestamp": "24:41",
+      "speaker": "Greg Brockman",
+      "trimmed": false,
+      "tsWas": "24:41",
+      "spkWas": "Greg Brockman"
+    },
+    {
+      "i": 5,
+      "timestamp": "25:38",
+      "speaker": "SPEAKER_00",
+      "trimmed": false,
+      "tsWas": "25:38",
+      "spkWas": "Ben Horowitz"
+    },
+    {
+      "i": 6,
+      "timestamp": "26:40",
+      "speaker": "Greg Brockman",
+      "trimmed": false,
+      "tsWas": "26:40",
+      "spkWas": "Greg Brockman"
+    },
+    {
+      "i": 7,
+      "timestamp": "39:00",
+      "speaker": "Greg Brockman",
+      "trimmed": false,
+      "tsWas": "39:00",
+      "spkWas": "Greg Brockman"
+    },
+    {
+      "i": 8,
+      "timestamp": "40:58",
+      "speaker": "Greg Brockman",
+      "trimmed": false,
+      "tsWas": "41:01",
+      "spkWas": "Greg Brockman"
+    },
+    {
+      "i": 9,
+      "timestamp": "46:22",
+      "speaker": "Greg Brockman",
+      "trimmed": false,
+      "tsWas": "46:22",
+      "spkWas": "Greg Brockman"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 3,
+      "reason": "命中片段跨说话人(占比0.62/连续他人5词,疑拼接)",
+      "en": "We formalized it into Lean. And so the AIs can write verifiable code."
+    }
+  ]
+}

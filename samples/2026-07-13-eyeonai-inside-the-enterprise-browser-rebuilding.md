@@ -107,9 +107,9 @@ Island 的判断是，企业必然是多 AI 供应商组织：法务用一个、
 
 **换个口味**
 
+- [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同概念:MCP、护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、MCP</span>
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、MCP</span>
-- [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|氛围编码 vs 氛围工程：智能体时代谁被淘汰]]<span class="pd-rz">同概念:护栏 (guardrails)、智能体 (agent)、vibe coding</span>
 
 </div>
 </div>

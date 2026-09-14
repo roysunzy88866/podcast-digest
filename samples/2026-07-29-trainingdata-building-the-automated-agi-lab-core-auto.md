@@ -159,7 +159,7 @@ Rohan 曾在 Google 推动过一种名为 n-gram 内存的技术,意图用额外
 
 - [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:Anthropic、OpenAI、Google · 同概念:思维链 (chain of thought)</span>
 - [[2026-08-18-trainingdata-rich-sutton-and-khurram-javed-why-ai-mod|Rich Sutton：LLM 不是全部智能，真正的AI必须持续学习]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)、持续学习 (continual learning)、预训练 (pre-training)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI</span>
+- [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、强化学习 (reinforcement learning)</span>
 
 </div>
 </div>

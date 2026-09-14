@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SaaS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>15</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>15</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -29,7 +29,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*8 条*
+*10 条*
 
 ![[2025-09-07-lennys-how-ai-is-reshaping-the-product-role#^q8]]
 
@@ -46,6 +46,10 @@ unlisted: true
 ![[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n#^q9]]
 
 ![[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p#^q11]]
+
+![[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which#^q10]]
+
+![[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which#^q11]]
 
 ## ② 出现在这些集
 
@@ -73,7 +77,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Lenny]] · [[LLM]] · [[Claude Code]] · [[Microsoft]] · [[NVIDIA]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"智能体":233,"OpenAI":107,"Anthropic":121,"Cursor":58,"Lenny":67,"LLM":31,"Claude Code":59,"Microsoft":24,"NVIDIA":34,"Salesforce":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":234,"OpenAI":109,"Anthropic":121,"Cursor":58,"Lenny":67,"LLM":31,"Claude Code":59,"Microsoft":24,"NVIDIA":34,"Salesforce":18}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]]
+[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Town":3,"Plaid":2,"AI 助手":2,"智能体":233,"网络效应":10,"护城河":10,"模型路由":6,"前沿模型":16,"Anthropic":121}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Town":3,"Plaid":2,"AI 助手":2,"智能体":234,"网络效应":10,"护城河":10,"模型路由":6,"前沿模型":16,"Anthropic":121}</script>
 
 <script>
 (function(){

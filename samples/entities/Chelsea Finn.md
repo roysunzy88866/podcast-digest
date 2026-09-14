@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]]
+[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":2,"Waymo":13,"ChatGPT":59,"物理 AI":7,"强化学习":16,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":8}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":2,"Waymo":13,"ChatGPT":61,"物理 AI":7,"强化学习":17,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":8}</script>
 
 <script>
 (function(){

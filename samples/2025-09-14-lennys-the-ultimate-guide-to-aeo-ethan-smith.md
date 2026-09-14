@@ -167,9 +167,9 @@ Ethan 的团队做了严格研究：Google 搜索结果里约 10%-12% 是纯 AI 
 
 **顺着「增长与销售」挖下去**
 
+- [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、Reddit、Google · 同概念:AEO</span>
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|SaaS增长该抄电商作业：付费广告立刻开打]]<span class="pd-rz">同公司:Google、ChatGPT · 同概念:AEO</span>
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:ChatGPT、Google</span>
-- [[2026-01-25-lennys-why-your-product-stopped-growing|增长停滞怎么办？Jason Cohen 的四步诊断法]]<span class="pd-rz">同概念:LLM、SEO</span>
 
 </div>
 <div class="pd-ex">

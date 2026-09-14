@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]] [[Aaron Zolman]]
+[[Greg Brockman]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"FAR AI":1,"通用越狱":1,"社会工程学":1,"思维链":4,"护栏":43,"探针":2,"预训练数据过滤":1,"安全补全":1,"越狱税":1,"后训练":20}</script>
+<script type="application/json" class="pd-epn">{"FAR AI":1,"通用越狱":1,"社会工程学":1,"思维链":4,"护栏":44,"探针":2,"预训练数据过滤":1,"安全补全":1,"越狱税":1,"后训练":20}</script>
 
 <script>
 (function(){

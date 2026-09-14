@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]]
+[[Tim Sanders]] [[Craig]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"ChatGPT":59,"Claude":56,"Facebook":11,"Google":40,"LinkedIn":3,"Apple":17,"HubSpot":5,"Zynga":2,"Cursor":58}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"ChatGPT":61,"Claude":57,"Facebook":11,"Google":41,"LinkedIn":3,"Apple":17,"HubSpot":5,"Zynga":2,"Cursor":58}</script>
 
 <script>
 (function(){

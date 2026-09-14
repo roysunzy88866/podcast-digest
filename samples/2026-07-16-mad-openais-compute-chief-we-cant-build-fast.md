@@ -158,8 +158,8 @@ OpenAI 已全栈进入芯片业务。[[Jalapeno|Jalapeno]] 的战略逻辑：Ope
 **换个口味**
 
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|超级智能为什么危险：Ryan Greenblatt 的推演与解法]]<span class="pd-rz">同嘉宾:Matt Turk · 同公司:OpenAI · 同概念:推理 (inference)</span>
+- [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:OpenAI · 同概念:推理 (inference)</span>
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同公司:OpenAI · 同概念:推理 (inference)</span>
-- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网]]<span class="pd-rz">同公司:OpenAI · 同概念:推理 (inference)</span>
 
 </div>
 </div>

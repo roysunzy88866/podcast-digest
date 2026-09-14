@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]] [[Dave Fletcher]] [[Matt Swulinski]]
+[[Tim Sanders]] [[Craig]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]] [[Ken]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"企业销售":3,"愿景描绘":1,"超额收益":2,"第一梯队":1,"交易设计":1,"设计合作伙伴":3,"PLG":8,"ACV":3,"前向部署工程师":7}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"企业销售":3,"愿景描绘":1,"超额收益":2,"第一梯队":1,"交易设计":1,"设计合作伙伴":3,"PLG":9,"ACV":3,"前向部署工程师":7}</script>
 
 <script>
 (function(){

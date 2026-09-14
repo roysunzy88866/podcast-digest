@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]]
+[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":121,"Salesforce":18,"YC":12,"智能体":233,"SaaS 已死":1,"一次性代码":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":121,"Salesforce":18,"YC":12,"智能体":234,"SaaS 已死":1,"一次性代码":1}</script>
 
 <script>
 (function(){

@@ -106,7 +106,7 @@ Claire 认为最大的惊喜是:它终于能操作复杂的节点式 web 界面�
 
 - [[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th|当智能体学会替你操作电脑：聊天即新浏览器]]<span class="pd-rz">同公司:OpenAI · 同概念:computer use、MCP、browser use</span>
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:OpenAI · 同概念:Codex、vibe coding</span>
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同概念:browser use、ChatPRD</span>
+- [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型]]<span class="pd-rz">同公司:OpenAI · 同概念:computer use、Codex</span>
 
 </div>
 </div>

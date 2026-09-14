@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Xiaomi</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Xiaomi">XI</div><div class="pi"><h1 class="pt">Xiaomi</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Xiaomi">XI</div><div class="pi"><h1 class="pt">Xiaomi</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-08-25-mos-ford-s-jim-farley-on-beating-china-and-t|《福特 CEO Jim Farley:中国车企是生存威胁,平价电动车是反击》]]**(12:06起):Farley 本人在开的小米 SU7,作为亲身研究中国电动车实力的例子。
 - **[[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|《工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录》]]**(23:04起):本集推崇的中国公司样本:做 15 种不同的东西,证明「聚焦」不是永远只做同一件事,而是把积累的能力以任何形式变现,是 Matteo「AI 时代公司应变成控股公司」理论的例证
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-08-25-mos-ford-s-jim-farley-on-beating-china-and-t|《福特 CEO Jim Farley:中国车企是生存威胁,平价电动车是反击》]] — 作为被讨论公司
 - [[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|《工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Harry Stabbings]] · [[Matteo Franceschetti]] · [[Eight Sleep]] · [[Anthropic]] · [[Claude]] · [[智能体]] · [[CAC]] · [[增量测试]] · [[人形机器人]] · [[OpenAI]]
+[[Bob Safian]] · [[Harry Stabbings]] · [[Jim Farley]] · [[Matteo Franceschetti]] · [[Ford]] · [[Eight Sleep]] · [[BYD]] · [[Anthropic]] · [[Tesla]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Matteo Franceschetti":1,"Eight Sleep":1,"Anthropic":121,"Claude":56,"智能体":233,"CAC":1,"增量测试":1,"人形机器人":2,"OpenAI":107}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":3,"Harry Stabbings":2,"Jim Farley":1,"Matteo Franceschetti":1,"Ford":1,"Eight Sleep":1,"BYD":1,"Anthropic":121,"Tesla":9,"Claude":57}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]]
+[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":121,"智能体":233,"harness":30,"沙箱":41,"智能体循环":3,"上下文工程":12,"会话日志追踪":2,"泄露的凭证":3,"可观测性":19}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":121,"智能体":234,"harness":31,"沙箱":42,"智能体循环":3,"上下文工程":12,"会话日志追踪":2,"泄露的凭证":3,"可观测性":19}</script>
 
 <script>
 (function(){

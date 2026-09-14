@@ -69,11 +69,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]]
+[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Factory":4,"Anthropic":121,"OpenAI":107,"Microsoft":24,"Meta":30,"NVIDIA":34,"Stripe":29,"OpenRouter":10,"Palantir":16}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Factory":4,"Anthropic":121,"OpenAI":109,"Microsoft":24,"Meta":30,"NVIDIA":34,"Stripe":30,"OpenRouter":10,"Palantir":16}</script>
 
 <script>
 (function(){

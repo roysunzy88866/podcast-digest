@@ -186,7 +186,7 @@ Town 不让用户选模型——用户不该关心哪个模型擅长什么，Tow
 
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意]]<span class="pd-rz">同公司:Anthropic、GrokBot、OpenAI、11 Labs、Cursor、Town · 同概念:开放权重模型 (open weight models)、护城河 (moat)、智能体 (agent)</span>
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Anthropic、Codex、Cursor、OpenAI、Google · 同概念:护城河 (moat)、智能体 (agent)</span>
-- [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|AI解数学题≠理解数学]]<span class="pd-rz">同公司:Anthropic、ChatGPT、Claude、Codex、OpenAI</span>
+- [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、Claude、OpenAI、Google · 同概念:护栏 (guardrails)、智能体 (agent)、PLG</span>
 
 </div>
 <div class="pd-ex">

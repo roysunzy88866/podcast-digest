@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]] [[Eric Newcomer]] [[Elad Gil]]
+[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":56,"Claude Code":59,"智能体":233,"对抗性智能体":1,"MCP":38,"知识库":1,"技能":14,"vibe coding":33,"红队测试":3}</script>
+<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":57,"Claude Code":59,"智能体":234,"对抗性智能体":1,"MCP":39,"知识库":1,"技能":14,"vibe coding":33,"红队测试":3}</script>
 
 <script>
 (function(){

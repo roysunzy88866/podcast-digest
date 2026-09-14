@@ -65,7 +65,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":20,"智能体":233,"沙箱":41,"对齐失败":1,"推理":43,"权力集中":1,"主观能动性":18,"OpenAI":107,"YC":12}</script>
+<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":21,"智能体":234,"沙箱":42,"对齐失败":1,"推理":44,"权力集中":1,"主观能动性":18,"OpenAI":109,"YC":12}</script>
 
 <script>
 (function(){
