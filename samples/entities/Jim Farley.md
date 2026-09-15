@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":3,"Ford":1,"BYD":1,"Tesla":9,"Xiaomi":2,"UEV":1,"EV":1,"混动":1,"二手车市场":1,"电气化":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":4,"Ford":1,"BYD":1,"Tesla":9,"Xiaomi":2,"UEV":1,"EV":1,"混动":1,"二手车市场":1,"电气化":1}</script>
 
 <script>
 (function(){

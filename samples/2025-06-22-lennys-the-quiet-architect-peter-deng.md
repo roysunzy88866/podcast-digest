@@ -176,8 +176,8 @@ Peter 在斯坦福设计学院学过 IDEO 的设计思维五步框架，他认�
 **顺着「产品方法」挖下去**
 
 - [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同公司:ChatGPT、OpenAI</span>
+- [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客]]<span class="pd-rz">同公司:Facebook、ChatGPT、Uber</span>
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|Google搜索没死，AI让它扩张了]]<span class="pd-rz">同公司:Instagram、ChatGPT</span>
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:OpenAI、ChatGPT</span>
 
 </div>
 <div class="pd-ex">

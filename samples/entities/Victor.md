@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Matt Swulinski]] · [[Aakash]] · [[Harry Stebbings]] · [[Mikael]] · [[Superhuman]] · [[OLX Classifieds]] · [[Whisper]] · [[OpenClaw]]
 
-<script type="application/json" class="pd-epn">{"智能体":236,"ChatGPT":61,"Matt Swulinski":1,"Aakash":3,"Harry Stebbings":16,"Mikael":1,"Superhuman":4,"OLX Classifieds":1,"Whisper":2,"OpenClaw":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":237,"ChatGPT":63,"Matt Swulinski":1,"Aakash":3,"Harry Stebbings":16,"Mikael":1,"Superhuman":4,"OLX Classifieds":1,"Whisper":2,"OpenClaw":16}</script>
 
 <script>
 (function(){

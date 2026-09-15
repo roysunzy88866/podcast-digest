@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"transformer":7,"Attention is All You Need":1,"LLM":32,"GPU":16,"OpenAI":109,"开源运动":1,"编码智能体":13,"分布式模型":1,"研究突破":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"transformer":7,"Attention is All You Need":1,"LLM":32,"GPU":16,"OpenAI":111,"开源运动":1,"编码智能体":13,"分布式模型":1,"研究突破":1}</script>
 
 <script>
 (function(){

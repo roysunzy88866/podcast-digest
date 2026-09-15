@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":2,"Kimberley Tan":1,"Ashwin Srinivas":1,"Decagon":6,"智能体":236,"开源模型":16,"微调":15,"业务逻辑":1,"前向部署工程师":7,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":2,"Kimberley Tan":1,"Ashwin Srinivas":1,"Decagon":6,"智能体":237,"开源模型":16,"微调":15,"业务逻辑":1,"前向部署工程师":7,"Duet":1}</script>
 
 <script>
 (function(){

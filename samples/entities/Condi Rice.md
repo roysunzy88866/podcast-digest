@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":34,"AMD":2,"GPU":16,"Parallel":5,"深度学习":3,"第一性原理":5,"五层蛋糕":1,"模拟":4,"CPU":4}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":35,"AMD":3,"GPU":16,"Parallel":5,"深度学习":3,"第一性原理":5,"五层蛋糕":1,"模拟":4,"CPU":4}</script>
 
 <script>
 (function(){

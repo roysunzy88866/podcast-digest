@@ -29,7 +29,7 @@ unlisted: true
 
 [[Google]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Gemini]] · [[SaaS]] · [[Meta]] · [[Amazon]] · [[Microsoft]] · [[Gavin Baker]]
 
-<script type="application/json" class="pd-epn">{"Google":41,"NVIDIA":34,"OpenAI":109,"Anthropic":121,"Gemini":7,"SaaS":15,"Meta":30,"Amazon":11,"Microsoft":24,"Gavin Baker":1}</script>
+<script type="application/json" class="pd-epn">{"Google":42,"NVIDIA":35,"OpenAI":111,"Anthropic":122,"Gemini":7,"SaaS":15,"Meta":30,"Amazon":12,"Microsoft":24,"Gavin Baker":1}</script>
 
 <script>
 (function(){

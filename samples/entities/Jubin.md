@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anastasios Angelopoulos":1,"Mamoun Hamid":1,"arena":2,"评估":1,"基准测试":9,"开源":22,"智能体":236,"Kimi":1,"排行榜":1,"OpenAI":109}</script>
+<script type="application/json" class="pd-epn">{"Anastasios Angelopoulos":1,"Mamoun Hamid":1,"arena":2,"评估":1,"基准测试":9,"开源":22,"智能体":237,"Kimi":1,"排行榜":1,"OpenAI":111}</script>
 
 <script>
 (function(){

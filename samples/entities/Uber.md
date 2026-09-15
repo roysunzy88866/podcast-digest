@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Uber</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Uber">UB</div><div class="pi"><h1 class="pt">Uber</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Uber">UB</div><div class="pi"><h1 class="pt">Uber</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]]**(07:39起):本集提到 Uber 是零售媒体网络兴起中收入显著上涨的公司之一。
 - **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(00:26起):本集说 Uber 是一家运营公司，是其见过的最大的商业模式 hack 之一；在 Uber 学到的反直觉教训是，价格和 ETA 才是产品，屏幕上的像素不一定是最重要的。
 - **[[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]]**(00:35起):本集将 Uber 作为消除摩擦的案例：司机取消后只需两步点击就能退款，情绪从低谷瞬间翻转
 - **[[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|《Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」》]]**(00:00起):本集把 Uber 说成 Travis 2011 年融资 B 轮、把物理世界『网络』几乎数字化完毕的公司，也是 2017 年创始人离任危机的现场；Ben 说若 A16Z 在董事会，结局不会那样。
@@ -34,8 +35,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
+- [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司
 - [[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|《Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」》]] — 作为被讨论公司
@@ -49,9 +51,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[ChatGPT]] · [[智能体]] · [[OpenAI]] · [[Revolut]] · [[Anthropic]] · [[Lenny]] · [[Airbnb]] · [[DoorDash]] · [[Palantir]] · [[Airtable]]
+[[ChatGPT]] · [[OpenAI]] · [[智能体]] · [[Revolut]] · [[Anthropic]] · [[Facebook]] · [[Lenny]] · [[Airbnb]] · [[DoorDash]] · [[Palantir]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":61,"智能体":236,"OpenAI":109,"Revolut":4,"Anthropic":121,"Lenny":67,"Airbnb":10,"DoorDash":6,"Palantir":16,"Airtable":3}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":63,"OpenAI":111,"智能体":237,"Revolut":4,"Anthropic":122,"Facebook":12,"Lenny":67,"Airbnb":10,"DoorDash":6,"Palantir":16}</script>
 
 <script>
 (function(){

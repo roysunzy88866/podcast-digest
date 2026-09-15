@@ -31,7 +31,7 @@ unlisted: true
 
 [[Salesforce]] · [[智能体]] · [[Vercel]] · [[记录系统]] · [[go-to-market]] · [[HubSpot]] · [[Lenny]] · [[Sam Blond]] · [[Elaina O'Mahoney]] · [[Keith Peiris]]
 
-<script type="application/json" class="pd-epn">{"Salesforce":19,"智能体":236,"Vercel":13,"记录系统":4,"go-to-market":8,"HubSpot":6,"Lenny":67,"Sam Blond":1,"Elaina O'Mahoney":1,"Keith Peiris":1}</script>
+<script type="application/json" class="pd-epn">{"Salesforce":19,"智能体":237,"Vercel":13,"记录系统":4,"go-to-market":8,"HubSpot":6,"Lenny":67,"Sam Blond":1,"Elaina O'Mahoney":1,"Keith Peiris":1}</script>
 
 <script>
 (function(){

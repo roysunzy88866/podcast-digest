@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]]
+[[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Cursor":58,"Growth by Design":1,"Anthropic":121,"Facebook":11,"厄运漏斗":1,"前向部署工程师":7,"人才密度":4,"工作样本":1,"人才工程师":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Cursor":58,"Growth by Design":1,"Anthropic":122,"Facebook":12,"厄运漏斗":1,"前向部署工程师":7,"人才密度":4,"工作样本":1,"人才工程师":1}</script>
 
 <script>
 (function(){

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]]
+[[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Liatrio":1,"价值流映射":1,"绞杀组织":1,"增值时间":1,"人在回路":8,"DevOps":3,"变革管理":2,"数字分身":3,"ChatGPT":61}</script>
+<script type="application/json" class="pd-epn">{"Liatrio":1,"价值流映射":1,"绞杀组织":1,"增值时间":1,"人在回路":8,"DevOps":3,"变革管理":2,"数字分身":3,"ChatGPT":63}</script>
 
 <script>
 (function(){

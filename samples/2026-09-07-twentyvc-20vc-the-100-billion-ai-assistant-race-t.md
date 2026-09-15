@@ -195,7 +195,7 @@ Town 不让用户选模型——用户不该关心哪个模型擅长什么，Tow
 
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Anthropic、Claude、Codex、Cursor、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:Anthropic、ChatGPT、Cursor、Google、OpenAI、Meta</span>
-- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Anthropic、Apple、Google、Meta、OpenAI</span>
+- [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法]]<span class="pd-rz">同公司:ChatGPT、Claude、Google、OpenAI、Anthropic · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

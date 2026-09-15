@@ -175,7 +175,7 @@ Parag 把智能体使用网络的演进分三层。第一层是现在的主流�
 
 - [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|当签名已死：AI智能体如何击穿传统网络安全]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Claude、Notion、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法]]<span class="pd-rz">同公司:ChatGPT、Claude、Google、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

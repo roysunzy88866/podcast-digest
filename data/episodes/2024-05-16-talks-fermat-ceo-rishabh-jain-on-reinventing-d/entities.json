@@ -1,0 +1,872 @@
+{
+  "episode_id": "2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d",
+  "podcast": "精选演讲",
+  "date": "2024-05-16",
+  "tags": [
+    "电商",
+    "广告技术",
+    "生成式 AI",
+    "个性化",
+    "定位方法论"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "sam-motamity",
+      "type": "person",
+      "role": "host",
+      "name": "Sam Motamity",
+      "file": "Sam Motamity",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.366,
+            5.368
+          ],
+          "quote": "I'm Sam Motamity, a partner at Greylock.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rishabh-jain",
+      "type": "person",
+      "role": "cohost",
+      "name": "Rishabh Jain",
+      "file": "Rishabh Jain",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            6.068,
+            10.012
+          ],
+          "quote": "My guest today is Rishabh Jain, who's the CEO and co-founder of Firmat.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fermat",
+      "type": "company",
+      "role": "company",
+      "name": "Fermat",
+      "file": "Fermat",
+      "primary": true,
+      "how_described": "本集主角，Rishabh Jain 创办的公司，为品牌部署的每一条内容生成独特的站点体验，让品牌自己拥有一对一的消费者旅程，做分布式电商的工具与基础设施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            24.934,
+            33.062
+          ],
+          "quote": "So Rishabh, I want to start, let's rewind the clock back to 2021 when you were beginning to think through and then at the end of the year, start Fermat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            45.609,
+            49.61
+          ],
+          "quote": "And you come from a background before Fermat at LiveRamp really versed in all of this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            49.67,
+            53.451
+          ],
+          "quote": "And I think Fermat was really born as part of that big transition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            53.491,
+            59.072
+          ],
+          "quote": "And so maybe to start, tell us a little bit about that and how you position Fermat in the new commerce landscape.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            140.865,
+            154.356
+          ],
+          "quote": "But Fermat's birth was to provide tooling, to provide that infrastructure layer that allows people to provide engaging consumer experiences on the internet in this new world of the internet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            937.761,
+            941.922
+          ],
+          "quote": "I mean, what happens in a Fermat world?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1149.706,
+            1158.088
+          ],
+          "quote": "A company to work with someone like Fermat and kind of automate that whole thing and create that really personalized end of one experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1231.797,
+            1240.561
+          ],
+          "quote": "So as you guys have layered in this kind of AI capability and this AI-based personalization into the platform, what's been the effect on Fermat's business?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1549.578,
+            1556.305
+          ],
+          "quote": "And again, I think Fermat's like an exceptional example of that just from my vantage point, which is, you know, again, if I rewind to when we partnered together in 21,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1931.621,
+            1940.325
+          ],
+          "quote": "I'm excited to see the role that Fermat plays in pioneering that future for our customers and for commerce and consumer internet relationships more broadly.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "liveramp",
+      "type": "company",
+      "role": "company",
+      "name": "LiveRamp",
+      "file": "LiveRamp",
+      "primary": true,
+      "how_described": "Rishabh 创办 Fermat 前所在的中等规模上市公司，提供跨网站、跨应用、跨门店认出同一个人的追踪基础设施，催生了整个开放广告技术栈行业。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            45.609,
+            49.61
+          ],
+          "quote": "And you come from a background before Fermat at LiveRamp really versed in all of this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            60.522,
+            68.026
+          ],
+          "quote": "So it's probably helpful to give just 30 seconds on what LiveRamp did, or what LiveRamp does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            68.707,
+            75.291
+          ],
+          "quote": "So LiveRamp provides all of the infrastructure to enable people to track across the open web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            103.712,
+            105.634
+          ],
+          "quote": "And that's the way we thought about it at LiveRamp.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": true,
+      "how_described": "本集说 ATT 冲击后 Facebook 股价跌了 80%；它用 Facebook Shops 做闭环，还把信息流控制权交给 Amazon 让用户在站内完成 Amazon 交易；其传统 AI 在广告定向投放上极为出色。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            243.002,
+            247.205
+          ],
+          "quote": "Then the second set of answers I got was, oh yeah, my agency and Facebook says they got it handled.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            299.724,
+            305.893
+          ],
+          "quote": "The high level is like you saw Facebook stock drop by 80%, you saw Shopify stock drop, e-commerce darlings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            345.632,
+            352.435
+          ],
+          "quote": "And then to your point, there's both the end businesses and then also the infrastructure layers and the acquisition layers and a Facebook and a Shopify.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            427.292,
+            429.974
+          ],
+          "quote": "And Facebook has done this by doing Facebook shops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            433.437,
+            440.159
+          ],
+          "quote": "They have also done this by partnering Amazon and Facebook, where you can now do an Amazon transaction inside of Facebook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            444.02,
+            448.782
+          ],
+          "quote": "You would have never seen Facebook giving control of their feed to Amazon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            498.45,
+            503.657
+          ],
+          "quote": "And you're just seeing the pull happen in every element, whether it's Facebook shops, retail media networks, or us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            762.022,
+            769.308
+          ],
+          "quote": "So Facebook, for example, has been like exceptional at what I would call like traditional AI, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            860.584,
+            867.331
+          ],
+          "quote": "Generally using Facebook's preexisting tools into like which are the ones that are most effective and then doing the next set of generation after that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            872.356,
+            874.118
+          ],
+          "quote": "So like what Facebook does for ads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1424.835,
+            1430.64
+          ],
+          "quote": "Like, you know, and the problem statement I say is like, man, CAC on Facebook is totally ridiculous.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "att",
+      "type": "concept",
+      "role": "concept",
+      "name": "ATT",
+      "file": "ATT",
+      "primary": true,
+      "how_described": "本集说 Apple 的应用追踪透明度规则让用户可以禁止跨应用追踪，生效后电商从边际贡献为正跌成负、Facebook 股价跌 80%，彻底改变了广告与获客。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            38.967,
+            45.149
+          ],
+          "quote": "Kind of the rise of ATT completely changed how companies think about ads and how they acquire customers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            710.72,
+            715.603
+          ],
+          "quote": "So, you know, you started the company late 21, in the birth of kind of ATT, that trends played out.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "closed-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "闭环 (closed loop)",
+      "file": "闭环",
+      "primary": true,
+      "how_described": "本集的核心判断：追踪不到人之后，必须让交易事件与意图事件直接关联，Facebook Shops、TikTok Shops、零售媒体网络都是这个逻辑的不同形态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            366.502,
+            371.125
+          ],
+          "quote": "And the backend needs to support closed loop one-to-one experiences.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            402.744,
+            404.832
+          ],
+          "quote": "And then the second thing is you need it to be closed loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            405.873,
+            411.058
+          ],
+          "quote": "So, and this closed loop idea is one that is completely underappreciated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            415.121,
+            426.371
+          ],
+          "quote": "So the reason you need it to be closed loop now is when you can no longer track people, you need for the transaction event to be directly correlated to the intention event.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "retail-media-networks",
+      "type": "concept",
+      "role": "concept",
+      "name": "零售媒体网络 (retail media networks)",
+      "file": "零售媒体网络",
+      "primary": true,
+      "how_described": "本集说闭环逻辑催生了零售媒体网络的兴起，Instacart、Uber 这类公司靠自己的交易场景卖广告位，零售媒体收入显著上涨。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            456.104,
+            458.947
+          ],
+          "quote": "It has also led to the rise of retail media networks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            498.45,
+            503.657
+          ],
+          "quote": "And you're just seeing the pull happen in every element, whether it's Facebook shops, retail media networks, or us.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "generative-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 AI (generative AI)",
+      "file": "生成式 AI",
+      "primary": true,
+      "how_described": "本集说生成式 AI 负责「制造惊喜」——生成用户预料之外的初次体验，还将重新训练消费者的期望，但不能只押生成式、低估传统 AI 的总影响。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            750.315,
+            758.698
+          ],
+          "quote": "But speaking specifically about how it has impacted commerce, it has had impact at both the trad AI layer and at the generative AI layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            839.732,
+            858.934
+          ],
+          "quote": "The way that this is playing out in practice is like you have currently you already have generative AI tools for ad creative and what you can see already happening is like people are just running way more experiments on the number of like creatives that they are launching and then from there iterating it down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            906.774,
+            924.025
+          ],
+          "quote": "I love the way you frame that, and I do think it's important for all of us, given the enthusiasm and zeitgeist around generative AI, to also maintain the excitement around what's possible more broadly with AI, given all the investment that's happened beyond just generative use cases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1179.08,
+            1188.384
+          ],
+          "quote": "And to expect any different at this moment when people are talking about how generative AI is going to replace...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1368.299,
+            1374.944
+          ],
+          "quote": "One of the things you said right now that really resonated with me is like, at the end of the day, the customer doesn't care about AI, generative AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1377.806,
+            1382.77
+          ],
+          "quote": "And if you can use generative AI or AI to kind of solve that business problem, fantastic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "traditional-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "传统 AI (traditional AI)",
+      "file": "传统 AI",
+      "primary": true,
+      "how_described": "本集说传统 AI（预测式）的益处是持续学习什么让旅程对某个人有效、然后改造体验；Facebook 在这层（把广告最佳地投给合适的人）表现得非常出色。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            762.022,
+            769.308
+          ],
+          "quote": "So Facebook, for example, has been like exceptional at what I would call like traditional AI, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            799.004,
+            805.83
+          ],
+          "quote": "But I think that people underestimate the total impact because of the investment in AI that traditional AI is also catching up to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            825.005,
+            837.671
+          ],
+          "quote": "And then the benefit of traditional AI is that you can then continue to learn what are the things that make that journey effective for someone and then morph the experience from there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "customer-journey",
+      "type": "concept",
+      "role": "concept",
+      "name": "客户旅程 (customer journey)",
+      "file": "客户旅程",
+      "primary": true,
+      "how_described": "本集反复强调定向变难后必须让旅程更有效：落地页延续广告卖点、只陈列相关产品、动态改 PDP、按人推荐加购，从曝光到成交一以贯之。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            692.641,
+            705.73
+          ],
+          "quote": "Earlier you said one of the big changes around ETT was one, it made it more important and harder on knowing who to target, and then two, how to make the customer journey be more effective.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cac",
+      "type": "concept",
+      "role": "concept",
+      "name": "CAC",
+      "file": "CAC",
+      "primary": true,
+      "how_described": "本集把「Facebook 上的 CAC 简直离谱」当作定位方法论范本——用客户自己喊疼的问题开场，让人点头认同，而不是用「怎么用 AI」开场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 236,
+          "t": [
+            1424.835,
+            1430.64
+          ],
+          "quote": "Like, you know, and the problem statement I say is like, man, CAC on Facebook is totally ridiculous.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "positioning",
+      "type": "concept",
+      "role": "concept",
+      "name": "定位 (positioning)",
+      "file": "定位",
+      "primary": true,
+      "how_described": "本集说定位首先是让客户对问题点头认同，再证明你的解法是好方法，然后让人认识你、喜欢你、信任你，他们才会买你的解决方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 232,
+          "t": [
+            1401.81,
+            1406.034
+          ],
+          "quote": "But then I think there's a question of like, okay, how much do I lean into that in my customer positioning?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1457.382,
+            1462.146
+          ],
+          "quote": "And so positioning to me is more about first, how do you get people to nod along?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "compounding-advantage",
+      "type": "concept",
+      "role": "concept",
+      "name": "复利优势 (compounding advantage)",
+      "file": "复利优势",
+      "primary": true,
+      "how_described": "本集说构建复利价值的唯一方式是系统里存在某种复利优势——嵌入客户工作流、与 ROI 挂钩、数据循环越滚越大——让四年后的 AI 工具能持续在上面加杠杆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 277,
+          "t": [
+            1651.974,
+            1662.462
+          ],
+          "quote": "The only way you can actually build compounding value is if in your system there is something that gives you a compounding advantage that future AI tools can continue to take advantage of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1672.69,
+            1686.9
+          ],
+          "quote": "The reason I like the litmus test of how do you use AI is because it forces the question of what is that underlying compounding advantage that other people are not going to be able to catch up to that will continue to allow tools like AI to drive leverage on your compounding advantage.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": false,
+      "how_described": "本集提到 ATT 冲击后电商宠儿 Shopify 股价下跌、被彻底重新估值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            299.724,
+            305.893
+          ],
+          "quote": "The high level is like you saw Facebook stock drop by 80%, you saw Shopify stock drop, e-commerce darlings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            345.632,
+            352.435
+          ],
+          "quote": "And then to your point, there's both the end businesses and then also the infrastructure layers and the acquisition layers and a Facebook and a Shopify.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tiktok",
+      "type": "company",
+      "role": "company",
+      "name": "TikTok",
+      "file": "TikTok",
+      "primary": false,
+      "how_described": "本集提到 TikTok 通过做 TikTok Shops 实现交易事件与意图事件的关联。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            430.555,
+            432.536
+          ],
+          "quote": "TikTok has done this by doing TikTok shops.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集提到 Facebook 与 Amazon 合作，用户可在 Facebook 内部完成 Amazon 交易——三年前绝不会发生。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            433.437,
+            440.159
+          ],
+          "quote": "They have also done this by partnering Amazon and Facebook, where you can now do an Amazon transaction inside of Facebook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            444.02,
+            448.782
+          ],
+          "quote": "You would have never seen Facebook giving control of their feed to Amazon.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "true-classic",
+      "type": "company",
+      "role": "company",
+      "name": "True Classic",
+      "file": "True Classic",
+      "primary": false,
+      "how_described": "本集用这家大型在线男装零售商举例，说明 Fermat 如何延续广告卖点、只陈列相关商品、动态改产品描述、驱动购物车加购。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            636.434,
+            644.617
+          ],
+          "quote": "The other story that I can share is True Classic is a very large Ben's shirt retailer, basically, online.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1103.733,
+            1121.923
+          ],
+          "quote": "Yeah, it's a great example because, and I'll just play it back to you, like if I'm a true classic, pre-AI, the concept that, you know, ReShop and Sam both see an ad and are going to have radically different journeys based on who they are, kind of what they want to purchase.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mindbodygreen",
+      "type": "company",
+      "role": "company",
+      "name": "MindBodyGreen",
+      "file": "MindBodyGreen",
+      "primary": false,
+      "how_described": "本集说这家健康保健客户曾在一小时内创建约 60 家商店，把获客当完整漏斗运营，数据回传后端用于决定推哪些 SKU。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            543.302,
+            547.183
+          ],
+          "quote": "The first is a customer in the health and wellness space called MindBodyGreen.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "instacart",
+      "type": "company",
+      "role": "company",
+      "name": "Instacart",
+      "file": "Instacart",
+      "primary": false,
+      "how_described": "本集提到 Instacart 是零售媒体网络兴起中收入显著上涨的公司之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            459.468,
+            470.439
+          ],
+          "quote": "So you're seeing a very large set of companies, Instacart, Uber, all of these companies, you can see their revenue go up very meaningfully on the retail media side.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": false,
+      "how_described": "本集提到 Uber 是零售媒体网络兴起中收入显著上涨的公司之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            459.468,
+            470.439
+          ],
+          "quote": "So you're seeing a very large set of companies, Instacart, Uber, all of these companies, you can see their revenue go up very meaningfully on the retail media side.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wirecutter",
+      "type": "company",
+      "role": "company",
+      "name": "Wirecutter",
+      "file": "Wirecutter",
+      "primary": false,
+      "how_described": "本集在畅想未来时提到一个像个性化版 Wirecutter 的聊天机器人，问几个问题就给出婴儿车推荐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 288,
+          "t": [
+            1749.108,
+            1761.255
+          ],
+          "quote": "He created this demo, which was essentially interacting with a chatbot that felt sort of like you were interacting with Wirecutter, but it was personalized to you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集说人们更喜欢向 Perplexity 或 ChatGPT 提问，因为可以用自己想要的格式获取信息——这就是商业个性化的终局信号。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1189.565,
+            1205.472
+          ],
+          "quote": "The way that you know this is inevitable is that people prefer to ask Perplexity or ChatGPT or name your favorite AI tool a question because they can then ask the questions in the format that they want to in order to get the information in the format that they want it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "type": "company",
+      "role": "company",
+      "name": "Perplexity",
+      "file": "Perplexity",
+      "primary": false,
+      "how_described": "本集说人们更喜欢向 Perplexity 或 ChatGPT 提问，作为消费者期望被重新训练的证据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1189.565,
+            1205.472
+          ],
+          "quote": "The way that you know this is inevitable is that people prefer to ask Perplexity or ChatGPT or name your favorite AI tool a question because they can then ask the questions in the format that they want to in order to get the information in the format that they want it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -233,8 +233,8 @@ Google 赢 Yahoo 是这样，Facebook 赢 MySpace 也是这样 <button class="pd
 **换个口味**
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Google、Apple、Claude、Cursor · 同概念:护城河 (moat)、智能体 (agent)</span>
+- [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法]]<span class="pd-rz">同公司:ChatGPT、Google、Claude · 同概念:智能体 (agent)</span>
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同公司:ChatGPT · 同概念:护城河 (moat)、智能体 (agent)</span>
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同公司:ChatGPT、Facebook、Google · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

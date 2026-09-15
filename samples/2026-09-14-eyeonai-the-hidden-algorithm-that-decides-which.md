@@ -166,9 +166,9 @@ G2 对此有切肤之痛：OpenAI 推出 entity update（减少推荐实体、�
 
 **换个口味**
 
+- [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法]]<span class="pd-rz">同公司:ChatGPT、Claude、OpenAI、Google · 同概念:智能体 (agent)</span>
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Claude、OpenAI · 同概念:MCP、智能体 (agent)</span>
 - [[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|PG 炉边谈话：创业的核心从来没变过]]<span class="pd-rz">同公司:ChatGPT、OpenAI、Reddit · 同概念:推理 (inference)</span>
-- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同公司:ChatGPT、Reddit、Google · 同概念:AEO</span>
 
 </div>
 </div>

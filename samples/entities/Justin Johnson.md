@@ -38,11 +38,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":6,"Marble":4,"Sam Charrington":4,"Martin Casado":4,"高斯溅射":1,"Atlas":2,"智能体":236,"空间智能":3,"PoMDPs":1}</script>
+<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":6,"Marble":4,"Sam Charrington":4,"Martin Casado":4,"高斯溅射":1,"Atlas":2,"智能体":237,"空间智能":3,"PoMDPs":1}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Speechify":1,"Eleven Labs":5,"Sierra":5,"NVIDIA":34,"Dell":1,"Anthropic":121,"OpenAI":109,"Claude Code":59,"Cursor":58}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Speechify":1,"Eleven Labs":5,"Sierra":5,"NVIDIA":35,"Dell":1,"Anthropic":122,"OpenAI":111,"Claude Code":59,"Cursor":58}</script>
 
 <script>
 (function(){

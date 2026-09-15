@@ -143,8 +143,8 @@ Eon 的做法是：先帮数据团队在不碰生产环境、不影响安全和�
 **换个口味**
 
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同公司:Lovable · 同概念:token、智能体 (agent)</span>
+- [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法]]<span class="pd-rz">同公司:ChatGPT、Claude、Google · 同概念:智能体 (agent)</span>
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:ChatGPT、Google · 同概念:智能体 (agent)</span>
-- [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|SaaS增长该抄电商作业：付费广告立刻开打]]<span class="pd-rz">同公司:Google · 同概念:智能体 (agent)、PLG</span>
 
 </div>
 </div>

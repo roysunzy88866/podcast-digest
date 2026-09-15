@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Facebook</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Facebook">FA</div><div class="pi"><h1 class="pt">Facebook</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Facebook">FA</div><div class="pi"><h1 class="pt">Facebook</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]]**(04:03起):本集说 ATT 冲击后 Facebook 股价跌了 80%；它用 Facebook Shops 做闭环，还把信息流控制权交给 Amazon 让用户在站内完成 Amazon 交易；其传统 AI 在广告定向投放上极为出色。
 - **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(00:00起):本集将其描述为本质上是一个人类连接的数据库，并没有从技术突破起步，而是通过在已有数据库上付出努力、打磨迭代（如 Newsfeed）来构建价值。
 - **[[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]]**(01:03起):本集提到 Bret 在 Facebook 任 CTO 时的经历，包括 Sheryl Sandberg 的关键反馈改变了他对新工作的态度，以及设计信息流时用真实数据而非 Photoshop 模型的教训。
 - **[[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]]**(00:40起):本集将其作为平台「开放-关闭」四步周期的经典案例：2007 年通过开放画布、通知渠道和信息流分发吸引开发者涌入，随后逐步收回权限、抽成、压制自然渠道，最终吸收最高频用例进第一方产品
@@ -25,14 +26,17 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*1 条*
+*2 条*
+
+![[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d#^q2]]
 
 ![[2025-06-22-lennys-the-quiet-architect-peter-deng#^q2]]
 
 ## ② 出现在这些集
 
-*11 集*
+*12 集*
 
+- [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
@@ -49,9 +53,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[OpenAI]] · [[Cursor]] · [[ChatGPT]] · [[Instagram]] · [[Claude]] · [[vibe coding]] · [[Anthropic]] · [[Microsoft]]
+[[Lenny]] · [[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Cursor]] · [[TikTok]] · [[Instagram]] · [[Claude]] · [[vibe coding]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"智能体":236,"OpenAI":109,"Cursor":58,"ChatGPT":61,"Instagram":4,"Claude":57,"vibe coding":33,"Anthropic":121,"Microsoft":24}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"智能体":237,"ChatGPT":63,"OpenAI":111,"Cursor":58,"TikTok":4,"Instagram":4,"Claude":58,"vibe coding":33,"Anthropic":122}</script>
 
 <script>
 (function(){

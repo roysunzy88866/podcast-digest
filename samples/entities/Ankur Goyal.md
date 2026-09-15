@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Braintrust":1,"评估":1,"LLM":32,"智能体":236,"提示词":12,"Brainstore":1,"Datadog":7,"可观测性":19,"Figma":18,"ChatGPT":61}</script>
+<script type="application/json" class="pd-epn">{"Braintrust":1,"评估":1,"LLM":32,"智能体":237,"提示词":12,"Brainstore":1,"Datadog":7,"可观测性":19,"Figma":18,"ChatGPT":63}</script>
 
 <script>
 (function(){

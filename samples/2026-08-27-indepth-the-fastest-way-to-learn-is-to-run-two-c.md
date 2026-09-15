@@ -189,8 +189,8 @@ AI 带来的根本变化：代码从输入变成了输出，软件开发生命�
 **换个口味**
 
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Microsoft · 同概念:垂直整合 (vertical integration)</span>
+- [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客]]<span class="pd-rz">同公司:Facebook</span>
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:Facebook</span>
-- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:Facebook</span>
 
 </div>
 </div>

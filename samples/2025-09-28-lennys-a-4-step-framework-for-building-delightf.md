@@ -161,7 +161,7 @@ Google Meet 方面，疫情初期她们花三到四个月研究远程办公的�
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:Uber</span>
 - [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]]<span class="pd-rz">同公司:GitHub、Slack</span>
-- [[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|Bob Baxley：设计是可见的清晰思考]]<span class="pd-rz">同公司:Apple</span>
+- [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客]]<span class="pd-rz">同公司:Uber</span>
 
 </div>
 <div class="pd-ex">

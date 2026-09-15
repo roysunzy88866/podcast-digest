@@ -113,11 +113,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":109,"Cursor":58,"智能体":236,"护城河":10,"编码智能体":13,"Anthropic":121,"a16z":14,"Decagon":6,"循环":8,"个人智能体":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":111,"Cursor":58,"智能体":237,"护城河":10,"编码智能体":13,"Anthropic":122,"a16z":14,"Decagon":6,"循环":8,"个人智能体":2}</script>
 
 <script>
 (function(){

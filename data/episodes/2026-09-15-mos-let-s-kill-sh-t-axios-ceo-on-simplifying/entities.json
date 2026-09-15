@@ -1,0 +1,539 @@
+{
+  "episode_id": "2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying",
+  "podcast": "Masters of Scale",
+  "date": "2026-09-15",
+  "tags": [
+    "AI 与商业",
+    "简化与效率",
+    "内容授权",
+    "医疗 AI",
+    "个人成长"
+  ],
+  "categories": [
+    "创业与行业",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "jim-vandehei",
+      "type": "person",
+      "role": "host",
+      "name": "Jim VandeHei",
+      "file": "Jim VandeHei",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            58.053,
+            65.194
+          ],
+          "quote": "That's Jim VandeHei, CEO of influential news outlet Axios and co-author of the new book, Simplify.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 18,
+          "t": [
+            117.291,
+            122.374
+          ],
+          "quote": "I'm here with Jim Vandehei, CEO of Axios and co-author of the new book, Simplify.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "bob-safian",
+      "type": "person",
+      "role": "cohost",
+      "name": "Bob Safian",
+      "file": "Bob Safian",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            108.636,
+            112.399
+          ],
+          "quote": "I'm Bob Safian, and this is Rapid Response.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 17,
+          "t": [
+            116.211,
+            117.191
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2087.681,
+            2088.702
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2137.757,
+            2139.478
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "axios",
+      "type": "company",
+      "role": "company",
+      "name": "Axios",
+      "file": "Axios",
+      "primary": true,
+      "how_described": "本集主角 Jim VandeHei 是其 CEO，介绍它用 Simplify 体系运营、砍掉自有 App、并用 AI 重做地方新闻生意。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            58.053,
+            65.194
+          ],
+          "quote": "That's Jim VandeHei, CEO of influential news outlet Axios and co-author of the new book, Simplify.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 18,
+          "t": [
+            117.291,
+            122.374
+          ],
+          "quote": "I'm here with Jim Vandehei, CEO of Axios and co-author of the new book, Simplify.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 72,
+          "t": [
+            332.346,
+            344.35
+          ],
+          "quote": "In advance of your book, you wrote an article this summer about prepping for an Axios board meeting, and you said that even a six-month planning horizon, you realized, was like pure fantasy that everything could change in a month.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 197,
+          "t": [
+            789.264,
+            792.446
+          ],
+          "quote": "And it's funny because we started this about two and a half years ago at Axios.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            823.985,
+            829.011
+          ],
+          "quote": "Although you killed the Axios app, which I imagine there might've been some resistance to.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 205,
+          "t": [
+            831.714,
+            839.763
+          ],
+          "quote": "But the truth was we have like tens of millions of people who come to Axios, like 30,000 people were using it on a regular basis, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1248.784,
+            1256.569
+          ],
+          "quote": "Before the break, Axios CEO Jim VandeHeij talked about why simplifying and reducing cognitive fatigue is essential in an AI world.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1257.07,
+            1271.88
+          ],
+          "quote": "Now he talks about when adopting new tech makes you vulnerable and when it unleashes superpowers, plus what Axios gets out of partnering with OpenAI, the magic of AI agents in healthcare, and how he's redesigning his personal life.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1275.837,
+            1280.721
+          ],
+          "quote": "One of the things that at Axios you want to expand is Axios Local dramatically.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1487.414,
+            1495.04
+          ],
+          "quote": "You guys have a content licensing deal with OpenAI that gives them access to Axios content to train ChatGPT.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1516.736,
+            1530.147
+          ],
+          "quote": "Like at the end of the day, ChatGPT, Google, Anthropic, they all ate the totality of publicly available information on the internet, including everything that Axios ever wrote, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 Axios 与 OpenAI 签了内容授权协议，授权其内容用于训练，并强调这笔收入不是公司的依赖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            98.408,
+            107.015
+          ],
+          "quote": "We talk about cognitive fatigue and how he's redesigning his personal life, plus the risks of getting into business with OpenAI and more.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1257.07,
+            1271.88
+          ],
+          "quote": "Now he talks about when adopting new tech makes you vulnerable and when it unleashes superpowers, plus what Axios gets out of partnering with OpenAI, the magic of AI agents in healthcare, and how he's redesigning his personal life.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1487.414,
+            1495.04
+          ],
+          "quote": "You guys have a content licensing deal with OpenAI that gives them access to Axios content to train ChatGPT.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1531.709,
+            1536.553
+          ],
+          "quote": "You could do what the New York Times is doing, and you could sue OpenAI and hope that you win in court.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1552.226,
+            1566.952
+          ],
+          "quote": "Then when OpenAI came to us years ago and said, hey, let's talk about a content licensing deal where they're paying for the content, and you are, as the publisher, you're saying, I relinquish my right to sue you for using this content because I'm giving you the rights to it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1571.594,
+            1577.056
+          ],
+          "quote": "And from our perspective, we ended up with a deal that I thought was fair to OpenAI and fair to us.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说它通过授权协议使用 Axios 内容，嘉宾还把自己所有验血、MRI、家族病史全部输入 ChatGPT 管理健康。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 332,
+          "t": [
+            1487.414,
+            1495.04
+          ],
+          "quote": "You guys have a content licensing deal with OpenAI that gives them access to Axios content to train ChatGPT.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1516.736,
+            1530.147
+          ],
+          "quote": "Like at the end of the day, ChatGPT, Google, Anthropic, they all ate the totality of publicly available information on the internet, including everything that Axios ever wrote, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1665.285,
+            1670.09
+          ],
+          "quote": "There's one, I use ChatGPT for my own health, which is I put in every single...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说嘉宾为患复杂慢性病的妻子在 Claude 里建了一个项目，指定约翰·霍普金斯等信源并定期查新文献，称其比任何见过的医生都好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 376,
+          "t": [
+            1708.262,
+            1711.124
+          ],
+          "quote": "I basically created a project within Claude.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集说 Axios 来自 Google 搜索的流量从六个月前的 30-40% 跌到如今约 5-10%，几乎一夜之间发生。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            420.301,
+            426.084
+          ],
+          "quote": "Six months ago, we're getting, you know, 30 to 40 percent of our traffic is coming through Google search.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1495.36,
+            1506.789
+          ],
+          "quote": "And when you were talking about the tremendous drop in Google traffic that you have, I guess I was wondering whether you ever find yourself lying awake at night wondering, hmm, maybe we shouldn't have done that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1516.736,
+            1530.147
+          ],
+          "quote": "Like at the end of the day, ChatGPT, Google, Anthropic, they all ate the totality of publicly available information on the internet, including everything that Axios ever wrote, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到其有人警告技术有 10% 概率毁灭人类，助长了公众对 AI 的焦虑；也提到它是吞下公开信息的 AI 公司之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            295.576,
+            306.583
+          ],
+          "quote": "This week, you know, we had this guy come out from Anthropic and warned that there's a 10% chance that their technology destroys humanity, which, I don't know, last time I checked, probably not a great sales pitch for the product that you're",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1516.736,
+            1530.147
+          ],
+          "quote": "Like at the end of the day, ChatGPT, Google, Anthropic, they all ate the totality of publicly available information on the internet, including everything that Axios ever wrote, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "new-york-times",
+      "type": "company",
+      "role": "company",
+      "name": "New York Times",
+      "file": "New York Times",
+      "primary": false,
+      "how_described": "本集举它为例：选择起诉 OpenAI 而非授权——嘉宾认为 Axios 打官司经济上不划算，但若 NYT 胜诉对内容创作者有利。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 339,
+          "t": [
+            1531.709,
+            1536.553
+          ],
+          "quote": "You could do what the New York Times is doing, and you could sue OpenAI and hope that you win in court.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1638.861,
+            1642.944
+          ],
+          "quote": "Other companies like the New York Times have chosen to go to court over it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "buzzfeed",
+      "type": "company",
+      "role": "company",
+      "name": "BuzzFeed",
+      "file": "BuzzFeed",
+      "primary": false,
+      "how_described": "本集举它为反面教材：把几乎整个商业模式押在 Facebook 关系上，结局不好——对比 Axios 授权收入不构成依赖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 334,
+          "t": [
+            1506.809,
+            1513.013
+          ],
+          "quote": "Like, you know, I remember BuzzFeed steaming ahead based on its Facebook relationship, and that hasn't ended well.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1580.737,
+            1585.28
+          ],
+          "quote": "But what was different like the BuzzFeed or the Facebook thing is we're not dependent on that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1594.785,
+            1605.271
+          ],
+          "quote": "Whereas what happened in the digital era is a lot of companies like BuzzFeed basically went to bed with Facebook and these other companies and bet almost their entire business model on it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集以嘉宾为妻子构建的定制医疗智能体为核心案例，称其交叉参照文献与相似病例，水平超过绝大多数医生，可能是普通人的游戏规则改变者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 365,
+          "t": [
+            1651.532,
+            1662.743
+          ],
+          "quote": "I was touched by a piece you wrote about your wife's health, building your own AI agent to help, and that it's proven more useful than most of the human doctors you interacted with.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2066.544,
+            2075.531
+          ],
+          "quote": "So be an AI lab rat, as Jim describes himself, even build your own bespoke healthcare agent, but only if that matches your priorities and goals.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-fatigue",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知疲劳 (cognitive fatigue)",
+      "file": "认知疲劳",
+      "primary": true,
+      "how_described": "本集引用大量脑部扫描研究：做的决定越多、做决定能力越差，因此必须靠删除与自动化（如 Amazon 自动订购）减少决定数量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            98.408,
+            107.015
+          ],
+          "quote": "We talk about cognitive fatigue and how he's redesigning his personal life, plus the risks of getting into business with OpenAI and more.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 234,
+          "t": [
+            970.975,
+            973.277
+          ],
+          "quote": "It's called cognitive fatigue, mental fatigue.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1248.784,
+            1256.569
+          ],
+          "quote": "Before the break, Axios CEO Jim VandeHeij talked about why simplifying and reducing cognitive fatigue is essential in an AI world.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

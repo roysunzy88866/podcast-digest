@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":236,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":18,"OpenAI":109,"Anthropic":121}</script>
+<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":237,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":18,"OpenAI":111,"Anthropic":122}</script>
 
 <script>
 (function(){

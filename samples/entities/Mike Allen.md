@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jensen Wong]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[Palantir]] · [[开源模型]] · [[封闭模型]] · [[沙箱]] · [[智能体]]
+[[Jensen Wong]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[TSMC]] · [[Microsoft]] · [[Palantir]] · [[开源模型]] · [[封闭模型]] · [[沙箱]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":34,"OpenAI":109,"Anthropic":121,"Microsoft":24,"Palantir":16,"开源模型":16,"封闭模型":2,"沙箱":43,"智能体":236}</script>
+<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":35,"OpenAI":111,"Anthropic":122,"TSMC":4,"Microsoft":24,"Palantir":16,"开源模型":16,"封闭模型":2,"沙箱":43}</script>
 
 <script>
 (function(){

@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":21,"智能体":236,"沙箱":43,"对齐失败":1,"推理":45,"权力集中":1,"主观能动性":18,"OpenAI":109,"YC":12}</script>
+<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":21,"智能体":237,"沙箱":43,"对齐失败":1,"推理":46,"权力集中":1,"主观能动性":18,"OpenAI":111,"YC":12}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AWS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AWS">AW</div><div class="pi"><h1 class="pt">AWS</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AWS">AW</div><div class="pi"><h1 class="pt">AWS</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -21,10 +21,11 @@ unlisted: true
 - **[[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]]**(47:41起):本集说 Facebook 没有利用 AWS 而是自己建数据中心，因为当 Facebook 加入时 AWS 和公有云还相当初级，不是真正的选择
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(15:47起):本集提到 AWS 收购了 CloudEndure，嘉宾在 AWS 期间经历过从本地到云的大规模迁移
 - **[[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]]**(00:48起):本集说嘉宾的职业生涯起点，2010、2011 年前后在那里做工程师，后来发现动手工程对他来说不够。
+- **[[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]]**(40:48起):本集说与 AWS 的解耦合作也看到类似 5 倍的吞吐量数字；AWS 带着自家 training parts 是四大芯片厂商之一。
 
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为被讨论公司
@@ -36,14 +37,15 @@ unlisted: true
 - [[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]] — 作为被讨论公司(提及)
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
 - [[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]] — 作为被讨论公司
+- [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Microsoft]] · [[McKinsey]] · [[OpenAI]] · [[token]] · [[NVIDIA]] · [[垂直整合]] · [[IC]] · [[Databricks]]
+[[智能体]] · [[Anthropic]] · [[Microsoft]] · [[OpenAI]] · [[NVIDIA]] · [[McKinsey]] · [[Google]] · [[token]] · [[数据中心]] · [[垂直整合]]
 
-<script type="application/json" class="pd-epn">{"智能体":236,"Anthropic":121,"Microsoft":24,"McKinsey":5,"OpenAI":109,"token":20,"NVIDIA":34,"垂直整合":4,"IC":7,"Databricks":11}</script>
+<script type="application/json" class="pd-epn">{"智能体":237,"Anthropic":122,"Microsoft":24,"OpenAI":111,"NVIDIA":35,"McKinsey":5,"Google":42,"token":20,"数据中心":13,"垂直整合":4}</script>
 
 <script>
 (function(){

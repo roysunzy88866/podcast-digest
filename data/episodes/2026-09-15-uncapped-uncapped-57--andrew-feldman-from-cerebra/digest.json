@@ -1,0 +1,214 @@
+{
+  "title_zh": "一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌",
+  "tldr": "Cerebras 创始人兼 CEO Andrew 讲述晶圆级芯片如何闯过十八个月濒死期，以及他为什么坚信速度会创造全新市场。",
+  "digest_md": "这一集聊的是一件听起来近乎疯狂的事：把整片晶圆做成一颗芯片。主角是 Andrew——晶圆级芯片公司 Cerebras 的 CEO 和创始人，他用十年时间把「没人认为可行」的晶圆级方案做到了量产。而全集中最有冲击力的一个事实是：最聪明的一批人干两年、送进一座造价四五百亿美元的晶圆厂，最后从另一头出来的芯片只卖 22 美元——「这属于人类有史以来最了不起的成就之列」。\n\n## 挑战巨人：好一点是死路，必须好一百倍\n\n2016 年 Andrew 创立公司时，AI 远不是今天的样子，但他作为计算机架构师看到的是：AI 是一个计算极其密集的工作负载，而当时被使用的架构是后来才改造去适配它的。他的判断有一条铁律：如果市场里站着一个巨人(那时的 NVIDIA 已经是了)，「好一点或者便宜一点不是一个可行的策略」——你价格是它的三分之二，它可以直接降价、捆绑、削减成本，能做的事有一百件。所以必须带着好得多的东西出场：快十倍、一百倍、五百倍，好到「即使对方把它免费送出去，他们也无法竞争」。\n\n投资人 Eric 给这笔账算得更狠：新公司从零到规模至少要五年，而现有巨头每年都在翻倍前进，五年就是 32 倍，你还得再乘上一个倍数优势——「所以你必须瞄准好 100 倍、1000 倍，如果你想在他们之前与市场交汇的话」。这决定了你不能靠渐进式改进：「你没法靠渐进式改进达到好得多的水平」。唯一的路是激进创新，而激进创新的代价是：没有现成供应商在等你——造一块餐盘大小的芯片，你没法在产品目录里找到散热器，因为从来没人造过比邮票更大的。外围的一切都得自己造，但也因此长出了封装领域世界第一的能力。\n\n## 十八个月濒死：「只犯新的错误」\n\n他们一直有两条轴：能不能造出来？能不能卖掉？卖掉从来不是问题——「我们一直相信，只要我们能造出来，就会有巨大的需求」。真正的深渊是造不出来：从来没人做过晶圆级，一群人说这永远不可能，连他们自己也没有任何证据。有大约 18 个月，他们做不出来，而每个月烧大约 800 万美元。董事会每六周开一次，Andrew 要汇报的全部内容就是：「还是做不出来。不然我们还能谈什么？」\n\n支撑他们的是一条座右铭：只犯新的错误。每次失败都做完整的失效分析，弄明白原因，然后就不再以那种方式失败。进展是可以看见的：一开始几秒钟就把晶圆弄碎，后来是几分钟，然后有一次跑满了整整一个小时。2019 年 7 月的某一天，系统在跑、温度持平，他们挤在一间由小办公室改成的实验室里——墙上钻了个洞往外抽热气——盯着服务器说：「天哪，我们解决了计算领域 75 年里没人解决过的问题。」\n\n> 【背景】ASR 转写稿把公司名听写为「Cerebrus」,实际是做晶圆级芯片的 Cerebras;文中 Andrew、Eric 分别指其创始人 CEO 与投资人。\n\n## 从沙子到 ChatGPT 回答：供应链是怎么卡住的\n\n主持人请 Andrew 用大白话讲一遍芯片供应链。一座最先进制程的晶圆厂是「现代金字塔」：建造成本高达数百亿美元，好几个橄榄球场大。三星在德州建厂时，甚至先建了一座发电厂专门用于制造混凝土——数百辆混凝土搅拌车 7x24 连续运转多年，只为浇出地基。光刻机只有 ASML 一家能造，全世界只有这一家，一台长五六十英尺、贵到数亿美元级别——「这是真正的垄断，不是源于试图控制供应。他们拥有别人一直无法复制的技术」。\n\n但真正的瓶颈不在光刻机(「可能没有」受限),而在晶圆厂本身：需求是指数级的，晶圆厂五年才能建成，永远追不上。「AI 以软件的速度前进，而数据中心以房地产的速度前进。这就是我们落后的原因。」 Andrew 认为美国花了三十年糟糕政策把晶圆厂和整个配套产业(设备商、封装厂)赶出了国门，他的解法很直接：和 Global Foundries、台积电、三星谈一个 20 年的窗口期，豁免所有地方法规，全力建美国本土产能——「如果我们失去芯片产能，对我们的行业将是灾难性的」。\n\n## 转向推理：像路由器一样做决策\n\n公司以训练系统起步——因为训练因反向传播是更难的问题，当时认为推理会发生在各种分布式设备上。那后来怎么转向推理的？Andrew 用一个比喻区分两种决策方式：一种是老式电话电路，远早于未来就把路径想清楚、拉一条专线；另一种是路由器，一跳一跳地走，每翻过一座山就重新决策。他们是后者：「我们知道外面有一罐金子，但我们知道通往它的路径是不可知的。」\n\n每实现一件事就登上一个新的观景点。当他们看清「AI 会聪明到人人都想用」时，结论自然浮出：「如果每个人都想使用它，推理将会压垮计算基础设施。我们最好在那个位置上。」 之所以能这么转，靠的是早期架构里的一个好决定：不嵌入任何加速卷积网络这类特定技术，而是去加速支撑所有 AI 的底层代数运算——所以 Transformer 出现时，尽管他们从未听说过它，他们已经是跑它最快的。\n\n## 速度创造市场，而不是省电\n\n既然算力处处受限，主持人问：是不是「每瓦 token 数」才是唯一重要的指标？Andrew 的回答把问题拉高了一层：他们选择专注的速度，历史上一直在**创造**市场。「慢速搜索是没有市场的。拨号上网是没有市场的。」 他给主持人出了个惩罚孩子的主意：别没收手机，把网速调回拨号速度用一周——那才是真惩罚。网络慢的时候，Netflix 用信封寄 DVD;网络快了，它变成了电影制片厂——不是把原来看家本领做得更好，「他们变成了一个全新的东西」。速度上去了，全新的应用类别才会冒出来。\n\n另一条路是提吞吐量：通过「解耦」(disaggregation,把推理流程里能拆给别人的环节拆出去)与 AMD、AWS 合作，在保持速度不变的情况下拿到了 5 倍的额外吞吐量，AWS 那边也是类似数字。而且因为架构上的通用性，「我们有机会在整个 GPU 版图中做到这一点」——四大芯片厂商(NVIDIA、AMD、Google TPU、AWS)里，他们已经在和两家合作。\n\n## 对 NVIDIA 的另类解读，和大卫的心态\n\n「我认为大多数人对 NVIDIA 之所以伟大的理解是错的。」 不是 CUDA,也不是芯片架构——「那只是人们嘴上说的」。是那种难以置信的坚韧：作为上市公司挣扎了十年，股价糟糕、没人听你说话，却一路战斗，「而那会进入你的 DNA」。Andrew 自己也是这种心态：「我是在与歌利亚之战中职业的大卫。」 公司每被唱衰一次，他就燃一次：说做不了晶圆级，做成了；说没法量产良率，实现了；说没有政府以外客户，拿下了主权云；说没有前沿实验室，拿下了 OpenAI;说没有超大规模云厂商，也赢了；说做不了大模型——「现在我们在服务 GPT」。\n\n关于人才，他的原则是分清经验何时重要：产品组织全用年轻聪明人、内部提拔，因为在「客户在 AI 领域想要什么」上没有长期历史可依赖，聪明和洞察胜过经验；但造芯片这件事，「此前造过若干年芯片是预测你能否交付卓越芯片的最佳指标」。至于人际关系，无论内部还是和台积电、代工厂的外部关系，答案都朴素得像你妈教的那样：说到做到、提早给信息、写感谢信——「你信守承诺」。\n\n## 本集带走\n\n- **别用「好一点」挑战巨头**：对手利润率高、能降价能捆绑，你必须好到对方免费送都无法竞争——按五年追赶期倒推，目标要定在 100 倍量级。\n- **「只犯新的错误」**:每次失败做完整失效分析，确保同类失败不重演。进展慢不等于没进展，几秒碎晶圆到跑满一小时，就是可以看见的路标。\n- **长期项目里，董事会该做的是自己擅长的事**：融资、招聘、围绕持久战提尖锐问题；让工程师去工程，别试图替团队做技术选型。\n- **看不清路时学路由器**：方向笃定、路径一跳一跳地走，每登上一座山重新决策；但架构层的关键取舍(专用 vs 灵活)要为未知的未来留余地。\n- **别把「不可复制」想当然**:全球只有 ASML 能造光刻机、只有台积电有造最先进晶圆厂的技能，这类单点垄断是整个 AI 供应链真正的约束。",
+  "quotes": [
+    {
+      "en": "Like you actually need some naivete.",
+      "zh": "你其实需要一点天真。",
+      "timestamp": "03:15",
+      "speaker": "Eric"
+    },
+    {
+      "en": "Don't tell your VCs how hard your shit is.",
+      "zh": "别告诉你的 VC 你的东西有多难。",
+      "timestamp": "03:50",
+      "speaker": "Eric"
+    },
+    {
+      "en": "And our view is that if you're going to attack Goliath, if there's a giant standing in the market, like NVIDIA was even at that time, that being a little bit better or a little bit cheaper is not an available strategy.",
+      "zh": "我们的看法是，如果你要去挑战歌利亚，如果市场里站着一个巨人——那时的 NVIDIA 已经是了——那么好一点或者便宜一点不是一个可行的策略。",
+      "timestamp": "04:30",
+      "speaker": "Andrew Feldman"
+    },
+    {
+      "en": "You can't incremental your way to vastly better.",
+      "zh": "你没法靠渐进式改进达到好得多的水平。",
+      "timestamp": "05:47",
+      "speaker": "Andrew Feldman"
+    },
+    {
+      "en": "When you do radical innovation, there are no vendors waiting for you.",
+      "zh": "当你做激进创新时，没有现成的供应商在等你。",
+      "timestamp": "06:24",
+      "speaker": "Andrew Feldman"
+    },
+    {
+      "en": "Stared at a server, which is about as exciting as looking at paint dry and said, holy crap, we've solved this problem that nobody in 75 years of compute had ever solved.",
+      "zh": "盯着服务器看——那跟看着油漆干差不多刺激——然后说，天哪，我们解决了计算领域 75 年里没人解决过的问题。",
+      "timestamp": "12:39",
+      "speaker": "Andrew Feldman"
+    },
+    {
+      "en": "This is a true monopoly, not born of, you know, what De Beers did, which was try and control supply.",
+      "zh": "这是真正的垄断，不是 De Beers 那种靠控制供应造出来的垄断。",
+      "timestamp": "18:50",
+      "speaker": "Andrew Feldman"
+    },
+    {
+      "en": "AI is moving at the speed of software and data centers are moving at the speed of real estate.",
+      "zh": "AI 以软件的速度前进，而数据中心以房地产的速度前进。",
+      "timestamp": "19:51",
+      "speaker": "Andrew Feldman"
+    },
+    {
+      "en": "And that's sort of the way we worked, where we knew there was a pot of gold out there, but the path to it we knew was unknowable.",
+      "zh": "那大致就是我们工作的方式，我们知道外面有一罐金子，但我们知道通往它的路径是不可知的。",
+      "timestamp": "30:32",
+      "speaker": "Andrew Feldman"
+    },
+    {
+      "en": "If everybody wants to use it, inference is going to crush the compute infrastructure.",
+      "zh": "如果每个人都想使用它，推理将会压垮计算基础设施。",
+      "timestamp": "31:30",
+      "speaker": "Andrew Feldman"
+    },
+    {
+      "en": "All the data centers in the U.S. use less than California almond growers.",
+      "zh": "美国所有数据中心的用水量比加州杏仁种植者还少。",
+      "timestamp": "46:27",
+      "speaker": "Andrew Feldman"
+    },
+    {
+      "en": "If you think about it, there's no market for slow search.",
+      "zh": "你想想，慢速搜索是没有市场的。",
+      "timestamp": "53:02",
+      "speaker": "Andrew Feldman"
+    },
+    {
+      "en": "When the internet was slow, Netflix delivered DVDs and envelopes. And when the internet got fast, they became a movie studio.",
+      "zh": "网络慢的时候，Netflix 用信封装 DVD 寄送。而网络变快了，他们成了电影制片厂。",
+      "timestamp": "53:36",
+      "speaker": "Andrew Feldman"
+    },
+    {
+      "en": "I think most people are wrong about what makes NVIDIA great.",
+      "zh": "我认为大多数人对 NVIDIA 之所以伟大的理解是错的。",
+      "timestamp": "55:27",
+      "speaker": "Andrew Feldman"
+    },
+    {
+      "en": "I'm a professional David in the battle with Goliath.",
+      "zh": "我是在与歌利亚之战中职业的大卫。",
+      "timestamp": "57:53",
+      "speaker": "Andrew Feldman"
+    },
+    {
+      "en": "We're only interested in solving problems that other people can't solve.",
+      "zh": "我们只对解决别人解决不了的问题感兴趣。",
+      "timestamp": "59:35",
+      "speaker": "Andrew Feldman"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:15",
+      "speaker": "Eric",
+      "en": "Like you actually need some naivete.",
+      "zh": "你其实需要一点天真。"
+    },
+    {
+      "timestamp": "03:50",
+      "speaker": "Eric",
+      "en": "Don't tell your VCs how hard your shit is.",
+      "zh": "别告诉你的 VC 你的东西有多难。"
+    },
+    {
+      "timestamp": "04:30",
+      "speaker": "Andrew",
+      "en": "And our view is that if you're going to attack Goliath, if there's a giant standing in the market, like NVIDIA was even at that time, that being a little bit better or a little bit cheaper is not an available strategy.",
+      "zh": "我们的看法是，如果你要去挑战歌利亚，如果市场里站着一个巨人——那时的 NVIDIA 已经是了——那么好一点或者便宜一点不是一个可行的策略。"
+    },
+    {
+      "timestamp": "05:47",
+      "speaker": "Andrew",
+      "en": "You can't incremental your way to vastly better.",
+      "zh": "你没法靠渐进式改进达到好得多的水平。"
+    },
+    {
+      "timestamp": "06:24",
+      "speaker": "Andrew",
+      "en": "When you do radical innovation, there are no vendors waiting for you.",
+      "zh": "当你做激进创新时，没有现成的供应商在等你。"
+    },
+    {
+      "timestamp": "11:50",
+      "speaker": "Andrew",
+      "en": "And we wouldn't fail that way again.",
+      "zh": "然后我们就不会再以那种方式失败。"
+    },
+    {
+      "timestamp": "12:39",
+      "speaker": "Andrew",
+      "en": "Stared at a server, which is about as exciting as looking at paint dry and said, holy crap, we've solved this problem that nobody in 75 years of compute had ever solved.",
+      "zh": "盯着服务器看——那跟看着油漆干差不多刺激——然后说，天哪，我们解决了计算领域 75 年里没人解决过的问题。"
+    },
+    {
+      "timestamp": "18:50",
+      "speaker": "Andrew",
+      "en": "This is a true monopoly, not born of, you know, what De Beers did, which was try and control supply.",
+      "zh": "这是真正的垄断，不是 De Beers 那种靠控制供应造出来的垄断。"
+    },
+    {
+      "timestamp": "19:51",
+      "speaker": "Andrew",
+      "en": "AI is moving at the speed of software and data centers are moving at the speed of real estate.",
+      "zh": "AI 以软件的速度前进，而数据中心以房地产的速度前进。"
+    },
+    {
+      "timestamp": "21:12",
+      "speaker": "Andrew",
+      "en": "It's the most impressive thing humans have ever done.",
+      "zh": "这是人类有史以来最了不起的成就。"
+    },
+    {
+      "timestamp": "30:32",
+      "speaker": "Andrew",
+      "en": "And that's sort of the way we worked, where we knew there was a pot of gold out there, but the path to it we knew was unknowable.",
+      "zh": "那大致就是我们工作的方式，我们知道外面有一罐金子，但我们知道通往它的路径是不可知的。"
+    },
+    {
+      "timestamp": "31:30",
+      "speaker": "Andrew",
+      "en": "If everybody wants to use it, inference is going to crush the compute infrastructure.",
+      "zh": "如果每个人都想使用它，推理将会压垮计算基础设施。"
+    },
+    {
+      "timestamp": "46:27",
+      "speaker": "Andrew",
+      "en": "All the data centers in the U.S. use less than California almond growers.",
+      "zh": "美国所有数据中心的用水量比加州杏仁种植者还少。"
+    },
+    {
+      "timestamp": "53:02",
+      "speaker": "Andrew",
+      "en": "If you think about it, there's no market for slow search.",
+      "zh": "你想想，慢速搜索是没有市场的。"
+    },
+    {
+      "timestamp": "53:36",
+      "speaker": "Andrew",
+      "en": "When the internet was slow, Netflix delivered DVDs and envelopes. And when the internet got fast, they became a movie studio.",
+      "zh": "网络慢的时候，Netflix 用信封装 DVD 寄送。而网络变快了，他们成了电影制片厂。"
+    },
+    {
+      "timestamp": "55:27",
+      "speaker": "Andrew",
+      "en": "I think most people are wrong about what makes NVIDIA great.",
+      "zh": "我认为大多数人对 NVIDIA 之所以伟大的理解是错的。"
+    },
+    {
+      "timestamp": "57:53",
+      "speaker": "Andrew",
+      "en": "I'm a professional David in the battle with Goliath.",
+      "zh": "我是在与歌利亚之战中职业的大卫。"
+    },
+    {
+      "timestamp": "59:35",
+      "speaker": "Andrew",
+      "en": "We're only interested in solving problems that other people can't solve.",
+      "zh": "我们只对解决别人解决不了的问题感兴趣。"
+    }
+  ],
+  "voice_script": "今天这一集，主角是 Andrew——晶圆级芯片公司 Cerebras 的创始人和 CEO。这家公司干的，是一件听起来近乎疯狂的事：把整片晶圆做成一颗芯片。要知道，传统芯片是把晶圆切成几百颗小的，而 Andrew 用十年时间，把这条所有人都认为走不通的路，硬是做到了量产。\n\n为什么非要这么干？得从 2016 年说起。那时候 AI 还不是今天的样子，但作为计算机架构师的 Andrew 已经看明白一件事：AI 是一个计算极其密集的工作负载，而市面上的芯片架构，都是后来才被改造去适配它的。这里面就藏着一个机会。可机会背后站着的是巨人，那时的 NVIDIA 已经是巨人了。Andrew 有一条铁律：好一点或者便宜一点，不是一个可行的策略。你价格是人家的三分之二，对方可以直接降价、捆绑销售、削减成本，能对付你的手段有一百件。所以必须带着好得多的东西出场——快十倍、一百倍、五百倍，好到即使对方把它免费送出去，也没法竞争。\n\n这笔账，投资人 Eric 算得更狠。新公司从零做到规模，至少要五年，而现有巨头每年都在翻倍前进，五年就是三十二倍。你还得再乘上一个倍数优势，所以要瞄准好一百倍、一千倍，否则根本来不及在他们之前和市场交汇。这就堵死了一条路：渐进式改进。你没法靠一点一点改进，达到好得多的水平。唯一的出路是激进创新。但激进创新的代价很残酷——没有现成的供应商在等你。造一块餐盘大小的芯片，散热器在产品目录里根本找不到，因为从来没人造过比邮票更大的芯片。外围的一切都得自己造，不过也因此，逼出了封装领域世界第一的能力。\n\n方向定了，真正的深渊才刚开始。这家公司一直有两条轴：能不能造出来？能不能卖掉？卖掉从来不是问题，只要造得出来，需求是巨大的。真正的难关是造不出来。晶圆级这件事，从来没人做成过，一群人说这永远不可能，而公司自己手里也没有任何证据。最艰难的时候，有大约十八个月，就是做不出来，每个月烧大约八百万美元。董事会每六周开一次，Andrew 要汇报的全部内容就是一句：还是做不出来。不然还能谈什么呢？\n\n支撑他们熬过来的，是一条座右铭：只犯新的错误。每次失败都做完整的失效分析，弄明白原因，然后不再以那种方式失败。进展虽然慢，但看得见：一开始晶圆几秒钟就碎，后来能撑几分钟，再后来，有一次跑满了整整一个小时。2019 年 7 月的某一天，系统在跑，温度持平，一群人挤在一间小办公室改的实验室里——墙上还钻了个洞往外抽热气——盯着服务器，说出了那句话：天哪，我们解决了计算领域七十五年里没人解决过的问题。\n\n芯片造出来只是第一步，这一集还花了很大篇幅，用大白话讲芯片供应链到底有多脆弱。一座最先进制程的晶圆厂，被称为现代金字塔：建造成本高达数百亿美元，占地好几个橄榄球场。三星在德州建厂的时候，甚至先建了一座发电厂专门用于制造混凝土——数百辆搅拌车一天二十四小时连轴转好几年，只为浇出地基。光刻机就更极端了，全世界只有 ASML 一家能造，一台机器长五六十英尺，贵到数亿美元级别。这是真正的垄断，但不是靠控制供应，而是别人一直无法复制的技术。而真正的瓶颈其实不在光刻机，在晶圆厂本身：需求是指数级的，晶圆厂建成却要五年，永远追不上。一句话总结：AI 以软件的速度前进，数据中心却以房地产的速度前进，这就是落后的原因。Andrew 认为，是美国三十年的糟糕政策，把晶圆厂和整个配套产业赶出了国门，解法也很直接——和 Global Foundries、台积电、三星谈一个二十年的窗口期，豁免地方法规，全力建美国本土产能。\n\n再回到这家公司自己的故事。它以训练系统起步，但后来转向了推理，也就是 AI 回答你问题的那一步。转向的逻辑，Andrew 用了一个比喻：一种是老式电话电路，远早于未来就把路径想清楚，拉一条专线；另一种是路由器，一跳一跳地走，每翻过一座山就重新决策。他们选的是后者——知道外面有一罐金子，但通往它的路径是不可知的，所以每实现一件事，就登上一座新的观景点。等看清了 AI 会聪明到人人都想用，结论自然浮出：如果每个人都想用，推理将会压垮计算基础设施，我们最好在那个位置上。而这次转向之所以行得通，靠的是早期架构里的一个好决定：不去加速某种特定技术，而是去加速支撑所有 AI 的底层代数运算。所以 Transformer 出现的时候，虽然公司上下都没听说过这东西，他们已经是跑它最快的了。\n\n既然算力处处受限，是不是省电才是王道？Andrew 的回答把问题拉高了一层：速度从来不只是省成本，速度一直在创造市场。慢速搜索是没有市场的，拨号上网是没有市场的。网络慢的时候，Netflix 用信封寄 DVD;网络快了，它变成了电影制片厂——不是把原来的看家本领做得更好，而是变成了一个全新的东西。同时，公司也在通过解耦的方案，和 AMD、AWS 合作，在保持速度不变的情况下，拿到了五倍的额外吞吐量，而且四大芯片厂商里，已经和两家合作上了。\n\n聊到 NVIDIA,Andrew 的解读也与众不同：大多数人对这家公司为什么伟大的理解是错的。不是 CUDA,也不是芯片架构，那些只是人们嘴上说的。真正让它伟大的，是那种难以置信的坚韧——作为上市公司挣扎了十年，股价糟糕，没人听你说话，却一路战斗下来，而那种坚韧会进入你的 DNA。Andrew 自己也是这种心态，自认是与歌利亚之战中的大卫。这家公司每被唱衰一次，就燃一次：说做不了晶圆级，做成了；说没法量产良率，实现了；说没有政府以外的客户，拿下了主权云；说没有前沿实验室，拿下了 OpenAI;说做不了大模型，现在正在服务 GPT。\n\n听完这一集，最值得带走的一句话，还是开头那条铁律：如果你要去挑战巨人，好一点或者便宜一点，不是一个可行的策略——你必须好到对方免费送都赢不了你。"
+}

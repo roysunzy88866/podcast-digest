@@ -116,7 +116,7 @@ Alan Kay 关于用户界面的一句话她也一直记着——不要把所有�
 
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Apple、General Magic</span>
 - [[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|Bob Baxley：设计是可见的清晰思考]]<span class="pd-rz">同公司:Apple</span>
-- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:Facebook</span>
+- [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客]]<span class="pd-rz">同公司:Facebook</span>
 
 </div>
 <div class="pd-ex">

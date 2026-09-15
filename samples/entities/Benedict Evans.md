@@ -58,17 +58,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[基础模型]] · [[AGI]] · [[Lenny]] · [[Jacob Efron]] · [[Google]] · [[LLM]] · [[Meta]] · [[AI 编程]]
+[[OpenAI]] · [[Anthropic]] · [[基础模型]] · [[AGI]] · [[Lenny]] · [[Jacob Efron]] · [[Google]] · [[TSMC]] · [[Meta]] · [[LLM]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":109,"Anthropic":121,"基础模型":5,"AGI":21,"Lenny":67,"Jacob Efron":1,"Google":41,"LLM":32,"Meta":30,"AI 编程":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":111,"Anthropic":122,"基础模型":5,"AGI":21,"Lenny":67,"Jacob Efron":1,"Google":42,"TSMC":4,"Meta":30,"LLM":32}</script>
 
 <script>
 (function(){

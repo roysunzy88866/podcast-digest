@@ -29,7 +29,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[SpaceX]] · [[Ranjan Roy]] · [[Harry Stebbings]] · [[Brian Singerman]] · [[Alex]] · [[Matt Murphy]] · [[Founders Fund]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":109,"Anthropic":121,"SpaceX":15,"Ranjan Roy":2,"Harry Stebbings":16,"Brian Singerman":1,"Alex":4,"Matt Murphy":1,"Founders Fund":1,"Google":41}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":111,"Anthropic":122,"SpaceX":15,"Ranjan Roy":2,"Harry Stebbings":16,"Brian Singerman":1,"Alex":4,"Matt Murphy":1,"Founders Fund":1,"Google":42}</script>
 
 <script>
 (function(){

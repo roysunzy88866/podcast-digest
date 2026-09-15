@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Rene Haas]] · [[Arm]] · [[SoftBank]] · [[Meta]] · [[NVIDIA]] · [[CPU]] · [[推理]] · [[芯片设计]] · [[验证]] · [[供应链攻击]]
+[[Rene Haas]] · [[Arm]] · [[SoftBank]] · [[TSMC]] · [[Meta]] · [[NVIDIA]] · [[CPU]] · [[推理]] · [[芯片设计]] · [[验证]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Rene Haas":1,"Arm":2,"SoftBank":4,"Meta":30,"NVIDIA":34,"CPU":4,"推理":45,"芯片设计":1,"验证":5,"供应链攻击":2}</script>
+<script type="application/json" class="pd-epn">{"Rene Haas":1,"Arm":2,"SoftBank":4,"TSMC":4,"Meta":30,"NVIDIA":35,"CPU":4,"推理":46,"芯片设计":1,"验证":5}</script>
 
 <script>
 (function(){

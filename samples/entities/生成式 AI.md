@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>生成式 AI (generative AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="生成式 AI">生成</div><div class="pi"><h1 class="pt">生成式 AI (generative AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="生成式 AI">生成</div><div class="pi"><h1 class="pt">生成式 AI (generative AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]]**(12:30起):本集说生成式 AI 负责「制造惊喜」——生成用户预料之外的初次体验，还将重新训练消费者的期望，但不能只押生成式、低估传统 AI 的总影响。
 - **[[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]]**(04:24起):本集说它是超级强大的克敌工具，让他们终于能解决空白页问题、设计出一整场起飞的发布。
 - **[[2026-07-30-indepth-what-startups-get-wrong-about-enterprise|《从 CRO 到 COO：挑战者怎么打企业市场》]]**(59:48起):本集提到三个落地场景：运营侧处理客户支持和争议（AI 解决率目标 90% 以上，CSAT 提升约三个点）；销售侧的智能体编排层；工程侧超过 8% 的代码由其编写
 - **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(32:54起):本集把它说成:能对视频进行推理(如判断司机急刹车是为了躲避狗),甚至能生成 AI 虚拟教练视频来对司机进行周末安全辅导。
@@ -28,8 +29,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
+- [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为概念
 - [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]] — 作为概念
 - [[2026-07-30-indepth-what-startups-get-wrong-about-enterprise|《从 CRO 到 COO：挑战者怎么打企业市场》]] — 作为概念
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为概念
@@ -41,9 +43,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[LLM]] · [[Anthropic]] · [[护栏]] · [[评估]] · [[物理 AI]] · [[OpenAI]] · [[推理]] · [[Meta]] · [[Google]]
+[[智能体]] · [[LLM]] · [[Anthropic]] · [[护栏]] · [[Amazon]] · [[评估]] · [[物理 AI]] · [[OpenAI]] · [[推理]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":236,"LLM":32,"Anthropic":121,"护栏":44,"评估":1,"物理 AI":7,"OpenAI":109,"推理":45,"Meta":30,"Google":41}</script>
+<script type="application/json" class="pd-epn">{"智能体":237,"LLM":32,"Anthropic":122,"护栏":44,"Amazon":12,"评估":1,"物理 AI":7,"OpenAI":111,"推理":46,"ChatGPT":63}</script>
 
 <script>
 (function(){

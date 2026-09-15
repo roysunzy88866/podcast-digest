@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":6,"Chris Benson":7,"Rackspace":2,"Hitachi":2,"Anthropic":121,"Hugging Face":20,"工业 AI":3,"物理 AI":7,"LLM":32,"生成式 AI":6}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":6,"Chris Benson":7,"Rackspace":2,"Hitachi":2,"Anthropic":122,"Hugging Face":20,"工业 AI":3,"物理 AI":7,"LLM":32,"生成式 AI":7}</script>
 
 <script>
 (function(){

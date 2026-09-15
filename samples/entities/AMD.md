@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AMD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AMD">AM</div><div class="pi"><h1 class="pt">AMD</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AMD">AM</div><div class="pi"><h1 class="pt">AMD</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]]**(14:44起):本集把它说成：一家硅谷的芯片公司；黄仁勋当年在这里工作，因为 AMD 提供了一个可以由公司出钱送他去斯坦福读书的项目。
 - **[[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]]**(08:15起):本集说 AMD 与 Broadcom 联手服务自研芯片阵营——ASIC 不行可以直接插 AMD——但它永远是那个必要的第二供应商。
+- **[[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]]**(36:50起):本集说 Cerebras 正在与 AMD 做解耦合作，看到 5 倍额外吞吐量；四大芯片厂商之一。
 
 ## ① 提到它的金句
 
@@ -22,18 +23,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为被讨论公司(提及)
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为被讨论公司
+- [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[NVIDIA]] · [[GPU]] · [[Condi Rice]] · [[Gavin Baker]] · [[Jensen Huang]] · [[David George]] · [[Parallel]] · [[Google]] · [[深度学习]] · [[TPU]]
+[[NVIDIA]] · [[GPU]] · [[OpenAI]] · [[Condi Rice]] · [[Gavin Baker]] · [[Jack]] · [[Jensen Huang]] · [[David George]] · [[Eric]] · [[Parallel]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":34,"GPU":16,"Condi Rice":1,"Gavin Baker":1,"Jensen Huang":3,"David George":3,"Parallel":5,"Google":41,"深度学习":3,"TPU":3}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":35,"GPU":16,"OpenAI":111,"Condi Rice":1,"Gavin Baker":1,"Jack":1,"Jensen Huang":3,"David George":3,"Eric":1,"Parallel":5}</script>
 
 <script>
 (function(){

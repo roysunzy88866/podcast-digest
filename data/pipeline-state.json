@@ -71,7 +71,8 @@
     "KcshxSB3sNY": "2026-09-03-talks-model-selection-token-efficiency",
     "hiSkMVXdSfA": "2026-09-03-talks-refactoring-legacy-codebases",
     "x5OawRpQxII": "2026-09-03-talks-grok-bot-for-product-best-practices",
-    "H7vFrcNWXzs": "2026-09-11-talks-building-ambitious-software-jonathan-kel"
+    "H7vFrcNWXzs": "2026-09-11-talks-building-ambitious-software-jonathan-kel",
+    "Zh-rlx1RjUY": "2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
@@ -86,7 +87,7 @@
   "cutoffs": {
     "lennys": "2026-09-08T12:31:49.000Z",
     "pg": "2026-09-14T23:05:28.000Z",
-    "a16z": "2026-09-14T10:00:00.000Z",
+    "a16z": "2026-09-15T10:00:00.000Z",
     "yc": "2026-09-13T15:05:37.000Z",
     "mad": "2026-09-10T11:30:00.000Z",
     "trainingdata": "2026-09-15T09:00:00.000Z",
@@ -112,7 +113,7 @@
     "twiml": "2026-09-09T20:05:00.000Z",
     "eyeonai": "2026-09-14T14:16:00.000Z",
     "indepth": "2026-08-27T11:00:00.000Z",
-    "uncapped": "2026-09-01T09:00:00.000Z",
+    "uncapped": "2026-09-15T09:00:00.000Z",
     "pmf": "2026-09-14T09:00:00.000Z",
     "cheekypint": "2026-04-27T11:45:00.000Z",
     "productpodcast": "2026-09-09T20:00:00.000Z",
@@ -125,8 +126,8 @@
     "sed": "2026-09-15T09:00:00.000Z",
     "twist": "2026-09-14T21:13:00.000Z",
     "grit": "2026-09-07T09:38:47.000Z",
-    "mos": "2026-09-12T09:00:00.000Z",
-    "strictlyvc": "2026-09-02T15:07:00.000Z"
+    "mos": "2026-09-15T09:00:00.000Z",
+    "strictlyvc": "2026-09-15T15:17:00.000Z"
   },
   "skipped": [
     {
@@ -1082,6 +1083,18 @@
       "reason": "题材不对味:拿不准:Google 数据库基础设施偏技术深挖(传统软件工程/底层架构),非产业格局或人物故事,按边界规则倾向跳过",
       "title": "Inside Google&#8217;s Database Infrastructure for the AI Era",
       "pubDate": "2026-09-15T09:00:00.000Z"
+    },
+    {
+      "id": "2026-09-15-a16z-the-age-of-body-futurism-ruby-justice-th",
+      "reason": "题材不对味:拿不准:'Body Futurism' 偏哲学/思辨未来主义,非 AI 商业/人/产业/实操题材,按边界原则不入。",
+      "title": "The Age of Body Futurism | Ruby Justice Thelot",
+      "pubDate": "2026-09-15T10:00:00.000Z"
+    },
+    {
+      "id": "2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Keith Rabois on Why the AI Bubble Fears Are Overblown",
+      "pubDate": "2026-09-15T15:17:00.000Z"
     }
   ]
 }

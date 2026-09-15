@@ -55,7 +55,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Meta]] · [[开源模型]] · [[后训练]] · [[前向部署工程师]] · [[Microsoft]] · [[主观能动性]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":236,"Anthropic":121,"OpenAI":109,"Meta":30,"开源模型":16,"后训练":20,"前向部署工程师":7,"Microsoft":24,"主观能动性":18,"推理":45}</script>
+<script type="application/json" class="pd-epn">{"智能体":237,"Anthropic":122,"OpenAI":111,"Meta":30,"开源模型":16,"后训练":20,"前向部署工程师":7,"Microsoft":24,"主观能动性":18,"推理":46}</script>
 
 <script>
 (function(){

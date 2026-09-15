@@ -1,0 +1,1089 @@
+{
+  "episode_id": "2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra",
+  "podcast": "Uncapped with Jack Altman",
+  "date": "2026-09-15",
+  "tags": [
+    "芯片",
+    "晶圆级",
+    "供应链",
+    "推理",
+    "硬件创业"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "jack",
+      "type": "person",
+      "role": "host",
+      "name": "Jack",
+      "file": "Jack",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            67.168,
+            68.81
+          ],
+          "quote": "Well, Jack, thanks for having me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            919.391,
+            929.1
+          ],
+          "quote": "Jack Dungara said, and he's sort of one of the pioneers in big computing, he said, we've been better at making flops than moving flops.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "eric",
+      "type": "person",
+      "role": "cohost",
+      "name": "Eric",
+      "file": "Eric",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            10.414,
+            12.195
+          ],
+          "quote": "And Eric's like, should I get in?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            33.862,
+            40.787
+          ],
+          "quote": "And also really happy to have my partner, Eric, here, who's going to be kind of half host, half guest, who has been working with Andrew since the beginning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            68.85,
+            72.353
+          ],
+          "quote": "It's always fun to hang out with Eric and so appreciate you having me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            150.464,
+            165.955
+          ],
+          "quote": "Before we go to the long, hard slug, Eric, obviously for you as an investor, you were not also in this AI era, but you saw something that made you invest, and you were, I think, previously not a chips investor, and you'd done more like- And probably never will be again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            681.964,
+            683.626
+          ],
+          "quote": "And Eric's like, should I get in?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1433.623,
+            1440.585
+          ],
+          "quote": "Eric, how did you as a board member, when you were learning this stuff as you went, you still obviously, I don't think Andrew's been lying to me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1443.285,
+            1444.526
+          ],
+          "quote": "Eric was extremely helpful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1488.437,
+            1495.16
+          ],
+          "quote": "I think there are a couple of things that made Eric a good board member and I think that are foundational in being a good member right here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 887,
+          "t": [
+            3596.711,
+            3598.833
+          ],
+          "quote": "Eric told me you had a pretty cool and unique childhood.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 937,
+          "t": [
+            3738.974,
+            3741.476
+          ],
+          "quote": "And it's been cool to just watch and learn vicariously through Eric.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "andrew-feldman",
+      "type": "person",
+      "role": "cohost",
+      "name": "Andrew Feldman",
+      "file": "Andrew Feldman",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "cerebrus",
+      "type": "company",
+      "role": "company",
+      "name": "Cerebrus",
+      "file": "Cerebrus",
+      "primary": true,
+      "how_described": "本集主角 Andrew 创办并任 CEO 的晶圆级芯片公司：把整片晶圆做成一颗芯片，经历 18 个月做不出来的濒死期后实现量产，从训练系统转向推理，客户从美国政府、主权云做到 OpenAI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            28.558,
+            33.802
+          ],
+          "quote": "So, Andrew, you're the CEO and founder of Cerebrus, which is obviously one of the most important chips companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            42.849,
+            50.955
+          ],
+          "quote": "What I want to start with is it's 2026 now, and obviously Cerebrus is very important in the sort of AI landscape.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 483,
+          "t": [
+            1990.846,
+            2007.657
+          ],
+          "quote": "It's interesting, like on the backs of companies like SpaceX, Andrel, Cerebrus, Palantir, maybe others, but obviously hardware is now hotter than hot and everyone wants to fund hardware, but just talking this through it is crazy hard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 775,
+          "t": [
+            3158.037,
+            3164.781
+          ],
+          "quote": "And so if that's the case, then Cerebrus has a speed advantage, a huge speed advantage.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "wafer-scale",
+      "type": "concept",
+      "role": "concept",
+      "name": "晶圆级 (wafer scale)",
+      "file": "晶圆级",
+      "primary": true,
+      "how_described": "本集说它是没人相信可行的激进创新——把整片晶圆做成一颗餐盘大小的芯片，「计算领域 75 年里没人解决过的问题」，外围的封装、散热都得自己造。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            552.63,
+            557.653
+          ],
+          "quote": "There has to be something materially different, whether it's wafer scale, SRAM, whatever it is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            641.872,
+            644.073
+          ],
+          "quote": "I think nobody had ever done wafer scale.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            775.394,
+            787.222
+          ],
+          "quote": "When you look forward, like if you, so, you know, there's the wafer scale and then everything around that, the packaging and cooling and powering it, all these things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            788.13,
+            807.157
+          ],
+          "quote": "But when you look at the R&D envelope that you have going forward over the next five years, I know there's things you're excited about, but where do you take this giant thing and what could be the next wafer scale innovation?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 858,
+          "t": [
+            3502.186,
+            3503.507
+          ],
+          "quote": "You can't do wafer scale.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 859,
+          "t": [
+            3503.547,
+            3504.528
+          ],
+          "quote": "We made wafer scale.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 860,
+          "t": [
+            3505.288,
+            3510.372
+          ],
+          "quote": "And then they said, all right, you did wafer scale, but you can't yield it in volume.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说公司原以为推理会发生在分布式设备上，后来看到「AI 会聪明到人人都想用」时意识到「推理将会压垮计算基础设施」，于是转向推理；还通过与 AMD、AWS 的解耦拿到 5 倍额外吞吐量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 434,
+          "t": [
+            1761.911,
+            1767.255
+          ],
+          "quote": "Inference you thought was going to be on devices and computers and really distributed, which may still end up happening.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1777.161,
+            1785.746
+          ],
+          "quote": "Or I don't know if pivot's the right word, but like to inference, how and why and where did we get lucky and where did you have real foresight on that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 459,
+          "t": [
+            1875.161,
+            1876.402
+          ],
+          "quote": "We use AI through inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 462,
+          "t": [
+            1890.363,
+            1895.647
+          ],
+          "quote": "If everybody wants to use it, inference is going to crush the compute infrastructure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 658,
+          "t": [
+            2626.099,
+            2635.342
+          ],
+          "quote": "So you've got this insane build out going and the demand for inference seems like it's going even faster than no matter what we're going to be able to build.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 801,
+          "t": [
+            3260.849,
+            3269.775
+          ],
+          "quote": "And we're doing it with AMD, we're doing it with AWS, where you think about in the work of inference, is there a part that",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集把它当作必须挑战的市场巨人，并给出另类解读：伟大不在 CUDA 也不在芯片架构，而在作为上市公司挣扎十年磨出的难以置信的坚韧，「那会进入你的 DNA」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            270.328,
+            284.015
+          ],
+          "quote": "And our view is that if you're going to attack Goliath, if there's a giant standing in the market, like NVIDIA was even at that time, that being a little bit better or a little bit cheaper is not an available strategy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 121,
+          "t": [
+            517.427,
+            522.511
+          ],
+          "quote": "NVIDIA is advancing the ball materially every year, like very significantly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            522.531,
+            527.815
+          ],
+          "quote": "NVIDIA and Google and Tranium, they're moving the ball.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1154.797,
+            1159.359
+          ],
+          "quote": "And if you've looked at sort of a great company like NVIDIA's demand, it's exponential.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2618.156,
+            2619.236
+          ],
+          "quote": "I think NVIDIA got it wrong.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 809,
+          "t": [
+            3308.059,
+            3309.962
+          ],
+          "quote": "Obviously, NVIDIA, we'd love to partner with them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 812,
+          "t": [
+            3323.548,
+            3327.449
+          ],
+          "quote": "What has it been about NVIDIA that has made them have the just crazy run that they've had?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 813,
+          "t": [
+            3327.929,
+            3331.93
+          ],
+          "quote": "I think most people are wrong about what makes NVIDIA great.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 814,
+          "t": [
+            3332.25,
+            3340.272
+          ],
+          "quote": "First, NVIDIA is in the first quarter of this century, they're the great company without any question.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tsmc",
+      "type": "company",
+      "role": "company",
+      "name": "TSMC",
+      "file": "TSMC",
+      "primary": true,
+      "how_described": "本集说台积电是供应链的真瓶颈：真正建造晶圆厂的技能只有台积电有，「连他们也没法同时建 12 座」，同样的光刻机只有他们能做出别人做不到的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 229,
+          "t": [
+            993.997,
+            995.578
+          ],
+          "quote": "Dude, it's just TSMC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            999.501,
+            1003.304
+          ],
+          "quote": "You call that TSMC and you're fed by another black box called ASML.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1105.371,
+            1118.242
+          ],
+          "quote": "What's interesting is that they sell the same machines to different fabs, and fabs use them in different ways and are able to do different things, with TSMC able to achieve things that others can't.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1199.331,
+            1202.753
+          ],
+          "quote": "Okay, so TSMC buys the lithography machines.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1202.993,
+            1205.094
+          ],
+          "quote": "So TSMC buys lithography machines.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1242.993,
+            1248.397
+          ],
+          "quote": "And you send the results to TSMC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1293.953,
+            1299.216
+          ],
+          "quote": "Okay, but TSMC, they receive a design, they operate the machine, they give you the chip.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1305.386,
+            1308.108
+          ],
+          "quote": "We have them run by TSMC and by Samsung.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1311.091,
+            1313.452
+          ],
+          "quote": "How much of the bottleneck is at the TSMC level?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1332.486,
+            1337.53
+          ],
+          "quote": "The actual making of the fab is skills that only TSMC has.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1389.202,
+            1401.29
+          ],
+          "quote": "I think we should sit down with Global Foundries and TSMC and Samsung and have a 20-year period where we waive all local ordinances to allow them to build fabs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2382.89,
+            2387.394
+          ],
+          "quote": "So, you know, we'd been building chips with TSMC for decades.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2616.975,
+            2618.136
+          ],
+          "quote": "I think TSMC got it wrong.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集说数据中心是当前市场的限制因素：「AI 以软件的速度前进，而数据中心以房地产的速度前进，这就是我们落后的原因」，未来五年仍会不够；并谈及电网老旧、用水争议等。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 660,
+          "t": [
+            2644.771,
+            2653.437
+          ],
+          "quote": "But I'm curious, day to day, what you're seeing on the data center side and your experience now, what is that like for you?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 661,
+          "t": [
+            2655.358,
+            2661.963
+          ],
+          "quote": "The data center is one of the links in the supply chain to deliver compute by the cloud.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 665,
+          "t": [
+            2674.915,
+            2676.876
+          ],
+          "quote": "In the other case, your customer rents the data center.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 686,
+          "t": [
+            2779.49,
+            2781.771
+          ],
+          "quote": "There is no reason a data center shouldn't pay its way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 700,
+          "t": [
+            2829.047,
+            2841.376
+          ],
+          "quote": "I think the data center thing, the other part of the data center thing that's interesting to me is, like, if I asked you, I don't know, 2018, 2020, whatever, what's the probability that data centers were going to be a critical factor?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 708,
+          "t": [
+            2851.17,
+            2858.136
+          ],
+          "quote": "How long does it take to go from shovel, I know you joked about shovel, I actually want to ask you about that, but how long does it take to go from start to finish on a data center?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 709,
+          "t": [
+            2859.357,
+            2863.921
+          ],
+          "quote": "Shovel ready is an expression you hear in the data center world that means we haven't done shit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 731,
+          "t": [
+            2949.764,
+            2959.071
+          ],
+          "quote": "In most places there's labor, although in Wyoming where there was a battle for all these data center sites they were bringing in electricians from as far away as Denver.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 767,
+          "t": [
+            3123.244,
+            3128.526
+          ],
+          "quote": "The compute is constrained in some form or another, whether it's memory or chips or data center space, whatever.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "supply-chain",
+      "type": "concept",
+      "role": "concept",
+      "name": "供应链 (supply chain)",
+      "file": "供应链",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            959.238,
+            962.682
+          ],
+          "quote": "I want to go to a bit broader in the supply chain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            968.488,
+            975.335
+          ],
+          "quote": "But I, like probably many other people, I wouldn't say I have a perfect understanding of the supply chain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2488.236,
+            2491.877
+          ],
+          "quote": "And you have to kind of work with them on... Software guy coming to grips with the supply chain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 661,
+          "t": [
+            2655.358,
+            2661.963
+          ],
+          "quote": "The data center is one of the links in the supply chain to deliver compute by the cloud.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 728,
+          "t": [
+            2931.129,
+            2940.416
+          ],
+          "quote": "So how much of their kind of supply chain bottleneck is energy versus chips versus the construction versus permitting versus whatever else?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 729,
+          "t": [
+            2940.516,
+            2943.799
+          ],
+          "quote": "Each chunk of the supply chain has its own supply chain.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "disaggregation",
+      "type": "concept",
+      "role": "concept",
+      "name": "解耦 (disaggregation)",
+      "file": "解耦",
+      "primary": false,
+      "how_described": "本集说这是一种把推理流程中能拆给别人的环节拆出去的合作方式，与 AMD、AWS 合作后保持速度不变拿到 5 倍额外吞吐量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 800,
+          "t": [
+            3254.805,
+            3260.529
+          ],
+          "quote": "And one of the ways we're doing that is by partnering in something called disaggregation.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "type": "concept",
+      "role": "concept",
+      "name": "训练 (training)",
+      "file": "训练",
+      "primary": false,
+      "how_described": "本集说公司以训练系统起步，因为训练因反向传播是更难的问题；后来才转向推理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 432,
+          "t": [
+            1747.224,
+            1754.931
+          ],
+          "quote": "Well, actually, I think that's really, you know, for the entrepreneurs who listen to this, like, it was started as a training system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1755.507,
+            1761.391
+          ],
+          "quote": "Like part of the vision that you pitched and part of what you explained was like training is a harder problem because of back prop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 810,
+          "t": [
+            3309.982,
+            3315.428
+          ],
+          "quote": "There's AMD, there's the Google TPU, and there's AWS with their training parts, and we're already working with two.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "radical-innovation",
+      "type": "concept",
+      "role": "concept",
+      "name": "激进创新 (radical innovation)",
+      "file": "激进创新",
+      "primary": false,
+      "how_described": "本集说这是挑战巨人的唯一路径：「你没法靠渐进式改进达到好得多的水平」，而激进创新的代价是没有现成供应商，外围一切都要自己造。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            343.77,
+            346.512
+          ],
+          "quote": "And the only way to do that in our opinion is radical innovation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 97,
+          "t": [
+            384.313,
+            388.535
+          ],
+          "quote": "When you do radical innovation, there are no vendors waiting for you.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "asml",
+      "type": "company",
+      "role": "company",
+      "name": "ASML",
+      "file": "ASML",
+      "primary": false,
+      "how_described": "本集说全世界目前只有 ASML 能造光刻机，「这是真正的垄断，不是源于试图控制供应，他们拥有别人一直无法复制的技术」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 231,
+          "t": [
+            999.501,
+            1003.304
+          ],
+          "quote": "You call that TSMC and you're fed by another black box called ASML.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1083.288,
+            1084.628
+          ],
+          "quote": "So ASML makes the machines?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1085.149,
+            1089.51
+          ],
+          "quote": "ASML makes the machine that does the photolithography.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1119.864,
+            1121.565
+          ],
+          "quote": "Is it really just ASML that can make these machines?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1121.966,
+            1123.107
+          ],
+          "quote": "Right now it's only ASML.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "amd",
+      "type": "company",
+      "role": "company",
+      "name": "AMD",
+      "file": "AMD",
+      "primary": false,
+      "how_described": "本集说 Cerebras 正在与 AMD 做解耦合作，看到 5 倍额外吞吐量；四大芯片厂商之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 535,
+          "t": [
+            2210.871,
+            2213.692
+          ],
+          "quote": "When we were acquired by AMD, we made him a corporate fellow.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 801,
+          "t": [
+            3260.849,
+            3269.775
+          ],
+          "quote": "And we're doing it with AMD, we're doing it with AWS, where you think about in the work of inference, is there a part that",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 804,
+          "t": [
+            3278.091,
+            3286.778
+          ],
+          "quote": "And, you know, with AMD, we're seeing 5x additional throughput, I mean, five times as much throughput, while keeping the speed the same.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 810,
+          "t": [
+            3309.982,
+            3315.428
+          ],
+          "quote": "There's AMD, there's the Google TPU, and there's AWS with their training parts, and we're already working with two.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": false,
+      "how_described": "本集说与 AWS 的解耦合作也看到类似 5 倍的吞吐量数字；AWS 带着自家 training parts 是四大芯片厂商之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 597,
+          "t": [
+            2448.765,
+            2449.425
+          ],
+          "quote": "It's AWS.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2449.965,
+            2455.847
+          ],
+          "quote": "And like maybe now their vendor that matters is AWS and, you know, a foundational model company or something like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2509.633,
+            2514.636
+          ],
+          "quote": "Because it's like you're putting in, I had never thought about this, you know, it's like AWS, we want more capacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 801,
+          "t": [
+            3260.849,
+            3269.775
+          ],
+          "quote": "And we're doing it with AMD, we're doing it with AWS, where you think about in the work of inference, is there a part that",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 805,
+          "t": [
+            3287.817,
+            3290.698
+          ],
+          "quote": "And we're seeing similar numbers with AWS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 810,
+          "t": [
+            3309.982,
+            3315.428
+          ],
+          "quote": "There's AMD, there's the Google TPU, and there's AWS with their training parts, and we're already working with two.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集 Andrew 以它回击唱衰者：「说没有前沿实验室，然后我们赢得了 OpenAI」，「现在我们在服务 GPT」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 413,
+          "t": [
+            1689.457,
+            1691.897
+          ],
+          "quote": "You know, then you have now today, obviously, OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 870,
+          "t": [
+            3530.792,
+            3531.692
+          ],
+          "quote": "And then we won OpenAI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "samsung",
+      "type": "company",
+      "role": "company",
+      "name": "Samsung",
+      "file": "Samsung",
+      "primary": false,
+      "how_described": "本集举三星在德州建厂的例子说明晶圆厂之复杂：先建一座发电厂专门制造混凝土，数百辆搅拌车 7x24 运转多年浇筑地基。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            1059.801,
+            1065.983
+          ],
+          "quote": "When Samsung was building a factory in Texas, they began building a power plant.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1305.386,
+            1308.108
+          ],
+          "quote": "We have them run by TSMC and by Samsung.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1389.202,
+            1401.29
+          ],
+          "quote": "I think we should sit down with Global Foundries and TSMC and Samsung and have a 20-year period where we waive all local ordinances to allow them to build fabs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "global-foundries",
+      "type": "company",
+      "role": "company",
+      "name": "Global Foundries",
+      "file": "Global Foundries",
+      "primary": false,
+      "how_described": "本集说美国应与 Global Foundries、台积电、三星谈 20 年窗口期、豁免地方法规来建美国本土晶圆厂产能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 326,
+          "t": [
+            1308.488,
+            1310.37
+          ],
+          "quote": "And Global Foundries have got one, too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1389.202,
+            1401.29
+          ],
+          "quote": "I think we should sit down with Global Foundries and TSMC and Samsung and have a 20-year period where we waive all local ordinances to allow them to build fabs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

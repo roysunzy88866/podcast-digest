@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":5,"NewLimit":2,"智能体":236,"智能体金融":1,"X402":1,"稳定币":4,"分词":4,"预测市场":1,"递归自我改进":3}</script>
+<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":5,"NewLimit":2,"智能体":237,"智能体金融":1,"X402":1,"稳定币":4,"分词":4,"预测市场":1,"递归自我改进":3}</script>
 
 <script>
 (function(){

@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Benedict Evans]] · [[OpenAI]] · [[Anthropic]] · [[LLM]] · [[基础模型]] · [[AI 编程]] · [[算力扩展]] · [[网络效应]] · [[AGI]] · [[企业软件]]
+[[Benedict Evans]] · [[OpenAI]] · [[Anthropic]] · [[TSMC]] · [[LLM]] · [[基础模型]] · [[AI 编程]] · [[算力扩展]] · [[网络效应]] · [[AGI]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
+[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Benedict Evans":2,"OpenAI":109,"Anthropic":121,"LLM":32,"基础模型":5,"AI 编程":4,"算力扩展":1,"网络效应":10,"AGI":21,"企业软件":3}</script>
+<script type="application/json" class="pd-epn">{"Benedict Evans":2,"OpenAI":111,"Anthropic":122,"TSMC":4,"LLM":32,"基础模型":5,"AI 编程":4,"算力扩展":1,"网络效应":10,"AGI":21}</script>
 
 <script>
 (function(){

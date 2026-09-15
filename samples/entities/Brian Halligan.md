@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]]
+[[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"HubSpot":6,"Sequoia":4,"MongoDB":4,"Salesforce":19,"Google":41,"Microsoft":24,"McKinsey":5,"Clay":3,"Delphi":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"HubSpot":6,"Sequoia":4,"MongoDB":4,"Salesforce":19,"Google":42,"Microsoft":24,"McKinsey":5,"Clay":3,"Delphi":3}</script>
 
 <script>
 (function(){

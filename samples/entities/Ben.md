@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]] [[Amandeep Khurana]] [[Brian Singerman]]
+[[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Will":1,"Walleye":1,"Current":1,"智能体":236,"ChatGPT":61,"情感分析":1,"营运杠杆":1,"Windsurf":4,"LLM":32,"量化投资":1}</script>
+<script type="application/json" class="pd-epn">{"Will":1,"Walleye":1,"Current":1,"智能体":237,"ChatGPT":63,"情感分析":1,"营运杠杆":1,"Windsurf":4,"LLM":32,"量化投资":1}</script>
 
 <script>
 (function(){
