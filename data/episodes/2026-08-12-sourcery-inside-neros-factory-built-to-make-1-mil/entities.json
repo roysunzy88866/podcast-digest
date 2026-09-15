@@ -1,0 +1,515 @@
+{
+  "episode_id": "2026-08-12-sourcery-inside-neros-factory-built-to-make-1-mil",
+  "podcast": "Sourcery",
+  "date": "2026-08-12",
+  "tags": [
+    "国防科技",
+    "制造业",
+    "无人机",
+    "垂直整合",
+    "工厂参观"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "sorin",
+      "type": "person",
+      "role": "host",
+      "name": "Sorin",
+      "file": "Sorin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            50.547,
+            54.169
+          ],
+          "quote": "We're here at Neros and we're going to do a little factory tour with Sorin.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 11,
+          "t": [
+            54.809,
+            55.79
+          ],
+          "quote": "Sorin, thanks for having us.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "neros",
+      "type": "company",
+      "role": "company",
+      "name": "Neros",
+      "file": "Neros",
+      "primary": true,
+      "how_described": "本集参观的国防无人机公司工厂 Millennium One，规模按每年一百万架无人机规划，目前每天生产 250 多架。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            50.547,
+            54.169
+          ],
+          "quote": "We're here at Neros and we're going to do a little factory tour with Sorin.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anduril",
+      "type": "company",
+      "role": "company",
+      "name": "Anduril",
+      "file": "Anduril",
+      "primary": false,
+      "how_described": "本集顺带对比：Anduril 的无人机机身用金属铸件，看起来重得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            220.053,
+            224.976
+          ],
+          "quote": "We were at Anduril and we went into their R&D building.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "drone",
+      "type": "concept",
+      "role": "concept",
+      "name": "无人机 (drone)",
+      "file": "无人机",
+      "primary": true,
+      "how_described": "本集主线：从工程测试、装配线到出厂前 100% 飞行测试，全流程讲解无人机的大规模制造与迭代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            24.185,
+            27.567
+          ],
+          "quote": "We're doing about 300 kilometers an hour with this drone right here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            126.41,
+            128.611
+          ],
+          "quote": "One of the other things here is the Archer AI drone.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            226.557,
+            232.361
+          ],
+          "quote": "And Matt Grimm showed us the castings that they have for their drone bodies, which seem a lot heavier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 64,
+          "t": [
+            254.763,
+            262.448
+          ],
+          "quote": "So we actually do this on our drone now where the bottom plate is an aluminum plate and we contact the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            263.249,
+            268.056
+          ],
+          "quote": "Motherboard and the radios with thermal interface material when we close out the drone with that bottom plate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            395.393,
+            399.075
+          ],
+          "quote": "So we're doing about 300 kilometers an hour with this drone right here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            550.757,
+            554.178
+          ],
+          "quote": "So on the left side is the drone assembly line.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            610.314,
+            623.12
+          ],
+          "quote": "So if you see over here the tablets on the stations, every time they complete a drone, they're just tapping it and then that resets it and that data then goes back to our database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            626.983,
+            632.406
+          ],
+          "quote": "Right now, this would be pretty difficult to automate because this version of the drone was not designed around automation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            711.24,
+            713.341
+          ],
+          "quote": "Flight testing every single drone that we make.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            724.768,
+            735.735
+          ],
+          "quote": "And so what they're doing is putting a payload on the drone and then basically just trying to stress the drone as much as they can in a relatively short flight.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            738.605,
+            741.568
+          ],
+          "quote": "So you can see they really, really whip the drone back and forth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            777.964,
+            780.729
+          ],
+          "quote": "We've been to a couple different drone companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            792.174,
+            799.117
+          ],
+          "quote": "For our types of drones, these quadcopters, they're much less affected by wind than a fixed-wing drone.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vertically-integrate",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直整合 (vertically integrate)",
+      "file": "垂直整合",
+      "primary": true,
+      "how_described": "本集说建这么大工厂就是为了不分散场地、不搬家，把一切垂直整合以达成每年一百万架的目标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            33.309,
+            39.672
+          ],
+          "quote": "We've got all the space we need to actually vertically integrate everything and then get to that million per year target.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1013.893,
+            1020.635
+          ],
+          "quote": "And so we've got all the space we need to actually vertically integrate everything and then get to that million per year target.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mass-production",
+      "type": "concept",
+      "role": "concept",
+      "name": "大规模生产 (mass production)",
+      "file": "大规模生产",
+      "primary": true,
+      "how_described": "本集强调 Neros 关注的是大量生产同一件东西和非常一致的流程，工厂在大型化、集中化时效率最高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            168.655,
+            170.676
+          ],
+          "quote": "Really we are focused on mass production.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "3d-printing",
+      "type": "concept",
+      "role": "concept",
+      "name": "3D 打印 (3D printing)",
+      "file": "3D 打印",
+      "primary": true,
+      "how_described": "本集说 3D 打印只适合机身或载荷适配器这类非核心件，解决不了供应链问题——电路板、电机、无线电打不出来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            171.677,
+            177.14
+          ],
+          "quote": "3D printing is generally good for making a few of a thing, making like lots of different things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            188.887,
+            201.735
+          ],
+          "quote": "Generally factories are really efficient when they are large and centralized and 3D printers can be very useful for adapting drones to various mission sets but you'd only be 3D printing like the airframe or a payload adapter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            207.278,
+            211.386
+          ],
+          "quote": "You're not going to be 3D printing your circuit boards, your motors, your radios, any of that stuff out on the battlefield.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "supply-chain",
+      "type": "concept",
+      "role": "concept",
+      "name": "供应链 (supply chain)",
+      "file": "供应链",
+      "primary": true,
+      "how_described": "本集反复提及：3D 打印解决不了供应链问题；供应链团队被安排坐在产线旁以加强协作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            211.406,
+            219.1
+          ],
+          "quote": "So it does not solve the supply chain problem in the ways that maybe are claimed in some of the posts today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            336.448,
+            340.791
+          ],
+          "quote": "So we have the mechanical engineering team, the manufacturing engineers, the supply chain team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            860.362,
+            869.828
+          ],
+          "quote": "You type in an idea like AI-powered supply chain companies with positive free cash flow, or defense tech companies growing revenue over 25% year over year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1032.423,
+            1034.305
+          ],
+          "quote": "We're hiring for supply chain.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bottleneck",
+      "type": "concept",
+      "role": "concept",
+      "name": "瓶颈 (bottleneck)",
+      "file": "瓶颈",
+      "primary": true,
+      "how_described": "本集说制造软件追踪各工位时间，找出「在哪些地方损失了时间？瓶颈在哪里？」来指导团队集中精力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            604.711,
+            605.671
+          ],
+          "quote": "What is the bottleneck?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "defense-tech",
+      "type": "concept",
+      "role": "concept",
+      "name": "国防科技 (defense tech)",
+      "file": "国防科技",
+      "primary": true,
+      "how_described": "本集最劲爆观点：现在初创公司推出的国防科技产品，也许是其中的大多数，并不太有效，甚至完全没用——它们是假的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 198,
+          "t": [
+            860.362,
+            869.828
+          ],
+          "quote": "You type in an idea like AI-powered supply chain companies with positive free cash flow, or defense tech companies growing revenue over 25% year over year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1162.538,
+            1179.787
+          ],
+          "quote": "But I would say, yeah, maybe my hottest take is that a lot of the defense tech, maybe the majority of defense tech products that are being put out right now by startups are not very effective and maybe even like completely useless.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "flight-test",
+      "type": "concept",
+      "role": "concept",
+      "name": "飞行测试 (flight test)",
+      "file": "飞行测试",
+      "primary": true,
+      "how_described": "本集说每架无人机出厂前都做手动飞行测试施加压力，路线图是靠积累数据最终改为抽样测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            81.945,
+            86.108
+          ],
+          "quote": "Okay, so we are coming up on the flight test teams area here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            103.738,
+            108.521
+          ],
+          "quote": "So we'll see our end-of-line flight test later on, which is for production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            713.802,
+            722.347
+          ],
+          "quote": "So before this station, there is an automated test station and that screens for a lot of the issues that previously we would catch at flight test.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            722.387,
+            724.728
+          ],
+          "quote": "But today we're still doing 100% flight test.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            749.828,
+            767.698
+          ],
+          "quote": "It's really a process of collecting a ton of data here and collecting a ton of data at the previous test station and then trying to get to a point where we don't have to flight test all of our drones because we know typically there'd be such a high rate of catching any issues at the test station that we'd just be sample testing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wind-tunnel",
+      "type": "concept",
+      "role": "concept",
+      "name": "风洞 (wind tunnel)",
+      "file": "风洞",
+      "primary": false,
+      "how_described": "本集解释没有风洞：四旋翼受风影响比固定翼小得多，靠强风条件下的真实世界测试就够了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 185,
+          "t": [
+            799.877,
+            809.801
+          ],
+          "quote": "We do a ton of testing in very windy conditions, but we've never needed to specifically put something in a wind tunnel and simulate an exact wind profile.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "npi",
+      "type": "concept",
+      "role": "concept",
+      "name": "NPI",
+      "file": "NPI",
+      "primary": false,
+      "how_described": "本集参观的 NPI 产线专门为新开发产品做工艺流程，任何产品上主线前必须先经过 NPI 流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            944.912,
+            950.757
+          ],
+          "quote": "So before anything goes to the main line, it has to go through an extensive NPI process and we figure out how to build it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AGI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>21</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>22</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]]**(05:47起):在所有层面超越人类能力与知识的系统；Mustafa 提醒通用性只是假设之一，且 AGI 总是「我们还没有的那个 AI」，是挂在前面引诱前进的胡萝卜。
 - **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(07:31起):本集提及 AGI 只是必要条件但非充分条件，很多价值仍然需要大量建设者的努力，才能真正将这种新能源引导成人类喜欢使用的东西。
 - **[[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]]**(14:38起):本集说 Dan 对 AGI 的定义是：什么时候让智能体无限期运行在经济上变得有利可图，就像一个永远不关机的 Claude Code 一直在做有用的事
 - **[[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]]**(01:14起):本集讨论数据评估需求的时间线时提及;嘉宾认为当前行业正将 AGI 推向错误方向,并持保守态度,认为距离实现还有几十年。
@@ -67,8 +68,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*21 集*
+*22 集*
 
+- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为概念
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为概念(提及)
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为概念(提及)
@@ -95,9 +97,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Google]] · [[Lenny]] · [[Meta]] · [[NVIDIA]] · [[智能体]] · [[Claude Code]] · [[LLM]]
+[[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Google]] · [[智能体]] · [[Lenny]] · [[Meta]] · [[NVIDIA]] · [[Microsoft]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":111,"Anthropic":122,"ChatGPT":63,"Google":42,"Lenny":67,"Meta":30,"NVIDIA":35,"智能体":237,"Claude Code":59,"LLM":32}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":113,"Anthropic":123,"ChatGPT":65,"Google":42,"智能体":240,"Lenny":67,"Meta":30,"NVIDIA":35,"Microsoft":25,"Claude Code":59}</script>
 
 <script>
 (function(){

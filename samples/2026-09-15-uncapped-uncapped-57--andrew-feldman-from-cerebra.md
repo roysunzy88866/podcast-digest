@@ -11,14 +11,14 @@ description: Cerebras 创始人兼 CEO Andrew 讲述晶圆级芯片如何闯过�
 host: "[[Jack]]"
 cohosts: ["[[Eric]]", "[[Andrew Feldman]]"]
 companies: ["[[Cerebrus]]", "[[NVIDIA]]", "[[TSMC]]"]
-concepts: ["[[晶圆级]]", "[[推理]]", "[[数据中心]]", "[[供应链攻击]]"]
+concepts: ["[[晶圆级]]", "[[推理]]", "[[数据中心]]", "[[供应链]]"]
 category: 创业与行业
 tags:
   - 创业与行业
   - 组织与领导力
 socialImage: "https://talk.solomind.cc/covers/2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra#post","headline":"一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra","mainEntityOfPage":"https://talk.solomind.cc/2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra","description":"Cerebras 创始人兼 CEO Andrew 讲述晶圆级芯片如何闯过十八个月濒死期，以及他为什么坚信速度会创造全新市场。","datePublished":"2026-09-16","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra.jpg","about":[{"@type":"Person","name":"Jack"},{"@type":"Person","name":"Eric"},{"@type":"Person","name":"Andrew Feldman"},{"@type":"Organization","name":"Cerebrus"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"TSMC"},{"@type":"Thing","name":"晶圆级 (wafer scale)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"数据中心 (data center)"},{"@type":"Thing","name":"供应链攻击 (supply chain)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌","item":"https://talk.solomind.cc/2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra#post","headline":"一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra","mainEntityOfPage":"https://talk.solomind.cc/2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra","description":"Cerebras 创始人兼 CEO Andrew 讲述晶圆级芯片如何闯过十八个月濒死期，以及他为什么坚信速度会创造全新市场。","datePublished":"2026-09-16","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra.jpg","about":[{"@type":"Person","name":"Jack"},{"@type":"Person","name":"Eric"},{"@type":"Person","name":"Andrew Feldman"},{"@type":"Organization","name":"Cerebrus"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"TSMC"},{"@type":"Thing","name":"晶圆级 (wafer scale)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"数据中心 (data center)"},{"@type":"Thing","name":"供应链 (supply chain)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌","item":"https://talk.solomind.cc/2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -36,7 +36,7 @@ jsonLd: |
 >
 > **公司** [[Cerebrus]] · [[NVIDIA]] · [[TSMC]]
 >
-> **概念** [[晶圆级]] · [[推理]] · [[数据中心]] · [[供应链攻击]]
+> **概念** [[晶圆级]] · [[推理]] · [[数据中心]] · [[供应链]]
 
 这一集聊的是一件听起来近乎疯狂的事：把整片晶圆做成一颗芯片。主角是 Andrew——[[晶圆级|晶圆级]]芯片公司 Cerebras 的 CEO 和创始人，他用十年时间把「没人认为可行」的晶圆级方案做到了量产。而全集中最有冲击力的一个事实是：最聪明的一批人干两年、送进一座造价四五百亿美元的晶圆厂，最后从另一头出来的芯片只卖 22 美元——「这属于人类有史以来最了不起的成就之列」。
 
@@ -66,7 +66,7 @@ jsonLd: |
 
 ## 从沙子到 ChatGPT 回答：供应链是怎么卡住的
 
-主持人请 Andrew 用大白话讲一遍芯片[[供应链攻击|供应链]]。一座最先进制程的晶圆厂是「现代金字塔」：建造成本高达数百亿美元，好几个橄榄球场大。
+主持人请 Andrew 用大白话讲一遍芯片[[供应链|供应链]]。一座最先进制程的晶圆厂是「现代金字塔」：建造成本高达数百亿美元，好几个橄榄球场大。
 
 三星在德州建厂时，甚至先建了一座发电厂专门用于制造混凝土——数百辆混凝土搅拌车 7x24 连续运转多年，只为浇出地基。光刻机只有 ASML 一家能造，全世界只有这一家，一台长五六十英尺、贵到数亿美元级别——「这是真正的垄断，不是源于试图控制供应。他们拥有别人一直无法复制的技术」。
 

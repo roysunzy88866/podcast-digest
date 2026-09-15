@@ -55,7 +55,7 @@ unlisted: true
 
 [[Claude]] · [[ChatGPT]] · [[Hilary Gridley]] · [[Michael Tannenbaum]] · [[Vincent Wendy]] · [[Lenny]] · [[Figure]] · [[AI Engineer]] · [[Whoop]] · [[SoFi]]
 
-<script type="application/json" class="pd-epn">{"Claude":58,"ChatGPT":63,"Hilary Gridley":1,"Michael Tannenbaum":1,"Vincent Wendy":1,"Lenny":67,"Figure":2,"AI Engineer":1,"Whoop":1,"SoFi":1}</script>
+<script type="application/json" class="pd-epn">{"Claude":58,"ChatGPT":65,"Hilary Gridley":1,"Michael Tannenbaum":1,"Vincent Wendy":1,"Lenny":67,"Figure":2,"AI Engineer":1,"Whoop":1,"SoFi":1}</script>
 
 <script>
 (function(){

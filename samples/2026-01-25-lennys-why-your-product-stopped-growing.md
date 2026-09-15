@@ -145,9 +145,9 @@ Jason 提醒，很多自力更生（Bootstrap，不拿外部融资）的公司�
 
 **顺着「增长与销售」挖下去**
 
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同概念:SaaS</span>
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同概念:LLM、SEO</span>
 - [[2025-10-05-lennys-how-to-find-hidden-growth-opportunities|增长不是指标黑客，是连接用户与价值]]<span class="pd-rz">同公司:Duolingo</span>
-- [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同概念:NRR</span>
 
 </div>
 <div class="pd-ex">

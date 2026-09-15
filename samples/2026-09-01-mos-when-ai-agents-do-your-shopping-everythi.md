@@ -161,9 +161,9 @@ Jess 自称「非常不念旧情的人」，她认为这既是资产也是阻碍
 
 **换个口味**
 
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Shopify · 同概念:智能体 (agent)</span>
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同公司:Shopify · 同概念:智能体 (agent)</span>
 - [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|Patrick Collison：AI时代该怎么创业]]<span class="pd-rz">同公司:Shopify · 同概念:智能体 (agent)</span>
-- [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR]]<span class="pd-rz">同公司:Shopify · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

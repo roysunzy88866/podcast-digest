@@ -31,7 +31,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Sophia Du]] · [[transformer]] · [[Attention is All You Need]] · [[LLM]] · [[GPU]] · [[OpenAI]] · [[开源运动]] · [[编码智能体]] · [[分布式模型]] · [[研究突破]]
+[[Sophia Du]] · [[Transformer]] · [[Attention is All You Need]] · [[LLM]] · [[GPU]] · [[OpenAI]] · [[开源运动]] · [[编码智能体]] · [[分布式模型]] · [[研究突破]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"transformer":7,"Attention is All You Need":1,"LLM":32,"GPU":16,"OpenAI":111,"开源运动":1,"编码智能体":13,"分布式模型":1,"研究突破":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"Transformer":8,"Attention is All You Need":1,"LLM":32,"GPU":16,"OpenAI":113,"开源运动":1,"编码智能体":13,"分布式模型":1,"研究突破":1}</script>
 
 <script>
 (function(){

@@ -19,9 +19,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Sam Charrington]] · [[Chris Potts]] · [[tokenflation]] · [[tokenomics]] · [[token]] · [[消费者价格指数]] · [[推理时扩展]] · [[苦涩的教训]] · [[transformer]] · [[提示词优化]]
+[[Sam Charrington]] · [[Chris Potts]] · [[tokenflation]] · [[tokenomics]] · [[token]] · [[消费者价格指数]] · [[推理时扩展]] · [[苦涩的教训]] · [[Transformer]] · [[提示词优化]]
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":4,"Chris Potts":1,"tokenflation":1,"tokenomics":1,"token":20,"消费者价格指数":1,"推理时扩展":1,"苦涩的教训":7,"transformer":7,"提示词优化":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":4,"Chris Potts":1,"tokenflation":1,"tokenomics":1,"token":20,"消费者价格指数":1,"推理时扩展":1,"苦涩的教训":7,"Transformer":8,"提示词优化":1}</script>
 
 <script>
 (function(){

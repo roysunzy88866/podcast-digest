@@ -52,7 +52,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Google]] · [[Microsoft]] · [[NVIDIA]] · [[智能体]] · [[ChatGPT]] · [[Meta]] · [[Apple]] · [[资本支出]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":111,"Anthropic":122,"Google":42,"Microsoft":24,"NVIDIA":35,"智能体":237,"ChatGPT":63,"Meta":30,"Apple":17,"资本支出":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":113,"Anthropic":123,"Google":42,"Microsoft":25,"NVIDIA":35,"智能体":240,"ChatGPT":65,"Meta":30,"Apple":17,"资本支出":4}</script>
 
 <script>
 (function(){

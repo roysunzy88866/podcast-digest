@@ -45,7 +45,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Factory]] · [[Droid]] · [[智能体]] · [[harness]] · [[模型独立性]] · [[router]] · [[token]] · [[开源模型]] · [[软件工厂]] · [[基于结果的付费]]
+[[Factory]] · [[Droid]] · [[智能体]] · [[harness]] · [[模型独立性]] · [[路由器]] · [[token]] · [[开源模型]] · [[软件工厂]] · [[基于结果的付费]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Factory":4,"Droid":1,"智能体":237,"harness":32,"模型独立性":1,"router":1,"token":20,"开源模型":16,"软件工厂":5,"基于结果的付费":3}</script>
+<script type="application/json" class="pd-epn">{"Factory":4,"Droid":1,"智能体":240,"harness":32,"模型独立性":1,"路由器":1,"token":20,"开源模型":17,"软件工厂":5,"基于结果的付费":3}</script>
 
 <script>
 (function(){

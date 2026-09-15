@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Robby Stein]] · [[Google]] · [[AI Mode]] · [[Google Lens]] · [[ChatGPT]] · [[Gemini]] · [[Instagram]] · [[Stories]] · [[Close Friends]]
+[[Lenny]] · [[Robby Stein]] · [[Google]] · [[AI Mode]] · [[Google Lens]] · [[ChatGPT]] · [[Gemini]] · [[Perplexity]] · [[Instagram]] · [[Stories]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Robby Stein":1,"Google":42,"AI Mode":1,"Google Lens":1,"ChatGPT":63,"Gemini":7,"Instagram":4,"Stories":2,"Close Friends":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Robby Stein":1,"Google":42,"AI Mode":1,"Google Lens":1,"ChatGPT":65,"Gemini":7,"Perplexity":6,"Instagram":4,"Stories":2}</script>
 
 <script>
 (function(){

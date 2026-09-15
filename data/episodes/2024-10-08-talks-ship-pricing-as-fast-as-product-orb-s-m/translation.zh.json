@@ -1,0 +1,3114 @@
+[
+ {
+  "seg": 0,
+  "start": 6.193,
+  "end": 9.019,
+  "speaker": "Unknown",
+  "en": "Hi, and welcome to Grey Matter, the podcast from Greylock.",
+  "zh": "大家好，欢迎收听 Greylock 的播客节目 Grey Matter。"
+ },
+ {
+  "seg": 1,
+  "start": 9.52,
+  "end": 15.474,
+  "speaker": "Unknown",
+  "en": "I'm enterprise partner, Sal Motamini, and today I'm joined by Alvaro Morales, the CEO and co-founder of Orb.",
+  "zh": "我是企业合伙人 Sal Motamini,今天和我一起的是 Alvaro Morales,Orb 的 CEO 兼联合创始人。"
+ },
+ {
+  "seg": 2,
+  "start": 16.337,
+  "end": 25.241,
+  "speaker": "Unknown",
+  "en": "Orb is the modern billing infrastructure powering revenue workflows for the next wave of AI and software companies, companies like Vercel, Pinecone, and Perplexity.",
+  "zh": "Orb 是现代化的计费基础设施，为下一波 AI 和软件公司的收入工作流提供动力，这些公司包括 Vercel、Pinecone 和 Perplexity。"
+ },
+ {
+  "seg": 3,
+  "start": 25.802,
+  "end": 30.744,
+  "speaker": "Unknown",
+  "en": "And they've just raised a $25 million Series B from investors, including Greylock.",
+  "zh": "他们刚刚完成了 2500 万美元的 B 轮融资，投资方包括 Greylock。"
+ },
+ {
+  "seg": 4,
+  "start": 31.545,
+  "end": 37.908,
+  "speaker": "Unknown",
+  "en": "If you prefer to read this interview rather than listen to it, you can find a link to a full transcript in the episode description.",
+  "zh": "如果你更愿意阅读而非收听这期访谈，你可以在节目的介绍说明中找到完整文字稿的链接。"
+ },
+ {
+  "seg": 5,
+  "start": 38.548,
+  "end": 40.469,
+  "speaker": "Unknown",
+  "en": "There's also a video version on YouTube.",
+  "zh": "在 YouTube 上还有一个视频版本。"
+ },
+ {
+  "seg": 6,
+  "start": 41.617,
+  "end": 43.058,
+  "speaker": "Unknown",
+  "en": "Alvaro, welcome to Great Matter.",
+  "zh": "Alvaro,欢迎来到 Great Matter。"
+ },
+ {
+  "seg": 7,
+  "start": 43.698,
+  "end": 44.739,
+  "speaker": "Unknown",
+  "en": "It's so good to see you.",
+  "zh": "见到你真是太好了。"
+ },
+ {
+  "seg": 8,
+  "start": 45.9,
+  "end": 50.503,
+  "speaker": "Unknown",
+  "en": "For listeners who haven't heard of Orb before, let's start with just giving them the elevator pitch.",
+  "zh": "对于还没听说过 Orb 的听众，我们先从电梯演讲开始吧。"
+ },
+ {
+  "seg": 9,
+  "start": 51.123,
+  "end": 53.245,
+  "speaker": "Unknown",
+  "en": "What is Orb and what makes the company so special?",
+  "zh": "Orb 是什么，是什么让这家公司如此特别？"
+ },
+ {
+  "seg": 10,
+  "start": 54.625,
+  "end": 55.005,
+  "speaker": "Unknown",
+  "en": "Sure thing.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 11,
+  "start": 55.025,
+  "end": 56.045,
+  "speaker": "Unknown",
+  "en": "Thank you for having me, Salam.",
+  "zh": "谢谢你的邀请，Salam。"
+ },
+ {
+  "seg": 12,
+  "start": 56.105,
+  "end": 57.346,
+  "speaker": "Unknown",
+  "en": "I'm excited for this conversation.",
+  "zh": "我很期待这次对话。"
+ },
+ {
+  "seg": 13,
+  "start": 57.886,
+  "end": 62.026,
+  "speaker": "Unknown",
+  "en": "So Orb is flexible billing infrastructure for modern pricing software models.",
+  "zh": "Orb 是为现代定价软件模式打造的灵活计费基础设施。"
+ },
+ {
+  "seg": 14,
+  "start": 62.627,
+  "end": 75.229,
+  "speaker": "Unknown",
+  "en": "So if you think about it, we help software businesses experiment with different kinds of monetization strategies, whether this is usage-based pricing, consumption-based pricing, or more of a hybrid strategy mixing together seed-based and consumption.",
+  "zh": "你可以这么想，我们帮助软件企业试验不同类型的变现策略，无论是基于用量的定价、基于消费的定价，还是把基于席位(seat)和消费混合在一起的混合策略。"
+ },
+ {
+  "seg": 15,
+  "start": 75.809,
+  "end": 80.15,
+  "speaker": "Unknown",
+  "en": "And really the goal of Orb is to make it really easy for companies to evolve their pricing.",
+  "zh": "Orb 的真正目标是让公司能够非常轻松地演进他们的定价。"
+ },
+ {
+  "seg": 16,
+  "start": 81.364,
+  "end": 89.59,
+  "speaker": "Unknown",
+  "en": "I think one thing that's unique about what we do here is that when you think about when a company's pricing model changes, the billing infrastructure needs to change.",
+  "zh": "我认为我们所做事情中有一点很独特：当你想到一家公司的定价模式发生变化时，计费基础设施也需要随之变化。"
+ },
+ {
+  "seg": 17,
+  "start": 89.63,
+  "end": 92.332,
+  "speaker": "Unknown",
+  "en": "And that's where a lot of our software solution is geared towards.",
+  "zh": "而这正是我们许多软件解决方案所针对的方向。"
+ },
+ {
+  "seg": 18,
+  "start": 92.892,
+  "end": 94.814,
+  "speaker": "Unknown",
+  "en": "But a lot of other things in a company need to change.",
+  "zh": "但公司里还有很多其他东西也需要改变。"
+ },
+ {
+  "seg": 19,
+  "start": 94.894,
+  "end": 104.08,
+  "speaker": "Unknown",
+  "en": "So everything from how a finance team thinks about the financial health of the business, how they do revenue accounting, how they do forecasting, how many go-to-market teams think about their workflows.",
+  "zh": "从财务团队如何看待业务的财务健康状况，到他们如何做收入会计、如何做预测，再到 go-to-market 团队如何看待他们的工作流，方方面面都是如此。"
+ },
+ {
+  "seg": 20,
+  "start": 104.4,
+  "end": 111.025,
+  "speaker": "Unknown",
+  "en": "So really what we're doing with Orb is we're excited to support companies in the mission critical areas of revenue workflows with what they do.",
+  "zh": "所以我们用 Orb 真正做的事情是，我们很高兴能够支持公司在收入工作流这些关键任务领域的工作。"
+ },
+ {
+  "seg": 21,
+  "start": 111.225,
+  "end": 114.527,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 22,
+  "start": 115.148,
+  "end": 125.474,
+  "speaker": "Unknown",
+  "en": "And completely agree with you on the sort of re-engineering of the business that happens around these pricing changes and the power of Orb to help sort of power a lot of that change.",
+  "zh": "我完全同意你说的，围绕这些定价变化会发生业务的重新工程，以及 Orb 在帮助推动这许多变化方面的力量。"
+ },
+ {
+  "seg": 23,
+  "start": 125.995,
+  "end": 129.417,
+  "speaker": "Unknown",
+  "en": "What sort of companies have you found get the most out of using Orb?",
+  "zh": "你发现哪类公司从使用 Orb 中获益最多？"
+ },
+ {
+  "seg": 24,
+  "start": 130.512,
+  "end": 137.838,
+  "speaker": "Unknown",
+  "en": "Yeah, when you think about the broader trend that's going on in software, it's kind of fitting this early adoption market curve pattern.",
+  "zh": "是的，当你思考软件行业正在发生的更广泛的趋势时，它有点符合早期采用市场的曲线模式。"
+ },
+ {
+  "seg": 25,
+  "start": 138.338,
+  "end": 144.443,
+  "speaker": "Unknown",
+  "en": "So a lot of the customers that we serve right now are in vertical, such as cloud infrastructure, data, AI, fintech.",
+  "zh": "所以我们现在服务的很多客户都处于云基础设施、数据、AI、金融科技等垂直领域。"
+ },
+ {
+  "seg": 26,
+  "start": 144.723,
+  "end": 145.724,
+  "speaker": "Unknown",
+  "en": "Think about the kind of...",
+  "zh": "想一想那种……"
+ },
+ {
+  "seg": 27,
+  "start": 147.045,
+  "end": 149.867,
+  "speaker": "Unknown",
+  "en": "Software companies that have the most sophisticated business models out there.",
+  "zh": "拥有市面上最复杂商业模式的那类软件公司。"
+ },
+ {
+  "seg": 28,
+  "start": 150.327,
+  "end": 160.033,
+  "speaker": "Unknown",
+  "en": "And the thing about those companies is they could go and put a ton of engineering investment focus in billing, or they could put that time and effort into building their core products.",
+  "zh": "这些公司的特点是，他们可以投入大量的工程投资和精力到计费上，或者他们可以把那些时间和精力投入到构建自己的核心产品上。"
+ },
+ {
+  "seg": 29,
+  "start": 160.053,
+  "end": 170.479,
+  "speaker": "Unknown",
+  "en": "So a lot of what we do with Orb is we power billing for them and give them a lot of flexibility to evolve what they're doing without them having to put their team towards that.",
+  "zh": "所以我们用 Orb 所做的很多事情，就是为他们提供计费能力，并给他们很大的灵活性去演进他们在做的事情，而不必让他们的团队投入其中。"
+ },
+ {
+  "seg": 30,
+  "start": 172.337,
+  "end": 172.617,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 31,
+  "start": 173.177,
+  "end": 180.699,
+  "speaker": "Unknown",
+  "en": "Well, we're going to talk a lot more about what Orb is doing today, but I want to rewind the clock a little bit and sort of share with our listeners some of the history here.",
+  "zh": "好的，我们会更多地谈谈 Orb 今天在做的事情，但我想先把时钟往回拨一点，和我们的听众分享一些这里面的历史。"
+ },
+ {
+  "seg": 32,
+  "start": 181.039,
+  "end": 182.699,
+  "speaker": "Unknown",
+  "en": "So let's rewind to 2021.",
+  "zh": "那我们把时间倒回 2021 年。"
+ },
+ {
+  "seg": 33,
+  "start": 182.899,
+  "end": 190.361,
+  "speaker": "Unknown",
+  "en": "You know, you started Orb with your co-founder Shatez, your co-founder and CTO, and the two of you have known each other for a long time, right?",
+  "zh": "你知道，你和你的联合创始人 Shatez——他也是 CTO——一起创立了 Orb,你们俩认识很长时间了，对吧？"
+ },
+ {
+  "seg": 34,
+  "start": 190.401,
+  "end": 195.002,
+  "speaker": "Unknown",
+  "en": "Dating back to Asana, where you worked closely together and built that company through its IPO.",
+  "zh": "可以追溯到 Asana,你们在那里紧密合作，一起把那家公司做到了 IPO。"
+ },
+ {
+  "seg": 35,
+  "start": 196.623,
+  "end": 202.004,
+  "speaker": "Unknown",
+  "en": "Maybe tell the story of how you guys got together and how you realized that this was the problem to go after solving.",
+  "zh": "或许讲讲你们俩是怎么走到一起的，以及你们是怎么意识到这是值得去解决的问题。"
+ },
+ {
+  "seg": 36,
+  "start": 202.584,
+  "end": 210.031,
+  "speaker": "Unknown",
+  "en": "Yeah, so Chitesh and I met at Asana when we joined pretty early on the team there, and we've been friends for a long time.",
+  "zh": "是的，我和 Chitesh 是在 Asana 认识的，我们在那里加入得相当早，我们做了很长时间的朋友。"
+ },
+ {
+  "seg": 37,
+  "start": 210.872,
+  "end": 214.135,
+  "speaker": "Unknown",
+  "en": "And both of our backgrounds is in software engineering.",
+  "zh": "我们的背景都是软件工程。"
+ },
+ {
+  "seg": 38,
+  "start": 214.695,
+  "end": 217.518,
+  "speaker": "Unknown",
+  "en": "So I knew nothing about pricing or billing going into that job.",
+  "zh": "所以在做那份工作之前，我对定价或计费一无所知。"
+ },
+ {
+  "seg": 39,
+  "start": 217.578,
+  "end": 227.526,
+  "speaker": "Unknown",
+  "en": "In fact, I remember that when I got asked to support a price change happening early on, I saw that there was a meeting with a finance team and I thought, great, I'm going to walk into this and",
+  "zh": "事实上，我记得早期当我被要求支持一次价格调整时，我看到有一场和财务团队的会议，我心想，太好了，我要走进去"
+ },
+ {
+  "seg": 40,
+  "start": 228.207,
+  "end": 233.21,
+  "speaker": "Unknown",
+  "en": "Look at a bunch of Excel math and models and write three lines of code and move on with my life and that'll be the end of it.",
+  "zh": "看一堆 Excel 里的计算和模型，写三行代码，然后继续我的生活，这件事就到此为止了。"
+ },
+ {
+  "seg": 41,
+  "start": 234.17,
+  "end": 236.051,
+  "speaker": "Unknown",
+  "en": "Well, in many ways that didn't end up being the case.",
+  "zh": "嗯，在很多方面，结果并不是那样。"
+ },
+ {
+  "seg": 42,
+  "start": 236.111,
+  "end": 245.476,
+  "speaker": "Unknown",
+  "en": "I think one thing that was eye-opening there was kind of coming to the realization that pricing is about as customer-centric and product-centric as you get.",
+  "zh": "我认为那里让我大开眼界的一件事，是意识到定价是你在能见到的范围内最以客户为中心、最以产品为中心的事情。"
+ },
+ {
+  "seg": 43,
+  "start": 245.496,
+  "end": 250.078,
+  "speaker": "Unknown",
+  "en": "It's about understanding what value you provide to your customers and how to best meet them.",
+  "zh": "它关乎理解你为客户提供了什么价值，以及如何最好地满足他们。"
+ },
+ {
+  "seg": 44,
+  "start": 250.879,
+  "end": 253.12,
+  "speaker": "Unknown",
+  "en": "And it's really an exercise of business strategy.",
+  "zh": "而这真的是一种商业战略的练习。"
+ },
+ {
+  "seg": 45,
+  "start": 253.92,
+  "end": 262.091,
+  "speaker": "Unknown",
+  "en": "That way of thinking, I think, really jived and connected with my engineering brain and got me excited to think about, here's the impact that it can have on our customers and our business.",
+  "zh": "我认为这种思维方式真的和我的工程大脑很合拍，让我兴奋地去思考，这是我们能为我们的客户和我们的业务带来的影响。"
+ },
+ {
+  "seg": 46,
+  "start": 262.452,
+  "end": 269.481,
+  "speaker": "Unknown",
+  "en": "But then, unfortunately, it took us many months to shift a very simple per-seat pricing model or roll out a different tier.",
+  "zh": "但不幸的是，我们要花好几个月才能调整一个非常简单的按席位定价模型，或者推出一个新的档位。"
+ },
+ {
+  "seg": 47,
+  "start": 271.717,
+  "end": 279.2,
+  "speaker": "Unknown",
+  "en": "Contradictorily or interestingly, those kinds of initiatives were also pretty significantly revenue impacting to the company.",
+  "zh": "矛盾的或者说有趣的是，这类举措对公司收入的影响其实相当显著。"
+ },
+ {
+  "seg": 48,
+  "start": 279.46,
+  "end": 280.7,
+  "speaker": "Unknown",
+  "en": "So I'm looking at that situation.",
+  "zh": "所以我看着那种局面。"
+ },
+ {
+  "seg": 49,
+  "start": 280.72,
+  "end": 287.083,
+  "speaker": "Unknown",
+  "en": "It has like this mix of a ton of pain in engineering and finance, some really significant revenue impact.",
+  "zh": "它混合了工程和财务方面的大量痛苦，以及一些非常显著的收入影响。"
+ },
+ {
+  "seg": 50,
+  "start": 287.703,
+  "end": 302.789,
+  "speaker": "Unknown",
+  "en": "And I just, I found it really uncomfortable to be one of the engineering voices in the room, having to tell no to business teams on like, you know, fantastic idea, but it's going to take me six to eight months to re-architect and refactor every assumption we've made around pricing in the business.",
+  "zh": "而我只是觉得,作为房间里工程方面的声音之一,不得不对业务团队说不,真的非常不舒服,就是那种,你知道吗,好主意,但这需要我六到八个月的时间去重新架构并重构我们在业务定价方面做的每一个假设。"
+ },
+ {
+  "seg": 51,
+  "start": 303.649,
+  "end": 314.373,
+  "speaker": "Unknown",
+  "en": "So I think Shitesh and I really connected on that idea, which was, it's kind of counterintuitive that this essence of a developer platform, that is the ideas around extensibility, flexibility, iteration,",
+  "zh": "所以我觉得 Shitesh 和我在这个想法上真正产生了共鸣,那就是,有点反直觉的是,开发者平台的这种本质,也就是围绕可扩展性、灵活性、迭代的理念,"
+ },
+ {
+  "seg": 52,
+  "start": 315.193,
+  "end": 316.674,
+  "speaker": "Unknown",
+  "en": "Haven't made it to the revenue stack.",
+  "zh": "还没有进入收入技术栈。"
+ },
+ {
+  "seg": 53,
+  "start": 316.974,
+  "end": 319.896,
+  "speaker": "Unknown",
+  "en": "Haven't made it to the design of a building infrastructure system.",
+  "zh": "还没有进入构建基础设施系统的设计。"
+ },
+ {
+  "seg": 54,
+  "start": 320.537,
+  "end": 330.704,
+  "speaker": "Unknown",
+  "en": "And what an amazing fit when you think about the kind of software monetization models that Orb is built to support with the kind of flexibility that Orb has as a platform.",
+  "zh": "而当你想到 Orb 所 built 以支持的软件货币化模型种类,以及 Orb 作为一个平台所具备的那种灵活性时,这是多么完美的契合。"
+ },
+ {
+  "seg": 55,
+  "start": 330.744,
+  "end": 343.593,
+  "speaker": "Unknown",
+  "en": "So I think what was really interesting was almost infusing our engineering DNA and the perspective and outlook that we have as engineers into a space that's as cross-functional as you get when",
+  "zh": "所以我觉得真正有意思的是,几乎是将我们的工程 DNA,以及作为工程师的视角和展望,注入到一个跨职能程度极高的领域中,"
+ },
+ {
+  "seg": 56,
+  "start": 344.313,
+  "end": 350.357,
+  "speaker": "Unknown",
+  "en": "At the end of the day, it's finance teams that have to close books and report guidance for a company and whatnot.",
+  "zh": "说到底,是财务团队必须为公司关账并报告业绩指引之类的。"
+ },
+ {
+  "seg": 57,
+  "start": 350.877,
+  "end": 353.499,
+  "speaker": "Unknown",
+  "en": "And our system is kind of a key component towards that process.",
+  "zh": "而我们的系统正是这个流程中的一个关键组成部分。"
+ },
+ {
+  "seg": 58,
+  "start": 355.104,
+  "end": 360.847,
+  "speaker": "Unknown",
+  "en": "Yeah, I remember when we first met and you shared the story of what it took to make that pricing change happen at Asana.",
+  "zh": "是的,我记得我们第一次见面时,你分享了在 Asana 做那次定价变更所需要付出的代价的故事。"
+ },
+ {
+  "seg": 59,
+  "start": 360.867,
+  "end": 362.828,
+  "speaker": "Unknown",
+  "en": "I could just feel the pain.",
+  "zh": "我简直能感受到那种痛苦。"
+ },
+ {
+  "seg": 60,
+  "start": 363.069,
+  "end": 367.931,
+  "speaker": "Unknown",
+  "en": "And thank God you guys built Orb, so no other teams have to deal with that pain firsthand.",
+  "zh": "感谢上帝你们做了 Orb,这样其他团队就不必亲身承受那种痛苦了。"
+ },
+ {
+  "seg": 61,
+  "start": 368.532,
+  "end": 369.752,
+  "speaker": "Unknown",
+  "en": "Orb can handle it all for them.",
+  "zh": "Orb 可以替他们搞定这一切。"
+ },
+ {
+  "seg": 62,
+  "start": 370.693,
+  "end": 371.233,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 63,
+  "start": 371.253,
+  "end": 379.478,
+  "speaker": "Unknown",
+  "en": "Because when you think about it, particularly the business stakeholders that my teams often worked with, these changes sound simple.",
+  "zh": "因为仔细想想,特别是与我的团队经常合作的业务利益相关者,这些变更听起来很简单。"
+ },
+ {
+  "seg": 64,
+  "start": 379.818,
+  "end": 380.459,
+  "speaker": "Unknown",
+  "en": "They are simple.",
+  "zh": "它们确实简单。"
+ },
+ {
+  "seg": 65,
+  "start": 380.479,
+  "end": 385.004,
+  "speaker": "Unknown",
+  "en": "They're like, you're adding a feature to a tier, you're changing a tier, you're changing a pricing model.",
+  "zh": "就像是,你给某个层级加一个功能,你改一个层级,你换一个定价模型。"
+ },
+ {
+  "seg": 66,
+  "start": 385.204,
+  "end": 400.841,
+  "speaker": "Unknown",
+  "en": "This is not rocket science, but unfortunately, this approach that the industry has taken to date where product engineering teams have to deeply embed and hard code and understand the constraints of current pricing today have kind of resulted in us having to",
+  "zh": "这不是什么火箭科学,但不幸的是,迄今为止行业所采用的这种做法——让产品工程团队必须深度嵌入、硬编码并理解当前定价的约束——已经导致我们不得不"
+ },
+ {
+  "seg": 67,
+  "start": 401.922,
+  "end": 404.983,
+  "speaker": "Unknown",
+  "en": "Just be very stagnant with how pricing evolves.",
+  "zh": "在定价演进上非常停滞不前。"
+ },
+ {
+  "seg": 68,
+  "start": 405.023,
+  "end": 413.286,
+  "speaker": "Unknown",
+  "en": "And look, these are very smart individuals, very smart teams thinking about what's in the future outlook of the business.",
+  "zh": "而且你看,这些都是非常聪明的人、非常聪明的团队在思考业务的未来前景。"
+ },
+ {
+  "seg": 69,
+  "start": 413.306,
+  "end": 417.208,
+  "speaker": "Unknown",
+  "en": "But let me tell you what makes this domain so challenging to go solve.",
+  "zh": "但让我告诉你,是什么让这个领域如此难以解决。"
+ },
+ {
+  "seg": 70,
+  "start": 417.228,
+  "end": 422.089,
+  "speaker": "Unknown",
+  "en": "Well, if you think about it, somebody in the company puts together a list of product requirements.",
+  "zh": "嗯,你想想,公司里的某个人整理出一份产品需求清单。"
+ },
+ {
+  "seg": 71,
+  "start": 422.169,
+  "end": 423.45,
+  "speaker": "Unknown",
+  "en": "Here's what our pricing is today.",
+  "zh": "跟我们聊聊这一轮融资吧。"
+ },
+ {
+  "seg": 72,
+  "start": 423.85,
+  "end": 426.151,
+  "speaker": "Unknown",
+  "en": "Here's some ways that we know that this could evolve.",
+  "zh": "这是我们知道的它可能演进的一些方式。"
+ },
+ {
+  "seg": 73,
+  "start": 427.225,
+  "end": 434.868,
+  "speaker": "Unknown",
+  "en": "And then three months happen and the business completely shifts direction where there's something that happens in the market, where there's a new product to go change.",
+  "zh": "然后三个月过去了,业务完全转向了别的方向,市场上发生了某些事情,或者有新产品要去改。"
+ },
+ {
+  "seg": 74,
+  "start": 434.888,
+  "end": 439.61,
+  "speaker": "Unknown",
+  "en": "So whatever set of requirements you thought you were building towards just changed out from under you.",
+  "zh": "于是你以为自己在构建的那个需求集合,就这样在你脚下变了。"
+ },
+ {
+  "seg": 75,
+  "start": 440.03,
+  "end": 452.295,
+  "speaker": "Unknown",
+  "en": "That's why I think when you think about a solution like Orb that has a broad purview across many different types of customers, many different types of monetization models, I think we're structurally a little bit more well equipped to go solve that problem holistically.",
+  "zh": "这就是为什么我觉得,当你想到像 Orb 这样一个对众多不同类型客户、众多不同货币化模型都有广泛覆盖面的解决方案,我认为我们在结构上更有能力去整体性地解决这个问题。"
+ },
+ {
+  "seg": 76,
+  "start": 453.502,
+  "end": 455.363,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的,完全正确。"
+ },
+ {
+  "seg": 77,
+  "start": 456.204,
+  "end": 459.386,
+  "speaker": "Unknown",
+  "en": "So maybe fast forwarding to where we are now, right?",
+  "zh": "那么也许可以快进到现在,对吧?"
+ },
+ {
+  "seg": 78,
+  "start": 459.766,
+  "end": 462.668,
+  "speaker": "Unknown",
+  "en": "And a lot has happened the last three years since you guys started on this mission.",
+  "zh": "自你们开始这项使命以来,过去三年发生了很多事。"
+ },
+ {
+  "seg": 79,
+  "start": 463.329,
+  "end": 466.751,
+  "speaker": "Unknown",
+  "en": "So Orb raised a $14 million Series A just last year.",
+  "zh": "Orb 就在去年完成了 1400 万美元的 A 轮融资。"
+ },
+ {
+  "seg": 80,
+  "start": 467.372,
+  "end": 470.774,
+  "speaker": "Unknown",
+  "en": "Now, you know, congratulations on raising your $25 million Series B.",
+  "zh": "现在,恭喜你们完成了 2500 万美元的 B 轮融资。"
+ },
+ {
+  "seg": 81,
+  "start": 471.675,
+  "end": 472.655,
+  "speaker": "Unknown",
+  "en": "Tell us about the round.",
+  "zh": "跟我们聊聊这一轮融资吧。"
+ },
+ {
+  "seg": 82,
+  "start": 472.776,
+  "end": 477.699,
+  "speaker": "Unknown",
+  "en": "What does the Series B mean for Orb and what's kind of your plan and focus with this new round of funding?",
+  "zh": "B 轮对 Orb 意味着什么,你们对这轮新资金的计划和重点是什么?"
+ },
+ {
+  "seg": 83,
+  "start": 478.157,
+  "end": 480.799,
+  "speaker": "Unknown",
+  "en": "Yeah, it's a really exciting time for the team and at the company.",
+  "zh": "是的,这对团队和公司来说是一个非常令人兴奋的时刻。"
+ },
+ {
+  "seg": 84,
+  "start": 480.819,
+  "end": 486.684,
+  "speaker": "Unknown",
+  "en": "I think this round kind of is falling out of the timing and relevance and what we're doing.",
+  "zh": "我觉得这一轮融资某种程度上是从我们所做事情的时机和相关性中自然产生的。"
+ },
+ {
+  "seg": 85,
+  "start": 486.704,
+  "end": 493.971,
+  "speaker": "Unknown",
+  "en": "I mean, we're really building a business off of what I think is going to be one of the most important and disruptive trends in software.",
+  "zh": "我是说,我们正在基于我认为将成为软件领域最重要、最具颠覆性趋势之一的东西来构建一项业务。"
+ },
+ {
+  "seg": 86,
+  "start": 493.991,
+  "end": 502.478,
+  "speaker": "Unknown",
+  "en": "That is, the fundamental way that value is delivered in software has the potential to change, particularly with a lot of the innovations that we're seeing in AI.",
+  "zh": "那就是,软件中价值交付的根本方式有可能发生改变,特别是考虑到我们在 AI 领域看到的诸多创新。"
+ },
+ {
+  "seg": 87,
+  "start": 505.18,
+  "end": 508.882,
+  "speaker": "Unknown",
+  "en": "Coupled together with also a very challenging macroeconomic environment for software.",
+  "zh": "再加上一个非常艰难的软件宏观经济环境。"
+ },
+ {
+  "seg": 88,
+  "start": 509.402,
+  "end": 519.628,
+  "speaker": "Unknown",
+  "en": "A lot of software businesses that had been growing amazingly through headcount growth really saw kind of a massive deceleration that for some companies is a little bit existential.",
+  "zh": "很多原本随人员增长而增长得极其惊人的软件企业,都经历了大规模的减速,对某些公司来说这有点生死攸关。"
+ },
+ {
+  "seg": 89,
+  "start": 519.968,
+  "end": 530.034,
+  "speaker": "Unknown",
+  "en": "So on this confluence of trends, I think what we're seeing is a really significant acceleration in demand for the kind of flexible monetization that Orb is built to support.",
+  "zh": "所以在这些趋势的交汇处,我认为我们看到的是,对 Orb 所 built 以支持的这种灵活货币化的需求出现了非常显著的加速。"
+ },
+ {
+  "seg": 90,
+  "start": 530.794,
+  "end": 537.435,
+  "speaker": "Unknown",
+  "en": "So just in the past year, we've seen over 5x revenue growth and since the beginning of the year, we've tripled our customer base.",
+  "zh": "就在过去一年,我们的收入增长超过了 5 倍,而且从年初以来,我们的客户群翻了三倍。"
+ },
+ {
+  "seg": 91,
+  "start": 537.455,
+  "end": 541.956,
+  "speaker": "Unknown",
+  "en": "I think that's a reflection of some of this momentum that we're really seeing.",
+  "zh": "我认为这反映了我们真正看到的一部分势头。"
+ },
+ {
+  "seg": 92,
+  "start": 542.276,
+  "end": 558.719,
+  "speaker": "Unknown",
+  "en": "So I'm deeply excited that this fundraising round really represents an ability to continue investing in our product, continue investing in our team, to just meet more and more of these customers and really show them that there's a different way and a better way to think about their monetization infrastructure.",
+  "zh": "所以我深感兴奋的是,这轮融资真正代表着我们能够继续投资于我们的产品、继续投资于我们的团队,去接触越来越多的这类客户,并真正向他们展示,有一种不同的、更好的方式来思考他们的货币化基础设施。"
+ },
+ {
+  "seg": 93,
+  "start": 560.857,
+  "end": 568.659,
+  "speaker": "Unknown",
+  "en": "One of the things, Oliver, you and I talk about is like at any given moment in time, there's one or two trends that really are dominating the software industry.",
+  "zh": "Oliver,你和我和经常谈到的一点是,在任何给定的时刻,总有一两个趋势真正主导着软件行业。"
+ },
+ {
+  "seg": 94,
+  "start": 569.179,
+  "end": 577.4,
+  "speaker": "Unknown",
+  "en": "And I think one of the things you've talked about and sort of built the company around is the secular shift that's happening in software pricing and how ORB plays into that.",
+  "zh": "而且我认为你谈到过的、并围绕它建立公司的事情之一,就是软件定价正在发生的长期性转变,以及 ORB 如何参与其中。"
+ },
+ {
+  "seg": 95,
+  "start": 577.44,
+  "end": 583.162,
+  "speaker": "Unknown",
+  "en": "And so let's talk a little bit about that because I think it's something every founder and team is thinking about.",
+  "zh": "那么让我们稍微聊聊这个话题,因为我认为这是每一位创始人和团队都在思考的事情。"
+ },
+ {
+  "seg": 96,
+  "start": 585.804,
+  "end": 592.195,
+  "speaker": "Unknown",
+  "en": "Maybe to start, can you break down why you think consumption-based pricing is the future and how did we get here?",
+  "zh": "也许作为开始,你能不能拆解一下,为什么你认为基于用量的定价是未来,我们是怎么走到今天的?"
+ },
+ {
+  "seg": 97,
+  "start": 592.235,
+  "end": 594.218,
+  "speaker": "Unknown",
+  "en": "What's driving this shift towards consumption?",
+  "zh": "是什么在推动这场向用量的转变?"
+ },
+ {
+  "seg": 98,
+  "start": 594.999,
+  "end": 595.36,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 99,
+  "start": 597.125,
+  "end": 602.328,
+  "speaker": "Unknown",
+  "en": "Maybe I can even rewind back to a little bit of what we were seeing in 2021 when we started the company.",
+  "zh": "也许我甚至可以回溯到 2021 年我们创办公司时所看到的一些情况。"
+ },
+ {
+  "seg": 100,
+  "start": 602.368,
+  "end": 618.836,
+  "speaker": "Unknown",
+  "en": "So we were seeing some very successful trailblazing public companies like Snowflake and Twilio lead the education of the public markets around, here are the advantages of a consumption-based revenue model.",
+  "zh": "我们当时看到一些非常成功的开路先锋型上市公司,比如 Snowflake 和 Twilio,引领着对公开市场的教育:基于消费的营收模式有这些优势。"
+ },
+ {
+  "seg": 101,
+  "start": 620.034,
+  "end": 627.42,
+  "speaker": "Unknown",
+  "en": "in its ability to drive kind of astounding best-in-class net dollar retention and really efficient growth as a business.",
+  "zh": "在于它能够推动极其惊人的、同类最佳的净美元留存率,以及作为一家企业非常高效的增长。"
+ },
+ {
+  "seg": 102,
+  "start": 627.5,
+  "end": 638.008,
+  "speaker": "Unknown",
+  "en": "So public markets often require sort of these waves of companies to get educated around how do I think through what these businesses are?",
+  "zh": "所以公开市场往往需要这样一波波公司来教育它们,让人们理解该如何思考这些业务是什么。"
+ },
+ {
+  "seg": 103,
+  "start": 638.749,
+  "end": 646.135,
+  "speaker": "Unknown",
+  "en": "SaaS very much was a shift in the sense that it kind of took a while for the public markets to really figure out how to value and",
+  "zh": "SaaS 在很大程度上就是一次转变,因为公开市场花了相当一段时间才真正搞清楚如何估值,"
+ },
+ {
+  "seg": 104,
+  "start": 646.895,
+  "end": 649.78,
+  "speaker": "Unknown",
+  "en": "and underwrite SaaS-based public companies.",
+  "zh": "以及如何为基于 SaaS 的上市公司做承销。"
+ },
+ {
+  "seg": 105,
+  "start": 650.221,
+  "end": 659.397,
+  "speaker": "Unknown",
+  "en": "And I think we're starting to see a similar thing and trend happen in the public markets with some of the most trailblazing and successful consumption-based companies.",
+  "zh": "而我认为,我们开始在公开市场看到类似的事情和趋势发生,出现在一些最具开拓性、最成功的基于消费的公司身上。"
+ },
+ {
+  "seg": 106,
+  "start": 660.143,
+  "end": 666.625,
+  "speaker": "Unknown",
+  "en": "And those companies, I think, were leading the charge on two very important things.",
+  "zh": "而这些公司,我认为,在两件非常重要的事情上引领了冲锋。"
+ },
+ {
+  "seg": 107,
+  "start": 666.725,
+  "end": 680.35,
+  "speaker": "Unknown",
+  "en": "Number one was best-in-class products that themselves had found a very successful flywheel in strong product market fit, strong product adoption that kept growing and growing in value.",
+  "zh": "第一是同类最佳的产品,这些产品本身在强大的产品市场契合、持续增长且价值不断攀升的强大产品采用中,找到了一个非常成功的飞轮。"
+ },
+ {
+  "seg": 108,
+  "start": 680.45,
+  "end": 683.651,
+  "speaker": "Unknown",
+  "en": "If you think about it as a consumer, consumption-based pricing",
+  "zh": "如果你作为消费者来想,基于消费的定价"
+ },
+ {
+  "seg": 109,
+  "start": 684.712,
+  "end": 693.763,
+  "speaker": "Unknown",
+  "en": "is really around this idea of how do we avoid the shelfware or how do I avoid paying for that gym subscription that I pay for but don't go for and really only pay for what I consume.",
+  "zh": "其实就是围绕这样一个理念:我们如何避免买回来吃灰的软件,或者如何避免为那张我办了却不去的健身房会员付费,真正做到只为我所消费的东西付费。"
+ },
+ {
+  "seg": 110,
+  "start": 694.103,
+  "end": 695.285,
+  "speaker": "Unknown",
+  "en": "It's a more fair model.",
+  "zh": "这是一个更公平的模式。"
+ },
+ {
+  "seg": 111,
+  "start": 695.305,
+  "end": 696.366,
+  "speaker": "Unknown",
+  "en": "It's a line to value.",
+  "zh": "它是一条通向价值的线。"
+ },
+ {
+  "seg": 112,
+  "start": 696.687,
+  "end": 698.349,
+  "speaker": "Unknown",
+  "en": "If I'm not using it, I'm not paying for it.",
+  "zh": "如果我没有在用它,我就不用为它付费。"
+ },
+ {
+  "seg": 113,
+  "start": 698.389,
+  "end": 700.872,
+  "speaker": "Unknown",
+  "en": "If I'm using it, I'm paying and continuing to pay more.",
+  "zh": "如果我在用它,我就在付费,并且持续付得更多。"
+ },
+ {
+  "seg": 114,
+  "start": 701.987,
+  "end": 704.247,
+  "speaker": "Unknown",
+  "en": "I think that's very bold and courageous.",
+  "zh": "我认为这是非常大胆、非常有勇气的。"
+ },
+ {
+  "seg": 115,
+  "start": 704.287,
+  "end": 712.029,
+  "speaker": "Unknown",
+  "en": "I mean, you need an amazing product and a ton of confidence in your product to really stand behind it and tie your revenue growth strategy towards that.",
+  "zh": "我的意思是,你需要一款了不起的产品,以及对你的产品巨大的信心,才能真正为它背书,并把你的营收增长策略与之绑定。"
+ },
+ {
+  "seg": 116,
+  "start": 712.329,
+  "end": 715.77,
+  "speaker": "Unknown",
+  "en": "But I think those companies were showing us that that was happening.",
+  "zh": "但我认为那些公司向我们展示了这是正在发生的事。"
+ },
+ {
+  "seg": 117,
+  "start": 715.87,
+  "end": 719.511,
+  "speaker": "Unknown",
+  "en": "And I think number two, the efficiency of that was amazing.",
+  "zh": "而我认为第二点,这种模式的效率是惊人的。"
+ },
+ {
+  "seg": 118,
+  "start": 719.551,
+  "end": 727.052,
+  "speaker": "Unknown",
+  "en": "Around Snowflake's IPO, a dollar of revenue acquired could become $1.60 in a matter of a year.",
+  "zh": "在 Snowflake IPO 前后,一美元获客营收可以在一年之内变成 1.60 美元。"
+ },
+ {
+  "seg": 119,
+  "start": 733.934,
+  "end": 746.797,
+  "speaker": "Unknown",
+  "en": "So we were seeing in 2021 a lot more of software, particularly in the infrastructure layer, realizing the capabilities and powers of aligning your value to the value the customer receives.",
+  "zh": "所以我们在 2021 年看到越来越多的软件公司,尤其是在基础设施层,认识到把你的价值与客户获得的价值对齐的能力和力量。"
+ },
+ {
+  "seg": 120,
+  "start": 747.678,
+  "end": 748.898,
+  "speaker": "Unknown",
+  "en": "Now, I think...",
+  "zh": "现在,我想……"
+ },
+ {
+  "seg": 121,
+  "start": 750.167,
+  "end": 752.048,
+  "speaker": "Unknown",
+  "en": "What changed was two of the things that I mentioned there.",
+  "zh": "改变的是我在那里提到的两件事。"
+ },
+ {
+  "seg": 122,
+  "start": 752.669,
+  "end": 770.302,
+  "speaker": "Unknown",
+  "en": "You saw a very challenging macroeconomic environment for software where it didn't matter how amazing your product was, if you charge based on seats and your customer did a massive downsizing, it didn't matter how great your product or service was, they were going to downsize that contract.",
+  "zh": "你看到了对软件而言非常艰难的宏观经济环境,这时你的产品有多出色已经不重要了,如果你按席位收费,而你的客户进行了大规模裁员,那么无论你的产品或服务有多好,他们都会缩减那份合同。"
+ },
+ {
+  "seg": 123,
+  "start": 771.528,
+  "end": 785.033,
+  "speaker": "Unknown",
+  "en": "And then second, sort of this wave of AI has exploded and we're not that many months from the original launch of ChatGPT, but we're continuing to see on a daily basis some amazing innovation there.",
+  "zh": "然后第二,这样一波 AI 浪潮爆发了,距离 ChatGPT 的首次发布才过了没几个月,但我们每天都在持续看到那里出现的惊人创新。"
+ },
+ {
+  "seg": 124,
+  "start": 785.233,
+  "end": 793.776,
+  "speaker": "Unknown",
+  "en": "And I think that wave is compounding together with some of the macro environment.",
+  "zh": "而我认为这波浪潮正在与一些宏观环境叠加在一起。"
+ },
+ {
+  "seg": 125,
+  "start": 793.796,
+  "end": 798.117,
+  "speaker": "Unknown",
+  "en": "And here's something that I've been thinking a lot about.",
+  "zh": "这里有一点是我一直在深入思考的。"
+ },
+ {
+  "seg": 126,
+  "start": 801.27,
+  "end": 803.131,
+  "speaker": "Unknown",
+  "en": "Platform shifts in the software industry.",
+  "zh": "软件行业的平台转移。"
+ },
+ {
+  "seg": 127,
+  "start": 803.611,
+  "end": 815.154,
+  "speaker": "Unknown",
+  "en": "Every major one has not only resulted in just a generation of companies providing significant innovation, it's also disrupted the software business model.",
+  "zh": "每一次重大的平台转移,不仅催生了一代提供重大创新的公司,它也颠覆了软件的商业模式。"
+ },
+ {
+  "seg": 128,
+  "start": 815.454,
+  "end": 829.218,
+  "speaker": "Unknown",
+  "en": "So you think about back to the PC era, that's where license-based pricing and the real conviction that the marginal cost of deploying software by printing out the next CD-ROM and installing it became a really attractive investment model.",
+  "zh": "所以你回想 PC 时代,那就是基于许可证的定价的起源,以及对「部署软件的边际成本就是刻出下一张 CD-ROM 并安装它」的真正信念,这变成了一种非常有吸引力的投资模式。"
+ },
+ {
+  "seg": 129,
+  "start": 829.738,
+  "end": 834.121,
+  "speaker": "Unknown",
+  "en": "Well, early cloud, that coincides with the SaaS-based business model.",
+  "zh": "那么,早期云计算,它与基于 SaaS 的商业模式相吻合。"
+ },
+ {
+  "seg": 130,
+  "start": 834.882,
+  "end": 844.748,
+  "speaker": "Unknown",
+  "en": "I think Gen.AI has the potential to shifting the value of software away from, do I have a login into a web product that I have access to, into more of an outcome-based orientation?",
+  "zh": "我认为 Gen.AI 有潜力把软件的价值从「我是否拥有一个我可以访问的网络产品的登录账号」,转变为更偏向基于结果的导向?"
+ },
+ {
+  "seg": 131,
+  "start": 844.788,
+  "end": 848.251,
+  "speaker": "Unknown",
+  "en": "Like, what can this agentic software do for me?",
+  "zh": "比如,这个智能体软件能为我做什么?"
+ },
+ {
+  "seg": 132,
+  "start": 848.311,
+  "end": 849.651,
+  "speaker": "Unknown",
+  "en": "What results can it achieve?",
+  "zh": "它能取得什么结果?"
+ },
+ {
+  "seg": 133,
+  "start": 849.932,
+  "end": 853.254,
+  "speaker": "Unknown",
+  "en": "Can I measure what results it's seeking to achieve?",
+  "zh": "我能否衡量它试图取得的结果?"
+ },
+ {
+  "seg": 134,
+  "start": 853.274,
+  "end": 858.758,
+  "speaker": "Unknown",
+  "en": "So I think there's something really unique about the potential to disrupt not just",
+  "zh": "所以我认为,这里有一种真正独特的东西,它有可能颠覆的不仅是"
+ },
+ {
+  "seg": 135,
+  "start": 860.479,
+  "end": 863.863,
+  "speaker": "Unknown",
+  "en": "The innovation of software, but also the monetization of software.",
+  "zh": "软件的创新,还有软件的变现方式。"
+ },
+ {
+  "seg": 136,
+  "start": 864.404,
+  "end": 871.992,
+  "speaker": "Unknown",
+  "en": "So when I think about what's to come, honest answer is like, we don't exactly know, but I think there's a ton of change in the ecosystem.",
+  "zh": "所以当我思考未来会怎样时,诚实的回答是,我们并不确切知道,但我认为这个生态系统中会有大量的变化。"
+ },
+ {
+  "seg": 137,
+  "start": 872.052,
+  "end": 874.956,
+  "speaker": "Unknown",
+  "en": "And I'm really excited about the role that Orb can play in this.",
+  "zh": "而我对 Orb 能在其中扮演的角色感到非常兴奋。"
+ },
+ {
+  "seg": 138,
+  "start": 875.775,
+  "end": 877.377,
+  "speaker": "Unknown",
+  "en": "A lot of what you just said resonates with me.",
+  "zh": "你刚才说的很多内容都引起我的共鸣。"
+ },
+ {
+  "seg": 139,
+  "start": 877.397,
+  "end": 883.483,
+  "speaker": "Unknown",
+  "en": "I remember back in 21, we were talking about Snowflake and Twilio and in the private markets, companies like Databricks.",
+  "zh": "我记得早在 21 年,我们在谈论 Snowflake 和 Twilio,以及在私募市场里像 Databricks 这样的公司。"
+ },
+ {
+  "seg": 140,
+  "start": 884.043,
+  "end": 894.313,
+  "speaker": "Unknown",
+  "en": "And there were like a few really great examples of why consumption base is great for you as a business and great for your customers because it aligns the pricing model with the value that's being delivered.",
+  "zh": "当时有一些非常出色的例子,说明为什么基于消费的模式对你的业务有好处、对你的客户也有好处,因为它把定价模式与所交付的价值对齐了。"
+ },
+ {
+  "seg": 141,
+  "start": 895.397,
+  "end": 908.485,
+  "speaker": "Unknown",
+  "en": "But when you fast forward to 2024, and to your point, now squarely in the generative AI era, I feel like there are very few companies that do not have consumption, at least as a part of the way they think about pricing.",
+  "zh": "但当你快进到 2024 年,正如你所说,现在已完全处于生成式 AI 时代,我觉得很少有公司不把消费纳入其定价思考方式之中,至少作为其中的一部分。"
+ },
+ {
+  "seg": 142,
+  "start": 909.545,
+  "end": 912.287,
+  "speaker": "Unknown",
+  "en": "And we have a lot of founders who listen to this show.",
+  "zh": "而我们有很多创始人收听这档节目。"
+ },
+ {
+  "seg": 143,
+  "start": 913.668,
+  "end": 916.649,
+  "speaker": "Unknown",
+  "en": "What are your learnings having worked with a lot of these AI companies?",
+  "zh": "你与很多这类 AI 公司合作过,你有哪些心得?"
+ },
+ {
+  "seg": 144,
+  "start": 917.81,
+  "end": 920.132,
+  "speaker": "Unknown",
+  "en": "How should people think about pricing around AI?",
+  "zh": "人们应该如何思考围绕 AI 的定价?"
+ },
+ {
+  "seg": 145,
+  "start": 920.212,
+  "end": 922.933,
+  "speaker": "Unknown",
+  "en": "How should they think about kind of monetizing AI?",
+  "zh": "他们应该如何思考 AI 的变现?"
+ },
+ {
+  "seg": 146,
+  "start": 923.053,
+  "end": 928.077,
+  "speaker": "Unknown",
+  "en": "Why is seat-based not as good of a fit, it seems, for these AI and agentic companies?",
+  "zh": "为什么按席位收费似乎不那么适合这些 AI 和智能体公司?"
+ },
+ {
+  "seg": 147,
+  "start": 929.198,
+  "end": 940.265,
+  "speaker": "Unknown",
+  "en": "Yeah, I think at a high level, one thing that we work with a lot of AI companies at Orb, and I think it's a real passion of mine to work with founders on their pricing strategies.",
+  "zh": "是的,我认为在较高的层面上,我们在 Orb 与很多 AI 公司合作,而与创始人一起打磨定价策略是我真正的热情所在。"
+ },
+ {
+  "seg": 148,
+  "start": 943.387,
+  "end": 946.249,
+  "speaker": "Unknown",
+  "en": "One thing that we have observed and we've been noticing is",
+  "zh": "我们观察到并且一直在注意的一点是"
+ },
+ {
+  "seg": 149,
+  "start": 947.398,
+  "end": 950.124,
+  "speaker": "Unknown",
+  "en": "The nature of AI businesses",
+  "zh": "AI 业务的本质"
+ },
+ {
+  "seg": 150,
+  "start": 951.071,
+  "end": 958.213,
+  "speaker": "Unknown",
+  "en": "From one, being very innovative and new and tapping new budgets in enterprises.",
+  "zh": "一方面，非常有创新性、很新，并且能够开拓企业的新预算。"
+ },
+ {
+  "seg": 151,
+  "start": 958.594,
+  "end": 964.236,
+  "speaker": "Unknown",
+  "en": "But second, also being fairly costly to run from a cost of goods sold perspective.",
+  "zh": "但另一方面，从销货成本的角度来看，运行成本也相当高。"
+ },
+ {
+  "seg": 152,
+  "start": 965.316,
+  "end": 969.177,
+  "speaker": "Unknown",
+  "en": "The cost of running AI infrastructure is not a small bill.",
+  "zh": "运行 AI 基础设施的成本不是一笔小账单。"
+ },
+ {
+  "seg": 153,
+  "start": 969.737,
+  "end": 980.181,
+  "speaker": "Unknown",
+  "en": "So what we're observing is that founders are thinking about their pricing strategy much earlier in the company building journey than they otherwise would have had to.",
+  "zh": "所以我们观察到的是，创始人在公司建设旅程中比原本必须的更早开始思考他们的定价策略。"
+ },
+ {
+  "seg": 154,
+  "start": 980.521,
+  "end": 983.384,
+  "speaker": "Unknown",
+  "en": "Now, I think that's actually a really great thing.",
+  "zh": "现在，我认为这其实是一件非常好的事情。"
+ },
+ {
+  "seg": 155,
+  "start": 983.444,
+  "end": 984.966,
+  "speaker": "Unknown",
+  "en": "It's a great thing for the ecosystem.",
+  "zh": "这对生态系统来说是一件好事。"
+ },
+ {
+  "seg": 156,
+  "start": 985.026,
+  "end": 989.09,
+  "speaker": "Unknown",
+  "en": "It means that we can build stronger and more efficient businesses from the get-go.",
+  "zh": "这意味着我们从一开始就能构建更强壮、更高效的企业。"
+ },
+ {
+  "seg": 157,
+  "start": 989.57,
+  "end": 998.54,
+  "speaker": "Unknown",
+  "en": "And actually, there are some interesting considerations with pricing in AI, but by and large, I think I like to start by saying",
+  "zh": "实际上，关于 AI 中的定价有一些有趣的考量，但总体而言，我想先说"
+ },
+ {
+  "seg": 158,
+  "start": 999.1,
+  "end": 1003.483,
+  "speaker": "Unknown",
+  "en": "AI pricing is just great pricing strategy and goes back to the fundamentals.",
+  "zh": "AI 定价就是出色的定价策略，要回归基本面。"
+ },
+ {
+  "seg": 159,
+  "start": 1003.863,
+  "end": 1006.525,
+  "speaker": "Unknown",
+  "en": "So there it's really about like one, can you keep it simple?",
+  "zh": "所以在这方面，关键其实是，第一，你能否保持简单？"
+ },
+ {
+  "seg": 160,
+  "start": 1006.806,
+  "end": 1012.57,
+  "speaker": "Unknown",
+  "en": "At the end of the day, whatever pricing strategy you come up with can't live in like an Excel model math spreadsheet.",
+  "zh": "归根结底，无论你想出什么定价策略，它都不能只存在于像 Excel 模型这样的数学表格里。"
+ },
+ {
+  "seg": 161,
+  "start": 1012.89,
+  "end": 1016.973,
+  "speaker": "Unknown",
+  "en": "It needs to be communicated to a customer in a sales oriented conversation.",
+  "zh": "它需要在面向销售对话中传达给客户。"
+ },
+ {
+  "seg": 162,
+  "start": 1016.993,
+  "end": 1019.775,
+  "speaker": "Unknown",
+  "en": "So it needs to be kind of simple, understandable and aligned.",
+  "zh": "所以它需要是某种意义上简单的、可理解的、并且是对齐的。"
+ },
+ {
+  "seg": 163,
+  "start": 1020.535,
+  "end": 1023.319,
+  "speaker": "Unknown",
+  "en": "Second, I think you should be aware of your cost structures.",
+  "zh": "第二，我认为你应该了解自己的成本结构。"
+ },
+ {
+  "seg": 164,
+  "start": 1023.359,
+  "end": 1028.186,
+  "speaker": "Unknown",
+  "en": "You should have an understanding of what drives your costs, what's your margin profile.",
+  "zh": "你应该了解是什么驱动了你的成本，你的利润率状况是什么样的。"
+ },
+ {
+  "seg": 165,
+  "start": 1029.848,
+  "end": 1034.134,
+  "speaker": "Unknown",
+  "en": "You rarely, when it comes to sort of value-based pricing, you rarely want to like",
+  "zh": "你很少——当涉及到某种基于价值的定价时，你很少想要"
+ },
+ {
+  "seg": 166,
+  "start": 1034.964,
+  "end": 1046.508,
+  "speaker": "Unknown",
+  "en": "Directly tie your pricing strategy to your cost structure, but particularly when that OpenAI or Anthropic bill is so high, you want to have some awareness and understanding of where directionally that is headed.",
+  "zh": "把你的定价策略直接与你的成本结构挂钩，但特别是当那张 OpenAI 或 Anthropic 的账单如此之高时，你想要对它大方向上的走向有一定的认知和理解。"
+ },
+ {
+  "seg": 167,
+  "start": 1047.008,
+  "end": 1049.829,
+  "speaker": "Unknown",
+  "en": "And then I think number three, it's about flexibility and iteration.",
+  "zh": "然后我认为第三点，是关于灵活性和迭代。 [[168}] 你不会一开始就做对。"
+ },
+ {
+  "seg": 168,
+  "start": 1050.149,
+  "end": 1051.889,
+  "speaker": "Unknown",
+  "en": "You're not going to get it right in the get-go.",
+  "zh": "你不可能一开始就把它做对。"
+ },
+ {
+  "seg": 169,
+  "start": 1052.87,
+  "end": 1056.811,
+  "speaker": "Unknown",
+  "en": "You have to try out some things, learn in the market, and evolve from there.",
+  "zh": "你必须尝试一些东西，在市场中学习，并从那里演进。"
+ },
+ {
+  "seg": 170,
+  "start": 1057.171,
+  "end": 1061.212,
+  "speaker": "Unknown",
+  "en": "So when you think about that, one, really tying to",
+  "zh": "所以当你思考这一点时，第一，真正地联系到"
+ },
+ {
+  "seg": 171,
+  "start": 1063.033,
+  "end": 1063.733,
+  "speaker": "Unknown",
+  "en": "Tying to value.",
+  "zh": "联系到价值。"
+ },
+ {
+  "seg": 172,
+  "start": 1063.834,
+  "end": 1066.255,
+  "speaker": "Unknown",
+  "en": "Second, it's understanding of margins.",
+  "zh": "第二，是对利润率的理解。"
+ },
+ {
+  "seg": 173,
+  "start": 1066.295,
+  "end": 1068.997,
+  "speaker": "Unknown",
+  "en": "And third, it's about testing various pricing strategies.",
+  "zh": "第三，是关于测试各种定价策略。"
+ },
+ {
+  "seg": 174,
+  "start": 1069.457,
+  "end": 1074.24,
+  "speaker": "Unknown",
+  "en": "There's very little AI to do there and much more about how do we build great software pricing models.",
+  "zh": "这方面几乎没有 AI 可做，更多的是关于我们如何构建出色的软件定价模型。"
+ },
+ {
+  "seg": 175,
+  "start": 1076.141,
+  "end": 1084.406,
+  "speaker": "Unknown",
+  "en": "Yeah, that was some really good learnings and advice from the customers that you've partnered with and sort of the role AI is having on how they think about pricing.",
+  "zh": "是的，那是来自你合作过的一些非常好的学习和建议，关于客户，以及 AI 在他们思考定价方式上所起的作用。"
+ },
+ {
+  "seg": 176,
+  "start": 1086.372,
+  "end": 1087.473,
+  "speaker": "Unknown",
+  "en": "Maybe one question.",
+  "zh": "也许问一个问题。"
+ },
+ {
+  "seg": 177,
+  "start": 1088.154,
+  "end": 1094.78,
+  "speaker": "Unknown",
+  "en": "Do I, as a customer, need to sort of be usage-based or fully switch to usage-based to be a good fit for you at Orb?",
+  "zh": "作为客户，我是否需要采用基于用量的模式，或者完全切换到基于用量的模式，才能适合你们 Orb？"
+ },
+ {
+  "seg": 178,
+  "start": 1097.042,
+  "end": 1097.242,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不需要。"
+ },
+ {
+  "seg": 179,
+  "start": 1097.742,
+  "end": 1107.011,
+  "speaker": "Unknown",
+  "en": "And actually, if you think about it, there are many businesses for which a pure-play Paysio consumption bottle is just not a great fit.",
+  "zh": "而且实际上，如果你想想看，有很多企业，一个纯粹的 Paysio 消费瓶并不适合。"
+ },
+ {
+  "seg": 180,
+  "start": 1107.851,
+  "end": 1109.333,
+  "speaker": "Unknown",
+  "en": "And that's because there",
+  "zh": "那是因为在那里"
+ },
+ {
+  "seg": 181,
+  "start": 1111.419,
+  "end": 1116.203,
+  "speaker": "Unknown",
+  "en": "I think I shared this a little bit when I was telling you about my experience into this world.",
+  "zh": "我想我在向你讲述我进入这个世界的经历时已经分享过一点。"
+ },
+ {
+  "seg": 182,
+  "start": 1116.243,
+  "end": 1118.104,
+  "speaker": "Unknown",
+  "en": "I used to think that pricing was about math.",
+  "zh": "我曾经认为定价是关于数学的。"
+ },
+ {
+  "seg": 183,
+  "start": 1118.385,
+  "end": 1119.085,
+  "speaker": "Unknown",
+  "en": "It's not about math.",
+  "zh": "它不是关于数学的。"
+ },
+ {
+  "seg": 184,
+  "start": 1119.145,
+  "end": 1127.652,
+  "speaker": "Unknown",
+  "en": "It's about understanding the specifics of your customers and your market, which means that maybe more of a seats plus consumption hybrid strategy might be better for you.",
+  "zh": "它是关于理解你的客户和你的市场的具体情况，这意味着也许更多一种席位加消费的混合策略可能更适合你。"
+ },
+ {
+  "seg": 185,
+  "start": 1128.052,
+  "end": 1134.598,
+  "speaker": "Unknown",
+  "en": "Or maybe it's like you use usage-based limits in your feature tiering to drive upsells through what you're doing.",
+  "zh": "或者也许是在你的功能分层中使用基于用量的限制来推动追加销售。"
+ },
+ {
+  "seg": 186,
+  "start": 1135.258,
+  "end": 1138.521,
+  "speaker": "Unknown",
+  "en": "I think the common denominator in all of this, though, is flexibility.",
+  "zh": "不过，我认为所有这些的共同点是灵活性。"
+ },
+ {
+  "seg": 187,
+  "start": 1139.001,
+  "end": 1150.511,
+  "speaker": "Unknown",
+  "en": "I think too many existing approaches to billing just rely on pricing as like a one-and-done, you set it and forget it, and you miss on the fact that you have to kind of keep evolving it.",
+  "zh": "我认为太多现有的计费方式只是把定价当作一次性的，你设置好然后就不管了，而错失了这样一个事实：你必须持续地演进它。"
+ },
+ {
+  "seg": 188,
+  "start": 1150.632,
+  "end": 1154.014,
+  "speaker": "Unknown",
+  "en": "So I think to be a great fit for Orb...",
+  "zh": "所以我认为要成为 Orb 的良好契合……"
+ },
+ {
+  "seg": 189,
+  "start": 1154.915,
+  "end": 1160.598,
+  "speaker": "Unknown",
+  "en": "You as an organization, I think you need to be seeking more flexibility in your monetization.",
+  "zh": "作为一个组织，我认为你需要在你的货币化中寻求更多的灵活性。"
+ },
+ {
+  "seg": 190,
+  "start": 1160.618,
+  "end": 1169.422,
+  "speaker": "Unknown",
+  "en": "And I think that's something that every software company today and tomorrow is going to need to really stay competitive, evolve, and get more efficient.",
+  "zh": "而且我认为今天和明天的每一家软件公司都需要这一点，才能真正保持竞争力、演进，并变得更高效。"
+ },
+ {
+  "seg": 191,
+  "start": 1170.96,
+  "end": 1173.202,
+  "speaker": "Unknown",
+  "en": "I want to move to the sort of billing landscape.",
+  "zh": "我想转到计费格局这个话题。"
+ },
+ {
+  "seg": 192,
+  "start": 1173.382,
+  "end": 1178.286,
+  "speaker": "Unknown",
+  "en": "But before we do that, I have one more question just around pricing and pricing themes.",
+  "zh": "但在那之前，我还有一个问题，只是围绕定价和定价主题。"
+ },
+ {
+  "seg": 193,
+  "start": 1179.647,
+  "end": 1187.493,
+  "speaker": "Unknown",
+  "en": "Based on your sort of vantage point working with a lot of these leading companies, you get to see around the corner on like what are the most innovative people doing around pricing.",
+  "zh": "基于你与很多这些领先公司合作的视角，你能够预见拐角处的情况，比如最有创新力的人在定价方面正在做什么。"
+ },
+ {
+  "seg": 194,
+  "start": 1188.053,
+  "end": 1191.876,
+  "speaker": "Unknown",
+  "en": "And so I want to ask you to like now fast forward three years into the future.",
+  "zh": "所以我想请你现在快进三年到未来。"
+ },
+ {
+  "seg": 195,
+  "start": 1193.237,
+  "end": 1193.937,
+  "speaker": "Unknown",
+  "en": "What's coming?",
+  "zh": "会有什么到来？"
+ },
+ {
+  "seg": 196,
+  "start": 1194.438,
+  "end": 1198.281,
+  "speaker": "Unknown",
+  "en": "What sort of trend should we expect to see in the world of pricing over the next several years?",
+  "zh": "在接下来几年中，我们应该在定价领域预期看到什么样的趋势？"
+ },
+ {
+  "seg": 197,
+  "start": 1200.088,
+  "end": 1208.175,
+  "speaker": "Unknown",
+  "en": "I am deeply fascinated about the early experimentation that we're doing as an industry around an outcome-based pricing model.",
+  "zh": "我对我们作为一个行业围绕基于结果的定价模型所做的早期实验深感着迷。"
+ },
+ {
+  "seg": 198,
+  "start": 1208.715,
+  "end": 1210.937,
+  "speaker": "Unknown",
+  "en": "Let me get a little bit mathematical here.",
+  "zh": "让我在这里讲得稍微数学一点。"
+ },
+ {
+  "seg": 199,
+  "start": 1211.037,
+  "end": 1220.525,
+  "speaker": "Unknown",
+  "en": "If you think about a hypothetical value curve where you're charting out the true value that a software solution is delivering to a customer, it's ROI and whatnot.",
+  "zh": "如果你想想一条假设的价值曲线，你描绘出一个软件解决方案为客户交付的真实价值，它的 ROI 之类的东西。"
+ },
+ {
+  "seg": 200,
+  "start": 1222.55,
+  "end": 1226.013,
+  "speaker": "Unknown",
+  "en": "Pricing strategy is about trying to approximate that curve as much as you can.",
+  "zh": "定价策略就是尽可能地去逼近那条曲线。"
+ },
+ {
+  "seg": 201,
+  "start": 1226.633,
+  "end": 1228.235,
+  "speaker": "Unknown",
+  "en": "And there's a few ways that you can do it.",
+  "zh": "有几种方法可以做到。"
+ },
+ {
+  "seg": 202,
+  "start": 1228.255,
+  "end": 1237.002,
+  "speaker": "Unknown",
+  "en": "You can think about it as a license-based pricing where you're trying to just draw a line somewhere and say, that's my approximation of value is a particular cost for a license.",
+  "zh": "你可以把它想成基于许可证的定价，你只是试着在某处画一条线，说，这就是我对价值的近似，即某个特定的许可证费用。"
+ },
+ {
+  "seg": 203,
+  "start": 1237.662,
+  "end": 1247.09,
+  "speaker": "Unknown",
+  "en": "Seat-based, try to make it a little bit more of a closer approximation where maybe you're approximating based on the number of seats that you're provisioning, what that value is.",
+  "zh": "基于席位的定价，试着让它更接近一点，也许你是根据你开通的席位数量来近似那个价值。"
+ },
+ {
+  "seg": 204,
+  "start": 1247.75,
+  "end": 1249.431,
+  "speaker": "Unknown",
+  "en": "But at the end of the day, you're still kind of",
+  "zh": "但归根结底，你仍然是在某种意义上"
+ },
+ {
+  "seg": 205,
+  "start": 1250.568,
+  "end": 1254.793,
+  "speaker": "Unknown",
+  "en": "chasing around this idea of like, this is the ROI that I get out of software.",
+  "zh": "追逐这样一个想法，比如，这是我从软件中获得的 ROI。"
+ },
+ {
+  "seg": 206,
+  "start": 1255.878,
+  "end": 1264.541,
+  "speaker": "Unknown",
+  "en": "The idea behind outcome-based pricing is what if you price based on a measurable outcome that you are seeking to get out of a software solution?",
+  "zh": "基于结果的定价背后的想法是，如果你根据你希望从软件解决方案中获得的一个可衡量的结果来定价会怎么样？"
+ },
+ {
+  "seg": 207,
+  "start": 1265.901,
+  "end": 1273.283,
+  "speaker": "Unknown",
+  "en": "I think we've seen some really interesting early experiments around this, particularly around the customer service help desk software space.",
+  "zh": "我认为我们已经看到了一些非常有趣的早期实验，尤其是在客户服务帮助台软件这个领域。"
+ },
+ {
+  "seg": 208,
+  "start": 1273.343,
+  "end": 1280.746,
+  "speaker": "Unknown",
+  "en": "So solutions like Zendesk AI have a way for an agent that's answering a question on behalf of a customer.",
+  "zh": "所以像 Zendesk AI 这样的解决方案，有一种方式，针对一个代表客户回答问题的智能体。"
+ },
+ {
+  "seg": 209,
+  "start": 1281.726,
+  "end": 1284.347,
+  "speaker": "Unknown",
+  "en": "You can, at the end of that interaction, ask the customer,",
+  "zh": "你可以在那次交互结束时问客户，"
+ },
+ {
+  "seg": 210,
+  "start": 1284.687,
+  "end": 1288.189,
+  "speaker": "Unknown",
+  "en": "Did you get your question answered or do I need to kick you up to somebody else?",
+  "zh": "你的问题得到解答了吗，还是我需要把你升级给其他人？"
+ },
+ {
+  "seg": 211,
+  "start": 1288.79,
+  "end": 1293.112,
+  "speaker": "Unknown",
+  "en": "If that customer marks that question as resolved, that is an outcome.",
+  "zh": "如果那个客户把该问题标记为已解决，那就是一个结果。"
+ },
+ {
+  "seg": 212,
+  "start": 1293.252,
+  "end": 1296.955,
+  "speaker": "Unknown",
+  "en": "So solutions like Zendesk AI are seeking to price based on that outcome.",
+  "zh": "所以像 Zendesk AI 这样的解决方案正在寻求基于该结果来定价。"
+ },
+ {
+  "seg": 213,
+  "start": 1300.119,
+  "end": 1311.764,
+  "speaker": "Unknown",
+  "en": "One thing that I think is going to be really interesting is thinking about like a pay for performance type strategy that perhaps we saw in ad pricing and ad campaigns.",
+  "zh": "我认为会非常有趣的一件事是，考虑一种类似按效果付费的策略，就像我们在广告定价和广告活动中看到的那样。"
+ },
+ {
+  "seg": 214,
+  "start": 1311.804,
+  "end": 1320.807,
+  "speaker": "Unknown",
+  "en": "If you think about it, marketing campaign at Orb, we are setting aside a budget and that budget is a proxy for the kind of results that we want to get out of this campaign.",
+  "zh": "你想想，在 Orb 的营销活动中，我们会划出一笔预算，而这笔预算是我们想从这个活动中获得的那种结果的代理。"
+ },
+ {
+  "seg": 215,
+  "start": 1320.827,
+  "end": 1327.81,
+  "speaker": "Unknown",
+  "en": "Look, I'm going to put $10,000 towards this campaign because I'm expecting to get some sort of return against",
+  "zh": "看，我要向这个活动投入 1 万美元，因为我期望能从中获得某种回报，针对"
+ },
+ {
+  "seg": 216,
+  "start": 1329.111,
+  "end": 1329.811,
+  "speaker": "Unknown",
+  "en": "lead generation.",
+  "zh": "线索生成。"
+ },
+ {
+  "seg": 217,
+  "start": 1330.292,
+  "end": 1333.294,
+  "speaker": "Unknown",
+  "en": "If I put less budget, I expect less performance.",
+  "zh": "如果我投入更少的预算，我预期更少的效果。"
+ },
+ {
+  "seg": 218,
+  "start": 1333.334,
+  "end": 1335.255,
+  "speaker": "Unknown",
+  "en": "If I put more budget, more results.",
+  "zh": "如果我投入更多预算，更多结果。"
+ },
+ {
+  "seg": 219,
+  "start": 1336.296,
+  "end": 1351.108,
+  "speaker": "Unknown",
+  "en": "I think we're perhaps going to start seeing software adopt a similar model where maybe you can pay less and you get a little bit less of a sophisticated foundation model or a less sophisticated agent to run your task.",
+  "zh": "我想我们也许会开始看到软件采用类似的模式，也许你可以付更少的钱，得到一个稍微不那么复杂的基础模型，或者一个不那么复杂的智能体来执行你的任务。"
+ },
+ {
+  "seg": 220,
+  "start": 1351.448,
+  "end": 1353.95,
+  "speaker": "Unknown",
+  "en": "You can pay more and you can get higher results.",
+  "zh": "你可以付更多的钱，获得更高的结果。"
+ },
+ {
+  "seg": 221,
+  "start": 1354.951,
+  "end": 1364.717,
+  "speaker": "Unknown",
+  "en": "I don't know, perhaps we're going to start thinking about value delivered as a lot more granular and tight to budgets than we are right now.",
+  "zh": "我不知道，也许我们会开始把交付的价值想得比现在更加细粒度、与预算绑定得更紧密。"
+ },
+ {
+  "seg": 222,
+  "start": 1365.577,
+  "end": 1372.301,
+  "speaker": "Unknown",
+  "en": "I think another thing that I just want to add in this space is to give the audience a little bit of a sense of how quickly this is changing.",
+  "zh": "我想在这个领域我还想补充一点，就是让观众稍微感受一下这一切变化得有多快。"
+ },
+ {
+  "seg": 223,
+  "start": 1373.502,
+  "end": 1378.224,
+  "speaker": "Unknown",
+  "en": "I saw a tweet from Jammin' Ball on Twitter last week that was really interesting to me.",
+  "zh": "上周我在 Twitter 上看到 Jammin' Ball 发的一条推文，对我来说非常有意思。"
+ },
+ {
+  "seg": 224,
+  "start": 1379.425,
+  "end": 1391.015,
+  "speaker": "Unknown",
+  "en": "So since the launch of the GPT-4 model family of OpenAI, the price per token has dropped over nearly 90% since its release.",
+  "zh": "自从 OpenAI 的 GPT-4 模型家族发布以来，每 token 的价格自发布以来已经下降了近 90%。"
+ },
+ {
+  "seg": 225,
+  "start": 1391.575,
+  "end": 1393.357,
+  "speaker": "Unknown",
+  "en": "So if you think about, you know,",
+  "zh": "所以你想想，"
+ },
+ {
+  "seg": 226,
+  "start": 1394.219,
+  "end": 1400.381,
+  "speaker": "Unknown",
+  "en": "Less than 12 months ago, you're starting to, as an AI company, leaning on OpenAI's models.",
+  "zh": "不到 12 个月前，作为一家 AI 公司，你开始依赖 OpenAI 的模型。"
+ },
+ {
+  "seg": 227,
+  "start": 1400.401,
+  "end": 1404.923,
+  "speaker": "Unknown",
+  "en": "You're trying to come up with a monetization structure based on those cost models.",
+  "zh": "你正试图基于那些成本模型设计出一个变现结构。"
+ },
+ {
+  "seg": 228,
+  "start": 1405.323,
+  "end": 1407.944,
+  "speaker": "Unknown",
+  "en": "And months in, it's dropped nearly 90%.",
+  "zh": "而才过了几个月，价格已经下降了近 90%。"
+ },
+ {
+  "seg": 229,
+  "start": 1408.744,
+  "end": 1413.966,
+  "speaker": "Unknown",
+  "en": "I think in that example, Jamin also showed how the costs of S3 on AWS has dropped 97% since 2013.",
+  "zh": "我想在那个例子里，Jamin 还展示了 AWS 上的 S3 成本自 2013 年以来已经下降了 97%。"
+ },
+ {
+  "seg": 230,
+  "start": 1414.106,
+  "end": 1416.087,
+  "speaker": "Unknown",
+  "en": "So think about that kind of massive...",
+  "zh": "所以想想那种大规模的……"
+ },
+ {
+  "seg": 231,
+  "start": 1421.556,
+  "end": 1426.618,
+  "speaker": "Unknown",
+  "en": "You know, that's opening up a whole new set of business models that were before, you know, not even possible.",
+  "zh": "你知道，这正在打开一整套全新的商业模式，在那之前，你知道，甚至是不可能的。"
+ },
+ {
+  "seg": 232,
+  "start": 1426.978,
+  "end": 1429.338,
+  "speaker": "Unknown",
+  "en": "But that timeline is not happening in 11 years.",
+  "zh": "但那个时间线不是 11 年。"
+ },
+ {
+  "seg": 233,
+  "start": 1429.718,
+  "end": 1430.959,
+  "speaker": "Unknown",
+  "en": "It's happening in months.",
+  "zh": "而是几个月。"
+ },
+ {
+  "seg": 234,
+  "start": 1431.399,
+  "end": 1433.54,
+  "speaker": "Unknown",
+  "en": "And that's the ecosystem that we're living in today.",
+  "zh": "这就是我们今天所处的生态系统。"
+ },
+ {
+  "seg": 235,
+  "start": 1433.58,
+  "end": 1438.261,
+  "speaker": "Unknown",
+  "en": "It's one that's just evolving way faster than any of us would have expected.",
+  "zh": "这是一个演进速度远超我们所有人预期的领域。"
+ },
+ {
+  "seg": 236,
+  "start": 1439.576,
+  "end": 1440.556,
+  "speaker": "Unknown",
+  "en": "I love those examples.",
+  "zh": "我喜欢这些例子。"
+ },
+ {
+  "seg": 237,
+  "start": 1440.576,
+  "end": 1456.101,
+  "speaker": "Unknown",
+  "en": "It feels like just zooming up, the point you're making is we're on this arc dating back to the PC era to now where we are with the AI era and outcome-based pricing to get pricing to be as close to possible to actual value delivery and recognition.",
+  "zh": "感觉就像往上拉远一点，你提出的要点是，我们正处在这条从 PC 时代一直延续到现在 AI 时代的弧线上，通过基于结果的定价，让定价尽可能接近实际的价值交付和价值确认。"
+ },
+ {
+  "seg": 238,
+  "start": 1456.121,
+  "end": 1460.162,
+  "speaker": "Unknown",
+  "en": "And that's just a really good arc for us to be on as an ecosystem.",
+  "zh": "而这作为整个生态系统所处的弧线是非常好的。"
+ },
+ {
+  "seg": 239,
+  "start": 1460.202,
+  "end": 1464.143,
+  "speaker": "Unknown",
+  "en": "And then that arc requires really fast iteration experimentation",
+  "zh": "然后那条弧线需要非常快速的迭代实验，"
+ },
+ {
+  "seg": 240,
+  "start": 1465.103,
+  "end": 1470.306,
+  "speaker": "Unknown",
+  "en": "And sort of dynamic data-driven pricing, and it feels impossible to do without a platform like Orb.",
+  "zh": "以及某种动态的、数据驱动的定价，而没有像 Orb 这样的平台，感觉这是不可能做到的。"
+ },
+ {
+  "seg": 241,
+  "start": 1470.806,
+  "end": 1471.246,
+  "speaker": "Unknown",
+  "en": "That's the thing.",
+  "zh": "就是这么回事。"
+ },
+ {
+  "seg": 242,
+  "start": 1471.266,
+  "end": 1484.792,
+  "speaker": "Unknown",
+  "en": "I mean, honestly, I don't think it's hyperbolic to say if the industry is changing that fast and your engineering team, much like me, is going to tell you it's going to take a year to shift pricing, maybe you're not going to stand up to the competition.",
+  "zh": "我是说，老实说，我认为这样说并不夸张：如果行业变化得那么快，而你的工程团队，就像我的团队一样，会告诉你调整定价需要一年时间，也许你就在竞争中撑不住了。"
+ },
+ {
+  "seg": 243,
+  "start": 1485.493,
+  "end": 1485.713,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 244,
+  "start": 1486.63,
+  "end": 1489.552,
+  "speaker": "Unknown",
+  "en": "So Oliver, you guys are not the first people to build a billing company.",
+  "zh": "那么 Oliver，你们并不是第一批做计费公司的人。"
+ },
+ {
+  "seg": 245,
+  "start": 1489.632,
+  "end": 1498.498,
+  "speaker": "Unknown",
+  "en": "Billing is a tried and true category, important category of software, maybe one of the most since it's what truly powers businesses.",
+  "zh": "计费是一个久经考验的品类，是软件中重要的品类，也许是最重要的品类之一，因为它是真正驱动 businesses 的东西。"
+ },
+ {
+  "seg": 246,
+  "start": 1499.758,
+  "end": 1501.84,
+  "speaker": "Unknown",
+  "en": "Let's talk a little bit about the landscape.",
+  "zh": "我们来聊一聊这个领域的格局。"
+ },
+ {
+  "seg": 247,
+  "start": 1502.06,
+  "end": 1510.205,
+  "speaker": "Unknown",
+  "en": "I'm curious, like when you talk to customers, what do people tell you about their existing sort of more traditional solutions and what sort of pain points do they share with you?",
+  "zh": "我很好奇，比如当你和客户交谈时，人们关于他们现有的那些更传统的解决方案会告诉你什么，他们会和你分享什么样的痛点？"
+ },
+ {
+  "seg": 248,
+  "start": 1511.406,
+  "end": 1512.987,
+  "speaker": "Unknown",
+  "en": "I think the overall",
+  "zh": "我认为总体的"
+ },
+ {
+  "seg": 249,
+  "start": 1514.767,
+  "end": 1518.609,
+  "speaker": "Unknown",
+  "en": "Blocker and PainPoint here is lack of flexibility and agility.",
+  "zh": "阻碍因素和痛点在于缺乏灵活性和敏捷性。"
+ },
+ {
+  "seg": 250,
+  "start": 1519.089,
+  "end": 1528.034,
+  "speaker": "Unknown",
+  "en": "So I'm up against a new product launch, an important price change, or like 10x significant growth that's like breaking everything that we have in place.",
+  "zh": "所以我要面对一次新产品发布、一次重要的价格变更，或者像是 10 倍级的显著增长，而增长正在打破我们现有的所有东西。"
+ },
+ {
+  "seg": 251,
+  "start": 1528.714,
+  "end": 1536.358,
+  "speaker": "Unknown",
+  "en": "And the billing vendor or billing infrastructure I have in place is just not built for the evolution and change that I'm expecting it to.",
+  "zh": "而我所部署的计费供应商或计费基础设施，根本不是为我预期的那种演进和变化而构建的。"
+ },
+ {
+  "seg": 252,
+  "start": 1536.718,
+  "end": 1551.521,
+  "speaker": "Unknown",
+  "en": "So specifically, it's either built really around this idea of a more subscription seat model that just does not jive with the kind of more flexibility that a consumption or usage-based pricing model requires and or",
+  "zh": "具体来说，它要么是围绕一种更偏订阅席位模型的理念构建的，这与消费型或基于用量的定价模型所需要的灵活性根本不合拍，又或者"
+ },
+ {
+  "seg": 253,
+  "start": 1552.2,
+  "end": 1556.883,
+  "speaker": "Unknown",
+  "en": "You know, I might support the pricing from yesterday, but now I'm going in a different direction.",
+  "zh": "你知道，我也许支持的是昨天的定价，但现在我要往另一个方向走了。"
+ },
+ {
+  "seg": 254,
+  "start": 1557.443,
+  "end": 1559.945,
+  "speaker": "Unknown",
+  "en": "I get no help to actually make that shift.",
+  "zh": "我得不到任何帮助来完成那种转变。"
+ },
+ {
+  "seg": 255,
+  "start": 1560.585,
+  "end": 1565.228,
+  "speaker": "Unknown",
+  "en": "At the end of the day, I have contracts and customers with rolling start dates on old pricing models.",
+  "zh": "归根结底，我手里有合同，有在旧定价模式下采用滚动起始日期的客户。"
+ },
+ {
+  "seg": 256,
+  "start": 1565.828,
+  "end": 1571.411,
+  "speaker": "Unknown",
+  "en": "And if I want to change how I'm doing business, I'm going to have to run some price changes and get customers over to new pricing.",
+  "zh": "而如果我想改变经营方式，我就得执行一些价格变更，把客户迁移到新定价上。"
+ },
+ {
+  "seg": 257,
+  "start": 1571.771,
+  "end": 1572.452,
+  "speaker": "Unknown",
+  "en": "That's really hard.",
+  "zh": "这真的很难。"
+ },
+ {
+  "seg": 258,
+  "start": 1572.952,
+  "end": 1582.237,
+  "speaker": "Unknown",
+  "en": "And I'd say that the fundamental gap here is that a lot of previous approaches to billing focused on just the automation piece of the value delivered.",
+  "zh": "我想说的根本差距在于，以往很多计费方案只关注所交付价值中的自动化那部分。"
+ },
+ {
+  "seg": 259,
+  "start": 1582.277,
+  "end": 1589.802,
+  "speaker": "Unknown",
+  "en": "There is a manual invoicing process that somebody on the finance team would have to one-by-one issue invoices to customers.",
+  "zh": "原本存在一个手动开票流程，财务团队里得有人逐一向客户开具发票。"
+ },
+ {
+  "seg": 260,
+  "start": 1589.822,
+  "end": 1597.206,
+  "speaker": "Unknown",
+  "en": "So software comes in and we're going to automate that and make it require, take way less time and be more precise.",
+  "zh": "于是软件出现了，我们要把那个流程自动化，让它耗时大幅减少，并且更加精确。"
+ },
+ {
+  "seg": 261,
+  "start": 1597.766,
+  "end": 1598.507,
+  "speaker": "Unknown",
+  "en": "That's great, but...",
+  "zh": "那很好，但是……"
+ },
+ {
+  "seg": 262,
+  "start": 1600.088,
+  "end": 1604.711,
+  "speaker": "Unknown",
+  "en": "When you think about the life cycle of a company, pricing evolution is often not considered.",
+  "zh": "当你思考一家公司的生命周期时，定价演进往往没有被纳入考虑。"
+ },
+ {
+  "seg": 263,
+  "start": 1605.051,
+  "end": 1608.193,
+  "speaker": "Unknown",
+  "en": "So I think we saw these pain points.",
+  "zh": "所以我们在上一家公司就看到了这些痛点。"
+ },
+ {
+  "seg": 264,
+  "start": 1608.233,
+  "end": 1611.274,
+  "speaker": "Unknown",
+  "en": "We saw these problems at our previous company.",
+  "zh": "我们看到了这些问题。"
+ },
+ {
+  "seg": 265,
+  "start": 1611.815,
+  "end": 1618.658,
+  "speaker": "Unknown",
+  "en": "And when founding Orb, we started with, what would it look like to build an extensibility first billing system?",
+  "zh": "而在创立 Orb 时，我们从这样一个问题出发：构建一个以可扩展性为先的计费系统会是什么样子？"
+ },
+ {
+  "seg": 266,
+  "start": 1620.079,
+  "end": 1633.27,
+  "speaker": "Unknown",
+  "en": "is designed not just to be possible to represent new and different kinds of monetization strategies, but actually help you get there, make it really kind of possible and easy to get there.",
+  "zh": "它的设计不仅要能够表示各种新的、不同的变现策略，而且要真正帮助你到达那里，让到达那里变得真正可行且容易。"
+ },
+ {
+  "seg": 267,
+  "start": 1633.33,
+  "end": 1638.674,
+  "speaker": "Unknown",
+  "en": "So when I think about some of the results that we've driven for our customers, I'm super proud of we",
+  "zh": "所以当我想到我们为客户驱动的一些成果时，我感到非常自豪，我们"
+ },
+ {
+  "seg": 268,
+  "start": 1639.855,
+  "end": 1644.439,
+  "speaker": "Unknown",
+  "en": "We helped the Vercel team launch billing for V0, their generative UI product.",
+  "zh": "我们帮助 Vercel 团队为 V0(他们的生成式 UI 产品)上线了计费。"
+ },
+ {
+  "seg": 269,
+  "start": 1644.499,
+  "end": 1652.606,
+  "speaker": "Unknown",
+  "en": "We helped the Pinecone team launch billing for serverless, their sort of innovative architecture towards the vector database space.",
+  "zh": "我们帮助 Pinecone 团队为无服务器上线了计费，这是他们在向量数据库领域的一种创新架构。"
+ },
+ {
+  "seg": 270,
+  "start": 1653.427,
+  "end": 1654.688,
+  "speaker": "Unknown",
+  "en": "We have many results like that.",
+  "zh": "我们有很多这样的成果。"
+ },
+ {
+  "seg": 271,
+  "start": 1654.748,
+  "end": 1661.894,
+  "speaker": "Unknown",
+  "en": "And at the end of the day, I think that's what we're here for, which is how can we make things happen for our customers without billing getting in the way?",
+  "zh": "归根结底，我想这就是我们的使命，那就是：如何让事情在计费不碍事的前提下为客户实现？"
+ },
+ {
+  "seg": 272,
+  "start": 1662.455,
+  "end": 1664.877,
+  "speaker": "Unknown",
+  "en": "We're more than happy to take that problem from their hands.",
+  "zh": "我们非常乐意把那个问题从他们手中接过来。"
+ },
+ {
+  "seg": 273,
+  "start": 1666.643,
+  "end": 1679.575,
+  "speaker": "Unknown",
+  "en": "I'm curious, when you have these conversations and people talk about these pain points that they have from some of the more legacy vendors, how do they compare you to some of the large incumbents out there, ranging from a Stripe to a Zora?",
+  "zh": "我很好奇，当你进行这些对话，人们谈论他们从一些更老的供应商那里遭遇的痛点时，他们如何把你和一些大型在位者相比较，从 Stripe 到 Zora？"
+ },
+ {
+  "seg": 274,
+  "start": 1680.096,
+  "end": 1684,
+  "speaker": "Unknown",
+  "en": "It feels a little bit like a David and Goliath story, so I'm curious how you navigate that.",
+  "zh": "这感觉有点像大卫对歌利亚的故事，所以我很好奇你是如何应对的。"
+ },
+ {
+  "seg": 275,
+  "start": 1684.935,
+  "end": 1685.495,
+  "speaker": "Unknown",
+  "en": "I think it is.",
+  "zh": "我认为是的。"
+ },
+ {
+  "seg": 276,
+  "start": 1685.515,
+  "end": 1699.665,
+  "speaker": "Unknown",
+  "en": "I think one thing that I've come to admire over and over again is as an entrepreneur, as a technologist, I thought this business was really about kind of innovative technology.",
+  "zh": "我想我一次次逐渐领会到的一点是：作为一名创业者、一名技术人，我曾以为这个行业的关键就在于创新技术。"
+ },
+ {
+  "seg": 277,
+  "start": 1699.705,
+  "end": 1700.166,
+  "speaker": "Unknown",
+  "en": "And it is.",
+  "zh": "它确实如此。"
+ },
+ {
+  "seg": 278,
+  "start": 1701.207,
+  "end": 1706.03,
+  "speaker": "Unknown",
+  "en": "But more and more, we find that it's kind of table stakes to have a best-in-class innovative product.",
+  "zh": "但越来越多的，我们发现拥有一个一流的创新产品只是基本门槛。"
+ },
+ {
+  "seg": 279,
+  "start": 1707.611,
+  "end": 1716.894,
+  "speaker": "Unknown",
+  "en": "enterprises are looking for is a partner to help them get from point A to point B and do so in a way that's best practices oriented and that sets them up for success.",
+  "zh": "企业寻找的是一个帮助他们从 A 点到 B 点的伙伴，并且以一种面向最佳实践的方式做到这一点，为他们的成功打下基础。"
+ },
+ {
+  "seg": 280,
+  "start": 1717.434,
+  "end": 1727.297,
+  "speaker": "Unknown",
+  "en": "So I think when you think about the landscape, Orb stands out, number one, being very native to the kind of monetization models that",
+  "zh": "所以我认为，纵观这个格局，Orb 的突出之处，第一，它对当下所需的变现模型非常原生，"
+ },
+ {
+  "seg": 281,
+  "start": 1728.117,
+  "end": 1728.918,
+  "speaker": "Unknown",
+  "en": "are needed today.",
+  "zh": "也就是今天需要的那些模型。"
+ },
+ {
+  "seg": 282,
+  "start": 1729.519,
+  "end": 1736.126,
+  "speaker": "Unknown",
+  "en": "So you're not going to find a very static subscription or widget-based pricing approach to our features.",
+  "zh": "所以你不会在我们的功能中找到一种非常静态的订阅式或按件计价的定价方式。"
+ },
+ {
+  "seg": 283,
+  "start": 1736.146,
+  "end": 1739.15,
+  "speaker": "Unknown",
+  "en": "It's really oriented around the flexibility that our customers need.",
+  "zh": "它真正围绕的是我们的客户所需要的灵活性。"
+ },
+ {
+  "seg": 284,
+  "start": 1740.086,
+  "end": 1742.107,
+  "speaker": "Unknown",
+  "en": "Two, it's very developer first.",
+  "zh": "第二，它非常开发者优先。"
+ },
+ {
+  "seg": 285,
+  "start": 1742.227,
+  "end": 1750.01,
+  "speaker": "Unknown",
+  "en": "It's oriented around how can we get you to value quickly, help you have a fast implementation, and enable change from you.",
+  "zh": "它围绕的是：我们如何让你快速获得价值，帮助你实现快速部署，并支持你做出变更。"
+ },
+ {
+  "seg": 286,
+  "start": 1750.671,
+  "end": 1761.816,
+  "speaker": "Unknown",
+  "en": "And then thirdly, and I think this is part of the special sauce of the company, what we're really building is a data platform that can uniquely connect every unit of product usage to revenue.",
+  "zh": "然后第三点，我认为这是这家公司特别之处的一部分，我们真正在构建的是一个数据平台，能够独特地把每一个产品使用单元连接到收入。"
+ },
+ {
+  "seg": 287,
+  "start": 1762.656,
+  "end": 1768.16,
+  "speaker": "Unknown",
+  "en": "And when you think about that kind of end-to-end system, it's immediately useful for billing.",
+  "zh": "而当你想到这样一种端到端的系统，它立刻就对计费有用。"
+ },
+ {
+  "seg": 288,
+  "start": 1768.46,
+  "end": 1774.444,
+  "speaker": "Unknown",
+  "en": "And what we've done with a lot of our customers is enabled some of their complex billing needs through our platform.",
+  "zh": "我们与许多客户一起做的，就是通过我们的平台满足他们一些复杂的计费需求。"
+ },
+ {
+  "seg": 289,
+  "start": 1775.045,
+  "end": 1777.546,
+  "speaker": "Unknown",
+  "en": "But it's also immensely powerful for finance.",
+  "zh": "但它对财务部门也有巨大的威力。"
+ },
+ {
+  "seg": 290,
+  "start": 1777.827,
+  "end": 1785.252,
+  "speaker": "Unknown",
+  "en": "When you think about how do I view the health of my business, I need to have an ongoing real-time view of my revenue.",
+  "zh": "当你想到我如何审视我的业务健康度时，我需要对我收入有一个持续的实时视图。"
+ },
+ {
+  "seg": 291,
+  "start": 1785.772,
+  "end": 1794.238,
+  "speaker": "Unknown",
+  "en": "And that's something that we're uniquely able to do because from a data perspective, our system has that kind of close loop between product usage and revenue.",
+  "zh": "而那正是我们能够独特做到的事情，因为从数据的角度，我们的系统在产品使用与收入之间拥有那种闭环。"
+ },
+ {
+  "seg": 292,
+  "start": 1796.739,
+  "end": 1800.422,
+  "speaker": "Unknown",
+  "en": "So Alvaro, let's talk a little bit more about Orb the Company and Orb the Team.",
+  "zh": "那么 Alvaro,我们再多聊一点 Orb 这家公司和 Orb 这个团队。"
+ },
+ {
+  "seg": 293,
+  "start": 1800.482,
+  "end": 1804.104,
+  "speaker": "Unknown",
+  "en": "Tell me about the team and sort of the team that you all have built.",
+  "zh": "跟我讲讲这个团队，以及你们所打造的团队。"
+ },
+ {
+  "seg": 294,
+  "start": 1806.525,
+  "end": 1811.969,
+  "speaker": "Unknown",
+  "en": "I think we have an amazing team, and I'm really proud of the team that we've built and are building together.",
+  "zh": "我认为我们有一支出色的团队，我为我们已经打造并且正在共同打造的团队感到非常自豪。"
+ },
+ {
+  "seg": 295,
+  "start": 1813.954,
+  "end": 1819.139,
+  "speaker": "Unknown",
+  "en": "Out of all things you can work on, it's worth asking, why would somebody choose to work on billing?",
+  "zh": "在所有你可以做的事情当中，值得问一问，为什么有人会选择做计费？"
+ },
+ {
+  "seg": 296,
+  "start": 1819.179,
+  "end": 1824.443,
+  "speaker": "Unknown",
+  "en": "It's not going to be the flashiest or the most headline-filling areas to work on.",
+  "zh": "这不会是最光鲜的、也不会是最能上头条的工作领域。"
+ },
+ {
+  "seg": 297,
+  "start": 1828.844,
+  "end": 1835.868,
+  "speaker": "Unknown",
+  "en": "The team at Orb brings a uniquely infrastructure lens to the outcomes that they drive for customers.",
+  "zh": "Orb 团队为带给客户的成果带来了一种独特的基础设施视角。"
+ },
+ {
+  "seg": 298,
+  "start": 1836.108,
+  "end": 1836.789,
+  "speaker": "Unknown",
+  "en": "What do I mean by that?",
+  "zh": "我这么说是什么意思？"
+ },
+ {
+  "seg": 299,
+  "start": 1836.829,
+  "end": 1844.093,
+  "speaker": "Unknown",
+  "en": "It's like we're not front and center necessarily, but we're enabling others to achieve their results better and faster.",
+  "zh": "就是说我们不一定站在台前，但我们在帮助他人更好、更快地达成他们的成果。"
+ },
+ {
+  "seg": 300,
+  "start": 1844.814,
+  "end": 1846.555,
+  "speaker": "Unknown",
+  "en": "We have four core values as a company.",
+  "zh": "我们公司有四个核心价值观。"
+ },
+ {
+  "seg": 301,
+  "start": 1846.955,
+  "end": 1848.136,
+  "speaker": "Unknown",
+  "en": "One is customer centricity.",
+  "zh": "第一是以客户为中心。"
+ },
+ {
+  "seg": 302,
+  "start": 1849.102,
+  "end": 1858.989,
+  "speaker": "Unknown",
+  "en": "So one thing that I find amazing is how everybody at the company is really excited and eager to jump in, get on the phone with customers and help drive outcomes for them.",
+  "zh": "所以让我觉得很棒的一件事是,公司里每个人都非常兴奋、非常乐于投身其中,和客户打电话,帮助他们达成结果。"
+ },
+ {
+  "seg": 303,
+  "start": 1859.729,
+  "end": 1869.996,
+  "speaker": "Unknown",
+  "en": "In a previous life, one of the roles that I had was in growth engineering and my customers were these numbers on a spreadsheet that would go up and down as we ran different kind of metrics and experiments.",
+  "zh": "在我之前的一段经历中,我做过增长工程方面的角色,我的客户就是电子表格上的那些数字,随着我们运行各种指标和实验而起起伏伏。"
+ },
+ {
+  "seg": 304,
+  "start": 1871.977,
+  "end": 1875.858,
+  "speaker": "Unknown",
+  "en": "Contrast that to Orb where we have shared Slack channels with our customers.",
+  "zh": "与之对比的是 Orb,我们和客户有共享的 Slack 频道。"
+ },
+ {
+  "seg": 305,
+  "start": 1875.878,
+  "end": 1879.898,
+  "speaker": "Unknown",
+  "en": "I've been building relationships with them for over three years and kind of know them well.",
+  "zh": "我和他们建立关系已经三年多了,可以说相当了解他们。"
+ },
+ {
+  "seg": 306,
+  "start": 1879.978,
+  "end": 1883.059,
+  "speaker": "Unknown",
+  "en": "And I think customers are at the heart of what we do.",
+  "zh": "我认为客户是我们所做一切的核心。"
+ },
+ {
+  "seg": 307,
+  "start": 1883.619,
+  "end": 1885.539,
+  "speaker": "Unknown",
+  "en": "Second, this is a little bit of an ode to billing.",
+  "zh": "第二,这是对计费的一点颂歌。"
+ },
+ {
+  "seg": 308,
+  "start": 1886.2,
+  "end": 1893.661,
+  "speaker": "Unknown",
+  "en": "Minutes matter is one of our values because we think that it's not only important to drive to a quality outcome, but it's important to do it quickly.",
+  "zh": "「分秒必争」是我们的价值观之一,因为我们认为不仅要追求高质量的结果,还要快速做到。"
+ },
+ {
+  "seg": 309,
+  "start": 1894.021,
+  "end": 1899.922,
+  "speaker": "Unknown",
+  "en": "And I think that compared to maybe some legacy players in the space,",
+  "zh": "而且我认为,和这个领域里的一些老牌公司相比,"
+ },
+ {
+  "seg": 310,
+  "start": 1900.442,
+  "end": 1905.188,
+  "speaker": "Unknown",
+  "en": "What we're able to achieve in the timeline that we're able to achieve is kind of unique.",
+  "zh": "我们在所实现的时间线内所达成的成就是相当独特的。"
+ },
+ {
+  "seg": 311,
+  "start": 1905.348,
+  "end": 1908.992,
+  "speaker": "Unknown",
+  "en": "There's an element of ownership and attention to detail that are important.",
+  "zh": "这里面有一种主人翁精神和对细节的关注,这些都很重要。"
+ },
+ {
+  "seg": 312,
+  "start": 1909.032,
+  "end": 1914.299,
+  "speaker": "Unknown",
+  "en": "At the end of the day, we work on billing where it comes down to literal dollars and cents.",
+  "zh": "归根结底,我们做的是计费,它最终落到的就是实打实的美元和美分。"
+ },
+ {
+  "seg": 313,
+  "start": 1915.72,
+  "end": 1919.925,
+  "speaker": "Unknown",
+  "en": "On the accounting side, there are people that can go to jail if their accounting is not controlled and correct.",
+  "zh": "它藏在冰山一角之下,但我们真正追求的是现代企业构建市场推广技术栈方式的转变。"
+ },
+ {
+  "seg": 314,
+  "start": 1920.926,
+  "end": 1924.848,
+  "speaker": "Unknown",
+  "en": "If we get our systems wrong, we can charge customers incorrectly.",
+  "zh": "如果我们的系统出错,我们可能会错误地向客户收费。"
+ },
+ {
+  "seg": 315,
+  "start": 1924.928,
+  "end": 1928.931,
+  "speaker": "Unknown",
+  "en": "So again, that attention to detail I think is a little bit important.",
+  "zh": "所以再说一次,这种对细节的关注我认为相当重要。"
+ },
+ {
+  "seg": 316,
+  "start": 1928.951,
+  "end": 1935.194,
+  "speaker": "Unknown",
+  "en": "So I find that we've put together a unique crew that really models and cares about these areas.",
+  "zh": "所以我发现我们组建了一支独特的团队,他们真正示范并在意这些方面。"
+ },
+ {
+  "seg": 317,
+  "start": 1936.848,
+  "end": 1936.948,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 318,
+  "start": 1936.968,
+  "end": 1948.537,
+  "speaker": "Unknown",
+  "en": "And I think billing is one of these problems where like the more you think about it, the more you, and like you peel back the layers of the onion, you realize like how big of a problem it is and how critical it is to companies.",
+  "zh": "而且我认为计费是这样一类问题:你越思考它,越像剥洋葱一样层层剥开,就越意识到这个问题有多大,以及它对公司有多关键。"
+ },
+ {
+  "seg": 319,
+  "start": 1948.577,
+  "end": 1955.042,
+  "speaker": "Unknown",
+  "en": "Like, you know, a little bit of an analogy when you first explained it to me is to Shopify, where like when Shopify got started, it's like, okay, cool.",
+  "zh": "比如,你知道,你当初向我解释时用了一个类比,就是 Shopify——当 Shopify 刚起步时,感觉是:好吧,挺好的。"
+ },
+ {
+  "seg": 320,
+  "start": 1955.062,
+  "end": 1955.202,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 321,
+  "start": 1955.222,
+  "end": 1962.147,
+  "speaker": "Unknown",
+  "en": "You helped me put up a web storefront, like useful, but turns out like, no, Shopify becomes the operating system in which you run your business.",
+  "zh": "你帮我搭建了一个网页店面,挺有用的,但结果发现,不,Shopify 成了你运营整个业务的操作系统。"
+ },
+ {
+  "seg": 322,
+  "start": 1962.187,
+  "end": 1963.228,
+  "speaker": "Unknown",
+  "en": "And like, that's why it's a",
+  "zh": "这就是为什么它是"
+ },
+ {
+  "seg": 323,
+  "start": 1963.748,
+  "end": 1966.229,
+  "speaker": "Unknown",
+  "en": "You know, 90 billion dollar company with the impact that it has today.",
+  "zh": "你知道的,一家 900 亿美元的公司,拥有它今天的影响力。"
+ },
+ {
+  "seg": 324,
+  "start": 1966.27,
+  "end": 1981.558,
+  "speaker": "Unknown",
+  "en": "And sort of similarly with billing, when you think about billing as an infrastructure problem and you think about all the downstream go to market functions that are built on a foundation of pricing and billing, you realize that like getting it right sort of becomes the operating system for our customers.",
+  "zh": "计费也类似,当你把计费当作一个基础设施问题来思考,想到所有建立在定价和计费这个基础之上的下游市场推广职能,你会意识到把这件事做对,某种意义上就成了我们客户的操作系统。"
+ },
+ {
+  "seg": 325,
+  "start": 1982.198,
+  "end": 1985.72,
+  "speaker": "Unknown",
+  "en": "And there's so much to then go build on top of that sort of database foundation.",
+  "zh": "然后在这种数据库式的基础之上,还有那么多可以去构建的东西。"
+ },
+ {
+  "seg": 326,
+  "start": 1985.74,
+  "end": 1991.023,
+  "speaker": "Unknown",
+  "en": "It's actually one of the most interesting things you could go work on, but it requires a little peeling of the onion.",
+  "zh": "这其实是你能去做的最有意思的事情之一,但它需要一点剥洋葱的过程。"
+ },
+ {
+  "seg": 327,
+  "start": 1991.682,
+  "end": 1992.362,
+  "speaker": "Unknown",
+  "en": "Absolutely is.",
+  "zh": "绝对是的。"
+ },
+ {
+  "seg": 328,
+  "start": 1992.442,
+  "end": 1998.786,
+  "speaker": "Unknown",
+  "en": "And to that point, I mean, our product today has some really rich capabilities around revenue reporting.",
+  "zh": "沿着这一点说,我的意思是,我们今天的产品在收入报告方面已经有了一些非常丰富的能力。"
+ },
+ {
+  "seg": 329,
+  "start": 1998.906,
+  "end": 2002.167,
+  "speaker": "Unknown",
+  "en": "So how do we help finance teams close the books?",
+  "zh": "比如我们如何帮助财务团队结账?"
+ },
+ {
+  "seg": 330,
+  "start": 2002.287,
+  "end": 2017.875,
+  "speaker": "Unknown",
+  "en": "We're going to continue working on areas like revenue forecasting, where I want many of the board meetings that our customers run to include a little slide share from Orv that shows kind of a real-time ongoing pulse of NDR and a lot of the metrics that folks care about.",
+  "zh": "我们会继续在收入预测这类领域投入,我希望我们客户召开的很多董事会会议里,都能包含一份来自 Orv 的幻灯片,展示 NDR 和许多大家关心的指标的实时持续脉搏。"
+ },
+ {
+  "seg": 331,
+  "start": 2019.216,
+  "end": 2028.701,
+  "speaker": "Unknown",
+  "en": "We have teams that we're working with that are excited about helping power their seller compensation through the data that's in Orb or their customer success, churn prevention and renewals.",
+  "zh": "我们有一些合作中的团队,他们很高兴能通过 Orb 里的数据来驱动他们的销售提成,或者客户成功、流失预防和续约。"
+ },
+ {
+  "seg": 332,
+  "start": 2029.321,
+  "end": 2032.523,
+  "speaker": "Unknown",
+  "en": "Again, to your point, this is all, you got to peel the onion.",
+  "zh": "再说一次,正如你所说,这一切,你得剥洋葱。"
+ },
+ {
+  "seg": 333,
+  "start": 2032.583,
+  "end": 2042.669,
+  "speaker": "Unknown",
+  "en": "It's sitting under the tip of the iceberg, but we're really after a shift in how the go-to-market stack needs to be built in a modern enterprise.",
+  "zh": "它处在冰山一角之下,但我们真正追求的是现代企业中 go-to-market 技术栈构建方式的转变。"
+ },
+ {
+  "seg": 334,
+  "start": 2043.029,
+  "end": 2046.471,
+  "speaker": "Unknown",
+  "en": "And I think I'm excited about the role that Orb can play in this.",
+  "zh": "而且我认为我对 Orb 在其中能扮演的角色感到兴奋。"
+ },
+ {
+  "seg": 335,
+  "start": 2048.348,
+  "end": 2055.354,
+  "speaker": "Unknown",
+  "en": "Silver, as we begin to wrap up our conversation, I want you to, again, go back to when you started Orb in 2021.",
+  "zh": "Silver,在我们即将结束对话之际,我想请你再次回到 2021 年你创办 Orb 的时候。"
+ },
+ {
+  "seg": 336,
+  "start": 2056.074,
+  "end": 2058.716,
+  "speaker": "Unknown",
+  "en": "What have been some of the biggest surprises since then?",
+  "zh": "从那以来最大的意外是什么?"
+ },
+ {
+  "seg": 337,
+  "start": 2058.837,
+  "end": 2063.24,
+  "speaker": "Unknown",
+  "en": "How has the company evolved, perhaps in some ways different than what you originally envisioned?",
+  "zh": "公司是如何演进的,也许在某些方面和你最初的设想不同?"
+ },
+ {
+  "seg": 338,
+  "start": 2065.662,
+  "end": 2069.325,
+  "speaker": "Unknown",
+  "en": "Maybe the thing that stands out the most is just the faster time cycles.",
+  "zh": "也许最突出的一件事就是更快的时间周期。"
+ },
+ {
+  "seg": 339,
+  "start": 2071.611,
+  "end": 2079.181,
+  "speaker": "Unknown",
+  "en": "I recently was sort of looking up at our early pitch decks and the deck that we first showed you some.",
+  "zh": "我最近翻看了我们早期的路演稿,还有我们第一次给你展示的那份。"
+ },
+ {
+  "seg": 340,
+  "start": 2079.641,
+  "end": 2085.028,
+  "speaker": "Unknown",
+  "en": "You look at it and the diagrams have gotten prettier over time, but a lot of the sketch of the vision has remained.",
+  "zh": "你看它,图表随着时间的推移变漂亮了,但很多愿景的轮廓一直没变。"
+ },
+ {
+  "seg": 341,
+  "start": 2086.145,
+  "end": 2091.188,
+  "speaker": "Unknown",
+  "en": "I just, I could not have imagined the speed that this transformation is happening in the software industry.",
+  "zh": "我只是,我根本无法想象这场变革在软件行业发生的速度。"
+ },
+ {
+  "seg": 342,
+  "start": 2091.508,
+  "end": 2095.19,
+  "speaker": "Unknown",
+  "en": "Like that saying of, you know, it's slowly at first and then it happens all at once.",
+  "zh": "就像那句话说的,你知道,先是缓慢,然后一瞬间全部发生。"
+ },
+ {
+  "seg": 343,
+  "start": 2096.17,
+  "end": 2104.355,
+  "speaker": "Unknown",
+  "en": "I think that's really happening because real talk, like maybe our message of revenue efficiency in 2021, the boom of Zerp and whatnot.",
+  "zh": "我认为这真的在发生,因为说实话,比如我们在 2021 年关于收入效率的主张,在 Zerp 热潮之类的背景下。"
+ },
+ {
+  "seg": 344,
+  "start": 2104.915,
+  "end": 2111.017,
+  "speaker": "Unknown",
+  "en": "was seen as a little bit more of a nice to have, or like, we'll get to that when we grow up and when that really matters.",
+  "zh": "被看作更像是一个锦上添花的东西,或者「等我们长大点、等这真正重要的时候再说吧」。"
+ },
+ {
+  "seg": 345,
+  "start": 2111.437,
+  "end": 2113.697,
+  "speaker": "Unknown",
+  "en": "Whereas now it's become an urgent priority overnight.",
+  "zh": "而现在它一夜之间变成了紧迫的优先事项。"
+ },
+ {
+  "seg": 346,
+  "start": 2113.777,
+  "end": 2119.879,
+  "speaker": "Unknown",
+  "en": "And I think that the outcomes that Orb drives is really important for any software business.",
+  "zh": "而且我认为 Orb 所驱动的结果对任何软件业务都非常重要。"
+ },
+ {
+  "seg": 347,
+  "start": 2121.639,
+  "end": 2123.52,
+  "speaker": "Unknown",
+  "en": "Yeah, I would plus one to that.",
+  "zh": "是的,我对此加一票。"
+ },
+ {
+  "seg": 348,
+  "start": 2123.54,
+  "end": 2127.161,
+  "speaker": "Unknown",
+  "en": "And I think the other thing that was probably hard for anyone to anticipate in 2021",
+  "zh": "另外一件事,我认为 2021 年任何人都很难预料到"
+ },
+ {
+  "seg": 349,
+  "start": 2129.105,
+  "end": 2134.328,
+  "speaker": "Unknown",
+  "en": "was just how quickly we'd get sort of catapulted into the AI era and the downstream impacts of that.",
+  "zh": "我们会如此迅速地被抛进 AI 时代,以及随之而来的下游影响。"
+ },
+ {
+  "seg": 350,
+  "start": 2134.748,
+  "end": 2146.054,
+  "speaker": "Unknown",
+  "en": "Like, again, I think you talked about this, but in 2021, there were a couple examples of really good usage-based pricing businesses, businesses like Snowflake and Twilio that really aligned the way they priced with the way value is delivered.",
+  "zh": "比如,再回到之前,我记得你聊过这个,在 2021 年,有几个非常出色的基于用量定价业务的例子,像 Snowflake 和 Twilio 这样的公司,它们的定价方式真正与价值交付方式保持一致。"
+ },
+ {
+  "seg": 351,
+  "start": 2146.594,
+  "end": 2150.136,
+  "speaker": "Unknown",
+  "en": "And you would talk to, you know, in my role, I would talk to their founders, like, yeah, yeah, we gotta get there, right?",
+  "zh": "你会跟——你知道,以我的角色,我会跟它们的创始人聊,比如,对对,我们得做到那一步,对吧?"
+ },
+ {
+  "seg": 352,
+  "start": 2150.156,
+  "end": 2150.756,
+  "speaker": "Unknown",
+  "en": "We gotta get there.",
+  "zh": "我们得做到那一步。"
+ },
+ {
+  "seg": 353,
+  "start": 2150.796,
+  "end": 2156.84,
+  "speaker": "Unknown",
+  "en": "Like, we have to give our customers something that's aligned and makes sense for them and has, you know, built-in NDR and all the rest for us.",
+  "zh": "比如,我们必须给客户提供一种与他们对齐、对他们有意义的东西,并且对我们来说自带 NDR 以及其他种种。"
+ },
+ {
+  "seg": 354,
+  "start": 2157.81,
+  "end": 2161.794,
+  "speaker": "Unknown",
+  "en": "But again, it wasn't like a must-do existential.",
+  "zh": "但话说回来,那并不是一种必须做的、关乎生死的事。"
+ },
+ {
+  "seg": 355,
+  "start": 2161.934,
+  "end": 2172.344,
+  "speaker": "Unknown",
+  "en": "And like you fast forward to 2024 with the rise of agents and it's like, you know, if you're still thinking about things primarily through a seat-based lens, like you're toast and there is no future.",
+  "zh": "而快进到 2024 年,随着智能体的兴起,情况就变成了,你知道,如果你还在主要通过按席位的角度来思考问题,那你就完蛋了,没有未来。"
+ },
+ {
+  "seg": 356,
+  "start": 2173.225,
+  "end": 2180.031,
+  "speaker": "Unknown",
+  "en": "And, you know, I'm just struck by, you know, I get pitched by tens of entrepreneurs every week and, you know, pick a percentage, 80, 85, 90% of these companies",
+  "zh": "而且你知道,我很有感触,你知道,我每周都会接到几十位创业者的推介,你知道,选个比例吧,这些公司中有 80%、85%、90%"
+ },
+ {
+  "seg": 357,
+  "start": 2182.173,
+  "end": 2185.895,
+  "speaker": "Unknown",
+  "en": "are usage-based or consumption-based or outcome-oriented in the way they price.",
+  "zh": "在定价方式上是基于用量的、基于消耗的,或是以结果为导向的。"
+ },
+ {
+  "seg": 358,
+  "start": 2186.475,
+  "end": 2187.856,
+  "speaker": "Unknown",
+  "en": "And I think that happened.",
+  "zh": "而我认为这确实发生了。"
+ },
+ {
+  "seg": 359,
+  "start": 2187.876,
+  "end": 2190.478,
+  "speaker": "Unknown",
+  "en": "I don't want to speak for you, but from my perspective, that certainly happened.",
+  "zh": "我不想替你发言,但从我的角度来看,这肯定发生了。"
+ },
+ {
+  "seg": 360,
+  "start": 2190.518,
+  "end": 2194.14,
+  "speaker": "Unknown",
+  "en": "I knew that would eventually happen, but it happened much more quickly than I thought it would.",
+  "zh": "我知道这最终会发生,但它发生的速度比我预想的要快得多。"
+ },
+ {
+  "seg": 361,
+  "start": 2195.16,
+  "end": 2195.581,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 362,
+  "start": 2195.621,
+  "end": 2202.124,
+  "speaker": "Unknown",
+  "en": "And I think it just means that there's a real element of right place, right time that we're building this business in.",
+  "zh": "而我认为这恰恰意味着,我们正在打造这项业务,正处于一个非常真实的天时地利的要素之中。"
+ },
+ {
+  "seg": 363,
+  "start": 2202.144,
+  "end": 2210.889,
+  "speaker": "Unknown",
+  "en": "And I think I'm just excited to accelerate into this even more so that we can deliver this value to many more customers with what we're doing at Oracle.",
+  "zh": "而且我觉得我非常兴奋能更进一步加速推进,这样我们就能通过我们在 Oracle 所做的事情,把这种价值交付给更多的客户。"
+ },
+ {
+  "seg": 364,
+  "start": 2212.248,
+  "end": 2217.41,
+  "speaker": "Unknown",
+  "en": "And so as you think about sort of the next couple of years, what do you want ORB's impact on the software industry to be?",
+  "zh": "那么,当你思考未来几年时,你希望 ORB 对软件行业的影响是什么?"
+ },
+ {
+  "seg": 365,
+  "start": 2217.43,
+  "end": 2226.772,
+  "speaker": "Unknown",
+  "en": "And like, how do you think sort of this developer-first usage-based billing infrastructure can sort of unlock or accelerate broader innovation in business models and in software?",
+  "zh": "还有,你觉得这种开发者优先的基于用量的计费基础设施,能如何解锁或加速商业模式和软件领域更广泛的创新?"
+ },
+ {
+  "seg": 366,
+  "start": 2227.933,
+  "end": 2237.156,
+  "speaker": "Unknown",
+  "en": "I want us to be like known for helping create more innovation in this ecosystem and reduce this innovation tax.",
+  "zh": "我希望我们以在这个生态系统中帮助创造更多创新、并降低这种创新税而闻名。"
+ },
+ {
+  "seg": 367,
+  "start": 2237.556,
+  "end": 2238.456,
+  "speaker": "Unknown",
+  "en": "Because if you think about it,",
+  "zh": "因为如果你想想看,"
+ },
+ {
+  "seg": 368,
+  "start": 2240.743,
+  "end": 2251.692,
+  "speaker": "Unknown",
+  "en": "If you're putting engineers towards supporting billing and monetization of your product, you're doing so from having done an assessment and realize like, sure, that makes sense, that's ROI positive.",
+  "zh": "如果你把工程师投入到支持你产品的计费和变现上,你这么做是基于做过评估并意识到,好吧,那说得通,那是 ROI 为正的。"
+ },
+ {
+  "seg": 369,
+  "start": 2252.313,
+  "end": 2256.196,
+  "speaker": "Unknown",
+  "en": "But it's so painfully taxing to what other things you could be achieving.",
+  "zh": "但它对你本可以取得的其他成就来说,是极其痛苦的消耗。"
+ },
+ {
+  "seg": 370,
+  "start": 2256.556,
+  "end": 2262.321,
+  "speaker": "Unknown",
+  "en": "It leaves a huge opportunity cost on the table where you could redirect that investment towards core product innovation.",
+  "zh": "它留下了巨大的机会成本在桌上,你本可以把那部分投入重新导向核心产品创新。"
+ },
+ {
+  "seg": 371,
+  "start": 2262.361,
+  "end": 2268.526,
+  "speaker": "Unknown",
+  "en": "So I want Orb to be known for enabling companies to ship their pricing as quickly as they've shipped their products.",
+  "zh": "所以我希望 Orb 以让公司发布定价的速度和它们发布产品的速度一样快而闻名。"
+ },
+ {
+  "seg": 372,
+  "start": 2270.957,
+  "end": 2273.919,
+  "speaker": "Unknown",
+  "en": "Alvaro, is there anything else you'd like our listeners to know before we wrap up here?",
+  "zh": "Alvaro,在结束之前,还有什么你想让我们的听众知道的吗?"
+ },
+ {
+  "seg": 373,
+  "start": 2275,
+  "end": 2275.22,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 374,
+  "start": 2275.54,
+  "end": 2279.002,
+  "speaker": "Unknown",
+  "en": "If you're looking for more flexibility in your monetization stack, come check us out.",
+  "zh": "如果你在你的变现技术栈中寻找更多灵活性,来看看我们吧。"
+ },
+ {
+  "seg": 375,
+  "start": 2279.342,
+  "end": 2283.585,
+  "speaker": "Unknown",
+  "en": "We actually, as part of this announcement, made a trial available on our website.",
+  "zh": "实际上,作为这次发布的一部分,我们在网站上开放了试用。"
+ },
+ {
+  "seg": 376,
+  "start": 2283.605,
+  "end": 2294.772,
+  "speaker": "Unknown",
+  "en": "So if you go to withorb.com slash trial, you'll be able to get right in the platform and start experiencing what it looks like to bring this kind of product-oriented thinking to the world of pricing infrastructure.",
+  "zh": "所以如果你访问 withorb.com/trial,你就能直接进入平台,开始体验把这种以产品为导向的思维方式带到定价基础设施领域是什么样子。"
+ },
+ {
+  "seg": 377,
+  "start": 2296.143,
+  "end": 2296.504,
+  "speaker": "Unknown",
+  "en": "Excellent.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 378,
+  "start": 2296.926,
+  "end": 2299.273,
+  "speaker": "Unknown",
+  "en": "Walbro, thank you again for coming on Gray Matter.",
+  "zh": "Walbro,再次感谢你来到 Gray Matter。"
+ },
+ {
+  "seg": 379,
+  "start": 2299.373,
+  "end": 2300.496,
+  "speaker": "Unknown",
+  "en": "I love this conversation.",
+  "zh": "我喜欢这次对话。"
+ },
+ {
+  "seg": 380,
+  "start": 2300.516,
+  "end": 2302.041,
+  "speaker": "Unknown",
+  "en": "I'm excited to get it out to our listeners.",
+  "zh": "我很期待把它呈现给我们的听众。"
+ },
+ {
+  "seg": 381,
+  "start": 2303.044,
+  "end": 2303.706,
+  "speaker": "Unknown",
+  "en": "Thank you for having me.",
+  "zh": "谢谢你们的邀请。"
+ },
+ {
+  "seg": 382,
+  "start": 2305.868,
+  "end": 2308.029,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of Grey Matter.",
+  "zh": "感谢收听本期 Grey Matter 节目。"
+ },
+ {
+  "seg": 383,
+  "start": 2308.569,
+  "end": 2314.552,
+  "speaker": "Unknown",
+  "en": "For more great conversations like this one, please follow or subscribe to the show wherever you listen to podcasts.",
+  "zh": "想要更多像这样精彩的对话,请在你收听播客的任意平台关注或订阅本节目。"
+ },
+ {
+  "seg": 384,
+  "start": 2314.953,
+  "end": 2317.954,
+  "speaker": "Unknown",
+  "en": "You can also find a link to our YouTube channel in the description.",
+  "zh": "你也可以在节目描述中找到我们 YouTube 频道的链接。"
+ },
+ {
+  "seg": 385,
+  "start": 2318.494,
+  "end": 2324.557,
+  "speaker": "Unknown",
+  "en": "Finally, we'd like to thank the people who helped make this podcast happen, including Elisa Schreiber and Fitz Barth.",
+  "zh": "最后,我们要感谢帮助这档播客得以实现的人们,包括 Elisa Schreiber 和 Fitz Barth。"
+ },
+ {
+  "seg": 386,
+  "start": 2325.098,
+  "end": 2330.08,
+  "speaker": "Unknown",
+  "en": "This episode was produced and edited by Eric Johnson from lightningpod.fm.",
+  "zh": "本期节目由来自 lightningpod.fm 的 Eric Johnson 制作和剪辑。"
+ },
+ {
+  "seg": 387,
+  "start": 2330.881,
+  "end": 2331.981,
+  "speaker": "Unknown",
+  "en": "This is Grey Matter.",
+  "zh": "这里是 Grey Matter。"
+ },
+ {
+  "seg": 388,
+  "start": 2332.502,
+  "end": 2333.142,
+  "speaker": "Unknown",
+  "en": "See you next time.",
+  "zh": "下次见。"
+ }
+]

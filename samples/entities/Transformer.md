@@ -1,50 +1,54 @@
 ---
-title: 供应链攻击 (supply chain)
+title: Transformer
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>供应链攻击 (supply chain)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Transformer</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="供应链攻击">供应</div><div class="pi"><h1 class="pt">供应链攻击 (supply chain)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Transformer">TR</div><div class="pi"><h1 class="pt">Transformer</h1><div class="byl">概念</div><div class="nums">本站收录 <b>8</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|《AI智能体安全：它们听起来像实习生》]]**(00:58起):本集提到 OpenClaw 有「完全开放的、远程的、从互联网拉取任意东西的供应链隐患」，以及录制当天发生了一起 NPM 组织被接管事件
-- **[[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]]**(00:55起):本集强调芯片创业门槛在设计之外:存储/基板厂商关系、先进制程产线、资本——『供应链敏锐度』将成为最重要的能力,受限环境至少持续三到五年。
+- **[[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]]**(08:47起):2017 年提出、驱动这场深度学习革命的架构，如今正被变成软件开发生态里的可组合单元。
+- **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]]**(01:55起):本集说它的天花板（见顶）在于无法持续学习：在实验室用静态数据训练，一旦部署到动态现实世界很快就会贬值；同时其计算深度极差，采用一次生成一个 token 的方式极其低效。
+- **[[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路》]]**(11:16起):本集顺带提到 Transformer 是现代 AI 的两个主力架构之一（另一个是扩散模型），但未展开讨论
+- **[[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]]**(12:59起):本集提到:只要 Transformer 仍是计算密集、存储密集的架构,供应链受限环境就会持续三到五年。
+- **[[2026-09-07-a16z-can-open-source-keep-ai-power-from-conce|《Transformer 不满十岁：AI 集中不是宿命》]]**(00:55起):《Attention is All You Need》引入的基础架构,喂整个互联网时相当聪明,但只学一件具体的事就很差,且架构上需要大量资源,导致了当前 AI 的集中化
+- **[[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|《把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力》]]**(00:00起):本集把它描述为注意力平方成本问题的载体,也是 SubQuadratic 想最终完全取代的对象——目标是把算法范式更替从每九年一次压到每 12 个月一次。
+- **[[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model|《斯坦福语言学家的代币经济学：你的 token 贬值了》]]**(14:28起):2017 年的架构经位置编码、稀疏 MLP、激活函数等大量改造演化至今；Chris 认为堆叠 Transformer 极其低效，深度没有被用来学递归函数
 
 ## ① 提到它的金句
 
-*6 条*
+*3 条*
 
-![[2026-07-10-eyeonai-what-industrial-ai-actually-looks-like-k#^q6]]
+![[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto#^q1]]
 
-![[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge#^q3]]
+![[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto#^q3]]
 
-![[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t#^q10]]
-
-![[2026-08-25-mos-ford-s-jim-farley-on-beating-china-and-t#^q2]]
-
-![[2026-09-06-lennys-why-companies-are-becoming-a-series#^q2]]
-
-![[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l#^q6]]
+![[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model#^q1]]
 
 ## ② 出现在这些集
 
-*3 集*
+*8 集*
 
-- [[2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en|《AI智能体安全：它们听起来像实习生》]] — 作为概念(提及)
-- [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]] — 作为概念
-- [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]] — 作为概念
+- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为概念(提及)
+- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念(提及)
+- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为概念
+- [[2026-08-26-deepmind-the-mathematics-of-ai-uncertainty|《给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路》]] — 作为概念(提及)
+- [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|《Arm CEO 谈芯片、AI 与下一个十年的算力格局》]] — 作为概念(提及)
+- [[2026-09-07-a16z-can-open-source-keep-ai-power-from-conce|《Transformer 不满十岁：AI 集中不是宿命》]] — 作为概念
+- [[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|《把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力》]] — 作为概念
+- [[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model|《斯坦福语言学家的代币经济学：你的 token 贬值了》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[TSMC]] · [[NVIDIA]] · [[推理]] · [[数据中心]] · [[Joel de la Garza]] · [[Elad]] · [[Jack]] · [[Aaron Zolman]] · [[Rene Haas]] · [[Eric]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Copilot]] · [[LLM]] · [[预训练]] · [[AGI]] · [[强化学习]] · [[持续学习]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"TSMC":4,"NVIDIA":35,"推理":46,"数据中心":13,"Joel de la Garza":4,"Elad":1,"Jack":1,"Aaron Zolman":1,"Rene Haas":1,"Eric":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":240,"OpenAI":113,"Anthropic":123,"Copilot":10,"LLM":32,"预训练":6,"AGI":22,"强化学习":17,"持续学习":8,"后训练":21}</script>
 
 <script>
 (function(){

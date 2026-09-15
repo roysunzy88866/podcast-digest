@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Shopify</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Shopify">SH</div><div class="pi"><h1 class="pt">Shopify</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Shopify">SH</div><div class="pi"><h1 class="pt">Shopify</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]]**(04:59起):本集提到 ATT 冲击后电商宠儿 Shopify 股价下跌、被彻底重新估值。
+- **[[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]]**(32:28起):本集用它做类比:Shopify 起步时只是「帮我搭个网店」,结果成了你运营整个业务的操作系统,如今是 900 亿美元的公司——主持人以此类比计费如何从看似小事变成客户业务的操作系统。
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(13:59起):本集作为案例提及，Dan 指出该公司采用了一个全公司共享的「超级智能体」（名为 River）。
 - **[[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]]**(21:09起):本集提到 Stripe 与客户从注册一路合作到成为 Shopify、OpenAI 这样的杰出成功案例
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(74:16起):本集提到 Shopify 超出季度预期，作为不被 AI 摧毁的商务领域的好例子
@@ -34,9 +35,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司(提及)
 - [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]] — 作为被讨论公司(提及)
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
@@ -49,9 +51,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Uber]] · [[SaaS]] · [[Stripe]] · [[Replit]] · [[River]] · [[ChatGPT]] · [[Cursor]] · [[Google]]
+[[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Stripe]] · [[SaaS]] · [[Anthropic]] · [[Uber]] · [[Twilio]] · [[Cursor]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"智能体":237,"OpenAI":111,"Uber":9,"SaaS":15,"Stripe":30,"Replit":16,"River":2,"ChatGPT":63,"Cursor":58,"Google":42}</script>
+<script type="application/json" class="pd-epn">{"智能体":240,"OpenAI":113,"ChatGPT":65,"Stripe":31,"SaaS":16,"Anthropic":123,"Uber":9,"Twilio":2,"Cursor":59,"Google":42}</script>
 
 <script>
 (function(){

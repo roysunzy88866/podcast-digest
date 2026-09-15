@@ -10,14 +10,14 @@ description: 《Attention is All You Need》共同作者 Lucas Kaiser 解释为�
 host: "[[Sophia Du]]"
 cohosts: ["[[Lucas Kaiser]]"]
 companies: ["[[OpenAI]]"]
-concepts: ["[[transformer]]", "[[Attention is All You Need]]", "[[LLM]]", "[[GPU]]", "[[开源运动]]", "[[编码智能体]]", "[[分布式模型]]", "[[研究突破]]"]
+concepts: ["[[Transformer]]", "[[Attention is All You Need]]", "[[LLM]]", "[[GPU]]", "[[开源运动]]", "[[编码智能体]]", "[[分布式模型]]", "[[研究突破]]"]
 category: 创业与行业
 tags:
   - 创业与行业
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-07-a16z-can-open-source-keep-ai-power-from-conce#post","headline":"Transformer 不满十岁：AI 集中不是宿命","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-07-a16z-can-open-source-keep-ai-power-from-conce","mainEntityOfPage":"https://talk.solomind.cc/2026-09-07-a16z-can-open-source-keep-ai-power-from-conce","description":"《Attention is All You Need》共同作者 Lucas Kaiser 解释为什么今天的 AI 巨头集中只是技术现状，而非注定结局。","datePublished":"2026-09-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Sophia Du"},{"@type":"Person","name":"Lucas Kaiser"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"transformer"},{"@type":"Thing","name":"Attention is All You Need"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"GPU"},{"@type":"Thing","name":"开源运动 (open source movement)"},{"@type":"Thing","name":"编码智能体 (coding agents)"},{"@type":"Thing","name":"分布式模型 (distributed models)"},{"@type":"Thing","name":"研究突破 (research breakthrough)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Transformer 不满十岁：AI 集中不是宿命","item":"https://talk.solomind.cc/2026-09-07-a16z-can-open-source-keep-ai-power-from-conce"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-07-a16z-can-open-source-keep-ai-power-from-conce#post","headline":"Transformer 不满十岁：AI 集中不是宿命","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-07-a16z-can-open-source-keep-ai-power-from-conce","mainEntityOfPage":"https://talk.solomind.cc/2026-09-07-a16z-can-open-source-keep-ai-power-from-conce","description":"《Attention is All You Need》共同作者 Lucas Kaiser 解释为什么今天的 AI 巨头集中只是技术现状，而非注定结局。","datePublished":"2026-09-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Sophia Du"},{"@type":"Person","name":"Lucas Kaiser"},{"@type":"Organization","name":"OpenAI"},{"@type":"Thing","name":"Transformer"},{"@type":"Thing","name":"Attention is All You Need"},{"@type":"Thing","name":"LLM"},{"@type":"Thing","name":"GPU"},{"@type":"Thing","name":"开源运动 (open source movement)"},{"@type":"Thing","name":"编码智能体 (coding agents)"},{"@type":"Thing","name":"分布式模型 (distributed models)"},{"@type":"Thing","name":"研究突破 (research breakthrough)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Transformer 不满十岁：AI 集中不是宿命","item":"https://talk.solomind.cc/2026-09-07-a16z-can-open-source-keep-ai-power-from-conce"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Transformer 不满十岁：AI 集中不是宿命</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,9 +35,9 @@ jsonLd: |
 >
 > **公司** [[OpenAI]]
 >
-> **概念** [[transformer]] · [[Attention is All You Need]] · [[LLM]] · [[GPU]] · [[开源运动]] · [[编码智能体]] · [[分布式模型]] · [[研究突破]]
+> **概念** [[Transformer]] · [[Attention is All You Need]] · [[LLM]] · [[GPU]] · [[开源运动]] · [[编码智能体]] · [[分布式模型]] · [[研究突破]]
 
-这一集来自 a16z 在旧金山开源 AI 峰会上的一段访谈，主持人 [[Sophia Du|Sophia Du]] 对话的嘉宾是 [[Lucas Kaiser|Lucas Kaiser]]——AI 研究者、那篇奠定现代 AI 的论文《[[Attention is All You Need|Attention is All You Need]]》的共同作者，正是它引入了 [[transformer|transformer]](今天几乎所有大模型背后的基础架构)。
+这一集来自 a16z 在旧金山开源 AI 峰会上的一段访谈，主持人 [[Sophia Du|Sophia Du]] 对话的嘉宾是 [[Lucas Kaiser|Lucas Kaiser]]——AI 研究者、那篇奠定现代 AI 的论文《[[Attention is All You Need|Attention is All You Need]]》的共同作者，正是它引入了 [[Transformer|transformer]](今天几乎所有大模型背后的基础架构)。
 
 > 【背景】《Attention is All You Need》2017 年由 Google 团队发表，共八位作者；文中人名照转写稿记为 Lucas Kaiser。
 

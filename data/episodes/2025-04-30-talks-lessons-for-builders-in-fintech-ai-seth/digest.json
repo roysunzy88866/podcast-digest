@@ -1,0 +1,244 @@
+{
+  "title_zh": "AI 撞上金融：三位创始人聊产品、定价与智能体",
+  "tldr": "Rogo 联合创始人 John Willett、Foundation 创始人 Jamie Cuff、Basis 创始人 Mitch 对谈：如何在 AI 与金融服务的交汇处打造有价值的公司。",
+  "digest_md": "在纽约一场由 BTV 与 Greylock 合办的圆桌上，三位正在 AI 与金融服务交汇处创业的创始人聊了产品、进入市场、招人和智能体——Rogo 的联合创始人 John Willett 做面向华尔街的 AI 分析师，Foundation 的创始人 Jamie Cuff 做保险业的 AI 原生 BPO（用智能体替代海外外包团队处理保单文档），Basis 的创始人 Mitch 给会计师提供智能体。主持人是 Greylock 合伙人 Steph，专注 AI 应用与金融科技投资。\n\n## 「有用的产品」不等于「有价值的公司」\n\nMitch 抛出全场最核心的一条主张：在软件民主化的时代，给客户交付价值并不自动造就持久的企业价值——「交付价值的方式有很多种，并不带来任何持久的公司价值」。应用层公司通常没有技术护城河，他举例：Salesforce 的技术护城河是什么？我写个 SQL 查询跑得可能还比它快。真正关键的是嵌入的工作流、粘性、商业护城河。Basis 让自己不可或缺的方式，是它直接在做会计工作本身——就像对财务主管来说，工作流里最不可或缺的是团队。它做的工作越多，积累的上下文、数据和知识就越多 [10:12 Mitch]。\n\nJohn 则讲了一个反常规的产品转折。大约一年前，银行界的主流认知是 AI 的未来在自动化机械性工作流（公司概况页、财报摘要这类模板化交付物），Rogo 照着这个方向做了技术和销售材料，然后发现两件事：第一，它没想象中值钱——相对于想收的合同价格，每周省几个小时不够；尤其在投行，幻灯片做到 90% 你还是得重做一遍。第二，看着当时开始推出的推理模型，他们意识到产品可以远比那更有雄心：真正做人类水平的金融推理，帮资深银行家凭以前不会有的洞察赢交易。这个「核心问答、核心金融推理决定交易成败」的论点在 12-18 个月前是很大的反主流观点，如今已被证明是对的 [13:22 John Willett]。\n\n## 什么是真智能体：别在产品里做空 LLM\n\n「智能体」被滥用到什么程度？Jamie 说，早上冒出一个流行词，下午每份融资演讲稿里都出现「agentic」。她的判别标准很锋利：如果你只是给工作流构建器加一个 AI 步骤，那不是智能体，而且那实际上是在做空、看空 LLM。她定义的真智能体是「能自主地对一个从未见过的新任务进行推理的东西」。在保险业，同样的工作流每月被重复成千上万次，但没法确定性地编成代码或 DAG 式流程图——不过它们通常被编成标准操作程序（SOP）。Foundation 做的就是让保险运营团队把原本用来培训外包团队的 SOP 直接喂给智能体去推理，像培训人类团队一样培训它，越用越好。这才是工作流自动化和真智能体的区别 [15:43 Jamie Cuff]。\n\n## 卖给金融机构：制造紧迫感 + 从小处着手\n\nJohn 分享了卖给对冲基金、投行的两条经验。一是制造紧迫感：现在买家群体前所未有地认同 AI 会颠覆行业，但对当下的日常影响反而滋生新的怀疑（有机构自称「观望型」）。Rogo 的说辞是真的：改造一家公司即使有变革性技术也不可能一夜完成——像新人进高盛要 6-12 个月学会所有系统一样，AI 分析师也要 6-12 个月才能集成数据、搭好知识图谱、培训银行家使用。如果你选择等下一个更聪明的模型，竞争对手两年后只需扳动开关就能吃到模型进步，领先你两年 [20:59 John Willett]。二是门槛高得不可思议：对冲基金拿你产品算出的数字做了交易、数字是错的，就再也不会用你的工具；在银行业，即使数字是对的，只要来源不是客户自己用的数据源（客户用 FactSet，你给 CapIQ 的指标），就没法用。他的建议是找一个设计合作伙伴，打折扣都行，花三到六个月做出对方日常真正在用的产品，再考虑规模化。\n\n## 定价：不能按席位，要给「工作量」找代理指标\n\nMitch 承认 AI 应用的定价远没有定论。理想状态像给人类劳动定价——按完成的工作量付费——但不完美，所以才有了薪水制。按 token 计费？你给会计师事务所 CEO 一张按 token 计的账单，对方看你的眼神就像你是个疯子。所以必须回到客户舒适的方式：Basis 按事务所的终端客户数量收费，它大致代理了工作量。「绝对不能按席位收费」——因为你的目标恰恰是减少席位 [18:53 Mitch]。\n\n## 招人：别像 2018 年那样招聘\n\nJamie 的头等大事是团队。她的方法：从自己的人脉里找共事过的人（她第一位工程师是 Retool 的第二号工程师，「在扩张期公司里真正一起打拼过的信任无可替代」）；去你觉得有意思的社区里泡着——开源社区、研究圈、前创始人群体（Retool 曾有三分之二员工是前创始人，因为他们既能构建又能销售）。做垂直 AI 就该待在客户所在的地方，所以纽约正当其时 [23:33 Jamie Cuff]。\n\nMitch 补充了更反直觉的一点：如果相信 AI 会持续进步，就该意识到「在有三、四、五的世界里让人能干的技能，和五年前并不平行，而大多数人招人还像在 2018 年」。该加权重的是主观能动性、品味、架构能力、快速学习——比如听到不懂的术语就粘进 ChatGPT 问明白，「这就是纯粹的主观能动性」[27:29 Mitch]。\n\n## 内部用 AI：给全公司加一层底线\n\nJohn 坦承内部用 AI「可能比你想的少」：工程侧人人有 Cursor，但大部分代码仍是手写，AI 更多是思考伙伴。最大的解锁是把非技术员工提升为半技术：公司没雇任何内部 BI 或数据分析，每个人都能自己写 SQL 查客户使用数据。产品规格文档直接就是原型图。早期法务就是「我加 ChatGPT」。这个超能力就是给公司每个人加一层底线 [29:22 John Willett]。\n\n## 用智能体替代招聘：问题不在模型，在你的公司流程\n\n被问「有没有用智能体代替招人」，三位都给出了超出预期的回答。Jamie 直接说：我们大量使用 Devin，它审查公司每一个 PR，强烈推荐。Mitch 说得更深：如果相信智能体会越来越能干，关键就是现在就为那个现实设计公司——「为智能体构建的代码库看起来和为人类构建的不一样」，内部流程同理，比如为让 Devin 更高效而在 monorepo 与独立仓库之间做权衡。Jamie 总结：一年半前还能把问题推给「模型不够好」，现在轮到我们自己去让这些东西发挥作用——「O3 比这个房间里可能所有人都聪明，你用不好那是技术不行的问题」[41:34 Jamie Cuff]。\n\n关于未来五到十年，John 认为今天的大多数工作七年后很可能不再由人来做；Jamie 认为会出现市值巨大、由极高杠杆小团队构建的公司；主持人和嘉宾也都提到，金融要到达下一层级还需要数据互操作性和底层系统的自动化——智能体要真正执行交易和支付，底层基础设施还有很多要建。\n\n## 本集带走\n\n- **想清楚「有价值的公司」而不只是「有用的产品」**：应用层没技术护城河，要靠嵌入的工作流、粘性和商业护城河——让产品像团队一样直接做工作本身，自然积累数据和上下文。\n- **给「工作量」找代理指标定价**：AI 替代工作的产品不能按席位收费（你的目标是减少席位），按 token 客户也不买账；找一个人人理解的代理量（如终端客户数）。\n- **卖给金融企业：用「上手要 6-12 个月」制造紧迫感，先找共建伙伴打磨**：找个打折扣的设计伙伴，花三到六个月做出对方每天真在用的产品，再谈规模化。\n- **别在产品决策里做空 LLM**：给工作流加一个 AI 步骤不是智能体；真智能体是能对没见过的新任务自主推理的东西——可以把培训人类的 SOP 直接喂给它。\n- **招人别像 2018 年**：模型时代重要的技能变了，主观能动性、品味、架构能力、快速学习比现成的履历更能打；前创始人和一起打拼过的老同事是好来源。\n- **现在就为智能体重构公司**：为智能体构建的代码库和内部流程与为人设计的不一样（如 monorepo 取舍）；「模型不够好」的借口已经过期。",
+  "quotes": [
+    {
+      "en": "I think the important thing when you think about building companies here is thinking about that, about how to build companies that are valuable, not about how to build products that are useful.",
+      "zh": "我认为在这里思考创办公司时，重要的事情是思考如何创办有价值的公司，而不是如何构建有用的产品。",
+      "timestamp": "10:12",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "There's lots of ways to deliver value to a customer that doesn't lead to any sort of lasting enterprise value.",
+      "zh": "有很多给客户交付价值的方式，并不会带来任何形式的持久企业价值。",
+      "timestamp": "10:41",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "Our product can truly be human level intelligence that helps senior bankers win deals with insights they wouldn't have had before.",
+      "zh": "我们的产品可以真正成为人类水平的智能，帮助资深银行家凭借他们以前不会有的洞察力赢得交易。",
+      "timestamp": "13:53",
+      "speaker": "John Willett"
+    },
+    {
+      "en": "I've built a lot of workflow software, you know, throughout my career, and if you're just adding, you know, an AI step to a workflow builder, it's not an agent, and it's also probably incredibly short and bearish on LLMs, which I don't think anyone in this room is.",
+      "zh": "我在整个职业生涯中构建过很多工作流软件，如果你只是给工作流构建器加一个 AI 步骤，那它不是智能体，而且它很可能是在极其做空和看空 LLM，我认为这个房间里没有人是这样想的。",
+      "timestamp": "15:43",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "en": "And so when we think about agents for our product, it's really something that is able to autonomously reason its way through a novel task that it hasn't seen before.",
+      "zh": "当我们为自己的产品思考智能体时，它真正指的是能够自主地对一个它从未见过的新任务进行推理的东西。",
+      "timestamp": "16:07",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "en": "So if you're a firm that says, hey, we're going to wait for GBT5 to come out and have it blow us all away with it being smarter than humans, all of your other competitors that have been working with us for the past two years are going to just flip the switch because we are able to take advantage of those foundational model improvements and they're going to be two years ahead of you.",
+      "zh": "所以如果你是一家说“我们要等下一个更聪明的模型出来震撼所有人”的公司，那么过去两年一直与我们合作的所有竞争对手只需要扳动开关，因为他们能利用基础模型的改进，而他们将领先你两年。",
+      "timestamp": "20:59",
+      "speaker": "John Willett"
+    },
+    {
+      "en": "If you're selling to a hedge fund and they make a trade based on a number that comes out of your products and the number's wrong, they are never going to pick up your tool again.",
+      "zh": "如果你在卖给一家对冲基金，他们根据你产品算出的一个数字做了交易，而这个数字是错的，他们就再也不会用你的工具了。",
+      "timestamp": "21:52",
+      "speaker": "John Willett"
+    },
+    {
+      "en": "You could try to have a very metered approach or do per token and then you're going to your accounting firm CEO and you're giving them this bill per token. They look at you like you're nuts.",
+      "zh": "你可以尝试按 token 计费，然后你去找会计师事务所的 CEO，给他们这张按 token 计费的账单。他们看你的眼神就像你是个疯子。",
+      "timestamp": "18:44",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "So we essentially bill on a proxy of... the amount of end clients that the firm has which more or less proxies the work that is done and that works for now and it'll sort of change as things go on but you definitely can't do it by seat and you want to proxy something about the work being done.",
+      "zh": "所以我们基本上是按照一个代理指标收费的——该事务所拥有的终端客户数量，它或多或少代理了所完成的工作量；这个方式现在行得通，以后也会变，但你绝对不能按席位收费，你要为所做的工作找一个代理指标。",
+      "timestamp": "18:55",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "So, like, everyone at the company is sort of their own analyst, which is a superpower.",
+      "zh": "所以，公司里的每个人都算是自己的分析师，这是一种超能力。",
+      "timestamp": "29:49",
+      "speaker": "John Willett"
+    },
+    {
+      "en": "So I think that's the superpower is just kind of like adding a floor across the company for everyone.",
+      "zh": "所以我认为这个超能力就是给公司里的每个人加一层底线。",
+      "timestamp": "30:09",
+      "speaker": "John Willett"
+    },
+    {
+      "en": "And on top of that, you can always get more revenue if your product's better, if you're doing things, but you can't get your reputation back.",
+      "zh": "而且除此之外，如果你的产品更好、你在认真做事，你总能获得更多收入，但你的声誉是找不回来的。",
+      "timestamp": "38:27",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "Because the code base that's built for agents actually looks different than the code base built for humans.",
+      "zh": "因为为智能体构建的代码库实际上看起来和为人类构建的代码库不一样。",
+      "timestamp": "42:06",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "Yeah, O3 is smarter than probably everyone in this room. So it's like if like you're having trouble getting it to do something useful for you.",
+      "zh": "是的，O3 比这个房间里的可能所有人都聪明。所以，如果你在让它为你做有用的事情上遇到困难。",
+      "timestamp": "43:16",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "I think most jobs that are done today are probably not going to be done seven years from now, if not less.",
+      "zh": "我认为今天所做的大多数工作，七年后很可能不会再由人来做，甚至更快。",
+      "timestamp": "33:55",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "I think you will see just massive, massive companies from a market cap perspective being built with very, very high leverage small teams.",
+      "zh": "我认为你会看到，从市值角度来看，会有规模巨大的公司由杠杆极高的小团队构建出来。",
+      "timestamp": "34:41",
+      "speaker": "SPEAKER_05"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "10:12",
+      "speaker": "Mitch",
+      "en": "I think the important thing when you think about building companies here is thinking about that, about how to build companies that are valuable, not about how to build products that are useful.",
+      "zh": "我认为在这里思考创办公司时，重要的事情是思考如何创办有价值的公司，而不是如何构建有用的产品。"
+    },
+    {
+      "timestamp": "10:41",
+      "speaker": "Mitch",
+      "en": "There's lots of ways to deliver value to a customer that doesn't lead to any sort of lasting enterprise value.",
+      "zh": "有很多给客户交付价值的方式，并不会带来任何形式的持久企业价值。"
+    },
+    {
+      "timestamp": "13:33",
+      "speaker": "John Willett",
+      "en": "And specifically in like investment banking, if the slide is like 90% the way there, you got to just do it again.",
+      "zh": "特别是在投资银行领域，如果一份幻灯片已经完成了 90%，你还是得重做一遍。"
+    },
+    {
+      "timestamp": "13:53",
+      "speaker": "John Willett",
+      "en": "Our product can truly be human level intelligence that helps senior bankers win deals with insights they wouldn't have had before.",
+      "zh": "我们的产品可以真正成为人类水平的智能，帮助资深银行家凭借他们以前不会有的洞察力赢得交易。"
+    },
+    {
+      "timestamp": "15:43",
+      "speaker": "Jamie Cuff",
+      "en": "I've built a lot of workflow software, you know, throughout my career, and if you're just adding, you know, an AI step to a workflow builder, it's not an agent, and it's also probably incredibly short and bearish on LLMs, which I don't think anyone in this room is.",
+      "zh": "我在整个职业生涯中构建过很多工作流软件，如果你只是给工作流构建器加一个 AI 步骤，那它不是智能体，而且它很可能是在极其做空和看空 LLM，我认为这个房间里没有人是这样想的。"
+    },
+    {
+      "timestamp": "16:07",
+      "speaker": "Jamie Cuff",
+      "en": "And so when we think about agents for our product, it's really something that is able to autonomously reason its way through a novel task that it hasn't seen before.",
+      "zh": "当我们为自己的产品思考智能体时，它真正指的是能够自主地对一个它从未见过的新任务进行推理的东西。"
+    },
+    {
+      "timestamp": "20:59",
+      "speaker": "John Willett",
+      "en": "So if you're a firm that says, hey, we're going to wait for GBT5 to come out and have it blow us all away with it being smarter than humans, all of your other competitors that have been working with us for the past two years are going to just flip the switch because we are able to take advantage of those foundational model improvements and they're going to be two years ahead of you.",
+      "zh": "所以如果你是一家说“我们要等下一个更聪明的模型出来震撼所有人”的公司，那么过去两年一直与我们合作的所有竞争对手只需要扳动开关，因为他们能利用基础模型的改进，而他们将领先你两年。"
+    },
+    {
+      "timestamp": "21:52",
+      "speaker": "John Willett",
+      "en": "If you're selling to a hedge fund and they make a trade based on a number that comes out of your products and the number's wrong, they are never going to pick up your tool again.",
+      "zh": "如果你在卖给一家对冲基金，他们根据你产品算出的一个数字做了交易，而这个数字是错的，他们就再也不会用你的工具了。"
+    },
+    {
+      "timestamp": "18:53",
+      "speaker": "Mitch",
+      "en": "You could try to have a very metered approach or do per token and then you're going to your accounting firm CEO and you're giving them this bill per token. They look at you like you're nuts.",
+      "zh": "你可以尝试按 token 计费，然后你去找会计师事务所的 CEO，给他们这张按 token 计费的账单。他们看你的眼神就像你是个疯子。"
+    },
+    {
+      "timestamp": "19:03",
+      "speaker": "Mitch",
+      "en": "So we essentially bill on a proxy of... the amount of end clients that the firm has which more or less proxies the work that is done and that works for now and it'll sort of change as things go on but you definitely can't do it by seat and you want to proxy something about the work being done.",
+      "zh": "所以我们基本上是按照一个代理指标收费的——该事务所拥有的终端客户数量，它或多或少代理了所完成的工作量；这个方式现在行得通，以后也会变，但你绝对不能按席位收费，你要为所做的工作找一个代理指标。"
+    },
+    {
+      "timestamp": "24:03",
+      "speaker": "Jamie Cuff",
+      "en": "And there's nothing better than like the trust that comes from having like really been in it with someone before a scaling company.",
+      "zh": "没有什么比得上这种信任——曾经和某个人在一家扩张中的公司里真正一起打拼过所建立的信任。"
+    },
+    {
+      "timestamp": "27:29",
+      "speaker": "Mitch",
+      "en": "So like agency, like agency has always been important, but I would argue now it's more important. Taste, extremely important.",
+      "zh": "比如主观能动性，主观能动性一直都很重要，但我会说现在更重要了。品味，极其重要。"
+    },
+    {
+      "timestamp": "28:26",
+      "speaker": "Mitch",
+      "en": "That's just pure agency.",
+      "zh": "这就是纯粹的主观能动性。"
+    },
+    {
+      "timestamp": "29:46",
+      "speaker": "John Willett",
+      "en": "Yeah, product specs can just be mocks.",
+      "zh": "是的，产品规格文档可以直接就是原型图。"
+    },
+    {
+      "timestamp": "29:49",
+      "speaker": "John Willett",
+      "en": "So, like, everyone at the company is sort of their own analyst, which is a superpower.",
+      "zh": "所以，公司里的每个人都算是自己的分析师，这是一种超能力。"
+    },
+    {
+      "timestamp": "30:09",
+      "speaker": "John Willett",
+      "en": "So I think that's the superpower is just kind of like adding a floor across the company for everyone.",
+      "zh": "所以我认为这个超能力就是给公司里的每个人加一层底线。"
+    },
+    {
+      "timestamp": "38:27",
+      "speaker": "Mitch",
+      "en": "And on top of that, you can always get more revenue if your product's better, if you're doing things, but you can't get your reputation back.",
+      "zh": "而且除此之外，如果你的产品更好、你在认真做事，你总能获得更多收入，但你的声誉是找不回来的。"
+    },
+    {
+      "timestamp": "42:06",
+      "speaker": "Mitch",
+      "en": "Because the code base that's built for agents actually looks different than the code base built for humans.",
+      "zh": "因为为智能体构建的代码库实际上看起来和为人类构建的代码库不一样。"
+    },
+    {
+      "timestamp": "43:13",
+      "speaker": "Jamie Cuff",
+      "en": "I think it's now kind of like on us to go and make those things work.",
+      "zh": "我认为现在轮到我们去让这些东西发挥作用了。"
+    },
+    {
+      "timestamp": "43:16",
+      "speaker": "Mitch",
+      "en": "Yeah, O3 is smarter than probably everyone in this room. So it's like if like you're having trouble getting it to do something useful for you.",
+      "zh": "是的，O3 比这个房间里的可能所有人都聪明。所以，如果你在让它为你做有用的事情上遇到困难。"
+    },
+    {
+      "timestamp": "43:25",
+      "speaker": "Mitch",
+      "en": "So it's, you know, it's a skill issue if you're having a problem.",
+      "zh": "所以，你知道，如果你有问题，那是技术不行的问题。"
+    },
+    {
+      "timestamp": "33:50",
+      "speaker": "John Willett",
+      "en": "I think most jobs that are done today are probably not going to be done seven years from now, if not less.",
+      "zh": "我认为今天所做的大多数工作，七年后很可能不会再由人来做，甚至更快。"
+    },
+    {
+      "timestamp": "34:41",
+      "speaker": "Jamie Cuff",
+      "en": "I think you will see just massive, massive companies from a market cap perspective being built with very, very high leverage small teams.",
+      "zh": "我认为你会看到，从市值角度来看，会有规模巨大的公司由杠杆极高的小团队构建出来。"
+    }
+  ],
+  "voice_script": "今天这期,咱们听一场挺特别的对谈。在纽约,BTV 和 Greylock 合办了一场圆桌,请来三位正在 AI 和金融服务交汇处创业的创始人。Rogo 的联合创始人 John Willett,做的是面向华尔街的 AI 分析师;Foundation 的创始人 Jamie Cuff,做保险业的 AI 原生 BPO,说白了就是用智能体替代海外的外包团队去处理保单文档;还有 Basis 的创始人 Mitch,给会计师提供智能体。主持人是 Greylock 的合伙人 Steph,专门投 AI 应用和金融科技。三个人都是一手在做这件事的人,聊的全是最前线的实战经验。\n\n整场聊下来,最核心的一条主张,是 Mitch 抛出来的。这条主张有点反直觉:给客户交付价值,并不自动等于创办了一家有价值的公司。他的原话是,交付价值的方式有很多种,但并不带来任何持久的公司价值。为什么这么说?因为在软件民主化的时代,应用层公司通常没有技术护城河。打了个比方:Salesforce 的技术护城河到底是什么?我写个 SQL 查询,跑得可能还比它快。那真正关键的是什么?是你嵌入的工作流、粘性、还有商业层面的护城河。Basis 让自己不可或缺的办法,是直接去做会计工作本身。对财务主管来说,工作流里最离不开的是团队,产品也一样——做的工作越多,积累的上下文、数据和知识就越多。\n\n那怎么判断一个产品该往哪个方向做?John 讲了一个反常规的产品转折,很有意思。大约一年前,银行界的主流认知是,AI 的未来在于自动化那些机械性的工作流,比如公司概况页、财报摘要这类模板化的东西。Rogo 一开始也照这个方向做了技术和销售材料,结果发现两件事。第一,这玩意儿没想象中值钱。相对想收的合同价格,每周省几个小时根本不够;尤其在投行,幻灯片做到 90%,你还是得重做一遍。第二,看着当时开始推出的推理模型,团队意识到产品可以远比那更有雄心——真正做人类水平的金融推理,帮资深银行家凭借以前不会有的洞察力去赢得交易。要知道,\"核心问答、核心金融推理决定交易成败\"这个论点,在十二到十八个月前是很大的反主流观点,如今已经被证明是对的。\n\n产品方向有了,可\"智能体\"这个词本身,已经被用滥了。Jamie 说得形象:早上冒出一个流行词,下午每份融资演讲稿里都出现\"agentic\"。那到底什么才算真智能体?这里她有个判别标准,非常锋利:如果你只是给工作流构建器加一个 AI 步骤,那不是智能体,而且那实际上是在做空、看空 LLM。拿金句里的话说,构建过很多工作流软件的人,是没有一个会这么干的。那真的智能体是什么?是能自主地对一个从未见过的新任务进行推理的东西。放到保险业,同样的工作流每月被重复成千上万次,没法确定性地编成代码或者流程图——但它们通常被写成标准操作程序,也就是 SOP。Foundation 做的,就是让保险运营团队把原本用来培训外包团队的 SOP,直接喂给智能体去推理,像培训人类团队一样培训它,越用越好。这才是工作流自动化和真智能体的区别。\n\n产品立住了,怎么卖给金融机构?John 分享了两条经验。第一条,制造紧迫感。现在买家前所未有地认同 AI 会颠覆行业,但对当下的日常影响,反而滋生新的怀疑,有些机构干脆自称\"观望型\"。Rogo 的说辞很实:改造一家公司,就算有变革性技术,也不可能一夜完成——就像新人进高盛要六到十二个月学会所有系统一样,AI 分析师也要六到十二个月才能集成数据、搭好知识图谱、培训银行家使用。如果你选择等下一个更聪明的模型出来震撼所有人,那过去两年一直在跟别人合作的竞争对手,只需要扳动开关,就能吃掉基础模型的进步,领先你整整两年。第二条经验是,这个行业的门槛高得不可思议。对冲基金拿你产品算出的数字做了交易,数字是错的,就再也不会用你的工具;更狠的是,在银行业,就算数字是对的,只要来源不是客户自己用的数据源——客户用 FactSet,你给的是 CapIQ 的指标——就没法用。所以 John 的建议是,找一个设计合作伙伴,打折扣都行,花三到六个月做出对方日常真正在用的产品,再考虑规模化。\n\n产品做出来了,怎么定价?Mitch 承认,AI 应用的定价远没有定论。理想状态是像给人类劳动定价那样,按完成的工作量付费——但这事儿不完美,所以才有了薪水制。按 token 计费行不行?你给会计师事务所的 CEO 一张按 token 计的账单,对方看你的眼神,就像你是个疯子。所以必须回到客户舒适的方式:Basis 按事务所的终端客户数量收费,这个数大致代理了工作量。这里有句要紧的话:绝对不能按席位收费——因为你的目标,恰恰是减少席位。\n\n定价聊完,话题转到招人。Jamie 的头等大事就是团队,方法是从自己的人脉里找共事过的人。第一位工程师,就是 Retool 的第二号工程师——在扩张期公司里真正一起打拼过的信任,无可替代。另外就是去你觉得有意思的社区里泡着:开源社区、研究圈、前创始人群体。Retool 曾有三分之二的员工是前创始人,因为这些人既能构建又能销售。而且做垂直 AI,就该待在客户所在的地方,所以纽约正当其时。Mitch 补充了一个更反直觉的点:如果相信 AI 会持续进步,那\"在有三、四、五的世界里让人能干的技能\",跟五年前并不平行,可大多数人招人还像在 2018 年。该加权重的是什么?主观能动性、品味、架构能力、快速学习。举了个例子:听到不懂的术语,就粘进 ChatGPT 问明白——这就是纯粹的主观能动性。\n\n聊到内部怎么用 AI,John 坦承,用量可能比你想象的少:工程侧人人有 Cursor,但大部分代码还是手写,AI 更多是当思考伙伴。不过最大的解锁,是把非技术员工提升为半技术——公司没雇任何内部数据分析,每个人都能自己写 SQL 查客户使用数据,产品规格文档直接就是原型图。用他的话说,这个超能力就是给公司每个人加了一层底线。\n\n最后被问到,有没有用智能体代替招人,三个人的回答都超出预期。Jamie 直说:我们大量使用 Devin,它审查公司每一个 PR,强烈推荐。Mitch 说得更深:如果相信智能体会越来越能干,关键就是现在就为那个现实设计公司——为智能体构建的代码库,看起来和为人类构建的不一样,内部流程同理。Jamie 总结得很到位:一年半前,还能把问题推给\"模型不够好\",现在轮到我们自己让这些东西发挥作用了——O3 比这个房间里可能所有人都聪明,你用不好,那是技术不行的问题。\n\n放眼未来五到十年,John 认为今天的大多数工作,七年后很可能不再由人来做;Jamie 认为会出现市值巨大、却由极高杠杆小团队构建的公司。所以回到 Mitch 开场那条主张,这期的核心其实就是一句话:想清楚怎么创办有价值的公司,而不只是怎么构建有用的产品——因为有很多交付价值的方式,并不会带来任何形式的持久企业价值。"
+}

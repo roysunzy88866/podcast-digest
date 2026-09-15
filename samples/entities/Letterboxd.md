@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Andrew Wilkinson]] · [[Lenny]] · [[Tiny]] · [[Lindy]] · [[Replit]] · [[Limitless]] · [[ChatGPT]] · [[智能体]] · [[vibe coding]] · [[网络效应]]
+[[Andrew Wilkinson]] · [[Lenny]] · [[Tiny]] · [[Lindy]] · [[Replit]] · [[Limitless]] · [[ChatGPT]] · [[Asana]] · [[智能体]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"Andrew Wilkinson":1,"Lenny":67,"Tiny":1,"Lindy":2,"Replit":16,"Limitless":1,"ChatGPT":63,"智能体":237,"vibe coding":33,"网络效应":10}</script>
+<script type="application/json" class="pd-epn">{"Andrew Wilkinson":1,"Lenny":67,"Tiny":1,"Lindy":2,"Replit":16,"Limitless":1,"ChatGPT":65,"Asana":2,"智能体":240,"vibe coding":33}</script>
 
 <script>
 (function(){

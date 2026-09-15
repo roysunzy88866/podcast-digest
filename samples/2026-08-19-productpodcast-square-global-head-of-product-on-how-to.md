@@ -154,7 +154,7 @@ Square 从支付公司长成了整个生态系统，[[TAM|TAM]] 怎么算？Will
 
 - [[2026-07-18-twentyvc-20vc-5bn-in-revenue-7-to-7-000-employees|从奶牛测序到 50 亿新冠检测生意，再到用 AI 智能体改造保险]]<span class="pd-rz">同概念:TAM、智能体 (agent)</span>
 - [[2026-09-09-talks-acp-the-universal-remote-control-for-ai|AI 的通用遥控器：为什么智能体行业还需要一个 ACP 协议]]<span class="pd-rz">同公司:Block · 同概念:智能体 (agent)</span>
-- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 </div>

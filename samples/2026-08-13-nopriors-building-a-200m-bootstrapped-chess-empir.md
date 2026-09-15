@@ -109,9 +109,9 @@ Chess.com 不愿透露具体的[[反作弊|反作弊]]机制,但核心在于极�
 
 **顺着「创业与行业」挖下去**
 
+- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同概念:AGI</span>
 - [[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|Wix CEO Avishai:SaaS 末日下,我们凭什么值钱]]<span class="pd-rz">同概念:AGI</span>
 - [[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|Benedict Evans:AI 价值会落在哪一层?]]<span class="pd-rz">同概念:AGI</span>
-- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同概念:AGI</span>
 
 </div>
 <div class="pd-ex">

@@ -8,11 +8,13 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>63</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>65</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]]**(19:49起):本集说人们更喜欢向 Perplexity 或 ChatGPT 提问，因为可以用自己想要的格式获取信息——这就是商业个性化的终局信号。
+- **[[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]]**(12:51起):本集提到距离 ChatGPT 的首次发布才过了没几个月,AI 浪潮持续每天都有惊人创新。
+- **[[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]]**(08:39起):Mitch 拿它举例说明主观能动性(把听不懂的术语粘进去问);John 说早期公司法务就是「我加 ChatGPT」。
 - **[[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]]**(63:45起):本集将 ChatGPT 作为团队 AI 习惯养成的工具举例，建议从与工作无关的简单场景（如想度假地点）开始降低摩擦。
 - **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(00:03起):本集多次提及 ChatGPT，作为 Peter Deng 曾担任产品副总裁并负责监督产品设计、工程及增长团队的产品，讨论了其 post training 与产品团队的紧密合作模式。
 - **[[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]]**(51:50起):本集说 ChatGPT 对 Andrew 最大的价值是克服 ADHD 带来的'卡住'——以前在终端配 IT 安全遇到报错就彻底放弃，现在问 ChatGPT 能保持心流状态继续往下走
@@ -115,9 +117,11 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*63 集*
+*65 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
+- [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司(提及)
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为被讨论公司
@@ -185,9 +189,9 @@ aliases: ["chat gpt", "ChatGPD"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Claude]] · [[Lenny]] · [[Google]] · [[Anthropic]] · [[Codex]] · [[Cursor]] · [[LLM]] · [[AGI]]
+[[智能体]] · [[OpenAI]] · [[Claude]] · [[Lenny]] · [[Anthropic]] · [[Google]] · [[Codex]] · [[Cursor]] · [[LLM]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"智能体":237,"OpenAI":111,"Claude":58,"Lenny":67,"Google":42,"Anthropic":122,"Codex":47,"Cursor":58,"LLM":32,"AGI":21}</script>
+<script type="application/json" class="pd-epn">{"智能体":240,"OpenAI":113,"Claude":58,"Lenny":67,"Anthropic":123,"Google":42,"Codex":47,"Cursor":59,"LLM":32,"主观能动性":19}</script>
 
 <script>
 (function(){

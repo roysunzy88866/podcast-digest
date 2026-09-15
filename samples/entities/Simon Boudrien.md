@@ -29,7 +29,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Simon Maple]] · [[Guy for Germany]] · [[Datadog]] · [[智能体]] · [[评估]] · [[上下文]] · [[Cursor]] · [[开源权重模型]] · [[代码审查]] · [[OpenClaw]]
+[[Simon Maple]] · [[Guy for Germany]] · [[Datadog]] · [[智能体]] · [[评估]] · [[上下文]] · [[Cursor]] · [[开源权重模型]] · [[代码审查]] · [[Pi]]
 
 ## ④ 也在聊「AI 编程」的人
 
@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":8,"Guy for Germany":1,"Datadog":7,"智能体":237,"评估":1,"上下文":15,"Cursor":58,"开源权重模型":1,"代码审查":10,"OpenClaw":16}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":8,"Guy for Germany":1,"Datadog":7,"智能体":240,"评估":1,"上下文":15,"Cursor":59,"开源权重模型":1,"代码审查":10,"Pi":2}</script>
 
 <script>
 (function(){

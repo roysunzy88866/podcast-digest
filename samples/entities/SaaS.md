@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SaaS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>15</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>16</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]]**(10:38起):本集把 SaaS 说成早期云时代与按席位商业模式相吻合的一次转变,公开市场曾花了一段时间才学会如何为 SaaS 公司估值和承销。
 - **[[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]]**(57:30起):本集说应用 AI 智能体市场就像软件即服务市场，随着技术门槛降低，没人关心你用什么数据库，只关心你解决了什么业务问题。
 - **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(03:26起):本集核心探讨的商业模式，嘉宾指出任何 SaaS 公司都有一个由流失率决定的绝对规模天花板（每月新增客户数 ÷ 流失率），除非解决流失或保证净留存达标，否则绝对长不大
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(01:13起):Dan 反对「SaaS 末日论」，预测智能体会成倍增加 SaaS 的调用量和用户数，并且用户在自己电脑的本地 AI 环境中使用这些网页工具会消耗自己的大模型算力（tokens），从而大幅节省 SaaS 厂商的成本。
@@ -53,8 +54,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*15 集*
+*16 集*
 
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为概念
@@ -75,9 +77,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Lenny]] · [[LLM]] · [[Claude Code]] · [[Microsoft]] · [[NVIDIA]] · [[Salesforce]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Shopify]] · [[Lenny]] · [[LLM]] · [[Claude Code]] · [[Microsoft]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":237,"OpenAI":111,"Anthropic":122,"Cursor":58,"Lenny":67,"LLM":32,"Claude Code":59,"Microsoft":24,"NVIDIA":35,"Salesforce":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":240,"OpenAI":113,"Anthropic":123,"Cursor":59,"Shopify":9,"Lenny":67,"LLM":32,"Claude Code":59,"Microsoft":25,"NVIDIA":35}</script>
 
 <script>
 (function(){

@@ -19,7 +19,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Sonja]] · [[Jerry Tworek]] · [[Core Automation]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[transformer]] · [[强化学习]] · [[预训练]] · [[测试时学习]]
+[[Sonja]] · [[Jerry Tworek]] · [[Core Automation]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[Transformer]] · [[强化学习]] · [[预训练]] · [[测试时学习]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sonja":1,"Jerry Tworek":1,"Core Automation":1,"OpenAI":111,"Google":42,"Anthropic":122,"transformer":7,"强化学习":17,"预训练":6,"测试时学习":1}</script>
+<script type="application/json" class="pd-epn">{"Sonja":1,"Jerry Tworek":1,"Core Automation":1,"OpenAI":113,"Google":42,"Anthropic":123,"Transformer":8,"强化学习":17,"预训练":6,"测试时学习":1}</script>
 
 <script>
 (function(){

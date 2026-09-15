@@ -1,0 +1,1172 @@
+{
+  "episode_id": "2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m",
+  "podcast": "精选演讲",
+  "date": "2024-10-08",
+  "tags": [
+    "计费基础设施",
+    "按用量定价",
+    "AI 定价",
+    "创业与融资",
+    "按结果定价"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "sal-motamini",
+      "type": "person",
+      "role": "host",
+      "name": "Sal Motamini",
+      "file": "Sal Motamini",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            9.52,
+            15.474
+          ],
+          "quote": "I'm enterprise partner, Sal Motamini, and today I'm joined by Alvaro Morales, the CEO and co-founder of Orb.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "alvaro-morales",
+      "type": "person",
+      "role": "cohost",
+      "name": "Alvaro Morales",
+      "file": "Alvaro Morales",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            9.52,
+            15.474
+          ],
+          "quote": "I'm enterprise partner, Sal Motamini, and today I'm joined by Alvaro Morales, the CEO and co-founder of Orb.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "orb",
+      "type": "company",
+      "role": "concept",
+      "name": "Orb",
+      "file": "Orb",
+      "primary": true,
+      "how_described": "本集把它说成:为现代定价软件模式打造的灵活计费基础设施,帮软件企业(如 Vercel、Pinecone、Perplexity)快速演进定价,把每个产品使用单元连接到收入的数据平台,刚完成 2500 万美元 B 轮融资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            9.52,
+            15.474
+          ],
+          "quote": "I'm enterprise partner, Sal Motamini, and today I'm joined by Alvaro Morales, the CEO and co-founder of Orb.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2,
+          "t": [
+            16.337,
+            25.241
+          ],
+          "quote": "Orb is the modern billing infrastructure powering revenue workflows for the next wave of AI and software companies, companies like Vercel, Pinecone, and Perplexity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            45.9,
+            50.503
+          ],
+          "quote": "For listeners who haven't heard of Orb before, let's start with just giving them the elevator pitch.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            51.123,
+            53.245
+          ],
+          "quote": "What is Orb and what makes the company so special?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 13,
+          "t": [
+            57.886,
+            62.026
+          ],
+          "quote": "So Orb is flexible billing infrastructure for modern pricing software models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            75.809,
+            80.15
+          ],
+          "quote": "And really the goal of Orb is to make it really easy for companies to evolve their pricing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            104.4,
+            111.025
+          ],
+          "quote": "So really what we're doing with Orb is we're excited to support companies in the mission critical areas of revenue workflows with what they do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            115.148,
+            125.474
+          ],
+          "quote": "And completely agree with you on the sort of re-engineering of the business that happens around these pricing changes and the power of Orb to help sort of power a lot of that change.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 23,
+          "t": [
+            125.995,
+            129.417
+          ],
+          "quote": "What sort of companies have you found get the most out of using Orb?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            160.053,
+            170.479
+          ],
+          "quote": "So a lot of what we do with Orb is we power billing for them and give them a lot of flexibility to evolve what they're doing without them having to put their team towards that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            173.177,
+            180.699
+          ],
+          "quote": "Well, we're going to talk a lot more about what Orb is doing today, but I want to rewind the clock a little bit and sort of share with our listeners some of the history here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 33,
+          "t": [
+            182.899,
+            190.361
+          ],
+          "quote": "You know, you started Orb with your co-founder Shatez, your co-founder and CTO, and the two of you have known each other for a long time, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            320.537,
+            330.704
+          ],
+          "quote": "And what an amazing fit when you think about the kind of software monetization models that Orb is built to support with the kind of flexibility that Orb has as a platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            363.069,
+            367.931
+          ],
+          "quote": "And thank God you guys built Orb, so no other teams have to deal with that pain firsthand.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 61,
+          "t": [
+            368.532,
+            369.752
+          ],
+          "quote": "Orb can handle it all for them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            440.03,
+            452.295
+          ],
+          "quote": "That's why I think when you think about a solution like Orb that has a broad purview across many different types of customers, many different types of monetization models, I think we're structurally a little bit more well equipped to go solve that problem holistically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            463.329,
+            466.751
+          ],
+          "quote": "So Orb raised a $14 million Series A just last year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 82,
+          "t": [
+            472.776,
+            477.699
+          ],
+          "quote": "What does the Series B mean for Orb and what's kind of your plan and focus with this new round of funding?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            519.968,
+            530.034
+          ],
+          "quote": "So on this confluence of trends, I think what we're seeing is a really significant acceleration in demand for the kind of flexible monetization that Orb is built to support.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            569.179,
+            577.4
+          ],
+          "quote": "And I think one of the things you've talked about and sort of built the company around is the secular shift that's happening in software pricing and how ORB plays into that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            872.052,
+            874.956
+          ],
+          "quote": "And I'm really excited about the role that Orb can play in this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            929.198,
+            940.265
+          ],
+          "quote": "Yeah, I think at a high level, one thing that we work with a lot of AI companies at Orb, and I think it's a real passion of mine to work with founders on their pricing strategies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1088.154,
+            1094.78
+          ],
+          "quote": "Do I, as a customer, need to sort of be usage-based or fully switch to usage-based to be a good fit for you at Orb?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1150.632,
+            1154.014
+          ],
+          "quote": "So I think to be a great fit for Orb...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1311.804,
+            1320.807
+          ],
+          "quote": "If you think about it, marketing campaign at Orb, we are setting aside a budget and that budget is a proxy for the kind of results that we want to get out of this campaign.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1465.103,
+            1470.306
+          ],
+          "quote": "And sort of dynamic data-driven pricing, and it feels impossible to do without a platform like Orb.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1611.815,
+            1618.658
+          ],
+          "quote": "And when founding Orb, we started with, what would it look like to build an extensibility first billing system?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1717.434,
+            1727.297
+          ],
+          "quote": "So I think when you think about the landscape, Orb stands out, number one, being very native to the kind of monetization models that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1796.739,
+            1800.422
+          ],
+          "quote": "So Alvaro, let's talk a little bit more about Orb the Company and Orb the Team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1828.844,
+            1835.868
+          ],
+          "quote": "The team at Orb brings a uniquely infrastructure lens to the outcomes that they drive for customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1871.977,
+            1875.858
+          ],
+          "quote": "Contrast that to Orb where we have shared Slack channels with our customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            2019.216,
+            2028.701
+          ],
+          "quote": "We have teams that we're working with that are excited about helping power their seller compensation through the data that's in Orb or their customer success, churn prevention and renewals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2043.029,
+            2046.471
+          ],
+          "quote": "And I think I'm excited about the role that Orb can play in this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 335,
+          "t": [
+            2048.348,
+            2055.354
+          ],
+          "quote": "Silver, as we begin to wrap up our conversation, I want you to, again, go back to when you started Orb in 2021.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 346,
+          "t": [
+            2113.777,
+            2119.879
+          ],
+          "quote": "And I think that the outcomes that Orb drives is really important for any software business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2212.248,
+            2217.41
+          ],
+          "quote": "And so as you think about sort of the next couple of years, what do you want ORB's impact on the software industry to be?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2262.361,
+            2268.526
+          ],
+          "quote": "So I want Orb to be known for enabling companies to ship their pricing as quickly as they've shipped their products.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "asana",
+      "type": "company",
+      "role": "concept",
+      "name": "Asana",
+      "file": "Asana",
+      "primary": true,
+      "how_described": "本集说 Alvaro 和联合创始人 Chitesh 在 Asana 早期相识、一起做到 IPO;Alvaro 在 Asana 被拉去支持一次定价调整,亲历改一个简单按席位定价要花好几个月,由此萌生创办 Orb 的想法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            190.401,
+            195.002
+          ],
+          "quote": "Dating back to Asana, where you worked closely together and built that company through its IPO.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 36,
+          "t": [
+            202.584,
+            210.031
+          ],
+          "quote": "Yeah, so Chitesh and I met at Asana when we joined pretty early on the team there, and we've been friends for a long time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            355.104,
+            360.847
+          ],
+          "quote": "Yeah, I remember when we first met and you shared the story of what it took to make that pricing change happen at Asana.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "concept",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集把它说成:计费领域的大型在位者之一,客户拿 Orb 与 Stripe 这类老牌供应商比较;Orb 以对当下变现模型原生、开发者优先作为差异化来打大厂。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 273,
+          "t": [
+            1666.643,
+            1679.575
+          ],
+          "quote": "I'm curious, when you have these conversations and people talk about these pain points that they have from some of the more legacy vendors, how do they compare you to some of the large incumbents out there, ranging from a Stripe to a Zora?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "concept",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": true,
+      "how_described": "本集用它做类比:Shopify 起步时只是「帮我搭个网店」,结果成了你运营整个业务的操作系统,如今是 900 亿美元的公司——主持人以此类比计费如何从看似小事变成客户业务的操作系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 319,
+          "t": [
+            1948.577,
+            1955.042
+          ],
+          "quote": "Like, you know, a little bit of an analogy when you first explained it to me is to Shopify, where like when Shopify got started, it's like, okay, cool.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1955.222,
+            1962.147
+          ],
+          "quote": "You helped me put up a web storefront, like useful, but turns out like, no, Shopify becomes the operating system in which you run your business.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "concept",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": true,
+      "how_described": "本集说它是率先教育公开市场的开路先锋:证明基于消费的营收模式能带来极佳的净美元留存和高效增长,IPO 前后一美元获客营收一年内能变成 1.60 美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            602.368,
+            618.836
+          ],
+          "quote": "So we were seeing some very successful trailblazing public companies like Snowflake and Twilio lead the education of the public markets around, here are the advantages of a consumption-based revenue model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            719.551,
+            727.052
+          ],
+          "quote": "Around Snowflake's IPO, a dollar of revenue acquired could become $1.60 in a matter of a year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            877.397,
+            883.483
+          ],
+          "quote": "I remember back in 21, we were talking about Snowflake and Twilio and in the private markets, companies like Databricks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2134.748,
+            2146.054
+          ],
+          "quote": "Like, again, I think you talked about this, but in 2021, there were a couple examples of really good usage-based pricing businesses, businesses like Snowflake and Twilio that really aligned the way they priced with the way value is delivered.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "twilio",
+      "type": "company",
+      "role": "concept",
+      "name": "Twilio",
+      "file": "Twilio",
+      "primary": true,
+      "how_described": "本集把它与 Snowflake 并列为引领基于消费营收模式教育公开市场的成功上市公司,定价方式真正与价值交付方式对齐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            602.368,
+            618.836
+          ],
+          "quote": "So we were seeing some very successful trailblazing public companies like Snowflake and Twilio lead the education of the public markets around, here are the advantages of a consumption-based revenue model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            877.397,
+            883.483
+          ],
+          "quote": "I remember back in 21, we were talking about Snowflake and Twilio and in the private markets, companies like Databricks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2134.748,
+            2146.054
+          ],
+          "quote": "Like, again, I think you talked about this, but in 2021, there were a couple examples of really good usage-based pricing businesses, businesses like Snowflake and Twilio that really aligned the way they priced with the way value is delivered.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "concept",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": true,
+      "how_described": "本集说它是 Orb 的客户:Orb 帮 Vercel 团队为其生成式 UI 产品 V0 上线了计费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16.337,
+            25.241
+          ],
+          "quote": "Orb is the modern billing infrastructure powering revenue workflows for the next wave of AI and software companies, companies like Vercel, Pinecone, and Perplexity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1639.855,
+            1644.439
+          ],
+          "quote": "We helped the Vercel team launch billing for V0, their generative UI product.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pinecone",
+      "type": "company",
+      "role": "concept",
+      "name": "Pinecone",
+      "file": "Pinecone",
+      "primary": true,
+      "how_described": "本集说它是 Orb 的客户:Orb 帮 Pinecone 团队为其无服务器架构(向量数据库领域的创新)上线了计费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16.337,
+            25.241
+          ],
+          "quote": "Orb is the modern billing infrastructure powering revenue workflows for the next wave of AI and software companies, companies like Vercel, Pinecone, and Perplexity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1644.499,
+            1652.606
+          ],
+          "quote": "We helped the Pinecone team launch billing for serverless, their sort of innovative architecture towards the vector database space.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "type": "company",
+      "role": "concept",
+      "name": "Perplexity",
+      "file": "Perplexity",
+      "primary": true,
+      "how_described": "本集介绍 Orb 时说它是为 Vercel、Pinecone、Perplexity 这类下一波 AI 和软件公司的收入工作流提供动力的计费基础设施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16.337,
+            25.241
+          ],
+          "quote": "Orb is the modern billing infrastructure powering revenue workflows for the next wave of AI and software companies, companies like Vercel, Pinecone, and Perplexity.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "zendesk-ai",
+      "type": "company",
+      "role": "concept",
+      "name": "Zendesk AI",
+      "file": "Zendesk AI",
+      "primary": true,
+      "how_described": "本集把它作为按结果定价的早期实验例子:客服交互结束时问客户「问题解决了吗」,客户标记已解决即为一个结果,按它计费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            1273.343,
+            1280.746
+          ],
+          "quote": "So solutions like Zendesk AI have a way for an agent that's answering a question on behalf of a customer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1293.252,
+            1296.955
+          ],
+          "quote": "So solutions like Zendesk AI are seeking to price based on that outcome.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "usage-based-pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "按用量定价 (usage-based pricing)",
+      "file": "按用量定价",
+      "primary": true,
+      "how_described": "本集把它说成软件定价的长期性转变和未来:不为办了不去的健身房会员买单,不用不付、越用付越多,是对齐价值的更公平模式;宏观逆风与 AI 浪潮加速了这一趋势,2024 年随智能体兴起,按席位思考「就完蛋了」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            62.627,
+            75.229
+          ],
+          "quote": "So if you think about it, we help software businesses experiment with different kinds of monetization strategies, whether this is usage-based pricing, consumption-based pricing, or more of a hybrid strategy mixing together seed-based and consumption.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1536.718,
+            1551.521
+          ],
+          "quote": "So specifically, it's either built really around this idea of a more subscription seat model that just does not jive with the kind of more flexibility that a consumption or usage-based pricing model requires and or",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2134.748,
+            2146.054
+          ],
+          "quote": "Like, again, I think you talked about this, but in 2021, there were a couple examples of really good usage-based pricing businesses, businesses like Snowflake and Twilio that really aligned the way they priced with the way value is delivered.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "consumption-based",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于消费的营收模式 (consumption-based)",
+      "file": "基于消费的营收模式",
+      "primary": true,
+      "how_described": "本集说 Snowflake、Twilio 用它教育了公开市场,证明能驱动同类最佳的净美元留存率和高效增长;如今很少有公司不把消费纳入定价思考。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            62.627,
+            75.229
+          ],
+          "quote": "So if you think about it, we help software businesses experiment with different kinds of monetization strategies, whether this is usage-based pricing, consumption-based pricing, or more of a hybrid strategy mixing together seed-based and consumption.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            585.804,
+            592.195
+          ],
+          "quote": "Maybe to start, can you break down why you think consumption-based pricing is the future and how did we get here?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 100,
+          "t": [
+            602.368,
+            618.836
+          ],
+          "quote": "So we were seeing some very successful trailblazing public companies like Snowflake and Twilio lead the education of the public markets around, here are the advantages of a consumption-based revenue model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            650.221,
+            659.397
+          ],
+          "quote": "And I think we're starting to see a similar thing and trend happen in the public markets with some of the most trailblazing and successful consumption-based companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            680.45,
+            683.651
+          ],
+          "quote": "If you think about it as a consumer, consumption-based pricing",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2182.173,
+            2185.895
+          ],
+          "quote": "are usage-based or consumption-based or outcome-oriented in the way they price.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "outcome-based-pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于结果的定价 (outcome-based pricing)",
+      "file": "基于结果的定价",
+      "primary": true,
+      "how_described": "本集把它说成定价的下一个前沿:按一个可衡量的结果收费,是定价策略对「软件为客户创造的真实价值曲线」最贴近的逼近;客服领域的「按已解决计费」已是早期实验,还可能出现类似广告按效果付费的模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1200.088,
+            1208.175
+          ],
+          "quote": "I am deeply fascinated about the early experimentation that we're doing as an industry around an outcome-based pricing model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1255.878,
+            1264.541
+          ],
+          "quote": "The idea behind outcome-based pricing is what if you price based on a measurable outcome that you are seeking to get out of a software solution?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1440.576,
+            1456.101
+          ],
+          "quote": "It feels like just zooming up, the point you're making is we're on this arc dating back to the PC era to now where we are with the AI era and outcome-based pricing to get pricing to be as close to possible to actual value delivery and recognition.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "net-dollar-retention",
+      "type": "concept",
+      "role": "concept",
+      "name": "净美元留存率 (net dollar retention)",
+      "file": "净美元留存率",
+      "primary": true,
+      "how_described": "本集说基于消费的营收模式能驱动极其惊人的、同类最佳的净美元留存率;Alvaro 还希望客户董事会的幻灯片里有来自 Orb 的 NDR 实时脉搏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            620.034,
+            627.42
+          ],
+          "quote": "in its ability to drive kind of astounding best-in-class net dollar retention and really efficient growth as a business.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "platform-shifts",
+      "type": "concept",
+      "role": "concept",
+      "name": "平台转移 (platform shifts)",
+      "file": "平台转移",
+      "primary": true,
+      "how_described": "本集说软件史上每次重大平台转移不只催生一代新公司,也颠覆软件商业模式:PC 时代对应许可证定价,早期云对应 SaaS 按席位,Gen.AI 可能把软件价值转向结果导向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            801.27,
+            803.131
+          ],
+          "quote": "Platform shifts in the software industry.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "seat-based",
+      "type": "concept",
+      "role": "concept",
+      "name": "按席位定价 (seat-based)",
+      "file": "按席位定价",
+      "primary": true,
+      "how_described": "本集把它说成早期云时代的 SaaS 定价模式,是价值曲线较粗的近似;宏观逆风下客户裁员时合同会被砍,随智能体兴起它被视为没有未来的视角。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            923.053,
+            928.077
+          ],
+          "quote": "Why is seat-based not as good of a fit, it seems, for these AI and agentic companies?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1237.662,
+            1247.09
+          ],
+          "quote": "Seat-based, try to make it a little bit more of a closer approximation where maybe you're approximating based on the number of seats that you're provisioning, what that value is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2161.934,
+            2172.344
+          ],
+          "quote": "And like you fast forward to 2024 with the rise of agents and it's like, you know, if you're still thinking about things primarily through a seat-based lens, like you're toast and there is no future.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 Gen.AI 把软件价值从「有没有一个登录账号」转向「这个智能体软件能为我做成什么」;2024 年随智能体兴起,按席位定价的视角被认为没有未来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            1273.343,
+            1280.746
+          ],
+          "quote": "So solutions like Zendesk AI have a way for an agent that's answering a question on behalf of a customer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1336.296,
+            1351.108
+          ],
+          "quote": "I think we're perhaps going to start seeing software adopt a similar model where maybe you can pay less and you get a little bit less of a sophisticated foundation model or a less sophisticated agent to run your task.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": true,
+      "how_described": "本集把 SaaS 说成早期云时代与按席位商业模式相吻合的一次转变,公开市场曾花了一段时间才学会如何为 SaaS 公司估值和承销。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            638.749,
+            646.135
+          ],
+          "quote": "SaaS very much was a shift in the sense that it kind of took a while for the public markets to really figure out how to value and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            646.895,
+            649.78
+          ],
+          "quote": "and underwrite SaaS-based public companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            829.738,
+            834.121
+          ],
+          "quote": "Well, early cloud, that coincides with the SaaS-based business model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "concept",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集主持人顺带提到 2021 年私募市场里基于消费模式的例子时提到 Databricks,一笔带过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            877.397,
+            883.483
+          ],
+          "quote": "I remember back in 21, we were talking about Snowflake and Twilio and in the private markets, companies like Databricks.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "concept",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 AI 创始人要了解成本结构——当那张 OpenAI 或 Anthropic 的账单很高时,得知道它大方向往哪走;并引 GPT-4 发布以来每 token 价格已降近 90%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            1034.964,
+            1046.508
+          ],
+          "quote": "Directly tie your pricing strategy to your cost structure, but particularly when that OpenAI or Anthropic bill is so high, you want to have some awareness and understanding of where directionally that is headed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1379.425,
+            1391.015
+          ],
+          "quote": "So since the launch of the GPT-4 model family of OpenAI, the price per token has dropped over nearly 90% since its release.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1394.219,
+            1400.381
+          ],
+          "quote": "Less than 12 months ago, you're starting to, as an AI company, leaning on OpenAI's models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "concept",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集与 OpenAI 并提:当那张 OpenAI 或 Anthropic 的账单如此之高时,你要对成本大方向有认知。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 166,
+          "t": [
+            1034.964,
+            1046.508
+          ],
+          "quote": "Directly tie your pricing strategy to your cost structure, but particularly when that OpenAI or Anthropic bill is so high, you want to have some awareness and understanding of where directionally that is headed.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpt-4",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT-4",
+      "file": "GPT-4",
+      "primary": true,
+      "how_described": "本集引用数据:自 GPT-4 模型家族发布以来,每 token 价格已下降近 90%——过去要 11 年的降价幅度现在几个月就发生,说明商业模式窗口变化极快。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 224,
+          "t": [
+            1379.425,
+            1391.015
+          ],
+          "quote": "So since the launch of the GPT-4 model family of OpenAI, the price per token has dropped over nearly 90% since its release.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集提到距离 ChatGPT 的首次发布才过了没几个月,AI 浪潮持续每天都有惊人创新。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            771.528,
+            785.033
+          ],
+          "quote": "And then second, sort of this wave of AI has exploded and we're not that many months from the original launch of ChatGPT, but we're continuing to see on a daily basis some amazing innovation there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "concept",
+      "role": "concept",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": false,
+      "how_described": "本集引用对比数据:AWS 上 S3 的成本自 2013 年以来才下降 97%,用来说明 AI 时代降价时间线从 11 年压缩到几个月。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 229,
+          "t": [
+            1408.744,
+            1413.966
+          ],
+          "quote": "I think in that example, Jamin also showed how the costs of S3 on AWS has dropped 97% since 2013.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gen-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 AI (Gen.AI)",
+      "file": "生成式 AI",
+      "primary": true,
+      "how_described": "本集说 Gen.AI 有潜力把软件价值从「是否有登录账号」转变为基于结果的导向,是又一次既催生新公司、又颠覆软件商业模式的平台转移。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            834.882,
+            844.748
+          ],
+          "quote": "I think Gen.AI has the potential to shifting the value of software away from, do I have a login into a web product that I have access to, into more of an outcome-based orientation?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 基础设施 (AI infrastructure)",
+      "file": "AI 基础设施",
+      "primary": true,
+      "how_described": "本集说运行 AI 基础设施的成本不是一笔小账单——AI 业务销货成本高,逼着创始人比以往早得多地认真思考定价策略。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            965.316,
+            969.177
+          ],
+          "quote": "The cost of running AI infrastructure is not a small bill.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

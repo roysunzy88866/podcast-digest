@@ -33,7 +33,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Plaid]] · [[Square]] · [[Visa]] · [[OpenAI]] · [[Replit]] · [[公司文化]] · [[创始人]] · [[组织设计]] · [[go-to-market]] · [[招人]]
+[[Plaid]] · [[Square]] · [[Visa]] · [[OpenAI]] · [[Perplexity]] · [[Replit]] · [[公司文化]] · [[创始人]] · [[组织设计]] · [[go-to-market]]
 
 ## ④ 也在聊「组织与领导力」的人
 
@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Plaid":2,"Square":4,"Visa":2,"OpenAI":111,"Replit":16,"公司文化":1,"创始人":1,"组织设计":1,"go-to-market":8,"招人":2}</script>
+<script type="application/json" class="pd-epn">{"Plaid":2,"Square":4,"Visa":2,"OpenAI":113,"Perplexity":6,"Replit":16,"公司文化":1,"创始人":1,"组织设计":1,"go-to-market":8}</script>
 
 <script>
 (function(){

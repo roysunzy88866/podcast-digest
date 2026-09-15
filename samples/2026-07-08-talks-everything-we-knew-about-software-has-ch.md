@@ -128,8 +128,8 @@ jsonLd: |
 **换个口味**
 
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同公司:Vercel · 同概念:编排 (orchestration)</span>
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Vercel、AWS</span>
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱]]<span class="pd-rz">同公司:Slack</span>
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Vercel</span>
 
 </div>
 </div>

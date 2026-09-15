@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Copilot</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Copilot">CO</div><div class="pi"><h1 class="pt">Copilot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Copilot">CO</div><div class="pi"><h1 class="pt">Copilot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]]**(09:32起):Mustafa 在 Microsoft 负责的产品，与 OpenAI 合作在其模型上构建并微调；下一阶段重点是记忆和个性化，终局是覆盖整个生活的无处不在助手。
 - **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(31:38起):本集提到 Copilot 遥遥领先，拥有分发、人才、基础设施和先发优势，但后来被 Cursor、Windsurf 等公司凭借更好的产品突破。
 - **[[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]]**(46:08起):本集提到 Marc 的儿子在使用 Copilot，以及 GitHub Copilot 曾被后来者超越的历史
 - **[[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]]**(21:33起):本集将其与 Cursor 并列，说它们推出的编排器新迭代能想出的最好 UI 就是侧边栏加聊天
@@ -29,8 +30,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
+- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念(提及)
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]] — 作为被讨论公司(提及)
@@ -45,9 +47,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Anthropic]] · [[Cursor]] · [[ChatGPT]] · [[Lenny]] · [[vibe coding]] · [[护栏]] · [[Cloudflare]]
+[[智能体]] · [[OpenAI]] · [[Cursor]] · [[Claude Code]] · [[Anthropic]] · [[DeepMind]] · [[ChatGPT]] · [[Microsoft]] · [[AGI]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"智能体":237,"OpenAI":111,"Claude Code":59,"Anthropic":122,"Cursor":58,"ChatGPT":63,"Lenny":67,"vibe coding":33,"护栏":44,"Cloudflare":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":240,"OpenAI":113,"Cursor":59,"Claude Code":59,"Anthropic":123,"DeepMind":8,"ChatGPT":65,"Microsoft":25,"AGI":22,"后训练":21}</script>
 
 <script>
 (function(){

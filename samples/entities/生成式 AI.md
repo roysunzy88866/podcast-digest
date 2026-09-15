@@ -1,51 +1,41 @@
 ---
-title: 生成式 AI (generative AI)
+title: 生成式 AI (Gen.AI)
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>生成式 AI (generative AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>生成式 AI (Gen.AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="生成式 AI">生成</div><div class="pi"><h1 class="pt">生成式 AI (generative AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="生成式 AI">生成</div><div class="pi"><h1 class="pt">生成式 AI (Gen.AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]]**(12:30起):本集说生成式 AI 负责「制造惊喜」——生成用户预料之外的初次体验，还将重新训练消费者的期望，但不能只押生成式、低估传统 AI 的总影响。
-- **[[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]]**(04:24起):本集说它是超级强大的克敌工具，让他们终于能解决空白页问题、设计出一整场起飞的发布。
-- **[[2026-07-30-indepth-what-startups-get-wrong-about-enterprise|《从 CRO 到 COO：挑战者怎么打企业市场》]]**(59:48起):本集提到三个落地场景：运营侧处理客户支持和争议（AI 解决率目标 90% 以上，CSAT 提升约三个点）；销售侧的智能体编排层；工程侧超过 8% 的代码由其编写
-- **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(32:54起):本集把它说成:能对视频进行推理(如判断司机急刹车是为了躲避狗),甚至能生成 AI 虚拟教练视频来对司机进行周末安全辅导。
-- **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(23:13起):本集说旅行领域的信息过载和虚假评论问题 'kind of made for generative AI，which takes in all the information, adds context, adds a little intelligence'
-- **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(00:00起):本集核心批判对象，被描述为'本质上是一个骗局'、'极其昂贵、不可靠、不赚钱的云软件'，所有新建数据中心只为它服务，与蛋白质折叠、机器人等无关。
-- **[[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]]**(17:58起):本集说它让 AI 民主化、人人可用，但企业不可能到处养博士团队，从而改变了把 AI 引入企业的整个模式。
+- **[[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]]**(13:54起):本集说 Gen.AI 有潜力把软件价值从「是否有登录账号」转变为基于结果的导向,是又一次既催生新公司、又颠覆软件商业模式的平台转移。
+- **[[2026-06-04-practicalai-breaking-down-the-2026-stanford-ai-index|《Stanford AI Index 报告十大要点速览》]]**(05:34起):本集指出五分之四的大学生已经在使用生成式 AI，80% 的高中和大学生用 AI 处理学业相关事务
 
 ## ① 提到它的金句
 
 *2 条*
 
-![[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr#^q4]]
+![[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m#^q6]]
 
-![[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor#^q1]]
+![[2026-07-28-pg-how-to-build-your-first-eval#^q2]]
 
 ## ② 出现在这些集
 
-*7 集*
+*2 集*
 
-- [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为概念
-- [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]] — 作为概念
-- [[2026-07-30-indepth-what-startups-get-wrong-about-enterprise|《从 CRO 到 COO：挑战者怎么打企业市场》]] — 作为概念
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为概念
-- [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为概念(提及)
-- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为概念
-- [[2026-09-03-practicalai-less-about-models-more-about-architectur|《Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构》]] — 作为概念
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
+- [[2026-06-04-practicalai-breaking-down-the-2026-stanford-ai-index|《Stanford AI Index 报告十大要点速览》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[LLM]] · [[Anthropic]] · [[护栏]] · [[Amazon]] · [[评估]] · [[物理 AI]] · [[OpenAI]] · [[推理]] · [[ChatGPT]]
+[[智能体]] · [[Sal Motamini]] · [[Daniel Whitenack]] · [[Alvaro Morales]] · [[Chris Benson]] · [[Orb]] · [[AI Index report]] · [[Asana]] · [[锯齿状前沿]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":237,"LLM":32,"Anthropic":122,"护栏":44,"Amazon":12,"评估":1,"物理 AI":7,"OpenAI":111,"推理":46,"ChatGPT":63}</script>
+<script type="application/json" class="pd-epn">{"智能体":240,"Sal Motamini":1,"Daniel Whitenack":6,"Alvaro Morales":1,"Chris Benson":7,"Orb":1,"AI Index report":1,"Asana":2,"锯齿状前沿":1,"Stripe":31}</script>
 
 <script>
 (function(){

@@ -167,7 +167,7 @@ Rachel 曾在 Stripe 为 50 位核心高管做过辅导项目，她说看到那�
 
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder]]<span class="pd-rz">同概念:联合创始人 (co-founder)</span>
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|AI 时代的科技人情绪实录：一半狂欢，一半崩塌]]<span class="pd-rz">同概念:职业倦怠 (burnout)</span>
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Stripe</span>
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Stripe</span>
 
 </div>
 </div>

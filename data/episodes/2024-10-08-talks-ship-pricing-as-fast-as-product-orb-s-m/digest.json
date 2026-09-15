@@ -1,0 +1,196 @@
+{
+  "title_zh": "Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代",
+  "tldr": "Orb 联合创始人兼 CEO Alvaro Morales 解释为什么基于用量的定价正取代按席位收费，以及 AI 时代「按结果定价」的走向。",
+  "digest_md": "这一集是 Greylock 播客的一场对谈，主角是 Orb 的 CEO 兼联合创始人 Alvaro Morales。Orb 是一家计费基础设施公司，为 Vercel、Pinecone、Perplexity 这类 AI 和软件公司处理收入工作流，刚完成 2500 万美元 B 轮融资 [00:09 Sal Motamini]。\n\n钩子是 Alvaro 亲历的一件事：在 Asana 时他被拉去支持一次定价调整，本以为「看看 Excel、写三行代码就完事」，结果公司花了好几个月才改成一个很简单的按席位定价、或上线一个新档位——而这些变更对收入的影响又非常显著。他说，作为房间里工程的声音之一，不得不对业务团队说「好主意，但要六到八个月重构定价相关的每个假设」，这让他非常不舒服 [04:47 Alvaro Morales]。他和后来的联合创始人、CTO Chitesh(两人在 Asana 早期就认识，一起把公司做到 IPO)由此产生了一个判断：开发者平台的那些本质理念——可扩展性、灵活性、快速迭代——一直没有进入收入技术栈，没有进入计费系统的设计 [05:03 Alvaro Morales]。\n\n## 为什么按用量定价是未来\n\nAlvaro 给出的叙事线是这样的：Snowflake、Twilio 这批上市公司率先教育了公开市场，证明基于消费的营收模式能带来极好的净收入留存和高效增长 [10:02 Alvaro Morales]。对客户来说，按用量付费就是「不为办了不去的健身房会员买单」——不用不付钱，越用付越多，这是一条对齐价值的线，也需要厂商对自己的产品有巨大信心才敢这么收费 [11:24 Alvaro Morales]。他给了一个量级感受：Snowflake IPO 前后，一美元获客营收一年内能变成 1.60 美元 [11:59 Alvaro Morales]。\n\n然后两件事把这个趋势加速了。一是宏观环境变差：如果你按席位收费，客户大裁员时，不管你产品多好，合同都会被砍。二是 AI 浪潮爆发——而 AI 业务的销货成本很高，「运行 AI 基础设施的成本不是一笔小账单」，这逼着创始人比以往早得多地认真思考定价策略 [16:05 Alvaro Morales]。他有一个更大的框架：软件史上每次重大平台转移，不只催生一代新公司，也颠覆软件的商业模式——PC 时代对应许可证定价，早期云对应 SaaS 按席位，而 Gen.AI 可能把软件的价值从「我有没有一个登录账号」转向「这个智能体软件能为我做成什么事」的结果导向 [13:54 Alvaro Morales]。\n\n## AI 定价的三条基本功\n\n给创始人的建议，他说 AI 定价本质上「就是出色的定价策略，回归基本面」：第一，保持简单——再复杂的定价模型如果只能活在 Excel 里、没法在销售对话里讲清楚，就没用；第二，了解自己的成本结构和利润率——不必把定价直接绑在成本上，但当那张 OpenAI 或 Anthropic 的账单很高时，你得知道它大方向往哪走 [17:14 Alvaro Morales];第三，灵活迭代——「你不可能一开始就把它做对」，必须在市场里试、学、演进。\n\n他也澄清：用 Orb 不必全盘切换到纯按用量。定价不是数学题，是理解你的客户和市场——也许席位加消费的混合模式更适合你，也许在功能分层里用用量上限来驱动追加销售。共同点只有一个：灵活性。太多现有计费方式把定价当「一次设置、再也不管」，而你必须持续演进它 [18:59 Alvaro Morales]。\n\n## 下一步：按结果定价\n\nAlvaro 说他最着迷的是行业围绕「基于结果的定价」的早期实验。他给了一个数学视角：定价策略本质上是在逼近一条「软件为客户创造的真实价值曲线」——许可证定价是随手画一条线，按席位更近一点，而按结果定价是直接按一个可衡量的结果收费 [20:11 Alvaro Morales]。例子是客服软件：像 Zendesk AI 在交互结束后问客户「问题解决了吗」，客户标记已解决，那就是一个结果，按它计费。他还预测可能出现类似广告投放的「按效果付费」：付少一点，得到一个弱一点的基础模型或智能体；付多一点，得到更高的结果 [21:51 Alvaro Morales]。\n\n支撑这个判断的是变化速度：自 GPT-4 模型家族发布以来，每 token 价格已下降近 90%;而 AWS 上 S3 的成本自 2013 年以来才下降 97%——「那个时间线不是 11 年，是几个月」[23:46 Alvaro Morales]。他的推论很直接：如果行业变化这么快，而你的工程团队告诉你改一次定价要一年，「也许你就在竞争中撑不住了」[24:31 Alvaro Morales]。\n\n## Orb 凭什么打大厂\n\n面对 Stripe 等在位者，Alvaro 说产品一流只是基本门槛，企业要的是帮他们从 A 点到 B 点的伙伴。他给出三个差异化：一是对当下变现模型的原生支持，不是静态订阅式的；二是开发者优先，快速上手、快速实施、支持变更；三是最特别的——Orb 实际在构建一个能把每一个产品使用单元连接到收入的数据平台，这立刻对计费有用，同时让财务团队获得产品使用与收入之间闭环的实时收入视图 [29:10 Alvaro Morales]。客户案例包括帮 Vercel 为其生成式 UI 产品 V0 上线计费、帮 Pinecone 为无服务器架构上线计费。\n\n## 计费为什么是个大问题\n\n主持人把 Orb 类比为 Shopify:起步时「帮我搭个网店」看似小事，结果成了你运营整个业务的操作系统。Alvaro 完全认同——计费这类问题要「剥洋葱」：越往里看越大，下游所有 go-to-market 职能都建立在定价和计费这块地基上 [32:46 Alvaro Morales]。所以他们继续往收入报告、收入预测走，希望客户董事会的幻灯片里有一份来自 Orb 的 NDR 实时脉搏，甚至用 Orb 的数据驱动销售提成、客户成功和流失预防 [33:22 Alvaro Morales]。\n\n回头看 2021 年创业至今，他说最大的意外是速度：「先是缓慢，然后一瞬间全部发生」——当年收入效率还被当作锦上添花，现在一夜之间成了紧迫的优先事项 [34:51 Alvaro Morales]。主持人补充：2024 年随智能体兴起，如果你还主要用按席位的视角思考，「那你就完蛋了，没有未来」；他每周接触的创业公司里八到九成定价都是基于用量或结果导向的——这发生在比所有人预期快得多的时间里 [36:01 Sal Motamini]。\n\n对未来的期望，Alvaro 的话很朴素：他希望 Orb 以「帮公司把定价发布得和发布产品一样快」而闻名，把工程师从支持计费中解放出来，消掉这笔巨大的机会成本——「创新税」[37:42 Alvaro Morales]。他们也在官网开放了试用(withorb.com/trial)。\n\n## 本集带走\n\n- **定价不是数学题，是理解客户和市场**：保持简单(能在销售对话里讲清)、了解成本结构(不必绑死成本，但要知道方向)、灵活迭代(第一次一定做不对)。\n- **AI 把定价提前到了创业早期**：因为 AI 销货成本高、又开拓企业新预算，创始人必须一开始就认真设计定价。\n- **把定价当持续演进的产品，不是一次性设置**：席位、用量、混合、按结果——关键是能快速换，改定价不该比改产品慢一个数量级。\n- **按结果定价是下一个前沿**：从「有登录账号」到「做成了 measurable 的结果」收费，客服领域的「按已解决计费」已是早期实验。\n- **成本下降速度决定商业模式窗口**：GPT-4 token 价格几个月降了近 90%,同样幅度的历史降价过去要花十一年。",
+  "quotes": [
+    {
+      "en": "I found it really uncomfortable to be one of the engineering voices in the room, having to tell no to business teams on like, you know, fantastic idea, but it's going to take me six to eight months to re-architect and refactor every assumption we've made around pricing in the business.",
+      "zh": "作为房间里工程方面的声音之一,不得不对业务团队说不,真的非常不舒服——就是那种:好主意,但这需要我六到八个月去重新架构并重构我们在业务定价上做的每一个假设。",
+      "timestamp": "04:48",
+      "speaker": "Alvaro Morales"
+    },
+    {
+      "en": "Consumption-based pricing is really around this idea of how do we avoid the shelfware or how do I avoid paying for that gym subscription that I pay for but don't go for and really only pay for what I consume.",
+      "zh": "基于消费的定价其实是围绕这样一个理念:如何避免买回来吃灰的软件,如何避免为那张办了却不去的健身房会员付费,真正做到只为消费的东西付费。",
+      "timestamp": "11:22",
+      "speaker": "Alvaro Morales"
+    },
+    {
+      "en": "You need an amazing product and a ton of confidence in your product to really stand behind it and tie your revenue growth strategy towards that.",
+      "zh": "你需要一款了不起的产品,以及对它巨大的信心,才能真正为它背书,并把你的营收增长策略与之绑定。",
+      "timestamp": "11:44",
+      "speaker": "Alvaro Morales"
+    },
+    {
+      "en": "Around Snowflake's IPO, a dollar of revenue acquired could become $1.60 in a matter of a year.",
+      "zh": "在 Snowflake IPO 前后,一美元获客营收可以在一年之内变成 1.60 美元。",
+      "timestamp": "11:59",
+      "speaker": "Alvaro Morales"
+    },
+    {
+      "en": "Every major one has not only resulted in just a generation of companies providing significant innovation, it's also disrupted the software business model.",
+      "zh": "每一次重大的平台转移,不仅催生了一代提供重大创新的公司,也颠覆了软件的商业模式。",
+      "timestamp": "13:23",
+      "speaker": "Alvaro Morales"
+    },
+    {
+      "en": "I think Gen.AI has the potential to shifting the value of software away from, do I have a login into a web product that I have access to, into more of an outcome-based orientation?",
+      "zh": "我认为 Gen.AI 有潜力把软件的价值从「我是否拥有一个网络产品的登录账号」转向更偏向基于结果的导向。",
+      "timestamp": "13:54",
+      "speaker": "Alvaro Morales"
+    },
+    {
+      "en": "Too many existing approaches to billing just rely on pricing as like a one-and-done, you set it and forget it, and you miss on the fact that you have to kind of keep evolving it.",
+      "zh": "太多现有计费方式把定价当作一次性的——设好就不管了——错失了一个事实:你必须持续地演进它。",
+      "timestamp": "19:00",
+      "speaker": "Alvaro Morales"
+    },
+    {
+      "en": "But that timeline is not happening in 11 years. It's happening in months. And that's the ecosystem that we're living in today.",
+      "zh": "但那个时间线不是 11 年,而是几个月。这就是我们今天所处的生态系统。",
+      "timestamp": "23:46",
+      "speaker": "Alvaro Morales"
+    },
+    {
+      "en": "If the industry is changing that fast and your engineering team, much like me, is going to tell you it's going to take a year to shift pricing, maybe you're not going to stand up to the competition.",
+      "zh": "如果行业变化得那么快,而你的工程团队和我当年一样告诉你调整定价需要一年,也许你就在竞争中撑不住了。",
+      "timestamp": "24:34",
+      "speaker": "Alvaro Morales"
+    },
+    {
+      "en": "What we're really building is a data platform that can uniquely connect every unit of product usage to revenue.",
+      "zh": "我们真正在构建的是一个数据平台,能够独特地把每一个产品使用单元连接到收入。",
+      "timestamp": "29:15",
+      "speaker": "Alvaro Morales"
+    },
+    {
+      "en": "Getting it right sort of becomes the operating system for our customers.",
+      "zh": "把计费这件事做对,某种意义上就成了我们客户的操作系统。",
+      "timestamp": "32:57",
+      "speaker": "Sal Motamini"
+    },
+    {
+      "en": "I could not have imagined the speed that this transformation is happening in the software industry. Like that saying of, you know, it's slowly at first and then it happens all at once.",
+      "zh": "我根本无法想象这场变革在软件行业发生的速度。就像那句话说的:先是缓慢,然后一瞬间全部发生。",
+      "timestamp": "34:46",
+      "speaker": "Alvaro Morales"
+    },
+    {
+      "en": "I want Orb to be known for enabling companies to ship their pricing as quickly as they've shipped their products.",
+      "zh": "我希望 Orb 以让公司发布定价的速度和它们发布产品的速度一样快而闻名。",
+      "timestamp": "37:43",
+      "speaker": "Alvaro Morales"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:47",
+      "speaker": "Alvaro Morales",
+      "en": "I found it really uncomfortable to be one of the engineering voices in the room, having to tell no to business teams on like, you know, fantastic idea, but it's going to take me six to eight months to re-architect and refactor every assumption we've made around pricing in the business.",
+      "zh": "作为房间里工程方面的声音之一,不得不对业务团队说不,真的非常不舒服——就是那种:好主意,但这需要我六到八个月去重新架构并重构我们在业务定价上做的每一个假设。"
+    },
+    {
+      "timestamp": "05:15",
+      "speaker": "Alvaro Morales",
+      "en": "Haven't made it to the revenue stack. Haven't made it to the design of a building infrastructure system.",
+      "zh": "(开发者平台的那些理念)一直没有进入收入技术栈,没有进入计费基础设施系统的设计。"
+    },
+    {
+      "timestamp": "11:24",
+      "speaker": "Alvaro Morales",
+      "en": "Consumption-based pricing is really around this idea of how do we avoid the shelfware or how do I avoid paying for that gym subscription that I pay for but don't go for and really only pay for what I consume.",
+      "zh": "基于消费的定价其实是围绕这样一个理念:如何避免买回来吃灰的软件,如何避免为那张办了却不去的健身房会员付费,真正做到只为消费的东西付费。"
+    },
+    {
+      "timestamp": "11:44",
+      "speaker": "Alvaro Morales",
+      "en": "You need an amazing product and a ton of confidence in your product to really stand behind it and tie your revenue growth strategy towards that.",
+      "zh": "你需要一款了不起的产品,以及对它巨大的信心,才能真正为它背书,并把你的营收增长策略与之绑定。"
+    },
+    {
+      "timestamp": "11:59",
+      "speaker": "Alvaro Morales",
+      "en": "Around Snowflake's IPO, a dollar of revenue acquired could become $1.60 in a matter of a year.",
+      "zh": "在 Snowflake IPO 前后,一美元获客营收可以在一年之内变成 1.60 美元。"
+    },
+    {
+      "timestamp": "13:35",
+      "speaker": "Alvaro Morales",
+      "en": "Every major one has not only resulted in just a generation of companies providing significant innovation, it's also disrupted the software business model.",
+      "zh": "每一次重大的平台转移,不仅催生了一代提供重大创新的公司,也颠覆了软件的商业模式。"
+    },
+    {
+      "timestamp": "14:04",
+      "speaker": "Alvaro Morales",
+      "en": "I think Gen.AI has the potential to shifting the value of software away from, do I have a login into a web product that I have access to, into more of an outcome-based orientation?",
+      "zh": "我认为 Gen.AI 有潜力把软件的价值从「我是否拥有一个网络产品的登录账号」转向更偏向基于结果的导向。"
+    },
+    {
+      "timestamp": "16:39",
+      "speaker": "Alvaro Morales",
+      "en": "AI pricing is just great pricing strategy and goes back to the fundamentals.",
+      "zh": "AI 定价就是出色的定价策略,要回归基本面。"
+    },
+    {
+      "timestamp": "17:30",
+      "speaker": "Alvaro Morales",
+      "en": "You're not going to get it right in the get-go. You have to try out some things, learn in the market, and evolve from there.",
+      "zh": "你不可能一开始就把它做对。你必须尝试一些东西,在市场中学习,并从那里演进。"
+    },
+    {
+      "timestamp": "18:59",
+      "speaker": "Alvaro Morales",
+      "en": "Too many existing approaches to billing just rely on pricing as like a one-and-done, you set it and forget it, and you miss on the fact that you have to kind of keep evolving it.",
+      "zh": "太多现有计费方式把定价当作一次性的——设好就不管了——错失了一个事实:你必须持续地演进它。"
+    },
+    {
+      "timestamp": "20:22",
+      "speaker": "Alvaro Morales",
+      "en": "Pricing strategy is about trying to approximate that curve as much as you can.",
+      "zh": "定价策略就是尽可能地去逼近那条(真实价值)曲线。"
+    },
+    {
+      "timestamp": "20:55",
+      "speaker": "Alvaro Morales",
+      "en": "The idea behind outcome-based pricing is what if you price based on a measurable outcome that you are seeking to get out of a software solution?",
+      "zh": "基于结果的定价背后的想法是:如果你根据你希望从软件解决方案中获得的一个可衡量的结果来定价,会怎么样?"
+    },
+    {
+      "timestamp": "23:46",
+      "speaker": "Alvaro Morales",
+      "en": "But that timeline is not happening in 11 years. It's happening in months. And that's the ecosystem that we're living in today.",
+      "zh": "但那个时间线不是 11 年,而是几个月。这就是我们今天所处的生态系统。"
+    },
+    {
+      "timestamp": "24:31",
+      "speaker": "Alvaro Morales",
+      "en": "If the industry is changing that fast and your engineering team, much like me, is going to tell you it's going to take a year to shift pricing, maybe you're not going to stand up to the competition.",
+      "zh": "如果行业变化得那么快,而你的工程团队和我当年一样告诉你调整定价需要一年,也许你就在竞争中撑不住了。"
+    },
+    {
+      "timestamp": "29:10",
+      "speaker": "Alvaro Morales",
+      "en": "What we're really building is a data platform that can uniquely connect every unit of product usage to revenue.",
+      "zh": "我们真正在构建的是一个数据平台,能够独特地把每一个产品使用单元连接到收入。"
+    },
+    {
+      "timestamp": "32:46",
+      "speaker": "Alvaro Morales",
+      "en": "Getting it right sort of becomes the operating system for our customers.",
+      "zh": "把计费这件事做对,某种意义上就成了我们客户的操作系统。"
+    },
+    {
+      "timestamp": "34:51",
+      "speaker": "Alvaro Morales",
+      "en": "I could not have imagined the speed that this transformation is happening in the software industry. Like that saying of, you know, it's slowly at first and then it happens all at once.",
+      "zh": "我根本无法想象这场变革在软件行业发生的速度。就像那句话说的:先是缓慢,然后一瞬间全部发生。"
+    },
+    {
+      "timestamp": "37:42",
+      "speaker": "Alvaro Morales",
+      "en": "I want Orb to be known for enabling companies to ship their pricing as quickly as they've shipped their products.",
+      "zh": "我希望 Orb 以让公司发布定价的速度和它们发布产品的速度一样快而闻名。"
+    }
+  ],
+  "voice_script": "今天这期是 Greylock 播客的一场对谈，主角叫 Alvaro Morales，是 Orb 的联合创始人兼 CEO。Orb 是一家做计费基础设施的公司，你听着可能觉得有点冷门，但客户名单很硬——Vercel、Pinecone、Perplexity 这些 AI 和软件公司的收入工作流，都跑在 Orb 上，公司刚完成了 2500 万美元的 B 轮融资。这一集要聊的问题一句话就能说明白：软件公司的定价方式正在发生一场大换血，从按人收费变成按用量收费，甚至往后走，按结果收费。而为什么现在这个时间点特别值得聊，得从 Alvaro 亲历的一件糟心事说起。\n\n当年 Alvaro 还在 Asana，被拉去支持一次定价调整。本以为看看 Excel、写三行代码就完事，结果公司花了好几个月，才改成一个很简单的按席位定价。而这类变更对收入的影响又特别大。用原话说，作为房间里工程方面的声音之一，不得不对业务团队说不，真的非常不舒服——就是那种：好主意，但这需要我六到八个月，去重新架构我们在业务定价上做的每一个假设。于是 Alvaro 和后来的联合创始人、CTO Chitesh——两人在 Asana 早期就认识，一起把公司做到了 IPO——形成了一个判断：开发者平台那些本质理念，可扩展、灵活、快速迭代，一直就没进入收入技术栈，没进计费系统的设计。Orb 就是冲着这个缝隙去的。\n\n那定价到底该往哪个方向变？Alvaro 给了一条很清晰的线。先是 Snowflake、Twilio 这批上市公司，在公开市场教育了所有人，证明基于消费的营收模式能带来极好的净收入留存和高效增长。对客户来说，按用量付费就是不为办了不去的健身房会员买单——不用不付钱，越用付越多。有句话值得记住：你需要一款了不起的产品，以及对它巨大的信心，才能真正为它背书，并把你的营收增长策略与之绑定。量级感受可以给一个：Snowflake IPO 前后，一美元获客营收，一年之内能变成 1.60 美元。\n\n紧接着有两件事把这个趋势狠狠加速了。一是宏观环境变差——如果你按席位收费，客户一裁员，不管你产品多好，合同都会被砍。二是 AI 浪潮爆发，而 AI 业务的销货成本很高，运行 AI 基础设施的成本不是一笔小账单，这逼着创始人比以往早得多地认真思考定价。再往大里看，Alvaro 有个更大的框架：每一次重大的平台转移，不仅催生了一代提供重大创新的公司，也颠覆了软件的商业模式——PC 时代对应许可证定价，早期云对应 SaaS 按席位，而 Gen.AI 有潜力把软件的价值，从「我是否拥有一个网络产品的登录账号」，转向更偏向基于结果的导向。\n\n那具体到创业公司，AI 定价该怎么做？Alvaro 的说法很朴素：本质上就是出色的定价策略，回归基本面。三条基本功。第一，保持简单——再复杂的定价模型，如果只能活在 Excel 里、在销售对话里讲不清楚，就没用。第二，了解自己的成本结构和利润率——不必把定价直接绑在成本上，但当 OpenAI 或 Anthropic 那张账单很高时，你得知道它大方向往哪走。第三，灵活迭代，因为你不可能一开始就把它做对，必须在市场里试、学、演进。这里他也澄清了一点：用 Orb 不必全盘切换到纯按用量。定价不是数学题，是理解你的客户和市场——也许席位加消费的混合模式更适合你。共同点只有一个：灵活性。太多现有计费方式把定价当一次性设置，再也不管，而你必须持续演进它。\n\n顺着这个逻辑，最前沿的方向就自然浮出来了——按结果定价。Alvaro 给了一个数学视角：定价策略本质上是在逼近一条软件为客户创造的真实价值曲线。许可证定价是随手画一条线，按席位更近一点，而按结果定价，是直接按一个可衡量的结果收费。例子是客服软件，像 Zendesk AI 在交互结束后问客户「问题解决了吗」，客户标记已解决，那就是一个结果，按它计费。为什么 Alvaro 认为这个方向现在就成立了？靠的是变化速度：自 GPT-4 模型家族发布以来，每 token 价格已下降近 90%，而 AWS 上 S3 的成本，从 2013 年到现在才降了 97%——同样的降幅，那个时间线是十一年，现在只要几个月。推论很直接：如果行业变化这么快，而你的工程团队告诉你改一次定价要一年，也许你就在竞争中撑不住了。\n\n当然你可能要问，这个赛道有 Stripe 这样的大厂在，Orb 凭什么打？Alvaro 说产品一流只是基本门槛，企业要的是帮他们从 A 点走到 B 点的伙伴。Orb 有三个差异化：对当下变现模型的原生支持，不是静态订阅式的；开发者优先，快速上手、支持变更；最特别的是，Orb 在构建一个能把每一个产品使用单元连接到收入的数据平台，既对计费有用，也让财务团队拿到产品使用与收入之间闭环的实时视图。客户案例包括帮 Vercel 的生成式 UI 产品 V0 上线计费、帮 Pinecone 的无服务器架构上线计费。\n\n这门生意为什么大？主持人把它类比成 Shopify——起步时「帮我搭个网店」看似小事，结果成了你运营整个业务的操作系统。Alvaro 完全认同，说计费这类问题要剥洋葱，越往里看越大，下游所有的市场与销售职能，都建立在定价和计费这块地基上。所以 Orb 继续往收入报告、收入预测走，希望客户董事会的幻灯片里，有一份来自 Orb 的净收入留存实时脉搏。回头看 2021 年创业至今，Alvaro 说最大的意外是速度：「先是缓慢，然后一瞬间全部发生」——当年收入效率还被当作锦上添花，现在一夜之间成了紧迫的优先事项。主持人补了一句更狠的：2024 年随智能体兴起，如果你还主要用按席位的视角思考，那你就没有未来；每周接触的创业公司里，八到九成定价都是基于用量或结果导向的。\n\nAlvaro 对未来的期望说得很朴素：希望 Orb 以「帮公司把定价发布得和发布产品一样快」而闻名，把工程师从支持计费里解放出来，消掉那笔巨大的机会成本——他管它叫「创新税」。定价不是数学题，是理解你的客户和市场；改定价，不该比改产品慢一个数量级。"
+}

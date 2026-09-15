@@ -7,17 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Devin</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Devin">DE</div><div class="pi"><h1 class="pt">Devin</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Devin">DE</div><div class="pi"><h1 class="pt">Devin</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]]**(42:53起):Jamie 说 Foundation 大量使用 Devin,它实际审查公司的每一个 PR,她强烈推荐;Mitch 说要为让 Devin 更高效而在 monorepo 与独立仓库之间做权衡。
 - **[[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]]**(07:09起):本集将其描述为一款知名的 AI 软件工程师。嘉宾提到正是在 2024 年底从主持人那里获得了它的访问权限,从而启发了他对 AI 智能体市场潜力的认知。
 - **[[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]]**(03:17起):本集说它是嘉宾的整个「设计团队」核心：住在 Slack 里，用来生成日程牌、演讲者公告图，检查赞助商横幅缺失 logo（测试准确率 100%），甚至现场识别照片里的人是谁。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
+- [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司
 - [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为被讨论公司(提及)
 - [[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]] — 作为概念
 
@@ -25,9 +27,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ivan Burazin]] · [[Vincent Wendy]] · [[Daytona]] · [[AI Engineer]] · [[Cognition]] · [[Figma]] · [[Neon]] · [[GPT]] · [[Parallel]] · [[设计系统]]
+[[智能体]] · [[ChatGPT]] · [[John Willett]] · [[Ivan Burazin]] · [[Vincent Wendy]] · [[Rogo]] · [[Daytona]] · [[AI Engineer]] · [[Foundation]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"Ivan Burazin":1,"Vincent Wendy":1,"Daytona":3,"AI Engineer":1,"Cognition":17,"Figma":18,"Neon":2,"GPT":3,"Parallel":5,"设计系统":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":240,"ChatGPT":65,"John Willett":1,"Ivan Burazin":1,"Vincent Wendy":1,"Rogo":1,"Daytona":3,"AI Engineer":1,"Foundation":2,"Cognition":17}</script>
 
 <script>
 (function(){

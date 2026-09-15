@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RLAIF</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RLAIF">RL</div><div class="pi"><h1 class="pt">RLAIF</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RLAIF">RL</div><div class="pi"><h1 class="pt">RLAIF</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]]**(18:47起):让更聪明的大模型自动完成成对比较、产出更大量监督标签的方法；Mustafa 团队过去 18-24 个月一直聚焦于此，但称其质量远未到完全取代人类。
 - **[[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]]**(53:28起):本集将其定义为来自 AI 反馈的强化学习（reinforcement learning from AI feedback），是宪法 AI 的实现方式，优点是可扩展、不需要大量人类，但风险是模型在盒子里自我改进时可能发展出秘密目标。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为概念
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Benjamin Mann]] · [[Anthropic]] · [[OpenAI]] · [[Claude]] · [[Claude Code]] · [[宪法 AI]] · [[智能体]] · [[缩放定律]] · [[对齐]]
+[[OpenAI]] · [[后训练]] · [[智能体]] · [[Seth Rosenberg]] · [[Lenny]] · [[Mustafa Suleyman]] · [[Benjamin Mann]] · [[DeepMind]] · [[Anthropic]] · [[Inflection AI]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Benjamin Mann":1,"Anthropic":122,"OpenAI":111,"Claude":58,"Claude Code":59,"宪法 AI":2,"智能体":237,"缩放定律":6,"对齐":7}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":113,"后训练":21,"智能体":240,"Seth Rosenberg":1,"Lenny":67,"Mustafa Suleyman":1,"Benjamin Mann":1,"DeepMind":8,"Anthropic":123,"Inflection AI":1}</script>
 
 <script>
 (function(){

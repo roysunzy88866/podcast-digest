@@ -25,7 +25,7 @@ unlisted: true
 
 [[Tyler Bryson]] · [[Forrest Li]] · [[Sea]] · [[Garena]] · [[Shopee]] · [[Money]] · [[Free Fire]] · [[Shopee Pay]] · [[Stripe]] · [[GMAP]]
 
-<script type="application/json" class="pd-epn">{"Tyler Bryson":1,"Forrest Li":1,"Sea":1,"Garena":1,"Shopee":1,"Money":1,"Free Fire":1,"Shopee Pay":1,"Stripe":30,"GMAP":1}</script>
+<script type="application/json" class="pd-epn">{"Tyler Bryson":1,"Forrest Li":1,"Sea":1,"Garena":1,"Shopee":1,"Money":1,"Free Fire":1,"Shopee Pay":1,"Stripe":31,"GMAP":1}</script>
 
 <script>
 (function(){

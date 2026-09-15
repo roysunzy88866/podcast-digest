@@ -22,9 +22,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[GPU]] · [[Ruby Thelot]] · [[Martin Casado]] · [[Julie Yoo]] · [[Lucas Kaiser]] · [[Sophia Puccini]] · [[Theo Jaffe]] · [[a16z]] · [[transformer]]
+[[OpenAI]] · [[GPU]] · [[Ruby Thelot]] · [[Martin Casado]] · [[Julie Yoo]] · [[Lucas Kaiser]] · [[Sophia Puccini]] · [[Theo Jaffe]] · [[a16z]] · [[Transformer]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":111,"GPU":16,"Ruby Thelot":1,"Martin Casado":4,"Julie Yoo":1,"Lucas Kaiser":1,"Sophia Puccini":1,"Theo Jaffe":6,"a16z":14,"transformer":7}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":113,"GPU":16,"Ruby Thelot":1,"Martin Casado":4,"Julie Yoo":1,"Lucas Kaiser":1,"Sophia Puccini":1,"Theo Jaffe":6,"a16z":14,"Transformer":8}</script>
 
 <script>
 (function(){

@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snowflake</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Snowflake">SN</div><div class="pi"><h1 class="pt">Snowflake</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Snowflake">SN</div><div class="pi"><h1 class="pt">Snowflake</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]]**(10:02起):本集说它是率先教育公开市场的开路先锋:证明基于消费的营收模式能带来极佳的净美元留存和高效增长,IPO 前后一美元获客营收一年内能变成 1.60 美元。
 - **[[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]]**(00:15起):本集顺带提到 Snowflake 有一个叫 Superhero 的产品原则，本质与 Dropbox 的 Cupcake 一样，都是关于给用户带来快乐
 - **[[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]]**(22:58起):本集说它是可通过 MCP 包装暴露给大模型操作的企业工具之一,作为数据源被智能体调用以生成营销分析报告。
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(00:27起):本集提到它是 Gray Swan 的投资者之一,嘉宾当时正在参加其峰会。
@@ -19,10 +20,17 @@ unlisted: true
 - **[[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]]**(12:12起):本集作为 Clay 原本分散的数据源之一被提及（分析数据所在），后与其他数据源汇入统一平台。
 - **[[2026-09-09-beyondcoding-how-this-ex-googler-accidentally-founded|《从被解雇到押注 DuckDB:MotherDuck 的创业与 AI 数据新玩法》]]**(11:49起):本集提到 Snowflake 刚上市时是当时最大的 IPO,投资人因此想找『下一个 Snowflake』,这是 MotherDuck 早期获得投资的背景之一
 
+## ① 提到它的金句
+
+*1 条*
+
+![[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m#^q4]]
+
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为被讨论公司(提及)
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为被讨论公司(提及)
@@ -35,9 +43,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Databricks]] · [[Lenny]] · [[Anthropic]] · [[沙箱]] · [[Codex]] · [[Claude]] · [[Nesrine Changuel]] · [[Dhanji Prasanna]] · [[Zico Kolter]]
+[[智能体]] · [[Databricks]] · [[Anthropic]] · [[SaaS]] · [[Lenny]] · [[沙箱]] · [[Codex]] · [[Claude]] · [[Sal Motamini]] · [[Nesrine Changuel]]
 
-<script type="application/json" class="pd-epn">{"智能体":237,"Databricks":11,"Lenny":67,"Anthropic":122,"沙箱":43,"Codex":47,"Claude":58,"Nesrine Changuel":1,"Dhanji Prasanna":1,"Zico Kolter":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":240,"Databricks":12,"Anthropic":123,"SaaS":16,"Lenny":67,"沙箱":43,"Codex":47,"Claude":58,"Sal Motamini":1,"Nesrine Changuel":1}</script>
 
 <script>
 (function(){

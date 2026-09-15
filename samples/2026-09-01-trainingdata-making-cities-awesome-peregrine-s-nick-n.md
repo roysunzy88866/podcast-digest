@@ -142,8 +142,8 @@ Peregrine 的前向部署工程师和部署策略师被明确视为研发和增�
 **顺着「智能体」挖下去**
 
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相]]<span class="pd-rz">同公司:Palantir · 同概念:智能体 (agent)</span>
-- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同概念:智能体 (agent)</span>
-- [[2025-07-31-lennys-he-saved-openai-bret-taylor|Bret Taylor：智能体是新应用，软件要按结果定价]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|AI 撞上金融：三位创始人聊产品、定价与智能体]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

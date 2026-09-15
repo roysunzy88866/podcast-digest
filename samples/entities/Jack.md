@@ -19,7 +19,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Eric]] · [[Andrew Feldman]] · [[Cerebrus]] · [[晶圆级]] · [[推理]] · [[NVIDIA]] · [[TSMC]] · [[数据中心]] · [[供应链攻击]] · [[训练]]
+[[Eric]] · [[Andrew Feldman]] · [[Cerebrus]] · [[晶圆级]] · [[推理]] · [[NVIDIA]] · [[TSMC]] · [[数据中心]] · [[供应链]] · [[训练]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Eric":1,"Andrew Feldman":1,"Cerebrus":1,"晶圆级":1,"推理":46,"NVIDIA":35,"TSMC":4,"数据中心":13,"供应链攻击":3,"训练":3}</script>
+<script type="application/json" class="pd-epn">{"Eric":1,"Andrew Feldman":1,"Cerebrus":1,"晶圆级":1,"推理":46,"NVIDIA":35,"TSMC":4,"数据中心":13,"供应链":4,"训练":3}</script>
 
 <script>
 (function(){

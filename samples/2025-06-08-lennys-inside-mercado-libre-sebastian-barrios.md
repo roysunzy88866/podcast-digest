@@ -145,7 +145,7 @@ Sebastian 不跟风，但也不是直接忽略。他 2010 年左右就买过甚�
 
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agents)</span>
 - [[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agents)</span>
-- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:主观能动性 (agency)</span>
+- [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|AI 撞上金融：三位创始人聊产品、定价与智能体]]<span class="pd-rz">同概念:主观能动性 (agency)</span>
 
 </div>
 </div>

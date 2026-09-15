@@ -142,8 +142,8 @@ YC 最初的想法只是做一家**天使投资公司**——当时有做巨额�
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同公司:OpenAI、YC、ChatGPT · 同概念:AGI、推理 (inference)</span>
+- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、图灵测试 (Turing test)</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、推理 (inference)</span>
-- [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|主导投资 Anthropic 的人：风投的游戏规则已经彻底变了]]<span class="pd-rz">同公司:OpenAI、ChatGPT、StarCloud · 同概念:推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

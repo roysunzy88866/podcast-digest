@@ -29,9 +29,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[NVIDIA]] · [[数据中心]] · [[Anthropic]] · [[推理]] · [[供应链攻击]] · [[Jacob Efron]] · [[Jensen Wong]] · [[Elad]] · [[Jack]]
+[[OpenAI]] · [[NVIDIA]] · [[数据中心]] · [[Anthropic]] · [[推理]] · [[供应链]] · [[Jacob Efron]] · [[Jensen Wong]] · [[Elad]] · [[Jack]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":111,"NVIDIA":35,"数据中心":13,"Anthropic":122,"推理":46,"供应链攻击":3,"Jacob Efron":1,"Jensen Wong":1,"Elad":1,"Jack":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":113,"NVIDIA":35,"数据中心":13,"Anthropic":123,"推理":46,"供应链":4,"Jacob Efron":1,"Jensen Wong":1,"Elad":1,"Jack":1}</script>
 
 <script>
 (function(){

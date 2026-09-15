@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Microsoft</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Microsoft">MI</div><div class="pi"><h1 class="pt">Microsoft</h1><div class="byl">公司</div><div class="nums">本站收录 <b>24</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Microsoft">MI</div><div class="pi"><h1 class="pt">Microsoft</h1><div class="byl">公司</div><div class="nums">本站收录 <b>25</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]]**(00:16起):Mustafa 现任 Microsoft 的 AI CEO，负责 Bing、Edge 和整个 Copilot；本集认为硅谷人低估了它的产品质量、规模与分发能力。
 - **[[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]]**(12:30起):被列为 HubSpot 从大公司挖人的来源之一，本集称从微软挖来的人流失率为 100%。
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(35:16起):本集举例说明历史：当年微软靠 Windows 的分发优势打败了网景浏览器，并探讨模型是否会像 Windows 一样在堆栈中拥有垄断杠杆。
 - **[[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]]**(00:28起):本集将其描述为正经历第四次平台变迁的科技巨头，并提出应将 AI 视为生态系统而非单一模型，同时正以惊人速度扩建 Azure 算力。
@@ -48,8 +49,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*24 集*
+*25 集*
 
+- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司(提及)
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为被讨论公司
@@ -81,7 +83,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[NVIDIA]] · [[Google]] · [[Meta]] · [[Amazon]] · [[Apple]] · [[推理]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":122,"OpenAI":111,"智能体":237,"NVIDIA":35,"Google":42,"Meta":30,"Amazon":12,"Apple":17,"推理":46,"SpaceX":15}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":123,"OpenAI":113,"智能体":240,"NVIDIA":35,"Google":42,"Meta":30,"Amazon":12,"Apple":17,"推理":46,"SpaceX":15}</script>
 
 <script>
 (function(){

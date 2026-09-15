@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Foundation</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Foundation">FO</div><div class="pi"><h1 class="pt">Foundation</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Foundation">FO</div><div class="pi"><h1 class="pt">Foundation</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]]**(06:17起):Jamie Cuff 创办的公司,一家 AI 原生的、面向保险业务的 BPO:用一组智能体替代海外人工团队处理保单文档,并在人机回环模式下提供服务。
 - **[[2026-08-19-eyeonai-from-zero-to-150-robots-in-just-20-month|《人形机器人上战场：公关跑得比机器人快》]]**(00:48起):本集将其描述为一家从室内安保机器人转型做人形机器人的公司，声称20个月从零做到部署，是国防部人形机器人的唯一供应商，但主持人指出其公关远超实际能力，日产能约一台
 
 ## ① 提到它的金句
@@ -27,17 +28,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司
 - [[2026-08-19-eyeonai-from-zero-to-150-robots-in-just-20-month|《人形机器人上战场：公关跑得比机器人快》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Mike LeBlanc]] · [[人形机器人]] · [[执行器]] · [[视觉-语言-行动模型]] · [[视频训练]] · [[远程遥控]] · [[世界行动模型]] · [[Boston Dynamics]] · [[Optimus]] · [[Physical Intelligence]]
+[[John Willett]] · [[Mike LeBlanc]] · [[Rogo]] · [[人形机器人]] · [[Basis]] · [[执行器]] · [[Greylock]] · [[视觉-语言-行动模型]] · [[Retool]] · [[视频训练]]
 
-<script type="application/json" class="pd-epn">{"Mike LeBlanc":1,"人形机器人":2,"执行器":2,"视觉-语言-行动模型":1,"视频训练":1,"远程遥控":1,"世界行动模型":1,"Boston Dynamics":2,"Optimus":1,"Physical Intelligence":2}</script>
+<script type="application/json" class="pd-epn">{"John Willett":1,"Mike LeBlanc":1,"Rogo":1,"人形机器人":2,"Basis":1,"执行器":2,"Greylock":1,"视觉-语言-行动模型":1,"Retool":1,"视频训练":1}</script>
 
 <script>
 (function(){

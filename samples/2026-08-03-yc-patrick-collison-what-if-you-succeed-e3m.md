@@ -119,8 +119,8 @@ Stripe从写下第一行代码到公开发布等了近两年，在[[YC|YC]]"尽�
 **顺着「创业与行业」挖下去**
 
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同嘉宾:Patrick Collison · 同公司:Stripe、OpenAI · 同概念:智能体 (agent)</span>
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Stripe、OpenAI、Shopify · 同概念:智能体 (agent)</span>
 - [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]]<span class="pd-rz">同公司:Stripe · 同概念:智能体 (agent)</span>
-- [[2026-07-18-twentyvc-20vc-5bn-in-revenue-7-to-7-000-employees|从奶牛测序到 50 亿新冠检测生意，再到用 AI 智能体改造保险]]<span class="pd-rz">同公司:YC · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Salesforce</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>19</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]]**(11:08起):Mitch 举例:应用层公司通常没有技术护城河——「Salesforce 的技术护城河是什么?我写个 SQL 查询跑得可能还比它快」,关键在嵌入的工作流与商业护城河。
 - **[[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]]**(00:01起):本集提到 Bret 曾是 Salesforce 的联合 CEO，并以 Salesforce 1998 年创办时把数据库放上云为例，说明曾经的技术护城河现在已微不足道。
 - **[[2025-11-20-lennys-slack-founder-stewart-butterfield|《Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱》]]**(01:41起):本集提到 Stewart Butterfield 将 Slack 卖给 Salesforce，创下了当时科技史上最大的收购案之一，他本人也在两年半前离开了这家公司。
 - **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(09:03起):本集多次提及，推出了 Agentforce 智能体，并投入 2000 名前置部署工程师来确保客户成功。它正经历复兴，成为了众多 AI GTM 智能体底层插接的数据中心。
@@ -44,8 +45,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*19 集*
+*20 集*
 
+- [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司(提及)
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|《Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱》]] — 作为被讨论公司(提及)
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为被讨论公司
@@ -70,9 +72,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Harry Stebbings]] · [[Lenny]] · [[NVIDIA]] · [[Cognition]] · [[Stripe]] · [[SaaS]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Harry Stebbings]] · [[Lenny]] · [[ChatGPT]] · [[NVIDIA]] · [[Cognition]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":237,"OpenAI":111,"Anthropic":122,"Cursor":58,"Harry Stebbings":16,"Lenny":67,"NVIDIA":35,"Cognition":17,"Stripe":30,"SaaS":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":240,"OpenAI":113,"Anthropic":123,"Cursor":59,"Harry Stebbings":16,"Lenny":67,"ChatGPT":65,"NVIDIA":35,"Cognition":17,"Stripe":31}</script>
 
 <script>
 (function(){

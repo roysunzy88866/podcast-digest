@@ -144,7 +144,7 @@ jsonLd: |
 
 - [[2026-07-14-uncapped-uncapped-54--sam-blond-from-monaco-e3mlt|三次从零到大规模：Brex 前销售掌门 Sam 的增长心法与 AI 原生销售哲学]]<span class="pd-rz">同公司:Salesforce · 同概念:推向市场 (go-to market)、智能体 (agent)、CRM</span>
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Vercel · 同概念:推向市场 (go-to market)、智能体 (agent)</span>
-- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同概念:智能体 (agent)、编排 (orchestration)</span>
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Vercel · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

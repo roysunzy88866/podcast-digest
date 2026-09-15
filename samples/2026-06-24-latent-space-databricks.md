@@ -126,8 +126,8 @@ Databricks 的 LTAP 方案直接砍掉了中间管道:既然统一查询引擎�
 **顺着「智能体」挖下去**
 
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同公司:Databricks、Snowflake · 同概念:智能体 (agent)</span>
+- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同概念:智能体 (agent)、微调 (fine tuning)</span>
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|AI 产品不能照搬软件老办法：从高控制低自主开始]]<span class="pd-rz">同公司:Databricks · 同概念:智能体 (agent)</span>
-- [[2026-05-21-latent-space-daytona|Daytona:为智能体造一台像笔记本一样的计算机]]<span class="pd-rz">同公司:Neon · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
@@ -135,8 +135,8 @@ Databricks 的 LTAP 方案直接砍掉了中间管道:既然统一查询引擎�
 **换个口味**
 
 - [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战]]<span class="pd-rz">同公司:Databricks · 同概念:Spark、智能体 (agent)、数据科学智能体 (Genie)</span>
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Snowflake、Databricks · 同概念:智能体 (agent)</span>
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同公司:Databricks · 同概念:智能体 (agent)</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 </div>

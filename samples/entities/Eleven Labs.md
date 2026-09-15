@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[可观测性]] · [[Harry Stebbings]] · [[Cursor]] · [[推理]] · [[Daniel Whitenack]] · [[Matt Murphy]] · [[Gabriel Vasquez]]
 
-<script type="application/json" class="pd-epn">{"智能体":237,"Anthropic":122,"OpenAI":111,"可观测性":19,"Harry Stebbings":16,"Cursor":58,"推理":46,"Daniel Whitenack":6,"Matt Murphy":1,"Gabriel Vasquez":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":240,"Anthropic":123,"OpenAI":113,"可观测性":19,"Harry Stebbings":16,"Cursor":59,"推理":46,"Daniel Whitenack":6,"Matt Murphy":1,"Gabriel Vasquez":1}</script>
 
 <script>
 (function(){

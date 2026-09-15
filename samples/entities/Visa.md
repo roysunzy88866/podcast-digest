@@ -25,9 +25,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Eric Sager]] · [[Alex Rampell]] · [[Plaid]] · [[Max Levchin]] · [[Square]] · [[Affirm]] · [[OpenAI]] · [[PayPal]] · [[Replit]] · [[TrialPay]]
+[[Eric Sager]] · [[Alex Rampell]] · [[Plaid]] · [[Max Levchin]] · [[Square]] · [[Affirm]] · [[OpenAI]] · [[PayPal]] · [[Perplexity]] · [[TrialPay]]
 
-<script type="application/json" class="pd-epn">{"Eric Sager":1,"Alex Rampell":2,"Plaid":2,"Max Levchin":1,"Square":4,"Affirm":2,"OpenAI":111,"PayPal":5,"Replit":16,"TrialPay":1}</script>
+<script type="application/json" class="pd-epn">{"Eric Sager":1,"Alex Rampell":2,"Plaid":2,"Max Levchin":1,"Square":4,"Affirm":2,"OpenAI":113,"PayPal":5,"Perplexity":6,"TrialPay":1}</script>
 
 <script>
 (function(){

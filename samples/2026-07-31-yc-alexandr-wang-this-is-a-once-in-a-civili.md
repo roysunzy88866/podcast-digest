@@ -142,9 +142,9 @@ jsonLd: |
 
 **顺着「创业与行业」挖下去**
 
+- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
+- [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|AI 撞上金融：三位创始人聊产品、定价与智能体]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)</span>
 - [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM 单日暴跌 25%:企业软件的好日子到头了吗？]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
-- [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|Decagon 的 AI 寺庙:开源、Duet 与护城河]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
-- [[2026-08-17-a16z-stripes-ai-strategy-build-more-not-less|Stripe 内部实战：把工程师变成创始人，让智能体一周提交 7000 个 PR]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

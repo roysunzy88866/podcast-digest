@@ -10,14 +10,14 @@ image: "/covers/2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark
 description: Factory 联合创始人兼 CEO Matan 讲述企业级编程智能体的突围之路：主动退还全部营收、多模型 harness 为何胜过厂商自家、以及 token 该像预算一样分配。
 host: "[[Matan Grinberg]]"
 companies: ["[[Factory]]", "[[Claude Code]]", "[[Codex]]"]
-concepts: ["[[Droid]]", "[[智能体]]", "[[harness]]", "[[模型独立性]]", "[[router]]", "[[token]]", "[[开源模型]]", "[[软件工厂]]", "[[基于结果的付费]]"]
+concepts: ["[[Droid]]", "[[智能体]]", "[[harness]]", "[[模型独立性]]", "[[路由器]]", "[[token]]", "[[开源模型]]", "[[软件工厂]]", "[[基于结果的付费]]"]
 category: 智能体
 tags:
   - 智能体
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark#post","headline":"Factory CEO Matan:早两年等于错，退款、路由器与软件工厂","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark","mainEntityOfPage":"https://talk.solomind.cc/2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark","description":"Factory 联合创始人兼 CEO Matan 讲述企业级编程智能体的突围之路：主动退还全部营收、多模型 harness 为何胜过厂商自家、以及 token 该像预算一样分配。","datePublished":"2026-09-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark.jpg","about":[{"@type":"Person","name":"Matan Grinberg"},{"@type":"Organization","name":"Factory"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"Codex"},{"@type":"Thing","name":"Droid"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"模型独立性 (model independence)"},{"@type":"Thing","name":"router"},{"@type":"Thing","name":"token"},{"@type":"Thing","name":"开源模型 (open models)"},{"@type":"Thing","name":"软件工厂 (software factory)"},{"@type":"Thing","name":"基于结果的付费 (outcome-based)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Factory CEO Matan:早两年等于错，退款、路由器与软件工厂","item":"https://talk.solomind.cc/2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark#post","headline":"Factory CEO Matan:早两年等于错，退款、路由器与软件工厂","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark","mainEntityOfPage":"https://talk.solomind.cc/2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark","description":"Factory 联合创始人兼 CEO Matan 讲述企业级编程智能体的突围之路：主动退还全部营收、多模型 harness 为何胜过厂商自家、以及 token 该像预算一样分配。","datePublished":"2026-09-06","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark.jpg","about":[{"@type":"Person","name":"Matan Grinberg"},{"@type":"Organization","name":"Factory"},{"@type":"Organization","name":"Claude Code"},{"@type":"Organization","name":"Codex"},{"@type":"Thing","name":"Droid"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"模型独立性 (model independence)"},{"@type":"Thing","name":"路由器 (router)"},{"@type":"Thing","name":"token"},{"@type":"Thing","name":"开源模型 (open models)"},{"@type":"Thing","name":"软件工厂 (software factory)"},{"@type":"Thing","name":"基于结果的付费 (outcome-based)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Factory CEO Matan:早两年等于错，退款、路由器与软件工厂","item":"https://talk.solomind.cc/2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Factory CEO Matan:早两年等于错，退款、路由器与软件工厂</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[Factory]] · [[Claude Code]] · [[Codex]]
 >
-> **概念** [[Droid]] · [[智能体]] · [[harness]] · [[模型独立性]] · [[router]] · [[token]] · [[开源模型]] · [[软件工厂]] · [[基于结果的付费]]
+> **概念** [[Droid]] · [[智能体]] · [[harness]] · [[模型独立性]] · [[路由器]] · [[token]] · [[开源模型]] · [[软件工厂]] · [[基于结果的付费]]
 
 这一集的主角是 Matan，[[Factory|Factory]] 的联合创始人兼 CEO。Factory 做「droids」——用于软件开发的自主[[智能体|智能体]](能自己接活干完、不用人一步步指挥的程序)。
 
@@ -75,7 +75,7 @@ Factory 创立于三年半前，做的是完全自主的智能体——但当时
 
 行业正从「[[token|token]] maxing」走向成本理性。Matan 描了条演化线：阶段零没人信 AI → 阶段一董事会逼 CEO 表态 → 阶段二把 AI 使用量写进绩效、公开排名 → 阶段三所有人用最贵的模型干所有事——有银行每月花几十万美元，就为了让员工问 Opus「今天天气怎么样」。
 
-Factory 的答案是 [[router|router]]:按任务动态路由到不同模型。vibe coding(让 AI 随手做点东西)的部门用便宜的，COBOL 老代码库用专门微调的模型，关键代码「用 OpenAI 生成、用 Anthropic 测试、用 Gemini 审查」。
+Factory 的答案是 [[路由器|router]]:按任务动态路由到不同模型。vibe coding(让 AI 随手做点东西)的部门用便宜的，COBOL 老代码库用专门微调的模型，关键代码「用 OpenAI 生成、用 Anthropic 测试、用 Gemini 审查」。
 
 路由规则可以用自然语言写。他说 12 个月后每个 CIO 都得回答：「每多一个 token,放在哪？」一刀切的 token 上限毫无道理——写文档的工程师用掉的是极低杠杆的脑力，应该自动化掉，让高杠杆的深度思考从「时刻」变成「一次几个小时」。
 

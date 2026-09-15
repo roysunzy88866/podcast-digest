@@ -1,0 +1,683 @@
+{
+  "episode_id": "2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth",
+  "podcast": "精选演讲",
+  "date": "2025-04-30",
+  "tags": [
+    "AI 与金融服务",
+    "智能体",
+    "垂直 AI 创业",
+    "企业销售",
+    "定价策略"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "john-willett",
+      "type": "person",
+      "role": "host",
+      "name": "John Willett",
+      "file": "John Willett",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            305.052,
+            308.895
+          ],
+          "quote": "I'm John Willett, one of the co-founders of a company called Rogo.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "rogo",
+      "type": "company",
+      "role": "company",
+      "name": "Rogo",
+      "file": "Rogo",
+      "primary": true,
+      "how_described": "John Willett 联合创办的公司,做面向金融的 AI,使命是为华尔街打造第一个人工智能级别的分析师,客户是大型投行、私募股权、对冲基金等。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            305.052,
+            308.895
+          ],
+          "quote": "I'm John Willett, one of the co-founders of a company called Rogo.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1326.115,
+            1333.158
+          ],
+          "quote": "If it's not sourced correctly, or if it doesn't have a source into a data source that they themselves use outside of Rogo.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "foundation",
+      "type": "company",
+      "role": "company",
+      "name": "Foundation",
+      "file": "Foundation",
+      "primary": true,
+      "how_described": "Jamie Cuff 创办的公司,一家 AI 原生的、面向保险业务的 BPO:用一组智能体替代海外人工团队处理保单文档,并在人机回环模式下提供服务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            377.169,
+            379.011
+          ],
+          "quote": "I'm one of the founders of Foundation.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 65,
+          "t": [
+            379.831,
+            383.174
+          ],
+          "quote": "Foundation is an AI-native BPO for insurance businesses.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1401.005,
+            1404.427
+          ],
+          "quote": "How have you been able to, you know, sell people on joining Foundation?",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1895.04,
+            1900.723
+          ],
+          "quote": "What's one thing you wish you knew during the pre-seed zero to one phase, the foundation?",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "basis",
+      "type": "company",
+      "role": "company",
+      "name": "Basis",
+      "file": "Basis",
+      "primary": true,
+      "how_described": "Mitch 创办的公司,为会计师提供智能体,目标是降低会计的边际成本来改善世界经济决策;它直接执行会计工作本身,从而嵌入工作流并积累上下文与数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            599.439,
+            610.125
+          ],
+          "quote": "And so I'm curious, like from your perspective, like what are the areas that you want to invest in from basis where you feel like you're building value beyond the underlying models?",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 119,
+          "t": [
+            706.016,
+            708.998
+          ],
+          "quote": "So what's an example of like how basis becomes integral to the workflow?",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 121,
+          "t": [
+            710.393,
+            721.719
+          ],
+          "quote": "The way Basis becomes integral to the workflow is it is the one doing the work in the same way that if I am a controller, the thing that's most integral to my workflow is my team.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 122,
+          "t": [
+            722.88,
+            737.288
+          ],
+          "quote": "And so if Basis is the one doing a lot of the accounting tasks and it's the place where the work lives, then it is inherently integral to the workflow and it builds up all of the context, the data, the knowledge, the sort of information needed to do the work really well.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1089.996,
+            1093.497
+          ],
+          "quote": "And so how have you thought about pricing for basis?",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "greylock",
+      "type": "company",
+      "role": "company",
+      "name": "Greylock",
+      "file": "Greylock",
+      "primary": true,
+      "how_described": "本场合办方之一,主持人 Steph 是其合伙人,专注 AI 应用与金融科技的早期投资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            27.036,
+            32.359
+          ],
+          "quote": "This is an event hosted by us at BTV and our friends over at Greylock.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 18,
+          "t": [
+            133.625,
+            140.728
+          ],
+          "quote": "I'm one of the partners at Greylock, been at Greylock for about eight years, focused on AI applications and fintech.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 23,
+          "t": [
+            163.897,
+            175.142
+          ],
+          "quote": "And at Greylock, similar to BTV, we're focused on first check, early stage investing of really ambitious technical people building in big markets.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "retool",
+      "type": "company",
+      "role": "company",
+      "name": "Retool",
+      "file": "Retool",
+      "primary": true,
+      "how_described": "Jamie 曾工作过的公司,客户包含大量大型金融服务企业;她称其曾拥有仅次于 Palantir 的第二大部署工程团队,且曾有三分之二员工是前创始人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            449.805,
+            455.754
+          ],
+          "quote": "And so I'd kind of known about this problem for a long time, but it wasn't until I was working at Retool.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 78,
+          "t": [
+            456.595,
+            464.126
+          ],
+          "quote": "A lot of people don't know, Retool had a lot of tech forward companies that were customers, but actually also had a lot of very large financial services businesses.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1434.31,
+            1443.173
+          ],
+          "quote": "So our first engineer was actually someone that I worked with for three or four years at Retool who was Retool's second engineer.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1582.634,
+            1586.578
+          ],
+          "quote": "I mean, at one point, Retool was two-thirds former founders.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "devin",
+      "type": "company",
+      "role": "company",
+      "name": "Devin",
+      "file": "Devin",
+      "primary": true,
+      "how_described": "Jamie 说 Foundation 大量使用 Devin,它实际审查公司的每一个 PR,她强烈推荐;Mitch 说要为让 Devin 更高效而在 monorepo 与独立仓库之间做权衡。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 455,
+          "t": [
+            2573.11,
+            2579.294
+          ],
+          "quote": "And it's like we were doing the other day like mono repos versus spinning up repos so that devin can be more effective.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心概念。Jamie 定义真智能体是「能自主地对一个从未见过的新任务进行推理的东西」,与给工作流构建器加一个 AI 步骤有本质区别;Mitch 说为智能体构建的代码库和内部流程与为人类构建的不一样。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            880.939,
+            883.981
+          ],
+          "quote": "So Jamie, I feel like the word agent is thrown around.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 155,
+          "t": [
+            903.892,
+            906.533
+          ],
+          "quote": "First of all, in your opinion, what is an agent?",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 159,
+          "t": [
+            921.438,
+            925.9
+          ],
+          "quote": "I think in the same way that overnight everything became an AI company and now everything's become an agent.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 162,
+          "t": [
+            943.102,
+            959.151
+          ],
+          "quote": "I've built a lot of workflow software, you know, throughout my career, and if you're just adding, you know, an AI step to a workflow builder, it's not an agent, and it's also probably incredibly short and bearish on LLMs, which I don't think anyone in this room is.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1019.297,
+            1023.22
+          ],
+          "quote": "And instead, put those into our product for an agent to be able to reason over.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1023.8,
+            1036.829
+          ],
+          "quote": "So I think when we see the agent word being overused, one of the things that we run up against in our world is people having used prior generations of technology.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1056.592,
+            1062.08
+          ],
+          "quote": "I think that's when you start to see the difference between workflow automation and a real agent and human intelligence.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理模型 (reasoning models)",
+      "file": "推理模型",
+      "primary": true,
+      "how_described": "John 说看到当时开始推出的推理模型的质量后,他们意识到 Rogo 的产品可以远比自动化模板化交付物更有雄心,真正做到人类水平的金融推理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            825.316,
+            830.079
+          ],
+          "quote": "And then realization number two was looking at the quality of reasoning models, which were starting to come out.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "moat",
+      "type": "concept",
+      "role": "concept",
+      "name": "护城河 (moat)",
+      "file": "护城河",
+      "primary": true,
+      "how_described": "Mitch 的核心主张:应用层公司通常没有所谓技术护城河(Salesforce 的技术护城河是什么?),关键在嵌入的工作流、粘性和商业护城河。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            655.669,
+            661.715
+          ],
+          "quote": "What is the state that will let you have some sort of moat, differentiation, et cetera?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "standard-operating-procedure",
+      "type": "concept",
+      "role": "concept",
+      "name": "标准操作程序 (standard operating procedure)",
+      "file": "标准操作程序",
+      "primary": true,
+      "how_described": "Jamie 说保险业同样的工作流虽无法确定性编成代码或 DAG 式流程,但通常被编成 SOP——Foundation 就是让保险运营团队把培训 BPO 用的 SOP 直接喂给智能体去推理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            1000.794,
+            1004.815
+          ],
+          "quote": "But what it is often codified as is some sort of standard operating procedure.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "vertical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直 AI (vertical AI)",
+      "file": "垂直 AI",
+      "primary": true,
+      "how_described": "Jamie 说想做基础模型或开发者工具去旧金山,想做垂直 AI 公司就该待在客户所在的地方(纽约);她认为纽约最优秀的 AI 公司都是垂直 AI 企业,且它们都在扩展部署工程团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 242,
+          "t": [
+            1493.798,
+            1497.963
+          ],
+          "quote": "But if you want to build a vertical AI company, you should be where your customers are.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1515.738,
+            1521.301
+          ],
+          "quote": "They want to work in vertical AI because the best AI companies in New York, I think, are vertical AI businesses.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2426.597,
+            2434.08
+          ],
+          "quote": "We're scaling out a pretty large deployed engineering team right now, and I think that is going to be the case across every single one of these vertical AI companies.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "deployed-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "部署工程 (deployed engineering)",
+      "file": "部署工程",
+      "primary": true,
+      "how_described": "多位嘉宾强调的角色:横跨技术、销售与领域专业知识、深入客户现场解决问题的岗位;Rogo 在组建「部署智能团队」,每家垂直 AI 公司都会如此。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 416,
+          "t": [
+            2388.618,
+            2396.906
+          ],
+          "quote": "And then the second one is exactly what Mitch said, which is deployed engineering or deployed intelligence, applied AI, these types of workflows.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2417.535,
+            2422.956
+          ],
+          "quote": "Back in the day, I think retail, we had the second largest deployed engineering team after Palantir.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2422.976,
+            2425.137
+          ],
+          "quote": "There were very few deployed engineering teams.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2426.597,
+            2434.08
+          ],
+          "quote": "We're scaling out a pretty large deployed engineering team right now, and I think that is going to be the case across every single one of these vertical AI companies.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "primary": true,
+      "how_described": "Mitch 认为在 AI 时代招人应加权的技能之一:一直重要、现在更重要,比如听到不懂的术语就粘进 ChatGPT 问明白,「这就是纯粹的主观能动性」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 275,
+          "t": [
+            1649.111,
+            1652.974
+          ],
+          "quote": "So like agency, like agency has always been important, but I would argue now it's more important.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1706.448,
+            1708.589
+          ],
+          "quote": "That's just pure agency.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "workflow-automation",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作流自动化 (workflow automation)",
+      "file": "工作流自动化",
+      "primary": true,
+      "how_described": "Jamie 用它与真智能体作对照:只有当智能体像人类团队一样被培训、并随着做更多工作越来越好时,才能看出工作流自动化与真智能体及人类智能之间的区别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            1056.592,
+            1062.08
+          ],
+          "quote": "I think that's when you start to see the difference between workflow automation and a real agent and human intelligence.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "design-partnership",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计合作伙伴 (design partnership)",
+      "file": "设计合作伙伴",
+      "primary": false,
+      "how_described": "John 建议:找设计合作伙伴(打折都行),花三到六个月做出对方日常真正在用的产品,再考虑规模化;Rogo 早期与一家大型上市银行这样做。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 220,
+          "t": [
+            1343.882,
+            1347.583
+          ],
+          "quote": "I think we did a design partnership with a big public bank.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "John 说 Rogo 工程侧人人都有 Cursor 或类似工具,用于自动补全和调试,但大部分代码仍手写。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            1721.972,
+            1726.433
+          ],
+          "quote": "On the engineering side, I mean, everyone has, like, Cursor or some comparable tool.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "Mitch 拿它举例说明主观能动性(把听不懂的术语粘进去问);John 说早期公司法务就是「我加 ChatGPT」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            519.679,
+            537.711
+          ],
+          "quote": "The reason we got into this is that a lot of different throughlines, I won't tell the whole story, but broadly back a couple months before ChatGPT launched and then right after launch around that time in November, December, I think it became, it was clear initially first my co-founder and then to me just",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1688.984,
+            1704.748
+          ],
+          "quote": "Things like you could hear a conversation that you don't understand half the terms in or like a couple of terms and you could literally paste that in to like ChatGPT and be like, I'm currently in an office that does accounting software and I heard someone talking about like something, journal something, like what are they talking about?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1807.16,
+            1809.685
+          ],
+          "quote": "It was like me plus ChatGPT right in there.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "Mitch 举例:应用层公司通常没有技术护城河——「Salesforce 的技术护城河是什么?我写个 SQL 查询跑得可能还比它快」,关键在嵌入的工作流与商业护城河。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            668.108,
+            669.609
+          ],
+          "quote": "Like what is Salesforce's technical mode?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 114,
+          "t": [
+            669.629,
+            675.234
+          ],
+          "quote": "There's like, I can write a SQL query and run it just as fast as Salesforce can, probably faster actually.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 117,
+          "t": [
+            685.042,
+            703.714
+          ],
+          "quote": "So the goal is how do you position yourself with products that are valuable in the same way that let's say a Salesforce did back as cloud was still novel to become extremely embedded and valuable as it becomes bigger and bigger rather than over indexing on being super valuable to a specific user on day one.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "monorepo",
+      "reason": "专名「monorepo」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

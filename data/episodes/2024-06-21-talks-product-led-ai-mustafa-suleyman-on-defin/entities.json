@@ -1,0 +1,747 @@
+{
+  "episode_id": "2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin",
+  "podcast": "精选演讲",
+  "date": "2024-06-21",
+  "tags": [
+    "数据护城河",
+    "小模型与开源",
+    "智能体与行动",
+    "消费级 AI 产品",
+    "创业建议"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "seth-rosenberg",
+      "type": "person",
+      "role": "host",
+      "name": "Seth Rosenberg",
+      "file": "Seth Rosenberg",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            6.704,
+            16.029
+          ],
+          "quote": "Today, we're featuring another episode of Product-Led AI, the series hosted by Greylock partner Seth Rosenberg, where he discusses opportunities in the application layer of AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            36.605,
+            38.246
+          ],
+          "quote": "Hi, I'm Seth Rosenberg.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2096.074,
+            2098.415
+          ],
+          "quote": "I'm Seth Rosenberg, and this is Product-Led AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mustafa-suleyman",
+      "type": "person",
+      "role": "cohost",
+      "name": "Mustafa Suleyman",
+      "file": "Mustafa Suleyman",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": true,
+      "how_described": "Mustafa 2010 年联合创办的公司，当时做通用智能被认为「完全荒谬」，动机是用 AI 对复杂世界做出好预测、帮人们过更好的生活，后被 Google 收购。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            62.295,
+            70.623
+          ],
+          "quote": "Former co-founder of Inflection AI, as well as co-founder of DeepMind, which was of course acquired by Google, where he became VP of AI at Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            99.104,
+            107.266
+          ],
+          "quote": "When we first started talking about founding DeepMind in 2010, it's hard to overstate how weird we were.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 24,
+          "t": [
+            134.233,
+            136.054
+          ],
+          "quote": "What was the initial insight around DeepMind?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1803.986,
+            1810.069
+          ],
+          "quote": "A bunch of my really good friends from DeepMind Health, who have now been at Google, just released a paper last week.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inflection-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Inflection AI",
+      "file": "Inflection AI",
+      "primary": true,
+      "how_described": "Mustafa 此前的联合创业公司，打造了情感化对话产品 Pi，其数据全部自建、未用任何大厂数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            62.295,
+            70.623
+          ],
+          "quote": "Former co-founder of Inflection AI, as well as co-founder of DeepMind, which was of course acquired by Google, where he became VP of AI at Google.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "Mustafa 现任 Microsoft 的 AI CEO，负责 Bing、Edge 和整个 Copilot；本集认为硅谷人低估了它的产品质量、规模与分发能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16.649,
+            20.771
+          ],
+          "quote": "His guest this week is Mustafa Suleiman, who leads Microsoft's AI efforts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            57.593,
+            61.895
+          ],
+          "quote": "He's currently the CEO of AI at Microsoft, venture partner at Greylock.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            609.305,
+            614.548
+          ],
+          "quote": "I mean, Microsoft AI just released PHYS 3, fully open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1909.809,
+            1916.094
+          ],
+          "quote": "I'm curious to hear just a little bit about the products, the AI products you're working on at Microsoft, what the portfolio looks like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1916.575,
+            1927.323
+          ],
+          "quote": "I'm responsible for Bing, Edge, the browser, and all of Copilot, which is deployed in basically every Microsoft Surface now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1992.952,
+            2000.24
+          ],
+          "quote": "I'm curious, how do you think about the constraint of the existing applications, Microsoft Office versus the ideal version of Copilot?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pi",
+      "type": "company",
+      "role": "company",
+      "name": "Pi",
+      "file": "Pi",
+      "primary": true,
+      "how_described": "Inflection 的消费级对话产品，被 Mustafa 称为市场上 EQ 最高的类人对话 AI；UI 极简、语音对话占 30% 且语音用户留存最高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            892.37,
+            904.794
+          ],
+          "quote": "Like when we built Pi, we created, and to this day, the most high quality human-like conversational AI with the best EQ even today in the market, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "type": "company",
+      "role": "company",
+      "name": "Copilot",
+      "file": "Copilot",
+      "primary": true,
+      "how_described": "Mustafa 在 Microsoft 负责的产品，与 OpenAI 合作在其模型上构建并微调；下一阶段重点是记忆和个性化，终局是覆盖整个生活的无处不在助手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            572.632,
+            582.054
+          ],
+          "quote": "I mean, we're already sort of seeing that GAP Copilot and, you know, we're seeing it like as a member of your team, able to take a natural language instruction.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1916.575,
+            1927.323
+          ],
+          "quote": "I'm responsible for Bing, Edge, the browser, and all of Copilot, which is deployed in basically every Microsoft Surface now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1958.737,
+            1961.08
+          ],
+          "quote": "is to up-level the quality of Copilot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1992.952,
+            2000.24
+          ],
+          "quote": "I'm curious, how do you think about the constraint of the existing applications, Microsoft Office versus the ideal version of Copilot?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2018.123,
+            2022.089
+          ],
+          "quote": "The first thing you think is you just say, hey, Copilot, can you take care of this for me?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "Microsoft 与其紧密合作、在其模型和基础设施之上构建并微调模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 331,
+          "t": [
+            1962.121,
+            1971.852
+          ],
+          "quote": "So we're rapidly building some of the best models in the world, partnering very closely with OpenAI, building on top of all of OpenAI models and infrastructure, fine-tuning their models.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "在所有层面超越人类能力与知识的系统；Mustafa 提醒通用性只是假设之一，且 AGI 总是「我们还没有的那个 AI」，是挂在前面引诱前进的胡萝卜。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            347.589,
+            354.275
+          ],
+          "quote": "Now everyone takes the AGI part for granted as though G is the central part of intelligence, but that's an assumption.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 66,
+          "t": [
+            418.455,
+            421.856
+          ],
+          "quote": "I've heard Reed say that AGI is the AI that we don't yet have.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "turing-test",
+      "type": "concept",
+      "role": "concept",
+      "name": "图灵测试 (Turing test)",
+      "file": "图灵测试",
+      "primary": true,
+      "how_described": "以自然对话欺骗人类来判定智能的测试；Mustafa 认为门槛被跨过后人们总会换下一个测量机制，并提出以赚到一百万美元利润为标准的「现代图灵测试」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            367.365,
+            377.721
+          ],
+          "quote": "Another sort of definition was the Turing test, of course, is that a system would be intelligent if it could deceive a human into thinking that it was itself a human during natural conversation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            462.987,
+            471.929
+          ],
+          "quote": "I sort of called that a modern Turing test and said that in the next five years, a system would be able to take a very abstract goal, like go create a new product.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning-from-human-feedback",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于人类反馈的强化学习 (reinforcement learning from human feedback)",
+      "file": "基于人类反馈的强化学习",
+      "primary": true,
+      "how_described": "训练后期由受过训练的评分员对模型两个回答做成对比较、给行为定方向的方法，过去几年所有公司都聚焦于此。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            679.293,
+            683.716
+          ],
+          "quote": "For the last couple of years, everybody has been focused on reinforcement learning from human feedback.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rlaif",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLAIF",
+      "file": "RLAIF",
+      "primary": true,
+      "how_described": "让更聪明的大模型自动完成成对比较、产出更大量监督标签的方法；Mustafa 团队过去 18-24 个月一直聚焦于此，但称其质量远未到完全取代人类。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            1127.42,
+            1140.393
+          ],
+          "quote": "It's going to be a lot better than GBT4, but even the people that have tried to do RLAIF with GBT4, the quality is okay and it is impressive, it's very cool, but it isn't on the verge of replacing humans entirely.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "用大模型生成训练数据、尽可能吸收其最好的部分，再用于后训练和对齐更小的模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            762.181,
+            770.966
+          ],
+          "quote": "So, you know, sometimes people refer to that as distillation, you know, where you're sort of trying to absorb as much of the best bits of a big, powerful model as possible.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "预训练之后的微调/对齐阶段；Mustafa 强调它只需少量极高质量 token，创业公司可以从零自建数据，这是真正的护城河。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            684.845,
+            702.753
+          ],
+          "quote": "Where in the final stages of training, at the stage of fine tuning or post training, as people say, you have a bunch of trained raters or judges that compare two possible responses or completions from a model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            877.417,
+            889.19
+          ],
+          "quote": "Whereas in post-training, you need a small number of very high quality tokens to align the model to the behavior that you want for your product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1611.188,
+            1625.671
+          ],
+          "quote": "And if you think about the architecture of building one of these agents, are there any differences to what we just talked about in terms of focusing on post-training, getting the UI out of the way, in terms of the architecture of building one of these kind of narrow autonomous action agents?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "Mustafa 认为应用层创业公司可以外包预训练模型，但必须拥有自己的微调栈和教师训练，这块不能交给别人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            684.845,
+            702.753
+          ],
+          "quote": "Where in the final stages of training, at the stage of fine tuning or post training, as people say, you have a bunch of trained raters or judges that compare two possible responses or completions from a model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1109.309,
+            1114.013
+          ],
+          "quote": "But I think you need to own your fine-tuning stack and I would not give the fine-tuning stuff to somebody else.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1825.977,
+            1838.464
+          ],
+          "quote": "I would say where you can design an interface which naturally collects valuable label data for fine tuning by virtue of the interface.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1962.121,
+            1971.852
+          ],
+          "quote": "So we're rapidly building some of the best models in the world, partnering very closely with OpenAI, building on top of all of OpenAI models and infrastructure, fine-tuning their models.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集明确反对走向完全自主的智能体（危险且不可取），主张「狭窄的自主通道」：给具体目标、有限自定义度、在受限环境中调 API 行动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            1177.513,
+            1189.556
+          ],
+          "quote": "I'm curious, what are the different UIs that you think kind of AI-first companies are going to be building, whether it's a chatbot, an agent, just regular SaaS that's kind of enabled by AI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1269.134,
+            1281.904
+          ],
+          "quote": "How far away are we from the kind of chatbots we've experienced that most people have experienced today to a fully autonomous agent that you described at the beginning that's capable of executing an end-to-end task?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1312.183,
+            1327.288
+          ],
+          "quote": "I think that if you have an agent that can formulate its own plans, come up with its own goals, acquire its own resources, just objectively speak, act completely independently of human, objectively speaking, that is going to be more potentially risky than not.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "function-call",
+      "type": "concept",
+      "role": "concept",
+      "name": "函数调用 (function call)",
+      "file": "函数调用",
+      "primary": true,
+      "how_described": "看似「订一家餐厅」一个动作实际是四到六个步骤的完美函数调用序列；模型对每一步都必须恰好正确、不能近似，这是可靠行动的核心瓶颈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            1436.646,
+            1438.207
+          ],
+          "quote": "So that's a correct function call.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "router",
+      "type": "concept",
+      "role": "concept",
+      "name": "路由器 (router)",
+      "file": "路由器",
+      "primary": true,
+      "how_described": "智能体架构的关键一环：一个分类器，根据上下文、元数据和用户查询，把请求分发给更便宜的小模型、高质量模型、领域微调模型或语音模型，也是推理预算管理的核心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 281,
+          "t": [
+            1632.956,
+            1643.104
+          ],
+          "quote": "And so the art is in designing a router or a classifier that can take some given input.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1693.84,
+            1696.622
+          ],
+          "quote": "So the router is a critical part of the architecture as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "Mustafa 判断开源模型只落后闭源专有 API 模型几个月到一年半，并以性能接近 GPT-3.5、小到能装进手机或笔记本的模型为证据，认为这会改变整个创作格局。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            655.954,
+            667.322
+          ],
+          "quote": "I think open source models are going to be very close behind the closed source proprietary API models months or maybe even just a year or a year and a half or something.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "high-quality-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "高质量数据 (high quality data)",
+      "file": "高质量数据",
+      "primary": true,
+      "how_described": "本集的核心论点：参数量不再是能力的代理指标，除了架构之外高质量数据才是真正有价值的资产，创业公司应投资于此而非只盯着算力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            784.063,
+            790.275
+          ],
+          "quote": "High quality data is the real valuable asset here in addition to the architectures.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            797.034,
+            803.338
+          ],
+          "quote": "And obviously that's kind of important or like, you know, large models, large models, but really it's investing in high quality data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 123,
+          "t": [
+            803.878,
+            817.407
+          ],
+          "quote": "And so from a startup perspective, I think the real trick is finding existing data sources or more importantly, creating a UI that allows you to collect high quality data from an interaction",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            859.19,
+            862.111
+          ],
+          "quote": "So how do you go about collecting high quality data?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "transformer",
+      "type": "concept",
+      "role": "concept",
+      "name": "Transformer",
+      "file": "Transformer",
+      "primary": false,
+      "how_described": "2017 年提出、驱动这场深度学习革命的架构，如今正被变成软件开发生态里的可组合单元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            527.354,
+            544.441
+          ],
+          "quote": "And maybe you wanted to start with just level setting for the audience of what was the inflection point that led us to the current state of the GPT-3, GPT-4 style models, the inflection 2.5 style models, this combination of the transformer architecture and scaled compute?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            549.504,
+            556.378
+          ],
+          "quote": "We are still building deep learning models, albeit with a slightly different flavour now, the Transformer architecture from 2017.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hallucination",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucination)",
+      "file": "幻觉",
+      "primary": false,
+      "how_described": "AI 一旦跳出角色、出错或产生幻觉，就会摧毁错觉、破坏信任，让消费级产品失去用户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 191,
+          "t": [
+            1155.158,
+            1164.627
+          ],
+          "quote": "And as soon as the AI breaks out of character, gets something wrong, has hallucination, whatever you want to call it, that sort of destroys the illusion and it breaks trust.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "voice-first",
+      "type": "concept",
+      "role": "concept",
+      "name": "语音优先 (voice first)",
+      "file": "语音优先",
+      "primary": true,
+      "how_described": "Pi 全部对话的 30% 走语音，这批用户是留存最高、最投入的用户；Mustafa 认为语音优先是未来 UI 的重要组成部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            1220.888,
+            1227.391
+          ],
+          "quote": "I mean, Py is still alive and people should try it out, but it's like, I think voice first is a big part of the future UI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Phi-3",
+      "reason": "专名「Phi-3」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

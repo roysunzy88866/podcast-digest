@@ -1,0 +1,27 @@
+{
+  "id": "2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/BaNWLTWIuIU.m4a",
+  "duration_sec": 2098.415,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 367,
+  "asr": true,
+  "title_en": "Product-Led AI: Mustafa Suleyman on Defining Intelligence",
+  "podcast": "精选演讲",
+  "date": "2024-06-21",
+  "added": "2026-09-16",
+  "added_at": "2026-09-15T20:43:34.352Z",
+  "speaker_map": {
+    "SPEAKER_01": "Seth Rosenberg",
+    "SPEAKER_02": "Mustafa Suleyman"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Seth Rosenberg",
+  "cohosts": [
+    "Mustafa Suleyman"
+  ],
+  "title_zh": "Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图",
+  "guest_name": "Mustafa Suleyman",
+  "guest_title": "Microsoft AI CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

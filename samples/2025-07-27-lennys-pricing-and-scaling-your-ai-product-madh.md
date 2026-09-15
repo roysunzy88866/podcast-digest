@@ -197,7 +197,7 @@ jsonLd: |
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor · 同概念:智能体 (agent)</span>
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Delphi · 同概念:智能体 (agent)</span>
-- [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Cursor</span>
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同概念:基于结果的定价 (outcome-based pricing)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -180,16 +180,16 @@ Stripe 感到了新的使命：像保护美元一样保护用户的 token。「�
 
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Cursor · 同概念:主观能动性 (agency)、智能体 (agent)、Claude Code</span>
 - [[2026-07-23-nopriors-building-an-autonomous-delivery-experien|DoorDash 联合创始人：我们其实是一家机器人公司]]<span class="pd-rz">同公司:DoorDash · 同概念:智能体 (agent)、智能体商务 (agentic commerce)</span>
-- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)</span>
+- [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|AI 撞上金融：三位创始人聊产品、定价与智能体]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Stripe、Vercel · 同概念:智能体 (agent)</span>
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Stripe、Vercel · 同概念:智能体 (agent)</span>
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)、品味 (taste)</span>
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同概念:主观能动性 (agency)、智能体 (agent)、品味 (taste)</span>
 
 </div>
 </div>

@@ -1,0 +1,27 @@
+{
+  "id": "2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/gVCfPg1ssGI.m4a",
+  "duration_sec": 2333.142,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 389,
+  "asr": true,
+  "title_en": "\"Ship Pricing as Fast as Product\" - Orb's Mission to Revolutionize Billing Infrastructure",
+  "podcast": "精选演讲",
+  "date": "2024-10-08",
+  "added": "2026-09-16",
+  "added_at": "2026-09-15T21:47:18.590Z",
+  "speaker_map": {
+    "SPEAKER_02": "Sal Motamini",
+    "SPEAKER_00": "Alvaro Morales"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Sal Motamini",
+  "cohosts": [
+    "Alvaro Morales"
+  ],
+  "title_zh": "Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代",
+  "guest_name": "Alvaro Morales",
+  "guest_title": "Orb CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

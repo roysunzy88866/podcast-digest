@@ -35,7 +35,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[John Collison]] · [[Clio]] · [[智能体]] · [[LLM]] · [[推荐系统]] · [[监督学习]] · [[强化学习]] · [[transformer]] · [[创造性破坏]] · [[Anthropic]]
+[[John Collison]] · [[Clio]] · [[智能体]] · [[LLM]] · [[推荐系统]] · [[监督学习]] · [[强化学习]] · [[Transformer]] · [[创造性破坏]] · [[Anthropic]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":2,"Clio":1,"智能体":237,"LLM":32,"推荐系统":1,"监督学习":2,"强化学习":17,"transformer":7,"创造性破坏":1,"Anthropic":122}</script>
+<script type="application/json" class="pd-epn">{"John Collison":2,"Clio":1,"智能体":240,"LLM":32,"推荐系统":1,"监督学习":2,"强化学习":17,"Transformer":8,"创造性破坏":1,"Anthropic":123}</script>
 
 <script>
 (function(){

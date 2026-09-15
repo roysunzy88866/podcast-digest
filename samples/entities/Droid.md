@@ -19,9 +19,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Matan Grinberg]] · [[Factory]] · [[智能体]] · [[harness]] · [[模型独立性]] · [[router]] · [[token]] · [[开源模型]] · [[软件工厂]] · [[基于结果的付费]]
+[[Matan Grinberg]] · [[Factory]] · [[智能体]] · [[harness]] · [[模型独立性]] · [[路由器]] · [[token]] · [[开源模型]] · [[软件工厂]] · [[基于结果的付费]]
 
-<script type="application/json" class="pd-epn">{"Matan Grinberg":1,"Factory":4,"智能体":237,"harness":32,"模型独立性":1,"router":1,"token":20,"开源模型":16,"软件工厂":5,"基于结果的付费":3}</script>
+<script type="application/json" class="pd-epn">{"Matan Grinberg":1,"Factory":4,"智能体":240,"harness":32,"模型独立性":1,"路由器":1,"token":20,"开源模型":17,"软件工厂":5,"基于结果的付费":3}</script>
 
 <script>
 (function(){

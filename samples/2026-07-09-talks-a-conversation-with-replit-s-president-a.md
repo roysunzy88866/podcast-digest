@@ -129,7 +129,7 @@ AI 时代的收钱逻辑 <button class="pd-ts" data-t="24:29" data-who="Michele"
 
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同概念:基于结果的定价 (outcome-based pricing)、智能体 (agent)、自主性 (autonomy)</span>
 - [[2026-07-17-a16z-amjad-masad-on-going-direct-building-rep|创始人为什么要公开讲话：Replit Amjad 的叙事法则]]<span class="pd-rz">同公司:Replit · 同概念:vibe coding、智能体 (agent)</span>
-- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:Replit、OpenAI、Stripe · 同概念:智能体 (agent)</span>
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:OpenAI、Stripe · 同概念:基于结果的定价 (outcome-based pricing)、智能体 (agent)</span>
 
 </div>
 </div>

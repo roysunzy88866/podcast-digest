@@ -145,7 +145,7 @@ Melissa 用一个场景说明为什么这事不简单：零下 20 度，暖气�
 
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:主观能动性 (agency)</span>
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agents)</span>
-- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:主观能动性 (agency)</span>
+- [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|AI 撞上金融：三位创始人聊产品、定价与智能体]]<span class="pd-rz">同概念:主观能动性 (agency)</span>
 
 </div>
 <div class="pd-ex">

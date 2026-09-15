@@ -11,13 +11,13 @@ description: Arm CEO Rene Haas 解释 Arm 在芯片供应链中的位置、AI �
 host: "[[Elad]]"
 cohosts: ["[[Rene Haas]]"]
 companies: ["[[Arm]]", "[[SoftBank]]"]
-concepts: ["[[CPU]]", "[[推理]]", "[[芯片设计]]", "[[验证]]", "[[供应链攻击]]", "[[数据中心]]", "[[机器人]]", "[[边缘设备]]", "[[出口管制]]"]
+concepts: ["[[CPU]]", "[[推理]]", "[[芯片设计]]", "[[验证]]", "[[供应链]]", "[[数据中心]]", "[[机器人]]", "[[边缘设备]]", "[[出口管制]]"]
 category: 创业与行业
 tags:
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce#post","headline":"Arm CEO 谈芯片、AI 与下一个十年的算力格局","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce","mainEntityOfPage":"https://talk.solomind.cc/2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce","description":"Arm CEO Rene Haas 解释 Arm 在芯片供应链中的位置、AI 如何压缩芯片设计周期、CPU 为何不会消失，以及机器人与数据中心的机会。","datePublished":"2026-09-04","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce.jpg","about":[{"@type":"Person","name":"Elad"},{"@type":"Person","name":"Rene Haas"},{"@type":"Organization","name":"Arm"},{"@type":"Organization","name":"SoftBank"},{"@type":"Thing","name":"CPU"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"芯片设计 (chip design)"},{"@type":"Thing","name":"验证 (verification)"},{"@type":"Thing","name":"供应链攻击 (supply chain)"},{"@type":"Thing","name":"数据中心 (data center)"},{"@type":"Thing","name":"机器人 (robotics)"},{"@type":"Thing","name":"边缘设备 (edge device)"},{"@type":"Thing","name":"出口管制 (export controls)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Arm CEO 谈芯片、AI 与下一个十年的算力格局","item":"https://talk.solomind.cc/2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce#post","headline":"Arm CEO 谈芯片、AI 与下一个十年的算力格局","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce","mainEntityOfPage":"https://talk.solomind.cc/2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce","description":"Arm CEO Rene Haas 解释 Arm 在芯片供应链中的位置、AI 如何压缩芯片设计周期、CPU 为何不会消失，以及机器人与数据中心的机会。","datePublished":"2026-09-04","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce.jpg","about":[{"@type":"Person","name":"Elad"},{"@type":"Person","name":"Rene Haas"},{"@type":"Organization","name":"Arm"},{"@type":"Organization","name":"SoftBank"},{"@type":"Thing","name":"CPU"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"芯片设计 (chip design)"},{"@type":"Thing","name":"验证 (verification)"},{"@type":"Thing","name":"供应链 (supply chain)"},{"@type":"Thing","name":"数据中心 (data center)"},{"@type":"Thing","name":"机器人 (robotics)"},{"@type":"Thing","name":"边缘设备 (edge device)"},{"@type":"Thing","name":"出口管制 (export controls)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"Arm CEO 谈芯片、AI 与下一个十年的算力格局","item":"https://talk.solomind.cc/2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Arm CEO 谈芯片、AI 与下一个十年的算力格局</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,13 +35,13 @@ jsonLd: |
 >
 > **公司** [[Arm]] · [[SoftBank]]
 >
-> **概念** [[CPU]] · [[推理]] · [[芯片设计]] · [[验证]] · [[供应链攻击]] · [[数据中心]] · [[机器人]] · [[边缘设备]] · [[出口管制]]
+> **概念** [[CPU]] · [[推理]] · [[芯片设计]] · [[验证]] · [[供应链]] · [[数据中心]] · [[机器人]] · [[边缘设备]] · [[出口管制]]
 
 这一集的主角是 [[Rene Haas|Rene Haas]]——[[Arm|Arm]] 的 CEO,同时负责软银集团国际业务([[SoftBank|SoftBank]] Group International)。Arm 这家公司你可能没直接打过交道，但你的手机里几乎一定有它的技术：它不造芯片，而是设计 [[CPU|CPU]] 核心然后把 IP(也就是芯片组件的设计方案)授权给三星、苹果这类公司去制造。这一集里，他讲了 Arm 为什么破天荒开始自己做芯片、AI 正在怎样改变[[芯片设计|芯片设计]]这个最慢的行业，以及为什么他认为 CPU 在 AI 时代不但不会过时，反而更缺不得。
 
 ## 从卖图纸到自己下场造芯片
 
-Arm 在[[供应链攻击|供应链]]里原来只占一个位置：授权 IP。客户拿到 CPU、GPU、系统 IP 这些组件，要么自己有晶圆厂造(如三星)，要么把设计交给 TSMC 流片。
+Arm 在[[供应链|供应链]]里原来只占一个位置：授权 IP。客户拿到 CPU、GPU、系统 IP 这些组件，要么自己有晶圆厂造(如三星)，要么把设计交给 TSMC 流片。
 
 但近几年 Rene 发现产品周期越来越快、芯片制造时间却越拉越长，客户更想要「拿来就能用」的东西。于是 Arm 先从单个组件升级到「计算子系统」——他用乐高做类比：过去只卖积木块，现在直接给你一张「这些积木怎么拼在一起」的蓝图，帮客户省下大量上市时间。需求「疯狂」到超出预期。
 

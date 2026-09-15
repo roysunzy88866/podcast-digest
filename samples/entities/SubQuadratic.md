@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Alexander Whedon]] · [[稀疏注意力]] · [[上下文工程]] · [[智能体]] · [[RAG]] · [[预训练]] · [[DeepSeek Sparse Attention]] · [[KVCache]] · [[transformer]] · [[Opus 4.6]]
+[[Alexander Whedon]] · [[稀疏注意力]] · [[上下文工程]] · [[智能体]] · [[RAG]] · [[预训练]] · [[DeepSeek Sparse Attention]] · [[KVCache]] · [[Transformer]] · [[Opus 4.6]]
 
-<script type="application/json" class="pd-epn">{"Alexander Whedon":1,"稀疏注意力":1,"上下文工程":12,"智能体":237,"RAG":9,"预训练":6,"DeepSeek Sparse Attention":1,"KVCache":1,"transformer":7,"Opus 4.6":1}</script>
+<script type="application/json" class="pd-epn">{"Alexander Whedon":1,"稀疏注意力":1,"上下文工程":12,"智能体":240,"RAG":9,"预训练":6,"DeepSeek Sparse Attention":1,"KVCache":1,"Transformer":8,"Opus 4.6":1}</script>
 
 <script>
 (function(){

@@ -25,9 +25,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Eric Sager]] · [[Harry Stebbings]] · [[Square]] · [[JD]] · [[Visa]] · [[Town]] · [[Replit]] · [[AI 助手]] · [[公司文化]]
+[[OpenAI]] · [[Eric Sager]] · [[Harry Stebbings]] · [[Square]] · [[JD]] · [[Visa]] · [[Town]] · [[Perplexity]] · [[AI 助手]] · [[Replit]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":111,"Eric Sager":1,"Harry Stebbings":16,"Square":4,"JD":1,"Visa":2,"Town":3,"Replit":16,"AI 助手":2,"公司文化":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":113,"Eric Sager":1,"Harry Stebbings":16,"Square":4,"JD":1,"Visa":2,"Town":3,"Perplexity":6,"AI 助手":2,"Replit":16}</script>
 
 <script>
 (function(){

@@ -27,7 +27,7 @@ unlisted: true
 
 [[MCP]] · [[Claude]] · [[Dustin Mihalik]] · [[Jeremiah Lowin]] · [[Indeed]] · [[FastMCP]] · [[CareerScout]] · [[Prefab]] · [[ChatGPT]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"MCP":40,"Claude":58,"Dustin Mihalik":1,"Jeremiah Lowin":1,"Indeed":1,"FastMCP":1,"CareerScout":1,"Prefab":1,"ChatGPT":63,"智能体":237}</script>
+<script type="application/json" class="pd-epn">{"MCP":40,"Claude":58,"Dustin Mihalik":1,"Jeremiah Lowin":1,"Indeed":1,"FastMCP":1,"CareerScout":1,"Prefab":1,"ChatGPT":65,"智能体":240}</script>
 
 <script>
 (function(){

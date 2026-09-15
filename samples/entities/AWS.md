@@ -1,16 +1,17 @@
 ---
 title: AWS
-entity_type: 公司
+entity_type: 概念
 type: entity
 unlisted: true
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AWS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AWS">AW</div><div class="pi"><h1 class="pt">AWS</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AWS">AW</div><div class="pi"><h1 class="pt">AWS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>12</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]]**(23:28起):本集引用对比数据:AWS 上 S3 的成本自 2013 年以来才下降 97%,用来说明 AI 时代降价时间线从 11 年压缩到几个月。
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(35:29起):本集用它的商业模式作类比，说明未来的 AI 生态应该更像云服务（用户不在乎底层跑在什么上面），而不是靠系统垄断通吃。
 - **[[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]]**(13:39起):本集把它说成:以前创业者因缺工程师而没法在软件广度上与之竞争的云巨头。
 - **[[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]]**(01:06起):本集作为嘉宾 11 年职业经历的背景，提供了无服务器、Lambda 配额机制、bar raiser 面试文化、写作文化等可类比到智能体时代的经验
@@ -25,8 +26,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*11 集*
+*12 集*
 
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为被讨论公司
 - [[2026-07-22-beyondcoding-aws-veteran-the-new-software-development|《Heitor：用智能体重塑软件工程工作流的实操蓝图》]] — 作为被讨论公司(提及)
@@ -43,9 +45,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Microsoft]] · [[OpenAI]] · [[NVIDIA]] · [[McKinsey]] · [[Google]] · [[token]] · [[数据中心]] · [[垂直整合]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Microsoft]] · [[Databricks]] · [[McKinsey]] · [[NVIDIA]] · [[Vercel]] · [[Google]] · [[token]]
 
-<script type="application/json" class="pd-epn">{"智能体":237,"Anthropic":122,"Microsoft":24,"OpenAI":111,"NVIDIA":35,"McKinsey":5,"Google":42,"token":20,"数据中心":13,"垂直整合":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":240,"Anthropic":123,"OpenAI":113,"Microsoft":25,"Databricks":12,"McKinsey":5,"NVIDIA":35,"Vercel":14,"Google":42,"token":20}</script>
 
 <script>
 (function(){

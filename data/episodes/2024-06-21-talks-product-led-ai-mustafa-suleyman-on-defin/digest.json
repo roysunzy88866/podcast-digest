@@ -1,0 +1,172 @@
+{
+  "title_zh": "Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图",
+  "tldr": "Microsoft AI CEO Mustafa Suleiman 谈高质量数据如何构成 AI 创业公司的护城河、行动型智能体的真正瓶颈，以及为什么完全自主并不值得追求。",
+  "digest_md": "这一集是 Greylock 播客 Product-Led AI 的一期，主持人、Greylock 合伙人 Seth Rosenberg 对谈 Mustafa Suleiman——DeepMind 和 Inflection AI 的联合创始人，现任 Microsoft 的 AI CEO。最反直觉的一个判断是：参数量已经不再是模型能力的主要指标，真正值钱的资产是高质量数据，而这恰恰是创业公司可以从零自建的。\n\n## 从「荒谬」起步，以及智能该怎么定义\n\nMustafa 回忆，2010 年创办 DeepMind 时，人们不只是觉得做通用人工智能(AGI,在所有层面超越人类能力的系统)不可能，而是觉得「完全荒谬」。他们做这件事的动机很朴素：用 AI 对复杂世界做出好的预测，帮人们过更好的生活 [02:32 Mustafa Suleiman]。\n\n关于智能的定义，他讲了两个关键观点。其一，DeepMind 第三位联合创始人 Shane Legge 的博士研究就是把各种智能定义聚合成单一指标，结论是「在广泛范围的环境中表现良好的能力」——但 Mustafa 提醒，如今大家把 AGI 里的 G(通用性)当成理所当然的核心，其实那只是一个假设，通用性是智能的特征之一，却不是唯一重要的 [05:54 Mustafa Suleiman]。其二，图灵测试这种门槛被跨过之后，人们总会发现测量机制的问题然后换下一个，所以 AGI 永远是「我们还没有的那个 AI」,像挂在前面引诱自己前进的胡萝卜 [07:02 Mustafa Suleiman]。\n\n他提出了自己的「现代图灵测试」：不看抽象的对话能力，而看**可测量的行动**——一个系统能否接受一个非常抽象的目标，比如「去创造一个新产品」，完成设计、制造、代发货、分销、营销，并赚到一百万美元级别的利润。他认为 2030 年之前肯定会有系统能做到这一点 [08:00 Mustafa Suleiman]。而且他判断，在那之前更可能先出现的是**针对特定用例专门化、有深厚领域专长的强大系统**，而不是能在营销员、医生、律师之间自由切换的通用系统 [08:18 Mustafa Suleiman]。\n\n## 小模型的逆袭：参数不再是能力的代理指标\n\n这场 AI 革命的底层仍是深度学习加 2017 年的 Transformer 架构，但 Mustafa 指出很多人没意识到：**这些模型不会永远庞大**。所有有价值的技术都会随时间变得更便宜、更易用，而过去几年这条曲线是双指数式的 [09:54 Mustafa Suleiman]。\n\n证据是 Mustafa Suleyman 指出，这些模型并不会永远庞大——在所有有价值技术的历史中，任何重要的事物都会随时间变得更便宜、更易用，而过去几年这条曲线甚至是双指数式的加速下降 [10:00 Mustafa Suleyman]。他预计开源模型会落后闭源专有 API 模型几个月到一年半，这会改变整个创作格局 [10:55 Mustafa Suleyman]。\n\n靠什么做到小而强？两条路。第一，从基于人类反馈的强化学习(RLHF,训练后期由人类评分员对模型的两个回答做成对比较、给行为定方向)转向**基于 AI 反馈的强化学习**(RLAIF):让更聪明的大模型来自动做这种成对比较，产出规模大得多的监督标签，过去 18 到 24 个月他们一直聚焦于此 [11:53 Mustafa Suleiman]。第二，**蒸馏**——用大模型生成训练数据，吸收它最好的部分来后训练和对齐小模型 [12:42 Mustafa Suleiman]。\n\n结论：参数量不再是能力的主要代理指标，除了架构之外，高质量数据才是真正有价值的资产 [12:59 Mustafa Suleiman]。\n\n## 创业公司的数据护城河：怎么从零攒高质量数据\n\n过去半年大家都盯着算力，但 Mustafa 认为真正该投资的是高质量数据。预训练拼的是 token 数量，超大规模云厂商有长期优势；而**后训练只需要少量极高质量的 token** 来把模型对齐到你的产品想要的行为——这完全可以自己从零收集 [14:22 Mustafa Suleiman]。\n\n他拿自己做 Pi(Inflection 的情感化对话产品)的经验举例：他们没用任何大厂数据，全靠自建。做法是训练一批付费的「AI 教师」(别人叫评分员)，而关键在于认真培训和筛人 [15:10 Mustafa Suleiman]:\n\n- 只招本科及以上学历、大多以英语为母语、有某领域专长(历史、文化知识、影迷等)的人；\n- 必须通过 **20 小时的培训和测试**：阅读理解、选择题、句子补全、找不同、高难度分析任务；\n- 为了让团队对任务难度保持谦逊，他让自己的整个团队也去做同样的培训测试——**连一半以上的人都没通过** [16:25 Mustafa Suleiman]。\n\n为什么这么难？因为评分员要通读两段 10 轮对话，对比两个模型的答案，同时消化一份逐条的行为策略(该做 X、不该做 Y)、记住培训里那些微妙的例外、风格语气、品牌设定和背景故事，再判定哪段更符合策略 [16:46 Mustafa Suleiman]。\n\n## 该自己握住什么：微调栈不许外包\n\n对应用层创业公司的垂直整合问题，Mustafa 的答案很明确：预训练模型可以剥离出去从别人那里拿，这是合理的；**但你必须拥有自己的微调栈和教师训练，这块不能交给别人** [18:22 Mustafa Suleiman]。理由是：不要指望明天出的新模型能突然取代所有人类评分员——即便是用当今最强模型做 RLAIF,质量「还可以、令人印象深刻」，但远没到完全取代人类的地步 [18:47 Mustafa Suleiman]。\n\n原因在消费级产品的门槛：用现成模型可以很快做出 80% 完成度、看起来不错的原型，但真正的消费体验要求**99 分位的一致质量**——AI 一旦跳出角色、出错、产生幻觉，就会摧毁错觉、破坏信任，然后失去用户 [19:00 Mustafa Suleiman]。所以至少在未来一年，创业公司的关键是把数据收集、数据过滤、数据质量做到极致 [19:27 Mustafa Suleiman]。\n\nUI 方面，对消费者而言目标是「让 UI 不碍事」：Pi 做了极简、安静、按钮极少的界面，配上世界上最好的语音之一。一个重要数据：**Pi 全部对话的 30% 发生在语音上，而这些语音用户是留存率最高、最投入的用户** [20:38 Mustafa Suleiman]。他认为语音优先是未来 UI 的重要组成。\n\n## 行动型智能体：真正的瓶颈是精确度\n\n谈到自主智能体，Mustafa 的立场很鲜明：**他不认为我们走在通往完全自主的路上，而且完全自主是相当不可取、相当危险的**——一个能自己定目标、自己获取资源、完全独立于人类行动的智能体，客观上风险更大，这正是他 TED 演讲后挨骂也坚持的立场 [21:28 Mustafa Suleiman]。他主张的是「狭窄的自主通道」：给智能体一个具体目标，只给它有限的自定义度，在受限环境里调 API、查注册表、收集信息、写入受约束的第三方接口 [22:10 Mustafa Suleiman]。\n\n技术瓶颈在哪？他做了个精彩拆解：看似「订一家餐厅」一个动作，实际是四到六个步骤的完美函数调用序列——查两人日历、协调时间、确认餐厅有空位、登录、下单、填卡。模型必须对每一步都产出**恰好正确**的调用，不能近似、不能类似，好比要求它针对一个问题写出恰好是那份的四页文档 [24:03 Mustafa Suleiman]。日常对话之所以显得神奇，是因为正确答案有个很宽的范围(几十到几千个都算对)；而行动要求每个 token 都精确，这是另一个量级的要求 [25:05 Mustafa Suleiman]。\n\n他据此给出两个判断：①达到可靠行动水平还需要**两个数量级的更多训练算力**，是「下一代更大规模模型」而非当前一代，估计**还要约两年**才有能真正采取行动的系统 [23:08 Mustafa Suleiman];②所谓「涌现能力」是个拟人化的误读——过去五个数量级的路途上，算力和数据每提升 10 倍只是获得了对「提示词与输出之间正确映射」更精确的把握，没有什么神秘的涌现 [25:32 Mustafa Suleiman]。\n\n在那之前，做狭窄领域行动的路径有两条：**约束动作空间**(每次只给模型五个选项、做错代价低)，或者**找到容错率高的领域**(五次对四次也可接受)。80% 准确率对消费者产品是不可用的——五次里错一次，没人会用 [26:12 Mustafa Suleiman]。架构上，「路由器」是关键一环：设计一个分类器，根据上下文、元数据和用户查询，把请求分发给更便宜的小模型、高质量模型、特定领域微调模型或语音模型，这也是推理预算管理的核心 [27:06 Mustafa Suleiman]。\n\n## 如果今天创办第一家公司：三条选择标准\n\nMustafa 给出了三条具体标准：\n\n**① 选「不精确是优点」的问题域。** 找那些模糊性、多种可能答案本身就是价值的问题。出错后果严重、且只有一两个正确答案的领域，模型会很挣扎 [28:26 Mustafa Suleiman]。他补充：法律其实没想的那么难——大多数法律应用是检索类似案例或做摘要，往往五种摘要都算对，正确答案很多；**医疗则难得多，正确答案更少、后果更严重**，尽管他提到 DeepMind Health 的老朋友们刚发了篇论文，做出了面向临床医生的出色推理引擎 [29:18 Mustafa Suleiman]。\n\n**② 界面本身能自然收集有价值的标签数据用于微调。** 用户越多→数据越多→模型越好→吸引更多用户，这个良性循环让你能复利成功 [30:25 Mustafa Suleiman]。\n\n**③ 变现要快。** GPU 贵得离谱，你需要让用户尽快付费 [31:04 Mustafa Suleiman]。他看好的具体方向：为「一万铁杆粉丝」式的小众人群做专业服务——口袋里的高度适配专家系统，服务机械师、牙医、特定爱好者，人们愿意为此付费 [31:14 Mustafa Suleiman]。\n\n## 在 Microsoft 的下一站：记忆与个性化\n\n最后 Mustafa 谈了他的正职：他负责 Bing、Edge 浏览器和整个 Copilot,而且 Silicon Valley 人往往低估了 Microsoft 产品的质量、规模和分发能力——「你不会无缘无故成为一家三万亿美元的公司」 [32:08 Mustafa Suleiman]。他的主要目标是提升 Copilot 的质量：与 OpenAI 紧密合作、在其模型和基础设施之上构建并微调；**下一阶段的重点则是记忆和个性化**——你的 AI 应该记住关于你的一切、你的上下文和个人数据，终生做你的助手和副手 [32:52 Mustafa Suleiman]。\n\n他描绘的终局：几年后，你的第一反应会是「嘿，Copilot,帮我处理一下这个」。这个无处不在的助手将改变使用键盘的意义、改变拥有应用的感觉，让我们远远超越搜索引擎和浏览器——你的 AI 会管理一个覆盖整个生活的活动画布，主要工作是与其他 AI 和服务协调、为你收集信息 [33:38 Mustafa Suleiman]。\n\n## 本集带走\n\n- **数据是创业公司真正的护城河**：预训练拼 token 量拼不过大厂，但后训练只需少量极高质量数据，可以从零自建——Pi 没用任何大厂数据，全靠自训的「AI 教师」攒出来。\n- **筛评分员要像招精英一样狠**：本科以上、有领域专长、20 小时培训加考试；Mustafa 自己团队去做同样的测试，一半以上都没过。\n- **垂直整合的分界线**：预训练模型可以买，微调栈、教师训练、数据收集过滤必须自己握——这是 99 分位消费体验和 80% 原型的差别。\n- **找「不精确是优点」的领域**：多种答案都算对的领域(如法律摘要)比单一正确答案、高后果的领域(如医疗)更适合当前模型；80% 准确率的产品消费者不会用。\n- **完全自主的智能体不是目标**：该做的是「狭窄自主通道」——具体目标加受限的自定义度；可靠行动还需要约两个数量级的算力，估计还有两年。\n- **今天创业的三条标准**：不精确性是优点的问题域、界面天然收集微调数据形成飞轮、能快速变现的细分专家服务。\n- **别忘了语音**：Pi 的对话 30% 走语音，这批用户留存和投入度最高。",
+  "quotes": [
+    {
+      "en": "I think that what people sort of don't quite realize is that these models are not going to be large forever.",
+      "zh": "我认为人们某种程度上没有完全意识到的是，这些模型不会永远庞大下去。",
+      "timestamp": "09:46",
+      "speaker": "Mustafa Suleyman"
+    },
+    {
+      "en": "So that's like more than a hundred X smaller in terms of inference compute than basically the absolute frontier of models today.",
+      "zh": "所以在推理计算方面，这基本上比当今最前沿的模型小了一百多倍。",
+      "timestamp": "10:28",
+      "speaker": "Mustafa Suleyman"
+    },
+    {
+      "en": "I think open source models are going to be very close behind the closed source proprietary API models months or maybe even just a year or a year and a half or something.",
+      "zh": "我认为开源模型会紧紧跟随闭源专有 API 模型，落后几个月，或者甚至只是一年或一年半之类的。",
+      "timestamp": "10:55",
+      "speaker": "Mustafa Suleyman"
+    },
+    {
+      "en": "And we didn't use any data from big providers. We collected all of it ourselves from scratch by training paid teachers.",
+      "zh": "而且我们没有使用任何来自大型提供商的数据。我们所有的数据都是自己从零开始收集的，通过训练付费的教师。",
+      "timestamp": "15:05",
+      "speaker": "Mustafa Suleyman"
+    },
+    {
+      "en": "But a real consumer experience requires you to nail the 99 percentile experience.",
+      "zh": "但真正的消费者体验要求你做到 99 分位的体验。",
+      "timestamp": "19:04",
+      "speaker": "Mustafa Suleyman"
+    },
+    {
+      "en": "But I think you need to own your fine-tuning stack and I would not give the fine-tuning stuff to somebody else.",
+      "zh": "但我认为你需要拥有自己的微调栈，我不会把微调相关的东西交给别人。",
+      "timestamp": "18:29",
+      "speaker": "Mustafa Suleyman"
+    },
+    {
+      "en": "And I think that's actually quite undesirable. I think fully autonomous is quite dangerous.",
+      "zh": "而且我认为那其实是相当不可取的。我认为完全自主是相当危险的。",
+      "timestamp": "21:33",
+      "speaker": "Mustafa Suleyman"
+    },
+    {
+      "en": "That's an anthropomorphic projection. They're not surprising emergent capabilities.",
+      "zh": "那是一种拟人化的投射。它们不是令人惊讶的涌现能力。",
+      "timestamp": "25:45",
+      "speaker": "Mustafa Suleyman"
+    },
+    {
+      "en": "I would look for problem domains that make a virtue out of imprecision.",
+      "zh": "我会去寻找那些能把不精确变成优点的问题领域。",
+      "timestamp": "28:26",
+      "speaker": "Mustafa Suleyman"
+    },
+    {
+      "en": "You don't become a $3 trillion company for nothing.",
+      "zh": "你不会无缘无故成为一家三万亿美元的公司。",
+      "timestamp": "32:23",
+      "speaker": "Mustafa Suleyman"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "09:46",
+      "speaker": "Mustafa Suleiman",
+      "en": "I think that what people sort of don't quite realize is that these models are not going to be large forever.",
+      "zh": "我认为人们某种程度上没有完全意识到的是，这些模型不会永远庞大下去。"
+    },
+    {
+      "timestamp": "13:04",
+      "speaker": "Mustafa Suleiman",
+      "en": "High quality data is the real valuable asset here in addition to the architectures.",
+      "zh": "除了架构之外，高质量的数据才是这里真正有价值的资产。"
+    },
+    {
+      "timestamp": "10:28",
+      "speaker": "Mustafa Suleiman",
+      "en": "So that's like more than a hundred X smaller in terms of inference compute than basically the absolute frontier of models today.",
+      "zh": "所以在推理计算方面，这基本上比当今最前沿的模型小了一百多倍。"
+    },
+    {
+      "timestamp": "11:02",
+      "speaker": "Mustafa Suleiman",
+      "en": "I think open source models are going to be very close behind the closed source proprietary API models months or maybe even just a year or a year and a half or something.",
+      "zh": "我认为开源模型会紧紧跟随闭源专有 API 模型，落后几个月，或者甚至只是一年或一年半之类的。"
+    },
+    {
+      "timestamp": "15:10",
+      "speaker": "Mustafa Suleiman",
+      "en": "And we didn't use any data from big providers. We collected all of it ourselves from scratch by training paid teachers.",
+      "zh": "而且我们没有使用任何来自大型提供商的数据。我们所有的数据都是自己从零开始收集的，通过训练付费的教师。"
+    },
+    {
+      "timestamp": "16:25",
+      "speaker": "Mustafa Suleiman",
+      "en": "And I can tell you, not even a majority of people pass.",
+      "zh": "我可以告诉你，连一半以上的人都没通过。"
+    },
+    {
+      "timestamp": "19:04",
+      "speaker": "Mustafa Suleiman",
+      "en": "But a real consumer experience requires you to nail the 99 percentile experience.",
+      "zh": "但真正的消费者体验要求你做到 99 分位的体验。"
+    },
+    {
+      "timestamp": "19:15",
+      "speaker": "Mustafa Suleiman",
+      "en": "And as soon as the AI breaks out of character, gets something wrong, has hallucination, whatever you want to call it, that sort of destroys the illusion and it breaks trust.",
+      "zh": "一旦 AI 跳出角色、出了错、产生幻觉——不管你怎么称呼它——那就会摧毁这种错觉，并破坏信任。"
+    },
+    {
+      "timestamp": "18:22",
+      "speaker": "Mustafa Suleiman",
+      "en": "I think it's reasonable to break off the pre-trained model and get that from somebody else.",
+      "zh": "我认为把预训练模型剥离出去、从别人那里获取是合理的。"
+    },
+    {
+      "timestamp": "18:29",
+      "speaker": "Mustafa Suleiman",
+      "en": "But I think you need to own your fine-tuning stack and I would not give the fine-tuning stuff to somebody else.",
+      "zh": "但我认为你需要拥有自己的微调栈，我不会把微调相关的东西交给别人。"
+    },
+    {
+      "timestamp": "21:33",
+      "speaker": "Mustafa Suleiman",
+      "en": "And I think that's actually quite undesirable. I think fully autonomous is quite dangerous.",
+      "zh": "而且我认为那其实是相当不可取的。我认为完全自主是相当危险的。"
+    },
+    {
+      "timestamp": "23:14",
+      "speaker": "Mustafa Suleiman",
+      "en": "So not GBT-5, but more like GBT-6 scale models.",
+      "zh": "所以不是 GBT-5,而是更像 GBT-6 规模的模型。"
+    },
+    {
+      "timestamp": "25:45",
+      "speaker": "Mustafa Suleiman",
+      "en": "That's an anthropomorphic projection. They're not surprising emergent capabilities.",
+      "zh": "那是一种拟人化的投射。它们不是令人惊讶的涌现能力。"
+    },
+    {
+      "timestamp": "26:23",
+      "speaker": "Mustafa Suleiman",
+      "en": "Because if it does it 80%, then one in five times it getting it wrong, it's not usable for a consumer, right?",
+      "zh": "因为如果它只有 80% 的准确率，那么五次里就有一次出错，这对消费者来说是不可用的，对吧？"
+    },
+    {
+      "timestamp": "28:26",
+      "speaker": "Mustafa Suleiman",
+      "en": "I would look for problem domains that make a virtue out of imprecision.",
+      "zh": "我会去寻找那些能把不精确变成优点的问题领域。"
+    },
+    {
+      "timestamp": "29:55",
+      "speaker": "Mustafa Suleiman",
+      "en": "Medical is much harder. Clearly, there are fewer right answers in medical, and the consequences are really high.",
+      "zh": "医疗要难得多。显然，医疗领域的正确答案更少，而且后果非常严重。"
+    },
+    {
+      "timestamp": "32:23",
+      "speaker": "Mustafa Suleiman",
+      "en": "You don't become a $3 trillion company for nothing.",
+      "zh": "你不会无缘无故成为一家三万亿美元的公司。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人，来头不小。Mustafa Suleiman,DeepMind 的联合创始人，后来又创办了 Inflection AI,现在是 Microsoft 的 AI CEO。在 Greylock 的一期播客里，他聊了一个对 AI 创业者特别要紧的话题：这波浪潮里，创业公司到底该握住什么、该放弃什么。\n\n先交代个背景。过去半年，所有人的注意力都在算力上，谁卡多谁厉害。但 Mustafa 抛出一个反直觉的判断：参数量已经不再是模型能力的主要指标了，真正值钱的资产，是高质量数据。而这恰恰是创业公司可以从零自建的。为什么这么说？得从模型本身讲起。\n\n很多人没意识到一件事，用他的原话说，这些模型不会永远庞大下去。回顾所有有价值的技术，任何重要的东西都会随时间变得更便宜、更易用，而过去几年这条曲线甚至是双指数式的加速。怎么做到小而强？两条路。一条是把训练后期的监督工作交给更聪明的大模型自动完成，产出规模大得多的标签；另一条叫蒸馏，就是用大模型生成训练数据，吸收它最好的部分来喂小模型。所以预训练拼 token 数量，超大规模云厂商确实有长期优势，创业公司拼不过；但后训练不一样，后训练只需要少量极高质量的 token,把模型对齐到你的产品想要的行为——这完全可以自己从零攒出来。\n\n攒数据这件事，Pi 是个现成的例子。Pi 是 Inflection 做的情感化对话产品，没用任何大厂数据，全部自己收集。做法是训练一批付费的 AI 教师，别人叫评分员，但关键在于认真筛人、认真培训。只招本科以上、大多以英语为母语、有某领域专长的人，还得通过二十个小时的培训和测试，阅读理解、选择题、找不同、高难度分析，一样不少。有多难？Mustafa 让自己的团队也去做同样的测试，结果一半以上的人都没通过。为什么这么难？因为评分员要通读两段十轮对话，对比两个模型的答案，同时消化一份逐条的行为策略，记住那些微妙的例外、风格语气、品牌设定，再判定哪段更符合要求。这活儿真不轻松。\n\n这就引出一个创业公司躲不开的问题：哪些环节该自己握，哪些可以外包。答案很明确。预训练模型可以剥离出去，从别人那里拿，这是合理的；但微调栈和教师训练，这块不能交给别人。理由是，不要指望明天出的新模型能突然取代所有人类评分员，即使用当今最强的模型做自动监督，质量也就是还可以、令人印象深刻，远没到完全取代人类的地步。而且消费级产品的门槛在那里：用现成模型可以很快做出八十分完成度、看起来不错的原型，但真正的消费体验要求的是九十九分位的一致质量。AI 一旦跳出角色、出错、产生幻觉，就会摧毁错觉、破坏信任，然后失去用户。顺带说一个数字：Pi 全部对话的三成发生在语音上，而这批语音用户是留存率最高、最投入的，所以语音优先值得认真对待。\n\n再说智能体。在这件事上立场很鲜明：我们不走在通往完全自主的路上，而且完全自主是相当不可取、相当危险的。一个能自己定目标、自己获取资源、完全独立于人类行动的智能体，客观上风险更大。主张的是狭窄的自主通道：给智能体一个具体目标，只给它有限的自定义度。技术瓶颈在哪？拆开看特别清楚。看似订一家餐厅一个动作，实际是四到六个步骤的完美序列，查日历、协调时间、确认空位、登录、下单、填卡，每一步都必须恰好正确，不能近似。日常对话之所以显得神奇，是因为正确答案有个很宽的范围，几十个都算对；而行动要求每个环节都精确，这是另一个量级的要求。所以达到可靠行动还需要两个数量级的更多训练算力，估计还要约两年。在那之前，要么约束动作空间，要么找容错率高的领域——八成准确率对消费者产品是不可用的，五次里错一次，没人会用。\n\n顺着这个逻辑，如果今天要创办第一家公司，标准其实就三条。第一，选那些不精确反而是优点的问题域，模糊性、多种可能答案本身就是价值的领域，比如法律摘要，五种答案都算对；医疗就难得多，正确答案少、后果又重。第二，界面本身能自然收集有价值的标签数据用于微调，用户越多、数据越多、模型越好，形成飞轮。第三，变现要快，GPU 贵得离谱，得让用户尽快掏钱。看好的具体方向，是为小众人群做专业服务，口袋里的高度适配专家系统，服务机械师、牙医、特定爱好者，人们愿意为此付费。\n\n最后落在一句值得带走的话上：数据是创业公司真正的护城河——算力拼不过大厂没关系，把数据收集、过滤、质量做到极致，这块谁也拿不走。"
+}

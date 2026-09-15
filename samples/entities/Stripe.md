@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stripe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>30</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>31</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]]**(27:46起):本集把它说成:计费领域的大型在位者之一,客户拿 Orb 与 Stripe 这类老牌供应商比较;Orb 以对当下变现模型原生、开发者优先作为差异化来打大厂。
 - **[[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]]**(02:52起):本集把它说成：一家处理着世界快速增长企业（含 Figma 等）大规模支付复杂性的支付平台。
 - **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(03:26起):本集把它说成:典型的富有创新精神且受创业氛围驱动的科技巨头,因此被推荐为初创公司首选去敲门的早期设计合作伙伴。
 - **[[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再当「答案机器」：高管教练Rachel Lockett的领导力实操课》]]**(01:34起):嘉宾曾长期担任该公司的HR领导者，并在此期间为技术高管设计了旨在避免倦怠、留住顶尖人才的项目。
@@ -54,8 +55,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*30 集*
+*31 集*
 
+- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为被讨论公司(提及)
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司(提及)
 - [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再当「答案机器」：高管教练Rachel Lockett的领导力实操课》]] — 作为被讨论公司(提及)
@@ -91,9 +93,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[Lenny]] · [[Vercel]] · [[ChatGPT]] · [[Claude Code]] · [[Cognition]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Vercel]] · [[推理]] · [[ChatGPT]] · [[Lenny]] · [[Claude Code]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"智能体":237,"OpenAI":111,"Anthropic":122,"Cursor":58,"推理":46,"Lenny":67,"Vercel":13,"ChatGPT":63,"Claude Code":59,"Cognition":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":240,"OpenAI":113,"Anthropic":123,"Cursor":59,"Vercel":14,"推理":46,"ChatGPT":65,"Lenny":67,"Claude Code":59,"Cognition":17}</script>
 
 <script>
 (function(){

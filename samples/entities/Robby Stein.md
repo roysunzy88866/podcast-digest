@@ -33,7 +33,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Google]] · [[AI Mode]] · [[AI Overviews]] · [[Google Lens]] · [[ChatGPT]] · [[Gemini]] · [[Instagram]] · [[Stories]] · [[Close Friends]]
+[[Lenny]] · [[Google]] · [[AI Mode]] · [[AI Overviews]] · [[Google Lens]] · [[ChatGPT]] · [[Gemini]] · [[Perplexity]] · [[Instagram]] · [[Stories]]
 
 ## ④ 也在聊「产品方法」的人
 
@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Google":42,"AI Mode":1,"AI Overviews":1,"Google Lens":1,"ChatGPT":63,"Gemini":7,"Instagram":4,"Stories":2,"Close Friends":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Google":42,"AI Mode":1,"AI Overviews":1,"Google Lens":1,"ChatGPT":65,"Gemini":7,"Perplexity":6,"Instagram":4,"Stories":2}</script>
 
 <script>
 (function(){

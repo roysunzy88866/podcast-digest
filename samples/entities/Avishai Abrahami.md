@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Wix":3,"Base44":3,"Salesforce":19,"Atlassian":5,"vibe coding":33,"SaaS":15,"回购":1,"股权激励":1,"微调":15}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Wix":3,"Base44":3,"Salesforce":20,"Atlassian":5,"vibe coding":33,"SaaS":16,"回购":1,"股权激励":1,"微调":16}</script>
 
 <script>
 (function(){

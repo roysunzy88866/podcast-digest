@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Google]] · [[Lenny]] · [[Victor Riparbelli]] · [[Justine Moore]] · [[Jeff Berman]] · [[Elizabeth Stone]] · [[Synthesia]] · [[生成式媒体]] · [[Andrew Anagnost]]
 
-<script type="application/json" class="pd-epn">{"智能体":237,"Google":42,"Lenny":67,"Victor Riparbelli":1,"Justine Moore":1,"Jeff Berman":1,"Elizabeth Stone":1,"Synthesia":1,"生成式媒体":1,"Andrew Anagnost":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":240,"Google":42,"Lenny":67,"Victor Riparbelli":1,"Justine Moore":1,"Jeff Berman":1,"Elizabeth Stone":1,"Synthesia":1,"生成式媒体":1,"Andrew Anagnost":1}</script>
 
 <script>
 (function(){

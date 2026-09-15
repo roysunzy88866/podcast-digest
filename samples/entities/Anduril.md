@@ -7,19 +7,21 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anduril</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anduril">AN</div><div class="pi"><h1 class="pt">Anduril</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anduril">AN</div><div class="pi"><h1 class="pt">Anduril</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]]**(18:33起):本集在列举过去十年'反精益创业'的成功公司时，提到无论是实验室本身还是 Anduril 都有这个特征
+- **[[2026-08-12-sourcery-inside-neros-factory-built-to-make-1-mil|《走进 Neros 无人机工厂：一年百万架的目标》]]**(03:40起):本集顺带对比：Anduril 的无人机机身用金属铸件，看起来重得多。
 - **[[2026-08-19-eyeonai-from-zero-to-150-robots-in-just-20-month|《人形机器人上战场：公关跑得比机器人快》]]**(62:54起):本集提到Palmer Luckey已经多次通过Foundation的机器人讲话，机器人会穿上夏威夷衬衫和莫霍克假发代替他出席活动
 - **[[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]]**(05:27起):本集说它是四位创始人各有所长的完美团队组合例子：Palmer 是疯狂科学家型负责产品和未来方向，Grimm 能把想法做出来，Trey 擅长高层关系和人脉，Brian Schimpf 作为 CEO 能让所有人都服他
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]] — 作为被讨论公司(提及)
+- [[2026-08-12-sourcery-inside-neros-factory-built-to-make-1-mil|《走进 Neros 无人机工厂：一年百万架的目标》]] — 作为被讨论公司(提及)
 - [[2026-08-19-eyeonai-from-zero-to-150-robots-in-just-20-month|《人形机器人上战场：公关跑得比机器人快》]] — 作为被讨论公司(提及)
 - [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为被讨论公司
 
@@ -27,9 +29,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Stripe]] · [[OpenAI]] · [[Harj]] · [[Mike LeBlanc]] · [[Brian Singerman]] · [[Patrick Collison]] · [[Foundation]] · [[Founders Fund]] · [[Atlas]] · [[人形机器人]]
+[[Stripe]] · [[OpenAI]] · [[Harj]] · [[Sorin]] · [[Mike LeBlanc]] · [[Brian Singerman]] · [[Patrick Collison]] · [[Neros]] · [[Foundation]] · [[Founders Fund]]
 
-<script type="application/json" class="pd-epn">{"Stripe":30,"OpenAI":111,"Harj":1,"Mike LeBlanc":1,"Brian Singerman":1,"Patrick Collison":2,"Foundation":1,"Founders Fund":1,"Atlas":2,"人形机器人":2}</script>
+<script type="application/json" class="pd-epn">{"Stripe":31,"OpenAI":113,"Harj":1,"Sorin":1,"Mike LeBlanc":1,"Brian Singerman":1,"Patrick Collison":2,"Neros":1,"Foundation":2,"Founders Fund":1}</script>
 
 <script>
 (function(){

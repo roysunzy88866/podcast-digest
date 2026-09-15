@@ -25,7 +25,7 @@ unlisted: true
 
 [[Chris Benson]] · [[Demetrios Brinkmann]] · [[智能体]] · [[计算机使用]] · [[MCP]] · [[Agentic AI Foundation]] · [[harness]] · [[Claude Code]] · [[智能体蜂群]] · [[去中介化]]
 
-<script type="application/json" class="pd-epn">{"Chris Benson":7,"Demetrios Brinkmann":1,"智能体":237,"计算机使用":11,"MCP":40,"Agentic AI Foundation":1,"harness":32,"Claude Code":59,"智能体蜂群":1,"去中介化":2}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":7,"Demetrios Brinkmann":1,"智能体":240,"计算机使用":11,"MCP":40,"Agentic AI Foundation":1,"harness":32,"Claude Code":59,"智能体蜂群":1,"去中介化":2}</script>
 
 <script>
 (function(){

@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Hugging Face]] · [[Stripe]] · [[Harvey]] · [[Cursor]] · [[Nemotron]] · [[OpenRouter]] · [[前沿模型]]
+[[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Perplexity]] · [[Hugging Face]] · [[Stripe]] · [[Harvey]] · [[Cursor]] · [[Nemotron]] · [[OpenRouter]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":35,"OpenAI":111,"Anthropic":122,"Hugging Face":20,"Stripe":30,"Harvey":8,"Cursor":58,"Nemotron":4,"OpenRouter":10,"前沿模型":16}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":35,"OpenAI":113,"Anthropic":123,"Perplexity":6,"Hugging Face":20,"Stripe":31,"Harvey":8,"Cursor":59,"Nemotron":4,"OpenRouter":10}</script>
 
 <script>
 (function(){
