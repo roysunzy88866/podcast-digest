@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Horowitz":4,"OpenAI":109,"Stripe":30,"Astra":1,"ChatGPT":61,"Codex":47,"AGI":21,"计算机使用":11,"对齐":7,"沙箱":42}</script>
+<script type="application/json" class="pd-epn">{"Ben Horowitz":4,"OpenAI":109,"Stripe":30,"Astra":1,"ChatGPT":61,"Codex":47,"AGI":21,"计算机使用":11,"对齐":7,"沙箱":43}</script>
 
 <script>
 (function(){

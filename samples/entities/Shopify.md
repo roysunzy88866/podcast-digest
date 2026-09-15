@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Shopify</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Shopify">SH</div><div class="pi"><h1 class="pt">Shopify</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Shopify">SH</div><div class="pi"><h1 class="pt">Shopify</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,10 +17,11 @@ unlisted: true
 - **[[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]]**(14:24起):本集提到 Shopify 作为加拿大人创立的全球独角兽的例子
 - **[[2026-09-01-mos-when-ai-agents-do-your-shopping-everythi|《Shopify COO 谈 AI 时代的电商：复杂性是我们的护城河》]]**(00:49起):本集主角：总部位于渥太华的加拿大电商公司，支撑美国超过 14% 的电商市场，自称「统一的商务运营系统」，COO Jess Hertz 谈其应对贸易战与 AI 冲击之道
 - **[[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]]**(30:26起):本集说它是「SaaS 全完蛋」唱衰中穿针而过的公司，是其他 SaaS 公司要对标的黄金标准
+- **[[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]]**(00:20起):本集主线：Toby 介绍 Shopify 内部约 50% 的 pull request 已由公共聊天里的对话生成，公司围绕 AI 员工重构工作与决策方式，产品方向是'你描述业务如何运转，产品围绕它塑造自己'
 
 ## ① 提到它的金句
 
-*3 条*
+*4 条*
 
 ![[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets#^q1]]
 
@@ -28,9 +29,11 @@ unlisted: true
 
 ![[2026-09-01-mos-when-ai-agents-do-your-shopping-everythi#^q10]]
 
+![[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an#^q3]]
+
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司(提及)
 - [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]] — 作为被讨论公司(提及)
@@ -38,14 +41,15 @@ unlisted: true
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|《无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"》]] — 作为被讨论公司(提及)
 - [[2026-09-01-mos-when-ai-agents-do-your-shopping-everythi|《Shopify COO 谈 AI 时代的电商：复杂性是我们的护城河》]] — 作为被讨论公司
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]] — 作为被讨论公司(提及)
+- [[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[SaaS]] · [[Stripe]] · [[Replit]] · [[Cursor]] · [[Google]] · [[Anthropic]] · [[Lenny]] · [[Harj]]
+[[智能体]] · [[OpenAI]] · [[SaaS]] · [[Stripe]] · [[Replit]] · [[River]] · [[Cursor]] · [[Google]] · [[Anthropic]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":234,"OpenAI":109,"SaaS":15,"Stripe":30,"Replit":16,"Cursor":58,"Google":41,"Anthropic":121,"Lenny":67,"Harj":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":236,"OpenAI":109,"SaaS":15,"Stripe":30,"Replit":16,"River":2,"Cursor":58,"Google":41,"Anthropic":121,"Lenny":67}</script>
 
 <script>
 (function(){

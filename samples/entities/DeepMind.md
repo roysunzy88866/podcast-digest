@@ -37,7 +37,7 @@ unlisted: true
 
 [[OpenAI]] · [[ChatGPT]] · [[智能体]] · [[Google]] · [[Anthropic]] · [[Cursor]] · [[开源]] · [[Lenny]] · [[评估]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":109,"ChatGPT":61,"智能体":234,"Google":41,"Anthropic":121,"Cursor":58,"开源":22,"Lenny":67,"评估":1,"NVIDIA":34}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":109,"ChatGPT":61,"智能体":236,"Google":41,"Anthropic":121,"Cursor":58,"开源":22,"Lenny":67,"评估":1,"NVIDIA":34}</script>
 
 <script>
 (function(){

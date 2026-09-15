@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Kevin DeFarco]] [[Roshan]] [[Noah]]
+[[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Kevin DeFarco]] [[Roshan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elliot":1,"Portola":1,"Tolan":1,"LLM":31,"提示词":12,"记忆":8,"响应时间":1,"hook":2,"即兴演员":1,"lore seeds":1}</script>
+<script type="application/json" class="pd-epn">{"Elliot":1,"Portola":1,"Tolan":1,"LLM":32,"提示词":12,"记忆":8,"响应时间":1,"hook":2,"即兴演员":1,"lore seeds":1}</script>
 
 <script>
 (function(){

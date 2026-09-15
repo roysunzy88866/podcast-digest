@@ -35,7 +35,7 @@ unlisted: true
 
 [[OpenAI]] · [[YC]] · [[ChatGPT]] · [[基准测试]] · [[推理]] · [[Harry Stebbings]] · [[Philip Johnston]] · [[Paul Graham]] · [[Matt Murphy]] · [[数据中心]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":109,"YC":12,"ChatGPT":61,"基准测试":9,"推理":44,"Harry Stebbings":16,"Philip Johnston":1,"Paul Graham":1,"Matt Murphy":1,"数据中心":12}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":109,"YC":12,"ChatGPT":61,"基准测试":9,"推理":45,"Harry Stebbings":16,"Philip Johnston":1,"Paul Graham":1,"Matt Murphy":1,"数据中心":12}</script>
 
 <script>
 (function(){

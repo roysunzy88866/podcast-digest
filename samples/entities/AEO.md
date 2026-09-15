@@ -37,7 +37,7 @@ unlisted: true
 
 [[ChatGPT]] · [[智能体]] · [[Google]] · [[Reddit]] · [[Harry Stebbings]] · [[OpenAI]] · [[PLG]] · [[Lenny]] · [[Matt Swulinski]] · [[Julien Bek]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":61,"智能体":234,"Google":41,"Reddit":5,"Harry Stebbings":16,"OpenAI":109,"PLG":9,"Lenny":67,"Matt Swulinski":1,"Julien Bek":1}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":61,"智能体":236,"Google":41,"Reddit":5,"Harry Stebbings":16,"OpenAI":109,"PLG":9,"Lenny":67,"Matt Swulinski":1,"Julien Bek":1}</script>
 
 <script>
 (function(){

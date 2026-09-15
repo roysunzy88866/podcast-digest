@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":234,"OpenAI":109,"OpenClaw":16,"Codex":47,"Romain Huet":1,"Anthropic":121,"Raphael Schaad":1,"循环":8,"NVIDIA":34,"Claude Code":59}</script>
+<script type="application/json" class="pd-epn">{"智能体":236,"OpenAI":109,"OpenClaw":16,"Codex":47,"Romain Huet":1,"Anthropic":121,"Raphael Schaad":1,"循环":8,"NVIDIA":34,"Claude Code":59}</script>
 
 <script>
 (function(){

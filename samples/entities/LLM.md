@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>31</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>32</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -42,10 +42,11 @@ unlisted: true
 - **[[2026-09-07-a16z-can-open-source-keep-ai-power-from-conce|《Transformer 不满十岁：AI 集中不是宿命》]]**(04:04起):本集说一块消费级 GPU 没法训练大的 LLM,但足够做研究和实验;而当前大语言模型回答千篇一律,比如讲笑话总是同一个
 - **[[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]]**(04:04起):本集以「鹈鹕骑自行车」矢量图测试说明 LLM 直接产矢量文件对设计师没法用；并提醒 Claude 或任何 LLM 都爱乱扔随机字号，须靠设计系统约束。
 - **[[2026-09-10-talks-the-design-code-roundtrip-that-isn-t-jon|《设计-代码往返并不存在：一位 30 年老兵的实测与漂移警告》]]**(03:17起):让 Jonathan 以为能以推理速度闭合设计-代码闭环的智能来源；但模型本身是非确定性、概率性的，是本集指出的第一个盲区。
+- **[[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]]**(12:21起):本集说 LLM 是决策环境而非决策者：可当裁判模型复核推理链、编排多角色小委员会，但'机器无法承担责任'，判断必须留在人身上
 
 ## ① 提到它的金句
 
-*22 条*
+*23 条*
 
 ![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q1]]
 
@@ -91,9 +92,11 @@ unlisted: true
 
 ![[2026-09-10-talks-training-taste-thais-castello-branco-tas#^q5]]
 
+![[2026-09-15-trainingdata-box-s-aaron-levie-on-reinventing-yoursel#^q1]]
+
 ## ② 出现在这些集
 
-*31 集*
+*32 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -126,6 +129,7 @@ unlisted: true
 - [[2026-09-07-a16z-can-open-source-keep-ai-power-from-conce|《Transformer 不满十岁：AI 集中不是宿命》]] — 作为概念
 - [[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]] — 作为概念
 - [[2026-09-10-talks-the-design-code-roundtrip-that-isn-t-jon|《设计-代码往返并不存在：一位 30 年老兵的实测与漂移警告》]] — 作为概念
+- [[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]] — 作为概念
 
 ## ③ 关联
 
@@ -133,7 +137,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[MCP]] · [[vibe coding]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":234,"Anthropic":121,"ChatGPT":61,"Lenny":67,"Claude":57,"OpenAI":109,"Claude Code":59,"MCP":39,"vibe coding":33,"护栏":44}</script>
+<script type="application/json" class="pd-epn">{"智能体":236,"Anthropic":121,"ChatGPT":61,"Lenny":67,"Claude":57,"OpenAI":109,"Claude Code":59,"MCP":40,"vibe coding":33,"护栏":44}</script>
 
 <script>
 (function(){

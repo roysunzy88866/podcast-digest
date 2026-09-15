@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]]
+[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":3,"OpenAI":109,"数据中心":12,"液冷":1,"Stargate":1,"Jalapeno":1,"MRC":1,"推理":44,"GPU":16,"核能":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":3,"OpenAI":109,"数据中心":12,"液冷":1,"Stargate":1,"Jalapeno":1,"MRC":1,"推理":45,"GPU":16,"核能":1}</script>
 
 <script>
 (function(){

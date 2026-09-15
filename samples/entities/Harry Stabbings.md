@@ -28,7 +28,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Jason Lamkin]] · [[Matteo Franceschetti]] · [[Canva]] · [[Eight Sleep]] · [[无代码]] · [[Claude]] · [[Figma]]
 
-<script type="application/json" class="pd-epn">{"智能体":234,"Anthropic":121,"OpenAI":109,"Jason Lamkin":1,"Matteo Franceschetti":1,"Canva":4,"Eight Sleep":1,"无代码":1,"Claude":57,"Figma":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":236,"Anthropic":121,"OpenAI":109,"Jason Lamkin":1,"Matteo Franceschetti":1,"Canva":4,"Eight Sleep":1,"无代码":1,"Claude":57,"Figma":18}</script>
 
 <script>
 (function(){

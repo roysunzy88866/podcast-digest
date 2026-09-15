@@ -39,7 +39,7 @@ unlisted: true
 
 [[ChatGPT]] · [[AEO]] · [[护栏]] · [[OpenAI]] · [[Google]] · [[智能体]] · [[推理]] · [[Lenny]] · [[Theo Browne]] · [[Matt Turk]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":61,"AEO":4,"护栏":44,"OpenAI":109,"Google":41,"智能体":234,"推理":44,"Lenny":67,"Theo Browne":1,"Matt Turk":3}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":61,"AEO":4,"护栏":44,"OpenAI":109,"Google":41,"智能体":236,"推理":45,"Lenny":67,"Theo Browne":1,"Matt Turk":3}</script>
 
 <script>
 (function(){

@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]] [[Zavain Dar]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Robert Lucero]] [[Brian Houck]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Eight Sleep":1,"Anthropic":121,"Claude":57,"智能体":234,"CAC":1,"增量测试":1,"人形机器人":2,"Xiaomi":2,"OpenAI":109}</script>
+<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Eight Sleep":1,"Anthropic":121,"Claude":57,"智能体":236,"CAC":1,"增量测试":1,"人形机器人":2,"Xiaomi":2,"OpenAI":109}</script>
 
 <script>
 (function(){

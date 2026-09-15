@@ -1,0 +1,991 @@
+{
+  "episode_id": "2026-09-15-trainingdata-box-s-aaron-levie-on-reinventing-yoursel",
+  "podcast": "Training Data",
+  "date": "2026-09-15",
+  "tags": [
+    "智能体",
+    "应用层价值",
+    "企业级 AI",
+    "模型与套壳之争",
+    "技术扩散"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "aaron-levie",
+      "type": "person",
+      "role": "host",
+      "name": "Aaron Levie",
+      "file": "Aaron Levie",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "box",
+      "type": "company",
+      "role": "company",
+      "name": "Box",
+      "file": "Box",
+      "primary": true,
+      "how_described": "本集把它说成:做了 20 年企业内容云存储与协作的公司,坐拥数千亿企业文件,如今押上整个公司转型做 AI,让智能体读取非结构化数据、提取元数据、自动化工作流。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            227.923,
+            229.464
+          ],
+          "quote": "Box Labs, let's go.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            756.079,
+            757.6
+          ],
+          "quote": "Let's transition to talking about Box.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            761.54,
+            762.921
+          ],
+          "quote": "But let's talk about Box for a second.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            765.761,
+            773.863
+          ],
+          "quote": "I'm guessing a lot of people that listen to this podcast use Box, but give people a brief kind of explanation of the history of Box and how you're reinventing yourself with AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            923.366,
+            929.53
+          ],
+          "quote": "And then slowly but surely sort of built out what today is kind of our AI stack and then basically the box agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1132.84,
+            1144.867
+          ],
+          "quote": "In the content domain, which is, I think, where a lot of the content and box sits, using AI to produce content, at least, it's just like there's almost this allergic reaction to it, like all the pangram stuff on Twitter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1153.21,
+            1165.614
+          ],
+          "quote": "I'm gonna sort of separate the box corporate hat and just now kind of maybe riff as a consumer of, gosh I wish there was a better term, but work slop as you know inside of an enterprise context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1449.398,
+            1450.78
+          ],
+          "quote": "How does the box agents work?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1486.312,
+            1491.338
+          ],
+          "quote": "But let's just say like that aside, we have a lot of depth of understanding of what do people do in Box?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1491.538,
+            1492.339
+          ],
+          "quote": "How do they search Box?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1534.37,
+            1544.197
+          ],
+          "quote": "So in my box account, I have, I don't even know the latest number, but on the order of tens of millions of files, just because it's like everything that has ever kind of accumulated over 20 years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1545.357,
+            1560.083
+          ],
+          "quote": "But I can now ask any question of all that data set using the Box Agent, and it goes around, it does multiple searches in one, it re-ranks it, it then very quickly sort of pulls out the most relevant information, then it'll in some cases read the full document, you know, does all the steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1615.576,
+            1621.64
+          ],
+          "quote": "But the second one is just like then our box instance and how box employees use their data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2015.233,
+            2023.06
+          ],
+          "quote": "We live in a world at Box where we see the high degree of complexity on permissions and access controls and data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2342.422,
+            2351.586
+          ],
+          "quote": "Maybe zooming out, what do you think of as, and this can be a box question or a non-box specific question, the role of systems of record in a world with agents?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2737.239,
+            2739.72
+          ],
+          "quote": "Your product has a search box, obviously it does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 617,
+          "t": [
+            3162.319,
+            3163.7
+          ],
+          "quote": "There's like give us your box.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3163.92,
+            3166.823
+          ],
+          "quote": "Well, Box customers have a much easier time with all of this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 620,
+          "t": [
+            3170.086,
+            3172.828
+          ],
+          "quote": "So that means there's a lot of people not using Box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 720,
+          "t": [
+            3592.438,
+            3596.62
+          ],
+          "quote": "So like probably our top, you know, in the top three, all AI users at Box, like,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:可被派去读取海量企业文档、回答问题、长时间在后台执行整个工作流的系统;五年后企业 90% 的 token 将由用户从未启动的后台智能体消耗。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            234.268,
+            239.073
+          ],
+          "quote": "Right now, the main focus is let's make the agent really, really good on any model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            310.209,
+            312.209
+          ],
+          "quote": "And so the sort of agent has to sit idle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            923.366,
+            929.53
+          ],
+          "quote": "And then slowly but surely sort of built out what today is kind of our AI stack and then basically the box agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            983.536,
+            988.538
+          ],
+          "quote": "One is we have, again, an online sort of collaborative product that an agent can just, like, generate any amount of content in it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1004.085,
+            1009.968
+          ],
+          "quote": "So we have an agent that goes and interacts with those systems to produce, you know, a high quality PowerPoint, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1120.192,
+            1121.713
+          ],
+          "quote": "It's the year of the long-running agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1239.026,
+            1250.81
+          ],
+          "quote": "But at the end of the day, if you can tell an agent, like, please go and generate my entire backend system or my front end system, like, it's just, it's not only acceptable, it's preferable because it's just like, that was the thing that was blocking us from moving forward.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1545.357,
+            1560.083
+          ],
+          "quote": "But I can now ask any question of all that data set using the Box Agent, and it goes around, it does multiple searches in one, it re-ranks it, it then very quickly sort of pulls out the most relevant information, then it'll in some cases read the full document, you know, does all the steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1608.711,
+            1610.832
+          ],
+          "quote": "And we test every single model against those with our agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1727.086,
+            1731.429
+          ],
+          "quote": "And it's tuned for, there's a few ways our kind of agent manifests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1932.546,
+            1943.494
+          ],
+          "quote": "You have some kind of orchestration agent that by default does the cheaper stuff, but occasionally sees something that is just way too hard, and then it pops it out to one of these heavier models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2301.607,
+            2317.62
+          ],
+          "quote": "We have a team, for instance, working on how do you do effectively at the agent level, at the harness level, some form of kind of auto research on sort of hill climbing, on accuracy of answering questions or sets of problems on given a kind of a set of client data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2351.646,
+            2355.927
+          ],
+          "quote": "And I'm sure you saw some of the Twitter discourse on like, you know, every software company is trying to sell me their own agent right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2356.427,
+            2357.948
+          ],
+          "quote": "I don't want another agent from them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2358.048,
+            2360.329
+          ],
+          "quote": "I want their system record to work well with my agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2418.634,
+            2422.056
+          ],
+          "quote": "You have to build an agent that is insanely great at your product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2422.557,
+            2429.281
+          ],
+          "quote": "Like that agent has to be, you have to provably be like 10 or 20 points better than an off-the-shelf agent using your system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2440.032,
+            2454.897
+          ],
+          "quote": "And you probably, because you understand your domain, unless you're like totally asleep at the wheel, you probably have use cases that no one has sort of thought to build products around because you talk to customers every day and you see what they run into and you're like, oh, we could just like have our agent go do that for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2486.093,
+            2497.44
+          ],
+          "quote": "But there was basically a customer had this idea of they wanted an agent in the background trying to sort of figure out when documents sort of met their governance policies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2546.674,
+            2556.517
+          ],
+          "quote": "So like the idea was like, oh, what if there was just an ongoing agent that just like automatically was just like, nah, that's going to break your governance policy instead of the user having to like try and predict or understand the stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2556.537,
+            2567.96
+          ],
+          "quote": "So anyway, those are the kind of things where if you have an agent within your product, you're going to be able to identify sort of sooner and better than the rest of the market and or just like do things that maybe would be impossible to do off platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2587.387,
+            2590.65
+          ],
+          "quote": "Or at least make your agent be headless and be exposed in those systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2700.11,
+            2704.093
+          ],
+          "quote": "Big, you know, generic chatbot, chatbox agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2740.22,
+            2747.702
+          ],
+          "quote": "So that's always gonna be here for these sort of one-off asks of an agent or go find this thing or answer this question or produce something for me on demand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 613,
+          "t": [
+            3140.004,
+            3156.795
+          ],
+          "quote": "One of the other big things is like if you go to most engineers in 2026, like maybe like minus two months ago, given the given the latest phenomenon, but like like the codes in GitHub, you just like connected to GitHub like like remember there's this period where like you're when you launched a coding agent like there was no like sign up or register.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3212.2,
+            3214.581
+          ],
+          "quote": "How do you make sure the agent has access to those set of things?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 738,
+          "t": [
+            3685.851,
+            3688.996
+          ],
+          "quote": "Do you guys have a Slack coworker agent, for lack of a better term?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "application-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "应用层 (application layer)",
+      "file": "应用层",
+      "primary": true,
+      "how_described": "本集把它说成:弥合模型能力与企业真实工作流之间鸿沟的那一层软件,类比 AWS 之上诞生了数万亿美元软件价值,『有数万亿、数万亿美元在应用层等着被瓜分』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            443.76,
+            448.524
+          ],
+          "quote": "I'm pretty long, obviously, the application layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            707.803,
+            722.928
+          ],
+          "quote": "And then as long as that happens, and as long as like there's not insane proprietary sort of, you know, you know, sort of closely held secrets, then no matter what, you're going to have kind of cost per token go down on a like for like basis, all of which means more value accrues to the application layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2705.254,
+            2711.278
+          ],
+          "quote": "Is that going to be the dominant UI for how people are using AI in the future, especially when it comes to the application layer?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llm-wrapper",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 套壳 (LLM wrapper)",
+      "file": "LLM 套壳",
+      "primary": true,
+      "how_described": "本集把它说成:被嘲笑了两年、如今却正在跑通的模式——因为模型与企业工作流之间需要一座很深的桥,做桥的软件本身就是大生意。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            134.946,
+            147.553
+          ],
+          "quote": "But what's pretty amazing is right now, you know, the whole concept of being a sort of LLM wrapper or model wrapper is actually working out because what I think people underappreciated...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体工具框架 (harness)",
+      "file": "智能体工具框架",
+      "primary": true,
+      "how_described": "本集把它说成:Box 自建的智能体工具框架,内置搜索系统、文件系统访问、文本抽取、分块、即时嵌入等工具,比直接把 API 交给 Claude/OpenAI 在准确率和延迟上都明显更好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 305,
+          "t": [
+            1503.112,
+            1512.978
+          ],
+          "quote": "So we know all that, and we basically have built an agentic harness that attempts to understand that set of domain understanding about our system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1530.628,
+            1534.25
+          ],
+          "quote": "And effectively, it's a harness for asking questions of a large data set.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1573.368,
+            1575.289
+          ],
+          "quote": "So that's effectively the harness that we built out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2301.607,
+            2317.62
+          ],
+          "quote": "We have a team, for instance, working on how do you do effectively at the agent level, at the harness level, some form of kind of auto research on sort of hill climbing, on accuracy of answering questions or sets of problems on given a kind of a set of client data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (eval)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集把它说成:Box 对每个新模型跑几百个测试,包括对外的 complex work eval 和内部员工真实用例的 holdback eval,模型提升半个点都能看出来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 318,
+          "t": [
+            1589.717,
+            1593.519
+          ],
+          "quote": "One is, we put out a thing called the complex work eval, which is a set of...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1600.565,
+            1604.928
+          ],
+          "quote": "And it's kind of exactly what you'd think of as a document-centric eval.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1611.293,
+            1615.496
+          ],
+          "quote": "And then we have a holdback eval, which is actually the first one is holdback also.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1621.66,
+            1623.242
+          ],
+          "quote": "And then we eval every model again on that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1690.819,
+            1704.07
+          ],
+          "quote": "On this front, but basically by and large, like when you look at GDPVal, Mercore has their Apex eval, these things will all generally follow the coding models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1761.739,
+            1765
+          ],
+          "quote": "And then you're just basically at the mercy of the eval.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2429.821,
+            2438.286
+          ],
+          "quote": "Not because it's hobbled the other side, it's just like you are so eval maxed and you're like so tuned to your particular workflow that you can improve your system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-weights",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open weights)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集把它说成:企业采用比人们想的高、比企业想要的低、远低于五年后的水平;成熟用例会被剥离到开源模型,与前沿模型形成编排分工、共同增长的二元格局。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 364,
+          "t": [
+            1823.384,
+            1838.396
+          ],
+          "quote": "Over time, I think it stands to reason that you'll see meaningful different costs because you'll be able to peel off workloads that just only make sense at grinding down to the cost of inference, in which case open weights will have this economic advantage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1877.622,
+            1891.53
+          ],
+          "quote": "And once you have kind of stability in that use case, it starts to make sense to veer it toward an open weights model, assuming one of two things is true, one, that it's actually literally cheaper, or two, having some post-training gets you X percent more performance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1906.053,
+            1908.834
+          ],
+          "quote": "But somehow open weights is like also growing exponentially.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1943.835,
+            1951.08
+          ],
+          "quote": "And so you might have blended 50% spend on each, but 10 times the amount of tokens on the open weights model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2105.273,
+            2113.116
+          ],
+          "quote": "But, you know, obviously with like, as the cost curve goes down, as open weights, you know, get, you know, cheaper, smaller, faster, better, I think this becomes super interesting.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把它说成:记录系统必须走 headless 路线、让外部智能体接入的通道;Levy 说自己通过 Claude 用 MCP 接入 Salesforce 后使用频率高了十倍,愿意为 MCP 接入 LinkedIn 多付 10 倍的钱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 511,
+          "t": [
+            2578.384,
+            2586.787
+          ],
+          "quote": "And you have to make sure that you have either a direct way into deterministic APIs so that those agents can use your APIs, make calls via MCP or whatever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2617.47,
+            2626.712
+          ],
+          "quote": "So like in the Salesforce example, I use Salesforce more today, probably by an order of magnitude than I ever have because I MCP into it via Claude or ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2667.79,
+            2675.254
+          ],
+          "quote": "This is so cheesy, but I've told LinkedIn product managers, I'd probably pay 10x more for LinkedIn if I just could MCP into it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2981.95,
+            2993.682
+          ],
+          "quote": "It's the most technical audience of all time where when they deploy an agentic system and they run into a either a bug or a problem or like some MCP server comes back with like connection invalid, they know how to triage the problem.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "system-of-record",
+      "type": "concept",
+      "role": "concept",
+      "name": "记录系统 (system of record)",
+      "file": "记录系统",
+      "primary": true,
+      "how_described": "本集把它说成:智能体时代 SaaS 公司必须两张牌都打——既做可证明比现成智能体好 10-20 个百分点的自家智能体,又把 API/headless 开放给外部智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 513,
+          "t": [
+            2591.111,
+            2604.564
+          ],
+          "quote": "And then the only reason maybe this is like even remotely a hard debate is you have to just make sure as a system of record that you can find a way where commercially it sort of makes sense on the other side and is sort of valuable and interesting.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "编程智能体 (coding agents)",
+      "file": "编程智能体",
+      "primary": true,
+      "how_described": "本集把它说成:史上最快的技术扩散案例,并作为标尺拆解编程利于自动化的五六条特性(效用全在文本、模型超量训练、用户自己排查问题、接入简单、高薪),用来解释其他知识工作扩散为何慢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            1065.111,
+            1080.739
+          ],
+          "quote": "And then I think the stuff that we're probably, you know, as much if not more excited by is really the equivalent of what we see with, let's say, coding agents or other complex agents, which is you have long running agents that are just executing your entire kind of workflow or process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2854.982,
+            2859.206
+          ],
+          "quote": "We've seen them start to emerge in the long-running kind of coding agents with cognition and factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2885.012,
+            2892.479
+          ],
+          "quote": "Coding agents, it was like, you know, boom, January 1st, 2026 happened and like the fastest diffusion of anything into the economy we've ever seen has happened.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3184.499,
+            3189.784
+          ],
+          "quote": "So just think about that sort of distinction between implementing coding agents versus everything else.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "work-slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "work slop(工作垃圾内容) (work slop)",
+      "file": "work slop(工作垃圾内容)",
+      "primary": true,
+      "how_described": "本集把它说成:代码被接受、AI 生成内容被嫌弃的不对称——收到演示文稿时你在判断能否信任对方执行,看到 slop 就失去了对思考过程出处的判断;Levy 自嘲自己也再做 work slop 的集体悖论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 225,
+          "t": [
+            1144.907,
+            1146.468
+          ],
+          "quote": "There's this concept of work slop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1148.889,
+            1152.79
+          ],
+          "quote": "I'm curious what you think about work slop and like will this still be a thing in a few years?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1153.21,
+            1165.614
+          ],
+          "quote": "I'm gonna sort of separate the box corporate hat and just now kind of maybe riff as a consumer of, gosh I wish there was a better term, but work slop as you know inside of an enterprise context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1270.432,
+            1283.841
+          ],
+          "quote": "And so when you see work slop, you're like, I'm losing my ability to sort of know for a fact that like how much of the thought process was them versus how much was the AI, how much did I even care about that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1285.742,
+            1296.149
+          ],
+          "quote": "So like we have this weird, like it's this very weird sort of like collective issue that we have, which is like I'm doing work slop for some of my brainstorms and decisions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "unstructured-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "非结构化数据 (unstructured data)",
+      "file": "非结构化数据",
+      "primary": true,
+      "how_described": "本集把它说成:Box 坐了 20 年的家底——合同、研究文件、贷款文档等企业文档,『他们很少知道里面到底装的是什么』,智能体读非结构化数据正是 Box 转型的核心场景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            802.59,
+            812.817
+          ],
+          "quote": "And they would need a better way to be able to sort of store, share, collaborate, manage all of this unstructured data, their corporate documents, their financial documents, their marketing assets, their research materials in the cloud securely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            971.526,
+            975.867
+          ],
+          "quote": "So we built a platform that basically lets you deploy agents against all of that unstructured data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3294.647,
+            3300.788
+          ],
+          "quote": "Like working with unstructured data for 20 years, you just like can instantly see the benefit of agents on that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3510.54,
+            3522.705
+          ],
+          "quote": "So no exaggeration, if you have a question that you would like to ask about the business that has ever been documented in a form of unstructured data,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集把它说成:Meta、SpaceX、中国、NVIDIA 等博弈结构不同的玩家可能把推理毛利打到 10%,token 成本长期下行,价值因此往应用层累积。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            643.026,
+            645.228
+          ],
+          "quote": "But they have such high gross margin on inference right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            672.993,
+            699.6
+          ],
+          "quote": "And so then all the while, if you have some sort of either non-economic actors or people just with a totally different game theory in this, you know, Meta being one, maybe SpaceX being one, China certainly being a giant one, even NVIDIA being one, like that changes the calculus as well, which is those four kind of cohorts don't necessarily need to make money on inference in sort of at least the same margin structure at like what Anthropic or OpenAI needs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            700.14,
+            707.222
+          ],
+          "quote": "So they would might be fine to bring down inference to 10% margin because they just want to basically, you know, pay for massive compute clusters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1823.384,
+            1838.396
+          ],
+          "quote": "Over time, I think it stands to reason that you'll see meaningful different costs because you'll be able to peel off workloads that just only make sense at grinding down to the cost of inference, in which case open weights will have this economic advantage.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "fox guarding the hen house",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

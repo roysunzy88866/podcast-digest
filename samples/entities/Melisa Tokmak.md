@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":234,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":18,"OpenAI":109,"Anthropic":121}</script>
+<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":236,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":18,"OpenAI":109,"Anthropic":121}</script>
 
 <script>
 (function(){

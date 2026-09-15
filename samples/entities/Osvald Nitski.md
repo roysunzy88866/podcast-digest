@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Mercor":1,"智能体":234,"开源":22,"RL 环境":2,"编码智能体":12,"评估":1,"机器人":5,"合成数据":5}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Mercor":1,"智能体":236,"开源":22,"RL 环境":2,"编码智能体":13,"评估":1,"机器人":5,"合成数据":5}</script>
 
 <script>
 (function(){

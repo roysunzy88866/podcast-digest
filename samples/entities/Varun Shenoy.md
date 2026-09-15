@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"LongLake":1,"智能体":234,"异步智能体":1,"同步智能体":1,"AI 同事":1,"沙箱":42,"后训练":20,"持续学习":8,"现实世界的评估":1,"Copilot":9}</script>
+<script type="application/json" class="pd-epn">{"LongLake":1,"智能体":236,"异步智能体":1,"同步智能体":1,"AI 同事":1,"沙箱":43,"后训练":20,"持续学习":8,"现实世界的评估":1,"Copilot":9}</script>
 
 <script>
 (function(){

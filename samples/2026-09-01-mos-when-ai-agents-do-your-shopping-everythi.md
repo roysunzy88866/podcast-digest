@@ -152,9 +152,9 @@ Jess 自称「非常不念旧情的人」，她认为这既是资产也是阻碍
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|Shopify CEO Toby：一半代码来自聊天群里的 AI 同事]]<span class="pd-rz">同公司:Shopify · 同概念:River、智能体 (agent)</span>
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同概念:Sidekick、智能体 (agent)</span>
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相]]<span class="pd-rz">同公司:Shopify · 同概念:智能体 (agent)</span>
-- [[2026-09-06-lennys-why-companies-are-becoming-a-series|a16z 消费投资合伙人 Anish Acharya:别怕被 AI 甩下，该怕的是野心太小]]<span class="pd-rz">同概念:智能体 (agent)、网络效应 (network effects)</span>
 
 </div>
 <div class="pd-ex">

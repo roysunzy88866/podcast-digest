@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Kiriti Badam":1,"智能体":234,"非确定性":1,"主观能动性":18,"评估":1,"生产监控":1,"持续校准持续开发":1,"飞轮":2,"行为校准":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Kiriti Badam":1,"智能体":236,"非确定性":1,"主观能动性":18,"评估":1,"生产监控":1,"持续校准持续开发":1,"飞轮":2,"行为校准":1}</script>
 
 <script>
 (function(){

@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Box</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Box">BO</div><div class="pi"><h1 class="pt">Box</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Box">BO</div><div class="pi"><h1 class="pt">Box</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]]**(29:50起):本集提到这是嘉宾的前东家,他在这里工作时与前老板 Aaron Levie 探讨了产品战略中的「获胜权」和「参与许可」概念。
 - **[[2026-03-22-lennys-the-art-of-influence-jessica-fain|《Jessica Fain:如何影响高管——把高管当用户来研究》]]**(01:17起):嘉宾早期的雇主之一，她在此担任 PM，并在本期分享了她的第一任经理 Annie Pearl 如何教导她高管视角与向上沟通的责任意识。
 - **[[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr|《开源权重不是威胁：Box CEO 聊 AI 的经济账》]]**(00:08起):本集介绍 Box 是做云端内容管理、企业文档、权限与协作的公司，嘉宾是其联合创始人兼 CEO；本集还谈了 Box 用 AI 扩大而非缩小工程路线图、对 Opus 5 跑企业评测。
+- **[[2026-09-15-trainingdata-box-s-aaron-levie-on-reinventing-yoursel|《Box 创始人 Erin Levy：套壳的逆袭与应用层的万亿机会》]]**(03:47起):本集把它说成:做了 20 年企业内容云存储与协作的公司,坐拥数千亿企业文件,如今押上整个公司转型做 AI,让智能体读取非结构化数据、提取元数据、自动化工作流。
 
 ## ① 提到它的金句
 
@@ -33,19 +34,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为被讨论公司(提及)
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《Jessica Fain:如何影响高管——把高管当用户来研究》]] — 作为被讨论公司(提及)
 - [[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr|《开源权重不是威胁：Box CEO 聊 AI 的经济账》]] — 作为被讨论公司
+- [[2026-09-15-trainingdata-box-s-aaron-levie-on-reinventing-yoursel|《Box 创始人 Erin Levy：套壳的逆袭与应用层的万亿机会》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[护栏]] · [[Jeetu Patel]] · [[Jessica Fain]] · [[Aaron Levie]] · [[Cisco]] · [[Webflow]] · [[Sofia Puccini]] · [[NVIDIA]] · [[Slack]]
+[[Lenny]] · [[智能体]] · [[Aaron Levie]] · [[护栏]] · [[开放权重]] · [[推理]] · [[Jeetu Patel]] · [[Jessica Fain]] · [[Sofia Puccini]] · [[应用层]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"护栏":44,"Jeetu Patel":1,"Jessica Fain":1,"Aaron Levie":1,"Cisco":3,"Webflow":2,"Sofia Puccini":4,"NVIDIA":34,"Slack":25}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"智能体":236,"Aaron Levie":2,"护栏":44,"开放权重":5,"推理":45,"Jeetu Patel":1,"Jessica Fain":1,"Sofia Puccini":4,"应用层":3}</script>
 
 <script>
 (function(){

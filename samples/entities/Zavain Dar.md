@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Eric Newcomer]]
+[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Eric Newcomer":1,"NVIDIA":34,"Hugging Face":20,"开源":22,"蒸馏":10,"推理":44,"新云":2,"前沿模型":16,"垂直 AI":1,"智能体":234}</script>
+<script type="application/json" class="pd-epn">{"Eric Newcomer":1,"NVIDIA":34,"Hugging Face":20,"开源":22,"蒸馏":10,"推理":45,"新云":2,"前沿模型":16,"垂直 AI":1,"智能体":236}</script>
 
 <script>
 (function(){

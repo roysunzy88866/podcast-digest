@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Clay":3,"Claygent":1,"Sculptor":1,"LangChain":5,"智能体":234,"评估":1,"trace":2,"LLM 判别器":4,"harness":31,"数据湖":2}</script>
+<script type="application/json" class="pd-epn">{"Clay":3,"Claygent":1,"Sculptor":1,"LangChain":5,"智能体":236,"评估":1,"trace":2,"LLM 判别器":4,"harness":32,"数据湖":2}</script>
 
 <script>
 (function(){

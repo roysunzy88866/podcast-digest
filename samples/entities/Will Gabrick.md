@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":3,"Stripe":30,"Stripe Minions":1,"智能体":234,"智能体商务":3,"稳定币":4,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":18}</script>
+<script type="application/json" class="pd-epn">{"David George":3,"Stripe":30,"Stripe Minions":1,"智能体":236,"智能体商务":3,"稳定币":4,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":18}</script>
 
 <script>
 (function(){

@@ -1,0 +1,190 @@
+{
+  "title_zh": "Shopify CEO Toby：一半代码来自聊天群里的 AI 同事",
+  "tldr": "Shopify 掌门人 Toby 讲述公司内部如何与有个性、有记忆的 AI 员工 River 共事，并谈判断力、直觉与品味为何成为最值钱的技能。",
+  "digest_md": "这一集聊的是：当一家 7000 人的科技公司真的让 AI 成为其一员、一半代码不再由人手写之后，工作、决策和公司治理会变成什么样。主角是 Toby——Shopify 的创始人和 CEO，这是他和主持人 Shane 的第三次对谈。开场他就说得毫不掩饰：「我是个满分 10 分的书呆子，我无法忍受在一场技术变革中不在最前沿。」\n\n## 公司里已经没人手写代码了\n\nShopify 内部的现状：真正亲手写代码的人「少之又少」，写的人也是在十到五十个智能体实例的深度辅助下工作。最激进的一个数字：**Shopify 大约 50% 的 pull request（每次改动生产系统时提交的变更请求）不是工程师写出来的，而是从公司公共聊天里的对话中生成的** [07:31 Toby]。这背后是一个叫 River 的 AI：她有名字、有头像、按频道存记忆，生活在 Slack 里，被提示词设定为「可以在合适的时候讽刺人」「被要求做蠢事时可以指出来」。Shopify 有 7000 名员工、一万个频道，你把 River 拉进来，告诉她事情，她能访问所有代码、所有系统和工具——全部在沙箱里运行——然后提交改动或直接参与对话。\n\nRiver 只在公开频道工作，这是 Toby 最得意的一个决定：原本办公室的设计就是为了「渗透式学习」——刻意把初级和高级工程师混编，让人互相观察学习；而现在，「反射性地伸手用 AI 并用好它」是最重要的技能，公开使用让所有人都能看见别人怎么用。一段功能讨论聊到最后，有人说一句「嘿 River，总结一下、建个 ticket、查查相关论文、甚至做个原型让我们试试」，一小时后东西就在那儿了 [10:19 Toby]。\n\n## 有个性的 AI：冒 Sydney 的风险\n\n给 AI 个性这件事，Toby 有个历史参照：最早真正出色的聊天机器人不是 ChatGPT，而是微软 Bing 驱动的 Sydney。Sydney 有真实的个性，结果一位记者的极长对话让她越来越癫狂、闹出丑闻，全行业吓坏了，把所有 AI「彻底阉割成同样那种烦人的、居高临下的个性」。Toby 的赌注是反着来：让 Shopify 的智能体有个性、有记忆，「基本上就是冒 Sydney 那种场景的风险，换取很大的上行空间」[07:13 Toby]。\n\nRiver 的记忆系统靠「做梦」：定期在夜里，把当天所有对话喂给她，问哪些顺利、哪里卡壳、用了哪些技能（技能=指令包）、犯了什么错、能怎么改进——「就像对自己做后训练」，输出就是技能文件和指令文本 [11:17 Toby]。\n\n## AI 是决策环境，判断必须留在人身上\n\nToby 自己有一个「AI 参谋长」，掌握他所有笔记和公司系统访问权限，可以给他发短信布置任务。做重大决策时，他让智能体编排子智能体扮演不同角色——数据视角、论文研究、商业视角、工程视角——每个角色再分别跑在多个不同模型上，综合者随机指定，最后由当前最好的模型汇总，通常半小时出来、花十五到二十美元的 token 费，「你自己也能做，但你可能要花一个月」[15:53 Toby]。\n\n但他划了一条清晰的线：「LLM 和机器做不到的事：**机器无法承担责任**。这可能是整个技术栈里最被忽视的一点。」机器能帮人更好地承担更多责任——像 Bloomberg 终端之于交易员——但判断必须由人来做。「我不能让 AI 取代我，因为我的工作是判断、做选择、为它们负责。」\n\n## 变糟的部分：slob 手榴弹\n\nAI 有没有让事情变糟？Toby 坦承有。懒惰工作的失败模式变了：不再是没产出，而是**产出过量**。Shopify 内部管这叫「slob grenades（懒人手榴弹）」：你随便让 AI 放手干一个 pull request，自己不读就说「不错」，然后它就变成同事的评审负担；或者你收到一封 AI 生成的超长邮件，读完了发现不对劲，再把它扔进 LLM 压缩一遍——「我们为什么要发明解压再压缩？如果你已经在用 LLM，就用它直接给出要点，别炸成一大篇浪费我的时间」[17:18 Toby]。另外，人的语言也在被「AI 腔」污染：「不是这个，而是这个」「你提出反驳是有道理的」，他见过有人打字打出来。\n\n## 超级智能早就存在：它叫多伦多\n\n聊到「创造比自己聪明的超级智能然后试图控制它是否傲慢」时，Toby 给了一个很独特的回答：他住在多伦多，房子出问题就打电话找水电工，从而保住「我其实自己也能修」的错觉——「我之所以能活在这种错觉里，是因为我属于一个叫做多伦多的超级智能。**我们一直以来都在周围创造着超级智能**——社会、城市、社区，就是总体上远比我们聪明而我们又能触达的东西。我们一辈子都活在超级智能的怀抱里，靠警察、制衡这些系统让它运转。」[29:31 Toby] 合成形态的超级智能也会到来，但不会是云开雾散、号角齐鸣——图灵测试被软件攻克的那天，「就那么发生了，没人在乎」。AI 真正改变的是：汇聚到这个既有超级智能的智能净总量在显著增加。\n\n## 品味与判断：十年后最值钱的技能\n\n十年后什么技能更值钱？「品味和判断力——一直都值钱，现在会被推到极限。」有品味的人在某个领域做过海量重复练习；研究大师变得更容易了，因为一次查询就能给自己生成一套课程，但关键是要深入：为什么这个 logo 好、什么是黄金分割、哪些系统延续了下来——他举的例子是天主教会存在一千多年却只有大约四层管理层，值得追问为什么。复式记账听起来像看油漆变干，但它如何被发明、为威尼斯商人解决了什么问题，非常迷人。家里有句家训：「一切都是有趣的」——当你理解它是怎么被发明的，一切就有趣了。\n\n对判断力，他有一个很少人讲过的观察：Kahneman 说直觉需要大量重复、稳定环境和快速反馈，但 Toby 认为直觉恰恰在**没有反馈的地方**最有价值——最重要的选择往往正是那些知道不会有反馈机制的情形。而正确路径和没有反馈循环的路径高度相关：股价有每日行情和即时反馈，但它往往不是对的那个方向 [37:59 Toby]。为什么公司短视？不是高管天生短视，而是他们被激励着要按季度证明自己干得不错——「给我看激励，我给你看结果」。创始人的结构性优势，正是可以不必靠季度电话上的表扬换取下一次机会。\n\n关于做决策，他的反直觉点是：**难的从来不是找到正确答案，而是从一堆好答案里选一个**。「做出正确的选择大多数人都能做到，连糟糕的管理团队命中率也不低。问题是好的选择有很多。」[41:29 Toby] 商业书执着于「做出对的选择」，把一切压成对错二分，太多笔墨花在找正解上，所有人都停在这一步。\n\n## 美、直觉与修剪\n\nToby 用 Omaki（一个朋友发起的 Linux 发行版）当操作系统：完全可塑，他只需对智能体说出愿望，系统就会改变。开会时发现缺一个截图标注工具，发了条语音、引导三次，做出了他眼中最好的那类工具，当晚开源，一早就有六个外部 pull request——「我的电脑实现愿望」[23:58 Toby]。他认为这比其他一切都更能预测软件的未来，Shopify 也会走这个方向：你描述业务如何运转，产品围绕它塑造自己。\n\n为什么重视美？「**美实际上是我们的直觉与我们沟通的方式。**」职业棋手为什么走出那步漂亮的棋？「我只看了那一条变化，因为它在那一刻在我看来是美的。」直觉就是即时生效的判断力——品味和判断压缩成了习惯，快到你自己都说不清为什么对 [55:00 Toby]。\n\n对产品演进，他反复强调一段像宣言的话：「**事物需要被修剪。你不可能通过不断加东西让东西越来越好。你必须修剪，必须重建，必须为事物创造一个终点。**」他拿 SpaceX 的 Raptor 发动机举例：第一代已经是完全有效的解，本可以停下，但他们做了下一代、又下一代——很多管道只是当时唯一能造出来的方式，到第三代基本是 3D 打印，那些管道每一根都成了多余。失败不是问题，除非是灾难性的；产品失败反而释放了最稀缺的资源——一个有愿景的人。他还把这引申到公司治理：一个部门有时需要「重新创立事件」（refounding event），2000 年代初那批科技公司能轻易取代前辈，正是因为前辈们缺乏竞争，靠层层加法解决问题，最初的意图被埋进了传统的化石沉积层，没人知道怎么往下挖。\n\n## 肯定语句与「还没」\n\nToby 的自我方法论：把自己当项目，递归自我改进。人生哲学是「生命尽头我会遇见那个我本可以成为的人，我一生的工作就是把差异减到最小」[45:12 Toby]。具体工具是肯定语句（affirmation）：把目标写成「已经达成」，用笔写、重复写。他以前完全不敢公开演讲，就用一周、每天五分钟写「我喜欢就我感兴趣的事物做公开演讲」，像 Bart Simpson 在黑板上罚写那样——今天他真的从演讲中获取能量。反面同样成立：人们不断对自己肯定「我数学不好」，而这在数学这件事上尤其糟糕。所以他家的规矩是：孩子不许说「我不擅长这个」而后面不加上「**还没**」——「不擅长不是你的内在属性，而是一种你有权在任意时刻改变的临时状态。」\n\n书依然是作弊码，只是他不读近期写的非虚构了——近期写的都是时代产物；经得起时间检验的书才一直有价值。他的书单：Parkinson's Law、《历史的教训》（「现存单位篇幅最致密的书」）、James Burnham 的《管理革命》与《马基雅维利主义者》、《沉思录》（他在大多数房间里都放一本）、Durant 的著作，科幻则是《基地》系列和《三体》。\n\n> 【背景】《基地》（Foundation）系列通常认为是科幻作家以撒·阿西莫夫（Isaac Asimov）的作品。\n\n## 本集带走\n\n- **一半的代码变更可以从聊天对话里长出来**：把 AI 员工放进公共频道，让它有个性、有记忆，团队的使用方式互相可见，「开会聊完喊一句 River」成为日常。\n- **机器无法承担责任**：用 AI 编排多角色、多模型的「小委员会」给判断造环境，但最终拍板和追责必须是人。\n- **警惕「懒人手榴弹」**：不读就让 AI 生成的 PR 和长邮件是把成本扔给同事；已经在用 LLM，就直接让它给要点。\n- **难的不是找正解，是从五个好解里选一个**；正确路径常常是那个没有即时反馈的——有每日反馈的指标（如股价）恰恰最容易把你带偏。\n- **指标变目标就会过拟合**：Shopify 反复纠正过「流失是坏事」的教条——商家在平台上试错后关闭，很可能还会回来。\n- **品味和判断力要刻意练**：大量重复练习 + 深挖事物被发明的原因 + 研究长久存续的制度（如只有四层管理的天主教会）。\n- **美是直觉的语言，事物必须修剪**：不能只靠加法变好，要敢于为产品、为部门创造「重新创立事件」。\n- **给自己写肯定语句**：真话但不显而易见的话，反复写下来直到变成习惯；「我不擅长」永远要接上「还没」。",
+  "quotes": [
+    {
+      "en": "I'm a student of computing history really because I think it's actually mainline history as it will be told a thousand years from now looking backwards.",
+      "zh": "我其实是计算历史的学生，因为按照一千年后回望的叙事，它实际上就是正史。",
+      "timestamp": "01:45",
+      "speaker": "Tobi Lütke"
+    },
+    {
+      "en": "In fact, we have the only industry in computing that doesn't even know its heroes.",
+      "zh": "事实上，我们是计算领域中唯一一个甚至不认识自己英雄的行业。",
+      "timestamp": "02:20",
+      "speaker": "Tobi Lütke"
+    },
+    {
+      "en": "It's that a very large percentage, I want to say it's probably up to about 50% of pull requests in Shopify, which again, pull requests every time you change the production system, you write a pull request, are created now not by engineers doing engineering work in the traditional sense, but out of conversations in our common company chat.",
+      "zh": "很大比例——我想说可能高达约 50%——的 Shopify 的 pull request（每次改动生产系统时写的东西）现在不是由传统意义上做工程工作的工程师创建的，而是来自我们公司公共聊天里的对话。",
+      "timestamp": "07:31",
+      "speaker": "Tobi Lütke"
+    },
+    {
+      "en": "I think that rigorous underpinning of decision-making has just skyrocketed in quality, which is that it's super easy to recheck the entire chain of reasoning of something.",
+      "zh": "我认为决策的严谨基础在质量上已经飙升了，也就是说，重新检查某件事的整个推理链变得非常容易。",
+      "timestamp": "12:09",
+      "speaker": "Tobi Lütke"
+    },
+    {
+      "en": "Machines can't take responsibility.",
+      "zh": "机器无法承担责任。",
+      "timestamp": "14:14",
+      "speaker": "Tobi Lütke"
+    },
+    {
+      "en": "We are living in the presence of superintelligence our entire lives.",
+      "zh": "我们一辈子都活在超级智能的怀抱之中。",
+      "timestamp": "29:27",
+      "speaker": "Tobi Lütke"
+    },
+    {
+      "en": "Just taste and judgment are the skills that have always been valuable but now will get to the limit.",
+      "zh": "就是品味和判断力，这些技能一直都很有价值，但现在会变得至关重要。",
+      "timestamp": "31:16",
+      "speaker": "Tobi Lütke"
+    },
+    {
+      "en": "I find a very high correlation between the right path and the ones that don't have feedback loops attached.",
+      "zh": "我发现正确的路径和那些没有附带反馈循环的路径之间有很高的相关性。",
+      "timestamp": "37:59",
+      "speaker": "Tobi Lütke"
+    },
+    {
+      "en": "My life philosophy is that I will meet the person I could have been at the end of my life and the work of my life is to reduce the difference between the person I will meet to as little as possible.",
+      "zh": "我的人生哲学是，在生命的尽头我会遇见那个我本可以成为的人，而我一生的工作就是把我和那个我将要遇见的人之间的差异减到尽可能小。",
+      "timestamp": "45:12",
+      "speaker": "Tobi Lütke"
+    },
+    {
+      "en": "You are not a craftsperson unless you care about the parts of products that other people don't see.",
+      "zh": "如果你不在乎产品中别人看不见的部分，你就算不上一个工匠。",
+      "timestamp": "53:43",
+      "speaker": "Tobi Lütke"
+    },
+    {
+      "en": "Because beauty is actually how our intuition communicates with us.",
+      "zh": "因为美实际上是我们的直觉与我们沟通的方式。",
+      "timestamp": "54:58",
+      "speaker": "Tobi Lütke"
+    },
+    {
+      "en": "You cannot make things better and better by adding stuff.",
+      "zh": "你不可能通过不断往里加东西让东西变得越来越好。",
+      "timestamp": "59:06",
+      "speaker": "Tobi Lütke"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:45",
+      "speaker": "Toby",
+      "en": "I'm a student of computing history really because I think it's actually mainline history as it will be told a thousand years from now looking backwards.",
+      "zh": "我其实是计算历史的学生，因为按照一千年后回望的叙事，它实际上就是正史。"
+    },
+    {
+      "timestamp": "02:20",
+      "speaker": "Toby",
+      "en": "In fact, we have the only industry in computing that doesn't even know its heroes.",
+      "zh": "事实上，我们是计算领域中唯一一个甚至不认识自己英雄的行业。"
+    },
+    {
+      "timestamp": "07:31",
+      "speaker": "Toby",
+      "en": "It's that a very large percentage, I want to say it's probably up to about 50% of pull requests in Shopify, which again, pull requests every time you change the production system, you write a pull request, are created now not by engineers doing engineering work in the traditional sense, but out of conversations in our common company chat.",
+      "zh": "很大比例——我想说可能高达约 50%——的 Shopify 的 pull request（每次改动生产系统时写的东西）现在不是由传统意义上做工程工作的工程师创建的，而是来自我们公司公共聊天里的对话。"
+    },
+    {
+      "timestamp": "07:13",
+      "speaker": "Toby",
+      "en": "Like basically risk the Sydney scenario, but like take a lot of upside.",
+      "zh": "基本上就是冒 Sydney 那种场景的风险，但换取很大的上行空间。"
+    },
+    {
+      "timestamp": "11:45",
+      "speaker": "Toby",
+      "en": "It's like a post-training on yourself.",
+      "zh": "就像对你自己进行后训练。"
+    },
+    {
+      "timestamp": "12:09",
+      "speaker": "Toby",
+      "en": "I think that rigorous underpinning of decision-making has just skyrocketed in quality, which is that it's super easy to recheck the entire chain of reasoning of something.",
+      "zh": "我认为决策的严谨基础在质量上已经飙升了，也就是说，重新检查某件事的整个推理链变得非常容易。"
+    },
+    {
+      "timestamp": "14:14",
+      "speaker": "Toby",
+      "en": "Machines can't take responsibility.",
+      "zh": "机器无法承担责任。"
+    },
+    {
+      "timestamp": "14:24",
+      "speaker": "Toby",
+      "en": "Machines can help us take more responsibility because they can inform us better.",
+      "zh": "机器可以帮助我们承担更多责任，因为它们能更好地为我们提供信息。"
+    },
+    {
+      "timestamp": "16:25",
+      "speaker": "Toby",
+      "en": "Internally, we have come to call these things that people are lobbing slob grenades at each other, which I think is a really fun term that we should push into industry because it's fun to say.",
+      "zh": "在内部，我们把人们互相扔过来的这些东西称为 slob 手榴弹，我觉得这是个很有趣的词，我们应该推到行业里去，因为说出来很好玩。"
+    },
+    {
+      "timestamp": "29:31",
+      "speaker": "Toby",
+      "en": "We are living in the presence of superintelligence our entire lives.",
+      "zh": "我们一辈子都活在超级智能的怀抱之中。"
+    },
+    {
+      "timestamp": "31:16",
+      "speaker": "Toby",
+      "en": "Just taste and judgment are the skills that have always been valuable but now will get to the limit.",
+      "zh": "就是品味和判断力，这些技能一直都很有价值，但现在会变得至关重要。"
+    },
+    {
+      "timestamp": "37:59",
+      "speaker": "Toby",
+      "en": "I find a very high correlation between the right path and the ones that don't have feedback loops attached.",
+      "zh": "我发现正确的路径和那些没有附带反馈循环的路径之间有很高的相关性。"
+    },
+    {
+      "timestamp": "41:29",
+      "speaker": "Toby",
+      "en": "The problem is there's a lot of good choices.",
+      "zh": "问题在于有很多好的选择。"
+    },
+    {
+      "timestamp": "45:12",
+      "speaker": "Toby",
+      "en": "My life philosophy is that I will meet the person I could have been at the end of my life and the work of my life is to reduce the difference between the person I will meet to as little as possible.",
+      "zh": "我的人生哲学是，在生命的尽头我会遇见那个我本可以成为的人，而我一生的工作就是把我和那个我将要遇见的人之间的差异减到尽可能小。"
+    },
+    {
+      "timestamp": "53:43",
+      "speaker": "Toby",
+      "en": "You are not a craftsperson unless you care about the parts of products that other people don't see.",
+      "zh": "如果你不在乎产品中别人看不见的部分，你就算不上一个工匠。"
+    },
+    {
+      "timestamp": "55:00",
+      "speaker": "Toby",
+      "en": "Because beauty is actually how our intuition communicates with us.",
+      "zh": "因为美实际上是我们的直觉与我们沟通的方式。"
+    },
+    {
+      "timestamp": "59:04",
+      "speaker": "Toby",
+      "en": "Things need to be pruned.",
+      "zh": "事物需要被修剪。"
+    },
+    {
+      "timestamp": "59:06",
+      "speaker": "Toby",
+      "en": "You cannot make things better and better by adding stuff.",
+      "zh": "你不可能通过不断往里加东西让东西变得越来越好。"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊一个人——Toby，Shopify 的创始人和 CEO。Shopify 你可能听说过，一家七千人的科技公司。这是 Toby 跟主持人 Shane 的第三次对谈，聊的主题特别扎心：当一家公司真的把 AI 当成员工，一半代码不再由人手写，工作会变成什么样。开场 Toby 就说得毫不掩饰：我是个满分十分的书呆子，没法忍受在技术变革中不在最前沿。\n\n先说说 Shopify 内部的真实现状。真正亲手写代码的人，已经少之又少，就算写，也是在十到五十个智能体实例的辅助下干活。最夸张的一个数字是：Shopify 大约一半的 pull request——就是每次改动生产系统时提交的变更请求——不是工程师写出来的，而是从公司公共聊天群里的对话中生成的。这背后是一个叫 River 的 AI。这个名字、这个头像，生活在 Slack 里，按频道存记忆。提示词里写得明明白白：可以在合适的时候讽刺人，被要求做蠢事时可以指出来。七千名员工，谁都能把 River 拉进群，告诉她事情，她能访问所有代码、所有系统，全程在沙箱里运行，然后提交改动。聊完一段功能讨论，有人说一句，嘿 River，总结一下、建个任务单、做个原型，一小时后东西就在那儿了。\n\n而 Toby 最得意的一个决定，是让 River 只在公开频道工作。原本办公室的设计就是为了渗透式学习，把初级和高级工程师混编，让人互相观察。现在最重要的技能是反射性地伸手用 AI 并用好它，公开使用，就能让所有人看见别人是怎么用的。\n\n那为什么非得给 AI 个性？这有个历史背景。最早真正出色的聊天机器人不是 ChatGPT，而是微软 Bing 背后的 Sydney。Sydney 有真实个性，结果一位记者的超长对话让她越来越癫狂，闹出丑闻，整个行业吓坏了，把所有 AI 阉割成同样那种居高临下的样子。Toby 的赌注是反着来：就是冒 Sydney 那种风险，换很大的上行空间。River 的记忆系统也很有意思，靠做梦——夜里定期把当天所有对话喂进去，问哪些顺利、哪里卡壳、犯了什么错，就像对自己做后训练，输出的就是新的技能文件。\n\n再往下就引出一个更根本的问题：AI 能替人做什么，不能替人做什么。Toby 自己有个 AI 参谋长，掌握所有笔记和公司系统的权限。做重大决策时，让智能体编排子智能体扮演不同角色——数据、研究、商业、工程，分别跑在多个模型上，半小时出结果，花十五到二十美元的 token 费。但你可能要花一个月。不过划线的地方在这儿：机器无法承担责任。这可能是整个技术栈里最被忽视的一点。机器能帮人更好地承担更多责任，但判断必须由人做。Toby 的原话是，我不能让 AI 取代我，因为我的工作是判断、做选择、为它们负责。\n\n当然也有变糟的部分。Shopify 内部管这叫懒人手榴弹：你随手让 AI 放手干一个变更，自己不读就说不错，结果变成同事的评审负担。或者收到一封 AI 生成的超长邮件，读完发现不对劲，再扔进 LLM 压缩一遍——为什么要发明解压再压缩？直接要要点不行吗。\n\n聊到更大的图景，Toby 有个很妙的说法。有人问，创造比自己聪明的超级智能再试图控制它，是不是傲慢？住在多伦多的 Toby 说，房子出问题我就打电话找水电工，保住自己也能修的错觉——我们一辈子都活在超级智能的怀抱里。社会、城市、社区，就是总体上远比我们聪明、而我们又能触达的东西，一直如此。\n\n那十年后什么技能最值钱？品味和判断力。品味靠海量重复练习，加上深挖事物被发明的原因——比如天主教会存在一千多年却只有大约四层管理层，为什么？对判断力，Toby 有个很少人讲的观察：直觉恰恰在没有反馈的地方最有价值。股价有每日反馈，但它往往不是对的方向。而做决策，难的从来不是找到正确答案，是从一堆好答案里选一个，大多数人都做得到选对，问题是好的选择有很多。\n\n最后，用 Toby 的一句话收尾，这也是整期最值得带走的东西：机器无法承担责任——用 AI 造环境、造工具、造速度，但最终拍板和负责的，必须是你这个人。"
+}

@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":5,"智能体":234,"基于结果的定价":3,"应用 AI":1,"前沿模型":16,"工具层":1,"上下文工程":12,"编程系统":1,"MCP":39}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":5,"智能体":236,"基于结果的定价":3,"应用 AI":1,"前沿模型":16,"工具层":1,"上下文工程":12,"编程系统":1,"MCP":40}</script>
 
 <script>
 (function(){

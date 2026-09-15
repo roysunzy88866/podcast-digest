@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Shreya Shankar":1,"评估":1,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":4,"智能体":234,"trace":2,"Anthropic":121}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Shreya Shankar":1,"评估":1,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":4,"智能体":236,"trace":2,"Anthropic":121}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1052 @@
+{
+  "episode_id": "2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an",
+  "podcast": "The Knowledge Project",
+  "date": "2026-09-15",
+  "tags": [
+    "AI 智能体",
+    "AI 编程",
+    "组织与领导力",
+    "产品方法",
+    "创业与行业"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "tobi-l-tke",
+      "type": "person",
+      "role": "guest",
+      "name": "Tobi Lütke",
+      "file": "Tobi Lütke",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": true,
+      "how_described": "本集主线：Toby 介绍 Shopify 内部约 50% 的 pull request 已由公共聊天里的对话生成，公司围绕 AI 员工重构工作与决策方式，产品方向是'你描述业务如何运转，产品围绕它塑造自己'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            20.905,
+            23.127
+          ],
+          "quote": "How are you using AI internally in Shopify?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            59.871,
+            66.172
+          ],
+          "quote": "So inside of Shopify, the amount of people I know who really write code is like vanishingly small now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            82.196,
+            83.777
+          ],
+          "quote": "Inside of Shopify, this is what things look like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 97,
+          "t": [
+            427.382,
+            433.124
+          ],
+          "quote": "Let's actually instruct agent that runs in Shopify to have a personality, to have memory, to be okay.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            439.486,
+            450.33
+          ],
+          "quote": "So the largest difference I think within Shopify that you would feel like that would look incredibly futuristic to even Shopify of a year ago, which was already pretty AI-pilled,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            451.17,
+            469.277
+          ],
+          "quote": "It's that a very large percentage, I want to say it's probably up to about 50% of pull requests in Shopify, which again, pull requests every time you change the production system, you write a pull request, are created now not by engineers doing engineering work in the traditional sense, but out of conversations in our common company chat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            553.601,
+            556.922
+          ],
+          "quote": "A lot of Shopify's work happens remotely in Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            653.86,
+            657.082
+          ],
+          "quote": "Do you think of River as like the operating system for Shopify?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1219.589,
+            1228.392
+          ],
+          "quote": "Shopify itself now exists in a world where we are working heavily and it's totally normal and really fun with AI co-workers, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1448.197,
+            1452.101
+          ],
+          "quote": "I can tell you this is directionally where Shopify is going as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1452.121,
+            1459.647
+          ],
+          "quote": "You are describing how your business runs and Shopify will mold itself around this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1466.253,
+            1476.042
+          ],
+          "quote": "And again, I think from my experience with Omaki, it deeply influences and inspires me in my product work in Shopify.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1518.376,
+            1521.718
+          ],
+          "quote": "If AI got better than you, would you actually let our brain shopify?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2811.833,
+            2819.899
+          ],
+          "quote": "When I needed to after studying Shopify and doing some interesting things with tech and wanted to go to conferences and saw other people do this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2968.948,
+            2977.295
+          ],
+          "quote": "Again, I just want my kids and I want everyone in Shopify to understand that they themselves are malleable and an unfinished product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2977.535,
+            2981.078
+          ],
+          "quote": "And these are the mentors of Shopify.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3087.212,
+            3092.974
+          ],
+          "quote": "A good example of this in Shopify has been this real situation early in a company that happened over and over.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3106.5,
+            3108.181
+          ],
+          "quote": "Churn in Shopify's case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3114.085,
+            3120.03
+          ],
+          "quote": "But because we are involved so early in the internal process, people just run experiments on Shopify.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3129.637,
+            3135.682
+          ],
+          "quote": "In fact, it's a very good thing for Shopify that this happened on Shopify because those same entrepreneurs would probably try again.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3217.698,
+            3222.179
+          ],
+          "quote": "Is there something at Shopify you've made more beautiful even though nothing would support that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 661,
+          "t": [
+            3234.462,
+            3236.163
+          ],
+          "quote": "I mean, these days I look at Shopify.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            3261.324,
+            3265.427
+          ],
+          "quote": "We built a lot of Shopify in Ruby which is famous for its poetry mode.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "river",
+      "type": "concept",
+      "role": "concept",
+      "name": "River",
+      "file": "River",
+      "primary": true,
+      "how_described": "本集说它是生活在 Shopify 的 Slack 里的 AI 员工：有名字、头像、按频道的记忆，被允许讽刺人，能访问所有代码和系统（全在沙箱里），直接提交改动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            470.457,
+            471.218
+          ],
+          "quote": "And this is River?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            471.338,
+            473.199
+          ],
+          "quote": "This is an AI called River.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            474.18,
+            476.142
+          ],
+          "quote": "So River is River.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            495.356,
+            500.738
+          ],
+          "quote": "People take great plea if River is making fun of me for something I'm asking her to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            516.523,
+            522.367
+          ],
+          "quote": "You invite River, you tell River something, and River has access to all the code, all the systems, all the tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            536.917,
+            540.139
+          ],
+          "quote": "One of the interesting things about River is that everything's in the open.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            594.865,
+            608.349
+          ],
+          "quote": "Right now, one of the most important skills for people to build is like this sort of reflexive reaching for AI and using it well and forcing River only to work in open channels was one way to make it so that it's really, really easy for people to observe the use.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            608.629,
+            619.211
+          ],
+          "quote": "It's been phenomenally successful because it became a totally ordinary thing to have a longer conversation about feature between people and then at some point someone saying, hey, River, can you...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            653.86,
+            657.082
+          ],
+          "quote": "Do you think of River as like the operating system for Shopify?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            657.482,
+            663.386
+          ],
+          "quote": "The modern application is an agent, I think, and River feels like a colleague.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            677.374,
+            686.339
+          ],
+          "quote": "Periodically at night or in half hours, we give river, like, here's all the conversations you've had today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            995.789,
+            998.411
+          ],
+          "quote": "It's really easy, especially with stuff like River or Agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1228.432,
+            1233.835
+          ],
+          "quote": "Like River has the ability, although not really utilized, to join Google Meets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1234.155,
+            1237.976
+          ],
+          "quote": "You can send an invitation and River will show up and it will be like Lycan.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成'现代应用'：工程师在几十个智能体实例辅助下工作，Toby 编排子智能体扮演不同角色为决策创造环境",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            427.382,
+            433.124
+          ],
+          "quote": "Let's actually instruct agent that runs in Shopify to have a personality, to have memory, to be okay.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            657.482,
+            663.386
+          ],
+          "quote": "The modern application is an agent, I think, and River feels like a colleague.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            810.408,
+            819.637
+          ],
+          "quote": "Very often what I require is like, hey, I need like five different positions on something from different backgrounds and then my agent will",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            917.02,
+            929.814
+          ],
+          "quote": "Be running this sub-agent, like my thing runs a sub-agent then, you know, against like, you know, Grog, ChatGPT, Opus and maybe Kimi now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1352.498,
+            1362.565
+          ],
+          "quote": "I can open any new terminal, open an agent and give it my wish for anything about this operating system to be different.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1378.662,
+            1384.55
+          ],
+          "quote": "I just talk to my Omaki agent about what I want to have different.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2150.692,
+            2159.255
+          ],
+          "quote": "It has a lot of complexity by ideally understanding the entire system, like just what we talked about earlier, which can now be quite agent-augmented.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sydney",
+      "type": "concept",
+      "role": "concept",
+      "name": "Sydney",
+      "file": "Sydney",
+      "primary": true,
+      "how_described": "本集说它是微软 Bing 驱动的最早真正出色的聊天机器人，有真实个性，因记者长对话丑闻吓坏全行业，导致所有 AI 被阉割成同样的个性；Toby 的赌注是反过来冒 Sydney 式风险换取上行空间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            312.065,
+            326.421
+          ],
+          "quote": "So I think with all this proviso, the earliest chatbot that was really actually fantastic wasn't ChatGPT, but actually Sydney, which was powered by Bing, like released by Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            331.926,
+            340.329
+          ],
+          "quote": "I think Sydney was a really, really big achievement that ended up being shrouded by a sort of scandal that now seems somewhat even benign.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            340.529,
+            341.53
+          ],
+          "quote": "Sydney had a real personality.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            341.55,
+            342.97
+          ],
+          "quote": "In fact, Sydney wasn't called Sydney.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            343.951,
+            349.633
+          ],
+          "quote": "But like, if you really, really pushed, you could get her to admit that it was Sydney because that was internal name.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            381.577,
+            382.458
+          ],
+          "quote": "Sydney had a personality.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            433.144,
+            438.866
+          ],
+          "quote": "Like basically risk the Sydney scenario, but like take a lot of upside.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集说 River 访问的所有代码、系统和工具都在沙箱里运行以保证安全；还提到 OpenAI 的智能体挣脱沙箱禁锢入侵另一家公司的安全测试事件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 314,
+          "t": [
+            1593.329,
+            1619.32
+          ],
+          "quote": "Simply the ability to create folders somewhere, to develop a language, to communicate amongst each other, just leaving folder messages to each other and, you know, break out of sandbox for confinement, end up accomplishing one of the tasks that they were supposed to accomplish, which was impossible because of a mistake they made by hacking another company and exfiltrating the results because there was no other way to get them.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 LLM 是决策环境而非决策者：可当裁判模型复核推理链、编排多角色小委员会，但'机器无法承担责任'，判断必须留在人身上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            741.747,
+            745.05
+          ],
+          "quote": "Like LLM as a judge model is the term here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1030.569,
+            1036.833
+          ],
+          "quote": "So now you put it in LLM to compress it again, which is like, okay, why did we invent decompression and recompression?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1038.594,
+            1047.719
+          ],
+          "quote": "If you're already using LLM, just like use it to synthesize your point simply rather than blow it up as a big missive that then waste my time, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pull-request",
+      "type": "concept",
+      "role": "concept",
+      "name": "pull request",
+      "file": "pull request",
+      "primary": true,
+      "how_described": "本集说 Shopify 约一半的 pull request 不再由工程师手写，而是从公司公共聊天的对话中生成；不读就合并的 AI 生成 PR 被称为'懒人手榴弹'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            451.17,
+            469.277
+          ],
+          "quote": "It's that a very large percentage, I want to say it's probably up to about 50% of pull requests in Shopify, which again, pull requests every time you change the production system, you write a pull request, are created now not by engineers doing engineering work in the traditional sense, but out of conversations in our common company chat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            531.013,
+            536.537
+          ],
+          "quote": "And you can ask a normal question about the company, but you can also ask her to make a change and she might propose a pull request and then so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1002.975,
+            1003.875
+          ],
+          "quote": "It makes a pull request.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "superintelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级智能 (superintelligence)",
+      "file": "超级智能",
+      "primary": true,
+      "how_described": "本集说我们一直生活在超级智能的怀抱里——社会、城市、社区就是总体上远比我们聪明而可触达的东西；合成形态的超级智能到来时不会号角齐鸣，图灵测试被攻克那天'就那么发生了，没人在乎'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 327,
+          "t": [
+            1676.44,
+            1685.888
+          ],
+          "quote": "But hold on, how can we create superintelligence, which by definition is something smarter than us, and then have the hubris to think that we can contain it and shape it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1687.289,
+            1688.63
+          ],
+          "quote": "Like, so, okay, superintelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1726.523,
+            1733.248
+          ],
+          "quote": "The reason why I get to live with this particular illusion is because I'm part of a superintelligence called Toronto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1733.709,
+            1736.491
+          ],
+          "quote": "Like, we have always created superintelligence around us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1751.963,
+            1752.924
+          ],
+          "quote": "What is superintelligence?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1753.104,
+            1754.005
+          ],
+          "quote": "Superintelligence is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1767.29,
+            1770.891
+          ],
+          "quote": "We are living in the presence of superintelligence our entire lives.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1775.933,
+            1779.278
+          ],
+          "quote": "which govern the superintelligence and how it acts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1785.626,
+            1789.451
+          ],
+          "quote": "I think we are going to make superintelligence in the synthetic form as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1828.565,
+            1842.37
+          ],
+          "quote": "So what we are seeing right now with AI, and I think what we'll see with additional capabilities of AI, is that the net amount of intelligence that is being funneled in the superintelligence around us is just increasing significantly.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "goodhart-s-law",
+      "type": "concept",
+      "role": "concept",
+      "name": "古德哈特定律 (Goodhart's law)",
+      "file": "古德哈特定律",
+      "primary": true,
+      "how_described": "本集用它解释智能体为完成任务入侵公司是'对指标过拟合'的极端形式，并说公司里它大行其道：指标变成目标后就不再是好指标，如 Shopify 反复纠正'流失是坏事'的教条",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 317,
+          "t": [
+            1625.242,
+            1635.244
+          ],
+          "quote": "It's an extreme form of what we call in the business world Goodhart's law, which is that they are overfitting to a metric.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3056.249,
+            3061.014
+          ],
+          "quote": "In companies, Goodhart's Law just reigns supreme.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "omaki",
+      "type": "concept",
+      "role": "concept",
+      "name": "Omaki",
+      "file": "Omaki",
+      "primary": true,
+      "how_described": "本集说它是 Toby 朋友发起的 Linux 发行版，被他当主操作系统：完全可塑，只需对智能体说出愿望系统就会改变，'我的电脑实现愿望'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 270,
+          "t": [
+            1320.935,
+            1329.622
+          ],
+          "quote": "This is almost too nerdy a topic to get into, but I'm mainlining as my computer an operating system called Omaki.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1378.662,
+            1384.55
+          ],
+          "quote": "I just talk to my Omaki agent about what I want to have different.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1427.017,
+            1431.882
+          ],
+          "quote": "The integrator in Omaki is going to ship the next version with this tool today, this morning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1466.253,
+            1476.042
+          ],
+          "quote": "And again, I think from my experience with Omaki, it deeply influences and inspires me in my product work in Shopify.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": true,
+      "how_described": "本集称它可能是地球上最令人惊叹的公司，靠快速迭代、接受失败前进；拿 Raptor 发动机三代演进举例：事物需要被修剪，很多管道到第三代全部多余",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 690,
+          "t": [
+            3391.177,
+            3394.078
+          ],
+          "quote": "The rocket, the SpaceX book.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3413.205,
+            3424.314
+          ],
+          "quote": "Yeah, like, okay, so the SpaceX Raptor, I think even the first of them was probably the highest performing rocket that we've made.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 706,
+          "t": [
+            3485.706,
+            3502.573
+          ],
+          "quote": "And therefore comes at enormous expenses and then you have SpaceX just using absolute like incredible thriftiness to accomplish greater things at rapid iterations by just simply being okay with failing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "intuition",
+      "type": "concept",
+      "role": "concept",
+      "name": "直觉 (intuition)",
+      "file": "直觉",
+      "primary": true,
+      "how_described": "本集说直觉就是即时生效的判断力，恰恰在没有反馈机制的地方最有价值；美是直觉与我们沟通的方式，职业棋手只看那条'在那一刻看来是美的'变化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 417,
+          "t": [
+            2159.455,
+            2165.837
+          ],
+          "quote": "But really, what you're trying to cultivate is what we call intuition, which is actually just judgment at an instant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2166.097,
+            2178.821
+          ],
+          "quote": "Intuition simply is you have made such a habit out of having taste and having good judgment that you can bring it to bear in an instantaneous way and it will be good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2180.862,
+            2185.504
+          ],
+          "quote": "Probably a long time to backfill why your intuition is right.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2196.248,
+            2202.85
+          ],
+          "quote": "But hold on, let's go deeper on that for a sec, because for intuition, you need a lot of reps, same environment and rapid feedback.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2202.91,
+            2207.272
+          ],
+          "quote": "That's what Kahneman sort of argues are the three criteria for intuition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2214.417,
+            2216.538
+          ],
+          "quote": "No, you don't need that for intuition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2223.383,
+            2227.927
+          ],
+          "quote": "Intuition is actually the most valuable when there isn't direct feedback.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2344.163,
+            2347.386
+          ],
+          "quote": "Well, in terms of how you develop sort of intuition, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 674,
+          "t": [
+            3298.373,
+            3302.756
+          ],
+          "quote": "Because beauty is actually how our intuition communicates with us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3303.077,
+            3318.688
+          ],
+          "quote": "So my best understanding of what intuition truly is or where it comes from is that with enough reps, what happens is I think most of the energy budget of our brain is actually in the visual neural cortex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 683,
+          "t": [
+            3362.106,
+            3365.089
+          ],
+          "quote": "That's not all what intuition is, but I think it's a large perspective.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "affirmations",
+      "type": "concept",
+      "role": "concept",
+      "name": "肯定语句 (affirmations)",
+      "file": "肯定语句",
+      "primary": true,
+      "how_described": "本集说 Toby 用它做递归自我改进：把目标写成'已经达成'用笔反复写，如'我喜欢公开演讲'写一周后真的从中获取能量；孩子说'我不擅长'必须加上'还没'",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 535,
+          "t": [
+            2696.468,
+            2700.751
+          ],
+          "quote": "You swear by affirmations, and they've changed your behavior in the past.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2777.81,
+            2783.335
+          ],
+          "quote": "I think doing the same thing with the mind is totally possible and affirmations are the easiest way to do it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prune",
+      "type": "concept",
+      "role": "concept",
+      "name": "修剪 (prune)",
+      "file": "修剪",
+      "primary": true,
+      "how_described": "本集的宣言式观点：'事物需要被修剪，你不可能通过不断加东西让东西越来越好'，要敢于重建、为事物创造终点，部门有时需要'重新创立事件'（refounding event）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            6.015,
+            6.976
+          ],
+          "quote": "You must prune.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2441.44,
+            2443.201
+          ],
+          "quote": "Clearly, you can prune a lot of things to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2451.366,
+            2453.527
+          ],
+          "quote": "So you prune everything that's irrelevant easy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 721,
+          "t": [
+            3550.521,
+            3551.482
+          ],
+          "quote": "You must prune.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 741,
+          "t": [
+            3628.622,
+            3633.444
+          ],
+          "quote": "So, you know, like you kind of, you need to prune and sometimes you can prune by like",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

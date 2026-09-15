@@ -25,7 +25,7 @@ unlisted: true
 
 [[Keith Peiris]] · [[Tome]] · [[Salesforce]] · [[HubSpot]] · [[CRM]] · [[记录系统]] · [[产品市场契合]] · [[NDR]] · [[发布视频]] · [[ICP]]
 
-<script type="application/json" class="pd-epn">{"Keith Peiris":1,"Tome":1,"Salesforce":19,"HubSpot":6,"CRM":4,"记录系统":3,"产品市场契合":20,"NDR":1,"发布视频":1,"ICP":3}</script>
+<script type="application/json" class="pd-epn">{"Keith Peiris":1,"Tome":1,"Salesforce":19,"HubSpot":6,"CRM":4,"记录系统":4,"产品市场契合":20,"NDR":1,"发布视频":1,"ICP":3}</script>
 
 <script>
 (function(){

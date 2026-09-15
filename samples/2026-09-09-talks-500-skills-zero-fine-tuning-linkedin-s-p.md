@@ -105,8 +105,8 @@ Ajay 留下两条核心经验：第一，**从第一天起就把质量和可靠�
 **换个口味**
 
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:MCP、上下文工程 (context engineering)</span>
+- [[2026-09-15-trainingdata-box-s-aaron-levie-on-reinventing-yoursel|Box 创始人 Erin Levy：套壳的逆袭与应用层的万亿机会]]<span class="pd-rz">同概念:MCP、编码智能体 (coding agents)</span>
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|Bret Taylor：智能体是新应用，软件要按结果定价]]<span class="pd-rz">同概念:上下文工程 (context engineering)、MCP</span>
-- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同概念:MCP</span>
 
 </div>
 </div>

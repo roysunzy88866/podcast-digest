@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]]
+[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":2,"Canva":4,"智能体循环":3,"免费增值":2,"推理":44,"模板":2,"SEO":6,"人在回路":8}</script>
+<script type="application/json" class="pd-epn">{"John Collison":2,"Canva":4,"智能体循环":3,"免费增值":2,"推理":45,"模板":2,"SEO":6,"人在回路":8}</script>
 
 <script>
 (function(){

@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>River</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="River">RI</div><div class="pi"><h1 class="pt">River</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="River">RI</div><div class="pi"><h1 class="pt">River</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-01-mos-when-ai-agents-do-your-shopping-everythi|《Shopify COO 谈 AI 时代的电商：复杂性是我们的护城河》]]**(08:21起):本集说它是活在公司 Slack 里的内部智能体工具：在公开频道读代码、跑测试，存在于约 10000 个频道，90% 员工用过，五个月运行 27.5 万个会话，靠降低信息传递的交易成本提升公司速度，且有网络效应
+- **[[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]]**(07:50起):本集说它是生活在 Shopify 的 Slack 里的 AI 员工：有名字、头像、按频道的记忆，被允许讽刺人，能访问所有代码和系统（全在沙箱里），直接提交改动
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-01-mos-when-ai-agents-do-your-shopping-everythi|《Shopify COO 谈 AI 时代的电商：复杂性是我们的护城河》]] — 作为概念
+- [[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Bob Safian]] · [[Jess Hertz]] · [[Shopify]] · [[智能体]] · [[sidekick]] · [[Catalog]] · [[Universal Commerce Protocol]] · [[X 型人]] · [[T 型人]] · [[关税]]
+[[Shopify]] · [[智能体]] · [[Bob Safian]] · [[Tobi Lütke]] · [[Jess Hertz]] · [[Sydney]] · [[sidekick]] · [[沙箱]] · [[Catalog]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"Bob Safian":3,"Jess Hertz":1,"Shopify":6,"智能体":234,"sidekick":2,"Catalog":1,"Universal Commerce Protocol":1,"X 型人":1,"T 型人":1,"关税":1}</script>
+<script type="application/json" class="pd-epn">{"Shopify":7,"智能体":236,"Bob Safian":3,"Tobi Lütke":1,"Jess Hertz":1,"Sydney":1,"sidekick":2,"沙箱":43,"Catalog":1,"LLM":32}</script>
 
 <script>
 (function(){

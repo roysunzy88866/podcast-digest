@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":34,"Docker":3,"Apple":17,"基准测试":9,"OpenRouter":10,"开源模型":16,"编码智能体":12,"智能体":234,"推理":44}</script>
+<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":34,"Docker":3,"Apple":17,"基准测试":9,"OpenRouter":10,"开源模型":16,"编码智能体":13,"智能体":236,"推理":45}</script>
 
 <script>
 (function(){

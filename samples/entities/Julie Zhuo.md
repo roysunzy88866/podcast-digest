@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":234,"构建者":3,"可观测性":19,"对话分析":1,"评估":1,"维度思维":1,"ChatGPT":61,"Cursor":58,"OpenAI":109}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":236,"构建者":3,"可观测性":19,"对话分析":1,"评估":1,"维度思维":1,"ChatGPT":61,"Cursor":58,"OpenAI":109}</script>
 
 <script>
 (function(){

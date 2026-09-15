@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":234,"多智能体系统":5,"专用推理硬件":1,"推理":44,"上下文工程":12,"TPU":3,"MapReduce":1,"蒸馏":10,"AlphaFold":2,"Gemini":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":236,"多智能体系统":5,"专用推理硬件":1,"推理":45,"上下文工程":12,"TPU":3,"MapReduce":1,"蒸馏":10,"AlphaFold":2,"Gemini":7}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":34,"Sega":1,"Waymo":13,"Tesla":9,"Mercedes":1,"加速计算":1,"智能体":234,"物理 AI":7,"系统思维":4}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":34,"Sega":1,"Waymo":13,"Tesla":9,"Mercedes":1,"加速计算":1,"智能体":236,"物理 AI":7,"系统思维":4}</script>
 
 <script>
 (function(){

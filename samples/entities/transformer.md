@@ -46,7 +46,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[LLM]] · [[OpenAI]] · [[强化学习]] · [[预训练]] · [[持续学习]] · [[编码智能体]] · [[Barney Hussey-Yeo]] · [[Sonja]]
 
-<script type="application/json" class="pd-epn">{"智能体":234,"Anthropic":121,"LLM":31,"OpenAI":109,"强化学习":17,"预训练":6,"持续学习":8,"编码智能体":12,"Barney Hussey-Yeo":1,"Sonja":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":236,"Anthropic":121,"LLM":32,"OpenAI":109,"强化学习":17,"预训练":6,"持续学习":8,"编码智能体":13,"Barney Hussey-Yeo":1,"Sonja":1}</script>
 
 <script>
 (function(){

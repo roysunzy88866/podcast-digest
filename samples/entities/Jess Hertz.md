@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]] [[Jonathan Kelley]]
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":3,"Shopify":6,"River":1,"智能体":234,"sidekick":2,"Catalog":1,"Universal Commerce Protocol":1,"X 型人":1,"T 型人":1,"关税":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":3,"Shopify":7,"River":2,"智能体":236,"sidekick":2,"Catalog":1,"Universal Commerce Protocol":1,"X 型人":1,"T 型人":1,"关税":1}</script>
 
 <script>
 (function(){

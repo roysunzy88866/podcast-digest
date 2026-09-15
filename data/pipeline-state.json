@@ -85,11 +85,11 @@
   },
   "cutoffs": {
     "lennys": "2026-09-08T12:31:49.000Z",
-    "pg": "2026-09-04T23:01:00.000Z",
+    "pg": "2026-09-14T23:05:28.000Z",
     "a16z": "2026-09-14T10:00:00.000Z",
     "yc": "2026-09-13T15:05:37.000Z",
     "mad": "2026-09-10T11:30:00.000Z",
-    "trainingdata": "2026-09-01T09:00:00.000Z",
+    "trainingdata": "2026-09-15T09:00:00.000Z",
     "bigtech": "2026-09-11T20:37:00.000Z",
     "aiandi": "2026-09-02T17:13:19.000Z",
     "nopriors": "2026-09-10T10:00:00.000Z",
@@ -101,7 +101,7 @@
     "deepmind": "2026-09-09T16:08:26.000Z",
     "twentyvc": "2026-09-14T07:07:00.000Z",
     "cogrev": "2026-09-12T15:45:14.000Z",
-    "knowledge": "2026-09-01T10:00:00.000Z",
+    "knowledge": "2026-09-15T10:00:00.000Z",
     "pragmatic": "2026-09-09T15:57:24.000Z",
     "practicalai": "2026-09-03T09:00:00.000Z",
     "changelog": "2026-09-03T20:00:00.000Z",
@@ -122,7 +122,7 @@
     "sourcery": "2026-09-14T11:11:16.000Z",
     "iltb": "2026-09-08T08:00:00.000Z",
     "generalist": "2026-09-08T11:00:00.000Z",
-    "sed": "2026-09-10T09:00:00.000Z",
+    "sed": "2026-09-15T09:00:00.000Z",
     "twist": "2026-09-14T21:13:00.000Z",
     "grit": "2026-09-07T09:38:47.000Z",
     "mos": "2026-09-12T09:00:00.000Z",
@@ -1070,6 +1070,18 @@
       "reason": "题材不对味:聚合/多主题简报体,话题混 AI 安全思辨(AI 灭绝)与时事八卦,不对味",
       "title": "Ask Jason: AI Extinction, Grok's Rogue Meme Coin & Weed Farms as Data Centers | E2337",
       "pubDate": "2026-09-14T21:13:00.000Z"
+    },
+    {
+      "id": "2026-09-14-pg-together-ai-product-team",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Inside the AI Stack of an $8.3B AI Company’s Product Team | Together AI",
+      "pubDate": "2026-09-14T23:05:28.000Z"
+    },
+    {
+      "id": "2026-09-15-sed-inside-google-8217-s-database-infrastruc",
+      "reason": "题材不对味:拿不准:Google 数据库基础设施偏技术深挖(传统软件工程/底层架构),非产业格局或人物故事,按边界规则倾向跳过",
+      "title": "Inside Google&#8217;s Database Infrastructure for the AI Era",
+      "pubDate": "2026-09-15T09:00:00.000Z"
     }
   ]
 }

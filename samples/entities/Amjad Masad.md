@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]] [[Zavain Dar]]
+[[Aaron Levie]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]] [[Matt Perault]] [[Jeff Berman]] [[Andrew Anagnost]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":16,"智能体":234,"Patrick Collison":2,"公开构建":2,"Stripe":30,"vibe coding":33,"Magic School":1,"真实性":2,"OpenAI":109,"Anthropic":121}</script>
+<script type="application/json" class="pd-epn">{"Replit":16,"智能体":236,"Patrick Collison":2,"公开构建":2,"Stripe":30,"vibe coding":33,"Magic School":1,"真实性":2,"OpenAI":109,"Anthropic":121}</script>
 
 <script>
 (function(){
