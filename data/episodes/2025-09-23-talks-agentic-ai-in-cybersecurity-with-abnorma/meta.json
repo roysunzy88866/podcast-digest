@@ -1,0 +1,29 @@
+{
+  "id": "2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/WyHE6s7JjUk.m4a",
+  "duration_sec": 2260.857,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 508,
+  "asr": true,
+  "title_en": "Agentic AI in Cybersecurity with Abnormal AI and Cogent Security",
+  "podcast": "精选演讲",
+  "date": "2025-09-23",
+  "added": "2026-09-16",
+  "added_at": "2026-09-16T03:37:34.172Z",
+  "speaker_map": {
+    "SPEAKER_00": "Corinne Riley",
+    "SPEAKER_01": "Vineet Edupuganti",
+    "SPEAKER_02": "Evan Reiser"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Corinne Riley",
+  "cohosts": [
+    "Vineet Edupuganti",
+    "Evan Reiser"
+  ],
+  "title_zh": "当攻击用 AI、防守靠智能体：Abnormal 与 Cogent 聊智能体网络安全",
+  "guest_name": "Evan Reiser",
+  "guest_title": "Abnormal AI 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

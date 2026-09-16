@@ -31,7 +31,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Hamel Husain]] · [[评估]] · [[错误分析]] · [[开放式编码]] · [[轴向编码]] · [[LLM 判别器]] · [[智能体]] · [[trace]] · [[Anthropic]]
+[[Lenny]] · [[Hamel Husain]] · [[评估]] · [[错误分析]] · [[开放式编码]] · [[轴向编码]] · [[LLM 当裁判]] · [[智能体]] · [[trace]] · [[Anthropic]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Hamel Husain":1,"评估":1,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 判别器":4,"智能体":240,"trace":2,"Anthropic":123}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Hamel Husain":1,"评估":1,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 当裁判":5,"智能体":243,"trace":2,"Anthropic":123}</script>
 
 <script>
 (function(){

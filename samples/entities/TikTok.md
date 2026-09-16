@@ -31,7 +31,7 @@ aliases: ["tiktok", "tik tok"]
 
 [[Facebook]] · [[Instagram]] · [[智能体]] · [[CAC]] · [[Anthropic]] · [[Claude]] · [[Sam Motamity]] · [[Lenny]] · [[Victor Riparbelli]] · [[Harry Stabbings]]
 
-<script type="application/json" class="pd-epn">{"Facebook":12,"Instagram":4,"智能体":240,"CAC":2,"Anthropic":123,"Claude":58,"Sam Motamity":1,"Lenny":67,"Victor Riparbelli":1,"Harry Stabbings":2}</script>
+<script type="application/json" class="pd-epn">{"Facebook":12,"Instagram":4,"智能体":243,"CAC":2,"Anthropic":123,"Claude":58,"Sam Motamity":1,"Lenny":67,"Victor Riparbelli":1,"Harry Stabbings":2}</script>
 
 <script>
 (function(){

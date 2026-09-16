@@ -175,9 +175,9 @@ n8n 内部也设了 AI 与自动化部门,但职责是赋能而非代建:创建[
 
 **顺着「智能体」挖下去**
 
+- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:人在回路 (human-in-the-loop)、护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Anthropic、Hugging Face、Nvidia、OpenAI、Salesforce · 同概念:开源 (open source)、智能体 (agent)</span>
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Anthropic、Hugging Face、Nvidia、OpenAI · 同概念:开源 (open source)、智能体 (agent)</span>
-- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、ChatGPT、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -161,7 +161,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Lenny]] · [[Meta]] · [[Apple]] · [[NVIDIA]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"智能体":240,"OpenAI":113,"Anthropic":123,"ChatGPT":65,"Claude":58,"Lenny":67,"Meta":30,"Apple":17,"NVIDIA":35,"Amazon":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":243,"OpenAI":113,"Anthropic":123,"ChatGPT":65,"Claude":58,"Lenny":67,"Meta":30,"Apple":17,"NVIDIA":35,"Amazon":12}</script>
 
 <script>
 (function(){

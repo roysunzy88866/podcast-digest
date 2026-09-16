@@ -9,13 +9,13 @@ cover: "#64748b"
 description: Clay 团队（Jeff、Vishu、Saroosh）讲解旗下研究智能体与工作流智能体的运行规模，以及他们为智能体产品构建评估体系、数据飞轮与统一数据基础的具体做法。
 host: "[[Vishu]]"
 companies: ["[[Clay]]", "[[Claygent]]", "[[Sculptor]]", "[[LangChain]]"]
-concepts: ["[[智能体]]", "[[评估]]", "[[trace]]", "[[LLM 判别器]]", "[[harness]]", "[[数据湖]]"]
+concepts: ["[[智能体]]", "[[评估]]", "[[trace]]", "[[LLM 当裁判]]", "[[harness]]", "[[数据湖]]"]
 category: 智能体
 tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs#post","headline":"Clay 的智能体矩阵：如何为数十亿次运行建评估","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs","mainEntityOfPage":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs","description":"Clay 团队（Jeff、Vishu、Saroosh）讲解旗下研究智能体与工作流智能体的运行规模，以及他们为智能体产品构建评估体系、数据飞轮与统一数据基础的具体做法。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Vishu"},{"@type":"Organization","name":"Clay"},{"@type":"Organization","name":"Claygent"},{"@type":"Organization","name":"Sculptor"},{"@type":"Organization","name":"LangChain"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"trace"},{"@type":"Thing","name":"LLM 判别器 (LLM as a judge)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"数据湖 (data lake)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Clay 的智能体矩阵：如何为数十亿次运行建评估","item":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs#post","headline":"Clay 的智能体矩阵：如何为数十亿次运行建评估","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs","mainEntityOfPage":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs","description":"Clay 团队（Jeff、Vishu、Saroosh）讲解旗下研究智能体与工作流智能体的运行规模，以及他们为智能体产品构建评估体系、数据飞轮与统一数据基础的具体做法。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Vishu"},{"@type":"Organization","name":"Clay"},{"@type":"Organization","name":"Claygent"},{"@type":"Organization","name":"Sculptor"},{"@type":"Organization","name":"LangChain"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"评估 (eval)"},{"@type":"Thing","name":"trace"},{"@type":"Thing","name":"LLM 当裁判 (LLM as a judge)"},{"@type":"Thing","name":"harness"},{"@type":"Thing","name":"数据湖 (data lake)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"Clay 的智能体矩阵：如何为数十亿次运行建评估","item":"https://talk.solomind.cc/2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Clay 的智能体矩阵：如何为数十亿次运行建评估</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -33,7 +33,7 @@ jsonLd: |
 >
 > **公司** [[Clay]] · [[Claygent]] · [[Sculptor]] · [[LangChain]]
 >
-> **概念** [[智能体]] · [[评估]] · [[trace]] · [[LLM 判别器]] · [[harness]] · [[数据湖]]
+> **概念** [[智能体]] · [[评估]] · [[trace]] · [[LLM 当裁判]] · [[harness]] · [[数据湖]]
 
 这一集是 [[Clay|Clay]] 团队的工程分享，主角是三位讲者：Jeff、负责[[评估|评估]]体系的 [[Vishu|Vishu]]、负责数据基础的 Saroosh。Clay 是一家做进入市场（go-to-market，即帮企业找客户、拓业务）数据产品的公司，这一集聊的是他们怎么把[[智能体|智能体]]（agent，能自主多步执行任务的 AI）做成生产级产品。
 
@@ -51,7 +51,7 @@ Vishu 承认，最初构建智能体产品时「我们的评估并不好」，�
 
 他们的评估哲学有几条优先级。第一是分层级：本地开发用的 eval 要便宜、要快，不搞沙箱、不搞虚拟文件系统，就是个命令行评估套件——开发者改了什么，智能体就地替他跑；而在 CI（持续集成，代码合并前自动跑检查的机制）或 staging 环境跑的 eval，要尽可能贴近生产环境。
 
-用他的话说，这是「在开发者所在之处满足他们」——不必去平台网页上手动启动实验、配置托管智能体 [02:53–03:34 Vishu]。第二，评估要持久化、有版本管理，他们用 [[LangChain|LangChain]] 存储，本地跑的结果也写上去。第三，eval [[harness|测试框架]]在产品各部分之间可扩展：团队正在走向「Sculptor 在 Clay 里替你做所有事」的世界，所以 Clay 各产品线共用同一个 harness（测试框架），开发者加新产品时只需自带 eval 套件和自己的 [[LLM 判别器|LLM 裁判]]（用大模型给输出打分的自动化评估器），框架其余部分即插即用 [03:38–04:14 Vishu]。
+用他的话说，这是「在开发者所在之处满足他们」——不必去平台网页上手动启动实验、配置托管智能体 [02:53–03:34 Vishu]。第二，评估要持久化、有版本管理，他们用 [[LangChain|LangChain]] 存储，本地跑的结果也写上去。第三，eval [[harness|测试框架]]在产品各部分之间可扩展：团队正在走向「Sculptor 在 Clay 里替你做所有事」的世界，所以 Clay 各产品线共用同一个 harness（测试框架），开发者加新产品时只需自带 eval 套件和自己的 [[LLM 当裁判|LLM 裁判]]（用大模型给输出打分的自动化评估器），框架其余部分即插即用 [03:38–04:14 Vishu]。
 
 ## 覆盖率矩阵：每一格都要有东西
 

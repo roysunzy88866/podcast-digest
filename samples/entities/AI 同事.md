@@ -31,7 +31,7 @@ unlisted: true
 
 [[Varun Shenoy]] · [[LongLake]] · [[智能体]] · [[异步智能体]] · [[同步智能体]] · [[沙箱]] · [[后训练]] · [[持续学习]] · [[现实世界的评估]] · [[Copilot]]
 
-<script type="application/json" class="pd-epn">{"Varun Shenoy":1,"LongLake":1,"智能体":240,"异步智能体":1,"同步智能体":1,"沙箱":43,"后训练":21,"持续学习":8,"现实世界的评估":1,"Copilot":10}</script>
+<script type="application/json" class="pd-epn">{"Varun Shenoy":1,"LongLake":1,"智能体":243,"异步智能体":1,"同步智能体":1,"沙箱":44,"后训练":21,"持续学习":8,"现实世界的评估":1,"Copilot":11}</script>
 
 <script>
 (function(){

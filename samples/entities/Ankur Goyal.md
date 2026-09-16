@@ -7,11 +7,35 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ankur Goyal</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Ankur Goyal">AN</div><div class="pi"><h1 class="pt">Ankur Goyal</h1><div class="byl">精选演讲 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Ankur Goyal">AN</div><div class="pi"><h1 class="pt">Ankur Goyal</h1><div class="byl">精选演讲 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*10 条*
+*22 条*
+
+![[2025-09-16-talks-evaluating-agents-with-braintrust#^q1]]
+
+![[2025-09-16-talks-evaluating-agents-with-braintrust#^q2]]
+
+![[2025-09-16-talks-evaluating-agents-with-braintrust#^q3]]
+
+![[2025-09-16-talks-evaluating-agents-with-braintrust#^q4]]
+
+![[2025-09-16-talks-evaluating-agents-with-braintrust#^q5]]
+
+![[2025-09-16-talks-evaluating-agents-with-braintrust#^q6]]
+
+![[2025-09-16-talks-evaluating-agents-with-braintrust#^q7]]
+
+![[2025-09-16-talks-evaluating-agents-with-braintrust#^q8]]
+
+![[2025-09-16-talks-evaluating-agents-with-braintrust#^q9]]
+
+![[2025-09-16-talks-evaluating-agents-with-braintrust#^q10]]
+
+![[2025-09-16-talks-evaluating-agents-with-braintrust#^q11]]
+
+![[2025-09-16-talks-evaluating-agents-with-braintrust#^q12]]
 
 ![[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar#^q1]]
 
@@ -35,25 +59,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2025-09-16-talks-evaluating-agents-with-braintrust|《Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变》]] — 作为联合主持
 - [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|《评测优先:Braintrust 创始人谈 AI 产品开发的真正工程》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Braintrust]] · [[评估]] · [[LLM]] · [[智能体]] · [[提示词]] · [[Brainstore]] · [[Datadog]] · [[可观测性]] · [[Figma]] · [[ChatGPT]]
+[[Braintrust]] · [[评估]] · [[智能体]] · [[Brainstore]] · [[Figma]] · [[提示词]] · [[Corinne Riley]] · [[LLM]] · [[评分函数]] · [[Datadog]]
 
-## ④ 也在聊「创业与行业」的人
-
-<div class="pd-peers">
-
-[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Braintrust":1,"评估":1,"LLM":32,"智能体":240,"提示词":12,"Brainstore":1,"Datadog":7,"可观测性":19,"Figma":18,"ChatGPT":65}</script>
+<script type="application/json" class="pd-epn">{"Braintrust":2,"评估":1,"智能体":243,"Brainstore":2,"Figma":19,"提示词":13,"Corinne Riley":3,"LLM":32,"评分函数":1,"Datadog":7}</script>
 
 <script>
 (function(){

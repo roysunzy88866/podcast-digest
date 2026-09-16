@@ -1,0 +1,202 @@
+{
+  "title_zh": "Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变",
+  "tldr": "Braintrust 创始人兼 CEO Ankur Goyal 在 Greylock 对谈中拆解智能体评估的两类方法、评分函数设计，与组织落地之道。",
+  "digest_md": "这一集是 Greylock「Change Agents」系列对谈，主角是 Braintrust 创始人兼 CEO Ankur Goyal——Braintrust 是一家做 AI 评估(评测 AI 系统输出好坏)的平台公司，他此前在 Figma 领导过 AI 团队。他抛出的第一个反直觉判断是：评估智能体并不比评估传统 AI 软件更复杂——「我认为它并不复杂」[05:39 Ankur Goyal]。因为智能体是 AI 软件的自然演进，而且主流架构「就是一个带工具的 for 循环」——DeepResearch、Claude Code 都是如此，代码和逻辑反而比上一代软件简单得多[05:56 Ankur Goyal]。\n\n## 两类评估：端到端 + 单步拆解\n\n做得最好的团队把评估分两类。第一类是端到端评估，类似传统测试里的集成测试：给智能体和真实用户一样的输入，让它跑完整个流程，再用用户会用的指标去评判最终结果(比如客服产品 Pylon 的场景：接收客户问题、查文档、用工具，最后评估最终回复)。第二类更有意思——捕捉智能体的单个步骤单独评估：比如智能体在文档站上的一次查找失败了，可能是查询词写得差，也可能是页面 token 太多撑爆了返回错误，把这类单步存成数据集、单独跑评估，修好后再回去跑端到端验证[07:36 Ankur Goyal]。\n\n两者关联不上时也是有用信号：可能说明你的整体评估太脆弱，或者没覆盖到你刚修的那个边界情况[10:36 Ankur Goyal]。\n\n## 从糟糕原型开始，别做规划\n\n对刚起步的团队，他劝阻的第一件事就是「在开始做评估之前试图做大量的规划和准备工作」。正确路径：先写一个「相对糟糕的原型」——做智能体的甚至可以先用单个提示词伪造中间步骤——自己用起来，建立「哪里好哪里不好」的直觉。关键是：当你遇到一次糟糕的交互时，必须有一套现成的系统和工作流能立刻把它转成测试用例，「否则当用户真正使用你的产品并说『这东西真烂』的时候，你就没有希望了」[11:17 Ankur Goyal]。\n\n怎么判断是评估坏了还是系统坏了？答案是「用你的人类大脑」，真正去看数据。每次跑评估他看两件事：变差的用例和变好的用例，而且**看待改进要用和看待回归完全相同的怀疑眼光**——「当你刚起步时，大多数改进都是假的改进」[15:32 Ankur Goyal]。比如评分函数用字符串差异比较，把 dog 和 canine 判成不同而扣分——观察到这种时刻，该改的不是系统，是评分函数，把人类直觉编码进一个严格更好的系统[14:22 Ankur Goyal]。\n\n## 评估不是基准测试，分数本身毫无意义\n\n他最大的一处纠偏：「关于 eval 最大的误解是以为它们是基准测试」。你的评估显示 24%、别人的显示 72%,「这不意味着任何东西」。唯一重要的是相邻两次迭代之间的差异——评估的本质是**为你的人类时间排定优先级**，让你把精力花在真正能改进系统的地方[16:16 Ankur Goyal]。\n\n另一个实操判断：现成的开箱即用评分体系「我们评估过的每一个都很烂」。原因很本质：你评估的东西恰恰是你的 AI 用例区别于其他一切的东西——「如果你的用例不需要特定技巧和敏感性才能真正打分，那它一开始就没有什么独特的，也许你正在构建的产品根本就不应该存在，也许它应该只是 ChatGPT 的一部分」[21:34 Ankur Goyal]。\n\n评分函数基本就两种：启发式(写一段 Python/TypeScript 代码直接打分)和 LLM 当裁判。他把后者比作 PM 写 PRD:你有一组「相对不那么聪明的工程师」(即跑评估的 LLM),你作为 PM 写得越精确，他们就越成功。Braintrust 的客户过了某个阶段后，全都把预制裁判定制成了自己的 PRD 措辞[23:39 Ankur Goyal]。LLM 裁判不该当基准，该当**异常检测器**：启发式和 LLM 裁判同时上，靠两者差异的直觉判断什么坏了。有些信号天然嘈杂——比如渲染生成 UI 的截图再判断好坏，长期以来效果很差，不如直接看代码；但渲染出来的 UI 对人类调试异常仍然很有用[25:10 Ankur Goyal]。\n\n## 人类何时介入？看你的行业\n\n受监管的行业(金融等)不可能「放任模型自由运行、用现成的 LLM 裁判判断某句话是不是理财建议」。路径是：照样跑 LLM 裁判 + 人工审查，逐步把可靠结论固化成启发式(比如用正则表达式查理财建议关键词)，用可信的信号过滤掉大 bulk,人工只看剩下的子集，持续迭代。他讲了纽约一次晚餐：AI 产品公司 Loom 的负责人和某银行高管被问到「担心护栏吗」，答案完全不同——人工审查量的差距同样巨大[26:56 Ankur Goyal]。\n\n## 组织层面：评估归产品团队，最终走向平台\n\n「真正拥有某个功能的团队，就应该是拥有该功能评估的团队。」做得最好的公司最终转向平台模式：把评估归入拥有可观测性、测试、源码控制的开发平台团队。他举了一个客户的案例：先放在应用 AI 团队，让做功能的人和平台的人一起摸索出内部最佳实践，再移交平台团队——从此每个工程师的工具箱里都有评估，每个团队都能做 AI 功能[30:25 Ankur Goyal]。\n\n一个很有效的技巧：在公司内部 AI 网关(管理模型路由、成本、策略的那一层)里内置日志记录。新团队不懂评估也没关系——用模型的瞬间，所有 LLM 调用自动被记录；等产品有起色想做评估时，过去三个月的真实使用日志已经在那里等着了[32:13 Ankur Goyal]。\n\n## 评估这门学科八年不变，但实现正在剧变\n\n他说自己从 2016 年就开始做评估，到 Figma 时期「这门学科本身没有变」——这给了他信念：八年后评估仍会是构建优秀 AI 软件的核心驱动力。但实现方式剧变：2016 年跑完一次评估可能要重新训练模型才能进下一轮；今天连 Braintrust 的免费用户平均每个组织每天跑 10 次评估，大规模用户每天成千上万次——因为大模型靠提示词驱动，改动几乎零成本。\n\n正在发生的下一跳：最新一代模型已经能看评估结果、自动提出甚至实施改进。「我们从极其缓慢、非常手动的更新，走到了非常快速但仍然手动的更新，接下来将走向部分甚至完全自动化的更新」——人类与评估的交互方式将从盯仪表盘、手动改，变成比较几个 LLM 建议的改动方案并做判断[34:14 Ankur Goyal]。他给出的量级：他们看到的表现最好的模型，在这个任务上比上一代热门供应商的领先模型好 24 倍，比另一家的次领先模型好约 6 倍，而一年前结果还糟透了[54:02 Ankur Goyal]。\n\n## 自研数据库：因为现有的一切都撑不住\n\n观众问到 Braintrust 自研数据库 Brainstore 的缘起，这段很有信息量。Notion(他评价其 AI 产品采用「普遍领先所有人六个月」)抱怨 Braintrust 太慢——排查发现是日志量暴涨：人们直接在 prompt 日志里搜「Corinne 和表格」来调试同事的问题；同时上下文窗口变大，如今 Braintrust 单条日志平均约 50 KB,而传统可观测性领域只有约 900 字节——数据形态彻底变了[42:06 Ankur Goyal]。他们试了 Postgres、ClickHouse、Redshift、Snowflake 的经典组合，做了一个规模是 Notion 需求 100 倍的基准，「对所有东西都做了基准测试，但真的什么方案都行不通」，甚至读了「数量多到难为情的 ClickHouse 源代码」。但长话短说，「SQL 领域里现有的那些东西，没有一个能够支持这个用例」，没有一个能支撑 Notion 想做的事——而这「最多只能是人们一年后要做的事情的 1% 左右」，后来这一点基本被证实[43:43 Ankur Goyal]。他们最终决定自研，做 BrainStore 的三个人是他自己、他弟弟 Manu(高中时在 MemSQL 实习过)、以及 Impira 最早工程师之一的 Austin(物理学博士出身)——他说这是唯一一次「非常清楚这个工作负载是什么」「非常清楚这个数据形态是什么」就开工[44:31 Ankur Goyal]。\n\n## 多智能体：模块化假设在 AI 里不成立\n\n有观众问从单 prompt 到单智能体再到多智能体，评估什么变了。他的核心答案：**模块化在 AI 里不管用**——传统软件里测好的组件叠起来仍然可靠，但「多智能体系统中的单个智能体，在多智能体上下文中的表现，可能与它作为单智能体时非常不同」，从模块化假设出发评估复杂系统几乎总是坏主意。可复用的是评分函数：只要它代表你用例中的「真相」，管它是单智能体还是多智能体系统都能用。他见过的失败团队抱着旧架构的工作不放，成功的团队「非常擅长把一切都扔掉、从头再来，而且最终往往会得到更简单的东西」[51:13 Ankur Goyal]。\n\n关于通用基准，他的判断很犀利：MMLU「已经完全是个毫无意义的东西」，模型发布时晒性能柱状图「说白了全是营销，就像写白皮书，背后几乎没有什么科学依据」；有些公司发布的评估模型你根本没法运行，「这算什么基准测试？」[55:15 Ankur Goyal]\n\n## 护栏与评估：一个梯度\n\n最后他给出一个概念框架：护栏和评估之间是一个梯度，对应传统工程里同步 vs 异步的取舍。评估是异步的，不阻塞任何东西；护栏是同步的，跑在关键路径上，会拖慢系统但能拦住坏结果。「现实是，几乎没有人运行护栏，而几乎所有人都运行评估」——因为护栏没有好的实践，且性能代价和不确定性太高。但如果未来出现快得离谱的小模型，离线评估转成在线护栏的经济账就会改变；他透露 Braintrust 技术上已准备好(笔记本上有个能跑的分支)，只等市场成熟[47:22 Ankur Goyal]。\n\n## 本集带走\n\n- **评估分两层做**：端到端评估(像集成测试，评最终结果)+ 单步拆解评估(把失败的具体步骤存成数据集单独评、修好再回端到端验证)；两者对不上时，先怀疑你的整体评估太脆弱。\n- **分数没有绝对意义，差异才有一切意义**：别拿评估百分比跨项目比较，它的唯一用途是帮你给人类时间排优先级；看待「改进」要像看待回归一样怀疑——刚起步时大多数改进是假的。\n- **评分函数是最值得投入的持久资产**：开箱即用的评分体系都不可用，因为你评估的东西就是你的用例的独特之处；启发式 + LLM 当裁判(按写 PRD 的标准写裁判提示词)双管齐下，LLM 裁判当异常检测器而非基准。\n- **别先规划，先做烂原型**：尽早建立「糟糕交互 → 测试用例」的即时转化流程，用户开始抱怨时你才有希望。\n- **组织上**：评估归拥有功能的产品团队，成熟后移交平台团队并内嵌进 AI 网关的日志层——新团队用模型即自动积累可评估的数据。\n- **模块化假设在 AI 评估里不成立**：换架构时最成功的团队是敢于全部推倒重来的；能跨系统复用的是评分函数，不是组件。\n- **护栏 ≠ 评估**：护栏是同步的、跑在关键路径上(慢但能拦)，评估是异步的(不阻塞)；现实中几乎没人跑护栏、人人跑评估，分界会随模型速度变化而移动。",
+  "quotes": [
+    {
+      "en": "And I think the prevailing architecture for agents is a for loop with tools.",
+      "zh": "而且我认为智能体的主流架构就是一个带工具的 for 循环。",
+      "timestamp": "06:28",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "And one thing I would sort of discourage is trying to do a lot of planning and prep work before you start doing evals.",
+      "zh": "我想劝阻的一件事，就是在你开始做评估之前试图做大量的规划和准备工作。",
+      "timestamp": "11:17",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "And I think when you're getting started, honestly, most of the improvements are fake improvements.",
+      "zh": "而我认为，说实话，当你刚起步时，大多数改进都是假的改进。",
+      "timestamp": "15:39",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "I think the biggest misconception about evals is that they're benchmarks.",
+      "zh": "我认为关于 eval 最大的误解是以为它们是基准测试。",
+      "timestamp": "16:16",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "And so I think of evals actually as a very effective way to prioritize your human time so that you can use your time effectively to improve the AI system.",
+      "zh": "所以我实际上把 eval 视为一种非常有效的方式来为你的人类时间排定优先级，这样你就能有效地利用你的时间来改进 AI 系统。",
+      "timestamp": "16:49",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "I mean, every out-of-the-box stack that we've evaluated sucks.",
+      "zh": "我是说，我们评估过的每一个开箱即用的评分体系都很烂。",
+      "timestamp": "21:34",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "Well, I think there's a lot of cases where it doesn't work very well, but I think if you reframe the utility of an LLM as a judge from being a benchmark to being an anomaly detector, then I think it's actually okay.",
+      "zh": "我认为有很多它表现不太好的情况，但我觉得如果你把 LLM 当裁判的用途从一个基准重新定义为一个异常检测器，那它其实是可以的。",
+      "timestamp": "25:10",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "But I think the team that actually owns a feature is the one that should own the evals for that feature.",
+      "zh": "但我认为，真正拥有某个功能的团队，就应该是拥有该功能评估的团队。",
+      "timestamp": "30:53",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "And that gives me a lot of internal conviction that eight years from now, evals will still be very relevant and they'll be kind of like the core driver for how people build great AI software.",
+      "zh": "这让我内心有很强的信念：八年之后，评估仍然会非常重要，而且它们会成为人们构建优秀 AI 软件的核心驱动力。",
+      "timestamp": "00:29",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "Almost always a bad idea to start with a modularity assumption when you're trying to evaluate increasingly complex systems.",
+      "zh": "当你在评估日益复杂的系统时，从模块化假设出发几乎总是个坏主意。",
+      "timestamp": "51:59",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "And I've seen teams succeed when they're very good at just throwing everything away and starting over and often ending up with something simpler.",
+      "zh": "而我见过团队成功，是因为他们非常擅长把一切都扔掉、从头再来，而且最终往往会得到更简单的东西。",
+      "timestamp": "53:19",
+      "speaker": "Ankur Goyal"
+    },
+    {
+      "en": "A model or a really LLM heavy product and showing a bunch of bar charts about performance, that is like, it's all marketing.",
+      "zh": "一个模型或者一个非常重的 LLM 产品，然后展示一堆关于性能的柱状图，这说白了，全是营销。",
+      "timestamp": "55:28",
+      "speaker": "Ankur Goyal"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "05:39",
+      "speaker": "Ankur Goyal",
+      "en": "I think it's not.",
+      "zh": "我认为它并不复杂。"
+    },
+    {
+      "timestamp": "06:28",
+      "speaker": "Ankur Goyal",
+      "en": "And I think the prevailing architecture for agents is a for loop with tools.",
+      "zh": "而且我认为智能体的主流架构就是一个带工具的 for 循环。"
+    },
+    {
+      "timestamp": "11:17",
+      "speaker": "Ankur Goyal",
+      "en": "And one thing I would sort of discourage is trying to do a lot of planning and prep work before you start doing evals.",
+      "zh": "我想劝阻的一件事，就是在你开始做评估之前试图做大量的规划和准备工作。"
+    },
+    {
+      "timestamp": "12:45",
+      "speaker": "Ankur Goyal",
+      "en": "Then you have no hope when users are actually using your product and saying, like, hey, knock, knock, knock, this thing sucks.",
+      "zh": "那么当用户真正使用你的产品并说「嘿，敲敲门，这东西真烂」的时候，你就没有希望了。"
+    },
+    {
+      "timestamp": "15:32",
+      "speaker": "Ankur Goyal",
+      "en": "And improvements you should look at with exactly the same skeptical eye that you look at regression.",
+      "zh": "而看待改进，你应该用和看待回归完全相同的怀疑眼光。"
+    },
+    {
+      "timestamp": "15:39",
+      "speaker": "Ankur Goyal",
+      "en": "And I think when you're getting started, honestly, most of the improvements are fake improvements.",
+      "zh": "而我认为，说实话，当你刚起步时，大多数改进都是假的改进。"
+    },
+    {
+      "timestamp": "16:16",
+      "speaker": "Ankur Goyal",
+      "en": "I think the biggest misconception about evals is that they're benchmarks.",
+      "zh": "我认为关于 eval 最大的误解是以为它们是基准测试。"
+    },
+    {
+      "timestamp": "16:49",
+      "speaker": "Ankur Goyal",
+      "en": "And so I think of evals actually as a very effective way to prioritize your human time so that you can use your time effectively to improve the AI system.",
+      "zh": "所以我实际上把 eval 视为一种非常有效的方式来为你的人类时间排定优先级，这样你就能有效地利用你的时间来改进 AI 系统。"
+    },
+    {
+      "timestamp": "21:34",
+      "speaker": "Ankur Goyal",
+      "en": "I mean, every out-of-the-box stack that we've evaluated sucks.",
+      "zh": "我是说，我们评估过的每一个开箱即用的评分体系都很烂。"
+    },
+    {
+      "timestamp": "22:14",
+      "speaker": "Ankur Goyal",
+      "en": "If your use case requires specific tricks and sensitivity to actually score, then there's really nothing unique about your use case to begin with, and maybe the product that you're building shouldn't exist.",
+      "zh": "如果你的用例需要特定的技巧和敏感性才能真正打分，那其实你的用例一开始就没有什么独特的，也许你正在构建的产品根本就不应该存在。"
+    },
+    {
+      "timestamp": "25:10",
+      "speaker": "Ankur Goyal",
+      "en": "Well, I think there's a lot of cases where it doesn't work very well, but I think if you reframe the utility of an LLM as a judge from being a benchmark to being an anomaly detector, then I think it's actually okay.",
+      "zh": "我认为有很多它表现不太好的情况，但我觉得如果你把 LLM 当裁判的用途从一个基准重新定义为一个异常检测器，那它其实是可以的。"
+    },
+    {
+      "timestamp": "30:53",
+      "speaker": "Ankur Goyal",
+      "en": "But I think the team that actually owns a feature is the one that should own the evals for that feature.",
+      "zh": "但我认为，真正拥有某个功能的团队，就应该是拥有该功能评估的团队。"
+    },
+    {
+      "timestamp": "34:15",
+      "speaker": "Ankur Goyal",
+      "en": "I think that evals actually have not changed much over the past several years.",
+      "zh": "我认为评估在过去几年其实没有太大变化。"
+    },
+    {
+      "timestamp": "34:25",
+      "speaker": "Ankur Goyal",
+      "en": "And that gives me a lot of internal conviction that eight years from now, evals will still be very relevant and they'll be kind of like the core driver for how people build great AI software.",
+      "zh": "这让我内心有很强的信念：八年之后，评估仍然会非常重要，而且它们会成为人们构建优秀 AI 软件的核心驱动力。"
+    },
+    {
+      "timestamp": "36:25",
+      "speaker": "Ankur Goyal",
+      "en": "And so I think we went from extremely slow updates that were very manual to very fast updates that are very manual.",
+      "zh": "所以我认为我们从极其缓慢、非常手动的更新，走到了非常快速但仍然非常手动的更新。"
+    },
+    {
+      "timestamp": "48:10",
+      "speaker": "Ankur Goyal",
+      "en": "The reality is, at least the world that we live in, almost no one runs guardrails and almost everyone runs evals.",
+      "zh": "现实是，至少在我们所处的世界里，几乎没有人运行护栏，而几乎所有人都运行评估。"
+    },
+    {
+      "timestamp": "51:59",
+      "speaker": "Ankur Goyal",
+      "en": "Almost always a bad idea to start with a modularity assumption when you're trying to evaluate increasingly complex systems.",
+      "zh": "当你在评估日益复杂的系统时，从模块化假设出发几乎总是个坏主意。"
+    },
+    {
+      "timestamp": "53:22",
+      "speaker": "Ankur Goyal",
+      "en": "And I've seen teams succeed when they're very good at just throwing everything away and starting over and often ending up with something simpler.",
+      "zh": "而我见过团队成功，是因为他们非常擅长把一切都扔掉、从头再来，而且最终往往会得到更简单的东西。"
+    },
+    {
+      "timestamp": "55:15",
+      "speaker": "Ankur Goyal",
+      "en": "Like MMLU, for example, is just a completely meaningless thing at this point.",
+      "zh": "比如 MMLU,举例来说，在这一点上已经完全是个毫无意义的东西了。"
+    },
+    {
+      "timestamp": "55:28",
+      "speaker": "Ankur Goyal",
+      "en": "A model or a really LLM heavy product and showing a bunch of bar charts about performance, that is like, it's all marketing.",
+      "zh": "一个模型或者一个非常重的 LLM 产品，然后展示一堆关于性能的柱状图，这说白了，全是营销。"
+    }
+  ],
+  "voice_script": "今天咱们聊聊 AI 评估这件事。主角是 Braintrust 的创始人兼 CEO Ankur Goyal，这家公司做的就是评估平台——帮你判断 AI 系统的输出到底好不好。Ankur 之前在 Figma 领导过 AI 团队，从 2016 年就开始做评估，算是这门手艺的老兵。这一集是 Greylock 的对谈，核心问题就是：智能体时代的 AI 评估该怎么做。\n\n先说一个反直觉的判断。很多人觉得评估智能体比评估传统 AI 软件复杂得多，Ankur 的回答是：并不复杂。为什么？因为智能体的主流架构说白了就是一个带工具的 for 循环，DeepResearch、Claude Code 都是这个路数，代码和逻辑反而比上一代软件简单。既然结构简单，评估的思路也就顺下来了。\n\n那具体怎么做？做得最好的团队把评估分成两层。第一层是端到端评估，就像传统测试里的集成测试：给智能体和真实用户一样的输入，让它跑完全程，再用用户会用的标准去评判最终结果，比如客服产品接收问题、查文档、用工具，最后看回复好不好。第二层更有意思，是把智能体跑砸的那一步单独抓出来评估。比如智能体在文档站上查东西失败了，可能是查询词写得差，也可能是页面太长撑爆了返回。把这种单步存成数据集，单独评、单独修，修好之后再回去跑端到端验证。两层要是关联不上，也别慌，这本身就是信号——说明你的整体评估可能太脆弱，或者没覆盖到刚修的边界情况。\n\n那刚起步的团队该怎么下手？Ankur 明确劝阻一件事：在开始评估之前做大量规划。正确路径是先写一个相对糟糕的原型，自己用起来，建立哪里好哪里不好的直觉。关键是，当你遇到一次糟糕的交互，必须有一套现成的流程能立刻把它转成测试用例。不然等用户真正用上产品、骂一句这东西真烂的时候，你就没希望了。\n\n接下来的问题自然是怎么判断：是评估坏了，还是系统坏了？答案是用你的人类大脑，真去看数据。每次跑评估看两件事，变差的用例和变好的用例，而且看待改进要用看待回归完全相同的怀疑眼光——刚起步时，大多数改进都是假的改进。比如评分函数用字符串比较，把 dog 和 canine 判成不同而扣分，这种时候该改的不是系统，是评分函数。\n\n这就引出这一集最大的一个纠偏：关于评估最大的误解，就是以为它是基准测试。你的评估显示 24%，别人的显示 72%，这不意味着任何东西。唯一重要的是相邻两次迭代之间的差异——评估的本质，是为你的人类时间排定优先级，让你把精力花在真正能改进系统的地方。\n\n顺着这个逻辑，现成的开箱即用评分体系为什么不行也就清楚了。评估过的每一个都很烂。原因很本质：你评估的东西，恰恰是你的 AI 用例区别于其他一切的东西。如果一个用例不需要特殊技巧就能打分，那它一开始就没有什么独特之处，也许你做的东西根本不该存在，也许它只该是 ChatGPT 的一部分。\n\n评分函数基本两种：启发式，就是写代码直接打分；还有 LLM 当裁判。Ankur 把后者比作 PM 写 PRD——跑评估的模型就像一群不太聪明的工程师，你写得越精确，它们就越成功。Braintrust 的客户过了某个阶段，全都把预制裁判定制成了自己的 PRD 措辞。但注意，LLM 裁判不该当基准，该当异常检测器：两种方法同时上，靠两者差异判断什么坏了。\n\n组织层面也一样干脆：真正拥有某个功能的团队，就该拥有该功能的评估。做得好的公司最终转向平台模式，把评估归入开发平台团队。有个很实用的技巧：在公司内部的 AI 网关里内置日志记录。新团队不懂评估没关系，用模型的瞬间调用就自动被记录，等想做评估时，过去三个月的真实日志已经等在那里了。\n\n还有一件事值得一提。Braintrust 之所以自研数据库，是因为 Notion 抱怨太慢——排查发现如今单条日志平均约 50 KB，而传统可观测性领域只有约 900 字节，数据形态彻底变了。试遍了 Postgres、ClickHouse、Snowflake 的组合，什么方案都行不通，最后三个人自己写了 Brainstore。\n\n最后一跳正在发生：最新一代模型已经能看评估结果、自动提出甚至实施改进。Ankur 的判断是，从极慢的手动更新，到快但仍手动，接下来将走向部分甚至完全自动化的更新——人类和评估的交互方式，会从盯仪表盘，变成比较几个 LLM 建议的方案再做判断。\n\n这门学科八年没变，但玩法正在剧变。评估不是炫分数的基准，而是帮你把人类时间花在刀刃上的工具——这句话，值得每个做 AI 产品的人记住。"
+}

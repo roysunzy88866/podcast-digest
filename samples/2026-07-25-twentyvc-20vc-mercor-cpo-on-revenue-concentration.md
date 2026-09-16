@@ -166,7 +166,7 @@ Marketplace 供给侧做得好的秘诀有三：专家按时、透明、丰厚�
 
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:开源模型 (open source)、智能体 (agent)</span>
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:智能体 (agent)、评测 (evals)</span>
-- [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:智能体 (agent)、评测 (evals)</span>
+- [[2025-09-16-talks-evaluating-agents-with-braintrust|Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变]]<span class="pd-rz">同概念:智能体 (agent)、评测 (evals)</span>
 
 </div>
 <div class="pd-ex">

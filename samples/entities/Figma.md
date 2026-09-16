@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Figma</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Figma">FI</div><div class="pi"><h1 class="pt">Figma</h1><div class="byl">公司</div><div class="nums">本站收录 <b>18</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Figma">FI</div><div class="pi"><h1 class="pt">Figma</h1><div class="byl">公司</div><div class="nums">本站收录 <b>19</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|《Bob Baxley：设计是可见的清晰思考》]]**(02:43起):本集说你在 Figma 里画的那个东西将被数十亿人互动成千上万次，但你永远看不到他们；一旦进入 Figma 你就对要生产的东西做出了决定。
+- **[[2025-09-16-talks-evaluating-agents-with-braintrust|《Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变》]]**(00:15起):本集提到 Ankur 此前被 Impira 收购后到 Figma 领导 AI 团队,又遇到了和 Impira 一模一样的评估问题,促成了二次造轮子的觉察。
 - **[[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]]**(00:13起):本集把它说成：一款世界知名、拥有众多产品线（Design, FigJam, Slides, Dev Mode, Make 等）且深具设计基因的设计与产品协作平台。
 - **[[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|《评测优先:Braintrust 创始人谈 AI 产品开发的真正工程》]]**(00:10起):本集说 Ankur 上一家公司被 Figma 收购后他在那里领导 AI 团队，并反复以 Figma 早期非设计师用户超过设计师的经历作类比
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(01:26起):本集把它说成：仍在使用的设计工具。在平行探索 8 到 10 种不同的排版和视觉方案时，它依然是最快、最有效的，因为直接用代码探索过于线性。
@@ -39,9 +40,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*18 集*
+*19 集*
 
 - [[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|《Bob Baxley：设计是可见的清晰思考》]] — 作为被讨论公司(提及)
+- [[2025-09-16-talks-evaluating-agents-with-braintrust|《Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变》]] — 作为被讨论公司(提及)
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为被讨论公司
 - [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|《评测优先:Braintrust 创始人谈 AI 产品开发的真正工程》]] — 作为被讨论公司(提及)
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为被讨论公司
@@ -64,9 +66,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[设计系统]] · [[MCP]] · [[ChatGPT]] · [[Cursor]] · [[Lenny]] · [[LLM]] · [[Anthropic]] · [[Notion]] · [[Claude]]
+[[智能体]] · [[设计系统]] · [[MCP]] · [[Notion]] · [[ChatGPT]] · [[Cursor]] · [[Lenny]] · [[提示词]] · [[LLM]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"智能体":240,"设计系统":6,"MCP":40,"ChatGPT":65,"Cursor":59,"Lenny":67,"LLM":32,"Anthropic":123,"Notion":12,"Claude":58}</script>
+<script type="application/json" class="pd-epn">{"智能体":243,"设计系统":6,"MCP":41,"Notion":13,"ChatGPT":65,"Cursor":59,"Lenny":67,"提示词":13,"LLM":32,"Anthropic":123}</script>
 
 <script>
 (function(){

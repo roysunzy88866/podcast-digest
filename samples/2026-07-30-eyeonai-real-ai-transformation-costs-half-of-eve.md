@@ -142,9 +142,9 @@ Liatrio 不绑任何特定工具或云厂商。Chris 认为现在签三到五年
 
 **换个口味**
 
+- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:人在回路 (human in the loop)</span>
+- [[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma|当攻击用 AI、防守靠智能体：Abnormal 与 Cogent 聊智能体网络安全]]<span class="pd-rz">同概念:人在回路 (human in the loop)</span>
 - [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR]]<span class="pd-rz">同概念:人在回路 (human in the loop)</span>
-- [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱]]<span class="pd-rz">同概念:人在回路 (human in the loop)</span>
-- [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|把智能体推向生产环境:为什么标准基础设施不够用]]<span class="pd-rz">同概念:人在回路 (human in the loop)</span>
 
 </div>
 </div>

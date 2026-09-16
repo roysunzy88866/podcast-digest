@@ -1,0 +1,1555 @@
+{
+  "episode_id": "2025-09-16-talks-evaluating-agents-with-braintrust",
+  "podcast": "精选演讲",
+  "date": "2025-09-16",
+  "tags": [
+    "AI 评估",
+    "智能体",
+    "LLM 当裁判",
+    "数据库",
+    "护栏"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "corinne-riley",
+      "type": "person",
+      "role": "host",
+      "name": "Corinne Riley",
+      "file": "Corinne Riley",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            70.219,
+            70.999
+          ],
+          "quote": "I'm Corinne Riley.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ankur-goyal",
+      "type": "person",
+      "role": "cohost",
+      "name": "Ankur Goyal",
+      "file": "Ankur Goyal",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            66.538,
+            70.079
+          ],
+          "quote": "You know, tonight we're joined by Ankur Goyal, founder and CEO of Braintrust.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "braintrust",
+      "type": "company",
+      "role": "company",
+      "name": "Braintrust",
+      "file": "Braintrust",
+      "primary": true,
+      "how_described": "本集主角:Ankur Goyal 创办的 AI 评估平台公司,帮团队对智能体和 AI 系统的输出做评估、日志与可观测性,客户包括 Notion、Stripe、Pylon 等。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            10.326,
+            14.072
+          ],
+          "quote": "And one of the reasons I actually was excited about starting Braintrust is,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            66.538,
+            70.079
+          ],
+          "quote": "You know, tonight we're joined by Ankur Goyal, founder and CEO of Braintrust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            73.36,
+            81.203
+          ],
+          "quote": "I spend all my time in B2B AI applications and infrastructure, and I have the privilege of being an investor in Braintrust since the seed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            85.144,
+            95.828
+          ],
+          "quote": "To get started, why don't we have you do an introduction of yourself, tell us about the inception story behind Braintrust, and tell us a little bit about what Braintrust does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            112.853,
+            119.038
+          ],
+          "quote": "Prior to Braintrust, I started a company called Impira, and that's actually when I met Corinne and Sam.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            314.726,
+            316.588
+          ],
+          "quote": "And that's what led to starting Braintrust.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            322.677,
+            325.679
+          ],
+          "quote": "And obviously, BrainTrust does even more than that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            694.252,
+            707.382
+          ],
+          "quote": "But two, these are all learned experiences from building AI software ourselves at Braintrust and also working with some really great customers who are at the forefront of this and just talking to them and sort of solving some of the challenges that they have together.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 162,
+          "t": [
+            967.895,
+            974.058
+          ],
+          "quote": "And if I'm a new user using BrainTrust, how do I understand the difference in those improvements or not?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1414.309,
+            1416.31
+          ],
+          "quote": "Braintrust includes a bunch of them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1455.241,
+            1470.506
+          ],
+          "quote": "And again, there's a bunch of pre-cooked LLM judges in Braintrust, but all of our customers, after a certain point, have customized all of these judges into essentially PRD wording that's specific to them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2065.306,
+            2070.754
+          ],
+          "quote": "And one of the reasons I actually was excited about starting Braintrust is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2136.587,
+            2144.654
+          ],
+          "quote": "Today, actually, what's kind of crazy, even across the free users who sign up for Braintrust, the average org runs 10 evals a day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2248.123,
+            2255.312
+          ],
+          "quote": "You'll see some, it won't take us two years, but you're gonna see some very exciting stuff from BrainTrust on this front.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2485.191,
+            2501.658
+          ],
+          "quote": "And when we started working on BrainTrust, we tried using the sort of classic cocktail of available databases out there to build a product like ours, which is Postgres, ClickHouse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2594.019,
+            2598.642
+          ],
+          "quote": "The average span that someone logs in Braintrust nowadays is like 50 kilobytes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2958.805,
+            2962.986
+          ],
+          "quote": "From a product and tech standpoint, we're very prepared to do that at BrainTrust.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 566,
+          "t": [
+            3423.918,
+            3429.061
+          ],
+          "quote": "Well, everyone, the BrainTrust team is going to be here for at least the rest of the night.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 568,
+          "t": [
+            3434.685,
+            3438.408
+          ],
+          "quote": "And actually, if you're a BrainTrust team member, can you raise your hand really quickly?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集核心主线:评估不是基准测试,分数本身无意义,唯一重要的是相邻两次迭代的差异;本质是为人类时间排定优先级,分端到端评估和单步拆解评估两类,这门学科八年没变但实现方式剧变。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.392,
+            6.42
+          ],
+          "quote": "I think that evals actually have not changed much over the past several years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1,
+          "t": [
+            6.48,
+            9.305
+          ],
+          "quote": "Like, I've been doing evals since 2016.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 3,
+          "t": [
+            15.033,
+            29.044
+          ],
+          "quote": "From then all the way through when I was working at Figma, very little had changed about evals, even though the things we're evaluating and some of the metrics and blah, blah, blah, all this stuff is changing, but the discipline itself hadn't changed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 4,
+          "t": [
+            29.144,
+            41.975
+          ],
+          "quote": "And that gives me a lot of internal conviction that eight years from now, evals will still be very relevant and they'll be kind of like the core driver for how people build great AI software.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            258.225,
+            268.209
+          ],
+          "quote": "And we built pretty much exactly the same internal tooling to help us do evals and get good data from real users and work them into our evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            456.089,
+            461.794
+          ],
+          "quote": "The people that do it best, they basically split up their evals into two kinds of evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 80,
+          "t": [
+            462.395,
+            468.7
+          ],
+          "quote": "One are end-to-end evals, and you can think of these kind of like integration tests in traditional testing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 102,
+          "t": [
+            614.567,
+            624.236
+          ],
+          "quote": "How to run evals on these individual steps, improve them, prove with evals that you've made some progress, and then rerun the end-to-end tests and evaluate those.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            649.393,
+            657.078
+          ],
+          "quote": "And so I think thinking about the relationship between these two kinds of evals and using them to improve the overall system is also quite useful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 111,
+          "t": [
+            667.124,
+            675.153
+          ],
+          "quote": "How do I go out and figure out which of those techniques is right for me in doing that type of experimentation around what the evals themselves should be?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            677.922,
+            685.627
+          ],
+          "quote": "And one thing I would sort of discourage is trying to do a lot of planning and prep work before you start doing evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            804.833,
+            807.395
+          ],
+          "quote": "How do you continuously improve your evals over time?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            811.464,
+            817.187
+          ],
+          "quote": "So I think of evals in kind of a simple way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            913.335,
+            924.04
+          ],
+          "quote": "Now I'm going to change the scoring function and run another eval or run enough evals that I can make sure that this human intuition I had is encoded into a strictly better system than it was before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            976.118,
+            980.139
+          ],
+          "quote": "I think the biggest misconception about evals is that they're benchmarks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 165,
+          "t": [
+            980.259,
+            981.779
+          ],
+          "quote": "And I don't think evals are benchmarks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            987.781,
+            995.682
+          ],
+          "quote": "If Brian is creating a separate app and he says, hey, my evals are 72% and I'm creating a different app and my evals are 24%, that means nothing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1009.788,
+            1020.734
+          ],
+          "quote": "And so I think of evals actually as a very effective way to prioritize your human time so that you can use your time effectively to improve the AI system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1028.903,
+            1046.814
+          ],
+          "quote": "And if you put that back to the fact that you don't believe that agents are fundamentally different from other types of evals, but if you put into the fact that agents can get very complex with all these steps, it becomes hard to tease apart the different parts of where something might be improving or not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1119.718,
+            1137.371
+          ],
+          "quote": "I think it's actually great to think about those scenarios and encode them as these end-to-end evals that I'm talking about and write the code and actually construct the data in a way that these very aspirational evals are somewhat durable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1158.98,
+            1160.881
+          ],
+          "quote": "And I think those are very durable evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1177.846,
+            1194.21
+          ],
+          "quote": "Like if you have evals like this and Claude 4 comes out, it is incredibly valuable to just swap a new model and try running it on these evals and then answer the question of, okay, great, what use cases were out of reach with the current generations of models and suddenly become in reach?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1202.452,
+            1213.355
+          ],
+          "quote": "And then you have these more incremental evals, like you're building this super complex system, maybe you have a router, or maybe you have some sort of retrieval tool, or you have a calculator, I don't know, whatever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1251.169,
+            1257.852
+          ],
+          "quote": "And I think it's okay to sort of engineer these relatively specific evals and keep evolving them over time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1268.357,
+            1277.864
+          ],
+          "quote": "Carefully engineered as the first category, which it's just very important for those evals that no matter what you change, you don't actually really need to change the eval.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1355.057,
+            1368.766
+          ],
+          "quote": "And if you sort of zoom out and think about it, just like the sort of end-to-end evals, I think scoring functions are actually one of the most durable things you can invest in engineering because they should survive as you change things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1505.585,
+            1509.049
+          ],
+          "quote": "Or you would say you should never use it in these types of evals?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1536.752,
+            1546.799
+          ],
+          "quote": "Run evals and build intuition as a team about what the differences between different metrics tell you about what might have broken or not broken.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1825.524,
+            1831.065
+          ],
+          "quote": "Yeah, so I think evals should be owned by the product team that is shipping a feature.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1853.333,
+            1859.46
+          ],
+          "quote": "But I think the team that actually owns a feature is the one that should own the evals for that feature.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1871.353,
+            1889.407
+          ],
+          "quote": "They started with evals being part of their applied AI team and that allowed the people that were actually building the AI features to shape how they do evals together with the more kind of platformy, systemsy people that get really excited about something like brain trust.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1889.507,
+            1896.893
+          ],
+          "quote": "And so that team sat together, they figured out a bunch of stuff, they built a bunch of really good examples within the company of how to do evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1897.353,
+            1901.838
+          ],
+          "quote": "And then they actually moved evals into the dev platform team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1902.218,
+            1910.947
+          ],
+          "quote": "And that allows them as a company to make evals part of what literally every engineer has in their toolbox as they're building features.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1916.213,
+            1930.545
+          ],
+          "quote": "And so we've actually seen the very best in class teams kind of move towards this platform model where the team that owns organizational wide things like observability and testing and source control actually owns evals as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1970.659,
+            1985.565
+          ],
+          "quote": "And so what that means is if you're a new team and you don't know what evals are, you don't care, you just want to use Claude 4, you can get access via this gateway and then start using the model and everything actually gets logged for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            2000.575,
+            2002.357
+          ],
+          "quote": "Hey, Corinne, I'd like to start doing evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            2044.905,
+            2053.618
+          ],
+          "quote": "If we zoom two years into the future, how do you think evals are going to be different, particularly for agents, and what does that mean for brain trust?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2055.372,
+            2061.4
+          ],
+          "quote": "I think that evals actually have not changed much over the past several years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 338,
+          "t": [
+            2061.461,
+            2064.285
+          ],
+          "quote": "Like, I've been doing evals since 2016.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2071.675,
+            2093.79
+          ],
+          "quote": "From then all the way through when I was working at Figma, very little had changed about evals even though the things we're evaluating and some of the metrics and you know blah blah blah all this stuff is changing but the discipline itself hadn't changed and that gives me a lot of internal conviction that eight years from now evals will still be very relevant and they'll be kind of like the",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2099.912,
+            2109.336
+          ],
+          "quote": "But I do think that the implementation of actually running evals has changed quite a bit, and it's going to continue to change.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2136.587,
+            2144.654
+          ],
+          "quote": "Today, actually, what's kind of crazy, even across the free users who sign up for Braintrust, the average org runs 10 evals a day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2145.015,
+            2148.878
+          ],
+          "quote": "And obviously, the people that are running evals at scale, that's an average, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2166.904,
+            2185.327
+          ],
+          "quote": "Now what I think wasn't possible until very recently and is going to change evals in a very significant way again is that now the most recent vintage of models are actually able to look at eval results and automatically suggest and in many cases even implement those improvements.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2203.958,
+            2212.705
+          ],
+          "quote": "And the way that we as humans are actually going to interact with evals is going to shift from looking at a dashboard, walking away with some inference, and then",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2328.42,
+            2337.687
+          ],
+          "quote": "I think you don't want to create evals that are so glued to a specific pathway of doing something that they become brittle as you actually want to make changes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2890.995,
+            2897.681
+          ],
+          "quote": "The reality is, at least the world that we live in, almost no one runs guardrails and almost everyone runs evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2938.64,
+            2958.125
+          ],
+          "quote": "But if GPT, let's just say that GPT-4-2-mini is absurdly fast, like you can process 10,000 tokens a second or something, maybe suddenly that changes the dynamic and it makes sense to actually shift the gradient more towards guardrails and maybe take evals that you're doing offline and actually turn them into guardrails.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 505,
+          "t": [
+            3051.988,
+            3054.849
+          ],
+          "quote": "Where do you see this interoperability or standard-based evals?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 528,
+          "t": [
+            3208.999,
+            3210.38
+          ],
+          "quote": "Egentic evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 546,
+          "t": [
+            3300.953,
+            3311.057
+          ],
+          "quote": "Who are trying to solve relatively unique problems and LLM vendors who feel very saturated on generic evals are quite frustrated with generic evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3379.635,
+            3390.606
+          ],
+          "quote": "in some ways adversarial relationship like maybe in your space you'd be not super excited about like Datadog seeing some of your evals or something but you might",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是 AI 软件的自然演进,主流架构就是一个带工具的 for 循环(如 DeepResearch、Claude Code),代码逻辑反而比上一代软件简单得多,评估起来也并不更复杂。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            327.239,
+            338.426
+          ],
+          "quote": "Why is evaluating an agent or an agentic system different or even more complex than, you know, traditional, obviously, traditional software, but also, you know, just your single-shot LLM output?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            395.081,
+            398.023
+          ],
+          "quote": "That's pretty much every major agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            449.627,
+            455.129
+          ],
+          "quote": "And I think correspondingly, evaling a modern agent is actually quite simple.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            469.24,
+            475.446
+          ],
+          "quote": "These are tests that basically give the agent the same type of input that a user would.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 82,
+          "t": [
+            476.026,
+            488.27
+          ],
+          "quote": "And then they let the agent run for a while and generate whatever its end result is and then evaluate that with the same type of metrics that a user might use.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            538.983,
+            551.909
+          ],
+          "quote": "And then the other thing that people test, which I think is where a lot of the interesting work happens, is actually capturing individual steps or interactions of an agent and trying to refine those.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            555.831,
+            558.853
+          ],
+          "quote": "Shape of an agent's interaction is very important.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            559.553,
+            575.562
+          ],
+          "quote": "To give you an example, if we continue using that pylon thing, like let's say the pylon agent looks up something on your documentation website as some step to be able to answer an initial question that a user had, that specific lookup might go wrong.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1074.884,
+            1076.665
+          ],
+          "quote": "And let's say you're building an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2017.489,
+            2032.844
+          ],
+          "quote": "Like you can use distributed tracing so that as we as a team want to add more context and structure, like maybe we're building an agent and we want all the LLM calls to be grouped together so that we can see the whole flow, you can kind of layer that onto the platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2417.587,
+            2422.95
+          ],
+          "quote": "A customer's LLM or agent's is not operating the way you would like to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2423.23,
+            2437.656
+          ],
+          "quote": "So kind of brain trust on behalf of the customer intervening or steering the LLM or the agent workflow to kind of, I don't know, make sure that you're within the thresholds that the customer provides.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2999.365,
+            3001.245
+          ],
+          "quote": "The second is at a single agent level.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 501,
+          "t": [
+            3001.345,
+            3007.347
+          ],
+          "quote": "The third perhaps is a multi-agent building a full AI system with multiple agents collaborating together.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 502,
+          "t": [
+            3007.987,
+            3029.078
+          ],
+          "quote": "So my question to you for the first question is where you see, as I jump in from one level, AI difficult, AI from single-param to single-agent to multi-agent, what's the, what's the, what's the remain that's consistent, what's the net new challenge we have to deal with?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 503,
+          "t": [
+            3029.818,
+            3042.284
+          ],
+          "quote": "The second question, as I thinking through your vision for the near future was becoming, do you predict this evolve things itself becoming an agent, a dedicated evolve agent?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 511,
+          "t": [
+            3073.507,
+            3080.513
+          ],
+          "quote": "As you go from single prompt to all the way through multi-agent, you are inherently building an increasingly complex system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 516,
+          "t": [
+            3102.072,
+            3116.684
+          ],
+          "quote": "So if you have a single agent system and you test it, you get very excited, and then you have a multi-agent system, the single agent of that multi-agent system might just behave very differently in the context of the multi-agent system than it did as a single agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3150.262,
+            3172.028
+          ],
+          "quote": "On the other hand, if you build, for example, like we'll get to this with question three, but if you build like really good scoring functions that represent the truth that you're trying to assess in the context of your use case, then who cares whether it's a multi-agent system or single-agent system or whatever, it's quite easy to reuse those actually for new systems.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "scoring-functions",
+      "type": "concept",
+      "role": "concept",
+      "name": "评分函数 (scoring functions)",
+      "file": "评分函数",
+      "primary": true,
+      "how_described": "本集说是最值得投入工程的最持久资产:开箱即用的评分体系都很烂,因为你要评估的正是你用例的独特之处;评分函数能跨架构、跨系统复用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 220,
+          "t": [
+            1352.855,
+            1354.997
+          ],
+          "quote": "to really engineer scoring functions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1355.057,
+            1368.766
+          ],
+          "quote": "And if you sort of zoom out and think about it, just like the sort of end-to-end evals, I think scoring functions are actually one of the most durable things you can invest in engineering because they should survive as you change things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1391.259,
+            1400.163
+          ],
+          "quote": "Unless there's some crazy stuff that you're doing and there's reasons for that, but also it's not super common, there's basically two kinds of scoring functions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3150.262,
+            3172.028
+          ],
+          "quote": "On the other hand, if you build, for example, like we'll get to this with question three, but if you build like really good scoring functions that represent the truth that you're trying to assess in the context of your use case, then who cares whether it's a multi-agent system or single-agent system or whatever, it's quite easy to reuse those actually for new systems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3311.558,
+            3314.879
+          ],
+          "quote": "And that applies, I think, both to scoring functions and especially to data.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "llm-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 当裁判 (LLM as a judge)",
+      "file": "LLM 当裁判",
+      "primary": true,
+      "how_described": "本集把 LLM 裁判比作 PM 写 PRD:写得越精确,跑评估的 LLM 就越成功;不该当基准,该当异常检测器,与启发式评分同时上、靠差异判断什么坏了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 235,
+          "t": [
+            1423.292,
+            1433.255
+          ],
+          "quote": "LLM as a judge, I actually think of it a lot like you're a PM and you're writing out the PRD criteria for whatever the project is that you're working on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1501.84,
+            1505.465
+          ],
+          "quote": "And are there ever examples where LLM as a judge doesn't work?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1510.61,
+            1526.635
+          ],
+          "quote": "Well, I think there's a lot of cases where it doesn't work very well, but I think if you reframe the utility of an LLM as a judge from being a benchmark to being an anomaly detector, then I think it's actually okay.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1527.095,
+            1535.277
+          ],
+          "quote": "So I would always recommend having heuristic scores and LLM as a judge in a particular use case, and then",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1669.525,
+            1685.253
+          ],
+          "quote": "And on day zero, if you're in a regulated use case, it is highly unlikely that you're going to let GPT-401 run free and use a premade LLM as a judge and determine whether or not something is financial advice.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1687.515,
+            1700.947
+          ],
+          "quote": "However, what you should do is still run that LLM as a judge, still manually review the outputs and the scores, and start to understand what are the cases where this thing is doing well and it's not.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2401.602,
+            2405.324
+          ],
+          "quote": "The second question is regarding LLM as a judge.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说护栏和评估是一个梯度:护栏是同步的、跑在关键路径上会拖慢系统但能拦住坏结果;现实中几乎没人运行护栏、人人跑评估,分界会随模型速度变化而移动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 286,
+          "t": [
+            1775.928,
+            1778.269
+          ],
+          "quote": "Hey, are you worried about guardrails?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2848.272,
+            2852.875
+          ],
+          "quote": "Actually, I would say that there's a gradient from guardrails to evaluation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2890.995,
+            2897.681
+          ],
+          "quote": "The reality is, at least the world that we live in, almost no one runs guardrails and almost everyone runs evals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2897.801,
+            2910.592
+          ],
+          "quote": "And I think that is primarily because, one, there's no good practices around guardrails, but two, the performance implications of using guardrails and the additional uncertainty is actually quite high.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2938.64,
+            2958.125
+          ],
+          "quote": "But if GPT, let's just say that GPT-4-2-mini is absurdly fast, like you can process 10,000 tokens a second or something, maybe suddenly that changes the dynamic and it makes sense to actually shift the gradient more towards guardrails and maybe take evals that you're doing offline and actually turn them into guardrails.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体 (multi-agent)",
+      "file": "多智能体",
+      "primary": true,
+      "how_described": "本集说模块化假设在 AI 里不成立:多智能体系统中的单个智能体,在多智能体上下文中的表现可能与它作为单智能体时非常不同,评估时应敢于推倒重来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 501,
+          "t": [
+            3001.345,
+            3007.347
+          ],
+          "quote": "The third perhaps is a multi-agent building a full AI system with multiple agents collaborating together.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 502,
+          "t": [
+            3007.987,
+            3029.078
+          ],
+          "quote": "So my question to you for the first question is where you see, as I jump in from one level, AI difficult, AI from single-param to single-agent to multi-agent, what's the, what's the, what's the remain that's consistent, what's the net new challenge we have to deal with?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 511,
+          "t": [
+            3073.507,
+            3080.513
+          ],
+          "quote": "As you go from single prompt to all the way through multi-agent, you are inherently building an increasingly complex system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 516,
+          "t": [
+            3102.072,
+            3116.684
+          ],
+          "quote": "So if you have a single agent system and you test it, you get very excited, and then you have a multi-agent system, the single agent of that multi-agent system might just behave very differently in the context of the multi-agent system than it did as a single agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3150.262,
+            3172.028
+          ],
+          "quote": "On the other hand, if you build, for example, like we'll get to this with question three, but if you build like really good scoring functions that represent the truth that you're trying to assess in the context of your use case, then who cares whether it's a multi-agent system or single-agent system or whatever, it's quite easy to reuse those actually for new systems.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "brainstore",
+      "type": "concept",
+      "role": "concept",
+      "name": "Brainstore",
+      "file": "Brainstore",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 387,
+          "t": [
+            2367.871,
+            2370.632
+          ],
+          "quote": "The first one was regarding BrainStore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2389.999,
+            2399.982
+          ],
+          "quote": "What your customers were asking and how that kind of translated to the design phase and how Brainstore defers to traditional databases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2671.035,
+            2679.321
+          ],
+          "quote": "The three people that worked on BrainStore were me, Manu, who's my brother, and he interned at MemSQL when he was in high school.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2718.676,
+            2721.278
+          ],
+          "quote": "And so that's when we realized we need to build Brainstore.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2758.44,
+            2766.207
+          ],
+          "quote": "We actually had a document that was like this is everything we need to do to turn Brainstore on and this is all the shit that we don't need to care about.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2784.883,
+            2790.208
+          ],
+          "quote": "And I remember the day that we turned Brainstore on for everyone, our infra was melting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2790.688,
+            2795.472
+          ],
+          "quote": "And Brainstore, we were like, OK, the only way we're going to get out of this is by turning Brainstore on for everyone.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2806.641,
+            2808.943
+          ],
+          "quote": "But that's the story behind Brainstore.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "type": "company",
+      "role": "company",
+      "name": "Notion",
+      "file": "Notion",
+      "primary": true,
+      "how_described": "本集说 Notion 的 AI 产品普遍领先所有人六个月,抱怨 Braintrust 太慢,其日志量暴涨与 50 KB 大 span 的数据形态直接催生了 Brainstore。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            293.689,
+            307.821
+          ],
+          "quote": "Some of our first users were companies like Zapier, Coda, Airtable, Notion, who are really ahead of the curve in actually incorporating AI into their products and now, I think, are very much leading the way with agents, which would be great to talk about in a bit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2526.906,
+            2543.037
+          ],
+          "quote": "Around, must have been a little under a year ago, so like last June or July, the Notion people, who I think are generally six months ahead of everyone else in terms of product, service area, actual adoption of their AI products,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2567.085,
+            2581.17
+          ],
+          "quote": "And they were just typing stuff like, hey, how do I, or, you know, searching for stuff in prompts, like maybe Corinne's using Notion AI and she pinged someone like, hey, you know, I wasn't able to turn this thing into a table.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2619.19,
+            2620.831
+          ],
+          "quote": "You know, state from the Notion documents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2632.619,
+            2637.222
+          ],
+          "quote": "And we looked at it and we're like, you know, none of this stuff can support what Notion is trying to do now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2699.658,
+            2703.623
+          ],
+          "quote": "And then eventually we made a benchmark that was like 100 times what Notion was trying to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2779.779,
+            2783.943
+          ],
+          "quote": "And so we broke ground in October and we shipped it to Notion in January and everyone else in February.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": false,
+      "how_described": "本集提到 Ankur 此前被 Impira 收购后到 Figma 领导 AI 团队,又遇到了和 Impira 一模一样的评估问题,促成了二次造轮子的觉察。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            15.033,
+            29.044
+          ],
+          "quote": "From then all the way through when I was working at Figma, very little had changed about evals, even though the things we're evaluating and some of the metrics and blah, blah, blah, all this stuff is changing, but the discipline itself hadn't changed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 41,
+          "t": [
+            239.696,
+            242.998
+          ],
+          "quote": "But then we got acquired by Figma, and I led the AI team there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2071.675,
+            2093.79
+          ],
+          "quote": "From then all the way through when I was working at Figma, very little had changed about evals even though the things we're evaluating and some of the metrics and you know blah blah blah all this stuff is changing but the discipline itself hadn't changed and that gives me a lot of internal conviction that eight years from now evals will still be very relevant and they'll be kind of like the",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "clickhouse",
+      "type": "company",
+      "role": "company",
+      "name": "ClickHouse",
+      "file": "ClickHouse",
+      "primary": false,
+      "how_described": "本集提到团队试过 ClickHouse 做存储但撑不住用例,读了『数量多到难为情的 ClickHouse 源代码』仍无解,最终在全员上线 Brainstore 那晚『ClickHouse 死掉了』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 407,
+          "t": [
+            2485.191,
+            2501.658
+          ],
+          "quote": "And when we started working on BrainTrust, we tried using the sort of classic cocktail of available databases out there to build a product like ours, which is Postgres, ClickHouse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2516.145,
+            2523.89
+          ],
+          "quote": "And what's interesting is we ended up just using Postgres, and then a little bit later we started using ClickHouse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2710.09,
+            2716.175
+          ],
+          "quote": "You know, an embarrassing amount of ClickHouse's source code and, you know, we just tried to figure out how we're going to do this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2796.053,
+            2800.796
+          ],
+          "quote": "And rest in peace, that's also the night that ClickHouse died and it's never recovered.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": false,
+      "how_described": "本集说 MMLU 已完全是个毫无意义的东西,模型发布时晒性能柱状图『全是营销,背后几乎没有什么科学依据』,有些公司的评估模型根本没法运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            188.268,
+            197.03
+          ],
+          "quote": "So you'd run a benchmark and you'd see, hey, we've gone in aggregate from 82% to 86%, and everyone would get really excited.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1510.61,
+            1526.635
+          ],
+          "quote": "Well, I think there's a lot of cases where it doesn't work very well, but I think if you reframe the utility of an LLM as a judge from being a benchmark to being an anomaly detector, then I think it's actually okay.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2699.658,
+            2703.623
+          ],
+          "quote": "And then eventually we made a benchmark that was like 100 times what Notion was trying to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 555,
+          "t": [
+            3351.758,
+            3352.899
+          ],
+          "quote": "So it's like, what is this benchmark?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompt)",
+      "file": "提示词",
+      "primary": false,
+      "how_described": "本集说大模型靠提示词驱动、改动几乎零成本,这是评估频率从 2016 年跑一次要重训模型、变成今天免费用户每天平均 10 次的原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            197.39,
+            204.292
+          ],
+          "quote": "And then you ship a new version of a model or a prompt or a system out to a customer, and maybe that 4% improvement",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            435.343,
+            449.607
+          ],
+          "quote": "Agents have actually made the simple paradigm of basically I'm writing a system prompt and I'm kind of crafting a software system around it, primarily the tools, a much simpler thing to actually engineer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 87,
+          "t": [
+            514.582,
+            522.807
+          ],
+          "quote": "And that evaluation actually looks quite a bit like the single-shot prompt evaluation, where you have an input, you have some system, you have an output.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 119,
+          "t": [
+            720.912,
+            727.817
+          ],
+          "quote": "Like maybe actually use a single prompt and let it hallucinate some of the steps that it might run or don't let it run some of the intermediate steps.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            906.072,
+            912.955
+          ],
+          "quote": "And when you observe that, that is the moment that you should say, okay, I'm not going to change my agentic system or prompt or whatever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1137.851,
+            1158.6
+          ],
+          "quote": "So if you imagine an eval like what I just described, whether you're using a for loop with tools, or you're using that nuclear reactor thing, or you have a single prompt, or maybe something else in the future, the input and output and some of the intermediate materials to actually help you solve that problem, they don't really change.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1368.826,
+            1373.75
+          ],
+          "quote": "So if you change a model, you might rip apart a prompt, you might remove stuff, blah, blah, blah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2153.803,
+            2158.027
+          ],
+          "quote": "And the reason that's possible is because large language models, you prompt them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2997.444,
+            2998.904
+          ],
+          "quote": "One is at a single prompt level.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 511,
+          "t": [
+            3073.507,
+            3080.513
+          ],
+          "quote": "As you go from single prompt to all the way through multi-agent, you are inherently building an increasingly complex system.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

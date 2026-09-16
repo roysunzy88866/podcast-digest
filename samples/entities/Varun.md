@@ -1,43 +1,45 @@
 ---
-title: LLM 判别器 (LLM as a judge)
-entity_type: 概念
+title: Varun
+entity_type: 人物
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM 判别器 (LLM as a judge)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Varun</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM 判别器">LL</div><div class="pi"><h1 class="pt">LLM 判别器 (LLM as a judge)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Varun">VA</div><div class="pi"><h1 class="pt">Varun</h1><div class="byl">精选演讲 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
-## 集里怎么说它
+## ① 他说过的话
 
-- **[[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]]**(26:44起):本集说 LLM 判别器是针对你描述了期望行为但智能体还是反复犯的顽固问题而建的自动评估方式，输出必须是二元判断（true/false），不能打 1-5 分。
-- **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(20:35起):本集说评测中 30% 权重来自 LLM 评委（使用 GPT-5.5），去掉人味后 LLM 评委讨厌 Grok、偏爱 Claude——说明纯靠 LLM-as-judge 会漏掉人类在意的维度
-- **[[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]]**(05:14起):本集把它说成：用大模型给输出打分的自动化评估器，属非确定离线一格；每个模型裁判都有内在偏好，只围着它爬山可能过拟合。
-- **[[2026-09-10-talks-training-taste-thais-castello-branco-tas|《终结 AI 垃圾内容：Taste Labs 如何度量并对抗 slop》]]**(08:29起):本集说让一个大模型直接判断内容是优质人类作品还是 AI 垃圾的方法，其表现不如他们组合多个探针的做法。
+*3 条*
 
-## ① 提到它的金句
+![[2025-06-03-talks-pioneering-agentic-applications-with-dec#^q3]]
 
-*1 条*
+![[2025-06-03-talks-pioneering-agentic-applications-with-dec#^q6]]
 
-![[2026-09-10-talks-training-taste-thais-castello-branco-tas#^q5]]
+![[2025-06-03-talks-pioneering-agentic-applications-with-dec#^q8]]
 
 ## ② 出现在这些集
 
-*4 集*
+*1 集*
 
-- [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]] — 作为概念
-- [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为概念(提及)
-- [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]] — 作为概念
-- [[2026-09-10-talks-training-taste-thais-castello-branco-tas|《终结 AI 垃圾内容：Taste Labs 如何度量并对抗 slop》]] — 作为概念
+- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为联合主持
 
-## ③ 关联
+## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[评估]] · [[Claude]] · [[trace]] · [[Codex]] · [[Lenny]] · [[GrokBot]] · [[Vishu]] · [[Thais Castello Branco]] · [[Hamel Husain]]
+[[Corinne Riley]] · [[Spiros]] · [[Jesse]] · [[Decagon]] · [[Windsurf]] · [[Resolve]] · [[智能体]] · [[Copilot]] · [[多智能体协作]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":240,"评估":1,"Claude":58,"trace":2,"Codex":47,"Lenny":67,"GrokBot":6,"Vishu":1,"Thais Castello Branco":1,"Hamel Husain":1}</script>
+## ④ 也在聊「智能体」的人
+
+<div class="pd-peers">
+
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+
+</div>
+
+<script type="application/json" class="pd-epn">{"Corinne Riley":3,"Spiros":1,"Jesse":1,"Decagon":7,"Windsurf":5,"Resolve":2,"智能体":243,"Copilot":11,"多智能体协作":2,"护栏":46}</script>
 
 <script>
 (function(){

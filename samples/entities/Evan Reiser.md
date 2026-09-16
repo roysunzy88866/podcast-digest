@@ -1,31 +1,51 @@
 ---
-title: 社会工程学 (social engineering)
-entity_type: 概念
+title: Evan Reiser
+entity_type: 人物
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>社会工程学 (social engineering)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Evan Reiser</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="社会工程学">社会</div><div class="pi"><h1 class="pt">社会工程学 (social engineering)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Evan Reiser">EV</div><div class="pi"><h1 class="pt">Evan Reiser</h1><div class="byl">精选演讲 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
-## 集里怎么说它
+## ① 他说过的话
 
-- **[[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|《AI 安全排行榜：谁扛住了越狱，谁没有》]]**(01:42起):本集指出越狱核心技术本质上是社会工程学——针对一个相当轻信的人，包括诉诸权威、施压、指令模型不要拒绝等手法，单个没用但堆叠组合就能穿透护栏。
+*6 条*
+
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q1]]
+
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q4]]
+
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q7]]
+
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q11]]
+
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q12]]
+
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q14]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|《AI 安全排行榜：谁扛住了越狱，谁没有》]] — 作为概念
+- [[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma|《当攻击用 AI、防守靠智能体：Abnormal 与 Cogent 聊智能体网络安全》]] — 作为联合主持
 
-## ③ 关联
+## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Adam Gleave]] · [[FAR AI]] · [[通用越狱]] · [[思维链]] · [[护栏]] · [[探针]] · [[预训练数据过滤]] · [[安全补全]] · [[越狱税]] · [[后训练]]
+[[Corinne Riley]] · [[Vineet Edupuganti]] · [[Abnormal]] · [[Cogent Security]] · [[智能体]] · [[漏洞管理]] · [[自主修复]] · [[邮件安全]] · [[身份威胁检测]] · [[人在回路]]
 
-<script type="application/json" class="pd-epn">{"Adam Gleave":1,"FAR AI":1,"通用越狱":1,"思维链":4,"护栏":44,"探针":2,"预训练数据过滤":1,"安全补全":1,"越狱税":1,"后训练":21}</script>
+## ④ 也在聊「智能体」的人
+
+<div class="pd-peers">
+
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+
+</div>
+
+<script type="application/json" class="pd-epn">{"Corinne Riley":3,"Vineet Edupuganti":1,"Abnormal":1,"Cogent Security":1,"智能体":243,"漏洞管理":1,"自主修复":1,"邮件安全":1,"身份威胁检测":1,"人在回路":10}</script>
 
 <script>
 (function(){

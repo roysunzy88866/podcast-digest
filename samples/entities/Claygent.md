@@ -29,9 +29,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Vishu]] · [[Clay]] · [[Sculptor]] · [[LangChain]] · [[智能体]] · [[评估]] · [[trace]] · [[LLM 判别器]] · [[harness]] · [[数据湖]]
+[[Vishu]] · [[Clay]] · [[Sculptor]] · [[LangChain]] · [[智能体]] · [[评估]] · [[trace]] · [[LLM 当裁判]] · [[harness]] · [[数据湖]]
 
-<script type="application/json" class="pd-epn">{"Vishu":1,"Clay":3,"Sculptor":1,"LangChain":5,"智能体":240,"评估":1,"trace":2,"LLM 判别器":4,"harness":32,"数据湖":2}</script>
+<script type="application/json" class="pd-epn">{"Vishu":1,"Clay":3,"Sculptor":1,"LangChain":5,"智能体":243,"评估":1,"trace":2,"LLM 当裁判":5,"harness":32,"数据湖":2}</script>
 
 <script>
 (function(){

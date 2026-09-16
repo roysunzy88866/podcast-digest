@@ -11,14 +11,14 @@ description: "用 Claude Code 技能把产品判断、市场调研和写代码�
 host: "[[Aakash]]"
 cohosts: ["[[Oji Udezue]]"]
 companies: ["[[Product Mind]]", "[[GitHub]]"]
-concepts: ["[[Claude Code]]", "[[项目脚手架技能]]", "[[可行性闸门]]", "[[vibe coder]]", "[[builder PM]]", "[[AI 原生]]", "[[三速问题]]", "[[客户发现周]]"]
+concepts: ["[[Claude Code]]", "[[项目脚手架技能]]", "[[可行性闸门]]", "[[vibe coder]]", "[[builder PM]]", "[[AI 原生公司]]", "[[三速问题]]", "[[客户发现周]]"]
 category: AI 编程
 tags:
   - AI 编程
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2026-08-06-pg-oji-udezue-claude-skills.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills#post","headline":"让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills","mainEntityOfPage":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills","description":"用 Claude Code 技能把产品判断、市场调研和写代码的活一口气干完,让 PM 以工程速度做决策。","datePublished":"2026-08-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-06-pg-oji-udezue-claude-skills.jpg","isBasedOn":"https://www.news.aakashg.com/p/oji-udezue-claude-skills","about":[{"@type":"Person","name":"Aakash"},{"@type":"Person","name":"Oji Udezue"},{"@type":"Organization","name":"Product Mind"},{"@type":"Organization","name":"GitHub"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"项目脚手架技能 (scaffolding skill)"},{"@type":"Thing","name":"可行性闸门 (viability gate)"},{"@type":"Thing","name":"vibe coder"},{"@type":"Thing","name":"builder PM"},{"@type":"Thing","name":"AI 原生 (AI native)"},{"@type":"Thing","name":"三速问题 (three speed problem)"},{"@type":"Thing","name":"客户发现周 (customer discovery week)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包","item":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills#post","headline":"让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills","mainEntityOfPage":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills","description":"用 Claude Code 技能把产品判断、市场调研和写代码的活一口气干完,让 PM 以工程速度做决策。","datePublished":"2026-08-07","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-06-pg-oji-udezue-claude-skills.jpg","isBasedOn":"https://www.news.aakashg.com/p/oji-udezue-claude-skills","about":[{"@type":"Person","name":"Aakash"},{"@type":"Person","name":"Oji Udezue"},{"@type":"Organization","name":"Product Mind"},{"@type":"Organization","name":"GitHub"},{"@type":"Thing","name":"Claude Code"},{"@type":"Thing","name":"项目脚手架技能 (scaffolding skill)"},{"@type":"Thing","name":"可行性闸门 (viability gate)"},{"@type":"Thing","name":"vibe coder"},{"@type":"Thing","name":"builder PM"},{"@type":"Thing","name":"AI 原生公司 (AI-native)"},{"@type":"Thing","name":"三速问题 (three speed problem)"},{"@type":"Thing","name":"客户发现周 (customer discovery week)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包","item":"https://talk.solomind.cc/2026-08-06-pg-oji-udezue-claude-skills"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -36,13 +36,13 @@ jsonLd: |
 >
 > **公司** [[Product Mind]] · [[GitHub]]
 >
-> **概念** [[Claude Code]] · [[项目脚手架技能]] · [[可行性闸门]] · [[vibe coder]] · [[builder PM]] · [[AI 原生]] · [[三速问题]] · [[客户发现周]]
+> **概念** [[Claude Code]] · [[项目脚手架技能]] · [[可行性闸门]] · [[vibe coder]] · [[builder PM]] · [[AI 原生公司]] · [[三速问题]] · [[客户发现周]]
 >
 > **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/oji-udezue-claude-skills)
 
 做了 25 年产品经理、当过 Typeform 和 Calendly 的 CPO,他最近才头一回觉得编程值得自己花时间——因为他发现 AI 现在不只能帮你写代码,还能在写代码之前就替你把关:这个产品到底该不该做。说这话的人是 [[Oji Udezue|Oji Udezue]],这一集 [[Aakash|Aakash]] 请他来现场演示怎么做到的。
 
-Oji 在 [[Product Mind|Product Mind]] 做咨询,帮助企业把产品改造成 [[AI 原生|AI 原生]]的。他聊了三件事:他做的一套给 [[Claude Code|Claude Code]] 用的产品判断技能,特别是其中最核心的「[[项目脚手架技能|项目脚手架技能]]」;怎么用这套技能做市场调研、可行性判断,甚至让 AI 直接告诉你某个点子不值得做;以及怎么进一步做原型、客户发现计划,把原本散落在 Notion、Figma 和 [[GitHub|GitHub]] 里的团队工作收拢到一个共享仓库里。结尾他还回答了一个很实际的问题:企业团队想这么干,最大的坑是什么。
+Oji 在 [[Product Mind|Product Mind]] 做咨询,帮助企业把产品改造成 [[AI 原生公司|AI 原生]]的。他聊了三件事:他做的一套给 [[Claude Code|Claude Code]] 用的产品判断技能,特别是其中最核心的「[[项目脚手架技能|项目脚手架技能]]」;怎么用这套技能做市场调研、可行性判断,甚至让 AI 直接告诉你某个点子不值得做;以及怎么进一步做原型、客户发现计划,把原本散落在 Notion、Figma 和 [[GitHub|GitHub]] 里的团队工作收拢到一个共享仓库里。结尾他还回答了一个很实际的问题:企业团队想这么干,最大的坑是什么。
 
 要说为什么这件事重要,先得看清 Oji 眼下的行业格局判断。GitHub 上充斥着给 AI 用的代码技能,要么帮你省 token,要么帮你改成本,全在代码层打转。
 

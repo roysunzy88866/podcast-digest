@@ -1,79 +1,29 @@
 ---
-title: 信任护城河 (trust)
-entity_type: 概念
+title: Corinne Riley
+entity_type: 人物
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>信任护城河 (trust)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Corinne Riley</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="信任护城河">信任</div><div class="pi"><h1 class="pt">信任护城河 (trust)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
-
-## 集里怎么说它
-
-- **[[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|《Wix CEO Avishai:SaaS 末日下,我们凭什么值钱》]]**(09:05起):本集核心论点：判断 AI 威胁要看信任——JP Morgan 在封闭安全环境之外只信任 Salesforce 保管客户数据，「这极其难被改变」。
-
-## ① 提到它的金句
-
-*22 条*
-
-![[2026-02-01-lennys-dr-becky-on-the-surprising-overlap#^q3]]
-
-![[2026-03-22-lennys-the-art-of-influence-jessica-fain#^q6]]
-
-![[2026-05-10-lennys-how-to-build-a-company-that-withstands#^q13]]
-
-![[2026-06-03-latent-space-satya-2026#^q7]]
-
-![[2026-06-25-practicalai-aiuc-1-building-trust-in-ai-agents#^q1]]
-
-![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q12]]
-
-![[2026-07-20-pmf-1st-time-solo-founder-does-90-interviews#^q14]]
-
-![[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo#^q6]]
-
-![[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo#^q7]]
-
-![[2026-08-02-lennys-this-cpo-regrets-that-product-management#^q6]]
-
-![[2026-08-10-pmf-he-lost-all-5-of-his-first-deals-then-bu#^q3]]
-
-![[2026-08-17-twentyvc-20vc-uber-president-on-the-untold-uber-s#^q7]]
-
-![[2026-08-19-a16z-how-whatnot-built-a-global-marketplace-d#^q4]]
-
-![[2026-08-19-productpodcast-square-global-head-of-product-on-how-to#^q6]]
-
-![[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3#^q7]]
-
-![[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver#^q8]]
-
-![[2026-09-07-grit-the-ai-race-has-a-leaderboard-arena-ceo#^q1]]
-
-![[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t#^q5]]
-
-![[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t#^q6]]
-
-![[2026-09-09-beyondcoding-how-this-ex-googler-accidentally-founded#^q3]]
-
-![[2026-09-11-engenable-how-okta-sets-guardrails-and-context-for#^q1]]
-
-![[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th#^q7]]
+<div class="pd-phero"><div class="av" data-cat="Corinne Riley">CO</div><div class="pi"><h1 class="pt">Corinne Riley</h1><div class="byl">精选演讲 主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ② 出现在这些集
 
-*1 集*
+*3 集*
 
-- [[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|《Wix CEO Avishai:SaaS 末日下,我们凭什么值钱》]] — 作为概念
+- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为主持
+- [[2025-09-16-talks-evaluating-agents-with-braintrust|《Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变》]] — 作为主持
+- [[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma|《当攻击用 AI、防守靠智能体：Abnormal 与 Cogent 聊智能体网络安全》]] — 作为主持
 
-## ③ 关联
+## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Harry Stebbings]] · [[Avishai Abrahami]] · [[Wix]] · [[Base44]] · [[Salesforce]] · [[Atlassian]] · [[vibe coding]] · [[SaaS]] · [[回购]] · [[股权激励]]
+[[智能体]] · [[护栏]] · [[人在回路]] · [[Spiros]] · [[Ankur Goyal]] · [[Vineet Edupuganti]] · [[Jesse]] · [[Braintrust]] · [[Evan Reiser]] · [[Varun]]
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Avishai Abrahami":1,"Wix":3,"Base44":3,"Salesforce":20,"Atlassian":5,"vibe coding":33,"SaaS":16,"回购":1,"股权激励":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":243,"护栏":46,"人在回路":10,"Spiros":1,"Ankur Goyal":2,"Vineet Edupuganti":1,"Jesse":1,"Braintrust":2,"Evan Reiser":1,"Varun":1}</script>
 
 <script>
 (function(){

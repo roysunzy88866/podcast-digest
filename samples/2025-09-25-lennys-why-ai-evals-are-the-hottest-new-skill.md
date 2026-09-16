@@ -10,14 +10,14 @@ image: "/covers/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill.jpg"
 description: evals 的本质是数据分析，不是上来就写测试；最忌讳让 AI 替你做错误分析。
 host: "[[Lenny]]"
 cohosts: ["[[Hamel Husain]]", "[[Shreya Shankar]]"]
-concepts: ["[[评估]]", "[[错误分析]]", "[[开放式编码]]", "[[轴向编码]]", "[[LLM 判别器]]", "[[智能体]]", "[[trace]]"]
+concepts: ["[[评估]]", "[[错误分析]]", "[[开放式编码]]", "[[轴向编码]]", "[[LLM 当裁判]]", "[[智能体]]", "[[trace]]"]
 category: 智能体
 tags:
   - 智能体
   - 产品方法
 socialImage: "https://talk.solomind.cc/covers/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill#post","headline":"做 evals 不是写单元测试，是从看数据开始的错误分析","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill","mainEntityOfPage":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill","description":"evals 的本质是数据分析，不是上来就写测试；最忌讳让 AI 替你做错误分析。","datePublished":"2026-08-15","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Hamel Husain"},{"@type":"Person","name":"Shreya Shankar"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"错误分析 (error analysis)"},{"@type":"Thing","name":"开放式编码 (open coding)"},{"@type":"Thing","name":"轴向编码 (axial coding)"},{"@type":"Thing","name":"LLM 判别器 (LLM as a judge)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"trace"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"做 evals 不是写单元测试，是从看数据开始的错误分析","item":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill#post","headline":"做 evals 不是写单元测试，是从看数据开始的错误分析","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill","mainEntityOfPage":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill","description":"evals 的本质是数据分析，不是上来就写测试；最忌讳让 AI 替你做错误分析。","datePublished":"2026-08-15","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill.jpg","isBasedOn":"https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill","about":[{"@type":"Person","name":"Lenny"},{"@type":"Person","name":"Hamel Husain"},{"@type":"Person","name":"Shreya Shankar"},{"@type":"Thing","name":"评估 (evals)"},{"@type":"Thing","name":"错误分析 (error analysis)"},{"@type":"Thing","name":"开放式编码 (open coding)"},{"@type":"Thing","name":"轴向编码 (axial coding)"},{"@type":"Thing","name":"LLM 当裁判 (LLM as a judge)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"trace"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"做 evals 不是写单元测试，是从看数据开始的错误分析","item":"https://talk.solomind.cc/2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>做 evals 不是写单元测试，是从看数据开始的错误分析</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -33,7 +33,7 @@ jsonLd: |
 > [!info] 关联
 > **人物** [[Lenny]] · [[Hamel Husain]] · [[Shreya Shankar]]
 >
-> **概念** [[评估]] · [[错误分析]] · [[开放式编码]] · [[轴向编码]] · [[LLM 判别器]] · [[智能体]] · [[trace]]
+> **概念** [[评估]] · [[错误分析]] · [[开放式编码]] · [[轴向编码]] · [[LLM 当裁判]] · [[智能体]] · [[trace]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill)
 
@@ -61,7 +61,7 @@ LLM 第一轮给的结果通常太泛，比如"能力限制"——不可操作�
 
 不是所有故障都需要写 eval。有些一看就知道怎么修（比如 prompt 里忘了说输出格式），直接改 prompt 就行 <button class="pd-ts" data-t="46:07" data-who="Hamel Husain" data-en="Now, you have some way of looking at your problem, and now you can think about whether you need evals for some of these. So there might be some of these things that might be just dumb engineering errors that you don't need to write an eval for because it's very obvious on how to fix them." aria-label="回原文"></button>。真正需要建 eval 的是那些你描述了期望行为但[[智能体|智能体]]还是犯的"顽固问题" <button class="pd-ts" data-t="65:29" data-who="Shreya Shankar" data-en="It's not that many, because a lot of the failure modes, as Hamel said earlier, can be fixed by just fixing your prompt. You just didn't think to put it in your prompts, so now you put it in your... You shouldn't do an eval like this for everything, just the pesky ones that you've described your ideal behavior in your agent prompt, but it's still failing." aria-label="回原文"></button>。
 
-两种自动评估方式：基于代码的（本质上就是单元测试，检查输出是不是 JSON、够不够短等，便宜）和 LLM 作为判别器（处理主观判断，比如"该不该转人工"）<button class="pd-ts" data-t="48:06" data-who="Shreya Shankar" data-en="So there's different kinds of evals. One is code-based, which you should try to do if you can because they're cheaper. LLM as a judge is something, it's like a meta eval." aria-label="回原文"></button>。一个产品通常只需要 4 到 7 个 [[LLM 判别器|LLM 判别器]]，不用多 <button class="pd-ts" data-t="65:19" data-who="Shreya Shankar" data-en="I know, obviously, depends complexity to the product, but what's a number in your experience? For me, between four and seven. That's it." aria-label="回原文"></button>。
+两种自动评估方式：基于代码的（本质上就是单元测试，检查输出是不是 JSON、够不够短等，便宜）和 LLM 作为判别器（处理主观判断，比如"该不该转人工"）<button class="pd-ts" data-t="48:06" data-who="Shreya Shankar" data-en="So there's different kinds of evals. One is code-based, which you should try to do if you can because they're cheaper. LLM as a judge is something, it's like a meta eval." aria-label="回原文"></button>。一个产品通常只需要 4 到 7 个 [[LLM 当裁判|LLM 判别器]]，不用多 <button class="pd-ts" data-t="65:19" data-who="Shreya Shankar" data-en="I know, obviously, depends complexity to the product, but what's a number in your experience? For me, between four and seven. That's it." aria-label="回原文"></button>。
 
 写判别器 prompt 的关键规则：**输出必须是二元判断（true/false 或 pass/fail）**，不要用 1-5 分打分 <button class="pd-ts" data-t="52:35" data-who="Hamel Husain" data-en="Like Shreya said, you would want to do one specific failure and you want to make it binary because we want to simplify things. We don't want, &quot;Hey, score this on a rating of one to five." aria-label="回原文"></button>。打分是"不做决定的圆滑方式"，而且没人知道 3.2 和 3.7 到底差什么 <button class="pd-ts" data-t="52:46" data-who="Hamel Husain" data-en="That's just in most cases, that's a weasel way of not making a decision. Like, &quot;No, you need to make a decision. Is this good enough or not?" aria-label="回原文"></button>。
 
@@ -145,9 +145,9 @@ A-B 测试 vs eval 也不是对立的：A-B 测试本身就隐含了一个评估
 
 **顺着「智能体」挖下去**
 
+- [[2025-09-16-talks-evaluating-agents-with-braintrust|Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变]]<span class="pd-rz">同概念:evals、LLM 判别器 (LLM as a judge)、智能体 (agent)</span>
 - [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|Clay 的智能体矩阵：如何为数十亿次运行建评估]]<span class="pd-rz">同概念:LLM 判别器 (LLM as a judge)、trace、智能体 (agent)</span>
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Anthropic · 同概念:evals、智能体 (agent)</span>
-- [[2026-08-11-talks-circleback-ceo-ali-haghani-why-your-comp|Circleback 创始人 Ali：把公司记忆和运营流程全部交给智能体]]<span class="pd-rz">同公司:Claude Code · 同概念:evals、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

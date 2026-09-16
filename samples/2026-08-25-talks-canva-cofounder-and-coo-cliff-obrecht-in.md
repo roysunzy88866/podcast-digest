@@ -141,8 +141,8 @@ Cliff 说 Canva 现在最需要「去程序化」的对象，是他们自己过�
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR]]<span class="pd-rz">同概念:人在回路 (human in the loop)、模板 (templates)</span>
+- [[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma|当攻击用 AI、防守靠智能体：Abnormal 与 Cogent 聊智能体网络安全]]<span class="pd-rz">同概念:人在回路 (human in the loop)</span>
 - [[2025-11-02-lennys-the-making-of-canva|Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来]]<span class="pd-rz">同公司:Canva</span>
-- [[2026-05-20-talks-the-infrastructure-behind-ai-agents-with|Base 10 的 Julian：推理正在从「租用智能」走向「拥有智能」]]<span class="pd-rz">同概念:推理 (inference)</span>
 
 </div>
 <div class="pd-ex">
@@ -151,7 +151,7 @@ Cliff 说 Canva 现在最需要「去程序化」的对象，是他们自己过�
 
 - [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网]]<span class="pd-rz">同概念:推理 (inference)、SEO</span>
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|Parag：为什么智能体搜索不该照搬人类那一套]]<span class="pd-rz">同概念:推理 (inference)、SEO</span>
-- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同概念:SEO</span>
+- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:人在回路 (human in the loop)</span>
 
 </div>
 </div>

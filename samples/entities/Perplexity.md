@@ -43,7 +43,7 @@ unlisted: true
 
 [[ChatGPT]] · [[OpenAI]] · [[Shopify]] · [[Stripe]] · [[Lenny]] · [[智能体]] · [[Google]] · [[Anthropic]] · [[Sam Motamity]] · [[Sal Motamini]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":65,"OpenAI":113,"Shopify":9,"Stripe":31,"Lenny":67,"智能体":240,"Google":42,"Anthropic":123,"Sam Motamity":1,"Sal Motamini":1}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":65,"OpenAI":113,"Shopify":9,"Stripe":31,"Lenny":67,"智能体":243,"Google":42,"Anthropic":123,"Sam Motamity":1,"Sal Motamini":1}</script>
 
 <script>
 (function(){

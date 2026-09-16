@@ -190,9 +190,9 @@ Gamma 很早就押注做[[横向产品|横向产品]]而非聚焦特定人群的
 
 **换个口味**
 
+- [[2025-09-16-talks-evaluating-agents-with-braintrust|Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变]]<span class="pd-rz">同公司:Notion · 同概念:护栏 (guardrails)、评测 (evals)</span>
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|Jessica Fain:如何影响高管——把高管当用户来研究]]<span class="pd-rz">同公司:Slack · 同概念:产品市场契合 (product market fit)、护栏 (guardrails)</span>
 - [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR]]<span class="pd-rz">同公司:Salesforce · 同概念:LLM、护栏 (guardrails)</span>
-- [[2026-09-03-practicalai-less-about-models-more-about-architectur|Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构]]<span class="pd-rz">同概念:LLM、生成式 AI (generative AI)、护栏 (guardrails)</span>
 
 </div>
 </div>

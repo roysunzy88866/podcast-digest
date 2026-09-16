@@ -11,14 +11,14 @@ description: Practical AI 两位主持人在 IBM 股价暴跌当日对谈：企�
 host: "[[Chris Benson]]"
 cohosts: ["[[Daniel Whitenack]]"]
 companies: ["[[IBM]]"]
-concepts: ["[[智能体]]", "[[企业软件]]", "[[微调]]", "[[MCP]]", "[[开源模型]]", "[[智能体对智能体]]"]
+concepts: ["[[智能体]]", "[[企业软件]]", "[[微调]]", "[[MCP]]", "[[开源模型]]", "[[多智能体协作]]"]
 category: 智能体
 tags:
   - 智能体
   - 创业与行业
 socialImage: "https://talk.solomind.cc/covers/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag#post","headline":"IBM 单日暴跌 25%:企业软件的好日子到头了吗？","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag","mainEntityOfPage":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag","description":"Practical AI 两位主持人在 IBM 股价暴跌当日对谈：企业软件为何集体失宠，智能体经济正在如何改写商业 fundamentals。","datePublished":"2026-08-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag.jpg","about":[{"@type":"Person","name":"Chris Benson"},{"@type":"Person","name":"Daniel Whitenack"},{"@type":"Organization","name":"IBM"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"企业软件 (enterprise software)"},{"@type":"Thing","name":"微调 (fine tuning)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"开源模型 (open source models)"},{"@type":"Thing","name":"智能体对智能体 (agent to agent)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"IBM 单日暴跌 25%:企业软件的好日子到头了吗？","item":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag#post","headline":"IBM 单日暴跌 25%:企业软件的好日子到头了吗？","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag","mainEntityOfPage":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag","description":"Practical AI 两位主持人在 IBM 股价暴跌当日对谈：企业软件为何集体失宠，智能体经济正在如何改写商业 fundamentals。","datePublished":"2026-08-24","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag.jpg","about":[{"@type":"Person","name":"Chris Benson"},{"@type":"Person","name":"Daniel Whitenack"},{"@type":"Organization","name":"IBM"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"企业软件 (enterprise software)"},{"@type":"Thing","name":"微调 (fine tuning)"},{"@type":"Thing","name":"MCP"},{"@type":"Thing","name":"开源模型 (open source models)"},{"@type":"Thing","name":"多智能体协作 (agent-to-agent)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"IBM 单日暴跌 25%:企业软件的好日子到头了吗？","item":"https://talk.solomind.cc/2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>IBM 单日暴跌 25%:企业软件的好日子到头了吗？</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -36,7 +36,7 @@ jsonLd: |
 >
 > **公司** [[IBM]]
 >
-> **概念** [[智能体]] · [[企业软件]] · [[微调]] · [[MCP]] · [[开源模型]] · [[智能体对智能体]]
+> **概念** [[智能体]] · [[企业软件]] · [[微调]] · [[MCP]] · [[开源模型]] · [[多智能体协作]]
 
 这一集是 Practical AI 播客的“完全连接”环节——没有嘉宾，只有两位主持人自由对聊：PredictionGuard 的 CEO [[Daniel Whitenack|Daniel Whitenack]],和首席 AI 与自主研究工程师 [[Chris Benson|Chris Benson]]。聊的由头是当天早上的一条新闻：[[IBM|IBM]] 股票单日暴跌 25%,约合 700 亿美元市值蒸发，是该公司 50 多年来最惨的单日跌幅，甚至超过了 1987 年“黑色星期一”崩盘时的损失。两人由此展开了一场关于[[企业软件|企业软件]]、[[智能体|智能体]]经济和人类角色的高密度讨论。
 
@@ -64,7 +64,7 @@ Daniel 从从业者角度给了一个校准：这个未来不远。他在谈自�
 
 对于 IBM、NetSuite 或垂直 SaaS 厂商怎么活下来，两人看到两种策略：一种是把自己的价值押在数据平台和功能上，通过 [[MCP|MCP]](一种让智能体访问外部工具和数据的协议)提供通往 AI 世界的连接器；另一种则拒绝接入通用智能体生态，自建一套专有智能体。
 
-Chris 的判断更进一步：未来绝大多数跨系统交互将以“[[智能体对智能体|智能体对智能体]]”的方式发生，没有人进你的 GUI、没有人点你的网页界面——你要设置的是权限、访问范围和 MCP 服务器的配置。这本身就是一个“完整的新行业”：如何在海量规模上管理智能体、资源和 MCP,对创业者来说是一片完全开放的领域。
+Chris 的判断更进一步：未来绝大多数跨系统交互将以“[[多智能体协作|智能体对智能体]]”的方式发生，没有人进你的 GUI、没有人点你的网页界面——你要设置的是权限、访问范围和 MCP 服务器的配置。这本身就是一个“完整的新行业”：如何在海量规模上管理智能体、资源和 MCP,对创业者来说是一片完全开放的领域。
 
 他还提醒节奏感：几个月前的流行词是“智能体工程”，现在已经变成“循环工程”(loops)——智能体被组织在循环里、成百上千地协作；而到今年年底前，“循环工程”这个概念本身大概就会被下一个演进淘汰。所以如果你觉得“还有好几年”，你会被很快超越——就像 IBM 当天在股价上发现的那样。
 
@@ -129,7 +129,7 @@ Chris 指出争论的核心：意识从来没有一个被广泛接受的统一�
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同公司:OpenAI · 同概念:开源模型 (open source models)、微调 (fine tuning)、智能体 (agent)</span>
 - [[2026-06-11-practicalai-zero-trust-for-ai-agents|Anthropic 零信任框架：智能体安全的六层防御]]<span class="pd-rz">同嘉宾:Daniel Whitenack · 同公司:Anthropic · 同概念:MCP、智能体 (agent)</span>
-- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同概念:MCP、智能体 (agent)、开源模型 (open source models)</span>
+- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:MCP、智能体 (agent)、智能体对智能体 (agent to agent)</span>
 
 </div>
 <div class="pd-ex">

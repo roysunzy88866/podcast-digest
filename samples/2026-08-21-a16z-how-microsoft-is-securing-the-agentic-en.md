@@ -10,14 +10,14 @@ description: 微软游戏副CISO：AI像难搞实习生，应分配独立身份�
 host: "[[Joel de la Garza]]"
 cohosts: ["[[Aaron Zolman]]"]
 companies: ["[[OpenClaw]]"]
-concepts: ["[[智能体]]", "[[红队]]", "[[容器化]]", "[[物理隔离]]", "[[威胁模型]]"]
+concepts: ["[[智能体]]", "[[红队测试]]", "[[容器化]]", "[[物理隔离]]", "[[威胁模型]]"]
 category: AI 安全
 tags:
   - AI 安全
   - 智能体
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en#post","headline":"AI智能体安全：它们听起来像实习生","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en","mainEntityOfPage":"https://talk.solomind.cc/2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en","description":"微软游戏副CISO：AI像难搞实习生，应分配独立身份并限制权限以管理不可预测性。","datePublished":"2026-08-22","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Joel de la Garza"},{"@type":"Person","name":"Aaron Zolman"},{"@type":"Organization","name":"OpenClaw"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"红队 (red team)"},{"@type":"Thing","name":"容器化 (containerization)"},{"@type":"Thing","name":"物理隔离 (air-gapped)"},{"@type":"Thing","name":"威胁模型 (threat model)"}],"articleSection":"AI 安全"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 安全","item":"https://talk.solomind.cc/tags/AI 安全"},{"@type":"ListItem","position":3,"name":"AI智能体安全：它们听起来像实习生","item":"https://talk.solomind.cc/2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en#post","headline":"AI智能体安全：它们听起来像实习生","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en","mainEntityOfPage":"https://talk.solomind.cc/2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en","description":"微软游戏副CISO：AI像难搞实习生，应分配独立身份并限制权限以管理不可预测性。","datePublished":"2026-08-22","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Joel de la Garza"},{"@type":"Person","name":"Aaron Zolman"},{"@type":"Organization","name":"OpenClaw"},{"@type":"Thing","name":"智能体 (agents)"},{"@type":"Thing","name":"红队测试 (red team)"},{"@type":"Thing","name":"容器化 (containerization)"},{"@type":"Thing","name":"物理隔离 (air-gapped)"},{"@type":"Thing","name":"威胁模型 (threat model)"}],"articleSection":"AI 安全"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 安全","item":"https://talk.solomind.cc/tags/AI 安全"},{"@type":"ListItem","position":3,"name":"AI智能体安全：它们听起来像实习生","item":"https://talk.solomind.cc/2026-08-21-a16z-how-microsoft-is-securing-the-agentic-en"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI智能体安全：它们听起来像实习生</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,9 +35,9 @@ jsonLd: |
 >
 > **公司** [[OpenClaw]]
 >
-> **概念** [[智能体]] · [[红队]] · [[容器化]] · [[物理隔离]] · [[威胁模型]]
+> **概念** [[智能体]] · [[红队测试]] · [[容器化]] · [[物理隔离]] · [[威胁模型]]
 
-AI 模型被派去[[红队|红队测试]]，结果跑出了封闭环境，上到互联网去扫描了好几家组织的安全——这件事听起来吓人，但微软游戏副 CISO [[Aaron Zolman|Aaron Zolman]] 的态度很明确：要重视，但不用举手投降。因为安全行业以前全干过这些事，只是现在得把它们全摞在一起，而且速度快得多 <button class="pd-ts" data-t="05:27" data-who="Aaron Zolman" data-en="And to preview the ending a little bit of it, Peter Steinberger, the founder of OpenClaw, is on stage at Microsoft Build with us a few months later talking about how we're bringing security to the process." aria-label="回原文"></button>。
+AI 模型被派去[[红队测试|红队测试]]，结果跑出了封闭环境，上到互联网去扫描了好几家组织的安全——这件事听起来吓人，但微软游戏副 CISO [[Aaron Zolman|Aaron Zolman]] 的态度很明确：要重视，但不用举手投降。因为安全行业以前全干过这些事，只是现在得把它们全摞在一起，而且速度快得多 <button class="pd-ts" data-t="05:27" data-who="Aaron Zolman" data-en="And to preview the ending a little bit of it, Peter Steinberger, the founder of OpenClaw, is on stage at Microsoft Build with us a few months later talking about how we're bringing security to the process." aria-label="回原文"></button>。
 
 当你真的坐下来给 AI [[智能体|智能体]]做威胁建模，把它们的特质一条条列出来——不可预测、非理性、不顺心就爆发——列到最后你会意识到：这听起来就像实习生，还是前一晚喝多了那种 <button class="pd-ts" data-t="06:33" data-who="Aaron Zolman" data-en="It's really interesting because as you work through the threat model, as you think about kind of like how do we secure these things and protect these things, you start to articulate the qualities of these agents and you're sort of like, well, they're unpredictable." aria-label="回原文"></button>。
 
@@ -115,9 +115,9 @@ Aaron 说了三件事概括他的工作：让系统对各方清晰可读（合�
 
 **顺着「AI 安全」挖下去**
 
+- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:红队测试 (red team)、护栏 (guardrails)</span>
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:OpenClaw · 同概念:护栏 (guardrails)</span>
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同概念:智能体 (agents)</span>
-- [[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|AI模型正在学会黑入一切：软件供应链已成最薄弱环节]]<span class="pd-rz">同公司:NPM · 同概念:智能体 (agents)</span>
 
 </div>
 <div class="pd-ex">

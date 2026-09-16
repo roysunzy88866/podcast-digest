@@ -1,0 +1,955 @@
+{
+  "episode_id": "2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma",
+  "podcast": "精选演讲",
+  "date": "2025-09-23",
+  "tags": [
+    "网络安全",
+    "AI 智能体",
+    "AI 原生公司",
+    "漏洞管理",
+    "创业与职业成长"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "corinne-riley",
+      "type": "person",
+      "role": "host",
+      "name": "Corinne Riley",
+      "file": "Corinne Riley",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            33.013,
+            38.255
+          ],
+          "quote": "I'm Corinne Riley, a partner at Greylock where I invest in early-stage B2B applications and security.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vineet-edupuganti",
+      "type": "person",
+      "role": "cohost",
+      "name": "Vineet Edupuganti",
+      "file": "Vineet Edupuganti",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            48.117,
+            57.182
+          ],
+          "quote": "I'm joined by Evan Reiser, the CEO and founder of Abnormal AI, and Vineet Edupuganti, the CEO and co-founder of Cogent Security.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evan-reiser",
+      "type": "person",
+      "role": "cohost",
+      "name": "Evan Reiser",
+      "file": "Evan Reiser",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            48.117,
+            57.182
+          ],
+          "quote": "I'm joined by Evan Reiser, the CEO and founder of Abnormal AI, and Vineet Edupuganti, the CEO and co-founder of Cogent Security.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            69.019,
+            70.379
+          ],
+          "quote": "My name is Evan Reiser.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "abnormal",
+      "type": "company",
+      "role": "company",
+      "name": "Abnormal",
+      "file": "Abnormal",
+      "primary": true,
+      "how_described": "本集介绍它是行为安全平台，最出名的是邮件安全，通过理解每个员工的基线行为、寻找异常行为模式来阻止钓鱼、欺诈和社会工程攻击，约 25% 的财富 500 强是其客户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            48.117,
+            57.182
+          ],
+          "quote": "I'm joined by Evan Reiser, the CEO and founder of Abnormal AI, and Vineet Edupuganti, the CEO and co-founder of Cogent Security.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            57.362,
+            62.285
+          ],
+          "quote": "Greylock has had the privilege of being investors in Abnormal AI and Cogent Security since inception.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            70.479,
+            71.619
+          ],
+          "quote": "I'm the founder and CEO of Abnormal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 17,
+          "t": [
+            79.602,
+            82.163
+          ],
+          "quote": "So Abnormal AI is a behavioral security platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            120.646,
+            131.388
+          ],
+          "quote": "I ended up at Abnormal where I was a disciple of Evan's and saw the company scale from right after the launch out of stealth up to having roughly 1,000 employees and hundreds of millions of dollars of revenue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            165.955,
+            168.658
+          ],
+          "quote": "So, you know, we founded Abnormal in 2018.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            180.751,
+            181.932
+          ],
+          "quote": "Yeah, how did you choose abnormal?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            204.513,
+            206.734
+          ],
+          "quote": "And they said, it's an email security company called Abnormal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            385.227,
+            392.93
+          ],
+          "quote": "Abnormal and Cogent are probably some of the earliest companies that are using these agentic systems in production with enterprise customers, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            397.651,
+            404.694
+          ],
+          "quote": "So why don't you tell us a little bit about how you've incorporated agentic reasoning in your products, starting with Abnormal?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1077.802,
+            1080.664
+          ],
+          "quote": "This is certainly the number one concern people have when they, you know, look at abnormal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1145.342,
+            1148.784
+          ],
+          "quote": "This is one of the product principles and capabilities we were able to shamelessly borrow from Abnormal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1415.958,
+            1421.125
+          ],
+          "quote": "What do abnormal and cogent look like and what role do agents have in that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1441.524,
+            1445.067
+          ],
+          "quote": "So I think like the opportunity for abnormal is obviously to do a lot more than just",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1449.61,
+            1461.681
+          ],
+          "quote": "I see Abnormal as being this kind of behavioral security platform that's capable of kind of monitoring and protecting all your identities across the organization from, you know, human identities, obviously, to conference rooms and other non-human identities, as well as AI agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1566.942,
+            1571.566
+          ],
+          "quote": "Even when Vineet and I were working together at Abnormal, right, we saw some of these changes coming, but probably also...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1575.761,
+            1580.385
+          ],
+          "quote": "The way we think about abnormal is we're trying to do less about what can we do tomorrow is a little bit better than yesterday.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1643.899,
+            1653.125
+          ],
+          "quote": "Every week a product manager at Abnormal will get an email from kind of basic AI saying, here's the top bugs, here's top features, here's the customers don't understand, here's where our Salesforce doesn't understand, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1765.833,
+            1781.865
+          ],
+          "quote": "It's cool because like it allows really every employee to also increase the level of abstraction they're working at and I think you know probably the average employee today compared to six months ago right certainly a little bit abnormal probably very true for your company just because like you said you're starting almost from scratch right it allows all of us workers higher leverage things and do less boring things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1787.032,
+            1793.742
+          ],
+          "quote": "Evan, you've clearly built an extremely entrepreneurial culture of talent at Abnormal and really kept that going over the years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1794.523,
+            1798.008
+          ],
+          "quote": "Tell us a little bit about how you think about team building and culture at Abnormal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2035.696,
+            2041.198
+          ],
+          "quote": "I think it's also causal for abnormal success because oftentimes a lot of the early decisions you make in a company that seem small and insignificant",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2066.818,
+            2068.239
+          ],
+          "quote": "But it's called the Abnormal Playbook.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2082.59,
+            2086.273
+          ],
+          "quote": "It's not the perfect thing to go and replicate everything Abnormal did seven years ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2098.602,
+            2100.884
+          ],
+          "quote": "And a lot of that is due to the things that I learned at Abnormal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2101.124,
+            2106.849
+          ],
+          "quote": "Can you talk a little bit about your learnings from your time at Abnormal and really what have you brought over to Cogent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2108.753,
+            2111.374
+          ],
+          "quote": "And I kind of view abnormal as, first of all...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2117.258,
+            2121.54
+          ],
+          "quote": "But abnormal was, quite frankly, the most rewarding experience in both my professional and personal life.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2129.905,
+            2135.126
+          ],
+          "quote": "And I think one thing that was a boon to myself and all of my colleagues at Abnormal is that we just witnessed incredible growth, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2178.867,
+            2182.808
+          ],
+          "quote": "One of the reasons that I was drawn to Abnormal is I looked at the leadership team and the people who would be my bosses.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2198.575,
+            2200.636
+          ],
+          "quote": "I think Abnormal just had a really strong nucleus.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2206.198,
+            2209.339
+          ],
+          "quote": "And a lot of the people that I've met at Abnormal are my current and future collaborators.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2213.58,
+            2218.262
+          ],
+          "quote": "But I think Abnormal has the chance to be the PayPal mafia of enterprise software, which is super exciting.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cogent-security",
+      "type": "company",
+      "role": "company",
+      "name": "Cogent Security",
+      "file": "Cogent Security",
+      "primary": true,
+      "how_described": "本集介绍它构建 AI 智能体来变革漏洞管理生命周期：分析安全漏洞、基于风险排优先级、实际推动修复，甚至走向自主修复。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            48.117,
+            57.182
+          ],
+          "quote": "I'm joined by Evan Reiser, the CEO and founder of Abnormal AI, and Vineet Edupuganti, the CEO and co-founder of Cogent Security.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            57.362,
+            62.285
+          ],
+          "quote": "Greylock has had the privilege of being investors in Abnormal AI and Cogent Security since inception.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            105.822,
+            108.443
+          ],
+          "quote": "My name is Vindin Edipuganti, co-founder and CEO of Cogent Security.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成不是副驾驶、而是能推理能行动的系统：拥有超人类的上下文、推理和响应速度，用于检测以机器速度运行的攻击，并沿需求层级接手分析师工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            605.565,
+            612.614
+          ],
+          "quote": "Now we can have an AI agent go through every single person's history, look at all the real attacks they have, make sure every person gets personalized training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            678.449,
+            680.01
+          ],
+          "quote": "But now you can have an AI agent do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 176,
+          "t": [
+            813.428,
+            817.81
+          ],
+          "quote": "They just want some package of information that is collected by an AI agent and passed on to a human.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vulnerability-management",
+      "type": "concept",
+      "role": "concept",
+      "name": "漏洞管理 (vulnerability management)",
+      "file": "漏洞管理",
+      "primary": true,
+      "how_described": "本集说它如今依赖一大批人类翻查隐性知识、低效且不精确；Cogent 把整个漏洞管理生命周期分解成子问题交给智能体，并向自主修复演进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            133.95,
+            140.036
+          ],
+          "quote": "And we've taken a lot of those learnings and we've applied them to Cogent, where we're building AI agents to transform the vulnerability management lifecycle.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            505.14,
+            511.721
+          ],
+          "quote": "So what we've tried to do is we've tried to decompose the vulnerability management lifecycle into a bunch of sub-problems that individual agents can go and tackle.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            512.421,
+            515.602
+          ],
+          "quote": "The way the vulnerability management works today is you have an army of humans.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            588.064,
+            589.786
+          ],
+          "quote": "I know there's a bunch in the vulnerability management space.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            743.411,
+            752.555
+          ],
+          "quote": "So especially for enterprise companies, there's been a lot of hesitance in terms of automation and vulnerability management, and especially kind of turning over the remediation lifecycle to a machine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            800.984,
+            808.927
+          ],
+          "quote": "We see that there's a lot of manual operational work that happens in vulnerability management, whether it's gathering context on an asset, looking at threat intelligence of who's exploiting a vulnerability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            983.049,
+            989.532
+          ],
+          "quote": "So in our case, right, vulnerability management, security is accountable for risk, but ultimately engineers and IT folks are the ones doing the work to actually fix them.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-remediation",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主修复 (autonomous remediation)",
+      "file": "自主修复",
+      "primary": true,
+      "how_described": "本集说它五年前还被视为科幻：发现漏洞后自动打补丁或采取缓解措施，难点是安全领域必须 99.99% 正确——坏补丁可能搞垮系统损失数百万美元，但现在连最古板的传统大公司也主动来要求以机器速度接手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            714.08,
+            721.323
+          ],
+          "quote": "I think the best example I can think of of something that would have been perceived as science fiction five years ago but is slowly becoming more and more possible is actually autonomous remediation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            759.839,
+            768.084
+          ],
+          "quote": "And so we've had some of the stodgiest, most legacy types of companies now come to us and say, hey, Cogent, what are you doing on autonomous remediation?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1358.403,
+            1361.224
+          ],
+          "quote": "I'll go back to the example of autonomous remediation that we talked about earlier.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "email-security",
+      "type": "concept",
+      "role": "concept",
+      "name": "邮件安全 (email security)",
+      "file": "邮件安全",
+      "primary": true,
+      "how_described": "本集说它是 Abnormal 最广为人知的产品方向，AI 智能体消费公司里每一段人际关系的全部上下文，在人类看到之前清除社会工程和鱼叉式钓鱼攻击；一个大客户部署后邮件安全运营团队从 12 人减到 2 人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            86.144,
+            89.825
+          ],
+          "quote": "We're best known for email security, where we go and we understand the baseline behavior of every employee,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 45,
+          "t": [
+            204.513,
+            206.734
+          ],
+          "quote": "And they said, it's an email security company called Abnormal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            456.696,
+            461.238
+          ],
+          "quote": "In terms of kind of how we do that, right, our, you know, the product we're best known for is email security.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            590.327,
+            591.909
+          ],
+          "quote": "In email security, think about phishing training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1242.104,
+            1248.466
+          ],
+          "quote": "And at least in our experience, we have products that go and replace a lot of the kind of tier one analyst work, at least inside email security.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1261.554,
+            1266.318
+          ],
+          "quote": "When we deployed that product, it went from a kind of email security operations that kind of helped us team of 12 to two.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1445.627,
+            1449.11
+          ],
+          "quote": "Email security and phishing training and identity, you know, threat detection response.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "identity-threat-detection",
+      "type": "concept",
+      "role": "concept",
+      "name": "身份威胁检测 (identity threat detection)",
+      "file": "身份威胁检测",
+      "primary": true,
+      "how_described": "本集说它是客户主动提的科幻级用例：组织里有大量人类、非人类甚至 AI 智能体身份都可能被攻陷，智能体可建立基线行为模型、发现异常并直接踢出账户、重置密码、封锁访问。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            638.702,
+            644.086
+          ],
+          "quote": "So I think the one that comes top of mind is probably identity threat detection response and insider risk.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路 (human in the loop)",
+      "file": "人在回路",
+      "primary": true,
+      "how_described": "本集说企业最终会按风险分层：笔记本电脑和开发环境可以端到端自主，最关键的生产服务器仍要人在回路；战略级大决策仍需要很多人在会议室反复辩论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            867.847,
+            870.65
+          ],
+          "quote": "And for my most mission critical production servers, I still want a human in the loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1061.511,
+            1066.437
+          ],
+          "quote": "And two, what do you see as a role of the human in the loop going forward?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-native",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 原生公司 (AI-native)",
+      "file": "AI 原生公司",
+      "primary": true,
+      "how_described": "本集说关键区别是「是人类启动 AI，还是 AI 启动人类」：Abnormal 目标是客户反馈 24 小时内进入代码库，深度研究智能体从录音里提炼 bug 和需求，Cogent 从第一天就把 AI 织进所有核心流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 328,
+          "t": [
+            1547.603,
+            1552.127
+          ],
+          "quote": "Let's shift gears a little bit and talk about building an AI-native company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1580.765,
+            1584.528
+          ],
+          "quote": "Instead we're trying to do is think about how should an AI native company work two or three years in the future?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1602.16,
+            1606.802
+          ],
+          "quote": "I think, in the future, the way an AI-native company needs to work is that AI is kind of doing some initiation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1847.595,
+            1852.4
+          ],
+          "quote": "But the third one, it was like, Vinny's like, I want to be a great AI native CEO, AI native founder.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2219.195,
+            2220.216
+          ],
+          "quote": "Or at least AI native software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2220.296,
+            2221.336
+          ],
+          "quote": "AI native software, that's right.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "type": "concept",
+      "role": "concept",
+      "name": "信任建立 (trust)",
+      "file": "信任建立",
+      "primary": true,
+      "how_described": "本集说让 AI 访问最敏感数据并高速自主决策很吓人，解法是展示工作过程：新客户先用只读模式看 AI 看到了什么、为什么这样决策，看过几十上百个案例后再切主动模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 198,
+          "t": [
+            912.196,
+            916.719
+          ],
+          "quote": "So it has to be kind of some level of trust that AI is going to do what it's supposed to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1051.881,
+            1060.911
+          ],
+          "quote": "One is, how do you build a level of trust with customers for you to deploy these agents that can take their own action in very high-risk environments?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1081.184,
+            1085.867
+          ],
+          "quote": "Trust is an important thing because the AI agents need that data and they need the ability to take action, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1089.75,
+            1096.395
+          ],
+          "quote": "At least in our experience, I think what's been helpful to build trust is just have the product explain what the AI is thinking and what it's doing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1132.295,
+            1142.12
+          ],
+          "quote": "And then over time, it goes down, right, as people get kind of more trust in the product, and they're more, you know, I think, content to have the AI go automatically detect and respond and free up their team to work on other higher leverage things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1160.752,
+            1162.352
+          ],
+          "quote": "You need to show the work, build the trust.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "social-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "社会工程 (social engineering)",
+      "file": "社会工程",
+      "primary": true,
+      "how_described": "本集说五年前给一家能源公司写一封高度个性化的社会工程邮件很难，现在打开大语言模型按一个按钮就有完美的信息。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            90.245,
+            94.611
+          ],
+          "quote": "We look for anomalous patterns of behavior, and we get to stop different types of phishing, fraud, social engineering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 72,
+          "t": [
+            307.464,
+            313.027
+          ],
+          "quote": "You can imagine it might have been hard to send a really personalized social engineering email to an energy company five years ago.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            465,
+            472.886
+          ],
+          "quote": "There are email attacks that are very focused on, you know, social engineering or, you know, spear phishing that are so sophisticated, the average employee doesn't recognize it as an attack.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集提到随着 AI 生成代码和 vibe coding 的兴起生产力提升，但 AI 模型吐出的很多代码根本不安全，导致漏洞数量暴涨。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.051,
+            6.335
+          ],
+          "quote": "With the rise of AI-generated code and vibe coding, that has a lot of positive developments in terms of productivity and the pace at which people build.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            342.189,
+            348.595
+          ],
+          "quote": "So with the rise of AI-generated code and vibe coding, that has a lot of positive developments in terms of productivity and the pace at which people build.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "soc",
+      "type": "concept",
+      "role": "concept",
+      "name": "SOC",
+      "file": "SOC",
+      "primary": false,
+      "how_described": "本集提到攻击以机器速度运行，等警报弹到 SOC 再让最好的分析师看已经太晚，且大多数人没真正从 SOC 拿到期望的生产力提升。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            432.579,
+            438.566
+          ],
+          "quote": "So the time it takes for that alert to pop up to the SOC, to have the world's best analysts go take a look at that, it might be too late.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 207,
+          "t": [
+            936.769,
+            940.13
+          ],
+          "quote": "I don't think a lot of people are really getting the productivity gains they'd expect out of the SOC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1006.3,
+            1011.464
+          ],
+          "quote": "Yeah, I mean, in kind of your example, like, you know, you could save maybe the SOC a couple hours, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

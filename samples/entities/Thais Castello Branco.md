@@ -41,7 +41,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Taste Labs]] · [[垃圾话]] · [[智能体]] · [[推理时]] · [[LLM 判别器]] · [[判断力]] · [[探针]] · [[Creativity API]] · [[brand API]]
+[[Taste Labs]] · [[垃圾话]] · [[智能体]] · [[推理时]] · [[LLM 当裁判]] · [[判断力]] · [[探针]] · [[Creativity API]] · [[brand API]]
 
 ## ④ 也在聊「产品方法」的人
 
@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Taste Labs":1,"垃圾话":3,"智能体":240,"推理时":1,"LLM 判别器":4,"判断力":5,"探针":2,"Creativity API":1,"brand API":1}</script>
+<script type="application/json" class="pd-epn">{"Taste Labs":1,"垃圾话":3,"智能体":243,"推理时":1,"LLM 当裁判":5,"判断力":5,"探针":2,"Creativity API":1,"brand API":1}</script>
 
 <script>
 (function(){

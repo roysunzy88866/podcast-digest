@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>40</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>41</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]]**(10:33起):本集说 MCP 是 Claude Code 可以使用的工具类型之一，MCP 服务器配置可以签入代码库让团队共享，新人在仓库里跑 Claude Code 就会被提示安装
+- **[[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]]**(16:35起):本集把它说成:让模型连接企业内部数据系统的协议,很多公司在谈论、是定制化方向,但安全是大漏洞(不能让随便一个开发者访问最关键数据库),还达不到跨智能体协作所需的工具水平。
 - **[[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]]**(73:34起):本集提到 MCP（模型上下文协议）服务器作为向 Cursor 提供上下文的方式，用于在根因分析后把正确上下文喂给编码智能体。
 - **[[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]]**(30:36起):本集提到 Oji 在学习理解 MCP 并将不同的东西连接到它上面，还在家里建了一个 MCP 服务器
 - **[[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]]**(31:48起):本集把它说成：Figma Dev Mode 等产品用于连接其他生态系统的一项技术协议。它能帮助开发者在自己的智能体开发环境中直接拉取并使用 Figma 的上下文。
@@ -66,9 +67,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*40 集*
+*41 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
+- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为概念
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为概念(提及)
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为概念(提及)
@@ -113,9 +115,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude]] · [[Anthropic]] · [[OpenAI]] · [[护栏]] · [[Codex]] · [[harness]] · [[Claude Code]] · [[Cursor]] · [[Figma]]
+[[智能体]] · [[Claude]] · [[Anthropic]] · [[护栏]] · [[OpenAI]] · [[Codex]] · [[harness]] · [[Claude Code]] · [[Cursor]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":240,"Claude":58,"Anthropic":123,"OpenAI":113,"护栏":44,"Codex":47,"harness":32,"Claude Code":59,"Cursor":59,"Figma":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":243,"Claude":58,"Anthropic":123,"护栏":46,"OpenAI":113,"Codex":47,"harness":32,"Claude Code":59,"Cursor":59,"沙箱":44}</script>
 
 <script>
 (function(){

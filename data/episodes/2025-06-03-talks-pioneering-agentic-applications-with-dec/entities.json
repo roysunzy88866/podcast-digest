@@ -1,0 +1,974 @@
+{
+  "episode_id": "2025-06-03-talks-pioneering-agentic-applications-with-dec",
+  "podcast": "精选演讲",
+  "date": "2025-06-03",
+  "tags": [
+    "AI 智能体",
+    "企业自建 vs 购买",
+    "AI 编程",
+    "多智能体",
+    "AI 安全与护栏"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "corinne-riley",
+      "type": "person",
+      "role": "host",
+      "name": "Corinne Riley",
+      "file": "Corinne Riley",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            5.417,
+            6.098
+          ],
+          "quote": "I'm Corinne Riley.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spiros",
+      "type": "person",
+      "role": "cohost",
+      "name": "Spiros",
+      "file": "Spiros",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.874,
+            29.54
+          ],
+          "quote": "So we're joined by Jesse at Decagon, by Varun at Windsurf, and lastly by Spiros at Resolve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            171.073,
+            174.135
+          ],
+          "quote": "Spiros, I am founder of Resolve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 60,
+          "t": [
+            280.915,
+            285.696
+          ],
+          "quote": "So that's actually a perfect segue into the first question, which is for Maroon and Spiros.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1086.035,
+            1088.237
+          ],
+          "quote": "Maybe, Spiros, do you want to start?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1320.327,
+            1332.45
+          ],
+          "quote": "And so actually maybe starting with Jesse and then Spiros, you know, do you have a framework of thinking about what are the types of tasks that should be done by end-to-end by an agent versus when it makes sense to have a human in the loop?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1509.549,
+            1512.57
+          ],
+          "quote": "And Spiros, Jessie, feel free to chime in as well if you have any thoughts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2109.182,
+            2113.345
+          ],
+          "quote": "Thank you, Spiros, Varun, Jesse, for joining us, and thank you, everyone, for attending.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jesse",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jesse",
+      "file": "Jesse",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.874,
+            29.54
+          ],
+          "quote": "So we're joined by Jesse at Decagon, by Varun at Windsurf, and lastly by Spiros at Resolve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            42.951,
+            43.471
+          ],
+          "quote": "I'm Jesse.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1320.327,
+            1332.45
+          ],
+          "quote": "And so actually maybe starting with Jesse and then Spiros, you know, do you have a framework of thinking about what are the types of tasks that should be done by end-to-end by an agent versus when it makes sense to have a human in the loop?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1889.161,
+            1890.481
+          ],
+          "quote": "So I have a question for Jesse.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1969.433,
+            1973.775
+          ],
+          "quote": "This question is also for you, Jesse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2109.182,
+            2113.345
+          ],
+          "quote": "Thank you, Spiros, Varun, Jesse, for joining us, and thank you, everyone, for attending.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "varun",
+      "type": "person",
+      "role": "cohost",
+      "name": "Varun",
+      "file": "Varun",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.874,
+            29.54
+          ],
+          "quote": "So we're joined by Jesse at Decagon, by Varun at Windsurf, and lastly by Spiros at Resolve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            105.418,
+            109.6
+          ],
+          "quote": "Hey, I'm Varun and co-founder of Windsurf.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 68,
+          "t": [
+            319.147,
+            322.128
+          ],
+          "quote": "And even what some of the things Varun introduced earlier is true.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            729.982,
+            738.987
+          ],
+          "quote": "And so, you know, specifically, if I think about support and if I think about you, Varun, you know, I assume that each of your customers or even the specific use cases are extremely different.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1577.227,
+            1579.869
+          ],
+          "quote": "Yeah, I agree with Varun.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2109.182,
+            2113.345
+          ],
+          "quote": "Thank you, Spiros, Varun, Jesse, for joining us, and thank you, everyone, for attending.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "decagon",
+      "type": "company",
+      "role": "company",
+      "name": "Decagon",
+      "file": "Decagon",
+      "primary": true,
+      "how_described": "本集把它说成:构建 AI 客服智能体的公司,通过自然语言写的 AOP(智能体操作流程)让非技术 CX 团队自己定制智能体逻辑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.874,
+            29.54
+          ],
+          "quote": "So we're joined by Jesse at Decagon, by Varun at Windsurf, and lastly by Spiros at Resolve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            43.691,
+            46.993
+          ],
+          "quote": "I'm one of the co-founders and the CEO here at Decagon.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "windsurf",
+      "type": "company",
+      "role": "company",
+      "name": "Windsurf",
+      "file": "Windsurf",
+      "primary": true,
+      "how_described": "本集把它说成:AI 编程编辑器,公司内部用它把构建应用的时间缩短超 40%、写了 80-90% 的软件,目标是把构建技术的时间减少 99%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.874,
+            29.54
+          ],
+          "quote": "So we're joined by Jesse at Decagon, by Varun at Windsurf, and lastly by Spiros at Resolve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            105.418,
+            109.6
+          ],
+          "quote": "Hey, I'm Varun and co-founder of Windsurf.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 34,
+          "t": [
+            152.183,
+            160.428
+          ],
+          "quote": "And now within our company, I would say Windsurf is reducing the time it takes for us to build apps by over 40%, and it's writing over 80 or 90% of all software inside our company.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 129,
+          "t": [
+            642.228,
+            648.67
+          ],
+          "quote": "So, you know, before we launched Windsurf, we gave the product out to everyone at our company, including people that were not technical.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1034.264,
+            1039.788
+          ],
+          "quote": "If you use our product, if you use Windsurf, and you actually write a little bit of software in the editor, and then you just write continue.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1635.985,
+            1643.148
+          ],
+          "quote": "And I think, actually, we don't even have the protocols or the means to do this across, let's say, maybe agents of, let's say, for Windsurf and Resolve to Talk.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "resolve",
+      "type": "company",
+      "role": "company",
+      "name": "Resolve",
+      "file": "Resolve",
+      "primary": true,
+      "how_described": "本集把它说成:Spiros 创办的公司,自动化写代码之外的软件工程任务,智能体在告警触发时做多步开放式调查、值班守寻呼,只在不可逆决策时找人类。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.874,
+            29.54
+          ],
+          "quote": "So we're joined by Jesse at Decagon, by Varun at Windsurf, and lastly by Spiros at Resolve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            171.073,
+            174.135
+          ],
+          "quote": "Spiros, I am founder of Resolve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            227.692,
+            233.276
+          ],
+          "quote": "So what Resolve is trying to do is trying to automate like essentially software engineering tasks that are beyond coding, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 52,
+          "t": [
+            240.608,
+            250.933
+          ],
+          "quote": "So a lot of what Resolve does is it essentially tries to deeply understand the software system all the way from source code to let's say backend databases and everything in between and perform tasks, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            599.33,
+            607.534
+          ],
+          "quote": "Resolve is like a 40 plus people team with diverse expertise in AI, in systems, in UX, and it's a much, much, much harder problem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1635.985,
+            1643.148
+          ],
+          "quote": "And I think, actually, we don't even have the protocols or the means to do this across, let's say, maybe agents of, let's say, for Windsurf and Resolve to Talk.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "splunk",
+      "type": "company",
+      "role": "company",
+      "name": "Splunk",
+      "file": "Splunk",
+      "primary": false,
+      "how_described": "本集提到:Spiros 上一份工作在 Splunk 负责可观测性团队,SRE 团队曾因维持可靠性的压力有 90% 的人离职。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            186.284,
+            194.631
+          ],
+          "quote": "In my last role, I was running the observability team at Splunk, which was a very large production system with high availability requirements.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:远超 copilot 的自动化形态——能查数据、执行操作、走完工作流、做多步开放式调查,渗入软件开发生命周期的每个环节;三位 CEO 都在把智能体做进产品核心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            50.452,
+            61.315
+          ],
+          "quote": "And so you can, I guess the use case is like pretty easy to wrap your head around, which is, you know, next time let's say your flight gets delayed and you need to call in and you want to change your seat or change your booking, AI agent can handle it for you.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 23,
+          "t": [
+            99.135,
+            101.978
+          ],
+          "quote": "And that's where the agent comes together.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 54,
+          "t": [
+            257.717,
+            261.76
+          ],
+          "quote": "Our agent has to essentially follow a multi-step open-ended investigation flow.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            354.497,
+            363.023
+          ],
+          "quote": "But it's much, much better if essentially the agent does all the work and maybe asks a human when a critical decision has to be made or an irreversible decision has to be made.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 92,
+          "t": [
+            436.155,
+            438.196
+          ],
+          "quote": "Forcing the agent to solve different kinds of problems, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 109,
+          "t": [
+            537.099,
+            542.783
+          ],
+          "quote": "I think for us, it really is the more interesting way to look at it is that everyone's agent is actually quite different.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 110,
+          "t": [
+            543.584,
+            548.488
+          ],
+          "quote": "So if we're deploying a, you know, customer service agent to like a large airline compared to",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 112,
+          "t": [
+            552.013,
+            553.555
+          ],
+          "quote": "Like everyone's gonna want like a different agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 179,
+          "t": [
+            880.715,
+            884.276
+          ],
+          "quote": "And so we created what we now call AOPs, Agent Operating Procedures.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 185,
+          "t": [
+            913.183,
+            916.725
+          ],
+          "quote": "Able to customize the agent really quickly using natural language, and that's what we do.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1280.857,
+            1284.038
+          ],
+          "quote": "The AI agent doesn't have to do everything off the bat perfectly.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1293.48,
+            1298.741
+          ],
+          "quote": "But if the AI agent can just do the top 25 very well, that's already a ton of value.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1320.327,
+            1332.45
+          ],
+          "quote": "And so actually maybe starting with Jesse and then Spiros, you know, do you have a framework of thinking about what are the types of tasks that should be done by end-to-end by an agent versus when it makes sense to have a human in the loop?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1365.962,
+            1373.145
+          ],
+          "quote": "The tier one tasks are generally where you start, because they're easier, they should also be easier for an AI agent to handle.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1422.236,
+            1426.838
+          ],
+          "quote": "It's kind of a bit of a retrieval problem and summarization, and it's ideal for an agent or multiple agents to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1427.459,
+            1435.002
+          ],
+          "quote": "In a way, like where humans should come into play is, you know, to kind of verify when you're uncertain, especially if you can, if the agent can determine that, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1466.973,
+            1470.057
+          ],
+          "quote": "Mutate the system, but still are reversible, maybe an agent can take them, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1476.744,
+            1481.169
+          ],
+          "quote": "And of course, sometimes it's when a human needs to interject because they have some information that the agent doesn't have, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1492.025,
+            1496.386
+          ],
+          "quote": "And obviously, a topic a lot of people bring up is agent-to-agent collaboration.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1565.458,
+            1573.024
+          ],
+          "quote": "Maybe the reason why we'd build multiple agents is we need to communicate with another system that is an agent product, but I don't know if that was a clear answer there.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1574.205,
+            1576.867
+          ],
+          "quote": "Yeah, I think it really depends on how you define an agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1581.59,
+            1589.036
+          ],
+          "quote": "If you break down how our agents work, yeah, there are components that you also call agents on their own, but we consider the whole thing an agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1589.739,
+            1597.844
+          ],
+          "quote": "I have personally not seen many use cases, actually any use cases in production yet that are truly agent to agent, like a swarm of agents.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1598.624,
+            1609.691
+          ],
+          "quote": "I think what it would look like for us is if we're deployed in a larger organization and they have a lot of internal agents, then perhaps our agent needs to call on those agents to figure things out and pull information.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1622.99,
+            1627.882
+          ],
+          "quote": "Because there is maybe an agent that understands code versus an agent that understands, let's say, telemetry versus an agent that understands...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1631.543,
+            1635.405
+          ],
+          "quote": "The user interacts with one agent that does all the work, plans, responds back.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1691.242,
+            1704.13
+          ],
+          "quote": "So the lightning round is, you know, give a specific example in your product or in your industry today that today is a ceiling that can't be solved by an agent, but you think is on the near horizon of something that can be unlocked.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1762.249,
+            1770.196
+          ],
+          "quote": "You typically go to an agent, and that agent typically is someone who's pretty specialized, and they've had maybe a year plus of training slash experience to become like the tier three agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1990.983,
+            1994.106
+          ],
+          "quote": "Your customers also expose the agent to their customers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "type": "concept",
+      "role": "concept",
+      "name": "copilot",
+      "file": "copilot",
+      "primary": true,
+      "how_described": "本集把它说成:企业中最普及的生成式 AI 用例,但只能辅助个人、不会替你值班守寻呼,加速有限且人始终必须参与。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            236.218,
+            238.84
+          ],
+          "quote": "You need agents because a copilot is not going to hold your pager.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 57,
+          "t": [
+            267.559,
+            273.544
+          ],
+          "quote": "Or a human maybe can be assisted by a copilot, but then, you know, the acceleration you have is limited.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            363.563,
+            372.849
+          ],
+          "quote": "But our view is that agents obviously are a lot more powerful and they create much more acceleration than what maybe a human-driven flow via Copilot can do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            381.049,
+            384.33
+          ],
+          "quote": "I think it was very much a head-to-head competitor with GitHub Copilot.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 93,
+          "t": [
+            438.236,
+            444.08
+          ],
+          "quote": "If you were to think about in the past, Copilot and these kinds of tools would help you in very quickly writing boilerplate code.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "agent-to-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体协作 (agent-to-agent)",
+      "file": "多智能体协作",
+      "primary": true,
+      "how_described": "本集把它说成:三位 CEO 都没在生产环境中见过真正的 agent-to-agent 或蜂群用例;Varun 以自动驾驶回归单一巨大模型为例,认为更靠谱的路线是让一个模型做更多事,且连跨系统的共享语言和协议都不存在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 295,
+          "t": [
+            1492.025,
+            1496.386
+          ],
+          "quote": "And obviously, a topic a lot of people bring up is agent-to-agent collaboration.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1589.739,
+            1597.844
+          ],
+          "quote": "I have personally not seen many use cases, actually any use cases in production yet that are truly agent to agent, like a swarm of agents.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集把它说成:智能体安全的核心话题,每个客户签约前都要谈;配套红队测试、客户自建单元测试的测试平台,责任上与普通 SaaS 一样设赔付上限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 398,
+          "t": [
+            1994.146,
+            1999.09
+          ],
+          "quote": "Can you talk a little bit about what does that shared responsibility model look like when it comes to guardrails?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2004.524,
+            2005.805
+          ],
+          "quote": "Guardrails are really important.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "red-team",
+      "type": "concept",
+      "role": "concept",
+      "name": "红队测试 (red team)",
+      "file": "红队测试",
+      "primary": true,
+      "how_described": "本集把它说成:大客户的验证手段——雇安全公司或由安全团队千方百计让智能体出错,Decagon 一直经受住了这些考验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 405,
+          "t": [
+            2038.879,
+            2048.548
+          ],
+          "quote": "We've even had customers that they will red team us themselves, where they either hire a firm or their security team goes in and tries to get it to mess up in a thousand different ways.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把它说成:让模型连接企业内部数据系统的协议,很多公司在谈论、是定制化方向,但安全是大漏洞(不能让随便一个开发者访问最关键数据库),还达不到跨智能体协作所需的工具水平。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            995.001,
+            999.706
+          ],
+          "quote": "Obviously, we don't even know if this is the future protocol, but MCP is something that a lot of companies talk about.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1014.352,
+            1017.194
+          ],
+          "quote": "I think tools like MCP are really, really interesting.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1656.315,
+            1657.836
+          ],
+          "quote": "I think MCP is not there.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "build-versus-buy",
+      "type": "concept",
+      "role": "concept",
+      "name": "自建还是购买 (build versus buy)",
+      "file": "自建还是购买",
+      "primary": true,
+      "how_described": "本集把它说成:取决于是不是业务核心——非核心能力自建要补告警、监控、护栏,成本远超想象;demo 一天能搭出来,生产级应用可能是最难的事;但贴合业务的浅层小工具领域专家已能自己造。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            530.554,
+            536.399
+          ],
+          "quote": "So I think that the build versus buy thing ends up not being that big of a, I think, talking point in our space.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路 (human in the loop)",
+      "file": "人在回路",
+      "primary": true,
+      "how_described": "本集把它说成:按可逆性分级——可逆操作智能体做、完全不可逆的必须人批准,今天生产环境的智能体更像自动驾驶汽车,按复杂度、敏感度和监管分级决定人何时介入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 267,
+          "t": [
+            1320.327,
+            1332.45
+          ],
+          "quote": "And so actually maybe starting with Jesse and then Spiros, you know, do you have a framework of thinking about what are the types of tasks that should be done by end-to-end by an agent versus when it makes sense to have a human in the loop?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "acceptance-rate",
+      "type": "concept",
+      "role": "concept",
+      "name": "接受率 (acceptance rate)",
+      "file": "接受率",
+      "primary": false,
+      "how_described": "本集把它说成:Windsurf 很快砍掉的指标,因为太容易被操纵——只显示行末花括号接受率就是 100% 但价值为零。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 238,
+          "t": [
+            1165.757,
+            1169.059
+          ],
+          "quote": "There are some metrics we killed very quickly, like acceptance rate.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1172.002,
+            1178.466
+          ],
+          "quote": "You could imagine if a product just shows no suggestions but an end of line curly brace, that would be 100% acceptance rate.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集提到:Decagon 为大客户跑一个 sandbox 让他们先测试智能体、建立信心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 404,
+          "t": [
+            2028.59,
+            2038.139
+          ],
+          "quote": "For larger engagements, there is some sort of proving process, and so we will run a sandbox for them, and they'll be able to test it out and so on, and that helps with a lot of buy-in.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "AOP",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Salesforce]] · [[Google]] · [[ChatGPT]] · [[go-to-market]] · [[记录系统]] · [[CRM]] · [[Brian Balfour]] · [[Jason Cohen]]
 
-<script type="application/json" class="pd-epn">{"智能体":240,"Lenny":67,"Salesforce":20,"Google":42,"ChatGPT":65,"go-to-market":8,"记录系统":4,"CRM":4,"Brian Balfour":1,"Jason Cohen":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":243,"Lenny":67,"Salesforce":20,"Google":42,"ChatGPT":65,"go-to-market":8,"记录系统":4,"CRM":4,"Brian Balfour":1,"Jason Cohen":1}</script>
 
 <script>
 (function(){

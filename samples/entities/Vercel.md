@@ -57,7 +57,7 @@ unlisted: true
 
 [[智能体]] · [[Stripe]] · [[OpenAI]] · [[Cursor]] · [[SaaS]] · [[Lenny]] · [[Slack]] · [[GitHub]] · [[Anthropic]] · [[Shopify]]
 
-<script type="application/json" class="pd-epn">{"智能体":240,"Stripe":31,"OpenAI":113,"Cursor":59,"SaaS":16,"Lenny":67,"Slack":25,"GitHub":22,"Anthropic":123,"Shopify":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":243,"Stripe":31,"OpenAI":113,"Cursor":59,"SaaS":16,"Lenny":67,"Slack":25,"GitHub":22,"Anthropic":123,"Shopify":9}</script>
 
 <script>
 (function(){

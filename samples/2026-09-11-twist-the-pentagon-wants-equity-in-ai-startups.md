@@ -132,7 +132,7 @@ Tibo 的总结是这个演示里最值得记住的一句：这之所以有效，
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Apple、Anthropic、Codex、Google、OpenAI · 同概念:智能体 (agent)、token</span>
 - [[2026-09-04-talks-open-models-change-the-economics-of-ai|Ollama CEO：开源模型正吃掉企业 80-90% 的 token]]<span class="pd-rz">同公司:Apple · 同概念:智能体 (agent)、token</span>
-- [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR]]<span class="pd-rz">同概念:人在回路 (human in the loop)、智能体 (agent)</span>
+- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:人在回路 (human in the loop)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

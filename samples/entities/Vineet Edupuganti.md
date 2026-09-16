@@ -1,43 +1,57 @@
 ---
-title: AI 原生 (AI native)
-entity_type: 概念
+title: Vineet Edupuganti
+entity_type: 人物
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 原生 (AI native)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Vineet Edupuganti</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 原生">AI</div><div class="pi"><h1 class="pt">AI 原生 (AI native)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Vineet Edupuganti">VI</div><div class="pi"><h1 class="pt">Vineet Edupuganti</h1><div class="byl">精选演讲 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
-## 集里怎么说它
+## ① 他说过的话
 
-- **[[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]]**(02:56起):本集讨论的终极目标：把传统的软件产品或团队工作流重新概念化，使其彻底利用 AI 进行提速，成为 AI 原生的。
+*9 条*
 
-## ① 提到它的金句
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q2]]
 
-*4 条*
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q3]]
 
-![[2026-06-24-pg-company-os-jz#^q2]]
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q5]]
 
-![[2026-07-17-talks-every-company-should-have-a-brain-garry#^q13]]
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q6]]
 
-![[2026-08-07-talks-the-new-primitives-building-ai-native-so#^q3]]
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q8]]
 
-![[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi#^q5]]
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q9]]
+
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q10]]
+
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q13]]
+
+![[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma#^q15]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]] — 作为概念
+- [[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma|《当攻击用 AI、防守靠智能体：Abnormal 与 Cogent 聊智能体网络安全》]] — 作为联合主持
 
-## ③ 关联
+## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Aakash]] · [[Oji Udezue]] · [[Claude Code]] · [[项目脚手架技能]] · [[可行性闸门]] · [[vibe coder]] · [[builder PM]] · [[Product Mind]] · [[Typeform]] · [[GitHub]]
+[[Corinne Riley]] · [[Evan Reiser]] · [[Abnormal]] · [[Cogent Security]] · [[智能体]] · [[漏洞管理]] · [[自主修复]] · [[邮件安全]] · [[身份威胁检测]] · [[人在回路]]
 
-<script type="application/json" class="pd-epn">{"Aakash":3,"Oji Udezue":1,"Claude Code":59,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":1,"builder PM":1,"Product Mind":1,"Typeform":2,"GitHub":22}</script>
+## ④ 也在聊「智能体」的人
+
+<div class="pd-peers">
+
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+
+</div>
+
+<script type="application/json" class="pd-epn">{"Corinne Riley":3,"Evan Reiser":1,"Abnormal":1,"Cogent Security":1,"智能体":243,"漏洞管理":1,"自主修复":1,"邮件安全":1,"身份威胁检测":1,"人在回路":10}</script>
 
 <script>
 (function(){

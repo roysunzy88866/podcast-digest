@@ -9,13 +9,13 @@ cover: "#64748b"
 description: Taste Labs 创始人 Thais 分析 200 万个网站找出 AI slop 的可量化特征，并讲述如何用品牌遵循与判断力把生成质量拉回正轨。
 guests: ["[[Thais Castello Branco]]"]
 companies: ["[[Taste Labs]]"]
-concepts: ["[[垃圾话]]", "[[智能体]]", "[[推理时]]", "[[LLM 判别器]]", "[[判断力]]", "[[探针]]", "[[Creativity API]]", "[[brand API]]"]
+concepts: ["[[垃圾话]]", "[[智能体]]", "[[推理时]]", "[[LLM 当裁判]]", "[[判断力]]", "[[探针]]", "[[Creativity API]]", "[[brand API]]"]
 category: 产品方法
 tags:
   - 产品方法
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-10-talks-training-taste-thais-castello-branco-tas#post","headline":"终结 AI 垃圾内容：Taste Labs 如何度量并对抗 slop","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-10-talks-training-taste-thais-castello-branco-tas","mainEntityOfPage":"https://talk.solomind.cc/2026-09-10-talks-training-taste-thais-castello-branco-tas","description":"Taste Labs 创始人 Thais 分析 200 万个网站找出 AI slop 的可量化特征，并讲述如何用品牌遵循与判断力把生成质量拉回正轨。","datePublished":"2026-09-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Thais Castello Branco"},{"@type":"Organization","name":"Taste Labs"},{"@type":"Thing","name":"垃圾话 (slop)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"推理时 (inference time)"},{"@type":"Thing","name":"LLM 判别器 (LLM as a judge)"},{"@type":"Thing","name":"判断力 (judgment)"},{"@type":"Thing","name":"探针 (probes)"},{"@type":"Thing","name":"Creativity API"},{"@type":"Thing","name":"brand API"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"终结 AI 垃圾内容：Taste Labs 如何度量并对抗 slop","item":"https://talk.solomind.cc/2026-09-10-talks-training-taste-thais-castello-branco-tas"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-10-talks-training-taste-thais-castello-branco-tas#post","headline":"终结 AI 垃圾内容：Taste Labs 如何度量并对抗 slop","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-10-talks-training-taste-thais-castello-branco-tas","mainEntityOfPage":"https://talk.solomind.cc/2026-09-10-talks-training-taste-thais-castello-branco-tas","description":"Taste Labs 创始人 Thais 分析 200 万个网站找出 AI slop 的可量化特征，并讲述如何用品牌遵循与判断力把生成质量拉回正轨。","datePublished":"2026-09-12","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Thais Castello Branco"},{"@type":"Organization","name":"Taste Labs"},{"@type":"Thing","name":"垃圾话 (slop)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"推理时 (inference time)"},{"@type":"Thing","name":"LLM 当裁判 (LLM as a judge)"},{"@type":"Thing","name":"判断力 (judgment)"},{"@type":"Thing","name":"探针 (probes)"},{"@type":"Thing","name":"Creativity API"},{"@type":"Thing","name":"brand API"}],"articleSection":"产品方法"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"产品方法","item":"https://talk.solomind.cc/tags/产品方法"},{"@type":"ListItem","position":3,"name":"终结 AI 垃圾内容：Taste Labs 如何度量并对抗 slop","item":"https://talk.solomind.cc/2026-09-10-talks-training-taste-thais-castello-branco-tas"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>终结 AI 垃圾内容：Taste Labs 如何度量并对抗 slop</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -33,7 +33,7 @@ jsonLd: |
 >
 > **公司** [[Taste Labs]]
 >
-> **概念** [[垃圾话]] · [[智能体]] · [[推理时]] · [[LLM 判别器]] · [[判断力]] · [[探针]] · [[Creativity API]] · [[brand API]]
+> **概念** [[垃圾话]] · [[智能体]] · [[推理时]] · [[LLM 当裁判]] · [[判断力]] · [[探针]] · [[Creativity API]] · [[brand API]]
 
 这一集聊的是一个所有人都已经感觉到、但很少有人去认真度量的问题：AI slop——AI 生成内容的那种重复、没有灵魂、千篇一律的质感。主角是 Thais，[[Taste Labs|Taste Labs]] 的创始人，公司几周前刚从 Stout 出来，使命一句话就能说清：终结 AI 垃圾内容。她给出的最反直觉的判断是：**「出色」很难定义，但「垃圾」出奇地好定义**——而只要能把垃圾变成一个可量化、可预测的东西，你就有了对抗它的抓手 <button class="pd-ts" data-t="03:22" data-who="Thais" data-en="And slop is kind of the opposite of that, right? I think it is hard to define what is great sometimes, but I think it's pretty easy to define what is slop in the sense that most people would agree." aria-label="回原文"></button>。
 
@@ -57,7 +57,7 @@ Thais 坚信：要修复一个东西，必须先度量它、理解它 <button cl
 
 第二，他们做了「[[探针|探针]]」（probes）：先对所有网站做模式挖掘，把颜色、字体排印、布局、受众这些模糊特征提炼成接近结构化的东西，再训练一批「婴儿分类器」，每个只负责识别一个特征 <button class="pd-ts" data-t="07:42" data-who="Thais" data-en="So we built this, I call this probes, but basically we did two things. So we did this pattern mining. On all this data to understand what are features that we can extract from all these sites?" aria-label="回原文"></button>。当多个探针同时出现的频率被组合起来，就能高置信度地预测一个网站是不是 AI slop，预测能力非常高 <button class="pd-ts" data-t="08:15" data-who="Thais" data-en="And for all these slop sites, we identified, we started identifying like what are the probes that basically mean this site is very likely to be AI slop. And especially when you start combining them and you see the frequency of multiple of these happening at once, it became very likely that you could actually like measure" aria-label="回原文"></button>。
 
-而且这套探针**比大多数 [[LLM 判别器|LLM-as-a-judge]]（让一个大模型直接判断内容是优质人类作品还是 AI 垃圾）的方法表现都好** <button class="pd-ts" data-t="08:29" data-who="Thais" data-en="And we saw a super high, basically, ability to do that prediction, which was really cool to see. This performed better, by the way, than most LLM-as-a-judge methods of asking an LLM to judge if that is great human quality versus AI-generated slop." aria-label="回原文"></button>。这证明 slop 不只是模糊的感觉，而是真实存在、可以量化的东西。
+而且这套探针**比大多数 [[LLM 当裁判|LLM-as-a-judge]]（让一个大模型直接判断内容是优质人类作品还是 AI 垃圾）的方法表现都好** <button class="pd-ts" data-t="08:29" data-who="Thais" data-en="And we saw a super high, basically, ability to do that prediction, which was really cool to see. This performed better, by the way, than most LLM-as-a-judge methods of asking an LLM to judge if that is great human quality versus AI-generated slop." aria-label="回原文"></button>。这证明 slop 不只是模糊的感觉，而是真实存在、可以量化的东西。
 
 ## 对抗 slop：模型层之外，推理时同样重要
 
@@ -143,9 +143,9 @@ Brand API 的做法是：输入一个品牌 URL，把它提取成非常具体的
 
 **换个口味**
 
+- [[2025-09-16-talks-evaluating-agents-with-braintrust|Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变]]<span class="pd-rz">同概念:LLM-as-a-judge、智能体 (agent)</span>
 - [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同概念:探针 (probes)、智能体 (agent)</span>
 - [[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|用 AI 对抗 AI：一种不用读代码的编程语言 BAML]]<span class="pd-rz">同概念:AI slop（AI 垃圾内容） (slop)、智能体 (agent)</span>
-- [[2026-08-26-beyondcoding-how-new-staff-engineers-build-judgment-w|AI 时代，工程师的判断力与品味如何修炼]]<span class="pd-rz">同概念:判断力 (judgment)、智能体 (agent)</span>
 
 </div>
 </div>

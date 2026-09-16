@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Decagon</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Decagon">DE</div><div class="pi"><h1 class="pt">Decagon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Decagon">DE</div><div class="pi"><h1 class="pt">Decagon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]]**(00:23起):本集把它说成:构建 AI 客服智能体的公司,通过自然语言写的 AOP(智能体操作流程)让非技术 CX 团队自己定制智能体逻辑。
 - **[[2026-05-20-talks-the-infrastructure-behind-ai-agents-with|《Base 10 的 Julian：推理正在从「租用智能」走向「拥有智能」》]]**(02:27起):本集把它列为已用后训练模型取得成效的公司样板之一。
 - **[[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]]**(26:26起):本集以 a16z 所投的 Decagon（客户支持）作为按结果付费最容易的首个案例：文本数据多、可验证奖励清晰。
 - **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]]**(00:57起):本集核心受访公司，做帮大企业（如全球最大银行、航司）搭建客服 AI 智能体的应用层公司，主张把 90% 工作流转向微调的开源模型。
@@ -28,8 +29,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
+- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为被讨论公司
 - [[2026-05-20-talks-the-infrastructure-behind-ai-agents-with|《Base 10 的 Julian：推理正在从「租用智能」走向「拥有智能」》]] — 作为被讨论公司(提及)
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为被讨论公司(提及)
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]] — 作为被讨论公司
@@ -41,9 +43,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[推理]] · [[Google]] · [[微调]] · [[Harvey]] · [[Anish Acharya]] · [[开源模型]]
+[[Cursor]] · [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[Google]] · [[微调]] · [[Harvey]] · [[Anish Acharya]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"Cursor":59,"OpenAI":113,"Anthropic":123,"智能体":240,"推理":46,"Google":42,"微调":16,"Harvey":8,"Anish Acharya":3,"开源模型":17}</script>
+<script type="application/json" class="pd-epn">{"Cursor":59,"智能体":243,"OpenAI":113,"Anthropic":123,"推理":46,"Google":42,"微调":16,"Harvey":8,"Anish Acharya":3,"开源模型":17}</script>
 
 <script>
 (function(){

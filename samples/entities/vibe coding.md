@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>vibe coding</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>33</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>34</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]]**(48:10起):本集说 vibe coding 是用自然语言描述需求、AI 直接生成网站或 Web 应用的方式，Andrew 用 Replit 做这个，以前需要五人团队的项目现在一个人就能做
 - **[[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]]**(01:24起):本集将 vibe coding 描述为用自然语言让 AI 写代码来构建应用的方式，Base44 本质上是一个更高级的 vibe coding 工具；在 vibe coding 场景下用户的啊哈时刻是'天哪它真的懂我'然后直接看到应用
+- **[[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma|《当攻击用 AI、防守靠智能体：Abnormal 与 Cogent 聊智能体网络安全》]]**(00:00起):本集提到随着 AI 生成代码和 vibe coding 的兴起生产力提升，但 AI 模型吐出的很多代码根本不安全，导致漏洞数量暴涨。
 - **[[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]]**(70:46起):本集提到人们打开这些只需描述需求就能构建应用的工具,却常常陷入想法危机不知道该造什么
 - **[[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]]**(51:54起):本集在「最被过度炒作」话题中被提及;嘉宾担忧这种将看似能跑的代码直接倾倒进库的做法,会让系统长期变得不可维护。
 - **[[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]]**(26:48起):本集提到 Rackspace CEO 周末会做 vibe coding，以及社区中'全是 vibe coding'是错误的二分法之一
@@ -58,10 +59,11 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*33 集*
+*34 集*
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
+- [[2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma|《当攻击用 AI、防守靠智能体：Abnormal 与 Cogent 聊智能体网络安全》]] — 作为概念(提及)
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为概念
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为概念(提及)
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为概念(提及)
@@ -100,7 +102,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[Lenny]] · [[Anthropic]] · [[Claude]] · [[ChatGPT]] · [[OpenAI]] · [[Claude Code]] · [[护栏]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":240,"Cursor":59,"Lenny":67,"Anthropic":123,"Claude":58,"ChatGPT":65,"OpenAI":113,"Claude Code":59,"护栏":44,"Codex":47}</script>
+<script type="application/json" class="pd-epn">{"智能体":243,"Cursor":59,"Lenny":67,"Anthropic":123,"Claude":58,"ChatGPT":65,"OpenAI":113,"Claude Code":59,"护栏":46,"Codex":47}</script>
 
 <script>
 (function(){

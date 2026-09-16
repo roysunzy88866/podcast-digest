@@ -1,0 +1,220 @@
+{
+  "title_zh": "当攻击用 AI、防守靠智能体：Abnormal 与 Cogent 聊智能体网络安全",
+  "tldr": "Abnormal AI 创始人 Evan Reiser 与 Cogent Security 创始人 Vineet Edupuganti 对谈 AI 如何重塑网络攻防，以及他们如何把智能体真正用进企业安全。",
+  "digest_md": "这一集是 Greylock 的 Change Agents 系列对谈，主持人是 Greylock 合伙人 Corinne Riley，两位嘉宾：Evan Reiser，Abnormal AI 的创始人兼 CEO（做行为安全平台，最出名的是邮件安全，约 25% 的财富 500 强是它的客户）；Vineet Edupuganti，Cogent Security 的 CEO 兼联合创始人（用 AI 智能体做漏洞管理），他曾是 Evan 的部下，在 Abnormal 见证公司从出隐身模式长到约 1000 人、数亿美元收入。两人聊的核心是：当攻击者用上了 AI，防守方为什么必须交给能自己推理、自己行动的智能体——不是副驾驶，是系统。\n\n## AI 把攻防彻底变成了一场不公平的战斗\n\nEvan 说现在还非常早期，但已经够吓人。AI 对威胁格局有三大影响：一是网络罪犯变多了——原本不懂英语、有技术的人，靠大语言模型就能当网络罪犯；二是罪犯用 AI 自动化发出更多攻击，五年前给一家能源公司写一封高度个性化的社会工程邮件很难，现在打开大语言模型按一个按钮就有一条完美的信息；三是最可怕的——模型足够聪明，能创造出没人见过的攻击，AI 可以生成复杂到人类根本无法把它们与现实区分开的攻击。[04:47 Evan Reiser]\n\nVineet 补充了第四层：攻击面本身在扩大。AI 生成代码和 vibe coding（用自然语言让 AI 写代码）提升了生产力，但「AI 模型吐出的很多代码在根本上并不安全」，过去一年应用和基础设施的漏洞数量暴涨。最可怕的是把攻击者现在能做到的和防守者正在做的放在一起对比——防守者要做的工作远多于做工作的人，这是一场失衡不断加剧的不公平战斗。[05:36 Vineet Edupuganti]\n\n## 智能体怎么用：为什么必须超人类\n\nEvan 的逻辑很直接：攻击复杂度超出人类感知能力，攻击以机器速度运行——过去罪犯在企业里摸索几小时几天，现在可能只要一秒，等警报弹到 SOC（安全运营中心）再让最好的分析师看，已经太晚。所以方案本质上必须是 AI：用超人类的能力检测、用超人类的速度响应。比如邮件安全，AI 智能体能消费公司里每一段人际关系的全部上下文——「那种上下文无法进入人脑，但它可以进入 AI 的上下文窗口」——在人类看到之前就把攻击清除。[07:36 Evan Reiser]\n\nVineet 在 Cogent 的做法是把漏洞管理生命周期分解成一个个子问题，让单独的智能体分别去解决。他给了一个具体例子：假设某台 EC2 实例（AWS 云上的虚拟服务器）上有个漏洞，企业最大的难题是「该派谁去修」——他们的智能体不只查电子表格和 ServiceNow 这类配置管理数据库，还会翻查文档、日志、工单这些散落在人脑里的隐性知识，拼在一起得出正确答案。方法论可以用一句话概括：问「对于一个人员充足、资源到位的组织，一个人类会怎么做」，然后尽可能把这些环节转移给机器，让人类专注于最复杂的创造性、战略性工作。[08:22 Vineet Edupuganti]\n\n智能体还打开了一类过去「理论可行但不切实际」的用例。Evan 举钓鱼演练为例：很多 CISO（首席安全官）早想基于每个人的真实攻击历史、职位角色给每人做个性化攻击演练，但那需要一大队安全实习生；现在一个智能体就能翻查每个人的历史，确保每个人都得到个性化训练。[09:50 Evan Reiser]\n\n## 客户主动提的「科幻」需求\n\n主持人问有哪些客户主动找上门的科幻级用例。Evan 最先想到的是身份威胁检测与内部人员风险：组织里有一大堆身份——过去主要是人，现在还有非人类身份甚至 AI 智能体本身，它们都可能被攻陷，或变成变节的内部人员。过去你得养一整个团队盯着每一次点击和日志，现在智能体可以建立基线行为模型、发现异常，严重的直接踢出账户、重置密码、封锁访问、生成行为报告。「十年前告诉一位 CISO 这是可能的，听起来非常科幻，而今天已经非常接近现实。」[10:38 Evan Reiser]\n\nVineet 的答案是自主修复（autonomous remediation）——发现漏洞后自动打补丁或采取缓解措施。难点在于安全领域你必须是对的：朝一个方向犯错公司可能被攻破，朝另一个方向推送一个坏补丁可能搞垮系统、损失数百万美元收入。但「当你被机器攻击时，你不能坐在那里等变更控制流程」——现在连最古板的传统大公司也主动来找 Cogent，要求以机器速度接手修复。还有大量工作要做，但「这不是科幻，它今天就在这里」。[11:54 Vineet Edupuganti]\n\n## 客户怎么准备好：不是零到一，是逐块自动化\n\nVineet 观察到市场分层：几乎 100% 的客户都希望信息收集这类手动操作完全自动化。精简团队（很多连全职安全的人都没有）直接要完全自主——「如果你犯了错，没关系，因为作为人类我们也不会做得更好」；大企业后果承受不起，更倾向辅助模式：AI 做全部分析、赋能人类决策，但人类仍做最终验证以保留问责。他的判断是这不会是从零到一的转折，而是一块一块工作逐步交给自动化——企业最终会说「笔记本和开发环境端到端自主，最关键的生产服务器仍要人在回路」。[13:09 Vineet Edupuganti]\n\nEvan 说企业客观上已经准备好了——他们四到五分之一的客户今天已在生产环境部署，前提有两个：拥抱云，以及愿意接受 AI 至少在某些时候比你的某些人更聪明。客户来通常出于三个原因：受够了邮件是最大风险和最大财务损失来源；想真正从 SOC 拿到生产力（大部分人其实没拿到）；以及前瞻性的 CISO 想为未来铺路。[14:44 Evan Reiser]\n\n## 怎么建立信任：展示工作过程\n\n让一个「有魔法的 AI」访问最敏感的数据、高速自主做业务决策，确实吓人——这是客户的第一顾虑。Evan 的答案是让产品解释 AI 在想什么、做什么：新客户先用只读模式接入邮件日历，只展示 AI 看到了什么、为什么这样决策；看过十几个到上百个案例后，客户觉得「它做的决策就是我想要我的安全团队做的」，再切换主动模式。有意思的是产品门户的使用量随信任建立而下降。[17:47 Evan Reiser]\n\nVineet 笑说这是从 Abnormal「无耻借鉴」来的产品原则：处理关键任务工作流的智能体，不能拿走数据做一堆事然后跟客户说回头见——「你需要展示工作过程，建立信任」，就像管理人类下属要检查产出一样，数字员工也需要同样的机制。[19:04 Vineet Edupuganti]\n\n至于人的角色：AI 智能体会沿需求层级往上走，接手中级甚至资深分析师的工作，但战略级的大决策——比如彻底重新架构云环境、在 CI-CD 流水线（代码从提交到上线的自动化通道）里阻止有漏洞的代码进入生产——仍需要很多人在会议室反复辩论，可预见的未来仍需要人。[19:33 Vineet Edupuganti] Evan 分享了一个真实案例：一个大客户（几十万员工）部署了他们的 AI 安全邮箱后，邮件安全运营团队从 12 人减到 2 人——但那 10 个人没有失业，转到威胁狩猎和主动调查，工作杠杆更高、大概薪水更高、也更有成就感。[20:48 Evan Reiser]\n\n## 还不够可靠的部分\n\nEvan 认为内部风险/内部威胁是个「失败的行业」——没有优秀公司、没有一致流程，又要尊重、隐私、合规的主观判断，现有 AI 还不到位，但他不会惊讶一年后这个领域出现令人惊叹的产品。[21:28 Evan Reiser] Vineet 回到自主修复：技术角度对机器的要求永远比人高，需要 99.99% 的准确率，「95% 是不够好的」，而且即便技术到了，组织接受也需要时间——他的类比是自动驾驶汽车：技术在旧金山和凤凰城的路上跑很久了，但只要犯一次错公众认知就会改变。不过因为安全的对抗性，「我们到达那一天是不可避免的，只是会比其他行业花更长一点时间」。[22:38 Vineet Edupuganti]\n\n## 五年后：自主蓝队，和给 AI 智能体做安全\n\nEvan 对五年预测保持谦逊——他五个月前对自己公司的预测全错了——但他的方向是把 Abnormal 做成行为安全平台：监控和保护组织中所有身份，从人类到会议室设备等非人类身份，再到 AI 智能体本身。「就像我们今天要保护人类，未来也必须保护那些 AI 智能体——既要防它们自身，也要保护整个企业。」[24:01 Evan Reiser] Vineet 的两个预测：一是（他不希望成真但很可能）国家级攻击会被国家和普通罪犯 24-7 全天候发起，任何暴露点冒出来就该假设有人会去攻；二是 Cogent 想成为「自主蓝队」——持续发现你的暴露点、在攻击者攻进来之前缓解它们，真正拉平攻防的竞争环境。他同时警告：AI 智能体和非人类员工数量将远超人类，过去几十年为保护人类建的那套原则和控制，没人思考怎么用来保护 AI 智能体——这会是未来几年的主要风险点。[24:47 Vineet Edupuganti]\n\n## 用 AI 原生的方式建公司\n\nEvan 说关键区别是「是人类启动 AI，还是 AI 启动人类」。Abnormal 的目标：客户反馈 24 小时内进入代码库，每一个字。做法是约 50% 的客户反馈通话有录音，深度研究智能体遍历并找出所有模式，每周每个产品经理收到一封 AI 邮件：最严重的 bug、最热的功能需求、客户不理解的地方；产品人员做判断后生成微型 PRD（产品需求文档），用 AI 做技术选型，再汇入 AI 生成的代码——从客户反馈到生成代码的整个生命周期被 AI 革命化。[26:56 Evan Reiser]\n\nVineet 说 Cogent 从第一天就把 AI 织进所有核心流程，有两个几年前会让他意想不到的进展：一是「每个人都成了构建者」——按各种标准都不该会写代码的市场团队成员在给自己造工具解决问题，这实现了解决问题能力的普及化；二是人际温度的凸显——AI 在后台批量产出 pull request（代码合并请求）时，五位工程师在白板前热烈讨论该造什么，「这些是 AI 不擅长的事情，人类在这些方面仍然是王者」。[28:10 Vineet Edupuganti]\n\n## 一段师徒关系，和一本 80 页的手册\n\n两人 2018 年结识：Abnormal 成立约 18 个月后，Vineet 问 Greylock 你们最看好的早期公司是哪家，答案是 Abnormal——他不懂网络安全，但「我在这里学到的东西将比我考虑的任何其他公司多 10 倍」。[02:45 Vineet Edupuganti] Evan 对团队文化的定义是「企业内所有行为的总和，表达底层的核心价值观」，头号信条是长期主义，他们有意投资员工哪怕明知会离开：「有些人会离开，但如果我们真正投资于员工，长远来看这一切都会好起来。」他给想创业的人的建议：花头两三年在一家优秀公司真正做好准备，「如果你找到了对的地方，你可以在一两年的时间里获得十年的职业经验」——算是拿工资为自己未来的旅程做准备。[30:29 Evan Reiser]\n\nVineet 的复刻清单：对细节的关注（和 Evan 做项目会有 26 页的 Google 文档，每个要点精心打磨）；以及一个实际方法——大约 2022 年起他在个人 Google Drive 里建了一个叫「Abnormal Playbook」的日志，每次学到什么就记下来，到 2024 年离开时已成一本 80 页的「如何建设和运营一家公司」手册，其中 75% 仍然适用。「我自己是首次创业者，但在某种程度上，我感觉自己像是二次创业者。」[34:07 Vineet Edupuganti] 他还建议加入火箭般的公司、看领导层实力——「如果在大厂，这些人会比我的职级高八级，我根本见不到他们；而能够和这些人一起在战壕里并肩工作，我能够把他们的 30 年经验，在大约八个月的时间里装进我的脑子」——并看好 Abnormal 有机会成为 AI 原生软件界的 PayPal 黑帮。\n\n## 本集带走\n\n- **防守必须超人类化**：攻击以机器速度来、复杂到人眼认不出，应对方案只有具备超人类推理和响应速度的 AI——等警报到人手里已经太晚。\n- **智能体落地的信任公式**：先只读模式展示「AI 看到了什么、为什么这样决策」，客户看过几十上百个案例后再开主动模式；持续解释自己的行动，像管理人类下属一样管理数字员工。\n- **自主化不是零到一**：按风险分层逐块交出——笔记本、开发环境可以端到端自主，关键生产服务器保留人在回路；市场自然分成了「要完全自主」的精简团队和「要辅助+问责」的大企业。\n- **AI 原生公司问的是「AI 启动人类」**：客户反馈 24 小时内进代码库，深度研究智能体自动从录音里提炼 bug、需求和困惑，人类只在关键节点做判断。\n- **个人成长的杠杆**：挑公司像投资但更狠——你只有一次职业生涯；在对的地方，一两年的经验密度可以顶十年，而且要把学到的东西系统记下来（Vineet 的 80 页手册）。",
+  "quotes": [
+    {
+      "en": "And the third piece, which I think is the most scary, is these models are getting really smart, and they're capable of creating attacks that no one has ever seen before.",
+      "zh": "第三点，我认为是最可怕的，是这些模型正变得非常聪明，它们能够创造前所未有的攻击。",
+      "timestamp": "05:17",
+      "speaker": "Evan Reiser"
+    },
+    {
+      "en": "But the reality is, at least as it sits today, a lot of code that AI models spit out is not fundamentally secure.",
+      "zh": "但现实是，至少就目前而言，AI 模型吐出的很多代码在根本上并不安全。",
+      "timestamp": "05:48",
+      "speaker": "Vineet Edupuganti"
+    },
+    {
+      "en": "And the dynamics for defenders are there's a lot more work to do than people to do it.",
+      "zh": "防守者面临的动态是，要做的工作远多于做这些工作的人。",
+      "timestamp": "06:09",
+      "speaker": "Vineet Edupuganti"
+    },
+    {
+      "en": "That context can't go into a human brain, but it can go into the AI context window.",
+      "zh": "那种上下文无法进入人脑，但它可以进入 AI 的上下文窗口。",
+      "timestamp": "08:04",
+      "speaker": "Evan Reiser"
+    },
+    {
+      "en": "But I think people are realizing that as you take a five-year view, when you're being attacked by a machine, you can't sit around waiting for change control.",
+      "zh": "但我认为人们正在意识到，从五年的视角来看，当你被机器攻击时，你不能坐在那里等变更控制流程。",
+      "timestamp": "12:33",
+      "speaker": "Vineet Edupuganti"
+    },
+    {
+      "en": "And for my most mission critical production servers, I still want a human in the loop.",
+      "zh": "而对于我最关键任务的生产服务器，我仍然想要人在回路中。",
+      "timestamp": "14:27",
+      "speaker": "Vineet Edupuganti"
+    },
+    {
+      "en": "You have to also be willing to accept that the AI can make smarter decisions than at least some of your humans some of the time.",
+      "zh": "你还必须愿意接受 AI 至少在某些时候能比你的某些人类做出更聪明的决策。",
+      "timestamp": "15:06",
+      "speaker": "Evan Reiser"
+    },
+    {
+      "en": "But you need to be 99.99% accurate. 95% is not good enough.",
+      "zh": "但你需要达到 99.99% 的准确率。95% 是不够好的。",
+      "timestamp": "22:52",
+      "speaker": "Vineet Edupuganti"
+    },
+    {
+      "en": "And so prediction number two, and really the world that Kojin is trying to usher in here, is we are basically the autonomous blue team that is continuously finding your exposures and mitigating them before the attacker can actually get in.",
+      "zh": "所以预测二，也就是 Cogent 正试图引入的这个世界的本质，是我们基本上就是那个自主蓝队，持续地发现你的暴露点，并在攻击者真正攻进来之前缓解它们。",
+      "timestamp": "25:04",
+      "speaker": "Vineet Edupuganti"
+    },
+    {
+      "en": "There's this whole set of principles and controls that we've built up over the past few decades to go and protect the human, and nobody's thinking at all about how do we secure these AI agents.",
+      "zh": "我们在过去几十年里建立了一整套保护人类的原则和控制措施，但没有任何人在思考我们如何保护这些 AI 智能体。",
+      "timestamp": "25:31",
+      "speaker": "Vineet Edupuganti"
+    },
+    {
+      "en": "I think the big difference between kind of the work forward versus work backwards is, you know, are humans initiating the AI or is AI initiating kind of the humans, right?",
+      "zh": "我认为正向工作与倒推工作之间的重大区别是，是人类在启动 AI，还是 AI 在启动人类，对吧？",
+      "timestamp": "26:27",
+      "speaker": "Evan Reiser"
+    },
+    {
+      "en": "So one of our goals is to make sure that, like, every time we cut feedback from customers, that gets to our code base in 24 hours.",
+      "zh": "所以我们的目标之一是确保，每当我们收到来自客户的反馈，它都能在 24 小时内进入我们的代码库。",
+      "timestamp": "27:06",
+      "speaker": "Evan Reiser"
+    },
+    {
+      "en": "I've had members of the go-to-market team where by all measures they should not be able to write code and these guys are building applications and tools to go and solve the problems that they have.",
+      "zh": "我见过市场销售团队的成员，按各种标准衡量他们都不该会写代码，但这些人正在构建应用程序和工具，去解决他们自己遇到的问题。",
+      "timestamp": "28:40",
+      "speaker": "Vineet Edupuganti"
+    },
+    {
+      "en": "If you find the right spot, you can get a decade of career experience in a year or two.",
+      "zh": "如果你找到了对的地方，你可以在一两年的时间里获得十年的职业经验。",
+      "timestamp": "31:54",
+      "speaker": "Evan Reiser"
+    },
+    {
+      "en": "I was able to take their 30 years of experience and get it into my brain in like eight months, right?",
+      "zh": "我能够把他们的 30 年经验，在大约八个月的时间里装进我的脑子，对吧?",
+      "timestamp": "36:32",
+      "speaker": "Vineet Edupuganti"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "05:17",
+      "speaker": "Evan Reiser",
+      "en": "And the third piece, which I think is the most scary, is these models are getting really smart, and they're capable of creating attacks that no one has ever seen before.",
+      "zh": "第三点，我认为是最可怕的，是这些模型正变得非常聪明，它们能够创造前所未有的攻击。"
+    },
+    {
+      "timestamp": "05:48",
+      "speaker": "Vineet Edupuganti",
+      "en": "But the reality is, at least as it sits today, a lot of code that AI models spit out is not fundamentally secure.",
+      "zh": "但现实是，至少就目前而言，AI 模型吐出的很多代码在根本上并不安全。"
+    },
+    {
+      "timestamp": "06:09",
+      "speaker": "Vineet Edupuganti",
+      "en": "And the dynamics for defenders are there's a lot more work to do than people to do it.",
+      "zh": "防守者面临的动态是，要做的工作远多于做这些工作的人。"
+    },
+    {
+      "timestamp": "06:20",
+      "speaker": "Vineet Edupuganti",
+      "en": "So it's this really unfair fight right now and there is a growing imbalance between defenders and attackers.",
+      "zh": "所以现在这是一场非常不公平的战斗，防守者和攻击者之间的失衡正在加剧。"
+    },
+    {
+      "timestamp": "08:04",
+      "speaker": "Evan Reiser",
+      "en": "That context can't go into a human brain, but it can go into the AI context window.",
+      "zh": "那种上下文无法进入人脑，但它可以进入 AI 的上下文窗口。"
+    },
+    {
+      "timestamp": "12:33",
+      "speaker": "Vineet Edupuganti",
+      "en": "But I think people are realizing that as you take a five-year view, when you're being attacked by a machine, you can't sit around waiting for change control.",
+      "zh": "但我认为人们正在意识到，从五年的视角来看，当你被机器攻击时，你不能坐在那里等变更控制流程。"
+    },
+    {
+      "timestamp": "12:57",
+      "speaker": "Vineet Edupuganti",
+      "en": "But it's not science fiction. It's here today.",
+      "zh": "但这不是科幻。它今天就在这里。"
+    },
+    {
+      "timestamp": "13:53",
+      "speaker": "Vineet Edupuganti",
+      "en": "If you make a mistake, that's fine because we're going to be no better as humans.",
+      "zh": "如果你犯了错，没关系，因为作为人类我们也不会做得更好。"
+    },
+    {
+      "timestamp": "14:18",
+      "speaker": "Vineet Edupuganti",
+      "en": "And for my most mission critical production servers, I still want a human in the loop.",
+      "zh": "而对于我最关键任务的生产服务器，我仍然想要人在回路中。"
+    },
+    {
+      "timestamp": "15:06",
+      "speaker": "Evan Reiser",
+      "en": "You have to also be willing to accept that the AI can make smarter decisions than at least some of your humans some of the time.",
+      "zh": "你还必须愿意接受 AI 至少在某些时候能比你的某些人类做出更聪明的决策。"
+    },
+    {
+      "timestamp": "17:49",
+      "speaker": "Evan Reiser",
+      "en": "Like it's scary to have some like magical AI with access to your most sensitive data making business cradle decisions in a totally autonomous and very high speed way, right?",
+      "zh": "让某种像有魔法一样的 AI 访问你最敏感的数据，以一种完全自主且非常高速的方式做出左右业务的决策，这确实很可怕，对吧？"
+    },
+    {
+      "timestamp": "19:20",
+      "speaker": "Vineet Edupuganti",
+      "en": "You need to show the work, build the trust.",
+      "zh": "你需要展示工作过程，建立信任。"
+    },
+    {
+      "timestamp": "22:52",
+      "speaker": "Vineet Edupuganti",
+      "en": "But you need to be 99.99% accurate. 95% is not good enough.",
+      "zh": "但你需要达到 99.99% 的准确率。95% 是不够好的。"
+    },
+    {
+      "timestamp": "25:04",
+      "speaker": "Vineet Edupuganti",
+      "en": "And so prediction number two, and really the world that Kojin is trying to usher in here, is we are basically the autonomous blue team that is continuously finding your exposures and mitigating them before the attacker can actually get in.",
+      "zh": "所以预测二，也就是 Cogent 正试图引入的这个世界的本质，是我们基本上就是那个自主蓝队，持续地发现你的暴露点，并在攻击者真正攻进来之前缓解它们。"
+    },
+    {
+      "timestamp": "25:31",
+      "speaker": "Vineet Edupuganti",
+      "en": "There's this whole set of principles and controls that we've built up over the past few decades to go and protect the human, and nobody's thinking at all about how do we secure these AI agents.",
+      "zh": "我们在过去几十年里建立了一整套保护人类的原则和控制措施，但没有任何人在思考我们如何保护这些 AI 智能体。"
+    },
+    {
+      "timestamp": "26:35",
+      "speaker": "Evan Reiser",
+      "en": "I think the big difference between kind of the work forward versus work backwards is, you know, are humans initiating the AI or is AI initiating kind of the humans, right?",
+      "zh": "我认为正向工作与倒推工作之间的重大区别是，是人类在启动 AI，还是 AI 在启动人类，对吧？"
+    },
+    {
+      "timestamp": "27:06",
+      "speaker": "Evan Reiser",
+      "en": "So one of our goals is to make sure that, like, every time we cut feedback from customers, that gets to our code base in 24 hours.",
+      "zh": "所以我们的目标之一是确保，每当我们收到来自客户的反馈，它都能在 24 小时内进入我们的代码库。"
+    },
+    {
+      "timestamp": "28:40",
+      "speaker": "Vineet Edupuganti",
+      "en": "I've had members of the go-to-market team where by all measures they should not be able to write code and these guys are building applications and tools to go and solve the problems that they have.",
+      "zh": "我见过市场销售团队的成员，按各种标准衡量他们都不该会写代码，但这些人正在构建应用程序和工具，去解决他们自己遇到的问题。"
+    },
+    {
+      "timestamp": "31:54",
+      "speaker": "Vineet Edupuganti",
+      "en": "If you find the right spot, you can get a decade of career experience in a year or two.",
+      "zh": "如果你找到了对的地方，你可以在一两年的时间里获得十年的职业经验。"
+    },
+    {
+      "timestamp": "36:32",
+      "speaker": "Vineet Edupuganti",
+      "en": "I was able to take their 30 years of experience and get it into my brain in like eight months, right?",
+      "zh": "我能够把他们的 30 年经验，在大约八个月的时间里装进我的脑子，对吧?"
+    }
+  ],
+  "voice_script": "今天这一期,咱们聊网络安全,但聊的不是老一套的防火墙、补丁那些事,而是一个挺紧迫的新局面:攻击者已经用上 AI 了,防守方该怎么办。\n\n先介绍今天的两位主角。第一位是 Evan Reiser,Abnormal AI 的创始人兼 CEO,这家公司做行为安全平台,最出名的是邮件安全,大约四分之一的财富五百强都是它的客户。第二位是 Vineet Edupuganti,Cogent Security 的 CEO,做的是用 AI 智能体来管漏洞。有意思的是,Vineet 曾经是 Evan 的部下,在 Abnormal 亲眼看着公司从刚出隐身模式,长到差不多一千人、好几亿美元的收入。所以这不只是一场行业对谈,更像一段师徒关系隔着几年后的重新碰头。主持人是 Greylock 的合伙人 Corinne Riley。\n\n那这个问题是怎么来的呢?说白了,就是 AI 把攻防彻底变成了一场不公平的战斗。Evan 说现在还非常早期,但已经够吓人了,而且威胁有好几层。第一层,网络罪犯变多了。原来有些有技术但不懂英语的人,当不了网络罪犯,现在靠大语言模型就能干这行。第二层,罪犯用 AI 把攻击自动化了。五年前,想给一家能源公司写一封高度个性化的钓鱼邮件,很难;现在打开大语言模型,按一个按钮,就有一条完美的信息。第三层最可怕,模型聪明到能创造出没人见过的攻击,复杂到人类根本没法分辨真假。\n\n那防守这边呢?Vineet 补了第四层:攻击面本身也在扩大。现在流行用自然语言让 AI 写代码,生产力确实上去了,但 AI 吐出来的很多代码,在根本上并不安全,过去一年漏洞数量暴涨。把两头一对比,结论很扎心:防守者要做的工作,远多于做这些工作的人。\n\n好,既然人手不够、速度也跟不上,那出路在哪?两位的答案是一致的:必须用 AI 智能体——注意,不是那种帮你打辅助的副驾驶,是能自己推理、自己行动的系统。Evan 的逻辑很直接:攻击是以机器速度运行的。过去罪犯潜入一家企业,要摸索几个小时甚至几天;现在可能只要一秒。等警报弹到安全运营中心,再让最好的分析师来看,已经太晚了。所以方案必须是 AI:用超人类的能力去检测,用超人类的速度去响应。拿邮件安全举例,AI 智能体能把公司里每一段人际关系的全部上下文都读进去——用 Evan 的话说,那种上下文无法进入人脑,但它可以进入 AI 的上下文窗口——然后在人类看到之前,就把攻击清掉。\n\nVineet 在 Cogent 的做法是把漏洞管理拆成一个个子问题,让单独的智能体分别去解决。举个例子:假设云上某台虚拟服务器有个漏洞,企业最大的难题其实是该派谁去修。他们的智能体不只查电子表格和配置数据库,还会去翻文档、日志、工单这些散落在人脑子里的隐性知识,拼在一起得出答案。方法论一句话就能概括:问一问,对一个人员充足、资源到位的组织,一个人类会怎么做,然后把这些环节尽可能转移给机器,让人专注在最复杂的创造性工作上面。\n\n不过,让一个 AI 接触最敏感的数据、还高速自主做决策,客户第一反应就是害怕。那信任怎么建立?Evan 的办法很实在:让产品解释 AI 在想什么。新客户先用只读模式接入邮件日历,只展示 AI 看到了什么、为什么这样决策;等看过几十上百个案例,觉得它做的决策就是我想要我的安全团队做的,再切换成主动模式。有个细节很有意思:随着信任建立起来,客户查产品门户的次数反而下降了。Vineet 笑说这个原则是从 Abnormal 无耻借鉴来的:处理关键任务的智能体,不能拿走数据干一堆事然后跟客户说回头见,你得展示工作过程——就像管理人类下属要检查产出一样,数字员工也需要同样的机制。\n\n那客户的准备度怎么样呢?Vineet 观察到市场分层了。精简团队,很多连全职安全人员都没有,直接要完全自主,理由是:就算你犯了错,没关系,我们人类也不会做得更好。大企业扛不起后果,更倾向辅助模式,AI 做全部分析,但人保留最终验证,把问责留在人手上。所以这不是一个从零到一的转折,而是一块一块逐步交给自动化——比如笔记本和开发环境端到端自主,但最关键的生产服务器,仍然要人在回路。Evan 那边的数据是,大约四五分之一的客户今天已经在生产环境部署了。\n\n再往前看一步。Vineet 最看好的方向是自主修复:发现漏洞后自动打补丁。难点在于安全领域你必须是对的——方向错一边,公司可能被攻破;错另一边,推一个坏补丁可能搞垮系统、损失几百万美元。但人们正在意识到,当你被机器攻击时,你不能坐在那里等变更控制流程。现在连最古板的传统大公司都主动找上门,要求以机器速度接手修复。当然,机器要做到的永远比人高,准确率得 99.99%,95% 是不够好的。Vineet 打了个自动驾驶的比方:技术在旧金山的路上跑了很久,可只要犯一次错,公众认知立马就变。但安全的对抗性决定了,我们到达那一天是不可避免的,只是会比别的行业慢一点。\n\n人的位置在哪?有个真实案例:一家几十万员工的大公司部署了 AI 安全邮箱之后,邮件安全运营团队从十二个人减到两个人——但那十个人没有失业,转去做威胁狩猎和主动调查了,杠杆更高,也更有成就感。\n\n最后说点这段师徒关系留下的东西,可能是这一期最实在的收获。Vineet 当年选择加入 Abnormal,说自己不懂网络安全,但在这里学到的东西会比任何其他公司多十倍。从 2022 年起,每次学到什么就记进一个叫 Abnormal Playbook 的日志,到 2024 年离开时,已经攒成一本八十页的、如何建设和运营一家公司的手册,其中七成五至今仍然适用。用他自己的话说:自己是首次创业者,但在某种程度上,感觉像是二次创业者。Evan 给想创业的人的建议也呼应了这一点:花头两三年在一家优秀的公司真正做好准备——如果你找到了对的地方,你可以在一两年的时间里,获得十年的职业经验。\n\n所以这一期听下来,一句话就能带走:当攻击以机器速度来、复杂到人眼认不出的时候,防守方的答案,只能是具备超人类推理和响应速度的 AI。"
+}
