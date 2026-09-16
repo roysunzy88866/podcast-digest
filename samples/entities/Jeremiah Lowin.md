@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":2,"MCP":41,"FastMCP":1,"Prefab":1,"智能体":243,"沙箱":44,"生成式 UI":2,"Claude":58}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":2,"MCP":41,"FastMCP":1,"Prefab":1,"智能体":244,"沙箱":44,"生成式 UI":2,"Claude":58}</script>
 
 <script>
 (function(){

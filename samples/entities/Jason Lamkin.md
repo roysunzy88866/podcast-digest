@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Canva":4,"智能体":243,"无代码":1,"Figma":19,"Notion":13,"Airtable":3,"Palantir":16,"Replit":16,"ChatGPT":65}</script>
+<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Canva":4,"智能体":244,"无代码":1,"Figma":19,"Notion":13,"Airtable":3,"Palantir":16,"Replit":16,"ChatGPT":66}</script>
 
 <script>
 (function(){

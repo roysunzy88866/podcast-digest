@@ -38,11 +38,11 @@ aliases: ["Reynold", "Reynolds"]
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Databricks":12,"Snowflake":8,"MosaicML":2,"Neon":2,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":243}</script>
+<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Databricks":12,"Snowflake":8,"MosaicML":2,"Neon":2,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":244}</script>
 
 <script>
 (function(){

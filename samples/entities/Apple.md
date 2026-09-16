@@ -70,7 +70,7 @@ unlisted: true
 
 [[Google]] · [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Lenny]] · [[Microsoft]] · [[NVIDIA]] · [[Meta]] · [[ChatGPT]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"Google":42,"智能体":243,"Anthropic":123,"OpenAI":113,"Lenny":67,"Microsoft":25,"NVIDIA":35,"Meta":30,"ChatGPT":65,"AGI":22}</script>
+<script type="application/json" class="pd-epn">{"Google":42,"智能体":244,"Anthropic":123,"OpenAI":113,"Lenny":67,"Microsoft":25,"NVIDIA":35,"Meta":31,"ChatGPT":66,"AGI":22}</script>
 
 <script>
 (function(){

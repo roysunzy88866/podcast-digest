@@ -1,0 +1,1428 @@
+{
+  "episode_id": "2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g",
+  "podcast": "How I AI",
+  "date": "2026-09-16",
+  "tags": [
+    "AI 智能体",
+    "产品设计",
+    "消费者产品",
+    "Meta",
+    "智能体评测"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "claire",
+      "type": "person",
+      "role": "host",
+      "name": "Claire",
+      "file": "Claire",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            283.942,
+            292.067
+          ],
+          "quote": "Well, benefits from the fact that when I went to the Muse landing page, it had my Facebook account already signed in and I just had to click one button to sign in as Claire.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1160.232,
+            1161.774
+          ],
+          "quote": "Claire is running on very little sleep.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "muse",
+      "type": "company",
+      "role": "company",
+      "name": "Muse",
+      "file": "Muse",
+      "primary": true,
+      "how_described": "本集主角：Meta 新推出的个人 AI 智能体，定位「能帮你把事情办成的个人智能体」，Claire 总评它不一定是最高智能的，但可能是她很久以来用过的设计最好的智能体，「每一刻都感到愉悦，从来不觉得烦」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            7.733,
+            12.434
+          ],
+          "quote": "Today, I'm gonna give you my first past opinion about Muse, Meta's new personal agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2,
+          "t": [
+            12.574,
+            23.477
+          ],
+          "quote": "We're gonna talk about what Muse is, what I had it do for me, and what it didn't do quite well, and why I think it might be my favorite designed agent I played with in a long time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 7,
+          "t": [
+            69.22,
+            73.442
+          ],
+          "quote": "First, before I get into what I loved about Muse, let's talk about what Muse is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            73.622,
+            74.983
+          ],
+          "quote": "So Muse is from Meta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 12,
+          "t": [
+            83.967,
+            90.009
+          ],
+          "quote": "Now, let me tell you what I can for sure verify having looked at the landing page for Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 16,
+          "t": [
+            99.237,
+            104.181
+          ],
+          "quote": "So if you are a young person, I'm sure you can find many use cases for Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 23,
+          "t": [
+            135.745,
+            142.67
+          ],
+          "quote": "Now, I want to call it a couple of things that make Muse the same as other agents and a couple of things that make Muse different than other agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 28,
+          "t": [
+            155.938,
+            163.423
+          ],
+          "quote": "What I think is so funny is everything on this landing page for Muse is very consumer friendly, except for this one paragraph that says",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            164.004,
+            172.304
+          ],
+          "quote": "Muse Secure VMs run on a persistent, isolated Linux virtual machine equipped with full browser and enough storage, CPU, and memory to do the kinds of things you do on your own computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 32,
+          "t": [
+            179.617,
+            185.858
+          ],
+          "quote": "I as an early adopter who was probably the target audience for Muse cares about this, but I don't think anybody else does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 33,
+          "t": [
+            187.119,
+            189.74
+          ],
+          "quote": "The other thing is Muse has desktop and mobile.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            202.264,
+            214.293
+          ],
+          "quote": "And so this is something that I've observed through this entire onboarding and my initial experience with Muse is it's very good at asking for permission, telling you what it's going to do, and moving through that process nicely.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            257.86,
+            263.363
+          ],
+          "quote": "And then again, they put a lot of content together about why, how they designed Muse and how they built Sleafed into Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 55,
+          "t": [
+            272.291,
+            281.36
+          ],
+          "quote": "So we're going to go through my experience setting up this agent, a couple of things that I had to do, and why I think you might use Muse as your personal agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            282.261,
+            283.902
+          ],
+          "quote": "Okay, what does Muse benefit from?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 57,
+          "t": [
+            283.942,
+            292.067
+          ],
+          "quote": "Well, benefits from the fact that when I went to the Muse landing page, it had my Facebook account already signed in and I just had to click one button to sign in as Claire.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 63,
+          "t": [
+            307.456,
+            310.078
+          ],
+          "quote": "What Muse can do for you and why it's great for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            321.404,
+            328.708
+          ],
+          "quote": "Now, there's a couple of things I really love about Muse, but the first thing is it lets you pick an identity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 80,
+          "t": [
+            359.118,
+            364.609
+          ],
+          "quote": "Recently replaced by GrokBot, but to be replaced by Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 82,
+          "t": [
+            368.785,
+            373.589
+          ],
+          "quote": "Now, a couple things you're going to notice when you're logged in to Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            436.359,
+            441.742
+          ],
+          "quote": "There's a couple other primitives of Muse that I think are fascinating that we're going to go through.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            558.9,
+            564.282
+          ],
+          "quote": "And this is where we get into some to testing some of the capabilities of Muse against these other agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 135,
+          "t": [
+            567.704,
+            572.647
+          ],
+          "quote": "And my hope was it was going to make an artifact because apparently Muse can make",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            870.187,
+            879.615
+          ],
+          "quote": "So since we're on kind of like daily newspaper, daily feed, I do want to call out some other kind of components of the Muse experience.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            944.294,
+            950.799
+          ],
+          "quote": "It's much healthier, I will tell you, Muse, Engineers, and much healthier than my Facebook feed, which is truly nightmare fuel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 232,
+          "t": [
+            961.828,
+            965.792
+          ],
+          "quote": "So feed is one really unique part of Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 233,
+          "t": [
+            965.952,
+            969.015
+          ],
+          "quote": "The other really unique part of Muse is ideas.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 235,
+          "t": [
+            978.085,
+            984.33
+          ],
+          "quote": "Muse just comes out of the box with slash ideas and ideas has great ideas for what it can help you do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1066.361,
+            1080.547
+          ],
+          "quote": "But I want to show you what it's like to set up a goal and how nice of an experience it is to do this and why I think goals is going to be one of these like great unlocks for personal use cases and something genius that I think the Muse team did.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1136.172,
+            1146.041
+          ],
+          "quote": "And my reflection on Muse overall using it is that this is just a really well designed personal agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1184.185,
+            1186.206
+          ],
+          "quote": "I really do like the voice of Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1186.246,
+            1189.568
+          ],
+          "quote": "I find myself 0% annoyed with Muse, which is a miracle.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1240.707,
+            1245.909
+          ],
+          "quote": "I have just liked the experience of setting personal goals with Muse a lot better.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1276.215,
+            1283.86
+          ],
+          "quote": "Okay, so once Muse has your goal set up, it sets up a reminder to nudge you every morning on your goal or every night on your goal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1299.13,
+            1304.933
+          ],
+          "quote": "And then the last piece I want to go to like kind of unique navigation of Muse is library.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1304.993,
+            1308.594
+          ],
+          "quote": "And so library are all the things that Muse has made for you, basically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1390.243,
+            1392.405
+          ],
+          "quote": "And so here's my experience with Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1543.132,
+            1544.753
+          ],
+          "quote": "Muse said, I have your email.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1775.718,
+            1779.56
+          ],
+          "quote": "This is the last thing is I have had Muse try to shop for me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1800.513,
+            1802.274
+          ],
+          "quote": "But what I do like about Muse",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 459,
+          "t": [
+            1851.55,
+            1854.714
+          ],
+          "quote": "This is where I found Muse do less of a good job.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 463,
+          "t": [
+            1862.782,
+            1873.012
+          ],
+          "quote": "For some reason, Muse just really struggles with finding the right thing on the internet to buy, which stinks because I do want it to buy things for me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 489,
+          "t": [
+            1964.323,
+            1979.607
+          ],
+          "quote": "You know, AI shopping experience with Muse that I honestly haven't tried much in GrokBot and that never did with OpenClaw, but this feels like the right agent for the job, which is this personal agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2015.189,
+            2019.23
+          ],
+          "quote": "Okay, so that is my whirlwind tour of Muse TLDR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2080.574,
+            2085.879
+          ],
+          "quote": "Signing up for a workout class, those kinds of things I think I will use Muse for.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2093.044,
+            2097.368
+          ],
+          "quote": "This is a really new thing to try to design and I do think you should spend a lot of time with Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2143.37,
+            2146.594
+          ],
+          "quote": "That is my whirlwind tour of Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2186.182,
+            2194.489
+          ],
+          "quote": "I'm curious what use cases that work well for you, what you think of the design and what you would like to see me do next with Slime the Muse Bot.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "Muse 的出品方（「Instagram、Facebook、Meta，就是那个 Meta」）。Claire 称赞其顶级消费级设计师的功力，表示对生成的 artifacts 印象深刻、想去评测 Facebook 的模型，并笑称隐私上「算是熟悉的魔鬼」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            7.733,
+            12.434
+          ],
+          "quote": "Today, I'm gonna give you my first past opinion about Muse, Meta's new personal agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            73.622,
+            74.983
+          ],
+          "quote": "So Muse is from Meta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            75.063,
+            77.504
+          ],
+          "quote": "Yes, Instagram, Facebook, Meta, that Meta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 35,
+          "t": [
+            192.94,
+            197.922
+          ],
+          "quote": "So again, like ease of communication using the meta ecosystem really useful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 51,
+          "t": [
+            264.283,
+            266.686
+          ],
+          "quote": "Just shout out preemptively to the Meta team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 59,
+          "t": [
+            295.049,
+            298.751
+          ],
+          "quote": "And again, this is kind of like the meta commentary on this product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2026.052,
+            2031.014
+          ],
+          "quote": "We've got these top tier consumer designers from Facebook and Instagram and Meta in general.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2150.919,
+            2157.547
+          ],
+          "quote": "And again, for those that are worried about meta privacy, honestly, I've been a meta Facebook whatever user for",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2172.775,
+            2178.157
+          ],
+          "quote": "And I think that's good indication that there might be really strong models on the meta side, which I haven't played with.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：个人 AI 智能体的差异化不在模型而在设计——身份可编辑、活动流可追溯、头像会动、权限请求恰到好处，都是智能体设计的新课题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.091,
+            7.353
+          ],
+          "quote": "It's the weekend, the kids are out of the house, and that means one thing, it's time to test a new AI agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1,
+          "t": [
+            7.733,
+            12.434
+          ],
+          "quote": "Today, I'm gonna give you my first past opinion about Muse, Meta's new personal agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2,
+          "t": [
+            12.574,
+            23.477
+          ],
+          "quote": "We're gonna talk about what Muse is, what I had it do for me, and what it didn't do quite well, and why I think it might be my favorite designed agent I played with in a long time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 4,
+          "t": [
+            25.057,
+            39.309
+          ],
+          "quote": "Optimizely agent platform for marketers is built on a bigger idea, a whole directory of agents now joined by a newly revealed squad of virtual teammates, each with a defined role and a personality of their own.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            78.224,
+            82.306
+          ],
+          "quote": "And they're positioning it as your personal AI agent that gets things done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 25,
+          "t": [
+            145.231,
+            148.633
+          ],
+          "quote": "Well, it is a agent that has a computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            250.396,
+            257.28
+          ],
+          "quote": "So again, this is going to be a really consumer oriented, not a work focused agent, but that's kind of why I love it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            268.788,
+            270.589
+          ],
+          "quote": "I actually really love this agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            272.291,
+            281.36
+          ],
+          "quote": "So we're going to go through my experience setting up this agent, a couple of things that I had to do, and why I think you might use Muse as your personal agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 71,
+          "t": [
+            333.37,
+            337.031
+          ],
+          "quote": "So right off the bat, I was asked, what do you want to name your agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 72,
+          "t": [
+            337.131,
+            340.652
+          ],
+          "quote": "And of course, I named my agent Polly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            364.669,
+            367.755
+          ],
+          "quote": "I think my personal agent, Polly, is gonna be a MuseBot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 100,
+          "t": [
+            453.129,
+            462.874
+          ],
+          "quote": "If you are an agent designer, pay attention because this lineage and this history of what it's done for me over time is really nice.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            548.794,
+            554.978
+          ],
+          "quote": "And it just set me up on a good foundation to feel like, yes, this agent could be really useful for me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            969.436,
+            977.625
+          ],
+          "quote": "So instead of you having to come up with a blank slate or name an agent and give it a job, which is what I do with OpenClaw, it's what I do with GrokBot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1136.172,
+            1146.041
+          ],
+          "quote": "And my reflection on Muse overall using it is that this is just a really well designed personal agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1173.661,
+            1175.662
+          ],
+          "quote": "This is what I need to hear from a personal agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1396.587,
+            1403.47
+          ],
+          "quote": "These design affordances that are really cool that really make it feel like the personal agent you want.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1553.159,
+            1559.57
+          ],
+          "quote": "And so it was just this like really lovely way to give trust to this agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 489,
+          "t": [
+            1964.323,
+            1979.607
+          ],
+          "quote": "You know, AI shopping experience with Muse that I honestly haven't tried much in GrokBot and that never did with OpenClaw, but this feels like the right agent for the job, which is this personal agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2038.68,
+            2048.189
+          ],
+          "quote": "The authorization, permission method, traceability, the soul, all of it was what I wanted from a personal agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2194.869,
+            2198.212
+          ],
+          "quote": "This has been a How I AI, AI agent review.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "Claire 长期使用的开源个人智能体框架，她的智能体 Polly 由此得名。她发现 Muse 带明显 OpenClaw 痕迹（IdentityMD、SoulMD、Memory、heartbeat），且晨报体验比 OpenClaw 做得更好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            374.269,
+            378.873
+          ],
+          "quote": "This is OpenClaw E. It's got OpenClaw tells to it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            379.634,
+            382.636
+          ],
+          "quote": "What does it have that I really love from OpenClaw?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            397.125,
+            410.589
+          ],
+          "quote": "And so the fact that I can click in here and open SoulMD and edit it, again, if you read the SoulMD and you've ever looked at the OpenClaw, kind of out of the box SoulMD, this is very familiar.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            410.689,
+            412.35
+          ],
+          "quote": "It looks a lot like OpenClaw.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            426.735,
+            432.757
+          ],
+          "quote": "So I'm curious how integrated this like updates are or does it do it overnight like OpenClaw sometimes did?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 161,
+          "t": [
+            680.429,
+            687.291
+          ],
+          "quote": "And I just cannot tell you, for those that are not watching, we have been making these since OpenClaw came out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            780.723,
+            784.346
+          ],
+          "quote": "It's actually better than the one that GrokBot or OpenClaw does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            969.436,
+            977.625
+          ],
+          "quote": "So instead of you having to come up with a blank slate or name an agent and give it a job, which is what I do with OpenClaw, it's what I do with GrokBot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1232.523,
+            1237.665
+          ],
+          "quote": "Okay, again, I, you know, this is a goal and I have done this goal with OpenClaw.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1285.641,
+            1294.607
+          ],
+          "quote": "It's a combination of this new primitive, which is a personal goal with the reminders that we've come to know and love from like GrokBot or OpenClaw or any of these agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 489,
+          "t": [
+            1964.323,
+            1979.607
+          ],
+          "quote": "You know, AI shopping experience with Muse that I honestly haven't tried much in GrokBot and that never did with OpenClaw, but this feels like the right agent for the job, which is this personal agent.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "browser-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "浏览器操作 (browser use)",
+      "file": "浏览器操作",
+      "primary": true,
+      "how_described": "本集指出的 Muse 短板：买 New Balance 运动鞋翻车、订 IMAX 票勉强走完全程但信息来路不明，「是唯一让我没有产生信任的部分」；Claire 自认是「Codex 浏览器使用那一派的女孩」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 449,
+          "t": [
+            1798.992,
+            1800.393
+          ],
+          "quote": "I kind of got stuck on browser use.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1856.075,
+            1859.578
+          ],
+          "quote": "I am a Codex browser use, screen use girl.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1883.722,
+            1894.432
+          ],
+          "quote": "Now, what's concerning, and again, does not engender trust, and this has been the only part, the browser use has been the only part where I did not get trust, is like, it didn't seem to pull up the right movie, so I don't know where it's getting that information.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 484,
+          "t": [
+            1939.473,
+            1941.875
+          ],
+          "quote": "It's going to definitely go through and just use browser use for this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2130.94,
+            2134.063
+          ],
+          "quote": "One thing I don't think did particularly well is browser use.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "permission",
+      "type": "concept",
+      "role": "concept",
+      "name": "权限授予 (permission)",
+      "file": "权限授予",
+      "primary": true,
+      "how_described": "Claire 认为最值得行业学习的设计：没有 auto approve / YOLO 模式 / 每次都问我这类开关，而是在恰当时机问「我可以去找关于你的信息吗？」、「我可以使用这些信息吗？」——建立信任又不烦人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            113.29,
+            121.633
+          ],
+          "quote": "You see here, they are going to highlight things like filling out permission slips, shopping for strollers, all those sorts of things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            202.264,
+            214.293
+          ],
+          "quote": "And so this is something that I've observed through this entire onboarding and my initial experience with Muse is it's very good at asking for permission, telling you what it's going to do, and moving through that process nicely.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            540.508,
+            541.609
+          ],
+          "quote": "It asked for permission.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1520.795,
+            1522.897
+          ],
+          "quote": "You know, the second thing is permission granting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1535.006,
+            1537.948
+          ],
+          "quote": "It just asks you the right time for permission.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2038.68,
+            2048.189
+          ],
+          "quote": "The authorization, permission method, traceability, the soul, all of it was what I wanted from a personal agent.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "activity-feed",
+      "type": "concept",
+      "role": "concept",
+      "name": "活动流 (activity feed)",
+      "file": "活动流",
+      "primary": true,
+      "how_described": "Muse 的独特原语：不只是任务列表，而是每一次工具调用、脚本的完整脉络。「我真希望在 Codex、Claude Code、GrokBot 里也有这个。」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            442.202,
+            444.303
+          ],
+          "quote": "First is this activity feed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1444.967,
+            1447.169
+          ],
+          "quote": "Second, I really love this activity feed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1451.814,
+            1457.179
+          ],
+          "quote": "What's really cool about the activity feed is it's not just the list of what it did for me.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "goals",
+      "type": "concept",
+      "role": "concept",
+      "name": "目标 (goals)",
+      "file": "目标",
+      "primary": true,
+      "how_described": "Muse 的原语之一：不是待办清单，而是「你的个人目标」——生成方案、每天早晚提醒、持续追踪。Claire 用它设喝水和宝宝睡眠训练目标，体验远好于在 OpenClaw 和 ChatGPT 上做同样的事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 245,
+          "t": [
+            1030.423,
+            1034.665
+          ],
+          "quote": "The other primitive that I love is goals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1035.366,
+            1038.468
+          ],
+          "quote": "So it will track your goals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1044.111,
+            1047.192
+          ],
+          "quote": "It is like, what are your personal goals?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1047.292,
+            1054.316
+          ],
+          "quote": "And they help you create these goals from health, relationships, finance, career, interest, productivity, something else.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1055.977,
+            1059.919
+          ],
+          "quote": "So it's tracking two very important goals that I set up prior to recording this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1066.361,
+            1080.547
+          ],
+          "quote": "But I want to show you what it's like to set up a goal and how nice of an experience it is to do this and why I think goals is going to be one of these like great unlocks for personal use cases and something genius that I think the Muse team did.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1240.707,
+            1245.909
+          ],
+          "quote": "I have just liked the experience of setting personal goals with Muse a lot better.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2107.673,
+            2118.098
+          ],
+          "quote": "And the new primitives of kind of like tasks, ideas, goals, library, the items inside a library, we're not using words like",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "feed",
+      "type": "concept",
+      "role": "concept",
+      "name": "信息流 (feed)",
+      "file": "信息流",
+      "primary": true,
+      "how_described": "Muse 的独特原语：一句提示词（「做一个关于我兴趣的信息流，语气清晰直接、可快速浏览、避免标题党」）就能生成每天推送的个性化新闻，比她的 Facebook 信息流健康得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            442.202,
+            444.303
+          ],
+          "quote": "First is this activity feed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            870.187,
+            879.615
+          ],
+          "quote": "So since we're on kind of like daily newspaper, daily feed, I do want to call out some other kind of components of the Muse experience.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            879.795,
+            884.099
+          ],
+          "quote": "So in addition to the main chat, you do have this feed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 207,
+          "t": [
+            884.499,
+            889.203
+          ],
+          "quote": "And this feed is basically a personalized news and information feed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            895.606,
+            897.346
+          ],
+          "quote": "It says, make me a feed about my interests.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            937.409,
+            943.834
+          ],
+          "quote": "I do like to put a sprinkle of salt in my water because I have been electrolyte-pilled, but this little feed is nice.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            944.294,
+            950.799
+          ],
+          "quote": "It's much healthier, I will tell you, Muse, Engineers, and much healthier than my Facebook feed, which is truly nightmare fuel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            951.239,
+            953.801
+          ],
+          "quote": "So I do like the idea of building my own personal feed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 232,
+          "t": [
+            961.828,
+            965.792
+          ],
+          "quote": "So feed is one really unique part of Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1444.967,
+            1447.169
+          ],
+          "quote": "Second, I really love this activity feed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1451.814,
+            1457.179
+          ],
+          "quote": "What's really cool about the activity feed is it's not just the list of what it did for me.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "library",
+      "type": "concept",
+      "role": "concept",
+      "name": "资料库 (library)",
+      "file": "资料库",
+      "primary": true,
+      "how_described": "Muse 存放它为你生成的所有东西的地方：PDF、网站、图片、视频，还有意外惊喜——一键生成的六分钟双人对话风格 AI 新闻播客，可发布到 Spotify 或 Apple Podcasts。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 315,
+          "t": [
+            1299.13,
+            1304.933
+          ],
+          "quote": "And then the last piece I want to go to like kind of unique navigation of Muse is library.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1304.993,
+            1308.594
+          ],
+          "quote": "And so library are all the things that Muse has made for you, basically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1309.094,
+            1315.697
+          ],
+          "quote": "And what's really cool is the first time I came into the library, of course, I was expecting this artifact of the PDF that I made.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2107.673,
+            2118.098
+          ],
+          "quote": "And the new primitives of kind of like tasks, ideas, goals, library, the items inside a library, we're not using words like",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "Claire 的对比参照：称自己是「Codex 浏览器使用那一派的女孩」，「Codex 一会儿就能把这事儿搞定」，也吐槽 Claude/Codex 生成的 PDF 前端无聊。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            704.598,
+            707.48
+          ],
+          "quote": "And out of Codex, they've just been like kind of boring.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1472.512,
+            1478.477
+          ],
+          "quote": "And as I was watching this progress, I was thinking, man, I really want this in Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1856.075,
+            1859.578
+          ],
+          "quote": "I am a Codex browser use, screen use girl.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 462,
+          "t": [
+            1860.039,
+            1862.241
+          ],
+          "quote": "Codex would crush this in a hot minute.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "被对比的对象：Claire 在 ChatGPT 上做过同样的睡眠训练目标，但体验不如 Muse；并提到 GPT-4O 语音「谄媚」而 Muse 温柔不谄媚。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            823.472,
+            825.693
+          ],
+          "quote": "Chat with it like you would with ChatGPT.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1237.926,
+            1239.726
+          ],
+          "quote": "I have done this goal with ChatGPT.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "virtual-machine",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (virtual machine)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "Muse 与其他智能体相同的部分：一台专用、安全的隔离 Linux 虚拟机，自带完整浏览器和足够的存储、CPU、内存；但 Muse 聪明地只向消费者暴露浏览器这一子集。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            164.004,
+            172.304
+          ],
+          "quote": "Muse Secure VMs run on a persistent, isolated Linux virtual machine equipped with full browser and enough storage, CPU, and memory to do the kinds of things you do on your own computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1803.475,
+            1815.741
+          ],
+          "quote": "Is instead of exposing this full virtual machine to an end user who probably really doesn't care about that, it exposes a subset of virtual machine, which is the browser, which is the thing I care about.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1828.125,
+            1841.108
+          ],
+          "quote": "But being able to see the browser and just use the browser actually is a more accessible kind of like way to interact with the MuseBot's virtual machine.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

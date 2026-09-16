@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":6,"评估":1,"基准测试":10,"智能体":243,"RLGym":1,"迁移":1,"Claude Code":59,"Codex":47,"Anthropic":123}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":6,"评估":1,"基准测试":10,"智能体":244,"RLGym":1,"迁移":1,"Claude Code":59,"Codex":48,"Anthropic":123}</script>
 
 <script>
 (function(){

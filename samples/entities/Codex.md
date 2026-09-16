@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>47</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>48</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -56,6 +56,7 @@ unlisted: true
 - **[[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]]**(47:02起):本集说它是 Tibo 在 Squad 里同时挂多个订阅的 AI 编程服务之一,用于工作流互相兜底。
 - **[[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]]**(05:09起):本集说 OpenAI 的 go-to-market 团队用 Codex 比工程团队还多，把销售工作蒸馏成他们最擅长的事
 - **[[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]]**(19:47起):Greg 拿它对自己的个人网站做渗透测试:15 分钟找出 13 个漏洞,45 分钟自动修好;OpenAI 还为数据中心所在州的大学生提供 Codex 访问额度。
+- **[[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]]**(11:44起):Claire 的对比参照：称自己是「Codex 浏览器使用那一派的女孩」，「Codex 一会儿就能把这事儿搞定」，也吐槽 Claude/Codex 生成的 PDF 前端无聊。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(04:45起):本集讨论的 OpenAI 推出的命令行编码智能体，被嘉宾极力偏爱。集里说它“在决定更改什么之前浏览了更多的文件”，虽然非常慢，但嘉宾会同时开 10 个来用，并用它生成了 OpenClaw 的模板。
 
 ## ① 提到它的金句
@@ -86,7 +87,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*47 集*
+*48 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
@@ -134,6 +135,7 @@ unlisted: true
 - [[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]] — 作为被讨论公司(提及)
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]] — 作为概念
 - [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]] — 作为被讨论公司(提及)
+- [[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]] — 作为被讨论公司(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
 
 ## ③ 关联
@@ -142,7 +144,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[Claude]] · [[Anthropic]] · [[ChatGPT]] · [[沙箱]] · [[Lenny]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":243,"OpenAI":113,"Claude Code":59,"Cursor":59,"Claude":58,"Anthropic":123,"ChatGPT":65,"沙箱":44,"Lenny":67,"护栏":46}</script>
+<script type="application/json" class="pd-epn">{"智能体":244,"OpenAI":113,"Claude Code":59,"Cursor":59,"Claude":58,"Anthropic":123,"ChatGPT":66,"沙箱":44,"Lenny":67,"护栏":46}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":3,"MongoDB":4,"Voyage AI":1,"Anthropic":123,"Eleven Labs":5,"Uber":9,"智能体":243,"智能体记忆":1,"RAG":9,"嵌入模型":2}</script>
+<script type="application/json" class="pd-epn">{"Nathan":3,"MongoDB":4,"Voyage AI":1,"Anthropic":123,"Eleven Labs":5,"Uber":9,"智能体":244,"智能体记忆":1,"RAG":9,"嵌入模型":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,124 @@
+{
+  "title_zh": "Meta 的 Muse 亲测：我玩过设计最好的个人智能体",
+  "tldr": "How I AI 主持人 Claire 首发上手 Meta 新推出的个人智能体 Muse：从晨间简报到订电影票，她讲清了它做对了什么、又在哪里翻车。",
+  "digest_md": "Meta 出了个个人 AI 智能体，名字叫 Muse——对，就是 Facebook、Instagram 那个 Meta。上手测评的这位是 How I AI 的主持人 Claire,一个有孩子的科技从业者。她给出的总评有点出人意料：Muse 不一定是最聪明、最强大的智能体，但可能是她很长时间以来用过的**设计最好**的个人智能体，「我在每一刻都感到愉悦，从来没有觉得烦」[19:06 Unknown][33:55 Unknown]。\n\n## 它是谁的智能体？给有孩子的「年纪大的人」\n\nMuse 的定位是「能帮你把事情办成的个人 AI 智能体」，而且目标用户定位极其精准——Claire 看完落地页的判断是：这是给有孩子的千禧一代、甚至 X 世代的产品，「这是给年纪大的人的」。官方展示的典型场景包括填写孩子的家长同意书、买婴儿推车这类家庭琐事，而不是写代码、做报表[01:31 Unknown]。\n\n它和其他智能体相同的部分：背后有一台专用、安全的 Linux 虚拟机，自带完整浏览器和足够的存储、CPU、内存——不过 Claire 也调侃，落地页这段技术描述「显然不是我妈会在意的东西」[02:53 Unknown]。桌面端、移动端之外，还能通过 WhatsApp 跟它沟通，充分利用 Meta 自家生态[03:07 Unknown]。\n\n## 开箱即带 OpenClaw 的影子\n\nClaire 是 OpenClaw(一款开源个人智能体框架)的老用户，她给智能体起名叫 Polly——沿用她原来那个智能体的名字。登录后她发现，Muse 带着明显的 OpenClaw 痕迹：Identity(身份)区里有类似 SoulMD(灵魂文件，定义智能体的性格与处世方式)、记忆等文件，而且都可以手动编辑。她还喜欢给它挑一个可爱的、会动的头像，「我喜欢我的智能体是可爱的、有名字的」[06:22 Unknown][05:30 Unknown]。\n\n几个 Claude、ChatGPT 们少见的原语(基础组件)：\n\n- **活动流**：不只是任务列表，而是每一次工具调用、脚本的完整脉络。普通消费者未必看，但作为开发者能看到它每一步怎么思考、怎么干活，「我真希望在 Codex、Claude Code、GrokBot 里也有这个」[24:32 Unknown]。\n- **信息流(Feed)**:一句提示词「做一个关于我兴趣的信息流，语气清晰直接、可快速浏览、避免标题党」，点一下设置，每天就推送精准的个人化新闻——推送的全是睡眠、健康这类跟她生活强相关的内容。她说这比她的 Facebook 信息流健康多了[15:00 Unknown][15:44 Unknown]。\n- **想法(Ideas)**:不用你面对空白画布想任务，开箱自带一批建议——修路边的坑洼、主持家庭问答之夜、安排和老友吃饭、管理收件箱。她预测这会成为健康与健身领域的杀手级应用，「我们会看到很多健康类 Muse」[16:46 Unknown]。\n- **目标(Goals)**:不是待办清单，而是「你的个人目标」——设定后会生成方案、每天早晚提醒你，并持续追踪。她用它设定了喝水目标和给八个月大的宝宝做睡眠训练。同样的事她在 OpenClaw 和 ChatGPT 上都做过，但 Muse 的体验好得多：语气温柔不谄媚(「不像 GPT-4O 的语音那样谄媚，但温柔、友善、以人为本」)，而且是被当作目标追踪，不是一段聊完就沉底的对话[20:37 Unknown][19:36 Unknown]。\n- **资料库(Library)**:它为你生成过的所有东西都在这里——PDF、网站、图片、视频，还有她完全没料到的：**播客**。一句提示词就生成了一期六分钟、双人对话风格的周末 AI 新闻播客，类似 NotebookLM 那种形式，还能发布到 Spotify 或 Apple Podcasts[22:56 Unknown]。\n\n## 一次成型的晨间简报，是全场高潮\n\nClaire 家从 OpenClaw 时代起就一直打印晨间简报：孩子们的日程、家长提醒、适合孩子的新闻，放在餐桌上全家一起看。她给 Muse 的要求是：一份明天早上的单页 PDF 日程，含一周安排、每个孩子的要点、给父母的提示、从邮箱里挖出的信息，加上旧金山的本地新闻和天气，做成全家人都爱读的样子。\n\n结果：**这是第一份一次生成、而且她真正喜欢设计的简报**——此前 Claude 和 Codex 生成的 PDF 前端要么无聊要么难看，这份却「易读、排版漂亮」，还主动标出了巴西柔术课和钢琴课时间撞车这种她都没要求的服务，新闻部分本地、适龄，还附带餐桌讨论问题(「如果你能给一个新发现的星云起名字，你会叫它什么？」)[11:30 Unknown][12:06 Unknown]。\n\n这让她对 Meta 自家模型的前端生成能力刮目相看，打算专门去评测一下 Facebook 的模型[36:07 Unknown]。\n\n## 权限设计：信任是这样一点点建立的\n\nClaire 认为最值得行业学习的，是 Muse 请求权限的方式。它没有开发者工具里常见的「自动批准」「YOLO 模式」「每次都问我」这类开关，而是在**恰当的时机**问你恰当的问题：连上邮箱后，它不是说「我有你的邮箱了，我去读了」，而是「我有你的邮箱，我可以去找一些关于你的信息吗？」——找到后又问「我可以使用这些信息吗？」。「它没有预设我想开 YOLO 模式，但也不烦人，就是真的不烦人」[25:23 Unknown][26:00 Unknown]。\n\n头像则是设计的点睛之笔：让它干活时，小头像会抱出一台毛绒绒的小笔记本开始工作；做图像生成时弹出一个工作小球。Claire 说这才是设计师「在技艺顶层运作」的样子——不是把按钮磨圆，而是「拿一个静态头像，用 ImageGen 让它动起来，做成按需加载的加载画面，这是以前从来做不到的」[28:14 Unknown]。她把智能体从红色龙虾形象改成了青绿色的小龙 Slime(她孩子最喜欢的毛绒玩具的名字)，全程问答、选项、审批的交互都极其顺滑。\n\n## 翻车的地方：浏览器操作\n\n购物和订票暴露了短板。让它买 New Balance 9060 运动鞋，配色、尺码全出错，卡在浏览器操作上;Claire 自认是「Codex 浏览器使用那一派的女孩」，「Codex 一会儿就能把这事儿搞定」。查《Odyssey》IMAX 场次那次好一些——走完了选座、游客结账、请求 Stripe Link 付款的全流程——但中途它似乎没打开正确的电影页面，信息来路不明，「这是唯一让我没有产生信任的部分」[31:02 Unknown][31:23 Unknown]。\n\n不过她对一个架构取舍很赞赏：Muse 不把整个虚拟机暴露给用户，只暴露浏览器这一个子集——「消费者看到一台长得怪怪的电脑会很困惑、很害怕，但直接看到浏览器、用浏览器，是更容易上手的方式」[30:03 Unknown]。\n\n## 给产品经理和设计师的作业\n\nClaire 的结论：担心 Meta 隐私？「我当 Facebook 用户快 20 年了，他们有我的照片、我妈妈、我孩子的照片——这算是熟悉的魔鬼吧。」她自己会把晨报、健康追踪、购物、孩子活动和「追着市政府修东西」这类家庭场景迁到 Muse 上；幕僚长级别的工作任务还是太复杂，不指望它[36:05 Unknown][34:19 Unknown]。\n\n而她最想喊话的是产品经理和设计师：我们职业生涯的大部分时间都不需要设计智能体，这是一件全新的设计课题，「你应该花大量时间研究 Muse,弄清楚他们做对了什么——暴露了多少、隐藏了多少、让多少变得透明」[34:58 Unknown]。\n\n## 本集带走\n\n- **个人智能体的差异化不在模型，在设计**：Muse 不一定最聪明，但身份/灵魂文件可编辑、活动流全程可追溯、头像会干活动画，这些巧思让它「讨人喜欢」且零烦躁。\n- **权限请求的正确姿势**：没有自动批准/YOLO 模式开关，在恰当时机问「我可以吗？」、展示找到的信息再请求使用——建立信任又不烦人。\n- **五个值得抄的原语**：活动流(暴露每次工具调用)、个性化 Feed(一句提示词生成)、想法(开箱自带任务建议)、目标(追踪+每日提醒，不是待办清单)、资料库(含一键生成播客)。\n- **用词要消费者化**：不叫插件、连接器、待办、artifacts,叫应用、任务——语言选择本身就是设计。\n- **浏览器操作仍是短板**：买鞋翻车、订票将就，虚拟机只暴露浏览器子集是正确的减法，但视觉能力还不到位。\n- **晨间家庭简报是可复制的用例**：日程+每个孩子的要点+本地适龄新闻+餐桌讨论题，单页 PDF 打印放餐桌。",
+  "quotes": [
+    {
+      "en": "I want agents that get me with my family into my life in an offline way.",
+      "zh": "我想要那些让我和家人一起、以线下方式融入我生活的智能体。",
+      "timestamp": "13:12",
+      "speaker": "Claire"
+    },
+    {
+      "en": "It's not that sycophantic like a GPT-4O voice, but it is gentle, kind, human first.",
+      "zh": "它不像 GPT-4O 的语音那样谄媚，但它是温柔的、友善的、以人为本的。",
+      "timestamp": "19:36",
+      "speaker": "Claire"
+    },
+    {
+      "en": "Again, when I talk to designers about operating at the top level of your craft, I do not mean rounding buttons.",
+      "zh": "再说一次，当我和设计师谈论在你的技艺顶层运作时，我指的不是把按钮磨圆。",
+      "timestamp": "28:01",
+      "speaker": "Claire"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "13:12",
+      "speaker": "Unknown",
+      "en": "I want agents that get me with my family into my life in an offline way.",
+      "zh": "我想要那些让我和家人一起、以线下方式融入我生活的智能体。"
+    },
+    {
+      "timestamp": "19:06",
+      "speaker": "Unknown",
+      "en": "And my reflection on Muse overall using it is that this is just a really well designed personal agent.",
+      "zh": "我对 Muse 的整体感受是，这就是一个设计得非常好的个人智能体。"
+    },
+    {
+      "timestamp": "19:36",
+      "speaker": "Unknown",
+      "en": "It's not that sycophantic like a GPT-4O voice, but it is gentle, kind, human first.",
+      "zh": "它不像 GPT-4O 的语音那样谄媚，但它是温柔的、友善的、以人为本的。"
+    },
+    {
+      "timestamp": "23:36",
+      "speaker": "Unknown",
+      "en": "But I'm telling you, this is what consumers want.",
+      "zh": "但我告诉你，这才是消费者想要的。"
+    },
+    {
+      "timestamp": "24:32",
+      "speaker": "Unknown",
+      "en": "And as I was watching this progress, I was thinking, man, I really want this in Codex.",
+      "zh": "当我看着这个进度时，我在想，天哪，我真想在 Codex 里也有这个。"
+    },
+    {
+      "timestamp": "28:01",
+      "speaker": "Unknown",
+      "en": "Again, when I talk to designers about operating at the top level of your craft, I do not mean rounding buttons.",
+      "zh": "再说一次，当我和设计师谈论在你的技艺顶层运作时，我指的不是把按钮磨圆。"
+    },
+    {
+      "timestamp": "28:14",
+      "speaker": "Unknown",
+      "en": "I mean, you take a static avatar and you use ImageGen to animate it for an on-demand loading screen that you could have never done before.",
+      "zh": "我的意思是，你拿一个静态头像，用 ImageGen 让它动起来，做成一个按需加载的加载画面，这是你以前从来做不到的。"
+    },
+    {
+      "timestamp": "11:30",
+      "speaker": "Unknown",
+      "en": "And this is the first one that has been one shot in a design I actually like.",
+      "zh": "而这是第一份一次成型、而且是我真正喜欢的设计。"
+    },
+    {
+      "timestamp": "16:46",
+      "speaker": "Unknown",
+      "en": "I think this is going to be a killer app for health and fitness.",
+      "zh": "我认为这将成为健康和健身领域的一款杀手级应用。"
+    },
+    {
+      "timestamp": "25:23",
+      "speaker": "Unknown",
+      "en": "It does a really nice job of asking for permissions, especially at the appropriate level for consumers.",
+      "zh": "它在请求权限方面做得非常好，尤其是在适合消费者的层级上。"
+    },
+    {
+      "timestamp": "30:03",
+      "speaker": "Unknown",
+      "en": "Is instead of exposing this full virtual machine to an end user who probably really doesn't care about that, it exposes a subset of virtual machine, which is the browser, which is the thing I care about.",
+      "zh": "它不是把完整的虚拟机暴露给可能根本不在乎那个的终端用户，而是暴露虚拟机的一个子集，也就是浏览器，这才是我在乎的东西。"
+    },
+    {
+      "timestamp": "31:00",
+      "speaker": "Unknown",
+      "en": "Codex would crush this in a hot minute.",
+      "zh": "Codex 一会儿就能把这事儿搞定。"
+    },
+    {
+      "timestamp": "34:46",
+      "speaker": "Unknown",
+      "en": "What I think people should really pay attention to though is product managers, designers.",
+      "zh": "不过我觉得大家真正应该关注的是产品经理、设计师。"
+    },
+    {
+      "timestamp": "35:30",
+      "speaker": "Unknown",
+      "en": "One thing I don't think did particularly well is browser use.",
+      "zh": "有一件事我觉得做得不太好，就是浏览器使用。"
+    },
+    {
+      "timestamp": "02:53",
+      "speaker": "Unknown",
+      "en": "That is clearly like not what my mom is going to care about.",
+      "zh": "这显然不是我妈会在意的东西。"
+    },
+    {
+      "timestamp": "33:46",
+      "speaker": "Unknown",
+      "en": "We've got these top tier consumer designers from Facebook and Instagram and Meta in general.",
+      "zh": "他们有来自 Facebook、Instagram 以及整个 Meta 的顶级消费级设计师。"
+    }
+  ],
+  "voice_script": "今天要跟你聊的，是 Meta 新推出的一个个人 AI 智能体，名字叫 Muse——对，就是做 Facebook、Instagram 那个 Meta。首发上手测评的，是 How I AI 这个播客的主持人 Claire,她自己是个科技从业者，家里还有孩子，每天被各种家庭琐事围着转。她用下来给了一个挺出人意料的总评：Muse 不一定是最聪明、最强大的智能体，但可能是她很长时间以来用过的设计最好的一个。用她自己的话说，她在使用的每一刻都感到愉悦，从来没有觉得烦。\n\n你可能会想，一个智能体做得好不好，不是看模型强不强吗？这一期最有意思的地方就在这儿：Claire 认为个人智能体的差异化，根本不在模型，而在设计。所以接下来我就顺着这条线，讲讲 Muse 到底做对了什么，又在哪里翻了车。\n\n先说说它是给谁用的。Muse 的定位是能帮你把事情办成的个人 AI 智能体，而目标用户定位极其精准。Claire 看完落地页的判断是：这是给有孩子的千禧一代、甚至 X 世代的产品，说白了，这是给年纪大的人的。官方展示的典型场景，是填孩子的家长同意书、买婴儿推车这类家庭琐事，而不是写代码、做报表。\n\n那 Claude 眼里那些做对了的设计，具体是哪些呢？她自己是开源智能体框架 OpenClaw 的老用户，一登录就发现 Muse 带着明显的 OpenClaw 痕迹：有个身份区，里面定义性格和处世方式的灵魂文件、记忆这些都可以手动编辑。她还特别喜欢给它挑一个可爱的、会动的头像，说我就喜欢我的智能体是可爱的、有名字的。\n\n更有意思的是几个别家少有的基础组件。一个叫活动流，不只是任务列表，而是每一次工具调用、每一步怎么思考、怎么干活，全程都能看到，她真希望在别的编程智能体里也有这个。还有信息流，一句提示词，说做一个关于我兴趣的信息流，语气清晰直接、避免标题党，之后每天就推送睡眠、健康这类跟她生活强相关的新闻，她说这比 Facebook 信息流健康多了。再有就是目标和资料库：目标不是待办清单，而是设定之后生成方案、每天早晚提醒、持续追踪；资料库里则存着它为你生成过的所有东西，PDF、网站、图片，甚至一句提示词就能生成一期六分钟的双人对话播客，还能直接发布到 Spotify。\n\n而全场的高潮，是一份一次成型的晨间简报。Claire 家一直有打印晨报放餐桌上的习惯，孩子们的日程、家长提醒、适合孩子的新闻，全家一起看。她把同样的要求交给 Muse,结果拿到一份她真正喜欢设计的简报：排版漂亮易读，还主动标出了柔术课和钢琴课时间撞车这种她根本没要求的服务，新闻部分本地又适龄，甚至附带了餐桌讨论问题，比如如果你能给一个新发现的星云起名字，你会叫它什么。\n\n不过真正值得行业学习的，Claire 认为是权限请求的方式。Muse 没有常见的自动批准、YOLO 模式这类开关，而是在恰当的时机问你恰当的问题。比如连上邮箱后，它不是说我有你的邮箱了，我去读了，而是问，我可以去找一些关于你的信息吗？找到了再问，我可以使用这些信息吗？没有预设你想全自动，但就是真的不烦人。连那个小头像都是点睛之笔——让它干活时，头像会抱出一台毛绒绒的小笔记本开始工作。Claire 说，这才是设计师在技艺顶层运作的样子，不是把按钮磨圆。\n\n那翻车翻在哪儿呢？浏览器操作。让它买运动鞋，配色、尺码全出错；查电影 IMAX 场次好一些，走完了选座、结账全流程，但中途信息来路不明，她说这是唯一让我没有产生信任的部分。不过她倒是很赞赏一个架构取舍：Muse 不把整个虚拟机暴露给用户，只暴露浏览器这个子集——普通消费者看到一台长得怪怪的电脑会很害怕，直接用浏览器就容易上手多了。\n\n最后的结论是，Claire 自己会把晨报、健康追踪、孩子活动这类家庭场景迁到 Muse 上，复杂的工作任务还不指望它。至于隐私顾虑，她当 Facebook 用户快二十年了，他们有她的照片、她妈妈、她孩子的照片，这算是熟悉的魔鬼吧。她最想喊话的是产品经理和设计师：设计智能体是一件全新的课题，你应该花大量时间研究 Muse,弄清楚他们做对了什么。就像她自己说的，我想要那些让我和家人一起、以线下方式融入我生活的智能体。"
+}

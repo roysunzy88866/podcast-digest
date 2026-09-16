@@ -1,0 +1,123 @@
+```json
+{
+  "title": "Meta 个人智能体 Muse 上手实测：设计取胜",
+  "digest": "How I AI 主持人 Claire 实测 Meta 新出的个人智能体 Muse，拆解它做对的设计",
+  "body_md": "给你办事的个人 AI 智能体不少，但让一位资深早期采用者「每一刻都感到愉悦、从来没有觉得烦」的，这是头一个。说话的人是 Claire，智能体评测节目 How I AI 的主持人，她周末第一时间完整上手了 Meta 新推出的个人智能体 Muse——结论是：它不一定是\最智能\的，但可能是设计最好的，尤其值得产品经理和设计师逐帧研究。\n\n## Muse 是什么、给谁用\n\nMuse 来自 Meta（就是 Instagram、Facebook 那个 Meta），定位是\能帮你把事情办成\的个人智能体。从落地页看，目标用户非常精准：有孩子的千禧一代——主打场景是填家长同意书、买婴儿推车这类家务事 [01:31 Claire]。\n\n和其他智能体相同的地方：它也是\拥有一台计算机\的智能体，跑在一台持久、隔离的 Linux 虚拟机上（简单说，就是给 AI 配了一台独立的电脑和浏览器，不碰你的真机）。不同的地方在于包装：面向消费者的部分，Meta 不说\插件\或\连接器\，就说\应用\，首批可连的是 Facebook、Instagram、Gmail、健康、Shopify。还可以通过 WhatsApp 沟通，支付走 Stripe 的 Link 并带支付保障（号称 AI 智能体中首创），并预告了未来与 1Password（密码管理工具）的集成 [02:23 Claire]。\n\n## 开箱体验：身份、灵魂、活动流\n\n登录后第一件事是给智能体起名字、选身份——Claire 给它起名 Polly，后来又把头像改成孩子最爱的毛绒玩具\一只青绿色的可爱龙\ Slime。身份这一块带着浓浓的 OpenClaw（一个开源个人智能体项目）痕迹：有 IdentityMD、SoulMD 和 Memory 三份文件，都可以手动编辑。\n\n> 【背景】OpenClaw 是社区里流行的开源个人智能体框架，其\灵魂文件\（SoulMD）做法是让用户直接编辑定义智能体性格与记忆的 markdown 文件；Muse 的这套设计与它高度相似。\n\n另一个值得智能体设计者抄的点是活动流：它不只列出帮你做过哪些任务，还记录每一次工具调用和脚本——等于把 AI 的工作脉络完整摊开，而且按你能接受的深度分层展示，普通消费者看结果，开发者可以点进去看逐步过程 [24:11 Claire]。Claire 说她看的时候想的是：\我真想在 Codex 里有这个，我想在 Claude Code 里有这个。\ [24:32 Claire]\n\n## 晨间简报：一次成型，设计超过 OpenClaw 和 Claude\n\n第一个真实任务是家庭场景：Claire 要一份可打印的单页 PDF 晨间简报，包含一周日程、每个孩子的三个要点提醒、给家长的 call-out、本地新闻和餐桌讨论话题。Muse 先请求连接邮箱，征得许可后才去读，读完后准确推断出孩子的活动（巴西柔术、篮球、钢琴）、他们关心科技和 AI、经常点外卖——每一步都先问再做 [25:43 Claire]。\n\n结果：这是她家从 OpenClaw 发布以来一直在做的晨报中，**第一份一次生成、而且她真正喜欢设计的**，排版好于 GrokBot 和 Claude 生成的版本，还会主动标出\巴西柔术和钢琴课撞车\这种家长才会感激的细节 [11:30 Claire]。\n\n## 几个独有原语：信息流、想法、目标、资料库\n\n- **信息流**：写一句提示词（\做一个关于我兴趣的信息流，快速可浏览，避免标题党\）就能生成专属新闻流。Claire 收到的是睡眠研究和饮水盐分与血压的推送——精准但比她的 Facebook 信息流健康得多。\n- **想法（/ideas）**：不用你面对空白页想任务，Muse 开箱自带建议——修路灯坑洼、管理收件箱、为老朋友安排晚餐、主持 trivia 之夜。Claire 预测这会成为健康与健身领域的杀手级应用。\n- **目标**：不是待办清单，而是个人目标追踪。她现场设置了\给八个月大的宝宝做温柔睡眠训练\：Muse 回应\带宝宝被剥夺睡眠是一种独特的煎熬，我们会让你休息好的\——她评价它不像 GPT-4O 语音那样谄媚，而是温柔、友善、以人为本，而且她\对 Muse 的烦躁程度是零\ [19:46 Claire]。设置好后它会每天早晚提醒你推进目标。\n- **资料库**：Muse 为你做的所有产物集中存放——PDF、网站之外，还能生成图片、视频和播客。她让它做了个六分钟的周末 AI 新闻播客，效果像 Notebook LM 风格的双人对谈，还能发布到 Spotify 或 Apple Podcasts——这完全在她的预期之外 [22:10 Claire]。\n\n## 设计哲学：这才是消费者想要的\n\nClaire 最推崇的是权限授予的分寸感：没有\自动批准\、没有 YOLO 模式、不是每次都问，而是在**正确的时机**请求许可——连了邮箱后它会说\我可以去找一些关于你的信息吗\，找到后再问\我可以使用这些信息吗\，既建立了信任又不烦人 [25:23 Claire]。她的总结：\消费者想要美好的东西、想要可信的渐进式披露、希望被请求权限\ [23:36 Claire]。\n\n头像是设计功力的极致体现：让任务时 Polly 会拿出一台小笔记本开始工作，做图像生成时弹出一个小球；头像本身还能用图像生成按需做动画。Claire 说，她跟设计师讲\在技艺顶层运作\，指的就是这个——不是把按钮磨圆，而是\拿一个静态头像，用 ImageGen 让它动起来，做成一个以前根本做不到的按需加载画面\ [28:14 Claire]。而且动画不是她要求的，是产品开箱自作主张做的。\n\n## 短板：浏览器操作\n\n唯一没建立信任的环节是浏览器使用（让 AI 直接操作网页）。买 New Balance 9060 鞋失败了——配色、尺码都没找对，卡在浏览器操作上；而查《Odyssey》IMAX 场次并走完购票流程（20.99 美元、游客结账、最后要 Stripe Link 付款）则成功。对比之下她直言：\Codex 一会儿就能把这事儿搞定\，Muse 在网上找到该买的东西这件事上特别费劲 [31:02 Claire]。但她欣赏一个包装决策：不把完整的虚拟机终端暴露给用户，只暴露浏览器这个子集——普通用户看到一台报错的怪电脑会害怕，看到浏览器则不会。\n\n## 本集带走\n\n- **给谁用**：个人/家庭场景（健康追踪、孩子日程、晨报、购物、跟市政府报修），不是幕僚长式的复杂工作流。\n- **设计抄作业清单**：任务可追溯（连工具调用都展示，分层呈现）、恰当时机的权限请求、消费者语言（说\应用\不说\连接器\，说\目标\不说\待办\）、只暴露浏览器而非整个虚拟机、有名字有头像有灵魂文件的智能体身份。\n- **产品经理和设计师值得花大量时间研究它**：智能体设计是全新课题，Muse 在\暴露多少、隐藏多少、透明多少\上的取舍做对了很多 [34:46 Claire]。\n- **浏览器使用仍是短板**：购物寻品不稳，看电影选座购票流程倒能跑通。\n- **一个信号**：Muse 生成的 PDF/artifact 设计水平让 Claire 印象深刻，她猜测 Meta 自家模型可能比外界以为的强，准备后续专门评测。",
+  "quotes": [
+    {
+      "timestamp": "13:08",
+      "speaker": "Claire",
+      "en": "I don't want agents that get me with my face in the phone. I want agents that get me with my family into my life in an offline way.",
+      "zh": "我不想要那些让我脸贴在手机上的智能体。我想要那些让我和家人一起、以线下方式融入我生活的智能体。"
+    },
+    {
+      "timestamp": "19:06",
+      "speaker": "Claire",
+      "en": "It's not that it's the most intelligent. It's not that it has the most powerful. It is just so well designed.",
+      "zh": "并不是说它是最智能的，也不是说它最强大。它就是设计得特别好。"
+    },
+    {
+      "timestamp": "19:46",
+      "speaker": "Claire",
+      "en": "I find myself 0% annoyed with Muse, which is a miracle.",
+      "zh": "我发现自己对 Muse 的烦躁程度是零，这简直是个奇迹。"
+    },
+    {
+      "timestamp": "23:36",
+      "speaker": "Claire",
+      "en": "But I'm telling you, this is what consumers want. They want beautiful things. They want trustworthy, like progressive disclosure. They want permissions to be asked for.",
+      "zh": "但我告诉你，这才是消费者想要的。他们想要美好的东西，想要可信的、渐进式披露，希望被请求权限。"
+    },
+    {
+      "timestamp": "23:12",
+      "speaker": "Claire",
+      "en": "There are just these moments of delight that are surprising and nice.",
+      "zh": "总有这些令人惊喜又愉悦的时刻。"
+    },
+    {
+      "timestamp": "11:30",
+      "speaker": "Claire",
+      "en": "And this is the first one that has been one shot in a design I actually like.",
+      "zh": "这是第一份一次成型、而且是我真正喜欢的设计。"
+    },
+    {
+      "timestamp": "24:32",
+      "speaker": "Claire",
+      "en": "Man, I really want this in Codex. I want this in Claude Code. I want this in GrokBot.",
+      "zh": "天哪，我真想在 Codex 里有这个，我想在 Claude Code 里有这个，我想在 GrokBot 里有这个。"
+    },
+    {
+      "timestamp": "25:06",
+      "speaker": "Claire",
+      "en": "Not just the fact that it will track everything it's done for you, which shows the work, gives transparency.",
+      "zh": "不只是它会追踪它为你做的所有事情，这展示了工作过程，提供了透明度。"
+    },
+    {
+      "timestamp": "25:23",
+      "speaker": "Claire",
+      "en": "It does a really nice job of asking for permissions, especially at the appropriate level for consumers.",
+      "zh": "它在请求权限方面做得非常好，尤其是在适合消费者的层级上。"
+    },
+    {
+      "timestamp": "26:00",
+      "speaker": "Claire",
+      "en": "That didn't presume that I wanted to go YOLO mode, but also was not annoying, like just was not annoying.",
+      "zh": "它没有预设我想开 YOLO 模式，但也不烦人，就是真的不烦人。"
+    },
+    {
+      "timestamp": "28:14",
+      "speaker": "Claire",
+      "en": "I mean, you take a static avatar and you use ImageGen to animate it for an on-demand loading screen that you could have never done before.",
+      "zh": "我的意思是，你拿一个静态头像，用 ImageGen 让它动起来，做成一个你以前从来做不到的按需加载画面。"
+    },
+    {
+      "timestamp": "29:25",
+      "speaker": "Claire",
+      "en": "This is not something that I asked for. It just presumed and did it out of the box.",
+      "zh": "这不是我要求的。它自己预设并开箱即做。"
+    },
+    {
+      "timestamp": "31:02",
+      "speaker": "Claire",
+      "en": "Codex would crush this in a hot minute.",
+      "zh": "Codex 一会儿就能把这事儿搞定。"
+    },
+    {
+      "timestamp": "34:49",
+      "speaker": "Claire",
+      "en": "We have not had to design agents for most of our career. This is a really new thing to try to design and I do think you should spend a lot of time with Muse.",
+      "zh": "我们职业生涯的大部分时间里都不需要设计智能体。设计智能体是一件非常新的事情，我确实认为你应该花大量时间研究 Muse。"
+    },
+    {
+      "timestamp": "34:58",
+      "speaker": "Claire",
+      "en": "Figuring out what they got right, because I think they got a lot right on the design here.",
+      "zh": "弄清楚他们做对了什么，因为我觉得他们在设计上做对了很多。"
+    },
+    {
+      "timestamp": "35:07",
+      "speaker": "Claire",
+      "en": "We're not using words like to-dos. We're not using words like tools or artifacts.",
+      "zh": "我们没有使用像待办事项这样的词，也没有使用像工具或 artifacts 这样的词。"
+    },
+    {
+      "timestamp": "33:58",
+      "speaker": "Claire",
+      "en": "The authorization, permission method, traceability, the soul, all of it was what I wanted from a personal agent.",
+      "zh": "授权、权限方式、可追溯性、灵魂，这一切都是我想从一个个人智能体身上得到的。"
+    },
+    {
+      "timestamp": "15:44",
+      "speaker": "Claire",
+      "en": "It's much healthier, I will tell you, Muse, Engineers, and much healthier than my Facebook feed, which is truly nightmare fuel.",
+      "zh": "我会告诉你，Muse 的工程师们，它比我的 Facebook 信息流健康得多，后者简直是噩梦素材。"
+    },
+    {
+      "timestamp": "36:05",
+      "speaker": "Claire",
+      "en": "So I guess the devil you know.",
+      "zh": "所以我想，这算是熟悉的魔鬼吧。"
+    }
+  ]
+}
+```

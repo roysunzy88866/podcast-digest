@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Simile":1,"智能体":243,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":8,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Simile":1,"智能体":244,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":8,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
 
 <script>
 (function(){

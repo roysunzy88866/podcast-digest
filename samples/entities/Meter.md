@@ -33,7 +33,7 @@ unlisted: true
 
 [[Redwood Research]] · [[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[奖励黑客]] · [[RL]] · [[沙箱]] · [[Theo Jaffe]] · [[Ajaya Khatra]] · [[Ryan Greenblatt]]
 
-<script type="application/json" class="pd-epn">{"Redwood Research":3,"OpenAI":113,"Hugging Face":20,"智能体":243,"奖励黑客":4,"RL":7,"沙箱":44,"Theo Jaffe":6,"Ajaya Khatra":1,"Ryan Greenblatt":2}</script>
+<script type="application/json" class="pd-epn">{"Redwood Research":3,"OpenAI":113,"Hugging Face":20,"智能体":244,"奖励黑客":4,"RL":7,"沙箱":44,"Theo Jaffe":6,"Ajaya Khatra":1,"Ryan Greenblatt":2}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gonen Stein":1,"Eon":1,"智能体":243,"数据基础层":1,"ETL":2,"token":20,"后训练":21,"PLG":9,"Google":42,"AWS":12}</script>
+<script type="application/json" class="pd-epn">{"Gonen Stein":1,"Eon":1,"智能体":244,"数据基础层":1,"ETL":2,"token":20,"后训练":21,"PLG":9,"Google":42,"AWS":12}</script>
 
 <script>
 (function(){

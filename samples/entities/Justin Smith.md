@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Resolve AI":1,"GitHub":22,"Slack":25,"智能体":243,"后台智能体":4,"生产上下文":1,"可观测性":19,"沙箱":44,"部署监控":1,"功能开关":3}</script>
+<script type="application/json" class="pd-epn">{"Resolve AI":1,"GitHub":22,"Slack":25,"智能体":244,"后台智能体":4,"生产上下文":1,"可观测性":19,"沙箱":44,"部署监控":1,"功能开关":3}</script>
 
 <script>
 (function(){

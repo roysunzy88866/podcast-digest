@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Aishwarya Reganti":1,"智能体":243,"非确定性":1,"主观能动性":19,"评估":1,"生产监控":1,"持续校准持续开发":1,"飞轮":2,"行为校准":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Aishwarya Reganti":1,"智能体":244,"非确定性":1,"主观能动性":19,"评估":1,"生产监控":1,"持续校准持续开发":1,"飞轮":2,"行为校准":1}</script>
 
 <script>
 (function(){

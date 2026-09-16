@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":243,"Sonia":2,"Parag":2,"Parallel":5,"搜索智能体":2,"索引":2,"爬取":3,"推理":46,"Shapley 值":2,"后台智能体":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":244,"Sonia":2,"Parag":2,"Parallel":5,"搜索智能体":2,"索引":2,"爬取":3,"推理":46,"Shapley 值":2,"后台智能体":4}</script>
 
 <script>
 (function(){

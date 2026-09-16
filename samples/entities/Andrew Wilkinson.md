@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Tiny":1,"Lindy":2,"Replit":16,"Limitless":1,"ChatGPT":65,"Letterboxd":1,"Asana":2,"智能体":243,"vibe coding":34}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Tiny":1,"Lindy":2,"Replit":16,"Limitless":1,"ChatGPT":66,"Letterboxd":1,"Asana":2,"智能体":244,"vibe coding":34}</script>
 
 <script>
 (function(){

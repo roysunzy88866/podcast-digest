@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Corinne Riley":3,"Spiros":1,"Varun":1,"Decagon":7,"Windsurf":5,"Resolve":2,"智能体":243,"Copilot":11,"多智能体协作":2,"护栏":46}</script>
+<script type="application/json" class="pd-epn">{"Corinne Riley":3,"Spiros":1,"Varun":1,"Decagon":7,"Windsurf":5,"Resolve":2,"智能体":244,"Copilot":11,"多智能体协作":2,"护栏":46}</script>
 
 <script>
 (function(){

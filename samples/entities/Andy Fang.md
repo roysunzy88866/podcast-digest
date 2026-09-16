@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DoorDash":6,"Dot":1,"Waymo":13,"智能体商务":3,"智能体":243,"自主性":7,"分发":5,"无人机":2,"harness":32,"开放权重模型":9}</script>
+<script type="application/json" class="pd-epn">{"DoorDash":6,"Dot":1,"Waymo":13,"智能体商务":3,"智能体":244,"自主性":7,"分发":5,"无人机":2,"harness":32,"开放权重模型":9}</script>
 
 <script>
 (function(){

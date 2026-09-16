@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenClaw</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenClaw">OP</div><div class="pi"><h1 class="pt">OpenClaw</h1><div class="byl">概念</div><div class="nums">本站收录 <b>16</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenClaw">OP</div><div class="pi"><h1 class="pt">OpenClaw</h1><div class="byl">概念</div><div class="nums">本站收录 <b>17</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -26,6 +26,7 @@ unlisted: true
 - **[[2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced|《从 OpenClaw 全面迁往 GrokBot：一位创业者的一线实战报告》]]**(07:09起):本集把它说成：主持人此前运行的自建智能体方案——有心跳功能、更主动但维护是噩梦；她最终「谋杀」了所有 open claw 并迁移走，结论是它太难维护。
 - **[[2026-09-07-talks-why-the-harness-matters-more-than-the-mo|《别小看 harness：智能体的「脚手架」正在决定成绩》]]**(37:56起):本集讲它是第一个「拥有自己电脑」的智能体，YC 合伙人今年 1 月开始用，极可定制，是 QM 演化链条上的关键一环。
 - **[[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]]**(35:56起):本集说它做对两件事：证明给 bot 访问你工作工具的权限就能走完大部分路，以及把 AI 更看作同事队友；Grok Bot 从它吸收灵感并补上规模化和打磨。
+- **[[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]]**(06:14起):Claire 长期使用的开源个人智能体框架，她的智能体 Polly 由此得名。她发现 Muse 带明显 OpenClaw 痕迹（IdentityMD、SoulMD、Memory、heartbeat），且晨报体验比 OpenClaw 做得更好。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(00:00起):本集的核心开源项目，是一个直接跑在用户自己电脑上的个人 AI 智能体。稿中说它之所以起飞，是因为它在本地运行就能控制一切（如床温、烤箱），并且能全盘访问机器数据来给人惊喜；它能把用户记忆变成本地的一堆 markdown 文件，从而打破大公司的数据孤岛。
 
 ## ① 提到它的金句
@@ -40,7 +41,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*16 集*
+*17 集*
 
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司
@@ -57,15 +58,16 @@ unlisted: true
 - [[2026-09-02-lennys-grok-bot-vs-openclaw-how-i-replaced|《从 OpenClaw 全面迁往 GrokBot：一位创业者的一线实战报告》]] — 作为被讨论公司
 - [[2026-09-07-talks-why-the-harness-matters-more-than-the-mo|《别小看 harness：智能体的「脚手架」正在决定成绩》]] — 作为被讨论公司
 - [[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]] — 作为被讨论公司
+- [[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]] — 作为被讨论公司
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Codex]] · [[Claude Code]] · [[Cursor]] · [[Claude]] · [[ChatGPT]] · [[Anthropic]] · [[harness]] · [[上下文]] · [[NVIDIA]]
+[[智能体]] · [[Codex]] · [[Claude Code]] · [[ChatGPT]] · [[Cursor]] · [[Claude]] · [[Anthropic]] · [[harness]] · [[上下文]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":243,"Codex":47,"Claude Code":59,"Cursor":59,"Claude":58,"ChatGPT":65,"Anthropic":123,"harness":32,"上下文":15,"NVIDIA":35}</script>
+<script type="application/json" class="pd-epn">{"智能体":244,"Codex":48,"Claude Code":59,"ChatGPT":66,"Cursor":59,"Claude":58,"Anthropic":123,"harness":32,"上下文":15,"NVIDIA":35}</script>
 
 <script>
 (function(){

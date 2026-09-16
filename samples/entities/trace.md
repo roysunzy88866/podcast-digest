@@ -35,7 +35,7 @@ unlisted: true
 
 [[评估]] · [[LLM 当裁判]] · [[智能体]] · [[Lenny]] · [[Vishu]] · [[Hamel Husain]] · [[Clay]] · [[Shreya Shankar]] · [[Claygent]] · [[错误分析]]
 
-<script type="application/json" class="pd-epn">{"评估":1,"LLM 当裁判":5,"智能体":243,"Lenny":67,"Vishu":1,"Hamel Husain":1,"Clay":3,"Shreya Shankar":1,"Claygent":1,"错误分析":1}</script>
+<script type="application/json" class="pd-epn">{"评估":1,"LLM 当裁判":5,"智能体":244,"Lenny":67,"Vishu":1,"Hamel Husain":1,"Clay":3,"Shreya Shankar":1,"Claygent":1,"错误分析":1}</script>
 
 <script>
 (function(){

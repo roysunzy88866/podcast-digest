@@ -1,0 +1,125 @@
+===标题===
+vibe debugging:当 AI 从写代码走向救生产
+===导语===
+Resolve AI 联合创始人兼 CTO Mayank 与工程副总裁 Roshan 解释为什么自动化生产运维比代码生成更难也更值钱,以及他们如何用智能体做事故根因分析。
+===正文===
+这一集是 Greylock 的「Change Agents」系列访谈,主角是 Resolve AI 的两位高管:联合创始人兼 CTO Mayank,他整个职业生涯都在做开发者工具和监控系统,上一家公司做了分布式追踪监控、还参与创建了开源项目 OpenTelemetry,后来被 Splunk 收购;工程副总裁 Roshan 则做了十多年消费级 AI,先后在苹果领导 Siri 的自然语言理解、在 Meta 做对话式 AI、在 Google 参与 Gemini 并带队发布了 DeepResearch 等智能体特性。
+
+他们抛出的核心主张是:**软件工程远不止写代码,而现在所有热度都压在代码生成上,真正的大头被忽略了**。Mayank 在 Splunk 的观察是:随着团队扩大,工程师可能只有 10% 到 20% 的时间在真正发布新功能,大部分时间花在生产运维、处理事故、填合规问卷、变更发布和成本优化上 [06:26 Mayank]。Splunk 生产环境里的微服务数量比工程师还多,排查复杂事故要跨越运营边界、值班轮换,操作一堆互不相通的工具,靠大量没写下来的「部落知识」(只在老员工脑子里、藏在 Slack 和运维手册里的经验)才能把线索拼起来 [06:54 Mayank]。
+
+**代码生成越快,生产端的瓶颈反而越大。** Roshan 的补充很直接:用代码生成工具你能更快产出代码,但团队实际发布到生产的速度并没有快那么多——这就是拼图缺失的一块 [08:58 Roshan]。AI 把写代码的时间压缩了,却制造了更多下游瓶颈:留给理解软件生产行为、积累生产调试经验的时间更少了 [09:48 Mayank]。所以他给消费级 AI 转企业的一个理由也在这里:聊天机器人必须「对很多不同的人是很多不同的东西」,几乎注定广而浅;而企业场景里智能体系统的目标就是产生经济价值,映射得非常自然 [05:04 Roshan]。
+
+## 他们提出「vibe debugging」
+
+对「编码智能体是不是在给生产制造更大麻烦」这个问题,Roshan 的回答是:vibe coding(靠 AI 快速生成代码、不太深究内部细节的写法)名声不好带贬义,但它的问题其实是**走得还不够远**——你快速建好了代码、部署上去、出了问题,但你对实际构建的东西没有深入理解,而且这种学习不会传递回来 [13:14 Roshan]。Resolve 提出的对应概念是 vibe debugging:从 vibe coding 里拿速度,从 vibe debugging 里拿清晰度,两者结合才能跨过那道坎 [13:41 Roshan]。
+
+vibe debugging 具体长什么样?比如「我的前端服务健康吗」就是一个非常复杂的问题——你得知道前端跑在哪、数据在哪、主要的仪表盘和日志在哪,甚至答案到底存在哪,先弄清该操作哪个工具、再用正确的方式去操作它 [14:36 Mayank]。有客户每周花两个小时整理 SLO 预算的运维报告,翻追踪、翻日志、总结事故,Mayank 认为这种日常消耗毫无理由不能被 AI 自动化 [15:23 Mayank]。Roshan 还强调一层:要超越表面关联、深入因果——这些东西同时开始出问题,但事件链是什么?从哪里开始、如何传播 [16:15 Roshan]。
+
+## 为什么不能只在生产数据上放个聊天机器人
+
+区别在于:静态知识叠加不过来,因为生产环境是不断变化的,每个环境有复杂拓扑、部落知识、时序理解,还有你想采取的行动——这是「V1 版副驾驶」和真正自主系统的差别 [16:42 Roshan]。
+
+至于难度,Mayank 给了一个量级数据点:Resolve 正朝着每季度消耗一万亿 token 前进,而整个 Azure 大约是 100 万亿——他们现在大约是 Azure 的 1%,相当于每周从零重做两次 Stack Overflow [17:34 Mayank]。任务本身也比「用 AI 创建一个 PR」复杂得多:创建 PR 时你已经大致知道期望的结果,而调试事故时你真的不知道发生了什么,需要第一性原理推理加上肌肉记忆,还有大量没被写下来的部落知识——运行手册多半也过时了 [18:38 Mayank]。事故拖得越久,跳进电话会的工程师和高管级别越高,是集体专有知识在汇聚解题 [18:18 Mayank]。
+
+## 知识图谱:让智能体像资深工程师一样上手
+
+Resolve 捕捉部落知识的核心组件叫知识图谱:对任何环境的复杂性建模。每个环境都有自己的一套工具、约定、模式和数据,而且独一无二;知识图谱让 Resolve 自动学习任何新环境,开始像资深工程师那样行动,而且自我学习、自我更新,供运行时智能体调查复杂事故时调用 [19:25 Mayank]。
+
+观众问「能不能直接扩展 Cursor 这类工具来做这件事」,Roshan 的回答是:代码生成工具是为可寻址的代码宇宙设计的,但生产系统像一只活生生的会呼吸的动物,是代码、基础设施、部署、流量行为、部落知识相互作用涌现出的行为,且每个环境都不同——这对通用编码智能体来说是非常「超出分布」的任务 [20:21 Roshan]。Mayank 举了个真实案例:客户用 Resolve 调试事故,Resolve 在 Slack 自动回复了很好的根因分析,客户进一步要求它提出一个防复发的单元测试——Resolve 带着对代码、日志和追踪的同时理解,造出了一个客户自己想不出来的单元测试,这类事故从此不再发生。没有对生产实际发生之事的深度理解,编码智能体预测不到这些 [21:22 Mayank]。
+
+处理「不在日志里」的基础设施问题时,思路是问「你们组织里的人类是怎么做的」:智能体第一天带着世界知识而来,通过知识图谱发现基础设施、理解连接——认出你在用哪个网关、哪个防火墙组件、流量怎么流,于是能回溯流量路径、系统性接受或否决假设;同时像初级工程师跟随资深工程师一样,参加事故电话会和事故频道、被人类引导着验证假设,下次就记得也去查那类假设 [29:03 Mayank]。那些没写下来的部落知识,被吸进来变成它自己的心智运行手册 [29:46 Mayank]。
+
+## 团队与未来
+
+要构建能在生产系统中导航的智能体,Roshan 认为必须同时有 AI 侧和生产系统侧的世界级人才:大多数 AI 团队懂模型但对生产复杂性缺直觉,大多数基础设施团队活在生产里却不懂模型和智能体编排;还要做好多智能体编排、推理、记忆这些环节,再合成一个有高度因果性和可解释性的产品——两者深度结合才是魔力的关键 [22:43 Roshan]。而使命不止于做助手,是构建闭环修复系统:准确度高到能自主采取行动、自行修复事故 [24:08 Roshan]。
+
+评估是出了名的难。沙箱里可以模拟事故,但要评估真实客户环境的表现,既有理解单个信息片段的组件层面,也有整体规划和智能体推理;Roshan 认为很有潜力的一条路是把模型本身用作评估的运维人员,前提是调整到与专家级人类操作员高度相关 [31:09 Roshan]。还有个更深的问题:目前根本不存在关于如何思考因果、如何调试事故的数据集,而且极难创建——所以别指望基础模型在这类任务上自动越变越好,它们根本接触不到这些数据 [32:12 Roshan]。
+
+对于模型「自信地错」的失败模式,Roshan 说这里面有持续的张力:护栏加多了结果有依据,但会损失模型的涌现式推理;挑战在于判断模型现在在哪、往哪走,取到恰到好处的护栏,让模型仍能像专家工程师那样提出工作假设、再逐一缩小范围 [33:19 Roshan]。
+
+## 本集带走
+
+- **写代码只占工程师时间的 10%-20%**:其余耗在生产运维、事故响应、合规、变更发布上;AI 压缩了写代码时间,反而放大了下游瓶颈——自动化生产运维才是更大的那块蛋糕。
+- **代码工具管不了生产**:Cursor 这类编码智能体是为「可寻址的代码」设计的,而生产是代码、基础设施、部署、流量、部落知识交织的涌现行为,对通用编码智能体是「超出分布」的任务。
+- **vibe coding + vibe debugging = 完整闭环**:从前者拿速度、从后者拿清晰度;Resolve 的做法是知识图谱自动学习每个独一无二的环境并自我更新,再像学徒一样跟随资深工程师积累调试直觉。
+- **评估是硬骨头**:因果调试的数据集根本不存在且极难创建,基础模型不会自动变强;可行路径之一是让模型模拟专家级人类操作员做评估。
+- **护栏与推理的平衡**:护栏太多会压掉模型的涌现式推理,目标是「恰到好处的护栏 + 模型仍能像专家一样提出并收窄假设」。
+
+===金句===
+08:02 Mayank
+EN | We have seen undeniable gains in code creation.
+ZH | 我们在代码创建方面看到了不可否认的收益。
+
+08:31 Mayank
+EN | But really to achieve high productivity gains in software engineering, we need to automate the more complex activities that require people deep understanding of how to go across different tools, how to go across operational boundaries, and use a lot of tribal knowledge where a human doesn't have to be at the wheel.
+ZH | 但要真正在软件工程中实现高的生产力提升,我们需要自动化那些更复杂的活动——那些需要人们深入理解如何跨越不同工具、如何跨越运营边界、运用大量部落知识的活动——并且不需要人一直握着方向盘。
+
+08:49 Mayank
+EN | You can have ambient agents that are performing a lot of complex work in the background ready for a human to consume.
+ZH | 你可以拥有环境智能体,在后台执行大量复杂的工作,准备好供人来消费。
+
+08:58 Roshan
+EN | with some of these code generation tools, you can crank out code like much faster, but, you know, teams aren't really shipping to production that much faster, right?
+ZH | 用这些代码生成工具,你可以更快地产出代码,但是团队实际上发布到生产的速度并没有快那么多,对吧?
+
+09:53 Mayank
+EN | So I would say that what we at Resolve, why we started Resolve is because we believe that a lot of the complexity will shift to production.
+ZH | 所以我想说,我们为什么创办 Resolve,是因为我们相信很多复杂性将会转移到生产环节。
+
+13:14 Roshan
+EN | I think the problem in my opinion with vibe coding is that it isn't going far enough, right?
+ZH | 在我看来,vibe coding 的问题在于它走得还不够远,对吧?
+
+13:41 Roshan
+EN | you can think of sort of combining the best of both worlds, right, where you get speed from vibe coding, and then if you had sort of the clarity that came from vibe debugging, and then you put that together, and then I think that, you know, you're sort of in that uncanny valley, right?
+ZH | 你可以把它想成是把两个世界的精华结合起来,对吧,你从 vibe coding 中获得速度,再拥有来自 vibe debugging 的那种清晰度,把两者结合在一起,那我想你就处在了那个恐怖谷里,对吧?
+
+17:34 Mayank
+EN | So, here at Resolve, we are now on track to consume one trillion tokens per quarter.
+ZH | 在 Resolve 这里,我们现在正朝着每季度消耗一万亿 token 的目标前进。
+
+17:51 Mayank
+EN | This is the equivalent of doing Stack Overflow completely from scratch twice every week.
+ZH | 这相当于每周完全从零开始做两次 Stack Overflow。
+
+18:34 Mayank
+EN | In some sense, it's a lot more complex than trying to use AI to create a PR.
+ZH | 从某种意义上说,这比用 AI 去创建一个 PR 要复杂得多。
+
+18:44 Mayank
+EN | But when I'm debugging an incident, I really don't know what's going on.
+ZH | 但当我在调试一个事故时,我真的不知道发生了什么。
+
+19:06 Mayank
+EN | For AI to bring all of this past knowledge, current understanding, and first principles reasoning together, that's a very, very hard problem.
+ZH | 让 AI 把所有这些过去的知识、当下的理解和第一性原理推理结合起来,是一个非常非常难的问题。
+
+20:36 Roshan
+EN | like your production system is sort of like a living, breathing animal, right?
+ZH | 你的生产系统就像一个活生生的、会呼吸的动物,对吧?
+
+20:56 Roshan
+EN | I think this is very out of distribution for what, you know, general coding agents would do.
+ZH | 我认为这对通用编码智能体来说是非常超出分布的。
+
+22:10 Mayank
+EN | So in that sense, a coding agent cannot predict these things without the deep understanding of what's actually happening in production.
+ZH | 所以从这个意义上说,如果没有对生产中实际发生的事情的深度理解,编码智能体无法预测这些东西。
+
+24:08 Roshan
+EN | Our mission is to not just be an assistant and help people accelerate incident troubleshooting, but actually build a closed-loop remediation system that can actually get to the level of accuracy that it can take actions and start fixing incidents on its own.
+ZH | 我们的使命不仅仅是做一个助手、帮助人们加速事件排查,而是真正构建一个闭环修复系统,它的准确度能达到可以自主采取行动、开始自行修复事件的水平。
+
+32:24 Roshan
+EN | So it's not like the foundation models are just going to keep getting better at these kind of tasks because they just don't have access to these data sets.
+ZH | 所以这并不意味着基础模型在这些任务上会持续变好,因为它们根本没有接触到这些数据集。
+
+33:27 Roshan
+EN | So if you put a lot of guardrails and you can sort of make sure that the results are sort of grounded, but then you might lose a little bit of like the models sort of emergent reasoning in the process, right?
+ZH | 所以如果你加了很多护栏,你可以某种程度上确保结果是有依据的,但那样你可能会在这个过程中失去一点模型的涌现式推理,对吧?
+
+26:11 Roshan
+EN | if you don't move fast enough to sort of become AI first, you are at a huge risk in my opinion of being disrupted by somebody else who does.
+ZH | 如果你不够快地转型为 AI 优先,那在我看来你就面临着被其他这么做的人颠覆的巨大风险。
+
+===END===

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Craig Smith":1,"Nexus Black":1,"IFS":1,"Anthropic":123,"William Grant":1,"Boston Dynamics":2,"智能体":243,"Resolve":2,"知识表征":1,"管道和仪表图":1}</script>
+<script type="application/json" class="pd-epn">{"Craig Smith":1,"Nexus Black":1,"IFS":1,"Anthropic":123,"William Grant":1,"Boston Dynamics":2,"智能体":244,"Resolve":2,"知识表征":1,"管道和仪表图":1}</script>
 
 <script>
 (function(){

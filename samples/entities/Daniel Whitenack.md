@@ -50,7 +50,7 @@ unlisted: true
 
 [[Chris Benson]] · [[智能体]] · [[护栏]] · [[Anthropic]] · [[开源模型]] · [[提示词注入]] · [[OpenAI]] · [[Hugging Face]] · [[Claude Code]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"Chris Benson":7,"智能体":243,"护栏":46,"Anthropic":123,"开源模型":17,"提示词注入":11,"OpenAI":113,"Hugging Face":20,"Claude Code":59,"MCP":41}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":7,"智能体":244,"护栏":46,"Anthropic":123,"开源模型":17,"提示词注入":11,"OpenAI":113,"Hugging Face":20,"Claude Code":59,"MCP":41}</script>
 
 <script>
 (function(){

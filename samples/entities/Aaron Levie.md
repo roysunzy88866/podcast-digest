@@ -88,11 +88,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]]
+[[Claire]] [[Tobi Lütke]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Box":4,"开放权重":5,"推理":46,"Sofia Puccini":4,"智能体":243,"Theo Jaffe":6,"应用层":3,"Anthropic":123,"LLM 套壳":1,"OpenAI":113}</script>
+<script type="application/json" class="pd-epn">{"Box":4,"开放权重":5,"推理":46,"Sofia Puccini":4,"智能体":244,"Theo Jaffe":6,"应用层":3,"Anthropic":123,"LLM 套壳":1,"OpenAI":113}</script>
 
 <script>
 (function(){

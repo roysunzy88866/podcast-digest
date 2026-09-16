@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claire</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claire">CL</div><div class="pi"><h1 class="pt">Claire</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claire">CL</div><div class="pi"><h1 class="pt">Claire</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*7 条*
+*10 条*
 
 ![[2026-08-05-lennys-build-an-ai-code-review-bot-in-30#^q1]]
 
@@ -27,20 +27,35 @@ unlisted: true
 
 ![[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month#^q8]]
 
+![[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g#^q1]]
+
+![[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g#^q2]]
+
+![[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g#^q3]]
+
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为主持
 - [[2026-08-24-lennys-i-spent-20000-on-devin-in-a-month|《Ryan Carson：从手把手到管理成群智能体》]] — 作为联合主持
+- [[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Codex]] · [[智能体]] · [[Intercom]] · [[Ryan Carson]] · [[ChatPRD]] · [[Devon]] · [[Vercel]] · [[Cognition]] · [[Eve]] · [[Claude Code]]
+[[Codex]] · [[智能体]] · [[Intercom]] · [[Ryan Carson]] · [[Muse]] · [[ChatPRD]] · [[Devon]] · [[Meta]] · [[Vercel]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"Codex":47,"智能体":243,"Intercom":6,"Ryan Carson":1,"ChatPRD":5,"Devon":3,"Vercel":14,"Cognition":17,"Eve":1,"Claude Code":59}</script>
+## ④ 也在聊「智能体」的人
+
+<div class="pd-peers">
+
+[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+
+</div>
+
+<script type="application/json" class="pd-epn">{"Codex":48,"智能体":244,"Intercom":6,"Ryan Carson":1,"Muse":1,"ChatPRD":5,"Devon":3,"Meta":31,"Vercel":14,"Cognition":17}</script>
 
 <script>
 (function(){

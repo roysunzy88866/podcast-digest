@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]] [[Brian Houck]]
+[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tim Sanders":1,"G2":1,"ChatGPT":65,"Gemini":7,"Claude":58,"OpenAI":113,"Reddit":5,"智能体":243,"AEO":4,"验证层":1}</script>
+<script type="application/json" class="pd-epn">{"Tim Sanders":1,"G2":1,"ChatGPT":66,"Gemini":7,"Claude":58,"OpenAI":113,"Reddit":5,"智能体":244,"AEO":4,"验证层":1}</script>
 
 <script>
 (function(){
