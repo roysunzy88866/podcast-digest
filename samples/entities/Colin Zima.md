@@ -33,17 +33,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Omni]] · [[Looker]] · [[Snowflake]] · [[Databricks]] · [[Google]] · [[BI]] · [[数据模型]] · [[创新者的窘境]] · [[产品市场契合]] · [[AI]]
+[[Omni]] · [[Looker]] · [[Snowflake]] · [[Databricks]] · [[Google]] · [[BI]] · [[数据模型]] · [[语义层]] · [[创新者的窘境]] · [[产品市场契合]]
 
 ## ④ 也在聊「产品方法」的人
 
 <div class="pd-peers">
 
-[[Claire]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Kevin DeFarco]]
+[[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Omni":1,"Looker":1,"Snowflake":8,"Databricks":12,"Google":42,"BI":1,"数据模型":1,"创新者的窘境":3,"产品市场契合":20,"AI":17}</script>
+<script type="application/json" class="pd-epn">{"Omni":1,"Looker":1,"Snowflake":9,"Databricks":12,"Google":42,"BI":1,"数据模型":1,"语义层":2,"创新者的窘境":3,"产品市场契合":20}</script>
 
 <script>
 (function(){

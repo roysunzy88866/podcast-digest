@@ -1,0 +1,202 @@
+{
+  "title_zh": "Hinge CPTO：为被删除而设计的应用，与他对 vibe coding 划下的线",
+  "tldr": "Hinge 首席产品与技术官 Ben Celebicic 谈「为被删除而设计」的产品哲学、神圣的免费体验、占公司三分之一的信任与安全，以及他为何不让 PM 写生产代码。",
+  "digest_md": "一款交友应用，北极星指标竟然是「让你离开」——用户越快找到成功、卸载应用，就越成功。说这话的人是 Ben Celebicic，交友应用 Hinge 的首席产品与技术官（CPTO），他在 Hinge 干了 11 年、从 2015 年重新上线就在，目前管着约 300 人的团队。Hinge 明年要冲 10 亿美元收入，而他对 AI 的态度，可能是你听过的最保守的 C 级高管观点之一。\n\n## 一个人身上的 CPO-CTO 张力\n\n两年半前 Hinge 的 CPO 离开时，是 COO 提议让时任 CTO 的 Ben 兼任产品，创始人兼 CEO Justin 拍板：「你跟我这么多年了，一直在这些会议室里，试试看。」Ben 坦言一开始非常难，但他说 CPO 与 CTO 之间的张力本身是健康的：CPO 想专注产品创新、尽快构建；CTO 想保证质量、偿还技术债、为未来打基础设施。现在他要在自己脑子里打这场仗，靠的是一支有观点、会跟他辩论的团队——**当围绕资源分配和优先级没有任何辩论时，我脑子里就亮起一盏灯，说明有什么地方不对劲**。组织结构上，他每年定策略时都会重新审视：组织结构是愿景和策略的反映，反方向行不通 [04:40 Ben Celebicic]。\n\n## 「为被删除而设计」与神圣的免费体验\n\n行业早期解决的是「接触」问题——让你认识现实中遇不到的人。但这带来了新问题：选择太多，选择悖论让人难以推进。所以 Hinge 特意只专注一件事：人们离开 Hinge 之后实际发生了什么。北极星指标是「优质约会」，他们竭尽所能把用户推离平台、回到现实生活。Ben 说正是这种违反直觉的优化逼出了创新——以前没人这么做过 [07:03 Ben Celebicic]。\n\n变现上只有两条原则：**免费体验是神圣的**，要让每个人靠免费功能就能获得成功；**只对无法免费送出去的东西收费**——要么会搞乱生态系统，要么靠稀缺性才有价值。Boost 和 Rose（帮你在人群中脱颖而出）如果人人免费，就变得毫无意义。他把 Hinge 比作一场很棒的派对：人越多派对越好，所以入场（接触所有人）绝不收费；订阅只是打破限制、让你更快成功 [08:43 Ben Celebicic]。\n\nHinge 上付费用户不到 15%。所有新功能都要过一道筛子：**如果做的东西不能提高两个人离开 Hinge 在现实中见面的几率，就不发布**。这也是产品保持简洁的原因 [10:42 Ben Celebicic]。\n\n## AI 带来的个性化，与占三分之一的信任与安全\n\nBen 说真正的个性化是最近才可能的：两三年前，针对个人需求（约会新手 vs 刚离婚的人）做一对一体验几乎不可能。现在 AI 能根据行为模式识别每个用户的「下一步最佳行动」，比如新手在填资料时推他想得更深一点 [12:27 Ben Celebicic]。\n\nAI 的黑暗面——假图片、伪造对话骗约会——则由信任与安全团队对付。这个团队归 Ben 管，**占整个 Hinge 组织的三分之一**。但他强调：这些工作长期以来一直靠 AI 完成，用的不是生成式 AI，而是简单的传统机器学习模型。而且因为 Hinge 的目标是让用户线下见面，伪装毫无意义——你展现的样子和见面时不一样，就不可能成功，所以平台上反而能看到人们呈现真实的自己 [13:51 Ben Celebicic]。\n\n关于 Match Group 年初至今涨约 25%、跑赢大多数下跌的 SaaS 公司，Ben 谢绝替母公司发言，只说 Hinge：过去十年保持同比两位数增长，秘诀简单——执着地跟用户对话、理解核心需求、盯着下一代约会者，业务就会拥有越转越好的飞轮 [15:24 Ben Celebicic]。定位上，Match Group 伞下约 45 个品牌各有泳道（还有面向特定人群的 BLK 等），Hinge 的赛道是「有明确意图的联结」；而且用户本来就同时用多个交友应用（像同时用 Netflix 和 Hulu），这反而对他们有利 [16:56 Ben Celebicic]。\n\n## AI 实际改变了什么：反馈循环，不是神话\n\nBen 眼中 AI 在 Hinge 的最大价值是**反馈循环**：他不需要任何工程师支持，就能把一个想法做成接近最终产品的原型——真的能调 API、连后端——放到用户手里，很快获得「值不值得做」的信念。其次是 PM 可以对想做的功能 vibe-code（用自然语言让 AI 生成代码）出可视化原型，代替 20 页的产品规格文档。用户研究也更容易触达更多人。还有移动端：iOS 上写完功能，直接让工具再生成 Android 版，一个人干了两个人的活 [19:14 Ben Celebicic]。\n\n但他泼了冷水：**从整体上看，实际效果并没有媒体叙事那么夸张**。他们确实更快、学得更快，但离 AI 的全部潜力还有几年。\n\n## 他划的线：构建环节只归工程师\n\n面对「人人都是构建者、PM 直接上生产」的行业浪潮，Ben 选择了保守路线——不是为了保守而保守，而是他要看到证据，证明 PM 或设计师能构建长期可扩展、可维护的技术。**线划在构建环节**：工程师仍然负责构建产品、设计架构、定质量标准；PM 和设计师可以用 AI 做原型、验证想法，但不为代码库做贡献。主持人说他是第一个公开这么讲的 CPTO [22:41 Ben Celebicic]。\n\n他描绘了一个他相信的未来：如果能向 Claude Code、Cursor 或 Codex 这类工具提供「完美的查询输入」，就能得到完美的输出。倒推这个完美查询需要什么——一份无懈可击的产品规格文档，加上一套真正可重复、覆盖所有边界用例的设计系统。但他承认自己还没做到：每次生成的输出总要去调整、修改，而这需要工程技能。**所以他判断非工程师直接构建产品至少还要两年**。对那些激进派「现在欠技术债、以后工具会自己修好」的说法，他直言：「我在这一点上倾向于不信任。等工具真达到那个水平，我再跳上那趟列车。」[24:07 Ben Celebicic]\n\n## 本集带走\n\n- **北极星反着定**：Hinge 只发布能提高「两人离开应用、线下见面」几率的功能，这一条同时保证了产品简洁。\n- **免费体验神圣 + 只收稀缺的钱**：免费功能要让所有人都能成功；Boost/Rose 这类东西免费送就失去价值，入场派对不收费。\n- **AI 最大的近期红利是反馈循环**：非工程师做出能调真 API 的原型，快速验证「值不值得建」——比加速写代码更有价值。\n- **保守划线的理由可复用**：在看到「长期可扩展、可维护」的证据之前，AI 产出停在原型和验证环节，生产代码仍归工程师。\n- **完美查询的两个前提**：无懈可击的产品规格文档 + 可重复、覆盖边界用例的设计系统——想拥抱「人人都是构建者」，先把这两样练好。",
+  "quotes": [
+    {
+      "en": "It's kind of an anti-metric. You want people to stop using your product, because you want them to find success as soon as possible.",
+      "zh": "这有点像是一个反向指标。你希望人们停止使用你的产品，因为你希望他们尽快获得成功。",
+      "timestamp": "00:11",
+      "speaker": "Carlos González de Villaumbrosia"
+    },
+    {
+      "en": "When there's no debate around resourcing, around prioritization, whether we spend time on more product work or more tech work, that lights a bulb in my head that something is wrong.",
+      "zh": "当围绕资源分配、围绕优先级排序、围绕我们把时间花在更多产品工作还是更多技术工作上没有任何辩论时，这会在我的脑子里亮起一盏灯，说明有什么地方不对劲。",
+      "timestamp": "05:36",
+      "speaker": "Ben Celebicic"
+    },
+    {
+      "en": "We don't really try to keep you engaged with the platform. We do everything we can to push people off the platform and get them to spend time in real life.",
+      "zh": "我们并不真的试图让你继续停留在平台上。我们竭尽所能把人们推离平台，让他们把时间花在现实生活中。",
+      "timestamp": "07:44",
+      "speaker": "Ben Celebicic"
+    },
+    {
+      "en": "When you optimize for something like that, that's where innovation is born, because it makes you think hard. It's counterintuitive that we're trying to get rid of people.",
+      "zh": "当你为这样的目标优化时，创新就在那里诞生了，因为它迫使你深入思考。我们试图摆脱用户，这是违反直觉的。",
+      "timestamp": "07:54",
+      "speaker": "Ben Celebicic"
+    },
+    {
+      "en": "Think about it like a great party. You're at this great party, everyone is excited to be there, everyone wants to speak with other people, and the more people you have in the room, the better the party is.",
+      "zh": "把它想象成一场很棒的派对。每个人都很兴奋能在那里，每个人都想和其他人交谈，房间里有越多的人，派对就越好。",
+      "timestamp": "09:37",
+      "speaker": "Ben Celebicic"
+    },
+    {
+      "en": "So if anything we build does not increase the chance of two people leaving Hinge and meeting in real life, we don't ship it. Everything goes through that lens.",
+      "zh": "所以我们构建的任何东西，如果不能提高两个人离开 Hinge 并在现实生活中见面的几率，我们就不会发布它。一切都经过这个镜头。",
+      "timestamp": "11:38",
+      "speaker": "Ben Celebicic"
+    },
+    {
+      "en": "The recent developments in AI have been game-changing in some spaces, but what's been game-changing here is AI generally, and simple, traditional machine-learning models that we've used forever.",
+      "zh": "AI 最近的进展在某些领域是改变游戏规则的，但在这里起到改变游戏规则作用的是广义的 AI，以及我们一直在使用的简单、传统的机器学习模型。",
+      "timestamp": "14:14",
+      "speaker": "Ben Celebicic"
+    },
+    {
+      "en": "If you're obsessive about constantly thinking about your users and solving their problems, your business is going to have this flywheel of getting better and better.",
+      "zh": "如果你执着于不断思考你的用户并解决他们的问题，你的业务就会拥有一个越转越好的飞轮。",
+      "timestamp": "16:09",
+      "speaker": "Ben Celebicic"
+    },
+    {
+      "en": "I can, without any engineering support, prototype an idea that's as close as possible to the final product. It really works with the APIs, it connects to our backend, and I can put it in the hands of users and really gain conviction that this is valuable to build.",
+      "zh": "我可以在没有任何工程支持的情况下，把一个想法做成尽可能接近最终产品的原型。它真的能调用那些 API，能连接到我们的后端，我可以把它交到用户手中，真正获得信念：这个东西值得构建。",
+      "timestamp": "19:44",
+      "speaker": "Ben Celebicic"
+    },
+    {
+      "en": "Some people on the ground are picking up these tools and already starting to say, \"Look, I'm building this feature on iOS. Why don't I just tell the tool to build it for me on Android?\" And all of a sudden, I've done the work of two people at once.",
+      "zh": "有些人在实际工作中已经开始使用这些工具，并开始说：「看，我在 iOS 上构建这个功能。为什么我不直接让工具帮我在 Android 上也构建它呢？」突然之间，我一次完成了两个人的工作。",
+      "timestamp": "21:09",
+      "speaker": "Ben Celebicic"
+    },
+    {
+      "en": "I really want to see the proof that product managers or designers can actually build technology that's going to be scalable and maintainable in the long run. In order for me to maintain that, I draw the line at the build.",
+      "zh": "我真的想看到证据，证明产品经理或设计师确实能够构建出在长期内可扩展、可维护的技术。为了保持这一点，我把线划在构建这一环节。",
+      "timestamp": "22:49",
+      "speaker": "Ben Celebicic"
+    },
+    {
+      "en": "Even if you create some tech debt now, if you lower your quality right now in exchange for moving faster, these tools are going to get better and be able to fix all of those things for you. I tend not to trust that at this point.",
+      "zh": "即使你现在创造了一些技术债务，如果你现在降低质量来换取更快的速度，这些工具会变得更好，并能够为你修复所有这些问题。我在这一点上倾向于不信任那种说法。",
+      "timestamp": "25:25",
+      "speaker": "Ben Celebicic"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:11",
+      "speaker": "Carlos González de Villaumbrosia",
+      "en": "It's kind of an anti-metric. You want people to stop using your product, because you want them to find success as soon as possible.",
+      "zh": "这有点像是一个反向指标。你希望人们停止使用你的产品，因为你希望他们尽快获得成功。"
+    },
+    {
+      "timestamp": "00:26",
+      "speaker": "Ben Celebicic",
+      "en": "Hinge is on the mission to achieve $1 billion in revenue in 2027, next year.",
+      "zh": "Hinge 的使命是在 2027 年，也就是明年，实现 10 亿美元的收入。"
+    },
+    {
+      "timestamp": "00:42",
+      "speaker": "Ben Celebicic",
+      "en": "Trust and safety lives under me, and it's a third of the entire Hinge organization. All of that has been done through AI for ages.",
+      "zh": "信任与安全归我管辖，它占整个 Hinge 组织的三分之一。所有这些工作长期以来一直是通过 AI 完成的。"
+    },
+    {
+      "timestamp": "02:41",
+      "speaker": "Ben Celebicic",
+      "en": "The CPO's tendency is to concentrate on product and innovation and build as quickly as possible, while the CTO always wants to make sure we maintain high quality, that we pay down debt on the tech side, that we build infrastructure that enables us to build cool things in the future.",
+      "zh": "CPO 的倾向是专注于产品和创新并尽快构建，而 CTO 总是想确保我们保持高质量，在技术方面偿还债务，构建能让我们在未来构建酷东西的基础设施。"
+    },
+    {
+      "timestamp": "05:28",
+      "speaker": "Ben Celebicic",
+      "en": "When there's no debate around resourcing, around prioritization, whether we spend time on more product work or more tech work, that lights a bulb in my head that something is wrong.",
+      "zh": "当围绕资源分配、围绕优先级排序、围绕我们把时间花在更多产品工作还是更多技术工作上没有任何辩论时，这会在我的脑子里亮起一盏灯，说明有什么地方不对劲。"
+    },
+    {
+      "timestamp": "07:03",
+      "speaker": "Ben Celebicic",
+      "en": "We don't really try to keep you engaged with the platform. We do everything we can to push people off the platform and get them to spend time in real life.",
+      "zh": "我们并不真的试图让你继续停留在平台上。我们竭尽所能把人们推离平台，让他们把时间花在现实生活中。"
+    },
+    {
+      "timestamp": "07:03",
+      "speaker": "Ben Celebicic",
+      "en": "When you optimize for something like that, that's where innovation is born, because it makes you think hard. It's counterintuitive that we're trying to get rid of people.",
+      "zh": "当你为这样的目标优化时，创新就在那里诞生了，因为它迫使你深入思考。我们试图摆脱用户，这是违反直觉的。"
+    },
+    {
+      "timestamp": "08:43",
+      "speaker": "Ben Celebicic",
+      "en": "The second principle we have is that we only charge for things we cannot give away for free, because if we gave them away for free, they would either mess up the ecosystem, or they would mean nothing, in cases where scarcity is actually a value you provide.",
+      "zh": "我们的第二个原则是，我们只对我们无法免费提供的东西收费，因为如果我们免费提供它们，它们要么会搞乱生态系统，要么就会变得毫无意义——在稀缺性本身就是你提供的价值的情况下。"
+    },
+    {
+      "timestamp": "09:24",
+      "speaker": "Ben Celebicic",
+      "en": "Think about it like a great party. You're at this great party, everyone is excited to be there, everyone wants to speak with other people, and the more people you have in the room, the better the party is.",
+      "zh": "把它想象成一场很棒的派对。每个人都很兴奋能在那里，每个人都想和其他人交谈，房间里有越多的人，派对就越好。"
+    },
+    {
+      "timestamp": "11:13",
+      "speaker": "Ben Celebicic",
+      "en": "So if anything we build does not increase the chance of two people leaving Hinge and meeting in real life, we don't ship it. Everything goes through that lens.",
+      "zh": "所以我们构建的任何东西，如果不能提高两个人离开 Hinge 并在现实生活中见面的几率，我们就不会发布它。一切都经过这个镜头。"
+    },
+    {
+      "timestamp": "12:27",
+      "speaker": "Ben Celebicic",
+      "en": "If you look two or three years ago, it wasn't really possible to provide a personalized experience to everyone.",
+      "zh": "如果往回看两三年，为每个人提供个性化的体验是不太可能的。"
+    },
+    {
+      "timestamp": "13:51",
+      "speaker": "Ben Celebicic",
+      "en": "The recent developments in AI have been game-changing in some spaces, but what's been game-changing here is AI generally, and simple, traditional machine-learning models that we've used forever.",
+      "zh": "AI 最近的进展在某些领域是改变游戏规则的，但在这里起到改变游戏规则作用的是广义的 AI，以及我们一直在使用的简单、传统的机器学习模型。"
+    },
+    {
+      "timestamp": "15:24",
+      "speaker": "Ben Celebicic",
+      "en": "If you're obsessive about constantly thinking about your users and solving their problems, your business is going to have this flywheel of getting better and better.",
+      "zh": "如果你执着于不断思考你的用户并解决他们的问题，你的业务就会拥有一个越转越好的飞轮。"
+    },
+    {
+      "timestamp": "19:14",
+      "speaker": "Ben Celebicic",
+      "en": "I can, without any engineering support, prototype an idea that's as close as possible to the final product. It really works with the APIs, it connects to our backend, and I can put it in the hands of users and really gain conviction that this is valuable to build.",
+      "zh": "我可以在没有任何工程支持的情况下，把一个想法做成尽可能接近最终产品的原型。它真的能调用那些 API，能连接到我们的后端，我可以把它交到用户手中，真正获得信念：这个东西值得构建。"
+    },
+    {
+      "timestamp": "19:14",
+      "speaker": "Ben Celebicic",
+      "en": "Some people on the ground are picking up these tools and already starting to say, \"Look, I'm building this feature on iOS. Why don't I just tell the tool to build it for me on Android?\" And all of a sudden, I've done the work of two people at once.",
+      "zh": "有些人在实际工作中已经开始使用这些工具，并开始说：「看，我在 iOS 上构建这个功能。为什么我不直接让工具帮我在 Android 上也构建它呢？」突然之间，我一次完成了两个人的工作。"
+    },
+    {
+      "timestamp": "19:14",
+      "speaker": "Ben Celebicic",
+      "en": "But if I really look holistically, it does not translate to what the narrative in the media out there probably is. We are moving faster, we're learning faster, we have more tools at our disposal, but I believe we still haven't achieved the full potential.",
+      "zh": "但如果我真的从整体上看，它并没有转化为外界媒体上可能的那种叙事。我们确实在更快地前进，更快地学习，我们有更多的工具可供使用，但我相信我们仍然没有实现全部潜力。"
+    },
+    {
+      "timestamp": "22:41",
+      "speaker": "Ben Celebicic",
+      "en": "I really want to see the proof that product managers or designers can actually build technology that's going to be scalable and maintainable in the long run. In order for me to maintain that, I draw the line at the build.",
+      "zh": "我真的想看到证据，证明产品经理或设计师确实能够构建出在长期内可扩展、可维护的技术。为了保持这一点，我把线划在构建这一环节。"
+    },
+    {
+      "timestamp": "22:41",
+      "speaker": "Ben Celebicic",
+      "en": "So we're learning much, much quicker, but we're not in a place where non-engineers are building products.",
+      "zh": "所以我们学习得快得多、快得多，但我们还没有到非工程师在构建产品的地方。"
+    },
+    {
+      "timestamp": "24:07",
+      "speaker": "Ben Celebicic",
+      "en": "I can see a world in the future where, if I'm able to provide a perfect query input to, let's say, a Claude Code or Cursor or Codex or any of these tools, I'll probably get a perfect output.",
+      "zh": "我能看到未来有这样的世界：如果我能够向，比如说，Claude Code 或 Cursor 或 Codex 或任何这些工具，提供一个完美的查询输入，我大概会得到一个完美的输出。"
+    },
+    {
+      "timestamp": "24:07",
+      "speaker": "Ben Celebicic",
+      "en": "Even if you create some tech debt now, if you lower your quality right now in exchange for moving faster, these tools are going to get better and be able to fix all of those things for you. I tend not to trust that at this point.",
+      "zh": "即使你现在创造了一些技术债务，如果你现在降低质量来换取更快的速度，这些工具会变得更好，并能够为你修复所有这些问题。我在这一点上倾向于不信任那种说法。"
+    }
+  ],
+  "voice_script": "今天要讲的人叫 Ben Celebicic,交友应用 Hinge 的首席产品与技术官。这个职位本身就有点特别,产品和技术一把抓。Ben 在 Hinge 待了十一年,从 2015 年应用重新上线就在,现在管着大约三百人的团队,公司明年要冲十亿美元收入。今天聊的核心,是一款交友应用,北极星指标竟然是让你离开,你越快卸载它,它越成功。这听起来违反直觉,但顺着这条线讲下去,你会看到 Hinge 整套产品哲学、变现逻辑,还有为什么在这波 AI 浪潮里,这位高管成了最保守的那个。\n\n先说说这个一身兼两职是怎么来的。两年半前,Hinge 的首席产品官离开了,当时的首席运营官提议让时任 CTO 的 Ben 把产品也兼了,创始人兼 CEO 拍板说,你跟我这么多年了,一直在这些会议室里,试试看。Ben 坦言一开始非常难。产品负责人想专注创新、尽快构建,技术负责人想保证质量、偿还技术债、为未来打基础,这两股力量天然是较劲的。而 Ben 现在要把这场仗在自己脑子里打。靠什么?靠一支有观点、会跟他辩论的团队。有句话值得记住:当围绕资源分配、围绕优先级排序,没有任何辩论的时候,我脑子里就亮起一盏灯,说明有什么地方不对劲。组织结构也一样,每年定策略时都会重新审视,因为组织结构是愿景和策略的反映,反方向行不通。\n\n那这款产品到底是怎么思考的?得先交代一个背景。整个行业早期解决的是接触问题——让你认识现实中遇不到的人。但这就带来了新麻烦:选择太多了。选择一多,人反而难以推进,这就是所谓的选择悖论。所以 Hinge 特意只专注一件事:人们离开 Hinge 之后,实际发生了什么。北极星指标定的是优质约会。原话是这么说的:我们并不真的试图让你停留在平台上,我们竭尽所能把人们推离平台,让他们把时间花在现实生活中。而且正是因为为这么一个反直觉的目标优化,创新才被逼了出来,因为它迫使你深入思考——以前没人这么干过。\n\n顺着这个思路,变现的路子也就清楚了,只有两条原则。第一,免费体验是神圣的,要让每个人靠免费功能就能获得成功。第二,只对无法免费送出去的东西收费——要么免费送会搞乱整个生态,要么就得靠稀缺性才有价值。比如 Boost 和 Rose,帮你在人群中脱颖而出,这种东西如果人人免费,就变得毫无意义。打个比方,Hinge 就像一场很棒的派对:每个人都很兴奋能在那里,房间里人越多,派对就越好,所以入场,也就是接触所有人,绝不收费;订阅只是打破限制,让你更快成功。目前付费用户不到百分之十五。而所有新功能都要过同一道筛子:如果做的东西不能提高两个人离开 Hinge、在现实中见面的几率,就不发布。产品保持简洁,原因就在这一条上。\n\n那 AI 在这里面扮演什么角色?真正的个性化,其实是最近才可能的。两三年前,想针对个人需求做一对一体验几乎不可能——刚约会的新手和刚离婚的人,需要的完全是两回事。现在 AI 能根据行为模式,识别每个用户的下一步最佳行动,比如新手填资料时,提醒想得更深一点。至于 AI 的黑暗面——假图片、伪造对话骗约会——由信任与安全团队对付。这个团队归 Ben 管,占了整个 Hinge 组织的三分之一。但这里要强调一点:这些工作长期以来一直靠 AI 完成,用的不是生成式 AI,而是简单的传统机器学习模型。而且因为 Hinge 的目标是让用户线下见面,伪装毫无意义——你展现的样子和见面时不一样,就不可能成功。所以在这个平台上,反而能看到人们呈现真实的自己。\n\n至于业务数据,Ben 谢绝替母公司 Match Group 发言,只谈 Hinge:过去十年保持同比两位数增长。秘诀说来简单——执着地跟用户对话,理解核心需求,盯着下一代约会者,业务就会拥有越转越好的飞轮。定位上,Match Group 伞下大约四十五个品牌各有泳道,Hinge 的赛道是有明确意图的联结;而且用户本来就同时用多个交友应用,就像同时用 Netflix 和 Hulu,这反而对他们有利。\n\n好,现在到了最值得听的部分:AI 到底改变了什么,又没改变什么。在 Ben 眼里,AI 在 Hinge 的最大价值是反馈循环——他不需要任何工程师支持,就能把一个想法做成接近最终产品的原型,真的能调 API、连后端,放到用户手里,很快获得值不值得做的信念。其次,产品经理可以对想做的功能用自然语言让 AI 生成代码,做出可视化原型,代替二十页的产品规格文档。用户研究也更容易触达更多人。移动端更是明显:iOS 上写完功能,直接让工具再生成 Android 版,一个人干两个人的活。\n\n但紧接着,泼了一盆冷水:从整体上看,实际效果并没有媒体叙事那么夸张。确实更快了,学得也更快了,但离 AI 的全部潜力还有几年。\n\n这就引出了那条线,也是主持人说他是第一个公开这么讲的 CPTO 的地方。面对人人都是构建者、产品经理直接上生产的行业浪潮,Ben 选择了保守路线。注意,不是为了保守而保守,而是要看到证据——证明产品经理或设计师能构建长期可扩展、可维护的技术。这条线划在构建环节:工程师仍然负责构建产品、设计架构、定质量标准;产品经理和设计师可以用 AI 做原型、验证想法,但不为代码库做贡献。\n\n为什么这么笃定?看看理想的条件就明白了。Ben 相信一个未来:如果能向 Claude Code、Cursor 或 Codex 这类工具提供完美的查询输入,就能得到完美的输出。那倒推回去,完美查询需要什么?一份无懈可击的产品规格文档,加上一套真正可重复、覆盖所有边界用例的设计系统。但他承认自己还没做到——每次生成的输出,总要去调整、修改,而这需要工程技能。所以判断是:非工程师直接构建产品,至少还要两年。对那些激进派说的\"现在欠技术债,以后工具会自己修好\",回答很直接:我在这一点上倾向于不信任。等工具真达到那个水平,我再跳上那趟列车。\n\n回头看,这一集其实讲的是同一件事的两面:对用户,Hinge 想让你尽快成功、尽快离开;对 AI,Ben 想让它尽快验证想法、但先别碰生产。两边的底线都是一句话——不能提高两个人离开 Hinge、在现实中见面的几率的东西,就不发布,一切都经过这个镜头。"
+}

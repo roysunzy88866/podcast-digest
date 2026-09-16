@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mustafa Suleyman":1,"DeepMind":9,"Inflection AI":1,"Microsoft":25,"Pi":2,"Copilot":11,"OpenAI":115,"AGI":22,"图灵测试":2,"基于人类反馈的强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"Mustafa Suleyman":1,"DeepMind":9,"Inflection AI":1,"Microsoft":25,"Pi":2,"Copilot":11,"OpenAI":116,"AGI":22,"图灵测试":2,"基于人类反馈的强化学习":1}</script>
 
 <script>
 (function(){

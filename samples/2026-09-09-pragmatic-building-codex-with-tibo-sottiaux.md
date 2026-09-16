@@ -156,7 +156,7 @@ Peter Steinberger 让主持人问他:日程表像俄罗斯方块,你怎么还这
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Codex、OpenAI、Google · 同概念:智能体 (agent)、护栏 (guardrails)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:harness、智能体 (agent)、护栏 (guardrails)</span>
-- [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同公司:ChatGPT、Codex、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同公司:OpenAI · 同概念:harness、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>

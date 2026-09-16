@@ -7,29 +7,31 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PostHog</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PostHog">PO</div><div class="pi"><h1 class="pt">PostHog</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PostHog">PO</div><div class="pi"><h1 class="pt">PostHog</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]]**(56:42起):本集作为赞助商提及 PostHog 是产品分析平台，未展开讨论
 - **[[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]]**(03:32起):本集说它是数据分析工具,Yash 嫌手动点仪表盘烦,把 A/B 测试流水线自动化,让智能体代替人去 PostHog 里找受众分组
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(25:14起):本集顺带提及 PostHog 的网站 UI 很怪异，但这是一种模式破坏策略，目标受众欣赏这种怪异
+- **[[2026-09-14-talks-we-let-an-ai-agent-execute-bash-and-live|《PostHog 把智能体装进终端，再给它请了个“保镖”》]]**(00:21起):本集 speakers 所在的公司，一切公开构建；其 wizard 工具让开发者几分钟内完成 PostHog 接入，每周已有 8000 名开发者运行。
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|《Julie Zhuo：管理者的核心技能，就是驾驭AI的技能》]] — 作为被讨论公司(提及)
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|《一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕》]] — 作为被讨论公司
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为被讨论公司(提及)
+- [[2026-09-14-talks-we-let-an-ai-agent-execute-bash-and-live|《PostHog 把智能体装进终端，再给它请了个“保镖”》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[ChatGPT]] · [[Cursor]] · [[OpenAI]] · [[Julie Zhuo]] · [[Yash]] · [[Matt Swulinski]] · [[Sundial]] · [[Builder Pack]] · [[Harry Stebbings]]
+[[智能体]] · [[ChatGPT]] · [[Cursor]] · [[OpenAI]] · [[Julie Zhuo]] · [[Yash]] · [[Matt Swulinski]] · [[Sarah Sanders]] · [[Sundial]] · [[Builder Pack]]
 
-<script type="application/json" class="pd-epn">{"智能体":248,"ChatGPT":66,"Cursor":59,"OpenAI":115,"Julie Zhuo":1,"Yash":1,"Matt Swulinski":1,"Sundial":1,"Builder Pack":1,"Harry Stebbings":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":251,"ChatGPT":66,"Cursor":59,"OpenAI":116,"Julie Zhuo":1,"Yash":1,"Matt Swulinski":1,"Sarah Sanders":1,"Sundial":1,"Builder Pack":1}</script>
 
 <script>
 (function(){

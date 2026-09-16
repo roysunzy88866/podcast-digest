@@ -1,0 +1,154 @@
+{
+  "title_zh": "Vercel 构建「每桌一个智能体」：从失败的多智能体到文件系统智能体",
+  "tldr": "Vercel 软件总监 Andrew 讲述内部数据智能体 D0 的迭代历程：多智能体架构撞墙后转向文件系统方案，评估分翻倍，并最终催生开源智能体框架 Eve。",
+  "digest_md": "把公司内部的数据查询全交给 AI，最直观的做法是把不同环节拆给不同的智能体——一个规划、一个写 SQL、一个做报告。Vercel 的软件总监 Andrew 在一场短演讲里讲了他走过的完整弯路：他们先做了精细的多智能体流水线，上线后反馈却是「糟透了」；最后靠一个反直觉的简单方案翻倍了评估分数，并把它做成了一个新框架 Eve(他称之为「智能体的 Next.js」)，两周前刚发布。\n\n事情始于大约一年前。 Andrew 和 Vercel 的 CTO 有个想法： Bill Gates 曾设想每张桌子上、每个家庭里都有一台计算机， 那能不能做到「每张桌子上一个智能体」？ 当时智能体基本只用于编码， 他们想探索在设计、产品管理等职能上的扩展。 他走访了市场、销售、财务、法务等各个部门， 问「你最讨厌工作中的什么」， 最打动他的用例来自数据团队： 这个精简的团队跟不上 Vercel 的增长速度， 每当市场或销售的人对客户、产品有疑问， 数据科学团队就得放下手头所有事， 写查询、处理、分析、给建议——这对生产力的杀伤力非常大。\n\n**第一版： 一个超级提示词。** 最朴素的做法是把 Snowflake(数据仓库)的 schema 导出来贴进 system prompt, 附上问题， 模型生成 SQL 后自己手动复制粘贴去运行。 他只是想验证： 今天的模型在给定 decent 结构的情况下， 能不能写出有效的 SQL。 结论是： 模型还没那么好， 但可以通过提示词工程、更好的上下文和护栏让它运作得好一点。\n\n**第二版： 多智能体流水线 D0。** 他们把数据科学家的真实工作流拆成阶段——处理问题、探索语义层弄清 join 模式、执行 SQL、失败或开销太大就重来、最后做报告和可视化——映射成串联的智能体： 查询智能体把查询传给规划智能体， 再到执行智能体等。 每个智能体有非常专用的 system prompt, 工具作用域精确限定在其功能上， 比如规划智能体只有「读实体 YAML」和「搜索 schema」两个工具。 这版确实更好了： 摆脱了复制粘贴 SQL, 真正做到了从问题到答案的端到端闭环。\n\n**撞墙与转折。** 但这种架构开始碰壁， 他们得出结论： 你真正需要的是一个拥有全部超大上下文的单一智能体， 让它自己管理自己的记忆——因为在流水线里， 下一个智能体能拿到的只有一份摘要和上一步的小片段， 它无法回顾和反思整个过程。 改成单个 mega-agent(内部时而规划、时而执行、时而汇报， max steps 设 100)后， 最大的改进是： 遇到执行或 join 错误时， 它能回头去探索更多、读更多内容， 弄清楚自己哪里做错了。 他们相当有信心——评估集能搞定 30% 了——于是分发给了少数受信任的成员。\n\n**最初的反馈： 糟透了。** 他们完全没能预料到用户会问的那些问题， 而靠人工手动梳理这些场景， 看不出是一种可扩展的做法。\n\n真正的转折来自外部： Opus 4.5 和 Claude Code 发布了。 Andrew 的原话是， 和他们手工培育的智能体相比， 「Claude Code 加 Opus 4.5 基本上就是 AGI」——它几乎毫不卡壳地回答了他们大部分问题。 退一步分析为什么好这么多， 他们意识到最大的解锁就是： **它只是一个文件系统**。 工具集极其精简——列文件、读文件、运行 bash——没有一套死板规定的工具， 而是放任模型去探索涌现行为， 用的是智能体在训练中被充分打磨过的那几样工具。\n\n**第三版： 文件系统智能体， 评估分翻倍。** 他们按 Claude Code 的风格重建 D0: 智能体跑在沙箱里， 把整个语义层倾倒进沙箱， 它可以随意 bash、读文件、写文件， 上面只撒几样 Vercel 特有的工具。 Andrew 称这是「有史以来最大的解锁」， 评估分数基本翻了一倍。 实现非常简单： 给它一个 bash 工具(Vercel 在 NPM 上有 bash tool 辅助包)， 附加到沙箱， 再把文件挂上去供它读写执行。 这段经历还催生了一篇博客文章， 发布那一周占了 Vercel.com 流量的 70%。\n\n**Skills: 让每次运行不再从零开始。** 铺开到全公司后， 每天涌来成千上万条查询——客户指标、销售指标、NPM 下载量。 他们发现大量查询形态相同： 聚合就那么几种做法、查产品就那么几种、查账单就那么几种。 于是建了一个定期任务， 拿最近的查询自动提炼成 skill。 现在大约有 100 个 skill, 从聚合到查询特定人群的具体数据都有。 这非常有效， 因为每次新的智能体运行本来几乎从零开始， 除了语义层和系统提示词没有任何预置上下文； 有了 skill, 一开局就自带大量前人已经做过的上下文知识。\n\n**从 D0 到 Eve: 智能体的 Next.js。** 构建 D0 的每一步都有 Vercel 的员工 fork 出去造自己的智能体， 他们于是想： 能不能让今天的人直接从最后的洞见出发， 不必从简单提示词或第一性原理重新发明？ 两周前他们发布了开源框架 Eve(eve.dev)。 灵感直接来自 Next.js 的「文件系统即基础设施」——按约定写文件， 框架自动声明它们该去哪。 构建智能体也应该这么简单： 只需创建 skills 文件夹、tools 文件夹、channels 文件夹， 框架就知道怎么把它变成智能体。 在 Eve 的模型里， 智能体 = 运行时 + 渠道： 运行时里有持久性、隔离执行、模型调用和连接； 可以插入开源适配器(Postgres、OpenAI 的 response API、Docker 等)， 也能一键部署到 Vercel——workflows 负责持久性， Sandbox 负责安全执行， 刚发布的 Vercel Connect 负责生成短生命周期 OIDC 令牌的连接， 部署后开箱即得可观测性(所有运行、工具调用、每一步、预估成本和优化建议)。 构建 Eve 的同时， 他们用 Eve 重写了整个 D0——从幕后复杂的代码结构， 变成一堆系统指令、几个 skill、几个工具的简单文件系统。\n\n**效果与主张。** 合作公司 Aura 用 Eve 从零重建了他们的服务测试智能体(访问网站、安装、试用)， 相比现成的 Claude Code, 步骤更少、成功率更高、洞察更好。 Andrew 的核心主张是： 他们之前实测过许多资金充足的垂直智能体创业公司(接管你的 Snowflake 跑查询那种)， 但真正让智能体好用的， 是它拥有大量非常具体的公司知识——比如 Vercel 是一家 Web 公司， 什么该查、什么东西链接到什么， 这些理解深得多。 现成的智能体值得一试， 但想要最大收益， 应该自己构建、尽可能多塞进公司特定知识。 如今 Vercel 内部已有大约 20 个还算有产品市场契合度的智能体： 从确定该联系谁的营销复盘， 到法务看到新合同时的首轮红线标注， 再到数据科学智能体。 数据团队的生产力从未如此之高——他们终于有时间去优化 Snowflake 性能、补齐缺失的数据源， 而不是整天写查询。\n\n## 本集带走\n- **多智能体流水线往往是弯路**： 阶段拆分后， 下游智能体只拿到上游的摘要和小片段， 无法回顾反思； 改成单个大上下文智能体、让它自己管理状态， 错误时能回头探索， 才是关键一步。\n- **文件系统 + 极简工具是最强 unlock**: 列文件、读文件、bash 这几样模型被充分训练过的工具， 加上一个装满语义层的沙箱， 比「为每个功能定制专用工具」效果好得多——评估分直接翻倍。\n- **用 skill 沉淀重复查询**： 每天成千上万条查询其实形态有限， 用定期任务把高频查询自动提炼成 skill(他们约 100 个)， 让每次智能体运行带着现成上下文开局， 而不是从零开始。\n- **自己造智能体， 塞进公司知识**： 现成垂直智能体通用但浅， 真正的价值在大量公司特定的知识(什么该查、什么链接什么)——这是买不到的， 只能自己构建积累。\n- **想上手 Eve**: eve.dev 克隆模板即可开始， skills/tools/channels 各建一个文件夹， 按约定声明， 支持自托管或部署到 Vercel(自带可观测性)。",
+  "quotes": [
+    {
+      "en": "instead of a computer on every desk, could we potentially have an agent on every desk?",
+      "zh": "与其每张桌子上一台计算机， 我们能不能做到每张桌子上一个智能体？",
+      "timestamp": "02:05",
+      "speaker": "Andrew Qu"
+    },
+    {
+      "en": "we on the side were like, wow, Claude Code and Opus 4.5 is basically AGI compared to what we had before.",
+      "zh": "我们在一旁感叹： 哇， 和我们之前的东西相比， Claude Code 加 Opus 4.5 基本上就是 AGI 了。",
+      "timestamp": "07:50",
+      "speaker": "Andrew Qu"
+    },
+    {
+      "en": "we realized that the big unlock was that it was just a file system.",
+      "zh": "我们意识到， 最大的解锁就是： 它只是一个文件系统。",
+      "timestamp": "08:09",
+      "speaker": "Andrew Qu"
+    },
+    {
+      "en": "Claude Code was not giving a very prescriptive set of tools. It was sort of just letting it go wild and explore emergent behavior.",
+      "zh": "Claude Code 并没有被给予一套非常死板规定的工具， 它某种程度上就是被放任自由， 去探索涌现行为。",
+      "timestamp": "08:34",
+      "speaker": "Andrew Qu"
+    },
+    {
+      "en": "And the week that I wrote this, it was responsible for 70% of our Vercel.com traffic.",
+      "zh": "我写这篇文章的那一周， 它占了我们 Vercel.com 流量的 70%。",
+      "timestamp": "10:00",
+      "speaker": "Andrew Qu"
+    },
+    {
+      "en": "And so we actually thought, what if we built the Next.js for agents?",
+      "zh": "于是我们真的在想： 如果我们为智能体构建一个 Next.js 会怎样？",
+      "timestamp": "12:04",
+      "speaker": "Andrew Qu"
+    },
+    {
+      "en": "But we found out that what really makes this agent good is it has a lot of very specific company knowledge.",
+      "zh": "但我们发现， 真正让智能体好用的， 是它拥有大量非常具体的公司知识。",
+      "timestamp": "15:31",
+      "speaker": "Andrew Qu"
+    },
+    {
+      "en": "if you really want to get the most juice out of a squeeze, you should really try to build your own agent and add in as much company-specific knowledge as you can.",
+      "zh": "如果你真的想获得最大的收益， 你应该真正尝试构建自己的智能体， 并尽可能多地加入公司特定的知识。",
+      "timestamp": "15:55",
+      "speaker": "Andrew Qu"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:02",
+      "speaker": "Andrew",
+      "en": "instead of a computer on every desk, could we potentially have an agent on every desk?",
+      "zh": "与其每张桌子上一台计算机， 我们能不能做到每张桌子上一个智能体？"
+    },
+    {
+      "timestamp": "07:18",
+      "speaker": "Andrew",
+      "en": "we thought we were cooking.",
+      "zh": "我们以为自己干得正起劲。"
+    },
+    {
+      "timestamp": "07:45",
+      "speaker": "Andrew",
+      "en": "we on the side were like, wow, Claude Code and Opus 4.5 is basically AGI compared to what we had before.",
+      "zh": "我们在一旁感叹： 哇， 和我们之前的东西相比， Claude Code 加 Opus 4.5 基本上就是 AGI 了。"
+    },
+    {
+      "timestamp": "08:05",
+      "speaker": "Andrew",
+      "en": "we realized that the big unlock was that it was just a file system.",
+      "zh": "我们意识到， 最大的解锁就是： 它只是一个文件系统。"
+    },
+    {
+      "timestamp": "08:32",
+      "speaker": "Andrew",
+      "en": "Claude Code was not giving a very prescriptive set of tools. It was sort of just letting it go wild and explore emergent behavior.",
+      "zh": "Claude Code 并没有被给予一套非常死板规定的工具， 它某种程度上就是被放任自由， 去探索涌现行为。"
+    },
+    {
+      "timestamp": "09:12",
+      "speaker": "Andrew",
+      "en": "And this was actually the biggest unlock ever.",
+      "zh": "而这实际上是有史以来最大的解锁。"
+    },
+    {
+      "timestamp": "09:15",
+      "speaker": "Andrew",
+      "en": "The leap from single agent to Claude Code SDK, and then from Claude Code SDK to file system agent in general, fine-tuned or purpose-built for our use case, was an amazing leap.",
+      "zh": "从单智能体到 Claude Code SDK 的跨越， 再从 Claude Code SDK 到针对我们用例专门构建的通用文件系统智能体， 是一次了不起的跨越。"
+    },
+    {
+      "timestamp": "10:05",
+      "speaker": "Andrew",
+      "en": "And the week that I wrote this, it was responsible for 70% of our Vercel.com traffic.",
+      "zh": "我写这篇文章的那一周， 它占了我们 Vercel.com 流量的 70%。"
+    },
+    {
+      "timestamp": "10:31",
+      "speaker": "Andrew",
+      "en": "There's only so many ways you can do an aggregation, only so many ways you can look up a product, only so many ways you can do billing info.",
+      "zh": "做聚合的方式就那么几种， 查产品的方式就那么几种， 查账单信息的方式就那么几种。"
+    },
+    {
+      "timestamp": "11:51",
+      "speaker": "Andrew",
+      "en": "what if people today could start from the very last insight and not have to ever start from just a simple prompt or from reinventing best principles from first principles?",
+      "zh": "如果今天的人们能从最后一个洞见直接开始， 而不必从仅仅一个简单的提示词开始， 或不必从第一性原理重新发明最佳实践， 那会怎样？"
+    },
+    {
+      "timestamp": "12:04",
+      "speaker": "Andrew",
+      "en": "And so we actually thought, what if we built the Next.js for agents?",
+      "zh": "于是我们真的在想： 如果我们为智能体构建一个 Next.js 会怎样？"
+    },
+    {
+      "timestamp": "15:31",
+      "speaker": "Andrew",
+      "en": "But we found out that what really makes this agent good is it has a lot of very specific company knowledge.",
+      "zh": "但我们发现， 真正让智能体好用的， 是它拥有大量非常具体的公司知识。"
+    },
+    {
+      "timestamp": "15:51",
+      "speaker": "Andrew",
+      "en": "if you really want to get the most juice out of a squeeze, you should really try to build your own agent and add in as much company-specific knowledge as you can.",
+      "zh": "如果你真的想获得最大的收益， 你应该真正尝试构建自己的智能体， 并尽可能多地加入公司特定的知识。"
+    },
+    {
+      "timestamp": "16:29",
+      "speaker": "Andrew",
+      "en": "All of this stuff is actually saving us a lot of time. The data team has never been more productive.",
+      "zh": "所有这些东西实际上为我们节省了大量时间。 数据团队的生产力从未如此之高。"
+    },
+    {
+      "timestamp": "16:46",
+      "speaker": "Andrew",
+      "en": "I think it's never been easier for you at your big, small, medium-sized company to sort of automate away some of the things that you do not want to do or some of the things that you're spending too much time doing.",
+      "zh": "我认为， 对于无论大小型公司的你， 要自动化掉那些你不想做、或花了太多时间去做的事情， 从来没有这么容易过。"
+    },
+    {
+      "timestamp": "16:58",
+      "speaker": "Andrew",
+      "en": "I think a lot of HR, finance, sales can be somewhat automated with agents, and I think Eve is the best way to build said agents today.",
+      "zh": "我认为很多 HR、财务、销售的工作都可以用智能体在一定程度上自动化， 而且我认为 Eve 是今天构建这些智能体的最佳方式。"
+    }
+  ],
+  "voice_script": "今天要讲的，是 Vercel 软件总监 Andrew 分享的一个真实经历：他们公司想把内部的数据查询全部交给 AI 智能体来做，结果第一版做出来，用户反馈只有两个字，糟透了。后来靠一个反直觉的简单方案，评估分数直接翻倍，还顺手催生了一个开源框架，叫 Eve。这条弯路是怎么走的、又是在哪一步突然通了，咱们从头说起。\n\n事情始于大约一年前。Andrew 和 Vercel 的 CTO 有个想法。当年 Bill Gates 设想的是每张桌子上、每个家庭里都有一台计算机，那能不能更进一步，做到每张桌子上一个智能体？要知道，当时的智能体基本只用在写代码上，他们想探索的是设计、产品管理这些职能上能不能也用起来。于是走访了市场、销售、财务、法务各个部门，就问一句话：你最讨厌工作中的什么？最打动人的用例来自数据团队。这个精简的团队完全跟不上 Vercel 的增长速度，每当市场或销售的人对客户、产品有疑问，数据科学团队就得放下手头所有事，写查询、做处理、给分析建议。对整个公司的生产力来说，这个瓶颈的杀伤力非常大。\n\n所以最朴素的验证方式来了：把 Snowflake 的 schema 导出来，贴进系统提示词，附上问题，让模型生成 SQL,再手动复制粘贴去运行。这一步只是想确认，今天的模型在结构给得像样的情况下，能不能写出有效的 SQL。结论是，模型还没那么好，但通过提示词工程、更好的上下文和护栏，能让它运作得好一点。既然方向可行，那就往下走。\n\n第二版就开始上正经架构了。他们把数据科学家的真实工作流拆成阶段，处理问题、探索语义层弄清表之间怎么关联、执行 SQL、失败就重来、最后做报告和可视化——然后映射成一条串联的智能体流水线。查询智能体把查询传给规划智能体，再到执行智能体，每个智能体的系统提示词非常专用，工具也精确限定在自己那一步上。比如规划智能体，只有读实体 YAML 和搜索 schema 两个工具。这一版确实更好了，摆脱了复制粘贴 SQL,真正做到了从问题到答案的端到端闭环。\n\n但很快，这种架构就撞墙了。问题出在哪？流水线里，下一个智能体能拿到的，只有一份摘要和上一步的小片段，它没办法回顾整个过程、也没办法反思。他们最后得出的结论是：你真正需要的，是一个拥有全部超大上下文的单一智能体，让它自己管理自己的记忆。改成单个 mega-agent 之后，最大的改进就体现出来了，遇到执行错误或者表关联错误时，它能回头去探索更多内容，弄清楚自己哪里做错了。当时的评估集能搞定 30%,他们相当有信心，于是分发给了少数受信任的成员。\n\n结果反馈还是那两个字，糟透了。原因很简单：用户会问的问题，完全超出预料，而靠人工手动梳理这些场景，怎么看都不是可持续的做法。\n\n那真正的转折是从哪来的？来自外部。Opus 4.5 和 Claude Code 发布了。Andrew 的原话是，和他们手工培育的智能体相比，Claude Code 加 Opus 4.5 基本上就是 AGI,几乎毫不卡壳地回答了他们大部分问题。退一步分析为什么好这么多，他们意识到最大的解锁就是：它只是一个文件系统。工具集极其精简，列文件、读文件、运行 bash,就这几样。没有一套死板规定的工具，而是放任模型去探索涌现行为——用的是智能体在训练中被充分打磨过的那几样工具。\n\n顺着这个思路，第三版就出来了。他们按 Claude Code 的风格重建 D0:智能体跑在沙箱里，把整个语义层倾倒进沙箱，它可以随意 bash、读文件、写文件，上面只撒几样 Vercel 特有的工具。这是有史以来最大的解锁，评估分数基本翻了一倍。实现也简单得不可思议，给一个 bash 工具，附加到沙箱，再把文件挂上去供它读写执行。这段经历还写成了一篇博客，发布那一周，占了 Vercel.com 流量的 70%。\n\n铺开到全公司之后，新的问题又来了。每天涌来成千上万条查询，客户指标、销售指标、NPM 下载量。他们发现大量查询形态其实相同：聚合就那么几种做法，查产品就那么几种，查账单也就那么几种。于是建了一个定期任务，拿最近的查询自动提炼成 skill,也就是沉淀下来的技能。现在大约有 100 个 skill。这一招为什么有效？因为每次新的智能体运行，本来几乎是从零开始的，除了语义层和系统提示词没有任何预置上下文；有了 skill,一开局就自带大量前人已经做过的知识。\n\n再往下，事情自然长成了一个框架。构建 D0 的每一步，都有 Vercel 的员工 fork 出去造自己的智能体，于是他们想：能不能让今天的人直接从最后的洞见出发，不必从简单提示词或第一性原理重新发明？两周前，他们发布了开源框架 Eve,在 eve.dev 可以找到。灵感直接来自 Next.js 的文件系统即基础设施，按约定写文件，框架自动声明它们该去哪。构建智能体也应该这么简单：创建 skills 文件夹、tools 文件夹、channels 文件夹，框架就知道怎么把它变成一个智能体。在 Eve 的模型里，智能体等于运行时加渠道，可以插入开源适配器，比如 Postgres、Docker，也能一键部署到 Vercel,部署完自带可观测性，所有运行、工具调用、每一步的成本和优化建议都能看到。他们还用 Eve 重写了整个 D0,从幕后复杂的代码结构，变成一堆系统指令、几个 skill、几个工具的简单文件系统。\n\n效果怎么样？合作公司 Aura 用 Eve 从零重建了服务测试智能体，相比现成的 Claude Code,步骤更少、成功率更高、洞察更好。Andrew 的核心主张是：他们实测过许多资金充足的垂直智能体创业公司，但真正让智能体好用的，是它拥有大量非常具体的公司知识。Vercel 是一家 Web 公司，什么该查、什么东西链接到什么，这种理解深得多。现成的智能体值得一试，但想要最大收益，应该自己构建，尽可能多塞进公司特定知识。\n\n如今 Vercel 内部已经有大约 20 个有产品市场契合度的智能体，从确定该联系谁的营销复盘，到法务看到新合同时的首轮红线标注，再到数据科学智能体。数据团队的生产力从未如此之高，终于有时间去优化 Snowflake 性能、补齐缺失的数据源，而不是整天写查询。\n\n回头看这条路，最有价值的一课就是：别急着给智能体定制复杂的架构，列文件、读文件、运行 bash 这几样模型被充分训练过的工具，加上一个装满公司知识的沙箱，往往比什么都管用。与其每张桌子上一台计算机，真正值得追求的是，每张桌子上一个智能体。"
+}

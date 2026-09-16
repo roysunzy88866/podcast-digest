@@ -25,7 +25,7 @@ unlisted: true
 
 [[Guy Fajani]] · [[Ryan Lopopolo]] · [[Codex]] · [[OpenAI]] · [[智能体]] · [[提示词注入]] · [[护栏]] · [[上下文工程]] · [[Symfony]] · [[规范]]
 
-<script type="application/json" class="pd-epn">{"Guy Fajani":3,"Ryan Lopopolo":1,"Codex":48,"OpenAI":115,"智能体":248,"提示词注入":11,"护栏":47,"上下文工程":12,"Symfony":1,"规范":2}</script>
+<script type="application/json" class="pd-epn">{"Guy Fajani":3,"Ryan Lopopolo":1,"Codex":48,"OpenAI":116,"智能体":251,"提示词注入":12,"护栏":48,"上下文工程":12,"Symfony":1,"规范":2}</script>
 
 <script>
 (function(){

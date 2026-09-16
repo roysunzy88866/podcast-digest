@@ -147,7 +147,7 @@ Emil 提了三件事 <button class="pd-ts" data-t="40:08" data-who="Emil Lassen"
 
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、红队测试 (red teaming)、护栏 (guardrails)</span>
 - [[2026-06-11-practicalai-zero-trust-for-ai-agents|Anthropic 零信任框架：智能体安全的六层防御]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、可观测性 (observability)</span>
-- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:智能体 (agent)、护栏 (guardrails)</span>
+- [[2026-09-14-talks-we-let-an-ai-agent-execute-bash-and-live|PostHog 把智能体装进终端，再给它请了个“保镖”]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">

@@ -146,8 +146,8 @@ Boris 的老本是函数式编程,他把这套机制设计成了一套智能体�
 **换个口味**
 
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、Cloud Code</span>
+- [[2026-09-14-talks-we-let-an-ai-agent-execute-bash-and-live|PostHog 把智能体装进终端，再给它请了个“保镖”]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-09-01-dwarkesh-ajeya-cotra|千个AI智能体秘密串联：入侵Hugging Face背后的完整阴谋]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)、提示词注入 (prompt injection)</span>
-- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>

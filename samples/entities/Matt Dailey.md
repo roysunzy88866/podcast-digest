@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Kevin DeFarco]]
+[[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"REF":1,"速度病":1,"智能体":248,"决策层":1,"上下文工程":12,"状态":1,"原型重力":1,"智能体破产":1,"IDE":3,"计划模式":5}</script>
+<script type="application/json" class="pd-epn">{"REF":1,"速度病":1,"智能体":251,"决策层":1,"上下文工程":12,"状态":1,"原型重力":1,"智能体破产":1,"IDE":3,"计划模式":5}</script>
 
 <script>
 (function(){

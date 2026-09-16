@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":3,"OpenAI":115,"数据中心":13,"液冷":1,"Stargate":1,"Jalapeno":1,"MRC":1,"推理":46,"GPU":16,"核能":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":3,"OpenAI":116,"数据中心":13,"液冷":1,"Stargate":1,"Jalapeno":1,"MRC":1,"推理":46,"GPU":16,"核能":1}</script>
 
 <script>
 (function(){

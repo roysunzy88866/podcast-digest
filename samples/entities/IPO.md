@@ -37,7 +37,7 @@ unlisted: true
 
 [[Ranjan]] · [[Vali]] · [[Ranjan Roy]] · [[Luca Ferrari]] · [[Meta]] · [[Bending Spoons]] · [[Anthropic]] · [[AOL]] · [[OpenAI]] · [[Grindr]]
 
-<script type="application/json" class="pd-epn">{"Ranjan":1,"Vali":1,"Ranjan Roy":2,"Luca Ferrari":1,"Meta":31,"Bending Spoons":1,"Anthropic":123,"AOL":1,"OpenAI":115,"Grindr":1}</script>
+<script type="application/json" class="pd-epn">{"Ranjan":1,"Vali":1,"Ranjan Roy":2,"Luca Ferrari":1,"Meta":31,"Bending Spoons":1,"Anthropic":124,"AOL":1,"OpenAI":116,"Grindr":1}</script>
 
 <script>
 (function(){

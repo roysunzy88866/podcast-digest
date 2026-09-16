@@ -1,0 +1,196 @@
+{
+  "title_zh": "9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来",
+  "tldr": "Unify 联合创始人兼 CTO Connor Hegey 拆解外呼智能体平台：怎么压成本、抠缓存、做记忆与评估。",
+  "digest_md": "把一个智能体平台支撑起 9 亿美元的销售管道，但真正让 Unify 联合创始人兼 CTO Connor Hegey 在这一集里反复敲打的，是成本：上线前两周他们紧急做了 90% 到 95% 的成本优化，否则用户在每月 20 美元的套餐里发一条消息就把额度烧光了。这一集就是他逐层拆解：一个跑在云端、替销售代表干活的智能体系统，成本、缓存、记忆、评估、沙箱每一步是怎么抠出来的。\n\n## Go-to-market 本质是个搜索问题\n\nUnify 做的是给 go-to-market(把产品推向市场的那套销售与营销动作)做 AI。他们的底层判断是：销售不是「说服」，而是搜索——找到那些问题严重到「不管你说什么他们都会买」的人，而这是对海量非结构化、语义丰富的网络数据做搜索，恰好是 LLM 擅长的事 [02:15 Connor Hegey]。最早的版本是一个网络研究智能体：拿一个结构化问题(比如「这家公司做 KYC 吗」——KYC 指金融合规里的身份核验)，去翻对方的服务条款、页面 HTML,找证据再回答。明显案例(银行一定做 KYC)不值钱，价值在长长的尾部——那通常占客户总可触达市场(TAM)的两位数比例。\n\n三年的演进方向很清晰：三年前是拖拽式工作流，在一张百万行的线索表上异步跑一百万个智能体；而上周刚发布的聊天产品逻辑反过来了——前沿模型变强后，分布的头部用聪明的 API 串联就能搞定，只有尾部才需要智能体。所以他们现在是「给每个销售代表配一个揣在兜里的工程师」，而不是取代销售 [08:21 Connor Hegey]:「我肯定不想从一个 AI 智能体那里买东西。」\n\n## 出奇相似的编程智能体 harness\n\n他们的 harness(智能体的运行框架)和 Claude Code 这类编程智能体「出奇地相似」：唯一的原则性差别是产物不是改文件，而是改数据库记录、写邮件。其余标准全部一样，且他们列得很具体：必须跑云端(销售代表不会在本地跑东西)、必须持久化(中途被杀要能优雅重启、能重新挂回去)、代码必须写 TypeScript(全公司代码库如此)、环境必须便宜且秒级启停，还有一条 P0:强租户隔离——客户之间的数据不但确定性地隔离，还要「可证明地不可能」被智能体越权访问。\n\n模型不擅长直接操作表格数据，但擅长写 pandas 风格的代码，所以他们在数据库上虚拟化了一张表，重新实现了一整套 pandas 式函数(过滤、取行、聚合、重排列、逐行映射函数)。约 80% 的智能体运行最终都在操作这张表。\n\n子智能体的设计也很干脆：「子智能体就是一个函数调用」——主智能体可以传入提示词、模型、推理预算等参数，拿到一个任务句柄后 await 或轮询，所有 sleep 都用非阻塞的(后端大量跑在 Temporal 上)。这套设计直接服务成本：跑一千行子智能体，每行哪怕一美分也是 10 美元，等于烧光基础套餐，所以它写代码做逐行映射时，会先瀑布式降级调用便宜的 API,穷尽所有选项才把子智能体当兜底。\n\n## 提示词缓存：95% 命中率是抠出来的\n\n这是全集技术含量最高的一段。提示词缓存(prompt caching,让模型复用上一次调用已算好的中间结果)比全量输入便宜 90%,「拿不到缓存命中你就完蛋了」[19:44 Connor Hegey]。但 OpenAI 默认按开头几十个字符做哈希来路由，且每个缓存键只保证约每秒 15 个请求能命中——超出的请求会落到别的机器上各自冷启动。他们把命中率做到 95%,方法是利用自己的先验：取用户 ID 做哈希分成 16 桶、再叠一个 1-30 的随机数，把峰值吞吐摊到几百个缓存键上均匀预热。他认为这件事「不可能内建到供应商那边，因为他们不知道进来的流量分布」；而供应商也不在乎——「反正不管怎样他们都收你的钱」[28:08 Connor Hegey]。\n\n几个反直觉的细节：必须用 responses API,否则会损失 20%-30% 的质量，因为调用之间不保留思考轨迹；而 OpenAI 默认会在下一轮删掉上一轮的全部旧 thinking tokens,这会导致整段缓存 miss,而他们工具调用的输出远大于那几千个 thinking tokens——直到上个月 OpenAI 出了个保留参数才解决。\n\n## 邮件必须过人审，一次看一封\n\n智能体替人发邮件，他们绝不让它「没人看过就发出去」，采用提案-批准制：右侧全屏展示邮件，可编辑、可批准。批量场景下，试过表格里平铺全文加侧边列，结果太嘈杂——用户一个一个快速过，远比一次看一堆高效。二阶交互是关键：高亮一句话要求修改，且不止改这一封，而是改全部 100 个 enrollment。实践中用户大约审前 15 封、给出足够泛化的反馈后就放心全发。「如果说人类要在这个系统的某个环节花时间，这就是该花时间的点」[34:39 Connor Hegey]——因为人与人之间的连接点才是销售的 alpha,自动化掉的是检索研究，不是这句真诚的冲浪寒暄。\n\n## 记忆：固定键 + 提案、合并、废弃\n\n个性化靠两条路：一是智能体内置记忆；二是 Unify 特有的——集成用户的 Gmail 收件箱，做初始知识提取，学的不是泛泛的语气，而是「你怎么谈论你的产品、对什么类型的人说什么类型的话」。\n\n数据结构存在 Postgres 里：值是自然语言，键是固定的六七个类别(邮件语气、代表属性、公司属性、软/硬用户偏好等)，外加一个「其他」大杂烩桶。不开放任意键的原因：「每增加一个复杂度维度都是乘性的而不是加性的」[40:03 Connor Hegey]。流程上先发散再收敛：大约每三条消息轻量提取一批候选记忆，后台 cron 任务再把候选和历史活跃记忆一起做论证——提升、合并、废弃、取代，且必须输出结构化的操作和沿袭谱系。这么做主要是为了可观测性：「太多是黑盒……三个月后我们回来看系统时能说『它为什么合并了这两条记忆』」[42:30 Connor Hegey]。记忆不向用户展示结构化 UI(「我看一堆关于我的要点会尴尬」)，但用户明说的「记住某事」永远作为一等公民插入——最好玩的用例是一堆销售代表让智能体「永远像海盗一样跟我说话」。\n\n## 评估：像自动驾驶一样看录像\n\n他的评估理念来自做自动驾驶的经历：当年团队坐在一起，用投影仪看不同模型检查点跑同一段视频，逐帧记笔记——「没有什么评估比看一百个或者一千个例子更好的了」[50:36 Connor Hegey]。所以人工翻例子占大头，按用户意图分类过滤;回归测试则把线上轨迹抽成 DQA 集(专用 QA 集)，覆盖核心用例、提示词注入等对抗用例、以及「用户中途说西班牙语」这种意外分布，每次只迭代一个桶。比如发现智能体对某个数据供应商夸张地过度调用(要 10 家公司调了 500 次)，就抽 40 个跑偏样本建集，用工具调用次数、轨迹效率、LLM 成本等一大堆指标压下去——浪费的工具调用是他们的头号治理对象。\n\n用 LLM 当裁判(或当模拟用户)有一条铁律：裁判模型必须换家族——跑 GPT 就用 Anthropic 模型判，否则会出现智能体互相对话的模式坍缩，「相当于人类的群体思维」，你要的是近乎对抗性的关系 [53:50 Connor Hegey]。每条评估跑 pass-k(五次)而非一次。会花钱的 API 大多直接真实调用承受成本，因为 LLM 成本才是大头。\n\n## 沙箱成本：零\n\n他们不用完整 VM——VM 要写一堆 CLI、处理网络和租户隔离，复杂度爆炸。方案是开源框架 Monty 的思路：智能体在一个 REPL(交互式解释器)里跑真代码，但代码一旦调到被绑定的函数，整个 REPL 挂起、控制权交回宿主进程，宿主在函数层面注入租户隔离和计费，跑完再把结果注回去恢复。因为全公司是 TypeScript,他们在内部用 TypeScript 重写了这套东西，跑在自己的后端 worker 里——所以代码解释器的成本是零。刚在 DeepAgents 里用 Quick.js 发布了类似能力，主打以编程方式批量调子智能体；他们还痴迷 RLM(用递归程序结构组织 LLM 调用的论文思路)，说想要的就是「语义归并排序」——给一百个客户账户打分排序，不该靠一个有损的评分函数，而该像归并排序那样两两比较。太贵，暂时上不了产品，「但它太酷了」。\n\n## 降本 90% 与模型选择\n\n上线前两周的 90%-95% 降本，绝大部分来自砍 token 成本：子智能体跑得太多太贵，转向一个更聪明、能写代码映射到表上的主智能体；再压低效工具调用、把 5.5 换成 5.4。一个朴素但极有效的方法：翻遍所有 skill 文件和 system prompt,消除矛盾——每个小矛盾都会导致一次搞砸的工具调用。他为此喊话要一个「skill 文件的语义 linter」(自动检查一致性的工具)。另一条写作纪律：不写「永远做/永远别做」，只给背后的 why——模型够聪明，能自己推出正确轨迹；但如果那条规定在 3% 的场景里是错的，它就永远不会做对那 3%。\n\n模型选了 OpenAI(也是他们的第一个投资人)，理由主要是性价比：用户能发三五十条消息拿足价值。旧研究智能体的成本已压到一美分以下，10 倍让利给了客户，如今那条链路上工具调用反而成了主要成本。开源模型评过：token 便宜但工具效率差太多，净算下来不划算——不过他点名 GLM 5.2 在私下试用，「也许那就是救星」。\n\n## 本集带走\n\n- **缓存命中率是自己算出来的**：模型供应商只保证尽力而为，你要用自己的先验(用户 ID、租户、批次)设计缓存键，把峰值吞吐摊开预热——Unify 做到 95% 命中，方法就是 16 个用户哈希 × 30 个随机数。\n- **子智能体当兜底，不当主力**：主智能体写代码、逐行映射函数、瀑布式降级到便宜的 API,穷尽选项才起子智能体——一千行 × 一美分 = 10 美元，20 美元的套餐撑不住。\n- **裁判必须换家族**：LLM-as-judge 和模拟用户都用不同厂商的模型，避免分布重叠导致「群体思维」；评估主体是人工翻几百上千个例子，回归靠按分布分桶的 DQA 集。\n- **记忆要固定键**：别让智能体自管分类键，固定六七个类别 + 提案/合并/废弃的结构化操作，换来的可观测性比灵活性值钱。\n- **给 why 不给禁令**：system prompt 里每个矛盾都会变成一次搞砸的工具调用；「永远别做 X」会连那 3% 的例外一起锁死。\n- **规划步骤永远值得加**：开场让模型先停、想几条路径、侦察各数据源的精度/召回、问用户澄清问题，再动手——三年前如此，今天依然是最有效的单点优化。",
+  "quotes": [
+    {
+      "en": "When you talk to great ones, right, what they really say is, how do I find the people who have a problem that is so bad that they'll buy it no matter what I say?",
+      "zh": "当你和那些优秀的人交谈时，他们真正说的是：我怎么找到那些问题严重到不管我说什么他们都会买的人？",
+      "timestamp": "02:15",
+      "speaker": "Connor Hegey"
+    },
+    {
+      "en": "The three things I always say is we wanted to build repeatable, observable, scalable systems, which doesn't play very well with AI as it turns out, but those were always the tenants that we were going for.",
+      "zh": "我总说的三件事是：我们想构建可重复、可观测、可扩展的系统——事实证明这和 AI 不太合拍，但这些一直是我们追求的原则。",
+      "timestamp": "05:55",
+      "speaker": "Connor Hegey"
+    },
+    {
+      "en": "I certainly don't want to buy from an AI agent.",
+      "zh": "我肯定不想从一个 AI 智能体那里买东西。",
+      "timestamp": "08:21",
+      "speaker": "Connor Hegey"
+    },
+    {
+      "en": "And so our formulation is that a subagent is just a function call.",
+      "zh": "所以我们的表述是：子智能体就是一个函数调用。",
+      "timestamp": "16:00",
+      "speaker": "Connor Hegey"
+    },
+    {
+      "en": "If you are not using the responses API, you are missing out on 20% or 30% of the quality because you don't retain the thinking trace between different calls.",
+      "zh": "如果你不用 responses API,你会损失 20% 到 30% 的质量，因为你在不同调用之间不保留思考轨迹。",
+      "timestamp": "21:24",
+      "speaker": "Connor Hegey"
+    },
+    {
+      "en": "It can't be built into the providers, which is the interesting thing about it, because they don't know the distribution that's coming in.",
+      "zh": "它不可能被内建到供应商那边，这正是它有趣的地方，因为他们不知道进来的流量分布。",
+      "timestamp": "27:12",
+      "speaker": "Connor Hegey"
+    },
+    {
+      "en": "That like human connection point is actually their alpha.",
+      "zh": "那种人与人之间的连接点其实才是他们的优势所在。",
+      "timestamp": "35:16",
+      "speaker": "Connor Hegey"
+    },
+    {
+      "en": "Largely because every added dimension of complexity is multiplicative instead of additive.",
+      "zh": "主要是因为每增加一个复杂度维度都是乘性的，而不是加性的。",
+      "timestamp": "40:03",
+      "speaker": "Connor Hegey"
+    },
+    {
+      "en": "And there's just no better eval than looking at a hundred examples or a thousand examples.",
+      "zh": "没有什么评估比亲眼看一百个或者一千个例子更好的了。",
+      "timestamp": "50:36",
+      "speaker": "Connor Hegey"
+    },
+    {
+      "en": "You have this, like, you know, mode collapse of, like, agents talking to each other or this, like, you know, overlapping distributions where it's, you know, the equivalent of groupthink in humans.",
+      "zh": "你会遇到智能体互相对话的模式坍缩，或者分布重叠——相当于人类的群体思维。",
+      "timestamp": "53:50",
+      "speaker": "Connor Hegey"
+    },
+    {
+      "en": "The issue that we ran into when we evaluated them in Q4 of last year is they're so much less tool efficient that even if they are 10x cheaper, which they're not, but even if they were 10x cheaper on the token costs, the tool efficiency is actually not worth it.",
+      "zh": "我们去年第四季度评估开源模型时遇到的问题是，它们的工具效率低太多——即使 token 成本真便宜 10 倍(实际并没有)，工具效率这一项也不划算。",
+      "timestamp": "66:52",
+      "speaker": "Connor Hegey"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:15",
+      "speaker": "Connor Hegey",
+      "en": "When you talk to great ones, right, what they really say is, how do I find the people who have a problem that is so bad that they'll buy it no matter what I say?",
+      "zh": "当你和那些优秀的人交谈时，他们真正说的是：我怎么找到那些问题严重到不管我说什么他们都会买的人？"
+    },
+    {
+      "timestamp": "05:55",
+      "speaker": "Connor Hegey",
+      "en": "The three things I always say is we wanted to build repeatable, observable, scalable systems, which doesn't play very well with AI as it turns out, but those were always the tenants that we were going for.",
+      "zh": "我总说的三件事是：我们想构建可重复、可观测、可扩展的系统——事实证明这和 AI 不太合拍，但这些一直是我们追求的原则。"
+    },
+    {
+      "timestamp": "08:21",
+      "speaker": "Connor Hegey",
+      "en": "I certainly don't want to buy from an AI agent.",
+      "zh": "我肯定不想从一个 AI 智能体那里买东西。"
+    },
+    {
+      "timestamp": "13:20",
+      "speaker": "Connor Hegey",
+      "en": "No, but they're really good at writing pandas-like code, which is really good at operating over tabular data.",
+      "zh": "不，但它们非常擅长写类似 pandas 的代码，而那种代码非常擅长操作表格数据。"
+    },
+    {
+      "timestamp": "16:00",
+      "speaker": "Connor Hegey",
+      "en": "And so our formulation is that a subagent is just a function call.",
+      "zh": "所以我们的表述是：子智能体就是一个函数调用。"
+    },
+    {
+      "timestamp": "19:44",
+      "speaker": "Connor Hegey",
+      "en": "So it's really important that you get these cache hits or otherwise you're just, you're cooked.",
+      "zh": "所以拿到这些缓存命中非常重要，否则你就完蛋了。"
+    },
+    {
+      "timestamp": "21:24",
+      "speaker": "Connor Hegey",
+      "en": "If you are not using the responses API, you are missing out on 20% or 30% of the quality because you don't retain the thinking trace between different calls.",
+      "zh": "如果你不用 responses API,你会损失 20% 到 30% 的质量，因为你在不同调用之间不保留思考轨迹。"
+    },
+    {
+      "timestamp": "27:12",
+      "speaker": "Connor Hegey",
+      "en": "It can't be built into the providers, which is the interesting thing about it, because they don't know the distribution that's coming in.",
+      "zh": "它不可能被内建到供应商那边，这正是它有趣的地方，因为他们不知道进来的流量分布。"
+    },
+    {
+      "timestamp": "28:08",
+      "speaker": "Connor Hegey",
+      "en": "But for them, they don't care, right? They charge you either way, right?",
+      "zh": "但对他们来说，他们不在乎，对吧？反正不管怎样他们都收你的钱，对吧？"
+    },
+    {
+      "timestamp": "31:29",
+      "speaker": "Connor Hegey",
+      "en": "And durable email sending, as it turns out, like guaranteeing an email sends exactly once is really hard to do.",
+      "zh": "还有持久化的邮件发送——事实证明，保证一封邮件恰好只发送一次是非常难做到的。"
+    },
+    {
+      "timestamp": "34:39",
+      "speaker": "Connor Hegey",
+      "en": "Some people, this is, if humans were going to spend time in one part of the system, this is the point to spend time in.",
+      "zh": "有些人——如果说人类要在这个系统的某个环节花时间，这就是该花时间的点。"
+    },
+    {
+      "timestamp": "35:16",
+      "speaker": "Connor Hegey",
+      "en": "That like human connection point is actually their alpha.",
+      "zh": "那种人与人之间的连接点其实才是他们的优势所在。"
+    },
+    {
+      "timestamp": "40:03",
+      "speaker": "Connor Hegey",
+      "en": "Largely because every added dimension of complexity is multiplicative instead of additive.",
+      "zh": "主要是因为每增加一个复杂度维度都是乘性的，而不是加性的。"
+    },
+    {
+      "timestamp": "42:30",
+      "speaker": "Connor Hegey",
+      "en": "So much of it is a black box and just like imposing structure in the right way to make it observable to you so that when we as engineers go and look at the system in three months and we say, well, that was pretty dumb.",
+      "zh": "其中太多是黑盒，你要做的就是以正确的方式强加结构，让它可观测——这样三个月后我们作为工程师回来看系统时，能说出「那做得挺蠢的」。"
+    },
+    {
+      "timestamp": "50:36",
+      "speaker": "Connor Hegey",
+      "en": "And there's just no better eval than looking at a hundred examples or a thousand examples.",
+      "zh": "没有什么评估比亲眼看一百个或者一千个例子更好的了。"
+    },
+    {
+      "timestamp": "53:50",
+      "speaker": "Connor Hegey",
+      "en": "You have this, like, you know, mode collapse of, like, agents talking to each other or this, like, you know, overlapping distributions where it's, you know, the equivalent of groupthink in humans.",
+      "zh": "你会遇到智能体互相对话的模式坍缩，或者分布重叠——相当于人类的群体思维。"
+    },
+    {
+      "timestamp": "59:47",
+      "speaker": "Connor Hegey",
+      "en": "So really what you want is basically like semantic merge sort.",
+      "zh": "所以你真正想要的，基本上就是语义归并排序。"
+    },
+    {
+      "timestamp": "61:22",
+      "speaker": "Connor Hegey",
+      "en": "We need a set of like semantic linters over our skill files.",
+      "zh": "我们需要一套针对 skill 文件的语义 linter。"
+    },
+    {
+      "timestamp": "62:36",
+      "speaker": "Connor Hegey",
+      "en": "So if you say always blank or do not blank in the 3% of cases where that's wrong, it'll never do it.",
+      "zh": "所以如果你说「总是如何」或「别如何」，在那 3% 情况不适用的时候，它也永远不会做。"
+    },
+    {
+      "timestamp": "66:52",
+      "speaker": "Connor Hegey",
+      "en": "The issue that we ran into when we evaluated them in Q4 of last year is they're so much less tool efficient that even if they are 10x cheaper, which they're not, but even if they were 10x cheaper on the token costs, the tool efficiency is actually not worth it.",
+      "zh": "我们去年第四季度评估开源模型时遇到的问题是，它们的工具效率低太多——即使 token 成本真便宜 10 倍(实际并没有)，工具效率这一项也不划算。"
+    }
+  ],
+  "voice_script": "今天这一集，来的是 Unify 的联合创始人兼 CTO,Connor Hegey。Unify 这家公司做的是给销售流程做 AI,他们这个智能体平台背后撑着一条 9 亿美元的销售管道。但这一集里最让人印象深刻的，不是这套系统多厉害，而是一个很现实的问题：成本。上线前两周，他们紧急把成本砍掉了九成以上，不然用户花 20 美元买的套餐，发几条消息额度就烧光了。这一集，就是他把这套系统的账，一层一层拆给你看。\n\n先说他们做这件事的底层判断。很多销售产品讲的是怎么用 AI 帮你“说服”客户，Unify 的看法完全不同：销售本质不是说服，是搜索——找到那些问题严重到“不管你说什么他们都会买”的人。而这种搜索面对的是海量、非结构化、语义丰富的网络数据，恰好是大语言模型擅长的事。所以他们的定位不是取代销售，而是给每个销售代表配一个揣在兜里的工程师。\n\n那成本问题是从哪冒出来的？最大的开销在模型调用。这套系统和 Claude Code 那类编程智能体的框架出奇地像，唯一的原则性差别是，产物不是改文件，而是改数据库记录、写邮件。他们有个核心设计：主智能体不直接干活，而是写代码去操作数据。因为模型不擅长直接摆弄表格数据，但很擅长写 pandas 风格的代码，所以他们在数据库上虚拟了一张表，重新实现了一整套类似的函数，大约八成的智能体运行最终都在操作这张表。\n\n为什么这么抠？因为只要敢放开跑，费用立刻失控。举个例子，跑一千行数据，每行哪怕只花一美分，加起来就是 10 美元，等于把基础套餐烧光了。所以子智能体在他们这里只当兜底，不当主力。用 Connor 的原话说，子智能体就是一个函数调用——主智能体写代码做逐行处理时，会先瀑布式降级，调用便宜的 API,把便宜选项穷尽了，才动用昂贵的子智能体。\n\n接下来是全集技术含量最高的部分：缓存。提示词缓存，说白了就是让模型复用上一次调用已经算好的中间结果，能比全量输入便宜九成。拿不到缓存命中，你就完蛋了。但麻烦在于，OpenAI 默认按请求开头几十个字符做哈希来路由，而且每个缓存键只保证大约每秒 15 个请求能命中，超出的会落到别的机器上各自冷启动。Unify 把命中率做到了 95%,方法是利用自己的先验：拿用户 ID 哈希分成 16 个桶，再叠一个 1 到 30 的随机数，把峰值流量摊到几百个缓存键上，均匀预热。这件事不可能内建到供应商那边，因为供应商不知道进来的流量分布，反正不管怎样他们都收你的钱。\n\n成本压下来之后，下一个问题是：这东西替人干活，边界画在哪？他们的答案很干脆，智能体写的邮件，绝不允许没人看过就发出去。做法是提案加批准，一次看一封。批量场景下，一封一封快速过，远比一次看一堆高效。二阶交互是关键：你高亮一句话要求修改，系统不止改这一封，而是改后面全部一百封。实践中用户大约审完前 15 封，给出足够泛化的反馈，就放心全发了。这个思路背后有个判断：人与人之间的连接才是销售的 alpha,自动化掉的应该是检索和研究，不是那句真诚的寒暄。\n\n系统跑起来之后，怎么知道它做得好不好？评估理念来自Connor 做自动驾驶的经历：当年团队坐在一起，用投影仪看不同模型跑同一段视频，逐帧记笔记。没有什么评估比看一百个或者一千个例子更好了。用大模型当裁判也有一条铁律：裁判模型必须换家族，用 OpenAI 跑智能体，就用 Anthropic 的模型来判，不然两边分布重叠，会出现类似人类群体思维的模式坍缩。\n\n最后落到模型选择上，他们选了 OpenAI,理由朴素得很，就是性价比，用户能发三五十条消息拿到足够的价值。旧的研究智能体成本已经压到一美分以下，省下来的十倍让利给了客户。回头看那次九成的降本，绝大部分来自三件事：砍子智能体、压低效的工具调用、换更便宜的模型。还有一个朴素但极有效的方法：翻遍所有提示词文件，消除矛盾——每个小矛盾，都会变成一次搞砸的工具调用。\n\n这一集听下来，最值得带走的一句话是：模型供应商只给你尽力而为，真正的成本优化，是你自己用对业务的了解，一笔一笔抠出来的。"
+}

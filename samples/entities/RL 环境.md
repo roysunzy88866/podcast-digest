@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[评估]] · [[Gabe]] · [[Louis Knight-Webb]] · [[Osvald Nitski]] · [[Harvey]] · [[Swyx]] · [[Harry Stebbings]] · [[OpenAI]] · [[AI Engineers]]
 
-<script type="application/json" class="pd-epn">{"智能体":248,"评估":2,"Gabe":1,"Louis Knight-Webb":1,"Osvald Nitski":1,"Harvey":9,"Swyx":2,"Harry Stebbings":16,"OpenAI":115,"AI Engineers":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":251,"评估":2,"Gabe":1,"Louis Knight-Webb":1,"Osvald Nitski":1,"Harvey":9,"Swyx":2,"Harry Stebbings":16,"OpenAI":116,"AI Engineers":1}</script>
 
 <script>
 (function(){

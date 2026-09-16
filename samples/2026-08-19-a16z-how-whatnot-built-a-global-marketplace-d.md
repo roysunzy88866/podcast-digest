@@ -124,7 +124,7 @@ Whatnot 是一个本质上是人类连接的平台——你认识店主，认识
 
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同公司:Whatnot · 同概念:直播商务 (live commerce)</span>
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来]]<span class="pd-rz">同概念:LLMs</span>
-- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同公司:Facebook</span>
+- [[2026-09-16-productpodcast-hinge-cpto-on-building-an-app-designed-t|Hinge CPTO：为被删除而设计的应用，与他对 vibe coding 划下的线]]<span class="pd-rz">同概念:信任与安全 (trust and safety)</span>
 
 </div>
 </div>

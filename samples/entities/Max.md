@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]] [[Jerry Murdock]]
+[[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nick Warner":1,"Joel de la Garza":4,"Hugging Face":20,"NEO":1,"Cotool":1,"智能体":248,"护栏":47,"签名":1,"行为检测":1,"推理":46}</script>
+<script type="application/json" class="pd-epn">{"Nick Warner":1,"Joel de la Garza":4,"Hugging Face":20,"NEO":1,"Cotool":1,"智能体":251,"护栏":48,"签名":1,"行为检测":1,"推理":46}</script>
 
 <script>
 (function(){

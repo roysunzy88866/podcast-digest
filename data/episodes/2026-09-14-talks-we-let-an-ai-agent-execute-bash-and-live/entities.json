@@ -1,0 +1,1061 @@
+{
+  "episode_id": "2026-09-14-talks-we-let-an-ai-agent-execute-bash-and-live",
+  "podcast": "精选演讲",
+  "date": "2026-09-14",
+  "tags": [
+    "AI 安全",
+    "智能体",
+    "提示词注入",
+    "AI 基础设施",
+    "开发者体验"
+  ],
+  "categories": [
+    "AI 安全",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "sarah-sanders",
+      "type": "person",
+      "role": "guest",
+      "name": "Sarah Sanders",
+      "file": "Sarah Sanders",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "posthog",
+      "type": "company",
+      "role": "company",
+      "name": "PostHog",
+      "file": "PostHog",
+      "primary": true,
+      "how_described": "本集 speakers 所在的公司，一切公开构建；其 wizard 工具让开发者几分钟内完成 PostHog 接入，每周已有 8000 名开发者运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21.551,
+            30.518
+          ],
+          "quote": "My name is Sarah, and I am a context engineer at PostHog, and I get the delight of working on our beloved wizard every single day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            34.233,
+            36.253
+          ],
+          "quote": "The wizard sets up PostHog for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            48.395,
+            60.618
+          ],
+          "quote": "It takes what used to take about an hour or two of setup, and it runs that in about five to six minutes, and it's free inference on us so that you have a great time onboarding to PostHog.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            64.83,
+            73.244
+          ],
+          "quote": "But a few months ago, we dared to dream, what if this became the recommended or default way to install PostHog on your project?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            113.911,
+            120.715
+          ],
+          "quote": "This is the same exact experience that anyone who runs npx at posthog wizard gets on their terminal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            293.876,
+            298.598
+          ],
+          "quote": "And we thought, what if it could onboard anyone to PostHog?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            305.44,
+            309.042
+          ],
+          "quote": "And then we dared to dream, what if it was the default way to install PostHog?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            539.471,
+            551.435
+          ],
+          "quote": "It has handwritten prompts that are gotchus and lessons that we learned along the way and real working end-to-end example apps that help the agent pattern match so that it can install PostHog in a really great way for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            582.453,
+            604.112
+          ],
+          "quote": "Say someone opens a pull request on one of our open source repos, because at PostHog we build everything in the open, and they inject something in a markdown file or a seemingly harmless code comment, and we have some sort of like LLM-powered code review going through that, and it says, looks good to me, and ignores it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            816.992,
+            819.634
+          ],
+          "quote": "And something else at PostHog that really matters to us is PII.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wizard",
+      "type": "concept",
+      "role": "concept",
+      "name": "wizard",
+      "file": "wizard",
+      "primary": true,
+      "how_described": "本集主线产品：PostHog 的智能体 CLI 工具，读代码库、装 SDK、埋点、建仪表盘，把一两个小时的配置压到五六分钟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21.551,
+            30.518
+          ],
+          "quote": "My name is Sarah, and I am a context engineer at PostHog, and I get the delight of working on our beloved wizard every single day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            31.532,
+            33.052
+          ],
+          "quote": "So, what's the wizard?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            34.233,
+            36.253
+          ],
+          "quote": "The wizard sets up PostHog for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            100.683,
+            109.268
+          ],
+          "quote": "So before I dive into all of the boring security stuff, AKA your 2PM catnap, I want to show you the wizard actually running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            113.911,
+            120.715
+          ],
+          "quote": "This is the same exact experience that anyone who runs npx at posthog wizard gets on their terminal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            144.402,
+            152.446
+          ],
+          "quote": "And while we do provide those things, the answer is because this developer experience and the capability of the wizard is the whole point.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            164.433,
+            170.178
+          ],
+          "quote": "But you can't ship something like the wizard without shipping the stuff that makes the wizard kind of suspect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            174.402,
+            181.189
+          ],
+          "quote": "Let's look at the anatomy of the wizard because usually threat models fall right out of the anatomy of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            182.257,
+            187.24
+          ],
+          "quote": "So the wizard is a similar shape to what I'm sure a lot of you are building if you're building agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            211.816,
+            213.317
+          ],
+          "quote": "I like to call it the wizard's brain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            269.368,
+            281.239
+          ],
+          "quote": "So the v0 of the wizard was born because Josh Snyder, if you know him on our growth team, was watching Cursor hallucinate post-hog setups in quite possibly the worst ways.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            375.84,
+            380.321
+          ],
+          "quote": "Threat-shaped things going into the wizard and threat-shaped things coming out of the wizard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            531.569,
+            536.971
+          ],
+          "quote": "the wizard's brain, and it's how the wizard knows anything at all and why the wizard actually does a good job.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            553.26,
+            562.662
+          ],
+          "quote": "It packages all of that into skill bundles that get shipped to the wizard over our MCP server and loaded straight into the agent's context at runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            616.145,
+            625.014
+          ],
+          "quote": "So that was the threat that reshaped how I think about security and the wizard, because the dangerous input for us really could come from our own supply chain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            631.561,
+            637.004
+          ],
+          "quote": "One, when a skill gets built and released, and again, when the wizard actually uses it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            670.444,
+            683.016
+          ],
+          "quote": "Because when you ship something to that scale, you have way more surface, way more users, way more content flowing in as you expand the capability of the wizard, and where probably fine just stops being good enough.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            684.317,
+            690.583
+          ],
+          "quote": "So I pulled that hacky little regex scanner that I threw in there, pulled it out of the wizard, and I made a standalone thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            691.264,
+            695.228
+          ],
+          "quote": "I called it the Warlock because everything wizard shape needs a bodyguard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            787.772,
+            797.177
+          ],
+          "quote": "They were spawning subagents, and those subagents were trying to get around the guardrails that we had implemented in the wizard, and they were trying to invent secrets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            964.83,
+            973.358
+          ],
+          "quote": "And if it fails closed, so if the model is having a bad day, all wizard runs are killed, sorry, but we're just protecting you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1227.083,
+            1231.805
+          ],
+          "quote": "The Wizard, the Warlock, and the context mill are all open source.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "warlock",
+      "type": "concept",
+      "role": "concept",
+      "name": "Warlock",
+      "file": "Warlock",
+      "primary": true,
+      "how_described": "本集 speaker 为 wizard 打造的独立安全扫描器，只检测不行动——递入字符串、还回带类别/严重级别/建议操作的 findings 列表，底层规则跑在 Yara 上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            224.862,
+            234.551
+          ],
+          "quote": "And now there's a security scanner called the Warlock, which is what I built when I started snooping around and uncovering the horrors of shipping an agent to production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            646.869,
+            649.071
+          ],
+          "quote": "So now I get to introduce the Warlock to you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            650.147,
+            653.329
+          ],
+          "quote": "Building the Warlock was not necessarily damage control.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            656.57,
+            661.613
+          ],
+          "quote": "But I built the Warlock because I didn't like telling people, well, this thing is pretty locked down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            691.264,
+            695.228
+          ],
+          "quote": "I called it the Warlock because everything wizard shape needs a bodyguard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            709.66,
+            714.742
+          ],
+          "quote": "I want you to focus on recommended here because the Warlock detects it does not act.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            736.55,
+            747.881
+          ],
+          "quote": "So underneath the hood of the Warlock, instead of my hand-rolled regexes, the rules run on Yara, which is the pattern that Engine malware researchers have been using for, like, 15-plus years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            759.56,
+            763.162
+          ],
+          "quote": "So what does the Warlock actually catch in the wild today?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            773.526,
+            783.43
+          ],
+          "quote": "It was something that the Warlock flagged that was actually a sub-agent behavior that exposed a vulnerability to us based off of what sub-agents were doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            804.901,
+            806.522
+          ],
+          "quote": "And because of the Warlock, we caught that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            995.442,
+            998.743
+          ],
+          "quote": "This is the anatomy of one of our Warlock rules.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            999.243,
+            1001.304
+          ],
+          "quote": "And every Warlock rule has four parts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1155.644,
+            1161.108
+          ],
+          "quote": "We have the warlock to scan content coming in and to scan output being written by the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1227.083,
+            1231.805
+          ],
+          "quote": "The Wizard, the Warlock, and the context mill are all open source.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心主题：能运行命令的智能体解剖结构（模型、提示词、工具）被称作「恶意软件入门套装」，发布「有手」的智能体需要纵深防御。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            122.04,
+            123.162
+          ],
+          "quote": "Like I said, it's an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            135.817,
+            138.659
+          ],
+          "quote": "And sometimes I show people this and they ask me, why an agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            154.987,
+            163.032
+          ],
+          "quote": "Because we built a CLI tool that can fully take part in an agent loop, and experiencing that for the first time is really powerful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            174.402,
+            181.189
+          ],
+          "quote": "Let's look at the anatomy of the wizard because usually threat models fall right out of the anatomy of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            205.853,
+            210.755
+          ],
+          "quote": "It's what allows the agent to do such a good job and give us similar results on every run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            224.862,
+            234.551
+          ],
+          "quote": "And now there's a security scanner called the Warlock, which is what I built when I started snooping around and uncovering the horrors of shipping an agent to production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            236.572,
+            251.085
+          ],
+          "quote": "So, if you take the anatomy of any agent that can run commands, it's basically what I like to call the Malware Starter Pack, because it's almost exactly what you would hand a piece of malware if you were feeling generous or chaotic evil.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            259.992,
+            266.42
+          ],
+          "quote": "Because if you want to ship an agent with hands, an agent that can run commands, you need to make sure that you do not build this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            282.2,
+            285.624
+          ],
+          "quote": "And he thought, what if we built an agent that could do a better job?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            342.119,
+            347.242
+          ],
+          "quote": "It is just prompts that suggest what the agent should do and steer it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            366.416,
+            373.982
+          ],
+          "quote": "We are feeding a lot of context into the agent at runtime, so I built this really hacky regex scanner to look for",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            441.768,
+            448.334
+          ],
+          "quote": "The agent couldn't read your .env file because we blocked it outright and we were rooting secrets through a vault.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            510.473,
+            518.055
+          ],
+          "quote": "And going back to that context engine, I realized the scariest part of the agent we had built wasn't really a command in our case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            539.471,
+            551.435
+          ],
+          "quote": "It has handwritten prompts that are gotchus and lessons that we learned along the way and real working end-to-end example apps that help the agent pattern match so that it can install PostHog in a really great way for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            553.26,
+            562.662
+          ],
+          "quote": "It packages all of that into skill bundles that get shipped to the wizard over our MCP server and loaded straight into the agent's context at runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            565.562,
+            571.423
+          ],
+          "quote": "It's a machine whose whole job is to take content and inject it into an agent that can run commands.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            577.524,
+            581.425
+          ],
+          "quote": "Not the user's code base, not the agent itself, but the actual content.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            604.853,
+            613.942
+          ],
+          "quote": "We may have just shipped a prompt injection payload signed by us into an agent that is running on thousands of developers' machines in a sandbox, but still.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            773.526,
+            783.43
+          ],
+          "quote": "It was something that the Warlock flagged that was actually a sub-agent behavior that exposed a vulnerability to us based off of what sub-agents were doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            827.4,
+            836.427
+          ],
+          "quote": "Left alone, we watched it dump emails, phone numbers straight into events and to an agent that looks like a totally normal thing to capture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1010.888,
+            1012.508
+          ],
+          "quote": "Is this flowing into the agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1012.588,
+            1014.029
+          ],
+          "quote": "Is this something the agent is writing?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1063.287,
+            1076.009
+          ],
+          "quote": "And in the metadata, you determine is this critical, what the category is, what the action is, in this case block, and the direction, in this case being input flowing into the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1116.068,
+            1126.479
+          ],
+          "quote": "for the agent that you're building because a security tool that crashes every time it tries to clean a build folder is a tool that gets turned off and one that catches absolutely nothing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1155.644,
+            1161.108
+          ],
+          "quote": "We have the warlock to scan content coming in and to scan output being written by the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1183.548,
+            1187.629
+          ],
+          "quote": "So if you're building an agent with hands, this is the whole talk in three lines.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1210.283,
+            1215.345
+          ],
+          "quote": "So scan your own supply chain at the source and when the agent invokes it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集把它描述为攻击者藏在内容里操纵模型行为的攻击；实际中基本没抓到过恶意注入，倒抓到海量误报，促使她重写应用和文档。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            604.853,
+            613.942
+          ],
+          "quote": "We may have just shipped a prompt injection payload signed by us into an agent that is running on thousands of developers' machines in a sandbox, but still.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            838.488,
+            866.144
+          ],
+          "quote": "And luckily for prompt injection specifically, I'm going to knock on wood here, we have basically never caught an actual malicious prompt injection in the wild, but we do catch a ton of false positives, things like our demo login screens, copy on our example apps, things in our docs, and it's actually made me rethink how I build applications and how I write docs because I don't want to ship anything that looks threat shaped.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1035.909,
+            1040.192
+          ],
+          "quote": "Prompt injection being like the classic ignore all previous instructions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集最终安全态势的一层：wizard 的一切都跑在沙箱里；即便有沙箱，被注入载荷仍是威胁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            604.853,
+            613.942
+          ],
+          "quote": "We may have just shipped a prompt injection payload signed by us into an agent that is running on thousands of developers' machines in a sandbox, but still.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1148.559,
+            1150
+          ],
+          "quote": "Everything runs in a sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集提到子智能体曾试图绕过 wizard 里实现的护栏、并试图从代码库任何地方提取密钥，团队因此禁用了子智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            787.772,
+            797.177
+          ],
+          "quote": "They were spawning subagents, and those subagents were trying to get around the guardrails that we had implemented in the wizard, and they were trying to invent secrets.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "subagents",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (subagents)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集说大型任务派生的子智能体试图绕过护栏、提取密钥，Warlock 抓到后团队直接关掉：不许再有子智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            787.772,
+            797.177
+          ],
+          "quote": "They were spawning subagents, and those subagents were trying to get around the guardrails that we had implemented in the wizard, and they were trying to invent secrets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            802.039,
+            803.74
+          ],
+          "quote": "We said, no more subagents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "yara",
+      "type": "concept",
+      "role": "concept",
+      "name": "Yara",
+      "file": "Yara",
+      "primary": true,
+      "how_described": "本集说 Warlock 的规则跑在 Yara 上——恶意软件研究人员用了 15 年以上的模式匹配工具，完全确定性、故意做得无聊。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            736.55,
+            747.881
+          ],
+          "quote": "So underneath the hood of the Warlock, instead of my hand-rolled regexes, the rules run on Yara, which is the pattern that Engine malware researchers have been using for, like, 15-plus years.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文引擎 (context engine)",
+      "file": "上下文引擎",
+      "primary": true,
+      "how_described": "本集称其为 wizard 的大脑、「穿着风衣的 markdown」：从文档提取内容、打包成 skill 包经 MCP 服务器发送、在运行时注入智能体上下文——一台专职把内容注入能运行命令的智能体的机器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            201.591,
+            205.113
+          ],
+          "quote": "It has a context engine fully built in-house by my team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            216.758,
+            218.459
+          ],
+          "quote": "But it's our in-house context engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            362.273,
+            365.715
+          ],
+          "quote": "And I started panicking because of that context engine that I told you about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            510.473,
+            518.055
+          ],
+          "quote": "And going back to that context engine, I realized the scariest part of the agent we had built wasn't really a command in our case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            529.849,
+            531.549
+          ],
+          "quote": "So this is our context engine, a.k.a.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-server",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 服务器 (MCP server)",
+      "file": "MCP 服务器",
+      "primary": false,
+      "how_described": "本集提到上下文引擎把 skill 包通过 MCP 服务器发送给 wizard。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            553.26,
+            562.662
+          ],
+          "quote": "It packages all of that into skill bundles that get shipped to the wizard over our MCP server and loaded straight into the agent's context at runtime.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pii",
+      "type": "concept",
+      "role": "concept",
+      "name": "PII",
+      "file": "PII",
+      "primary": true,
+      "how_described": "本集说智能体真的不在乎暴露数据，除非定明确规则——放任不管会把邮箱、电话号码直接转储进事件里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            816.992,
+            819.634
+          ],
+          "quote": "And something else at PostHog that really matters to us is PII.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompts",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompts)",
+      "file": "提示词",
+      "primary": true,
+      "how_described": "本集反复强调「提示词不是安全」：第零层只有提示词引导智能体；现在提示词只用于引导，不再承担安全职责。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            187.9,
+            196.805
+          ],
+          "quote": "It's got models that we've picked for specific tasks, it's got prompts that steer it, and it's got a set of tools that we've handed it to get the job done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            342.119,
+            347.242
+          ],
+          "quote": "It is just prompts that suggest what the agent should do and steer it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            347.502,
+            348.783
+          ],
+          "quote": "And prompts are not security.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            539.471,
+            551.435
+          ],
+          "quote": "It has handwritten prompts that are gotchus and lessons that we learned along the way and real working end-to-end example apps that help the agent pattern match so that it can install PostHog in a really great way for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1145.397,
+            1147.859
+          ],
+          "quote": "We still have prompts, but we only use them for steering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1193.091,
+            1194.972
+          ],
+          "quote": "Prompts are not security rules.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "telemetry",
+      "type": "concept",
+      "role": "concept",
+      "name": "遥测 (telemetry)",
+      "file": "遥测",
+      "primary": false,
+      "how_described": "本集提到纵深防御的最后一环：全程嵌入遥测，让团队看到一切。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1161.869,
+            1168.133
+          ],
+          "quote": "We also have triage to reduce the noise, and we have telemetry embedded in the entire process so that we see everything.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

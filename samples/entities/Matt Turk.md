@@ -23,7 +23,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[推理]] · [[Meta]] · [[Sachin Katti]] · [[Sanjit Biswas]] · [[Ryan Greenblatt]] · [[数据中心]] · [[Samsara]] · [[Redwood Research]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":115,"智能体":248,"推理":46,"Meta":31,"Sachin Katti":1,"Sanjit Biswas":1,"Ryan Greenblatt":2,"数据中心":13,"Samsara":2,"Redwood Research":3}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":116,"智能体":251,"推理":46,"Meta":31,"Sachin Katti":1,"Sanjit Biswas":1,"Ryan Greenblatt":2,"数据中心":13,"Samsara":2,"Redwood Research":3}</script>
 
 <script>
 (function(){

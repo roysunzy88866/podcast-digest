@@ -1,0 +1,1416 @@
+{
+  "episode_id": "2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t",
+  "podcast": "精选演讲",
+  "date": "2026-08-13",
+  "tags": [
+    "智能体",
+    "成本优化",
+    "提示词缓存",
+    "GTM 与销售",
+    "评估"
+  ],
+  "categories": [
+    "智能体",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "connor-hegey",
+      "type": "person",
+      "role": "host",
+      "name": "Connor Hegey",
+      "file": "Connor Hegey",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            9.842,
+            16.609
+          ],
+          "quote": "Today, I'm talking to Connor Hegey, co-founder and CTO at Unify, the outbound agent platform powering $900 million in pipelines.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "unify",
+      "type": "company",
+      "role": "company",
+      "name": "Unify",
+      "file": "Unify",
+      "primary": true,
+      "how_described": "本集说 Unify 是一个为 go-to-market(销售与营销)做 AI 的外呼智能体平台,支撑 9 亿美元销售管道,把销售看作对海量非结构化数据的搜索问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.051,
+            9.702
+          ],
+          "quote": "Before, you might have a team of 10 sales reps, and instead, with Unify, with Unify TM, you would have one growth marketing person who would spin off a million agents a month.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1,
+          "t": [
+            9.842,
+            16.609
+          ],
+          "quote": "Today, I'm talking to Connor Hegey, co-founder and CTO at Unify, the outbound agent platform powering $900 million in pipelines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            106.135,
+            107.957
+          ],
+          "quote": "So founding this company, Unify, what do we do?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            331.825,
+            342.894
+          ],
+          "quote": "And instead, with Unify TM, you would have one sort of growth marketing person or demand gen marketer or sales leader who would spin off a million agents a month.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1345.928,
+            1352.67
+          ],
+          "quote": "And then the next turn, right, so then it gives its final answer, and you're like, cool, you know, I ask it, how much money has Unify raised?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2153.211,
+            2164.597
+          ],
+          "quote": "The other one is sort of more of this Unify specific thing that you're not going to get in Claude or ChatGPT because we specifically are building for sales reps. And that's when you integrate your Gmail mailbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2446.123,
+            2447.804
+          ],
+          "quote": "Like what is the thing that makes Unify special?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 651,
+          "t": [
+            2747.547,
+            2750.028
+          ],
+          "quote": "So today it's all sort of like Unify curates all of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 687,
+          "t": [
+            2874.283,
+            2880.544
+          ],
+          "quote": "Like if we look internally at Unify even, I think I spent like $7,000, $8,000 on LLMs last month.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 710,
+          "t": [
+            2955.223,
+            2961.705
+          ],
+          "quote": "So before, right before I started Unify, worked at scale on the ML team, the mapping team before that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 846,
+          "t": [
+            3560.283,
+            3568.548
+          ],
+          "quote": "Today in Unify, you can go run this query and you can say, pull my book of business, pull the hundred accounts that I am assigned to, and then score them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 851,
+          "t": [
+            3576.253,
+            3586.183
+          ],
+          "quote": "Or you have it right, which is what it will do right now inside of Unify, is it'll do some research on all of them, create a scoring function, an order by the scoring function, which is very, very lossy, very noisy, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 867,
+          "t": [
+            3618.57,
+            3626.256
+          ],
+          "quote": "Very concerned because what that would have meant is you show up to Unify and you send one message on your $20 a month plan and you're done.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成跑在云端、替销售代表做研究和发邮件的系统:主智能体写代码、操作虚拟化表格,子智能体只是函数调用、当兜底不当主力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            9.842,
+            16.609
+          ],
+          "quote": "Today, I'm talking to Connor Hegey, co-founder and CTO at Unify, the outbound agent platform powering $900 million in pipelines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            26.796,
+            30.358
+          ],
+          "quote": "So how do you move to doing this main agent that's smarter?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            83.953,
+            87.777
+          ],
+          "quote": "You recently launched a new version of your platform and agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            167.149,
+            174.311
+          ],
+          "quote": "We essentially built this web agent that would take in a question with a structured set of options, structured output.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            280.7,
+            289.026
+          ],
+          "quote": "And so we would actually, that agent would, you know, spin up, it would go look at, you know, like, let's say we were running that on you guys, right, on LangChain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            381.45,
+            389.402
+          ],
+          "quote": "Do people interact with your agent via chat or does it operate over almost like a table of leads and do thousands or millions of them in parallel?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            501.34,
+            502.881
+          ],
+          "quote": "I certainly don't want to buy from an AI agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            503.382,
+            505.945
+          ],
+          "quote": "You know, if you guys start to sell to us with an AI agent, I'm going to lose my mind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            596.623,
+            602.167
+          ],
+          "quote": "So like, I have to ask, how similar does the harness that you guys use look to a coding agent harness?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            613.975,
+            626.125
+          ],
+          "quote": "The thing that's different about our agent compared to a coding agent, just like in principle, the output of a coding agent, the artifact of it is sort of a modification to a code base, right, to an existing set of files.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            668.13,
+            676.632
+          ],
+          "quote": "Like what are the, we thought a lot about what criteria, what sort of, what sort of like features we wanted of these, of these, like, you know, the agent harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            677.072,
+            680.073
+          ],
+          "quote": "Like what would make a great agent harness for us specifically?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            900.984,
+            908.387
+          ],
+          "quote": "Not only deterministically, you know, encoded, but it needs to be, you know, provably impossible for the agent to get access to the other things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            941.063,
+            943.604
+          ],
+          "quote": "The agent actually has 10 things it commonly does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            988.313,
+            999.237
+          ],
+          "quote": "All of these are sort of this async pattern that pretty much all the coding agents have moved over to where it kicks off this job, kicks off the sub-agent, gets a handle back to that running",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1027.067,
+            1032.191
+          ],
+          "quote": "But the great thing about that is if the agent is writing code, you know, running subagents is really expensive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1066.318,
+            1068.319
+          ],
+          "quote": "Call the sub-agent and use it as sort of the fallback.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1070.881,
+            1075.783
+          ],
+          "quote": "How many of the agent runs end up manipulating this table in some way?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1336.685,
+            1344.848
+          ],
+          "quote": "Another interesting point, so there's the user message, and then the agent, you know, assistant message will have many model calls inside of it with the tool calls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1655.828,
+            1659.811
+          ],
+          "quote": "We know this is part of a specific sub-agent batch of runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 416,
+          "t": [
+            1755.845,
+            1761.227
+          ],
+          "quote": "And with a fork sub agent, you give them all one clean task and you say, hey, we've been talking about all these people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1763.008,
+            1768.614
+          ],
+          "quote": "Why can't you use a regular sub-agent and prompt it with all the knowledge previously?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1799.497,
+            1807.3
+          ],
+          "quote": "So I get a big output and then pass it into the input of a sub agent and then have that parse through all the input and then output, which is really messy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1851.229,
+            1855.131
+          ],
+          "quote": "Like I imagine I would want some form of human in the loop if I had an agent sending emails for me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 452,
+          "t": [
+            1906.195,
+            1912.999
+          ],
+          "quote": "On the UI side, the UX side, totally don't want emails ripping out of this agent sight unseen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1919.503,
+            1923.046
+          ],
+          "quote": "So inside of our agent, we have an artifact",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2150.529,
+            2153.091
+          ],
+          "quote": "One of them is memory, which is built into the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2262.897,
+            2268.281
+          ],
+          "quote": "And then there's also this other, like, as you're interacting with the agent, how do you take learnings there and update?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2397.857,
+            2402.079
+          ],
+          "quote": "We decided not to do the arbitrary keys and have the agent sort of self-manage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2453.808,
+            2456.43
+          ],
+          "quote": "And we know what they should, you know, what the agent should remember about them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2457.651,
+            2463.756
+          ],
+          "quote": "So the ingestion of like the raw emails, I'm assuming there's like some agent that's doing that basically and deciding to write to those keys.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2604.921,
+            2611.903
+          ],
+          "quote": "I also get like a little bit of the, you know, like I get like embarrassed about what the LM knows about me or what the agent knows about me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3060.358,
+            3065.722
+          ],
+          "quote": "And we might look through a bunch of examples for that to see how the model's doing or how the agent harness overall is doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 745,
+          "t": [
+            3121.083,
+            3128.226
+          ],
+          "quote": "So let's take, you know, today, for example, we have this specific data vendor that the agent is just hilariously over-calling, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3133.667,
+            3136.949
+          ],
+          "quote": "They did some good agent engine optimization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 754,
+          "t": [
+            3183.807,
+            3187.928
+          ],
+          "quote": "So when sending the emails, the actual end result of the email sending doesn't matter to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 763,
+          "t": [
+            3219.187,
+            3227.592
+          ],
+          "quote": "If we are running GPT 5.4 in our agent, we have to be using an anthropic model to do the judge, to do, you know, things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 791,
+          "t": [
+            3318.663,
+            3324.267
+          ],
+          "quote": "Basically run the agent outside, have a sandbox that executes things, but it's not running inside there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 813,
+          "t": [
+            3415.725,
+            3433.774
+          ],
+          "quote": "And essentially what it does is it gives a fake Python interpreter or a real Python interpreter that the agent can spin up and run and actually execute real code inside of, except you bind functions into it that once you hit that, you suspend the whole REPL and the whole code execution environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 824,
+          "t": [
+            3476.549,
+            3485.552
+          ],
+          "quote": "So we're running workers that are actually calling the LLM, calling the agent, and then spinning up these really ephemeral repls that add to over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 834,
+          "t": [
+            3523.398,
+            3529.981
+          ],
+          "quote": "Basically write a script that has, we have like a task function, which is basically the same as just our sub-agent function.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 850,
+          "t": [
+            3571.93,
+            3575.573
+          ],
+          "quote": "You either have the main agent iterate over each one and remember, yuck.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 872,
+          "t": [
+            3633.922,
+            3640.867
+          ],
+          "quote": "So how do you move to doing this main agent that's smarter, that can write code that it maps on top of the table?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 885,
+          "t": [
+            3698.251,
+            3703.613
+          ],
+          "quote": "No, but I've thought about it because we have Context Hub, which basically stores kind of like skills and agent.md files.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 911,
+          "t": [
+            3834.235,
+            3838.678
+          ],
+          "quote": "Or two years ago, adding a one to our, as a planning step to our 4.0 agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 942,
+          "t": [
+            3960.858,
+            3970.302
+          ],
+          "quote": "We did this big, big, big cost reduction in Q4 of last year where we took our old agent cost, that research agent, brought it down to sub one cent, which was awesome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 945,
+          "t": [
+            3977.765,
+            3982.267
+          ],
+          "quote": "And actually now on that old agent, tool calls actually dominate the cost there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 946,
+          "t": [
+            3983.467,
+            3997.916
+          ],
+          "quote": "In this one, in this new agent that we have, we try to think about it a lot as the value that we're giving to our customers is in large part, not entirely, but in large part, the data that we're bringing to them and helping them to find and craft and filter and curate.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "subagent",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (subagent)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集说「子智能体就是一个函数调用」,可传入提示词、模型、推理预算;因为太贵(一千行 × 一美分 = 10 美元),只在瀑布式降级穷尽便宜 API 后才作为兜底。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 213,
+          "t": [
+            955.092,
+            960.136
+          ],
+          "quote": "Can the function that it maps over the rows be like an LLM or a subagent itself?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            960.677,
+            963.939
+          ],
+          "quote": "And so our formulation is that a subagent is just a function call.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1490.655,
+            1497.8
+          ],
+          "quote": "Let's take the subagent case, for example, which is kind of the most illustrative of this prompt caching issue, this 15 requests per second issue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 440,
+          "t": [
+            1843.503,
+            1846.907
+          ],
+          "quote": "Whereas, you know, with the subagent, it's like gonna come up in some random fucking thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "Harness(智能体运行框架) (harness)",
+      "file": "Harness(智能体运行框架)",
+      "primary": true,
+      "how_described": "本集说他们的 harness 和编程智能体「出奇地相似」,区别只在产物是数据库记录和邮件而非改文件;要求云端运行、持久化、写 TypeScript、环境便宜且秒级启停、强租户隔离。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            596.623,
+            602.167
+          ],
+          "quote": "So like, I have to ask, how similar does the harness that you guys use look to a coding agent harness?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            604.909,
+            609.232
+          ],
+          "quote": "So our, we did a lot, a lot, a lot of work in this harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            609.252,
+            611.173
+          ],
+          "quote": "We've talked a lot about the harness too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            668.13,
+            676.632
+          ],
+          "quote": "Like what are the, we thought a lot about what criteria, what sort of, what sort of like features we wanted of these, of these, like, you know, the agent harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            677.072,
+            680.073
+          ],
+          "quote": "Like what would make a great agent harness for us specifically?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3060.358,
+            3065.722
+          ],
+          "quote": "And we might look through a bunch of examples for that to see how the model's doing or how the agent harness overall is doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 758,
+          "t": [
+            3194.952,
+            3198.714
+          ],
+          "quote": "So you ask the user some questions like, what do you do in the eval harness?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-caching",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词缓存 (prompt caching)",
+      "file": "提示词缓存",
+      "primary": true,
+      "how_described": "本集说提示词缓存比全量输入便宜 90%,OpenAI 默认每秒约 15 请求每键、超了就冷启动;Unify 用用户 ID 哈希 16 桶 × 1-30 随机数摊开缓存键,做到 95% 命中率,且这不可能内建到供应商那边。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            30.538,
+            35.381
+          ],
+          "quote": "He gets into the prompt caching cost issue and why the model providers won't solve it for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1109.71,
+            1111.612
+          ],
+          "quote": "You mentioned prompt caching.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1136.891,
+            1138.492
+          ],
+          "quote": "And so, like, what is prompt caching?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1490.655,
+            1497.8
+          ],
+          "quote": "Let's take the subagent case, for example, which is kind of the most illustrative of this prompt caching issue, this 15 requests per second issue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1625.615,
+            1630.057
+          ],
+          "quote": "Do you think that a lot of this prompt caching logic will just be built into the providers over time?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体记忆 (memory)",
+      "file": "智能体记忆",
+      "primary": true,
+      "how_described": "本集说记忆存在 Postgres 里,值是自然语言、键固定六七个类别(邮件语气、用户偏好等),走提案-合并-废弃的结构化流程,为的是可观测性;用户明说的「记住某事」永远是一等公民。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            69.484,
+            71.505
+          ],
+          "quote": "Why not just have it be memory about your company?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2150.529,
+            2153.091
+          ],
+          "quote": "One of them is memory, which is built into the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2186.962,
+            2188.723
+          ],
+          "quote": "And is that different than memory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2189.204,
+            2199.532
+          ],
+          "quote": "It's a different process to get it in, but then we push it into our memory system so that it can be recalled at any time, it can be pulled into the email, you know, content writing pieces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2200.693,
+            2216.125
+          ],
+          "quote": "But the system to get it in isn't a, hey, remember that I like to write XYZ kind of email, or even, you know, we do have the, okay, now edit this email to say X, which is great, and there is some signal there that we push into our memory system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2230.435,
+            2238.841
+          ],
+          "quote": "So I want to dive into this because I think this is like pretty similar to some of the other things we see in memory where there's maybe this like upfront kind of like just knowledge extraction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2484.847,
+            2502.934
+          ],
+          "quote": "And then we do a sort of justification step or a processing step where we either promote a draft memory to an active memory, we merge memories, we deprecate memories, you know, and then we actually give it a pretty structured set of lineage, lineages to process them over time where",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2509.258,
+            2513.541
+          ],
+          "quote": "It has to say, okay, memory A and memory B, the op I'm going to run is merge these two.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2514.041,
+            2516.543
+          ],
+          "quote": "And then here's the new memory C, and then output that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2517.304,
+            2520.006
+          ],
+          "quote": "Or drop memory D completely, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2521.947,
+            2526.73
+          ],
+          "quote": "Or this memory actually supersedes this one, and so this one's superseded.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2580.302,
+            2582.024
+          ],
+          "quote": "Do you let them see their memory?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2586.768,
+            2589.83
+          ],
+          "quote": "Do you let them approve changes to their memory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 666,
+          "t": [
+            2790.442,
+            2792.964
+          ],
+          "quote": "Why not just have it be memory about your company, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2797.127,
+            2798.448
+          ],
+          "quote": "Okay, well, that's like just a memory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说评估理念来自自动驾驶看录像的经历——「没有什么评估比看一百个或者一千个例子更好的了」,人工翻例子占大头,回归测试用按分布分桶的 DQA 集,浪费的工具调用是头号治理对象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 594,
+          "t": [
+            2547.235,
+            2550.416
+          ],
+          "quote": "You say, you know, and we have evals that are great, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2550.456,
+            2551.296
+          ],
+          "quote": "We love evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 704,
+          "t": [
+            2941.2,
+            2942.96
+          ],
+          "quote": "One of the things you mentioned earlier, evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2943.341,
+            2944.341
+          ],
+          "quote": "How do you guys do evals?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 706,
+          "t": [
+            2944.761,
+            2946.941
+          ],
+          "quote": "We use LangSmith to run our evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 707,
+          "t": [
+            2947.962,
+            2948.822
+          ],
+          "quote": "Yeah, how do we do evals?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 708,
+          "t": [
+            2948.842,
+            2950.042
+          ],
+          "quote": "We do a couple of different kinds of evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 709,
+          "t": [
+            2950.462,
+            2955.043
+          ],
+          "quote": "So a lot of my thesis on evals comes from my time working in self-driving.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 717,
+          "t": [
+            2981.532,
+            2982.533
+          ],
+          "quote": "Of course, we had evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 882,
+          "t": [
+            3686.485,
+            3691.928
+          ],
+          "quote": "Similar to how we do with evals that do things like self-consistency is within a skill file, is it consistent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 907,
+          "t": [
+            3807.08,
+            3811.103
+          ],
+          "quote": "That's like a big part of our evals, wasted tool calls, something to drive down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 957,
+          "t": [
+            4051.492,
+            4062.58
+          ],
+          "quote": "People are re-running all their evals on it, and it's actually a pretty cost-effective model because it uses way fewer tokens than certainly Sonnet 5, which was using way too many tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 959,
+          "t": [
+            4065.402,
+            4071.807
+          ],
+          "quote": "And again, to go back to the evals point, the only way that you can do that rigorously is with great evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 960,
+          "t": [
+            4072.487,
+            4084.173
+          ],
+          "quote": "All of the evals that we run, we have a pass-k, so we'll run like, you know, five runs of each, you know, trace to evaluate to see how well they perform, you know, rather than, you know, one at a time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 当裁判 (LLM as a judge)",
+      "file": "LLM 当裁判",
+      "primary": true,
+      "how_described": "本集说裁判模型必须换家族(跑 GPT 就用 Anthropic 判),否则智能体互相对话会出现模式坍缩,「相当于人类的群体思维」,你要的是近乎对抗性的关系。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            51.495,
+            56.397
+          ],
+          "quote": "When you have an LLM as a judge, it can never be the same distribution as the original model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 760,
+          "t": [
+            3203.618,
+            3213.084
+          ],
+          "quote": "One thing that I always like a drumbeat that I always hit with the team is when you have an LLM as a judge, it is or it's interacting in this user interview point.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说他们不用完整 VM(要写一堆 CLI、处理网络和租户隔离),而是用 Monty 思路:REPL 里跑真代码,命中绑定函数就挂起、由宿主进程在函数层面注入租户隔离和计费,所以代码解释器成本是零。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            655.528,
+            656.768
+          ],
+          "quote": "Does it run in a sandbox?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 791,
+          "t": [
+            3318.663,
+            3324.267
+          ],
+          "quote": "Basically run the agent outside, have a sandbox that executes things, but it's not running inside there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 855,
+          "t": [
+            3594.047,
+            3598.51
+          ],
+          "quote": "So it sounds like because of this, your sandbox code interpreter costs.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路 (human in the loop)",
+      "file": "人在回路",
+      "primary": true,
+      "how_described": "本集说邮件绝不让智能体「没人看过就发出去」,采用提案-批准制、一次展示一封邮件;审前约 15 封给出泛化反馈后全发——人与人的连接点才是销售的 alpha。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 442,
+          "t": [
+            1849.748,
+            1850.929
+          ],
+          "quote": "How do you think about human in the loop?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1851.229,
+            1855.131
+          ],
+          "quote": "Like I imagine I would want some form of human in the loop if I had an agent sending emails for me.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "planning-step",
+      "type": "concept",
+      "role": "concept",
+      "name": "规划步骤 (planning step)",
+      "file": "规划步骤",
+      "primary": true,
+      "how_described": "本集说在开头加稳健的规划步骤是最有效的单点优化:让模型先停、想几条路径、侦察各数据源的精度/召回、问用户澄清问题再动手——三年前如此,今天依然如此。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            221.517,
+            224.301
+          ],
+          "quote": "We gave it a planning step to start off with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            233.771,
+            239.575
+          ],
+          "quote": "And so the first step was this planning step with the reasoning model, which we thought was mind-blowing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 910,
+          "t": [
+            3819.147,
+            3834.215
+          ],
+          "quote": "But actually, like, I would say on a, maybe like a practical takeaway thing that really like moved the needle for us was adding in a really robust planning step at the beginning, you know, going back to our three years ago, adding a one, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 911,
+          "t": [
+            3834.235,
+            3838.678
+          ],
+          "quote": "Or two years ago, adding a one to our, as a planning step to our 4.0 agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 913,
+          "t": [
+            3852.744,
+            3855.886
+          ],
+          "quote": "And then as part of that planning step, it'll scout out a couple of trajectories.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langsmith",
+      "type": "company",
+      "role": "company",
+      "name": "LangSmith",
+      "file": "LangSmith",
+      "primary": false,
+      "how_described": "本集提到 Unify 最早的东西构建在 LangSmith 之上做追踪,现在也用它来跑评估。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            96.686,
+            100.27
+          ],
+          "quote": "Our first thing was also built on top of LangSmith.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 706,
+          "t": [
+            2944.761,
+            2946.941
+          ],
+          "quote": "We use LangSmith to run our evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 798,
+          "t": [
+            3350.614,
+            3361.058
+          ],
+          "quote": "And so where we netted out, we don't have a full VM, so one of the really common options is you create, you spin up one of these, you know, like Daytona VMs, LangSmith or LinkChain has a VM.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说他们的智能体全部通过 OpenAI API 跑在 OpenAI 模型上,选它主要因性价比(也是他们的第一个投资人);并详细讲了其提示词缓存路由与 responses API 的取舍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            773.422,
+            776.646
+          ],
+          "quote": "Right now we use the native OpenAI Files API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1118.157,
+            1123.541
+          ],
+          "quote": "So all of our agents right now run on OpenAI models through the OpenAI API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1124.402,
+            1131.027
+          ],
+          "quote": "We also have some capacity on Azure so that if there is an incident on OpenAI, you can kind of like, you know, gracefully fall back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1173.336,
+            1178.939
+          ],
+          "quote": "And it's 90% cheaper through the OpenAI API than it would be to send the whole thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1188.789,
+            1197.018
+          ],
+          "quote": "By default, what OpenAI does is it takes the first, I think it's like 70 characters or 60 characters, some number of characters and it hashes it and then it routes based on that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1256.69,
+            1261.576
+          ],
+          "quote": "OpenAI's backend on the cloud that will then get the cache themselves.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 922,
+          "t": [
+            3896.466,
+            3898.989
+          ],
+          "quote": "It sounds like you guys are mostly on OpenAI models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 927,
+          "t": [
+            3907.657,
+            3909.219
+          ],
+          "quote": "OpenAI was also our first investor.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集说如果智能体里跑 GPT,就必须用 Anthropic 的模型来做裁判,以避免分布重叠导致群体思维。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 763,
+          "t": [
+            3219.187,
+            3227.592
+          ],
+          "quote": "If we are running GPT 5.4 in our agent, we have to be using an anthropic model to do the judge, to do, you know, things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 786,
+          "t": [
+            3307.28,
+            3313.543
+          ],
+          "quote": "There's like the, you know, Anthropic blog that was, what was it, like split the hand and the heads or something, the brain and the hands or something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 836,
+          "t": [
+            3533.343,
+            3539.809
+          ],
+          "quote": "It's like a combination of like Anthropic's like dynamic workflows thing and like the RLM paper.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "glm-5-2",
+      "type": "concept",
+      "role": "concept",
+      "name": "GLM 5.2",
+      "file": "GLM 5.2",
+      "primary": false,
+      "how_described": "本集说开源模型评过、工具效率差太多不划算,但嘉宾一直在私下试用 GLM 5.2,「也许那就是救星」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 952,
+          "t": [
+            4030.351,
+            4033.114
+          ],
+          "quote": "That being said, I've been hearing great things about GLM 5.2.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

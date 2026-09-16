@@ -1,0 +1,931 @@
+{
+  "episode_id": "2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v",
+  "podcast": "精选演讲",
+  "date": "2026-09-14",
+  "tags": [
+    "智能体",
+    "AI 编程",
+    "数据智能体",
+    "开源框架",
+    "企业内部 AI"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "andrew-qu",
+      "type": "person",
+      "role": "guest",
+      "name": "Andrew Qu",
+      "file": "Andrew Qu",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：从超级提示词到多智能体流水线再到单个大上下文文件系统智能体的演进，主张智能体 = 运行时 + 渠道，并强调要塞进大量公司特定知识才能真正好用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            19.678,
+            23.361
+          ],
+          "quote": "And I'm here to talk to you about how we solved agent building at Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            122.311,
+            130.36
+          ],
+          "quote": "And me and the CTO had this thought, you know, instead of a computer on every desk, could we potentially have an agent on every desk?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            288.225,
+            294.471
+          ],
+          "quote": "And so if you think about those different phases, me and the VP of data tried to sit down and map those out into specific agent workloads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            295.212,
+            309.045
+          ],
+          "quote": "And so the second version of this data science agent called D0, I'm gonna reference D0 from now on, is you ask a question, we have a query agent that passes on a query to the planning agent that will then have an execution agent, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            309.766,
+            320.234
+          ],
+          "quote": "And if you chain all of these together, you actually get something that looks like this, where each agent has a very dedicated system prompt focused to what that does with tools scoped to exactly that function.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            320.675,
+            329.421
+          ],
+          "quote": "So an example here, you can see that for the first one, the planning agent has a read entity YAML and a search schemas tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            329.982,
+            337.668
+          ],
+          "quote": "And so it will only use those capabilities until it has an answer to pass on to the planning agent and then to the SQL agent and then to reporting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            355.931,
+            364.616
+          ],
+          "quote": "And around this time, we came to the conclusion that what you actually need is you need one agent with all the mega context within it and for it to sort of manage its own memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            367.537,
+            375.381
+          ],
+          "quote": "We realized that you want to actually have the agent be able to look back on what it's done, sort of reflect and figure out the steps I got to get here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            375.722,
+            383.506
+          ],
+          "quote": "And with the previous model, you may have noticed that the only thing that the next agent gets is a summary and a small snippet of the previous thing that was done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            384.326,
+            389.289
+          ],
+          "quote": "Now, this way, you can imagine that you have one mega-agent, and internally it manages its own state.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            465.668,
+            476.756
+          ],
+          "quote": "They sort of unlocked the concept of a file system agent, and we on the side were like, wow, Claude Code and Opus 4.5 is basically AGI compared to what we had before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            477.596,
+            485.018
+          ],
+          "quote": "It would answer most of our questions without even missing a beat compared to the hand-grown agent we had.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            494.341,
+            503.204
+          ],
+          "quote": "It had a very minimal set of tools, list file, read file, run bash, and we gave a few more here for our own data agent use case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            541.463,
+            545.567
+          ],
+          "quote": "The agent would be able to grab, bash, read file, write file, all around to figure out what it needs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            555.465,
+            567.411
+          ],
+          "quote": "The leap from single agent to Claude Code SDK, and then from Claude Code SDK to file system agent in general, fine-tuned or purpose-built for our use case, was an amazing leap.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            651.163,
+            656.826
+          ],
+          "quote": "And we found this very effective because if you think about every new agent run, it sort of just starts from nothing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            678.256,
+            681.517
+          ],
+          "quote": "It's the most popular way to find agent skills and run them yourself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            695.403,
+            706.268
+          ],
+          "quote": "And I'm telling you this because at every step along building this agent, someone Eversell was agent curious, and they tried to fork off of my D0 agent and build their own.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            760.377,
+            763.422
+          ],
+          "quote": "And the framework should know exactly how to make an agent out of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            767.653,
+            782.17
+          ],
+          "quote": "Eve is an agent framework like the Next.js for agents where it's very easy from just starting with a sample template to having a fully agent ready and being able to add in your own custom knowledge, your own custom tools, and even integrate it into the channels that you are familiar with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            784.182,
+            786.463
+          ],
+          "quote": "This is roughly what we think an agent actually looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            786.684,
+            788.925
+          ],
+          "quote": "You know, an agent has a runtime and it has channels.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            831.217,
+            835.181
+          ],
+          "quote": "And we actually rewrote the whole D0 agent in Eve as we were building Eve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            842.567,
+            849.633
+          ],
+          "quote": "You have a bunch of system instructions, a couple skills, a couple tools, and it's very easy to compose this into a real agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            857.929,
+            865.896
+          ],
+          "quote": "And this one company that partners closely with us, Aura, they've rebuilt their agent that's sort of like a mini claw to go and test people's services.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            869.979,
+            877.805
+          ],
+          "quote": "And they've seen incredible success on building their own agent from the ground up using Eve compared to using an off-the-shelf Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            889.835,
+            898.418
+          ],
+          "quote": "You can see here that you get all the agent runs, you see all the tool calls, you see each step it takes, as well as maybe some estimated costs and some optimizations you could potentially take.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            927.159,
+            930.761
+          ],
+          "quote": "And making it so their agent could run Snowflake queries against it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            931.541,
+            938.625
+          ],
+          "quote": "But we found out that what really makes this agent good is it has a lot of very specific company knowledge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            951.671,
+            962.294
+          ],
+          "quote": "And so a lot of these off-the-shelf agents, they're great, they're good to try, but I think if you really want to get the most juice out of a squeeze, you should really try to build your own agent and add in as much company-specific knowledge as you can.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            985.112,
+            989.014
+          ],
+          "quote": "And that goes to show that we at Vercel have been very agent-pilled.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "concept",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": true,
+      "how_described": "本集说 Vercel 构建智能体基础设施、从 Web 起家，内部用智能体自动化数据查询等职能，已有约 20 个有产品市场契合度的内部智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            16.095,
+            18.237
+          ],
+          "quote": "I'm the Chief of Software at Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            19.678,
+            23.361
+          ],
+          "quote": "And I'm here to talk to you about how we solved agent building at Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            34.594,
+            41.182
+          ],
+          "quote": "For those of you that don't know Vercel, Vercel builds agentic infrastructure so people can build what's next.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            93.028,
+            103.992
+          ],
+          "quote": "And I'm here to talk to you about how I went on this crazy experiment roughly a year ago that led to an agentic explosion at Vercel and led to a really cool thing that we built recently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            168.86,
+            173.245
+          ],
+          "quote": "They were growing, they were a very lean team, but Vercel was growing faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            546.208,
+            550.393
+          ],
+          "quote": "And we would just sprinkle a few tools on top to make sure it could do everything that is Vercel specific.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            567.731,
+            571.293
+          ],
+          "quote": "At this point, we were starting to get ready to give it away to more people at Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            600.144,
+            605.347
+          ],
+          "quote": "And the week that I wrote this, it was responsible for 70% of our Vercel.com traffic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            614.913,
+            617.655
+          ],
+          "quote": "So by then, we've already sort of led a leash on all of Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            675.856,
+            678.116
+          ],
+          "quote": "We also built this tool at Vercel called SkillsSH.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            729.319,
+            737.981
+          ],
+          "quote": "For those that don't know, Next.js is a popular web framework that Vercel built that invented this thing of file system framework-defined infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            808.723,
+            810.964
+          ],
+          "quote": "But we also made it incredibly easy to deploy on Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            811.384,
+            818.867
+          ],
+          "quote": "The only thing here you see different is that everything here is using a Vercel product that we've been building over the years in order to make it easy to build these experiences.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            819.527,
+            828.798
+          ],
+          "quote": "Vercel workflows for durability, Sandbox for secure execution, and Vercel Connect, something we just released to make it easy to generate short-lived OIDC tokens for connections.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            885.154,
+            889.575
+          ],
+          "quote": "And when you deploy Eve to Vercel, you get observability out of the box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            939.065,
+            944.848
+          ],
+          "quote": "You know, the way that Vercel is a web-based company, we have a lot of customers that have websites and web properties.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            985.112,
+            989.014
+          ],
+          "quote": "And that goes to show that we at Vercel have been very agent-pilled.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eve",
+      "type": "concept",
+      "role": "concept",
+      "name": "Eve",
+      "file": "Eve",
+      "primary": true,
+      "how_described": "本集说 Eve 是两周前发布的开源智能体框架，被称为「智能体的 Next.js」：建 skills/tools/channels 文件夹即可声明一个智能体，自带可观测性，可部署到 Vercel。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            765.11,
+            767.192
+          ],
+          "quote": "And that's why two weeks ago we released Eve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            767.653,
+            782.17
+          ],
+          "quote": "Eve is an agent framework like the Next.js for agents where it's very easy from just starting with a sample template to having a fully agent ready and being able to add in your own custom knowledge, your own custom tools, and even integrate it into the channels that you are familiar with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            800.341,
+            807.903
+          ],
+          "quote": "We built Eve so you can plug in your own open source adapters for Postgres, OpenAI's response API, Docker, other connectors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            831.217,
+            835.181
+          ],
+          "quote": "And we actually rewrote the whole D0 agent in Eve as we were building Eve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            869.979,
+            877.805
+          ],
+          "quote": "And they've seen incredible success on building their own agent from the ground up using Eve compared to using an off-the-shelf Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            885.154,
+            889.575
+          ],
+          "quote": "And when you deploy Eve to Vercel, you get observability out of the box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            900.572,
+            902.813
+          ],
+          "quote": "And you can start today at eve.dev.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1018.361,
+            1027.804
+          ],
+          "quote": "You know, I think a lot of HR, finance, sales can be somewhat automated with agents, and I think Eve is the best way to build said agents today.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说 Claude Code 加 Opus 4.5 与他们手工培育的智能体相比「基本上就是 AGI」，其最大解锁在于它只是一个文件系统、工具集极简。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            455.24,
+            465.087
+          ],
+          "quote": "And then Claude Code and Opus 4.5 came out, or more like Opus 4.5 came out, and it in tangent with Claude Code was just so powerful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            465.668,
+            476.756
+          ],
+          "quote": "They sort of unlocked the concept of a file system agent, and we on the side were like, wow, Claude Code and Opus 4.5 is basically AGI compared to what we had before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            512.559,
+            516.999
+          ],
+          "quote": "You know, we weren't giving it, Claude Code was not giving a very prescriptive set of tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            524.961,
+            530.282
+          ],
+          "quote": "You know, we saw the learnings from Claude Code and how powerful it was given that it just executes locally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            531.272,
+            535.236
+          ],
+          "quote": "And we tried to rebuild it in a way that was very Claude Code-esque.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            555.465,
+            567.411
+          ],
+          "quote": "The leap from single agent to Claude Code SDK, and then from Claude Code SDK to file system agent in general, fine-tuned or purpose-built for our use case, was an amazing leap.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            869.979,
+            877.805
+          ],
+          "quote": "And they've seen incredible success on building their own agent from the ground up using Eve compared to using an off-the-shelf Claude Code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "opus-4-5",
+      "type": "concept",
+      "role": "concept",
+      "name": "Opus 4.5",
+      "file": "Opus 4.5",
+      "primary": true,
+      "how_described": "本集说 Opus 4.5 发布并与 Claude Code 结合后，几乎毫不卡壳地回答了他们大部分数据问题，成为整个转折点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            455.24,
+            465.087
+          ],
+          "quote": "And then Claude Code and Opus 4.5 came out, or more like Opus 4.5 came out, and it in tangent with Claude Code was just so powerful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            465.668,
+            476.756
+          ],
+          "quote": "They sort of unlocked the concept of a file system agent, and we on the side were like, wow, Claude Code and Opus 4.5 is basically AGI compared to what we had before.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说重建后的智能体跑在沙箱里，把整个语义层倾倒进沙箱供其 bash、读文件、写文件；在 Eve 里 Sandbox 负责隔离的安全执行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            535.356,
+            537.339
+          ],
+          "quote": "It was now going to run in a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            537.699,
+            541.103
+          ],
+          "quote": "That sandbox would dump the whole semantic layer into it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            584.182,
+            585.483
+          ],
+          "quote": "And you attach it to a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            585.703,
+            588.905
+          ],
+          "quote": "And you can attach files to the sandbox for it to read, write, and execute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            819.527,
+            828.798
+          ],
+          "quote": "Vercel workflows for durability, Sandbox for secure execution, and Vercel Connect, something we just released to make it easy to generate short-lived OIDC tokens for connections.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "file-system-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "文件系统智能体 (file system agent)",
+      "file": "文件系统智能体",
+      "primary": true,
+      "how_described": "本集称之为「有史以来最大的解锁」：只用列文件、读文件、运行 bash 这几样模型被充分训练过的工具，评估分数基本翻倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            465.668,
+            476.756
+          ],
+          "quote": "They sort of unlocked the concept of a file system agent, and we on the side were like, wow, Claude Code and Opus 4.5 is basically AGI compared to what we had before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            555.465,
+            567.411
+          ],
+          "quote": "The leap from single agent to Claude Code SDK, and then from Claude Code SDK to file system agent in general, fine-tuned or purpose-built for our use case, was an amazing leap.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "skill",
+      "file": "skill",
+      "primary": true,
+      "how_described": "本集说他们用定期任务把高频查询自动提炼成 skill（约 100 个），让每次智能体运行开局自带前人积累的上下文知识，而不是从零开始。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            637.618,
+            642.68
+          ],
+          "quote": "And so we actually have a recurring job that takes the most recent queries and tries to distill them into a skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            661.828,
+            667.01
+          ],
+          "quote": "But with a skill, it already starts off with a lot of contextual knowledge that has otherwise already been done.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "concept",
+      "role": "concept",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": true,
+      "how_described": "本集说第一版是把 Snowflake 的 schema 导出贴进 system prompt 让模型写 SQL；后续智能体直接对 Snowflake 跑查询，数据团队也终于有时间优化 Snowflake 性能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            232.619,
+            242.988
+          ],
+          "quote": "I asked them for a dump of the Snowflake schema, I pasted it into a system prompt with a question, and then when it generated SQL, I actually copy and pasted that in and just ran it myself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            915.136,
+            926.459
+          ],
+          "quote": "You know, before we built EZero, we actually battle-tested a lot of the industry, well-funded startups that were doing these vertical agents that were dedicated to taking your Snowflake instance",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            927.159,
+            930.761
+          ],
+          "quote": "And making it so their agent could run Snowflake queries against it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            995.017,
+            1005.522
+          ],
+          "quote": "They have more time to go and improve the performance of Snowflake, to add new data sources that were missing, to fill in the gaps that they previously did not have time to because they were so busy writing queries.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "semantic-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义层 (semantic layer)",
+      "file": "语义层",
+      "primary": true,
+      "how_described": "本集说智能体要探索语义层弄清 join 模式；文件系统版本把整个语义层倾倒进沙箱，是除系统提示词外唯一的预置上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            262.93,
+            272.798
+          ],
+          "quote": "And so if you actually think about what a data scientist actually needs to do when they get a question, they have to process the question, they may have to explore the semantic layer and actually figure out what the join patterns are.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            537.699,
+            541.103
+          ],
+          "quote": "That sandbox would dump the whole semantic layer into it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            656.846,
+            661.428
+          ],
+          "quote": "There's really no pre-established context besides the semantic layer and the system prompts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "next-js",
+      "type": "concept",
+      "role": "concept",
+      "name": "Next.js",
+      "file": "Next.js",
+      "primary": false,
+      "how_described": "本集说 Next.js 是 Vercel 构建的流行 Web 框架，发明了「文件系统即框架定义的基础设施」，Eve 的设计灵感直接来自它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            724.718,
+            728.519
+          ],
+          "quote": "And so we actually thought, what if we built the Next.js for agents?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            729.319,
+            737.981
+          ],
+          "quote": "For those that don't know, Next.js is a popular web framework that Vercel built that invented this thing of file system framework-defined infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            767.653,
+            782.17
+          ],
+          "quote": "Eve is an agent framework like the Next.js for agents where it's very easy from just starting with a sample template to having a fully agent ready and being able to add in your own custom knowledge, your own custom tools, and even integrate it into the channels that you are familiar with.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "multi-agent",
+      "reason": "专名「multi-agent」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

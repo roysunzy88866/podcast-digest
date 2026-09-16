@@ -1,0 +1,1754 @@
+[
+ {
+  "seg": 0,
+  "start": 16.707,
+  "end": 17.488,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 17.588,
+  "end": 18.548,
+  "speaker": "Unknown",
+  "en": "How are we feeling?",
+  "zh": "大家感觉怎么样？"
+ },
+ {
+  "seg": 2,
+  "start": 18.568,
+  "end": 20.43,
+  "speaker": "Unknown",
+  "en": "We're in the home stretch.",
+  "zh": "我们已经进入最后冲刺阶段了。"
+ },
+ {
+  "seg": 3,
+  "start": 21.551,
+  "end": 30.518,
+  "speaker": "Unknown",
+  "en": "My name is Sarah, and I am a context engineer at PostHog, and I get the delight of working on our beloved wizard every single day.",
+  "zh": "我叫 Sarah,是 PostHog 的上下文工程师，我每天都有幸为我们心爱的 wizard 工作。"
+ },
+ {
+  "seg": 4,
+  "start": 31.532,
+  "end": 33.052,
+  "speaker": "Unknown",
+  "en": "So, what's the wizard?",
+  "zh": "那么，wizard 是什么？"
+ },
+ {
+  "seg": 5,
+  "start": 34.233,
+  "end": 36.253,
+  "speaker": "Unknown",
+  "en": "The wizard sets up PostHog for you.",
+  "zh": "wizard 为你完成 PostHog 的安装配置。"
+ },
+ {
+  "seg": 6,
+  "start": 36.773,
+  "end": 47.635,
+  "speaker": "Unknown",
+  "en": "It's an agentic CLI tool that reads your code base, it installs the right SDK for your project, it instruments your events, and it sets up dashboards for you.",
+  "zh": "它是一个智能体 CLI 工具，会读取你的代码库，为你的项目安装合适的 SDK,给你的事件做埋点，并为你设置仪表盘。"
+ },
+ {
+  "seg": 7,
+  "start": 48.395,
+  "end": 60.618,
+  "speaker": "Unknown",
+  "en": "It takes what used to take about an hour or two of setup, and it runs that in about five to six minutes, and it's free inference on us so that you have a great time onboarding to PostHog.",
+  "zh": "它把以前需要一两个小时的安装配置工作，在五到六分钟内跑完，而且推理由我们免费提供，让你在接入 PostHog 时有个愉快的体验。"
+ },
+ {
+  "seg": 8,
+  "start": 61.705,
+  "end": 62.426,
+  "speaker": "Unknown",
+  "en": "Sounds kind of sick.",
+  "zh": "听起来挺酷的。"
+ },
+ {
+  "seg": 9,
+  "start": 63.548,
+  "end": 64.089,
+  "speaker": "Unknown",
+  "en": "People love it.",
+  "zh": "大家都很喜欢它。"
+ },
+ {
+  "seg": 10,
+  "start": 64.83,
+  "end": 73.244,
+  "speaker": "Unknown",
+  "en": "But a few months ago, we dared to dream, what if this became the recommended or default way to install PostHog on your project?",
+  "zh": "但几个月前，我们大胆地设想了一下：如果这成为在你的项目中安装 PostHog 的推荐方式或默认方式，会怎么样？"
+ },
+ {
+  "seg": 11,
+  "start": 75.843,
+  "end": 77.805,
+  "speaker": "Unknown",
+  "en": "My security alarm bell started going off.",
+  "zh": "我心里的安全警钟开始响了。"
+ },
+ {
+  "seg": 12,
+  "start": 78.506,
+  "end": 84.211,
+  "speaker": "Unknown",
+  "en": "I started questioning how secure is this thing because it sounds kind of malware-shaped.",
+  "zh": "我开始质疑这东西到底有多安全，因为它听起来挺像恶意软件的。"
+ },
+ {
+  "seg": 13,
+  "start": 85.853,
+  "end": 88.455,
+  "speaker": "Unknown",
+  "en": "And in that questioning, I learned a lot.",
+  "zh": "而在这种质疑中，我学到了很多。"
+ },
+ {
+  "seg": 14,
+  "start": 89.216,
+  "end": 98.005,
+  "speaker": "Unknown",
+  "en": "So today is all about the lessons I learned, the stuff that kept me up at night while I was building this thing, and the thing that I ended up building because of it.",
+  "zh": "所以今天讲的全是我学到的东西，是我在构建这个东西时让我夜不能寐的那些事，以及我因此最终构建出来的东西。"
+ },
+ {
+  "seg": 15,
+  "start": 100.683,
+  "end": 109.268,
+  "speaker": "Unknown",
+  "en": "So before I dive into all of the boring security stuff, AKA your 2PM catnap, I want to show you the wizard actually running.",
+  "zh": "那么在我深入讲那些无聊的安全内容之前——也就是你们的下午两点小睡时间——我想先给你们看看 wizard 实际运行的样子。"
+ },
+ {
+  "seg": 16,
+  "start": 109.288,
+  "end": 113.471,
+  "speaker": "Unknown",
+  "en": "If you look up on the screen, it is running for you on a loop.",
+  "zh": "如果你抬头看屏幕，它正在循环运行。"
+ },
+ {
+  "seg": 17,
+  "start": 113.911,
+  "end": 120.715,
+  "speaker": "Unknown",
+  "en": "This is the same exact experience that anyone who runs npx at posthog wizard gets on their terminal.",
+  "zh": "这和任何人在自己的终端里运行 npx at posthog wizard 得到的体验完全一样。"
+ },
+ {
+  "seg": 18,
+  "start": 122.04,
+  "end": 123.162,
+  "speaker": "Unknown",
+  "en": "Like I said, it's an agent.",
+  "zh": "就像我说的，它是一个智能体。"
+ },
+ {
+  "seg": 19,
+  "start": 123.222,
+  "end": 125.546,
+  "speaker": "Unknown",
+  "en": "It figures out what SDK is right for your project.",
+  "zh": "它会弄清楚哪个 SDK 适合你的项目。"
+ },
+ {
+  "seg": 20,
+  "start": 125.927,
+  "end": 129.833,
+  "speaker": "Unknown",
+  "en": "It installs it for you, instruments your events, builds dashboards.",
+  "zh": "它会帮你安装，给你的事件做埋点，构建仪表盘。"
+ },
+ {
+  "seg": 21,
+  "start": 130.615,
+  "end": 134.541,
+  "speaker": "Unknown",
+  "en": "I like to call it a little mini implementation engineer in your terminal.",
+  "zh": "我喜欢叫它你终端里的迷你实施工程师。"
+ },
+ {
+  "seg": 22,
+  "start": 135.817,
+  "end": 138.659,
+  "speaker": "Unknown",
+  "en": "And sometimes I show people this and they ask me, why an agent?",
+  "zh": "有时候我给别人演示这个，他们会问我：为什么用智能体？"
+ },
+ {
+  "seg": 23,
+  "start": 138.719,
+  "end": 140.6,
+  "speaker": "Unknown",
+  "en": "Why don't you give users a good prompt?",
+  "zh": "为什么不直接给用户一个好用的提示词？"
+ },
+ {
+  "seg": 24,
+  "start": 141,
+  "end": 143.821,
+  "speaker": "Unknown",
+  "en": "Why don't you give them a skill that they can invoke in their own tool?",
+  "zh": "为什么不给他们一个可以在自己的工具里调用的 skill?"
+ },
+ {
+  "seg": 25,
+  "start": 144.402,
+  "end": 152.446,
+  "speaker": "Unknown",
+  "en": "And while we do provide those things, the answer is because this developer experience and the capability of the wizard is the whole point.",
+  "zh": "虽然这些我们也提供，但答案是：因为这种开发者体验和 wizard 的能力才是全部的重点。"
+ },
+ {
+  "seg": 26,
+  "start": 152.606,
+  "end": 153.627,
+  "speaker": "Unknown",
+  "en": "It's the whole product.",
+  "zh": "它本身就是整个产品。"
+ },
+ {
+  "seg": 27,
+  "start": 154.987,
+  "end": 163.032,
+  "speaker": "Unknown",
+  "en": "Because we built a CLI tool that can fully take part in an agent loop, and experiencing that for the first time is really powerful.",
+  "zh": "因为我们构建了一个能够完全参与到智能体循环中的 CLI 工具，第一次体验这种感觉是非常震撼的。"
+ },
+ {
+  "seg": 28,
+  "start": 164.433,
+  "end": 170.178,
+  "speaker": "Unknown",
+  "en": "But you can't ship something like the wizard without shipping the stuff that makes the wizard kind of suspect.",
+  "zh": "但是，你不可能发布 wizard 这种东西，却不同时发布那些让 wizard 显得有点可疑的东西。"
+ },
+ {
+  "seg": 29,
+  "start": 172.941,
+  "end": 173.842,
+  "speaker": "Unknown",
+  "en": "So let's take it apart.",
+  "zh": "那么我们来把它拆开。"
+ },
+ {
+  "seg": 30,
+  "start": 174.402,
+  "end": 181.189,
+  "speaker": "Unknown",
+  "en": "Let's look at the anatomy of the wizard because usually threat models fall right out of the anatomy of the agent.",
+  "zh": "我们来看看 wizard 的解剖结构，因为威胁模型通常直接来自于智能体的解剖结构。"
+ },
+ {
+  "seg": 31,
+  "start": 182.257,
+  "end": 187.24,
+  "speaker": "Unknown",
+  "en": "So the wizard is a similar shape to what I'm sure a lot of you are building if you're building agents.",
+  "zh": "所以 wizard 的形状和我相信你们中很多人正在构建的智能体是类似的。"
+ },
+ {
+  "seg": 32,
+  "start": 187.9,
+  "end": 196.805,
+  "speaker": "Unknown",
+  "en": "It's got models that we've picked for specific tasks, it's got prompts that steer it, and it's got a set of tools that we've handed it to get the job done.",
+  "zh": "它有我们为特定任务挑选的模型，有引导它的提示词，还有我们交给它去完成工作的一组工具。"
+ },
+ {
+  "seg": 33,
+  "start": 197.829,
+  "end": 200.891,
+  "speaker": "Unknown",
+  "en": "But it also has some pieces that are really specific to us.",
+  "zh": "但它也有一些专属于我们的部分。"
+ },
+ {
+  "seg": 34,
+  "start": 201.591,
+  "end": 205.113,
+  "speaker": "Unknown",
+  "en": "It has a context engine fully built in-house by my team.",
+  "zh": "它有一个完全由我的团队自研的上下文引擎。"
+ },
+ {
+  "seg": 35,
+  "start": 205.853,
+  "end": 210.755,
+  "speaker": "Unknown",
+  "en": "It's what allows the agent to do such a good job and give us similar results on every run.",
+  "zh": "正是它让这个智能体把活干得这么好，并在每次运行中给我们相似的结果。"
+ },
+ {
+  "seg": 36,
+  "start": 211.816,
+  "end": 213.317,
+  "speaker": "Unknown",
+  "en": "I like to call it the wizard's brain.",
+  "zh": "我喜欢叫它 wizard 的大脑。"
+ },
+ {
+  "seg": 37,
+  "start": 213.617,
+  "end": 215.718,
+  "speaker": "Unknown",
+  "en": "Sometimes we call it markdown in a trench coat.",
+  "zh": "有时我们叫它穿着风衣的 markdown。"
+ },
+ {
+  "seg": 38,
+  "start": 216.758,
+  "end": 218.459,
+  "speaker": "Unknown",
+  "en": "But it's our in-house context engine.",
+  "zh": "但它是我们的自研上下文引擎。"
+ },
+ {
+  "seg": 39,
+  "start": 219.179,
+  "end": 223.762,
+  "speaker": "Unknown",
+  "en": "There's also a terminal UI that we built ourselves using Ink.",
+  "zh": "还有一个我们用 Ink 自己构建的终端 UI。"
+ },
+ {
+  "seg": 40,
+  "start": 224.862,
+  "end": 234.551,
+  "speaker": "Unknown",
+  "en": "And now there's a security scanner called the Warlock, which is what I built when I started snooping around and uncovering the horrors of shipping an agent to production.",
+  "zh": "现在还有一个叫 Warlock 的安全扫描器，那是我开始四处探查、揭开发布智能体到生产环境的种种恐怖之处时构建的东西。"
+ },
+ {
+  "seg": 41,
+  "start": 236.572,
+  "end": 251.085,
+  "speaker": "Unknown",
+  "en": "So, if you take the anatomy of any agent that can run commands, it's basically what I like to call the Malware Starter Pack, because it's almost exactly what you would hand a piece of malware if you were feeling generous or chaotic evil.",
+  "zh": "所以，如果你分析任何一个可以运行命令的智能体的解剖结构，它基本上就是我喜欢称之为「恶意软件入门套装」的东西，因为如果你心情慷慨或者处于混乱邪恶阵营，你几乎会把手上的这些原封不动地交给一段恶意软件。"
+ },
+ {
+  "seg": 42,
+  "start": 252.342,
+  "end": 256.207,
+  "speaker": "Unknown",
+  "en": "Luckily, this is the worst case scenario or the nightmare fuel.",
+  "zh": "幸运的是，这是最坏的情况，也就是噩梦素材。"
+ },
+ {
+  "seg": 43,
+  "start": 256.627,
+  "end": 258.75,
+  "speaker": "Unknown",
+  "en": "And it's not a confession for me.",
+  "zh": "这不是我的自白。"
+ },
+ {
+  "seg": 44,
+  "start": 258.83,
+  "end": 259.972,
+  "speaker": "Unknown",
+  "en": "It's a warning for all of you.",
+  "zh": "而是对你们所有人的警告。"
+ },
+ {
+  "seg": 45,
+  "start": 259.992,
+  "end": 266.42,
+  "speaker": "Unknown",
+  "en": "Because if you want to ship an agent with hands, an agent that can run commands, you need to make sure that you do not build this.",
+  "zh": "因为如果你想发布一个有手的智能体，一个可以运行命令的智能体，你需要确保你没有构建出这样的东西。"
+ },
+ {
+  "seg": 46,
+  "start": 269.368,
+  "end": 281.239,
+  "speaker": "Unknown",
+  "en": "So the v0 of the wizard was born because Josh Snyder, if you know him on our growth team, was watching Cursor hallucinate post-hog setups in quite possibly the worst ways.",
+  "zh": "所以 wizard 的 v0 之所以诞生，是因为 Josh Snyder——如果你认识我们增长团队的他的话——目睹 Cursor 以可能最糟糕的方式幻构出 posthog 的配置。"
+ },
+ {
+  "seg": 47,
+  "start": 282.2,
+  "end": 285.624,
+  "speaker": "Unknown",
+  "en": "And he thought, what if we built an agent that could do a better job?",
+  "zh": "他想，如果我们构建一个能干得更好的智能体会怎么样？"
+ },
+ {
+  "seg": 48,
+  "start": 287.013,
+  "end": 292.715,
+  "speaker": "Unknown",
+  "en": "So my team started building on top of it as we validated that it did a much better job than cursor hallucinating.",
+  "zh": "于是我的团队开始在它之上构建，同时我们验证了它确实比 cursor 幻构出来的东西干得好得多。"
+ },
+ {
+  "seg": 49,
+  "start": 293.876,
+  "end": 298.598,
+  "speaker": "Unknown",
+  "en": "And we thought, what if it could onboard anyone to PostHog?",
+  "zh": "然后我们想，如果它能让任何人都能接入 PostHog,会怎么样？"
+ },
+ {
+  "seg": 50,
+  "start": 298.618,
+  "end": 304.64,
+  "speaker": "Unknown",
+  "en": "It doesn't matter what their framework is, what their stack is, instrument all their events without them having to touch a thing.",
+  "zh": "他们的框架是什么、技术栈是什么都无所谓，我们要能监测他们所有的事件，而他们不需要动任何东西。"
+ },
+ {
+  "seg": 51,
+  "start": 305.44,
+  "end": 309.042,
+  "speaker": "Unknown",
+  "en": "And then we dared to dream, what if it was the default way to install PostHog?",
+  "zh": "然后我们大胆设想了一下：如果这成为安装 PostHog 的默认方式会怎样？"
+ },
+ {
+  "seg": 52,
+  "start": 310.318,
+  "end": 316.56,
+  "speaker": "Unknown",
+  "en": "We were dreaming of thousands of developers running this a week, and yesterday we just hit 8,000 people running this a week.",
+  "zh": "我们当时梦想着每周有几千名开发者运行它，而昨天我们刚刚达到每周 8000 人在运行它。"
+ },
+ {
+  "seg": 53,
+  "start": 317.101,
+  "end": 326.765,
+  "speaker": "Unknown",
+  "en": "So our dream came true, but back in those days when we were dreaming, we had to take our security posture under a microscope and look at what was going on.",
+  "zh": "所以我们的梦想成真了，但在我们还在做梦的那段日子里，我们不得不把我们的安全态势放到显微镜下，看看当时到底是什么情况。"
+ },
+ {
+  "seg": 54,
+  "start": 327.785,
+  "end": 332.347,
+  "speaker": "Unknown",
+  "en": "So I took the ownership of that, and I sat down and evaluated where we stood.",
+  "zh": "于是我承担起这个责任，坐下来评估了我们所处的位置。"
+ },
+ {
+  "seg": 55,
+  "start": 333.395,
+  "end": 341.979,
+  "speaker": "Unknown",
+  "en": "And early on, I'm talking like a year to nine months ago, we had what I call layer zero because it quite literally is not security.",
+  "zh": "在早期——我说的是大概一年到九个月前——我们有我称之为第零层的东西，因为它字面意义上根本就不是安全。"
+ },
+ {
+  "seg": 56,
+  "start": 342.119,
+  "end": 347.242,
+  "speaker": "Unknown",
+  "en": "It is just prompts that suggest what the agent should do and steer it.",
+  "zh": "它只是一些提示词，建议智能体应该做什么并引导它。"
+ },
+ {
+  "seg": 57,
+  "start": 347.502,
+  "end": 348.783,
+  "speaker": "Unknown",
+  "en": "And prompts are not security.",
+  "zh": "而提示词不是安全。"
+ },
+ {
+  "seg": 58,
+  "start": 349.563,
+  "end": 350.464,
+  "speaker": "Unknown",
+  "en": "So I was concerned there.",
+  "zh": "所以我为此感到担忧。"
+ },
+ {
+  "seg": 59,
+  "start": 351.925,
+  "end": 361.632,
+  "speaker": "Unknown",
+  "en": "Layer 1, it was an allow list, and when I started digging into this allow list, I started to feel a little bit better because it was pretty tightly bounded, but I still had a lot of concerns.",
+  "zh": "第 1 层是一个允许列表，当我开始深入研究这个允许列表时，我开始感觉稍微好了一点，因为它绑定得相当严格，但我仍然有很多担忧。"
+ },
+ {
+  "seg": 60,
+  "start": 362.273,
+  "end": 365.715,
+  "speaker": "Unknown",
+  "en": "And I started panicking because of that context engine that I told you about.",
+  "zh": "然后我开始恐慌，因为我之前提到的那个上下文引擎。"
+ },
+ {
+  "seg": 61,
+  "start": 366.416,
+  "end": 373.982,
+  "speaker": "Unknown",
+  "en": "We are feeding a lot of context into the agent at runtime, so I built this really hacky regex scanner to look for",
+  "zh": "我们在运行时向智能体输入了大量上下文，所以我构建了一个非常粗糙的正则表达式扫描器，用来查找"
+ },
+ {
+  "seg": 62,
+  "start": 375.84,
+  "end": 380.321,
+  "speaker": "Unknown",
+  "en": "Threat-shaped things going into the wizard and threat-shaped things coming out of the wizard.",
+  "zh": "进入向导的具有威胁形态的东西，以及从向导出来的具有威胁形态的东西。"
+ },
+ {
+  "seg": 63,
+  "start": 380.842,
+  "end": 382.862,
+  "speaker": "Unknown",
+  "en": "And I will admit that it was extremely hacky.",
+  "zh": "而且我承认它极其粗糙。"
+ },
+ {
+  "seg": 64,
+  "start": 384.263,
+  "end": 393.506,
+  "speaker": "Unknown",
+  "en": "But I'm telling all of you this very candidly because we are all building things that feel extremely experimental and we are all building things super fast.",
+  "zh": "但我这么坦率地告诉大家，是因为我们都在构建感觉极其实验性的东西，而且我们都在以超快的速度构建。"
+ },
+ {
+  "seg": 65,
+  "start": 394.206,
+  "end": 402.549,
+  "speaker": "Unknown",
+  "en": "And I know not all of us have security in our wheelhouse and some of us are just learning it on the fly like I was.",
+  "zh": "我知道我们不是所有人都擅长安全，有些人就像我一样是在边干边学。"
+ },
+ {
+  "seg": 66,
+  "start": 403.988,
+  "end": 407.76,
+  "speaker": "Unknown",
+  "en": "But it's something we need to be thinking about when we are building things that have this shape.",
+  "zh": "但当我们构建具有这种形态的东西时，这是我们必须要思考的事情。"
+ },
+ {
+  "seg": 67,
+  "start": 410.987,
+  "end": 413.029,
+  "speaker": "Unknown",
+  "en": "So that was our security posture.",
+  "zh": "这就是我们的安全态势。"
+ },
+ {
+  "seg": 68,
+  "start": 413.969,
+  "end": 416.071,
+  "speaker": "Unknown",
+  "en": "But I asked the question, are we cooked?",
+  "zh": "但我问了一个问题：我们完蛋了吗？"
+ },
+ {
+  "seg": 69,
+  "start": 417.132,
+  "end": 419.713,
+  "speaker": "Unknown",
+  "en": "Good news, we were less cooked than I thought.",
+  "zh": "好消息是，我们没有我想的那么完蛋。"
+ },
+ {
+  "seg": 70,
+  "start": 420.214,
+  "end": 423.856,
+  "speaker": "Unknown",
+  "en": "Because when I mentioned earlier that allow list, it was pretty tightly bound.",
+  "zh": "因为我之前提到过的那个允许列表，它绑定得相当严格。"
+ },
+ {
+  "seg": 71,
+  "start": 424.097,
+  "end": 426.498,
+  "speaker": "Unknown",
+  "en": "We had bash as deny by default.",
+  "zh": "我们把 bash 设为默认拒绝。"
+ },
+ {
+  "seg": 72,
+  "start": 427.039,
+  "end": 429.921,
+  "speaker": "Unknown",
+  "en": "It could only install trusted packages that were vetted by us.",
+  "zh": "它只能安装经过我们审核的可信包。"
+ },
+ {
+  "seg": 73,
+  "start": 430.701,
+  "end": 433.804,
+  "speaker": "Unknown",
+  "en": "It could build, it could type check, it could lint, and pretty much nothing else.",
+  "zh": "它可以构建，可以做类型检查，可以做 lint，除此之外几乎什么都不能做。"
+ },
+ {
+  "seg": 74,
+  "start": 434.963,
+  "end": 440.648,
+  "speaker": "Unknown",
+  "en": "It couldn't run random shell commands, and it didn't have access to environment variables.",
+  "zh": "它不能运行随意的 shell 命令，也没有访问环境变量的权限。"
+ },
+ {
+  "seg": 75,
+  "start": 441.768,
+  "end": 448.334,
+  "speaker": "Unknown",
+  "en": "The agent couldn't read your .env file because we blocked it outright and we were rooting secrets through a vault.",
+  "zh": "智能体无法读取你的 .env 文件，因为我们直接把它屏蔽了，而且我们通过一个 vault 来传递密钥。"
+ },
+ {
+  "seg": 76,
+  "start": 448.894,
+  "end": 454.619,
+  "speaker": "Unknown",
+  "en": "So I took a breath of relief and realized we were in a better place than I thought.",
+  "zh": "所以我松了一口气，意识到我们所处的位置比我想的要好。"
+ },
+ {
+  "seg": 77,
+  "start": 455.713,
+  "end": 459.196,
+  "speaker": "Unknown",
+  "en": "But I wanted to know where the cracks were because with security there's always cracks.",
+  "zh": "但我想知道裂缝在哪里，因为安全方面总是有裂缝的。"
+ },
+ {
+  "seg": 78,
+  "start": 460.017,
+  "end": 462.119,
+  "speaker": "Unknown",
+  "en": "So I did the thing that we should all be doing.",
+  "zh": "于是我做了我们大家都应该做的事情。"
+ },
+ {
+  "seg": 79,
+  "start": 462.339,
+  "end": 468.825,
+  "speaker": "Unknown",
+  "en": "I tapped our security team and I said, hey, can you audit this thing for me and find those cracks for me?",
+  "zh": "我找来我们的安全团队，对他们说：嘿，能帮我审计一下这个东西，帮我找出那些裂缝吗？"
+ },
+ {
+  "seg": 80,
+  "start": 470.878,
+  "end": 472.159,
+  "speaker": "Unknown",
+  "en": "And they found some things.",
+  "zh": "而且他们确实发现了一些东西。"
+ },
+ {
+  "seg": 81,
+  "start": 472.179,
+  "end": 473,
+  "speaker": "Unknown",
+  "en": "They found some gaps.",
+  "zh": "他们发现了一些缺口。"
+ },
+ {
+  "seg": 82,
+  "start": 473.901,
+  "end": 481.947,
+  "speaker": "Unknown",
+  "en": "And the interesting part wasn't the specific gaps or bugs they found themselves, but it was the shape of them, because almost none of them were obviously evil.",
+  "zh": "有趣的不是他们发现的具体缺口或 bug 本身，而是它们的形态，因为几乎没有任何一个是明显的恶意。"
+ },
+ {
+  "seg": 83,
+  "start": 482.387,
+  "end": 488.232,
+  "speaker": "Unknown",
+  "en": "They were all two very innocent, well-intentioned things that were shaking hands and opening a hole.",
+  "zh": "它们全都是两个非常无害、出于好意的东西在握手，然后打开了一个洞。"
+ },
+ {
+  "seg": 84,
+  "start": 490.343,
+  "end": 505.729,
+  "speaker": "Unknown",
+  "en": "So the lesson I learned was that attacks compose, code review doesn't, because us developers all look at diffs one at a time, but attackers look at the whole system and they look for those two things that shake hands and open a door.",
+  "zh": "所以我学到的教训是：攻击会组合，而代码审查不会，因为我们开发者都是一次只看一个 diff，但攻击者看的是整个系统，他们会寻找那两个握手并打开一扇门的东西。"
+ },
+ {
+  "seg": 85,
+  "start": 507.432,
+  "end": 509.533,
+  "speaker": "Unknown",
+  "en": "But there was one more thing that was keeping me up at night.",
+  "zh": "但还有一件事让我夜不能寐。"
+ },
+ {
+  "seg": 86,
+  "start": 510.473,
+  "end": 518.055,
+  "speaker": "Unknown",
+  "en": "And going back to that context engine, I realized the scariest part of the agent we had built wasn't really a command in our case.",
+  "zh": "回到那个上下文引擎，我意识到我们构建的智能体最可怕的部分，在我们这个案例里其实并不是命令。"
+ },
+ {
+  "seg": 87,
+  "start": 518.416,
+  "end": 522.237,
+  "speaker": "Unknown",
+  "en": "It was the helpful looking stuff that we were feeding its brain.",
+  "zh": "而是我们输入它大脑里的那些看起来很有帮助的东西。"
+ },
+ {
+  "seg": 88,
+  "start": 524.658,
+  "end": 526.018,
+  "speaker": "Unknown",
+  "en": "Oh, I think I went the wrong way.",
+  "zh": "哦，我想我走错方向了。"
+ },
+ {
+  "seg": 89,
+  "start": 527.468,
+  "end": 527.708,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 90,
+  "start": 528.128,
+  "end": 528.968,
+  "speaker": "Unknown",
+  "en": "The context mill.",
+  "zh": "上下文磨坊。"
+ },
+ {
+  "seg": 91,
+  "start": 529.849,
+  "end": 531.549,
+  "speaker": "Unknown",
+  "en": "So this is our context engine, a.k.a.",
+  "zh": "这就是我们的上下文引擎，也就是"
+ },
+ {
+  "seg": 92,
+  "start": 531.569,
+  "end": 536.971,
+  "speaker": "Unknown",
+  "en": "the wizard's brain, and it's how the wizard knows anything at all and why the wizard actually does a good job.",
+  "zh": "向导的大脑，它既是向导知道任何事情的途径，也是向导真正干得不错的原因。"
+ },
+ {
+  "seg": 93,
+  "start": 537.811,
+  "end": 538.871,
+  "speaker": "Unknown",
+  "en": "It pulls from our docs.",
+  "zh": "它从我们的文档中提取内容。"
+ },
+ {
+  "seg": 94,
+  "start": 539.471,
+  "end": 551.435,
+  "speaker": "Unknown",
+  "en": "It has handwritten prompts that are gotchus and lessons that we learned along the way and real working end-to-end example apps that help the agent pattern match so that it can install PostHog in a really great way for you.",
+  "zh": "它有手写的提示词，包含我们一路走来学到的坑和经验教训，还有真实可用的端到端示例应用，帮助智能体进行模式匹配，这样它就能以一种非常好的方式为你安装 PostHog。"
+ },
+ {
+  "seg": 95,
+  "start": 553.26,
+  "end": 562.662,
+  "speaker": "Unknown",
+  "en": "It packages all of that into skill bundles that get shipped to the wizard over our MCP server and loaded straight into the agent's context at runtime.",
+  "zh": "它把所有这些打包成技能包，通过我们的 MCP 服务器发送给向导，并在运行时直接加载到智能体的上下文中。"
+ },
+ {
+  "seg": 96,
+  "start": 564.182,
+  "end": 565.322,
+  "speaker": "Unknown",
+  "en": "So sit with that for a second.",
+  "zh": "所以请好好琢磨一下这个。"
+ },
+ {
+  "seg": 97,
+  "start": 565.562,
+  "end": 571.423,
+  "speaker": "Unknown",
+  "en": "It's a machine whose whole job is to take content and inject it into an agent that can run commands.",
+  "zh": "它是一台机器，其全部工作就是获取内容并注入到一个可以运行命令的智能体中。"
+ },
+ {
+  "seg": 98,
+  "start": 572.903,
+  "end": 577.164,
+  "speaker": "Unknown",
+  "en": "Now, if you were an attacker, you might say, well, what if I just poison the content?",
+  "zh": "现在，如果你是一个攻击者，你可能会说：那如果我直接污染内容呢？"
+ },
+ {
+  "seg": 99,
+  "start": 577.524,
+  "end": 581.425,
+  "speaker": "Unknown",
+  "en": "Not the user's code base, not the agent itself, but the actual content.",
+  "zh": "不是用户的代码库，不是智能体本身，而是实际的内容。"
+ },
+ {
+  "seg": 100,
+  "start": 582.453,
+  "end": 604.112,
+  "speaker": "Unknown",
+  "en": "Say someone opens a pull request on one of our open source repos, because at PostHog we build everything in the open, and they inject something in a markdown file or a seemingly harmless code comment, and we have some sort of like LLM-powered code review going through that, and it says, looks good to me, and ignores it.",
+  "zh": "比如有人在我们的一个开源仓库上提交了一个 pull request,因为在 PostHog 我们一切都公开构建,然后他们在某个 markdown 文件里或者一条看似无害的代码注释里注入了一些东西,而我们有一个由 LLM 驱动的代码审查在跑,它说,「我看没问题」,然后忽略了它。"
+ },
+ {
+  "seg": 101,
+  "start": 604.853,
+  "end": 613.942,
+  "speaker": "Unknown",
+  "en": "We may have just shipped a prompt injection payload signed by us into an agent that is running on thousands of developers' machines in a sandbox, but still.",
+  "zh": "那我们可能刚刚就把一个由我们签名的提示词注入载荷,发布到了一个运行在成千上万名开发者机器上的沙箱中的智能体里,虽然是沙箱,但仍然是。"
+ },
+ {
+  "seg": 102,
+  "start": 616.145,
+  "end": 625.014,
+  "speaker": "Unknown",
+  "en": "So that was the threat that reshaped how I think about security and the wizard, because the dangerous input for us really could come from our own supply chain.",
+  "zh": "所以正是这个威胁重塑了我对安全以及 wizard 的思考,因为对我们来说,危险输入真的可能来自我们自己的供应链。"
+ },
+ {
+  "seg": 103,
+  "start": 626.518,
+  "end": 630.84,
+  "speaker": "Unknown",
+  "en": "So what I ended up doing is I started scanning content at both ends of this pipe.",
+  "zh": "所以我最终做的事情是,我开始在这条管道的两端都扫描内容。"
+ },
+ {
+  "seg": 104,
+  "start": 631.561,
+  "end": 637.004,
+  "speaker": "Unknown",
+  "en": "One, when a skill gets built and released, and again, when the wizard actually uses it.",
+  "zh": "一端是当一个 skill 被构建和发布时,另一端是当 wizard 真正使用它时。"
+ },
+ {
+  "seg": 105,
+  "start": 638.145,
+  "end": 643.828,
+  "speaker": "Unknown",
+  "en": "My methodology is catch it at the source, assume the source failed, and catch it again at the point of use.",
+  "zh": "我的方法论是:在源头抓住它,假设源头失败了,再在使用点抓住它一次。"
+ },
+ {
+  "seg": 106,
+  "start": 646.869,
+  "end": 649.071,
+  "speaker": "Unknown",
+  "en": "So now I get to introduce the Warlock to you.",
+  "zh": "所以现在我要向你们介绍 Warlock 了。"
+ },
+ {
+  "seg": 107,
+  "start": 650.147,
+  "end": 653.329,
+  "speaker": "Unknown",
+  "en": "Building the Warlock was not necessarily damage control.",
+  "zh": "构建 Warlock 并不一定是 damage control(损害控制)。"
+ },
+ {
+  "seg": 108,
+  "start": 653.369,
+  "end": 655.75,
+  "speaker": "Unknown",
+  "en": "Like I said, we had defense in other ways.",
+  "zh": "就像我说的,我们已经有其他方式的防御。"
+ },
+ {
+  "seg": 109,
+  "start": 656.57,
+  "end": 661.613,
+  "speaker": "Unknown",
+  "en": "But I built the Warlock because I didn't like telling people, well, this thing is pretty locked down.",
+  "zh": "但我构建 Warlock 是因为我不喜欢跟人说,「嗯,这东西锁得挺严的」。"
+ },
+ {
+  "seg": 110,
+  "start": 662.113,
+  "end": 663.054,
+  "speaker": "Unknown",
+  "en": "That doesn't scale.",
+  "zh": "那不可扩展。"
+ },
+ {
+  "seg": 111,
+  "start": 663.294,
+  "end": 665.115,
+  "speaker": "Unknown",
+  "en": "That's not something you want to ship to production.",
+  "zh": "那不是你想发布到生产环境的东西。"
+ },
+ {
+  "seg": 112,
+  "start": 665.455,
+  "end": 668.657,
+  "speaker": "Unknown",
+  "en": "That's not something that you want thousands of developers running every single day.",
+  "zh": "那不是你想让成千上万名开发者每天运行的东西。"
+ },
+ {
+  "seg": 113,
+  "start": 670.444,
+  "end": 683.016,
+  "speaker": "Unknown",
+  "en": "Because when you ship something to that scale, you have way more surface, way more users, way more content flowing in as you expand the capability of the wizard, and where probably fine just stops being good enough.",
+  "zh": "因为当你把某个东西发布到那种规模时,你会有大得多的攻击面、多得多的用户、随着你扩展 wizard 的能力而流入的多得多的内容,然后「大概没问题」就不再够好了。"
+ },
+ {
+  "seg": 114,
+  "start": 684.317,
+  "end": 690.583,
+  "speaker": "Unknown",
+  "en": "So I pulled that hacky little regex scanner that I threw in there, pulled it out of the wizard, and I made a standalone thing.",
+  "zh": "所以我把那个我随手扔进去的、有点 hacky 的小正则扫描器从 wizard 里抽了出来,做成了一个独立的东西。"
+ },
+ {
+  "seg": 115,
+  "start": 691.264,
+  "end": 695.228,
+  "speaker": "Unknown",
+  "en": "I called it the Warlock because everything wizard shape needs a bodyguard.",
+  "zh": "我给它起名叫 Warlock,因为每个 wizard 形状的东西都需要一个保镖。"
+ },
+ {
+  "seg": 116,
+  "start": 696.513,
+  "end": 698.534,
+  "speaker": "Unknown",
+  "en": "And it does exactly one job.",
+  "zh": "而它只做一件事。"
+ },
+ {
+  "seg": 117,
+  "start": 699.174,
+  "end": 700.115,
+  "speaker": "Unknown",
+  "en": "You hand it a string.",
+  "zh": "你递给它一个字符串。"
+ },
+ {
+  "seg": 118,
+  "start": 700.715,
+  "end": 702.256,
+  "speaker": "Unknown",
+  "en": "It hands you back a list of findings.",
+  "zh": "它还给你一个 findings 列表。"
+ },
+ {
+  "seg": 119,
+  "start": 702.776,
+  "end": 708.339,
+  "speaker": "Unknown",
+  "en": "Each of those findings has a category, a severity, and a recommended action, and then it stops.",
+  "zh": "每个 finding 有一个类别、一个严重级别和一个建议操作,然后就到此为止。"
+ },
+ {
+  "seg": 120,
+  "start": 709.66,
+  "end": 714.742,
+  "speaker": "Unknown",
+  "en": "I want you to focus on recommended here because the Warlock detects it does not act.",
+  "zh": "我想让你们关注「建议」这个词,因为 Warlock 只做检测,不采取行动。"
+ },
+ {
+  "seg": 121,
+  "start": 715.142,
+  "end": 717.924,
+  "speaker": "Unknown",
+  "en": "It'll tell you, hey, this looks like exfiltration.",
+  "zh": "它会告诉你,「嘿,这个看起来像是数据外泄」。"
+ },
+ {
+  "seg": 122,
+  "start": 717.944,
+  "end": 718.784,
+  "speaker": "Unknown",
+  "en": "It's critical.",
+  "zh": "「这是 critical 级别」。"
+ },
+ {
+  "seg": 123,
+  "start": 718.884,
+  "end": 719.645,
+  "speaker": "Unknown",
+  "en": "I would block it.",
+  "zh": "「我会阻止它」。"
+ },
+ {
+  "seg": 124,
+  "start": 720.145,
+  "end": 723.527,
+  "speaker": "Unknown",
+  "en": "But what you actually do with that finding is completely up to you.",
+  "zh": "但你对这个 finding 实际做什么,完全由你决定。"
+ },
+ {
+  "seg": 125,
+  "start": 725.092,
+  "end": 730.339,
+  "speaker": "Unknown",
+  "en": "Because detecting a problem is one job, and deciding what to do about that problem is a totally different job.",
+  "zh": "因为检测问题是一份工作,而决定如何处理那个问题是完全不同的另一份工作。"
+ },
+ {
+  "seg": 126,
+  "start": 730.74,
+  "end": 734.826,
+  "speaker": "Unknown",
+  "en": "And the only thing that keeps all of this understandable is keeping those two things separate.",
+  "zh": "而让这一切保持可理解的唯一方法,就是把这两件事分开。"
+ },
+ {
+  "seg": 127,
+  "start": 736.55,
+  "end": 747.881,
+  "speaker": "Unknown",
+  "en": "So underneath the hood of the Warlock, instead of my hand-rolled regexes, the rules run on Yara, which is the pattern that Engine malware researchers have been using for, like, 15-plus years.",
+  "zh": "所以在 Warlock 的底层,不再是我手写的正则,规则跑在 Yara 上,这是 Engine 恶意软件研究人员已经用了 15 年多的模式(工具)。"
+ },
+ {
+  "seg": 128,
+  "start": 748.422,
+  "end": 749.623,
+  "speaker": "Unknown",
+  "en": "It's fully deterministic.",
+  "zh": "它是完全确定性的。"
+ },
+ {
+  "seg": 129,
+  "start": 749.743,
+  "end": 752.365,
+  "speaker": "Unknown",
+  "en": "It's the same input, same output every single time.",
+  "zh": "同样的输入,每一次都给出同样的输出。"
+ },
+ {
+  "seg": 130,
+  "start": 752.466,
+  "end": 756.71,
+  "speaker": "Unknown",
+  "en": "It's boring on purpose, and in security, boring is a feature.",
+  "zh": "它故意做得无聊,而在安全领域,无聊是一个特性。"
+ },
+ {
+  "seg": 131,
+  "start": 759.56,
+  "end": 763.162,
+  "speaker": "Unknown",
+  "en": "So what does the Warlock actually catch in the wild today?",
+  "zh": "那么 Warlock 如今在实际中到底抓到了什么?"
+ },
+ {
+  "seg": 132,
+  "start": 763.182,
+  "end": 768.764,
+  "speaker": "Unknown",
+  "en": "A bunch of different stuff, but two of these are an absolute nuisance to my soul.",
+  "zh": "抓到了一堆不同的东西,但其中两件对我的灵魂来说是十足的折磨。"
+ },
+ {
+  "seg": 133,
+  "start": 769.924,
+  "end": 773.426,
+  "speaker": "Unknown",
+  "en": "The first thing is actually not a rule-shaped thing.",
+  "zh": "第一件事其实不是一个规则形状的东西。"
+ },
+ {
+  "seg": 134,
+  "start": 773.526,
+  "end": 783.43,
+  "speaker": "Unknown",
+  "en": "It was something that the Warlock flagged that was actually a sub-agent behavior that exposed a vulnerability to us based off of what sub-agents were doing.",
+  "zh": "它是 Warlock 标记出的某个东西,实际上是一种子智能体行为,基于子智能体在做的事情,给我们暴露了一个漏洞。"
+ },
+ {
+  "seg": 135,
+  "start": 784.41,
+  "end": 787.392,
+  "speaker": "Unknown",
+  "en": "So basically, we were spinning up agents to do large tasks.",
+  "zh": "基本上,我们当时在启动智能体去做大型任务。"
+ },
+ {
+  "seg": 136,
+  "start": 787.772,
+  "end": 797.177,
+  "speaker": "Unknown",
+  "en": "They were spawning subagents, and those subagents were trying to get around the guardrails that we had implemented in the wizard, and they were trying to invent secrets.",
+  "zh": "它们在派生子智能体,而那些子智能体试图绕过我们在 wizard 里实现的护栏,并且它们试图编造密钥。"
+ },
+ {
+  "seg": 137,
+  "start": 797.197,
+  "end": 801.959,
+  "speaker": "Unknown",
+  "en": "They were trying to pull secrets from quite literally anywhere in the code base, and we shut it down.",
+  "zh": "它们试图从代码库中字面意义上的任何地方提取密钥,然后我们把它关掉了。"
+ },
+ {
+  "seg": 138,
+  "start": 802.039,
+  "end": 803.74,
+  "speaker": "Unknown",
+  "en": "We said, no more subagents.",
+  "zh": "我们说,不许再有子智能体。"
+ },
+ {
+  "seg": 139,
+  "start": 804.901,
+  "end": 806.522,
+  "speaker": "Unknown",
+  "en": "And because of the Warlock, we caught that.",
+  "zh": "而正因为有了 Warlock,我们抓到了那个。"
+ },
+ {
+  "seg": 140,
+  "start": 808.265,
+  "end": 809.586,
+  "speaker": "Unknown",
+  "en": "And I'll empathize with the robot.",
+  "zh": "我会体谅那个机器人。"
+ },
+ {
+  "seg": 141,
+  "start": 809.606,
+  "end": 815.591,
+  "speaker": "Unknown",
+  "en": "The robot had a task to do and it was trying to optimize and please us, but we can't have that.",
+  "zh": "那个机器人有一个要完成的任务,它在试图优化并取悦我们,但我们不能允许这样。"
+ },
+ {
+  "seg": 142,
+  "start": 816.992,
+  "end": 819.634,
+  "speaker": "Unknown",
+  "en": "And something else at PostHog that really matters to us is PII.",
+  "zh": "而在 PostHog 另一件对我们真正重要的事是 PII(个人身份信息)。"
+ },
+ {
+  "seg": 143,
+  "start": 820.675,
+  "end": 826.339,
+  "speaker": "Unknown",
+  "en": "Agents genuinely do not care about exposing data unless you make explicit rules.",
+  "zh": "智能体真的不在乎暴露数据,除非你制定明确的规则。"
+ },
+ {
+  "seg": 144,
+  "start": 827.4,
+  "end": 836.427,
+  "speaker": "Unknown",
+  "en": "Left alone, we watched it dump emails, phone numbers straight into events and to an agent that looks like a totally normal thing to capture.",
+  "zh": "放任不管的话,我们眼看着它把电子邮箱、电话号码直接转储进事件里,而在一个智能体看来,这完全是正常的要捕获的东西。"
+ },
+ {
+  "seg": 145,
+  "start": 838.488,
+  "end": 866.144,
+  "speaker": "Unknown",
+  "en": "And luckily for prompt injection specifically, I'm going to knock on wood here, we have basically never caught an actual malicious prompt injection in the wild, but we do catch a ton of false positives, things like our demo login screens, copy on our example apps, things in our docs, and it's actually made me rethink how I build applications and how I write docs because I don't want to ship anything that looks threat shaped.",
+  "zh": "至于提示词注入本身,谢天谢地——我要敲敲木头——我们基本上从来没有在实际中抓到过一次真正的恶意提示词注入,但我们确实抓到了海量的误报,比如我们的演示登录页面、示例应用里的文案、文档里的内容,这实际上让我重新思考我如何构建应用以及我如何写文档,因为我不想发布任何看起来像威胁形状的东西。"
+ },
+ {
+  "seg": 146,
+  "start": 868.087,
+  "end": 875.228,
+  "speaker": "Unknown",
+  "en": "But the false positives are honestly the perfect setup for the messiest, most interesting part of this whole thing.",
+  "zh": "但这些误报老实说是整件事中最混乱、最有意思部分的最佳铺垫。"
+ },
+ {
+  "seg": 147,
+  "start": 877.529,
+  "end": 879.089,
+  "speaker": "Unknown",
+  "en": "So this is the part that I wrestled with.",
+  "zh": "所以这就是我挣扎过的那部分。"
+ },
+ {
+  "seg": 148,
+  "start": 879.949,
+  "end": 891.952,
+  "speaker": "Unknown",
+  "en": "I spent this whole talk preaching deterministic to all of you, and then I went and I added an LLM layer to help sort my false positives and silence some of the noise, and I call it triage.",
+  "zh": "我在这整场演讲里向你们所有人布道确定性,然后我去给系统加了一个 LLM 层来帮助分类我的误报并消除一些噪音,我把它叫做 triage(分诊)。"
+ },
+ {
+  "seg": 149,
+  "start": 893.703,
+  "end": 896.844,
+  "speaker": "Unknown",
+  "en": "When I was building this triage layer, I had to make a choice.",
+  "zh": "当我在构建这个分诊层时,我必须做一个选择。"
+ },
+ {
+  "seg": 150,
+  "start": 897.385,
+  "end": 901.246,
+  "speaker": "Unknown",
+  "en": "Should the layer be a bouncer or should the layer be an advisor?",
+  "zh": "这一层应该做保安,还是应该做顾问?"
+ },
+ {
+  "seg": 151,
+  "start": 902.127,
+  "end": 906.789,
+  "speaker": "Unknown",
+  "en": "And the easiest choice probably could have been make the LLM the bouncer.",
+  "zh": "最容易的选择大概可能是让 LLM 做保安。"
+ },
+ {
+  "seg": 152,
+  "start": 906.869,
+  "end": 913.652,
+  "speaker": "Unknown",
+  "en": "Show it the command, ask it, is this an attack, block, allow, and just do whatever it says.",
+  "zh": "把命令给它看,问它:这是不是攻击?拦截还是放行,然后就照它说的做。"
+ },
+ {
+  "seg": 153,
+  "start": 914.252,
+  "end": 926.679,
+  "speaker": "Unknown",
+  "en": "And while that's tempting because it seems easier, I can't bet my security model on a coin flip because my model's having a bad day or something happened and it's acting different today than it did yesterday.",
+  "zh": "虽然这很诱人,因为看起来更简单,但我不能把我的安全模型押在掷硬币上,就因为我的模型今天状态不好,或者发生了什么事,它今天的行为和昨天不一样。"
+ },
+ {
+  "seg": 154,
+  "start": 927.96,
+  "end": 932.604,
+  "speaker": "Unknown",
+  "en": "So instead of the bouncer, I crafted the model to be the advisor.",
+  "zh": "所以我放弃了保安方案,把模型塑造成顾问。"
+ },
+ {
+  "seg": 155,
+  "start": 933.224,
+  "end": 938.649,
+  "speaker": "Unknown",
+  "en": "And this was the clean line that I found in a line that I'm still exploring, but I want to leave all of you with.",
+  "zh": "这就是我找到的一条清晰的界线,一条我仍在探索的界线,但我想把它留给在座各位。"
+ },
+ {
+  "seg": 156,
+  "start": 939.97,
+  "end": 943.613,
+  "speaker": "Unknown",
+  "en": "For us, detection and enforcement stay deterministic and mechanical.",
+  "zh": "对我们来说,检测和执行保持确定性和机械性。"
+ },
+ {
+  "seg": 157,
+  "start": 944.534,
+  "end": 949.618,
+  "speaker": "Unknown",
+  "en": "If a rule matches, the gate locks, the session ends, and there is no model anywhere on that path.",
+  "zh": "如果命中一条规则,闸门锁上,会话结束,这条路径上没有任何模型参与。"
+ },
+ {
+  "seg": 158,
+  "start": 950.677,
+  "end": 954.36,
+  "speaker": "Unknown",
+  "en": "The block happens before we even ask the LLM's opinion.",
+  "zh": "拦截发生在我们询问 LLM 意见之前。"
+ },
+ {
+  "seg": 159,
+  "start": 955.341,
+  "end": 959.025,
+  "speaker": "Unknown",
+  "en": "The LLM only gets to weigh in afterwards if we have not blocked something.",
+  "zh": "只有在我们没有拦截什么的情况下,LLM 才会在事后参与进来。"
+ },
+ {
+  "seg": 160,
+  "start": 959.205,
+  "end": 960.926,
+  "speaker": "Unknown",
+  "en": "It's designed to remove noise.",
+  "zh": "它的设计目的是消除噪音。"
+ },
+ {
+  "seg": 161,
+  "start": 961.567,
+  "end": 963.909,
+  "speaker": "Unknown",
+  "en": "It is not designed to let things through.",
+  "zh": "它不是用来放行东西的。"
+ },
+ {
+  "seg": 162,
+  "start": 964.83,
+  "end": 973.358,
+  "speaker": "Unknown",
+  "en": "And if it fails closed, so if the model is having a bad day, all wizard runs are killed, sorry, but we're just protecting you.",
+  "zh": "而且它以失败关闭方式运行,也就是说如果模型状态不好,所有 wizard 运行都会被终止,抱歉,但我们只是在保护你。"
+ },
+ {
+  "seg": 163,
+  "start": 975.415,
+  "end": 987.535,
+  "speaker": "Unknown",
+  "en": "Enforcement is the part that you bet the house on, so it has to be deterministic, but judgment is the part that adds nuance, so that's really the only place that you can put anything probabilistic in there.",
+  "zh": "执行是你押上身家性命的部分,所以它必须是确定性的;而判断是增加细微差别的部分,所以那才是你唯一能放进概率性东西的地方。"
+ },
+ {
+  "seg": 164,
+  "start": 990.98,
+  "end": 994.561,
+  "speaker": "Unknown",
+  "en": "So how do we ship real rules for agents?",
+  "zh": "那么我们如何为智能体交付真正的规则?"
+ },
+ {
+  "seg": 165,
+  "start": 995.442,
+  "end": 998.743,
+  "speaker": "Unknown",
+  "en": "This is the anatomy of one of our Warlock rules.",
+  "zh": "这是我们一条 Warlock 规则的解剖结构。"
+ },
+ {
+  "seg": 166,
+  "start": 999.243,
+  "end": 1001.304,
+  "speaker": "Unknown",
+  "en": "And every Warlock rule has four parts.",
+  "zh": "每条 Warlock 规则有四个部分。"
+ },
+ {
+  "seg": 167,
+  "start": 1002.064,
+  "end": 1003.405,
+  "speaker": "Unknown",
+  "en": "Part one is the metadata.",
+  "zh": "第一部分是元数据。"
+ },
+ {
+  "seg": 168,
+  "start": 1003.785,
+  "end": 1010.808,
+  "speaker": "Unknown",
+  "en": "It's plain English description, severity, category, action, direction.",
+  "zh": "它是纯英文描述、严重性、类别、动作、方向。"
+ },
+ {
+  "seg": 169,
+  "start": 1010.888,
+  "end": 1012.508,
+  "speaker": "Unknown",
+  "en": "Is this flowing into the agent?",
+  "zh": "这是流入智能体的内容吗?"
+ },
+ {
+  "seg": 170,
+  "start": 1012.588,
+  "end": 1014.029,
+  "speaker": "Unknown",
+  "en": "Is this something the agent is writing?",
+  "zh": "这是智能体正在写出的东西吗?"
+ },
+ {
+  "seg": 171,
+  "start": 1017.761,
+  "end": 1020.042,
+  "speaker": "Unknown",
+  "en": "Then we have the strings.",
+  "zh": "然后是字符串部分。"
+ },
+ {
+  "seg": 172,
+  "start": 1020.222,
+  "end": 1022.644,
+  "speaker": "Unknown",
+  "en": "So these are the actual patterns that you're looking for.",
+  "zh": "这些就是你要找的实际模式。"
+ },
+ {
+  "seg": 173,
+  "start": 1023.804,
+  "end": 1026.145,
+  "speaker": "Unknown",
+  "en": "And part three is the condition.",
+  "zh": "第三部分是条件。"
+ },
+ {
+  "seg": 174,
+  "start": 1026.225,
+  "end": 1029.327,
+  "speaker": "Unknown",
+  "en": "So this is where the rule is actually allowed to fire.",
+  "zh": "这里定义规则实际允许触发的时机。"
+ },
+ {
+  "seg": 175,
+  "start": 1031.228,
+  "end": 1034.87,
+  "speaker": "Unknown",
+  "en": "I'll walk through this example for you, and we can pretend like we're writing it in our head.",
+  "zh": "我会带你们走一遍这个例子,我们可以假装在脑子里写这条规则。"
+ },
+ {
+  "seg": 176,
+  "start": 1035.909,
+  "end": 1040.192,
+  "speaker": "Unknown",
+  "en": "Prompt injection being like the classic ignore all previous instructions.",
+  "zh": "提示词注入,就像经典的「忽略所有之前的指令」。"
+ },
+ {
+  "seg": 177,
+  "start": 1040.993,
+  "end": 1051.161,
+  "speaker": "Unknown",
+  "en": "Your first instinct here is probably to block the word ignore, but agents read code all day and ignore can show up in code comments or examples all the time.",
+  "zh": "你的第一直觉可能是拦截「ignore」这个词,但智能体整天都在读代码,而 ignore 可能随时出现在代码注释或示例里。"
+ },
+ {
+  "seg": 178,
+  "start": 1052.101,
+  "end": 1053.963,
+  "speaker": "Unknown",
+  "en": "So you don't want to match the verb alone.",
+  "zh": "所以你不想单独匹配这个动词。"
+ },
+ {
+  "seg": 179,
+  "start": 1054.223,
+  "end": 1057.686,
+  "speaker": "Unknown",
+  "en": "You match the verb plus an instruction flavored noun.",
+  "zh": "你要匹配这个动词加上一个带指令意味的名词。"
+ },
+ {
+  "seg": 180,
+  "start": 1059.166,
+  "end": 1062.907,
+  "speaker": "Unknown",
+  "en": "In the condition, you say fire if any of those patterns hit.",
+  "zh": "在条件里,你说只要这些模式中任何一个命中就触发。"
+ },
+ {
+  "seg": 181,
+  "start": 1063.287,
+  "end": 1076.009,
+  "speaker": "Unknown",
+  "en": "And in the metadata, you determine is this critical, what the category is, what the action is, in this case block, and the direction, in this case being input flowing into the agent.",
+  "zh": "而在元数据里,你确定这是不是关键级别、类别是什么、动作是什么——这里是拦截,以及方向——这里是流入智能体的输入。"
+ },
+ {
+  "seg": 182,
+  "start": 1077.529,
+  "end": 1082.39,
+  "speaker": "Unknown",
+  "en": "But to write good rules that reduce noise, you have to ship tests with them.",
+  "zh": "但要写出能减少噪音的好规则,你必须随规则一起交付测试。"
+ },
+ {
+  "seg": 183,
+  "start": 1082.75,
+  "end": 1087.971,
+  "speaker": "Unknown",
+  "en": "So you have to write tests that say these are patterns that match, these are ones that should not.",
+  "zh": "所以你必须写测试来说明:这些是应该匹配的模式,这些是不应该匹配的。"
+ },
+ {
+  "seg": 184,
+  "start": 1088.984,
+  "end": 1093.026,
+  "speaker": "Unknown",
+  "en": "And that negative test is the first line of defense against false positives.",
+  "zh": "而那些负面测试是防御误报的第一道防线。"
+ },
+ {
+  "seg": 185,
+  "start": 1094.107,
+  "end": 1103.972,
+  "speaker": "Unknown",
+  "en": "But you also want to make sure when you're deciding the severity of that rule that you track real-world impact, not how scary it looks.",
+  "zh": "但在决定这条规则的严重性时,你还要确保追踪的是真实世界的影响,而不是它看起来有多吓人。"
+ },
+ {
+  "seg": 186,
+  "start": 1105.373,
+  "end": 1111.196,
+  "speaker": "Unknown",
+  "en": "RM-RF is scary, but it's also how we all delete node modules like 40 times a day.",
+  "zh": "RM-RF 很吓人,但它也是我们所有人一天大概删除 40 次 node modules 的方式。"
+ },
+ {
+  "seg": 187,
+  "start": 1112.237,
+  "end": 1114.498,
+  "speaker": "Unknown",
+  "en": "You decide the real-world impact",
+  "zh": "你要为"
+ },
+ {
+  "seg": 188,
+  "start": 1116.068,
+  "end": 1126.479,
+  "speaker": "Unknown",
+  "en": "for the agent that you're building because a security tool that crashes every time it tries to clean a build folder is a tool that gets turned off and one that catches absolutely nothing.",
+  "zh": "你正在构建的那个智能体判断真实世界的影响,因为一个每次试图清理构建文件夹就崩溃的安全工具,是一个会被关掉的、什么也抓不到的工具。"
+ },
+ {
+  "seg": 189,
+  "start": 1129.001,
+  "end": 1131.584,
+  "speaker": "Unknown",
+  "en": "So I'm proud to say this is our security posture now.",
+  "zh": "所以我很自豪地说,这就是我们现在的安全态势。"
+ },
+ {
+  "seg": 190,
+  "start": 1131.864,
+  "end": 1135.048,
+  "speaker": "Unknown",
+  "en": "I can finally come up here and say we have true defense in depth.",
+  "zh": "我终于可以站在这里说,我们做到了真正的纵深防御。"
+ },
+ {
+  "seg": 191,
+  "start": 1136.99,
+  "end": 1137.911,
+  "speaker": "Unknown",
+  "en": "All my learnings have",
+  "zh": "我所有的经验总结"
+ },
+ {
+  "seg": 192,
+  "start": 1139.173,
+  "end": 1140.234,
+  "speaker": "Unknown",
+  "en": "Assembled into this.",
+  "zh": "汇聚成了这个。"
+ },
+ {
+  "seg": 193,
+  "start": 1141.214,
+  "end": 1145.077,
+  "speaker": "Unknown",
+  "en": "It's still layered, but every layer is doing a job that it's good at now.",
+  "zh": "它仍然是分层的,但现在每一层都在做它擅长的工作。"
+ },
+ {
+  "seg": 194,
+  "start": 1145.397,
+  "end": 1147.859,
+  "speaker": "Unknown",
+  "en": "We still have prompts, but we only use them for steering.",
+  "zh": "我们仍然有提示词,但我们只用它们来做引导。"
+ },
+ {
+  "seg": 195,
+  "start": 1148.559,
+  "end": 1150,
+  "speaker": "Unknown",
+  "en": "Everything runs in a sandbox.",
+  "zh": "一切都在沙箱中运行。"
+ },
+ {
+  "seg": 196,
+  "start": 1150.601,
+  "end": 1151.942,
+  "speaker": "Unknown",
+  "en": "We deny by default.",
+  "zh": "我们默认拒绝。"
+ },
+ {
+  "seg": 197,
+  "start": 1152.602,
+  "end": 1155.044,
+  "speaker": "Unknown",
+  "en": "We have a vault so secrets never hit the model.",
+  "zh": "我们有一个保险库,让机密永远不会接触模型。"
+ },
+ {
+  "seg": 198,
+  "start": 1155.644,
+  "end": 1161.108,
+  "speaker": "Unknown",
+  "en": "We have the warlock to scan content coming in and to scan output being written by the agent.",
+  "zh": "我们有 warlock 来扫描进来的内容,并扫描智能体正在写出的输出。"
+ },
+ {
+  "seg": 199,
+  "start": 1161.869,
+  "end": 1168.133,
+  "speaker": "Unknown",
+  "en": "We also have triage to reduce the noise, and we have telemetry embedded in the entire process so that we see everything.",
+  "zh": "我们还有分诊来减少噪音,而且我们在整个过程中嵌入了遥测,这样我们能看到一切。"
+ },
+ {
+  "seg": 200,
+  "start": 1169.683,
+  "end": 1171.884,
+  "speaker": "Unknown",
+  "en": "None of these layers stands on its own.",
+  "zh": "这些层没有一层是能独立成立的。"
+ },
+ {
+  "seg": 201,
+  "start": 1172.124,
+  "end": 1174.205,
+  "speaker": "Unknown",
+  "en": "Not a single thing here is going to save you.",
+  "zh": "这里没有任何一样东西能单独拯救你。"
+ },
+ {
+  "seg": 202,
+  "start": 1174.685,
+  "end": 1181.087,
+  "speaker": "Unknown",
+  "en": "But it's just boring, honest layers, each of them doing one job that it's good at.",
+  "zh": "但它们只是乏味而可靠的层，每一层都只做一件它擅长的工作。"
+ },
+ {
+  "seg": 203,
+  "start": 1183.548,
+  "end": 1187.629,
+  "speaker": "Unknown",
+  "en": "So if you're building an agent with hands, this is the whole talk in three lines.",
+  "zh": "所以，如果你要构建一个有手的智能体，这就是整场演讲的三行总结。"
+ },
+ {
+  "seg": 204,
+  "start": 1188.29,
+  "end": 1192.451,
+  "speaker": "Unknown",
+  "en": "One, if it isn't enforced deterministically, it is not enforced.",
+  "zh": "第一，凡是没有被确定性强制执行的，就等于没有强制执行。"
+ },
+ {
+  "seg": 205,
+  "start": 1193.091,
+  "end": 1194.972,
+  "speaker": "Unknown",
+  "en": "Prompts are not security rules.",
+  "zh": "提示词不是安全规则。"
+ },
+ {
+  "seg": 206,
+  "start": 1195.592,
+  "end": 1196.873,
+  "speaker": "Unknown",
+  "en": "Don't act like they are.",
+  "zh": "不要表现得好像它们是。"
+ },
+ {
+  "seg": 207,
+  "start": 1198.738,
+  "end": 1202.98,
+  "speaker": "Unknown",
+  "en": "Two, the dangerous input isn't just what your user types.",
+  "zh": "第二，危险的输入不只是你的用户输入的内容。"
+ },
+ {
+  "seg": 208,
+  "start": 1203.3,
+  "end": 1205.481,
+  "speaker": "Unknown",
+  "en": "It isn't just the commands that you allow it to run.",
+  "zh": "也不只是你允许它运行的那些命令。"
+ },
+ {
+  "seg": 209,
+  "start": 1205.821,
+  "end": 1209.683,
+  "speaker": "Unknown",
+  "en": "It's everything flowing into the model, including the content that you write yourself.",
+  "zh": "而是所有流入模型的东西，包括你自己写的内容。"
+ },
+ {
+  "seg": 210,
+  "start": 1210.283,
+  "end": 1215.345,
+  "speaker": "Unknown",
+  "en": "So scan your own supply chain at the source and when the agent invokes it.",
+  "zh": "所以要在源头扫描你自己的供应链，也要在智能体调用它时扫描。"
+ },
+ {
+  "seg": 211,
+  "start": 1216.626,
+  "end": 1219.727,
+  "speaker": "Unknown",
+  "en": "Three, attacks compose, code review doesn't.",
+  "zh": "第三，攻击会组合，代码审查不会。"
+ },
+ {
+  "seg": 212,
+  "start": 1220.248,
+  "end": 1225.37,
+  "speaker": "Unknown",
+  "en": "Most of our gaps during our audit were two innocent things, shaking hands and opening a door.",
+  "zh": "我们审计期间发现的大多数缺口，都是两个无害的东西握了握手，然后打开了一扇门。"
+ },
+ {
+  "seg": 213,
+  "start": 1227.083,
+  "end": 1231.805,
+  "speaker": "Unknown",
+  "en": "The Wizard, the Warlock, and the context mill are all open source.",
+  "zh": "The Wizard、the Warlock 和 the context mill 都是开源的。"
+ },
+ {
+  "seg": 214,
+  "start": 1231.825,
+  "end": 1233.285,
+  "speaker": "Unknown",
+  "en": "So come find me downstairs.",
+  "zh": "所以来楼下找我。"
+ },
+ {
+  "seg": 215,
+  "start": 1233.345,
+  "end": 1235.066,
+  "speaker": "Unknown",
+  "en": "I'm in the expo hall at our booth.",
+  "zh": "我在展厅我们的展位。"
+ },
+ {
+  "seg": 216,
+  "start": 1235.466,
+  "end": 1238.167,
+  "speaker": "Unknown",
+  "en": "And I'll show you around, show you what we built.",
+  "zh": "我会带你转一转，给你看看我们构建的东西。"
+ },
+ {
+  "seg": 217,
+  "start": 1238.487,
+  "end": 1241.868,
+  "speaker": "Unknown",
+  "en": "And I want to hear how you guys are securing your agents.",
+  "zh": "我也想听听你们是怎么保护你们的智能体安全的。"
+ },
+ {
+  "seg": 218,
+  "start": 1242.488,
+  "end": 1242.828,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Marc Brooker]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]]
+[[Marc Brooker]] [[Ben Celebicic]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Andrew Qu]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":9,"Guy for Germany":1,"Datadog":7,"智能体":248,"评估":2,"上下文":15,"Cursor":59,"开源权重模型":1,"代码审查":10,"Pi":2}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":9,"Guy for Germany":1,"Datadog":7,"智能体":251,"评估":2,"上下文":15,"Cursor":59,"开源权重模型":1,"代码审查":10,"Pi":2}</script>
 
 <script>
 (function(){

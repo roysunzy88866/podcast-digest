@@ -1,0 +1,546 @@
+{
+  "episode_id": "2026-09-16-productpodcast-hinge-cpto-on-building-an-app-designed-t",
+  "podcast": "The Product Podcast",
+  "date": "2026-09-16",
+  "tags": [
+    "产品方法",
+    "AI 编程",
+    "商业模式",
+    "信任与安全",
+    "在线交友"
+  ],
+  "categories": [
+    "产品方法",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "ben-celebicic",
+      "type": "person",
+      "role": "host",
+      "name": "Ben Celebicic",
+      "file": "Ben Celebicic",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            50,
+            98
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Ben Celebicic, Chief Product and Technology Officer at Hinge. He's been there 11 years, since the 2015 relaunch, and he got the product title added to the tech one. So now he runs a team of about 300 and negotiates the CPO-versus-CTO tension inside his own head. Hinge is on track for $1 billion in revenue next year, and their North Star metric is getting you to leave. Here are the things we'll cover: the app designed to be deleted, and why great dates is the metric. They only charge for what they cannot give away free. A third of the whole company is trust and safety. His conservative take on vibe coding and where he draws the line. And the perfect-query problem, and why he thinks it's two years out. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "hinge",
+      "type": "company",
+      "role": "company",
+      "name": "Hinge",
+      "file": "Hinge",
+      "primary": true,
+      "how_described": "本集称它是一款「为被删除而设计」的交友应用，北极星指标是「优质约会」——只发布能提高两人离开应用、线下见面几率的功能，冲击 2027 年 10 亿美元收入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            26,
+            32
+          ],
+          "quote": "Hinge is on the mission to achieve $1 billion in revenue in 2027, next year.",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 4,
+          "t": [
+            32,
+            42
+          ],
+          "quote": "Chief Product and Technology Officer at Hinge. You're making me think about the dark side of AI now: people creating fake images, trying to look better, people who fake conversations to try to get more dates.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 5,
+          "t": [
+            42,
+            50
+          ],
+          "quote": "Trust and safety lives under me, and it's a third of the entire Hinge organization. All of that has been done through AI for ages. Introduction",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 6,
+          "t": [
+            50,
+            98
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Ben Celebicic, Chief Product and Technology Officer at Hinge. He's been there 11 years, since the 2015 relaunch, and he got the product title added to the tech one. So now he runs a team of about 300 and negotiates the CPO-versus-CTO tension inside his own head. Hinge is on track for $1 billion in revenue next year, and their North Star metric is getting you to leave. Here are the things we'll cover: the app designed to be deleted, and why great dates is the metric. They only charge for what they cannot give away free. A third of the whole company is trust and safety. His conservative take on vibe coding and where he draws the line. And the perfect-query problem, and why he thinks it's two years out. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 9,
+          "t": [
+            102,
+            117
+          ],
+          "quote": "Ben, you've been at Hinge for almost 11 years, you're a real OG, right? And most recently you got promoted from Chief Technology Officer to Chief Product and Technology Officer. So I'm very curious about that transition. That seems to be a trend for other companies as well.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 10,
+          "t": [
+            117,
+            249
+          ],
+          "quote": "Yeah, 100%. You're right, I've been with Hinge for 11 years now, pretty much since the beginning, when we rebooted Hinge in 2015, and I led our technology work from the get-go. But I was in the room with the executive team when any product decisions, or any marketing decisions for that matter, or any company decisions, were made. So I was very, very close to product. When our old Chief Product Officer left about two and a half years ago, it was actually an idea from our Chief Operating Officer at the time: \"Why don't we let Ben do this?\" It wasn't my idea at all. And Justin, who was our founder and CEO at the time, said, \"Look, you've been with me for all these years, you've been in these rooms. Let's try it and see how it goes.\" And honestly, we never looked back. I'll be honest, it was really tough in the beginning, especially for a company that's a product company like Hinge, to take additional responsibilities beyond just building technology. But there are some bright spots. There's always a tension between CPO and CTO around resourcing, around what to concentrate on, what to build, where to spend time. The CPO's tendency is to concentrate on product and innovation and build as quickly as possible, while the CTO always wants to make sure we maintain high quality, that we pay down debt on the tech side, that we build infrastructure that enables us to build cool things in the future. So there's always this tension between the two, and I think it's a very healthy tension to have. I've had to have that tension with myself since then. Luckily for me, I have a really strong team under me, and we still debate a lot of these decisions when we prioritize work. So it was really tough in the beginning, it's a lot of responsibility to handle both, but with time and the team-building I've done, I'm now at a place where I feel this was the right decision.",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 12,
+          "t": [
+            252,
+            264
+          ],
+          "quote": "So Hinge overall is about 360 or so. My team is very close to 300. Most of those are on the tech side, and the rest is product, design, and research.",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 14,
+          "t": [
+            280,
+            397
+          ],
+          "quote": "Yeah, 100%. For me, org structure heavily depends on the problem you're trying to solve and the strategy you have in place. Org structure is always a reflection of those things, and it doesn't really work in the opposite direction. What you want is a very clear vision of what you're trying to achieve, a clear mission for the company, and a strategy that helps you move toward that vision and mission, and then you put a team in place to help you achieve it. So every year, as we build our strategy for the following year, we really look at the org, how it's organized, and what makes sense, and adjust from there. From this tension perspective, having leaders on engineering, AI, and data, and also leaders on product, design, and research in the room when we have these discussions, is tremendously helpful. When there's no debate around resourcing, around prioritization, whether we spend time on more product work or more tech work, that lights a bulb in my head that something is wrong. So I really prompt the team to think deeper about it. You have to have a team underneath you that has perspective and pushes you, and makes sure nothing falls through the cracks, especially now in the age of AI, where we're all still trying to figure out what technology is going to enable in the long run. Having infrastructure built and ready, once we've decided what makes sense to build, is tremendously important, so having people pushing to spend time building infrastructure and preparing for the future is very necessary. On the other hand, we also have to do good by our users and build features and improvements that get them to achieve success on our platform. So, that tension. Why Hinge Optimizes for You Leaving",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 16,
+          "t": [
+            423,
+            503
+          ],
+          "quote": "Yeah, that's a very interesting question. In the very beginning, the industry tried to solve for access. It was born to get you in contact and connect you with people you otherwise wouldn't meet in real life. And that problem was solved. But the problem created by solving that problem is the problem of access: all of a sudden you have access to too many people. You have this paradox of choice, and it's really hard to make progress when you always think there's something else out there you could look through. So Hinge purposely decided to concentrate on one thing, which is what actually happens when people leave Hinge. We measure our success, and our North Star is great dates. We don't really try to keep you engaged with the platform. We do everything we can to push people off the platform and get them to spend time in real life. When you optimize for something like that, that's where innovation is born, because it makes you think hard. It's counterintuitive that we're trying to get rid of people. Hinge is known as the app that's designed to be deleted. We really want people to come to us, find success, and leave. And when you optimize like that, which hasn't been done before, you really have to think outside the box and innovate quite a bit. The Free Experience Is Sacred",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 18,
+          "t": [
+            523,
+            624
+          ],
+          "quote": "Yeah, it's a great question. Most people on Hinge don't actually pay. I think probably less than 15% of users on Hinge pay for something. Our core principle from a monetization perspective is that the free experience is sacred. You want the free experience built so that everyone can achieve success, and then you charge for things that either break constraints or help you achieve success a little bit faster. The second principle we have is that we only charge for things we cannot give away for free, because if we gave them away for free, they would either mess up the ecosystem, and I'll explain what that means, or they would mean nothing, in cases where scarcity is actually a value you provide. So if you think about things like Boost on Hinge, or Rose, which helps you stand out in the crowd, those things would mean nothing if we gave them away for free to everyone. On the other hand, for dating apps to work well, think about it like a great party. You're at this great party, everyone is excited to be there, everyone wants to speak with other people, and the more people you have in the room, the better the party is. So providing access to this party comes down to not charging for it. And then if you want to break some constraints, if you want two people to go and talk with each other separately, or you want a leg up in how quickly you achieve success, those constraints can be broken through a subscription, or maybe by paying for some other things you can stand out with. So our monetization model is very simple: we only charge for things we otherwise cannot give away for free, and our free product is sacred. We want this great party to continue going. Personalizing for Every Kind of Dater",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 20,
+          "t": [
+            642,
+            725
+          ],
+          "quote": "Yeah, you can look at it from that perspective. You can also look at it from a perspective of, \"I'm brand new to dating and I need some help figuring things out,\" or \"I'm fresh out of a divorce and maybe I need a slightly different type of dating experience.\" The way Hinge operates is we always look at the dating culture. We have a team we call culture and consumer insights, who are constantly out there talking with daters, understanding their problems, understanding where the needs are, whether those are brand-new daters coming onto the scene now, or people who've been using dating apps for a while and not finding success, and deeply understanding what problems we need to solve for them. Once we align on what problems we need to solve, we form hypotheses that we use to provide solutions. The key thing to mention here is that, as I said, Hinge is really measured through getting people off the app. So if anything we build does not increase the chance of two people leaving Hinge and meeting in real life, we don't ship it. Everything goes through that lens. We prioritize all the work and all the problems we hear from people through the lens of, \"Is this increasing the chance of the vast majority of people meeting in real life or not?\" And that's also what helps us keep the product very simple and very clean.",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 22,
+          "t": [
+            747,
+            811
+          ],
+          "quote": "That's a great question. That is what AI is enabling us to do recently, that wasn't really possible before. If you look two or three years ago, it wasn't really possible to provide a personalized experience to everyone. You might have been able to provide an experience that fit one or two different needs, but an experience truly personalized for individual needs, and those can be many, was really impossible to do without AI. So if you think about what AI can do, it can really quickly recognize, based on behavioral patterns and how people behave on the product, what the next best step for them is, and help them achieve that. Think about how, as you create your profile, you might be really quick about selecting your photos or choosing prompts to answer about yourself, and you might be really good at it. Or, if you're new to dating, Hinge might push you to think a little bit deeper, or go a little deeper as you answer things about yourself. And we recognize that through how you answer questions on the profile. As I said, that was really not possible before generative AI. The Dark Side of AI, and Trust and Safety",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 24,
+          "t": [
+            831,
+            900
+          ],
+          "quote": "Yeah, that's a really great question. First of all, trust and safety lives under me, and it's a third of the entire Hinge organization. We deeply care about trust and safety of users, and we spend a lot of effort and resources finding fake users or bad actors on the platform. All of that has been done through AI for ages. It's not generative AI. The recent developments in AI have been game-changing in some spaces, but what's been game-changing here is AI generally, and simple, traditional machine-learning models that we've used forever. Now, if you think about people coming onto our platform, and the purpose of Hinge being to get them off the platform, you really want to make sure you're as authentic as you can be as a user, so that when you meet the other person in real life, you show up as they expect you to. You're not going to achieve success if you show up as something completely different. So what we're really seeing is people presenting themselves in their true and authentic light. Otherwise, success is almost impossible to achieve. The AI Narrative in the Public Markets",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 26,
+          "t": [
+            924,
+            991
+          ],
+          "quote": "Yeah, it's probably hard for me to speak generally about Match Group and what they're doing. I can speak specifically about Hinge. Hinge is on the mission to achieve $1 billion in revenue in 2027, next year, and we're well on the way to doing so. We've more or less grown double digits year over year over the last ten years or so. I think it's very much tied to our obsession with really talking with users, understanding their core needs and core problems, looking at the next generation of daters all the time, and building features and products that solve their core needs. That's the very simple formula for success: if you're obsessive about constantly thinking about your users and solving their problems, your business is going to have this flywheel of getting better and better. That's from a Hinge perspective. I can't really speak more broadly for Match Group, because it includes Tinder and many other apps under the same umbrella.",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 27,
+          "t": [
+            991,
+            1016
+          ],
+          "quote": "It's really fascinating. I was looking at this: Match Group has around 45 global dating and social discovery brands under the umbrella. It seems like Hinge is number two in terms of market share; number one is Tinder. So I'm curious, from your perspective, how do you go about positioning your own product to make sure it's a clear value prop that isn't competing against other companies, even within your same group?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 28,
+          "t": [
+            1016,
+            1083
+          ],
+          "quote": "Yeah, if you look at most of those 45 dating products, some of them are very specialized. You have products specialized for maybe an older generation of users, or for people looking for Black love, like BLK, or other specialized offerings. So there are multiple specialized products, and then among the big ones you have Tinder and Hinge. I would describe Hinge as a product that is more intentional. People coming to us are looking for really intentional connections, and getting off the app as quickly as possible. So our positioning is different from any of these other dating apps, and therefore we have our lane to play in. Other apps have their positioning. Of course, it's impossible to achieve perfectly clear swim lanes; everyone is going to play in each other's a little. But it's interesting to understand that this is a multi-use product category. Users don't necessarily use a single product; they're going to use Tinder and Hinge and maybe some others as well. And I think that works in our favor.",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 30,
+          "t": [
+            1112,
+            1132
+          ],
+          "quote": "Yeah, 100%. Most users use multiple apps, and it's similar in other cases. If you're streaming videos or movies, most people will use Netflix and maybe Hulu or some other products as well. So this is not special to the dating category, it's just the nature of how people use these digital products. How AI Is Actually Changing How Hinge Ships",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 34,
+          "t": [
+            1154,
+            1331
+          ],
+          "quote": "For real, for real. So when I think about AI, whether I'm the CPO or CTO, I talk with individuals in New York, and we're all really asking the same question: how is this actually helping us achieve success? Everyone is still questioning the value. What I can tell you at Hinge specifically is that the biggest value I see is the feedback loop: how quickly I can learn whether something is valuable to invest in or not. What does that actually mean on the ground? I can, without any engineering support, prototype an idea that's as close as possible to the final product. It really works with the APIs, it connects to our backend, and I can put it in the hands of users and really gain conviction that this is valuable to build and put in the product, or that this is not worth pursuing and leave it behind. So this feedback loop of how quickly I learn whether something is worth building is real, and I learn much, much quicker. That's one. The second thing is that product managers can now vibe-code a quick visualization of something they're trying to create. So instead of having a 20-page product spec describing what a feature is supposed to do, me as a product manager can say, \"Okay, please use our design system and build something I can actually put in front of people,\" and show them what I'm thinking about without them having to read the whole spec to understand the idea. That kind of thing is much, much easier. Doing research, user research, has also become a little bit easier. Through some AI tools out there, you can reach more people, and you can do more user research, do more interviews with users. And then the last piece: we're starting to slowly move toward what I'd describe as mobile engineering. Hinge is a native product, so you have iOS and Android built separately, natively. Some people on the ground are picking up these tools and already starting to say, \"Look, I'm building this feature on iOS. Why don't I just tell the tool to build it for me on Android?\" And all of a sudden, I've done the work of two people at once. So we're already seeing those kinds of things happening on the ground, in multiple pockets. We see a lot of improvements in how these AI tools are making our lives easier. But if I really look holistically, it does not translate to what the narrative in the media out there probably is. We are moving faster, we're learning faster, we have more tools at our disposal, but I believe we still haven't achieved the full potential. So there are probably a couple of years left before we really start to see the true benefits of how quickly we move, how much better we build, how high-quality the products we build are, and things like that. Where Ben Draws the Line on Vibe Coding",
+          "speaker": "Ben Celebicic"
+        }
+      ]
+    },
+    {
+      "id": "match-group",
+      "type": "company",
+      "role": "company",
+      "name": "Match Group",
+      "file": "Match Group",
+      "primary": true,
+      "how_described": "本集说它是 Hinge 的控股公司，伞下约 45 个交友品牌，年初至今市值涨约 25%，跑赢多数下跌的 SaaS 公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            11,
+            26
+          ],
+          "quote": "It's kind of an anti-metric. You want people to stop using your product, because you want them to find success as soon as possible. I was looking at the market cap of your holding company, Match Group, up around 25% year to date. You look at SaaS companies, and most of them are down.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 25,
+          "t": [
+            900,
+            924
+          ],
+          "quote": "Totally. Speaking of AI, looking at the market cap of your holding company, Match Group, it's up around 25% year to date. If you look at SaaS companies, most of them are down. So there's clearly an AI narrative that's working for you. So I'm curious to know, what do you think it is that's helping you be so successful in the public markets?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 26,
+          "t": [
+            924,
+            991
+          ],
+          "quote": "Yeah, it's probably hard for me to speak generally about Match Group and what they're doing. I can speak specifically about Hinge. Hinge is on the mission to achieve $1 billion in revenue in 2027, next year, and we're well on the way to doing so. We've more or less grown double digits year over year over the last ten years or so. I think it's very much tied to our obsession with really talking with users, understanding their core needs and core problems, looking at the next generation of daters all the time, and building features and products that solve their core needs. That's the very simple formula for success: if you're obsessive about constantly thinking about your users and solving their problems, your business is going to have this flywheel of getting better and better. That's from a Hinge perspective. I can't really speak more broadly for Match Group, because it includes Tinder and many other apps under the same umbrella.",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 27,
+          "t": [
+            991,
+            1016
+          ],
+          "quote": "It's really fascinating. I was looking at this: Match Group has around 45 global dating and social discovery brands under the umbrella. It seems like Hinge is number two in terms of market share; number one is Tinder. So I'm curious, from your perspective, how do you go about positioning your own product to make sure it's a clear value prop that isn't competing against other companies, even within your same group?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "north-star-metric",
+      "type": "concept",
+      "role": "concept",
+      "name": "北极星指标 (North Star metric)",
+      "file": "北极星指标",
+      "primary": true,
+      "how_described": "本集说 Hinge 的北极星是「优质约会」这个反向指标——希望人们尽快成功、离开产品，这一条同时保证了产品简洁",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            50,
+            98
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Ben Celebicic, Chief Product and Technology Officer at Hinge. He's been there 11 years, since the 2015 relaunch, and he got the product title added to the tech one. So now he runs a team of about 300 and negotiates the CPO-versus-CTO tension inside his own head. Hinge is on track for $1 billion in revenue next year, and their North Star metric is getting you to leave. Here are the things we'll cover: the app designed to be deleted, and why great dates is the metric. They only charge for what they cannot give away free. A third of the whole company is trust and safety. His conservative take on vibe coding and where he draws the line. And the perfect-query problem, and why he thinks it's two years out. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "personalized-experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "个性化 (personalized experience)",
+      "file": "个性化",
+      "primary": true,
+      "how_described": "本集说真正针对个人需求的一对一体验两三年前不可能做到，现在 AI 能根据行为模式识别每个用户的「下一步最佳行动」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            747,
+            811
+          ],
+          "quote": "That's a great question. That is what AI is enabling us to do recently, that wasn't really possible before. If you look two or three years ago, it wasn't really possible to provide a personalized experience to everyone. You might have been able to provide an experience that fit one or two different needs, but an experience truly personalized for individual needs, and those can be many, was really impossible to do without AI. So if you think about what AI can do, it can really quickly recognize, based on behavioral patterns and how people behave on the product, what the next best step for them is, and help them achieve that. Think about how, as you create your profile, you might be really quick about selecting your photos or choosing prompts to answer about yourself, and you might be really good at it. Or, if you're new to dating, Hinge might push you to think a little bit deeper, or go a little deeper as you answer things about yourself. And we recognize that through how you answer questions on the profile. As I said, that was really not possible before generative AI. The Dark Side of AI, and Trust and Safety",
+          "speaker": "Ben Celebicic"
+        }
+      ]
+    },
+    {
+      "id": "trust-and-safety",
+      "type": "concept",
+      "role": "concept",
+      "name": "信任与安全 (trust and safety)",
+      "file": "信任与安全",
+      "primary": true,
+      "how_described": "本集说它归 Ben 管、占整个 Hinge 组织的三分之一，长期靠简单的传统机器学习模型识别假用户和恶意行为者，而非生成式 AI",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            42,
+            50
+          ],
+          "quote": "Trust and safety lives under me, and it's a third of the entire Hinge organization. All of that has been done through AI for ages. Introduction",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 6,
+          "t": [
+            50,
+            98
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Ben Celebicic, Chief Product and Technology Officer at Hinge. He's been there 11 years, since the 2015 relaunch, and he got the product title added to the tech one. So now he runs a team of about 300 and negotiates the CPO-versus-CTO tension inside his own head. Hinge is on track for $1 billion in revenue next year, and their North Star metric is getting you to leave. Here are the things we'll cover: the app designed to be deleted, and why great dates is the metric. They only charge for what they cannot give away free. A third of the whole company is trust and safety. His conservative take on vibe coding and where he draws the line. And the perfect-query problem, and why he thinks it's two years out. Let's get into it.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 22,
+          "t": [
+            747,
+            811
+          ],
+          "quote": "That's a great question. That is what AI is enabling us to do recently, that wasn't really possible before. If you look two or three years ago, it wasn't really possible to provide a personalized experience to everyone. You might have been able to provide an experience that fit one or two different needs, but an experience truly personalized for individual needs, and those can be many, was really impossible to do without AI. So if you think about what AI can do, it can really quickly recognize, based on behavioral patterns and how people behave on the product, what the next best step for them is, and help them achieve that. Think about how, as you create your profile, you might be really quick about selecting your photos or choosing prompts to answer about yourself, and you might be really good at it. Or, if you're new to dating, Hinge might push you to think a little bit deeper, or go a little deeper as you answer things about yourself. And we recognize that through how you answer questions on the profile. As I said, that was really not possible before generative AI. The Dark Side of AI, and Trust and Safety",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 24,
+          "t": [
+            831,
+            900
+          ],
+          "quote": "Yeah, that's a really great question. First of all, trust and safety lives under me, and it's a third of the entire Hinge organization. We deeply care about trust and safety of users, and we spend a lot of effort and resources finding fake users or bad actors on the platform. All of that has been done through AI for ages. It's not generative AI. The recent developments in AI have been game-changing in some spaces, but what's been game-changing here is AI generally, and simple, traditional machine-learning models that we've used forever. Now, if you think about people coming onto our platform, and the purpose of Hinge being to get them off the platform, you really want to make sure you're as authentic as you can be as a user, so that when you meet the other person in real life, you show up as they expect you to. You're not going to achieve success if you show up as something completely different. So what we're really seeing is people presenting themselves in their true and authentic light. Otherwise, success is almost impossible to achieve. The AI Narrative in the Public Markets",
+          "speaker": "Ben Celebicic"
+        }
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器学习 (machine-learning)",
+      "file": "机器学习",
+      "primary": false,
+      "how_described": "本集说 Hinge 的信任与安全工作长期以来一直靠简单、传统的机器学习模型完成，不是生成式 AI",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            831,
+            900
+          ],
+          "quote": "Yeah, that's a really great question. First of all, trust and safety lives under me, and it's a third of the entire Hinge organization. We deeply care about trust and safety of users, and we spend a lot of effort and resources finding fake users or bad actors on the platform. All of that has been done through AI for ages. It's not generative AI. The recent developments in AI have been game-changing in some spaces, but what's been game-changing here is AI generally, and simple, traditional machine-learning models that we've used forever. Now, if you think about people coming onto our platform, and the purpose of Hinge being to get them off the platform, you really want to make sure you're as authentic as you can be as a user, so that when you meet the other person in real life, you show up as they expect you to. You're not going to achieve success if you show up as something completely different. So what we're really seeing is people presenting themselves in their true and authentic light. Otherwise, success is almost impossible to achieve. The AI Narrative in the Public Markets",
+          "speaker": "Ben Celebicic"
+        }
+      ]
+    },
+    {
+      "id": "feedback-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "反馈循环 (feedback loop)",
+      "file": "反馈循环",
+      "primary": true,
+      "how_described": "本集说这是 AI 在 Hinge 的最大价值：无需工程支持就能做出能调真 API、连后端的原型，快速学到某件事值不值得投入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            1154,
+            1331
+          ],
+          "quote": "For real, for real. So when I think about AI, whether I'm the CPO or CTO, I talk with individuals in New York, and we're all really asking the same question: how is this actually helping us achieve success? Everyone is still questioning the value. What I can tell you at Hinge specifically is that the biggest value I see is the feedback loop: how quickly I can learn whether something is valuable to invest in or not. What does that actually mean on the ground? I can, without any engineering support, prototype an idea that's as close as possible to the final product. It really works with the APIs, it connects to our backend, and I can put it in the hands of users and really gain conviction that this is valuable to build and put in the product, or that this is not worth pursuing and leave it behind. So this feedback loop of how quickly I learn whether something is worth building is real, and I learn much, much quicker. That's one. The second thing is that product managers can now vibe-code a quick visualization of something they're trying to create. So instead of having a 20-page product spec describing what a feature is supposed to do, me as a product manager can say, \"Okay, please use our design system and build something I can actually put in front of people,\" and show them what I'm thinking about without them having to read the whole spec to understand the idea. That kind of thing is much, much easier. Doing research, user research, has also become a little bit easier. Through some AI tools out there, you can reach more people, and you can do more user research, do more interviews with users. And then the last piece: we're starting to slowly move toward what I'd describe as mobile engineering. Hinge is a native product, so you have iOS and Android built separately, natively. Some people on the ground are picking up these tools and already starting to say, \"Look, I'm building this feature on iOS. Why don't I just tell the tool to build it for me on Android?\" And all of a sudden, I've done the work of two people at once. So we're already seeing those kinds of things happening on the ground, in multiple pockets. We see a lot of improvements in how these AI tools are making our lives easier. But if I really look holistically, it does not translate to what the narrative in the media out there probably is. We are moving faster, we're learning faster, we have more tools at our disposal, but I believe we still haven't achieved the full potential. So there are probably a couple of years left before we really start to see the true benefits of how quickly we move, how much better we build, how high-quality the products we build are, and things like that. Where Ben Draws the Line on Vibe Coding",
+          "speaker": "Ben Celebicic"
+        }
+      ]
+    },
+    {
+      "id": "vibe-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe code",
+      "file": "vibe code",
+      "primary": true,
+      "how_described": "本集说 PM 可以 vibe-code 出可视化原型代替 20 页产品规格文档，但 Ben 划线：构建环节仍归工程师，非工程师构建产品至少还要两年",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            1154,
+            1331
+          ],
+          "quote": "For real, for real. So when I think about AI, whether I'm the CPO or CTO, I talk with individuals in New York, and we're all really asking the same question: how is this actually helping us achieve success? Everyone is still questioning the value. What I can tell you at Hinge specifically is that the biggest value I see is the feedback loop: how quickly I can learn whether something is valuable to invest in or not. What does that actually mean on the ground? I can, without any engineering support, prototype an idea that's as close as possible to the final product. It really works with the APIs, it connects to our backend, and I can put it in the hands of users and really gain conviction that this is valuable to build and put in the product, or that this is not worth pursuing and leave it behind. So this feedback loop of how quickly I learn whether something is worth building is real, and I learn much, much quicker. That's one. The second thing is that product managers can now vibe-code a quick visualization of something they're trying to create. So instead of having a 20-page product spec describing what a feature is supposed to do, me as a product manager can say, \"Okay, please use our design system and build something I can actually put in front of people,\" and show them what I'm thinking about without them having to read the whole spec to understand the idea. That kind of thing is much, much easier. Doing research, user research, has also become a little bit easier. Through some AI tools out there, you can reach more people, and you can do more user research, do more interviews with users. And then the last piece: we're starting to slowly move toward what I'd describe as mobile engineering. Hinge is a native product, so you have iOS and Android built separately, natively. Some people on the ground are picking up these tools and already starting to say, \"Look, I'm building this feature on iOS. Why don't I just tell the tool to build it for me on Android?\" And all of a sudden, I've done the work of two people at once. So we're already seeing those kinds of things happening on the ground, in multiple pockets. We see a lot of improvements in how these AI tools are making our lives easier. But if I really look holistically, it does not translate to what the narrative in the media out there probably is. We are moving faster, we're learning faster, we have more tools at our disposal, but I believe we still haven't achieved the full potential. So there are probably a couple of years left before we really start to see the true benefits of how quickly we move, how much better we build, how high-quality the products we build are, and things like that. Where Ben Draws the Line on Vibe Coding",
+          "speaker": "Ben Celebicic"
+        }
+      ]
+    },
+    {
+      "id": "product-spec",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品规格文档 (product spec)",
+      "file": "产品规格文档",
+      "primary": true,
+      "how_described": "本集说「完美查询」始于一份无懈可击的产品规格文档，配上可重复、覆盖所有边界用例的设计系统，AI 工具才能产出完美输出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            1154,
+            1331
+          ],
+          "quote": "For real, for real. So when I think about AI, whether I'm the CPO or CTO, I talk with individuals in New York, and we're all really asking the same question: how is this actually helping us achieve success? Everyone is still questioning the value. What I can tell you at Hinge specifically is that the biggest value I see is the feedback loop: how quickly I can learn whether something is valuable to invest in or not. What does that actually mean on the ground? I can, without any engineering support, prototype an idea that's as close as possible to the final product. It really works with the APIs, it connects to our backend, and I can put it in the hands of users and really gain conviction that this is valuable to build and put in the product, or that this is not worth pursuing and leave it behind. So this feedback loop of how quickly I learn whether something is worth building is real, and I learn much, much quicker. That's one. The second thing is that product managers can now vibe-code a quick visualization of something they're trying to create. So instead of having a 20-page product spec describing what a feature is supposed to do, me as a product manager can say, \"Okay, please use our design system and build something I can actually put in front of people,\" and show them what I'm thinking about without them having to read the whole spec to understand the idea. That kind of thing is much, much easier. Doing research, user research, has also become a little bit easier. Through some AI tools out there, you can reach more people, and you can do more user research, do more interviews with users. And then the last piece: we're starting to slowly move toward what I'd describe as mobile engineering. Hinge is a native product, so you have iOS and Android built separately, natively. Some people on the ground are picking up these tools and already starting to say, \"Look, I'm building this feature on iOS. Why don't I just tell the tool to build it for me on Android?\" And all of a sudden, I've done the work of two people at once. So we're already seeing those kinds of things happening on the ground, in multiple pockets. We see a lot of improvements in how these AI tools are making our lives easier. But if I really look holistically, it does not translate to what the narrative in the media out there probably is. We are moving faster, we're learning faster, we have more tools at our disposal, but I believe we still haven't achieved the full potential. So there are probably a couple of years left before we really start to see the true benefits of how quickly we move, how much better we build, how high-quality the products we build are, and things like that. Where Ben Draws the Line on Vibe Coding",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 38,
+          "t": [
+            1447,
+            1556
+          ],
+          "quote": "So I can see a world in the future where, if I'm able to provide a perfect query input to, let's say, a Claude Code or Cursor or Codex or any of these tools, I'll probably get a perfect output. So if I work backwards from what it actually takes to provide that perfect query, it probably starts with having a really high-quality, bulletproof product spec, and a design and design system built in a way that's really repeatable. So as this query is generated, it can pull from the design system the elements necessary to build a feature from the product spec, and it will have all the cases, all the edge cases, covered. So I can see that future. We're not there yet, and that's what I meant before, probably two years at least away from having non-engineers build products for us, because I haven't personally been able to achieve this perfect query myself. I always have to go and adjust something, or change something, or tweak something on the output side. And I think you need engineering skills for that. So I'm hopeful we're going to get there. Some people I'm talking with, who are taking a less conservative, more aggressive approach, believe that even if you create some tech debt now, if you lower your quality right now in exchange for moving faster, these tools are going to get better and be able to fix all of those things for you. I tend not to trust that at this point. So I'm taking a slower, more conservative approach, and then if the tools do achieve that level of quality and perfection, I'm going to jump on the train. We're not there yet. Let's see what happens.",
+          "speaker": "Ben Celebicic"
+        }
+      ]
+    },
+    {
+      "id": "design-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计系统 (design system)",
+      "file": "设计系统",
+      "primary": true,
+      "how_described": "本集说它要以真正可重复的方式构建，让 AI 查询能从中提取构建功能所需的元素并覆盖所有边界用例；PM 也被要求用它构建可展示的原型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            1154,
+            1331
+          ],
+          "quote": "For real, for real. So when I think about AI, whether I'm the CPO or CTO, I talk with individuals in New York, and we're all really asking the same question: how is this actually helping us achieve success? Everyone is still questioning the value. What I can tell you at Hinge specifically is that the biggest value I see is the feedback loop: how quickly I can learn whether something is valuable to invest in or not. What does that actually mean on the ground? I can, without any engineering support, prototype an idea that's as close as possible to the final product. It really works with the APIs, it connects to our backend, and I can put it in the hands of users and really gain conviction that this is valuable to build and put in the product, or that this is not worth pursuing and leave it behind. So this feedback loop of how quickly I learn whether something is worth building is real, and I learn much, much quicker. That's one. The second thing is that product managers can now vibe-code a quick visualization of something they're trying to create. So instead of having a 20-page product spec describing what a feature is supposed to do, me as a product manager can say, \"Okay, please use our design system and build something I can actually put in front of people,\" and show them what I'm thinking about without them having to read the whole spec to understand the idea. That kind of thing is much, much easier. Doing research, user research, has also become a little bit easier. Through some AI tools out there, you can reach more people, and you can do more user research, do more interviews with users. And then the last piece: we're starting to slowly move toward what I'd describe as mobile engineering. Hinge is a native product, so you have iOS and Android built separately, natively. Some people on the ground are picking up these tools and already starting to say, \"Look, I'm building this feature on iOS. Why don't I just tell the tool to build it for me on Android?\" And all of a sudden, I've done the work of two people at once. So we're already seeing those kinds of things happening on the ground, in multiple pockets. We see a lot of improvements in how these AI tools are making our lives easier. But if I really look holistically, it does not translate to what the narrative in the media out there probably is. We are moving faster, we're learning faster, we have more tools at our disposal, but I believe we still haven't achieved the full potential. So there are probably a couple of years left before we really start to see the true benefits of how quickly we move, how much better we build, how high-quality the products we build are, and things like that. Where Ben Draws the Line on Vibe Coding",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 38,
+          "t": [
+            1447,
+            1556
+          ],
+          "quote": "So I can see a world in the future where, if I'm able to provide a perfect query input to, let's say, a Claude Code or Cursor or Codex or any of these tools, I'll probably get a perfect output. So if I work backwards from what it actually takes to provide that perfect query, it probably starts with having a really high-quality, bulletproof product spec, and a design and design system built in a way that's really repeatable. So as this query is generated, it can pull from the design system the elements necessary to build a feature from the product spec, and it will have all the cases, all the edge cases, covered. So I can see that future. We're not there yet, and that's what I meant before, probably two years at least away from having non-engineers build products for us, because I haven't personally been able to achieve this perfect query myself. I always have to go and adjust something, or change something, or tweak something on the output side. And I think you need engineering skills for that. So I'm hopeful we're going to get there. Some people I'm talking with, who are taking a less conservative, more aggressive approach, believe that even if you create some tech debt now, if you lower your quality right now in exchange for moving faster, these tools are going to get better and be able to fix all of those things for you. I tend not to trust that at this point. So I'm taking a slower, more conservative approach, and then if the tools do achieve that level of quality and perfection, I'm going to jump on the train. We're not there yet. Let's see what happens.",
+          "speaker": "Ben Celebicic"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集把它与 Cursor、Codex 并列为 AI 编程工具的代表，说若能提供完美查询输入就会得到完美输出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            0,
+            11
+          ],
+          "quote": "I can see a world in the future where, if I'm able to provide a perfect query input to, let's say, a Claude Code or Cursor or Codex or any of these tools, I'll probably get a perfect output.",
+          "speaker": "Ben Celebicic"
+        },
+        {
+          "seg": 38,
+          "t": [
+            1447,
+            1556
+          ],
+          "quote": "So I can see a world in the future where, if I'm able to provide a perfect query input to, let's say, a Claude Code or Cursor or Codex or any of these tools, I'll probably get a perfect output. So if I work backwards from what it actually takes to provide that perfect query, it probably starts with having a really high-quality, bulletproof product spec, and a design and design system built in a way that's really repeatable. So as this query is generated, it can pull from the design system the elements necessary to build a feature from the product spec, and it will have all the cases, all the edge cases, covered. So I can see that future. We're not there yet, and that's what I meant before, probably two years at least away from having non-engineers build products for us, because I haven't personally been able to achieve this perfect query myself. I always have to go and adjust something, or change something, or tweak something on the output side. And I think you need engineering skills for that. So I'm hopeful we're going to get there. Some people I'm talking with, who are taking a less conservative, more aggressive approach, believe that even if you create some tech debt now, if you lower your quality right now in exchange for moving faster, these tools are going to get better and be able to fix all of those things for you. I tend not to trust that at this point. So I'm taking a slower, more conservative approach, and then if the tools do achieve that level of quality and perfection, I'm going to jump on the train. We're not there yet. Let's see what happens.",
+          "speaker": "Ben Celebicic"
+        }
+      ]
+    },
+    {
+      "id": "tech-debt",
+      "type": "concept",
+      "role": "concept",
+      "name": "技术债务 (tech debt)",
+      "file": "技术债务",
+      "primary": false,
+      "how_described": "本集说激进派认为「现在欠技术债、以后工具会自己修好」，Ben 直言在这一点上倾向于不信任",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            1447,
+            1556
+          ],
+          "quote": "So I can see a world in the future where, if I'm able to provide a perfect query input to, let's say, a Claude Code or Cursor or Codex or any of these tools, I'll probably get a perfect output. So if I work backwards from what it actually takes to provide that perfect query, it probably starts with having a really high-quality, bulletproof product spec, and a design and design system built in a way that's really repeatable. So as this query is generated, it can pull from the design system the elements necessary to build a feature from the product spec, and it will have all the cases, all the edge cases, covered. So I can see that future. We're not there yet, and that's what I meant before, probably two years at least away from having non-engineers build products for us, because I haven't personally been able to achieve this perfect query myself. I always have to go and adjust something, or change something, or tweak something on the output side. And I think you need engineering skills for that. So I'm hopeful we're going to get there. Some people I'm talking with, who are taking a less conservative, more aggressive approach, believe that even if you create some tech debt now, if you lower your quality right now in exchange for moving faster, these tools are going to get better and be able to fix all of those things for you. I tend not to trust that at this point. So I'm taking a slower, more conservative approach, and then if the tools do achieve that level of quality and perfection, I'm going to jump on the train. We're not there yet. Let's see what happens.",
+          "speaker": "Ben Celebicic"
+        }
+      ]
+    },
+    {
+      "id": "flywheel",
+      "type": "concept",
+      "role": "concept",
+      "name": "飞轮 (flywheel)",
+      "file": "飞轮",
+      "primary": false,
+      "how_described": "本集说执着于跟用户对话、解决核心需求，业务就会拥有越转越好的飞轮，这是 Hinge 十年保持两位数增长的简单公式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            924,
+            991
+          ],
+          "quote": "Yeah, it's probably hard for me to speak generally about Match Group and what they're doing. I can speak specifically about Hinge. Hinge is on the mission to achieve $1 billion in revenue in 2027, next year, and we're well on the way to doing so. We've more or less grown double digits year over year over the last ten years or so. I think it's very much tied to our obsession with really talking with users, understanding their core needs and core problems, looking at the next generation of daters all the time, and building features and products that solve their core needs. That's the very simple formula for success: if you're obsessive about constantly thinking about your users and solving their problems, your business is going to have this flywheel of getting better and better. That's from a Hinge perspective. I can't really speak more broadly for Match Group, because it includes Tinder and many other apps under the same umbrella.",
+          "speaker": "Ben Celebicic"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
