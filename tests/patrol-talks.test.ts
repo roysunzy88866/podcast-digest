@@ -6,7 +6,7 @@ import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { parseChannelFeed, parseVideosPage, parseDurationText, prefilterSkip, indexPatrolLog, dedupSkip, parseVerdict, judgeAllows, extractChannelInfo, verifyChannelTitle, parseDotEnv, loadSubscriptions, fetchText, FETCH_RETRY } from "../scripts/patrol-talks.mjs";
+import { parseChannelFeed, parseVideosPage, parseDurationText, prefilterSkip, indexPatrolLog, dedupSkip, parseVerdict, judgeAllows, extractChannelInfo, verifyChannelTitle, parseDotEnv, loadSubscriptions, fetchText, FETCH_RETRY, uploadDay, ageDays } from "../scripts/patrol-talks.mjs";
 
 const FIX = resolve(dirname(fileURLToPath(import.meta.url)), "fixtures");
 const feedXml = readFileSync(resolve(FIX, "yt-channel-feed.xml"), "utf8");
@@ -203,7 +203,7 @@ describe("drift #82 · 演讲巡航判官同一 token 预算 bug", () => {
     const src = readFileSync(resolve(FIX, "..", "..", "scripts", "patrol-talks.mjs"), "utf8");
     // 与 taste-judge 共用同一常量,不再各写一份(GLM 006[1]:双份真相必然再次跑偏)
     expect(src).toContain('String(JUDGE_MAX_TOKENS)');
-    expect(src).toMatch(/import \{ JUDGE_MAX_TOKENS \} from "\.\/taste-judge\.mjs"/);
+    expect(src).toMatch(/import \{[^}]*\bJUDGE_MAX_TOKENS\b[^}]*\} from "\.\/taste-judge\.mjs"/); // 同一行可多导入别的常量(drift #104 加了 JUDGE_FRESHNESS_DAYS)
     expect(src).not.toMatch(/"--max-tokens", *"200"/);
   });
 });
@@ -238,5 +238,43 @@ describe("drift #96 · 取 feed 要扛住代理抽风(实测 mihomo 会几分钟
     const fetchImpl = async () => { throw new Error("fetch failed"); };
     await fetchText("https://x/y", { fetchImpl, sleep: async (ms: number) => { waits.push(ms); }, backoffMs: 1000 }).catch(() => {});
     expect(waits).toEqual([1000, 2000, 3000]);
+  });
+});
+
+describe("drift #104 · 演讲巡航补上 60 天新鲜窗口(Greylock 灌进 4–28 个月前的老片)", () => {
+  const T = { todayISO: "2026-09-17" };
+  it("★★★ 真实案例:Fermat 那集 yt-dlp 上传日 20240516(854 天前)→ 拦下", () => {
+    expect(prefilterSkip({ title: "Fermat CEO Rishabh Jain on Reinventing Distribution", publishedAt: "20240516" }, {}, T)).toMatch(/854 天前.*60 天/);
+  });
+  it("★★★ 新鲜的放行:频道 feed 的 ISO 日期 10 天前", () => {
+    expect(prefilterSkip({ title: "x", publishedAt: "2026-09-07T15:00:00+00:00" }, {}, T)).toBe(null);
+  });
+  it("★★★ 边界与播客补历史同口径:恰好 60 天放行、61 天拦", () => {
+    expect(prefilterSkip({ title: "x", publishedAt: "2026-07-19" }, {}, T)).toBe(null);
+    expect(prefilterSkip({ title: "x", publishedAt: "2026-07-18" }, {}, T)).toMatch(/61 天前/);
+  });
+  it("★★ 日期未知(/videos 页富化前给空串)不拦 —— 富化后第二次预过滤拿到 upload_date 再判", () => {
+    expect(prefilterSkip({ title: "x", publishedAt: "" }, {}, T)).toBe(null);
+    expect(ageDays("", "2026-09-17")).toBe(null);
+  });
+  it("★★ 两种日期格式都认:yt-dlp 的 8 位数字、feed 的 ISO", () => {
+    expect(uploadDay("20260903")).toBe("2026-09-03");
+    expect(uploadDay("2026-09-03T15:00:00+00:00")).toBe("2026-09-03");
+    expect(uploadDay("7 days ago")).toBe(null);
+  });
+  it("★★★ 单一真相:窗口天数从播客那边导入,时效规则天数从播客判官导入,不各写一份", () => {
+    const src = readFileSync(resolve(FIX, "..", "..", "scripts", "patrol-talks.mjs"), "utf8");
+    expect(src).toMatch(/import \{[^}]*\bBACKFILL_MAX_AGE_DAYS\b[^}]*\} from "\.\/run-pipeline\.mjs"/);
+    expect(src).toMatch(/JUDGE_FRESHNESS_DAYS \} from "\.\/taste-judge\.mjs"/);
+    expect(src).not.toMatch(/maxAgeDays = 60\b/);
+    expect(src).toMatch(/ageDays\(publishedAt, todayISO = bjDay\(\)\)/); // 北京日期,不用 UTC(GLM 001[2])
+  });
+  it("★★★ 判官拿得到上传日、也有时效规则(原来日志里全是「上传?」,规则无从生效)", () => {
+    const src = readFileSync(resolve(FIX, "..", "..", "scripts", "patrol-talks.mjs"), "utf8");
+    expect(src).toContain("上传日:${uploadDay(video.publishedAt)");
+    expect(src).toContain("时效规则:输入含「上传日(距今 N 天)」");
+  });
+  it("★★ 原有过滤不受影响:标题关键词与时长下限照旧", () => {
+    expect(prefilterSkip({ title: "Quick demo", durationSec: 240, publishedAt: "2026-09-10" }, { minDurationSec: 600 }, T)).toMatch(/时长/);
   });
 });

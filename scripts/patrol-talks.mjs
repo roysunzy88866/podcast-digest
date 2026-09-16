@@ -27,7 +27,8 @@ import { spawnSync } from "node:child_process";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { xmlUnescape } from "./build-feed.mjs"; // isMain 守卫,import 无副作用
-import { JUDGE_MAX_TOKENS } from "./taste-judge.mjs"; // 单一真相:两个判官共用一个 token 预算(drift #82:两处各写一份必然再次跑偏)
+import { JUDGE_MAX_TOKENS, JUDGE_FRESHNESS_DAYS } from "./taste-judge.mjs"; // 单一真相:两个判官共用一个 token 预算(drift #82:两处各写一份必然再次跑偏)
+import { BACKFILL_MAX_AGE_DAYS, bjDay } from "./run-pipeline.mjs"; // drift #104:演讲巡航与播客补历史共用同一个新鲜窗口(isMain 守卫,import 无副作用)
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const SUBS_FILE = join(ROOT, "data/talk-subscriptions.json");
@@ -145,7 +146,28 @@ export function verifyChannelTitle(pageTitle, expectedName) {
 }
 
 /** 机器预过滤(规则=数据):返回跳过理由或 null。时长未知不按 minDurationSec 误杀(富化后再判)。 */
-export function prefilterSkip(video, filters = {}) {
+/** 上传日归一成 YYYY-MM-DD:频道 feed 给 ISO(2026-09-03T15:00:00+00:00),yt-dlp 给 20260903;/videos 页给空串 → null。 */
+export function uploadDay(publishedAt) {
+  const s = String(publishedAt ?? "").trim();
+  if (/^\d{8}$/.test(s)) return `${s.slice(0, 4)}-${s.slice(4, 6)}-${s.slice(6, 8)}`;
+  if (/^\d{4}-\d{2}-\d{2}/.test(s)) return s.slice(0, 10);
+  return null;
+}
+
+/** 距今天数;日期认不出返回 null(调用方按「不知道」处理,不拦)。 */
+export function ageDays(publishedAt, todayISO = bjDay()) { // 北京日期,与播客补历史窗口同口径(GLM 001[2]:UTC 在北京凌晨会少算一天,Mac mini 实测 853 vs 854)
+  const d = uploadDay(publishedAt);
+  if (!d) return null;
+  const n = (Date.parse(`${String(todayISO).slice(0, 10)}T00:00:00Z`) - Date.parse(`${d}T00:00:00Z`)) / 864e5;
+  return Number.isFinite(n) ? Math.round(n) : null;
+}
+
+export function prefilterSkip(video, filters = {}, { todayISO, maxAgeDays = BACKFILL_MAX_AGE_DAYS } = {}) {
+  // drift #104(2026-09-17 用户「最近 2 天内容质量下降」):Greylock 频道视频页混着 2024–2025 老片,巡航照单全收 ——
+  // 09-16 当天 11 篇里 7 篇是 4–28 个月前的老演讲。播客补历史早有 60 天窗口(2026-09-03 用户拍板「宁缺毋旧」),
+  // 演讲这条路一直漏了。日期未知(/videos 页富化前)不拦,富化后第二次调用拿到 yt-dlp 的 upload_date 再判。
+  const age = ageDays(video?.publishedAt, todayISO);
+  if (maxAgeDays > 0 && age != null && age > maxAgeDays) return `上传于 ${age} 天前 > 新鲜窗口 ${maxAgeDays} 天(宁缺毋旧)`;
   const title = String(video?.title ?? "").toLowerCase();
   if (Array.isArray(filters.titleMustInclude) && filters.titleMustInclude.length) {
     if (!filters.titleMustInclude.some((k) => title.includes(String(k).toLowerCase())))
@@ -332,10 +354,13 @@ function askJudge(video, sub) {
     `本频道(${sub.name})特有提示:${sub.filters.judgeHint ?? "无"}`,
     '只输出一行 JSON:{"verdict":"对味"|"不对味","reason":"一句话理由"}。',
     '拿不准深浅/边界时判「不对味」,reason 以「拿不准:」开头 —— 巡航日志有人工复核,宁可漏勿错下。',
+    // drift #104:与播客判官(taste-judge.mjs)同一条时效规则、同一个天数常量 —— 2026-09-03 用户定的口径,演讲这条路原来漏了
+    `时效规则:输入含「上传日(距今 N 天)」。若题材属时效性内容(模型发布/评测/版本对比/本周要闻/榜单/活动预告/对未来几年的预测)且距今超过 ${JUDGE_FRESHNESS_DAYS} 天 → 判「不对味」,reason 以「过时:」开头。人物访谈、方法论、公司/创始人故事等常青内容不受上传日影响。`,
   ].join("\n");
   const input = [
     `频道:${sub.name}`,
     `标题:${video.title}`,
+    `上传日:${uploadDay(video.publishedAt) ?? "未知"}${ageDays(video.publishedAt) != null ? `(距今 ${ageDays(video.publishedAt)} 天)` : ""}`,
     `时长:${video.durationSec != null ? Math.round(video.durationSec / 60) + " 分钟" : "未知"}`,
     `简介:${String(video.description ?? "").slice(0, 1200) || "(无)"}`,
   ].join("\n");
