@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]]
+[[Marc Brooker]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":244,"认知投降":2,"认知债务":2,"循环工程":4,"软件工厂":5,"Core Web Vitals":1,"互相放大":1,"护栏":46,"Chrome":4}</script>
+<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":248,"认知投降":2,"认知债务":2,"循环工程":4,"软件工厂":5,"Core Web Vitals":1,"互相放大":1,"护栏":47,"Chrome":4}</script>
 
 <script>
 (function(){

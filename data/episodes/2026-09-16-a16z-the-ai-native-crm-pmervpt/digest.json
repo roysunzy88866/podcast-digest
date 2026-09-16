@@ -1,0 +1,328 @@
+{
+  "title_zh": "从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM",
+  "tldr": "Lightfield 联合创始人兼 CEO Keith 讲述放弃 Tome、从第一性原理重构 CRM 的转型历程，以及 AI 时代如何构建商业世界模型",
+  "digest_md": "把一个每月新增 200 万用户、总用户 2500 万的产品整个关掉，从头再来——这就是 Lightfield 联合创始人兼 CEO Keith 做过的决定。这一集是 A16Z 播客，合伙人 Alex Rampell 和 Joe Schmidt 与 Keith 对谈：他为什么放弃快速增长的 AI 演示产品 Tome，转向重新构想 CRM，以及 Lightfield 刚完成的、由 A16Z 领投的 4700 万美元 A 轮融资背后，那个「商业世界模型」到底是什么——把客户的邮件、通话、会议变成 AI 智能体能拿来干活的记录。\n\n## 为什么放弃一个还在爆发的产品\n\nTome 是一个用 GPT 生成演示文稿的产品，和 ChatGPT 差不多同期发布，增长爆炸——推理能力不够时用户还在排队。但 Keith 说，指标之外有一个本能层面的真相：**团队里没有人喜欢这个产品**。「归根结底，如果你是创始人，你必须热爱你正在打造的产品，并且为你的客户使用它而感到兴奋。」他们看不到一条路径，让一个高质量的、挑剔的演示文稿制作者以不可或缺的方式用这个工具——技术把他们限制在了个人和学生市场。\n\n主持人问：为什么不缩小团队、等技术变好？Keith 说他们确实考虑过，但问题不在模型能力：「模型根本没有足够的上下文去真正理解演讲者、听众、以及两者之间的关系，再多的通用推理也无法让你跨过这道坎。」 所以这充其量只能做一次性的、不切实际的演示。\n\n## 转型的路径：跟着热度走，然后发现真问题\n\n他们回到创办公司的初衷——帮专业人士讲专业的故事——在 2500 万用户里找到了 B2B 用户：销售和市场营销团队。他们从约 50 万人的大公司拿到 12 个免费试点，帮忙做提案、做调研、筛线索。过程中他们要求数据接入：CRM、通话录音、数据仓库。然后发现了真正的问题：「做这项工作最难的部分，是从所有互不相连的系统里把数据理出个头绪」——数据不完整、互相矛盾，通话录音器对现实的认知和 CRM 不一样。把数据重新组织所需的工作，才是最重要的工作。**如果能用机器和人类都能理解的方式，为一家公司重组现实，那是一个比现在的产品有意思得多、也更能长久的公司。**\n\n但路径不是直的。他们先做了个 go-to-market 助手，很多人爱用，却没人付钱——「我们毫无定价权，因为数据不是我们的」，而且有十家公司在一起竞争。于是缩减团队、从第一性原理重新构想 CRM，埋头做了四个月。结果没人想用一个才四个月大的 CRM。他们的解法很有创意：把甩不掉的巨大办公空间拿出来——「你只要用我们的 CRM，就可以坐进我们的办公室」。等于负定价，靠这个找到了 10 家初创公司用户。这些用户每天泡在里面、每两小时通过 Slack 吐槽反馈。「我们有一个勉强能跑的产品，人们却在乎到每小时给我们反馈——这和 Tome 完全不同。」\n\n## 核心架构：活动日志 + 无 schema\n\nLightfield 五位创始成员中三位来自 Facebook，他们把 Facebook 时间线的思路搬了过来：**CRM 里最重要的是对关系建模**。所以最先构建的是活动日志（activity log）——你第一次联系是什么时候、说了什么、开了哪些会、来回发了哪些文档、对方在产品里做什么、怎么付钱。系统基于这条规范的关系日志，再去触发传统 CRM 该有的更新：字段、阶段等等。所有东西都建立在这条日志之上。\n\n他们试过完全非结构化，但查询太慢、大海捞针，最终落在半结构化：海量非结构化数据存进活动日志，系统从日志推断因果关系。数据湖做不到这一点。而 schema（数据表结构）方面，他们和 CRM 顾问聊后发现，顾问帮客户做的最重大的决定就是数据模型——设错了阶段和字段，没法让销售回到过去补填，就完了。Lightfield 的答案是**实际上无 schema**：连接邮箱、通话录音、数据仓库，系统实时组装好你的客户关系，字段以后再填、改主意了就遍历日志重填。Alex 把这个转变总结为一句话：**「智能大于 schema。」** 他补充了历史背景：老式关系型数据库为了省空间要预定义每列的字符上限，那个年代的约束塑造了后来的产品形态，现在时代变了。\n\n实际用起来是什么样？客户成功人员问 Lightfield：「这个客户准备好扩展了吗？该卖什么、什么时候卖？」系统遍历这个客户的所有互动、工单、以日志条目存储的产品使用数据，再横向比较整个 CRM 里的所有账户，给出答案。\n\n## 令人意外的用法：帮病人找到前沿疗法\n\n因为从第一天起就支持完全任意的 schema——自定义对象、自定义关系——商业模式奇特的客户可以在 Lightfield 里建模任何东西。Keith 最自豪的例子是一家叫 Power 的公司：他们一边和制药公司合作找临床试验参与者，一边运营着一个聚合各类疾病患者、寻找前沿疗法的市场平台。他们在 Lightfield 里同时建模了 B2C 端和 B2B 端，还建了自动化流程抓取 FDA 和 clinicaltrials.gov，构建一个关于全球所有在研试验的世界模型，然后做双向匹配。「Lightfield 真的帮助一位阿尔茨海默病患者在几天内找到了前沿疗法。」\n\n## Greenfield 打法与销售副总裁难题\n\nAlex 用一组概念拆解了市场策略：**Brownfield（棕地）**是被在位者践踏过的市场——「最好的公司拥有的是人质，而不是客户」，SAP 拥有人质；**Greenfield（绿地）**是不招惹人质、做出世界上最好的产品，让不受旧软件束缚的新公司自然用你。云取代本地部署时部分靠重新定义问题，部分就靠 Greenfield。\n\nKeith 承认初创时没有打入 Brownfield 的清晰论点，就先赢新公司：他和参谋长亲自上 LinkedIn、给 YC 公司发邮件。服务早期创业公司的好处是现在从 pre-seed 到 A 轮、A 到 B 的速度史上最快——有客户从零个销售代表做到一百个，他们得以看清自己真正在帮客户解决什么。答案比预期高一个层级：硅谷所有的 AI CRM 广告牌都在喊「替你干活」（线索评分、发外呼邮件），但 Keith 认为那不是打入 Brownfield 的楔子——Salesforce 也会发邮件。**真正的楔子是更好地理解你的公司**，让你在混乱的公司建设时代能引导方向。而这一点是他们盯着客户看了六个月才浮现的。\n\nGreenfield 还有一个隐蔽的坑：新公司会雇来在旧世界受训的销售副总裁，只认 Salesforce。Alex 自己就因为雇的副总裁拒绝用免费替代品而屈服付费。Lightfield 的应对是设计层面的：销售主导的方案里，产品免费送给公司里的任何人用——工程用它理解客户、财务用它做收入确认、客户成功用它做账户评分。当新的销售副总裁说「我只会 Salesforce」时，公司里其他人会反问：这是全公司运行的方式，你能不能更努力地搞明白它？网络效应让替换成本变高，团队再介入展示怎么让他的工作更轻松。\n\n产品哲学上他们选了实用主义而非宗教式革新：Keith 自己是公司事实上的销售经理，仍然在表格字段里开所有会议。「要成为真正的企业级 CRM，就不能对人们的工作方式抱有宗教式的执着。」仪表盘和表格视图都做得很好，想用就用；前沿用户可以用自然语言、CLI 做一切。经典销售工作流「序列」（不同时间、按触发条件发五封邮件）过去要用箭头、条件、变量搭出来，在 Lightfield 里只需和智能体聊，智能体写出一份会参考世界模型的配方直接执行。起初有销售负责人不信任，后来转变：「这实际上更高效、更好，而且我要学的东西更少了。」\n\n## 定价：从两个极端试起\n\n「软件已死、SaaS 末日论」的潮流下，定价是个疯狂问题。Lightfield 的方法是两个极端都试——那是最快找到有效边界的方法。先纯按席位定价，客户接受度很高，但头部用户的使用量是尾部的一万倍，撑不下去。再试纯消费定价、一切皆为积分——「那是公司历史上最糟糕的三周」：注册用户很多，但没人碰任何东西。\n\n和客户深聊后，他们把工作分成四类，分别定价：①日常 CRM 工作（记录会议、填记录、更新任务）——包含在平台费里，客户不想在预算里考虑核心 CRM 的误差范围；②管线生成（数据增强、带来能转化为收入的会议）——有真正的信息优势，客户愿意按消费付费；③工作流自动化（比如有人注册演示，Lightfield 调研后自动判断该分给哪个销售）——在做真正的工作，按预期收费；④智能与预测——Lightfield 最未被发掘的部分，把前沿智能部署到公司这颗「水晶球」上做情景规划，你肯定愿意为超额收益付费。Keith 自己就是证据：「我在周末让 GPT-6 在 Lightfield 上跑了几小时之后，改变了我的销售流程。」 最终落点：核心 CRM 是平台费加席位，其余按消费。\n\n至于基于成果（outcome）的定价，Keith 认为在这个领域暂时做不到：CRM 的成果取决于客户自身的产品市场匹配度——为 OpenAI 做外向拓客极其高效，为一家没有网站的种子期公司做则极其低效。「所以我们必须为工作收费，暂时无法为成果收费。」\n\n至于客户想自己造（vibe code 一个 CRM、构建自己的「公司大脑」），Keith 说这个话题被谈论过头了。种子期创始人说要花四个周末自己做，他就回「祝你好运，五个周末后打电话给我们」——然后对方回来抱怨幻觉、发错邮件。大公司则说「我要构建自己的公司大脑」，很多人试过又回来：「构建商业世界模型真的很难，最难的部分是对客户建模。我们试过了，对结果不满意，所以来找你们了。」 作为记录系统他们的态度是开放的：数据是你的，可以全部通过 MCP 或 CLI 推出去，但几周后客户几乎总会发现——Lightfield 的实体识别、精确率召回率、速度都更好。「数据是你的，你想怎么用都行；我们会努力工作，每天都去赢得你生产力的那份权利。」\n\n## 40 人公司怎么跑：没有泳道\n\nKeith 对 Tome 最深的悔恨，联合创始人 Henry 一句话总结：「我们当时有很多人在过家家」——产品负责人、市场负责人、客户成功负责人各有泳道，别人碰一下就生气，公司慢得像爬，「根本不可能转型，因为这些附肢不和大脑沟通」。Lightfield 的做法彻底相反：40 个人，每天早上所有人参加同一个站会，对最重要的问题排序——有的是交付、有的是工程、有的是客户成功——谁有空谁认领；每天清单可变、每周重估的持续规划。「人计划，OpenAI 发笑。」\n\n人人都是通才之所以成立，是因为工具：任何人都能通过 Lightfield 快速上手一个客户，LLM 深植 Figma 让任何人读懂设计系统库，Lightfield 与 Linear 的连通让任何人自动创建任务。工程师、设计师、CSM 都能负责项目。两条配套原则：**启动项目的门槛非常低，发布项目的门槛相当高**——仍然做全公司 bug 大扫除（Keith 在 Instagram 学到的），产品要在交给客户之前让整个公司喜欢它。\n\n优先级上，红海里的 CRM 公司必须成为「扩张型公司」：竞争激烈时拿不到预期的初始落地，但用三年时间范围看每个账户的扩张价值，因此他们更倾向于为增长最快的客户构建产品，而非普通客户——「但同时我们必须构建一切，现在是一个要比平时更『最大化主义』的时代。」\n\n## 最怕什么，最兴奋什么\n\nKeith 最偏执的事是一个真实案例：一家知名 AI 公司（Eleven Labs）当时用某家初创 CRM，等仪表盘等了四个月，厌倦了就搬去 Salesforce。「这就是让我最偏执的事——我们必须把一切建好，让客户永远不会产生离开的念头。」\n\n对硅谷 AI 过热、世界其他地区低估的现象，他的看法很实际：记录系统公司的大部分收入最终来自硅谷之外。所以硅谷的专注「不是高效的收入获取，而是高效的营销获取」——客户融了 2 亿美元却只有三个 GTM 人员，终有一天会变大，现在为他们做到极致，将来走进制造业、医疗健康时就有可参照的标志。CRM 甚至是「比银行还难迁移」的品类，心理上你就是不想选错，所以同行业参照的分量极重。医疗领域做得好，还因为从一开始就较真安全：签了 BAA、做了多年渗透测试。\n\n最兴奋的方向：Lightfield 成为公司做情景规划的水晶球——该雇多少销售、下一个产品做什么、往哪走。有客户通过 Lightfield 发现自己需要一条面向中型市场的产品线，就此建出整个新产品线。「我很兴奋我们能成为这样一面镜子，帮助公司做出最艰难、影响最深远的决策。」\n\n## 本集带走\n\n- **创始人不爱产品就该警惕**：Tome 用户爆炸式增长，但团队没人喜欢它、看不到挑剔的专业用户不可或缺地用它——这成了转型的根本理由。指标可以很好看，本能过不了关就要认真对待。\n- **「 hopium（希望成瘾）」是转型时最常见的陷阱**：指望「技术继续进步就够了」是危险的；他们没等技术，因为问题不在推理能力，而在模型缺少理解演讲者与听众关系的上下文——再多的通用推理也补不上。\n- **活动日志是更好的 CRM 原语**：先建一条机器和人类都能理解的、完整的关系时间线，再从它触发传统 CRM 更新；无 schema 让客户先连接数据、后补字段，改主意了遍历日志重填即可——「智能大于 schema」。\n- **定价从两个极端试起最快找到边界**：纯席位撑不住（头部用量是尾部一万倍），纯消费没人敢用（最糟的三周）；落点是核心 CRM 用平台费+席位，管线生成、工作流自动化、智能预测按消费收费。\n- **没有泳道才有转型速度**：40 人一个站会、问题排序、谁有空谁认领、持续规划；启动门槛低、发布门槛高，人人是通才靠的是工具把上手成本压到近零。\n- **转型期的建议**：「你周围几乎所有的噪音都不重要——找到痛点，构建解决它的产品，偏执地专注客户，其余都是噪音。」期权怎么重定价、办公室的怀旧情绪，全都不重要。",
+  "quotes": [
+    {
+      "en": "So I'd say there are a lot of metrics behind it, but deep down, I think at an instinctual level, none of us like the product, which is kind of a funny thing to say.",
+      "zh": "这背后有很多指标，但内心深处，在本能层面上，我们没有人喜欢这个产品——这么说有点好笑。",
+      "timestamp": "03:19",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "But I think the biggest issue was that the model just didn't have enough context to really understand the presenter, the audience, the relationship between the presenter and the audience and no amount of general reasoning gets you past that.",
+      "zh": "最大的问题是，模型根本没有足够的上下文去真正理解演讲者、听众、以及两者之间的关系，而再多的通用推理也无法让你跨过这道坎。",
+      "timestamp": "04:52",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "I think what makes early-stage founders good at this is that you sort of have no priors.",
+      "zh": "让早期创始人擅长这件事的原因，是你基本上没有任何先入之见。",
+      "timestamp": "06:32",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "Actually, the work required to reorganize it felt like the most important work.",
+      "zh": "其实，把这些数据重新组织所需的工作，感觉才是最重要的工作。",
+      "timestamp": "07:12",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "Reorganize reality for a company in a way that machines can understand and also for humans to understand.",
+      "zh": "以一种机器能理解、同时人类也能理解的方式，为一家公司重组现实。",
+      "timestamp": "07:26",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "That's tough to say that we had all of these AEs using it every day, but we had no pricing power because it wasn't our data.",
+      "zh": "这话很难说出口：这么多销售每天都在用它，但我们毫无定价权，因为数据不是我们的。",
+      "timestamp": "07:53",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "Basically, like intelligence is greater than schema. That's the crux.",
+      "zh": "基本上，就是智能大于 schema。这就是关键。",
+      "timestamp": "15:59",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "And Lightfield actually helped someone with Alzheimer's find frontier treatment within days.",
+      "zh": "Lightfield 真的帮助一位阿尔茨海默病患者在几天内找到了前沿疗法。",
+      "timestamp": "18:32",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "Like, the best companies have hostages, not customers. Like, SAP has hostages.",
+      "zh": "最好的公司拥有的是人质，而不是客户。SAP 拥有人质。",
+      "timestamp": "19:09",
+      "speaker": "Alex Rampell"
+    },
+    {
+      "en": "I think the wedge in Brownfield has to do with better understanding your company.",
+      "zh": "我认为打入 Brownfield 的楔子，在于更好地理解你的公司。",
+      "timestamp": "22:12",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "Like a real enterprise CRM, we can't be religious about the way people work.",
+      "zh": "要成为真正的企业级 CRM，我们就不能对人们的工作方式抱有宗教式的执着。",
+      "timestamp": "26:10",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "I think our take is, you know, it's your day to do what you want, and we're going to work hard to earn the right to your productivity every day.",
+      "zh": "我们的态度是，数据是你的，你想怎么用都行，我们会努力工作，每天都去赢得你生产力的那份权利。",
+      "timestamp": "30:40",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "It was the worst three weeks of the company's life. We have all of these signups, but they're not doing anything.",
+      "zh": "那是公司历史上最糟糕的三周。我们有这么多注册用户，但他们什么都不做。",
+      "timestamp": "33:10",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "I changed my sales process after letting GPT-6 rip on Lightfield for a couple of hours on the weekend.",
+      "zh": "我在周末让 GPT-6 在 Lightfield 上跑了几小时之后，改变了我的销售流程。",
+      "timestamp": "35:14",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "So we were like, none of that, no one has a swim lane.",
+      "zh": "所以我们就说，这些统统不要，没有人有泳道。",
+      "timestamp": "37:27",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "We also, I would say that the bar to start a project is very low at Lightfield, but the bar to ship the project is pretty high.",
+      "zh": "在 Lightfield，启动一个项目的门槛非常低，但要发布项目的门槛相当高。",
+      "timestamp": "39:32",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "I kind of like to joke that AI is almost overhyped in Silicon Valley. I don't think it is, but, and it's like massively underhyped outside of this little region of the world.",
+      "zh": "我喜欢开玩笑说 AI 在硅谷几乎是过度炒作的。我不认为它真的被过度炒作，但它在世界的这个小区域之外被严重低估了。",
+      "timestamp": "43:10",
+      "speaker": "Alex Rampell"
+    },
+    {
+      "en": "So I just see the focus on Silicon Valley not as efficient revenue capture, but actually just like efficient marketing capture.",
+      "zh": "所以我只把对硅谷的专注看作不是高效的收入获取，而实际上就是高效的营销获取。",
+      "timestamp": "44:43",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "I think in many ways your CRM is maybe harder to move off of than your bank.",
+      "zh": "我觉得在很多方面，你的 CRM 可能比你的银行还难迁移。",
+      "timestamp": "46:12",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "I think the most important thing to remember is that almost none of the noise around you matters when you're in a pivot.",
+      "zh": "最重要的要记住的一点是，当你在转型的时候，你周围几乎所有的噪音都不重要。",
+      "timestamp": "50:40",
+      "speaker": "Keith Parris"
+    },
+    {
+      "en": "And you need to be like maniacally focused on your customers.",
+      "zh": "而且你需要像偏执狂一样专注于你的客户。",
+      "timestamp": "50:54",
+      "speaker": "Keith Parris"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:19",
+      "speaker": "Keith",
+      "en": "So I'd say there are a lot of metrics behind it, but deep down, I think at an instinctual level, none of us like the product, which is kind of a funny thing to say.",
+      "zh": "这背后有很多指标，但内心深处，在本能层面上，我们没有人喜欢这个产品——这么说有点好笑。"
+    },
+    {
+      "timestamp": "03:28",
+      "speaker": "Keith",
+      "en": "I think at the end of the day, if you're a founder, you have to love the product that you're building and you have to be excited for your customers to use it.",
+      "zh": "归根结底，如果你是创始人，你必须热爱你正在打造的产品，并且为你的客户使用它而感到兴奋。"
+    },
+    {
+      "timestamp": "04:19",
+      "speaker": "Joe Schmidt",
+      "en": "But that's also a little bit of a danger. It's called hopium.",
+      "zh": "但这也是一种小小的危险。它叫「希望成瘾」。"
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Keith",
+      "en": "But I think the biggest issue was that the model just didn't have enough context to really understand the presenter, the audience, the relationship between the presenter and the audience and no amount of general reasoning gets you past that.",
+      "zh": "最大的问题是，模型根本没有足够的上下文去真正理解演讲者、听众、以及两者之间的关系，而再多的通用推理也无法让你跨过这道坎。"
+    },
+    {
+      "timestamp": "06:32",
+      "speaker": "Keith",
+      "en": "I think what makes early-stage founders good at this is that you sort of have no priors.",
+      "zh": "让早期创始人擅长这件事的原因，是你基本上没有任何先入之见。"
+    },
+    {
+      "timestamp": "07:12",
+      "speaker": "Keith",
+      "en": "Actually, the work required to reorganize it felt like the most important work.",
+      "zh": "其实，把这些数据重新组织所需的工作，感觉才是最重要的工作。"
+    },
+    {
+      "timestamp": "07:26",
+      "speaker": "Keith",
+      "en": "Reorganize reality for a company in a way that machines can understand and also for humans to understand.",
+      "zh": "以一种机器能理解、同时人类也能理解的方式，为一家公司重组现实。"
+    },
+    {
+      "timestamp": "07:53",
+      "speaker": "Keith",
+      "en": "That's tough to say that we had all of these AEs using it every day, but we had no pricing power because it wasn't our data.",
+      "zh": "这话很难说出口：这么多销售每天都在用它，但我们毫无定价权，因为数据不是我们的。"
+    },
+    {
+      "timestamp": "08:33",
+      "speaker": "Keith",
+      "en": "You can sit in our office space if you use our CRM.",
+      "zh": "你可以用我们的办公空间，只要你用我们的 CRM。"
+    },
+    {
+      "timestamp": "09:47",
+      "speaker": "Alex Rampell",
+      "en": "It's the tool that powers low-level automation and it's also the tool that powers forecasts.",
+      "zh": "它是支撑底层自动化的工具，也是支撑预测的工具。"
+    },
+    {
+      "timestamp": "10:28",
+      "speaker": "Keith",
+      "en": "You know, if we can help you completely model your business and your customer reality, then the rest will be easy.",
+      "zh": "如果我们能帮你完整地为你的业务和你的客户现实建模，那剩下的就都容易了。"
+    },
+    {
+      "timestamp": "15:26",
+      "speaker": "Keith",
+      "en": "Just to say that, like, you know, we'll connect to your emails, we'll give you a call recorder, we'll connect to your data warehouse, and then just assemble your relationships for you, and then you can fill out the fields later.",
+      "zh": "我们会连接你的邮件，给你通话录音器，连接你的数据仓库，然后直接为你组装好各种关系，字段你可以之后再填。"
+    },
+    {
+      "timestamp": "15:59",
+      "speaker": "Alex Rampell",
+      "en": "Basically, like intelligence is greater than schema. That's the crux.",
+      "zh": "基本上，就是智能大于 schema。这就是关键。"
+    },
+    {
+      "timestamp": "18:32",
+      "speaker": "Keith",
+      "en": "And Lightfield actually helped someone with Alzheimer's find frontier treatment within days.",
+      "zh": "Lightfield 真的帮助一位阿尔茨海默病患者在几天内找到了前沿疗法。"
+    },
+    {
+      "timestamp": "19:11",
+      "speaker": "Alex Rampell",
+      "en": "Like, the best companies have hostages, not customers. Like, SAP has hostages.",
+      "zh": "最好的公司拥有的是人质，而不是客户。SAP 拥有人质。"
+    },
+    {
+      "timestamp": "22:12",
+      "speaker": "Keith",
+      "en": "I think the wedge in Brownfield has to do with better understanding your company.",
+      "zh": "我认为打入 Brownfield 的楔子，在于更好地理解你的公司。"
+    },
+    {
+      "timestamp": "26:10",
+      "speaker": "Keith",
+      "en": "Like a real enterprise CRM, we can't be religious about the way people work.",
+      "zh": "要成为真正的企业级 CRM，我们就不能对人们的工作方式抱有宗教式的执着。"
+    },
+    {
+      "timestamp": "28:40",
+      "speaker": "Keith",
+      "en": "Whereas in Lightfield, we're like, no, you just chat with the agent and the agent writes out a recipe for you.",
+      "zh": "而在 Lightfield 里，我们是说：不，你直接和智能体聊天，智能体为你写出一个方案。"
+    },
+    {
+      "timestamp": "30:40",
+      "speaker": "Keith",
+      "en": "I think our take is, you know, it's your day to do what you want, and we're going to work hard to earn the right to your productivity every day.",
+      "zh": "我们的态度是，数据是你的，你想怎么用都行，我们会努力工作，每天都去赢得你生产力的那份权利。"
+    },
+    {
+      "timestamp": "33:13",
+      "speaker": "Keith",
+      "en": "It was the worst three weeks of the company's life. We have all of these signups, but they're not doing anything.",
+      "zh": "那是公司历史上最糟糕的三周。我们有这么多注册用户，但他们什么都不做。"
+    },
+    {
+      "timestamp": "35:14",
+      "speaker": "Keith",
+      "en": "I changed my sales process after letting GPT-6 rip on Lightfield for a couple of hours on the weekend.",
+      "zh": "我在周末让 GPT-6 在 Lightfield 上跑了几小时之后，改变了我的销售流程。"
+    },
+    {
+      "timestamp": "35:39",
+      "speaker": "Keith",
+      "en": "Right, of course. It would be incredibly efficient for us to do outbound prospecting for OpenAI.",
+      "zh": "对，当然。让我们为 OpenAI 做外向拓客会是极其高效的。"
+    },
+    {
+      "timestamp": "36:10",
+      "speaker": "Keith",
+      "en": "We can't quite charge for the outcome in this space for now.",
+      "zh": "在这个领域，我们目前还无法为成果收费。"
+    },
+    {
+      "timestamp": "37:45",
+      "speaker": "Keith",
+      "en": "So we were like, none of that, no one has a swim lane.",
+      "zh": "所以我们就说，这些统统不要，没有人有泳道。"
+    },
+    {
+      "timestamp": "39:32",
+      "speaker": "Keith",
+      "en": "We also, I would say that the bar to start a project is very low at Lightfield, but the bar to ship the project is pretty high.",
+      "zh": "在 Lightfield，启动一个项目的门槛非常低，但要发布项目的门槛相当高。"
+    },
+    {
+      "timestamp": "40:41",
+      "speaker": "Keith",
+      "en": "And that's actually the thing that makes me the most paranoid.",
+      "zh": "这其实就是让我最偏执的事。"
+    },
+    {
+      "timestamp": "43:06",
+      "speaker": "Alex Rampell",
+      "en": "I kind of like to joke that AI is almost overhyped in Silicon Valley. I don't think it is, but, and it's like massively underhyped outside of this little region of the world.",
+      "zh": "我喜欢开玩笑说 AI 在硅谷几乎是过度炒作的。我不认为它真的被过度炒作，但它在世界的这个小区域之外被严重低估了。"
+    },
+    {
+      "timestamp": "44:51",
+      "speaker": "Keith",
+      "en": "So I just see the focus on Silicon Valley not as efficient revenue capture, but actually just like efficient marketing capture.",
+      "zh": "所以我只把对硅谷的专注看作不是高效的收入获取，而实际上就是高效的营销获取。"
+    },
+    {
+      "timestamp": "46:12",
+      "speaker": "Keith",
+      "en": "I think in many ways your CRM is maybe harder to move off of than your bank.",
+      "zh": "我觉得在很多方面，你的 CRM 可能比你的银行还难迁移。"
+    },
+    {
+      "timestamp": "48:54",
+      "speaker": "Keith",
+      "en": "What are you most excited about for the future?",
+      "zh": "对于未来，你最兴奋的是什么？"
+    },
+    {
+      "timestamp": "50:40",
+      "speaker": "Keith",
+      "en": "I think the most important thing to remember is that almost none of the noise around you matters when you're in a pivot.",
+      "zh": "最重要的要记住的一点是，当你在转型的时候，你周围几乎所有的噪音都不重要。"
+    },
+    {
+      "timestamp": "50:54",
+      "speaker": "Keith",
+      "en": "And you need to be like maniacally focused on your customers.",
+      "zh": "而且你需要像偏执狂一样专注于你的客户。"
+    }
+  ],
+  "voice_script": "今天这期节目，你听到的故事有点狠：一个产品每个月新增两百万用户、总共有两千五百万用户，增长还在爆发，创始人却决定把它整个关掉，从头再来。做这个决定的人叫 Keith，是 Lightfield 的联合创始人兼 CEO。这是 A16Z 的播客，两位合伙人和 Keith 聊了两个多小时，聊他为什么放弃那个产品 Tome，转向重新构想 CRM，以及 Lightfield 刚完成、由 A16Z 领投的四千七百万美元 A 轮融资背后，那个听起来很玄的「商业世界模型」到底是什么。\n\n先说 Tome 是个什么东西。它是用 GPT 自动生成演示文稿的产品，和 ChatGPT 差不多同期发布，火到推理能力不够、用户得排队。那为什么还要关掉？Keith 给了一个指标之外的答案：团队里没有人喜欢这个产品。原话是这么说的，\"归根结底，如果你是创始人，你必须热爱你正在打造的产品，并且为你的客户使用它而感到兴奋。\" 更具体的问题是，模型没有足够的上下文去真正理解演讲者、听众、以及两者之间的关系，再多的通用推理也跨不过这道坎。所以它充其量只能做一次性的、不太严肃的演示，永远打动不了那些挑剔的专业用户。\n\n转型也不是一步到位的。他们回到创办公司的初衷，帮专业人士讲专业的故事，在那两千五百万用户里找到了 B2B 用户，也就是销售和市场营销团队。他们从大公司拿到十二个免费试点，帮忙做提案、做调研、筛线索。做这些活儿需要接入数据，CRM、通话录音、数据仓库。结果在这个过程中发现了真正的问题：做这项工作最难的部分，是从一堆互不相连的系统里把数据理出个头绪。数据不完整、互相矛盾，通话录音器眼里的事实和 CRM 记的对不上。把数据重新组织所需的工作，才是最重要的工作。如果能用机器和人类都能理解的方式，为一家公司重组现实，那是一个有意思得多、也更能长久的公司。\n\n但中间还有一次碰壁。他们先做了个销售助手，很多人爱用，却没人付钱。原因很直白：数据不是我们的，所以我们毫无定价权，而且当时有十家公司挤在同一个赛道上竞争。于是他们缩掉团队，从第一性原理重新构想 CRM，埋头做了四个月。新的问题来了：没人想用一个才四个月大的 CRM。他们的解法很有意思——用公司里甩不掉的巨大办公空间当诱饵，你只要用我们的 CRM，就可以坐进我们的办公室。等于负定价。就这么找到了十家初创公司用户，这些人每天泡在里面，每两小时就在 Slack 上吐槽反馈。一个勉强能跑的产品，用户在乎到每小时给反馈，这和 Tome 完全不同。\n\n那 Lightfield 到底怎么搭的？五位创始成员里三位来自 Facebook，把时间线的思路搬了过来：CRM 里最重要的是对关系建模。所以最先构建的是活动日志，你第一次联系客户是什么时候、说了什么、开了哪些会、发了哪些文档、对方在产品里做什么、怎么付钱。传统 CRM 该有的字段、阶段这些更新，都是基于这条日志再去触发的。更妙的是无 schema。传统 CRM 最要命的是数据表结构，设错了就没法回头补。Lightfield 让你先连上邮箱、通话录音、数据仓库，系统实时组装好你的客户关系，字段以后再填，改主意了就遍历日志重填。主持人 Alex 把这个转变总结成一句话：智能大于 schema。\n\n这套东西用起来什么样，最让 Keith 自豪的例子是一家叫 Power 的公司。这家公司聚合各类疾病患者，帮他们找前沿疗法，在 Lightfield 里同时建模了患者端和药企端，还自动抓取 FDA 和临床试验网站的数据，建了一个全球在研试验的世界模型，然后做双向匹配。结果就是，Lightfield 真的帮助一位阿尔茨海默病患者在几天内找到了前沿疗法。\n\n最后收个尾。Keith 给转型期的创始人留了一句话，我觉得值得你记住：你周围几乎所有的噪音都不重要——找到痛点，构建解决它的产品，偏执地专注客户，其余都是噪音。指标可以很好看，但如果连你自己的团队都不爱这个产品，本能过不了关，就要认真对待了。"
+}

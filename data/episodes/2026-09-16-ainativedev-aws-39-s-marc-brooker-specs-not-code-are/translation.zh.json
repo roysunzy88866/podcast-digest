@@ -1,0 +1,3618 @@
+[
+ {
+  "seg": 0,
+  "start": 0.16,
+  "end": 3.84,
+  "speaker": "Simon Maple",
+  "en": "I want to talk about 15 years, I think, that you spent on call.",
+  "zh": "我想聊聊你在 on call 上度过的 15 年。"
+ },
+ {
+  "seg": 1,
+  "start": 4,
+  "end": 5.52,
+  "speaker": "Simon Maple",
+  "en": "That's a lot of 3AMs.",
+  "zh": "那可真是好多好多凌晨 3 点。"
+ },
+ {
+  "seg": 2,
+  "start": 5.68,
+  "end": 10.16,
+  "speaker": "Simon Maple",
+  "en": "Do you feel like agents will very much be able to uh take that role from us?",
+  "zh": "你觉得智能体会在很大程度上取代我们的这个角色吗?"
+ },
+ {
+  "seg": 3,
+  "start": 10.48,
+  "end": 26.4,
+  "speaker": "Marc Brooker",
+  "en": "With the basic investigations of on call, the the log scraping, the diving into metrics and so on, you know, if you look at something like AWSS DevOps agent, it's great at doing that kind of automation of, let's say, the more day-to-day aspects of on-call.",
+  "zh": "对于 on call 的基础调查工作,比如日志抓取、钻取指标等等,你知道,如果你看看像 AWSS DevOps 智能体这样的东西,它在把 on call 中比较日常的方面自动化这件事上做得很棒。"
+ },
+ {
+  "seg": 4,
+  "start": 26.8,
+  "end": 33.36,
+  "speaker": "Marc Brooker",
+  "en": "And then what's left is the really interesting reasoning about why is the system behaving this way?",
+  "zh": "然后剩下的是真正有意思的推理:为什么系统会出现这种行为?"
+ },
+ {
+  "seg": 5,
+  "start": 33.52,
+  "end": 37.52,
+  "speaker": "Marc Brooker",
+  "en": "You know, what are we seeing in terms of large-scale failures?",
+  "zh": "你知道,我们在大规模故障方面看到了什么?"
+ },
+ {
+  "seg": 6,
+  "start": 37.68,
+  "end": 42.64,
+  "speaker": "Marc Brooker",
+  "en": "What are we seeing in terms of improving performance at big scale and so on?",
+  "zh": "我们在大规模性能提升方面又看到了什么,等等?"
+ },
+ {
+  "seg": 7,
+  "start": 42.8,
+  "end": 49.6,
+  "speaker": "Marc Brooker",
+  "en": "And uh, you know, automation is going to help us there a whole lot, but it doesn't have answers to those questions today.",
+  "zh": "而且呃,你知道,自动化会在这方面帮我们大忙,但它在今天还回答不了这些问题。"
+ },
+ {
+  "seg": 8,
+  "start": 50.72,
+  "end": 57.28,
+  "speaker": "Simon Maple",
+  "en": "The AI Native Dev is a podcast for developers and engineering leads at the cutting edge of AI energetic coding.",
+  "zh": "AI Native Dev 是一档面向处于 AI energetic coding 前沿的开发者和工程负责人的播客。"
+ },
+ {
+  "seg": 9,
+  "start": 57.52,
+  "end": 67.68,
+  "speaker": "Simon Maple",
+  "en": "Join your host, Guy Fajani, and meet Simon Maple every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+  "zh": "每周加入你的主持人 Guy Fajani,并认识 Simon Maple,我们与 AI 领域最激动人心的声音对话,探讨当今开发者面临的最重大的问题。"
+ },
+ {
+  "seg": 10,
+  "start": 68.16,
+  "end": 70.72,
+  "speaker": "Simon Maple",
+  "en": "This is the AI Native Dev.",
+  "zh": "这里是 AI Native Dev。"
+ },
+ {
+  "seg": 11,
+  "start": 73.6,
+  "end": 75.68,
+  "speaker": "Simon Maple",
+  "en": "Yesterday, you were writing code.",
+  "zh": "昨天,你还在写代码。"
+ },
+ {
+  "seg": 12,
+  "start": 75.84,
+  "end": 77.76,
+  "speaker": "Simon Maple",
+  "en": "Today, you're prompting agents.",
+  "zh": "今天,你在给智能体写提示词。"
+ },
+ {
+  "seg": 13,
+  "start": 77.92,
+  "end": 80.48,
+  "speaker": "Simon Maple",
+  "en": "Tomorrow, you'll be running a software factory.",
+  "zh": "明天,你将运营一座软件工厂。"
+ },
+ {
+  "seg": 14,
+  "start": 80.72,
+  "end": 84.24,
+  "speaker": "Simon Maple",
+  "en": "Agentic coding is moving fast enough to give anyone whiplash.",
+  "zh": "智能体编码的发展快到能把任何人的脖子都甩伤了。"
+ },
+ {
+  "seg": 15,
+  "start": 84.56,
+  "end": 87.36,
+  "speaker": "Simon Maple",
+  "en": "This June, AI DevCon London sold out.",
+  "zh": "今年 6 月,AI DevCon 伦敦站售罄了。"
+ },
+ {
+  "seg": 16,
+  "start": 87.6,
+  "end": 97.92,
+  "speaker": "Simon Maple",
+  "en": "Hundreds of developers, engineering leads, and VPs packed in to hear speakers from Anthropic, OpenAI, Netlify, and GitHub cut through the hype and get to what actually works.",
+  "zh": "数百名开发者、工程负责人和 VP 挤在一起,听来自 Anthropic、OpenAI、Netlify 和 GitHub 的演讲者拨开炒作迷雾,直击真正行之有效的东西。"
+ },
+ {
+  "seg": 17,
+  "start": 98.16,
+  "end": 100.8,
+  "speaker": "Simon Maple",
+  "en": "This November, we're bringing it back to New York.",
+  "zh": "今年 11 月,我们将把它带回纽约。"
+ },
+ {
+  "seg": 18,
+  "start": 101.04,
+  "end": 105.36,
+  "speaker": "Simon Maple",
+  "en": "Bigger, bolder, and full of people actually building the agentic future.",
+  "zh": "更大、更胆,满场都是在真正构建智能体未来的人。"
+ },
+ {
+  "seg": 19,
+  "start": 105.6,
+  "end": 115.04,
+  "speaker": "Simon Maple",
+  "en": "Three days of real talks, real tools, real answers, whether you're directing the agents, building the loops themselves, leading the teams, or setting the strategy.",
+  "zh": "三天的真实演讲、真实工具、真实答案——无论你是在指挥智能体、构建循环本身、带领团队,还是在制定战略。"
+ },
+ {
+  "seg": 20,
+  "start": 115.36,
+  "end": 121.2,
+  "speaker": "Simon Maple",
+  "en": "Our early bird pricing ends on September 30th, so make sure you lock in your place before prices increase.",
+  "zh": "我们的早鸟票价将于 9 月 30 日结束,所以请务必在价格上涨前锁定你的席位。"
+ },
+ {
+  "seg": 21,
+  "start": 121.36,
+  "end": 127.28,
+  "speaker": "Simon Maple",
+  "en": "As a podcast listener, you can get 15% off your ticket using the promo code POD50.",
+  "zh": "作为播客听众,你可以使用促销码 POD50 获得门票 15% 的折扣。"
+ },
+ {
+  "seg": 22,
+  "start": 128.24,
+  "end": 132.4,
+  "speaker": "Simon Maple",
+  "en": "We have so much planned, and we can't wait to have you join us in New York.",
+  "zh": "我们规划了超多内容,迫不及待想让你来纽约加入我们。"
+ },
+ {
+  "seg": 23,
+  "start": 137.28,
+  "end": 141.76,
+  "speaker": "Simon Maple",
+  "en": "Hello and welcome to another episode of the AI Native Dev.",
+  "zh": "大家好,欢迎来到新一期 AI Native Dev。"
+ },
+ {
+  "seg": 24,
+  "start": 141.92,
+  "end": 144.48,
+  "speaker": "Simon Maple",
+  "en": "And joining me today is Mark Brooker.",
+  "zh": "今天和我一起的是 Mark Brooker。"
+ },
+ {
+  "seg": 25,
+  "start": 144.64,
+  "end": 148.4,
+  "speaker": "Simon Maple",
+  "en": "And Mark is a VP and distinguished engineer at Amazon Web Services.",
+  "zh": "Mark 是 Amazon Web Services 的 VP 兼杰出工程师。"
+ },
+ {
+  "seg": 26,
+  "start": 148.48,
+  "end": 149.6,
+  "speaker": "Simon Maple",
+  "en": "Mark, welcome to the podcast.",
+  "zh": "Mark,欢迎来到播客。"
+ },
+ {
+  "seg": 27,
+  "start": 149.68,
+  "end": 150,
+  "speaker": "Simon Maple",
+  "en": "How are you?",
+  "zh": "你好吗?"
+ },
+ {
+  "seg": 28,
+  "start": 150.24,
+  "end": 151.12,
+  "speaker": "Simon Maple",
+  "en": "Well, thank you, Simon.",
+  "zh": "嗯,谢谢你,Simon。"
+ },
+ {
+  "seg": 29,
+  "start": 151.2,
+  "end": 151.68,
+  "speaker": "Simon Maple",
+  "en": "I'm great.",
+  "zh": "我很好。"
+ },
+ {
+  "seg": 30,
+  "start": 152,
+  "end": 152.56,
+  "speaker": "Simon Maple",
+  "en": "It's a pleasure.",
+  "zh": "这是我的荣幸。"
+ },
+ {
+  "seg": 31,
+  "start": 152.72,
+  "end": 153.36,
+  "speaker": "Simon Maple",
+  "en": "It's a pleasure to chat.",
+  "zh": "很高兴能聊一聊。"
+ },
+ {
+  "seg": 32,
+  "start": 153.44,
+  "end": 155.28,
+  "speaker": "Simon Maple",
+  "en": "And you're, of course, are you're on the West Coast, right?",
+  "zh": "还有你,当然,你在西海岸,对吧?"
+ },
+ {
+  "seg": 33,
+  "start": 155.36,
+  "end": 156.24,
+  "speaker": "Simon Maple",
+  "en": "Are you in San Francisco?",
+  "zh": "你在旧金山吗?"
+ },
+ {
+  "seg": 34,
+  "start": 156.48,
+  "end": 157.04,
+  "speaker": "Simon Maple",
+  "en": "I'm in Seattle.",
+  "zh": "我在西雅图。"
+ },
+ {
+  "seg": 35,
+  "start": 157.76,
+  "end": 159.12,
+  "speaker": "Simon Maple",
+  "en": "In Seattle, a little bit further.",
+  "zh": "西雅图,稍微远一点。"
+ },
+ {
+  "seg": 36,
+  "start": 159.36,
+  "end": 159.52,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 37,
+  "start": 159.76,
+  "end": 161.44,
+  "speaker": "Simon Maple",
+  "en": "And and so it must be raining.",
+  "zh": "那肯定在下雨吧。"
+ },
+ {
+  "seg": 38,
+  "start": 161.52,
+  "end": 164.16,
+  "speaker": "Simon Maple",
+  "en": "I assume it's raining there, just like it is in the UK right now.",
+  "zh": "我猜你那里在下雨,就像现在英国一样。"
+ },
+ {
+  "seg": 39,
+  "start": 164.64,
+  "end": 166.16,
+  "speaker": "Marc Brooker",
+  "en": "It is threatening terrain.",
+  "zh": "它正威胁着要下雨。"
+ },
+ {
+  "seg": 40,
+  "start": 166.24,
+  "end": 167.36,
+  "speaker": "Marc Brooker",
+  "en": "Oh, it's threatening.",
+  "zh": "哦,威胁着要下。"
+ },
+ {
+  "seg": 41,
+  "start": 167.52,
+  "end": 169.36,
+  "speaker": "Simon Maple",
+  "en": "It's either raining or a threatening terrain, as they say.",
+  "zh": "就像他们说的,要么在下雨,要么威胁着要下雨。"
+ },
+ {
+  "seg": 42,
+  "start": 169.68,
+  "end": 173.28,
+  "speaker": "Marc Brooker",
+  "en": "We've got our two weeks of glorious summer and uh and we're back to Seattle weather.",
+  "zh": "我们刚过完两周辉煌的夏天,呃,现在又回到了西雅图天气。"
+ },
+ {
+  "seg": 43,
+  "start": 173.6,
+  "end": 174.72,
+  "speaker": "Simon Maple",
+  "en": "Amazing, amazing.",
+  "zh": "太棒了,太棒了。"
+ },
+ {
+  "seg": 44,
+  "start": 174.88,
+  "end": 187.84,
+  "speaker": "Simon Maple",
+  "en": "I was I was on a call with someone from Kenya today, and weirdly, it was warmer in London today than it was in Kenya, which was I I doubt there are too many days where you could probably say that, but it's it's nice to boast every once in a while.",
+  "zh": "我今天和一位肯尼亚的人开了一个会,奇怪的是,今天伦敦比肯尼亚还暖和,我想能这么说的日子应该不多,但偶尔自夸一下挺好的。"
+ },
+ {
+  "seg": 45,
+  "start": 188,
+  "end": 191.44,
+  "speaker": "Simon Maple",
+  "en": "Um so, Mark, you've had an illustrious career so far.",
+  "zh": "呃,那么 Mark,到目前为止你的职业生涯非常辉煌。"
+ },
+ {
+  "seg": 46,
+  "start": 191.6,
+  "end": 196.4,
+  "speaker": "Simon Maple",
+  "en": "Tell us a little bit about you know what you've been up to and some of the work that you do at AWS.",
+  "zh": "给我们讲讲你一直在做什么,以及你在 AWS 做的一些工作吧。"
+ },
+ {
+  "seg": 47,
+  "start": 196.8,
+  "end": 200.32,
+  "speaker": "Marc Brooker",
+  "en": "Yeah, so I've been at AWS for a long time, for 18 years now.",
+  "zh": "好的,我在 AWS 已经待了很久,到现在 18 年了。"
+ },
+ {
+  "seg": 48,
+  "start": 200.48,
+  "end": 211.76,
+  "speaker": "Marc Brooker",
+  "en": "Um worked on a whole bunch of things, but the last few years has been really focused on agentic AI and Agentic Development Tools and the infrastructure for for agentic AI.",
+  "zh": "呃,做过一大堆事情,但最近几年真正专注于智能体 AI、智能体开发工具以及智能体 AI 的基础设施。"
+ },
+ {
+  "seg": 49,
+  "start": 211.84,
+  "end": 221.68,
+  "speaker": "Marc Brooker",
+  "en": "And so was deeply involved in the development of AWS Agent Core, this kind of suite of tools for building agents in the cloud.",
+  "zh": "所以我深度参与了 AWS Agent Core 的开发,这是一套在云端构建智能体的工具。"
+ },
+ {
+  "seg": 50,
+  "start": 221.84,
+  "end": 233.84,
+  "speaker": "Marc Brooker",
+  "en": "Um but most recently um I've been focused on building a um a team really looking at some of the future of agent building, agentic development.",
+  "zh": "嗯,不过最近呢,我一直专注于组建一个团队,真正着眼于智能体构建、智能体化开发的未来。"
+ },
+ {
+  "seg": 51,
+  "start": 234,
+  "end": 241.52,
+  "speaker": "Marc Brooker",
+  "en": "Uh, and um uh so we own uh Strands, which is AWS's agent framework, open source agent framework.",
+  "zh": "呃,所以我们负责 Strands,它是 AWS 的智能体框架,开源智能体框架。"
+ },
+ {
+  "seg": 52,
+  "start": 241.68,
+  "end": 258.88,
+  "speaker": "Marc Brooker",
+  "en": "We've got some really cool technology coming in the Strands space, uh, and then are building some new development tools, thinking a lot about the future of development uh and doing uh everything ranging from fairly basic research to a lot of code building, a lot of product building.",
+  "zh": "我们在 Strands 这个方向上有一些非常酷的技术即将推出,呃,同时也在构建一些新的开发工具,深入思考开发的未来,呃,做的所有事情从相当基础的研究,到大量的代码构建、大量的产品构建。"
+ },
+ {
+  "seg": 53,
+  "start": 259.04,
+  "end": 268.56,
+  "speaker": "Marc Brooker",
+  "en": "So it's a really fun time to uh you're really kind of be focusing on pushing the frontier of of what it means to build software.",
+  "zh": "所以现在是一个非常有趣的时刻,呃,你真正可以专注于推动「构建软件意味着什么」的前沿。"
+ },
+ {
+  "seg": 54,
+  "start": 268.96,
+  "end": 269.36,
+  "speaker": "Simon Maple",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 55,
+  "start": 269.44,
+  "end": 272.4,
+  "speaker": "Simon Maple",
+  "en": "And actually, we haven't really talked about Strands too much on the podcast.",
+  "zh": "实际上,我们在播客里还没怎么聊过 Strands。"
+ },
+ {
+  "seg": 56,
+  "start": 272.48,
+  "end": 275.92,
+  "speaker": "Simon Maple",
+  "en": "Tell us a little bit about you know what Strands is and who should be interested.",
+  "zh": "跟我们讲讲 Strands 是什么,以及谁应该对它感兴趣。"
+ },
+ {
+  "seg": 57,
+  "start": 276.32,
+  "end": 279.76,
+  "speaker": "Marc Brooker",
+  "en": "Yeah, so Strands is an open source SDK for building agents.",
+  "zh": "好的,Strands 是一个用于构建智能体的开源 SDK。"
+ },
+ {
+  "seg": 58,
+  "start": 280,
+  "end": 285.6,
+  "speaker": "Marc Brooker",
+  "en": "Um works with any any model, any cloud provider, local agents, etc.",
+  "zh": "嗯,它适用于任何模型、任何云服务商、本地智能体等等。"
+ },
+ {
+  "seg": 59,
+  "start": 285.92,
+  "end": 293.52,
+  "speaker": "Marc Brooker",
+  "en": "Uh and the goal of Strands is to make it as easy as possible to build great production ready agents.",
+  "zh": "呃,Strands 的目标是让构建优秀的、可用于生产环境的智能体尽可能简单。"
+ },
+ {
+  "seg": 60,
+  "start": 293.76,
+  "end": 319.36,
+  "speaker": "Marc Brooker",
+  "en": "Um so the kind of minimal Strands agent is just a handful of lines of code, but you can build out from there with um tool integrations, uh, you know, all built-in MCP clients, built-in open API clients, um context management, uh all of the things that go into um you know into building a great agent.",
+  "zh": "嗯,所以最小化的 Strands 智能体只需要几行代码,但你可以在此基础上扩展,加上呃工具集成、内置的 MCP 客户端、内置的 open API 客户端、上下文管理,嗯,所有这些东西都是构建一个优秀智能体所需要的。"
+ },
+ {
+  "seg": 61,
+  "start": 319.52,
+  "end": 329.2,
+  "speaker": "Marc Brooker",
+  "en": "Um and the strands team is really trying to make that as easy as possible by being, let's say, very opinionated about good agent patterns.",
+  "zh": "嗯,而 Strands 团队真正想做的就是让这件事尽可能简单,方式是,可以说是,对优秀的智能体模式持有非常鲜明的观点。"
+ },
+ {
+  "seg": 62,
+  "start": 329.28,
+  "end": 342.56,
+  "speaker": "Marc Brooker",
+  "en": "And uh and so you can extend strands, you can use it any way you want, but there's a really nice kind of paved path through strands uh that uh has these opinions of of you know what we think right now it means to build a great agent built right in.",
+  "zh": "然后呃你可以扩展 Strands,你可以用任何你想用的方式使用它,但通过 Strands 有一条非常好的铺好的路径,呃,内置了这些观点——关于我们现在认为构建一个优秀智能体意味着什么。"
+ },
+ {
+  "seg": 63,
+  "start": 343.04,
+  "end": 349.84,
+  "speaker": "Simon Maple",
+  "en": "It's funny because I always think you know developers who have never built an agent before probably think there's actually so much complexity behind the scenes.",
+  "zh": "这很有意思,因为我一直在想,那些从未构建过智能体的开发者可能以为幕后实际上有非常多的复杂性。"
+ },
+ {
+  "seg": 64,
+  "start": 349.92,
+  "end": 350,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 65,
+  "start": 350.16,
+  "end": 353.52,
+  "speaker": "Simon Maple",
+  "en": "But they can actually be very thin veneers uh around an LLM.",
+  "zh": "但它们实际上可以只是围绕一个 LLM 的非常薄的 veneers(表层外壳)。"
+ },
+ {
+  "seg": 66,
+  "start": 353.6,
+  "end": 358.4,
+  "speaker": "Simon Maple",
+  "en": "And and um I think it's you know I very much encourage people and listeners to actually build that.",
+  "zh": "然后呢,嗯,我觉得我非常鼓励大家和听众去真正动手构建那个东西。"
+ },
+ {
+  "seg": 67,
+  "start": 358.48,
+  "end": 364.24,
+  "speaker": "Simon Maple",
+  "en": "And it sounds like it sounds like this could be a uh you know a very helpful way of actually doing that from from scratch.",
+  "zh": "听起来这可以是一个,你知道的,真正从零开始做到这一点非常有用的方式。"
+ },
+ {
+  "seg": 68,
+  "start": 364.56,
+  "end": 365.28,
+  "speaker": "Marc Brooker",
+  "en": "Yeah, for sure.",
+  "zh": "是的,当然。"
+ },
+ {
+  "seg": 69,
+  "start": 365.36,
+  "end": 370.4,
+  "speaker": "Marc Brooker",
+  "en": "And you know, I I really just would encourage people to you know build build your own development agent.",
+  "zh": "而且你知道,我真的就是会鼓励大家去构建你自己的开发智能体。"
+ },
+ {
+  "seg": 70,
+  "start": 370.56,
+  "end": 400.16,
+  "speaker": "Marc Brooker",
+  "en": "I mean, that's not going to be as good as as one of the you know major commercial offerings, but very quickly, even in a couple of hours, you'll get this much better intuition for what's going on under the covers of those agents, how they work, and I think that kind of experience, and maybe we'll touch on this a lot more as we talk about you know how software development is changing, but that experience of knowing on what's about what's going on under the covers, um, I think just makes people better users of uh of even the these great commercial products.",
+  "zh": "我的意思是,那不会比得上那些,你知道的,主要的商业产品,但很快,哪怕只用几个小时,你就会对这些智能体在幕后发生了什么、它们如何工作,有更强的直觉,我认为那种经验——也许我们在后面聊软件开发如何变化时会更多地谈到这一点——但那种了解幕后正在发生什么的经验,嗯,我认为只会让人成为更好的用户,即使是这些优秀商业产品的用户。"
+ },
+ {
+  "seg": 71,
+  "start": 400.4,
+  "end": 400.96,
+  "speaker": "Simon Maple",
+  "en": "Yeah, yeah.",
+  "zh": "是的,是的。"
+ },
+ {
+  "seg": 72,
+  "start": 401.12,
+  "end": 401.84,
+  "speaker": "Simon Maple",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 73,
+  "start": 402.08,
+  "end": 408.56,
+  "speaker": "Simon Maple",
+  "en": "Um, Mark, I want to talk, uh, I want to go into a little bit of depth now, and I want to talk about something that was very interesting.",
+  "zh": "嗯,Mark,我想聊,呃,我现在想稍微深入一点,我想聊一件非常有趣的事情。"
+ },
+ {
+  "seg": 74,
+  "start": 408.8,
+  "end": 410.72,
+  "speaker": "Simon Maple",
+  "en": "I think you mentioned in a book as well.",
+  "zh": "我记得你在一本书里也提到过。"
+ },
+ {
+  "seg": 75,
+  "start": 410.8,
+  "end": 415.12,
+  "speaker": "Simon Maple",
+  "en": "Um, and it goes back to the time, 15 years, I think, that you spent on call.",
+  "zh": "嗯,这要回溯到那段时光,我想是你花了 15 年做 on call(值班)的那段时间。"
+ },
+ {
+  "seg": 76,
+  "start": 415.28,
+  "end": 417.76,
+  "speaker": "Simon Maple",
+  "en": "That's a lot of 3AMs, first of all, right?",
+  "zh": "首先,那可是大量的凌晨 3 点,对吧?"
+ },
+ {
+  "seg": 77,
+  "start": 417.84,
+  "end": 419.76,
+  "speaker": "Simon Maple",
+  "en": "That's uh that's a lot to put anyone through.",
+  "zh": "那呃对任何人来说都是很大的折磨。"
+ },
+ {
+  "seg": 78,
+  "start": 419.92,
+  "end": 420.96,
+  "speaker": "Simon Maple",
+  "en": "Uh must have been painful.",
+  "zh": "嗯,肯定很痛苦吧。"
+ },
+ {
+  "seg": 79,
+  "start": 421.12,
+  "end": 424.48,
+  "speaker": "Simon Maple",
+  "en": "You enjoy on call, you enjoyed the the the those kind of roles?",
+  "zh": "你享受 on call,你享受那那些之类的角色吗?"
+ },
+ {
+  "seg": 80,
+  "start": 424.96,
+  "end": 436.48,
+  "speaker": "Marc Brooker",
+  "en": "I do, and I I just find them an incredible opportunity for learning how the real world works, like learning how our systems actually run, you know, learning what our customers deeply care about.",
+  "zh": "我享受,而且我只是觉得它们是一个难以置信的机会,可以学习真实世界如何运作,比如学习我们的系统实际上是如何运行的,你知道的,学习我们的客户深层在乎的是什么。"
+ },
+ {
+  "seg": 81,
+  "start": 437.04,
+  "end": 447.28,
+  "speaker": "Marc Brooker",
+  "en": "And you know, this is one of the challenges you come out of university, and you know, I came out of grad school with a ton of what I thought was practical knowledge, but a lot of it was quite theoretical.",
+  "zh": "而且你知道,这是挑战之一——你大学毕业,你知道的,我从研究生院毕业时带着一大堆我以为很实用的知识,但其中很多其实相当理论化。"
+ },
+ {
+  "seg": 82,
+  "start": 447.44,
+  "end": 464.88,
+  "speaker": "Marc Brooker",
+  "en": "Um, and then on-call was really this huge catalyst over my career for more deeply understanding how systems actually work, how systems actually fail, how we can stop them from failing, you know, how those things affect our customers and how we can help our customers out.",
+  "zh": "嗯,然后 on call 真的是我职业生涯中一个巨大的催化剂,让我更深入地理解系统实际上如何工作、系统实际上如何失败、我们如何能阻止它们失败、你知道的,那些事情如何影响我们的客户,以及我们如何能帮助我们的客户。"
+ },
+ {
+  "seg": 83,
+  "start": 465.2,
+  "end": 474,
+  "speaker": "Simon Maple",
+  "en": "Um it's it's funny, Mark, because I always think a lot of people think they become a senior developer when they've done five or more years in development.",
+  "zh": "嗯,这很有意思,Mark,因为我一直觉得很多人以为做了五年或更多年开发,就成了资深开发者。"
+ },
+ {
+  "seg": 84,
+  "start": 474.16,
+  "end": 485.6,
+  "speaker": "Simon Maple",
+  "en": "Um whereas actually I think it's more these types of roles where you get that real exposure into what it takes to build a real app that's you know reliable and etc.",
+  "zh": "嗯,而实际上我认为更多是这些类型的角色,能让你真正接触到构建一个可靠等等的真正应用需要什么。"
+ },
+ {
+  "seg": 85,
+  "start": 486,
+  "end": 486.24,
+  "speaker": "Simon Maple",
+  "en": "etc.",
+  "zh": "等等。"
+ },
+ {
+  "seg": 86,
+  "start": 486.8,
+  "end": 505.44,
+  "speaker": "Simon Maple",
+  "en": "But i i is this still you know, talking about the future of development with AI, do you feel like this is um gonna continue this this type of uh encore is gonna continue, or do you feel like agents will very much be able to uh take that role from us?",
+  "zh": "但是,你知道的,聊到 AI 时代的开发未来,你觉得这个,嗯,这种呃 encore 会继续下去吗,还是你觉得智能体会很大程度上能够呃从我们手中接走那个角色?"
+ },
+ {
+  "seg": 87,
+  "start": 506.96,
+  "end": 518.8,
+  "speaker": "Marc Brooker",
+  "en": "You know, I think um you know, and this is gonna be a this is just a major theme of of software is we're gonna see a huge amount of automation of increasing automation of the the rote things, right?",
+  "zh": "你知道的,我觉得,嗯,你知道的,这只是软件的一个重大主题:我们会看到大量的自动化,越来越多的自动化,针对那些机械重复的事情,对吧?"
+ },
+ {
+  "seg": 88,
+  "start": 518.96,
+  "end": 523.68,
+  "speaker": "Marc Brooker",
+  "en": "The oh, you know, there's been you know the this kind of failure.",
+  "zh": "那种「哦,你知道的,又发生了呃这种故障」。"
+ },
+ {
+  "seg": 89,
+  "start": 523.84,
+  "end": 524.96,
+  "speaker": "Marc Brooker",
+  "en": "And that's not new, right?",
+  "zh": "而这不是新事物,对吧?"
+ },
+ {
+  "seg": 90,
+  "start": 525.04,
+  "end": 530.16,
+  "speaker": "Marc Brooker",
+  "en": "Like if you look at the whole history of cloud and and computing, this has been a theme, right?",
+  "zh": "就像如果你看看云和计算的整个历史,这一直是一个主题,对吧?"
+ },
+ {
+  "seg": 91,
+  "start": 530.24,
+  "end": 539.04,
+  "speaker": "Marc Brooker",
+  "en": "Like we used to get paged for single host failures, but now you know AWS autoscaling 15 years ago has just started dealing with those things for us.",
+  "zh": "就像我们过去会因为单台主机故障被呼叫,但现在你知道的,AWS 的 autoscaling 在 15 年前就已经开始替我们处理那些事情了。"
+ },
+ {
+  "seg": 92,
+  "start": 539.12,
+  "end": 542.08,
+  "speaker": "Marc Brooker",
+  "en": "And and load balancer health checks started dealing with those things.",
+  "zh": "然后负载均衡器的健康检查也开始处理那些事情。"
+ },
+ {
+  "seg": 93,
+  "start": 542.16,
+  "end": 544.08,
+  "speaker": "Marc Brooker",
+  "en": "And so we automated those away.",
+  "zh": "所以我们把那些自动化掉了。"
+ },
+ {
+  "seg": 94,
+  "start": 544.32,
+  "end": 556.64,
+  "speaker": "Marc Brooker",
+  "en": "And we're seeing exactly the same thing with with AI, with the basic um the basic investigations of on-call, the the log scraping, the diving into metrics and so on.",
+  "zh": "而我们在 AI 身上看到的一模一样,针对 on call 的基础性调查、日志抓取、钻取指标等等。"
+ },
+ {
+  "seg": 95,
+  "start": 556.8,
+  "end": 568.32,
+  "speaker": "Marc Brooker",
+  "en": "Um, you know, if you look at something like AWS's DevOps agent, it's great at doing that kind of automation of um, let's say the more day-to-day aspects of on-call.",
+  "zh": "嗯,你知道的,如果你看看像 AWS 的 DevOps agent 这样的东西,它非常擅长做那种自动化,嗯,可以说,是 on call 中更日常的那些方面。"
+ },
+ {
+  "seg": 96,
+  "start": 568.56,
+  "end": 575.44,
+  "speaker": "Marc Brooker",
+  "en": "And then what's left is the really interesting reasoning about why is the system behaving this way?",
+  "zh": "然后剩下的就是真正有趣的部分:对「为什么系统表现成这样」的推理。"
+ },
+ {
+  "seg": 97,
+  "start": 575.68,
+  "end": 582.08,
+  "speaker": "Marc Brooker",
+  "en": "Um, you know, what are we seeing in terms of um large-scale failures?",
+  "zh": "嗯,你知道的,我们在大规模故障方面看到了什么?"
+ },
+ {
+  "seg": 98,
+  "start": 582.24,
+  "end": 587.12,
+  "speaker": "Marc Brooker",
+  "en": "What are we seeing in terms of improving performance at at big scale and so on?",
+  "zh": "我们在巨大规模下改进性能方面看到了什么,等等?"
+ },
+ {
+  "seg": 99,
+  "start": 587.36,
+  "end": 593.68,
+  "speaker": "Marc Brooker",
+  "en": "And uh, you know, automation is gonna help us there a whole lot, but it doesn't have answers to those questions today.",
+  "zh": "然后,你知道的,自动化在那里会帮我们很多,但它今天还没有这些问题的答案。"
+ },
+ {
+  "seg": 100,
+  "start": 594.08,
+  "end": 594.32,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 101,
+  "start": 594.64,
+  "end": 597.52,
+  "speaker": "Simon Maple",
+  "en": "And and I'd like to think that when I do wake up at 3 a.m.",
+  "zh": "我愿意相信，当我凌晨 3 点醒来时——"
+ },
+ {
+  "seg": 102,
+  "start": 598,
+  "end": 602.24,
+  "speaker": "Simon Maple",
+  "en": "and other early morning times are available, but let's stick with 3 a.m.",
+  "zh": "其他清晨时段也可以，但我们就说凌晨 3 点吧——"
+ },
+ {
+  "seg": 103,
+  "start": 602.88,
+  "end": 615.6,
+  "speaker": "Simon Maple",
+  "en": "that an agent has already been through the logs and been through all the information, you know, the gruelling part of the the debugging of, or not the debugging per se, but trying to identify what a root cause could be.",
+  "zh": "那时一个智能体已经翻遍了日志、翻遍了所有信息，也就是那些最折磨人的调试部分，或者说不是调试本身，而是尝试找出可能的根本原因。"
+ },
+ {
+  "seg": 104,
+  "start": 615.84,
+  "end": 625.68,
+  "speaker": "Simon Maple",
+  "en": "And has already provided that as part of you know the on call where I I I I'm woken up and presented with all the information that I need to make a decision.",
+  "zh": "并且已经把这些作为值班流程的一部分提供给我，也就是说我被叫醒时，所有我需要用来做决策的信息都已经摆在面前。"
+ },
+ {
+  "seg": 105,
+  "start": 626.08,
+  "end": 640.16,
+  "speaker": "Simon Maple",
+  "en": "Um I'd love to know as part of the as part of the you know your writing in the past, you've said um around that you've done around 3,000 or you've read 3,000 to 4,000 postmortems.",
+  "zh": "嗯，我很想了解一下，你过去的写作中你说过，你做过大约 3000 份，或者说你读过 3000 到 4000 份复盘报告。"
+ },
+ {
+  "seg": 106,
+  "start": 640.32,
+  "end": 647.12,
+  "speaker": "Simon Maple",
+  "en": "Um I guess what did that teach you um that you wouldn't have really been able to learn without being on call?",
+  "zh": "嗯，我想问，这教会了你什么，是如果不值班就真正学不到的东西？"
+ },
+ {
+  "seg": 107,
+  "start": 647.2,
+  "end": 652.96,
+  "speaker": "Simon Maple",
+  "en": "So as a typical developer trying to build, what what did the postmortems really open up for you?",
+  "zh": "作为一个典型的想要构建东西的开发者，这些复盘报告真正为你打开了什么？"
+ },
+ {
+  "seg": 108,
+  "start": 653.44,
+  "end": 655.76,
+  "speaker": "Marc Brooker",
+  "en": "Well, one of them is a deep sense of humility.",
+  "zh": "嗯，其中之一是一种深深的谦卑感。"
+ },
+ {
+  "seg": 109,
+  "start": 655.92,
+  "end": 660.48,
+  "speaker": "Marc Brooker",
+  "en": "Uh you know, as as engineers, we uh we tend to be optimistic, which is great.",
+  "zh": "你知道，作为工程师，我们往往比较乐观，这很好。"
+ },
+ {
+  "seg": 110,
+  "start": 660.64,
+  "end": 665.2,
+  "speaker": "Marc Brooker",
+  "en": "Uh, you know, we tend to think, hey, we can build this, we can solve this problem, which is fantastic.",
+  "zh": "你知道，我们倾向于认为，嘿，我们能构建这个，我们能解决这个问题，这非常棒。"
+ },
+ {
+  "seg": 111,
+  "start": 665.36,
+  "end": 678.16,
+  "speaker": "Marc Brooker",
+  "en": "Um, and then you know, you see how things fail and you see when things don't work, and and you get a a dose of humility from that, and a dose of um uh uh sort of closing that loop of okay, well, I'm gonna be optimistic.",
+  "zh": "嗯，然后呢，你会看到事情是如何失败的，看到事情不奏效的时候，你会从中得到一份谦卑，得到一份，呃，呃，一种闭合那个循环的感觉：好吧，我还是会保持乐观。"
+ },
+ {
+  "seg": 112,
+  "start": 678.24,
+  "end": 682.4,
+  "speaker": "Marc Brooker",
+  "en": "I'm still gonna believe I can do this, but I'm gonna do it in a better, smarter way this time.",
+  "zh": "我仍然会相信我能做到，但这次我会用一种更好、更聪明的方式去做。"
+ },
+ {
+  "seg": 113,
+  "start": 682.56,
+  "end": 682.88,
+  "speaker": "Marc Brooker",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 114,
+  "start": 683.04,
+  "end": 698,
+  "speaker": "Marc Brooker",
+  "en": "Um, one very concrete thing, for example, is uh, you know, over the last 10 years or so, there's been this increasing um familiarity with a concept uh that is now called um metastable failures.",
+  "zh": "嗯，举个例子，一个非常具体的事情是，在过去 10 年左右，人们对一个概念越来越熟悉，这个概念现在被称为，嗯，亚稳态失效。"
+ },
+ {
+  "seg": 115,
+  "start": 698.16,
+  "end": 715.92,
+  "speaker": "Marc Brooker",
+  "en": "There's these failures that large systems have where something will happen, whether it's an overload or a component failure, the system will go down, the immediate cause will be repaired, and the system won't recover because it gets stuck in this sort of stable down state.",
+  "zh": "这是大型系统会出现的失效：某件事发生，无论是过载还是组件故障，系统宕机，直接原因被修复了，但系统却无法恢复，因为它卡在了这种稳定的宕机状态里。"
+ },
+ {
+  "seg": 116,
+  "start": 716.24,
+  "end": 728,
+  "speaker": "Marc Brooker",
+  "en": "Um and you know, deeply understanding that has been super important to understanding how to avoid whole classes of long and painful outages.",
+  "zh": "嗯，深入理解这一点，对于理解如何避免整类漫长而痛苦的故障中断，是极其重要的。"
+ },
+ {
+  "seg": 117,
+  "start": 728.24,
+  "end": 743.84,
+  "speaker": "Marc Brooker",
+  "en": "And I think a lot of our understanding of that, and certainly personally a lot of my understanding of that, has been come come from looking at real-world incidents, looking at when that happens, and then analyzing the dynamics of the system during those times.",
+  "zh": "我认为我们在这方面的大量理解，当然我个人在这方面的理解，很大程度上来自观察真实世界的事故，观察它何时发生，然后分析系统在那期间的动态。"
+ },
+ {
+  "seg": 118,
+  "start": 744.08,
+  "end": 764.24,
+  "speaker": "Marc Brooker",
+  "en": "Um, and you know, we could have approached that entirely analytically, we could have approached that from the outside, but I think we've learned a huge amount more by looking at how real systems fail, both you know, our own and systems across the industry, and really trying to extract like, what was it that kicked the system into this state?",
+  "zh": "嗯，我们本可以完全用分析的方法来处理它，本可以从外部入手，但我认为我们通过观察真实系统如何失败学到了多得多的东西，包括我们自己的系统和整个行业的系统，并真正试图提取出：是什么把系统踢进了这种状态？"
+ },
+ {
+  "seg": 119,
+  "start": 764.32,
+  "end": 766,
+  "speaker": "Marc Brooker",
+  "en": "What was it that kept it down?",
+  "zh": "是什么让它一直起不来？"
+ },
+ {
+  "seg": 120,
+  "start": 766.16,
+  "end": 768,
+  "speaker": "Marc Brooker",
+  "en": "What was it that led to recovery?",
+  "zh": "是什么最终带来了恢复？"
+ },
+ {
+  "seg": 121,
+  "start": 768.16,
+  "end": 770.96,
+  "speaker": "Marc Brooker",
+  "en": "How can we make systems more resilient against those things?",
+  "zh": "我们如何让系统对这些情况更有韧性？"
+ },
+ {
+  "seg": 122,
+  "start": 771.12,
+  "end": 773.12,
+  "speaker": "Marc Brooker",
+  "en": "How can we make that recovery faster?",
+  "zh": "我们如何让恢复变得更快？"
+ },
+ {
+  "seg": 123,
+  "start": 773.28,
+  "end": 780.24,
+  "speaker": "Marc Brooker",
+  "en": "And to your earlier question, how can we build automation that can make that recovery automatic when it's when we're in one of those states?",
+  "zh": "回到你之前的问题，当我们处于这类状态时，我们如何构建能让恢复自动化的自动化？"
+ },
+ {
+  "seg": 124,
+  "start": 780.56,
+  "end": 782.08,
+  "speaker": "Simon Maple",
+  "en": "Yeah, yeah, super interesting.",
+  "zh": "是的，是的，非常有趣。"
+ },
+ {
+  "seg": 125,
+  "start": 782.16,
+  "end": 784.8,
+  "speaker": "Simon Maple",
+  "en": "And I think that learning and feedback is super key.",
+  "zh": "我认为这种学习和反馈是极其关键的。"
+ },
+ {
+  "seg": 126,
+  "start": 784.88,
+  "end": 794.32,
+  "speaker": "Simon Maple",
+  "en": "And I think for us as humans, you know, pre-AI being mainstream, it's what we would have learned and what really would have leveled us up to that senior developer.",
+  "zh": "我认为对我们人类来说，你知道，在 AI 成为主流之前，这正是我们会学到的东西，也正是真正把我们提升到资深开发者水平的东西。"
+ },
+ {
+  "seg": 127,
+  "start": 794.4,
+  "end": 798,
+  "speaker": "Simon Maple",
+  "en": "And and I think your point on humility is so valuable.",
+  "zh": "而且我认为你关于谦卑的观点非常有价值。"
+ },
+ {
+  "seg": 128,
+  "start": 798.16,
+  "end": 806.4,
+  "speaker": "Simon Maple",
+  "en": "I think you go in with a different mindset when you build code and you think, right, I know this is gonna break, I just don't know how or when.",
+  "zh": "我认为你在写代码、构建代码时会带着不同的心态，你会想：好，我知道这肯定会出问题，我只是不知道会怎么出问题或什么时候出问题。"
+ },
+ {
+  "seg": 129,
+  "start": 806.56,
+  "end": 808.48,
+  "speaker": "Simon Maple",
+  "en": "Um and you look at it quite differently.",
+  "zh": "嗯，你会用相当不同的方式看待它。"
+ },
+ {
+  "seg": 130,
+  "start": 808.56,
+  "end": 810.56,
+  "speaker": "Simon Maple",
+  "en": "So I I love that answer, I think that's brilliant.",
+  "zh": "所以我很喜欢这个回答，我觉得非常精彩。"
+ },
+ {
+  "seg": 131,
+  "start": 810.72,
+  "end": 822.48,
+  "speaker": "Simon Maple",
+  "en": "Um I'd love to understand we we as humans can learn um from from not just our mistakes but our experiences, uh, our uh uh our view of other uh post-mortems and things.",
+  "zh": "嗯，我很想了解，我们人类可以从错误中学习，也可以从经历中学习，从我们观察别人的复盘报告之类的中学到东西。"
+ },
+ {
+  "seg": 132,
+  "start": 822.72,
+  "end": 823.84,
+  "speaker": "Simon Maple",
+  "en": "How about agents?",
+  "zh": "那智能体呢？"
+ },
+ {
+  "seg": 133,
+  "start": 824,
+  "end": 852.24,
+  "speaker": "Simon Maple",
+  "en": "Um when we think about uh loop engineering, for example, and we think about how we can take these loops that will automatically um understand how agent c agents could have done better, potentially updating context, updating skills, so that when we write uh and build applications that are similar, we can potentially circumvent uh you know g work around certain problems or at least guard against them.",
+  "zh": "嗯，比如当我们思考循环工程，思考我们如何利用这些循环来自动理解智能体本可以做得更好的地方，可能更新上下文、更新技能，这样当我们编写和构建类似的应用时，我们就有可能绕开某些问题，或者至少防范它们。"
+ },
+ {
+  "seg": 134,
+  "start": 852.64,
+  "end": 862.08,
+  "speaker": "Simon Maple",
+  "en": "Is that realistic or is that kind of like a pipe dream in terms of the type of bugs that would be raised uh uh to a to a um a postmortem?",
+  "zh": "这现实吗？还是说，就那种会被提交到复盘报告的 bug 类型而言，这更像是白日梦？"
+ },
+ {
+  "seg": 135,
+  "start": 862.48,
+  "end": 870.08,
+  "speaker": "Marc Brooker",
+  "en": "Oh, that's very realistic, and and and very much that is you know what what is happening today at the at the frontier of these agents.",
+  "zh": "哦，这非常现实，而且很大程度上，这正是当今这些智能体前沿上正在发生的事情。"
+ },
+ {
+  "seg": 136,
+  "start": 870.24,
+  "end": 872.24,
+  "speaker": "Marc Brooker",
+  "en": "With a a variety of techniques.",
+  "zh": "用各种各样的技术。"
+ },
+ {
+  "seg": 137,
+  "start": 872.32,
+  "end": 877.44,
+  "speaker": "Marc Brooker",
+  "en": "And so, you know, one of the techniques that you have is to say, hey, I've got all of these postmortems.",
+  "zh": "所以，你知道，其中一种技术是说，嘿，我拥有所有这些复盘报告。"
+ },
+ {
+  "seg": 138,
+  "start": 877.6,
+  "end": 881.76,
+  "speaker": "Marc Brooker",
+  "en": "Um I'm gonna put them in the training set of the model, and so you can improve the model.",
+  "zh": "嗯，我要把它们放进模型的训练集里，这样你就可以改进模型。"
+ },
+ {
+  "seg": 139,
+  "start": 881.92,
+  "end": 896.08,
+  "speaker": "Marc Brooker",
+  "en": "Another way is to say, I've got all of these postmortems, and I'm going to give my agent a tool to search over those postmortems semantically and say, show me incidents like this one, and then I can understand how I recovered from that.",
+  "zh": "另一种方式是说，我拥有所有这些复盘报告，我要给我的智能体一个工具，可以对那些复盘报告进行语义搜索，说：给我看类似这样的事故，然后我就能理解当时是如何恢复的。"
+ },
+ {
+  "seg": 140,
+  "start": 896.32,
+  "end": 901.76,
+  "speaker": "Marc Brooker",
+  "en": "And then at that point, that agent can write its own memories and say, I tried X, it didn't work.",
+  "zh": "到那时，那个智能体就可以写下自己的记忆，说：我试了 X，没成功。"
+ },
+ {
+  "seg": 141,
+  "start": 901.92,
+  "end": 903.2,
+  "speaker": "Marc Brooker",
+  "en": "I tried Y and it worked.",
+  "zh": "我试了 Y，成功了。"
+ },
+ {
+  "seg": 142,
+  "start": 903.36,
+  "end": 912.24,
+  "speaker": "Marc Brooker",
+  "en": "And so next time it will retrieve from those post-mortems, it'll retrieve from its memories and jump ahead in that phase.",
+  "zh": "这样下次它就会从那些复盘报告中检索、从它的记忆中检索，直接跳过那个阶段。"
+ },
+ {
+  "seg": 143,
+  "start": 912.56,
+  "end": 917.36,
+  "speaker": "Marc Brooker",
+  "en": "Increasingly, agents are also seeing, hey, I did this step and this step and this step.",
+  "zh": "越来越多的智能体还意识到，嘿，我做了这一步、这一步、这一步。"
+ },
+ {
+  "seg": 144,
+  "start": 917.44,
+  "end": 929.92,
+  "speaker": "Marc Brooker",
+  "en": "I could encode all of those into a piece of code and build myself a tool and put that tool in my memory, this kind of procedural memory, um, and and remember that and just pull that off the shelf when I need it.",
+  "zh": "我可以把所有这些编码成一段代码，给自己构建一个工具，把那个工具放进我的记忆里，也就是这种程序性记忆，嗯，然后记住它，需要的时候就直接拿来用。"
+ },
+ {
+  "seg": 145,
+  "start": 930.08,
+  "end": 939.2,
+  "speaker": "Marc Brooker",
+  "en": "Um so there is building those libraries of context for agents, uh, there is building great, you know, allowing agents to build and and manage their own memories.",
+  "zh": "嗯，所以有为智能体构建这些上下文库，有构建很棒的，你知道，让智能体能够构建和管理它们自己的记忆。"
+ },
+ {
+  "seg": 146,
+  "start": 939.28,
+  "end": 947.68,
+  "speaker": "Marc Brooker",
+  "en": "Um, there's model customization, uh, and then there's both manual and automatic tool building for agents and a whole variety of other techniques.",
+  "zh": "嗯，还有模型定制，然后还有为智能体手动和自动构建工具，以及一大堆其他的技术。"
+ },
+ {
+  "seg": 147,
+  "start": 947.92,
+  "end": 962,
+  "speaker": "Marc Brooker",
+  "en": "And each of these things can help us make agents um learn from experience and get better and better at solving uh certain types of problems, both more reliably but also more quickly and more cheaply.",
+  "zh": "而这些每一项都能帮助智能体从经验中学习，在解决某些类型的问题上越来越好，不仅更可靠，还更快、更便宜。"
+ },
+ {
+  "seg": 148,
+  "start": 962.56,
+  "end": 986.96,
+  "speaker": "Simon Maple",
+  "en": "And and do you think that loop of learning and understanding, uh particularly around you know, incidents that occur, do you think that's m most valuable during an incident where it can actually learn and understand uh where possible root causes are, or or you know, it's likely that it's going to be something like this because it's the last four were similar or happy I I I saw a similar footprint before.",
+  "zh": "那你觉得这个学习和理解的循环，尤其是围绕发生的事故，你觉得是在事故进行中最有价值——它可以在其中真正学习并理解可能的根本原因在哪里，或者你知道，很可能是因为过去四次类似的情况都是这样，或者我曾见过类似的特征——"
+ },
+ {
+  "seg": 149,
+  "start": 987.12,
+  "end": 994.4,
+  "speaker": "Simon Maple",
+  "en": "Or do you think that learning can be taken down into the architecture decisions and the development decisions for future building?",
+  "zh": "还是说这些学习可以被延伸到架构决策和开发决策中，用于未来的构建？"
+ },
+ {
+  "seg": 150,
+  "start": 994.8,
+  "end": 999.28,
+  "speaker": "Marc Brooker",
+  "en": "Yeah, well, I you know, I I I I hope so, and that's that's that's a bet that we're making.",
+  "zh": "是啊，嗯，你知道，我我我我希望如此，而这就是我们正在下的注。"
+ },
+ {
+  "seg": 151,
+  "start": 999.44,
+  "end": 1001.76,
+  "speaker": "Marc Brooker",
+  "en": "I think we haven't seen as much of that yet.",
+  "zh": "我觉得我们还没有看到太多那种情况。"
+ },
+ {
+  "seg": 152,
+  "start": 1002,
+  "end": 1002.32,
+  "speaker": "Marc Brooker",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 153,
+  "start": 1002.48,
+  "end": 1015.12,
+  "speaker": "Marc Brooker",
+  "en": "Um and maybe, you know, to take that back to the human level, one of the things that we've always done at Amazon is our our product teams, the same people who are building our products, are on call for those products.",
+  "zh": "嗯，也许，你知道，把这拉回到人的层面，我们在 Amazon 一直在做的一件事是，我们的产品团队，也就是构建我们产品的同一批人，要为这些产品值班(on call)。"
+ },
+ {
+  "seg": 154,
+  "start": 1015.36,
+  "end": 1020,
+  "speaker": "Marc Brooker",
+  "en": "And we do that primarily because it drives exactly that learning loop, right?",
+  "zh": "我们这么做主要是因为它恰好能驱动那个学习闭环，对吧？"
+ },
+ {
+  "seg": 155,
+  "start": 1020.16,
+  "end": 1026.24,
+  "speaker": "Marc Brooker",
+  "en": "You uh you get that production experience, you get those customer anecdotes, and you bring them right back into development.",
+  "zh": "你能得到那种生产环境的经验，得到那些客户的轶事，然后直接把它们带回开发中。"
+ },
+ {
+  "seg": 156,
+  "start": 1026.32,
+  "end": 1026.48,
+  "speaker": "Marc Brooker",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 157,
+  "start": 1026.64,
+  "end": 1035.2,
+  "speaker": "Marc Brooker",
+  "en": "Whereas separating those things out into separate teams, although it does have its advantages, makes that learning loop much harder to drive and much more abstract.",
+  "zh": "而把这些事情拆分到不同的团队，虽然有它的优势，却会让那个学习闭环难驱动得多、抽象得多。"
+ },
+ {
+  "seg": 158,
+  "start": 1035.36,
+  "end": 1035.68,
+  "speaker": "Marc Brooker",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 159,
+  "start": 1036,
+  "end": 1051.2,
+  "speaker": "Marc Brooker",
+  "en": "And so when we get into the agent world, what we want is that our coding agents, our development agents, our software building agents, are learning from production experience in exactly the same way that uh operations automation agents are.",
+  "zh": "所以当我们进入智能体的世界时，我们想要的是，我们的编程智能体、开发智能体、构建软件的智能体，能够以和运维自动化智能体完全相同的方式从生产经验中学习。"
+ },
+ {
+  "seg": 160,
+  "start": 1052.32,
+  "end": 1059.92,
+  "speaker": "Marc Brooker",
+  "en": "And there's a path to that with memory, with sharing context, with you know, sharing those memories, sharing tools, etc.",
+  "zh": "并且有一条通往那里的路径，通过记忆、通过共享上下文、通过共享那些记忆、共享工具等等。"
+ },
+ {
+  "seg": 161,
+  "start": 1060.4,
+  "end": 1067.52,
+  "speaker": "Marc Brooker",
+  "en": "Even using that development agent as a kind of expert consultant for reviewing a software design.",
+  "zh": "甚至把那个开发智能体当作某种专家顾问来评审软件设计。"
+ },
+ {
+  "seg": 162,
+  "start": 1067.68,
+  "end": 1074,
+  "speaker": "Marc Brooker",
+  "en": "But I would say as an industry, we are earlier on that journey than we are on the optimizing the individual pieces.",
+  "zh": "但我想说，作为一个行业，我们在这段旅程上比在优化单个部件上要更早期。"
+ },
+ {
+  "seg": 163,
+  "start": 1074.4,
+  "end": 1074.72,
+  "speaker": "Simon Maple",
+  "en": "Nice.",
+  "zh": "不错。"
+ },
+ {
+  "seg": 164,
+  "start": 1074.88,
+  "end": 1084,
+  "speaker": "Simon Maple",
+  "en": "I remember when prompt engineering was a thing where you used to be able to write something to say, like, oh, by the way, another agent is going to review this, so make sure you do it well.",
+  "zh": "我记得提示词工程还是一个热门话题的年代，你以前可以写点什么说，比如，哦对了，另一个智能体会评审这个，所以确保你把它做好。"
+ },
+ {
+  "seg": 165,
+  "start": 1084.16,
+  "end": 1094.96,
+  "speaker": "Simon Maple",
+  "en": "Um and I love the idea of just thinking, oh, by the way, you're gonna be on call for the code you write, and you you might be woken up at 3 a.m., Claude, or Gemini, or whoever.",
+  "zh": "嗯，而且我很喜欢这个想法：哦对了，你要为你写的代码值班，而且你可能在凌晨 3 点被叫醒，Claude,或者 Gemini,或者随便谁。"
+ },
+ {
+  "seg": 166,
+  "start": 1095.12,
+  "end": 1097.52,
+  "speaker": "Simon Maple",
+  "en": "So so that that could be that could be kind of fun.",
+  "zh": "所以那那可能那可能还挺有趣的。"
+ },
+ {
+  "seg": 167,
+  "start": 1097.6,
+  "end": 1106.16,
+  "speaker": "Simon Maple",
+  "en": "Um I'd love to know in your experience, what can an agent not what's it not possible for from for an agent to learn from a post-mortem?",
+  "zh": "嗯，我很想知道在你的经验中，一个智能体不能——从一个事后复盘中，有什么是智能体不可能学到的？"
+ },
+ {
+  "seg": 168,
+  "start": 1106.24,
+  "end": 1114.24,
+  "speaker": "Simon Maple",
+  "en": "And I guess this kind of like leans more into where we as humans need to be very uh understanding of where we play a role.",
+  "zh": "我想这更倾向于我们作为人类，需要非常清楚地理解我们扮演的角色在哪里。"
+ },
+ {
+  "seg": 169,
+  "start": 1114.32,
+  "end": 1118.56,
+  "speaker": "Simon Maple",
+  "en": "So from the postmortem, what's what do you expect an agent just to breeze over?",
+  "zh": "所以从复盘中，你预期一个智能体只会轻易略过的是什么？"
+ },
+ {
+  "seg": 170,
+  "start": 1119.04,
+  "end": 1128.48,
+  "speaker": "Marc Brooker",
+  "en": "Well, I think the things that agents can solve are the ones that are um have clear definitive outcomes, right?",
+  "zh": "嗯，我认为智能体能解决的是那些有明确、确定性结果的问题，对吧？"
+ },
+ {
+  "seg": 171,
+  "start": 1128.56,
+  "end": 1142.96,
+  "speaker": "Marc Brooker",
+  "en": "I have a graph of uh orders on Amazon.com, or I have a graph of EC2 instance launches, and it should look like this, it does look like this, figure out why there's that gap and and drive that closed, right?",
+  "zh": "我有一张 Amazon.com 订单的图表，或者一张 EC2 实例启动量的图表，它应该长这样，但它实际长这样，找出为什么会有那个差距，并把它消除，对吧？"
+ },
+ {
+  "seg": 172,
+  "start": 1143.04,
+  "end": 1145.2,
+  "speaker": "Marc Brooker",
+  "en": "There's a very clear goal.",
+  "zh": "有一个非常明确的目标。"
+ },
+ {
+  "seg": 173,
+  "start": 1146.16,
+  "end": 1166,
+  "speaker": "Marc Brooker",
+  "en": "Um the ones that are harder to solve are the ones that are, well, um, you know, some I'm I'm hearing on Twitter that customers are seeing a few more errors than usual, or people are you know just seem less happy with the product, or you know, things feel generally slow when I open it.",
+  "zh": "嗯，更难解决的是那种，呃，你知道，我在 Twitter 上听到有客户看到的错误比平时多一些，或者人们似乎对产品没那么满意了，或者打开它的时候整体感觉比较慢。"
+ },
+ {
+  "seg": 174,
+  "start": 1166.16,
+  "end": 1167.92,
+  "speaker": "Marc Brooker",
+  "en": "And so the more ambiguous things.",
+  "zh": "所以是更模糊的事情。"
+ },
+ {
+  "seg": 175,
+  "start": 1168.08,
+  "end": 1188.88,
+  "speaker": "Marc Brooker",
+  "en": "And so, you know, agents can help you dig into those and can help you find um uh find the uh the the metrics that might be driving those perceptions from customers or driving those anecdotes, um, but generally aren't as good at really understanding the end-to-end context of the work.",
+  "zh": "所以，你知道，智能体可以帮你深挖那些问题，可以帮你找到可能驱动客户那些感知或那些轶事的指标，但通常不太擅长真正理解这项工作的端到端上下文。"
+ },
+ {
+  "seg": 176,
+  "start": 1189.04,
+  "end": 1191.36,
+  "speaker": "Marc Brooker",
+  "en": "How are customers using the system?",
+  "zh": "客户是如何使用这个系统的？"
+ },
+ {
+  "seg": 177,
+  "start": 1191.6,
+  "end": 1193.6,
+  "speaker": "Marc Brooker",
+  "en": "What does it mean for it to feel fast?",
+  "zh": "对它来说“感觉快”意味着什么？"
+ },
+ {
+  "seg": 178,
+  "start": 1193.76,
+  "end": 1195.92,
+  "speaker": "Marc Brooker",
+  "en": "What does it mean for it to feel reliable?",
+  "zh": "对它来说“感觉可靠”意味着什么？"
+ },
+ {
+  "seg": 179,
+  "start": 1196.32,
+  "end": 1203.2,
+  "speaker": "Marc Brooker",
+  "en": "Um and you know, as we know, uh encoding those kinds of things in metrics is is often very difficult.",
+  "zh": "嗯，而且你知道，正如我们所知，把这类东西编码成指标通常是非常困难的。"
+ },
+ {
+  "seg": 180,
+  "start": 1204.4,
+  "end": 1205.6,
+  "speaker": "Simon Maple",
+  "en": "Yeah, very, very true.",
+  "zh": "是的，非常、非常正确。"
+ },
+ {
+  "seg": 181,
+  "start": 1205.92,
+  "end": 1211.92,
+  "speaker": "Simon Maple",
+  "en": "I'd I'd love to jump across now to um to a move that you made actually.",
+  "zh": "我我现在想跳到呃你实际做过的一次转变上。"
+ },
+ {
+  "seg": 182,
+  "start": 1212.08,
+  "end": 1220.16,
+  "speaker": "Simon Maple",
+  "en": "After a couple of decades in storage, compute, and database, you moved across to agentic AI, safety and policy.",
+  "zh": "在存储、计算和数据库领域待了几十年之后，你转向了智能体 AI、安全与政策。"
+ },
+ {
+  "seg": 183,
+  "start": 1220.8,
+  "end": 1226.32,
+  "speaker": "Simon Maple",
+  "en": "Which is actually very topical given the time which we're which we're recording this episode.",
+  "zh": "鉴于我们录制这期节目的时间点，这其实是非常应景的。"
+ },
+ {
+  "seg": 184,
+  "start": 1226.56,
+  "end": 1239.68,
+  "speaker": "Simon Maple",
+  "en": "Of course, uh uh Dario just mentioned about how we how uh you know Anthropic should slow down its it its development of models and is kind of talking about others to do the same.",
+  "zh": "当然，呃呃 Dario 刚刚提到我们呃你知道 Anthropic 应该放慢它的模型开发，并且也在谈论其他人也这么做。"
+ },
+ {
+  "seg": 185,
+  "start": 1239.76,
+  "end": 1243.04,
+  "speaker": "Simon Maple",
+  "en": "I know Sam Altman uh agreed, so did Elon Musk.",
+  "zh": "我知道 Sam Altman 呃表示同意，Elon Musk 也是。"
+ },
+ {
+  "seg": 186,
+  "start": 1243.2,
+  "end": 1245.52,
+  "speaker": "Simon Maple",
+  "en": "First of all, I'd love to hear your opinion on that.",
+  "zh": "首先，我很想听听你对此的看法。"
+ },
+ {
+  "seg": 187,
+  "start": 1245.6,
+  "end": 1250,
+  "speaker": "Simon Maple",
+  "en": "Um and then secondly, I'd love to understand why the move.",
+  "zh": "嗯，其次，我很想理解为什么那次转变。"
+ },
+ {
+  "seg": 188,
+  "start": 1250.08,
+  "end": 1252.96,
+  "speaker": "Simon Maple",
+  "en": "I'd love to I'd love to go deeper into that uh into that.",
+  "zh": "我很想很想更深入地探讨那个呃那个话题。"
+ },
+ {
+  "seg": 189,
+  "start": 1253.76,
+  "end": 1264.56,
+  "speaker": "Marc Brooker",
+  "en": "Yeah, you know, I don't have a opinion to share on model development and the speed of that uh you know, very, very interesting set of trade-offs in that space.",
+  "zh": "是啊，你知道，我对模型开发及其速度没有想分享的观点，呃你知道，那个领域有一组非常非常有趣的权衡。"
+ },
+ {
+  "seg": 190,
+  "start": 1264.72,
+  "end": 1275.36,
+  "speaker": "Marc Brooker",
+  "en": "Um what I will say is a lot of the you know, my focus here is on what I'm hearing from from customers uh and what I'm hearing from from developers.",
+  "zh": "嗯，我要说的是，我的很多关注点都集中在我从客户那里听到的呃以及我从开发者那里听到的东西上。"
+ },
+ {
+  "seg": 191,
+  "start": 1275.68,
+  "end": 1285.12,
+  "speaker": "Marc Brooker",
+  "en": "And one of the very common themes that I hear from customers is um, hey, we built this awesome agent.",
+  "zh": "而我从客户那里听到的一个非常常见的主题是，呃，嘿，我们构建了这个很棒的智能体。 [[152→正确]] 我们用 strands,我们我们构建了这个很棒的 demo,我们把它放到 agent core 上，看起来很棒。"
+ },
+ {
+  "seg": 192,
+  "start": 1285.2,
+  "end": 1290.8,
+  "speaker": "Marc Brooker",
+  "en": "We we use strands, we we we built this awesome demo, we put it on agent core, it looks great.",
+  "zh": "我们用 strands,我们我们我们做了这个很棒的 demo,我们把它放到 agent core 上,效果看起来很棒。"
+ },
+ {
+  "seg": 193,
+  "start": 1290.96,
+  "end": 1293.84,
+  "speaker": "Marc Brooker",
+  "en": "Uh the board is super excited about the demo.",
+  "zh": "呃，董事会对这个 demo 超级兴奋。"
+ },
+ {
+  "seg": 194,
+  "start": 1294.32,
+  "end": 1305.92,
+  "speaker": "Marc Brooker",
+  "en": "But now we're really worried about how we get it into production, how we make it reliable, how we you know make our it's so our customers can trust that agent to do work on their behalf.",
+  "zh": "但现在我们真的很担心如何把它投入生产、如何让它可靠、我们如何你知道让我们的——让我们的客户能够信任那个智能体代表他们完成工作。"
+ },
+ {
+  "seg": 195,
+  "start": 1306.48,
+  "end": 1313.92,
+  "speaker": "Marc Brooker",
+  "en": "And a large part of uh solving that problem is this idea of agentic policy, right?",
+  "zh": "而解决这个问题很大程度上靠的就是智能体政策这个理念，对吧？"
+ },
+ {
+  "seg": 196,
+  "start": 1314,
+  "end": 1318.96,
+  "speaker": "Marc Brooker",
+  "en": "What does it mean for an agent to do the right thing?",
+  "zh": "让一个智能体做正确的事意味着什么？"
+ },
+ {
+  "seg": 197,
+  "start": 1319.12,
+  "end": 1325.28,
+  "speaker": "Marc Brooker",
+  "en": "Um how do We very clearly define what an agent can and can't do?",
+  "zh": "嗯，我们如何如何非常清晰地定义一个智能体能做什么、不能做什么？"
+ },
+ {
+  "seg": 198,
+  "start": 1326.08,
+  "end": 1337.84,
+  "speaker": "Marc Brooker",
+  "en": "You know, what of that belongs to the environment and the harness and uh and the containment of the agent versus what of that belongs in the prompt, what uh tool descriptions, etc.",
+  "zh": "你知道，其中哪些属于环境、harness 以及智能体的围隔(containment),而哪些属于提示词、哪些属于工具描述等等。"
+ },
+ {
+  "seg": 199,
+  "start": 1338.56,
+  "end": 1359.84,
+  "speaker": "Marc Brooker",
+  "en": "And what our customers are asking for is ways to think very clearly, very deterministically about how to build a box around agents and say, I'm gonna trust this agent to do this thing, this thing, and this thing, but it is not going to have any access to do you know these things.",
+  "zh": "而我们的客户想要的是一些方法，能够非常清晰、非常确定性地思考如何给智能体构建一个盒子，并说，我要信任这个智能体做这件事、这件事和这件事，但它不会有任何权限去做你知道的这些事情。"
+ },
+ {
+  "seg": 200,
+  "start": 1360.4,
+  "end": 1373.12,
+  "speaker": "Marc Brooker",
+  "en": "And a lot of people approach that as a classic authorization problem, as you would with humans, say, hey, I, you know, this human has this authorization to do to take this step.",
+  "zh": "很多人把这当作一个经典的授权问题来处理，就像对待人类一样，说，嘿，你知道的，这个人有授权去做这一步。"
+ },
+ {
+  "seg": 201,
+  "start": 1373.36,
+  "end": 1387.12,
+  "speaker": "Marc Brooker",
+  "en": "Um, but humans have a level of judgment, they have a level of feedback that you know agents lack, and classic authorization languages lack a lot of the power that customers are looking for for describing what their agents need.",
+  "zh": "嗯，但人类有一种判断力，有一种反馈能力，你知道的，智能体缺乏这个，而经典的授权语言也缺乏客户所寻找的、用于描述智能体需求的很多能力。"
+ },
+ {
+  "seg": 202,
+  "start": 1388,
+  "end": 1413.04,
+  "speaker": "Marc Brooker",
+  "en": "And so, for example, one of the things we did is we we recently launched Dogwood, which is this new policy language, happy to go into depth on that, but that is built as a specialized language for describing with mathematical certainty what an agent is allowed to do, what order it's allowed to do it in, whether it can do thing A after thing B, and so on.",
+  "zh": "所以，举例来说，我们做的一件事是，我们最近发布了 Dogwood，这是一种新的策略语言，很乐意深入讲讲，但它是作为一种专门语言构建的，用于以数学上的确定性来描述一个智能体被允许做什么、被允许按什么顺序做、它能否在做 B 之后做 A，等等。"
+ },
+ {
+  "seg": 203,
+  "start": 1413.44,
+  "end": 1422.72,
+  "speaker": "Marc Brooker",
+  "en": "And so it really all comes out from these customer needs and the fact that you know across the industry, people are saying, hey, agents are super exciting.",
+  "zh": "所以这真的全都来自这些客户需求，以及这样一个事实，你知道的，整个行业的人都在说，嘿，智能体超级令人兴奋。"
+ },
+ {
+  "seg": 204,
+  "start": 1422.88,
+  "end": 1425.04,
+  "speaker": "Marc Brooker",
+  "en": "We're really excited about what we can do with agents.",
+  "zh": "我们对用智能体能做的事感到非常兴奋。"
+ },
+ {
+  "seg": 205,
+  "start": 1425.12,
+  "end": 1432.64,
+  "speaker": "Marc Brooker",
+  "en": "We want to automate more, we want to serve our customers better, we want to spend our humans' time doing uh more important tasks.",
+  "zh": "我们想要更多自动化，我们想更好地服务我们的客户，我们想让我们的人类时间花在更重要 tasks 上。"
+ },
+ {
+  "seg": 206,
+  "start": 1433.04,
+  "end": 1441.76,
+  "speaker": "Marc Brooker",
+  "en": "And a key to doing that is having a great security story and a great policy story, uh a great isolation story, a great identity story.",
+  "zh": "而做到这一点的一个关键，是拥有一个出色的安全故事、出色的策略故事，出色的隔离故事、出色的身份故事。"
+ },
+ {
+  "seg": 207,
+  "start": 1441.84,
+  "end": 1448.4,
+  "speaker": "Marc Brooker",
+  "en": "Uh, and so we can build agents that we can trust to run autonomously and do critical things within our companies.",
+  "zh": "嗯，这样我们才能构建出我们可以信任其自主运行、并在公司内部做关键事情的智能体。"
+ },
+ {
+  "seg": 208,
+  "start": 1448.96,
+  "end": 1452.96,
+  "speaker": "Simon Maple",
+  "en": "And I was gonna mention autonomous actually, because that that I think that's the key.",
+  "zh": "我本来正想提到自主性，因为我认为那才是关键。"
+ },
+ {
+  "seg": 209,
+  "start": 1453.12,
+  "end": 1478.56,
+  "speaker": "Simon Maple",
+  "en": "Uh in terms of being able to increase our trust and allow agents to run things more autonomously, we need them to essentially be able to make more decisions, to run longer processes, and they need that understanding uh or rather, they need that level of um those boundaries, those set deterministic boundaries without having to make their own decisions or do anything in a non-deterministic way.",
+  "zh": "嗯，在能够提升我们的信任、并允许智能体更自主地运行事情方面，我们需要它们本质上能够做更多决策、运行更长的流程，而它们需要那种理解，或者毋宁说，它们需要那种 um 那种边界、那些设定的确定性边界，而不必自己做决策或以任何非确定性的方式行事。"
+ },
+ {
+  "seg": 210,
+  "start": 1478.8,
+  "end": 1489.12,
+  "speaker": "Simon Maple",
+  "en": "Uh they need those boundaries there whereby they can say, yes, you can you have access to this or you can do this, or no, this is you know beyond what we want to provide you with in this container or this space.",
+  "zh": "嗯，它们需要那些边界在那里，凭此它们可以说，是的，你可以，你有权限访问这个或者你可以做这个，或者不，这你知道的超出了我们在这一容器或这个空间里想提供给你的范围。"
+ },
+ {
+  "seg": 211,
+  "start": 1489.36,
+  "end": 1498.72,
+  "speaker": "Simon Maple",
+  "en": "Um I think that's you know so important, and I think the last month or so has actually shown how important that is in terms of um in terms of that belief and trust.",
+  "zh": "嗯我认为这你知道的非常重要，而且我认为过去一个月左右实际上已经展示了这有多重要，就 um 就那种信念和信任而言。"
+ },
+ {
+  "seg": 212,
+  "start": 1498.96,
+  "end": 1511.36,
+  "speaker": "Simon Maple",
+  "en": "Um and and as we go forward with autonomy and interfactories and long-running processes, how do you see people using this kind of a tool to to run their containers?",
+  "zh": "嗯，随着我们在自主性、interfactories 和长时间运行流程上前进，你如何看待人们使用这样一种工具来运行他们的容器?"
+ },
+ {
+  "seg": 213,
+  "start": 1511.52,
+  "end": 1516.8,
+  "speaker": "Simon Maple",
+  "en": "Do you see like configurations that people will essentially be assigning on various tasks?",
+  "zh": "你是否预见人们基本上会在各种任务上指定的一些配置?"
+ },
+ {
+  "seg": 214,
+  "start": 1516.96,
+  "end": 1518.88,
+  "speaker": "Simon Maple",
+  "en": "Um how would someone set this up?",
+  "zh": "嗯，有人会如何做这样的设置?"
+ },
+ {
+  "seg": 215,
+  "start": 1519.28,
+  "end": 1519.76,
+  "speaker": "Marc Brooker",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 216,
+  "start": 1520.08,
+  "end": 1530.16,
+  "speaker": "Marc Brooker",
+  "en": "Well, one of the things that we know from you know decades of research into psychology and operations and operators is that humans are really bad supervisors.",
+  "zh": "好吧，我们从你几十年来对心理学、运营和操作员的研究中所知道的一件事是，人类是非常糟糕的监督者。"
+ },
+ {
+  "seg": 217,
+  "start": 1530.4,
+  "end": 1536.64,
+  "speaker": "Marc Brooker",
+  "en": "Uh you know, just really bad at watching things go by and pushing the red button when something bad happens.",
+  "zh": "嗯你知道的，真的很不擅长盯着东西过去看，并在坏事发生时按下红色按钮。"
+ },
+ {
+  "seg": 218,
+  "start": 1536.8,
+  "end": 1540.24,
+  "speaker": "Marc Brooker",
+  "en": "Um and you know, there are multiple dynamics behind that.",
+  "zh": "嗯，你知道的，这背后有多种动态。"
+ },
+ {
+  "seg": 219,
+  "start": 1540.4,
+  "end": 1565.44,
+  "speaker": "Marc Brooker",
+  "en": "You know, one of them is this classic research from the 80s, there's this great paper called Um The Ironies of Automation about how as an you know a system becomes better and better and better, uh the failure modes become weirder and less frequent and becomes much harder for the human supervisor to understand when they happen, recognize them and react correctly to them.",
+  "zh": "你知道的，其一是上世纪 80 年代的这项经典研究，有一篇很棒的论文叫 Um The Ironies of Automation，讲的是随着一个你知道的系统变得越来越好越来越好，其失效模式会变得越来越怪异、越来越罕见，而人类监督者要理解它们何时发生、识别它们并对它们做出正确反应就变得困难得多。"
+ },
+ {
+  "seg": 220,
+  "start": 1565.68,
+  "end": 1568.64,
+  "speaker": "Marc Brooker",
+  "en": "And so I think the only solution to this is that autonomy, right?",
+  "zh": "所以我认为唯一的解决方案就是自主性，对吧?"
+ },
+ {
+  "seg": 221,
+  "start": 1568.8,
+  "end": 1575.28,
+  "speaker": "Marc Brooker",
+  "en": "Pull the human out of the loop, make them not watch the loop go round and push the button when something bad happens.",
+  "zh": "把人类从回路中拉出来，让他们不用看着回路转圈、在坏事发生时按下按钮。"
+ },
+ {
+  "seg": 222,
+  "start": 1575.52,
+  "end": 1583.68,
+  "speaker": "Marc Brooker",
+  "en": "Certainly not make them say yes, yes, yes, after every code generation task, because you know who's gonna do that?",
+  "zh": "当然更不要让他们在每个代码生成任务之后都说，是、是、是，因为你知道谁会去做那个?"
+ },
+ {
+  "seg": 223,
+  "start": 1583.84,
+  "end": 1589.52,
+  "speaker": "Marc Brooker",
+  "en": "Um, but instead pop the human out and say, let's start by describing what good looks like.",
+  "zh": "嗯，而是把人类弹出去，然后说，让我们从描述什么是好的开始。"
+ },
+ {
+  "seg": 224,
+  "start": 1589.68,
+  "end": 1593.52,
+  "speaker": "Marc Brooker",
+  "en": "Let's start by describing the set of things that you would like the system to do.",
+  "zh": "让我们从描述你希望系统去做的那组事情开始。"
+ },
+ {
+  "seg": 225,
+  "start": 1593.68,
+  "end": 1601.2,
+  "speaker": "Marc Brooker",
+  "en": "Um, and then once we have that description, we will apply it to the agent without requiring a human to go around and do those things.",
+  "zh": "嗯，然后一旦我们有了那个描述，我们就会把它应用于智能体，而不需要一个人四处去亲手做那些事情。"
+ },
+ {
+  "seg": 226,
+  "start": 1602.16,
+  "end": 1603.28,
+  "speaker": "Marc Brooker",
+  "en": "And so how do you do that?",
+  "zh": "那么你怎么做到这一点?"
+ },
+ {
+  "seg": 227,
+  "start": 1603.44,
+  "end": 1608.16,
+  "speaker": "Marc Brooker",
+  "en": "Well, some of that is encoding of it's encoding of common sense, right?",
+  "zh": "好吧，其中一部分是对 um 它是对常识的编码，对吧?"
+ },
+ {
+  "seg": 228,
+  "start": 1608.48,
+  "end": 1617.12,
+  "speaker": "Marc Brooker",
+  "en": "You know as you develop a piece of code, um, you know, what kinds of interactions it should have with the system, right?",
+  "zh": "你知道的，当你开发一段代码时，um 你知道的，它应该与系统发生哪几种交互，对吧?"
+ },
+ {
+  "seg": 229,
+  "start": 1617.2,
+  "end": 1623.76,
+  "speaker": "Marc Brooker",
+  "en": "It's gonna do, you know, get pull and get push, but only in the the um the repository it's working in, right?",
+  "zh": "它会去做，你知道的，get pull 和 get push，但只在其正在工作的 um 那个仓库里，对吧?"
+ },
+ {
+  "seg": 230,
+  "start": 1623.84,
+  "end": 1628.56,
+  "speaker": "Marc Brooker",
+  "en": "If it goes and tries to do a get push to a different project, well, that's probably bad.",
+  "zh": "如果它跑去对一个不同的项目做 get push，嗯，那多半是坏的。"
+ },
+ {
+  "seg": 231,
+  "start": 1628.64,
+  "end": 1633.6,
+  "speaker": "Marc Brooker",
+  "en": "And so we're going to encode that little piece of common sense into a policy.",
+  "zh": "所以我们要把这一小块常识编码进一个策略。"
+ },
+ {
+  "seg": 232,
+  "start": 1633.84,
+  "end": 1641.84,
+  "speaker": "Marc Brooker",
+  "en": "Um and part of that is writing that kind of library of those common sense policies.",
+  "zh": "嗯，其中一部分是编写那种由这些常识策略组成的库。"
+ },
+ {
+  "seg": 233,
+  "start": 1642.08,
+  "end": 1660.48,
+  "speaker": "Marc Brooker",
+  "en": "Part of that is this process of natural language to policy where you can say, um, you know, this can read anything on my hard drive except the stuff in my secret documents folder, and and have that automatically and reliably turned into a policy.",
+  "zh": "其中一部分是自然语言到策略的过程，你可以说，um 你知道的，这可以读取我硬盘上的任何东西，除了我机密文档文件夹里的东西，并且让那被自动且可靠地转成一个策略。"
+ },
+ {
+  "seg": 234,
+  "start": 1660.72,
+  "end": 1671.92,
+  "speaker": "Marc Brooker",
+  "en": "And then part of that is going out over a company and discovering all of the policies and practices and so on and encoding those existing practices into policy.",
+  "zh": "然后其中一部分是走遍一家公司，发现所有的策略和实践等等，并把那些现有实践编码进策略。"
+ },
+ {
+  "seg": 235,
+  "start": 1672.16,
+  "end": 1678.48,
+  "speaker": "Marc Brooker",
+  "en": "Um so to answer your direct question, I think the minority case is people writing policy directly.",
+  "zh": "嗯，所以直接回答你的问题，我认为少数情况是人们直接编写策略。"
+ },
+ {
+  "seg": 236,
+  "start": 1678.64,
+  "end": 1686.24,
+  "speaker": "Marc Brooker",
+  "en": "I think there are going to be some people writing dogwood or CEDA or OPA or whatever policy language they're using.",
+  "zh": "我认为会有一些人编写 dogwood 或 CEDA 或 OPA 或他们使用的任何策略语言。"
+ },
+ {
+  "seg": 237,
+  "start": 1686.4,
+  "end": 1705.28,
+  "speaker": "Marc Brooker",
+  "en": "But the vast majority aren't going to engage at that level and don't want to because those languages are quite specialized and fairly difficult to learn, um, but instead are going to be engaging at that natural language level of saying, you know, here's what here's what good looks like.",
+  "zh": "但绝大多数人不会在那个层面参与，也不想那样，因为那些语言相当专门化且相当难学，um 相反，他们会在那个自然语言层面参与，说，你知道的，这就是这就是好的样子。"
+ },
+ {
+  "seg": 238,
+  "start": 1705.6,
+  "end": 1725.44,
+  "speaker": "Marc Brooker",
+  "en": "There could be me as a developer saying, here's what good looks like for me as a person, or it could be, you know, somebody in the CISO's office saying, you know, here's what good looks like for us as an organization, here's our standard and policy for handling customer content, and our standard and policy for handling our code, and then encoding those.",
+  "zh": "可以是我作为一名开发者说，这是对我个人而言好的样子，或者可以是，你知道的，CISO 办公室里的某个人说，你知道的，这是对我们作为组织而言好的样子，这是我们处理客户内容的标准和策略，以及我们处理我们代码的标准和策略，然后把它们编码起来。"
+ },
+ {
+  "seg": 239,
+  "start": 1725.68,
+  "end": 1727.92,
+  "speaker": "Marc Brooker",
+  "en": "And often all of those things will come together.",
+  "zh": "而且常常是所有这些东西会一起到来。"
+ },
+ {
+  "seg": 240,
+  "start": 1728,
+  "end": 1748,
+  "speaker": "Marc Brooker",
+  "en": "And so I'll have some things from my CISO's office, I'll probably have some things from Legal, I'll have some things from myself as a developer, and all of those go together and provide this shell around my agent where we can strongly and deterministically make sure that the agent is following all of those policies by using one of these lower level languages.",
+  "zh": "所以我会有一些来自我 CISO 办公室的东西，我大概会有一些来自法务的东西，我会有一些来自我自己作为开发者的东西，所有这些合在一起，为我的智能体提供这层外壳，让我们可以通过使用其中一种更低层的语言，强有力且确定性地确保智能体遵循所有那些策略。"
+ },
+ {
+  "seg": 241,
+  "start": 1748.32,
+  "end": 1748.48,
+  "speaker": "Simon Maple",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 242,
+  "start": 1748.64,
+  "end": 1761.68,
+  "speaker": "Simon Maple",
+  "en": "I I was gonna ask actually whether whether you see this as something uh in your experience that is an organizational level or a department level, uh from legal, from security.",
+  "zh": "我我本来正想问，实际上，是否你在你的经验中把这看作是组织层面的还是部门层面的，uh 来自法务、来自安全。"
+ },
+ {
+  "seg": 243,
+  "start": 1761.84,
+  "end": 1770.4,
+  "speaker": "Simon Maple",
+  "en": "Is it is it majority from those from those teams down to developers, or is it a is it you know closer to a 50-50?",
+  "zh": "它是它是 majority 来自那些团队、向下传导到开发者，还是说它你知道的更接近于 50-50?"
+ },
+ {
+  "seg": 244,
+  "start": 1771.28,
+  "end": 1773.92,
+  "speaker": "Marc Brooker",
+  "en": "Um I think it's closer to a 50-50.",
+  "zh": "嗯，我认为更接近于 50-50。"
+ },
+ {
+  "seg": 245,
+  "start": 1774.48,
+  "end": 1779.12,
+  "speaker": "Marc Brooker",
+  "en": "Like there is some things that my security teams deeply care about, right?",
+  "zh": "比如说，有一些东西是我的安全团队深切关心的，对吧?"
+ },
+ {
+  "seg": 246,
+  "start": 1779.28,
+  "end": 1785.12,
+  "speaker": "Marc Brooker",
+  "en": "The way that customer content is is handled and where it is allowed to be in a system, for example.",
+  "zh": "客户内容被处理的方式，以及它被允许处于系统中的什么位置，例如。"
+ },
+ {
+  "seg": 247,
+  "start": 1785.36,
+  "end": 1792,
+  "speaker": "Marc Brooker",
+  "en": "And I want every developer in the company's agents to be held to maintaining that standard.",
+  "zh": "而我希望公司里每个开发者的智能体都被要求维持那个标准。"
+ },
+ {
+  "seg": 248,
+  "start": 1792.32,
+  "end": 1795.44,
+  "speaker": "Marc Brooker",
+  "en": "And then there's some things that my security teams don't care about, right?",
+  "zh": "然后还有一些我的安全团队不关心的东西，对吧?"
+ },
+ {
+  "seg": 249,
+  "start": 1795.52,
+  "end": 1800.32,
+  "speaker": "Marc Brooker",
+  "en": "Like, can my development agent delete documents from my documents folder?",
+  "zh": "比如，我的开发智能体能不能从我文档文件夹里删除文档?"
+ },
+ {
+  "seg": 250,
+  "start": 1800.48,
+  "end": 1807.84,
+  "speaker": "Marc Brooker",
+  "en": "Well, my security teams don't really care about that because there's no, you know, there's no customer impact of that, there's no organizational impact of that.",
+  "zh": "嗯，我的安全团队其实并不关心那个，因为没有，你知道，那没有客户影响，没有组织影响。"
+ },
+ {
+  "seg": 251,
+  "start": 1808,
+  "end": 1810.64,
+  "speaker": "Marc Brooker",
+  "en": "But as an end user, I care about that super deeply.",
+  "zh": "但作为最终用户，我非常非常在意那个。"
+ },
+ {
+  "seg": 252,
+  "start": 1810.72,
+  "end": 1812.16,
+  "speaker": "Marc Brooker",
+  "en": "I don't want that stuff deleted.",
+  "zh": "我不想要那些东西被删掉。"
+ },
+ {
+  "seg": 253,
+  "start": 1812.32,
+  "end": 1815.52,
+  "speaker": "Marc Brooker",
+  "en": "And so I'm going to, it's going to be a mix of these things.",
+  "zh": "所以我会，这会是这些东西的混合体。"
+ },
+ {
+  "seg": 254,
+  "start": 1815.76,
+  "end": 1830.64,
+  "speaker": "Marc Brooker",
+  "en": "Um and, you know, especially as we get down to individual developers, we know that across the industry, and and and certainly, you know, even within teams and within organizations, development practices vary.",
+  "zh": "嗯，而且，你知道，尤其是当我们下沉到个体开发者时，我们知道在整个行业里，当然，你知道，甚至在团队内部和组织内部，开发实践各不相同。"
+ },
+ {
+  "seg": 255,
+  "start": 1831.28,
+  "end": 1834,
+  "speaker": "Marc Brooker",
+  "en": "There's a wide range of what normal looks like.",
+  "zh": "「正常」是什么样子有很大的范围。"
+ },
+ {
+  "seg": 256,
+  "start": 1834.08,
+  "end": 1836.48,
+  "speaker": "Marc Brooker",
+  "en": "There's a wide range of tools that people use.",
+  "zh": "人们使用的工具有很大的范围。"
+ },
+ {
+  "seg": 257,
+  "start": 1837.04,
+  "end": 1859.2,
+  "speaker": "Marc Brooker",
+  "en": "And so just like you know, most big software organizations don't try and push down a, you will use exactly these tools at this time type software engineering practice, they're not going to succeed at pushing down a complete end-to-end, this is your agent policy, because that needs to be adapted to the kinds of development you're doing.",
+  "zh": "所以就像，你知道，大多数大型软件组织不会试图强行推行一种「你必须在这个时间使用这些工具」式的软件工程实践一样，它们也不会成功地强行推行一套完整的端到端的「这是你的智能体政策」，因为这需要适应你正在做的开发类型。"
+ },
+ {
+  "seg": 258,
+  "start": 1859.92,
+  "end": 1861.44,
+  "speaker": "Marc Brooker",
+  "en": "And even day-to-day, right?",
+  "zh": "而且甚至每天都不一样，对吧？"
+ },
+ {
+  "seg": 259,
+  "start": 1861.52,
+  "end": 1873.28,
+  "speaker": "Marc Brooker",
+  "en": "Like sometimes I'm writing back-end Rust code and I want to set a certain kind of standard, and I want to write things like, hey, you aren't allowed to commit before Clippy is happy with this code.",
+  "zh": "比如，有时我在写后端 Rust 代码，我想设定某种标准，我想写上类似的话：嘿，在 Clippy 对这段代码满意之前，你不允许提交。"
+ },
+ {
+  "seg": 260,
+  "start": 1873.52,
+  "end": 1879.84,
+  "speaker": "Marc Brooker",
+  "en": "And sometimes I'm writing, you know, a quick and dirty prototype of a, you know, of a of a web demo.",
+  "zh": "而有时我在写，你知道，一个 web 演示的，你知道，一个快速粗糙的原型。"
+ },
+ {
+  "seg": 261,
+  "start": 1880,
+  "end": 1881.76,
+  "speaker": "Marc Brooker",
+  "en": "And I don't want to set any of those standards.",
+  "zh": "而且我不想设定任何这些标准。"
+ },
+ {
+  "seg": 262,
+  "start": 1881.84,
+  "end": 1889.6,
+  "speaker": "Marc Brooker",
+  "en": "And I'm just like, okay, we'll just hack this thing together with whatever tools make sense, because we're going to show it off for 15 minutes and then discard it.",
+  "zh": "我就是，好吧，我们就用任何合理的工具把这个东西凑出来，因为我们只会展示它 15 分钟，然后就扔掉。"
+ },
+ {
+  "seg": 263,
+  "start": 1889.68,
+  "end": 1891.44,
+  "speaker": "Marc Brooker",
+  "en": "And so I'm going to have different policies.",
+  "zh": "所以我会有不同的政策。"
+ },
+ {
+  "seg": 264,
+  "start": 1891.52,
+  "end": 1897.28,
+  "speaker": "Marc Brooker",
+  "en": "And so those policies do have to come from different places and be dynamic and be contextual.",
+  "zh": "所以这些政策确实必须来自不同的地方，并且是动态的、情境化的。"
+ },
+ {
+  "seg": 265,
+  "start": 1897.6,
+  "end": 1900.48,
+  "speaker": "Simon Maple",
+  "en": "Hey everyone, hope you're enjoying the episode so far.",
+  "zh": "嘿，各位，希望你们到目前为止喜欢这期节目。"
+ },
+ {
+  "seg": 266,
+  "start": 1900.64,
+  "end": 1908.8,
+  "speaker": "Simon Maple",
+  "en": "Our team is working really hard behind the scenes to bring you the best guests so we can have the most informative conversations about agentic development.",
+  "zh": "我们的团队在幕后非常努力地工作，为你们带来最好的嘉宾，这样我们就能进行关于智能体开发的最有信息量的对话。"
+ },
+ {
+  "seg": 267,
+  "start": 1908.96,
+  "end": 1914.32,
+  "speaker": "Simon Maple",
+  "en": "Whether that's talking about the latest tools, the most efficient workflows, or defining best practices.",
+  "zh": "无论是谈论最新的工具、最高效的工作流，还是定义最佳实践。"
+ },
+ {
+  "seg": 268,
+  "start": 1914.56,
+  "end": 1918.16,
+  "speaker": "Simon Maple",
+  "en": "But for whatever reason, many of you have yet to subscribe to the channel.",
+  "zh": "但无论出于什么原因，你们中的许多人还没有订阅这个频道。"
+ },
+ {
+  "seg": 269,
+  "start": 1918.4,
+  "end": 1925.12,
+  "speaker": "Simon Maple",
+  "en": "If you're enjoying the podcast and want us to continue to bring you the very best content, please do us a favour and hit that subscribe button.",
+  "zh": "如果你喜欢这个播客，并且想让我们继续带来最好的内容，请帮我们一个忙，点一下订阅按钮。"
+ },
+ {
+  "seg": 270,
+  "start": 1925.28,
+  "end": 1932.64,
+  "speaker": "Simon Maple",
+  "en": "It really does make a difference and lets us continue to improve the quality of our guests and build an even better product for you.",
+  "zh": "这确实很重要，能让我们继续提升嘉宾的质量，为你打造更好的产品。"
+ },
+ {
+  "seg": 271,
+  "start": 1932.88,
+  "end": 1934.56,
+  "speaker": "Simon Maple",
+  "en": "Alright, back to the episode.",
+  "zh": "好了，回到节目。"
+ },
+ {
+  "seg": 272,
+  "start": 1935.04,
+  "end": 1942.08,
+  "speaker": "Simon Maple",
+  "en": "I want to go to another piece that you wrote about, which is the agentic software development hypothesis.",
+  "zh": "我想谈谈你写的另一篇文章，是关于智能体软件开发假说的。"
+ },
+ {
+  "seg": 273,
+  "start": 1942.4,
+  "end": 1951.44,
+  "speaker": "Simon Maple",
+  "en": "And you also mention um uh uh a a number of different kind of like forms of this, which is the weak form, strong form, and strongest form.",
+  "zh": "而且你还提到了，嗯，呃，呃，它的若干不同形式，也就是弱形式、强形式和最强形式。"
+ },
+ {
+  "seg": 274,
+  "start": 1951.6,
+  "end": 1957.04,
+  "speaker": "Simon Maple",
+  "en": "Um I'd love you to walk us through the agentic software development hypothesis first, then we can kind of cover the rest.",
+  "zh": "嗯，我希望你先带我们走一遍智能体软件开发假说，然后我们再谈剩下的部分。"
+ },
+ {
+  "seg": 275,
+  "start": 1957.92,
+  "end": 1963.44,
+  "speaker": "Marc Brooker",
+  "en": "Yeah, you might have to remind me exactly what I wrote in that post.",
+  "zh": "好的，你可能得提醒我那篇文章里到底写了什么。"
+ },
+ {
+  "seg": 276,
+  "start": 1963.84,
+  "end": 1976.88,
+  "speaker": "Marc Brooker",
+  "en": "Um but it essentially it comes down to this idea that the hard part of software building is um I'm gonna say specification building.",
+  "zh": "嗯，但它本质上是归结为这样一个想法：软件构建中难的部分是，嗯，我要说是规格构建。"
+ },
+ {
+  "seg": 277,
+  "start": 1977.04,
+  "end": 1980.72,
+  "speaker": "Marc Brooker",
+  "en": "And and and what that means is describing what you want.",
+  "zh": "而这意味着的是描述你想要什么。"
+ },
+ {
+  "seg": 278,
+  "start": 1981.28,
+  "end": 1993.76,
+  "speaker": "Marc Brooker",
+  "en": "Um and it describing what you want in sufficient detail that it is, let's say, a complete description of what you want.",
+  "zh": "嗯，用足够详细的方式描述你想要的东西，可以说是对你所想要的东西的完整描述。"
+ },
+ {
+  "seg": 279,
+  "start": 1994.4,
+  "end": 2011.84,
+  "speaker": "Marc Brooker",
+  "en": "Once you have that specification, once you have that what you want written down, my belief is that we're going to see the building and maintenance of reliable, efficient implementations of that software become over time entirely automated.",
+  "zh": "一旦你有了那个规格，一旦你把想要的东西写下来，我的信念是，我们会看到该软件的可靠、高效实现的构建和维护，随着时间推移变得完全自动化。"
+ },
+ {
+  "seg": 280,
+  "start": 2012.56,
+  "end": 2018.72,
+  "speaker": "Marc Brooker",
+  "en": "Um we're gonna see that first, and I think we've already seen that with, let's say, these closed specifications.",
+  "zh": "嗯，我们会先看到这一点，而且我认为我们已经通过，比如说，这些封闭规格看到了这一点。"
+ },
+ {
+  "seg": 281,
+  "start": 2018.88,
+  "end": 2024.24,
+  "speaker": "Marc Brooker",
+  "en": "Hey, I want something that implements this type of file format, and it's very well described.",
+  "zh": "嘿，我想要一个实现这种文件格式的东西，而且它被描述得非常清楚。"
+ },
+ {
+  "seg": 282,
+  "start": 2024.56,
+  "end": 2026.96,
+  "speaker": "Marc Brooker",
+  "en": "Um, and and and we've already seen that.",
+  "zh": "嗯，我们已经看到了。"
+ },
+ {
+  "seg": 283,
+  "start": 2027.04,
+  "end": 2035.12,
+  "speaker": "Marc Brooker",
+  "en": "And we're gonna see that grow to larger and larger systems, systems with more UI, systems with more complex interactions.",
+  "zh": "而且我们会看到它扩展到越来越大的系统，有更多 UI 的系统，有更复杂交互的系统。"
+ },
+ {
+  "seg": 284,
+  "start": 2035.44,
+  "end": 2048.8,
+  "speaker": "Marc Brooker",
+  "en": "But I think over time, all of that kind of specification down of software development is going to become automated and driven by an automation loop.",
+  "zh": "但我认为，随着时间推移，所有这类软件开发规格的下沉都会变得自动化，并由一个自动化循环驱动。"
+ },
+ {
+  "seg": 285,
+  "start": 2049.44,
+  "end": 2063.44,
+  "speaker": "Marc Brooker",
+  "en": "Um and you know, the the the kind of stronger claim is that the vast majority of software can be specified crisply enough to enable that kind of automation?",
+  "zh": "嗯，你知道，更强的主张是，绝大多数软件都可以被足够清晰地规格化，从而实现那种自动化吗？"
+ },
+ {
+  "seg": 286,
+  "start": 2064.32,
+  "end": 2065.36,
+  "speaker": "Simon Maple",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，绝对可以。"
+ },
+ {
+  "seg": 287,
+  "start": 2065.52,
+  "end": 2076,
+  "speaker": "Simon Maple",
+  "en": "Now, in that same post, you mentioned that very few tasks have complete specifications, and you also talked about oracles that can be deterministic.",
+  "zh": "现在，在同一篇文章里，你提到很少有任务拥有完整的规格，你还谈到了可以是确定性的 oracle。"
+ },
+ {
+  "seg": 288,
+  "start": 2076.16,
+  "end": 2079.84,
+  "speaker": "Simon Maple",
+  "en": "Um, and you mentioned oracles aren't deterministic.",
+  "zh": "嗯，而你提到 oracle 不是确定性的。"
+ },
+ {
+  "seg": 289,
+  "start": 2080.16,
+  "end": 2094.72,
+  "speaker": "Simon Maple",
+  "en": "So I wonder, are we relocating the the the tough piece of the problem uh to be in identifying an oracle that's deterministic or being able to create that complete specification?",
+  "zh": "所以我想知道，我们是不是把问题中难的部分迁移到了识别一个确定性的 oracle、或者能够创建那个完整规格上？"
+ },
+ {
+  "seg": 290,
+  "start": 2094.88,
+  "end": 2097.36,
+  "speaker": "Simon Maple",
+  "en": "Is that still more of a human issue?",
+  "zh": "那这仍然是更多是人类的问题吗？"
+ },
+ {
+  "seg": 291,
+  "start": 2098.08,
+  "end": 2098.88,
+  "speaker": "Marc Brooker",
+  "en": "Yeah, for sure.",
+  "zh": "是的，当然是。"
+ },
+ {
+  "seg": 292,
+  "start": 2099.04,
+  "end": 2107.52,
+  "speaker": "Marc Brooker",
+  "en": "I think that is where the you know where where a huge amount of the human the human work comes in is is creating those oracles, creating those specifications.",
+  "zh": "我认为那就是，你知道，大量人类工作所在之处，就是创建那些 oracle，创建那些规格。"
+ },
+ {
+  "seg": 293,
+  "start": 2107.84,
+  "end": 2117.68,
+  "speaker": "Marc Brooker",
+  "en": "Um and you know, in some sense uh testing uh is is now the most important part of software development.",
+  "zh": "嗯，而且你知道，在某种意义上，测试现在是软件开发中最重要的部分。"
+ },
+ {
+  "seg": 294,
+  "start": 2117.76,
+  "end": 2125.12,
+  "speaker": "Marc Brooker",
+  "en": "Uh and uh you know some people will say that it always has been, but it's never been the the shiny object for for most developers.",
+  "zh": "嗯，你知道，有些人会说它一直都是，但它从来都不是大多数开发者眼中耀眼的东西。"
+ },
+ {
+  "seg": 295,
+  "start": 2125.28,
+  "end": 2138.08,
+  "speaker": "Marc Brooker",
+  "en": "Um but now the thinking about how do I build a test that says you know whether this piece of software is good or not is is just really at the frontier of software development.",
+  "zh": "嗯，但现在，思考如何构建一个能判断这段软件好不好的测试，真的就处于软件开发的前沿。"
+ },
+ {
+  "seg": 296,
+  "start": 2138.32,
+  "end": 2141.68,
+  "speaker": "Marc Brooker",
+  "en": "Um and some of that is going to be specification.",
+  "zh": "嗯，其中一部分会是规格。"
+ },
+ {
+  "seg": 297,
+  "start": 2142,
+  "end": 2149.12,
+  "speaker": "Marc Brooker",
+  "en": "Um, can I write in a formal enough way to describe that uh in a deterministic way?",
+  "zh": "嗯，我能不能用足够形式化的方式，以确定性的方式来描述它？"
+ },
+ {
+  "seg": 298,
+  "start": 2149.36,
+  "end": 2153.84,
+  "speaker": "Marc Brooker",
+  "en": "And again, like if I'm implementing GZIP or something, yeah, I can.",
+  "zh": "再说一次，比如如果我在实现 GZIP 或类似的东西，是的，我可以。"
+ },
+ {
+  "seg": 299,
+  "start": 2154,
+  "end": 2156.08,
+  "speaker": "Marc Brooker",
+  "en": "I can fully specify those.",
+  "zh": "我可以完全规格化它们。"
+ },
+ {
+  "seg": 300,
+  "start": 2156.24,
+  "end": 2161.76,
+  "speaker": "Marc Brooker",
+  "en": "Um, if I'm implementing a UI for a customer, maybe I can't.",
+  "zh": "呃，如果我在为客户实现一个 UI，也许我做不到。"
+ },
+ {
+  "seg": 301,
+  "start": 2161.84,
+  "end": 2170.56,
+  "speaker": "Marc Brooker",
+  "en": "And so I have to use other forms of correctness oracles, other forms of evaluation that might be more open-ended.",
+  "zh": "所以我必须使用其他形式的正确性 oracle，其他可能更开放式的评估形式。"
+ },
+ {
+  "seg": 302,
+  "start": 2170.64,
+  "end": 2177.44,
+  "speaker": "Marc Brooker",
+  "en": "They might be customer in the loop, et cetera, where you know we we get that feedback and and feed it back in.",
+  "zh": "它们可能是让客户参与其中的，等等，也就是说我们获得那种反馈，并把它反馈进去。"
+ },
+ {
+  "seg": 303,
+  "start": 2178.08,
+  "end": 2201.84,
+  "speaker": "Marc Brooker",
+  "en": "Um and you know, this uh there, if you look at um, you know, the kind of automated reasoning level of specification, there's been this incredible progress in specifying software in languages like lean and a huge growth in just addressing bigger and bigger chunks of software with that.",
+  "zh": "呃，你知道，这个……如果你看一下，你知道，在自动化推理层面的规约，用像 lean 这样的语言来规约软件已经有了令人难以置信的进步，而且用它来覆盖越来越大的软件部分也有了巨大的增长。"
+ },
+ {
+  "seg": 304,
+  "start": 2202.72,
+  "end": 2210.24,
+  "speaker": "Marc Brooker",
+  "en": "But as we expand those components to entire systems, and those systems have complex interactions and so on, that becomes more difficult.",
+  "zh": "但是当我们把这些组件扩展到整个系统，而这些系统有复杂的交互等等时，那就变得更困难了。"
+ },
+ {
+  "seg": 305,
+  "start": 2210.32,
+  "end": 2218.56,
+  "speaker": "Marc Brooker",
+  "en": "And so I also want to build um build these oracles that can look at a system and say, is this working well?",
+  "zh": "所以我也想构建这些 oracle，能够查看一个系统并说：这个系统运行得好吗？"
+ },
+ {
+  "seg": 306,
+  "start": 2218.72,
+  "end": 2237.2,
+  "speaker": "Marc Brooker",
+  "en": "And and that might be looking at those production metrics, it might be looking at customer feedback, it might be um uh comparing a doing a fuzz test between two implementations of a database engine, for example.",
+  "zh": "那可能是查看那些生产指标，可能是查看客户反馈，可能是，比如对同一个数据库引擎的两个实现做一个 fuzz 测试比较。"
+ },
+ {
+  "seg": 307,
+  "start": 2237.52,
+  "end": 2240.64,
+  "speaker": "Marc Brooker",
+  "en": "Um and a wide variety of other techniques.",
+  "zh": "呃，还有各种各样的其他技术。"
+ },
+ {
+  "seg": 308,
+  "start": 2241.36,
+  "end": 2242.4,
+  "speaker": "Simon Maple",
+  "en": "Yeah, amazing.",
+  "zh": "是的，太棒了。"
+ },
+ {
+  "seg": 309,
+  "start": 2242.72,
+  "end": 2245.68,
+  "speaker": "Simon Maple",
+  "en": "And it's it's it's so cool to see.",
+  "zh": "看到这些真的很酷。"
+ },
+ {
+  "seg": 310,
+  "start": 2245.84,
+  "end": 2256.56,
+  "speaker": "Simon Maple",
+  "en": "Uh I remember back in the early days, I think we had um some folks from uh Amazon for we when we talked about Kiro when that was first launched back in the early days.",
+  "zh": "呃，我记得在早期，我想我们在 Kiro 最初发布的时候，我们请到了来自 Amazon 的一些人聊过。"
+ },
+ {
+  "seg": 311,
+  "start": 2256.8,
+  "end": 2277.6,
+  "speaker": "Simon Maple",
+  "en": "And um yeah, specs are specs are such an important piece, and I think the uh the you know it it it's definitely got a place in agentic development for me in terms of being able to truly describe a function, a feature, an app, and be able to have that as the source of truth going forward.",
+  "zh": "而且呃，是的，规约是非常重要的一个部分，我认为它对我来说在智能体开发中绝对有一席之地，就是能够真正描述一个函数、一个功能、一个应用，并且能够让它作为后续的真相来源。"
+ },
+ {
+  "seg": 312,
+  "start": 2277.76,
+  "end": 2280.96,
+  "speaker": "Simon Maple",
+  "en": "I think I think there's a super compelling piece there.",
+  "zh": "我认为我认为那里有一个非常有说服力的部分。"
+ },
+ {
+  "seg": 313,
+  "start": 2281.28,
+  "end": 2294.4,
+  "speaker": "Simon Maple",
+  "en": "What one thing I always kind of struggled with was delineating almost what is part of the specification and what is part of the test, because very often you can write something in a specification that is essentially describing a test.",
+  "zh": "我一直有点纠结的一件事是，几乎如何划分什么属于规约的一部分，什么属于测试的一部分，因为很多时候你在规约中写的东西本质上就是在描述一个测试。"
+ },
+ {
+  "seg": 314,
+  "start": 2294.64,
+  "end": 2305.76,
+  "speaker": "Simon Maple",
+  "en": "And you know, similarly, when you when you're talking about a test, writing or describing a test, you're actually talking about how something should function, which is kind of part of the specification.",
+  "zh": "你知道，同样地，当你在谈论一个测试、编写或描述一个测试时，你实际上是在谈论某个东西应该如何运作，而这也是规约的一部分。"
+ },
+ {
+  "seg": 315,
+  "start": 2305.92,
+  "end": 2317.68,
+  "speaker": "Simon Maple",
+  "en": "And for me, almost like the the the functional specification as part of as well as the uh as well as the tests almost merged into one, and it's like, well, it could be both, it could be the same thing.",
+  "zh": "对我来说，几乎就像功能规约和测试几乎合并成了一个，就像是，嗯，它可以是两者，它可以是同一个东西。"
+ },
+ {
+  "seg": 316,
+  "start": 2317.84,
+  "end": 2326.96,
+  "speaker": "Marc Brooker",
+  "en": "Um but but yeah, super super interesting to see how that um Yeah, you know, and testing is a, I would say, informal specification technique.",
+  "zh": "呃，但是是的，非常非常有意思看到那如何……是的，你知道，测试是一种，我会说，非正式的规约技术。"
+ },
+ {
+  "seg": 317,
+  "start": 2327.28,
+  "end": 2330.4,
+  "speaker": "Marc Brooker",
+  "en": "Um and uh and you know, always always has been.",
+  "zh": "呃，而且你知道，一直都是如此。"
+ },
+ {
+  "seg": 318,
+  "start": 2330.72,
+  "end": 2336.08,
+  "speaker": "Marc Brooker",
+  "en": "Um I love the things the Kiro team has been doing with with Spec driven development.",
+  "zh": "呃，我很喜欢 Kiro 团队用规约驱动开发做的事情。"
+ },
+ {
+  "seg": 319,
+  "start": 2336.16,
+  "end": 2338.32,
+  "speaker": "Marc Brooker",
+  "en": "There's been some incredible advancement there.",
+  "zh": "那里已经有一些令人难以置信的进展。"
+ },
+ {
+  "seg": 320,
+  "start": 2338.48,
+  "end": 2359.92,
+  "speaker": "Marc Brooker",
+  "en": "I think looking back on that, um the thing I feel a little bit about unfulfilling about the current uh let's say current moment in in spec driven development is there's still quite a lot of conflation between what are those requirements, those kind of declarative requirements, and the more implementation detail-y stuff, right?",
+  "zh": "回头看那个，我觉得目前规约驱动开发的这个阶段有一点让人不太满足的地方是，那些需求和那些声明式的需求，与更多实现细节性的东西之间，仍然存在相当多的混淆，对吧？"
+ },
+ {
+  "seg": 321,
+  "start": 2360,
+  "end": 2374.32,
+  "speaker": "Marc Brooker",
+  "en": "Like there's still, oh well, you know, I want to build this in this language or for this kind of UI, or um and ultimately, um I don't want to care about those things as a system builder.",
+  "zh": "比如还有，「哦，嗯，你知道，我想用这种语言来构建这个，或者为这种 UI 构建」，而最终，作为一个系统构建者，我不想关心那些事情。"
+ },
+ {
+  "seg": 322,
+  "start": 2374.48,
+  "end": 2382,
+  "speaker": "Marc Brooker",
+  "en": "I I I want you know great decisions to be made, but great decisions to be made more automatically.",
+  "zh": "我我希望你知道，做出伟大的决策，但是让伟大的决策更自动地被做出。"
+ },
+ {
+  "seg": 323,
+  "start": 2382.24,
+  "end": 2392.48,
+  "speaker": "Marc Brooker",
+  "en": "Uh and and the specification and the tests and so on should focus on what good looks like for the output of the software, not for the way that it works inside.",
+  "zh": "呃，而且规约和测试等等应该聚焦于软件的输出什么样子算是好的，而不是它内部如何运作。"
+ },
+ {
+  "seg": 324,
+  "start": 2393.28,
+  "end": 2395.68,
+  "speaker": "Simon Maple",
+  "en": "Yeah, no, super interesting.",
+  "zh": "是的，对，非常有意思。"
+ },
+ {
+  "seg": 325,
+  "start": 2396.24,
+  "end": 2402.32,
+  "speaker": "Simon Maple",
+  "en": "I wanna now switch a little bit to talk about I think this is uh this is something that you said a while back.",
+  "zh": "我现在想稍微转换一下话题，谈谈，我想这是你一段时间之前说过的话。"
+ },
+ {
+  "seg": 326,
+  "start": 2402.48,
+  "end": 2413.04,
+  "speaker": "Simon Maple",
+  "en": "I'd love to know if it's still true, that you won't let AI write a word of your blog, but you're very comfortable with it writing AI generated code for you.",
+  "zh": "我很想知道这是否仍然成立：你不让 AI 写你博客里的一个字，但你非常乐意让它为你写 AI 生成的代码。"
+ },
+ {
+  "seg": 327,
+  "start": 2413.2,
+  "end": 2415.6,
+  "speaker": "Simon Maple",
+  "en": "Um so first of all, is that is that still the case?",
+  "zh": "呃，那么首先，现在还是这样吗？"
+ },
+ {
+  "seg": 328,
+  "start": 2415.92,
+  "end": 2416.64,
+  "speaker": "Simon Maple",
+  "en": "Yep, that's right.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 329,
+  "start": 2416.8,
+  "end": 2417.52,
+  "speaker": "Simon Maple",
+  "en": "It is still the case.",
+  "zh": "现在仍然是如此。"
+ },
+ {
+  "seg": 330,
+  "start": 2417.76,
+  "end": 2422,
+  "speaker": "Simon Maple",
+  "en": "What's the difference between blog content and code?",
+  "zh": "博客内容和代码之间有什么区别？"
+ },
+ {
+  "seg": 331,
+  "start": 2422.4,
+  "end": 2424.56,
+  "speaker": "Marc Brooker",
+  "en": "Yeah, uh it's a really great question.",
+  "zh": "是的，呃，这是一个非常好的问题。"
+ },
+ {
+  "seg": 332,
+  "start": 2424.64,
+  "end": 2426.88,
+  "speaker": "Marc Brooker",
+  "en": "And so I think it's it's a difference in intent.",
+  "zh": "所以我认为这是意图上的区别。"
+ },
+ {
+  "seg": 333,
+  "start": 2426.96,
+  "end": 2436.24,
+  "speaker": "Marc Brooker",
+  "en": "And so I think you know, five or so years ago, I would have said with uh strong conviction that the purpose of most code is to communicate with humans.",
+  "zh": "所以我想你知道，大约五年前，我会带着坚定的信念说，大多数代码的目的是与人类沟通。"
+ },
+ {
+  "seg": 334,
+  "start": 2436.8,
+  "end": 2443.44,
+  "speaker": "Marc Brooker",
+  "en": "Uh and the execution of that code is important, but not its primary purpose.",
+  "zh": "呃，而那段代码的执行很重要，但不是它的首要目的。"
+ },
+ {
+  "seg": 335,
+  "start": 2443.52,
+  "end": 2455.84,
+  "speaker": "Marc Brooker",
+  "en": "And so I was always, you know, very big on comments, very big on naming things carefully, very big on writing code in a way that communicates especially the intent of the code.",
+  "zh": "所以我一直，你知道，非常注重注释，非常注重仔细地命名事物，非常注重以传达代码尤其是代码意图的方式来编写代码。"
+ },
+ {
+  "seg": 336,
+  "start": 2456.48,
+  "end": 2481.76,
+  "speaker": "Marc Brooker",
+  "en": "I think that's changed and is very quickly changing across the industry as humans get out of that code level into more of that kind of specification level, as a lot of that coding becomes fully automated, is code is turning more and more into purely an implementation vehicle rather than a communication vehicle.",
+  "zh": "我认为这已经改变了，并且随着人类从那个代码层面退出、进入更多那种规约层面，随着很多编码工作变得完全自动化，这在整个行业正迅速改变，代码正越来越多地变成纯粹的一种实现载体，而不是一种沟通载体。"
+ },
+ {
+  "seg": 337,
+  "start": 2482,
+  "end": 2491.2,
+  "speaker": "Marc Brooker",
+  "en": "My blog, on the other hand, right, I'm saying this is for people to read and for people to engage with.",
+  "zh": "而另一方面，我的博客，对吧，我是说这是给人读的，是让人参与的。"
+ },
+ {
+  "seg": 338,
+  "start": 2491.6,
+  "end": 2501.6,
+  "speaker": "Marc Brooker",
+  "en": "And if my mind there's a kind of social contract behind that, um, where I'm saying I've spent a bunch of time deeply thinking about these words.",
+  "zh": "如果，这里有一种背后的社会契约，呃，我在说我花了大量时间深入思考这些文字。"
+ },
+ {
+  "seg": 339,
+  "start": 2501.76,
+  "end": 2509.76,
+  "speaker": "Marc Brooker",
+  "en": "I'm gonna share these words with you, and what I'm hoping you're gonna do as a reader is spend some time deeply trying to understand my words.",
+  "zh": "我要和你分享这些文字，而我希望作为读者的你做的，是花一些时间努力深入理解我的文字。"
+ },
+ {
+  "seg": 340,
+  "start": 2510,
+  "end": 2527.52,
+  "speaker": "Marc Brooker",
+  "en": "Whereas if I get Claude to write a blog post for me in you know five minutes, and then let's say 10,000 people read it and they each take, you know, each spend 10 minutes reading it, there's this huge asymmetry between the amount of effort that I'm putting in and the amount of effort that my readers are putting in.",
+  "zh": "而如果我用 Claude 在你知道的五分钟里为我写一篇博客文章，然后假设有 10,000 人读它，他们每人你知道的各花 10 分钟读它，那么我在投入的努力量和我的读者在投入的努力量之间就存在巨大的不对称。"
+ },
+ {
+  "seg": 341,
+  "start": 2527.6,
+  "end": 2529.28,
+  "speaker": "Marc Brooker",
+  "en": "And I think that is unfair.",
+  "zh": "而我认为那是不公平的。"
+ },
+ {
+  "seg": 342,
+  "start": 2529.44,
+  "end": 2539.44,
+  "speaker": "Marc Brooker",
+  "en": "And then if I take that into work, like you know, Amazon's very doc-driven culture, I write a lot of documents for work about plans, about technology, about the things we're doing.",
+  "zh": "然后如果我把它带到工作中，比如你知道的，Amazon 非常以文档驱动的文化，我为工作写很多文档，关于计划、关于技术、关于我们在做的事情。"
+ },
+ {
+  "seg": 343,
+  "start": 2539.68,
+  "end": 2556,
+  "speaker": "Marc Brooker",
+  "en": "And again, that is a contract between me and the readers, and I am expecting them to deeply read and understand and engage with my words, and they're expecting me to have deeply considered those words and have full ownership for them.",
+  "zh": "而且再次地，那是我和读者之间的一份契约，我期望他们深入地阅读、理解并参与我的文字，而他们期望我深入地思考过那些文字，并对它们拥有完全的所有权。"
+ },
+ {
+  "seg": 344,
+  "start": 2556.56,
+  "end": 2560.56,
+  "speaker": "Marc Brooker",
+  "en": "Uh and you know, if they're Claude's words, I haven't done that.",
+  "zh": "呃，你知道，如果那是 Claude 的文字，我就没有做到这一点。"
+ },
+ {
+  "seg": 345,
+  "start": 2561.52,
+  "end": 2573.2,
+  "speaker": "Marc Brooker",
+  "en": "And then the third part of that is, you know, if you have an idea and want to share it with me and want to share Claude's thoughts on it with me, actually I think that's great.",
+  "zh": "然后第三部分是，你知道，如果你有一个想法想和我分享，并且想把 Claude 对它的想法和我分享，实际上我觉得那很棒。"
+ },
+ {
+  "seg": 346,
+  "start": 2573.36,
+  "end": 2574.24,
+  "speaker": "Marc Brooker",
+  "en": "But let's do that.",
+  "zh": "但让我们那样做。"
+ },
+ {
+  "seg": 347,
+  "start": 2574.4,
+  "end": 2576,
+  "speaker": "Marc Brooker",
+  "en": "Let's make that interactive.",
+  "zh": "让我们让它变成互动的。"
+ },
+ {
+  "seg": 348,
+  "start": 2576.24,
+  "end": 2577.52,
+  "speaker": "Marc Brooker",
+  "en": "You know, send me the prompt.",
+  "zh": "你知道的，把提示词发给我。"
+ },
+ {
+  "seg": 349,
+  "start": 2577.6,
+  "end": 2579.52,
+  "speaker": "Marc Brooker",
+  "en": "Let's let's have a have a chat with it.",
+  "zh": "让我们来和它聊一聊。"
+ },
+ {
+  "seg": 350,
+  "start": 2579.68,
+  "end": 2586.48,
+  "speaker": "Marc Brooker",
+  "en": "One of the cool things about these agents is that I can go around the loop and ask follow-up questions and so on.",
+  "zh": "这些智能体的一个很酷的地方是,我可以绕着这个循环走,提出后续问题等等。"
+ },
+ {
+  "seg": 351,
+  "start": 2586.72,
+  "end": 2593.04,
+  "speaker": "Marc Brooker",
+  "en": "And so if that is the mode of communication we want to choose, let's choose that mode of communication.",
+  "zh": "所以如果那是我们想要选择的沟通模式,那我们就选择那种沟通模式。"
+ },
+ {
+  "seg": 352,
+  "start": 2593.28,
+  "end": 2609.36,
+  "speaker": "Marc Brooker",
+  "en": "Let's not just land in the one that's in the awkward middle, which is you know, all of the human care taken out without adding in the interactivity and and possibility for follow-up questions and so on, with which go into that agentic interaction.",
+  "zh": "我们不要落在那个尴尬的中间地带,也就是,你知道的,把所有人类的用心都去掉了,却没有加入互动性以及提出后续问题的可能性等等,而这些正是智能体式互动的组成部分。"
+ },
+ {
+  "seg": 353,
+  "start": 2609.84,
+  "end": 2610.56,
+  "speaker": "Simon Maple",
+  "en": "Super interesting.",
+  "zh": "非常有意思。"
+ },
+ {
+  "seg": 354,
+  "start": 2610.64,
+  "end": 2630.96,
+  "speaker": "Simon Maple",
+  "en": "And I think it's, yeah, for me, uh, I really I really love the way you say, you know, you you you care about the fact that it's people's time, and there's a there's a obviously one to very many uh you know people who are going to be reading that and taking the time to read that versus one person's time to actually write it well in your words.",
+  "zh": "而且我觉得,是的,对我来说,呃,我真的很喜欢你说的那种方式,你知道的,你在乎的是这是人们的时间,显然这里有一个一对多的关系,呃,你知道的,很多人要花时间来读它,而与之相对的只是一个人把内容写好的时间,用你的话说。"
+ },
+ {
+  "seg": 355,
+  "start": 2631.2,
+  "end": 2639.68,
+  "speaker": "Simon Maple",
+  "en": "Um kind of something that strikes me here is the you've obviously got the the way you say something and then the you know the core of what you're trying to purvey.",
+  "zh": "嗯,这里让我印象深刻的一点是,你显然有你说某件事的方式,然后还有你想要传达的内容的核心。"
+ },
+ {
+  "seg": 356,
+  "start": 2640.96,
+  "end": 2660.08,
+  "speaker": "Simon Maple",
+  "en": "Are both as important as the other to you there, or if you could get Claude to be able to uh write something in a reasonable way, but the the it you know if it could if it could really capture the message you're trying to share, um would would that be reasonable?",
+  "zh": "这两者对你来说是否同等重要?或者如果你能让 Claude 以一种合理的方式写点东西,但它,你知道的,如果它,如果它真的能捕捉到你想要分享的信息,嗯,那会不会是可以接受的?"
+ },
+ {
+  "seg": 357,
+  "start": 2660.16,
+  "end": 2667.12,
+  "speaker": "Simon Maple",
+  "en": "I guess the thing I'm saying is what would it take for you to allow AI to be able to write on your blog?",
+  "zh": "我想我要问的是,需要什么条件你才会允许 AI 在你的博客上写作?"
+ },
+ {
+  "seg": 358,
+  "start": 2667.84,
+  "end": 2668.48,
+  "speaker": "Marc Brooker",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 359,
+  "start": 2669.04,
+  "end": 2672.64,
+  "speaker": "Marc Brooker",
+  "en": "Um it's a good question.",
+  "zh": "嗯,这是个好问题。"
+ },
+ {
+  "seg": 360,
+  "start": 2672.72,
+  "end": 2687.28,
+  "speaker": "Marc Brooker",
+  "en": "And at some level for my personal blog, it is a philosophical thing where I just, you know, I want to say this is my, you know, these are my thoughts as I wrote them, with my mistakes as I wrote them, and so on.",
+  "zh": "而且在某种程度上,对于我的个人博客来说,这是一个哲学层面的事情,我只是,你知道的,我想声明这是我的,你知道的,这些是我写下时的想法,连同我写下时的错误,等等。"
+ },
+ {
+  "seg": 361,
+  "start": 2687.52,
+  "end": 2708.88,
+  "speaker": "Marc Brooker",
+  "en": "I think for those, you know, kind of work documents, uh, you know, if I could get Claude to write succinctly, you know, just describe the context, pull in the business context and so on for me, I would feel quite um uh you know, feel quite comfortable with that.",
+  "zh": "我想对于那些,你知道的,工作文档,呃,你知道的,如果我能让 Claude 简洁地写作,你知道的,帮我描述上下文,把业务上下文等纳入进来,我会觉得相当,呃,觉得相当舒服。"
+ },
+ {
+  "seg": 362,
+  "start": 2709.04,
+  "end": 2720.8,
+  "speaker": "Marc Brooker",
+  "en": "And so maybe the distinction there is if you're using Claude as an expander, right, saying, here's a prompt, turn it into a six-page document, I think that's a waste of the reader's time.",
+  "zh": "所以也许那里的区别在于,如果你把 Claude 当作扩写器来用,对吧,说,这是一个提示词,把它变成一份六页的文档,我认为那是在浪费读者的时间。"
+ },
+ {
+  "seg": 363,
+  "start": 2721.36,
+  "end": 2731.52,
+  "speaker": "Marc Brooker",
+  "en": "However, if you're using Claude as a context provider, right, like add a paragraph with the business metrics for this week, I think that's fine.",
+  "zh": "然而,如果你把 Claude 当作上下文提供者来用,对吧,比如,加一段包含本周业务指标的段落,我觉得那没问题。"
+ },
+ {
+  "seg": 364,
+  "start": 2731.84,
+  "end": 2740,
+  "speaker": "Marc Brooker",
+  "en": "Because you're you're you're bringing in new information from the human, and it is almost exactly the same form.",
+  "zh": "因为你是在从人类这里引入新信息,而且它的形式几乎和我本来会做的一模一样。"
+ },
+ {
+  "seg": 365,
+  "start": 2740.08,
+  "end": 2741.2,
+  "speaker": "Marc Brooker",
+  "en": "I would have done that.",
+  "zh": "我本来会手动做那件事。"
+ },
+ {
+  "seg": 366,
+  "start": 2741.44,
+  "end": 2743.12,
+  "speaker": "Marc Brooker",
+  "en": "I would have done that manually.",
+  "zh": "我本来会手动做那件事。"
+ },
+ {
+  "seg": 367,
+  "start": 2743.36,
+  "end": 2743.84,
+  "speaker": "Marc Brooker",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 368,
+  "start": 2744.08,
+  "end": 2754.16,
+  "speaker": "Marc Brooker",
+  "en": "Um But I think for my blog, you know, I I I still I still think there is a level there which I want to say it's a piece of craft.",
+  "zh": "嗯,但对于我的博客,你知道的,我我我仍然,我仍然认为存在一个层面,我想说它是一件手艺活。"
+ },
+ {
+  "seg": 369,
+  "start": 2754.56,
+  "end": 2756.64,
+  "speaker": "Simon Maple",
+  "en": "Yeah, I was that's the word I was gonna use actually.",
+  "zh": "是的,我正想说那个词,实际上。"
+ },
+ {
+  "seg": 370,
+  "start": 2756.72,
+  "end": 2759.6,
+  "speaker": "Simon Maple",
+  "en": "It's it's about can you scale craft?",
+  "zh": "这就是,你能不能规模化手艺?"
+ },
+ {
+  "seg": 371,
+  "start": 2759.76,
+  "end": 2774.56,
+  "speaker": "Simon Maple",
+  "en": "And I think sometimes craft is best uh left as a craft, and and that's where people get the joy in both creating it and also consuming it, uh knowing it's not just you know, there's no chance of slop, it's it's come straight from the straight from the hand.",
+  "zh": "而且我觉得有时候手艺最好还是留作手艺,而那正是人们在创作它和消费它时都获得乐趣的地方,呃,知道它不只是,你知道的,绝不可能有 slop(低质内容),它是直接来自,直接来自亲手。"
+ },
+ {
+  "seg": 372,
+  "start": 2775.04,
+  "end": 2794.64,
+  "speaker": "Simon Maple",
+  "en": "Um and I think in terms of you know feedback, I've certainly had a player, and I think it's very, very hard to be able to capture that level of feedback that still you know offers uh in a genuine way the written word in the same way that a an individual would write it.",
+  "zh": "嗯,而且我觉得在反馈方面,我肯定经历过,而且我认为很难捕捉到那种程度的反馈,它仍然能以一种真实的方式提供书面文字,就像一个个体会写出的那样。"
+ },
+ {
+  "seg": 373,
+  "start": 2794.96,
+  "end": 2797.12,
+  "speaker": "Simon Maple",
+  "en": "Um so I I I really like that.",
+  "zh": "嗯,所以我我我很喜欢这一点。"
+ },
+ {
+  "seg": 374,
+  "start": 2797.36,
+  "end": 2806.4,
+  "speaker": "Simon Maple",
+  "en": "Um while on the topic of feedback, let's let's jump into the kind of advice or uh being you know being able to suggest what our our listeners can do.",
+  "zh": "嗯,既然在谈反馈这个话题,让我们跳到建议那一类,或者,呃,你知道的,能够给我们的听众提出一些建议。"
+ },
+ {
+  "seg": 375,
+  "start": 2806.88,
+  "end": 2819.84,
+  "speaker": "Simon Maple",
+  "en": "In terms of feedback signals um that agents can use, what's the what's the you know one of the key most important things that a team can do today to improve the feedback signals?",
+  "zh": "在反馈信号方面,呃,智能体可以利用的,你知道的,团队今天能做的最重要的关键事情之一是什么,来改进反馈信号?"
+ },
+ {
+  "seg": 376,
+  "start": 2820,
+  "end": 2828.16,
+  "speaker": "Simon Maple",
+  "en": "So to make sure that agents get the clearest signal uh to use to improve on future runs.",
+  "zh": "也就是确保智能体获得最清晰的信号,呃,用于改进未来的运行。"
+ },
+ {
+  "seg": 377,
+  "start": 2828.96,
+  "end": 2829.6,
+  "speaker": "Marc Brooker",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 378,
+  "start": 2829.92,
+  "end": 2844.56,
+  "speaker": "Marc Brooker",
+  "en": "Um so I I think the answer to that varies a lot about sort of where in the agent um agentic development uh maturity hierarchy you are.",
+  "zh": "嗯,所以我认为这个答案很大程度上取决于你在智能体式开发生态成熟度层级中处于什么位置。"
+ },
+ {
+  "seg": 379,
+  "start": 2844.72,
+  "end": 2848.72,
+  "speaker": "Marc Brooker",
+  "en": "Uh and so there are a lot of teams still in our industry who are just starting out, right?",
+  "zh": "呃,而且我们行业里仍有很多团队才刚刚起步,对吧?"
+ },
+ {
+  "seg": 380,
+  "start": 2848.8,
+  "end": 2851.92,
+  "speaker": "Marc Brooker",
+  "en": "Who are just getting their their feet wet with agents.",
+  "zh": "他们才刚刚开始接触智能体。"
+ },
+ {
+  "seg": 381,
+  "start": 2852,
+  "end": 2865.44,
+  "speaker": "Marc Brooker",
+  "en": "And there's just a huge amount of I think the things that a lot of people would sort of roll their eyes at now that are very effective, like that agents.md file and writing you know some directions for the agents about what good looks like into those things.",
+  "zh": "而且有很多,我想很多现在人们会翻白眼的东西其实非常有效,比如那个 agents.md 文件,以及在里面为智能体写下一些关于什么是好的方向说明。"
+ },
+ {
+  "seg": 382,
+  "start": 2865.6,
+  "end": 2873.12,
+  "speaker": "Marc Brooker",
+  "en": "Um you know, definitely not a cutting-edge technique, but something that is proven to be effective.",
+  "zh": "嗯,你知道的,绝对不是什么前沿技术,但它是被证明有效的东西。"
+ },
+ {
+  "seg": 383,
+  "start": 2873.28,
+  "end": 2898.64,
+  "speaker": "Marc Brooker",
+  "en": "Um and I think a lot of teams early on try and jump to the end and say, oh, I'm gonna do parametric memory or something, when you know you can't ship code until Clippy is happy with it and it passes all the tests, um, is a very effective thing with very little uh very little um overhead.",
+  "zh": "嗯,而且很多团队早期会试图直接跳到最后,说,哦,我要做参数化记忆之类的,而你知道的,在 Clippy 满意并且通过所有测试之前你不能发布代码,嗯,是一件非常有效、开销非常小的事情。"
+ },
+ {
+  "seg": 384,
+  "start": 2899.04,
+  "end": 2922.8,
+  "speaker": "Marc Brooker",
+  "en": "Then, you know, as we go up uh those uh the the maturity spectrum, I think where things get really interesting is making sure that agents have a way to remember team context and remember past conversations.",
+  "zh": "然后,你知道的,当我们沿着那个成熟度光谱往上走,我觉得事情真正变得有趣的地方在于,确保智能体有一种方式记住团队上下文,并记住过去的对话。"
+ },
+ {
+  "seg": 385,
+  "start": 2923.76,
+  "end": 2930,
+  "speaker": "Marc Brooker",
+  "en": "And part of that is just agentic memory, the kind of memory that is built into a lot of the agents.",
+  "zh": "而其中一部分就是智能体式记忆,那种内置在很多智能体里的记忆。"
+ },
+ {
+  "seg": 386,
+  "start": 2930.16,
+  "end": 2940.16,
+  "speaker": "Marc Brooker",
+  "en": "They will, you know, remember things across sessions, and if you say, don't do this again, they'll remember it sometimes too well and sometimes too much, and that can be annoying.",
+  "zh": "它们会,你知道的,跨会话记住东西,如果你说,别再这么做了,它们会记住,有时记得太好,有时记得太多,这可能挺烦人的。"
+ },
+ {
+  "seg": 387,
+  "start": 2940.4,
+  "end": 2949.44,
+  "speaker": "Marc Brooker",
+  "en": "But the problem with agentic memory is that it doesn't spread well across um across teams or even across people.",
+  "zh": "但智能体式记忆的问题在于,它不能很好地在团队之间,甚至人与人之间传播。"
+ },
+ {
+  "seg": 388,
+  "start": 2949.6,
+  "end": 2958.72,
+  "speaker": "Marc Brooker",
+  "en": "Uh and so you need a way to capture those memories and to write those down in a way that the whole organization or the whole team can use them.",
+  "zh": "呃,所以你需要一种方式来捕捉那些记忆,并把它们写下来,让整个组织或整个团队都能使用。"
+ },
+ {
+  "seg": 389,
+  "start": 2958.88,
+  "end": 2976.08,
+  "speaker": "Marc Brooker",
+  "en": "Uh and this is where I'm seeing a lot of people use these uh agent wiki type patterns, which is are quite popular right now, where essentially I have my team agents um maintain a number of just a small wiki of pages about what good looks like.",
+  "zh": "呃,而这就是我看到很多人使用这些智能体 wiki 类型的模式的地方,它们现在相当流行,本质上是我的团队智能体维护一个小小的 wiki,包含一些关于什么是好的页面。"
+ },
+ {
+  "seg": 390,
+  "start": 2976.24,
+  "end": 2981.84,
+  "speaker": "Marc Brooker",
+  "en": "And that is shared between the agents.",
+  "zh": "而这在智能体之间共享。"
+ },
+ {
+  "seg": 391,
+  "start": 2982,
+  "end": 2999.44,
+  "speaker": "Marc Brooker",
+  "en": "And then there are tools like AWS Context that allows agents to build a formal graph of um of the context in its environment, connect that back to memory, connect though to documents, and do that across an organization.",
+  "zh": "然后还有像 AWS Context 这样的工具,允许智能体构建一个关于其环境中上下文的形式化图,把它连回记忆,连到文档,并在整个组织范围内做到这一点。"
+ },
+ {
+  "seg": 392,
+  "start": 3000,
+  "end": 3015.52,
+  "speaker": "Marc Brooker",
+  "en": "Um and part of that is that dynamic discovery and and and learning, and part of that is pulling in uh the right information from my organization where I already have a whole lot of that written down.",
+  "zh": "嗯,其中一部分是那种动态发现和学习,另一部分是从我的组织中引入正确的信息,而我其实已经写下了大量这类内容。"
+ },
+ {
+  "seg": 393,
+  "start": 3015.76,
+  "end": 3015.92,
+  "speaker": "Marc Brooker",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 394,
+  "start": 3016.16,
+  "end": 3023.04,
+  "speaker": "Marc Brooker",
+  "en": "And again, you know, people sort of roll their eyes at RAG and be like, oh, well, that's so 2004 or 2024.",
+  "zh": "而且再说一次,你知道的,人们对 RAG 翻白眼,说,哦,那都是 2004 年或者 2024 年的东西了。"
+ },
+ {
+  "seg": 395,
+  "start": 3023.28,
+  "end": 3033.36,
+  "speaker": "Marc Brooker",
+  "en": "Um but the bottom line is that giving uh agent semantic search over the information in my organization is still a super powerful technique.",
+  "zh": "嗯,但底线是,让智能体对我组织中的信息进行语义搜索,仍然是一种非常强大的技术。"
+ },
+ {
+  "seg": 396,
+  "start": 3033.68,
+  "end": 3035.28,
+  "speaker": "Marc Brooker",
+  "en": "Uh and so there's just a lot of that.",
+  "zh": "呃,所以就是有很多这样的东西。"
+ },
+ {
+  "seg": 397,
+  "start": 3035.44,
+  "end": 3039.52,
+  "speaker": "Marc Brooker",
+  "en": "I'm gonna plumb that in, I'm going to give give my agent access to that.",
+  "zh": "我要把它接进去,我要给我的智能体访问权限。"
+ },
+ {
+  "seg": 398,
+  "start": 3039.76,
+  "end": 3066.8,
+  "speaker": "Marc Brooker",
+  "en": "Uh and what we're seeing with the uh with the commercial agents, especially if you look at something like Kiro or you look at something like Quick from Amazon, um, more and more they're making it very easy to pull in that organizational context and pull in that team context and share those memories through things like AWS context to bake in what these good kind of learning from experience patterns look like across across an organization.",
+  "zh": "呃,而且我们在商业化智能体上看到的,尤其是如果你看看像 Kiro 这样的东西,或者看看像 Amazon 的 Quick 这样的东西,嗯,它们越来越多地让人们非常容易地引入那种组织上下文和团队上下文,并通过像 AWS Context 这样的东西共享那些记忆,把这些好的、从经验中学习的模式固化到整个组织中。"
+ },
+ {
+  "seg": 399,
+  "start": 3067.12,
+  "end": 3068,
+  "speaker": "Simon Maple",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 400,
+  "start": 3068.32,
+  "end": 3079.04,
+  "speaker": "Simon Maple",
+  "en": "I'd like to wrap now by another question and around advice, but advice to individuals, advice to um, you know, perhaps juniors.",
+  "zh": "我想现在用另一个问题来收尾，是关于建议的，给个人的建议，给,你知道的,也许是初级人员的建议。"
+ },
+ {
+  "seg": 401,
+  "start": 3079.28,
+  "end": 3098,
+  "speaker": "Simon Maple",
+  "en": "Um and let's let's circle back all the way back to the to the to the front of this, to the top of this podcast episode, where we talked about the three to four thousand um uh post-mortems that that you've read in the past and how that very much helped you and you learnt from that feedback.",
+  "zh": "但我们绝对需要建立在一种教导、成长、吸纳新人、培训和学习的强大文化之上,来构建这个行业。"
+ },
+ {
+  "seg": 402,
+  "start": 3098.24,
+  "end": 3113.28,
+  "speaker": "Simon Maple",
+  "en": "Um your advice to juniors is own a project, talk to a customer, own a deadline, and going back to the front, also essentially learning from those mistakes that we as teams and individuals have made uh in the past.",
+  "zh": "嗯,你给初级人员的建议是:负责一个项目,和客户交谈,承担一个截止日期,再回到开头,也就是从我们作为团队和个人过去犯过的那些错误中学习。"
+ },
+ {
+  "seg": 403,
+  "start": 3113.76,
+  "end": 3122.48,
+  "speaker": "Simon Maple",
+  "en": "But historically, these are the these are the tasks that senior developers uh have historically done and often guarded.",
+  "zh": "但从历史上看,这些是高级开发人员过去做的、而且常常把持着不放的任务。"
+ },
+ {
+  "seg": 404,
+  "start": 3122.72,
+  "end": 3131.6,
+  "speaker": "Simon Maple",
+  "en": "Um do you think it's reasonable to expect senior developers to now give these types of tasks to junior developers, or do you feel like they're gonna hang on?",
+  "zh": "嗯,你认为现在期望高级开发人员把这些类型的任务交给初级开发人员是合理的吗?还是你觉得他们会抓着不放?"
+ },
+ {
+  "seg": 405,
+  "start": 3131.76,
+  "end": 3139.2,
+  "speaker": "Simon Maple",
+  "en": "And I guess this is the the age-old question about how we you know how we bridge that gap between a junior and a senior developer.",
+  "zh": "我想这就是那个由来已久的问题:我们如何在初级开发人员和高级开发人员之间架起那道桥梁。"
+ },
+ {
+  "seg": 406,
+  "start": 3139.52,
+  "end": 3140.16,
+  "speaker": "Marc Brooker",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 407,
+  "start": 3140.88,
+  "end": 3142,
+  "speaker": "Marc Brooker",
+  "en": "Well, we have to.",
+  "zh": "嗯,我们必须这么做。"
+ },
+ {
+  "seg": 408,
+  "start": 3142.24,
+  "end": 3150.96,
+  "speaker": "Marc Brooker",
+  "en": "Uh you know, I I I think the the software industry is gonna grow, you know, just a huge amount in importance and and and economic impact over the next decade.",
+  "zh": "你知道,我认为软件行业在未来十年将在重要性和经济影响上大幅增长。"
+ },
+ {
+  "seg": 409,
+  "start": 3151.04,
+  "end": 3164.16,
+  "speaker": "Marc Brooker",
+  "en": "And and the bottom line is we're we're not going to do that growth, and we're not gonna have that growth if we pull up the ladder and and you know the the community of software engineers just gets grayer and grayer.",
+  "zh": "而底线是,如果我们把梯子抽掉,让软件工程师这个群体变得越来越灰白,我们就不会有那种增长,我们不会实现那种增长。"
+ },
+ {
+  "seg": 410,
+  "start": 3164.32,
+  "end": 3173.92,
+  "speaker": "Marc Brooker",
+  "en": "Um you know, we're not gonna build this this fantastic new industry on a you know bunch of folks with with you know gray flecks in their beards.",
+  "zh": "你知道,我们不会靠一群胡子里带着灰白斑点的家伙来建立这个了不起的新行业。"
+ },
+ {
+  "seg": 411,
+  "start": 3174.16,
+  "end": 3183.52,
+  "speaker": "Marc Brooker",
+  "en": "Um and uh you know experience and and seniority and and and you know having having been around still matters a huge amount.",
+  "zh": "嗯,而且你知道,经验、资历以及阅历仍然非常重要。"
+ },
+ {
+  "seg": 412,
+  "start": 3183.68,
+  "end": 3186.56,
+  "speaker": "Marc Brooker",
+  "en": "Deep expertise still matters a huge amount.",
+  "zh": "深厚的专业知识仍然非常重要。"
+ },
+ {
+  "seg": 413,
+  "start": 3186.88,
+  "end": 3198.8,
+  "speaker": "Marc Brooker",
+  "en": "But we absolutely need to build this industry on a strong culture of teaching and growing and and bringing new folks in, training and learning.",
+  "zh": "但我们绝对需要把这个行业建立在一个强大的教学、成长、以及引入新人、培训与学习的文化之上。"
+ },
+ {
+  "seg": 414,
+  "start": 3199.04,
+  "end": 3203.52,
+  "speaker": "Marc Brooker",
+  "en": "Uh and it's tough to know exactly what that's gonna mean tactically, day-to-day, right?",
+  "zh": "嗯,在战术上、在日常层面,这具体意味着什么,很难确切知道,对吧?"
+ },
+ {
+  "seg": 415,
+  "start": 3203.6,
+  "end": 3205.44,
+  "speaker": "Marc Brooker",
+  "en": "Like what does that look like?",
+  "zh": "比如那会是什么样子?"
+ },
+ {
+  "seg": 416,
+  "start": 3205.68,
+  "end": 3233.28,
+  "speaker": "Marc Brooker",
+  "en": "But I I have no doubt that that is going to be a critical part of what you know what our success as an industry is gonna look like, and what the success of individual organizations is going to look like, is figuring out what is that path for bringing people in from things like universities who often have you know fantastic and very fresh theoretical knowledge and ramping up on the uh on the practical knowledge, on the day-to-day.",
+  "zh": "但我毫不怀疑,那将是我们整个行业取得成功、以及各个组织取得成功的关键部分,即找出一条路径,把那些通常拥有非常出色且非常新鲜的理论知识的大学毕业生吸纳进来,让他们在实践知识、在日常事务上快速上手。"
+ },
+ {
+  "seg": 417,
+  "start": 3233.6,
+  "end": 3235.92,
+  "speaker": "Marc Brooker",
+  "en": "Um we've got to figure it out.",
+  "zh": "嗯,我们必须想清楚这件事。"
+ },
+ {
+  "seg": 418,
+  "start": 3236.08,
+  "end": 3244,
+  "speaker": "Marc Brooker",
+  "en": "It's gonna be a big differentiator for organizations going forward, uh, their ability to bring in new people and bring in new ideas.",
+  "zh": "对未来的组织来说,这将是一个巨大的差异化因素,也就是它们吸纳新人和新思想的能力。"
+ },
+ {
+  "seg": 419,
+  "start": 3244.32,
+  "end": 3259.92,
+  "speaker": "Marc Brooker",
+  "en": "And the the benefit of that is is the folks that I see coming out of college who spent a ton of time learning with AI, learning with agents, um, you know, with without uh you know some of the preconceived notions a lot of us come towards them with.",
+  "zh": "而这样做的好处是,我看到那些走出大学的年轻人,他们花了大量时间与 AI 一起学习、与智能体一起学习,嗯,你知道,他们没有我们很多人带着的那种先入为主的观念。"
+ },
+ {
+  "seg": 420,
+  "start": 3260.16,
+  "end": 3263.84,
+  "speaker": "Marc Brooker",
+  "en": "Um just come in with so many fresh ideas and perspectives.",
+  "zh": "嗯,他们带着如此多新鲜的想法和视角走进来。"
+ },
+ {
+  "seg": 421,
+  "start": 3264,
+  "end": 3268.8,
+  "speaker": "Marc Brooker",
+  "en": "And and that's a fantastic in uh you know addition to an organization or a development team, too.",
+  "zh": "而这对一个组织或一个开发团队来说,是非常棒的补充。"
+ },
+ {
+  "seg": 422,
+  "start": 3269.12,
+  "end": 3270.24,
+  "speaker": "Simon Maple",
+  "en": "Yeah, I totally agree.",
+  "zh": "是的,我完全同意。"
+ },
+ {
+  "seg": 423,
+  "start": 3270.32,
+  "end": 3282.56,
+  "speaker": "Simon Maple",
+  "en": "And I think it's it's like you say, like almost like a joint responsibility from the organization and and and senior engineers to make sure that you know these folks are included.",
+  "zh": "而且我觉得,就像你说的,这几乎是一种共同责任,由组织和高级工程师共同承担,确保这些人被纳入进来。"
+ },
+ {
+  "seg": 424,
+  "start": 3282.64,
+  "end": 3286.16,
+  "speaker": "Simon Maple",
+  "en": "The juniors are included in a lot of the decision making and brought up to speed on this.",
+  "zh": "让初级人员参与很多决策制定,并让他们在这些方面跟上进度。"
+ },
+ {
+  "seg": 425,
+  "start": 3286.24,
+  "end": 3294.8,
+  "speaker": "Simon Maple",
+  "en": "And I think it it's a it's a very understated thing, uh, under said thing that actually junior engineers they are truly AI native.",
+  "zh": "而且我认为这是一件被大大低估的事,很少被说到的事:初级工程师其实才是真正的 AI 原生的。"
+ },
+ {
+  "seg": 426,
+  "start": 3294.88,
+  "end": 3305.44,
+  "speaker": "Simon Maple",
+  "en": "Like we're you know, from our point of view, we've got years, decades of of of you know development and you know this old way of tapping a keyboard and code comes out.",
+  "zh": "你知道,从我们的角度看,我们有多年的、几十年的开发经验,以及这种敲击键盘然后代码就出来的老方式。"
+ },
+ {
+  "seg": 427,
+  "start": 3305.6,
+  "end": 3321.2,
+  "speaker": "Simon Maple",
+  "en": "We're trying to learn the new AI ways, the AI native ways, but people who will you know come through um you know the newer courses, the newer curriculums, which are truly very AI focused, this is how they grew up, this is how they learnt it.",
+  "zh": "我们在努力学习新的 AI 方式,AI 原生的方式,但那些经历更新的课程、更新的教学大纲的人——这些课程确实非常聚焦 AI——他们就是这样长大的,他们就是这样学的。"
+ },
+ {
+  "seg": 428,
+  "start": 3321.28,
+  "end": 3325.2,
+  "speaker": "Simon Maple",
+  "en": "And I think we can absolutely learn from the from the fresh perspective.",
+  "zh": "而且我认为我们绝对可以从这种新鲜的视角中学习。"
+ },
+ {
+  "seg": 429,
+  "start": 3325.36,
+  "end": 3327.76,
+  "speaker": "Simon Maple",
+  "en": "So uh very much plus one to that.",
+  "zh": "所以嗯,对此非常加一(非常赞同)。"
+ },
+ {
+  "seg": 430,
+  "start": 3328,
+  "end": 3331.12,
+  "speaker": "Simon Maple",
+  "en": "Um Mark, this has been this has been a wonderful chat.",
+  "zh": "嗯,Mark,这是一次非常愉快的交谈。"
+ },
+ {
+  "seg": 431,
+  "start": 3331.2,
+  "end": 3337.2,
+  "speaker": "Simon Maple",
+  "en": "I really enjoyed, I really enjoyed the uh the conversation and in particular uh some of your insights.",
+  "zh": "我真的很享受这次对话,尤其是你的一些见解。"
+ },
+ {
+  "seg": 432,
+  "start": 3337.36,
+  "end": 3344.08,
+  "speaker": "Simon Maple",
+  "en": "Particularly, I I love the fact that you've that you read 4,000, 34,000 uh uh postmortems and things like that.",
+  "zh": "特别是,我很喜欢你读过 4000 份、34000 份事后复盘之类的事情。"
+ },
+ {
+  "seg": 433,
+  "start": 3344.24,
+  "end": 3348.8,
+  "speaker": "Simon Maple",
+  "en": "And Mark, you've written a number of pieces, blogs, and things like that about all of this.",
+  "zh": "而且 Mark,你写过不少关于这一切的文章、博客之类的东西。"
+ },
+ {
+  "seg": 434,
+  "start": 3348.88,
+  "end": 3354.32,
+  "speaker": "Simon Maple",
+  "en": "It's actually been it's it you have a very insightful uh uh blog with all of this on.",
+  "zh": "实际上,你有一个非常有洞察力的博客,上面有这一切内容。"
+ },
+ {
+  "seg": 435,
+  "start": 3354.4,
+  "end": 3356,
+  "speaker": "Simon Maple",
+  "en": "Where can people go to read that?",
+  "zh": "大家可以去哪里读呢?"
+ },
+ {
+  "seg": 436,
+  "start": 3356.32,
+  "end": 3371.76,
+  "speaker": "Marc Brooker",
+  "en": "Yeah, you can go to my blog, it's at at at brooker.co.za um and uh I tend to share things on X, on LinkedIn, and a couple of other a couple of other social platforms, but my blog and its RSS feed, uh very old school, uh, is uh is the primary source.",
+  "zh": "是的,你可以去我的博客,地址是 brooker.co.za,嗯,我倾向于在 X、LinkedIn 以及其他几个社交平台上分享内容,但我的博客和它的 RSS 订阅源,非常老派,是主要来源。"
+ },
+ {
+  "seg": 437,
+  "start": 3372.08,
+  "end": 3372.96,
+  "speaker": "Simon Maple",
+  "en": "Amazing, Mark.",
+  "zh": "太棒了,Mark。"
+ },
+ {
+  "seg": 438,
+  "start": 3373.12,
+  "end": 3376.4,
+  "speaker": "Simon Maple",
+  "en": "Thank you so much for your time and sharing all that wisdom with us today.",
+  "zh": "非常感谢你今天抽出时间并与我们分享这些智慧。"
+ },
+ {
+  "seg": 439,
+  "start": 3376.64,
+  "end": 3377.52,
+  "speaker": "Marc Brooker",
+  "en": "Well, thank you, Simon.",
+  "zh": "嗯,谢谢你,Simon。"
+ },
+ {
+  "seg": 440,
+  "start": 3377.6,
+  "end": 3379.36,
+  "speaker": "Marc Brooker",
+  "en": "It's been super fun talking to you today.",
+  "zh": "今天和你聊天非常开心。"
+ },
+ {
+  "seg": 441,
+  "start": 3379.68,
+  "end": 3380.32,
+  "speaker": "Simon Maple",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 442,
+  "start": 3380.48,
+  "end": 3382,
+  "speaker": "Simon Maple",
+  "en": "And thank you very much for listening.",
+  "zh": "也非常感谢大家的收听。"
+ },
+ {
+  "seg": 443,
+  "start": 3382.16,
+  "end": 3384.88,
+  "speaker": "Simon Maple",
+  "en": "Hope you enjoyed that and tune into the next episode soon.",
+  "zh": "希望你喜欢这期节目,并尽快收听下一集。"
+ },
+ {
+  "seg": 444,
+  "start": 3385.04,
+  "end": 3386,
+  "speaker": "Simon Maple",
+  "en": "Bye for now.",
+  "zh": "暂时再见了。"
+ },
+ {
+  "seg": 445,
+  "start": 3386.56,
+  "end": 3391.44,
+  "speaker": "Simon Maple",
+  "en": "The AI Native Dev is brought to you by Tesla, the package manager for Skills and Context.",
+  "zh": "AI Native Dev 由 Tesla 为你呈现,它是 Skills 和 Context 的包管理器。"
+ },
+ {
+  "seg": 446,
+  "start": 3391.52,
+  "end": 3394.56,
+  "speaker": "Simon Maple",
+  "en": "Your hosts are Guy Pajani and me, Simon Maple.",
+  "zh": "你的主持人是 Guy Pajani 和我,Simon Maple。"
+ },
+ {
+  "seg": 447,
+  "start": 3394.64,
+  "end": 3396.32,
+  "speaker": "Simon Maple",
+  "en": "Our producer is Tom Dowler.",
+  "zh": "我们的制作人是 Tom Dowler。"
+ },
+ {
+  "seg": 448,
+  "start": 3396.48,
+  "end": 3399.76,
+  "speaker": "Simon Maple",
+  "en": "The AI Native Dev is not just a podcast, it's a community.",
+  "zh": "AI Native Dev 不只是一个播客,它是一个社区。"
+ },
+ {
+  "seg": 449,
+  "start": 3399.84,
+  "end": 3403.36,
+  "speaker": "Simon Maple",
+  "en": "And we host monthly meetups at the Tesla offices in central London.",
+  "zh": "我们每月在伦敦市中心的 Tesla 办公室举办聚会。"
+ },
+ {
+  "seg": 450,
+  "start": 3403.52,
+  "end": 3406.88,
+  "speaker": "Simon Maple",
+  "en": "Visit Tesla.io forward slash community to learn more.",
+  "zh": "访问 Tesla.io 斜杠 community 了解更多。"
+ },
+ {
+  "seg": 451,
+  "start": 3407.12,
+  "end": 3408.48,
+  "speaker": "Simon Maple",
+  "en": "I hope to see you there.",
+  "zh": "我希望在那里见到你。"
+ }
+]

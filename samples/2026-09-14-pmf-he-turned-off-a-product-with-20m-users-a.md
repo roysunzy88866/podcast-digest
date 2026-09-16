@@ -171,9 +171,9 @@ Keith 把这当成创业方法论本身：「你所能做的就是尽你所能�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-16-a16z-the-ai-native-crm-pmervpt|从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM]]<span class="pd-rz">同公司:Lightfield、Tome、Salesforce · 同概念:CRM、系统记录 (system of record)</span>
 - [[2026-07-14-uncapped-uncapped-54--sam-blond-from-monaco-e3mlt|三次从零到大规模：Brex 前销售掌门 Sam 的增长心法与 AI 原生销售哲学]]<span class="pd-rz">同公司:Salesforce · 同概念:系统记录 (system of record)、CRM</span>
 - [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|Gamma 联创复盘：押注空白页，赌出一亿用户]]<span class="pd-rz">同公司:Salesforce · 同概念:产品市场契合 (product market fit)</span>
-- [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同公司:Salesforce · 同概念:系统记录 (system of record)</span>
 
 </div>
 <div class="pd-ex">

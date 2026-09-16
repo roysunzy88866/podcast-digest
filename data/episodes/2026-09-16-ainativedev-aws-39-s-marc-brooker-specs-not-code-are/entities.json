@@ -1,0 +1,1059 @@
+{
+  "episode_id": "2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are",
+  "podcast": "The AI-Native Dev",
+  "date": "2026-09-16",
+  "tags": [
+    "智能体",
+    "on call 与运维",
+    "智能体政策",
+    "规约驱动开发",
+    "组织与人才"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "simon-maple",
+      "type": "person",
+      "role": "host",
+      "name": "Simon Maple",
+      "file": "Simon Maple",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            57.52,
+            67.68
+          ],
+          "quote": "Join your host, Guy Fajani, and meet Simon Maple every week as we chat with the most exciting voices in AI and tackle the biggest questions facing developers today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 446,
+          "t": [
+            3391.52,
+            3394.56
+          ],
+          "quote": "Your hosts are Guy Pajani and me, Simon Maple.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "marc-brooker",
+      "type": "person",
+      "role": "guest",
+      "name": "Marc Brooker",
+      "file": "Marc Brooker",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": true,
+      "how_described": "本集嘉宾在此工作 18 年、任 VP 兼杰出工程师，正专注智能体 AI 基础设施，并推出 Agent Core、Strands、Dogwood 等智能体相关产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            191.6,
+            196.4
+          ],
+          "quote": "Tell us a little bit about you know what you've been up to and some of the work that you do at AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            196.8,
+            200.32
+          ],
+          "quote": "Yeah, so I've been at AWS for a long time, for 18 years now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            211.84,
+            221.68
+          ],
+          "quote": "And so was deeply involved in the development of AWS Agent Core, this kind of suite of tools for building agents in the cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            234,
+            241.52
+          ],
+          "quote": "Uh, and um uh so we own uh Strands, which is AWS's agent framework, open source agent framework.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            530.24,
+            539.04
+          ],
+          "quote": "Like we used to get paged for single host failures, but now you know AWS autoscaling 15 years ago has just started dealing with those things for us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            556.8,
+            568.32
+          ],
+          "quote": "Um, you know, if you look at something like AWS's DevOps agent, it's great at doing that kind of automation of um, let's say the more day-to-day aspects of on-call.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2982,
+            2999.44
+          ],
+          "quote": "And then there are tools like AWS Context that allows agents to build a formal graph of um of the context in its environment, connect that back to memory, connect though to documents, and do that across an organization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 398,
+          "t": [
+            3039.76,
+            3066.8
+          ],
+          "quote": "Uh and what we're seeing with the uh with the commercial agents, especially if you look at something like Kiro or you look at something like Quick from Amazon, um, more and more they're making it very easy to pull in that organizational context and pull in that team context and share those memories through things like AWS context to bake in what these good kind of learning from experience patterns look like across across an organization.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：智能体能接管 on call 的机械调查、从复盘中学习，但要信任它进生产，需要确定性的政策边界；编程智能体应与运维智能体共享生产经验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            10.48,
+            26.4
+          ],
+          "quote": "With the basic investigations of on call, the the log scraping, the diving into metrics and so on, you know, if you look at something like AWSS DevOps agent, it's great at doing that kind of automation of, let's say, the more day-to-day aspects of on-call.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            211.84,
+            221.68
+          ],
+          "quote": "And so was deeply involved in the development of AWS Agent Core, this kind of suite of tools for building agents in the cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            221.84,
+            233.84
+          ],
+          "quote": "Um but most recently um I've been focused on building a um a team really looking at some of the future of agent building, agentic development.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            234,
+            241.52
+          ],
+          "quote": "Uh, and um uh so we own uh Strands, which is AWS's agent framework, open source agent framework.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            293.76,
+            319.36
+          ],
+          "quote": "Um so the kind of minimal Strands agent is just a handful of lines of code, but you can build out from there with um tool integrations, uh, you know, all built-in MCP clients, built-in open API clients, um context management, uh all of the things that go into um you know into building a great agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            319.52,
+            329.2
+          ],
+          "quote": "Um and the strands team is really trying to make that as easy as possible by being, let's say, very opinionated about good agent patterns.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            329.28,
+            342.56
+          ],
+          "quote": "And uh and so you can extend strands, you can use it any way you want, but there's a really nice kind of paved path through strands uh that uh has these opinions of of you know what we think right now it means to build a great agent built right in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            343.04,
+            349.84
+          ],
+          "quote": "It's funny because I always think you know developers who have never built an agent before probably think there's actually so much complexity behind the scenes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            365.36,
+            370.4
+          ],
+          "quote": "And you know, I I really just would encourage people to you know build build your own development agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            556.8,
+            568.32
+          ],
+          "quote": "Um, you know, if you look at something like AWS's DevOps agent, it's great at doing that kind of automation of um, let's say the more day-to-day aspects of on-call.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            602.88,
+            615.6
+          ],
+          "quote": "that an agent has already been through the logs and been through all the information, you know, the gruelling part of the the debugging of, or not the debugging per se, but trying to identify what a root cause could be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            824,
+            852.24
+          ],
+          "quote": "Um when we think about uh loop engineering, for example, and we think about how we can take these loops that will automatically um understand how agent c agents could have done better, potentially updating context, updating skills, so that when we write uh and build applications that are similar, we can potentially circumvent uh you know g work around certain problems or at least guard against them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            881.92,
+            896.08
+          ],
+          "quote": "Another way is to say, I've got all of these postmortems, and I'm going to give my agent a tool to search over those postmortems semantically and say, show me incidents like this one, and then I can understand how I recovered from that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            896.32,
+            901.76
+          ],
+          "quote": "And then at that point, that agent can write its own memories and say, I tried X, it didn't work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1036,
+            1051.2
+          ],
+          "quote": "And so when we get into the agent world, what we want is that our coding agents, our development agents, our software building agents, are learning from production experience in exactly the same way that uh operations automation agents are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1060.4,
+            1067.52
+          ],
+          "quote": "Even using that development agent as a kind of expert consultant for reviewing a software design.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1074.88,
+            1084
+          ],
+          "quote": "I remember when prompt engineering was a thing where you used to be able to write something to say, like, oh, by the way, another agent is going to review this, so make sure you do it well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1097.6,
+            1106.16
+          ],
+          "quote": "Um I'd love to know in your experience, what can an agent not what's it not possible for from for an agent to learn from a post-mortem?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1114.32,
+            1118.56
+          ],
+          "quote": "So from the postmortem, what's what do you expect an agent just to breeze over?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1275.68,
+            1285.12
+          ],
+          "quote": "And one of the very common themes that I hear from customers is um, hey, we built this awesome agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1285.2,
+            1290.8
+          ],
+          "quote": "We we use strands, we we we built this awesome demo, we put it on agent core, it looks great.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1294.32,
+            1305.92
+          ],
+          "quote": "But now we're really worried about how we get it into production, how we make it reliable, how we you know make our it's so our customers can trust that agent to do work on their behalf.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1314,
+            1318.96
+          ],
+          "quote": "What does it mean for an agent to do the right thing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1319.12,
+            1325.28
+          ],
+          "quote": "Um how do We very clearly define what an agent can and can't do?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1326.08,
+            1337.84
+          ],
+          "quote": "You know, what of that belongs to the environment and the harness and uh and the containment of the agent versus what of that belongs in the prompt, what uh tool descriptions, etc.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1338.56,
+            1359.84
+          ],
+          "quote": "And what our customers are asking for is ways to think very clearly, very deterministically about how to build a box around agents and say, I'm gonna trust this agent to do this thing, this thing, and this thing, but it is not going to have any access to do you know these things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1388,
+            1413.04
+          ],
+          "quote": "And so, for example, one of the things we did is we we recently launched Dogwood, which is this new policy language, happy to go into depth on that, but that is built as a specialized language for describing with mathematical certainty what an agent is allowed to do, what order it's allowed to do it in, whether it can do thing A after thing B, and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1593.68,
+            1601.2
+          ],
+          "quote": "Um, and then once we have that description, we will apply it to the agent without requiring a human to go around and do those things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1728,
+            1748
+          ],
+          "quote": "And so I'll have some things from my CISO's office, I'll probably have some things from Legal, I'll have some things from myself as a developer, and all of those go together and provide this shell around my agent where we can strongly and deterministically make sure that the agent is following all of those policies by using one of these lower level languages.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1795.52,
+            1800.32
+          ],
+          "quote": "Like, can my development agent delete documents from my documents folder?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1837.04,
+            1859.2
+          ],
+          "quote": "And so just like you know, most big software organizations don't try and push down a, you will use exactly these tools at this time type software engineering practice, they're not going to succeed at pushing down a complete end-to-end, this is your agent policy, because that needs to be adapted to the kinds of development you're doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2829.92,
+            2844.56
+          ],
+          "quote": "Um so I I think the answer to that varies a lot about sort of where in the agent um agentic development uh maturity hierarchy you are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2958.88,
+            2976.08
+          ],
+          "quote": "Uh and this is where I'm seeing a lot of people use these uh agent wiki type patterns, which is are quite popular right now, where essentially I have my team agents um maintain a number of just a small wiki of pages about what good looks like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            3023.28,
+            3033.36
+          ],
+          "quote": "Um but the bottom line is that giving uh agent semantic search over the information in my organization is still a super powerful technique.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 397,
+          "t": [
+            3035.44,
+            3039.52
+          ],
+          "quote": "I'm gonna plumb that in, I'm going to give give my agent access to that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "strands",
+      "type": "company",
+      "role": "company",
+      "name": "Strands",
+      "file": "Strands",
+      "primary": true,
+      "how_described": "本集说 Strands 是 AWS 的开源智能体框架（构建智能体的开源 SDK），适用于任何模型和云服务商，目标是让构建生产级智能体尽可能简单。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            234,
+            241.52
+          ],
+          "quote": "Uh, and um uh so we own uh Strands, which is AWS's agent framework, open source agent framework.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            241.68,
+            258.88
+          ],
+          "quote": "We've got some really cool technology coming in the Strands space, uh, and then are building some new development tools, thinking a lot about the future of development uh and doing uh everything ranging from fairly basic research to a lot of code building, a lot of product building.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            269.44,
+            272.4
+          ],
+          "quote": "And actually, we haven't really talked about Strands too much on the podcast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            272.48,
+            275.92
+          ],
+          "quote": "Tell us a little bit about you know what Strands is and who should be interested.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            276.32,
+            279.76
+          ],
+          "quote": "Yeah, so Strands is an open source SDK for building agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            285.92,
+            293.52
+          ],
+          "quote": "Uh and the goal of Strands is to make it as easy as possible to build great production ready agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            293.76,
+            319.36
+          ],
+          "quote": "Um so the kind of minimal Strands agent is just a handful of lines of code, but you can build out from there with um tool integrations, uh, you know, all built-in MCP clients, built-in open API clients, um context management, uh all of the things that go into um you know into building a great agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            319.52,
+            329.2
+          ],
+          "quote": "Um and the strands team is really trying to make that as easy as possible by being, let's say, very opinionated about good agent patterns.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            329.28,
+            342.56
+          ],
+          "quote": "And uh and so you can extend strands, you can use it any way you want, but there's a really nice kind of paved path through strands uh that uh has these opinions of of you know what we think right now it means to build a great agent built right in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1285.2,
+            1290.8
+          ],
+          "quote": "We we use strands, we we we built this awesome demo, we put it on agent core, it looks great.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent-core",
+      "type": "company",
+      "role": "company",
+      "name": "Agent Core",
+      "file": "Agent Core",
+      "primary": true,
+      "how_described": "本集说 Agent Core 是一套在云端构建智能体的工具套件，嘉宾深度参与其开发。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            211.84,
+            221.68
+          ],
+          "quote": "And so was deeply involved in the development of AWS Agent Core, this kind of suite of tools for building agents in the cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1285.2,
+            1290.8
+          ],
+          "quote": "We we use strands, we we we built this awesome demo, we put it on agent core, it looks great.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "on-call",
+      "type": "concept",
+      "role": "concept",
+      "name": "on call",
+      "file": "on call",
+      "primary": true,
+      "how_described": "本集以嘉宾 15 年 on call 经历切入：机械重复的调查会被自动化掉，留给人类的只剩「为什么系统表现成这样」的深层推理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.16,
+            3.84
+          ],
+          "quote": "I want to talk about 15 years, I think, that you spent on call.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            10.48,
+            26.4
+          ],
+          "quote": "With the basic investigations of on call, the the log scraping, the diving into metrics and so on, you know, if you look at something like AWSS DevOps agent, it's great at doing that kind of automation of, let's say, the more day-to-day aspects of on-call.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            410.8,
+            415.12
+          ],
+          "quote": "Um, and it goes back to the time, 15 years, I think, that you spent on call.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            421.12,
+            424.48
+          ],
+          "quote": "You enjoy on call, you enjoyed the the the those kind of roles?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            447.44,
+            464.88
+          ],
+          "quote": "Um, and then on-call was really this huge catalyst over my career for more deeply understanding how systems actually work, how systems actually fail, how we can stop them from failing, you know, how those things affect our customers and how we can help our customers out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            544.32,
+            556.64
+          ],
+          "quote": "And we're seeing exactly the same thing with with AI, with the basic um the basic investigations of on-call, the the log scraping, the diving into metrics and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            556.8,
+            568.32
+          ],
+          "quote": "Um, you know, if you look at something like AWS's DevOps agent, it's great at doing that kind of automation of um, let's say the more day-to-day aspects of on-call.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            615.84,
+            625.68
+          ],
+          "quote": "And has already provided that as part of you know the on call where I I I I'm woken up and presented with all the information that I need to make a decision.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            640.32,
+            647.12
+          ],
+          "quote": "Um I guess what did that teach you um that you wouldn't have really been able to learn without being on call?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            1002.48,
+            1015.12
+          ],
+          "quote": "Um and maybe, you know, to take that back to the human level, one of the things that we've always done at Amazon is our our product teams, the same people who are building our products, are on call for those products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1084.16,
+            1094.96
+          ],
+          "quote": "Um and I love the idea of just thinking, oh, by the way, you're gonna be on call for the code you write, and you you might be woken up at 3 a.m., Claude, or Gemini, or whoever.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "postmortem",
+      "type": "concept",
+      "role": "concept",
+      "name": "复盘报告 (postmortem)",
+      "file": "复盘报告",
+      "primary": true,
+      "how_described": "本集说嘉宾读过 3000-4000 份 postmortem，最大的收获是谦卑感；智能体学复盘有四条路：进训练集、语义搜索、写自己的记忆、固化成工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            852.64,
+            862.08
+          ],
+          "quote": "Is that realistic or is that kind of like a pipe dream in terms of the type of bugs that would be raised uh uh to a to a um a postmortem?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1114.32,
+            1118.56
+          ],
+          "quote": "So from the postmortem, what's what do you expect an agent just to breeze over?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-policy",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体政策 (agentic policy)",
+      "file": "智能体政策",
+      "primary": true,
+      "how_described": "本集说 agentic policy 是确定性地定义智能体能做什么、不能做什么、按什么顺序做；来源约一半组织、一半个人，且必须动态、情境化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            1306.48,
+            1313.92
+          ],
+          "quote": "And a large part of uh solving that problem is this idea of agentic policy, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dogwood",
+      "type": "company",
+      "role": "company",
+      "name": "Dogwood",
+      "file": "Dogwood",
+      "primary": true,
+      "how_described": "本集说 Dogwood 是 AWS 刚发布的一种新策略语言，用数学上的确定性描述智能体被允许做什么、按什么顺序做。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            1388,
+            1413.04
+          ],
+          "quote": "And so, for example, one of the things we did is we we recently launched Dogwood, which is this new policy language, happy to go into depth on that, but that is built as a specialized language for describing with mathematical certainty what an agent is allowed to do, what order it's allowed to do it in, whether it can do thing A after thing B, and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1678.64,
+            1686.24
+          ],
+          "quote": "I think there are going to be some people writing dogwood or CEDA or OPA or whatever policy language they're using.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "specification",
+      "type": "concept",
+      "role": "concept",
+      "name": "规格构建 (specification)",
+      "file": "规格构建",
+      "primary": true,
+      "how_described": "本集提出的「智能体软件开发假说」认为软件构建中难的部分是 specification——把你要的东西描述得足够完整；一旦写下来，实现的构建和维护会逐渐完全自动化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 276,
+          "t": [
+            1963.84,
+            1976.88
+          ],
+          "quote": "Um but it essentially it comes down to this idea that the hard part of software building is um I'm gonna say specification building.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1994.4,
+            2011.84
+          ],
+          "quote": "Once you have that specification, once you have that what you want written down, my belief is that we're going to see the building and maintenance of reliable, efficient implementations of that software become over time entirely automated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            2035.44,
+            2048.8
+          ],
+          "quote": "But I think over time, all of that kind of specification down of software development is going to become automated and driven by an automation loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            2080.16,
+            2094.72
+          ],
+          "quote": "So I wonder, are we relocating the the the tough piece of the problem uh to be in identifying an oracle that's deterministic or being able to create that complete specification?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            2138.32,
+            2141.68
+          ],
+          "quote": "Um and some of that is going to be specification.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 303,
+          "t": [
+            2178.08,
+            2201.84
+          ],
+          "quote": "Um and you know, this uh there, if you look at um, you know, the kind of automated reasoning level of specification, there's been this incredible progress in specifying software in languages like lean and a huge growth in just addressing bigger and bigger chunks of software with that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 313,
+          "t": [
+            2281.28,
+            2294.4
+          ],
+          "quote": "What one thing I always kind of struggled with was delineating almost what is part of the specification and what is part of the test, because very often you can write something in a specification that is essentially describing a test.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            2294.64,
+            2305.76
+          ],
+          "quote": "And you know, similarly, when you when you're talking about a test, writing or describing a test, you're actually talking about how something should function, which is kind of part of the specification.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 315,
+          "t": [
+            2305.92,
+            2317.68
+          ],
+          "quote": "And for me, almost like the the the functional specification as part of as well as the uh as well as the tests almost merged into one, and it's like, well, it could be both, it could be the same thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2317.84,
+            2326.96
+          ],
+          "quote": "Um but but yeah, super super interesting to see how that um Yeah, you know, and testing is a, I would say, informal specification technique.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            2382.24,
+            2392.48
+          ],
+          "quote": "Uh and and the specification and the tests and so on should focus on what good looks like for the output of the software, not for the way that it works inside.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2456.48,
+            2481.76
+          ],
+          "quote": "I think that's changed and is very quickly changing across the industry as humans get out of that code level into more of that kind of specification level, as a lot of that coding becomes fully automated, is code is turning more and more into purely an implementation vehicle rather than a communication vehicle.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "type": "concept",
+      "role": "concept",
+      "name": "oracle（判定标准） (oracle)",
+      "file": "oracle（判定标准）",
+      "primary": true,
+      "how_described": "本集说创建 oracle（判断「做出来的东西对不对」的标准）是人类工作大量所在之处；像实现 GZIP 可完全形式化，做客户 UI 就得用更开放式的评估。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            2080.16,
+            2094.72
+          ],
+          "quote": "So I wonder, are we relocating the the the tough piece of the problem uh to be in identifying an oracle that's deterministic or being able to create that complete specification?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试 (testing)",
+      "file": "测试",
+      "primary": true,
+      "how_described": "本集的重磅判断：在某种意义上 testing 现在是软件开发中最重要的部分，思考如何构建能判断软件好不好的测试正处于软件开发的前沿。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 293,
+          "t": [
+            2107.84,
+            2117.68
+          ],
+          "quote": "Um and you know, in some sense uh testing uh is is now the most important part of software development.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2317.84,
+            2326.96
+          ],
+          "quote": "Um but but yeah, super super interesting to see how that um Yeah, you know, and testing is a, I would say, informal specification technique.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agentic-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体记忆 (agentic memory)",
+      "file": "智能体记忆",
+      "primary": true,
+      "how_described": "本集说 agentic memory 能跨会话记住东西，但问题是它不能在团队之间传播，所以需要 agent wiki、AWS Context 这类组织级共享方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 385,
+          "t": [
+            2923.76,
+            2930
+          ],
+          "quote": "And part of that is just agentic memory, the kind of memory that is built into a lot of the agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2940.4,
+            2949.44
+          ],
+          "quote": "But the problem with agentic memory is that it doesn't spread well across um across teams or even across people.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集说人们嘲笑 RAG 过时了，但底线是让智能体对组织中的信息做语义搜索仍然是一种非常强大的技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 394,
+          "t": [
+            3016.16,
+            3023.04
+          ],
+          "quote": "And again, you know, people sort of roll their eyes at RAG and be like, oh, well, that's so 2004 or 2024.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kiro",
+      "type": "company",
+      "role": "company",
+      "name": "Kiro",
+      "file": "Kiro",
+      "primary": false,
+      "how_described": "本集提到 Kiro 团队做的规约驱动开发有令人难以置信的进展，但仍混淆声明式需求和实现细节。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 310,
+          "t": [
+            2245.84,
+            2256.56
+          ],
+          "quote": "Uh I remember back in the early days, I think we had um some folks from uh Amazon for we when we talked about Kiro when that was first launched back in the early days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 318,
+          "t": [
+            2330.72,
+            2336.08
+          ],
+          "quote": "Um I love the things the Kiro team has been doing with with Spec driven development.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 398,
+          "t": [
+            3039.76,
+            3066.8
+          ],
+          "quote": "Uh and what we're seeing with the uh with the commercial agents, especially if you look at something like Kiro or you look at something like Quick from Amazon, um, more and more they're making it very easy to pull in that organizational context and pull in that team context and share those memories through things like AWS context to bake in what these good kind of learning from experience patterns look like across across an organization.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "metastable failure",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
+[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sunil Pai":1,"Thomas Ankcorn":1,"Cloudflare":9,"code mode":2,"MCP":41,"智能体":244,"沙箱":44,"可观测性":19,"pie":1,"Cloudflare Worker":2}</script>
+<script type="application/json" class="pd-epn">{"Sunil Pai":1,"Thomas Ankcorn":1,"Cloudflare":9,"code mode":2,"MCP":41,"智能体":248,"沙箱":45,"可观测性":20,"pie":1,"Cloudflare Worker":2}</script>
 
 <script>
 (function(){

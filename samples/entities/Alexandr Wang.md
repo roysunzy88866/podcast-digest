@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
+[[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":2,"Meta":31,"MuseSpark":1,"开源模型":17,"智能体":244,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":19,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":2,"Meta":31,"MuseSpark":1,"开源模型":17,"智能体":248,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":19,"Spark API":1}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]]
+[[Marc Brooker]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire":3,"Devon":3,"Cognition":17,"Codex":48,"Claude Code":59,"Cursor":59,"智能体":244,"云端智能体":1,"后台智能体":4,"剧本":4}</script>
+<script type="application/json" class="pd-epn">{"Claire":3,"Devon":3,"Cognition":17,"Codex":48,"Claude Code":59,"Cursor":59,"智能体":248,"云端智能体":1,"后台智能体":4,"剧本":4}</script>
 
 <script>
 (function(){

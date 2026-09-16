@@ -1,0 +1,1456 @@
+{
+  "episode_id": "2026-09-16-a16z-the-ai-native-crm-pmervpt",
+  "podcast": "The a16z Show",
+  "date": "2026-09-16",
+  "tags": [
+    "CRM",
+    "创业转型",
+    "AI 智能体",
+    "SaaS 定价",
+    "产品架构"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "keith-parris",
+      "type": "person",
+      "role": "host",
+      "name": "Keith Parris",
+      "file": "Keith Parris",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            110.858,
+            113.459
+          ],
+          "quote": "I'm joined by my partner, Alex Rampell, and Keith Parris.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "alex-rampell",
+      "type": "person",
+      "role": "cohost",
+      "name": "Alex Rampell",
+      "file": "Alex Rampell",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            43.639,
+            52.861
+          ],
+          "quote": "In this episode, A16Z's Alex Rampell and Joe Schmidt sit down with the Lightfield co-founder and CEO to unpack why he walked away from a fast-growing AI product and what he learned from the pivot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 21,
+          "t": [
+            110.858,
+            113.459
+          ],
+          "quote": "I'm joined by my partner, Alex Rampell, and Keith Parris.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "joe-schmidt",
+      "type": "person",
+      "role": "cohost",
+      "name": "Joe Schmidt",
+      "file": "Joe Schmidt",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            43.639,
+            52.861
+          ],
+          "quote": "In this episode, A16Z's Alex Rampell and Joe Schmidt sit down with the Lightfield co-founder and CEO to unpack why he walked away from a fast-growing AI product and what he learned from the pivot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 20,
+          "t": [
+            109.978,
+            110.578
+          ],
+          "quote": "I'm Joe Schmidt.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "lightfield",
+      "type": "company",
+      "role": "company",
+      "name": "Lightfield",
+      "file": "Lightfield",
+      "primary": true,
+      "how_described": "本集主角：Keith 转型后创办的公司，刚完成 A16Z 领投的 4700 万美元 A 轮融资，正在构建一个商业世界模型——把客户的邮件、通话和会议转化为 AI 智能体能拿来干活的记录。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            10.275,
+            13.397
+          ],
+          "quote": "What's the most exciting thing someone's doing with Lightfield today?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            22.443,
+            29.449
+          ],
+          "quote": "So they've modeled all of this in Lightfield and Lightfield actually helped someone with Alzheimer's find frontier treatment within days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            43.639,
+            52.861
+          ],
+          "quote": "In this episode, A16Z's Alex Rampell and Joe Schmidt sit down with the Lightfield co-founder and CEO to unpack why he walked away from a fast-growing AI product and what he learned from the pivot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 17,
+          "t": [
+            83.734,
+            93.576
+          ],
+          "quote": "They discuss Lightfield's approach to building a business world model, why Alex calls the shift intelligence is greater than schema, and how AI could rethink systems of record.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            113.859,
+            115.28
+          ],
+          "quote": "Keith is the CEO at Lightfield.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 23,
+          "t": [
+            115.56,
+            121.383
+          ],
+          "quote": "Lightfield just raised a $47 million Series A led by us, and they're building a business world model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 25,
+          "t": [
+            128.226,
+            135.249
+          ],
+          "quote": "We'll explore how Keith pivoted, which is very interesting to Lightfield, how they built the initial product, and what customers can do with it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 28,
+          "t": [
+            138.27,
+            142.572
+          ],
+          "quote": "Maybe we'll start just going back to the Tome journey and how you got to Lightfield.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 31,
+          "t": [
+            147.475,
+            149.976
+          ],
+          "quote": "Tell us a little bit about that experience and how you ended up at Lightfield.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 200,
+          "t": [
+            833.236,
+            844.179
+          ],
+          "quote": "So, you know, a good example would be, we have a lot of customer success folks on Lightfield and they might be tasked with, hey, is this account ready for expansion?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            844.779,
+            849.703
+          ],
+          "quote": "You know, and if you ask Lightfield this open question, like, you know, what should we sell to them?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1040.857,
+            1050.809
+          ],
+          "quote": "The most exciting or most random or interesting thing someone's doing with Lightfield today that they couldn't have done in the VAR car world or another world before this one.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1058.839,
+            1061.66
+          ],
+          "quote": "It doesn't matter in Lightfield the way that it does in other ones.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1087.445,
+            1108.885
+          ],
+          "quote": "So they've modeled all of this in Lightfield, the B2C side and the B2B side, and they've built automations to go and scrape the FDA and clinicaltrials.gov to give them a world model of every trial going on in the world, and then do matching on the B2C side as well as with the right pharmaceutical company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1112.808,
+            1117.99
+          ],
+          "quote": "And Lightfield actually helped someone with Alzheimer's find frontier treatment within days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1463.72,
+            1471.724
+          ],
+          "quote": "And one, it helps Lightfield, you know, to just understand what engineering's doing, what customer support's doing, what finance is doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1720.917,
+            1725.979
+          ],
+          "quote": "Whereas in Lightfield, we're like, no, you just chat with the agent and the agent writes out a recipe for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1762.534,
+            1773.404
+          ],
+          "quote": "How do you talk to customers that want to try to build elements of this or trying to build all the elements of this and just say a little bit more about that movement and how you're responding at Lightfield?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1806.586,
+            1813.37
+          ],
+          "quote": "A couple of customers that would, you know, use Lightfield as the core system of record, and then they'll try to build their own harness on top.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1859.181,
+            1862.662
+          ],
+          "quote": "Like, imagine running, like, thank God you run Lightfield and not Zendesk, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 456,
+          "t": [
+            1982.154,
+            1982.975
+          ],
+          "quote": "In Lightfield.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2002.162,
+            2011.084
+          ],
+          "quote": "And Joe, actually, we divided like sort of four buckets of work that Lightfield does and we're able to distinguish between them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2066.236,
+            2080.645
+          ],
+          "quote": "It would be like someone signs up on our website for a demo and then Lightfield does a little bit of research and realizes, oh, this should go to Henry because it's a deep tech company or it should go to Matt because it's a health tech company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2087.227,
+            2094.449
+          ],
+          "quote": "And then the last piece is honestly intelligence and forecasting, which is, you know, maybe the most undiscovered part of Lightfield.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2114.035,
+            2121.078
+          ],
+          "quote": "I changed my sales process after letting GPT-6 rip on Lightfield for a couple of hours on the weekend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2205.938,
+            2226.122
+          ],
+          "quote": "So I think, I mean, one of the things I regret about Tome that we definitely fixed with Lightfield is, Henry, my co-founder, says this all the time, it's like we had a lot of people playing house, you know, just to say that you have the product leader and the marketing leader and the CS leader and they all have their swim lanes and they get really mad if someone gives them feedback about something in their swim lane.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2295.535,
+            2302.663
+          ],
+          "quote": "But it's because of that, sorry, because of the age that we're in, you know, anyone can ramp up on a customer through Lightfield, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2309.088,
+            2315.512
+          ],
+          "quote": "And then, you know, anyone can auto create tasks in linear because of Lightfield's connectivity to linear.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2372.54,
+            2378.903
+          ],
+          "quote": "We also, I would say that the bar to start a project is very low at Lightfield, but the bar to ship the project is pretty high.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2406.017,
+            2414.019
+          ],
+          "quote": "Before we started Lightfield, I read all of these like Tegas reports about people moving off of, you know, flavor of the month CRM to Salesforce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2532.455,
+            2540.321
+          ],
+          "quote": "It's funny, in Lightfield, we sort of built this skill where we like look at the expansion potential of an account.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 621,
+          "t": [
+            2780.529,
+            2781.05
+          ],
+          "quote": "Until Lightfield.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 669,
+          "t": [
+            2939.021,
+            2947.75
+          ],
+          "quote": "I think the thing I'm most excited about, it's funny, I'm stoked about Lightfield becoming your sort of crystal ball for scenario planning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2948.19,
+            2953.736
+          ],
+          "quote": "And the thing that gets me up in the morning is actually having folks use Lightfield to think about",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2959.339,
+            2971.825
+          ],
+          "quote": "And one of our customers who sells to Enterprise discovered through Lightfield he needs to build a mid-market product and built this whole new product line because of this thing he found.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2985.751,
+            2988.232
+          ],
+          "quote": "Actually, the answer is having a tool like Lightfield.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3007.779,
+            3014.482
+          ],
+          "quote": "And instead, now you can just talk to Lightfield for an afternoon or a weekend and come up with a really intelligent plan to move forward.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 702,
+          "t": [
+            3092.915,
+            3094.337
+          ],
+          "quote": "Go check it out at lightfield.app.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "tome",
+      "type": "company",
+      "role": "company",
+      "name": "Tome",
+      "file": "Tome",
+      "primary": true,
+      "how_described": "Keith 此前的产品，用 GPT 生成演示文稿，与 ChatGPT 差不多同期发布，每月新增 200 万用户、总用户 2500 万，但团队没人喜欢它，最终被整个关掉转型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            40.999,
+            42.139
+          ],
+          "quote": "Keith Perez built Tome to 25 million users.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            138.27,
+            142.572
+          ],
+          "quote": "Maybe we'll start just going back to the Tome journey and how you got to Lightfield.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 32,
+          "t": [
+            150.356,
+            155.999
+          ],
+          "quote": "We started Tome mostly because we were consumer people and we thought LLMs were going to change the way people communicate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            539.618,
+            554.646
+          ],
+          "quote": "And it's like, oh, this is so different than Tome in the sense that we have this barely working, barely finished product that people are in all the time where they care about it so much they're going to give us feedback about it on an hourly basis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2174.505,
+            2179.907
+          ],
+          "quote": "Maybe from when you started Tome to today, how is the actual like work changed?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2205.938,
+            2226.122
+          ],
+          "quote": "So I think, I mean, one of the things I regret about Tome that we definitely fixed with Lightfield is, Henry, my co-founder, says this all the time, it's like we had a lot of people playing house, you know, just to say that you have the product leader and the marketing leader and the CS leader and they all have their swim lanes and they get really mad if someone gives them feedback about something in their swim lane.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "crm",
+      "type": "concept",
+      "role": "concept",
+      "name": "CRM",
+      "file": "CRM",
+      "primary": true,
+      "how_described": "本集的核心赛道：Keith 从第一性原理重新构想 CRM，认为传统 CRM 是销售手动录入的陈旧存储库，痛点是销售不更新、数据模型一旦设错就完了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            33.833,
+            37.636
+          ],
+          "quote": "As a CRM company in a red ocean space, we have to be an expansion company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            70.173,
+            72.958
+          ],
+          "quote": "That journey led Keith to a problem inside the CRM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            408.358,
+            415.323
+          ],
+          "quote": "So we're like, great, give us access to your CRM, your call recorder, your data warehouse, more, and then we'll figure out how to do this work for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            428.207,
+            431.948
+          ],
+          "quote": "You know, the call recorder often had a different view of reality than the CRM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            465.622,
+            467.263
+          ],
+          "quote": "We didn't know we wanted a CRM first.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            484.215,
+            492.181
+          ],
+          "quote": "So we decided to shrink the team, start from scratch and go and reimagine the CRM from first principles.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            496.086,
+            498.769
+          ],
+          "quote": "And then we needed to find people to use our CRM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            499.409,
+            502.252
+          ],
+          "quote": "And it turns out no one wants to use your four month old CRM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            513.544,
+            516.145
+          ],
+          "quote": "You can sit in our office space if you use our CRM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            564.84,
+            569.386
+          ],
+          "quote": "Because in one hand, like a CRM is just a repository, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            575.81,
+            584.494
+          ],
+          "quote": "But on the other hand, it's also like this, if you've talked to anybody who's run a sales team, one of their biggest pain points is, my stupid salespeople don't update the CRM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 146,
+          "t": [
+            602.543,
+            615.291
+          ],
+          "quote": "I think one of the things that benefited us was honestly how naive we were at the space because if you're in sort of a growth stage company, the CRM is the tool that reps use to not forget things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            641.712,
+            646.275
+          ],
+          "quote": "And because of that, I think a lot of the world ran towards CRM for work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            701.073,
+            708.339
+          ],
+          "quote": "And we had this very naive view that actually the most important thing in the CRM is modeling the relationship.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            743.683,
+            754.932
+          ],
+          "quote": "So we have the system where it sort of builds the activity log between your relationship and then it uses that to trigger sort of the traditional CRM updates that you'd expect, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            767.172,
+            774.414
+          ],
+          "quote": "There's that chronological view, but then there's all of this other metadata that's never existed in any other CRM, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 210,
+          "t": [
+            869.898,
+            886.712
+          ],
+          "quote": "And then if you want to like compare, because you know the most common question is like which of these accounts should I work on expansion, now it can like traverse the sort of CRM schema and then dive deep into you know into the log of each customer to give you a good answer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            899.236,
+            906.938
+          ],
+          "quote": "I think we had this view that, well, it's funny, we spoke to a lot of CRM consultants and, you know, we started to write down like, what is it that you do, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1165.318,
+            1169.86
+          ],
+          "quote": "You're using, if you go back to like the CRM days, it's like you're using Siebel systems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1530.03,
+            1534.792
+          ],
+          "quote": "Like, here's the CRM that you're used to, and it's also blue and blah, blah, blah.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1570.285,
+            1576.427
+          ],
+          "quote": "Like a real enterprise CRM, we can't be religious about the way people work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1875.192,
+            1878.294
+          ],
+          "quote": "Like, you know, I'm still using CRM for that, so outcomes are kind of tricky.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2011.464,
+            2020.226
+          ],
+          "quote": "The first was sort of your like everyday CRM work of capture a meeting, fill out records, update tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2028.468,
+            2035.173
+          ],
+          "quote": "I don't want to think about the, like, error bounds of my core CRM when I look at my budget, you know, over the next year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2121.498,
+            2130.902
+          ],
+          "quote": "So all of that is to say we sort of landed in this platform fee plus seat for core CRM and we do consumption for everything else and it's landed pretty well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2406.017,
+            2414.019
+          ],
+          "quote": "Before we started Lightfield, I read all of these like Tegas reports about people moving off of, you know, flavor of the month CRM to Salesforce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2444.286,
+            2449.607
+          ],
+          "quote": "I think we've got this incredible wedge of being just like the best CRM for new companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2540.381,
+            2544.904
+          ],
+          "quote": "And I think as a CRM company in a red ocean space, we have to be an expansion company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2772.04,
+            2778.046
+          ],
+          "quote": "I think in many ways your CRM is maybe harder to move off of than your bank.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            2862.709,
+            2869.712
+          ],
+          "quote": "Like, is the guy that is working at my company who's decided to vibe code a CRM, like, it's free, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "business-world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "商业世界模型 (business world model)",
+      "file": "商业世界模型",
+      "primary": true,
+      "how_described": "Lightfield 的核心定位：把客户邮件、通话、会议等变成一条机器和人类都能理解的完整记录，让 AI 智能体能基于它完成工作、做情景规划。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            83.734,
+            93.576
+          ],
+          "quote": "They discuss Lightfield's approach to building a business world model, why Alex calls the shift intelligence is greater than schema, and how AI could rethink systems of record.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            115.56,
+            121.383
+          ],
+          "quote": "Lightfield just raised a $47 million Series A led by us, and they're building a business world model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 24,
+          "t": [
+            121.703,
+            127.746
+          ],
+          "quote": "A business world model turns customer emails, calls, and meetings into a record that AI agents can use to get work done.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 662,
+          "t": [
+            2918.768,
+            2926.294
+          ],
+          "quote": "And then we've had so many of these folks come back and be like, actually, building a company brain or building a business world model is really hard.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "activity-log",
+      "type": "concept",
+      "role": "concept",
+      "name": "活动日志 (activity log)",
+      "file": "活动日志",
+      "primary": true,
+      "how_described": "Lightfield 的核心架构原语，借鉴 Facebook 时间线：先构建你与客户之间按时间排列的完整关系日志，再从它触发传统 CRM 的字段、阶段等更新，一切建立在这条日志之上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            722.989,
+            727.111
+          ],
+          "quote": "So we actually built out the activity log first of, you know, when did you first reach out?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            738.158,
+            742.842
+          ],
+          "quote": "And we thought like working off of this activity log is sort of the right primitive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            743.683,
+            754.932
+          ],
+          "quote": "So we have the system where it sort of builds the activity log between your relationship and then it uses that to trigger sort of the traditional CRM updates that you'd expect, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            804.364,
+            812.168
+          ],
+          "quote": "So we ended up finding this semi-structured approach where we store gobs of unstructured data in this activity log.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            813.329,
+            818.291
+          ],
+          "quote": "And then the system can use the activity log to sort of infer causality and work through from there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            859.75,
+            864.434
+          ],
+          "quote": "And then it can also go to the product usage, which is just stored as like activity log entries.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            939.269,
+            943.91
+          ],
+          "quote": "You know, if you change your minds about the fields, you can just traverse the activity log and refill them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "schemaless",
+      "type": "concept",
+      "role": "concept",
+      "name": "无 schema (schemaless)",
+      "file": "无 schema",
+      "primary": true,
+      "how_described": "Lightfield 的数据模型选择：连接邮箱、通话录音、数据仓库后实时组装客户关系，字段以后再填、改主意了遍历日志重填——Alex 总结为「智能大于 schema」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 218,
+          "t": [
+            922.563,
+            925.644
+          ],
+          "quote": "We're like, can we be, you know, effectively schemaless?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把商业世界模型定位为「AI 智能体可以用来完成工作的记录」；经典销售工作流如「序列」也改成直接和智能体聊，由智能体写出参考世界模型的配方直接执行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 394,
+          "t": [
+            1720.917,
+            1725.979
+          ],
+          "quote": "Whereas in Lightfield, we're like, no, you just chat with the agent and the agent writes out a recipe for you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "system-of-record",
+      "type": "concept",
+      "role": "concept",
+      "name": "记录系统 (system of record)",
+      "file": "记录系统",
+      "primary": true,
+      "how_described": "本集讨论 CRM 作为记录系统的属性：客户可参照性极重、比银行还难迁移；作为记录系统 Lightfield 态度开放，数据是客户的，可通过 MCP 或 CLI 全部推出去。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 403,
+          "t": [
+            1773.876,
+            1777.158
+          ],
+          "quote": "First of all, I think just being a system of record, we have to be open-minded.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1806.586,
+            1813.37
+          ],
+          "quote": "A couple of customers that would, you know, use Lightfield as the core system of record, and then they'll try to build their own harness on top.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2645.083,
+            2655.091
+          ],
+          "quote": "I think for most of these system of record companies, you end up getting most of your revenue scale from actually, you know, the 50 miles out of here and more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2741.812,
+            2753.561
+          ],
+          "quote": "Especially for something that is a system of record and I want to know that somebody that is a competitor to me or a friend of mine or like somebody in like the same you know kind of vertical is using the product before I'm willing to make the jump.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 658,
+          "t": [
+            2907.117,
+            2913.883
+          ],
+          "quote": "I think on the larger company side, we don't hear, I'm going to build my own system of record.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "greenfield",
+      "type": "concept",
+      "role": "concept",
+      "name": "绿地与棕地 (Greenfield)",
+      "file": "绿地与棕地",
+      "primary": true,
+      "how_described": "Alex 拆解的市场策略：Brownfield 是被在位者践踏过的市场（最好的公司拥有的是人质而不是客户），Greenfield 是不招惹人质、做出世界上最好的产品让新公司自然用你。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 256,
+          "t": [
+            1120.011,
+            1126.113
+          ],
+          "quote": "So, I mean, one question that we talk about a lot here is this kind of Greenfield versus Brownfield thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1186.664,
+            1188.345
+          ],
+          "quote": "But the other strategy is going greenfield.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1357.193,
+            1365.015
+          ],
+          "quote": "And you have all of these people that are consumers of the product, of course, but let's just take the Greenfield versus Brownfield distinction.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1365.455,
+            1372.657
+          ],
+          "quote": "The VP of sales that you hire at your Greenfield company has been acclimated and trained to use this thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1406.373,
+            1417.796
+          ],
+          "quote": "It's one of the things that is seldom understood about like Greenfield versus Brownfield is that like the Greenfield people hire Brownfield like VPs that actually like make product or sorry, make purchasing decisions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2616.891,
+            2626.715
+          ],
+          "quote": "It's related to Greenfield versus Brownfield, but you can get Silicon Valley, but it's kind of crossing the chasm into the rest of the country, the rest of the world, where that's a very, very...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "定价 (pricing)",
+      "file": "定价",
+      "primary": true,
+      "how_described": "本集把定价从纯席位（头部用量是尾部一万倍，撑不住）和纯消费（最糟糕的三周，没人碰）两个极端试起，最终落点为核心 CRM 用平台费加席位、其余按消费；基于成果的定价在此领域暂时做不到。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            473.607,
+            479.932
+          ],
+          "quote": "That's tough to say that we had all of these AEs using it every day, but we had no pricing power because it wasn't our data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            517.166,
+            519.447
+          ],
+          "quote": "And then we found 10— Negative pricing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            595.279,
+            602.523
+          ],
+          "quote": "Or was it like, let's just have people with negative pricing in my office and I'll figure out what they're complaining about and build around that?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1199.472,
+            1210.959
+          ],
+          "quote": "And I guess like when you were thinking through, I mean, going back to the early days of negative pricing with the free office space being the negative price, I mean, how did you think about like, you know, where, who are the right customers?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 424,
+          "t": [
+            1848.035,
+            1859.121
+          ],
+          "quote": "Where do you think, I mean, kind of on that topic, I mean, pricing is such a crazy question right now because there's seat-based pricing where the seats don't make sense anymore.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 430,
+          "t": [
+            1867.586,
+            1871.349
+          ],
+          "quote": "Then there's kind of like outcome-based pricing, but like what is an outcome?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 437,
+          "t": [
+            1893.387,
+            1901.718
+          ],
+          "quote": "Like, you know, there's, you could take this to the extreme, but like, I guess, where do you think about, how did you come up with pricing maybe is kind of question number one.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1901.738,
+            1906.043
+          ],
+          "quote": "And then what do you think about outcome-based pricing in this space?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 446,
+          "t": [
+            1926.46,
+            1929.722
+          ],
+          "quote": "But anyway, like, kind of pricing, outcomes, competition.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 447,
+          "t": [
+            1929.823,
+            1935.407
+          ],
+          "quote": "Just curious how you thought about, like, how did you get to your pricing from negative pricing, which I would not recommend you keep in perpetuity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1935.947,
+            1939.71
+          ],
+          "quote": "But kind of how did you get to pricing and how do you think about everything that's going on in that triangle?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1947.941,
+            1954.55
+          ],
+          "quote": "We started with pure seat pricing because it just matched the sort of Salesforce HubSpot world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1968.383,
+            1974.748
+          ],
+          "quote": "Yeah, in terms of consumption, and we weren't going to be in business for a long time with per seat pricing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1975.329,
+            1980.613
+          ],
+          "quote": "So then we tried purist consumption pricing, where everything is a credit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2020.246,
+            2027.248
+          ],
+          "quote": "I think most of our customers just expect that to be covered in a platform fee or expect that to be covered in perceived pricing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "反复出现的在位者对照：受训的销售副总裁只认它，Keith 认为它会发邮件所以「替你干活」不是打入 Brownfield 的楔子；Eleven Labs 也因等仪表盘四个月迁去了它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            402.414,
+            408.218
+          ],
+          "quote": "And then the first thing we asked was like, oh, just give us access to your context box, which at the time I thought was Salesforce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            555.727,
+            561.675
+          ],
+          "quote": "Did you start off saying, I've used Salesforce and HubSpot and other things, and here's what I want changed?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1325.554,
+            1327.495
+          ],
+          "quote": "Like Salesforce is gonna send emails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1372.717,
+            1382.62
+          ],
+          "quote": "I actually remember when I started one of my first companies, I was so adamant about not paying $85 a month for Salesforce that I used this thing called SugarCRM, which is free.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1385.621,
+            1387.282
+          ],
+          "quote": "Like I finally started paying for Salesforce.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1484.392,
+            1492.837
+          ],
+          "quote": "You know, the seasoned VP of sales comes in and they're like, you know, this is cool, but I only know how to use Salesforce because I've been trained that way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1947.941,
+            1954.55
+          ],
+          "quote": "We started with pure seat pricing because it just matched the sort of Salesforce HubSpot world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2406.017,
+            2414.019
+          ],
+          "quote": "Before we started Lightfield, I read all of these like Tegas reports about people moving off of, you know, flavor of the month CRM to Salesforce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2432.983,
+            2439.905
+          ],
+          "quote": "And the folks at Eleven Labs were tired of asking for dashboards and moved to Salesforce.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": false,
+      "how_described": "Lightfield 五位创始成员中三位来自 Facebook，他们把 Facebook 时间线的思路搬进了 CRM 架构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.691,
+            4.113
+          ],
+          "quote": "Three out of our five founding members came from Facebook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            694.727,
+            699.751
+          ],
+          "quote": "So actually three out of our five founding members came from Facebook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            709.74,
+            721.528
+          ],
+          "quote": "So we actually looked at, you know, the sort of the Facebook timeline and we were like, we just need to model the chronological relationship between your business and this business.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "type": "company",
+      "role": "company",
+      "name": "Power",
+      "file": "Power",
+      "primary": false,
+      "how_described": "Keith 最自豪的客户案例：一边帮制药公司找临床试验参与者，一边运营聚合患者找前沿疗法的市场平台，在 Lightfield 里同时建模 B2C 和 B2B 端，帮助一位阿尔茨海默病患者几天内找到前沿疗法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            13.697,
+            15.017
+          ],
+          "quote": "We have this company, Power.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            473.607,
+            479.932
+          ],
+          "quote": "That's tough to say that we had all of these AEs using it every day, but we had no pricing power because it wasn't our data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1067.941,
+            1078.463
+          ],
+          "quote": "We have this company, Power, and they work with pharmaceutical companies to help them find clinical trial participants.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eleven-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Eleven Labs",
+      "file": "Eleven Labs",
+      "primary": false,
+      "how_described": "本集引用的真实案例：当时用某家初创 CRM，等仪表盘等了四个月，厌倦后搬去 Salesforce——这让 Keith 最偏执。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 548,
+          "t": [
+            2414.719,
+            2423.061
+          ],
+          "quote": "And I remember reading this one about one of your portfolio companies, Eleven Labs, where they were on, you know, one of these startup CRMs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2432.983,
+            2439.905
+          ],
+          "quote": "And the folks at Eleven Labs were tired of asking for dashboards and moved to Salesforce.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "被用来说明成果定价的难题：为 OpenAI 做外向拓客极其高效，为没有网站的种子期公司做则极其低效，所以只能为工作收费、无法为成果收费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 492,
+          "t": [
+            2143.551,
+            2149.198
+          ],
+          "quote": "It would be incredibly efficient for us to do outbound prospecting for OpenAI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

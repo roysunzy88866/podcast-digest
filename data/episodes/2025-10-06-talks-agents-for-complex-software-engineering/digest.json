@@ -1,0 +1,160 @@
+{
+  "title_zh": "Vibe debugging：代码生成之后，生产环境才是真正的硬仗",
+  "tldr": "Resolve AI 联合创始人兼 CTO Mayank 与工程 VP Roshan 讲解为什么要用智能体自动化事故排查与生产运维，以及为什么这是比代码生成更难、更大的问题。",
+  "digest_md": "这一集是 Greylock 的「Change Agents」系列，聊的是智能体 AI 在复杂软件工程里的落地。两位主角：Mayank 是 Resolve AI 的联合创始人兼 CTO，职业生涯几乎全在做开发者工具和监控系统，参与创建了开源项目 OpenTelemetry（把遥测数据的插桩和路由方式标准化的项目），上一家公司被 Splunk 收购后他做到了所有监控产品的首席架构师；Roshan 是工程副总裁，做过 Apple Siri 的自然语言理解负责人，后在 Google 参与 Google Assistant、Bard、Gemini，其团队发布过 DeepResearch 和 Canvas。\n\n抛出来的钩子是：整个行业都在为 AI 写代码欢呼，但 Resolve 认为真正的大问题在下游——**代码生成得越快，生产环境的瓶颈就越大**。\n\n## 写代码只占工程师 10-20% 的时间\n\nMayank 在 Splunk 看到的现实是：随着团队变大，工程师可能只有 10%、20% 的时间在真正交付新功能，剩下的大部分时间花在运维生产、处理事故、填合规问卷、变更上线流程、优化成本上。Splunk 生产环境里的微服务数量比工程师还多——没有多少人端到端地了解整个系统 [06:26 Mayank]。\n\n所以他的判断是：代码创建上的收益是真实且不可否认的（Resolve 自己团队用 Claude、GitHub Copilot、Cursor 这类工具产出代码快了大概 2、3 倍），但这只是「矛尖」。要实现软件工程的真正高生产力提升，得自动化那些需要跨工具、跨运营边界、依赖大量部落知识（没写下来、只存在人脑里的经验）的复杂活动，让「环境智能体」在后台完成复杂工作，人不必一直握着方向盘 [08:02 Mayank]。\n\nRoshan 补了一个关键观察：用代码生成工具你确实能更快地产出代码，**但团队实际发布到生产的速度并没有快那么多**——那才是拼图里缺的一块 [08:58 Roshan]。AI 让代码更快涌出来，反而让下游更堵：理解软件生产行为的时间更少、在生产环境调试它的专业知识也更稀薄。这就是他们创办 Resolve 的理由：复杂性正在向生产环境转移，而源代码只是运营生产的众多工具之一，遥测系统、基础设施、Slack 和 runbook 里的部落知识同样重要，而且生产环境一直在变，知识还必须保持最新 [10:03 Mayank]。\n\n## 衡量标准：多快发布到生产\n\n对事故响应这个场景，指标是平均解决时间（MTTR）：多快响应、多快缓解、要动用多少人力——一次复杂事故可能把不同值班轮换里的很多工程师吵醒，事后还要写复盘 [10:57 Mayank]。但不止事故：日常还要登 VPN、跑 kubectl 命令、登日志工具看系统健康，这种「千刀万剐式」的小消耗也是 Resolve 在啃的场景。现在连他们的销售都在 Slack 里问「这个子系统最近有没有变更」。Roshan 给的北极星更直白：**你实际上能多快把东西发布到生产环境**——搭原型和 V1 很容易，难点全在上线时冒出的意外；如果上线能简单到和搭 V1 一样，那就是阶跃式改进 [12:17 Roshan]。\n\n## Vibe debugging：给 vibe coding 补上后半程\n\nRoshan 承认 vibe coding 名声不太好，但认为它的问题不是走错方向，而是**走得不够远**：你快速搭出了代码、部署了、出了问题，但你对自己构建的东西没有深入理解，得靠别人去修，学习也没法传递回来。Resolve 提出的对应概念是 vibe debugging——vibe coding 给你速度，vibe debugging 给你清晰度，两者合起来才能跨过那道坎 [13:14 Roshan]。\n\n一个具体例子说明什么叫「理解生产」：回答「我的前端服务健康吗」是个非常复杂的问题——你得知道前端跑在哪、数据在哪、主要面板是什么、日志在哪、答案到底在哪。首先要弄清该操作哪个工具，再以正确的方式操作它 [14:24 Mayank]。还有超越表面相关性、深入因果链：这些东西同时开始出问题，但事件链是什么、从哪开始、怎么传播的 [16:15 Mayank]。他提到一位客户每周要花两小时人工整理 SLO 预算的运维报告——查追踪、翻日志、总结事故——这种事没有理由不能交给 AI [15:20 Mayank]。\n\n## 为什么不能自己拿聊天机器人套一下\n\n在静态知识上拖个聊天机器人远远不够，因为生产环境是不断变化的：每个环境有复杂的拓扑结构、有部落知识、有时序理解，还有你想要采取的动作——这是 V1 级 co-pilot 和真正自主系统之间的区别 [16:42 Mayank]。\n\n难度有多大？Mayank 给了两个数据点：Resolve 正朝着**每季度消耗一万亿 token** 前进，大约相当于整个 Azure 的 1%，相当于每周从零开始完整重做两次 Stack Overflow [17:34 Mayank]。更本质的复杂性在于：调试最复杂的事故，连资深工程师都要花很久，事故拖得越久，越高阶的工程师和高管跳上电话会议， collective 的诀窍汇聚在一起才搞清楚发生了什么。而且这比用 AI 创建一个 PR 难得多——创建 PR 时你大致知道预期产出是什么，调试事故时你真的不知道发生了什么，既需要第一性原理推理，又需要肌肉记忆，还有大量没被写下来的部落知识；runbook 多半已经过时 [18:34 Mayank]。\n\nResolve 的核心组件叫**知识图谱**：为任何环境的复杂性建模——每个环境都有自己的工具、约定、模式和数据，知识图谱让 Resolve 自动学习任何新环境、开始表现得像经验丰富的工程师，并且自我学习、自我更新，成为运行时智能体调查事故时可用的现成知识 [19:25 Mayank]。具体怎么捕获部落知识？就像初级工程师一样：通过参加事故电话会议和事故频道来跟随资深工程师学习，或者被人类指导着去验证某个假设，下次它就会记得主动去查那类假设 [30:23 Mayank]。\n\n那能不能直接扩展 Cursor 这类工具来解决生产问题？Roshan 的答案是：代码生成工具是为「代码这个可寻址的宇宙」设计的，而生产系统像一只活生生的、会呼吸的动物——是代码、基础设施、部署、流量行为、部落知识相互作用产生的涌现行为，且每个环境都不同，这对通用编码智能体来说是严重超出分布范围的 [20:21 Roshan]。Mayank 补了个真实案例：客户用 Resolve 排查事故后，进一步让它在理解代码、日志和追踪的基础上提出一个防止问题复发的单元测试——用户说那是他们自己想不出来的。没有对生产实际状况的深刻理解，编码智能体不可能做到这一点 [21:14 Mayank]。\n\n## 团队、评估与失败模式\n\n要构建能导航生产系统的智能体，你需要 AI 和生产系统两边都是世界级的人。大多数 AI 团队懂模型但对生产复杂性没直觉，大多数基础设施团队泡在生产里但对构建智能体编排没感觉——两者在一线深度嵌合才是魔法的关键 [22:43 Roshan]。Resolve 的使命不止做助手，而是构建能自主采取行动修复事故的闭环修复系统，这需要达到足够高的准确度 [24:02 Mayank]。\n\n评估是最难的部分。代码生成进步快，一个重要原因是它能构建可验证、可评估的环境；生产调试没有现成数据集，**光是拿到数据集就非常非常难**，所以别指望基础模型在这些任务上自动持续变好——它们根本接触不到这类数据 [32:12 Roshan]。他们在沙箱里模拟大量事故，也探索把模型本身用作操作员、调整到与专家级人类工作者的做法高度相关，这个范式大有可为 [31:09 Roshan]。\n\n面对「模型经常自信地犯错」的提问，Roshan 说这里存在持续的张力：护栏放多了能保证结果有依据，但会损失模型的涌现式推理；挑战在于了解模型现在在哪、走向何方，找到恰到好处的护栏——让幻觉足够少，同时模型还能像专家工程师那样提出可行假设并缩小范围 [33:19 Roshan]。而从用户交互中学习成长，在他们的架构里是一等公民 [33:10 Mayank]。\n\n有观众问生产系统会不会演变得更兼容 AI 智能体。Mayank 的回答很务实：数据孤岛确实是个挑战（指标散落在 CloudWatch、Datadog、Grafana 里，常常同属一家公司），遵循 OpenTelemetry 这类最佳实践会让工具更好用，但 AI 真正的机会在于**不需要你遵守一条黄金路径、不需要预先做大量改造才能开始产生价值** [27:19 Mayank]。\n\n## 本集带走\n\n- **别只盯代码生成**:工程师只有 10-20% 时间在写新功能，AI 让代码更快涌出反而加大生产环境的排查与运维瓶颈——下一个大杠杆在生产侧。\n- **上线速度才是北极星**：衡量 AI 对工程效率的贡献，看「从 V1 到真正发布到生产」能压缩多少，而不是代码产出行数。\n- **生产系统 ≠ 代码**:它是代码、基础设施、部署、流量、部落知识的涌现行为，每个环境都独特且持续变化，套个静态聊天机器人不够，通用编码智能体也严重超出其分布范围。\n- **最难的不是写提示词，是数据和评估**：生产调试没有现成数据集、且极难创建，这既是护城河也是基础模型无法自然进步的原因。\n- **护栏与推理要找平衡**：护栏太多会压掉模型的涌现式推理，太少会幻觉；正确姿势是跟着模型能力演进调整，并让系统从用户交互中持续学习。\n- **捕部落知识学初级工程师**：让智能体参加事故会议、被人类指导验证假设、记住下次主动去查——这是让系统随时间像资深工程师的方向。",
+  "quotes": [
+    {
+      "en": "Yeah, I think the North Star here is like how much faster can you actually ship to prod, right?",
+      "zh": "是的，我觉得这里的北极星指标就是，你实际上能多快地发布到生产环境，对吧？",
+      "timestamp": "12:17",
+      "speaker": "Roshan"
+    },
+    {
+      "en": "So, here at Resolve, we are now on track to consume one trillion tokens per quarter.",
+      "zh": "在 Resolve，我们现在正朝着每季度消耗一万亿 token 的方向前进。",
+      "timestamp": "17:34",
+      "speaker": "Roshan"
+    },
+    {
+      "en": "This is the equivalent of doing Stack Overflow completely from scratch twice every week.",
+      "zh": "这相当于每周从零开始完整重做两次 Stack Overflow。",
+      "timestamp": "17:51",
+      "speaker": "Roshan"
+    },
+    {
+      "en": "I think the sort of the thesis over here is that if you don't move fast enough to sort of become AI first, you are at a huge risk in my opinion of being disrupted by somebody else who does.",
+      "zh": "我认为这里的论点是：如果你行动得不够快、没有变得 AI 优先，在我看来你就面临巨大的风险，会被其他这么做的公司颠覆。",
+      "timestamp": "26:11",
+      "speaker": "Roshan"
+    },
+    {
+      "en": "So it's not like the foundation models are just going to keep getting better at these kind of tasks because they just don't have access to these data sets.",
+      "zh": "所以并不是基础模型就会在这些类型的任务上不断变得更好，因为它们根本没有这些数据集的访问权限。",
+      "timestamp": "32:24",
+      "speaker": "Mayank"
+    },
+    {
+      "en": "But I think that really the opportunity is that AI need not require you to abide to a golden path.",
+      "zh": "但我认为真正的机会在于，AI 不需要你遵守一条黄金路径。",
+      "timestamp": "28:18",
+      "speaker": "Mayank"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "06:26",
+      "speaker": "Mayank",
+      "en": "At Splunk, what I saw as a team grew in size, our engineers were spending maybe 10, 20% of their time actually shipping new features.",
+      "zh": "在 Splunk，我所看到的是，随着团队规模增长，我们的工程师可能只有 10%、20% 的时间真正在交付新功能。"
+    },
+    {
+      "timestamp": "09:14",
+      "speaker": "Mayank",
+      "en": "I would say all the buzz is around code generation right now.",
+      "zh": "我想说现在所有的热度都围绕代码生成。"
+    },
+    {
+      "timestamp": "09:48",
+      "speaker": "Mayank",
+      "en": "So in that sense, that time is compressed, but then you are creating a lot more bottleneck down the line.",
+      "zh": "所以从这个意义上说，那段时间被压缩了，但接下来你在下游制造了更多的瓶颈。"
+    },
+    {
+      "timestamp": "10:03",
+      "speaker": "Mayank",
+      "en": "So I would say that what we at Resolve, why we started Resolve is because we believe that a lot of the complexity will shift to production.",
+      "zh": "所以我想说，我们创办 Resolve 是因为我们相信很多复杂性将转移到生产环境中。"
+    },
+    {
+      "timestamp": "12:17",
+      "speaker": "Roshan",
+      "en": "Yeah, I think the North Star here is like how much faster can you actually ship to prod, right?",
+      "zh": "是的，我觉得这里的北极星指标就是，你实际上能多快地发布到生产环境，对吧？"
+    },
+    {
+      "timestamp": "13:14",
+      "speaker": "Roshan",
+      "en": "But no, I think the problem in my opinion with vibe coding is that it isn't going far enough, right?",
+      "zh": "但不，在我看来，vibe coding 的问题在于它走得还不够远，对吧？"
+    },
+    {
+      "timestamp": "16:15",
+      "speaker": "Mayank",
+      "en": "And then there's also going beyond the superficial correlation into causation.",
+      "zh": "然后还有超越表面相关性、深入到因果关系。"
+    },
+    {
+      "timestamp": "16:51",
+      "speaker": "Mayank",
+      "en": "It is a constantly changing thing.",
+      "zh": "它是一个不断变化的东西。"
+    },
+    {
+      "timestamp": "17:34",
+      "speaker": "Mayank",
+      "en": "So, here at Resolve, we are now on track to consume one trillion tokens per quarter.",
+      "zh": "在 Resolve，我们现在正朝着每季度消耗一万亿 token 的方向前进。"
+    },
+    {
+      "timestamp": "17:51",
+      "speaker": "Mayank",
+      "en": "This is the equivalent of doing Stack Overflow completely from scratch twice every week.",
+      "zh": "这相当于每周从零开始完整重做两次 Stack Overflow。"
+    },
+    {
+      "timestamp": "18:44",
+      "speaker": "Mayank",
+      "en": "Because if I'm creating a PR, I already know somewhat the outcome of this PR that I expect to look like.",
+      "zh": "因为如果我在创建一个 PR，我已经某种程度上知道这个 PR 我预期会是什么样子。"
+    },
+    {
+      "timestamp": "19:25",
+      "speaker": "Mayank",
+      "en": "So that's one of the components that we call our knowledge graph.",
+      "zh": "那是我们称之为知识图谱的一个组件。"
+    },
+    {
+      "timestamp": "20:31",
+      "speaker": "Roshan",
+      "en": "But sort of as we've been talking, right, like your production system is sort of like a living, breathing animal, right?",
+      "zh": "但正如我们一直在说的，对吧，你的生产系统有点像一个活生生的、会呼吸的动物，对吧？"
+    },
+    {
+      "timestamp": "21:56",
+      "speaker": "Mayank",
+      "en": "So this deep understanding of code and deep understanding of production at the same time allowed them to create a unit test that they could not have thought of in the first place and now",
+      "zh": "所以这种对代码和生产的同时深刻理解，让他们创建了一个他们一开始根本想不到的单元测试，而现在"
+    },
+    {
+      "timestamp": "22:10",
+      "speaker": "Mayank",
+      "en": "So in that sense, a coding agent cannot predict these things without the deep understanding of what's actually happening in production.",
+      "zh": "所以从这个意义上说，编码智能体在没有对生产中实际发生情况的深刻理解时，是无法预测这些事情的。"
+    },
+    {
+      "timestamp": "26:11",
+      "speaker": "Roshan",
+      "en": "I think the sort of the thesis over here is that if you don't move fast enough to sort of become AI first, you are at a huge risk in my opinion of being disrupted by somebody else who does.",
+      "zh": "我认为这里的论点是：如果你行动得不够快、没有变得 AI 优先，在我看来你就面临巨大的风险，会被其他这么做的公司颠覆。"
+    },
+    {
+      "timestamp": "32:12",
+      "speaker": "Roshan",
+      "en": "So it's not like the foundation models are just going to keep getting better at these kind of tasks because they just don't have access to these data sets.",
+      "zh": "所以并不是基础模型就会在这些类型的任务上不断变得更好，因为它们根本没有这些数据集的访问权限。"
+    },
+    {
+      "timestamp": "33:19",
+      "speaker": "Roshan",
+      "en": "I think to your broader question, yeah, I think there's this sort of constant tension between how many sort of guardrails do you sort of put on these models, right?",
+      "zh": "回到你更宏观的问题，是的，我认为这里存在一种持续的张力，就是你到底要在这些模型上放多少护栏，对吧？"
+    },
+    {
+      "timestamp": "28:18",
+      "speaker": "Mayank",
+      "en": "But I think that really the opportunity is that AI need not require you to abide to a golden path.",
+      "zh": "但我认为真正的机会在于，AI 不需要你遵守一条黄金路径。"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊一个和每个写代码的人都有关的话题:AI 写代码这件事火成这样,但真正的大麻烦,可能根本不在写代码这一步。\n\n先介绍今天的主角。这是 Greylock 的一个播客系列,来了两位嘉宾。一位叫 Mayank,是 Resolve AI 的联合创始人兼 CTO,一辈子基本都在做开发者工具和监控系统,参与创建了开源项目 OpenTelemetry——就是把遥测数据的采集方式标准化的项目,上一家公司被 Splunk 收购之后,做到了所有监控产品的首席架构师。另一位是工程副总裁 Roshan,做过 Apple Siri 的自然语言理解负责人,后来在 Google 参与 Assistant、Bard 和 Gemini,团队发布过 DeepResearch。\n\n这俩人聊的核心论点听起来有点反直觉:整个行业都在为 AI 写代码欢呼,但代码生成得越快,生产环境的瓶颈反而越大。为什么这么说?咱们从源头讲起。\n\nMayank 在 Splunk 看到的现实是这样的:团队一大,工程师可能只有百分之十、二十的时间在真正写新功能,剩下的时间全花在运维生产、处理事故、跑变更流程、填合规问卷这些事上。Splunk 生产环境里的微服务数量比工程师还多,没有人能端到端搞明白整个系统。\n\n所以代码创建上的收益是真实的——Resolve 自己团队用 Claude、Copilot、Cursor 这类工具,产出代码快了两三倍——但说白了,这只是矛尖。Roshan 补了一个关键观察:用代码生成工具,代码确实出得更快了,但团队实际发布到生产的速度,并没有快那么多,那才是拼图里缺的那一块。AI 让代码更快涌出来,下游反而更堵,理解软件在生产环境里怎么跑的专业知识,还越来越稀薄。这就是创办 Resolve 的理由:复杂性正在向生产环境转移,而源代码只是运营生产的众多工具之一,遥测系统、基础设施、还有 Slack 和 runbook 里那些没写下来、只存在人脑里的部落知识,同样重要。\n\n那衡量这件事的标准是什么?Roshan 给的北极星特别直白:你实际上能多快把东西发布到生产环境。搭个原型、做个 V1 很容易,难点全在上线时冒出的意外。如果上线能简单到和搭 V1 一样,那就是阶跃式改进。\n\n顺着这个思路,Resolve 提出了一个概念,叫 vibe debugging。Roshan 承认 vibe coding 名声不太好,但认为问题不是方向错了,而是走得不够远:你快速搭出了代码、部署了、出了问题,可你对自己构建的东西没有深入理解,只能靠别人去修,学习也没法传递回来。vibe coding 给你速度,vibe debugging 给你清晰度,两者合起来,才跨得过那道坎。\n\n什么叫理解生产?举个具体例子:回答\"我的前端服务健康吗\",这是个非常复杂的问题——你得知道前端跑在哪、数据在哪、主要面板是什么、日志在哪。首先要弄清该操作哪个工具,再以正确的方式操作它。还有更深一层的:一堆东西同时开始出问题,那事件链到底是什么、从哪开始、怎么传播的?有位客户每周要花两小时人工整理 SLO 预算的运维报告,查追踪、翻日志、总结事故——这种事没有理由不能交给 AI。\n\n你可能会问,那直接拿个聊天机器人套上去不行吗?Mayank 的答案是:远远不够,因为生产环境是不断变化的,每个环境有复杂的拓扑结构、有部落知识、有时序上的理解,还有你想要采取的动作——这是 V1 级 co-pilot 和真正自主系统之间的区别。难度有多大?给两个数:Resolve 正朝着每季度消耗一万亿 token 前进,大约相当于整个 Azure 的百分之一,相当于每周从零开始完整重做两次 Stack Overflow。\n\n而且这比用 AI 创建一个 PR 难得多——创建 PR 的时候,你大致知道预期产出是什么;调试事故的时候,你真的不知道发生了什么,既需要第一性原理推理,又需要肌肉记忆,还有大量没被写下来的经验,runbook 多半已经过时。\n\n那怎么让系统掌握这些知识?Resolve 的核心组件叫知识图谱,给任何环境的复杂性建模,让系统自动学习新环境、开始表现得像经验丰富的工程师。具体怎么捕获部落知识?就像初级工程师一样:参加事故电话会议、泡事故频道、跟着资深工程师学,或者被人类指导着验证某个假设,下次它就会记得主动去查那类假设。\n\n那能不能直接扩展 Cursor 这类工具来解决生产问题?Roshan 打了个很妙的比方:代码生成工具是为\"代码这个可寻址的宇宙\"设计的,而生产系统像一只活生生的、会呼吸的动物——是代码、基础设施、部署、流量行为、部落知识相互作用产生的涌现行为,每个环境都不同,这对通用编码智能体来说是严重超出分布范围的。Mayank 补了个真实案例:有客户用 Resolve 排查事故之后,进一步让它在理解代码、日志和追踪的基础上,提出一个防止问题复发的单元测试——用户说那是他们自己都想不出来的。没有对生产实际状况的深刻理解,编码智能体做不到这一点。\n\n这期还有个特别实在的洞察,关于评估。代码生成进步快,很大原因是能构建可验证的环境;而生产调试没有现成数据集,光拿到数据集就非常非常难。用 Roshan 的话说,并不是基础模型就会在这些任务上自动持续变好,因为它们根本没有这些数据集的访问权限。所以这里既有护城河,也是模型无法自然进步的原因。\n\n最后怎么收尾?回到那道持续存在的张力:模型经常自信地犯错,护栏放多了能保证结果有依据,但会压掉模型的涌现式推理;护栏太少又会幻觉。挑战在于找到恰到好处的护栏——让幻觉足够少,同时模型还能像专家工程师那样提出可行假设、缩小范围。而如果非要从这期带走一句话,那就记住 Roshan 那句北极星:衡量 AI 对工程效率的贡献,别看代码产出了多少行,就看你实际上能多快地发布到生产环境。"
+}

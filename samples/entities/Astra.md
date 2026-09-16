@@ -25,7 +25,7 @@ unlisted: true
 
 [[Greg Brockman]] · [[Ben Horowitz]] · [[OpenAI]] · [[Stripe]] · [[ChatGPT]] · [[Codex]] · [[AGI]] · [[计算机使用]] · [[对齐]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"Greg Brockman":1,"Ben Horowitz":4,"OpenAI":113,"Stripe":31,"ChatGPT":66,"Codex":48,"AGI":22,"计算机使用":11,"对齐":7,"沙箱":44}</script>
+<script type="application/json" class="pd-epn">{"Greg Brockman":1,"Ben Horowitz":4,"OpenAI":115,"Stripe":31,"ChatGPT":66,"Codex":48,"AGI":22,"计算机使用":11,"对齐":7,"沙箱":45}</script>
 
 <script>
 (function(){

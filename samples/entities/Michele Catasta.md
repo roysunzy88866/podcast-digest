@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
+[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":16,"Replit Agent":1,"智能体":244,"vibe coding":34,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":7,"一人独角兽":1,"提示词":13}</script>
+<script type="application/json" class="pd-epn">{"Replit":16,"Replit Agent":1,"智能体":248,"vibe coding":35,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":4,"自主性":7,"一人独角兽":1,"提示词":13}</script>
 
 <script>
 (function(){

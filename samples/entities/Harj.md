@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
+[[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":2,"Stripe":31,"Atlas":2,"精益创业":1,"智能体":244,"YC":12,"Google":42,"Claude":58,"OpenAI":113,"Shopify":9}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":2,"Stripe":31,"Atlas":2,"精益创业":1,"智能体":248,"YC":12,"Google":42,"Claude":58,"OpenAI":115,"Shopify":9}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Max Drake]] [[Tibo Sottiaux]] [[Eric Simons]]
+[[Marc Brooker]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Max Drake]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"ReWeaver AI":1,"设计-代码往返":1,"引导漂移":3,"确定性护栏":1,"vibe coding":34,"无障碍性":1,"技术债务":2,"溯源信息":1,"设计系统":6,"LLM":32}</script>
+<script type="application/json" class="pd-epn">{"ReWeaver AI":1,"设计-代码往返":1,"引导漂移":3,"确定性护栏":1,"vibe coding":35,"无障碍性":1,"技术债务":2,"溯源信息":1,"设计系统":6,"LLM":32}</script>
 
 <script>
 (function(){

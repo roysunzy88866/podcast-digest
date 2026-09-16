@@ -7,29 +7,22 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Joe Schmidt</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Joe Schmidt">JO</div><div class="pi"><h1 class="pt">Joe Schmidt</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Joe Schmidt">JO</div><div class="pi"><h1 class="pt">Joe Schmidt</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]] — 作为联合主持
+- [[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Elena Berger]] · [[Andy McCall]] · [[Lighthouse]] · [[LandGrab]] · [[Samsara]] · [[Meraki]] · [[Pylon]] · [[ACV]] · [[PLG]] · [[Harvey]]
+[[Elena Berger]] · [[Keith Parris]] · [[Andy McCall]] · [[Alex Rampell]] · [[Lighthouse]] · [[Lightfield]] · [[LandGrab]] · [[Tome]] · [[Samsara]] · [[CRM]]
 
-## ④ 也在聊「增长与销售」的人
-
-<div class="pd-peers">
-
-[[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Elena Berger":3,"Andy McCall":1,"Lighthouse":1,"LandGrab":1,"Samsara":2,"Meraki":2,"Pylon":1,"ACV":3,"PLG":9,"Harvey":8}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":3,"Keith Parris":1,"Andy McCall":1,"Alex Rampell":3,"Lighthouse":1,"Lightfield":2,"LandGrab":1,"Tome":2,"Samsara":2,"CRM":5}</script>
 
 <script>
 (function(){

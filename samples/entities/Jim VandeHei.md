@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]] [[Andrew Chen]]
+[[Keith Parris]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":4,"Axios":1,"OpenAI":113,"ChatGPT":66,"Claude":58,"Google":42,"Anthropic":123,"智能体":244,"认知疲劳":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":4,"Axios":1,"OpenAI":115,"ChatGPT":66,"Claude":58,"Google":42,"Anthropic":123,"智能体":248,"认知疲劳":1}</script>
 
 <script>
 (function(){

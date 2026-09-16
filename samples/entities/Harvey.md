@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Harvey</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Harvey">HA</div><div class="pi"><h1 class="pt">Harvey</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Harvey">HA</div><div class="pi"><h1 class="pt">Harvey</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]]**(55:56起):本集作为应用 AI 智能体公司的例子提到，Harvey 为法律和律师助理行业制作智能体，做反垄断审查、合同审查等。
+- **[[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|《Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注》]]**(00:44起):本集主角:2022 年 8 月、ChatGPT 发布前创办的 AI 法律助手公司,为律师构建工作区,把智能体整合进客户事务;从最大律所卖起,正向税务、私募股权等相邻专业服务扩展。
 - **[[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int|《Parag Agrawal:当 AI 成为网络的第二个用户》]]**(43:35起):本集说 Harvey 是 Parallel 的重大合作伙伴，用它确保每次交互都有新鲜、难获取的权威来源文件做扎实依据，且不烧太多自己的 token。
 - **[[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]]**(13:20起):本集把它说成是灯塔策略的教科书案例：做 AI 法律科技（替代初级律师），因拿下头部律所，其安全证明在圈层内疯狂传播。
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(37:11起):本集在讨论法律AI赛道资金过剩时提到，认为Harvey因拥有最广泛的分发而处于非常有利的地位
@@ -28,9 +29,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
+- [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|《Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注》]] — 作为被讨论公司
 - [[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int|《Parag Agrawal:当 AI 成为网络的第二个用户》]] — 作为被讨论公司
 - [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司(提及)
@@ -43,9 +45,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[前沿模型]] · [[推理]] · [[微调]] · [[Sierra]] · [[ChatGPT]] · [[PLG]]
+[[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[前沿模型]] · [[DeepMind]] · [[推理]] · [[微调]] · [[Sierra]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"智能体":244,"Cursor":59,"OpenAI":113,"Anthropic":123,"前沿模型":16,"推理":46,"微调":16,"Sierra":5,"ChatGPT":66,"PLG":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":248,"Cursor":59,"OpenAI":115,"Anthropic":123,"前沿模型":16,"DeepMind":9,"推理":46,"微调":16,"Sierra":5,"后训练":22}</script>
 
 <script>
 (function(){

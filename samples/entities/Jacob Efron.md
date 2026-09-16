@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
+[[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Benedict Evans":2,"OpenAI":113,"Anthropic":123,"TSMC":4,"LLM":32,"基础模型":5,"AI 编程":4,"算力扩展":1,"网络效应":10,"AGI":22}</script>
+<script type="application/json" class="pd-epn">{"Benedict Evans":2,"OpenAI":115,"Anthropic":123,"TSMC":4,"LLM":32,"基础模型":5,"AI 编程":4,"算力扩展":1,"网络效应":10,"AGI":22}</script>
 
 <script>
 (function(){

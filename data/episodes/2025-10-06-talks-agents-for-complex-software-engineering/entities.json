@@ -1,0 +1,730 @@
+{
+  "episode_id": "2025-10-06-talks-agents-for-complex-software-engineering",
+  "podcast": "精选演讲",
+  "date": "2025-10-06",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "可观测性",
+    "软件工程",
+    "生产运维"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "corinne-riley",
+      "type": "person",
+      "role": "host",
+      "name": "Corinne Riley",
+      "file": "Corinne Riley",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            48.061,
+            48.742
+          ],
+          "quote": "I'm Corinne Riley.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mayank",
+      "type": "person",
+      "role": "cohost",
+      "name": "Mayank",
+      "file": "Mayank",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            63.436,
+            68.34
+          ],
+          "quote": "To explore this, I'm thrilled to have Mayank and Roshan from Resolve AI here today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            69.001,
+            75.764
+          ],
+          "quote": "Mayank, you're the co-founder and CTO of Resolve, and Rushin, for the last couple of weeks, you're the VP of Engineering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 13,
+          "t": [
+            87.172,
+            88.033
+          ],
+          "quote": "I'm Mayank.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 61,
+          "t": [
+            364.218,
+            373.527
+          ],
+          "quote": "Mayank, as you were saying, you've spent your whole career in observability world, and you've seen how engineers struggle to understand their own systems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2097.291,
+            2102.073
+          ],
+          "quote": "Mayank, Roshan, thank you so much for joining us on Change Agents.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "roshan",
+      "type": "person",
+      "role": "cohost",
+      "name": "Roshan",
+      "file": "Roshan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            63.436,
+            68.34
+          ],
+          "quote": "To explore this, I'm thrilled to have Mayank and Roshan from Resolve AI here today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            166.904,
+            167.385
+          ],
+          "quote": "I'm Roshan.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 41,
+          "t": [
+            267.194,
+            276.54
+          ],
+          "quote": "Yeah, I mean, we were sending messages to Roshan, he was not replying, and then he was hiring his team one after another, and at some point, Roshan replied.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2097.291,
+            2102.073
+          ],
+          "quote": "Mayank, Roshan, thank you so much for joining us on Change Agents.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "resolve-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Resolve AI",
+      "file": "Resolve AI",
+      "primary": true,
+      "how_described": "本集主角公司，Mayank 与 Roshan 创办，主张复杂性正向生产环境转移，从事故根因分析和 on-call 响应切入，用环境智能体自动化软件工程中写代码之外的部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            48.862,
+            57.931
+          ],
+          "quote": "I'm one of the partners here at Greylock where I invest in early-stage B2B AI applications and infrastructure, and I have the privilege of being an investor in Resolve AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            63.436,
+            68.34
+          ],
+          "quote": "To explore this, I'm thrilled to have Mayank and Roshan from Resolve AI here today.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "opentelemetry",
+      "type": "company",
+      "role": "company",
+      "name": "OpenTelemetry",
+      "file": "OpenTelemetry",
+      "primary": true,
+      "how_described": "本集说它是 Mayank 参与创建的开源项目，把插桩和路由遥测数据到后端的方式标准化，是 CNCF 中仅次于 Kubernetes 的第二流行项目，也是让系统更 AI-ready 的最佳实践",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            108.368,
+            111.951
+          ],
+          "quote": "Also helped create a very popular open source project called OpenTelemetry.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "splunk",
+      "type": "company",
+      "role": "company",
+      "name": "Splunk",
+      "file": "Splunk",
+      "primary": true,
+      "how_described": "Mayank 上家公司被其收购后他成为所有监控产品的首席架构师；他在 Splunk 看到工程师只有 10-20% 时间写代码、生产微服务比工程师还多，由此萌生创办 Resolve 的想法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            122.923,
+            130.227
+          ],
+          "quote": "Omniscient was acquired by Splunk in 2019, where eventually I became the lead architect for all of the monitoring products.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 64,
+          "t": [
+            386.545,
+            393.406
+          ],
+          "quote": "At Splunk, what I saw as a team grew in size, our engineers were spending maybe 10, 20% of their time actually shipping new features.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 68,
+          "t": [
+            414.313,
+            418.535
+          ],
+          "quote": "Again, you know, at Splunk, we had more microservices in production than we had engineers.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：能在后台自主执行复杂工作的环境智能体（ambient agents），跟随资深工程师学习、构建知识图谱、调查生产事故，未来要闭环修复；企业级是智能体真正的产品市场契合点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            1203.956,
+            1213.339
+          ],
+          "quote": "So that's kind of the core building block that allows our runtime agent to go and use all of these ready-made learnings to investigate complex incidents.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1256.635,
+            1272.156
+          ],
+          "quote": "And so I think in my mind, generalist coding agent, you know, and we've, you know, we know this from firsthand experience, but I think it's, you know, to use sort of a different perspective on it, I think this is very out of distribution for what, you know, general coding agents would do.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1330.583,
+            1337.745
+          ],
+          "quote": "So in that sense, a coding agent cannot predict these things without the deep understanding of what's actually happening in production.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1397.579,
+            1405.224
+          ],
+          "quote": "I think there is a lot of stuff that you need to do in terms of multi-agent orchestration and, you know, reasoning and memory and some of these pieces.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1813.077,
+            1821.506
+          ],
+          "quote": "The agent comes, let's say, ready with world knowledge on day one, and then it tries to pull in as much metadata and as much knowledge as it can out of the systems that you connect to it.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1896.908,
+            1903.036
+          ],
+          "quote": "The overall planning and how the agent reasons through everything.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1971.618,
+            1978.741
+          ],
+          "quote": "I think there may also be other reasons why models get things wrong, like the agent isn't able to find the right root cause because it's not within the",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-generation",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码生成 (code generation)",
+      "file": "代码生成",
+      "primary": true,
+      "how_described": "本集说它是当下所有热度所在、收益不可否认（快 2-3 倍），但只是矛尖——代码生成越快，下游生产环境的瓶颈越大，且它因有可验证评估环境而进步快",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            538.152,
+            549.298
+          ],
+          "quote": "Yeah, I mean, I think the way I think about it is, you know, with some of these code generation tools, you can crank out code like much faster, but, you know, teams aren't really shipping to production that much faster, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 95,
+          "t": [
+            554.327,
+            557.288
+          ],
+          "quote": "I would say all the buzz is around code generation right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1852.392,
+            1860.72
+          ],
+          "quote": "One of the big reasons why we see code generation being exponentially getting better and better is because we can build verifiable, evaluatable environments for these.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集说它名声不好带贬义，但问题不是方向错而是走得不够远：快速构建代码却对自己构建的东西缺乏深入理解，出了问题得靠别人修，学习也无法传递回来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            778.298,
+            781.099
+          ],
+          "quote": "One term that we hear pretty often is vibe coding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 139,
+          "t": [
+            794.133,
+            799.556
+          ],
+          "quote": "Yeah, I think vibe coding gets a bad rap and I think it has a slightly pejorative connotation.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 140,
+          "t": [
+            799.616,
+            805.221
+          ],
+          "quote": "But no, I think the problem in my opinion with vibe coding is that it isn't going far enough, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 145,
+          "t": [
+            829.459,
+            843.89
+          ],
+          "quote": "And so you can think of sort of combining the best of both worlds, right, where you get speed from vibe coding, and then if you had sort of the clarity that came from vibe debugging, and then you put that together, and then I think that, you know, you're sort of in that uncanny valley, right?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "vibe-debugging",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe debugging",
+      "file": "vibe debugging",
+      "primary": true,
+      "how_described": "Resolve 提出的对应概念：vibe coding 给你速度，vibe debugging 给你清晰度，两者结合才能跨过那道坎——包括理解生产环境、弄清该操作哪个工具、超越表面相关性深入因果链",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            821.713,
+            828.998
+          ],
+          "quote": "But maybe one way to think about it is, you know, here at Resolve, you know, we've been thinking of this idea of vibe debugging, which is what you do with Resolve, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 145,
+          "t": [
+            829.459,
+            843.89
+          ],
+          "quote": "And so you can think of sort of combining the best of both worlds, right, where you get speed from vibe coding, and then if you had sort of the clarity that came from vibe debugging, and then you put that together, and then I think that, you know, you're sort of in that uncanny valley, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 147,
+          "t": [
+            848.465,
+            851.987
+          ],
+          "quote": "And maybe tell us a little bit more, what does Vibe debugging look like?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            993.135,
+            998.597
+          ],
+          "quote": "How different is Vibe debugging to just putting a simple chatbot over my production data?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1040.916,
+            1046.259
+          ],
+          "quote": "To ask a bit of a provocative question, how hard really is it to build Vibe debugging?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tribal-knowledge",
+      "type": "concept",
+      "role": "concept",
+      "name": "部落知识 (tribal knowledge)",
+      "file": "部落知识",
+      "primary": true,
+      "how_described": "本集反复强调：没写下来、只存在人脑里或散落在 Slack 和 runbook 里的经验，是自动化软件工程的核心难点，Resolve 靠让智能体像初级工程师一样旁听事故会议来捕获并保持其最新",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.852,
+            20.501
+          ],
+          "quote": "But really to achieve high productivity gains in software engineering, we need to kind of automate the more complex activities that require people deep understanding of how to go across different tools, how to go across operational boundaries, and use a lot of tribal knowledge where a human doesn't have to be at the wheel.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 72,
+          "t": [
+            434.124,
+            436.205
+          ],
+          "quote": "There's a lot of tribal knowledge that goes into",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 80,
+          "t": [
+            472.711,
+            476.034
+          ],
+          "quote": "There's a lot of tribal knowledge that the teams have themselves.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            511.791,
+            529.441
+          ],
+          "quote": "But really to achieve high productivity gains in software engineering, we need to automate the more complex activities that require people deep understanding of how to go across different tools, how to go across operational boundaries, and use a lot of tribal knowledge where a human doesn't have to be at the wheel.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 109,
+          "t": [
+            630.507,
+            636.171
+          ],
+          "quote": "There is a lot of tribal knowledge in Slack, in runbooks, and production is changing all the time.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 110,
+          "t": [
+            636.191,
+            640.935
+          ],
+          "quote": "You need to keep this tribal knowledge up-to-date to automate software engineering.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 150,
+          "t": [
+            876.622,
+            885.148
+          ],
+          "quote": "And so it falls upon a human to bring their tribal knowledge and also knowledge of how to operate a particular tool to get the answer to these day-to-day tasks.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1020.545,
+            1022.566
+          ],
+          "quote": "There's the tribal knowledge that we mentioned.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1134.329,
+            1137.451
+          ],
+          "quote": "And that's a lot of tribal knowledge that's not written down anywhere.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1160.659,
+            1164.4
+          ],
+          "quote": "How does Resolve capture the tribal knowledge from its customers?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1238.212,
+            1255.513
+          ],
+          "quote": "It's really emergent behavior that comes from a bunch of these things interacting with each other, like the code, the infrastructure, the deployments, the traffic behavior, the tribal knowledge, all of these things, plus the fact that it's different in every specific environment and context.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1794.453,
+            1798.535
+          ],
+          "quote": "So that's kind of the unwritten tribal knowledge or maybe siloed tribal knowledge.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1798.595,
+            1805.458
+          ],
+          "quote": "And so what Resolve does is try to pull in that tribal knowledge and build its mental kind of runbooks for debugging these.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识图谱 (knowledge graph)",
+      "file": "知识图谱",
+      "primary": true,
+      "how_described": "Resolve 的核心组件，本集说它为任何环境的复杂性建模——每个环境有自己的工具、约定、模式和数据，它让 Resolve 自动学习新环境、自我学习和更新，供运行时智能体调查事故时使用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 213,
+          "t": [
+            1165.681,
+            1168.382
+          ],
+          "quote": "So that's one of the components that we call our knowledge graph.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1176.985,
+            1182.207
+          ],
+          "quote": "And so the knowledge graph is a component that allows us to model the complexity of any environment.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1191.891,
+            1201.094
+          ],
+          "quote": "And so the knowledge graph that we created allows Resolve to automatically learn about any new environment and start acting like a seasoned engineer.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1753.86,
+            1758.504
+          ],
+          "quote": "One is to actually go and understand the structure of the environment, and that's kind of the knowledge graph, right?",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说护栏与模型能力间存在持续张力：放多了能保证结果有依据但会损失涌现式推理，放少了会幻觉，关键在于跟着模型演进找恰到好处的平衡",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 365,
+          "t": [
+            1999.534,
+            2007.721
+          ],
+          "quote": "I think to your broader question, yeah, I think there's this sort of constant tension between how many sort of guardrails do you sort of put on these models, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2007.741,
+            2014.146
+          ],
+          "quote": "So if you put a lot of guardrails and you can sort of make sure that the results are sort of grounded, but then you might lose a little bit of like the models",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2017.427,
+            2030.69
+          ],
+          "quote": "And so I think, you know, part of the challenge here is sort of, you know, having a good sense of where are the models right now, where are they going, and then how do you sort of strike that right balance of like, you know, just enough guardrails where you have a higher degree of confidence.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "evaluation",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evaluation)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说是最难的部分：生产调试没有现成数据集、数据集本身也极难创建，所以基础模型不会在这些任务上自动持续变好；他们在沙箱里模拟事故并探索把模型用作操作员",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 356,
+          "t": [
+            1954.346,
+            1957.608
+          ],
+          "quote": "So forget evaluation, just getting the data set is very, very hard.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集提到他们在沙箱里的演示环境中模拟大量事故，作为评估智能体表现的一部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 347,
+          "t": [
+            1875.773,
+            1880.657
+          ],
+          "quote": "So we have, of course, our own demo environments in our sandbox where we can simulate a bunch of incidents.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": false,
+      "how_described": "本集说 Mayank 整个职业生涯都在可观测性领域，生产环境的遥测数据散落在 CloudWatch、Datadog、Grafana 等孤岛中是 AI 落地的挑战之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            364.218,
+            373.527
+          ],
+          "quote": "Mayank, as you were saying, you've spent your whole career in observability world, and you've seen how engineers struggle to understand their own systems.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

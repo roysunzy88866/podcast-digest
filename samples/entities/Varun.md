@@ -29,17 +29,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Corinne Riley]] · [[Spiros]] · [[Jesse]] · [[Decagon]] · [[Windsurf]] · [[Resolve]] · [[智能体]] · [[Copilot]] · [[多智能体协作]] · [[护栏]]
+[[Corinne Riley]] · [[Spiros]] · [[Jesse]] · [[Decagon]] · [[Windsurf]] · [[Resolve]] · [[Splunk]] · [[智能体]] · [[Copilot]] · [[多智能体协作]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
+[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Corinne Riley":3,"Spiros":1,"Jesse":1,"Decagon":7,"Windsurf":5,"Resolve":2,"智能体":244,"Copilot":11,"多智能体协作":2,"护栏":46}</script>
+<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Spiros":1,"Jesse":1,"Decagon":7,"Windsurf":5,"Resolve":2,"Splunk":3,"智能体":248,"Copilot":11,"多智能体协作":2}</script>
 
 <script>
 (function(){

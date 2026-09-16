@@ -175,8 +175,8 @@ Arena 起步是 battle 模式:输入一个 prompt,得到两个回答,用户选�
 **换个口味**
 
 - [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|Codex 负责人亲述:OpenAI 内部如何造编程智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:开源模型 (open source)、智能体 (agent)</span>
+- [[2025-10-06-talks-agents-for-complex-software-engineering|Vibe debugging：代码生成之后，生产环境才是真正的硬仗]]<span class="pd-rz">同概念:智能体 (agent)、评估 (evaluation)</span>
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|开源贡献的真正门槛：不是代码，是认知负荷]]<span class="pd-rz">同概念:开源模型 (open source)、智能体 (agent)</span>
-- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:Arena · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

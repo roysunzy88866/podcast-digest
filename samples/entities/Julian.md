@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
+[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Base 10":1,"推理":46,"专用推理":1,"开源模型":17,"后训练":21,"持续学习":8,"GPU 容量":1,"分布式推理":1,"Cursor":59,"Decagon":7}</script>
+<script type="application/json" class="pd-epn">{"Base 10":1,"推理":46,"专用推理":1,"开源模型":17,"后训练":22,"持续学习":8,"GPU 容量":1,"分布式推理":1,"Cursor":59,"Decagon":7}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
+[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Stripe":31,"Kai":1,"智能体":244,"治理":2,"项目":1,"工具策略":1,"人在回路":10,"技能":14,"沙箱":44}</script>
+<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Stripe":31,"Kai":1,"智能体":248,"治理":2,"项目":1,"工具策略":1,"人在回路":10,"技能":14,"沙箱":45}</script>
 
 <script>
 (function(){

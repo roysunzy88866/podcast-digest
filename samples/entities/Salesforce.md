@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Salesforce</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>21</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -30,6 +30,7 @@ unlisted: true
 - **[[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]]**(22:39起):本集举例：销售团队报上 10 到 20 个「鼠标点不到 Salesforce 仪表盘那个位置」的具体案例，基础设施修复后反馈如潮水般涌来。
 - **[[2026-09-14-pmf-he-turned-off-a-product-with-20m-users-a|《从 2000 万用户到烧掉重来：Tome 创始人的绝地转型与百万播放打法》]]**(01:31起):本集把它说成:传统 CRM 的在位者,数据不足以让智能体出色工作、『从来不是为智能体设计的』,是 Lightfield 正面挑战的对象。
 - **[[2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026|《26 亿美元大学捐赠基金的 CIO，把风投和 LP 的账算得明明白白》]]**(22:10起):本集引用 Salesforce CEO 的判断『AI 最好也就 93% 正确』，用来说明账目必须 100% 对得上、93% 不行。
+- **[[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]]**(06:42起):反复出现的在位者对照：受训的销售副总裁只认它，Keith 认为它会发邮件所以「替你干活」不是打入 Brownfield 的楔子；Eleven Labs 也因等仪表盘四个月迁去了它。
 
 ## ① 提到它的金句
 
@@ -45,7 +46,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*20 集*
+*21 集*
 
 - [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司(提及)
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
@@ -67,14 +68,15 @@ unlisted: true
 - [[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]] — 作为被讨论公司(提及)
 - [[2026-09-14-pmf-he-turned-off-a-product-with-20m-users-a|《从 2000 万用户到烧掉重来：Tome 创始人的绝地转型与百万播放打法》]] — 作为被讨论公司
 - [[2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026|《26 亿美元大学捐赠基金的 CIO，把风投和 LP 的账算得明明白白》]] — 作为被讨论公司(提及)
+- [[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Harry Stebbings]] · [[Lenny]] · [[ChatGPT]] · [[NVIDIA]] · [[Cognition]] · [[Stripe]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Harry Stebbings]] · [[Lenny]] · [[ChatGPT]] · [[CRM]] · [[记录系统]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":244,"OpenAI":113,"Anthropic":123,"Cursor":59,"Harry Stebbings":16,"Lenny":67,"ChatGPT":66,"NVIDIA":35,"Cognition":17,"Stripe":31}</script>
+<script type="application/json" class="pd-epn">{"智能体":248,"OpenAI":115,"Anthropic":123,"Cursor":59,"Harry Stebbings":16,"Lenny":67,"ChatGPT":66,"CRM":5,"记录系统":5,"NVIDIA":35}</script>
 
 <script>
 (function(){

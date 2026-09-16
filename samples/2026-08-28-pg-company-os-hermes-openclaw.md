@@ -138,9 +138,9 @@ Mikhail 的判断是产品管理不会消失，反而会蓬勃——因为 AI �
 
 **顺着「智能体」挖下去**
 
+- [[2025-10-06-talks-agents-for-complex-software-engineering|Vibe debugging：代码生成之后，生产环境才是真正的硬仗]]<span class="pd-rz">同概念:智能体 (agent)、知识图谱 (knowledge graph)</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同公司:OpenClaw · 同概念:智能体 (agent)</span>
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]]<span class="pd-rz">同公司:OpenClaw · 同概念:智能体 (agent)</span>
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同公司:OpenClaw · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -168,9 +168,9 @@ Mustafa 给出了三条具体标准：
 
 **顺着「创业与行业」挖下去**
 
+- [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注]]<span class="pd-rz">同公司:DeepMind、OpenAI · 同概念:后训练 (post-training)、智能体 (agent)</span>
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Microsoft、OpenAI · 同概念:后训练 (post-training)、智能体 (agent)</span>
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:DeepMind、OpenAI · 同概念:智能体 (agent)、蒸馏 (distillation)</span>
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM 单日暴跌 25%:企业软件的好日子到头了吗？]]<span class="pd-rz">同公司:OpenAI · 同概念:开源模型 (open source models)、微调 (fine-tuning)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

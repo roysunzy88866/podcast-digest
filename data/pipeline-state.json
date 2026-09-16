@@ -78,7 +78,9 @@
     "wqFg7_FG3z8": "2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth",
     "Y3T-Th3IpfY": "2025-06-03-talks-pioneering-agentic-applications-with-dec",
     "J0NdPARq5pk": "2025-09-16-talks-evaluating-agents-with-braintrust",
-    "WyHE6s7JjUk": "2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma"
+    "WyHE6s7JjUk": "2025-09-23-talks-agentic-ai-in-cybersecurity-with-abnorma",
+    "7o0ZnFIfiE8": "2025-10-06-talks-agents-for-complex-software-engineering",
+    "Y-jsJUngyFU": "2025-12-02-talks-powering-the-ai-law-firm-with-harvey"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
@@ -88,17 +90,16 @@
   "transient": {
     "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds": 1,
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
-    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
-    "2025-10-06-talks-agents-for-complex-software-engineering": 1
+    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1
   },
   "cutoffs": {
     "lennys": "2026-09-08T12:31:49.000Z",
     "pg": "2026-09-14T23:05:28.000Z",
-    "a16z": "2026-09-15T10:00:00.000Z",
+    "a16z": "2026-09-16T10:00:00.000Z",
     "yc": "2026-09-13T15:05:37.000Z",
     "mad": "2026-09-10T11:30:00.000Z",
     "trainingdata": "2026-09-15T09:00:00.000Z",
-    "bigtech": "2026-09-11T20:37:00.000Z",
+    "bigtech": "2026-09-16T15:34:00.000Z",
     "aiandi": "2026-09-02T17:13:19.000Z",
     "nopriors": "2026-09-10T10:00:00.000Z",
     "thepeel": "2026-09-10T13:00:00.000Z",
@@ -124,7 +125,7 @@
     "pmf": "2026-09-14T09:00:00.000Z",
     "cheekypint": "2026-04-27T11:45:00.000Z",
     "productpodcast": "2026-09-09T20:00:00.000Z",
-    "ainativedev": "2026-09-08T12:00:00.000Z",
+    "ainativedev": "2026-09-16T12:00:00.000Z",
     "newcomer": "2026-09-10T17:17:43.000Z",
     "engenable": "2026-09-11T12:30:00.000Z",
     "sourcery": "2026-09-14T11:11:16.000Z",
@@ -1120,6 +1121,18 @@
       "reason": "题材不对味:拿不准:传统软件工程求职话题,与 AI 无明显关联,非 AI 编程实操或创始人/产业故事",
       "title": "How Top Engineers Still Get Hired When Most Get Ghosted",
       "pubDate": "2026-09-16T12:00:01.000Z"
+    },
+    {
+      "id": "2026-09-16-lennys-muse-review-the-personal-ai-agent",
+      "reason": "跨源重复:与库内《Muse review: The personal AI agent that gets consumer UX right》同题,不重做(先到者留;误杀可删账本条目重放)",
+      "title": "Muse review: The personal AI agent that gets consumer UX right",
+      "pubDate": "2026-09-16T12:02:14.000Z"
+    },
+    {
+      "id": "2026-09-16-bigtech-a-sober-conversation-about-ai-existentia",
+      "reason": "题材不对味:AI 存在性风险属于安全/思辨类,档案明确不收",
+      "title": "A Sober Conversation About AI Existential Risk — With Nate Soares",
+      "pubDate": "2026-09-16T15:34:00.000Z"
     }
   ]
 }

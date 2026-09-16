@@ -46,11 +46,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
+[[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":123,"Theo Jaffe":6,"Martin Casado":4,"Sofia Puccini":4,"OpenAI":113,"监管俘获":3,"Google":42,"precautionary principle":1,"Microsoft":25,"开源":22}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":123,"Theo Jaffe":6,"Martin Casado":4,"Sofia Puccini":4,"OpenAI":115,"监管俘获":3,"Google":42,"precautionary principle":1,"Microsoft":25,"开源":22}</script>
 
 <script>
 (function(){

@@ -29,17 +29,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Resolve AI]] · [[GitHub]] · [[Slack]] · [[智能体]] · [[后台智能体]] · [[生产上下文]] · [[可观测性]] · [[沙箱]] · [[部署监控]] · [[功能开关]]
+[[Resolve AI]] · [[Splunk]] · [[GitHub]] · [[Slack]] · [[智能体]] · [[后台智能体]] · [[生产上下文]] · [[可观测性]] · [[沙箱]] · [[部署监控]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
+[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Resolve AI":1,"GitHub":22,"Slack":25,"智能体":244,"后台智能体":4,"生产上下文":1,"可观测性":19,"沙箱":44,"部署监控":1,"功能开关":3}</script>
+<script type="application/json" class="pd-epn">{"Resolve AI":2,"Splunk":3,"GitHub":22,"Slack":25,"智能体":248,"后台智能体":4,"生产上下文":1,"可观测性":20,"沙箱":45,"部署监控":1}</script>
 
 <script>
 (function(){

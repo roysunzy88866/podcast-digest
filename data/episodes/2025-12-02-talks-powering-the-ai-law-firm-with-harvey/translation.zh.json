@@ -1,0 +1,3706 @@
+[
+ {
+  "seg": 0,
+  "start": 0.151,
+  "end": 7.857,
+  "speaker": "Unknown",
+  "en": "The really strong intuition that we had at the time was the product is going to be the model.",
+  "zh": "我们当时有一个非常强烈的直觉,就是产品将会是模型。"
+ },
+ {
+  "seg": 1,
+  "start": 8.057,
+  "end": 9.798,
+  "speaker": "Unknown",
+  "en": "Like you want to talk with this directly.",
+  "zh": "就是说你想直接与它对话。"
+ },
+ {
+  "seg": 2,
+  "start": 10.219,
+  "end": 16.484,
+  "speaker": "Unknown",
+  "en": "And I think a lot of advice we got at the time is like, okay, build this like vertical workflow and just go solve NDAs.",
+  "zh": "而且我记得我们当时得到的很多建议是,好,去构建这种垂直工作流,就去解决保密协议(NDA)的问题。"
+ },
+ {
+  "seg": 3,
+  "start": 17.364,
+  "end": 28.453,
+  "speaker": "Unknown",
+  "en": "But it felt like these models would be so general and you kind of saw that with GPT-4 that you actually just wanted to build kind of what ended up being like this copilot idea.",
+  "zh": "但感觉这些模型会非常通用,你从 GPT-4 身上也多少看到了这一点,所以你其实想构建的就是后来这种 copilot 的想法。"
+ },
+ {
+  "seg": 4,
+  "start": 30.398,
+  "end": 32.879,
+  "speaker": "Unknown",
+  "en": "Welcome, everyone, to Greylock Change Agents.",
+  "zh": "欢迎大家来到 Greylock Change Agents。"
+ },
+ {
+  "seg": 5,
+  "start": 33.119,
+  "end": 44.305,
+  "speaker": "Unknown",
+  "en": "As many of you know, Greylock Change Agents is a new series that we have put together where we're interviewing CEOs of agentic companies to talk about really what it means to be at the front lines of be building agentic software.",
+  "zh": "在座很多人都知道,Greylock Change Agents 是我们新推出的一个系列,我们会采访智能体公司的 CEO,聊聊身处构建智能体软件最前线到底意味着什么。"
+ },
+ {
+  "seg": 6,
+  "start": 44.546,
+  "end": 47.087,
+  "speaker": "Unknown",
+  "en": "Tonight, I'm joined by Gabe, the co-founder and president of Harvey.",
+  "zh": "今晚,和我一起来到现场的是 Harvey 的联合创始人兼总裁 Gabe。"
+ },
+ {
+  "seg": 7,
+  "start": 47.267,
+  "end": 48.989,
+  "speaker": "Unknown",
+  "en": "Gabe, thank you so much for being here tonight.",
+  "zh": "Gabe,非常感谢你今晚的到来。"
+ },
+ {
+  "seg": 8,
+  "start": 50.11,
+  "end": 63.045,
+  "speaker": "Unknown",
+  "en": "As we were just talking about right before this, we first messaged in 2020, and I was just looking back at those messages from many years ago, and you said to me that, you know, you were going to build an AI lawyer.",
+  "zh": "就像我们在这之前刚聊到的,我们最早是在 2020 年联系的,我刚刚回顾了多年前那些消息,你当时对我说,你要打造一个 AI 律师。"
+ },
+ {
+  "seg": 9,
+  "start": 63.686,
+  "end": 65.968,
+  "speaker": "Unknown",
+  "en": "And at that point in time, I was like, this guy's crazy.",
+  "zh": "那个时候我心想,这家伙疯了。"
+ },
+ {
+  "seg": 10,
+  "start": 67.274,
+  "end": 71.817,
+  "speaker": "Unknown",
+  "en": "And here we are today, just five years later, and by all means, you've done it.",
+  "zh": "而今天,仅仅五年之后,不管怎么说,你做到了。"
+ },
+ {
+  "seg": 11,
+  "start": 72.197,
+  "end": 78.662,
+  "speaker": "Unknown",
+  "en": "I want to start us off with a bit of an introduction on yourself and an introduction on the company.",
+  "zh": "我想先请你做个自我介绍,再介绍一下这家公司。"
+ },
+ {
+  "seg": 12,
+  "start": 79.202,
+  "end": 83.685,
+  "speaker": "Unknown",
+  "en": "So like I just said, you started the company in August of 2022.",
+  "zh": "就像我刚才说的,你在 2022 年 8 月创办了这家公司。"
+ },
+ {
+  "seg": 13,
+  "start": 84.205,
+  "end": 86.967,
+  "speaker": "Unknown",
+  "en": "This was before ChatGPT was released.",
+  "zh": "那是在 ChatGPT 发布之前。"
+ },
+ {
+  "seg": 14,
+  "start": 87.247,
+  "end": 90.209,
+  "speaker": "Unknown",
+  "en": "It was eight or nine months before GPT-4 was released.",
+  "zh": "距离 GPT-4 发布还有八九个月。"
+ },
+ {
+  "seg": 15,
+  "start": 92.09,
+  "end": 97.255,
+  "speaker": "Unknown",
+  "en": "And by all intents and purposes, you were really ahead of the AI application wave.",
+  "zh": "不管从哪方面看,你都确实走在了 AI 应用浪潮的前面。"
+ },
+ {
+  "seg": 16,
+  "start": 97.855,
+  "end": 106.502,
+  "speaker": "Unknown",
+  "en": "So walk us through a little bit of what intuition you had at that time that gave you the confidence to start Harpy and have this vision.",
+  "zh": "那么请给我们讲讲,你当时有什么样的直觉,让你有信心创办 Harpy 并怀有这个愿景。"
+ },
+ {
+  "seg": 17,
+  "start": 106.803,
+  "end": 113.989,
+  "speaker": "Unknown",
+  "en": "I started doing AI research probably around 2013, 2014, and so had been doing research for a while, and I think",
+  "zh": "我大概从 2013、2014 年左右开始做 AI 研究,所以做研究已经有一段时间了,我觉得"
+ },
+ {
+  "seg": 18,
+  "start": 119.213,
+  "end": 122.215,
+  "speaker": "Unknown",
+  "en": "I started when deep learning was just starting to take off.",
+  "zh": "我开始做研究的时候,深度学习才刚刚起步。"
+ },
+ {
+  "seg": 19,
+  "start": 123.116,
+  "end": 135.106,
+  "speaker": "Unknown",
+  "en": "And what you saw is for all these different domains, when you kind of scope the problem right, whether it's like supervised learning or an RL problem, eventually with deep learning, you kind of figured out a way to solve it.",
+  "zh": "你所看到的是,对所有这些不同的领域,只要你把问题界定得合适,无论是监督学习还是 RL 问题,最终借助深度学习,你总能找到解决它的办法。"
+ },
+ {
+  "seg": 20,
+  "start": 135.946,
+  "end": 142.591,
+  "speaker": "Unknown",
+  "en": "But I think the big thing that was missing when I was doing research was how do you unify all of these different systems?",
+  "zh": "但我觉得我做研究时缺失的一个关键问题是,你如何统一所有这些不同的系统?"
+ },
+ {
+  "seg": 21,
+  "start": 142.672,
+  "end": 147.715,
+  "speaker": "Unknown",
+  "en": "Because people were building kind of, you'd build self-driving cars, you had to build a system that could just do that.",
+  "zh": "因为大家在当时构建的,比如说你要造自动驾驶汽车,你就得构建一个只能干那件事的系统。"
+ },
+ {
+  "seg": 22,
+  "start": 148.576,
+  "end": 152.657,
+  "speaker": "Unknown",
+  "en": "And so I think there was this big question of what is the unifying cognitive architecture?",
+  "zh": "所以当时有一个很大的问题:统一认知架构到底是什么?"
+ },
+ {
+  "seg": 23,
+  "start": 153.637,
+  "end": 165.221,
+  "speaker": "Unknown",
+  "en": "And I think when people started seeing GPT-2, GPT-3, if you had been working in this space, you kind of saw, oh, natural language is this incredible way to unify it.",
+  "zh": "而我觉得,当人们开始看到 GPT-2、GPT-3 时,如果你一直在这个领域工作,你多少会意识到,哦,自然语言是一种不可思议的统一方式。"
+ },
+ {
+  "seg": 24,
+  "start": 165.361,
+  "end": 166.861,
+  "speaker": "Unknown",
+  "en": "It can call APIs.",
+  "zh": "它可以调用 API。"
+ },
+ {
+  "seg": 25,
+  "start": 166.921,
+  "end": 167.681,
+  "speaker": "Unknown",
+  "en": "It can talk to people.",
+  "zh": "它可以和人交流。"
+ },
+ {
+  "seg": 26,
+  "start": 167.701,
+  "end": 169.482,
+  "speaker": "Unknown",
+  "en": "It could kind of solve all of these problems.",
+  "zh": "它可以解决所有这些问题。"
+ },
+ {
+  "seg": 27,
+  "start": 170.082,
+  "end": 172.203,
+  "speaker": "Unknown",
+  "en": "And so I think when we saw",
+  "zh": "所以我觉得,当我们看到"
+ },
+ {
+  "seg": 28,
+  "start": 173.103,
+  "end": 184.147,
+  "speaker": "Unknown",
+  "en": "GPT-3 at the time I was working at Meta on their large language model team and so had always been thinking about what is going to be the technology that does that and what are the companies you could build with it.",
+  "zh": "GPT-3 时,我当时在 Meta 的大语言模型团队工作,所以一直都在思考,将会成为那种技术的会是什么,以及你可以用它构建什么样的公司。"
+ },
+ {
+  "seg": 29,
+  "start": 185.188,
+  "end": 189.99,
+  "speaker": "Unknown",
+  "en": "And when I saw that, the models weren't quite good enough to do legal work.",
+  "zh": "而当我看到它时,模型还不够好,做不了法律工作。"
+ },
+ {
+  "seg": 30,
+  "start": 191.411,
+  "end": 196.217,
+  "speaker": "Unknown",
+  "en": "But my roommate at the time was a lawyer, now co-founder and CEO of Harvey.",
+  "zh": "但我当时的室友是一名律师,也就是现在 Harvey 的联合创始人兼 CEO。"
+ },
+ {
+  "seg": 31,
+  "start": 196.978,
+  "end": 198.7,
+  "speaker": "Unknown",
+  "en": "And we started playing around with this.",
+  "zh": "我们开始拿它玩起来了。"
+ },
+ {
+  "seg": 32,
+  "start": 198.841,
+  "end": 203.466,
+  "speaker": "Unknown",
+  "en": "And I think probably when I messaged you, we were looking at consumer applications.",
+  "zh": "我记得大概在我联系你的时候,我们当时在看消费级应用。"
+ },
+ {
+  "seg": 33,
+  "start": 204.087,
+  "end": 205.089,
+  "speaker": "Unknown",
+  "en": "We pitched this to...",
+  "zh": "我们把这个想法推介给了……"
+ },
+ {
+  "seg": 34,
+  "start": 206.49,
+  "end": 223.15,
+  "speaker": "Unknown",
+  "en": "Sam at OpenAI ended up raising from them, and they showed us a preview of GPT-4, and when we saw that, that was kind of the first model where it felt like, oh, you could build these really meaningful products that could do kind of high-end legal work, and that was kind of like the genesis of Harvey.",
+  "zh": "OpenAI 的 Sam,最终从他们那里融了资,他们给我们看了 GPT-4 的预览,当我们看到它时,那是第一个让人感觉,哦,你可以构建这些真正有意义、能做高端法律工作的产品的模型,而那就是 Harvey 的起源。"
+ },
+ {
+  "seg": 35,
+  "start": 223.496,
+  "end": 223.716,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 36,
+  "start": 224.077,
+  "end": 235.826,
+  "speaker": "Unknown",
+  "en": "And at that point in time, I mean, you could have gone a lot of different directions and legal is probably one of the most highly regulated and also, you know, very impactful areas that you've chosen.",
+  "zh": "而在那个时候,我是说,你本来可以走很多不同的方向,而法律可能是你选择的监管最严格、同时也是影响非常大的领域之一。"
+ },
+ {
+  "seg": 37,
+  "start": 235.926,
+  "end": 243.953,
+  "speaker": "Unknown",
+  "en": "So were there any other directions that you considered that could have also had applications or was it just obvious to you that legal is what you wanted to do?",
+  "zh": "那么你有没有考虑过其他同样可以有应用场景的方向,还是说你很自然地就明确知道法律就是你想要做的事?"
+ },
+ {
+  "seg": 38,
+  "start": 244.505,
+  "end": 266.619,
+  "speaker": "Unknown",
+  "en": "I think there were two paths I was looking at, so kind of how Harvey came about is I was chatting with some of my friends from Google Brain, and we were talking about doing kind of horizontal assistant type products, and they actually ended up joining OpenAI, and they're the team that built ChatGPT, and so for me, it was kind of between doing that.",
+  "zh": "我当时在看两条路,所以 Harvey 的大致由来是,我在和一些 Google Brain 的老朋友们聊天,我们在讨论做那种横向的助手类产品,而他们最终加入了 OpenAI,他们就是构建 ChatGPT 的团队,所以对我来说,就是在做那个和"
+ },
+ {
+  "seg": 39,
+  "start": 268.36,
+  "end": 272.343,
+  "speaker": "Unknown",
+  "en": "We're starting Harvey, and I think kind of Winston and I were best friends.",
+  "zh": "创办 Harvey 之间做选择,我觉得 Winston 和我是最好的朋友。"
+ },
+ {
+  "seg": 40,
+  "start": 272.423,
+  "end": 285.41,
+  "speaker": "Unknown",
+  "en": "The more we dug into legal, it was kind of one of those ideas where you just kept peeling it back, and it was like this felt like all stars aligned, and so I think I always wanted to start a company, and this felt like the perfect one.",
+  "zh": "我们越是深入挖掘法律这个领域,它就越像是那种你可以不断层层剥开的想法,感觉就像万事俱备、群星汇聚,所以我一直想创办一家公司,而这看起来就是最完美的一个。"
+ },
+ {
+  "seg": 41,
+  "start": 285.93,
+  "end": 290.813,
+  "speaker": "Unknown",
+  "en": "I think kind of the more we did it, the more it was like oh timing, market, kind of everything kind of aligned.",
+  "zh": "我觉得我们做得越多,就越觉得,哦,时机、市场,几乎所有东西都契合了。"
+ },
+ {
+  "seg": 42,
+  "start": 291.171,
+  "end": 295.035,
+  "speaker": "Unknown",
+  "en": "And what was that first product, that first version of Harvey?",
+  "zh": "那么第一个产品是什么,Harvey 的第一个版本?"
+ },
+ {
+  "seg": 43,
+  "start": 295.055,
+  "end": 295.936,
+  "speaker": "Unknown",
+  "en": "Like, what could it do?",
+  "zh": "比如,它能做什么?"
+ },
+ {
+  "seg": 44,
+  "start": 296.316,
+  "end": 307.006,
+  "speaker": "Unknown",
+  "en": "When we, kind of like you said, when we first got early access to GPT-4, it wasn't public, ChatGPT didn't exist, and the first thing that",
+  "zh": "就像你说的,当我们最早获得 GPT-4 的早期访问权限时,它还没有公开,ChatGPT 也还不存在,而"
+ },
+ {
+  "seg": 45,
+  "start": 307.887,
+  "end": 330.51,
+  "speaker": "Unknown",
+  "en": "My co-founder Winston did is when we got GPT-4, he had been a litigation associate at O'Melveny, which is kind of a top litigation firm, and he just went and tried a lot of the tasks he'd done as an associate using GPT-4, and he kind of came up with a lot of these chain of thought and all these prompting techniques, and he just was able to get the models to do this work.",
+  "zh": "我的联合创始人 Winston 做的第一件事是,我们拿到 GPT-4 后,他曾在 O'Melveny 担任诉讼律师,那是一家顶级诉讼律所,他直接拿 GPT-4 去尝试了他做律师时做过的很多任务,他摸索出了很多这类思维链以及各种提示词技巧,他就这样能够让模型完成这些工作。"
+ },
+ {
+  "seg": 46,
+  "start": 331.271,
+  "end": 339.858,
+  "speaker": "Unknown",
+  "en": "I think the really strong intuition that we had at the time was the product is going to be the model.",
+  "zh": "我觉得我们当时有一个非常强烈的直觉,就是产品将会是模型。"
+ },
+ {
+  "seg": 47,
+  "start": 339.898,
+  "end": 341.459,
+  "speaker": "Unknown",
+  "en": "You want to talk with this directly.",
+  "zh": "你想直接与它对话。"
+ },
+ {
+  "seg": 48,
+  "start": 341.98,
+  "end": 348.124,
+  "speaker": "Unknown",
+  "en": "I think a lot of advice we got at the time is like, okay, build this vertical workflow and just go solve NDAs.",
+  "zh": "我记得我们当时得到的很多建议是,好,去构建这种垂直工作流,就去解决保密协议(NDA)的问题。"
+ },
+ {
+  "seg": 49,
+  "start": 349.025,
+  "end": 360.128,
+  "speaker": "Unknown",
+  "en": "But it felt like these models would be so general and you kind of saw that with GPT-4 that you actually just wanted to build kind of what ended up being like this copilot idea.",
+  "zh": "但感觉这些模型会非常通用,你从 GPT-4 身上也多少看到了这一点,所以你其实想构建的就是后来这种 copilot 的想法。"
+ },
+ {
+  "seg": 50,
+  "start": 360.548,
+  "end": 366.35,
+  "speaker": "Unknown",
+  "en": "And I think when you used it, if you had been playing around with this technology, you kind of felt that that was now possible.",
+  "zh": "我觉得当你使用它的时候，如果你曾经把玩过这项技术，你会有一种感觉，觉得那现在已经是可以做到的了。"
+ },
+ {
+  "seg": 51,
+  "start": 367.03,
+  "end": 373.413,
+  "speaker": "Unknown",
+  "en": "And did you feel like you knew that the models were going to get even better, and so you were kind of making an early bet?",
+  "zh": "那你当时是否觉得自己知道模型还会变得更好，所以你其实是在下一注早期的赌注？"
+ },
+ {
+  "seg": 52,
+  "start": 373.473,
+  "end": 379.156,
+  "speaker": "Unknown",
+  "en": "Or were you like, you know, there's enough in that first version that you were playing around with that you can build a large company?",
+  "zh": "还是说你觉得，你知道的，那个你正在把玩的第一个版本里已经有足够的东西，足以让你建立一家大公司？"
+ },
+ {
+  "seg": 53,
+  "start": 379.336,
+  "end": 386.84,
+  "speaker": "Unknown",
+  "en": "I think already GPT-4 was so good that it was clear that even if the models didn't continue improving, there was so much you could do.",
+  "zh": "我认为当时 GPT-4 已经足够好了，即使模型不再继续进步，也有很多事情可以做。"
+ },
+ {
+  "seg": 54,
+  "start": 387.44,
+  "end": 391.903,
+  "speaker": "Unknown",
+  "en": "But I think what I had seen in deep learning was once you kind of figure out",
+  "zh": "但我认为我在深度学习中看到的是，一旦你差不多搞清楚"
+ },
+ {
+  "seg": 55,
+  "start": 392.903,
+  "end": 396.624,
+  "speaker": "Unknown",
+  "en": "How to make initial progress on one of these problems.",
+  "zh": "如何在其中一个问题上取得初步进展，"
+ },
+ {
+  "seg": 56,
+  "start": 397.324,
+  "end": 404.385,
+  "speaker": "Unknown",
+  "en": "You can almost always throw more data, compute, algorithmic improvements, and these things will continue to improve.",
+  "zh": "你几乎总是可以投入更多的数据、算力、算法改进，这些东西就会继续改进。"
+ },
+ {
+  "seg": 57,
+  "start": 404.845,
+  "end": 410.947,
+  "speaker": "Unknown",
+  "en": "I think a lot of the interesting problem with Harvey is thinking about how you coordinate all of those things.",
+  "zh": "我认为 Harvey 的很多有趣问题在于思考如何协调所有这些事情。"
+ },
+ {
+  "seg": 58,
+  "start": 411.507,
+  "end": 417.888,
+  "speaker": "Unknown",
+  "en": "If you're not a foundation model company, where are you focusing and how are you building the models and the product?",
+  "zh": "如果你不是一家基础模型公司，那你应该专注于什么，你又该如何构建模型和产品？"
+ },
+ {
+  "seg": 59,
+  "start": 418.155,
+  "end": 420.237,
+  "speaker": "Unknown",
+  "en": "Let's fast forward and talk about Harvey today.",
+  "zh": "让我们快进，谈谈今天的 Harvey。"
+ },
+ {
+  "seg": 60,
+  "start": 420.757,
+  "end": 424.24,
+  "speaker": "Unknown",
+  "en": "Actually, just to set the context, talk to us a little bit about the product.",
+  "zh": "实际上，先交代一下背景，跟我们讲讲这个产品吧。"
+ },
+ {
+  "seg": 61,
+  "start": 424.28,
+  "end": 425.982,
+  "speaker": "Unknown",
+  "en": "What are the core pillars of the product?",
+  "zh": "产品的核心支柱是什么？"
+ },
+ {
+  "seg": 62,
+  "start": 426.202,
+  "end": 428.944,
+  "speaker": "Unknown",
+  "en": "Harvey today, I would think of what we're building is",
+  "zh": "今天的 Harvey，我认为我们正在构建的是"
+ },
+ {
+  "seg": 63,
+  "start": 430.987,
+  "end": 442.276,
+  "speaker": "Unknown",
+  "en": "When you are a lawyer at a large law firm, you are working on client matters, which is just a client project, and you have a set of tools and contexts that you need to use.",
+  "zh": "当你是大型律所的律师时，你是在处理客户事务（client matters），也就是一个客户项目，而你有一套需要使用的工具和上下文。"
+ },
+ {
+  "seg": 64,
+  "start": 442.376,
+  "end": 449.862,
+  "speaker": "Unknown",
+  "en": "So if you're working on a litigation, you have access to case law, you have the emails of the company you're defending.",
+  "zh": "比如如果你在做一桩诉讼，你可以访问判例法，你有所辩护公司的电子邮件。"
+ },
+ {
+  "seg": 65,
+  "start": 450.362,
+  "end": 461.013,
+  "speaker": "Unknown",
+  "en": "You have the complaint that was filed, the motions you're drafting, and then the job is how do you use all that context to come up with the next argument, the next motion, do legal research for your partner.",
+  "zh": "你有已经提交的起诉状、你正在起草的动议，然后工作就是如何利用所有这些上下文来想出下一个论点、下一份动议，为你的合伙人做法律研究。"
+ },
+ {
+  "seg": 66,
+  "start": 461.553,
+  "end": 465.477,
+  "speaker": "Unknown",
+  "en": "And similarly, on a transaction, if you're buying company, you have like a data room and",
+  "zh": "类似地，在一笔交易中，如果你在收购一家公司，你会有一个数据室，"
+ },
+ {
+  "seg": 67,
+  "start": 466.538,
+  "end": 469.14,
+  "speaker": "Unknown",
+  "en": "Similar transactions and things like that.",
+  "zh": "还有类似的交易和类似的东西。"
+ },
+ {
+  "seg": 68,
+  "start": 469.2,
+  "end": 481.067,
+  "speaker": "Unknown",
+  "en": "What we want to build is this workspace where lawyers can collaborate with their team and with AI or agents to complete these client matters.",
+  "zh": "我们想构建的是这样一个工作区，律师可以在其中与他们的团队以及 AI 或智能体协作来完成这些客户事务。"
+ },
+ {
+  "seg": 69,
+  "start": 481.107,
+  "end": 488.192,
+  "speaker": "Unknown",
+  "en": "What that looks like today is you have kind of this assistant type product because a lot of the workflows of these lawyers are",
+  "zh": "它今天的样子是，你有这样一个助手型的产品，因为这些律师的很多工作流程是"
+ },
+ {
+  "seg": 70,
+  "start": 489.252,
+  "end": 496.775,
+  "speaker": "Unknown",
+  "en": "You can think of how partners work is they send an email to an associate that says, hey, do this task, and the associate will take that and go use a bunch of tools.",
+  "zh": "你可以这样想合伙人是怎么工作的：他们给一名 associate 发一封电子邮件说，嘿，做这个任务，然后那个 associate 会接下这个任务，去使用一堆工具。"
+ },
+ {
+  "seg": 71,
+  "start": 496.835,
+  "end": 498.916,
+  "speaker": "Unknown",
+  "en": "So that interface was quite natural to them.",
+  "zh": "所以这种界面对他们来说相当自然。"
+ },
+ {
+  "seg": 72,
+  "start": 499.496,
+  "end": 506.298,
+  "speaker": "Unknown",
+  "en": "And then you also have kind of like a Vault-type product, which you can think of like a data room, document management, things like that.",
+  "zh": "然后你还有一个类似 Vault 类型的产品，你可以把它想成数据室、文档管理之类的东西。"
+ },
+ {
+  "seg": 73,
+  "start": 506.458,
+  "end": 511.22,
+  "speaker": "Unknown",
+  "en": "And really, how do you pull all this together in one place so the associates and agents have context?",
+  "zh": "真正的问题是如何把所有这些整合到一个地方，让 associate 和智能体拥有上下文。"
+ },
+ {
+  "seg": 74,
+  "start": 511.431,
+  "end": 516.312,
+  "speaker": "Unknown",
+  "en": "Back into the theme of agents, which is the theme of the series.",
+  "zh": "回到智能体这个主题，这也是本系列的主题。"
+ },
+ {
+  "seg": 75,
+  "start": 517.012,
+  "end": 521.313,
+  "speaker": "Unknown",
+  "en": "It seems like there is a lot of emphasis on running what you guys are calling workflows.",
+  "zh": "看起来你们非常强调运行你们所称的 workflows（工作流）。"
+ },
+ {
+  "seg": 76,
+  "start": 522.513,
+  "end": 524.974,
+  "speaker": "Unknown",
+  "en": "And actually, I'm curious to get a better understanding.",
+  "zh": "而实际上，我很想更好地理解一下。"
+ },
+ {
+  "seg": 77,
+  "start": 525.014,
+  "end": 530.355,
+  "speaker": "Unknown",
+  "en": "So it seems like these can be two-step processes, like translate the document to a different language.",
+  "zh": "看起来这些可以是两步的流程，比如把文档翻译成另一种语言。"
+ },
+ {
+  "seg": 78,
+  "start": 531.135,
+  "end": 533.076,
+  "speaker": "Unknown",
+  "en": "But it also seems like you guys do pretty custom.",
+  "zh": "但看起来你们也做相当定制化的东西。"
+ },
+ {
+  "seg": 79,
+  "start": 533.196,
+  "end": 538.437,
+  "speaker": "Unknown",
+  "en": "You can allow a customer to do custom workflows that have pretty multi-step capabilities.",
+  "zh": "你可以允许客户做定制的 workflow，具备相当多步骤的能力。"
+ },
+ {
+  "seg": 80,
+  "start": 538.957,
+  "end": 545.542,
+  "speaker": "Unknown",
+  "en": "So walk us a little bit through what does an agentic workflow look like for legal and for Harvey?",
+  "zh": "那么带我们走一遍，对于法律行业、对于 Harvey 来说，一个 agentic workflow 是什么样子的？"
+ },
+ {
+  "seg": 81,
+  "start": 545.896,
+  "end": 553.039,
+  "speaker": "Unknown",
+  "en": "Yeah, so I would think of there's kind of two ends of this spectrum that we think about when we think of building this in the product.",
+  "zh": "是的，我认为在这条光谱上大致有两端，是我们在思考如何在产品中构建它时所考虑的。"
+ },
+ {
+  "seg": 82,
+  "start": 553.78,
+  "end": 557.742,
+  "speaker": "Unknown",
+  "en": "One is how do you do the very open-ended agentic tasks?",
+  "zh": "一端是如何做非常开放式（open-ended）的 agentic 任务？"
+ },
+ {
+  "seg": 83,
+  "start": 558.282,
+  "end": 571.388,
+  "speaker": "Unknown",
+  "en": "So if you give Harvey any question you would give an associate, can we have some system that kind of looks like deep research that can take that task, create some plan, figure out which tools to use and solve this?",
+  "zh": "也就是说，如果你给 Harvey 一个你会交给 associate 的任何问题，我们能否有一个类似 deep research 的系统，能够接下那个任务，制定某个计划，搞清楚该使用哪些工具并解决这个问题？"
+ },
+ {
+  "seg": 84,
+  "start": 572.029,
+  "end": 573.569,
+  "speaker": "Unknown",
+  "en": "And then the other end of the extreme is",
+  "zh": "然后光谱的另一端是"
+ },
+ {
+  "seg": 85,
+  "start": 574.93,
+  "end": 577.032,
+  "speaker": "Unknown",
+  "en": "A lot of these legal tasks are well-defined.",
+  "zh": "很多法律任务是定义清晰的。"
+ },
+ {
+  "seg": 86,
+  "start": 577.192,
+  "end": 582.615,
+  "speaker": "Unknown",
+  "en": "So every time that I am going to do a merger, I'm going to generate a merger agreement.",
+  "zh": "也就是说，每次我要做一桩并购（merger），我都会生成一份并购协议。"
+ },
+ {
+  "seg": 87,
+  "start": 582.956,
+  "end": 592.883,
+  "speaker": "Unknown",
+  "en": "And so you can start thinking about what are these more templated workflows where parts of them can be agentic, where a step could be, I need to look in this data room and find this.",
+  "zh": "于是你可以开始思考这些更模板化的 workflow，其中一些部分可以是 agentic 的，其中一个步骤可以是，我需要在这个数据室里查找并找到这个。"
+ },
+ {
+  "seg": 88,
+  "start": 593.363,
+  "end": 597.706,
+  "speaker": "Unknown",
+  "en": "But it's a bit more on rails because I know a lot of the work product that's going to be produced.",
+  "zh": "但它更在轨道上（on rails）一些，因为我知道将要产出的很多工作成果是什么。"
+ },
+ {
+  "seg": 89,
+  "start": 598.286,
+  "end": 603.49,
+  "speaker": "Unknown",
+  "en": "And I think a lot of the challenge is figuring out where on the spectrum should different product surfaces lie.",
+  "zh": "我认为很多挑战在于搞清楚不同的产品界面应该落在光谱的哪个位置。"
+ },
+ {
+  "seg": 90,
+  "start": 603.75,
+  "end": 612.687,
+  "speaker": "Unknown",
+  "en": "Yeah, and actually, how do you think about, for these different types of workflows, what juncture should a human intervene or have a human in the loop?",
+  "zh": "是的，实际上你们是如何思考的，对于这些不同类型的 workflow，应该在哪个节点让人类介入，或者让人类参与其中（human in the loop）？"
+ },
+ {
+  "seg": 91,
+  "start": 613.356,
+  "end": 623.9,
+  "speaker": "Unknown",
+  "en": "Yeah, I think this is the really challenging part where I think it's similar to programming where it's like impossible to define because the workflow is so complex.",
+  "zh": "是的，我觉得这是非常有挑战性的部分，我认为它类似于编程，就是很难去定义，因为 workflow 太复杂了。"
+ },
+ {
+  "seg": 92,
+  "start": 624.56,
+  "end": 640.046,
+  "speaker": "Unknown",
+  "en": "And so if you think of a lot of what these law firms are so good at is you have these partners that can take a super complex problem like a litigation and decompose that into a bunch of sub problems, assign them to the right seniority of associate.",
+  "zh": "如果你想一想这些律所之所以如此擅长的事情之一，就是你有这些合伙人，他们能接过一个超级复杂的问题比如一桩诉讼，把它分解成一堆子问题，分配给合适资历级别的 associate。"
+ },
+ {
+  "seg": 93,
+  "start": 640.647,
+  "end": 641.067,
+  "speaker": "Unknown",
+  "en": "And so",
+  "zh": "所以"
+ },
+ {
+  "seg": 94,
+  "start": 641.847,
+  "end": 660.534,
+  "speaker": "Unknown",
+  "en": "Part of what we're seeing law firms learn is how do they take these workflows and figure out, okay, here is when I delegate to Harvey, here is the workflow, here is how I start building infrastructure where like a really common one where we see is I have a data room and I always want to extract this data.",
+  "zh": "我们看到律所正在学习的其中一部分是，他们如何把这些 workflow 拿过来并搞清楚，好的，这是我委派给 Harvey 的时机，这是 workflow，这是我开始构建基础设施的方式，比如一个非常常见的例子是我们看到的：我有一个数据室，我总是想提取这些数据。"
+ },
+ {
+  "seg": 95,
+  "start": 661.074,
+  "end": 665.836,
+  "speaker": "Unknown",
+  "en": "And then I need some lawyers to review all of those outputs to make sure the extractions were correct.",
+  "zh": "然后我需要一些律师来审查所有这些输出，以确保提取是正确的。"
+ },
+ {
+  "seg": 96,
+  "start": 665.916,
+  "end": 667.737,
+  "speaker": "Unknown",
+  "en": "And so we're starting to see this like,",
+  "zh": "于是我们开始看到这种"
+ },
+ {
+  "seg": 97,
+  "start": 668.677,
+  "end": 677.308,
+  "speaker": "Unknown",
+  "en": "co-evolution or these law firms reshaping their workflows around what humans are good at and what models are good at, which I think is the interesting thing.",
+  "zh": "共同演化（co-evolution），或者说这些律所围绕人类擅长什么和模型擅长什么来重塑他们的 workflow，我认为这是有意思的地方。"
+ },
+ {
+  "seg": 98,
+  "start": 677.468,
+  "end": 683.797,
+  "speaker": "Unknown",
+  "en": "Is it intuitive for these lawyers to figure out how to delegate to agents versus to their existing employees?",
+  "zh": "对于这些律师来说，搞清楚如何委派给智能体，而不是委派给他们现有的员工，这是否直观？"
+ },
+ {
+  "seg": 99,
+  "start": 684.317,
+  "end": 693.38,
+  "speaker": "Unknown",
+  "en": "I think it's probably similar to programming where for some lawyers it's super intuitive and even like we have some partners that use the product six hours a day.",
+  "zh": "我认为这可能类似于编程，对一些律师来说它超级直观，甚至我们有合伙人每天使用这个产品六个小时。"
+ },
+ {
+  "seg": 100,
+  "start": 693.4,
+  "end": 704.023,
+  "speaker": "Unknown",
+  "en": "The part that is intuitive is the way that you work with these models is quite similar to how you work with other lawyers where you need to give them a bunch of context and like frame this task correctly.",
+  "zh": "直观的部分是，你与这些模型合作的方式其实和你与其他律师合作的方式很相似，你需要给他们大量的背景信息，并且正确地设定这个任务。"
+ },
+ {
+  "seg": 101,
+  "start": 704.343,
+  "end": 708.785,
+  "speaker": "Unknown",
+  "en": "And then I think it is unintuitive in certain cases where you need to build the mental model of like",
+  "zh": "然后我认为在某些情况下它是不直观的，你需要建立这样一种心智模型："
+ },
+ {
+  "seg": 102,
+  "start": 709.525,
+  "end": 711.167,
+  "speaker": "Unknown",
+  "en": "These models do think differently.",
+  "zh": "这些模型的思考方式确实不同。"
+ },
+ {
+  "seg": 103,
+  "start": 711.227,
+  "end": 712.769,
+  "speaker": "Unknown",
+  "en": "The way they make mistakes is different.",
+  "zh": "它们犯错的方式也不同。"
+ },
+ {
+  "seg": 104,
+  "start": 712.809,
+  "end": 726.863,
+  "speaker": "Unknown",
+  "en": "And so a lot of what we're seeing is as lawyers and law firms use this more and more, they're starting to develop that mental model of like, here's how you work with humans, here's how you work with this AI, and here's how to bring them together.",
+  "zh": "所以我们看到很多的情况是，随着律师和律所越来越多地使用这个，他们开始发展出那种心智模型，就是，这是你与人类合作的方式，这是你与这个 AI 合作的方式，以及如何把它们结合起来。"
+ },
+ {
+  "seg": 105,
+  "start": 727.167,
+  "end": 744.422,
+  "speaker": "Unknown",
+  "en": "Yeah, and actually one thing I think is fascinating about Harvey is because you started so early in the wave, to some degree, you had to have your end users learn about AI in conjunction of them doing so with the ChatGPTs or the way that all of us as consumers did.",
+  "zh": "是的，实际上我认为关于 Harvey 有一件很吸引人的事，因为你在这波浪潮中起步很早，在某种程度上，你必须让你的最终用户在学习 AI 的同时，也像我们所有消费者一样通过 ChatGPT 之类的工具去学习。"
+ },
+ {
+  "seg": 106,
+  "start": 745.042,
+  "end": 753.35,
+  "speaker": "Unknown",
+  "en": "And so that must have been a massive hurdle or challenge for you versus if I were to start Harvey today, I'm benefiting from the fact that everyone knows how to use",
+  "zh": "所以与如果是我今天才创办 Harvey 相比，这对你们来说一定是一个巨大的障碍或挑战，因为今天的我受益于每个人都已经知道如何使用"
+ },
+ {
+  "seg": 107,
+  "start": 753.81,
+  "end": 755.531,
+  "speaker": "Unknown",
+  "en": "had some intuition around AI.",
+  "zh": "对 AI 有了一些直觉。"
+ },
+ {
+  "seg": 108,
+  "start": 755.892,
+  "end": 763.958,
+  "speaker": "Unknown",
+  "en": "So how did you guys attack that challenge of getting people to really understand not just how to use legal AI, but AI in general?",
+  "zh": "那么你们是如何攻克这个挑战的，让人们真正理解不仅仅是如何使用法律 AI，而是普遍意义上的 AI？"
+ },
+ {
+  "seg": 109,
+  "start": 764.459,
+  "end": 770.023,
+  "speaker": "Unknown",
+  "en": "Yeah, I think this was something that was definitely really challenging at the beginning.",
+  "zh": "是的，我认为这在开始的时候确实是极具挑战性的。"
+ },
+ {
+  "seg": 110,
+  "start": 770.144,
+  "end": 776.169,
+  "speaker": "Unknown",
+  "en": "I remember when we would demo GPT-4 to people, most people just wouldn't get it.",
+  "zh": "我记得当我们向人们演示 GPT-4 时，大多数人都无法理解。"
+ },
+ {
+  "seg": 111,
+  "start": 776.249,
+  "end": 777.129,
+  "speaker": "Unknown",
+  "en": "They would be like,",
+  "zh": "他们会说，"
+ },
+ {
+  "seg": 112,
+  "start": 778.142,
+  "end": 781.083,
+  "speaker": "Unknown",
+  "en": "Oh, is this just an NDA template?",
+  "zh": "哦，这只是一个 NDA 模板吗？"
+ },
+ {
+  "seg": 113,
+  "start": 781.183,
+  "end": 784.825,
+  "speaker": "Unknown",
+  "en": "And we'd be like, no, it can also draft a lease agreement.",
+  "zh": "然后我们会说，不，它也可以起草一份租赁协议。"
+ },
+ {
+  "seg": 114,
+  "start": 784.885,
+  "end": 787.726,
+  "speaker": "Unknown",
+  "en": "And they're like, oh, so it's just an NDA and a lease agreement?",
+  "zh": "然后他们说，哦，所以它只是一个 NDA 和一份租赁协议？"
+ },
+ {
+  "seg": 115,
+  "start": 788.366,
+  "end": 795.53,
+  "speaker": "Unknown",
+  "en": "And the thing we found, like Winston was very good at doing these demos where the thing that resonated so much would be",
+  "zh": "而我们发现，就像 Winston 非常擅长做这些演示，最能引起共鸣的东西会是"
+ },
+ {
+  "seg": 116,
+  "start": 796.61,
+  "end": 807.737,
+  "speaker": "Unknown",
+  "en": "If you're pitching this or showing this to a litigation partner or a litigation associate, find the last case they did and pull the argument that they made and say, hey, draft me a counterargument.",
+  "zh": "如果你正在向一位诉讼合伙人或诉讼律师推销或展示这个，找到他们做的最后一个案子，提取他们提出的论点，然后说，嘿，帮我起草一个反驳论点。"
+ },
+ {
+  "seg": 117,
+  "start": 808.418,
+  "end": 816.183,
+  "speaker": "Unknown",
+  "en": "And there would be cases where they would say, oh, I hadn't even thought of that argument, or that's an interesting argument that the other side didn't pose.",
+  "zh": "然后会出现这样的情况：他们会说，哦，我甚至没想到那个论点，或者说那是一个很有意思的论点，对方都没有提出来。"
+ },
+ {
+  "seg": 118,
+  "start": 816.783,
+  "end": 819.045,
+  "speaker": "Unknown",
+  "en": "And I think what we always saw, and I think like",
+  "zh": "而且我认为我们总是看到，我认为就像"
+ },
+ {
+  "seg": 119,
+  "start": 819.665,
+  "end": 826.33,
+  "speaker": "Unknown",
+  "en": "People would have the same thing with ChatGPT, where it's like once you find that, then you're like, oh, let me go try that in a bunch of places.",
+  "zh": "人们在 ChatGPT 上也会有同样的体验，就是一旦你发现了那个点，你就会想，哦，让我去一堆地方试试。"
+ },
+ {
+  "seg": 120,
+  "start": 826.931,
+  "end": 836.258,
+  "speaker": "Unknown",
+  "en": "And what worked really well, which was kind of like a mini version of what happened, I think, on Twitter when ChatGPT was released, is we did these enterprise-wide rollouts.",
+  "zh": "而且效果非常好的做法——这在某种程度上是 ChatGPT 发布时 Twitter 上发生的事情的一个迷你版本——是我们做了这些全企业范围的推广。"
+ },
+ {
+  "seg": 121,
+  "start": 836.338,
+  "end": 838.36,
+  "speaker": "Unknown",
+  "en": "So with A&O, we rolled it out to 3,000 people.",
+  "zh": "比如与 A&O，我们推广给了 3000 人。"
+ },
+ {
+  "seg": 122,
+  "start": 839.78,
+  "end": 844.541,
+  "speaker": "Unknown",
+  "en": "And with everyone using it, they would say, oh, I tried this and it worked, and they would tell each other about it.",
+  "zh": "随着所有人都在使用它，他们会说，哦，我试了这个而且它有效，然后他们会互相转告。"
+ },
+ {
+  "seg": 123,
+  "start": 845.141,
+  "end": 852.203,
+  "speaker": "Unknown",
+  "en": "And I think now, to your point, this has gotten easier, but it's still a huge challenge where people ask, what's the best use case?",
+  "zh": "而且我认为现在，正如你所说，这已经变容易了一些，但它仍然是一个巨大的挑战，人们会问，最佳用例是什么？"
+ },
+ {
+  "seg": 124,
+  "start": 852.243,
+  "end": 856.605,
+  "speaker": "Unknown",
+  "en": "And I think it's hard to define, oh, here's one thing this is good at.",
+  "zh": "而且我认为很难定义，哦，这是它擅长的一件事。"
+ },
+ {
+  "seg": 125,
+  "start": 856.765,
+  "end": 861.286,
+  "speaker": "Unknown",
+  "en": "It's much more of a new way to work and think about interaction with technology.",
+  "zh": "它更像是一种与技术互动的全新工作和思考方式。"
+ },
+ {
+  "seg": 126,
+  "start": 861.306,
+  "end": 861.746,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "正是如此。"
+ },
+ {
+  "seg": 127,
+  "start": 862.006,
+  "end": 868.948,
+  "speaker": "Unknown",
+  "en": "There's so many things it's good at, to some degree, that choosing the right one for each customer is a challenge in of itself.",
+  "zh": "它擅长的事情太多了，以至于在某种程度上，为每个客户选择正确的那一个本身就是一项挑战。"
+ },
+ {
+  "seg": 128,
+  "start": 869.548,
+  "end": 881.455,
+  "speaker": "Unknown",
+  "en": "And so if you think about this concept of these lawyers are acting as orchestrators of agents to some degree, does that change the way that the end customers face their lawyers?",
+  "zh": "那么如果你思考这个概念——这些律师在某种程度上扮演着智能体编排者的角色——这会改变终端客户面对他们律师的方式吗？"
+ },
+ {
+  "seg": 129,
+  "start": 881.615,
+  "end": 883.817,
+  "speaker": "Unknown",
+  "en": "Or how does the legal interface change?",
+  "zh": "或者说法律服务的界面会如何改变？"
+ },
+ {
+  "seg": 130,
+  "start": 884.297,
+  "end": 888.34,
+  "speaker": "Unknown",
+  "en": "I think the interesting part is I think a lot of it",
+  "zh": "我认为有意思的部分是，我认为很多方面"
+ },
+ {
+  "seg": 131,
+  "start": 889.379,
+  "end": 900.103,
+  "speaker": "Unknown",
+  "en": "Initially doesn't change that much because if you think of what partners and senior lawyers are doing, they're really just interfacing with their more junior associates as agents.",
+  "zh": "起初并不会改变太多，因为如果你想想合伙人和资深律师在做什么，他们其实就是在把更资浅的律师当作智能体来交互。"
+ },
+ {
+  "seg": 132,
+  "start": 900.203,
+  "end": 901.803,
+  "speaker": "Unknown",
+  "en": "And so it's like we see a lot of that.",
+  "zh": "所以我们看到很多这样的情况。"
+ },
+ {
+  "seg": 133,
+  "start": 902.504,
+  "end": 910.727,
+  "speaker": "Unknown",
+  "en": "I think the really interesting thing we're starting to do is how do we help these law firms develop the services in new ways?",
+  "zh": "我认为我们开始做的真正有意思的事情是，我们如何帮助这些律所以新的方式发展服务？"
+ },
+ {
+  "seg": 134,
+  "start": 911.007,
+  "end": 914.108,
+  "speaker": "Unknown",
+  "en": "And so there are law firms that we have built",
+  "zh": "所以有一些律所，我们为他们构建了"
+ },
+ {
+  "seg": 135,
+  "start": 914.908,
+  "end": 920.491,
+  "speaker": "Unknown",
+  "en": "products that they now sell to their clients as a SaaS product or we do a revenue share.",
+  "zh": "产品，他们现在作为 SaaS 产品卖给他们的客户，或者我们做收入分成。"
+ },
+ {
+  "seg": 136,
+  "start": 921.952,
+  "end": 933.277,
+  "speaker": "Unknown",
+  "en": "And increasingly we sell Harvey to enterprises and we have ways to connect an enterprise with their law firm and have them work together on a workflow or client projects.",
+  "zh": "而且越来越多地，我们把 Harvey 卖给企业，并且我们有办法把企业和他们的律所连接起来，让他们在一个工作流或客户项目上协同工作。"
+ },
+ {
+  "seg": 137,
+  "start": 933.778,
+  "end": 942.162,
+  "speaker": "Unknown",
+  "en": "And so I think it will change, but I think a lot of the challenge is like figuring out in what places like this fits in.",
+  "zh": "所以我认为它会改变，但我认为很多挑战在于弄清楚它在哪些地方合适。"
+ },
+ {
+  "seg": 138,
+  "start": 942.462,
+  "end": 943.142,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 139,
+  "start": 943.242,
+  "end": 953.888,
+  "speaker": "Unknown",
+  "en": "And actually, you know, this is one of the questions which is, and I'm sure this has come a lot both since inception up until now, but obviously there's this billable hours concept, right, in the way that lawyers just get paid.",
+  "zh": "实际上，你知道，这是其中一个问题，我相信从创立之初到现在这个问题已经被问过很多次了，但显然存在按小时计费这个概念，对吧，也就是律师获得报酬的方式。"
+ },
+ {
+  "seg": 140,
+  "start": 954.428,
+  "end": 959.13,
+  "speaker": "Unknown",
+  "en": "And so how does the implementation of AI in these firms change that concept?",
+  "zh": "那么在这些律所中实施 AI 会如何改变这个概念？"
+ },
+ {
+  "seg": 141,
+  "start": 959.67,
+  "end": 970.596,
+  "speaker": "Unknown",
+  "en": "Yeah, I think this is still early, but we are starting to have conversations with law firms and their clients about new ways they can work together.",
+  "zh": "是的，我认为这还处于早期，但我们已经开始与律所及其客户就新的合作方式进行对话。"
+ },
+ {
+  "seg": 142,
+  "start": 971.74,
+  "end": 974.831,
+  "speaker": "Unknown",
+  "en": "My intuition is, and I think part of the challenge,",
+  "zh": "我的直觉是，而且我认为挑战的一部分"
+ },
+ {
+  "seg": 143,
+  "start": 976.117,
+  "end": 981.218,
+  "speaker": "Unknown",
+  "en": "Is law firms business is really a collection of a bunch of different practice areas.",
+  "zh": "是律所的业务实际上是一堆不同业务领域的集合。"
+ },
+ {
+  "seg": 144,
+  "start": 981.438,
+  "end": 997.501,
+  "speaker": "Unknown",
+  "en": "And so if you think of a law firm's business model, they have litigation and they have a capital markets practice and a transactions, and all of these have, all of these use billable hour, some litigation use like contingency and fixed fee.",
+  "zh": "所以如果你想想律所的商业模式，他们有诉讼业务，有资本市场业务和交易业务，而所有这些——所有这些都在使用按小时计费，一些诉讼业务使用风险代理和固定收费。"
+ },
+ {
+  "seg": 145,
+  "start": 998.121,
+  "end": 1002.762,
+  "speaker": "Unknown",
+  "en": "And a lot of what we're doing now with customers is practice area by practice area.",
+  "zh": "而我们现在与客户做的很多工作是按业务领域逐个进行的。"
+ },
+ {
+  "seg": 146,
+  "start": 1003.362,
+  "end": 1005.683,
+  "speaker": "Unknown",
+  "en": "How do you figure out new ways of",
+  "zh": "你如何找出新的方式来"
+ },
+ {
+  "seg": 147,
+  "start": 1006.703,
+  "end": 1010.064,
+  "speaker": "Unknown",
+  "en": "of both providing the services and pricing them.",
+  "zh": "既提供服务又为其定价。"
+ },
+ {
+  "seg": 148,
+  "start": 1010.704,
+  "end": 1019.227,
+  "speaker": "Unknown",
+  "en": "And I think what's really interesting is I think we got this question a lot of like, oh, if these models make lawyers more efficient, does the billable hour go down?",
+  "zh": "而且我认为非常有意思的是，我们经常被问到这个问题，比如，哦，如果这些模型让律师的效率更高，按小时计费会下降吗？"
+ },
+ {
+  "seg": 149,
+  "start": 1019.787,
+  "end": 1028.15,
+  "speaker": "Unknown",
+  "en": "And I think the counter is like you could have made the same argument with the PC and it's like actually billables went up because the work got more complex.",
+  "zh": "而我认为反驳是，你本可以用个人电脑做出同样的论点，而实际上按小时计费反而上升了，因为工作变得更复杂了。"
+ },
+ {
+  "seg": 150,
+  "start": 1029.05,
+  "end": 1030.031,
+  "speaker": "Unknown",
+  "en": "I think that's one piece.",
+  "zh": "我认为那是其中一部分。"
+ },
+ {
+  "seg": 151,
+  "start": 1030.392,
+  "end": 1039.582,
+  "speaker": "Unknown",
+  "en": "The other is the arrangements are actually much more complicated than billable hours because there's write-offs and there's caps and there's kind of all the different works that gets done.",
+  "zh": "另一部分是，这些收费安排实际上比计费小时复杂得多，因为有核销、有上限，还有各种各样被完成的工作。"
+ },
+ {
+  "seg": 152,
+  "start": 1040.263,
+  "end": 1045.348,
+  "speaker": "Unknown",
+  "en": "And so one really interesting example is we work with a lot of private equity firms and their law firms.",
+  "zh": "一个很有意思的例子是，我们与很多私募股权公司及其律师事务所合作。"
+ },
+ {
+  "seg": 153,
+  "start": 1046.169,
+  "end": 1048.612,
+  "speaker": "Unknown",
+  "en": "And the way a lot of fund formation works is",
+  "zh": "很多基金设立工作的运作方式是"
+ },
+ {
+  "seg": 154,
+  "start": 1049.533,
+  "end": 1052.677,
+  "speaker": "Unknown",
+  "en": "First-year associate work may just get written off no matter what.",
+  "zh": "一年级律师的工作无论如何都可能直接被核销掉。"
+ },
+ {
+  "seg": 155,
+  "start": 1053.157,
+  "end": 1054.559,
+  "speaker": "Unknown",
+  "en": "And the fund formation is capped.",
+  "zh": "而且基金设立是有上限的。"
+ },
+ {
+  "seg": 156,
+  "start": 1054.919,
+  "end": 1064.07,
+  "speaker": "Unknown",
+  "en": "And so you actually have a lot more degrees of freedom to say, hey, we could arrange this in this way where Harvey's gonna do this work that gets written off, and we're gonna ensure you stay under the cap.",
+  "zh": "所以你实际上有更多的自由度可以说，嘿，我们可以这样安排，让 Harvey 来做这些会被核销的工作，同时我们确保你不会超出上限。"
+ },
+ {
+  "seg": 157,
+  "start": 1064.57,
+  "end": 1069.175,
+  "speaker": "Unknown",
+  "en": "And you can now actually make it more profitable for the law firm, but the client can also benefit.",
+  "zh": "这样你既可以让律师事务所更赚钱，客户也能从中受益。"
+ },
+ {
+  "seg": 158,
+  "start": 1069.816,
+  "end": 1081.991,
+  "speaker": "Unknown",
+  "en": "And for us, the thing to really figure out that is the interesting problem is like the goal is how can you make law firms more profitable and make their clients benefit from like the law firms getting profitable?",
+  "zh": "对我们来说，真正需要弄清楚的、有意思的问题就是，目标是如何让律师事务所更赚钱，同时让客户从律所的盈利中受益。"
+ },
+ {
+  "seg": 159,
+  "start": 1082.171,
+  "end": 1085.114,
+  "speaker": "Unknown",
+  "en": "And I don't think the assumption that like one party needs",
+  "zh": "我不认为那种“一方需要"
+ },
+ {
+  "seg": 160,
+  "start": 1085.815,
+  "end": 1088.816,
+  "speaker": "Unknown",
+  "en": "To lose for the other to win is actually the case here.",
+  "zh": "输另一方才能赢”的假设在这里真的成立。"
+ },
+ {
+  "seg": 161,
+  "start": 1088.896,
+  "end": 1089.416,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 162,
+  "start": 1089.516,
+  "end": 1100.039,
+  "speaker": "Unknown",
+  "en": "And so have any of you, do you have any examples of customers of yours or even anyone that you've spoken to where you feel like they've internalized that this change is happening or it's possible, right?",
+  "zh": "那么你们有没有，你们有没有什么自己客户的例子，或者甚至是你们聊过的任何人的例子，让你感觉他们已经内化了这种变化正在发生或可能发生，对吧？"
+ },
+ {
+  "seg": 163,
+  "start": 1100.059,
+  "end": 1100.76,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 164,
+  "start": 1100.96,
+  "end": 1106.562,
+  "speaker": "Unknown",
+  "en": "And thus are kind of rethinking the way that they even have organized their team and organization.",
+  "zh": "并因此开始重新思考他们组织团队和组织架构的方式。"
+ },
+ {
+  "seg": 165,
+  "start": 1106.582,
+  "end": 1106.682,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 166,
+  "start": 1106.702,
+  "end": 1108.022,
+  "speaker": "Unknown",
+  "en": "Tell a little bit more about that.",
+  "zh": "多讲一点这方面的情况。"
+ },
+ {
+  "seg": 167,
+  "start": 1108.502,
+  "end": 1112.404,
+  "speaker": "Unknown",
+  "en": "Most law firms have accepted that this is happening.",
+  "zh": "大多数律师事务所已经接受了这件事正在发生。"
+ },
+ {
+  "seg": 168,
+  "start": 1113.085,
+  "end": 1117.327,
+  "speaker": "Unknown",
+  "en": "I think the questions are around timeline and what does it look like.",
+  "zh": "我认为问题在于时间线，以及它会是什么样子。"
+ },
+ {
+  "seg": 169,
+  "start": 1118.687,
+  "end": 1125.571,
+  "speaker": "Unknown",
+  "en": "But I think maybe even like a year and a half, two years ago, there was kind of a question of like, oh, is this hype?",
+  "zh": "但我觉得大概一年半、两年前，还有类似“哦，这是不是炒作？”的疑问。"
+ },
+ {
+  "seg": 170,
+  "start": 1125.691,
+  "end": 1130.514,
+  "speaker": "Unknown",
+  "en": "And now I think every law firm we talk to, we need to adopt this.",
+  "zh": "而现在，我认为我们接触的每一家律师事务所都说，我们需要采用这个。"
+ },
+ {
+  "seg": 171,
+  "start": 1131.56,
+  "end": 1134.484,
+  "speaker": "Unknown",
+  "en": "We definitely need everyone using this individually.",
+  "zh": "我们肯定需要每个人都在个人层面使用它。"
+ },
+ {
+  "seg": 172,
+  "start": 1134.985,
+  "end": 1138.389,
+  "speaker": "Unknown",
+  "en": "We're not sure what it looks like to start transforming practice areas.",
+  "zh": "我们还不清楚开始转型业务领域会是什么样子。"
+ },
+ {
+  "seg": 173,
+  "start": 1138.549,
+  "end": 1140.031,
+  "speaker": "Unknown",
+  "en": "Some are already starting to do that.",
+  "zh": "有些已经在开始这样做了。"
+ },
+ {
+  "seg": 174,
+  "start": 1141.573,
+  "end": 1148.322,
+  "speaker": "Unknown",
+  "en": "But I think all of them are starting to like, we have a number of law firms that are starting to have this conversation with their clients of how does this change.",
+  "zh": "但我认为它们都在开始，我们有不少律师事务所开始与客户进行这样的对话，探讨这会如何改变。"
+ },
+ {
+  "seg": 175,
+  "start": 1148.582,
+  "end": 1148.962,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 176,
+  "start": 1149.002,
+  "end": 1151.885,
+  "speaker": "Unknown",
+  "en": "And what caused them to internalize them?",
+  "zh": "是什么让他们内化了这些？"
+ },
+ {
+  "seg": 177,
+  "start": 1152.165,
+  "end": 1165.276,
+  "speaker": "Unknown",
+  "en": "Is there any specific kind of end-to-end workflow or agentic workflow that you have been able to show them that makes them say, wow, okay, I'm not going to have to dedicate some headcount to extract the data point from the data room every single time?",
+  "zh": "有没有某种特定的端到端工作流或智能体工作流，你展示给他们之后让他们说，哇，好的，我不会再需要每次都专门投入人力去从数据库室提取数据点了？"
+ },
+ {
+  "seg": 178,
+  "start": 1165.616,
+  "end": 1167.938,
+  "speaker": "Unknown",
+  "en": "What was the wow moment that you recall?",
+  "zh": "你记得的“哇”时刻是什么？"
+ },
+ {
+  "seg": 179,
+  "start": 1168.29,
+  "end": 1170.753,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it's a combination of a lot of factors.",
+  "zh": "是的，我认为这是很多因素的结合。"
+ },
+ {
+  "seg": 180,
+  "start": 1171.073,
+  "end": 1178.4,
+  "speaker": "Unknown",
+  "en": "I think it is definitely individual lawyers, partners starting to use the product a lot.",
+  "zh": "我认为是律师个人、合伙人开始大量使用这个产品。"
+ },
+ {
+  "seg": 181,
+  "start": 1178.58,
+  "end": 1189.391,
+  "speaker": "Unknown",
+  "en": "And I think to me, when I look at the way I work with these models, it's like, I don't need ROI metrics to know that this like fundamentally changes the way that I like.",
+  "zh": "对我来说，当我看我自己使用这些模型的方式，就是，我不需要 ROI 指标就知道这从根本上改变了我的方式。"
+ },
+ {
+  "seg": 182,
+  "start": 1190.747,
+  "end": 1192.529,
+  "speaker": "Unknown",
+  "en": "Ingest information, write documents.",
+  "zh": "摄取信息、撰写文件。"
+ },
+ {
+  "seg": 183,
+  "start": 1192.569,
+  "end": 1193.891,
+  "speaker": "Unknown",
+  "en": "It's just like you can feel it.",
+  "zh": "你就是能感觉到。"
+ },
+ {
+  "seg": 184,
+  "start": 1194.011,
+  "end": 1197.755,
+  "speaker": "Unknown",
+  "en": "And so I think part of it is like that has happened to enough people.",
+  "zh": "所以我认为部分原因是这种情况已经发生在足够多的人身上了。"
+ },
+ {
+  "seg": 185,
+  "start": 1198.936,
+  "end": 1205.443,
+  "speaker": "Unknown",
+  "en": "I think another big part is clients are like the law firm's clients are starting to use this more and more.",
+  "zh": "我认为另一大因素是客户，也就是律所的客户，开始越来越多地使用这个。"
+ },
+ {
+  "seg": 186,
+  "start": 1205.624,
+  "end": 1208.587,
+  "speaker": "Unknown",
+  "en": "And so the law firms are starting to",
+  "zh": "所以律师事务所开始"
+ },
+ {
+  "seg": 187,
+  "start": 1210.09,
+  "end": 1213.391,
+  "speaker": "Unknown",
+  "en": "One pitch to their clients and say, hey, here's new ways we could do this.",
+  "zh": "向客户做推介，说，嘿，这是我们做这件事的新方式。"
+ },
+ {
+  "seg": 188,
+  "start": 1213.591,
+  "end": 1216.592,
+  "speaker": "Unknown",
+  "en": "And then clients are also starting to demand this.",
+  "zh": "而同时客户也开始主动要求这个。"
+ },
+ {
+  "seg": 189,
+  "start": 1217.112,
+  "end": 1218.952,
+  "speaker": "Unknown",
+  "en": "And so I think that's like another big part.",
+  "zh": "所以我认为这是另一大因素。"
+ },
+ {
+  "seg": 190,
+  "start": 1219.392,
+  "end": 1222.253,
+  "speaker": "Unknown",
+  "en": "We have a bunch of examples of like workflows.",
+  "zh": "我们有很多工作流的例子。"
+ },
+ {
+  "seg": 191,
+  "start": 1222.413,
+  "end": 1228.555,
+  "speaker": "Unknown",
+  "en": "I think the really common one is kind of like you said of like, I have a discovery corpus and I need to generate a chronology.",
+  "zh": "我觉得非常常见的一个就像你说的，比如，我有一个证据披露语料库，我需要生成一份大事年表。"
+ },
+ {
+  "seg": 192,
+  "start": 1228.755,
+  "end": 1232.076,
+  "speaker": "Unknown",
+  "en": "I have a data room and I need to extract all the change of control provisions.",
+  "zh": "我有一个数据库室，我需要提取所有的控制权变更条款。"
+ },
+ {
+  "seg": 193,
+  "start": 1232.416,
+  "end": 1235.216,
+  "speaker": "Unknown",
+  "en": "We have kind of like some interesting like drafting examples.",
+  "zh": "我们还有一些有意思的起草类例子。"
+ },
+ {
+  "seg": 194,
+  "start": 1235.696,
+  "end": 1237.477,
+  "speaker": "Unknown",
+  "en": "And so you're starting to see like,",
+  "zh": "所以你开始看到，"
+ },
+ {
+  "seg": 195,
+  "start": 1238.017,
+  "end": 1241.918,
+  "speaker": "Unknown",
+  "en": "Meaningful pieces of work that you can do some percentage of with these models.",
+  "zh": "可以用这些模型完成一定比例的有意义的工作模块。"
+ },
+ {
+  "seg": 196,
+  "start": 1242.378,
+  "end": 1248.901,
+  "speaker": "Unknown",
+  "en": "And then I think the same with coding where it's also just the general productivity of like you use this in every part of the work.",
+  "zh": "我觉得这和编程领域一样，就是整体的生产力提升，你在工作的每个环节都使用它。"
+ },
+ {
+  "seg": 197,
+  "start": 1249.181,
+  "end": 1262.565,
+  "speaker": "Unknown",
+  "en": "Are there any examples of some multi-step workflow that just quite isn't reliable enough to do today but you think that in the near horizon your customers could do?",
+  "zh": "有没有一些多步骤工作流的例子，今天还做不到足够可靠，但你认为在近期内你的客户可以做到？"
+ },
+ {
+  "seg": 198,
+  "start": 1262.885,
+  "end": 1264.686,
+  "speaker": "Unknown",
+  "en": "I mean, I can give you an example of like",
+  "zh": "我的意思是，我可以给你举一个例子，"
+ },
+ {
+  "seg": 199,
+  "start": 1265.745,
+  "end": 1268.667,
+  "speaker": "Unknown",
+  "en": "What the holy grail build is?",
+  "zh": "什么是“圣杯”级的构建目标？"
+ },
+ {
+  "seg": 200,
+  "start": 1269.027,
+  "end": 1283.435,
+  "speaker": "Unknown",
+  "en": "And like a bit of a simplified mental model, but if you think about a lot of what you're doing in a litigation or a transaction is in a litigation, I have all this context that is case law or emails, other arguments, and I want to write a motion.",
+  "zh": "打个比方，虽然是一个简化了的思维模型，但如果你想想你在诉讼或交易中所做的很多工作——在诉讼中，我拥有所有这些上下文，比如判例法或电子邮件、其他论点，而我想写一份动议。"
+ },
+ {
+  "seg": 201,
+  "start": 1283.895,
+  "end": 1289.078,
+  "speaker": "Unknown",
+  "en": "And in a transaction, bunch of context, and I want to write like a merger agreement or an LPA or something like that.",
+  "zh": "而在交易中，也是一大堆上下文，然后我想写一份并购协议或者 LPA 之类的东西。"
+ },
+ {
+  "seg": 202,
+  "start": 1289.918,
+  "end": 1292.06,
+  "speaker": "Unknown",
+  "en": "And so what we're starting to think about is like,",
+  "zh": "所以我们开始思考的是，"
+ },
+ {
+  "seg": 203,
+  "start": 1292.86,
+  "end": 1298.826,
+  "speaker": "Unknown",
+  "en": "What do the end-to-end systems look like that can take that context and start drafting those documents?",
+  "zh": "能够获取那些上下文并开始起草这些文件的端到端系统会是什么样子？"
+ },
+ {
+  "seg": 204,
+  "start": 1299.446,
+  "end": 1304.691,
+  "speaker": "Unknown",
+  "en": "And a lot of what these law firms are doing is you don't get all that context at one point.",
+  "zh": "而这些律所所做的很多事情是，你不会在某一时刻一次性拿到所有那些上下文。"
+ },
+ {
+  "seg": 205,
+  "start": 1304.891,
+  "end": 1312.038,
+  "speaker": "Unknown",
+  "en": "And so a lot of the process in like an acquisition is there's all these stages you need to figure out which information to get.",
+  "zh": "所以在像一次收购这样的流程中，有很多阶段，你需要弄清楚该获取哪些信息。"
+ },
+ {
+  "seg": 206,
+  "start": 1312.599,
+  "end": 1314.52,
+  "speaker": "Unknown",
+  "en": "And I think you can see these models",
+  "zh": "而且我认为你可以看到这些模型"
+ },
+ {
+  "seg": 207,
+  "start": 1315.261,
+  "end": 1317.002,
+  "speaker": "Unknown",
+  "en": "Getting better at doing this.",
+  "zh": "在这方面做得越来越好。"
+ },
+ {
+  "seg": 208,
+  "start": 1317.523,
+  "end": 1325.728,
+  "speaker": "Unknown",
+  "en": "I think a lot of the challenge is, I don't think the right way to think about it is like, oh, this model can do one part of this end to end.",
+  "zh": "我认为很多挑战在于，我不认为正确的思考方式是，哦，这个模型可以做到这个端到端流程中的某一部分。"
+ },
+ {
+  "seg": 209,
+  "start": 1326.388,
+  "end": 1329.931,
+  "speaker": "Unknown",
+  "en": "It's much more the same way associates are super valuable where",
+  "zh": "它更像是初级律师之所以非常有价值的那种方式，"
+ },
+ {
+  "seg": 210,
+  "start": 1330.711,
+  "end": 1332.872,
+  "speaker": "Unknown",
+  "en": "You need to use them in all these different places.",
+  "zh": "你需要在所有这些不同的地方使用他们。"
+ },
+ {
+  "seg": 211,
+  "start": 1332.952,
+  "end": 1339.816,
+  "speaker": "Unknown",
+  "en": "And so the way you would use an associate in drafting a merger agreement is like, oh, I need to draft the risk factors.",
+  "zh": "所以你在起草一份并购协议时使用初级律师的方式是，哦，我需要起草风险因素部分。"
+ },
+ {
+  "seg": 212,
+  "start": 1340.136,
+  "end": 1347.921,
+  "speaker": "Unknown",
+  "en": "Can you find the transaction we did last year for this client, pull that, and then find me other industry examples?",
+  "zh": "你能找到我们去年为这个客户做的那笔交易，把它调出来，然后再给我找一些其他行业的例子吗？"
+ },
+ {
+  "seg": 213,
+  "start": 1348.361,
+  "end": 1354.905,
+  "speaker": "Unknown",
+  "en": "And so the agentic workflow would be, can you go look into the document management system, find that,",
+  "zh": "所以智能体工作流就是，你能不能去文档管理系统里查找，找到那个东西，"
+ },
+ {
+  "seg": 214,
+  "start": 1355.465,
+  "end": 1363.175,
+  "speaker": "Unknown",
+  "en": "Go look at SEC filings, find the risk factors, draft something, summarize it, and then say, oh, for this industry, actually, you want to use this one.",
+  "zh": "去看 SEC 文件，找到那些风险因素，起草一些内容，总结一下，然后说，哦，对于这个行业，实际上你应该用这一个。"
+ },
+ {
+  "seg": 215,
+  "start": 1363.215,
+  "end": 1364.597,
+  "speaker": "Unknown",
+  "en": "And so it's kind of ones like that.",
+  "zh": "所以大概就是这样的任务。"
+ },
+ {
+  "seg": 216,
+  "start": 1365.018,
+  "end": 1368.342,
+  "speaker": "Unknown",
+  "en": "And I think those are getting more reliable where you can do more things like that.",
+  "zh": "而且我认为这些正变得越来越可靠，你可以做更多那样的事情。"
+ },
+ {
+  "seg": 217,
+  "start": 1368.382,
+  "end": 1368.502,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 218,
+  "start": 1368.903,
+  "end": 1369.063,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 219,
+  "start": 1369.103,
+  "end": 1372.708,
+  "speaker": "Unknown",
+  "en": "And actually, following on that example, is data a big moat for RV?",
+  "zh": "实际上，接着那个例子说，数据是 RV 的一大护城河吗？"
+ },
+ {
+  "seg": 220,
+  "start": 1373.156,
+  "end": 1375.957,
+  "speaker": "Unknown",
+  "en": "Yeah, I think there's two types of data.",
+  "zh": "是的，我认为数据有两类。"
+ },
+ {
+  "seg": 221,
+  "start": 1376.238,
+  "end": 1382.681,
+  "speaker": "Unknown",
+  "en": "And so when we started the company, I think everyone thought of legal data as case law.",
+  "zh": "我们刚创办公司的时候，我认为所有人都把法律数据想成是判例法。"
+ },
+ {
+  "seg": 222,
+  "start": 1383.701,
+  "end": 1385.922,
+  "speaker": "Unknown",
+  "en": "And we've now partnered with Lexis.",
+  "zh": "而我们现在已经和 Lexis 达成了合作。"
+ },
+ {
+  "seg": 223,
+  "start": 1386.062,
+  "end": 1391.025,
+  "speaker": "Unknown",
+  "en": "And I think having access to case law and these other data sets is super valuable.",
+  "zh": "我认为能够访问判例法和其他这些数据集是非常有价值的。"
+ },
+ {
+  "seg": 224,
+  "start": 1391.485,
+  "end": 1395.387,
+  "speaker": "Unknown",
+  "en": "But I don't think that is when we think of like the data mode that",
+  "zh": "但我不认为那是——当我们想到数据护城河时，"
+ },
+ {
+  "seg": 225,
+  "start": 1395.947,
+  "end": 1397.467,
+  "speaker": "Unknown",
+  "en": "We think we're going to have as a company.",
+  "zh": "我们认为作为一家公司将拥有的那种。"
+ },
+ {
+  "seg": 226,
+  "start": 1397.867,
+  "end": 1407.15,
+  "speaker": "Unknown",
+  "en": "The data that I think is really valuable that I think now people are realizing is valuable is the RLHF data or the reasoning data.",
+  "zh": "我认为真正有价值的数据——现在人们正在意识到它有价值——是 RLHF 数据或者推理数据。"
+ },
+ {
+  "seg": 227,
+  "start": 1407.57,
+  "end": 1419.593,
+  "speaker": "Unknown",
+  "en": "And so if you think of how these foundation model companies are training these reasoning models, it's let me go find an expert and say, hey, how would you prove this math theorem and show me all the steps you would do to prove it?",
+  "zh": "如果你想想这些基础模型公司是怎么训练这些推理模型的，那是让我去找一位专家，问，嘿，你会怎么证明这个数学定理，并给我展示你证明它的所有步骤？"
+ },
+ {
+  "seg": 228,
+  "start": 1420.389,
+  "end": 1425.352,
+  "speaker": "Unknown",
+  "en": "And what these law firms have is these massive data sets of, I want to buy this company.",
+  "zh": "而这些律所拥有的，是这些庞大的数据集：我想收购这家公司。"
+ },
+ {
+  "seg": 229,
+  "start": 1425.633,
+  "end": 1429.956,
+  "speaker": "Unknown",
+  "en": "Here's a partner decomposing that task, having an associate do it, giving feedback.",
+  "zh": "这里有一位合伙人把这个任务分解，让一位初级律师去做，并给出反馈。"
+ },
+ {
+  "seg": 230,
+  "start": 1430.676,
+  "end": 1440.183,
+  "speaker": "Unknown",
+  "en": "And so I think a lot of the challenge and some of the infrastructure we're starting to think about building is what you can't do is put all that data into a model.",
+  "zh": "所以我认为很多挑战——以及我们开始考虑构建的一些基础设施——在于你不能把所有那些数据都放进一个模型里。"
+ },
+ {
+  "seg": 231,
+  "start": 1440.703,
+  "end": 1443.105,
+  "speaker": "Unknown",
+  "en": "And you can't even do it just for a law firm.",
+  "zh": "而且甚至不能只针对一家律所这么做。"
+ },
+ {
+  "seg": 232,
+  "start": 1443.945,
+  "end": 1455.728,
+  "speaker": "Unknown",
+  "en": "What you really need to figure out is how do you help a law firm and an individual client use their history of legal work to build a model for the benefit of those two parties?",
+  "zh": "你真正需要弄清楚的是，你怎么帮助一家律所和一个客户用他们的法律工作历史来构建一个模型，以造福这两方？"
+ },
+ {
+  "seg": 233,
+  "start": 1456.068,
+  "end": 1459.889,
+  "speaker": "Unknown",
+  "en": "And so I think there will be these interesting problems like that that we can help these law firms.",
+  "zh": "所以我认为会有这些有趣的问题，我们可以帮助这些律所解决。"
+ },
+ {
+  "seg": 234,
+  "start": 1459.909,
+  "end": 1462.509,
+  "speaker": "Unknown",
+  "en": "And is the bottleneck to that a research problem?",
+  "zh": "那么实现这个的瓶颈是一个研究问题吗？"
+ },
+ {
+  "seg": 235,
+  "start": 1462.609,
+  "end": 1464.63,
+  "speaker": "Unknown",
+  "en": "Or what's the bottleneck to achieving what you just said?",
+  "zh": "还是说实现你刚才所说的瓶颈是什么？"
+ },
+ {
+  "seg": 236,
+  "start": 1465.41,
+  "end": 1466.19,
+  "speaker": "Unknown",
+  "en": "I think it's...",
+  "zh": "我认为它是……"
+ },
+ {
+  "seg": 237,
+  "start": 1467.662,
+  "end": 1469.944,
+  "speaker": "Unknown",
+  "en": "A technical problem, like a research problem.",
+  "zh": "一个技术问题，像一个研究问题。"
+ },
+ {
+  "seg": 238,
+  "start": 1469.964,
+  "end": 1473.668,
+  "speaker": "Unknown",
+  "en": "I don't think we have solved the research problem.",
+  "zh": "我不认为我们已经解决这个研究问题了。"
+ },
+ {
+  "seg": 239,
+  "start": 1473.688,
+  "end": 1488.382,
+  "speaker": "Unknown",
+  "en": "By we, I mean just generically the AI research community of how do you take these really complex tasks where you generate a 100-page document and you get a bunch of red lines and how do you use the models to do that?",
+  "zh": "我说“我们”，是指泛指的 AI 研究社区——如何处理这些非常复杂的任务，你生成一份 100 页的文件，然后收到一堆红线修改，怎么用模型做到这些？"
+ },
+ {
+  "seg": 240,
+  "start": 1489.023,
+  "end": 1490.564,
+  "speaker": "Unknown",
+  "en": "The big problem we run into",
+  "zh": "我们遇到的大问题"
+ },
+ {
+  "seg": 241,
+  "start": 1491.445,
+  "end": 1503.208,
+  "speaker": "Unknown",
+  "en": "Any time we work on post-training or evaluation is a lot of the ways that you do this evaluation is you need like a really good reward function or an easy way to say this is a good or a bad output.",
+  "zh": "是每当我们做后训练或评估时，做评估的很多方式是你需要一个非常好的奖励函数，或者一个简单的方法来判断这是一个好的还是坏的输出。"
+ },
+ {
+  "seg": 242,
+  "start": 1503.708,
+  "end": 1509.349,
+  "speaker": "Unknown",
+  "en": "And I think what's so difficult about legal is it's really hard to say like this is a good merger or not.",
+  "zh": "而我认为法律领域之所以这么难，是因为很难说这是一笔好的并购还是不是。"
+ },
+ {
+  "seg": 243,
+  "start": 1509.809,
+  "end": 1512.77,
+  "speaker": "Unknown",
+  "en": "And so I think there's like a technical research problem.",
+  "zh": "所以我认为这里有一个技术研究问题。"
+ },
+ {
+  "seg": 244,
+  "start": 1513.39,
+  "end": 1519.392,
+  "speaker": "Unknown",
+  "en": "I think there's like a very big industry trust security data privacy",
+  "zh": "我认为还有一个非常大的行业层面的问题：信任、安全、数据隐私、"
+ },
+ {
+  "seg": 245,
+  "start": 1520.292,
+  "end": 1532.462,
+  "speaker": "Unknown",
+  "en": "Privilege, confidentiality, like both security on the technical side and security on the legal side of I don't think anyone knows the answer yet of if I train a model, do I waive privilege?",
+  "zh": "特权、保密性——既有技术层面的安全，也有法律层面的安全。比如，如果我训练了一个模型，我是否就放弃了特权保护？我认为还没有任何人知道答案。"
+ },
+ {
+  "seg": 246,
+  "start": 1532.502,
+  "end": 1534.263,
+  "speaker": "Unknown",
+  "en": "I think there's all those questions like that.",
+  "zh": "我认为有所有这类问题。"
+ },
+ {
+  "seg": 247,
+  "start": 1535.144,
+  "end": 1537.026,
+  "speaker": "Unknown",
+  "en": "Then I think there's also a big",
+  "zh": "然后我认为还有一个很大的"
+ },
+ {
+  "seg": 248,
+  "start": 1538.301,
+  "end": 1539.463,
+  "speaker": "Unknown",
+  "en": "Incentive question.",
+  "zh": "激励问题。"
+ },
+ {
+  "seg": 249,
+  "start": 1539.943,
+  "end": 1544.149,
+  "speaker": "Unknown",
+  "en": "If you train a model with a client, what is the benefit of doing that?",
+  "zh": "如果你和一个客户一起训练一个模型，这么做的收益是什么？"
+ },
+ {
+  "seg": 250,
+  "start": 1544.33,
+  "end": 1545.571,
+  "speaker": "Unknown",
+  "en": "I think you need to prove that.",
+  "zh": "我认为你需要证明这一点。"
+ },
+ {
+  "seg": 251,
+  "start": 1546.212,
+  "end": 1550.298,
+  "speaker": "Unknown",
+  "en": "I think there's also a question of who owns the IP if you do this?",
+  "zh": "我认为还有一个问题，就是如果你这样做，知识产权归谁？"
+ },
+ {
+  "seg": 252,
+  "start": 1550.539,
+  "end": 1551.66,
+  "speaker": "Unknown",
+  "en": "Is it the client's model?",
+  "zh": "是客户的模型吗？"
+ },
+ {
+  "seg": 253,
+  "start": 1551.7,
+  "end": 1552.882,
+  "speaker": "Unknown",
+  "en": "Is it the law firm's model?",
+  "zh": "还是律所的模型？"
+ },
+ {
+  "seg": 254,
+  "start": 1552.982,
+  "end": 1553.783,
+  "speaker": "Unknown",
+  "en": "Is it some mix?",
+  "zh": "还是某种混合？"
+ },
+ {
+  "seg": 255,
+  "start": 1554.524,
+  "end": 1556.084,
+  "speaker": "Unknown",
+  "en": "And then what's the business model if you do?",
+  "zh": "那如果这样做，商业模式是什么？"
+ },
+ {
+  "seg": 256,
+  "start": 1556.124,
+  "end": 1558.985,
+  "speaker": "Unknown",
+  "en": "So I think there's kind of a bunch of these different problems of figuring that out.",
+  "zh": "所以我认为有这样一堆不同的问题需要弄清楚。"
+ },
+ {
+  "seg": 257,
+  "start": 1559.025,
+  "end": 1559.265,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 258,
+  "start": 1559.605,
+  "end": 1565.707,
+  "speaker": "Unknown",
+  "en": "And that segues perfectly into the next topic, which is, you know, we've talked about kind of the use cases of these agents within legal.",
+  "zh": "这就完美地过渡到下一个话题，也就是，你知道，我们已经谈过了这些智能体在法律领域的用例。"
+ },
+ {
+  "seg": 259,
+  "start": 1566.087,
+  "end": 1568.227,
+  "speaker": "Unknown",
+  "en": "I want to talk a little bit about how you build these agents.",
+  "zh": "我想稍微谈谈你们是如何构建这些智能体的。"
+ },
+ {
+  "seg": 260,
+  "start": 1568.787,
+  "end": 1577.649,
+  "speaker": "Unknown",
+  "en": "And so one topic I want to start with is you guys have been pretty public as, you know, you have a lot of actual lawyers on payroll that you're working with at Harvey.",
+  "zh": "我想先从一个话题开始，就是你们一直相当公开地表示，你们在 Harvey 雇了很多真正的律师和你们一起工作。"
+ },
+ {
+  "seg": 261,
+  "start": 1578.05,
+  "end": 1581.19,
+  "speaker": "Unknown",
+  "en": "And it seems like, you know, there's a large use case around evals.",
+  "zh": "而且看起来，你知道，有一个很大的用例是围绕 evals(评估)的。"
+ },
+ {
+  "seg": 262,
+  "start": 1581.59,
+  "end": 1584.211,
+  "speaker": "Unknown",
+  "en": "So yeah, talk to us about where does evals fit",
+  "zh": "所以，是的，跟我们聊聊 evals 在"
+ },
+ {
+  "seg": 263,
+  "start": 1585.511,
+  "end": 1586.752,
+  "speaker": "Unknown",
+  "en": "in Harvey's product.",
+  "zh": "Harvey 的产品中处于什么位置。"
+ },
+ {
+  "seg": 264,
+  "start": 1587.052,
+  "end": 1590.572,
+  "speaker": "Unknown",
+  "en": "And tell us a little bit more about how lawyers fit into that equation.",
+  "zh": "再多告诉我们一点，律师是如何融入这个等式的。"
+ },
+ {
+  "seg": 265,
+  "start": 1590.912,
+  "end": 1600.134,
+  "speaker": "Unknown",
+  "en": "I think eval is incredibly important just because you can't do AI or ML if you don't have a good way to tell if it's working.",
+  "zh": "我认为 eval(评估)非常重要，因为如果你没有一个好的方法来判断它是否有效，你就没法做 AI 或 ML。"
+ },
+ {
+  "seg": 266,
+  "start": 1600.595,
+  "end": 1606.276,
+  "speaker": "Unknown",
+  "en": "And I think a lot of the product experience is output the models are generating.",
+  "zh": "而且我认为很多产品体验就是模型生成的输出。"
+ },
+ {
+  "seg": 267,
+  "start": 1607.316,
+  "end": 1611.317,
+  "speaker": "Unknown",
+  "en": "And I think in any of these vertical domains, you need",
+  "zh": "我认为在任何这些垂直领域，你都需要"
+ },
+ {
+  "seg": 268,
+  "start": 1612.037,
+  "end": 1614.079,
+  "speaker": "Unknown",
+  "en": "Experts to tell you if this is correct.",
+  "zh": "专家来告诉你这是否正确。"
+ },
+ {
+  "seg": 269,
+  "start": 1614.72,
+  "end": 1624.388,
+  "speaker": "Unknown",
+  "en": "And so, I mean, when we first started building the product, it was me who did AI research and Winston who was a lawyer and we would sit there and I would be like, okay, how would you do this task?",
+  "zh": "所以，我是说，当我们最初开始构建产品时，是我做 AI 研究，Winston 是律师，我们会坐在那里，我会问，好，你会怎么做这个任务？"
+ },
+ {
+  "seg": 270,
+  "start": 1624.428,
+  "end": 1625.629,
+  "speaker": "Unknown",
+  "en": "I would like come up with something.",
+  "zh": "我会想出一个方案。"
+ },
+ {
+  "seg": 271,
+  "start": 1625.649,
+  "end": 1630.073,
+  "speaker": "Unknown",
+  "en": "He'd be like, oh no, actually like, you need, and so it was just kind of that combination.",
+  "zh": "他会说，哦不对，实际上，你需要——就是这样一种组合。"
+ },
+ {
+  "seg": 272,
+  "start": 1631.034,
+  "end": 1631.454,
+  "speaker": "Unknown",
+  "en": "And then,",
+  "zh": "然后呢，"
+ },
+ {
+  "seg": 273,
+  "start": 1632.571,
+  "end": 1657.824,
+  "speaker": "Unknown",
+  "en": "Really early on we hired my brother who was actually a lawyer who did litigation at the same law firm as Winston and we hired a bunch of like AI folks and now my brother runs like a team of 15 lawyers that come from all these different law firms and practice areas and they help build data sets, test things and so I think this is constantly evolving like now at scale it's like we use",
+  "zh": "很早期的时候，我们雇了我哥哥，他实际上是一名律师，和 Winston 在同一家律所做诉讼，我们又雇了一批 AI 方面的人，现在我哥哥管理着一个大约 15 名律师的团队，他们来自各种不同的律所和执业领域，他们帮忙构建数据集、测试各种东西，所以我认为这是在不断演进的，比如现在到了规模化阶段，我们会用"
+ },
+ {
+  "seg": 274,
+  "start": 1659.365,
+  "end": 1665.449,
+  "speaker": "Unknown",
+  "en": "Like contract attorneys, we work with our clients, and there's kind of all these different like levels you want to figure out evaluation.",
+  "zh": "合同律师，我们和客户合作，要弄清楚评估，有各种不同的层级。"
+ },
+ {
+  "seg": 275,
+  "start": 1665.489,
+  "end": 1674.054,
+  "speaker": "Unknown",
+  "en": "But I would say this is still one of like the very big unsolved problems and like a very hard product and AI problem you need to do to build these products.",
+  "zh": "但我想说，这仍然是那种非常大的未解决问题之一，是构建这些产品必须解决的非常难的产品和 AI 问题。"
+ },
+ {
+  "seg": 276,
+  "start": 1674.194,
+  "end": 1678.317,
+  "speaker": "Unknown",
+  "en": "Yeah, do you build any of that eval, kind of that feedback loop inside the product?",
+  "zh": "是的，那你们有没有在产品内部构建这种 eval,也就是那种反馈循环？"
+ },
+ {
+  "seg": 277,
+  "start": 1678.357,
+  "end": 1682.6,
+  "speaker": "Unknown",
+  "en": "So can you get that eval data point from the customer too?",
+  "zh": "就是说，你们能从客户那里也获得那个 eval 数据点吗？"
+ },
+ {
+  "seg": 278,
+  "start": 1682.94,
+  "end": 1686.424,
+  "speaker": "Unknown",
+  "en": "Yeah, so we build this in the product.",
+  "zh": "是的，我们把它构建进了产品。"
+ },
+ {
+  "seg": 279,
+  "start": 1687.105,
+  "end": 1697.957,
+  "speaker": "Unknown",
+  "en": "The main challenge you run into is everything clients are doing on the product is on their clients' data, and so you can't actually use any of this to train your systems.",
+  "zh": "你遇到的主要挑战是，客户在产品上做的一切都是基于他们客户的数据，所以你实际上不能用其中任何东西来训练你的系统。"
+ },
+ {
+  "seg": 280,
+  "start": 1698.477,
+  "end": 1699.839,
+  "speaker": "Unknown",
+  "en": "What we're starting to build is",
+  "zh": "我们开始构建的是"
+ },
+ {
+  "seg": 281,
+  "start": 1701.02,
+  "end": 1708.182,
+  "speaker": "Unknown",
+  "en": "How do we help law firms train their own systems while respecting kind of ethical laws and all these things?",
+  "zh": "如何在尊重职业道德法规等一切的前提下，帮助律所训练他们自己的系统。"
+ },
+ {
+  "seg": 282,
+  "start": 1708.462,
+  "end": 1710.502,
+  "speaker": "Unknown",
+  "en": "But I think to me that is one of the big challenges.",
+  "zh": "但对我而言，我认为这是最大的挑战之一。"
+ },
+ {
+  "seg": 283,
+  "start": 1710.582,
+  "end": 1717.244,
+  "speaker": "Unknown",
+  "en": "And so we kind of think about it as we can hire our lawyers and there's a bunch we do to improve our general purpose legal systems.",
+  "zh": "所以我们大致是这样想的：我们可以雇我们自己的律师，我们做了很多事情来改进我们的通用法律系统。"
+ },
+ {
+  "seg": 284,
+  "start": 1717.384,
+  "end": 1722.985,
+  "speaker": "Unknown",
+  "en": "And then what is the infrastructure we need to build to help our clients improve their own systems for their benefit?",
+  "zh": "然后就是我们还需要构建什么样的基础设施，来帮助我们的客户为了他们自身的利益改进他们自己的系统。"
+ },
+ {
+  "seg": 285,
+  "start": 1723.205,
+  "end": 1723.385,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 286,
+  "start": 1723.613,
+  "end": 1733.664,
+  "speaker": "Unknown",
+  "en": "And actually, most startups will start selling to small companies and then over time go out market and have a strategy of selling to the largest over time.",
+  "zh": "实际上，大多数初创公司会先卖给小公司，然后随着时间推移走向市场化，制定一个随时间推移卖给最大客户的策略。"
+ },
+ {
+  "seg": 287,
+  "start": 1734.585,
+  "end": 1735.526,
+  "speaker": "Unknown",
+  "en": "You guys did the opposite.",
+  "zh": "你们做了相反的事。"
+ },
+ {
+  "seg": 288,
+  "start": 1736.087,
+  "end": 1742.995,
+  "speaker": "Unknown",
+  "en": "And you said the first couple of customers that you had were some of the largest law firms in the United States, in the world, maybe even.",
+  "zh": "你们说你们最初的一批客户是美国最大的律所，甚至可能是世界上最大的律所。"
+ },
+ {
+  "seg": 289,
+  "start": 1743.395,
+  "end": 1754.546,
+  "speaker": "Unknown",
+  "en": "Maybe tell us a little bit about what gave you the conviction to go that big early on and what were the downstream effects of the product evolution based on that decision?",
+  "zh": "或许跟我们讲讲，是什么让你们有信心那么早就往那么大去做，以及那个决定对产品演进带来了哪些下游影响？"
+ },
+ {
+  "seg": 290,
+  "start": 1754.907,
+  "end": 1759.191,
+  "speaker": "Unknown",
+  "en": "When we first got access to GPT-4, there was kind of this question of",
+  "zh": "当我们最初获得 GPT-4 的访问权限时，有这样一个问题："
+ },
+ {
+  "seg": 291,
+  "start": 1760.567,
+  "end": 1762.829,
+  "speaker": "Unknown",
+  "en": "What type of lawyer should we sell to?",
+  "zh": "我们应该卖给什么类型的律师？"
+ },
+ {
+  "seg": 292,
+  "start": 1763.829,
+  "end": 1769.913,
+  "speaker": "Unknown",
+  "en": "And we had the really strong intuition that big law, like the very large law firms, would be the best place to start.",
+  "zh": "我们有一种非常强烈的直觉，就是大型律所，也就是那些非常大的律所，会是最好的起点。"
+ },
+ {
+  "seg": 293,
+  "start": 1770.294,
+  "end": 1773.236,
+  "speaker": "Unknown",
+  "en": "But there was that big question of like, would they use this?",
+  "zh": "但有一个大问题，比如，他们会用这个吗？"
+ },
+ {
+  "seg": 294,
+  "start": 1773.336,
+  "end": 1774.357,
+  "speaker": "Unknown",
+  "en": "Is this useful to them?",
+  "zh": "这对他们有用吗？"
+ },
+ {
+  "seg": 295,
+  "start": 1774.937,
+  "end": 1787.726,
+  "speaker": "Unknown",
+  "en": "And so we kind of built this super simple product and showed it to general counsels, like associates and partners at big law firms, startup lawyer, kind of every type of lawyer we could find.",
+  "zh": "所以我们构建了一个超级简单的产品，展示给总法律顾问、大型律所的律师和合伙人、初创公司律师，基本上是我们能找到的每一种类型的律师。"
+ },
+ {
+  "seg": 296,
+  "start": 1789.947,
+  "end": 1798.452,
+  "speaker": "Unknown",
+  "en": "We actually ended up finding a senior partner at Allen & Overy at the time, which was the sixth largest law firm.",
+  "zh": "我们实际上最终找到了当时 Allen & Overy 的一位资深合伙人，那是第六大律所。"
+ },
+ {
+  "seg": 297,
+  "start": 1798.492,
+  "end": 1806.917,
+  "speaker": "Unknown",
+  "en": "He was like, this is what I've been looking for for the past 20 years that I've been a senior partner and doing legal tech.",
+  "zh": "他说，这就是我过去 20 年做资深合伙人、做法律科技以来一直在寻找的东西。"
+ },
+ {
+  "seg": 298,
+  "start": 1806.977,
+  "end": 1813.881,
+  "speaker": "Unknown",
+  "en": "I think finding someone who had that vision of what this was going to become, combined with the influence at the firm to",
+  "zh": "我认为，找到一个对这件事会变成什么有那种远见的人，再加上他在律所内的影响力，能够"
+ },
+ {
+  "seg": 299,
+  "start": 1816.502,
+  "end": 1818.482,
+  "speaker": "Unknown",
+  "en": "Buy the product, do a firm-wide rollout.",
+  "zh": "购买这个产品，在全所范围内推广。"
+ },
+ {
+  "seg": 300,
+  "start": 1819.283,
+  "end": 1825.804,
+  "speaker": "Unknown",
+  "en": "I think when we got that, they did public press, which typically doesn't happen when these law firms buy legal tech.",
+  "zh": "我记得当我们拿到那个合作时，他们还做了公开的新闻报道，而这在律所购买法律科技时通常是不会发生的。"
+ },
+ {
+  "seg": 301,
+  "start": 1825.844,
+  "end": 1829.145,
+  "speaker": "Unknown",
+  "en": "Then we sold to PWC's legal team.",
+  "zh": "后来我们又被 PWC 的法务团队采购了。"
+ },
+ {
+  "seg": 302,
+  "start": 1829.185,
+  "end": 1838.186,
+  "speaker": "Unknown",
+  "en": "I think those two back-to-back gave us the conviction that, okay, there's something really interesting here for big law firms.",
+  "zh": "我觉得这两件事接连发生，让我们确信：好的，这里对大型律所来说确实有非常有趣的东西。"
+ },
+ {
+  "seg": 303,
+  "start": 1838.226,
+  "end": 1840.947,
+  "speaker": "Unknown",
+  "en": "I think the downstream impact was",
+  "zh": "我认为带来的下游影响是"
+ },
+ {
+  "seg": 304,
+  "start": 1842.078,
+  "end": 1849.863,
+  "speaker": "Unknown",
+  "en": "We had the very strong intuition that like one, most of the legal spend is in the largest firms and the largest companies.",
+  "zh": "我们有一种非常强烈的直觉：第一，大部分法律支出都集中在最大的律所和最大的公司。"
+ },
+ {
+  "seg": 305,
+  "start": 1850.123,
+  "end": 1859.35,
+  "speaker": "Unknown",
+  "en": "And so if we could build a product for those largest law firms and their clients, it would be much easier to go downstream than vice versa.",
+  "zh": "所以如果我们能为那些最大的律所及其客户打造产品，那么向下游拓展会比反过来容易得多。"
+ },
+ {
+  "seg": 306,
+  "start": 1859.41,
+  "end": 1862.992,
+  "speaker": "Unknown",
+  "en": "I think you run into a problem if you start with very small law firms.",
+  "zh": "我觉得如果你从非常小的律所起步，就会遇到问题。"
+ },
+ {
+  "seg": 307,
+  "start": 1863.473,
+  "end": 1866.034,
+  "speaker": "Unknown",
+  "en": "And so some examples of things you need to solve is",
+  "zh": "所以举几个你需要解决的事情的例子："
+ },
+ {
+  "seg": 308,
+  "start": 1867.255,
+  "end": 1874.021,
+  "speaker": "Unknown",
+  "en": "If you're working with these largest law firms, their clients are banks, the largest private equity firms, government.",
+  "zh": "如果你在和这些最大的律所合作，他们的客户是银行、最大的私募股权公司、政府。"
+ },
+ {
+  "seg": 309,
+  "start": 1874.081,
+  "end": 1885.732,
+  "speaker": "Unknown",
+  "en": "From the start, we thought about how do we build our platform in a way that we're doing all this security so eventually we can work with the government with these super high security clients.",
+  "zh": "从一开始，我们就在思考如何以某种方式构建我们的平台，做好所有这些安全措施，这样最终我们才能和政府以及这些超高安全要求的客户合作。"
+ },
+ {
+  "seg": 310,
+  "start": 1885.752,
+  "end": 1887.754,
+  "speaker": "Unknown",
+  "en": "I think that was super important from the start.",
+  "zh": "我认为这一点从一开始就超级重要。"
+ },
+ {
+  "seg": 311,
+  "start": 1888.012,
+  "end": 1904.505,
+  "speaker": "Unknown",
+  "en": "Yeah, I think a whole generation of startups have tried to replicate that, and it's a very interesting trend just because I think common lore would tell you not to go do what you guys did, and so kudos to you.",
+  "zh": "是的，我认为整整一代创业公司都试图复制这一点，这是一个非常有趣的趋势，因为我认为通常的经验会告诉你不要去做你们做的事情，所以为你们点赞。"
+ },
+ {
+  "seg": 312,
+  "start": 1904.805,
+  "end": 1910.269,
+  "speaker": "Unknown",
+  "en": "I think legal was also an interesting one where the largest law firms are large",
+  "zh": "我觉得法律行业还有一个有趣的地方，最大的律所规模很大"
+ },
+ {
+  "seg": 313,
+  "start": 1911.11,
+  "end": 1918.591,
+  "speaker": "Unknown",
+  "en": "But relative to enterprises, the largest law firms are thousands of people.",
+  "zh": "但相对于企业来说，最大的律所也就几千人。"
+ },
+ {
+  "seg": 314,
+  "start": 1918.792,
+  "end": 1930.274,
+  "speaker": "Unknown",
+  "en": "I think there was a lot of unique dynamics in the legal industry where this strategy worked, where, for example, if you tried to do what we did in investment banking, now you need to go sell to JP Morgan.",
+  "zh": "我认为法律行业有很多独特的动态因素让这个策略行得通，比如，如果你试图在投资银行业做我们做的事情，那你就得去卖给 JP Morgan。"
+ },
+ {
+  "seg": 315,
+  "start": 1930.354,
+  "end": 1933.114,
+  "speaker": "Unknown",
+  "en": "And I think that ends up being much more difficult.",
+  "zh": "而我认为那样最终会困难得多。"
+ },
+ {
+  "seg": 316,
+  "start": 1933.434,
+  "end": 1935.735,
+  "speaker": "Unknown",
+  "en": "So I think we get a question sometimes of,",
+  "zh": "所以我想我们有时会收到这样的问题："
+ },
+ {
+  "seg": 317,
+  "start": 1936.615,
+  "end": 1937.895,
+  "speaker": "Unknown",
+  "en": "Why did Harvey work in legal?",
+  "zh": "为什么 Harvey 在法律行业成功了？"
+ },
+ {
+  "seg": 318,
+  "start": 1937.936,
+  "end": 1941.437,
+  "speaker": "Unknown",
+  "en": "And you kind of don't see this as much in the other professional services.",
+  "zh": "而你在其他专业服务领域没有看到这么多这样的情况。"
+ },
+ {
+  "seg": 319,
+  "start": 1941.477,
+  "end": 1943.197,
+  "speaker": "Unknown",
+  "en": "And I think there's some dynamics like that.",
+  "zh": "我认为有一些类似这样的动态因素。"
+ },
+ {
+  "seg": 320,
+  "start": 1943.277,
+  "end": 1943.518,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 321,
+  "start": 1943.878,
+  "end": 1952.721,
+  "speaker": "Unknown",
+  "en": "Another part of the early stage story that you talked about at the beginning is OpenAI was one of your first investors and you have a very close relationship with them.",
+  "zh": "你在一开始谈到的早期故事的另一个部分是 OpenAI 是你们最早的投资人之一，你们和他们有着非常密切的关系。"
+ },
+ {
+  "seg": 322,
+  "start": 1953.261,
+  "end": 1962.924,
+  "speaker": "Unknown",
+  "en": "And then, you know, clearly over time, you know, and this is public that you guys do work with other closed model companies as well and, you know, have a very strong research team internally.",
+  "zh": "然后，你知道的，很明显随着时间推移，你们也公开了和其他闭源模型公司合作，并且内部有一支非常强大的研究团队。"
+ },
+ {
+  "seg": 323,
+  "start": 1963.484,
+  "end": 1975.847,
+  "speaker": "Unknown",
+  "en": "So maybe talk a bit about, you know, how you think about how much of the capabilities looking forward do you think you're going to rely on from the closed model labs versus how much do you think should come from your internal team?",
+  "zh": "那么也许可以谈谈，展望未来，你认为有多大比例的能力你会依赖闭源模型实验室，而有多大比例你认为应该来自你的内部团队？"
+ },
+ {
+  "seg": 324,
+  "start": 1976.255,
+  "end": 1978.176,
+  "speaker": "Unknown",
+  "en": "I think this is still to be seen.",
+  "zh": "我认为这仍有待观察。"
+ },
+ {
+  "seg": 325,
+  "start": 1978.877,
+  "end": 1983.14,
+  "speaker": "Unknown",
+  "en": "Our general sense is, one, we love OpenAI.",
+  "zh": "我们的总体感受是，第一，我们热爱 OpenAI。"
+ },
+ {
+  "seg": 326,
+  "start": 1983.16,
+  "end": 1984.521,
+  "speaker": "Unknown",
+  "en": "They're our first investor.",
+  "zh": "他们是我们的第一位投资人。"
+ },
+ {
+  "seg": 327,
+  "start": 1984.541,
+  "end": 1986.202,
+  "speaker": "Unknown",
+  "en": "We still work super closely with them.",
+  "zh": "我们仍然和他们保持非常紧密的合作。"
+ },
+ {
+  "seg": 328,
+  "start": 1986.222,
+  "end": 1992.047,
+  "speaker": "Unknown",
+  "en": "A lot of the motivation for model differentiation is just customer demand.",
+  "zh": "模型差异化的大部分动机其实就是客户需求。"
+ },
+ {
+  "seg": 329,
+  "start": 1992.567,
+  "end": 2003.617,
+  "speaker": "Unknown",
+  "en": "Like I still remember very early on in the company, there was kind of that race of like the models getting state of the art and we would have customers every month be like, well, this model is now state of the art, can we use that?",
+  "zh": "比如我仍然记得在公司很早期的时候，有过那种模型争抢最先进水平的竞赛，我们每个月都会有客户问：嗯，现在这个模型是最先进的了，我们能用它吗？"
+ },
+ {
+  "seg": 330,
+  "start": 2004.137,
+  "end": 2004.918,
+  "speaker": "Unknown",
+  "en": "I think that was one.",
+  "zh": "我认为这是一点。"
+ },
+ {
+  "seg": 331,
+  "start": 2004.938,
+  "end": 2009.221,
+  "speaker": "Unknown",
+  "en": "And then as we get larger, a lot of these enterprises are on different clouds.",
+  "zh": "然后随着我们变大，很多这些企业使用不同的云。"
+ },
+ {
+  "seg": 332,
+  "start": 2009.281,
+  "end": 2012.644,
+  "speaker": "Unknown",
+  "en": "And so I think there's kind of a bunch of reasons that you need to just support this.",
+  "zh": "所以我认为有一堆原因让你必须支持这些。"
+ },
+ {
+  "seg": 333,
+  "start": 2013.765,
+  "end": 2017.288,
+  "speaker": "Unknown",
+  "en": "Our general sense is we will never pre-train models.",
+  "zh": "我们的总体感受是，我们永远不会去预训练模型。"
+ },
+ {
+  "seg": 334,
+  "start": 2017.909,
+  "end": 2021.452,
+  "speaker": "Unknown",
+  "en": "I think the base models will continue to improve.",
+  "zh": "我认为基础模型会持续改进。"
+ },
+ {
+  "seg": 335,
+  "start": 2021.672,
+  "end": 2023.153,
+  "speaker": "Unknown",
+  "en": "You'll see larger context windows.",
+  "zh": "你会看到更大的上下文窗口。"
+ },
+ {
+  "seg": 336,
+  "start": 2023.173,
+  "end": 2024.234,
+  "speaker": "Unknown",
+  "en": "They'll get more robust.",
+  "zh": "它们会变得更稳健。"
+ },
+ {
+  "seg": 337,
+  "start": 2024.735,
+  "end": 2027.838,
+  "speaker": "Unknown",
+  "en": "Tool use and reasoning, all these generic capabilities will get better.",
+  "zh": "工具使用和推理，所有这些通用能力都会变得更好。"
+ },
+ {
+  "seg": 338,
+  "start": 2028.418,
+  "end": 2032.822,
+  "speaker": "Unknown",
+  "en": "I think they will also make them better at vertical-specific domains.",
+  "zh": "我认为它们也会在垂直特定领域做得更好。"
+ },
+ {
+  "seg": 339,
+  "start": 2034.223,
+  "end": 2039.604,
+  "speaker": "Unknown",
+  "en": "You saw OpenAI is like hiring bankers and like I think these companies will do all this for legal as well.",
+  "zh": "你看到 OpenAI 在招聘银行家，我想这些公司也会在法律领域做这些事情。"
+ },
+ {
+  "seg": 340,
+  "start": 2040.404,
+  "end": 2046.085,
+  "speaker": "Unknown",
+  "en": "And so we think kind of for a lot of that type of work, the foundation models will get better.",
+  "zh": "所以我们认为，对于很多这类工作，基础模型会变得更好。"
+ },
+ {
+  "seg": 341,
+  "start": 2046.985,
+  "end": 2054.227,
+  "speaker": "Unknown",
+  "en": "And then our bet is there is some extremely specialized work that the largest law firms that we work with do.",
+  "zh": "而我们的赌注是，有一些极其专业化的工作，是我们合作的那些最大律所所做的。"
+ },
+ {
+  "seg": 342,
+  "start": 2055.027,
+  "end": 2059.668,
+  "speaker": "Unknown",
+  "en": "That work will never go into the public models.",
+  "zh": "那些工作永远不会进入公开的模型。"
+ },
+ {
+  "seg": 343,
+  "start": 2059.828,
+  "end": 2061.508,
+  "speaker": "Unknown",
+  "en": "And so if you think about like",
+  "zh": "所以如果你想想"
+ },
+ {
+  "seg": 344,
+  "start": 2062.148,
+  "end": 2070.136,
+  "speaker": "Unknown",
+  "en": "The value of these very large law firms is they have worked with a large company for 20 years.",
+  "zh": "这些超大型律所的价值在于，他们和一家大公司合作了 20 年。"
+ },
+ {
+  "seg": 345,
+  "start": 2070.376,
+  "end": 2074.84,
+  "speaker": "Unknown",
+  "en": "And it's not just the legal understanding, it's the understanding of the company.",
+  "zh": "这不仅仅是法律上的理解，而是对这家公司的理解。"
+ },
+ {
+  "seg": 346,
+  "start": 2075.661,
+  "end": 2082.447,
+  "speaker": "Unknown",
+  "en": "And where I think we want to provide a lot of the value is how do you start encoding that into the AI systems?",
+  "zh": "而我认为我们想提供很多价值的地方在于，如何开始把这些编码进 AI 系统？"
+ },
+ {
+  "seg": 347,
+  "start": 2082.567,
+  "end": 2083.808,
+  "speaker": "Unknown",
+  "en": "And I think that's something where",
+  "zh": "我认为这是一件"
+ },
+ {
+  "seg": 348,
+  "start": 2084.709,
+  "end": 2086.811,
+  "speaker": "Unknown",
+  "en": "You just fundamentally can't put it into models.",
+  "zh": "你从根本上无法把它放进模型里的事情。"
+ },
+ {
+  "seg": 349,
+  "start": 2086.831,
+  "end": 2090.815,
+  "speaker": "Unknown",
+  "en": "You have to like build secure products that let you benefit from that.",
+  "zh": "你必须去构建安全的产品，让你能够从中受益。"
+ },
+ {
+  "seg": 350,
+  "start": 2091.456,
+  "end": 2099.144,
+  "speaker": "Unknown",
+  "en": "And then I think there will be a lot of, I think one thing you see people starting to do is how do you build these RL environments for specific domains?",
+  "zh": "然后我认为会有很多……我觉得你看到人们开始做的一件事是，如何为特定领域构建这些 RL 环境？"
+ },
+ {
+  "seg": 351,
+  "start": 2099.724,
+  "end": 2104.489,
+  "speaker": "Unknown",
+  "en": "And if you think of what the RL environment is for legal, it is a client matter, right?",
+  "zh": "如果你想想法律领域的 RL 环境是什么，它就是一个客户案件，对吧？"
+ },
+ {
+  "seg": 352,
+  "start": 2104.529,
+  "end": 2107.392,
+  "speaker": "Unknown",
+  "en": "Like you have this super well-defined task where",
+  "zh": "比如你有这种定义得非常清楚的任务，"
+ },
+ {
+  "seg": 353,
+  "start": 2108.173,
+  "end": 2119.003,
+  "speaker": "Unknown",
+  "en": "I think the thing that is so interesting about legal is you actually know the end goal and you have this super rich history where if I'm working on a litigation, I know all the previous litigations I did.",
+  "zh": "我觉得法律领域如此有趣的地方在于，你实际上知道最终目标，而且你拥有非常丰富的历史，比如如果我在做一个诉讼，我知道我做过的所有之前的诉讼。"
+ },
+ {
+  "seg": 354,
+  "start": 2119.043,
+  "end": 2122.166,
+  "speaker": "Unknown",
+  "en": "I know roughly the phases, the types of questions I'll be asked.",
+  "zh": "我大致知道各个阶段，会被问到的各类问题。"
+ },
+ {
+  "seg": 355,
+  "start": 2122.847,
+  "end": 2127.571,
+  "speaker": "Unknown",
+  "en": "And so I think where we see really interesting areas to differentiate is",
+  "zh": "所以我认为我们看到真正有意思的差异化领域是"
+ },
+ {
+  "seg": 356,
+  "start": 2128.72,
+  "end": 2134.368,
+  "speaker": "Unknown",
+  "en": "We've built those environments for our users who are lawyers and like their AI.",
+  "zh": "我们已经为我们的用户——律师和他们的 AI——构建了那些环境。"
+ },
+ {
+  "seg": 357,
+  "start": 2134.428,
+  "end": 2144.903,
+  "speaker": "Unknown",
+  "en": "And so as those start becoming these like multiplayer environments and you have people working in those, how do you use that to kind of build these like very domain specific systems?",
+  "zh": "当那些环境开始变成这种多人环境、有人们在其中工作时，你如何利用这一点来构建这些非常特定领域的系统？"
+ },
+ {
+  "seg": 358,
+  "start": 2145.688,
+  "end": 2147.79,
+  "speaker": "Unknown",
+  "en": "And how do you direct your research team?",
+  "zh": "那你如何指导你的研究团队？"
+ },
+ {
+  "seg": 359,
+  "start": 2147.81,
+  "end": 2150.673,
+  "speaker": "Unknown",
+  "en": "I mean, there's many things one could work on, right?",
+  "zh": "我是说，有很多可以做的事情，对吧？"
+ },
+ {
+  "seg": 360,
+  "start": 2150.713,
+  "end": 2158.121,
+  "speaker": "Unknown",
+  "en": "And so do you think of it as, hey, there's this goal that we want to achieve or this capability we want to achieve, and we're going to work back from there?",
+  "zh": "所以你是把它想成，嘿，有一个我们想实现的目标，或者我们想实现的能力，然后我们从那里往回推导？"
+ },
+ {
+  "seg": 361,
+  "start": 2158.141,
+  "end": 2159.703,
+  "speaker": "Unknown",
+  "en": "Or, yeah, maybe talk about that.",
+  "zh": "或者，嗯，也许谈谈这个。"
+ },
+ {
+  "seg": 362,
+  "start": 2160.26,
+  "end": 2162.462,
+  "speaker": "Unknown",
+  "en": "Yeah, this is super hard.",
+  "zh": "是的，这非常难。"
+ },
+ {
+  "seg": 363,
+  "start": 2162.522,
+  "end": 2171.309,
+  "speaker": "Unknown",
+  "en": "I mean, I think one interesting comparison is I worked at Brain and I worked at DeepMind, and they had kind of the opposite approach to this.",
+  "zh": "我是说，我觉得一个有意思的对比是，我在 Brain 工作过，也在 DeepMind 工作过，它们在这件事上的方式大致相反。"
+ },
+ {
+  "seg": 364,
+  "start": 2171.39,
+  "end": 2181.238,
+  "speaker": "Unknown",
+  "en": "So at Brain, it was basically, I mean, both of them were hire super smart researchers, and then Brain, it was let everyone work on whatever they want.",
+  "zh": "所以在 Brain，基本上是……这两家都是招超级聪明的研究员，Brain 是让每个人做他们想做的任何事。"
+ },
+ {
+  "seg": 365,
+  "start": 2181.818,
+  "end": 2182.819,
+  "speaker": "Unknown",
+  "en": "DeepMind was",
+  "zh": "DeepMind 是"
+ },
+ {
+  "seg": 366,
+  "start": 2184.137,
+  "end": 2198.151,
+  "speaker": "Unknown",
+  "en": "More top-down in the sense of they had a thesis on how we're going to get to AGI and a bunch of RL environments and benchmarks, and the game was really how do we improve on all these RL environments.",
+  "zh": "更自上而下的，意思是他们有一个关于我们要如何达到 AGI 的论点，以及一堆 RL 环境和基准测试，而游戏实际上是如何在这些 RL 环境上取得改进。"
+ },
+ {
+  "seg": 367,
+  "start": 2198.992,
+  "end": 2201.595,
+  "speaker": "Unknown",
+  "en": "And I think what we want to get to is closer",
+  "zh": "而我认为我们想要达到的更接近"
+ },
+ {
+  "seg": 368,
+  "start": 2202.676,
+  "end": 2226.634,
+  "speaker": "Unknown",
+  "en": "to the DeepMind approach just because I think what's nice about our domain is it's very well-defined in the sense of like you know all the legal work that is being done and so you can kind of start thinking about for all these practice areas and all these tasks how do you measure progress and how do you improve and then where you want to give the freedom is I think you want to be agnostic or you want a portfolio approach of",
+  "zh": "DeepMind 的方式，因为我觉得我们这个领域的好处是它定义得非常清楚，你知道所有正在进行的法律工作，所以你可以开始思考对于所有这些业务领域和所有这些任务，如何衡量进展、如何改进，然后你想给自由的地方是，我认为你想保持不可知，或者你想要一个组合式的策略，"
+ },
+ {
+  "seg": 369,
+  "start": 2227.134,
+  "end": 2228.835,
+  "speaker": "Unknown",
+  "en": "Is computer use going to be the right way?",
+  "zh": "是计算机使用会成为正确的方式吗？"
+ },
+ {
+  "seg": 370,
+  "start": 2228.955,
+  "end": 2229.715,
+  "speaker": "Unknown",
+  "en": "Or tool use?",
+  "zh": "还是工具使用？"
+ },
+ {
+  "seg": 371,
+  "start": 2230.036,
+  "end": 2234.878,
+  "speaker": "Unknown",
+  "en": "Or for a lot of these problems, like traditional ML works, and so figuring out the balance.",
+  "zh": "还是对很多这类问题来说，传统 ML 就行，所以要弄清楚平衡。"
+ },
+ {
+  "seg": 372,
+  "start": 2235.498,
+  "end": 2236.539,
+  "speaker": "Unknown",
+  "en": "And I think the...",
+  "zh": "然后我觉得……"
+ },
+ {
+  "seg": 373,
+  "start": 2237.592,
+  "end": 2252.059,
+  "speaker": "Unknown",
+  "en": "Definitely the hard thing if you are an application layer company is striking the right balance of, you know, when you're a small team, it's like you can't have as many people just like, hey, let me go work on this thing that hopefully pays off.",
+  "zh": "如果你是应用层公司，明确困难的事情是拿捏好恰当的平衡，你知道，当你是个小团队时，你不可能有很多人只是说，嘿，让我去做这个希望有回报的东西。"
+ },
+ {
+  "seg": 374,
+  "start": 2252.159,
+  "end": 2259.082,
+  "speaker": "Unknown",
+  "en": "And so now I think we're getting to the size that we're thinking about how we invest more in like model training and things like that.",
+  "zh": "所以现在我觉得我们正在达到一个规模，我们在考虑如何在模型训练之类的事情上投入更多。"
+ },
+ {
+  "seg": 375,
+  "start": 2259.162,
+  "end": 2266.446,
+  "speaker": "Unknown",
+  "en": "But early on, it was super important to just work on this is what's going to improve the product today for the customer.",
+  "zh": "但在早期，非常重要的一点就是只做这个：什么能今天就为客户改进产品。"
+ },
+ {
+  "seg": 376,
+  "start": 2266.646,
+  "end": 2267.546,
+  "speaker": "Unknown",
+  "en": "Exactly, exactly.",
+  "zh": "完全正确，完全正确。"
+ },
+ {
+  "seg": 377,
+  "start": 2267.606,
+  "end": 2273.668,
+  "speaker": "Unknown",
+  "en": "If your resource can train, you can't have your best engineers or researchers doing a pie-in-the-sky project.",
+  "zh": "如果你的资源能用于训练，你不能让你最好的工程师或研究员去做天马行空的项目。"
+ },
+ {
+  "seg": 378,
+  "start": 2274.248,
+  "end": 2283.69,
+  "speaker": "Unknown",
+  "en": "And a bit of a challenging question, but I think relevant just given, so you were super early in the wave, but there are still companies getting started today.",
+  "zh": "一个有点挑战性的问题，但我觉得是相关的，因为你是在这波浪潮非常早期的时候，但今天仍然有公司在起步。"
+ },
+ {
+  "seg": 379,
+  "start": 2283.71,
+  "end": 2290.831,
+  "speaker": "Unknown",
+  "en": "The go-to-market dynamics are different and the businesses are different, but you're going after other vertical areas.",
+  "zh": "通往市场的动态不同了，生意也不同了，但你们是在攻其他的垂直领域。"
+ },
+ {
+  "seg": 380,
+  "start": 2291.832,
+  "end": 2293.472,
+  "speaker": "Unknown",
+  "en": "If you were to start Harvey today,",
+  "zh": "如果你今天创立 Harvey，"
+ },
+ {
+  "seg": 381,
+  "start": 2294.452,
+  "end": 2299.875,
+  "speaker": "Unknown",
+  "en": "Do you think that the stack or the way that you build the company would look significantly different?",
+  "zh": "你觉得技术栈或者你构建公司的方式会显著不同吗？"
+ },
+ {
+  "seg": 382,
+  "start": 2300.315,
+  "end": 2305.937,
+  "speaker": "Unknown",
+  "en": "I guess one answer is like if I was going to start a company, I probably wouldn't start Harvey today.",
+  "zh": "我想一个答案是，如果我要创业，我今天可能不会创立 Harvey。"
+ },
+ {
+  "seg": 383,
+  "start": 2305.957,
+  "end": 2315.622,
+  "speaker": "Unknown",
+  "en": "I think definitely the stack has changed in the sense of when we started it, there was basically no infrastructure to build any of this stuff.",
+  "zh": "我觉得技术栈确实变了，我们开始的时候，基本上没有任何基础设施来构建这些东西。"
+ },
+ {
+  "seg": 384,
+  "start": 2316.622,
+  "end": 2324.389,
+  "speaker": "Unknown",
+  "en": "I think now it's getting a bit better, but it still feels like that is largely missing.",
+  "zh": "我觉得现在好了一点，但仍然感觉这在很大程度上是缺失的。"
+ },
+ {
+  "seg": 385,
+  "start": 2325.129,
+  "end": 2328.012,
+  "speaker": "Unknown",
+  "en": "I think now there's better evaluation tooling, which we use.",
+  "zh": "我觉得现在有更好的评估工具了，我们在用。"
+ },
+ {
+  "seg": 386,
+  "start": 2328.032,
+  "end": 2336.599,
+  "speaker": "Unknown",
+  "en": "We had a problem early on where we were doing embeddings at a scale that this would just break what the cloud providers have or what a lot of the",
+  "zh": "我们早期遇到一个问题，我们做 embeddings 的规模会直接把云服务商提供的或很多"
+ },
+ {
+  "seg": 387,
+  "start": 2337.139,
+  "end": 2337.659,
+  "speaker": "Unknown",
+  "en": "Startups have.",
+  "zh": "创业公司提供的搞挂。"
+ },
+ {
+  "seg": 388,
+  "start": 2337.679,
+  "end": 2340.421,
+  "speaker": "Unknown",
+  "en": "I think now we've worked with a bunch of them and it's getting much better.",
+  "zh": "我觉得现在我们和其中一堆合作过了，情况好多了。"
+ },
+ {
+  "seg": 389,
+  "start": 2340.701,
+  "end": 2344.543,
+  "speaker": "Unknown",
+  "en": "I think even like the models at the time we would like hit capacity limits.",
+  "zh": "我觉得甚至当时模型我们会撞到容量上限。"
+ },
+ {
+  "seg": 390,
+  "start": 2345.123,
+  "end": 2347.144,
+  "speaker": "Unknown",
+  "en": "So that's definitely getting better.",
+  "zh": "所以这确实在变好。"
+ },
+ {
+  "seg": 391,
+  "start": 2347.304,
+  "end": 2357.89,
+  "speaker": "Unknown",
+  "en": "But I would say that was actually less of like the specific tooling wasn't as much of what mattered, but it was really thinking about how does the shape of the product fit with the models.",
+  "zh": "但我会说，其实具体的工具并不是那么重要，真正重要的是思考产品的形态如何与模型契合。"
+ },
+ {
+  "seg": 392,
+  "start": 2358.45,
+  "end": 2360.972,
+  "speaker": "Unknown",
+  "en": "And so maybe that's the part that would be different where",
+  "zh": "所以也许那才是会不同的部分，"
+ },
+ {
+  "seg": 393,
+  "start": 2361.572,
+  "end": 2370.994,
+  "speaker": "Unknown",
+  "en": "There was a bunch of design decisions we made early on that potentially now you would do them a bit differently given how the ecosystem has changed.",
+  "zh": "我们早期做过很多设计决策，考虑到生态系统已经变化，现在你可能会稍微不同地做那些决策。"
+ },
+ {
+  "seg": 394,
+  "start": 2371.334,
+  "end": 2373.894,
+  "speaker": "Unknown",
+  "en": "A couple of future-looking questions.",
+  "zh": "几个面向未来的问题。"
+ },
+ {
+  "seg": 395,
+  "start": 2374.154,
+  "end": 2381.076,
+  "speaker": "Unknown",
+  "en": "The first question I'll ask you, it's a hard question, but you, in 2022, you were playing around with GBT4.",
+  "zh": "我要问你的第一个问题，这是个很难的问题，你，在 2022 年，你在玩 GBT4。"
+ },
+ {
+  "seg": 396,
+  "start": 2382.236,
+  "end": 2387.957,
+  "speaker": "Unknown",
+  "en": "I hear you when you say that if you're playing around with it, you can imagine a lot of the things, but the reality is a lot of people wouldn't imagine that.",
+  "zh": "我明白你说的，如果你在玩它，你可以想象很多东西，但现实是很多人不会想象到。"
+ },
+ {
+  "seg": 397,
+  "start": 2388.677,
+  "end": 2393.621,
+  "speaker": "Unknown",
+  "en": "You were pretty ahead of the times in being able to see that looking forward, this would be possible.",
+  "zh": "你在能够看到往前看这会成为可能这件事上，相当超前于时代。"
+ },
+ {
+  "seg": 398,
+  "start": 2394.982,
+  "end": 2407.192,
+  "speaker": "Unknown",
+  "en": "Playing around with what's possible today, what's the next thing that you think is something that people aren't thinking about or some capability people aren't really capitalizing on that is going to materialize in the next couple of years?",
+  "zh": "在把玩今天可能性的基础上，你觉得下一个会是什么——人们没有在想的事情，或者人们没有真正加以利用、但会在接下来几年里成为现实的某种能力？"
+ },
+ {
+  "seg": 399,
+  "start": 2407.792,
+  "end": 2408.993,
+  "speaker": "Unknown",
+  "en": "Like Harvey-specific?",
+  "zh": "是指 Harvey 特定的吗？"
+ },
+ {
+  "seg": 400,
+  "start": 2409.113,
+  "end": 2418.181,
+  "speaker": "Unknown",
+  "en": "It can be Harvey-specific or you can even be abstracted up to just a capability that's just going to improve that if you're starting a company today, you should really be thinking about.",
+  "zh": "它可以是 Harvey 特定的,或者你甚至可以抽象到只是一个能力,如果你今天创办一家公司,你真的应该考虑去改进它。"
+ },
+ {
+  "seg": 401,
+  "start": 2418.539,
+  "end": 2419.379,
+  "speaker": "Unknown",
+  "en": "That's a good question.",
+  "zh": "这是个好问题。"
+ },
+ {
+  "seg": 402,
+  "start": 2419.74,
+  "end": 2429.484,
+  "speaker": "Unknown",
+  "en": "Yeah, I think one thing is like I'm so Harvey-focused that it's like I actually don't think I have good intuition of like what is now possible more broadly.",
+  "zh": "是的,我觉得有一点是,我太专注于 Harvey 了,以至于我其实对更广泛范围内什么是现在可能的,并没有很好的直觉。"
+ },
+ {
+  "seg": 403,
+  "start": 2429.504,
+  "end": 2433.666,
+  "speaker": "Unknown",
+  "en": "I think one thing I think of as like a longer-term futuristic thing is what are",
+  "zh": "我认为有一个我视为更长期的、未来主义的事情是,有哪些"
+ },
+ {
+  "seg": 404,
+  "start": 2436.547,
+  "end": 2443.392,
+  "speaker": "Unknown",
+  "en": "things that are natural language that could be turned into APIs.",
+  "zh": "自然语言的东西可以被转化为 API。"
+ },
+ {
+  "seg": 405,
+  "start": 2443.492,
+  "end": 2449.976,
+  "speaker": "Unknown",
+  "en": "One example for us is we're building tools that automate NDAs.",
+  "zh": "对我们来说一个例子是,我们正在构建自动化 NDA 的工具。"
+ },
+ {
+  "seg": 406,
+  "start": 2450.016,
+  "end": 2461.663,
+  "speaker": "Unknown",
+  "en": "You could imagine we have this negotiation agent, and as we sell Harvey to more clients, there will be cases where you have these two Harvey agents that negotiate against each other.",
+  "zh": "你可以想象,我们有这个谈判智能体,随着我们把 Harvey 卖给更多客户,会出现两个 Harvey 智能体互相谈判的情况。"
+ },
+ {
+  "seg": 407,
+  "start": 2462.204,
+  "end": 2463.745,
+  "speaker": "Unknown",
+  "en": "But for something like an NDA,",
+  "zh": "但对于像 NDA 这样的东西,"
+ },
+ {
+  "seg": 408,
+  "start": 2464.505,
+  "end": 2472.575,
+  "speaker": "Unknown",
+  "en": "You could probably just take the historical NDAs of both parties and then just say, hey, generate an NDA that we would both approve.",
+  "zh": "你可能只需要拿走双方历史上的 NDA,然后说,嘿,生成一份我们双方都会批准的 NDA。"
+ },
+ {
+  "seg": 409,
+  "start": 2473.656,
+  "end": 2478.062,
+  "speaker": "Unknown",
+  "en": "And if you think of how this happens right now, it's you exchange a bunch of emails and it takes a week.",
+  "zh": "如果你想想现在这件事是怎么发生的,是你们交换一堆邮件,需要花一周时间。"
+ },
+ {
+  "seg": 410,
+  "start": 2479.311,
+  "end": 2485.116,
+  "speaker": "Unknown",
+  "en": "That could turn it into an API where it could just say, click a button, and you can enter into an NDA.",
+  "zh": "这可以变成一个 API,只需点击一个按钮,你就可以签订一份 NDA。"
+ },
+ {
+  "seg": 411,
+  "start": 2485.136,
+  "end": 2498.708,
+  "speaker": "Unknown",
+  "en": "Then I think the interesting thing is when you convert these processes from something that takes anything longer than an API call, I think you just get this inflection point where you get these secondary effects.",
+  "zh": "然后我觉得有意思的是,当你把这些流程从任何比一次 API 调用更耗时的事情转换过来,我认为你会到达这个拐点,产生这些次级效应。"
+ },
+ {
+  "seg": 412,
+  "start": 2498.728,
+  "end": 2505.654,
+  "speaker": "Unknown",
+  "en": "I don't know what it is of this one, but I think there is a bunch of examples like this that I can think about where",
+  "zh": "我不知道这个的具体次级效应是什么,但我认为我可以想到一堆这样的例子,其中"
+ },
+ {
+  "seg": 413,
+  "start": 2506.655,
+  "end": 2514.182,
+  "speaker": "Unknown",
+  "en": "A bunch of these processes that right now are like human constrained turn into APIs and then like what does that enable on top of that?",
+  "zh": "一堆现在受人力约束的流程变成 API,然后在那之上又能实现什么?"
+ },
+ {
+  "seg": 414,
+  "start": 2515.103,
+  "end": 2528.997,
+  "speaker": "Unknown",
+  "en": "And is the blocker to that a technical blocker or is it really just convincing the customer that this mechanism that might sound kind of like sci-fi to them today, this is just the direction that we're going in?",
+  "zh": "而这其中的阻碍是一个技术阻碍,还是说其实只是要说服客户,让他们相信这个今天听起来可能有点像科幻的机制,这就是我们正在前进的方向?"
+ },
+ {
+  "seg": 415,
+  "start": 2529.485,
+  "end": 2532.287,
+  "speaker": "Unknown",
+  "en": "I think this one right now is actually for us just like a bandwidth problem.",
+  "zh": "我觉得这件事对我们来说现在其实只是一个带宽问题。"
+ },
+ {
+  "seg": 416,
+  "start": 2532.307,
+  "end": 2532.507,
+  "speaker": "Unknown",
+  "en": "Got it.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 417,
+  "start": 2532.547,
+  "end": 2535.99,
+  "speaker": "Unknown",
+  "en": "It's not like a priority, but I think you could build this now.",
+  "zh": "它不是一个优先事项,但我认为你现在就可以构建它。"
+ },
+ {
+  "seg": 418,
+  "start": 2536.33,
+  "end": 2538.732,
+  "speaker": "Unknown",
+  "en": "And then, yeah, there is some of like, how do you convince people?",
+  "zh": "然后,是的,还有一些是,你如何说服人们?"
+ },
+ {
+  "seg": 419,
+  "start": 2538.893,
+  "end": 2550.702,
+  "speaker": "Unknown",
+  "en": "Like to me, a lot of this is like, this is like a mini version of self-driving where it's like, the only way eventually you prove this at scale is you have this thing negotiate so many NDAs that people just trust it.",
+  "zh": "对我来说,这很多就像是一个自动驾驶的迷你版本,就是,最终你在大规模上证明这件事的唯一方式,是让这个东西谈判足够多的 NDA,以至于人们就是信任它。"
+ },
+ {
+  "seg": 420,
+  "start": 2550.842,
+  "end": 2551.382,
+  "speaker": "Unknown",
+  "en": "People trust it.",
+  "zh": "人们信任它。"
+ },
+ {
+  "seg": 421,
+  "start": 2551.402,
+  "end": 2553.164,
+  "speaker": "Unknown",
+  "en": "And so, yeah, I think that's...",
+  "zh": "所以,是的,我觉得那就是……"
+ },
+ {
+  "seg": 422,
+  "start": 2554.45,
+  "end": 2555.371,
+  "speaker": "Unknown",
+  "en": "Bandwidth plus that.",
+  "zh": "带宽加上那个。"
+ },
+ {
+  "seg": 423,
+  "start": 2555.471,
+  "end": 2556.412,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 424,
+  "start": 2556.452,
+  "end": 2566.081,
+  "speaker": "Unknown",
+  "en": "My other future-looking question is, in whatever timeline of years you want to talk about, five, ten, or more, what does a Harvey lawyer look like?",
+  "zh": "我另一个面向未来的问题是,在你想谈的任何时间线内,五年、十年或更久,一名 Harvey 律师会是什么样子?"
+ },
+ {
+  "seg": 425,
+  "start": 2566.662,
+  "end": 2575.03,
+  "speaker": "Unknown",
+  "en": "I think on five years, my guess is actually partners look quite similar.",
+  "zh": "我认为在五年内,我的猜测是合伙人看起来其实会相当相似。"
+ },
+ {
+  "seg": 426,
+  "start": 2575.05,
+  "end": 2575.851,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 427,
+  "start": 2577.713,
+  "end": 2585.215,
+  "speaker": "Unknown",
+  "en": "I think what partners are doing is still very similar of like the majority of their job is like how do they develop client relationships and bring in business.",
+  "zh": "我认为合伙人做的事情仍然非常相似,他们大部分的工作是如何发展客户关系和带来业务。"
+ },
+ {
+  "seg": 428,
+  "start": 2585.735,
+  "end": 2597.698,
+  "speaker": "Unknown",
+  "en": "I think there will be some partners that are starting to think about or already doing like how do you build these systems that can distill a lot of the work they do.",
+  "zh": "我认为会有一些合伙人开始思考或已经在做,如何构建这些能够提炼他们大量工作的系统。"
+ },
+ {
+  "seg": 429,
+  "start": 2598.318,
+  "end": 2599.658,
+  "speaker": "Unknown",
+  "en": "Maybe I'll answer it in a different way.",
+  "zh": "也许我会换个方式回答。"
+ },
+ {
+  "seg": 430,
+  "start": 2599.798,
+  "end": 2606.28,
+  "speaker": "Unknown",
+  "en": "In five years like what I think of as like an AI law firm and like what we want to enable is",
+  "zh": "在五年内,我认为的所谓 AI 律所,以及我们想要实现的,是"
+ },
+ {
+  "seg": 431,
+  "start": 2607.8,
+  "end": 2618.516,
+  "speaker": "Unknown",
+  "en": "Can you help law firms transition from the work they are doing is human constrained in terms of they can only scale revenue with",
+  "zh": "你能不能帮助律所完成转变,从他们现在做的工作受人力约束——也就是他们只能随着"
+ },
+ {
+  "seg": 432,
+  "start": 2619.684,
+  "end": 2637.102,
+  "speaker": "Unknown",
+  "en": "Headcount to distribution constrained where they are able in five years to basically take all of their expertise, put it into this system that can do large parts of a client matter and then figure out ways to sell that to customers.",
+  "zh": "人数增长来扩展营收——转变为受分发约束,也就是在五年内他们基本上能把自己的全部专业知识放进这个系统里,这个系统可以完成客户事务的大部分工作,然后想出办法把它卖给客户。"
+ },
+ {
+  "seg": 433,
+  "start": 2637.903,
+  "end": 2639.925,
+  "speaker": "Unknown",
+  "en": "And I think a lot of that looks like",
+  "zh": "而且我认为这很多看起来像是"
+ },
+ {
+  "seg": 434,
+  "start": 2641.266,
+  "end": 2645.07,
+  "speaker": "Unknown",
+  "en": "They become more embedded in their clients.",
+  "zh": "他们更深地嵌入到他们的客户中。"
+ },
+ {
+  "seg": 435,
+  "start": 2645.31,
+  "end": 2652.758,
+  "speaker": "Unknown",
+  "en": "And so like what we're starting to talk about with these clients is as we sell Harvey to these enterprises.",
+  "zh": "所以就像我们开始与这些客户讨论的,当我们把 Harvey 卖给这些企业时。"
+ },
+ {
+  "seg": 436,
+  "start": 2654.502,
+  "end": 2661.985,
+  "speaker": "Unknown",
+  "en": "How do you make it so that anytime they have a legal matter, they're able to connect with their law firm and work together in that environment?",
+  "zh": "你如何做到,每当他们有法律事务时,他们都能与他们的律所建立连接,并在那个环境里一起工作?"
+ },
+ {
+  "seg": 437,
+  "start": 2662.545,
+  "end": 2670.769,
+  "speaker": "Unknown",
+  "en": "And so I think the thing we see, we would want to see in five years is like that work is done by a model trained by a law firm and that client.",
+  "zh": "所以我认为我们在五年内希望看到的是,那样的工作是由一个由律所和那个客户训练的模型来完成的。"
+ },
+ {
+  "seg": 438,
+  "start": 2671.089,
+  "end": 2676.514,
+  "speaker": "Unknown",
+  "en": "I have one last question, and then I'm going to open it to one, maybe two questions from the audience.",
+  "zh": "我有最后一个问题,然后我会开放一个,也许两个来自听众的问题。"
+ },
+ {
+  "seg": 439,
+  "start": 2676.675,
+  "end": 2678.737,
+  "speaker": "Unknown",
+  "en": "So start thinking if you do have a question.",
+  "zh": "所以如果你有问题的话,开始想一想。"
+ },
+ {
+  "seg": 440,
+  "start": 2679.377,
+  "end": 2688.546,
+  "speaker": "Unknown",
+  "en": "My last question is, you guys entered a market that, like I said earlier, is one of the probably most challenging regulatory-wise markets to be a part of.",
+  "zh": "我最后一个问题是,你们进入的这个市场,就像我之前说的,可能是监管方面最具挑战性的市场之一。"
+ },
+ {
+  "seg": 441,
+  "start": 2689.027,
+  "end": 2691.87,
+  "speaker": "Unknown",
+  "en": "And it's clear that you have ambitions even past legal.",
+  "zh": "而且很明显你们甚至有超越法律的雄心。"
+ },
+ {
+  "seg": 442,
+  "start": 2692.29,
+  "end": 2693.932,
+  "speaker": "Unknown",
+  "en": "Like, what do you think is next for Harvey?",
+  "zh": "比如,你觉得 Harvey 的下一步是什么?"
+ },
+ {
+  "seg": 443,
+  "start": 2694.272,
+  "end": 2698.633,
+  "speaker": "Unknown",
+  "en": "I think we're starting to work with adjacent professional service providers.",
+  "zh": "我认为我们开始与相邻的专业服务提供商合作。"
+ },
+ {
+  "seg": 444,
+  "start": 2698.693,
+  "end": 2704.334,
+  "speaker": "Unknown",
+  "en": "So with PwC, we've expanded into tax deals, regulatory, HR.",
+  "zh": "所以与 PwC 一起,我们已经扩展到税务、交易、监管、人力资源。"
+ },
+ {
+  "seg": 445,
+  "start": 2705.354,
+  "end": 2710.655,
+  "speaker": "Unknown",
+  "en": "With a lot of our Fortune 500 customers, we're selling into legal adjacent departments.",
+  "zh": "与我们的许多财富 500 强客户,我们正在向法律相邻的部门销售。"
+ },
+ {
+  "seg": 446,
+  "start": 2711.475,
+  "end": 2718.237,
+  "speaker": "Unknown",
+  "en": "And then with, for example, Blue Owl and private equity firms, we're starting to build just more generic private equity functionality.",
+  "zh": "然后与,例如,Blue Owl 和私募股权公司,我们开始构建更通用的私募股权功能。"
+ },
+ {
+  "seg": 447,
+  "start": 2719.037,
+  "end": 2727.499,
+  "speaker": "Unknown",
+  "en": "And so I think where we see Harvey going is for law firms, how do we help them build the infrastructure to run their business?",
+  "zh": "所以我认为我们看到 Harvey 的方向是,对于律所,我们如何帮助它们构建运营其业务的基础设施?"
+ },
+ {
+  "seg": 448,
+  "start": 2727.819,
+  "end": 2730.64,
+  "speaker": "Unknown",
+  "en": "And then similarly for other professional service providers.",
+  "zh": "然后对于其他专业服务提供商也是类似。"
+ },
+ {
+  "seg": 449,
+  "start": 2731.4,
+  "end": 2739.982,
+  "speaker": "Unknown",
+  "en": "And then I think the connection of that to enterprises is what do the vertical regulatory solutions look like?",
+  "zh": "然后我认为这与企业端的连接是,垂直的监管解决方案会是什么样子?"
+ },
+ {
+  "seg": 450,
+  "start": 2740.042,
+  "end": 2740.922,
+  "speaker": "Unknown",
+  "en": "So for example,",
+  "zh": "比如说，"
+ },
+ {
+  "seg": 451,
+  "start": 2741.722,
+  "end": 2751.809,
+  "speaker": "Unknown",
+  "en": "For private equity, could you build something that helps them manage all of their funds, doing the legal parts, the investment parts, the regulatory compliance?",
+  "zh": "对于私募股权，你能不能做一个帮助他们管理所有基金的东西，包括法律部分、投资部分、监管合规？"
+ },
+ {
+  "seg": 452,
+  "start": 2752.37,
+  "end": 2759.334,
+  "speaker": "Unknown",
+  "en": "And then similarly for insurance, you have some operating system that helps them manage their claims disputes and things like that.",
+  "zh": "同样对于保险，你可以做一个操作系统，帮助他们管理理赔纠纷之类的事情。"
+ },
+ {
+  "seg": 453,
+  "start": 2759.395,
+  "end": 2766.359,
+  "speaker": "Unknown",
+  "en": "And so you can kind of, when you look at what these firms, these law firms do for every vertical, you see that it's actually like,",
+  "zh": "所以你可以这样看，当你观察这些律所为每个垂直领域做的事情时，你会发现其实，"
+ },
+ {
+  "seg": 454,
+  "start": 2767.26,
+  "end": 2779.21,
+  "speaker": "Unknown",
+  "en": "There's some similarity, but it actually becomes so vertically specific because you kind of need to build the product around the regulatory environment of that vertical, and that's what these law firms have done.",
+  "zh": "有一些相似之处，但它实际上变得非常垂直化，因为你需要围绕该垂直领域的监管环境来构建产品，而这些律所已经做到了这一点。"
+ },
+ {
+  "seg": 455,
+  "start": 2779.57,
+  "end": 2780.511,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 456,
+  "start": 2780.531,
+  "end": 2781.292,
+  "speaker": "Unknown",
+  "en": "None of it is easy.",
+  "zh": "这些没有一件是容易的。"
+ },
+ {
+  "seg": 457,
+  "start": 2782.132,
+  "end": 2785.195,
+  "speaker": "Unknown",
+  "en": "Gabe, thank you so much for joining us for Greylock's Change Agents.",
+  "zh": "Gabe，非常感谢你参加 Greylock 的 Change Agents。"
+ },
+ {
+  "seg": 458,
+  "start": 2785.375,
+  "end": 2786.176,
+  "speaker": "Unknown",
+  "en": "Really appreciate it.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 459,
+  "start": 2786.216,
+  "end": 2787.076,
+  "speaker": "Unknown",
+  "en": "This was awesome.",
+  "zh": "这期太棒了。"
+ },
+ {
+  "seg": 460,
+  "start": 2787.196,
+  "end": 2787.817,
+  "speaker": "Unknown",
+  "en": "Thanks so much for having me.",
+  "zh": "非常感谢你们的邀请。"
+ },
+ {
+  "seg": 461,
+  "start": 2787.837,
+  "end": 2788.417,
+  "speaker": "Unknown",
+  "en": "Thanks for being here.",
+  "zh": "感谢你的到来。"
+ },
+ {
+  "seg": 462,
+  "start": 2788.618,
+  "end": 2788.878,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ }
+]

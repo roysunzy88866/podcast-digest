@@ -203,9 +203,9 @@ Monaco 二月上线，之前完全隐身、营销花费为零。策略是「把�
 
 **换个口味**
 
+- [[2026-09-16-a16z-the-ai-native-crm-pmervpt|从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM]]<span class="pd-rz">同公司:Salesforce · 同概念:智能体 (agent)、绿地市场 (greenfield)、记录系统 (system of record)、CRM</span>
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同公司:HubSpot、Salesforce · 同概念:go-to-market、智能体 (agent)</span>
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同公司:Salesforce · 同概念:智能体 (agent)、记录系统 (system of record)</span>
-- [[2026-07-18-twentyvc-20vc-5bn-in-revenue-7-to-7-000-employees|从奶牛测序到 50 亿新冠检测生意，再到用 AI 智能体改造保险]]<span class="pd-rz">同公司:Salesforce · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

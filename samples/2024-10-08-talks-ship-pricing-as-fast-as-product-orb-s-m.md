@@ -147,8 +147,8 @@ Alvaro 说他最着迷的是行业围绕「[[基于结果的定价|基于结果�
 **顺着「创业与行业」挖下去**
 
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR]]<span class="pd-rz">同公司:Anthropic、Shopify · 同概念:SaaS、按用量定价 (usage-based pricing)、智能体 (agent)</span>
+- [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注]]<span class="pd-rz">同公司:OpenAI · 同概念:GPT-4、智能体 (agent)</span>
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同公司:OpenAI、Stripe · 同概念:智能体 (agent)</span>
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]]<span class="pd-rz">同公司:OpenAI、Stripe · 同概念:基于结果的定价 (outcome-based pricing)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

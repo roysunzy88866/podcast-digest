@@ -1,0 +1,286 @@
+{
+  "title_zh": "Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注",
+  "tldr": "Harvey 联合创始人兼总裁 Gabe 谈如何用通用模型做高端法律工作、律所如何围绕人机各自所长重塑工作流与收费模式。",
+  "digest_md": "这一集是 Greylock 的 Change Agents 系列访谈，主角是 Harvey 的联合创始人兼总裁 Gabe——一家做 AI 法律助手的公司的二号人物，2022 年 8 月、也就是 ChatGPT 发布之前创办了这家公司。他早在 2020 年就对投资人说要造一个「AI 律师」，当时对方觉得他疯了；五年后他做到了。而这一集最反直觉的一点是：当所有人都建议他们「去解决 NDA 这种垂直小场景」时，他们的判断恰恰相反——**产品就是模型本身**。\n\n## 起点判断：产品将会是模型\n\nGabe 从 2013、2014 年就开始做 AI 研究，经历了深度学习刚起步的阶段。他当时看到的问题是：每个领域都要造一个专用系统（造自动驾驶就得造一个只会开车的系统），缺的是那个「统一认知架构」。看到 GPT-2、GPT-3 时他意识到，自然语言就是那个统一方式——它能调用 API、能和人交流、能解决各种问题。当时他在 Meta 的大语言模型团队工作；他那些聊着做横向助手产品的 Google Brain 老朋友，后来加入了 OpenAI，成了构建 ChatGPT 的团队。\n\n拿到 GPT-4 早期访问权时（它还没公开、ChatGPT 还不存在），他的室友——后来的 Harvey 联合创始人兼 CEO Winston，曾在本 O'Melveny 这种顶级诉讼律所做诉讼律师——直接拿 GPT-4 尝试自己做律师时干过的任务，摸索出思维链和各种提示词技巧，就这样让模型干起了法律活。\n\n当时他们最强烈的直觉是：「**产品将会是模型**，你想直接与它对话。」而收到的建议几乎全是「去构建垂直工作流、去解决 NDA」。他们判断这些模型会非常通用，所以选择做后来的 copilot 形态。而且 GPT-4 已经好到「即使模型不再进步，也有很多事可做」——但他在深度学习里见过规律：一旦在某个问题上取得初步进展，几乎总能靠更多数据、算力、算法改进持续提升。OpenAI 给他们看了 GPT-4 预览，那才让人感觉可以构建能做高端法律工作的产品，Harvey 由此诞生。\n\n## 产品：律师的工作区\n\nHarvey 今天要构建的是律师的工作区。在大律所，律师处理「客户事务」：做诉讼要访问判例法、所辩护公司的邮件、起诉状、正在起草的动议；做交易则面对数据室（存放收购相关文件的资料库）和类似交易。产品形态包括：一个助手型产品——因为合伙人本来就是把任务发邮件给 associate（资浅律师）去用一堆工具完成，这种交互界面对律师很自然；再加一个类似 Vault 的产品，管数据室和文档管理。核心是把这些都整合到一处，让律师和智能体都有上下文。\n\n## 工作流光谱：从开放任务到模板化流程\n\nHarvey 把智能体任务想成一条光谱的两端：一端是**完全开放的任务**——给 Harvey 任何你会交给 associate 的问题，让一个类似 deep research 的系统接任务、定计划、选工具、解决它；另一端是**定义清晰的模板化流程**——每次做并购都会生成并购协议，其中某些步骤可以是智能体的（比如去数据室里找某样东西），但整体「更在轨道上」，因为你知道要产出什么。难点在于搞清楚每个产品界面应该落在光谱哪个位置。\n\n至于人类在哪里介入，Gabe 说这像编程一样难以事先定义。律所本来就擅长这个：合伙人把一个超复杂的诉讼分解成一堆子问题、分派给合适资历的 associate。他们看到的趋势是**共同演化**——律所围绕「人类擅长什么、模型擅长什么」重塑自己的工作流。比如常见的一条：数据室提取数据交给 Harvey，再让律师审查输出确认提取正确。\n\n律师用起来是否直观？有的人超级直观——有合伙人每天用六小时。直观的部分是：和模型合作与和其他律师合作很像，要给足上下文、正确定义任务。不直观的部分是要建立新心智模型：**模型的思考方式不同，犯错方式也不同**。\n\n## 早期推广难题与「哇」时刻\n\n起步早的代价是用户得同时学两样东西：法律 AI 和 AI 本身。Gabe 记得演示 GPT-4 时大多数人无法理解——「哦，这不就是个 NDA 模板吗？」「不，它还能起草租赁协议。」「哦，所以它就是个 NDA 加租赁协议生成器？」\n\n突破点在演示方式：向一位诉讼律师推销时，找到他做的最后一个案子、提取他提出的论点，然后说「帮我起草一个反驳论点」——律师会说「我甚至没想到这个论点」。一旦找到那个「哇」的瞬间，人就会自发到处去试。他们还做了全所推广：与 A&O 合作铺给 3000 人，大家互相转告什么好用，相当于 ChatGPT 发布时 Twitter 上口碑传播的企业版。\n\n现在推广更容易了，但仍有巨大挑战：人们问「最佳用例是什么」，而它擅长的事太多，难说「这是它擅长的一件事」——它更像一种全新的工作方式。\n\n## 按小时计费不会死，但会变\n\n针对「AI 让律师更高效、计费小时会下降吗」，Gabe 的反驳是：个人电脑时代可以用同样的论点，实际计费反而上升了，因为**工作变得更复杂了**。而且收费安排远比计费小时复杂——有核销、有上限。他举了个实例：与私募股权公司合作时，基金设立业务里一年级律师的工作无论如何都会被核销、且总费用封顶——于是可以重新安排：让 Harvey 做那些本来会被核销的工作，同时保证不超上限，「既让律所更赚钱，客户也受益」。 他认为「一方必须输另一方才能赢」的假设在这里不成立。\n\n如今大多数律所已接受这件事正在发生——一年半前还有「是不是炒作」的疑问，现在每家都说必须采用；不确定的只是时间线和转型业务领域会是什么样。\n\n## 律师即编排者，律所即产品公司\n\n律师会不会变成智能体编排者？Gabe 认为起初变化不大：合伙人本来就是把资浅律师当智能体来交互。真正有意思的是 Harvey 开始帮律所以新方式提供服务——有律所把用 Harvey 构建的产品作为 SaaS 卖给自己的客户（Harvey 做收入分成），Harvey 也越来越多地把企业和它们的律所连接起来，在同一工作流上协同。\n\n五年后的「AI 律所」是什么样？Gabe 的目标是帮律所从「**受人力约束**」（营收只能随人头增长）转变为「**受分发约束**」：把全部专业知识放进一个能完成客户事务大部分工作的系统，然后想办法把它卖出去。律所会更深地嵌入客户——他希望在五年内，那些工作由「律所和该客户共同训练的模型」完成。\n\n## 数据护城河：不是判例法，是推理数据\n\n数据是不是护城河？Gabe 分两类：判例法这类数据有价值，他们已与 Lexis 合作，但他不认为那是公司的护城河。真正值钱的是**RLHF 数据 / 推理数据**——基础模型公司训练推理模型的方式是找专家演示完整推理步骤，而律所手里正是这种庞大数据集：「我要收购这家公司」→ 合伙人分解任务 → associate 执行 → 合伙人反馈。难点是这些数据不能直接塞进模型、甚至不能只为一家律所做，要做的是帮律所和客户用他们的工作历史为双方构建模型。\n\n瓶颈是什么？三个层面：一是**未解决的研究问题**——做后训练和评估需要好的奖励函数，但法律领域很难定义「这是一笔好的并购还是不是」；二是**信任与合规**——训练一个模型是否等于放弃律师-当事人特权保护，没人知道答案；三是**激励与产权**——和客户一起训模型收益归谁、知识产权是客户的、律所的还是混合的、商业模式是什么。\n\n## 评估：律师团队是核心基础设施\n\nGabe 认为评估极其重要：「没有好的方法判断它是否有效，你就没法做 AI。」Harvey 很早雇了 Winston 同律所出身、做诉讼的 Gabe 的哥哥，如今他管理一个约 15 名来自不同律所和执业领域的律师团队，负责构建数据集、测试产品；规模化了再用合同律师、和客户合作，分层做评估。这仍是「非常大的未解决问题之一」。\n\n一个产品内建评估的难题：客户在产品上做的一切都基于他们客户的数据，**不能用任何这些数据训练自己的系统**。所以他们分两条线：雇自己的律师改进通用法律系统；同时构建基础设施，帮客户在合规前提下改进他们自己的系统。\n\n## 反常识的 GTM：从最大的律所卖起\n\n多数创业公司先卖小客户再往上走，Harvey 反着来。他们直觉大型律所是最好起点——大部分法律支出集中在最大的律所和公司，为它们做好产品后向下游拓展比反过来容易。他们把超简单的产品展示给能找到的每种律师，最终找到了当时第六大律所 Allen & Overy 的一位资深合伙人——「这就是我过去 20 年做资深合伙人、做法律科技以来一直在寻找的东西」。他既有远见又有影响力，推动了全所推广和公开报道（律所买法律科技通常不发新闻），接着 PWC 法务团队也采购了。\n\n下游影响：从一开始就要按最高安全标准构建平台，否则无法服务律所背后的银行、大型 PE 和政府客户。Gabe 也承认法律行业有独特性：最大的律所不过几千人（不像要卖给 JP Morgan 那样的投行），这个策略换个行业未必行得通。\n\n## 与 OpenAI 的关系与研究团队的边界\n\nOpenAI 是 Harvey 的第一位投资人，关系仍然紧密。做多模型支持的动机很实际：客户需求——模型竞赛时期每个月都有客户问「现在这个模型最先进了，能用它吗」；以及企业客户在不同云上。\n\nGabe 的判断很明确：「**我们永远不会预训练模型。**」基础模型会持续变好——上下文窗口更大、更稳健、工具使用和推理更强，也会在垂直领域变好（OpenAI 都在招银行家了）。他们的赌注押在最顶级律所做的**极其专业化的工作**上：一家大所与某大公司合作 20 年积累的不只是法律理解，而是对这家公司的理解——这从根本上放不进公开模型里，必须靠安全的产品来释放。差异化方向是为特定领域构建 RL 环境（用强化学习让模型在可定义任务中反复练习的训练环境）：**法律领域的 RL 环境就是客户事务**——目标明确、历史丰富，你知道自己做过的所有诉讼、大致的阶段和会被问的问题。\n\n指导研究团队的方式，他对比了老东家：Google Brain 是招聪明人自由探索，DeepMind 是自上而下——有通往 AGI 的论点和一堆 RL 环境与基准。Harvey 更想走 DeepMind 路线，因为法律领域定义清晰、可以按业务领域衡量进展；但在技术路线上保持组合式策略——是计算机使用、工具调用、还是传统 ML 就够，不预设。应用层公司最难的是平衡：小团队时唯一该做的是「什么能今天就为客户改进产品」，现在规模到了才开始考虑加大模型训练投入。\n\n## 下一个拐点：把自然语言流程变成 API\n\n被问「什么是人们还没意识到的能力」，Gabe 给出的方向是：**把自然语言承载的流程转化为 API**。例子是自动化 NDA：拿双方历史上的 NDA，说「生成一份我们双方都会批准的」——现在这要交换一堆邮件、花一周，未来可以点一个按钮签订。甚至可以想象两个 Harvey 谈判智能体互相谈判。关键在于：「当你把任何比一次 API 调用更耗时的流程转换过来，你会到达这个拐点，产生次级效应」——现在受人力约束的流程变成 API 之后，上面还能长出什么，没人完全知道。\n\n阻碍是什么？他说是带宽——「不是优先事项，但你现在就能构建」。剩下的是信任问题，像自动驾驶的迷你版：唯一的大规模证明方式是让它谈判足够多的 NDA，直到人们就是信任它。\n\n## 如果今天重做\n\nGabe 坦言「如果今天创业，我可能不会创办 Harvey」。技术栈确实变了：当年几乎没有任何基础设施，评估工具、embeddings 规模（一查就查挂云服务商）、模型容量上限全是坑，现在都好多了。但他强调具体工具从来不是最关键的，真正重要的是**产品的形态如何与模型契合**——当年做的很多设计决策，放到今天的生态里会做得不一样。\n\n## Harvey 的下一步\n\nHarvey 在向相邻专业服务扩展：与 PwC 一起进入税务、交易、监管、人力资源；向财富 500 强客户卖法律相邻部门；与 Blue Owl 等 PE 公司构建通用的私募股权功能。终局图景是双向的：对律所，帮它们构建运营业务的基础设施；对企业，构建垂直监管解决方案——比如帮 PE 管理所有基金（法律、投资、合规）的系统，或帮保险公司管理理赔纠纷的操作系统。规律是每个垂直领域有相似性，但最终必须围绕该领域的监管环境构建产品——而这正是律所几十年积累下来的东西。\n\n## 本集带走\n\n- **押注通用性，不做垂直小工具**：当建议都是「先解决 NDA」时，Harvey 判断「产品就是模型」，直接做了 copilot 形态——模型越通用，这个赌注回报越大。\n- **卖 AI 用「用客户自己的案子演示」**：找到对方做的最后一个案子，让模型当场反驳他自己的论点，比任何通用 demo 都有效。\n- **从最大客户卖起在法律行业成立**：法律支出集中在头部，且最大律所只有几千人；前提是从第一天就按最高安全标准建平台。\n- **护城河不是判例法，是推理数据**：合伙人分解任务、associate 执行、合伙人反馈的历史，是训练推理模型的天然素材——但不能塞进公开模型，要做的是帮律所和客户用自己历史训自己的模型。\n- **应用的差异化在 RL 环境**：应用公司不该预训练模型；法律领域的 RL 环境就是客户事务——目标明确、历史丰富，正好用来练领域专用系统。\n- **计费模式不因效率而崩**：PC 时代先例是效率提升反而让计费上升；真正的机会在利用核销与封顶等结构性安排，让律所更赚钱的同时客户也受益。\n- **盯住「流程变 API」的拐点**：任何比一次 API 调用更耗时的自然语言流程（如 NDA 谈判）都可以被压成一次点击，压完之后的次级效应才是新机会。",
+  "quotes": [
+    {
+      "en": "The really strong intuition that we had at the time was the product is going to be the model.",
+      "zh": "我们当时有一个非常强烈的直觉，就是产品将会是模型。",
+      "timestamp": "00:00",
+      "speaker": "Gabe"
+    },
+    {
+      "en": "I think already GPT-4 was so good that it was clear that even if the models didn't continue improving, there was so much you could do.",
+      "zh": "我认为当时 GPT-4 已经足够好了，即使模型不再继续进步，也有很多事情可以做。",
+      "timestamp": "06:19",
+      "speaker": "Gabe"
+    },
+    {
+      "en": "And I think the counter is like you could have made the same argument with the PC and it's like actually billables went up because the work got more complex.",
+      "zh": "而我认为反驳是，你本可以用个人电脑做出同样的论点，而实际上计费反而上升了，因为工作变得更复杂了。",
+      "timestamp": "16:59",
+      "speaker": "Gabe"
+    },
+    {
+      "en": "I don't need ROI metrics to know that this like fundamentally changes the way that I like.",
+      "zh": "我不需要 ROI 指标就知道这从根本上改变了我的方式。",
+      "timestamp": "19:44",
+      "speaker": "Gabe"
+    },
+    {
+      "en": "The data that I think is really valuable that I think now people are realizing is valuable is the RLHF data or the reasoning data.",
+      "zh": "我认为真正有价值的数据——现在人们正在意识到它有价值——是 RLHF 数据或者推理数据。",
+      "timestamp": "23:17",
+      "speaker": "Gabe"
+    },
+    {
+      "en": "Privilege, confidentiality, like both security on the technical side and security on the legal side of I don't think anyone knows the answer yet of if I train a model, do I waive privilege?",
+      "zh": "特权、保密性——既有技术层面的安全，也有法律层面的安全。比如，如果我训练了一个模型，我是否就放弃了特权保护？我认为还没有任何人知道答案。",
+      "timestamp": "25:20",
+      "speaker": "Gabe"
+    },
+    {
+      "en": "Our general sense is we will never pre-train models.",
+      "zh": "我们的总体感受是，我们永远不会去预训练模型。",
+      "timestamp": "33:33",
+      "speaker": "Gabe"
+    },
+    {
+      "en": "But I would say that was actually less of like the specific tooling wasn't as much of what mattered, but it was really thinking about how does the shape of the product fit with the models.",
+      "zh": "但我会说，其实具体的工具并不是那么重要，真正重要的是思考产品的形态如何与模型契合。",
+      "timestamp": "39:07",
+      "speaker": "Gabe"
+    },
+    {
+      "en": "Like to me, a lot of this is like, this is like a mini version of self-driving where it's like, the only way eventually you prove this at scale is you have this thing negotiate so many NDAs that people just trust it.",
+      "zh": "对我来说，这很多就像是一个自动驾驶的迷你版本，就是，最终你在大规模上证明这件事的唯一方式，是让这个东西谈判足够多的 NDA，以至于人们就是信任它。",
+      "timestamp": "42:18",
+      "speaker": "Gabe"
+    },
+    {
+      "en": "Headcount to distribution constrained where they are able in five years to basically take all of their expertise, put it into this system that can do large parts of a client matter and then figure out ways to sell that to customers.",
+      "zh": "人数增长来扩展营收——转变为受分发约束，也就是在五年内他们基本上能把自己的全部专业知识放进这个系统里，这个系统可以完成客户事务的大部分工作，然后想出办法把它卖给客户。",
+      "timestamp": "43:39",
+      "speaker": "Gabe"
+    },
+    {
+      "en": "And so I think the thing we see, we would want to see in five years is like that work is done by a model trained by a law firm and that client.",
+      "zh": "所以我认为我们在五年内希望看到的是，那样的工作是由一个由律所和那个客户训练的模型来完成的。",
+      "timestamp": "44:22",
+      "speaker": "Gabe"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Unknown",
+      "en": "The really strong intuition that we had at the time was the product is going to be the model.",
+      "zh": "我们当时有一个非常强烈的直觉，就是产品将会是模型。"
+    },
+    {
+      "timestamp": "05:49",
+      "speaker": "Unknown",
+      "en": "But it felt like these models would be so general and you kind of saw that with GPT-4 that you actually just wanted to build kind of what ended up being like this copilot idea.",
+      "zh": "但感觉这些模型会非常通用，你从 GPT-4 身上也多少看到了这一点，所以你其实想构建的就是后来这种 copilot 的想法。"
+    },
+    {
+      "timestamp": "06:19",
+      "speaker": "Unknown",
+      "en": "I think already GPT-4 was so good that it was clear that even if the models didn't continue improving, there was so much you could do.",
+      "zh": "我认为当时 GPT-4 已经足够好了，即使模型不再继续进步，也有很多事情可以做。"
+    },
+    {
+      "timestamp": "06:37",
+      "speaker": "Unknown",
+      "en": "You can almost always throw more data, compute, algorithmic improvements, and these things will continue to improve.",
+      "zh": "你几乎总是可以投入更多的数据、算力、算法改进，这些东西就会继续改进。"
+    },
+    {
+      "timestamp": "11:08",
+      "speaker": "Unknown",
+      "en": "co-evolution or these law firms reshaping their workflows around what humans are good at and what models are good at, which I think is the interesting thing.",
+      "zh": "共同演化，或者说这些律所围绕人类擅长什么和模型擅长什么来重塑他们的工作流，我认为这是有意思的地方。"
+    },
+    {
+      "timestamp": "11:49",
+      "speaker": "Unknown",
+      "en": "These models do think differently.",
+      "zh": "这些模型的思考方式确实不同。"
+    },
+    {
+      "timestamp": "12:58",
+      "speaker": "Unknown",
+      "en": "Oh, is this just an NDA template?",
+      "zh": "哦，这只是一个 NDA 模板吗？"
+    },
+    {
+      "timestamp": "13:28",
+      "speaker": "Unknown",
+      "en": "And there would be cases where they would say, oh, I hadn't even thought of that argument, or that's an interesting argument that the other side didn't pose.",
+      "zh": "然后会出现这样的情况：他们会说，哦，我甚至没想到那个论点，或者说那是一个很有意思的论点，对方都没有提出来。"
+    },
+    {
+      "timestamp": "14:16",
+      "speaker": "Unknown",
+      "en": "It's much more of a new way to work and think about interaction with technology.",
+      "zh": "它更像是一种与技术互动的全新工作和思考方式。"
+    },
+    {
+      "timestamp": "16:59",
+      "speaker": "Unknown",
+      "en": "And I think the counter is like you could have made the same argument with the PC and it's like actually billables went up because the work got more complex.",
+      "zh": "而我认为反驳是，你本可以用个人电脑做出同样的论点，而实际上计费反而上升了，因为工作变得更复杂了。"
+    },
+    {
+      "timestamp": "17:49",
+      "speaker": "Unknown",
+      "en": "And for us, the thing to really figure out that is the interesting problem is like the goal is how can you make law firms more profitable and make their clients benefit from like the law firms getting profitable?",
+      "zh": "对我们来说，真正需要弄清楚的、有意思的问题就是，目标是如何让律师事务所更赚钱，同时让客户从律所的盈利中受益。"
+    },
+    {
+      "timestamp": "19:38",
+      "speaker": "Unknown",
+      "en": "I don't need ROI metrics to know that this like fundamentally changes the way that I like.",
+      "zh": "我不需要 ROI 指标就知道这从根本上改变了我的方式。"
+    },
+    {
+      "timestamp": "22:53",
+      "speaker": "Unknown",
+      "en": "Yeah, I think there's two types of data.",
+      "zh": "是的，我认为数据有两类。"
+    },
+    {
+      "timestamp": "23:17",
+      "speaker": "Unknown",
+      "en": "The data that I think is really valuable that I think now people are realizing is valuable is the RLHF data or the reasoning data.",
+      "zh": "我认为真正有价值的数据——现在人们正在意识到它有价值——是 RLHF 数据或者推理数据。"
+    },
+    {
+      "timestamp": "25:20",
+      "speaker": "Unknown",
+      "en": "Privilege, confidentiality, like both security on the technical side and security on the legal side of I don't think anyone knows the answer yet of if I train a model, do I waive privilege?",
+      "zh": "特权、保密性——既有技术层面的安全，也有法律层面的安全。比如，如果我训练了一个模型，我是否就放弃了特权保护？我认为还没有任何人知道答案。"
+    },
+    {
+      "timestamp": "25:56",
+      "speaker": "Unknown",
+      "en": "So I think there's kind of a bunch of these different problems of figuring that out.",
+      "zh": "所以我认为有这样一堆不同的问题需要弄清楚。"
+    },
+    {
+      "timestamp": "27:45",
+      "speaker": "Unknown",
+      "en": "But I would say this is still one of like the very big unsolved problems and like a very hard product and AI problem you need to do to build these products.",
+      "zh": "但我想说，这仍然是那种非常大的未解决问题之一，是构建这些产品必须解决的非常难的产品和 AI 问题。"
+    },
+    {
+      "timestamp": "29:58",
+      "speaker": "Unknown",
+      "en": "He was like, this is what I've been looking for for the past 20 years that I've been a senior partner and doing legal tech.",
+      "zh": "他说，这就是我过去 20 年做资深合伙人、做法律科技以来一直在寻找的东西。"
+    },
+    {
+      "timestamp": "30:50",
+      "speaker": "Unknown",
+      "en": "And so if we could build a product for those largest law firms and their clients, it would be much easier to go downstream than vice versa.",
+      "zh": "所以如果我们能为那些最大的律所及其客户打造产品，那么向下游拓展会比反过来容易得多。"
+    },
+    {
+      "timestamp": "33:33",
+      "speaker": "Unknown",
+      "en": "Our general sense is we will never pre-train models.",
+      "zh": "我们的总体感受是，我们永远不会去预训练模型。"
+    },
+    {
+      "timestamp": "34:15",
+      "speaker": "Unknown",
+      "en": "That work will never go into the public models.",
+      "zh": "那些工作永远不会进入公开的模型。"
+    },
+    {
+      "timestamp": "35:04",
+      "speaker": "Unknown",
+      "en": "Like you have this super well-defined task where",
+      "zh": "比如你有这种定义得非常清楚的任务，"
+    },
+    {
+      "timestamp": "35:08",
+      "speaker": "Unknown",
+      "en": "I think the thing that is so interesting about legal is you actually know the end goal and you have this super rich history where if I'm working on a litigation, I know all the previous litigations I did.",
+      "zh": "我觉得法律领域如此有趣的地方在于，你实际上知道最终目标，而且你拥有非常丰富的历史，比如如果我在做一个诉讼，我知道我做过的所有之前的诉讼。"
+    },
+    {
+      "timestamp": "36:21",
+      "speaker": "Unknown",
+      "en": "DeepMind was",
+      "zh": "DeepMind 是"
+    },
+    {
+      "timestamp": "37:07",
+      "speaker": "Unknown",
+      "en": "Is computer use going to be the right way?",
+      "zh": "是计算机使用会成为正确的方式吗？"
+    },
+    {
+      "timestamp": "38:20",
+      "speaker": "Unknown",
+      "en": "I guess one answer is like if I was going to start a company, I probably wouldn't start Harvey today.",
+      "zh": "我想一个答案是，如果我要创业，我今天可能不会创立 Harvey。"
+    },
+    {
+      "timestamp": "39:07",
+      "speaker": "Unknown",
+      "en": "But I would say that was actually less of like the specific tooling wasn't as much of what mattered, but it was really thinking about how does the shape of the product fit with the models.",
+      "zh": "但我会说，其实具体的工具并不是那么重要，真正重要的是思考产品的形态如何与模型契合。"
+    },
+    {
+      "timestamp": "40:36",
+      "speaker": "Unknown",
+      "en": "things that are natural language that could be turned into APIs.",
+      "zh": "自然语言的东西可以被转化为 API。"
+    },
+    {
+      "timestamp": "41:25",
+      "speaker": "Unknown",
+      "en": "Then I think the interesting thing is when you convert these processes from something that takes anything longer than an API call, I think you just get this inflection point where you get these secondary effects.",
+      "zh": "然后我觉得有意思的是，当你把这些流程从任何比一次 API 调用更耗时的事情转换过来，我认为你会到达这个拐点，产生这些次级效应。"
+    },
+    {
+      "timestamp": "42:18",
+      "speaker": "Unknown",
+      "en": "Like to me, a lot of this is like, this is like a mini version of self-driving where it's like, the only way eventually you prove this at scale is you have this thing negotiate so many NDAs that people just trust it.",
+      "zh": "对我来说，这很多就像是一个自动驾驶的迷你版本，就是，最终你在大规模上证明这件事的唯一方式，是让这个东西谈判足够多的 NDA，以至于人们就是信任它。"
+    },
+    {
+      "timestamp": "43:27",
+      "speaker": "Unknown",
+      "en": "Can you help law firms transition from the work they are doing is human constrained in terms of they can only scale revenue with",
+      "zh": "你能不能帮助律所完成转变，从他们现在做的工作受人力约束——也就是他们只能随着"
+    },
+    {
+      "timestamp": "43:39",
+      "speaker": "Unknown",
+      "en": "Headcount to distribution constrained where they are able in five years to basically take all of their expertise, put it into this system that can do large parts of a client matter and then figure out ways to sell that to customers.",
+      "zh": "人数增长来扩展营收——转变为受分发约束，也就是在五年内他们基本上能把自己的全部专业知识放进这个系统里，这个系统可以完成客户事务的大部分工作，然后想出办法把它卖给客户。"
+    },
+    {
+      "timestamp": "44:22",
+      "speaker": "Unknown",
+      "en": "And so I think the thing we see, we would want to see in five years is like that work is done by a model trained by a law firm and that client.",
+      "zh": "所以我认为我们在五年内希望看到的是，那样的工作是由一个由律所和那个客户训练的模型来完成的。"
+    },
+    {
+      "timestamp": "45:52",
+      "speaker": "Unknown",
+      "en": "And then similarly for insurance, you have some operating system that helps them manage their claims disputes and things like that.",
+      "zh": "同样对于保险，你可以做一个操作系统，帮助他们管理理赔纠纷之类的事情。"
+    },
+    {
+      "timestamp": "46:07",
+      "speaker": "Unknown",
+      "en": "There's some similarity, but it actually becomes so vertically specific because you kind of need to build the product around the regulatory environment of that vertical, and that's what these law firms have done.",
+      "zh": "有一些相似之处，但它实际上变得非常垂直化，因为你需要围绕该垂直领域的监管环境来构建产品，而这些律所已经做到了这一点。"
+    }
+  ],
+  "voice_script": "今天咱们聊一个人，名字叫 Gabe，是 Harvey 这家公司的联合创始人兼总裁。Harvey 是一家做 AI 法律助手的公司，2022 年 8 月创办的，那时候 ChatGPT 还没发布。早在 2020 年，Gabe 就对投资人说要造一个 AI 律师，当时对方觉得他疯了。五年过去，这件事做到了。这一集要聊的问题就是：一家公司怎么用通用模型去做最高端的法律工作，以及律所这个几百年来靠人头吃饭的行业，会怎么被重塑。\n\n先说来龙去脉。Gabe 从 2013、2014 年就开始做 AI 研究，经历了深度学习刚起步的年代。当时有个困扰：每个领域都得造一个专用系统，造自动驾驶就得造一个只会开车的系统，缺的是一个统一的东西。看到 GPT-2、GPT-3 之后，意识到自然语言就是那个统一方式——能调用 API、能和人交流、能解决各种问题。那时候在 Meta 的大语言模型团队工作，那些聊着做横向助手产品的 Google Brain 老朋友，后来去了 OpenAI，成了构建 ChatGPT 的团队。\n\nHarvey 的诞生有点偶然。拿到 GPT-4 早期访问权的时候——注意，它还没公开，ChatGPT 也还不存在——室友 Winston 后来成了 Harvey 的联合创始人兼 CEO，曾经是顶级诉讼律所的诉讼律师。这位直接拿 GPT-4 尝试自己做律师时干过的任务，摸索出思维链和各种提示词技巧，就这样让模型干起了法律活。\n\n由此产生了一个非常强烈的直觉，用原话说就是：产品将会是模型，你想直接与它对话。这在当时是很反常识的判断。收到的建议几乎全是另一套：去构建垂直工作流、去解决 NDA 这种小场景。但判断恰恰相反——这些模型会非常通用，所以直接做了后来的 copilot 形态。而且 GPT-4 已经好到什么程度呢？好到即使模型不再继续进步，也有很多事情可以做。再加上深度学习里见过的一条规律：一旦在某个问题上取得初步进展，几乎总能靠更多数据、算力、算法改进持续提升。Harvey 由此诞生。\n\n那具体做成了什么呢？Harvey 今天要构建的，是律师的工作区。在大律所里，律师处理客户事务：做诉讼要访问判例法、公司的邮件、起诉状；做交易则面对数据室——就是存放收购相关文件的资料库。产品形态是一个助手，因为合伙人本来就是把任务发邮件给资浅律师去完成的，这种交互对律师很自然；再加一个类似 Vault 的产品管数据室和文档管理，整合到一处。\n\n但智能体任务其实是一条光谱。一端是完全开放的任务——给 Harvey 任何你会交给资浅律师的问题，让系统自己接任务、定计划、选工具。另一端是定义清晰的模板化流程——每次做并购都会生成并购协议，你知道要产出什么。难点在于搞清楚每个产品界面该落在光谱哪个位置。\n\n说到这里，可能有人会问：律师用起来真的顺畅吗？有意思的是，有的合伙人每天用六个小时。直观的部分在于，和模型合作与和其他律师合作很像，要给足上下文、正确定义任务。不直观的地方是要建立新心智模型——模型的思考方式不同，犯错方式也不同。\n\n早期推广其实很难。起步早的代价是用户得同时学两样东西：法律 AI 和 AI 本身。演示的时候常出现这样的对话：「哦，这不就是个 NDA 模板吗？」「不，它还能起草租赁协议。」「哦，所以它就是个 NDA 加租赁协议生成器？」突破点在演示方式：向一位诉讼律师推销时，找到对方做的最后一个案子、提取提出的论点，然后让模型「帮我起草一个反驳论点」——律师会说，我甚至没想到这个论点。一旦找到那个哇的瞬间，人就会自发到处去试。后来还和 Allen & Overy 合作铺给全所三千人，大家互相转告什么好用，相当于 ChatGPT 口碑传播的企业版。\n\n接着聊一个大家最关心的问题：AI 让律师更高效了，按小时计费会不会崩？反驳很有力：你本可以用个人电脑做出同样的论点，而实际上计费反而上升了，因为工作变得更复杂了。而且收费安排远比计费小时复杂，有核销、有上限。举个例子：和私募股权公司合作时，基金设立业务里一年级律师的工作无论如何都会被核销、且总费用封顶——于是可以重新安排，让 Harvey 做那些本来会被核销的工作，同时保证不超上限。结果是一方不必输另一方才能赢：律所更赚钱，客户也受益。\n\n那律所五年后会变成什么样？目标是帮律所从受人力约束，转变为受分发约束。什么意思？律所营收原来只能随人头增长，未来要把全部专业知识放进一个能完成客户事务大部分工作的系统，然后想办法把它卖出去。甚至已经有律所把用 Harvey 构建的产品作为 SaaS 卖给自己的客户了。\n\n这里就引出一个关键问题：数据是不是护城河？判例法这类数据有价值，也与 Lexis 合作了，但那不是护城河。真正值钱的是推理数据。基础模型公司训练推理模型的方式，是找专家演示完整推理步骤，而律所手里正是这种庞大数据集：我要收购这家公司，合伙人分解任务，资浅律师执行，合伙人反馈。难点是这些数据不能直接塞进模型，要做的是帮律所和客户用自己历史训自己的模型。瓶颈有三个：法律领域很难定义什么是好的结果、奖励函数难写；训练一个模型是否等于放弃律师-当事人特权保护，没人知道答案；还有激励与产权——收益归谁，知识产权是谁的。\n\n既然要训自己的模型，评估就是命门。有句话说得很重：没有好的方法判断它是否有效，你就没法做 AI。Harvey 很早雇了一位诉讼律师，如今管理约十五名来自不同律所的律师团队，专门构建数据集、测试产品。这仍是非常大的未解决问题之一。\n\n再讲一个反常识的地方：多数创业公司先卖小客户再往上走，Harvey 反着来，从最大的律所卖起。直觉是法律支出集中在头部，为最大的律所做好产品后向下游拓展，比反过来容易。而且法律行业有个独特性——最大的律所不过几千人，这个策略换个行业未必行得通。代价是从第一天起就得按最高安全标准建平台。\n\n那和 OpenAI 什么关系？OpenAI 是 Harvey 的第一位投资人。但判断很明确：我们永远不会预训练模型。赌注押在最顶级律所做的极其专业化的工作上——一家大所与某大公司合作二十年，积累的不只是法律理解，而是对这家公司的理解，这从根本上放不进公开模型里。应用层公司的差异化方向，是为特定领域构建 RL 环境，说白了就是让模型在可定义任务里反复练习的训练环境。而法律领域的 RL 环境就是客户事务——目标明确、历史丰富。\n\n最后留一个方向给你。被问什么是人们还没意识到的能力时，答案是把自然语言承载的流程转化为 API。比如自动化 NDA：拿双方历史上的 NDA，说生成一份我们双方都会批准的——现在这要交换一堆邮件、花一周，未来可以点一个按钮签订，甚至可以想象两个谈判智能体互相谈判。关键是，当你把任何比一次 API 调用更耗时的流程转换过来，会产生现在没人完全知道的次级效应。\n\n所以回头看，这家公司五年前押的那个注——当所有人都说先去解决 NDA 小场景时，坚持产品将会是模型——今天看来越通用，回报越大。而下一步更大的机会，是把那些受人力约束的流程一个个压成 API，让律所从卖人头，变成卖一套能自我生长的专业知识系统。"
+}

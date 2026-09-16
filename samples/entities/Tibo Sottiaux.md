@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Eric Simons]]
+[[Marc Brooker]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":48,"OpenAI":113,"ChatGPT":66,"ChatGPT work":1,"harness":32,"智能体":244,"Rust":4,"开源":22,"沙箱":44,"代码审查":10}</script>
+<script type="application/json" class="pd-epn">{"Codex":48,"OpenAI":115,"ChatGPT":66,"ChatGPT work":1,"harness":32,"智能体":248,"Rust":4,"开源":22,"沙箱":45,"代码审查":10}</script>
 
 <script>
 (function(){

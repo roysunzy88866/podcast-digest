@@ -84,11 +84,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]]
+[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":244,"技能文件":3,"RAG":9,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":48,"YC":12,"上下文工程":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":248,"技能文件":3,"RAG":10,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":48,"YC":12,"上下文工程":12}</script>
 
 <script>
 (function(){

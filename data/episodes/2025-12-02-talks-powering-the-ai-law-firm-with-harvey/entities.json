@@ -1,0 +1,852 @@
+{
+  "episode_id": "2025-12-02-talks-powering-the-ai-law-firm-with-harvey",
+  "podcast": "精选演讲",
+  "date": "2025-12-02",
+  "tags": [
+    "AI 智能体",
+    "法律科技",
+    "智能体工作流",
+    "GTM 策略",
+    "数据护城河"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "gabe",
+      "type": "person",
+      "role": "host",
+      "name": "Gabe",
+      "file": "Gabe",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            44.546,
+            47.087
+          ],
+          "quote": "Tonight, I'm joined by Gabe, the co-founder and president of Harvey.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            47.267,
+            48.989
+          ],
+          "quote": "Gabe, thank you so much for being here tonight.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2782.132,
+            2785.195
+          ],
+          "quote": "Gabe, thank you so much for joining us for Greylock's Change Agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": true,
+      "how_described": "本集主角:2022 年 8 月、ChatGPT 发布前创办的 AI 法律助手公司,为律师构建工作区,把智能体整合进客户事务;从最大律所卖起,正向税务、私募股权等相邻专业服务扩展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            44.546,
+            47.087
+          ],
+          "quote": "Tonight, I'm joined by Gabe, the co-founder and president of Harvey.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            191.411,
+            196.217
+          ],
+          "quote": "But my roommate at the time was a lawyer, now co-founder and CEO of Harvey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            206.49,
+            223.15
+          ],
+          "quote": "Sam at OpenAI ended up raising from them, and they showed us a preview of GPT-4, and when we saw that, that was kind of the first model where it felt like, oh, you could build these really meaningful products that could do kind of high-end legal work, and that was kind of like the genesis of Harvey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            244.505,
+            266.619
+          ],
+          "quote": "I think there were two paths I was looking at, so kind of how Harvey came about is I was chatting with some of my friends from Google Brain, and we were talking about doing kind of horizontal assistant type products, and they actually ended up joining OpenAI, and they're the team that built ChatGPT, and so for me, it was kind of between doing that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            268.36,
+            272.343
+          ],
+          "quote": "We're starting Harvey, and I think kind of Winston and I were best friends.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 42,
+          "t": [
+            291.171,
+            295.035
+          ],
+          "quote": "And what was that first product, that first version of Harvey?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            404.845,
+            410.947
+          ],
+          "quote": "I think a lot of the interesting problem with Harvey is thinking about how you coordinate all of those things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            418.155,
+            420.237
+          ],
+          "quote": "Let's fast forward and talk about Harvey today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            426.202,
+            428.944
+          ],
+          "quote": "Harvey today, I would think of what we're building is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            538.957,
+            545.542
+          ],
+          "quote": "So walk us a little bit through what does an agentic workflow look like for legal and for Harvey?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            558.282,
+            571.388
+          ],
+          "quote": "So if you give Harvey any question you would give an associate, can we have some system that kind of looks like deep research that can take that task, create some plan, figure out which tools to use and solve this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            641.847,
+            660.534
+          ],
+          "quote": "Part of what we're seeing law firms learn is how do they take these workflows and figure out, okay, here is when I delegate to Harvey, here is the workflow, here is how I start building infrastructure where like a really common one where we see is I have a data room and I always want to extract this data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            727.167,
+            744.422
+          ],
+          "quote": "Yeah, and actually one thing I think is fascinating about Harvey is because you started so early in the wave, to some degree, you had to have your end users learn about AI in conjunction of them doing so with the ChatGPTs or the way that all of us as consumers did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            745.042,
+            753.35
+          ],
+          "quote": "And so that must have been a massive hurdle or challenge for you versus if I were to start Harvey today, I'm benefiting from the fact that everyone knows how to use",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            921.952,
+            933.277
+          ],
+          "quote": "And increasingly we sell Harvey to enterprises and we have ways to connect an enterprise with their law firm and have them work together on a workflow or client projects.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1054.919,
+            1064.07
+          ],
+          "quote": "And so you actually have a lot more degrees of freedom to say, hey, we could arrange this in this way where Harvey's gonna do this work that gets written off, and we're gonna ensure you stay under the cap.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1568.787,
+            1577.649
+          ],
+          "quote": "And so one topic I want to start with is you guys have been pretty public as, you know, you have a lot of actual lawyers on payroll that you're working with at Harvey.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1585.511,
+            1586.752
+          ],
+          "quote": "in Harvey's product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1936.615,
+            1937.895
+          ],
+          "quote": "Why did Harvey work in legal?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2291.832,
+            2293.472
+          ],
+          "quote": "If you were to start Harvey today,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2300.315,
+            2305.937
+          ],
+          "quote": "I guess one answer is like if I was going to start a company, I probably wouldn't start Harvey today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2407.792,
+            2408.993
+          ],
+          "quote": "Like Harvey-specific?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2409.113,
+            2418.181
+          ],
+          "quote": "It can be Harvey-specific or you can even be abstracted up to just a capability that's just going to improve that if you're starting a company today, you should really be thinking about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2419.74,
+            2429.484
+          ],
+          "quote": "Yeah, I think one thing is like I'm so Harvey-focused that it's like I actually don't think I have good intuition of like what is now possible more broadly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2450.016,
+            2461.663
+          ],
+          "quote": "You could imagine we have this negotiation agent, and as we sell Harvey to more clients, there will be cases where you have these two Harvey agents that negotiate against each other.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2556.452,
+            2566.081
+          ],
+          "quote": "My other future-looking question is, in whatever timeline of years you want to talk about, five, ten, or more, what does a Harvey lawyer look like?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2645.31,
+            2652.758
+          ],
+          "quote": "And so like what we're starting to talk about with these clients is as we sell Harvey to these enterprises.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2692.29,
+            2693.932
+          ],
+          "quote": "Like, what do you think is next for Harvey?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2719.037,
+            2727.499
+          ],
+          "quote": "And so I think where we see Harvey going is for law firms, how do we help them build the infrastructure to run their business?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "Harvey 的第一位投资人,给团队看了 GPT-4 预览从而催生了 Harvey;本集还提到 OpenAI 在招银行家、会在垂直领域变好,Gabe 明确表示 Harvey 永远不预训练模型、与 OpenAI 仍紧密合作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            206.49,
+            223.15
+          ],
+          "quote": "Sam at OpenAI ended up raising from them, and they showed us a preview of GPT-4, and when we saw that, that was kind of the first model where it felt like, oh, you could build these really meaningful products that could do kind of high-end legal work, and that was kind of like the genesis of Harvey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            244.505,
+            266.619
+          ],
+          "quote": "I think there were two paths I was looking at, so kind of how Harvey came about is I was chatting with some of my friends from Google Brain, and we were talking about doing kind of horizontal assistant type products, and they actually ended up joining OpenAI, and they're the team that built ChatGPT, and so for me, it was kind of between doing that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1943.878,
+            1952.721
+          ],
+          "quote": "Another part of the early stage story that you talked about at the beginning is OpenAI was one of your first investors and you have a very close relationship with them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1978.877,
+            1983.14
+          ],
+          "quote": "Our general sense is, one, we love OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2034.223,
+            2039.604
+          ],
+          "quote": "You saw OpenAI is like hiring bankers and like I think these companies will do all this for legal as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线:律所合伙人本来就把资浅律师当智能体来交互;Harvey 把智能体任务想成从开放式任务到模板化流程的光谱,律师正成为智能体的编排者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 406,
+          "t": [
+            2450.016,
+            2461.663
+          ],
+          "quote": "You could imagine we have this negotiation agent, and as we sell Harvey to more clients, there will be cases where you have these two Harvey agents that negotiate against each other.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作流 (workflow)",
+      "file": "工作流",
+      "primary": true,
+      "how_described": "本集反复讨论 agentic workflow:一端是类似 deep research 的完全开放任务,另一端是每次并购都要生成协议这种定义清晰的模板化流程,难点是产品界面该落在光谱哪个位置。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            10.219,
+            16.484
+          ],
+          "quote": "And I think a lot of advice we got at the time is like, okay, build this like vertical workflow and just go solve NDAs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            341.98,
+            348.124
+          ],
+          "quote": "I think a lot of advice we got at the time is like, okay, build this vertical workflow and just go solve NDAs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            538.957,
+            545.542
+          ],
+          "quote": "So walk us a little bit through what does an agentic workflow look like for legal and for Harvey?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            613.356,
+            623.9
+          ],
+          "quote": "Yeah, I think this is the really challenging part where I think it's similar to programming where it's like impossible to define because the workflow is so complex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            641.847,
+            660.534
+          ],
+          "quote": "Part of what we're seeing law firms learn is how do they take these workflows and figure out, okay, here is when I delegate to Harvey, here is the workflow, here is how I start building infrastructure where like a really common one where we see is I have a data room and I always want to extract this data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            921.952,
+            933.277
+          ],
+          "quote": "And increasingly we sell Harvey to enterprises and we have ways to connect an enterprise with their law firm and have them work together on a workflow or client projects.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1152.165,
+            1165.276
+          ],
+          "quote": "Is there any specific kind of end-to-end workflow or agentic workflow that you have been able to show them that makes them say, wow, okay, I'm not going to have to dedicate some headcount to extract the data point from the data room every single time?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1249.181,
+            1262.565
+          ],
+          "quote": "Are there any examples of some multi-step workflow that just quite isn't reliable enough to do today but you think that in the near horizon your customers could do?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1348.361,
+            1354.905
+          ],
+          "quote": "And so the agentic workflow would be, can you go look into the document management system, find that,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (eval)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "Gabe 称「没有好的方法判断它是否有效,你就没法做 AI」;Harvey 雇了约 15 名律师团队构建数据集、测试产品,分层做评估,但仍是未解决的大问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 265,
+          "t": [
+            1590.912,
+            1600.134
+          ],
+          "quote": "I think eval is incredibly important just because you can't do AI or ML if you don't have a good way to tell if it's working.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1674.194,
+            1678.317
+          ],
+          "quote": "Yeah, do you build any of that eval, kind of that feedback loop inside the product?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1678.357,
+            1682.6
+          ],
+          "quote": "So can you get that eval data point from the customer too?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rl-environments",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL 环境 (RL environments)",
+      "file": "RL 环境",
+      "primary": true,
+      "how_described": "本集认为应用层公司的差异化方向是为特定领域构建 RL 环境——法律领域的 RL 环境就是客户事务:目标明确、历史丰富,知道做过的所有诉讼、大致阶段和会被问的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 350,
+          "t": [
+            2091.456,
+            2099.144
+          ],
+          "quote": "And then I think there will be a lot of, I think one thing you see people starting to do is how do you build these RL environments for specific domains?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2184.137,
+            2198.151
+          ],
+          "quote": "More top-down in the sense of they had a thesis on how we're going to get to AGI and a bunch of RL environments and benchmarks, and the game was really how do we improve on all these RL environments.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理数据 (reasoning data)",
+      "file": "推理数据",
+      "primary": true,
+      "how_described": "本集说真正值钱的护城河不是判例法而是 RLHF/推理数据:律所手里有合伙人分解任务、associate 执行、合伙人反馈的庞大数据集,是训练推理模型的天然素材。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            1397.867,
+            1407.15
+          ],
+          "quote": "The data that I think is really valuable that I think now people are realizing is valuable is the RLHF data or the reasoning data.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集指出做后训练和评估需要好的奖励函数,而法律领域很难定义「这是一笔好的并购还是不是」,这是未解决的研究问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 241,
+          "t": [
+            1491.445,
+            1503.208
+          ],
+          "quote": "Any time we work on post-training or evaluation is a lot of the ways that you do this evaluation is you need like a really good reward function or an easy way to say this is a good or a bad output.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "billable-hour",
+      "type": "concept",
+      "role": "concept",
+      "name": "按小时计费 (billable hour)",
+      "file": "按小时计费",
+      "primary": true,
+      "how_described": "本集反驳「AI 会让计费小时下降」:PC 时代用同样论点但计费反而上升,因为工作更复杂;收费安排远比计费小时复杂——有核销、有上限,Harvey 用这些结构性安排让律所和客户双赢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            981.438,
+            997.501
+          ],
+          "quote": "And so if you think of a law firm's business model, they have litigation and they have a capital markets practice and a transactions, and all of these have, all of these use billable hour, some litigation use like contingency and fixed fee.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            1010.704,
+            1019.227
+          ],
+          "quote": "And I think what's really interesting is I think we got this question a lot of like, oh, if these models make lawyers more efficient, does the billable hour go down?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpt-4",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT-4",
+      "file": "GPT-4",
+      "primary": true,
+      "how_described": "Harvey 的起点:OpenAI 给他们看了还没公开的 GPT-4 预览,Winston 拿它尝试自己做律师时干过的任务、摸索出思维链等提示词技巧,让团队确信产品就是模型本身。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.364,
+            28.453
+          ],
+          "quote": "But it felt like these models would be so general and you kind of saw that with GPT-4 that you actually just wanted to build kind of what ended up being like this copilot idea.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            87.247,
+            90.209
+          ],
+          "quote": "It was eight or nine months before GPT-4 was released.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            206.49,
+            223.15
+          ],
+          "quote": "Sam at OpenAI ended up raising from them, and they showed us a preview of GPT-4, and when we saw that, that was kind of the first model where it felt like, oh, you could build these really meaningful products that could do kind of high-end legal work, and that was kind of like the genesis of Harvey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            296.316,
+            307.006
+          ],
+          "quote": "When we, kind of like you said, when we first got early access to GPT-4, it wasn't public, ChatGPT didn't exist, and the first thing that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            307.887,
+            330.51
+          ],
+          "quote": "My co-founder Winston did is when we got GPT-4, he had been a litigation associate at O'Melveny, which is kind of a top litigation firm, and he just went and tried a lot of the tasks he'd done as an associate using GPT-4, and he kind of came up with a lot of these chain of thought and all these prompting techniques, and he just was able to get the models to do this work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            349.025,
+            360.128
+          ],
+          "quote": "But it felt like these models would be so general and you kind of saw that with GPT-4 that you actually just wanted to build kind of what ended up being like this copilot idea.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 53,
+          "t": [
+            379.336,
+            386.84
+          ],
+          "quote": "I think already GPT-4 was so good that it was clear that even if the models didn't continue improving, there was so much you could do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            770.144,
+            776.169
+          ],
+          "quote": "I remember when we would demo GPT-4 to people, most people just wouldn't get it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1754.907,
+            1759.191
+          ],
+          "quote": "When we first got access to GPT-4, there was kind of this question of",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "allen-overy",
+      "type": "company",
+      "role": "company",
+      "name": "Allen & Overy",
+      "file": "Allen & Overy",
+      "primary": true,
+      "how_described": "当时第六大律所,Harvey 找到其一位资深合伙人——「这就是我过去 20 年一直在寻找的东西」——推动了 3000 人全所推广和公开报道。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 296,
+          "t": [
+            1789.947,
+            1798.452
+          ],
+          "quote": "We actually ended up finding a senior partner at Allen & Overy at the time, which was the sixth largest law firm.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": true,
+      "how_described": "本集把指导研究团队的方式做对比:DeepMind 是自上而下——有通往 AGI 的论点和一堆 RL 环境与基准;Harvey 更想走这条路线,因为法律领域定义清晰、可按业务领域衡量进展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 363,
+          "t": [
+            2162.522,
+            2171.309
+          ],
+          "quote": "I mean, I think one interesting comparison is I worked at Brain and I worked at DeepMind, and they had kind of the opposite approach to this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2181.818,
+            2182.819
+          ],
+          "quote": "DeepMind was",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2202.676,
+            2226.634
+          ],
+          "quote": "to the DeepMind approach just because I think what's nice about our domain is it's very well-defined in the sense of like you know all the legal work that is being done and so you can kind of start thinking about for all these practice areas and all these tasks how do you measure progress and how do you improve and then where you want to give the freedom is I think you want to be agnostic or you want a portfolio approach of",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nda",
+      "type": "concept",
+      "role": "concept",
+      "name": "NDA",
+      "file": "NDA",
+      "primary": true,
+      "how_described": "本集的反例与未来例子:当年所有人都建议「先去解决 NDA」被 Harvey 拒绝;如今他们正在构建自动化 NDA 的谈判智能体,把一周的邮件往来压缩成一次点击。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            778.142,
+            781.083
+          ],
+          "quote": "Oh, is this just an NDA template?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            784.885,
+            787.726
+          ],
+          "quote": "And they're like, oh, so it's just an NDA and a lease agreement?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2462.204,
+            2463.745
+          ],
+          "quote": "But for something like an NDA,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2464.505,
+            2472.575
+          ],
+          "quote": "You could probably just take the historical NDAs of both parties and then just say, hey, generate an NDA that we would both approve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2479.311,
+            2485.116
+          ],
+          "quote": "That could turn it into an API where it could just say, click a button, and you can enter into an NDA.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

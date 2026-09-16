@@ -1,0 +1,434 @@
+{
+  "episode_id": "2026-08-06-mos-always-be-the-challenger-with-savannah-b",
+  "podcast": "Masters of Scale",
+  "date": "2026-08-06",
+  "tags": [
+    "粉丝体验",
+    "零营销预算",
+    "实验文化",
+    "定价策略",
+    "创业故事"
+  ],
+  "categories": [
+    "增长与销售",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jeff-furman",
+      "type": "person",
+      "role": "host",
+      "name": "Jeff Furman",
+      "file": "Jeff Furman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            74.301,
+            77.983
+          ],
+          "quote": "I'm Jeff Furman, your host this week on the show, Jesse Cole.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "jesse-cole",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jesse Cole",
+      "file": "Jesse Cole",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            74.301,
+            77.983
+          ],
+          "quote": "I'm Jeff Furman, your host this week on the show, Jesse Cole.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 27,
+          "t": [
+            121.85,
+            125.694
+          ],
+          "quote": "And we are with the greatest showman on earth, Jesse Cole.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 300,
+          "t": [
+            848.94,
+            854.028
+          ],
+          "quote": "Still ahead, more with Jesse Cole on how he uses social media to supercharge growth.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 627,
+          "t": [
+            1792.682,
+            1795.984
+          ],
+          "quote": "Thanks again to the man in the yellow suit, Jesse Cole, for joining us.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "savannah-bananas",
+      "type": "company",
+      "role": "company",
+      "name": "Savannah Bananas",
+      "file": "Savannah Bananas",
+      "primary": true,
+      "how_described": "本集主角：Jesse Cole 创办的马戏团式快节奏职业棒球队，营销零美元却场场爆满，TikTok 粉丝超过所有大联盟球队",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            78.143,
+            85.787
+          ],
+          "quote": "The name you may not know off the bat, but Jesse is the founder of the Savannah Bananas and Fans First Entertainment.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 26,
+          "t": [
+            115.165,
+            121.63
+          ],
+          "quote": "We are recording live at Angel Stadium, where the Savannah Bananas and the Indianapolis Clowns are playing tonight.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 52,
+          "t": [
+            215.695,
+            226.045
+          ],
+          "quote": "And what people don't realize is spend 10 years with this team in Gastonia, North Carolina, that no one knew about just trying to craft what we were doing to get people excited about coming to a baseball game before we started the Savannah Bananas.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 628,
+          "t": [
+            1796.104,
+            1803.348
+          ],
+          "quote": "Not everyone is bold enough to create something as wacky and wild and just wonderful as the Savannah Bananas.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "fans-first-entertainment",
+      "type": "company",
+      "role": "company",
+      "name": "Fans First Entertainment",
+      "file": "Fans First Entertainment",
+      "primary": true,
+      "how_described": "本集说它是 Jesse Cole 创办的母公司，公司名字与身份就是「粉丝优先」——这是它的使命、价值观和所有决策(票价、转播、票务平台)的最高原则",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            78.143,
+            85.787
+          ],
+          "quote": "The name you may not know off the bat, but Jesse is the founder of the Savannah Bananas and Fans First Entertainment.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "粉丝体验 (experience)",
+      "file": "粉丝体验",
+      "primary": true,
+      "how_described": "本集反复强调「我们投资的是体验」而不是营销——把体验做得非凡到值得被拍下来分享，零预算也能引爆",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            253.475,
+            259.941
+          ],
+          "quote": "And I realized immediately that in the front office, you could actually create a lot of the experience that happens for clients.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1016.414,
+            1022.88
+          ],
+          "quote": "And it's so hard often to take that in real life experience so special and translate it on social and digital.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1026.007,
+            1027.147
+          ],
+          "quote": "We invest in the experience.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1034.87,
+            1040.253
+          ],
+          "quote": "What we think about is how do you make your experience so remarkable that you capture that and just share that.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1129.893,
+            1135.477
+          ],
+          "quote": "When you're balancing that driving revenue and printing that fan experience, because you're still a business, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1197.159,
+            1198.76
+          ],
+          "quote": "Our experience has to get a little bit better.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1200.421,
+            1201.802
+          ],
+          "quote": "Our emotional experience has to get a little better.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1201.822,
+            1203.163
+          ],
+          "quote": "Our ticket experience has to get a little bit better.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1393.335,
+            1394.776
+          ],
+          "quote": "Our goals are to create the best experience.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 477,
+          "t": [
+            1433.53,
+            1435.132
+          ],
+          "quote": "You're building a fan experience.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "fans-first",
+      "type": "concept",
+      "role": "concept",
+      "name": "粉丝优先 (fans first)",
+      "file": "粉丝优先",
+      "primary": true,
+      "how_described": "本集说这是公司身份和价值观：即使 ESPN 给十倍的钱也永远粉丝优先，一旦偏离就会每天失去几个、几十个、几千个粉丝",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            78.143,
+            85.787
+          ],
+          "quote": "The name you may not know off the bat, but Jesse is the founder of the Savannah Bananas and Fans First Entertainment.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1149.667,
+            1150.488
+          ],
+          "quote": "Fans first always.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1151.129,
+            1153.113
+          ],
+          "quote": "We started this company to be fans first.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "social-media",
+      "type": "concept",
+      "role": "concept",
+      "name": "社交媒体 (social media)",
+      "file": "社交媒体",
+      "primary": true,
+      "how_described": "本集把它定位为放大器：没有社交媒体的时代是巨大挑战，现在它能放大声量，但你仍必须先创造出真正非凡的东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            424.502,
+            425.404
+          ],
+          "quote": "There was no social media.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 163,
+          "t": [
+            511.018,
+            513.9
+          ],
+          "quote": "When we put things on social media, we put millions of things on social media.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 300,
+          "t": [
+            848.94,
+            854.028
+          ],
+          "quote": "Still ahead, more with Jesse Cole on how he uses social media to supercharge growth.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1009.148,
+            1016.114
+          ],
+          "quote": "It strikes me that 20 years ago, this would have been a heck of a lot harder to do, in part because you just didn't have the range of social media.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1045.775,
+            1052.537
+          ],
+          "quote": "And so I think without social media, they've been a great challenge, but yes, now social media, we can amplify, but you still have to create something truly remarkable.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "experiment",
+      "type": "concept",
+      "role": "concept",
+      "name": "实验 (experiment)",
+      "file": "实验",
+      "primary": true,
+      "how_described": "本集说实验是核心方法：起步时「没有什么可失去」就拼命试，后来形成 SNL 模式——周二全天点子会、围读、排练，每周一档新节目",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            445.917,
+            457.304
+          ],
+          "quote": "When you talk to these folks, when they come to you, what are you saying to them about how to inject that, let's f***ing go of it, you know, into a process so that you take away that fear of failure and actually give yourself freedom to experiment?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 279,
+          "t": [
+            806.575,
+            809.976
+          ],
+          "quote": "So we already had a little bit of a cushion to say, hey, we can experiment.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "ticket-price",
+      "type": "concept",
+      "role": "concept",
+      "name": "定价 (ticket price)",
+      "file": "定价",
+      "primary": true,
+      "how_described": "本集说定价即立场：票价 40/50/60 美元无任何费用，自建全票面价二级市场亏钱遏制黄牛，顾问都说他们放着 1 亿美元不赚",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 431,
+          "t": [
+            1309.878,
+            1312.698
+          ],
+          "quote": "You guys have kept a very low fixed ticket price.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1323.322,
+            1325.263
+          ],
+          "quote": "The average ticket price in the secondary market is over $200.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "surveys",
+      "type": "concept",
+      "role": "concept",
+      "name": "观察行为而非问卷 (surveys)",
+      "file": "观察行为而非问卷",
+      "primary": true,
+      "how_described": "本集的核心一课：没有球迷说要更快的演出，但他们提前离场的行为说明一切——录像、每 30 分钟观察，然后发明 99 分钟的 banana ball",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            544.708,
+            545.769
+          ],
+          "quote": "Don't do surveys.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

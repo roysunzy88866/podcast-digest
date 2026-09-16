@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
+[[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":1,"Revel":1,"SpaceX":15,"LLVM":1,"Python":5,"vibe coding":34,"CI-CD":10,"Palantir":16}</script>
+<script type="application/json" class="pd-epn">{"Mario":1,"Revel":1,"SpaceX":15,"LLVM":1,"Python":5,"vibe coding":35,"CI-CD":10,"Palantir":16}</script>
 
 <script>
 (function(){

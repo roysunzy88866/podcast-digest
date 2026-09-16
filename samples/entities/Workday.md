@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Chris Benson]] · [[Stripe]] · [[Salesforce]] · [[Claude Code]] · [[Daniel Whitenack]] · [[Olivia Moore]] · [[Daniel Widenach]]
 
-<script type="application/json" class="pd-epn">{"智能体":244,"Anthropic":123,"OpenAI":113,"Chris Benson":7,"Stripe":31,"Salesforce":20,"Claude Code":59,"Daniel Whitenack":6,"Olivia Moore":1,"Daniel Widenach":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":248,"Anthropic":123,"OpenAI":115,"Chris Benson":7,"Stripe":31,"Salesforce":21,"Claude Code":59,"Daniel Whitenack":6,"Olivia Moore":1,"Daniel Widenach":1}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Matteo Franceschetti]] [[Robert Lucero]]
+[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Craig":1,"G2":1,"ChatGPT":66,"Gemini":7,"Claude":58,"OpenAI":113,"Reddit":5,"智能体":244,"AEO":4,"验证层":1}</script>
+<script type="application/json" class="pd-epn">{"Craig":1,"G2":1,"ChatGPT":66,"Gemini":7,"Claude":58,"OpenAI":115,"Reddit":5,"智能体":248,"AEO":4,"验证层":1}</script>
 
 <script>
 (function(){

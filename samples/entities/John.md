@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]] [[David Alleman]]
+[[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":12,"创始人-市场契合度":3,"智能体":244,"模型能力的边缘":1,"垂直化":1,"SaaS":16}</script>
+<script type="application/json" class="pd-epn">{"YC":12,"创始人-市场契合度":3,"智能体":248,"模型能力的边缘":1,"垂直化":1,"SaaS":16}</script>
 
 <script>
 (function(){

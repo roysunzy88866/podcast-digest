@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Resolve AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Resolve AI">RE</div><div class="pi"><h1 class="pt">Resolve AI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Resolve AI">RE</div><div class="pi"><h1 class="pt">Resolve AI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2025-10-06-talks-agents-for-complex-software-engineering|《Vibe debugging：代码生成之后，生产环境才是真正的硬仗》]]**(00:48起):本集主角公司，Mayank 与 Roshan 创办，主张复杂性正向生产环境转移，从事故根因分析和 on-call 响应切入，用环境智能体自动化软件工程中写代码之外的部分
 - **[[2026-08-09-talks-always-on-agents-run-production-without|《当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作》]]**(00:23起):本集讨论的智能体平台公司，提供值班智能体和后台智能体，用来应对生产环境日益增加的复杂性，并具备学习和记忆系统来理解生产上下文。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2025-10-06-talks-agents-for-complex-software-engineering|《Vibe debugging：代码生成之后，生产环境才是真正的硬仗》]] — 作为被讨论公司
 - [[2026-08-09-talks-always-on-agents-run-production-without|《当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Justin Smith]] · [[GitHub]] · [[Slack]] · [[智能体]] · [[后台智能体]] · [[生产上下文]] · [[可观测性]] · [[沙箱]] · [[部署监控]] · [[功能开关]]
+[[Splunk]] · [[智能体]] · [[沙箱]] · [[可观测性]] · [[Corinne Riley]] · [[Justin Smith]] · [[Mayank]] · [[GitHub]] · [[Roshan]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"Justin Smith":1,"GitHub":22,"Slack":25,"智能体":244,"后台智能体":4,"生产上下文":1,"可观测性":19,"沙箱":44,"部署监控":1,"功能开关":3}</script>
+<script type="application/json" class="pd-epn">{"Splunk":3,"智能体":248,"沙箱":45,"可观测性":20,"Corinne Riley":4,"Justin Smith":1,"Mayank":1,"GitHub":22,"Roshan":2,"Slack":25}</script>
 
 <script>
 (function(){

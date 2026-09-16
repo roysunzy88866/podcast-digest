@@ -173,9 +173,9 @@ Max 极度好胜。他说 Legora 刚成立时"完全没有存在的理由"，只
 
 **顺着「智能体」挖下去**
 
+- [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注]]<span class="pd-rz">同公司:DeepMind、OpenAI · 同概念:智能体 (agent)、评估 (eval)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic · 同概念:智能体 (agent)、评估 (eval)</span>
 - [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|Clay 的智能体矩阵：如何为数十亿次运行建评估]]<span class="pd-rz">同公司:LangChain · 同概念:智能体 (agent)、评估 (eval)</span>
-- [[2026-09-04-talks-open-models-change-the-economics-of-ai|Ollama CEO：开源模型正吃掉企业 80-90% 的 token]]<span class="pd-rz">同公司:Benchmark · 同概念:微调 (fine-tune)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -7,25 +7,37 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Lightfield</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Lightfield">LI</div><div class="pi"><h1 class="pt">Lightfield</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Lightfield">LI</div><div class="pi"><h1 class="pt">Lightfield</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-14-pmf-he-turned-off-a-product-with-20m-users-a|《从 2000 万用户到烧掉重来：Tome 创始人的绝地转型与百万播放打法》]]**(01:31起):本集主角:Tome 转型后的新公司,AI 原生 CRM,为还没用 CRM 的新公司重造系统记录,让智能体拿到做出色工作所需的客户数据。
+- **[[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]]**(00:10起):本集主角：Keith 转型后创办的公司，刚完成 A16Z 领投的 4700 万美元 A 轮融资，正在构建一个商业世界模型——把客户的邮件、通话和会议转化为 AI 智能体能拿来干活的记录。
+
+## ① 提到它的金句
+
+*3 条*
+
+![[2026-09-16-a16z-the-ai-native-crm-pmervpt#^q8]]
+
+![[2026-09-16-a16z-the-ai-native-crm-pmervpt#^q14]]
+
+![[2026-09-16-a16z-the-ai-native-crm-pmervpt#^q16]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-14-pmf-he-turned-off-a-product-with-20m-users-a|《从 2000 万用户到烧掉重来：Tome 创始人的绝地转型与百万播放打法》]] — 作为被讨论公司
+- [[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Keith Peiris]] · [[Tome]] · [[Salesforce]] · [[HubSpot]] · [[CRM]] · [[记录系统]] · [[产品市场契合]] · [[NDR]] · [[发布视频]] · [[ICP]]
+[[Tome]] · [[Salesforce]] · [[CRM]] · [[记录系统]] · [[Keith Peiris]] · [[Keith Parris]] · [[HubSpot]] · [[Alex Rampell]] · [[产品市场契合]] · [[Joe Schmidt]]
 
-<script type="application/json" class="pd-epn">{"Keith Peiris":1,"Tome":1,"Salesforce":20,"HubSpot":6,"CRM":4,"记录系统":4,"产品市场契合":20,"NDR":1,"发布视频":1,"ICP":3}</script>
+<script type="application/json" class="pd-epn">{"Tome":2,"Salesforce":21,"CRM":5,"记录系统":5,"Keith Peiris":1,"Keith Parris":1,"HubSpot":6,"Alex Rampell":3,"产品市场契合":20,"Joe Schmidt":2}</script>
 
 <script>
 (function(){

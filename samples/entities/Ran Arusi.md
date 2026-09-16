@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]] [[Tibo Sottiaux]]
+[[Marc Brooker]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]] [[Max Drake]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":8,"智能体":244,"可教授的知识与习得的知识":1,"工作流":6,"软件工厂":5,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":123}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":9,"智能体":248,"可教授的知识与习得的知识":1,"工作流":7,"软件工厂":5,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":123}</script>
 
 <script>
 (function(){
