@@ -115,7 +115,7 @@ jsonLd: |
 
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则]]<span class="pd-rz">同公司:LangChain · 同概念:harness、文件系统 (file system)、深度智能体 (deep agents)、LangGraph、中间件 (middleware)</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:LangChain · 同概念:harness、护栏 (guardrails)</span>
-- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:人工在环 (human in the loop)、护栏 (guardrails)、MCP</span>
+- [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|智能体就只是文件：当配置取代 Python]]<span class="pd-rz">同公司:LangChain · 同概念:harness、上下文窗口 (context window)</span>
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,941 @@
+{
+  "episode_id": "2026-09-14-talks-agents-without-code-skills-yaml-and-file",
+  "podcast": "精选演讲",
+  "date": "2026-09-14",
+  "tags": [
+    "智能体",
+    "AI 编程",
+    "AI 基础设施",
+    "沙箱",
+    "Gemini"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "philipp-schmid",
+      "type": "person",
+      "role": "guest",
+      "name": "Philipp Schmid",
+      "file": "Philipp Schmid",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线概念:引用定义「LLM agent 在循环中运行工具直到达成目标」,并用三种方式构建同一个 GitHub PR 审查智能体,论证 agent 的编写方式正从写 Python 代码变成写文件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            24.597,
+            30.079
+          ],
+          "quote": "And before we begin, I would like to start with my favorite definition of what is an agent from Simon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            30.54,
+            33.881
+          ],
+          "quote": "An LLM agent runs tools in a loop until it leaves the goal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            34.601,
+            41.063
+          ],
+          "quote": "And what we are going to do is we are going to build the same agent, the same GitHub PR review agent in three different ways.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            204.561,
+            214.868
+          ],
+          "quote": "And what we need, of course, for an agent is we also need a system instruction, so there's a separate file for the system instruction, very basic, you are GitHub PR reviewer, and then, of course, we need tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            217.069,
+            232.6
+          ],
+          "quote": "Those JSON schemas, specifications of description, exactly define which actions the agent can take, and then, of course, we need the implementation, in this case, using the basic GitHub API, just sending some requests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            248.215,
+            269.97
+          ],
+          "quote": "Yes, we get back, hey, I'm an agent, and then we, yes, ask it to review a pull request on the Gemini skills repository, and what we should see is that the agent should hopefully start soon sending function calls, function results, function calls, function results, but it's very limited to, yes, great, it works, very limited to the tools we define.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            270.03,
+            274.333
+          ],
+          "quote": "So, if we ask the agent to do something which it does not have the capabilities to,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            289.943,
+            306.818
+          ],
+          "quote": "We have a token generation, we have the native function calling, and we must execute the loop, we must handle the tool routing, we must create a JSON schema, we must write the Python code, we need to execute the Python code, we need to manage the state, so there's a lot of things we need to do to get an agent running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            307.838,
+            310.038
+          ],
+          "quote": "And then we got agent frameworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            310.078,
+            314.079
+          ],
+          "quote": "There were many different agent frameworks which abstracted away some of that complexity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            314.539,
+            326.661
+          ],
+          "quote": "One example here is the ADK framework where you have an agent class now which handles all of the tool loops, the function calling, the retries, the error handling, and it made it a little bit easier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            343.751,
+            351.44
+          ],
+          "quote": "And what is very interesting, if you let me open both, so we still have our, we don't have our agent file anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            351.46,
+            352.921
+          ],
+          "quote": "So the agent went away.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            357.946,
+            369.496
+          ],
+          "quote": "In this case, also no JSON definitions anymore because those agent frameworks now use the signature of our functions to create those JSON schemas on the fly to provide the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            370.017,
+            372.999
+          ],
+          "quote": "So, let's stop our agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            373.52,
+            376.302
+          ],
+          "quote": "Now, let's run our second agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            393.363,
+            403.67
+          ],
+          "quote": "And we wait for the agent to, yes, continue, but a similar difficulty here is I ask it, like, what's the weather in San Francisco?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            414.739,
+            419.021
+          ],
+          "quote": "Still very unfortunate because we need to be very explicit on what our agent can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            419.081,
+            425.263
+          ],
+          "quote": "And we all know nowadays that we just want to prompt something and we wanted the agent to do whatever it takes to achieve that goal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            442.971,
+            455.057
+          ],
+          "quote": "We still need to add specific rules or requirements to make sure whatever we want the agent to do, and we need to provide the environment where all of the tools are running, where we want to host it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            458.019,
+            464.941
+          ],
+          "quote": "Afterwards, hopefully, comes remote agents, and at Google I.O., we launched the anti-gravity remote agent on the Gemini API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            465.341,
+            471.364
+          ],
+          "quote": "The anti-gravity agent is powered by the same agent harness, which powers the anti-gravity IDE.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            471.744,
+            477.226
+          ],
+          "quote": "Here, the same harness, very important, does not mean the same agent, because the anti-gravity agent is a coding agent at the moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            477.786,
+            490.253
+          ],
+          "quote": "And the agent available on the Gemini API is a general purpose agent, so there might be different system instruction, there might be slightly different tools, because the Gemini API already has a Google search tool, so we use that what we have built.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            493.995,
+            504.561
+          ],
+          "quote": "And this environment parameter here allows the agent to get access to a hosted, isolated cloud sandbox, where it can run tools, where it can run bash commands, and where it can save files.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            523.466,
+            534.113
+          ],
+          "quote": "So we created a network proxy around the agent sandbox, which basically injects the credentials when the agent makes a request from inside the sandbox to outside the sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            534.133,
+            536.575
+          ],
+          "quote": "So the agent never really sees your credential.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            543.86,
+            546.542
+          ],
+          "quote": "And you can also limit which domains the agent has access to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            547.523,
+            553.226
+          ],
+          "quote": "So, if you restrict the agent completely on which network access it can, or which website it can access, you just leave it blank.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            553.587,
+            564.373
+          ],
+          "quote": "By default, the agent can access all because, I mean, it's a hassle if you first need to define where to go, so we try to stay simple, and of course, making an API call is nice, but we thought, hey,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            572.194,
+            594.058
+          ],
+          "quote": "You have the same system instruction, the same base agent, the same base environment, and then you can create that agent, and then you can use that agent in the same exact way as we use Gemini models or as you use the anti-gravity agent by providing the ID, so all of the existing code can be reused with your own custom agent, with your own custom tools, with your own custom credentials, environments, whatever you need for it to run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            619.672,
+            625.175
+          ],
+          "quote": "The only difference here is that we tell the agent, hey, you have access to the GitHub CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            632.922,
+            637.726
+          ],
+          "quote": "We just tell the agent, hey, you have a GitHub CLI, you have a Bash tool, you have file systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            651.218,
+            656.202
+          ],
+          "quote": "So, we go into our terminal and we run our agent here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            673.821,
+            681.684
+          ],
+          "quote": "Yeah, so in this case, since we run inside the sandbox, the agent first like explores the sandbox to really make sure, hey, do we have this GitHub CLI installed?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            683.425,
+            688.887
+          ],
+          "quote": "It did not find it on the first turn, so it installs it, and then we can see the agent doing its work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            719.615,
+            726.457
+          ],
+          "quote": "We should hopefully see that the agent tries to use, ah, it uses Google Search in this case on 2nd of July.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            732.618,
+            738.299
+          ],
+          "quote": "So the agent became more of a general purpose agent, and we don't need to specify all of the tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            772.369,
+            796.036
+          ],
+          "quote": "For the API, and also for GitHub.com, since you need both URLs, one is used for the Git commands, the other one is used for HTTP commands, and then Domain All is basically, hey, in addition to the GitHub URLs, you can use all of the web, but you don't have credentials for it, and then it's a simple, single API call to the anti-gravity agent with your user input, with the environment, and then also with the previous interaction ID,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            832.223,
+            836.644
+          ],
+          "quote": "The context window and the compaction is also automatically managed by the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            916.048,
+            921.934
+          ],
+          "quote": "We don't need to change our code, we just provide more files to the agent, and the agent decides on what we want to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            925.237,
+            935.846
+          ],
+          "quote": "So at AI engineer in Europe, Cursor did a great talk on how they replaced roughly 12,000 lines of TypeScript code with 200 lines agent files to create something similar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            937.467,
+            949.215
+          ],
+          "quote": "Hardcoded code orchestration for doing Git Worktrees, and they were able to replace it with just a skill and markdown files, and there are more, I would say, better lessons of agent engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            977.74,
+            987.189
+          ],
+          "quote": "So, if you struggle with model improvements and adding new capabilities which lead to more complexity and more code, you might need to rethink a little bit on how your agent harness looks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            999.82,
+            1009.449
+          ],
+          "quote": "So, if you have a session and tell the agent to remember something, to take notes of rules of preferences, the agent just writes it to disk and then can reuse it in the later session.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1018.475,
+            1024.178
+          ],
+          "quote": "You can, like, just write that information, that handoff to a file, and, like, tell the agent to later pick it up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1028.26,
+            1033.783
+          ],
+          "quote": "Like, we should stop micromanaging the execution paths, provide general tools to the agent, and let the model explore.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说 anti-gravity agent 的 environment 参数让 agent 访问一个托管的、隔离的云端沙箱,可在其中跑 bash 命令、读写文件、执行工具,agent 在沙箱里看不到用户凭据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            62.13,
+            65.631
+          ],
+          "quote": "So, we have to call our new agents, which also comes with Sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            493.995,
+            504.561
+          ],
+          "quote": "And this environment parameter here allows the agent to get access to a hosted, isolated cloud sandbox, where it can run tools, where it can run bash commands, and where it can save files.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            523.466,
+            534.113
+          ],
+          "quote": "So we created a network proxy around the agent sandbox, which basically injects the credentials when the agent makes a request from inside the sandbox to outside the sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            673.821,
+            681.684
+          ],
+          "quote": "Yeah, so in this case, since we run inside the sandbox, the agent first like explores the sandbox to really make sure, hey, do we have this GitHub CLI installed?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            802.598,
+            803.958
+          ],
+          "quote": "We start that Cloud Sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            809.04,
+            818.142
+          ],
+          "quote": "And then the model between the API and the Sandbox does all of the looping, calling the function, returning the function results, calling the function, returning the function results.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            843.625,
+            848.687
+          ],
+          "quote": "And we also get an isolated remote Linux sandbox, which we can use to run our code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1070.054,
+            1072.936
+          ],
+          "quote": "It will start your own custom sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集说 harness 是驱动 agent 运行的底层编排框架,并给出判断标准:模型能力越强能删的编排代码越多,若 harness 随模型进步反而更复杂,就是过度工程化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            465.341,
+            471.364
+          ],
+          "quote": "The anti-gravity agent is powered by the same agent harness, which powers the anti-gravity IDE.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            471.744,
+            477.226
+          ],
+          "quote": "Here, the same harness, very important, does not mean the same agent, because the anti-gravity agent is a coding agent at the moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            949.916,
+            954.099
+          ],
+          "quote": "Manos has refactored their harness five times in six months last year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            965.327,
+            977.7
+          ],
+          "quote": "An obvious trend that with better model capabilities, we can remove orchestration code, but if your harness is getting more complex as the model improves, you are most likely overengineering your harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            977.74,
+            987.189
+          ],
+          "quote": "So, if you struggle with model improvements and adding new capabilities which lead to more complexity and more code, you might need to rethink a little bit on how your agent harness looks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1058.966,
+            1070.034
+          ],
+          "quote": "The things for you to do on Monday, you can scan that QR code, which brings you directly to AI Studio, where you can immediately try out the anti-gravity harness, so you can already start prompting it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "function-calling",
+      "type": "concept",
+      "role": "concept",
+      "name": "函数调用 (function calling)",
+      "file": "函数调用",
+      "primary": true,
+      "how_described": "本集说第一版 agent 需手写 JSON schema、检查 LLM 输出是否为函数调用并匹配类型;框架后来从函数签名即时生成 schema;anti-gravity 版则由模型在 API 和沙箱之间自己完成函数调用循环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            191.393,
+            203.921
+          ],
+          "quote": "Class, we have a run function which uses the interactions API, we have all of the weird complex parsing with function calling, with appending the arrows, checking if you get an arrow, and then we have the result again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            289.943,
+            306.818
+          ],
+          "quote": "We have a token generation, we have the native function calling, and we must execute the loop, we must handle the tool routing, we must create a JSON schema, we must write the Python code, we need to execute the Python code, we need to manage the state, so there's a lot of things we need to do to get an agent running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            314.539,
+            326.661
+          ],
+          "quote": "One example here is the ADK framework where you have an agent class now which handles all of the tool loops, the function calling, the retries, the error handling, and it made it a little bit easier.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集说 anti-gravity agent 的服务端自动管理上下文窗口和压缩,对话过长时自动压缩上下文,开发者无需管理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            832.223,
+            836.644
+          ],
+          "quote": "The context window and the compaction is also automatically managed by the agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "evals",
+      "file": "evals",
+      "primary": true,
+      "how_described": "本集把它列为模型接管循环之后仍属于开发者要掌管的部分:「我们需要提供能力或上下文和 skills.md,并且我们需要拥有 evals」,并强调要专注于 evals、验证结果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            856.189,
+            860.531
+          ],
+          "quote": "We need to provide capabilities or context and skills.md, and we need to own the evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1036.625,
+            1047.696
+          ],
+          "quote": "Own what is yours, meaning focus on your domain instructions, focus on the workflows, focus especially on the evals, define clean tools, and verify the outcomes, and really build to delete.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "json-schema",
+      "type": "concept",
+      "role": "concept",
+      "name": "JSON schema",
+      "file": "JSON schema",
+      "primary": true,
+      "how_described": "本集说第一版 agent 必须手写 JSON schema 来精确定义智能体能采取哪些操作,第二版框架从 Python 函数签名即时生成 schema,第三版则完全消失。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            155.77,
+            157.712
+          ],
+          "quote": "You needed to define a JSON schema.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            289.943,
+            306.818
+          ],
+          "quote": "We have a token generation, we have the native function calling, and we must execute the loop, we must handle the tool routing, we must create a JSON schema, we must write the Python code, we need to execute the Python code, we need to manage the state, so there's a lot of things we need to do to get an agent running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            429.684,
+            442.631
+          ],
+          "quote": "The framework solves the turn-taking loops, the routing, the execution mapping, the JSON schema creation for the different function calls, but we still own the Python plumping, so we still need to write those tools with Python code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "company",
+      "role": "company",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": true,
+      "how_described": "本集说 anti-gravity 远程 agent 在 Gemini API 上发布,Interactions API 是运行模型和智能体的统一接口,可通过 Gemini 模型同样的方式调用自定义 agent。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            47.905,
+            54.408
+          ],
+          "quote": "Before we begin, I would like to quickly introduce you to the Interactions API, which is our new Gemini API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            58.509,
+            61.77
+          ],
+          "quote": "So you can use the Interactions API to call the Gemini models directly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            183.69,
+            189.352
+          ],
+          "quote": "So I built or I let Gemini build a basic implementation of this Python loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            248.215,
+            269.97
+          ],
+          "quote": "Yes, we get back, hey, I'm an agent, and then we, yes, ask it to review a pull request on the Gemini skills repository, and what we should see is that the agent should hopefully start soon sending function calls, function results, function calls, function results, but it's very limited to, yes, great, it works, very limited to the tools we define.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            458.019,
+            464.941
+          ],
+          "quote": "Afterwards, hopefully, comes remote agents, and at Google I.O., we launched the anti-gravity remote agent on the Gemini API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            477.786,
+            490.253
+          ],
+          "quote": "And the agent available on the Gemini API is a general purpose agent, so there might be different system instruction, there might be slightly different tools, because the Gemini API already has a Google search tool, so we use that what we have built.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            572.194,
+            594.058
+          ],
+          "quote": "You have the same system instruction, the same base agent, the same base environment, and then you can create that agent, and then you can use that agent in the same exact way as we use Gemini models or as you use the anti-gravity agent by providing the ID, so all of the existing code can be reused with your own custom agent, with your own custom tools, with your own custom credentials, environments, whatever you need for it to run.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集说 Google 在 I/O 上发布了 anti-gravity 远程 agent,并在 agent 沙箱外包了一层网络代理,在 agent 外发请求时注入凭据以保证安全。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            458.019,
+            464.941
+          ],
+          "quote": "Afterwards, hopefully, comes remote agents, and at Google I.O., we launched the anti-gravity remote agent on the Gemini API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            477.786,
+            490.253
+          ],
+          "quote": "And the agent available on the Gemini API is a general purpose agent, so there might be different system instruction, there might be slightly different tools, because the Gemini API already has a Google search tool, so we use that what we have built.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            719.615,
+            726.457
+          ],
+          "quote": "We should hopefully see that the agent tries to use, ah, it uses Google Search in this case on 2nd of July.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集引用 Cursor 在欧洲 AI Engineer 大会的分享:他们用 200 行 agent 文件替换了约 12000 行 TypeScript 代码,把硬编码的 Git Worktrees 编排换成一个 skill 加 markdown 文件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            925.237,
+            935.846
+          ],
+          "quote": "So at AI engineer in Europe, Cursor did a great talk on how they replaced roughly 12,000 lines of TypeScript code with 200 lines agent files to create something similar.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langchain",
+      "type": "company",
+      "role": "company",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": true,
+      "how_described": "本集引用 LangChain 一年内重新架构了他们的 OpenDeep Research 三次,作为行业在向「文件驱动智能体」方向收敛的证据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            954.499,
+            964.667
+          ],
+          "quote": "LangChain has re-architected their OpenDeep research three times a year, and then also Vercel has removed 80% of their tools to achieve fewer steps, faster responses, and better accuracy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": true,
+      "how_described": "本集说 Vercel 移除了 80% 的工具,以实现更少的步骤、更快的响应和更好的准确性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            954.499,
+            964.667
+          ],
+          "quote": "LangChain has re-architected their OpenDeep research three times a year, and then also Vercel has removed 80% of their tools to achieve fewer steps, faster responses, and better accuracy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "manos",
+      "type": "company",
+      "role": "company",
+      "name": "Manos",
+      "file": "Manos",
+      "primary": false,
+      "how_described": "本集顺带提到 Manos 去年六个月内重构了他们的 harness 五次,作为行业快速迭代的例子之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            949.916,
+            954.099
+          ],
+          "quote": "Manos has refactored their harness five times in six months last year.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

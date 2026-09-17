@@ -1,0 +1,1490 @@
+[
+ {
+  "seg": 0,
+  "start": 12.575,
+  "end": 13.236,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.496,
+  "end": 17.18,
+  "speaker": "Unknown",
+  "en": "This talk will be about how to run agents reliably in production.",
+  "zh": "这次演讲的主题是如何在生产环境中可靠地运行智能体。"
+ },
+ {
+  "seg": 2,
+  "start": 17.681,
+  "end": 25.149,
+  "speaker": "Unknown",
+  "en": "It will not be about the eFile part, but it will be about all the other things you need to get going in order to run agents resiliently.",
+  "zh": "它不会讲 eFile 部分，而是讲你要让智能体有韧性地运行起来所需要的其他所有事情。"
+ },
+ {
+  "seg": 3,
+  "start": 25.669,
+  "end": 27.691,
+  "speaker": "Unknown",
+  "en": "So the infrastructure layer, basically.",
+  "zh": "也就是说，基本上是基础设施层。"
+ },
+ {
+  "seg": 4,
+  "start": 28.372,
+  "end": 32.737,
+  "speaker": "Unknown",
+  "en": "I want to set the scene with this quote of Andrej Carpathy of last week.",
+  "zh": "我想用 Andrej Carpathy 上周的一句话来铺垫。"
+ },
+ {
+  "seg": 5,
+  "start": 33.177,
+  "end": 38.843,
+  "speaker": "Unknown",
+  "en": "It describes that the way we interact with agents and LLMs has been evolving in three waves.",
+  "zh": "它描述了我们与智能体和 LLM 交互的方式经历了三波演进。"
+ },
+ {
+  "seg": 6,
+  "start": 39.403,
+  "end": 48.452,
+  "speaker": "Unknown",
+  "en": "The first wave was an LLM being something like a website where we go to, we ask it a question, it thinks for a few seconds and then gives us a response.",
+  "zh": "第一波是 LLM 类似于一个我们访问的网站：我们问它一个问题，它思考几秒钟，然后给我们一个回应。"
+ },
+ {
+  "seg": 7,
+  "start": 49.093,
+  "end": 52.314,
+  "speaker": "Unknown",
+  "en": "The second wave was going towards agents.",
+  "zh": "第二波是走向智能体。"
+ },
+ {
+  "seg": 8,
+  "start": 52.434,
+  "end": 54.495,
+  "speaker": "Unknown",
+  "en": "It was an app that we downloaded to our computer.",
+  "zh": "它是我们下载到电脑上的一个应用。"
+ },
+ {
+  "seg": 9,
+  "start": 54.775,
+  "end": 59.337,
+  "speaker": "Unknown",
+  "en": "It has some tools at its disposal, and it can do some work with our interaction.",
+  "zh": "它有一些可用的工具，可以在我们的交互下做一些工作。"
+ },
+ {
+  "seg": 10,
+  "start": 60.637,
+  "end": 75.203,
+  "speaker": "Unknown",
+  "en": "Now, the third wave will be going more and more towards persistent and asynchronous entities, so agents being long-running processes in our infrastructure with access to tools and other agents around the organization and context.",
+  "zh": "现在，第三波会越来越走向持久化和异步的实体，也就是智能体成为我们基础设施中长期运行的进程，可以访问工具、组织中其他的智能体以及上下文。"
+ },
+ {
+  "seg": 11,
+  "start": 77.058,
+  "end": 89.183,
+  "speaker": "Unknown",
+  "en": "And so as our use cases are evolving more and more from single agents to agentic platforms that connect parts around the organization, our infrastructure layer should also evolve with that.",
+  "zh": "随着我们的用例越来越多地从单个智能体演进到连接组织各部分的智能体平台，我们的基础设施层也应该随之演进。"
+ },
+ {
+  "seg": 12,
+  "start": 89.664,
+  "end": 99.108,
+  "speaker": "Unknown",
+  "en": "So when we look at the types of tools that are currently out there to implement agents, a lot of innovation has been done on sites such as agent SDKs and memory.",
+  "zh": "那么，当我们看看目前用于实现智能体的各类工具时，在智能体 SDK 和记忆等方面已经有了很多创新。"
+ },
+ {
+  "seg": 13,
+  "start": 99.828,
+  "end": 110.491,
+  "speaker": "Unknown",
+  "en": "And ancient SEKs are really cool to implement POCs and get started quickly, but they don't necessarily help with connecting the distributed bits around an organization.",
+  "zh": "智能体 SDK 对于实现 POC 和快速上手确实很酷，但它们不一定能帮你连接组织内分布式的各个部分。"
+ },
+ {
+  "seg": 14,
+  "start": 111.567,
+  "end": 117.112,
+  "speaker": "Unknown",
+  "en": "And if you want to implement more complex agentic systems, you actually need all of those things.",
+  "zh": "而如果你想实现更复杂的智能体系统，你实际上需要所有这些东西。"
+ },
+ {
+  "seg": 15,
+  "start": 117.472,
+  "end": 136.107,
+  "speaker": "Unknown",
+  "en": "So that is the layer that you see below here, where you have to deploy extra infrastructure, you need to write things like retry logic, recovery logic, and all of that is actually pretty complex to get right, but completely necessary to run long-running stateful and distributed processes in production.",
+  "zh": "也就是你在下面看到的这一层，你必须部署额外的基础设施，需要编写重试逻辑、恢复逻辑之类的东西，而要把这些做对其实相当复杂，但这对于在生产环境中运行长期运行、有状态、分布式的进程是完全必要的。"
+ },
+ {
+  "seg": 16,
+  "start": 137.568,
+  "end": 141.27,
+  "speaker": "Unknown",
+  "en": "So today I want to talk about an open source framework called Restate.",
+  "zh": "所以今天我想谈一个叫 Restate 的开源框架。"
+ },
+ {
+  "seg": 17,
+  "start": 141.67,
+  "end": 146.954,
+  "speaker": "Unknown",
+  "en": "And you can see it a bit as a flexible, durable foundation that lets you build any backend.",
+  "zh": "你可以把它看作一个灵活、持久的基础，让你能构建任何后端。"
+ },
+ {
+  "seg": 18,
+  "start": 147.314,
+  "end": 155.279,
+  "speaker": "Unknown",
+  "en": "So it's not specific for agents, but as agents are also just a type of a backend, it also works well for them.",
+  "zh": "所以它并不是专门为智能体设计的，但由于智能体本质上也是一种后端，它对智能体同样适用。"
+ },
+ {
+  "seg": 19,
+  "start": 156.039,
+  "end": 167.514,
+  "speaker": "Unknown",
+  "en": "The ideas behind ReState come from Apache Flink, which is a popular distributed stream processing engine, and also from some of the ex-architects behind Metascore Event Infra.",
+  "zh": "Restate 背后的理念来自 Apache Flink——一个流行的分布式流处理引擎，也来自 Metascore Event Infra 的一些前架构师。"
+ },
+ {
+  "seg": 20,
+  "start": 169.176,
+  "end": 171.119,
+  "speaker": "Unknown",
+  "en": "So what are the ingredients in ReState?",
+  "zh": "那么 Restate 有哪些组成部分？"
+ },
+ {
+  "seg": 21,
+  "start": 171.499,
+  "end": 172.921,
+  "speaker": "Unknown",
+  "en": "Basically four parts.",
+  "zh": "基本上四个部分。"
+ },
+ {
+  "seg": 22,
+  "start": 173.998,
+  "end": 177.82,
+  "speaker": "Unknown",
+  "en": "First of all, it makes sure that a single run of an agent is resilient.",
+  "zh": "首先，它确保智能体的单次运行是有韧性的。"
+ },
+ {
+  "seg": 23,
+  "start": 178.521,
+  "end": 181.062,
+  "speaker": "Unknown",
+  "en": "This is called durable execution in the industry.",
+  "zh": "这在业界被称为持久化执行。"
+ },
+ {
+  "seg": 24,
+  "start": 181.402,
+  "end": 191.108,
+  "speaker": "Unknown",
+  "en": "Think about things like when an agent runs for a week and then crashes, we want to be able to bring it back and let it continue exactly at the point where it failed.",
+  "zh": "想象一下，一个智能体运行了一周然后崩溃了，我们希望能够把它拉起来，让它从失败的那一点精确地继续执行。"
+ },
+ {
+  "seg": 25,
+  "start": 191.188,
+  "end": 193.45,
+  "speaker": "Unknown",
+  "en": "We don't want it to start over from the beginning.",
+  "zh": "我们不希望它从头开始。"
+ },
+ {
+  "seg": 26,
+  "start": 194.761,
+  "end": 199.944,
+  "speaker": "Unknown",
+  "en": "Another area here is running many concurrent sessions in parallel.",
+  "zh": "这里的另一个方面是并行运行许多并发会话。"
+ },
+ {
+  "seg": 27,
+  "start": 200.284,
+  "end": 210.01,
+  "speaker": "Unknown",
+  "en": "Imagine running thousands of concurrent agent sessions at the same time and needing to make sure that state is always consistent and that different agents don't interfere with each other.",
+  "zh": "想象一下同时运行数千个并发的智能体会话，并且需要确保状态始终一致，不同的智能体之间互不干扰。"
+ },
+ {
+  "seg": 28,
+  "start": 211.528,
+  "end": 229.38,
+  "speaker": "Unknown",
+  "en": "And then going more towards things like communication between agents, between agents and MCP servers and other tools, and finally also control, making sure that when an agent, for example, is doing something you don't want it to continue or when it's stuck, being able to actually cancel or kill the execution.",
+  "zh": "再进一步，比如智能体之间、智能体与 MCP 服务器及其他工具之间的通信，最后还有控制，确保当某个智能体在做你不希望它继续的事情，或者卡住时，能够真正地取消或终止执行。"
+ },
+ {
+  "seg": 29,
+  "start": 231.292,
+  "end": 234.133,
+  "speaker": "Unknown",
+  "en": "So, the way that you can think of it is as follows.",
+  "zh": "那么，你可以这样来理解它。"
+ },
+ {
+  "seg": 30,
+  "start": 234.393,
+  "end": 240.055,
+  "speaker": "Unknown",
+  "en": "Restate is basically a server which runs in front of your agent service, so as a separate component.",
+  "zh": "Restate 基本上是一个运行在你的智能体服务前面的服务器，作为一个独立的组件。"
+ },
+ {
+  "seg": 31,
+  "start": 240.615,
+  "end": 243.936,
+  "speaker": "Unknown",
+  "en": "It sits there a bit like a message broker or a proxy.",
+  "zh": "它在那里有点像消息代理或代理。"
+ },
+ {
+  "seg": 32,
+  "start": 244.516,
+  "end": 251.918,
+  "speaker": "Unknown",
+  "en": "And when there's a request for your agent, Restate proxies the request to the service and pushes it to the service, basically.",
+  "zh": "当有针对你的智能体的请求时，Restate 会把请求代理并推送给该服务。"
+ },
+ {
+  "seg": 33,
+  "start": 252.378,
+  "end": 257.262,
+  "speaker": "Unknown",
+  "en": "And from that moment, there's a connection, open connection between Restate and the agent.",
+  "zh": "从那一刻起，Restate 和智能体之间就有一条打开的连接。"
+ },
+ {
+  "seg": 34,
+  "start": 257.583,
+  "end": 261.166,
+  "speaker": "Unknown",
+  "en": "And that connection will basically be a bit like a lifeline for the agent.",
+  "zh": "这条连接基本上就像是智能体的生命线。"
+ },
+ {
+  "seg": 35,
+  "start": 261.226,
+  "end": 271.695,
+  "speaker": "Unknown",
+  "en": "So as the agent is doing stuff, it sends events over to Restate, and Restate will use that journal of events to recover the process after a failure.",
+  "zh": "当智能体在做事时，它会把事件发送给 Restate，而 Restate 会利用这个事件日志在故障后恢复进程。"
+ },
+ {
+  "seg": 36,
+  "start": 273.145,
+  "end": 288.314,
+  "speaker": "Unknown",
+  "en": "So from a slightly higher level explanation, you could say that it's turning a normal function in your application into something that is long-running, durable, and stateful, without having to do a lot of the complex things you otherwise need to do for this.",
+  "zh": "所以从稍微高一点的层面来解释，你可以说它是把你应用中的一个普通函数变成某种长期运行、持久化、有状态的东西，而无需你去做为此原本需要做的很多复杂事情。"
+ },
+ {
+  "seg": 37,
+  "start": 289.042,
+  "end": 291.945,
+  "speaker": "Unknown",
+  "en": "So my talk today will be mainly a demo.",
+  "zh": "所以我今天演讲的主要内容是一个演示。"
+ },
+ {
+  "seg": 38,
+  "start": 292.145,
+  "end": 296.289,
+  "speaker": "Unknown",
+  "en": "So I'll be showing you a research agent that's connected to Slack.",
+  "zh": "我会给你展示一个连接到 Slack 的研究智能体。"
+ },
+ {
+  "seg": 39,
+  "start": 296.449,
+  "end": 302.796,
+  "speaker": "Unknown",
+  "en": "Imagine we are like working at some company and we want to make a Slack agent available to all of our employees.",
+  "zh": "想象我们在某家公司工作，我们想向所有员工提供一个 Slack 智能体。"
+ },
+ {
+  "seg": 40,
+  "start": 303.817,
+  "end": 311.064,
+  "speaker": "Unknown",
+  "en": "So if I go here into Slack, then I can hear in this channel, for example, ask, what is new in AI?",
+  "zh": "如果我进入 Slack，那么我可以在这个频道里，例如，提问：AI 有什么新动态？"
+ },
+ {
+  "seg": 41,
+  "start": 312.872,
+  "end": 315.175,
+  "speaker": "Unknown",
+  "en": "Now let's have a look at what it's doing under the hood.",
+  "zh": "现在让我们看看它在底层在做什么。"
+ },
+ {
+  "seg": 42,
+  "start": 315.595,
+  "end": 319.54,
+  "speaker": "Unknown",
+  "en": "So if I go back here, I have here the restate UI.",
+  "zh": "如果我回到这里，这里是 Restate 的 UI。"
+ },
+ {
+  "seg": 43,
+  "start": 319.6,
+  "end": 322.083,
+  "speaker": "Unknown",
+  "en": "This is a bit like a cockpit for your agents.",
+  "zh": "这有点像是你的智能体的驾驶舱。"
+ },
+ {
+  "seg": 44,
+  "start": 322.803,
+  "end": 326.988,
+  "speaker": "Unknown",
+  "en": "So you can see a registry of all the agents that are currently registered.",
+  "zh": "你可以看到当前已注册的所有智能体的注册表。"
+ },
+ {
+  "seg": 45,
+  "start": 327.288,
+  "end": 330.853,
+  "speaker": "Unknown",
+  "en": "And you can also see, for example, which execution is currently happening.",
+  "zh": "你还可以看到，例如，当前正在发生哪些执行。"
+ },
+ {
+  "seg": 46,
+  "start": 331.333,
+  "end": 335.575,
+  "speaker": "Unknown",
+  "en": "So here is the deep research agent that I spinned up a few seconds ago.",
+  "zh": "这是我几秒钟前启动的深度研究智能体。"
+ },
+ {
+  "seg": 47,
+  "start": 335.975,
+  "end": 338.256,
+  "speaker": "Unknown",
+  "en": "We can see what it's currently doing now.",
+  "zh": "我们可以看到它现在在做什么。"
+ },
+ {
+  "seg": 48,
+  "start": 338.416,
+  "end": 342.958,
+  "speaker": "Unknown",
+  "en": "It called first an LLM and then it sent me an answer via Slack.",
+  "zh": "它先调用了一次 LLM，然后通过 Slack 给我发了一个回答。"
+ },
+ {
+  "seg": 49,
+  "start": 343.178,
+  "end": 346.259,
+  "speaker": "Unknown",
+  "en": "This first LLM call was a planner agent.",
+  "zh": "这第一次 LLM 调用是一个规划器智能体。"
+ },
+ {
+  "seg": 50,
+  "start": 346.579,
+  "end": 352.682,
+  "speaker": "Unknown",
+  "en": "So what it did is it planned the research and sent me a list of subtopics that it wants to research.",
+  "zh": "所以它做的是先规划了研究，然后发给我一个它想研究的子主题列表。"
+ },
+ {
+  "seg": 51,
+  "start": 353.923,
+  "end": 361.568,
+  "speaker": "Unknown",
+  "en": "Now if I press here Approve, then this will unblock the workflow and will spin up a set of parallel research agents.",
+  "zh": "现在如果我按下这里的 Approve,就会解除这个工作流的阻塞，并启动一组并行的研究智能体。"
+ },
+ {
+  "seg": 52,
+  "start": 361.948,
+  "end": 365.451,
+  "speaker": "Unknown",
+  "en": "So this is basically like the classical deep research workflow, right?",
+  "zh": "所以这基本上就像经典的深度研究工作流，对吧？"
+ },
+ {
+  "seg": 53,
+  "start": 365.491,
+  "end": 374.177,
+  "speaker": "Unknown",
+  "en": "You have a planner, then a set of sub-research agents, and then finally someone who writes a report on this, like a writer agent.",
+  "zh": "你有一个规划器，然后是一组子研究智能体，最后有一个负责写报告的，比如一个写作智能体。"
+ },
+ {
+  "seg": 54,
+  "start": 375.756,
+  "end": 382.081,
+  "speaker": "Unknown",
+  "en": "And so this journal you see here on the left, that is basically the events that get sent from the agent to the restate server.",
+  "zh": "而你在这里左边看到的这个 journal,基本上就是从智能体发送到 restate 服务器的那些事件。"
+ },
+ {
+  "seg": 55,
+  "start": 382.522,
+  "end": 390.348,
+  "speaker": "Unknown",
+  "en": "And if this now crashes at some point, this journal is what will be used to recover the execution to the point where it failed.",
+  "zh": "如果它现在在某个时刻崩溃了，这个 journal 就是用来把执行恢复到失败点的东西。"
+ },
+ {
+  "seg": 56,
+  "start": 390.788,
+  "end": 393.07,
+  "speaker": "Unknown",
+  "en": "I don't know if there were some errors.",
+  "zh": "我不确定是不是出了一些错误。"
+ },
+ {
+  "seg": 57,
+  "start": 393.21,
+  "end": 395.993,
+  "speaker": "Unknown",
+  "en": "I injected a bit of like tool errors in here.",
+  "zh": "我在这里注入了一些工具错误。"
+ },
+ {
+  "seg": 58,
+  "start": 396.353,
+  "end": 412.825,
+  "speaker": "Unknown",
+  "en": "Yeah, here you can, for example, see that the sub-agent first did an LLM call, then started doing some web searches, and eventually one of the web searches didn't go through because the API was down, and then you see here on the right how it got retried and eventually completed successfully.",
+  "zh": "是的，比如在这里你可以看到，子智能体先做了一次 LLM 调用，然后开始做一些网页搜索，最后其中一个网页搜索没有成功，因为 API 挂了，然后你在右边可以看到它是如何被重试并最终成功完成的。"
+ },
+ {
+  "seg": 59,
+  "start": 413.285,
+  "end": 417.629,
+  "speaker": "Unknown",
+  "en": "So instead of starting over, it uses the journal to recover the progress.",
+  "zh": "所以它不是从头开始，而是使用 journal 来恢复进度。"
+ },
+ {
+  "seg": 60,
+  "start": 418.85,
+  "end": 420.991,
+  "speaker": "Unknown",
+  "en": "Let's now have a look at what this looks like in code.",
+  "zh": "我们现在来看看这在代码里是什么样子的。"
+ },
+ {
+  "seg": 61,
+  "start": 422.912,
+  "end": 424.213,
+  "speaker": "Unknown",
+  "en": "So the basic unit of",
+  "zh": "所以基本单位是"
+ },
+ {
+  "seg": 62,
+  "start": 425.29,
+  "end": 429.156,
+  "speaker": "Unknown",
+  "en": "How you implement applications in restate is by writing HTTP handlers.",
+  "zh": "你在 restate 中实现应用的方式就是编写 HTTP handler。"
+ },
+ {
+  "seg": 63,
+  "start": 429.636,
+  "end": 433.121,
+  "speaker": "Unknown",
+  "en": "And those handlers become durable by using the restate SDK.",
+  "zh": "而这些 handler 通过使用 restate SDK 变成持久的。"
+ },
+ {
+  "seg": 64,
+  "start": 433.622,
+  "end": 440.672,
+  "speaker": "Unknown",
+  "en": "So here in this case, we have here our deep research handler, and here as a first argument, we have a restate object context.",
+  "zh": "所以在这个例子里，我们这里有我们的深度研究 handler,这里作为第一个参数，我们有一个 restate object context。"
+ },
+ {
+  "seg": 65,
+  "start": 441.153,
+  "end": 446.577,
+  "speaker": "Unknown",
+  "en": "And the way you can imagine that is basically as that connection to that restate server.",
+  "zh": "你可以把它想象成基本上就是到那个 restate 服务器的连接。"
+ },
+ {
+  "seg": 66,
+  "start": 446.877,
+  "end": 453.462,
+  "speaker": "Unknown",
+  "en": "Whenever I do an action on this restate object, it will lead to an event being sent to restate.",
+  "zh": "每当我对这个 restate object 执行一个动作，就会导致一个事件被发送到 restate。"
+ },
+ {
+  "seg": 67,
+  "start": 454.023,
+  "end": 462.489,
+  "speaker": "Unknown",
+  "en": "So, for example, when I did that planner LLM call, what actually happened under the hood was it executed here this Python function.",
+  "zh": "比如说，当我做了那次规划器的 LLM 调用，底层实际发生的是它执行了这里的这个 Python 函数。"
+ },
+ {
+  "seg": 68,
+  "start": 462.529,
+  "end": 465.972,
+  "speaker": "Unknown",
+  "en": "This is just a simple light LLM, like...",
+  "zh": "这只是一个简单的轻量 LLM,比如……"
+ },
+ {
+  "seg": 69,
+  "start": 468.621,
+  "end": 473.027,
+  "speaker": "Unknown",
+  "en": "LLM call, and the way I made it durable is by wrapping it in restate.run.",
+  "zh": "LLM 调用，而我让它持久化的方式是用 restate.run 把它包起来。"
+ },
+ {
+  "seg": 70,
+  "start": 474.849,
+  "end": 483.902,
+  "speaker": "Unknown",
+  "en": "So what happens is by doing these durable steps, if this fails somewhere here, two hours or two months later, it will recover to exactly that point.",
+  "zh": "所以发生的事情是，通过这些持久化步骤，如果它在这里的某个地方失败了，两小时或两个月后，它会恢复到恰好那个点。"
+ },
+ {
+  "seg": 71,
+  "start": 485.342,
+  "end": 487.183,
+  "speaker": "Unknown",
+  "en": "So that's the idea of durable execution.",
+  "zh": "这就是持久化执行的理念。"
+ },
+ {
+  "seg": 72,
+  "start": 487.203,
+  "end": 489.944,
+  "speaker": "Unknown",
+  "en": "You're always able to recover a process to where it was.",
+  "zh": "你总是能够把一个进程恢复到它之前的状态。"
+ },
+ {
+  "seg": 73,
+  "start": 490.385,
+  "end": 494.707,
+  "speaker": "Unknown",
+  "en": "You can also use that for other things, not necessarily for failure recovery.",
+  "zh": "你也可以把它用于其他事情，不一定非得是故障恢复。"
+ },
+ {
+  "seg": 74,
+  "start": 495.067,
+  "end": 501.67,
+  "speaker": "Unknown",
+  "en": "For example, imagine we want to ask a human to approve something, and this approval might take weeks or a month.",
+  "zh": "比如，假设我们想让一个人批准某件事，而这个批准可能需要几周或一个月。"
+ },
+ {
+  "seg": 75,
+  "start": 502.291,
+  "end": 510.455,
+  "speaker": "Unknown",
+  "en": "This process needs to be able to survive restarts and redeploys over those kind of long periods of time.",
+  "zh": "这个进程需要能够在这种长时间跨度内经受住重启和重新部署。"
+ },
+ {
+  "seg": 76,
+  "start": 511.335,
+  "end": 520.102,
+  "speaker": "Unknown",
+  "en": "And so with durable execution you can actually also suspend a function and bring it back when it's able to make progress.",
+  "zh": "而通过持久化执行，你实际上还可以挂起一个函数，并在它能够继续推进时把它带回来。"
+ },
+ {
+  "seg": 77,
+  "start": 520.403,
+  "end": 529.39,
+  "speaker": "Unknown",
+  "en": "So in the case of a human approval what we do here is basically we create a durable promise which lives in that journal a bit like a suspension point.",
+  "zh": "所以在人工审批的情况下，我们在这里做的基本上是创建一个持久的 promise,它存在于那个 journal 里，有点像一个挂起点。"
+ },
+ {
+  "seg": 78,
+  "start": 529.931,
+  "end": 530.551,
+  "speaker": "Unknown",
+  "en": "Then we ask",
+  "zh": "然后我们让"
+ },
+ {
+  "seg": 79,
+  "start": 531.752,
+  "end": 534.993,
+  "speaker": "Unknown",
+  "en": "A human to click that button in Slack, as I showed in the beginning.",
+  "zh": "一个人去点 Slack 里的那个按钮，就像我在开头展示的那样。"
+ },
+ {
+  "seg": 80,
+  "start": 535.653,
+  "end": 538.734,
+  "speaker": "Unknown",
+  "en": "And while we are waiting, this process actually suspends.",
+  "zh": "而在我们等待的时候，这个进程实际上是挂起的。"
+ },
+ {
+  "seg": 81,
+  "start": 538.794,
+  "end": 545.616,
+  "speaker": "Unknown",
+  "en": "So if it's running on serverless, this is not using execution time on our functions.",
+  "zh": "所以如果它运行在无服务器环境上，这不会占用我们函数的执行时间。"
+ },
+ {
+  "seg": 82,
+  "start": 546.837,
+  "end": 550.858,
+  "speaker": "Unknown",
+  "en": "Once the response comes in, this then gets unblocked and can continue where it left off.",
+  "zh": "一旦响应进来，它就会被解除阻塞，并从上次中断的地方继续。"
+ },
+ {
+  "seg": 83,
+  "start": 552.018,
+  "end": 554.339,
+  "speaker": "Unknown",
+  "en": "So what we see here is a bit like a workflow.",
+  "zh": "所以我们在这里看到的有点像一个工作流。"
+ },
+ {
+  "seg": 84,
+  "start": 554.439,
+  "end": 557.18,
+  "speaker": "Unknown",
+  "en": "It's a set of steps that get executed durable.",
+  "zh": "它是一组被持久化执行的步骤。"
+ },
+ {
+  "seg": 85,
+  "start": 558.026,
+  "end": 568.657,
+  "speaker": "Unknown",
+  "en": "But when we think about agents and also the way that Carpathie described it in the tweet, it's more like a persistent stateful entity that lives for a longer period of time, that has some memory.",
+  "zh": "但当我们想到智能体，以及 Carpathie 在那条推文里描述它的方式时，它更像是一个存活更长时间的持久有状态实体，拥有某种记忆。"
+ },
+ {
+  "seg": 86,
+  "start": 569.557,
+  "end": 573.441,
+  "speaker": "Unknown",
+  "en": "So a workflow is not the nicest way to model this kind of thing.",
+  "zh": "所以用工作流来建模这类东西并不是最好的方式。"
+ },
+ {
+  "seg": 87,
+  "start": 574.263,
+  "end": 579.928,
+  "speaker": "Unknown",
+  "en": "So the way that we can model this in Restate is by using something called a virtual object.",
+  "zh": "而我们在 Restate 中对它建模的方式是使用一种叫做 virtual object 的东西。"
+ },
+ {
+  "seg": 88,
+  "start": 580.388,
+  "end": 592.899,
+  "speaker": "Unknown",
+  "en": "So imagine in the use case that I'm showing this Slack research agent, imagine that I don't want to wait for 10 minutes to give it some follow-up context or maybe I think about something else that I should have told it.",
+  "zh": "所以想象一下在我展示的这个用例中，这个 Slack 研究智能体，想象一下我不想等 10 分钟才能给它一些后续的上下文，或者可能我想到了其他我本应该告诉它的事情。"
+ },
+ {
+  "seg": 89,
+  "start": 593.76,
+  "end": 599.745,
+  "speaker": "Unknown",
+  "en": "I want to actually be able to interact with it, not wait till that research is finished before I can send a follow-up.",
+  "zh": "我想要真正能够与它交互，而不是等到研究完成之后才能发送后续内容。"
+ },
+ {
+  "seg": 90,
+  "start": 601.088,
+  "end": 604.31,
+  "speaker": "Unknown",
+  "en": "And so this is basically what a virtual object in restate is.",
+  "zh": "而这基本上就是 restate 中 virtual object 的含义。"
+ },
+ {
+  "seg": 91,
+  "start": 604.37,
+  "end": 605.951,
+  "speaker": "Unknown",
+  "en": "It's a bit like a stateful actor.",
+  "zh": "它有点像一个有状态的 actor。"
+ },
+ {
+  "seg": 92,
+  "start": 606.371,
+  "end": 609.033,
+  "speaker": "Unknown",
+  "en": "It has a unique ID, for example, a session ID.",
+  "zh": "它有一个唯一 ID,比如一个 session ID。"
+ },
+ {
+  "seg": 93,
+  "start": 609.373,
+  "end": 616.177,
+  "speaker": "Unknown",
+  "en": "It has some key value states that is isolated for that specific session that you can write to.",
+  "zh": "它有一些键值状态，是针对那个特定 session 隔离的，你可以向其写入。"
+ },
+ {
+  "seg": 94,
+  "start": 616.837,
+  "end": 619.459,
+  "speaker": "Unknown",
+  "en": "Imagine, for example, your history of messages.",
+  "zh": "比如，想象一下你的消息历史。"
+ },
+ {
+  "seg": 95,
+  "start": 620.079,
+  "end": 627.344,
+  "speaker": "Unknown",
+  "en": "And it also has like a set of handlers that can execute durable functions for this session.",
+  "zh": "它还有一组 handler,可以为这个 session 执行持久化函数。"
+ },
+ {
+  "seg": 96,
+  "start": 627.864,
+  "end": 635.687,
+  "speaker": "Unknown",
+  "en": "So here, the way I implemented this use case that I mentioned of interacting with a running process is as follows.",
+  "zh": "所以在这里，我实现这个我提到的与运行中进程交互的用例的方式如下。"
+ },
+ {
+  "seg": 97,
+  "start": 636.267,
+  "end": 639.728,
+  "speaker": "Unknown",
+  "en": "This is a session controller.",
+  "zh": "这是一个 session controller。"
+ },
+ {
+  "seg": 98,
+  "start": 639.908,
+  "end": 646.431,
+  "speaker": "Unknown",
+  "en": "Again, it has like this restate object context at its disposal to do things in a recoverable way.",
+  "zh": "同样，它有这个 restate object context 可供使用，以可恢复的方式做事情。"
+ },
+ {
+  "seg": 99,
+  "start": 647.191,
+  "end": 649.252,
+  "speaker": "Unknown",
+  "en": "It can write to the session store.",
+  "zh": "它可以写入 session store。"
+ },
+ {
+  "seg": 100,
+  "start": 649.492,
+  "end": 651.653,
+  "speaker": "Unknown",
+  "en": "Here I'm retrieving the chat history.",
+  "zh": "这里我正在获取聊天历史。"
+ },
+ {
+  "seg": 101,
+  "start": 652.83,
+  "end": 665.843,
+  "speaker": "Unknown",
+  "en": "And one thing that's interesting there is that in order to run these kind of sessions in very high parallelized ways, so thousands of sessions at the same time, we need to make sure that agents do not interfere with each other.",
+  "zh": "这里有一件有趣的事情是,为了以高度并行化的方式运行这类会话,也就是同时运行数千个会话,我们需要确保智能体之间不会互相干扰。"
+ },
+ {
+  "seg": 102,
+  "start": 666.643,
+  "end": 673.069,
+  "speaker": "Unknown",
+  "en": "Imagine I'm sending two messages on Slack and now two agents are actually overwriting each other's session state.",
+  "zh": "想象一下我在 Slack 上发送两条消息,然后两个智能体实际上在互相覆盖对方的会话状态。"
+ },
+ {
+  "seg": 103,
+  "start": 673.69,
+  "end": 678.999,
+  "speaker": "Unknown",
+  "en": "To prevent that, this will guarantee that only one execution is running at a time.",
+  "zh": "为了防止这种情况,这会保证同一时间只有一个执行在运行。"
+ },
+ {
+  "seg": 104,
+  "start": 679.14,
+  "end": 683.167,
+  "speaker": "Unknown",
+  "en": "So a second execution will be queued behind the current one.",
+  "zh": "所以第二个执行会排队在当前执行之后。"
+ },
+ {
+  "seg": 105,
+  "start": 686.98,
+  "end": 691.383,
+  "speaker": "Unknown",
+  "en": "Then, let's have a look at how we implement this, like interacting with another execution.",
+  "zh": "然后,让我们看看我们是如何实现这个的,比如与另一个执行交互。"
+ },
+ {
+  "seg": 106,
+  "start": 691.743,
+  "end": 699.768,
+  "speaker": "Unknown",
+  "en": "So, an execution in Reset has a unique identifier, and you can use that identifier to connect to it from other processes.",
+  "zh": "在 Reset 中的一个执行有一个唯一标识符,你可以使用该标识符从其他进程连接到它。"
+ },
+ {
+  "seg": 107,
+  "start": 699.948,
+  "end": 710.454,
+  "speaker": "Unknown",
+  "en": "For example, to retrieve the output, but also to cancel it, or maybe to signal it, being injecting a bit of state into an already running agent loop.",
+  "zh": "例如,获取输出,但也可以取消它,或者向它发送信号,也就是向一个已经在运行的智能体循环中注入一点状态。"
+ },
+ {
+  "seg": 108,
+  "start": 711.507,
+  "end": 722.496,
+  "speaker": "Unknown",
+  "en": "And so this is a very flexible type of capabilities that you can do to implement things like, for example, signaling an already ongoing agent loop.",
+  "zh": "所以这是一种非常灵活的能力,你可以用它来实现诸如向一个已经在进行的智能体循环发送信号之类的事情。"
+ },
+ {
+  "seg": 109,
+  "start": 722.896,
+  "end": 732.783,
+  "speaker": "Unknown",
+  "en": "So what we do here is if there is a current execution ongoing, then we will ask an LLM, is this something that is relevant for the current agent loop?",
+  "zh": "我们在这里做的是,如果当前有一个执行正在进行,那么我们会问一个 LLM,这对当前的智能体循环来说是相关的内容吗?"
+ },
+ {
+  "seg": 110,
+  "start": 733.284,
+  "end": 736.827,
+  "speaker": "Unknown",
+  "en": "If that is the case, inject this via a signal.",
+  "zh": "如果是,就通过信号注入。"
+ },
+ {
+  "seg": 111,
+  "start": 737.427,
+  "end": 744.592,
+  "speaker": "Unknown",
+  "en": "If it's not really relevant for what we're currently doing, then cancel what you're currently doing and start over again with this new information.",
+  "zh": "如果它与我们当前正在做的事情并不真正相关,那么取消你当前正在做的事情,并用这条新信息重新开始。"
+ },
+ {
+  "seg": 112,
+  "start": 746.294,
+  "end": 748.956,
+  "speaker": "Unknown",
+  "en": "And so this goes a little bit further than workflows.",
+  "zh": "所以这比工作流又更进一步了。"
+ },
+ {
+  "seg": 113,
+  "start": 748.996,
+  "end": 757.262,
+  "speaker": "Unknown",
+  "en": "It goes a bit more towards like writing persistent stateful entities that can interact with each other and have memory at their disposal.",
+  "zh": "它更倾向于编写持久的、有状态的实体,它们可以相互交互并拥有可用的记忆。"
+ },
+ {
+  "seg": 114,
+  "start": 758.082,
+  "end": 760.584,
+  "speaker": "Unknown",
+  "en": "So let me show you how this works.",
+  "zh": "那么让我向你展示这是如何工作的。"
+ },
+ {
+  "seg": 115,
+  "start": 760.624,
+  "end": 764.167,
+  "speaker": "Unknown",
+  "en": "So here if I now ask again, what is new in AI?",
+  "zh": "所以这里如果我再次提问,AI 有什么新动态?"
+ },
+ {
+  "seg": 116,
+  "start": 765.048,
+  "end": 769.052,
+  "speaker": "Unknown",
+  "en": "And I wait a few seconds then it should respond again with a plan.",
+  "zh": "我等几秒钟,它应该会再次用计划回应。"
+ },
+ {
+  "seg": 117,
+  "start": 770.153,
+  "end": 776.26,
+  "speaker": "Unknown",
+  "en": "And then I can say for example some extra info focus on frontier models let's say.",
+  "zh": "然后我可以说,比如一些额外信息,比方说专注于前沿模型。"
+ },
+ {
+  "seg": 118,
+  "start": 779.163,
+  "end": 783.728,
+  "speaker": "Unknown",
+  "en": "So once I have the plan I will inject that bit of extra state.",
+  "zh": "所以一旦我有了计划,我就会注入那一小段额外状态。"
+ },
+ {
+  "seg": 119,
+  "start": 786.834,
+  "end": 789.836,
+  "speaker": "Unknown",
+  "en": "Now let's look at the UI of what this is now doing.",
+  "zh": "现在让我们看看 UI 中它现在正在做什么。"
+ },
+ {
+  "seg": 120,
+  "start": 789.916,
+  "end": 792.578,
+  "speaker": "Unknown",
+  "en": "So here I have that controller which I just showed.",
+  "zh": "这里是我刚刚展示的那个控制器。"
+ },
+ {
+  "seg": 121,
+  "start": 793.139,
+  "end": 797.642,
+  "speaker": "Unknown",
+  "en": "It started calling an LLM to classify this new input.",
+  "zh": "它开始调用一个 LLM 来分类这条新输入。"
+ },
+ {
+  "seg": 122,
+  "start": 799.807,
+  "end": 806.231,
+  "speaker": "Unknown",
+  "en": "Once this comes back, it will probably decide that it should signal it because it's still relevant to the research it's currently doing.",
+  "zh": "一旦结果返回,它很可能会决定应该发送信号,因为它与当前正在进行的研究仍然相关。"
+ },
+ {
+  "seg": 123,
+  "start": 806.551,
+  "end": 811.133,
+  "speaker": "Unknown",
+  "en": "So this injects that new message into the ongoing agent loop.",
+  "zh": "所以这会把那条新消息注入到正在进行的智能体循环中。"
+ },
+ {
+  "seg": 124,
+  "start": 811.173,
+  "end": 814.055,
+  "speaker": "Unknown",
+  "en": "So let me show you in the deep research agent again.",
+  "zh": "那么让我在深度研究智能体中再次展示。"
+ },
+ {
+  "seg": 125,
+  "start": 815.235,
+  "end": 817.577,
+  "speaker": "Unknown",
+  "en": "So first it called an LLM, then asked us.",
+  "zh": "所以首先它调用了一个 LLM,然后询问我们。"
+ },
+ {
+  "seg": 126,
+  "start": 817.917,
+  "end": 822.059,
+  "speaker": "Unknown",
+  "en": "Then we injected this new message of focus on frontier models.",
+  "zh": "然后我们注入了这条专注于前沿模型的新消息。"
+ },
+ {
+  "seg": 127,
+  "start": 822.459,
+  "end": 826.782,
+  "speaker": "Unknown",
+  "en": "And then it took that into account and started over again.",
+  "zh": "然后它把这个考虑进去,重新开始。"
+ },
+ {
+  "seg": 128,
+  "start": 829.052,
+  "end": 834.115,
+  "speaker": "Unknown",
+  "en": "Here I can now for example also say something like forget about that.",
+  "zh": "在这里,我比如还可以说类似忘掉那个。"
+ },
+ {
+  "seg": 129,
+  "start": 837.257,
+  "end": 838.818,
+  "speaker": "Unknown",
+  "en": "Research AI policy.",
+  "zh": "研究 AI 政策。"
+ },
+ {
+  "seg": 130,
+  "start": 840.259,
+  "end": 848.303,
+  "speaker": "Unknown",
+  "en": "And if I send this then the coordinator will decide to cancel the ongoing run and start a new one that will",
+  "zh": "如果我发送这个,那么协调器会决定取消正在进行的运行,并开始一个新的运行,它将"
+ },
+ {
+  "seg": 131,
+  "start": 850.027,
+  "end": 851.368,
+  "speaker": "Unknown",
+  "en": "Research this new topic.",
+  "zh": "研究这个新主题。"
+ },
+ {
+  "seg": 132,
+  "start": 851.708,
+  "end": 860.034,
+  "speaker": "Unknown",
+  "en": "And so this cancellation is basically like a signal that gets sent down the stack of, or the call chain.",
+  "zh": "所以这个取消基本上就像一个信号,沿着调用链或调用栈向下传递。"
+ },
+ {
+  "seg": 133,
+  "start": 860.295,
+  "end": 872.724,
+  "speaker": "Unknown",
+  "en": "So if my agent was already spinning up sub-agents first, so sub-agents would be cancelled, then the controller itself, and like that it would basically rewind the stack and give agents also the ability to roll back.",
+  "zh": "所以如果我的智能体之前已经启动了子智能体,那么子智能体会先被取消,然后是控制器本身,就像这样它基本上会回退整个栈,并赋予智能体回滚的能力。"
+ },
+ {
+  "seg": 134,
+  "start": 874.553,
+  "end": 881.924,
+  "speaker": "Unknown",
+  "en": "Okay, so this went a bit more into the direction of like stateful persistent entities that we can interact with over longer periods of time.",
+  "zh": "好的,这稍微朝着有状态的持久实体的方向走了一步,我们可以在更长的时间段内与它们交互。"
+ },
+ {
+  "seg": 135,
+  "start": 882.265,
+  "end": 890.036,
+  "speaker": "Unknown",
+  "en": "Now the last part of the demo that I want to show is going more towards like being able to write highly customized applications.",
+  "zh": "现在我想展示的演示的最后一部分,更倾向于能够编写高度定制化的应用程序。"
+ },
+ {
+  "seg": 136,
+  "start": 890.577,
+  "end": 906.241,
+  "speaker": "Unknown",
+  "en": "Imagine that we deploy this in production, but then a few months later, a new model provider brings out a new model, for example, Fabulous, and even though the model is very good, it's also very expensive, and we notice that this research agent is actually starting to cost a lot.",
+  "zh": "想象一下我们把这个部署到生产环境,但几个月后,一个新的模型供应商推出了一款新模型,比如 Fabulous,尽管这个模型非常好,但它也非常昂贵,而我们注意到这个研究智能体实际上开始产生很高的成本。"
+ },
+ {
+  "seg": 137,
+  "start": 906.901,
+  "end": 917.263,
+  "speaker": "Unknown",
+  "en": "These kind of things that pop up halfway through a project require you to then deploy a lot of new extra infra or find a good way to solve this.",
+  "zh": "这类在项目进行到一半时突然出现的事情,会要求你部署大量新的额外基础设施,或者找到一个好的解决方案。"
+ },
+ {
+  "seg": 138,
+  "start": 917.623,
+  "end": 920.204,
+  "speaker": "Unknown",
+  "en": "This is the kind of things that Restate really excels at.",
+  "zh": "这正是 Restate 真正擅长的领域。"
+ },
+ {
+  "seg": 139,
+  "start": 921.364,
+  "end": 925.406,
+  "speaker": "Unknown",
+  "en": "It doesn't really peg you into a specific way of how you should write your application.",
+  "zh": "它并不会把你钉死在某种特定的应用程序编写方式上。"
+ },
+ {
+  "seg": 140,
+  "start": 925.726,
+  "end": 934.789,
+  "speaker": "Unknown",
+  "en": "It basically gives you like a durable programming model that lets you implement an application in the way that fits for you and also extend it if necessary.",
+  "zh": "它基本上给了你一个持久化编程模型,让你以适合自己的方式实现应用程序,并在必要时进行扩展。"
+ },
+ {
+  "seg": 141,
+  "start": 936.43,
+  "end": 941.832,
+  "speaker": "Unknown",
+  "en": "First, I showed this LLM call in the first example as an inline step.",
+  "zh": "首先,我在第一个例子中把这个 LLM 调用展示为一个内联步骤。"
+ },
+ {
+  "seg": 142,
+  "start": 942.152,
+  "end": 945.313,
+  "speaker": "Unknown",
+  "en": "It was just a Python function that got persisted.",
+  "zh": "它只是一个被持久化的 Python 函数。"
+ },
+ {
+  "seg": 143,
+  "start": 945.853,
+  "end": 950.794,
+  "speaker": "Unknown",
+  "en": "But imagine this use case that we want to actually have a bit more control over those LLM calls.",
+  "zh": "但想象一下这个用例,我们实际上想对这些 LLM 调用有更多的控制。"
+ },
+ {
+  "seg": 144,
+  "start": 951.175,
+  "end": 955.056,
+  "speaker": "Unknown",
+  "en": "For example, what you can do is then pull this out into its own handler.",
+  "zh": "例如,你可以做的是把它提取成独立的处理器。"
+ },
+ {
+  "seg": 145,
+  "start": 956.276,
+  "end": 962.238,
+  "speaker": "Unknown",
+  "en": "And this handler can now do things like, for example, a policy check and then do the LLM call.",
+  "zh": "这个处理器现在可以做一些事情,比如先做策略检查,然后再进行 LLM 调用。"
+ },
+ {
+  "seg": 146,
+  "start": 963.535,
+  "end": 976.183,
+  "speaker": "Unknown",
+  "en": "And the other agents, instead of doing this LLM call inline, can now use restates like distributed communication primitives to actually just call this LLM gateway instead of doing it as an inline step.",
+  "zh": "而其他智能体,不再内联地做这个 LLM 调用,现在可以使用 Restate 的分布式通信原语,直接调用这个 LLM 网关,而不是作为内联步骤来做。"
+ },
+ {
+  "seg": 147,
+  "start": 977.393,
+  "end": 984.724,
+  "speaker": "Unknown",
+  "en": "And this service fabric that lets you communicate between agents also gives you some things like flow control.",
+  "zh": "这个让你在智能体之间通信的服务织物,还为你提供了一些诸如流控之类的功能。"
+ },
+ {
+  "seg": 148,
+  "start": 985.004,
+  "end": 993.016,
+  "speaker": "Unknown",
+  "en": "So we can, for example, say one department is only allowed to run 300 calls to this LLM gateway at the same time.",
+  "zh": "所以我们可以,比如说,规定一个部门同时只允许对这个 LLM 网关发起 300 次调用。"
+ },
+ {
+  "seg": 149,
+  "start": 993.677,
+  "end": 999.783,
+  "speaker": "Unknown",
+  "en": "So the reason why I showed this was just to show you a bit like that it's basically just a resilient foundation.",
+  "zh": "我展示这个的原因只是想让大家看到,它基本上只是一个有弹性的基础。"
+ },
+ {
+  "seg": 150,
+  "start": 999.823,
+  "end": 1009.293,
+  "speaker": "Unknown",
+  "en": "It makes sure that your process can recover from even more advanced types of infrastructure failures, things like network partitions and zombie failures.",
+  "zh": "它确保你的进程能够从更高级类型的基础设施故障中恢复，比如网络分区和僵尸故障。"
+ },
+ {
+  "seg": 151,
+  "start": 1010.074,
+  "end": 1016.04,
+  "speaker": "Unknown",
+  "en": "And it gives you tooling to extend and customize as your use case grows.",
+  "zh": "它还为你提供工具，以便随着你的用例增长进行扩展和自定义。"
+ },
+ {
+  "seg": 152,
+  "start": 1017.92,
+  "end": 1030.668,
+  "speaker": "Unknown",
+  "en": "Let's go back to the slides to have a little more of an idea of how this thing is actually implemented on the inside because it's actually a pretty interesting design or architecture.",
+  "zh": "让我们回到幻灯片，更深入地了解一下这个东西内部实际上是如何实现的，因为它其实是一个非常有趣的设计或架构。"
+ },
+ {
+  "seg": 153,
+  "start": 1031.409,
+  "end": 1037.833,
+  "speaker": "Unknown",
+  "en": "So the way it's implemented is basically by having an event-driven distributed log implementation.",
+  "zh": "它的实现方式基本上是通过一个事件驱动的分布式日志实现。"
+ },
+ {
+  "seg": 154,
+  "start": 1039.068,
+  "end": 1049.398,
+  "speaker": "Unknown",
+  "en": "So inside the box you basically on one side have the clients, on the other side the services, and inside the box is a log which persists all those journal events and an event loop.",
+  "zh": "所以在这个盒子里面，基本上一边是客户端，另一边是服务，盒子内部是一个日志，持久化所有这些日志事件，还有一个事件循环。"
+ },
+ {
+  "seg": 155,
+  "start": 1049.919,
+  "end": 1053.342,
+  "speaker": "Unknown",
+  "en": "And that event loop basically gets the events from the service",
+  "zh": "这个事件循环基本上从服务获取事件"
+ },
+ {
+  "seg": 156,
+  "start": 1054.143,
+  "end": 1069.184,
+  "speaker": "Unknown",
+  "en": "Based on what the event is, it either persists some state in the embedded state store, or it sets a timer, or it sends a request to another agent, and by doing that you basically have a durable foundation for whatever an application is doing.",
+  "zh": "根据事件是什么，它要么在嵌入式状态存储中持久化一些状态，要么设置一个定时器，要么向另一个智能体发送请求，通过这样做，你基本上就为应用程序所做的任何事情拥有了一个持久化的基础。"
+ },
+ {
+  "seg": 157,
+  "start": 1070.793,
+  "end": 1078.981,
+  "speaker": "Unknown",
+  "en": "The design of this distributed log is heavily inspired by the way that the core event infralayer at Meta works.",
+  "zh": "这个分布式日志的设计深受 Meta 的核心事件基础设施层工作方式的启发。"
+ },
+ {
+  "seg": 158,
+  "start": 1079.782,
+  "end": 1091.333,
+  "speaker": "Unknown",
+  "en": "It's basically like an iteration on top of that, and some of those architects now have designed that for restates as a more generic solution that is available in open source.",
+  "zh": "它基本上就像是基于那个之上的一个迭代，其中一些架构师现在把它设计成了 restates 的一个更通用的解决方案，并在开源中可用。"
+ },
+ {
+  "seg": 159,
+  "start": 1091.974,
+  "end": 1096.36,
+  "speaker": "Unknown",
+  "en": "There are two important things related to this architecture that make it interesting.",
+  "zh": "与这个架构相关有两个重要的点使它变得有趣。"
+ },
+ {
+  "seg": 160,
+  "start": 1096.821,
+  "end": 1099.064,
+  "speaker": "Unknown",
+  "en": "The first one is that it works as a push model.",
+  "zh": "第一个是它以推送模型工作。"
+ },
+ {
+  "seg": 161,
+  "start": 1099.505,
+  "end": 1108.477,
+  "speaker": "Unknown",
+  "en": "So, whereas most workflow orchestrators actually pull for new tasks, pull from the workflow server, Restate actually",
+  "zh": "所以，大多数工作流编排器实际上会拉取新任务，从工作流服务器拉取，而 Restate 实际上"
+ },
+ {
+  "seg": 162,
+  "start": 1108.958,
+  "end": 1110.399,
+  "speaker": "Unknown",
+  "en": "pushes the invocations.",
+  "zh": "推送调用。"
+ },
+ {
+  "seg": 163,
+  "start": 1110.779,
+  "end": 1114.362,
+  "speaker": "Unknown",
+  "en": "And the benefit you get from that is that it has a much lower latency.",
+  "zh": "你从中得到的好处是它的延迟低得多。"
+ },
+ {
+  "seg": 164,
+  "start": 1114.762,
+  "end": 1127.07,
+  "speaker": "Unknown",
+  "en": "So you can use these kind of workflow guarantees in functions around your application and have like a latency of, for example, 45 milliseconds p99 for like a 10-step workflow.",
+  "zh": "所以你可以在应用程序周围的函数中使用这类工作流保证，例如对于一个 10 步的工作流，延迟可以是比如 45 毫秒 p99。"
+ },
+ {
+  "seg": 165,
+  "start": 1128.471,
+  "end": 1137.737,
+  "speaker": "Unknown",
+  "en": "Pushing invocations also works very well for serverless because they require you to basically send the request and wake up the function.",
+  "zh": "推送调用对无服务器也非常适用，因为无服务器基本上要求你发送请求并唤醒函数。"
+ },
+ {
+  "seg": 166,
+  "start": 1138.863,
+  "end": 1143.105,
+  "speaker": "Unknown",
+  "en": "So this design that I show here includes everything you need.",
+  "zh": "所以我在这里展示的这个设计包含了你需要的一切。"
+ },
+ {
+  "seg": 167,
+  "start": 1143.125,
+  "end": 1148.388,
+  "speaker": "Unknown",
+  "en": "It includes as well that state store where we were embedding the state as the UI.",
+  "zh": "它还包括那个我们嵌入状态的状态存储，以及作为 UI。"
+ },
+ {
+  "seg": 168,
+  "start": 1148.468,
+  "end": 1152.169,
+  "speaker": "Unknown",
+  "en": "It's a single binary, so it's pretty easy to operate as well.",
+  "zh": "它是单个二进制文件，所以它也非常容易运维。"
+ },
+ {
+  "seg": 169,
+  "start": 1152.57,
+  "end": 1159.473,
+  "speaker": "Unknown",
+  "en": "To run it in like a highly available way, you just spin it up multiple times and let it snapshot to object storage.",
+  "zh": "要以高可用的方式运行它，你只需把它启动多个实例，并让它快照到对象存储。"
+ },
+ {
+  "seg": 170,
+  "start": 1161.428,
+  "end": 1164.309,
+  "speaker": "Unknown",
+  "en": "So ReState has six different SDKs.",
+  "zh": "所以 ReState 有六个不同的 SDK。"
+ },
+ {
+  "seg": 171,
+  "start": 1164.369,
+  "end": 1169.612,
+  "speaker": "Unknown",
+  "en": "We also have integrations for most of the popular agent frameworks out there.",
+  "zh": "我们还有针对市面上大多数流行智能体框架的集成。"
+ },
+ {
+  "seg": 172,
+  "start": 1169.972,
+  "end": 1181.478,
+  "speaker": "Unknown",
+  "en": "And of course, because it's just like a flexible layer, you can also just use any LLM SDK and implement custom agents by just wrapping some steps into these SDK constructs.",
+  "zh": "当然，因为它就像一个灵活的层，你也可以直接使用任何 LLM SDK，只需把一些步骤包装进这些 SDK 构造中就可以实现自定义智能体。"
+ },
+ {
+  "seg": 173,
+  "start": 1182.318,
+  "end": 1183.199,
+  "speaker": "Unknown",
+  "en": "So it's open source.",
+  "zh": "所以它是开源的。"
+ },
+ {
+  "seg": 174,
+  "start": 1183.219,
+  "end": 1184.279,
+  "speaker": "Unknown",
+  "en": "You can self-host it.",
+  "zh": "你可以自行托管它。"
+ },
+ {
+  "seg": 175,
+  "start": 1184.319,
+  "end": 1189.883,
+  "speaker": "Unknown",
+  "en": "We also have a BYOC offering where we deploy Restate in your cloud account.",
+  "zh": "我们还提供 BYOC 服务，我们把 Restate 部署在你的云账户中。"
+ },
+ {
+  "seg": 176,
+  "start": 1190.423,
+  "end": 1194.245,
+  "speaker": "Unknown",
+  "en": "And that gives you the benefit that data doesn't leave your cloud account.",
+  "zh": "这给你带来的好处是数据不会离开你的云账户。"
+ },
+ {
+  "seg": 177,
+  "start": 1194.605,
+  "end": 1197.167,
+  "speaker": "Unknown",
+  "en": "Otherwise, there's also a managed cloud offering.",
+  "zh": "否则，还有一个托管云服务。"
+ },
+ {
+  "seg": 178,
+  "start": 1198.773,
+  "end": 1200.935,
+  "speaker": "Unknown",
+  "en": "This was mainly what I wanted to show.",
+  "zh": "这主要就是我想展示的内容。"
+ },
+ {
+  "seg": 179,
+  "start": 1200.975,
+  "end": 1205.298,
+  "speaker": "Unknown",
+  "en": "If you want to explore the code a bit further, there is here the GitHub repo.",
+  "zh": "如果你想进一步探索代码，这里有 GitHub 仓库。"
+ },
+ {
+  "seg": 180,
+  "start": 1205.358,
+  "end": 1206.579,
+  "speaker": "Unknown",
+  "en": "It's publicly available.",
+  "zh": "它是公开可用的。"
+ },
+ {
+  "seg": 181,
+  "start": 1207.059,
+  "end": 1211.023,
+  "speaker": "Unknown",
+  "en": "If you like the project, then have a look at the Restate repo itself.",
+  "zh": "如果你喜欢这个项目，那就去看看 Restate 仓库本身。"
+ },
+ {
+  "seg": 182,
+  "start": 1211.683,
+  "end": 1218.488,
+  "speaker": "Unknown",
+  "en": "We are hiring across the board for all sorts of roles, going from engineering to marketing, especially also here in the Bay Area.",
+  "zh": "我们正在全面招聘各类职位，从工程到市场，尤其是在湾区这里。"
+ },
+ {
+  "seg": 183,
+  "start": 1218.829,
+  "end": 1222.832,
+  "speaker": "Unknown",
+  "en": "So if you're interested in that, then definitely check out our careers page.",
+  "zh": "所以如果你对此感兴趣，一定要看看我们的招聘页面。"
+ },
+ {
+  "seg": 184,
+  "start": 1223.432,
+  "end": 1230.255,
+  "speaker": "Unknown",
+  "en": "And I will be outside in front of the conference hall here if you want to ask any questions or learn more about Restate.",
+  "zh": "如果你想提问或进一步了解 Restate，我会在这栋会议厅外面。"
+ },
+ {
+  "seg": 185,
+  "start": 1230.616,
+  "end": 1231.416,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ }
+]

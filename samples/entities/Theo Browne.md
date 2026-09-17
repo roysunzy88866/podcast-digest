@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Marc Brooker]] [[Ben Celebicic]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Andrew Qu]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]]
+[[Marc Brooker]] [[Ben Celebicic]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sonnet 3.5":1,"Opus 4.5":2,"Mythos":3,"编排":4,"拟物化":1,"沉没成本心态":1,"AWS":13,"Vercel":15,"Reddit":5,"Slack":25}</script>
+<script type="application/json" class="pd-epn">{"Sonnet 3.5":1,"Opus 4.5":2,"Mythos":3,"编排":4,"拟物化":1,"沉没成本心态":1,"AWS":13,"Vercel":16,"Reddit":5,"Slack":25}</script>
 
 <script>
 (function(){

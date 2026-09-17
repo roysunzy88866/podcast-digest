@@ -25,7 +25,7 @@ unlisted: true
 
 [[Alex]] · [[David Cahn]] · [[AGI]] · [[资本支出]] · [[垂直整合]] · [[认知劳动]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[TPU]]
 
-<script type="application/json" class="pd-epn">{"Alex":4,"David Cahn":1,"AGI":22,"资本支出":4,"垂直整合":1,"认知劳动":1,"Anthropic":124,"OpenAI":116,"Google":42,"TPU":3}</script>
+<script type="application/json" class="pd-epn">{"Alex":4,"David Cahn":1,"AGI":22,"资本支出":4,"垂直整合":1,"认知劳动":1,"Anthropic":124,"OpenAI":116,"Google":43,"TPU":3}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>harness</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>33</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>34</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -42,11 +42,12 @@ unlisted: true
 - **[[2026-09-10-talks-design-at-the-speed-of-adjectives-paul-b|《用形容词驾驭 AI 设计:Impeccable 的控制哲学》]]**(00:34起):本集指围绕编程模型的工作环境(如 Claude Code、Cursor、Codex),Impeccable 就是装进这些 harness 里发挥作用的设计技能
 - **[[2026-09-10-talks-the-spatial-harness-bringing-agents-to-t|《把画布交给智能体：TLDraw 的空间协作实验》]]**(06:48起):本集说 Fairies 的局限是整个 harness 必须是画布 harness,导致智能体被困在画布里、难以和真实世界配合。
 - **[[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]]**(37:42起):本集引用 Satya Nadella 的判断收尾：SaaS 只是带业务逻辑的 CRUD 数据库，五年内七成成功的 SaaS 公司将转型为架在语言模型之上的 harness——技能、上下文、治理、连接器四要素，按消费量收费。
+- **[[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]]**(07:45起):本集说 harness 是驱动 agent 运行的底层编排框架,并给出判断标准:模型能力越强能删的编排代码越多,若 harness 随模型进步反而更复杂,就是过度工程化。
 - **[[2026-09-15-trainingdata-box-s-aaron-levie-on-reinventing-yoursel|《Box 创始人 Erin Levy：套壳的逆袭与应用层的万亿机会》]]**(25:03起):本集把它说成:Box 自建的智能体工具框架,内置搜索系统、文件系统访问、文本抽取、分块、即时嵌入等工具,比直接把 API 交给 Claude/OpenAI 在准确率和延迟上都明显更好。
 
 ## ① 提到它的金句
 
-*16 条*
+*17 条*
 
 ![[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#^q1]]
 
@@ -80,9 +81,11 @@ unlisted: true
 
 ![[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which#^q11]]
 
+![[2026-09-14-talks-agents-without-code-skills-yaml-and-file#^q2]]
+
 ## ② 出现在这些集
 
-*33 集*
+*34 集*
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
@@ -116,15 +119,16 @@ unlisted: true
 - [[2026-09-10-talks-design-at-the-speed-of-adjectives-paul-b|《用形容词驾驭 AI 设计:Impeccable 的控制哲学》]] — 作为概念
 - [[2026-09-10-talks-the-spatial-harness-bringing-agents-to-t|《把画布交给智能体：TLDraw 的空间协作实验》]] — 作为概念(提及)
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]] — 作为概念
+- [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]] — 作为概念
 - [[2026-09-15-trainingdata-box-s-aaron-levie-on-reinventing-yoursel|《Box 创始人 Erin Levy：套壳的逆袭与应用层的万亿机会》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Claude Code]] · [[OpenAI]] · [[沙箱]] · [[评估]] · [[护栏]] · [[Codex]] · [[MCP]] · [[推理]]
+[[智能体]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[OpenAI]] · [[评估]] · [[护栏]] · [[Codex]] · [[MCP]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":251,"Anthropic":124,"Claude Code":61,"OpenAI":116,"沙箱":48,"评估":2,"护栏":48,"Codex":48,"MCP":41,"推理":46}</script>
+<script type="application/json" class="pd-epn">{"智能体":253,"Anthropic":124,"Claude Code":61,"沙箱":49,"OpenAI":116,"评估":2,"护栏":48,"Codex":48,"MCP":42,"推理":46}</script>
 
 <script>
 (function(){

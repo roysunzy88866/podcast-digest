@@ -27,7 +27,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Ryan Greenblatt]] · [[Anish Acharya]] · [[Matt Turk]] · [[a16z]] · [[Redwood Research]] · [[Kavak]] · [[Google DeepMind]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":116,"Anthropic":124,"智能体":251,"Ryan Greenblatt":2,"Anish Acharya":3,"Matt Turk":3,"a16z":14,"Redwood Research":3,"Kavak":1,"Google DeepMind":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":116,"Anthropic":124,"智能体":253,"Ryan Greenblatt":2,"Anish Acharya":3,"Matt Turk":3,"a16z":14,"Redwood Research":3,"Kavak":1,"Google DeepMind":4}</script>
 
 <script>
 (function(){

@@ -1,0 +1,166 @@
+{
+  "title_zh": "智能体就只是文件：当配置取代 Python",
+  "tldr": "Google 工程师现场用三种方式构建同一个 GitHub PR 审查智能体，逐步删掉代码、换成文件，展示智能体工程的下一步。",
+  "digest_md": "这一集来自一场开发者大会的分享(大会第四天、主题演讲前的最后一场)，主角是 Google 的一位工程师。他要论证一个正在发生的转变：**智能体(agent,让大模型在循环中反复调用工具、直到完成目标的程序)的编写方式，正在从「写 Python 代码」变成「写文件」**。他的演示方式很直接：用三种不同方法构建同一个 GitHub PR 审查智能体，每换一版就删掉一部分代码——最后代码几乎全没了，剩下的全是文件。\n\n**第一版：原始 Python 循环，什么都自己写**\n\n大约一年到一年半以前，写智能体基本等于用 Python 写一个循环：定义 JSON schema(告诉模型能调用哪些工具的格式说明)、写 Python 函数、检查 LLM 输出是函数调用还是文本、匹配类型、调用工具、处理错误、来回往复。演示里这一版有 agent 主文件、系统指令文件、工具的 JSON schema 定义，外加用 GitHub API 手写的工具实现。跑起来能用，但局限明显：让agent做没定义过的事，它只会说「我做不到」。这一版里你必须亲手做的事很多——执行循环、工具路由、写 schema、写工具代码、管理状态。\n\n**第二版：交给智能体框架，删掉循环和 schema**\n\n然后智能体框架(如 ADK)出现，把样板代码抽象掉了：工具循环、函数调用、重试、错误处理都由框架的 agent 类接管，JSON schema 也不用写了——框架直接从 Python 函数的签名即时生成 schema 供模型用。这一版的 agent 文件消失了，系统提示词和工具实现还在。但问题依旧：工具还是得自己用 Python 写，你得非常明确地声明 agent 能做什么；问它旧金山天气，它还是答「我没有天气 API 的权限」。\n\n**第三版：远程智能体 + 云端沙箱，代码彻底消失**\n\n关键转折在 Google I/O 上发布的 anti-gravity 远程 agent(Gemini API 上的新能力)。它带来一个 `environment` 参数：agent 可以访问一个托管的、隔离的云端沙箱(一套隔离的远程 Linux 环境)，在里面跑 bash 命令、读写文件、执行工具。于是演示的第三版里，整个 source 目录都没了，只剩下一个 agents 文件夹：一个 agents.md 文件写系统指令，一个 Bash 脚本负责「GitHub CLI 没装就第一轮自动装上」。你不再为「读 PR、取 diff」写专门工具，只告诉 agent:你有 GitHub CLI、有 Bash、有文件系统，觉得有用就用。\n\n效果立竿见影：agent 自己探索沙箱、发现 CLI 没装、装上、然后用它审查 PR;问旧金山天气，它直接调内置的 Google 搜索，查到当天约 20 摄氏度——**通用工具 + 模型自己的知识，胜过一堆精心定义的专用工具**。\n\n后端发生的事很简单：就一次 API 调用。Google 启动云沙箱、加载 agents.md 和 skills,模型在 API 和沙箱之间自己做所有循环——调函数、拿结果、再调。服务端还替你管着会话状态、上下文窗口和压缩(对话太长时自动压缩上下文，你不用管)。\n\n**安全与复用的设计细节**\n\n沙箱里的 agent 看不到你的凭据：Google 在沙箱外面包了一层网络代理，agent 向外发请求时代理才注入你定义的令牌，agent 只知道「我能调 GitHub API」。你还可以限制它能访问哪些域名(留空即全部默认放开)，以及用 GitHub 仓库、GCS bucket 或内联文件作为 sources 提供代码。另外还有 agents API:把你自定义的系统指令、环境、凭据注册成一个带 ID 的 agent,之后像调 Gemini 模型一样调它，现有代码全部复用。\n\n**行业在验证同一个方向**\n\n演讲者引用了几个例子：Cursor 在欧洲 AI Engineer 大会上分享，他们用 200 行 agent 文件替换了约 12000 行 TypeScript 代码——原本是硬编码的 Git Worktrees(并行开多个工作目录的 Git 机制)编排逻辑，换成一个 skill 加 markdown 文件就搞定了。Manos 去年六个月内重构了五次 harness(驱动 agent 运行的底层框架)，LangChain 一年内重新架构 OpenDeep Research 三次，Vercel 移除了 80% 的工具，换来更少步骤、更快响应、更好准确率。他总结的判断很锋利：**模型能力越强，能删的编排代码越多；如果你的 harness 随模型进步反而越来越复杂，你大概率是在过度工程化。**\n\n**扩展方式也变了：加文件，不改代码**\n\n以前给 agent 加个安全扫描功能，要写 Python 函数、定义新 schema、注册进工具列表。现在只写一个 SkillsMD 文件(说明用哪个 CLI 工具)，或者往环境里放一个 CLI 工具就行——不改一行代码，由 agent 自己决定怎么用。文件还能让 agent 学习和自我积累：让它在会话里记住某条规则或偏好，它就写进磁盘、下个会话复用；长会话中途要开新任务，把交接信息写进文件，让 agent 之后接手。\n\n**最后的行动清单**\n\n不要和模型对抗：不要事无巨细地替模型规定每一步执行路径，给通用工具，让模型自己探索出解法。管好属于你的部分：领域指令、工作流、尤其是 evals(评估)，定义干净的工具，验证结果。以及「为删除而构建」——模型越好，能删的代码越多，设计时就该预期这一点。现场观众扫二维码即可进 AI Studio 试用 anti-gravity harness,API 免费额度在做了。\n\n## 本集带走\n- **三条演进线**：手写 Python 循环 → 框架接管循环和 schema → 远程 agent + 云沙箱接管一切；你的代码从几百行减到只剩配置文件。\n- **通用工具优先于专用工具**：与其为每个场景写工具，不如给 agent Bash、文件系统和 GitHub CLI,加上一句「装好 CLI」的引导脚本——连查天气这种没定义过的任务它也能自己解决。\n- **凭据安全靠代理注入**：agent 在沙箱里永远看不到你的令牌，代理在它外发请求时才注入；还能按域名限制网络访问。\n- **扩展 = 加文件**：新能力写成一个 SkillsMD 或放一个 CLI 进环境，不改代码；偏好和交接也可以让 agent 自己写进文件。\n- **判断 harness 是否健康的标准**：模型变强时你的编排代码在变少还是变多？变多就是在过度工程化。",
+  "quotes": [
+    {
+      "en": "So at AI engineer in Europe, Cursor did a great talk on how they replaced roughly 12,000 lines of TypeScript code with 200 lines agent files to create something similar.",
+      "zh": "在欧洲的 AI Engineer 大会上，Cursor 做了一个很棒的演讲，讲他们如何用 200 行 agent 文件替换了大约 12000 行 TypeScript 代码来实现类似的东西。",
+      "timestamp": "15:25",
+      "speaker": "Philipp Schmid"
+    },
+    {
+      "en": "An obvious trend that with better model capabilities, we can remove orchestration code, but if your harness is getting more complex as the model improves, you are most likely overengineering your harness.",
+      "zh": "一个明显的趋势是，随着模型能力提升，我们可以移除编排代码；但如果你的 harness 在模型进步时反而变得更复杂，你很可能是在过度工程化你的 harness。",
+      "timestamp": "16:05",
+      "speaker": "Philipp Schmid"
+    },
+    {
+      "en": "Agents are just files.",
+      "zh": "智能体就只是文件。",
+      "timestamp": "16:30",
+      "speaker": "Philipp Schmid"
+    },
+    {
+      "en": "We should not fight the model.",
+      "zh": "我们不应该和模型对抗。",
+      "timestamp": "17:07",
+      "speaker": "Philipp Schmid"
+    },
+    {
+      "en": "Like, we should stop micromanaging the execution paths, provide general tools to the agent, and let the model explore.",
+      "zh": "我们应该停止微管理执行路径，给智能体提供通用的工具，让模型去探索。",
+      "timestamp": "17:08",
+      "speaker": "Philipp Schmid"
+    },
+    {
+      "en": "Own what is yours, meaning focus on your domain instructions, focus on the workflows, focus especially on the evals, define clean tools, and verify the outcomes, and really build to delete.",
+      "zh": "掌管属于你的部分：专注于你的领域指令、工作流，尤其专注于 evals,定义干净的工具，验证结果，真正做到为删除而构建。",
+      "timestamp": "17:16",
+      "speaker": "Philipp Schmid"
+    },
+    {
+      "en": "Like, we have seen in the past many, many times, the better the model gets, the more code we can remove, and the more things we need to change.",
+      "zh": "我们在过去已经见过很多很多次：模型越好，我们能移除的代码就越多，我们需要改变的东西也越多。",
+      "timestamp": "17:27",
+      "speaker": "Philipp Schmid"
+    },
+    {
+      "en": "LangChain has re-architected their OpenDeep research three times a year, and then also Vercel has removed 80% of their tools to achieve fewer steps, faster responses, and better accuracy.",
+      "zh": "LangChain 一年内重新架构了他们的 OpenDeep Research 三次，还有 Vercel 移除了 80% 的工具，以实现更少的步骤、更快的响应和更好的准确性。",
+      "timestamp": "15:54",
+      "speaker": "Philipp Schmid"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:29",
+      "speaker": "Unknown",
+      "en": "Roughly a year, one and a half years ago, writing agents mostly meant writing a loop in Python.",
+      "zh": "大约一年到一年半以前，写智能体基本等于用 Python 写一个循环。"
+    },
+    {
+      "timestamp": "07:06",
+      "speaker": "Unknown",
+      "en": "And we all know nowadays that we just want to prompt something and we wanted the agent to do whatever it takes to achieve that goal.",
+      "zh": "我们如今都知道，我们只想提示一句话，然后希望 agent 想尽一切办法去实现那个目标。"
+    },
+    {
+      "timestamp": "08:54",
+      "speaker": "Unknown",
+      "en": "So the agent never really sees your credential.",
+      "zh": "所以 agent 从来不会真正看到你的凭据。"
+    },
+    {
+      "timestamp": "12:12",
+      "speaker": "Unknown",
+      "en": "So the agent became more of a general purpose agent, and we don't need to specify all of the tools.",
+      "zh": "所以这个智能体变得更像一个通用智能体，我们不需要指定所有的工具。"
+    },
+    {
+      "timestamp": "12:18",
+      "speaker": "Unknown",
+      "en": "We basically trust the model on understanding, hey, I have a specific set of very atomic general purpose tools to solve my task or a task for the user.",
+      "zh": "我们基本上是信任模型去理解：嘿，我有一组非常原子的通用工具，足以解决我的任务或用户的任务。"
+    },
+    {
+      "timestamp": "14:20",
+      "speaker": "Unknown",
+      "en": "So all of the heavy lifting, the infrastructure management, all of the same code, which probably everyone has written of us here like 20 times is no longer needed, and you can start really building your product instead of needing to rewrite the same code over and over again.",
+      "zh": "所有繁重的工作、基础设施管理、那些我们每个人可能都写过 20 遍的同样的代码，都不再需要了，你可以真正开始构建你的产品，而不是一遍又一遍地重写同样的代码。"
+    },
+    {
+      "timestamp": "15:25",
+      "speaker": "Unknown",
+      "en": "So at AI engineer in Europe, Cursor did a great talk on how they replaced roughly 12,000 lines of TypeScript code with 200 lines agent files to create something similar.",
+      "zh": "在欧洲的 AI Engineer 大会上，Cursor 做了一个很棒的演讲，讲他们如何用 200 行 agent 文件替换了大约 12000 行 TypeScript 代码来实现类似的东西。"
+    },
+    {
+      "timestamp": "16:05",
+      "speaker": "Unknown",
+      "en": "An obvious trend that with better model capabilities, we can remove orchestration code, but if your harness is getting more complex as the model improves, you are most likely overengineering your harness.",
+      "zh": "一个明显的趋势是，随着模型能力提升，我们可以移除编排代码；但如果你的 harness 在模型进步时反而变得更复杂，你很可能是在过度工程化你的 harness。"
+    },
+    {
+      "timestamp": "16:30",
+      "speaker": "Unknown",
+      "en": "Agents are just files.",
+      "zh": "智能体就只是文件。"
+    },
+    {
+      "timestamp": "16:35",
+      "speaker": "Unknown",
+      "en": "Agents can learn from those, can create their own files.",
+      "zh": "智能体可以从这些文件中学习，也可以创建自己的文件。"
+    },
+    {
+      "timestamp": "17:07",
+      "speaker": "Unknown",
+      "en": "We should not fight the model.",
+      "zh": "我们不应该和模型对抗。"
+    },
+    {
+      "timestamp": "17:08",
+      "speaker": "Unknown",
+      "en": "Like, we should stop micromanaging the execution paths, provide general tools to the agent, and let the model explore.",
+      "zh": "我们应该停止微管理执行路径，给智能体提供通用的工具，让模型去探索。"
+    },
+    {
+      "timestamp": "17:16",
+      "speaker": "Unknown",
+      "en": "Own what is yours, meaning focus on your domain instructions, focus on the workflows, focus especially on the evals, define clean tools, and verify the outcomes, and really build to delete.",
+      "zh": "掌管属于你的部分：专注于你的领域指令、工作流，尤其专注于 evals,定义干净的工具，验证结果，真正做到为删除而构建。"
+    },
+    {
+      "timestamp": "17:27",
+      "speaker": "Unknown",
+      "en": "Like, we have seen in the past many, many times, the better the model gets, the more code we can remove, and the more things we need to change.",
+      "zh": "我们在过去已经见过很多很多次：模型越好，我们能移除的代码就越多，我们需要改变的东西也越多。"
+    },
+    {
+      "timestamp": "10:32",
+      "speaker": "Unknown",
+      "en": "We just tell the agent, hey, you have a GitHub CLI, you have a Bash tool, you have file systems.",
+      "zh": "我们只是告诉 agent:嘿，你有一个 GitHub CLI,你有一个 Bash 工具，你有文件系统。"
+    },
+    {
+      "timestamp": "15:54",
+      "speaker": "Unknown",
+      "en": "LangChain has re-architected their OpenDeep research three times a year, and then also Vercel has removed 80% of their tools to achieve fewer steps, faster responses, and better accuracy.",
+      "zh": "LangChain 一年内重新架构了他们的 OpenDeep Research 三次，还有 Vercel 移除了 80% 的工具，以实现更少的步骤、更快的响应和更好的准确性。"
+    },
+    {
+      "timestamp": "16:52",
+      "speaker": "Unknown",
+      "en": "So, if you have a very long-running session,",
+      "zh": "比如，如果你有一个运行时间很长的会话。"
+    },
+    {
+      "timestamp": "06:54",
+      "speaker": "Unknown",
+      "en": "Still very unfortunate because we need to be very explicit on what our agent can do.",
+      "zh": "仍然很不方便，因为我们必须非常明确地说明我们的 agent 能做什么。"
+    }
+  ],
+  "voice_script": "今天想给你讲一个 Google 工程师在开发者大会上的分享。这场分享排在大会第四天、主题演讲之前的最后一场，听着位置不起眼，但讲的事情可能代表了智能体工程的下一步。主角是 Google 的一位工程师，他的核心论点就一句话：编写智能体的方式，正在从写 Python 代码，变成写文件。\n\n先解释一下，智能体是什么。简单说，就是让大模型在循环里反复调用工具、直到完成目标的程序。比如一个智能体帮你审查 GitHub 上的代码提交，它得能自己去读代码、调工具、看结果、再决定下一步。这个演示就选了这么个任务：构建一个 GitHub PR 审查智能体。有意思的地方在于演示方式——用三种不同的方法构建同一个东西，每换一版，就删掉一部分代码。到最后，代码几乎全没了，剩下的全是文件。\n\n那咱们就顺着这条线看。第一版，是最原始的做法。大概一年到一年半以前，写智能体基本等于用 Python 手写一个循环：你得定义 JSON schema,说白了就是一份格式说明，告诉模型能调用哪些工具；然后写 Python 函数，检查模型输出的是函数调用还是普通文本，匹配类型，调用工具，处理错误，来回往复。这一版有主文件、系统指令文件、schema 定义，还有用 GitHub API 一笔一笔手写的工具实现。跑起来能用，但局限很明显：你让这个智能体做没定义过的事，它只会回答“我做不到”。而且你必须亲手做的事特别多——循环要自己执行，工具路由要自己写，schema 要自己定义，状态要自己管。\n\n那现成的办法有没有？有。于是有了第二版：交给智能体框架，比如 ADK 这样的框架。框架把样板代码抽象掉了，工具循环、函数调用、重试、错误处理，全由框架的 agent 类接管。JSON schema 也不用写了，框架直接从 Python 函数的签名即时生成，供模型用。这一版连 agent 主文件都消失了，只剩系统提示词和工具实现。听起来好多了吧？但问题依旧：工具还是得自己用 Python 写，你还是得非常明确地告诉智能体它能干什么。你问它旧金山今天天气怎么样，它还是回答：“我没有天气 API 的权限。”\n\n这就引出真正关键的转折了——第三版。转折点在 Google I/O 上发布的 anti-gravity 远程智能体，这是 Gemini API 上的一个新能力。它带来一个叫 environment 的参数：智能体可以访问一个托管的、隔离的云端沙箱，说白了就是一套隔离的远程 Linux 环境，在里面能跑 bash 命令、读写文件、执行工具。\n\n这一变，效果立竿见影。第三版里，整个代码目录都没了，只剩下一个 agents 文件夹：一个 markdown 文件写系统指令，一个 bash 脚本负责一句话——“GitHub CLI 没装的话，第一轮自动装上”。你不再为“读 PR、取 diff”写专门工具，只告诉智能体：你有 GitHub CLI、有 Bash、有文件系统，觉得有用就用。\n\n结果呢？智能体自己探索沙箱，发现 CLI 没装，装上，然后用它审查 PR。再问旧金山天气，它直接调内置的 Google 搜索，查到当天大约 20 摄氏度。这里有个特别值得记住的判断：通用工具加模型自己的知识，胜过一堆精心定义的专用工具。\n\n那后端发生了什么？说出来很简单：就一次 API 调用。Google 启动云沙箱，加载那些指令文件，模型在 API 和沙箱之间自己做所有循环——调函数、拿结果、再调。会话状态、上下文窗口、对话太长时的自动压缩，服务端全替你管了。\n\n讲到这，你可能会担心一个问题：智能体在沙箱里乱跑，我的凭据安全吗？设计上其实想得很细。沙箱里的智能体看不到你的令牌——Google 在沙箱外面包了一层网络代理，智能体向外发请求时，代理才注入你定义的令牌，智能体自己只知道“我能调 GitHub API”。你还可以限制它能访问哪些域名，留空就是默认全部放开。代码可以放在 GitHub 仓库、GCS bucket 里作为来源提供。甚至还有一个 agents API,把你自定义的指令、环境、凭据注册成一个带 ID 的智能体，之后像调 Gemini 模型一样调它，现有代码全部复用。\n\n那这个方向只是这一家的想法吗？不是，行业里已经在验证了。Cursor 在欧洲的 AI Engineer 大会上分享过，他们用 200 行 agent 文件，替换了大约 12000 行 TypeScript 代码——原本是硬编码的 Git Worktrees 编排逻辑，就是并行开多个工作目录的那套机制，换成一个 skill 加 markdown 文件就搞定了。还有 Manos,六个月里把底层框架重构了五次；LangChain 一年内把 OpenDeep Research 重新架构了三次；Vercel 移除了 80% 的工具，换来更少的步骤、更快的响应、更好的准确率。演讲者由此总结出一个很锋利的判断：模型能力越强，能删的编排代码就越多；如果你的框架随着模型进步反而越来越复杂，你大概率是在过度工程化。\n\n连扩展方式都变了。以前给智能体加个安全扫描功能，要写 Python 函数、定义新 schema、注册进工具列表。现在呢，只写一个 SkillsMD 文件，说明用哪个 CLI 工具，或者往环境里放一个 CLI 工具就行——一行代码都不改，由智能体自己决定怎么用。文件还能让智能体学习和积累：让它记住某条规则，它就写进磁盘，下个会话接着用；长会话中途要开新任务，把交接信息写进文件，回头再接手。\n\n最后，演讲者给了一份行动清单，我觉得挺实在的。第一，不要和模型对抗——别事无巨细地替模型规定每一步执行路径，给通用工具，让模型自己探索出解法。第二，管好属于你的部分：你的领域指令、工作流，尤其是评估，也就是 evals,定义干净的工具，验证结果。第三，为删除而构建——模型越好，能删的代码越多，设计的时候就该预期到这一点。\n\n把这一集收成一句话，就是那五个字：智能体，就只是文件。"
+}

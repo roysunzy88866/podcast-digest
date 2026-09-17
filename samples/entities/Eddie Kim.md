@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Marc Brooker]] [[Ben Celebicic]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Andrew Qu]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]]
+[[Marc Brooker]] [[Ben Celebicic]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":4,"Gusto":1,"联合创始人":2,"vibe coding":35,"永久 Zoom":1,"智能体":251,"垃圾桶法":1,"Cloudflare Worker":2,"Vercel AI SDK":2,"Claude Code":61}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":4,"Gusto":1,"联合创始人":2,"vibe coding":35,"永久 Zoom":1,"智能体":253,"垃圾桶法":1,"Cloudflare Worker":2,"Vercel AI SDK":2,"Claude Code":61}</script>
 
 <script>
 (function(){

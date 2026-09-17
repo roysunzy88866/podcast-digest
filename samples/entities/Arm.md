@@ -33,7 +33,7 @@ unlisted: true
 
 [[推理]] · [[CPU]] · [[Nathan]] · [[Elad]] · [[Inherent Laboratories]] · [[Rene Haas]] · [[Vercel]] · [[SoftBank]] · [[RL]] · [[TSMC]]
 
-<script type="application/json" class="pd-epn">{"推理":46,"CPU":4,"Nathan":3,"Elad":1,"Inherent Laboratories":1,"Rene Haas":1,"Vercel":15,"SoftBank":4,"RL":7,"TSMC":4}</script>
+<script type="application/json" class="pd-epn">{"推理":46,"CPU":4,"Nathan":3,"Elad":1,"Inherent Laboratories":1,"Rene Haas":1,"Vercel":16,"SoftBank":4,"RL":7,"TSMC":4}</script>
 
 <script>
 (function(){

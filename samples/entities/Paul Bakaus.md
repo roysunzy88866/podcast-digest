@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Marc Brooker]] [[Ben Celebicic]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Andrew Qu]] [[Jonathan Kelley]] [[Jeremiah Lowin]] [[Vincent Wendy]] [[Jonathan Gordon]]
+[[Marc Brooker]] [[Ben Celebicic]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Jonathan Kelley]] [[Jeremiah Lowin]] [[Vincent Wendy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Impeccable":1,"harness":33,"智能体":251,"一次性设计":1,"AI 垃圾内容":2,"品味":10,"形容词引导设计":1}</script>
+<script type="application/json" class="pd-epn">{"Impeccable":1,"harness":34,"智能体":253,"一次性设计":1,"AI 垃圾内容":2,"品味":10,"形容词引导设计":1}</script>
 
 <script>
 (function(){

@@ -95,7 +95,7 @@ AI 的出现似乎给了条出路:开发者只管把干净的初版扔出来,用
 
 - [[2026-06-16-devtools-swyx-aie|AI Engineer 大会背后的社区逻辑与创业生存法则]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2025-10-06-talks-agents-for-complex-software-engineering|Vibe debugging：代码生成之后，生产环境才是真正的硬仗]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)</span>
+- [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|智能体就只是文件：当配置取代 Python]]<span class="pd-rz">同公司:Google · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

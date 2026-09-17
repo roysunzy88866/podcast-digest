@@ -41,7 +41,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Google]] · [[Anthropic]] · [[Microsoft]] · [[Harvey]] · [[Cursor]] · [[开源]] · [[Copilot]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":116,"智能体":251,"ChatGPT":66,"Google":42,"Anthropic":124,"Microsoft":25,"Harvey":9,"Cursor":59,"开源":22,"Copilot":11}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":116,"智能体":253,"ChatGPT":66,"Google":43,"Anthropic":124,"Microsoft":25,"Harvey":9,"Cursor":60,"开源":22,"Copilot":11}</script>
 
 <script>
 (function(){

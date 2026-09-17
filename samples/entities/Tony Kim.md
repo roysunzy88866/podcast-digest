@@ -53,7 +53,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"算力":5,"记忆":9,"数据中心":13,"token 流":1,"协同设计":2,"智能体":251,"机器人":5,"推理":46,"Broadcom":3,"Palantir":16}</script>
+<script type="application/json" class="pd-epn">{"算力":5,"记忆":9,"数据中心":13,"token 流":1,"协同设计":2,"智能体":253,"机器人":5,"推理":46,"Broadcom":3,"Palantir":16}</script>
 
 <script>
 (function(){

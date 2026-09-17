@@ -1,0 +1,787 @@
+{
+  "episode_id": "2026-09-14-talks-every-step-you-take-every-call-you-make",
+  "podcast": "精选演讲",
+  "date": "2026-09-14",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "持久化执行",
+    "分布式系统",
+    "开源框架"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "giselle-van-dongen",
+      "type": "person",
+      "role": "guest",
+      "name": "Giselle van Dongen",
+      "file": "Giselle van Dongen",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "restate",
+      "type": "company",
+      "role": "company",
+      "name": "Restate",
+      "file": "Restate",
+      "primary": true,
+      "how_described": "本集主线:一个开源框架,作为灵活、持久化的后端地基,把普通函数变成长期运行、持久化、有状态的进程,为生产环境里可靠运行智能体提供持久化执行、并发会话、通信和控制能力;理念源自 Apache Flink 和 Meta 核心事件基础设施的前架构师",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            137.568,
+            141.27
+          ],
+          "quote": "So today I want to talk about an open source framework called Restate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            156.039,
+            167.514
+          ],
+          "quote": "The ideas behind ReState come from Apache Flink, which is a popular distributed stream processing engine, and also from some of the ex-architects behind Metascore Event Infra.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            169.176,
+            171.119
+          ],
+          "quote": "So what are the ingredients in ReState?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            234.393,
+            240.055
+          ],
+          "quote": "Restate is basically a server which runs in front of your agent service, so as a separate component.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            244.516,
+            251.918
+          ],
+          "quote": "And when there's a request for your agent, Restate proxies the request to the service and pushes it to the service, basically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            252.378,
+            257.262
+          ],
+          "quote": "And from that moment, there's a connection, open connection between Restate and the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            261.226,
+            271.695
+          ],
+          "quote": "So as the agent is doing stuff, it sends events over to Restate, and Restate will use that journal of events to recover the process after a failure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            315.595,
+            319.54
+          ],
+          "quote": "So if I go back here, I have here the restate UI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            375.756,
+            382.081
+          ],
+          "quote": "And so this journal you see here on the left, that is basically the events that get sent from the agent to the restate server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            425.29,
+            429.156
+          ],
+          "quote": "How you implement applications in restate is by writing HTTP handlers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            429.636,
+            433.121
+          ],
+          "quote": "And those handlers become durable by using the restate SDK.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            433.622,
+            440.672
+          ],
+          "quote": "So here in this case, we have here our deep research handler, and here as a first argument, we have a restate object context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            441.153,
+            446.577
+          ],
+          "quote": "And the way you can imagine that is basically as that connection to that restate server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            446.877,
+            453.462
+          ],
+          "quote": "Whenever I do an action on this restate object, it will lead to an event being sent to restate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            468.621,
+            473.027
+          ],
+          "quote": "LLM call, and the way I made it durable is by wrapping it in restate.run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            574.263,
+            579.928
+          ],
+          "quote": "So the way that we can model this in Restate is by using something called a virtual object.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            601.088,
+            604.31
+          ],
+          "quote": "And so this is basically what a virtual object in restate is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            639.908,
+            646.431
+          ],
+          "quote": "Again, it has like this restate object context at its disposal to do things in a recoverable way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            917.623,
+            920.204
+          ],
+          "quote": "This is the kind of things that Restate really excels at.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1099.505,
+            1108.477
+          ],
+          "quote": "So, whereas most workflow orchestrators actually pull for new tasks, pull from the workflow server, Restate actually",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1161.428,
+            1164.309
+          ],
+          "quote": "So ReState has six different SDKs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1184.319,
+            1189.883
+          ],
+          "quote": "We also have a BYOC offering where we deploy Restate in your cloud account.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1207.059,
+            1211.023
+          ],
+          "quote": "If you like the project, then have a look at the Restate repo itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1223.432,
+            1230.255
+          ],
+          "quote": "And I will be outside in front of the conference hall here if you want to ask any questions or learn more about Restate.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集引用 Carpathy 的三波演进:从问一答一的 LLM,到装在电脑上用工具的应用,再到第三波成为基础设施中长期运行、持久化、异步的实体,可访问工具、组织中其他智能体和上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            89.664,
+            99.108
+          ],
+          "quote": "So when we look at the types of tools that are currently out there to implement agents, a lot of innovation has been done on sites such as agent SDKs and memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            173.998,
+            177.82
+          ],
+          "quote": "First of all, it makes sure that a single run of an agent is resilient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            181.402,
+            191.108
+          ],
+          "quote": "Think about things like when an agent runs for a week and then crashes, we want to be able to bring it back and let it continue exactly at the point where it failed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            200.284,
+            210.01
+          ],
+          "quote": "Imagine running thousands of concurrent agent sessions at the same time and needing to make sure that state is always consistent and that different agents don't interfere with each other.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            211.528,
+            229.38
+          ],
+          "quote": "And then going more towards things like communication between agents, between agents and MCP servers and other tools, and finally also control, making sure that when an agent, for example, is doing something you don't want it to continue or when it's stuck, being able to actually cancel or kill the execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            234.393,
+            240.055
+          ],
+          "quote": "Restate is basically a server which runs in front of your agent service, so as a separate component.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            244.516,
+            251.918
+          ],
+          "quote": "And when there's a request for your agent, Restate proxies the request to the service and pushes it to the service, basically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            252.378,
+            257.262
+          ],
+          "quote": "And from that moment, there's a connection, open connection between Restate and the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            257.583,
+            261.166
+          ],
+          "quote": "And that connection will basically be a bit like a lifeline for the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            261.226,
+            271.695
+          ],
+          "quote": "So as the agent is doing stuff, it sends events over to Restate, and Restate will use that journal of events to recover the process after a failure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            292.145,
+            296.289
+          ],
+          "quote": "So I'll be showing you a research agent that's connected to Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            296.449,
+            302.796
+          ],
+          "quote": "Imagine we are like working at some company and we want to make a Slack agent available to all of our employees.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            331.333,
+            335.575
+          ],
+          "quote": "So here is the deep research agent that I spinned up a few seconds ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            343.178,
+            346.259
+          ],
+          "quote": "This first LLM call was a planner agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            365.491,
+            374.177
+          ],
+          "quote": "You have a planner, then a set of sub-research agents, and then finally someone who writes a report on this, like a writer agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            375.756,
+            382.081
+          ],
+          "quote": "And so this journal you see here on the left, that is basically the events that get sent from the agent to the restate server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            396.353,
+            412.825
+          ],
+          "quote": "Yeah, here you can, for example, see that the sub-agent first did an LLM call, then started doing some web searches, and eventually one of the web searches didn't go through because the API was down, and then you see here on the right how it got retried and eventually completed successfully.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            580.388,
+            592.899
+          ],
+          "quote": "So imagine in the use case that I'm showing this Slack research agent, imagine that I don't want to wait for 10 minutes to give it some follow-up context or maybe I think about something else that I should have told it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            699.948,
+            710.454
+          ],
+          "quote": "For example, to retrieve the output, but also to cancel it, or maybe to signal it, being injecting a bit of state into an already running agent loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            711.507,
+            722.496
+          ],
+          "quote": "And so this is a very flexible type of capabilities that you can do to implement things like, for example, signaling an already ongoing agent loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            722.896,
+            732.783
+          ],
+          "quote": "So what we do here is if there is a current execution ongoing, then we will ask an LLM, is this something that is relevant for the current agent loop?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            806.551,
+            811.133
+          ],
+          "quote": "So this injects that new message into the ongoing agent loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            811.173,
+            814.055
+          ],
+          "quote": "So let me show you in the deep research agent again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            860.295,
+            872.724
+          ],
+          "quote": "So if my agent was already spinning up sub-agents first, so sub-agents would be cancelled, then the controller itself, and like that it would basically rewind the stack and give agents also the ability to roll back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            890.577,
+            906.241
+          ],
+          "quote": "Imagine that we deploy this in production, but then a few months later, a new model provider brings out a new model, for example, Fabulous, and even though the model is very good, it's also very expensive, and we notice that this research agent is actually starting to cost a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1054.143,
+            1069.184
+          ],
+          "quote": "Based on what the event is, it either persists some state in the embedded state store, or it sets a timer, or it sends a request to another agent, and by doing that you basically have a durable foundation for whatever an application is doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1164.369,
+            1169.612
+          ],
+          "quote": "We also have integrations for most of the popular agent frameworks out there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "durable-execution",
+      "type": "concept",
+      "role": "concept",
+      "name": "持久化执行 (durable execution)",
+      "file": "持久化执行",
+      "primary": true,
+      "how_described": "本集称之为业界叫法,指把每一步记进事件日志,进程崩溃后能从失败点精确续跑而不是从头再来;也用于人工审批这类长等待——持久 promise 当挂起点,等待期在无服务器上不占执行时间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            178.521,
+            181.062
+          ],
+          "quote": "This is called durable execution in the industry.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            485.342,
+            487.183
+          ],
+          "quote": "So that's the idea of durable execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            511.335,
+            520.102
+          ],
+          "quote": "And so with durable execution you can actually also suspend a function and bring it back when it's able to make progress.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "journal",
+      "type": "concept",
+      "role": "concept",
+      "name": "事件日志 (journal)",
+      "file": "事件日志",
+      "primary": true,
+      "how_described": "本集说智能体干活时不断把事件发给 Restate 服务器形成 journal,像智能体的生命线,故障后靠它把执行恢复到失败点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            261.226,
+            271.695
+          ],
+          "quote": "So as the agent is doing stuff, it sends events over to Restate, and Restate will use that journal of events to recover the process after a failure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            375.756,
+            382.081
+          ],
+          "quote": "And so this journal you see here on the left, that is basically the events that get sent from the agent to the restate server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            382.522,
+            390.348
+          ],
+          "quote": "And if this now crashes at some point, this journal is what will be used to recover the execution to the point where it failed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            413.285,
+            417.629
+          ],
+          "quote": "So instead of starting over, it uses the journal to recover the progress.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            520.403,
+            529.39
+          ],
+          "quote": "So in the case of a human approval what we do here is basically we create a durable promise which lives in that journal a bit like a suspension point.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1039.068,
+            1049.398
+          ],
+          "quote": "So inside the box you basically on one side have the clients, on the other side the services, and inside the box is a log which persists all those journal events and an event loop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "virtual-object",
+      "type": "concept",
+      "role": "concept",
+      "name": "虚拟对象 (virtual object)",
+      "file": "虚拟对象",
+      "primary": true,
+      "how_described": "本集用它建模智能体这类有状态的持久实体:像有状态的 actor,有唯一 ID(如 session ID)、会话隔离的键值状态和一组 handler,并保证同一时间只有一个执行在跑,防止并发会话互相覆盖状态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            574.263,
+            579.928
+          ],
+          "quote": "So the way that we can model this in Restate is by using something called a virtual object.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            601.088,
+            604.31
+          ],
+          "quote": "And so this is basically what a virtual object in restate is.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "apache-flink",
+      "type": "company",
+      "role": "company",
+      "name": "Apache Flink",
+      "file": "Apache Flink",
+      "primary": false,
+      "how_described": "本集提到 Restate 背后的理念来自这个流行的分布式流处理引擎",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            156.039,
+            167.514
+          ],
+          "quote": "The ideas behind ReState come from Apache Flink, which is a popular distributed stream processing engine, and also from some of the ex-architects behind Metascore Event Infra.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集说 Restate 的分布式日志设计深受 Meta 核心事件基础设施层的启发,由几位当年的架构师做成了开源通用方案",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            1070.793,
+            1078.981
+          ],
+          "quote": "The design of this distributed log is heavily inspired by the way that the core event infralayer at Meta works.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集提到智能体与 MCP 服务器及其他工具之间的通信是基础设施要管的一环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            211.528,
+            229.38
+          ],
+          "quote": "And then going more towards things like communication between agents, between agents and MCP servers and other tools, and finally also control, making sure that when an agent, for example, is doing something you don't want it to continue or when it's stuck, being able to actually cancel or kill the execution.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "serverless",
+      "type": "concept",
+      "role": "concept",
+      "name": "无服务器 (serverless)",
+      "file": "无服务器",
+      "primary": false,
+      "how_described": "本集说人工审批挂起时若跑在无服务器上不占函数执行时间;推送调用模式也天然契合无服务器的发请求唤醒函数",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            538.794,
+            545.616
+          ],
+          "quote": "So if it's running on serverless, this is not using execution time on our functions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1128.471,
+            1137.737
+          ],
+          "quote": "Pushing invocations also works very well for serverless because they require you to basically send the request and wake up the function.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deep-research",
+      "type": "concept",
+      "role": "concept",
+      "name": "深度研究工作流 (deep research)",
+      "file": "深度研究工作流",
+      "primary": true,
+      "how_described": "本集现场 Demo 的主体:规划器智能体列子题、人工 Approve 后并行启动子研究智能体、写作智能体出报告的经典工作流,用来演示 Restate 的持久化执行与交互能力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            331.333,
+            335.575
+          ],
+          "quote": "So here is the deep research agent that I spinned up a few seconds ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            361.948,
+            365.451
+          ],
+          "quote": "So this is basically like the classical deep research workflow, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            433.622,
+            440.672
+          ],
+          "quote": "So here in this case, we have here our deep research handler, and here as a first argument, we have a restate object context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            811.173,
+            814.055
+          ],
+          "quote": "So let me show you in the deep research agent again.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

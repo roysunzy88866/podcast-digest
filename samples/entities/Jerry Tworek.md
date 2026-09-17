@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sonja":1,"Rohan Anil":1,"Core Automation":1,"OpenAI":116,"Google":42,"Anthropic":124,"Transformer":8,"强化学习":17,"预训练":6,"测试时学习":1}</script>
+<script type="application/json" class="pd-epn">{"Sonja":1,"Rohan Anil":1,"Core Automation":1,"OpenAI":116,"Google":43,"Anthropic":124,"Transformer":8,"强化学习":17,"预训练":6,"测试时学习":1}</script>
 
 <script>
 (function(){

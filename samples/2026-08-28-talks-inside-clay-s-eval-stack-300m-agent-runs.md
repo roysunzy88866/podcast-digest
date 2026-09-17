@@ -130,7 +130,7 @@ Saroosh 收尾，指出前面的飞轮有个瓶颈：「用我们的数据基础
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:LangChain · 同概念:智能体 (agent)、测试框架 (harness)、沙箱 (sandbox)</span>
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同概念:LLM 裁判 (LLM as a judge)、智能体 (agent)、测试框架 (harness)、沙箱 (sandbox)</span>
-- [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同概念:LLM 裁判 (LLM as a judge)、智能体 (agent)、轨迹 (trace)</span>
+- [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|智能体就只是文件：当配置取代 Python]]<span class="pd-rz">同公司:LangChain · 同概念:智能体 (agent)、测试框架 (harness)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">
