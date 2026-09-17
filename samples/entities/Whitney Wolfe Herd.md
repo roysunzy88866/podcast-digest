@@ -37,17 +37,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Bumble]] · [[滑动]] · [[AI]] · [[AI 助手]] · [[推荐引擎]] · [[付费用户]] · [[创始人模式]] · [[Hinge]] · [[Apple]] · [[真实性]]
+[[Bumble]] · [[滑动]] · [[AI]] · [[AI 助手]] · [[推荐引擎]] · [[付费用户]] · [[创始人模式]] · [[Hinge]] · [[Tinder]] · [[Apple]]
 
 ## ④ 也在聊「产品方法」的人
 
 <div class="pd-peers">
 
-[[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]]
+[[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bumble":1,"滑动":1,"AI":17,"AI 助手":2,"推荐引擎":1,"付费用户":1,"创始人模式":2,"Hinge":2,"Apple":17,"真实性":2}</script>
+<script type="application/json" class="pd-epn">{"Bumble":1,"滑动":1,"AI":17,"AI 助手":2,"推荐引擎":1,"付费用户":1,"创始人模式":2,"Hinge":2,"Tinder":2,"Apple":17}</script>
 
 <script>
 (function(){

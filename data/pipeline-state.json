@@ -89,32 +89,36 @@
     "fjF8EKnxKCU": "2026-09-14-talks-agents-without-code-skills-yaml-and-file",
     "gxVZ_1tuuq4": "2026-09-14-talks-harness-engineering-building-the-product",
     "jA_x7F8caHI": "2026-09-14-talks-no-memory-no-harness-why-the-database-is",
-    "MBHOH1NmDqc": "2026-09-15-talks-realtime-voice-agents-with-frontier-inte"
+    "MBHOH1NmDqc": "2026-09-15-talks-realtime-voice-agents-with-frontier-inte",
+    "OpY6MmZFeHo": "2026-09-15-talks-voice-agents-can-just-do-things-charlie"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
     "2026-09-03-changelog-forking-cal-com-to-closed-source": 1
   },
-  "audioWanted": {},
+  "audioWanted": {
+    "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7419234216.mp3"
+  },
   "transient": {
     "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds": 1,
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
-    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1
+    "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
+    "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti": 1
   },
   "cutoffs": {
     "lennys": "2026-09-08T12:31:49.000Z",
     "pg": "2026-09-14T23:05:28.000Z",
-    "a16z": "2026-09-16T10:00:00.000Z",
+    "a16z": "2026-09-17T10:00:00.000Z",
     "yc": "2026-09-13T15:05:37.000Z",
     "mad": "2026-09-10T11:30:00.000Z",
     "trainingdata": "2026-09-15T09:00:00.000Z",
     "bigtech": "2026-09-16T15:34:00.000Z",
     "aiandi": "2026-09-02T17:13:19.000Z",
     "nopriors": "2026-09-10T10:00:00.000Z",
-    "thepeel": "2026-09-10T13:00:00.000Z",
+    "thepeel": "2026-09-17T13:00:00.000Z",
     "beyondcoding": "2026-09-09T12:00:00.000Z",
     "founders": "2026-09-14T18:26:00.000Z",
-    "dwarkesh": "2026-09-11T16:28:11.000Z",
+    "dwarkesh": "2026-09-17T15:38:13.000Z",
     "doac": "2026-09-17T05:00:00.000Z",
     "deepmind": "2026-09-09T16:08:26.000Z",
     "twentyvc": "2026-09-17T07:07:00.000Z",
@@ -137,7 +141,7 @@
     "ainativedev": "2026-09-16T12:00:00.000Z",
     "newcomer": "2026-09-10T17:17:43.000Z",
     "engenable": "2026-09-11T12:30:00.000Z",
-    "sourcery": "2026-09-14T11:11:16.000Z",
+    "sourcery": "2026-09-17T10:00:00.000Z",
     "iltb": "2026-09-16T08:00:00.000Z",
     "generalist": "2026-09-08T11:00:00.000Z",
     "sed": "2026-09-17T06:00:00.000Z",
@@ -1178,6 +1182,18 @@
       "reason": "题材不对味:拿不准:通用领导力访谈,与档案要的「AI 商业+人+实操」面无明确关联,非 AI 题材",
       "title": "Brené Brown & Reid Hoffman on the skills every leader needs now",
       "pubDate": "2026-09-17T09:00:00.000Z"
+    },
+    {
+      "id": "2026-09-17-a16z-the-next-frontier-of-ai-video-is-control",
+      "reason": "题材不对味:拿不准:AI 视频技术方向话题,信息不足以判断是产业格局面还是技术/产品前沿深挖",
+      "title": "The Next Frontier of AI Video Is Control",
+      "pubDate": "2026-09-17T10:00:00.000Z"
+    },
+    {
+      "id": "2026-09-17-dwarkesh-noam-brown",
+      "reason": "题材不对味:AI 安全/对齐/递归自我改进属思辨研究类,落在档案排除项",
+      "title": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
+      "pubDate": "2026-09-17T15:38:13.000Z"
     }
   ]
 }

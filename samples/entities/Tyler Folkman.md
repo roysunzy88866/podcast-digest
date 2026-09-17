@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Kevin DeFarco]]
+[[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":59,"Herder":1,"循环":8,"智能体":257,"技能":16,"闸门":1,"原型":5,"钩子":1,"构建者":3}</script>
+<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":59,"Herder":1,"循环":8,"智能体":258,"技能":16,"闸门":1,"原型":5,"钩子":1,"构建者":3}</script>
 
 <script>
 (function(){

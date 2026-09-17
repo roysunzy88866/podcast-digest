@@ -51,7 +51,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]] [[Kevin DeFarco]]
+[[Jeff Morris Jr]] [[Claire]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]]
 
 </div>
 

@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Neoclouds":1,"Fireworks":4,"前沿模型":16,"开源模型":17,"沙箱":50,"智能体":257,"推理":46,"Docker":3,"GPU":16}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Neoclouds":1,"Fireworks":4,"前沿模型":16,"开源模型":17,"沙箱":50,"智能体":258,"推理":46,"Docker":3,"GPU":16}</script>
 
 <script>
 (function(){

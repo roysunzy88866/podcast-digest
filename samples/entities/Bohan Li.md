@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Charlie Guo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elise AI":1,"语音智能体":1,"级联语音智能体":1,"转写":1,"工具调用":1,"文本转语音":1,"前缀缓存":1,"Cartesia":1,"自动驾驶":2}</script>
+<script type="application/json" class="pd-epn">{"Elise AI":1,"语音智能体":2,"级联语音智能体":1,"转写":2,"工具调用":2,"文本转语音":1,"前缀缓存":1,"Cartesia":1,"自动驾驶":2}</script>
 
 <script>
 (function(){

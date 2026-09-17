@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Canva":4,"智能体":257,"无代码":1,"Figma":19,"Notion":13,"Airtable":3,"Palantir":16,"Replit":16,"ChatGPT":67}</script>
+<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Canva":4,"智能体":258,"无代码":1,"Figma":19,"Notion":13,"Airtable":3,"Palantir":16,"Replit":16,"ChatGPT":68}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]]
+[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":4,"Path Robotics":1,"LLM":33,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":1,"产品市场契合":20,"第一性原理":5}</script>
+<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":5,"Path Robotics":1,"LLM":33,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":20,"第一性原理":5}</script>
 
 <script>
 (function(){

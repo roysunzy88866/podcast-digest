@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]]
+[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":9,"Inflection AI":1,"Microsoft":25,"Pi":2,"Copilot":11,"OpenAI":118,"AGI":22,"图灵测试":2,"基于人类反馈的强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":9,"Inflection AI":1,"Microsoft":25,"Pi":2,"Copilot":11,"OpenAI":119,"AGI":23,"图灵测试":2,"基于人类反馈的强化学习":1}</script>
 
 <script>
 (function(){

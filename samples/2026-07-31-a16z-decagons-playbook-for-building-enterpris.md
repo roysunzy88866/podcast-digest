@@ -181,9 +181,9 @@ Decagon 能迅速拿下全球最大的几家银行、航空公司和电信公司
 
 **换个口味**
 
+- [[2026-09-15-talks-voice-agents-can-just-do-things-charlie|语音智能体不一定要说话:OpenAI 的三种语音交互模式]]<span class="pd-rz">同公司:OpenAI · 同概念:延迟 (latency)、推理 (reasoning)</span>
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同公司:Decagon · 同概念:智能体 (agent)</span>
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]]<span class="pd-rz">同概念:前向部署工程师 (forward deployed engineer)、智能体 (agent)</span>
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同概念:前向部署工程师 (forward deployed engineer)、智能体 (agent)</span>
 
 </div>
 </div>

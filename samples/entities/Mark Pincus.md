@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]]
+[[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Zynga":2,"已验证、更好、全新":1,"产品市场契合":20,"留存":2,"分发":5,"智能体":257,"社交网络":1,"微管理":2,"Facebook":13}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Zynga":2,"已验证、更好、全新":1,"产品市场契合":20,"留存":2,"分发":5,"智能体":258,"社交网络":1,"微管理":2,"Facebook":13}</script>
 
 <script>
 (function(){

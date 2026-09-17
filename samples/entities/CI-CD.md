@@ -50,7 +50,7 @@ aliases: ["CICD", "CI CD", "CI", "CD"]
 
 [[智能体]] · [[护栏]] · [[MCP]] · [[Codex]] · [[沙箱]] · [[Python]] · [[OpenAI]] · [[vibe coding]] · [[Anthropic]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":257,"护栏":49,"MCP":44,"Codex":49,"沙箱":50,"Python":5,"OpenAI":118,"vibe coding":35,"Anthropic":124,"Cursor":60}</script>
+<script type="application/json" class="pd-epn">{"智能体":258,"护栏":50,"MCP":44,"Codex":50,"沙箱":50,"Python":5,"OpenAI":119,"vibe coding":35,"Anthropic":124,"Cursor":60}</script>
 
 <script>
 (function(){

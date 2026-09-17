@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-15-talks-voice-agents-can-just-do-things-charlie",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/OpY6MmZFeHo.m4a",
+  "duration_sec": 931.07,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 159,
+  "asr": true,
+  "title_en": "Voice Agents Can Just Do Things — Charlie Guo, OpenAI",
+  "podcast": "精选演讲",
+  "date": "2026-09-15",
+  "added": "2026-09-18",
+  "added_at": "2026-09-17T18:29:06.738Z",
+  "speaker_map": {
+    "SPEAKER_00": "Charlie Guo"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Charlie Guo"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "语音智能体不一定要说话:OpenAI 的三种语音交互模式",
+  "guest_name": "Charlie Guo",
+  "guest_title": "OpenAI 开发者体验团队",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

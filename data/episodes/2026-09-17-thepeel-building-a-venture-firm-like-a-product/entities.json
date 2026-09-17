@@ -1,0 +1,893 @@
+{
+  "episode_id": "2026-09-17-thepeel-building-a-venture-firm-like-a-product",
+  "podcast": "The Peel",
+  "date": "2026-09-17",
+  "tags": [
+    "风险投资",
+    "种子轮",
+    "转型",
+    "基金管理",
+    "消费 AI"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "jeff-morris-jr",
+      "type": "person",
+      "role": "host",
+      "name": "Jeff Morris Jr",
+      "file": "Jeff Morris Jr",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "chapter-one",
+      "type": "company",
+      "role": "company",
+      "name": "Chapter One",
+      "file": "Chapter One",
+      "primary": true,
+      "how_described": "Jeff 创办的早期风投机构,每周开投资委员会并公开内部纪要,第三期基金募了 6400 万美元,主打产品驱动、主题化搜寻和洛杉矶地理优势",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            5.324,
+            11.454
+          ],
+          "quote": "You guys publish these kind of internal IC meeting minutes that you do inside of chapter one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1225.165,
+            1230.648
+          ],
+          "quote": "What's been one of the biggest changes to the venture industry since you kind of started chapter one?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1593.452,
+            1598.835
+          ],
+          "quote": "We build a ton of software internally, which has been true since I started chapter one.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2851.41,
+            2856.754
+          ],
+          "quote": "So I think, uh, Jameson mentioned she might, uh, my partner at chapter one.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 929,
+          "t": [
+            4395.956,
+            4401.278
+          ],
+          "quote": "How did, how did you kind of transition from working at Tinder to, say, you've got chapter one?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 938,
+          "t": [
+            4435.088,
+            4441.03
+          ],
+          "quote": "Like Silicon Valley interview tour where I talked to different venture firms about, do I join them or start chapter one?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 953,
+          "t": [
+            4520.487,
+            4524.231
+          ],
+          "quote": "And I think in many ways how we've built chapter one is similar.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tinder",
+      "type": "company",
+      "role": "company",
+      "name": "Tinder",
+      "file": "Tinder",
+      "primary": true,
+      "how_described": "Jeff 是其第 50 号员工,入职几周靠一条发给 4000 万人的推送通知创下 DAU 纪录,后负责收入,使其成为全球收入最高的应用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 325,
+          "t": [
+            1598.875,
+            1608.722
+          ],
+          "quote": "So when I started the firm, I was still operating at Tinder and I built a piece of software that kind of like did different scraping the internet and I'd wake up to every morning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 741,
+          "t": [
+            3394.409,
+            3404.459
+          ],
+          "quote": "And actually, so I wanted to ask you, after Zarly, you, I don't know if it was immediately, but soon after, you moved, I think, back to LA and you started working at Tinder.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 749,
+          "t": [
+            3429.594,
+            3436.595
+          ],
+          "quote": "But to join Tinder as a employee 50 and kind of be like the second product person on the team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3445.857,
+            3447.117
+          ],
+          "quote": "Tinder is kind of a crazy company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 757,
+          "t": [
+            3465.372,
+            3473.115
+          ],
+          "quote": "Well, my first week, basically our Tinder had no ability to send a push notification at the time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3490.329,
+            3493.111
+          ],
+          "quote": "Just to like, hey, check out Tinder, open it up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 780,
+          "t": [
+            3566.15,
+            3581.203
+          ],
+          "quote": "One of the things I figured out quickly was that you should rate limit the notifications because our servers weren't able to handle like the, if we just sent 40 million people a single notification once, or like Tinder would go down, the servers wouldn't.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 782,
+          "t": [
+            3586.026,
+            3587.188
+          ],
+          "quote": "We took down Tinder.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 928,
+          "t": [
+            4381.651,
+            4395.536
+          ],
+          "quote": "And then when you, when you first kind of got transitioned into venture, you started posting about what you were doing at Tinder, lessons, started investing in sort of like, you were kind of sort of branch of sort of like a product driven investor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 929,
+          "t": [
+            4395.956,
+            4401.278
+          ],
+          "quote": "How did, how did you kind of transition from working at Tinder to, say, you've got chapter one?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 932,
+          "t": [
+            4403.059,
+            4409.221
+          ],
+          "quote": "So we, well, it's just me at the time, but launched the firm from my desk, still at Tinder.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "zarly",
+      "type": "company",
+      "role": "company",
+      "name": "Zarly",
+      "file": "Zarly",
+      "primary": true,
+      "how_described": "Jeff 的早期雇主,想做「万能版 Uber」的水平化市场平台,第一天全国上线;Jeff 两年内心知公司不达标却没彻底转型,成为他谈转型教训的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 515,
+          "t": [
+            2580.206,
+            2582.247
+          ],
+          "quote": "Yeah, I worked at a marketplace called Zarly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 741,
+          "t": [
+            3394.409,
+            3404.459
+          ],
+          "quote": "And actually, so I wanted to ask you, after Zarly, you, I don't know if it was immediately, but soon after, you moved, I think, back to LA and you started working at Tinder.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 744,
+          "t": [
+            3406.581,
+            3413.247
+          ],
+          "quote": "So I moved at some point from Kansas City to New York to San Francisco with the company Zarly at the time.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sequoia",
+      "type": "company",
+      "role": "company",
+      "name": "Sequoia",
+      "file": "Sequoia",
+      "primary": true,
+      "how_described": "被反复引用的顶级机构:当天早上做了一个 6000 万美元的「种子轮」,证明轮次标签已失效;也是新基金不应正面竞争的对象",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            176.947,
+            184.929
+          ],
+          "quote": "Yeah, we, I think Sequoia's had this philosophy for a long time, like never, never disparage or talk poorly about a founder.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 72,
+          "t": [
+            312.447,
+            315.328
+          ],
+          "quote": "Like Sequoia this morning did a seed round.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1879.429,
+            1881.729
+          ],
+          "quote": "They kind of co-invested, I think, led around with Sequoia.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1073,
+          "t": [
+            4978.375,
+            4985.818
+          ],
+          "quote": "And the picking rates historically for some of the best venture firms, I'm talking like the best, the best, the Sequoia, USV, etc.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1160,
+          "t": [
+            5434.065,
+            5444.87
+          ],
+          "quote": "But I'd say for 99% of new funds, like you should not try and compete with the Sequoia or benchmark on a seed deal.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "erebor",
+      "type": "company",
+      "role": "company",
+      "name": "Erebor",
+      "file": "Erebor",
+      "primary": true,
+      "how_described": "Palmer 团队创办的银行,Chapter One 把一只基金很大比例投进其 20 亿美元轮次;五个月内成为史上增长最快的银行之一,专门为深科技公司承销贷款",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            499.32,
+            501.802
+          ],
+          "quote": "You met with Palmer and Erebor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            508.808,
+            512.391
+          ],
+          "quote": "So we did Erebor, the $2 billion round.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "paradigm",
+      "type": "company",
+      "role": "company",
+      "name": "Paradigm",
+      "file": "Paradigm",
+      "primary": true,
+      "how_described": "原纯加密基金,投资了 CNC 机械加工公司 SendCutSend、把网站改成通才语言,被 Jeff 举为「转型就要彻底、重新创办机构」的范例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 376,
+          "t": [
+            1858.504,
+            1869.947
+          ],
+          "quote": "What you just described, that reminds me of maybe Paradigm, good example, where historically, everyone kind of thought of them as a crypto firm, but they've been a little, they had one vocal moment, like, hey, we're not just doing crypto anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1889.532,
+            1896.256
+          ],
+          "quote": "Yeah, that was actually a big moment where people were like, wow, Paradigm's really doing things outside of crypto because it's not even adjacent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1939.066,
+            1947.133
+          ],
+          "quote": "The DNA, where Paradigm actually had a moment maybe two years ago that really changed their website to be more like,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1986.054,
+            1992.6
+          ],
+          "quote": "But with the SenCutSend deal, I actually think that was the right strategy for Paradigm to say, hey, we're going to completely",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2067.233,
+            2073.519
+          ],
+          "quote": "So like in Paradigm's case, maybe it was the right choice to be a crypto-only fund from 2017 to 2026.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "supabase",
+      "type": "company",
+      "role": "company",
+      "name": "Supabase",
+      "file": "Supabase",
+      "primary": false,
+      "how_described": "被举为「为非人类客户构建产品」的例子:在智能体启动数据库这个场景里有很好的网络效应",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 911,
+          "t": [
+            4277.948,
+            4287.771
+          ],
+          "quote": "And so a non-consumer version, this would be like Supabase has great network effects within agents spinning up databases.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "seed-round",
+      "type": "concept",
+      "role": "concept",
+      "name": "种子轮 (seed round)",
+      "file": "种子轮",
+      "primary": true,
+      "how_described": "本集主线论点:轮次标签已失效,红杉 6000 万美元的种子轮说明标签不再有意义,应只看金额和融下一轮所需的里程碑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            312.447,
+            315.328
+          ],
+          "quote": "Like Sequoia this morning did a seed round.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            315.368,
+            318.508
+          ],
+          "quote": "It was, I think it was a $60 million seed round, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            322.929,
+            329.331
+          ],
+          "quote": "It's, you know, it's like literally every single day you read a, $60 million actually sounds like a small seed round.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            502.062,
+            507.727
+          ],
+          "quote": "I know you guys invested in that first round when they first started it, but that was not your classic down the fairway pre-seed round.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1040.249,
+            1043.631
+          ],
+          "quote": "Like, hey, these guys are raising a pre-seed round, a seed round.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1061.518,
+            1079.455
+          ],
+          "quote": "Like if a founder is raising a pre-seed at a seven and a half million dollar post, like they have a very different view on kind of where the company, like the path to company building, then the founder who comes in and raises the billion dollar seed round.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1111.523,
+            1121.811
+          ],
+          "quote": "But sometimes we'll meet a founder who thinks they're the next Elon and we can kind of tell the $20 million seed round might not happen, but we like the founder.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1125.674,
+            1131.498
+          ],
+          "quote": "We just don't think that the $20 million seed round is the best strategy right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1183.394,
+            1198.438
+          ],
+          "quote": "The markets, especially if the markets do turn in the other direction and like that could be fatal to your company because you have to go, one, like no founder ever wants to raise a flat round or a down round right after their seed round.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3056.347,
+            3068.095
+          ],
+          "quote": "Just being so deep in the weeds, they're saying, hey, this doesn't look like venture anymore because everything's so financialized and, hey, that round, that's not a seed round, that's a billion dollar.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 635,
+          "t": [
+            3157.744,
+            3162.955
+          ],
+          "quote": "If you compare the funds as we raise to the billion dollar seed round, it's like small peanuts, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pivot",
+      "type": "concept",
+      "role": "concept",
+      "name": "转型 (pivot)",
+      "file": "转型",
+      "primary": true,
+      "how_described": "Jeff 的核心建议:如果脑中有一丝念头就该考虑转型;信号是连续两个季度一模一样的投资人更新;要转就带着创业时的速度和意图转,学术研究显示一次单一转型更能预测成功",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 405,
+          "t": [
+            1994.39,
+            2003.416
+          ],
+          "quote": "And if you're going to pivot away from being crypto only in their case, why not completely refound the firm?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2021.263,
+            2034.566
+          ],
+          "quote": "A soft pivot or like an adjacent pivot that's like one deviation away from what they're currently doing when actually probably the right thing if you're going to pivot is to like actually refund the company and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2095.5,
+            2108.765
+          ],
+          "quote": "There's actually like an academic research paper on this that talks about having one single pivot is actually a greater predictor of success for a startup than no pivots or a bunch of pivots.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2224.352,
+            2226.853
+          ],
+          "quote": "I think pivot's almost the wrong word.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2447.648,
+            2451.369
+          ],
+          "quote": "Phone calls with founders around the, you know, should I pivot conversation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2526.41,
+            2529.613
+          ],
+          "quote": "Like the team knows already that they need to pivot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2566.137,
+            2579.446
+          ],
+          "quote": "Yeah, and I think you had an experience with this, with a company that you were working at, I think it was one of your first jobs in tech, where there's maybe like a, it took you a while to figure out like, hey, maybe this isn't working, maybe we should pivot?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2686.25,
+            2689.433
+          ],
+          "quote": "The right idea, but it's really hard to pivot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2700.321,
+            2716.319
+          ],
+          "quote": "Versions of whatever your pitch is like to then pivot the company and do so aggressively like with the same intentionality and speed that you found in the company like do that same thing for the pivot as opposed to kind of like soft pivoting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2828.953,
+            2843.644
+          ],
+          "quote": "But, you know, again, I think the experience taught me that you can do crazy things, pivot your career, pivot, literally leave the city and go to Kansas City to start your tech career.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "picking-rate",
+      "type": "concept",
+      "role": "concept",
+      "name": "命中率 (picking rate)",
+      "file": "命中率",
+      "primary": true,
+      "how_described": "投资组合中能回报整个基金的比例,顶级机构历史上约 4%-7%;Jeff 认为它已全面下降,所以更大的投资组合是更好的策略",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1064,
+          "t": [
+            4957.275,
+            4958.455
+          ],
+          "quote": "Maybe what is picking rate?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1076,
+          "t": [
+            4992.721,
+            5008.891
+          ],
+          "quote": "And so you can kind of model in, so if, you know, it's like, again, I don't know if this is their picking rate today, but if the, if a tier one fund has a 4% chance of finding a return on the fund investment, they need to have 25 companies in their portfolio to have a single one to just return the whole fund.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-construction",
+      "type": "concept",
+      "role": "concept",
+      "name": "投资组合构建 (portfolio construction)",
+      "file": "投资组合构建",
+      "primary": true,
+      "how_described": "IC 纪要里最受 LP 和 VC 关注的话题;Jeff 主张新管理人小基金先营业、支票按比例缩小、保持足够多的射门机会",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            114.573,
+            119.378
+          ],
+          "quote": "It's like when we're talking about portfolio construction, that seems to get a lot of interest.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "deep-tech",
+      "type": "concept",
+      "role": "concept",
+      "name": "深科技 (deep tech)",
+      "file": "深科技",
+      "primary": true,
+      "how_described": "三年前还是投资人秒拒的禁区,现在反而吃香——因为它是最后一个大实验室不会在种子轮后两个月就颠覆你的地方;资本策略是股权加债务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            700.905,
+            710.669
+          ],
+          "quote": "It's so fascinating though, but it does change because I mean, even as recently as three years ago, deep tech hardware was just a hard no.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            756.015,
+            763.258
+          ],
+          "quote": "Like maybe I'll go do physical world and like hard tech and deep tech haven't gotten easier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            779.032,
+            803.472
+          ],
+          "quote": "There's also, to be fair, a lot of really interesting things being built in, in deep tech and, you know, a lot of, I think the, the culture and zeitgeist of national interest and like the American dynamism theme is, is really, at least in the tech community become, you know, not only accepted, but embraced where two or three years ago, that theme was still pretty new.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            927.535,
+            931.481
+          ],
+          "quote": "Deep tech and hard tech is more financial engineering in some ways.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            934.546,
+            941.237
+          ],
+          "quote": "And having a capital strategy as a deep tech company, do you need to be more intentional about that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            942.4,
+            948.785
+          ],
+          "quote": "Yeah, I think debt is obviously at some point a great idea for deep tech companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            961.035,
+            967.76
+          ],
+          "quote": "I think that's a, if you look at the history of great deep tech companies, it's a combination of equity and debt.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 219,
+          "t": [
+            991.032,
+            1010.045
+          ],
+          "quote": "It's actually why we love Airbor is because their specific market is to, one of them is to really underwrite deep tech companies and do that from a builder perspective being Palmer and team have built and really understand kind of the nuances of building a deep tech company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1664.138,
+            1670.502
+          ],
+          "quote": "So if you're like, hey, I'm only investing in Los Angeles or I'm only investing in deep tech or fintech.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1749.062,
+            1751.944
+          ],
+          "quote": "We're never going to be a deep tech fund.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3220.893,
+            3227.039
+          ],
+          "quote": "I've mentioned I'm very much focused on what's happening in LA, so that tends to be a bit more on the deep tech side.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "Jeff 看好的新方向:非人类网络流量将超过人类,智能体之间如何互动、选什么产品存在网络效应,为非人类客户构建产品是全新品类",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 306,
+          "t": [
+            1500.937,
+            1509.264
+          ],
+          "quote": "And for the first time, understand if your agents actually work, measure quality, debug failures, experiment, and measure their ROI with agent analytics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 914,
+          "t": [
+            4310.751,
+            4322.382
+          ],
+          "quote": "They're not like positioned to capture that market in a lot of cases or in not just in database, but like a lot of these like human made products are not custom tailored towards agent needs or something like that or?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "network-effects",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effects)",
+      "file": "网络效应",
+      "primary": true,
+      "how_described": "被本集称为最被低估的主题之一:随着 Claude 和 OpenAI 杀死更多企业软件公司,创始人转向消费端,AI 时代网络效应可能建立得比以前更快",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 901,
+          "t": [
+            4219.011,
+            4229.419
+          ],
+          "quote": "And so I actually think probably one of the most underrated themes of company, you know, it's like the simplicity of network effects, which we seem to forget.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 903,
+          "t": [
+            4231.393,
+            4237.317
+          ],
+          "quote": "I think with AI today, build network effects potentially faster than before in consumer businesses.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 910,
+          "t": [
+            4268.284,
+            4277.887
+          ],
+          "quote": "And there are network effects with how agents interact with each other and the decisions they make as to what products they choose to use.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 911,
+          "t": [
+            4277.948,
+            4287.771
+          ],
+          "quote": "And so a non-consumer version, this would be like Supabase has great network effects within agents spinning up databases.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "context-and-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文与记忆 (context and memory)",
+      "file": "上下文与记忆",
+      "primary": false,
+      "how_described": "Jeff 认为消费 AI 最好的设计空间:给智能体邮箱权限就能知道你的旅行、航空公司、社交对象,进而自动化生活——但别假设人们想自动化一切",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 857,
+          "t": [
+            3944.565,
+            3958.437
+          ],
+          "quote": "What we're seeing consumer now, which is pretty exciting, I think probably the best design space would just be like how we use context and memory to create better experiences that are more intelligent and more predictive and personalized.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

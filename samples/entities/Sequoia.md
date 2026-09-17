@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sequoia</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Sequoia">SE</div><div class="pi"><h1 class="pt">Sequoia</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Sequoia">SE</div><div class="pi"><h1 class="pt">Sequoia</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,23 +15,31 @@ unlisted: true
 - **[[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]]**(00:07起):本集将其描述为一个由11人组成的、像运动队一样运作的早期投资团队，每个人都是猎人而非等电话的人；内部有严格的IC投票机制，发起人可以决定结果但如果Alfred投了1分硬按绿灯则待不长久
 - **[[2026-08-27-thepeel-leaving-sequoia-to-bet-on-ohio-why-ameri|《美国才是最大的新兴市场》]]**(08:26起):本集说 Sequoia 是一家拥有 50 年无与伦比成功记录的机构，Chris 2006 年加入并在那里学到了三件事：极端的职业道德、主题化投资以及第一性原理决策
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(01:17起):本集开头提到 Harry 和 Sequoia 共同投资了 Factory 的某一轮
+- **[[2026-09-17-thepeel-building-a-venture-firm-like-a-product|《轮次标签已死：一位早期风投人的进化手册》]]**(02:56起):被反复引用的顶级机构:当天早上做了一个 6000 万美元的「种子轮」,证明轮次标签已失效;也是新基金不应正面竞争的对象
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-09-17-thepeel-building-a-venture-firm-like-a-product#^q11]]
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司
 - [[2026-08-27-thepeel-leaving-sequoia-to-bet-on-ohio-why-ameri|《美国才是最大的新兴市场》]] — 作为被讨论公司
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司(提及)
+- [[2026-09-17-thepeel-building-a-venture-firm-like-a-product|《轮次标签已死：一位早期风投人的进化手册》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Salesforce]] · [[Harry Stebbings]] · [[Microsoft]] · [[SpaceX]] · [[OpenAI]] · [[Fireworks]] · [[Cursor]] · [[Brian Halligan]]
+[[智能体]] · [[Anthropic]] · [[Salesforce]] · [[Harry Stebbings]] · [[投资组合构建]] · [[Microsoft]] · [[SpaceX]] · [[OpenAI]] · [[Fireworks]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":257,"Anthropic":124,"Salesforce":21,"Harry Stebbings":16,"Microsoft":25,"SpaceX":15,"OpenAI":118,"Fireworks":4,"Cursor":60,"Brian Halligan":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":258,"Anthropic":124,"Salesforce":22,"Harry Stebbings":16,"投资组合构建":2,"Microsoft":25,"SpaceX":15,"OpenAI":119,"Fireworks":4,"Cursor":60}</script>
 
 <script>
 (function(){

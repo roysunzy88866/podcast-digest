@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[Guy Fajani]] · [[Mike Chambers]] · [[Ryan Lopopolo]] · [[Bedrock AgentCore]] · [[Codex]] · [[记忆]] · [[OpenAI]] · [[多租户隔离]]
 
-<script type="application/json" class="pd-epn">{"智能体":257,"MCP":44,"Guy Fajani":3,"Mike Chambers":1,"Ryan Lopopolo":1,"Bedrock AgentCore":1,"Codex":49,"记忆":12,"OpenAI":118,"多租户隔离":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":258,"MCP":44,"Guy Fajani":3,"Mike Chambers":1,"Ryan Lopopolo":1,"Bedrock AgentCore":1,"Codex":50,"记忆":12,"OpenAI":119,"多租户隔离":1}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Andrew Anagnost":1,"Autodesk":1,"AI":17,"大语言模型":5,"定制模型":1,"订阅制转型":1,"同理心":1,"初创公司":1,"Netflix":4}</script>
+<script type="application/json" class="pd-epn">{"Andrew Anagnost":1,"Autodesk":1,"AI":17,"大语言模型":6,"定制模型":1,"订阅制转型":1,"同理心":1,"初创公司":1,"Netflix":4}</script>
 
 <script>
 (function(){

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Roman Ugarte]] [[Tyler Folkman]] [[Kevin DeFarco]]
+[[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Roman Ugarte]] [[Tyler Folkman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Taste Labs":1,"垃圾话":3,"智能体":257,"推理时":1,"LLM 当裁判":6,"判断力":5,"探针":2,"Creativity API":1,"brand API":1}</script>
+<script type="application/json" class="pd-epn">{"Taste Labs":1,"垃圾话":3,"智能体":258,"推理时":1,"LLM 当裁判":6,"判断力":5,"探针":2,"Creativity API":1,"brand API":1}</script>
 
 <script>
 (function(){

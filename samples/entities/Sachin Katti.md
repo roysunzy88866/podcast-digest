@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]]
+[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":3,"OpenAI":118,"数据中心":13,"液冷":1,"Stargate":1,"Jalapeno":1,"MRC":1,"推理":46,"GPU":16,"核能":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":3,"OpenAI":119,"数据中心":13,"液冷":1,"Stargate":1,"Jalapeno":1,"MRC":1,"推理":46,"GPU":16,"核能":1}</script>
 
 <script>
 (function(){

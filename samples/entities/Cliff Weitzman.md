@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]]
+[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Speechify":1,"Eleven Labs":6,"Sierra":5,"NVIDIA":35,"Dell":1,"Anthropic":124,"OpenAI":118,"Claude Code":62,"Cursor":60}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Speechify":1,"Eleven Labs":6,"Sierra":5,"NVIDIA":35,"Dell":1,"Anthropic":124,"OpenAI":119,"Claude Code":62,"Cursor":60}</script>
 
 <script>
 (function(){

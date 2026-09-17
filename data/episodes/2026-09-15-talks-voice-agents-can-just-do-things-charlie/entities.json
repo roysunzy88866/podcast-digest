@@ -1,0 +1,565 @@
+{
+  "episode_id": "2026-09-15-talks-voice-agents-can-just-do-things-charlie",
+  "podcast": "精选演讲",
+  "date": "2026-09-15",
+  "tags": [
+    "语音智能体",
+    "多模态",
+    "Realtime 模型",
+    "AI 产品设计",
+    "可访问性"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "charlie-guo",
+      "type": "person",
+      "role": "guest",
+      "name": "Charlie Guo",
+      "file": "Charlie Guo",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "嘉宾所在公司；其 Realtime 模型系列不做转录、以原生音频作为 token 训练，音频进音频出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            13.675,
+            18.538
+          ],
+          "quote": "So my name is Charlie, and I work on the developer experience team at OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            672.232,
+            675.913
+          ],
+          "quote": "And some time ago, OpenAI decided on a different approach.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            702.102,
+            710.584
+          ],
+          "quote": "And the reason that OpenAI did this was, you know, turns out there's a lot of stuff that you lose when you transcribe speech and when you transcribe audio, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            926.95,
+            929.61
+          ],
+          "quote": "I'll be at the OpenAI booth for any Q&A after.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "voice-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "语音智能体 (voice agents)",
+      "file": "语音智能体",
+      "primary": true,
+      "how_described": "本集核心主线：破解「语音智能体必须用语音回应」的误解，语音只是回应方式的最高一层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            39.172,
+            42.314
+          ],
+          "quote": "And it's the idea that voice agents",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            570.123,
+            578.607
+          ],
+          "quote": "Then came coding agents and voice agents, and now they generate orders of magnitude more code than they previously did on a given day or month.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            654.58,
+            659.783
+          ],
+          "quote": "As hopefully most of you know, traditionally voice agents are built in this chained model, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            863.815,
+            877.426
+          ],
+          "quote": "But I think the kind of final thing that I want to leave you with here is when building voice agents, not to start with the question of like, what kind of voice agent am I trying to build?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "speech-to-speech",
+      "type": "concept",
+      "role": "concept",
+      "name": "语音转语音 (speech-to-speech)",
+      "file": "语音转语音",
+      "primary": true,
+      "how_described": "三种涌现模式之一：用户说话、模型回话，用于语言学习辅导、礼宾式客户支持和实时翻译",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            87.802,
+            91.385
+          ],
+          "quote": "Speech-to-speech, speech-to-action, and event-to-speech.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            110.58,
+            118.687
+          ],
+          "quote": "If you squint, you could make the argument that the movie phone hotline where you called in to get showtimes was an example of a speech-to-speech system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            152.996,
+            156.218
+          ],
+          "quote": "So speech to speech, everybody knows it, hopefully everybody loves it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "speech-to-action",
+      "type": "concept",
+      "role": "concept",
+      "name": "语音转动作 (speech-to-action)",
+      "file": "语音转动作",
+      "primary": true,
+      "how_described": "探索最不充分的模式：用户说话、模型调用工具，涵盖表单填写、创意工具和计算机使用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            87.802,
+            91.385
+          ],
+          "quote": "Speech-to-speech, speech-to-action, and event-to-speech.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            245.326,
+            247.367
+          ],
+          "quote": "The second category is speech to action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            473.971,
+            479.434
+          ],
+          "quote": "And sort of the counterpoint from speech to action, I think this one is still very, very exploratory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "event-to-speech",
+      "type": "concept",
+      "role": "concept",
+      "name": "事件转语音 (event-to-speech)",
+      "file": "事件转语音",
+      "primary": true,
+      "how_described": "模型接收事件并主动与用户交谈，仍非常早期，如免手/免屏体验和主动触达的递进路径",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            87.802,
+            91.385
+          ],
+          "quote": "Speech-to-speech, speech-to-action, and event-to-speech.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            119.547,
+            128.815
+          ],
+          "quote": "And I think you could pretty reasonably make the argument that GPS navigation in your car, which has existed since I was a kid, is an example of an event-to-speech system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            468.947,
+            470.728
+          ],
+          "quote": "And then the last bucket here is event-to-speech.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "product",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "OpenAI 的编码智能体；嘉宾用它精确实现软件需求，其应用里有替用户点击的「幽灵光标」动画",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            313.616,
+            329.408
+          ],
+          "quote": "The next category is creative tools, where I am privileged enough that I can speak the language of software, and so I can tell Codex, here's exactly what I want you to build, and I can articulate it in a way that I get much more leverage than sort of just like cludgily trying to iterate one thing at a time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            454.327,
+            460.61
+          ],
+          "quote": "If you've used computer use in the Codex app, you know, there's this amazing, like, little ghost cursor animation that goes around and clicks things for you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机使用 (computer use)",
+      "file": "计算机使用",
+      "primary": true,
+      "how_described": "语音转动作的可推广终极形态：如果模型能做人类在电脑上做的一切，为什么不直接和整台电脑对话",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            359.961,
+            365.205
+          ],
+          "quote": "And I think the generalizable category here then just starts to become computer use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            454.327,
+            460.61
+          ],
+          "quote": "If you've used computer use in the Codex app, you know, there's this amazing, like, little ghost cursor animation that goes around and clicks things for you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "realtime",
+      "type": "concept",
+      "role": "concept",
+      "name": "Realtime 模型 (Realtime)",
+      "file": "Realtime 模型",
+      "primary": true,
+      "how_described": "OpenAI 的原生音频模型系列：幕后不做任何转录，以原生音频作为 token 训练，音频进、音频出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            749.166,
+            751.447
+          ],
+          "quote": "And that brings me to GPT Realtime 2.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            756.81,
+            759.592
+          ],
+          "quote": "Realtime 2 is the latest model in the Realtime family.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (reasoning)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "GPT Realtime 2 把推理带入音频媒介：像文本模型一样可以在说话之前先思考，可给更多推理预算换更好回答",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            761.953,
+            767.456
+          ],
+          "quote": "And the really cool thing about this model is that it brings reasoning to the audio medium.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            778.085,
+            783.548
+          ],
+          "quote": "And so you can now try to ensure that you give it more reasoning budget to come up with a good answer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tool-calling",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具调用 (tool calling)",
+      "file": "工具调用",
+      "primary": true,
+      "how_described": "Realtime 模型不久前引入的能力，模型除思考外还可委派并行工具调用；但思考加调用会增加延迟",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            784.168,
+            791.372
+          ],
+          "quote": "Part of why that's also useful is that we introduced tool calling a little while ago, and so the model, in addition to thinking, it can also delegate parallel tool calls.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "preambles",
+      "type": "concept",
+      "role": "concept",
+      "name": "前导语 (preambles)",
+      "file": "前导语",
+      "primary": true,
+      "how_described": "提示模型在思考或调用工具前先给用户提个醒，就像旅行代理会说「我去查一下机票价格，给我几秒钟」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            796.014,
+            798.255
+          ],
+          "quote": "And that's why we also added preambles.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            798.816,
+            805.459
+          ],
+          "quote": "Preambles are a way that you can prompt the model to give the user a heads up if it's going to be thinking or if it's going to be calling tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            806.503,
+            825.926
+          ],
+          "quote": "If you think about the scenario of a travel agent, if I called a travel agent on the phone, you would want the travel agent to say, hey, I'm gonna go check flight prices, give me a couple seconds to do that, and now with an AI travel agent and preambles, you can actually have it communicate that to the user while it's performing actions in the background.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "type": "concept",
+      "role": "concept",
+      "name": "延迟 (latency)",
+      "file": "延迟",
+      "primary": true,
+      "how_described": "本集量化的关键论据：ChatGPT 最早的链式语音模式延迟显著高于原生方法的高级语音模式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            227.391,
+            234.694
+          ],
+          "quote": "The models have gotten good enough and fast enough that we can just dynamically translate content on the fly with little to no latency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            734.093,
+            747.104
+          ],
+          "quote": "A much more quantitative reason to do it is that, you know, the first two voice modes in ChatGPT were built with this chained approach, and as you can see, had, you know, significantly higher latency than using the native approach with advanced voice mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            792.052,
+            795.954
+          ],
+          "quote": "You can start to bring these together, though of course that adds latency, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "transcription",
+      "type": "concept",
+      "role": "concept",
+      "name": "转录 (transcription)",
+      "file": "转录",
+      "primary": true,
+      "how_described": "传统链式语音智能体的中间步骤；本集指出转录会丢失语调、节奏、打断意图和背景噪音等重要上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            675.993,
+            680.373
+          ],
+          "quote": "The real-time model family does not do any transcription behind the scenes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "product",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "其最早的两个语音模式用链式方法构建，延迟显著高于用原生方法的高级语音模式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            734.093,
+            747.104
+          ],
+          "quote": "A much more quantitative reason to do it is that, you know, the first two voice modes in ChatGPT were built with this chained approach, and as you can see, had, you know, significantly higher latency than using the native approach with advanced voice mode.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "把现有软件交给语音驱动时仍需要的东西：护栏和安全检查",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            422.205,
+            424.646
+          ],
+          "quote": "And yes, you still need guardrails, you still need safety checks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "large-language-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "大语言模型 (large language models)",
+      "file": "大语言模型",
+      "primary": true,
+      "how_described": "在可访问性主题下：失去手部灵巧的开发者在大语言模型、编码智能体和语音智能体到来后，生成代码多了几个数量级",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            568.482,
+            570.103
+          ],
+          "quote": "And then came large language models, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "嘉宾的收尾判断：「我相信 AGI 将是被说出来的，而不是被打出来的」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            919.588,
+            923.949
+          ],
+          "quote": "Because, like others have said, I do believe that AGI will be spoken, not typed.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

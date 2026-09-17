@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]]
+[[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"OpenAI":118,"Codex":49,"Work":1,"ChatGPT":67,"智能体":257,"知识工作":2,"Sites":1,"Stripe":31,"写作即思考":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"OpenAI":119,"Codex":50,"Work":1,"ChatGPT":68,"智能体":258,"知识工作":2,"Sites":1,"Stripe":31,"写作即思考":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,723 @@
+{
+  "episode_id": "2026-09-17-sourcery-brad-gerstner-the-100-test-that-could-sa",
+  "podcast": "Sourcery",
+  "date": "2026-09-17",
+  "tags": [
+    "心脏健康",
+    "预防医学",
+    "CAC 扫描",
+    "健康筛查",
+    "政策倡导"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "rob-goldberg",
+      "type": "person",
+      "role": "host",
+      "name": "Rob Goldberg",
+      "file": "Rob Goldberg",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            65.3,
+            69.745
+          ],
+          "quote": "So I lost my father too early and my good friend here, Rob Goldberg, I want you to hear from him.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "brad-gerstner",
+      "type": "person",
+      "role": "cohost",
+      "name": "Brad Gerstner",
+      "file": "Brad Gerstner",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.191,
+            5.637
+          ],
+          "quote": "Okay, we are here at the All In Summit at an amazing trailer that Brad Gerstner brought.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "calcium-ct-scan",
+      "type": "concept",
+      "role": "concept",
+      "name": "钙化CT扫描 (calcium CT scan)",
+      "file": "钙化CT扫描",
+      "primary": true,
+      "how_described": "本集把它说成：100 美元、无创、几分钟完成的心脏筛查，看动脉里有没有钙化斑块；Brad 想把它变成「心脏版的乳腺钼靶检查」，每年挽救 5 万条生命",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            30.417,
+            36.338
+          ],
+          "quote": "If we turn the calcium CT scan into the mammogram for the heart, we will save 50,000 lives a year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            754.307,
+            760.209
+          ],
+          "quote": "One of the number ones I get is this, should I take the calcium CT scan or should I take the angiogram?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 219,
+          "t": [
+            760.769,
+            764.071
+          ],
+          "quote": "So the calcium CT scan, you're in and out of the tube in about",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1009.466,
+            1013.008
+          ],
+          "quote": "Remind us, how long are you in the tube here for the calcium CT scan?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cac",
+      "type": "concept",
+      "role": "concept",
+      "name": "CAC",
+      "file": "CAC",
+      "primary": true,
+      "how_described": "本集说每年全美只做 100 万人次、目标是做到 4000 万；建议 35 岁以上建立基线，分数非零就开始他汀治疗",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            83.991,
+            87.353
+          ],
+          "quote": "CAC scans, which is the number one killer, we have one million a year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 23,
+          "t": [
+            87.753,
+            90.714
+          ],
+          "quote": "We need to have 40 million CAC scans in this country every year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 63,
+          "t": [
+            250.815,
+            253.437
+          ],
+          "quote": "Why aren't we doing 40 million CAC scans a year?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            415.391,
+            428.549
+          ],
+          "quote": "I gave it for free at my Investor Day at the Rosewood Hotel on Sand Hill Road, and famous CEOs in Silicon Valley found 98% blockage and had three stents put in within three weeks of having the CAC done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            557.052,
+            561.033
+          ],
+          "quote": "And every single one of them said, at 30 or 35, I have them all take a CAC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            581.964,
+            583.305
+          ],
+          "quote": "They're saying, you don't need a cac.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            699.074,
+            712.441
+          ],
+          "quote": "I think by the end of this year, knock wood somewhere, but I think by the end of this year, you know, that CAC scans for diagnostic purposes, I think it will be approved and covered by Medicaid and Medicare.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 230,
+          "t": [
+            798.238,
+            801.899
+          ],
+          "quote": "So my answer is take the CAC if you're over 35.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 265,
+          "t": [
+            918.413,
+            926.302
+          ],
+          "quote": "And then we could go give free CAC scans in East Palo Alto and other neighborhoods where they couldn't afford it or they were afraid of it or whatever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            952.771,
+            960.737
+          ],
+          "quote": "By the way, I probably now am responsible for 40 or 50 members of the House and the Senate having taken the CAC scan.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 284,
+          "t": [
+            984.985,
+            987.906
+          ],
+          "quote": "All right, we're going to go inside the CAC scan.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1104.563,
+            1110.97
+          ],
+          "quote": "But you get 90 plus percent of the way home, right, by doing a CAC scan and it's something that everybody can do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1120.117,
+            1122.739
+          ],
+          "quote": "So the way this works is we give them their CAC scan.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cholesterol",
+      "type": "concept",
+      "role": "concept",
+      "name": "胆固醇 (cholesterol)",
+      "file": "胆固醇",
+      "primary": true,
+      "how_described": "本集批评把它当标准护理是荒谬的：每年心脏病发作的人里有一半胆固醇处于「正常区间」，只追踪胆固醇远远不够",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            255.999,
+            262.544
+          ],
+          "quote": "Why are they all tracking their cholesterol and doing EKGs and thinking or, you know, doing stress tests and thinking they're totally fine, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            332.807,
+            336.269
+          ],
+          "quote": "Cholesterol as a standard of care is ludicrous, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            338.911,
+            343.155
+          ],
+          "quote": "Why is cholesterol, how did cholesterol become the key marker?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 108,
+          "t": [
+            378.226,
+            379.828
+          ],
+          "quote": "Cholesterol is good enough to track.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            568.415,
+            573.038
+          ],
+          "quote": "The green zone in cholesterol, I think, is between 80 and 120.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            573.459,
+            575.34
+          ],
+          "quote": "So we would go get our cholesterol test.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 231,
+          "t": [
+            801.919,
+            806.92
+          ],
+          "quote": "I mean, obviously, if you have any family history or high cholesterol, then it's a must, must, must do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1248.984,
+            1254.872
+          ],
+          "quote": "I feel like the thing to overemphasize is you cannot rely on cholesterol data or traditional data alone because",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1270.985,
+            1277.61
+          ],
+          "quote": "So I guess to overemphasize that, like, what did we miss with cholesterol and traditional health analysis?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1277.97,
+            1283.652
+          ],
+          "quote": "Yeah, I mean, I have a great tweet on this that shows kind of, you know, the red, green, yellow of cholesterol.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1284.072,
+            1288.953
+          ],
+          "quote": "It turns out that half of the people who have heart attacks every year have cholesterol in the normal zone.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1289.933,
+            1292.954
+          ],
+          "quote": "Half of the people who have heart attacks every year have cholesterol in the normal zone.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1296.435,
+            1309.466
+          ],
+          "quote": "So if you have a non-zero score, that means I have a predisposition to gather plaque, then cholesterol becomes very important because that is the agent that carries the plaque to my arteries.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1337.501,
+            1344.231
+          ],
+          "quote": "I'm not saying that all doctors are involved in a grand conspiracy by telling us to track our cholesterol.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "statin",
+      "type": "concept",
+      "role": "concept",
+      "name": "他汀类药物 (statin)",
+      "file": "他汀类药物",
+      "primary": true,
+      "how_described": "本集说 CAC 分数非零就应启动他汀，把 LDL 降到 40 以下——远低于化验单 80-120 的绿色区间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            561.353,
+            563.774
+          ],
+          "quote": "If they have a non-zero score, I get them on a statin.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 189,
+          "t": [
+            653.343,
+            657.51
+          ],
+          "quote": "If you don't have serious blockage, then you can get on a statin to reduce your...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "angiogram",
+      "type": "concept",
+      "role": "concept",
+      "name": "血管造影 (angiogram)",
+      "file": "血管造影",
+      "primary": true,
+      "how_described": "本集说它要注入造影剂、2000 美元起且有创，不适合大规模筛查；正确顺序是 CAC 分数非零后再做，看软斑块和堵塞程度",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 218,
+          "t": [
+            754.307,
+            760.209
+          ],
+          "quote": "One of the number ones I get is this, should I take the calcium CT scan or should I take the angiogram?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            767.154,
+            775.002
+          ],
+          "quote": "The angiogram, they put dye in your bloodstream so that they can see more specifically the level of stenosis in your arteries.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            812.722,
+            818.026
+          ],
+          "quote": "So, which demonstrates you have a propensity to gather plaque, then I would say take the angiogram.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 235,
+          "t": [
+            818.346,
+            824.85
+          ],
+          "quote": "The angiogram then gives you a lot more information about soft plaques and the level of blockage, if any, in your arteries.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 241,
+          "t": [
+            845.14,
+            849.021
+          ],
+          "quote": "I'm having another angiogram just so I can biohack myself and share.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 245,
+          "t": [
+            857.564,
+            860.566
+          ],
+          "quote": "I will re-share that again after my angiogram on Friday.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stent",
+      "type": "concept",
+      "role": "concept",
+      "name": "支架 (stent)",
+      "file": "支架",
+      "primary": true,
+      "how_described": "本集讲了段历史：50 年前支架游说在华盛顿打赢了钙化CT，导致几十年里「追踪胆固醇、出问题装支架」成为共识——「错误的答案」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            366.775,
+            369.397
+          ],
+          "quote": "One path that people went down was to invent the stent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            374.943,
+            376.024
+          ],
+          "quote": "The stent lobby won.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            380.889,
+            383.512
+          ],
+          "quote": "And if you have a heart condition, we'll solve it with a stent.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ekg",
+      "type": "concept",
+      "role": "concept",
+      "name": "EKG",
+      "file": "EKG",
+      "primary": true,
+      "how_described": "本集以 Rob 弟弟的死说明它的局限：有 4% 假阳性或假阴性，Dave 死前五个月做过运动 EKG 却仍猝死",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            163.691,
+            169.956
+          ],
+          "quote": "So my brother had passed a running EKG five months before he dropped dead from heart disease, from undiagnosed heart disease.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "plaque",
+      "type": "concept",
+      "role": "concept",
+      "name": "斑块 (plaque)",
+      "file": "斑块",
+      "primary": true,
+      "how_described": "本集说没有斑块就不会心脏病发作；钙化CT读不出软斑块，零分不代表绝对安全，斑块积累需要时间、应三到五年复查",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            272.61,
+            276.311
+          ],
+          "quote": "Which is a precursor, your predisposition to build plaque.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            276.631,
+            279.091
+          ],
+          "quote": "And you don't have a heart attack if you don't have plaque.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            812.722,
+            818.026
+          ],
+          "quote": "So, which demonstrates you have a propensity to gather plaque, then I would say take the angiogram.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            839.218,
+            845.04
+          ],
+          "quote": "I'm going back in on Friday, and I have almost no plaque, almost no stenosis, but I'm going back in on Friday.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1077.218,
+            1083.263
+          ],
+          "quote": "And so, you know, with a calcium CT, you know, zero means that you don't have any calcified plaque.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1083.523,
+            1085.305
+          ],
+          "quote": "Now, that doesn't mean you have no plaque, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1087.887,
+            1092.311
+          ],
+          "quote": "But what it does do is when you get soft plaque, it calcifies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1093.932,
+            1097.736
+          ],
+          "quote": "As to whether or not you are, you know, a part of the population that are gathering plaque.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1144.017,
+            1147.88
+          ],
+          "quote": "So a 30-year-old is less likely to have plaque buildup.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1148.02,
+            1153.665
+          ],
+          "quote": "But if they do have plaque, it's a lot more telling because that means they're gathering plaque early.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1153.985,
+            1157.588
+          ],
+          "quote": "A 50- or a 60-year-old is much more likely to have plaque.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1157.628,
+            1161.972
+          ],
+          "quote": "But we can tell by the quantity of plaque is it a problem or not.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1296.435,
+            1309.466
+          ],
+          "quote": "So if you have a non-zero score, that means I have a predisposition to gather plaque, then cholesterol becomes very important because that is the agent that carries the plaque to my arteries.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1309.886,
+            1313.909
+          ],
+          "quote": "So if I have plaque, I want to get my LDLs below 40.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "apob",
+      "type": "concept",
+      "role": "concept",
+      "name": "ApoB",
+      "file": "ApoB",
+      "primary": false,
+      "how_described": "本集说他汀等手段可以降低 ApoB 和 LDL，让人走上心脏健康之路",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            318.281,
+            319.641
+          ],
+          "quote": "We can lower your ApoB.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 190,
+          "t": [
+            657.75,
+            659.571
+          ],
+          "quote": "LDLs, reduce your ApoB.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集提到 Brad 希望 Salesforce 的 Mark Benioff 参与「买一送一」：为全体员工免费扫描并付双倍的钱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 263,
+          "t": [
+            908.801,
+            916.11
+          ],
+          "quote": "So we could get Mark Benioff and Salesforce to give it to all of his employees for free, and then he would pay twice as much.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LDL",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

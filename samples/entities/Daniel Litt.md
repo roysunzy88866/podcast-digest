@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lisha Lee":1,"OpenAI":118,"Anthropic":124,"ChatGPT":67,"Claude":59,"Codex":49,"RL":7,"Lean":2,"直觉":2,"理论构建":1}</script>
+<script type="application/json" class="pd-epn">{"Lisha Lee":1,"OpenAI":119,"Anthropic":124,"ChatGPT":68,"Claude":59,"Codex":50,"RL":7,"Lean":2,"直觉":2,"理论构建":1}</script>
 
 <script>
 (function(){

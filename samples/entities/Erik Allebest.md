@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]]
+[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chess.com":2,"Deep Blue":1,"Stockfish":2,"Leela Chess Zero":1,"反作弊":1,"评级系统":1,"AGI":22,"ASI":2}</script>
+<script type="application/json" class="pd-epn">{"Chess.com":2,"Deep Blue":1,"Stockfish":2,"Leela Chess Zero":1,"反作弊":1,"评级系统":1,"AGI":23,"ASI":2}</script>
 
 <script>
 (function(){

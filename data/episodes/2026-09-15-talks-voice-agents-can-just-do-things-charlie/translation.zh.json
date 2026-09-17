@@ -1,0 +1,1274 @@
+[
+ {
+  "seg": 0,
+  "start": 13.675,
+  "end": 18.538,
+  "speaker": "Unknown",
+  "en": "So my name is Charlie, and I work on the developer experience team at OpenAI.",
+  "zh": "我叫 Charlie，在 OpenAI 的开发者体验团队工作。"
+ },
+ {
+  "seg": 1,
+  "start": 19.019,
+  "end": 30.246,
+  "speaker": "Unknown",
+  "en": "And part of my job is talking to developers to understand and see what and how they're building with our models, whether that's text, image, or audio.",
+  "zh": "我工作的一部分就是和开发者交流，了解他们在用我们的模型构建什么、怎么构建，无论是文本、图像还是音频。"
+ },
+ {
+  "seg": 2,
+  "start": 31.447,
+  "end": 37.991,
+  "speaker": "Unknown",
+  "en": "And lately I've been thinking about a misconception that I have seen, or maybe it's just a misunderstanding.",
+  "zh": "最近我一直在思考一个我见过的误解，或者也许只是一个误会。"
+ },
+ {
+  "seg": 3,
+  "start": 39.172,
+  "end": 42.314,
+  "speaker": "Unknown",
+  "en": "And it's the idea that voice agents",
+  "zh": "那就是语音智能体"
+ },
+ {
+  "seg": 4,
+  "start": 43.635,
+  "end": 44.435,
+  "speaker": "Unknown",
+  "en": "have to talk back.",
+  "zh": "必须要用语音回应的这个想法。"
+ },
+ {
+  "seg": 5,
+  "start": 48.497,
+  "end": 51.238,
+  "speaker": "Unknown",
+  "en": "And to some of you that might sound, you know, absurd.",
+  "zh": "对你们当中的一些人来说，这听起来可能很荒谬。"
+ },
+ {
+  "seg": 6,
+  "start": 51.399,
+  "end": 52.099,
+  "speaker": "Unknown",
+  "en": "It's a voice agent.",
+  "zh": "它是一个语音智能体。"
+ },
+ {
+  "seg": 7,
+  "start": 52.119,
+  "end": 53.599,
+  "speaker": "Unknown",
+  "en": "What do you mean it's not supposed to talk?",
+  "zh": "你说它不该说话是什么意思？"
+ },
+ {
+  "seg": 8,
+  "start": 54.52,
+  "end": 68.126,
+  "speaker": "Unknown",
+  "en": "But I think if there's one thing that you take away from this presentation, I would like it to be the idea that speech is not the only way that a voice model has to respond.",
+  "zh": "但我认为，如果你从这次演讲中只带走一件事，我希望那就是：语音并不是语音模型回应的唯一方式。"
+ },
+ {
+  "seg": 9,
+  "start": 72.431,
+  "end": 81.938,
+  "speaker": "Unknown",
+  "en": "And I think models are getting intelligent enough and capable enough that they're starting to open up some new modes of design.",
+  "zh": "而且我认为模型已经变得足够智能、足够强大，它们开始开启一些新的设计模式。"
+ },
+ {
+  "seg": 10,
+  "start": 81.958,
+  "end": 87.662,
+  "speaker": "Unknown",
+  "en": "There's actually three kind of modes that I kind of see emerging these days, right?",
+  "zh": "实际上，我看到最近正在涌现出三种模式，对吧？"
+ },
+ {
+  "seg": 11,
+  "start": 87.802,
+  "end": 91.385,
+  "speaker": "Unknown",
+  "en": "Speech-to-speech, speech-to-action, and event-to-speech.",
+  "zh": "语音转语音、语音转动作，以及事件转语音。"
+ },
+ {
+  "seg": 12,
+  "start": 92.466,
+  "end": 97.29,
+  "speaker": "Unknown",
+  "en": "And there's a couple of things I think worth pointing out about these three categories.",
+  "zh": "关于这三个类别，我认为有几点值得指出。"
+ },
+ {
+  "seg": 13,
+  "start": 97.45,
+  "end": 100.432,
+  "speaker": "Unknown",
+  "en": "The first is that they're not new.",
+  "zh": "首先是它们并不新鲜。"
+ },
+ {
+  "seg": 14,
+  "start": 100.872,
+  "end": 109.879,
+  "speaker": "Unknown",
+  "en": "I think as we've seen from previous talks, even just today, there's a long history of building these types of systems in and around voice.",
+  "zh": "我认为正如我们从前面的演讲中看到的，甚至就在今天，围绕语音构建这类系统有着悠久的历史。"
+ },
+ {
+  "seg": 15,
+  "start": 110.58,
+  "end": 118.687,
+  "speaker": "Unknown",
+  "en": "If you squint, you could make the argument that the movie phone hotline where you called in to get showtimes was an example of a speech-to-speech system.",
+  "zh": "如果你眯起眼睛看，你可以论证那个打电话查询放映时间的电影电话热线就是语音转语音系统的一个例子。"
+ },
+ {
+  "seg": 16,
+  "start": 119.547,
+  "end": 128.815,
+  "speaker": "Unknown",
+  "en": "And I think you could pretty reasonably make the argument that GPS navigation in your car, which has existed since I was a kid, is an example of an event-to-speech system.",
+  "zh": "而且我认为你可以相当合理地论证，你车里的 GPS 导航，从我小时候就存在了，就是事件转语音系统的一个例子。"
+ },
+ {
+  "seg": 17,
+  "start": 129.927,
+  "end": 138.39,
+  "speaker": "Unknown",
+  "en": "So it's not that they are brand new, but I think it is that we are able to do some much more interesting things with them now that we're in this era, right?",
+  "zh": "所以并不是说它们是全新的，而是我认为我们现在处于这个时代，能够用它们做一些有趣得多的事情，对吧？"
+ },
+ {
+  "seg": 18,
+  "start": 138.471,
+  "end": 144.453,
+  "speaker": "Unknown",
+  "en": "And I think, you know, the other thing I would mention here is that they're remixable, right?",
+  "zh": "而且我认为，这里我要提到的另一件事是，它们是可以混搭的，对吧？"
+ },
+ {
+  "seg": 19,
+  "start": 144.473,
+  "end": 151.776,
+  "speaker": "Unknown",
+  "en": "They're not meant to be mutually exclusive, and I think as we'll see in a little bit, the best products exist in a way that combines all of these modes.",
+  "zh": "它们并不是要互相排斥的，我认为正如我们稍后会看到的，最好的产品是以结合所有这些模式的方式存在的。"
+ },
+ {
+  "seg": 20,
+  "start": 152.996,
+  "end": 156.218,
+  "speaker": "Unknown",
+  "en": "So speech to speech, everybody knows it, hopefully everybody loves it.",
+  "zh": "所以语音转语音，大家都知道，希望大家也都喜欢。"
+ },
+ {
+  "seg": 21,
+  "start": 156.598,
+  "end": 159.159,
+  "speaker": "Unknown",
+  "en": "The user talks, and then the model talks back",
+  "zh": "用户说话，然后模型回应。"
+ },
+ {
+  "seg": 22,
+  "start": 159.913,
+  "end": 165.158,
+  "speaker": "Unknown",
+  "en": "And I think there are a few examples that I can give for this type of use case, right?",
+  "zh": "我认为对于这种类型的用例，我可以给出几个例子，对吧？"
+ },
+ {
+  "seg": 23,
+  "start": 165.198,
+  "end": 170.643,
+  "speaker": "Unknown",
+  "en": "You've got things like live practice and coaching, especially around language learning, right?",
+  "zh": "你有像实时练习和辅导这样的东西，尤其是在语言学习方面，对吧？"
+ },
+ {
+  "seg": 24,
+  "start": 170.663,
+  "end": 176.689,
+  "speaker": "Unknown",
+  "en": "And the ability to hear a lot of emphasis or emotion and give people that feedback is really powerful.",
+  "zh": "能够听到大量的重音或情绪并给人们那种反馈，是非常强大的。"
+ },
+ {
+  "seg": 25,
+  "start": 177.53,
+  "end": 183.275,
+  "speaker": "Unknown",
+  "en": "I think you can have, you know, what I am sort of cheekily calling concierge experiences, which I think is just another way to say",
+  "zh": "我认为你可以有，你知道，我有点戏谑地称之为礼宾体验的东西，我认为这只是另一种说法"
+ },
+ {
+  "seg": 26,
+  "start": 183.82,
+  "end": 185.461,
+  "speaker": "Unknown",
+  "en": "Customer Support++.",
+  "zh": "客户支持++。"
+ },
+ {
+  "seg": 27,
+  "start": 186.341,
+  "end": 194.105,
+  "speaker": "Unknown",
+  "en": "The first voice tutorial that most people try to build when they have access to this technology is some sort of customer support chatbot for very good reasons.",
+  "zh": "当大多数人接触到这项技术时，他们尝试构建的第一个语音教程就是某种客户支持聊天机器人，这是有充分理由的。"
+ },
+ {
+  "seg": 28,
+  "start": 194.565,
+  "end": 207.691,
+  "speaker": "Unknown",
+  "en": "But I think when we add a richness and a depth to the voice models, as has been happening in recent months and recent years, we can build something that is much more enjoyable to use than talking your way through a phone tree.",
+  "zh": "但我认为，当我们为语音模型增加丰富度和深度时，正如近几个月和近几年一直在发生的，我们可以构建出比在电话树里一路按下去要愉快得多的东西。"
+ },
+ {
+  "seg": 29,
+  "start": 208.471,
+  "end": 211.713,
+  "speaker": "Unknown",
+  "en": "And so I have the hope that soon, if not now,",
+  "zh": "所以我抱有希望，即使不是现在，很快，"
+ },
+ {
+  "seg": 30,
+  "start": 212.926,
+  "end": 223.19,
+  "speaker": "Unknown",
+  "en": "We're capable of building support experiences with agents that actually feel much more enjoyable to talk to than arguably the median human support agent.",
+  "zh": "我们就能用智能体构建出这样的支持体验：与之交谈实际上比可以说中等水平的人类支持人员要愉快得多。"
+ },
+ {
+  "seg": 31,
+  "start": 224.17,
+  "end": 227.351,
+  "speaker": "Unknown",
+  "en": "And as we just saw, if you were here for the last talk, live translation.",
+  "zh": "正如我们刚刚看到的，如果你在座听了上一场演讲，那就是实时翻译。"
+ },
+ {
+  "seg": 32,
+  "start": 227.391,
+  "end": 234.694,
+  "speaker": "Unknown",
+  "en": "The models have gotten good enough and fast enough that we can just dynamically translate content on the fly with little to no latency.",
+  "zh": "模型已经变得足够好、足够快，我们可以几乎零延迟地动态实时翻译内容。"
+ },
+ {
+  "seg": 33,
+  "start": 235.174,
+  "end": 242.357,
+  "speaker": "Unknown",
+  "en": "It wouldn't shock me if at next year's keynote they live-streamed it from the main stage but also dubbed it in real time across multiple languages.",
+  "zh": "如果明年的主题演讲从主舞台直播的同时还实时配上多种语言的配音，我不会感到惊讶。"
+ },
+ {
+  "seg": 34,
+  "start": 245.326,
+  "end": 247.367,
+  "speaker": "Unknown",
+  "en": "The second category is speech to action.",
+  "zh": "第二个类别是语音转动作。"
+ },
+ {
+  "seg": 35,
+  "start": 247.887,
+  "end": 250.528,
+  "speaker": "Unknown",
+  "en": "These are talks and the model uses tools.",
+  "zh": "这些是用户说话、模型使用工具的场景。"
+ },
+ {
+  "seg": 36,
+  "start": 251.129,
+  "end": 255.211,
+  "speaker": "Unknown",
+  "en": "And I think this is one of the most under-explored areas that we have.",
+  "zh": "而且我认为这是我们拥有的探索最不充分的领域之一。"
+ },
+ {
+  "seg": 37,
+  "start": 255.471,
+  "end": 266.536,
+  "speaker": "Unknown",
+  "en": "I actually almost titled this talk Voice is the Next Capability Overhang because I think there is just a vast, vast amount of stuff that we could be doing in this category that we are not currently doing.",
+  "zh": "实际上我差点把这次演讲命名为《语音是下一个能力过剩》，因为我认为在这个类别中有大量的、大量的东西我们本可以做，而我们现在没有做。"
+ },
+ {
+  "seg": 38,
+  "start": 267.856,
+  "end": 270.678,
+  "speaker": "Unknown",
+  "en": "For example, there's a broad spectrum.",
+  "zh": "比如，有一个很宽的光谱。"
+ },
+ {
+  "seg": 39,
+  "start": 270.698,
+  "end": 273.419,
+  "speaker": "Unknown",
+  "en": "I don't have, you know, there's way too many examples even fit on this slide,",
+  "zh": "我没有，你知道，例子太多甚至放不下这张幻灯片，"
+ },
+ {
+  "seg": 40,
+  "start": 273.929,
+  "end": 276.39,
+  "speaker": "Unknown",
+  "en": "It's three categories that I find particularly interesting.",
+  "zh": "这是我觉得特别有趣的三个类别。"
+ },
+ {
+  "seg": 41,
+  "start": 276.97,
+  "end": 278.73,
+  "speaker": "Unknown",
+  "en": "First is form filling, right?",
+  "zh": "第一个是表单填写，对吧？"
+ },
+ {
+  "seg": 42,
+  "start": 278.93,
+  "end": 282.351,
+  "speaker": "Unknown",
+  "en": "So much of the internet is just filling out forms.",
+  "zh": "互联网上有太多东西就是在填表。"
+ },
+ {
+  "seg": 43,
+  "start": 283.232,
+  "end": 286.693,
+  "speaker": "Unknown",
+  "en": "And there is, you know, today no reason why you shouldn't be able to just talk.",
+  "zh": "而如今，你知道，没有任何理由让你不能直接用说的。"
+ },
+ {
+  "seg": 44,
+  "start": 286.713,
+  "end": 297.616,
+  "speaker": "Unknown",
+  "en": "You know, I would love it if instead of spending an hour filling out a government document, I could just talk for five minutes and it would get 90% of it for me and I would do a quick check, you know, just to make sure that everything looked good, right?",
+  "zh": "你知道，如果不用花一个小时填一份政府文件，而是只用说五分钟，它就能帮我完成 90%，然后我快速检查一下，确保一切看起来都没问题，那我会非常乐意，对吧？"
+ },
+ {
+  "seg": 45,
+  "start": 297.896,
+  "end": 301.217,
+  "speaker": "Unknown",
+  "en": "That is a vastly superior experience than like having to type in every single",
+  "zh": "那是一种远优于不得不亲手输入每一个的经历"
+ },
+ {
+  "seg": 46,
+  "start": 301.647,
+  "end": 305.79,
+  "speaker": "Unknown",
+  "en": "Name and address that I've lived in the last five years and all of my previous identities.",
+  "zh": "我过去五年住过的每一个姓名和地址，以及我所有以前的身份。"
+ },
+ {
+  "seg": 47,
+  "start": 307.151,
+  "end": 312.675,
+  "speaker": "Unknown",
+  "en": "And so I think that one is, though it may seem boring, affects a significant GDP of the internet.",
+  "zh": "所以我认为那一个，虽然看起来可能无聊，却影响着互联网相当大的一块 GDP。"
+ },
+ {
+  "seg": 48,
+  "start": 313.616,
+  "end": 329.408,
+  "speaker": "Unknown",
+  "en": "The next category is creative tools, where I am privileged enough that I can speak the language of software, and so I can tell Codex, here's exactly what I want you to build, and I can articulate it in a way that I get much more leverage than sort of just like cludgily trying to iterate one thing at a time.",
+  "zh": "下一个类别是创意工具，我很幸运能够说软件这门语言，所以我可以告诉 Codex，这是我确切想要你构建的东西，我可以清晰地表达它，从而获得比笨拙地一次迭代一件事大得多的杠杆。"
+ },
+ {
+  "seg": 49,
+  "start": 329.89,
+  "end": 334.151,
+  "speaker": "Unknown",
+  "en": "But I can't do that when it comes to making music or painting.",
+  "zh": "但当涉及制作音乐或绘画时，我就做不到这一点了。"
+ },
+ {
+  "seg": 50,
+  "start": 334.831,
+  "end": 347.055,
+  "speaker": "Unknown",
+  "en": "And so if I don't have the ability to articulate the exact aesthetic that I'm looking for, and if I don't know how to use Photoshop or Ableton, I'm left in this state where my taste exceeds my capability.",
+  "zh": "所以,如果我没有能力准确表达出我所追求的确切审美,而且我不会用 Photoshop 或 Ableton,我就处于这样一种状态:我的品味超出了我的能力。"
+ },
+ {
+  "seg": 51,
+  "start": 347.595,
+  "end": 358.618,
+  "speaker": "Unknown",
+  "en": "And so I'm really looking forward to integrating voice into creative tools so that I can just sort of cludgily go along and vibe create, vibe compose, vibe paint, and make something that's really beautiful to me.",
+  "zh": "所以我非常期待把语音整合进创作工具里,这样我就可以磕磕绊绊地进行 vibe 创作、vibe 作曲、vibe 绘画,做出对我而言真正美好的东西。"
+ },
+ {
+  "seg": 52,
+  "start": 359.961,
+  "end": 365.205,
+  "speaker": "Unknown",
+  "en": "And I think the generalizable category here then just starts to become computer use.",
+  "zh": "而我认为,这里可推广的类别就变成了计算机使用。"
+ },
+ {
+  "seg": 53,
+  "start": 365.245,
+  "end": 367.287,
+  "speaker": "Unknown",
+  "en": "And we've already seen some companies start to do this.",
+  "zh": "我们已经看到一些公司开始做这件事了。"
+ },
+ {
+  "seg": 54,
+  "start": 367.988,
+  "end": 377.095,
+  "speaker": "Unknown",
+  "en": "It raises the question of, look, if the models are just getting good enough to do everything on a computer that a human can do, why am I talking to an app?",
+  "zh": "这就引出了一个问题:看,如果模型已经好到能做人类在电脑上做的一切事情,那我为什么还要和一个应用对话?"
+ },
+ {
+  "seg": 55,
+  "start": 377.176,
+  "end": 378.517,
+  "speaker": "Unknown",
+  "en": "Why am I talking to a terminal?",
+  "zh": "为什么我要和一个终端对话?"
+ },
+ {
+  "seg": 56,
+  "start": 378.537,
+  "end": 380.859,
+  "speaker": "Unknown",
+  "en": "Why am I not just talking to the entire computer?",
+  "zh": "而对我而言,我们还没有真正见过在这个方向上 AI 原生究竟是什么样子。"
+ },
+ {
+  "seg": 57,
+  "start": 382.36,
+  "end": 385.763,
+  "speaker": "Unknown",
+  "en": "And so I think that's sort of a really interesting way to start exploring.",
+  "zh": "所以我认为这是开始探索的一种非常有趣的方式。"
+ },
+ {
+  "seg": 58,
+  "start": 386.528,
+  "end": 392.153,
+  "speaker": "Unknown",
+  "en": "If you're a developer today, what does that mean for building your own software?",
+  "zh": "如果你是一名今天的开发者,这对构建你自己的软件意味着什么?"
+ },
+ {
+  "seg": 59,
+  "start": 392.273,
+  "end": 399.9,
+  "speaker": "Unknown",
+  "en": "And I think it is much easier than you think to start adding audio as an intelligence layer to the apps that you already have.",
+  "zh": "而我认为,把音频作为智能层添加到你已有的应用中,比你想象的要容易得多。"
+ },
+ {
+  "seg": 60,
+  "start": 400.841,
+  "end": 406.086,
+  "speaker": "Unknown",
+  "en": "If you're building a modern web application, you already expose so much of it as nouns and verbs.",
+  "zh": "如果你在构建一个现代 Web 应用,你已经把它的很多部分以名词和动词的形式暴露出来了。"
+ },
+ {
+  "seg": 61,
+  "start": 406.426,
+  "end": 412.011,
+  "speaker": "Unknown",
+  "en": "And if you think about all the verbs that you have, you have API endpoints, you have React hooks,",
+  "zh": "如果你想想你所拥有的所有动词,你有 API 端点,你有 React hooks,"
+ },
+ {
+  "seg": 62,
+  "start": 412.361,
+  "end": 422.105,
+  "speaker": "Unknown",
+  "en": "Each of those things can pretty relatively easily be converted into a tool that you expose to a model, and then you can give the user the ability to just drive your existing software with their voice.",
+  "zh": "这些东西中的每一个都可以相对容易地被转换成一个暴露给模型的工具,然后你就可以让用户仅仅用他们的语音来驱动你现有的软件。"
+ },
+ {
+  "seg": 63,
+  "start": 422.205,
+  "end": 424.646,
+  "speaker": "Unknown",
+  "en": "And yes, you still need guardrails, you still need safety checks.",
+  "zh": "当然,你仍然需要护栏,你仍然需要安全检查。"
+ },
+ {
+  "seg": 64,
+  "start": 424.986,
+  "end": 433.709,
+  "speaker": "Unknown",
+  "en": "Many of the talks today are gonna talk about securing and productizing this, but for this I just want you to think about what would it mean to take your existing software and just talk to it.",
+  "zh": "今天的许多演讲都会谈到如何保障安全并把这一点产品化,但在这里我只想让大家思考:把你现有的软件拿来直接和它对话,意味着什么。"
+ },
+ {
+  "seg": 65,
+  "start": 436.898,
+  "end": 446.683,
+  "speaker": "Unknown",
+  "en": "And to go back to that misconception, right, I think there are a lot of, you know, like if you're talking to the software, maybe you can talk back, but we've been developing other ways of communicating with the user for decades, right?",
+  "zh": "回到那个误解,对吧,我认为有很多……你知道吗,比如如果你在和软件对话,也许它能回应你,但我们已经花了几十年的时间开发其他与用户沟通的方式了,对吧?"
+ },
+ {
+  "seg": 66,
+  "start": 446.703,
+  "end": 447.543,
+  "speaker": "Unknown",
+  "en": "We know these things.",
+  "zh": "这些东西我们都是知道的。"
+ },
+ {
+  "seg": 67,
+  "start": 447.563,
+  "end": 449.724,
+  "speaker": "Unknown",
+  "en": "We know we can show notifications and pop-ups.",
+  "zh": "我们知道可以显示通知和弹窗。"
+ },
+ {
+  "seg": 68,
+  "start": 449.764,
+  "end": 452.926,
+  "speaker": "Unknown",
+  "en": "We can change state, like the color of a button or a drop shadow.",
+  "zh": "我们可以改变状态,比如按钮的颜色或者投影。"
+ },
+ {
+  "seg": 69,
+  "start": 452.946,
+  "end": 453.766,
+  "speaker": "Unknown",
+  "en": "We can highlight text.",
+  "zh": "我们可以高亮文本。"
+ },
+ {
+  "seg": 70,
+  "start": 454.327,
+  "end": 460.61,
+  "speaker": "Unknown",
+  "en": "If you've used computer use in the Codex app, you know, there's this amazing, like, little ghost cursor animation that goes around and clicks things for you.",
+  "zh": "如果你用过 Codex 应用里的计算机使用功能,你知道,有一个非常棒的、小小的幽灵光标动画,它会到处移动并替你点击东西。"
+ },
+ {
+  "seg": 71,
+  "start": 460.93,
+  "end": 465.252,
+  "speaker": "Unknown",
+  "en": "So we don't have to use words to actually tell the user what is happening on screen with their software.",
+  "zh": "所以我们不必用文字来真正告诉用户,屏幕上他们的软件正在发生什么。"
+ },
+ {
+  "seg": 72,
+  "start": 468.947,
+  "end": 470.728,
+  "speaker": "Unknown",
+  "en": "And then the last bucket here is event-to-speech.",
+  "zh": "然后这里的最后一个类别是事件转语音。"
+ },
+ {
+  "seg": 73,
+  "start": 471.009,
+  "end": 473.11,
+  "speaker": "Unknown",
+  "en": "The model receives an event and talks to the user.",
+  "zh": "模型接收一个事件,并与用户交谈。"
+ },
+ {
+  "seg": 74,
+  "start": 473.971,
+  "end": 479.434,
+  "speaker": "Unknown",
+  "en": "And sort of the counterpoint from speech to action, I think this one is still very, very exploratory.",
+  "zh": "作为语音转行动的对立面,我认为这一类仍然非常、非常处于探索阶段。"
+ },
+ {
+  "seg": 75,
+  "start": 479.474,
+  "end": 483.637,
+  "speaker": "Unknown",
+  "en": "If you saw Quinn's talk, I think there's a lot of space here of things we can do.",
+  "zh": "如果你看过 Quinn 的演讲,我认为这里有很大的空间可以做很多事情。"
+ },
+ {
+  "seg": 76,
+  "start": 484.117,
+  "end": 488.881,
+  "speaker": "Unknown",
+  "en": "And to me, we haven't quite seen what AI native really looks like in this vein yet.",
+  "zh": "而对我而言,我们还没有真正见过 AI 原生在这个方向上到底长什么样。"
+ },
+ {
+  "seg": 77,
+  "start": 489.281,
+  "end": 493.344,
+  "speaker": "Unknown",
+  "en": "But of the things that I've seen, I think there's a couple of through lines that I tend to notice.",
+  "zh": "但就我所见过的事物而言,我认为有几条我倾向于注意到的贯穿主线。"
+ },
+ {
+  "seg": 78,
+  "start": 493.704,
+  "end": 497.226,
+  "speaker": "Unknown",
+  "en": "The first is hands-free or screen-free experiences.",
+  "zh": "第一个是免手或免屏的体验。"
+ },
+ {
+  "seg": 79,
+  "start": 497.266,
+  "end": 498.287,
+  "speaker": "Unknown",
+  "en": "There might be times where",
+  "zh": "可能会有这样的时刻:"
+ },
+ {
+  "seg": 80,
+  "start": 498.873,
+  "end": 504.899,
+  "speaker": "Unknown",
+  "en": "I need to interact with software, interact with objects, and I can't use my hands, or more importantly, my attention is diverted elsewhere.",
+  "zh": "我需要与软件交互、与物体交互,但我无法使用我的双手,或者更重要的是,我的注意力被分散到别处了。"
+ },
+ {
+  "seg": 81,
+  "start": 505.66,
+  "end": 513.248,
+  "speaker": "Unknown",
+  "en": "That might be something, you know, like a recipe app, maybe I'm cooking, and I need to just say, like, what's going on, and have something else, have something happen.",
+  "zh": "这可能是像食谱应用这样的东西,也许我正在做饭,我只需要说一声现在怎么样了,然后让别的事情发生。"
+ },
+ {
+  "seg": 82,
+  "start": 514.789,
+  "end": 522.337,
+  "speaker": "Unknown",
+  "en": "The other category is proactive outreach, right, where you, the model needs to be able to tell you something or get your attention in a way that you might not be looking at, right.",
+  "zh": "另一个类别是主动触达,对吧,就是模型需要能够告诉你一些事情,或者以你可能没有在看的方式引起你的注意,对吧。"
+ },
+ {
+  "seg": 83,
+  "start": 522.357,
+  "end": 523.238,
+  "speaker": "Unknown",
+  "en": "I think every developer",
+  "zh": "我认为每个开发者"
+ },
+ {
+  "seg": 84,
+  "start": 524.112,
+  "end": 545.45,
+  "speaker": "Unknown",
+  "en": "Has an endless amount of notifications and events happening in their software, but no developer in their right mind would sort of say, I should show all of these logs, nor would they say, I should speak all of these logs, but we can start to conceive of voice as this upper level in this escalatory path of like, okay, maybe you animate something, and then maybe you pop something up, and then if that doesn't work, maybe you talk to the user to get their attention.",
+  "zh": "他们的软件中都有无穷无尽的通知和事件在发生,但任何头脑正常的开发者都不会说,我应该展示所有这些日志,也不会说,我应该把所有这些日志都念出来,但我们可以开始把语音构想成这条递进路径上的更高一层,比如:好吧,也许你先让某个东西动起来,然后也许你弹出一个东西,如果那还不奏效,也许你就用语音和用户说话来引起他们的注意。"
+ },
+ {
+  "seg": 85,
+  "start": 547.972,
+  "end": 552.856,
+  "speaker": "Unknown",
+  "en": "And underlying both of these categories, and I think this whole presentation is this broader theme of accessibility.",
+  "zh": "而在这两个类别背后,我认为也是整场演讲背后的,是可访问性这个更宏大的主题。"
+ },
+ {
+  "seg": 86,
+  "start": 553.633,
+  "end": 567.201,
+  "speaker": "Unknown",
+  "en": "On a personal note, I know multiple developers who, over the course of their careers, lost mobility in their hands, lost dexterity in their fingers, and for many of them, they thought their career as a programmer was more or less over.",
+  "zh": "说点个人的,我认识好几位开发者,他们在职业生涯中失去了手部的活动能力,失去了手指的灵巧性,而对他们中的许多人来说,他们以为自己作为程序员的职业生涯或多或少已经结束了。"
+ },
+ {
+  "seg": 87,
+  "start": 568.482,
+  "end": 570.103,
+  "speaker": "Unknown",
+  "en": "And then came large language models, right?",
+  "zh": "然后大语言模型来了,对吧?"
+ },
+ {
+  "seg": 88,
+  "start": 570.123,
+  "end": 578.607,
+  "speaker": "Unknown",
+  "en": "Then came coding agents and voice agents, and now they generate orders of magnitude more code than they previously did on a given day or month.",
+  "zh": "然后编码智能体和语音智能体来了,现在他们在给定的一天或一个月内生成的代码比以前多了几个数量级。"
+ },
+ {
+  "seg": 89,
+  "start": 579.468,
+  "end": 583.01,
+  "speaker": "Unknown",
+  "en": "And so I think there's a lot that we can unlock here for the broader world as well.",
+  "zh": "所以我认为,我们也能为更广阔的世界解锁很多东西。"
+ },
+ {
+  "seg": 90,
+  "start": 585.707,
+  "end": 589.71,
+  "speaker": "Unknown",
+  "en": "To go back to, like I said, you know, I think, like, when it comes to these three modalities, you can mix and match them.",
+  "zh": "回到我之前说的,我认为,就这三种模态而言,你可以混搭它们。"
+ },
+ {
+  "seg": 91,
+  "start": 589.75,
+  "end": 593.111,
+  "speaker": "Unknown",
+  "en": "And we already have some, you know, rudimentary ways that we're seeing this.",
+  "zh": "而我们已经看到了一些,你知道的,比较初步的方式。"
+ },
+ {
+  "seg": 92,
+  "start": 593.131,
+  "end": 600.275,
+  "speaker": "Unknown",
+  "en": "I think there's things like, you know, all of these pieces for in-car assistance exist, though nothing has quite, like, combined them into this seamless way.",
+  "zh": "我认为有像车内助手这样的东西,所有这些组件都已存在,只是还没有什么东西把它们以真正无缝的方式结合起来。"
+ },
+ {
+  "seg": 93,
+  "start": 600.636,
+  "end": 603.237,
+  "speaker": "Unknown",
+  "en": "You can talk to, like, the CarPlay dashboard.",
+  "zh": "你可以和 CarPlay 仪表盘对话。"
+ },
+ {
+  "seg": 94,
+  "start": 603.697,
+  "end": 606.239,
+  "speaker": "Unknown",
+  "en": "You can tell it, hey, go play some Spotify music for me.",
+  "zh": "你可以告诉它,嘿,帮我放点 Spotify 音乐。"
+ },
+ {
+  "seg": 95,
+  "start": 606.719,
+  "end": 607.96,
+  "speaker": "Unknown",
+  "en": "And then it can come back and tell you.",
+  "zh": "然后它可以回来告诉你。"
+ },
+ {
+  "seg": 96,
+  "start": 607.98,
+  "end": 611.022,
+  "speaker": "Unknown",
+  "en": "Google Maps can come back and tell you, hey, like, you know, there's traffic on this route.",
+  "zh": "Google Maps 可以回来告诉你,嘿,这条路上有拥堵。"
+ },
+ {
+  "seg": 97,
+  "start": 611.042,
+  "end": 611.882,
+  "speaker": "Unknown",
+  "en": "We're going to reroute you.",
+  "zh": "我们要给你重新规划路线。"
+ },
+ {
+  "seg": 98,
+  "start": 612.208,
+  "end": 617.57,
+  "speaker": "Unknown",
+  "en": "But we can now start to think about what does it mean to combine that into a single voice agent across multiple modes.",
+  "zh": "但我们现在可以开始思考,把它结合成一个跨多种模式的单一语音智能体意味着什么。"
+ },
+ {
+  "seg": 99,
+  "start": 618.77,
+  "end": 622.572,
+  "speaker": "Unknown",
+  "en": "Similarly, there's a lot of experimentation in the game space with multimodality.",
+  "zh": "类似地,在游戏领域也有很多关于多模态的实验。"
+ },
+ {
+  "seg": 100,
+  "start": 623.192,
+  "end": 629.074,
+  "speaker": "Unknown",
+  "en": "You can think about a real-life character where you're talking to it to mine information about the game, about the world.",
+  "zh": "你可以想象一个现实生活中的角色,你通过和它对话来挖掘关于游戏、关于世界的信息。"
+ },
+ {
+  "seg": 101,
+  "start": 629.515,
+  "end": 631.835,
+  "speaker": "Unknown",
+  "en": "You can talk to it to execute actions on your behalf.",
+  "zh": "你可以和它对话,让它代你执行操作。"
+ },
+ {
+  "seg": 102,
+  "start": 632.176,
+  "end": 638.478,
+  "speaker": "Unknown",
+  "en": "And then it can react to world events that are happening and then give that information to you rather than just a simple notification.",
+  "zh": "然后它可以对正在发生的世界事件做出反应,并把那些信息传达给你,而不只是一个简单的通知。"
+ },
+ {
+  "seg": 103,
+  "start": 641.493,
+  "end": 645.435,
+  "speaker": "Unknown",
+  "en": "And I think the question, you know, behind the question here, right, is like I mentioned, we've had all these things for a while.",
+  "zh": "我想这个问题背后的那个问题,就像我提到的,是这些东西我们已经有了很长时间。"
+ },
+ {
+  "seg": 104,
+  "start": 645.455,
+  "end": 646.936,
+  "speaker": "Unknown",
+  "en": "People have been prototyping them for a while.",
+  "zh": "人们为它们做原型也做了很长时间。"
+ },
+ {
+  "seg": 105,
+  "start": 647.356,
+  "end": 648.597,
+  "speaker": "Unknown",
+  "en": "Why focus on them now?",
+  "zh": "为什么现在要聚焦它们?"
+ },
+ {
+  "seg": 106,
+  "start": 648.617,
+  "end": 650.178,
+  "speaker": "Unknown",
+  "en": "Why think about building with them now?",
+  "zh": "为什么现在要考虑用它们来构建?"
+ },
+ {
+  "seg": 107,
+  "start": 650.898,
+  "end": 654.5,
+  "speaker": "Unknown",
+  "en": "And I think that brings me to a little bit of context here, right?",
+  "zh": "我想这就引出了一些背景介绍,对吧?"
+ },
+ {
+  "seg": 108,
+  "start": 654.58,
+  "end": 659.783,
+  "speaker": "Unknown",
+  "en": "As hopefully most of you know, traditionally voice agents are built in this chained model, right?",
+  "zh": "希望在座大多数人知道,传统上语音智能体是以这种链式模型构建的,对吧?"
+ },
+ {
+  "seg": 109,
+  "start": 659.823,
+  "end": 665.946,
+  "speaker": "Unknown",
+  "en": "You talk, you transcribe, you send that to a language model, it calls tools, hopefully it doesn't take too long to respond.",
+  "zh": "你说话,进行转录,把文本发给一个语言模型,它调用工具,希望它响应不会花太长时间。"
+ },
+ {
+  "seg": 110,
+  "start": 666.567,
+  "end": 670.769,
+  "speaker": "Unknown",
+  "en": "It then generates text output, you make that into audio, and then you play that back to the user.",
+  "zh": "然后它生成文本输出,你把文本变成音频,再播放给用户。"
+ },
+ {
+  "seg": 111,
+  "start": 672.232,
+  "end": 675.913,
+  "speaker": "Unknown",
+  "en": "And some time ago, OpenAI decided on a different approach.",
+  "zh": "而一段时间以前,OpenAI 决定采用一种不同的方法。"
+ },
+ {
+  "seg": 112,
+  "start": 675.993,
+  "end": 680.373,
+  "speaker": "Unknown",
+  "en": "The real-time model family does not do any transcription behind the scenes.",
+  "zh": "Real-time 模型系列在幕后不做任何转录。"
+ },
+ {
+  "seg": 113,
+  "start": 680.574,
+  "end": 686.435,
+  "speaker": "Unknown",
+  "en": "It is trained on native audio as tokens, so you send audio in and you get audio back out.",
+  "zh": "它是以原生音频作为 token 训练的,所以你发送音频进去,得到音频出来。"
+ },
+ {
+  "seg": 114,
+  "start": 687.435,
+  "end": 699.777,
+  "speaker": "Unknown",
+  "en": "And the industry, I think, in general, has been trending more in this direction, and not just making it native audio, but even just letting go of the turn-based abstraction that we've had, and so making it that it's just continuous streaming audio in and out.",
+  "zh": "而整个行业,我认为总体上,一直在朝这个方向发展,不只是做成原生音频,甚至只是放开我们一直以来的回合制抽象,让它变成连续的流式音频进出。"
+ },
+ {
+  "seg": 115,
+  "start": 702.102,
+  "end": 710.584,
+  "speaker": "Unknown",
+  "en": "And the reason that OpenAI did this was, you know, turns out there's a lot of stuff that you lose when you transcribe speech and when you transcribe audio, right?",
+  "zh": "OpenAI 这么做的原因是,事实证明,当你转录语音、转录音频时,会丢失很多信息,对吧?"
+ },
+ {
+  "seg": 116,
+  "start": 710.604,
+  "end": 721.046,
+  "speaker": "Unknown",
+  "en": "There's the old saying that when humans communicate face to face, 55% of the information is in body language, another 38% is in your tone of voice, and the last, like, 7% is the actual words you are saying.",
+  "zh": "有句老话说,当人类面对面交流时,55% 的信息在肢体语言里,另外 38% 在你的语调里,而最后大约 7% 才是你实际说出的词语。"
+ },
+ {
+  "seg": 117,
+  "start": 721.706,
+  "end": 724.847,
+  "speaker": "Unknown",
+  "en": "And so when you transcribe, you lose tone and cadence and emotional,",
+  "zh": "所以当你转录时,你丢失了语调、节奏和情感,"
+ },
+ {
+  "seg": 118,
+  "start": 725.565,
+  "end": 732.231,
+  "speaker": "Unknown",
+  "en": "You know, impact, you lose, like, whether they're trying to interrupt you, you lose background noise, all of this stuff, which is really important context for the model to understand.",
+  "zh": "你知道的,冲击力,你丢失了比如对方是否想打断你,你丢失了背景噪音,所有这些东西,而这些是模型理解时非常重要的上下文。"
+ },
+ {
+  "seg": 119,
+  "start": 734.093,
+  "end": 747.104,
+  "speaker": "Unknown",
+  "en": "A much more quantitative reason to do it is that, you know, the first two voice modes in ChatGPT were built with this chained approach, and as you can see, had, you know, significantly higher latency than using the native approach with advanced voice mode.",
+  "zh": "一个更量化的理由是,ChatGPT 最早的两个语音模式是用这种链式方法构建的,而如你所见,相比使用原生方法的高级语音模式,它们的延迟显著更高。"
+ },
+ {
+  "seg": 120,
+  "start": 749.166,
+  "end": 751.447,
+  "speaker": "Unknown",
+  "en": "And that brings me to GPT Realtime 2.",
+  "zh": "这就引出了 GPT Realtime 2。"
+ },
+ {
+  "seg": 121,
+  "start": 752.088,
+  "end": 755.529,
+  "speaker": "Unknown",
+  "en": "And this is gonna be the one part of the talk where I make my shameless plug.",
+  "zh": "这将是本次演讲中我唯一恬不知耻打广告的部分。"
+ },
+ {
+  "seg": 122,
+  "start": 756.81,
+  "end": 759.592,
+  "speaker": "Unknown",
+  "en": "Realtime 2 is the latest model in the Realtime family.",
+  "zh": "Realtime 2 是 Realtime 系列中最新的模型。"
+ },
+ {
+  "seg": 123,
+  "start": 759.612,
+  "end": 761.112,
+  "speaker": "Unknown",
+  "en": "We released it a couple of months ago.",
+  "zh": "我们几个月前发布了它。"
+ },
+ {
+  "seg": 124,
+  "start": 761.953,
+  "end": 767.456,
+  "speaker": "Unknown",
+  "en": "And the really cool thing about this model is that it brings reasoning to the audio medium.",
+  "zh": "而这个模型非常酷的一点是,它把推理带入了音频媒介。"
+ },
+ {
+  "seg": 125,
+  "start": 768.076,
+  "end": 771.538,
+  "speaker": "Unknown",
+  "en": "And so much like our text models, it can now think before it speaks.",
+  "zh": "所以就像我们的文本模型一样,它现在可以在说话之前先思考。"
+ },
+ {
+  "seg": 126,
+  "start": 772.238,
+  "end": 777.341,
+  "speaker": "Unknown",
+  "en": "I'm sure many of us have seen some demos of voice models saying things that are a little bit less than intelligent.",
+  "zh": "我相信我们很多人都见过一些语音模型说出不太聪明的言论的演示。"
+ },
+ {
+  "seg": 127,
+  "start": 778.085,
+  "end": 783.548,
+  "speaker": "Unknown",
+  "en": "And so you can now try to ensure that you give it more reasoning budget to come up with a good answer.",
+  "zh": "所以你现在可以尝试确保给它更多的推理预算,以想出一个好的回答。"
+ },
+ {
+  "seg": 128,
+  "start": 784.168,
+  "end": 791.372,
+  "speaker": "Unknown",
+  "en": "Part of why that's also useful is that we introduced tool calling a little while ago, and so the model, in addition to thinking, it can also delegate parallel tool calls.",
+  "zh": "这么做有用的另一个原因是,我们不久前引入了工具调用,所以模型除了思考之外,还可以委派并行的工具调用。"
+ },
+ {
+  "seg": 129,
+  "start": 792.052,
+  "end": 795.954,
+  "speaker": "Unknown",
+  "en": "You can start to bring these together, though of course that adds latency, right?",
+  "zh": "你可以开始把这些结合起来,不过当然这会增加延迟,对吧?"
+ },
+ {
+  "seg": 130,
+  "start": 796.014,
+  "end": 798.255,
+  "speaker": "Unknown",
+  "en": "And that's why we also added preambles.",
+  "zh": "这就是为什么我们还加入了前导语。"
+ },
+ {
+  "seg": 131,
+  "start": 798.816,
+  "end": 805.459,
+  "speaker": "Unknown",
+  "en": "Preambles are a way that you can prompt the model to give the user a heads up if it's going to be thinking or if it's going to be calling tools.",
+  "zh": "前导语是一种方式,你可以提示模型,如果它将要思考或将要调用工具,就给用户一个提醒。"
+ },
+ {
+  "seg": 132,
+  "start": 806.503,
+  "end": 825.926,
+  "speaker": "Unknown",
+  "en": "If you think about the scenario of a travel agent, if I called a travel agent on the phone, you would want the travel agent to say, hey, I'm gonna go check flight prices, give me a couple seconds to do that, and now with an AI travel agent and preambles, you can actually have it communicate that to the user while it's performing actions in the background.",
+  "zh": "如果你想想旅行代理的场景,如果我打电话给一个旅行代理,你会希望旅行代理说,嘿,我要去查一下机票价格,给我几秒钟时间,而现在有了 AI 旅行代理和前导语,你实际上可以让它在后台执行操作的同时把这一点传达给用户。"
+ },
+ {
+  "seg": 133,
+  "start": 827.367,
+  "end": 833.548,
+  "speaker": "Unknown",
+  "en": "There's a few other things here, it's got longer context, better domain understanding, more natural voices, and it's much more steerable.",
+  "zh": "这里还有其他一些东西,它有更长的上下文、更好的领域理解、更自然的声音,而且它可引导性更强得多。"
+ },
+ {
+  "seg": 134,
+  "start": 834.028,
+  "end": 835.248,
+  "speaker": "Unknown",
+  "en": "There's some really cool features",
+  "zh": "还有一些非常酷的功能,"
+ },
+ {
+  "seg": 135,
+  "start": 836.118,
+  "end": 840.882,
+  "speaker": "Unknown",
+  "en": "That it can do when it comes to like wake words and just waiting for you to tell it.",
+  "zh": "比如唤醒词,以及只是等待你来告诉它。"
+ },
+ {
+  "seg": 136,
+  "start": 840.922,
+  "end": 841.783,
+  "speaker": "Unknown",
+  "en": "You can give it a name.",
+  "zh": "你可以给它起个名字。"
+ },
+ {
+  "seg": 137,
+  "start": 842.363,
+  "end": 845.385,
+  "speaker": "Unknown",
+  "en": "You can say like, you know, hey Marin, do you want to say hi to the room?",
+  "zh": "你可以说,比如,嘿,Marin,你想跟这个房间打个招呼吗?"
+ },
+ {
+  "seg": 138,
+  "start": 845.946,
+  "end": 851.57,
+  "speaker": "Unknown",
+  "en": "And if you've like prompted that into the model, then it'll, you know, go ahead and respond to you, right?",
+  "zh": "如果你已经把这一点提示进模型,那它就会,你知道的,继续回应你,对吧?"
+ },
+ {
+  "seg": 139,
+  "start": 851.63,
+  "end": 853.952,
+  "speaker": "Unknown",
+  "en": "And of course, you know, obligatory benchmark slide.",
+  "zh": "当然,还有必不可少的基准测试幻灯片。"
+ },
+ {
+  "seg": 140,
+  "start": 854.312,
+  "end": 857.114,
+  "speaker": "Unknown",
+  "en": "It does pretty well on the latest audio benchmarks too.",
+  "zh": "它在最新的音频基准测试上也表现得相当好。"
+ },
+ {
+  "seg": 141,
+  "start": 858.996,
+  "end": 860.857,
+  "speaker": "Unknown",
+  "en": "So TLDR is a pretty good model.",
+  "zh": "所以 TLDR 是:这是一个相当不错的模型。"
+ },
+ {
+  "seg": 142,
+  "start": 863.815,
+  "end": 877.426,
+  "speaker": "Unknown",
+  "en": "But I think the kind of final thing that I want to leave you with here is when building voice agents, not to start with the question of like, what kind of voice agent am I trying to build?",
+  "zh": "但我想留给你们的最后一点是,构建语音智能体时,不要从「我想构建什么样的语音智能体?」这个问题开始。"
+ },
+ {
+  "seg": 143,
+  "start": 877.887,
+  "end": 885.593,
+  "speaker": "Unknown",
+  "en": "I think the thing I want to leave you with is start with the question of like, what is the role of voice and audio in this interaction?",
+  "zh": "我想留给你们的是,从「语音和音频在这个交互中的角色是什么?」这个问题开始。"
+ },
+ {
+  "seg": 144,
+  "start": 886.193,
+  "end": 888.155,
+  "speaker": "Unknown",
+  "en": "And then how do I move forward from there?",
+  "zh": "然后是,我如何从这里继续前进?"
+ },
+ {
+  "seg": 145,
+  "start": 888.535,
+  "end": 892.479,
+  "speaker": "Unknown",
+  "en": "And often when I ask that question, it leads to a bunch more questions after that.",
+  "zh": "而当我问这个问题时,它往往会引出后面一连串更多的问题。"
+ },
+ {
+  "seg": 146,
+  "start": 893.659,
+  "end": 894.74,
+  "speaker": "Unknown",
+  "en": "What can the model perceive?",
+  "zh": "模型能感知到什么?"
+ },
+ {
+  "seg": 147,
+  "start": 894.78,
+  "end": 896.201,
+  "speaker": "Unknown",
+  "en": "What context does it have?",
+  "zh": "它拥有什么上下文?"
+ },
+ {
+  "seg": 148,
+  "start": 897.162,
+  "end": 898.783,
+  "speaker": "Unknown",
+  "en": "What tools are available to it?",
+  "zh": "有哪些工具可供它使用?"
+ },
+ {
+  "seg": 149,
+  "start": 898.903,
+  "end": 903.446,
+  "speaker": "Unknown",
+  "en": "And which of those tools should it be executing safely and correctly?",
+  "zh": "以及其中哪些工具它应该安全且正确地执行?"
+ },
+ {
+  "seg": 150,
+  "start": 904.587,
+  "end": 905.688,
+  "speaker": "Unknown",
+  "en": "Should it communicate now?",
+  "zh": "它现在应该沟通吗?"
+ },
+ {
+  "seg": 151,
+  "start": 905.808,
+  "end": 907.489,
+  "speaker": "Unknown",
+  "en": "Should it wait?",
+  "zh": "它应该等待吗?"
+ },
+ {
+  "seg": 152,
+  "start": 907.73,
+  "end": 908.65,
+  "speaker": "Unknown",
+  "en": "How should it communicate?",
+  "zh": "它应该如何沟通?"
+ },
+ {
+  "seg": 153,
+  "start": 908.67,
+  "end": 912.333,
+  "speaker": "Unknown",
+  "en": "Should it be sending visual notifications or using audio?",
+  "zh": "它应该发送视觉通知还是使用音频?"
+ },
+ {
+  "seg": 154,
+  "start": 912.813,
+  "end": 918.778,
+  "speaker": "Unknown",
+  "en": "And so taken together, I hope everybody in here can start to build some much richer experiences with voice",
+  "zh": "综上,我希望在座的每个人都能开始用语音构建更丰富的体验"
+ },
+ {
+  "seg": 155,
+  "start": 919.588,
+  "end": 923.949,
+  "speaker": "Unknown",
+  "en": "Because, like others have said, I do believe that AGI will be spoken, not typed.",
+  "zh": "因为,就像其他人说过的,我确实相信 AGI 将是被说出来的,而不是被打出来的。"
+ },
+ {
+  "seg": 156,
+  "start": 926.409,
+  "end": 926.93,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 157,
+  "start": 926.95,
+  "end": 929.61,
+  "speaker": "Unknown",
+  "en": "I'll be at the OpenAI booth for any Q&A after.",
+  "zh": "问答环节后我会在 OpenAI 展位。"
+ },
+ {
+  "seg": 158,
+  "start": 930.29,
+  "end": 931.07,
+  "speaker": "Unknown",
+  "en": "Yeah, have a good event.",
+  "zh": "好的,祝活动顺利。"
+ }
+]

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]] [[Tyler Folkman]]
+[[Jeff Morris Jr]] [[Claire]] [[Ben Celebicic]] [[Tobi Lütke]] [[David Alleman]] [[Paul Bakaus]] [[Maximillian Piras]] [[Vincent Wendy]] [[Thais Castello Branco]] [[Roman Ugarte]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Slack":26,"Salesforce":21,"Glitch":1,"效用曲线":1,"摩擦力":1,"超逼真的类工作活动":1,"帕金森定律":1,"所有者的错觉":1,"我们不卖马鞍":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Slack":26,"Salesforce":22,"Glitch":1,"效用曲线":1,"摩擦力":1,"超逼真的类工作活动":1,"帕金森定律":1,"所有者的错觉":1,"我们不卖马鞍":1}</script>
 
 <script>
 (function(){

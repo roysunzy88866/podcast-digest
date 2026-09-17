@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]]
+[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":16,"智能体":257,"Patrick Collison":2,"公开构建":2,"Stripe":31,"vibe coding":35,"Magic School":1,"真实性":2,"OpenAI":118,"Anthropic":124}</script>
+<script type="application/json" class="pd-epn">{"Replit":16,"智能体":258,"Patrick Collison":2,"公开构建":2,"Stripe":31,"vibe coding":35,"Magic School":1,"真实性":2,"OpenAI":119,"Anthropic":124}</script>
 
 <script>
 (function(){

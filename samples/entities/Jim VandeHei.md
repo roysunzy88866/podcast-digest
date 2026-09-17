@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]]
+[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Aaron Levie]] [[Jack]] [[Eric]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":4,"Axios":1,"OpenAI":118,"ChatGPT":67,"Claude":59,"Google":44,"Anthropic":124,"智能体":257,"认知疲劳":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":4,"Axios":1,"OpenAI":119,"ChatGPT":68,"Claude":59,"Google":44,"Anthropic":124,"智能体":258,"认知疲劳":1}</script>
 
 <script>
 (function(){

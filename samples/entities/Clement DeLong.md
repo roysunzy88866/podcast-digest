@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]]
+[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hugging Face":20,"开源":22,"前沿模型":16,"本地模型":3,"模型路由":6,"蒸馏":11,"推理":46,"护栏":49,"Anthropic":124,"OpenAI":118}</script>
+<script type="application/json" class="pd-epn">{"Hugging Face":20,"开源":22,"前沿模型":16,"本地模型":3,"模型路由":6,"蒸馏":11,"推理":46,"护栏":50,"Anthropic":124,"OpenAI":119}</script>
 
 <script>
 (function(){

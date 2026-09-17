@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]]
+[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":12,"OpenAI":118,"ChatGPT":67,"GitLab":1,"StarCloud":3,"Reddit":6,"AGI":22,"推理":46,"图灵测试":2}</script>
+<script type="application/json" class="pd-epn">{"YC":12,"OpenAI":119,"ChatGPT":68,"GitLab":1,"StarCloud":3,"Reddit":6,"AGI":23,"推理":46,"图灵测试":2}</script>
 
 <script>
 (function(){

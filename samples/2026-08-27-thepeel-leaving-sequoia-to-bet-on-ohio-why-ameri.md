@@ -141,8 +141,8 @@ Chris 认为风投行业正在经历他职业生涯里最严重的大洗牌。�
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|Gamma 联创复盘：押注空白页，赌出一亿用户]]<span class="pd-rz">同概念:LLM、产品市场匹配 (product market fit)</span>
+- [[2026-09-17-thepeel-building-a-venture-firm-like-a-product|轮次标签已死：一位早期风投人的进化手册]]<span class="pd-rz">同公司:Sequoia · 同概念:投资组合构建 (portfolio construction)</span>
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|一个人六个月做出八千万美元公司]]<span class="pd-rz">同概念:LLM、产品市场匹配 (product market fit)</span>
-- [[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|Benedict Evans:AI 价值会落在哪一层?]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM</span>
 
 </div>
 <div class="pd-ex">
