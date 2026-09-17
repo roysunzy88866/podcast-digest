@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Kevin DeFarco":1,"Roshan":2,"GrokBot":6,"SpaceX AI":1,"智能体":258,"多智能体团队":1,"云端智能体":1,"例程":1,"记忆":12,"MCP":44}</script>
+<script type="application/json" class="pd-epn">{"Kevin DeFarco":1,"Roshan":2,"GrokBot":6,"SpaceX AI":1,"智能体":261,"多智能体团队":1,"云端智能体":1,"例程":1,"记忆":13,"MCP":45}</script>
 
 <script>
 (function(){

@@ -1,0 +1,208 @@
+{
+  "title_zh": "Tolan 如何做语音优先的 AI 陪伴体",
+  "tldr": "Tolan 工程师 Paula 讲解构建语音优先 AI 陪伴体的四条工程原则，以及团队如何用智能体舰队开发产品本身。",
+  "digest_md": "一个能陪你大声聊天的 AI 陪伴应用，从用户说完话到它开口回话，整个往返必须在两秒之内——早期延迟从两秒漂移到两秒半，多出来的那半秒几乎让产品里所有指标都崩了。这是 Tolan 团队工程师 Paula 在一场演讲里讲的故事。Tolan 是一个语音优先的 AI 陪伴产品：一个有个性、记得你的小外星人，用户像跟朋友说话一样跟它讲话，目前累计语音对话时长已超过 400 万小时。她反复强调：文字和语音都支持，但真正让用户觉得关系真实的是语音。\n\n> 【背景】演讲者 Paula 自我介绍是 Tolan 团队负责 iOS 应用的工程师，此前来自 xAI 和 Spotify，还创立过一家叫 Imagi 的公司。\n\n## 语音彻底改变了工程问题\n\n文字聊天机器人里，轮次慢、上下文稳定，用户会等几秒、读回复、保持话题——几乎所有 LLM 应用都建立在这个假设上。语音正好相反：轮次极快，上下文极度易变。用户一边做饭、走路、入睡时跟它说话，会在句子中间换话题、会打断、会说「呃」。Paula 的第一原则就是「为对话的波动性而设计」：有人正讲着分手的故事，突然来一句「等等，我是不是没关炉子？」然后又讲回来。\n\n这意味着要修好那些「听起来微小但其实就是产品本身」的东西：你没法在它句子中间打断它；一声短促的「嗯」「对」不会被识别成一个话轮；脏话会被剔除掉。更深一层的教训是：不要优化「更少的打断」，要优化「更少的坏打断」——也就是智能体介入得太早的那种。他们构建了智能话轮转换（读取用户语音模式来判断打断是否真实），把最糟糕的过早中断削减了一半以上，并乐意为此多付出约 60 毫秒延迟。\n\n## 延迟就是产品\n\n第二条原则：延迟不是最后检查的数字，它就是产品，必须把管线每个阶段分开测——「感觉慢」没有用，你得知道到底哪里慢。管线是：用户停止说话 → 检测话轮结束 → 转写 → 模型产生第一个 token（通常是最大的一块，约一秒）→ 生成完毕 → 文字转语音产出第一个字节 → 播放。他们在质量上最大的飞跃来自迁移到 responses API 上的 GPT 5.1，把语音起始时间显著削短了。\n\n更重要的是分层机队：不是每个话轮都发给同一个模型。承载「你与 Tolan 关系」的关键话轮（第一次对话、头几天的新手期）用前沿模型；轻量闲聊用更小更快的模型。每个话轮上都跑一个叫 Tone Router 的小分类器（本身跑在便宜模型上），读取对话的情绪状态来决定路由。核心原则是**按利害关系路由，而不是按成本**——危机类或治疗师风格的语气从不省钱。这么费劲的动机很直接：前沿模型成本约是小模型的五倍，一个关键话轮顶五个便宜话轮，路由是单位经济性能走通的关键。A/B 实验还发现一个意外结果：把三分之一的话轮路由到小模型，对留存率几乎没有可测量的影响。\n\n## 记忆做成检索系统\n\n让陪伴体「像陪伴」的关键是记忆。朴素做法是把全部对话历史当文字记录塞进上下文——装不进两秒循环，还导致长会话质量下降、模型在大上下文里迷失并产生幻觉。他们把记忆当作检索系统：从对话中提取事实、偏好和情绪氛围信号，向量化后存进向量数据库，查找低于 50 毫秒。每晚做压缩：合并重复、聚类相关记忆、解决矛盾、去掉噪音。\n\n两个巧思：其一，不只针对用户最后一条消息做检索，还会围绕「这个人及这段关系」生成内部问题、拿这些问题去检索。其二，记忆分成稳定与不稳定两部分——易变的放提示词的实时尾部，总结对话时看哪些记忆真被调用过，就把它们固定进一个稳定、可缓存的块里。\n\n## 每轮重建上下文，别跟漂移较劲\n\n第四条原则：多数应用为保缓存热度跨轮复用上下文，文本里没问题，但易变的语音对话里这是个陷阱——用户一转话题，复用的上下文就立刻是错的。所以每一轮都从零件重新组装上下文窗口：近期消息摘要、用户画像卡、刚检索到的记忆、情绪信号给出的语气指引、实时应用状态。\n\n角色设计也帮了忙：Tolan 刻意做成外星人，因为没有现实参照物可锚定，用户能把自我投射上去，它会变成用户需要的样子；而且外星人表现得冲动、混乱也不奇怪，这种「混乱」读起来反而有魅力。团队还有一位内部科幻小说作家 Eliot 专职写角色设定。但人格一旦漂移就一文不值——他们跑了一套并行的语气监控系统，根据用户的情绪线索改变一句话的表达方式，却不改变角色是谁，在数百轮对话里保持身份一致。\n\n## 用 AI 造 AI\n\nPaula 透露，从去年年底开始，Claude 在他们 iOS 应用里共同编写的代码已经超过团队任何一位工程师。最反直觉的是质量不降反升：无崩溃率从 99.6% 升到 99.9%，运行时错误下降超过 50%，高活跃用户占比翻倍。最大教训是：智能体的上下文主要来自代码库本身，而不是 Claude MD 文件——「让代码库本身成为文档」要强大得多，所以他们让智能体把代码库标准化了。\n\n他们跑着一支真正的智能体舰队：实现智能体自由思考、直接写代码，对照快照反复检查到像素级完美；独立的审查智能体执行标准——多个 Claude 在人来看之前先互相审查；一个 PR 牧羊人盯着打开的拉取请求，对着 CI 失败和审查意见持续迭代到干净为止；还有分诊机器人对接所有入站 bug 报告，通过 MCP 接入 Linear、Sentry、Datadog，智能体可以重建一次崩溃、自行路由，经常自己开 PR 把 bug 修掉。\n\n一个代表性案例：他们做一个面向更年长人群的新角色，Elliot 用一天就建完了。智能体映射了代码中每个承载人格的界面，写了一份「声音圣经」，然后让五个评审从不同角度攻击它——原型忠实度、模型机制、代码标准、「一位持怀疑态度的 52 岁人的耳朵」、安全性——再对照真实生产日志跑三轮「查找、修复、验证」。七百多万 token、四个半小时算力之后，几周的工作量一个下午完成。\n\n## 本集带走\n\n- **两秒是生死线**：语音对话从用户说完到它开口必须落在两秒内，延迟要按管线逐阶段测量（首 token、检测话轮结束、转写、语音合成），不能靠「感觉慢」。\n- **按利害路由，不按成本**：关键话轮（首次对话、情绪严肃内容、危机语气）永远用最好的模型，闲聊和后台工作走小模型；三分之一话轮下放小模型对留存几乎无影响，但成本差五倍。\n- **记忆当检索系统做**：提取事实/偏好/情绪信号向量化存储，每晚压缩（去重、聚类、解矛盾），再按「哪些记忆真被调用过」固化进可缓存的稳定块。\n- **每轮重建上下文**：语音用户随时跳话题，复用缓存的上下文在用户一转向时就变成错的；从摘要、画像卡、检索记忆、语气指引、应用状态重新拼装。\n- **优化「坏打断」而非「少打断」**：识别哪些打断是真的，为此多付 60 毫秒也值得。\n- **管理智能体像管理人**：团队发现全力跑并发智能体后进步最大的是有管理背景的人——分解问题、带检查点委派、快速反馈、认真审查、知道何时亲自介入。他们甚至专门招「智能体工程管理」岗。",
+  "quotes": [
+    {
+      "en": "Early on, our latency drifted from two seconds to about two and a half seconds, and that half second tanked basically every metric in the product.",
+      "zh": "早期,我们的延迟从两秒漂移到了大约两秒半,而那半秒钟几乎让产品里的所有指标都崩了。",
+      "timestamp": "03:39",
+      "speaker": "Paula Dozsa"
+    },
+    {
+      "en": "So we built smart turn-taking that reads your speech pattern to decide whether an interruption is real, and we cut the worst early aborts by more than half.",
+      "zh": "所以我们构建了智能话轮转换,它会读取你的语音模式来判断一个打断是否是真实的,我们把最糟糕的过早中断削减了一半以上。",
+      "timestamp": "04:38",
+      "speaker": "Paula Dozsa"
+    },
+    {
+      "en": "Latency isn't just a number you check at the end, it's actually the product, and we measure every stage of the pipeline separately because it feels slow is useless.",
+      "zh": "延迟不只是你最后检查的一个数字,它实际上就是产品,我们把管线的每个阶段分开来测量,因为「感觉慢」是没有用的。",
+      "timestamp": "04:54",
+      "speaker": "Paula Dozsa"
+    },
+    {
+      "en": "And our main principle is that we route based on stakes, not on cost.",
+      "zh": "我们的主要原则是,我们基于利害关系而非成本来路由。",
+      "timestamp": "06:08",
+      "speaker": "Paula Dozsa"
+    },
+    {
+      "en": "For example, we have crisis or therapist-style tones, and we never cheap out on those.",
+      "zh": "举例来说,我们有危机类或治疗师风格的语气,我们在这些方面从不省钱。",
+      "timestamp": "06:24",
+      "speaker": "Paula Dozsa"
+    },
+    {
+      "en": "And we do a bunch of A-B experiments, and the surprising result we found there is that routing a third of our turns to the small model has almost no measurable effect on retention.",
+      "zh": "我们做了很多 A-B 实验,在那里我们发现的令人惊讶的结果是,把三分之一的话轮路由到小模型,对留存率几乎没有可测量的影响。",
+      "timestamp": "06:57",
+      "speaker": "Paula Dozsa"
+    },
+    {
+      "en": "Specifically, you should rebuild context and not fight drift.",
+      "zh": "具体来说,你应该重建上下文,而不是对抗漂移。",
+      "timestamp": "08:15",
+      "speaker": "Paula Dozsa"
+    },
+    {
+      "en": "But in a volatile voice conversation, it's a trap because the second the user pivots, your reuse context is actively wrong.",
+      "zh": "但在易变的语音对话里,这是个陷阱,因为一旦用户转移话题,你复用的上下文就立刻错了。",
+      "timestamp": "08:25",
+      "speaker": "Paula Dozsa"
+    },
+    {
+      "en": "Mostly because there's no real-world reference to anchor on, which means that users can project onto it, and it becomes what they need.",
+      "zh": "主要是因为没有现实世界的参照物可以锚定,这意味着用户可以把自我投射上去,它会变成用户所需要的样子。",
+      "timestamp": "09:06",
+      "speaker": "Paula Dozsa"
+    },
+    {
+      "en": "Second, we also know that personality is worthless if it drifts.",
+      "zh": "第二,我们也知道,如果人格漂移了,人格就一文不值。",
+      "timestamp": "09:39",
+      "speaker": "Paula Dozsa"
+    },
+    {
+      "en": "So I'm sure this is the case for most of you in the room now, but basically as of late last year, Claude has co-authored more code in our iOS app than any individual engineer in the team.",
+      "zh": "我相信现在对在座的各位大多数人来说都是如此,基本上从去年年底开始,在我们 iOS 应用中,Claude 共同编写的代码已经超过了团队里的任何一位工程师。",
+      "timestamp": "10:05",
+      "speaker": "Paula Dozsa"
+    },
+    {
+      "en": "And the biggest lesson in building that system is that an agent's context comes mostly from the code base itself, not so much from the Cloud MD file.",
+      "zh": "构建这套系统的最大教训是,智能体的上下文主要来自代码库本身,而不是那么来自 Claude MD 文件。",
+      "timestamp": "10:33",
+      "speaker": "Paula Dozsa"
+    },
+    {
+      "en": "So when the interface is your voice and the thing on the other side remembers you and has a personality, it stops being just software and starts being an actual relationship, which is why building it responsibly and building it well is worth obsessing over.",
+      "zh": "所以当界面是你的声音、而另一端的东西记得你并有自己的人格时,它就不再只是软件,而是变成了一段真实的关系,这也是为什么负责任地构建它、把它构建好,是值得为之痴迷的事。",
+      "timestamp": "12:26",
+      "speaker": "Paula Dozsa"
+    },
+    {
+      "en": "You basically have to decompose the problem, delegate it with checkpoints, give fast feedback, review the work seriously, and know when exactly to jump in.",
+      "zh": "你基本上必须把问题分解、带着检查点去委派、给出快速反馈、认真审查工作成果,并且知道什么时候该亲自介入。",
+      "timestamp": "14:23",
+      "speaker": "Paula Dozsa"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:39",
+      "speaker": "Unknown",
+      "en": "Early on, our latency drifted from two seconds to about two and a half seconds, and that half second tanked basically every metric in the product.",
+      "zh": "早期,我们的延迟从两秒漂移到了大约两秒半,而那半秒钟几乎让产品里的所有指标都崩了。"
+    },
+    {
+      "timestamp": "03:56",
+      "speaker": "Unknown",
+      "en": "Principle one is that you have to design for conversational volatility.",
+      "zh": "原则一是你必须为对话的波动性而设计。"
+    },
+    {
+      "timestamp": "04:38",
+      "speaker": "Unknown",
+      "en": "So we built smart turn-taking that reads your speech pattern to decide whether an interruption is real, and we cut the worst early aborts by more than half.",
+      "zh": "所以我们构建了智能话轮转换,它会读取你的语音模式来判断一个打断是否是真实的,我们把最糟糕的过早中断削减了一半以上。"
+    },
+    {
+      "timestamp": "04:54",
+      "speaker": "Unknown",
+      "en": "Latency isn't just a number you check at the end, it's actually the product, and we measure every stage of the pipeline separately because it feels slow is useless.",
+      "zh": "延迟不只是你最后检查的一个数字,它实际上就是产品,我们把管线的每个阶段分开来测量,因为「感觉慢」是没有用的。"
+    },
+    {
+      "timestamp": "05:37",
+      "speaker": "Unknown",
+      "en": "We run a tiered fleet.",
+      "zh": "我们运行一个分层机队。"
+    },
+    {
+      "timestamp": "06:08",
+      "speaker": "Unknown",
+      "en": "And our main principle is that we route based on stakes, not on cost.",
+      "zh": "我们的主要原则是,我们基于利害关系而非成本来路由。"
+    },
+    {
+      "timestamp": "06:24",
+      "speaker": "Unknown",
+      "en": "For example, we have crisis or therapist-style tones, and we never cheap out on those.",
+      "zh": "举例来说,我们有危机类或治疗师风格的语气,我们在这些方面从不省钱。"
+    },
+    {
+      "timestamp": "06:57",
+      "speaker": "Unknown",
+      "en": "And we do a bunch of A-B experiments, and the surprising result we found there is that routing a third of our turns to the small model has almost no measurable effect on retention.",
+      "zh": "我们做了很多 A-B 实验,在那里我们发现的令人惊讶的结果是,把三分之一的话轮路由到小模型,对留存率几乎没有可测量的影响。"
+    },
+    {
+      "timestamp": "07:27",
+      "speaker": "Unknown",
+      "en": "So instead, we see memory as a sort of retrieval system.",
+      "zh": "所以我们反而把记忆看作一种检索系统。"
+    },
+    {
+      "timestamp": "08:15",
+      "speaker": "Unknown",
+      "en": "Specifically, you should rebuild context and not fight drift.",
+      "zh": "具体来说,你应该重建上下文,而不是对抗漂移。"
+    },
+    {
+      "timestamp": "08:25",
+      "speaker": "Unknown",
+      "en": "But in a volatile voice conversation, it's a trap because the second the user pivots, your reuse context is actively wrong.",
+      "zh": "但在易变的语音对话里,这是个陷阱,因为一旦用户转移话题,你复用的上下文就立刻错了。"
+    },
+    {
+      "timestamp": "09:06",
+      "speaker": "Unknown",
+      "en": "Mostly because there's no real-world reference to anchor on, which means that users can project onto it, and it becomes what they need.",
+      "zh": "主要是因为没有现实世界的参照物可以锚定,这意味着用户可以把自我投射上去,它会变成用户所需要的样子。"
+    },
+    {
+      "timestamp": "09:39",
+      "speaker": "Unknown",
+      "en": "Second, we also know that personality is worthless if it drifts.",
+      "zh": "第二,我们也知道,如果人格漂移了,人格就一文不值。"
+    },
+    {
+      "timestamp": "10:05",
+      "speaker": "Unknown",
+      "en": "So I'm sure this is the case for most of you in the room now, but basically as of late last year, Claude has co-authored more code in our iOS app than any individual engineer in the team.",
+      "zh": "我相信现在对在座的各位大多数人来说都是如此,基本上从去年年底开始,在我们 iOS 应用中,Claude 共同编写的代码已经超过了团队里的任何一位工程师。"
+    },
+    {
+      "timestamp": "10:33",
+      "speaker": "Unknown",
+      "en": "And the biggest lesson in building that system is that an agent's context comes mostly from the code base itself, not so much from the Cloud MD file.",
+      "zh": "构建这套系统的最大教训是,智能体的上下文主要来自代码库本身,而不是那么来自 Claude MD 文件。"
+    },
+    {
+      "timestamp": "11:00",
+      "speaker": "Unknown",
+      "en": "So multiple Claude's basically review each other before a human looks.",
+      "zh": "所以基本上是多个 Claude 在人来查看之前互相审查。"
+    },
+    {
+      "timestamp": "11:48",
+      "speaker": "Unknown",
+      "en": "Archetype fidelity, the model mechanics, our code standards, the ears of a skeptical 52-year-old, and safety.",
+      "zh": "原型忠实度、模型机制、我们的代码标准、一位持怀疑态度的 52 岁人的耳朵,以及安全性。"
+    },
+    {
+      "timestamp": "12:26",
+      "speaker": "Unknown",
+      "en": "So when the interface is your voice and the thing on the other side remembers you and has a personality, it stops being just software and starts being an actual relationship, which is why building it responsibly and building it well is worth obsessing over.",
+      "zh": "所以当界面是你的声音、而另一端的东西记得你并有自己的人格时,它就不再只是软件,而是变成了一段真实的关系,这也是为什么负责任地构建它、把它构建好,是值得为之痴迷的事。"
+    },
+    {
+      "timestamp": "14:23",
+      "speaker": "Unknown",
+      "en": "You basically have to decompose the problem, delegate it with checkpoints, give fast feedback, review the work seriously, and know when exactly to jump in.",
+      "zh": "你基本上必须把问题分解、带着检查点去委派、给出快速反馈、认真审查工作成果,并且知道什么时候该亲自介入。"
+    }
+  ],
+  "voice_script": "今天要讲的这个产品叫 Tolan，是一个语音优先的 AI 陪伴应用。说白了，就是一个有个性的小外星人，记得你、陪着你，用户像跟朋友说话一样跟它聊天。听起来简单，但它已经有超过 400 万小时的累计语音对话了。讲这个故事的，是 Tolan 团队负责 iOS 应用的工程师 Paula，她之前来自 xAI 和 Spotify，还创立过一家叫 Imagi 的公司。在一个演讲里，她把做这种语音陪伴产品的工程心得掰开揉碎讲了一遍。\n\n先交代一下为什么这事难。文字聊天机器人，轮次慢，上下文稳定，用户会等几秒、读回复、保持话题——市面上几乎所有大模型应用都建立在这个假设上。语音正好相反：轮次极快，上下文极度易变。用户一边做饭、走路、快睡着的时候跟它说话，会在句子中间换话题、会打断、会说\"呃\"。\n\n这就引出 Paula 讲的第一条原则：为对话的波动性而设计。举个例子，有人正讲着分手的故事，突然来一句\"等等，我是不是没关炉子？\"然后又讲回来。这意味着得修好那些听起来微小、但其实\"就是产品本身\"的东西：你没法在它句子中间打断它；一声短促的\"嗯\"\"对\"不会被识别成一个话轮；脏话会被剔除掉。\n\n更深一层的教训是：不要优化\"更少的打断\"，要优化\"更少的坏打断\"——也就是智能体介入得太早的那种。为此他们构建了智能话轮转换，读取用户的语音模式来判断一个打断是不是真实的，把最糟糕的过早中断削减了一半以上，并且乐意为此多付出大约 60 毫秒的延迟。\n\n但多付 60 毫秒，前提是你知道整体延迟都花在哪儿了。这就是第二条原则，有句话说得特别准：\"延迟不只是你最后检查的一个数字，它实际上就是产品，我们把管线的每个阶段分开来测量，因为'感觉慢'是没有用的。\"这条管线是：用户停止说话，检测话轮结束，转写，模型产生第一个 token——这一块通常是最大的，大概一秒——然后生成完毕，文字转语音产出第一个字节，最后播放。质量上最大的飞跃，来自迁移到 responses API 上的 GPT 5.1，把语音起始时间显著削短了。\n\n那延迟控制住了，钱呢？这里有个很关键的思路：分层机队。不是每个话轮都发给同一个模型。承载\"你与 Tolan 关系\"的关键话轮——比如第一次对话、头几天的新手期——用前沿模型；轻量闲聊用更小更快的模型。每个话轮上都跑一个叫 Tone Router 的小分类器，读取对话的情绪状态来决定路由。Paula 的原话是：\"我们的主要原则是，基于利害关系而非成本来路由。\"像危机类或者治疗师风格的语气，在这些方面从不省钱。为什么这么费劲？因为前沿模型的成本大约是小模型的五倍，路由是单位经济性能走通的关键。而且 A/B 实验还发现一个意外的结果：把三分之一的话轮路由到小模型，对留存率几乎没有可测量的影响。\n\n聊得快、聊得省，还差一个东西才\"像陪伴\"——记忆。朴素的做法是把全部对话历史当文字记录塞进上下文，但这装不进两秒循环，还会导致长会话质量下降，模型在大上下文里迷失、产生幻觉。所以他们的做法是把记忆当作检索系统来做：从对话里提取事实、偏好和情绪氛围信号，向量化后存进向量数据库，查找低于 50 毫秒。每晚还做一次压缩，合并重复、聚类相关记忆、解决矛盾、去掉噪音。\n\n这里有两个巧思值得一提。其一，不只针对用户最后一条消息做检索，还会围绕\"这个人以及这段关系\"生成内部问题，拿这些问题去检索。其二，记忆分成稳定和不稳定两部分：易变的放在提示词的实时尾部；总结对话的时候看哪些记忆真被调用过，就把它们固定进一个稳定、可缓存的块里。\n\n顺着记忆这个思路，就到了第四条原则：每一轮都重新组装上下文，别跟漂移较劲。多数应用为了保住缓存热度，跨轮复用上下文，在文本里没问题。但在易变的语音对话里，这是个陷阱——用户一转话题，复用的上下文立刻就是错的。所以 Tolan 每一轮都从零件重新拼装：近期消息摘要、用户画像卡、刚检索到的记忆、情绪信号给出的语气指引，还有实时应用状态。\n\n角色设计也帮了大忙。Tolan 刻意做成外星人，因为没有现实参照物可以锚定，用户能把自我投射上去，它会变成用户需要的样子。而且外星人表现得冲动、混乱也不奇怪，这种\"混乱\"反而有魅力。团队还有一位内部科幻小说作家 Elliot，专职写角色设定。但有一点很坚决：人格一旦漂移就一文不值。所以他们跑了一套并行的语气监控系统，可以根据用户的情绪线索改变一句话的表达方式，却不改变角色是谁，在数百轮对话里保持身份一致。\n\n最后这一部分可能是最反直觉的：他们用 AI 造 AI。Paula 透露，从去年年底开始，Claude 在他们 iOS 应用里共同编写的代码，已经超过了团队任何一位工程师。更意外的是质量不降反升：无崩溃率从 99.6% 升到 99.9%，运行时错误下降超过 50%，高活跃用户占比翻倍。这里面最大的教训是：智能体的上下文主要来自代码库本身，而不是那些说明文档——\"让代码库本身成为文档\"要强大得多，所以他们干脆让智能体把代码库标准化了。\n\n他们跑着一支真正的智能体舰队。实现智能体自由思考、直接写代码，对照快照反复检查到像素级完美；独立的审查智能体执行标准，多个 Claude 在人来看之前先互相审查；一个 PR 牧羊人盯着打开的拉取请求，对着持续集成失败和审查意见一直迭代到干净为止；还有分诊机器人对接所有入站 bug 报告，接入 Linear、Sentry 和 Datadog，能重建一次崩溃、自行路由，经常自己开 PR 把 bug 修掉。\n\n举个代表性案例。他们要做一个面向更年长人群的新角色，Elliot 用一天就建完了。智能体映射了代码中每个承载人格的界面，写了一份\"声音圣经\"，然后让五个评审从不同角度攻击它——原型忠实度、模型机制、代码标准、\"一位持怀疑态度的 52 岁人的耳朵\"，还有安全性——再对照真实生产日志跑三轮\"查找、修复、验证\"。花了七百多万 token、四个半小时算力之后，几周的工作量一个下午就完成了。\n\n还有个细节挺有意思：他们发现全力跑并发智能体之后，进步最大的是有管理背景的人——会分解问题、带检查点委派、给快速反馈、认真审查、知道什么时候亲自介入。他们甚至专门招\"智能体工程管理\"岗。\n\n回头看，这一集其实就讲了一个道理：语音陪伴不是给文字聊天机器人加个麦克风，而是从延迟、路由、记忆到上下文组装，每一层都得照着\"人说话的方式\"重新设计。用 Paula 那句话收尾——早期延迟从两秒漂移到两秒半，而那半秒钟，几乎让产品里的所有指标都崩了。"
+}

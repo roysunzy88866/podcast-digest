@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Marc Brooker]] [[Ben Celebicic]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]] [[Paul Bakaus]]
+[[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason Lemkin":2,"Harry Stebbings":16,"Cursor":60,"SpaceX":15,"OpenRouter":10,"Stripe":31,"Anthropic":124,"Workday":4,"Microsoft":25,"Meta":32}</script>
+<script type="application/json" class="pd-epn">{"Jason Lemkin":2,"Harry Stebbings":16,"Cursor":61,"SpaceX":15,"OpenRouter":10,"Stripe":31,"Anthropic":125,"Workday":4,"Microsoft":25,"Meta":32}</script>
 
 <script>
 (function(){

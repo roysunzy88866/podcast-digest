@@ -7,23 +7,24 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Nathan</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Nathan">NA</div><div class="pi"><h1 class="pt">Nathan</h1><div class="byl">The Cognitive Revolution 联合主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Nathan">NA</div><div class="pi"><h1 class="pt">Nathan</h1><div class="byl">The Cognitive Revolution 联合主持</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]] — 作为联合主持
 - [[2026-08-28-cogrev-ai-am-highlights-recursive-self-improvem|《RL环境的供应链黑箱与模型的分工时代》]] — 作为主持
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|《数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆》]] — 作为主持
+- [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[RAG]] · [[推理]] · [[Anthropic]] · [[Flo Crivello]] · [[Inherent Laboratories]] · [[Pete Johnson]] · [[Lindy]] · [[Vercel]] · [[MongoDB]]
+[[智能体]] · [[Anthropic]] · [[RAG]] · [[MCP]] · [[推理]] · [[Flo Crivello]] · [[Inherent Laboratories]] · [[Pete Johnson]] · [[Wade Foster]] · [[Lindy]]
 
-<script type="application/json" class="pd-epn">{"智能体":258,"RAG":10,"推理":46,"Anthropic":124,"Flo Crivello":1,"Inherent Laboratories":1,"Pete Johnson":1,"Lindy":2,"Vercel":17,"MongoDB":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":261,"Anthropic":125,"RAG":10,"MCP":45,"推理":46,"Flo Crivello":1,"Inherent Laboratories":1,"Pete Johnson":1,"Wade Foster":1,"Lindy":2}</script>
 
 <script>
 (function(){

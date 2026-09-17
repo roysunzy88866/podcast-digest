@@ -1,0 +1,404 @@
+{
+  "episode_id": "2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz",
+  "podcast": "精选演讲",
+  "date": "2026-09-15",
+  "tags": [
+    "语音 AI",
+    "智能体",
+    "AI 编程",
+    "延迟优化",
+    "AI 陪伴"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "paula-dozsa",
+      "type": "person",
+      "role": "guest",
+      "name": "Paula Dozsa",
+      "file": "Paula Dozsa",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "tolan",
+      "type": "company",
+      "role": "company",
+      "name": "Tolan",
+      "file": "Tolan",
+      "primary": true,
+      "how_described": "本集主角:一个语音优先的 AI 陪伴产品,一个有个性、记得你的小外星人,用户像跟朋友一样大声跟它说话,累计语音对话超 400 万小时",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            89.389,
+            90.029
+          ],
+          "quote": "This is Tolan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            100.575,
+            103.977
+          ],
+          "quote": "I don't know if the audio setup works here, but I will try talking to my Tolan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            109.32,
+            111.802
+          ],
+          "quote": "So you can see my Tolan here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            527.137,
+            532.982
+          ],
+          "quote": "And what also really helps us in the case of Tolan is that our characters aren't generic or assistants with no personality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            533.683,
+            541.03
+          ],
+          "quote": "Everyone is crafted, and we in fact have an in-house science fiction novelist, Eliot, who writes the Tolan character lore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            765.769,
+            770.792
+          ],
+          "quote": "And after a year with Tolan, I think this is truly one of the most interesting places in the world to be an engineer right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            877.563,
+            878.483
+          ],
+          "quote": "And yeah, that's Tolan.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集既是产品核心(优化坏打断、避免智能体介入太早),又讲了内部如何管理一支智能体舰队——实现、审查、PR 牧羊人、分诊机器人,管理智能体像管理人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            270.418,
+            278.225
+          ],
+          "quote": "And the deeper lesson was to stop optimizing for fewer interruptions and start optimizing for fewer bad ones where the agent would jump in way too early.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            633.919,
+            641.024
+          ],
+          "quote": "And the biggest lesson in building that system is that an agent's context comes mostly from the code base itself, not so much from the Cloud MD file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            672.023,
+            687.85
+          ],
+          "quote": "And we also have a triage bot that fires on every inbound bug report that we get, and they're all wired through MCP into linear, into Sentry, Datadog, so an agent can reconstruct a crash and route it itself and oftentimes open the PR on its own and just fix the bug.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            837.921,
+            848.347
+          ],
+          "quote": "We have iOS and backend product engineering roles, applied AI engineering, gameplay engineering, and one specific role I want to flag, which is agent engineering management.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "type": "concept",
+      "role": "concept",
+      "name": "延迟 (latency)",
+      "file": "延迟",
+      "primary": true,
+      "how_described": "本集反复强调延迟就是产品:语音往返必须在两秒内,漂移到两秒半几乎让所有指标崩了,要按管线逐阶段分开测量",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            219.67,
+            227.273
+          ],
+          "quote": "Early on, our latency drifted from two seconds to about two and a half seconds, and that half second tanked basically every metric in the product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            287.492,
+            290.614
+          ],
+          "quote": "And we happily paid about 60 milliseconds of extra latency to do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            294.036,
+            301.922
+          ],
+          "quote": "Latency isn't just a number you check at the end, it's actually the product, and we measure every stage of the pipeline separately because it feels slow is useless.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集说让陪伴体像陪伴的关键是记忆:当检索系统做,提取事实/偏好/情绪信号向量化存储,每晚压缩,分成稳定与不稳定两部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            447.938,
+            450.459
+          ],
+          "quote": "So instead, we see memory as a sort of retrieval system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            476.124,
+            478.306
+          ],
+          "quote": "So, and we also split memory into two parts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            478.346,
+            480.227
+          ],
+          "quote": "We have stable memory and unstable memory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集主张易变的语音对话里每轮从零件重建上下文窗口(摘要、画像卡、检索记忆、语气指引、应用状态),不要为保缓存热度跨轮复用;智能体的上下文主要来自代码库本身",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            179.73,
+            186.056
+          ],
+          "quote": "So the core difference really is that in a text chatbot, turns are relatively slow and context is stable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            205.743,
+            207.044
+          ],
+          "quote": "And the context is volatile.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            443.216,
+            447.018
+          ],
+          "quote": "It leads to the model getting lost in the middle of a huge context and also hallucinating.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            493,
+            495.563
+          ],
+          "quote": "The last principle is around context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            495.583,
+            498.647
+          ],
+          "quote": "Specifically, you should rebuild context and not fight drift.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            499.387,
+            502.971
+          ],
+          "quote": "So most apps reuse context across turns to keep the cache warm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            505.815,
+            512.081
+          ],
+          "quote": "But in a volatile voice conversation, it's a trap because the second the user pivots, your reuse context is actively wrong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            512.622,
+            515.725
+          ],
+          "quote": "So every turn, we reassemble the context window from parts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            633.919,
+            641.024
+          ],
+          "quote": "And the biggest lesson in building that system is that an agent's context comes mostly from the code base itself, not so much from the Cloud MD file.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说从去年年底开始,Claude 在 Tolan iOS 应用里共同编写的代码超过了团队任何一位工程师,且无崩溃率、运行时错误反而变好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            605.168,
+            614.619
+          ],
+          "quote": "So I'm sure this is the case for most of you in the room now, but basically as of late last year, Claude has co-authored more code in our iOS app than any individual engineer in the team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            660.538,
+            663.919
+          ],
+          "quote": "So multiple Claude's basically review each other before a human looks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "retrieval",
+      "type": "concept",
+      "role": "concept",
+      "name": "检索 (retrieval)",
+      "file": "检索",
+      "primary": true,
+      "how_described": "本集把记忆做成检索系统:向量化存进向量数据库,查找低于 50 毫秒,还会围绕「这个人及这段关系」生成内部问题去检索",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            447.938,
+            450.459
+          ],
+          "quote": "So instead, we see memory as a sort of retrieval system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": false,
+      "how_described": "本集说几乎所有 LLM 应用都建立在文字聊天「轮次慢、上下文稳定」的假设上,而语音打破了这一假设",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            191.015,
+            193.076
+          ],
+          "quote": "And almost every LLM app assumes that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            251.702,
+            256.164
+          ],
+          "quote": "Most LLM apps assume that you'll have a clean and stable conversation, and we had to build for the opposite.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

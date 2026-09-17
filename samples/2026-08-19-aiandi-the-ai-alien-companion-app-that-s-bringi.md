@@ -136,9 +136,9 @@ Elliot 特别强调：从"氛围提示词"到真正让人持久觉得引人入�
 
 **换个口味**
 
+- [[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|Tolan 如何做语音优先的 AI 陪伴体]]<span class="pd-rz">同概念:Tolan、记忆 (memory)、LLM</span>
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同公司:Anthropic · 同概念:LLM</span>
 - [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:提示词 (prompt)、ChatGPT</span>
-- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同概念:记忆 (memory)、ChatGPT</span>
 
 </div>
 </div>

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":35,"Docker":3,"Apple":17,"基准测试":10,"OpenRouter":10,"开源模型":17,"编码智能体":13,"智能体":258,"推理":46}</script>
+<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":35,"Docker":3,"Apple":17,"基准测试":10,"OpenRouter":10,"开源模型":17,"编码智能体":13,"智能体":261,"推理":46}</script>
 
 <script>
 (function(){

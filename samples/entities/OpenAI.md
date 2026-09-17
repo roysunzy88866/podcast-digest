@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>119</b> 集 · <b>18</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>120</b> 集 · <b>18</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -128,6 +128,7 @@ unlisted: true
 - **[[2026-09-15-talks-voice-agents-can-just-do-things-charlie|《语音智能体不一定要说话:OpenAI 的三种语音交互模式》]]**(00:13起):嘉宾所在公司；其 Realtime 模型系列不做转录、以原生音频作为 token 训练，音频进音频出
 - **[[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]]**(28:09起):本集 Andrew 以它回击唱衰者：「说没有前沿实验室，然后我们赢得了 OpenAI」，「现在我们在服务 GPT」。
 - **[[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]]**(35:43起):被用来说明成果定价的难题：为 OpenAI 做外向拓客极其高效，为没有网站的种子期公司做则极其低效，所以只能为工作收费、无法为成果收费。
+- **[[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]]**(31:01起):本集说 OpenAI 如今已是大型科技公司，会把模型做到世界最强，但『他们不可能构建一切』。
 - **[[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]]**(45:04起):提到其与 Reddit、Google 的商业协议，以及早期宣言想把文本验证外包给第三方（如 Trustpilot）。
 
 ## ① 提到它的金句
@@ -172,7 +173,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*119 集*
+*120 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -292,6 +293,7 @@ unlisted: true
 - [[2026-09-15-talks-voice-agents-can-just-do-things-charlie|《语音智能体不一定要说话:OpenAI 的三种语音交互模式》]] — 作为被讨论公司
 - [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]] — 作为被讨论公司(提及)
 - [[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]] — 作为被讨论公司(提及)
+- [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为被讨论公司(提及)
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为概念(提及)
 
 ## ③ 关联
@@ -300,7 +302,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Google]] · [[Cursor]] · [[推理]] · [[Codex]] · [[NVIDIA]] · [[Claude]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":258,"Anthropic":124,"ChatGPT":68,"Google":44,"Cursor":60,"推理":46,"Codex":50,"NVIDIA":35,"Claude":59,"Lenny":67}</script>
+<script type="application/json" class="pd-epn">{"智能体":261,"Anthropic":125,"ChatGPT":69,"Google":44,"Cursor":61,"推理":46,"Codex":50,"NVIDIA":35,"Claude":60,"Lenny":67}</script>
 
 <script>
 (function(){

@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Bohan Li]] [[Charlie Guo]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Sumanyu Sharma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Shopify":9,"River":2,"智能体":258,"Sydney":1,"沙箱":50,"LLM":33,"pull request":2,"超级智能":4,"古德哈特定律":1,"Omaki":1}</script>
+<script type="application/json" class="pd-epn">{"Shopify":9,"River":2,"智能体":261,"Sydney":1,"沙箱":50,"LLM":34,"pull request":2,"超级智能":4,"古德哈特定律":1,"Omaki":1}</script>
 
 <script>
 (function(){

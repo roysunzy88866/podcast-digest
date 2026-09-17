@@ -37,7 +37,7 @@ unlisted: true
 
 [[Lenny]] · [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Airbnb]] · [[ChatGPT]] · [[PM]] · [[Codex]] · [[Cognition]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Anthropic":124,"智能体":258,"OpenAI":119,"Airbnb":10,"ChatGPT":68,"PM":3,"Codex":50,"Cognition":17,"Claude Code":62}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Anthropic":125,"智能体":261,"OpenAI":120,"Airbnb":10,"ChatGPT":69,"PM":3,"Codex":50,"Cognition":17,"Claude Code":62}</script>
 
 <script>
 (function(){

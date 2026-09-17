@@ -31,7 +31,7 @@ unlisted: true
 
 [[OpenAI]] · [[计算机使用]] · [[浏览器使用]] · [[Codex]] · [[ChatPRD]] · [[MCP]] · [[vibe coding]] · [[QA]] · [[Divoom]] · [[Figma]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":119,"计算机使用":12,"浏览器使用":7,"Codex":50,"ChatPRD":5,"MCP":44,"vibe coding":35,"QA":2,"Divoom":1,"Figma":19}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":120,"计算机使用":12,"浏览器使用":7,"Codex":50,"ChatPRD":5,"MCP":45,"vibe coding":35,"QA":2,"Divoom":1,"Figma":19}</script>
 
 <script>
 (function(){

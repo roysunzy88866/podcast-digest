@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]] [[Charlie Guo]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Claire]] [[Tobi Lütke]] [[Sumanyu Sharma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":9,"AWS":13,"智能体":258,"Strands":1,"Agent Core":1,"on call":1,"事后分析":2,"智能体政策":1,"Dogwood":1,"规范":2}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":9,"AWS":13,"智能体":261,"Strands":1,"Agent Core":1,"on call":1,"事后分析":2,"智能体政策":1,"Dogwood":1,"规范":2}</script>
 
 <script>
 (function(){

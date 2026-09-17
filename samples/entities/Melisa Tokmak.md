@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":258,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":19,"OpenAI":119,"Anthropic":124}</script>
+<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":261,"基础服务":1,"私募股权":1,"自主企业":1,"AI 整合公司":1,"主观能动性":19,"OpenAI":120,"Anthropic":125}</script>
 
 <script>
 (function(){

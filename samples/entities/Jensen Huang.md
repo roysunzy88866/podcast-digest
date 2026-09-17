@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":35,"深度学习":3,"智能体":258,"沙箱":50,"Condi Rice":1,"harness":35,"Jerry":1,"AMD":3,"前沿模型":16,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":35,"深度学习":3,"智能体":261,"沙箱":50,"Condi Rice":1,"harness":35,"Jerry":1,"AMD":3,"前沿模型":16,"Sega":1}</script>
 
 <script>
 (function(){

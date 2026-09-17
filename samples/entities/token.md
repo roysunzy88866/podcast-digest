@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>token</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>20</b> 集 · <b>27</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="token">TO</div><div class="pi"><h1 class="pt">token</h1><div class="byl">概念</div><div class="nums">本站收录 <b>21</b> 集 · <b>27</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -31,6 +31,7 @@ unlisted: true
 - **[[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model|《斯坦福语言学家的代币经济学：你的 token 贬值了》]]**(30:37起):本集讨论 AI 计费与价值的基本单位：其真实成本估计每 1 美元可能是 2 到 20 美元，且用途正从代码生成迁移到思考和解释
 - **[[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|《鼠标力：为智能体时代找回「马力」这把尺子》]]**(02:20起):本集说 token 只是系统的输出而非价值本身，必须被干净地追溯到成果（消灭多少 bug、关闭多少支持请求）；行业内存在超支+使用不足的厄运循环。
 - **[[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]]**(11:01起):本集说智能体工作流烧 token 极凶,有 YouTube 博主估算 200 美元订阅相当于每月 1.5 万美元的 API token 用量,公司等于在价格倾销。
+- **[[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]]**(23:23起):本集谈到 token 支出已成真问题：有工程师每月花 30,000 美元买 token；Zapier 暂不设预算、给成本仪表盘自我管理，Wade 预计 token 预算终将成真且属于 AI 素养的一部分。
 
 ## ① 提到它的金句
 
@@ -92,7 +93,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*20 集*
+*21 集*
 
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|《不会写代码的人如何成为全职 vibe coder》]] — 作为概念
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|《Claude Code 负责人：写代码已被解决，下一步是什么》]] — 作为概念(提及)
@@ -114,14 +115,15 @@ unlisted: true
 - [[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model|《斯坦福语言学家的代币经济学：你的 token 贬值了》]] — 作为概念
 - [[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|《鼠标力：为智能体时代找回「马力」这把尺子》]] — 作为概念
 - [[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]] — 作为概念(提及)
+- [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Cursor]] · [[OpenAI]] · [[推理]] · [[NVIDIA]] · [[Codex]] · [[后训练]] · [[OpenRouter]] · [[harness]]
+[[智能体]] · [[Anthropic]] · [[Cursor]] · [[OpenAI]] · [[推理]] · [[ChatGPT]] · [[NVIDIA]] · [[Codex]] · [[后训练]] · [[OpenRouter]]
 
-<script type="application/json" class="pd-epn">{"智能体":258,"Anthropic":124,"Cursor":60,"OpenAI":119,"推理":46,"NVIDIA":35,"Codex":50,"后训练":22,"OpenRouter":10,"harness":35}</script>
+<script type="application/json" class="pd-epn">{"智能体":261,"Anthropic":125,"Cursor":61,"OpenAI":120,"推理":46,"ChatGPT":69,"NVIDIA":35,"Codex":50,"后训练":22,"OpenRouter":10}</script>
 
 <script>
 (function(){

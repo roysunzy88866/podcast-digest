@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Base 10":1,"推理":46,"专用推理":1,"开源模型":17,"后训练":22,"持续学习":8,"GPU 容量":1,"分布式推理":1,"Cursor":60,"Decagon":7}</script>
+<script type="application/json" class="pd-epn">{"Base 10":1,"推理":46,"专用推理":1,"开源模型":17,"后训练":22,"持续学习":8,"GPU 容量":1,"分布式推理":1,"Cursor":61,"Decagon":7}</script>
 
 <script>
 (function(){

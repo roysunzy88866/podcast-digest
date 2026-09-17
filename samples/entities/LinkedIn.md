@@ -41,7 +41,7 @@ unlisted: true
 
 [[Lenny]] · [[Ajay Prakash]] · [[One Schema]] · [[Brian Balfour]] · [[编码智能体]] · [[YC]] · [[ChatGPT]] · [[MCP]] · [[Apten]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Ajay Prakash":1,"One Schema":1,"Brian Balfour":1,"编码智能体":13,"YC":12,"ChatGPT":68,"MCP":44,"Apten":1,"Claude":59}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Ajay Prakash":1,"One Schema":1,"Brian Balfour":1,"编码智能体":13,"YC":12,"ChatGPT":69,"MCP":45,"Apten":1,"Claude":60}</script>
 
 <script>
 (function(){

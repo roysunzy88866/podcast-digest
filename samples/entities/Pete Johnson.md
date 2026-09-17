@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":3,"MongoDB":4,"Voyage AI":1,"Anthropic":124,"Eleven Labs":6,"Uber":9,"智能体":258,"智能体记忆":2,"RAG":10,"嵌入模型":2}</script>
+<script type="application/json" class="pd-epn">{"Nathan":4,"MongoDB":4,"Voyage AI":1,"Anthropic":125,"Eleven Labs":6,"Uber":9,"智能体":261,"智能体记忆":2,"RAG":10,"嵌入模型":2}</script>
 
 <script>
 (function(){

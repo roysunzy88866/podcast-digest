@@ -46,7 +46,7 @@ aliases: ["AI coding"]
 
 [[LLM]] · [[AGI]] · [[ChatGPT]] · [[a16z]] · [[Marc Andreessen]] · [[Jacob Efron]] · [[Jon Noronha]] · [[Andrew Chen]] · [[Lenny]] · [[Benedict Evans]]
 
-<script type="application/json" class="pd-epn">{"LLM":33,"AGI":23,"ChatGPT":68,"a16z":14,"Marc Andreessen":2,"Jacob Efron":1,"Jon Noronha":1,"Andrew Chen":1,"Lenny":67,"Benedict Evans":2}</script>
+<script type="application/json" class="pd-epn">{"LLM":34,"AGI":23,"ChatGPT":69,"a16z":14,"Marc Andreessen":2,"Jacob Efron":1,"Jon Noronha":1,"Andrew Chen":1,"Lenny":67,"Benedict Evans":2}</script>
 
 <script>
 (function(){

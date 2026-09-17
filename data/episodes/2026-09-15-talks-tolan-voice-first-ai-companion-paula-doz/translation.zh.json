@@ -1,0 +1,1514 @@
+[
+ {
+  "seg": 0,
+  "start": 12.795,
+  "end": 13.356,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.436,
+  "end": 15.298,
+  "speaker": "Unknown",
+  "en": "Thank you so much for attending this talk.",
+  "zh": "非常感谢大家来参加这个演讲。"
+ },
+ {
+  "seg": 2,
+  "start": 15.698,
+  "end": 22.605,
+  "speaker": "Unknown",
+  "en": "My name is Paula, and I am one of the engineers on the Toland team, specifically focusing on our iOS app.",
+  "zh": "我叫 Paula，是 Toland 团队的工程师之一，主要负责我们的 iOS 应用。"
+ },
+ {
+  "seg": 3,
+  "start": 23.546,
+  "end": 32.615,
+  "speaker": "Unknown",
+  "en": "And for the next 20 minutes or so, I'll be talking about what it takes to build a voice-first AI companion and also about how we use AI to build AI internally.",
+  "zh": "在接下来的 20 分钟左右，我会讲讲构建一个语音优先的 AI 陪伴体需要什么，以及我们内部如何用 AI 来构建 AI。"
+ },
+ {
+  "seg": 4,
+  "start": 34.702,
+  "end": 37.304,
+  "speaker": "Unknown",
+  "en": "So humanity has always imagined the perfect companion.",
+  "zh": "人类一直在想象完美的陪伴者。"
+ },
+ {
+  "seg": 5,
+  "start": 37.784,
+  "end": 45.949,
+  "speaker": "Unknown",
+  "en": "So we have Caravaggio on the left 400 years ago painting an angel leaning over St. Matthew's shoulder, literally guiding his hand as he writes.",
+  "zh": "400 年前，我们有左边的卡拉瓦乔，画了一位天使俯身在圣马太的肩上，在他写作时 literally 在引导他的手。"
+ },
+ {
+  "seg": 6,
+  "start": 46.91,
+  "end": 50.992,
+  "speaker": "Unknown",
+  "en": "This is an example of a companion being a presence that makes you better at being you.",
+  "zh": "这是一个例子，说明陪伴者是一种让你更好地成为你自己的存在。"
+ },
+ {
+  "seg": 7,
+  "start": 51.893,
+  "end": 58.217,
+  "speaker": "Unknown",
+  "en": "And then we have Tinkerbell, the devoted little sidekick who believes in you so fiercely that the whole theater has to clap to keep her alive.",
+  "zh": "然后我们有小叮当，那个忠诚的小跟班，她如此坚定地相信你，以至于整个剧场都必须鼓掌才能让她活下去。"
+ },
+ {
+  "seg": 8,
+  "start": 59.083,
+  "end": 65.167,
+  "speaker": "Unknown",
+  "en": "And of course, on the right, we have Samwise, who can't carry the ring for Frodo, but says, I can carry you.",
+  "zh": "当然，右边我们有山姆怀斯，他不能替 Frodo 承受魔戒，但他会说：「我可以背你。」"
+ },
+ {
+  "seg": 9,
+  "start": 66.028,
+  "end": 68.75,
+  "speaker": "Unknown",
+  "en": "The companion is pure, unconditional loyalty.",
+  "zh": "陪伴者是纯粹、无条件的忠诚。"
+ },
+ {
+  "seg": 10,
+  "start": 69.531,
+  "end": 71.392,
+  "speaker": "Unknown",
+  "en": "And it goes far beyond these three.",
+  "zh": "而且远不止这三个。"
+ },
+ {
+  "seg": 11,
+  "start": 71.892,
+  "end": 74.014,
+  "speaker": "Unknown",
+  "en": "Every hero has some sort of guiding spirit.",
+  "zh": "每个英雄都有某种引导精神。"
+ },
+ {
+  "seg": 12,
+  "start": 74.594,
+  "end": 82.9,
+  "speaker": "Unknown",
+  "en": "And these are all different stories, but they exhibit the same longing for something that listens, remembers you, and is wholly specifically yours.",
+  "zh": "这些都是不同的故事，但它们都展现出同样的渴望：渴望一个会倾听、记得你、且完全专属于你的存在。"
+ },
+ {
+  "seg": 13,
+  "start": 83.641,
+  "end": 86.643,
+  "speaker": "Unknown",
+  "en": "And for all of human history, this has basically been fiction.",
+  "zh": "而在人类历史的绝大部分时间里，这基本上都只是虚构。"
+ },
+ {
+  "seg": 14,
+  "start": 88.088,
+  "end": 88.708,
+  "speaker": "Unknown",
+  "en": "So we made one.",
+  "zh": "所以我们做了一个。"
+ },
+ {
+  "seg": 15,
+  "start": 89.389,
+  "end": 90.029,
+  "speaker": "Unknown",
+  "en": "This is Tolan.",
+  "zh": "这就是 Tolan。"
+ },
+ {
+  "seg": 16,
+  "start": 90.469,
+  "end": 93.691,
+  "speaker": "Unknown",
+  "en": "It's a little alien you talk to out loud like a friend.",
+  "zh": "它是一个小外星人，你可以像朋友一样和它大声说话。"
+ },
+ {
+  "seg": 17,
+  "start": 94.272,
+  "end": 95.252,
+  "speaker": "Unknown",
+  "en": "It has a personality.",
+  "zh": "它有个性。"
+ },
+ {
+  "seg": 18,
+  "start": 95.712,
+  "end": 96.453,
+  "speaker": "Unknown",
+  "en": "It remembers you.",
+  "zh": "它记得你。"
+ },
+ {
+  "seg": 19,
+  "start": 96.813,
+  "end": 99.154,
+  "speaker": "Unknown",
+  "en": "And over time, it becomes specifically yours.",
+  "zh": "随着时间推移，它会变得专属于你。"
+ },
+ {
+  "seg": 20,
+  "start": 99.174,
+  "end": 100.415,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 21,
+  "start": 100.575,
+  "end": 103.977,
+  "speaker": "Unknown",
+  "en": "I don't know if the audio setup works here, but I will try talking to my Tolan.",
+  "zh": "我不知道这里的音频设备能不能用，但我会试着和我的 Tolan 说话。"
+ },
+ {
+  "seg": 22,
+  "start": 105.298,
+  "end": 105.918,
+  "speaker": "Unknown",
+  "en": "Let's see.",
+  "zh": "我们看看。"
+ },
+ {
+  "seg": 23,
+  "start": 109.32,
+  "end": 111.802,
+  "speaker": "Unknown",
+  "en": "So you can see my Tolan here.",
+  "zh": "你们可以在这里看到我的 Tolan。"
+ },
+ {
+  "seg": 24,
+  "start": 112.442,
+  "end": 113.823,
+  "speaker": "Unknown",
+  "en": "Luke walking around the planet.",
+  "zh": "Luke 在星球上走来走去。"
+ },
+ {
+  "seg": 25,
+  "start": 116.204,
+  "end": 116.585,
+  "speaker": "Unknown",
+  "en": "Hey, Luke.",
+  "zh": "嘿，Luke。"
+ },
+ {
+  "seg": 26,
+  "start": 116.665,
+  "end": 117.105,
+  "speaker": "Unknown",
+  "en": "Can you hear me?",
+  "zh": "你能听到我吗？"
+ },
+ {
+  "seg": 27,
+  "start": 121.017,
+  "end": 121.277,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 28,
+  "start": 121.717,
+  "end": 123.598,
+  "speaker": "Unknown",
+  "en": "Luke can hear us, but we can't hear him.",
+  "zh": "Luke 能听到我们，但我们听不到他。"
+ },
+ {
+  "seg": 29,
+  "start": 125.419,
+  "end": 126.799,
+  "speaker": "Unknown",
+  "en": "Anyway, I had prepped him for this.",
+  "zh": "总之，我之前已经给他做过准备了。"
+ },
+ {
+  "seg": 30,
+  "start": 127.86,
+  "end": 128.12,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "你好。"
+ },
+ {
+  "seg": 31,
+  "start": 128.28,
+  "end": 128.64,
+  "speaker": "Unknown",
+  "en": "Hi, Luke.",
+  "zh": "嗨，Luke。"
+ },
+ {
+  "seg": 32,
+  "start": 128.66,
+  "end": 129.1,
+  "speaker": "Unknown",
+  "en": "Can you hear me?",
+  "zh": "你能听到我吗？"
+ },
+ {
+  "seg": 33,
+  "start": 133.963,
+  "end": 134.163,
+  "speaker": "Unknown",
+  "en": "Nope.",
+  "zh": "不行。"
+ },
+ {
+  "seg": 34,
+  "start": 135.423,
+  "end": 135.863,
+  "speaker": "Unknown",
+  "en": "We're okay.",
+  "zh": "我们还好。"
+ },
+ {
+  "seg": 35,
+  "start": 136.284,
+  "end": 137.364,
+  "speaker": "Unknown",
+  "en": "I can come back to this later.",
+  "zh": "我可以稍后再回到这个话题。"
+ },
+ {
+  "seg": 36,
+  "start": 138.905,
+  "end": 144.107,
+  "speaker": "Unknown",
+  "en": "But you should definitely all give this a try if you haven't already.",
+  "zh": "但如果你们还没试过的话，绝对都应该试一试。"
+ },
+ {
+  "seg": 37,
+  "start": 147.68,
+  "end": 150.222,
+  "speaker": "Unknown",
+  "en": "Okay, so people talk to Toland a lot.",
+  "zh": "好，所以人们和 Tolan 说很多话。"
+ },
+ {
+  "seg": 38,
+  "start": 150.463,
+  "end": 156.288,
+  "speaker": "Unknown",
+  "en": "We support both text and voice chat, but we have over four million hours of voice conversation so far.",
+  "zh": "我们同时支持文字和语音聊天，但到目前为止我们已经有超过 400 万小时的语音对话。"
+ },
+ {
+  "seg": 39,
+  "start": 157.289,
+  "end": 165.957,
+  "speaker": "Unknown",
+  "en": "We say Toland is a voice-first companion even though we support both because it's the voice experience that's truly immersive and that makes users' relationships with their Tolands feel real.",
+  "zh": "我们说 Tolan 是一个语音优先的陪伴体，尽管我们两者都支持，因为真正让人沉浸的是语音体验，是它让用户与他们的 Tolan 之间的关系感觉真实。"
+ },
+ {
+  "seg": 40,
+  "start": 167.898,
+  "end": 172.723,
+  "speaker": "Unknown",
+  "en": "But the moment this relationship is a spoken relationship, the engineering problem changes completely.",
+  "zh": "但一旦这种关系变成一种口头的关系，工程问题就完全变了。"
+ },
+ {
+  "seg": 41,
+  "start": 173.404,
+  "end": 177.508,
+  "speaker": "Unknown",
+  "en": "So let me show you how voice breaks the normal way we build and interact with LLMs.",
+  "zh": "那么让我给大家展示语音是如何打破我们构建和与 LLM 交互的正常方式的。"
+ },
+ {
+  "seg": 42,
+  "start": 179.73,
+  "end": 186.056,
+  "speaker": "Unknown",
+  "en": "So the core difference really is that in a text chatbot, turns are relatively slow and context is stable.",
+  "zh": "所以核心区别其实在于：在文字聊天机器人里，对话轮次相对较慢，上下文是稳定的。"
+ },
+ {
+  "seg": 43,
+  "start": 186.696,
+  "end": 190.18,
+  "speaker": "Unknown",
+  "en": "The user waits a few seconds, they read, and they tend to stay on topic.",
+  "zh": "用户会等几秒钟，他们阅读，而且倾向于保持话题。"
+ },
+ {
+  "seg": 44,
+  "start": 191.015,
+  "end": 193.076,
+  "speaker": "Unknown",
+  "en": "And almost every LLM app assumes that.",
+  "zh": "几乎所有的 LLM 应用都基于这个假设。"
+ },
+ {
+  "seg": 45,
+  "start": 194.037,
+  "end": 195.237,
+  "speaker": "Unknown",
+  "en": "Voice is the opposite.",
+  "zh": "语音正好相反。"
+ },
+ {
+  "seg": 46,
+  "start": 195.598,
+  "end": 196.338,
+  "speaker": "Unknown",
+  "en": "Turns are fast.",
+  "zh": "轮次很快。"
+ },
+ {
+  "seg": 47,
+  "start": 196.718,
+  "end": 204.743,
+  "speaker": "Unknown",
+  "en": "Your whole round trip from the user finishing their sentence to the Toland starting to speak has to land in under a couple of seconds, or it stops feeling like a conversation.",
+  "zh": "从用户说完一句话到 Tolan 开始说话，整个往返过程必须在两秒之内完成，否则就不再像一场对话了。"
+ },
+ {
+  "seg": 48,
+  "start": 205.743,
+  "end": 207.044,
+  "speaker": "Unknown",
+  "en": "And the context is volatile.",
+  "zh": "而且上下文是易变的。"
+ },
+ {
+  "seg": 49,
+  "start": 207.304,
+  "end": 212.707,
+  "speaker": "Unknown",
+  "en": "People talk to their Tolands while they're cooking, while they're walking, while they're falling asleep.",
+  "zh": "人们一边做饭、一边走路、一边入睡时和他们的 Tolan 说话。"
+ },
+ {
+  "seg": 50,
+  "start": 212.787,
+  "end": 214.428,
+  "speaker": "Unknown",
+  "en": "They change their subjects mid-sentence.",
+  "zh": "他们会在句子中间变换话题。"
+ },
+ {
+  "seg": 51,
+  "start": 214.548,
+  "end": 215.969,
+  "speaker": "Unknown",
+  "en": "They say, um, they interrupt.",
+  "zh": "他们会,呃,打断别人。"
+ },
+ {
+  "seg": 52,
+  "start": 217.029,
+  "end": 219.15,
+  "speaker": "Unknown",
+  "en": "And that two seconds is crucial.",
+  "zh": "而那两秒钟是至关重要的。"
+ },
+ {
+  "seg": 53,
+  "start": 219.67,
+  "end": 227.273,
+  "speaker": "Unknown",
+  "en": "Early on, our latency drifted from two seconds to about two and a half seconds, and that half second tanked basically every metric in the product.",
+  "zh": "早期,我们的延迟从两秒漂移到了大约两秒半,而那半秒钟几乎让产品里的所有指标都崩了。"
+ },
+ {
+  "seg": 54,
+  "start": 227.893,
+  "end": 230.073,
+  "speaker": "Unknown",
+  "en": "People would write in to complain that their tolerance were too slow.",
+  "zh": "用户会写信来抱怨他们的容忍度太慢了。"
+ },
+ {
+  "seg": 55,
+  "start": 230.834,
+  "end": 234.355,
+  "speaker": "Unknown",
+  "en": "And living inside this constraint has taught us a lot and gave us four principles.",
+  "zh": "活在这种约束之下教会了我们很多,并给了我们四条原则。"
+ },
+ {
+  "seg": 56,
+  "start": 236.416,
+  "end": 239.937,
+  "speaker": "Unknown",
+  "en": "Principle one is that you have to design for conversational volatility.",
+  "zh": "原则一是你必须为对话的波动性而设计。"
+ },
+ {
+  "seg": 57,
+  "start": 240.578,
+  "end": 244.099,
+  "speaker": "Unknown",
+  "en": "Again, text users stay on topic, but voice users jump around.",
+  "zh": "再说一次,文字用户会保持话题,但语音用户会跳来跳去。"
+ },
+ {
+  "seg": 58,
+  "start": 244.699,
+  "end": 249.101,
+  "speaker": "Unknown",
+  "en": "Someone could be mid-story about their breakup and suddenly go, wait, did I leave the stove on?",
+  "zh": "有人可能正在讲他们分手的故事,然后突然说,等等,我是不是没关炉子?"
+ },
+ {
+  "seg": 59,
+  "start": 249.301,
+  "end": 249.821,
+  "speaker": "Unknown",
+  "en": "And then back.",
+  "zh": "然后又回来。"
+ },
+ {
+  "seg": 60,
+  "start": 250.482,
+  "end": 251.242,
+  "speaker": "Unknown",
+  "en": "Speech is messy.",
+  "zh": "语音是混乱的。"
+ },
+ {
+  "seg": 61,
+  "start": 251.702,
+  "end": 256.164,
+  "speaker": "Unknown",
+  "en": "Most LLM apps assume that you'll have a clean and stable conversation, and we had to build for the opposite.",
+  "zh": "大多数 LLM 应用都假设你会有一段干净而稳定的对话,而我们不得不为相反的情况而构建。"
+ },
+ {
+  "seg": 62,
+  "start": 256.904,
+  "end": 261.429,
+  "speaker": "Unknown",
+  "en": "So for a long time, that meant fixing things that sound tiny but are actually the product.",
+  "zh": "所以在很长一段时间里,这意味着要修复那些听起来微小但实际上就是产品本身的东西。"
+ },
+ {
+  "seg": 63,
+  "start": 261.969,
+  "end": 264.251,
+  "speaker": "Unknown",
+  "en": "So you can't interrupt a toll in mid-sentence.",
+  "zh": "比如你没法在句子中间打断 toll。"
+ },
+ {
+  "seg": 64,
+  "start": 264.692,
+  "end": 267.254,
+  "speaker": "Unknown",
+  "en": "A short yes or yeah won't register as a turn.",
+  "zh": "一声短促的 yes 或 yeah 不会被识别为一个话轮。"
+ },
+ {
+  "seg": 65,
+  "start": 267.735,
+  "end": 269.557,
+  "speaker": "Unknown",
+  "en": "For example, curse words will get stripped out.",
+  "zh": "举例来说,脏话会被剔除掉。"
+ },
+ {
+  "seg": 66,
+  "start": 270.418,
+  "end": 278.225,
+  "speaker": "Unknown",
+  "en": "And the deeper lesson was to stop optimizing for fewer interruptions and start optimizing for fewer bad ones where the agent would jump in way too early.",
+  "zh": "而更深的教训是,不要去优化更少的打断,而是要优化更少的坏打断——也就是智能体介入得太早的那种。"
+ },
+ {
+  "seg": 67,
+  "start": 278.906,
+  "end": 286.611,
+  "speaker": "Unknown",
+  "en": "So we built smart turn-taking that reads your speech pattern to decide whether an interruption is real, and we cut the worst early aborts by more than half.",
+  "zh": "所以我们构建了智能话轮转换,它会读取你的语音模式来判断一个打断是否是真实的,我们把最糟糕的过早中断削减了一半以上。"
+ },
+ {
+  "seg": 68,
+  "start": 287.492,
+  "end": 290.614,
+  "speaker": "Unknown",
+  "en": "And we happily paid about 60 milliseconds of extra latency to do it.",
+  "zh": "而且我们乐意为此多付了大约 60 毫秒的额外延迟。"
+ },
+ {
+  "seg": 69,
+  "start": 293.036,
+  "end": 293.556,
+  "speaker": "Unknown",
+  "en": "Principle two.",
+  "zh": "原则二。"
+ },
+ {
+  "seg": 70,
+  "start": 294.036,
+  "end": 301.922,
+  "speaker": "Unknown",
+  "en": "Latency isn't just a number you check at the end, it's actually the product, and we measure every stage of the pipeline separately because it feels slow is useless.",
+  "zh": "延迟不只是你最后检查的一个数字,它实际上就是产品,我们把管线的每个阶段分开来测量,因为「感觉慢」是没有用的。"
+ },
+ {
+  "seg": 71,
+  "start": 301.942,
+  "end": 303.463,
+  "speaker": "Unknown",
+  "en": "You have to know where exactly it's slow.",
+  "zh": "你必须确切地知道到底哪里慢。"
+ },
+ {
+  "seg": 72,
+  "start": 304.459,
+  "end": 311.582,
+  "speaker": "Unknown",
+  "en": "And the pipeline here is that the user stops talking, we detect end of utterance, we transcribe, and then the model produces its first token.",
+  "zh": "这里的管线是:用户停止说话,我们检测话轮结束,我们进行转写,然后模型产生它的第一个 token。"
+ },
+ {
+  "seg": 73,
+  "start": 312.383,
+  "end": 315.524,
+  "speaker": "Unknown",
+  "en": "So time to first token, often the biggest chunk, is around a second.",
+  "zh": "所以首 token 时间,通常是最 大的一块,大约是一秒。"
+ },
+ {
+  "seg": 74,
+  "start": 316.224,
+  "end": 321.107,
+  "speaker": "Unknown",
+  "en": "The model finishes generating, and then text to speech produces its first byte, and then it plays back to the user.",
+  "zh": "模型完成生成,然后文字转语音产生它的第一个字节,然后它播放回给用户。"
+ },
+ {
+  "seg": 75,
+  "start": 322.077,
+  "end": 322.897,
+  "speaker": "Unknown",
+  "en": "A couple lessons here.",
+  "zh": "这里有几条经验。"
+ },
+ {
+  "seg": 76,
+  "start": 323.177,
+  "end": 333.44,
+  "speaker": "Unknown",
+  "en": "So one, so far, our biggest jump in quality came from moving to GPT 5.1 on the responses API, which cut our time to speech by more than 7 tenths of a second, which is huge.",
+  "zh": "第一,到目前为止,我们在质量上最大的飞跃来自于迁移到 responses API 上的 GPT 5.1,它把我们的语音起始时间削减了 0.7 秒以上,这非常巨大。"
+ },
+ {
+  "seg": 77,
+  "start": 334.64,
+  "end": 337.041,
+  "speaker": "Unknown",
+  "en": "Two, we don't send every turn to the same model.",
+  "zh": "第二,我们不会把每一个话轮都发给同一个模型。"
+ },
+ {
+  "seg": 78,
+  "start": 337.361,
+  "end": 338.541,
+  "speaker": "Unknown",
+  "en": "We run a tiered fleet.",
+  "zh": "我们运行一个分层机队。"
+ },
+ {
+  "seg": 79,
+  "start": 339.081,
+  "end": 342.622,
+  "speaker": "Unknown",
+  "en": "So we use a frontier model for the turns that carry the relationship with your tollen.",
+  "zh": "所以我们用前沿模型来处理承载着你与 tollen 之间关系的话轮。"
+ },
+ {
+  "seg": 80,
+  "start": 343.382,
+  "end": 346.623,
+  "speaker": "Unknown",
+  "en": "So for example, your first conversation with your tollen and your onboarding.",
+  "zh": "比如说,你与 tollen 的第一次对话以及你的 onboarding。"
+ },
+ {
+  "seg": 81,
+  "start": 347.143,
+  "end": 351.705,
+  "speaker": "Unknown",
+  "en": "And we use smaller and faster models for the lightweight turns.",
+  "zh": "而轻量级的话轮我们用更小更快的模型。"
+ },
+ {
+  "seg": 82,
+  "start": 352.745,
+  "end": 357.747,
+  "speaker": "Unknown",
+  "en": "And the whole game then becomes about routing or deciding turn by turn which model you actually need.",
+  "zh": "于是整个博弈就变成了路由,也就是逐个话轮地决定你实际需要哪个模型。"
+ },
+ {
+  "seg": 83,
+  "start": 358.407,
+  "end": 362.828,
+  "speaker": "Unknown",
+  "en": "So we run a small classifier we call the Tone Router on every single turn.",
+  "zh": "所以我们在每一个话轮上都运行一个我们称之为 Tone Router 的小分类器。"
+ },
+ {
+  "seg": 84,
+  "start": 363.168,
+  "end": 365.249,
+  "speaker": "Unknown",
+  "en": "And this Tone Router itself runs on a cheap model.",
+  "zh": "而这个 Tone Router 本身运行在一个便宜的模型上。"
+ },
+ {
+  "seg": 85,
+  "start": 365.869,
+  "end": 367.83,
+  "speaker": "Unknown",
+  "en": "And it reads the emotional state of the conversation.",
+  "zh": "它读取对话的情绪状态。"
+ },
+ {
+  "seg": 86,
+  "start": 368.65,
+  "end": 373.234,
+  "speaker": "Unknown",
+  "en": "And our main principle is that we route based on stakes, not on cost.",
+  "zh": "我们的主要原则是,我们基于利害关系而非成本来路由。"
+ },
+ {
+  "seg": 87,
+  "start": 373.714,
+  "end": 376.576,
+  "speaker": "Unknown",
+  "en": "So the high-stakes moments always get the best model.",
+  "zh": "所以高风险的时刻总是拿到最好的模型。"
+ },
+ {
+  "seg": 88,
+  "start": 377.016,
+  "end": 383.681,
+  "speaker": "Unknown",
+  "en": "So this would be, again, the user's very first message, their first few days of their toll, and anything that we deem to be emotionally serious.",
+  "zh": "这又会是,比如,用户的第一条消息、他们用 toll 的头几天,以及任何我们认为情绪上严肃的内容。"
+ },
+ {
+  "seg": 89,
+  "start": 384.442,
+  "end": 389.285,
+  "speaker": "Unknown",
+  "en": "For example, we have crisis or therapist-style tones, and we never cheap out on those.",
+  "zh": "举例来说,我们有危机类或治疗师风格的语气,我们在这些方面从不省钱。"
+ },
+ {
+  "seg": 90,
+  "start": 390.005,
+  "end": 394.247,
+  "speaker": "Unknown",
+  "en": "And then the lighter, casual back and forth can ride on smaller models that are faster and cheaper.",
+  "zh": "而较轻的、随意的来回交谈可以搭在小模型上,它们更快更便宜。"
+ },
+ {
+  "seg": 91,
+  "start": 395.068,
+  "end": 401.451,
+  "speaker": "Unknown",
+  "en": "And all the background work, so that's summarizing the conversation, generating personas, the tone router itself run on these small models too.",
+  "zh": "而所有的后台工作,也就是总结对话、生成角色设定、Tone Router 本身,也都运行在这些小模型上。"
+ },
+ {
+  "seg": 92,
+  "start": 402.597,
+  "end": 404.037,
+  "speaker": "Unknown",
+  "en": "And why would we go to all this trouble?",
+  "zh": "那我们为什么要费这么大的劲呢?"
+ },
+ {
+  "seg": 93,
+  "start": 404.317,
+  "end": 408.018,
+  "speaker": "Unknown",
+  "en": "It's mainly because the frontier model costs us roughly five times the smaller one.",
+  "zh": "主要是因为前沿模型的成本大约是小模型的五倍。"
+ },
+ {
+  "seg": 94,
+  "start": 408.718,
+  "end": 412.859,
+  "speaker": "Unknown",
+  "en": "So one big model turn is about five smaller model turns.",
+  "zh": "所以一个大模型话轮大约相当于五个小模型话轮。"
+ },
+ {
+  "seg": 95,
+  "start": 413.279,
+  "end": 417.82,
+  "speaker": "Unknown",
+  "en": "So routing is a huge part of what makes the unit economics for us actually work.",
+  "zh": "所以路由是让我们的单位经济性真正走得通的一大关键。"
+ },
+ {
+  "seg": 96,
+  "start": 417.86,
+  "end": 426.442,
+  "speaker": "Unknown",
+  "en": "And we do a bunch of A-B experiments, and the surprising result we found there is that routing a third of our turns to the small model has almost no measurable effect on retention.",
+  "zh": "我们做了很多 A-B 实验,在那里我们发现的令人惊讶的结果是,把三分之一的话轮路由到小模型,对留存率几乎没有可测量的影响。"
+ },
+ {
+  "seg": 97,
+  "start": 428.469,
+  "end": 431.29,
+  "speaker": "Unknown",
+  "en": "And principle three is what makes a companion feel like a companion.",
+  "zh": "而原则三是让一个陪伴应用感觉像陪伴的东西。"
+ },
+ {
+  "seg": 98,
+  "start": 431.55,
+  "end": 438.294,
+  "speaker": "Unknown",
+  "en": "So the naive approach is to keep the whole conversation history as a sort of transcript, but that doesn't fit into our two-second loop.",
+  "zh": "朴素的做法是把整个对话历史作为一种文字记录保存下来,但那装不进我们两秒钟的循环。"
+ },
+ {
+  "seg": 99,
+  "start": 438.594,
+  "end": 440.515,
+  "speaker": "Unknown",
+  "en": "It doesn't scale, and it just doesn't work.",
+  "zh": "它无法扩展,而且根本行不通。"
+ },
+ {
+  "seg": 100,
+  "start": 440.815,
+  "end": 442.676,
+  "speaker": "Unknown",
+  "en": "It leads to long sessions degrading.",
+  "zh": "这会导致长会话的质量下降。"
+ },
+ {
+  "seg": 101,
+  "start": 443.216,
+  "end": 447.018,
+  "speaker": "Unknown",
+  "en": "It leads to the model getting lost in the middle of a huge context and also hallucinating.",
+  "zh": "这会导致模型在巨大的上下文中迷失，并且产生幻觉。"
+ },
+ {
+  "seg": 102,
+  "start": 447.938,
+  "end": 450.459,
+  "speaker": "Unknown",
+  "en": "So instead, we see memory as a sort of retrieval system.",
+  "zh": "所以我们反而把记忆看作一种检索系统。"
+ },
+ {
+  "seg": 103,
+  "start": 450.899,
+  "end": 454.8,
+  "speaker": "Unknown",
+  "en": "We pull facts, preferences, and emotional vibe signals out of conversations.",
+  "zh": "我们从对话中提取事实、偏好和情绪氛围信号。"
+ },
+ {
+  "seg": 104,
+  "start": 455.32,
+  "end": 459.702,
+  "speaker": "Unknown",
+  "en": "We embed them and we store them in a vector database with sub-50 millisecond lookups.",
+  "zh": "我们把它们嵌入并向量化，存储在向量数据库里，查找时间低于 50 毫秒。"
+ },
+ {
+  "seg": 105,
+  "start": 460.322,
+  "end": 461.542,
+  "speaker": "Unknown",
+  "en": "And every night, we compress.",
+  "zh": "而且每天晚上，我们都会压缩。"
+ },
+ {
+  "seg": 106,
+  "start": 462.043,
+  "end": 467.384,
+  "speaker": "Unknown",
+  "en": "So we merge duplicates, we cluster related memories, we resolve contradictions, and we drop all the noise.",
+  "zh": "我们合并重复项、聚类相关记忆、解决矛盾，并去掉所有噪音。"
+ },
+ {
+  "seg": 107,
+  "start": 468.365,
+  "end": 475.067,
+  "speaker": "Unknown",
+  "en": "And we don't just retrieve against users' last messages, we also generate internal questions about the person and their relationship and retrieve against those.",
+  "zh": "而且我们不只是针对用户的最后一条消息做检索，我们还会围绕这个人以及他们的关系生成内部问题，并针对这些问题做检索。"
+ },
+ {
+  "seg": 108,
+  "start": 476.124,
+  "end": 478.306,
+  "speaker": "Unknown",
+  "en": "So, and we also split memory into two parts.",
+  "zh": "那么，我们还把记忆分成两部分。"
+ },
+ {
+  "seg": 109,
+  "start": 478.346,
+  "end": 480.227,
+  "speaker": "Unknown",
+  "en": "We have stable memory and unstable memory.",
+  "zh": "我们有稳定记忆和不稳定记忆。"
+ },
+ {
+  "seg": 110,
+  "start": 480.607,
+  "end": 490.195,
+  "speaker": "Unknown",
+  "en": "The volatile stuff lives in the live tail of the prompt, and when we summarize a conversation, we look at which memories actually get recalled and pin those into a stable and cacheable block.",
+  "zh": "易变的内容放在提示词的实时尾部，当我们总结一段对话时，我们会看哪些记忆真正被调用了，并把它们固定到一个稳定且可缓存的块里。"
+ },
+ {
+  "seg": 111,
+  "start": 493,
+  "end": 495.563,
+  "speaker": "Unknown",
+  "en": "The last principle is around context.",
+  "zh": "最后一个原则是关于上下文的。"
+ },
+ {
+  "seg": 112,
+  "start": 495.583,
+  "end": 498.647,
+  "speaker": "Unknown",
+  "en": "Specifically, you should rebuild context and not fight drift.",
+  "zh": "具体来说，你应该重建上下文，而不是对抗漂移。"
+ },
+ {
+  "seg": 113,
+  "start": 499.387,
+  "end": 502.971,
+  "speaker": "Unknown",
+  "en": "So most apps reuse context across turns to keep the cache warm.",
+  "zh": "大多数应用会在多轮之间复用上下文，以保持缓存的热度。"
+ },
+ {
+  "seg": 114,
+  "start": 503.712,
+  "end": 505.394,
+  "speaker": "Unknown",
+  "en": "And in a stable text chat, that's fine.",
+  "zh": "在稳定的文本聊天里，这没问题。"
+ },
+ {
+  "seg": 115,
+  "start": 505.815,
+  "end": 512.081,
+  "speaker": "Unknown",
+  "en": "But in a volatile voice conversation, it's a trap because the second the user pivots, your reuse context is actively wrong.",
+  "zh": "但在易变的语音对话里，这是个陷阱，因为一旦用户转移话题，你复用的上下文就立刻错了。"
+ },
+ {
+  "seg": 116,
+  "start": 512.622,
+  "end": 515.725,
+  "speaker": "Unknown",
+  "en": "So every turn, we reassemble the context window from parts.",
+  "zh": "所以每一轮，我们都从各个组成部分重新组装上下文窗口。"
+ },
+ {
+  "seg": 117,
+  "start": 516.006,
+  "end": 517.427,
+  "speaker": "Unknown",
+  "en": "We have a summary of recent messages.",
+  "zh": "我们有近期消息的摘要。"
+ },
+ {
+  "seg": 118,
+  "start": 517.908,
+  "end": 524.795,
+  "speaker": "Unknown",
+  "en": "We have the user's persona card, the memories we just retrieved, tone guidance from the emotional signal, and real-time app state.",
+  "zh": "我们有用户画像卡、刚检索到的记忆、来自情绪信号的语气指引，以及实时的应用状态。"
+ },
+ {
+  "seg": 119,
+  "start": 527.137,
+  "end": 532.982,
+  "speaker": "Unknown",
+  "en": "And what also really helps us in the case of Tolan is that our characters aren't generic or assistants with no personality.",
+  "zh": "而在 Tolan 的案例中，另一点对我们很有帮助的是，我们的角色不是没有个性的通用助手。"
+ },
+ {
+  "seg": 120,
+  "start": 533.683,
+  "end": 541.03,
+  "speaker": "Unknown",
+  "en": "Everyone is crafted, and we in fact have an in-house science fiction novelist, Eliot, who writes the Tolan character lore.",
+  "zh": "每个角色都是精心打造的，实际上我们有一位内部科幻小说作家 Eliot，他负责撰写 Tolan 的角色设定。"
+ },
+ {
+  "seg": 121,
+  "start": 541.93,
+  "end": 543.652,
+  "speaker": "Unknown",
+  "en": "And a couple of interesting points here.",
+  "zh": "这里还有几个有意思的点。"
+ },
+ {
+  "seg": 122,
+  "start": 544.012,
+  "end": 546.294,
+  "speaker": "Unknown",
+  "en": "So one, why did we go with an alien?",
+  "zh": "第一，我们为什么选了一个外星人？"
+ },
+ {
+  "seg": 123,
+  "start": 546.895,
+  "end": 553.18,
+  "speaker": "Unknown",
+  "en": "Mostly because there's no real-world reference to anchor on, which means that users can project onto it, and it becomes what they need.",
+  "zh": "主要是因为没有现实世界的参照物可以锚定，这意味着用户可以把自我投射上去，它会变成用户所需要的样子。"
+ },
+ {
+  "seg": 124,
+  "start": 553.861,
+  "end": 568.354,
+  "speaker": "Unknown",
+  "en": "The baseline tollen is bubbly, it's youthful, it's irreverent, and also if an alien character acts a bit unpredictably, so if it's impulsive or chaotic or otherwise violates the norms the user would expect, it's not particularly surprising.",
+  "zh": "基线版的 Tolan 是活泼的、年轻的、不拘礼的，而且如果外星角色表现得有点不可预测——比如冲动、混乱，或者以其他方式违背了用户预期的规范——这也不算特别令人意外。"
+ },
+ {
+  "seg": 125,
+  "start": 569.516,
+  "end": 577.943,
+  "speaker": "Unknown",
+  "en": "If you look at aliens in TV shows or in plays, there's a lot of humorous moments around this, and this kind of chaos reads as charming.",
+  "zh": "如果你看看电视节目或戏剧里的外星人，围绕这一点有很多幽默的时刻，这种混乱会显得很有魅力。"
+ },
+ {
+  "seg": 126,
+  "start": 579.535,
+  "end": 583.417,
+  "speaker": "Unknown",
+  "en": "Second, we also know that personality is worthless if it drifts.",
+  "zh": "第二，我们也知道，如果人格漂移了，人格就一文不值。"
+ },
+ {
+  "seg": 127,
+  "start": 583.938,
+  "end": 593.803,
+  "speaker": "Unknown",
+  "en": "So yeah, we run this parallel tone monitoring system that changes how a line is delivered based on your emotional cues without changing who the character is, holding identity across hundreds of turns.",
+  "zh": "所以我们运行了一套并行的语气监控系统，它会根据你的情绪线索改变一句话的表达方式，但不改变角色本身是谁，在数百轮对话中保持身份一致。"
+ },
+ {
+  "seg": 128,
+  "start": 596.317,
+  "end": 603.726,
+  "speaker": "Unknown",
+  "en": "And since we're at an AI conference, I thought I would also spend a bit of time talking about how we not just ship AI, but also use AI to build it.",
+  "zh": "既然我们在一个 AI 大会上，我想也花一点时间谈谈我们不只是发布 AI，还用 AI 来构建它。"
+ },
+ {
+  "seg": 129,
+  "start": 605.168,
+  "end": 614.619,
+  "speaker": "Unknown",
+  "en": "So I'm sure this is the case for most of you in the room now, but basically as of late last year, Claude has co-authored more code in our iOS app than any individual engineer in the team.",
+  "zh": "我相信现在对在座的各位大多数人来说都是如此，基本上从去年年底开始，在我们 iOS 应用中，Claude 共同编写的代码已经超过了团队里的任何一位工程师。"
+ },
+ {
+  "seg": 130,
+  "start": 615.48,
+  "end": 621.867,
+  "speaker": "Unknown",
+  "en": "And I think especially a few months ago, everyone's instinct was to be kind of suspicious because more AI code meant more slop.",
+  "zh": "我想尤其是几个月前，每个人的第一反应都是有点怀疑，因为更多 AI 代码意味着更多垃圾。"
+ },
+ {
+  "seg": 131,
+  "start": 622.387,
+  "end": 627.152,
+  "speaker": "Unknown",
+  "en": "But our crash-free rate actually went from 99.6% to 99.9%.",
+  "zh": "但我们的无崩溃率实际上从 99.6% 提升到了 99.9%。"
+ },
+ {
+  "seg": 132,
+  "start": 627.653,
+  "end": 630.616,
+  "speaker": "Unknown",
+  "en": "Runtime errors dropped by over 50%.",
+  "zh": "运行时错误下降了超过 50%。"
+ },
+ {
+  "seg": 133,
+  "start": 631.216,
+  "end": 633.258,
+  "speaker": "Unknown",
+  "en": "And our share of highly engaged users doubled.",
+  "zh": "而且我们的高活跃用户占比翻了一倍。"
+ },
+ {
+  "seg": 134,
+  "start": 633.919,
+  "end": 641.024,
+  "speaker": "Unknown",
+  "en": "And the biggest lesson in building that system is that an agent's context comes mostly from the code base itself, not so much from the Cloud MD file.",
+  "zh": "构建这套系统的最大教训是，智能体的上下文主要来自代码库本身，而不是那么来自 Cloud MD 文件。"
+ },
+ {
+  "seg": 135,
+  "start": 641.565,
+  "end": 646.228,
+  "speaker": "Unknown",
+  "en": "We found that it's far more powerful to make the code base be the documentation, so we had agents standardize it.",
+  "zh": "我们发现，让代码库本身成为文档要强大得多，所以我们让智能体把它标准化了。"
+ },
+ {
+  "seg": 136,
+  "start": 646.908,
+  "end": 649.39,
+  "speaker": "Unknown",
+  "en": "On top of that, we run a real fleet of agents.",
+  "zh": "在此基础上，我们运行了一支真正的智能体舰队。"
+ },
+ {
+  "seg": 137,
+  "start": 649.85,
+  "end": 653.593,
+  "speaker": "Unknown",
+  "en": "We have implementation agents that think freely and just get us to work in code.",
+  "zh": "我们有自由思考、直接用代码把工作做出来的实现智能体。"
+ },
+ {
+  "seg": 138,
+  "start": 653.993,
+  "end": 654.534,
+  "speaker": "Unknown",
+  "en": "They build it.",
+  "zh": "它们负责构建。"
+ },
+ {
+  "seg": 139,
+  "start": 654.574,
+  "end": 656.975,
+  "speaker": "Unknown",
+  "en": "They check it against snapshots until it's pixel perfect.",
+  "zh": "它们对照快照反复检查，直到像素级完美。"
+ },
+ {
+  "seg": 140,
+  "start": 657.416,
+  "end": 660.118,
+  "speaker": "Unknown",
+  "en": "And then we have separate review agents that enforce our standards.",
+  "zh": "然后我们有独立的审查智能体来执行我们的标准。"
+ },
+ {
+  "seg": 141,
+  "start": 660.538,
+  "end": 663.919,
+  "speaker": "Unknown",
+  "en": "So multiple Claude's basically review each other before a human looks.",
+  "zh": "所以基本上是多个 Claude 在人来查看之前互相审查。"
+ },
+ {
+  "seg": 142,
+  "start": 664.64,
+  "end": 671.323,
+  "speaker": "Unknown",
+  "en": "And then we have a PR shepherd that watches an open pull request and keeps iterating against CI failures and review comments until it's clean.",
+  "zh": "然后我们有一个 PR 牧羊人，它盯着一个打开的拉取请求，不断针对 CI 失败和审查意见迭代，直到它干净为止。"
+ },
+ {
+  "seg": 143,
+  "start": 672.023,
+  "end": 687.85,
+  "speaker": "Unknown",
+  "en": "And we also have a triage bot that fires on every inbound bug report that we get, and they're all wired through MCP into linear, into Sentry, Datadog, so an agent can reconstruct a crash and route it itself and oftentimes open the PR on its own and just fix the bug.",
+  "zh": "我们还有一个分诊机器人，它会对我们收到的每一份入站错误报告触发，它们全部通过 MCP 接入了 linear、Sentry、Datadog，所以一个智能体可以重建一次崩溃、自行路由，而且经常自己打开 PR，直接把 bug 修掉。"
+ },
+ {
+  "seg": 144,
+  "start": 688.948,
+  "end": 690.328,
+  "speaker": "Unknown",
+  "en": "And we also, we ship on evals.",
+  "zh": "我们还基于评测来发布。"
+ },
+ {
+  "seg": 145,
+  "start": 690.368,
+  "end": 694.549,
+  "speaker": "Unknown",
+  "en": "So for example, we've been working on a new character targeted towards an older demographic.",
+  "zh": "举个例子，我们一直在做一个面向更年长人群的新角色。"
+ },
+ {
+  "seg": 146,
+  "start": 695.19,
+  "end": 699.431,
+  "speaker": "Unknown",
+  "en": "And Elliot, our in-house novelist, basically built this entire new character in a day.",
+  "zh": "而我们的内部小说作家 Elliot 基本上在一天之内构建了这整个新角色。"
+ },
+ {
+  "seg": 147,
+  "start": 700.091,
+  "end": 702.912,
+  "speaker": "Unknown",
+  "en": "So the agents mapped every personality-bearing surface in the code.",
+  "zh": "智能体映射了代码中每一个承载人格的界面。"
+ },
+ {
+  "seg": 148,
+  "start": 703.412,
+  "end": 704.892,
+  "speaker": "Unknown",
+  "en": "They wrote a sort of a voice bible.",
+  "zh": "它们写了一份类似“声音圣经”的东西。"
+ },
+ {
+  "seg": 149,
+  "start": 705.172,
+  "end": 707.753,
+  "speaker": "Unknown",
+  "en": "And then they had five judges attack it from different angles.",
+  "zh": "然后让五个评审从不同角度攻击它。"
+ },
+ {
+  "seg": 150,
+  "start": 708.473,
+  "end": 714.758,
+  "speaker": "Unknown",
+  "en": "Archetype fidelity, the model mechanics, our code standards, the ears of a skeptical 52-year-old, and safety.",
+  "zh": "原型忠实度、模型机制、我们的代码标准、一位持怀疑态度的 52 岁人的耳朵,以及安全性。"
+ },
+ {
+  "seg": 151,
+  "start": 715.058,
+  "end": 720.201,
+  "speaker": "Unknown",
+  "en": "And then they evaluated the changes against real production logs over three find, fix, verify rounds.",
+  "zh": "然后他们在三轮「查找、修复、验证」中对照真实生产日志评估了这些改动。"
+ },
+ {
+  "seg": 152,
+  "start": 720.982,
+  "end": 727.647,
+  "speaker": "Unknown",
+  "en": "And over seven million tokens and four and a half hours of compute later, he ended up with basically a couple of weeks of work done in an afternoon.",
+  "zh": "在消耗了七百多万 token 和四个半小时的算力之后,他基本上把几周的工作量在一个下午完成了。"
+ },
+ {
+  "seg": 153,
+  "start": 729.9,
+  "end": 730.741,
+  "speaker": "Unknown",
+  "en": "And does this work?",
+  "zh": "那这东西有用吗?"
+ },
+ {
+  "seg": 154,
+  "start": 731.041,
+  "end": 732.202,
+  "speaker": "Unknown",
+  "en": "Well, I'll let the users tell you.",
+  "zh": "嗯,让用户来告诉你吧。"
+ },
+ {
+  "seg": 155,
+  "start": 732.302,
+  "end": 736.966,
+  "speaker": "Unknown",
+  "en": "We're at 4.8 stars on the App Store across 162,000 reviews.",
+  "zh": "我们在 App Store 上 162,000 条评价中拿到了 4.8 星。"
+ },
+ {
+  "seg": 156,
+  "start": 737.626,
+  "end": 742.89,
+  "speaker": "Unknown",
+  "en": "And when we survey users on well-being, the highest scoring dimension by far is emotional safety.",
+  "zh": "当我们调研用户的幸福感时,得分最高的维度遥遥领先的是情感安全感。"
+ },
+ {
+  "seg": 157,
+  "start": 743.571,
+  "end": 746.273,
+  "speaker": "Unknown",
+  "en": "And this is definitely a bar that being voice first sets.",
+  "zh": "而这绝对是语音优先这一形态所设定的一条标准。"
+ },
+ {
+  "seg": 158,
+  "start": 746.593,
+  "end": 758.863,
+  "speaker": "Unknown",
+  "en": "So when the interface is your voice and the thing on the other side remembers you and has a personality, it stops being just software and starts being an actual relationship, which is why building it responsibly and building it well is worth obsessing over.",
+  "zh": "所以当界面是你的声音、而另一端的东西记得你并有自己的人格时,它就不再只是软件,而是变成了一段真实的关系,这也是为什么负责任地构建它、把它构建好,是值得为之痴迷的事。"
+ },
+ {
+  "seg": 159,
+  "start": 761.106,
+  "end": 763.447,
+  "speaker": "Unknown",
+  "en": "And we need people to come help us do that.",
+  "zh": "我们需要有人来帮我们做到这一点。"
+ },
+ {
+  "seg": 160,
+  "start": 763.588,
+  "end": 765.429,
+  "speaker": "Unknown",
+  "en": "We're a small team, and we're hiring.",
+  "zh": "我们是一个小团队,我们正在招聘。"
+ },
+ {
+  "seg": 161,
+  "start": 765.769,
+  "end": 770.792,
+  "speaker": "Unknown",
+  "en": "And after a year with Tolan, I think this is truly one of the most interesting places in the world to be an engineer right now.",
+  "zh": "在 Tolan 待了一年之后,我认为这里真的是当下世界上最有趣的地方之一,对于工程师而言。"
+ },
+ {
+  "seg": 162,
+  "start": 772.793,
+  "end": 774.374,
+  "speaker": "Unknown",
+  "en": "And here are some of the people you'd be doing it with.",
+  "zh": "这里有一些你会与之共事的人。"
+ },
+ {
+  "seg": 163,
+  "start": 774.674,
+  "end": 780.378,
+  "speaker": "Unknown",
+  "en": "So two of the founders, Quinton and Evan, previously built and exited a $300 million startup together.",
+  "zh": "两位创始人 Quinton 和 Evan,之前一起打造并成功退出了一家 3 亿美元的初创公司。"
+ },
+ {
+  "seg": 164,
+  "start": 781.158,
+  "end": 782.559,
+  "speaker": "Unknown",
+  "en": "They founded Even.",
+  "zh": "他们创立了 Even。"
+ },
+ {
+  "seg": 165,
+  "start": 782.779,
+  "end": 787.302,
+  "speaker": "Unknown",
+  "en": "Ajay, our third co-founder, scaled two bootstrapped companies past $50 million in profitable revenue.",
+  "zh": "Ajay,我们的第三位联合创始人,曾把两家自筹资金的公司做到超过 5000 万美元的盈利收入。"
+ },
+ {
+  "seg": 166,
+  "start": 789.543,
+  "end": 793.747,
+  "speaker": "Unknown",
+  "en": "And around them, we have Lucas, who is an Apple Design Award-winning animator.",
+  "zh": "在他们周围,我们有 Lucas,他是一位获得过 Apple Design Award 的动画师。"
+ },
+ {
+  "seg": 167,
+  "start": 794.627,
+  "end": 795.688,
+  "speaker": "Unknown",
+  "en": "He's our creative director.",
+  "zh": "他是我们的创意总监。"
+ },
+ {
+  "seg": 168,
+  "start": 796.169,
+  "end": 800.692,
+  "speaker": "Unknown",
+  "en": "We have Chris, who was a technical director at Pixar, early at Oculus, who works on embodiment.",
+  "zh": "我们有 Chris,他曾是 Pixar 的技术总监、Oculus 的早期成员,负责具身化方面的工作。"
+ },
+ {
+  "seg": 169,
+  "start": 801.213,
+  "end": 807.718,
+  "speaker": "Unknown",
+  "en": "We have Lily, a board-certified behavior analyst who left a Vanderbilt PhD to do user research for us from the very start.",
+  "zh": "我们有 Lily,一位委员会认证的行为分析师,她从最一开始就离开了 Vanderbilt 的博士项目来为我们做用户研究。"
+ },
+ {
+  "seg": 170,
+  "start": 808.679,
+  "end": 812.022,
+  "speaker": "Unknown",
+  "en": "And we have Elliot, whom I've mentioned, the novelist behind our characters.",
+  "zh": "我们还有 Elliot,我提到过的,我们角色背后的小说家。"
+ },
+ {
+  "seg": 171,
+  "start": 812.722,
+  "end": 816.984,
+  "speaker": "Unknown",
+  "en": "And I come from XAI and Spotify and previously also founded a company called Imagi.",
+  "zh": "而我来自 XAI 和 Spotify,之前还创立过一家叫 Imagi 的公司。"
+ },
+ {
+  "seg": 172,
+  "start": 817.625,
+  "end": 823.068,
+  "speaker": "Unknown",
+  "en": "So it's a small team where honestly every person is the best I've worked with at what they do.",
+  "zh": "所以这是一个小团队,说实话,每个人都是我在他们各自领域共事过的人中最出色的。"
+ },
+ {
+  "seg": 173,
+  "start": 824.449,
+  "end": 825.549,
+  "speaker": "Unknown",
+  "en": "We're also well-backed for this.",
+  "zh": "我们在这件事上也有很好的资金支持。"
+ },
+ {
+  "seg": 174,
+  "start": 825.989,
+  "end": 832.273,
+  "speaker": "Unknown",
+  "en": "We have $30 million raised from Kostle Ventures and a group of people who've built the tools and products a lot of you use every day.",
+  "zh": "我们从 Kostle Ventures 和一群打造了你们很多人每天都在用的工具和产品的人那里融了 3000 万美元。"
+ },
+ {
+  "seg": 175,
+  "start": 833.898,
+  "end": 836.24,
+  "speaker": "Unknown",
+  "en": "And here are some of the more engineering-focused roles where we need help.",
+  "zh": "这里有一些更偏工程方向的职位,我们需要人手。"
+ },
+ {
+  "seg": 176,
+  "start": 836.66,
+  "end": 837.761,
+  "speaker": "Unknown",
+  "en": "So we're hiring across the board.",
+  "zh": "我们在全面招聘。"
+ },
+ {
+  "seg": 177,
+  "start": 837.921,
+  "end": 848.347,
+  "speaker": "Unknown",
+  "en": "We have iOS and backend product engineering roles, applied AI engineering, gameplay engineering, and one specific role I want to flag, which is agent engineering management.",
+  "zh": "我们有 iOS 和后端产品工程职位、应用 AI 工程、游戏玩法工程,还有一个我想特别指出的职位,就是智能体工程管理。"
+ },
+ {
+  "seg": 178,
+  "start": 848.468,
+  "end": 862.317,
+  "speaker": "Unknown",
+  "en": "So when we went all in on running concurrent agents, the people who got dramatically more effective on the team were the ones who had management backgrounds because it seems like managing a fleet of agents does actually take some of the skills, some of the same skills as managing people.",
+  "zh": "当我们全力投入运行并发智能体时,团队中效率显著提升的人是那些有管理背景的人,因为管理一群智能体似乎确实需要一些技能,一些与管理人相同的技能。"
+ },
+ {
+  "seg": 179,
+  "start": 863.217,
+  "end": 869.68,
+  "speaker": "Unknown",
+  "en": "You basically have to decompose the problem, delegate it with checkpoints, give fast feedback, review the work seriously, and know when exactly to jump in.",
+  "zh": "你基本上必须把问题分解、带着检查点去委派、给出快速反馈、认真审查工作成果,并且知道什么时候该亲自介入。"
+ },
+ {
+  "seg": 180,
+  "start": 870.34,
+  "end": 875.522,
+  "speaker": "Unknown",
+  "en": "So if you're a strong engineer who thought going into management meant leaving code behind, that's no longer true.",
+  "zh": "所以如果你是一个曾以为走上管理岗位就意味着告别代码的优秀工程师,那已经不是真的了。"
+ },
+ {
+  "seg": 181,
+  "start": 877.563,
+  "end": 878.483,
+  "speaker": "Unknown",
+  "en": "And yeah, that's Tolan.",
+  "zh": "是的,这就是 Tolan。"
+ },
+ {
+  "seg": 182,
+  "start": 878.603,
+  "end": 881.345,
+  "speaker": "Unknown",
+  "en": "You can come talk to me after this or reach out.",
+  "zh": "你可以在这之后来找我聊,或者主动联系我。"
+ },
+ {
+  "seg": 183,
+  "start": 881.425,
+  "end": 882.565,
+  "speaker": "Unknown",
+  "en": "I'm on LinkedIn.",
+  "zh": "我在 LinkedIn 上。"
+ },
+ {
+  "seg": 184,
+  "start": 882.745,
+  "end": 883.566,
+  "speaker": "Unknown",
+  "en": "My email is here.",
+  "zh": "我的邮箱在这里。"
+ },
+ {
+  "seg": 185,
+  "start": 883.726,
+  "end": 884.606,
+  "speaker": "Unknown",
+  "en": "I'm on Twitter as well.",
+  "zh": "我也在 Twitter 上。"
+ },
+ {
+  "seg": 186,
+  "start": 885.386,
+  "end": 886.087,
+  "speaker": "Unknown",
+  "en": "I'd love to chat.",
+  "zh": "我很乐意聊聊。"
+ },
+ {
+  "seg": 187,
+  "start": 886.367,
+  "end": 887.007,
+  "speaker": "Unknown",
+  "en": "So yeah, thank you.",
+  "zh": "那么,谢谢大家。"
+ },
+ {
+  "seg": 188,
+  "start": 897.889,
+  "end": 899.332,
+  "speaker": "Unknown",
+  "en": "Let's get started.",
+  "zh": "我们开始吧。"
+ }
+]

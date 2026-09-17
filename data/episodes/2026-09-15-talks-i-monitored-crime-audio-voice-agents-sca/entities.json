@@ -1,0 +1,439 @@
+{
+  "episode_id": "2026-09-15-talks-i-monitored-crime-audio-voice-agents-sca",
+  "podcast": "精选演讲",
+  "date": "2026-09-15",
+  "tags": [
+    "语音智能体",
+    "AI 安全",
+    "红队测试",
+    "可靠性",
+    "评估与监控"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "sumanyu-sharma",
+      "type": "person",
+      "role": "guest",
+      "name": "Sumanyu Sharma",
+      "file": "Sumanyu Sharma",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "hamming",
+      "type": "company",
+      "role": "company",
+      "name": "Hamming",
+      "file": "Hamming",
+      "primary": true,
+      "how_described": "本集说它是演讲者 Suman Yu 创办的公司,专注语音智能体的可靠性与安全,监控着 10,000 个智能体,并在四月上线了红队测试产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            12.872,
+            16.837
+          ],
+          "quote": "My name is Suman Yu, and I'm the founder and CEO of Hamming.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "citizen",
+      "type": "company",
+      "role": "company",
+      "name": "Citizen",
+      "file": "Citizen",
+      "primary": true,
+      "how_described": "本集说它是演讲者曾工作的纽约公司,收听数千小时警察电台数据,向旧金山、纽约、洛杉矶等城市用户实时推送犯罪警报。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            17.678,
+            25.827
+          ],
+          "quote": "And before working on voice agent reliability and safety, I worked at a company called Citizen out of New York.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2,
+          "t": [
+            25.887,
+            27.489
+          ],
+          "quote": "Anybody here use Citizen app?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 5,
+          "t": [
+            31.733,
+            32.354
+          ],
+          "quote": "And at Citizen,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            67.904,
+            75.248
+          ],
+          "quote": "If I actually take a look at the Citizen app right now for those who are customers or users, I can see that there is a man yelling at person.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "voice-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "语音智能体 (voice agent)",
+      "file": "语音智能体",
+      "primary": true,
+      "how_described": "本集的主线:能打电话、与真人对话并采取行动(连日历、CRM、预订系统)的语音智能体,正从演示毕业进入生产,但错误率高、被当成比犯罪更值得警惕的对象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            17.678,
+            25.827
+          ],
+          "quote": "And before working on voice agent reliability and safety, I worked at a company called Citizen out of New York.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            103.956,
+            109.779
+          ],
+          "quote": "When I got started in voice agent reliability in early 2024, voice was just starting to work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            170.168,
+            175.35
+          ],
+          "quote": "However, reliability is still the number one problem holding back most voice agent deployments at scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            347.051,
+            354.976
+          ],
+          "quote": "Or in the voice agent equivalent, it would be a drive-through that's deploying voice agents at scale like a Taco Bell or McDonald's.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            562.992,
+            566.394
+          ],
+          "quote": "In a voice agent world, it could be some repetitions the team is experiencing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            585.232,
+            591.434
+          ],
+          "quote": "Would be, in a FinServe capacity, there's a voice agent that helps users freeze their credit cards.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把 agent 当通用对象讨论:智能体正在被连接到各种系统、能真正采取行动,同时能力越大、攻击面越大,约五分之一能被红队攻破。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            17.678,
+            25.827
+          ],
+          "quote": "And before working on voice agent reliability and safety, I worked at a company called Citizen out of New York.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            103.956,
+            109.779
+          ],
+          "quote": "When I got started in voice agent reliability in early 2024, voice was just starting to work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            170.168,
+            175.35
+          ],
+          "quote": "However, reliability is still the number one problem holding back most voice agent deployments at scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            347.051,
+            354.976
+          ],
+          "quote": "Or in the voice agent equivalent, it would be a drive-through that's deploying voice agents at scale like a Taco Bell or McDonald's.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            562.992,
+            566.394
+          ],
+          "quote": "In a voice agent world, it could be some repetitions the team is experiencing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            585.232,
+            591.434
+          ],
+          "quote": "Would be, in a FinServe capacity, there's a voice agent that helps users freeze their credit cards.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            600.018,
+            600.938
+          ],
+          "quote": "Please fix my agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            674.749,
+            680.594
+          ],
+          "quote": "For example, if you have an outbound agent, the first five seconds of a conversation tends to be the most important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            853.549,
+            859.091
+          ],
+          "quote": "And this is helpful both for monitoring what the agent is saying and behaving and how it's actually doing, but also the users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            861.873,
+            863.333
+          ],
+          "quote": "Are they trying to trick the agent?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reliability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可靠性 (reliability)",
+      "file": "可靠性",
+      "primary": true,
+      "how_described": "本集说可靠性仍是阻碍大多数语音智能体大规模部署的第一大问题,实际错误率接近 10%,声音自信自然但提供的信息常常是错的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            17.678,
+            25.827
+          ],
+          "quote": "And before working on voice agent reliability and safety, I worked at a company called Citizen out of New York.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            103.956,
+            109.779
+          ],
+          "quote": "When I got started in voice agent reliability in early 2024, voice was just starting to work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            170.168,
+            175.35
+          ],
+          "quote": "However, reliability is still the number one problem holding back most voice agent deployments at scale.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "red-teaming",
+      "type": "concept",
+      "role": "concept",
+      "name": "红队测试 (red teaming)",
+      "file": "红队测试",
+      "primary": true,
+      "how_described": "本集说 Hamming 四月上线红队测试产品,实测约五分之一的智能体能被攻破,并建议给智能体跑 7×24 小时不间断的红队测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 172,
+          "t": [
+            866.775,
+            876.619
+          ],
+          "quote": "And I think our new recommendation now is to run 24-7 red teaming for your agents, especially if you believe the cost of bad interactions can be rather large.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cross-conversation-analysis",
+      "type": "concept",
+      "role": "concept",
+      "name": "跨对话分析 (cross-conversation analysis)",
+      "file": "跨对话分析",
+      "primary": true,
+      "how_described": "本集强调真正的新洞见藏在跨对话的模式里,而非单通电话;逐通话打分只能检查已知问题的一致性,最优秀的团队都花大量时间做跨对话分析。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            538.083,
+            544.952
+          ],
+          "quote": "We're spending a ton of time on performing cross-conversation analysis, not a pattern on a single call, but across conversations.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说团队从人工听通话起步,再用评分表扩大覆盖率,进而投资评估产品、跑 LM 作为裁判给通话打分;部署前测试(文本对文本或语音对语音)是对抗黑魔法仅有的真防御之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            514.6,
+            519.125
+          ],
+          "quote": "To scale that up even further, you then end up investing in some evals product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            843.644,
+            852.589
+          ],
+          "quote": "And I've highlighted different flavors of monitoring, per-call scoring, manual kind of evals, listening to conversations, and cross-call analysis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            933.045,
+            941.531
+          ],
+          "quote": "And if you are deploying voice agents and want to validate whether your architecture or your evals are set up correctly, please come and talk to us.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "monitoring",
+      "type": "concept",
+      "role": "concept",
+      "name": "监控 (monitoring)",
+      "file": "监控",
+      "primary": true,
+      "how_described": "本集把全方位监控系统列为防御的第二支柱:逐次通话打分、人工评估、监听对话、跨通话分析,既监控智能体也监控用户是否对抗性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            698.941,
+            707.683
+          ],
+          "quote": "Identify, prioritize, impact size, understand the fix, execute, check, make sure it didn't break anything, and then continue monitoring.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            839.682,
+            843.404
+          ],
+          "quote": "Step two is to have a great monitoring system of all kinds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            843.644,
+            852.589
+          ],
+          "quote": "And I've highlighted different flavors of monitoring, per-call scoring, manual kind of evals, listening to conversations, and cross-call analysis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            853.549,
+            859.091
+          ],
+          "quote": "And this is helpful both for monitoring what the agent is saying and behaving and how it's actually doing, but also the users.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "prompt injection",
+      "reason": "别名表实体「prompt-injection」的任何书写形式都未在真相源出现(疑编造)"
+    }
+  ]
+}

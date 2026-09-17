@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]]
+[[Wade Foster]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":124,"Amazon":12,"AWS":13,"Cloudera":1,"Databricks":12,"Palantir":16,"Microsoft":25,"Lovable":15,"前向部署工程师":7,"前置部署工程":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":125,"Amazon":12,"AWS":13,"Cloudera":1,"Databricks":12,"Palantir":16,"Microsoft":25,"Lovable":15,"前向部署工程师":7,"前置部署工程":3}</script>
 
 <script>
 (function(){

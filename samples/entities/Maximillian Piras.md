@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Utori":1,"智能体":258,"计算机使用模型":1,"心智模型":1,"鼠标力":1,"token":20,"ROI":1,"代码审查":10,"验证":5,"熵":3}</script>
+<script type="application/json" class="pd-epn">{"Utori":1,"智能体":261,"计算机使用模型":1,"心智模型":1,"鼠标力":1,"token":21,"ROI":1,"代码审查":10,"验证":5,"熵":3}</script>
 
 <script>
 (function(){

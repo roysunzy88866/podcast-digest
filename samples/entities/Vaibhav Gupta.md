@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Marc Brooker]] [[Ben Celebicic]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]] [[Paul Bakaus]]
+[[Marc Brooker]] [[Ben Celebicic]] [[Paula Dozsa]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":3,"智能体":258,"代码审查":10,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":2,"TypeScript":2,"JavaScript":1}</script>
+<script type="application/json" class="pd-epn">{"BAML":1,"垃圾话":3,"智能体":261,"代码审查":10,"不变量":1,"执行跟踪":1,"类型系统":1,"工具调用":2,"TypeScript":2,"JavaScript":1}</script>
 
 <script>
 (function(){

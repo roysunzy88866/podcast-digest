@@ -65,7 +65,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gamma":3,"PowerPoint":1,"Google Slides":1,"Optimizely":2,"Notion":13,"Slack":26,"Loom":1,"Salesforce":22,"Canvas":2,"ChatGPT":68}</script>
+<script type="application/json" class="pd-epn">{"Gamma":3,"PowerPoint":1,"Google Slides":1,"Optimizely":2,"Notion":13,"Slack":26,"Loom":1,"Salesforce":23,"Canvas":2,"ChatGPT":69}</script>
 
 <script>
 (function(){

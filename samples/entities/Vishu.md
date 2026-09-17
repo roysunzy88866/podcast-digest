@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Clay":3,"Claygent":1,"Sculptor":1,"LangChain":6,"智能体":258,"评估":2,"trace":2,"LLM 当裁判":6,"harness":35,"数据湖":2}</script>
+<script type="application/json" class="pd-epn">{"Clay":3,"Claygent":1,"Sculptor":1,"LangChain":6,"智能体":261,"评估":2,"trace":2,"LLM 当裁判":6,"harness":35,"数据湖":2}</script>
 
 <script>
 (function(){

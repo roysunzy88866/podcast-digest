@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]] [[Manoj Saxena]]
+[[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":7,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":258,"红队测试":3,"幻觉":9,"越狱":2,"提示词注入":12,"标准—审计—保险飞轮":1,"运行时安全":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":7,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":261,"红队测试":4,"幻觉":9,"越狱":2,"提示词注入":12,"标准—审计—保险飞轮":1,"运行时安全":1}</script>
 
 <script>
 (function(){

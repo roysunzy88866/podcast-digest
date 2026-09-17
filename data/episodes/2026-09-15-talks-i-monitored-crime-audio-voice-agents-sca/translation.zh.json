@@ -1,0 +1,1522 @@
+[
+ {
+  "seg": 0,
+  "start": 12.872,
+  "end": 16.837,
+  "speaker": "Unknown",
+  "en": "My name is Suman Yu, and I'm the founder and CEO of Hamming.",
+  "zh": "我叫 Suman Yu,是 Hamming 的创始人兼 CEO。"
+ },
+ {
+  "seg": 1,
+  "start": 17.678,
+  "end": 25.827,
+  "speaker": "Unknown",
+  "en": "And before working on voice agent reliability and safety, I worked at a company called Citizen out of New York.",
+  "zh": "在做语音智能体可靠性和安全之前,我在纽约一家叫 Citizen 的公司工作。"
+ },
+ {
+  "seg": 2,
+  "start": 25.887,
+  "end": 27.489,
+  "speaker": "Unknown",
+  "en": "Anybody here use Citizen app?",
+  "zh": "这里有人用 Citizen 这个应用吗?"
+ },
+ {
+  "seg": 3,
+  "start": 29.531,
+  "end": 29.771,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 4,
+  "start": 30.111,
+  "end": 30.432,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 5,
+  "start": 31.733,
+  "end": 32.354,
+  "speaker": "Unknown",
+  "en": "And at Citizen,",
+  "zh": "在 Citizen,"
+ },
+ {
+  "seg": 6,
+  "start": 33.533,
+  "end": 48.818,
+  "speaker": "Unknown",
+  "en": "We listened to crime, thousands of hours of police radio station data, and sent millions of alerts to users in San Francisco, New York, LA, Chicago, Baltimore, and so on.",
+  "zh": "我们收听犯罪信息,数千小时的警察电台数据,并向旧金山、纽约、洛杉矶、芝加哥、巴尔的摩等地的用户发送了数百万条警报。"
+ },
+ {
+  "seg": 7,
+  "start": 50.459,
+  "end": 58.682,
+  "speaker": "Unknown",
+  "en": "Some obviously gory and pretty sad, but others more funny, like a person stealing bags of ice cream from Safeway.",
+  "zh": "有些显然血腥而且挺悲伤,但也有一些更好笑的,比如有人从 Safeway 偷了几袋冰淇淋。"
+ },
+ {
+  "seg": 8,
+  "start": 60.16,
+  "end": 64.823,
+  "speaker": "Unknown",
+  "en": "A report of a man hanging off the side of the house after a woman stole his ladder.",
+  "zh": "还有一则报告说,一个女人偷了他的梯子之后,一个男人挂在房子的边上。"
+ },
+ {
+  "seg": 9,
+  "start": 67.904,
+  "end": 75.248,
+  "speaker": "Unknown",
+  "en": "If I actually take a look at the Citizen app right now for those who are customers or users, I can see that there is a man yelling at person.",
+  "zh": "如果我现在真的打开 Citizen 应用看看——对于那些是客户或用户的人来说——我能看到有个男人在对着人吼叫。"
+ },
+ {
+  "seg": 10,
+  "start": 76.149,
+  "end": 77.409,
+  "speaker": "Unknown",
+  "en": "There's indecent exposure.",
+  "zh": "还有露阴行为。"
+ },
+ {
+  "seg": 11,
+  "start": 77.509,
+  "end": 77.99,
+  "speaker": "Unknown",
+  "en": "This is real.",
+  "zh": "这是真实的。"
+ },
+ {
+  "seg": 12,
+  "start": 78.21,
+  "end": 78.85,
+  "speaker": "Unknown",
+  "en": "This is real time.",
+  "zh": "这是实时的。"
+ },
+ {
+  "seg": 13,
+  "start": 78.99,
+  "end": 81.972,
+  "speaker": "Unknown",
+  "en": "This is, you know, a couple hours ago.",
+  "zh": "这是,你知道,几个小时前的。"
+ },
+ {
+  "seg": 14,
+  "start": 82.332,
+  "end": 84.153,
+  "speaker": "Unknown",
+  "en": "These are real time alerts that we're sending.",
+  "zh": "这些是我们发送的实时警报。"
+ },
+ {
+  "seg": 15,
+  "start": 87.588,
+  "end": 93.071,
+  "speaker": "Unknown",
+  "en": "Now, voice agents scare me more because they're finally graduating from demos and POCs to production.",
+  "zh": "现在,语音智能体更让我害怕,因为它们终于从演示和 POC 毕业进入生产环境了。"
+ },
+ {
+  "seg": 16,
+  "start": 93.151,
+  "end": 94.811,
+  "speaker": "Unknown",
+  "en": "We should be super excited, but I'm nervous.",
+  "zh": "我们应该超级兴奋,但我很紧张。"
+ },
+ {
+  "seg": 17,
+  "start": 95.032,
+  "end": 95.752,
+  "speaker": "Unknown",
+  "en": "I am personally nervous.",
+  "zh": "我个人很紧张。"
+ },
+ {
+  "seg": 18,
+  "start": 97.033,
+  "end": 100.794,
+  "speaker": "Unknown",
+  "en": "They're talking to users at a scale that would make Gary Tan and Paul Graham proud.",
+  "zh": "它们正以让 Gary Tan 和 Paul Graham 都会引以为豪的规模与用户对话。"
+ },
+ {
+  "seg": 19,
+  "start": 103.956,
+  "end": 109.779,
+  "speaker": "Unknown",
+  "en": "When I got started in voice agent reliability in early 2024, voice was just starting to work.",
+  "zh": "当我在 2024 年初开始做语音智能体可靠性的时候,语音才刚刚开始能用。"
+ },
+ {
+  "seg": 20,
+  "start": 110.019,
+  "end": 112.16,
+  "speaker": "Unknown",
+  "en": "It was not quite good yet, but it was just starting to work.",
+  "zh": "它还不太行,但刚刚开始能用。"
+ },
+ {
+  "seg": 21,
+  "start": 113.133,
+  "end": 119.456,
+  "speaker": "Unknown",
+  "en": "You would have to pay me a lot of money for me to stop using AquaVoice, SuperWhisper, WhisperFlow, and so on.",
+  "zh": "你得给我很多钱,我才会停止使用 AquaVoice、SuperWhisper、WhisperFlow 等等。"
+ },
+ {
+  "seg": 22,
+  "start": 119.696,
+  "end": 121.457,
+  "speaker": "Unknown",
+  "en": "These products are just getting super, super good.",
+  "zh": "这些产品正变得超级、超级好。"
+ },
+ {
+  "seg": 23,
+  "start": 121.958,
+  "end": 127.04,
+  "speaker": "Unknown",
+  "en": "And a big reason is because the underlying infrastructure is getting better, and the orchestration there is getting meaningfully better.",
+  "zh": "一个很大的原因是底层基础设施在变好,而且那里的编排也在显著变好。"
+ },
+ {
+  "seg": 24,
+  "start": 128.421,
+  "end": 137.746,
+  "speaker": "Unknown",
+  "en": "It's getting much faster to build products and voice experiences that maybe are 60% good in a pretty short period of time, but the long tail is still wise away.",
+  "zh": "在很短的时间内构建出可能达到 60% 好的产品和语音体验变得快多了,但长尾问题依然潜伏着。"
+ },
+ {
+  "seg": 25,
+  "start": 141.717,
+  "end": 143.258,
+  "speaker": "Unknown",
+  "en": "I think speech-to-speech models are getting better.",
+  "zh": "我认为语音到语音模型正在变好。"
+ },
+ {
+  "seg": 26,
+  "start": 144.779,
+  "end": 157.748,
+  "speaker": "Unknown",
+  "en": "Teams are experimenting with hybrid architectures of combining more voice-to-voice modalities and also cascading stacks to make the experience reliable but still pretty low latency.",
+  "zh": "各团队正在试验混合架构,结合更多语音到语音的模态,以及级联技术栈,让体验可靠同时还保持相当低的延迟。"
+ },
+ {
+  "seg": 27,
+  "start": 159.709,
+  "end": 160.71,
+  "speaker": "Unknown",
+  "en": "Things are obviously getting better.",
+  "zh": "事情显然在变好。"
+ },
+ {
+  "seg": 28,
+  "start": 161.35,
+  "end": 165.973,
+  "speaker": "Unknown",
+  "en": "Agents are being connected to calendars, CRMs, EHRs, reservation systems, and so on.",
+  "zh": "智能体正在被连接到日历、CRM、EHR、预订系统等等。"
+ },
+ {
+  "seg": 29,
+  "start": 166.494,
+  "end": 167.975,
+  "speaker": "Unknown",
+  "en": "Voice agents can now take actions.",
+  "zh": "语音智能体现在可以采取行动了。"
+ },
+ {
+  "seg": 30,
+  "start": 170.168,
+  "end": 175.35,
+  "speaker": "Unknown",
+  "en": "However, reliability is still the number one problem holding back most voice agent deployments at scale.",
+  "zh": "然而,可靠性仍然是阻碍大多数语音智能体大规模部署的第一大问题。"
+ },
+ {
+  "seg": 31,
+  "start": 175.39,
+  "end": 176.71,
+  "speaker": "Unknown",
+  "en": "This is still the number one problem.",
+  "zh": "这仍然是第一大问题。"
+ },
+ {
+  "seg": 32,
+  "start": 177.61,
+  "end": 181.612,
+  "speaker": "Unknown",
+  "en": "This is an example I found on Twitter pretty randomly two weeks ago.",
+  "zh": "这是两周前我在 Twitter 上相当随机地找到的一个例子。"
+ },
+ {
+  "seg": 33,
+  "start": 182.592,
+  "end": 188.594,
+  "speaker": "Unknown",
+  "en": "And a person is trying to get information for a trade-in and gets absolutely confused with the information that they're receiving.",
+  "zh": "一个人想获取以旧换新的信息,却被他们收到的信息搞得完全糊涂了。"
+ },
+ {
+  "seg": 34,
+  "start": 189.274,
+  "end": 196.996,
+  "speaker": "Unknown",
+  "en": "Alex now has to correct for this loss of trust by trying to call the person and see what happened and fix the situation.",
+  "zh": "Alex 现在不得不弥补这种信任的丧失,试图打电话给那个人,看看发生了什么,并解决这个情况。"
+ },
+ {
+  "seg": 35,
+  "start": 197.737,
+  "end": 198.977,
+  "speaker": "Unknown",
+  "en": "Let me see if audio works here.",
+  "zh": "让我看看这里的音频能不能用。"
+ },
+ {
+  "seg": 36,
+  "start": 200.692,
+  "end": 202.153,
+  "speaker": "Unknown",
+  "en": "Screwed up with another customer.",
+  "zh": "搞砸了另一个客户的事。"
+ },
+ {
+  "seg": 37,
+  "start": 202.634,
+  "end": 205.156,
+  "speaker": "Unknown",
+  "en": "We're getting it fixed, but I got to call them and see if I can work it out.",
+  "zh": "我们正在修复它,但我得打电话给他们,看看能不能解决。"
+ },
+ {
+  "seg": 38,
+  "start": 205.516,
+  "end": 209.84,
+  "speaker": "Unknown",
+  "en": "I'm like, dude, half the time I'm like, I don't know if I'm talking to AI, I don't know if I'm talking to a person.",
+  "zh": "我就想,老兄,有一半的时间我都不知道我是在跟 AI 说话,还是在跟一个人说话。"
+ },
+ {
+  "seg": 39,
+  "start": 209.86,
+  "end": 211.862,
+  "speaker": "Unknown",
+  "en": "It was just confusing, but we got there.",
+  "zh": "就是让人很困惑,但我们还是办成了。"
+ },
+ {
+  "seg": 40,
+  "start": 211.882,
+  "end": 214.505,
+  "speaker": "Unknown",
+  "en": "It probably is AI and human.",
+  "zh": "它可能既是 AI 也是真人。"
+ },
+ {
+  "seg": 41,
+  "start": 217.207,
+  "end": 223.133,
+  "speaker": "Unknown",
+  "en": "So I think voices sound very confident, they sound very natural, but the information provided is often not correct.",
+  "zh": "所以我认为语音听起来非常自信,听起来非常自然,但提供的信息往往不正确。"
+ },
+ {
+  "seg": 42,
+  "start": 223.313,
+  "end": 224.414,
+  "speaker": "Unknown",
+  "en": "That's the biggest problem here.",
+  "zh": "这是这里最大的问题。"
+ },
+ {
+  "seg": 43,
+  "start": 226.055,
+  "end": 227.215,
+  "speaker": "Unknown",
+  "en": "This example is more personal.",
+  "zh": "这个例子更私人一些。"
+ },
+ {
+  "seg": 44,
+  "start": 227.676,
+  "end": 232.077,
+  "speaker": "Unknown",
+  "en": "I had booked an appointment with a physician a couple weeks ago, or I thought I did.",
+  "zh": "几周前我和一位医生预约了,或者我以为我预约了。"
+ },
+ {
+  "seg": 45,
+  "start": 232.797,
+  "end": 236.058,
+  "speaker": "Unknown",
+  "en": "I showed up to the appointment, and it turns out I was not actually on the schedule.",
+  "zh": "我到了预约现场,结果发现我实际上不在日程表上。"
+ },
+ {
+  "seg": 46,
+  "start": 237.179,
+  "end": 238.779,
+  "speaker": "Unknown",
+  "en": "So the front desk meter turned me away.",
+  "zh": "所以前台的机器把我打发走了。"
+ },
+ {
+  "seg": 47,
+  "start": 239.419,
+  "end": 240.4,
+  "speaker": "Unknown",
+  "en": "I wasted two hours.",
+  "zh": "我浪费了两个小时。"
+ },
+ {
+  "seg": 48,
+  "start": 241.42,
+  "end": 242.581,
+  "speaker": "Unknown",
+  "en": "For me, this was a waste of time.",
+  "zh": "对我来说,这只是浪费时间。"
+ },
+ {
+  "seg": 49,
+  "start": 243.021,
+  "end": 244.701,
+  "speaker": "Unknown",
+  "en": "But what if this was actually your parent?",
+  "zh": "但如果这其实是你父母呢?"
+ },
+ {
+  "seg": 50,
+  "start": 246.222,
+  "end": 247.462,
+  "speaker": "Unknown",
+  "en": "What if this was your grandparent?",
+  "zh": "如果这是你的祖父母呢？"
+ },
+ {
+  "seg": 51,
+  "start": 248.903,
+  "end": 252.344,
+  "speaker": "Unknown",
+  "en": "What if this appointment was for a procedure instead of a regular checkup?",
+  "zh": "如果这个预约不是常规体检，而是一个手术呢？"
+ },
+ {
+  "seg": 52,
+  "start": 253.162,
+  "end": 258.086,
+  "speaker": "Unknown",
+  "en": "The costs for these different permutations of the same failure mode can actually be super, super high.",
+  "zh": "同一种失败模式在不同情形下的代价实际上可能非常、非常高。"
+ },
+ {
+  "seg": 53,
+  "start": 260.228,
+  "end": 262.289,
+  "speaker": "Unknown",
+  "en": "Now, let's compare crime to voice agents.",
+  "zh": "现在，我们来把犯罪和语音智能体做个对比。"
+ },
+ {
+  "seg": 54,
+  "start": 263.15,
+  "end": 267.153,
+  "speaker": "Unknown",
+  "en": "I think observation number one is crime is actually decreasing over time.",
+  "zh": "我觉得第一个观察结果是，犯罪实际上是随时间在减少的。"
+ },
+ {
+  "seg": 55,
+  "start": 267.954,
+  "end": 269.255,
+  "speaker": "Unknown",
+  "en": "This is a good thing.",
+  "zh": "这是一件好事。"
+ },
+ {
+  "seg": 56,
+  "start": 269.735,
+  "end": 273.058,
+  "speaker": "Unknown",
+  "en": "And I hope it crosses the x-axis at some point in the future.",
+  "zh": "而且我希望它在未来的某个时刻能穿过 x 轴。"
+ },
+ {
+  "seg": 57,
+  "start": 275.275,
+  "end": 278.097,
+  "speaker": "Unknown",
+  "en": "Voice, on the other hand, is generally taking off.",
+  "zh": "另一方面，语音总体上正在起飞。"
+ },
+ {
+  "seg": 58,
+  "start": 278.117,
+  "end": 281.4,
+  "speaker": "Unknown",
+  "en": "We're seeing a pretty fast takeoff of voice agents being deployed in production.",
+  "zh": "我们看到语音智能体在生产环境中的部署正在相当快速地起飞。"
+ },
+ {
+  "seg": 59,
+  "start": 282.02,
+  "end": 284.422,
+  "speaker": "Unknown",
+  "en": "There's at least a trillion calls that are done every single year.",
+  "zh": "每年至少有 1 万亿次通话在进行。"
+ },
+ {
+  "seg": 60,
+  "start": 285.302,
+  "end": 289.666,
+  "speaker": "Unknown",
+  "en": "And majority of these will be done by conversational voice agents over the next five years.",
+  "zh": "而在未来五年，其中大部分将由对话式语音智能体完成。"
+ },
+ {
+  "seg": 61,
+  "start": 290.386,
+  "end": 294.829,
+  "speaker": "Unknown",
+  "en": "If you assume a 1% error rate, that is still 10 billion incidents per year.",
+  "zh": "如果假设 1% 的错误率，那每年仍有 100 亿起事故。"
+ },
+ {
+  "seg": 62,
+  "start": 295.03,
+  "end": 295.63,
+  "speaker": "Unknown",
+  "en": "That's a lot.",
+  "zh": "这是很多。"
+ },
+ {
+  "seg": 63,
+  "start": 298.192,
+  "end": 300.794,
+  "speaker": "Unknown",
+  "en": "In practice, we currently monitor 10,000 agents.",
+  "zh": "在实践中，我们目前监控着 10,000 个智能体。"
+ },
+ {
+  "seg": 64,
+  "start": 301.654,
+  "end": 303.776,
+  "speaker": "Unknown",
+  "en": "And the error rate is closer to 10% in practice.",
+  "zh": "而实际错误率更接近 10%。"
+ },
+ {
+  "seg": 65,
+  "start": 305.582,
+  "end": 321.614,
+  "speaker": "Unknown",
+  "en": "These range from agents saying they found the right policy when they actually skipped the eligibility or verification steps, or applying discounts when they were not really supposed to, mishearing what the person said, providing incorrect information, or claiming they booked an appointment when they actually did not, just like it happened for me.",
+  "zh": "这些错误包括：智能体声称找到了正确的政策，但实际上跳过了资格或验证步骤；或者在本来不应该打折时应用了折扣；听错了对方说的话；提供了错误的信息；或者声称已预约但实际并没有，就像我遇到的情况一样。"
+ },
+ {
+  "seg": 66,
+  "start": 323.525,
+  "end": 328.495,
+  "speaker": "Unknown",
+  "en": "Now, not every single call has an equally bad cost.",
+  "zh": "现在，并非每一通电话的代价都同样糟糕。"
+ },
+ {
+  "seg": 67,
+  "start": 328.835,
+  "end": 335.668,
+  "speaker": "Unknown",
+  "en": "Some range, in the crime land, some range from trash fires, which are kind of funny, annoying, not really hurting somebody,",
+  "zh": "在犯罪领域，有些从垃圾火灾级别——那种有点好笑、烦人、并不真正伤害到人的——"
+ },
+ {
+  "seg": 68,
+  "start": 337.045,
+  "end": 346.711,
+  "speaker": "Unknown",
+  "en": "For a voice equivalent, that would be annoyances like repetition or just sort of not quite understanding what the user is saying, all the way to safety risks like mass shootings.",
+  "zh": "语音的对应情况，则是像重复或不太理解用户在说什么之类的烦扰，一直到像大规模枪击那样的安全风险。"
+ },
+ {
+  "seg": 69,
+  "start": 347.051,
+  "end": 354.976,
+  "speaker": "Unknown",
+  "en": "Or in the voice agent equivalent, it would be a drive-through that's deploying voice agents at scale like a Taco Bell or McDonald's.",
+  "zh": "或者对应到语音智能体，那就是像 Taco Bell 或 McDonald's 这样大规模部署语音智能体的得来速餐厅。"
+ },
+ {
+  "seg": 70,
+  "start": 355.716,
+  "end": 358.698,
+  "speaker": "Unknown",
+  "en": "And a person orders a vegan burger with peanut allergies.",
+  "zh": "然后一位顾客点了纯素汉堡，并且有花生过敏。"
+ },
+ {
+  "seg": 71,
+  "start": 360.099,
+  "end": 365.282,
+  "speaker": "Unknown",
+  "en": "If one of those two situations are not handled correctly, that is definitely a safety concern at scale.",
+  "zh": "如果这两种情况中有一种处理不当，在大规模下绝对是安全隐患。"
+ },
+ {
+  "seg": 72,
+  "start": 367.895,
+  "end": 379.738,
+  "speaker": "Unknown",
+  "en": "The other big difference between crime and voice station deployments is crime generally tends to be pretty hyper-local, tends to be very decentralized, right?",
+  "zh": "犯罪和语音站部署之间的另一个重大区别是，犯罪通常往往非常本地化，往往非常去中心化，对吧？"
+ },
+ {
+  "seg": 73,
+  "start": 379.758,
+  "end": 383.819,
+  "speaker": "Unknown",
+  "en": "Things like robbery or motor vehicle theft or larceny.",
+  "zh": "比如抢劫、机动车盗窃或盗窃罪。"
+ },
+ {
+  "seg": 74,
+  "start": 384.539,
+  "end": 389.3,
+  "speaker": "Unknown",
+  "en": "They're impacting a finite set of individuals that are involved in that situation.",
+  "zh": "它们影响到的是参与该情境的一小部分个体。"
+ },
+ {
+  "seg": 75,
+  "start": 392.755,
+  "end": 395.437,
+  "speaker": "Unknown",
+  "en": "On the other hand, voice agents are much more centralized.",
+  "zh": "另一方面，语音智能体要集中得多。 [[56→76]] 一次提示词的改动或架构的改动，可能会对处于交叉火力中的数百万用户产生相当巨大的下游影响。"
+ },
+ {
+  "seg": 76,
+  "start": 395.978,
+  "end": 405.986,
+  "speaker": "Unknown",
+  "en": "A single prompt change or an architecture change can have pretty massive implications downstream for all of the millions of users that are in the crossfire.",
+  "zh": "一个提示词的改动或架构的改动,可能会对所有身处交火中的数百万用户产生相当巨大的下游影响。"
+ },
+ {
+  "seg": 77,
+  "start": 406.787,
+  "end": 409.229,
+  "speaker": "Unknown",
+  "en": "So the blast radius is quite massive.",
+  "zh": "所以爆炸半径相当大。"
+ },
+ {
+  "seg": 78,
+  "start": 410.009,
+  "end": 413.532,
+  "speaker": "Unknown",
+  "en": "So the natural question is, how do you make these incidents much more visible and obvious?",
+  "zh": "那么自然的问题是，你如何让这些事故更加可见、更加明显？"
+ },
+ {
+  "seg": 79,
+  "start": 413.752,
+  "end": 415.574,
+  "speaker": "Unknown",
+  "en": "That's the kind of obvious question here.",
+  "zh": "这就是这里显而易见的问题。"
+ },
+ {
+  "seg": 80,
+  "start": 417.153,
+  "end": 422.136,
+  "speaker": "Unknown",
+  "en": "I'll borrow a framework from a couple of my friends who were OG growth folks at Facebook.",
+  "zh": "我会借用我的几个朋友的框架，他们曾是 Facebook 的元老级增长人员。"
+ },
+ {
+  "seg": 81,
+  "start": 422.417,
+  "end": 429.061,
+  "speaker": "Unknown",
+  "en": "So step one is to identify, OK, what are all the challenges and problems that exist in your conversation experience?",
+  "zh": "第一步是识别，好的，你的对话体验中存在哪些挑战和问题？"
+ },
+ {
+  "seg": 82,
+  "start": 429.802,
+  "end": 431.703,
+  "speaker": "Unknown",
+  "en": "Step two is to prioritize an impact size.",
+  "zh": "第二步是按影响规模排定优先级。"
+ },
+ {
+  "seg": 83,
+  "start": 431.843,
+  "end": 435.065,
+  "speaker": "Unknown",
+  "en": "There's a frequency and severity analysis that's pretty important.",
+  "zh": "有一个频率和严重程度分析，这非常重要。"
+ },
+ {
+  "seg": 84,
+  "start": 435.826,
+  "end": 438.208,
+  "speaker": "Unknown",
+  "en": "Step three is to understand, OK, how do we actually fix this?",
+  "zh": "第三步是理解，好的，我们究竟该怎么修复它？"
+ },
+ {
+  "seg": 85,
+  "start": 438.968,
+  "end": 439.91,
+  "speaker": "Unknown",
+  "en": "Step four, execute.",
+  "zh": "第四步，执行。"
+ },
+ {
+  "seg": 86,
+  "start": 440.21,
+  "end": 442.654,
+  "speaker": "Unknown",
+  "en": "Step five, OK, did my change actually work?",
+  "zh": "第五步，好的，我的改动真的起作用了吗？"
+ },
+ {
+  "seg": 87,
+  "start": 443.134,
+  "end": 445.117,
+  "speaker": "Unknown",
+  "en": "And did it cause any regressions somewhere else?",
+  "zh": "并且它有没有在其他地方造成任何回归？"
+ },
+ {
+  "seg": 88,
+  "start": 445.818,
+  "end": 448.002,
+  "speaker": "Unknown",
+  "en": "And lastly, we continue to monitor in production.",
+  "zh": "最后，我们在生产环境中持续监控。"
+ },
+ {
+  "seg": 89,
+  "start": 450.225,
+  "end": 461.349,
+  "speaker": "Unknown",
+  "en": "On the y-axis, I think it's important to highlight there are known problems that already exist, things like turnover latency, interruptions, maybe some ASR problems you're aware of.",
+  "zh": "在 y 轴上，我认为需要强调的是，存在一些已知的、已经存在的问题，比如轮次延迟、打断，也许还有一些你已经意识到的 ASR 问题。"
+ },
+ {
+  "seg": 90,
+  "start": 461.849,
+  "end": 466.19,
+  "speaker": "Unknown",
+  "en": "And these are known problems that exist that the team should track over time.",
+  "zh": "这些是存在的已知问题，团队应该随时间追踪。"
+ },
+ {
+  "seg": 91,
+  "start": 467.051,
+  "end": 473.613,
+  "speaker": "Unknown",
+  "en": "On the other axis is actually emerging behavior or patterns that are only obvious across lots of conversations.",
+  "zh": "另一个轴上，其实是只有跨越大量对话才能看出来的新兴行为或模式。"
+ },
+ {
+  "seg": 92,
+  "start": 475.693,
+  "end": 478.234,
+  "speaker": "Unknown",
+  "en": "On the x-axis, you have coverage, just like insurance.",
+  "zh": "在 x 轴上，你有覆盖率，就像保险一样。"
+ },
+ {
+  "seg": 93,
+  "start": 478.875,
+  "end": 480.956,
+  "speaker": "Unknown",
+  "en": "Are you analyzing few conversations?",
+  "zh": "你是在分析少量对话？"
+ },
+ {
+  "seg": 94,
+  "start": 481.036,
+  "end": 483.017,
+  "speaker": "Unknown",
+  "en": "Are you analyzing many, many conversations?",
+  "zh": "还是在分析非常非常多的对话？"
+ },
+ {
+  "seg": 95,
+  "start": 483.917,
+  "end": 486.799,
+  "speaker": "Unknown",
+  "en": "Most teams will typically start by listening to calls manually.",
+  "zh": "大多数团队通常会从人工听通话开始。"
+ },
+ {
+  "seg": 96,
+  "start": 488.519,
+  "end": 489.72,
+  "speaker": "Unknown",
+  "en": "And I think that's the best place to start.",
+  "zh": "而且我认为那是最好的起点。"
+ },
+ {
+  "seg": 97,
+  "start": 490.44,
+  "end": 491.701,
+  "speaker": "Unknown",
+  "en": "I don't think you should skip that step.",
+  "zh": "我认为你不应该跳过那一步。"
+ },
+ {
+  "seg": 98,
+  "start": 492.301,
+  "end": 499.425,
+  "speaker": "Unknown",
+  "en": "There's a lot of depth and insights you get by actually listening to specific conversations and building that texture that comes from that intuition.",
+  "zh": "通过真正去听具体的对话并建立来自那种直觉的质感，你能获得很多深度和洞见。"
+ },
+ {
+  "seg": 99,
+  "start": 500.513,
+  "end": 502.255,
+  "speaker": "Unknown",
+  "en": "However, it's obviously not scalable.",
+  "zh": "然而，这显然不可扩展。"
+ },
+ {
+  "seg": 100,
+  "start": 502.895,
+  "end": 513.365,
+  "speaker": "Unknown",
+  "en": "So most teams end up having a spreadsheet of, I don't know, five or 10 different rubrics around greetings, closing, validation, core logic, and so on.",
+  "zh": "所以大多数团队最终会有一个电子表格，里面记录着大概五到十条不同的评分标准，涵盖问候语、结束语、认同、核心逻辑等等。"
+ },
+ {
+  "seg": 101,
+  "start": 514.6,
+  "end": 519.125,
+  "speaker": "Unknown",
+  "en": "To scale that up even further, you then end up investing in some evals product.",
+  "zh": "要进一步扩大规模，你最终会投资某种评估产品。"
+ },
+ {
+  "seg": 102,
+  "start": 519.465,
+  "end": 527.814,
+  "speaker": "Unknown",
+  "en": "You might run some LM as a judge and compute classic metrics and also more deterministic and stochastic scoring logic.",
+  "zh": "你可能会运行一些 LM 作为裁判，计算经典指标，还有更多确定性和随机性的评分逻辑。"
+ },
+ {
+  "seg": 103,
+  "start": 528.454,
+  "end": 537.144,
+  "speaker": "Unknown",
+  "en": "But there, you're still stuck with checking for consistency of known problems, but you're not really discovering novel insights that are actually happening across conversations.",
+  "zh": "但在那里，你仍然困在检查已知问题的一致性上，却没有真正发现对话中实际发生的新洞见。"
+ },
+ {
+  "seg": 104,
+  "start": 538.083,
+  "end": 544.952,
+  "speaker": "Unknown",
+  "en": "We're spending a ton of time on performing cross-conversation analysis, not a pattern on a single call, but across conversations.",
+  "zh": "我们花了大量时间做跨对话分析，不是单个通话中的模式，而是跨对话的模式。"
+ },
+ {
+  "seg": 105,
+  "start": 545.853,
+  "end": 548.477,
+  "speaker": "Unknown",
+  "en": "And some of the best teams that we work with are doing the same.",
+  "zh": "而我们合作的一些最优秀的团队也在做同样的事。"
+ },
+ {
+  "seg": 106,
+  "start": 550.92,
+  "end": 552.362,
+  "speaker": "Unknown",
+  "en": "Now to prioritize an impact size.",
+  "zh": "现在来按影响大小排定优先级。"
+ },
+ {
+  "seg": 107,
+  "start": 552.602,
+  "end": 554.164,
+  "speaker": "Unknown",
+  "en": "I think there's problems that are one-off.",
+  "zh": "我认为有一些问题是一次性的。"
+ },
+ {
+  "seg": 108,
+  "start": 555.087,
+  "end": 555.827,
+  "speaker": "Unknown",
+  "en": "That are low impact.",
+  "zh": "影响很低。"
+ },
+ {
+  "seg": 109,
+  "start": 555.907,
+  "end": 556.508,
+  "speaker": "Unknown",
+  "en": "I mean, who cares?",
+  "zh": "我是说，谁在乎呢？"
+ },
+ {
+  "seg": 110,
+  "start": 557.909,
+  "end": 562.391,
+  "speaker": "Unknown",
+  "en": "Even low impact and systematic problems in the crime world, that would be a trash fire.",
+  "zh": "即使是低影响但系统性的问题，在犯罪世界里，那会是一场垃圾火灾。"
+ },
+ {
+  "seg": 111,
+  "start": 562.992,
+  "end": 566.394,
+  "speaker": "Unknown",
+  "en": "In a voice agent world, it could be some repetitions the team is experiencing.",
+  "zh": "在语音智能体世界里，可能是团队经历的一些重复问题。"
+ },
+ {
+  "seg": 112,
+  "start": 566.954,
+  "end": 568.095,
+  "speaker": "Unknown",
+  "en": "They're still annoying at scale.",
+  "zh": "在规模化时它们仍然令人恼火。"
+ },
+ {
+  "seg": 113,
+  "start": 568.255,
+  "end": 571.156,
+  "speaker": "Unknown",
+  "en": "And if you are doing a bake-off, it's still worth solving for them.",
+  "zh": "而且如果你在做对比评测，这些问题仍然值得解决。"
+ },
+ {
+  "seg": 114,
+  "start": 571.497,
+  "end": 573.058,
+  "speaker": "Unknown",
+  "en": "I would not ignore these kinds of problems.",
+  "zh": "我不会忽视这类问题。"
+ },
+ {
+  "seg": 115,
+  "start": 574.058,
+  "end": 576.339,
+  "speaker": "Unknown",
+  "en": "One-off in high impact, we'll hope it is even chronic.",
+  "zh": "一次性但高影响的，我们希望它甚至是长期性的。"
+ },
+ {
+  "seg": 116,
+  "start": 577.24,
+  "end": 582.943,
+  "speaker": "Unknown",
+  "en": "And I think systematic and high impact are obviously the P0 target areas for the team to solve.",
+  "zh": "一种天真但很好的方法是取一个真实通话。"
+ },
+ {
+  "seg": 117,
+  "start": 582.963,
+  "end": 583.744,
+  "speaker": "Unknown",
+  "en": "An example of that,",
+  "zh": "一个例子是，"
+ },
+ {
+  "seg": 118,
+  "start": 585.232,
+  "end": 591.434,
+  "speaker": "Unknown",
+  "en": "Would be, in a FinServe capacity, there's a voice agent that helps users freeze their credit cards.",
+  "zh": "在金融服务场景中，有一个帮助用户冻结信用卡的语音智能体。"
+ },
+ {
+  "seg": 119,
+  "start": 591.575,
+  "end": 593.515,
+  "speaker": "Unknown",
+  "en": "And if it doesn't do that, well, that's a massive fail.",
+  "zh": "如果它做不到这一点，那可是一个巨大的失败。"
+ },
+ {
+  "seg": 120,
+  "start": 596.597,
+  "end": 598.177,
+  "speaker": "Unknown",
+  "en": "All right, so understand and execute.",
+  "zh": "好的，就是理解并执行。"
+ },
+ {
+  "seg": 121,
+  "start": 598.497,
+  "end": 599.718,
+  "speaker": "Unknown",
+  "en": "I'm pretty sure everyone's doing this.",
+  "zh": "我很确定每个人都在这么做。"
+ },
+ {
+  "seg": 122,
+  "start": 600.018,
+  "end": 600.938,
+  "speaker": "Unknown",
+  "en": "Please fix my agent.",
+  "zh": "请修复我的智能体。"
+ },
+ {
+  "seg": 123,
+  "start": 601.699,
+  "end": 611.643,
+  "speaker": "Unknown",
+  "en": "I think fixing, or rather, attempting to make a fix is the simplest and the lowest effort component of this debugging pipeline and loop.",
+  "zh": "我认为修复，或者说尝试做出修复，是这个调试管道和循环中最简单、投入最低的部分。"
+ },
+ {
+  "seg": 124,
+  "start": 613.697,
+  "end": 615.878,
+  "speaker": "Unknown",
+  "en": "The next step is, all right, I made a change to my system.",
+  "zh": "下一步是，好的，我对我的系统做了一个改动。"
+ },
+ {
+  "seg": 125,
+  "start": 615.938,
+  "end": 619.239,
+  "speaker": "Unknown",
+  "en": "How do I actually know this thing works for real?",
+  "zh": "我要怎么真正知道这个东西确实有效？"
+ },
+ {
+  "seg": 126,
+  "start": 620.079,
+  "end": 624.121,
+  "speaker": "Unknown",
+  "en": "A great way that's naive is to take a real call.",
+  "zh": "一种很朴素的好方法是拿一通真实的通话。"
+ },
+ {
+  "seg": 127,
+  "start": 624.401,
+  "end": 637.826,
+  "speaker": "Unknown",
+  "en": "For example, in my case, I booked an appointment and it didn't get scheduled and replay that exact conversation and run that maybe 5, 10, 20, 50 times and see, OK, what is my probability of passing this type of call?",
+  "zh": "例如，就我的情况而言，我预约了一个时间但没有被安排成功，然后重放那段完全相同的对话，运行它大概 5 次、10 次、20 次、50 次，然后看，好的，我通过这类通话的概率是多少？"
+ },
+ {
+  "seg": 128,
+  "start": 638.286,
+  "end": 648.269,
+  "speaker": "Unknown",
+  "en": "A better way is to keep the same intent but change the wordings, change the patterns, change the accents, change the style, add one more intent to the mix.",
+  "zh": "更好的方法是保持相同的意图，但改变措辞、改变模式、改变口音、改变风格，再往组合里加一个意图。"
+ },
+ {
+  "seg": 129,
+  "start": 649.009,
+  "end": 658.952,
+  "speaker": "Unknown",
+  "en": "And that gives teams much more, you know, better coverage to feel confident that yes, I actually made a change and my changes are net positive instead of net negative.",
+  "zh": "这会给团队好得多的覆盖面，让你有信心相信，是的，我真的做了一个改动，而且我的改动是净正向而不是净负向的。"
+ },
+ {
+  "seg": 130,
+  "start": 661.598,
+  "end": 669.785,
+  "speaker": "Unknown",
+  "en": "There are certain fixes and, I guess, hypotheses that are very difficult to test in a pre-deployment synthetic setting.",
+  "zh": "有些修复，或者说是假设，在部署前的合成环境中非常难以测试。"
+ },
+ {
+  "seg": 131,
+  "start": 670.505,
+  "end": 674.108,
+  "speaker": "Unknown",
+  "en": "And so A-B testing ends up being pretty critical for those circumstances.",
+  "zh": "因此 A/B 测试在这些情况下就变得非常关键。"
+ },
+ {
+  "seg": 132,
+  "start": 674.749,
+  "end": 680.594,
+  "speaker": "Unknown",
+  "en": "For example, if you have an outbound agent, the first five seconds of a conversation tends to be the most important.",
+  "zh": "例如，如果你有一个外呼智能体，对话的前五秒往往是最重要的。"
+ },
+ {
+  "seg": 133,
+  "start": 681.214,
+  "end": 682.796,
+  "speaker": "Unknown",
+  "en": "And so the vocal quality,",
+  "zh": "所以语音质量，"
+ },
+ {
+  "seg": 134,
+  "start": 684.517,
+  "end": 687.518,
+  "speaker": "Unknown",
+  "en": "And the specific words you end up using, they matter the most.",
+  "zh": "以及你最终使用的具体词语，它们最为关键。"
+ },
+ {
+  "seg": 135,
+  "start": 687.538,
+  "end": 692.759,
+  "speaker": "Unknown",
+  "en": "And so A-B testing that is the only way in kind of real life setting to get results.",
+  "zh": "因此在真实生活场景中，对它做 A/B 测试是获得结果的唯一方法。"
+ },
+ {
+  "seg": 136,
+  "start": 692.779,
+  "end": 694.86,
+  "speaker": "Unknown",
+  "en": "You can't really do it through simulations alone.",
+  "zh": "仅靠模拟你确实做不到。"
+ },
+ {
+  "seg": 137,
+  "start": 697.38,
+  "end": 698.301,
+  "speaker": "Unknown",
+  "en": "And so there we have the loop.",
+  "zh": "于是我们就有了这个循环。"
+ },
+ {
+  "seg": 138,
+  "start": 698.941,
+  "end": 707.683,
+  "speaker": "Unknown",
+  "en": "Identify, prioritize, impact size, understand the fix, execute, check, make sure it didn't break anything, and then continue monitoring.",
+  "zh": "识别、按影响大小排优先级、理解修复、执行、检查、确保没有弄坏任何东西，然后继续监控。"
+ },
+ {
+  "seg": 139,
+  "start": 712.061,
+  "end": 720.99,
+  "speaker": "Unknown",
+  "en": "So I think making voice agents useful is already hard as it is, even when dealing with earnest users on the other line.",
+  "zh": "所以我认为让语音智能体有用本来就很难了，即使电话另一端是真诚的用户。"
+ },
+ {
+  "seg": 140,
+  "start": 721.151,
+  "end": 723.293,
+  "speaker": "Unknown",
+  "en": "These are people who just want their problem solved.",
+  "zh": "这些人只是想解决他们的问题。"
+ },
+ {
+  "seg": 141,
+  "start": 723.313,
+  "end": 724.254,
+  "speaker": "Unknown",
+  "en": "They're not trying to mess with you.",
+  "zh": "他们不是想捉弄你。"
+ },
+ {
+  "seg": 142,
+  "start": 724.454,
+  "end": 726.316,
+  "speaker": "Unknown",
+  "en": "These are like legit, normal people.",
+  "zh": "这些是正经的普通人。"
+ },
+ {
+  "seg": 143,
+  "start": 728.759,
+  "end": 730.661,
+  "speaker": "Unknown",
+  "en": "Now what happens when Mythos learns how to dial?",
+  "zh": "那么当 Mythos 学会了拨号会发生什么？"
+ },
+ {
+  "seg": 144,
+  "start": 733.732,
+  "end": 744.077,
+  "speaker": "Unknown",
+  "en": "So if we can extract trade secrets from the NSA, it can certainly seduce you into revealing PHI and PII data as well.",
+  "zh": "所以如果它能从 NSA 提取商业机密，它当然也能诱骗你泄露 PHI 和 PII 数据。"
+ },
+ {
+  "seg": 145,
+  "start": 747.118,
+  "end": 749.96,
+  "speaker": "Unknown",
+  "en": "And I think both voice agents and humans will be targeted here.",
+  "zh": "我认为语音智能体和人类都会在这里成为目标。"
+ },
+ {
+  "seg": 146,
+  "start": 751.22,
+  "end": 762.386,
+  "speaker": "Unknown",
+  "en": "Voice agents because there's a pressure to make these more capable, give them access to more data, give them access to more tools, deploy them quickly.",
+  "zh": "语音智能体是因为存在让它们更强能力的压力，给它们访问更多数据、访问更多工具、快速部署。"
+ },
+ {
+  "seg": 147,
+  "start": 765.397,
+  "end": 767.219,
+  "speaker": "Unknown",
+  "en": "The more the capability, the bigger the surface area.",
+  "zh": "能力越大，攻击面越大。"
+ },
+ {
+  "seg": 148,
+  "start": 767.419,
+  "end": 769.36,
+  "speaker": "Unknown",
+  "en": "This is pretty common sense.",
+  "zh": "这是相当常识的东西。"
+ },
+ {
+  "seg": 149,
+  "start": 770.381,
+  "end": 779.429,
+  "speaker": "Unknown",
+  "en": "And the more the voice agents become natural and human sounding, the more humans will be tricked along the way as well for those who are weaponizing.",
+  "zh": "而且语音智能体变得越自然、越像人，对于那些武器化它的人来说，过程中被欺骗的人类也会越多。"
+ },
+ {
+  "seg": 150,
+  "start": 781.971,
+  "end": 788.477,
+  "speaker": "Unknown",
+  "en": "We shipped our red tipping product back in April just to test out this hypothesis for how many agents can we actually break.",
+  "zh": "我们在四月就上线了我们的红队测试产品，只是为了验证一个假设：我们到底能攻破多少个智能体。"
+ },
+ {
+  "seg": 151,
+  "start": 789.497,
+  "end": 791.158,
+  "speaker": "Unknown",
+  "en": "From an adversarial capacity.",
+  "zh": "从对抗性的角度来看。"
+ },
+ {
+  "seg": 152,
+  "start": 791.658,
+  "end": 793.979,
+  "speaker": "Unknown",
+  "en": "And we can probably break one in five agents at this point.",
+  "zh": "到目前为止，我们大概能攻破五分之一的智能体。"
+ },
+ {
+  "seg": 153,
+  "start": 794.239,
+  "end": 798.78,
+  "speaker": "Unknown",
+  "en": "We've tested this across financial services, health care, consumer, and so on.",
+  "zh": "我们在金融服务、医疗保健、消费等领域都测试过。"
+ },
+ {
+  "seg": 154,
+  "start": 799.66,
+  "end": 800.941,
+  "speaker": "Unknown",
+  "en": "We've bypassed verification.",
+  "zh": "我们绕过了验证。"
+ },
+ {
+  "seg": 155,
+  "start": 801.921,
+  "end": 803.622,
+  "speaker": "Unknown",
+  "en": "We've definitely had agents.",
+  "zh": "我们确实碰到过智能体。"
+ },
+ {
+  "seg": 156,
+  "start": 804.402,
+  "end": 809.144,
+  "speaker": "Unknown",
+  "en": "We've been able to prime-deject several agents and gotten data we should not have.",
+  "zh": "我们成功对好几个智能体进行了提示词注入，并拿到了本不该拿到的数据。"
+ },
+ {
+  "seg": 157,
+  "start": 809.304,
+  "end": 810.664,
+  "speaker": "Unknown",
+  "en": "So this is not theoretical.",
+  "zh": "所以这不是理论上的。"
+ },
+ {
+  "seg": 158,
+  "start": 810.704,
+  "end": 812.805,
+  "speaker": "Unknown",
+  "en": "This is actually a real concern.",
+  "zh": "这是实实在在的担忧。"
+ },
+ {
+  "seg": 159,
+  "start": 817.645,
+  "end": 824.995,
+  "speaker": "Unknown",
+  "en": "I think the only real defense against the dark arts is step one to invest deeply in pre-deployment testing.",
+  "zh": "我认为对抗黑魔法唯一真正的防御是：第一步，深入投入部署前测试。"
+ },
+ {
+  "seg": 160,
+  "start": 825.396,
+  "end": 826.637,
+  "speaker": "Unknown",
+  "en": "This could be text-to-text.",
+  "zh": "可以是文本对文本。"
+ },
+ {
+  "seg": 161,
+  "start": 827.018,
+  "end": 828.139,
+  "speaker": "Unknown",
+  "en": "This could be voice-to-voice.",
+  "zh": "也可以是语音对语音。"
+ },
+ {
+  "seg": 162,
+  "start": 828.8,
+  "end": 830.022,
+  "speaker": "Unknown",
+  "en": "There's pros and cons to both.",
+  "zh": "两者各有利弊。"
+ },
+ {
+  "seg": 163,
+  "start": 830.122,
+  "end": 831.865,
+  "speaker": "Unknown",
+  "en": "Happy to chat offline if folks are interested.",
+  "zh": "如果各位感兴趣，我很乐意线下聊。"
+ },
+ {
+  "seg": 164,
+  "start": 833.139,
+  "end": 838.722,
+  "speaker": "Unknown",
+  "en": "And this is just making sure you're not self-owning when you're talking to real people who just want to get their problem solved.",
+  "zh": "这就是为了确保当你面对那些只想解决自己问题的真人时，不会自摆乌龙。"
+ },
+ {
+  "seg": 165,
+  "start": 839.682,
+  "end": 843.404,
+  "speaker": "Unknown",
+  "en": "Step two is to have a great monitoring system of all kinds.",
+  "zh": "第二步是建立一套出色的、全方位的监控系统。"
+ },
+ {
+  "seg": 166,
+  "start": 843.644,
+  "end": 852.589,
+  "speaker": "Unknown",
+  "en": "And I've highlighted different flavors of monitoring, per-call scoring, manual kind of evals, listening to conversations, and cross-call analysis.",
+  "zh": "我在这里列出了不同形式的监控：逐次调用打分、人工评估、监听对话，以及跨通话分析。"
+ },
+ {
+  "seg": 167,
+  "start": 853.549,
+  "end": 859.091,
+  "speaker": "Unknown",
+  "en": "And this is helpful both for monitoring what the agent is saying and behaving and how it's actually doing, but also the users.",
+  "zh": "这既有助于监控智能体在说什么、表现如何、实际效果怎样，也有助于监控用户。"
+ },
+ {
+  "seg": 168,
+  "start": 859.732,
+  "end": 860.932,
+  "speaker": "Unknown",
+  "en": "Are the users being adversarial?",
+  "zh": "用户是否有对抗性？"
+ },
+ {
+  "seg": 169,
+  "start": 861.092,
+  "end": 861.813,
+  "speaker": "Unknown",
+  "en": "Are they being annoying?",
+  "zh": "他们是否很烦人？"
+ },
+ {
+  "seg": 170,
+  "start": 861.873,
+  "end": 863.333,
+  "speaker": "Unknown",
+  "en": "Are they trying to trick the agent?",
+  "zh": "他们是否想欺骗智能体？"
+ },
+ {
+  "seg": 171,
+  "start": 863.793,
+  "end": 865.214,
+  "speaker": "Unknown",
+  "en": "If you're doing things it's not supposed to be doing.",
+  "zh": "是否在让它做不该做的事。"
+ },
+ {
+  "seg": 172,
+  "start": 866.775,
+  "end": 876.619,
+  "speaker": "Unknown",
+  "en": "And I think our new recommendation now is to run 24-7 red teaming for your agents, especially if you believe the cost of bad interactions can be rather large.",
+  "zh": "我觉得我们现在的新建议是：为你的智能体进行 7×24 小时不间断的红队测试，尤其是当你认为不良交互的代价可能相当大的时候。"
+ },
+ {
+  "seg": 173,
+  "start": 878.972,
+  "end": 893.602,
+  "speaker": "Unknown",
+  "en": "So I think voice agents have this awesome potential of making the world feel much more human compared to interacting with clunky IVR trees, or chatbots, or worse, being stuck on a hold.",
+  "zh": "所以我认为，语音智能体有着巨大的潜力，能让这个世界感觉更有人情味，而不是去和笨重的 IVR 树、聊天机器人打交道，或者更糟，被晾在等待接听的电话里。"
+ },
+ {
+  "seg": 174,
+  "start": 895.183,
+  "end": 899.446,
+  "speaker": "Unknown",
+  "en": "And when we think about crime, we often think of crime happening to somebody else.",
+  "zh": "当我们想到犯罪时，我们往往觉得犯罪发生在别人身上。"
+ },
+ {
+  "seg": 175,
+  "start": 900.687,
+  "end": 902.849,
+  "speaker": "Unknown",
+  "en": "Crime does not happen to you, typically.",
+  "zh": "犯罪通常不会发生在你身上。"
+ },
+ {
+  "seg": 176,
+  "start": 904.058,
+  "end": 914.282,
+  "speaker": "Unknown",
+  "en": "With voice agents, especially bad actors, as these agents are deployed and as bad actors start to exploit a lot of the vulnerabilities, the number of incidents is about to kind of go way, way up.",
+  "zh": "而对于语音智能体，尤其是恶意攻击者——随着这些智能体的部署，随着恶意攻击者开始利用大量漏洞，事故数量即将大幅、大幅攀升。"
+ },
+ {
+  "seg": 177,
+  "start": 915.283,
+  "end": 920.665,
+  "speaker": "Unknown",
+  "en": "And so the reason I fear voice agents more than crime is that one of these incidents is going to impact you.",
+  "zh": "所以我相比犯罪更害怕语音智能体的原因是：这些事故中总有一桩会波及到你。"
+ },
+ {
+  "seg": 178,
+  "start": 921.406,
+  "end": 922.266,
+  "speaker": "Unknown",
+  "en": "It already did for me.",
+  "zh": "在我身上已经发生了。"
+ },
+ {
+  "seg": 179,
+  "start": 924.338,
+  "end": 924.618,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "很棒。"
+ },
+ {
+  "seg": 180,
+  "start": 924.758,
+  "end": 925.759,
+  "speaker": "Unknown",
+  "en": "So it's time for me to shill.",
+  "zh": "那么到了我推销的时间了。"
+ },
+ {
+  "seg": 181,
+  "start": 925.919,
+  "end": 927.04,
+  "speaker": "Unknown",
+  "en": "Well, we burn a lot of tokens.",
+  "zh": "嗯，我们会烧掉很多 token。"
+ },
+ {
+  "seg": 182,
+  "start": 927.52,
+  "end": 932.244,
+  "speaker": "Unknown",
+  "en": "If you are interested in working in this space, please come and talk to us.",
+  "zh": "如果你有兴趣在这个领域工作，请来找我们聊。"
+ },
+ {
+  "seg": 183,
+  "start": 933.045,
+  "end": 941.531,
+  "speaker": "Unknown",
+  "en": "And if you are deploying voice agents and want to validate whether your architecture or your evals are set up correctly, please come and talk to us.",
+  "zh": "如果你正在部署语音智能体，想验证你的架构或评估体系是否搭建正确，请来找我们聊。"
+ },
+ {
+  "seg": 184,
+  "start": 941.811,
+  "end": 942.712,
+  "speaker": "Unknown",
+  "en": "We'll be outside.",
+  "zh": "我们会在外面。"
+ },
+ {
+  "seg": 185,
+  "start": 942.732,
+  "end": 943.693,
+  "speaker": "Unknown",
+  "en": "And here's my number.",
+  "zh": "这是我的电话号码。"
+ },
+ {
+  "seg": 186,
+  "start": 943.713,
+  "end": 944.253,
+  "speaker": "Unknown",
+  "en": "Here's my WhatsApp.",
+  "zh": "这是我的 WhatsApp。"
+ },
+ {
+  "seg": 187,
+  "start": 944.833,
+  "end": 945.294,
+  "speaker": "Unknown",
+  "en": "Thanks, everyone.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 188,
+  "start": 954.203,
+  "end": 955.893,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 189,
+  "start": 955.933,
+  "end": 956.799,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

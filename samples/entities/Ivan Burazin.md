@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":17,"Neon":2,"Parallel":5,"Devin":3,"智能体":258,"沙箱":50,"突发负载":1,"裸金属":1,"计算机使用":12}</script>
+<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":17,"Neon":2,"Parallel":5,"Devin":3,"智能体":261,"沙箱":50,"突发负载":1,"裸金属":1,"计算机使用":12}</script>
 
 <script>
 (function(){

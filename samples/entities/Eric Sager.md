@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]]
+[[Wade Foster]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Plaid":2,"Square":4,"Visa":2,"OpenAI":119,"Perplexity":6,"Replit":16,"公司文化":1,"创始人":1,"组织设计":1,"go-to-market":8}</script>
+<script type="application/json" class="pd-epn">{"Plaid":2,"Square":4,"Visa":2,"OpenAI":120,"Perplexity":6,"Replit":16,"公司文化":1,"创始人":1,"组织设计":1,"go-to-market":8}</script>
 
 <script>
 (function(){

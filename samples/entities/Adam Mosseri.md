@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]]
+[[Wade Foster]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Luca Ferrari]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Instagram":4,"TikTok":4,"Anthropic":124,"Facebook":13,"open ai":2,"Twitter":6,"Reels":2,"Stories":2,"pods":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Instagram":4,"TikTok":4,"Anthropic":125,"Facebook":13,"open ai":2,"Twitter":6,"Reels":2,"Stories":2,"pods":1}</script>
 
 <script>
 (function(){

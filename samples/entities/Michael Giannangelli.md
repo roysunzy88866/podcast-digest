@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":6,"评估":2,"基准测试":10,"智能体":258,"RLGym":1,"迁移":1,"Claude Code":62,"Codex":50,"Anthropic":124}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":6,"评估":2,"基准测试":10,"智能体":261,"RLGym":1,"迁移":1,"Claude Code":62,"Codex":50,"Anthropic":125}</script>
 
 <script>
 (function(){

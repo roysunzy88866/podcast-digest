@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":4,"Shopify":9,"River":2,"智能体":258,"sidekick":2,"Catalog":1,"Universal Commerce Protocol":1,"X 型人":1,"T 型人":1,"关税":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":4,"Shopify":9,"River":2,"智能体":261,"sidekick":2,"Catalog":1,"Universal Commerce Protocol":1,"X 型人":1,"T 型人":1,"关税":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1370 @@
+{
+  "episode_id": "2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o",
+  "podcast": "The Cognitive Revolution",
+  "date": "2026-09-17",
+  "tags": [
+    "AI 自动化",
+    "智能体",
+    "AI 转型",
+    "企业级 AI 采用",
+    "应用层"
+  ],
+  "categories": [
+    "智能体",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "nathan",
+      "type": "person",
+      "role": "host",
+      "name": "Nathan",
+      "file": "Nathan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            326.806,
+            328.067
+          ],
+          "quote": "Yeah, thanks for having me again, Nathan.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3814.915,
+            3832.026
+          ],
+          "quote": "Thank you, Nathan.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "wade-foster",
+      "type": "person",
+      "role": "cohost",
+      "name": "Wade Foster",
+      "file": "Wade Foster",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.252,
+            8.615
+          ],
+          "quote": "Today, I'm excited to welcome Wade Foster, co-founder and CEO of Zapier, back to the show.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 19,
+          "t": [
+            199.132,
+            212.759
+          ],
+          "quote": "With that, I hope you enjoy this very grounded and highly practical conversation about making AI automation work for people outside the AI bubble with Wade Foster, co-founder and CEO of Zapier.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 39,
+          "t": [
+            321.742,
+            325.705
+          ],
+          "quote": "Wade Foster, CEO of Zapier, welcome back to the Cognitive Revolution.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "zapier",
+      "type": "company",
+      "role": "company",
+      "name": "Zapier",
+      "file": "Zapier",
+      "primary": true,
+      "how_described": "本集主角：做了 15 年自动化的平台，现拥有智能体、聊天机器人、MCP 服务器、SDK 和护栏产品的完整 AI 组合；Wade 把它定位为接入用户日常主力工具的 Uber 式工具，而非平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.252,
+            8.615
+          ],
+          "quote": "Today, I'm excited to welcome Wade Foster, co-founder and CEO of Zapier, back to the show.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 2,
+          "t": [
+            9.615,
+            20.48
+          ],
+          "quote": "When I last spoke to Wade in September of 2024, some 400,000 customers had already used Zapier to delegate more than 100 million tasks to AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 3,
+          "t": [
+            21.14,
+            26.923
+          ],
+          "quote": "And YC president Gary Tan was calling Zapier the AI-powered knowledge worker of the future.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 4,
+          "t": [
+            28.208,
+            40.52
+          ],
+          "quote": "Since then, models have of course become dramatically more capable, and Zapier has built out a full AI portfolio, including agents, chatbots, an MCP server, an SDK, and an AI guardrails product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 6,
+          "t": [
+            48.535,
+            61.223
+          ],
+          "quote": "With that in mind, I wanted to hear not only about what Zapier has built and how it's continued to evolve as a company, but what Wade and team have learned about how businesses across the economy understand and use today's AI tools.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 8,
+          "t": [
+            73.683,
+            81.148
+          ],
+          "quote": "And that platforms like Zapier will need to adapt by making their tools available and effective in those environments.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 9,
+          "t": [
+            82.556,
+            99.003
+          ],
+          "quote": "Practically, he observes that models still struggle with many business tasks, as illustrated by Astra setting a new high of just 40% success on Zapier's automation bench, which consists of roughly 600 knowledge work tasks across marketing, sales, HR, and operations.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 11,
+          "t": [
+            115.307,
+            121.613
+          ],
+          "quote": "We then go on to discuss what Zapier is doing to help people recognize exactly what AI might be able to do for them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 13,
+          "t": [
+            138.067,
+            146.137
+          ],
+          "quote": "We also talk about how Zapier is implementing recursive self-improvement loops internally and how much value they're finding in running multiple different AIs on the same problem.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 14,
+          "t": [
+            147.238,
+            154.747
+          ],
+          "quote": "Why Wade chose to put Zapier's chief people officer in charge of AI transformation but wouldn't necessarily recommend that strategy to other companies.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 15,
+          "t": [
+            155.762,
+            161.348
+          ],
+          "quote": "How Zapier is moving toward public by default communications to make more and more context available to AIs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 17,
+          "t": [
+            170.877,
+            178.821
+          ],
+          "quote": "How Zapier, which holds a huge number of high-value user credentials, is thinking about security in the context of rapidly rising cybersecurity risks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 19,
+          "t": [
+            199.132,
+            212.759
+          ],
+          "quote": "With that, I hope you enjoy this very grounded and highly practical conversation about making AI automation work for people outside the AI bubble with Wade Foster, co-founder and CEO of Zapier.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 39,
+          "t": [
+            321.742,
+            325.705
+          ],
+          "quote": "Wade Foster, CEO of Zapier, welcome back to the Cognitive Revolution.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 46,
+          "t": [
+            355.109,
+            380.907
+          ],
+          "quote": "I would love to start off with just, first of all, an observation that, like many ambitious software companies, you guys at Zapier have been really prolific, and I would say you've kind of built everything in the sense that you now have, in addition to workflows, which of course can call out to AIs, you've got agents, you've got chatbots, you've got an MCP, you've got an SDK, you've got a guardrails product, and probably more, you know, that didn't even notify or identify or mention.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 63,
+          "t": [
+            451.425,
+            459.247
+          ],
+          "quote": "What that means is tools like Zapier MCP or any MCP server are tools that bring your context, bring your data into that person's daily driver.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            515.751,
+            525.355
+          ],
+          "quote": "It sounds like you're kind of positioning Zapier not as being a daily driver, but more as being like an Uber tool for whichever daily driver you choose to use?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 100,
+          "t": [
+            634.886,
+            637.086
+          ],
+          "quote": "We see this with our own Zapier's Automation Bench.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            772.953,
+            786.396
+          ],
+          "quote": "Obviously, Zapier came from a history of like very structured workflows, because if you didn't fully encode what the workflow was supposed to do, there was no ghost in the machine back when you started to figure it out on the fly.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 126,
+          "t": [
+            797.322,
+            802.81
+          ],
+          "quote": "And then maybe you can describe how usage of Zapier is changing qualitatively.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 130,
+          "t": [
+            815.946,
+            822.173
+          ],
+          "quote": "How often is it happening through an MCP where it's the model deciding, you know, to even use Zapier given a range of options?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 142,
+          "t": [
+            868.52,
+            883.228
+          ],
+          "quote": "And what we are doing at Zapier is we are making sure that when you install Zapier alongside of your agent, that you're actually getting better output on these benchmarks than you would if you were just using the models alone.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            891.111,
+            894.372
+          ],
+          "quote": "So they're calling Zapier MCP and it's going to say, hey, I'm going to go build out that workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1117.017,
+            1126.111
+          ],
+          "quote": "If you think of Zapier in the old school as like this thing that had a bunch of boxes and you're coming in and using that to configure it, by and large, I don't think that is the way people are doing it now or even in the future.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1382.474,
+            1403.005
+          ],
+          "quote": "So when you go to the 40% or so success rate on automation bench, what can you bring that up to as you move from, you know, just asking Claude to do it to giving Claude Zapier and, you know, potentially iterating a little bit on initial failures?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1409.161,
+            1417.044
+          ],
+          "quote": "You're going to have to wait for Automation Bench v2 for that because that is exactly the right question is to see, hey, what happens when you give these models access to tools like Zapier?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1593.665,
+            1597.186
+          ],
+          "quote": "core to Zapier's defensibility these days.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1715.481,
+            1723.104
+          ],
+          "quote": "If I'm putting two and two together right, it sounds like at Zapier you probably have a database of a zillion things that have gone wrong over time.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1736.236,
+            1744.181
+          ],
+          "quote": "Or have you had to kind of innovate at the retrieval stack layer in order to make that work well for such a use case as Zapier?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2234.473,
+            2241.401
+          ],
+          "quote": "I remember for a long time, one of the hardest problems with Zapier, even till this day, has been helping people with recommendations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2370.452,
+            2379.426
+          ],
+          "quote": "So how have you set that up for yourself and how broadly deployed at Zapier is this sort of AI on your shoulder or screen record?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2382.503,
+            2389.385
+          ],
+          "quote": "Most people use Zapier MCP for this, so they just have all their tools hooked up into whatever harness of choice they use.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2453.365,
+            2456.709
+          ],
+          "quote": "Is this something you think you'll productize for Zapier customers?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2778.506,
+            2784.531
+          ],
+          "quote": "Topic change toward operations and AI transformation within Zapier.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2822.647,
+            2832.013
+          ],
+          "quote": "And so for our first chapter, like a big part of Zapier becoming AI fluent was everyone in the company, like getting up to speed on how to use these tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2911.431,
+            2914.76
+          ],
+          "quote": "His team was on the forefront of some of this inside of Zapier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2922.993,
+            2930.117
+          ],
+          "quote": "It could have just as easily been a CMO or a CPO or any number of roles that just, that's how it's played out inside of Zapier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2941.264,
+            2947.394
+          ],
+          "quote": "This was like at this moment in time inside of Zapier, this sort of felt like the best person to go tackle it based on the problems we were facing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3004.142,
+            3009.846
+          ],
+          "quote": "One interesting thing, Zapier's had this value of default to transparency for, gosh, forever, it feels like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 549,
+          "t": [
+            3041.425,
+            3051.97
+          ],
+          "quote": "I think still by and large Zapier was very much more public than most companies, but Slack gives you the readout so you can see what percentage of stuff is happening in private and public and all that sort of stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 574,
+          "t": [
+            3183.502,
+            3185.964
+          ],
+          "quote": "Because I've got a lot of credentials all over the place, Zapier and otherwise.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3189.363,
+            3200.465
+          ],
+          "quote": "So this has always been an important thing inside of Zapier that we said, hey, the credentials are a thing that we must treat with the highest of stewardship.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 601,
+          "t": [
+            3314.459,
+            3327.775
+          ],
+          "quote": "In terms of spending, I saw you tweet not too long ago that you have some engineers spending $30,000 a month on tokens at Zapier and it struck me that like we've kind of...",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 622,
+          "t": [
+            3464.957,
+            3470.139
+          ],
+          "quote": "I've seen also some stuff in various places from Zapier that has a high Pangram score.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 626,
+          "t": [
+            3479.282,
+            3484.104
+          ],
+          "quote": "The way I think about it is I have no problems with people using AI for communication at Zapier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3563.988,
+            3572.172
+          ],
+          "quote": "So if you hook it up to an agent that has access to Zapier Slack, blah, could pull, oh, this project from three months ago is related, but not the exact same thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 674,
+          "t": [
+            3701.885,
+            3704.727
+          ],
+          "quote": "Everyone inside of Zapier is kind of their own mini data analyst now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3763.312,
+            3776.716
+          ],
+          "quote": "But with every model release, with every just own iteration learning loop inside of Zapier, you can start to feel us chip away at that problem where you're like, we're just getting closer and closer to something that looks actually pretty different than the orgs of the past.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3785.098,
+            3787.679
+          ],
+          "quote": "If I were to plug something, I'd say, go install Zapier MCP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 691,
+          "t": [
+            3787.94,
+            3790.701
+          ],
+          "quote": "You get a wholly modern experience of Zapier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3790.761,
+            3797.545
+          ],
+          "quote": "So if you still think of Zapier as the old school, no code, clicky click boxes on a screen thing, I think you're in for a treat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 693,
+          "t": [
+            3797.925,
+            3807.009
+          ],
+          "quote": "If you install Zapier into any of your favorite harness and try it out as your daily driver, you're going to get a whole bunch of capabilities that you don't get with just the harness out of the box.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3808.43,
+            3809.271
+          ],
+          "quote": "Zapier MCP.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说它是让外部工具接入模型的标准接口，本质是把你的数据和上下文带进那个人的日常主力工具；Zapier MCP 是 Wade 最后重点推荐安装的现代版 Zapier 体验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            28.208,
+            40.52
+          ],
+          "quote": "Since then, models have of course become dramatically more capable, and Zapier has built out a full AI portfolio, including agents, chatbots, an MCP server, an SDK, and an AI guardrails product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 46,
+          "t": [
+            355.109,
+            380.907
+          ],
+          "quote": "I would love to start off with just, first of all, an observation that, like many ambitious software companies, you guys at Zapier have been really prolific, and I would say you've kind of built everything in the sense that you now have, in addition to workflows, which of course can call out to AIs, you've got agents, you've got chatbots, you've got an MCP, you've got an SDK, you've got a guardrails product, and probably more, you know, that didn't even notify or identify or mention.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 63,
+          "t": [
+            451.425,
+            459.247
+          ],
+          "quote": "What that means is tools like Zapier MCP or any MCP server are tools that bring your context, bring your data into that person's daily driver.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            529.532,
+            538.634
+          ],
+          "quote": "We have a internal tool that a lot of our employees use as a sort of daily harness, but that also has an MCP associated with it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            815.946,
+            822.173
+          ],
+          "quote": "How often is it happening through an MCP where it's the model deciding, you know, to even use Zapier given a range of options?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 145,
+          "t": [
+            891.111,
+            894.372
+          ],
+          "quote": "So they're calling Zapier MCP and it's going to say, hey, I'm going to go build out that workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2382.503,
+            2389.385
+          ],
+          "quote": "Most people use Zapier MCP for this, so they just have all their tools hooked up into whatever harness of choice they use.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3785.098,
+            3787.679
+          ],
+          "quote": "If I were to plug something, I'd say, go install Zapier MCP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3808.43,
+            3809.271
+          ],
+          "quote": "Zapier MCP.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论：客户用智能体干的活里约 80% 本该用确定性代码；Zapier 内部自动邮件支持同时跑五个独立智能体投票评估故障；智能体还能在固化工作流失败后回头排查修复。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            247.146,
+            258.321
+          ],
+          "quote": "But for real time, up-to-date information, and certainly for taking any action, trying to get your agent to use the bank via the browser is just too hard, too slow, and too error-prone to be worth it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 142,
+          "t": [
+            868.52,
+            883.228
+          ],
+          "quote": "And what we are doing at Zapier is we are making sure that when you install Zapier alongside of your agent, that you're actually getting better output on these benchmarks than you would if you were just using the models alone.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            903.216,
+            908.498
+          ],
+          "quote": "And then I'm going to invoke an AI or build an agent for the parts that really require reasoning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            908.998,
+            923.662
+          ],
+          "quote": "And when we look across like even our own, like in customers usage of agentic products, the vast majority of what people are using an agent for, 80% in fact, they probably should be using actually old fashioned deterministic code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            957.633,
+            963.675
+          ],
+          "quote": "And so I think the right thing is you're trying to teach the agent how to go do that on its own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            964.015,
+            969.877
+          ],
+          "quote": "And so when you talk to it, it goes and builds those things in an optimized way, instead of saying, hey, I'm just going to build an agent that runs",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1126.492,
+            1129.837
+          ],
+          "quote": "Instead, they're talking to the agent and having the agent go make those edits for them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1131.695,
+            1144.026
+          ],
+          "quote": "The other nice thing that is happening in the future is you're going to see that stuff that gets hardened into a deterministic workflow, but even when it fails, you can actually have then the agent go troubleshoot and fall back and say, why did it fail?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1151.473,
+            1157.798
+          ],
+          "quote": "And so you start to see that the agent almost take over the human role of building and maintaining it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1285.783,
+            1290.745
+          ],
+          "quote": "You've got teams deploying standalone coding tools, random agent builders, and experimental scripts.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1487.7,
+            1491.582
+          ],
+          "quote": "And there's many such examples where you don't want the agent to actually orchestrate the task.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1496.744,
+            1505.768
+          ],
+          "quote": "And so a lot of that is when the agent is building its plan, you want to make sure that the plan and codes like, hey, this is like what the optimized workflow looks like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1810.202,
+            1814.844
+          ],
+          "quote": "And then there's like, you know, kind of other daily drivers or sort of agent builder type things.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2410.672,
+            2416.194
+          ],
+          "quote": "And so most people have something like that set up, and then they just tell their agent, okay, great, I like that suggestion, go build it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2784.571,
+            2794.939
+          ],
+          "quote": "One thing that caught my attention was that if my AI research agent is to be trusted, you put your chief people officer in charge of AI transformation.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3563.988,
+            3572.172
+          ],
+          "quote": "So if you hook it up to an agent that has access to Zapier Slack, blah, could pull, oh, this project from three months ago is related, but not the exact same thing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deterministic-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性代码 (deterministic code)",
+      "file": "确定性代码",
+      "primary": true,
+      "how_described": "本集最扎心的观点：提前写清规则、每次执行一致的代码，成本更低更可靠，绝大多数智能体使用场景（80%）应该用它，AI 只该在真正需要推理的环节出场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            99.92,
+            113.512
+          ],
+          "quote": "He also argues that many tasks that people are delegating to AI would be better done with deterministic code, and that for a while longer at least, there is therefore tremendous ROI to time invested in structuring and validating workflows.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 148,
+          "t": [
+            908.998,
+            923.662
+          ],
+          "quote": "And when we look across like even our own, like in customers usage of agentic products, the vast majority of what people are using an agent for, 80% in fact, they probably should be using actually old fashioned deterministic code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            941.907,
+            950.35
+          ],
+          "quote": "But I struggle to think of a world where there are just certain jobs that like deterministic code is still going to be more reliable and cheap.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "automation-bench",
+      "type": "concept",
+      "role": "concept",
+      "name": "Automation Bench",
+      "file": "Automation Bench",
+      "primary": true,
+      "how_described": "本集说它是 Zapier 自建的基准测试，由约 600 个横跨营销、销售、HR、运营的真实知识工作任务组成；最强新模型 Astra（GPT-6）也只做到约 40% 准确率，远未饱和。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            82.556,
+            99.003
+          ],
+          "quote": "Practically, he observes that models still struggle with many business tasks, as illustrated by Astra setting a new high of just 40% success on Zapier's automation bench, which consists of roughly 600 knowledge work tasks across marketing, sales, HR, and operations.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 100,
+          "t": [
+            634.886,
+            637.086
+          ],
+          "quote": "We see this with our own Zapier's Automation Bench.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            826.277,
+            830.058
+          ],
+          "quote": "Yeah, what automation bench measures is tasks that are kind of like the following.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1382.474,
+            1403.005
+          ],
+          "quote": "So when you go to the 40% or so success rate on automation bench, what can you bring that up to as you move from, you know, just asking Claude to do it to giving Claude Zapier and, you know, potentially iterating a little bit on initial failures?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1409.161,
+            1417.044
+          ],
+          "quote": "You're going to have to wait for Automation Bench v2 for that because that is exactly the right question is to see, hey, what happens when you give these models access to tools like Zapier?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "daily-driver",
+      "type": "concept",
+      "role": "concept",
+      "name": "daily driver",
+      "file": "daily driver",
+      "primary": true,
+      "how_described": "本集 Wade 过去 18 个月学到的最大一课：大多数人已固定一个日常 AI 主力工具（Claude Code、Cursor、ChatGPT 等），那是人们完成大部分工作的地方，所有工具都得集成进它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            62.917,
+            72.983
+          ],
+          "quote": "At a high level, Wade believes that most people are now settling in to using a single daily driver, whether that's Claude Code, ChatGPT, GrokBot, or in Wade's case, Cursor.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 63,
+          "t": [
+            451.425,
+            459.247
+          ],
+          "quote": "What that means is tools like Zapier MCP or any MCP server are tools that bring your context, bring your data into that person's daily driver.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            485.255,
+            486.596
+          ],
+          "quote": "We kind of want our daily driver.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            493.739,
+            504.544
+          ],
+          "quote": "I still think there's plenty of room for applications and tools to exist, but you kind of have to integrate with that person's core daily driver if you really want to be a part of their day-to-day workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            512.049,
+            515.731
+          ],
+          "quote": "Do you, so does that mean then, like what's your daily driver?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 79,
+          "t": [
+            515.751,
+            525.355
+          ],
+          "quote": "It sounds like you're kind of positioning Zapier not as being a daily driver, but more as being like an Uber tool for whichever daily driver you choose to use?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 144,
+          "t": [
+            886.429,
+            890.731
+          ],
+          "quote": "What folks are doing is they're in their daily driver and they're saying, hey, I want you to go build a workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 693,
+          "t": [
+            3797.925,
+            3807.009
+          ],
+          "quote": "If you install Zapier into any of your favorite harness and try it out as your daily driver, you're going to get a whole bunch of capabilities that you don't get with just the harness out of the box.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集谈到 token 支出已成真问题：有工程师每月花 30,000 美元买 token；Zapier 暂不设预算、给成本仪表盘自我管理，Wade 预计 token 预算终将成真且属于 AI 素养的一部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            1403.025,
+            1408.588
+          ],
+          "quote": "Like, what kind of lift do you see and what sort of token savings do you see over time?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2682.358,
+            2702.646
+          ],
+          "quote": "Would you be supportive of some sort of rule that said, hey, you got to charge everybody the same for tokens so that, like, an ecosystem, you know, has more of a fighting chance versus, like, with OpenAI giving, like, you know, 20 to 1 token advantage, you know, it could be hard for third-party, you know, value-add services to compete.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 602,
+          "t": [
+            3328.648,
+            3335.433
+          ],
+          "quote": "Been on quite the yo-yo ride recently with token maxing and then, you know, budgets being hit and what do we do about it?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 613,
+          "t": [
+            3404.581,
+            3409.625
+          ],
+          "quote": "Over time, I do suspect that token budgets are going to be a real thing, though.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集说 Cursor 是 Wade 自己每天使用的日常主力工具，他把 Zapier 内部工具通过 MCP 接进去。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            62.917,
+            72.983
+          ],
+          "quote": "At a high level, Wade believes that most people are now settling in to using a single daily driver, whether that's Claude Code, ChatGPT, GrokBot, or in Wade's case, Cursor.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 12,
+          "t": [
+            122.314,
+            136.468
+          ],
+          "quote": "Starting with his own weekly automation, which Wade says they will soon productize for customers, that reviews his activity across Gmail, Slack, the browser, cursor, and more, and then proposes specific tools and workflows that he should be building.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 60,
+          "t": [
+            439.69,
+            444.196
+          ],
+          "quote": "Maybe this is Claude Code, maybe this is Cursor, maybe this is ChatGPT, you name it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            526.871,
+            529.112
+          ],
+          "quote": "So I mostly use Cursor every single day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            538.714,
+            540.594
+          ],
+          "quote": "And so I have that pulled into Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            554.438,
+            556.278
+          ],
+          "quote": "I just happen to use a lot of that stuff inside Cursor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2389.405,
+            2396.547
+          ],
+          "quote": "Like I mentioned, we have our own internal harness, but it could be Claude Code, it could be Co-Work, it could be ChatGPT work, it could be Cursor, it could be anything, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集多次把它列为人们可能的日常 AI 主力工具，并说 ChatGPT 发布后一年内 Zapier 员工几乎 100% 日常使用 AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            62.917,
+            72.983
+          ],
+          "quote": "At a high level, Wade believes that most people are now settling in to using a single daily driver, whether that's Claude Code, ChatGPT, GrokBot, or in Wade's case, Cursor.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 60,
+          "t": [
+            439.69,
+            444.196
+          ],
+          "quote": "Maybe this is Claude Code, maybe this is Cursor, maybe this is ChatGPT, you name it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1936.621,
+            1938.781
+          ],
+          "quote": "They might've used ChatGPT or Gemini.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2182.135,
+            2188.776
+          ],
+          "quote": "And yeah, they use ChatGPT some to help with things here in meal planning or to help plan a vacation or to do a workout or something like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2389.405,
+            2396.547
+          ],
+          "quote": "Like I mentioned, we have our own internal harness, but it could be Claude Code, it could be Co-Work, it could be ChatGPT work, it could be Cursor, it could be anything, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2850.842,
+            2862.312
+          ],
+          "quote": "First, the AI fluency inside the company went, basically, we got within a year or so, basically, of ChatGPT launching almost like 100% of the employee bases using AI day to day.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集说它宣布『我们是无头的，你想在哪用就在哪用』，Wade 明确押注这种策略是赢家策略。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 307,
+          "t": [
+            1815.184,
+            1825.608
+          ],
+          "quote": "And then there's just kind of like other big incumbents, you know, that you've mentioned Salesforce and it's to some degree, it's like maybe just big incumbents with lots of data, lots of resources kind of all end up colliding with each other.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集说 OpenAI 如今已是大型科技公司，会把模型做到世界最强，但『他们不可能构建一切』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 315,
+          "t": [
+            1861.212,
+            1863.657
+          ],
+          "quote": "It wasn't, hey, what if Anthropic or what if OpenAI builds you?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1892.561,
+            1895.443
+          ],
+          "quote": "And the reality is OpenAI, Anthropic, they're big tech now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2660.98,
+            2675.271
+          ],
+          "quote": "Of course, you're, I'm sure, well aware of the ratio of tokens that you get with a Claude Max or an OpenAI Pro plan and how many more tokens you get, at least if you max them out, compared to what you can buy with the same dollars via the API.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2682.358,
+            2702.646
+          ],
+          "quote": "Would you be supportive of some sort of rule that said, hey, you got to charge everybody the same for tokens so that, like, an ecosystem, you know, has more of a fighting chance versus, like, with OpenAI giving, like, you know, 20 to 1 token advantage, you know, it could be hard for third-party, you know, value-add services to compete.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集说它与 OpenAI 一样已成大型科技公司，模型会做到最强，但不可能构建一切。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 315,
+          "t": [
+            1861.212,
+            1863.657
+          ],
+          "quote": "It wasn't, hey, what if Anthropic or what if OpenAI builds you?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1892.561,
+            1895.443
+          ],
+          "quote": "And the reality is OpenAI, Anthropic, they're big tech now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2041.433,
+            2043.675
+          ],
+          "quote": "Today's episode is brought to you by Anthropic.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": false,
+      "how_described": "本集说 Gemini 3-7 在自动化基准上表现相当不错但成本只是 Astra 的一小部分，并说很多人对 AI 的全部体验就是在 Google 搜索里用过 Gemini。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            651.751,
+            657.814
+          ],
+          "quote": "Now, it's more expensive than, say, something like Gemini 3-7, which does pretty good, but does at a fraction of the cost.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1936.621,
+            1938.781
+          ],
+          "quote": "They might've used ChatGPT or Gemini.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1953.836,
+            1961.803
+          ],
+          "quote": "And the real challenge is, can you actually get your hooks in somebody whose only experience with AI is using Gemini in the default Google search?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "astra",
+      "type": "concept",
+      "role": "concept",
+      "name": "Astra",
+      "file": "Astra",
+      "primary": false,
+      "how_described": "本集说它是上周发布的最强新模型（GPT-6），在 Zapier 自动化基准上以约 40% 准确率创下新高，但价格更贵。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            82.556,
+            99.003
+          ],
+          "quote": "Practically, he observes that models still struggle with many business tasks, as illustrated by Astra setting a new high of just 40% success on Zapier's automation bench, which consists of roughly 600 knowledge work tasks across marketing, sales, HR, and operations.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2155.691,
+            2164.182
+          ],
+          "quote": "And if you, especially if you were to tell me then that like we'd have Astra and you know, that it would have been roughly speaking like a smooth ramp to these capability levels.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

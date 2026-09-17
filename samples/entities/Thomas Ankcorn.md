@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sunil Pai":1,"Matt Carey":1,"Cloudflare":9,"code mode":2,"MCP":44,"智能体":258,"沙箱":50,"可观测性":21,"pie":1,"Cloudflare Worker":2}</script>
+<script type="application/json" class="pd-epn">{"Sunil Pai":1,"Matt Carey":1,"Cloudflare":9,"code mode":2,"MCP":45,"智能体":261,"沙箱":50,"可观测性":21,"pie":1,"Cloudflare Worker":2}</script>
 
 <script>
 (function(){

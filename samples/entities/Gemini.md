@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gemini</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Gemini">GE</div><div class="pi"><h1 class="pt">Gemini</h1><div class="byl">概念</div><div class="nums">本站收录 <b>8</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Gemini">GE</div><div class="pi"><h1 class="pt">Gemini</h1><div class="byl">概念</div><div class="nums">本站收录 <b>9</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,6 +19,7 @@ unlisted: true
 - **[[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]]**(00:24起):本集把它说成：Google 的超通用大模型，可以通过 API 供任何人做上下文工程；其 Flash 版本又快又轻量，正是得益于蒸馏技术。
 - **[[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]]**(00:38起):Google 的模型，本集说它与 ChatGPT 并列为购买推荐场景的两大玩家，同样在推理时做验证层工作。
 - **[[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]]**(00:47起):本集说 anti-gravity 远程 agent 在 Gemini API 上发布,Interactions API 是运行模型和智能体的统一接口,可通过 Gemini 模型同样的方式调用自定义 agent。
+- **[[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]]**(10:51起):本集说 Gemini 3-7 在自动化基准上表现相当不错但成本只是 Astra 的一小部分，并说很多人对 AI 的全部体验就是在 Google 搜索里用过 Gemini。
 
 ## ① 提到它的金句
 
@@ -30,7 +31,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为概念(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为概念
@@ -40,14 +41,15 @@ unlisted: true
 - [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]] — 作为概念
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]] — 作为被讨论公司
 - [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]] — 作为被讨论公司
+- [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Google]] · [[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[评估]] · [[Anthropic]] · [[沙箱]] · [[Claude Code]] · [[Lenny]] · [[Meta]]
+[[Google]] · [[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Anthropic]] · [[Claude Code]] · [[评估]] · [[Cursor]] · [[沙箱]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"Google":44,"智能体":258,"ChatGPT":68,"OpenAI":119,"评估":2,"Anthropic":124,"沙箱":50,"Claude Code":62,"Lenny":67,"Meta":32}</script>
+<script type="application/json" class="pd-epn">{"Google":44,"智能体":261,"ChatGPT":69,"OpenAI":120,"Anthropic":125,"Claude Code":62,"评估":2,"Cursor":61,"沙箱":50,"Lenny":67}</script>
 
 <script>
 (function(){

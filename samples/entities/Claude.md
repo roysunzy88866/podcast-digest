@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>59</b> 集 · <b>32</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>60</b> 集 · <b>33</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -69,10 +69,11 @@ unlisted: true
 - **[[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]]**(00:19起):本集用「就像奥斯卡：人人谈论但没人调研时用」形容它——大量用于写代码、总结文档、做 PPT，但在软件调研用例上净推荐值垫底，实时检索执行率不到 40%。
 - **[[2026-09-14-talks-no-memory-no-harness-why-the-database-is|《AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈》]]**(07:37起):本集说 Claude 自带的记忆更像文件系统记忆，「只能和一个实例配合工作，扩展超过一个就会产生问题」
 - **[[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|《Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法》]]**(28:28起):本集说嘉宾为患复杂慢性病的妻子在 Claude 里建了一个项目，指定约翰·霍普金斯等信源并定期查新文献，称其比任何见过的医生都好。
+- **[[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|《Tolan 如何做语音优先的 AI 陪伴体》]]**(10:05起):本集说从去年年底开始,Claude 在 Tolan iOS 应用里共同编写的代码超过了团队任何一位工程师,且无崩溃率、运行时错误反而变好
 
 ## ① 提到它的金句
 
-*32 条*
+*33 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q5]]
 
@@ -134,13 +135,15 @@ unlisted: true
 
 ![[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v#^q4]]
 
+![[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz#^q11]]
+
 ![[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are#^q11]]
 
 ![[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are#^q12]]
 
 ## ② 出现在这些集
 
-*59 集*
+*60 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -201,6 +204,7 @@ unlisted: true
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]] — 作为被讨论公司
 - [[2026-09-14-talks-no-memory-no-harness-why-the-database-is|《AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈》]] — 作为概念(提及)
 - [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|《Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法》]] — 作为被讨论公司
+- [[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|《Tolan 如何做语音优先的 AI 陪伴体》]] — 作为概念
 
 ## ③ 关联
 
@@ -208,7 +212,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Codex]] · [[Lenny]] · [[MCP]] · [[Google]] · [[Claude Code]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":258,"Anthropic":124,"ChatGPT":68,"OpenAI":119,"Codex":50,"Lenny":67,"MCP":44,"Google":44,"Claude Code":62,"护栏":50}</script>
+<script type="application/json" class="pd-epn">{"智能体":261,"Anthropic":125,"ChatGPT":69,"OpenAI":120,"Codex":50,"Lenny":67,"MCP":45,"Google":44,"Claude Code":62,"护栏":50}</script>
 
 <script>
 (function(){

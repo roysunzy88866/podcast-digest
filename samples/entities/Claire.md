@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Tobi Lütke]] [[Bohan Li]] [[Charlie Guo]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Tobi Lütke]] [[Sumanyu Sharma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":50,"智能体":258,"Intercom":6,"Ryan Carson":1,"Muse":1,"ChatPRD":5,"Devon":3,"Meta":32,"Vercel":17,"Cognition":17}</script>
+<script type="application/json" class="pd-epn">{"Codex":50,"智能体":261,"Intercom":6,"Ryan Carson":1,"Muse":1,"ChatPRD":5,"Devon":3,"Meta":32,"Vercel":17,"Cognition":17}</script>
 
 <script>
 (function(){

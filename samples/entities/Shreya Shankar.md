@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Hamel Husain":1,"评估":2,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 当裁判":6,"智能体":258,"trace":2,"Anthropic":124}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Hamel Husain":1,"评估":2,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 当裁判":6,"智能体":261,"trace":2,"Anthropic":125}</script>
 
 <script>
 (function(){

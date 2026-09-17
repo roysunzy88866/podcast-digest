@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":3,"Stripe":31,"Stripe Minions":1,"智能体":258,"智能体商务":3,"稳定币":4,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":19}</script>
+<script type="application/json" class="pd-epn">{"David George":3,"Stripe":31,"Stripe Minions":1,"智能体":261,"智能体商务":3,"稳定币":4,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":19}</script>
 
 <script>
 (function(){

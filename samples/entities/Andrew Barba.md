@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]] [[Charlie Guo]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Sumanyu Sharma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Shar Dara":1,"Kevin Ball":1,"Eve":3,"Vercel":17,"DZero":1,"智能体":258,"评估":2,"技能":16,"MCP":44,"沙箱":50}</script>
+<script type="application/json" class="pd-epn">{"Shar Dara":1,"Kevin Ball":1,"Eve":3,"Vercel":17,"DZero":1,"智能体":261,"评估":2,"技能":16,"MCP":45,"沙箱":50}</script>
 
 <script>
 (function(){

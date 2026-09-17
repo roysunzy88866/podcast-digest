@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>124</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>125</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -133,6 +133,7 @@ unlisted: true
 - **[[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|《工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录》]]**(00:10起):本集作为 Eight Sleep 工程师的编码供应商被讨论:工程师停写代码、主要用 Claude,Matteo 判断其用量会涨(5%→50%)但成本会降、净额下降,并会在 IPO 时买入
 - **[[2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026|《26 亿美元大学捐赠基金的 CIO，把风投和 LP 的账算得明明白白》]]**(00:31起):本集透露贝勒把捐赠基金约 2.5% 配在 Anthropic（强调是经理人的功劳不是自己的），且没有 SpaceX 和 OpenAI 的敞口。
 - **[[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|《Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法》]]**(04:55起):本集提到其有人警告技术有 10% 概率毁灭人类，助长了公众对 AI 的焦虑；也提到它是吞下公开信息的 AI 公司之一。
+- **[[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]]**(31:01起):本集说它与 OpenAI 一样已成大型科技公司，模型会做到最强，但不可能构建一切。
 
 ## ① 提到它的金句
 
@@ -178,7 +179,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*124 集*
+*125 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -304,14 +305,15 @@ unlisted: true
 - [[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|《工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录》]] — 作为被讨论公司
 - [[2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026|《26 亿美元大学捐赠基金的 CIO，把风投和 LP 的账算得明明白白》]] — 作为被讨论公司
 - [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|《Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法》]] — 作为被讨论公司(提及)
+- [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Claude]] · [[Cursor]] · [[NVIDIA]] · [[推理]] · [[Lenny]] · [[Google]] · [[Meta]]
+[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[Claude]] · [[NVIDIA]] · [[推理]] · [[Lenny]] · [[Google]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":258,"OpenAI":119,"Claude Code":62,"Claude":59,"Cursor":60,"NVIDIA":35,"推理":46,"Lenny":67,"Google":44,"Meta":32}</script>
+<script type="application/json" class="pd-epn">{"智能体":261,"OpenAI":120,"Claude Code":62,"Cursor":61,"Claude":60,"NVIDIA":35,"推理":46,"Lenny":67,"Google":44,"Meta":32}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":258,"子智能体":9,"harness":35,"提示词缓存":2,"记忆":12,"评估":2,"LLM 当裁判":6,"沙箱":50,"人在回路":11}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":261,"子智能体":9,"harness":35,"提示词缓存":2,"记忆":13,"评估":2,"LLM 当裁判":6,"沙箱":50,"人在回路":11}</script>
 
 <script>
 (function(){

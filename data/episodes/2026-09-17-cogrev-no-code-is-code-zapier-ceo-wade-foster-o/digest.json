@@ -1,0 +1,172 @@
+{
+  "title_zh": "Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司",
+  "tldr": "Zapier 联合创始人兼 CEO Wade Foster 谈模型在真实业务自动化上的天花板、80% 的智能体任务该用代码、以及 Zapier 内部的 AI 转型实践。",
+  "digest_md": "这一集聊的是：当模型能力一年暴涨之后，为什么普通公司的日常工作方式却几乎没变——以及一家做了 15 年自动化的公司对此的真实判断。主角是 Wade Foster，自动化平台 Zapier 的联合创始人兼 CEO，他手里有大约 600 个跨营销、销售、HR、运营的真实知识工作任务组成的基准测试，看得见各家模型在「真活儿」上的实际成色。\n\n他给出的第一个判断就很反直觉：模型在许多业务任务上仍然吃力——目前最强的新模型 Astra（GPT-6）在 Zapier 的自动化基准上只做到约 40% 的准确率，这已经是全场最高分 [10:42 Wade]。\n\n## 用户的主战场是「日常主力工具」，Zapier 要做 Uber 而不是平台\n\n过去 18 个月 Wade 学到的最大一课：大多数人已经固定了一个日常 AI 主力工具（daily driver）——可能是 Claude Code、Cursor、ChatGPT，随你举——那是人们完成大部分工作的地方。所以像 MCP（让外部工具接入模型的一种标准接口）这样的东西，本质是把你的数据和上下文「带进」那个主力工具，而不是把用户拉到自己的平台上。\n\n市场上有人还在试图「强迫人们在我家平台建智能体」，也有人像 Salesforce 那样宣布「我们是无头的，你想在哪用就在哪用」。Wade 明确押注后者：「我绝对认为后者是赢家策略，所有的增长都在那里 [07:58 Wade]。」他自己每天用 Cursor，把 Zapier 的内部工具通过 MCP 接进去。\n\n## 自动化基准：600 个真实任务，最强模型只得 40 分\n\nZapier Automation Bench 由约 600 个典型的知识工作任务组成，比如：「我们刚敲定了一笔交易，按路由政策记为商机、分给正确的团队，从电子表格确认账户层级，必要时换算货币，并检查是否有未解决的工单升级。」\n\n模型在变好，但这个基准远未饱和。而且不同模型各有取舍：最强的新模型比便宜得多的 Gemini 3-7 准确率更高，但成本也高出一截——现代组织需要的是能按任务类型在模型之间做权衡的能力。Wade 由此判断：没人想被锁死在单一模型上，一定需要一个第三方来帮你「驾驭外面所有这些能力」，模型公司自己做不了这件事，因为它们没法卖彼此的 token。应用层仍有大量创新空间，但应用被使用的方式会和过去十年的 SaaS 时代非常不同。\n\n## 最扎心的数字：80% 用智能体干的活，本该用老式代码\n\n这是全集信息量最大的一个观点。看客户对智能体产品的实际使用，绝大部分——事实上是 80%——应该用「老式的确定性代码」来做，也就是提前写清楚规则、每次执行结果一致的程序，成本更低、更可靠。AI 只该在真正需要推理的环节出场 [15:08 Wade]。\n\n所以 Zapier 现在的正确姿势是：你在主力工具里对智能体说「帮我搭个工作流」，它通过 MCP 接手——能写确定性代码固化下来的部分就写成代码，只有真正需要判断的部分才调用 AI。就算固化后的工作流失败了，智能体还能回头排查、修复。用 Wade 的话说：「实际在运行的仍然是一个非常确定性的工作流，只是在最必要的地方交织着 AI [19:18 Wade]。」而无代码拖拽搭建已经过时了——「新的『无代码』就是代码 [18:15 Wade]」，但人类仍然需要工作流的可视化来验证和存档。\n\n## 让 AI 每周看一遍你的工作记录，替你找出该自动化的点子\n\n普通人不上手 AI 的最大障碍不是工具不好用，而是「不知道该用它做什么」。Wade 从今年年初开始跑一个每周自动化：收集他在 Gmail、Slack、浏览器、聊天里的工作信号，然后告诉他「我注意到你做了这个和这个，你应该去构建这样一个工具」。现在几乎每周都有新东西开始自动化他工作的一部分。关键在于特异性——AI 不是泛泛地给建议，而是「我真的观察到了你在这里和那里做的事，所以我知道哪个工具能搞定它」，正是这种具体性让建议能落地。而且建议不用完美，50% 够好就能启动你的头脑风暴。Wade 说这套东西很快会产品化给客户。\n\n## 护城河：多个智能体投票，和 15 年攒下的数据\n\nZapier 内部的自动邮件支持程序会同时启动五个独立智能体来评估故障：当五个里有四个倾向同一结论，大概率那就是真正的问题；人类只需点赞/点踩并给出原因，原因再反馈回系统改进。这套循环加上海量自动化数据，是 Wade 眼中别人难复制的东西——「仅仅是接入你公司的数据，模型突然就变好了 [27:41 Wade]」，用自家数据建优势是当下非常奏效的技巧。\n\n## 竞争的真相：你的对手不是其他 AI 公司\n\n谈到竞争，Wade 的回答可能最颠覆。他记得 YC 时代 PG 的忠告：创业者很少在和巨头正面交手，更多是在和一个想升职、干两年就走的中层产品总监交手。OpenAI、Anthropic 如今是大公司了，会做到模型世界最强，但「他们不可能构建一切，就是做不到 [31:47 Wade]」。真正让他焦虑的是外面那片「同质化的海洋」——人人都在建一样的产品；可与此同时，「你去和普通用户聊，他们坦白说没怎么用 [32:09 Wade]」，很多人对 AI 的全部体验就是在 Google 搜索里用过 Gemini。「我认为我们大多数人的竞争对象并不是彼此 [32:21 Wade]」——而是让那些根本没采用任何 AI 的人上手。他透露自动化的市场比 15 年前创业时设想的大了约一千倍。\n\n## 内部转型：为什么是首席人事官挂帅、为什么默认公开\n\nZapier 曾让首席人事官 Brandon 负责 AI 转型——但 Wade 说这只是当时瓶颈的产物：ChatGPT 发布后一年内公司几乎 100% 员工日常用 AI，技术采用不是问题；真正的问题变成了职位描述重写、薪酬重思、团队重组、人员再培训——全是「人」的问题，而 Brandon 的团队恰好最擅长。他的建议是：看你的瓶颈在哪，去找对的人，这个角色完全可能是 CMO 或任何别人。\n\n更激进的实践是「默认公开」：高管团队先搞了个趣味竞赛，看谁能把更多沟通放进公开 Slack 频道——不强制、不进考核，只是友好比赛。因为智能体在能读到 Slack 上下文时效率高得多。「大多数人都远远高估了必须私下处理的场景数量，而绝对低估了当人类和智能体都能访问公司完整上下文时所产生的力量 [52:05 Wade]。」当然 HR 事件和活跃中的安全漏洞例外，但事后会分享经验教训。\n\n关于安全：Zapier 保管用户凭证已有 15 年，一直以最高审慎对待。这次的不同在于出现了能耐心地一个问题接一个问题循环扫漏洞的安全级模型——「每个软件项目都有漏洞，只是还没被人发现而已。而模型让发现这些东西容易得多，好消息是它们也让修补变得更容易 [53:40 Wade]」。聪明的公司是把同一个模型同时用于进攻和防守。\n\nToken 支出也成了真问题：有的工程师每月花 30,000 美元买 token。Zapier 暂不设预算，而是给员工成本仪表盘自己看——同样的工作流用强模型和便宜模型差多少钱。看到有人花得多，第一反应不是拦，而是好奇地聊一聊：有的在干极其高产的活，有的只是不该用最贵的模型。Wade 预计 token 预算终将成为现实，而「AI 素养」的一部分就是：会用更多预算换来更高产出的人，配得上更高的预算。\n\n## 合著的底线：问题不是用 AI，是低质量\n\n对「AI 写的东西被检测器标红」这件事，Wade 的态度很明确：他对员工用 AI 沟通没有任何问题，「我真正有问题的是低质量的沟通 [58:04 Wade]」。因为一个判断力低下的人现在可以极快地制造大量极低质量的内容，把别人淹没。他定了几条规矩：对你发送的东西负责，写它花的时间应该比读者读它的时间更多；AI 不是转移任务所有权的方式；把请求写明确（是要决定、要反馈，还是这是草稿）；核实细节——AI 摘要的摘要的摘要，会在不知不觉中传递错误信息；清掉那些「不是这个而是那个」、EM 破折号之类的 AI 腔。「使用 AI 不是问题，低质量才是。归根结底要对抗的是这个 [60:28 Wade]。」\n\n## 组织：EPD 消失了，但没有裁员式剧变\n\n团队构成的变化出奇地温和但深刻：工程、设计、产品的角色还在，但经典的 EPD 协作模式基本消失，一切更有可塑性；管理层级被压平，但强管理仍关键，管理者能处理更大的工作量；数据分析师还在，因为现在 Zapier 里每个人都是自己的「迷你数据分析师」，分析师去做价值更高的事了。他最期待的是团队转向「建造那座能建造一切的工厂」——软件工厂、支持工厂，工作流处理内循环，人类负责设计这些工厂本身；随着每次模型发布，需要人类介入的环节在一寸寸被啃掉。\n\n## 本集带走\n\n- **先看清楚你用的是不是真智能体任务**：客户用智能体干的活里约 80% 应该用确定性代码——让 AI 能把重复部分固化成代码、只在需要推理处调用 AI，成本和可靠性都会好一个量级。\n- **给自己跑一个「每周观察员」自动化**：让 AI 每周读一遍你在邮件、Slack、浏览器里的工作记录，主动提议该建什么工具——特异性建议比泛泛建议有用得多，50% 够好就能启动行动。\n- **坏消息是安全审计的新常态，好消息是攻防同一把刀**：每个项目都有漏洞，模型让找漏洞和补漏洞都变快了；把模型同时用于找和补，比恐慌有用。\n- **合著的三条底线**：你写的东西要能答得上追问；写明这是草稿还是要决定；核实细节——别让「摘要的摘要」传播错误信息。被 AI 检测器标红不可怕，低质量才可怕。\n- **别只盯着同行**：大多数潜在用户还没用上任何 AI 工具，「教育大众这些工具能干什么」的市场比同行间那点微差异大得多。\n- **想体验现代版 Zapier**：装 Zapier MCP 进你自己的主力工具，别再把它当成屏幕上点框框的无代码老古董。",
+  "quotes": [
+    {
+      "en": "It performs about 40% of the tasks accurately, which is the highest that there is.",
+      "zh": "它能准确完成大约 40% 的任务，这已经是现有的最高水平。",
+      "timestamp": "10:47",
+      "speaker": "Wade Foster"
+    },
+    {
+      "en": "And when we look across like even our own, like in customers usage of agentic products, the vast majority of what people are using an agent for, 80% in fact, they probably should be using actually old fashioned deterministic code.",
+      "zh": "当我们放眼观察，即便是我们自己的、比如客户对智能体产品的使用，人们使用智能体做的事情中，绝大部分——实际上是 80%——他们或许应该使用老式的确定性代码才对。",
+      "timestamp": "15:08",
+      "speaker": "Wade Foster"
+    },
+    {
+      "en": "But what is actually running is still a very deterministic workflow with AI interwoven in like the places that is most necessary.",
+      "zh": "但实际在运行的仍然是一个非常确定性的工作流，只是在最必要的地方交织着 AI。",
+      "timestamp": "19:18",
+      "speaker": "Wade Foster"
+    },
+    {
+      "en": "I think most of us, our competition isn't each other.",
+      "zh": "我认为我们大多数人，我们的竞争对象并不是彼此。",
+      "timestamp": "32:21",
+      "speaker": "Wade Foster"
+    },
+    {
+      "en": "But I think by and large, most people far overestimate the number of things where that is required and definitely underestimate the power of what happens when both humans and agents have access to the full context of what a company is working on.",
+      "zh": "但我认为总体而言，大多数人都远远高估了需要这样做的场景数量，而且绝对低估了当人类和智能体都能访问公司正在做的一切事情的完整上下文时所产生的力量。",
+      "timestamp": "52:05",
+      "speaker": "Wade Foster"
+    },
+    {
+      "en": "A person who is exercising low judgment can create a high volume of very low quality stuff very quickly.",
+      "zh": "一个判断力低下的人可以非常快速地创造出大量质量极低的东西。",
+      "timestamp": "58:15",
+      "speaker": "Wade Foster"
+    },
+    {
+      "en": "If you wrote it, you probably should be putting more time into authoring the thing than the reader is reading it.",
+      "zh": "如果那是你写的东西，你花在撰写这个东西上的时间，可能应该比读者阅读它的时间更多。",
+      "timestamp": "58:34",
+      "speaker": "Wade Foster"
+    },
+    {
+      "en": "But to me, it's not, using AI is not the problem. It's like low quality. That's the fight at the end of the day.",
+      "zh": "但对我而言，使用 AI 并不是问题所在。问题在于低质量。归根结底，要对抗的是这个。",
+      "timestamp": "60:27",
+      "speaker": "Wade Foster"
+    },
+    {
+      "en": "So if you still think of Zapier as the old school, no code, clicky click boxes on a screen thing, I think you're in for a treat.",
+      "zh": "所以如果你还把 Zapier 想成那种老派的、无代码的、在屏幕上点点框框的东西，我想你会大吃一惊的。",
+      "timestamp": "63:10",
+      "speaker": "Wade Foster"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "10:42",
+      "speaker": "Wade Foster",
+      "en": "It performs about 40% of the tasks accurately, which is the highest that there is.",
+      "zh": "它能准确完成大约 40% 的任务，这已经是现有的最高水平。"
+    },
+    {
+      "timestamp": "15:08",
+      "speaker": "Wade Foster",
+      "en": "And when we look across like even our own, like in customers usage of agentic products, the vast majority of what people are using an agent for, 80% in fact, they probably should be using actually old fashioned deterministic code.",
+      "zh": "当我们放眼观察，即便是我们自己的、比如客户对智能体产品的使用，人们使用智能体做的事情中，绝大部分——实际上是 80%——他们或许应该使用老式的确定性代码才对。"
+    },
+    {
+      "timestamp": "18:15",
+      "speaker": "Wade Foster",
+      "en": "It's like the new code, no code is code.",
+      "zh": "这就像是新的「无代码就是代码」。"
+    },
+    {
+      "timestamp": "19:18",
+      "speaker": "Wade Foster",
+      "en": "But what is actually running is still a very deterministic workflow with AI interwoven in like the places that is most necessary.",
+      "zh": "但实际在运行的仍然是一个非常确定性的工作流，只是在最必要的地方交织着 AI。"
+    },
+    {
+      "timestamp": "27:41",
+      "speaker": "Wade Foster",
+      "en": "It's just by hooking up your company's data, all of a sudden the models get better.",
+      "zh": "仅仅是接入了你公司的数据，模型突然就变好了。"
+    },
+    {
+      "timestamp": "31:47",
+      "speaker": "Wade Foster",
+      "en": "And they will have good products elsewhere, but they can't build everything. They just can't.",
+      "zh": "他们在其他领域也会有不错的产品，但他们不可能构建一切。他们就是做不到。"
+    },
+    {
+      "timestamp": "32:09",
+      "speaker": "Wade Foster",
+      "en": "While at the flip side, you go talk to the average user of AI tools and they're candidly not doing much.",
+      "zh": "而另一方面，你去和普通的 AI 工具用户聊聊，坦白说他们没怎么用。"
+    },
+    {
+      "timestamp": "32:21",
+      "speaker": "Wade Foster",
+      "en": "I think most of us, our competition isn't each other.",
+      "zh": "我认为我们大多数人，我们的竞争对象并不是彼此。"
+    },
+    {
+      "timestamp": "33:36",
+      "speaker": "Wade Foster",
+      "en": "It was like orders of magnitude bigger than I ever thought it was when we started the company 15 years ago.",
+      "zh": "它比我们 15 年前创办公司时我所想象的要大上好几个数量级。"
+    },
+    {
+      "timestamp": "39:19",
+      "speaker": "Wade Foster",
+      "en": "And so AI sort of has to be so good that it kind of knocks us out of our comfort zone and we're willing to say, you know what, I am going to go try it that other way because that sounds so, so much better.",
+      "zh": "所以 AI 必须好到能把我们敲出自己的舒适区，让我们愿意说，你知道吗，我要去试试另一种方式，因为那听起来真的、真的好太多了。"
+    },
+    {
+      "timestamp": "52:05",
+      "speaker": "Wade Foster",
+      "en": "But I think by and large, most people far overestimate the number of things where that is required and definitely underestimate the power of what happens when both humans and agents have access to the full context of what a company is working on.",
+      "zh": "但我认为总体而言，大多数人都远远高估了需要这样做的场景数量，而且绝对低估了当人类和智能体都能访问公司正在做的一切事情的完整上下文时所产生的力量。"
+    },
+    {
+      "timestamp": "53:40",
+      "speaker": "Wade Foster",
+      "en": "And so that is definitely, like, every software project has vulnerabilities. It's just someone found them yet.",
+      "zh": "所以这确实是，每个软件项目都有漏洞。只是还没被人发现而已。"
+    },
+    {
+      "timestamp": "56:54",
+      "speaker": "Wade Foster",
+      "en": "We're going to say, ah, this person is going to get a higher budget than this person because they know how to get higher output from those things.",
+      "zh": "我们会说，啊，这个人会比那个人获得更高的预算，因为他们知道如何从这些东西中获得更高的产出。"
+    },
+    {
+      "timestamp": "58:15",
+      "speaker": "Wade Foster",
+      "en": "A person who is exercising low judgment can create a high volume of very low quality stuff very quickly.",
+      "zh": "一个判断力低下的人可以非常快速地创造出大量质量极低的东西。"
+    },
+    {
+      "timestamp": "58:34",
+      "speaker": "Wade Foster",
+      "en": "If you wrote it, you probably should be putting more time into authoring the thing than the reader is reading it.",
+      "zh": "如果那是你写的东西，你花在撰写这个东西上的时间，可能应该比读者阅读它的时间更多。"
+    },
+    {
+      "timestamp": "60:28",
+      "speaker": "Wade Foster",
+      "en": "But to me, it's not, using AI is not the problem. It's like low quality. That's the fight at the end of the day.",
+      "zh": "但对我而言，使用 AI 并不是问题所在。问题在于低质量。归根结底，要对抗的是这个。"
+    },
+    {
+      "timestamp": "62:22",
+      "speaker": "Wade Foster",
+      "en": "like we have a software factory, we have a support factory, we have these workflows that are getting stood up where they're handling the inner loop and the humans are more designing that piece of the puzzle.",
+      "zh": "比如我们有一个软件工厂，我们有一个支持工厂，我们有这些正在搭建起来的工作流，它们在处理内循环，而人类更多的是在设计拼图中的这一块。"
+    },
+    {
+      "timestamp": "63:10",
+      "speaker": "Wade Foster",
+      "en": "So if you still think of Zapier as the old school, no code, clicky click boxes on a screen thing, I think you're in for a treat.",
+      "zh": "所以如果你还把 Zapier 想成那种老派的、无代码的、在屏幕上点点框框的东西，我想你会大吃一惊的。"
+    }
+  ],
+  "voice_script": "今天这期的主角，是自动化平台 Zapier 的联合创始人兼 CEO Wade Foster。这家公司做了十五年自动化，手里还攒着一套由大约六百个真实工作任务组成的基准测试，所以看得见各家模型在\"真活儿\"上的实际成色。这一期要聊的问题很有意思：过去一年模型能力暴涨，为什么普通公司的日常工作方式却几乎没变？一家做了十五年自动化的公司，对此的真实判断是什么？\n\n先说最反直觉的一个判断。你可能会以为，模型都这么强了，业务自动化还不是手到擒来？实际情况是，目前最强的新模型 Astra，在 Zapier 的自动化基准上只做到大约百分之四十的准确率，而这已经是全场最高分。这个基准由大约六百个典型的知识工作任务组成，比如：刚敲定一笔交易，要按路由政策记为商机、分给正确的团队、从表格里确认账户层级、必要时换算货币、还要检查有没有未解决的工单升级。这是真实工作里的事，模型做起来仍然吃力。\n\n那既然模型还不完美，普通公司该怎么用？这里有个关键背景。过去十八个月 Wade 学到的最大一课是：大多数人已经固定了一个日常 AI 主力工具，可能是 Claude Code、Cursor，也可能是 ChatGPT，人们大部分工作都在那里完成。所以像 MCP 这样的东西——说白了，就是让外部工具接入模型的一种标准接口——本质是把你的数据和上下文带进那个主力工具，而不是把用户拉到自己的平台上。市场上有人还在逼用户到自家平台建智能体，也有人干脆宣布\"你想在哪用就在哪用\"。Wade 明确押注后者，理由很直白：所有的增长都在那里。\n\n顺着这个思路往下推，就引出全集信息量最大的一个观点，可能会让你吃惊。看完客户对智能体产品的实际使用，大约百分之八十的活儿，其实应该用老式的确定性代码来做——就是提前写清楚规则、每次执行结果一致的程序，成本更低、更可靠。AI 只该在真正需要推理的环节出场。所以 Zapier 现在的正确姿势是：你在主力工具里对智能体说\"帮我搭个工作流\"，能固化成代码的部分就写成代码，只有真正需要判断的地方才调用 AI。就算工作流失败了，智能体还能回头排查修复。用 Wade 的话说，实际在运行的仍然是一个非常确定性的工作流，只是在最必要的地方交织着 AI。顺便说一句，那种拖拖拽拽的无代码搭建已经过时了——新的\"无代码\"就是代码，但可视化仍然需要，用来验证和存档。\n\n那普通人到底怎么上手？最大的障碍其实不是工具不好用，而是不知道该拿它做什么。Wade 自己从今年年初跑了一个每周自动化：AI 收集他在 Gmail、Slack、浏览器里的工作信号，然后告诉他，我注意到你做了这个和这个，你应该去建这样一个工具。现在几乎每周都有新东西开始自动化工作的一部分。关键在于具体——不是泛泛给建议，而是\"我真的观察到了你在做的事，所以我知道哪个工具能搞定它\"。建议不用完美，五成够好就够启动你的头脑风暴了。\n\n再聊聊竞争，这可能是最颠覆的部分。真正的对手不是 OpenAI、Anthropic 这些 AI 公司。真正让人焦虑的，是外面那片同质化的海洋——人人都在建一样的产品；可你去和普通用户聊，很多人坦白说没怎么用，对 AI 的全部体验可能就是在 Google 搜索里碰过一次 Gemini。Wade 说得很清楚：我们大多数人的竞争对象，并不是彼此，而是让那些根本没用上 AI 的人上手。他透露，自动化的市场比十五年前创业时设想的大了约一千倍。\n\n最后留一个能直接带走的建议：给自己跑一个\"每周观察员\"，让 AI 每周读一遍你的工作记录，主动提议该建什么工具。至于判断哪些该自动化、哪些该用代码，记住这条线——一个判断力低下的人可以飞快地制造大量低质量的东西，AI 也一样，低质量才是真问题。用好了，实际运行的是确定性工作流，只在最必要的地方交织着 AI，这一句话，值得你记住。"
+}

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
+[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":2,"Clio":1,"智能体":258,"LLM":33,"推荐系统":1,"监督学习":2,"强化学习":17,"Transformer":8,"创造性破坏":1,"Anthropic":124}</script>
+<script type="application/json" class="pd-epn">{"John Collison":2,"Clio":1,"智能体":261,"LLM":34,"推荐系统":1,"监督学习":2,"强化学习":17,"Transformer":8,"创造性破坏":1,"Anthropic":125}</script>
 
 <script>
 (function(){

@@ -39,7 +39,7 @@ unlisted: true
 
 [[John Willett]] · [[Rogo]] · [[Foundation]] · [[Greylock]] · [[Retool]] · [[Devin]] · [[智能体]] · [[推理模型]] · [[护城河]] · [[标准操作程序]]
 
-<script type="application/json" class="pd-epn">{"John Willett":1,"Rogo":1,"Foundation":2,"Greylock":1,"Retool":1,"Devin":3,"智能体":258,"推理模型":2,"护城河":11,"标准操作程序":1}</script>
+<script type="application/json" class="pd-epn">{"John Willett":1,"Rogo":1,"Foundation":2,"Greylock":1,"Retool":1,"Devin":3,"智能体":261,"推理模型":2,"护城河":11,"标准操作程序":1}</script>
 
 <script>
 (function(){
