@@ -1,0 +1,196 @@
+{
+  "title_zh": "让品牌被 AI 看见：AEO 实战与研究",
+  "tldr": "Discover Labs 联合创始人 Liam Dunne 与 Ben Moore 拆解 AI 可见性（AEO）：搜索引擎如何决定引用谁，以及品牌该怎么被大模型看见。",
+  "digest_md": "自然流量正在消失，因为「新的网站访客」已经不是人，而是大模型。这一集 Practical AI 播客请来了 Discover Labs 的两位联合创始人——营销出身的 Liam Dunne 和工程师出身的 Ben Moore——聊一件事：当人们越来越多地在 ChatGPT 这类答案引擎里做研究，品牌要怎么被看见？他们说，SEO 没死，但战场变了。\n\n## SEO 没死，只是扩展了\n\nLiam 开场就表态：他不认为 SEO 已死，只是这个领域变大了。工作还是那三样——站内（照看好自己的网站）、站外（建立品牌权威）、技术（让智能体和 Google 系统能访问并理解你的网站）——变的是**战术优先级**。比如「好内容」在 Google 和 ChatGPT 眼里的定义就不一样 [04:16 Liam Dunne]。传统 SEO 和 AEO（答案引擎优化，也有人叫 GEO，他把它们视作同一回事）合起来，才是完整的「自然搜索」。\n\n变化的第一性原因是买家行为：人们在 LLM 里消化信息，点击就没了，「零点击研究」从社交平台蔓延到了自然搜索 [06:56 Liam Dunne]。于是很多公司开始琢磨给人类和给智能体各做一个版本的网站 [08:56 Liam Dunne]。\n\n## 大多数从业者根本没在正确地测量\n\nBen 的批评很尖锐：传统 SEO 是「按数字填色」——排名几乎确定性，关键词有限可控；现在变成了一个有非确定性、随机因素的系统，需要统计建模，而 SEO 行业缺统计素养 [11:14 Ben Moore]。正确的问题是：怎么给引用率、提及率、声量份额这些指标约束不确定性，把误差压到 5% 以内？「老实说，这个行业里没有人真正在做这件事，甚至没有人真正在思考它」——大家买个工具、跑几个提示词，数字涨了就归功于自己，跌了就赖 Google 核心更新 [13:12 Ben Moore]。很多营销工时和工程时间浪费在不具统计显著性的波动上 [14:48 Ben Moore]。\n\n## 品牌是怎么被「说出口」的：四大支柱\n\nBen 拆解了品牌在答案引擎里出现的完整机制：提示词被分词、摄入，模型先推理、有内部标准，然后才调用检索引擎、做一组「查询扇出」（把用户问题拆成多个子查询），拉回约 60 个初始候选来源 [19:11 Ben Moore]。随后用一个类似 DeepMind「一致风格」算法的多数投票机制，在候选中找共识、防幻觉，再从清理过的上下文生成最终回答 [19:48 Ben Moore]。所以 AI 可见性要盯四根支柱：**权重、推理、检索、响应**——只看最终引用，等于只看冰山一角 [21:03 Ben Moore]。\n\n这带出了本集最反直觉的发现：**被检索 ≠ 被引用**。以 Reddit 为例：他们研究当时 ChatGPT 的检索引擎，发现它把大约三分之一的基础检索槽位留给 Reddit，但这些 Reddit 内容大多在引用环节被拒绝——它们被用来「给答案提供依据、塑造模型思路」，最终引用的却是别处（比如 TechCrunch）那个说同样事情的来源 [28:06 Ben Moore]。Daniel 用例子复述：10 个 Reddit 来源加 1 个 TechCrunch 说同一件事，答案引擎用 Reddit 确认，却引用 TechCrunch——Ben 确认「完全正确」[30:23 Ben Moore]。\n\n## 品牌该怎么下场：相关性、共识、一致性\n\nLiam 把策略压缩成三个词。**相关性**：先搞清楚你是谁、目标客户是谁，再把它翻译成买家会在 LLM 里搜索的语言——这是确保内容被查询扇出命中前提 [39:22 Liam Dunne]。**共识**：内容只是「掷帽入场」，信任票才是关键；LLM 之前的搜索体验之所以糟糕，是因为「我们营销人毁掉了一切」，而买家长上下文式的提问创造了长尾查询，长尾竞争少，是小公司对抗 HubSpot 这类巨头的机会 [23:29 / 24:32 Liam Dunne]。他们看好 Reddit（很多 B2B 公司不会玩，所以有优势）、数字 PR、客户评价平台（SaaS 行业就是 G2），枪口抵头选一个就押 YouTube——原生搜索渠道、Google 旗下 [40:51 / 41:17 Liam Dunne]。\n\n**一致性**：各渠道用同一套词，让它们被嵌入模型和世界。外链时代的「拿到一条 do follow 链接」不再是关键——围绕你这个实体的描述文字更重要，因为「如果某个 LLM 选中这段话放回答案里，我们是否被放在有竞争力的位置上？」[42:38 Liam Dunne]\n\n关于 Reddit 玩法的一个具体观察：他们没发现点赞数与引用量相关，相关性最高的是**内容本身**——被抽取的段落经常在页面往下一半的位置、评论只有一两个赞，就因为那段话命中了查询里的实体 [44:41 Liam Dunne]。不过随着 OpenAI、Reddit、Google 之间的商业协议推进，账号历史之类的信号未来可能变得重要 [45:42 Liam Dunne]。\n\n还有几个可操作的小窍门：行业不敢公布价格？公布一个方向上大致正确的数字，效果「好得离谱」——因为存在信息空白，LLM 不想幻觉，就会引用你填的数 [34:36 Ben Moore]。反过来，模型权重里嵌入的事实准确性、情感和共现（训练时注意力函数把你的品牌与哪些实体关联）都会影响引用时刻的判断，连品牌名是个词典里已有的英文单词都可能成为问题 [36:22 Ben Moore]。Ben 还顺带嘲讽了一下：他们做模型排名分析时，发现某个 AEO 工具自身在模型里呈现非常负面的情感 [35:45 Ben Moore]。\n\n## 下一个前沿：从只读到读写\n\nLiam 看两个方向：一是站外第三方来源如何影响品牌在 LLM 里的感知——「归根结底，品牌是最终的护城河」[47:27 Liam Dunne]；二是**智能体可访问性**。现在大家都在卷「可发现性」，但很快智能体不只会爬你的网站，还会在上面执行操作：已有客户报告「上周有个 AI 智能体预约了一次演示」，还有客户的用户通过命令行让智能体出去采购、装好工具回来说「已经给你装好了」[48:36 / 49:29 Liam Dunne]。网站几十年来为人类优化——加载慢点、表单绕点，人能忍；智能体会不会等？[48:57 Liam Dunne]\n\nBen 补充：这是从「只读环境」走向「读写环境」，Google 相关项目「会很慢很慢，然后一夜之间爆发」[50:06 Ben Moore]。他还指出一个长期趋势：训练周期在缩短——顶层每周、每两周重训，主干约三个月重训，「如果你能把印记留在那些 token 里，价值比出现在单个上下文窗口里高出数量级」[51:42 Ben Moore]。但另一面是：各厂商为避免「模型坍塌」（在自己生成的垃圾上训练），正在上马指纹识别和哈希溯源，AI 生成的 Reddit 评论会被识别和清理——「躲避它们会越来越难」，真实的人类信号会越来越值钱 [52:49 / 53:15 Ben Moore]。\n\n## 本集带走\n\n- **别再只盯最终引用**：AI 可见性有四根支柱——权重、推理、检索、响应；被检索进上下文≠被引用，Reddit 大量内容是给模型「打底」却把引用让给了别处。\n- **三词策略**：相关性（想清楚你是谁、翻译成买家语言）、共识（多渠道信任票：Reddit、数字 PR、评价平台、YouTube）、一致性（全渠道同一套词，让实体嵌入模型）。\n- **吃长尾红利**：用户在 LLM 里前置加载全部上下文，产生竞争极少的长尾查询——这是小品牌绕开巨头垄断的「金钱关键词」的机会。\n- **用统计思维测量**：先问「怎么约束这些指标的不确定性到 5% 以内」，别看到数字涨跌就归因；大量工时浪费在不显著的波动上。\n- **填信息空白**：行业不敢公布的定价等空白地带，你发布方向正确的数字就极可能被引用。\n- **准备读写环境**：智能体开始在网站上执行动作（订演示、代采购），网站的可访问性和可操作性是还没人卷的下个前沿。\n- **押注真实人类信号**：指纹识别会让 AI 生成内容被溯源清理，权重内的印记比单次上下文曝光值钱数量级，而真实的品牌叙事是最难被复制的。",
+  "quotes": [
+    {
+      "en": "if people are consuming information inside an LLM, the LLM is the new website visitor.",
+      "zh": "如果人们是在 LLM 内部消化信息，那么 LLM 就是新的网站访客。",
+      "timestamp": "07:09",
+      "speaker": "Liam Dunne"
+    },
+    {
+      "en": "then the SEO industry has like an incredible ability to point at numbers going up and claim that it was them, and then has an also incredible ability to point at a number that's going down and claim its Google core update.",
+      "zh": "然后 SEO 行业有一种不可思议的能力，指着上涨的数字宣称是它们的功劳，同时也有一种不可思议的能力，指着下跌的数字宣称是 Google 核心更新。",
+      "timestamp": "13:21",
+      "speaker": "Ben Moore"
+    },
+    {
+      "en": "Now, great thing about long tails is they're less competitive.",
+      "zh": "长尾的好处是竞争更少。",
+      "timestamp": "24:16",
+      "speaker": "Liam Dunne"
+    },
+    {
+      "en": "SEO is just exploiting Google systems.",
+      "zh": "SEO 就是利用 Google 系统。",
+      "timestamp": "26:01",
+      "speaker": "Liam Dunne"
+    },
+    {
+      "en": "let's say 60 slots, 20% of them are allocated to Reddit, most of those were actually rejected at citation time. So they basically are kinda used to ground the model and formulate its thinking, but also not actually cited in the final response.",
+      "zh": "比如说 60 个槽位，20% 分配给 Reddit，其中大多数实际上在引用时被拒绝了。所以它们基本上被用来为模型提供依据并形成其思考，但实际上并没有在最终响应中被引用。",
+      "timestamp": "28:13",
+      "speaker": "Ben Moore"
+    },
+    {
+      "en": "if there's blank space, you can almost publish, you can almost get anything cited.",
+      "zh": "如果存在空白地带，你几乎可以发布任何东西并让它被引用。",
+      "timestamp": "34:53",
+      "speaker": "Ben Moore"
+    },
+    {
+      "en": "we found this works like insanely well if you publish numbers that are even like yards directionally correct because there's blank space and the LLM doesn't want to hallucinate, essentially.",
+      "zh": "我们发现如果你发布即使方向上大致正确的数字，效果会好得离谱，因为存在空白地带，而 LLM 本质上不想产生幻觉。",
+      "timestamp": "35:02",
+      "speaker": "Ben Moore"
+    },
+    {
+      "en": "Hey, where should we focus our efforts? And my answer is everywhere. Really what we're talking about here is it's a budget and time constraint.",
+      "zh": "「我们应该把精力集中在哪里？」我的回答是：处处都集中。我们这里真正讨论的其实是预算和时间的约束。",
+      "timestamp": "40:38",
+      "speaker": "Liam Dunne"
+    },
+    {
+      "en": "if an LLM picked this paragraph and put it back inside to an answer, are we being positioned competitively?",
+      "zh": "如果某个 LLM 选中这段话并把它放回一个答案里，我们是否被放在有竞争力的位置上？",
+      "timestamp": "43:07",
+      "speaker": "Liam Dunne"
+    },
+    {
+      "en": "ultimately, brand is the final moat.",
+      "zh": "归根结底，品牌是最终的护城河。",
+      "timestamp": "47:23",
+      "speaker": "Liam Dunne"
+    },
+    {
+      "en": "if you can get influence or imprint in those tokens, it's worth, like, orders of magnitude more than being in a in a in single context window.",
+      "zh": "如果你能影响或在那些 token 里留下印记，那价值比出现在单个上下文窗口里高出数量级。",
+      "timestamp": "52:00",
+      "speaker": "Ben Moore"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:16",
+      "speaker": "Liam Dunne",
+      "en": "ultimately, you won't hear me say that SEO is dead. Not an opinion I hold.",
+      "zh": "但根本上，你不会听到我说 SEO 已死。那不是我持有的观点。"
+    },
+    {
+      "timestamp": "06:56",
+      "speaker": "Liam Dunne",
+      "en": "if people are consuming information inside an LLM, the LLM is the new website visitor.",
+      "zh": "如果人们是在 LLM 内部消化信息，那么 LLM 就是新的网站访客。"
+    },
+    {
+      "timestamp": "11:14",
+      "speaker": "Ben Moore",
+      "en": "now we've kind of like gone into a system where there are sources of non determinism or stochastic elements that people need to start modeling around. And the SEO industry doesn't have like great statisticians or like great data science literacy, just means blunt.",
+      "zh": "现在我们进入了一个存在非确定性来源或随机元素的空间，人们需要开始围绕它建模。而 SEO 行业并没有出色的统计学家或出色的数据科学素养，恕我直言。"
+    },
+    {
+      "timestamp": "13:12",
+      "speaker": "Ben Moore",
+      "en": "then the SEO industry has like an incredible ability to point at numbers going up and claim that it was them, and then has an also incredible ability to point at a number that's going down and claim its Google core update.",
+      "zh": "然后 SEO 行业有一种不可思议的能力，指着上涨的数字宣称是它们的功劳，同时也有一种不可思议的能力，指着下跌的数字宣称是 Google 核心更新。"
+    },
+    {
+      "timestamp": "13:12",
+      "speaker": "Ben Moore",
+      "en": "And to be honest, no one in the industry is really doing this, or even really thinking about it.",
+      "zh": "老实说，这个行业里没有人真正在做这件事，甚至没有人真正在思考它。"
+    },
+    {
+      "timestamp": "19:48",
+      "speaker": "Ben Moore",
+      "en": "it's a way to avoid hallucinations.",
+      "zh": "这是一种避免幻觉的方法。"
+    },
+    {
+      "timestamp": "21:03",
+      "speaker": "Ben Moore",
+      "en": "but you really need to be looking across all of those four pillars in order to dominate your domain.",
+      "zh": "但你真的需要审视所有这四大支柱，才能主导你的领域。"
+    },
+    {
+      "timestamp": "22:29",
+      "speaker": "Liam Dunne",
+      "en": "trying to find relevant information on Google is just a nightmare, right? Because Us marketers just ruin everything.",
+      "zh": "试图在 Google 上找到相关信息简直就是一场噩梦，对吧？因为我们这些营销人员毁掉了一切。"
+    },
+    {
+      "timestamp": "24:00",
+      "speaker": "Liam Dunne",
+      "en": "Now, great thing about long tails is they're less competitive.",
+      "zh": "长尾的好处是竞争更少。"
+    },
+    {
+      "timestamp": "26:01",
+      "speaker": "Liam Dunne",
+      "en": "SEO is just exploiting Google systems.",
+      "zh": "SEO 就是利用 Google 系统。"
+    },
+    {
+      "timestamp": "28:06",
+      "speaker": "Ben Moore",
+      "en": "let's say 60 slots, 20% of them are allocated to Reddit, most of those were actually rejected at citation time. So they basically are kinda used to ground the model and formulate its thinking, but also not actually cited in the final response.",
+      "zh": "比如说 60 个槽位，20% 分配给 Reddit，其中大多数实际上在引用时被拒绝了。所以它们基本上被用来为模型提供依据并形成其思考，但实际上并没有在最终响应中被引用。"
+    },
+    {
+      "timestamp": "34:36",
+      "speaker": "Ben Moore",
+      "en": "if there's blank space, you can almost publish, you can almost get anything cited.",
+      "zh": "如果存在空白地带，你几乎可以发布任何东西并让它被引用。"
+    },
+    {
+      "timestamp": "34:36",
+      "speaker": "Ben Moore",
+      "en": "we found this works like insanely well if you publish numbers that are even like yards directionally correct because there's blank space and the LLM doesn't want to hallucinate, essentially.",
+      "zh": "我们发现如果你发布即使方向上大致正确的数字，效果会好得离谱，因为存在空白地带，而 LLM 本质上不想产生幻觉。"
+    },
+    {
+      "timestamp": "40:34",
+      "speaker": "Liam Dunne",
+      "en": "Hey, where should we focus our efforts? And my answer is everywhere. Really what we're talking about here is it's a budget and time constraint.",
+      "zh": "「我们应该把精力集中在哪里？」我的回答是：处处都集中。我们这里真正讨论的其实是预算和时间的约束。"
+    },
+    {
+      "timestamp": "42:38",
+      "speaker": "Liam Dunne",
+      "en": "if we look at like link building and SEO, the big check-in the box was, hey, we got a link. In AI search, I actually think the blurb surrounding, even if that link didn't exist, the blurb surrounding you as an entity is far more important.",
+      "zh": "如果我们看外链建设和 SEO，那个大勾选框是：嘿，我们拿到了一条链接。而在 AI 搜索中，我实际上认为围绕你这个实体的描述文字更重要——即使那条链接不存在。"
+    },
+    {
+      "timestamp": "43:06",
+      "speaker": "Liam Dunne",
+      "en": "if an LLM picked this paragraph and put it back inside to an answer, are we being positioned competitively?",
+      "zh": "如果某个 LLM 选中这段话并把它放回一个答案里，我们是否被放在有竞争力的位置上？"
+    },
+    {
+      "timestamp": "47:27",
+      "speaker": "Liam Dunne",
+      "en": "ultimately, brand is the final moat.",
+      "zh": "归根结底，品牌是最终的护城河。"
+    },
+    {
+      "timestamp": "48:57",
+      "speaker": "Liam Dunne",
+      "en": "Agents, are they gonna wait around to figure it out?",
+      "zh": "智能体，它们会等着弄明白吗？"
+    },
+    {
+      "timestamp": "50:06",
+      "speaker": "Ben Moore",
+      "en": "it's moving from like a read only environment to a read write environment is where we're headed.",
+      "zh": "它正在从一个只读环境走向一个读写环境，这就是我们的方向。"
+    },
+    {
+      "timestamp": "51:42",
+      "speaker": "Ben Moore",
+      "en": "if you can get influence or imprint in those tokens, it's worth, like, orders of magnitude more than being in a in a in single context window.",
+      "zh": "如果你能影响或在那些 token 里留下印记，那价值比出现在单个上下文窗口里高出数量级。"
+    }
+  ],
+  "voice_script": "今天聊一个跟每个做品牌、做营销的人都有关的事：怎么让你的品牌被 AI 看见。请来的嘉宾是 Discover Labs 的两位联合创始人，一位是营销出身的 Liam Dunne，一位是工程师出身的 Ben Moore。他们做了一件事：把大模型到底怎么决定引用谁这件事，从头到尾拆开了看。\n\n先交代一下背景。现在大家越来越多地在 ChatGPT 这类答案引擎里做研究，而不是打开 Google 搜一堆链接自己点。这意味着「新的网站访客」已经不是人了，而是大模型——自然流量正在消失。所以很多公司慌了：那 SEO 是不是死了？Liam 开场就表态：不认为 SEO 已死，只是这个领域变大了。基本工作还是那三样——照看好自己的网站、建立品牌权威、让各种系统能访问并理解你的网站。变的是战术优先级。传统 SEO 和一个新东西合起来，才叫完整的自然搜索。这个新东西叫 AEO，答案引擎优化，也有人叫 GEO，在他嘴里它们是同一回事。\n\n那为什么会变？最根本的原因是买家行为变了。人们在聊天模型里直接消化信息，点击这个动作就没了，「零点击研究」从社交平台一路蔓延到了自然搜索。甚至有公司开始琢磨，干脆给人类和给智能体各做一个版本的网站。\n\n好，那问题来了：既然战场变了，我们怎么知道自己在战场上的位置？这就引出了 Ben 非常尖锐的一个批评。传统 SEO 是「按数字填色」——排名几乎确定，关键词有限可控。但现在的系统有随机因素，是个非确定性的东西，你需要用统计建模去理解它，而整个 SEO 行业最缺的就是统计素养。正确的问题应该是：怎么给引用率、提及率、声量份额这些指标约束不确定性，把误差压到百分之五以内？他的原话很扎：「老实说，这个行业里没有人真正在做这件事，甚至没有人真正在思考它。」大家买个工具、跑几个提示词，数字涨了就归功于自己，跌了就赖 Google 核心更新。结果就是大量营销工时和工程时间，浪费在不具统计显著性的波动上。\n\n那测量之外，更要紧的是搞懂机制。Ben 拆解了品牌在答案引擎里出现的完整链条：你的提示词进来之后，模型先自己推理，有内部标准，然后才调用检索引擎，把用户的问题拆成多个子查询——这叫「查询扇出」——拉回大约六十个初始候选来源。接着用一个类似 DeepMind「一致风格」算法的多数投票机制，在候选中找共识、防止幻觉，最后才生成回答。所以 AI 可见性要盯四根支柱：权重、推理、检索、响应。只看最终引用，等于只看冰山一角。\n\n顺着这条链，就带出了本集最反直觉的发现：被检索，不等于被引用。举个例子：十个 Reddit 来源加一个 TechCrunch，说的是同一件事，答案引擎用 Reddit 来确认、来给自己提供依据、塑造思路，最终引用的却是 TechCrunch。数据上，ChatGPT 的检索引擎把大约三分之一的检索槽位留给 Reddit，但这些内容大多在引用环节被拒绝。这对策略有直接意义，我们接着往下推。\n\n既然被检索不等于被引用，品牌到底该怎么下场？Liam 把策略压缩成三个词。第一个是相关性：先搞清楚你是谁、目标客户是谁，再把它翻译成买家会在大模型里搜索的语言——这是保证你的内容能被查询扇出命中的前提。第二个是共识：发布内容只是「掷帽入场」，真正关键是信任票。渠道上他们看好 Reddit——很多 B2B 公司不会玩，所以你有优势；还有数字 PR、客户评价平台，SaaS 行业就是 G2；如果枪口抵着头只能选一个，押 YouTube，因为它是原生搜索渠道，还在 Google 旗下。这里还有个很具体、有点意外的观察：他们没发现点赞数和引用量有相关性，相关性最高的是内容本身——被抽取的段落经常在页面往下一半的位置、评论只有一两个赞，就因为那段话恰好命中了查询里的实体。\n\n那为什么长尾词是小公司的机会？因为买家长上下文式的提问——把所有背景一股脑塞给模型——创造了大量长尾查询，长尾竞争少，这是小公司对抗 HubSpot 这类巨头的窗口。\n\n第三个词是一致性：各个渠道用同一套词来描述你的品牌，让这套描述被嵌入到模型里、嵌入到世界里。外链时代那种「拿到一条 do follow 链接」的玩法不再是关键，围绕你这个实体的描述文字更重要。Liam 有个判断标准很实用：如果某个大模型选中这段话放进答案，我们是不是被放在有竞争力的位置上？\n\n再补几个可以马上用的窍门。行业不敢公布价格？那就公布一个方向上大致正确的数字，效果「好得离谱」。原因很简单：存在信息空白，模型不想幻觉，就会引用你填的那个数。反过来说，如果你的品牌名是词典里已有的英文单词，都可能在训练时给你惹麻烦——因为权重里嵌入的事实准确性、情感、以及你的品牌和哪些实体共现，都会影响引用时刻的判断。这里 Ben 还顺带嘲讽了一下：他们做模型排名分析时，发现某个 AEO 工具自己在大模型里的情感呈现非常负面。\n\n最后往前看一步。现在大家都在卷「可发现性」，但很快智能体不只会爬你的网站，还会在上面执行操作。已经有客户报告「上周有个 AI 智能体预约了一次演示」，还有客户说，用户通过命令行让智能体出去采购，装好工具回来说「已经给你装好了」。网站几十年来一直是为人类优化的——加载慢点、表单绕点，人能忍；但智能体会不会等？Ben 把这叫做从「只读环境」走向「读写环境」，还说 Google 相关项目「会很慢很慢，然后一夜之间爆发」。\n\n不过读写环境的另一面是：各厂商为避免「模型坍塌」——也就是在自己生成的垃圾上训练——正在上马指纹识别和哈希溯源，AI 生成的 Reddit 评论会被识别和清理。躲避它们会越来越难，而真实的人类信号会越来越值钱。Ben 还给了一个更长期的趋势：训练周期在缩短，顶层每周每两周重训，主干约三个月重训。「如果你能把印记留在那些 token 里，价值比出现在单个上下文窗口里高出数量级。」\n\n所以这集听下来，最值得带走的一句话也许就是：品牌是最终的护城河。当渠道和算法一直在变，最难被复制的，还是真实的品牌叙事。"
+}

@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]]
+[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sal Motamini":1,"Orb":1,"Asana":2,"Stripe":31,"Shopify":9,"Snowflake":9,"Twilio":2,"Vercel":16,"Pinecone":1,"Perplexity":6}</script>
+<script type="application/json" class="pd-epn">{"Sal Motamini":1,"Orb":1,"Asana":2,"Stripe":31,"Shopify":9,"Snowflake":9,"Twilio":2,"Vercel":17,"Pinecone":1,"Perplexity":6}</script>
 
 <script>
 (function(){

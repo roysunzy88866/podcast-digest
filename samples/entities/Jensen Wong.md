@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]]
+[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":35,"OpenAI":116,"Anthropic":124,"TSMC":4,"Microsoft":25,"Palantir":16,"开源模型":17,"封闭模型":2,"沙箱":49}</script>
+<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":35,"OpenAI":118,"Anthropic":124,"TSMC":4,"Microsoft":25,"Palantir":16,"开源模型":17,"封闭模型":2,"沙箱":50}</script>
 
 <script>
 (function(){

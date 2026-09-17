@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Marc Brooker]] [[Ben Celebicic]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]]
+[[Marc Brooker]] [[Ben Celebicic]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]] [[Paul Bakaus]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":253,"编排器":2,"护栏":48,"循环":8,"规则":2,"police 文件":1,"vibe coding":35,"vibe engineering":1,"技能文件":3,"Codex":48}</script>
+<script type="application/json" class="pd-epn">{"智能体":257,"编排器":2,"护栏":49,"循环":8,"规则":2,"police 文件":1,"vibe coding":35,"vibe engineering":1,"技能文件":3,"Codex":49}</script>
 
 <script>
 (function(){

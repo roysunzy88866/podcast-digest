@@ -1,0 +1,1280 @@
+{
+  "episode_id": "2026-09-17-practicalai-how-to-get-discovered-in-ai-search",
+  "podcast": "Practical AI",
+  "date": "2026-09-17",
+  "tags": [
+    "AEO / AI 搜索",
+    "SEO",
+    "品牌可见性",
+    "智能体",
+    "数字营销"
+  ],
+  "categories": [
+    "增长与销售",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "daniel-whitenack",
+      "type": "person",
+      "role": "host",
+      "name": "Daniel Whitenack",
+      "file": "Daniel Whitenack",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.41,
+            56.455
+          ],
+          "quote": "Welcome to another episode of the Practical AI Podcast. This is Daniel Whitenack. I am CEO at Prediction Guard, and I'm joined as always by my cohost, Benson, is a principal AI and autonomy research engineer. How are doing, Chris?",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "chris-benson",
+      "type": "person",
+      "role": "cohost",
+      "name": "Chris Benson",
+      "file": "Chris Benson",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "liam-dunne",
+      "type": "person",
+      "role": "cohost",
+      "name": "Liam Dunne",
+      "file": "Liam Dunne",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            58.855,
+            96.71
+          ],
+          "quote": "It's it's going great. It's good to see you. You're visible to me, and and that that that's an interesting part of the topic today. An awkward segue into how how do things become visible to us on the Internet these days, which seems to be increasingly through AI platforms, AI, chat interfaces, answer engines, whatever you call them. And today, we're privileged to have with us Liam Dunne and Ben Moore, who are cofounders at Discover Labs, to talk through some of these things.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "ben-moore",
+      "type": "person",
+      "role": "cohost",
+      "name": "Ben Moore",
+      "file": "Ben Moore",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            58.855,
+            96.71
+          ],
+          "quote": "It's it's going great. It's good to see you. You're visible to me, and and that that that's an interesting part of the topic today. An awkward segue into how how do things become visible to us on the Internet these days, which seems to be increasingly through AI platforms, AI, chat interfaces, answer engines, whatever you call them. And today, we're privileged to have with us Liam Dunne and Ben Moore, who are cofounders at Discover Labs, to talk through some of these things.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "discover-labs",
+      "type": "company",
+      "role": "concept",
+      "name": "Discover Labs",
+      "file": "Discover Labs",
+      "primary": true,
+      "how_described": "两位嘉宾联合创立的自然搜索(organic search)机构，提供端到端服务，业务分传统 SEO 与 AI 搜索两块，并发布关于答案引擎引用与检索机制的研究。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            58.855,
+            96.71
+          ],
+          "quote": "It's it's going great. It's good to see you. You're visible to me, and and that that that's an interesting part of the topic today. An awkward segue into how how do things become visible to us on the Internet these days, which seems to be increasingly through AI platforms, AI, chat interfaces, answer engines, whatever you call them. And today, we're privileged to have with us Liam Dunne and Ben Moore, who are cofounders at Discover Labs, to talk through some of these things.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 8,
+          "t": [
+            101.365,
+            137.805
+          ],
+          "quote": "Well, for for those, that maybe are less familiar with this topic in general around AEO, GEO, answer engine optimization, AI visibility, whatever kind of term is around this, and maybe there are differences between those terms. But for those that aren't as familiar, could could you all give us a context for kind of what those things mean? And then also, like, how how you're involved in those topics day to day, what what you're kind of doing at Discover Labs and which is kind of the context that you're doing some of the work that we'll we'll talk about.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 12,
+          "t": [
+            163.565,
+            187.06001
+          ],
+          "quote": "AEO. Honestly, for a very simple reason, there are a lot of venture funded companies that have spent a lot of money on that term. And so I'm just gonna fly behind them and lean into it. Background of us, so how we involved with this. So we're co founders at Discover Labs, it's an organic search agency.",
+          "speaker": "Liam"
+        }
+      ]
+    },
+    {
+      "id": "reddit",
+      "type": "company",
+      "role": "concept",
+      "name": "Reddit",
+      "file": "Reddit",
+      "primary": true,
+      "how_described": "本集核心案例：研究显示 ChatGPT 检索引擎把约三分之一的基础检索槽位留给 Reddit，但多数在引用环节被拒——被用来给答案提供依据，引用的却是别处；嘉宾建议品牌押注 Reddit，因为很多 B2B 公司不会玩。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            835.90497,
+            864.57996
+          ],
+          "quote": "bound uncertainty on those quantities we're trying to measure for, as you mentioned there, Chris, like for the business that has whatever they're selling, you know, gardening tools, whatever it is, right? That's what people need to be getting to, and no one's really talking about that. Having said that, it does take a lot of time. But I also think we've got to the point where it's like we've got to like stock market dynamics. Like there was a change in Reddit recently and, you know, no one also really knows, is it meaningful?",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 48,
+          "t": [
+            1041.395,
+            1063.2148
+          ],
+          "quote": "And I I know you've done, some research across, like, citations and web search versus Reddit versus training data. Before we get into any of those, like, very specifically, could you help us understand, like, what what do those like, what happens behind the hood? How might I show up mechanically in one of these systems?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 54,
+          "t": [
+            1226.05,
+            1248.6599
+          ],
+          "quote": "And then it says, okay, cool, great. This is our kind of like distilled set of context we want to work with. Now, let's say generate the final response essentially from that cleaned up context. And this actually kind of ties back to like Reddit people freaking out about the final citation. And again, the way I look at like AI visibility, everyone's like, oh, we'd love to know about citations and mentions in the final, like, output.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 69,
+          "t": [
+            1582.62,
+            1638.58
+          ],
+          "quote": "Yeah. That's really helpful. And I guess to that point, there can be you mentioned this Liam, or or maybe it was Ben, like, trying to get people to think more about, like, oh, here's the prompt I want to optimize around. And I know something that, like, people have talked about to me from various aspects is, oh, you need, like, a Reddit strategy to to be to to do great in AI visibility. And, we are we are chatting a bit about this before the conversation came about, but I know you all have done some research, both earlier research on, like, what actually gets cited in these l l LM systems, but then more recent research around the the weight that and the weight and the importance of kind of a Reddit strategy and how that surfaced visibly versus influencing some of that behinds behind the scenes activity that you were mentioning before, Ben.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 70,
+          "t": [
+            1638.58,
+            1653.395
+          ],
+          "quote": "Do you wanna just kinda help us understand some of the research that you've done there and maybe that Reddit piece or or other things that kinda influence that that citation that are that are relevant in in relation to Reddit.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 71,
+          "t": [
+            1653.395,
+            1685.3151
+          ],
+          "quote": "Sure. Yeah. So on the Reddit front, so obviously, as I mentioned there, there's obviously the the fourth pillar of AI visibility, the actual response, there's the reasoning or retrieval stage. And then we did a piece of research on the ChatBeti retrieval engine at the time, and it had allocated, like, an inset about, like, almost a third of its basic retrieval slots for Reddit. So if it could find relevant threads for for that topic or that query, it would basically inject that into the context window at the time.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 72,
+          "t": [
+            1686.28,
+            1727.8899
+          ],
+          "quote": "And then, obviously, as it does, like as it gets those those Reddit threads, let's say 30% of it's retrieval, let's say 60 slots, 20% of them are allocated to Reddit, most of those were actually rejected at citation time. So they basically are kinda used to ground the model and formulate its thinking, but also not actually cited in the final response. And then there's also been so that's one aspect of it. And then there's also the long form Reddit like AMAs questions and Reddit training data is also used within the training itself. I think it's maybe around it's typically around the oral HF stage where it's like a reinforcement learning from human feedback.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 75,
+          "t": [
+            1779.27,
+            1812.81
+          ],
+          "quote": "Yeah. And may maybe just to check my understanding here. If I'm understanding what you're saying, this would be like, oh, in that retrieval and query fan out stage, let's say I retrieve 20 sources and 10 of them are from Reddit saying a very similar thing, and maybe one of them is from TechCrunch talking about the same. Like, it confirms the 10 Reddit things. It could be that the answer engine uses those 11 sources as confirming the same thing, and that's what it's gonna talk about.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 76,
+          "t": [
+            1813.05,
+            1823.945
+          ],
+          "quote": "But it doesn't cite the Reddit things. It cites the TechCrunch thing because it's, like, I don't know, for whatever reasons behind the scenes, cites Do I have the right understanding here?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 77,
+          "t": [
+            1823.945,
+            1859.155
+          ],
+          "quote": "Exactly, yeah. That's exactly it. So essentially, it's like at that, basically, once we retrieve those, that set of, let's say, 20 sources that you mentioned, and let's say 10 on Reddit, There's a series of processes that go on, like, some of that could be, like, re ranking versus the query. And then there's also some later research around basically, like, domain authority and where ChattingTee wants to send users itself. But yeah, all of those can basically compound to say, look, we've used Reddit to ground the answer here, we're confident to move forward with this one, but we actually cited it.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 100,
+          "t": [
+            2451.09,
+            2476.2952
+          ],
+          "quote": "If they are a consideration, well, that's really gonna depend on like industry. We're quite bullish on places like Reddit. One of the advantages of Reddit is a lot of B2B companies don't really know how to do it well. And so just like because of that, you can gain an edge. I think also doing just traditional, you know, digital PR, I think building a presence on social channels is super important.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 103,
+          "t": [
+            2519.625,
+            2558.0498
+          ],
+          "quote": "And then consistency, this is kind of where it closes the loop. What I kind of opened the thought with is you need to get really clear on what you want to be known as, as an entity, as a company, right? So if you go to our website, you're gonna see we use similar words across the place because I want those to be embedded in these models and the world. And so whether it's your activities on Reddit, you're posting videos on YouTube, you're posting content on LinkedIn, even like your company LinkedIn profile, content on your website and on your blog, always presenting yourselves with a consistent message. Right?",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 105,
+          "t": [
+            2586.0598,
+            2608.425
+          ],
+          "quote": "Right? Like I want if if an LLM picked this paragraph and put it back inside to an answer, are we being positioned competitively? Like we're thinking about it from that perspective. So that's like consistency. Now we can get into like the tactics and all that stuff but it really depends on like your current state because some people we can talk about Reddit and all these tactics but some people might not even have clear messaging.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 107,
+          "t": [
+            2618.1401,
+            2653.31
+          ],
+          "quote": "I'm curious with with kind of that with the focus on Reddit and and the potential there with, you know, what tends to make one Reddit thread more likely to surface than another? Are some of the signals that you would have that are upvotes and comment count and user reputation, do those correlate with retrieval? And so when you're looking across different threads on Reddit, does that make a substantial difference? How do you think about that?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 109,
+          "t": [
+            2681.9749,
+            2703.66
+          ],
+          "quote": "But if we just look at this from the principle of user prompts LLM, LLM does query fan out and it's looking for information contained within those queries. There's lots of things and entities, right? So if I go back to that prompt example, SaaS founder, doing this in revenue. In those query fan outs, it's containing all these entities, right? And so I want those to be contained within my content on Reddit.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 110,
+          "t": [
+            2704.14,
+            2742.205
+          ],
+          "quote": "And so we found very often that the passage being extracted from Reddit is like 50% down the page and the comment has like one up or two up votes and it's because the passage was relevant. Now, I think that might change over time, right? Because similar to how relevancy is super important, but authority is becoming even more important. I think these models are gonna keep similar like, you know, how Google always releases a core update is, you know, they it's a cat and mouse game between these providers and marketers who are constantly trying to catch catch up. And I know there are commercial agreements between OpenAI, Reddit, Reddit, Google.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 111,
+          "t": [
+            2742.2852,
+            2764.5
+          ],
+          "quote": "And so maybe things like upvotes, maybe even the history of those accounts, things like that might factor into it. I don't know the complexities of that might change over time. But yeah, just what we we've observed so far is the overlap between what the user is searching and the the content on Reddit.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 132,
+          "t": [
+            3169.775,
+            3195.685
+          ],
+          "quote": "But it's ultimately it's one of the reasons I also think they have it is they don't want to train on their own. So if you post a Reddit with, like, a generated Torrent comment, they will know that. They look up their hashing function, very simple. Boom, the probability of this being AI generated from our model is very high. And they just, they essentially, I think that's gonna ratchet up, and I think there's gonna be a lot of cleaning and basically all these like, basically the protection of human level context.",
+          "speaker": "Ben"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "被当作答案引擎的代表反复讨论：其检索引擎的槽位分配、多数投票式引用机制、以及为避免幻觉会引用信息空白处的新数字。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            319.31,
+            337.555
+          ],
+          "quote": "You're gonna be building the brand of your company. You're gonna be optimizing for for technical SEO, but the tactical priorities is where it changes. Like for example, what does good content actually mean from a perspective of Google versus ChatGPT? So ultimately SEO is still a thing. It's now expanded.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 33,
+          "t": [
+            597.74,
+            638.635
+          ],
+          "quote": "Heard a little bit about that before the interview when we were talking. But, for example, like, citations or mentions in these answer engines or in AI systems. From a technical standpoint, like, obviously, I, as a human, can go into chat GPT or or Gemini or Cloud or whatever, and I can test out some prompts and see what's cited. How from a technical stamp like, what's required from the technical standpoint to actually have have a scaffolding and a mechanism that you can track your like, what does it mean to track your visibility in these systems over time? What are the relevant things?",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "concept",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "传统 SEO 的主场与对照物：核心更新、PageRank 权威评估、与 OpenAI/Reddit 的商业协议；嘉宾认为其在智能体可访问性标准上会「很慢然后一夜之间爆发」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            187.62001,
+            206.55
+          ],
+          "quote": "So we provide end to end services. Now, organic search for us splits into two buckets. You've got like traditional SEO and you have AI search. So traditional SEO, we want our clients to be at the top of Google whenever people are searching related keywords. AI search, we want our clients to be appearing inside LLMs in a way that they want to be.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 18,
+          "t": [
+            270.495,
+            297.835
+          ],
+          "quote": "I just think the space has grown. We're doing the same three jobs that's on page. So, you know, looking after your owned website, We're doing off page, which is building brand authority and we're doing technical, which is making sure agents and Google systems can access your website and understand information. It's the same three jobs. For me, it comes down to a matter of tactical priorities.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 19,
+          "t": [
+            297.835,
+            319.23
+          ],
+          "quote": "And I think this is where people will like get lost. I do think there are some things like depending on what the goal is, right? Like to rank number one on Google for a commercial keyword, you're probably going to use different tactics than if you were to optimize for a surface area like ChatGeepti. Again, you're gonna be doing the same jobs. You're gonna be creating content.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 20,
+          "t": [
+            319.31,
+            337.555
+          ],
+          "quote": "You're gonna be building the brand of your company. You're gonna be optimizing for for technical SEO, but the tactical priorities is where it changes. Like for example, what does good content actually mean from a perspective of Google versus ChatGPT? So ultimately SEO is still a thing. It's now expanded.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 36,
+          "t": [
+            674.81,
+            719.45996
+          ],
+          "quote": "Everything's great, everyone's happy. And no one really actually thinks about what's going on here. And you could go into like, essentially unless there was a Google core update, you essentially like, the rankings were essentially very deterministic and you had a set of keywords and it was like pretty finite, pretty manageable, all pretty controllable, and again, paint by numbers. And now we've kind of like gone into a system and go really deep on this as needed, but we've gone to a space where there are sources of a like non determinism or stochastic elements that people need to start modeling around. And the SEO industry, and we've seen it as a whole, doesn't have like great statisticians or like great data science literacy, just means blunt.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 39,
+          "t": [
+            792.74,
+            835.745
+          ],
+          "quote": "And ProFound aren't interested in it either, just like to sell you something. And then everyone says, oh look, number goes up, how lovely. And then the SEO industry has like an incredible ability to point at numbers going up and claim that it was them, and then has an also incredible ability to point at a number that's going down and claim its Google core update. So, yeah, I just think in general I can go into how we think about this and how the various systems are displaced here and how we think about bounding this randomness, but in general, you need to approach it like how am I going to model this system that I know hints about and with the data we have, and then how",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 58,
+          "t": [
+            1329.11,
+            1348.215
+          ],
+          "quote": "Yeah. So I guess I'll look at this from like demand and supply side. So from a demand side, the buyer, I think this is just a much better deal, right? Because if we look at search behavior pre LLM, trying to find relevant information on Google is just a nightmare, right? Because Us marketers just ruin everything.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 62,
+          "t": [
+            1409.87,
+            1440.7699
+          ],
+          "quote": "From So a demand side, I think it's a greater deal. And so therefore, I think more people are gonna take the deal. From a supply side, the people who are the vendors, I would say I probably look at this from two ways. So number one, if people are front loading all of that context, that now creates a really long tail distribution of queries that those models are using. It's no longer just best cold email software, which is what people would search on Google.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 64,
+          "t": [
+            1472.26,
+            1523.85
+          ],
+          "quote": "Now there's some nuance in there but this is really where the edge was and this is where say if I'm competing against HubSpot who has dominated Google search for all the money keywords I'd love to rank for, well now I can create relevant content for those super niche queries that my buyer is searching inside an LLM. So I think there's that perspective is the long tail distribution means we can create relevant content that targets there. And then I think there's the authority consideration is, okay, well, if everyone has relevant content, how does the model then reason over who to trust? Who does it decide who to trust? Historically with traditional SEO, we look at page rank, it's how we know Google assesses authority of pages and domains.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 65,
+          "t": [
+            1523.93,
+            1532.8099
+          ],
+          "quote": "Again, it's it comes down to consensus. It's not as weighted. It is my understanding. You know, Google Google have publicly said this. It's not as weighted nowadays.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 68,
+          "t": [
+            1561.82,
+            1582.62
+          ],
+          "quote": "SEO is just exploiting Google systems. So I think there's like a whole thing there of like, well, how do I ensure that my brand brand's information is chosen as a candidate and the position I want is communicated back to the user inside the LLM. Like that's how I'm viewing at the moment from like a marketing perspective.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 84,
+          "t": [
+            1999.67,
+            2044.925
+          ],
+          "quote": "So, yeah, so what I would say is, yeah, it is a big change, because typically it's like, look, again, traditional SEO would say basically, look, query an index, we get something back and it's reasonably stable minus a Google core update. And now we have essentially, yeah, multiple multiple steps, multiple query financing on. And not only that, we have, like, re ranking involved as well as, like, DLM basically critiquing the information itself in this agree style algorithm that I mentioned. So, I think basically just to kind of link back all the possible sources of that citation time we talked about like basically citation time optimization to say, like, well, how did we end up in the final citation? And then one of the things is obviously consistency, like, or a consensus.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 90,
+          "t": [
+            2212.8052,
+            2238.555
+          ],
+          "quote": "So it's all like, essentially, like an embedded form of a knowledge graph. So typically, of these indexes from Google, etcetera, are built on knowledge graphs, but now with an embedded form in this transformer layer. But you've got to try and assess that. So I'd say basically, there are three areas, well, or primarily two areas: the weights and how it's reasoning on those weights for you, and then the consensus around that. And the weights embed factual accuracy, sentiment, and co occurrence.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 101,
+          "t": [
+            2477.2551,
+            2487.61
+          ],
+          "quote": "If I was to, you know, gun to my head, where should I focus? I'd bet on YouTube. It's actually a native search channel. It's owned by Google. I think it's gonna be around for a while.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 110,
+          "t": [
+            2704.14,
+            2742.205
+          ],
+          "quote": "And so we found very often that the passage being extracted from Reddit is like 50% down the page and the comment has like one up or two up votes and it's because the passage was relevant. Now, I think that might change over time, right? Because similar to how relevancy is super important, but authority is becoming even more important. I think these models are gonna keep similar like, you know, how Google always releases a core update is, you know, they it's a cat and mouse game between these providers and marketers who are constantly trying to catch catch up. And I know there are commercial agreements between OpenAI, Reddit, Reddit, Google.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 121,
+          "t": [
+            2945.285,
+            2967.595
+          ],
+          "quote": "I think there's actually some standards that I'm hoping you've seen some movement here from Google. And so I think that's gonna really impact how websites look and behave. And I think that's really exciting because I don't think anyone's looking there yet. I know Ben wants to research more in this area. I'm kind of holding him back a bit because I don't think it's sexy enough just yet.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 126,
+          "t": [
+            3032.85,
+            3052.505
+          ],
+          "quote": "And so that's for sure where we're heading. I think, you know, we've seen evidence of this and if you look at the Google Web OCP program, like this is gonna it'll probably it'll be very, very slow and overnight go boom. And that's what I expect to happen. Just because it's human, it's just human behavior. It's just easier.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 130,
+          "t": [
+            3130.49,
+            3156.08
+          ],
+          "quote": "Having said that, you also ultimately want both and it's not easy to get into that training data. But that's where I I see I see things heading. In terms of otherwise, outside of that, yeah, offside is gonna be a big thing. I think being able to because essentially what to the kind of a kind of overall trend is that Google is having to or all these all these agents are having to avoid, basically, like dead Internet theory. Right?",
+          "speaker": "Ben"
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "type": "company",
+      "role": "concept",
+      "name": "YouTube",
+      "file": "YouTube",
+      "primary": true,
+      "how_described": "Liam 给出的聚焦建议：枪口抵头就押 YouTube——它是原生搜索渠道、由 Google 拥有、会长期存在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            2477.2551,
+            2487.61
+          ],
+          "quote": "If I was to, you know, gun to my head, where should I focus? I'd bet on YouTube. It's actually a native search channel. It's owned by Google. I think it's gonna be around for a while.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 103,
+          "t": [
+            2519.625,
+            2558.0498
+          ],
+          "quote": "And then consistency, this is kind of where it closes the loop. What I kind of opened the thought with is you need to get really clear on what you want to be known as, as an entity, as a company, right? So if you go to our website, you're gonna see we use similar words across the place because I want those to be embedded in these models and the world. And so whether it's your activities on Reddit, you're posting videos on YouTube, you're posting content on LinkedIn, even like your company LinkedIn profile, content on your website and on your blog, always presenting yourselves with a consistent message. Right?",
+          "speaker": "Liam"
+        }
+      ]
+    },
+    {
+      "id": "seo",
+      "type": "concept",
+      "role": "concept",
+      "name": "SEO",
+      "file": "SEO",
+      "primary": true,
+      "how_described": "本集认为 SEO 没死，只是领域变大了：站内、站外、技术三份工作不变，变的是战术优先级；但行业缺统计素养，多在不显著的波动上浪费工时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            187.62001,
+            206.55
+          ],
+          "quote": "So we provide end to end services. Now, organic search for us splits into two buckets. You've got like traditional SEO and you have AI search. So traditional SEO, we want our clients to be at the top of Google whenever people are searching related keywords. AI search, we want our clients to be appearing inside LLMs in a way that they want to be.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 15,
+          "t": [
+            210.39,
+            227.97499
+          ],
+          "quote": "Gotcha. And I I guess maybe for context, people might be familiar with, like, SEO, search engine optimization. And is it maybe help, orient us. Is, like, SEO is is that still a thing? Is this topic basically replacing that?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 16,
+          "t": [
+            227.97499,
+            256.56
+          ],
+          "quote": "Is it kind of, how do the how do the two interact? I I mean, this is always I guess this is also a fluid thing, but if I am a company, this you know, I'm I'm a company in 2026. Like, what, what what is most important and what how are people thinking about the effort they're they're putting into maybe traditional SEO versus these topics. Do you have any thoughts there?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 17,
+          "t": [
+            256.56,
+            270.495
+          ],
+          "quote": "I do. Feel free to but I, you know, I can waffle too much, so feel free to ask me questions. I'll go deeper. But ultimately, you won't hear me say that SEO is dead. Not an opinion I hold.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 20,
+          "t": [
+            319.31,
+            337.555
+          ],
+          "quote": "You're gonna be building the brand of your company. You're gonna be optimizing for for technical SEO, but the tactical priorities is where it changes. Like for example, what does good content actually mean from a perspective of Google versus ChatGPT? So ultimately SEO is still a thing. It's now expanded.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 35,
+          "t": [
+            651.28,
+            674.505
+          ],
+          "quote": "Yeah. As Liam said, it's a big question, but it's a great one. So I would say this is probably the thing that has probably shaken a lot of the SEO industry at its core a lot in the sense that everyone kind of showed up, you know, in the past with traditional SEO and said, look, great. Let's like kind of color by, is it like paint by numbers kind of thing? Like you fill in the colors and we do this, we do that.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 36,
+          "t": [
+            674.81,
+            719.45996
+          ],
+          "quote": "Everything's great, everyone's happy. And no one really actually thinks about what's going on here. And you could go into like, essentially unless there was a Google core update, you essentially like, the rankings were essentially very deterministic and you had a set of keywords and it was like pretty finite, pretty manageable, all pretty controllable, and again, paint by numbers. And now we've kind of like gone into a system and go really deep on this as needed, but we've gone to a space where there are sources of a like non determinism or stochastic elements that people need to start modeling around. And the SEO industry, and we've seen it as a whole, doesn't have like great statisticians or like great data science literacy, just means blunt.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 39,
+          "t": [
+            792.74,
+            835.745
+          ],
+          "quote": "And ProFound aren't interested in it either, just like to sell you something. And then everyone says, oh look, number goes up, how lovely. And then the SEO industry has like an incredible ability to point at numbers going up and claim that it was them, and then has an also incredible ability to point at a number that's going down and claim its Google core update. So, yeah, I just think in general I can go into how we think about this and how the various systems are displaced here and how we think about bounding this randomness, but in general, you need to approach it like how am I going to model this system that I know hints about and with the data we have, and then how",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 43,
+          "t": [
+            888.79,
+            904.525
+          ],
+          "quote": "And the SEO community has a bit around that, And also people just want to like get eyeballs on stuff. But again, you know, a lot of people waste a lot of marketing hours and a lot of engineering time around things that aren't statistically significant. That's a very basic thing that we can check. Like, that's not that's not broad sense. But that's a very simple example.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 44,
+          "t": [
+            904.74,
+            911.06
+          ],
+          "quote": "Anyway, that's why I think we're, like, kind of, like, state of attrition SEO where we are now and where people are freaking out around it and where we need to add.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 64,
+          "t": [
+            1472.26,
+            1523.85
+          ],
+          "quote": "Now there's some nuance in there but this is really where the edge was and this is where say if I'm competing against HubSpot who has dominated Google search for all the money keywords I'd love to rank for, well now I can create relevant content for those super niche queries that my buyer is searching inside an LLM. So I think there's that perspective is the long tail distribution means we can create relevant content that targets there. And then I think there's the authority consideration is, okay, well, if everyone has relevant content, how does the model then reason over who to trust? Who does it decide who to trust? Historically with traditional SEO, we look at page rank, it's how we know Google assesses authority of pages and domains.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 68,
+          "t": [
+            1561.82,
+            1582.62
+          ],
+          "quote": "SEO is just exploiting Google systems. So I think there's like a whole thing there of like, well, how do I ensure that my brand brand's information is chosen as a candidate and the position I want is communicated back to the user inside the LLM. Like that's how I'm viewing at the moment from like a marketing perspective.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 84,
+          "t": [
+            1999.67,
+            2044.925
+          ],
+          "quote": "So, yeah, so what I would say is, yeah, it is a big change, because typically it's like, look, again, traditional SEO would say basically, look, query an index, we get something back and it's reasonably stable minus a Google core update. And now we have essentially, yeah, multiple multiple steps, multiple query financing on. And not only that, we have, like, re ranking involved as well as, like, DLM basically critiquing the information itself in this agree style algorithm that I mentioned. So, I think basically just to kind of link back all the possible sources of that citation time we talked about like basically citation time optimization to say, like, well, how did we end up in the final citation? And then one of the things is obviously consistency, like, or a consensus.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 104,
+          "t": [
+            2558.0498,
+            2586.0598
+          ],
+          "quote": "I think this is like and so like one of the key contrasts here is if we look at like link building and SEO, the big check-in the box was, hey, we got a link. We've got a do follow link. You know, we're gonna get some link juice back to our website. In AI search, I actually think the blurb surrounding, even if that link didn't exist, the blurb surrounding you as an entity is far more important because like who are you as a company? We want that to be really dense.",
+          "speaker": "Liam"
+        }
+      ]
+    },
+    {
+      "id": "aeo",
+      "type": "concept",
+      "role": "concept",
+      "name": "AEO",
+      "file": "AEO",
+      "primary": true,
+      "how_described": "Liam 把 AEO 与 GEO 视作同一回事，即让品牌以期望的方式出现在 LLM 答案里；传统 SEO 加 AEO 合起来才是完整的自然搜索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            101.365,
+            137.805
+          ],
+          "quote": "Well, for for those, that maybe are less familiar with this topic in general around AEO, GEO, answer engine optimization, AI visibility, whatever kind of term is around this, and maybe there are differences between those terms. But for those that aren't as familiar, could could you all give us a context for kind of what those things mean? And then also, like, how how you're involved in those topics day to day, what what you're kind of doing at Discover Labs and which is kind of the context that you're doing some of the work that we'll we'll talk about.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 12,
+          "t": [
+            163.565,
+            187.06001
+          ],
+          "quote": "AEO. Honestly, for a very simple reason, there are a lot of venture funded companies that have spent a lot of money on that term. And so I'm just gonna fly behind them and lean into it. Background of us, so how we involved with this. So we're co founders at Discover Labs, it's an organic search agency.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 21,
+          "t": [
+            337.555,
+            348.09998
+          ],
+          "quote": "We now have AEO. Those together I call organic search. We're doing the same three jobs, but the tactical priorities have just changed a bit, would say.",
+          "speaker": "Liam"
+        }
+      ]
+    },
+    {
+      "id": "ai-visibility",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 可见性 (AI visibility)",
+      "file": "AI 可见性",
+      "primary": true,
+      "how_described": "本集主线概念：品牌在答案引擎中被看见的机制，要盯四根支柱——权重、推理、检索、响应，只看最终引用等于只看冰山一角。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            101.365,
+            137.805
+          ],
+          "quote": "Well, for for those, that maybe are less familiar with this topic in general around AEO, GEO, answer engine optimization, AI visibility, whatever kind of term is around this, and maybe there are differences between those terms. But for those that aren't as familiar, could could you all give us a context for kind of what those things mean? And then also, like, how how you're involved in those topics day to day, what what you're kind of doing at Discover Labs and which is kind of the context that you're doing some of the work that we'll we'll talk about.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 54,
+          "t": [
+            1226.05,
+            1248.6599
+          ],
+          "quote": "And then it says, okay, cool, great. This is our kind of like distilled set of context we want to work with. Now, let's say generate the final response essentially from that cleaned up context. And this actually kind of ties back to like Reddit people freaking out about the final citation. And again, the way I look at like AI visibility, everyone's like, oh, we'd love to know about citations and mentions in the final, like, output.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 69,
+          "t": [
+            1582.62,
+            1638.58
+          ],
+          "quote": "Yeah. That's really helpful. And I guess to that point, there can be you mentioned this Liam, or or maybe it was Ben, like, trying to get people to think more about, like, oh, here's the prompt I want to optimize around. And I know something that, like, people have talked about to me from various aspects is, oh, you need, like, a Reddit strategy to to be to to do great in AI visibility. And, we are we are chatting a bit about this before the conversation came about, but I know you all have done some research, both earlier research on, like, what actually gets cited in these l l LM systems, but then more recent research around the the weight that and the weight and the importance of kind of a Reddit strategy and how that surfaced visibly versus influencing some of that behinds behind the scenes activity that you were mentioning before, Ben.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 71,
+          "t": [
+            1653.395,
+            1685.3151
+          ],
+          "quote": "Sure. Yeah. So on the Reddit front, so obviously, as I mentioned there, there's obviously the the fourth pillar of AI visibility, the actual response, there's the reasoning or retrieval stage. And then we did a piece of research on the ChatBeti retrieval engine at the time, and it had allocated, like, an inset about, like, almost a third of its basic retrieval slots for Reddit. So if it could find relevant threads for for that topic or that query, it would basically inject that into the context window at the time.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 92,
+          "t": [
+            2249.675,
+            2279.875
+          ],
+          "quote": "Liam, I'm I'm curious. So Ben just described kind of of course, there's this whole chain of things that influences what eventually shows up in the actual response. Everything from the the model weights to this query fan out to the agreement algorithm, the the, the naming, all of those things, co occurrence. I'm wondering, like, over time, obviously, this industry of AI visibility is evolving. Right?",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "retrieval",
+      "type": "concept",
+      "role": "concept",
+      "name": "检索 (retrieval)",
+      "file": "检索",
+      "primary": true,
+      "how_described": "AI 可见性四大支柱之一：模型经推理后调用检索引擎、做查询扇出，拉回约 60 个初始候选来源进入上下文窗口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            1115.76,
+            1151.405
+          ],
+          "quote": "And the second source of randomness is the actual temperature itself, like deliberate temperature randomness that generates the next token. And then the final part of this is like, it's also speaking with Liam about this, there's now fingerprinting on these LMs. So they will also nudge and create hashing functions in the background to know where the content came from. Anyway, so it goes through this reasoning phase, let's say, you say, like, a best gardening service in, let's say, Dublin and Ireland, I'll use that example. And it'll then start reasoning and say, oh, it'll have a certain set of criteria, it'll do some reasoning before it makes any queries with its retrieval engine.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 52,
+          "t": [
+            1151.405,
+            1188.255
+          ],
+          "quote": "And it's exposed to a series of tools, and one of them has also got to be the retrieval engine. I'm saying a series of tools because when we get to agents, they could be exposed to a whole host of other things that you're not aware of. Then it accesses this retrieval engine, creates a set of, basically, query fan outs, you've probably heard the term, and then pulls back in basically a set of initial candidates essentially to be pulled into the context window. But before that happens, essentially, they look basically it's not always exactly the same algorithm, but DeepMind had an agree style algorithm, it's called. And basically, it's a way to avoid hallucinations.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 56,
+          "t": [
+            1263.895,
+            1281.13
+          ],
+          "quote": "It has a criteria it's going through its internal logic, just like a human would, essentially. It's not like human, but you get my point. And then finally, you have like your retrieval engine and response, but you really need to be looking across all of those four pillars in order to dominate your domain. That's how we look at it for all of our clients.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 71,
+          "t": [
+            1653.395,
+            1685.3151
+          ],
+          "quote": "Sure. Yeah. So on the Reddit front, so obviously, as I mentioned there, there's obviously the the fourth pillar of AI visibility, the actual response, there's the reasoning or retrieval stage. And then we did a piece of research on the ChatBeti retrieval engine at the time, and it had allocated, like, an inset about, like, almost a third of its basic retrieval slots for Reddit. So if it could find relevant threads for for that topic or that query, it would basically inject that into the context window at the time.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 72,
+          "t": [
+            1686.28,
+            1727.8899
+          ],
+          "quote": "And then, obviously, as it does, like as it gets those those Reddit threads, let's say 30% of it's retrieval, let's say 60 slots, 20% of them are allocated to Reddit, most of those were actually rejected at citation time. So they basically are kinda used to ground the model and formulate its thinking, but also not actually cited in the final response. And then there's also been so that's one aspect of it. And then there's also the long form Reddit like AMAs questions and Reddit training data is also used within the training itself. I think it's maybe around it's typically around the oral HF stage where it's like a reinforcement learning from human feedback.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 74,
+          "t": [
+            1759.635,
+            1779.27
+          ],
+          "quote": "And ultimately, if you wanna, as I said, you wanna, basically, you know, move the narrative for your brand or own in a certain direction, you need to look at all sides. The reasoning engine, the retrieval side of it, as well as the response and the weights. So, yeah, I would say it readily is still very much a big player.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 75,
+          "t": [
+            1779.27,
+            1812.81
+          ],
+          "quote": "Yeah. And may maybe just to check my understanding here. If I'm understanding what you're saying, this would be like, oh, in that retrieval and query fan out stage, let's say I retrieve 20 sources and 10 of them are from Reddit saying a very similar thing, and maybe one of them is from TechCrunch talking about the same. Like, it confirms the 10 Reddit things. It could be that the answer engine uses those 11 sources as confirming the same thing, and that's what it's gonna talk about.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 82,
+          "t": [
+            1942.02,
+            1985.305
+          ],
+          "quote": "Ben, I want to do a quick follow-up on what you were just talking about, and that's kind of that relationship between retrieval and citation a little bit. So it seems like intuitively I might have thought that there was a positive relationship between them and that retrievals would lead to citations. You just talked about the fact that that isn't necessarily the case. Could you talk I mean, seems like that's a significant thing. I would guess that if you're a marketer out there and going with that intuitive approach, that that would be kind of a substantial pivot that you'd have to make to accommodate that.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 83,
+          "t": [
+            1985.305,
+            1999.67
+          ],
+          "quote": "Could you talk a little bit about what that means? What does it mean, the fact that the retrieval and the citations don't necessarily line up that way? And Liam, I'd also love to hear what you have to say about that on the marketing side.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 88,
+          "t": [
+            2145.03,
+            2182.135
+          ],
+          "quote": "Essentially that's gonna impact them. That's what I take your time. So like and that's gonna even come down to simple things like what is the name of your brand? So if your brand is like a word that is like, let's say, already existing English word in the dictionary, for instance, that can be an issue. Or if it's like has negative connotations with it, or it doesn't align with the, like, basically overall, let's say it's a security platform and it's like openly or something like that, that could have a So negative there's multiple points there, both on the retrieval side, like consensus, as well as like how the model is, like, basically the sentiment it has towards your brand, and also what.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 107,
+          "t": [
+            2618.1401,
+            2653.31
+          ],
+          "quote": "I'm curious with with kind of that with the focus on Reddit and and the potential there with, you know, what tends to make one Reddit thread more likely to surface than another? Are some of the signals that you would have that are upvotes and comment count and user reputation, do those correlate with retrieval? And so when you're looking across different threads on Reddit, does that make a substantial difference? How do you think about that?",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "citation",
+      "type": "concept",
+      "role": "concept",
+      "name": "引用 (citation)",
+      "file": "引用",
+      "primary": true,
+      "how_described": "本集最反直觉的发现：被检索≠被引用——Reddit 来源大量用来给答案打底、却被拒绝在引用环节，最终引用的是说同样事情的其他来源；引用率是需要约束不确定性的测量指标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            748.48,
+            792.74
+          ],
+          "quote": "There are hints in the network traffic and some of the, if you can decrypt the packets, there's also information there. And there's also like distilled models, so when I look at the training data, you can also figure out like some information from the distilled models. And so the thing is to set up basically an experimentation, a kind of engine or pipeline, whatever you want to call it, and then say, well, how do I bound the you mentioned there, citation rate, mention rate, share of voice? How do I bound the uncertainty on those metrics and what do I need to basically bring that uncertainty under, let's say, 5% margin of error. And to be honest, no one in the industry is really doing this, or even really thinking about it, people go on, they buy a ProFound or some other thing, and they're like, Here's my prompt, let's go away, go do this.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 54,
+          "t": [
+            1226.05,
+            1248.6599
+          ],
+          "quote": "And then it says, okay, cool, great. This is our kind of like distilled set of context we want to work with. Now, let's say generate the final response essentially from that cleaned up context. And this actually kind of ties back to like Reddit people freaking out about the final citation. And again, the way I look at like AI visibility, everyone's like, oh, we'd love to know about citations and mentions in the final, like, output.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 70,
+          "t": [
+            1638.58,
+            1653.395
+          ],
+          "quote": "Do you wanna just kinda help us understand some of the research that you've done there and maybe that Reddit piece or or other things that kinda influence that that citation that are that are relevant in in relation to Reddit.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 72,
+          "t": [
+            1686.28,
+            1727.8899
+          ],
+          "quote": "And then, obviously, as it does, like as it gets those those Reddit threads, let's say 30% of it's retrieval, let's say 60 slots, 20% of them are allocated to Reddit, most of those were actually rejected at citation time. So they basically are kinda used to ground the model and formulate its thinking, but also not actually cited in the final response. And then there's also been so that's one aspect of it. And then there's also the long form Reddit like AMAs questions and Reddit training data is also used within the training itself. I think it's maybe around it's typically around the oral HF stage where it's like a reinforcement learning from human feedback.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 82,
+          "t": [
+            1942.02,
+            1985.305
+          ],
+          "quote": "Ben, I want to do a quick follow-up on what you were just talking about, and that's kind of that relationship between retrieval and citation a little bit. So it seems like intuitively I might have thought that there was a positive relationship between them and that retrievals would lead to citations. You just talked about the fact that that isn't necessarily the case. Could you talk I mean, seems like that's a significant thing. I would guess that if you're a marketer out there and going with that intuitive approach, that that would be kind of a substantial pivot that you'd have to make to accommodate that.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 84,
+          "t": [
+            1999.67,
+            2044.925
+          ],
+          "quote": "So, yeah, so what I would say is, yeah, it is a big change, because typically it's like, look, again, traditional SEO would say basically, look, query an index, we get something back and it's reasonably stable minus a Google core update. And now we have essentially, yeah, multiple multiple steps, multiple query financing on. And not only that, we have, like, re ranking involved as well as, like, DLM basically critiquing the information itself in this agree style algorithm that I mentioned. So, I think basically just to kind of link back all the possible sources of that citation time we talked about like basically citation time optimization to say, like, well, how did we end up in the final citation? And then one of the things is obviously consistency, like, or a consensus.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 89,
+          "t": [
+            2182.135,
+            2212.8052
+          ],
+          "quote": "So when these models are trained, going back to the weight side of things, it's all about co occurrence, right? So there's this attention function basically where it's basically going along looking at all the tokens in a certain space and it's associating with you. So if I had like, let's say, guardingtools.com, what are the other entities I've related to as I've gone through the training data? And then when it comes to citation time, it's like, well, that also influences like, okay, well, this, you know, we're talking about X. So essentially, like, let's say the entity shows up that's related to you, you're more likely to get retrieved again.",
+          "speaker": "Ben"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "买家行为变化的第一性原因：人们在 LLM 里消化信息，「LLM 就是新的网站访客」；它有非确定性/随机因素，需要统计建模来测量可见性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            416.545,
+            451.055
+          ],
+          "quote": "And so the symptom of this is people will see that, hey, like where's all my organic traffic gone? And it's because that organic traffic, a big chunk of it was created by people consuming information on your website. But if people are consuming information inside an LLM, the LLM is the new website visitor. They're taking that information, they're chewing it up and they're spitting it back out to the user inside an LM and so you've now lost those clicks. As I think that's the first thing and so the implications there are, well, how do we measure that?",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 37,
+          "t": [
+            720.265,
+            748.48
+          ],
+          "quote": "And if you're any serious statistician or control engineer, you would look at the system you're probing and you would say, Well, what are the requirements on the signals I'm trying to measure here in order to bound the noise on these measurements essentially, and the quantities you're trying to measure. And then you would say, okay, well, then you'd set up your model of the system. Essentially, lot of these LLM agents are essentially gray boxes. They're not totally black boxes. There are research papers out there.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 49,
+          "t": [
+            1063.215,
+            1088.19
+          ],
+          "quote": "Yeah. So let me dig into it. Just before I do, would say to anyone anyone listening for sure do not run down the rabbit hole of being like, is this one prompt and I would love to rank on it. You wanna basically model like, from like, basically a topical domain standpoint and get into more of that. But basically, yeah, what happens is, essentially, your prompt is fed in, it's tokenized and then ingested by the LLM.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 58,
+          "t": [
+            1329.11,
+            1348.215
+          ],
+          "quote": "Yeah. So I guess I'll look at this from like demand and supply side. So from a demand side, the buyer, I think this is just a much better deal, right? Because if we look at search behavior pre LLM, trying to find relevant information on Google is just a nightmare, right? Because Us marketers just ruin everything.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 61,
+          "t": [
+            1374.845,
+            1409.565
+          ],
+          "quote": "These are the attributes of the solution, you know, we're looking for a piece of software, must have a free trial, must charge monthly, must integrate with hub spot or CRM. All of these requirements, I can front load that. And then the LLM does its thing and it comes back with personalized recommendations. Now I'm not saying that marked as a, you know, that's our job to influence those recommendations, but it's just a far better deal than like clicking through all those websites and finding the information myself. Like me personally, I just use it for everything, Date night, you know, meal prep, like buying software, everything.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 64,
+          "t": [
+            1472.26,
+            1523.85
+          ],
+          "quote": "Now there's some nuance in there but this is really where the edge was and this is where say if I'm competing against HubSpot who has dominated Google search for all the money keywords I'd love to rank for, well now I can create relevant content for those super niche queries that my buyer is searching inside an LLM. So I think there's that perspective is the long tail distribution means we can create relevant content that targets there. And then I think there's the authority consideration is, okay, well, if everyone has relevant content, how does the model then reason over who to trust? Who does it decide who to trust? Historically with traditional SEO, we look at page rank, it's how we know Google assesses authority of pages and domains.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 66,
+          "t": [
+            1534.41,
+            1545.2749
+          ],
+          "quote": "What's like the LLM's version of of that? And this is what seems to be changing a lot at the moment. Right? Because marketers use a bunch of tactics. They work well.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 68,
+          "t": [
+            1561.82,
+            1582.62
+          ],
+          "quote": "SEO is just exploiting Google systems. So I think there's like a whole thing there of like, well, how do I ensure that my brand brand's information is chosen as a candidate and the position I want is communicated back to the user inside the LLM. Like that's how I'm viewing at the moment from like a marketing perspective.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 86,
+          "t": [
+            2076.5452,
+            2110.46
+          ],
+          "quote": "So let's say there's something about your brand where it's actually like negative, let's say reviews, and that seems to be like it's published in multiple places, that'll be a good example. That's actually one thing we've built out a lot here is AI perception. And one thing we've found is actually quite interesting is that like, if there's blank space, you can almost publish, you can almost get anything cited. So, for instance, let's say certain industries are very, very sensitive about publishing pricing. And we found this works like insanely well if you publish numbers that are even like yards directionally correct because there's blank space and the LLM doesn't want to hallucinate, essentially.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 105,
+          "t": [
+            2586.0598,
+            2608.425
+          ],
+          "quote": "Right? Like I want if if an LLM picked this paragraph and put it back inside to an answer, are we being positioned competitively? Like we're thinking about it from that perspective. So that's like consistency. Now we can get into like the tactics and all that stuff but it really depends on like your current state because some people we can talk about Reddit and all these tactics but some people might not even have clear messaging.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 109,
+          "t": [
+            2681.9749,
+            2703.66
+          ],
+          "quote": "But if we just look at this from the principle of user prompts LLM, LLM does query fan out and it's looking for information contained within those queries. There's lots of things and entities, right? So if I go back to that prompt example, SaaS founder, doing this in revenue. In those query fan outs, it's containing all these entities, right? And so I want those to be contained within my content on Reddit.",
+          "speaker": "Liam"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集认为下一个前沿：智能体不只爬网站检索信息，还会在上面执行操作——已有客户报告 AI 智能体预约演示、代采购装工具；网站要从「只读环境」走向「读写环境」，并需考虑智能体可访问性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            1281.13,
+            1329.11
+          ],
+          "quote": "There are lots of things to dive into, but before we do that, I'm curious. I actually wanna go back to Liam for a second, as I'm listening to Ben explain these things, the thing in my head was kind of something that you were saying early on about how it changes behavior, and I'm curious, as a marketer, I like the ability to go back and forth between the technical and the human behavior side. How is that changing how the human, now that you have the agent going and doing this, what does that mean for the human that now has this proxy in the agent going out and doing that, and how is that changing the behavior and potentially the transactions that are following up on that, just to kind of come full circle for a moment.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 117,
+          "t": [
+            2872.98,
+            2898.16
+          ],
+          "quote": "So I'm always thinking about that. The second area is agent accessibility. So I think everyone at the moment for the like everyone I'm speaking in such generalities, but I think everyone's been focused on discoverability, Right? Like, how do we get my content discovered? And I think there's so many edges to gain.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 119,
+          "t": [
+            2916.625,
+            2937.045
+          ],
+          "quote": "We have clients reporting to us that, hey, an agent, an AI agent booked a demo last week. We're seeing things like that happening. And so then that just again, websites have historically been optimized for humans. Humans, if your website takes a little bit to load or like your form, your demo form is confusing, it's okay. We can figure it out.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 122,
+          "t": [
+            2969.035,
+            2990.4902
+          ],
+          "quote": "But I see that definitely as the next frontier. And we have clients that are generating a lot of conversions, you know, tens of thousands of conversions per week. And a lot of their users are coming via command line interface. So they're saying, hey, I wanna build x. And then the agent is the one going out there and coming back like a private procurement team.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 125,
+          "t": [
+            3006.32,
+            3032.245
+          ],
+          "quote": "Yeah, definitely, as Liam said, the agents, I just think it's moving from like a, I always describe it as like a read only environment to a read write environment is where we're headed. And as Liam said at the very start of this conversation, it's just a better deal. It gets a better deal to get all the context in one place, just talk to an agent. It would be an even better deal if you didn't have to fill out the form. It would be an even better deal if you didn't have to pick a slot on the calendar, yada yada yada, get the idea.",
+          "speaker": "Ben"
+        }
+      ]
+    },
+    {
+      "id": "query-fan-out",
+      "type": "concept",
+      "role": "concept",
+      "name": "查询扇出 (query fan out)",
+      "file": "查询扇出",
+      "primary": true,
+      "how_described": "Ben 拆解的机制：检索引擎把用户问题拆成多个子查询，各含用户上下文里的实体；内容要命中这些扇出查询才能被检索到。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            1779.27,
+            1812.81
+          ],
+          "quote": "Yeah. And may maybe just to check my understanding here. If I'm understanding what you're saying, this would be like, oh, in that retrieval and query fan out stage, let's say I retrieve 20 sources and 10 of them are from Reddit saying a very similar thing, and maybe one of them is from TechCrunch talking about the same. Like, it confirms the 10 Reddit things. It could be that the answer engine uses those 11 sources as confirming the same thing, and that's what it's gonna talk about.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 92,
+          "t": [
+            2249.675,
+            2279.875
+          ],
+          "quote": "Liam, I'm I'm curious. So Ben just described kind of of course, there's this whole chain of things that influences what eventually shows up in the actual response. Everything from the the model weights to this query fan out to the agreement algorithm, the the, the naming, all of those things, co occurrence. I'm wondering, like, over time, obviously, this industry of AI visibility is evolving. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 109,
+          "t": [
+            2681.9749,
+            2703.66
+          ],
+          "quote": "But if we just look at this from the principle of user prompts LLM, LLM does query fan out and it's looking for information contained within those queries. There's lots of things and entities, right? So if I go back to that prompt example, SaaS founder, doing this in revenue. In those query fan outs, it's containing all these entities, right? And so I want those to be contained within my content on Reddit.",
+          "speaker": "Liam"
+        }
+      ]
+    },
+    {
+      "id": "weights",
+      "type": "concept",
+      "role": "concept",
+      "name": "权重 (weights)",
+      "file": "权重",
+      "primary": true,
+      "how_described": "四大支柱之首：训练时注意力函数把品牌与哪些实体共现关联、嵌入的事实准确性与情感都会影响引用时刻；训练周期缩短后，在权重里留下印记比出现在单个上下文窗口值钱数量级。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            1089.5549,
+            1115.76
+          ],
+          "quote": "And then there's essentially a reasoning stage, right? So basically, the transformer basically has embedded your prompt and now looks at all those tokens and starts generating its reasoning stage based on its training weights, and basically it has a it's running this forward pass. And there's typically two sources of randomness, and the reason I mentioned this is kind of important, it's like the kernel function. So there's like floating point error in GPUs. That's one source of randomness.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 55,
+          "t": [
+            1248.74,
+            1263.895
+          ],
+          "quote": "But there's all this other part before we got there. So I talked about, you know, the weights, how you're showing up in the weights, we did some research on this recently. How is the model reasoning? Like, what is what is it thinking? Like, when it makes core decisions around your domain or be that bottom of funnel, top of funnel, whatever it is.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 74,
+          "t": [
+            1759.635,
+            1779.27
+          ],
+          "quote": "And ultimately, if you wanna, as I said, you wanna, basically, you know, move the narrative for your brand or own in a certain direction, you need to look at all sides. The reasoning engine, the retrieval side of it, as well as the response and the weights. So, yeah, I would say it readily is still very much a big player.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 90,
+          "t": [
+            2212.8052,
+            2238.555
+          ],
+          "quote": "So it's all like, essentially, like an embedded form of a knowledge graph. So typically, of these indexes from Google, etcetera, are built on knowledge graphs, but now with an embedded form in this transformer layer. But you've got to try and assess that. So I'd say basically, there are three areas, well, or primarily two areas: the weights and how it's reasoning on those weights for you, and then the consensus around that. And the weights embed factual accuracy, sentiment, and co occurrence.",
+          "speaker": "Ben"
+        },
+        {
+          "seg": 92,
+          "t": [
+            2249.675,
+            2279.875
+          ],
+          "quote": "Liam, I'm I'm curious. So Ben just described kind of of course, there's this whole chain of things that influences what eventually shows up in the actual response. Everything from the the model weights to this query fan out to the agreement algorithm, the the, the naming, all of those things, co occurrence. I'm wondering, like, over time, obviously, this industry of AI visibility is evolving. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 128,
+          "t": [
+            3080.345,
+            3102.49
+          ],
+          "quote": "But I think people are gonna start focusing more on, like, the weights and then what's driving the weights longer term because the two two reasons is that well, the the market in general is, like, sophisticated. People are becoming more aware about how these systems work. The second thing is that the training cycles are actually coming down. So when we first started, was cool. Had like a new version of Chapter B key once every like nine, twelve months.",
+          "speaker": "Ben"
+        }
+      ]
+    },
+    {
+      "id": "hubspot",
+      "type": "company",
+      "role": "concept",
+      "name": "HubSpot",
+      "file": "HubSpot",
+      "primary": false,
+      "how_described": "被拿来举例的巨头：主导了 Google 搜索中所有「金钱关键词」，长尾查询是小公司对抗它的机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            1472.26,
+            1523.85
+          ],
+          "quote": "Now there's some nuance in there but this is really where the edge was and this is where say if I'm competing against HubSpot who has dominated Google search for all the money keywords I'd love to rank for, well now I can create relevant content for those super niche queries that my buyer is searching inside an LLM. So I think there's that perspective is the long tail distribution means we can create relevant content that targets there. And then I think there's the authority consideration is, okay, well, if everyone has relevant content, how does the model then reason over who to trust? Who does it decide who to trust? Historically with traditional SEO, we look at page rank, it's how we know Google assesses authority of pages and domains.",
+          "speaker": "Liam"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "concept",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "提到其与 Reddit、Google 的商业协议，以及早期宣言想把文本验证外包给第三方（如 Trustpilot）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            2704.14,
+            2742.205
+          ],
+          "quote": "And so we found very often that the passage being extracted from Reddit is like 50% down the page and the comment has like one up or two up votes and it's because the passage was relevant. Now, I think that might change over time, right? Because similar to how relevancy is super important, but authority is becoming even more important. I think these models are gonna keep similar like, you know, how Google always releases a core update is, you know, they it's a cat and mouse game between these providers and marketers who are constantly trying to catch catch up. And I know there are commercial agreements between OpenAI, Reddit, Reddit, Google.",
+          "speaker": "Liam"
+        },
+        {
+          "seg": 133,
+          "t": [
+            3195.685,
+            3217.29
+          ],
+          "quote": "And actually, when OpenAI started out, they have this manifesto online to they wanted to offload the verification of text to third parties. Like Trustpilot's a good example, they're in partnership with them. They'll keep trying to do that, and I think they'll keep trying to up the ante here. So, it'll get harder and harder to basically evade them. So, you need to keep climbing the edges around that.",
+          "speaker": "Ben"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

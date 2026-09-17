@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]]
+[[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"AEO":4,"SEO":6,"RAG":10,"LLM":32,"citation":1,"AI 生成内容":1,"Webflow":2,"ChatGPT":66,"Google":43}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"AEO":5,"SEO":7,"RAG":10,"LLM":33,"citation":2,"AI 生成内容":1,"Webflow":2,"ChatGPT":67,"Google":44}</script>
 
 <script>
 (function(){

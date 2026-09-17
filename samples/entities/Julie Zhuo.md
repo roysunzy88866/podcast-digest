@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":253,"构建者":3,"可观测性":20,"对话分析":1,"评估":2,"维度思维":1,"ChatGPT":66,"Cursor":60,"OpenAI":116}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":257,"构建者":3,"可观测性":21,"对话分析":1,"评估":2,"维度思维":1,"ChatGPT":67,"Cursor":60,"OpenAI":118}</script>
 
 <script>
 (function(){

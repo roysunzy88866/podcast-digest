@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":2,"MCP":42,"FastMCP":1,"Prefab":1,"智能体":253,"沙箱":49,"生成式 UI":2,"Claude":58}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":2,"MCP":44,"FastMCP":1,"Prefab":1,"智能体":257,"沙箱":50,"生成式 UI":2,"Claude":59}</script>
 
 <script>
 (function(){

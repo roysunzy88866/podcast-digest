@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Neoclouds":1,"Fireworks":4,"前沿模型":16,"开源模型":17,"沙箱":49,"智能体":253,"推理":46,"Docker":3,"GPU":16}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Neoclouds":1,"Fireworks":4,"前沿模型":16,"开源模型":17,"沙箱":50,"智能体":257,"推理":46,"Docker":3,"GPU":16}</script>
 
 <script>
 (function(){

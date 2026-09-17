@@ -1,0 +1,1244 @@
+{
+  "episode_id": "2026-09-14-talks-no-memory-no-harness-why-the-database-is",
+  "podcast": "精选演讲",
+  "date": "2026-09-14",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "智能体记忆",
+    "数据库",
+    "团队协作"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "kay-malcolm",
+      "type": "person",
+      "role": "guest",
+      "name": "Kay Malcolm",
+      "file": "Kay Malcolm",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            20.236,
+            21.457
+          ],
+          "quote": "My name is Kay Malcolm.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "type": "company",
+      "role": "company",
+      "name": "Oracle",
+      "file": "Oracle",
+      "primary": true,
+      "how_described": "本集说它是「最安全的数据库公司」， speaker 在此负责对外数据库产品管理团队；并强调「Oracle 不是你们以为的那个 Oracle」——可以原生在同一张表、同一分区里存 JSON、图、向量、空间数据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            69.584,
+            74.448
+          ],
+          "quote": "I run an outbound database product management team at Oracle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            74.468,
+            77.511
+          ],
+          "quote": "I've been at Oracle a really long time, 20 years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            169.642,
+            170.922
+          ],
+          "quote": "We use Codex at Oracle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            555.015,
+            557.656
+          ],
+          "quote": "I've been at Oracle a long time, but I came from a customer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            743.413,
+            747.376
+          ],
+          "quote": "I left and I came to Oracle because I was like, this is a problem and maybe I can go to Oracle to help solve it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            753.561,
+            754.881
+          ],
+          "quote": "Oracle is late to the game.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            769.116,
+            781.468
+          ],
+          "quote": "So if data is in an Oracle database, if then it's also in an unstructured JSON database, if it's in a graph database, and it's in a vector database, where is your single source of the truth?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            899.156,
+            909.007
+          ],
+          "quote": "Oracle, and if you don't forget one, if you forget everything I say and you remember one thing, Oracle is not the Oracle that you think.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            911.982,
+            923.005
+          ],
+          "quote": "How many of you knew that Oracle could natively, in the same table, down to the same partition, store JSON, graph, vector?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            987.876,
+            998.206
+          ],
+          "quote": "And so what I'm saying to you today is the Oracle AI database is the best place to store this agent memory that's going to power your harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1126.642,
+            1131.104
+          ],
+          "quote": "Oracle has a Oracle Agent Memory Package.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1132.025,
+            1133.806
+          ],
+          "quote": "PIP install Oracle Agent Memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1156.483,
+            1158.784
+          ],
+          "quote": "We use the Oracle Agent Memory SDK.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1159.244,
+            1161.985
+          ],
+          "quote": "It's stored in our Oracle Autonomous Database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1163.126,
+            1169.648
+          ],
+          "quote": "We can use the LLM of our choice, or we can use a local model through the Oracle Private AI Services container.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1182.297,
+            1186.121
+          ],
+          "quote": "Shared memory on an Oracle AI database makes teams faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1212.818,
+            1219.563
+          ],
+          "quote": "The Oracle AI Developer Hub, that's where you guys can get coding materials, the applications, what I talked about today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1219.923,
+            1229.591
+          ],
+          "quote": "LiveLabs.oracle.com, if you've done any of our workshops today, that happens to be something that I wrote myself about six years ago and 40 million users ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1233.701,
+            1240.203
+          ],
+          "quote": "Kick the tires on any Oracle technology for six hours, 12 hours, however long you need.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1250.585,
+            1257.267
+          ],
+          "quote": "It is the most generous of any of the hyperscalers where you can get a free Oracle database, free compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1265.472,
+            1269.275
+          ],
+          "quote": "Or just search Google for Oracle Cloud, always free.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集定义为模型加上 harness：「模型只是漂浮在玻璃罐里的小大脑，harness 是身体，是智能体真正能做事、把事情办成的方式」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            48.822,
+            54.187
+          ],
+          "quote": "I'm going to talk about AI, but I'm specifically going to talk about agent harnesses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            263.493,
+            277.54
+          ],
+          "quote": "So we needed to figure out how to track our progress and our next steps, how to rationalize decisions that the agent was making.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            294.261,
+            299.223
+          ],
+          "quote": "Let me define what a enterprise agent actually is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            299.603,
+            304.986
+          ],
+          "quote": "Now most people think that an enterprise agent is the model and workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            318.841,
+            325.183
+          ],
+          "quote": "Could it be that a real enterprise agent has tools?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            398.337,
+            408.681
+          ],
+          "quote": "So the agent, think of it as the model, little brain floating in a glass jar, plus this harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            412.6,
+            417.222
+          ],
+          "quote": "So it's how the agent can actually do things and get things done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            501.204,
+            514.397
+          ],
+          "quote": "We're not talking the agent that I built, Sasha Fierce, because remember I told you guys that I'm a dancer, so of course my chief of staff is gonna be called Sasha Fierce because that was Beyonce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            523.605,
+            532.567
+          ],
+          "quote": "Now, when you're defining this real enterprise agent in this memory, there's something you need to consider, where to store it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            783.19,
+            784.771
+          ],
+          "quote": "The agent has to figure that out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            954.854,
+            961.219
+          ],
+          "quote": "So now when we take this and we talk about the agent, I want to be able to store my long-term and procedural memory in relational.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            987.876,
+            998.206
+          ],
+          "quote": "And so what I'm saying to you today is the Oracle AI database is the best place to store this agent memory that's going to power your harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1011.949,
+            1013.449
+          ],
+          "quote": "We used agent memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1069.615,
+            1073.897
+          ],
+          "quote": "Memory is the thing that becomes non-negotiable in an agent's harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1079.42,
+            1082.882
+          ],
+          "quote": "This first one is from OpenAI, and it's about its in-house data agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1083.242,
+            1091.127
+          ],
+          "quote": "And the thing that it says is, it is saying that its in-house data agent actually needs memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1091.247,
+            1098.711
+          ],
+          "quote": "Memory was crucially important to ensure that its agent was able to filter correctly instead of trying to string match.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1126.642,
+            1131.104
+          ],
+          "quote": "Oracle has a Oracle Agent Memory Package.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1132.025,
+            1133.806
+          ],
+          "quote": "PIP install Oracle Agent Memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1156.483,
+            1158.784
+          ],
+          "quote": "We use the Oracle Agent Memory SDK.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1197.693,
+            1202.961
+          ],
+          "quote": "For agent memory, file systems stored in a database file system or in the database.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "线束 (harness)",
+      "file": "线束",
+      "primary": true,
+      "how_described": "本集说 harness 是模型之外的一切：工具、上下文窗口、记忆、检索、护栏——「这个马具就是身体」，且「如果你不拥有你的 harness,你就不拥有你的记忆」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            385.593,
+            387.154
+          ],
+          "quote": "This is the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            398.337,
+            408.681
+          ],
+          "quote": "So the agent, think of it as the model, little brain floating in a glass jar, plus this harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            409.381,
+            411.182
+          ],
+          "quote": "This harness is the body.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            987.876,
+            998.206
+          ],
+          "quote": "And so what I'm saying to you today is the Oracle AI database is the best place to store this agent memory that's going to power your harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            998.607,
+            1003.352
+          ],
+          "quote": "Remember, your harness is your body, and that memory is your central nervous system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1069.615,
+            1073.897
+          ],
+          "quote": "Memory is the thing that becomes non-negotiable in an agent's harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1100.149,
+            1107.192
+          ],
+          "quote": "Harrison Chase said, your harness, your memory, and if you don't own your harness, you don't own your memory, which is key.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集称记忆是智能体的中枢神经系统、harness 中不可妥协的部分，分五种类型（短期/长期/情景/程序性/语义），需按类型选择存储位置",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            339.328,
+            341.068
+          ],
+          "quote": "Memory, huh.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            343.289,
+            354.211
+          ],
+          "quote": "And if you're thinking, but wait, okay, memory, you just said that the model's kind of like the brain of the operation, hold tight, we're gonna talk a little bit more about memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            418.263,
+            430.088
+          ],
+          "quote": "That memory, that's the part of the central nervous system, and you remember the central nervous system connects the brain to the rest of the body, legs, arms.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            440.387,
+            441.728
+          ],
+          "quote": "What I needed was memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            441.968,
+            446.129
+          ],
+          "quote": "Okay, so there are a number of memory types.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            452.432,
+            454.033
+          ],
+          "quote": "The first one is short-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            457.074,
+            469.059
+          ],
+          "quote": "And so if you're storing memory of an AI process, that is, the short-term memory is if you're with chat, Claude Code, right, Codex, pick your poison.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            469.799,
+            473.58
+          ],
+          "quote": "The long-term memory is what persists across sessions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            475.581,
+            486.604
+          ],
+          "quote": "Episodic memory, hmm, what happened the last time I interacted with fill-in-the-blank?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            486.804,
+            488.084
+          ],
+          "quote": "That's your episodic memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            489.205,
+            494.046
+          ],
+          "quote": "Procedural memory, tools, steps that were taken.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            495.838,
+            497.54
+          ],
+          "quote": "And then finally, semantic memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            497.9,
+            500.663
+          ],
+          "quote": "And semantic memory, because we're talking enterprise agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            519.724,
+            522.945
+          ],
+          "quote": "Okay, so these are the memory types.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            523.605,
+            532.567
+          ],
+          "quote": "Now, when you're defining this real enterprise agent in this memory, there's something you need to consider, where to store it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            792.447,
+            798.91
+          ],
+          "quote": "And so now, if you want to store your memory somewhere, you can store it in a file system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            800.411,
+            807.234
+          ],
+          "quote": "You can store it in Claude or ChatGPT because we all know about the memory.md file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            928.206,
+            930.046
+          ],
+          "quote": "You want your memory to be immutable?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            954.854,
+            961.219
+          ],
+          "quote": "So now when we take this and we talk about the agent, I want to be able to store my long-term and procedural memory in relational.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            962.04,
+            964.962
+          ],
+          "quote": "In JSON, I want to store my short-term and my long-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            971.827,
+            977.812
+          ],
+          "quote": "My episodic and semantic memory, I need to do some vector and then store it also as text.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            987.876,
+            998.206
+          ],
+          "quote": "And so what I'm saying to you today is the Oracle AI database is the best place to store this agent memory that's going to power your harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            998.607,
+            1003.352
+          ],
+          "quote": "Remember, your harness is your body, and that memory is your central nervous system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1006.328,
+            1011.409
+          ],
+          "quote": "So the problem that I had, we solved it with a memory broker named Poly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1011.949,
+            1013.449
+          ],
+          "quote": "We used agent memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1027.846,
+            1039.871
+          ],
+          "quote": "So if one context window had procedural memory, episodic memory, information about the long-term memory, that was then shared with the other folks on the team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1069.615,
+            1073.897
+          ],
+          "quote": "Memory is the thing that becomes non-negotiable in an agent's harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1083.242,
+            1091.127
+          ],
+          "quote": "And the thing that it says is, it is saying that its in-house data agent actually needs memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1091.247,
+            1098.711
+          ],
+          "quote": "Memory was crucially important to ensure that its agent was able to filter correctly instead of trying to string match.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1100.149,
+            1107.192
+          ],
+          "quote": "Harrison Chase said, your harness, your memory, and if you don't own your harness, you don't own your memory, which is key.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1108.132,
+            1111.914
+          ],
+          "quote": "And then, I'm sure you all are wondering, well, Claude has memory, why can't I use that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1112.254,
+            1124.579
+          ],
+          "quote": "Well, it's kind of like file system memory, and it works with one, but just like in my example, when you scale past one, and you're gonna scale past one in the enterprise, it creates a problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1126.642,
+            1131.104
+          ],
+          "quote": "Oracle has a Oracle Agent Memory Package.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1132.025,
+            1133.806
+          ],
+          "quote": "PIP install Oracle Agent Memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1136.027,
+            1147.873
+          ],
+          "quote": "And this memory is this SDK that we have is the thing that will hold your live conversations, your memories, your facts, and figure out what is worth keeping.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1153.002,
+            1155.743
+          ],
+          "quote": "Can share his context with Polly, our memory broker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1156.483,
+            1158.784
+          ],
+          "quote": "We use the Oracle Agent Memory SDK.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1182.297,
+            1186.121
+          ],
+          "quote": "Shared memory on an Oracle AI database makes teams faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1197.693,
+            1202.961
+          ],
+          "quote": "For agent memory, file systems stored in a database file system or in the database.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集说上下文窗口是「提示词里的内容」，是 harness 的一部分；团队协作问题正是「提交了代码，但没有提交他们来自 Codex 的上下文」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            333.406,
+            335.186
+          ],
+          "quote": "The context, that's a context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1027.846,
+            1039.871
+          ],
+          "quote": "So if one context window had procedural memory, episodic memory, information about the long-term memory, that was then shared with the other folks on the team.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说护栏是企业智能体 harness 的重要组成——「我知道开发者不在乎安全，但我为最安全的数据库公司工作，所以我在乎」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            382.254,
+            384.676
+          ],
+          "quote": "But guardrails is also important.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "retrieval",
+      "type": "concept",
+      "role": "concept",
+      "name": "检索 (retrieval)",
+      "file": "检索",
+      "primary": true,
+      "how_described": "本集把检索列为 harness 组件之一：「因为你不想把所有东西都取回来，所以要能够取回正确的信息」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            356.192,
+            362.413
+          ],
+          "quote": "Retrieval, because you don't want to get everything back, so that's being able to retrieve the right information back.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说 Oracle 内部用 Codex 做 AI 编程，荷兰团队凌晨提交代码却没提交 Codex 里的上下文，导致团队生产力问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            163.84,
+            169.622
+          ],
+          "quote": "They checked in the code, but they didn't check in their context from Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            169.642,
+            170.922
+          ],
+          "quote": "We use Codex at Oracle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            457.074,
+            469.059
+          ],
+          "quote": "And so if you're storing memory of an AI process, that is, the short-term memory is if you're with chat, Claude Code, right, Codex, pick your poison.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "git",
+      "type": "concept",
+      "role": "concept",
+      "name": "Git",
+      "file": "Git",
+      "primary": true,
+      "how_described": "本集金句：「Git 记录的是代码，而不是人类意图」——GitHub 不追踪上下文，仓库分叉，于是需要协作层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            225.298,
+            228.339
+          ],
+          "quote": "Because Git records the code and not human intent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            436.531,
+            438.992
+          ],
+          "quote": "So you remember my problem with Git?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集转述 OpenAI 关于其内部数据智能体的论文：「记忆对于确保它的智能体能够正确过滤、而不是尝试字符串匹配来说至关重要」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 250,
+          "t": [
+            1079.42,
+            1082.882
+          ],
+          "quote": "This first one is from OpenAI, and it's about its in-house data agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集说 Claude 自带的记忆更像文件系统记忆，「只能和一个实例配合工作，扩展超过一个就会产生问题」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            457.074,
+            469.059
+          ],
+          "quote": "And so if you're storing memory of an AI process, that is, the short-term memory is if you're with chat, Claude Code, right, Codex, pick your poison.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            800.411,
+            807.234
+          ],
+          "quote": "You can store it in Claude or ChatGPT because we all know about the memory.md file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1108.132,
+            1111.914
+          ],
+          "quote": "And then, I'm sure you all are wondering, well, Claude has memory, why can't I use that?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "neo4j",
+      "type": "company",
+      "role": "company",
+      "name": "Neo4j",
+      "file": "Neo4j",
+      "primary": false,
+      "how_described": "本集故事里开发者为找关联关系装了 Neo4j，导致 DBA 每周的会议从一个涨到六个",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            726.455,
+            728.936
+          ],
+          "quote": "Yeah, they installed Neo4j.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vector-database",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量数据库 (vector database)",
+      "file": "向量数据库",
+      "primary": false,
+      "how_described": "本集把向量数据库列为智能体需访问的四种数据存储之一，并质疑多库并存时「你的唯一真相来源在哪里」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            755.202,
+            756.523
+          ],
+          "quote": "We've got a vector database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            769.116,
+            781.468
+          ],
+          "quote": "So if data is in an Oracle database, if then it's also in an unstructured JSON database, if it's in a graph database, and it's in a vector database, where is your single source of the truth?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            852.854,
+            855.079
+          ],
+          "quote": "You are my vector database.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "poly",
+      "type": "concept",
+      "role": "concept",
+      "name": "Poly",
+      "file": "Poly",
+      "primary": true,
+      "how_described": "本集说 Poly 是他们用来解决团队协作问题的「记忆代理」：追踪上下文并把程序性、情景、长期记忆跨 fork 共享给团队成员",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 236,
+          "t": [
+            1004.387,
+            1005.627
+          ],
+          "quote": "Okay, back to Poly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1006.328,
+            1011.409
+          ],
+          "quote": "So the problem that I had, we solved it with a memory broker named Poly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1018.211,
+            1026.973
+          ],
+          "quote": "So with my team, they were able to share not just their code, but Poly also kept track of the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1148.413,
+            1151.635
+          ],
+          "quote": "So if we look at Poly, now Kevin",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "oracle-agent-memory-package",
+      "type": "concept",
+      "role": "concept",
+      "name": "Oracle Agent Memory Package",
+      "file": "Oracle Agent Memory Package",
+      "primary": true,
+      "how_described": "本集说这是 Oracle 的落地产品：「PIP install Oracle Agent Memory」即可获得，SDK 保存实时对话、记忆、事实并判断哪些值得保留",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 257,
+          "t": [
+            1126.642,
+            1131.104
+          ],
+          "quote": "Oracle has a Oracle Agent Memory Package.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "oracle-ai-database",
+      "type": "concept",
+      "role": "concept",
+      "name": "Oracle AI 数据库 (Oracle AI database)",
+      "file": "Oracle AI 数据库",
+      "primary": true,
+      "how_described": "本集称其为「存储智能体记忆的最佳场所」——任何数据类型、任何工作负载、任何地方（AWS、GCP、Azure、OCI、本地）都能存；收尾金句「Oracle AI 数据库上的共享记忆让团队更快」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 234,
+          "t": [
+            987.876,
+            998.206
+          ],
+          "quote": "And so what I'm saying to you today is the Oracle AI database is the best place to store this agent memory that's going to power your harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1182.297,
+            1186.121
+          ],
+          "quote": "Shared memory on an Oracle AI database makes teams faster.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LangChain",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

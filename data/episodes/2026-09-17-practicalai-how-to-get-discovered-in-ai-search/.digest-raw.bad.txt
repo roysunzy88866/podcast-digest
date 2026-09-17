@@ -1,0 +1,137 @@
+===标题===
+让品牌被 ChatGPT 主动提起：AI 可见性的机制与打法
+===导语===
+Discover Labs 联合创始人 Liam Dunne 与 Ben Moore 拆解品牌如何出现在 ChatGPT 等 AI 答案引擎里：内部机制、统计度量与实操打法。
+===正文>
+> 【背景】原转写稿把 ChatGPT 误写为 ChatGeepti/ChatBeti/ChattingTee 等、Gemini 误为 Gemrite、Claude 误为 Cloud、Anthropic 误为 Anthropix,均为语音识别错误，正文已直接改用正确名称。ProFound 是一款 AI 可见性追踪工具(转写稿中作 ProFound)。
+
+人们的搜索正在从 Google 挪进 ChatGPT 这类答案引擎——而品牌的可见性玩法，正在被重新定义。这一期 Practical AI 播客请来的是 Discover Labs 的两位联合创始人：Liam Dunne 负责营销侧，Ben Moore 负责工程与研究侧，他们做的是「AI 搜索可见性」服务——让品牌不只排在 Google 结果顶部，还以希望的方式出现在 LLM 的回答里。他们带来的最颠覆的判断是：你在 ChatGPT 答案里看到的那个引用，其实只是冰山一角——模型在给出引用之前，已经用了一大堆**没有被引用**的来源来形成答案，所以「抢最终引用」根本不是完整的游戏。
+
+## SEO 没死，但战场变了
+
+Liam 的立场很明确：「你不会听到我说 SEO 已死。」自然搜索的工作其实还是同样三份：站内(照看好自己的网站)、站外(建立品牌权威)、技术层(让 Google 和智能体能访问并理解你的网站)。变的是**战术优先级**——同样是做内容、建品牌、优化技术，针对 Google 排第一和针对 ChatGPT 露脸，打法不同 [04:30 Liam Dunne]。
+
+买家的行为确实变了。以前人们在你的网站上消化信息，现在是「**LLM 就是新的网站访客**」——它把你的内容咀嚼一遍，再吐回给用户，于是你失去了那些点击，「零点击研究」被 AI 大幅加速 [06:56 Liam Dunne]。这带来一个根本问题：以前网站的每一处都为人类访客优化(导航、转化率、用户体验)，现在来爬你网站的是智能体——它们要什么？你的网站要处于什么状态它们才能读懂你？Liam 甚至提到，已有公司在做「一个版本给人类、一个版本给智能体」的网站。
+
+## LLM 内部发生了什么：四大支柱
+
+Ben 把「品牌怎么会在答案里出现」拆成了机制链条：提示词被分词、嵌入，模型基于训练权重做推理，然后访问一系列工具——其中关键是**检索引擎**：它把查询「扇出」成一组子查询，拉回一批候选来源(比如 60 个槽位)，再经过类似 DeepMind 提出的共识式算法清洗——用多数投票挑出各来源一致的「蒸馏上下文」，最后才从这个干净的上下文生成回答并决定引用谁 [19:48 Ben Moore]。
+
+所以他认为，要主导你的领域，必须看全部**四大支柱**：①**权重**(你以什么方式「烙」在训练数据里)；②**推理**(模型在围绕你的领域做决策时的内部标准)；③**检索**(查询扇出时你能不能被抓到)；④**响应**(最终回答里你有没有被引用、提及)。「只盯着最终输出的引用和提及，而忽视到达那里之前的一整串环节，是大多数人的盲区」[21:03 Ben Moore]。
+
+## 度量：把答案引擎当灰盒，别当黑盒
+
+传统 SEO 像按数字填色：关键词有限、排名基本确定，除非 Google 核心更新。而现在这个系统里有了真正的**随机性**——Ben 指出两个来源：GPU 的浮点误差，以及刻意设置的生成温度；再加上模型厂商开始对 LLM 输出做指纹识别(后台哈希，追踪内容来源)[18:35 Ben Moore]。
+
+他的核心主张是：用统计学家的方式对待它——「LLM 智能体本质上是灰盒，不是黑盒」，网络流量里有线索，蒸馏模型里能反推训练数据信息，你要做的是搭一套实验流水线，把引用率、提及率、声量份额这些指标的不确定性压到比如 5% 的误差范围以内 [12:00 Ben Moore]。而现实是「行业里没人真正在做这件事，甚至没人真正在思考」——大家买个 ProFound 之类的工具，输入几个提示词，看到数字涨了就欢喜。他毒舌地总结：SEO 行业有种不可思议的能力，「指着上涨的数字说是自己的功劳，指着下跌的数字说是 Google 核心更新」，大量营销工时就浪费在不具统计显著性的波动上 [13:12 Ben Moore]。
+
+## Reddit:被引用少，作用却大
+
+「你需要一个 Reddit 策略」是圈内的流行说法。Ben 团队对 ChatGPT 检索引擎的研究发现：它把大约三分之一的检索槽位留给 Reddit——找到相关帖子就注入上下文；但**其中大多数在引用时被拒绝了**：Reddit 用来给模型提供依据、塑造思考，最终引用却往往给了别的来源。也就是说，假设 20 个来源里 10 个 Reddit + 1 个 TechCrunch 说的是同一件事，答案可能基于 11 个来源形成，却只引用 TechCrunch [30:23 Ben Moore]。此外 Reddit 内容还进入训练本身——大约在 RLHF 阶段，是「黄金训练数据」[28:48 Ben Moore]。结论：引用量下降不等于 Reddit 不重要——它是引擎上的一个信号，但不是全部；想推动品牌叙事，四面(推理、检索、响应、权重)都要看。
+
+另一个反直觉发现：**点赞数和引用没有相关性**。他们观察到，从 Reddit 被抽取的段落经常在页面中下部、评论只有一两个赞——因为**那段话本身相关**，包含了查询扇出里那些实体。至于未来点赞、账号历史会不会被加权，不好说——这始终是模型厂商和营销人之间的猫鼠游戏 [44:41 Liam Dunne]。
+
+## 怎么做：相关性、共识、一致性
+
+Liam 把给客户的打法总结成三个词：
+
+- **相关性**：源头是想清楚「你想被哪些词关联」「你到底做什么，又怎么翻译成买家会搜的语言」。他做付费广告时的心得是：营销做得好的公司都有清晰的 ICP(理想客户画像)、能把产品映射成清晰的信息传递。这也是确保你在查询扇出里被 LLM 撞上的前提。别忘了长尾红利——买家会把行业、营收、集成要求、商业模式全部预先塞进提示，创造了超长尾的查询分布，「长尾的好处是竞争更少」——你做不过 HubSpot 对 Google 金钱关键词的垄断，但可以做它没覆盖的超细分查询 [24:32 Liam Dunne]。
+- **共识**：你的内容只是「掷帽入场」，共识是所有信任票。问在哪发力，他的答案是「处处都发——这本质是预算和时间约束」。他们看好 Reddit(很多 B2B 公司不懂得做好，所以有信息差)、数字 PR、社交渠道；被枪抵着头只能选一个，他押 **YouTube**——原生搜索渠道、Google 所有 [41:17 Liam Dunne];SaaS 行业还要经营 G2 这类评价平台。反共识的负面信息(比如多处发布的差评)要防积累。
+- **一致性**：全渠道用同一套词描述自己——Reddit、YouTube、LinkedIn、官网、博客都一样，因为这些词要被嵌入模型和世界。与外链时代的关键对比：以前一个勾选框是「拿到一条 do follow 链接」；现在**围绕你实体的那段描述文字更重要，哪怕那条链接不存在**——「如果 LLM 选中这段话放进答案里，我们有没有被放在有竞争力的位置？」要按这个标准写 [42:38 Liam Dunne]。
+
+Ben 补了权重侧的细节：权重里嵌入的是**事实准确性、情感和共现**——训练时注意力函数把你的品牌和哪些实体绑定在一起，决定了引用时刻谁更容易一起被想起；这相当于知识图谱的嵌入形态。还有个实操怪招：**空白地带几乎随便占**——某些行业讳莫如深的定价，你发布一个方向大致正确的数字，效果「好得离谱」，因为 LLM 不想编造，空白它就会引用你；竞争对手没讲的领域同理 [35:11 Ben Moore]。他做分析时甚至发现 ProFound 自己在模型评分里呈现负面情感——品牌名字是否是词典已有的英文单词、有没有负面联想，都会影响模型对你的态度。
+
+## 下一个前沿：从「只读」到「读写」
+
+两位对未来的判断高度一致：智能体正在从**爬取你的网站读信息**，走向**在你的网站上执行操作**。已有客户报告「上周有个 AI 智能体自己预约了一次演示」；有的客户每周数万转化，大量用户从命令行来——智能体像一支私人采购队，不只推荐工具，而是「我帮你装好了，可以直接用了」[49:29 Liam Dunne]。网站几十年来为人类优化，人类能忍受慢加载和烂表单，智能体不会等。Ben 的说法是「从只读环境到读写环境」，因为对买家来说这始终是笔更好的交易——「不用填表单、不用挑日历时段，交易更好」；他预计它会像很多技术一样「很慢很慢，然后一夜之间爆发」[50:06 Ben Moore]。
+
+另一个趋势：权重会变得比单次上下文窗口重要得多。训练周期在大幅缩短——以前 ChatGPT 九到十二个月才升级一版，现在顶层每周到双周就在重训，主干约三个月一轮；「能影响或印记进那些 token,价值比出现在单个上下文窗口里高出数量级」[52:10 Ben Moore]。但门槛也在抬高：厂商出于避免「模型坍塌」(在自己生成的 AI 内容上训练导致退化)和监管、IP 多重考虑，正在用指纹识别和哈希函数清理 AI 生成内容，保护「人类水平的上下文」——在 Reddit 发一条 AI 生成的评论，一查哈希就会暴露。Liam 的总结是：「归根结底，品牌是最终的护城河」[47:27 Liam Dunne]。
+
+## 本集带走
+
+- **别只盯最终引用**：AI 可见性有四大支柱——训练权重、模型推理、检索、响应。Reddit 常常被用来形成答案却不被引用，「引用量下降」不等于「失去影响」。
+- **像统计学家一样度量**：把 LLM 当灰盒，搭实验流水线，把引用率/提及率/声量份额的不确定性压到 5% 以内；别为不显著的波动兴奋或恐慌。
+- **三个词打法：相关性、共识、一致性**——清晰的信息传递保证你在查询扇出里被检索到；各处信任票构成共识；全渠道统一的措辞帮你的实体被正确嵌入模型。
+- **长尾是中小品牌的机会**：买家把约束全塞进提示，创造了大玩家没覆盖的超细分查询，竞争更少。
+- **Reddit 靠内容相关，不靠点赞**：被抽取的评论常常只有一两个赞——把买家查询里的实体写进内容里才是关键。
+- **空白地带先占先赢**：行业里没人公开的信息(如定价)，发布方向正确的数字就很可能被 LLM 引用。
+- **准备读写时代的网站**：智能体已在自主预约演示、下单安装。网站要能让智能体顺利访问、理解和**操作**，而不只是好看。这是还没多少人抢的前沿。
+
+===金句===
+06:56 | Liam Dunne
+EN | But if people are consuming information inside an LLM, the LLM is the new website visitor.
+ZH | 但如果人们是在 LLM 内部消化信息，那么 LLM 就是新的网站访客。
+
+13:12 | Ben Moore
+EN | And then the SEO industry has like an incredible ability to point at numbers going up and claim that it was them, and then has an also incredible ability to point at a number that's going down and claim its Google core update.
+ZH | SEO 行业有种不可思议的能力：指着上涨的数字宣称是自己的功劳，同时也有一种不可思议的能力，指着下跌的数字宣称是 Google 核心更新。
+
+12:00 | Ben Moore
+EN | Essentially, lot of these LLM agents are essentially gray boxes. They're not totally black boxes.
+ZH | 从本质上说，很多这些 LLM 智能体本质上是灰盒。它们不完全是黑盒。
+
+18:09 | Ben Moore
+EN | And the second source of randomness is the actual temperature itself, like deliberate temperature randomness that generates the next token.
+ZH | 第二个随机性来源是温度本身，就是生成下一个 token 时刻意引入的温度随机性。
+
+19:48 | Ben Moore
+EN | Essentially, it's doing now, trying to see like, well, what is the consensus so I can basically use majority voting systems so I don't make a mistake or I don't come up with a solution.
+ZH | 它现在本质上是在看共识是什么，这样它就可以用多数投票的方式，避免犯错或者得不出答案。
+
+21:03 | Ben Moore
+EN | But you really need to be looking across all of those four pillars in order to dominate your domain. That's how we look at it for all of our clients.
+ZH | 但你真的需要审视所有这四大支柱，才能主导你的领域。这就是我们为所有客户看待它的方式。
+
+22:29 | Liam Dunne
+EN | Because Us marketers just ruin everything.
+ZH | 因为我们这些营销人员毁掉了一切。
+
+24:32 | Liam Dunne
+EN | Now, great thing about long tails is they're less competitive.
+ZH | 长尾的好处是竞争更少。
+
+25:45 | Liam Dunne
+EN | Everyone starts using those tactics. Law of shitty click throughs kicks in, and so then they diminish.
+ZH | 每个人都开始用那些战术，糟糕点击率法则生效，然后它们就失效了。
+
+26:01 | Liam Dunne
+EN | SEO is just exploiting Google systems.
+ZH | SEO 本质上就是在利用 Google 的系统。
+
+28:48 | Ben Moore
+EN | And that's basically golden training data for that.
+ZH | 那基本上就是这方面的黄金训练数据。
+
+35:11 | Ben Moore
+EN | We found this works like insanely well if you publish numbers that are even like yards directionally correct because there's blank space and the LLM doesn't want to hallucinate, essentially.
+ZH | 我们发现如果你发布方向上大致正确的数字，效果会好得离谱——因为存在空白地带，而 LLM 本质上不想产生幻觉。
+
+36:22 | Ben Moore
+EN | So when these models are trained, going back to the weight side of things, it's all about co occurrence, right?
+ZH | 所以回到权重那一面，当这些模型被训练时，一切都是关于共现的，对吧？
+
+41:17 | Liam Dunne
+EN | If I was to, you know, gun to my head, where should I focus? I'd bet on YouTube.
+ZH | 如果枪抵着我的脑袋让我选聚焦点，我会押 YouTube。
+
+42:38 | Liam Dunne
+EN | In AI search, I actually think the blurb surrounding, even if that link didn't exist, the blurb surrounding you as an entity is far more important because like who are you as a company?
+ZH | 在 AI 搜索中，我实际上认为围绕你这个实体的描述文字更重要——哪怕那条链接不存在——因为作为一家公司，你到底是谁？
+
+44:41 | Liam Dunne
+EN | What we have seen highest correlation with is the actual content itself, right?
+ZH | 我们看到相关性最高的，是实际内容本身。
+
+47:27 | Liam Dunne
+EN | And ultimately, brand is the final moat.
+ZH | 归根结底，品牌是最终的护城河。
+
+50:06 | Ben Moore
+EN | Yeah, definitely, as Liam said, the agents, I just think it's moving from like a, I always describe it as like a read only environment to a read write environment is where we're headed.
+ZH | 是的，正如 Liam 说的，关于智能体，我只是认为我们正从一个——我总把它描述为——只读环境走向一个读写环境。
+
+52:10 | Ben Moore
+EN | And so they are more influenceable. And if you can get influence or imprint in those tokens, it's worth, like, orders of magnitude more than being in a in a in single context window.
+ZH | 所以它们更容易被影响。如果你能影响或把印记留在那些 token 里，价值比出现在单个上下文窗口里高出数量级。
+
+===END===

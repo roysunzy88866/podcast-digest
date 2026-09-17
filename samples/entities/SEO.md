@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SEO</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SEO">SE</div><div class="pi"><h1 class="pt">SEO</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SEO">SE</div><div class="pi"><h1 class="pt">SEO</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,10 +17,11 @@ unlisted: true
 - **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]]**(18:48起):本集说网络上存在一类迎合懒惰人类并在 SEO 上取得成功的内容，把权威信息提取到加载快的首屏，对人类有用但对智能体是噪音
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(18:48起):本集说前 AI 时代存在大量迎合懒人同时做 SEO 成功的聚合页面，而内容方会继续花钱做 SEO 吸引人类流量但同时切断智能体访问
 - **[[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]]**(32:06起):本集直说:随着 10 条蓝色链接时代终结,排名和 SEO 已不再重要,旧的 SEO 手册对智能体商务的未来行不通,必须发明新的商业模式。
+- **[[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]]**(03:07起):本集认为 SEO 没死，只是领域变大了：站内、站外、技术三份工作不变，变的是战术优先级；但行业缺统计素养，多在不显著的波动上浪费工时。
 
 ## ① 提到它的金句
 
-*3 条*
+*5 条*
 
 ![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q6]]
 
@@ -28,9 +29,13 @@ unlisted: true
 
 ![[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill#^q6]]
 
+![[2026-09-17-practicalai-how-to-get-discovered-in-ai-search#^q2]]
+
+![[2026-09-17-practicalai-how-to-get-discovered-in-ai-search#^q4]]
+
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念(提及)
@@ -38,14 +43,15 @@ unlisted: true
 - [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为概念(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为概念(提及)
 - [[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|《AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌》]] — 作为概念
+- [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Google]] · [[ChatGPT]] · [[推理]] · [[智能体]] · [[爬取]] · [[OpenAI]] · [[Lenny]] · [[Andrew]] · [[Cloudflare]] · [[LLM]]
+[[Google]] · [[ChatGPT]] · [[智能体]] · [[OpenAI]] · [[LLM]] · [[推理]] · [[爬取]] · [[Lenny]] · [[HubSpot]] · [[Andrew]]
 
-<script type="application/json" class="pd-epn">{"Google":43,"ChatGPT":66,"推理":46,"智能体":253,"爬取":3,"OpenAI":116,"Lenny":67,"Andrew":3,"Cloudflare":9,"LLM":32}</script>
+<script type="application/json" class="pd-epn">{"Google":44,"ChatGPT":67,"智能体":257,"OpenAI":118,"LLM":33,"推理":46,"爬取":3,"Lenny":67,"HubSpot":7,"Andrew":3}</script>
 
 <script>
 (function(){

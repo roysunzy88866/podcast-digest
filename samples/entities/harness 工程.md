@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>harness 工程 (harness engineering)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="harness 工程">HA</div><div class="pi"><h1 class="pt">harness 工程 (harness engineering)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="harness 工程">HA</div><div class="pi"><h1 class="pt">harness 工程 (harness engineering)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|《Harness 工程：让智能体零人工写代码的实操》]]**(02:15起):本集将其说成一种组合'给什么上下文'和'给什么工具'两个杠杆的方法体系，目标是让智能体在没有人工干预的情况下闭环产出可合并的代码，并且用工具调用本身来做提示词注入以管理上下文窗口
+- **[[2026-09-14-talks-harness-engineering-building-the-product|《Harness 工程：把智能体部署到云端规模》]]**(00:29起):本集主线概念:harness = 把智能体里的模型部分拿掉剩下的所有东西——循环、记忆、技能、工具、MCP、运行时、上下文管理、可观测性与评估;让每个组件可独立扩展就是 harness 工程的本体。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|《Harness 工程：让智能体零人工写代码的实操》]] — 作为概念
+- [[2026-09-14-talks-harness-engineering-building-the-product|《Harness 工程：把智能体部署到云端规模》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Guy Fajani]] · [[Ryan Lopopolo]] · [[Codex]] · [[OpenAI]] · [[智能体]] · [[提示词注入]] · [[护栏]] · [[上下文工程]] · [[Symfony]] · [[规范]]
+[[智能体]] · [[MCP]] · [[Guy Fajani]] · [[Mike Chambers]] · [[Ryan Lopopolo]] · [[Bedrock AgentCore]] · [[Codex]] · [[记忆]] · [[OpenAI]] · [[多租户隔离]]
 
-<script type="application/json" class="pd-epn">{"Guy Fajani":3,"Ryan Lopopolo":1,"Codex":48,"OpenAI":116,"智能体":253,"提示词注入":12,"护栏":48,"上下文工程":12,"Symfony":1,"规范":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":257,"MCP":44,"Guy Fajani":3,"Mike Chambers":1,"Ryan Lopopolo":1,"Bedrock AgentCore":1,"Codex":49,"记忆":12,"OpenAI":118,"多租户隔离":1}</script>
 
 <script>
 (function(){

@@ -7,27 +7,37 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Eve</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Eve">EV</div><div class="pi"><h1 class="pt">Eve</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Eve">EV</div><div class="pi"><h1 class="pt">Eve</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(06:17起):本集说这是 Vercel 推出的 AI 智能体框架，底层用开源 chat SDK，是部署 Slack/GitHub 智能体最简单的方式。
 - **[[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v|《Vercel 构建「每桌一个智能体」：从失败的多智能体到文件系统智能体》]]**(12:45起):本集说 Eve 是两周前发布的开源智能体框架，被称为「智能体的 Next.js」：建 skills/tools/channels 文件夹即可声明一个智能体，自带可观测性，可部署到 Vercel。
+- **[[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]]**(00:26起):本集主题：Vercel 新开源的云原生智能体框架，用声明式目录（instructions.md 等）定义智能体，配置编译成基础设施即代码，主打多人云端、可隔离可恢复的会话。
+
+## ① 提到它的金句
+
+*2 条*
+
+![[2026-09-17-sed-scaling-agent-workloads-at-vercel#^q2]]
+
+![[2026-09-17-sed-scaling-agent-workloads-at-vercel#^q4]]
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为概念
 - [[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v|《Vercel 构建「每桌一个智能体」：从失败的多智能体到文件系统智能体》]] — 作为概念
+- [[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Vercel]] · [[智能体]] · [[沙箱]] · [[Claire]] · [[Andrew Qu]] · [[Intercom]] · [[Claude Code]] · [[ChatPRD]] · [[Opus 4.5]] · [[Codex]]
+[[Vercel]] · [[智能体]] · [[沙箱]] · [[Slack]] · [[技能]] · [[Next.js]] · [[Claire]] · [[Andrew Qu]] · [[Andrew Barba]] · [[Intercom]]
 
-<script type="application/json" class="pd-epn">{"Vercel":16,"智能体":253,"沙箱":49,"Claire":3,"Andrew Qu":1,"Intercom":6,"Claude Code":61,"ChatPRD":5,"Opus 4.5":2,"Codex":48}</script>
+<script type="application/json" class="pd-epn">{"Vercel":17,"智能体":257,"沙箱":50,"Slack":26,"技能":16,"Next.js":2,"Claire":3,"Andrew Qu":1,"Andrew Barba":1,"Intercom":6}</script>
 
 <script>
 (function(){

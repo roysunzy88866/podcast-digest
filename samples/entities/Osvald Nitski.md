@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Mercor":1,"智能体":253,"开源":22,"RL 环境":3,"编码智能体":13,"评估":2,"机器人":5,"合成数据":5}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Mercor":1,"智能体":257,"开源":22,"RL 环境":3,"编码智能体":13,"评估":2,"机器人":5,"合成数据":5}</script>
 
 <script>
 (function(){

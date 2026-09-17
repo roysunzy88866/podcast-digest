@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]]
+[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":12,"OpenAI":116,"ChatGPT":66,"GitLab":1,"StarCloud":3,"Reddit":5,"AGI":22,"推理":46,"图灵测试":2}</script>
+<script type="application/json" class="pd-epn">{"YC":12,"OpenAI":118,"ChatGPT":67,"GitLab":1,"StarCloud":3,"Reddit":6,"AGI":22,"推理":46,"图灵测试":2}</script>
 
 <script>
 (function(){

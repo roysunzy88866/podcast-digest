@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-15-talks-realtime-voice-agents-with-frontier-inte",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/MBHOH1NmDqc.m4a",
+  "duration_sec": 772.195,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 140,
+  "asr": true,
+  "title_en": "Realtime Voice Agents with Frontier Intelligence — Bohan Li, EliseAI",
+  "podcast": "精选演讲",
+  "date": "2026-09-15",
+  "added": "2026-09-17",
+  "added_at": "2026-09-17T12:30:23.512Z",
+  "speaker_map": {
+    "SPEAKER_02": "Bohan Li"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Bohan Li"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "让语音智能体又快又聪明：Elise AI 的级联架构",
+  "guest_name": "Bohan Li",
+  "guest_title": "Elise AI",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

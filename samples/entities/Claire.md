@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Tobi Lütke]] [[Bohan Li]] [[Aaron Levie]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":48,"智能体":253,"Intercom":6,"Ryan Carson":1,"Muse":1,"ChatPRD":5,"Devon":3,"Meta":32,"Vercel":16,"Cognition":17}</script>
+<script type="application/json" class="pd-epn">{"Codex":49,"智能体":257,"Intercom":6,"Ryan Carson":1,"Muse":1,"ChatPRD":5,"Devon":3,"Meta":32,"Vercel":17,"Cognition":17}</script>
 
 <script>
 (function(){

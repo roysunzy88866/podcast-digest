@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"系统提示词":4,"gpt 5.6":1,"Fable":9,"Anthropic":124,"open ai":2,"Codex":48,"智能体":253,"提示词":14,"原型":5,"浏览器使用":7}</script>
+<script type="application/json" class="pd-epn">{"系统提示词":5,"gpt 5.6":1,"Fable":9,"Anthropic":124,"open ai":2,"Codex":49,"智能体":257,"提示词":14,"原型":5,"浏览器使用":7}</script>
 
 <script>
 (function(){

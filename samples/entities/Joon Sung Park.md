@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Simile":1,"智能体":253,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":9,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Simile":1,"智能体":257,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":12,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
 
 <script>
 (function(){

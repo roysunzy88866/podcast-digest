@@ -1,0 +1,29 @@
+{
+  "id": "2026-09-17-sed-scaling-agent-workloads-at-vercel",
+  "audio_mp3": "https://media.transistor.fm/c7d4938a/29f28e02.mp3",
+  "duration_sec": 3067.257,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 670,
+  "asr": true,
+  "title_en": "Scaling Agent Workloads at Vercel",
+  "podcast": "Software Engineering Daily",
+  "date": "2026-09-17",
+  "added": "2026-09-17",
+  "added_at": "2026-09-17T10:50:45.402Z",
+  "speaker_map": {
+    "SPEAKER_01": "Andrew Barba",
+    "SPEAKER_02": "Shar Dara",
+    "SPEAKER_03": "Kevin Ball"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Andrew Barba",
+  "cohosts": [
+    "Shar Dara",
+    "Kevin Ball"
+  ],
+  "title_zh": "把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve",
+  "guest_name": "Andrew Barba",
+  "guest_title": "Vercel 技术团队成员",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

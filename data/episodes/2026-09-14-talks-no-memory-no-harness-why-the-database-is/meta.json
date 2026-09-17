@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-14-talks-no-memory-no-harness-why-the-database-is",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/jA_x7F8caHI.m4a",
+  "duration_sec": 1278.623,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 291,
+  "asr": true,
+  "title_en": "No Memory, No Harness: Why the Database Is the Last Line of Defense — Kay Malcolm, Oracle",
+  "podcast": "精选演讲",
+  "date": "2026-09-14",
+  "added": "2026-09-17",
+  "added_at": "2026-09-17T12:05:54.958Z",
+  "speaker_map": {
+    "SPEAKER_00": "Kay Malcolm"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Kay Malcolm"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈",
+  "guest_name": "Kay Malcolm",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=none"
+}

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]]
+[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":3,"NVIDIA":35,"Google":43,"TPU":3,"OpenAI":116,"Anthropic":124,"Broadcom":3,"AMD":3,"Gemini":8,"ChatGPT":66}</script>
+<script type="application/json" class="pd-epn">{"David George":3,"NVIDIA":35,"Google":44,"TPU":3,"OpenAI":118,"Anthropic":124,"Broadcom":3,"AMD":3,"Gemini":8,"ChatGPT":67}</script>
 
 <script>
 (function(){

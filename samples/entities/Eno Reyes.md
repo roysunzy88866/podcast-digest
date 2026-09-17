@@ -69,11 +69,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Factory":4,"Anthropic":124,"OpenAI":116,"Microsoft":25,"Meta":32,"NVIDIA":35,"Stripe":31,"OpenRouter":10,"Palantir":16}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Factory":4,"Anthropic":124,"OpenAI":118,"Microsoft":25,"Meta":32,"NVIDIA":35,"Stripe":31,"OpenRouter":10,"Palantir":16}</script>
 
 <script>
 (function(){

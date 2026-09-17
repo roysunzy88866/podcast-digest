@@ -126,8 +126,8 @@ QM 的两个关键设计决策：一是把系统的大脑从沙箱里拉出来�
 **顺着「智能体」挖下去**
 
 - [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生]]<span class="pd-rz">同概念:harness、上下文管理 (context engineering)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-09-17-sed-scaling-agent-workloads-at-vercel|把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve]]<span class="pd-rz">同公司:OpenClaw · 同概念:子智能体 (sub-agents)、智能体 (agent)、沙箱 (sandbox)、技能 (skills)</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Claude Code · 同概念:harness、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:harness、上下文管理 (context engineering)、智能体 (agent)、技能 (skills)</span>
 
 </div>
 <div class="pd-ex">

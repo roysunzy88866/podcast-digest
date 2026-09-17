@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Claire Vo]] [[Peng Zheng]] [[John Bai]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tim Sanders":1,"G2":1,"ChatGPT":66,"Gemini":8,"Claude":58,"OpenAI":116,"Reddit":5,"智能体":253,"AEO":4,"验证层":1}</script>
+<script type="application/json" class="pd-epn">{"Tim Sanders":1,"G2":1,"ChatGPT":67,"Gemini":8,"Claude":59,"OpenAI":118,"Reddit":6,"智能体":257,"AEO":5,"验证层":1}</script>
 
 <script>
 (function(){

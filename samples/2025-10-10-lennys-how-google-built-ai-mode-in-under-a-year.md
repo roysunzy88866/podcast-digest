@@ -204,9 +204,9 @@ AI 也没有取代搜索，它在扩张搜索 <button class="pd-ts" data-t="38:2
 
 **换个口味**
 
+- [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|让品牌被 AI 看见：AEO 实战与研究]]<span class="pd-rz">同公司:Google、ChatGPT · 同概念:查询分流 (query fan-out)</span>
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:Google、ChatGPT · 同概念:Gemini</span>
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:Google、ChatGPT</span>
-- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同公司:Google、ChatGPT</span>
 
 </div>
 </div>

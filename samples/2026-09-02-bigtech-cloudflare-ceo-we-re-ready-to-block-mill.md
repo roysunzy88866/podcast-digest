@@ -151,9 +151,9 @@ Prince 这一年新的担忧从小媒体扩大到小企业。逻辑是：品牌�
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|让品牌被 AI 看见：AEO 实战与研究]]<span class="pd-rz">同公司:Google · 同概念:SEO、智能体 (agent)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Google、Anthropic、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同公司:Cloudflare · 同概念:智能体 (agent)</span>
-- [[2026-07-23-nopriors-building-an-autonomous-delivery-experien|DoorDash 联合创始人：我们其实是一家机器人公司]]<span class="pd-rz">同概念:智能体 (agent)、智能体商务 (agentic commerce)</span>
 
 </div>
 <div class="pd-ex">

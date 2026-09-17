@@ -1,0 +1,1003 @@
+{
+  "episode_id": "2026-09-14-talks-harness-engineering-building-the-product",
+  "podcast": "精选演讲",
+  "date": "2026-09-14",
+  "tags": [
+    "智能体",
+    "harness 工程",
+    "AI 基础设施",
+    "AWS",
+    "无服务器"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "mike-chambers",
+      "type": "person",
+      "role": "guest",
+      "name": "Mike Chambers",
+      "file": "Mike Chambers",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            37.27,
+            42.112
+          ],
+          "quote": "My name's Mike Chambers, and I'm a senior AI specialist developer advocate.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成分两种:「我们使用的」(Claude Code、Cursor、Kiro 等编码/生产力工具)和「我们构建的」(自己开发、部署给大众的智能体),构建型必须为受众认真设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            209.512,
+            211.534
+          ],
+          "quote": "I might build an agent that you use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            213.716,
+            218.521
+          ],
+          "quote": "So token maxing, all that kind of stuff, go for it if that's what you want to do with an agent that you use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            218.761,
+            221.824
+          ],
+          "quote": "But with an agent that you build, think about it carefully.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            294.001,
+            299.663
+          ],
+          "quote": "If you take an agent, remove the model part from it and everything that you have left, that's the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            301.564,
+            305.606
+          ],
+          "quote": "So let's think about that in context of an agent that we use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            353.842,
+            356.302
+          ],
+          "quote": "This is the agent toolkit for AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            370.267,
+            375.433
+          ],
+          "quote": "Grab this toolkit, enable your agent to help you in the right direction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            396.989,
+            405.152
+          ],
+          "quote": "We can ask an agent what's going on, but we don't want to ask the agent to spin up an S3 bucket, get me an EC2 instance, whatever it might be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            405.492,
+            410.895
+          ],
+          "quote": "We want the agent to build up our infrastructure as code, which is going to go and do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            416.62,
+            418.221
+          ],
+          "quote": "Okay, so that's the agent that we use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            418.561,
+            420.723
+          ],
+          "quote": "Now let's go and talk about the agent that we're going to build.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            426.147,
+            430.21
+          ],
+          "quote": "So how do we think about a harness in relation to the agent that we're building?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            442.321,
+            449.386
+          ],
+          "quote": "Because you can pretty much extend an agent to do almost anything you want with a whole bunch of different types of tools, which could be via MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            450.187,
+            463.281
+          ],
+          "quote": "But with an agent that I am building, I need to think about a lot more than just that, especially if, like at Amazon and like at CloudScale, I'm deploying my agent out to the masses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            540.26,
+            541.421
+          ],
+          "quote": "I didn't use an agent for this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            545.832,
+            549.175
+          ],
+          "quote": "So this is a strands agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            549.215,
+            551.417
+          ],
+          "quote": "So I've just taken the strands agent's SDK.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            554.139,
+            555.06
+          ],
+          "quote": "I brought in an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            557.422,
+            558.883
+          ],
+          "quote": "And I'm creating myself an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            605.354,
+            607.816
+          ],
+          "quote": "Let me move on to my next agent quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            608.296,
+            610.638
+          ],
+          "quote": "So this is also a strands agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            617.483,
+            624.928
+          ],
+          "quote": "And so inside of this agent, the one main thing that I want to point out is that I have included a session manager.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            645.482,
+            671.955
+          ],
+          "quote": "So, if I just scroll down here, you can see, yeah, here's the agent definition itself, and we've got a bit more of a system prompt because Kiro couldn't help itself, and we've got some tools here defined, including a remember tool that the agent can decide to use to remember stuff about me, and then I've got my session manager down there, and that session manager is going to rehydrate the conversation history when I come back to chat to it the next time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            736.62,
+            754.985
+          ],
+          "quote": "How do we get to the point where I can deploy something like this, if not this actual agent, out at cloud scale and take things like memory and deploy that separately so it can scale separately, taking our loop out so it can scale separately, and we can then bolt in all kinds of other things as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            776.842,
+            781.505
+          ],
+          "quote": "So I have a command line tool on my machine, the agent core command line.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            786.069,
+            788.831
+          ],
+          "quote": "But I can use this to help me deploy my agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            795.297,
+            797.659
+          ],
+          "quote": "So this is my woohoo agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            807.627,
+            809.668
+          ],
+          "quote": "But I'm saying I wanted to deploy an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            810.008,
+            816.713
+          ],
+          "quote": "And what's going to happen here is this command line tool is actually going to step me through and actually write an entire agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            817.034,
+            820.797
+          ],
+          "quote": "It's basically a hello world agent that I can then go and customize myself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            821.597,
+            825.418
+          ],
+          "quote": "And so using this command line is an easy way to get started with agent core.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            852.385,
+            854.867
+          ],
+          "quote": "Like, how can we actually go and connect into our agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            855.227,
+            859.51
+          ],
+          "quote": "So our agent that's running at scale in the cloud, HTTP is probably the obvious one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            905.154,
+            916.036
+          ],
+          "quote": "But it's basically going to create for us cloud infrastructure, which is going to manage those memories for us separately from our running agent, running asynchronously from our agent and connected, of course.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            919.717,
+            922.998
+          ],
+          "quote": "And it will start to create the configuration of this agent on my machine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            931.084,
+            934.426
+          ],
+          "quote": "And this is the agent that it would be currently deploying, something like this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            937.748,
+            939.67
+          ],
+          "quote": "So, this is a strands agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            942.752,
+            955.314
+          ],
+          "quote": "So it's got the linkage into Amazon Bedrock Agent Core app, but pretty much apart from that, that's all you need in order to be able to scale this agent out at runtime and do multi-tenant isolation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            955.614,
+            963.436
+          ],
+          "quote": "So you can write an agent that works for one user and then scale that out without you having to write all the multi-tenanted code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1015.817,
+            1018.16
+          ],
+          "quote": "I can come back in and type in agent core dev.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1018.72,
+            1029.551
+          ],
+          "quote": "And what that's going to do for me, Wi-Fi permitting, is it will spin up for us a web browser, and inside of that web browser, we're now connected to that agent running locally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1044.324,
+            1050.766
+          ],
+          "quote": "And so, yeah, you can interact with the agent here, you can make adjustments to the code, and you'll see it update live here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1056.707,
+            1065.309
+          ],
+          "quote": "So, with agent core deploy, it will use infrastructure as code, like I talked about before, to deploy your agent out at scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1065.669,
+            1077.218
+          ],
+          "quote": "With the memory, with the agent, with runtime, and with many other components if you choose to do so, you can use this interface then to go and look at traces, look at memory storage, look at all that stuff so that you can debug and see what's going on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1100.226,
+            1109.257
+          ],
+          "quote": "And there's an argument to be made that essentially if that's possible, then maybe 80% of agentic use cases, 80% of agent development's kind of solved already.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1114.844,
+            1118.829
+          ],
+          "quote": "And if that's the case, then we have harness built into agent core.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1119.209,
+            1121.371
+          ],
+          "quote": "This is the configuration for an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1131.34,
+            1134.543
+          ],
+          "quote": "And then this can also be deployed with agent core deploy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1158.497,
+            1161.759
+          ],
+          "quote": "There's a mapping somewhere into something that Agent Core has.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1178.031,
+            1188.799
+          ],
+          "quote": "If you have an agent that's running in production very happily at the moment, but you like the idea of having long-term memory managed for you serverless, then you can just take that part and integrate it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1195.561,
+            1197.462
+          ],
+          "quote": "But Amazon Bedrock Agent Core is that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness 工程 (harness engineering)",
+      "file": "harness 工程",
+      "primary": true,
+      "how_described": "本集主线概念:harness = 把智能体里的模型部分拿掉剩下的所有东西——循环、记忆、技能、工具、MCP、运行时、上下文管理、可观测性与评估;让每个组件可独立扩展就是 harness 工程的本体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            29.005,
+            33.388
+          ],
+          "quote": "I want to come and talk to you all about harness engineering and all that kind of stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            227.089,
+            230.271
+          ],
+          "quote": "So I promised that we're talking about harnesses and harness engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            265.552,
+            269.673
+          ],
+          "quote": "Harness engineering for coding agents, agents that we use, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            495.68,
+            498.943
+          ],
+          "quote": "And that, to me, is harness engineering.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bedrock-agentcore",
+      "type": "company",
+      "role": "company",
+      "name": "Bedrock AgentCore",
+      "file": "Bedrock AgentCore",
+      "primary": true,
+      "how_described": "本集说它是 AWS 技术栈中用于把智能体部署到云端规模的服务:代码里接上 AgentCore app 就能在运行时扩展、实现多租户隔离,内置 harness,还能只取记忆等单个能力组合集成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 191,
+          "t": [
+            760.549,
+            762.19
+          ],
+          "quote": "And so we have Bedrock AgentCore.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把它说成 harness 中连接外部工具与服务器的通道(如文档服务器),并称「一个 system prompt 连接一些 MCP 工具」可能已覆盖 80% 的智能体开发。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            91.671,
+            102.941
+          ],
+          "quote": "In 2025, I created an MCP Lambda handler that's downloaded still to this day at about 35,000 times a month to help people in some of the simplest ways of getting serverless MCP serving happening.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            313.65,
+            329.478
+          ],
+          "quote": "And I create a harness, or the place I work at has created a harness for me, which contains how it's going to use memory, the skills that I want it to use, tools and MCP servers to allow it to be able to go and connect to documentation servers and the like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            437.857,
+            442.26
+          ],
+          "quote": "And tools in MCP, by the way, that belies a lot of stuff, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            442.321,
+            449.386
+          ],
+          "quote": "Because you can pretty much extend an agent to do almost anything you want with a whole bunch of different types of tools, which could be via MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            859.57,
+            862.531
+          ],
+          "quote": "But we might want to have it being served behind MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            977.782,
+            980.744
+          ],
+          "quote": "We've got a connection to MCP, so we can see how that is done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1109.497,
+            1114.443
+          ],
+          "quote": "We don't need to do much more than system prompt, connect to some MCP tools, and we've got what we want.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集用 session manager 演示中短期记忆(跨调用维护会话状态),长期记忆存于文件;AgentCore 可把长期和短期记忆部署成独立于智能体、异步连接的云基础设施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            313.65,
+            329.478
+          ],
+          "quote": "And I create a harness, or the place I work at has created a harness for me, which contains how it's going to use memory, the skills that I want it to use, tools and MCP servers to allow it to be able to go and connect to documentation servers and the like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            433.393,
+            435.915
+          ],
+          "quote": "We still want to have, how are we going to manage the memory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            466.705,
+            472.467
+          ],
+          "quote": "How do I manage scaling payments, memory, identity skills, runtime, context management, the rest of it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            630.772,
+            632.693
+          ],
+          "quote": "So this is a sort of memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            632.773,
+            635.695
+          ],
+          "quote": "It's a kind of medium-term, short-term memory kind of thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            635.715,
+            638.197
+          ],
+          "quote": "It's not proper long-term memory, but it is there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            729.917,
+            734.479
+          ],
+          "quote": "And I'm picking up and I'm including various pieces in this, like memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            736.62,
+            754.985
+          ],
+          "quote": "How do we get to the point where I can deploy something like this, if not this actual agent, out at cloud scale and take things like memory and deploy that separately so it can scale separately, taking our loop out so it can scale separately, and we can then bolt in all kinds of other things as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            896.392,
+            897.072
+          ],
+          "quote": "And here's memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            898.793,
+            902.433
+          ],
+          "quote": "So I can come in here and ask for long-term and short-term memory to be deployed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            982.046,
+            987.851
+          ],
+          "quote": "And we've got the connection into our session manager and our memory, which is all built in here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1065.669,
+            1077.218
+          ],
+          "quote": "With the memory, with the agent, with runtime, and with many other components if you choose to do so, you can use this interface then to go and look at traces, look at memory storage, look at all that stuff so that you can debug and see what's going on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1178.031,
+            1188.799
+          ],
+          "quote": "If you have an agent that's running in production very happily at the moment, but you like the idea of having long-term memory managed for you serverless, then you can just take that part and integrate it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-tenant",
+      "type": "concept",
+      "role": "concept",
+      "name": "多租户隔离 (multi-tenant)",
+      "file": "多租户隔离",
+      "primary": true,
+      "how_described": "本集说只需在代码里关联 AgentCore app,就能把服务单用户的智能体直接扩展出去,不用自己写多租户代码,安全和身份管理也大幅简化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            942.752,
+            955.314
+          ],
+          "quote": "So it's got the linkage into Amazon Bedrock Agent Core app, but pretty much apart from that, that's all you need in order to be able to scale this agent out at runtime and do multi-tenant isolation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说这是构建型智能体该最先考虑的事,「非常、非常重要」;AgentCore 部署后可查看追踪和记忆存储以便调试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            476.508,
+            478.209
+          ],
+          "quote": "Observability and evaluations.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "infrastructure-as-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "基础设施即代码 (infrastructure as code)",
+      "file": "基础设施即代码",
+      "primary": true,
+      "how_described": "本集延续反对 ClickOps 的思路:让智能体把基础设施即代码构建出来、由代码完成部署,这样你仍然拥有自己在云上的部署;agentcore deploy 也用它大规模部署智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            405.492,
+            410.895
+          ],
+          "quote": "We want the agent to build up our infrastructure as code, which is going to go and do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1056.707,
+            1065.309
+          ],
+          "quote": "So, with agent core deploy, it will use infrastructure as code, like I talked about before, to deploy your agent out at scale.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "system-prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "system prompt",
+      "file": "system prompt",
+      "primary": true,
+      "how_described": "本集最激进演示的核心:AgentCore 的最简配置只是一个 JSON——指明用哪个模型、哪个 system prompt,连一行智能体代码都没有即可部署。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            561.345,
+            563.407
+          ],
+          "quote": "And so I just pass in my system prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            645.482,
+            671.955
+          ],
+          "quote": "So, if I just scroll down here, you can see, yeah, here's the agent definition itself, and we've got a bit more of a system prompt because Kiro couldn't help itself, and we've got some tools here defined, including a remember tool that the agent can decide to use to remember stuff about me, and then I've got my session manager down there, and that session manager is going to rehydrate the conversation history when I come back to chat to it the next time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            995.257,
+            997.178
+          ],
+          "quote": "And the system prompt is somewhere at the top.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1097.323,
+            1099.545
+          ],
+          "quote": "I just did a system prompt and some tools and go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1109.497,
+            1114.443
+          ],
+          "quote": "We don't need to do much more than system prompt, connect to some MCP tools, and we've got what we want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1121.771,
+            1128.377
+          ],
+          "quote": "I just have a simple JSON which is showing me which model do I want to use and what system prompt do I want to use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1128.637,
+            1130.679
+          ],
+          "quote": "Can't get much more simpler than that system prompt.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kiro",
+      "type": "company",
+      "role": "company",
+      "name": "Kiro",
+      "file": "Kiro",
+      "primary": false,
+      "how_described": "本集提到它是演讲者使用的 IDE,第二个演示智能体的代码由它生成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            172.728,
+            184.996
+          ],
+          "quote": "But the agents that we use, and so this is Claude Code and Cursor and Kiro and all of those types of things, and also things that don't just generate code, things that we use for productivity and the like as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            529.349,
+            534.695
+          ],
+          "quote": "Of the code which I'm about to show you, by the way, one piece of code, not this one, has been generated by Kiro.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            610.658,
+            616.843
+          ],
+          "quote": "But this one, I actually asked Kiro to write it for me for this session because I wanted to include some more stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            645.482,
+            671.955
+          ],
+          "quote": "So, if I just scroll down here, you can see, yeah, here's the agent definition itself, and we've got a bit more of a system prompt because Kiro couldn't help itself, and we've got some tools here defined, including a remember tool that the agent can decide to use to remember stuff about me, and then I've got my session manager down there, and that session manager is going to rehydrate the conversation history when I come back to chat to it the next time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集把它列为「我们使用的」智能体的例子,与 Cursor、Kiro 并提。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            172.728,
+            184.996
+          ],
+          "quote": "But the agents that we use, and so this is Claude Code and Cursor and Kiro and all of those types of things, and also things that don't just generate code, things that we use for productivity and the like as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Strands Agents SDK",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

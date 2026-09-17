@@ -53,7 +53,7 @@ unlisted: true
 
 [[Waymo]] · [[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Google]] · [[物理 AI]] · [[Anthropic]] · [[Meta]] · [[Lenny]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"Waymo":13,"智能体":253,"ChatGPT":66,"OpenAI":116,"Google":43,"物理 AI":7,"Anthropic":124,"Meta":32,"Lenny":67,"NVIDIA":35}</script>
+<script type="application/json" class="pd-epn">{"Waymo":13,"智能体":257,"ChatGPT":67,"OpenAI":118,"Google":44,"物理 AI":7,"Anthropic":124,"Meta":32,"Lenny":67,"NVIDIA":35}</script>
 
 <script>
 (function(){

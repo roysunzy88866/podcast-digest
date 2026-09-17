@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]] [[Andrew Antos]] [[Elaina O'Mahoney]]
+[[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]] [[Craig]] [[Keith Peiris]] [[Matteo Franceschetti]] [[Andrew Chen]] [[Matt Perault]] [[Ron Gabrisko]] [[Max Levchin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dave Fletcher":1,"Lead Dev":1,"AI 编码工具":1,"可观测性":20,"CI-CD":10,"技术债务":3,"AI 优先":2,"DevTools":1}</script>
+<script type="application/json" class="pd-epn">{"Dave Fletcher":1,"Lead Dev":1,"AI 编码工具":1,"可观测性":21,"CI-CD":10,"技术债务":3,"AI 优先":2,"DevTools":1}</script>
 
 <script>
 (function(){

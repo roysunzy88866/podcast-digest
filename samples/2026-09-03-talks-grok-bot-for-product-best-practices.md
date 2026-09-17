@@ -121,7 +121,7 @@ GrokBot 能派生[[云端智能体|云端智能体]]去做编码任务,本质上
 
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:智能体 (agent)、记忆 (memory)、MCP</span>
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|GrokBot、Origin 与 Grok 4.6 实测]]<span class="pd-rz">同公司:GrokBot · 同概念:智能体 (agent)、MCP</span>
-- [[2025-10-06-talks-agents-for-complex-software-engineering|Vibe debugging：代码生成之后，生产环境才是真正的硬仗]]<span class="pd-rz">同嘉宾:Roshan · 同概念:智能体 (agent)</span>
+- [[2026-09-14-talks-harness-engineering-building-the-product|Harness 工程：把智能体部署到云端规模]]<span class="pd-rz">同概念:智能体 (agent)、记忆 (memory)、MCP</span>
 
 </div>
 <div class="pd-ex">

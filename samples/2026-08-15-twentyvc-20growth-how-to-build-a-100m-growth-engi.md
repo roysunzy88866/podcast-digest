@@ -148,9 +148,9 @@ Matt 对人才的标准在过去一两年发生了 180 度转变 <button class="
 
 **顺着「增长与销售」挖下去**
 
+- [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|让品牌被 AI 看见：AEO 实战与研究]]<span class="pd-rz">同公司:Google、ChatGPT · 同概念:AEO、智能体 (agent)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、Google · 同概念:AEO、智能体 (agent)、PLG</span>
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:Google、ChatGPT · 同概念:智能体 (agent)</span>
-- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同公司:Google、ChatGPT · 同概念:AEO</span>
 
 </div>
 <div class="pd-ex">

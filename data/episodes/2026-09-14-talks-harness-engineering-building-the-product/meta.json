@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-14-talks-harness-engineering-building-the-product",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/gxVZ_1tuuq4.m4a",
+  "duration_sec": 1229.023,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 307,
+  "asr": true,
+  "title_en": "Harness Engineering: Building the Production Cage for Powerful Domain Agents — Mike Chambers, AWS",
+  "podcast": "精选演讲",
+  "date": "2026-09-14",
+  "added": "2026-09-17",
+  "added_at": "2026-09-17T11:29:21.692Z",
+  "speaker_map": {
+    "SPEAKER_00": "Mike Chambers"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Mike Chambers"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "Harness 工程：把智能体部署到云端规模",
+  "guest_name": "Mike Chambers",
+  "guest_title": "AWS 资深 AI 专家布道师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

@@ -1,0 +1,2833 @@
+{
+  "episode_id": "2026-09-17-sed-scaling-agent-workloads-at-vercel",
+  "podcast": "Software Engineering Daily",
+  "date": "2026-09-17",
+  "tags": [
+    "智能体",
+    "AI 基础设施",
+    "云原生",
+    "开源框架",
+    "AI 编程"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "andrew-barba",
+      "type": "person",
+      "role": "host",
+      "name": "Andrew Barba",
+      "file": "Andrew Barba",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            45.996,
+            52.742
+          ],
+          "quote": "Andrew Barba is a member of technical staff at Vercel, and Shar Dara is the product lead for EVE at Vercel.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shar-dara",
+      "type": "person",
+      "role": "cohost",
+      "name": "Shar Dara",
+      "file": "Shar Dara",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            45.996,
+            52.742
+          ],
+          "quote": "Andrew Barba is a member of technical staff at Vercel, and Shar Dara is the product lead for EVE at Vercel.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kevin-ball",
+      "type": "person",
+      "role": "cohost",
+      "name": "Kevin Ball",
+      "file": "Kevin Ball",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            53.422,
+            66.552
+          ],
+          "quote": "In this episode, they join Kevin Ball to discuss what it means for an agent framework to be cloud-native, why they chose to express agents in plain English, and their view that company building is becoming agent building.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            67.638,
+            74.682
+          ],
+          "quote": "Kevin Ball, or KBall, is the Vice President of Engineering at Mento and an independent coach for engineers and engineering leaders.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eve",
+      "type": "concept",
+      "role": "concept",
+      "name": "Eve",
+      "file": "Eve",
+      "primary": true,
+      "how_described": "本集主题：Vercel 新开源的云原生智能体框架，用声明式目录（instructions.md 等）定义智能体，配置编译成基础设施即代码，主打多人云端、可隔离可恢复的会话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            26.516,
+            32.783
+          ],
+          "quote": "Eve is an open source cloud-native agent framework from Vercel that removes much of the agent scaling burden.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            33.383,
+            45.135
+          ],
+          "quote": "In the Eve framework, an agent is defined declaratively through configuration files, and these files compile into infrastructure as code, so the platform provisions only what the agent actually uses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            45.996,
+            52.742
+          ],
+          "quote": "Andrew Barba is a member of technical staff at Vercel, and Shar Dara is the product lead for EVE at Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            109.071,
+            114.855
+          ],
+          "quote": "I'm excited to get to know you guys and to learn a little bit more about EVE and this new agentic framework, but let's start with you.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 23,
+          "t": [
+            164.469,
+            165.93
+          ],
+          "quote": "And we came up with Eve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            181.4,
+            186.124
+          ],
+          "quote": "And earlier this year, Andrew's like, you want to join, you know, build Eve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 34,
+          "t": [
+            191.269,
+            193.972
+          ],
+          "quote": "Well, let's start then with a little bit about Eve.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 47,
+          "t": [
+            238.671,
+            249.658
+          ],
+          "quote": "And so EVE is a framework that basically stitches together with very good defaults all of those types of products to give you a very robust out-of-the-box harness that lives in the cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            275.247,
+            285.272
+          ],
+          "quote": "The example I love to give is, you know, let's take an OpenClaw and let's take an Eve agent and let's let a thousand people send a prompt at the exact same time and what, you know, what's going to happen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            285.972,
+            293.956
+          ],
+          "quote": "And so the difference between the two is Eve on Vercel or another platform that you host on will scale out horizontally to meet that demand, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            315.72,
+            329.514
+          ],
+          "quote": "Internal agents for a 10,000-person enterprise, or if you are some B2C company and an agent is your primary product, EVE will support that type of multiplayer type of model, and it can do this very, very scalably.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            453.805,
+            457.107
+          ],
+          "quote": "Eve was going to be purely English, markdown, text files.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            457.687,
+            463.412
+          ],
+          "quote": "And so yeah, with those two extremes, that was kind of like the very, very early idea behind what Eve is now today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            487.569,
+            489.65
+          ],
+          "quote": "Like what is the Eve?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 98,
+          "t": [
+            496.668,
+            504.212
+          ],
+          "quote": "Yeah, it is literally a directory, and the most simple EVE agent could actually just be an instructions.md file, and that's it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            504.732,
+            520.64
+          ],
+          "quote": "And so, yeah, it's, of course, a framework because the grammar behind EVE and our slots, those are all compiled down into this manifest, and that manifest is basically the infrastructure as code that you kind of just referenced where we're provisioning things based on what you have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            578.741,
+            584.787
+          ],
+          "quote": "And so the key thing to understand with EVE or any of these harnesses is that is your progressive learning mechanism.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            624.294,
+            632.76
+          ],
+          "quote": "And so Eve has a first-class way to just drop in an MCP URL and we automatically expose those tools for you so you don't have to think about it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            634.802,
+            637.684
+          ],
+          "quote": "I think that's kind of like the brain and the operations of Eve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            655.18,
+            659.505
+          ],
+          "quote": "And if you were to hook it up to a Next.js app, you're basically using that default EVE channel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            718.602,
+            723.564
+          ],
+          "quote": "We have a help, Eve agent, for example, that knows all about how to build Eve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            735.71,
+            739.633
+          ],
+          "quote": "And then something else that I'm very excited about that is first class in Eve is evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            756.224,
+            759.487
+          ],
+          "quote": "So evals is like a very first class primitive inside of Eve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            774.536,
+            777.076
+          ],
+          "quote": "So how do you set up an eval in EVE?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 166,
+          "t": [
+            796.848,
+            802.71
+          ],
+          "quote": "And Eve's example of that is like, you might want to send a query and then make sure that a tool was called.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            842.72,
+            850.946
+          ],
+          "quote": "So yeah, and eval in Eve is literally a, it is a define eval function and you basically get this test function that you can write what you want.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            853.887,
+            865.974
+          ],
+          "quote": "So you can start turns via prompts, you can trigger things like human in the loop, and so basically all the functionality of Eve, you can programmatically write and set up an eval, and you can do as much or little with it as you want.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            866.414,
+            874.299
+          ],
+          "quote": "What I think is particularly interesting about the way we have the Eve repo set up is our test suite is, in fact, a full set of evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            874.859,
+            878.022
+          ],
+          "quote": "So we actually use our eval framework to test EVE.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            926.364,
+            928.825
+          ],
+          "quote": "Is that something that you've played with at all in Eve?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 195,
+          "t": [
+            941.283,
+            950.029
+          ],
+          "quote": "But if you use a coding agent to build your Eve agent, I think you'll find that it will actually write and run evals while it's iterating.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            956.633,
+            960.075
+          ],
+          "quote": "And so we hint that you test Eve with evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            962.256,
+            965.258
+          ],
+          "quote": "And when we work locally on Eve, we have a bunch of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1010.932,
+            1014.033
+          ],
+          "quote": "And obviously, Eve doesn't exist as far as these models are concerned, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1271.045,
+            1273.928
+          ],
+          "quote": "So is that something that Eve has primitives for?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1273.968,
+            1278.213
+          ],
+          "quote": "Like how do I think about data access control and stuff like that in the Eve framework?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1279.253,
+            1284.675
+          ],
+          "quote": "The funny thing is, when we started EVE, we were pretty set on enterprise right off the bat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1284.976,
+            1297.301
+          ],
+          "quote": "EVE was, we knew it was going to be code first, and we knew that, or thinking about use cases like DZero, we expected companies to go build their own EVE agents to run their businesses.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1325.563,
+            1328.085
+          ],
+          "quote": "And Eve was designed to be multiplayer from the beginning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1328.185,
+            1333.549
+          ],
+          "quote": "And so we give you things like, and so basically, everywhere you write code in Eve, you have a context object.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1407.838,
+            1412.702
+          ],
+          "quote": "And so this is where Eve really shines as a code-first framework.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1480.86,
+            1486.342
+          ],
+          "quote": "When you start prompting for this type of behavior, it will learn that this is basically the way to do it inside of Eve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1519.862,
+            1524.125
+          ],
+          "quote": "So we actually use Eve internally for all of our internal agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1524.726,
+            1527.568
+          ],
+          "quote": "And now we have hundreds of them running on Eve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1593.815,
+            1600.362
+          ],
+          "quote": "But as we saw the adoption over time, it became go to market, move everything they had on EVE.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1601.343,
+            1609.245
+          ],
+          "quote": "Then marketing is working on automating content creation, socials and so on on EVE and so on the rest of the team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1609.285,
+            1613.386
+          ],
+          "quote": "So like you see billing that help EVE was an example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1753.002,
+            1754.383
+          ],
+          "quote": "How does that interact with Eve?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1786.302,
+            1800.728
+          ],
+          "quote": "And I think in many cases, there's still lots of teams that are deploying a separate front-end from a separate back-end, and Eve can work absolutely just like that, where you deploy your Eve agent as its own project, and then you just connect to it over HTTP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1802.588,
+            1808.811
+          ],
+          "quote": "We give you the Eve channel, which is basically our HTTP protocol, our stream protocol.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1822.982,
+            1826.946
+          ],
+          "quote": "So the way we think about it internally is EVE is a back-end framework.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1834.305,
+            1841.292
+          ],
+          "quote": "On the application side, we've actually seen some really cool examples of our users shipping web apps with Eve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1871.367,
+            1874.811
+          ],
+          "quote": "And the Eve agent really is like the backend brain behind the scene.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1955.001,
+            1958.242
+          ],
+          "quote": "And Eve, the stream protocol that we have is very low-level.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1983.955,
+            1987.977
+          ],
+          "quote": "I do think EVE is a lot more than just interacting with a chatbot, like you said.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2129.534,
+            2130.815
+          ],
+          "quote": "Like how does Eve handle that?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2131.738,
+            2140.984
+          ],
+          "quote": "Yeah, so I mean, it really started where we knew we wanted to build EVE on top of workflow, which is basically our version of Temporal, I think a lot of people are familiar with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2141.585,
+            2148.91
+          ],
+          "quote": "And so the way we modeled this very early on was a single workflow is a single EVE session.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2251.276,
+            2255.737
+          ],
+          "quote": "Are there mechanisms for that type of learning agent within EVE?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2298.64,
+            2305.904
+          ],
+          "quote": "Eve is going to do it a little bit differently than maybe something like Hermes, which can literally just update its code in place and then restart itself effectively.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2305.964,
+            2309.426
+          ],
+          "quote": "So on Eve, we're thinking about self-evolution in a few different ways.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2366.754,
+            2370.458
+          ],
+          "quote": "But for other things, you literally have to write code to go make it happen in EVE.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2477.252,
+            2480.055
+          ],
+          "quote": "And this lets Eve do interesting things where we can control.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2553.382,
+            2558.569
+          ],
+          "quote": "And so Eve actually makes... We have no opinion on the tools that should exist when it comes to memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2645.626,
+            2647.787
+          ],
+          "quote": "So Eve has no opinions on those things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2717.328,
+            2720.169
+          ],
+          "quote": "So they can do really sophisticated things, and Eve doesn't care.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2827.013,
+            2832.978
+          ],
+          "quote": "We obviously have Eve agents internally that are actually analyzing these PRs daily to look for the ones that we should be pulling in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2835.421,
+            2845.153
+          ],
+          "quote": "And the EVE team was really two people full-time from March until about mid-July, I want to say.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2880.549,
+            2886.852
+          ],
+          "quote": "Yeah, for me, I mean, one of the very early principles behind Eve was we're going to bet on the models getting smarter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2906.903,
+            2913.504
+          ],
+          "quote": "And what we really wanted with EVE was to go horizontal and basically just say, we are going to bet on the models making the right decisions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 639,
+          "t": [
+            2922.906,
+            2925.246
+          ],
+          "quote": "And so EVE is going to stick to that principle.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 641,
+          "t": [
+            2930.607,
+            2934.408
+          ],
+          "quote": "And we think EVE is going to take advantage of that in a great way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2943.726,
+            2949.511
+          ],
+          "quote": "So the idea is that EVE is more fundamental than your certificate of incorporation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2968.513,
+            2974.441
+          ],
+          "quote": "And we believe that EVE is positioned to basically become that brain of your company moving forward.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2990.274,
+            2995.137
+          ],
+          "quote": "So how does one host an EVE-based agent framework or set of agents?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 656,
+          "t": [
+            2999.452,
+            3003.877
+          ],
+          "quote": "And we do have customers internally that are running EVE on Kubernetes, on their own hardware even.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 659,
+          "t": [
+            3015.97,
+            3027.063
+          ],
+          "quote": "And so as long as you can define a world for your infrastructure, and many of them exist, like there's worlds for tons of other providers out there, that is really all you need to host EVE yourself.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": true,
+      "how_described": "两位嘉宾所在的公司，Eve 的出品方；Eve 构建在 Vercel 的 workflow、serverless 函数、沙箱等产品之上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            26.516,
+            32.783
+          ],
+          "quote": "Eve is an open source cloud-native agent framework from Vercel that removes much of the agent scaling burden.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            45.996,
+            52.742
+          ],
+          "quote": "Andrew Barba is a member of technical staff at Vercel, and Shar Dara is the product lead for EVE at Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            120.865,
+            123.966
+          ],
+          "quote": "Yeah, so I've been at Vercel for some three and a half years now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            124.627,
+            132.53
+          ],
+          "quote": "I was actually a Vercel customer, maybe one of Vercel's very first enterprise customers back in 2020, so a bit of an unconventional path to Vercel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            150.139,
+            154.342
+          ],
+          "quote": "So Char and I were leading the billing team at Vercel for most of 2025.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            154.362,
+            164.129
+          ],
+          "quote": "And then, yeah, February came around this year and we had a really interesting opportunity to kind of look at what does it take to deploy agents to Vercel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            171.15,
+            173.352
+          ],
+          "quote": "Yeah, I've been at Vercel for a year and a half.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            176.975,
+            180.719
+          ],
+          "quote": "So that's where I joined Vercel in the billing team where I worked with Andrew.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 57,
+          "t": [
+            285.972,
+            293.956
+          ],
+          "quote": "And so the difference between the two is Eve on Vercel or another platform that you host on will scale out horizontally to meet that demand, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            351.87,
+            355.853
+          ],
+          "quote": "It started from our own data agent that we built inside Vercel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            358.355,
+            364.08
+          ],
+          "quote": "And this was really the first agent inside of Vercel that the entire company was interacting with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            365.047,
+            371.653
+          ],
+          "quote": "And it was a lot of work, a lot of hand-rolled systems to go put D0 onto Vercel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 74,
+          "t": [
+            371.673,
+            379.019
+          ],
+          "quote": "We had to wrap a lot of our products like our servos functions and sandboxes and our workflows and various other Vercel products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            387.227,
+            394.797
+          ],
+          "quote": "So we felt like there was this very large layer sitting below D0 that basically every single agent that we would then deploy to Vercel was going to need.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            431.511,
+            439.175
+          ],
+          "quote": "We said, well, it has to become way easier to deploy an agent to Vercel in the same durable fashion that D0 was doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            465.727,
+            477.84
+          ],
+          "quote": "Well, and I go back to, I remember a conversation I had, I think, with Tom Okino at some point about Vercel's vision of automatically provisioning infrastructure and being able to infer that from the application.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 143,
+          "t": [
+            704.296,
+            705.817
+          ],
+          "quote": "So like internally in Vercel,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1425.133,
+            1436.125
+          ],
+          "quote": "And then the last piece, which I think is maybe most interesting and something that we haven't even necessarily solved ourselves yet, Vercel, but you hinted at, is how can you see what you're supposed to see?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1445.314,
+            1447.056
+          ],
+          "quote": "All of Vercel's data lake, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1943.275,
+            1954.44
+          ],
+          "quote": "Yeah, it's interesting, and I think the Vercel Labs team is doing really interesting stuff here, I think, with tools like JSON Render, and taking these lower-level protocols and producing UIs out of them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2769.553,
+            2770.833
+          ],
+          "quote": "So this is a Vercel project.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 652,
+          "t": [
+            2976.427,
+            2980.209
+          ],
+          "quote": "Well, that makes me think immediately, what's the hosting story outside of Vercel?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3045.654,
+            3051.376
+          ],
+          "quote": "Dynamic scheduling, for example, that will be first class on Vercel, but you will need to bring in something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3051.736,
+            3059.578
+          ],
+          "quote": "But the key is just making sure that those APIs and those adapters are thought of early on in the process and not some afterthought after it already works on Vercel.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dzero",
+      "type": "concept",
+      "role": "concept",
+      "name": "DZero",
+      "file": "DZero",
+      "primary": true,
+      "how_described": "Vercel 内部第一个全员使用的数据智能体，靠语义文件回答数据问题，是 Eve 框架的起源，约 90% 由 skills 构成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            356.294,
+            357.454
+          ],
+          "quote": "This is called DZero.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1284.976,
+            1297.301
+          ],
+          "quote": "EVE was, we knew it was going to be code first, and we knew that, or thinking about use cases like DZero, we expected companies to go build their own EVE agents to run their businesses.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心主线：从单机单人会话的智能体模式，讲到服务企业的云端多人智能体；Char 甚至提出「创建公司就是在构建智能体」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.631,
+            7.612
+          ],
+          "quote": "Most AI agent setups today are built around a single session, where one user interacts with one agent at a time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1,
+          "t": [
+            8.053,
+            18.895
+          ],
+          "quote": "However, that model breaks down when an agent has to serve a business, where thousands of requests can arrive at once and each session needs to be isolated, durable, and recoverable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            19.435,
+            25.896
+          ],
+          "quote": "Getting agents to run reliably at that scale has meant a lot of hand-rolled infrastructure beneath the agent itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            26.516,
+            32.783
+          ],
+          "quote": "Eve is an open source cloud-native agent framework from Vercel that removes much of the agent scaling burden.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            33.383,
+            45.135
+          ],
+          "quote": "In the Eve framework, an agent is defined declaratively through configuration files, and these files compile into infrastructure as code, so the platform provisions only what the agent actually uses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            53.422,
+            66.552
+          ],
+          "quote": "In this episode, they join Kevin Ball to discuss what it means for an agent framework to be cloud-native, why they chose to express agents in plain English, and their view that company building is becoming agent building.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            202.635,
+            207.56
+          ],
+          "quote": "Yeah, I mean, so it is a cloud native agent framework.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            275.247,
+            285.272
+          ],
+          "quote": "The example I love to give is, you know, let's take an OpenClaw and let's take an Eve agent and let's let a thousand people send a prompt at the exact same time and what, you know, what's going to happen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            306.129,
+            312.236
+          ],
+          "quote": "And so it's a very different use case than just you communicating back and forth as one person with one agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            315.72,
+            329.514
+          ],
+          "quote": "Internal agents for a 10,000-person enterprise, or if you are some B2C company and an agent is your primary product, EVE will support that type of multiplayer type of model, and it can do this very, very scalably.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            335.853,
+            344.561
+          ],
+          "quote": "And let's start with, as you mentioned, there's a lot of folks doing agent frameworks out there, many of them focused at running on a laptop or a single machine or things like that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 70,
+          "t": [
+            351.87,
+            355.853
+          ],
+          "quote": "It started from our own data agent that we built inside Vercel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            358.355,
+            364.08
+          ],
+          "quote": "And this was really the first agent inside of Vercel that the entire company was interacting with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            387.227,
+            394.797
+          ],
+          "quote": "So we felt like there was this very large layer sitting below D0 that basically every single agent that we would then deploy to Vercel was going to need.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            396.343,
+            412.497
+          ],
+          "quote": "And then when we actually looked at D0 and what it was, so much of D0's functionality actually came from Markdown files, YAML files, other types of spec files, because D0 being a data agent, it's basically trying to provide this semantic layer, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            412.517,
+            419.803
+          ],
+          "quote": "When you say how many monthly active users are there, maybe that's too obvious, but this semantic layer is telling the agent what these types of words mean.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            423.646,
+            426.768
+          ],
+          "quote": "So there's this entire layer that's basically educating the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            431.511,
+            439.175
+          ],
+          "quote": "We said, well, it has to become way easier to deploy an agent to Vercel in the same durable fashion that D0 was doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            483.987,
+            487.529
+          ],
+          "quote": "So what does this end up looking like for someone who wants to develop an agent?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 98,
+          "t": [
+            496.668,
+            504.212
+          ],
+          "quote": "Yeah, it is literally a directory, and the most simple EVE agent could actually just be an instructions.md file, and that's it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            642.167,
+            645.05
+          ],
+          "quote": "You need to start the agent somehow, and this is what we call channels.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            668.473,
+            674.917
+          ],
+          "quote": "And we come up with some opinionated defaults for how we think you probably want to use your agent inside of those platforms.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            690.768,
+            695.07
+          ],
+          "quote": "You're kind of taking some larger set of tasks that you don't want to blow in your parent agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            695.09,
+            699.073
+          ],
+          "quote": "And so the sub-agent can go take that and work with it on its own and then kind of report back.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            706.537,
+            710.219
+          ],
+          "quote": "We use sub-agents where literally entire teams own a sub-agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            710.559,
+            713.2
+          ],
+          "quote": "And then we have another agent that interacts with those.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            713.58,
+            716.341
+          ],
+          "quote": "So D0, for example, is actually a sub-agent of another one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            718.602,
+            723.564
+          ],
+          "quote": "We have a help, Eve agent, for example, that knows all about how to build Eve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            726.145,
+            729.107
+          ],
+          "quote": "And that's effectively a sub-agent of our larger agent as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            740.133,
+            750.3
+          ],
+          "quote": "And so we think it's very, very important when you build a non-deterministic system like an agent that you can actually test it and monitor it over time and see how it's performing, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            803.33,
+            810.616
+          ],
+          "quote": "Not perfectly deterministic because the models might not call it, but in general, you can say, okay, I have this tool defined, and let's say you're building a weather agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            851.426,
+            853.867
+          ],
+          "quote": "It's effectively a full interface to your agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            915.141,
+            926.264
+          ],
+          "quote": "So your evals lay out what should be true as an outcome, and then you use maybe an LLM or something else in the loop to actually iteratively evolve your agent to get it to behave the way you expect.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 195,
+          "t": [
+            941.283,
+            950.029
+          ],
+          "quote": "But if you use a coding agent to build your Eve agent, I think you'll find that it will actually write and run evals while it's iterating.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            969.26,
+            974.122
+          ],
+          "quote": "So I think it wouldn't be asking too much to actually prompt your coding agent to get what you want out of here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1187.249,
+            1194.354
+          ],
+          "quote": "And this is really, really useful because the agent basically knows that it only has to look at certain things, like when you start upgrading the e-versions and things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1204.86,
+            1213.646
+          ],
+          "quote": "And then in terms of the docs themselves, the coding agent, like Codex and Claude, whatever, they're so good at knowing that there's tons of files in a directory and not to scan them all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1249.517,
+            1256.647
+          ],
+          "quote": "So still in this like mental model of, okay, we're moving from my pet agent living on a box somewhere to these cloud-based agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1264.678,
+            1271.005
+          ],
+          "quote": "Authorization, like what is this agent allowed to see depending on who's interacting with it and that types of things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1367.044,
+            1370.625
+          ],
+          "quote": "Where it gets more interesting is, can the agent perform some action?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1543.317,
+            1558.886
+          ],
+          "quote": "So the range of use cases we've seen go all the way from business agents, what we call what Enterprise is launching, where you automate a business function, down to a hobbyist building a iMessage multiplayer agent on a weekend.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1689.15,
+            1696.293
+          ],
+          "quote": "The most common one is the conversational agents where the agent is channeled through Slack mostly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1712.461,
+            1720.643
+          ],
+          "quote": "And these are mostly the agent's job is to like run some sort of a report and also send it to Slack or send it through email to internal folks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1726.104,
+            1731.025
+          ],
+          "quote": "So actually build an agent, but your front facing is a web app that you're working with.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1731.186,
+            1733.306
+          ],
+          "quote": "And that web app is actually powered by an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1733.346,
+            1736.647
+          ],
+          "quote": "And you also have a chat interface with the agent on the web app.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1746.551,
+            1752.273
+          ],
+          "quote": "So in the case where I'm building a web app of some sort, but it's got an agent powered backend.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1775.611,
+            1778.615
+          ],
+          "quote": "And so we knew the agent directory had to just work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1779.416,
+            1784.942
+          ],
+          "quote": "So there's first party support for that type of setup where the agent literally lives next to your Next.js app.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1786.302,
+            1800.728
+          ],
+          "quote": "And I think in many cases, there's still lots of teams that are deploying a separate front-end from a separate back-end, and Eve can work absolutely just like that, where you deploy your Eve agent as its own project, and then you just connect to it over HTTP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1845.276,
+            1855.567
+          ],
+          "quote": "So what happened was the user goes in, adds a lead, adds a name and an email, and the background agent goes in and researches the lead and completes the whole thing behind the scene.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1856.047,
+            1865.779
+          ],
+          "quote": "And the second one was, I believe, an AI music maker where you kind of go in and add the tempo, but then the agent kind of collaborates with you on the site and completes the music.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1871.367,
+            1874.811
+          ],
+          "quote": "And the Eve agent really is like the backend brain behind the scene.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1896.23,
+            1900.392
+          ],
+          "quote": "Like what does collaborative document editing look like when you have an agent involved?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1934.946,
+            1942.632
+          ],
+          "quote": "But I wonder if there are also opportunities there in terms of what are the abstractions that make sense in interacting with an agent inside an app context?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2019.995,
+            2028.222
+          ],
+          "quote": "Yeah, so we take the output schema and we basically plumb that all the way through down to the, it was built on a tool loop agent from AISDK.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2041.753,
+            2046.797
+          ],
+          "quote": "And then we can hint back to the agent basically saying, oh, you missed this required property and it'll do it again.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2251.276,
+            2255.737
+          ],
+          "quote": "Are there mechanisms for that type of learning agent within EVE?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2271.042,
+            2277.644
+          ],
+          "quote": "And funny enough, these types of things aren't necessarily your enterprise use case, but they are very personal agent use case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2288.813,
+            2294.377
+          ],
+          "quote": "The idea is you just deploy the out-of-the-box agent and it just starts getting better as it works with you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2330.932,
+            2336.719
+          ],
+          "quote": "And so now the agent actually has multiple memory banks that it can pull and save to, depending on what scope you define.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2379.363,
+            2384.286
+          ],
+          "quote": "And so we will do a coding sub-agent that you can define.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2392.291,
+            2396.273
+          ],
+          "quote": "We'll have the right prompts so it knows when it has to invoke the coding agent to change something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2446.132,
+            2452.495
+          ],
+          "quote": "So memory is going to be, if I was talking to my coding agent, I would call it an authored slot, is how I would refer to it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2486.72,
+            2489.923
+          ],
+          "quote": "You don't want the agent to guess or think it knows the user ID.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2499.136,
+            2505.119
+          ],
+          "quote": "You want all of those permission and other related things to be deterministic under the layer of what the agent does.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2535.033,
+            2536.633
+          ],
+          "quote": "How do you expose that to the agent?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2590.382,
+            2597.427
+          ],
+          "quote": "And so the agent can add a single memory, in which case we will resave the file to blob storage, and then forget memory, same thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2606.961,
+            2616.209
+          ],
+          "quote": "It's going to be called and the result would be whatever gets returned by recall is embedded in the context of the agent from the start and it has access to these tools.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 633,
+          "t": [
+            2891.975,
+            2898.979
+          ],
+          "quote": "I think a lot of other agent frameworks that we had seen, they scaled vertically where they just appeared to get more and more code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 634,
+          "t": [
+            2899.479,
+            2901.96
+          ],
+          "quote": "And eventually it kind of doesn't look like an agent anymore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2936.939,
+            2943.025
+          ],
+          "quote": "Yeah, for me, I think the way we're thinking about it is a company building is agent building.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2949.732,
+            2956.218
+          ],
+          "quote": "So your agent predates your websites, your domain name, and even incorporating the company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2956.238,
+            2961.063
+          ],
+          "quote": "So you start with the agent and the agent incrementally builds the software factory for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2990.274,
+            2995.137
+          ],
+          "quote": "So how does one host an EVE-based agent framework or set of agents?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "本集说 evals 在 Eve 里是一等公民原语，分确定性断言和 LLM as judge 两类，Eve 仓库的测试套件本身就是一整套 evals。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            735.71,
+            739.633
+          ],
+          "quote": "And then something else that I'm very excited about that is first class in Eve is evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            756.224,
+            759.487
+          ],
+          "quote": "So evals is like a very first class primitive inside of Eve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            760.192,
+            766.354
+          ],
+          "quote": "I want to double click on that, because evals is something I think everyone is talking about and trying to do.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 162,
+          "t": [
+            779.677,
+            782.237
+          ],
+          "quote": "Are you doing evals on live queries?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 164,
+          "t": [
+            784.924,
+            787.785
+          ],
+          "quote": "Yeah, so we have two different types of evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            866.414,
+            874.299
+          ],
+          "quote": "What I think is particularly interesting about the way we have the Eve repo set up is our test suite is, in fact, a full set of evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            893.304,
+            896.206
+          ],
+          "quote": "So what we just described is essentially evals as guardrails, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 185,
+          "t": [
+            898.988,
+            900.929
+          ],
+          "quote": "We're using evals to make sure it remains true.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 188,
+          "t": [
+            915.141,
+            926.264
+          ],
+          "quote": "So your evals lay out what should be true as an outcome, and then you use maybe an LLM or something else in the loop to actually iteratively evolve your agent to get it to behave the way you expect.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 195,
+          "t": [
+            941.283,
+            950.029
+          ],
+          "quote": "But if you use a coding agent to build your Eve agent, I think you'll find that it will actually write and run evals while it's iterating.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            956.633,
+            960.075
+          ],
+          "quote": "And so we hint that you test Eve with evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            967.379,
+            969.24
+          ],
+          "quote": "The coding agents are running those evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            974.142,
+            978.605
+          ],
+          "quote": "And I think it would do a pretty reasonable job at using those evals to iterate.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集把 skills 讲成「渐进式披露」机制：只给模型何时该用的提示，模型自己决定何时拉取额外上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            521.36,
+            523.922
+          ],
+          "quote": "If you add skills, for example, then you get a sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            550.575,
+            556.32
+          ],
+          "quote": "You said instructions MD, you've got a directory, you put things, you referenced here schedules or skills.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 112,
+          "t": [
+            565.229,
+            568.572
+          ],
+          "quote": "Skills is the things that you want to progressively disclose.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            568.632,
+            572.856
+          ],
+          "quote": "So I think skills have been around for maybe a year, year and a half now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            572.876,
+            578.701
+          ],
+          "quote": "And I think people are generally pro-adding skills, but I don't think necessarily understand how it works behind the scenes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            585.207,
+            589.133
+          ],
+          "quote": "So skills are basically giving a hint as to when they should be used.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            597.645,
+            599.187
+          ],
+          "quote": "And so D0 is like 90% skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1157.203,
+            1167.346
+          ],
+          "quote": "Like, and one of the things I'm thinking about here is, similar to skills, I feel like you probably want some sort of progressive disclosure or something like that, because otherwise the model may get overwhelmed.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2356.242,
+            2363.51
+          ],
+          "quote": "So can you add a new connection to some MCP server or write new tools, produce new skills, things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2364.051,
+            2366.714
+          ],
+          "quote": "Skills maybe is a special case or it might actually be closer to memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2443.39,
+            2446.092
+          ],
+          "quote": "So skills, tools, sandbox, channels.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 是让模型接入外部工具服务的协议，Eve 的 connections 是专为它做的 tools 特化，丢进一个 MCP URL 就自动暴露工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            620.591,
+            623.794
+          ],
+          "quote": "And connections are for things like MCP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            624.294,
+            632.76
+          ],
+          "quote": "And so Eve has a first-class way to just drop in an MCP URL and we automatically expose those tools for you so you don't have to think about it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2356.242,
+            2363.51
+          ],
+          "quote": "So can you add a new connection to some MCP server or write new tools, produce new skills, things like that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说加 skills 就配沙箱；自我进化的编码子智能体也配带代码库的沙箱；外部 PR 要小心拉进沙箱确认无恶意。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            521.36,
+            523.922
+          ],
+          "quote": "If you add skills, for example, then you get a sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2386.707,
+            2392.011
+          ],
+          "quote": "And so we'll kind of do all the hard work of, you know, when you deploy this thing, it'll have a sandbox for you with your code base.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2443.39,
+            2446.092
+          ],
+          "quote": "So skills, tools, sandbox, channels.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2805.139,
+            2816.226
+          ],
+          "quote": "So we actually have to carefully pull them into a sandbox, make sure that they're not doing anything malicious, and then we have to basically recommit them under our accounts with a co-author, and then we can actually run the suite.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "Andrew 说持久化记忆是他当前最大的工作：一等公民 Memory 目录、多个记忆槽位、provider 模式确定性调用 recall/save/tools 三个钩子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 467,
+          "t": [
+            2225.078,
+            2227.64
+          ],
+          "quote": "What about things like durable memory and stuff like that?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2259.819,
+            2264.6
+          ],
+          "quote": "So all of memory is open in PRs, which you can go inspect if you want to right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2309.506,
+            2314.889
+          ],
+          "quote": "Memory is obviously one of them, and we are doing a first-class folder called Memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2315.369,
+            2317.412
+          ],
+          "quote": "And you will be able to define different memory slots.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2317.452,
+            2322.56
+          ],
+          "quote": "And so you can actually, you would be able to have, let's say you wanted like workspace memory for your Slack channel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2322.58,
+            2325.805
+          ],
+          "quote": "So this is like literally global memory that's shared across all your users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2326.265,
+            2330.331
+          ],
+          "quote": "But then you could define an additional slot that is just memory for yourself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2330.932,
+            2336.719
+          ],
+          "quote": "And so now the agent actually has multiple memory banks that it can pull and save to, depending on what scope you define.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2336.739,
+            2347.893
+          ],
+          "quote": "And so it's kind of like a mix of, we'll give you a really easy personal memory provider, but we think it has the primitives for much more advanced enterprise memory use cases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2350.977,
+            2353.439
+          ],
+          "quote": "But yeah, so memory is one form.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2364.051,
+            2366.714
+          ],
+          "quote": "Skills maybe is a special case or it might actually be closer to memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2437.728,
+            2439.168
+          ],
+          "quote": "Oh yeah, I use it specifically in memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2446.132,
+            2452.495
+          ],
+          "quote": "So memory is going to be, if I was talking to my coding agent, I would call it an authored slot, is how I would refer to it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2455.297,
+            2464.223
+          ],
+          "quote": "And then inside of memory, we're basically giving you effectively memory-like drawers almost or shelves that have different drawers inside of them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2470.047,
+            2472.469
+          ],
+          "quote": "Maybe you want memory just in specific Slack channels.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2490.363,
+            2494.927
+          ],
+          "quote": "And so what these memory slots do is they're lowering tools that are bound to those things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2512.423,
+            2516.125
+          ],
+          "quote": "And so we went back and forth on whether we wanted memory to be first class or not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2533.372,
+            2534.913
+          ],
+          "quote": "Quick detail question on memory.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2553.382,
+            2558.569
+          ],
+          "quote": "And so Eve actually makes... We have no opinion on the tools that should exist when it comes to memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2586.18,
+            2589.882
+          ],
+          "quote": "And the tools it provides is basically add memory and forget memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2590.382,
+            2597.427
+          ],
+          "quote": "And so the agent can add a single memory, in which case we will resave the file to blob storage, and then forget memory, same thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2597.547,
+            2599.488
+          ],
+          "quote": "We just remove the memory and resave it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2600.109,
+            2601.77
+          ],
+          "quote": "And so that's the file memory implementation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 566,
+          "t": [
+            2637.583,
+            2640.625
+          ],
+          "quote": "And so we really wanted to support something like super memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2648.327,
+            2653.429
+          ],
+          "quote": "And so the super memory provider actually looks quite different where they might provide no tools, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2653.449,
+            2657.01
+          ],
+          "quote": "They don't want the model calling save memory or forget memory, whatever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 593,
+          "t": [
+            2743.194,
+            2746.616
+          ],
+          "quote": "And so for the file memory provider, maybe role system actually does make sense.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 661,
+          "t": [
+            3033.13,
+            3040.432
+          ],
+          "quote": "And the key with things like memory and self-evolution and these other types of things is there has to be adapter contracts.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作流 (workflow)",
+      "file": "工作流",
+      "primary": true,
+      "how_described": "本集说 Eve 构建在 Vercel 的 workflow 之上（他们版本的 Temporal），单个工作流就是单个会话，靠每次工具调用切换新函数绕过 15 分钟超时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 221,
+          "t": [
+            1043.756,
+            1056.232
+          ],
+          "quote": "With a one-line change to your workflow, Linux, macOS, and Windows Runners, in Warp Builds Cloud or your own, enterprise-ready, SOC 2 Type 2-attested, and trusted by teams like Sky from Comcast, Bitcoin, and BraintrustAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2131.738,
+            2140.984
+          ],
+          "quote": "Yeah, so I mean, it really started where we knew we wanted to build EVE on top of workflow, which is basically our version of Temporal, I think a lot of people are familiar with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2141.585,
+            2148.91
+          ],
+          "quote": "And so the way we modeled this very early on was a single workflow is a single EVE session.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2174.745,
+            2178.407
+          ],
+          "quote": "But yes, as soon as that turn starts, you are initiating a workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2196.039,
+            2197.36
+          ],
+          "quote": "And it just continues the workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2214.535,
+            2223.118
+          ],
+          "quote": "And so as long as workflow gets faster and continues to be performant, you don't notice this, and the agents can effectively run indefinitely.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 636,
+          "t": [
+            2903.601,
+            2906.323
+          ],
+          "quote": "It's almost like these workflow style APIs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3004.558,
+            3009.603
+          ],
+          "quote": "And part of this is taking advantage of what is called a world inside of workflow.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "serverless-functions",
+      "type": "concept",
+      "role": "concept",
+      "name": "无服务器函数 (serverless functions)",
+      "file": "无服务器函数",
+      "primary": true,
+      "how_described": "本集说 Eve 跑在历来有 15 分钟超时的 serverless functions 上，靠每次工具调用后切到新函数让智能体无限期运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 457,
+          "t": [
+            2181.009,
+            2185.512
+          ],
+          "quote": "So we run on serverless functions, which historically have 15-minute timeouts.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "next-js",
+      "type": "concept",
+      "role": "concept",
+      "name": "Next.js",
+      "file": "Next.js",
+      "primary": true,
+      "how_described": "本集说 Eve 的 agent 目录被设计成与 Next.js 应用开箱即用共存，也可独立部署通过 HTTP 连接。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            542.508,
+            547.892
+          ],
+          "quote": "So this reminds me back of like the original page router days of Next.js or something like that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 132,
+          "t": [
+            655.18,
+            659.505
+          ],
+          "quote": "And if you were to hook it up to a Next.js app, you're basically using that default EVE channel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1002.287,
+            1008.37
+          ],
+          "quote": "Yeah, we had a lot of learnings from Next.js in that regard where the models are trained on much older versions than Next.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1768.503,
+            1771.827
+          ],
+          "quote": "Yeah, so we wanted a pretty opinionated story with Next.js, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1779.416,
+            1784.942
+          ],
+          "quote": "So there's first party support for that type of setup where the agent literally lives next to your Next.js app.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sub-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (sub-agents)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集说 sub-agents 最简单用于上下文管理，在 Vercel 内部被玩成组织结构——整个团队拥有一个子智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            684.584,
+            690.007
+          ],
+          "quote": "So we have this concept of sub-agents, which in its most simplest form is effectively context management.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            699.093,
+            704.276
+          ],
+          "quote": "But sub-agents also enable completely different ways of kind of building teams around agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            706.537,
+            710.219
+          ],
+          "quote": "We use sub-agents where literally entire teams own a sub-agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            729.147,
+            734.109
+          ],
+          "quote": "So yeah, sub-agents enable really a different way of organizing who owns what.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "permissions",
+      "type": "concept",
+      "role": "concept",
+      "name": "权限 (permissions)",
+      "file": "权限",
+      "primary": true,
+      "how_described": "本集讲权限分层设计：频道层认身份、context 对象区分用户、工具审批随渠道渲染、DefineDynamic 按调用者切换工具集。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 262,
+          "t": [
+            1257.288,
+            1264.057
+          ],
+          "quote": "One of the big challenges I feel like a lot of us are grappling with is how do you manage things like permissions?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "temporal",
+      "type": "concept",
+      "role": "concept",
+      "name": "Temporal",
+      "file": "Temporal",
+      "primary": false,
+      "how_described": "本集说 Vercel 的 workflow 基本上是他们版本的 Temporal——把长流程做成可持久化、可恢复的工作流的系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 448,
+          "t": [
+            2131.738,
+            2140.984
+          ],
+          "quote": "Yeah, so I mean, it really started where we knew we wanted to build EVE on top of workflow, which is basically our version of Temporal, I think a lot of people are familiar with.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集回应 lock-in 时提到已有客户在 Kubernetes 甚至自己的硬件上跑 Eve，靠 world 抽象自托管。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 656,
+          "t": [
+            2999.452,
+            3003.877
+          ],
+          "quote": "And we do have customers internally that are running EVE on Kubernetes, on their own hardware even.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "concept",
+      "role": "concept",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集说 Slack 是 Eve 最重要的渠道之一，Vercel 自称「一家 Slack 公司」，对话式智能体主要走 Slack。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            659.886,
+            663.69
+          ],
+          "quote": "But the more interesting ones are things like Slack and Teams and GitHub.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1318.536,
+            1324.562
+          ],
+          "quote": "So for Slack, for example, the who are you is going to be your workspace ID plus your Slack user ID.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1385.228,
+            1391.369
+          ],
+          "quote": "And if the invocation comes in from Slack, we can render, that channel knows how to render human-in-the-loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1613.446,
+            1624.368
+          ],
+          "quote": "So you see examples of product teams that give the product documentation to the agents to answer questions, both on the docs and internally, and sometimes share those with customers directly on Slack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1689.15,
+            1696.293
+          ],
+          "quote": "The most common one is the conversational agents where the agent is channeled through Slack mostly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1696.613,
+            1700.756
+          ],
+          "quote": "We are a Slack company, so most of the communication happens in Slack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1702.797,
+            1708.88
+          ],
+          "quote": "So like D0, for example, which was the initial use case, did primarily work on Slack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1712.461,
+            1720.643
+          ],
+          "quote": "And these are mostly the agent's job is to like run some sort of a report and also send it to Slack or send it through email to internal folks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2317.452,
+            2322.56
+          ],
+          "quote": "And so you can actually, you would be able to have, let's say you wanted like workspace memory for your Slack channel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2470.047,
+            2472.469
+          ],
+          "quote": "Maybe you want memory just in specific Slack channels.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "git",
+      "type": "concept",
+      "role": "concept",
+      "name": "Git",
+      "file": "Git",
+      "primary": false,
+      "how_described": "本集说 Eve 的自我进化深度依托 Git：做编码子智能体，目标是让它对自身代码库开 PR。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 494,
+          "t": [
+            2371.118,
+            2374.28
+          ],
+          "quote": "And for now, we're going to lean pretty heavily into Git, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2374.32,
+            2376.301
+          ],
+          "quote": "Like our customers are using Git.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "supermemory",
+      "type": "concept",
+      "role": "concept",
+      "name": "SuperMemory",
+      "file": "SuperMemory",
+      "primary": false,
+      "how_described": "本集举的第三方记忆 provider 例子：不暴露工具，在确定性 save 时机自己跑智能体流程决定存什么，recall 也是智能体检索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 585,
+          "t": [
+            2707.026,
+            2717.308
+          ],
+          "quote": "So we'll call, recall again after compaction, and someone like SuperMemory, they might actually look at the compacted problem and say, oh no, we're good, it has what we need, or no, we have to re-inject.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": false,
+      "how_described": "本集用作单机智能体的反例：一千人同时发提示词 OpenClaw 会垮，Eve 会横向扩展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            258.47,
+            263.615
+          ],
+          "quote": "And I'm thinking about all these folks who got excited about OpenClaw and they got their own Mac Mini and they're running it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 56,
+          "t": [
+            275.247,
+            285.272
+          ],
+          "quote": "The example I love to give is, you know, let's take an OpenClaw and let's take an Eve agent and let's let a thousand people send a prompt at the exact same time and what, you know, what's going to happen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2227.7,
+            2239.968
+          ],
+          "quote": "So one of the things that's interesting working with something like an OpenClaw or a Hermes or one of these things is that they have as a part of their built-in loops some amount of, oh, I'm going to remember this.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "hermes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Hermes",
+      "file": "Hermes",
+      "primary": false,
+      "how_described": "本集说 Hermes 那类智能体可以就地改自己的代码再重启，Eve 的自我进化选择走 Git 开 PR 的不同路径。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 468,
+          "t": [
+            2227.7,
+            2239.968
+          ],
+          "quote": "So one of the things that's interesting working with something like an OpenClaw or a Hermes or one of these things is that they have as a part of their built-in loops some amount of, oh, I'm going to remember this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2298.64,
+            2305.904
+          ],
+          "quote": "Eve is going to do it a little bit differently than maybe something like Hermes, which can literally just update its code in place and then restart itself effectively.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2627.739,
+            2632.081
+          ],
+          "quote": "This is very similar, I think, to like Hermes has like a user.md file, I believe.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

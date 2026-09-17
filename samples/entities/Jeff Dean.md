@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":253,"多智能体系统":5,"专用推理硬件":1,"推理":46,"上下文工程":12,"TPU":3,"MapReduce":1,"蒸馏":11,"AlphaFold":2,"Gemini":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":257,"多智能体系统":5,"专用推理硬件":1,"推理":46,"上下文工程":12,"TPU":3,"MapReduce":1,"蒸馏":11,"AlphaFold":2,"Gemini":8}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":253,"MCP":42,"沙箱":49,"连接器":3,"智能 LLM 路由器":1,"可观测性":20,"后训练":22}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":257,"MCP":44,"沙箱":50,"连接器":3,"智能 LLM 路由器":1,"可观测性":21,"后训练":22}</script>
 
 <script>
 (function(){

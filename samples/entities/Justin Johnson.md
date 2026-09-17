@@ -38,11 +38,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]] [[Vali]] [[Luca Ferrari]] [[David Morehead]]
+[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Keith Peiris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":6,"Marble":4,"Sam Charrington":4,"Martin Casado":4,"高斯溅射":1,"Atlas":2,"智能体":253,"空间智能":3,"PoMDPs":1}</script>
+<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":6,"Marble":4,"Sam Charrington":4,"Martin Casado":4,"高斯溅射":1,"Atlas":2,"智能体":257,"空间智能":3,"PoMDPs":1}</script>
 
 <script>
 (function(){

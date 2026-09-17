@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":58,"Claude Code":61,"智能体":253,"对抗性智能体":1,"MCP":42,"知识库":1,"技能":15,"vibe coding":35,"红队测试":3}</script>
+<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":59,"Claude Code":62,"智能体":257,"对抗性智能体":1,"MCP":44,"知识库":1,"技能":16,"vibe coding":35,"红队测试":3}</script>
 
 <script>
 (function(){

@@ -130,9 +130,9 @@ Andrew 的核心主张是： 他们之前实测过许多资金充足的垂直智
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-17-sed-scaling-agent-workloads-at-vercel|把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve]]<span class="pd-rz">同公司:Vercel · 同概念:Eve、智能体 (agent)、沙箱 (sandbox)、Next.js</span>
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操]]<span class="pd-rz">同公司:Vercel · 同概念:Eve、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术]]<span class="pd-rz">同概念:skill、智能体 (agent)、沙箱 (sandbox)、Claude Code</span>
-- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,1122 @@
+[
+ {
+  "seg": 0,
+  "start": 12.905,
+  "end": 13.745,
+  "speaker": "Unknown",
+  "en": "My name is Bo.",
+  "zh": "我叫 Bo。"
+ },
+ {
+  "seg": 1,
+  "start": 14.066,
+  "end": 30.974,
+  "speaker": "Unknown",
+  "en": "I'm going to be here presenting real-time voice agents with Frontier Intelligence, effectively going to be talking a little bit about how we at Elise AI architected our voice agent harness to get real-time voice with the Frontier level of intelligence that we need.",
+  "zh": "我今天要在这里展示基于 Frontier Intelligence 的实时语音智能体，实际上会简单讲一下我们 Elise AI 是如何架构我们的语音智能体框架，以实现具有我们所需要的 Frontier 级别智能的实时语音。"
+ },
+ {
+  "seg": 2,
+  "start": 33.035,
+  "end": 38.418,
+  "speaker": "Unknown",
+  "en": "Okay, so before I start, I think I wanted to kind of draw some parallels about",
+  "zh": "好的，在开始之前，我想先做一些类比，"
+ },
+ {
+  "seg": 3,
+  "start": 40.372,
+  "end": 48.522,
+  "speaker": "Unknown",
+  "en": "why we decided to go with Cascaded Voice Agents, and especially comparing that to self-driving cars, which I was working in before.",
+  "zh": "关于我们为什么决定采用级联语音智能体（Cascaded Voice Agents），特别是拿它和我之前从事的自动驾驶领域做比较。"
+ },
+ {
+  "seg": 4,
+  "start": 49.163,
+  "end": 57.092,
+  "speaker": "Unknown",
+  "en": "So to me, Cascaded Voice Agents makes a lot of sense when you view it in the lens of breaking it down into perception, which is",
+  "zh": "对我来说，级联语音智能体在把它拆解为感知、规划、控制这几个层面来看时是非常合理的，感知就是"
+ },
+ {
+  "seg": 5,
+  "start": 58.52,
+  "end": 63.061,
+  "speaker": "Unknown",
+  "en": "For subterranean cards, it's the bounding boxes, the camera, the LIDAR.",
+  "zh": "对于地下车辆来说（原文如此），就是边界框、摄像头、激光雷达。"
+ },
+ {
+  "seg": 6,
+  "start": 63.901,
+  "end": 77.805,
+  "speaker": "Unknown",
+  "en": "For voice, it's going to be the transcription, basically effectively turning these signals from the real world into elements of data that the language model or whatever brain you are working on can process.",
+  "zh": "对于语音来说，就是转写，基本上就是把这些来自现实世界的信号转化为语言模型或你正在使用的任何大脑可以处理的数据元素。"
+ },
+ {
+  "seg": 7,
+  "start": 79.285,
+  "end": 83.267,
+  "speaker": "Unknown",
+  "en": "Second one is the planning stack, which is pretty straightforward.",
+  "zh": "第二个是规划栈，这很直白。"
+ },
+ {
+  "seg": 8,
+  "start": 83.507,
+  "end": 93.733,
+  "speaker": "Unknown",
+  "en": "This is where the language model will take in the outputs from the perception stage and produce the outputs that you want to produce out back into the real world.",
+  "zh": "这一层，语言模型会接收感知阶段的输出，并产生你想要输出回现实世界的输出。"
+ },
+ {
+  "seg": 9,
+  "start": 94.731,
+  "end": 108.238,
+  "speaker": "Unknown",
+  "en": "And finally, there's the controls layer, where in self-driving, you would be taking the trajectory that the planner would output and kind of turn it into the real controls to kind of build, like drive the car.",
+  "zh": "最后是控制层，在自动驾驶中，你会把规划器输出的轨迹转化为真实的控制信号，比如用来驾驶汽车。"
+ },
+ {
+  "seg": 10,
+  "start": 108.478,
+  "end": 114.561,
+  "speaker": "Unknown",
+  "en": "Here, we're turning the text into audio that we use to express our voice agent's thoughts.",
+  "zh": "在这里，我们是把文本转化为音频，用来表达我们语音智能体的想法。"
+ },
+ {
+  "seg": 11,
+  "start": 117.06,
+  "end": 122.023,
+  "speaker": "Unknown",
+  "en": "And so here I'll be diving into each one of these elements.",
+  "zh": "接下来我会深入讲这几个元素中的每一个。"
+ },
+ {
+  "seg": 12,
+  "start": 122.464,
+  "end": 132.01,
+  "speaker": "Unknown",
+  "en": "And we've made a few interesting tricks on each of these areas to improve the speed of our voice agents without sacrificing the intelligence.",
+  "zh": "我们在这几个领域都做了一些有趣的技巧，来提升语音智能体的速度，同时不牺牲智能。"
+ },
+ {
+  "seg": 13,
+  "start": 133.657,
+  "end": 137.2,
+  "speaker": "Unknown",
+  "en": "So the first one is going to be the transcriber layer.",
+  "zh": "第一个是转写层。"
+ },
+ {
+  "seg": 14,
+  "start": 137.5,
+  "end": 155.075,
+  "speaker": "Unknown",
+  "en": "So we came up with this concept called the streaming speculative transcriber, where effectively we are layering a fast streaming transcriber, like Flux, on top of or kind of below a scribe v2 or an accurate batch transcription, which takes in more context.",
+  "zh": "我们提出了这个叫流式投机转写器的概念，实际上我们是在一个准确但较慢的批处理转写（比如 scribe v2，它能接收更多上下文）之上或之下，叠加一个快速的流式转写器，比如 Flux。"
+ },
+ {
+  "seg": 15,
+  "start": 155.275,
+  "end": 158.278,
+  "speaker": "Unknown",
+  "en": "It's a little bit slower, but it will give you more accurate detections.",
+  "zh": "它稍微慢一点，但会给你更准确的检测。"
+ },
+ {
+  "seg": 16,
+  "start": 159.23,
+  "end": 161.251,
+  "speaker": "Unknown",
+  "en": "So I'm going to walk through a setting now.",
+  "zh": "所以我现在要过一遍一个场景。"
+ },
+ {
+  "seg": 17,
+  "start": 161.331,
+  "end": 166.815,
+  "speaker": "Unknown",
+  "en": "So in this case, the agent just asked, you know, providing, can you write your name and date of birth?",
+  "zh": "在这个例子中，智能体刚问，你知道的，能不能写下你的姓名和出生日期？"
+ },
+ {
+  "seg": 18,
+  "start": 166.915,
+  "end": 171.839,
+  "speaker": "Unknown",
+  "en": "And the user is going to say this, and we'll see how that plays out timing-wise.",
+  "zh": "用户会说出这句话，我们来看看时间上是如何运作的。"
+ },
+ {
+  "seg": 19,
+  "start": 171.959,
+  "end": 174.881,
+  "speaker": "Unknown",
+  "en": "So first we're going to get, you know, the shore detection.",
+  "zh": "首先，我们会得到，你知道的，短检测。"
+ },
+ {
+  "seg": 20,
+  "start": 176.742,
+  "end": 178.564,
+  "speaker": "Unknown",
+  "en": "We'll get it from the streaming layer.",
+  "zh": "我们会从流式层拿到它。"
+ },
+ {
+  "seg": 21,
+  "start": 178.584,
+  "end": 184.168,
+  "speaker": "Unknown",
+  "en": "The accurate layer, the corrective layer is not going to fire because it's the same text.",
+  "zh": "准确层、纠错层不会触发，因为文本是一样的。"
+ },
+ {
+  "seg": 22,
+  "start": 185.578,
+  "end": 188.759,
+  "speaker": "Unknown",
+  "en": "We are going to get some more streaming text detections.",
+  "zh": "我们会得到更多的流式文本检测。"
+ },
+ {
+  "seg": 23,
+  "start": 189.44,
+  "end": 195.302,
+  "speaker": "Unknown",
+  "en": "And in this case, the corrective layer is actually cancelled because we got new text.",
+  "zh": "在这个例子里，纠错层实际上被取消了，因为我们拿到了新文本。"
+ },
+ {
+  "seg": 24,
+  "start": 195.322,
+  "end": 200.544,
+  "speaker": "Unknown",
+  "en": "So more context, more audio is going to beat the old accurate one.",
+  "zh": "所以更多上下文、更多音频会胜过旧的准确结果。"
+ },
+ {
+  "seg": 25,
+  "start": 201.764,
+  "end": 203.805,
+  "speaker": "Unknown",
+  "en": "And here is where kind of the first correction comes in.",
+  "zh": "而这里就是第一个纠错进场的地方。"
+ },
+ {
+  "seg": 26,
+  "start": 204.085,
+  "end": 213.028,
+  "speaker": "Unknown",
+  "en": "So because the scribe v2 layer understands the context of the question, it is able to understand that this is talking about a name and this is a date of birth.",
+  "zh": "因为 scribe v2 层理解问题的上下文，它能够理解这里说的是姓名，而这是出生日期。"
+ },
+ {
+  "seg": 27,
+  "start": 214.448,
+  "end": 215.55,
+  "speaker": "Unknown",
+  "en": "Then a couple more detections.",
+  "zh": "然后又有几个检测。"
+ },
+ {
+  "seg": 28,
+  "start": 215.57,
+  "end": 216.652,
+  "speaker": "Unknown",
+  "en": "These are just punctuation.",
+  "zh": "这些只是标点。"
+ },
+ {
+  "seg": 29,
+  "start": 216.732,
+  "end": 217.233,
+  "speaker": "Unknown",
+  "en": "We don't care.",
+  "zh": "我们不在乎。"
+ },
+ {
+  "seg": 30,
+  "start": 218.035,
+  "end": 223.185,
+  "speaker": "Unknown",
+  "en": "And so in the end, we kind of release this text over to the agent.",
+  "zh": "最终，我们把这段文本发布给智能体。"
+ },
+ {
+  "seg": 31,
+  "start": 224.475,
+  "end": 227.116,
+  "speaker": "Unknown",
+  "en": "And moving on to the language model there.",
+  "zh": "接下来进入语言模型部分。"
+ },
+ {
+  "seg": 32,
+  "start": 227.956,
+  "end": 234.998,
+  "speaker": "Unknown",
+  "en": "So here, since we're kind of using these slow but intelligent LLMs, we really want to reduce the number of round trips.",
+  "zh": "在这里，因为我们用的是这些慢但聪明的 LLM，我们非常想减少往返次数。"
+ },
+ {
+  "seg": 33,
+  "start": 235.398,
+  "end": 239.96,
+  "speaker": "Unknown",
+  "en": "And the thing that causes us to do a lot of inferences is tool calling.",
+  "zh": "而导致我们做大量推理的是工具调用。"
+ },
+ {
+  "seg": 34,
+  "start": 240.56,
+  "end": 247.142,
+  "speaker": "Unknown",
+  "en": "So one way to get rid of that is by having background agents do the tool calling for you and kind of",
+  "zh": "摆脱这个问题的一种方法是让后台智能体替你完成工具调用，然后"
+ },
+ {
+  "seg": 35,
+  "start": 248.235,
+  "end": 257.247,
+  "speaker": "Unknown",
+  "en": "So, we had to push the tools back into the context of the main agent so that it thinks it made the tool call, but it really didn't.",
+  "zh": "我们必须把工具结果推回主智能体的上下文里，让它以为自己做了工具调用，但其实没有。"
+ },
+ {
+  "seg": 36,
+  "start": 259.677,
+  "end": 261.758,
+  "speaker": "Unknown",
+  "en": "So we remember from detection from before.",
+  "zh": "所以我们记住之前的检测。"
+ },
+ {
+  "seg": 37,
+  "start": 262.598,
+  "end": 272.642,
+  "speaker": "Unknown",
+  "en": "So what will happen is each one of these detections is going to trigger an early generation of the agent.",
+  "zh": "接下来会发生的是，这些检测中的每一个都会触发智能体的一次提前生成。"
+ },
+ {
+  "seg": 38,
+  "start": 273.282,
+  "end": 279.545,
+  "speaker": "Unknown",
+  "en": "But we won't actually emit this out until we're confirming that the user has finished speaking.",
+  "zh": "但在我们确认用户已经说完之前，我们不会真正把这个输出出去。"
+ },
+ {
+  "seg": 39,
+  "start": 280.445,
+  "end": 282.307,
+  "speaker": "Unknown",
+  "en": "In this case, the user says, sure.",
+  "zh": "在这个例子中，用户说，好的。"
+ },
+ {
+  "seg": 40,
+  "start": 282.547,
+  "end": 284.789,
+  "speaker": "Unknown",
+  "en": "The agent kind of knows that the user is about to say something else.",
+  "zh": "智能体大概知道用户接下来还要说什么。"
+ },
+ {
+  "seg": 41,
+  "start": 285.41,
+  "end": 292.937,
+  "speaker": "Unknown",
+  "en": "Our background tool colleague here, which is going to be helping us figure out the name and the date of birth from the user detection, is not firing.",
+  "zh": "我们的后台工具同事——它要帮我们从用户的检测中弄清楚姓名和出生日期——没有触发。"
+ },
+ {
+  "seg": 42,
+  "start": 293.137,
+  "end": 294.658,
+  "speaker": "Unknown",
+  "en": "So nothing much there.",
+  "zh": "所以那里没什么动静。"
+ },
+ {
+  "seg": 43,
+  "start": 296.1,
+  "end": 297.841,
+  "speaker": "Unknown",
+  "en": "The next instant detection comes in.",
+  "zh": "下一个即时检测进来了。"
+ },
+ {
+  "seg": 44,
+  "start": 298.302,
+  "end": 301.565,
+  "speaker": "Unknown",
+  "en": "It says that it's still not really a name.",
+  "zh": "它显示这仍然不算是一个名字。"
+ },
+ {
+  "seg": 45,
+  "start": 302.586,
+  "end": 304.788,
+  "speaker": "Unknown",
+  "en": "Our agent kind of plays along and continues there.",
+  "zh": "我们的智能体大概配合着继续下去。"
+ },
+ {
+  "seg": 46,
+  "start": 306.372,
+  "end": 308.913,
+  "speaker": "Unknown",
+  "en": "Now kind of more context comes back.",
+  "zh": "现在更多上下文回来了。"
+ },
+ {
+  "seg": 47,
+  "start": 309.333,
+  "end": 311.253,
+  "speaker": "Unknown",
+  "en": "The agent kind of feels like there should be a name.",
+  "zh": "智能体大概觉得这里应该有个名字。"
+ },
+ {
+  "seg": 48,
+  "start": 311.273,
+  "end": 316.275,
+  "speaker": "Unknown",
+  "en": "It's going to ask to spell it out because it's probably thinking there's some transcription error here.",
+  "zh": "它会要求把名字拼出来，因为它大概在想这里有某个转写错误。"
+ },
+ {
+  "seg": 49,
+  "start": 316.915,
+  "end": 318.516,
+  "speaker": "Unknown",
+  "en": "Still no name or date of birth.",
+  "zh": "仍然没有姓名或出生日期。"
+ },
+ {
+  "seg": 50,
+  "start": 319.216,
+  "end": 323.397,
+  "speaker": "Unknown",
+  "en": "And then finally this, if you remember, this is kind of our corrected final instant.",
+  "zh": "最后是这个，如果你还记得的话，这是我们修正后的最终实例。"
+ },
+ {
+  "seg": 51,
+  "start": 323.817,
+  "end": 328.698,
+  "speaker": "Unknown",
+  "en": "The background agent is going to be the detection from the transcriber from the ScribeV2.",
+  "zh": "后台智能体将来自 ScribeV2 的转写器进行检测。"
+ },
+ {
+  "seg": 52,
+  "start": 328.718,
+  "end": 338.58,
+  "speaker": "Unknown",
+  "en": "Here, our eager agent generation that was made without any tool calls is going to get canceled because the background agent finally is able to find the name and date of birth it's looking for.",
+  "zh": "这里，我们那个在没有进行任何工具调用的情况下做出的 eager 智能体生成将被取消，因为后台智能体终于能够找到它正在寻找的姓名和出生日期。"
+ },
+ {
+  "seg": 53,
+  "start": 339.201,
+  "end": 344.162,
+  "speaker": "Unknown",
+  "en": "So it's going to re-trigger, and now the agent actually has the context it needs.",
+  "zh": "所以它会重新触发，现在这个智能体真正拥有了它所需的上下文。"
+ },
+ {
+  "seg": 54,
+  "start": 345.402,
+  "end": 348.323,
+  "speaker": "Unknown",
+  "en": "And you see here, the tool call here is a little bit",
+  "zh": "你在这里会看到，这里的工具调用有一点"
+ },
+ {
+  "seg": 55,
+  "start": 349.91,
+  "end": 350.851,
+  "speaker": "Unknown",
+  "en": "Some intelligence there.",
+  "zh": "那里有一些智能性。"
+ },
+ {
+  "seg": 56,
+  "start": 350.911,
+  "end": 356.214,
+  "speaker": "Unknown",
+  "en": "We're going to be correcting mistranscriptions of name, doing some phonetic matching here.",
+  "zh": "我们将纠正姓名的错误转写，在这里做一些语音匹配。"
+ },
+ {
+  "seg": 57,
+  "start": 357.895,
+  "end": 363.919,
+  "speaker": "Unknown",
+  "en": "And yeah, and then we'll kind of, once we've understood that this is the end of the user utterance, we'll kind of emit it out.",
+  "zh": "然后，一旦我们理解到这是用户话语的结尾，我们就把它发出去。"
+ },
+ {
+  "seg": 58,
+  "start": 364.199,
+  "end": 364.98,
+  "speaker": "Unknown",
+  "en": "So pretty standard.",
+  "zh": "所以这是相当标准的。"
+ },
+ {
+  "seg": 59,
+  "start": 366.579,
+  "end": 369.581,
+  "speaker": "Unknown",
+  "en": "Okay, and then the next layer here is going to be text-to-speech.",
+  "zh": "好的，那么这里的下一层将是文本转语音。"
+ },
+ {
+  "seg": 60,
+  "start": 369.922,
+  "end": 376.967,
+  "speaker": "Unknown",
+  "en": "So with text-to-speech, the goal is to kind of take what the agent said, and the agent's going to be omitting this in a streaming fashion.",
+  "zh": "对于文本转语音来说，目标是获取智能体所说的内容，而智能体将以流式方式输出这些内容。"
+ },
+ {
+  "seg": 61,
+  "start": 377.167,
+  "end": 381.751,
+  "speaker": "Unknown",
+  "en": "So we're going to need to produce audio as quickly as possible.",
+  "zh": "所以我们需要尽可能快地生成音频。"
+ },
+ {
+  "seg": 62,
+  "start": 382.131,
+  "end": 390.758,
+  "speaker": "Unknown",
+  "en": "And ideally, what you can do is, before the agent has even finished generating the full text, you can have the audio play.",
+  "zh": "理想情况下，你可以在智能体还没完成完整文本生成之前，就已经让音频播放出来。"
+ },
+ {
+  "seg": 63,
+  "start": 390.838,
+  "end": 394.001,
+  "speaker": "Unknown",
+  "en": "So it's kind of hiding the latency of finishing the generation.",
+  "zh": "这有点像是把完成生成所带来的延迟隐藏起来。"
+ },
+ {
+  "seg": 64,
+  "start": 396.364,
+  "end": 401.191,
+  "speaker": "Unknown",
+  "en": "I'm going to play the streaming agent output now.",
+  "zh": "我现在要播放流式智能体的输出了。"
+ },
+ {
+  "seg": 65,
+  "start": 401.411,
+  "end": 402.693,
+  "speaker": "Unknown",
+  "en": "So it starts with U.",
+  "zh": "所以它以 U 开头。"
+ },
+ {
+  "seg": 66,
+  "start": 403.614,
+  "end": 409.161,
+  "speaker": "Unknown",
+  "en": "And actually, before I dive further, there's this new concept that we're introducing here called the prefix cache.",
+  "zh": "实际上，在我进一步深入之前，我们在这里引入了一个新概念，叫做前缀缓存。"
+ },
+ {
+  "seg": 67,
+  "start": 409.782,
+  "end": 413.367,
+  "speaker": "Unknown",
+  "en": "So the prefix cache is going to be looking at the",
+  "zh": "所以这个前缀缓存将查看"
+ },
+ {
+  "seg": 68,
+  "start": 415.018,
+  "end": 429.21,
+  "speaker": "Unknown",
+  "en": "AgentStream, and seeing if we already have generated audio for that sequence of words from a prior generation or maybe the same generation in this call as well.",
+  "zh": "智能体流，看看对于这串词，我们是否已经在之前的生成中生成过音频，或者也可能是本次通话中同一生成里生成过的。"
+ },
+ {
+  "seg": 69,
+  "start": 430.19,
+  "end": 433.093,
+  "speaker": "Unknown",
+  "en": "So it sees the word you.",
+  "zh": "所以它看到了 you 这个词。"
+ },
+ {
+  "seg": 70,
+  "start": 433.313,
+  "end": 439.298,
+  "speaker": "Unknown",
+  "en": "For this prefix cache, we don't want to immediately hit on every single word.",
+  "zh": "对于这个前缀缓存，我们不想在每个词上都立即命中。"
+ },
+ {
+  "seg": 71,
+  "start": 439.438,
+  "end": 441.8,
+  "speaker": "Unknown",
+  "en": "We're going to be waiting for a little bit more words.",
+  "zh": "我们要再等几个词。"
+ },
+ {
+  "seg": 72,
+  "start": 443.176,
+  "end": 447.04,
+  "speaker": "Unknown",
+  "en": "So after three words, the prefix cache gets our first hit.",
+  "zh": "所以在三个词之后，前缀缓存迎来了第一次命中。"
+ },
+ {
+  "seg": 73,
+  "start": 447.96,
+  "end": 453.145,
+  "speaker": "Unknown",
+  "en": "And over here on the right, this is kind of our text-to-speech standard provider.",
+  "zh": "而在右边这里，这是我们的文本转语音标准提供商。"
+ },
+ {
+  "seg": 74,
+  "start": 453.665,
+  "end": 456.427,
+  "speaker": "Unknown",
+  "en": "Cartesia is a text-to-speech engine with WebSocket support.",
+  "zh": "Cartesia 是一个支持 WebSocket 的文本转语音引擎。"
+ },
+ {
+  "seg": 75,
+  "start": 456.908,
+  "end": 465.355,
+  "speaker": "Unknown",
+  "en": "So we're piping the agent through the cache and also piping it through WebSocket.",
+  "zh": "所以我们把智能体的输出通过缓存进行管道传输，同时也通过 WebSocket 进行管道传输。"
+ },
+ {
+  "seg": 76,
+  "start": 465.815,
+  "end": 469.138,
+  "speaker": "Unknown",
+  "en": "More tokens come in, more cache, more sending through WebSocket.",
+  "zh": "更多的 token 进来，更多进入缓存，更多通过 WebSocket 发送。"
+ },
+ {
+  "seg": 77,
+  "start": 469.598,
+  "end": 470.399,
+  "speaker": "Unknown",
+  "en": "Not much to say here.",
+  "zh": "这里没什么好多说的。"
+ },
+ {
+  "seg": 78,
+  "start": 471.9,
+  "end": 481.225,
+  "speaker": "Unknown",
+  "en": "And OK, so now we get our first unique thing, which is we found a token that actually causes a cache miss.",
+  "zh": "好的，现在我们遇到了第一个独特的东西，也就是我们发现了一个实际上导致缓存未命中的 token。"
+ },
+ {
+  "seg": 79,
+  "start": 481.505,
+  "end": 482.205,
+  "speaker": "Unknown",
+  "en": "And it makes sense.",
+  "zh": "而这是合理的。"
+ },
+ {
+  "seg": 80,
+  "start": 482.425,
+  "end": 487.468,
+  "speaker": "Unknown",
+  "en": "If we're kind of caching previous generations, you said your name is is a pretty common thing.",
+  "zh": "如果我们在缓存之前的生成内容，\"you said your name is\" 是相当常见的。"
+ },
+ {
+  "seg": 81,
+  "start": 487.648,
+  "end": 491.95,
+  "speaker": "Unknown",
+  "en": "But once we add in the name, suddenly that's going to result in a cache miss.",
+  "zh": "但一旦我们加入了姓名，突然间就会导致缓存未命中。"
+ },
+ {
+  "seg": 82,
+  "start": 492.91,
+  "end": 495.573,
+  "speaker": "Unknown",
+  "en": "At this point, we're actually going to yield out our cached audio.",
+  "zh": "到这一步，我们实际上会输出我们缓存的音频。"
+ },
+ {
+  "seg": 83,
+  "start": 495.693,
+  "end": 502.059,
+  "speaker": "Unknown",
+  "en": "So you said your name is is going to be emitted as the rest of the streaming text is coming back.",
+  "zh": "所以 \"you said your name is\" 会在剩余的流式文本还在传回来的时候被发出。"
+ },
+ {
+  "seg": 84,
+  "start": 502.56,
+  "end": 505.322,
+  "speaker": "Unknown",
+  "en": "So at this point, the user hears the agent.",
+  "zh": "到这一步，用户就听到了智能体的声音。"
+ },
+ {
+  "seg": 85,
+  "start": 505.563,
+  "end": 507.164,
+  "speaker": "Unknown",
+  "en": "The user doesn't really know what's going on.",
+  "zh": "用户其实不知道发生了什么。"
+ },
+ {
+  "seg": 86,
+  "start": 507.184,
+  "end": 509.887,
+  "speaker": "Unknown",
+  "en": "It just looks like really fast response times to them.",
+  "zh": "对他们来说，这看起来就是非常快的响应时间。"
+ },
+ {
+  "seg": 87,
+  "start": 512.634,
+  "end": 514.435,
+  "speaker": "Unknown",
+  "en": "And now the kind of remaining text flows through.",
+  "zh": "而现在剩余的文本继续流动。"
+ },
+ {
+  "seg": 88,
+  "start": 515.755,
+  "end": 518.256,
+  "speaker": "Unknown",
+  "en": "And at this point, we've already emitted from the cache.",
+  "zh": "到这一步，我们已经从缓存中发出了内容。"
+ },
+ {
+  "seg": 89,
+  "start": 518.556,
+  "end": 519.557,
+  "speaker": "Unknown",
+  "en": "The cache has done its job.",
+  "zh": "缓存已经完成了它的任务。"
+ },
+ {
+  "seg": 90,
+  "start": 520.537,
+  "end": 523.138,
+  "speaker": "Unknown",
+  "en": "The rest we can kind of throw into Cartesia.",
+  "zh": "剩下的我们可以扔给 Cartesia。"
+ },
+ {
+  "seg": 91,
+  "start": 524.278,
+  "end": 532.381,
+  "speaker": "Unknown",
+  "en": "And here's kind of the trick, where Cartesia has seen the entire transcript up to this point.",
+  "zh": "而这里的诀窍在于，Cartesia 已经看到了到目前为止的整个转写内容。"
+ },
+ {
+  "seg": 92,
+  "start": 534.35,
+  "end": 538.173,
+  "speaker": "Unknown",
+  "en": "To Cartesia, it doesn't know about the existence of this prefix cache.",
+  "zh": "对 Cartesia 来说，它并不知道这个前缀缓存的存在。"
+ },
+ {
+  "seg": 93,
+  "start": 538.253,
+  "end": 542.757,
+  "speaker": "Unknown",
+  "en": "It's just going to generate this full sentence with standard natural prosody.",
+  "zh": "它只会以标准的自然韵律生成这整句话。"
+ },
+ {
+  "seg": 94,
+  "start": 543.677,
+  "end": 554.266,
+  "speaker": "Unknown",
+  "en": "But what we do is when the generation comes back, since we've already played the audio here, we can actually suppress the audio from Cartesia here and just play out the remaining stuff.",
+  "zh": "但我们要做的是，当生成结果传回来时，由于我们已经在这里播放了音频，我们实际上可以抑制掉 Cartesia 的这部分音频，只播放剩下的内容。"
+ },
+ {
+  "seg": 95,
+  "start": 555.727,
+  "end": 559.571,
+  "speaker": "Unknown",
+  "en": "The user, there might be a tiny bit of a hiccup.",
+  "zh": "对用户来说，可能会有非常轻微的一点卡顿。"
+ },
+ {
+  "seg": 96,
+  "start": 559.852,
+  "end": 563.776,
+  "speaker": "Unknown",
+  "en": "I'll play some audio later, and you probably won't be able to notice.",
+  "zh": "我稍后会播放一些音频，你很可能根本注意不到。"
+ },
+ {
+  "seg": 97,
+  "start": 564.717,
+  "end": 574.287,
+  "speaker": "Unknown",
+  "en": "And effectively, we're kind of taking this part and just emitting it directly after this audio has finished playing.",
+  "zh": "实际上，我们就是在音频播放完毕后，把这部分直接接在后面发出。"
+ },
+ {
+  "seg": 98,
+  "start": 574.407,
+  "end": 575.609,
+  "speaker": "Unknown",
+  "en": "So it looks seamless to the user.",
+  "zh": "所以对用户来说看起来是无缝的。"
+ },
+ {
+  "seg": 99,
+  "start": 577.597,
+  "end": 582.82,
+  "speaker": "Unknown",
+  "en": "And yeah, so I guess at this point kind of this is a lot of technical details.",
+  "zh": "好，那么我想到了这里，这已经是一大堆技术细节了。"
+ },
+ {
+  "seg": 100,
+  "start": 582.92,
+  "end": 588.682,
+  "speaker": "Unknown",
+  "en": "I think the best way is just kind of play a call and see this in action.",
+  "zh": "我想最好的方式就是实际打个电话，看看它的实际运作。"
+ },
+ {
+  "seg": 101,
+  "start": 589.303,
+  "end": 593.545,
+  "speaker": "Unknown",
+  "en": "So here I recorded a call and let's just hear what happens.",
+  "zh": "所以我在这里录了一段通话，我们来听听会发生什么。"
+ },
+ {
+  "seg": 102,
+  "start": 595.186,
+  "end": 598.187,
+  "speaker": "Unknown",
+  "en": "This is Bo, OBGYN, Elise speaking.",
+  "zh": "这里是 Bo 妇产科，Elise 为您服务。"
+ },
+ {
+  "seg": 103,
+  "start": 600.208,
+  "end": 604.43,
+  "speaker": "Unknown",
+  "en": "Hi, I think I might be pregnant and I want to schedule an ultrasound to confirm.",
+  "zh": "你好，我想我可能怀孕了，我想预约一次超声波检查来确认。"
+ },
+ {
+  "seg": 104,
+  "start": 606.235,
+  "end": 607.855,
+  "speaker": "Unknown",
+  "en": "That's exciting news.",
+  "zh": "这是个好消息。"
+ },
+ {
+  "seg": 105,
+  "start": 608.316,
+  "end": 610.536,
+  "speaker": "Unknown",
+  "en": "Can you provide your name and date of birth?",
+  "zh": "能提供一下您的姓名和出生日期吗？"
+ },
+ {
+  "seg": 106,
+  "start": 612.196,
+  "end": 612.537,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 107,
+  "start": 612.577,
+  "end": 617.418,
+  "speaker": "Unknown",
+  "en": "It's a lease trial, date of birth 2303.",
+  "zh": "我叫 Elise Trial，出生日期是 2303。"
+ },
+ {
+  "seg": 108,
+  "start": 621.719,
+  "end": 622.219,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 109,
+  "start": 622.759,
+  "end": 624.159,
+  "speaker": "Unknown",
+  "en": "Are you a new patient with us?",
+  "zh": "您是我们的新患者吗？"
+ },
+ {
+  "seg": 110,
+  "start": 626.48,
+  "end": 626.8,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 111,
+  "start": 629.401,
+  "end": 631.341,
+  "speaker": "Unknown",
+  "en": "Welcome to Bow OBGYN.",
+  "zh": "欢迎来到 Bo 妇产科。"
+ },
+ {
+  "seg": 112,
+  "start": 631.741,
+  "end": 634.442,
+  "speaker": "Unknown",
+  "en": "Can I text you a link to upload your insurance information?",
+  "zh": "我可以给您发一条短信链接，让您上传保险信息吗？"
+ },
+ {
+  "seg": 113,
+  "start": 637.088,
+  "end": 637.428,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 114,
+  "start": 639.13,
+  "end": 639.47,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 115,
+  "start": 639.75,
+  "end": 640.05,
+  "speaker": "Unknown",
+  "en": "Sent.",
+  "zh": "已发送。"
+ },
+ {
+  "seg": 116,
+  "start": 640.611,
+  "end": 641.772,
+  "speaker": "Unknown",
+  "en": "Let me know when you've received it.",
+  "zh": "收到后请告诉我。"
+ },
+ {
+  "seg": 117,
+  "start": 648.797,
+  "end": 650.578,
+  "speaker": "Unknown",
+  "en": "I've received your insurance information.",
+  "zh": "我已经收到您的保险信息了。"
+ },
+ {
+  "seg": 118,
+  "start": 651.199,
+  "end": 657.123,
+  "speaker": "Unknown",
+  "en": "The earliest appointment I have is Thursday, July 2nd at 10 a.m. Actually, give me a second.",
+  "zh": "我这边最早的预约是 7 月 2 日星期四上午 10 点。哦，等一下。"
+ },
+ {
+  "seg": 119,
+  "start": 657.184,
+  "end": 658.264,
+  "speaker": "Unknown",
+  "en": "Let me check my calendar.",
+  "zh": "让我看看我的日历。"
+ },
+ {
+  "seg": 120,
+  "start": 661.567,
+  "end": 661.827,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 121,
+  "start": 662.187,
+  "end": 662.828,
+  "speaker": "Unknown",
+  "en": "Take your time.",
+  "zh": "您慢慢来。"
+ },
+ {
+  "seg": 122,
+  "start": 662.848,
+  "end": 666.831,
+  "speaker": "Unknown",
+  "en": "Do you have something for next week?",
+  "zh": "你们下周有什么时间吗？"
+ },
+ {
+  "seg": 123,
+  "start": 669.215,
+  "end": 680.018,
+  "speaker": "Unknown",
+  "en": "For next week, I can offer an ultrasound with Dr. Avery Stone at North Clinic on Tuesday, July 7th at 2 p.m. or 3 p.m. Do either of those work for you?",
+  "zh": "下周，我可以为您提供 7 月 7 日星期二下午 2 点或 3 点，在 North 诊所与 Avery Stone 医生的超声波检查。这两个时间哪个适合您？"
+ },
+ {
+  "seg": 124,
+  "start": 680.959,
+  "end": 681.959,
+  "speaker": "Unknown",
+  "en": "Yeah, 2 p.m. works.",
+  "zh": "嗯，下午 2 点可以。"
+ },
+ {
+  "seg": 125,
+  "start": 683.919,
+  "end": 684.4,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 126,
+  "start": 684.92,
+  "end": 686.3,
+  "speaker": "Unknown",
+  "en": "Your appointment has been booked.",
+  "zh": "您的预约已经订好了。"
+ },
+ {
+  "seg": 127,
+  "start": 686.68,
+  "end": 688.241,
+  "speaker": "Unknown",
+  "en": "We look forward to seeing you then.",
+  "zh": "我们期待届时见到您。"
+ },
+ {
+  "seg": 128,
+  "start": 689.881,
+  "end": 690.121,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 129,
+  "start": 690.401,
+  "end": 690.681,
+  "speaker": "Unknown",
+  "en": "Bye-bye.",
+  "zh": "再见。"
+ },
+ {
+  "seg": 130,
+  "start": 690.721,
+  "end": 693.122,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 131,
+  "start": 693.382,
+  "end": 694.603,
+  "speaker": "Unknown",
+  "en": "Yeah, that's pretty much it.",
+  "zh": "是的，基本上就是这样。"
+ },
+ {
+  "seg": 132,
+  "start": 695.993,
+  "end": 717.876,
+  "speaker": "Unknown",
+  "en": "Yeah, you can kind of see all this streaming, and a lot of things are happening in the background, and yeah, this is what really makes voice agents interesting, and there's a lot of effort that can be done in the harness to really kind of get a natural conversation, which is what we're after.",
+  "zh": "是的，你可以看到这些内容都是流式输出的，后台有很多事情在同时进行，这就是真正让语音智能体变得有意思的地方，而且在 harness 上还有很多工作可以做，来实现真正的自然对话，这正是我们追求的。"
+ },
+ {
+  "seg": 133,
+  "start": 719.873,
+  "end": 725.34,
+  "speaker": "Unknown",
+  "en": "Okay, yeah, so I guess briefly, you know, in the last part, I want to just talk a little bit about Elise.",
+  "zh": "好的，是的，我想简单说一下，在最后一部分，我想稍微谈谈 Elise。"
+ },
+ {
+  "seg": 134,
+  "start": 725.6,
+  "end": 732.989,
+  "speaker": "Unknown",
+  "en": "So I think Elise, you know, our headquarters are in New York, and kind of we're trying to expand our presence here in the Bay Area.",
+  "zh": "那么，Elise 呢，我们的总部在纽约，我们正试图扩大我们在湾区的影响力。"
+ },
+ {
+  "seg": 135,
+  "start": 733.429,
+  "end": 738.635,
+  "speaker": "Unknown",
+  "en": "We've, I think it's maybe like a different style of company that I think people are,",
+  "zh": "我们，我觉得这可能是一种不太一样的公司风格，我觉得人们——"
+ },
+ {
+  "seg": 136,
+  "start": 740.196,
+  "end": 753.362,
+  "speaker": "Unknown",
+  "en": "Like, when I think about AI startups in San Francisco, where we're actually very focused on just, like, helping people and helping people where they need it, like kind of the life's most critical areas.",
+  "zh": "比如说，当我想到旧金山的 AI 创业公司时，我们实际上非常专注于帮助人们，在人们需要帮助的地方提供帮助，也就是生活中最关键的领域。"
+ },
+ {
+  "seg": 137,
+  "start": 753.702,
+  "end": 758.224,
+  "speaker": "Unknown",
+  "en": "We work on housing, health care, and we're doing really well.",
+  "zh": "我们做住房和医疗保健，而且我们做得非常好。"
+ },
+ {
+  "seg": 138,
+  "start": 758.624,
+  "end": 769.268,
+  "speaker": "Unknown",
+  "en": "And, you know, there's a link here to kind of join our team, and we're going to be posting a lot on Twitter, so you can follow us at Elise AI as well.",
+  "zh": "我们这里有一个加入我们团队的链接，我们也会在 Twitter 上发布很多内容，你也可以关注我们的 Elise AI。"
+ },
+ {
+  "seg": 139,
+  "start": 771.194,
+  "end": 772.195,
+  "speaker": "Unknown",
+  "en": "Yeah, that's it.",
+  "zh": "好的，就到这里。"
+ }
+]

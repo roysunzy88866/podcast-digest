@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Hermes</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Hermes">HE</div><div class="pi"><h1 class="pt">Hermes</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Hermes">HE</div><div class="pi"><h1 class="pt">Hermes</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]]**(00:30起):本集说 Hermes 作为智能体脚手架有一个独特功能——自动技能生成，会观察你最频繁请求的任务类型并自动创建技能，实测在五个核心话题上带来 31% 的准确率提升
+- **[[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]]**(37:07起):本集说 Hermes 那类智能体可以就地改自己的代码再重启，Eve 的自我进化选择走 Git 开 PR 的不同路径。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-28-pg-company-os-hermes-openclaw|《OLX CPO 用智能体接管了产品团队运营》]] — 作为被讨论公司
+- [[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Aakash]] · [[Mikael]] · [[OLX Classifieds]] · [[OpenClaw]] · [[智能体]] · [[知识图谱]] · [[向量数据库]] · [[混合搜索]] · [[自动技能生成]] · [[指令库]]
+[[OpenClaw]] · [[智能体]] · [[Aakash]] · [[Andrew Barba]] · [[Mikael]] · [[Shar Dara]] · [[OLX Classifieds]] · [[Kevin Ball]] · [[知识图谱]] · [[Eve]]
 
-<script type="application/json" class="pd-epn">{"Aakash":3,"Mikael":1,"OLX Classifieds":1,"OpenClaw":17,"智能体":253,"知识图谱":3,"向量数据库":1,"混合搜索":2,"自动技能生成":1,"指令库":1}</script>
+<script type="application/json" class="pd-epn">{"OpenClaw":18,"智能体":257,"Aakash":3,"Andrew Barba":1,"Mikael":1,"Shar Dara":1,"OLX Classifieds":1,"Kevin Ball":1,"知识图谱":3,"Eve":3}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":253,"子智能体":8,"harness":34,"提示词缓存":2,"记忆":9,"评估":2,"LLM 当裁判":6,"沙箱":49,"人在回路":11}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":257,"子智能体":9,"harness":35,"提示词缓存":2,"记忆":12,"评估":2,"LLM 当裁判":6,"沙箱":50,"人在回路":11}</script>
 
 <script>
 (function(){

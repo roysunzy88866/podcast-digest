@@ -159,8 +159,8 @@ Will 是历史爱好者，最爱南北战争到一战那段——他办公室就
 **换个口味**
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同概念:ChatGPT、LLM</span>
+- [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|让品牌被 AI 看见：AEO 实战与研究]]<span class="pd-rz">同概念:ChatGPT、LLM</span>
 - [[2026-08-26-bigtech-how-ai-should-handle-news-politics-medic|谁来给 AI 聊天机器人做事实核查：前 CNN 主播的新战场]]<span class="pd-rz">同概念:LLM、ChatGPT、智能体 (agents)</span>
-- [[2025-06-22-lennys-the-quiet-architect-peter-deng|Peter Deng：产品不必是最重要的东西]]<span class="pd-rz">同概念:ChatGPT、Windsurf</span>
 
 </div>
 </div>

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Restate":1,"智能体":253,"持久化执行":2,"事件日志":1,"虚拟对象":1,"Meta":32,"MCP":42,"无服务器":2,"深度研究":2}</script>
+<script type="application/json" class="pd-epn">{"Restate":1,"智能体":257,"持久化执行":2,"事件日志":1,"虚拟对象":1,"Meta":32,"MCP":44,"无服务器":2,"深度研究":2}</script>
 
 <script>
 (function(){

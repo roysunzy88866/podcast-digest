@@ -1,0 +1,462 @@
+{
+  "episode_id": "2026-09-15-talks-realtime-voice-agents-with-frontier-inte",
+  "podcast": "精选演讲",
+  "date": "2026-09-15",
+  "tags": [
+    "语音智能体",
+    "低延迟",
+    "转写",
+    "文本转语音",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "bohan-li",
+      "type": "person",
+      "role": "guest",
+      "name": "Bohan Li",
+      "file": "Bohan Li",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "elise-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Elise AI",
+      "file": "Elise AI",
+      "primary": true,
+      "how_described": "嘉宾 Bo 所在的公司，架构了语音智能体 harness 实现实时语音；总部在纽约、正向湾区扩张，专注住房和医疗保健这些「生活中最关键的领域」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.066,
+            30.974
+          ],
+          "quote": "I'm going to be here presenting real-time voice agents with Frontier Intelligence, effectively going to be talking a little bit about how we at Elise AI architected our voice agent harness to get real-time voice with the Frontier level of intelligence that we need.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 138,
+          "t": [
+            758.624,
+            769.268
+          ],
+          "quote": "And, you know, there's a link here to kind of join our team, and we're going to be posting a lot on Twitter, so you can follow us at Elise AI as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "voice-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "语音智能体 (voice agents)",
+      "file": "语音智能体",
+      "primary": true,
+      "how_described": "本集主线：如何让语音智能体做到实时响应与 Frontier 级智能兼得；Bo 认为真正值得下功夫的是 harness——是它让对话变得自然",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.066,
+            30.974
+          ],
+          "quote": "I'm going to be here presenting real-time voice agents with Frontier Intelligence, effectively going to be talking a little bit about how we at Elise AI architected our voice agent harness to get real-time voice with the Frontier level of intelligence that we need.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 3,
+          "t": [
+            40.372,
+            48.522
+          ],
+          "quote": "why we decided to go with Cascaded Voice Agents, and especially comparing that to self-driving cars, which I was working in before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 4,
+          "t": [
+            49.163,
+            57.092
+          ],
+          "quote": "So to me, Cascaded Voice Agents makes a lot of sense when you view it in the lens of breaking it down into perception, which is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 12,
+          "t": [
+            122.464,
+            132.01
+          ],
+          "quote": "And we've made a few interesting tricks on each of these areas to improve the speed of our voice agents without sacrificing the intelligence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            695.993,
+            717.876
+          ],
+          "quote": "Yeah, you can kind of see all this streaming, and a lot of things are happening in the background, and yeah, this is what really makes voice agents interesting, and there's a lot of effort that can be done in the harness to really kind of get a natural conversation, which is what we're after.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cascaded-voice-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "级联语音智能体 (Cascaded Voice Agents)",
+      "file": "级联语音智能体",
+      "primary": true,
+      "how_described": "Bo 借鉴自动驾驶的核心架构：把链路拆成感知（转写）、规划（LLM）、控制（文本转语音）三层，每层单独提速、合起来不牺牲智能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            40.372,
+            48.522
+          ],
+          "quote": "why we decided to go with Cascaded Voice Agents, and especially comparing that to self-driving cars, which I was working in before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 4,
+          "t": [
+            49.163,
+            57.092
+          ],
+          "quote": "So to me, Cascaded Voice Agents makes a lot of sense when you view it in the lens of breaking it down into perception, which is",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "transcription",
+      "type": "concept",
+      "role": "concept",
+      "name": "转写 (transcription)",
+      "file": "转写",
+      "primary": true,
+      "how_described": "感知层：把用户音频变成语言模型能处理的数据；本集用快慢双转写（流式出字 + 批处理纠错）互为保险",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            63.901,
+            77.805
+          ],
+          "quote": "For voice, it's going to be the transcription, basically effectively turning these signals from the real world into elements of data that the language model or whatever brain you are working on can process.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            137.5,
+            155.075
+          ],
+          "quote": "So we came up with this concept called the streaming speculative transcriber, where effectively we are layering a fast streaming transcriber, like Flux, on top of or kind of below a scribe v2 or an accurate batch transcription, which takes in more context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 48,
+          "t": [
+            311.273,
+            316.275
+          ],
+          "quote": "It's going to ask to spell it out because it's probably thinking there's some transcription error here.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tool-calling",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具调用 (tool calling)",
+      "file": "工具调用",
+      "primary": true,
+      "how_described": "本集说它是导致大量推理往返的元凶；解法是让后台智能体替主智能体调工具、把结果静默推回上下文，「让它以为自己做了工具调用，但其实没有」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            235.398,
+            239.96
+          ],
+          "quote": "And the thing that causes us to do a lot of inferences is tool calling.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 34,
+          "t": [
+            240.56,
+            247.142
+          ],
+          "quote": "So one way to get rid of that is by having background agents do the tool calling for you and kind of",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "text-to-speech",
+      "type": "concept",
+      "role": "concept",
+      "name": "文本转语音 (text-to-speech)",
+      "file": "文本转语音",
+      "primary": true,
+      "how_described": "控制层：在智能体还在流式吐字时就开始播音频，把生成延迟藏起来；本集用前缀缓存复用历史音频、并抑制 TTS 重播段落",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            366.579,
+            369.581
+          ],
+          "quote": "Okay, and then the next layer here is going to be text-to-speech.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 60,
+          "t": [
+            369.922,
+            376.967
+          ],
+          "quote": "So with text-to-speech, the goal is to kind of take what the agent said, and the agent's going to be omitting this in a streaming fashion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            447.96,
+            453.145
+          ],
+          "quote": "And over here on the right, this is kind of our text-to-speech standard provider.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 74,
+          "t": [
+            453.665,
+            456.427
+          ],
+          "quote": "Cartesia is a text-to-speech engine with WebSocket support.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "prefix-cache",
+      "type": "concept",
+      "role": "concept",
+      "name": "前缀缓存 (prefix cache)",
+      "file": "前缀缓存",
+      "primary": true,
+      "how_described": "检查智能体正在吐出的词串之前是否生成过同样音频——「你说你的名字是」这类高频话术直接命中缓存、三个词后即可开播，个性化尾部才走 TTS",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            403.614,
+            409.161
+          ],
+          "quote": "And actually, before I dive further, there's this new concept that we're introducing here called the prefix cache.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            409.782,
+            413.367
+          ],
+          "quote": "So the prefix cache is going to be looking at the",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            433.313,
+            439.298
+          ],
+          "quote": "For this prefix cache, we don't want to immediately hit on every single word.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 72,
+          "t": [
+            443.176,
+            447.04
+          ],
+          "quote": "So after three words, the prefix cache gets our first hit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 92,
+          "t": [
+            534.35,
+            538.173
+          ],
+          "quote": "To Cartesia, it doesn't know about the existence of this prefix cache.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cartesia",
+      "type": "company",
+      "role": "company",
+      "name": "Cartesia",
+      "file": "Cartesia",
+      "primary": true,
+      "how_described": "本集使用的支持 WebSocket 的文本转语音引擎；它拿到完整句子按自然韵律生成，但不知道前缀缓存的存在，生成回来后被抑制掉已播部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            453.665,
+            456.427
+          ],
+          "quote": "Cartesia is a text-to-speech engine with WebSocket support.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            520.537,
+            523.138
+          ],
+          "quote": "The rest we can kind of throw into Cartesia.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            524.278,
+            532.381
+          ],
+          "quote": "And here's kind of the trick, where Cartesia has seen the entire transcript up to this point.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 92,
+          "t": [
+            534.35,
+            538.173
+          ],
+          "quote": "To Cartesia, it doesn't know about the existence of this prefix cache.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            543.677,
+            554.266
+          ],
+          "quote": "But what we do is when the generation comes back, since we've already played the audio here, we can actually suppress the audio from Cartesia here and just play out the remaining stuff.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "flux",
+      "type": "company",
+      "role": "company",
+      "name": "Flux",
+      "file": "Flux",
+      "primary": false,
+      "how_described": "本集举例的快速流式转写器，负责一边听一边快速出字",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            137.5,
+            155.075
+          ],
+          "quote": "So we came up with this concept called the streaming speculative transcriber, where effectively we are layering a fast streaming transcriber, like Flux, on top of or kind of below a scribe v2 or an accurate batch transcription, which takes in more context.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "scribe-v2",
+      "type": "company",
+      "role": "company",
+      "name": "scribe v2",
+      "file": "scribe v2",
+      "primary": false,
+      "how_described": "本集举例的更准但更慢的批处理转写器，能利用问题上下文做纠错（如分辨姓名与出生日期）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            137.5,
+            155.075
+          ],
+          "quote": "So we came up with this concept called the streaming speculative transcriber, where effectively we are layering a fast streaming transcriber, like Flux, on top of or kind of below a scribe v2 or an accurate batch transcription, which takes in more context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 26,
+          "t": [
+            204.085,
+            213.028
+          ],
+          "quote": "So because the scribe v2 layer understands the context of the question, it is able to understand that this is talking about a name and this is a date of birth.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "self-driving",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动驾驶 (self-driving)",
+      "file": "自动驾驶",
+      "primary": false,
+      "how_described": "Bo 之前从事的领域，本集借它类比级联架构：摄像头/激光雷达（感知）→ 规划器 → 控制器",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            40.372,
+            48.522
+          ],
+          "quote": "why we decided to go with Cascaded Voice Agents, and especially comparing that to self-driving cars, which I was working in before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            94.731,
+            108.238
+          ],
+          "quote": "And finally, there's the controls layer, where in self-driving, you would be taking the trajectory that the planner would output and kind of turn it into the real controls to kind of build, like drive the car.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

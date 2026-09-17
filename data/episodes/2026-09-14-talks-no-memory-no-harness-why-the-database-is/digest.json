@@ -1,0 +1,118 @@
+{
+  "title_zh": "AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈",
+  "tldr": "Oracle 对外数据库产品管理负责人 Kay Malcolm 分享：AI 提速个人后，团队产出为何不升反堵，以及用共享智能体记忆破局的方法。",
+  "digest_md": "这一集是 Oracle 对外数据库产品管理负责人 Kay Malcolm 的现场演讲。她在 Oracle 干了 20 年，手下团队横跨欧洲(EMEA)和美国，做平台开发、内容开发、QA 和前端。她讲了一个很扎心的发现：在大家疯狂堆 token 用 AI 写代码的 2025 年，AI 确实让她团队里每个人更快了，**但整个团队并没有变得更有生产力** [02:23 Kay Malcolm]。\n\n问题出在哪？她一半团队在 EMEA,一半在美国。荷兰的团队凌晨 4 点提交代码，「他们提交了代码，但没有提交他们来自 Codex 的上下文」[02:43 Kay Malcolm]——Oracle 内部用 Codex 做 AI 编程。美国团队早上醒来，拿到了代码，却完全不知道这些代码背后的决策上下文。于是出现了一堆症状：GitHub 不追踪上下文，仓库分叉，经理被追问「为什么我们花了这么多钱买 token 和 AI,却还是要花大量时间做测试和验证」[03:29 Kay Malcolm]。她的结论一句话：「Git 记录的是代码，而不是人类意图」[03:45 Kay Malcolm]。代码创建已经不是瓶颈了，真正的瓶颈是协作——「我们需要一个协作层」[04:03 Kay Malcolm]。最后她是「用 AI 解决了一个 AI 自己制造的问题」。\n\n## 企业智能体 = 模型 + 马具(harness)\n\nMalcolm 用一个类比定义企业智能体：模型只是「漂浮在玻璃罐里的小大脑」，真正的智能体是模型加上 harness(马具)——「这个马具就是身体，是智能体真正能做事、把事情办成的方式」[06:49 Kay Malcolm]。马具包括：工具(它怎么做事)、上下文窗口(提示词里的内容)、记忆、检索(只取回正确的信息，不是取回所有东西)、还有护栏——她说开发者不在乎安全，但她为「最安全的数据库公司」工作，所以她在乎。\n\n其中记忆是中枢神经系统，负责把上下文从大脑传到身体各处。她梳理了五种最常见的记忆类型，建议观众记住：\n\n- **短期记忆**：就是当前会话，你在 Claude Code、Codex 或聊天窗口里的那段。\n- **长期记忆**：跨会话持续存在的。\n- **情景记忆**：「我上次和某某互动时发生了什么」。\n- **程序性记忆**：用过的工具、采取过的步骤。\n- **语义记忆**：事实与知识。\n\n## 一个数据库老兵的故事：为什么「存哪里」是关键问题\n\n记忆该存在哪？她讲了自己的黑历史。她从客户 Southern Company(亚特兰大的电力公司)进入 Oracle,当年是性能调优高手。后来开发者不断引入新数据库：为了存非结构化数据装了一个专用库，为了找关联关系装了 Neo4j——她给爬塔恢复供电的系统写过一条五层嵌套的 union all SQL,跑 20 分钟才出结果，「就像是图数据库的前身」。而作为 DBA,每管一个数据库系统每周就要多开安全会和补丁会，最后开到六个会。她干脆辞职去了 Oracle 想解决这个问题。\n\n回到现在：智能体需要访问所有这些数据——关系型、JSON 非结构化、图、向量。她现场让四位志愿者分别扮演四种数据库，要求他们商量「母牛跳过了月亮」这句话谁存、谁是唯一真相来源——结果四个库根本没法商量。「所以如果数据在 Oracle 数据库里、同时也在非结构化 JSON 库里、又在图数据库和向量数据库里，那你的唯一真相来源在哪里？」[12:49 Kay Malcolm] 让智能体自己去找？「有时候它会搞对。大多数时候它会搞错，而且会烧掉一大堆 token」[13:05 Kay Malcolm]。存到文件系统或 Claude/ChatGPT 的 memory.md 文件？在企业规模下一样会出问题。\n\n然后她抛出全场核心卖点：「Oracle 不是你们以为的那个 Oracle」[15:09 Kay Malcolm]。26AI 数据库可以原生在**同一张表、同一个分区**里存 JSON、图、向量、空间数据，甚至要不可变存储还有区块链——「任何数据类型都可以存储在 26AI 数据库里，任何工作负载，任何地方，AWS、GCP、Azure、OCI、本地部署」[15:39 Kay Malcolm]。她坦承：「我们有一个营销问题」——知道这事的人太少了。落到智能体记忆上，她的方案是按记忆类型选存储：长期和程序性记忆放关系型，短期和长期放 JSON,程序性放图(图正是理清步骤和关系的地方)，情景和语义用向量、同时存为文本。\n\n## 解法:Poly 记忆代理\n\n回到开头团队协作的问题，他们用一个叫 Poly 的「记忆代理」解决了：开发者不仅共享代码，Poly 还追踪上下文——一个上下文窗口里的程序性记忆、情景记忆、长期记忆信息，会共享给团队其他人。她说团队成员本身也是「智能体，只不过是人类智能体」。上下文跨 fork 共享，Poly 会判断它属于哪个 fork、哪个分支、哪个提交，开发者始终保持控制权 [17:26 Kay Malcolm]。\n\n她强调这不是 Oracle 一家的判断，她在飞机上读的三篇材料都在指向同一件事：OpenAI 讲其内部数据智能体的论文说，「记忆对于确保它的智能体能够正确过滤、而不是尝试字符串匹配来说至关重要」[18:11 Kay Malcolm];LangChain 的 Harrison Chase 说：「你的 harness、你的记忆，如果你不拥有你的 harness,你就不拥有你的记忆，这是关键」[18:20 Kay Malcolm]。至于「Claude 自带记忆为什么不能用」——那更像文件系统记忆，「它只能和一个实例配合工作，但当你扩展超过一个实例——而在企业里你一定会扩展超过一个——就会产生问题」[18:32 Kay Malcolm]。\n\nOracle 的落地产品是 **Oracle Agent Memory Package**(pip install 即可用)：一个 SDK,负责保存实时对话、记忆、事实，并判断哪些值得保留。他们自己的实践里，Kevin 与 Poly 共享上下文，用 Agent Memory SDK,存在 Oracle Autonomous Database,LLM 可自选、也可通过 Oracle Private AI Services 容器跑本地模型——于是另一端的 Linda 可以和 Kevin 无缝协作。\n\n收尾金句：「AI 让个人更快。Oracle AI 数据库上的共享记忆让团队更快」[19:38 Kay Malcolm]。她还顺手打了广告：LiveLabs.oracle.com 是她六年前亲手写的平台(现在有 4000 万用户)，OCI 有永久免费层——免费数据库、免费算力、每月 3000 封邮件、200 GB 存储。\n\n## 本集带走\n\n- **AI 的快是个人级的，不是团队级的**：个人用 AI 提速后，上下文不同步会让团队整体卡在测试、验证和冲突解决上——先解决协作层，再谈提效。\n- **Git 只记代码不记意图**：AI 时代的提交里最值钱的是「为什么这么写」的决策上下文，想办法让它跟着代码一起共享。\n- **harness = 模型之外的一切**：工具、上下文、记忆、检索、护栏；记忆是其中跨会话、跨人共享的中枢，企业规模下不可妥协。\n- **记忆分五种，存储要按类型选**：短期(会话)、长期(跨会话)、情景(上次发生了什么)、程序性(步骤与工具)、语义(事实)——散落多个专用库会让「唯一真相来源」消失，智能体自己猜又贵又错。\n- **别用通用工具自带的文件记忆扛企业规模**：单实例好使、一扩展就崩；要有能跨人、跨 fork、跨分支共享且能判断「什么值得留」的记忆层。\n\n> 【背景】演讲中的 Poly/Polly 为同一产品名的不同转写；Codex 是 OpenAI 的 AI 编程工具；Harrison Chase 是 LangChain/LangGraph 背后公司 LangChain 的 CEO,该信息出自她转述的引用，非本集独立介绍。",
+  "quotes": [
+    {
+      "en": "Because Git records the code and not human intent.",
+      "zh": "因为 Git 记录的是代码，而不是人类意图。",
+      "timestamp": "03:45",
+      "speaker": "Kay Malcolm"
+    },
+    {
+      "en": "Harrison Chase said, your harness, your memory, and if you don't own your harness, you don't own your memory, which is key.",
+      "zh": "Harrison Chase 说，你的 harness、你的记忆，如果你不拥有你的 harness,你就不拥有你的记忆，这是关键。",
+      "timestamp": "18:20",
+      "speaker": "Kay Malcolm"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:23",
+      "speaker": "Kay Malcolm",
+      "en": "It wasn't making my team more productive.",
+      "zh": "它并没有让我的团队更有生产力。"
+    },
+    {
+      "timestamp": "02:43",
+      "speaker": "Kay Malcolm",
+      "en": "They checked in the code, but they didn't check in their context from Codex.",
+      "zh": "他们提交了代码，但没有提交他们来自 Codex 的上下文。"
+    },
+    {
+      "timestamp": "03:29",
+      "speaker": "Kay Malcolm",
+      "en": "We're spending all of this money on tokens, we're spending all this money on AI, yet something is missing because we're still spending time doing testing and validation.",
+      "zh": "我们在 token 上花了这么多钱，在 AI 上花了这么多钱，但还是有缺失的东西，因为我们仍然要花时间做测试和验证。"
+    },
+    {
+      "timestamp": "03:45",
+      "speaker": "Kay Malcolm",
+      "en": "Because Git records the code and not human intent.",
+      "zh": "因为 Git 记录的是代码，而不是人类意图。"
+    },
+    {
+      "timestamp": "04:03",
+      "speaker": "Kay Malcolm",
+      "en": "We needed a collaboration layer.",
+      "zh": "我们需要一个协作层。"
+    },
+    {
+      "timestamp": "06:49",
+      "speaker": "Kay Malcolm",
+      "en": "This harness is the body.",
+      "zh": "这个马具就是身体。"
+    },
+    {
+      "timestamp": "12:49",
+      "speaker": "Kay Malcolm",
+      "en": "So if data is in an Oracle database, if then it's also in an unstructured JSON database, if it's in a graph database, and it's in a vector database, where is your single source of the truth?",
+      "zh": "所以如果数据在一个 Oracle 数据库里，同时也在一个非结构化 JSON 数据库里，在图数据库里，还在向量数据库里，那你的唯一真相来源在哪里？"
+    },
+    {
+      "timestamp": "13:05",
+      "speaker": "Kay Malcolm",
+      "en": "Most times it'll get it wrong and it's gonna burn up a whole bunch of tokens.",
+      "zh": "大多数时候它会搞错，而且会烧掉一大堆 token。"
+    },
+    {
+      "timestamp": "15:09",
+      "speaker": "Kay Malcolm",
+      "en": "Oracle is not the Oracle that you think.",
+      "zh": "Oracle 不是你们以为的那个 Oracle。"
+    },
+    {
+      "timestamp": "15:39",
+      "speaker": "Kay Malcolm",
+      "en": "So any data type can be stored in a 26AI database, any workload, anywhere, AWS, GCP, Azure, OCI, on-prem.",
+      "zh": "任何数据类型都可以存储在 26AI 数据库里，任何工作负载，任何地方，AWS、GCP、Azure、OCI、本地部署。"
+    },
+    {
+      "timestamp": "17:49",
+      "speaker": "Kay Malcolm",
+      "en": "Memory is the thing that becomes non-negotiable in an agent's harness.",
+      "zh": "记忆是智能体的 harness 中变得不可妥协的东西。"
+    },
+    {
+      "timestamp": "18:11",
+      "speaker": "Kay Malcolm",
+      "en": "Memory was crucially important to ensure that its agent was able to filter correctly instead of trying to string match.",
+      "zh": "记忆对于确保它的智能体能够正确过滤、而不是尝试字符串匹配来说至关重要。"
+    },
+    {
+      "timestamp": "18:20",
+      "speaker": "Kay Malcolm",
+      "en": "Harrison Chase said, your harness, your memory, and if you don't own your harness, you don't own your memory, which is key.",
+      "zh": "Harrison Chase 说，你的 harness、你的记忆，如果你不拥有你的 harness,你就不拥有你的记忆，这是关键。"
+    },
+    {
+      "timestamp": "18:32",
+      "speaker": "Kay Malcolm",
+      "en": "Well, it's kind of like file system memory, and it works with one, but just like in my example, when you scale past one, and you're gonna scale past one in the enterprise, it creates a problem.",
+      "zh": "它有点像文件系统记忆，只能和一个实例配合工作，但就像我前面的例子一样，当你扩展超过一个实例——而在企业里你一定会扩展超过一个——就会产生问题。"
+    },
+    {
+      "timestamp": "19:38",
+      "speaker": "Kay Malcolm",
+      "en": "So yes, AI makes individuals faster.",
+      "zh": "所以是的，AI 让个人更快。"
+    },
+    {
+      "timestamp": "19:42",
+      "speaker": "Kay Malcolm",
+      "en": "Shared memory on an Oracle AI database makes teams faster.",
+      "zh": "Oracle AI 数据库上的共享记忆让团队更快。"
+    }
+  ],
+  "voice_script": "今天这一期，来自 Oracle 对外数据库产品管理负责人 Kay Malcolm 的一场现场演讲。她在 Oracle 干了二十年，带的团队一半在欧洲、一半在美国，做平台开发、内容、测试和前端。她讲了一个特别扎心的发现：2025 年，大家都在疯狂用 AI 写代码，AI 确实让她团队里每一个人都变快了——但整个团队，并没有变得更有生产力。这一集要聊的就是：为什么个人快了，团队反而堵住了？以及一个可能的解法，叫共享智能体记忆。\n\n先把问题讲清楚。她一半团队在荷兰，一半在美国。荷兰的团队凌晨四点提交代码，但问题是——提交了代码，却没有提交这些代码背后的上下文。美国团队早上醒来，代码拿到了，可完全不知道这些代码为什么这么写。于是各种症状就冒出来了：GitHub 本来就不追踪上下文，仓库开始分叉，经理被追问，我们花了这么多钱买 token、买 AI 工具，为什么还要花大量时间做测试和验证？Kay Malcolm 对这个问题有个一句话的结论：Git 记录的是代码，而不是人类意图。说白了，写代码这件事已经不是瓶颈了，真正的瓶颈是协作。她说，我们需要一个协作层。有意思的是，这个问题的起因是 AI,最后的解法也是 AI——用 AI 解决了一个 AI 自己制造的问题。\n\n那这个协作层具体长什么样？这就得先说清楚，什么是一个企业智能体。她用了一个类比：模型本身，只是漂浮在玻璃罐里的一个小大脑。真正的智能体，是模型加上一套 harness——马具。马具就是身体，是智能体真正能做事、把事情办成的方式。这套马具里包括：工具，就是它怎么做事；上下文窗口，提示词里装了什么；记忆；检索，注意是只取回正确的信息，不是取回所有东西；还有护栏。其中记忆是整个系统的中枢神经，负责把上下文从大脑传到身体各处。她梳理了五种最常见的记忆类型，你可以记一下：短期记忆，就是当前会话，你在 Claude Code 或者聊天窗口里的那一段；长期记忆，跨会话持续存在的；情景记忆，比如上次和某个人互动时发生了什么；程序性记忆，用过的工具、走过的步骤；还有语义记忆，就是事实和知识。\n\n好，那这些记忆该存在哪儿？她讲了一段自己的黑历史，这段故事其实特别能说明问题。她是从亚特兰大一家电力公司进 Oracle 的，当年是性能调优高手。后来开发者们不断引入新数据库：要存非结构化数据，装一个专用库；要找关联关系，再装一个图数据库。她当年给一个恢复供电的系统写过一条五层嵌套的 SQL,跑二十分钟才出结果——用她的话说，那就是图数据库的前身。而作为数据库管理员，每多管一个系统，每周就要多开安全会和补丁会，最后开到六个会。她干脆辞职去了 Oracle,就想解决这个问题。\n\n回到现在，智能体需要访问关系型数据、JSON、图、向量这些各种各样的数据。她现场让四位志愿者分别扮演四种数据库，商量一句话谁存、谁是唯一真相来源——结果四个库根本没法商量。这就是问题所在：数据散在多个专用库里，唯一真相来源就没了。那让智能体自己去找？她说，有时候它会搞对，大多数时候它会搞错，而且会烧掉一大堆 token。存到文件系统或者通用工具自带的记忆文件里？在企业规模下一样会出问题。\n\n于是她抛出了这一场的核心：Oracle 不是你们以为的那个 Oracle。Oracle 的 26AI 数据库可以原生在同一张表、同一个分区里，存 JSON、图、向量、空间数据，什么数据类型都能放，什么工作负载都能跑，AWS、GCP、Azure 都支持。落到智能体记忆上，方案就是按记忆类型选存储：长期和程序性记忆放关系型，短期和长期放 JSON,程序性放图——图正是理清步骤和关系的地方，情景和语义用向量，同时存成文本。\n\n再回到开头那个团队协作的问题，他们用一个叫 Poly 的记忆代理解决了。开发者不仅共享代码，Poly 还追踪上下文——一个上下文窗口里的程序性、情景、长期记忆信息，会共享给团队其他人。她说，团队成员本身也是智能体，只不过是人类智能体。上下文能跨 fork 共享，Poly 会判断它属于哪个分支、哪个提交，而且开发者始终握有控制权。这不是 Oracle 一家的判断。她在飞机上读的三篇材料都指向同一件事：OpenAI 的论文说，记忆对智能体正确过滤信息至关重要；LangChain 的 Harrison Chase 说得更直接——如果你不拥有你的 harness,你就不拥有你的记忆，这是关键。至于 Claude 自带的记忆为什么不能用于企业？那更像文件系统记忆，只能和一个实例配合，而企业在扩展到多个实例的时候，就会出问题。\n\n最后落到产品上，Oracle 的方案叫 Agent Memory Package,一个 SDK,装上就能用，负责保存实时对话、记忆、事实，并判断哪些值得保留。他们自己的实践里，一个开发者通过它共享上下文，存在 Oracle 的自治数据库上，另一端的同事就能和他无缝协作。\n\n这一集听完，带走一句话就够了：AI 让个人更快，而共享记忆，才让团队更快。"
+}

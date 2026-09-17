@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ken]] · [[Dave Fletcher]] · [[AI 编码工具]] · [[可观测性]] · [[CI-CD]] · [[技术债务]] · [[AI 优先]] · [[DevTools]]
 
-<script type="application/json" class="pd-epn">{"Ken":1,"Dave Fletcher":1,"AI 编码工具":1,"可观测性":20,"CI-CD":10,"技术债务":3,"AI 优先":2,"DevTools":1}</script>
+<script type="application/json" class="pd-epn">{"Ken":1,"Dave Fletcher":1,"AI 编码工具":1,"可观测性":21,"CI-CD":10,"技术债务":3,"AI 优先":2,"DevTools":1}</script>
 
 <script>
 (function(){

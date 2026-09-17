@@ -58,11 +58,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Marc Brooker]] [[Ben Celebicic]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]] [[Vincent Wendy]]
+[[Marc Brooker]] [[Ben Celebicic]] [[Peng Zheng]] [[John Bai]] [[Philipp Schmid]] [[Andrew Qu]] [[Kay Malcolm]] [[Jonathan Kelley]] [[Paul Bakaus]] [[Jeremiah Lowin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":253,"Claude Code":61,"OpenClaw":17,"ChatGPT":66,"Slack":25,"Lenny":67,"Eddie Kim":1,"Daniel Blum":1,"Peng Zheng":1,"上下文过载":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":257,"Claude Code":62,"OpenClaw":18,"ChatGPT":67,"Slack":26,"Lenny":67,"Eddie Kim":1,"Daniel Blum":1,"Peng Zheng":1,"上下文过载":1}</script>
 
 <script>
 (function(){

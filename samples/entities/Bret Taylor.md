@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":5,"智能体":253,"基于结果的定价":4,"应用 AI":1,"前沿模型":16,"工具层":1,"上下文工程":12,"编程系统":1,"MCP":42}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":5,"智能体":257,"基于结果的定价":4,"应用 AI":1,"前沿模型":16,"工具层":1,"上下文工程":12,"编程系统":1,"MCP":44}</script>
 
 <script>
 (function(){

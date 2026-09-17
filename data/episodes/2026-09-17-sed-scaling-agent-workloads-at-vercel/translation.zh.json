@@ -1,0 +1,5362 @@
+[
+ {
+  "seg": 0,
+  "start": 0.631,
+  "end": 7.612,
+  "speaker": "Unknown",
+  "en": "Most AI agent setups today are built around a single session, where one user interacts with one agent at a time.",
+  "zh": "如今大多数 AI 智能体架构都是围绕单一会话构建的，即一个用户一次与一个智能体交互。"
+ },
+ {
+  "seg": 1,
+  "start": 8.053,
+  "end": 18.895,
+  "speaker": "Unknown",
+  "en": "However, that model breaks down when an agent has to serve a business, where thousands of requests can arrive at once and each session needs to be isolated, durable, and recoverable.",
+  "zh": "然而，当智能体需要服务一个企业时，这种模式就失效了，因为成千上万的请求可能同时到达，而每个会话都需要隔离、持久且可恢复。"
+ },
+ {
+  "seg": 2,
+  "start": 19.435,
+  "end": 25.896,
+  "speaker": "Unknown",
+  "en": "Getting agents to run reliably at that scale has meant a lot of hand-rolled infrastructure beneath the agent itself.",
+  "zh": "要让智能体在那个规模下可靠运行，意味着在智能体本身之下需要大量手写的基础设施。"
+ },
+ {
+  "seg": 3,
+  "start": 26.516,
+  "end": 32.783,
+  "speaker": "Unknown",
+  "en": "Eve is an open source cloud-native agent framework from Vercel that removes much of the agent scaling burden.",
+  "zh": "Eve 是来自 Vercel 的开源云原生智能体框架，它消除了大部分智能体扩容负担。"
+ },
+ {
+  "seg": 4,
+  "start": 33.383,
+  "end": 45.135,
+  "speaker": "Unknown",
+  "en": "In the Eve framework, an agent is defined declaratively through configuration files, and these files compile into infrastructure as code, so the platform provisions only what the agent actually uses.",
+  "zh": "在 Eve 框架中，智能体通过配置文件以声明式方式定义，这些文件会编译成基础设施即代码，因此平台只供给智能体实际使用的东西。"
+ },
+ {
+  "seg": 5,
+  "start": 45.996,
+  "end": 52.742,
+  "speaker": "Unknown",
+  "en": "Andrew Barba is a member of technical staff at Vercel, and Shar Dara is the product lead for EVE at Vercel.",
+  "zh": "Andrew Barba 是 Vercel 的技术团队成员，Shar Dara 是 Vercel 的 EVE 产品负责人。"
+ },
+ {
+  "seg": 6,
+  "start": 53.422,
+  "end": 66.552,
+  "speaker": "Unknown",
+  "en": "In this episode, they join Kevin Ball to discuss what it means for an agent framework to be cloud-native, why they chose to express agents in plain English, and their view that company building is becoming agent building.",
+  "zh": "在本期节目中，他们与 Kevin Ball 一起讨论了智能体框架做到云原生意味着什么、他们为什么选择用平实的英文来表达智能体，以及他们认为公司建设正在变成智能体建设的观点。"
+ },
+ {
+  "seg": 7,
+  "start": 67.638,
+  "end": 74.682,
+  "speaker": "Unknown",
+  "en": "Kevin Ball, or KBall, is the Vice President of Engineering at Mento and an independent coach for engineers and engineering leaders.",
+  "zh": "Kevin Ball，或称 KBall，是 Mento 的工程副总裁，也是面向工程师和工程领导者的独立教练。"
+ },
+ {
+  "seg": 8,
+  "start": 75.182,
+  "end": 83.847,
+  "speaker": "Unknown",
+  "en": "He co-founded and served as CTO for two companies, founded the San Diego JavaScript Meetup, and organizes the AI in Action Discussion Group through Latent Space.",
+  "zh": "他曾联合创办两家公司并担任 CTO，创立了圣地亚哥 JavaScript Meetup，并通过 Latent Space 组织 AI in Action 讨论小组。"
+ },
+ {
+  "seg": 9,
+  "start": 84.427,
+  "end": 88.969,
+  "speaker": "Unknown",
+  "en": "Check out the show notes to follow KBall on Twitter or LinkedIn, or visit his website, kball.llc.",
+  "zh": "请查看节目备注以在 Twitter 或 LinkedIn 上关注 KBall，或访问他的网站 kball.llc。"
+ },
+ {
+  "seg": 10,
+  "start": 102.528,
+  "end": 104.269,
+  "speaker": "Unknown",
+  "en": "Andrew, Char, welcome to the show.",
+  "zh": "Andrew、Char，欢迎来到节目。"
+ },
+ {
+  "seg": 11,
+  "start": 104.989,
+  "end": 105.89,
+  "speaker": "Unknown",
+  "en": "Thanks so much for having us.",
+  "zh": "非常感谢邀请我们。"
+ },
+ {
+  "seg": 12,
+  "start": 106.35,
+  "end": 106.89,
+  "speaker": "Unknown",
+  "en": "Happy to be here.",
+  "zh": "很高兴来到这里。"
+ },
+ {
+  "seg": 13,
+  "start": 107.39,
+  "end": 108.171,
+  "speaker": "Unknown",
+  "en": "Yeah, thanks for having us.",
+  "zh": "是的，感谢邀请我们。"
+ },
+ {
+  "seg": 14,
+  "start": 109.071,
+  "end": 114.855,
+  "speaker": "Unknown",
+  "en": "I'm excited to get to know you guys and to learn a little bit more about EVE and this new agentic framework, but let's start with you.",
+  "zh": "我很高兴能认识你们两位，并多了解一下 EVE 和这个新的智能体框架，但先从你开始吧。"
+ },
+ {
+  "seg": 15,
+  "start": 114.955,
+  "end": 116.456,
+  "speaker": "Unknown",
+  "en": "So we'll go to Andrew first.",
+  "zh": "所以我们先请 Andrew。"
+ },
+ {
+  "seg": 16,
+  "start": 116.476,
+  "end": 120.198,
+  "speaker": "Unknown",
+  "en": "Can you tell us a little bit more about your background and how you ended up working on this project?",
+  "zh": "能多讲讲你的背景以及你是怎么参与这个项目的吗？"
+ },
+ {
+  "seg": 17,
+  "start": 120.865,
+  "end": 123.966,
+  "speaker": "Unknown",
+  "en": "Yeah, so I've been at Vercel for some three and a half years now.",
+  "zh": "好的，我在 Vercel 已经待了三年半左右。"
+ },
+ {
+  "seg": 18,
+  "start": 124.627,
+  "end": 132.53,
+  "speaker": "Unknown",
+  "en": "I was actually a Vercel customer, maybe one of Vercel's very first enterprise customers back in 2020, so a bit of an unconventional path to Vercel.",
+  "zh": "我其实是 Vercel 的客户，可能是 2020 年 Vercel 最早的一批企业客户之一，所以加入 Vercel 的路径有点非传统。"
+ },
+ {
+  "seg": 19,
+  "start": 132.57,
+  "end": 144.595,
+  "speaker": "Unknown",
+  "en": "But yeah, I spent my first year and a half or so doing all CDN works, a lot of deep systems, distributed systems, edge networks, firewalls, security stuff, things like that.",
+  "zh": "不过是的，我头一年半左右做的全是 CDN 相关的工作，很多深层的系统、分布式系统、边缘网络、防火墙、安全之类的东西。"
+ },
+ {
+  "seg": 20,
+  "start": 145.215,
+  "end": 150.119,
+  "speaker": "Unknown",
+  "en": "And then basically went over to the other end of the business and worked on billing for a good year, which is where I met Char.",
+  "zh": "然后我基本上转到了业务的另一端，做了一年左右的计费，我就是在那里认识 Char 的。"
+ },
+ {
+  "seg": 21,
+  "start": 150.139,
+  "end": 154.342,
+  "speaker": "Unknown",
+  "en": "So Char and I were leading the billing team at Vercel for most of 2025.",
+  "zh": "所以 Char 和我在 2025 年的大部分时间里都在领导 Vercel 的计费团队。"
+ },
+ {
+  "seg": 22,
+  "start": 154.362,
+  "end": 164.129,
+  "speaker": "Unknown",
+  "en": "And then, yeah, February came around this year and we had a really interesting opportunity to kind of look at what does it take to deploy agents to Vercel.",
+  "zh": "然后，今年二月到来时，我们有了一个非常有趣的机会，去研究把智能体部署到 Vercel 需要什么。"
+ },
+ {
+  "seg": 23,
+  "start": 164.469,
+  "end": 165.93,
+  "speaker": "Unknown",
+  "en": "And we came up with Eve.",
+  "zh": "于是我们做出了 Eve。"
+ },
+ {
+  "seg": 24,
+  "start": 167.612,
+  "end": 167.932,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 25,
+  "start": 168.092,
+  "end": 168.993,
+  "speaker": "Unknown",
+  "en": "And Char, how about you?",
+  "zh": "那 Char，你呢？"
+ },
+ {
+  "seg": 26,
+  "start": 169.133,
+  "end": 170.514,
+  "speaker": "Unknown",
+  "en": "Your background and how you ended up here?",
+  "zh": "你的背景以及你是怎么走到这里的？"
+ },
+ {
+  "seg": 27,
+  "start": 171.15,
+  "end": 173.352,
+  "speaker": "Unknown",
+  "en": "Yeah, I've been at Vercel for a year and a half.",
+  "zh": "好的，我在 Vercel 待了一年半。"
+ },
+ {
+  "seg": 28,
+  "start": 174.173,
+  "end": 176.855,
+  "speaker": "Unknown",
+  "en": "I was in the billing space for a decade before.",
+  "zh": "在此之前我在计费领域干了十年。"
+ },
+ {
+  "seg": 29,
+  "start": 176.975,
+  "end": 180.719,
+  "speaker": "Unknown",
+  "en": "So that's where I joined Vercel in the billing team where I worked with Andrew.",
+  "zh": "所以我是加入 Vercel 计费团队时认识了 Andrew 并与他共事。"
+ },
+ {
+  "seg": 30,
+  "start": 181.4,
+  "end": 186.124,
+  "speaker": "Unknown",
+  "en": "And earlier this year, Andrew's like, you want to join, you know, build Eve.",
+  "zh": "今年早些时候，Andrew 说，你想不想加入，你知道的，一起做 Eve。"
+ },
+ {
+  "seg": 31,
+  "start": 186.264,
+  "end": 188.386,
+  "speaker": "Unknown",
+  "en": "And I, of course, I loved working with him.",
+  "zh": "我呢，当然，我很喜欢和他共事。"
+ },
+ {
+  "seg": 32,
+  "start": 188.446,
+  "end": 189.968,
+  "speaker": "Unknown",
+  "en": "So great opportunity.",
+  "zh": "所以是个很好的机会。"
+ },
+ {
+  "seg": 33,
+  "start": 190.588,
+  "end": 190.888,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 34,
+  "start": 191.269,
+  "end": 193.972,
+  "speaker": "Unknown",
+  "en": "Well, let's start then with a little bit about Eve.",
+  "zh": "那么，我们就先从 Eve 聊起吧。"
+ },
+ {
+  "seg": 35,
+  "start": 194.232,
+  "end": 195.093,
+  "speaker": "Unknown",
+  "en": "You know, it's brand new.",
+  "zh": "你知道的，它是全新的。"
+ },
+ {
+  "seg": 36,
+  "start": 195.113,
+  "end": 196.434,
+  "speaker": "Unknown",
+  "en": "A lot of folks probably haven't heard of it.",
+  "zh": "很多人可能还没听说过它。"
+ },
+ {
+  "seg": 37,
+  "start": 196.534,
+  "end": 199.958,
+  "speaker": "Unknown",
+  "en": "What's the kind of high level of what this thing is?",
+  "zh": "这个东西大致上是什么？"
+ },
+ {
+  "seg": 38,
+  "start": 199.978,
+  "end": 201.86,
+  "speaker": "Unknown",
+  "en": "And then we can dive into the details in a little bit.",
+  "zh": "然后我们过一会儿再深入细节。"
+ },
+ {
+  "seg": 39,
+  "start": 202.635,
+  "end": 207.56,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, so it is a cloud native agent framework.",
+  "zh": "好的，我是说，它是一个云原生智能体框架。"
+ },
+ {
+  "seg": 40,
+  "start": 207.58,
+  "end": 213.525,
+  "speaker": "Unknown",
+  "en": "And the reason I say cloud native is I think most people when they're using agents, they're probably running a process on their computer.",
+  "zh": "我之所以说云原生，是因为我想大多数人在使用智能体时，很可能是在自己的电脑上运行一个进程。"
+ },
+ {
+  "seg": 41,
+  "start": 213.645,
+  "end": 216.648,
+  "speaker": "Unknown",
+  "en": "And so they're familiar with working with these things locally, very familiar.",
+  "zh": "所以他们对本地使用这些东西很熟悉，非常熟悉。"
+ },
+ {
+  "seg": 42,
+  "start": 217.249,
+  "end": 220.111,
+  "speaker": "Unknown",
+  "en": "So, you know, your codexes, Claude Codes, OpenCodes, things like that.",
+  "zh": "你知道的，比如你的 codex、Claude Code、OpenCode 之类的东西。"
+ },
+ {
+  "seg": 43,
+  "start": 220.739,
+  "end": 225.022,
+  "speaker": "Unknown",
+  "en": "And these are obviously very, very powerful harnesses that people are interacting with in their machines.",
+  "zh": "这些显然都是非常非常强大的 harness，人们在它们的机器上与之交互。"
+ },
+ {
+  "seg": 44,
+  "start": 225.042,
+  "end": 231.386,
+  "speaker": "Unknown",
+  "en": "But we really wanted to look at how do you use something like this in a multiplayer cloud environment?",
+  "zh": "但我们真正想研究的是，如何在多人云环境中使用这样的东西？"
+ },
+ {
+  "seg": 45,
+  "start": 231.406,
+  "end": 234.128,
+  "speaker": "Unknown",
+  "en": "And what does putting these things in the cloud actually need to do?",
+  "zh": "把这些东西放进云端到底需要做什么？"
+ },
+ {
+  "seg": 46,
+  "start": 234.968,
+  "end": 238.35,
+  "speaker": "Unknown",
+  "en": "And it turns out there's a lot of different products that go into making that happen.",
+  "zh": "结果发现，要实现这一点需要很多不同的产品。"
+ },
+ {
+  "seg": 47,
+  "start": 238.671,
+  "end": 249.658,
+  "speaker": "Unknown",
+  "en": "And so EVE is a framework that basically stitches together with very good defaults all of those types of products to give you a very robust out-of-the-box harness that lives in the cloud.",
+  "zh": "所以 EVE 就是一个框架，它基本上用非常好的默认配置把所有那些类型的产品拼接在一起，给你一个非常健壮的开箱即用的、存在于云端的 harness。"
+ },
+ {
+  "seg": 48,
+  "start": 250.543,
+  "end": 251.164,
+  "speaker": "Unknown",
+  "en": "That makes sense.",
+  "zh": "这说得通。"
+ },
+ {
+  "seg": 49,
+  "start": 251.404,
+  "end": 258.43,
+  "speaker": "Unknown",
+  "en": "So one thing that immediately strikes me to follow up on there is like, okay, what makes for it to be different if it's cloud native, right?",
+  "zh": "所以我立刻想追问的一点是，好的，如果是云原生的话，它有什么不同，对吧？"
+ },
+ {
+  "seg": 50,
+  "start": 258.47,
+  "end": 263.615,
+  "speaker": "Unknown",
+  "en": "And I'm thinking about all these folks who got excited about OpenClaw and they got their own Mac Mini and they're running it.",
+  "zh": "我在想所有那些对 OpenClaw 感到兴奋的人，他们买了自己的 Mac Mini，然后跑起来了。"
+ },
+ {
+  "seg": 51,
+  "start": 263.635,
+  "end": 269.96,
+  "speaker": "Unknown",
+  "en": "And it's not exactly cloud since it's running on their desk somewhere, but it is, you know, isolated off in this place.",
+  "zh": "这不算真正的云，因为它跑在他们桌子上的某个地方，但是，你知道，它确实是隔离在这么一个地方。"
+ },
+ {
+  "seg": 52,
+  "start": 270,
+  "end": 272.543,
+  "speaker": "Unknown",
+  "en": "But what does it mean to be cloud native in this context?",
+  "zh": "但在这个背景下，「云原生」到底意味着什么？"
+ },
+ {
+  "seg": 53,
+  "start": 273.446,
+  "end": 273.766,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 54,
+  "start": 273.966,
+  "end": 274.346,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 55,
+  "start": 274.426,
+  "end": 275.147,
+  "speaker": "Unknown",
+  "en": "Great, great question.",
+  "zh": "好问题。"
+ },
+ {
+  "seg": 56,
+  "start": 275.247,
+  "end": 285.272,
+  "speaker": "Unknown",
+  "en": "The example I love to give is, you know, let's take an OpenClaw and let's take an Eve agent and let's let a thousand people send a prompt at the exact same time and what, you know, what's going to happen.",
+  "zh": "我最喜欢举的例子是，你知道，我们拿一个 OpenClaw，再拿一个 Eve 智能体，然后让一千个人在完全相同的时刻发送一个提示词，看看会发生什么。"
+ },
+ {
+  "seg": 57,
+  "start": 285.972,
+  "end": 293.956,
+  "speaker": "Unknown",
+  "en": "And so the difference between the two is Eve on Vercel or another platform that you host on will scale out horizontally to meet that demand, right?",
+  "zh": "那么两者的区别在于，Eve 在 Vercel 或你托管的其他平台上会横向扩展以满足那种需求，对吧？"
+ },
+ {
+  "seg": 58,
+  "start": 293.976,
+  "end": 294.536,
+  "speaker": "Unknown",
+  "en": "We can spin up",
+  "zh": "我们可以非常非常快地并行启动"
+ },
+ {
+  "seg": 59,
+  "start": 295.076,
+  "end": 297.239,
+  "speaker": "Unknown",
+  "en": "These harnesses very, very quickly in parallel.",
+  "zh": "这些 harness。"
+ },
+ {
+  "seg": 60,
+  "start": 297.699,
+  "end": 305.829,
+  "speaker": "Unknown",
+  "en": "We can isolate these sessions, they're durable, a whole bunch of mechanics behind it for recovery and retries and error handling and things like that.",
+  "zh": "我们可以隔离这些会话，它们是持久的，背后有一整套机制来做恢复、重试、错误处理之类的事情。"
+ },
+ {
+  "seg": 61,
+  "start": 306.129,
+  "end": 312.236,
+  "speaker": "Unknown",
+  "en": "And so it's a very different use case than just you communicating back and forth as one person with one agent.",
+  "zh": "所以这和只是你一个人跟一个智能体来回交流是非常不同的用例。"
+ },
+ {
+  "seg": 62,
+  "start": 312.516,
+  "end": 315.039,
+  "speaker": "Unknown",
+  "en": "This is really meant to drive businesses, whether that's",
+  "zh": "这真正是为驱动业务而设计的，无论是"
+ },
+ {
+  "seg": 63,
+  "start": 315.72,
+  "end": 329.514,
+  "speaker": "Unknown",
+  "en": "Internal agents for a 10,000-person enterprise, or if you are some B2C company and an agent is your primary product, EVE will support that type of multiplayer type of model, and it can do this very, very scalably.",
+  "zh": "一万家员工企业的内部智能体，还是你是一家 B2C 公司、智能体是你的主要产品，EVE 都会支持那种多人类型的模式，而且它能非常非常可扩展地做到这一点。"
+ },
+ {
+  "seg": 64,
+  "start": 330.287,
+  "end": 330.527,
+  "speaker": "Unknown",
+  "en": "Nice.",
+  "zh": "不错。"
+ },
+ {
+  "seg": 65,
+  "start": 330.968,
+  "end": 331.308,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 66,
+  "start": 331.949,
+  "end": 335.592,
+  "speaker": "Unknown",
+  "en": "So let's maybe then go one level of detail further.",
+  "zh": "那我们也许再深入一层细节。"
+ },
+ {
+  "seg": 67,
+  "start": 335.853,
+  "end": 344.561,
+  "speaker": "Unknown",
+  "en": "And let's start with, as you mentioned, there's a lot of folks doing agent frameworks out there, many of them focused at running on a laptop or a single machine or things like that.",
+  "zh": "我们从——正如你提到的——现在有很多人在做智能体框架，其中许多专注于跑在笔记本或单机上之类的东西。"
+ },
+ {
+  "seg": 68,
+  "start": 344.621,
+  "end": 347.224,
+  "speaker": "Unknown",
+  "en": "But what kind of prior art were you able to bring into this?",
+  "zh": "但你能够把哪些先行经验带入到这个东西里？"
+ },
+ {
+  "seg": 69,
+  "start": 347.284,
+  "end": 350.968,
+  "speaker": "Unknown",
+  "en": "And what were the things you said, hey, this is actually something brand new, we got to solve this?",
+  "zh": "又有哪些事情你说，嘿，这其实是全新的东西，我们得解决它？"
+ },
+ {
+  "seg": 70,
+  "start": 351.87,
+  "end": 355.853,
+  "speaker": "Unknown",
+  "en": "It started from our own data agent that we built inside Vercel.",
+  "zh": "它始于我们自己在 Vercel 内部构建的数据智能体。"
+ },
+ {
+  "seg": 71,
+  "start": 356.294,
+  "end": 357.454,
+  "speaker": "Unknown",
+  "en": "This is called DZero.",
+  "zh": "它叫 DZero。"
+ },
+ {
+  "seg": 72,
+  "start": 358.355,
+  "end": 364.08,
+  "speaker": "Unknown",
+  "en": "And this was really the first agent inside of Vercel that the entire company was interacting with.",
+  "zh": "这真的是 Vercel 内部第一个全公司都在与它交互的智能体。"
+ },
+ {
+  "seg": 73,
+  "start": 365.047,
+  "end": 371.653,
+  "speaker": "Unknown",
+  "en": "And it was a lot of work, a lot of hand-rolled systems to go put D0 onto Vercel.",
+  "zh": "而把 D0 放到 Vercel 上是大量的工作，很多手工搭建的系统。"
+ },
+ {
+  "seg": 74,
+  "start": 371.673,
+  "end": 379.019,
+  "speaker": "Unknown",
+  "en": "We had to wrap a lot of our products like our servos functions and sandboxes and our workflows and various other Vercel products.",
+  "zh": "我们必须封装我们的很多产品，比如我们的 servos 函数、沙箱、我们的工作流以及各种其他 Vercel 产品。"
+ },
+ {
+  "seg": 75,
+  "start": 379.5,
+  "end": 386.185,
+  "speaker": "Unknown",
+  "en": "And it was a ton of work by that team basically just getting it to run correctly before even thinking about what D0 does.",
+  "zh": "那个团队光是让它正确跑起来就做了海量的工作，这还没开始考虑 D0 到底做什么。"
+ },
+ {
+  "seg": 76,
+  "start": 387.227,
+  "end": 394.797,
+  "speaker": "Unknown",
+  "en": "So we felt like there was this very large layer sitting below D0 that basically every single agent that we would then deploy to Vercel was going to need.",
+  "zh": "所以我们觉得在 D0 下面有这一整层非常大的东西，基本上我们之后部署到 Vercel 的每一个智能体都会需要它。"
+ },
+ {
+  "seg": 77,
+  "start": 395.402,
+  "end": 396.263,
+  "speaker": "Unknown",
+  "en": "So that was the first piece.",
+  "zh": "这是第一块。"
+ },
+ {
+  "seg": 78,
+  "start": 396.343,
+  "end": 412.497,
+  "speaker": "Unknown",
+  "en": "And then when we actually looked at D0 and what it was, so much of D0's functionality actually came from Markdown files, YAML files, other types of spec files, because D0 being a data agent, it's basically trying to provide this semantic layer, right?",
+  "zh": "然后当我们真正审视 D0 以及它是什么的时候，D0 的功能有这么多其实来自 Markdown 文件、YAML 文件和其他类型的规范文件，因为 D0 作为一个数据智能体，它基本上是在试图提供这个语义层，对吧？"
+ },
+ {
+  "seg": 79,
+  "start": 412.517,
+  "end": 419.803,
+  "speaker": "Unknown",
+  "en": "When you say how many monthly active users are there, maybe that's too obvious, but this semantic layer is telling the agent what these types of words mean.",
+  "zh": "当你说有多少月活用户，也许这太明显了，但这个语义层是在告诉智能体这些类型的词是什么意思。"
+ },
+ {
+  "seg": 80,
+  "start": 419.823,
+  "end": 423.326,
+  "speaker": "Unknown",
+  "en": "And so when certain people ask questions, they're using different acronyms and things like that.",
+  "zh": "而且当某些人提问时，他们用的是不同的缩写之类的东西。"
+ },
+ {
+  "seg": 81,
+  "start": 423.646,
+  "end": 426.768,
+  "speaker": "Unknown",
+  "en": "So there's this entire layer that's basically educating the agent.",
+  "zh": "所以有这一整层基本上是在教育智能体。"
+ },
+ {
+  "seg": 82,
+  "start": 427.388,
+  "end": 429.83,
+  "speaker": "Unknown",
+  "en": "And that idea is really where we started.",
+  "zh": "而这个想法就是我们真正的起点。"
+ },
+ {
+  "seg": 83,
+  "start": 429.87,
+  "end": 431.471,
+  "speaker": "Unknown",
+  "en": "So we kind of took two approaches here.",
+  "zh": "所以我们在这里大致采取了两种方法。"
+ },
+ {
+  "seg": 84,
+  "start": 431.511,
+  "end": 439.175,
+  "speaker": "Unknown",
+  "en": "We said, well, it has to become way easier to deploy an agent to Vercel in the same durable fashion that D0 was doing.",
+  "zh": "我们说，好吧，把一个智能体部署到 Vercel、并达到 D0 所做的那种持久性，必须变得容易得多。"
+ },
+ {
+  "seg": 85,
+  "start": 439.715,
+  "end": 443.497,
+  "speaker": "Unknown",
+  "en": "And we thought that a declarative file system was really, really interesting.",
+  "zh": "而且我们觉得声明式文件系统真的非常有意思。"
+ },
+ {
+  "seg": 86,
+  "start": 443.518,
+  "end": 447.3,
+  "speaker": "Unknown",
+  "en": "We think a lot of other agents can almost be entirely expressed in English.",
+  "zh": "我们认为很多其他智能体几乎可以完全用英语表达。"
+ },
+ {
+  "seg": 87,
+  "start": 447.96,
+  "end": 453.424,
+  "speaker": "Unknown",
+  "en": "And so we took this very dramatic stance in the beginning where we basically said there was no code.",
+  "zh": "所以我们一开始采取了非常激进的立场，我们基本上说没有代码。"
+ },
+ {
+  "seg": 88,
+  "start": 453.805,
+  "end": 457.107,
+  "speaker": "Unknown",
+  "en": "Eve was going to be purely English, markdown, text files.",
+  "zh": "EVE 将是纯英语的、markdown、文本文件。"
+ },
+ {
+  "seg": 89,
+  "start": 457.687,
+  "end": 463.412,
+  "speaker": "Unknown",
+  "en": "And so yeah, with those two extremes, that was kind of like the very, very early idea behind what Eve is now today.",
+  "zh": "所以，是的，有了这两个极端，那就是今天 Eve 背后最初的、非常非常早的想法。"
+ },
+ {
+  "seg": 90,
+  "start": 464.285,
+  "end": 465.546,
+  "speaker": "Unknown",
+  "en": "Yeah, that's super interesting.",
+  "zh": "是的，这超级有意思。"
+ },
+ {
+  "seg": 91,
+  "start": 465.727,
+  "end": 477.84,
+  "speaker": "Unknown",
+  "en": "Well, and I go back to, I remember a conversation I had, I think, with Tom Okino at some point about Vercel's vision of automatically provisioning infrastructure and being able to infer that from the application.",
+  "zh": "嗯，我回到——我记得某个时候我跟 Tom Okino 谈过一次，关于 Vercel 自动供给基础设施、并且能够从应用程序推断出这一点的愿景。"
+ },
+ {
+  "seg": 92,
+  "start": 477.9,
+  "end": 483.286,
+  "speaker": "Unknown",
+  "en": "And that requires having applications with certain sets of constraints and structure and all of those different pieces.",
+  "zh": "而这要求应用程序具备某些约束集合和结构以及所有这些不同的部分。"
+ },
+ {
+  "seg": 93,
+  "start": 483.987,
+  "end": 487.529,
+  "speaker": "Unknown",
+  "en": "So what does this end up looking like for someone who wants to develop an agent?",
+  "zh": "那么对于一个想开发智能体的人来说，这最终会是什么样子？"
+ },
+ {
+  "seg": 94,
+  "start": 487.569,
+  "end": 489.65,
+  "speaker": "Unknown",
+  "en": "Like what is the Eve?",
+  "zh": "比如 EVE 是什么？"
+ },
+ {
+  "seg": 95,
+  "start": 489.73,
+  "end": 491.111,
+  "speaker": "Unknown",
+  "en": "Is it an SDK?",
+  "zh": "是一个 SDK 吗？"
+ },
+ {
+  "seg": 96,
+  "start": 491.251,
+  "end": 494.632,
+  "speaker": "Unknown",
+  "en": "Is it something where it's like plug in these Markdown files in this place?",
+  "zh": "还是说它是那种把 Markdown 文件插到这个位置之类的东西？"
+ },
+ {
+  "seg": 97,
+  "start": 494.652,
+  "end": 495.853,
+  "speaker": "Unknown",
+  "en": "Like what does this actually look like?",
+  "zh": "这实际上长什么样？"
+ },
+ {
+  "seg": 98,
+  "start": 496.668,
+  "end": 504.212,
+  "speaker": "Unknown",
+  "en": "Yeah, it is literally a directory, and the most simple EVE agent could actually just be an instructions.md file, and that's it.",
+  "zh": "是的，它字面上就是一个目录，最简单的 EVE 智能体其实可以只是一个 instructions.md 文件，就这样。"
+ },
+ {
+  "seg": 99,
+  "start": 504.732,
+  "end": 520.64,
+  "speaker": "Unknown",
+  "en": "And so, yeah, it's, of course, a framework because the grammar behind EVE and our slots, those are all compiled down into this manifest, and that manifest is basically the infrastructure as code that you kind of just referenced where we're provisioning things based on what you have.",
+  "zh": "所以，是的，它当然是一个框架，因为 EVE 背后的语法和我们的 slots，那些都会被编译成这个 manifest，而这个 manifest 基本上就是你刚才提到的那种基础设施即代码，我们根据你所拥有的东西来供给资源。"
+ },
+ {
+  "seg": 100,
+  "start": 521.36,
+  "end": 523.922,
+  "speaker": "Unknown",
+  "en": "If you add skills, for example, then you get a sandbox.",
+  "zh": "比如说，如果你添加 skills,你就会得到一个沙箱。"
+ },
+ {
+  "seg": 101,
+  "start": 523.982,
+  "end": 528.646,
+  "speaker": "Unknown",
+  "en": "If you define schedules, you get our event infrastructure for schedules.",
+  "zh": "如果你定义了 schedules,你就会得到我们的 schedule 事件基础设施。"
+ },
+ {
+  "seg": 102,
+  "start": 528.966,
+  "end": 533.55,
+  "speaker": "Unknown",
+  "en": "But at its core, it is effectively, we call it ChatGPT in a box.",
+  "zh": "但就其核心而言，实际上，我们称它为盒装 ChatGPT。"
+ },
+ {
+  "seg": 103,
+  "start": 533.61,
+  "end": 541.257,
+  "speaker": "Unknown",
+  "en": "If you drop in an instructions.md, you are getting a frontier model as trained, and you're getting a cloud-hosted version of it.",
+  "zh": "如果你放入一个 instructions.md,你得到的是一个按原始训练状态的前沿模型，以及它的一个云端托管版本。"
+ },
+ {
+  "seg": 104,
+  "start": 541.947,
+  "end": 542.447,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有意思。"
+ },
+ {
+  "seg": 105,
+  "start": 542.508,
+  "end": 547.892,
+  "speaker": "Unknown",
+  "en": "So this reminds me back of like the original page router days of Next.js or something like that.",
+  "zh": "这让我想起了 Next.js 早期的 pages router 那个时代，或者类似的东西。"
+ },
+ {
+  "seg": 106,
+  "start": 548.373,
+  "end": 550.555,
+  "speaker": "Unknown",
+  "en": "So what are the conventions?",
+  "zh": "那么这些约定是什么？"
+ },
+ {
+  "seg": 107,
+  "start": 550.575,
+  "end": 556.32,
+  "speaker": "Unknown",
+  "en": "You said instructions MD, you've got a directory, you put things, you referenced here schedules or skills.",
+  "zh": "你提到了 instructions MD,你有一个目录，你把东西放进去，你刚才提到了 schedules 或 skills。"
+ },
+ {
+  "seg": 108,
+  "start": 556.34,
+  "end": 558.462,
+  "speaker": "Unknown",
+  "en": "Like what are the different primitives you have to play with here?",
+  "zh": "就是你在这里可以使用的不同原语都有哪些？"
+ },
+ {
+  "seg": 109,
+  "start": 559.123,
+  "end": 559.964,
+  "speaker": "Unknown",
+  "en": "Yeah, great question.",
+  "zh": "是的，好问题。"
+ },
+ {
+  "seg": 110,
+  "start": 559.984,
+  "end": 562.887,
+  "speaker": "Unknown",
+  "en": "So yeah, instructions is the identity, of course.",
+  "zh": "是这样，instructions 当然就是身份。"
+ },
+ {
+  "seg": 111,
+  "start": 563.167,
+  "end": 564.548,
+  "speaker": "Unknown",
+  "en": "So I think most people are familiar with this.",
+  "zh": "我想大多数人都熟悉这个。"
+ },
+ {
+  "seg": 112,
+  "start": 565.229,
+  "end": 568.572,
+  "speaker": "Unknown",
+  "en": "Skills is the things that you want to progressively disclose.",
+  "zh": "Skills 是你想要渐进式披露的东西。"
+ },
+ {
+  "seg": 113,
+  "start": 568.632,
+  "end": 572.856,
+  "speaker": "Unknown",
+  "en": "So I think skills have been around for maybe a year, year and a half now.",
+  "zh": "我想 skills 出现到现在大概有一年、一年半了。"
+ },
+ {
+  "seg": 114,
+  "start": 572.876,
+  "end": 578.701,
+  "speaker": "Unknown",
+  "en": "And I think people are generally pro-adding skills, but I don't think necessarily understand how it works behind the scenes.",
+  "zh": "我认为人们总体上赞成添加 skills,但我不认为他们一定理解它在幕后是如何运作的。"
+ },
+ {
+  "seg": 115,
+  "start": 578.741,
+  "end": 584.787,
+  "speaker": "Unknown",
+  "en": "And so the key thing to understand with EVE or any of these harnesses is that is your progressive learning mechanism.",
+  "zh": "所以要理解的关键是，对 EVE 或任何这类 harness 来说，它就是你的渐进式学习机制。"
+ },
+ {
+  "seg": 116,
+  "start": 585.207,
+  "end": 589.133,
+  "speaker": "Unknown",
+  "en": "So skills are basically giving a hint as to when they should be used.",
+  "zh": "所以 skills 基本上是给出一个关于它们应该在何时被使用的提示。"
+ },
+ {
+  "seg": 117,
+  "start": 589.674,
+  "end": 593.82,
+  "speaker": "Unknown",
+  "en": "And the models are really good at understanding when they need to learn more about something.",
+  "zh": "而模型非常擅长理解它们什么时候需要进一步了解某个东西。"
+ },
+ {
+  "seg": 118,
+  "start": 593.84,
+  "end": 597.124,
+  "speaker": "Unknown",
+  "en": "And so they can take that hint and then basically pull in additional context.",
+  "zh": "所以它们可以接受那个提示，然后基本上拉取额外的上下文。"
+ },
+ {
+  "seg": 119,
+  "start": 597.645,
+  "end": 599.187,
+  "speaker": "Unknown",
+  "en": "And so D0 is like 90% skills.",
+  "zh": "所以 D0 有大约 90% 都是 skills。"
+ },
+ {
+  "seg": 120,
+  "start": 601.09,
+  "end": 602.812,
+  "speaker": "Unknown",
+  "en": "And then tools, of course.",
+  "zh": "然后是 tools,当然。"
+ },
+ {
+  "seg": 121,
+  "start": 603.052,
+  "end": 614.424,
+  "speaker": "Unknown",
+  "en": "So you most likely want to run deterministic code, pull in a deterministic set of data from some outside source, maybe like a Postgres database or some sort of OpenAPI connection.",
+  "zh": "你很可能想要运行确定性代码，从某个外部来源拉取一组确定性的数据，比如一个 Postgres 数据库或某种 OpenAPI 连接。"
+ },
+ {
+  "seg": 122,
+  "start": 614.925,
+  "end": 616.607,
+  "speaker": "Unknown",
+  "en": "And so tools kind of facilitate that.",
+  "zh": "所以 tools 就是为了促成这一点。"
+ },
+ {
+  "seg": 123,
+  "start": 616.627,
+  "end": 619.99,
+  "speaker": "Unknown",
+  "en": "And then we have a specialized version of tools called connections.",
+  "zh": "然后我们有一个 tools 的特殊版本，叫做 connections。"
+ },
+ {
+  "seg": 124,
+  "start": 620.591,
+  "end": 623.794,
+  "speaker": "Unknown",
+  "en": "And connections are for things like MCP.",
+  "zh": "Connections 是用于像 MCP 这样的东西。"
+ },
+ {
+  "seg": 125,
+  "start": 624.294,
+  "end": 632.76,
+  "speaker": "Unknown",
+  "en": "And so Eve has a first-class way to just drop in an MCP URL and we automatically expose those tools for you so you don't have to think about it.",
+  "zh": "所以 EVE 有一流的方式来直接放入一个 MCP URL,我们会自动为你暴露那些 tools,这样你就不需要操心它。"
+ },
+ {
+  "seg": 126,
+  "start": 633.461,
+  "end": 634.742,
+  "speaker": "Unknown",
+  "en": "Those are like the core primitives.",
+  "zh": "这些就是核心原语。"
+ },
+ {
+  "seg": 127,
+  "start": 634.802,
+  "end": 637.684,
+  "speaker": "Unknown",
+  "en": "I think that's kind of like the brain and the operations of Eve.",
+  "zh": "我觉得这差不多就是 EVE 的大脑和运作方式。"
+ },
+ {
+  "seg": 128,
+  "start": 638.104,
+  "end": 642.147,
+  "speaker": "Unknown",
+  "en": "Then the next layer that is fairly critical is how do you invoke it, right?",
+  "zh": "然后下一个相当关键的层是：你如何调用它，对吧？"
+ },
+ {
+  "seg": 129,
+  "start": 642.167,
+  "end": 645.05,
+  "speaker": "Unknown",
+  "en": "You need to start the agent somehow, and this is what we call channels.",
+  "zh": "你需要以某种方式启动智能体，这就是我们所说的 channels。"
+ },
+ {
+  "seg": 130,
+  "start": 645.63,
+  "end": 649.114,
+  "speaker": "Unknown",
+  "en": "And so channels are basically all your entry points into your harness.",
+  "zh": "所以 channels 基本上就是你进入 harness 的所有入口。"
+ },
+ {
+  "seg": 131,
+  "start": 649.574,
+  "end": 655.12,
+  "speaker": "Unknown",
+  "en": "And so we have a default channel, which is just some HTTP route, and this is what our TUI uses.",
+  "zh": "我们有一个默认的 channel,就是某个 HTTP 路由，我们的 TUI 用的就是这个。"
+ },
+ {
+  "seg": 132,
+  "start": 655.18,
+  "end": 659.505,
+  "speaker": "Unknown",
+  "en": "And if you were to hook it up to a Next.js app, you're basically using that default EVE channel.",
+  "zh": "如果你把它接到一个 Next.js 应用上，你基本上就是在使用那个默认的 EVE channel。"
+ },
+ {
+  "seg": 133,
+  "start": 659.886,
+  "end": 663.69,
+  "speaker": "Unknown",
+  "en": "But the more interesting ones are things like Slack and Teams and GitHub.",
+  "zh": "但更有意思的是像 Slack、Teams 和 GitHub 这样的东西。"
+ },
+ {
+  "seg": 134,
+  "start": 664.11,
+  "end": 668.453,
+  "speaker": "Unknown",
+  "en": "And we basically support all the first-party events that you would expect from those platforms.",
+  "zh": "我们基本上支持你能想到的那些平台的所有第一方事件。"
+ },
+ {
+  "seg": 135,
+  "start": 668.473,
+  "end": 674.917,
+  "speaker": "Unknown",
+  "en": "And we come up with some opinionated defaults for how we think you probably want to use your agent inside of those platforms.",
+  "zh": "而且对于我们认为你可能想在这些平台内部使用智能体的方式，我们给出了一些带倾向性的默认设置。"
+ },
+ {
+  "seg": 136,
+  "start": 674.938,
+  "end": 676.939,
+  "speaker": "Unknown",
+  "en": "Then we, of course, let you customize it beyond that.",
+  "zh": "当然，在此之外我们也允许你自定义。"
+ },
+ {
+  "seg": 137,
+  "start": 677.419,
+  "end": 679.24,
+  "speaker": "Unknown",
+  "en": "So that's really the core primitive.",
+  "zh": "所以这才是真正的核心原语。"
+ },
+ {
+  "seg": 138,
+  "start": 679.561,
+  "end": 683.964,
+  "speaker": "Unknown",
+  "en": "And then it expands quite a bit out from here in much more advanced use cases.",
+  "zh": "然后从这里向外，在更高级的用例中它还会扩展出很多内容。"
+ },
+ {
+  "seg": 139,
+  "start": 684.584,
+  "end": 690.007,
+  "speaker": "Unknown",
+  "en": "So we have this concept of sub-agents, which in its most simplest form is effectively context management.",
+  "zh": "我们有一个叫做 sub-agents 的概念，它最简单的形式实际上就是上下文管理。"
+ },
+ {
+  "seg": 140,
+  "start": 690.768,
+  "end": 695.07,
+  "speaker": "Unknown",
+  "en": "You're kind of taking some larger set of tasks that you don't want to blow in your parent agent.",
+  "zh": "你大概是拿到了某一大堆任务，但不想把它们塞爆你的父智能体。"
+ },
+ {
+  "seg": 141,
+  "start": 695.09,
+  "end": 699.073,
+  "speaker": "Unknown",
+  "en": "And so the sub-agent can go take that and work with it on its own and then kind of report back.",
+  "zh": "所以 sub-agent 可以拿走那些任务，自己独立处理，然后再汇报回来。"
+ },
+ {
+  "seg": 142,
+  "start": 699.093,
+  "end": 704.276,
+  "speaker": "Unknown",
+  "en": "But sub-agents also enable completely different ways of kind of building teams around agents.",
+  "zh": "但 sub-agents 也开启了一种完全不同的、围绕智能体组建团队的方式。"
+ },
+ {
+  "seg": 143,
+  "start": 704.296,
+  "end": 705.817,
+  "speaker": "Unknown",
+  "en": "So like internally in Vercel,",
+  "zh": "比如 Vercel 内部，"
+ },
+ {
+  "seg": 144,
+  "start": 706.537,
+  "end": 710.219,
+  "speaker": "Unknown",
+  "en": "We use sub-agents where literally entire teams own a sub-agent.",
+  "zh": "我们使用 sub-agents 的方式是，字面意义上整个团队拥有一个 sub-agent。"
+ },
+ {
+  "seg": 145,
+  "start": 710.559,
+  "end": 713.2,
+  "speaker": "Unknown",
+  "en": "And then we have another agent that interacts with those.",
+  "zh": "然后我们还有另一个智能体与它们交互。"
+ },
+ {
+  "seg": 146,
+  "start": 713.58,
+  "end": 716.341,
+  "speaker": "Unknown",
+  "en": "So D0, for example, is actually a sub-agent of another one.",
+  "zh": "比如说，D0 实际上是另一个智能体的 sub-agent。"
+ },
+ {
+  "seg": 147,
+  "start": 716.781,
+  "end": 718.062,
+  "speaker": "Unknown",
+  "en": "And so the data team owns that.",
+  "zh": "它由数据团队拥有。"
+ },
+ {
+  "seg": 148,
+  "start": 718.602,
+  "end": 723.564,
+  "speaker": "Unknown",
+  "en": "We have a help, Eve agent, for example, that knows all about how to build Eve.",
+  "zh": "我们有一个 help Eve 智能体，举个例子，它了解所有关于如何构建 Eve 的知识。"
+ },
+ {
+  "seg": 149,
+  "start": 723.584,
+  "end": 725.745,
+  "speaker": "Unknown",
+  "en": "And so the rest of the company can invoke that.",
+  "zh": "所以公司的其他人都可以调用它。"
+ },
+ {
+  "seg": 150,
+  "start": 726.145,
+  "end": 729.107,
+  "speaker": "Unknown",
+  "en": "And that's effectively a sub-agent of our larger agent as well.",
+  "zh": "而这实际上也是我们更大智能体的一个子智能体。"
+ },
+ {
+  "seg": 151,
+  "start": 729.147,
+  "end": 734.109,
+  "speaker": "Unknown",
+  "en": "So yeah, sub-agents enable really a different way of organizing who owns what.",
+  "zh": "所以是的，子智能体真正实现了一种不同的方式来组织谁拥有什么。"
+ },
+ {
+  "seg": 152,
+  "start": 734.689,
+  "end": 735.65,
+  "speaker": "Unknown",
+  "en": "So those are pretty interesting.",
+  "zh": "所以这些是相当有趣的。"
+ },
+ {
+  "seg": 153,
+  "start": 735.71,
+  "end": 739.633,
+  "speaker": "Unknown",
+  "en": "And then something else that I'm very excited about that is first class in Eve is evals.",
+  "zh": "然后另一件让我非常兴奋的事情，在 Eve 中是一等公民的，就是 evals。"
+ },
+ {
+  "seg": 154,
+  "start": 740.133,
+  "end": 750.3,
+  "speaker": "Unknown",
+  "en": "And so we think it's very, very important when you build a non-deterministic system like an agent that you can actually test it and monitor it over time and see how it's performing, right?",
+  "zh": "我们认为，当你构建一个像智能体这样的非确定性系统时，非常重要的是你能够实际测试它、随时间监控它，看它的表现如何，对吧？"
+ },
+ {
+  "seg": 155,
+  "start": 750.32,
+  "end": 752.422,
+  "speaker": "Unknown",
+  "en": "And that could be based on changes that you're making.",
+  "zh": "这可以基于你所做的更改。"
+ },
+ {
+  "seg": 156,
+  "start": 752.442,
+  "end": 756.144,
+  "speaker": "Unknown",
+  "en": "It could be testing a new model or different levels of reasoning and things like that.",
+  "zh": "也可以是测试一个新模型或不同级别的推理之类的东西。"
+ },
+ {
+  "seg": 157,
+  "start": 756.224,
+  "end": 759.487,
+  "speaker": "Unknown",
+  "en": "So evals is like a very first class primitive inside of Eve.",
+  "zh": "所以 evals 在 Eve 里面就像一个非常一等公民的原语。"
+ },
+ {
+  "seg": 158,
+  "start": 760.192,
+  "end": 766.354,
+  "speaker": "Unknown",
+  "en": "I want to double click on that, because evals is something I think everyone is talking about and trying to do.",
+  "zh": "我想深入聊聊这个，因为 evals 是我认为每个人都在谈论并试图做的事情。"
+ },
+ {
+  "seg": 159,
+  "start": 766.614,
+  "end": 774.015,
+  "speaker": "Unknown",
+  "en": "But at least in most of the folks I talk to, and certainly what I see just diving in with people in places, it still feels a lot harder than it needs to be.",
+  "zh": "但至少在我交谈过的大多数人那里，当然也包括我深入和人们一起实践时所看到的，它仍然感觉比它本来该有的难度要高得多。"
+ },
+ {
+  "seg": 160,
+  "start": 774.536,
+  "end": 777.076,
+  "speaker": "Unknown",
+  "en": "So how do you set up an eval in EVE?",
+  "zh": "那么你在 EVE 里是怎么搭建一个 eval 的？"
+ },
+ {
+  "seg": 161,
+  "start": 777.176,
+  "end": 779.657,
+  "speaker": "Unknown",
+  "en": "Is it a sort of static test case?",
+  "zh": "它是一种静态测试用例吗？"
+ },
+ {
+  "seg": 162,
+  "start": 779.677,
+  "end": 782.237,
+  "speaker": "Unknown",
+  "en": "Are you doing evals on live queries?",
+  "zh": "你们是对实时查询做 evals 吗？"
+ },
+ {
+  "seg": 163,
+  "start": 782.317,
+  "end": 784.158,
+  "speaker": "Unknown",
+  "en": "What does that whole lifecycle look like?",
+  "zh": "整个生命周期是什么样的？"
+ },
+ {
+  "seg": 164,
+  "start": 784.924,
+  "end": 787.785,
+  "speaker": "Unknown",
+  "en": "Yeah, so we have two different types of evals.",
+  "zh": "是的，我们有两种不同类型的 evals。"
+ },
+ {
+  "seg": 165,
+  "start": 787.805,
+  "end": 796.208,
+  "speaker": "Unknown",
+  "en": "So the first type is more deterministic, it's probably more what you're familiar with, where you're looking for conditions to be met, and these are fairly deterministic things.",
+  "zh": "第一种类型更具确定性，可能更接近你所熟悉的，就是你在寻找某些条件被满足，而这些是相当确定性的东西。"
+ },
+ {
+  "seg": 166,
+  "start": 796.848,
+  "end": 802.71,
+  "speaker": "Unknown",
+  "en": "And Eve's example of that is like, you might want to send a query and then make sure that a tool was called.",
+  "zh": "Eve 在这方面的例子是，比如你可能想发送一个查询，然后确保某个工具被调用了。"
+ },
+ {
+  "seg": 167,
+  "start": 803.33,
+  "end": 810.616,
+  "speaker": "Unknown",
+  "en": "Not perfectly deterministic because the models might not call it, but in general, you can say, okay, I have this tool defined, and let's say you're building a weather agent.",
+  "zh": "这不是完美确定的，因为模型可能不会调用它，但总体上，你可以说，好，我定义了这个工具，比方说你在构建一个天气智能体。"
+ },
+ {
+  "seg": 168,
+  "start": 810.936,
+  "end": 815.28,
+  "speaker": "Unknown",
+  "en": "When you ask what is the weather, you would like to make sure that the Get Weather tool is called.",
+  "zh": "当你问天气是什么时，你会想确保 Get Weather 工具被调用。"
+ },
+ {
+  "seg": 169,
+  "start": 815.3,
+  "end": 818.702,
+  "speaker": "Unknown",
+  "en": "So those are a little bit more deterministic, very straightforward to write.",
+  "zh": "所以这些是更具确定性一点的，写起来非常直接。"
+ },
+ {
+  "seg": 170,
+  "start": 819.183,
+  "end": 825.548,
+  "speaker": "Unknown",
+  "en": "And then we take this one step further where we let you do, I believe the term is LOM as judge.",
+  "zh": "然后我们再往前走一步，让你可以做，我相信这个术语叫 LOM as judge。"
+ },
+ {
+  "seg": 171,
+  "start": 826.088,
+  "end": 831.592,
+  "speaker": "Unknown",
+  "en": "And so you can actually, you know, reason about responses and kind of grade and score these types of responses.",
+  "zh": "这样你实际上可以对响应进行推理，并对这些类型的响应进行评分和打分。"
+ },
+ {
+  "seg": 172,
+  "start": 831.612,
+  "end": 842.66,
+  "speaker": "Unknown",
+  "en": "And so this is, you know, for D0, this is where things can get really interesting and much more complex where we can actually grade the SQL query that might be generated and make sure that it's looking for the right, you know, tables and things like that.",
+  "zh": "所以这对于 D0 来说，就是事情可以变得非常有趣且复杂得多的地方，我们可以真正对可能生成的 SQL 查询进行评分，并确保它在查找正确的表之类的东西。"
+ },
+ {
+  "seg": 173,
+  "start": 842.72,
+  "end": 850.946,
+  "speaker": "Unknown",
+  "en": "So yeah, and eval in Eve is literally a, it is a define eval function and you basically get this test function that you can write what you want.",
+  "zh": "所以是的，Eve 里的 eval 实际上就是一个，它是一个 define eval 函数，你基本上会得到这个测试函数，你可以想写什么就写什么。"
+ },
+ {
+  "seg": 174,
+  "start": 851.426,
+  "end": 853.867,
+  "speaker": "Unknown",
+  "en": "It's effectively a full interface to your agent.",
+  "zh": "它实际上是一个完整的智能体接口。"
+ },
+ {
+  "seg": 175,
+  "start": 853.887,
+  "end": 865.974,
+  "speaker": "Unknown",
+  "en": "So you can start turns via prompts, you can trigger things like human in the loop, and so basically all the functionality of Eve, you can programmatically write and set up an eval, and you can do as much or little with it as you want.",
+  "zh": "所以你可以通过 prompt 来启动轮次，你可以触发像 human in the loop 这样的事情，基本上 Eve 的所有功能，你都可以通过编程方式编写并搭建一个 eval，而且你想用它做多少就做多少，做多少少就做多少少。"
+ },
+ {
+  "seg": 176,
+  "start": 866.414,
+  "end": 874.299,
+  "speaker": "Unknown",
+  "en": "What I think is particularly interesting about the way we have the Eve repo set up is our test suite is, in fact, a full set of evals.",
+  "zh": "我认为特别有趣的是我们搭建 Eve 代码仓库的方式，我们的测试套件实际上是一整套 evals。"
+ },
+ {
+  "seg": 177,
+  "start": 874.859,
+  "end": 878.022,
+  "speaker": "Unknown",
+  "en": "So we actually use our eval framework to test EVE.",
+  "zh": "所以我们实际上使用我们的 eval 框架来测试 EVE。"
+ },
+ {
+  "seg": 178,
+  "start": 878.042,
+  "end": 882.847,
+  "speaker": "Unknown",
+  "en": "And that is basically what gives us the confidence to ship new versions many times a day.",
+  "zh": "这基本上就是我们敢于一天多次发布新版本的信心来源。"
+ },
+ {
+  "seg": 179,
+  "start": 884.678,
+  "end": 885.939,
+  "speaker": "Unknown",
+  "en": "Yeah, no, that's super cool.",
+  "zh": "是的，不，这非常酷。"
+ },
+ {
+  "seg": 180,
+  "start": 886.659,
+  "end": 887.76,
+  "speaker": "Unknown",
+  "en": "OK, I'm going to push on this.",
+  "zh": "好，我要在这个问题上再推一下。"
+ },
+ {
+  "seg": 181,
+  "start": 888.18,
+  "end": 889.101,
+  "speaker": "Unknown",
+  "en": "You may not have anything.",
+  "zh": "你可能什么都没有。"
+ },
+ {
+  "seg": 182,
+  "start": 889.141,
+  "end": 893.284,
+  "speaker": "Unknown",
+  "en": "I haven't seen anybody really do this yet, but it's a thing I'm kind of minorly obsessed with.",
+  "zh": "我还没见过谁真正做过这个，但这是让我有点着迷的一件事。"
+ },
+ {
+  "seg": 183,
+  "start": 893.304,
+  "end": 896.206,
+  "speaker": "Unknown",
+  "en": "So what we just described is essentially evals as guardrails, right?",
+  "zh": "所以我们刚才描述的实质上是把 evals 当作护栏，对吧？"
+ },
+ {
+  "seg": 184,
+  "start": 896.246,
+  "end": 898.388,
+  "speaker": "Unknown",
+  "en": "Like we have something we believe to be true.",
+  "zh": "就是我们有一些我们相信为真的东西。"
+ },
+ {
+  "seg": 185,
+  "start": 898.988,
+  "end": 900.929,
+  "speaker": "Unknown",
+  "en": "We're using evals to make sure it remains true.",
+  "zh": "我们用 evals 来确保它保持为真。"
+ },
+ {
+  "seg": 186,
+  "start": 901.029,
+  "end": 905.753,
+  "speaker": "Unknown",
+  "en": "It's kind of a AI or non-deterministic variation on unit and functional tests.",
+  "zh": "这有点像单元测试和功能测试的 AI 或非确定性变体。"
+ },
+ {
+  "seg": 187,
+  "start": 906.739,
+  "end": 915.081,
+  "speaker": "Unknown",
+  "en": "A kind of direction that I'm interested in is this concept of essentially turning prompting into an optimization function, right?",
+  "zh": "我感兴趣的一个方向是这个概念，即实质上把 prompting 变成一个优化函数，对吧？"
+ },
+ {
+  "seg": 188,
+  "start": 915.141,
+  "end": 926.264,
+  "speaker": "Unknown",
+  "en": "So your evals lay out what should be true as an outcome, and then you use maybe an LLM or something else in the loop to actually iteratively evolve your agent to get it to behave the way you expect.",
+  "zh": "就是你的 evals 规定了结果应该是什么样子，然后你用也许是 LLM 或其他什么放进循环里，真正迭代地演化你的智能体，让它按你期望的方式行动。"
+ },
+ {
+  "seg": 189,
+  "start": 926.364,
+  "end": 928.825,
+  "speaker": "Unknown",
+  "en": "Is that something that you've played with at all in Eve?",
+  "zh": "这是你在 Eve 里玩过的东西吗？"
+ },
+ {
+  "seg": 190,
+  "start": 929.285,
+  "end": 930.625,
+  "speaker": "Unknown",
+  "en": "I'm totally fine if not.",
+  "zh": "如果没有我也完全没问题。"
+ },
+ {
+  "seg": 191,
+  "start": 930.645,
+  "end": 934.166,
+  "speaker": "Unknown",
+  "en": "I don't know anyone has, but when we started talking about this, I was like, ooh.",
+  "zh": "我不知道有谁做过，但当我们开始聊这个的时候，我就想，哦哦。"
+ },
+ {
+  "seg": 192,
+  "start": 934.588,
+  "end": 936.847,
+  "speaker": "Unknown",
+  "en": "Does this make it easier to create that optimization loop?",
+  "zh": "这会让创建那个优化循环变得更容易吗？"
+ },
+ {
+  "seg": 193,
+  "start": 937.241,
+  "end": 938.642,
+  "speaker": "Unknown",
+  "en": "Well, yeah, this is really interesting.",
+  "zh": "嗯，是的，这真的很有意思。"
+ },
+ {
+  "seg": 194,
+  "start": 938.682,
+  "end": 941.183,
+  "speaker": "Unknown",
+  "en": "So I had never thought about it in this way.",
+  "zh": "我从来没有从这个角度想过。"
+ },
+ {
+  "seg": 195,
+  "start": 941.283,
+  "end": 950.029,
+  "speaker": "Unknown",
+  "en": "But if you use a coding agent to build your Eve agent, I think you'll find that it will actually write and run evals while it's iterating.",
+  "zh": "但如果你用一个 coding agent 来构建你的 Eve 智能体，我想你会发现它实际上会在迭代过程中编写并运行 evals。"
+ },
+ {
+  "seg": 196,
+  "start": 950.669,
+  "end": 956.593,
+  "speaker": "Unknown",
+  "en": "And part of this is because of the way we expose our docs inside of the package.",
+  "zh": "这部分是因为我们在包内暴露文档的方式。"
+ },
+ {
+  "seg": 197,
+  "start": 956.633,
+  "end": 960.075,
+  "speaker": "Unknown",
+  "en": "And so we hint that you test Eve with evals.",
+  "zh": "所以我们提示了你是用 evals 来测试 Eve 的。"
+ },
+ {
+  "seg": 198,
+  "start": 960.095,
+  "end": 962.196,
+  "speaker": "Unknown",
+  "en": "And so the coding agents actually understand this.",
+  "zh": "所以 coding agent 们实际上理解这一点。"
+ },
+ {
+  "seg": 199,
+  "start": 962.256,
+  "end": 965.258,
+  "speaker": "Unknown",
+  "en": "And when we work locally on Eve, we have a bunch of",
+  "zh": "而且当我们在本地开发 Eve 时，我们有一大堆"
+ },
+ {
+  "seg": 200,
+  "start": 965.818,
+  "end": 967.079,
+  "speaker": "Unknown",
+  "en": "Fixture-style apps.",
+  "zh": "Fixture 风格的应用。"
+ },
+ {
+  "seg": 201,
+  "start": 967.379,
+  "end": 969.24,
+  "speaker": "Unknown",
+  "en": "The coding agents are running those evals.",
+  "zh": "编码智能体正在运行那些 eval。"
+ },
+ {
+  "seg": 202,
+  "start": 969.26,
+  "end": 974.122,
+  "speaker": "Unknown",
+  "en": "So I think it wouldn't be asking too much to actually prompt your coding agent to get what you want out of here.",
+  "zh": "所以我觉得,让编码智能体真正得到你想要的东西,并不算要求太高。"
+ },
+ {
+  "seg": 203,
+  "start": 974.142,
+  "end": 978.605,
+  "speaker": "Unknown",
+  "en": "And I think it would do a pretty reasonable job at using those evals to iterate.",
+  "zh": "而且我觉得它在利用那些 eval 来迭代这件事上会做得相当不错。"
+ },
+ {
+  "seg": 204,
+  "start": 979.025,
+  "end": 982.667,
+  "speaker": "Unknown",
+  "en": "I've never quite seen it write an eval first and then go build the implementation.",
+  "zh": "我从没怎么见过它先写 eval 然后再去构建实现。"
+ },
+ {
+  "seg": 205,
+  "start": 984.088,
+  "end": 986.429,
+  "speaker": "Unknown",
+  "en": "But I think you could probably get something pretty close to that.",
+  "zh": "但我觉得你大概能得到非常接近那个的东西。"
+ },
+ {
+  "seg": 206,
+  "start": 987.464,
+  "end": 987.804,
+  "speaker": "Unknown",
+  "en": "Nice.",
+  "zh": "不错。"
+ },
+ {
+  "seg": 207,
+  "start": 988.304,
+  "end": 988.865,
+  "speaker": "Unknown",
+  "en": "That's cool.",
+  "zh": "那很酷。"
+ },
+ {
+  "seg": 208,
+  "start": 989.065,
+  "end": 998.689,
+  "speaker": "Unknown",
+  "en": "And I really like that idea of thinking, I think more and more frameworks are starting to do this where they think of our documentation needs to be designed not just for humans, but for coding agents, right?",
+  "zh": "我真的很喜欢这个想法,越来越多的框架开始这么做了,它们认为我们的文档不仅需要为人类设计,也要为编码智能体设计,对吧?"
+ },
+ {
+  "seg": 209,
+  "start": 998.709,
+  "end": 1001.61,
+  "speaker": "Unknown",
+  "en": "To expose the right things, put the right guardrails in place.",
+  "zh": "暴露出正确的东西,设置正确的护栏。"
+ },
+ {
+  "seg": 210,
+  "start": 1002.287,
+  "end": 1008.37,
+  "speaker": "Unknown",
+  "en": "Yeah, we had a lot of learnings from Next.js in that regard where the models are trained on much older versions than Next.",
+  "zh": "是的,在这方面我们从 Next.js 学到了很多,这些模型训练用的版本比 Next 旧得多。"
+ },
+ {
+  "seg": 211,
+  "start": 1008.39,
+  "end": 1010.892,
+  "speaker": "Unknown",
+  "en": "So it's like, how do you get it to learn the latest thing?",
+  "zh": "所以就是,你怎么让它学到最新的东西?"
+ },
+ {
+  "seg": 212,
+  "start": 1010.932,
+  "end": 1014.033,
+  "speaker": "Unknown",
+  "en": "And obviously, Eve doesn't exist as far as these models are concerned, right?",
+  "zh": "显然,就这些模型而言,Eve 是不存在的,对吧?"
+ },
+ {
+  "seg": 213,
+  "start": 1014.053,
+  "end": 1019.816,
+  "speaker": "Unknown",
+  "en": "So yeah, so we spent a lot of time making sure that the package had to come with LLM-friendly docs.",
+  "zh": "所以是的,我们花了很多时间确保这个包必须附带对 LLM 友好的文档。"
+ },
+ {
+  "seg": 214,
+  "start": 1019.996,
+  "end": 1022.858,
+  "speaker": "Unknown",
+  "en": "And I think we've seen really, really good payoff there.",
+  "zh": "而且我认为我们在这方面得到了非常非常好的回报。"
+ },
+ {
+  "seg": 215,
+  "start": 1024.414,
+  "end": 1027.858,
+  "speaker": "Unknown",
+  "en": "This episode of Software Engineering Daily is brought to you by Warp Build.",
+  "zh": "本期 Software Engineering Daily 节目由 Warp Build 为您呈现。"
+ },
+ {
+  "seg": 216,
+  "start": 1028.238,
+  "end": 1032.363,
+  "speaker": "Unknown",
+  "en": "AI is writing more code than ever, which means GitHub Actions is running more than ever.",
+  "zh": "AI 正在编写比以往更多的代码,这意味着 GitHub Actions 的运行量也比以往更多。"
+ },
+ {
+  "seg": 217,
+  "start": 1032.543,
+  "end": 1036.227,
+  "speaker": "Unknown",
+  "en": "Your GitHub Actions bill is now a function of how much AI code you generate.",
+  "zh": "你的 GitHub Actions 账单现在成了你生成多少 AI 代码的函数。"
+ },
+ {
+  "seg": 218,
+  "start": 1036.448,
+  "end": 1037.749,
+  "speaker": "Unknown",
+  "en": "And every engineer knows the feeling.",
+  "zh": "每个工程师都懂那种感觉。"
+ },
+ {
+  "seg": 219,
+  "start": 1037.909,
+  "end": 1040.212,
+  "speaker": "Unknown",
+  "en": "You push a commit, and then you wait.",
+  "zh": "你推送了一个 commit,然后就是等待。"
+ },
+ {
+  "seg": 220,
+  "start": 1040.733,
+  "end": 1043.696,
+  "speaker": "Unknown",
+  "en": "Warp Build makes GitHub Actions twice as fast at half the cost.",
+  "zh": "Warp Build 让 GitHub Actions 快一倍,成本减半。"
+ },
+ {
+  "seg": 221,
+  "start": 1043.756,
+  "end": 1056.232,
+  "speaker": "Unknown",
+  "en": "With a one-line change to your workflow, Linux, macOS, and Windows Runners, in Warp Builds Cloud or your own, enterprise-ready, SOC 2 Type 2-attested, and trusted by teams like Sky from Comcast, Bitcoin, and BraintrustAI.",
+  "zh": "只需对 workflow 做一行改动,即可获得 Linux、macOS 和 Windows Runner,可跑在 Warp Build 的云上或你自己的云上,企业级可用,通过 SOC 2 Type 2 认证,并受到 Comcast 的 Sky、Bitcoin 和 BraintrustAI 等团队的信赖。"
+ },
+ {
+  "seg": 222,
+  "start": 1056.452,
+  "end": 1059.576,
+  "speaker": "Unknown",
+  "en": "Get started with $50 in free credits at warpbuild.com.",
+  "zh": "访问 warpbuild.com,即可获得 50 美元免费额度开始使用。"
+ },
+ {
+  "seg": 223,
+  "start": 1062.199,
+  "end": 1065.16,
+  "speaker": "Unknown",
+  "en": "Every visitor on your platform looks the same at first.",
+  "zh": "你平台上的每个访客乍一看都一样。"
+ },
+ {
+  "seg": 224,
+  "start": 1065.52,
+  "end": 1067.601,
+  "speaker": "Unknown",
+  "en": "Can you trust them or are they a threat?",
+  "zh": "你能信任他们,还是他们是威胁?"
+ },
+ {
+  "seg": 225,
+  "start": 1067.801,
+  "end": 1075.743,
+  "speaker": "Unknown",
+  "en": "Fingerprint lets you answer this question right away with one API call, no model to maintain, and implementation in minutes.",
+  "zh": "Fingerprint 让你只需一次 API 调用就能立刻回答这个问题,无需维护模型,几分钟即可完成实现。"
+ },
+ {
+  "seg": 226,
+  "start": 1076.183,
+  "end": 1082.985,
+  "speaker": "Unknown",
+  "en": "Fingerprint recognizes bots, AI agents, VPNs, tampering, and over 100 more unique signals.",
+  "zh": "Fingerprint 能识别机器人、AI 智能体、VPN、篡改行为以及 100 多种其他独特信号。"
+ },
+ {
+  "seg": 227,
+  "start": 1083.385,
+  "end": 1096.776,
+  "speaker": "Unknown",
+  "en": "To give you durable risk scoring and threat detection in real time, even as human and agentic activity blends together, you can identify suspicious traffic faster and build safer and more secure sites and apps.",
+  "zh": "为你提供实时、持久的风险评分和威胁检测,即便在人类与智能体活动混杂在一起的情况下,你也能更快地识别可疑流量,构建更安全、更有保障的网站和应用。"
+ },
+ {
+  "seg": 228,
+  "start": 1097.136,
+  "end": 1100.079,
+  "speaker": "Unknown",
+  "en": "Over 6,000 companies rely on it every day.",
+  "zh": "超过 6000 家公司每天都在依赖它。"
+ },
+ {
+  "seg": 229,
+  "start": 1100.379,
+  "end": 1102.661,
+  "speaker": "Unknown",
+  "en": "Join them now at Fingerprint.com.",
+  "zh": "现在就加入他们,访问 Fingerprint.com。"
+ },
+ {
+  "seg": 230,
+  "start": 1103.021,
+  "end": 1104.842,
+  "speaker": "Unknown",
+  "en": "Think about your mobile app source code.",
+  "zh": "想想你的移动应用源代码。"
+ },
+ {
+  "seg": 231,
+  "start": 1105.183,
+  "end": 1107.785,
+  "speaker": "Unknown",
+  "en": "Once it hits the App Store, it's out in the wild.",
+  "zh": "一旦它上了 App Store,它就流落在外了。"
+ },
+ {
+  "seg": 232,
+  "start": 1108.125,
+  "end": 1115.63,
+  "speaker": "Unknown",
+  "en": "And without the right protection, decompiling is easy for malicious actors looking to steal your IP or tamper with your software.",
+  "zh": "而且如果没有正确的保护,对于想要窃取你的知识产权或篡改你软件的恶意行为者来说,反编译是很容易的。"
+ },
+ {
+  "seg": 233,
+  "start": 1115.85,
+  "end": 1117.211,
+  "speaker": "Unknown",
+  "en": "That's where GuardSquare comes in.",
+  "zh": "这就是 GuardSquare 的用武之地。"
+ },
+ {
+  "seg": 234,
+  "start": 1117.611,
+  "end": 1124.575,
+  "speaker": "Unknown",
+  "en": "GuardSquare provides the highest level of mobile app security for Android and iOS applications and SDKs.",
+  "zh": "GuardSquare 为 Android 和 iOS 应用以及 SDK 提供最高级别的移动应用安全。"
+ },
+ {
+  "seg": 235,
+  "start": 1125.035,
+  "end": 1129.218,
+  "speaker": "Unknown",
+  "en": "Their advanced tools integrate seamlessly into your CI-CD pipeline.",
+  "zh": "他们的高级工具可以无缝集成到你的 CI-CD 流水线中。"
+ },
+ {
+  "seg": 236,
+  "start": 1129.578,
+  "end": 1145.669,
+  "speaker": "Unknown",
+  "en": "We're talking polymorphic multi-layered code hardening techniques and automated runtime application self-protection paired with mobile application security testing and real-time threat monitoring to deliver the highest level of mobile app security without compromise.",
+  "zh": "我们说的是多态多层代码加固技术,以及自动化的运行时应用自我保护,再配合移动应用安全测试和实时威胁监控,以提供最高级别的移动应用安全,毫不妥协。"
+ },
+ {
+  "seg": 237,
+  "start": 1146.089,
+  "end": 1147.67,
+  "speaker": "Unknown",
+  "en": "Don't leave your hard work exposed.",
+  "zh": "不要让你的辛勤成果暴露在外。"
+ },
+ {
+  "seg": 238,
+  "start": 1148.09,
+  "end": 1150.332,
+  "speaker": "Unknown",
+  "en": "Secure your mobile applications today.",
+  "zh": "今天就保护你的移动应用。"
+ },
+ {
+  "seg": 239,
+  "start": 1150.712,
+  "end": 1153.094,
+  "speaker": "Unknown",
+  "en": "Go to guardsquare.com to learn more.",
+  "zh": "访问 guardsquare.com 了解更多。"
+ },
+ {
+  "seg": 240,
+  "start": 1155.142,
+  "end": 1157.163,
+  "speaker": "Unknown",
+  "en": "I'm curious, actually, any lessons learned there?",
+  "zh": "我其实很好奇,在那方面有什么经验教训吗?"
+ },
+ {
+  "seg": 241,
+  "start": 1157.203,
+  "end": 1167.346,
+  "speaker": "Unknown",
+  "en": "Like, and one of the things I'm thinking about here is, similar to skills, I feel like you probably want some sort of progressive disclosure or something like that, because otherwise the model may get overwhelmed.",
+  "zh": "比如,我在这里想到的一点是,类似于 skills 那样,我觉得你可能需要某种渐进式披露之类的东西,否则模型可能会不堪重负。"
+ },
+ {
+  "seg": 242,
+  "start": 1167.466,
+  "end": 1171.507,
+  "speaker": "Unknown",
+  "en": "Like, you don't want to stuff the model with all the context about your whole framework all the time.",
+  "zh": "比如,你不会想要一直把关于你整个框架的所有上下文都塞给模型。"
+ },
+ {
+  "seg": 243,
+  "start": 1172.127,
+  "end": 1174.668,
+  "speaker": "Unknown",
+  "en": "So, like, how did you design those to make that work well?",
+  "zh": "那么,你们是怎么设计这些来让它们良好运作的?"
+ },
+ {
+  "seg": 244,
+  "start": 1175.368,
+  "end": 1176.148,
+  "speaker": "Unknown",
+  "en": "Yeah, two things.",
+  "zh": "是的,两件事。"
+ },
+ {
+  "seg": 245,
+  "start": 1176.208,
+  "end": 1181.39,
+  "speaker": "Unknown",
+  "en": "So, our scaffolding includes an agents.md file, which, of course, points to the docs.",
+  "zh": "我们的脚手架包含一个 agents.md 文件,它当然会指向文档。"
+ },
+ {
+  "seg": 246,
+  "start": 1182.586,
+  "end": 1186.449,
+  "speaker": "Unknown",
+  "en": "And we also include our changelog in the package.",
+  "zh": "我们还在包里附上了 changelog。"
+ },
+ {
+  "seg": 247,
+  "start": 1187.249,
+  "end": 1194.354,
+  "speaker": "Unknown",
+  "en": "And this is really, really useful because the agent basically knows that it only has to look at certain things, like when you start upgrading the e-versions and things like that.",
+  "zh": "这真的非常非常有用,因为智能体基本上知道它只需要看某些特定的东西,比如当你开始升级 e 版本之类的事情时。"
+ },
+ {
+  "seg": 248,
+  "start": 1194.374,
+  "end": 1196.275,
+  "speaker": "Unknown",
+  "en": "So it doesn't have to start from a clean slate.",
+  "zh": "这样它就不用从零开始。"
+ },
+ {
+  "seg": 249,
+  "start": 1196.295,
+  "end": 1202.359,
+  "speaker": "Unknown",
+  "en": "It's really good at knowing it got on version 0.2 and I see the changelog is on 0.5.",
+  "zh": "它非常擅长于知道它现在用的是 0.2 版本,而它看到 changelog 已经到 0.5 了。"
+ },
+ {
+  "seg": 250,
+  "start": 1202.379,
+  "end": 1204.42,
+  "speaker": "Unknown",
+  "en": "Let me just look at the diff between that.",
+  "zh": "我先看看那之间的 diff。"
+ },
+ {
+  "seg": 251,
+  "start": 1204.86,
+  "end": 1213.646,
+  "speaker": "Unknown",
+  "en": "And then in terms of the docs themselves, the coding agent, like Codex and Claude, whatever, they're so good at knowing that there's tons of files in a directory and not to scan them all.",
+  "zh": "然后说到文档本身，编码智能体，像 Codex 和 Claude 之类的，它们非常擅长处理一个目录里有大量文件的情况，而且不会把它们全都扫一遍。"
+ },
+ {
+  "seg": 252,
+  "start": 1213.806,
+  "end": 1219.97,
+  "speaker": "Unknown",
+  "en": "So we didn't really do much to optimize there other than just picking a folder structure for the docs that we think would make sense.",
+  "zh": "所以在这上面我们没做什么优化，只是为文档选了一个我们认为合理的文件夹结构。"
+ },
+ {
+  "seg": 253,
+  "start": 1220.03,
+  "end": 1222.592,
+  "speaker": "Unknown",
+  "en": "But the changelog is really interesting.",
+  "zh": "但 changelog 真的很有意思。"
+ },
+ {
+  "seg": 254,
+  "start": 1223.032,
+  "end": 1228.456,
+  "speaker": "Unknown",
+  "en": "And especially for a framework that's pre-1.0, it's critical because we're breaking stuff every week.",
+  "zh": "尤其对于一个还没到 1.0 的框架来说，它至关重要，因为我们每周都在破坏东西。"
+ },
+ {
+  "seg": 255,
+  "start": 1228.496,
+  "end": 1232.879,
+  "speaker": "Unknown",
+  "en": "And so that's kind of the main way that we can make sure people are upgrading without throwing a fit.",
+  "zh": "所以这基本是我们确保人们在升级时不会大发脾气的主要方式。"
+ },
+ {
+  "seg": 256,
+  "start": 1233.954,
+  "end": 1235.515,
+  "speaker": "Unknown",
+  "en": "Yeah, no, that's super useful.",
+  "zh": "是啊，不，这超级有用。"
+ },
+ {
+  "seg": 257,
+  "start": 1235.555,
+  "end": 1238.918,
+  "speaker": "Unknown",
+  "en": "Actually, that's a technique that I think I've found for a lot of code bases.",
+  "zh": "实际上，我认为我在很多代码库上都发现这是一种技巧。"
+ },
+ {
+  "seg": 258,
+  "start": 1239.158,
+  "end": 1245.464,
+  "speaker": "Unknown",
+  "en": "When you have multiple people in a code base at all, like having that changelog really helps the agents keep up with what's going on.",
+  "zh": "只要代码库里有不止一个人，有 changelog 真的能帮助智能体跟上正在发生的事情。"
+ },
+ {
+  "seg": 259,
+  "start": 1245.904,
+  "end": 1246.885,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, exactly.",
+  "zh": "是啊，是啊，没错。"
+ },
+ {
+  "seg": 260,
+  "start": 1247.775,
+  "end": 1249.397,
+  "speaker": "Unknown",
+  "en": "Different direction here.",
+  "zh": "换个方向。"
+ },
+ {
+  "seg": 261,
+  "start": 1249.517,
+  "end": 1256.647,
+  "speaker": "Unknown",
+  "en": "So still in this like mental model of, okay, we're moving from my pet agent living on a box somewhere to these cloud-based agents.",
+  "zh": "还是在这个心智模型里，就是，好，我们正从住在某台机器上的我的宠物智能体迁移到这些基于云端的智能体。"
+ },
+ {
+  "seg": 262,
+  "start": 1257.288,
+  "end": 1264.057,
+  "speaker": "Unknown",
+  "en": "One of the big challenges I feel like a lot of us are grappling with is how do you manage things like permissions?",
+  "zh": "我感觉我们很多人都在努力应对的一个大挑战是，你怎么管理像权限这类东西？"
+ },
+ {
+  "seg": 263,
+  "start": 1264.678,
+  "end": 1271.005,
+  "speaker": "Unknown",
+  "en": "Authorization, like what is this agent allowed to see depending on who's interacting with it and that types of things.",
+  "zh": "授权，比如这个智能体被允许看到什么，取决于是谁在与它交互之类的。"
+ },
+ {
+  "seg": 264,
+  "start": 1271.045,
+  "end": 1273.928,
+  "speaker": "Unknown",
+  "en": "So is that something that Eve has primitives for?",
+  "zh": "所以这是 Eve 有原语支持的东西吗？"
+ },
+ {
+  "seg": 265,
+  "start": 1273.968,
+  "end": 1278.213,
+  "speaker": "Unknown",
+  "en": "Like how do I think about data access control and stuff like that in the Eve framework?",
+  "zh": "比如在 Eve 框架里，我该怎么看待数据访问控制这些东西？"
+ },
+ {
+  "seg": 266,
+  "start": 1279.253,
+  "end": 1284.675,
+  "speaker": "Unknown",
+  "en": "The funny thing is, when we started EVE, we were pretty set on enterprise right off the bat.",
+  "zh": "有趣的是，当我们启动 EVE 时，我们一开始就非常坚定地面向企业。"
+ },
+ {
+  "seg": 267,
+  "start": 1284.976,
+  "end": 1297.301,
+  "speaker": "Unknown",
+  "en": "EVE was, we knew it was going to be code first, and we knew that, or thinking about use cases like DZero, we expected companies to go build their own EVE agents to run their businesses.",
+  "zh": "EVE,我们知道它会以代码优先，我们也知道，或者说在思考像 DZero 这样的用例时，我们预期公司会去构建他们自己的 EVE 智能体来运营他们的业务。"
+ },
+ {
+  "seg": 268,
+  "start": 1297.601,
+  "end": 1301.243,
+  "speaker": "Unknown",
+  "en": "And so now we're actually starting to double back on more of the personal use cases.",
+  "zh": "所以现在我们实际上开始回头关注更多个人用例。"
+ },
+ {
+  "seg": 269,
+  "start": 1301.323,
+  "end": 1306.565,
+  "speaker": "Unknown",
+  "en": "But the reason I said this, a lot of the permissioning and whatnot, that was baked very early on.",
+  "zh": "但我说这个的原因是，很多权限设置之类的，在很早的时候就内置了。"
+ },
+ {
+  "seg": 270,
+  "start": 1306.745,
+  "end": 1308.706,
+  "speaker": "Unknown",
+  "en": "And yeah, there's quite a bit built in.",
+  "zh": "是的，内置了相当多的东西。"
+ },
+ {
+  "seg": 271,
+  "start": 1309.266,
+  "end": 1313.05,
+  "speaker": "Unknown",
+  "en": "In terms of where we look at permissioning, because there's quite a few layers.",
+  "zh": "说到我们在哪里处理权限，因为有好几个层级。"
+ },
+ {
+  "seg": 272,
+  "start": 1313.711,
+  "end": 1316.594,
+  "speaker": "Unknown",
+  "en": "At the channel layer, we basically are saying, who are you?",
+  "zh": "在频道层，我们基本上是在说，你是谁？"
+ },
+ {
+  "seg": 273,
+  "start": 1317.174,
+  "end": 1318.476,
+  "speaker": "Unknown",
+  "en": "And you define what that is.",
+  "zh": "而这个由你来定义。"
+ },
+ {
+  "seg": 274,
+  "start": 1318.536,
+  "end": 1324.562,
+  "speaker": "Unknown",
+  "en": "So for Slack, for example, the who are you is going to be your workspace ID plus your Slack user ID.",
+  "zh": "比如对 Slack 来说，你是谁就是你的工作区 ID 加上你的 Slack 用户 ID。"
+ },
+ {
+  "seg": 275,
+  "start": 1325.563,
+  "end": 1328.085,
+  "speaker": "Unknown",
+  "en": "And Eve was designed to be multiplayer from the beginning.",
+  "zh": "而且 Eve 从一开始就被设计为多人协作的。"
+ },
+ {
+  "seg": 276,
+  "start": 1328.185,
+  "end": 1333.549,
+  "speaker": "Unknown",
+  "en": "And so we give you things like, and so basically, everywhere you write code in Eve, you have a context object.",
+  "zh": "所以我们给你提供这样的东西，基本上，你在 Eve 里写代码的任何地方，都有一个 context 对象。"
+ },
+ {
+  "seg": 277,
+  "start": 1333.569,
+  "end": 1337.772,
+  "speaker": "Unknown",
+  "en": "And that context object is going to give you things like, who is the current user in this turn?",
+  "zh": "那个 context 对象会给你诸如，这一轮的当前用户是谁？"
+ },
+ {
+  "seg": 278,
+  "start": 1338.232,
+  "end": 1340.113,
+  "speaker": "Unknown",
+  "en": "Who is the user that started this turn?",
+  "zh": "发起这一轮的用户是谁？"
+ },
+ {
+  "seg": 279,
+  "start": 1340.754,
+  "end": 1341.915,
+  "speaker": "Unknown",
+  "en": "They can be different people.",
+  "zh": "他们可以是不同的人。"
+ },
+ {
+  "seg": 280,
+  "start": 1341.955,
+  "end": 1343.876,
+  "speaker": "Unknown",
+  "en": "Different people can follow up at different times.",
+  "zh": "不同的人可以在不同时间跟进。"
+ },
+ {
+  "seg": 281,
+  "start": 1344.456,
+  "end": 1346.238,
+  "speaker": "Unknown",
+  "en": "And that kind of gives you the ability to do",
+  "zh": "这基本给了你能力去做"
+ },
+ {
+  "seg": 282,
+  "start": 1347.018,
+  "end": 1350.562,
+  "speaker": "Unknown",
+  "en": "Basic type of authentication or permissioning.",
+  "zh": "基础类型的身份验证或权限设置。"
+ },
+ {
+  "seg": 283,
+  "start": 1350.582,
+  "end": 1362.055,
+  "speaker": "Unknown",
+  "en": "What I would say is the more traditional permissioning, where if you're writing any typical backend REST API, you're looking at some auth header coming in, you're authenticating it, and then you're saying, okay, you can do X, Y, Z.",
+  "zh": "我要说的是更传统的权限设置，就是你写任何典型的后端 REST API 时，你会看到一个 auth header 进来，你验证它，然后你说，好，你可以做 X、Y、Z。"
+ },
+ {
+  "seg": 284,
+  "start": 1362.355,
+  "end": 1366.48,
+  "speaker": "Unknown",
+  "en": "And so E facilitates that basically by resolving that identity of the channel layer.",
+  "zh": "Eve 基本通过解析频道层的那个身份来促成这一点。"
+ },
+ {
+  "seg": 285,
+  "start": 1367.044,
+  "end": 1370.625,
+  "speaker": "Unknown",
+  "en": "Where it gets more interesting is, can the agent perform some action?",
+  "zh": "更有意思的地方在于，智能体能不能执行某个操作？"
+ },
+ {
+  "seg": 286,
+  "start": 1370.645,
+  "end": 1380.327,
+  "speaker": "Unknown",
+  "en": "And so we have this concept of tool approvals, which basically surface as these human-in-the-loop style messages, and it's completely dependent on the channel that invoked it.",
+  "zh": "所以我们有工具审批这个概念，它基本上以这种人机协同式消息呈现，而且完全取决于调用它的频道。"
+ },
+ {
+  "seg": 287,
+  "start": 1380.387,
+  "end": 1384.568,
+  "speaker": "Unknown",
+  "en": "So all you have to say is, always require approval on some tool.",
+  "zh": "所以你只需要说，某个工具总是要求审批。"
+ },
+ {
+  "seg": 288,
+  "start": 1385.228,
+  "end": 1391.369,
+  "speaker": "Unknown",
+  "en": "And if the invocation comes in from Slack, we can render, that channel knows how to render human-in-the-loop.",
+  "zh": "如果调用来自 Slack,我们就能渲染，那个频道知道怎么渲染人机协同。"
+ },
+ {
+  "seg": 289,
+  "start": 1391.409,
+  "end": 1394.99,
+  "speaker": "Unknown",
+  "en": "If it comes in over SMS, it could take on a completely different form.",
+  "zh": "如果它是通过 SMS 进来的，它可以呈现完全不同的形式。"
+ },
+ {
+  "seg": 290,
+  "start": 1395.448,
+  "end": 1397.27,
+  "speaker": "Unknown",
+  "en": "And so those approvals give you a lot of control.",
+  "zh": "所以这些审批给了你很大的控制权。"
+ },
+ {
+  "seg": 291,
+  "start": 1397.29,
+  "end": 1403.455,
+  "speaker": "Unknown",
+  "en": "You can look at, again, who asked the question and who's asking for approval, who is then giving the approval.",
+  "zh": "你可以看，同样的，是谁问了问题、谁在请求审批、然后是谁给出了审批。"
+ },
+ {
+  "seg": 292,
+  "start": 1403.495,
+  "end": 1404.996,
+  "speaker": "Unknown",
+  "en": "Maybe it's not the same person, right?",
+  "zh": "也许不是同一个人，对吧？"
+ },
+ {
+  "seg": 293,
+  "start": 1405.016,
+  "end": 1407.378,
+  "speaker": "Unknown",
+  "en": "So you may decide that that's okay, you may decide it's not.",
+  "zh": "所以你可能觉得没问题，也可能觉得不行。"
+ },
+ {
+  "seg": 294,
+  "start": 1407.838,
+  "end": 1412.702,
+  "speaker": "Unknown",
+  "en": "And so this is where Eve really shines as a code-first framework.",
+  "zh": "所以这就是 Eve 作为代码优先框架真正闪光的地方。"
+ },
+ {
+  "seg": 295,
+  "start": 1412.722,
+  "end": 1417.766,
+  "speaker": "Unknown",
+  "en": "So all these cases, we can't necessarily predict how people want to run these types of things.",
+  "zh": "所有这些情况，我们不一定能预测人们想怎么运行这类东西。"
+ },
+ {
+  "seg": 296,
+  "start": 1418.127,
+  "end": 1421.79,
+  "speaker": "Unknown",
+  "en": "And we basically just say, hey, go write the code to make the experience that you want.",
+  "zh": "我们基本上就是说，嘿，去写代码来实现你想要的体验。"
+ },
+ {
+  "seg": 297,
+  "start": 1422.41,
+  "end": 1424.552,
+  "speaker": "Unknown",
+  "en": "And so, yeah, so approvals are baked in.",
+  "zh": "所以，是的，审批是内置的。"
+ },
+ {
+  "seg": 298,
+  "start": 1425.133,
+  "end": 1436.125,
+  "speaker": "Unknown",
+  "en": "And then the last piece, which I think is maybe most interesting and something that we haven't even necessarily solved ourselves yet, Vercel, but you hinted at, is how can you see what you're supposed to see?",
+  "zh": "然后最后一块，我觉得可能是最有意思的、而且连我们自己都还没一定解决的，Vercel,但你暗示到了，就是你怎么能看到你该看到的东西？"
+ },
+ {
+  "seg": 299,
+  "start": 1436.565,
+  "end": 1439.528,
+  "speaker": "Unknown",
+  "en": "And this creates a whole bunch of really interesting problems.",
+  "zh": "而这带来了一整套非常有趣的问题。"
+ },
+ {
+  "seg": 300,
+  "start": 1439.568,
+  "end": 1441.771,
+  "speaker": "Unknown",
+  "en": "So for example, let's take D0.",
+  "zh": "比如说，我们拿 D0 来举例。"
+ },
+ {
+  "seg": 301,
+  "start": 1442.331,
+  "end": 1444.453,
+  "speaker": "Unknown",
+  "en": "D0 effectively has access to",
+  "zh": "D0 实际上可以访问"
+ },
+ {
+  "seg": 302,
+  "start": 1445.314,
+  "end": 1447.056,
+  "speaker": "Unknown",
+  "en": "All of Vercel's data lake, right?",
+  "zh": "Vercel 的整个数据湖，对吧？"
+ },
+ {
+  "seg": 303,
+  "start": 1447.096,
+  "end": 1453.641,
+  "speaker": "Unknown",
+  "en": "And so if Guillermo is asking a question, he may have access to things that when I ask the question that I shouldn't, right?",
+  "zh": "所以如果 Guillermo 问一个问题，他可能能访问到一些东西，而当我问这个问题时，按理说我不应该能访问，对吧？"
+ },
+ {
+  "seg": 304,
+  "start": 1453.961,
+  "end": 1456.863,
+  "speaker": "Unknown",
+  "en": "And so how do you resolve my credentials versus his?",
+  "zh": "那么你该如何区分我的凭证和他的凭证呢？"
+ },
+ {
+  "seg": 305,
+  "start": 1456.923,
+  "end": 1461.547,
+  "speaker": "Unknown",
+  "en": "And so we basically have a pretty advanced API, which we called DefineDynamic.",
+  "zh": "所以我们基本上有一个相当高级的 API，我们称之为 DefineDynamic。"
+ },
+ {
+  "seg": 306,
+  "start": 1462.027,
+  "end": 1467.592,
+  "speaker": "Unknown",
+  "en": "And this lets you resolve different sets of tools, different sets of connections based on the current caller.",
+  "zh": "它让你可以根据当前调用者来解析出不同的工具集、不同的连接集。"
+ },
+ {
+  "seg": 307,
+  "start": 1467.672,
+  "end": 1474.117,
+  "speaker": "Unknown",
+  "en": "And so you could do things like literally not expose a tool when I'm the one invoking a turn versus, you know, say, Guillermo.",
+  "zh": "所以你可以做一些事情，比如当是我发起一次调用时，字面意义上不暴露某个工具，而不是比如说 Guillermo 发起的时候。"
+ },
+ {
+  "seg": 308,
+  "start": 1474.557,
+  "end": 1476.398,
+  "speaker": "Unknown",
+  "en": "And so that's, again, a very advanced use case.",
+  "zh": "所以这又是一个非常高级的用例。"
+ },
+ {
+  "seg": 309,
+  "start": 1476.978,
+  "end": 1478.319,
+  "speaker": "Unknown",
+  "en": "It is extremely well documented.",
+  "zh": "它有极其完善的文档。"
+ },
+ {
+  "seg": 310,
+  "start": 1478.339,
+  "end": 1480.84,
+  "speaker": "Unknown",
+  "en": "So the agents do a really good job figuring this out.",
+  "zh": "所以智能体在搞清楚这些事情上做得非常好。"
+ },
+ {
+  "seg": 311,
+  "start": 1480.86,
+  "end": 1486.342,
+  "speaker": "Unknown",
+  "en": "When you start prompting for this type of behavior, it will learn that this is basically the way to do it inside of Eve.",
+  "zh": "当你开始为这类行为编写提示词时，它会学到这基本上就是在 Eve 内部做这件事的正确方式。"
+ },
+ {
+  "seg": 312,
+  "start": 1487.059,
+  "end": 1488.219,
+  "speaker": "Unknown",
+  "en": "That's super interesting.",
+  "zh": "这非常有意思。"
+ },
+ {
+  "seg": 313,
+  "start": 1488.94,
+  "end": 1491.301,
+  "speaker": "Unknown",
+  "en": "Before we go deeper on the tech side, something you mentioned.",
+  "zh": "在我们更深入地聊技术之前，回到你提到的某件事。"
+ },
+ {
+  "seg": 314,
+  "start": 1491.321,
+  "end": 1495.722,
+  "speaker": "Unknown",
+  "en": "So you talked about going enterprise and then maybe dialing back to personal use and things like that.",
+  "zh": "你说先做企业市场，然后也许再回调到个人用途之类的。"
+ },
+ {
+  "seg": 315,
+  "start": 1495.742,
+  "end": 1497.863,
+  "speaker": "Unknown",
+  "en": "I'm going to direct a question over to Char.",
+  "zh": "我想把一个问题抛给 Char。"
+ },
+ {
+  "seg": 316,
+  "start": 1497.923,
+  "end": 1500.744,
+  "speaker": "Unknown",
+  "en": "Who are you seeing as the key user audiences for this?",
+  "zh": "你们看到的关键用户群体是谁？"
+ },
+ {
+  "seg": 317,
+  "start": 1500.844,
+  "end": 1504.826,
+  "speaker": "Unknown",
+  "en": "And what is the sort of rollout and usage look like?",
+  "zh": "推出和使用情况又是怎样的？"
+ },
+ {
+  "seg": 318,
+  "start": 1505.571,
+  "end": 1505.831,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 319,
+  "start": 1506.131,
+  "end": 1513.157,
+  "speaker": "Unknown",
+  "en": "As Barbara said, we did initially target enterprise, given that that was where most of the requests came from.",
+  "zh": "正如 Barbara 所说，我们最初确实瞄准了企业市场，因为大部分需求来自那里。"
+ },
+ {
+  "seg": 320,
+  "start": 1513.657,
+  "end": 1516.399,
+  "speaker": "Unknown",
+  "en": "And we have the infrastructure, so it was kind of a no-brainer.",
+  "zh": "而且我们已经有相应的基础设施，所以这基本上是不假思索的选择。"
+ },
+ {
+  "seg": 321,
+  "start": 1516.92,
+  "end": 1519.842,
+  "speaker": "Unknown",
+  "en": "And also we were scratching our own itch to an extent.",
+  "zh": "而且在某种程度上我们也是在挠自己的痒处。"
+ },
+ {
+  "seg": 322,
+  "start": 1519.862,
+  "end": 1524.125,
+  "speaker": "Unknown",
+  "en": "So we actually use Eve internally for all of our internal agents.",
+  "zh": "所以我们内部实际上用 Eve 来运行我们所有的内部智能体。"
+ },
+ {
+  "seg": 323,
+  "start": 1524.726,
+  "end": 1527.568,
+  "speaker": "Unknown",
+  "en": "And now we have hundreds of them running on Eve.",
+  "zh": "现在我们有数百个智能体在 Eve 上运行。"
+ },
+ {
+  "seg": 324,
+  "start": 1528.055,
+  "end": 1529.637,
+  "speaker": "Unknown",
+  "en": "So that was the initial target audience.",
+  "zh": "所以那就是最初的目标受众。"
+ },
+ {
+  "seg": 325,
+  "start": 1529.677,
+  "end": 1535.145,
+  "speaker": "Unknown",
+  "en": "But very soon after we launched, we saw thousands of our users actually adopting it.",
+  "zh": "但在我们发布后不久，我们看到数千名用户实际上采用了它。"
+ },
+ {
+  "seg": 326,
+  "start": 1535.326,
+  "end": 1538.571,
+  "speaker": "Unknown",
+  "en": "And those are not necessarily just within the enterprise segment.",
+  "zh": "而他们不一定只是企业客户群体。"
+ },
+ {
+  "seg": 327,
+  "start": 1538.631,
+  "end": 1542.496,
+  "speaker": "Unknown",
+  "en": "You can see them around our hobby users or pro users.",
+  "zh": "你可以在我们的 hobby 用户或 pro 用户中看到他们。"
+ },
+ {
+  "seg": 328,
+  "start": 1543.317,
+  "end": 1558.886,
+  "speaker": "Unknown",
+  "en": "So the range of use cases we've seen go all the way from business agents, what we call what Enterprise is launching, where you automate a business function, down to a hobbyist building a iMessage multiplayer agent on a weekend.",
+  "zh": "所以我们看到的用例范围从商业智能体，也就是我们所说的 Enterprise 正在推出的那种，把某个业务职能自动化，一直到周末搭一个 iMessage 多人游戏智能体的爱好者，都有。"
+ },
+ {
+  "seg": 329,
+  "start": 1559.466,
+  "end": 1565.97,
+  "speaker": "Unknown",
+  "en": "And we want to enable basically all of those use cases and let you extend the framework to your needs.",
+  "zh": "我们想要的基本上就是赋能所有这些用例，让你可以把这个框架扩展到你的需求。"
+ },
+ {
+  "seg": 330,
+  "start": 1566.847,
+  "end": 1569.33,
+  "speaker": "Unknown",
+  "en": "And so I love that you started scratching your own edge, right?",
+  "zh": "所以我很喜欢你们从挠自己的痒处开始这一点，对吧？"
+ },
+ {
+  "seg": 331,
+  "start": 1569.35,
+  "end": 1576.378,
+  "speaker": "Unknown",
+  "en": "I think especially one of the advantages working in a developer tooling company is like you can really do a lot of that.",
+  "zh": "我觉得尤其是在开发者工具公司工作的优势之一就是，你真的可以做很多这样的事。"
+ },
+ {
+  "seg": 332,
+  "start": 1576.798,
+  "end": 1584.827,
+  "speaker": "Unknown",
+  "en": "I'm curious, if you were to look at the distribution of internal agents that you're building, how much of those are engineering related versus other functions within the business?",
+  "zh": "我很好奇，如果你们看一下你们正在构建的内部智能体的分布，其中有多少是工程相关的，相对于业务中的其他职能？"
+ },
+ {
+  "seg": 333,
+  "start": 1585.666,
+  "end": 1593.314,
+  "speaker": "Unknown",
+  "en": "It definitely started within engineering and engineering is the function that actually spun up a lot of these agents initially.",
+  "zh": "它确实始于工程部门，而且工程是实际最初启动了很多这些智能体的职能。"
+ },
+ {
+  "seg": 334,
+  "start": 1593.815,
+  "end": 1600.362,
+  "speaker": "Unknown",
+  "en": "But as we saw the adoption over time, it became go to market, move everything they had on EVE.",
+  "zh": "但随着我们看到随时间推移的采用情况，go to market 把他们所有东西都搬到了 EVE 上。"
+ },
+ {
+  "seg": 335,
+  "start": 1601.343,
+  "end": 1609.245,
+  "speaker": "Unknown",
+  "en": "Then marketing is working on automating content creation, socials and so on on EVE and so on the rest of the team.",
+  "zh": "然后市场部也在 EVE 上做内容创作、社交媒体等的自动化，诸如此类，然后是团队的其他成员。"
+ },
+ {
+  "seg": 336,
+  "start": 1609.285,
+  "end": 1613.386,
+  "speaker": "Unknown",
+  "en": "So like you see billing that help EVE was an example.",
+  "zh": "比如你可以看到帮助计费的 EVE 这样的例子。"
+ },
+ {
+  "seg": 337,
+  "start": 1613.446,
+  "end": 1624.368,
+  "speaker": "Unknown",
+  "en": "So you see examples of product teams that give the product documentation to the agents to answer questions, both on the docs and internally, and sometimes share those with customers directly on Slack.",
+  "zh": "所以你可以看到产品团队的例子，他们把产品文档给到智能体来回答问题，无论是在文档端还是在内部，有时还直接在 Slack 上与客户分享。"
+ },
+ {
+  "seg": 338,
+  "start": 1624.848,
+  "end": 1632.011,
+  "speaker": "Unknown",
+  "en": "And so the distribution is still heavy on the engineering side where those are the main users and builders of the agents.",
+  "zh": "所以这个分布仍然偏重于工程侧，他们既是智能体的主要用户，也是主要的构建者。"
+ },
+ {
+  "seg": 339,
+  "start": 1632.171,
+  "end": 1641.816,
+  "speaker": "Unknown",
+  "en": "But I think you're seeing that distribution kind of get more neutralized as it gets easier to spun up agents and build them as we get to like self-evolution and so on.",
+  "zh": "但我认为你会看到这个分布逐渐变得更均衡，因为随着智能体越来越容易启动和构建，比如随着我们走向自我进化等等。"
+ },
+ {
+  "seg": 340,
+  "start": 1642.43,
+  "end": 1643.651,
+  "speaker": "Unknown",
+  "en": "Yeah, no, that makes sense.",
+  "zh": "是的，不，这说得通。"
+ },
+ {
+  "seg": 341,
+  "start": 1644.151,
+  "end": 1654.876,
+  "speaker": "Unknown",
+  "en": "The advantage of the approach you guys are talking about in terms of like, hey, we make this really easy for coding agents to work with is like increasingly coding agents are available to everyone, right?",
+  "zh": "你们所谈论的这种方法的优势，比如说，嘿，我们让编码智能体使用起来非常容易，就在于编码智能体越来越对所有人可用，对吧？"
+ },
+ {
+  "seg": 342,
+  "start": 1654.896,
+  "end": 1656.917,
+  "speaker": "Unknown",
+  "en": "Like it's not engineering specific.",
+  "zh": "它不再是工程专属的。"
+ },
+ {
+  "seg": 343,
+  "start": 1657.762,
+  "end": 1658.322,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有意思。"
+ },
+ {
+  "seg": 344,
+  "start": 1658.463,
+  "end": 1667.369,
+  "speaker": "Unknown",
+  "en": "So I guess a question, are there any patterns that have been emerging in terms of how folks end up adopting this?",
+  "zh": "所以我想问一个问题，在大家采用它的方式上，有没有一些正在浮现的模式？"
+ },
+ {
+  "seg": 345,
+  "start": 1667.669,
+  "end": 1674.614,
+  "speaker": "Unknown",
+  "en": "And particularly, once again, thinking outside of the engineering context, like I immediately am like, oh yeah, I'm used to working with agents, I'm doing things and all of that.",
+  "zh": "尤其是再一次，想到工程语境之外，我马上就会想，哦对，我习惯和智能体协作了，我在做各种事情之类的。"
+ },
+ {
+  "seg": 346,
+  "start": 1674.634,
+  "end": 1681.659,
+  "speaker": "Unknown",
+  "en": "But as you start to see go-to-market adoption, as you start to see marketing adoption, are they approaching this differently?",
+  "zh": "但当你开始看到 go-to-market 的采用，当你开始看到市场部的采用，他们的方式不一样吗？"
+ },
+ {
+  "seg": 347,
+  "start": 1681.839,
+  "end": 1685.122,
+  "speaker": "Unknown",
+  "en": "Or do their agents look very similar to the engineering-developed agents?",
+  "zh": "还是说他们的智能体和工程团队开发的智能体看起来非常相似？"
+ },
+ {
+  "seg": 348,
+  "start": 1685.948,
+  "end": 1688.709,
+  "speaker": "Unknown",
+  "en": "Yeah, there are three types I've seen, I would say.",
+  "zh": "是的，我想说我见过三种类型。"
+ },
+ {
+  "seg": 349,
+  "start": 1689.15,
+  "end": 1696.293,
+  "speaker": "Unknown",
+  "en": "The most common one is the conversational agents where the agent is channeled through Slack mostly.",
+  "zh": "最常见的是对话式智能体，智能体主要通过 Slack 来接入。"
+ },
+ {
+  "seg": 350,
+  "start": 1696.613,
+  "end": 1700.756,
+  "speaker": "Unknown",
+  "en": "We are a Slack company, so most of the communication happens in Slack.",
+  "zh": "我们是一家 Slack 公司,所以大部分沟通都发生在 Slack 里。"
+ },
+ {
+  "seg": 351,
+  "start": 1701.256,
+  "end": 1702.777,
+  "speaker": "Unknown",
+  "en": "That was the initial use cases.",
+  "zh": "那是最初的使用场景。"
+ },
+ {
+  "seg": 352,
+  "start": 1702.797,
+  "end": 1708.88,
+  "speaker": "Unknown",
+  "en": "So like D0, for example, which was the initial use case, did primarily work on Slack.",
+  "zh": "比如像 D0,举例来说,它是最初的使用场景,主要就是在 Slack 上工作的。"
+ },
+ {
+  "seg": 353,
+  "start": 1709.4,
+  "end": 1712.061,
+  "speaker": "Unknown",
+  "en": "The second one was kind of background agents.",
+  "zh": "第二种是类似后台智能体。"
+ },
+ {
+  "seg": 354,
+  "start": 1712.461,
+  "end": 1720.643,
+  "speaker": "Unknown",
+  "en": "And these are mostly the agent's job is to like run some sort of a report and also send it to Slack or send it through email to internal folks.",
+  "zh": "这些智能体的工作大多是运行某种报告,然后发送到 Slack 或者通过邮件发给内部的人。"
+ },
+ {
+  "seg": 355,
+  "start": 1721.223,
+  "end": 1725.844,
+  "speaker": "Unknown",
+  "en": "And the last one, which GTM, for example, is a big user of this is actually applications.",
+  "zh": "最后一种是应用程序,比如 GTM 就是一个大用户。"
+ },
+ {
+  "seg": 356,
+  "start": 1726.104,
+  "end": 1731.025,
+  "speaker": "Unknown",
+  "en": "So actually build an agent, but your front facing is a web app that you're working with.",
+  "zh": "所以实际上是构建一个智能体,但你面对的前端是一个你在操作的 web 应用。"
+ },
+ {
+  "seg": 357,
+  "start": 1731.186,
+  "end": 1733.306,
+  "speaker": "Unknown",
+  "en": "And that web app is actually powered by an agent.",
+  "zh": "而那个 web 应用实际上是由智能体驱动的。"
+ },
+ {
+  "seg": 358,
+  "start": 1733.346,
+  "end": 1736.647,
+  "speaker": "Unknown",
+  "en": "And you also have a chat interface with the agent on the web app.",
+  "zh": "而且你在 web 应用上还有一个和智能体对话的聊天界面。"
+ },
+ {
+  "seg": 359,
+  "start": 1737.187,
+  "end": 1741.569,
+  "speaker": "Unknown",
+  "en": "Those are kind of the three different types we've seen come out of it, but yeah.",
+  "zh": "这些大致就是我们看到的三种不同类型。"
+ },
+ {
+  "seg": 360,
+  "start": 1742.429,
+  "end": 1746.491,
+  "speaker": "Unknown",
+  "en": "So that makes me want to, I'm going to send this back maybe to Andrew then.",
+  "zh": "所以这让我想,我要把这个问题转回给 Andrew。"
+ },
+ {
+  "seg": 361,
+  "start": 1746.551,
+  "end": 1752.273,
+  "speaker": "Unknown",
+  "en": "So in the case where I'm building a web app of some sort, but it's got an agent powered backend.",
+  "zh": "那么在我在构建某种 web 应用、但它有一个智能体驱动的后端的情况下,"
+ },
+ {
+  "seg": 362,
+  "start": 1753.002,
+  "end": 1754.383,
+  "speaker": "Unknown",
+  "en": "How does that interact with Eve?",
+  "zh": "它是怎么和 Eve 交互的?"
+ },
+ {
+  "seg": 363,
+  "start": 1754.403,
+  "end": 1757.185,
+  "speaker": "Unknown",
+  "en": "Because you mentioned this is directory structure focused.",
+  "zh": "因为你提到这是以目录结构为中心的。"
+ },
+ {
+  "seg": 364,
+  "start": 1757.645,
+  "end": 1761.808,
+  "speaker": "Unknown",
+  "en": "Do I embed these directory structures inside my web app directory structure?",
+  "zh": "我是要把这些目录结构嵌入到我的 web 应用目录结构里?"
+ },
+ {
+  "seg": 365,
+  "start": 1761.988,
+  "end": 1764.47,
+  "speaker": "Unknown",
+  "en": "Or are these independent repos running in different ways?",
+  "zh": "还是这些是独立运行的仓库、以不同方式运行?"
+ },
+ {
+  "seg": 366,
+  "start": 1764.89,
+  "end": 1767.552,
+  "speaker": "Unknown",
+  "en": "How does this integrate with the rest of the development lifecycle?",
+  "zh": "这如何与开发生命周期的其余部分整合?"
+ },
+ {
+  "seg": 367,
+  "start": 1768.503,
+  "end": 1771.827,
+  "speaker": "Unknown",
+  "en": "Yeah, so we wanted a pretty opinionated story with Next.js, right?",
+  "zh": "是的,我们对 Next.js 有一个相当明确的主张,对吧?"
+ },
+ {
+  "seg": 368,
+  "start": 1771.847,
+  "end": 1775.571,
+  "speaker": "Unknown",
+  "en": "So Next has the pages directory and then more recently the app directory.",
+  "zh": "Next 有 pages 目录,以及最近新增的 app 目录。"
+ },
+ {
+  "seg": 369,
+  "start": 1775.611,
+  "end": 1778.615,
+  "speaker": "Unknown",
+  "en": "And so we knew the agent directory had to just work.",
+  "zh": "所以我们知道 agent 目录必须开箱即用。"
+ },
+ {
+  "seg": 370,
+  "start": 1779.416,
+  "end": 1784.942,
+  "speaker": "Unknown",
+  "en": "So there's first party support for that type of setup where the agent literally lives next to your Next.js app.",
+  "zh": "所以对这种智能体就放在你 Next.js 应用旁边的设置,我们有一等公民支持。"
+ },
+ {
+  "seg": 371,
+  "start": 1785.162,
+  "end": 1786.282,
+  "speaker": "Unknown",
+  "en": "But it does not have to be that way.",
+  "zh": "但它不一定非得是这样。"
+ },
+ {
+  "seg": 372,
+  "start": 1786.302,
+  "end": 1800.728,
+  "speaker": "Unknown",
+  "en": "And I think in many cases, there's still lots of teams that are deploying a separate front-end from a separate back-end, and Eve can work absolutely just like that, where you deploy your Eve agent as its own project, and then you just connect to it over HTTP.",
+  "zh": "而且我认为在很多情况下,仍然有很多团队在分别部署独立的前端和独立的后端,Eve 完全可以那样工作,你把你的 Eve 智能体作为独立项目部署,然后你直接通过 HTTP 连接它。"
+ },
+ {
+  "seg": 373,
+  "start": 1801.188,
+  "end": 1802.188,
+  "speaker": "Unknown",
+  "en": "And that's with that default.",
+  "zh": "那是默认的方式。"
+ },
+ {
+  "seg": 374,
+  "start": 1802.588,
+  "end": 1808.811,
+  "speaker": "Unknown",
+  "en": "We give you the Eve channel, which is basically our HTTP protocol, our stream protocol.",
+  "zh": "我们给你提供 Eve channel,它基本上是我们的 HTTP 协议,我们的流协议。"
+ },
+ {
+  "seg": 375,
+  "start": 1808.891,
+  "end": 1811.452,
+  "speaker": "Unknown",
+  "en": "So it has things like sending messages and",
+  "zh": "所以它有发送消息之类的功能,以及"
+ },
+ {
+  "seg": 376,
+  "start": 1812.212,
+  "end": 1813.653,
+  "speaker": "Unknown",
+  "en": "Canceling and things like that.",
+  "zh": "取消之类的操作。"
+ },
+ {
+  "seg": 377,
+  "start": 1813.694,
+  "end": 1820.6,
+  "speaker": "Unknown",
+  "en": "And then ultimately we give you back this durable stream which you can basically use to power any UI that you can think of.",
+  "zh": "最终我们还给你返回这个持久化流,你基本上可以用它来驱动任何你能想到的 UI。"
+ },
+ {
+  "seg": 378,
+  "start": 1821.08,
+  "end": 1822.962,
+  "speaker": "Unknown",
+  "en": "And so yeah, it really is just an API.",
+  "zh": "所以是的,它真的就是一个 API。"
+ },
+ {
+  "seg": 379,
+  "start": 1822.982,
+  "end": 1826.946,
+  "speaker": "Unknown",
+  "en": "So the way we think about it internally is EVE is a back-end framework.",
+  "zh": "我们内部对它的理解是,EVE 是一个后端框架。"
+ },
+ {
+  "seg": 380,
+  "start": 1827.466,
+  "end": 1828.427,
+  "speaker": "Unknown",
+  "en": "It is not a front-end framework.",
+  "zh": "它不是前端框架。"
+ },
+ {
+  "seg": 381,
+  "start": 1828.787,
+  "end": 1832.531,
+  "speaker": "Unknown",
+  "en": "And so yeah, it works with your front-ends the way any of your other back-ends would.",
+  "zh": "所以是的,它和你的前端协作的方式,就像你其他任何后端一样。"
+ },
+ {
+  "seg": 382,
+  "start": 1834.305,
+  "end": 1841.292,
+  "speaker": "Unknown",
+  "en": "On the application side, we've actually seen some really cool examples of our users shipping web apps with Eve.",
+  "zh": "在应用这一侧,我们实际上看到了一些非常酷的例子,我们的用户用 Eve 上线了 web 应用。"
+ },
+ {
+  "seg": 383,
+  "start": 1841.452,
+  "end": 1844.816,
+  "speaker": "Unknown",
+  "en": "Two of the examples we saw, one of them was an open source CRM.",
+  "zh": "我们看到的两个例子中,其中一个是开源 CRM。"
+ },
+ {
+  "seg": 384,
+  "start": 1845.276,
+  "end": 1855.567,
+  "speaker": "Unknown",
+  "en": "So what happened was the user goes in, adds a lead, adds a name and an email, and the background agent goes in and researches the lead and completes the whole thing behind the scene.",
+  "zh": "流程是这样的:用户进去,添加一个线索,添加姓名和邮箱,然后后台智能体会去研究这个线索,并在幕后完成整个流程。"
+ },
+ {
+  "seg": 385,
+  "start": 1856.047,
+  "end": 1865.779,
+  "speaker": "Unknown",
+  "en": "And the second one was, I believe, an AI music maker where you kind of go in and add the tempo, but then the agent kind of collaborates with you on the site and completes the music.",
+  "zh": "第二个例子,我记得,是一个 AI 音乐制作工具,你进去设置节拍,然后智能体会和你在站点上协作,完成音乐。"
+ },
+ {
+  "seg": 386,
+  "start": 1865.82,
+  "end": 1870.966,
+  "speaker": "Unknown",
+  "en": "So you kind of are seeing these agentic native applications that are being built.",
+  "zh": "所以你确实在看到这些智能体原生应用被构建出来。"
+ },
+ {
+  "seg": 387,
+  "start": 1871.367,
+  "end": 1874.811,
+  "speaker": "Unknown",
+  "en": "And the Eve agent really is like the backend brain behind the scene.",
+  "zh": "而 Eve 智能体真的就像是幕后的大脑。"
+ },
+ {
+  "seg": 388,
+  "start": 1875.42,
+  "end": 1877.421,
+  "speaker": "Unknown",
+  "en": "Yeah, no, I think it's really interesting.",
+  "zh": "是的,我觉得这非常有意思。"
+ },
+ {
+  "seg": 389,
+  "start": 1877.801,
+  "end": 1881.083,
+  "speaker": "Unknown",
+  "en": "And this is one of the spaces I feel like is underexplored yet.",
+  "zh": "而且这是我认为尚未被充分探索的领域之一。"
+ },
+ {
+  "seg": 390,
+  "start": 1881.203,
+  "end": 1888.306,
+  "speaker": "Unknown",
+  "en": "Like a lot of generative UI interfaces are like, let's throw a chatbot in this thing, or let's asynchronously generate a report.",
+  "zh": "比如很多生成式 UI 界面都是,我们往这东西里塞个聊天机器人吧,或者我们异步生成一份报告。"
+ },
+ {
+  "seg": 391,
+  "start": 1888.486,
+  "end": 1896.15,
+  "speaker": "Unknown",
+  "en": "But I think there's a tremendous untapped opportunity for almost collaborative interfaces.",
+  "zh": "但我认为,几乎可以说是协作式界面上,有巨大的未开发机会。"
+ },
+ {
+  "seg": 392,
+  "start": 1896.23,
+  "end": 1900.392,
+  "speaker": "Unknown",
+  "en": "Like what does collaborative document editing look like when you have an agent involved?",
+  "zh": "比如当有一个智能体参与时,协作式文档编辑会是什么样子?"
+ },
+ {
+  "seg": 393,
+  "start": 1901.123,
+  "end": 1905.006,
+  "speaker": "Unknown",
+  "en": "Right now, you can sort of do that with Claude and their artifacts.",
+  "zh": "现在,你多少可以用 Claude 和它的 artifacts 做到这一点。"
+ },
+ {
+  "seg": 394,
+  "start": 1905.566,
+  "end": 1909.769,
+  "speaker": "Unknown",
+  "en": "You could try to do it in Google Docs with Gemini, but I wouldn't recommend it.",
+  "zh": "你可以尝试在 Google Docs 里用 Gemini 做,但我不推荐。"
+ },
+ {
+  "seg": 395,
+  "start": 1910.229,
+  "end": 1918.315,
+  "speaker": "Unknown",
+  "en": "So I think there's a really rich space here for easy to interact with agentic pieces.",
+  "zh": "所以我认为,在易于交互的智能体组件方面,这里有非常丰富的空间。"
+ },
+ {
+  "seg": 396,
+  "start": 1919.055,
+  "end": 1920.236,
+  "speaker": "Unknown",
+  "en": "So I'm curious.",
+  "zh": "所以我很好奇。"
+ },
+ {
+  "seg": 397,
+  "start": 1920.256,
+  "end": 1925.8,
+  "speaker": "Unknown",
+  "en": "So Andrew, you said basically you're exposing this durable stream and now you can do whatever with it.",
+  "zh": "那么 Andrew,你说的基本上是你暴露了这个持久化流,然后你想用它做什么都行。"
+ },
+ {
+  "seg": 398,
+  "start": 1926.4,
+  "end": 1929.542,
+  "speaker": "Unknown",
+  "en": "Is there any sort of primitive that is missing there?",
+  "zh": "这里有没有缺失的某种原语?"
+ },
+ {
+  "seg": 399,
+  "start": 1929.603,
+  "end": 1934.926,
+  "speaker": "Unknown",
+  "en": "Like, I feel like that's pretty low level, I guess, in terms of interacting, which is like fine for first generation.",
+  "zh": "比如,我觉得就交互而言,这还是挺低层的,作为第一代来说没问题吧。"
+ },
+ {
+  "seg": 400,
+  "start": 1934.946,
+  "end": 1942.632,
+  "speaker": "Unknown",
+  "en": "But I wonder if there are also opportunities there in terms of what are the abstractions that make sense in interacting with an agent inside an app context?",
+  "zh": "但我想知道,在应用场景中与智能体交互时,哪些抽象才是合理的,这方面是否也存在机会?"
+ },
+ {
+  "seg": 401,
+  "start": 1943.275,
+  "end": 1954.44,
+  "speaker": "Unknown",
+  "en": "Yeah, it's interesting, and I think the Vercel Labs team is doing really interesting stuff here, I think, with tools like JSON Render, and taking these lower-level protocols and producing UIs out of them.",
+  "zh": "是的,这很有意思,我认为 Vercel Labs 团队在这方面做了非常有趣的工作,比如 JSON Render 这样的工具,把这些较低层的协议转化成 UI。"
+ },
+ {
+  "seg": 402,
+  "start": 1955.001,
+  "end": 1958.242,
+  "speaker": "Unknown",
+  "en": "And Eve, the stream protocol that we have is very low-level.",
+  "zh": "还有,Eve 这个我们拥有的流协议是非常低层的。"
+ },
+ {
+  "seg": 403,
+  "start": 1958.302,
+  "end": 1962.844,
+  "speaker": "Unknown",
+  "en": "You are literally getting delta chunks of reasoning and things like that, right?",
+  "zh": "你拿到的字面上就是推理的增量块之类的东西,对吧?"
+ },
+ {
+  "seg": 404,
+  "start": 1962.864,
+  "end": 1964.145,
+  "speaker": "Unknown",
+  "en": "So it is a lot to work with.",
+  "zh": "所以要处理的东西很多。"
+ },
+ {
+  "seg": 405,
+  "start": 1964.205,
+  "end": 1971.769,
+  "speaker": "Unknown",
+  "en": "The TypeScript client makes this stuff much easier, so we have really nice APIs for iterating over the stream and strongly typed.",
+  "zh": "TypeScript 客户端让这些事情容易多了,所以我们有非常好用的 API 来迭代流,而且是强类型的。"
+ },
+ {
+  "seg": 406,
+  "start": 1972.529,
+  "end": 1974.15,
+  "speaker": "Unknown",
+  "en": "Phases and events and things like that.",
+  "zh": "还有阶段和事件之类的东西。"
+ },
+ {
+  "seg": 407,
+  "start": 1974.17,
+  "end": 1977.051,
+  "speaker": "Unknown",
+  "en": "And so you can definitely work a little bit higher up.",
+  "zh": "所以你确实可以在稍微高一点的层级上工作。"
+ },
+ {
+  "seg": 408,
+  "start": 1977.332,
+  "end": 1978.332,
+  "speaker": "Unknown",
+  "en": "But you're right, not much.",
+  "zh": "但你说得对,高不了多少。"
+ },
+ {
+  "seg": 409,
+  "start": 1978.392,
+  "end": 1980.033,
+  "speaker": "Unknown",
+  "en": "It's still a fairly low-level API.",
+  "zh": "它仍然是一个相当低层的 API。"
+ },
+ {
+  "seg": 410,
+  "start": 1980.073,
+  "end": 1983.455,
+  "speaker": "Unknown",
+  "en": "So yeah, I'd love to see a lot more done here.",
+  "zh": "所以是的,我很希望看到在这方面有更多工作。"
+ },
+ {
+  "seg": 411,
+  "start": 1983.955,
+  "end": 1987.977,
+  "speaker": "Unknown",
+  "en": "I do think EVE is a lot more than just interacting with a chatbot, like you said.",
+  "zh": "我确实认为 EVE 远不止是与聊天机器人交互,就像你说的。"
+ },
+ {
+  "seg": 412,
+  "start": 1988.337,
+  "end": 1993.48,
+  "speaker": "Unknown",
+  "en": "We have cool features where when you send messages, you can actually specify an output schema, for example.",
+  "zh": "我们有一些很酷的功能,比如当你发送消息时,你实际上可以指定一个输出 schema。"
+ },
+ {
+  "seg": 413,
+  "start": 1993.58,
+  "end": 1998.022,
+  "speaker": "Unknown",
+  "en": "So this is really interesting because now if you know your UI takes some shape of data,",
+  "zh": "所以这就非常有趣,因为现在如果你知道你的 UI 需要某种形状的数据,"
+ },
+ {
+  "seg": 414,
+  "start": 1998.562,
+  "end": 2000.763,
+  "speaker": "Unknown",
+  "en": "You can agentically generate that thing.",
+  "zh": "你就可以用智能体方式生成那个东西。"
+ },
+ {
+  "seg": 415,
+  "start": 2000.883,
+  "end": 2007.365,
+  "speaker": "Unknown",
+  "en": "So this lets you do really, you know, completely different experiences than just, you know, asking a question and getting some, you know, English response back, right?",
+  "zh": "所以这让你能做出完全不同的体验,而不只是,你知道的,问一个问题然后得到一些,你知道的,英文回复,对吧?"
+ },
+ {
+  "seg": 416,
+  "start": 2007.665,
+  "end": 2008.345,
+  "speaker": "Unknown",
+  "en": "Oh, interesting.",
+  "zh": "哦,有意思。"
+ },
+ {
+  "seg": 417,
+  "start": 2008.445,
+  "end": 2010.325,
+  "speaker": "Unknown",
+  "en": "So question on that immediately.",
+  "zh": "那我马上有个问题。"
+ },
+ {
+  "seg": 418,
+  "start": 2010.525,
+  "end": 2014.987,
+  "speaker": "Unknown",
+  "en": "Do you include built-in like validation of that schema and serialization of it?",
+  "zh": "你内置了对那个 schema 的验证和序列化吗?"
+ },
+ {
+  "seg": 419,
+  "start": 2015.127,
+  "end": 2016.787,
+  "speaker": "Unknown",
+  "en": "Or like, is this just...",
+  "zh": "还是说,这只是……"
+ },
+ {
+  "seg": 420,
+  "start": 2016.967,
+  "end": 2017.067,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 421,
+  "start": 2017.247,
+  "end": 2017.547,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 422,
+  "start": 2017.587,
+  "end": 2018.948,
+  "speaker": "Unknown",
+  "en": "So what does that look like?",
+  "zh": "那具体是什么样的?"
+ },
+ {
+  "seg": 423,
+  "start": 2018.968,
+  "end": 2019.368,
+  "speaker": "Unknown",
+  "en": "Tell me more.",
+  "zh": "多讲讲。"
+ },
+ {
+  "seg": 424,
+  "start": 2019.995,
+  "end": 2028.222,
+  "speaker": "Unknown",
+  "en": "Yeah, so we take the output schema and we basically plumb that all the way through down to the, it was built on a tool loop agent from AISDK.",
+  "zh": "是的,我们拿到输出 schema,基本上把它一路传递到底层,它是基于 AISDK 的 tool loop agent 构建的。"
+ },
+ {
+  "seg": 425,
+  "start": 2028.242,
+  "end": 2035.908,
+  "speaker": "Unknown",
+  "en": "So basically what we end up doing is we actually, we produce a tool called, you know, SubmitResult and that validates your schema.",
+  "zh": "所以基本上我们最终做的事情是,我们实际上会生成一个叫做 SubmitResult 的工具,它会验证你的 schema。"
+ },
+ {
+  "seg": 426,
+  "start": 2036.528,
+  "end": 2037.469,
+  "speaker": "Unknown",
+  "en": "And it's retrieval, of course.",
+  "zh": "当然,它是检索式的。"
+ },
+ {
+  "seg": 427,
+  "start": 2037.629,
+  "end": 2041.332,
+  "speaker": "Unknown",
+  "en": "So a lot of times these agents will call a tool like that and they produce the wrong thing.",
+  "zh": "所以很多时候这些智能体会调用这样的工具,然后产出错误的东西。"
+ },
+ {
+  "seg": 428,
+  "start": 2041.753,
+  "end": 2046.797,
+  "speaker": "Unknown",
+  "en": "And then we can hint back to the agent basically saying, oh, you missed this required property and it'll do it again.",
+  "zh": "然后我们可以给智能体提示回去,基本上是说,哦,你漏掉了这个必需的属性,然后它会重做一遍。"
+ },
+ {
+  "seg": 429,
+  "start": 2046.857,
+  "end": 2053.363,
+  "speaker": "Unknown",
+  "en": "So it's not guaranteed to get your schema, but especially with these frontier models and the way they are today, it's quite good.",
+  "zh": "所以不能保证一定得到你的 schema,但尤其是以这些前沿模型如今的水平,效果相当好。"
+ },
+ {
+  "seg": 430,
+  "start": 2054.084,
+  "end": 2055.145,
+  "speaker": "Unknown",
+  "en": "Yeah, they're good at that.",
+  "zh": "是的,它们在这方面很擅长。"
+ },
+ {
+  "seg": 431,
+  "start": 2055.225,
+  "end": 2059.989,
+  "speaker": "Unknown",
+  "en": "Now the challenge with tool calls is that you lose your streaming once you go to tool calls, right?",
+  "zh": "现在工具调用的挑战在于,一旦进入工具调用,你就失去了流式传输,对吧?"
+ },
+ {
+  "seg": 432,
+  "start": 2060.109,
+  "end": 2063.252,
+  "speaker": "Unknown",
+  "en": "So now you've suddenly got to wait for that whole block to do it.",
+  "zh": "所以现在你突然得等那一整个块完成才行。"
+ },
+ {
+  "seg": 433,
+  "start": 2063.974,
+  "end": 2064.595,
+  "speaker": "Unknown",
+  "en": "No, not exactly.",
+  "zh": "不,不完全是。"
+ },
+ {
+  "seg": 434,
+  "start": 2064.615,
+  "end": 2067.077,
+  "speaker": "Unknown",
+  "en": "So the stream will produce all the reasoning in between, right?",
+  "zh": "因为流会产出中间所有的推理过程,对吧?"
+ },
+ {
+  "seg": 435,
+  "start": 2067.097,
+  "end": 2068.719,
+  "speaker": "Unknown",
+  "en": "Because it's just the final step.",
+  "zh": "因为那只是最后一步。"
+ },
+ {
+  "seg": 436,
+  "start": 2069.26,
+  "end": 2076.907,
+  "speaker": "Unknown",
+  "en": "Instead of getting a message, some English message out, you're just getting that final tool call, but you get everything in between.",
+  "zh": "只不过不是得到一条消息,一些英文消息输出,你得到的只是最后的那个工具调用,但中间的所有东西你都能拿到。"
+ },
+ {
+  "seg": 437,
+  "start": 2076.947,
+  "end": 2086.297,
+  "speaker": "Unknown",
+  "en": "So if you're using some high reasoning effort, and if you want to, you can inspect all of that, even though you're waiting for some sort of output, you could still see everything in between.",
+  "zh": "所以如果你设置了较高的推理力度,而且你想的话,你可以检查所有中间内容,即使你在等待某种输出,你仍然可以看到中间的一切。"
+ },
+ {
+  "seg": 438,
+  "start": 2087.627,
+  "end": 2087.967,
+  "speaker": "Unknown",
+  "en": "Totally.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 439,
+  "start": 2088.027,
+  "end": 2088.548,
+  "speaker": "Unknown",
+  "en": "No, no, no.",
+  "zh": "不,不,不。"
+ },
+ {
+  "seg": 440,
+  "start": 2088.668,
+  "end": 2102.077,
+  "speaker": "Unknown",
+  "en": "I guess what I was saying is, yeah, you're streaming up until that tool call, but the tool call introduces a synchronous block, essentially, where you're not getting pieces of the tool, like you're not getting a partial schema results along the way, which influences the UI you want to build, right?",
+  "zh": "我想说的是,是的,在工具调用之前你一直在流式传输,但工具调用引入了一个同步阻塞,本质上就是,你拿不到工具的部分结果,比如你无法在这个过程中拿到部分的 schema 结果,这会影响你想构建的 UI,对吧?"
+ },
+ {
+  "seg": 441,
+  "start": 2102.117,
+  "end": 2106.44,
+  "speaker": "Unknown",
+  "en": "Now you have to have like a waiter or something like that rather than streaming out the pieces of it as you go.",
+  "zh": "现在你得有一个等待状态之类的东西,而不是边进行边把各部分流式输出。"
+ },
+ {
+  "seg": 442,
+  "start": 2106.54,
+  "end": 2108.001,
+  "speaker": "Unknown",
+  "en": "But super interesting.",
+  "zh": "但超级有意思。"
+ },
+ {
+  "seg": 443,
+  "start": 2108.808,
+  "end": 2113.149,
+  "speaker": "Unknown",
+  "en": "Let's talk a little bit more infrastructure, getting back to this like cloud scale thing.",
+  "zh": "我们再多聊一点基础设施,回到这种云端规模的话题。"
+ },
+ {
+  "seg": 444,
+  "start": 2113.209,
+  "end": 2120.852,
+  "speaker": "Unknown",
+  "en": "So you mentioned a little bit of like, hey, if I got a thousand requests, suddenly I can just like spin up a thousand different processes to answer this.",
+  "zh": "你刚才提到一点,比如,嘿,如果我有一千个请求,突然间我就可以启动一千个不同的进程来回答。"
+ },
+ {
+  "seg": 445,
+  "start": 2121.612,
+  "end": 2122.572,
+  "speaker": "Unknown",
+  "en": "Very interesting.",
+  "zh": "非常有意思。"
+ },
+ {
+  "seg": 446,
+  "start": 2123.233,
+  "end": 2129.494,
+  "speaker": "Unknown",
+  "en": "That now introduces questions around durability, resumability, all those different pieces.",
+  "zh": "这就引出了持久性、可恢复性等等这些方面的问题。"
+ },
+ {
+  "seg": 447,
+  "start": 2129.534,
+  "end": 2130.815,
+  "speaker": "Unknown",
+  "en": "Like how does Eve handle that?",
+  "zh": "比如 Eve 是怎么处理这些的?"
+ },
+ {
+  "seg": 448,
+  "start": 2131.738,
+  "end": 2140.984,
+  "speaker": "Unknown",
+  "en": "Yeah, so I mean, it really started where we knew we wanted to build EVE on top of workflow, which is basically our version of Temporal, I think a lot of people are familiar with.",
+  "zh": "是的,我是说,这真的始于我们明确想在工作流之上构建 EVE,工作流基本上是我们版本的 Temporal,我想很多人都熟悉它。"
+ },
+ {
+  "seg": 449,
+  "start": 2141.585,
+  "end": 2148.91,
+  "speaker": "Unknown",
+  "en": "And so the way we modeled this very early on was a single workflow is a single EVE session.",
+  "zh": "所以我们很早的时候建模的方式就是,单个工作流就是单个 EVE 会话。"
+ },
+ {
+  "seg": 450,
+  "start": 2149.55,
+  "end": 2152.412,
+  "speaker": "Unknown",
+  "en": "And today it's actually two workflows, but you can think of it as one.",
+  "zh": "而今天它实际上是两个工作流,但你可以把它当成一个。"
+ },
+ {
+  "seg": 451,
+  "start": 2152.912,
+  "end": 2158.655,
+  "speaker": "Unknown",
+  "en": "And so the partitioning is basically every session is completely separate from every other.",
+  "zh": "所以分区基本上就是每个会话与其他所有会话完全隔离。"
+ },
+ {
+  "seg": 452,
+  "start": 2159.036,
+  "end": 2167.42,
+  "speaker": "Unknown",
+  "en": "And there's ways to share data between them, or I should say we provide guides on how you might want to share data between them if you bring your own storage, but that is the partitioning.",
+  "zh": "也有一些在它们之间共享数据的方式,或者我应该说,如果你自带存储,我们提供了关于你可能如何在它们之间共享数据的指南,但这就是分区。"
+ },
+ {
+  "seg": 453,
+  "start": 2167.44,
+  "end": 2172.483,
+  "speaker": "Unknown",
+  "en": "And so a thousand sessions versus a single session, you shouldn't have to think about that.",
+  "zh": "所以一千个会话和单个会话,你不需要去考虑这个。"
+ },
+ {
+  "seg": 454,
+  "start": 2172.543,
+  "end": 2174.204,
+  "speaker": "Unknown",
+  "en": "The cloud should do that work for you.",
+  "zh": "云应该替你做这件事。"
+ },
+ {
+  "seg": 455,
+  "start": 2174.745,
+  "end": 2178.407,
+  "speaker": "Unknown",
+  "en": "But yes, as soon as that turn starts, you are initiating a workflow.",
+  "zh": "修正为:所以只要工作流变得更快并持续保持高性能,你不会注意到这一点,而且智能体实际上可以无限期地运行。"
+ },
+ {
+  "seg": 456,
+  "start": 2178.827,
+  "end": 2180.408,
+  "speaker": "Unknown",
+  "en": "And then we do some clever things.",
+  "zh": "然后我们会做一些巧妙的事情。"
+ },
+ {
+  "seg": 457,
+  "start": 2181.009,
+  "end": 2185.512,
+  "speaker": "Unknown",
+  "en": "So we run on serverless functions, which historically have 15-minute timeouts.",
+  "zh": "所以我们运行在无服务器函数上,它们历来有 15 分钟的超时限制。"
+ },
+ {
+  "seg": 458,
+  "start": 2185.912,
+  "end": 2188.494,
+  "speaker": "Unknown",
+  "en": "These agents obviously can run for a lot longer than 15 minutes.",
+  "zh": "这些智能体显然可以运行远超 15 分钟的时间。"
+ },
+ {
+  "seg": 459,
+  "start": 2189.054,
+  "end": 2195.599,
+  "speaker": "Unknown",
+  "en": "And so we can do some really clever things here where every time we invoke a tool, we can move over to another function.",
+  "zh": "所以我们可以在这里做一些非常巧妙的事情:每次我们调用一个工具,我们可以切换到另一个函数。"
+ },
+ {
+  "seg": 460,
+  "start": 2196.039,
+  "end": 2197.36,
+  "speaker": "Unknown",
+  "en": "And it just continues the workflow.",
+  "zh": "然后它就继续这个工作流。"
+ },
+ {
+  "seg": 461,
+  "start": 2197.38,
+  "end": 2199.522,
+  "speaker": "Unknown",
+  "en": "Because it's another synchronous break.",
+  "zh": "因为这是又一个同步中断点。"
+ },
+ {
+  "seg": 462,
+  "start": 2202.892,
+  "end": 2203.292,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "正是如此。"
+ },
+ {
+  "seg": 463,
+  "start": 2203.352,
+  "end": 2210.454,
+  "speaker": "Unknown",
+  "en": "And in the future, we might decide to, if we have a lot of time allotment left, maybe we run multiple tool calls on the same function.",
+  "zh": "而在未来,我们可能会决定,如果剩余的时间配额还很多,也许我们在同一个函数上运行多个工具调用。"
+ },
+ {
+  "seg": 464,
+  "start": 2210.934,
+  "end": 2214.135,
+  "speaker": "Unknown",
+  "en": "But today, we actually moved to a new function for every single step.",
+  "zh": "但今天,我们实际上为每一个单独的步骤都切换到一个新函数。"
+ },
+ {
+  "seg": 465,
+  "start": 2214.535,
+  "end": 2223.118,
+  "speaker": "Unknown",
+  "en": "And so as long as workflow gets faster and continues to be performant, you don't notice this, and the agents can effectively run indefinitely.",
+  "zh": "所以只要工作流变得更快并持续保持高性能，你就不会注意到这一点，而智能体实际上可以无限期地运行。"
+ },
+ {
+  "seg": 466,
+  "start": 2223.758,
+  "end": 2224.218,
+  "speaker": "Unknown",
+  "en": "That's cool.",
+  "zh": "那挺酷的。"
+ },
+ {
+  "seg": 467,
+  "start": 2225.078,
+  "end": 2227.64,
+  "speaker": "Unknown",
+  "en": "What about things like durable memory and stuff like that?",
+  "zh": "那像持久化记忆之类的东西呢?"
+ },
+ {
+  "seg": 468,
+  "start": 2227.7,
+  "end": 2239.968,
+  "speaker": "Unknown",
+  "en": "So one of the things that's interesting working with something like an OpenClaw or a Hermes or one of these things is that they have as a part of their built-in loops some amount of, oh, I'm going to remember this.",
+  "zh": "用像 OpenClaw 或 Hermes 或这类东西工作时,一件有趣的事是它们在内置循环中有一定程度的,哦,我要记住这个。"
+ },
+ {
+  "seg": 469,
+  "start": 2240.068,
+  "end": 2250.776,
+  "speaker": "Unknown",
+  "en": "I will write my own file that I can reference, or I will iterate on this skill that you maybe gave me a first version of, but I can actually modify my own prompts and sources based on your feedback.",
+  "zh": "我会写一个我自己的文件供我参考,或者我会迭代你也许给了我一版initially的这个技能,但我实际上可以基于你的反馈修改我自己的提示词和来源。"
+ },
+ {
+  "seg": 470,
+  "start": 2251.276,
+  "end": 2255.737,
+  "speaker": "Unknown",
+  "en": "Are there mechanisms for that type of learning agent within EVE?",
+  "zh": "在 EVE 中有没有这种类型学习智能体的机制?"
+ },
+ {
+  "seg": 471,
+  "start": 2256.438,
+  "end": 2259.298,
+  "speaker": "Unknown",
+  "en": "Yeah, this is probably the biggest thing I'm working on right now.",
+  "zh": "是的,这可能是我现在正在做的最大的一件事。"
+ },
+ {
+  "seg": 472,
+  "start": 2259.819,
+  "end": 2264.6,
+  "speaker": "Unknown",
+  "en": "So all of memory is open in PRs, which you can go inspect if you want to right now.",
+  "zh": "所以所有关于记忆的内容都以 PR 的形式开放着,如果你愿意,现在就可以去查看。"
+ },
+ {
+  "seg": 473,
+  "start": 2264.64,
+  "end": 2270.942,
+  "speaker": "Unknown",
+  "en": "But yeah, so I'd say all of this is, and this actually goes back to what I was saying before, where we started enterprise.",
+  "zh": "但是的,我会说所有这些——而且这其实回到我之前说的我们开始做企业版的那个话题。"
+ },
+ {
+  "seg": 474,
+  "start": 2271.042,
+  "end": 2277.644,
+  "speaker": "Unknown",
+  "en": "And funny enough, these types of things aren't necessarily your enterprise use case, but they are very personal agent use case.",
+  "zh": "而且有意思的是,这类东西不一定是你的企业用例,但它们是非常个人化的智能体用例。"
+ },
+ {
+  "seg": 475,
+  "start": 2278.184,
+  "end": 2282.568,
+  "speaker": "Unknown",
+  "en": "And so now we're starting to double back and build up these features for the personal case.",
+  "zh": "所以现在我们开始回头为个人场景构建这些功能。"
+ },
+ {
+  "seg": 476,
+  "start": 2282.968,
+  "end": 2288.793,
+  "speaker": "Unknown",
+  "en": "And self-evolution is a really, really important part of that for all the reasons that you just said.",
+  "zh": "而自我进化是其中非常非常重要的部分,原因就是你刚才说的那些。"
+ },
+ {
+  "seg": 477,
+  "start": 2288.813,
+  "end": 2294.377,
+  "speaker": "Unknown",
+  "en": "The idea is you just deploy the out-of-the-box agent and it just starts getting better as it works with you.",
+  "zh": "理念是:你只需部署开箱即用的智能体,它就会在与你共事的过程中变得越来越好。"
+ },
+ {
+  "seg": 478,
+  "start": 2294.397,
+  "end": 2297.7,
+  "speaker": "Unknown",
+  "en": "And there's different forms of self-evolution and I think it's also different.",
+  "zh": "自我进化有不同的形式,而且我认为它也是不同的。"
+ },
+ {
+  "seg": 479,
+  "start": 2298.64,
+  "end": 2305.904,
+  "speaker": "Unknown",
+  "en": "Eve is going to do it a little bit differently than maybe something like Hermes, which can literally just update its code in place and then restart itself effectively.",
+  "zh": "Eve 的做法会有一点不同,不像 Hermes 那样,它可以真的就地更新自己的代码,然后有效地重启自己。"
+ },
+ {
+  "seg": 480,
+  "start": 2305.964,
+  "end": 2309.426,
+  "speaker": "Unknown",
+  "en": "So on Eve, we're thinking about self-evolution in a few different ways.",
+  "zh": "所以在 Eve 上,我们从几个不同的角度思考自我进化。"
+ },
+ {
+  "seg": 481,
+  "start": 2309.506,
+  "end": 2314.889,
+  "speaker": "Unknown",
+  "en": "Memory is obviously one of them, and we are doing a first-class folder called Memory.",
+  "zh": "记忆显然是其中之一,我们在做一个叫 Memory 的一等公民文件夹。"
+ },
+ {
+  "seg": 482,
+  "start": 2315.369,
+  "end": 2317.412,
+  "speaker": "Unknown",
+  "en": "And you will be able to define different memory slots.",
+  "zh": "而且你将能够定义不同的记忆槽位。"
+ },
+ {
+  "seg": 483,
+  "start": 2317.452,
+  "end": 2322.56,
+  "speaker": "Unknown",
+  "en": "And so you can actually, you would be able to have, let's say you wanted like workspace memory for your Slack channel.",
+  "zh": "所以你实际上,你将能够——比方说你想要一个针对你 Slack 频道的工作区记忆。"
+ },
+ {
+  "seg": 484,
+  "start": 2322.58,
+  "end": 2325.805,
+  "speaker": "Unknown",
+  "en": "So this is like literally global memory that's shared across all your users.",
+  "zh": "这就像字面意义上在你所有用户之间共享的全局记忆。"
+ },
+ {
+  "seg": 485,
+  "start": 2326.265,
+  "end": 2330.331,
+  "speaker": "Unknown",
+  "en": "But then you could define an additional slot that is just memory for yourself.",
+  "zh": "但然后你可以定义一个额外的槽位,那只是你自己的记忆。"
+ },
+ {
+  "seg": 486,
+  "start": 2330.932,
+  "end": 2336.719,
+  "speaker": "Unknown",
+  "en": "And so now the agent actually has multiple memory banks that it can pull and save to, depending on what scope you define.",
+  "zh": "这样智能体实际上就有了多个记忆库,可以根据你定义的范围来读取和保存。"
+ },
+ {
+  "seg": 487,
+  "start": 2336.739,
+  "end": 2347.893,
+  "speaker": "Unknown",
+  "en": "And so it's kind of like a mix of, we'll give you a really easy personal memory provider, but we think it has the primitives for much more advanced enterprise memory use cases.",
+  "zh": "所以这有点像一个混合体:我们会给你一个非常简单的个人记忆提供者,但我们认为它具备支撑更高级企业记忆用例的原语。"
+ },
+ {
+  "seg": 488,
+  "start": 2348.694,
+  "end": 2350.937,
+  "speaker": "Unknown",
+  "en": "Hopefully kind of like threads the needle on both sides there.",
+  "zh": "希望能在两方面都做到恰到好处。"
+ },
+ {
+  "seg": 489,
+  "start": 2350.977,
+  "end": 2353.439,
+  "speaker": "Unknown",
+  "en": "But yeah, so memory is one form.",
+  "zh": "但是的,所以记忆是一种形式。"
+ },
+ {
+  "seg": 490,
+  "start": 2353.519,
+  "end": 2356.202,
+  "speaker": "Unknown",
+  "en": "And then the other one is obviously modifying yourself.",
+  "zh": "另一个显然是修改你自己。"
+ },
+ {
+  "seg": 491,
+  "start": 2356.242,
+  "end": 2363.51,
+  "speaker": "Unknown",
+  "en": "So can you add a new connection to some MCP server or write new tools, produce new skills, things like that.",
+  "zh": "比如能不能为某个 MCP 服务器添加新连接,或者编写新工具、产出新技能,诸如此类。"
+ },
+ {
+  "seg": 492,
+  "start": 2364.051,
+  "end": 2366.714,
+  "speaker": "Unknown",
+  "en": "Skills maybe is a special case or it might actually be closer to memory.",
+  "zh": "技能也许是一个特例,或者它实际上可能更接近于记忆。"
+ },
+ {
+  "seg": 493,
+  "start": 2366.754,
+  "end": 2370.458,
+  "speaker": "Unknown",
+  "en": "But for other things, you literally have to write code to go make it happen in EVE.",
+  "zh": "但对于其他事情,你在 EVE 里确实必须编写代码去实现它。"
+ },
+ {
+  "seg": 494,
+  "start": 2371.118,
+  "end": 2374.28,
+  "speaker": "Unknown",
+  "en": "And for now, we're going to lean pretty heavily into Git, right?",
+  "zh": "而现在,我们会相当深度地依托 Git,对吧?"
+ },
+ {
+  "seg": 495,
+  "start": 2374.32,
+  "end": 2376.301,
+  "speaker": "Unknown",
+  "en": "Like our customers are using Git.",
+  "zh": "比如我们的客户在使用 Git。"
+ },
+ {
+  "seg": 496,
+  "start": 2376.722,
+  "end": 2378.983,
+  "speaker": "Unknown",
+  "en": "And so what we want to do here is open PRs.",
+  "zh": "所以我们在这里要做的是开放 PR。"
+ },
+ {
+  "seg": 497,
+  "start": 2379.363,
+  "end": 2384.286,
+  "speaker": "Unknown",
+  "en": "And so we will do a coding sub-agent that you can define.",
+  "zh": "所以我们会做一个你可以定义的编码子智能体。"
+ },
+ {
+  "seg": 498,
+  "start": 2384.706,
+  "end": 2386.687,
+  "speaker": "Unknown",
+  "en": "And that is basically your self-evolution.",
+  "zh": "而这基本上就是你的自我进化。"
+ },
+ {
+  "seg": 499,
+  "start": 2386.707,
+  "end": 2392.011,
+  "speaker": "Unknown",
+  "en": "And so we'll kind of do all the hard work of, you know, when you deploy this thing, it'll have a sandbox for you with your code base.",
+  "zh": "所以我们会把那些困难的工作都做了,你知道,当你部署这个东西时,它会为你提供一个带有你代码库的沙箱。"
+ },
+ {
+  "seg": 500,
+  "start": 2392.291,
+  "end": 2396.273,
+  "speaker": "Unknown",
+  "en": "We'll have the right prompts so it knows when it has to invoke the coding agent to change something.",
+  "zh": "我们会有正确的提示词,让它知道什么时候需要调用编码智能体去改动某些东西。"
+ },
+ {
+  "seg": 501,
+  "start": 2396.293,
+  "end": 2398.975,
+  "speaker": "Unknown",
+  "en": "But the goal is to effectively just open PRs against itself.",
+  "zh": "但目标实际上是让它对自身开 PR。"
+ },
+ {
+  "seg": 502,
+  "start": 2399.695,
+  "end": 2404.357,
+  "speaker": "Unknown",
+  "en": "And so that's kind of our model of the VPS world where they just get to change their files.",
+  "zh": "所以这就是我们对 VPS 世界的模式,它们可以直接改动自己的文件。"
+ },
+ {
+  "seg": 503,
+  "start": 2405.458,
+  "end": 2413.321,
+  "speaker": "Unknown",
+  "en": "Yeah, no, that's honestly a really nice, clean model because it allows you to define whatever level of oversight you want on those.",
+  "zh": "是的,不,说实话这是一个非常干净漂亮的设计,因为它允许你在其上定义任意级别的监督。"
+ },
+ {
+  "seg": 504,
+  "start": 2413.722,
+  "end": 2414.082,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 505,
+  "start": 2414.102,
+  "end": 2416.243,
+  "speaker": "Unknown",
+  "en": "You want to let it self-merge?",
+  "zh": "你想让它自行合并?"
+ },
+ {
+  "seg": 506,
+  "start": 2416.423,
+  "end": 2418.024,
+  "speaker": "Unknown",
+  "en": "All right, you can build those automations.",
+  "zh": "好啊,你可以构建那些自动化。"
+ },
+ {
+  "seg": 507,
+  "start": 2418.424,
+  "end": 2421.645,
+  "speaker": "Unknown",
+  "en": "You want it to have heavy human review on everything?",
+  "zh": "你想让所有东西都经过重度人工审查?"
+ },
+ {
+  "seg": 508,
+  "start": 2422.105,
+  "end": 2424.326,
+  "speaker": "Unknown",
+  "en": "You can configure that the same way you would anything else.",
+  "zh": "你可以像配置其他任何东西一样配置它。"
+ },
+ {
+  "seg": 509,
+  "start": 2424.386,
+  "end": 2425.307,
+  "speaker": "Unknown",
+  "en": "So yeah, that's really nice.",
+  "zh": "所以是的,这真的很棒。"
+ },
+ {
+  "seg": 510,
+  "start": 2425.802,
+  "end": 2426.002,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 511,
+  "start": 2426.422,
+  "end": 2431.465,
+  "speaker": "Unknown",
+  "en": "So you used a term, slots, and this is, I think, the second or third time you used it in this conversation.",
+  "zh": "你用了一个词,slots(槽位),我想这已经是你在这次对话中第二或第三次用到它了。"
+ },
+ {
+  "seg": 512,
+  "start": 2431.485,
+  "end": 2433.186,
+  "speaker": "Unknown",
+  "en": "It may not be familiar to everyone.",
+  "zh": "它可能不是每个人都熟悉。"
+ },
+ {
+  "seg": 513,
+  "start": 2433.206,
+  "end": 2436.867,
+  "speaker": "Unknown",
+  "en": "Can we define what you mean when you say, like, oh, we're going to define a few slots for this?",
+  "zh": "我们能不能定义一下,当你说\"哦,我们要为这个定义几个 slots\"的时候,你指的是什么?"
+ },
+ {
+  "seg": 514,
+  "start": 2437.728,
+  "end": 2439.168,
+  "speaker": "Unknown",
+  "en": "Oh yeah, I use it specifically in memory.",
+  "zh": "哦,是的,我是在记忆(memory)的语境下特指它的。"
+ },
+ {
+  "seg": 515,
+  "start": 2439.188,
+  "end": 2443.37,
+  "speaker": "Unknown",
+  "en": "So yeah, when I generally say slots, I'm talking about basically our top-level directories, right?",
+  "zh": "所以是的,我一般说 slots 的时候,我说的基本上就是我们的顶层目录,对吧?"
+ },
+ {
+  "seg": 516,
+  "start": 2443.39,
+  "end": 2446.092,
+  "speaker": "Unknown",
+  "en": "So skills, tools, sandbox, channels.",
+  "zh": "也就是 skills、tools、sandbox、channels。"
+ },
+ {
+  "seg": 517,
+  "start": 2446.132,
+  "end": 2452.495,
+  "speaker": "Unknown",
+  "en": "So memory is going to be, if I was talking to my coding agent, I would call it an authored slot, is how I would refer to it.",
+  "zh": "那 memory 就会是——如果我在跟我的编码智能体对话,我会称之为一个 authored slot,我是这么称呼它的。"
+ },
+ {
+  "seg": 518,
+  "start": 2453.555,
+  "end": 2454.936,
+  "speaker": "Unknown",
+  "en": "So it will be a top-level directory.",
+  "zh": "所以它会是一个顶层目录。"
+ },
+ {
+  "seg": 519,
+  "start": 2455.297,
+  "end": 2464.223,
+  "speaker": "Unknown",
+  "en": "And then inside of memory, we're basically giving you effectively memory-like drawers almost or shelves that have different drawers inside of them.",
+  "zh": "然后在 memory 里面,我们基本上是在给你提供几乎类似于记忆抽屉的东西,或者是里面带有不同抽屉的架子。"
+ },
+ {
+  "seg": 520,
+  "start": 2464.243,
+  "end": 2470.027,
+  "speaker": "Unknown",
+  "en": "And so one drawer might be global, one drawer might be user-based, one drawer might be channel plus user.",
+  "zh": "所以一个抽屉可能是全局的,一个抽屉可能是基于用户的,一个抽屉可能是频道加用户的。"
+ },
+ {
+  "seg": 521,
+  "start": 2470.047,
+  "end": 2472.469,
+  "speaker": "Unknown",
+  "en": "Maybe you want memory just in specific Slack channels.",
+  "zh": "也许你只想在特定的 Slack 频道里保留记忆。"
+ },
+ {
+  "seg": 522,
+  "start": 2472.929,
+  "end": 2476.752,
+  "speaker": "Unknown",
+  "en": "So it'll give you the control over how you want to scope those memories.",
+  "zh": "所以它会让你能够控制你想如何限定这些记忆的作用范围。"
+ },
+ {
+  "seg": 523,
+  "start": 2477.252,
+  "end": 2480.055,
+  "speaker": "Unknown",
+  "en": "And this lets Eve do interesting things where we can control.",
+  "zh": "而这让 Eve 能做一些有趣的事情,我们可以进行控制。"
+ },
+ {
+  "seg": 524,
+  "start": 2480.075,
+  "end": 2486.7,
+  "speaker": "Unknown",
+  "en": "So the classic example is you almost never want a tool call that takes in a user ID, for example.",
+  "zh": "所以一个经典的例子是,你几乎永远不想要一个接收用户 ID 作为输入的工具调用,比如说。"
+ },
+ {
+  "seg": 525,
+  "start": 2486.72,
+  "end": 2489.923,
+  "speaker": "Unknown",
+  "en": "You don't want the agent to guess or think it knows the user ID.",
+  "zh": "你不想要智能体去猜测,或者以为它知道用户 ID。"
+ },
+ {
+  "seg": 526,
+  "start": 2490.363,
+  "end": 2494.927,
+  "speaker": "Unknown",
+  "en": "And so what these memory slots do is they're lowering tools that are bound to those things.",
+  "zh": "而这些 memory slots 做的就是,它们是绑定到那些东西上的 lowering tools(底层工具)。"
+ },
+ {
+  "seg": 527,
+  "start": 2494.967,
+  "end": 2497.569,
+  "speaker": "Unknown",
+  "en": "So it cannot guess the wrong slot.",
+  "zh": "这样它就不会猜错 slot。"
+ },
+ {
+  "seg": 528,
+  "start": 2498.516,
+  "end": 2498.656,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 529,
+  "start": 2498.896,
+  "end": 2499.076,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 530,
+  "start": 2499.136,
+  "end": 2505.119,
+  "speaker": "Unknown",
+  "en": "You want all of those permission and other related things to be deterministic under the layer of what the agent does.",
+  "zh": "你会希望所有这些权限以及其他相关的东西,在智能体所做的事情之下那层是确定性的。"
+ },
+ {
+  "seg": 531,
+  "start": 2505.179,
+  "end": 2509.141,
+  "speaker": "Unknown",
+  "en": "It just asks for a thing and you say, oh, that is scoped to this user.",
+  "zh": "它只是请求一个东西,然后你说,哦,这个的作用域是这个用户。"
+ },
+ {
+  "seg": 532,
+  "start": 2509.161,
+  "end": 2510.922,
+  "speaker": "Unknown",
+  "en": "We're going to include that in the actual functional call.",
+  "zh": "我们会把它包含在实际的函数调用里。"
+ },
+ {
+  "seg": 533,
+  "start": 2511.362,
+  "end": 2512.063,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的,没错。"
+ },
+ {
+  "seg": 534,
+  "start": 2512.083,
+  "end": 2512.403,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 535,
+  "start": 2512.423,
+  "end": 2516.125,
+  "speaker": "Unknown",
+  "en": "And so we went back and forth on whether we wanted memory to be first class or not.",
+  "zh": "所以我们曾经来回争论过要不要把 memory 做成一等公民。"
+ },
+ {
+  "seg": 536,
+  "start": 2516.145,
+  "end": 2522.448,
+  "speaker": "Unknown",
+  "en": "And the more you look at cases like that and you realize that you can start grabbing memories from the wrong people and this and that.",
+  "zh": "而你越是去看这类案例,你就会意识到你可能会开始抓错人的记忆,诸如此类。"
+ },
+ {
+  "seg": 537,
+  "start": 2522.968,
+  "end": 2532.192,
+  "speaker": "Unknown",
+  "en": "When we see problems like that, it kind of hints to us that, yes, this does belong as a first-class thing because we can provide the right guardrails and the nice APIs around them and things like that.",
+  "zh": "当我们看到这样的问题时,这有点向我们暗示,是的,它确实应该作为一个一等公民的存在,因为我们可以围绕它提供正确的护栏和漂亮的 API 之类的东西。"
+ },
+ {
+  "seg": 538,
+  "start": 2533.372,
+  "end": 2534.913,
+  "speaker": "Unknown",
+  "en": "Quick detail question on memory.",
+  "zh": "关于 memory 问一个细节问题。"
+ },
+ {
+  "seg": 539,
+  "start": 2535.033,
+  "end": 2536.633,
+  "speaker": "Unknown",
+  "en": "How do you expose that to the agent?",
+  "zh": "你们是怎么把它暴露给智能体的?"
+ },
+ {
+  "seg": 540,
+  "start": 2536.934,
+  "end": 2539.274,
+  "speaker": "Unknown",
+  "en": "Is it through a tool call?",
+  "zh": "是通过工具调用吗?"
+ },
+ {
+  "seg": 541,
+  "start": 2539.454,
+  "end": 2542.036,
+  "speaker": "Unknown",
+  "en": "Is it embedded in the context all the time?",
+  "zh": "还是一直嵌入在上下文里?"
+ },
+ {
+  "seg": 542,
+  "start": 2542.076,
+  "end": 2542.936,
+  "speaker": "Unknown",
+  "en": "What does that look like?",
+  "zh": "那是什么样子的?"
+ },
+ {
+  "seg": 543,
+  "start": 2543.69,
+  "end": 2548.696,
+  "speaker": "Unknown",
+  "en": "Yeah, so we took a stance here where we have this concept called provider.",
+  "zh": "是的,我们在这里采取了一个立场,我们有一个叫做 provider(提供者)的概念。"
+ },
+ {
+  "seg": 544,
+  "start": 2549.618,
+  "end": 2553.142,
+  "speaker": "Unknown",
+  "en": "And the provider can give whatever tools it wants.",
+  "zh": "而 provider 可以提供它想要的任何工具。"
+ },
+ {
+  "seg": 545,
+  "start": 2553.382,
+  "end": 2558.569,
+  "speaker": "Unknown",
+  "en": "And so Eve actually makes... We have no opinion on the tools that should exist when it comes to memory.",
+  "zh": "所以 Eve 实际上做到了……对于 memory 应该有哪些工具,我们没有任何固定意见。"
+ },
+ {
+  "seg": 546,
+  "start": 2558.589,
+  "end": 2560.211,
+  "speaker": "Unknown",
+  "en": "And so the model is actually...",
+  "zh": "所以这个模式实际上是……"
+ },
+ {
+  "seg": 547,
+  "start": 2560.932,
+  "end": 2566.534,
+  "speaker": "Unknown",
+  "en": "We deterministically invoke three functions, recall, save, and this tools function.",
+  "zh": "我们确定性地调用三个函数,recall、save,还有这个 tools 函数。"
+ },
+ {
+  "seg": 548,
+  "start": 2567.074,
+  "end": 2571.035,
+  "speaker": "Unknown",
+  "en": "And the provider, it's entirely up to it on what it wants to do there.",
+  "zh": "而 provider 在那里想做什么完全由它自己决定。"
+ },
+ {
+  "seg": 549,
+  "start": 2571.055,
+  "end": 2574.556,
+  "speaker": "Unknown",
+  "en": "And so the provider that will ship in the framework is a file provider.",
+  "zh": "所以将随框架一起发布的 provider 是一个文件 provider。"
+ },
+ {
+  "seg": 550,
+  "start": 2575.456,
+  "end": 2576.916,
+  "speaker": "Unknown",
+  "en": "And this one is very, very simple.",
+  "zh": "这个非常非常简单。"
+ },
+ {
+  "seg": 551,
+  "start": 2577.096,
+  "end": 2580.837,
+  "speaker": "Unknown",
+  "en": "Recall, it returns the file in full as context.",
+  "zh": "Recall,即回忆，它把文件完整地作为上下文返回。"
+ },
+ {
+  "seg": 552,
+  "start": 2581.497,
+  "end": 2583.158,
+  "speaker": "Unknown",
+  "en": "Save, it completely ignores.",
+  "zh": "Save,即保存，它完全忽略。"
+ },
+ {
+  "seg": 553,
+  "start": 2583.818,
+  "end": 2585.519,
+  "speaker": "Unknown",
+  "en": "So there's no implementation of save.",
+  "zh": "所以没有任何 save 的实现。"
+ },
+ {
+  "seg": 554,
+  "start": 2586.18,
+  "end": 2589.882,
+  "speaker": "Unknown",
+  "en": "And the tools it provides is basically add memory and forget memory.",
+  "zh": "它提供的工具基本上就是 add memory(添加记忆)和 forget memory(遗忘记忆)。"
+ },
+ {
+  "seg": 555,
+  "start": 2590.382,
+  "end": 2597.427,
+  "speaker": "Unknown",
+  "en": "And so the agent can add a single memory, in which case we will resave the file to blob storage, and then forget memory, same thing.",
+  "zh": "这样智能体可以添加一条记忆，这种情况下我们会把文件重新保存到 blob 存储，然后 forget memory 也是同样的事。"
+ },
+ {
+  "seg": 556,
+  "start": 2597.547,
+  "end": 2599.488,
+  "speaker": "Unknown",
+  "en": "We just remove the memory and resave it.",
+  "zh": "我们只是移除那条记忆然后重新保存。"
+ },
+ {
+  "seg": 557,
+  "start": 2600.109,
+  "end": 2601.77,
+  "speaker": "Unknown",
+  "en": "And so that's the file memory implementation.",
+  "zh": "这就是文件记忆的实现。"
+ },
+ {
+  "seg": 558,
+  "start": 2602.317,
+  "end": 2606.901,
+  "speaker": "Unknown",
+  "en": "And so just to make sure I understand then, this is a deterministic thing.",
+  "zh": "那么为了确认我理解了，这是一个确定性的东西。"
+ },
+ {
+  "seg": 559,
+  "start": 2606.961,
+  "end": 2616.209,
+  "speaker": "Unknown",
+  "en": "It's going to be called and the result would be whatever gets returned by recall is embedded in the context of the agent from the start and it has access to these tools.",
+  "zh": "它会被调用，然后 recall 返回的结果会从一开始就嵌入到智能体的上下文中，并且它可以使用这些工具。"
+ },
+ {
+  "seg": 560,
+  "start": 2616.329,
+  "end": 2624.637,
+  "speaker": "Unknown",
+  "en": "So in this version, the contents of the file are going to be in every agentic prompt and it has access to save or forget particular memories within it.",
+  "zh": "所以在这个版本里，文件的内容会出现在每一次智能体提示词中，并且它可以访问 save 或 forget 其中特定记忆的功能。"
+ },
+ {
+  "seg": 561,
+  "start": 2625.358,
+  "end": 2625.798,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 562,
+  "start": 2626.138,
+  "end": 2627.659,
+  "speaker": "Unknown",
+  "en": "That's like the most basic version.",
+  "zh": "这基本上就是最基础的版本。"
+ },
+ {
+  "seg": 563,
+  "start": 2627.739,
+  "end": 2632.081,
+  "speaker": "Unknown",
+  "en": "This is very similar, I think, to like Hermes has like a user.md file, I believe.",
+  "zh": "我觉得这非常类似于，Hermes 有一个 user.md 文件，我记得是。"
+ },
+ {
+  "seg": 564,
+  "start": 2632.441,
+  "end": 2634.122,
+  "speaker": "Unknown",
+  "en": "And so this is kind of our version of that.",
+  "zh": "这有点像我们自己的那个版本。"
+ },
+ {
+  "seg": 565,
+  "start": 2634.762,
+  "end": 2637.463,
+  "speaker": "Unknown",
+  "en": "But the APIs we're providing let you go way beyond this.",
+  "zh": "但我们提供的 API 能让你走得更远。"
+ },
+ {
+  "seg": 566,
+  "start": 2637.583,
+  "end": 2640.625,
+  "speaker": "Unknown",
+  "en": "And so we really wanted to support something like super memory.",
+  "zh": "我们非常想支持类似 super memory 这样的东西。"
+ },
+ {
+  "seg": 567,
+  "start": 2641.285,
+  "end": 2645.606,
+  "speaker": "Unknown",
+  "en": "Where all of the recall and saving is done on their service, right?",
+  "zh": "也就是所有的 recall 和保存都在他们的服务上完成，对吧？"
+ },
+ {
+  "seg": 568,
+  "start": 2645.626,
+  "end": 2647.787,
+  "speaker": "Unknown",
+  "en": "So Eve has no opinions on those things.",
+  "zh": "所以 Eve 对这些事情没有任何意见。"
+ },
+ {
+  "seg": 569,
+  "start": 2648.327,
+  "end": 2653.429,
+  "speaker": "Unknown",
+  "en": "And so the super memory provider actually looks quite different where they might provide no tools, right?",
+  "zh": "于是 super memory 提供方看起来就很不一样，他们可能不提供任何工具，对吧？"
+ },
+ {
+  "seg": 570,
+  "start": 2653.449,
+  "end": 2657.01,
+  "speaker": "Unknown",
+  "en": "They don't want the model calling save memory or forget memory, whatever.",
+  "zh": "他们不想让模型调用 save memory 或 forget memory 之类的。"
+ },
+ {
+  "seg": 571,
+  "start": 2657.03,
+  "end": 2667.393,
+  "speaker": "Unknown",
+  "en": "They don't want to do that because what they want to do is when, you know, we'll call save at deterministic times, they actually take that message history and they will go run some agentic process and figure out what to save.",
+  "zh": "他们不想那样做，因为他们想要的是，你知道，我们会在确定性的时机调用 save,他们实际上会拿到那条消息历史，然后去运行某种智能体流程，决定要保存什么。"
+ },
+ {
+  "seg": 572,
+  "start": 2667.933,
+  "end": 2670.234,
+  "speaker": "Unknown",
+  "en": "And so it doesn't want to expose tools, right?",
+  "zh": "所以它不想暴露工具，对吧？"
+ },
+ {
+  "seg": 573,
+  "start": 2670.254,
+  "end": 2672.115,
+  "speaker": "Unknown",
+  "en": "Because they're doing that in their own service.",
+  "zh": "因为那是他们自己在服务里做的事。"
+ },
+ {
+  "seg": 574,
+  "start": 2672.735,
+  "end": 2676.556,
+  "speaker": "Unknown",
+  "en": "And then their recall can do something much more interesting than like the file case.",
+  "zh": "然后他们的 recall 可以做比文件那种情况有意思得多的事情。"
+ },
+ {
+  "seg": 575,
+  "start": 2676.576,
+  "end": 2681.999,
+  "speaker": "Unknown",
+  "en": "They can actually look at the inbound message and say, let me recall agentically based on this inbound message.",
+  "zh": "他们实际上可以查看入站消息，然后说，让我基于这条入站消息以智能体方式去回忆。"
+ },
+ {
+  "seg": 576,
+  "start": 2682.039,
+  "end": 2683.599,
+  "speaker": "Unknown",
+  "en": "And so it's a completely different recall.",
+  "zh": "所以这是一个完全不同的 recall。"
+ },
+ {
+  "seg": 577,
+  "start": 2683.639,
+  "end": 2684.259,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有意思。"
+ },
+ {
+  "seg": 578,
+  "start": 2684.279,
+  "end": 2686.64,
+  "speaker": "Unknown",
+  "en": "So recall is called in every turn of the loop.",
+  "zh": "所以 recall 在循环的每一轮都会被调用。"
+ },
+ {
+  "seg": 579,
+  "start": 2686.78,
+  "end": 2691.202,
+  "speaker": "Unknown",
+  "en": "So you could actually change what your sort of embedded prompt looks like based on.",
+  "zh": "这样你实际上可以据此改变你那种嵌入提示词的样子。"
+ },
+ {
+  "seg": 580,
+  "start": 2691.322,
+  "end": 2691.582,
+  "speaker": "Unknown",
+  "en": "Nice.",
+  "zh": "不错。"
+ },
+ {
+  "seg": 581,
+  "start": 2691.882,
+  "end": 2692.143,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 582,
+  "start": 2692.203,
+  "end": 2692.663,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 583,
+  "start": 2693.383,
+  "end": 2697.784,
+  "speaker": "Unknown",
+  "en": "Yeah, and so we call, recall, there's a few phases that we call it in.",
+  "zh": "是的，我们调用 recall 有几个阶段。"
+ },
+ {
+  "seg": 584,
+  "start": 2698.284,
+  "end": 2706.966,
+  "speaker": "Unknown",
+  "en": "Obviously, turn, start is the main one, but we also call it after compaction, for example, because we can't guarantee that compaction keeps your memories around.",
+  "zh": "显然 turn start(轮次开始)是主要的一个，但我们也会在 compaction(压缩)之后调用它，比如，因为我们不能保证 compaction 会保留你的记忆。"
+ },
+ {
+  "seg": 585,
+  "start": 2707.026,
+  "end": 2717.308,
+  "speaker": "Unknown",
+  "en": "So we'll call, recall again after compaction, and someone like SuperMemory, they might actually look at the compacted problem and say, oh no, we're good, it has what we need, or no, we have to re-inject.",
+  "zh": "所以我们会在 compaction 之后再次调用 recall,而像 SuperMemory 这样的提供方，他们实际上可以查看压缩后的问题，然后说，哦不，没问题，它包含了我们需要的东西，或者说，不行，我们得重新注入。"
+ },
+ {
+  "seg": 586,
+  "start": 2717.328,
+  "end": 2720.169,
+  "speaker": "Unknown",
+  "en": "So they can do really sophisticated things, and Eve doesn't care.",
+  "zh": "所以他们可以做非常复杂的事情，而 Eve 毫不在乎。"
+ },
+ {
+  "seg": 587,
+  "start": 2721.389,
+  "end": 2728.415,
+  "speaker": "Unknown",
+  "en": "In that world, sorry, I'm going way down in the guts here, but are these each turn recall, is that being injected as a new message at the end of the stream?",
+  "zh": "在那种情况下，抱歉，我要深挖到底层细节了，但每一轮的 recall 是作为一条新消息注入到流末尾的吗？"
+ },
+ {
+  "seg": 588,
+  "start": 2728.475,
+  "end": 2730.457,
+  "speaker": "Unknown",
+  "en": "Are you actually editing the system prompt?",
+  "zh": "还是你们实际上在编辑系统提示词？"
+ },
+ {
+  "seg": 589,
+  "start": 2731.13,
+  "end": 2732.611,
+  "speaker": "Unknown",
+  "en": "So we give you the choice.",
+  "zh": "我们给你选择。"
+ },
+ {
+  "seg": 590,
+  "start": 2732.711,
+  "end": 2733.771,
+  "speaker": "Unknown",
+  "en": "The default is append.",
+  "zh": "默认是追加。"
+ },
+ {
+  "seg": 591,
+  "start": 2733.831,
+  "end": 2737.252,
+  "speaker": "Unknown",
+  "en": "So we don't want to bust the prompt cache if we don't have to.",
+  "zh": "我们不想在没必要的情况下打破提示词缓存。"
+ },
+ {
+  "seg": 592,
+  "start": 2737.312,
+  "end": 2742.734,
+  "speaker": "Unknown",
+  "en": "So we use the role user for memories, but you can override this and you can do a role system.",
+  "zh": "所以我们对记忆使用 user 角色，但你可以覆盖它，改成 system 角色。"
+ },
+ {
+  "seg": 593,
+  "start": 2743.194,
+  "end": 2746.616,
+  "speaker": "Unknown",
+  "en": "And so for the file memory provider, maybe role system actually does make sense.",
+  "zh": "所以对于文件记忆提供方来说，也许 system 角色确实说得通。"
+ },
+ {
+  "seg": 594,
+  "start": 2747.176,
+  "end": 2752.338,
+  "speaker": "Unknown",
+  "en": "But the downside of that is every add or forget does bust the system prompt.",
+  "zh": "但这样做的坏处是，每一次 add 或 forget 都会打破系统提示词。"
+ },
+ {
+  "seg": 595,
+  "start": 2753.227,
+  "end": 2754.327,
+  "speaker": "Unknown",
+  "en": "Yeah, that makes sense.",
+  "zh": "是的，这说得通。"
+ },
+ {
+  "seg": 596,
+  "start": 2755.048,
+  "end": 2755.388,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 597,
+  "start": 2755.508,
+  "end": 2756.208,
+  "speaker": "Unknown",
+  "en": "That's super fun.",
+  "zh": "这非常有趣。"
+ },
+ {
+  "seg": 598,
+  "start": 2756.228,
+  "end": 2757.709,
+  "speaker": "Unknown",
+  "en": "Thank you for geeking out with me on that.",
+  "zh": "谢谢你陪我一起钻研这个。"
+ },
+ {
+  "seg": 599,
+  "start": 2758.089,
+  "end": 2758.289,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 600,
+  "start": 2758.869,
+  "end": 2759.809,
+  "speaker": "Unknown",
+  "en": "It's all open in PR.",
+  "zh": "全部都在 PR 里公开着。"
+ },
+ {
+  "seg": 601,
+  "start": 2759.829,
+  "end": 2762.31,
+  "speaker": "Unknown",
+  "en": "So hopefully it launches soon.",
+  "zh": "所以希望很快就能发布。"
+ },
+ {
+  "seg": 602,
+  "start": 2762.33,
+  "end": 2762.71,
+  "speaker": "Unknown",
+  "en": "We'll see.",
+  "zh": "我们走着瞧。"
+ },
+ {
+  "seg": 603,
+  "start": 2763.43,
+  "end": 2763.671,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 604,
+  "start": 2763.911,
+  "end": 2766.371,
+  "speaker": "Unknown",
+  "en": "No, I actually, I was going and looking.",
+  "zh": "不，实际上，我刚才去看了。"
+ },
+ {
+  "seg": 605,
+  "start": 2766.391,
+  "end": 2767.612,
+  "speaker": "Unknown",
+  "en": "You've got a lot of PRs open.",
+  "zh": "你们有好多开着的 PR。"
+ },
+ {
+  "seg": 606,
+  "start": 2767.632,
+  "end": 2769.533,
+  "speaker": "Unknown",
+  "en": "So actually, that's kind of an interesting question.",
+  "zh": "所以说，这其实是个挺有意思的问题。"
+ },
+ {
+  "seg": 607,
+  "start": 2769.553,
+  "end": 2770.833,
+  "speaker": "Unknown",
+  "en": "So this is a Vercel project.",
+  "zh": "这是个 Vercel 项目。"
+ },
+ {
+  "seg": 608,
+  "start": 2771.333,
+  "end": 2773.474,
+  "speaker": "Unknown",
+  "en": "You all are open sourcing it, it looks like.",
+  "zh": "看起来你们正在把它开源。"
+ },
+ {
+  "seg": 609,
+  "start": 2773.914,
+  "end": 2775.455,
+  "speaker": "Unknown",
+  "en": "What's the contribution model?",
+  "zh": "贡献模式是什么样的？"
+ },
+ {
+  "seg": 610,
+  "start": 2775.495,
+  "end": 2779.536,
+  "speaker": "Unknown",
+  "en": "What's the sort of ongoing management ownership model look like?",
+  "zh": "持续管理和所有权模式大概是什么样的？"
+ },
+ {
+  "seg": 611,
+  "start": 2780.27,
+  "end": 2788.392,
+  "speaker": "Unknown",
+  "en": "Yeah, so we have a bit of a funny problem right now where we want to accept outside contributions.",
+  "zh": "是的，我们现在有个有点尴尬的问题，我们想接受外部贡献。"
+ },
+ {
+  "seg": 612,
+  "start": 2788.973,
+  "end": 2797.015,
+  "speaker": "Unknown",
+  "en": "But one of the problems we actually have is because our test suite is hitting models and is actually deploying projects super solid.",
+  "zh": "但我们实际遇到的一个问题是，因为我们的测试套件要调用模型，而且实际上是在部署项目，非常稳定。"
+ },
+ {
+  "seg": 613,
+  "start": 2797.035,
+  "end": 2798.495,
+  "speaker": "Unknown",
+  "en": "So it's using a bunch of secrets, basically.",
+  "zh": "所以它基本上要使用一大堆密钥。"
+ },
+ {
+  "seg": 614,
+  "start": 2798.515,
+  "end": 2800.476,
+  "speaker": "Unknown",
+  "en": "So we actually have this problem where...",
+  "zh": "所以我们实际上有这样的问题……"
+ },
+ {
+  "seg": 615,
+  "start": 2800.996,
+  "end": 2804.798,
+  "speaker": "Unknown",
+  "en": "We can't easily test outside contribution PRs.",
+  "zh": "我们没法轻松地测试外部贡献的 PR。"
+ },
+ {
+  "seg": 616,
+  "start": 2805.139,
+  "end": 2816.226,
+  "speaker": "Unknown",
+  "en": "So we actually have to carefully pull them into a sandbox, make sure that they're not doing anything malicious, and then we have to basically recommit them under our accounts with a co-author, and then we can actually run the suite.",
+  "zh": "所以我们实际上得小心地把它们拉进沙箱，确认它们没在做什么恶意的事，然后我们基本上得以合著者的名义用我们自己的账号重新提交，之后才能真正跑测试套件。"
+ },
+ {
+  "seg": 617,
+  "start": 2816.926,
+  "end": 2820.409,
+  "speaker": "Unknown",
+  "en": "Yeah, this is definitely a bummer and we're trying to figure out a better process here.",
+  "zh": "是的，这确实很让人头疼，我们正在设法找到一个更好的流程。"
+ },
+ {
+  "seg": 618,
+  "start": 2820.429,
+  "end": 2821.83,
+  "speaker": "Unknown",
+  "en": "It hasn't been the easiest thing.",
+  "zh": "这一直不是件容易的事。"
+ },
+ {
+  "seg": 619,
+  "start": 2821.99,
+  "end": 2826.773,
+  "speaker": "Unknown",
+  "en": "But yes, we want the outside contributions and we've been trying to take in as many as we can.",
+  "zh": "但是的，我们想要外部贡献，我们也一直在尽量多地接纳。"
+ },
+ {
+  "seg": 620,
+  "start": 2827.013,
+  "end": 2832.978,
+  "speaker": "Unknown",
+  "en": "We obviously have Eve agents internally that are actually analyzing these PRs daily to look for the ones that we should be pulling in.",
+  "zh": "显然，我们内部有 Eve 智能体每天分析这些 PR，找出我们应该接纳的那些。"
+ },
+ {
+  "seg": 621,
+  "start": 2833.638,
+  "end": 2835.401,
+  "speaker": "Unknown",
+  "en": "But yeah, the more contributions, the better.",
+  "zh": "但是的，贡献越多越好。"
+ },
+ {
+  "seg": 622,
+  "start": 2835.421,
+  "end": 2845.153,
+  "speaker": "Unknown",
+  "en": "And the EVE team was really two people full-time from March until about mid-July, I want to say.",
+  "zh": "还有，EVE 团队我想说从三月到大约七月中旬其实是两个人全职。"
+ },
+ {
+  "seg": 623,
+  "start": 2845.173,
+  "end": 2848.318,
+  "speaker": "Unknown",
+  "en": "And we just brought on four more people that have been doing a great job.",
+  "zh": "而我们刚又招了四个人，他们一直干得很出色。"
+ },
+ {
+  "seg": 624,
+  "start": 2848.338,
+  "end": 2851.382,
+  "speaker": "Unknown",
+  "en": "So yeah, it's about six people full-time on it now, engineering-wise.",
+  "zh": "所以是的，现在大约有六个人全职在做，工程方面。"
+ },
+ {
+  "seg": 625,
+  "start": 2852.452,
+  "end": 2854.934,
+  "speaker": "Unknown",
+  "en": "Well, we're getting closer to the end of our time.",
+  "zh": "好了，我们的时间快到尾声了。"
+ },
+ {
+  "seg": 626,
+  "start": 2855.114,
+  "end": 2862.52,
+  "speaker": "Unknown",
+  "en": "I have one more question I'm going to put to each of you, and then also anything that we haven't talked about that you think would be important, we can bring that up.",
+  "zh": "我还有一个问题要问你们每一位，然后另外，任何我们还没聊到、但你们觉得重要的东西，我们都可以提出来。"
+ },
+ {
+  "seg": 627,
+  "start": 2862.56,
+  "end": 2870.527,
+  "speaker": "Unknown",
+  "en": "But the question for each of you in turn, and maybe we can start with you, Andrew, and then, Shah, you can close us out, is like, what's the vision for where this is going?",
+  "zh": "这个问题依次问你们每一位，也许我们可以从你开始，Andrew，然后 Shah，你来收尾，就是：这一切的愿景是什么？"
+ },
+ {
+  "seg": 628,
+  "start": 2870.687,
+  "end": 2873.489,
+  "speaker": "Unknown",
+  "en": "What do you see coming down the road, the next three, six?",
+  "zh": "你觉得接下来会来什么？接下来三、六……"
+ },
+ {
+  "seg": 629,
+  "start": 2873.609,
+  "end": 2878.613,
+  "speaker": "Unknown",
+  "en": "I don't know if we can project out nine months in today's AI age, but what's coming down?",
+  "zh": "我不知道在如今的 AI 时代我们能不能 projecting 到九个月之后，但接下来会来什么？"
+ },
+ {
+  "seg": 630,
+  "start": 2878.653,
+  "end": 2879.574,
+  "speaker": "Unknown",
+  "en": "What are you excited about?",
+  "zh": "你们对什么感到兴奋？"
+ },
+ {
+  "seg": 631,
+  "start": 2880.549,
+  "end": 2886.852,
+  "speaker": "Unknown",
+  "en": "Yeah, for me, I mean, one of the very early principles behind Eve was we're going to bet on the models getting smarter.",
+  "zh": "是的，对我来说，EVE 背后很早期的一个原则就是，我们要押注模型会变得更聪明。"
+ },
+ {
+  "seg": 632,
+  "start": 2887.453,
+  "end": 2891.915,
+  "speaker": "Unknown",
+  "en": "And the way we designed the framework was really meant to take advantage of this.",
+  "zh": "而我们设计这个框架的方式正是为了利用这一点。"
+ },
+ {
+  "seg": 633,
+  "start": 2891.975,
+  "end": 2898.979,
+  "speaker": "Unknown",
+  "en": "I think a lot of other agent frameworks that we had seen, they scaled vertically where they just appeared to get more and more code.",
+  "zh": "我记得我们见过的很多其他智能体框架，它们是纵向扩展的，就是代码看起来越来越多。"
+ },
+ {
+  "seg": 634,
+  "start": 2899.479,
+  "end": 2901.96,
+  "speaker": "Unknown",
+  "en": "And eventually it kind of doesn't look like an agent anymore.",
+  "zh": "到最后它就有点不太像智能体了。"
+ },
+ {
+  "seg": 635,
+  "start": 2902.02,
+  "end": 2903.501,
+  "speaker": "Unknown",
+  "en": "You have a lot of determinism.",
+  "zh": "你有很多确定性。"
+ },
+ {
+  "seg": 636,
+  "start": 2903.601,
+  "end": 2906.323,
+  "speaker": "Unknown",
+  "en": "It's almost like these workflow style APIs.",
+  "zh": "几乎就像这些工作流风格的 API。"
+ },
+ {
+  "seg": 637,
+  "start": 2906.903,
+  "end": 2913.504,
+  "speaker": "Unknown",
+  "en": "And what we really wanted with EVE was to go horizontal and basically just say, we are going to bet on the models making the right decisions.",
+  "zh": "而我们真正想要 EVE 做的是横向走，基本上就是说，我们要押注模型会做出正确的决策。"
+ },
+ {
+  "seg": 638,
+  "start": 2914.104,
+  "end": 2922.886,
+  "speaker": "Unknown",
+  "en": "This is also generally where the folder structure and things like that came from, where we just want to provide more things for the model and let it make the right decision.",
+  "zh": "这一般也是文件夹结构之类东西的由来，我们只是想给模型提供更多的东西，让它做出正确的决策。"
+ },
+ {
+  "seg": 639,
+  "start": 2922.906,
+  "end": 2925.246,
+  "speaker": "Unknown",
+  "en": "And so EVE is going to stick to that principle.",
+  "zh": "所以 EVE 会坚持这个原则。"
+ },
+ {
+  "seg": 640,
+  "start": 2925.306,
+  "end": 2930.507,
+  "speaker": "Unknown",
+  "en": "And yeah, I mean, it's clear that the model intelligence is not slowing down anytime soon.",
+  "zh": "而且是的，我的意思是，很明显模型智能不会在短期内放缓。"
+ },
+ {
+  "seg": 641,
+  "start": 2930.607,
+  "end": 2934.408,
+  "speaker": "Unknown",
+  "en": "And we think EVE is going to take advantage of that in a great way.",
+  "zh": "而且我们认为 EVE 会以很好的方式利用这一点。"
+ },
+ {
+  "seg": 642,
+  "start": 2935.288,
+  "end": 2935.508,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 643,
+  "start": 2935.528,
+  "end": 2936.228,
+  "speaker": "Unknown",
+  "en": "What about you, Shar?",
+  "zh": "那你呢，Shar？"
+ },
+ {
+  "seg": 644,
+  "start": 2936.939,
+  "end": 2943.025,
+  "speaker": "Unknown",
+  "en": "Yeah, for me, I think the way we're thinking about it is a company building is agent building.",
+  "zh": "是的，对我来说，我认为我们的思考方式是：创建公司就是在构建智能体。"
+ },
+ {
+  "seg": 645,
+  "start": 2943.726,
+  "end": 2949.511,
+  "speaker": "Unknown",
+  "en": "So the idea is that EVE is more fundamental than your certificate of incorporation.",
+  "zh": "所以这个想法是，EVE 比你的公司注册证书更根本。"
+ },
+ {
+  "seg": 646,
+  "start": 2949.732,
+  "end": 2956.218,
+  "speaker": "Unknown",
+  "en": "So your agent predates your websites, your domain name, and even incorporating the company.",
+  "zh": "你的智能体早于你的网站、你的域名，甚至早于注册公司。"
+ },
+ {
+  "seg": 647,
+  "start": 2956.238,
+  "end": 2961.063,
+  "speaker": "Unknown",
+  "en": "So you start with the agent and the agent incrementally builds the software factory for you.",
+  "zh": "所以你从智能体开始，智能体逐步为你构建软件工厂。"
+ },
+ {
+  "seg": 648,
+  "start": 2961.523,
+  "end": 2964.648,
+  "speaker": "Unknown",
+  "en": "Including your complete software development lifecycle.",
+  "zh": "包括你完整的软件开发生命周期。"
+ },
+ {
+  "seg": 649,
+  "start": 2964.728,
+  "end": 2967.872,
+  "speaker": "Unknown",
+  "en": "And your job is then to actually fine tune that factory.",
+  "zh": "而你的工作就是去真正微调那座工厂。"
+ },
+ {
+  "seg": 650,
+  "start": 2968.513,
+  "end": 2974.441,
+  "speaker": "Unknown",
+  "en": "And we believe that EVE is positioned to basically become that brain of your company moving forward.",
+  "zh": "而我们相信,EVE 基本上有望成为你公司未来的大脑。"
+ },
+ {
+  "seg": 651,
+  "start": 2974.482,
+  "end": 2975.703,
+  "speaker": "Unknown",
+  "en": "That's kind of where we're heading.",
+  "zh": "这就是我们大致的前进方向。"
+ },
+ {
+  "seg": 652,
+  "start": 2976.427,
+  "end": 2980.209,
+  "speaker": "Unknown",
+  "en": "Well, that makes me think immediately, what's the hosting story outside of Vercel?",
+  "zh": "嗯,这让我立刻想到,在 Vercel 之外的托管方案是什么?"
+ },
+ {
+  "seg": 653,
+  "start": 2980.509,
+  "end": 2989.794,
+  "speaker": "Unknown",
+  "en": "I mean, obviously it's great that you guys can manage all of this and all this sort of thing, but if I'm building my company on top of this, I want to know that I can move it where I need to move it whenever that might happen.",
+  "zh": "我是说,显然你们能管理这一切等等这些都很好,但如果我要在这个基础上构建我的公司,我想知道我可以在需要的时候随时把它搬到需要的地方。"
+ },
+ {
+  "seg": 654,
+  "start": 2990.274,
+  "end": 2995.137,
+  "speaker": "Unknown",
+  "en": "So how does one host an EVE-based agent framework or set of agents?",
+  "zh": "那么如何托管一个基于 EVE 的智能体框架或一组智能体呢?"
+ },
+ {
+  "seg": 655,
+  "start": 2995.808,
+  "end": 2998.831,
+  "speaker": "Unknown",
+  "en": "Yeah, so I mean, this is actually very important to us.",
+  "zh": "是的,我是说,这对我们来说其实非常重要。"
+ },
+ {
+  "seg": 656,
+  "start": 2999.452,
+  "end": 3003.877,
+  "speaker": "Unknown",
+  "en": "And we do have customers internally that are running EVE on Kubernetes, on their own hardware even.",
+  "zh": "而且我们确实有内部客户在 Kubernetes 上、甚至在他们自己的硬件上运行 EVE。"
+ },
+ {
+  "seg": 657,
+  "start": 3004.558,
+  "end": 3009.603,
+  "speaker": "Unknown",
+  "en": "And part of this is taking advantage of what is called a world inside of workflow.",
+  "zh": "其中一部分是利用所谓的 workflow 中的 world。"
+ },
+ {
+  "seg": 658,
+  "start": 3010.024,
+  "end": 3015.47,
+  "speaker": "Unknown",
+  "en": "And this is part of our end-to-end test suite where we test different worlds, like a Postgres world, a local world, and things like that.",
+  "zh": "这是我们端到端测试套件的一部分,我们会测试不同的 world,比如 Postgres world、本地 world 之类的。"
+ },
+ {
+  "seg": 659,
+  "start": 3015.97,
+  "end": 3027.063,
+  "speaker": "Unknown",
+  "en": "And so as long as you can define a world for your infrastructure, and many of them exist, like there's worlds for tons of other providers out there, that is really all you need to host EVE yourself.",
+  "zh": "所以只要你能为你的基础设施定义一个 world,而且很多 world 已经存在了,比如外面有针对大量其他提供商的 world,那基本上就是你自己托管 EVE 所需要的一切。"
+ },
+ {
+  "seg": 660,
+  "start": 3027.764,
+  "end": 3032.309,
+  "speaker": "Unknown",
+  "en": "And so yeah, there's a lot more work that we're going to be doing here to make that experience much better.",
+  "zh": "所以是的,我们在这方面还会做更多工作,让那个体验好得多。"
+ },
+ {
+  "seg": 661,
+  "start": 3033.13,
+  "end": 3040.432,
+  "speaker": "Unknown",
+  "en": "And the key with things like memory and self-evolution and these other types of things is there has to be adapter contracts.",
+  "zh": "而记忆、自我进化以及这些其他类型的东西,关键在于必须有适配器契约。"
+ },
+ {
+  "seg": 662,
+  "start": 3040.452,
+  "end": 3045.094,
+  "speaker": "Unknown",
+  "en": "We can only do so much in the framework without bringing in external things.",
+  "zh": "不引入外部东西的话,框架内我们能做的只有这么多。"
+ },
+ {
+  "seg": 663,
+  "start": 3045.654,
+  "end": 3051.376,
+  "speaker": "Unknown",
+  "en": "Dynamic scheduling, for example, that will be first class on Vercel, but you will need to bring in something.",
+  "zh": "比如动态调度,它在 Vercel 上会是一等公民,但你需要自己引入一些东西。"
+ },
+ {
+  "seg": 664,
+  "start": 3051.736,
+  "end": 3059.578,
+  "speaker": "Unknown",
+  "en": "But the key is just making sure that those APIs and those adapters are thought of early on in the process and not some afterthought after it already works on Vercel.",
+  "zh": "但关键是要确保那些 API 和那些适配器在流程早期就被考虑到,而不是在它已经能在 Vercel 上运行之后才事后补上。"
+ },
+ {
+  "seg": 665,
+  "start": 3060.555,
+  "end": 3060.876,
+  "speaker": "Unknown",
+  "en": "I love it.",
+  "zh": "我很喜欢。"
+ },
+ {
+  "seg": 666,
+  "start": 3061.137,
+  "end": 3064.508,
+  "speaker": "Unknown",
+  "en": "That's a pretty good cut unless you guys have something else you want to talk about.",
+  "zh": "这是一次相当不错的剪辑,除非你们还有什么想聊的。"
+ },
+ {
+  "seg": 667,
+  "start": 3065.21,
+  "end": 3065.853,
+  "speaker": "Unknown",
+  "en": "No, nothing for me.",
+  "zh": "不,我没什么了。"
+ },
+ {
+  "seg": 668,
+  "start": 3065.873,
+  "end": 3066.314,
+  "speaker": "Unknown",
+  "en": "That was great.",
+  "zh": "那次很棒。"
+ },
+ {
+  "seg": 669,
+  "start": 3066.816,
+  "end": 3067.257,
+  "speaker": "Unknown",
+  "en": "Yeah, that was fun.",
+  "zh": "是的,那很有趣。"
+ }
+]

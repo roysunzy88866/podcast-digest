@@ -158,8 +158,8 @@ G2 对此有切肤之痛：OpenAI 推出 entity update（减少推荐实体、�
 **顺着「智能体」挖下去**
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Claude、OpenAI、Google · 同概念:护栏 (guardrails)、智能体 (agent)、PLG</span>
+- [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|让品牌被 AI 看见：AEO 实战与研究]]<span class="pd-rz">同公司:ChatGPT、Reddit、Google、OpenAI · 同概念:AEO、智能体 (agent)</span>
 - [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|Codex 负责人亲述:OpenAI 内部如何造编程智能体]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:harness、智能体 (agent)、护栏 (guardrails)</span>
-- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Claude · 同概念:harness、MCP、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

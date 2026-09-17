@@ -1,0 +1,166 @@
+{
+  "title_zh": "把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve",
+  "tldr": "Vercel 技术团队成员 Andrew Barba 与产品负责人 Char Dara 讲解云原生智能体框架 Eve：用 Markdown 和目录定义智能体，自动编译成基础设施。",
+  "digest_md": "这一集聊的是 Vercel 新开源的云原生智能体框架 Eve。两位主角都来自 Vercel：Andrew Barba 是技术团队成员，Char Dara 是 Eve 的产品负责人，两人此前曾一起领导 Vercel 的计费团队，今年二月开始做 Eve。主持人 Kevin Ball 的第一个问题就戳中要害：现在的智能体大多是「一人一进程」——你在自己电脑上跑一个 Claude Code、Codex 之类的东西。可一旦智能体要服务一个企业，成千上万个请求同时到达，每个会话都要隔离、持久、可恢复，这套本地模式就撑不住了 [00:00 主持人]。\n\nAndrew 用一个例子说明「云原生」到底意味着什么：拿一个 OpenClaw 和一个 Eve 智能体，让一千个人在同一时刻发提示词——OpenClaw 会垮，Eve 会横向扩展、快速并行拉起这些 harness（承载模型、连接工具的运行壳），会话互相隔离、可恢复、可重试，背后一整套机制兜底。它既能做万人企业的内部智能体，也能支撑一家把智能体当主产品的 B2C 公司 [04:35 Andrew]。\n\n## Eve 是怎么来的：从内部数据智能体 DZero 长出来的框架\n\nEve 并非凭空设计。Vercel 内部最早的全员智能体是一个叫 DZero 的数据智能体——你问它「有多少月活用户」，它靠一整层语义文件（Markdown、YAML 规范文件）来理解各种缩写和术语的含义。团队发现：把 DZero 稳定跑在 Vercel 上要手工搭一大堆系统，而 DZero 下面这一大层，之后每个智能体都会需要；同时 DZero 的功能大部分本来就来自文本文件 [05:51 Andrew]。于是有了两个激进的决定：一，用声明式文件系统定义智能体；二，最初干脆「没有代码」——Eve 纯粹是英文、Markdown、文本文件。\n\n所以 Eve 的形态 literally 就是一个目录。最简单的 Eve 智能体可以只是一个 `instructions.md` 文件——放进一个指令文件，你就得到一个按原始训练状态运行、云端托管的前沿模型，团队自嘲称之为「盒装 ChatGPT」[08:41 Andrew]。你写的配置会编译成一个 manifest（清单文件），本质是基础设施即代码：加了 skills 就配沙箱，定义了 schedules 就配定时事件基础设施，平台只供给你实际用到的东西。\n\n## 核心原语：instructions、skills、tools、connections、channels\n\nAndrew 逐一拆解了 Eve 的构建块。instructions 是智能体的身份；skills 是「渐进式披露」机制——你只给模型一个「何时该用」的提示，模型擅长判断自己什么时候需要进一步了解某件事，再自己去拉取额外上下文，DZero 有大约 90% 都是 skills [09:19 Andrew]；tools 用于跑确定性代码、从外部拉确定性数据，比如 Postgres 数据库或 OpenAPI 连接；connections 是 tools 的特化版，专用于 MCP（一种让模型接入外部工具服务的协议），丢进去一个 MCP URL 就自动暴露那些工具。\n\n再往上是 channels——智能体的所有调用入口。默认是一个 HTTP 路由，接 Next.js 应用用的就是它；更有意思的是 Slack、Teams、GitHub 这类渠道，Eve 支持这些平台的所有第一方事件，并给出带倾向性的默认交互方式 [10:38 Andrew]。还有 sub-agents（子智能体），最简单的用途是上下文管理——把不想塞爆父智能体的大任务分出去独立处理再汇报；但在 Vercel 内部它被玩出了组织结构：整个团队拥有一个子智能体，比如 DZero 本身就是另一个智能体的子智能体、由数据团队拥有，还有一个懂 Eve 全部构建知识的 help Eve 智能体，全公司都能调用 [11:44 Andrew]。\n\n## Evals 做成一等公民，测试套件本身就是一整套 evals\n\nChar 特别兴奋的一点是 evals（评测）在 Eve 里是一等公民原语。Eve 支持两类：偏确定性的——发一个查询、断言某个工具被调用了，比如天气智能体收到「天气如何」就该调用 Get Weather；以及 LLM as judge——让模型对响应打分，比如 DZero 可以对生成的 SQL 做评分，确认它查的是正确的表 [13:04 Andrew]。Eve 里的 eval 就是一个 define eval 函数，拿到一个测试函数接口，能通过 prompt 启动轮次、触发 human in the loop，等于智能体的完整编程接口。\n\n最能说明问题的是他们自己的用法：Eve 仓库的测试套件就是一整套 evals——他们用自己的 eval 框架测试 Eve 本身，「这基本上就是我们敢于一天多次发布新版本的信心来源」[14:26 Andrew]。\n\n主持人 KBall 追问了一个前沿方向：能不能把 evals 从「护栏」（确保所信为真）推进到「把 prompt 变成优化函数」——用 evals 定义期望结果，再让模型在循环里迭代演化智能体。Andrew 坦言没从这个角度想过，但给了个实践性的答案：因为 Eve 包内附带了对 LLM 友好的文档并「提示」你该用 evals 测试，如果你用编码智能体来构建 Eve 智能体，它迭代时就会自己写并运行 evals；他没见过它先写 eval 再写实现，但「你应该能拿到非常接近那个的东西」[15:37 Andrew]。\n\n这里还有个普适经验：模型训练数据里的框架版本都是旧的，而 Eve 对模型来说完全不存在，所以他们花大力气让包自带 LLM 友好文档，还把 changelog 打进包里——智能体发现自己用的是 0.2 版、changelog 已经到 0.5，就直接看 diff。对一个 pre-1.0、每周都在破坏兼容性的框架，这是让用户升级时「不发火」的主要手段 [19:35 Andrew]。\n\n## 权限与安全：多层设计，连「看得到什么」都能按人切换\n\n因为一开始就瞄准企业市场，权限在很早就内置了。频道层先解决「你是谁」——Slack 场景下就是工作区 ID 加用户 ID；你在 Eve 里写代码的任何地方都拿到一个 context 对象，告诉你这一轮的当前用户是谁、发起这一轮的用户是谁——两者可以不是同一个人，不同的人可以在不同时间跟进 [22:05 Andrew]。更细一层是工具审批：你只需声明某个工具「总是要求审批」，审批消息会以人机协同的形式渲染在调用来源的渠道上——从 Slack 进来就在 Slack 里渲染，从 SMS 进来就是另一种形态；提问的人、请求审批的人、给审批的人都可以不是同一个人，怎么处理由你写代码决定。\n\n最有意思也最难的一层是「怎么看得到该看的」：DZero 能访问 Vercel 的整个数据湖，CEO Guillermo 能查的数据我未必该查。Eve 为此提供了一个叫 DefineDynamic 的高级 API，可以根据当前调用者动态解析出不同的工具集、连接集——我是发起人时就字面意义上不暴露某个工具 [23:45 Andrew]。Andrew 承认连 Vercel 自己都还没完全解决这层问题。\n\n## 谁在用：从挠自己的痒处开始\n\nChar 介绍了采用情况：最初瞄准企业是因为需求都来自那里，加上「挠自己的痒处」——Vercel 内部所有智能体都跑在 Eve 上，现在有数百个。发布后很快有数千外部用户采用，不止企业客户，hobby 和 pro 用户都有，用例从企业自动化业务职能，一直到爱好者周末搭一个 iMessage 多人游戏智能体 [25:05 Char]。\n\n职能分布最初偏工程，后来 go-to-market 团队把所有东西都搬上了 Eve，市场部用它做内容创作和社交媒体自动化，产品团队把文档喂给智能体回答内外部问题、有时直接在 Slack 上分享给客户。非工程团队用法上浮出三种模式：最常见的对话式智能体（主要走 Slack，Vercel 是一家 Slack 公司）；后台智能体（跑报告然后发到 Slack 或邮件）；以及智能体驱动的 web 应用——前端是普通应用，背后由智能体驱动，GTM 团队是这种的大用户 [28:05 Char]。应用侧的真实例子：一个开源 CRM，用户添加线索的姓名和邮箱后，后台智能体自己去研究线索并完成整个流程；还有一个 AI 音乐制作工具，你设定节拍、智能体与你在站点上协作完成音乐 [30:34 Char]。\n\n## 基础设施：会话即工作流，15 分钟超时怎么跑出无限时长\n\n云端规模化最硬核的部分在这。Eve 构建在 Vercel 的 workflow 之上——Andrew 说这基本上是他们版本的 Temporal（一个把长流程做成可持久化、可恢复的工作流的系统）。建模方式是：单个工作流就是单个 Eve 会话，每个会话与其他会话完全隔离；一千个会话和一个会话对你来说不该有区别，「云应该替你做这件事」[35:31 Andrew]。\n\n一个巧妙的细节：Eve 跑在无服务器函数上，而这类函数历来有 15 分钟超时，智能体显然会跑得更久。Eve 的解法是——每次调用一个工具，就切换到另一个函数继续这个工作流，因为每次工具调用本来就是一个同步中断点。今天他们实际上为每一个步骤都切换新函数，只要工作流足够快，你感觉不到，智能体因此可以实际无限期运行下去 [36:21 Andrew]。\n\n与 Next.js 的整合是明确主张：Next 有 pages 目录和新的 app 目录，Eve 的 agent 目录被设计成「必须开箱即用」，可以就放在你的 Next.js 应用旁边；但也可以独立部署、通过 HTTP 连接——Eve 返回一个持久化流，能驱动任何 UI。他们内部对它的定位很干脆：「EVE 是一个后端框架，不是前端框架」[29:28 Andrew]。发消息时还可以指定输出 schema，Eve 会生成一个 SubmitResult 工具来验证 schema，产出不符就回提示让模型重做，于是你可以「用智能体方式生成」UI 需要的那种形状的数据。\n\n## 记忆与自我进化：Andrew 当前最大的工作\n\n持久化记忆是 Andrew 说自己「现在正在做的最大的一件事」，全部以 PR 形式开放。设计上是一个一等公民的 Memory 目录，里面可定义多个记忆槽位（slot）：比如一个全局槽位、一个只属于你个人的槽位、甚至频道加用户的槽位，智能体据此有多个记忆库可读写。关键护栏是确定性：经典反例是你几乎永远不想要一个接收用户 ID 作为参数的工具调用——你不想让智能体去「猜」用户 ID；绑定到记忆槽位的工具把身份在底层注入函数调用，它就猜不错了 [40:37 Andrew]。\n\n暴露机制采用了 provider（提供者）模式：Eve 确定性地调用三个函数——recall（回忆）、save（保存）和 tools——provider 想怎么做完全随意。随框架发布的文件 provider 极简：recall 把记忆文件整个作为上下文返回，save 完全不实现，工具只有「添加记忆」和「遗忘记忆」，改动后重新存到 blob 存储。而第三方 SuperMemory 这类 provider 形态完全不同：它们可能不暴露任何工具，而是在确定性的 save 时机拿走消息历史、自己跑一个智能体流程决定存什么，recall 也是基于入站消息做智能体检索 [42:23 Andrew]。recall 在循环每一轮都会被调用，还在 compaction（上下文压缩）之后再次调用——因为压缩不保证保留你的记忆，像 SuperMemory 可以检查压缩后的内容决定是否重新注入。默认注入方式是追加 user 角色（避免打破提示词缓存），也可改成 system 角色，代价是每次增删都打破缓存。\n\n自我进化则是另一条路：不像 Hermes 那类可以就地改自己代码再重启的东西，Eve 选择深度依托 Git——做一个可定义的编码子智能体，给它配好带代码库的沙箱和提示词，目标实际上是「让它对自身开 PR」[39:31 Andrew]。主持人和 Andrew 都认可这个模型的好处：监督级别完全由你配置——想让它自行合并就建自动化，想全走重度人工审查也一样配置。\n\n## 愿景与边界\n\nAndrew 的愿景是一条设计原则：「我们要押注模型会变得更聪明」。他们见过很多智能体框架纵向膨胀、代码越来越多、最后变成一堆确定性工作流 API、不太像智能体了；Eve 反向选择横向走——给模型提供更多东西（目录结构、skills、文档），让它自己做对决策 [48:00 Andrew]。\n\nChar 的说法更激进：「创建公司就是在构建智能体」。EVE 比你的公司注册证书更根本——智能体早于你的网站、域名甚至公司注册；你从智能体开始，它逐步为你构建软件工厂，包括完整的软件开发生命周期，你的工作是微调那座工厂，而 EVE 有望成为公司未来的大脑 [48:55 Char]。\n\n主持人立刻追问了 lock-in 问题。Andrew 回应：已有客户在 Kubernetes 上甚至自己的硬件上跑 Eve，靠的是 workflow 里「world」的抽象——只要能为你的基础设施定义一个 world（他们自己测试就跑 Postgres world、本地 world 等多种），就能自托管。记忆、自我进化这类能力的关键是尽早定好适配器契约——比如动态调度在 Vercel 上是一等公民，但自托管得自己引入实现——不能等它在 Vercel 上跑通之后才事后补 [49:36 Andrew]。\n\n开源贡献模式上还有个真实的尴尬：测试套件要调用模型、真实部署项目、用一堆密钥，所以外部贡献的 PR 没法直接跑测试——他们得小心拉进沙箱确认无恶意，再以合著者名义用自己账号重新提交才能跑。他们内部甚至有 Eve 智能体每天分析这些 PR、挑出该接纳的。而整个 EVE 团队从三月到七月中旬其实只有两个人全职，刚又招了四人，现在工程侧约六人 [46:09 Andrew]。\n\n## 本集带走\n\n- **一个 instructions.md 就是一个智能体**：Eve 用目录结构声明式定义智能体，配置编译成基础设施即代码，加 skills 得沙箱、加 schedules 得定时事件——平台只供给你用到的。\n- **skills 是渐进式披露**：不用把所有上下文塞给模型，只给「何时该用」的提示，模型自己决定何时深入拉取；DZero 九成内容都是 skills。\n- **evals 当测试套件用**：Eve 用自己的 eval 框架测 Eve，一天多次发版靠它兜底；确定性断言（工具被调用）+ LLM as judge（给 SQL 打分）两级都要有。\n- **会话即工作流**：每个会话对应一个可持久化、可恢复的工作流；靠「每次工具调用切换新函数」绕过无服务器 15 分钟超时，智能体可无限期运行。\n- **权限分层做**：频道层认身份、context 对象区分提问者与发起者、工具审批随渠道渲染、DefineDynamic 按调用者切换工具集——核心原则是把权限做成智能体之下的确定性层，别让模型猜用户 ID。\n- **记忆用 provider 模式解耦**：Eve 只确定性调用 recall/save/tools 三个钩子，简单文件 provider 和 SuperMemory 式的服务端智能体检索可以共存；默认追加注入以免打破提示词缓存。\n- **自我进化走 Git 开 PR**：智能体改自己靠编码子智能体对自身仓库开 PR，监督级别（自合并到全人工审查）由你配置。\n- **押模型变聪明，不押框架变厚**：框架横向走（给模型更多材料），避免长成满是确定性的工作流 API。",
+  "quotes": [
+    {
+      "en": "So the classic example is you almost never want a tool call that takes in a user ID, for example.",
+      "zh": "一个经典的例子是：你几乎永远不想要一个接收用户 ID 作为输入的工具调用。",
+      "timestamp": "41:20",
+      "speaker": "Andrew Barba"
+    },
+    {
+      "en": "Yeah, for me, I mean, one of the very early principles behind Eve was we're going to bet on the models getting smarter.",
+      "zh": "对我来说，Eve 背后很早期的一条原则就是：我们要押注模型会变得更聪明。",
+      "timestamp": "48:00",
+      "speaker": "Andrew Barba"
+    },
+    {
+      "en": "I think a lot of other agent frameworks that we had seen, they scaled vertically where they just appeared to get more and more code.",
+      "zh": "我们见过的很多其他智能体框架是纵向扩展的——代码看起来越堆越多。",
+      "timestamp": "48:11",
+      "speaker": "Andrew Barba"
+    },
+    {
+      "en": "So the idea is that EVE is more fundamental than your certificate of incorporation.",
+      "zh": "所以这个想法是：Eve 比你的公司注册证书更根本。",
+      "timestamp": "49:03",
+      "speaker": "Shar Dara"
+    },
+    {
+      "en": "So your agent predates your websites, your domain name, and even incorporating the company.",
+      "zh": "你的智能体早于你的网站、你的域名，甚至早于注册公司。",
+      "timestamp": "49:09",
+      "speaker": "Shar Dara"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:35",
+      "speaker": "Andrew",
+      "en": "The example I love to give is, you know, let's take an OpenClaw and let's take an Eve agent and let's let a thousand people send a prompt at the exact same time and what, you know, what's going to happen.",
+      "zh": "我最喜欢举的例子是：拿一个 OpenClaw 和一个 Eve 智能体，让一千个人在同一时刻发送提示词，看看会发生什么。"
+    },
+    {
+      "timestamp": "08:48",
+      "speaker": "Andrew",
+      "en": "But at its core, it is effectively, we call it ChatGPT in a box.",
+      "zh": "但就其核心而言，我们把它叫做「盒装 ChatGPT」。"
+    },
+    {
+      "timestamp": "08:53",
+      "speaker": "Andrew",
+      "en": "If you drop in an instructions.md, you are getting a frontier model as trained, and you're getting a cloud-hosted version of it.",
+      "zh": "你只要放入一个 instructions.md，得到的就是一个按原始训练状态运行的前沿模型的云端托管版本。"
+    },
+    {
+      "timestamp": "14:38",
+      "speaker": "Andrew",
+      "en": "So we actually use our eval framework to test EVE.",
+      "zh": "所以我们实际上是用自己的 eval 框架来测试 Eve。"
+    },
+    {
+      "timestamp": "14:38",
+      "speaker": "Andrew",
+      "en": "And that is basically what gives us the confidence to ship new versions many times a day.",
+      "zh": "这基本上就是我们敢于一天多次发布新版本的信心来源。"
+    },
+    {
+      "timestamp": "15:41",
+      "speaker": "Andrew",
+      "en": "But if you use a coding agent to build your Eve agent, I think you'll find that it will actually write and run evals while it's iterating.",
+      "zh": "但如果你用一个编码智能体来构建你的 Eve 智能体，你会发现它实际上会在迭代过程中自己编写并运行 evals。"
+    },
+    {
+      "timestamp": "20:23",
+      "speaker": "Andrew",
+      "en": "And especially for a framework that's pre-1.0, it's critical because we're breaking stuff every week.",
+      "zh": "尤其对一个还没到 1.0 的框架来说，changelog 至关重要，因为我们每周都在破坏东西。"
+    },
+    {
+      "timestamp": "22:08",
+      "speaker": "Andrew",
+      "en": "And Eve was designed to be multiplayer from the beginning.",
+      "zh": "而且 Eve 从一开始就是为多人场景设计的。"
+    },
+    {
+      "timestamp": "23:59",
+      "speaker": "Andrew",
+      "en": "So for example, let's take D0.",
+      "zh": "比如我们拿 D0 来举例。"
+    },
+    {
+      "timestamp": "24:07",
+      "speaker": "Andrew",
+      "en": "And so if Guillermo is asking a question, he may have access to things that when I ask the question that I shouldn't, right?",
+      "zh": "所以如果 Guillermo 问一个问题，他可能能访问到一些我问同样问题时按理不该访问的东西，对吧？"
+    },
+    {
+      "timestamp": "30:22",
+      "speaker": "Andrew",
+      "en": "So the way we think about it internally is EVE is a back-end framework.",
+      "zh": "我们内部对它的理解是：Eve 是一个后端框架。"
+    },
+    {
+      "timestamp": "31:11",
+      "speaker": "Andrew",
+      "en": "And the Eve agent really is like the backend brain behind the scene.",
+      "zh": "而 Eve 智能体真的就像是幕后的大脑。"
+    },
+    {
+      "timestamp": "36:54",
+      "speaker": "Andrew",
+      "en": "And so as long as workflow gets faster and continues to be performant, you don't notice this, and the agents can effectively run indefinitely.",
+      "zh": "所以只要工作流持续保持高性能，你就不会注意到这一点，而智能体实际上可以无限期地运行。"
+    },
+    {
+      "timestamp": "38:08",
+      "speaker": "Andrew",
+      "en": "The idea is you just deploy the out-of-the-box agent and it just starts getting better as it works with you.",
+      "zh": "理念是：你只需部署开箱即用的智能体，它就会在与你共事的过程中变得越来越好。"
+    },
+    {
+      "timestamp": "39:56",
+      "speaker": "Andrew",
+      "en": "But the goal is to effectively just open PRs against itself.",
+      "zh": "但目标实际上是让它对自身开 PR。"
+    },
+    {
+      "timestamp": "41:26",
+      "speaker": "Andrew",
+      "en": "So the classic example is you almost never want a tool call that takes in a user ID, for example.",
+      "zh": "一个经典的例子是：你几乎永远不想要一个接收用户 ID 作为输入的工具调用。"
+    },
+    {
+      "timestamp": "41:39",
+      "speaker": "Andrew",
+      "en": "You want all of those permission and other related things to be deterministic under the layer of what the agent does.",
+      "zh": "你会希望所有这些权限以及相关的东西，在智能体所做的事情之下那一层是确定性的。"
+    },
+    {
+      "timestamp": "48:00",
+      "speaker": "Andrew",
+      "en": "Yeah, for me, I mean, one of the very early principles behind Eve was we're going to bet on the models getting smarter.",
+      "zh": "对我来说，Eve 背后很早期的一条原则就是：我们要押注模型会变得更聪明。"
+    },
+    {
+      "timestamp": "48:19",
+      "speaker": "Andrew",
+      "en": "I think a lot of other agent frameworks that we had seen, they scaled vertically where they just appeared to get more and more code.",
+      "zh": "我们见过的很多其他智能体框架是纵向扩展的——代码看起来越堆越多。"
+    },
+    {
+      "timestamp": "49:03",
+      "speaker": "Char",
+      "en": "So the idea is that EVE is more fundamental than your certificate of incorporation.",
+      "zh": "所以这个想法是：Eve 比你的公司注册证书更根本。"
+    },
+    {
+      "timestamp": "49:09",
+      "speaker": "Char",
+      "en": "So your agent predates your websites, your domain name, and even incorporating the company.",
+      "zh": "你的智能体早于你的网站、你的域名，甚至早于注册公司。"
+    }
+  ],
+  "voice_script": "今天这期聊的是一个新开源的东西——Vercel 出的云原生智能体框架,叫 Eve。讲这件事的两个人都来自 Vercel:一个是技术团队成员 Andrew Barba,一个是 Eve 的产品负责人 Char Dara,这俩人以前还一起带过 Vercel 的计费团队,今年二月开始做 Eve。那这个问题是怎么来的呢?主持人 Kevin Ball 一上来就问到点子上了:你现在用的智能体,大多是「一人一进程」——自己在电脑上跑一个 Claude Code、Codex 之类的工具。可一旦智能体要服务一家企业,成千上万个请求同时进来,每个会话都得隔离、持久、能恢复,本地这套模式就完全撑不住了。\n\n「云原生」到底什么意思?Andrew 打了个比方:拿一个 OpenClaw 和一个 Eve 智能体,让一千个人同一时刻发提示词——OpenClaw 会垮,Eve 会横向扩展、快速并行拉起这些 harness,也就是承载模型、连接工具的运行壳,会话之间互相隔离、可恢复、可重试,背后一整套机制兜着。所以它既能做万人企业的内部智能体,也能支撑一家把智能体当主产品的公司。\n\n那 Eve 是怎么长出来的呢?它不是凭空设计的。Vercel 内部最早的全员智能体,是一个叫 DZero 的数据智能体——你问它「有多少月活用户」,它靠一整层语义文件来理解各种缩写和术语的含义。团队发现,把 DZero 稳定跑在 Vercel 上,要手工搭一大堆系统;而 DZero 下面这一大层,之后每个智能体都会需要。于是有了两个激进的决定:第一,用声明式的文件系统来定义智能体;第二,最初干脆「没有代码」——Eve 纯粹就是英文、Markdown、文本文件。所以 Eve 的形态就是一个目录。最简单的 Eve 智能体,可以只是一个 instructions.md 文件——放进一个指令文件,你就得到一个云端托管的前沿模型,团队自嘲管这个叫「盒装 ChatGPT」。你写的配置会编译成一个清单文件,本质上是基础设施即代码:加了 skills 就配沙箱,定义了定时任务就配定时事件基础设施,平台只供给你实际用到的东西。\n\n顺着这个目录往下拆,Eve 的核心构件有这么几个。instructions 是智能体的身份;skills 是一种「渐进式披露」机制——不用把所有上下文塞给模型,只给一个「何时该用」的提示,模型自己判断什么时候需要深入了解,再去拉取额外内容,DZero 有大约九成都是 skills。再往上是 tools,用来跑确定性代码、拉确定性数据;connections 是 tools 的特化版,专用于 MCP 这种让模型接入外部工具的协议,丢进去一个网址就自动暴露那些工具。更上面还有 channels,也就是智能体的所有调用入口——默认是一个 HTTP 路由,也可以接 Slack、Teams、GitHub 这些渠道。还有子智能体,最简单的用途是上下文管理,把大任务分出去独立处理;但在 Vercel 内部,这被玩成了组织结构——比如 DZero 本身就是另一个智能体的子智能体,由数据团队拥有。\n\nChar 特别兴奋的一点,是评测在 Eve 里是一等公民。评测分两类:偏确定性的——发一个查询,断言某个工具被调用了;还有让模型给响应打分的——比如 DZero 可以对生成的 SQL 打分,确认它查的是正确的表。最能说明问题的,是他们自己的用法:Eve 仓库的测试套件,就是一整套评测。说白了,他们用自己的评测框架测试 Eve 本身,原话是「这基本上就是我们敢于一天多次发布新版本的信心来源」。\n\n那云端规模化最硬核的部分在哪呢?在基础设施。Eve 构建在 Vercel 的 workflow 之上,Andrew 说这基本上是他们版本的 Temporal——一个把长流程做成可持久化、可恢复的工作流的系统。建模方式很直接:单个工作流就是单个 Eve 会话,一千个会话和一个会话,对你来说不该有区别,「云应该替你做这件事」。这里还有个巧妙的细节:无服务器函数历来有 15 分钟超时,而智能体显然会跑得更久。Eve 的解法是——每调用一个工具,就切换到另一个函数继续这个工作流,因为每次工具调用本来就是一个同步中断点。今天他们实际上为每一步都切换新函数,只要工作流足够快,你感觉不到,智能体因此可以无限期运行下去。\n\n既然瞄准企业市场,权限和安全就得很早内置。最粗的一层在频道,先解决「你是谁」;再细一层是工具审批,声明某个工具「总是要求审批」,审批消息会以人机协同的形式渲染在调用来源的渠道上——从 Slack 进来就在 Slack 里审批。最有意思也最难的一层,是「怎么看得到该看的」:DZero 能访问 Vercel 的整个数据湖,CEO 能查的数据,普通员工未必该查。Eve 为此提供了一个叫 DefineDynamic 的高级 API,可以根据当前调用者动态解析出不同的工具集——发起人是谁,就只暴露谁该看到的工具。Andrew 自己也承认,连 Vercel 都还没完全解决这层问题。\n\n还有一件正在进行的最大工作:持久化记忆。设计上是一个一等公民的 Memory 目录,里面可以定义多个记忆槽位——全局的、只属于你个人的、甚至频道加用户的。这里有条关键护栏是确定性,原话是:你几乎永远不想要一个接收用户 ID 作为输入的工具调用——你不想让智能体去「猜」用户 ID。绑定到记忆槽位的工具,把身份在底层注入函数调用,它就猜不错了。\n\n把这一切串起来,其实是 Eve 很早期的一条设计原则,Andrew 的原话:「我们要押注模型会变得更聪明」。他们见过很多智能体框架纵向膨胀,代码越堆越多,最后变成一堆确定性工作流 API,不太像智能体了;Eve 反着走,横向给模型提供更多东西——目录结构、skills、文档——让它自己做对决策。Char 的说法更激进:你的智能体早于你的网站、你的域名,甚至早于注册公司,Eve 比你的公司注册证书更根本。所以如果只记一句话,就记这个:Eve 押的不是框架变厚,而是模型变聪明。"
+}

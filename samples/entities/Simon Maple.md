@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[可观测性]] · [[TESL]] · [[沙箱]] · [[护栏]] · [[技能]] · [[Guy Pajani]] · [[上下文]] · [[验证器]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"智能体":253,"可观测性":20,"TESL":4,"沙箱":49,"护栏":48,"技能":15,"Guy Pajani":3,"上下文":15,"验证器":5,"harness":34}</script>
+<script type="application/json" class="pd-epn">{"智能体":257,"可观测性":21,"TESL":4,"沙箱":50,"护栏":49,"技能":16,"Guy Pajani":3,"上下文":15,"验证器":5,"harness":35}</script>
 
 <script>
 (function(){

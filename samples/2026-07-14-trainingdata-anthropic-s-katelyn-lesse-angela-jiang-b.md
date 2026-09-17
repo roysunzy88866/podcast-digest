@@ -131,7 +131,7 @@ Angela 补充了底层逻辑：两年前 harness 是脚手架，要砌两面墙�
 
 - [[2026-08-11-talks-evolution-of-agentic-surfaces-gagan-bhat|Anthropic 构建生产级智能体的教训:harness 须为模型能力演进而生]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Managed Agents、上下文工程 (context engineering)、工具套件 (harness)、智能体 (agent)、Messages API</span>
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同公司:Anthropic · 同概念:工具套件 (harness)、提示词缓存 (prompt caching)、智能体 (agent)、记忆 (memory)、评测 (evals)</span>
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Tag、工具套件 (harness)、智能体 (agent)、记忆 (memory)</span>
+- [[2026-09-17-sed-scaling-agent-workloads-at-vercel|把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve]]<span class="pd-rz">同公司:Vercel · 同概念:MCP、技能 (skills)、智能体 (agent)、记忆 (memory)、评测 (evals)</span>
 
 </div>
 <div class="pd-ex">

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Aaron Levie]] [[Greg Brockman]] [[Tim Sanders]] [[Craig]] [[Claire Vo]] [[Peng Zheng]]
+[[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]] [[Bohan Li]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":7,"智能体":253,"多智能体架构":1,"智能体控制框架":1,"AI 模型":1,"开源权重":7,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":48}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":8,"智能体":257,"多智能体架构":1,"智能体控制框架":1,"AI 模型":1,"开源权重":7,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":49}</script>
 
 <script>
 (function(){
