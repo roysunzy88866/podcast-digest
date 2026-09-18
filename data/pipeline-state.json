@@ -92,21 +92,23 @@
     "MBHOH1NmDqc": "2026-09-15-talks-realtime-voice-agents-with-frontier-inte",
     "OpY6MmZFeHo": "2026-09-15-talks-voice-agents-can-just-do-things-charlie",
     "qStB9GbppMU": "2026-09-15-talks-i-monitored-crime-audio-voice-agents-sca",
-    "xLUQOqjudtA": "2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz"
+    "xLUQOqjudtA": "2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz",
+    "vblnYHzBgS4": "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
     "2026-09-03-changelog-forking-cal-com-to-closed-source": 1
   },
   "audioWanted": {
-    "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7419234216.mp3"
+    "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7419234216.mp3",
+    "2026-09-17-pragmatic-ai-skills-with-matt-pocock": "https://api.substack.com/feed/podcast/215854309/58f711af76405b52f81c0c380a5deed7.mp3"
   },
   "transient": {
     "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds": 1,
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
-    "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti": 2,
-    "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1
+    "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
+    "2026-09-17-pragmatic-ai-skills-with-matt-pocock": 1
   },
   "cutoffs": {
     "lennys": "2026-09-08T12:31:49.000Z",
@@ -148,7 +150,7 @@
     "iltb": "2026-09-16T08:00:00.000Z",
     "generalist": "2026-09-08T11:00:00.000Z",
     "sed": "2026-09-17T06:00:00.000Z",
-    "twist": "2026-09-14T21:13:00.000Z",
+    "twist": "2026-09-15T23:00:00.000Z",
     "grit": "2026-09-07T09:38:47.000Z",
     "mos": "2026-09-17T09:00:00.000Z",
     "strictlyvc": "2026-09-15T15:17:00.000Z"
@@ -1203,6 +1205,18 @@
       "reason": "题材不对味:主题是加密货币/FTX 诈骗与监管,非 AI 的商业、人物或产业面",
       "title": "Former SEC Official on FTX, Crypto & Silicon Valley’s Fraud Problem",
       "pubDate": "2026-09-17T20:43:55.000Z"
+    },
+    {
+      "id": "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "90% of AI prototypes never reach production (w/ Temporal's Samar Abbas) | AI Basics",
+      "pubDate": "2026-09-15T23:00:00.000Z"
+    },
+    {
+      "id": "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "5 Voice Agent Failure Modes You'll Hit in Week One — Venky B, Plivo",
+      "pubDate": "2026-09-15T00:00:00.000Z"
     }
   ]
 }
