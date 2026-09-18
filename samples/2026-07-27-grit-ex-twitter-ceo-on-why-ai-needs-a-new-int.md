@@ -187,7 +187,7 @@ Parag 当天就打电话给 Mamoon 认错求助。于是 Liam 作为局外人进
 
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|Parag：为什么智能体搜索不该照搬人类那一套]]<span class="pd-rz">同公司:Parallel、Twitter · 同概念:智能体 (agent)</span>
 - [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注]]<span class="pd-rz">同公司:Harvey · 同概念:智能体 (agent)</span>
-- [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网]]<span class="pd-rz">同公司:Parallel · 同概念:智能体 (agent)</span>
+- [[2026-08-11-talks-how-harvey-built-a-research-lab-on-a-bud|应用公司如何低成本建自己的AI研究实验室：Harvey 的实战手册]]<span class="pd-rz">同公司:Harvey · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

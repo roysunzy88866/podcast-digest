@@ -1,0 +1,518 @@
+{
+  "episode_id": "2026-08-12-talks-rl-environments-explained-how-ai-agents",
+  "podcast": "精选演讲",
+  "date": "2026-08-12",
+  "tags": [
+    "RL 环境",
+    "后训练",
+    "智能体数据",
+    "合成数据",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "brendan-foody",
+      "type": "person",
+      "role": "host",
+      "name": "Brendan Foody",
+      "file": "Brendan Foody",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "mercor",
+      "type": "company",
+      "role": "concept",
+      "name": "Mercor",
+      "file": "Mercor",
+      "primary": true,
+      "how_described": "本集主角公司:四个月内收入运行率从 10 亿涨到 20 亿美元,是所有领先实验室与应用层公司(Harvey、Sierra、Cognition、RAMP)的首要智能体数据供应商,第一个大项目是 DeepResearch。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            42.893,
+            58.882
+          ],
+          "quote": "Starting out, I figured it's helpful to give a little bit of the background on the history of the data market and how that history ties into Mercor's origin story, where things really started in 2020 in the era of crowdsourcing data for behavior cloning.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "rl-environments",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL 环境 (RL environments)",
+      "file": "RL 环境",
+      "primary": true,
+      "how_described": "本集核心概念:由世界(真实项目材料)、应用(热门软件的高保真克隆,如 Salesforce、Microsoft 365)和任务(提示词+验证器)三部分组成,既用于评测也用于训练。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.36,
+            30.763
+          ],
+          "quote": "He's going to talk about RL environments in particular, which I think is a new frontier topic that'll be fun to explore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            40.671,
+            42.192
+          ],
+          "quote": "So I'll be talking about RL environments.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 15,
+          "t": [
+            98.046,
+            107.488
+          ],
+          "quote": "of how do we find the highest skilled experts in the world that can work collaboratively in teams to build frontier evals and RL environments for the next generation of models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 18,
+          "t": [
+            142.466,
+            163.399
+          ],
+          "quote": "And what's been really exciting over the last 12 months especially is how RLVR within the agentic data paradigm has evolved to also include RL environments with these rich apps and worlds that teach agents how to use all of the tools on our laptops that we use every day.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 94,
+          "t": [
+            731.708,
+            736.512
+          ],
+          "quote": "So that's a little bit of the background of how to build RL environments, what they are,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 150,
+          "t": [
+            1087.678,
+            1092.8
+          ],
+          "quote": "My question is, RL environments seem like they're all the rage now, and maybe have been for about a year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            1098.641,
+            1102.702
+          ],
+          "quote": "And so why is it all about RL environments now?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1106.283,
+            1108.083
+          ],
+          "quote": "And is there going to be something after RL environments?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1370.387,
+            1388.739
+          ],
+          "quote": "So when we think about RL environments for certain provable domains like cyber defense or incident response, where the modelist or the agent is trying to find a flaw in an existing system, do you use humans for just authoring that environment or setting it up, or do you also use that for grading?",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集说在 Apex Agents 的 1800 个任务、约 50 万算力上对 GLM 4.7 做后训练,公司法成绩从 4.7% 涨到 26.6%,并泛化到未训练过的基准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.313,
+            15.256
+          ],
+          "quote": "So it's companies off to the races, and I think you are just so front and center to how companies are thinking about post-training their own models, building their own intelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            534.829,
+            549.378
+          ],
+          "quote": "And so to give a little bit of context on what that looks like, I'll share an example of post-training on Apex Agents, which is the data set that I, or the sample I'd just shown before, where we have 1800 tasks in this example.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 68,
+          "t": [
+            549.678,
+            560.745
+          ],
+          "quote": "This was a post-training run of GLM 4.7, but we're redoing a lot of them for KimiK3, so we'll have updated results for you all soon, where you can see the jumps just on 1800 tasks with about 500k in compute.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1277.49,
+            1284.892
+          ],
+          "quote": "Have you found any success of being able to scale that up with your models, giving you some heuristic or even post-training models?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1524.974,
+            1531.9
+          ],
+          "quote": "They should rely on themselves as part of their RL post-training versus relying on what's the complementing?",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "verifiers",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证器 (verifiers)",
+      "file": "验证器",
+      "primary": true,
+      "how_described": "本集说验证器可以是评分细则或单元测试,构建难点在于理解完整问题空间;数据质量一半取决于验证器的准确性,靠轨迹分析保证打分与人类排名一致。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            207.862,
+            211.444
+          ],
+          "quote": "And then the third part is the tasks, where we have prompts and verifiers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 26,
+          "t": [
+            211.884,
+            216.267
+          ],
+          "quote": "Verifiers could be rubrics or unit tests that can be used either for eval or training.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 43,
+          "t": [
+            338.283,
+            350.288
+          ],
+          "quote": "And then building these verifiers is hard because anytime you're building this slide deck, you need to understand the full problem space of what are the 10 different slide decks that could be a good path to go down?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 64,
+          "t": [
+            491.38,
+            508.514
+          ],
+          "quote": "And so there's an enormous amount of research, agendic quality control, training on the data, et cetera, that goes into how you solve that problem and then ultimately produce these high quality verifiers and leaderboards that give you an aggregate model score across how well all the different models are doing on",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 123,
+          "t": [
+            880.937,
+            885.223
+          ],
+          "quote": "First is realism, and secondly is accuracy of verifiers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 130,
+          "t": [
+            921.498,
+            927.885
+          ],
+          "quote": "The second part of it relates to the other way people think about quality, which is the accuracy of the verifiers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1391.685,
+            1399.508
+          ],
+          "quote": "I actually think cyber is one where you don't necessarily always need humans for the verifiers because you can have an attacker and defender agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1417.136,
+            1422.38
+          ],
+          "quote": "But then it's less human intensive with respect to building verifiers.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成数据 (synthetic data)",
+      "file": "合成数据",
+      "primary": true,
+      "how_described": "本集说 RLVR 本质上就是押注合成数据——展开合成的模型轨迹并打分让模型学习;模型深度参与填充环境,但衡量模型前沿之外的东西仍离不开人类。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            998.092,
+            1008.056
+          ],
+          "quote": "So the fascinating thing is I think that there's been a lot of misinterpretation of what people mean when they say synthetic data because like RLVR is a bet on synthetic data.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ultra-long-horizon",
+      "type": "concept",
+      "role": "concept",
+      "name": "超长时程 (Ultra Long Horizon)",
+      "file": "超长时程",
+      "primary": true,
+      "how_described": "本集说这是数据格局未来最大的演变方向之一:现在智能体大多没被训练做超过 10 小时的事,要开始为人类需要 100 甚至 1000 小时的任务构建训练。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            1198.184,
+            1200.605
+          ],
+          "quote": "The first one is Ultra Long Horizon.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "virtual-coworkers",
+      "type": "concept",
+      "role": "concept",
+      "name": "虚拟同事 (virtual coworkers)",
+      "file": "虚拟同事",
+      "primary": true,
+      "how_described": "本集说工作中 60-70% 的任务需要与他人互动,但评估里衡量模型与人互动能力的只占约 1%,存在巨大的现实差距,是下一个重大转变。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            1214.331,
+            1220.574
+          ],
+          "quote": "And then the other large shift that we're seeing is introducing virtual coworkers, which corresponds to that.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "rlhf",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLHF",
+      "file": "RLHF",
+      "primary": true,
+      "how_described": "本集说它是 2020 年众包时代的数据形态:标注者从几个模型回答中选出更偏好的那一个,后来被智能体数据时代取代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            58.902,
+            63.965
+          ],
+          "quote": "So this was mainly supervised fine-tuning data, inputs and outputs, and RLHF data.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agentic-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体数据时代 (agentic data)",
+      "file": "智能体数据时代",
+      "primary": true,
+      "how_described": "本集说 2024 年起市场从低技能众包的行为克隆数据,转向寻找全球技能最高的专家(工程师、律师、医生、银行家)组队构建前沿评测和 RL 环境的智能体数据时代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            70.272,
+            80.884
+          ],
+          "quote": "And we were able to make all this progress in fine-tuning GPT-3, making progress towards ChatGPT and GPT-4 in the crowdsourcing era of agentic data.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 17,
+          "t": [
+            120.091,
+            141.225
+          ],
+          "quote": "Mercore grew up with our first big project being DeepResearch, I guess the first prominent RL agent, scaling up dramatically with all of the frontier labs to become the primary agentic data vendor to all of the leading labs and also all of the leading application layer companies ranging from Harvey, Sierra, Cognition to RAMP.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 18,
+          "t": [
+            142.466,
+            163.399
+          ],
+          "quote": "And what's been really exciting over the last 12 months especially is how RLVR within the agentic data paradigm has evolved to also include RL environments with these rich apps and worlds that teach agents how to use all of the tools on our laptops that we use every day.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "base-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "基座模型 (base model)",
+      "file": "基座模型",
+      "primary": true,
+      "how_described": "本集说判断数据集对某个基座模型有没有训练价值,看 Pass@16 与 Pass@1 的差距:单次失败但 16 条轨迹里能对上一两次最理想,16 条全错基本无望。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1426.784,
+            1428.785
+          ],
+          "quote": "How can you tell when you're limited by the base model?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1502.041,
+            1511.15
+          ],
+          "quote": "So that's generally the heuristic we would use for how strong the base model needs to be to effectively learn from a GIPAA dataset.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "concept",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": false,
+      "how_described": "本集提到它是 Mercor 的客户之一,当年靠雇律师起家,现合作构建其法律领域的环境。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            120.091,
+            141.225
+          ],
+          "quote": "Mercore grew up with our first big project being DeepResearch, I guess the first prominent RL agent, scaling up dramatically with all of the frontier labs to become the primary agentic data vendor to all of the leading labs and also all of the leading application layer companies ranging from Harvey, Sierra, Cognition to RAMP.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 73,
+          "t": [
+            588.984,
+            605.209
+          ],
+          "quote": "We're doing a lot of this work of working with customers like Harvey, who I know will present on stuff later, to help build out the environments corresponding to their specific domain so that they can build frontier intelligence within that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 93,
+          "t": [
+            720.418,
+            731.668
+          ],
+          "quote": "So we do a little bit of that when people like that was how Harvey got started with us hiring some lawyers, but it generally moves towards more of these skilled offerings of data over time.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "concept",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集引用 Andrew 的说法:Cursor 是应用层公司构建行业领先模型的首个好例子,并预言未来 12 个月会出现几十个类似案例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            605.229,
+            617.633
+          ],
+          "quote": "And I think Andrew talked about how Cursor was a great first example of how an application layer company could build an industry-leading model that built an enormous amount of value for their customers.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "concept",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集在谈数据定价时顺带举例:NVIDIA 这样的公司可能愿意花 10 亿美元拥有一个前沿开源模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            794.462,
+            800.288
+          ],
+          "quote": "NVIDIA, they're probably willing to pay a billion dollars to have a frontier open source model.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

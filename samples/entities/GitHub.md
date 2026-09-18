@@ -73,7 +73,7 @@ unlisted: true
 
 [[智能体]] · [[Slack]] · [[Anthropic]] · [[Cursor]] · [[Claude Code]] · [[沙箱]] · [[MCP]] · [[OpenAI]] · [[Codex]] · [[Figma]]
 
-<script type="application/json" class="pd-epn">{"智能体":261,"Slack":26,"Anthropic":125,"Cursor":61,"Claude Code":62,"沙箱":50,"MCP":45,"OpenAI":120,"Codex":50,"Figma":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":262,"Slack":26,"Anthropic":125,"Cursor":62,"Claude Code":62,"沙箱":50,"MCP":45,"OpenAI":120,"Codex":50,"Figma":19}</script>
 
 <script>
 (function(){

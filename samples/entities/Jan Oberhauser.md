@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"n8n":1,"智能体":261,"工作流":8,"开源":22,"fair-code":1,"LLM":34,"人在回路":11,"自托管":1,"自带密钥":1,"编排":4}</script>
+<script type="application/json" class="pd-epn">{"n8n":1,"智能体":262,"工作流":8,"开源":22,"fair-code":1,"LLM":34,"人在回路":11,"自托管":1,"自带密钥":1,"编排":4}</script>
 
 <script>
 (function(){

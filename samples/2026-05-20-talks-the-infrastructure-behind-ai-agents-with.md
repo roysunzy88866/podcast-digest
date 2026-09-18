@@ -119,7 +119,7 @@ Base 10 的应对是一开始就押注分布式：他们今天跑在多家云、
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同概念:后训练 (post-training)、开源模型 (open source models)</span>
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同概念:后训练 (post-training)、推理 (inference)</span>
-- [[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl|LongLake：把AI塞进真实服务业务的笨办法]]<span class="pd-rz">同概念:后训练 (post-training)、持续学习 (continual learning)</span>
+- [[2026-08-11-talks-how-harvey-built-a-research-lab-on-a-bud|应用公司如何低成本建自己的AI研究实验室：Harvey 的实战手册]]<span class="pd-rz">同概念:后训练 (post-training)、开源模型 (open source models)</span>
 
 </div>
 <div class="pd-ex">

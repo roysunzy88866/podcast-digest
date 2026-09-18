@@ -1,0 +1,208 @@
+{
+  "title_zh": "应用公司如何低成本建自己的AI研究实验室：Harvey 的实战手册",
+  "tldr": "Harvey 联合创始人 Gabe 分享应用层公司如何借力前沿生态系统，构建基准数据集、与实验室合作后训练、并在生产环境大规模部署模型。",
+  "digest_md": "应用层公司想自己做模型研究，和前沿实验室（那些拥有海量资金、人才、算力和数据的顶尖 AI 公司）竞争，看起来是一场不公平的游戏。这一集的演讲者是 Gabe，Harvey 的联合创始人兼总裁，早年做过 DeepMind 的研究科学家。Harvey 是服务大型律所和企业法务的 AI 公司。他的核心主张是：靠「前沿生态系统」，应用公司今天也能做出前沿水平的智能——这套打法分为三步：建基准和数据、与实验室合作做后训练、在生产环境把模型服务好。\n\n## 第一步：先建基准，专家引导合成数据\n\n没有好的基准测试（benchmark，用来客观衡量模型能力的标准化考题）就没法训练模型——这是整条链路的地基。Harvey 今年发布了三个数据集：Legal Agent Bench（大律所初级律师任务的分类体系，涵盖起草基金设立文件、判例法研究等复杂任务）、一个教会智能体做法务谈判的合同数据集，以及他最兴奋的大型尽调（尽职调查，收购前对目标公司的全面审查）数据集——最大的数据室（data room，交易中所有合同与文件的总集）有 8000 万 tokens，是已发布的最大的 RL 环境（强化学习环境，让模型在其中反复练习并打分的场景）之一。\n\n最大的难题：Harvey 服务顶级律所，客户数据受特权保护、极度敏感，不能拿来训练——连放进自己的模型都不行。今年真正跑通的办法是**领域专家引导合成数据生成**。核心团队的 Brendan 打了个类比：就像工程师现在不再手写代码而是 vibe code（用自然语言引导 AI 写代码），Harvey 的律师也开始这样「引导」数据生成。Gabe 的弟弟是 Harvey 的律师，他培训了其他律师使用编码模型，能生成极其逼真的训练与评测数据集。\n\nQ&A 里他讲了最巧的一个案例：法律训练数据以前是无解的——公开的只有最终成果（比如购买协议），输入数据全不公开，而且真实数据室可能有一万份合同、必须相互契合，让律师手工造假数据室根本不现实。律所的 Julio 想出的办法是**从评分标准（rubric）倒着生成**：先埋好数据室里所有的问题（哪些合同对不上、哪份缺失）、检查项和场景，再据此生成整套数据，用 Mercor 和 Snorkel 把合同做得逼真。这样模型生成尽调备忘录后，就能对照检查「我们埋的问题你抓住了几个」。这破解了以前的死循环：律所说「先证明给我看」，Harvey 说「给我们数据」，律所说「不行」——现在不需要客户数据就能证明了。\n\n注意他说了：**合成数据还不够好，但它是入门方式**。之后与 Mercor、Snorkel 合作放大流程、构建更大的训练集。数据集变大后评估成本飙升——尽调数据集有超过一千个单元测试、用「LLM 当裁判」给模型输出打分，做大模型 rollout 非常烧钱，所以还要和 LangChain 等合作把这些环境做高效。\n\n开源这些数据集当时有争议，但理由很硬：除非很多人在你的数据集上训练，否则你不知道它好不好。他引自己在 Google Brain 和 DeepMind 的经验：最好的数据集都是开放的（ImageNet、CIFAR、MNIST），问题会被暴露出来。他们收到大量 pull request 和建议，越来越多实验室发布新模型时在他们数据集上做基准，而且「最重要的是，Elon 转发推文了」。\n\n## 第二步：与多家实验室合作做后训练\n\n为什么现在做后训练（post-training，在预训练模型基础上用自己的数据继续调教）值得了？因为过去预训练进步太快，你做的后训练很快被下一个预训练模型吸收掉；但现在 Kimi3、GLM 5.2、Nemotron 等开源基础模型已经足够强，针对特定任务后训练能逼近前沿智能——不是通用前沿智能，但在具体任务上有竞争力。\n\n入门方式是和实验室合作：他们有现成的专业知识、基础设施和配方；如果你跟他们合作还得不到更好结果，多半是你的数据集有问题。具体合作包括：与 Fireworks 训练 GLM 5.1 使用顾问模型、与 Base 10 做 KV 压缩、与 Engram 做企业搜索与公司知识、与 Trajectory 训练 Nemotron、与 Applied Compute 做 Vault 产品。\n\n**为什么要同时和多家实验室合作，而不是只挑一家？**因为研究项目比内部加单家实验室的带宽多，每家押注方向不同、研究思路不同、想训的开源模型也不同——合作越多学到越多。而且现在自己做后训练也前所未有地容易：Tinker 这样的 API、Fireworks 和 Base 10 建好的基础设施，加上后训练人才越来越多。受 Cursor 启发，这些努力的终局是打造他们自己版本的 Composer 1——把合成数据、Mercor 扩展、实验室合作打包成一个能与闭源模型并肩部署的自有模型。\n\n## 第三步：先把服务基础设施建好，再谈训练\n\nGabe 特别强调：别把应用公司想成「调一个模型端点的聊天产品」。Harvey 在 60 个国家运营、多个产品界面、客户各有模型偏好，仅闭源模型就要大规模服务：每个模型家族部署多个模型、跨提供商设备选方案（fallback）以保证 SLA。这套基础设施必须在考虑后训练**之前**就位——后训练模型和普通模型走的是同一套评测与监控体系。\n\n新模型（开源、闭源、自训）投不投产，靠一套分级闸门：投产前有实验室基准快速判断它是不是前沿模型、法律领域哪些方面强；有人工并排对比；每个产品界面有关键用户旅程和自动化产品测试（因为通用能力强的模型未必适配具体产品）；再加人工产品测试，以及成本、延迟、区域可用性的启发式规则。投产后：大变更做 A/B 测试、追踪用户参与度、看正常运行时间和 token 效率，以及他称之为「愤怒的客户邮件」的产品反馈。\n\n闸门的作用 Q&A 里有精彩说明：基准上表现不好的模型不太可能走得更远；但基准也会漏——模型可能在基准上过拟合，放进通用助手类产品、一超出分布就崩了。各阶段闸门就位后，哪里出问题会变得很明显。他还点明了一个前提：Harvey 是先用闭源模型找到产品市场契合、产品被生产环境使用多年，才建立起「端到端有效」的信心——后训练只是这个庞大系统的一个小输入，自训模型就当作「另一个新模型」喂进系统。\n\n## 投入训练前，先做两个简单的开源替换\n\n在服务模型之前还有更轻的起点：①**天真替换**——找产品里不需要最大模型的地方直接换开源模型，比如生成引用的部分换成 GLM 5.2，白拿成本或性能收益，顺便练出开源+闭源混合服务的能力；②**模型路由**（按查询特征把不同请求分发给不同模型）——不能整体替换的地方，让特定查询路由到开源模型。\n\n做完这些，后训练飞轮就转起来了：生产环境服务开源模型、收集反馈信号（注意他的警告：「收集反馈」绝不等于在客户数据上训练，而是从用户测试等渠道获得信号来指导未来数据集构建）。\n\n## 尚未解决的三个难题\n\nQ&A 中他坦承最大的开放问题：①**分布不匹配**——合成的尽调数据集再逼真也是「面向未来」的，产品实际用法五花八门（比如起草邮件），模型在尽调上强但换个任务可能就不行，而不看客户数据就没法弥合这个差距；②**长上下文管理**——8000 万 token 的数据室，模型目前管不好这种复杂环境，性能差距仍然很大；③**持续学习才是终局**——不是构建最好的法律模型，而是帮每家律所把系统定制成自己的工作方式：律所每处理一个客户事务、AI 系统就变好一点，同时保护客户数据。这是技术、运营和 AI 三重挑战。\n\n## 与通用产品的竞争：从个人生产力到组织生产力\n\n被问到如何与 Codex、Claude Code 这类通用产品竞争时，他的答案是**极度垂直**：通用产品聚焦个人生产力，而大律所的问题是「我有一万个客户项目要都做好、还要赚钱」——单个项目要做六个月、协调全所二三十人和所有外部方，越来越像「编排人类和智能体的项目管理」；组织层面则是一千个项目间的资源分配、计费与报价；财富 500 强客户更是同时对接一千家律所。这些是水平产品不会去做的东西。\n\n招人方面他也承认犯过错：创业初期凭在实验室的人脉去挖人，但对方拿着一亿美元以上的薪酬包，规模完全不匹配。现在两个变化让事情可行：越来越多博士生和不愿去大实验室的人出现；更关键的是 Tinker、Fireworks 这类 API 让你不必自建训练和服务基础设施——他以前的室友曾在 OpenAI 负责后训练，是他共事过最好的研究员之一，而那种「训练+服务基建全要自建」的稀缺人才需求已经不存在了，人才池因此打开。\n\nGabe 用《点球成金》收尾：连胜 20 场不重要，赢得总冠军才重要——「但如果我们用这个预算、这支队伍赢了，我们就改变了整个游戏。」他认为前沿生态系统给了所有应用公司同样的机会。\n\n## 本集带走\n\n- **顺序别乱**：基准 → 数据 → 服务基建 → 开源替换/路由 → 后训练飞轮。服务与评测基建要在后训练之前就位，自训模型当成「另一个新模型」走同一套闸门。\n- **训练数据没有？从评分标准倒着造**：先埋好任务里所有问题与检查项，再据此生成逼真输入数据，破解「要数据才证明、要证明才给数据」的死循环。\n- **领域专家 + vibe code 式引导**可以批量产合成数据；它不够好但是起点，再用 Mercor/Snorkel 放大规模。\n- **开源你的基准**：很多人用才能暴露问题，还能让实验室在新模型发布时帮你跑分。\n- **别只签一家实验室**：各家押注不同、配方不同，合作越多学越多；Tinker/Fireworks 这类 API 又让你能逐步自训。\n- **最轻的起步**：先找产品里不需要最强模型的地方直接换开源模型，再上模型路由——练出混合服务能力后再谈后训练。\n- **小心基准过拟合**：基准只是闸门之一，通用产品表现、参与度、成本延迟、客户反馈都要看。",
+  "quotes": [
+    {
+      "en": "And it's an unfair game competing with the Frontier Labs if you're an application layer company. There are rich teams, there are poor teams, and then there's us in the application layer.",
+      "zh": "如果你是一家应用层公司，与前沿实验室竞争是一场不公平的游戏。有富有的团队，有贫穷的团队，然后还有我们这些应用层的。",
+      "timestamp": "00:51",
+      "speaker": "Gabe Pereyra"
+    },
+    {
+      "en": "But today, using the Frontier ecosystem, I think you can compete with the Frontier Labs and build Frontier Intelligence.",
+      "zh": "但今天，利用前沿生态系统，我认为你可以与前沿实验室竞争，并构建前沿智能。",
+      "timestamp": "01:37",
+      "speaker": "Gabe Pereyra"
+    },
+    {
+      "en": "If you don't have a good benchmark, you can't train models. And if you can't train models, you don't need to serve them in production.",
+      "zh": "如果你没有一个好的基准测试，你就无法训练模型。而如果你不能训练模型，你就不需要在生产环境中部署它们。",
+      "timestamp": "02:07",
+      "speaker": "Gabe Pereyra"
+    },
+    {
+      "en": "We work with the largest law firms and enterprises, and their legal data is incredibly sensitive. It's privileged. And so you can't put it in generic models. We can't even put it in our models.",
+      "zh": "我们与最大的律师事务所和企业合作，他们的法律数据极其敏感，受特权保护。所以你不能把它放进通用模型里——我们甚至不能把它放进我们自己的模型里。",
+      "timestamp": "03:21",
+      "speaker": "Gabe Pereyra"
+    },
+    {
+      "en": "the same way that engineers now don't write code, they vibe code and guide these coding models, we're starting to do the same thing.",
+      "zh": "就像现在的工程师不再写代码，而是 vibe code 并引导这些编码模型一样，我们也开始做同样的事情。",
+      "timestamp": "03:48",
+      "speaker": "Gabe Pereyra"
+    },
+    {
+      "en": "In the past, it wasn't worth doing post-training because the models were improving so quickly from pre-training that any post-training you did quickly got absorbed by the next pre-trained model.",
+      "zh": "过去做后训练是不值得的，因为模型通过预训练提升得太快，你做的任何后训练很快就会被下一个预训练模型吸收掉。",
+      "timestamp": "06:04",
+      "speaker": "Gabe Pereyra"
+    },
+    {
+      "en": "Maybe not general frontier intelligence, but if you have a specific task like us, They are competitive.",
+      "zh": "也许不是通用的前沿智能，但如果你有一个具体的任务，比如像我们这样，它们是有竞争力的。",
+      "timestamp": "06:29",
+      "speaker": "Gabe Pereyra"
+    },
+    {
+      "en": "And usually, if you work with them and you're not able to get better results, there's probably something you're doing wrong with your data set.",
+      "zh": "通常，如果你和他们合作却没能得到更好的结果，那很可能是你的数据集有问题。",
+      "timestamp": "06:50",
+      "speaker": "Gabe Pereyra"
+    },
+    {
+      "en": "And then we call it product feedback. I call it angry customer emails.",
+      "zh": "然后我们称之为产品反馈。我称之为愤怒的客户邮件。",
+      "timestamp": "11:40",
+      "speaker": "Gabe Pereyra"
+    },
+    {
+      "en": "And I think part of why we picked the legal domain is if you just build a realistic client matter that these top firms are working on, like the frontier model still can't do this.",
+      "zh": "我认为我们选择法律领域的原因之一是，如果你只是构建一个这些顶级律所正在处理的真实客户案件，前沿模型仍然做不了这个。",
+      "timestamp": "19:19",
+      "speaker": "Gabe Pereyra"
+    },
+    {
+      "en": "you can have a model that does very well on our benchmarks but they've overfit to some degree and then you put it in a more generic assistant like product and it kind of falls apart for when you go out of distribution",
+      "zh": "你可以有一个在我们基准测试上表现非常好的模型，但它们在某种程度上过拟合了，然后你把它放进一个更通用的助手类产品里，当你超出分布范围时它就有点崩溃了。",
+      "timestamp": "22:29",
+      "speaker": "Gabe Pereyra"
+    },
+    {
+      "en": "But I think figuring out some form of continual learning is I think the endgame here is not for us to build the best legal model. It's for us to help every law firm or enterprise customer customize it to the type of work they're doing.",
+      "zh": "但我认为找到某种形式的持续学习——这里的终局不是让我们构建最好的法律模型，而是帮助每家律所或企业客户把它定制成他们所做工作的类型。",
+      "timestamp": "26:15",
+      "speaker": "Gabe Pereyra"
+    },
+    {
+      "en": "is how do you just go hyper-vertical into your domain in a way that the horizontal products won't?",
+      "zh": "就是你如何以一种水平产品不会去做的方式，极度垂直地深入你自己的领域？",
+      "timestamp": "29:05",
+      "speaker": "Gabe Pereyra"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:51",
+      "speaker": "Gabe",
+      "en": "And it's an unfair game competing with the Frontier Labs if you're an application layer company. There are rich teams, there are poor teams, and then there's us in the application layer.",
+      "zh": "如果你是一家应用层公司，与前沿实验室竞争是一场不公平的游戏。有富有的团队，有贫穷的团队，然后还有我们这些应用层的。"
+    },
+    {
+      "timestamp": "01:37",
+      "speaker": "Gabe",
+      "en": "But today, using the Frontier ecosystem, I think you can compete with the Frontier Labs and build Frontier Intelligence.",
+      "zh": "但今天，利用前沿生态系统，我认为你可以与前沿实验室竞争，并构建前沿智能。"
+    },
+    {
+      "timestamp": "02:07",
+      "speaker": "Gabe",
+      "en": "If you don't have a good benchmark, you can't train models. And if you can't train models, you don't need to serve them in production.",
+      "zh": "如果你没有一个好的基准测试，你就无法训练模型。而如果你不能训练模型，你就不需要在生产环境中部署它们。"
+    },
+    {
+      "timestamp": "03:21",
+      "speaker": "Gabe",
+      "en": "We work with the largest law firms and enterprises, and their legal data is incredibly sensitive. It's privileged. And so you can't put it in generic models. We can't even put it in our models.",
+      "zh": "我们与最大的律师事务所和企业合作，他们的法律数据极其敏感，受特权保护。所以你不能把它放进通用模型里——我们甚至不能把它放进我们自己的模型里。"
+    },
+    {
+      "timestamp": "03:45",
+      "speaker": "Gabe",
+      "en": "the same way that engineers now don't write code, they vibe code and guide these coding models, we're starting to do the same thing.",
+      "zh": "就像现在的工程师不再写代码，而是 vibe code 并引导这些编码模型一样，我们也开始做同样的事情。"
+    },
+    {
+      "timestamp": "05:14",
+      "speaker": "Gabe",
+      "en": "it's very hard to know your data set is good unless a lot of people train on it.",
+      "zh": "除非有很多人在你的数据集上训练，否则很难知道你的数据集是不是好的。"
+    },
+    {
+      "timestamp": "05:46",
+      "speaker": "Gabe",
+      "en": "And then most importantly, we had Elon retweet it.",
+      "zh": "然后最重要的一点是，Elon 转发推文了。"
+    },
+    {
+      "timestamp": "06:04",
+      "speaker": "Gabe",
+      "en": "In the past, it wasn't worth doing post-training because the models were improving so quickly from pre-training that any post-training you did quickly got absorbed by the next pre-trained model.",
+      "zh": "过去做后训练是不值得的，因为模型通过预训练提升得太快，你做的任何后训练很快就会被下一个预训练模型吸收掉。"
+    },
+    {
+      "timestamp": "06:29",
+      "speaker": "Gabe",
+      "en": "Maybe not general frontier intelligence, but if you have a specific task like us, They are competitive.",
+      "zh": "也许不是通用的前沿智能，但如果你有一个具体的任务，比如像我们这样，它们是有竞争力的。"
+    },
+    {
+      "timestamp": "06:50",
+      "speaker": "Gabe",
+      "en": "And usually, if you work with them and you're not able to get better results, there's probably something you're doing wrong with your data set.",
+      "zh": "通常，如果你和他们合作却没能得到更好的结果，那很可能是你的数据集有问题。"
+    },
+    {
+      "timestamp": "07:59",
+      "speaker": "Gabe",
+      "en": "And the more we work with, the more we learn.",
+      "zh": "我们合作的越多，学到的就越多。"
+    },
+    {
+      "timestamp": "08:30",
+      "speaker": "Gabe",
+      "en": "And inspired by Cursor, the goal of these efforts is for us to build our version of Composer 1.",
+      "zh": "受 Cursor 启发，这些努力的目标是为我们打造自己版本的 Composer 1。"
+    },
+    {
+      "timestamp": "11:40",
+      "speaker": "Gabe",
+      "en": "And then we call it product feedback. I call it angry customer emails.",
+      "zh": "然后我们称之为产品反馈。我称之为愤怒的客户邮件。"
+    },
+    {
+      "timestamp": "16:55",
+      "speaker": "Gabe",
+      "en": "And we were like, show us the data. And they're like, no. And so now you can prove it here.",
+      "zh": "我们就说，那把数据给我们看。他们说，不行。而现在你可以在这里证明了。"
+    },
+    {
+      "timestamp": "19:19",
+      "speaker": "Gabe",
+      "en": "And I think part of why we picked the legal domain is if you just build a realistic client matter that these top firms are working on, like the frontier model still can't do this.",
+      "zh": "我认为我们选择法律领域的原因之一是，如果你只是构建一个这些顶级律所正在处理的真实客户案件，前沿模型仍然做不了这个。"
+    },
+    {
+      "timestamp": "22:22",
+      "speaker": "Gabe",
+      "en": "you can have a model that does very well on our benchmarks but they've overfit to some degree and then you put it in a more generic assistant like product and it kind of falls apart for when you go out of distribution",
+      "zh": "你可以有一个在我们基准测试上表现非常好的模型，但它们在某种程度上过拟合了，然后你把它放进一个更通用的助手类产品里，当你超出分布范围时它就有点崩溃了。"
+    },
+    {
+      "timestamp": "25:00",
+      "speaker": "Gabe",
+      "en": "we can generate these very realistic synthetic data sets, we can augment them with humans, but the distribution of that data still doesn't match our production distribution.",
+      "zh": "我们可以生成这些非常逼真的合成数据集，我们可以用人类来增强它们，但这些数据的分布仍然与我们的生产分布不匹配。"
+    },
+    {
+      "timestamp": "26:15",
+      "speaker": "Gabe",
+      "en": "But I think figuring out some form of continual learning is I think the endgame here is not for us to build the best legal model. It's for us to help every law firm or enterprise customer customize it to the type of work they're doing.",
+      "zh": "但我认为找到某种形式的持续学习——这里的终局不是让我们构建最好的法律模型，而是帮助每家律所或企业客户把它定制成他们所做工作的类型。"
+    },
+    {
+      "timestamp": "29:00",
+      "speaker": "Gabe",
+      "en": "is how do you just go hyper-vertical into your domain in a way that the horizontal products won't?",
+      "zh": "就是你如何以一种水平产品不会去做的方式，极度垂直地深入你自己的领域？"
+    },
+    {
+      "timestamp": "14:16",
+      "speaker": "Gabe",
+      "en": "And the quote is, but if we win on this budget with this team, we'll have changed the game.",
+      "zh": "那句台词是：但如果我们用这个预算、这支队伍赢了，我们就改变了整个游戏。"
+    }
+  ],
+  "voice_script": "今天这一期,是一个应用公司敢跟前沿实验室叫板的故事。讲的人叫 Gabe,Harvey 的联合创始人兼总裁,早年做过 DeepMind 的研究科学家。Harvey 是一家服务大型律所和企业法务的 AI 公司。他抛出的核心主张听起来有点狂:如果你是一家应用层公司,跟前沿实验室——那些资金、人才、算力、数据全是顶配的 AI 巨头——竞争,本来就是一场不公平的游戏,有富有的团队,有贫穷的团队,然后还有应用层的。但今天,借着所谓的前沿生态系统,应用公司也能做出前沿水平的智能。这套打法分三步:先建基准和数据,再跟实验室合作做后训练,最后在生产环境把模型服务好。\n\n那这三步里,为什么基准要放在最前面?道理很直白:没有一个好的基准测试,就是一套能客观衡量模型能力的标准化考题,你就没法训练模型;没法训练模型,后面谈什么部署都是空的。所以 Harvey 今年一口气发布了三个数据集,一个叫 Legal Agent Bench,把大律所初级律师的任务做成了分类体系,涵盖起草基金设立文件、判例法研究这些复杂活儿;一个教智能体做法务谈判;还有 Gabe 自己最兴奋的,一个大型尽调数据集——尽调就是收购前对目标公司的全面审查。最大的数据室,也就是交易里所有合同文件的总集,有八千万 tokens,是目前已发布的最大的强化学习环境之一。\n\n说到这儿,问题来了。Harvey 服务的是顶级律所,客户数据受特权保护、极度敏感,不能拿来训练,连放进自己的模型都不行。没有数据,考题和练习题从哪来?今年真正跑通的办法,叫领域专家引导合成数据。核心团队的 Brendan 打了个类比:现在的工程师不再手写代码,而是用自然语言去引导 AI 写代码,也就是所谓的 vibe code;Harvey 的律师也开始这样引导数据生成。Gabe 的弟弟就在 Harvey 当律师,培训了一批律师,能批量造出极其逼真的训练和评测数据。\n\n这里面最巧的一个案例,是破解法律训练数据的死循环。以前这事几乎无解,因为公开的只有最终成果,比如购买协议,输入数据全都不公开;而真实的数据室可能有一万份合同,还必须相互契合,让律师手工造假数据室根本不现实。律所那边说,先证明给我看;Harvey 说,那你给我们数据;律所说,不行。后来律所的 Julio 想出个办法:从评分标准倒着生成。先把数据室里所有的问题都埋好——哪些合同对不上、哪份缺失,检查项和场景都设计好,再据此用 Mercor 和 Snorkel 生成整套逼真的合同数据。这样模型生成完尽调备忘录,就能对照检查,埋的问题你抓住了几个。一下就把那个死循环给破了:现在不需要客户数据也能证明自己。\n\n当然,Gabe 也老实承认,合成数据还不够好,但它是入门方式,之后靠合作伙伴放大规模、构建更大的训练集。而这些数据集他们是开源的,当时内部也有争议,理由其实很硬:除非很多人在你的数据集上训练,否则你根本不知道它好不好。他引自己在 Google Brain 和 DeepMind 的经验,最好的数据集都是开放的,ImageNet、CIFAR、MNIST,问题只有公开才会被暴露。现在越来越多实验室发布新模型时,会在他们的数据集上跑分。\n\n有了基准和数据,第二步自然就是后训练,也就是在预训练模型基础上用自己的数据继续调教。为什么这事现在才值得做?因为过去预训练进步太快,你做的任何后训练,很快就被下一个预训练模型吸收掉了,白干。但现在 Kimi3、GLM、Nemotron 这些开源基础模型已经足够强,针对具体任务做后训练,虽然逼近不了通用前沿智能,但在具体任务上是有竞争力的。而且不用单打独斗,实验室有现成的专业知识、基础设施和配方。Harvey 同时跟好几家合作:Fireworks、Base 10、Engram、Trajectory、Applied Compute。为什么非要同时签多家?因为每家押注的方向、研究思路、想训的开源模型都不一样,合作越多,学到越多。要是跟人合作了还得不到更好的结果,那多半是你自己的数据集有问题。\n\n不过这里要先打断一下,因为 Gabe 特别强调一个顺序问题:在谈训练之前,服务基础设施必须先就位。别把应用公司想成调一个模型端点的聊天产品。Harvey 在六十个国家运营,客户各有模型偏好,光闭源模型就要大规模服务,还得跨提供商做 fallback 保 SLA。后训练出来的模型,走的是同一套评测和监控体系。新模型投不投产,靠一套分级闸门:先看实验室基准,再有人工并排对比,每个产品有关键用户旅程的自动化测试,再加成本、延迟、可用性这些规则。投产后还要 A/B 测试、看用户参与度,以及一种很实在的信号——愤怒的客户邮件。为什么闸门这么重要?因为基准也会漏,模型可能在基准上过拟合,一放进真实产品就崩了。闸门都就位之后,哪里出问题会变得很明显。\n\n服务基建到位了,其实还有更轻的起步:先找产品里不需要最强模型的地方,直接换成开源模型,比如生成引用的部分换成 GLM,白拿成本收益,顺便练出混合服务的能力;再上模型路由,把特定查询分发给开源模型。做完这些,后训练的飞轮才转得起来。被问到怎么跟 Codex、Claude Code 这类通用产品竞争时,答案就俩字:极度垂直。通用产品做的是个人生产力,而大律所的问题是,一万个客户项目都要做好还要赚钱,单个项目做六个月、协调二三十人,越来越像编排人类和智能体的项目管理。这些活儿,水平产品不会去碰。\n\nGabe 也坦承还有三个没解决的难题:合成数据再逼真也是面向未来的,跟产品实际用法有分布不匹配;八千万 token 的数据室,长上下文管理还差很远;而终局是持续学习——帮每家律所把系统定制成自己的工作方式,每处理一个客户事务,系统就变好一点,同时保护客户数据。\n\n最后,他用《点球成金》收了尾:连胜二十场不重要,赢得总冠军才重要——但如果我们用这个预算、这支队伍赢了,我们就改变了整个游戏。前沿生态系统,给了所有应用公司同样的机会。"
+}

@@ -1,0 +1,608 @@
+{
+  "episode_id": "2026-08-11-talks-how-harvey-built-a-research-lab-on-a-bud",
+  "podcast": "精选演讲",
+  "date": "2026-08-11",
+  "tags": [
+    "后训练",
+    "合成数据",
+    "基准测试",
+    "开源模型",
+    "法律 AI"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "gabe-pereyra",
+      "type": "person",
+      "role": "host",
+      "name": "Gabe Pereyra",
+      "file": "Gabe Pereyra",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": true,
+      "how_described": "本集嘉宾 Gabe 联合创办的公司，服务大型律所和企业法务的 AI 公司，本集讲它如何用前沿生态系统在预算内自建研究实验室",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.672,
+            4.793
+          ],
+          "quote": "Gabe is co-founder and president of Harvey.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 2,
+          "t": [
+            5.934,
+            18.399
+          ],
+          "quote": "You were a research scientist at DeepMind ages ago, and then at Meta, I think, before you showed your college roommate what GPT-3 could do, and this duo then became Harvey.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 6,
+          "t": [
+            30.164,
+            36.085
+          ],
+          "quote": "And so I think Harvey has really set the example here and we're really delighted to have you give a talk on how you guys built Harvey Labs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            80.075,
+            86.556
+          ],
+          "quote": "When we started Harvey four years ago, most of these companies either didn't exist or were just getting started.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 32,
+          "t": [
+            194.362,
+            200.772
+          ],
+          "quote": "One challenge we always had at Harvey for training models is we can't train on our customers' data.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 40,
+          "t": [
+            237.498,
+            243.539
+          ],
+          "quote": "And so my younger brother is actually a lawyer at Harvey and he's gotten very good at using the coding models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1425.824,
+            1435.431
+          ],
+          "quote": "And so I think when I started Harvey, I kind of had the intuition of, oh, we'll just build the best model and then customers will be happy because it's the best.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集核心主线：在开源基础模型（Kimi3、GLM 5.2、Nemotron）上用自己的数据继续调教，如今足以在具体任务上逼近前沿智能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            20.62,
+            27.423
+          ],
+          "quote": "I think everybody here in the audience is an application company thinking about how to start doing their own research, post-training their own models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 18,
+          "t": [
+            111.829,
+            121.872
+          ],
+          "quote": "And I'm going to talk about how we build benchmarks and training data, how we work with the NeoLabs to do post-training, and how we serve these models in production.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 59,
+          "t": [
+            364.223,
+            375.187
+          ],
+          "quote": "In the past, it wasn't worth doing post-training because the models were improving so quickly from pre-training that any post-training you did quickly got absorbed by the next pre-trained model.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 82,
+          "t": [
+            484.356,
+            487.057
+          ],
+          "quote": "And it's getting easier than ever to do post-training.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 84,
+          "t": [
+            492.319,
+            500.142
+          ],
+          "quote": "And then we're doing more and more post-training ourselves internally with APIs like Tinkerer and the infrastructure of Fireworks and Base 10 have built.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 86,
+          "t": [
+            504.223,
+            508.485
+          ],
+          "quote": "And there's increasingly more post-training talent that we're hiring and is available.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 100,
+          "t": [
+            594.603,
+            606.313
+          ],
+          "quote": "In order to think about when you serve models in production and how you monitor them in production, you need to have this infrastructure in place even before you think about post-training.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 113,
+          "t": [
+            678.734,
+            683.879
+          ],
+          "quote": "And so you can reuse this infrastructure, and you should have it in place before you think about post-training.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 128,
+          "t": [
+            770.607,
+            777.212
+          ],
+          "quote": "And then once you've done this, you have everything in place to start building the post-training flywheel and",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1080.019,
+            1086.365
+          ],
+          "quote": "A lot of why you needed that talent early on was it wasn't just doing the post-training.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1098.035,
+            1114.785
+          ],
+          "quote": "Ran post-training at OpenAI, and he was one of the best researchers I've ever worked with, but now you can use things like fireworks, tinker-like APIs, and so you don't need to build the training and serving infrastructure, and so I think it opens up the pool of talent, and it feels very feasible to get some of this talent now.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1297.081,
+            1323.291
+          ],
+          "quote": "And so that's you can kind of think about the full cycle and then obviously we've done a bunch of work of like harness engineering and context management and all of these things and so now you can think of post training as one small input into this broader system and so we have our team post train a model and then you feed it into this broader system of you know you treat it just as another new model and so then you have all these signals of you know what's going wrong and so",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": true,
+      "how_described": "本集说没有好的 benchmark 就无法训练模型，Harvey 发布了 Legal Agent Bench 等数据集并主张开源，让实验室新模型在其上跑分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            124.633,
+            127.293
+          ],
+          "quote": "To start, you want to build a benchmark.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 20,
+          "t": [
+            127.853,
+            130.234
+          ],
+          "quote": "If you don't have a good benchmark, you can't train models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 55,
+          "t": [
+            339.766,
+            345.449
+          ],
+          "quote": "And then I think increasingly, we're having the labs, when they report new models, benchmark on our data set.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 57,
+          "t": [
+            352.472,
+            356.555
+          ],
+          "quote": "So once you've built the benchmark, now you have something to train models against.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 104,
+          "t": [
+            626.23,
+            635.92
+          ],
+          "quote": "So in terms of automated we have the lab benchmark that I talked about where whenever a new model comes out this gives us a very quick sense of is it a frontier model?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 146,
+          "t": [
+            890.731,
+            903.34
+          ],
+          "quote": "You talked about the challenges with having legal customers with very sensitive data sets and talked a little bit about your mother's lawyer and other in-house experts doing their version of vibe coding to produce the benchmark.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1117.372,
+            1119.313
+          ],
+          "quote": "Yeah, just another question about benchmark creation.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1375.302,
+            1381.365
+          ],
+          "quote": "On the benchmark side, legal agent, I think you guys had big law before, big law bench and then now legal agent benchmark.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1381.742,
+            1383.643
+          ],
+          "quote": "What's your philosophy on open sourcing the benchmark?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1383.723,
+            1389.526
+          ],
+          "quote": "Because if you open source, of course, you're getting traction with other people trying out the benchmark, but the labs can help Clem as well.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1389.847,
+            1394.629
+          ],
+          "quote": "And then if you close source, then there's a question of, is this a real benchmark?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1400.953,
+            1405.496
+          ],
+          "quote": "I would say even before we open source this benchmark, we already work closely with the labs.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成数据 (synthetic data)",
+      "file": "合成数据",
+      "primary": true,
+      "how_described": "本集说因客户数据受特权保护不能训练，今年跑通的办法是领域专家 vibe code 式引导合成数据生成，不够好但是入门方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            216.911,
+            224.694
+          ],
+          "quote": "And the thing that started working really well this year is using domain experts to guide synthetic data generation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 42,
+          "t": [
+            254.632,
+            260.455
+          ],
+          "quote": "And once you've done that, synthetic data isn't good enough, but it's a way to get started.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 88,
+          "t": [
+            516.742,
+            526.293
+          ],
+          "quote": "How do we package all of the work we've done with synthetic data, scaling it with Mercor, the work with the NeoLabs into a model we can serve alongside the closed source models?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1479.378,
+            1488.38
+          ],
+          "quote": "And then we want to help everyone improve these systems with synthetic data and kind of some of the data we open source, but obviously a balance for the reasons that you mentioned.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1500.444,
+            1513.667
+          ],
+          "quote": "I would say one big challenge, one of the biggest challenges, so we can generate these very realistic synthetic data sets, we can augment them with humans, but the distribution of that data still doesn't match our production distribution.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说开源模型正变得有竞争力，可先做天真替换和模型路由混入产品，再经后训练达到任务上的前沿水平",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            357.996,
+            363.641
+          ],
+          "quote": "And the thing that is exciting now is open source models are getting competitive.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 80,
+          "t": [
+            476.751,
+            479.154
+          ],
+          "quote": "We have different open source models we want to train.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            586.312,
+            590.552
+          ],
+          "quote": "Now with companies like Fireworks Base 10, we can add open source models into this mix.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 123,
+          "t": [
+            724.709,
+            734.793
+          ],
+          "quote": "And so the first one is look at all the places you're serving models and find, are there places in my product where I can just naively swap open source models?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 125,
+          "t": [
+            746.786,
+            753.733
+          ],
+          "quote": "And so that's the first thing and doing this builds the muscle of serving open source models alongside closed source models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 127,
+          "t": [
+            760.419,
+            768.525
+          ],
+          "quote": "So there could be places where you can't naively swap an open source model, but what you can do is on certain queries route to open source models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1292.158,
+            1296.201
+          ],
+          "quote": "How do we put those into the product, whether they're closed source or open source models?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说律所工作越来越像项目管理，即编排人类和智能体；还用合同数据集教会智能体做法律谈判",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            139.203,
+            147.804
+          ],
+          "quote": "We started by building Legal Agent Bench, which is a taxonomy of tasks that associates would do at a large law firm.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1375.302,
+            1381.365
+          ],
+          "quote": "On the benchmark side, legal agent, I think you guys had big law before, big law bench and then now legal agent benchmark.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "rl-environments",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习环境 (RL environments)",
+      "file": "强化学习环境",
+      "primary": true,
+      "how_described": "本集说尽调数据集是已发布最大的 RL 环境之一，最大数据室 8000 万 tokens，需与 LangChain 合作把环境做高效",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            175.559,
+            179.122
+          ],
+          "quote": "This is, I think, one of the largest RL environments that's been released.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 44,
+          "t": [
+            273.301,
+            278.183
+          ],
+          "quote": "Once you've done that, you need to turn these data sets into efficient RL environments.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "model-routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型路由 (model routing)",
+      "file": "模型路由",
+      "primary": true,
+      "how_described": "本集说是现在非常流行的做法：不能整体替换开源模型的地方，把特定查询路由到开源模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            754.674,
+            759.838
+          ],
+          "quote": "And then the second which has gotten very popular now is model routing.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "long-context",
+      "type": "concept",
+      "role": "concept",
+      "name": "长上下文 (long context)",
+      "file": "长上下文",
+      "primary": false,
+      "how_described": "本集说是尚未解决的难题：8000 万 token 的数据室，模型目前管不好这种复杂环境，性能差距仍然很大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            182.485,
+            187.128
+          ],
+          "quote": "And it lets us do research on long context, very complex tasks.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": false,
+      "how_described": "本集提到 Gabe 早年曾在 DeepMind 做研究科学家，并由此引出最好的数据集都是开放的（ImageNet 等）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            5.934,
+            18.399
+          ],
+          "quote": "You were a research scientist at DeepMind ages ago, and then at Meta, I think, before you showed your college roommate what GPT-3 could do, and this duo then became Harvey.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 51,
+          "t": [
+            323.456,
+            332.541
+          ],
+          "quote": "When I used to do research at Google Brain and DeepMind, the best data sets were open, like ImageNet, CIFAR, MNIST, and everyone used them.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -57,7 +57,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Cursor]] · [[TikTok]] · [[Instagram]] · [[Salesforce]] · [[Claude]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"智能体":261,"OpenAI":120,"ChatGPT":69,"Cursor":61,"TikTok":4,"Instagram":4,"Salesforce":23,"Claude":60,"vibe coding":35}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"智能体":262,"OpenAI":120,"ChatGPT":69,"Cursor":62,"TikTok":4,"Instagram":4,"Salesforce":23,"Claude":60,"vibe coding":35}</script>
 
 <script>
 (function(){

@@ -1,0 +1,166 @@
+{
+  "title_zh": "RL 环境:让模型学会用你电脑上所有工具的数据生意",
+  "tldr": "Mercor 联合创始人 Brendan 讲解 RL 环境的构成、构建方法、定价逻辑,以及应用层公司如何借它训练属于自己的模型。",
+  "digest_md": "这一集聊的是当下 AI 数据行业最热的方向:RL 环境(让模型在模拟真实工作场景中反复练习、从打分中学习的训练环境)。主角是 Mercor 的 Brendan——这家公司四个月内收入运行率从 10 亿美元涨到 20 亿美元,是各大前沿实验室和应用公司最大的智能体数据供应商,客户从 Harvey、Sierra、Cognition 到 RAMP [00:00 Unknown]。\n\n先落地背景。数据市场 2020 年起步于众包时代:人工标注输入输出做监督微调,或从几个模型回答里挑更好的做 RLHF。2024 年起风向大转——低技能众包让位给「智能体数据时代」:找全世界技能最高的专家(软件工程师、律师、医生、银行家),组队为下一代模型构建前沿评测和 RL 环境。Mercor 的第一个大项目是 DeepResearch,被视为最早的知名 RL 智能体 [00:42 Unknown]。\n\n## RL 环境到底是什么:世界、应用、任务三件套\n\n一个 RL 环境包含三部分 [02:59 Unknown]:\n- **世界**:一个真实项目里会有的全部材料——消息、幻灯片、文档、表格等;\n- **应用**:热门软件的高保真克隆版(如 Salesforce、ServiceNow、Microsoft 365),智能体可以通过 MCP、CLI 或 CUA 与之交互;\n- **任务**:提示词加验证器(可以是评分细则或单元测试),既用于评测也用于训练。\n\n前沿实验室要自动化你笔记本上的一切,瓶颈就是如何覆盖经济中「所有世界、所有应用、所有任务」的完整分布 [03:36 Unknown]。这件事规模惊人:劳动统计局的职业分类有 205 个领域,每个领域还要配上对应的应用、场景和任务。仅今年第二季度,Mercor 人才网络的专家投入就达 250 万小时,且增速还在加快 [04:12 Unknown]。\n\n## 为什么大多数领域离不开人:模型没法给自己的作业打分\n\n核心论点:**在大多数领域,只有人类能衡量智能的前沿** [04:51 Unknown]。例外是数学这类有干净模拟环境的领域——对错一目了然,模型能从答案直接学习。但像「做一份幻灯片」这种任务,模型极难可靠地识别自己哪里犯了错——「就好比让一个人给自己的作业打分」[05:12 Unknown]。所以需要人类像教授给论文定评分标准那样,创建评分细则。\n\n构建验证器难在:你得理解完整的问题空间——哪 10 种幻灯片都是好路径?可能犯的几十种错误是什么?如何捕捉全部可能解的验证器?[05:50 Unknown]\n\n一个已开源的真实例子是法律环境:让顶级律所(如 Latham and Watkins)的律师写下自己经办过的真实项目场景,构建完整的数据室大纲(消息、邮件、文件及大小),渲染进 Google Workspace 克隆版里,再出题让模型作答——比如依据《石油与石油法》评估某两家公司间的最大总责任 [06:37 Unknown]。专家再制定评分标准,要确保展开 100 条模型轨迹时打分全部准确——这在技术上极具挑战,需要大量研究和智能体质控 [08:01 Unknown]。\n\n## 后训练真见效:1800 个任务,公司法从 4.7% 到 26.6%\n\n环境建好后真能涨分。在一个 1800 个任务、约 50 万算力的后训练运行中(基座是 GLM 4.7),公司法成绩从 4.7% 提到 26.6%,而且**泛化到了没有数据室的 GDPVal 和 Apex V1 上**,在另一些基准上也有小幅提升 [09:24 Unknown]。\n\n一个重要变量:GLM 5.2 和 Kimi K3 已登上 Mercor 的排行榜。Brendan 认为这给应用层公司在具体垂直领域实现前沿智能奠定了基础,「并不遥远」[08:37 Unknown]。他断言:Cursor 证明了应用层公司能造出行业领先的模型,未来 12 个月会出现几十个这样的例子——**公司拥有自己的智能,这将是护城河的关键来源** [10:18 Unknown]。因为 AI 战略的三大支柱是算力、算法/研究员、数据集,而数据往往是最具差异化的那个 [06:21 Unknown]。\n\n## 数据怎么卖:三种模式和定价逻辑\n\nMercor 的三种售卖方式 [10:37 Unknown]:\n1. **按任务定制**(最常见):客户看中某种数据形态就说「每个任务付 2000 美元,给我扩到这个规模」。某些前沿实验室每月购买 5 万个任务;任务极复杂,有的要人类花长达一个月完成;\n2. **现成数据**:Mercor 已投入数亿美元自建数据集卖给多个客户——新实验室尤其倾向这个,因为 10 家实验室各建一套没意义;\n3. **只提供专家**:按小时计费,已非重点。Harvey 当年就是这么起步的(雇了一些律师),但客户最终都会转向技能型数据产品。\n\n定价方法有两条线:一是**从客户目标往回推**——想在排行榜上到前沿,这事对你值多少钱?比如 NVIDIA 可能愿意花 10 亿美元拥有一个前沿开源模型;二是**成本加成**——一个要 10 小时人工、时薪 150 美元的任务,成本基础就是 1500 美元,再按差异化和前沿程度加利润率。任务单价从 50 美元到 10000 美元不等 [12:50 Unknown]。\n\n## 数据质量的两个维度,以及「合成数据」的正名\n\n「数据质量」其实指两件事 [14:33 Unknown]:一是**真实性**——环境是否反映真实律师工作场景的分布,这正是专家写大纲、主导数据整理的原因;二是**验证器的准确性**——方法是「轨迹分析」:对目标模型展开 10 条轨迹打分,智能体质控系统加人工审查,确保评分与「让人类给这 100 条轨迹排名」的结论一致 [15:51 Unknown]。\n\n关于合成数据,Brendan 认为外界有很多误解:RLVR 本质上就是押注合成数据——展开一堆合成的模型轨迹而非让人写 SFT,打分后让模型从中学习 [16:38 Unknown]。模型也深度参与填充环境和创建任务,就像律师写备忘录该用 Claude 一样。但人类不可替代,因为「几乎从定义上说,你需要人类来衡量模型能力前沿之外的东西」——让模型自己评判自己的法律备忘录好坏,噪音太大、没有清晰信号 [17:47 Unknown]。这也是为什么最离不开人的环节是**任务创建**:让模型(比如要改进的那个模型本身)写自己错在哪的评分标准,大约一半对一半错,这种噪音量级从训练角度看完全行不通 [21:59 Unknown]。例外:网络防御领域可以用攻击者/防御者智能体互搏做验证器,人只需架构真实环境 [23:11 Unknown];弱模型也可以从强模型(如 Kimi K3)创建的任务中蒸馏学习。\n\n## 挑基座模型的土办法:Pass@1 和 Pass@16 的差距\n\n怎么判断数据集对某个基座模型有没有训练价值?看 **Pass@16 与 Pass@1 的差距**(Pass@1 = 一次尝试就做对;Pass@16 = 展开 16 条轨迹里至少对一次):最理想是单次失败、但 16 次里能对上一两次——模型就能高效学习;如果 16 条全错、再展开 100 条才对一条,那基本没指望 [24:31 Unknown]。\n\n## 往后看:超长时程和虚拟同事\n\n两个最大的演变方向 [19:58 Unknown]:一是**超长时程**——现在智能体大多没被训练做超过 10 小时的事,要开始为人类需要 100 甚至 1000 小时的任务构建训练;二是**虚拟同事**——Brendan 喜欢问人:你工作中多大比例的任务需要与他人互动?多数人说 60-70%,但评估里衡量模型与人互动能力的只占约 1%,存在巨大的现实差距 [20:38 Unknown]。\n\n## 本集带走\n\n- **RL 环境 = 世界 + 应用克隆 + 任务(提示词+验证器)**:想给自家领域做后训练,先盘清这个领域的真实材料、常用软件、任务类型各自长什么样。\n- **模型打不了自己的分**:凡是没有干净验证信号的领域(做幻灯片、写法律备忘录),评分标准必须由超越模型前沿的人类专家来定;你的模型自己写「我错在哪」,一半对一半错,没法用于训练。\n- **小数据也能大涨分,关键是泛化**:1800 个任务、约 50 万算力,让公司法从 4.7% 涨到 26.6%,还泛化到没训练过的基准上——垂直环境的杠杆比想象大。\n- **挑基座看 Pass@1/Pass@16 差距**:单次全错、偶尔能对的数据集才有训练价值;16 条全错的组合基本无解。\n- **下一个前沿**:超过 10 小时的超长时程任务,以及衡量「与他人协作」的评估(现实中六七成工作需要人际互动,现有评估只覆盖约 1%)。",
+  "quotes": [
+    {
+      "en": "It's as if you would be asking a human to grade their own homework.",
+      "zh": "这就好比让一个人给自己的作业打分。",
+      "timestamp": "05:12",
+      "speaker": "Brendan Foody"
+    },
+    {
+      "en": "Over the next 12 months, there's going to be dozens of examples just like that, where companies own their own intelligence, and that is the key source of the modes that they're building.",
+      "zh": "在接下来的 12 个月里,将会出现几十个类似的例子,公司拥有自己的智能,而这正是他们所构建的护城河的关键来源。",
+      "timestamp": "10:18",
+      "speaker": "Brendan Foody"
+    },
+    {
+      "en": "NVIDIA, they're probably willing to pay a billion dollars to have a frontier open source model.",
+      "zh": "像 NVIDIA 这样的公司,他们可能愿意花十亿美元拥有一个前沿开源模型。",
+      "timestamp": "13:14",
+      "speaker": "Brendan Foody"
+    },
+    {
+      "en": "We have tasks that range from $50 to $10,000.",
+      "zh": "我们的任务价格从 50 美元到 10000 美元不等。",
+      "timestamp": "14:00",
+      "speaker": "Brendan Foody"
+    },
+    {
+      "en": "So the fascinating thing is I think that there's been a lot of misinterpretation of what people mean when they say synthetic data because like RLVR is a bet on synthetic data.",
+      "zh": "有趣的地方在于,我认为人们对「合成数据」的含义有很多误解,因为 RLVR 本质上就是一场对合成数据的押注。",
+      "timestamp": "16:38",
+      "speaker": "Brendan Foody"
+    },
+    {
+      "en": "But the reason that humans are still an essential component of the process that's incredibly differentiated is that you need humans almost definitionally to measure what is beyond the frontier of the model capabilities.",
+      "zh": "但人类仍然是这个过程中不可或缺且极具差异化的一部分,原因在于,几乎从定义上说,你需要人类来衡量模型能力前沿之外的东西。",
+      "timestamp": "17:33",
+      "speaker": "Brendan Foody"
+    },
+    {
+      "en": "Like right now, agents mostly aren't trained to do things that are over 10 hours.",
+      "zh": "比如现在,智能体大多没有被训练去执行超过 10 小时的事情。",
+      "timestamp": "20:01",
+      "speaker": "Brendan Foody"
+    },
+    {
+      "en": "But then if you map that on to what percentage of evals measure how well the models can interact with other people, it's like 1%.",
+      "zh": "但如果把这一点对应到评估中,有多大比例的评估衡量模型与他人互动的能力,那大概是 1%。",
+      "timestamp": "20:38",
+      "speaker": "Brendan Foody"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:55",
+      "speaker": "Brendan",
+      "en": "There are rare exceptions like math where you have a really clean simulation environment.",
+      "zh": "也有罕见的例外,比如数学,那里有一个非常干净的模拟环境。"
+    },
+    {
+      "timestamp": "05:12",
+      "speaker": "Brendan",
+      "en": "It's as if you would be asking a human to grade their own homework.",
+      "zh": "这就好比让一个人给自己的作业打分。"
+    },
+    {
+      "timestamp": "05:28",
+      "speaker": "Brendan",
+      "en": "It's in large part from the feedback we get from those around us, rather than purely plugging things into a calculator or a clean simulation.",
+      "zh": "我们的学习很大程度上来自我们从周围人那里得到的反馈,而不是纯粹把东西塞进计算器或一个干净的模拟环境里。"
+    },
+    {
+      "timestamp": "06:35",
+      "speaker": "Brendan",
+      "en": "And data is often the most differentiating factor.",
+      "zh": "而数据往往是最具差异化的因素。"
+    },
+    {
+      "timestamp": "09:24",
+      "speaker": "Brendan",
+      "en": "Corporate law going from 4.7% to 26.6%.",
+      "zh": "公司法从 4.7% 提升到 26.6%。"
+    },
+    {
+      "timestamp": "10:18",
+      "speaker": "Brendan",
+      "en": "Over the next 12 months, there's going to be dozens of examples just like that, where companies own their own intelligence, and that is the key source of the modes that they're building.",
+      "zh": "在接下来的 12 个月里,将会出现几十个类似的例子,公司拥有自己的智能,而这正是他们所构建的护城河的关键来源。"
+    },
+    {
+      "timestamp": "11:10",
+      "speaker": "Brendan",
+      "en": "Some would even take humans up to a month to complete that given task.",
+      "zh": "有些任务甚至需要人类花费长达一个月的时间来完成。"
+    },
+    {
+      "timestamp": "11:30",
+      "speaker": "Brendan",
+      "en": "We're generally erring more towards off-the-shelf data because it doesn't make sense for 10 different labs to all be building their own data sets.",
+      "zh": "我们通常更倾向于现成数据,因为让 10 个不同的实验室都各自构建自己的数据集是没有意义的。"
+    },
+    {
+      "timestamp": "13:14",
+      "speaker": "Brendan",
+      "en": "NVIDIA, they're probably willing to pay a billion dollars to have a frontier open source model.",
+      "zh": "像 NVIDIA 这样的公司,他们可能愿意花十亿美元拥有一个前沿开源模型。"
+    },
+    {
+      "timestamp": "14:00",
+      "speaker": "Brendan",
+      "en": "We have tasks that range from $50 to $10,000.",
+      "zh": "我们的任务价格从 50 美元到 10000 美元不等。"
+    },
+    {
+      "timestamp": "16:38",
+      "speaker": "Brendan",
+      "en": "So the fascinating thing is I think that there's been a lot of misinterpretation of what people mean when they say synthetic data because like RLVR is a bet on synthetic data.",
+      "zh": "有趣的地方在于,我认为人们对「合成数据」的含义有很多误解,因为 RLVR 本质上就是一场对合成数据的押注。"
+    },
+    {
+      "timestamp": "17:33",
+      "speaker": "Brendan",
+      "en": "But the reason that humans are still an essential component of the process that's incredibly differentiated is that you need humans almost definitionally to measure what is beyond the frontier of the model capabilities.",
+      "zh": "但人类仍然是这个过程中不可或缺且极具差异化的一部分,原因在于,几乎从定义上说,你需要人类来衡量模型能力前沿之外的东西。"
+    },
+    {
+      "timestamp": "17:53",
+      "speaker": "Brendan",
+      "en": "It's super noisy and there's not clear signal associated with that.",
+      "zh": "那样噪音非常大,也没有清晰的信号。"
+    },
+    {
+      "timestamp": "19:42",
+      "speaker": "Brendan",
+      "en": "And so if we want this in the user distribution of usage, then we need to get it in the data distribution that the models are learning from.",
+      "zh": "所以,如果我们想让这些出现在用户的使用分布中,那就需要让它进入模型学习所依据的数据分布中。"
+    },
+    {
+      "timestamp": "20:01",
+      "speaker": "Brendan",
+      "en": "Like right now, agents mostly aren't trained to do things that are over 10 hours.",
+      "zh": "比如现在,智能体大多没有被训练去执行超过 10 小时的事情。"
+    },
+    {
+      "timestamp": "20:38",
+      "speaker": "Brendan",
+      "en": "But then if you map that on to what percentage of evals measure how well the models can interact with other people, it's like 1%.",
+      "zh": "但如果把这一点对应到评估中,有多大比例的评估衡量模型与他人互动的能力,那大概是 1%。"
+    },
+    {
+      "timestamp": "21:59",
+      "speaker": "Brendan",
+      "en": "And that amount of noise is unworkable from a training standpoint.",
+      "zh": "从训练的角度来看,那种程度的噪音是行不通的。"
+    },
+    {
+      "timestamp": "24:31",
+      "speaker": "Brendan",
+      "en": "If you have a model where you roll out 16 trajectories and it gets all of them totally wrong, it's sort of hopeless that the model is going to learn from that for the most part.",
+      "zh": "如果你有一个模型,你展开 16 条轨迹,它把所有轨迹全都搞错了,那这个模型基本上就没指望能从中学到东西。"
+    }
+  ],
+  "voice_script": "今天咱们聊一个特别热的话题:RL 环境。什么是 RL 环境?说白了,就是一个让 AI 模型反复练习、从打分中学习的训练场。给你讲这件事的人叫 Brendan,是 Mercor 的联合创始人。这家公司有多猛?四个月内,收入运行率从 10 亿美元涨到 20 亿美元,现在是各大前沿实验室和应用公司最大的智能体数据供应商,客户名单里有 Harvey、Sierra、Cognition、RAMP 这些响当当的名字。\n\n先交代一下背景,不然你听不懂后面在讲什么。数据市场最早是 2020 年起步的,那时候是众包时代:找一堆人人工标注数据,做监督微调,或者从几个模型的回答里挑出更好的那个,用来做 RLHF。但 2024 年开始,风向彻底变了。低技能的众包让位给所谓的「智能体数据时代」——现在要找的,是全世界技能最高的专家:软件工程师、律师、医生、银行家,让他们组队,为下一代模型构建评测和训练环境。Mercor 接的第一个大项目叫 DeepResearch,后来被认为是最早的知名 RL 智能体之一。\n\n那 RL 环境到底长什么样?Brendan 拆成了三件套。第一件叫「世界」,就是一个真实工作项目里会有的全部材料——消息、幻灯片、文档、表格,等等。第二件叫「应用」,就是把那些热门软件,比如 Salesforce、ServiceNow、Microsoft 365,做成高保真的克隆版,智能体可以在里面实际操作。第三件叫「任务」,就是提示词加一个验证器——验证器可以是评分细则,也可以是单元测试,既能用来评测,也能用来训练。\n\n为什么要搞这么大阵仗?因为前沿实验室的目标,是自动化你笔记本上的一切。而瓶颈就在于,怎么覆盖经济中所有世界、所有应用、所有任务的完整分布。这个规模听着就吓人:光美国劳动统计局的职业分类就有 205 个领域,每个领域还得配上对应的应用、场景和任务。今年第二季度,Mercor 人才网络里的专家投入了 250 万小时,而且增速还在加快。\n\n这时候就引出一个更根本的问题:为什么要花这么大力气请专家?模型不能自己搞吗?这就要说到 Brendan 的核心论点了:在大多数领域,只有人类能衡量智能的前沿。你想想,数学这类领域有干净的模拟环境,答案对错一目了然,模型直接从答案学习就行。但像「做一份幻灯片」这种任务呢?模型极难可靠地判断自己哪里犯了错。用 Brendan 的原话说,这就好比让一个人给自己的作业打分。所以必须有人类出面,像教授给论文定评分标准那样,先创建评分细则。\n\n构建验证器有多难?难在你要理解完整的问题空间:哪 10 种幻灯片都算是好路径?可能犯的几十种错误都是什么?怎么设计一个能捕捉全部可能解的验证器?\n\n举个例子,这是已经开源的。Mercor 让顶级律所的律师写下自己经办过的真实项目场景,构建出完整的数据室大纲——包括消息、邮件、各种文件——然后渲染进一个 Google Workspace 的克隆版里,再出题让模型作答,比如依据法律评估某两家公司之间的最大总责任。专家再据此制定评分标准,而且要保证展开 100 条模型轨迹时打分全部准确——这在技术上极具挑战,需要大量研究和智能体质控。\n\n那这么费劲建环境,到底值不值?真金白银的数字摆在这儿:在一次 1800 个任务、大约 50 万算力的后训练运行中,基座是 GLM 模型,公司法的成绩从 4.7% 提升到了 26.6%,而且泛化到了完全没有训练过的基准上,在另一些基准上也有小幅提升。也就是说,小数据也能大涨分,关键是泛化能力。\n\n还有个重要变量:最新的 GLM 和 Kimi 模型已经登上了 Mercor 的排行榜。Brendan 认为,这给应用层公司在具体垂直领域实现前沿智能奠定了基础。用他的话说,在接下来的 12 个月里,会出现几十个这样的例子——公司拥有自己的智能,而这正是护城河的关键来源。逻辑也不复杂:AI 战略有三大支柱,算力、算法和数据集,而数据往往是最具差异化的那个。Cursor 已经证明了应用层公司能造出行业领先的模型。\n\n那这些数据是怎么卖钱的?Mercor 有三种模式。最常见的是按任务定制:客户看中某种数据形态,就说每个任务付 2000 美元,给我扩到这个规模。有的前沿实验室每月买 5 万个任务,这些任务极其复杂,有的要人类花长达一个月才能完成。第二种是现成数据,Mercor 自己投入了数亿美元建数据集,卖给多个客户,新实验室尤其喜欢这个,因为十家实验室各建一套没意义。第三种是只提供专家,按小时计费,已经不算重点了。定价有两条思路:一条是从客户目标往回推——你想在排行榜上冲到前沿,这事对你值多少钱?像 NVIDIA 这样的公司,可能愿意花十亿美元拥有一个前沿开源模型。另一条是成本加成:一个要 10 小时人工、时薪 150 美元的任务,成本基础就是 1500 美元,再加上利润率。整体任务单价,从 50 美元到 10000 美元不等。\n\n说到这里,你可能会想到一个词:合成数据。Brendan 觉得外界对这个词误解很多,因为 RLVR 本质上就是一场对合成数据的押注——展开一堆合成的模型轨迹,打分之后让模型从中学习。模型也深度参与了环境填充和任务创建。但人类依然不可替代,原因在于,几乎从定义上说,你需要人类来衡量模型能力前沿之外的东西。让模型自己评判自己的法律备忘录写得好不好,噪音太大,没有清晰信号。最典型的就是任务创建这个环节:让模型给自己写「我错在哪」的评分标准,大约一半对一半错,这种噪音从训练角度看完全行不通。当然也有例外,比如网络防御领域,可以用攻击者和防御者智能体互搏来做验证器,人只需要架构真实环境。\n\n最后说两个往后看的大方向。一个是超长时程:现在的智能体大多没被训练做超过 10 小时的事,接下来要为人类需要 100 甚至 1000 小时的任务构建训练。另一个是虚拟同事:Brendan 喜欢问人一个问题——你工作中多大比例的任务需要和他人互动?多数人说六到七成,但现有评估里,衡量模型与人互动能力的只占约 1%,这个差距大得惊人。\n\n一句话收尾:模型再强,也打不了自己的分,只有人类能衡量模型能力前沿之外的东西——这既是这行生意的根基,也是每个公司想拥有自己智能的起点。"
+}

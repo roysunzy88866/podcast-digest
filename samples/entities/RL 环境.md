@@ -7,29 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RL 环境 (RL environments)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RL 环境">RL</div><div class="pi"><h1 class="pt">RL 环境 (RL environments)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RL 环境">RL</div><div class="pi"><h1 class="pt">RL 环境 (RL environments)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|《Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注》]]**(34:51起):本集认为应用层公司的差异化方向是为特定领域构建 RL 环境——法律领域的 RL 环境就是客户事务:目标明确、历史丰富,知道做过的所有诉讼、大致阶段和会被问的问题。
 - **[[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]]**(15:02起):本集说 RL 环境即强化学习训练环境，是与沙箱并列的另一个被验证的基础设施大方向，举例有一家 7 人公司被 DoorDash 以 4.5 亿美元收购
 - **[[2026-07-25-twentyvc-20vc-mercor-cpo-on-revenue-concentration|《Mercor CPO:开源模型蚕食不了数据生意》]]**(38:36起):本集说 RL 环境是需求增长最快的数据类型:应用的模拟加丰富的「世界」起始状态,再加训练智能体用工具完成任务;训练数据正长得越来越像部署场景。
+- **[[2026-08-11-talks-how-harvey-built-a-research-lab-on-a-bud|《应用公司如何低成本建自己的AI研究实验室：Harvey 的实战手册》]]**(02:55起):本集说尽调数据集是已发布最大的 RL 环境之一，最大数据室 8000 万 tokens，需与 LangChain 合作把环境做高效
+- **[[2026-08-12-talks-rl-environments-explained-how-ai-agents|《RL 环境:让模型学会用你电脑上所有工具的数据生意》]]**(00:23起):本集核心概念:由世界(真实项目材料)、应用(热门软件的高保真克隆,如 Salesforce、Microsoft 365)和任务(提示词+验证器)三部分组成,既用于评测也用于训练。
 
 ## ② 出现在这些集
 
-*3 集*
+*5 集*
 
 - [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|《Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注》]] — 作为概念
 - [[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]] — 作为概念
 - [[2026-07-25-twentyvc-20vc-mercor-cpo-on-revenue-concentration|《Mercor CPO:开源模型蚕食不了数据生意》]] — 作为概念
+- [[2026-08-11-talks-how-harvey-built-a-research-lab-on-a-bud|《应用公司如何低成本建自己的AI研究实验室：Harvey 的实战手册》]] — 作为概念
+- [[2026-08-12-talks-rl-environments-explained-how-ai-agents|《RL 环境:让模型学会用你电脑上所有工具的数据生意》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[评估]] · [[Gabe]] · [[Louis Knight-Webb]] · [[Osvald Nitski]] · [[Harvey]] · [[Swyx]] · [[Harry Stebbings]] · [[OpenAI]] · [[AI Engineers]]
+[[智能体]] · [[Harvey]] · [[合成数据]] · [[后训练]] · [[评估]] · [[Cursor]] · [[Mercor]] · [[DeepMind]] · [[Gabe]] · [[Louis Knight-Webb]]
 
-<script type="application/json" class="pd-epn">{"智能体":261,"评估":2,"Gabe":1,"Louis Knight-Webb":1,"Osvald Nitski":1,"Harvey":9,"Swyx":2,"Harry Stebbings":16,"OpenAI":120,"AI Engineers":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":262,"Harvey":11,"合成数据":7,"后训练":24,"评估":2,"Cursor":62,"Mercor":2,"DeepMind":10,"Gabe":1,"Louis Knight-Webb":1}</script>
 
 <script>
 (function(){

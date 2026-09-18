@@ -1,0 +1,1762 @@
+[
+ {
+  "seg": 0,
+  "start": 0.351,
+  "end": 5.293,
+  "speaker": "Unknown",
+  "en": "Mercore, I think you guys grew from a $1 to a $2 billion revenue run rate in the last four months or so.",
+  "zh": "Mercore,我认为你们在大约过去四个月里从 10 亿美元增长到了 20 亿美元的收入运行率。"
+ },
+ {
+  "seg": 1,
+  "start": 5.313,
+  "end": 15.256,
+  "speaker": "Unknown",
+  "en": "So it's companies off to the races, and I think you are just so front and center to how companies are thinking about post-training their own models, building their own intelligence.",
+  "zh": "所以这家公司正处于狂飙突进的状态,而我认为你们在各大公司如何思考后训练自己的模型、构建自己的智能这件事上,正处于最前沿和中心的位置。"
+ },
+ {
+  "seg": 2,
+  "start": 15.276,
+  "end": 17.437,
+  "speaker": "Unknown",
+  "en": "So thank you for joining us for this conversation.",
+  "zh": "所以感谢你们加入我们的这场对话。"
+ },
+ {
+  "seg": 3,
+  "start": 18.397,
+  "end": 23.34,
+  "speaker": "Unknown",
+  "en": "Format-wise, what we're going to do is we have 15 minutes or so of content from Brendan.",
+  "zh": "就流程而言,我们要做的是先有大约 15 分钟来自 Brendan 的内容。"
+ },
+ {
+  "seg": 4,
+  "start": 23.36,
+  "end": 30.763,
+  "speaker": "Unknown",
+  "en": "He's going to talk about RL environments in particular, which I think is a new frontier topic that'll be fun to explore.",
+  "zh": "他将特别谈到 RL 环境,我认为这是一个新前沿话题,会很值得探索。"
+ },
+ {
+  "seg": 5,
+  "start": 30.783,
+  "end": 35.285,
+  "speaker": "Unknown",
+  "en": "And then we're going to leave 15 minutes or so at the end for Q&A again.",
+  "zh": "然后我们会在最后再留出大约 15 分钟进行问答。"
+ },
+ {
+  "seg": 6,
+  "start": 35.365,
+  "end": 38.326,
+  "speaker": "Unknown",
+  "en": "So please keep questions back pocket.",
+  "zh": "所以请先把问题放在口袋里留着。"
+ },
+ {
+  "seg": 7,
+  "start": 38.486,
+  "end": 39.547,
+  "speaker": "Unknown",
+  "en": "I will turn it over to you, Brendan.",
+  "zh": "我现在把时间交给你,Brendan。"
+ },
+ {
+  "seg": 8,
+  "start": 40.091,
+  "end": 40.351,
+  "speaker": "Unknown",
+  "en": "Sweet.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 9,
+  "start": 40.671,
+  "end": 42.192,
+  "speaker": "Unknown",
+  "en": "So I'll be talking about RL environments.",
+  "zh": "那么我将谈论 RL 环境。"
+ },
+ {
+  "seg": 10,
+  "start": 42.893,
+  "end": 58.882,
+  "speaker": "Unknown",
+  "en": "Starting out, I figured it's helpful to give a little bit of the background on the history of the data market and how that history ties into Mercor's origin story, where things really started in 2020 in the era of crowdsourcing data for behavior cloning.",
+  "zh": "一开始,我觉得先介绍一下数据市场历史的背景会很有帮助,以及这段历史如何与 Mercor 的起源故事联系在一起。一切真正开始于 2020 年,那个为行为克隆众包数据的时代。"
+ },
+ {
+  "seg": 11,
+  "start": 58.902,
+  "end": 63.965,
+  "speaker": "Unknown",
+  "en": "So this was mainly supervised fine-tuning data, inputs and outputs, and RLHF data.",
+  "zh": "那时候主要是监督微调数据、输入和输出,以及 RLHF 数据。"
+ },
+ {
+  "seg": 12,
+  "start": 64.285,
+  "end": 69.872,
+  "speaker": "Unknown",
+  "en": "where you would have an annotator select from a couple of model responses which they preferred.",
+  "zh": "在 RLHF 中,你需要标注者从几个模型回答中选出他们更偏好的那一个。"
+ },
+ {
+  "seg": 13,
+  "start": 70.272,
+  "end": 80.884,
+  "speaker": "Unknown",
+  "en": "And we were able to make all this progress in fine-tuning GPT-3, making progress towards ChatGPT and GPT-4 in the crowdsourcing era of agentic data.",
+  "zh": "我们得以在微调 GPT-3 上取得所有这些进展,在智能体数据的众包时代朝着 ChatGPT 和 GPT-4 推进。"
+ },
+ {
+  "seg": 14,
+  "start": 81.425,
+  "end": 97.526,
+  "speaker": "Unknown",
+  "en": "But what we saw changing in the market, especially as we headed into 2024, was this giant transition away from the low skilled crowdsourcing era of behavior cloning data and moving towards the agentic era of data.",
+  "zh": "但我们看到市场中发生的变化,尤其是当我们进入 2024 年时,是一个巨大的转变:从行为克隆数据的低技能众包时代,转向智能体数据时代。"
+ },
+ {
+  "seg": 15,
+  "start": 98.046,
+  "end": 107.488,
+  "speaker": "Unknown",
+  "en": "of how do we find the highest skilled experts in the world that can work collaboratively in teams to build frontier evals and RL environments for the next generation of models.",
+  "zh": "即我们如何找到世界上技能最高的专家,让他们以团队协作的方式构建前沿评测和 RL 环境,供下一代模型使用。"
+ },
+ {
+  "seg": 16,
+  "start": 107.568,
+  "end": 119.391,
+  "speaker": "Unknown",
+  "en": "All the software engineers, lawyers, doctors, bankers, et cetera, that could measure the frontier of intelligence and help to use that to improve model capabilities.",
+  "zh": "所有那些软件工程师、律师、医生、银行家等等,他们能够衡量智能的前沿,并帮助利用这一点来提升模型能力。"
+ },
+ {
+  "seg": 17,
+  "start": 120.091,
+  "end": 141.225,
+  "speaker": "Unknown",
+  "en": "Mercore grew up with our first big project being DeepResearch, I guess the first prominent RL agent, scaling up dramatically with all of the frontier labs to become the primary agentic data vendor to all of the leading labs and also all of the leading application layer companies ranging from Harvey, Sierra, Cognition to RAMP.",
+  "zh": "Mercore 就是伴随这个成长起来的,我们的第一个大项目是 DeepResearch,我想那是最早的知名 RL 智能体,随后与所有前沿实验室一起大规模扩张,成为所有领先实验室以及所有领先应用层公司的首要智能体数据供应商,范围从 Harvey、Sierra、Cognition 到 RAMP。"
+ },
+ {
+  "seg": 18,
+  "start": 142.466,
+  "end": 163.399,
+  "speaker": "Unknown",
+  "en": "And what's been really exciting over the last 12 months especially is how RLVR within the agentic data paradigm has evolved to also include RL environments with these rich apps and worlds that teach agents how to use all of the tools on our laptops that we use every day.",
+  "zh": "而过去 12 个月尤其令人兴奋的是,智能体数据范式内的 RLVR 已经演进到还包括 RL 环境,这些环境带有丰富的应用和世界,教会智能体如何使用我们笔记本电脑上每天使用的所有工具。"
+ },
+ {
+  "seg": 19,
+  "start": 163.419,
+  "end": 164.819,
+  "speaker": "Unknown",
+  "en": "So I'll be talking about that.",
+  "zh": "所以我将谈论这个。"
+ },
+ {
+  "seg": 20,
+  "start": 166,
+  "end": 179.247,
+  "speaker": "Unknown",
+  "en": "And of course, how this technology that started in the Frontier Labs is now getting disseminated to the application layer and all of the products that all of you are building as you work on your company.",
+  "zh": "当然,还有这项始于前沿实验室的技术,现在是如何传播到应用层,传播到你们各位在经营公司过程中所构建的所有产品中的。"
+ },
+ {
+  "seg": 21,
+  "start": 179.327,
+  "end": 183.129,
+  "speaker": "Unknown",
+  "en": "So high level on what an aural environment is, is that includes three parts.",
+  "zh": "从高层次上说,一个 aural 环境包括三个部分。"
+ },
+ {
+  "seg": 22,
+  "start": 183.71,
+  "end": 184.87,
+  "speaker": "Unknown",
+  "en": "The first part is the worlds.",
+  "zh": "第一部分是世界。"
+ },
+ {
+  "seg": 23,
+  "start": 185.19,
+  "end": 193.435,
+  "speaker": "Unknown",
+  "en": "So this includes all the messages, slides, docs, sheets, et cetera, that correspond to everything you would have in a real project or",
+  "zh": "这包括所有消息、幻灯片、文档、表格等等,对应于一个真实项目中会有的所有东西,或者"
+ },
+ {
+  "seg": 24,
+  "start": 195.796,
+  "end": 207.302,
+  "speaker": "Unknown",
+  "en": "The second part is the apps, which is high-fidelity clones of popular applications, Salesforce, ServiceNow, Microsoft 365, et cetera, that agents can interact with via MCP, CLI, or CUA.",
+  "zh": "第二部分是应用,也就是热门应用的高保真克隆,Salesforce、ServiceNow、Microsoft 365 等等,智能体可以通过 MCP、CLI 或 CUA 与它们交互。"
+ },
+ {
+  "seg": 25,
+  "start": 207.862,
+  "end": 211.444,
+  "speaker": "Unknown",
+  "en": "And then the third part is the tasks, where we have prompts and verifiers.",
+  "zh": "第三部分是任务,我们有提示词和验证器。"
+ },
+ {
+  "seg": 26,
+  "start": 211.884,
+  "end": 216.267,
+  "speaker": "Unknown",
+  "en": "Verifiers could be rubrics or unit tests that can be used either for eval or training.",
+  "zh": "验证器可以是评分细则或单元测试,既可以用于评测,也可以用于训练。"
+ },
+ {
+  "seg": 27,
+  "start": 216.887,
+  "end": 229.682,
+  "speaker": "Unknown",
+  "en": "And the barrier for Frontier Labs to automate everything that you can do on your laptop using Claude is how do they cover the full distribution of all of the worlds, all of the apps, and all of the tasks in the economy.",
+  "zh": "而前沿实验室要自动化你可以用 Claude 在笔记本电脑上做的一切事情,其障碍在于他们如何覆盖经济中所有世界、所有应用和所有任务的完整分布。"
+ },
+ {
+  "seg": 28,
+  "start": 230.223,
+  "end": 234.408,
+  "speaker": "Unknown",
+  "en": "And so there's been this enormous scale out in order to do that.",
+  "zh": "为了做到这一点,已经出现了巨大的规模扩张。"
+ },
+ {
+  "seg": 29,
+  "start": 235.268,
+  "end": 241.592,
+  "speaker": "Unknown",
+  "en": "Where humans have been really central to how we build these environments, obviously with models in the loop meaningfully.",
+  "zh": "在这个过程中,人类一直是我们构建这些环境的核心,显然模型也在其中发挥着重要作用。"
+ },
+ {
+  "seg": 30,
+  "start": 241.612,
+  "end": 252.038,
+  "speaker": "Unknown",
+  "en": "And so I put a graph here of the amount of expert hours of throughput from our talent network over the last 24 months.",
+  "zh": "所以我在这里放了一张图表,展示过去 24 个月里我们人才网络的专家小时吞吐量。"
+ },
+ {
+  "seg": 31,
+  "start": 252.478,
+  "end": 257.801,
+  "speaker": "Unknown",
+  "en": "And it's a pretty crazy trajectory with respect to 2.5 million hours in Q2 alone.",
+  "zh": "这是一条相当疯狂的轨迹,仅第二季度就达到了 250 万小时。"
+ },
+ {
+  "seg": 32,
+  "start": 260.843,
+  "end": 267.75,
+  "speaker": "Unknown",
+  "en": "with growth sort of accelerating on the amount of expert time used to build out all of these environments.",
+  "zh": "用于构建所有这些环境的专家时间,其增长在某种程度上还在加速。 [[33]}} 原因当然是,正如我所提到的,我们需要把环境分布扩展到经济中的每一个类别。"
+ },
+ {
+  "seg": 33,
+  "start": 268.33,
+  "end": 275.497,
+  "speaker": "Unknown",
+  "en": "The reason being, of course, as I mentioned, we need to scale out the environment distribution across every category in the economy.",
+  "zh": "原因当然是,正如我提到的,我们需要将环境分发给每一个经济类别进行扩展。"
+ },
+ {
+  "seg": 34,
+  "start": 275.537,
+  "end": 283.926,
+  "speaker": "Unknown",
+  "en": "Many of you might know GDPVal where there's 205 domains in the Bureau of Labor Statistics across all the different jobs, but then you have to think through",
+  "zh": "你们很多人可能知道 GDPVal,劳动统计局在所有不同职业中有 205 个领域,但你还得思考"
+ },
+ {
+  "seg": 35,
+  "start": 284.326,
+  "end": 291.309,
+  "speaker": "Unknown",
+  "en": "How do we have all of the apps corresponding to all of those jobs, all the different scenarios, all the tasks is this enormous build out.",
+  "zh": "我们如何拥有对应所有这些职业的所有应用、所有不同场景、所有任务,这是一项巨大的建设。"
+ },
+ {
+  "seg": 36,
+  "start": 291.889,
+  "end": 295.37,
+  "speaker": "Unknown",
+  "en": "Only humans can measure the frontier in most domains, not every domain.",
+  "zh": "在大多数领域,只有人类能衡量前沿,不是所有领域。"
+ },
+ {
+  "seg": 37,
+  "start": 295.39,
+  "end": 299.772,
+  "speaker": "Unknown",
+  "en": "There are rare exceptions like math where you have a really clean simulation environment.",
+  "zh": "也有罕见的例外,比如数学,那里有一个非常干净的模拟环境。"
+ },
+ {
+  "seg": 38,
+  "start": 299.812,
+  "end": 303.613,
+  "speaker": "Unknown",
+  "en": "And so the model is able to learn from whether it got the right answer.",
+  "zh": "这样模型就能够从它是否得到了正确答案中学习。"
+ },
+ {
+  "seg": 39,
+  "start": 303.653,
+  "end": 311.636,
+  "speaker": "Unknown",
+  "en": "But in most domains like building a slide deck, the model has an incredibly hard time identifying reliably where it made its own mistake.",
+  "zh": "但在大多数领域,比如制作一份幻灯片,模型极难可靠地识别出它自己在哪里犯了错。"
+ },
+ {
+  "seg": 40,
+  "start": 312.076,
+  "end": 315.497,
+  "speaker": "Unknown",
+  "en": "It's as if you would be asking a human to grade their own homework.",
+  "zh": "这就好比让一个人给自己的作业打分。"
+ },
+ {
+  "seg": 41,
+  "start": 315.997,
+  "end": 328.48,
+  "speaker": "Unknown",
+  "en": "And so that's why it's really valuable to have a human create a rubric, similar to how a professor would create a rubric to grade an essay or a TA would grade that slide deck, similar to the way that a lot of us learn.",
+  "zh": "所以这就是为什么让人类创建一个评分细则非常有价值,就像教授会创建评分细则来给论文打分,或助教会给那份幻灯片打分一样,就像我们很多人学习的方式。"
+ },
+ {
+  "seg": 42,
+  "start": 328.56,
+  "end": 336.802,
+  "speaker": "Unknown",
+  "en": "It's in large part from the feedback we get from those around us, rather than purely plugging things into a calculator or a clean simulation.",
+  "zh": "我们的学习很大程度上来自我们从周围人那里得到的反馈,而不是纯粹把东西塞进计算器或一个干净的模拟环境里。"
+ },
+ {
+  "seg": 43,
+  "start": 338.283,
+  "end": 350.288,
+  "speaker": "Unknown",
+  "en": "And then building these verifiers is hard because anytime you're building this slide deck, you need to understand the full problem space of what are the 10 different slide decks that could be a good path to go down?",
+  "zh": "而构建这些验证器很难,因为任何时候你在做这份幻灯片,你都需要理解完整的问题空间:有哪 10 种不同的幻灯片可能是可以走的好路径?"
+ },
+ {
+  "seg": 44,
+  "start": 350.348,
+  "end": 352.81,
+  "speaker": "Unknown",
+  "en": "What are the dozens of mistakes you could possibly make?",
+  "zh": "你可能犯的几十种错误是什么?"
+ },
+ {
+  "seg": 45,
+  "start": 353.15,
+  "end": 358.212,
+  "speaker": "Unknown",
+  "en": "And how do you build a comprehensive verifier that captures this full solution area of what's possible?",
+  "zh": "你如何构建一个全面的验证器,捕捉所有可能性的完整解空间?"
+ },
+ {
+  "seg": 46,
+  "start": 358.733,
+  "end": 361.194,
+  "speaker": "Unknown",
+  "en": "And so what I'll walk through is a sample RL environment.",
+  "zh": "那么我将走查一个 RL 环境的示例。"
+ },
+ {
+  "seg": 47,
+  "start": 362.02,
+  "end": 364.262,
+  "speaker": "Unknown",
+  "en": "Excuse me, to also break this down for all of you.",
+  "zh": "抱歉,同时也为你们各位把这个拆解清楚。"
+ },
+ {
+  "seg": 48,
+  "start": 364.843,
+  "end": 373.65,
+  "speaker": "Unknown",
+  "en": "And part of the reason that this is so cool, which I'll get to in a moment, is that we developed a lot of this technology in collaboration with the labs.",
+  "zh": "这件事如此酷的部分原因,我马上会讲到,是我们与实验室合作开发了很多这样的技术。"
+ },
+ {
+  "seg": 49,
+  "start": 373.67,
+  "end": 380.797,
+  "speaker": "Unknown",
+  "en": "These are, of course, ones that we have open sourced and published to the world, but now that's all starting to get disseminated.",
+  "zh": "当然,这些是我们已经开源并向全世界发布的项目,但现在这一切都开始被传播开来。"
+ },
+ {
+  "seg": 50,
+  "start": 381.337,
+  "end": 395.084,
+  "speaker": "Unknown",
+  "en": "to the application layer companies that are building and owning their own intelligence as they realize that the three core pillars of their AI strategy are their compute, their algorithms or researchers, and the data sets they build.",
+  "zh": "到应用层公司,它们在构建并拥有自己的智能,因为它们意识到 AI 战略的三大核心支柱是它们的算力、它们的算法或研究人员,以及它们构建的数据集。"
+ },
+ {
+  "seg": 51,
+  "start": 395.104,
+  "end": 397.165,
+  "speaker": "Unknown",
+  "en": "And data is often the most differentiating factor.",
+  "zh": "而数据往往是最具差异化的因素。"
+ },
+ {
+  "seg": 52,
+  "start": 397.905,
+  "end": 411.495,
+  "speaker": "Unknown",
+  "en": "This is one that we published as a legal environment where we have lawyers from top law firms like Latham and Watkins write out a scenario of a real project that they worked on in their big law job.",
+  "zh": "这是我们以法律环境发布的一个,我们让来自 Latham and Watkins 等顶级律所的律师写下他们在大型律所工作中参与过的真实项目的场景。"
+ },
+ {
+  "seg": 53,
+  "start": 411.915,
+  "end": 416.979,
+  "speaker": "Unknown",
+  "en": "And then they create a full outline for a data room that corresponds to all the different...",
+  "zh": "然后他们创建一个完整的数据室大纲,对应所有不同的……"
+ },
+ {
+  "seg": 54,
+  "start": 417.759,
+  "end": 421.283,
+  "speaker": "Unknown",
+  "en": "Messages, emails, files, size of files.",
+  "zh": "消息、邮件、文件、文件大小。"
+ },
+ {
+  "seg": 55,
+  "start": 421.864,
+  "end": 424.787,
+  "speaker": "Unknown",
+  "en": "I cut off the full data room because it's very extensive.",
+  "zh": "我截断了完整的数据室,因为它非常庞大。"
+ },
+ {
+  "seg": 56,
+  "start": 425.668,
+  "end": 434.317,
+  "speaker": "Unknown",
+  "en": "And of course, there's a lot of model in the loop with how they effectively populate this, similar to how a software engineer now should not be coding by hand entirely themselves.",
+  "zh": "当然,在有效填充这些内容的过程中有大量的模型参与,类似于现在软件工程师不应该完全靠手写代码。"
+ },
+ {
+  "seg": 57,
+  "start": 434.658,
+  "end": 438.762,
+  "speaker": "Unknown",
+  "en": "They should probably be orchestrating agents on how to do this very productively.",
+  "zh": "他们可能应该在编排智能体来非常高效地完成这项工作。"
+ },
+ {
+  "seg": 58,
+  "start": 439.743,
+  "end": 449.311,
+  "speaker": "Unknown",
+  "en": "And then we render that data room into the apps, the clones of Google Workspace you can see in this scenario, and have prompts to roll out model trajectories against this.",
+  "zh": "然后我们把那个数据室渲染进应用里,也就是你在这个场景中看到的 Google Workspace 克隆版,并设置提示词来针对它进行模型轨迹的展开。"
+ },
+ {
+  "seg": 59,
+  "start": 449.351,
+  "end": 455.796,
+  "speaker": "Unknown",
+  "en": "And so in this one, it's evaluating the maximum total liability for Star Tankers International.",
+  "zh": "在这个例子中,它是在评估 Star Tankers International 的最大总责任。"
+ },
+ {
+  "seg": 60,
+  "start": 456.296,
+  "end": 464.861,
+  "speaker": "Unknown",
+  "en": "Limited compared to Cooper Jeffries Energy Corporation under the Oil and Petroleum Act, considering all of the context from this real scenario in the data room.",
+  "zh": "相较于 Cooper Jeffries Energy Corporation,依据的是《石油与石油法》,并考虑了数据室中这个真实场景的所有上下文。"
+ },
+ {
+  "seg": 61,
+  "start": 464.881,
+  "end": 476.668,
+  "speaker": "Unknown",
+  "en": "And then, as I mentioned, similar to how a professor would create a rubric to grade an essay, they have these rubric criteria that correspond to what are the characteristics of an accurate model response.",
+  "zh": "然后,正如我提到的,类似于教授创建评分标准来给论文打分,他们有这些评分标准,对应于准确模型响应的特征是什么。"
+ },
+ {
+  "seg": 62,
+  "start": 476.708,
+  "end": 480.951,
+  "speaker": "Unknown",
+  "en": "And making sure that these rubric criteria avoid reward hacking,",
+  "zh": "并确保这些评分标准避免奖励作弊,"
+ },
+ {
+  "seg": 63,
+  "start": 481.411,
+  "end": 490.939,
+  "speaker": "Unknown",
+  "en": "and effectively align with the when you roll out 100 trajectories, making sure all of those scores are accurate is incredibly technically challenging.",
+  "zh": "并有效地保持一致——当你展开 100 条轨迹时,确保所有那些分数都是准确的,这在技术上极具挑战性。"
+ },
+ {
+  "seg": 64,
+  "start": 491.38,
+  "end": 508.514,
+  "speaker": "Unknown",
+  "en": "And so there's an enormous amount of research, agendic quality control, training on the data, et cetera, that goes into how you solve that problem and then ultimately produce these high quality verifiers and leaderboards that give you an aggregate model score across how well all the different models are doing on",
+  "zh": "因此有大量的研究、智能体质量控制(agendic quality control)、数据训练等等,投入到如何解决这个问题,并最终产出这些高质量的验证器和排行榜,给你一个聚合的模型分数,涵盖所有不同模型在……上表现如何。"
+ },
+ {
+  "seg": 65,
+  "start": 509.514,
+  "end": 517.019,
+  "speaker": "Unknown",
+  "en": "And as we can see, one of the big changes over the last few months is that GLM 5.2 and Kimi K3 are on the leaderboard.",
+  "zh": "正如我们所见,过去几个月的一个重大变化是 GLM 5.2 和 Kimi K3 登上了排行榜。"
+ },
+ {
+  "seg": 66,
+  "start": 517.539,
+  "end": 534.309,
+  "speaker": "Unknown",
+  "en": "And so that is a huge opportunity for all of you because that gives us the foundation to actually achieve frontier intelligence and all of the specific applications and verticals that you're focusing on that's not too far away.",
+  "zh": "这对在座的各位来说是一个巨大的机会,因为它为我们真正实现前沿智能以及你们所专注的所有具体应用和垂直领域奠定了基础,而且这并不遥远。"
+ },
+ {
+  "seg": 67,
+  "start": 534.829,
+  "end": 549.378,
+  "speaker": "Unknown",
+  "en": "And so to give a little bit of context on what that looks like, I'll share an example of post-training on Apex Agents, which is the data set that I, or the sample I'd just shown before, where we have 1800 tasks in this example.",
+  "zh": "为了提供一点背景,说明那是什么样子,我将分享一个关于 Apex Agents 后训练的例子,也就是我刚才展示的数据集,或者说样本,在这个例子中我们有 1800 个任务。"
+ },
+ {
+  "seg": 68,
+  "start": 549.678,
+  "end": 560.745,
+  "speaker": "Unknown",
+  "en": "This was a post-training run of GLM 4.7, but we're redoing a lot of them for KimiK3, so we'll have updated results for you all soon, where you can see the jumps just on 1800 tasks with about 500k in compute.",
+  "zh": "这是 GLM 4.7 的一次后训练运行,但我们正在为 KimiK3 重做其中很多,所以很快会为各位提供更新的结果,你可以看到仅在 1800 个任务、大约 50 万算力的情况下,"
+ },
+ {
+  "seg": 69,
+  "start": 562.986,
+  "end": 564.367,
+  "speaker": "Unknown",
+  "en": "are pretty dramatic.",
+  "zh": "提升相当显著。"
+ },
+ {
+  "seg": 70,
+  "start": 564.527,
+  "end": 569.21,
+  "speaker": "Unknown",
+  "en": "Corporate law going from 4.7% to 26.6%.",
+  "zh": "公司法从 4.7% 提升到 26.6%。"
+ },
+ {
+  "seg": 71,
+  "start": 570.031,
+  "end": 587.803,
+  "speaker": "Unknown",
+  "en": "But notice that this is just the Apex agents data set we gave it, and it actually generalized incredibly well to GDPVal and Apex V1, which doesn't have these data rooms, even just seeing nominal gains and some other benchmarks as well.",
+  "zh": "但请注意,这只是我们给它的 Apex agents 数据集,而它实际上泛化到了 GDPVal 和 Apex V1 上,泛化得非常好——后者没有这些数据室——甚至在另外一些基准测试上也只看到微小的提升。"
+ },
+ {
+  "seg": 72,
+  "start": 587.863,
+  "end": 588.184,
+  "speaker": "Unknown",
+  "en": "And so",
+  "zh": "因此"
+ },
+ {
+  "seg": 73,
+  "start": 588.984,
+  "end": 605.209,
+  "speaker": "Unknown",
+  "en": "We're doing a lot of this work of working with customers like Harvey, who I know will present on stuff later, to help build out the environments corresponding to their specific domain so that they can build frontier intelligence within that.",
+  "zh": "我们正在做大量这样的工作,与像 Harvey 这样的客户合作——我知道他们稍后会做展示——帮助他们构建对应其特定领域的环境,以便他们能在其中构建前沿智能。"
+ },
+ {
+  "seg": 74,
+  "start": 605.229,
+  "end": 617.633,
+  "speaker": "Unknown",
+  "en": "And I think Andrew talked about how Cursor was a great first example of how an application layer company could build an industry-leading model that built an enormous amount of value for their customers.",
+  "zh": "我认为 Andrew 谈到了 Cursor 是一个很好的首个例子,说明应用层公司如何构建行业领先的模型,为其客户创造了巨大的价值。"
+ },
+ {
+  "seg": 75,
+  "start": 617.693,
+  "end": 618.433,
+  "speaker": "Unknown",
+  "en": "And I believe that",
+  "zh": "而我相信"
+ },
+ {
+  "seg": 76,
+  "start": 618.893,
+  "end": 628.615,
+  "speaker": "Unknown",
+  "en": "Over the next 12 months, there's going to be dozens of examples just like that, where companies own their own intelligence, and that is the key source of the modes that they're building.",
+  "zh": "在接下来的 12 个月里,将会出现几十个类似的例子,公司拥有自己的智能,而这正是他们所构建的护城河的关键来源。"
+ },
+ {
+  "seg": 77,
+  "start": 629.356,
+  "end": 632.536,
+  "speaker": "Unknown",
+  "en": "Actually, Josh and I talked about this the other day as well.",
+  "zh": "实际上,Josh 和我前几天也谈到了这个。"
+ },
+ {
+  "seg": 78,
+  "start": 632.556,
+  "end": 637.738,
+  "speaker": "Unknown",
+  "en": "A couple of examples of ways to curate high-quality data sets.",
+  "zh": "我们最常看到的三种方式——我很乐意聊聊并发链接给大家——第一种是按任务,这是最常见的。"
+ },
+ {
+  "seg": 79,
+  "start": 637.958,
+  "end": 646.36,
+  "speaker": "Unknown",
+  "en": "The general three that we see most that I'm happy to talk about and send people links to is, first, by task is the most common.",
+  "zh": "我们最常见到的通用三类,我很乐意谈谈并发链接给大家的是,第一,按任务划分是最常见的。"
+ },
+ {
+  "seg": 80,
+  "start": 647.295,
+  "end": 657.103,
+  "speaker": "Unknown",
+  "en": "Where people would say, I really like this data shape of environments in law, and we will pay $2,000 per task to scale this up.",
+  "zh": "人们会说,我非常喜欢法律领域环境的这种数据形态,我们愿意为每个任务支付 2000 美元来扩大规模。"
+ },
+ {
+  "seg": 81,
+  "start": 657.424,
+  "end": 663.289,
+  "speaker": "Unknown",
+  "en": "And as an example, certain frontier labs might buy 50,000 tasks a month from us.",
+  "zh": "举例来说,某些前沿实验室可能每月从我们这里购买 50000 个任务。"
+ },
+ {
+  "seg": 82,
+  "start": 664.009,
+  "end": 666.852,
+  "speaker": "Unknown",
+  "en": "And so it tends to be a pretty dramatic scale.",
+  "zh": "所以这往往是相当可观的规模。"
+ },
+ {
+  "seg": 83,
+  "start": 667.672,
+  "end": 670.073,
+  "speaker": "Unknown",
+  "en": "And these tasks would generally be very complex.",
+  "zh": "而这些任务通常会非常复杂。"
+ },
+ {
+  "seg": 84,
+  "start": 670.333,
+  "end": 674.094,
+  "speaker": "Unknown",
+  "en": "Some would even take humans up to a month to complete that given task.",
+  "zh": "有些任务甚至需要人类花费长达一个月的时间来完成。"
+ },
+ {
+  "seg": 85,
+  "start": 674.134,
+  "end": 676.535,
+  "speaker": "Unknown",
+  "en": "Sometimes it would take just a few hours.",
+  "zh": "有时候只需要几个小时。"
+ },
+ {
+  "seg": 86,
+  "start": 677.556,
+  "end": 679.816,
+  "speaker": "Unknown",
+  "en": "And these would be sort of custom per task pricing.",
+  "zh": "这些会是按任务定制的定价。"
+ },
+ {
+  "seg": 87,
+  "start": 680.196,
+  "end": 688.779,
+  "speaker": "Unknown",
+  "en": "Second is off-the-shelf data, where we've invested hundreds of millions of dollars in building our own data sets that we sell to multiple customers.",
+  "zh": "第二种是现成数据,我们已经投资了数亿美元来构建自己的数据集,出售给多个客户。"
+ },
+ {
+  "seg": 88,
+  "start": 688.799,
+  "end": 690.18,
+  "speaker": "Unknown",
+  "en": "All these new NeoLabs are",
+  "zh": "所有这些新的 NeoLabs 都是"
+ },
+ {
+  "seg": 89,
+  "start": 690.32,
+  "end": 698.945,
+  "speaker": "Unknown",
+  "en": "We're generally erring more towards off-the-shelf data because it doesn't make sense for 10 different labs to all be building their own data sets.",
+  "zh": "我们通常更倾向于现成数据,因为让 10 个不同的实验室都各自构建自己的数据集是没有意义的。"
+ },
+ {
+  "seg": 90,
+  "start": 698.965,
+  "end": 702.987,
+  "speaker": "Unknown",
+  "en": "There's a lot of value to building something once that can then be applied to everyone.",
+  "zh": "构建一次然后能应用于所有人的东西,其中有很大的价值。"
+ },
+ {
+  "seg": 91,
+  "start": 703.427,
+  "end": 714.092,
+  "speaker": "Unknown",
+  "en": "And then the final, which we see a little bit of but is less of our focus anymore, is just providing the experts so that customers are able to",
+  "zh": "最后一种,我们看到一些,但已不再是我们的重点,就是只提供专家,让客户能够"
+ },
+ {
+  "seg": 92,
+  "start": 715.533,
+  "end": 720.358,
+  "speaker": "Unknown",
+  "en": "or organize the experts on their own in just an hourly model.",
+  "zh": "或者自己组织专家,采用纯按小时计费的模式。"
+ },
+ {
+  "seg": 93,
+  "start": 720.418,
+  "end": 731.668,
+  "speaker": "Unknown",
+  "en": "So we do a little bit of that when people like that was how Harvey got started with us hiring some lawyers, but it generally moves towards more of these skilled offerings of data over time.",
+  "zh": "当人们……比如 Harvey 最初就是这样和我们起步的,雇了一些律师,我们确实会做一些这样的业务,但总体上它会随着时间的推移转向更多这类技能型的数据产品。"
+ },
+ {
+  "seg": 94,
+  "start": 731.708,
+  "end": 736.512,
+  "speaker": "Unknown",
+  "en": "So that's a little bit of the background of how to build RL environments, what they are,",
+  "zh": "这就是关于如何构建 RL 环境、它们是什么的一点背景,"
+ },
+ {
+  "seg": 95,
+  "start": 737.072,
+  "end": 745.834,
+  "speaker": "Unknown",
+  "en": "And I'm really excited about all this technology that we have that has previously been limited to the Frontier Labs all making its way to all of you.",
+  "zh": "我对我们拥有的所有这些技术感到非常兴奋,这些技术以前仅限于前沿实验室,现在正在向在座的各位普及。"
+ },
+ {
+  "seg": 96,
+  "start": 745.874,
+  "end": 749.294,
+  "speaker": "Unknown",
+  "en": "And so happy to answer any questions about that.",
+  "zh": "所以我很乐意回答关于这方面的任何问题。"
+ },
+ {
+  "seg": 97,
+  "start": 754.555,
+  "end": 754.915,
+  "speaker": "Unknown",
+  "en": "Sweet.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 98,
+  "start": 755.855,
+  "end": 756.195,
+  "speaker": "Unknown",
+  "en": "Go ahead.",
+  "zh": "请讲。"
+ },
+ {
+  "seg": 99,
+  "start": 757.776,
+  "end": 758.036,
+  "speaker": "Unknown",
+  "en": "Hey.",
+  "zh": "嗨。"
+ },
+ {
+  "seg": 100,
+  "start": 759.496,
+  "end": 760.776,
+  "speaker": "Unknown",
+  "en": "I'm Ali from Astrocade.",
+  "zh": "我是 Ali,来自 Astrocade。"
+ },
+ {
+  "seg": 101,
+  "start": 761.136,
+  "end": 763.717,
+  "speaker": "Unknown",
+  "en": "My question is kind of open-ended but simple.",
+  "zh": "我的问题比较开放,但很简单。"
+ },
+ {
+  "seg": 102,
+  "start": 763.757,
+  "end": 764.917,
+  "speaker": "Unknown",
+  "en": "How do you price data?",
+  "zh": "你们如何给数据定价?"
+ },
+ {
+  "seg": 103,
+  "start": 765.668,
+  "end": 766.989,
+  "speaker": "Unknown",
+  "en": "How do you value data?",
+  "zh": "你们如何评估数据的价值?"
+ },
+ {
+  "seg": 104,
+  "start": 767.829,
+  "end": 769.99,
+  "speaker": "Unknown",
+  "en": "So there's so many different ways.",
+  "zh": "方法有很多种。"
+ },
+ {
+  "seg": 105,
+  "start": 770.15,
+  "end": 775.793,
+  "speaker": "Unknown",
+  "en": "I mean, the most natural would be our customers care about model improvement, right?",
+  "zh": "我是说,最自然的方式是,我们的客户关心模型提升,对吧?"
+ },
+ {
+  "seg": 106,
+  "start": 775.993,
+  "end": 782.636,
+  "speaker": "Unknown",
+  "en": "And so our customers have a given goal of they want to be at the frontier on a given leaderboard.",
+  "zh": "所以我们的客户有一个给定的目标,就是想在某个排行榜上达到前沿水平。"
+ },
+ {
+  "seg": 107,
+  "start": 782.676,
+  "end": 789.34,
+  "speaker": "Unknown",
+  "en": "And so we're able to work backwards from how much is that worth to them and how much should we charge per task?",
+  "zh": "于是我们能够从「这对他们值多少钱」以及「每个任务应该收多少钱」往回推算。"
+ },
+ {
+  "seg": 108,
+  "start": 789.36,
+  "end": 791.441,
+  "speaker": "Unknown",
+  "en": "How many tasks do we think would get them to that goal?",
+  "zh": "我们认为多少个任务能让他们达成那个目标?"
+ },
+ {
+  "seg": 109,
+  "start": 791.461,
+  "end": 793.882,
+  "speaker": "Unknown",
+  "en": "And so when we think about a company like",
+  "zh": "所以当我们考虑像"
+ },
+ {
+  "seg": 110,
+  "start": 794.462,
+  "end": 800.288,
+  "speaker": "Unknown",
+  "en": "NVIDIA, they're probably willing to pay a billion dollars to have a frontier open source model.",
+  "zh": "NVIDIA 这样的公司时,他们可能愿意花十亿美元拥有一个前沿开源模型。"
+ },
+ {
+  "seg": 111,
+  "start": 800.769,
+  "end": 807.535,
+  "speaker": "Unknown",
+  "en": "And so there's a lot of complexity of how do we price all the different ingredients that go into making that happen?",
+  "zh": "而要如何为促成这件事的所有不同要素定价,这里面有很多复杂性。"
+ },
+ {
+  "seg": 112,
+  "start": 808.476,
+  "end": 810.018,
+  "speaker": "Unknown",
+  "en": "The other way that we price...",
+  "zh": "我们定价的另一种……"
+ },
+ {
+  "seg": 113,
+  "start": 812.64,
+  "end": 829.834,
+  "speaker": "Unknown",
+  "en": "Lens we look at it through is also our cost structure to make them, where, of course, when we have a task that takes 10 hours of human time and we're paying the human $150 an hour, there might be a $1,500 cost basis.",
+  "zh": "视角是我们的成本结构,当然,当我们有一个需要 10 小时人工时间的任务,而我们付给这个人每小时 150 美元时,可能有 1500 美元的成本基础。"
+ },
+ {
+  "seg": 114,
+  "start": 829.874,
+  "end": 837.86,
+  "speaker": "Unknown",
+  "en": "And so then it becomes a question of what margin do we want to run on top of that based on how differentiated and frontier that specific task is.",
+  "zh": "那么接下来就是一个问题:基于该任务的差异化和前沿程度,我们想在其上加多少利润率。"
+ },
+ {
+  "seg": 115,
+  "start": 839.4,
+  "end": 840.901,
+  "speaker": "Unknown",
+  "en": "But it's super wide range.",
+  "zh": "但这个范围非常宽。"
+ },
+ {
+  "seg": 116,
+  "start": 840.941,
+  "end": 844.063,
+  "speaker": "Unknown",
+  "en": "We have tasks that range from $50 to $10,000.",
+  "zh": "我们的任务价格从 50 美元到 10000 美元不等。"
+ },
+ {
+  "seg": 117,
+  "start": 846.845,
+  "end": 848.266,
+  "speaker": "Unknown",
+  "en": "How do you think about data quality?",
+  "zh": "你如何看待数据质量?"
+ },
+ {
+  "seg": 118,
+  "start": 848.286,
+  "end": 859.473,
+  "speaker": "Unknown",
+  "en": "You mentioned utilizing human experts to label data, and how do you compare the human-labeled data and the frontier labs, the judgment data?",
+  "zh": "你提到利用人类专家来标注数据,那你怎么比较人类标注的数据和前沿实验室的判断数据?"
+ },
+ {
+  "seg": 119,
+  "start": 859.813,
+  "end": 862.515,
+  "speaker": "Unknown",
+  "en": "How do you compare them to, from your opinion?",
+  "zh": "在你看来,你怎么比较它们?"
+ },
+ {
+  "seg": 120,
+  "start": 863.827,
+  "end": 866.369,
+  "speaker": "Unknown",
+  "en": "So first question was, how do we think about quality?",
+  "zh": "所以第一个问题是,我们如何看待质量?"
+ },
+ {
+  "seg": 121,
+  "start": 866.529,
+  "end": 873.052,
+  "speaker": "Unknown",
+  "en": "Second one was sort of, how do we compare the judgment of preference labels to the autograders?",
+  "zh": "第二个问题是,我们如何比较偏好标注的判断力和自动评分器?"
+ },
+ {
+  "seg": 122,
+  "start": 873.953,
+  "end": 880.497,
+  "speaker": "Unknown",
+  "en": "So they correspond, which is generally when people say data quality, they're referring to two things.",
+  "zh": "它们是对应的,通常当人们说数据质量时,他们指的是两件事。"
+ },
+ {
+  "seg": 123,
+  "start": 880.937,
+  "end": 885.223,
+  "speaker": "Unknown",
+  "en": "First is realism, and secondly is accuracy of verifiers.",
+  "zh": "第一是真实性,其次是验证器的准确性。"
+ },
+ {
+  "seg": 124,
+  "start": 886.445,
+  "end": 893.794,
+  "speaker": "Unknown",
+  "en": "On realism, it's just like they want to automate everything in the economy that corresponds to corporate law in this case, right?",
+  "zh": "关于真实性,就是他们想自动化经济中的一切,在这个例子中对应的是公司法,对吧?"
+ },
+ {
+  "seg": 125,
+  "start": 893.834,
+  "end": 896.958,
+  "speaker": "Unknown",
+  "en": "And so it's like, how do we make sure that this actually reflects",
+  "zh": "所以就是,我们如何确保这确实反映了"
+ },
+ {
+  "seg": 126,
+  "start": 897.419,
+  "end": 901.783,
+  "speaker": "Unknown",
+  "en": "The real distribution of what we would see in a real lawyer's environment.",
+  "zh": "我们在真实律师环境中会看到的真实分布。"
+ },
+ {
+  "seg": 127,
+  "start": 902.323,
+  "end": 908.388,
+  "speaker": "Unknown",
+  "en": "And that's one of the reasons that experts create outlines and help to guide all the processes of the data curation.",
+  "zh": "这也是专家创建大纲并帮助指导数据整理全流程的原因之一。"
+ },
+ {
+  "seg": 128,
+  "start": 908.428,
+  "end": 914.493,
+  "speaker": "Unknown",
+  "en": "Realism of the environment, the apps, the tasks, everything is incredibly important.",
+  "zh": "环境、应用、任务的真实性,一切都极其重要。"
+ },
+ {
+  "seg": 129,
+  "start": 914.673,
+  "end": 920.818,
+  "speaker": "Unknown",
+  "en": "And also granularly understanding the taxonomy that drives that realism across the entire distribution that you're looking for.",
+  "zh": "还有在你所追求的整个分布上,细粒度地理解驱动这种真实性的分类体系。"
+ },
+ {
+  "seg": 130,
+  "start": 921.498,
+  "end": 927.885,
+  "speaker": "Unknown",
+  "en": "The second part of it relates to the other way people think about quality, which is the accuracy of the verifiers.",
+  "zh": "第二部分关系到人们看待质量的另一种方式,即验证器的准确性。"
+ },
+ {
+  "seg": 131,
+  "start": 928.266,
+  "end": 937.516,
+  "speaker": "Unknown",
+  "en": "Because the way that you would train one of these models is you might roll out 100 trajectories of KimiK3 and then use this rubric to score all of those trajectories.",
+  "zh": "因为你训练这类模型的方式,可能是 rollout 100 条 KimiK3 的轨迹,然后用这个评分标准给所有这些轨迹打分。"
+ },
+ {
+  "seg": 132,
+  "start": 938.056,
+  "end": 942.958,
+  "speaker": "Unknown",
+  "en": "And as you can imagine, there's like so many different paths that a model can go down.",
+  "zh": "而你可以想象,模型可以走的不同路径非常多。"
+ },
+ {
+  "seg": 133,
+  "start": 943.218,
+  "end": 951.12,
+  "speaker": "Unknown",
+  "en": "And so you want to make sure that the way this rubric is doing the scoring is the same as if we were to just have human stack rank those hundred trajectories.",
+  "zh": "所以你要确保这个评分标准打分的方式,和我们直接让人类对那 100 条轨迹做排名是一样的。"
+ },
+ {
+  "seg": 134,
+  "start": 951.18,
+  "end": 959.543,
+  "speaker": "Unknown",
+  "en": "And so what we do for that is a process called trajectory analysis, where we roll out 10 trajectories of the model that we're focused on improving.",
+  "zh": "我们为此做的流程叫轨迹分析,我们对重点要提升的模型 rollout 10 条轨迹。"
+ },
+ {
+  "seg": 135,
+  "start": 960.703,
+  "end": 975.651,
+  "speaker": "Unknown",
+  "en": "And then score all of those and have some combination of agentic quality control systems and some human review go through to make sure that all of the scores align with the goals.",
+  "zh": "然后给所有这些打分,并由智能体质控系统和部分人工审查相结合来逐一检查,确保所有分数与目标一致。"
+ },
+ {
+  "seg": 136,
+  "start": 976.231,
+  "end": 986.356,
+  "speaker": "Unknown",
+  "en": "And sometimes you can also use human feedback evals or preference labels as a eval for your auto grader is the other way related to that that you're able to solve for.",
+  "zh": "有时你也可以用人类反馈评估或偏好标注来作为自动评分器的评估,这是与之相关的另一种可以求解的方式。"
+ },
+ {
+  "seg": 137,
+  "start": 990.08,
+  "end": 991.903,
+  "speaker": "Unknown",
+  "en": "Go ahead.",
+  "zh": "请讲。"
+ },
+ {
+  "seg": 138,
+  "start": 998.092,
+  "end": 1008.056,
+  "speaker": "Unknown",
+  "en": "So the fascinating thing is I think that there's been a lot of misinterpretation of what people mean when they say synthetic data because like RLVR is a bet on synthetic data.",
+  "zh": "有趣的地方在于,我认为人们对「合成数据」的含义有很多误解,因为 RLVR 本质上就是一场对合成数据的押注。"
+ },
+ {
+  "seg": 139,
+  "start": 1008.136,
+  "end": 1020.96,
+  "speaker": "Unknown",
+  "en": "It's basically let's roll out a bunch of synthetic model trajectories rather than having the humans write the SFT and then let's score all of them and let the models learn from all of these like synthetic model trajectories.",
+  "zh": "它基本上就是 rollout 一堆合成的模型轨迹,而不是让人类来写 SFT,然后给所有这些打分,让模型从所有这些合成的模型轨迹中学习。"
+ },
+ {
+  "seg": 140,
+  "start": 1021.28,
+  "end": 1024.261,
+  "speaker": "Unknown",
+  "en": "So I think that's the first way that synthetics get used.",
+  "zh": "所以我认为这是合成数据的第一种用法。"
+ },
+ {
+  "seg": 141,
+  "start": 1024.401,
+  "end": 1025.642,
+  "speaker": "Unknown",
+  "en": "The second way is that",
+  "zh": "第二种用法是,"
+ },
+ {
+  "seg": 142,
+  "start": 1026.262,
+  "end": 1042.606,
+  "speaker": "Unknown",
+  "en": "Models play a giant role in the way that we populate environments and create tasks in the same way that a lawyer that is writing a legal memo should definitely be using Claude or ChatGPT to do that.",
+  "zh": "模型在我们填充环境和创建任务的过程中扮演着巨大角色,就像一个撰写法律备忘录的律师肯定应该用 Claude 或 ChatGPT 来做这件事一样。"
+ },
+ {
+  "seg": 143,
+  "start": 1042.986,
+  "end": 1050.288,
+  "speaker": "Unknown",
+  "en": "The experts that are building out these data rooms should definitely be using Claude, ChatGPT, or whatever model to help them do that.",
+  "zh": "搭建这些数据室的专家也绝对应该用 Claude、ChatGPT 或任何模型来帮助他们做这件事。"
+ },
+ {
+  "seg": 144,
+  "start": 1050.888,
+  "end": 1053.369,
+  "speaker": "Unknown",
+  "en": "And there's a lot of ways that the model can make them more efficient.",
+  "zh": "模型可以在很多方面让他们更高效。"
+ },
+ {
+  "seg": 145,
+  "start": 1053.729,
+  "end": 1067.158,
+  "speaker": "Unknown",
+  "en": "But the reason that humans are still an essential component of the process that's incredibly differentiated is that you need humans almost definitionally to measure what is beyond the frontier of the model capabilities.",
+  "zh": "但人类仍然是这个过程中不可或缺且极具差异化的一部分,原因在于,几乎从定义上说,你需要人类来衡量模型能力前沿之外的东西。"
+ },
+ {
+  "seg": 146,
+  "start": 1067.678,
+  "end": 1073.522,
+  "speaker": "Unknown",
+  "en": "You can't just tell the model, come up with the legal environment and then tell me which of your legal memos are good and bad.",
+  "zh": "你不能只是告诉模型,设计出一个法律环境,然后告诉我你的哪些法律备忘录是好的、哪些是坏的。"
+ },
+ {
+  "seg": 147,
+  "start": 1073.562,
+  "end": 1077.465,
+  "speaker": "Unknown",
+  "en": "It's super noisy and there's not clear signal associated with that.",
+  "zh": "那样噪音非常大,也没有清晰的信号。"
+ },
+ {
+  "seg": 148,
+  "start": 1077.565,
+  "end": 1082.648,
+  "speaker": "Unknown",
+  "en": "You need something that has capabilities beyond the frontier of that model to do so reliably.",
+  "zh": "你需要某种能力超越该模型前沿的东西才能可靠地做到这一点。"
+ },
+ {
+  "seg": 149,
+  "start": 1086.058,
+  "end": 1086.818,
+  "speaker": "Unknown",
+  "en": "Thank you for doing this.",
+  "zh": "感谢你们做这个节目。"
+ },
+ {
+  "seg": 150,
+  "start": 1087.678,
+  "end": 1092.8,
+  "speaker": "Unknown",
+  "en": "My question is, RL environments seem like they're all the rage now, and maybe have been for about a year.",
+  "zh": "我的问题是,RL 环境现在似乎炙手可热,而且可能已经火了一年了。"
+ },
+ {
+  "seg": 151,
+  "start": 1092.82,
+  "end": 1098.541,
+  "speaker": "Unknown",
+  "en": "I hadn't really been hearing about them prior to that, and it was all human expert labeling.",
+  "zh": "在那之前我真的没怎么听说过它们,当时都是人类专家标注。"
+ },
+ {
+  "seg": 152,
+  "start": 1098.641,
+  "end": 1102.702,
+  "speaker": "Unknown",
+  "en": "And so why is it all about RL environments now?",
+  "zh": "那么为什么现在都是 RL 环境了?"
+ },
+ {
+  "seg": 153,
+  "start": 1102.862,
+  "end": 1106.203,
+  "speaker": "Unknown",
+  "en": "Is that the most relevant thing for application companies to be thinking about?",
+  "zh": "对于应用公司来说,这是最值得思考的事情吗?"
+ },
+ {
+  "seg": 154,
+  "start": 1106.283,
+  "end": 1108.083,
+  "speaker": "Unknown",
+  "en": "And is there going to be something after RL environments?",
+  "zh": "在 RL 环境之后,还会出现别的东西吗?"
+ },
+ {
+  "seg": 155,
+  "start": 1110.338,
+  "end": 1122.753,
+  "speaker": "Unknown",
+  "en": "So I'll start with why it's become the rage and maybe some of the differences also between the deep research paradigm and the sort of environments paradigm as we saw in 2025.",
+  "zh": "那我先从为什么它变得火热说起,也谈谈 2025 年我们看到的部分,它和深度研究范式与环境范式之间的一些差异。"
+ },
+ {
+  "seg": 156,
+  "start": 1122.813,
+  "end": 1126.077,
+  "speaker": "Unknown",
+  "en": "And then I'll talk about looking forward, what we see evolving in the data landscape.",
+  "zh": "然后我会展望未来,谈谈我们看到的数据格局正在发生怎样的演变。"
+ },
+ {
+  "seg": 157,
+  "start": 1126.718,
+  "end": 1133.988,
+  "speaker": "Unknown",
+  "en": "Specifically, I think that the reason the deep research environments were the first was because deep research had tool use with search.",
+  "zh": "具体来说,我认为深度研究环境之所以最先出现,是因为深度研究有了带搜索的工具使用。"
+ },
+ {
+  "seg": 158,
+  "start": 1134.469,
+  "end": 1142.32,
+  "speaker": "Unknown",
+  "en": "So search was the tool and the environment that the model would work in, but the experts would not necessarily be populating apps.",
+  "zh": "所以搜索是模型工作所处的工具和环境,但专家不一定会去填充应用。"
+ },
+ {
+  "seg": 159,
+  "start": 1142.76,
+  "end": 1147.986,
+  "speaker": "Unknown",
+  "en": "So it was sort of a lighter version of an RL environment where they would just create rubrics corresponding to this.",
+  "zh": "所以它算是 RL 环境的一个轻量版本,专家们只需创建与之对应的评分标准。"
+ },
+ {
+  "seg": 160,
+  "start": 1148.407,
+  "end": 1154.574,
+  "speaker": "Unknown",
+  "en": "And again, I only talk about this stuff because it's a couple of years old at this point, so it's no longer super confidential.",
+  "zh": "再说一遍,我之所以谈论这些东西,是因为到目前它已经是几年前的旧事了,所以不再那么机密了。"
+ },
+ {
+  "seg": 161,
+  "start": 1154.754,
+  "end": 1159.159,
+  "speaker": "Unknown",
+  "en": "And then for the trend of apps in 2025, I think that...",
+  "zh": "然后是 2025 年应用的趋势,我认为……"
+ },
+ {
+  "seg": 162,
+  "start": 1161.081,
+  "end": 1173.672,
+  "speaker": "Unknown",
+  "en": "really became giant because people realized that the primary bottleneck to making the models useful was how they started to use both all the context in the code base and all the tools on our laptops, right?",
+  "zh": "它之所以变得如此巨大,是因为人们意识到,让模型变得有用的主要瓶颈,在于它们如何开始同时使用代码库中的全部上下文以及我们笔记本电脑上的全部工具,对吧?"
+ },
+ {
+  "seg": 163,
+  "start": 1173.692,
+  "end": 1181.8,
+  "speaker": "Unknown",
+  "en": "And so if we want this in the user distribution of usage, then we need to get it in the data distribution that the models are learning from.",
+  "zh": "所以,如果我们想让这些出现在用户的使用分布中,那就需要让它进入模型学习所依据的数据分布中。"
+ },
+ {
+  "seg": 164,
+  "start": 1182.52,
+  "end": 1197.744,
+  "speaker": "Unknown",
+  "en": "And so there's going to continue to be this giant scale up of diversity across all three of these categories on a going forward basis, but there's going to be some changes to maybe name two of those changes that we're thinking about the most.",
+  "zh": "因此,往后在这三个类别上,多样性都会持续大规模扩展,但也会有一些变化,我想说其中我们思考最多的两个变化。"
+ },
+ {
+  "seg": 165,
+  "start": 1198.184,
+  "end": 1200.605,
+  "speaker": "Unknown",
+  "en": "The first one is Ultra Long Horizon.",
+  "zh": "第一个是超长时程。"
+ },
+ {
+  "seg": 166,
+  "start": 1201.085,
+  "end": 1205.567,
+  "speaker": "Unknown",
+  "en": "Like right now, agents mostly aren't trained to do things that are over 10 hours.",
+  "zh": "比如现在,智能体大多没有被训练去执行超过 10 小时的事情。"
+ },
+ {
+  "seg": 167,
+  "start": 1206.107,
+  "end": 1211.67,
+  "speaker": "Unknown",
+  "en": "And we need to start building tasks for things that might take a human 100 hours or even 1,000 hours to do.",
+  "zh": "而我们需要开始为那些人类可能要花 100 小时甚至 1,000 小时才能完成的事情构建任务。"
+ },
+ {
+  "seg": 168,
+  "start": 1212.09,
+  "end": 1213.931,
+  "speaker": "Unknown",
+  "en": "And so that's going to be a giant shift.",
+  "zh": "所以那会是一个巨大的转变。"
+ },
+ {
+  "seg": 169,
+  "start": 1214.331,
+  "end": 1220.574,
+  "speaker": "Unknown",
+  "en": "And then the other large shift that we're seeing is introducing virtual coworkers, which corresponds to that.",
+  "zh": "然后我们看到的另一个重大转变是引入虚拟同事,这与前者相对应。"
+ },
+ {
+  "seg": 170,
+  "start": 1221.594,
+  "end": 1229.218,
+  "speaker": "Unknown",
+  "en": "Like one of my favorite questions to ask people when they're thinking about their data distribution is what percentage of tasks that they do in their job",
+  "zh": "比如当人们思考自己的数据分布时,我最喜欢问他们的一个问题之一是,他们工作中所做任务的多大比例"
+ },
+ {
+  "seg": 171,
+  "start": 1229.798,
+  "end": 1231.44,
+  "speaker": "Unknown",
+  "en": "require interacting with other people.",
+  "zh": "需要与其他人互动。"
+ },
+ {
+  "seg": 172,
+  "start": 1232.541,
+  "end": 1234.504,
+  "speaker": "Unknown",
+  "en": "And most people would say like 60 or 70%.",
+  "zh": "大多数人会说大概 60% 或 70%。"
+ },
+ {
+  "seg": 173,
+  "start": 1235.064,
+  "end": 1237.507,
+  "speaker": "Unknown",
+  "en": "Some people say a lot more, some people say a little bit less.",
+  "zh": "有些人说要多得多,有些人说稍微少一点。"
+ },
+ {
+  "seg": 174,
+  "start": 1238.608,
+  "end": 1248.019,
+  "speaker": "Unknown",
+  "en": "But then if you map that on to what percentage of evals measure how well the models can interact with other people, it's like 1%.",
+  "zh": "但如果把这一点对应到评估中,有多大比例的评估衡量模型与他人互动的能力,那大概是 1%。"
+ },
+ {
+  "seg": 175,
+  "start": 1248.16,
+  "end": 1249.641,
+  "speaker": "Unknown",
+  "en": "Maybe TauBench has a little bit of this.",
+  "zh": "也许 TauBench 有一点这方面的内容。"
+ },
+ {
+  "seg": 176,
+  "start": 1251.182,
+  "end": 1265.908,
+  "speaker": "Unknown",
+  "en": "And so there's this giant realism gap associated with how you actually measure how well agents engage in social interaction throughout all of the different people and other agents that they need to work with in their jobs.",
+  "zh": "所以这里存在一个巨大的现实差距,涉及你究竟如何衡量智能体在工作中与所有需要协作的不同人员和其他智能体进行社交互动的能力。"
+ },
+ {
+  "seg": 177,
+  "start": 1268.727,
+  "end": 1274.429,
+  "speaker": "Unknown",
+  "en": "You talked about rubric generation, which gives you a bespoke access of clarifiability per task.",
+  "zh": "你谈到了评分标准生成,它为每个任务提供了量身定制的可澄清性。"
+ },
+ {
+  "seg": 178,
+  "start": 1274.889,
+  "end": 1277.45,
+  "speaker": "Unknown",
+  "en": "And from what I understood, that's bottlenecked by experts.",
+  "zh": "据我所知,这受限于专家。"
+ },
+ {
+  "seg": 179,
+  "start": 1277.49,
+  "end": 1284.892,
+  "speaker": "Unknown",
+  "en": "Have you found any success of being able to scale that up with your models, giving you some heuristic or even post-training models?",
+  "zh": "你有没有发现,用你的模型来把它规模化会取得一些成功,给你一些启发式方法,甚至后训练模型?"
+ },
+ {
+  "seg": 180,
+  "start": 1286.483,
+  "end": 1296.968,
+  "speaker": "Unknown",
+  "en": "We have found that you can make it a lot more efficient if you have an AI co-pilot that's able to work with the expert in creating the task and the verifier.",
+  "zh": "我们发现,如果你有一个 AI 副驾驶能与专家一起创建任务和验证器,就能让这件事高效得多。"
+ },
+ {
+  "seg": 181,
+  "start": 1298.148,
+  "end": 1304.351,
+  "speaker": "Unknown",
+  "en": "So the expert can talk to the trajectory and understand exactly what's happening and where it's going wrong.",
+  "zh": "所以专家可以与轨迹对话,确切理解正在发生什么以及哪里出了问题。"
+ },
+ {
+  "seg": 182,
+  "start": 1305.071,
+  "end": 1308.273,
+  "speaker": "Unknown",
+  "en": "The challenge is just that if you're trying to improve Fable,",
+  "zh": "挑战只在于,如果你试图改进 Fable,"
+ },
+ {
+  "seg": 183,
+  "start": 1308.994,
+  "end": 1315.176,
+  "speaker": "Unknown",
+  "en": "Fable cannot reliably write out the like rubric criteria for where it's making mistakes.",
+  "zh": "Fable 无法可靠地写出关于它在哪些地方犯错的评分标准条款。"
+ },
+ {
+  "seg": 184,
+  "start": 1315.896,
+  "end": 1318.757,
+  "speaker": "Unknown",
+  "en": "It might get like half of them right and half of them wrong.",
+  "zh": "它可能一半写对,一半写错。"
+ },
+ {
+  "seg": 185,
+  "start": 1319.197,
+  "end": 1324.279,
+  "speaker": "Unknown",
+  "en": "And that amount of noise is unworkable from a training standpoint.",
+  "zh": "从训练的角度来看,那种程度的噪音是行不通的。"
+ },
+ {
+  "seg": 186,
+  "start": 1325.499,
+  "end": 1331.181,
+  "speaker": "Unknown",
+  "en": "And so that's the reason that the process that requires humans the most is the task creation.",
+  "zh": "所以这就是为什么最需要人类的过程是任务创建。"
+ },
+ {
+  "seg": 187,
+  "start": 1331.761,
+  "end": 1334.242,
+  "speaker": "Unknown",
+  "en": "Like a lot of the environments we can get...",
+  "zh": "比如我们得到的很多环境……"
+ },
+ {
+  "seg": 188,
+  "start": 1335.162,
+  "end": 1336.403,
+  "speaker": "Unknown",
+  "en": "We use a lot of synthetic.",
+  "zh": "我们使用大量合成数据。"
+ },
+ {
+  "seg": 189,
+  "start": 1337.184,
+  "end": 1345.05,
+  "speaker": "Unknown",
+  "en": "It's helpful to have humans write the outlines so they're familiar with the environment and they're grounded in reality, a realistic distribution.",
+  "zh": "让人类来写大纲是有帮助的,这样他们对环境很熟悉,并且立足于现实、一个真实的分布。"
+ },
+ {
+  "seg": 190,
+  "start": 1345.43,
+  "end": 1352.455,
+  "speaker": "Unknown",
+  "en": "But with the tasks, those tend to really require humans with rare exceptions.",
+  "zh": "但就任务而言,除少数例外,它们往往真的需要人类。"
+ },
+ {
+  "seg": 191,
+  "start": 1353.916,
+  "end": 1363.06,
+  "speaker": "Unknown",
+  "en": "In code or if you're sort of distilling from, like if you have a model that's worse than Kimmy K3, then they can definitely learn from tasks Kimmy K3 is creating.",
+  "zh": "在代码领域,或者如果你是从某个模型蒸馏,比如如果你有一个比 Kimmy K3 更差的模型,那么它们肯定可以从 Kimmy K3 创建的任务中学习。"
+ },
+ {
+  "seg": 192,
+  "start": 1363.08,
+  "end": 1365.921,
+  "speaker": "Unknown",
+  "en": "So there are some exceptions if you're doing it that way.",
+  "zh": "所以如果你那样做,是存在一些例外的。"
+ },
+ {
+  "seg": 193,
+  "start": 1368.026,
+  "end": 1369.787,
+  "speaker": "Unknown",
+  "en": "Hey, this is Nikhil from Kribble.",
+  "zh": "嘿,我是 Kribble 的 Nikhil。"
+ },
+ {
+  "seg": 194,
+  "start": 1370.387,
+  "end": 1388.739,
+  "speaker": "Unknown",
+  "en": "So when we think about RL environments for certain provable domains like cyber defense or incident response, where the modelist or the agent is trying to find a flaw in an existing system, do you use humans for just authoring that environment or setting it up, or do you also use that for grading?",
+  "zh": "所以当我们为某些可证明的领域思考 RL 环境时,比如网络防御或事件响应,模型或智能体试图在现有系统中寻找缺陷,你是只用人类来编写或搭建那个环境,还是也用人类来评分?"
+ },
+ {
+  "seg": 195,
+  "start": 1388.879,
+  "end": 1390.48,
+  "speaker": "Unknown",
+  "en": "Is there a way to scale that up?",
+  "zh": "有没有办法把它规模化?"
+ },
+ {
+  "seg": 196,
+  "start": 1391.685,
+  "end": 1399.508,
+  "speaker": "Unknown",
+  "en": "I actually think cyber is one where you don't necessarily always need humans for the verifiers because you can have an attacker and defender agent.",
+  "zh": "我实际上认为网络领域属于不一定总是需要人类来做验证器的情形,因为你可以有一个攻击者智能体和一个防御者智能体。"
+ },
+ {
+  "seg": 197,
+  "start": 1401.309,
+  "end": 1416.275,
+  "speaker": "Unknown",
+  "en": "And I think you're right in saying that for cyber, you can have humans more so architect what is a realistic environment and sort of set up the environment because you do need a lot of diversity.",
+  "zh": "而且我认为你说得对,对于网络领域,你可以更多地让人类来架构什么是真实的环境,并大致搭建这个环境,因为你确实需要大量多样性。"
+ },
+ {
+  "seg": 198,
+  "start": 1417.136,
+  "end": 1422.38,
+  "speaker": "Unknown",
+  "en": "But then it's less human intensive with respect to building verifiers.",
+  "zh": "但在构建验证器方面,它就没有那么依赖人力了。"
+ },
+ {
+  "seg": 199,
+  "start": 1423.381,
+  "end": 1423.601,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 200,
+  "start": 1426.784,
+  "end": 1428.785,
+  "speaker": "Unknown",
+  "en": "How can you tell when you're limited by the base model?",
+  "zh": "你怎么判断自己是受基座模型限制了？"
+ },
+ {
+  "seg": 201,
+  "start": 1430.287,
+  "end": 1430.947,
+  "speaker": "Unknown",
+  "en": "What do you mean by that?",
+  "zh": "你这话是什么意思？"
+ },
+ {
+  "seg": 202,
+  "start": 1432.12,
+  "end": 1438.747,
+  "speaker": "Unknown",
+  "en": "Ostensibly, you're using the same dataset for all these models here, and they somewhat land around the same final performance on this list here.",
+  "zh": "表面上看，你这里所有这些模型用的都是同一个数据集，而且它们在这份榜单上最终的落点性能也差不多。"
+ },
+ {
+  "seg": 203,
+  "start": 1439.247,
+  "end": 1444.372,
+  "speaker": "Unknown",
+  "en": "But maybe if you tried a smaller model, which is maybe a good place to start, it would land much lower.",
+  "zh": "但也许如果你换一个更小的模型试试——这或许是个不错的起点——它的落点可能会低得多。"
+ },
+ {
+  "seg": 204,
+  "start": 1445.013,
+  "end": 1445.834,
+  "speaker": "Unknown",
+  "en": "What is the cause there?",
+  "zh": "那里的原因是什么？"
+ },
+ {
+  "seg": 205,
+  "start": 1445.854,
+  "end": 1446.755,
+  "speaker": "Unknown",
+  "en": "Is it just parameter count?",
+  "zh": "难道只是参数量吗？"
+ },
+ {
+  "seg": 206,
+  "start": 1450.102,
+  "end": 1457.049,
+  "speaker": "Unknown",
+  "en": "The parameter count will definitely play a role in how effectively the model does.",
+  "zh": "参数量肯定会在模型表现有多好这件事上起作用。"
+ },
+ {
+  "seg": 207,
+  "start": 1457.449,
+  "end": 1465.857,
+  "speaker": "Unknown",
+  "en": "Insofar as how trainable it is, I think that the main thing to look at is generally the gap between the",
+  "zh": "至于模型有多可训练，我认为主要要看的一般是"
+ },
+ {
+  "seg": 208,
+  "start": 1468.54,
+  "end": 1470.461,
+  "speaker": "Unknown",
+  "en": "Pass it 16 and the Pass it 1.",
+  "zh": "Pass it 16 和 Pass it 1 之间的差距。"
+ },
+ {
+  "seg": 209,
+  "start": 1471.221,
+  "end": 1482.767,
+  "speaker": "Unknown",
+  "en": "If you have a model where you roll out 16 trajectories and it gets all of them totally wrong, it's sort of hopeless that the model is going to learn from that for the most part.",
+  "zh": "如果你有一个模型，你 rollout 16 条轨迹，它把所有轨迹全都搞错了，那这个模型基本上就没指望能从中学到东西。"
+ },
+ {
+  "seg": 210,
+  "start": 1482.847,
+  "end": 1486.909,
+  "speaker": "Unknown",
+  "en": "Maybe you roll out another 100 trajectories and it gets one of them right.",
+  "zh": "也许你再 rollout 另外一百条轨迹，它才对了一条。"
+ },
+ {
+  "seg": 211,
+  "start": 1487.529,
+  "end": 1491.391,
+  "speaker": "Unknown",
+  "en": "Versus if you have the ideal case is that you have",
+  "zh": "反之，最理想的情况是你有"
+ },
+ {
+  "seg": 212,
+  "start": 1492.992,
+  "end": 1501.961,
+  "speaker": "Unknown",
+  "en": "Pass it 1, it fails, but then pass it 16, when you roll out 16 trajectories, it gets it right once or twice, and then the model is able to learn very effectively from that.",
+  "zh": "Pass it 1 它失败了，但 Pass it 16,当你 rollout 16 条轨迹时，它能对上一两次，这样模型就能非常有效地从中学到东西。"
+ },
+ {
+  "seg": 213,
+  "start": 1502.041,
+  "end": 1511.15,
+  "speaker": "Unknown",
+  "en": "So that's generally the heuristic we would use for how strong the base model needs to be to effectively learn from a GIPAA dataset.",
+  "zh": "所以这就是我们通常用来判断基座模型需要多强才能有效从一个 GIPAA 数据集学习的启发式标准。"
+ },
+ {
+  "seg": 214,
+  "start": 1514.893,
+  "end": 1517.716,
+  "speaker": "Unknown",
+  "en": "Cool, maybe final, oh, final question really quick.",
+  "zh": "好，也许最后一个，哦，很快地问最后一个问题。"
+ },
+ {
+  "seg": 215,
+  "start": 1524.974,
+  "end": 1531.9,
+  "speaker": "Unknown",
+  "en": "They should rely on themselves as part of their RL post-training versus relying on what's the complementing?",
+  "zh": "他们应该在 RL 后训练中依赖自身，而不是依赖……补充的部分是什么？"
+ },
+ {
+  "seg": 216,
+  "start": 1532.861,
+  "end": 1547.315,
+  "speaker": "Unknown",
+  "en": "Well, I think this is why a giant portion of our business is custom data, where it's like we have teams that are siloed and fully exclusive to critical customers to make sure that we build out the best data sets in the world that they own.",
+  "zh": "嗯，我认为这就是为什么我们业务的巨大一部分是定制数据，我们有团队是隔离的、完全专属于关键客户的，以确保我们构建出世界上最好的数据集，而且这些数据集归客户所有。"
+ },
+ {
+  "seg": 217,
+  "start": 1548.035,
+  "end": 1556.161,
+  "speaker": "Unknown",
+  "en": "And that allows them to maintain their competitive advantage associated with this while also benefiting from all of the infrastructure that we've built.",
+  "zh": "这让他们能够维持与此相关的竞争优势，同时也从我们构建的所有基础设施中获益。"
+ },
+ {
+  "seg": 218,
+  "start": 1556.181,
+  "end": 1574.836,
+  "speaker": "Unknown",
+  "en": "And I think there are some companies that try to build out all of the talent network and infrastructure in-house, but I think if you look at what the frontier labs do and the best models do, it's a pretty good indication that there's so many economies of scale from working with a partner that has all of these economies of scale, the platform, the talent network, et cetera.",
+  "zh": "而且我认为有一些公司试图把整个人才网络和基础设施都在内部自建，但如果你看看前沿实验室和最好的模型是怎么做的，这就是一个相当好的信号，说明与一个拥有所有这些规模效应的合作伙伴合作——平台、人才网络等等——能带来非常多的规模经济。"
+ },
+ {
+  "seg": 219,
+  "start": 1574.996,
+  "end": 1577.398,
+  "speaker": "Unknown",
+  "en": "So anyways, thanks for all having me.",
+  "zh": "总之，感谢大家让我来参加。"
+ }
+]

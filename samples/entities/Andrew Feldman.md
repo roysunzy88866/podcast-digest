@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jack":1,"Eric":1,"Cerebrus":1,"晶圆级":1,"推理":46,"NVIDIA":35,"TSMC":4,"数据中心":13,"供应链":4,"训练":3}</script>
+<script type="application/json" class="pd-epn">{"Jack":1,"Eric":1,"Cerebrus":1,"晶圆级":1,"推理":46,"NVIDIA":36,"TSMC":4,"数据中心":13,"供应链":4,"训练":3}</script>
 
 <script>
 (function(){

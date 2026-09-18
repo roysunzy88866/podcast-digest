@@ -203,9 +203,9 @@ Harvey 在向相邻专业服务扩展：与 PwC 一起进入税务、交易、�
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-11-talks-how-harvey-built-a-research-lab-on-a-bud|应用公司如何低成本建自己的AI研究实验室：Harvey 的实战手册]]<span class="pd-rz">同公司:Harvey、DeepMind · 同概念:RL 环境 (RL environments)、后训练 (post-training)、智能体 (agent)</span>
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同公司:DeepMind、OpenAI · 同概念:后训练 (post-training)、智能体 (agent)</span>
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:DeepMind、OpenAI、Harvey · 同概念:智能体 (agent)</span>
-- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:OpenAI · 同概念:后训练 (post-training)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

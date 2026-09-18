@@ -1,0 +1,24 @@
+{
+  "id": "2026-08-11-talks-how-harvey-built-a-research-lab-on-a-bud",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/MGouk8W51v0.m4a",
+  "duration_sec": 1756.67,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 311,
+  "asr": true,
+  "title_en": "How Harvey Built a Research Lab on a Budget | Gabe Pereyra",
+  "podcast": "精选演讲",
+  "date": "2026-08-11",
+  "added": "2026-09-18",
+  "added_at": "2026-09-18T09:45:20.724Z",
+  "speaker_map": {
+    "SPEAKER_03": "Gabe Pereyra"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Gabe Pereyra",
+  "cohosts": [],
+  "title_zh": "应用公司如何低成本建自己的AI研究实验室：Harvey 的实战手册",
+  "guest_name": "Gabe Pereyra",
+  "guest_title": "Harvey 联合创始人兼总裁",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Sal Motamini]] · [[Daniel Whitenack]] · [[Alvaro Morales]] · [[Chris Benson]] · [[Orb]] · [[AI Index report]] · [[Asana]] · [[锯齿状前沿]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":261,"Sal Motamini":1,"Daniel Whitenack":7,"Alvaro Morales":1,"Chris Benson":8,"Orb":1,"AI Index report":1,"Asana":2,"锯齿状前沿":1,"Stripe":31}</script>
+<script type="application/json" class="pd-epn">{"智能体":262,"Sal Motamini":1,"Daniel Whitenack":7,"Alvaro Morales":1,"Chris Benson":8,"Orb":1,"AI Index report":1,"Asana":2,"锯齿状前沿":1,"Stripe":31}</script>
 
 <script>
 (function(){
