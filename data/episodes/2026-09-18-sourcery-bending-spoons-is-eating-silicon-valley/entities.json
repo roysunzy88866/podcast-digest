@@ -1,0 +1,651 @@
+{
+  "episode_id": "2026-09-18-sourcery-bending-spoons-is-eating-silicon-valley",
+  "podcast": "Sourcery",
+  "date": "2026-09-18",
+  "tags": [
+    "收购与并购",
+    "平台战略",
+    "智能体",
+    "AI 风险",
+    "组织文化"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "luca-ferrari",
+      "type": "person",
+      "role": "host",
+      "name": "Luca Ferrari",
+      "file": "Luca Ferrari",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            45.601,
+            49.064
+          ],
+          "quote": "Luca Ferrari, thank you for having me at Bending Spoons.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bending-spoons",
+      "type": "company",
+      "role": "company",
+      "name": "Bending Spoons",
+      "file": "Bending Spoons",
+      "primary": true,
+      "how_described": "本集把它说成:总部在米兰、收购 Evernote/AOL/Vimeo 等数字业务并永久持有运营的公司,核心资产是由 50+ 项专有技术组成的共享操作系统,人均收入达 400 万美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            29.51,
+            34.053
+          ],
+          "quote": "Right now, it kind of seems like Bending Spoons is actually eating Silicon Valley.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            45.601,
+            49.064
+          ],
+          "quote": "Luca Ferrari, thank you for having me at Bending Spoons.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            60.33,
+            64.891
+          ],
+          "quote": "Right now, it kind of seems like Bending Spoons is actually eating Silicon Valley.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2153.938,
+            2165.561
+          ],
+          "quote": "So, yeah, there are similarities, but there are also pretty glaring differences between what a typical private equity does, whatever typical means, because, again, private equity is a very diverse world, and what Bending Spoons does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2546.978,
+            2558.003
+          ],
+          "quote": "If that business becomes part of Bending Spoons, we still really like to make it grow, of course, as much as we can, but there is no pressure to grow beyond what's profitable growth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2558.703,
+            2580.891
+          ],
+          "quote": "Because ultimately anybody who buys stock into Bending Spoons, yes, they like our individual businesses to do well, of course, but the main thesis is Bending Spoons can generate amazing cash flows from businesses and redeploy toward new acquisitions at very high returns and this over time compounds attractively, hopefully for many, many years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 737,
+          "t": [
+            4458.197,
+            4464.662
+          ],
+          "quote": "Well, thank you so much for hosting us here today and having us at Bending Spoons in Milan.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "airtable",
+      "type": "company",
+      "role": "company",
+      "name": "Airtable",
+      "file": "Airtable",
+      "primary": true,
+      "how_described": "本集把它说成:刚被 Bending Spoons 以约 13 亿美元企业价值收购的硅谷明星公司,Howie 团队自律、保持盈利,退出估值与公开市场同等质量 SaaS 一致。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            67.952,
+            75.594
+          ],
+          "quote": "I don't know that we're eating anything, but I think you're probably referring to the announcement of the acquisition of Airtable, I suppose.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            77.935,
+            80.715
+          ],
+          "quote": "I mean, Airtable is a great business, a great product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            221.353,
+            237.976
+          ],
+          "quote": "Because the Airtable acquisition kind of set SF, Silicon Valley, American tech into a bit of hysteria, what do you think they get wrong about technology companies or managing them?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            617.675,
+            622.996
+          ],
+          "quote": "And even with the Airtable acquisition rate, it kind of broke people's brains.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            818.762,
+            824.127
+          ],
+          "quote": "Airtable specifically, I think, deserves a lot of credit because, yes, their valuation was very high in 2021.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            884.553,
+            892.3
+          ],
+          "quote": "And the valuation at which Airtable exited was very much in line with the SaaS businesses of comparable quality on the public market.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            900.529,
+            901.189
+          ],
+          "quote": "I think Airtable",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            954.054,
+            957.356
+          ],
+          "quote": "So I really applaud Airtable, Howie, and everybody there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evernote",
+      "type": "company",
+      "role": "company",
+      "name": "Evernote",
+      "file": "Evernote",
+      "primary": true,
+      "how_described": "本集把它说成:Bending Spoons 旗下被收购业务,总经理让 Alt Spooner 智能体当天定位并修复了一个 bug;也用来说明内部人才可从 Evernote 轮岗到其他业务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1219.565,
+            1230.072
+          ],
+          "quote": "So can you walk me through the centralized platform, how you built that out and kind of, I mean, you made various different types of acquisitions from Evernote to AOL to Vimeo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2750.207,
+            2757.429
+          ],
+          "quote": "Whereas if you're working on, say, Evernote, maybe it was exciting the first couple of years, let's say our product manager, but then after a while...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2774.287,
+            2775.608
+          ],
+          "quote": "For Evernote, what else can I do?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 548,
+          "t": [
+            3320.496,
+            3323.757
+          ],
+          "quote": "This happened, it's a real thing that happened with Evernote.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 549,
+          "t": [
+            3325.359,
+            3329.256
+          ],
+          "quote": "The general manager of Evernote told her old Spooner that",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aol",
+      "type": "company",
+      "role": "company",
+      "name": "AOL",
+      "file": "AOL",
+      "primary": true,
+      "how_described": "本集把它说成:成立约 40 年、至今仍是西方世界第五大邮箱提供商、被数千万人当主力邮箱的「老」业务,用来反驳「坟墓公司」的说法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            506.176,
+            514.104
+          ],
+          "quote": "You could see this at its very peak with AOL, which of course AOL is a quote-unquote old",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            515.525,
+            531.04
+          ],
+          "quote": "Brand and company no doubt about it it's been around for what like 40 years something like that however to this day AOL is used as a especially as an email inbox by tens of millions of people",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            552.52,
+            570.112
+          ],
+          "quote": "over the past five or ten years so many email startups which people who don't actually have the data will assume are far more relevant just because they got more coverage and they sound a lot sexier but really if you look at the data these in aggregate these don't probably add up to even five percent of what AOL means in terms of",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1219.565,
+            1230.072
+          ],
+          "quote": "So can you walk me through the centralized platform, how you built that out and kind of, I mean, you made various different types of acquisitions from Evernote to AOL to Vimeo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2285.053,
+            2285.914
+          ],
+          "quote": "Some of the AOL...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2780.452,
+            2788.199
+          ],
+          "quote": "You could move to AOL and trying to improve email UX, which is a completely different and fascinating challenge.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vimeo",
+      "type": "company",
+      "role": "company",
+      "name": "Vimeo",
+      "file": "Vimeo",
+      "primary": false,
+      "how_described": "本集把它说成:Bending Spoons 收购的数字业务之一,在列举收购组合时被提及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1219.565,
+            1230.072
+          ],
+          "quote": "So can you walk me through the centralized platform, how you built that out and kind of, I mean, you made various different types of acquisitions from Evernote to AOL to Vimeo.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meetup",
+      "type": "company",
+      "role": "company",
+      "name": "Meetup",
+      "file": "Meetup",
+      "primary": false,
+      "how_described": "本集把它说成:Bending Spoons 旗下的活动产品,其自建推荐系统效果媲美前沿模型且几乎免费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 669,
+          "t": [
+            3989.786,
+            4007.127
+          ],
+          "quote": "Completely incapable of doing anything else but at that one thing it can be even better but and if not way cheaper so for example if you use I don't know Meetup the events product we own it and the recommender system the system that once you search for something or you're looking for inspiration will determine which",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "streamyard",
+      "type": "company",
+      "role": "company",
+      "name": "StreamYard",
+      "file": "StreamYard",
+      "primary": false,
+      "how_described": "本集把它说成:Bending Spoons 旗下产品,Ferrari 用 Alt Spooner 五分钟拿到了 StreamYard 上 A/B 测试结果的分析。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 540,
+          "t": [
+            3257.688,
+            3278.629
+          ],
+          "quote": "It can do data analysis for you, so I was looking last night, I was looking at the results of certain A-B tests on StreamYard, which is one of our products, and normally I would have had to ask someone from the team, a data scientist, to pull the data out, prepare the analysis.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:住在 Slack 里、与使用者拥有相同平台访问权限、可自主做数据分析/查 bug/写修复代码的 Alt Spooner,让生产力提升两到三倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 523,
+          "t": [
+            3136.72,
+            3140.401
+          ],
+          "quote": "It's really like an agent that lives in Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 528,
+          "t": [
+            3159.966,
+            3163.267
+          ],
+          "quote": "And automatically that agent will have exactly the same",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3185.618,
+            3198.915
+          ],
+          "quote": "And I can basically task this agent to do stuff for you and it could in principle do pretty much anything like anything you can do in principle it can do obviously AI is not perfect so some things it's better than other things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3332.781,
+            3344.925
+          ],
+          "quote": "She was using the app and tasked the agent to check on our customer support platform that whether the bug was widespread among users or her report was the only one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3400.529,
+            3418.792
+          ],
+          "quote": "We have built our own orchestration, so every time you task your agent with something, under the hood, we have an algorithm that will select the most appropriate AI model or multiple AI models to get the job done, considering, say, quality, effectiveness, but also cost.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alt-spooner",
+      "type": "concept",
+      "role": "concept",
+      "name": "Alt Spooner",
+      "file": "Alt Spooner",
+      "primary": true,
+      "how_described": "本集把它说成:Bending Spoons 今年内部开发、50+ 工具之一,住在 Slack 里、可命名并设头像、自动拥有与使用者完全相同的全平台访问权限的智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 520,
+          "t": [
+            3118.734,
+            3125.616
+          ],
+          "quote": "Yeah, Alt Spooner as in ALT alternative or alter ego is just one of those 50 plus tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 536,
+          "t": [
+            3231.174,
+            3238.138
+          ],
+          "quote": "So partly with Alt Spooner we achieved, I think, much better effectiveness because it can do a lot for you in a very efficient way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3252.825,
+            3254.725
+          ],
+          "quote": "So examples of what Alt Spooner can do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "orchestration",
+      "type": "concept",
+      "role": "concept",
+      "name": "编排 (orchestration)",
+      "file": "编排",
+      "primary": true,
+      "how_described": "本集把它说成:Bending Spoons 自建的编排系统,每次下达任务时由算法综合考虑质量、效率和成本自动选择最合适的模型或模型组合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            350.536,
+            358.301
+          ],
+          "quote": "Credentials management, the orchestration for all the AI models used in operations, and so on and so forth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3400.529,
+            3418.792
+          ],
+          "quote": "We have built our own orchestration, so every time you task your agent with something, under the hood, we have an algorithm that will select the most appropriate AI model or multiple AI models to get the job done, considering, say, quality, effectiveness, but also cost.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-wait",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open wait)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集把它说成:他们自托管、基本免费的模型,跑 99% 的请求和 token;前沿(闭权重)模型只通过 API 处理约 1% 最复杂任务或当「资深工程师」审查。(注:原稿转写作 open wait)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 561,
+          "t": [
+            3423.734,
+            3426.998
+          ],
+          "quote": "We end up using open wait models we self-host.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "a-b-testing",
+      "type": "concept",
+      "role": "concept",
+      "name": "A/B 测试 (A-B testing)",
+      "file": "A/B 测试",
+      "primary": false,
+      "how_described": "本集把它说成:Bending Spoons 操作系统覆盖的能力之一,也是 Alt Spooner 帮 Ferrari 分析 StreamYard 数据的场景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            321.222,
+            348.355
+          ],
+          "quote": "We are even more extreme on the being active end of the spectrum, and we integrate all of these businesses together quite tightly, so we have built over the past decade an operating system of over 50 proprietary technologies to take care of almost everything you need to run a digital business, whether it's data storage and processing, A-B testing, payment management, everything related to recruiting.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "extreme-ownership",
+      "type": "concept",
+      "role": "concept",
+      "name": "极致主人翁精神 (extreme ownership)",
+      "file": "极致主人翁精神",
+      "primary": true,
+      "how_described": "本集把它说成:Bending Spoons 文化的核心之一——希望每个人深切在乎把工作做到出色、帮团队和公司成功;宁要稍微不那么聪明但真正在乎的人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 480,
+          "t": [
+            2874.837,
+            2876.697
+          ],
+          "quote": "One is something called extreme ownership.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "private-equity",
+      "type": "concept",
+      "role": "concept",
+      "name": "私募股权 (private equity)",
+      "file": "私募股权",
+      "primary": true,
+      "how_described": "本集把它说成:募资买入、平均持有五年再卖出的基金模式,通常换管理层、调定价但极少重建底层技术——Bending Spoons 与之的三点区别正是本集主线之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 320,
+          "t": [
+            1970.329,
+            1974.07
+          ],
+          "quote": "Whereas private equity, for those among the audience who don't know, generally, these are funds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            2017.196,
+            2031.606
+          ],
+          "quote": "At Bennispoons, we, and again, and of course that's the case because a private equity, you have a small team of financial operators, financial specialists, so you just don't have the, let's say, the workforce and expertise to make some of these changes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2118.932,
+            2137.874
+          ],
+          "quote": "And the third major difference is that we try to integrate these businesses pretty deeply all together on top of that shared platform operating system and we have this core team who are centrally, let's say, managed and then they are deployed into the different businesses and move very fluidly across the businesses and this is unavailable to private equity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2139.235,
+            2143.596
+          ],
+          "quote": "Structurally, because as a private equity, you want to buy a business and then sell it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2153.938,
+            2165.561
+          ],
+          "quote": "So, yeah, there are similarities, but there are also pretty glaring differences between what a typical private equity does, whatever typical means, because, again, private equity is a very diverse world, and what Bending Spoons does.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gold-rush",
+      "type": "concept",
+      "role": "concept",
+      "name": "淘金热 (gold rush)",
+      "file": "淘金热",
+      "primary": false,
+      "how_described": "本集把它说成:对当下 AI 应用公司融资潮的形容——凭一个想法就以十亿美元估值融资,大量公司只是虚浮泡沫,所以 Bending Spoons 暂时一家都不收。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 185,
+          "t": [
+            1121.032,
+            1123.193
+          ],
+          "quote": "Because everybody, it's a gold rush.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Seth Rosenberg]] · [[Simon Maple]] · [[Mustafa Suleyman]] · [[Guy for Germany]] · [[DeepMind]] · [[Simon Boudrien]] · [[Inflection AI]] · [[Datadog]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":262,"Seth Rosenberg":1,"Simon Maple":9,"Mustafa Suleyman":1,"Guy for Germany":1,"DeepMind":10,"Simon Boudrien":1,"Inflection AI":1,"Datadog":7,"Microsoft":25}</script>
+<script type="application/json" class="pd-epn">{"智能体":264,"Seth Rosenberg":1,"Simon Maple":9,"Mustafa Suleyman":1,"Guy for Germany":1,"DeepMind":10,"Simon Boudrien":1,"Inflection AI":1,"Datadog":7,"Microsoft":25}</script>
 
 <script>
 (function(){

@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Harvey]] · [[合成数据]] · [[后训练]] · [[评估]] · [[Cursor]] · [[Mercor]] · [[DeepMind]] · [[Gabe]] · [[Louis Knight-Webb]]
 
-<script type="application/json" class="pd-epn">{"智能体":262,"Harvey":11,"合成数据":7,"后训练":24,"评估":2,"Cursor":62,"Mercor":2,"DeepMind":10,"Gabe":1,"Louis Knight-Webb":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":264,"Harvey":11,"合成数据":7,"后训练":24,"评估":2,"Cursor":62,"Mercor":2,"DeepMind":10,"Gabe":1,"Louis Knight-Webb":1}</script>
 
 <script>
 (function(){

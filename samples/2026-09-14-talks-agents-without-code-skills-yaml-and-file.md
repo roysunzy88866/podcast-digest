@@ -127,8 +127,8 @@ jsonLd: |
 **顺着「智能体」挖下去**
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:LangChain、Google · 同概念:harness、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同公司:LangChain · 同概念:evals、harness、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同概念:evals、harness、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-09-03-talks-model-selection-token-efficiency|Token 都烧在哪了：Cursor 工程师教你把 AI 编程成本打下来]]<span class="pd-rz">同公司:Cursor · 同概念:harness、上下文窗口 (context window)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

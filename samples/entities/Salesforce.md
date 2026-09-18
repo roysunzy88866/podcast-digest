@@ -80,7 +80,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Harry Stebbings]] · [[ChatGPT]] · [[Lenny]] · [[CRM]] · [[记录系统]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":262,"OpenAI":120,"Anthropic":125,"Cursor":62,"Harry Stebbings":16,"ChatGPT":69,"Lenny":67,"CRM":5,"记录系统":5,"NVIDIA":36}</script>
+<script type="application/json" class="pd-epn">{"智能体":264,"OpenAI":120,"Anthropic":125,"Cursor":62,"Harry Stebbings":16,"ChatGPT":69,"Lenny":67,"CRM":5,"记录系统":5,"NVIDIA":36}</script>
 
 <script>
 (function(){

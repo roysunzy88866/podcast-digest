@@ -51,7 +51,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[OpenAI]] · [[后训练]] · [[Anthropic]] · [[DeepMind]] · [[前沿模型]] · [[RL 环境]] · [[合成数据]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":262,"Cursor":62,"OpenAI":120,"后训练":24,"Anthropic":125,"DeepMind":10,"前沿模型":16,"RL 环境":5,"合成数据":7,"NVIDIA":36}</script>
+<script type="application/json" class="pd-epn">{"智能体":264,"Cursor":62,"OpenAI":120,"后训练":24,"Anthropic":125,"DeepMind":10,"前沿模型":16,"RL 环境":5,"合成数据":7,"NVIDIA":36}</script>
 
 <script>
 (function(){

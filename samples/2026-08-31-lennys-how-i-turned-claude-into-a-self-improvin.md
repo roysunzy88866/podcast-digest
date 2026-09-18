@@ -140,8 +140,8 @@ Daniel 说他现在 70% 到 80% 的电脑前工作都通过 CoWork 完成。剩�
 **顺着「智能体」挖下去**
 
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Claude Code、Codex、Cursor、Slack · 同概念:上下文 (context)、智能体 (agent)</span>
+- [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:上下文 (context)、智能体 (agent)</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同嘉宾:Claire Vo · 同公司:Claude Code · 同概念:智能体 (agent)</span>
-- [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同公司:Cursor · 同概念:上下文 (context)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

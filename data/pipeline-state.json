@@ -96,7 +96,9 @@
     "vblnYHzBgS4": "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i",
     "MGouk8W51v0": "2026-08-11-talks-how-harvey-built-a-research-lab-on-a-bud",
     "bMMv0bZzONg": "2026-08-11-talks-how-companies-are-building-their-own-int",
-    "a00xIn5kwhM": "2026-08-12-talks-rl-environments-explained-how-ai-agents"
+    "a00xIn5kwhM": "2026-08-12-talks-rl-environments-explained-how-ai-agents",
+    "yAvJ7b_FxUA": "2026-08-12-talks-post-training-is-how-you-keep-your-taste",
+    "HI2q3ci3Iuc": "2026-08-13-talks-when-to-build-your-own-agent-harness-har"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
@@ -110,8 +112,7 @@
     "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds": 1,
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
-    "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
-    "2026-09-17-pragmatic-ai-skills-with-matt-pocock": 2
+    "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1
   },
   "cutoffs": {
     "lennys": "2026-09-08T12:31:49.000Z",
@@ -122,7 +123,7 @@
     "trainingdata": "2026-09-15T09:00:00.000Z",
     "bigtech": "2026-09-16T15:34:00.000Z",
     "aiandi": "2026-09-02T17:13:19.000Z",
-    "nopriors": "2026-09-10T10:00:00.000Z",
+    "nopriors": "2026-09-18T10:00:00.000Z",
     "thepeel": "2026-09-17T13:00:00.000Z",
     "beyondcoding": "2026-09-09T12:00:00.000Z",
     "founders": "2026-09-14T18:26:00.000Z",
@@ -132,7 +133,7 @@
     "twentyvc": "2026-09-17T07:07:00.000Z",
     "cogrev": "2026-09-17T13:27:47.000Z",
     "knowledge": "2026-09-15T10:00:00.000Z",
-    "pragmatic": "2026-09-09T15:57:24.000Z",
+    "pragmatic": "2026-09-17T11:29:00.000Z",
     "practicalai": "2026-09-17T09:00:00.000Z",
     "changelog": "2026-09-03T20:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
@@ -149,7 +150,7 @@
     "ainativedev": "2026-09-16T12:00:00.000Z",
     "newcomer": "2026-09-17T20:43:55.000Z",
     "engenable": "2026-09-11T12:30:00.000Z",
-    "sourcery": "2026-09-17T10:00:00.000Z",
+    "sourcery": "2026-09-18T10:00:00.000Z",
     "iltb": "2026-09-16T08:00:00.000Z",
     "generalist": "2026-09-08T11:00:00.000Z",
     "sed": "2026-09-17T06:00:00.000Z",
@@ -1226,6 +1227,24 @@
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "How Companies Are Building Their Own Intelligence | Sonya Huang, Sequoia Capital",
       "pubDate": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "id": "2026-09-18-nopriors-why-diffusion-will-win-ai-inference-with",
+      "reason": "题材不对味:偏模型技术路线(扩散模型推理架构)深挖,属架构前沿而非商业/人/实操面",
+      "title": "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+      "pubDate": "2026-09-18T10:00:00.000Z"
+    },
+    {
+      "id": "2026-09-17-pragmatic-ai-skills-with-matt-pocock",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "AI Skills with Matt Pocock",
+      "pubDate": "2026-09-17T11:29:00.000Z"
+    },
+    {
+      "id": "2026-08-12-talks-post-training-is-how-you-keep-your-taste",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Post-Training Is How You Keep Your Taste | Fireworks CEO Lin Qiao",
+      "pubDate": "2026-08-12T00:00:00.000Z"
     }
   ]
 }

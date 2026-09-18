@@ -162,9 +162,9 @@ AI 时代管理者的最大挑战不是学新工具，而是**变化的速度前
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、评测标准 (evals)</span>
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)、评测标准 (evals)</span>
 - [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|智能体就只是文件：当配置取代 Python]]<span class="pd-rz">同公司:Cursor · 同概念:智能体 (agent)、评测标准 (evals)</span>
-- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:智能体 (agent)、评测标准 (evals)</span>
 
 </div>
 <div class="pd-ex">

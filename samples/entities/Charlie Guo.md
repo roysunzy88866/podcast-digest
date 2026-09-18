@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":120,"语音智能体":2,"语音转语音":1,"语音转动作":1,"事件转语音":1,"Codex":50,"计算机使用":12,"Realtime 模型":1,"推理能力":6,"工具调用":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":120,"语音智能体":2,"语音转语音":1,"语音转动作":1,"事件转语音":1,"Codex":51,"计算机使用":12,"Realtime 模型":1,"推理能力":6,"工具调用":2}</script>
 
 <script>
 (function(){

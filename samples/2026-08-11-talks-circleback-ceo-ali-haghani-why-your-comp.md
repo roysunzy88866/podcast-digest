@@ -139,8 +139,8 @@ Ali 的核心论点：随着 LLM 变强、AI 智能体在公司里干更多活�
 **顺着「智能体」挖下去**
 
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同概念:Claude Code、代码审查 (code review)、智能体 (agent)、Slack</span>
+- [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、评估 (evals)</span>
 - [[2026-06-30-ainativedev-the-tessl-agent-build-your-software-fact|TESL 智能体：让你的编码智能体自己越用越好]]<span class="pd-rz">同概念:代码审查 (code review)、智能体 (agent)、Claude Code、评估 (evals)</span>
-- [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同概念:智能体 (agent)、评估 (evals)、Claude Code</span>
 
 </div>
 <div class="pd-ex">

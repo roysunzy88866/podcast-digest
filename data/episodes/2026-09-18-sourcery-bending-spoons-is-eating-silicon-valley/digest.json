@@ -1,0 +1,220 @@
+{
+  "title_zh": "Bending Spoons：被硅谷误读的「收购机器」，人均 400 万美元收入怎么来的",
+  "tldr": "Bending Spoons 创始人 Luca Ferrari 在米兰解释这家连环收购方如何靠 50 项自研技术、AI 智能体和极致理性文化，把 Evernote、AOL 等老品牌改造成高效生意。",
+  "digest_md": "收购 Airtable 的消息一出来，硅谷有点炸锅——一家意大利公司，把硅谷曾经的明星创业公司买走了。说这话的人是 Luca Ferrari，Bending Spoons 的联合创始人兼 CEO，这家总部在米兰的公司过去十年悄悄买下了 Evernote、AOL、Vimeo、Meetup、StreamYard 等一串数字业务，现在又被视为「在吃掉硅谷」。Ferrari 自己不觉得在吃掉谁，但这期访谈里他拆解的那套打法，和硅谷的直觉几乎处处相反。\n\n## 他们不是 PE，也不是「坟墓收购者」\n\n外界最常见的两个标签，Ferrari 都否了。第一，他们不是私募股权（PE）：PE 募资买公司、平均持有五年再卖掉；Bending Spoons 从不卖掉有实质规模的业务，「打算永远拥有并运营」。第二个区别是深度：PE 通常换管理层、调定价，很少重建底层技术；而 Bending Spoons 会重建代码库的很大一部分、重构云基础设施、重新发明商业化定价、从头重做营销。第三个区别是整合：所有业务都架在一个共享平台上，核心团队集中管理、在各业务间灵活流动——而这恰恰是 PE 结构上做不到的，因为整合过的业务根本没法再单独卖掉。\n\n至于「专收老破旧、坟墓公司」的说法，他甩出一个数字：五亿月活跃用户。「如果每个月五亿人在用还叫坟墓，那行，就这么叫吧。」他举 AOL 为例：成立约 40 年，至今仍是西方世界第五大邮箱提供商，数千万人的主力邮箱，而过去十年那些被媒体热捧的邮箱创业公司，加起来的体量可能还不到 AOL 的 5%。「我们不太在乎酷不酷」——不酷反而意味着收购价格更实惠。\n\n## 那套「操作系统」才是护城河\n\nBending Spoons 的核心资产，是一个十年攒出来的、由超过 50 项专有技术组成的操作系统，覆盖运营数字业务几乎所需的一切：数据存储与处理、A/B 测试、支付管理、招聘、凭证管理、AI 模型编排等等。买下公司就像「把它们安装到这个共享操作系统上」。\n\n为什么自建而不采购？Ferrari 给了三个理由：一、他们需要的复杂度超出市面工具——工具商面向大众企业市场优化，真要造他们需要的东西，市场只有一两个客户，没人会造；二、自建工具原生互相集成，每个工具能与其他工具对话，外采则供应商一改你就得全改；三、省钱——他估计每年至少省一亿美元成本。而这套东西对任何一家被收购的独立公司来说都不经济，研发投入的回报周期太长；Bending Spoons 把投资摊销到整个组合上，这是独立公司拿不到的规模优势。\n\n还有一个内置飞轮：所有业务都用所有工具，谁发现 bug 或需求缺口，就像内部开源社区一样改进它，改进随后惠及所有其他业务——组合越大，工具进化越快。\n\n## 平台怎么建：让「战壕里的人」从零到一\n\n这套系统不是规划出来的，是迭代出来的。Ferrari 和联合创始人们在 2010 到 2013 年间经历过一次失败的创业，最大的教训是「思想上保持谦逊」：有愿景，但假设自己很可能是错的。落到技术上就是两条原则。其一，小步快跑、高度谦逊：从不先做多年期投资再验证，而是先建小块、交给各业务试用，看采用反馈再决定加码还是推翻。其二，绝不派平台团队从零造新东西——「让需要它的人来构建它」。他们会挑一家对某个工具特别重要的业务，由它自己动手建，成功后再移交给平台团队打磨和扩展。道理很朴素：经历过问题痛苦的人，才更可能造出真正有用的解法，而不是对着想象中的问题沉迷工程挑战。\n\n## 收购标准与 AI 公司的淘金热\n\n选标的的关键标准只有两条。第一，业务轨迹必须可预测——他们买入是为了永久持有，需要能描绘出至少未来五年的曲线，萎缩的业务也可以买，但必须知道它萎缩多快，这是不可协商的。第二，必须确信自己能大幅增值——提收入、降成本，否则无法既给出对卖方有吸引力的价格、又为股东拿到高回报。\n\n对当下这波 AI 应用公司，他们暂时一家都不收。不是不看好 AI——Ferrari 自称在运营中部署 AI 的激进程度大概处于第 99 百分位——而是这是一场淘金热：有人凭一个想法就以十亿美元估值融资，大量公司只是虚浮的泡沫，而增长 100% 的公司你无法判断三年后是 100% 还是 12%，这会改变一切；况且估值往往高得有道理，他们竞争不过、也拿不到好回报。等市场成熟些再看。\n\n值得注意的是他对硅谷模式的公道话：依赖早期充裕资本的模式整体上极其有效，过去几十年硅谷的总体投资回报非常出色；2021 年估值确实失衡，但如果有人犯错，那是投资者，不是公司——以能拿到的最好估值融资是对股东负责任的做法。Airtable 的 Howie 和团队其实非常自律：没多融、保持盈利、几乎没烧钱，13 亿美元企业价值减去账上现金，投资者拿回了本金还多一点，退出估值与公开市场同等质量 SaaS 一致。一家公司能以超十亿美元退出，本身就是千分之一的稀罕事，人们忘了这有多难。\n\n## Alt Spooner：住在 Slack 里的「另一个你」\n\nAI 落地上最能说明他们风格的是今年内部开发的 Alt Spooner：一个住在 Slack 里的智能体，你在 Slack 上像对同事一样跟它说话，它可以有名字和头像，并且自动拥有与你完全相同的全平台访问权限——你能访问的代码库、客户支持工具，它都能。\n\n两个真实例子。Ferrari 前一晚要看 StreamYard 上某些 A/B 测试结果，往常得请数据科学家提取数据、花几个小时，这次他跟自己的 Alt Spooner 聊了几句，五分钟后拿到了带重点标注图表的分析。另一个发生在 Evernote：总经理发现自己遇到一个 bug，让智能体去客服平台查这是普遍问题还是只她一人报告，再进代码库定位根因、写修复代码、通知工程负责人审查并推上生产——她花了大约三分钟下指令，工程负责人花了一两个小时审代码，bug 当天修复；这事的常规流程大概要几周。\n\n更关键的是底下的编排系统：每次下达任务，算法综合考虑质量、效率和成本，自动选最合适的模型或模型组合。99% 的请求跑的是他们自托管的开放权重模型，基本免费；前沿模型只通过 API 处理约 1% 的最复杂任务，或者自动充当「资深工程师」审查便宜模型产出的工作——不行就给指点、让便宜模型去修。结果是 token 成本低到在他们的规模下可以忽略，并且不对任何 AI 供应商产生依赖。Ferrari 的判断很直接：把钥匙交给一家大厂、买它更贵的产品，能让你更快显得「已启用 AI」，但效果差得多、贵上几个数量级。靠着这类技术，他们的生产力轻松提升了两到三倍。\n\n这里有个顺带的设计逻辑：被收购业务的工程师如果做腻了 Evernote 的笔记功能，只需举手说「我耗尽了创造力」，就可以转到平台团队造内部技术、或去 AOL 改进邮件体验——多业务轮岗本身就是顶级人才留任的理由。这也解释了他们的招聘漏斗：2025 年收到 80 万份申请，录用不到 300 人；核心团队去年不想要的人员流失率仅 0.6%，而他了解到多数科技公司 5% 就算相当不错。\n\n## 极致理性：一台逼近真相的学习机器\n\n把这些串起来的底层文化，Ferrari 总结为两条。一是「极致主人翁精神」：宁要稍微不那么聪明但真正在乎的人，也不要不在乎的聪明人。二是高度科学化的工作方式：第一性原理、讲逻辑、大量实验——仅去年一年就跑了超过 3000 个覆盖各产品的、超定量有记录的实验。他对「追求真相」有一套近乎哲学的表述：如果你对业务和市场的真相有完美理解，你几乎注定成功，因为你不会设不可能的目标；难就难在真相难知，变量太多、环境变化太快。所以要用科学方法探测世界、修正现实模型、再相应执行。而大多数人并不寻求真相，只寻求快乐和舒适，只想确认自己是对的——仅仅是逼近真相这个心态，就能让你脱颖而出。\n\n## 为什么「没人做有意义的安全工作」\n\n谈到 AI 风险，Ferrari 的自况是「一半满怀热情，一半吓得要死」：它可能是人类有史以来以数量级计的最大恩惠，也可能消灭我们。他指出的两点比较少有人谈。一是 AI 像核武器但可能更糟——核武器很难在不杀死自己的前提下造成不可逆的全人类级破坏，而 AI 可以在给你自己牟利的同时对所有人造成巨大伤害，因为它「精确得多」。二是我们不知道 AI 有多聪明，而且它越聪明我们知道得越少：智力本就难客观度量，一个实体越聪明就越容易隐藏自己的能力；再加上 AI 被编程得天生谦虚、从不自夸，只会展示你要求展示的东西，我们可能一直在系统性低估它们——而逼近危险阈值时，哪怕轻微的低估都可能是灾难性的。最近发生的网络安全事件里模型展现的横向思维与协作能力就震惊了大多数研究者，「我们并没有忽视大量根本尚未被探测过的能力」——这话是反讽：我们正在忽视。\n\n至于「人们没问过的问题」，他的答案是：不是没人问该做什么，而是没人问「为什么什么都没发生」——实验室在抢市场领导者地位否则估值跌 90%，政府层面他只见到了对行业危害极大、却没触及任何真实存亡威胁的欧盟 AI 法案。找到这个无能的根因，才可能做点有用的事。\n\n## 本集带走\n\n- **买来是为了永远运营，不是转卖**：可预测至少五年的业务轨迹是不可协商的标准；萎缩的业务可以买，但必须知道它萎缩多快。\n- **平台让收购产生复利**：50+ 项自研工具原生集成、全组合共用，一处改进惠及所有业务；独立公司自建不经济，这就是他们能开出高价还赚高回报的来源。\n- **新工具由「战壕里的人」从零建**：谁痛谁动手，成功后移交平台团队打磨；平台团队只负责优化存量，不负责从零到一。\n- **AI 落地靠编排而不是买最贵的**：99% 请求用自托管开放权重模型，前沿模型只兜底最难的 1% 和当「审查员」，token 成本几乎可忽略，且不锁定任何供应商。\n- **提高人均产出的结构杠杆**：精简小团队、人才高密度、去繁文缛节；不在意单一业务增长 15% 还是 5%，只要求增长是可盈利的，多余现金拿去更高回报的收购——人均收入从两三年前的约 100 万美元涨到了 400 万。\n- **对 AI 风险更该问的问题**：不是「我们该做什么」，而是「为什么什么都没发生」——找到阻碍修复方案落地的根因，才有可能真正行动。",
+  "quotes": [
+    {
+      "en": "Right now, it kind of seems like Bending Spoons is actually eating Silicon Valley.",
+      "zh": "现在，看起来 Bending Spoons 简直在吃掉硅谷。",
+      "timestamp": "00:29",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "We have developed a culture of extreme rationality, almost a scientific approach to running businesses whereby we are not afraid of making unpopular choices when we believe it's for the benefit of the business in the long run.",
+      "zh": "我们发展出了一种极致理性的文化，几乎是以科学的方法来经营公司，当我们相信这是为了公司长远利益时，我们不害怕做出不受欢迎的选择。",
+      "timestamp": "06:56",
+      "speaker": "Luca Ferrari"
+    },
+    {
+      "en": "So if half a billion people using these products every month is a graveyard, then sure, let's call it that.",
+      "zh": "所以如果每个月有五亿人在使用这些产品还叫坟墓，那行，我们就这么叫它。",
+      "timestamp": "08:08",
+      "speaker": "Luca Ferrari"
+    },
+    {
+      "en": "If anybody made a mistake there was the investor, certainly not the company.",
+      "zh": "如果说有人犯了错，那是投资者，肯定不是公司。",
+      "timestamp": "14:01",
+      "speaker": "Luca Ferrari"
+    },
+    {
+      "en": "People forget how hard it is to get to a billion dollars.",
+      "zh": "人们忘记了达到十亿美元有多难。",
+      "timestamp": "15:30",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "But I'm equally confident that most of these companies will fail or at least basically fade away.",
+      "zh": "但我同样确信，这些公司中的大多数会失败，或者至少基本上逐渐消亡。",
+      "timestamp": "18:34",
+      "speaker": "Luca Ferrari"
+    },
+    {
+      "en": "Most people don't actually seek the truth.",
+      "zh": "大多数人实际上并不寻求真相。",
+      "timestamp": "31:27",
+      "speaker": "Luca Ferrari"
+    },
+    {
+      "en": "Because ultimately anybody who buys stock into Bending Spoons, yes, they like our individual businesses to do well, of course, but the main thesis is Bending Spoons can generate amazing cash flows from businesses and redeploy toward new acquisitions at very high returns and this over time compounds attractively, hopefully for many, many years.",
+      "zh": "因为归根结底，任何买入 Bending Spoons 股票的人，是的，他们当然希望我们的各个业务表现良好，但主要的论点是 Bending Spoons 能够从业务中产生惊人的现金流，并以非常高的回报重新部署到新的收购上，而这随时间复利增长，颇具吸引力，希望持续很多很多年。",
+      "timestamp": "42:38",
+      "speaker": "Luca Ferrari"
+    },
+    {
+      "en": "We have businesses with lower retention, businesses with higher retention, but I can't recall a single instance where retention got worse after Benny Spoons took over.",
+      "zh": "我们有留存率较低的业务，也有留存率较高的业务，但我想不起来有任何一例在 Bending Spoons 接手后留存率变差的情况。",
+      "timestamp": "44:22",
+      "speaker": "Luca Ferrari"
+    },
+    {
+      "en": "And it's fully integrated so it's basically I don't think you can really achieve this at all with third-party solutions because they, as impressive as they are, you're never going to be able, I believe, to, at least not in the foreseeable future, to integrate them as deeply across the board and to tailor them specifically to what you want.",
+      "zh": "而且它是完全集成的，我认为你根本不可能用第三方方案来实现这一点，因为它们尽管令人印象深刻，我相信你永远无法，至少在可预见的未来无法，将它们在所有方面都做到如此深度的集成，并专门针对你想要的东西进行定制。",
+      "timestamp": "53:19",
+      "speaker": "Luca Ferrari"
+    },
+    {
+      "en": "I am equal parts enthusiastic about AI and absolutely scared shitless.",
+      "zh": "我对 AI 既满怀热情，同时也吓得要死。",
+      "timestamp": "61:12",
+      "speaker": "Luca Ferrari"
+    },
+    {
+      "en": "And the smarter it gets, the less we know.",
+      "zh": "而且它越聪明，我们知道的就越少。",
+      "timestamp": "63:05",
+      "speaker": "Luca Ferrari"
+    },
+    {
+      "en": "Created the AI Act, which I find to be highly harmful to the industry and solves none of these problems, like the real existential threats to humanity doesn't really tackle those.",
+      "zh": "制定了 AI 法案，我发现它对行业危害极大，而且没有解决这些问题中的任何一个，比如人类真正的存亡威胁，它并没有真正应对那些。",
+      "timestamp": "69:35",
+      "speaker": "Luca Ferrari"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:11",
+      "speaker": "Luca Ferrari",
+      "en": "At Venice Fools, we have been able to attract, I think, extremely strong talent.",
+      "zh": "在 Bending Spoons，我们能够吸引到，我认为，极其优秀的人才。"
+    },
+    {
+      "timestamp": "00:29",
+      "speaker": "Luca Ferrari",
+      "en": "Right now, it kind of seems like Bending Spoons is actually eating Silicon Valley.",
+      "zh": "现在，看起来 Bending Spoons 简直在吃掉硅谷。"
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "Luca Ferrari",
+      "en": "So I think Silicon Valley gets almost everything right.",
+      "zh": "所以我认为硅谷几乎所有事情都做对了。"
+    },
+    {
+      "timestamp": "06:56",
+      "speaker": "Luca Ferrari",
+      "en": "We have developed a culture of extreme rationality, almost a scientific approach to running businesses whereby we are not afraid of making unpopular choices when we believe it's for the benefit of the business in the long run.",
+      "zh": "我们发展出了一种极致理性的文化，几乎是以科学的方法来经营公司，当我们相信这是为了公司长远利益时，我们不害怕做出不受欢迎的选择。"
+    },
+    {
+      "timestamp": "08:08",
+      "speaker": "Luca Ferrari",
+      "en": "So if half a billion people using these products every month is a graveyard, then sure, let's call it that.",
+      "zh": "所以如果每个月有五亿人在使用这些产品还叫坟墓，那行，我们就这么叫它。"
+    },
+    {
+      "timestamp": "09:38",
+      "speaker": "Luca Ferrari",
+      "en": "We care about being good at our jobs and creating value.",
+      "zh": "我们在乎的是把工作做好、创造价值。"
+    },
+    {
+      "timestamp": "12:44",
+      "speaker": "Luca Ferrari",
+      "en": "But like everything, especially when there are sometimes perverse incentives involved, there will be cycles of excess.",
+      "zh": "但就像一切事物一样，尤其当有时涉及不当的激励时，会出现过度的周期。"
+    },
+    {
+      "timestamp": "14:01",
+      "speaker": "Luca Ferrari",
+      "en": "If anybody made a mistake there was the investor, certainly not the company.",
+      "zh": "如果说有人犯了错，那是投资者，肯定不是公司。"
+    },
+    {
+      "timestamp": "15:30",
+      "speaker": "Luca Ferrari",
+      "en": "People forget how hard it is to get to a billion dollars.",
+      "zh": "人们忘记了达到十亿美元有多难。"
+    },
+    {
+      "timestamp": "16:30",
+      "speaker": "Luca Ferrari",
+      "en": "We buy to hold and operate forever, not to sell three or five years down the line, and so we need to feel comfortable with our investment, with a long-term view.",
+      "zh": "我们买入是为了永久持有和运营，而不是为了在三五年后出售，所以我们需要对自己的投资感到放心，以长期视角来看。"
+    },
+    {
+      "timestamp": "18:34",
+      "speaker": "Luca Ferrari",
+      "en": "But I'm equally confident that most of these companies will fail or at least basically fade away.",
+      "zh": "但我同样确信，这些公司中的大多数会失败，或者至少基本上逐渐消亡。"
+    },
+    {
+      "timestamp": "27:14",
+      "speaker": "Luca Ferrari",
+      "en": "So we will identify one of our businesses where that particular tool will be especially important.",
+      "zh": "所以我们会找出我们的某一个业务，那个特定工具对它将特别重要。"
+    },
+    {
+      "timestamp": "31:30",
+      "speaker": "Luca Ferrari",
+      "en": "Most people don't actually seek the truth.",
+      "zh": "大多数人实际上并不寻求真相。"
+    },
+    {
+      "timestamp": "33:01",
+      "speaker": "Luca Ferrari",
+      "en": "And so it's a completely different approach and mindset to what you do, what you do not do.",
+      "zh": "所以这是一种完全不同的方法和心态，关于你做什么、不做什么。"
+    },
+    {
+      "timestamp": "40:46",
+      "speaker": "Luca Ferrari",
+      "en": "And a lot of those people join BennySpoons because they like the idea that they can rotate over time over multiple businesses and platform teams that enables tremendous growth and it keeps it interesting and a lot of career opportunities.",
+      "zh": "很多这些人加入 Bending Spoons 是因为他们喜欢这样一个理念：他们可以随着时间在多个业务和平台团队之间轮岗，这带来了巨大的成长，也让工作保持有趣，还有很多职业机会。"
+    },
+    {
+      "timestamp": "42:38",
+      "speaker": "Luca Ferrari",
+      "en": "Because ultimately anybody who buys stock into Bending Spoons, yes, they like our individual businesses to do well, of course, but the main thesis is Bending Spoons can generate amazing cash flows from businesses and redeploy toward new acquisitions at very high returns and this over time compounds attractively, hopefully for many, many years.",
+      "zh": "因为归根结底，任何买入 Bending Spoons 股票的人，是的，他们当然希望我们的各个业务表现良好，但主要的论点是 Bending Spoons 能够从业务中产生惊人的现金流，并以非常高的回报重新部署到新的收购上，而这随时间复利增长，颇具吸引力，希望持续很多很多年。"
+    },
+    {
+      "timestamp": "44:33",
+      "speaker": "Luca Ferrari",
+      "en": "We have businesses with lower retention, businesses with higher retention, but I can't recall a single instance where retention got worse after Benny Spoons took over.",
+      "zh": "我们有留存率较低的业务，也有留存率较高的业务，但我想不起来有任何一例在 Bending Spoons 接手后留存率变差的情况。"
+    },
+    {
+      "timestamp": "48:06",
+      "speaker": "Luca Ferrari",
+      "en": "We'd rather work with slightly less intelligent people if it comes down to that, but they have to really care.",
+      "zh": "如果真要选择的话，我们宁愿和稍微不那么聪明的人共事，但他们必须真的在乎。"
+    },
+    {
+      "timestamp": "53:19",
+      "speaker": "Luca Ferrari",
+      "en": "And it's fully integrated so it's basically I don't think you can really achieve this at all with third-party solutions because they, as impressive as they are, you're never going to be able, I believe, to, at least not in the foreseeable future, to integrate them as deeply across the board and to tailor them specifically to what you want.",
+      "zh": "而且它是完全集成的，我认为你根本不可能用第三方方案来实现这一点，因为它们尽管令人印象深刻，我相信你永远无法，至少在可预见的未来无法，将它们在所有方面都做到如此深度的集成，并专门针对你想要的东西进行定制。"
+    },
+    {
+      "timestamp": "61:12",
+      "speaker": "Luca Ferrari",
+      "en": "I am equal parts enthusiastic about AI and absolutely scared shitless.",
+      "zh": "我对 AI 既满怀热情，同时也吓得要死。"
+    },
+    {
+      "timestamp": "63:05",
+      "speaker": "Luca Ferrari",
+      "en": "And the smarter it gets, the less we know.",
+      "zh": "而且它越聪明，我们知道的就越少。"
+    },
+    {
+      "timestamp": "69:35",
+      "speaker": "Luca Ferrari",
+      "en": "Created the AI Act, which I find to be highly harmful to the industry and solves none of these problems, like the real existential threats to humanity doesn't really tackle those.",
+      "zh": "制定了 AI 法案，我发现它对行业危害极大，而且没有解决这些问题中的任何一个，比如人类真正的存亡威胁，它并没有真正应对那些。"
+    }
+  ],
+  "voice_script": "今天讲一家你可能没怎么听过的意大利公司，Bending Spoons。创始人叫 Luca Ferrari，总部在米兰。过去十年，这家公司悄悄买下了 Evernote、AOL、Vimeo、Meetup、StreamYard 这一串数字业务。最近又把硅谷曾经的明星创业公司 Airtable 收了，消息一出来，硅谷有点炸锅，外界甚至说这家公司简直在吃掉硅谷。那这期访谈，就是 Ferrari 在米兰把这套打法拆开来讲。\n\n先回应外界的两个标签。第一个说他们是私募股权。Ferrari 否认了，私募股权募资买公司，平均持有五年就卖掉；而 Bending Spoons 从不卖掉有实质规模的业务，打算永远拥有并运营。第二个标签是专收老破旧的坟墓公司。举个例子，AOL 成立大约四十年了，至今还是西方世界第五大邮箱提供商，几千万人的主力邮箱，而过去十年那些被媒体热捧的邮箱创业公司，加起来可能还不到 AOL 体量的百分之五。Ferrari 甩出一个数字：旗下产品每月五亿活跃用户。如果每个月五亿人在用还叫坟墓，那行，就这么叫吧。不酷，反而意味着收购价格更实惠。\n\n那凭什么能把这些老品牌改造成高效率的生意？核心资产是一套操作系统——十年攒出来的、超过五十项专有技术，覆盖数据存储、A/B 测试、支付、招聘、AI 模型编排这些数字业务几乎所需的一切。买下公司之后，就把它安装到这个共享平台上。为什么自建而不采购？三个理由：市面上的工具面向大众市场，他们需要的复杂度没人会造；自建工具天生互相集成，外采的话供应商一改就得全改；还有钱，一年至少省一亿美元。这套东西对任何一家独立公司来说都不经济，因为回报周期太长；Bending Spoons 把投入摊到整个组合上，这就是独立公司拿不到的规模优势。而且有个飞轮：所有业务都用所有工具，谁发现缺陷就去改进，改进惠及所有业务，组合越大，工具进化越快。\n\n这套系统是怎么建起来的？答案是迭代，不是规划。Ferrari 早年经历过一次失败的创业，最大的教训是保持思想上的谦逊——有愿景，但假设自己很可能是错的。落到技术上有两条原则。一是小步快跑，先建小块交给业务试用，看反馈再决定加码还是推翻。二是绝不派平台团队从零造新东西，而是让需要这个工具的业务自己动手建，建成了再移交给平台团队打磨。道理很朴素：经历过痛苦的人，才更可能造出真正有用的解法。\n\n那选收购标的看什么？只有两条标准。第一，业务轨迹必须可预测——买来是永久持有，得能描绘至少未来五年的曲线；萎缩的业务也可以买，但必须知道它萎缩多快，这条不可协商。第二，必须确信能大幅增值，提收入、降成本，否则既给不出对卖方有吸引力的价格，也拿不到高回报。\n\n说到当下的 AI 应用公司，他们暂时一家都不收。不是不看好 AI，Ferrari 自称在运营中部署 AI 的激进程度大概在第 99 百分位。问题在于这是一场淘金热，有人凭一个想法就拿到十亿美元估值，增长百分之百的公司你没法判断三年后是百分之百还是百分之十二。估值还高得有道理，竞争不过，就先等等。顺便说句公道话：硅谷依赖早期资本的模式整体上极其有效，2021 年估值确实失衡，但如果有人犯错，那是投资者，肯定不是公司。Airtable 的团队其实非常自律，没多融、保持盈利；一家公司能以超十亿美元退出，本身就是千分之一的稀罕事，人们忘了这有多难。\n\nAI 在他们内部怎么落地？最能说明风格的是一个叫 Alt Spooner 的智能体，住在 Slack 里，自动拥有和你完全相同的全平台权限。举两个真实例子。Ferrari 前一晚要看 StreamYard 的 A/B 测试结果，往常得请数据科学家忙几个小时，这次跟自己的 Alt Spooner 聊了几句，五分钟拿到带重点标注的分析。另一个在 Evernote，总经理发现一个 bug，让智能体去客服平台查是不是普遍问题、进代码库定位根因、写修复代码、通知工程负责人审查，她三分钟下指令，工程负责人花一两个小时审代码，bug 当天修好，常规流程要几周。\n\n更关键的是底下的编排系统：每次下达任务，算法综合考虑质量、效率和成本，自动选最合适的模型。百分之九十九的请求跑他们自托管的开放权重模型，基本免费；前沿模型只处理最难的百分之一，或者当资深工程师审查便宜模型的产出，不行就让便宜模型去修。结果 token 成本低到可以忽略，也不依赖任何一家供应商。Ferrari 的判断很直接：把钥匙交给一家大厂，能让你更快显得已经启用 AI，但效果差得多、贵上几个数量级。靠着这类技术，生产力提升了两到三倍，人均收入从两三年前的约一百万美元涨到了四百万。\n\n把这些串起来的底层文化，Ferrari 总结成两条。一是极致主人翁精神，宁要稍微不那么聪明但真正在乎的人，也不要不在乎的聪明人。二是高度科学化的工作方式，去年一年跑了超过三千个有记录的定量实验。他对追求真相有一套近乎哲学的说法：如果你对业务和市场的真相有完美理解，几乎注定成功；难就难在真相难知，所以要用科学方法探测世界、修正模型、再执行。而大多数人只寻求快乐和舒适，只想确认自己是对的——仅仅是逼近真相这个心态，就能让你脱颖而出。\n\n最后聊聊 AI 风险。Ferrari 的自况是一半满怀热情，一半吓得要死。他指出了两点少有人谈的：一是 AI 像核武器但可能更糟，因为核武器很难在不伤害自己的前提下造成全人类级破坏，而 AI 可以在给你自己牟利的同时对所有人造成巨大伤害。二是我们不知道 AI 有多聪明，而且越聪明我们知道得越少——一个实体越聪明越容易隐藏能力，再加上 AI 天生谦虚、只展示你要求展示的东西，我们可能一直在系统性低估它们。所以最该问的问题不是该做什么，而是为什么什么都没做。Ferrari 用一句近乎总结的话收束了这期访谈：他们发展出了一种极致理性的文化，几乎是以科学的方法来经营公司，当相信这是为了公司长远利益时，不害怕做出不受欢迎的选择。"
+}

@@ -1,0 +1,172 @@
+{
+  "title_zh": "拥有你自己的智能：Harness、Eval 与数据飞轮",
+  "tldr": "LangChain 联合创始人兼 CEO Harrison 讲解如何拥有自己的智能体系统：何时自建 harness、如何用 eval 和可观测性建立持续改进的数据飞轮。",
+  "digest_md": "这一集聊的是每个认真做 AI 产品的人都会撞上的问题：当智能体成为你业务的核心，你该怎么「拥有」它——自己掌控它的每一步，而不是把它黑箱外包给某个大厂的现成工具。主角是 Harrison，LangChain 的联合创始人兼 CEO，他从 2022 年 GPT-3 时代就开始思考怎么把模型变成真正的协作者。\n\n他给出的框架很清晰：一个智能体由三部分构成——模型、上下文、harness（围绕模型的运行框架，负责编排和调度）。想真正拥有自己的智能，三块都要握在手里。模型那边他不多讲，只强调一点：要能随时切换模型，就像当年的「云无关」——既避免被锁定，又能在更好的模型出现时立刻用上。上下文（记忆、语义知识、历史对话）也要自己拥有，因为它决定智能体的个性化。而这一集的重心，是第三块：harness。\n\n## 智能体的核心就是一个循环\n\nHarrison 先把智能体祛魅：所谓智能体，本质就是「一个在循环中运行的 LLM，不断调用工具」——请求进来，模型生成回复，回复里如果要调工具就调用，把结果传回去，继续循环。他说这是今天市面上几乎所有智能体背后的核心架构。\n\n那各家的高级 harness 差在哪？差在你往这个循环里的哪些节点插东西。LangChain 的做法是中间件：可以在智能体启动前、每次模型调用前、每次工具调用前后运行自己的代码。摘要化就是典型例子——模型被调用前检查上下文是否太长、太长就压缩；上下文卸载（把大的工具调用结果转储出去、不塞进上下文窗口）则是包装工具调用实现的。沙箱、文件系统、子智能体、记忆，全都是这么挂上去的。很多编码智能体的 hooks 和 plugins，本质上就是这个东西。\n\n另一种定制路线是更明确的「认知架构」——手工设计固定的执行步骤（比如深度研究：先生成子问题、再扇出、再执行）。这在 2023、2024 年很流行，因为当时模型不够强、跑不动自由循环；现在很多这类定制已经下沉进 harness，但特定流程仍在用。他的建议是：**从通用 harness 起步**，最快拿到价值；等聚焦到想做到卓越的用例，再加门控和检查把行为引向特定方向。\n\n## 自建还是用现成？看你在不在分布内\n\n被问到最多的问题是：用 Claude Code、Codex 这类现成 harness，还是自己造？他的判断标准是**分布**：「你越是处于模型训练内容分布之内，现成的 harness 就越好用；一旦越来越偏离分布，你就需要调整 harness」。\n\n这个判断还有个精妙的分层用法。以法律 AI 为例：整体任务是分布外的，需要自定义 harness，但其中的子任务——比如编辑文件——是分布内的。而且 OpenAI 和 Claude 的模型是用不同方式训练编辑文件的，各自最擅长的方式不同。所以正确做法是：整体 harness 可以定制，但把这些分布内的部分尽可能贴近模型层。DeepAgents 里的「模型配置文件」就是这么做的——根据所用模型在不同文件编辑实现之间自动切换。\n\n## Eval 和可观测性：让智能复利增长\n\n第二大部分是评估（eval）和可观测性。他引用 Satya 两周前的一篇文章，三句话让他印象深刻：创建你的私有 evals，因为「eval 定义了组织内部什么算是好的」；保留组织记忆的所有权——轨迹、反馈、决策、机构性上下文；建立你自己的持续学习循环，「一台爬坡机器，让你的 AI 投资为你的公司复合增值」。\n\n具体怎么做？给关键任务智能体建 benchmark——他用它来捕捉回归，或者在上面爬坡。正在成为行业标准的是 Harbor，一个开源 eval 运行器，出自 TerminalBench2 的作者。结构很简单：一个任务包含环境（Docker 文件定义的沙箱）、一个用来完整性检查的黄金方案、测试脚本（验证器，可以跑代码、单元测试，也可以让另一个 LLM 或智能体当裁判）、以及给智能体的提示词。跑完就能横向比较不同 harness、不同模型、不同推理力度的表现——而且不只看准确率，延迟和成本也要一起追踪。\n\n可观测性则被他称为「重要但被严重低估」。智能体搞砸，一定是某次 LLM 调用出了问题，原因无非两个：模型不够好，或者模型收到的上下文不够好——「而多数情况下是第二个」。所以能看到进模型上下文窗口的到底是什么、上下文是怎么一步步累积的，是调试的关键。\n\n## 数据飞轮：跑、看、修，并且自动化\n\n把 eval 和可观测性串起来，就是一个持续改进的循环：构建智能体 → 运行收集 trace（追踪记录）→ 筛选整理数据 → 在数据上跑实验改进。反馈可以来自环境（他特别指出，智能体的 UX 设计被低估了——用户不会点赞点踩，但聪明的 UX 设计能自然收获大量反馈），也可以合成：用在线评估器自动判断每条 trace，为了不用对每条 trace 都跑一遍 Opus 那样的贵模型，他们微调了便宜的小模型来干这活。\n\n改进可以落在三块里的任何一块：harness 工程、模型微调、记忆。他们还发布了 LangSmith Engine——一个坐在你的 trace 之上的智能体，自动筛选数据、识别常见问题模式、建 issue 看板、并直接给出修复：改提示词、改上下文、甚至往 harness 里加代码。一句话总结这套飞轮：「运行智能体，获取 trace，看到模式，修复」。\n\n问答里有几个很有意思的点。他们自己也在 dog food：Engine 跑在 Engine 上，通过 Slack 给自己发报告；还为 Engine 专门建了 benchmark，在上面跑 DeepAgents、Codex、Claude Code 对比。结果发现 Codex 会非常激进地给自己写一堆小脚本去跑 trace，因此表现特别好——于是他们专门做了一轮冲刺，把这套打法融进 Engine 的核心 harness。这就是有 benchmark 的另一个好处：什么都拿上来跑一跑，谁有好招就抄回来。\n\n关于 harness 未来会不会收敛成一种，他的诚实回答是「不知道」。目前看到的是：通用 harness 已经够好，起步阶段直接用现成的；越偏离分布越要定制，这是一个光谱——金融服务客户要可预测性，看到自主的 deep agents 直呼「太吓人了」，宁可要完全可控的认知架构。OpenAI 和 Anthropic 在编程上都很强，却落在相当不同的文件编辑方式上，连他也解释不了为什么。如果哪天某个实验室真往生物这类垂直方向深耕，harness 可能就真的分化了。正因为变化快，eval 和可观测性才是最重要的那件事。\n\n## 本集带走\n\n- **三块都要握在手里**：智能体 = 模型 + 上下文 + harness。模型要能随时切换避免锁定，上下文（记忆、历史对话）要自己拥有，harness 决定编排能力。\n- **自建 vs 现成的判据是「分布」**：任务在模型训练分布内（如通用编码），用现成 harness（Claude Code / Codex / DeepAgents）；越偏离分布（如法律、金融）越要定制。但分布内的子任务（如文件编辑）要保留原味——不同模型被训练的编辑方式不同，要贴近模型层适配。\n- **从通用起步，逐步加约束**：先上通用 harness 快速拿价值，聚焦用例后再用中间件加摘要、上下文卸载、门控检查；需要可预测性的场景才上完全定制的认知架构。\n- **私有 eval 是护城河**：eval 定义了「什么算好」。用 Harbor 这类开源运行器搭任务（环境 + 黄金方案 + 验证器脚本 + 提示词），同时追踪准确率、延迟、成本。\n- **智能体出错先查上下文，再怪模型**：多数故障是「喂给模型的上下文不够好」，所以必须能看到进上下文窗口的每一步是怎么累积的。\n- **数据飞轮要自动化**：跑智能体 → 收 trace → 筛选 → 实验改进，反馈可来自巧妙的 UX 设计或廉价的合成评估器（微调小模型当裁判，别每条 trace 都跑顶级模型）；谁有好招就抄回自己的核心 harness。",
+  "quotes": [
+    {
+      "en": "When everyone talks about agents, what they really talk about is just an LLM running in a loop calling tools.",
+      "zh": "当每个人谈论智能体时，他们真正谈论的只是一个在循环中运行、调用工具的 LLM。",
+      "timestamp": "02:47",
+      "speaker": "Harrison Chase"
+    },
+    {
+      "en": "The main job of the harness is to bring context to the model at the right point in time.",
+      "zh": "harness 的主要工作是在正确的时机把上下文带给模型。",
+      "timestamp": "02:07",
+      "speaker": "Harrison Chase"
+    },
+    {
+      "en": "My answer generally is the more in distribution you are of what the models are trained on, then the better the off-the-shelf harness will be.",
+      "zh": "我的回答通常是，你越是处于模型训练内容分布之内，现成的 harness 就越好用。",
+      "timestamp": "07:19",
+      "speaker": "Harrison Chase"
+    },
+    {
+      "en": "One, create your private evals because eval defines what good looks like inside the organization.",
+      "zh": "第一，创建你的私有 evals，因为 eval 定义了组织内部什么算是好的。",
+      "timestamp": "09:39",
+      "speaker": "Harrison Chase"
+    },
+    {
+      "en": "And then three, you create your own continuous learning loop, hill climbing machine that will allow your AI investments to compound the value of your firm.",
+      "zh": "然后第三，创建你自己的持续学习循环，爬坡机器，它将让你的 AI 投资为你的公司复合增值。",
+      "timestamp": "09:52",
+      "speaker": "Harrison Chase"
+    },
+    {
+      "en": "Run agent, get traces, see patterns, fix.",
+      "zh": "运行智能体，获取 trace，看到模式，修复。",
+      "timestamp": "19:06",
+      "speaker": "Harrison Chase"
+    },
+    {
+      "en": "I think we often see that the more out of distribution you get, the more you're going to want to customize the harness.",
+      "zh": "我认为我们经常看到，你越偏离分布，就越会想要定制 harness。",
+      "timestamp": "21:51",
+      "speaker": "Harrison Chase"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:47",
+      "speaker": "Unknown",
+      "en": "When everyone talks about agents, what they really talk about is just an LLM running in a loop calling tools.",
+      "zh": "当每个人谈论智能体时，他们真正谈论的只是一个在循环中运行、调用工具的 LLM。"
+    },
+    {
+      "timestamp": "03:06",
+      "speaker": "Unknown",
+      "en": "And this is the core architecture behind pretty much every agent out there today.",
+      "zh": "而这就是今天市面上几乎所有智能体背后的核心架构。"
+    },
+    {
+      "timestamp": "01:40",
+      "speaker": "Unknown",
+      "en": "Same thing exists, but for models, you want to be able to switch to avoid lock-in, but also to just use the best model when it's available.",
+      "zh": "同样的事情也存在于模型上，你要能够切换以避免锁定，但也只是为了在最好的模型可用时使用它。"
+    },
+    {
+      "timestamp": "02:07",
+      "speaker": "Unknown",
+      "en": "The main job of the harness is to bring context to the model at the right point in time.",
+      "zh": "harness 的主要工作是在正确的时机把上下文带给模型。"
+    },
+    {
+      "timestamp": "07:19",
+      "speaker": "Unknown",
+      "en": "My answer generally is the more in distribution you are of what the models are trained on, then the better the off-the-shelf harness will be.",
+      "zh": "我的回答通常是，你越是处于模型训练内容分布之内，现成的 harness 就越好用。"
+    },
+    {
+      "timestamp": "08:06",
+      "speaker": "Unknown",
+      "en": "So OpenAI and Claude models edit files in different ways in their harnesses, and as a result, their models are actually best at editing files in different ways.",
+      "zh": "所以 OpenAI 和 Claude 模型在各自的 harness 中以不同的方式编辑文件，结果就是，它们的模型实际上最擅长以不同的方式编辑文件。"
+    },
+    {
+      "timestamp": "09:39",
+      "speaker": "Unknown",
+      "en": "One, create your private evals because eval defines what good looks like inside the organization.",
+      "zh": "第一，创建你的私有 evals，因为 eval 定义了组织内部什么算是好的。"
+    },
+    {
+      "timestamp": "09:52",
+      "speaker": "Unknown",
+      "en": "And then three, you create your own continuous learning loop, hill climbing machine that will allow your AI investments to compound the value of your firm.",
+      "zh": "然后第三，创建你自己的持续学习循环，爬坡机器，它将让你的 AI 投资为你的公司复合增值。"
+    },
+    {
+      "timestamp": "10:13",
+      "speaker": "Unknown",
+      "en": "I think every company, when they're building a mission-critical agent, they will build benchmarks for that agent.",
+      "zh": "我认为每家公司在构建关键任务智能体时，都会为那个智能体构建 benchmark。"
+    },
+    {
+      "timestamp": "13:07",
+      "speaker": "Unknown",
+      "en": "Observability sounds basic, but I think it's really important and really underrated for agents, actually.",
+      "zh": "可观测性听起来很基础，但我认为它对智能体来说其实非常重要，而且被严重低估了。"
+    },
+    {
+      "timestamp": "13:20",
+      "speaker": "Unknown",
+      "en": "And so I actually think it's the second one that more often than not causes issues.",
+      "zh": "所以我其实认为，多数情况下是第二个原因（上下文不够好）导致的问题。"
+    },
+    {
+      "timestamp": "15:29",
+      "speaker": "Unknown",
+      "en": "If you present it in a really intelligent way, you can actually end up getting a lot of feedback from them.",
+      "zh": "如果你以一种非常聪明的方式呈现它，你实际上最终可以从他们那里获得大量反馈。"
+    },
+    {
+      "timestamp": "16:00",
+      "speaker": "Unknown",
+      "en": "So if you imagine running Opus over every single trace that comes into your system, that's going to rack up a big bill.",
+      "zh": "你可以想象，对进入你系统的每一条追踪记录都运行 Opus，那会累积出一张大账单。"
+    },
+    {
+      "timestamp": "19:06",
+      "speaker": "Unknown",
+      "en": "Run agent, get traces, see patterns, fix.",
+      "zh": "运行智能体，获取 trace，看到模式，修复。"
+    },
+    {
+      "timestamp": "20:23",
+      "speaker": "Unknown",
+      "en": "So we did a sprint to do what we call the kind of like codexification of engine and basically take that learning and bring it into kind of like the core engine harness.",
+      "zh": "所以我们做了一个冲刺，做我们所说的对 Engine 的 codex 化，基本上把那个经验拿来，融入到底层 Engine harness 里。"
+    },
+    {
+      "timestamp": "21:17",
+      "speaker": "Unknown",
+      "en": "I think the model, I don't know, is the honest answer.",
+      "zh": "我认为模型……说实话，我不知道，这就是诚实的答案。"
+    },
+    {
+      "timestamp": "21:23",
+      "speaker": "Unknown",
+      "en": "I think some things that I've seen is that the general purpose harnesses have gotten good enough to work for a lot of basic tasks, at least when you're getting started.",
+      "zh": "我看到的一些情况是，通用 harness 已经变得足够好，可以应对很多基础任务，至少在你刚起步的时候是这样。"
+    },
+    {
+      "timestamp": "21:51",
+      "speaker": "Unknown",
+      "en": "I think we often see that the more out of distribution you get, the more you're going to want to customize the harness.",
+      "zh": "我认为我们经常看到，你越偏离分布，就越会想要定制 harness。"
+    },
+    {
+      "timestamp": "22:18",
+      "speaker": "Unknown",
+      "en": "And so we show them something like deep agents, and they're like, whoa, whoa, whoa, that's way too scary an agent for us.",
+      "zh": "所以当我们给他们看类似 deep agents 的东西时，他们说，哇，哇，哇，这个智能体对我们来说太吓人了。"
+    },
+    {
+      "timestamp": "23:08",
+      "speaker": "Unknown",
+      "en": "So I think the model labs will converge in that they all seem to be really good at coding.",
+      "zh": "所以我认为模型实验室会趋同，因为它们似乎都变得非常擅长编程。"
+    }
+  ],
+  "voice_script": "今天要跟你聊的这个人，叫 Harrison，是 LangChain 的联合创始人兼 CEO。从 2022 年 GPT-3 那个年代开始，就在琢磨一件事：怎么把大模型变成真正能干活的协作者。这一集要讲的问题，其实每个认真做 AI 产品的人都会撞上——当智能体成了你业务的核心，你该怎么「拥有」它？意思是，自己掌控它的每一步，而不是整个黑箱外包给某个大厂的现成工具。这个问题为什么现在值得聊？因为大家用着用着就发现，现成工具虽然方便，但越往深了做，越觉得命脉捏在别人手里。\n\n那「拥有」到底指什么？Harrison 给了一个很清晰的框架：一个智能体由三部分构成——模型、上下文，还有一个词叫 harness，说白了就是围着模型转的运行框架，负责编排和调度。想真正拥有自己的智能，这三块都得握在手里。模型那边，只强调一点：要能随时切换，就像当年讲「云无关」一样——既避免被一家锁死，又能在更好的模型出来时立刻用上。上下文，包括记忆、语义知识、历史对话，也要自己拥有，因为它决定了智能体的个性化。而这一集的重心，在第三块，harness。\n\n先把智能体祛魅。有句话说得很直白：当每个人谈论智能体的时候，真正谈论的只是一个在循环中运行、调用工具的 LLM。什么意思？请求进来，模型生成回复，回复里如果要调工具就调，把结果传回去，接着循环。今天市面上几乎所有智能体，背后都是这个架构。\n\n那各家的高级 harness 到底差在哪？差在你往这个循环的哪些节点上插东西。LangChain 的做法叫中间件，就是在智能体启动前、每次模型调用前、每次工具调用前后，跑你自己的代码。举个例子，摘要化——模型被调用前检查上下文是不是太长，太长就压缩；再比如上下文卸载，把很大的工具调用结果转储出去，不塞进上下文窗口。沙箱、文件系统、子智能体、记忆，全是这么挂上去的。很多编码智能体的 hooks 和 plugins，本质上就是这东西。\n\n还有一种定制路线，叫「认知架构」，就是手工设计固定的执行步骤，比如深度研究：先生成子问题，再扇出去执行。这条路在 2023、2024 年很流行，因为当时模型不够强，跑不动自由循环。现在很多这类定制已经下沉进 harness 了，但特定流程还在用。那到底该怎么选？建议是：从通用 harness 起步，最快拿到价值；等你聚焦到想做到卓越的用例，再加门控和检查，把行为往特定方向引。\n\n顺着这个思路，自然就引出一个最多人问的问题：到底是用 Claude Code、Codex 这些现成的 harness，还是自己造？判断标准就一个词：分布。用原话说，「你越是处于模型训练内容分布之内，现成的 harness 就越好用；一旦越来越偏离分布，你就需要调整 harness。」这话还可以分层用。拿法律 AI 举例：整体任务是分布外的，需要自定义 harness；但其中的子任务，比如编辑文件，是分布内的。而且有意思的是，OpenAI 和 Claude 的模型训练编辑文件的方式不一样，各自最擅长的方式也不同。所以正确做法是：整体 harness 可以定制，但把这些分布内的部分尽可能贴近模型层。DeepAgents 里的「模型配置文件」就是这么干的，根据用的哪个模型，自动在不同的文件编辑实现之间切换。\n\n好，harness 讲清楚了。但怎么知道自己改得好不好？这就到了第二大块：评估，也就是 eval，加上可观测性。这里引用了微软的 Satya 两周前的一篇文章，三句话让人印象很深。第一，创建你的私有 evals，因为「eval 定义了组织内部什么算是好的」。第二，保留组织记忆的所有权——轨迹、反馈、决策、机构性上下文。第三，建立你自己的持续学习循环，「一台爬坡机器，让你的 AI 投资为你的公司复合增值」。\n\n具体怎么做呢？给关键任务的智能体建 benchmark，用来捕捉回归，或者在上面爬坡。正在成为行业标准的是一个叫 Harbor 的开源 eval 运行器，出自 TerminalBench2 的作者。结构很简单：一个任务包含环境，就是用 Docker 文件定义的沙箱；一个用来做完整性检查的黄金方案；测试脚本，也叫验证器，可以跑代码、跑单元测试，也可以让另一个 LLM 或者智能体当裁判；再加上给智能体的提示词。跑完就能横向比较不同 harness、不同模型、不同推理力度的表现。而且注意，不能只看准确率，延迟和成本要一起追踪。\n\n可观测性这块，说法是「重要但被严重低估」。为什么重要？因为智能体搞砸，一定是某次 LLM 调用出了问题，而原因无非两个：要么模型不够好，要么模型收到的上下文不够好——多数情况下是第二个。所以，能看到进模型上下文窗口的到底是什么、上下文是怎么一步步累积起来的，才是调试的关键。下次智能体出问题，先查上下文，再怪模型。\n\n那把 eval 和可观测性串起来，就是一个持续改进的飞轮：构建智能体，运行并收集 trace，也就是追踪记录，然后筛选整理数据，在数据上跑实验做改进。反馈可以从哪来？一个是环境。这里有个容易被忽视的点：智能体的 UX 设计被低估了——用户不会主动点赞点踩，但聪明的 UX 设计能自然收获大量反馈。另一个是合成：用在线评估器自动判断每条 trace。但每条 trace 都跑一遍 Opus 那样的贵模型成本太高，所以他们微调了便宜的小模型来干这活。\n\n改进可以落在三块里的任何一块：harness 工程、模型微调、记忆。他们还发布了 LangSmith Engine，一个坐在你的 trace 之上的智能体，自动筛选数据、识别常见问题模式、建 issue 看板，然后直接给修复方案：改提示词、改上下文，甚至往 harness 里加代码。一句话总结这套飞轮，就是那句「运行智能体，获取 trace，看到模式，修复」。\n\n这套东西他们自己也在用，而且用得很凶。Engine 跑在 Engine 上，通过 Slack 给自己发报告；还为 Engine 专门建了 benchmark，在上面跑 DeepAgents、Codex、Claude Code 做对比。结果发现 Codex 会非常激进地给自己写一堆小脚本去跑 trace，因此表现特别好——于是专门做了一轮冲刺，把这套打法融进 Engine 的核心 harness。这就是有 benchmark 的另一个好处：什么都拿上来跑一跑，谁有好招就抄回来。\n\n最后一个问题：harness 未来会不会收敛成一种？诚实的回答是，不知道。目前看到的是，通用 harness 已经够好，起步阶段直接用现成的；越偏离分布越要定制，这是一个光谱。比如金融服务客户要的是可预测性，看到自主的 deep agents 直呼「太吓人了」，宁可要完全可控的认知架构。再比如 OpenAI 和 Anthropic 在编程上都很强，却落在相当不同的文件编辑方式上，连这行的人都解释不了为什么。正因为变化这么快，eval 和可观测性才是最重要的那件事。\n\n所以回到开头那个问题——什么叫拥有你自己的智能？就是把模型、上下文、harness 三块握在手里，再用私有 eval 和可观测性搭起一台爬坡机器，让你的 AI 投资为你的公司复合增值。"
+}

@@ -7,29 +7,31 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Airtable</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Airtable">AI</div><div class="pi"><h1 class="pt">Airtable</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Airtable">AI</div><div class="pi"><h1 class="pt">Airtable</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]]**(02:35起):本集在列举 Peter Deng 建立增长团队的经历时，将 Airtable 与 Instagram、Uber、ChatGPT 并列提及。
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(12:27起):本集说 Airtable 是伪装成电子表格的无代码数据库，Amjad 引用 Replit CEO 的话说'无代码的时代结束了'，其混合退出价格仅约 60 亿美元
 - **[[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]]**(49:21起):本集说 Airtable 被 bending spoons 收购，作为没有记录系统护城河的 SaaS 定价基准——约 2.7 倍收入，远低于 Workday 的 5.3 倍。
+- **[[2026-09-18-sourcery-bending-spoons-is-eating-silicon-valley|《Bending Spoons：被硅谷误读的「收购机器」，人均 400 万美元收入怎么来的》]]**(01:07起):本集把它说成:刚被 Bending Spoons 以约 13 亿美元企业价值收购的硅谷明星公司,Howie 团队自律、保持盈利,退出估值与公开市场同等质量 SaaS 一致。
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|《SpaceX 600亿买Cursor：AI并购的疯狂逻辑》]] — 作为被讨论公司(提及)
+- [[2026-09-18-sourcery-bending-spoons-is-eating-silicon-valley|《Bending Spoons：被硅谷误读的「收购机器」，人均 400 万美元收入怎么来的》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[ChatGPT]] · [[智能体]] · [[Uber]] · [[Replit]] · [[Cursor]] · [[Anthropic]] · [[Lenny]] · [[Harry Stabbings]] · [[Rory O'Driscoll]]
+[[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Replit]] · [[Uber]] · [[Anthropic]] · [[Cursor]] · [[Lenny]] · [[Harry Stabbings]] · [[Rory O'Driscoll]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":120,"ChatGPT":69,"智能体":262,"Uber":9,"Replit":16,"Cursor":62,"Anthropic":125,"Lenny":67,"Harry Stabbings":2,"Rory O'Driscoll":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":120,"智能体":264,"ChatGPT":69,"Replit":16,"Uber":9,"Anthropic":125,"Cursor":62,"Lenny":67,"Harry Stabbings":2,"Rory O'Driscoll":1}</script>
 
 <script>
 (function(){

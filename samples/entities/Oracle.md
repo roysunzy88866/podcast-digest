@@ -37,7 +37,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Google]] · [[Codex]] · [[Microsoft]] · [[Alex]] · [[Claude]] · [[护栏]] · [[Anthropic]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":120,"智能体":262,"Google":44,"Codex":50,"Microsoft":25,"Alex":4,"Claude":60,"护栏":50,"Anthropic":125,"Meta":32}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":120,"智能体":264,"Google":44,"Codex":51,"Microsoft":25,"Alex":4,"Claude":60,"护栏":50,"Anthropic":125,"Meta":32}</script>
 
 <script>
 (function(){

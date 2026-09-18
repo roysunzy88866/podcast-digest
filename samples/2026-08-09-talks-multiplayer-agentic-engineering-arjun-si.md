@@ -120,8 +120,8 @@ Arjun 提到自己去年大量使用 [[Claude Code|Claude Code]] 时刚有了孩
 **顺着「AI 编程」挖下去**
 
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Claude Code、Slack、GitHub · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:上下文 (context)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同公司:Claude Code、Codex、Cursor · 同概念:智能体 (agent)</span>
-- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同公司:Codex、Cursor · 同概念:上下文 (context)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

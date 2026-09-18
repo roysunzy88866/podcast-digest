@@ -1,0 +1,1718 @@
+{
+  "episode_id": "2026-08-13-talks-when-to-build-your-own-agent-harness-har",
+  "podcast": "精选演讲",
+  "date": "2026-08-13",
+  "tags": [
+    "智能体",
+    "AI 编程",
+    "AI 基础设施",
+    "评估与可观测性",
+    "创业与行业"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "harrison-chase",
+      "type": "person",
+      "role": "host",
+      "name": "Harrison Chase",
+      "file": "Harrison Chase",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "langchain",
+      "type": "company",
+      "role": "company",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": true,
+      "how_described": "Harrison 联合创办并任 CEO 的公司;本集说他们构建了一个非常基础、极简的 harness,并在其上打造 DeepAgents 和 LangSmith/LangSmith Engine。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            59.456,
+            61.638
+          ],
+          "quote": "My name is Harrison, co-founder and CEO of LangChain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            74.629,
+            76.531
+          ],
+          "quote": "At LangChain, we think there's kind of like three main parts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            207.899,
+            211.503
+          ],
+          "quote": "So we build LangChain, which is a really, really base minimal harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            211.524,
+            212.565
+          ],
+          "quote": "And that's LangChain over here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1005.382,
+            1011.444
+          ],
+          "quote": "And so the part that we think most about at LangChain is the harness engineering part of that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deepagents",
+      "type": "company",
+      "role": "company",
+      "name": "DeepAgents",
+      "file": "DeepAgents",
+      "primary": true,
+      "how_described": "本集说它是 LangChain 推出的跨模型通用、更通用用途版本的 Claude Code,是可自定义的 harness,带模型配置文件概念,能根据所用模型在不同文件编辑实现之间切换。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            213.005,
+            214.025
+          ],
+          "quote": "And then this is DeepAgents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            214.085,
+            219.508
+          ],
+          "quote": "DeepAgents is kind of like our model-agnostic and more general-purpose version of Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            517.725,
+            533.692
+          ],
+          "quote": "So one of the things we do in DeepAgents, for example, so DeepAgents is our customizable harness, we actually have this concept of model profiles, where for things that are in distribution of models, like editing files, we basically switch between different edit file implementations depending on which model is being used.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1205.903,
+            1213.286
+          ],
+          "quote": "So we, I think a few weeks ago, we ran our own kind of like DeepAgents and then Codex and then Claude Code on this.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "langsmith-engine",
+      "type": "company",
+      "role": "company",
+      "name": "LangSmith Engine",
+      "file": "LangSmith Engine",
+      "primary": true,
+      "how_described": "本集说 Engine 是坐在你的 trace 之上做自动化改进的智能体(底层是能访问 LangSmith CLI 的编码智能体),自动筛选数据、建 issue 看板并直接给出修复,公司自己也用它 dog food。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 237,
+          "t": [
+            1049.732,
+            1052.495
+          ],
+          "quote": "I want to do a quick demo of what we call LangSmith Engine.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harbor",
+      "type": "company",
+      "role": "company",
+      "name": "Harbor",
+      "file": "Harbor",
+      "primary": true,
+      "how_described": "本集说 Harbor 是出自 TerminalBench2 作者的开源 eval 运行器,正在成为定义 benchmark 的行业标准;任务由环境、黄金方案、验证器测试脚本和提示词组成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            630.604,
+            635.766
+          ],
+          "quote": "One of the things that we see becoming the industry standard for defining these benchmarks is Harbor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            636.126,
+            637.986
+          ],
+          "quote": "Harbor is an open source eval runner.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            671.055,
+            672.096
+          ],
+          "quote": "What exactly is Harbor?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            691.968,
+            693.629
+          ],
+          "quote": "So this is what a harbor task looks like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            734.985,
+            737.187
+          ],
+          "quote": "And that's kind of like the core of Harbor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            759.05,
+            760.371
+          ],
+          "quote": "We have a great integration with Harbor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            775.713,
+            782.245
+          ],
+          "quote": "And then for a particular experiment that you run, these would be the different tasks that are in a harbor data set.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1181.574,
+            1188.794
+          ],
+          "quote": "We also created what we call kind of like issue bench for engine, which again is like a harbor formatted...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集把它作为现成 harness 的代表(配合 Anthropic 模型),并与 Codex 对比:两者文件编辑方式相当不同;在 Engine 的 benchmark 上表现好,其写小脚本跑 trace 的打法被抄回 Engine 核心 harness。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            214.085,
+            219.508
+          ],
+          "quote": "DeepAgents is kind of like our model-agnostic and more general-purpose version of Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            427.667,
+            433.69
+          ],
+          "quote": "So the off-the-shelf harnesses include things like Claude Code or Claude Agent SDK, which works with Anthropic models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            830.649,
+            833.971
+          ],
+          "quote": "This is similar to what you might see in Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            844.861,
+            849.988
+          ],
+          "quote": "Trajectories are basically, you can think of them as the list of messages that you see kind of like Claude Code running.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            850.008,
+            853.353
+          ],
+          "quote": "So when you run Claude Code or another agent, you type in a human message.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1205.903,
+            1213.286
+          ],
+          "quote": "So we, I think a few weeks ago, we ran our own kind of like DeepAgents and then Codex and then Claude Code on this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1294.62,
+            1300.203
+          ],
+          "quote": "So I would recommend getting started with like an off-the-shelf harness, whether it's DeepAgence or Codex or Claude Code or something like that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说它是配合 OpenAI 模型的现成 harness;在 benchmark 上会激进地给自己写一堆小脚本去跑 trace 因而表现特别好,LangChain 为此做了 Engine 的 codexification 冲刺。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            434.03,
+            435.751
+          ],
+          "quote": "Codex, which works with OpenAI models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1205.903,
+            1213.286
+          ],
+          "quote": "So we, I think a few weeks ago, we ran our own kind of like DeepAgents and then Codex and then Claude Code on this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1213.606,
+            1215.807
+          ],
+          "quote": "And we saw that Codex was doing a really interesting thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1294.62,
+            1300.203
+          ],
+          "quote": "So I would recommend getting started with like an off-the-shelf harness, whether it's DeepAgence or Codex or Claude Code or something like that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集的核心概念:围绕模型的运行框架,负责编排和调度,其主要工作是在正确的时机把上下文带给模型;智能体三要素(模型+上下文+harness)之一,越偏离模型训练分布越需要定制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            19.285,
+            28.972
+          ],
+          "quote": "How can we build an entire harness around them so that they're not just autocomplete tasks, but that they start acting as virtual collaborators or agents?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            76.691,
+            79.714
+          ],
+          "quote": "There's a harness that orchestrates a model and some context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            119.609,
+            122.01
+          ],
+          "quote": "And then the last bit is the harness, and that's what I really want to focus on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            123.01,
+            124.992
+          ],
+          "quote": "So how do you really own your harness?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            126.474,
+            127.475
+          ],
+          "quote": "What's the main job of the harness?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            127.495,
+            131.499
+          ],
+          "quote": "The main job of the harness is to bring context to the model at the right point in time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            159.453,
+            162.294
+          ],
+          "quote": "And so the harness is the thing that really orchestrates all of this together.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            199.49,
+            204.936
+          ],
+          "quote": "But there's a bunch of different things that you can do in your particular harness at different stages.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            207.899,
+            211.503
+          ],
+          "quote": "So we build LangChain, which is a really, really base minimal harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            224.75,
+            230.792
+          ],
+          "quote": "It's built on top of this really simple harness, but we customize it by using these levers over here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            250.962,
+            260.087
+          ],
+          "quote": "There's other ways to customize the harness as well, but this has kind of emerged as there's a concept of hooks and plugins and a lot of the coding agents as well, and that's essentially what they're doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            320.86,
+            325.102
+          ],
+          "quote": "And so as you think about kind of like building or customizing your own harness,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            333.712,
+            340.04
+          ],
+          "quote": "And that's one way that you can customize the agent to your particular domain and the harness to your particular domain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            377.995,
+            381.296
+          ],
+          "quote": "A lot of this has gone into the harness now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            381.336,
+            383.657
+          ],
+          "quote": "And by the harness, I mean it's still this core loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            397.945,
+            400.806
+          ],
+          "quote": "One thing that we recommend to people is to start with a general harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            416.12,
+            422.324
+          ],
+          "quote": "One question that we get a lot is when to think about building your own harness versus using an off-the-shelf harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            439.292,
+            446.694
+          ],
+          "quote": "My answer generally is the more in distribution you are of what the models are trained on, then the better the off-the-shelf harness will be.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            447.195,
+            453.837
+          ],
+          "quote": "As soon as you start to move further and further out of distribution, then you'll probably want to tune your harness in some way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            454.477,
+            456.858
+          ],
+          "quote": "There's different ways to tune the harness as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            463.4,
+            477.245
+          ],
+          "quote": "So what I mean by that is if you think about something like legal AI, which Gabe just talked about, and I think he mentioned how they have their own harness, there are things that are in legal AI that are still in distribution of the main models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            504.698,
+            514.364
+          ],
+          "quote": "So if you think about building a harness that works there, you'll probably want a custom harness, but you'll want it to use the edit file tool that is in distribution for",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            517.725,
+            533.692
+          ],
+          "quote": "So one of the things we do in DeepAgents, for example, so DeepAgents is our customizable harness, we actually have this concept of model profiles, where for things that are in distribution of models, like editing files, we basically switch between different edit file implementations depending on which model is being used.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            534.152,
+            541.495
+          ],
+          "quote": "And so I think that's an example of customizing the overall harness when it's out of distribution for a task, but keeping smaller in distribution parts",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            550.08,
+            562.147
+          ],
+          "quote": "And so I think as you're experimenting with all parts of an agent, whether it's the model or the harness or the context, you're going to want to know what's going on inside of this system, and you're going to want to be able to evaluate it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            624.021,
+            630.584
+          ],
+          "quote": "You can use it to define and catch regressions, or you can hill climb on that benchmark, again, either by adjusting the harness or adjusting the model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            996.699,
+            999.68
+          ],
+          "quote": "So you can update the harness by doing harness engineering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1005.382,
+            1011.444
+          ],
+          "quote": "And so the part that we think most about at LangChain is the harness engineering part of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1066.999,
+            1069.539
+          ],
+          "quote": "And as I mentioned, we mostly focus on the harness engineering bit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1129.424,
+            1136.767
+          ],
+          "quote": "Here it's also updating some instructions and we can see here that it's adding some code to go into the harness as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1223.811,
+            1233.176
+          ],
+          "quote": "So we did a sprint to do what we call the kind of like codexification of engine and basically take that learning and bring it into kind of like the core engine harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1233.556,
+            1242.661
+          ],
+          "quote": "And so I think that's another benefit of having a benchmark is you can just run a bunch of different things on it and see how they actually perform and then bring those things back into your core kind of like agent harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1294.62,
+            1300.203
+          ],
+          "quote": "So I would recommend getting started with like an off-the-shelf harness, whether it's DeepAgence or Codex or Claude Code or something like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1311.888,
+            1318.671
+          ],
+          "quote": "I think we often see that the more out of distribution you get, the more you're going to want to customize the harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1349.798,
+            1356.722
+          ],
+          "quote": "But then on the other end, you could just use an off-the-shelf harness and there's things in the middle like hooks or middleware that you can use to kind of...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1358.143,
+            1361.225
+          ],
+          "quote": "The more out of distribution you get, the more custom harness you're going to want to have.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它祛魅为「一个在循环中运行、调用工具的 LLM」——这是今天几乎所有智能体背后的核心架构,由模型、上下文、harness 三部分构成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            72.227,
+            73.869
+          ],
+          "quote": "What exactly makes up an agent?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            105.985,
+            116.068
+          ],
+          "quote": "Context, you want to own all the context that your agent uses, whether that is memory, whether that is semantic knowledge, whether that is previous conversations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            116.508,
+            119.109
+          ],
+          "quote": "These can help personalize and guide the agent as it goes along.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            154.29,
+            159.192
+          ],
+          "quote": "These external systems, when you interact with them, they emit more context that can get fed back into the agent and into the loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            186.864,
+            190.827
+          ],
+          "quote": "And this is the core architecture behind pretty much every agent out there today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            230.832,
+            236.054
+          ],
+          "quote": "So you can run particular code snippets before the agent's invoked, before each model call.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            274.434,
+            276.215
+          ],
+          "quote": "So the agent's still running in a loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            308.373,
+            313.556
+          ],
+          "quote": "And so the point is there's this really simple kind of like general architecture of an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            314.056,
+            320.479
+          ],
+          "quote": "All of these more advanced agent harnesses are basically doing that loop but adding in a bunch of stuff while still running this core loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            333.712,
+            340.04
+          ],
+          "quote": "And that's one way that you can customize the agent to your particular domain and the harness to your particular domain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            341.047,
+            347.613
+          ],
+          "quote": "The other way that you can customize the harnesses that the agent runs in is by having a more explicit kind of like cognitive architecture.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            427.667,
+            433.69
+          ],
+          "quote": "So the off-the-shelf harnesses include things like Claude Code or Claude Agent SDK, which works with Anthropic models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            550.08,
+            562.147
+          ],
+          "quote": "And so I think as you're experimenting with all parts of an agent, whether it's the model or the harness or the context, you're going to want to know what's going on inside of this system, and you're going to want to be able to evaluate it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            617.815,
+            623.201
+          ],
+          "quote": "I think every company, when they're building a mission-critical agent, they will build benchmarks for that agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            648.091,
+            664.581
+          ],
+          "quote": "What it lets you do, so this is FrontierBench, which is another coding benchmark, you get this nice benchmark and you can compare different agent harnesses, different models, different reasoning efforts, and you can get this nice benchmark and you can see how all these different harnesses and all these different models do on your task.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            673.156,
+            676.459
+          ],
+          "quote": "At a high level, it consists of agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            676.519,
+            678.38
+          ],
+          "quote": "You run an agent against the data set.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            696.311,
+            698.432
+          ],
+          "quote": "This is where you define the environment that the agent runs in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            716.826,
+            720.249
+          ],
+          "quote": "This is basically the verifier for the agent run.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            726.856,
+            728.137
+          ],
+          "quote": "They can run an agent as a judge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            728.158,
+            731.001
+          ],
+          "quote": "You basically define how the agent is scored in this test.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            731.561,
+            734.524
+          ],
+          "quote": "And then instruction.md is the prompt that the agent is given.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            817.086,
+            821.515
+          ],
+          "quote": "All of that is really important for debugging your agent when it goes wrong.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            850.008,
+            853.353
+          ],
+          "quote": "So when you run Claude Code or another agent, you type in a human message.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            879.329,
+            889.981
+          ],
+          "quote": "Evals and observability really let you set up this data flywheel and compound the intelligence as you start to use the agent, as your users start to use the agent, and you start to get feedback.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            903.397,
+            910.903
+          ],
+          "quote": "You build an agent, you start running it, you collect lots of traces, you then curate the trace data, and then you run experiments on that data that you create.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            923.17,
+            929.553
+          ],
+          "quote": "So from the environment, one thing that I think is really underestimated in agent design is actually UX design of how you present the agent to your users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            986.956,
+            995.939
+          ],
+          "quote": "And then the other thing is when you use that data to update what happens, you can update any part of the agent with this kind of system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1020.266,
+            1026.407
+          ],
+          "quote": "And so it's a very similar process where you run the agent, get some traces, use that data in some way to improve the system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1053.195,
+            1057.296
+          ],
+          "quote": "Which is basically an agent that sits on top of your traces and does all this work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1087.426,
+            1088.167
+          ],
+          "quote": "This is an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1093.029,
+            1098.452
+          ],
+          "quote": "It will look for, it will, it will basically, under the hood, it's a coding agent that has access to our LangSmith CLI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1146.651,
+            1150.852
+          ],
+          "quote": "Run agent, get traces, see patterns, fix.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1164.051,
+            1166.153
+          ],
+          "quote": "Engine itself is an agent, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1233.556,
+            1242.661
+          ],
+          "quote": "And so I think that's another benefit of having a benchmark is you can just run a bunch of different things on it and see how they actually perform and then bring those things back into your core kind of like agent harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1338.621,
+            1344.685
+          ],
+          "quote": "And so we show them something like deep agents, and they're like, whoa, whoa, whoa, that's way too scary an agent for us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1404.425,
+            1416.995
+          ],
+          "quote": "Right now, I think those show up most concretely in small things, but you could imagine what if one lab really goes down kind of like bio, and those harnesses become really good at kind of like bio-agent things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集说上下文(记忆、语义知识、历史对话)是智能体三要素之一,要自己拥有以个性化引导智能体;多数智能体故障不是模型不够好,而是喂给模型的上下文不够好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            62.299,
+            67.243
+          ],
+          "quote": "I want to talk about evals and harnesses in the context of kind of owning your own intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            76.691,
+            79.714
+          ],
+          "quote": "There's a harness that orchestrates a model and some context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            105.985,
+            116.068
+          ],
+          "quote": "Context, you want to own all the context that your agent uses, whether that is memory, whether that is semantic knowledge, whether that is previous conversations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            127.495,
+            131.499
+          ],
+          "quote": "The main job of the harness is to bring context to the model at the right point in time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            132.24,
+            137.726
+          ],
+          "quote": "And so it does all the orchestration around the fixed context, the dynamic context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            138.166,
+            143.212
+          ],
+          "quote": "It brings it into the context window of the model, shows it something, gets some response, and then does something with that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            154.29,
+            159.192
+          ],
+          "quote": "These external systems, when you interact with them, they emit more context that can get fed back into the agent and into the loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            293.261,
+            296.844
+          ],
+          "quote": "Before the model is invoked, you check if the context is too long, and then you summarize it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            301.007,
+            306.352
+          ],
+          "quote": "Same with context offloading, which is a way of basically taking large tool calls and dumping them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            550.08,
+            562.147
+          ],
+          "quote": "And so I think as you're experimenting with all parts of an agent, whether it's the model or the harness or the context, you're going to want to know what's going on inside of this system, and you're going to want to be able to evaluate it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            584.844,
+            592.17
+          ],
+          "quote": "Two, retain ownership of your organization's memory, traces, feedback, that bold is mine, decisions and institutional context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            798.209,
+            800.55
+          ],
+          "quote": "Two, the context that the LLM received isn't good enough.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            804.851,
+            810.213
+          ],
+          "quote": "And so having really good observability into what is going into the context window of the model",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            810.754,
+            816.685
+          ],
+          "quote": "And then how that context is accumulated, what steps were run, what tools were run, how does that context get there?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1002.921,
+            1004.722
+          ],
+          "quote": "You can update the context by doing memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1125.083,
+            1128.464
+          ],
+          "quote": "But here it's updating part of the context in this case.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集引用 Satya 的说法:私有 eval 定义了组织内部什么算是好的;用它捕捉回归、在 benchmark 上爬坡,是拥有自己智能并让 AI 投资复利增值的关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            43.299,
+            52.584
+          ],
+          "quote": "I think the talk's gonna be both about harnesses and evals, and then format again will be 15 minutes or so of presentation content, 15 minutes of Q&A.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            62.299,
+            67.243
+          ],
+          "quote": "I want to talk about evals and harnesses in the context of kind of owning your own intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            546.998,
+            550.06
+          ],
+          "quote": "The second big part of what I want to talk about is evals and observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            579.619,
+            584.424
+          ],
+          "quote": "One, create your private evals because eval defines what good looks like inside the organization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            599.997,
+            609.387
+          ],
+          "quote": "And so I think these speak to the importance of evals and observability and the learning loop that they power in really owning your intelligence and compounding it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            611.849,
+            612.75
+          ],
+          "quote": "So evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            752.447,
+            756.409
+          ],
+          "quote": "So this is LangSmith, the platform that we build for evals and observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            879.329,
+            889.981
+          ],
+          "quote": "Evals and observability really let you set up this data flywheel and compound the intelligence as you start to use the agent, as your users start to use the agent, and you start to get feedback.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1156.014,
+            1158.455
+          ],
+          "quote": "Happy to take any questions on harnesses or evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1423.381,
+            1428.445
+          ],
+          "quote": "That's why evals and observability are important, and I think, yeah, to measure all of that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集称其「重要但被严重低估」:能看到进入模型上下文窗口的到底是什么、上下文如何一步步累积,是调试智能体出问题的关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            546.998,
+            550.06
+          ],
+          "quote": "The second big part of what I want to talk about is evals and observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            599.997,
+            609.387
+          ],
+          "quote": "And so I think these speak to the importance of evals and observability and the learning loop that they power in really owning your intelligence and compounding it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            752.447,
+            756.409
+          ],
+          "quote": "So this is LangSmith, the platform that we build for evals and observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            784.745,
+            786.606
+          ],
+          "quote": "Talking a little bit about observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            787.146,
+            790.867
+          ],
+          "quote": "Observability sounds basic, but I think it's really important and really underrated for agents, actually.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            804.851,
+            810.213
+          ],
+          "quote": "And so having really good observability into what is going into the context window of the model",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            823.284,
+            825.846
+          ],
+          "quote": "So this is one view of observability that we have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            874.298,
+            877.101
+          ],
+          "quote": "And this type of observability is pretty important for knowing what's going on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            879.329,
+            889.981
+          ],
+          "quote": "Evals and observability really let you set up this data flywheel and compound the intelligence as you start to use the agent, as your users start to use the agent, and you start to get feedback.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1423.381,
+            1428.445
+          ],
+          "quote": "That's why evals and observability are important, and I think, yeah, to measure all of that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-architecture",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知架构 (cognitive architecture)",
+      "file": "认知架构",
+      "primary": true,
+      "how_described": "本集说这是手工设计固定执行步骤的定制路线(如深度研究、代码审查 bot),2023-2024 年流行;现在很多已下沉进 harness,但需要可预测性的场景(如金融服务)仍要用完全可控的认知架构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            341.047,
+            347.613
+          ],
+          "quote": "The other way that you can customize the harnesses that the agent runs in is by having a more explicit kind of like cognitive architecture.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1323.273,
+            1330.156
+          ],
+          "quote": "At the extreme end of a scale, you might want to build a complete cognitive architecture that is really focused on things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1344.725,
+            1348.527
+          ],
+          "quote": "We want more of this custom cognitive architecture where we can really control things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "middleware",
+      "type": "concept",
+      "role": "concept",
+      "name": "中间件 (middleware)",
+      "file": "中间件",
+      "primary": true,
+      "how_described": "本集说 LangChain 用中间件定制核心循环:在智能体启动前、每次模型调用前后、每次工具调用前后运行自己的代码;摘要化、上下文卸载、沙箱、文件系统、子智能体、记忆都是这么挂上去的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            238.675,
+            250.942
+          ],
+          "quote": "You can wrap the tool calls, and you can customize this core simple loop in a lot of really powerful ways just by using kind of like small what we call kind of like middleware constructs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            266.351,
+            274.414
+          ],
+          "quote": "And so a lot of the stuff that you can do and you can customize, this is all done by that concept of middleware, by just modifying that core loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 74,
+          "t": [
+            297.244,
+            300.687
+          ],
+          "quote": "And so that you can add into this core loop through this concept of middleware.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1349.798,
+            1356.722
+          ],
+          "quote": "But then on the other end, you could just use an off-the-shelf harness and there's things in the middle like hooks or middleware that you can use to kind of...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "traces",
+      "type": "concept",
+      "role": "concept",
+      "name": "追踪记录 (traces)",
+      "file": "追踪记录",
+      "primary": true,
+      "how_described": "本集的数据飞轮核心物料:运行智能体收集 trace,再用在线评估器或微调的便宜小模型自动筛选,Engine 就坐在 trace 之上做筛选、识别模式和给出修复。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            584.844,
+            592.17
+          ],
+          "quote": "Two, retain ownership of your organization's memory, traces, feedback, that bold is mine, decisions and institutional context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            903.397,
+            910.903
+          ],
+          "quote": "You build an agent, you start running it, you collect lots of traces, you then curate the trace data, and then you run experiments on that data that you create.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            946.225,
+            951.492
+          ],
+          "quote": "So you can run what we call kind of like online evaluators over these traces to judge things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1020.266,
+            1026.407
+          ],
+          "quote": "And so it's a very similar process where you run the agent, get some traces, use that data in some way to improve the system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1053.195,
+            1057.296
+          ],
+          "quote": "Which is basically an agent that sits on top of your traces and does all this work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1057.616,
+            1060.677
+          ],
+          "quote": "So if we look at what that work was, you've got these traces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1061.557,
+            1066.959
+          ],
+          "quote": "The work from there is curating the traces and running some experiments and suggesting fixes to one of the three things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1081.804,
+            1083.564
+          ],
+          "quote": "This is a bunch of traces we have coming in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1098.772,
+            1102.954
+          ],
+          "quote": "The LangSmith CLI, you can filter traces for feedback and other things like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1117.56,
+            1120.361
+          ],
+          "quote": "It links to the traces so I can go see some supporting evidence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1146.651,
+            1150.852
+          ],
+          "quote": "Run agent, get traces, see patterns, fix.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1216.187,
+            1220.169
+          ],
+          "quote": "Where it would write itself a bunch of small scripts to run against these traces.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sub-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (sub-agents)",
+      "file": "子智能体",
+      "primary": false,
+      "how_described": "本集说 DeepAgents 有子智能体,通过中间件把子智能体访问挂到核心循环上,也是让模型表现好的关键要素之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            223.209,
+            224.029
+          ],
+          "quote": "It has sub-agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1103.294,
+            1110.297
+          ],
+          "quote": "So we give it a nice big prompt and some sub-agents that help it basically go out and explore this data and identify issues and see what common things are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1300.523,
+            1311.227
+          ],
+          "quote": "Because I think the models are now good enough and the things that we've learned about what makes these models good, access to file systems, sub-agents, things like that, those are kind of like good enough.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集说通过中间件可给智能体访问沙箱;Harbor 的任务通常在沙箱中运行,环境由 Docker 文件定义。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            278.976,
+            281.396
+          ],
+          "quote": "But through that, you can give it access to a sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            702.554,
+            708.097
+          ],
+          "quote": "And so you basically spin up a sandbox, give it its own environment that's defined in a Docker file, and run it there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 162,
+          "t": [
+            737.387,
+            742.973
+          ],
+          "quote": "You define these tasks, which are bundled up things that can be run in a sandbox, and then you run a bunch of them against agents.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine tuning)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "本集提到微调是数据飞轮里更新模型的方式之一;他们还微调了便宜的小模型(SLM)当在线评估器,避免每条 trace 都跑 Opus 那样的贵模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            999.98,
+            1002.901
+          ],
+          "quote": "You can update the model by doing fine tuning on that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1015.745,
+            1019.645
+          ],
+          "quote": "But I think Trajectory is talking next on some fine-tuning that can be done.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

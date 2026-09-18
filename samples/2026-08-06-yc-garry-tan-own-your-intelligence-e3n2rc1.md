@@ -194,8 +194,8 @@ Markdown，不是魔法。胖技能，瘦线束 <button class="pd-ts" data-t="16
 **顺着「智能体」挖下去**
 
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图]]<span class="pd-rz">同公司:Gbrain · 同概念:Latent Space、工作记忆 (working memory)、技能文件 (skill file)、智能体 (agent)、确定性空间 (deterministic space)、RAG</span>
+- [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:上下文 (context)、智能体 (agent)、线束 (harness)</span>
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Claude Code、Codex · 同概念:上下文 (context)、智能体 (agent)</span>
-- [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)、线束 (harness)</span>
 
 </div>
 <div class="pd-ex">

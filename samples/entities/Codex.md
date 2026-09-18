@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>50</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>51</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -35,6 +35,7 @@ unlisted: true
 - **[[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]]**(01:59起):本集提到:招来的顶尖工程师有人爱用 Codex,团队不硬性统一,允许每人挑自己喜欢的 AI 工具。
 - **[[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]]**(11:36起):本集提到 Codex 作为可以选用的智能体线束/套件之一
 - **[[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]]**(03:17起):本集把它说成:一款在质量、速度与成本上又快又好的编码智能体;实测后已成为该团队默认工具,其会话量是 Claude Code 的四倍,且总体更便宜。
+- **[[2026-08-13-talks-when-to-build-your-own-agent-harness-har|《拥有你自己的智能：Harness、Eval 与数据飞轮》]]**(07:14起):本集说它是配合 OpenAI 模型的现成 harness;在 benchmark 上会激进地给自己写一堆小脚本去跑 trace 因而表现特别好,LangChain 为此做了 Engine 的 codexification 冲刺。
 - **[[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]]**(00:04起):本集说 Codex 是 Jana 事实上的技术联合创始人，用来建网站、接 Stripe 支付、操作 3D 软件建模、生成版型
 - **[[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]]**(04:48起):本集说 Codex 没有弄明白多账号连接这件事，主播仍花费大量时间在 Codex 上
 - **[[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]]**(02:11起):本集说 Codex 也变得好多了，嘉宾主要用它来完成更多与写作相关的任务
@@ -89,7 +90,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*50 集*
+*51 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
@@ -116,6 +117,7 @@ unlisted: true
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司
 - [[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]] — 作为被讨论公司(提及)
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]] — 作为被讨论公司
+- [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|《拥有你自己的智能：Harness、Eval 与数据飞轮》]] — 作为被讨论公司
 - [[2026-08-17-lennys-how-a-solo-founder-used-codex-and|《AI 当技术联合创始人：一个人怎么做时尚品牌》]] — 作为被讨论公司
 - [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|《GrokBot、Origin 与 Grok 4.6 实测》]] — 作为被讨论公司(提及)
 - [[2026-08-19-beyondcoding-how-amazon-turns-real-failures-into-bett|《模型路由为什么还没解决：Amazon Nova 负责人的实话》]] — 作为被讨论公司(提及)
@@ -148,7 +150,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Claude]] · [[Cursor]] · [[ChatGPT]] · [[Anthropic]] · [[沙箱]] · [[护栏]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":262,"OpenAI":120,"Claude Code":62,"Claude":60,"Cursor":62,"ChatGPT":69,"Anthropic":125,"沙箱":50,"护栏":50,"Lenny":67}</script>
+<script type="application/json" class="pd-epn">{"智能体":264,"OpenAI":120,"Claude Code":63,"Claude":60,"Cursor":62,"ChatGPT":69,"Anthropic":125,"沙箱":51,"护栏":50,"Lenny":67}</script>
 
 <script>
 (function(){

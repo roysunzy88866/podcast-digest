@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Luca Ferrari":1,"Bending Spoons":1,"AOL":1,"Grindr":1,"MosaicML":2,"收购":2,"精英体制":1,"极致所有权":1,"startup mode":1,"人才密度":4}</script>
+<script type="application/json" class="pd-epn">{"Luca Ferrari":2,"Bending Spoons":2,"AOL":2,"Grindr":1,"MosaicML":2,"收购":2,"精英体制":1,"极致所有权":2,"startup mode":1,"人才密度":4}</script>
 
 <script>
 (function(){

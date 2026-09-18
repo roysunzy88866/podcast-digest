@@ -55,7 +55,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Salesforce]] · [[前向部署工程师]] · [[Vercel]] · [[Replit]] · [[HubSpot]] · [[Cursor]] · [[OpenAI]] · [[Delphi]]
 
-<script type="application/json" class="pd-epn">{"智能体":262,"Lenny":67,"Salesforce":23,"前向部署工程师":7,"Vercel":17,"Replit":16,"HubSpot":7,"Cursor":62,"OpenAI":120,"Delphi":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":264,"Lenny":67,"Salesforce":23,"前向部署工程师":7,"Vercel":17,"Replit":16,"HubSpot":7,"Cursor":62,"OpenAI":120,"Delphi":3}</script>
 
 <script>
 (function(){

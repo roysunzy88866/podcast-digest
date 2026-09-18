@@ -144,8 +144,8 @@ L0 是纯手动排查；L1 是有固定操作手册，靠规则执行；L2 是 L
 **顺着「智能体」挖下去**
 
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则]]<span class="pd-rz">同概念:上下文 (context)、护栏 (harness)、文件系统 (file system)、智能体 (agent)、Deep Agents</span>
+- [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同概念:上下文 (context)、可观测性 (observability)、护栏 (harness)、智能体 (agent)</span>
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|Datadog 4000 人AI赋能实战：删掉上下文反而更好]]<span class="pd-rz">同公司:Datadog · 同概念:上下文 (context)、智能体 (agent)、评估 (eval)、护栏 (harness)</span>
-- [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]]<span class="pd-rz">同概念:护栏 (harness)、智能体 (agent)、评估 (eval)</span>
 
 </div>
 <div class="pd-ex">

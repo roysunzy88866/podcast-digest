@@ -47,7 +47,7 @@ unlisted: true
 
 [[OpenAI]] · [[ChatGPT]] · [[智能体]] · [[Sherwin Wu]] · [[Sam Altman]] · [[Roblox CEO]] · [[Lenny]] · [[初创公司]] · [[Roblox]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":120,"ChatGPT":69,"智能体":262,"Sherwin Wu":1,"Sam Altman":1,"Roblox CEO":1,"Lenny":67,"初创公司":1,"Roblox":2,"Codex":50}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":120,"ChatGPT":69,"智能体":264,"Sherwin Wu":1,"Sam Altman":1,"Roblox CEO":1,"Lenny":67,"初创公司":1,"Roblox":2,"Codex":51}</script>
 
 <script>
 (function(){
