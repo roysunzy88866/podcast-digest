@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
+[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mercor":2,"RL 环境":5,"后训练":24,"验证器":6,"合成数据":7,"超长时程":1,"虚拟同事":1,"RLHF":1,"智能体数据时代":1,"基座模型":2}</script>
+<script type="application/json" class="pd-epn">{"Mercor":2,"RL 环境":6,"后训练":25,"验证器":6,"合成数据":7,"超长时程":1,"虚拟同事":1,"RLHF":1,"智能体数据时代":1,"基座模型":2}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1850 @@
+[
+ {
+  "seg": 0,
+  "start": 13.037,
+  "end": 13.357,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 14.298,
+  "end": 14.819,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 2,
+  "start": 15.279,
+  "end": 22.345,
+  "speaker": "Unknown",
+  "en": "Welcome to this 20-minute talk about connecting AI to loads of legal documents.",
+  "zh": "欢迎来到这个关于将 AI 连接到海量法律文档的 20 分钟演讲。"
+ },
+ {
+  "seg": 3,
+  "start": 22.505,
+  "end": 23.446,
+  "speaker": "Unknown",
+  "en": "My name's Jacob.",
+  "zh": "我叫 Jacob。"
+ },
+ {
+  "seg": 4,
+  "start": 23.967,
+  "end": 25.048,
+  "speaker": "Unknown",
+  "en": "I'm an engineer at Legora.",
+  "zh": "我是 Legora 的一名工程师。"
+ },
+ {
+  "seg": 5,
+  "start": 26.249,
+  "end": 27.89,
+  "speaker": "Unknown",
+  "en": "Yeah, and I got to step into frame here.",
+  "zh": "是的，我要走进画面里了。"
+ },
+ {
+  "seg": 6,
+  "start": 28.271,
+  "end": 28.791,
+  "speaker": "Unknown",
+  "en": "I'm Simon.",
+  "zh": "我是 Simon。"
+ },
+ {
+  "seg": 7,
+  "start": 28.851,
+  "end": 34.816,
+  "speaker": "Unknown",
+  "en": "I'm the CEO and co-founder of Turbo Puffer, a search engine that we work with Legora and others on.",
+  "zh": "我是 Turbo Puffer 的 CEO 兼联合创始人，我们是一个搜索引擎，与 Legora 和其他公司合作。"
+ },
+ {
+  "seg": 8,
+  "start": 36.802,
+  "end": 40.944,
+  "speaker": "Unknown",
+  "en": "Super quickly, introduction to Legora.",
+  "zh": "非常快速地介绍一下 Legora。"
+ },
+ {
+  "seg": 9,
+  "start": 41.364,
+  "end": 45.086,
+  "speaker": "Unknown",
+  "en": "We're a collaborative AI platform for legal work.",
+  "zh": "我们是一个面向法律工作的协作式 AI 平台。"
+ },
+ {
+  "seg": 10,
+  "start": 45.486,
+  "end": 53.63,
+  "speaker": "Unknown",
+  "en": "And so that means we have law firms that are clients and we have in-house legal teams that are clients and they use Legora to do reviews of contracts.",
+  "zh": "这意味着我们有律师事务所客户，也有企业内部法务团队客户，他们使用 Legora 来做合同审查。"
+ },
+ {
+  "seg": 11,
+  "start": 54.35,
+  "end": 58.152,
+  "speaker": "Unknown",
+  "en": "They use it to go through an absurd amount of contracts and make sure that they all look good.",
+  "zh": "他们用它来处理数量惊人的合同，确保所有合同都没问题。"
+ },
+ {
+  "seg": 12,
+  "start": 58.472,
+  "end": 60.733,
+  "speaker": "Unknown",
+  "en": "They use them to create new contracts.",
+  "zh": "他们用它来创建新合同。"
+ },
+ {
+  "seg": 13,
+  "start": 60.973,
+  "end": 67.456,
+  "speaker": "Unknown",
+  "en": "They do legal research, which means looking over all potential law, and they collaborate inside Legora.",
+  "zh": "他们做法律研究，也就是审阅所有潜在的法律，并在 Legora 内部进行协作。"
+ },
+ {
+  "seg": 14,
+  "start": 67.496,
+  "end": 73.639,
+  "speaker": "Unknown",
+  "en": "So you can think of Legora sort of as a linear slash figma slash notion slash GitHub for legal work.",
+  "zh": "所以你可以把 Legora 大致理解为法律工作领域的 Linear 加 Figma 加 Notion 加 GitHub。"
+ },
+ {
+  "seg": 15,
+  "start": 74.3,
+  "end": 74.68,
+  "speaker": "Unknown",
+  "en": "It's a lot.",
+  "zh": "内容很多。"
+ },
+ {
+  "seg": 16,
+  "start": 76.641,
+  "end": 80.222,
+  "speaker": "Unknown",
+  "en": "We are one of the fastest growing companies right now.",
+  "zh": "我们是目前增长最快的公司之一。"
+ },
+ {
+  "seg": 17,
+  "start": 80.262,
+  "end": 81.103,
+  "speaker": "Unknown",
+  "en": "We grow extremely fast.",
+  "zh": "我们增长得非常快。"
+ },
+ {
+  "seg": 18,
+  "start": 81.942,
+  "end": 83.804,
+  "speaker": "Unknown",
+  "en": "Yeah, tons of numbers on the screen.",
+  "zh": "是的，屏幕上有很多数字。"
+ },
+ {
+  "seg": 19,
+  "start": 84.284,
+  "end": 85.125,
+  "speaker": "Unknown",
+  "en": "I'll just skip through that.",
+  "zh": "我就快速跳过这些。"
+ },
+ {
+  "seg": 20,
+  "start": 86.727,
+  "end": 88.669,
+  "speaker": "Unknown",
+  "en": "What we really want to talk about is search today.",
+  "zh": "今天我们真正想谈的是搜索。"
+ },
+ {
+  "seg": 21,
+  "start": 89.43,
+  "end": 92.473,
+  "speaker": "Unknown",
+  "en": "So at Ligora, there's two types of search that we do.",
+  "zh": "在 Legora(原文作 Ligora)，我们做两类搜索。"
+ },
+ {
+  "seg": 22,
+  "start": 93.014,
+  "end": 94.796,
+  "speaker": "Unknown",
+  "en": "There is project search and legal research.",
+  "zh": "一个是项目搜索，一个是法律研究。"
+ },
+ {
+  "seg": 23,
+  "start": 95.677,
+  "end": 99.921,
+  "speaker": "Unknown",
+  "en": "Project search is basically projects in Ligora.",
+  "zh": "项目搜索基本上就是 Legora(原文作 Ligora) 里的项目。"
+ },
+ {
+  "seg": 24,
+  "start": 99.961,
+  "end": 101.663,
+  "speaker": "Unknown",
+  "en": "It's like the unit of work that you have.",
+  "zh": "它就像是你工作的一个单位。"
+ },
+ {
+  "seg": 25,
+  "start": 101.723,
+  "end": 102.644,
+  "speaker": "Unknown",
+  "en": "So if...",
+  "zh": "所以如果……"
+ },
+ {
+  "seg": 26,
+  "start": 103.645,
+  "end": 109.608,
+  "speaker": "Unknown",
+  "en": "Let's say you are SpaceX and you want to acquire Cursor, then that would be one project with your law firm.",
+  "zh": "比如说你是 SpaceX，你想收购 Cursor，那这会是和你的律师事务所一起的一个项目。"
+ },
+ {
+  "seg": 27,
+  "start": 110.509,
+  "end": 119.694,
+  "speaker": "Unknown",
+  "en": "And so they would go into Lagorre and they would upload all these documents and the law firm that helped you would go through all of the employment agreements, all of the contracts with suppliers.",
+  "zh": "他们会进入 Legora(原文作 Lagorre)，上传所有这些文档，帮你服务的律师事务所会审阅所有的雇佣协议、所有与供应商的合同。"
+ },
+ {
+  "seg": 28,
+  "start": 119.974,
+  "end": 123.596,
+  "speaker": "Unknown",
+  "en": "I know Cursor is using TurboPuffer, so maybe there's a contract there they'd look at.",
+  "zh": "我知道 Cursor 在用 TurboPuffer，所以也许那里有一份合同他们会看。"
+ },
+ {
+  "seg": 29,
+  "start": 125.797,
+  "end": 127.658,
+  "speaker": "Unknown",
+  "en": "But basically you do the search confined to a project.",
+  "zh": "但基本上你做的搜索是限定在一个项目内的。"
+ },
+ {
+  "seg": 30,
+  "start": 127.678,
+  "end": 130.54,
+  "speaker": "Unknown",
+  "en": "And projects can be tens of documents to millions of documents.",
+  "zh": "项目可以从几十份文档到数百万份文档。"
+ },
+ {
+  "seg": 31,
+  "start": 131.429,
+  "end": 132.971,
+  "speaker": "Unknown",
+  "en": "The other use case is legal research.",
+  "zh": "另一个用例是法律研究。"
+ },
+ {
+  "seg": 32,
+  "start": 133.411,
+  "end": 146.965,
+  "speaker": "Unknown",
+  "en": "And legal research is sort of a deep research-style workload where we'll search across tons of laws, previous cases, regulations, et cetera, et cetera, and people use this to answer questions such as like, how do we handle this specific thing?",
+  "zh": "法律研究是一种类似深度研究的工作负载，我们会搜索大量的法律、以前的案例、法规等等等等，人们用它来回答诸如“我们该如何处理这个具体事项？”之类的问题。"
+ },
+ {
+  "seg": 33,
+  "start": 147.405,
+  "end": 149.207,
+  "speaker": "Unknown",
+  "en": "And they'll also use it for litigation.",
+  "zh": "他们也会用它来做诉讼。"
+ },
+ {
+  "seg": 34,
+  "start": 149.347,
+  "end": 153.932,
+  "speaker": "Unknown",
+  "en": "Maybe they want to sue someone, or maybe they are getting sued, and they'll use legal research to support and help their case.",
+  "zh": "也许他们想起诉某人，或者也许他们正被人起诉，他们会用法律研究来支持和帮助他们的案子。"
+ },
+ {
+  "seg": 35,
+  "start": 156.691,
+  "end": 159.053,
+  "speaker": "Unknown",
+  "en": "So if we start at number one, project search.",
+  "zh": "那么我们从第一点开始，项目搜索。"
+ },
+ {
+  "seg": 36,
+  "start": 159.734,
+  "end": 171.225,
+  "speaker": "Unknown",
+  "en": "We've been through a little bit of a ride here on how we do search, starting at hundreds of thousands of documents all the way into two billions of documents, and we've tried a lot of different things.",
+  "zh": "在如何做搜索这件事上，我们经历了一段小小的历程，从几十万份文档一直到二十亿份文档，我们尝试了很多不同的东西。"
+ },
+ {
+  "seg": 37,
+  "start": 172.827,
+  "end": 178.092,
+  "speaker": "Unknown",
+  "en": "So first we started with a very, very simple one, which is just a single elastic search cluster for all of our search workloads.",
+  "zh": "最开始我们用一个非常非常简单的方案，就是用一个单独的 Elasticsearch 集群来承载我们所有的搜索工作负载。"
+ },
+ {
+  "seg": 38,
+  "start": 180.295,
+  "end": 181.796,
+  "speaker": "Unknown",
+  "en": "That worked relatively well.",
+  "zh": "那个方案运行得相对不错。"
+ },
+ {
+  "seg": 39,
+  "start": 182.196,
+  "end": 183.556,
+  "speaker": "Unknown",
+  "en": "It was sort of a simple setup.",
+  "zh": "这是一个比较简单的架构。"
+ },
+ {
+  "seg": 40,
+  "start": 183.876,
+  "end": 194.139,
+  "speaker": "Unknown",
+  "en": "All of the tenants, our clients, our users, would be on one big blob storage where we store the raw documents and on one big elastic search where we would do all of their searching, the indexing and the searching.",
+  "zh": "所有租户，即我们的客户、我们的用户，都在一个大对象存储上，我们存储原始文档；以及在一个大 Elasticsearch 上，我们做所有的搜索，包括索引和检索。"
+ },
+ {
+  "seg": 41,
+  "start": 195.539,
+  "end": 196.059,
+  "speaker": "Unknown",
+  "en": "Super simple.",
+  "zh": "非常简单。"
+ },
+ {
+  "seg": 42,
+  "start": 196.56,
+  "end": 197.96,
+  "speaker": "Unknown",
+  "en": "Worked relatively well initially.",
+  "zh": "最初运行得相对不错。"
+ },
+ {
+  "seg": 43,
+  "start": 199.868,
+  "end": 204.029,
+  "speaker": "Unknown",
+  "en": "Then we wanted to enter the land of the free, and we got some new requirements.",
+  "zh": "然后我们想进入自由之地，我们迎来了一些新需求。"
+ },
+ {
+  "seg": 44,
+  "start": 205.19,
+  "end": 229.257,
+  "speaker": "Unknown",
+  "en": "Americans only want processing to happen within the US, and Europeans only want it to happen within the EU, and Australians only want it to happen within Australia, and so we had to basically, well here's a scaling graph, we had to move to multiple elastic searches, and what we actually did was we took the entire setup and we just basically iterated over the set that is EU, US, and Asia, Pacific, and so we just had this multiplied by three or four.",
+  "zh": "美国人只希望处理发生在美国境内，欧洲人只希望发生在欧盟境内，澳大利亚人只希望发生在澳大利亚境内，所以我们基本上不得不——这里有一张扩展图——迁移到多个 Elasticsearch，我们实际做的就是把整套架构在 EU、US、Asia、Pacific 这个集合上做迭代，所以我们就把它乘以了三或四。"
+ },
+ {
+  "seg": 45,
+  "start": 230.8,
+  "end": 234.562,
+  "speaker": "Unknown",
+  "en": "Kind of annoying, lots of overhead, but it got us where we needed to be.",
+  "zh": "挺烦人的，有很多开销，但它让我们达到了需要达到的地方。"
+ },
+ {
+  "seg": 46,
+  "start": 237.844,
+  "end": 240.766,
+  "speaker": "Unknown",
+  "en": "Then the next iteration of the story is enterprise.",
+  "zh": "然后故事的下一阶段是企业版。"
+ },
+ {
+  "seg": 47,
+  "start": 241.006,
+  "end": 246.369,
+  "speaker": "Unknown",
+  "en": "So really big banks, the biggest law firms in the world, they have really annoying requirements.",
+  "zh": "那些非常大的银行、世界上最大的律师事务所，他们有非常麻烦的需求。"
+ },
+ {
+  "seg": 48,
+  "start": 247.33,
+  "end": 251.172,
+  "speaker": "Unknown",
+  "en": "And number one they have is they'll ask for full physical isolation of all of their data.",
+  "zh": "他们需求中的第一条是要求对其所有数据进行完全的物理隔离。"
+ },
+ {
+  "seg": 49,
+  "start": 252.788,
+  "end": 258.976,
+  "speaker": "Unknown",
+  "en": "There's probably a little bit of a war on what physical isolation actually means, but essentially it means they want their own database.",
+  "zh": "关于物理隔离到底意味着什么可能有一些争论，但本质上这意味着他们想要自己的数据库。"
+ },
+ {
+  "seg": 50,
+  "start": 259.897,
+  "end": 270.369,
+  "speaker": "Unknown",
+  "en": "They also want customer-managed encryption keys, and what that means is they basically have a Key Vault thing where they have an encryption key and they give us access to read the key, and we then use that key to",
+  "zh": "他们还想要客户管理的加密密钥，意思是他们基本上有一个 Key Vault 之类的东西，里面有一个加密密钥，他们授予我们读取该密钥的权限，然后我们用这个密钥来"
+ },
+ {
+  "seg": 51,
+  "start": 271.05,
+  "end": 273.194,
+  "speaker": "Unknown",
+  "en": "Encrypt and decrypt all of their data at rest.",
+  "zh": "加密和解密他们所有静态存储的数据。"
+ },
+ {
+  "seg": 52,
+  "start": 273.594,
+  "end": 279.283,
+  "speaker": "Unknown",
+  "en": "And what that gives them is they can just revoke our access to their key and then we can't decrypt their data anymore and so it's safe.",
+  "zh": "这带给他们的好处是，他们可以随时撤销我们对他们密钥的访问权限，这样我们就无法再解密他们的数据，所以是安全的。"
+ },
+ {
+  "seg": 53,
+  "start": 279.383,
+  "end": 285.252,
+  "speaker": "Unknown",
+  "en": "And so in a way that gives enterprise a lot of control over all of their data because they control the keys to reading it.",
+  "zh": "所以从某种意义上说，这让企业对他们的所有数据拥有了很大的控制权，因为他们控制着读取数据的密钥。"
+ },
+ {
+  "seg": 54,
+  "start": 288.181,
+  "end": 290.243,
+  "speaker": "Unknown",
+  "en": "So we moved from Elasticsearch to Postgres.",
+  "zh": "所以我们从 Elasticsearch 迁移到了 Postgres。"
+ },
+ {
+  "seg": 55,
+  "start": 290.924,
+  "end": 294.448,
+  "speaker": "Unknown",
+  "en": "And I imagine a bunch of you guys are like, why would you ever put your vectors into Postgres?",
+  "zh": "我猜你们很多人会想，为什么要把向量放进 Postgres 里？"
+ },
+ {
+  "seg": 56,
+  "start": 295.569,
+  "end": 296.77,
+  "speaker": "Unknown",
+  "en": "It actually worked surprisingly well.",
+  "zh": "实际上效果出奇地好。"
+ },
+ {
+  "seg": 57,
+  "start": 297.13,
+  "end": 301.835,
+  "speaker": "Unknown",
+  "en": "And the reason that we did this was we were already using Postgres for OLTP workloads.",
+  "zh": "我们这么做的原因是，我们已经在用 Postgres 处理 OLTP 工作负载了。"
+ },
+ {
+  "seg": 58,
+  "start": 302.656,
+  "end": 305.439,
+  "speaker": "Unknown",
+  "en": "And so we sort of already had to do this split.",
+  "zh": "所以我们其实已经不得不做这种拆分了。"
+ },
+ {
+  "seg": 59,
+  "start": 306.372,
+  "end": 308.753,
+  "speaker": "Unknown",
+  "en": "Of multiple Postgresies and multiple blobs.",
+  "zh": "多个 Postgres 实例和多个 blob。"
+ },
+ {
+  "seg": 60,
+  "start": 309.494,
+  "end": 314.716,
+  "speaker": "Unknown",
+  "en": "And so it was really easy for us to try to shift all of our search into Postgres as well because then we only have one system.",
+  "zh": "所以把所有搜索也转移到 Postgres 对我们来说非常容易，这样我们就只有一个系统了。"
+ },
+ {
+  "seg": 61,
+  "start": 315.657,
+  "end": 324.941,
+  "speaker": "Unknown",
+  "en": "So the setup here was PG Vector, specifically disk NN, TS Vector for the search, so not BM25, which was, you know, we lost a little bit of retrieval performance there.",
+  "zh": "当时的方案是 PG Vector，具体来说是 disk NN，搜索用 TS Vector，所以不是 BM25，你知道的，我们在检索性能上损失了一点。"
+ },
+ {
+  "seg": 62,
+  "start": 325.462,
+  "end": 329.143,
+  "speaker": "Unknown",
+  "en": "And what we'd do is we would partition the table where we would store all the document chunks.",
+  "zh": "我们的做法是，对我们存储所有文档分块的那张表做分区。"
+ },
+ {
+  "seg": 63,
+  "start": 329.163,
+  "end": 331.805,
+  "speaker": "Unknown",
+  "en": "We'd partition it super aggressively, like 4,000 partitions.",
+  "zh": "我们分区分得非常激进，比如 4000 个分区。"
+ },
+ {
+  "seg": 64,
+  "start": 332.445,
+  "end": 336.107,
+  "speaker": "Unknown",
+  "en": "And then each project, we'd basically hash the project key and we'd bin pack",
+  "zh": "然后对每个项目，我们基本上对项目键做哈希，然后装箱"
+ },
+ {
+  "seg": 65,
+  "start": 336.147,
+  "end": 337.047,
+  "speaker": "Unknown",
+  "en": "them into the partitions.",
+  "zh": "放进这些分区里。"
+ },
+ {
+  "seg": 66,
+  "start": 338.287,
+  "end": 351.09,
+  "speaker": "Unknown",
+  "en": "That actually worked relatively well, but it was expensive, and search performance wasn't super, super good, and what happened was when we scaled a lot, everything just broke and exploded.",
+  "zh": "这实际上运行得相对不错，但成本很高，搜索性能也不是特别特别好，然后当我们大规模扩展时，一切都崩了、炸了。"
+ },
+ {
+  "seg": 67,
+  "start": 351.75,
+  "end": 360.432,
+  "speaker": "Unknown",
+  "en": "And so what happened was, basically, you can imagine that you have a bunch of projects, and some of them, you spin up a project, you work on it, and then you close it, and you basically never go back to it again.",
+  "zh": "情况是这样的，基本上，你可以想象你有很多项目，其中一些，你启动一个项目，在上面工作，然后关掉它，基本上再也不会回去碰它了。"
+ },
+ {
+  "seg": 68,
+  "start": 361.252,
+  "end": 366.353,
+  "speaker": "Unknown",
+  "en": "And we have a bunch of those where they never get queried, and we have a bunch that get queried all the time because they're super active projects.",
+  "zh": "我们有一堆这样的项目，它们从不被查询，我们也有一堆一直被查询的项目，因为它们是非常活跃的项目。"
+ },
+ {
+  "seg": 69,
+  "start": 367.073,
+  "end": 372.755,
+  "speaker": "Unknown",
+  "en": "And when we pack them into partitions, the cold ones and the hot ones would land on the same ones, and the partitions would get really, really big.",
+  "zh": "而当我们把它们打包进分区时，冷的和热的会落在同一个分区上，分区就会变得非常非常大。"
+ },
+ {
+  "seg": 70,
+  "start": 373.235,
+  "end": 382.757,
+  "speaker": "Unknown",
+  "en": "And so when we queried them, Postgres would pull the partition, put it into memory, we'd do the stuff, and then we queried another partition and another partition, and it would essentially thrash the cache all the time.",
+  "zh": "所以当我们查询它们时，Postgres 会把分区拉进内存，处理一下，然后我们又查询另一个分区，再另一个分区，基本上一直在让缓存抖动。"
+ },
+ {
+  "seg": 71,
+  "start": 383.98,
+  "end": 385.742,
+  "speaker": "Unknown",
+  "en": "And what that meant was our latencies would spike.",
+  "zh": "这意味着我们的延迟会飙升。"
+ },
+ {
+  "seg": 72,
+  "start": 386.342,
+  "end": 395.372,
+  "speaker": "Unknown",
+  "en": "So we went from like search and ingestion P99 of 100 milliseconds into 20 seconds, which you can imagine is a really bad user experience.",
+  "zh": "我们从大概搜索和摄取 P99 100 毫秒变成 20 秒，你可以想象这是多么糟糕的用户体验。"
+ },
+ {
+  "seg": 73,
+  "start": 397.974,
+  "end": 403.28,
+  "speaker": "Unknown",
+  "en": "So then we went to TurboPuffer in about, you know, we were about, I think, 400 million documents, something like that.",
+  "zh": "于是我们转向了 TurboPuffer，当时我们大概有 4 亿份文档，差不多是这样的规模。"
+ },
+ {
+  "seg": 74,
+  "start": 405.92,
+  "end": 409.863,
+  "speaker": "Unknown",
+  "en": "And what we did with TurboPuffer was we did one namespace per project.",
+  "zh": "我们在 TurboPuffer 上做的是每个项目一个命名空间。"
+ },
+ {
+  "seg": 75,
+  "start": 410.484,
+  "end": 422.552,
+  "speaker": "Unknown",
+  "en": "And the advantages of moving to TurboPuffer is we got BM25, real BM25, much better relevancy, much better latencies, and it was extremely simple to operate because we could just have a single",
+  "zh": "迁移到 TurboPuffer 的优势是，我们获得了 BM25，真正的 BM25，相关性好得多，延迟也低得多，而且运维极其简单，因为我们只需要一个"
+ },
+ {
+  "seg": 76,
+  "start": 423.373,
+  "end": 424.234,
+  "speaker": "Unknown",
+  "en": "Turbopuffer cluster.",
+  "zh": "TurboPuffer 集群。"
+ },
+ {
+  "seg": 77,
+  "start": 424.454,
+  "end": 431.7,
+  "speaker": "Unknown",
+  "en": "You know, we didn't have to have a bunch of different ones, like with Postgres, and it would, since it's blob-based, it could just query the blobs that we had anyway.",
+  "zh": "你知道，我们不需要像 Postgres 那样有一堆不同的集群，而且因为它是基于 blob 的，它可以直接查询我们本来就有的 blob。"
+ },
+ {
+  "seg": 78,
+  "start": 432.221,
+  "end": 441.569,
+  "speaker": "Unknown",
+  "en": "And so, much lower cost, and it was extremely simple to operate, and we didn't have this problem with the partitions, because if a project's not used, it's just in blob, and so it's really easy.",
+  "zh": "所以，成本低得多，运维极其简单，而且我们没有分区的问题了，因为如果一个项目不被使用，它就只是待在 blob 里，非常简单。"
+ },
+ {
+  "seg": 79,
+  "start": 442.29,
+  "end": 444.612,
+  "speaker": "Unknown",
+  "en": "And Simon can talk a bit more about why that works so well.",
+  "zh": "Simon 可以再多讲讲为什么这个东西运行得这么好。"
+ },
+ {
+  "seg": 80,
+  "start": 448.605,
+  "end": 459.068,
+  "speaker": "Unknown",
+  "en": "Yeah, so Legora has some of, and Ligo in general has, by the way, if Jake and I have similar accents and maybe even look a bit similar, it's because we're both Danish.",
+  "zh": "是的，Legora 有一些，顺便说一下，整个 Ligo 都有——如果 Jake 和我口音相似，甚至看起来有点像，那是因为我们都是丹麦人。"
+ },
+ {
+  "seg": 81,
+  "start": 461.669,
+  "end": 466.611,
+  "speaker": "Unknown",
+  "en": "TurboPuffer has a particular architecture that supports these kinds of very regulated environments really, really well.",
+  "zh": "TurboPuffer 有一种特别的架构，能非常好地支持这类高度受监管的环境。"
+ },
+ {
+  "seg": 82,
+  "start": 466.691,
+  "end": 470.332,
+  "speaker": "Unknown",
+  "en": "But in order to understand that, we have to understand what kind of search engine is TurboPuffer.",
+  "zh": "但要理解这一点，我们必须理解 TurboPuffer 是什么样的搜索引擎。"
+ },
+ {
+  "seg": 83,
+  "start": 470.352,
+  "end": 472.553,
+  "speaker": "Unknown",
+  "en": "Why is it different than the ones that they used in the past?",
+  "zh": "为什么它和他们过去用的那些不同？"
+ },
+ {
+  "seg": 84,
+  "start": 474.052,
+  "end": 478.119,
+  "speaker": "Unknown",
+  "en": "Since the very beginning of TurboPuffer, the design has more or less been the same.",
+  "zh": "从 TurboPuffer 最初开始，其设计基本就没怎么变过。"
+ },
+ {
+  "seg": 85,
+  "start": 478.56,
+  "end": 481.966,
+  "speaker": "Unknown",
+  "en": "There may be changes in the future, but the design has stood the test of time.",
+  "zh": "未来可能会有变化，但这个设计经受住了时间的考验。"
+ },
+ {
+  "seg": 86,
+  "start": 483.188,
+  "end": 486.715,
+  "speaker": "Unknown",
+  "en": "When you do a write to TurboPuffer, we write directly to Obix storage.",
+  "zh": "当你向 TurboPuffer 写入时，我们直接写入 Obix 存储。"
+ },
+ {
+  "seg": 87,
+  "start": 487.852,
+  "end": 493.675,
+  "speaker": "Unknown",
+  "en": "There is no disk replication, there's no paxas, there's none of that, direct to S3.",
+  "zh": "没有磁盘复制，没有 paxas，没有那些东西，直接到 S3。"
+ },
+ {
+  "seg": 88,
+  "start": 494.575,
+  "end": 497.456,
+  "speaker": "Unknown",
+  "en": "That's the fundamental trade-off in TurboPuffer, right?",
+  "zh": "这是 TurboPuffer 根本的权衡，对吧？"
+ },
+ {
+  "seg": 89,
+  "start": 497.576,
+  "end": 498.417,
+  "speaker": "Unknown",
+  "en": "Hundreds of milliseconds.",
+  "zh": "几百毫秒。"
+ },
+ {
+  "seg": 90,
+  "start": 498.497,
+  "end": 503.819,
+  "speaker": "Unknown",
+  "en": "If you're like Shopify and doing inventory reservations for a Kylie Jenner flash sale, not gonna work.",
+  "zh": "如果你像 Shopify 那样，为 Kylie Jenner 的闪购做库存预留，那可不行。"
+ },
+ {
+  "seg": 91,
+  "start": 504.399,
+  "end": 505.82,
+  "speaker": "Unknown",
+  "en": "Very, very good for search.",
+  "zh": "但对搜索来说非常非常好。"
+ },
+ {
+  "seg": 92,
+  "start": 506.16,
+  "end": 512.463,
+  "speaker": "Unknown",
+  "en": "Because generally when you're doing search, doing a slow write is fine, as long as the read performance is adaptable and good.",
+  "zh": "因为一般来说，做搜索时，写入慢一点没关系，只要读性能是可扩展且良好的。"
+ },
+ {
+  "seg": 93,
+  "start": 512.723,
+  "end": 513.784,
+  "speaker": "Unknown",
+  "en": "So that's what happens on write.",
+  "zh": "所以这就是写入时发生的事。"
+ },
+ {
+  "seg": 94,
+  "start": 513.904,
+  "end": 515.125,
+  "speaker": "Unknown",
+  "en": "It just goes into write-ahead log.",
+  "zh": "它只是进入预写日志。"
+ },
+ {
+  "seg": 95,
+  "start": 515.145,
+  "end": 518.388,
+  "speaker": "Unknown",
+  "en": "You can imagine you write 1.json, 2.json, 3.json.",
+  "zh": "你可以想象写入了 1.json、2.json、3.json。"
+ },
+ {
+  "seg": 96,
+  "start": 518.408,
+  "end": 520.871,
+  "speaker": "Unknown",
+  "en": "Obviously, it's a database, so it's not JSON.",
+  "zh": "显然，它是个数据库，所以不是 JSON。"
+ },
+ {
+  "seg": 97,
+  "start": 521.151,
+  "end": 523.633,
+  "speaker": "Unknown",
+  "en": "But for illustrative purposes, that's what happens.",
+  "zh": "但为了便于说明，实际发生的就是这样。"
+ },
+ {
+  "seg": 98,
+  "start": 523.693,
+  "end": 532.562,
+  "speaker": "Unknown",
+  "en": "And in the background, we build the vector indexes, the text indexes, the columnar indexes, and so on to satisfy the queries that Jake and other customers have.",
+  "zh": "然后在后台，我们构建向量索引、文本索引、列式索引等等，来满足 Jake 和其他客户的查询需求。"
+ },
+ {
+  "seg": 99,
+  "start": 533.663,
+  "end": 535.825,
+  "speaker": "Unknown",
+  "en": "So then at query time, we can go in and then",
+  "zh": "这样到了查询时，我们就可以进去，然后"
+ },
+ {
+  "seg": 100,
+  "start": 537.492,
+  "end": 541.477,
+  "speaker": "Unknown",
+  "en": "The query reaches some namespace and namespace is kind of our concept of a table.",
+  "zh": "查询会到达某个 namespace,namespace 有点像我们的「表」这个概念。"
+ },
+ {
+  "seg": 101,
+  "start": 542.298,
+  "end": 545.561,
+  "speaker": "Unknown",
+  "en": "You can think of it as a directory on S3 that's isolated from everything else.",
+  "zh": "你可以把它想象成 S3 上一个与其他所有东西隔离的目录。"
+ },
+ {
+  "seg": 102,
+  "start": 546.689,
+  "end": 548.63,
+  "speaker": "Unknown",
+  "en": "We go to the node that is most likely to have it.",
+  "zh": "我们会去最可能拥有它的那个节点。"
+ },
+ {
+  "seg": 103,
+  "start": 548.69,
+  "end": 549.871,
+  "speaker": "Unknown",
+  "en": "It could go to any node, right?",
+  "zh": "它本可以去任何节点,对吧?"
+ },
+ {
+  "seg": 104,
+  "start": 549.991,
+  "end": 556.114,
+  "speaker": "Unknown",
+  "en": "It could go to every single node, and they're all read replicas, but we go with some affinity to the node that has the highest probability of having it in cache.",
+  "zh": "它可以去每一个节点,而且它们都是读副本,但我们会带着某种亲和性,去缓存中最有可能拥有它的那个节点。"
+ },
+ {
+  "seg": 105,
+  "start": 556.534,
+  "end": 560.777,
+  "speaker": "Unknown",
+  "en": "We check the memory cache for any objects, NVMe SSD cache, and then finally to object storage.",
+  "zh": "我们先查内存缓存里的对象,再查 NVMe SSD 缓存,最后才到对象存储。"
+ },
+ {
+  "seg": 106,
+  "start": 561.497,
+  "end": 566.94,
+  "speaker": "Unknown",
+  "en": "Everything in TurboPuffer is optimized around doing as much work in as few round trips as possible, right?",
+  "zh": "TurboPuffer 里的一切都是围绕用尽可能少的往返做尽可能多的工作来优化的,对吧?"
+ },
+ {
+  "seg": 107,
+  "start": 567.06,
+  "end": 574.924,
+  "speaker": "Unknown",
+  "en": "S3 has a P99 on a, like, one megabyte blob size of around 200 milliseconds, so you want to do as few round trips as possible, right?",
+  "zh": "S3 在大概 1 MB 的 blob 大小上 P99 大约是 200 毫秒,所以你要尽可能少做往返,对吧?"
+ },
+ {
+  "seg": 108,
+  "start": 574.944,
+  "end": 575.965,
+  "speaker": "Unknown",
+  "en": "Ideally, you do around three.",
+  "zh": "理想情况下大约三次。"
+ },
+ {
+  "seg": 109,
+  "start": 576.565,
+  "end": 581.09,
+  "speaker": "Unknown",
+  "en": "And everything in TurboPuffer in the database is, oh, I'm going to need your fingerprint.",
+  "zh": "TurboPuffer 数据库里的一切都是,哦,我需要你的指纹。"
+ },
+ {
+  "seg": 110,
+  "start": 583.044,
+  "end": 587.387,
+  "speaker": "Unknown",
+  "en": "Everything in TurboPuffer is designed around minimizing the number of round trips.",
+  "zh": "TurboPuffer 的一切都是围绕最小化往返次数设计的。"
+ },
+ {
+  "seg": 111,
+  "start": 587.547,
+  "end": 589.488,
+  "speaker": "Unknown",
+  "en": "This is also amazing for modern disks.",
+  "zh": "这对现代磁盘来说也非常棒。"
+ },
+ {
+  "seg": 112,
+  "start": 589.628,
+  "end": 595.712,
+  "speaker": "Unknown",
+  "en": "If you do a lot of concurrency in few round trips, you utilize them optimally, and everything in TurboPuffer is designed around this.",
+  "zh": "如果你在很少的往返里做大量并发,你就能最优地利用它们,TurboPuffer 里的一切都是围绕这个设计的。"
+ },
+ {
+  "seg": 113,
+  "start": 596.372,
+  "end": 599.394,
+  "speaker": "Unknown",
+  "en": "So why is this so good for a company like Legora?",
+  "zh": "那么,为什么这对像 Legora 这样的公司来说这么好呢?"
+ },
+ {
+  "seg": 114,
+  "start": 599.735,
+  "end": 608.1,
+  "speaker": "Unknown",
+  "en": "Well, Oblix Storage Native, if you design it around the atomic unit of separation being the namespace or the table, every single table could be encrypted with a different key.",
+  "zh": "嗯,Oblix Storage Native,如果你把分离的原子单元设计成 namespace 或表,那么每一张表都可以用不同的密钥加密。"
+ },
+ {
+  "seg": 115,
+  "start": 609.3,
+  "end": 611.382,
+  "speaker": "Unknown",
+  "en": "Every single namespace could be in a different bucket.",
+  "zh": "每一个 namespace 都可以放在不同的 bucket 里。"
+ },
+ {
+  "seg": 116,
+  "start": 611.822,
+  "end": 623.29,
+  "speaker": "Unknown",
+  "en": "We have customers that have thousands of buckets that they have namespaces in so that their customers get the warm IT fuzzies of having the bucket in their own cloud account.",
+  "zh": "我们有一些客户,他们有数千个 bucket 来存放他们的 namespace,这样他们的客户就能因为 bucket 在自己的云账户里而感到温馨安心。"
+ },
+ {
+  "seg": 117,
+  "start": 624.11,
+  "end": 625.771,
+  "speaker": "Unknown",
+  "en": "They can also be encrypted with their own keys.",
+  "zh": "它们也可以用客户自己的密钥加密。"
+ },
+ {
+  "seg": 118,
+  "start": 625.991,
+  "end": 627.352,
+  "speaker": "Unknown",
+  "en": "You can share buckets.",
+  "zh": "你可以共享 bucket。"
+ },
+ {
+  "seg": 119,
+  "start": 627.512,
+  "end": 630.975,
+  "speaker": "Unknown",
+  "en": "You can do whatever configuration that you need at the namespace level.",
+  "zh": "你可以在 namespace 层级做你需要的任何配置。"
+ },
+ {
+  "seg": 120,
+  "start": 631.135,
+  "end": 632.516,
+  "speaker": "Unknown",
+  "en": "You can re-encrypt with different keys.",
+  "zh": "你可以用不同的密钥重新加密。"
+ },
+ {
+  "seg": 121,
+  "start": 632.536,
+  "end": 635.458,
+  "speaker": "Unknown",
+  "en": "You can move them around, and you can re-encrypt with other keys.",
+  "zh": "你可以移动它们,并且用其他密钥重新加密。"
+ },
+ {
+  "seg": 122,
+  "start": 636.899,
+  "end": 642.463,
+  "speaker": "Unknown",
+  "en": "For Legora in particular, this was really important for this full physical separation, right, an encryption separation.",
+  "zh": "对 Legora 来说尤其如此,这种完全的物理分离、也就是加密上的分离,真的非常重要。"
+ },
+ {
+  "seg": 123,
+  "start": 642.823,
+  "end": 648.187,
+  "speaker": "Unknown",
+  "en": "All of the namespaces needed to be physically at rest with different keys and as separated as possible.",
+  "zh": "所有 namespace 都需要在静态存储上使用不同的密钥,并且尽可能分离。"
+ },
+ {
+  "seg": 124,
+  "start": 648.987,
+  "end": 662.491,
+  "speaker": "Unknown",
+  "en": "S3, GCS, Azure Bob Stories, they passed that, and the other parts of the hierarchy also, except the NVMe SSD cache, because in the SSD cache, we consider that to be volatile, like memory, but your customers did not.",
+  "zh": "S3、GCS、Azure Bob Stories 都通过了这一点,层级结构的其他部分也通过了,除了 NVMe SSD 缓存,因为在 SSD 缓存里,我们把它视为易失的,就像内存一样,但你们的客户不这么认为。"
+ },
+ {
+  "seg": 125,
+  "start": 663.372,
+  "end": 666.833,
+  "speaker": "Unknown",
+  "en": "So what we did was that we thought we were gonna...",
+  "zh": "所以我们当时想的是,我们打算……"
+ },
+ {
+  "seg": 126,
+  "start": 667.91,
+  "end": 682.399,
+  "speaker": "Unknown",
+  "en": "We didn't implement encryption into the disk cache, but instead we just disabled the disk cache and saw how it fared and the performance of TurboPuffer even without the disk cache with just the memory cache was so good that we just kept it that way for some of the Lagora workloads where we couldn't have the disk cache for multi-tenancy.",
+  "zh": "我们没有把加密实现进磁盘缓存,而是直接禁用了磁盘缓存,看看效果如何,结果 TurboPuffer 即使没有磁盘缓存、只有内存缓存的性能也这么好,以至于在一些 Lagora 无法为多租户使用磁盘缓存的工作负载上,我们就一直保持那样。"
+ },
+ {
+  "seg": 127,
+  "start": 682.659,
+  "end": 695.208,
+  "speaker": "Unknown",
+  "en": "TurboPuffer will support that in the future, but it just goes to show the natural point where TurboPuffer allows these encryption and storage and separation to become fully multi-tenancy native.",
+  "zh": "TurboPuffer 将来会支持这一点,但这恰恰说明了一个自然的节点:TurboPuffer 让这些加密、存储和分离天然地成为完全的多租户原生。"
+ },
+ {
+  "seg": 128,
+  "start": 696.114,
+  "end": 698.295,
+  "speaker": "Unknown",
+  "en": "I'll hand it back to you on what happened then.",
+  "zh": "接下来发生了什么,我把它交回给你。"
+ },
+ {
+  "seg": 129,
+  "start": 699.235,
+  "end": 700.796,
+  "speaker": "Unknown",
+  "en": "And then, drum roll please.",
+  "zh": "然后,请 Drum roll(擂鼓)。"
+ },
+ {
+  "seg": 130,
+  "start": 701.316,
+  "end": 703.256,
+  "speaker": "Unknown",
+  "en": "Latencies look like this.",
+  "zh": "延迟看起来是这样的。"
+ },
+ {
+  "seg": 131,
+  "start": 704.757,
+  "end": 705.457,
+  "speaker": "Unknown",
+  "en": "Is my mic working?",
+  "zh": "我的话筒能用吗?"
+ },
+ {
+  "seg": 132,
+  "start": 707.058,
+  "end": 708.578,
+  "speaker": "Unknown",
+  "en": "No?",
+  "zh": "不能?"
+ },
+ {
+  "seg": 133,
+  "start": 709.119,
+  "end": 710.439,
+  "speaker": "Unknown",
+  "en": "Or I'll stop screaming really loudly.",
+  "zh": "要不然我就停止这么大声喊了。"
+ },
+ {
+  "seg": 134,
+  "start": 711.761,
+  "end": 714.742,
+  "speaker": "Unknown",
+  "en": "It speaks for itself, if you can't hear me, okay.",
+  "zh": "它不言自明,如果你听不到我的话,好吧。"
+ },
+ {
+  "seg": 135,
+  "start": 715.262,
+  "end": 720.404,
+  "speaker": "Unknown",
+  "en": "Latency has improved in order and magnitude, basically, and these are median latencies, so P99 were even better.",
+  "zh": "延迟在数量级上得到了改善,基本上,而且这些是中位数延迟,所以 P99 甚至更好。"
+ },
+ {
+  "seg": 136,
+  "start": 721.504,
+  "end": 730.366,
+  "speaker": "Unknown",
+  "en": "So obviously this is a huge thing when you're doing, I mean, one thing is if you're doing a single sort of RAG style thing, but if you have an agent that does 20 queries, 100 queries, these really, really add up.",
+  "zh": "所以很明显,当你在做……我的意思是,如果你做的是单次的 RAG 风格的查询,这是一回事,但如果你有一个智能体要做 20 次查询、100 次查询,这些延迟真的会累加起来。"
+ },
+ {
+  "seg": 137,
+  "start": 732.347,
+  "end": 733.667,
+  "speaker": "Unknown",
+  "en": "So that was on the project side.",
+  "zh": "所以那是项目方面的。"
+ },
+ {
+  "seg": 138,
+  "start": 733.687,
+  "end": 736.388,
+  "speaker": "Unknown",
+  "en": "And then a more recent thing is legal research.",
+  "zh": "然后一件更近期的事情是法律研究。"
+ },
+ {
+  "seg": 139,
+  "start": 738.187,
+  "end": 742.588,
+  "speaker": "Unknown",
+  "en": "So legal research is a kind of a difficult problem.",
+  "zh": "法律研究是一个挺难的问题。"
+ },
+ {
+  "seg": 140,
+  "start": 742.608,
+  "end": 746.269,
+  "speaker": "Unknown",
+  "en": "And the reason it's difficult is that the corpus is extremely big.",
+  "zh": "它难的原因在于语料库极其庞大。"
+ },
+ {
+  "seg": 141,
+  "start": 746.729,
+  "end": 751.27,
+  "speaker": "Unknown",
+  "en": "So we're racing towards 10 billion vectors, and we're growing extremely fast.",
+  "zh": "我们正在逼近 100 亿个向量,而且增长非常快。"
+ },
+ {
+  "seg": 142,
+  "start": 752.27,
+  "end": 754.271,
+  "speaker": "Unknown",
+  "en": "We also have quite high read.",
+  "zh": "我们的读取量也相当高。"
+ },
+ {
+  "seg": 143,
+  "start": 755.051,
+  "end": 757.892,
+  "speaker": "Unknown",
+  "en": "So QPS can spike a lot because we do a lot of fan out.",
+  "zh": "所以 QPS 可能会飙升很多,因为我们做大量的扇出。"
+ },
+ {
+  "seg": 144,
+  "start": 758.632,
+  "end": 764.116,
+  "speaker": "Unknown",
+  "en": "Like if you do a sort of legal research query, we will fan it out to a bunch of different queries and we'll keep going.",
+  "zh": "比如你做一个法律研究类的查询,我们会把它扇出成一堆不同的查询,然后继续进行。"
+ },
+ {
+  "seg": 145,
+  "start": 764.516,
+  "end": 770.62,
+  "speaker": "Unknown",
+  "en": "And the reason we do that is we need this heavy filtering because essentially it's kind of like a graph for a few different reasons.",
+  "zh": "我们这么做的原因是我们需要这种重度过滤,因为从本质上讲,由于几个不同的原因,它有点像一张图。"
+ },
+ {
+  "seg": 146,
+  "start": 771.6,
+  "end": 773.562,
+  "speaker": "Unknown",
+  "en": "Firstly, it's hierarchical.",
+  "zh": "首先,它是层级化的。"
+ },
+ {
+  "seg": 147,
+  "start": 773.922,
+  "end": 779.245,
+  "speaker": "Unknown",
+  "en": "You know, you have cities and you have counties and you have states and you have federal law and it's the same all around the world.",
+  "zh": "你知道,你有城市、有县、有州、有联邦法律,全世界都是如此。"
+ },
+ {
+  "seg": 148,
+  "start": 780.286,
+  "end": 782.768,
+  "speaker": "Unknown",
+  "en": "And so you need to respect that authoritative sort of hierarchy.",
+  "zh": "所以你需要尊重那种权威上的层级结构。"
+ },
+ {
+  "seg": 149,
+  "start": 783.388,
+  "end": 785.169,
+  "speaker": "Unknown",
+  "en": "There's also some temporal validity.",
+  "zh": "还有一些时间有效性问题。"
+ },
+ {
+  "seg": 150,
+  "start": 785.669,
+  "end": 791.231,
+  "speaker": "Unknown",
+  "en": "So one judge might overrule a decision that's been made somewhere else, and you need to also respect that and figure that out.",
+  "zh": "所以一个法官可能会推翻另一个地方做出的裁决，而你也需要尊重这一点，并把它弄清楚。"
+ },
+ {
+  "seg": 151,
+  "start": 791.691,
+  "end": 798.014,
+  "speaker": "Unknown",
+  "en": "And then sometimes there's even like a new regulation that has exemptions or special cases of an old regulation.",
+  "zh": "然后有时甚至会有新的法规，对旧法规设有豁免或特殊情形。"
+ },
+ {
+  "seg": 152,
+  "start": 798.034,
+  "end": 800.395,
+  "speaker": "Unknown",
+  "en": "And so if you're finding this one, you need to find all the other ones as well.",
+  "zh": "所以如果你找到了这一个，你还需要找到所有其他相关的。"
+ },
+ {
+  "seg": 153,
+  "start": 801.075,
+  "end": 803.656,
+  "speaker": "Unknown",
+  "en": "So you can imagine that it sort of explodes the search.",
+  "zh": "你可以想象，这会让搜索量爆炸式增长。"
+ },
+ {
+  "seg": 154,
+  "start": 806.53,
+  "end": 810.772,
+  "speaker": "Unknown",
+  "en": "And so we started on Elasticsearch for this, but also moving to TurboPuffer.",
+  "zh": "所以我们最初用的是 Elasticsearch 来做这件事，但现在也在迁移到 TurboPuffer。"
+ },
+ {
+  "seg": 155,
+  "start": 811.673,
+  "end": 814.714,
+  "speaker": "Unknown",
+  "en": "Elasticsearch just got extremely expensive because we have to have everything there.",
+  "zh": "Elasticsearch 变得极其昂贵，因为我们必须把所有东西都放在那里。"
+ },
+ {
+  "seg": 156,
+  "start": 815.434,
+  "end": 823.358,
+  "speaker": "Unknown",
+  "en": "But with TurboPuffer, we can basically take different jurisdictions, and we can make them namespaces in TurboPuffer.",
+  "zh": "但用 TurboPuffer，我们基本上可以把不同的司法辖区做成 TurboPuffer 里的命名空间。"
+ },
+ {
+  "seg": 157,
+  "start": 823.378,
+  "end": 828.421,
+  "speaker": "Unknown",
+  "en": "And that means some of them, here's an example where you have the EU that gets queried all the time, that's super hot.",
+  "zh": "这意味着其中一些——举个例子，EU 是一直被查询的，那是超级热的。"
+ },
+ {
+  "seg": 158,
+  "start": 828.861,
+  "end": 832.202,
+  "speaker": "Unknown",
+  "en": "And some of them, let's say Danish law, because we're Danish, no one cares, really.",
+  "zh": "而另一些，比如说丹麦法律，因为我们是丹麦人，真的没人在乎。"
+ },
+ {
+  "seg": 159,
+  "start": 832.222,
+  "end": 836.224,
+  "speaker": "Unknown",
+  "en": "It's such a small country, so it doesn't really get queried, and so that can just stay on blob, and that's fine.",
+  "zh": "这么小的国家，所以基本不会被查询，那它就可以一直留在 blob 上，这完全没问题。"
+ },
+ {
+  "seg": 160,
+  "start": 837.444,
+  "end": 844.947,
+  "speaker": "Unknown",
+  "en": "And because it's sort of a deep research-style workload, if there's 500 milliseconds latency to fetch that cold blob, that's okay.",
+  "zh": "而且因为这算是一种深度研究式的工作负载，如果取那个冷的 blob 有 500 毫秒的延迟，那也没关系。"
+ },
+ {
+  "seg": 161,
+  "start": 845.328,
+  "end": 845.748,
+  "speaker": "Unknown",
+  "en": "That's fine.",
+  "zh": "那是可以接受的。"
+ },
+ {
+  "seg": 162,
+  "start": 845.768,
+  "end": 846.828,
+  "speaker": "Unknown",
+  "en": "It's not really a big problem.",
+  "zh": "这真不是什么大问题。"
+ },
+ {
+  "seg": 163,
+  "start": 847.208,
+  "end": 855.372,
+  "speaker": "Unknown",
+  "en": "So the way that TurboProfit is designed lends itself super well to this super long scale of cold, weird namespaces and a few that are really, really hot.",
+  "zh": "所以 TurboProfit 的设计方式非常契合这种极端长的冷门、怪异命名空间和少数真正非常热的命名空间的规模。"
+ },
+ {
+  "seg": 164,
+  "start": 857.453,
+  "end": 860.837,
+  "speaker": "Unknown",
+  "en": "Yeah, and Simon wants to talk more about that?",
+  "zh": "是的，Simon 想多讲讲这个？"
+ },
+ {
+  "seg": 165,
+  "start": 860.857,
+  "end": 879.077,
+  "speaker": "Unknown",
+  "en": "Yeah, so I was talking about why the company is called Turbo Puffer, another talk here earlier today, but one of the other explanations of the name of Turbo Puffer is that it's about puffing into the different memory hierarchies and really mastering when data should be in particular memory hierarchies.",
+  "zh": "是的，我今天早些时候的另一场演讲里谈过公司为什么叫 Turbo Puffer，而关于 Turbo Puffer 这个名字的另一个解释是，它关乎向不同的内存层级里“吹气”（puffing），真正掌握数据应该在哪个特定内存层级上。"
+ },
+ {
+  "seg": 166,
+  "start": 879.537,
+  "end": 887.628,
+  "speaker": "Unknown",
+  "en": "So you can think about it here, right, of something like the EU law might be more or less part of almost every one of the legal research queries, right?",
+  "zh": "所以你可以在这里想一想，对吧，像 EU 法律这样的东西可能或多或少出现在几乎每一次法律研究查询中，对吧？"
+ },
+ {
+  "seg": 167,
+  "start": 888.029,
+  "end": 891.954,
+  "speaker": "Unknown",
+  "en": "So that probably sits closer to NVMe as a decent memory, right?",
+  "zh": "所以它可能更靠近 NVMe 这个不错的内存层级，对吧？"
+ },
+ {
+  "seg": 168,
+  "start": 892.335,
+  "end": 895.439,
+  "speaker": "Unknown",
+  "en": "The economics kind of change as you move up and down this hierarchy.",
+  "zh": "当你在这个层级上下移动时，经济性会发生变化。"
+ },
+ {
+  "seg": 169,
+  "start": 897.201,
+  "end": 900.765,
+  "speaker": "Unknown",
+  "en": "In memory, you want things that are queried a lot, right?",
+  "zh": "在内存里，你想要的是被大量查询的东西，对吧？"
+ },
+ {
+  "seg": 170,
+  "start": 900.945,
+  "end": 902.386,
+  "speaker": "Unknown",
+  "en": "Then the economics of memory are great.",
+  "zh": "那样内存的经济性就很好。"
+ },
+ {
+  "seg": 171,
+  "start": 902.506,
+  "end": 916.058,
+  "speaker": "Unknown",
+  "en": "NVMe SSDs, you can do a lot of things directly on them, but the economics change as you move up and down this boundary, the latency changes, and the way that the database is architected to take advantage of it in terms of round trips versus random versus sequential all changes as you navigate this hierarchy.",
+  "zh": "NVMe SSD，你可以直接在上面做很多事情，但当你在这个边界上下移动时，经济性会变化，延迟会变化，而数据库为利用它而架构的方式——在往返次数与随机与顺序读取方面——也随着你在层级间导航而全部改变。"
+ },
+ {
+  "seg": 172,
+  "start": 916.919,
+  "end": 925.783,
+  "speaker": "Unknown",
+  "en": "Turbo Puffer is a database that is really designed around the memory hierarchy and all of the smarts in Turbo Puffer is that all of these namespaces are puffed in and out of the cache.",
+  "zh": "Turbo Puffer 是一个真正围绕内存层级设计的数据库，Turbo Puffer 里所有的智能就在于，所有这些命名空间都被吹进吹出缓存。"
+ },
+ {
+  "seg": 173,
+  "start": 926.103,
+  "end": 934.907,
+  "speaker": "Unknown",
+  "en": "You can think of this as we want to spend as much time, have as much data pushed as far down in this hierarchy as possible to get the best performance cost ratios.",
+  "zh": "你可以这样想：我们想让数据尽可能多地、尽可能长时间地被推到这个层级的下方，以获得最佳的性能成本比。"
+ },
+ {
+  "seg": 174,
+  "start": 935.447,
+  "end": 937.309,
+  "speaker": "Unknown",
+  "en": "So how does that apply to search?",
+  "zh": "那么这如何应用于搜索呢？"
+ },
+ {
+  "seg": 175,
+  "start": 937.969,
+  "end": 942.573,
+  "speaker": "Unknown",
+  "en": "Well, for something like vector search, for example, there's two fundamental ways to do vector search.",
+  "zh": "嗯，以向量搜索为例，做向量搜索有两种根本方法。"
+ },
+ {
+  "seg": 176,
+  "start": 943.114,
+  "end": 945.616,
+  "speaker": "Unknown",
+  "en": "One is to navigate it, basically design a graph.",
+  "zh": "一种是导航它，基本上就是设计一个图。"
+ },
+ {
+  "seg": 177,
+  "start": 946.056,
+  "end": 952.682,
+  "speaker": "Unknown",
+  "en": "The problem with a graph on something like object storage or disk, again, we want to have things as far down that memory hierarchy as possible.",
+  "zh": "在对象存储或磁盘这样的东西上用图的问题在于——再说一次，我们想让东西尽可能深入那个内存层级。"
+ },
+ {
+  "seg": 178,
+  "start": 953.122,
+  "end": 959.865,
+  "speaker": "Unknown",
+  "en": "The problem with a graph, this is not a graph, this is a tree, but in a graph, you have to navigate from the center of the graph.",
+  "zh": "图的问题在于——这不是一个图，这是一棵树——但在图里，你必须从图的中心开始导航。"
+ },
+ {
+  "seg": 179,
+  "start": 960.025,
+  "end": 965.747,
+  "speaker": "Unknown",
+  "en": "And then every time you navigate through these nodes, you're doing 200 millisecond P99 to S3, right?",
+  "zh": "然后每次你穿过这些节点时，你都在面对对 S3 的 200 毫秒 P99，对吧？"
+ },
+ {
+  "seg": 180,
+  "start": 966.407,
+  "end": 979.972,
+  "speaker": "Unknown",
+  "en": "And so you're trying to shrink the diameter of the graph, you're trying to do all these tricks to make the graph, but fundamentally you're at odds with the fact that a graph is about a random sequential trade-off that you have in memory and in registers, but not further down the memory hierarchy.",
+  "zh": "所以你试图缩小图的直径，你试图用各种技巧来优化图，但从根本上说，图本质上关乎内存和寄存器里那种随机与顺序的权衡，而在内存层级更深处并非如此，这是矛盾所在。"
+ },
+ {
+  "seg": 181,
+  "start": 980.572,
+  "end": 983.055,
+  "speaker": "Unknown",
+  "en": "The way TurboPuffer does it is organize it into clusters, right?",
+  "zh": "TurboPuffer 的做法是把它组织成簇，对吧？"
+ },
+ {
+  "seg": 182,
+  "start": 983.375,
+  "end": 988.68,
+  "speaker": "Unknown",
+  "en": "Vectors you can think of in two dimensions just as point is a massive coordinate system and we can organize them into clusters.",
+  "zh": "向量你可以在二维中把它想成点在一个巨大的坐标系里，我们可以把它们组织成簇。"
+ },
+ {
+  "seg": 183,
+  "start": 989.24,
+  "end": 997.228,
+  "speaker": "Unknown",
+  "en": "TurboPuffer then creates clusters of clusters and clusters of clusters of clusters to essentially organize all of the vector data in a tree.",
+  "zh": "然后 TurboPuffer 创建簇的簇，以及簇的簇的簇，从而把所有向量数据组织成一棵树。"
+ },
+ {
+  "seg": 184,
+  "start": 998.229,
+  "end": 1002.892,
+  "speaker": "Unknown",
+  "en": "You can basically think of TurboPuffer as a very, very complicated B-tree, right?",
+  "zh": "你基本上可以把 TurboPuffer 想成一棵非常非常复杂的 B 树，对吧？"
+ },
+ {
+  "seg": 185,
+  "start": 1002.972,
+  "end": 1008.076,
+  "speaker": "Unknown",
+  "en": "Because it's a tree on this geometry of this entire space and the clustering of it in an approximate way.",
+  "zh": "因为它是建立在整个空间的几何结构及其近似聚类之上的一棵树。"
+ },
+ {
+  "seg": 186,
+  "start": 1008.956,
+  "end": 1014.04,
+  "speaker": "Unknown",
+  "en": "Now, the root centroids further up the tree, you can imagine, are part of every single time you search, right?",
+  "zh": "现在，靠近树顶部的根质心，你可以想象，是你每一次搜索都会涉及的部分，对吧？"
+ },
+ {
+  "seg": 187,
+  "start": 1015.2,
+  "end": 1019.524,
+  "speaker": "Unknown",
+  "en": "We're always trying to figure out which clusters that we're in, and we're always looking at the upper levels of the tree.",
+  "zh": "我们总是在试图弄清楚我们在哪些簇里，我们总是在看树的上面几层。"
+ },
+ {
+  "seg": 188,
+  "start": 1019.664,
+  "end": 1022.006,
+  "speaker": "Unknown",
+  "en": "So they're going to be further of the memory hierarchy, right?",
+  "zh": "所以它们会位于内存层级更靠上的位置，对吧？"
+ },
+ {
+  "seg": 189,
+  "start": 1022.046,
+  "end": 1024.688,
+  "speaker": "Unknown",
+  "en": "Closer to the registers, almost all in DRAM.",
+  "zh": "几乎全部在 DRAM 里，非常接近寄存器。"
+ },
+ {
+  "seg": 190,
+  "start": 1025.309,
+  "end": 1034.876,
+  "speaker": "Unknown",
+  "en": "Now the leaves that have all of the actual legal cases of whatever long document it could be, it could be images, all of that is probably going to be on SSDs with that single one millisecond round trip at the end.",
+  "zh": "而那些包含所有实际法律案例或任何长文档的叶子节点——也可能是图像——所有这些很可能都放在 SSD 上，最后只需一次 1 毫秒的往返。"
+ },
+ {
+  "seg": 191,
+  "start": 1035.157,
+  "end": 1037.459,
+  "speaker": "Unknown",
+  "en": "It doesn't make sense to have all that puffed into DRAM.",
+  "zh": "把所有这些都吹进 DRAM 是没有意义的。"
+ },
+ {
+  "seg": 192,
+  "start": 1038.179,
+  "end": 1042.202,
+  "speaker": "Unknown",
+  "en": "This is fundamentally the cheapest way that you can run a database",
+  "zh": "这从根本上就是你能运行数据库的最便宜的方式"
+ },
+ {
+  "seg": 193,
+  "start": 1043.148,
+  "end": 1043.528,
+  "speaker": "Unknown",
+  "en": "Period.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 194,
+  "start": 1044.209,
+  "end": 1052.856,
+  "speaker": "Unknown",
+  "en": "So for something like Legora or even WebSearch, which is in the hundreds of billions or tens of billions, depending on how much of the web you've scraped, this is fundamentally the cheapest way to do it.",
+  "zh": "所以对于像 Legora 甚至 WebSearch 这样的东西——规模在数千亿或数百亿，取决于你抓取了多少网页——这从根本上就是最便宜的实现方式。"
+ },
+ {
+  "seg": 195,
+  "start": 1053.076,
+  "end": 1060.082,
+  "speaker": "Unknown",
+  "en": "And we have customers that are indexing massive parts of the entire web into TurboPuffer, which is really also a part of what legal research is.",
+  "zh": "而且我们有客户把整个网络的很大一部分索引进 TurboPuffer，这其实也是法律研究的一部分。"
+ },
+ {
+  "seg": 196,
+  "start": 1061.403,
+  "end": 1065.847,
+  "speaker": "Unknown",
+  "en": "Full text is also really respectful of the memory hierarchies.",
+  "zh": "全文搜索也非常尊重内存层级。"
+ },
+ {
+  "seg": 197,
+  "start": 1066.207,
+  "end": 1069.53,
+  "speaker": "Unknown",
+  "en": "The way that text search works is essentially you can think of it as a hash map.",
+  "zh": "文本搜索的工作方式本质上你可以把它想成一个哈希表。"
+ },
+ {
+  "seg": 198,
+  "start": 1069.73,
+  "end": 1074.915,
+  "speaker": "Unknown",
+  "en": "You have a big document and then you take every single one of the tokens and you put them into the key in the hash map.",
+  "zh": "你有一个大文档，然后取每一个 token，把它们放进哈希表的键里。"
+ },
+ {
+  "seg": 199,
+  "start": 1075.435,
+  "end": 1079.699,
+  "speaker": "Unknown",
+  "en": "The value in the hash map is some set with all of the document IDs that has that term.",
+  "zh": "哈希表里的值是包含该词的所有文档 ID 的某个集合。"
+ },
+ {
+  "seg": 200,
+  "start": 1080.24,
+  "end": 1087.266,
+  "speaker": "Unknown",
+  "en": "So then if you search for New York population, you're finding those three places in the hash map and then you're taking the three sets and doing an intersect on the sets.",
+  "zh": "所以当你搜索 New York population 时，你会在哈希映射中找到那三个位置，然后取出这三个集合，并对这些集合做交集。"
+ },
+ {
+  "seg": 201,
+  "start": 1088.767,
+  "end": 1092.211,
+  "speaker": "Unknown",
+  "en": "While you're intersecting, you're also trying to do some kind of scoring, right?",
+  "zh": "在做交集的同时，你还要做某种打分，对吧？"
+ },
+ {
+  "seg": 202,
+  "start": 1092.552,
+  "end": 1100.442,
+  "speaker": "Unknown",
+  "en": "A document that has York in it is probably more valuable than a document that has new in it because York is a more rare word.",
+  "zh": "一个包含 York 的文档可能比一个包含 new 的文档更有价值，因为 York 是一个更罕见的词。"
+ },
+ {
+  "seg": 203,
+  "start": 1100.702,
+  "end": 1103.485,
+  "speaker": "Unknown",
+  "en": "When people say BM25, this is the scoring that they're referring to.",
+  "zh": "当人们说 BM25 时，指的就是这种打分。"
+ },
+ {
+  "seg": 204,
+  "start": 1105.178,
+  "end": 1109.239,
+  "speaker": "Unknown",
+  "en": "The art of full-text search is one, we want to minimize the number of round trips.",
+  "zh": "全文搜索的艺术在于，第一，我们要最小化往返次数。"
+ },
+ {
+  "seg": 205,
+  "start": 1109.259,
+  "end": 1117.202,
+  "speaker": "Unknown",
+  "en": "So first you download the parts of the dictionary that are relevant, round trip one, maybe a round trip one before that to index into where the parts of the terms are.",
+  "zh": "所以第一次往返是下载字典中相关的部分，也许在此之前还有一次往返，用于索引到词条部分所在的位置。"
+ },
+ {
+  "seg": 206,
+  "start": 1117.862,
+  "end": 1120.623,
+  "speaker": "Unknown",
+  "en": "And then the second round trip is to get these massive lists.",
+  "zh": "然后第二次往返是获取这些巨大的列表。"
+ },
+ {
+  "seg": 207,
+  "start": 1121.573,
+  "end": 1123.855,
+  "speaker": "Unknown",
+  "en": "Try to make the list as small as possible by compressing them.",
+  "zh": "尽量通过压缩让列表尽可能小。"
+ },
+ {
+  "seg": 208,
+  "start": 1124.235,
+  "end": 1130.96,
+  "speaker": "Unknown",
+  "en": "But also, while you're doing the text search, you're trying to minimize the amount, again, of memory bandwidth that you want to intersect these lists.",
+  "zh": "同时，在做文本搜索时，你还要尽量最小化对这些列表做交集时所需的内存带宽。"
+ },
+ {
+  "seg": 209,
+  "start": 1131.3,
+  "end": 1141.488,
+  "speaker": "Unknown",
+  "en": "You can probably imagine that at some point there's a point where you've seen so many documents with population in York that have much higher scores that documents that just have new in it are irrelevant anymore.",
+  "zh": "你大概可以想象，在某个点上，当你已经见过太多包含 population 和 York 且得分高得多的文档时，那些只包含 new 的文档就不再相关了。"
+ },
+ {
+  "seg": 210,
+  "start": 1141.928,
+  "end": 1144.71,
+  "speaker": "Unknown",
+  "en": "This is like a mega crash course in how text search works.",
+  "zh": "这就像是一个关于文本搜索工作原理的超速浓缩课程。"
+ },
+ {
+  "seg": 211,
+  "start": 1144.97,
+  "end": 1148.713,
+  "speaker": "Unknown",
+  "en": "And counterintuitively to most people, text search at web scale",
+  "zh": "而与大多数人的直觉相反，在网络规模下的文本搜索"
+ },
+ {
+  "seg": 212,
+  "start": 1149.334,
+  "end": 1152.699,
+  "speaker": "Unknown",
+  "en": "is more difficult and more computationally expensive than doing vector search.",
+  "zh": "比做向量搜索更困难、计算成本更高。"
+ },
+ {
+  "seg": 213,
+  "start": 1153.3,
+  "end": 1154.082,
+  "speaker": "Unknown",
+  "en": "I'll hand it over to you.",
+  "zh": "我把话筒交给你。"
+ },
+ {
+  "seg": 214,
+  "start": 1156.827,
+  "end": 1157.107,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 215,
+  "start": 1157.808,
+  "end": 1160.914,
+  "speaker": "Unknown",
+  "en": "So key learnings from what you heard today",
+  "zh": "那么从你今天听到的内容中得到的关键要点"
+ },
+ {
+  "seg": 216,
+  "start": 1162.053,
+  "end": 1165.015,
+  "speaker": "Unknown",
+  "en": "Retrieval is extremely important to Legora.",
+  "zh": "检索对 Legora 来说极其重要。"
+ },
+ {
+  "seg": 217,
+  "start": 1165.355,
+  "end": 1166.616,
+  "speaker": "Unknown",
+  "en": "It's key to legal reasoning.",
+  "zh": "它是法律推理的关键。"
+ },
+ {
+  "seg": 218,
+  "start": 1167.616,
+  "end": 1174.1,
+  "speaker": "Unknown",
+  "en": "TurboPuffer really excels for us because it makes it extremely easy to operate.",
+  "zh": "TurboPuffer 对我们来说非常出色，因为它让运维变得极其简单。"
+ },
+ {
+  "seg": 219,
+  "start": 1174.16,
+  "end": 1175.781,
+  "speaker": "Unknown",
+  "en": "We have 70 plus tenants.",
+  "zh": "我们有 70 多个租户。"
+ },
+ {
+  "seg": 220,
+  "start": 1175.801,
+  "end": 1177.542,
+  "speaker": "Unknown",
+  "en": "We have 200 tenants.",
+  "zh": "我们有 200 个租户。"
+ },
+ {
+  "seg": 221,
+  "start": 1177.602,
+  "end": 1181.244,
+  "speaker": "Unknown",
+  "en": "If we had to have separate Elasticsearch databases for each of these, it would be just hell.",
+  "zh": "如果我们得为每个租户单独建一个 Elasticsearch 数据库，那简直是地狱。"
+ },
+ {
+  "seg": 222,
+  "start": 1182.405,
+  "end": 1186.728,
+  "speaker": "Unknown",
+  "en": "But we can do this natively with TurboPuffer with data residency and CMEG, et cetera, et cetera.",
+  "zh": "但我们用 TurboPuffer 就能原生做到这一点，还有数据驻留和 CMEG 等等等等。"
+ },
+ {
+  "seg": 223,
+  "start": 1187.368,
+  "end": 1197.911,
+  "speaker": "Unknown",
+  "en": "And then it's extremely cost-efficient generally when you have these types of workflows or workloads that we do where there's a long tail of cold indices, basically, that you don't need to query so much.",
+  "zh": "而且总体来说，当你有像我们这样的工作流或工作负载——基本上存在大量不太需要查询的冷索引的长尾——它极其节省成本。"
+ },
+ {
+  "seg": 224,
+  "start": 1198.211,
+  "end": 1201.732,
+  "speaker": "Unknown",
+  "en": "And you're okay paying a small latency cost for it.",
+  "zh": "而你也能接受为此付出一点小的延迟代价。"
+ },
+ {
+  "seg": 225,
+  "start": 1202.433,
+  "end": 1208.074,
+  "speaker": "Unknown",
+  "en": "So now with TurboWoffer and four seconds to go, now we can focus on making Legora.",
+  "zh": "所以现在有了 TurboWoffer，在还剩四秒的时候，现在我们可以专注于打造 Legora 了。"
+ },
+ {
+  "seg": 226,
+  "start": 1208.114,
+  "end": 1211.415,
+  "speaker": "Unknown",
+  "en": "We can focus on the product, making it really, really great, and not on scalability and infra.",
+  "zh": "我们可以专注于产品，把它做得真正非常出色，而不是 scalability 和基础设施。"
+ },
+ {
+  "seg": 227,
+  "start": 1211.756,
+  "end": 1214.336,
+  "speaker": "Unknown",
+  "en": "And also David, our CFO, is really happy about the cost.",
+  "zh": "而且我们的 CFO David 也对成本非常满意。"
+ },
+ {
+  "seg": 228,
+  "start": 1214.916,
+  "end": 1215.337,
+  "speaker": "Unknown",
+  "en": "So it's great.",
+  "zh": "所以这很棒。"
+ },
+ {
+  "seg": 229,
+  "start": 1215.717,
+  "end": 1216.197,
+  "speaker": "Unknown",
+  "en": "Thanks, everyone.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 230,
+  "start": 1226.046,
+  "end": 1226.748,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

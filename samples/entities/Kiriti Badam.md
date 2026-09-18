@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
+[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Aishwarya Reganti":1,"智能体":264,"非确定性":1,"主观能动性":19,"评估":2,"生产监控":1,"持续校准持续开发":1,"飞轮":3,"行为校准":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Aishwarya Reganti":1,"智能体":267,"非确定性":1,"主观能动性":19,"评估":2,"生产监控":1,"持续校准持续开发":1,"飞轮":3,"行为校准":1}</script>
 
 <script>
 (function(){

@@ -143,8 +143,8 @@ jsonLd: |
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同公司:YC · 同概念:智能体 (agents)</span>
+- [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|硬科技复兴、智能体营收与单人创始人：YC 最前沿观察]]<span class="pd-rz">同公司:YC · 同概念:SaaS</span>
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同概念:SaaS</span>
-- [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同概念:创始人市场匹配度 (founder market fit)</span>
 
 </div>
 <div class="pd-ex">

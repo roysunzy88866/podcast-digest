@@ -1,0 +1,202 @@
+{
+  "title_zh": "硬科技复兴、智能体营收与单人创始人：YC 最前沿观察",
+  "tldr": "YC 合伙人们基于最新批次数据，解读硬科技公司占比暴涨、AI 智能体推动营收倍增、单人创始人与资深创始人崛起的趋势。",
+  "digest_md": "这一集是 YC 的播客 The Light Cone,几位 YC 合伙人坐在一起聊他们从每年数千名创始人的合作里看到的最新趋势。最让人意外的开场数据是：如今最强大、最厉害的创始人，很多已经三十七八岁、四十岁甚至五十多岁了——有经验的创始人正在复兴 [00:00 YC 合伙人]。而围绕这批人，YC 最近一批的数据里有几个相当惊人的变化。\n\n## 硬科技从 8% 涨到 20%\n\n过去 18 个月录取的公司里，硬科技(真正触及原子而不仅是比特的公司)的占比从 8% 涨到了 20%。拆开看，几乎每个物理世界的类目都翻了三到五倍：机器人从 1% 涨到约 6%、7%;工业制造(在美国重建制造业)从 4% 涨到 10%;国防从约 1.5% 涨到约 5%;半导体栈和光子学从 1% 涨到接近 4%;再往下一层的电力基础设施，从 1% 涨到接近 3% [01:16 Diana]。\n\n驱动因素之一是创始人本身更硬核了：当前夏季批次里，六分之一的创始人拥有博士学位，远超历史水平——做硅光子学这类东西，确实需要扎实的研究背景，而且这些创始人表现得尤其好 [03:41 YC 合伙人]。\n\nAI 本身也在放大这个趋势。过去硬科技难，难在供应链加上极其复杂的软件部分；三四年前的说法是，顶级软件工程师是做顶级全栈硬件的「限制性因素」。现在有代码生成,你不再需要像 Google 或 Meta 那样雇一千个优秀工程师，一两个、一个小团队就够——「这真的改变了经济账，这才是硬科技真正的看涨理由」[04:31 YC 合伙人]。\n\n## 三大宏观趋势：太空、国防、算力\n\n具体拆开，有三个宏观趋势在推着创业者往原子世界走。\n\n**第一是太空**。SpaceX IPO 的巨大成功催生了一代想在太空创业的创始人，当前批次里有做「主权版 Starlink」的公司 Exosat,也有给太空卫星造太阳能电池板的 Beyond Reach Labs——如果像 StarCloud 这样的公司要把数据中心搬上太空，它们就需要电力 [05:36 Diana]。\n\n**第二是国防**。这一代创始人是在一场备受瞩目的战争中长大的，他们想做点什么。比如 Icarus 在做太阳能 U2 侦察机，能提供空中监视还能做通信——无人机战争的未来就在于能和地面无人机实时通信，他们已经拿到了战争部七位数的合同；还有 Nine Mothers 的反无人机防御，本质上是一个带计算机视觉的霰弹枪炮塔，用来保护战线纵深后方的特种部队——这种精英人才美国只有极少数，保护他们不被廉价无人机蜂群攻击，对军方是生死攸关的事 [06:23 Diana]。新一届政府也在用完全不同的方式对待防务，传统上大型防务主承包商做着成本加成的生意、把自己当咨询顾问，而新初创公司能利用 AI 建出那些主承包商建不出来的东西 [07:27 YC 合伙人]。\n\n国防还不只是卖给政府的整体方案，大量「两用型」公司同时服务私营部门。最典型的是 Knox Metals——把被掏空几十年的金属制造业带回底特律，利用那里闲置的空工厂。PG 发推说它正以「软件级别的增速」增长，原因是它的客户正是那些新国防科技初创公司，而现有的老派供应商根本跟不上它们的节奏。这很像 YC 早期的 Web 2.0 热潮：新初创公司更愿意买能跟上自己速度的新初创公司的东西，就像当年大家都选 Stripe 而不是传统信用卡服务商 [08:25 YC 合伙人]。\n\n**第三是算力本身**。让数据中心快速上线是一个很重的物理过程，而 GPU 的价格居然在升值——一块 NVIDIA A100 这种已经算老的 GPU,每小时成本反而在涨，纯粹因为需求太多、算力供应不够 [09:48 YC 合伙人]。于是从场地施工、规划软件、数据中心搭建到供电方案，全链条都有初创公司，甚至一路深入到芯片本身：\n\n> 【背景】浮点精度指用多少位数表示一个数字；位数越少计算越快、越省电，但误差越大。\n\n一个有趣的观察：从 A100 到 H100 再到 B300,NVIDIA 每一代的浮点精度都在下降(FP32、FP16、FP8 一路走低)，事实证明 LLM 并不需要完整的浮点精度。所以有一家叫 Bot 的公司在做用三值表示的定制硬件架构；当前批次里还有 Dipole Labs 在做第一个全光交换机——GPU 之间的通信目前走电子交换机，GPU 速度不断上涨，交换机已经是很多数据中心的瓶颈，全光交换机会快得多 [11:08 YC 合伙人]。\n\n## 机器人：等它的 ChatGPT 时刻\n\n机器人是硬科技里的大项，业内每个人都有一种感觉：机器人会迎来自己的 ChatGPT 时刻，只是还没到，大家还在摸索新的缩放定律(增加数据与算力让能力 predictable 地提升的规律)。基准测试上已经能看到飞跃：有个基准 Fable 只做到 10%,新一代模型能完成 60% 到 70% 的任务 [12:32 YC 合伙人]。围绕这个预期，整个技术栈都有公司在做：垂直行业机器人、部署机器人的基础设施、以及向机器人实验室出售数据 [12:41 YC 合伙人]。\n\n一个值得注意的实践细节：机器人基础模型和 LLM 特性很不一样——LLM 把现实建模为语言，机器人要在物理三维空间建模现实，自由度多得多，而且必须实时响应、不能像 LLM 那样放着跑回来看结果。据实际观察，所有用 Physical Intelligence 的 Pi 模型部署机器人的 YC 公司，全都在做微调，没有一家能开箱即用；比如合作公司 Ultra 从 Pi 模型起步，再用几千小时「把东西装进盒子」的录像，让它真正擅长装盒 [27:37 YC 合伙人]。\n\n## SaaS 没死，但变成了「做完整个工作」\n\n另一个大转向：AI 时代软件的价值逻辑变了。YC 录取的公司里，做全栈端到端、由智能体真正完成工作的比例，从 10% 涨到了超过 25%。老式 SaaS 只是「点状解决方案」，还需要人去操作；现在软件自己就能跑完整个工作流——做保险经纪、做临床接待、做完整的医疗账单处理 [18:02 Diana]。\n\n营收数据是最硬的证据：YC 公司被录取时中位数收入为零，批次结束时，过去中位数月收入约 8K,现在到了 20K,平均数还更高。更惊人的是，今年第一次出现公司在三个月批次内营收从零破七位数的事，过去这需要 18 个月以上 [18:48 Diana]。面对「这只是 AI 炒作」的质疑，合伙人的回应是：两年前智能体刚起步时就说过，把整个工作自动化的产品，会比只追踪工作但不完成工作的记录系统更有价值，公司就是会为此付更多钱——大型企业现在愿意非常早地开大额支票 [20:03 YC 合伙人]。\n\n> 【背景】记录系统(system of record)指企业用来存放核心业务数据的软件，如 CRM;「护城河」指竞争对手难以复制的优势。\n\n具体案例是 AI 招聘工具 Juicebox:起步时本质是 LLM 驱动的人才搜索(输入你想要的人的规格，它筛出优质档案，但你还得自己去联系)，最近推出智能体产品——不只搜索，还去联系候选人、安排面试，单客户收入预计翻倍到三倍。有意思的是招聘人员自己很乐意用，因为群发 500 个人的机械触达本来就不是他们想干的事，智能体把他们解放出来去做文化契合度判断这种 AI 很难做的、更有技能含量的工作 [20:38 YC 合伙人]。\n\n## 卖数据和 RL 环境给实验室：一个隐秘的大生意\n\n还有一类公司在超高速增长，但很多人没意识到这个品类有多大——因为它们很隐秘，没有动机宣传自己。YC 在 2016 年投 Scale 时这还算不上一个品类；最近两年，YC 投了超过十几家公司，每家每年靠向模型实验室出售数据或 RL 环境(RL 即强化学习，让模型在可评分的任务环境里反复练习变强)赚取超过 1000 万美元，很多情况下是数亿美元，而这些公司才成立几年 [23:15 YC 合伙人]。据报道，大实验室在这上面大约花十亿美元，这不是广为人知的事实，但围绕它确实能建立真正的生意。方向也在扩展：从金融等特定用例的 RL 环境，到长时程任务，再到机器人——实验室想让 AI 在物理世界工作，需要 egocentric 数据(第一人称视角数据)、遥操作、真实机器人任务，实验室在签八九位数的合同 [24:24 YC 合伙人]。\n\n由此延伸出一个预测：记录系统公司除了要变成 AI harness(智能体接入并展开工作的外壳)，可能还得开始训练自己的模型——开放权重模型已经几乎达到前沿水平，如果你有专有数据，做专用化训练让模型在自家场景比前沿模型更强，那会非常强大 [26:17 YC 合伙人]。\n\n## 单人创始人与资深创始人的时代\n\n回到开头那条趋势。单人创始人占录取公司的比例，从一年前的约 5% 飙升到超过 18%、19%,是 YC 见过最高的飙升，接近批次的五分之一 [29:49 Diana]。背后的逻辑：传统上你需要「会闯会说的 Hustler + 世界级技术专家」的理想组合，所以联合创始人极大提高成功概率；现在「知道该提示什么、知道该构建什么」比「能亲手把东西写出来」困难和有价值得多——构建那一环被 AI 补上了 [30:08 YC 合伙人]。当然 YC 一直有成功的单人创始人：Instacart 的 Apuva、Coinbase 的 Brian Armstrong,至少批次开始时都是单人;Parker Conrad 也是单人进的 YC,后来才招到 CTO。规律是：先干起来、拿到增长势头，再在某个节点加入联合创始人——所以这些成功案例后来都有联合创始人，只是股权结构和时机跟传统「两人五五分」不一样了 [31:05 YC 合伙人]。\n\n同时复兴的还有资深创始人。典型例子是四十岁出头的 Peter Steinberger:做过开发经理、创过业，很早就深度拥抱 AI 编码工具，尝试了大量东西，而且知道该构建什么。合伙人的总结是：「如果你已经在这一行摸爬滚打过，你知道龙在哪里，你多少有了品味——这些人现在拥有异乎寻常的力量」[33:00 Gary]。那些经典的门槛——必须有联合创始人、必须有酷投资人看上你——越来越不成立了，现在最关键的一点就是知道该构建什么；有经验、有主见的人，「现在你可能真的没有借口了」[33:38 YC 合伙人]。甚至管理编码智能体和管理工程师团队没有太大区别，管过多年团队的人拉起庞大的智能体团队，可能比聪明的 19 岁年轻人还管得好 [34:18 YC 合伙人]。\n\n那对现在想开始的人，具体建议是什么？答案朴素得出奇：直接开始写提示词。「我们处在一个多么奇怪的历史时刻：你早上醒来，接上一个新模型，那些哪怕一个月前你还在问为什么就是跑不通的东西，突然就能跑了」[35:06 YC 合伙人]——而这可能才刚刚开始。\n\n## 本集带走\n\n- **硬科技门槛被 AI 降下来了**：软件工程不再是硬件公司的限制因素，小团队就能做全栈硬件——机器人、国防、制造、半导体、电力这些物理类目在 YC 占比普遍翻三四倍。\n- **SaaS 的新活法是「把活干完」**：端到端完成的智能体产品比点状工具值钱得多，客户愿意为结果付数倍价钱，这是 YC 公司批次内中位月收入从 8K 涨到 20K、甚至三个月从零破七位数的核心原因。\n- **卖数据/RL 环境给实验室是隐秘的大生意**：两年内 YC 投了十几家年入超千万美元(很多上亿)的这类公司，方向正从文本扩展到机器人真实环境数据。\n- **单人创始人比例从 5% 涨到近 20%**:构建能力被 AI 补上后，「知道该构建什么」成了高阶位；可行路径是先单人干出增长，再后补联合创始人。\n- **有经验的人现在优势最大**：知道龙在哪、有品味、会管理(智能体)的人，比任何时候都更容易起步——别再拿门槛当借口。",
+  "quotes": [
+    {
+      "en": "Frankly, some of the most powerful and badass founders that we've been seeing lately, there might be in their late 30s, 40s, even 50s.",
+      "zh": "坦白说,我们最近看到的一些最强大、最厉害的创始人,可能已经三十七八岁、四十岁,甚至五十多岁了。",
+      "timestamp": "00:00",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "A lot of people seem to say that they want to be YC for solo founders, but it turns out YC is the YC for solo founders.",
+      "zh": "很多人似乎都说他们想成为单人创始人的 YC,但事实证明,YC 就是单人创始人的 YC。",
+      "timestamp": "00:13",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "The super smart models that we have now are actually accelerating scientific research and making it possible for startups to have bigger research breakthroughs earlier and that therefore these deep tech companies will actually work better.",
+      "zh": "我们现在拥有的超智能模型正在实际加速科学研究,让初创公司能够更早取得更大的研究突破,因此这些深科技公司会运转得更好。",
+      "timestamp": "05:10",
+      "speaker": "Jared"
+    },
+    {
+      "en": "To be able to see new startups that can actually take advantage of all of the AI, all of the tech, all of the new ways of building things to build things that, frankly, the defense primes can't build.",
+      "zh": "能看到新的初创公司真正利用所有的 AI、所有的技术、所有新的建造方式,去建造坦率说那些防务主承包商建不出来的东西。",
+      "timestamp": "07:46",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "If you have a thing that agents can use, that is actually valuable. And if anything, agents will use software a lot more than humans will, and that seems to be driving Salesforce growth.",
+      "zh": "如果你有一个智能体能用的东西,那确实是有价值的。而且如果说有什么不同,智能体使用软件的频率会比人类多得多,而这似乎正在驱动 Salesforce 的增长。",
+      "timestamp": "15:40",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "You have to be the way people not just read and write, but actually do their work inside, you know, your system of record.",
+      "zh": "你必须成为人们不只是读写,而是真正在其内部开展工作的地方,你知道,在你的记录系统里。",
+      "timestamp": "17:19",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "We pulled the data recently, and just in the last two years, YC has funded more than a dozen companies that are each making more than $10 million a year selling data or RL environments to the labs.",
+      "zh": "我们最近拉了数据,仅仅在最近两年,YC 就投资了超过十几家公司,它们每家每年靠向实验室出售数据或 RL 环境赚取超过 1000 万美元。",
+      "timestamp": "23:29",
+      "speaker": "Jared"
+    },
+    {
+      "en": "Reportedly, the big labs are spending about a billion dollars on this. It's not a very known fact, but there's actually a real business to be built around this.",
+      "zh": "据报道,大型实验室在这个上面大约花十亿美元。这不是一个广为人知的事实,但其实围绕这个可以建立起一门真正的生意。",
+      "timestamp": "24:58",
+      "speaker": "Diana"
+    },
+    {
+      "en": "It's becoming such that knowing what to prompt and knowing what to build is so much more difficult and valuable than just knowing the CTO being able to code the thing.",
+      "zh": "现在的情况变成了,知道该提示什么、知道该构建什么,比仅仅知道作为 CTO 能够把东西写出来要困难和有价值得多。",
+      "timestamp": "30:47",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "It's like, basically, if you've been around the block, you know where the, you know, where the dragons are, you sort of have taste. And then those people in particular are like unusually powerful right now.",
+      "zh": "就是说,基本上,如果你已经在这一行摸爬滚打过,你知道那些,你知道,龙在哪里,你多少有了品味。而这些人尤其现在拥有异乎寻常的力量。",
+      "timestamp": "33:25",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "That's like the high order bit now is you need to know what to build. And if you've lived a little bit and you've been in places and you're very opinionated, like actually now you might not have an excuse.",
+      "zh": "这现在就像是最重要的关键点,就是你得知道该构建什么。如果你经历过一些事、去过一些地方、而且非常有主见,那么现在你可能真的没有借口了。",
+      "timestamp": "33:53",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "You know, I don't know when it ends, but that's coding in the time of AGI, I guess.",
+      "zh": "你知道,我不知道它什么时候结束,但这大概就是 AGI 时代的编程吧。",
+      "timestamp": "35:59",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "YC 合伙人",
+      "en": "Frankly, some of the most powerful and badass founders that we've been seeing lately, there might be in their late 30s, 40s, even 50s.",
+      "zh": "坦白说,我们最近看到的一些最强大、最厉害的创始人,可能已经三十七八岁、四十岁,甚至五十多岁了。"
+    },
+    {
+      "timestamp": "00:13",
+      "speaker": "YC 合伙人",
+      "en": "A lot of people seem to say that they want to be YC for solo founders, but it turns out YC is the YC for solo founders.",
+      "zh": "很多人似乎都说他们想成为单人创始人的 YC,但事实证明,YC 就是单人创始人的 YC。"
+    },
+    {
+      "timestamp": "04:59",
+      "speaker": "YC 合伙人",
+      "en": "And that really changes the economics. I mean, that's the true bull case for hard tech.",
+      "zh": "这真的改变了经济账。我的意思是,这才是硬科技真正的看涨理由。"
+    },
+    {
+      "timestamp": "05:10",
+      "speaker": "YC 合伙人",
+      "en": "The super smart models that we have now are actually accelerating scientific research and making it possible for startups to have bigger research breakthroughs earlier and that therefore these deep tech companies will actually work better.",
+      "zh": "我们现在拥有的超智能模型正在实际加速科学研究,让初创公司能够更早取得更大的研究突破,因此这些深科技公司会运转得更好。"
+    },
+    {
+      "timestamp": "07:43",
+      "speaker": "YC 合伙人",
+      "en": "To be able to see new startups that can actually take advantage of all of the AI, all of the tech, all of the new ways of building things to build things that, frankly, the defense primes can't build.",
+      "zh": "能看到新的初创公司真正利用所有的 AI、所有的技术、所有新的建造方式,去建造坦率说那些防务主承包商建不出来的东西。"
+    },
+    {
+      "timestamp": "09:01",
+      "speaker": "YC 合伙人",
+      "en": "I think I saw a PG tweet that NoxMetals is growing at software growth rates.",
+      "zh": "我记得看到过 PG 的一条推文,说 NoxMetals 正以软件级别的增速在增长。"
+    },
+    {
+      "timestamp": "10:19",
+      "speaker": "YC 合伙人",
+      "en": "The price is going up because it's just too much demand and not enough supply and compute.",
+      "zh": "价格在上涨,就是因为需求太多而算力供应不够。"
+    },
+    {
+      "timestamp": "12:59",
+      "speaker": "YC 合伙人",
+      "en": "Because there's this moment that everyone in the industry is feeling that we're going to get to the ChatGPT moment. It's not quite there yet.",
+      "zh": "因为业内每个人都有这样一种感觉,我们会迎来 ChatGPT 时刻。现在还没到那一步。"
+    },
+    {
+      "timestamp": "15:40",
+      "speaker": "YC 合伙人",
+      "en": "If you have a thing that agents can use, that is actually valuable. And if anything, agents will use software a lot more than humans will, and that seems to be driving Salesforce growth.",
+      "zh": "如果你有一个智能体能用的东西,那确实是有价值的。而且如果说有什么不同,智能体使用软件的频率会比人类多得多,而这似乎正在驱动 Salesforce 的增长。"
+    },
+    {
+      "timestamp": "17:19",
+      "speaker": "YC 合伙人",
+      "en": "You have to be the way people not just read and write, but actually do their work inside, you know, your system of record.",
+      "zh": "你必须成为人们不只是读写,而是真正在其内部开展工作的地方,你知道,在你的记录系统里。"
+    },
+    {
+      "timestamp": "17:48",
+      "speaker": "YC 合伙人",
+      "en": "I mean, with a custom harness, they claim Astra got to north of 90% on RKGI 3.",
+      "zh": "我是说,用定制线束(harness),他们声称 Astra 在 RKGI 3 上达到了 90% 以上。"
+    },
+    {
+      "timestamp": "20:24",
+      "speaker": "YC 合伙人",
+      "en": "Large enterprises are willing to write big checks very, very early.",
+      "zh": "大型企业愿意非常非常早地开出大额支票。"
+    },
+    {
+      "timestamp": "23:29",
+      "speaker": "YC 合伙人",
+      "en": "We pulled the data recently, and just in the last two years, YC has funded more than a dozen companies that are each making more than $10 million a year selling data or RL environments to the labs.",
+      "zh": "我们最近拉了数据,仅仅在最近两年,YC 就投资了超过十几家公司,它们每家每年靠向实验室出售数据或 RL 环境赚取超过 1000 万美元。"
+    },
+    {
+      "timestamp": "24:58",
+      "speaker": "YC 合伙人",
+      "en": "Reportedly, the big labs are spending about a billion dollars on this. It's not a very known fact, but there's actually a real business to be built around this.",
+      "zh": "据报道,大型实验室在这个上面大约花十亿美元。这不是一个广为人知的事实,但其实围绕这个可以建立起一门真正的生意。"
+    },
+    {
+      "timestamp": "26:57",
+      "speaker": "YC 合伙人",
+      "en": "If you can like sort of special purpose train these things to do even better than what the frontier can do, like that's going to be really, really powerful.",
+      "zh": "如果你能把这些模型做某种专用化训练,让它们做得甚至比前沿模型更好,那将会非常非常强大。"
+    },
+    {
+      "timestamp": "29:49",
+      "speaker": "YC 合伙人",
+      "en": "And now we're over 18, 19%, which is a huge, this is the highest spike that we've seen.",
+      "zh": "而现在我们超过了 18%、19%,这是一个巨大的,这是我们所见过的最高的飙升。"
+    },
+    {
+      "timestamp": "30:47",
+      "speaker": "YC 合伙人",
+      "en": "It's becoming such that knowing what to prompt and knowing what to build is so much more difficult and valuable than just knowing the CTO being able to code the thing.",
+      "zh": "现在的情况变成了,知道该提示什么、知道该构建什么,比仅仅知道作为 CTO 能够把东西写出来要困难和有价值得多。"
+    },
+    {
+      "timestamp": "33:33",
+      "speaker": "YC 合伙人",
+      "en": "It's like, basically, if you've been around the block, you know where the, you know, where the dragons are, you sort of have taste. And then those people in particular are like unusually powerful right now.",
+      "zh": "就是说,基本上,如果你已经在这一行摸爬滚打过,你知道那些,你知道,龙在哪里,你多少有了品味。而这些人尤其现在拥有异乎寻常的力量。"
+    },
+    {
+      "timestamp": "33:53",
+      "speaker": "YC 合伙人",
+      "en": "That's like the high order bit now is you need to know what to build. And if you've lived a little bit and you've been in places and you're very opinionated, like actually now you might not have an excuse.",
+      "zh": "这现在就像是最重要的关键点,就是你得知道该构建什么。如果你经历过一些事、去过一些地方、而且非常有主见,那么现在你可能真的没有借口了。"
+    },
+    {
+      "timestamp": "35:53",
+      "speaker": "YC 合伙人",
+      "en": "You know, I don't know when it ends, but that's coding in the time of AGI, I guess.",
+      "zh": "你知道,我不知道它什么时候结束,但这大概就是 AGI 时代的编程吧。"
+    }
+  ],
+  "voice_script": "今天这期,咱们听的是 YC 的播客 The Light Cone。几位 YC 合伙人,每年跟几千个创始人打交道,这期坐在一起,聊他们从最新一批公司里看到的几个大变化。开场就挺颠覆认知的:他们说,现在最强大、最厉害的创始人,很多已经三十七八岁、四十岁,甚至五十多岁了。有经验的人正在复兴。围绕这批人,YC 最新一批的数据里,有几个数字相当惊人。\n\n先说最大的那个:硬科技。所谓硬科技,就是真正触及原子、而不只是比特的公司。过去十八个月,YC 录取的公司里,硬科技的占比从 8% 涨到了 20%。拆开看,几乎每个物理世界的类目都翻了三到五倍——机器人从 1% 涨到六七个点,工业制造从 4% 涨到 10%,国防从 1.5% 涨到 5%,半导体和光子学、电力基础设施,也都在成倍地涨。\n\n那问题来了,硬科技为什么偏偏是现在爆?有两个原因。第一个是创始人本身更硬核了:当前夏季批次里,六分之一的创始人拥有博士学位,远超历史水平。做硅光子学这种东西,确实需要扎实的研究背景,而且这些人表现得尤其好。\n\n第二个原因更关键,是 AI 把硬科技的账算过来了。过去硬科技难,难在供应链加上极其复杂的软件部分。三四年前的说法是,顶级软件工程师是做顶级硬件的限制性因素。现在有代码生成,你不再需要像 Google 那样雇一千个优秀工程师,一两个、一个小团队就够。用合伙人的话说,这真的改变了经济账,这才是硬科技真正的看涨理由。\n\n顺着这条线,有三个宏观趋势在推着创业者往物理世界走。第一是太空,SpaceX 的巨大成功催生了一代想在太空创业的人,比如做主权版 Starlink 的 Exosat,给太空卫星造太阳能板的 Beyond Reach Labs。第二是国防。这一代创始人是在一场备受瞩目的战争中长大的,他们想做点什么。有做太阳能侦察机的 Icarus,已经拿到战争部七位数的合同;还有做反无人机炮塔的公司,专门保护战场上极少数的精英人才。而且新一届政府对防务的态度也变了——新的初创公司能利用 AI,建出那些传统防务主承包商建不出来的东西。\n\n第三是算力本身。GPU 居然在升值,连已经很老的 A100,每小时成本都在涨,纯粹因为需求太大。于是从数据中心施工、供电,一路到芯片,全链条都有初创公司进场。\n\n说完原子世界,再看软件这边,另一场转向更有意思。YC 录取的公司里,做全栈端到端、由智能体真正把活干完的比例,从 10% 涨到了超过 25%。这背后是软件价值逻辑变了:老式 SaaS 只是点状解决方案,还得人去操作;现在软件自己就能跑完整个工作流。证据最硬的还是营收:YC 公司批次结束时,中位数月收入过去约 8K,现在到了 20K。更惊人的是,今年第一次有公司在三个月批次内营收从零破七位数,过去这需要十八个月以上。面对\"这是不是 AI 炒作\"的质疑,合伙人的回应是:把整个工作自动化的产品,就是会比只追踪工作但不完成工作的记录系统更值钱,公司就是会为此付更多钱。\n\n顺着这个逻辑,还有一门很多人没意识到的隐秘大生意:卖数据和 RL 环境给模型实验室。RL 就是强化学习,让模型在可评分的任务环境里反复练习。两年内,YC 投了超过十几家这类公司,每家每年靠这个赚超过一千万美元,很多情况下是数亿美元,而这些公司才成立几年。据报道,大实验室在这上面大约花十亿美元。方向还在扩展,从文本一路扩到机器人的真实环境数据。\n\n好,现在咱们回到开头那条线——单人创始人和资深创始人。单人创始人占录取公司的比例,从一年前的约 5%,飙升到接近 20%,是 YC 见过最高的飙升。为什么?传统上你需要\"会闯会说的加世界级技术专家\"的理想组合;现在,知道该提示什么、知道该构建什么,比能亲手把东西写出来更有价值——构建那一环,被 AI 补上了。可行的路径也变了:先单人干起来、拿到增长势头,再在某个节点加入联合创始人。Coinbase 的 Brian Armstrong 进批次时就是单人,后来才有的搭档。\n\n同时复兴的,就是那些资深创始人。四十岁出头的 Peter Steinberger 是典型:创过业,深度拥抱 AI 编码工具,而且知道该构建什么。Gary 的总结特别有劲:如果你已经在这一行摸爬滚打过,你知道龙在哪里,你多少有了品味——这些人现在拥有异乎寻常的力量。那些经典的门槛,必须有联合创始人、必须有酷投资人看上你,越来越不成立了。管过多年团队的人,拉起庞大的智能体团队,可能比聪明的十九岁年轻人还管得好。\n\n那对现在想开始的人,建议朴素得出奇:直接开始写提示词。这是一个奇怪的历史时刻——你早上醒来,接上一个新模型,一个月前跑不通的东西,突然就能跑了。有经验、有主见的人,现在可能真的没有借口了。"
+}

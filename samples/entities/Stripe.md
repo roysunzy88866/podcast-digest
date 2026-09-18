@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stripe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>31</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>32</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -42,6 +42,7 @@ unlisted: true
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(52:29起):本集说它收购 PayPal 告吹，判断只是价格之舞——这类交易往往要破裂一次才能成交。
 - **[[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|《Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术》]]**(01:29起):本集背景公司：极其复杂的全球性支付业务，因 AI 之前就在开发者体验、数据平台、分析层上持续投入，如今成为智能体时代的杠杆（Claire 称『把 DevEx 团队和数据团队规模翻一倍』）。
 - **[[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]]**(00:29起):开场被提到是 Greg 职业生涯的第一次大押注:早期参与建设 Stripe。
+- **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(09:38起):本集类比:像当年新初创公司宁愿选 Stripe 而不是传统信用卡服务商,如今国防科技初创公司也更愿意买能跟上自己速度的新初创公司的东西。
 
 ## ① 提到它的金句
 
@@ -55,7 +56,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*31 集*
+*32 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为被讨论公司(提及)
@@ -88,6 +89,7 @@ unlisted: true
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司(提及)
 - [[2026-09-07-howiai-build-your-own-company-brain-the-enterpr|《Stripe 内部公司大脑 Kai：让上万人放心把工作交给智能体的治理术》]] — 作为被讨论公司
 - [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]] — 作为被讨论公司(提及)
+- [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -95,7 +97,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Vercel]] · [[推理]] · [[ChatGPT]] · [[Lenny]] · [[Claude Code]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"智能体":264,"OpenAI":120,"Anthropic":125,"Cursor":62,"Vercel":17,"推理":46,"ChatGPT":69,"Lenny":67,"Claude Code":63,"Cognition":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":267,"OpenAI":120,"Anthropic":125,"Cursor":62,"Vercel":17,"推理":46,"ChatGPT":69,"Lenny":67,"Claude Code":63,"Cognition":17}</script>
 
 <script>
 (function(){

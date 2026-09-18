@@ -143,7 +143,7 @@ Rich 也不否认 LLM 是重大突破，但他认为那只覆盖了智能的约�
 
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)、持续学习 (continual learning)、预训练 (pre-training)</span>
 - [[2026-08-11-talks-how-harvey-built-a-research-lab-on-a-bud|应用公司如何低成本建自己的AI研究实验室：Harvey 的实战手册]]<span class="pd-rz">同概念:合成数据 (synthetic data)、智能体 (agent)、后训练 (post-training)</span>
-- [[2026-08-28-talks-how-do-you-diffuse-ai-into-the-real-worl|LongLake：把AI塞进真实服务业务的笨办法]]<span class="pd-rz">同概念:持续学习 (continual learning)、智能体 (agent)、后训练 (post-training)</span>
+- [[2026-08-13-talks-continual-learning-how-ai-agents-get-bet|经验差距：让智能体越用越聪明]]<span class="pd-rz">同概念:持续学习 (continual learning)、智能体 (agent)、后训练 (post-training)</span>
 
 </div>
 <div class="pd-ex">

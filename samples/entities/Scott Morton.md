@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]]
+[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":1,"Revel":1,"SpaceX":15,"LLVM":1,"Python":5,"vibe coding":35,"CI-CD":10,"Palantir":16}</script>
+<script type="application/json" class="pd-epn">{"Mario":1,"Revel":1,"SpaceX":16,"LLVM":1,"Python":5,"vibe coding":35,"CI-CD":10,"Palantir":16}</script>
 
 <script>
 (function(){

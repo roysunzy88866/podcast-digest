@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
+[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":264,"沙箱":51,"harness":36,"函数调用":1,"上下文窗口":6,"评估":2,"JSON schema":1,"Gemini":9,"Google":44,"Cursor":62}</script>
+<script type="application/json" class="pd-epn">{"智能体":267,"沙箱":51,"harness":38,"函数调用":1,"上下文窗口":6,"评估":2,"JSON schema":1,"Gemini":9,"Google":44,"Cursor":62}</script>
 
 <script>
 (function(){

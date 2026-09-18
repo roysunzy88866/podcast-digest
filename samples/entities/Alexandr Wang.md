@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]]
+[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":2,"Meta":32,"MuseSpark":1,"开源模型":18,"智能体":264,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":19,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":3,"Meta":32,"MuseSpark":1,"开源模型":18,"智能体":267,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":19,"Spark API":1}</script>
 
 <script>
 (function(){

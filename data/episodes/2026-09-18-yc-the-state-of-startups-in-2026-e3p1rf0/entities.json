@@ -1,0 +1,1268 @@
+{
+  "episode_id": "2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-09-18",
+  "tags": [
+    "硬科技",
+    "智能体",
+    "机器人",
+    "国防科技",
+    "创业趋势"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "diana",
+      "type": "person",
+      "role": "host",
+      "name": "Diana",
+      "file": "Diana",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            62.351,
+            65.352
+          ],
+          "quote": "Diana, you have a few things to share with us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            131.794,
+            136.417
+          ],
+          "quote": "And I think you have the category breakdown of the hard tech companies, right, Diana?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1784.878,
+            1788.719
+          ],
+          "quote": "Diana, you have a few stats that you found surprising.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jared",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jared",
+      "file": "Jared",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            220.736,
+            221.277
+          ],
+          "quote": "Right, Jared?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": true,
+      "how_described": "本集即 YC 播客,合伙人们分享每年与数千名创始人合作中看到的最新趋势:硬科技占比从 8% 涨到 20%,单人创始人从 5% 涨到近 20%,批次结束中位月收入从 8K 涨到 20K。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            13.805,
+            21.293
+          ],
+          "quote": "A lot of people seem to say that they want to be YC for solo founders, but it turns out YC is the YC for solo founders.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            44.064,
+            51.467
+          ],
+          "quote": "At YC, we work with thousands of founders per year, which means we start to see things before they're obvious.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            91.197,
+            97.979
+          ],
+          "quote": "The other one is the rate of growth of companies and what YC does to the companies has accelerated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            98.399,
+            103.32
+          ],
+          "quote": "So the median YC company, when it gets accepted, is at zero in revenue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            568.208,
+            571.49
+          ],
+          "quote": "The Web 2.0 boom happened early in the YC days.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            823.485,
+            829.371
+          ],
+          "quote": "It's been really cool for me to see the resurgence of hard tech because, you know, at YC, we've been funding hard tech companies since 2014.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1128.036,
+            1134.701
+          ],
+          "quote": "I think I gave that stat of the median startup when it gets into YC is a zero in revenue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1395.92,
+            1400.464
+          ],
+          "quote": "When YC funded scale back in 2016, this was like a tiny little niche thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1409.331,
+            1421.358
+          ],
+          "quote": "We pulled the data recently, and just in the last two years, YC has funded more than a dozen companies that are each making more than $10 million a year selling data or RL environments to the labs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1697.592,
+            1705.08
+          ],
+          "quote": "Yeah, my understanding is that all the YC companies that are using physical intelligence as models to deploy robotics, they're all fine-tuning the Py models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1776.856,
+            1784.358
+          ],
+          "quote": "A lot of people seem to say that they want to be YC for solo founders, but it turns out YC is the YC for solo founders.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1865.793,
+            1867.314
+          ],
+          "quote": "I think people don't realize this about YC.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1875.181,
+            1879.444
+          ],
+          "quote": "Yeah, Parker Conrad got into YC as a single founder, and then I interviewed.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hard-tech",
+      "type": "concept",
+      "role": "concept",
+      "name": "硬科技 (hard tech)",
+      "file": "硬科技",
+      "primary": true,
+      "how_described": "本集主线之一:真正触及原子而不仅是比特的公司,在 YC 录取占比从 8% 涨到 20%,机器人、制造、国防、半导体、电力各类目普遍翻三到五倍,因为代码生成让软件工程不再是硬件的限制性因素。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            76.713,
+            82.115
+          ],
+          "quote": "So one of the big ones is the number of hard tech companies that are in the batch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            122.668,
+            124.469
+          ],
+          "quote": "Yeah, let's dig into hard tech first.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 28,
+          "t": [
+            124.489,
+            127.831
+          ],
+          "quote": "Like what are these hard tech companies and what's driving this?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 31,
+          "t": [
+            131.794,
+            136.417
+          ],
+          "quote": "And I think you have the category breakdown of the hard tech companies, right, Diana?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 59,
+          "t": [
+            245.392,
+            259.163
+          ],
+          "quote": "I think AGI compounds this in a really fascinating and awesome way in that like you might think in the past you actually like hard tech was hard because you had supply chains, you had an incredible software component often.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            301.403,
+            304.266
+          ],
+          "quote": "I mean, that's the true bull case for hard tech.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            823.485,
+            829.371
+          ],
+          "quote": "It's been really cool for me to see the resurgence of hard tech because, you know, at YC, we've been funding hard tech companies since 2014.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            860.254,
+            871.019
+          ],
+          "quote": "And so it's cool that it seems like Silicon Valley, which historically Venture was set up to fund hard tech, but it drifted away from it for a decade or two because it was so profitable to just fund SaaS companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 169,
+          "t": [
+            873.501,
+            878.386
+          ],
+          "quote": "Yeah, on the point about like the investors wanting to do hard tech again, it does seem like that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 174,
+          "t": [
+            895.438,
+            901.999
+          ],
+          "quote": "And it seemed by even demo day that investors were starting to be a lot more interested in hard tech companies.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成真正完成整个工作的软件:端到端公司占比从 10% 涨到超 25%,智能体被视为客户、比人类更频繁地使用软件;管理编码智能体和管理工程师团队没有太大区别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            1103.618,
+            1116.708
+          ],
+          "quote": "This has to do with actually doing the job, the agent does the job, not just like a point solution, which old SaaS in five, eight years ago was just like a point solution and you needed a...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1263.327,
+            1266.049
+          ],
+          "quote": "And recently they've launched an agent product, which is really taking off.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1266.309,
+            1269.051
+          ],
+          "quote": "And the agent doesn't just search for the people.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1356.009,
+            1361.511
+          ],
+          "quote": "And because of agent decoding, they're actually building products that are a lot more mature as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1361.751,
+            1371.035
+          ],
+          "quote": "And they're able, these founders that are super AI-pilled run, I don't know, 20 coding agent sessions to get to that product maturity.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人技术 (robotics)",
+      "file": "机器人技术",
+      "primary": true,
+      "how_described": "本集说机器人会迎来自己的 ChatGPT 时刻但还没到,大家在摸索新的缩放定律;机器人基础模型与 LLM 特性不同,需在物理三维空间实时建模,所有用 Pi 模型的 YC 公司都在做微调。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            136.897,
+            139.119
+          ],
+          "quote": "So specifically robotics has been a big one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            752.807,
+            760.534
+          ],
+          "quote": "Now the last one that's driving all this move to atoms is this aspect where robotics is going to happen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            761.475,
+            772.906
+          ],
+          "quote": "So there's a lot of companies building the stack around that and everything from vertical robotics in specific industries to the infrastructure to deploy robots.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            773.546,
+            778.729
+          ],
+          "quote": "To data selling to the new robotics labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            798.878,
+            799.398
+          ],
+          "quote": "I mean, robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            802.7,
+            806.841
+          ],
+          "quote": "I was hearing this reading this morning that even Astra is like a big leap forward for robotics.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1517.331,
+            1520.413
+          ],
+          "quote": "And I think that is starting to also emerge in robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1548.779,
+            1553.541
+          ],
+          "quote": "Companies like in the current batch of summer 26, there's Praxis Robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1626.936,
+            1629.698
+          ],
+          "quote": "I think this is actually going to be even bigger in robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1632.221,
+            1637.986
+          ],
+          "quote": "But robotic foundation models in robotics, I think, have very different characteristics versus LLMs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1642.069,
+            1647.754
+          ],
+          "quote": "And for robotics, you model reality in the physical 3D space, which has way more degrees of freedom.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1657.321,
+            1661.224
+          ],
+          "quote": "I have this company called Boost Robotics that build robots for data centers like doing the cabling.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1663.286,
+            1674.774
+          ],
+          "quote": "It's better to get a model that's fine-tuned and trained on custom data that just works in that environment because the thing that's also challenging for robotics, they need to be in real time and respond very quickly to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1679.439,
+            1684.985
+          ],
+          "quote": "LLMs, you can have this feature where you can just let it go and come back, but for robotics, you can't.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1697.592,
+            1705.08
+          ],
+          "quote": "Yeah, my understanding is that all the YC companies that are using physical intelligence as models to deploy robotics, they're all fine-tuning the Py models.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": true,
+      "how_described": "本集说 SaaS 没死但已转型:老式 SaaS 只是点状解决方案、需要人操作,现在软件自己跑完整工作流;SaaS 股票虽曾下跌但已复苏,记录系统的护城河目前仍然完好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            846.188,
+            848.449
+          ],
+          "quote": "VCs would just be like, oh, we only do B2B SaaS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            860.254,
+            871.019
+          ],
+          "quote": "And so it's cool that it seems like Silicon Valley, which historically Venture was set up to fund hard tech, but it drifted away from it for a decade or two because it was so profitable to just fund SaaS companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 171,
+          "t": [
+            880.328,
+            889.077
+          ],
+          "quote": "I mean, it seemed like it happened pretty immediately when like SaaS stocks were down earlier this year, Claude Code was surging and that just became like the...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 176,
+          "t": [
+            903.039,
+            910.921
+          ],
+          "quote": "I mean, it is worth knowing though, on the other side, like since that, a bunch of the SaaS stocks have actually recovered and are doing better than ever.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1082.519,
+            1087.003
+          ],
+          "quote": "It's not that software and SaaS is dead, what people claim on the internet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1103.618,
+            1116.708
+          ],
+          "quote": "This has to do with actually doing the job, the agent does the job, not just like a point solution, which old SaaS in five, eight years ago was just like a point solution and you needed a...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1117.368,
+            1120.831
+          ],
+          "quote": "You needed someone to operate the SaaS software.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "defense",
+      "type": "concept",
+      "role": "concept",
+      "name": "国防科技 (defense)",
+      "file": "国防科技",
+      "primary": true,
+      "how_described": "本集三大宏观趋势之一:在受瞩目战争中长大的一代创始人投身防务,占比从约 1.5% 涨到约 5%;新一届政府以不同方式对待防务,新初创公司用 AI 建出传统主承包商建不出来的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            152.548,
+            154.69
+          ],
+          "quote": "The other one is defense is a big one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            154.99,
+            157.312
+          ],
+          "quote": "We all have been working with a lot of defense startups.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            391.607,
+            392.748
+          ],
+          "quote": "And both of them were defense.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            409.982,
+            416.809
+          ],
+          "quote": "And then likewise with Drone War, Special Forces has been buying Nine Mothers anti-drone defense.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            447.526,
+            454.732
+          ],
+          "quote": "So just really cool to see this new administration actually approach defense in a very different way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            457.714,
+            463.62
+          ],
+          "quote": "Frankly, capture from the big defense primes that are just doing sort of cost plus.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            463.66,
+            478.333
+          ],
+          "quote": "They think of themselves as consultants and, you know, to be able to see new startups that can actually take advantage of all of the AI, all of the tech, all of the new ways of building things to build things that, frankly, the defense primes can't build.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            481.501,
+            486.486
+          ],
+          "quote": "Now, the thing about defense is not just those full solutions that get sold to the government.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            545.217,
+            565.767
+          ],
+          "quote": "So one reason is that a lot of their customers are these new defense tech startups that have sprung up and need metal to build all their stuff and the existing suppliers that are these sort of like sleepy old businesses mostly run by old people just like can't keep up with the pace that the new defense tech startups want to build at.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 116,
+          "t": [
+            584.92,
+            588.042
+          ],
+          "quote": "And so I feel like they're sort of becoming that for the whole defense tech ecosystem.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rl-environments",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL 环境 (RL environments)",
+      "file": "RL 环境",
+      "primary": true,
+      "how_described": "本集说向实验室出售数据或 RL 环境是隐秘的大生意:近两年 YC 投了超过十几家每家年入超千万美元(很多数亿)的这类公司,大实验室据报道约花十亿美元,方向正扩展到机器人真实环境。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 275,
+          "t": [
+            1371.344,
+            1378.878
+          ],
+          "quote": "And there's another category of companies that's also been growing super fast recently, which is companies that sell data or RL environments to the labs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1409.331,
+            1421.358
+          ],
+          "quote": "We pulled the data recently, and just in the last two years, YC has funded more than a dozen companies that are each making more than $10 million a year selling data or RL environments to the labs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1471.346,
+            1478.067
+          ],
+          "quote": "Like you'll have like RL environments for finance, for instance, and someone can go very, very infinitely deep with that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "solo-founders",
+      "type": "concept",
+      "role": "concept",
+      "name": "单人创始人 (solo founders)",
+      "file": "单人创始人",
+      "primary": true,
+      "how_described": "本集说单人创始人占录取公司比例从约 5% 飙到超 18%、19%,是 YC 见过最高的飙升;因为「知道该构建什么」比能亲手写出来更有价值,构建那一环被 AI 补上了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            13.805,
+            21.293
+          ],
+          "quote": "A lot of people seem to say that they want to be YC for solo founders, but it turns out YC is the YC for solo founders.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1776.856,
+            1784.358
+          ],
+          "quote": "A lot of people seem to say that they want to be YC for solo founders, but it turns out YC is the YC for solo founders.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1789.32,
+            1798.243
+          ],
+          "quote": "One of the shocking stats from analyzing deceptive companies from a year ago, we used to only have about 5% of the companies accepted be solo founders.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "juicebox",
+      "type": "company",
+      "role": "company",
+      "name": "Juicebox",
+      "file": "Juicebox",
+      "primary": true,
+      "how_described": "本集说 Juicebox 是一个 AI 招聘工具,从 LLM 驱动的人才搜索起步,最近推出会联系候选人、安排面试的智能体产品,单客户收入预计翻倍到三倍,招聘人员也乐意用它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            1238.054,
+            1242.936
+          ],
+          "quote": "Yeah, a company that I'm seeing having this effect is Juicebox, an AI recruiting tool.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": false,
+      "how_described": "本集提到 SpaceX IPO 的巨大成功催生了一代想在太空创业的创始人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            321.138,
+            336.306
+          ],
+          "quote": "I think the other factor is there's basically three macro trends that are also driving all this growth on atoms and is seeing huge companies like SpaceX have such a successful IPO, has created a generation of",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "exosat",
+      "type": "company",
+      "role": "company",
+      "name": "Exosat",
+      "file": "Exosat",
+      "primary": false,
+      "how_described": "本集提到 Exosat 是 26 夏季批次里试图构建主权版 Starlink 解决方案的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            344.969,
+            351.451
+          ],
+          "quote": "This is a company that we work with called Exosat that's trying to build basically a sovereign Starlink solution.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "beyond-reach-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Beyond Reach Labs",
+      "file": "Beyond Reach Labs",
+      "primary": false,
+      "how_described": "本集提到 Beyond Reach Labs 在为太空中的卫星建造太阳能电池板。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            352.131,
+            360.774
+          ],
+          "quote": "This other company that I work with in winter 26 called Beyond Reach Labs that's building solar panels for satellites in space.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "icarus",
+      "type": "company",
+      "role": "company",
+      "name": "Icarus",
+      "file": "Icarus",
+      "primary": false,
+      "how_described": "本集提到 Icarus 在做太阳能 U2 侦察机,提供空中监视和通信,已拿到战争部七位数合同。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            383.16,
+            391.347
+          ],
+          "quote": "Like two of the companies I'm most excited about that I funded the last couple of batches, one was Icarus last fall and then Nine Mothers this last spring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            392.908,
+            400.154
+          ],
+          "quote": "Icarus is doing like a solar powered U2 spy plane that gives overwatch and can also do comms, which is actually really important.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nine-mothers",
+      "type": "company",
+      "role": "company",
+      "name": "Nine Mothers",
+      "file": "Nine Mothers",
+      "primary": false,
+      "how_described": "本集提到 Nine Mothers 做反无人机防御,本质是带计算机视觉的霰弹枪炮塔,特种部队在采购。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            383.16,
+            391.347
+          ],
+          "quote": "Like two of the companies I'm most excited about that I funded the last couple of batches, one was Icarus last fall and then Nine Mothers this last spring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            409.982,
+            416.809
+          ],
+          "quote": "And then likewise with Drone War, Special Forces has been buying Nine Mothers anti-drone defense.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "knox-metals",
+      "type": "company",
+      "role": "company",
+      "name": "Knox Metals",
+      "file": "Knox Metals",
+      "primary": false,
+      "how_described": "本集说 Knox Metals 把被掏空的金属制造业带回底特律,客户是新国防科技初创公司,PG 称其以软件级别的增速增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            519.345,
+            522.809
+          ],
+          "quote": "And so Knox Metals is rebuilding America's metal supply chain.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bot",
+      "type": "company",
+      "role": "company",
+      "name": "Bot",
+      "file": "Bot",
+      "primary": false,
+      "how_described": "本集提到 Bot 在构建用三值表示的定制硬件架构,顺应 NVIDIA 各代浮点精度一路走低的趋势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            668.256,
+            693.703
+          ],
+          "quote": "called Bot that is trying to build basically new custom hardware architecture that's using ternary representation for models because what it turns out, which is a funny trend right now, if you look at all the NVIDIA architectures from A100s to H100s and now the B300s, each of these generations, they're actually going down in floating point precision in terms of what they were.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            704.895,
+            706.196
+          ],
+          "quote": "So this is what Bot is trying to do.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dipole-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Dipole Labs",
+      "file": "Dipole Labs",
+      "primary": false,
+      "how_described": "本集说 Dipole Labs 在构建第一个全光交换机,替换数据中心里已成为瓶颈的电子交换机。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            711.315,
+            722.723
+          ],
+          "quote": "Yeah, there's a company called Dipole Labs in the current batch that is replacing the switches that are in data centers, which are essentially the like routing systems between different GPUs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            741.378,
+            748.57
+          ],
+          "quote": "And so Dipole Labs is building the first fully optical switch where it's like all photons from GPU A all the way to GPU B.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集提到 NVIDIA 的 A100 这类老 GPU 每小时成本反而在升值,且从 A100 到 H100 再到 B300,每代浮点精度都在下降。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            604.484,
+            609.605
+          ],
+          "quote": "And there's a very interesting stat where GPUs from NVIDIA, let's say like an A100,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            645.963,
+            657.79
+          ],
+          "quote": "Startups, and even to the point of going down to the core compute silicons, there's a number of startups that are building new silicon for an alternative to NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            668.256,
+            693.703
+          ],
+          "quote": "called Bot that is trying to build basically new custom hardware architecture that's using ternary representation for models because what it turns out, which is a funny trend right now, if you look at all the NVIDIA architectures from A100s to H100s and now the B300s, each of these generations, they're actually going down in floating point precision in terms of what they were.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集说 Salesforce 是 SaaS 股票复苏的最好例子,经典的记录系统论证正在它身上上演,护城河目前完好,智能体使用软件更多反而驱动其增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            911.121,
+            913.321
+          ],
+          "quote": "Like Salesforce is like the prime example of that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 185,
+          "t": [
+            932.128,
+            937.711
+          ],
+          "quote": "And so partly, it seems like what we're seeing with Salesforce is the classic, the system of record argument is actually playing out.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 189,
+          "t": [
+            945.136,
+            950.42
+          ],
+          "quote": "And if anything, agents will use software a lot more than humans will, and that seems to be driving Salesforce growth.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 191,
+          "t": [
+            964.011,
+            970.417
+          ],
+          "quote": "Yeah, Salesforce is super interesting because I think they started releasing their own Slack harness, Slack AI harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集类比:像当年新初创公司宁愿选 Stripe 而不是传统信用卡服务商,如今国防科技初创公司也更愿意买能跟上自己速度的新初创公司的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            578.795,
+            584.58
+          ],
+          "quote": "Like Stripe, for example, you could use a legacy credit card vendor, but like it's just like way better to work with Stripe.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "scale",
+      "type": "company",
+      "role": "company",
+      "name": "Scale",
+      "file": "Scale",
+      "primary": false,
+      "how_described": "本集说 YC 在 2016 年投资 Scale 时,卖数据给实验室还算不上一个品类,如今已成大品类。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 280,
+          "t": [
+            1395.92,
+            1400.464
+          ],
+          "quote": "When YC funded scale back in 2016, this was like a tiny little niche thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1401.986,
+            1404.348
+          ],
+          "quote": "Initially, it was basically just scale who was doing and then",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "physical-intelligence",
+      "type": "company",
+      "role": "company",
+      "name": "Physical Intelligence",
+      "file": "Physical Intelligence",
+      "primary": false,
+      "how_described": "本集说所有用 Physical Intelligence 的 Pi 模型部署机器人的 YC 公司都在做微调,没有一家能开箱即用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 344,
+          "t": [
+            1697.592,
+            1705.08
+          ],
+          "quote": "Yeah, my understanding is that all the YC companies that are using physical intelligence as models to deploy robotics, they're all fine-tuning the Py models.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ultra",
+      "type": "company",
+      "role": "company",
+      "name": "Ultra",
+      "file": "Ultra",
+      "primary": false,
+      "how_described": "本集提到 Ultra 从 Pi 模型起步,再用几千小时把东西装进盒子的录像,让机器人真正擅长装盒。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 347,
+          "t": [
+            1715.093,
+            1716.694
+          ],
+          "quote": "You work with this company, Ultra, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "线束 (harness)",
+      "file": "线束",
+      "primary": false,
+      "how_described": "本集说记录系统公司要么被猎食、要么必须变成智能体接入并展开工作的 harness,模型加 harness 才产生输出,下一场 AI harness 战争正在开始。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 191,
+          "t": [
+            964.011,
+            970.417
+          ],
+          "quote": "Yeah, Salesforce is super interesting because I think they started releasing their own Slack harness, Slack AI harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            970.957,
+            974.48
+          ],
+          "quote": "And so I think we're right at the beginning of like the next AI harness wars.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            999.546,
+            1005.253
+          ],
+          "quote": "And if the harness is in there and it's your system of record for how people collaborate,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1030.965,
+            1039.436
+          ],
+          "quote": "Maybe like the data, you know, you lose your moat around the data, the data goes elsewhere, like becomes very trivial to switch, or you kind of have to be a harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1061.673,
+            1064.614
+          ],
+          "quote": "But then they say, well, that's just because it was plugged into the wrong harness.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1064.634,
+            1067.595
+          ],
+          "quote": "So it's like the model plus the harness gets you the output.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1068.016,
+            1073.078
+          ],
+          "quote": "I mean, with a custom harness, they claim Astra got to north of 90% on RKGI 3.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "本集说机器人领域更好的做法是拿到在定制数据上微调训练过的模型,专有数据加专用化训练能让模型在自家场景比前沿模型更强。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 344,
+          "t": [
+            1697.592,
+            1705.08
+          ],
+          "quote": "Yeah, my understanding is that all the YC companies that are using physical intelligence as models to deploy robotics, they're all fine-tuning the Py models.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

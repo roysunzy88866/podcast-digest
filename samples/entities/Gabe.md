@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gabe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Gabe">GA</div><div class="pi"><h1 class="pt">Gabe</h1><div class="byl">精选演讲 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Gabe">GA</div><div class="pi"><h1 class="pt">Gabe</h1><div class="byl">精选演讲 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
@@ -37,25 +37,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|《Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注》]] — 作为主持
+- [[2026-08-13-talks-continual-learning-how-ai-agents-get-bet|《经验差距：让智能体越用越聪明》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Harvey]] · [[OpenAI]] · [[智能体]] · [[工作流]] · [[评估]] · [[RL 环境]] · [[推理数据]] · [[后训练]] · [[按小时计费]] · [[GPT-4]]
+[[Harvey]] · [[智能体]] · [[评估]] · [[后训练]] · [[OpenAI]] · [[Arjun Karanam]] · [[工作流]] · [[轨迹数据]] · [[RL 环境]] · [[持续学习]]
 
-## ④ 也在聊「智能体」的人
-
-<div class="pd-peers">
-
-[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Harvey":11,"OpenAI":120,"智能体":264,"工作流":8,"评估":2,"RL 环境":5,"推理数据":1,"后训练":24,"按小时计费":1,"GPT-4":2}</script>
+<script type="application/json" class="pd-epn">{"Harvey":12,"智能体":267,"评估":2,"后训练":25,"OpenAI":120,"Arjun Karanam":1,"工作流":8,"轨迹数据":2,"RL 环境":6,"持续学习":9}</script>
 
 <script>
 (function(){

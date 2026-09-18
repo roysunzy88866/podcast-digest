@@ -1,0 +1,2082 @@
+[
+ {
+  "seg": 0,
+  "start": 0.091,
+  "end": 1.511,
+  "speaker": "Unknown",
+  "en": "Okay, last talk to bring us home.",
+  "zh": "好，最后一场演讲来为我们收尾。"
+ },
+ {
+  "seg": 1,
+  "start": 1.551,
+  "end": 4.232,
+  "speaker": "Unknown",
+  "en": "We have Arjun and Ronak, co-founders of Trajectory.",
+  "zh": "我们有 Arjun 和 Ronak,Trajectory 的联合创始人。"
+ },
+ {
+  "seg": 2,
+  "start": 4.632,
+  "end": 10.254,
+  "speaker": "Unknown",
+  "en": "They're doing a bunch of interesting research around what I think is one of the hotter topics, continual learning.",
+  "zh": "他们正在围绕我认为是最热门的话题之一——持续学习——做一系列有趣的研究。"
+ },
+ {
+  "seg": 3,
+  "start": 10.434,
+  "end": 12.315,
+  "speaker": "Unknown",
+  "en": "Please welcome Arjun to the stage.",
+  "zh": "请欢迎 Arjun 登上舞台。"
+ },
+ {
+  "seg": 4,
+  "start": 12.795,
+  "end": 13.015,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 5,
+  "start": 13.355,
+  "end": 13.795,
+  "speaker": "Unknown",
+  "en": "What's up?",
+  "zh": "大家好？"
+ },
+ {
+  "seg": 6,
+  "start": 14.015,
+  "end": 14.876,
+  "speaker": "Unknown",
+  "en": "How's it going, everyone?",
+  "zh": "大家近况如何？"
+ },
+ {
+  "seg": 7,
+  "start": 15.596,
+  "end": 16.456,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 8,
+  "start": 17.036,
+  "end": 17.877,
+  "speaker": "Unknown",
+  "en": "I'm really excited.",
+  "zh": "我真的很兴奋。"
+ },
+ {
+  "seg": 9,
+  "start": 18.357,
+  "end": 21.818,
+  "speaker": "Unknown",
+  "en": "I know I'm close to the last one, so hopefully there's like remaining attention span.",
+  "zh": "我知道我接近最后一场了，所以希望大家还剩下一些注意力。"
+ },
+ {
+  "seg": 10,
+  "start": 23.118,
+  "end": 23.478,
+  "speaker": "Unknown",
+  "en": "I'm here.",
+  "zh": "我在这儿。"
+ },
+ {
+  "seg": 11,
+  "start": 23.839,
+  "end": 25.739,
+  "speaker": "Unknown",
+  "en": "Ronak is also back there, so we're together.",
+  "zh": "Ronak 也在后面，所以我们是在一起的。"
+ },
+ {
+  "seg": 12,
+  "start": 26.859,
+  "end": 28.34,
+  "speaker": "Unknown",
+  "en": "But let's get started.",
+  "zh": "那我们开始吧。"
+ },
+ {
+  "seg": 13,
+  "start": 30.27,
+  "end": 34.131,
+  "speaker": "Unknown",
+  "en": "We're trajectory, and we're building the platform for continual learning.",
+  "zh": "我们是 Trajectory,我们正在构建持续学习的平台。"
+ },
+ {
+  "seg": 14,
+  "start": 35.691,
+  "end": 36.111,
+  "speaker": "Unknown",
+  "en": "Who are we?",
+  "zh": "我们是谁？"
+ },
+ {
+  "seg": 15,
+  "start": 36.331,
+  "end": 40.132,
+  "speaker": "Unknown",
+  "en": "I think we're working on a really, really cool mission, and that's the most fun part.",
+  "zh": "我觉得我们正在做一件非常、非常酷的使命，这是最有趣的部分。"
+ },
+ {
+  "seg": 16,
+  "start": 40.152,
+  "end": 50.334,
+  "speaker": "Unknown",
+  "en": "The second most fun part is I get to do this with my two best friends, Renek over here, who worked at Windsurf and trains V1 before this, and Michael, who worked on really cool robotic stuff at DeepMind.",
+  "zh": "第二有趣的部分是，我可以和我最好的两个朋友一起做这件事，Renek 在这里，他之前在 Windsurf 和 trains V1 工作过，还有 Michael,他在 DeepMind 做过非常酷的机器人方面的工作。"
+ },
+ {
+  "seg": 17,
+  "start": 51.015,
+  "end": 57.416,
+  "speaker": "Unknown",
+  "en": "And what I wanted to start off with was the worldview that we have and how that shapes",
+  "zh": "我想以我们拥有的世界观作为开场，以及它如何塑造"
+ },
+ {
+  "seg": 18,
+  "start": 58.442,
+  "end": 60.423,
+  "speaker": "Unknown",
+  "en": "Why we think this problem is important.",
+  "zh": "我们为什么认为这个问题重要。"
+ },
+ {
+  "seg": 19,
+  "start": 61.103,
+  "end": 67.226,
+  "speaker": "Unknown",
+  "en": "And so the worldview that we have is that, and it's not a hot take, we are living in an incredible time in human history here.",
+  "zh": "我们的世界观是，这不是什么惊人之语，我们正生活在人类历史上一个不可思议的时代。"
+ },
+ {
+  "seg": 20,
+  "start": 67.826,
+  "end": 72.468,
+  "speaker": "Unknown",
+  "en": "Every single week, it seems like another model is coming out that is leapfrogging the last one.",
+  "zh": "看起来每一个星期，都有另一个模型问世，超越上一个。"
+ },
+ {
+  "seg": 21,
+  "start": 73.568,
+  "end": 76.17,
+  "speaker": "Unknown",
+  "en": "And it's undeniable that models are getting better and better.",
+  "zh": "模型正变得越来越好，这一点无可否认。"
+ },
+ {
+  "seg": 22,
+  "start": 76.851,
+  "end": 82.676,
+  "speaker": "Unknown",
+  "en": "But we think that they're getting better on one axis, and that is IQ.",
+  "zh": "但我们认为它们是在一个轴上变得更好，那就是智商。"
+ },
+ {
+  "seg": 23,
+  "start": 83.077,
+  "end": 88.182,
+  "speaker": "Unknown",
+  "en": "These models are smarter and smarter, but always feels like when you're talking to them, it's their first thing on the job.",
+  "zh": "这些模型越来越聪明，但当你和它们交谈时，总感觉像是它们上班的第一天。"
+ },
+ {
+  "seg": 24,
+  "start": 88.782,
+  "end": 96.149,
+  "speaker": "Unknown",
+  "en": "And so if you take this analogy of a Terrence Tao in your pocket, that's great, but Terrence Tao day one at an accounting firm,",
+  "zh": "所以如果你用「口袋里的 Terrence Tao」这个类比，那很棒，但 Terrence Tao 在一家会计公司上班的第一天，"
+ },
+ {
+  "seg": 25,
+  "start": 96.838,
+  "end": 103.603,
+  "speaker": "Unknown",
+  "en": "It's probably not the best accountant there, but give him a few years, or honestly maybe even like a few days, he'd probably be really good.",
+  "zh": "他可能不是那里最好的会计，但给他几年时间，或者说实话也许只要几天，他可能会变得非常出色。"
+ },
+ {
+  "seg": 26,
+  "start": 104.804,
+  "end": 112.389,
+  "speaker": "Unknown",
+  "en": "And so we have this orthogonal axis of experience that is much more important than we think in conjunction with IQ.",
+  "zh": "所以我们有这个与智商正交的经验轴，它的重要性远超我们的想象。"
+ },
+ {
+  "seg": 27,
+  "start": 112.769,
+  "end": 116.672,
+  "speaker": "Unknown",
+  "en": "And that's what we're calling the experience gap, and that is what we want to close as a company.",
+  "zh": "我们把它称为经验差距，而这就是我们作为一家公司想要弥合的东西。"
+ },
+ {
+  "seg": 28,
+  "start": 118.794,
+  "end": 120.535,
+  "speaker": "Unknown",
+  "en": "And then, but the question is like how do you",
+  "zh": "那么，但问题是，你要如何"
+ },
+ {
+  "seg": 29,
+  "start": 121.284,
+  "end": 121.844,
+  "speaker": "Unknown",
+  "en": "How do you close that?",
+  "zh": "你要如何弥合它？"
+ },
+ {
+  "seg": 30,
+  "start": 121.864,
+  "end": 123.145,
+  "speaker": "Unknown",
+  "en": "Where does experience come from?",
+  "zh": "经验从哪里来？"
+ },
+ {
+  "seg": 31,
+  "start": 123.605,
+  "end": 125.766,
+  "speaker": "Unknown",
+  "en": "Well, it's already out there right now.",
+  "zh": "嗯，它现在就已经存在了。"
+ },
+ {
+  "seg": 32,
+  "start": 125.886,
+  "end": 131.769,
+  "speaker": "Unknown",
+  "en": "There's so many, 100 trillion is a number, but so many tokens out there that are being generated by these agents.",
+  "zh": "有非常多——100 万亿是一个数字——有如此多的 token 正由这些智能体生成。"
+ },
+ {
+  "seg": 33,
+  "start": 132.289,
+  "end": 135.471,
+  "speaker": "Unknown",
+  "en": "You view them or sometimes you don't even view them and they get thrown away.",
+  "zh": "你会查看它们，或者有时你甚至不查看它们，它们就被丢弃了。"
+ },
+ {
+  "seg": 34,
+  "start": 135.951,
+  "end": 137.872,
+  "speaker": "Unknown",
+  "en": "But this is all real work that they're doing.",
+  "zh": "但这些都是它们正在做的真实工作。"
+ },
+ {
+  "seg": 35,
+  "start": 138.593,
+  "end": 141.214,
+  "speaker": "Unknown",
+  "en": "And then people are acting upon them and then it's being thrown away.",
+  "zh": "然后人们对其采取行动，然后它就被丢弃了。"
+ },
+ {
+  "seg": 36,
+  "start": 141.654,
+  "end": 149.238,
+  "speaker": "Unknown",
+  "en": "And so our take as a company, as Gabe mentioned, like our opinionated take, is that this is the signal that we should be learning from.",
+  "zh": "所以作为一家公司，正如 Gabe 提到的，我们旗帜鲜明的观点是：这才是我们应该学习的信号。"
+ },
+ {
+  "seg": 37,
+  "start": 150.274,
+  "end": 151.896,
+  "speaker": "Unknown",
+  "en": "And this is also how humans get better.",
+  "zh": "这也是人类变好的方式。"
+ },
+ {
+  "seg": 38,
+  "start": 152.416,
+  "end": 157.461,
+  "speaker": "Unknown",
+  "en": "And in classic AI fashion, like if humans do it, it's probably a good way to mental model off of.",
+  "zh": "而且按照经典的人工智能套路，如果人类是这么做的，那它可能就是一个很好的心智模型参照。"
+ },
+ {
+  "seg": 39,
+  "start": 158.242,
+  "end": 161.685,
+  "speaker": "Unknown",
+  "en": "And so today's agents, they're still slow, expensive, aeroplane over time.",
+  "zh": "所以今天的智能体，它们仍然缓慢、昂贵，aeroplane(随时间推移)。"
+ },
+ {
+  "seg": 40,
+  "start": 161.945,
+  "end": 163.346,
+  "speaker": "Unknown",
+  "en": "You implement them, they probably don't get better.",
+  "zh": "你部署了它们，它们可能不会变得更好。"
+ },
+ {
+  "seg": 41,
+  "start": 164.24,
+  "end": 171.821,
+  "speaker": "Unknown",
+  "en": "We want to imagine what learning agents look like, where as they are used by people, they get better and better over time.",
+  "zh": "我们想想象一下会学习的智能体是什么样子——随着被人们使用，它们随着时间变得越来越好。"
+ },
+ {
+  "seg": 42,
+  "start": 173.042,
+  "end": 174.342,
+  "speaker": "Unknown",
+  "en": "And tangibly, this has two good benefits.",
+  "zh": "具体来说，这有两个好处。"
+ },
+ {
+  "seg": 43,
+  "start": 174.802,
+  "end": 177.302,
+  "speaker": "Unknown",
+  "en": "Right away, it gets you much faster, better, cheaper models.",
+  "zh": "立竿见影的是，它能让你得到更快、更好、更便宜的模型。"
+ },
+ {
+  "seg": 44,
+  "start": 178.162,
+  "end": 182.683,
+  "speaker": "Unknown",
+  "en": "But more excitingly, it gets you to this goal of systems that compound with use.",
+  "zh": "但更令人兴奋的是，它能让你达到这个目标：随着使用而复利增长的系统。"
+ },
+ {
+  "seg": 45,
+  "start": 183.563,
+  "end": 192.325,
+  "speaker": "Unknown",
+  "en": "And so I want to start off by talking about how we're approaching this problem, and then some interesting stuff for you guys at the end.",
+  "zh": "所以我想先谈谈我们是如何着手解决这个问题的，然后在最后给你们一些有趣的东西。"
+ },
+ {
+  "seg": 46,
+  "start": 193.627,
+  "end": 199.61,
+  "speaker": "Unknown",
+  "en": "And so where it starts off, and this kind of dovetails off of what Harrison was talking about before, is it starts off with traceability.",
+  "zh": "一切的起点——这也和之前 Harrison 讲的内容相衔接——是可追溯性。"
+ },
+ {
+  "seg": 47,
+  "start": 199.851,
+  "end": 204.293,
+  "speaker": "Unknown",
+  "en": "We need to first capture these interactions, capture this experience that's being thrown away.",
+  "zh": "我们需要首先捕捉这些交互，捕捉这些正在被丢弃的经验。"
+ },
+ {
+  "seg": 48,
+  "start": 204.873,
+  "end": 205.814,
+  "speaker": "Unknown",
+  "en": "So that's step number one.",
+  "zh": "所以这是第一步。"
+ },
+ {
+  "seg": 49,
+  "start": 207.515,
+  "end": 219.582,
+  "speaker": "Unknown",
+  "en": "And then step number two, and this is where we start getting into our research, the way we view the company we're building is we are building a product to allow for continual learning, but we're doing cutting-edge research under every single one of them to make this possible.",
+  "zh": "然后第二步，这是我们开始进入我们研究的地方——我们看待所构建公司的方式是，我们正在构建一个支持持续学习的产品，但在每一个环节之下，我们都在做尖端研究来实现这一点。"
+ },
+ {
+  "seg": 50,
+  "start": 220.362,
+  "end": 220.843,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 51,
+  "start": 221.663,
+  "end": 226.845,
+  "speaker": "Unknown",
+  "en": "You have all these interactions, and the next thing we're building is this idea of a model spec.",
+  "zh": "你有所有这些交互，我们接下来要构建的就是这个「模型规范」的概念。"
+ },
+ {
+  "seg": 52,
+  "start": 227.345,
+  "end": 234.188,
+  "speaker": "Unknown",
+  "en": "This idea that you need to have a way to define what do I want my agent to do and have the agent learn against that.",
+  "zh": "这个想法是，你需要有一种方式来定义我想让我的智能体做什么，并让智能体据此学习。"
+ },
+ {
+  "seg": 53,
+  "start": 234.508,
+  "end": 243.732,
+  "speaker": "Unknown",
+  "en": "So we're doing really cool research here on how to extract user interactions, turn that into reward, extract traces, and turn that into exact specs of what you want your agent to do.",
+  "zh": "所以我们在这里做很酷的研究，关于如何提取用户交互，将其转化为奖励，提取轨迹，并将其转化为你希望智能体做什么的精确规范。"
+ },
+ {
+  "seg": 54,
+  "start": 244.893,
+  "end": 245.293,
+  "speaker": "Unknown",
+  "en": "Okay, cool.",
+  "zh": "好，不错。"
+ },
+ {
+  "seg": 55,
+  "start": 245.751,
+  "end": 246.991,
+  "speaker": "Unknown",
+  "en": "You have what you want your agent to do.",
+  "zh": "你有了想让智能体做的事。"
+ },
+ {
+  "seg": 56,
+  "start": 247.531,
+  "end": 248.452,
+  "speaker": "Unknown",
+  "en": "What do you do with that?",
+  "zh": "那你拿它做什么？"
+ },
+ {
+  "seg": 57,
+  "start": 248.512,
+  "end": 249.472,
+  "speaker": "Unknown",
+  "en": "Well, there's two surfaces.",
+  "zh": "嗯，有两个层面。"
+ },
+ {
+  "seg": 58,
+  "start": 250.072,
+  "end": 251.292,
+  "speaker": "Unknown",
+  "en": "One is the models, right?",
+  "zh": "一是模型，对吧？"
+ },
+ {
+  "seg": 59,
+  "start": 251.572,
+  "end": 255.193,
+  "speaker": "Unknown",
+  "en": "You want your models to learn from actual interactions here.",
+  "zh": "你想让你的模型从真实的交互中学习。"
+ },
+ {
+  "seg": 60,
+  "start": 255.833,
+  "end": 268.897,
+  "speaker": "Unknown",
+  "en": "And so we're doing really cool research on algorithms like SDPO and things along those lines where we're using RL to take these full long traces and improve models over time.",
+  "zh": "所以我们正在做很酷的研究，比如 SDPO 这类算法及类似方向，我们用 RL 来利用这些完整的长轨迹，随时间不断改进模型。"
+ },
+ {
+  "seg": 61,
+  "start": 269.617,
+  "end": 270.657,
+  "speaker": "Unknown",
+  "en": "But models are not the only thing.",
+  "zh": "但模型不是唯一的层面。"
+ },
+ {
+  "seg": 62,
+  "start": 270.917,
+  "end": 271.877,
+  "speaker": "Unknown",
+  "en": "You have harnesses as well.",
+  "zh": "你还有 harness。"
+ },
+ {
+  "seg": 63,
+  "start": 272.677,
+  "end": 274.398,
+  "speaker": "Unknown",
+  "en": "And we're doing a lot of really cool research on",
+  "zh": "我们正在做很多很酷的研究，关于"
+ },
+ {
+  "seg": 64,
+  "start": 275.418,
+  "end": 280.421,
+  "speaker": "Unknown",
+  "en": "When you have good feedback from people, does that go to a harness or does that go to a model?",
+  "zh": "当你从用户那里得到好的反馈时，它应该给 harness 还是给模型？"
+ },
+ {
+  "seg": 65,
+  "start": 280.681,
+  "end": 287.385,
+  "speaker": "Unknown",
+  "en": "An example here is if it's like a fact, like this person, this company has been delisted, right?",
+  "zh": "这里的一个例子是，如果它是一个事实，比如这家公司已经退市了，对吧？"
+ },
+ {
+  "seg": 66,
+  "start": 287.565,
+  "end": 289.507,
+  "speaker": "Unknown",
+  "en": "You probably don't want to train that knowledge into the model.",
+  "zh": "你大概不会想把这类知识训练进模型里。"
+ },
+ {
+  "seg": 67,
+  "start": 289.767,
+  "end": 291.548,
+  "speaker": "Unknown",
+  "en": "There's probably context that should be available to the harness.",
+  "zh": "它大概是应该提供给 harness 的上下文。"
+ },
+ {
+  "seg": 68,
+  "start": 292.488,
+  "end": 310.838,
+  "speaker": "Unknown",
+  "en": "And so that is kind of how we're splitting things, and that is the product that we're building, allowing you to go from real interactions all the way to specs of what you want your agent to get better at to better models and then better harnesses, and then being able to deploy those models right away and then using your product.",
+  "zh": "所以这就是我们大致的拆分方式，也就是我们正在构建的产品，让你能够从真实交互出发，一直到你希望智能体在哪些方面变好的规范，到更好的模型，再到更好的 harness，然后能够立即部署这些模型，并用于你的产品。"
+ },
+ {
+  "seg": 69,
+  "start": 311.992,
+  "end": 314.013,
+  "speaker": "Unknown",
+  "en": "And so that's the world we want to get to.",
+  "zh": "所以这就是我们想抵达的世界。"
+ },
+ {
+  "seg": 70,
+  "start": 314.914,
+  "end": 327.16,
+  "speaker": "Unknown",
+  "en": "If you have built agents, which I'm sure most of you guys have, you probably know that there are so many things that go wrong with every single part of these and how every single one of these is an unsolved problem.",
+  "zh": "如果你们构建过智能体——我相信在座大多数人都有——你们可能知道，这些东西的每一个部分都会出很多问题，每一个问题都是未解之谜。"
+ },
+ {
+  "seg": 71,
+  "start": 327.641,
+  "end": 336.566,
+  "speaker": "Unknown",
+  "en": "And so the way I wanted to frame the rest of this is I'm going to imagine that I am like straight from Aladdin and I have like four wishes.",
+  "zh": "所以我想这样来组织剩下的内容：我要想象自己就像从《阿拉丁》里走出来一样，我有四个愿望。"
+ },
+ {
+  "seg": 72,
+  "start": 337.586,
+  "end": 340.508,
+  "speaker": "Unknown",
+  "en": "And what are those wishes that I would ask to like make the agent ecosystem",
+  "zh": "那么我会许哪些愿望来让智能体生态系统……"
+ },
+ {
+  "seg": 73,
+  "start": 341.828,
+  "end": 353.212,
+  "speaker": "Unknown",
+  "en": "And so we have agents today, we have this gap, and there's a level where agents should get to, and after that we can really see the exponential effects of continual learning.",
+  "zh": "所以我们今天有了智能体，我们存在这个差距，智能体应该达到某个水平，在那之后我们才能真正看到持续学习的指数级效应。"
+ },
+ {
+  "seg": 74,
+  "start": 353.952,
+  "end": 355.453,
+  "speaker": "Unknown",
+  "en": "And what are those in?",
+  "zh": "那些是什么？"
+ },
+ {
+  "seg": 75,
+  "start": 356.033,
+  "end": 358.674,
+  "speaker": "Unknown",
+  "en": "I'll walk through them step by step, but they're the same four categories I talked about.",
+  "zh": "我会逐步过一遍，它们就是我之前讲的同样四个类别。"
+ },
+ {
+  "seg": 76,
+  "start": 358.954,
+  "end": 361.535,
+  "speaker": "Unknown",
+  "en": "What we would like to see on the traceability side.",
+  "zh": "我们希望在可追溯性方面看到什么。"
+ },
+ {
+  "seg": 77,
+  "start": 362.635,
+  "end": 367.763,
+  "speaker": "Unknown",
+  "en": "What we'd like to see on the eval side, what we'd like to see on the harness side, and what we'd like to see on the model side.",
+  "zh": "我们希望在 eval 方面看到什么，在 harness 方面看到什么，以及在模型方面看到什么。"
+ },
+ {
+  "seg": 78,
+  "start": 368.304,
+  "end": 369.405,
+  "speaker": "Unknown",
+  "en": "So let's start with wish number one.",
+  "zh": "那我们从愿望一开始。"
+ },
+ {
+  "seg": 79,
+  "start": 370.627,
+  "end": 371.969,
+  "speaker": "Unknown",
+  "en": "And how can companies get there faster?",
+  "zh": "以及公司如何更快地到达那里？"
+ },
+ {
+  "seg": 80,
+  "start": 371.989,
+  "end": 373.551,
+  "speaker": "Unknown",
+  "en": "Traceability.",
+  "zh": "可追溯性。"
+ },
+ {
+  "seg": 81,
+  "start": 374.652,
+  "end": 376.693,
+  "speaker": "Unknown",
+  "en": "So two sub-wishes here.",
+  "zh": "这里有两个子愿望。"
+ },
+ {
+  "seg": 82,
+  "start": 377.153,
+  "end": 383.276,
+  "speaker": "Unknown",
+  "en": "Number one is around tracing the entire tree of what happens, including sub-agents.",
+  "zh": "第一个是关于追踪整个发生的树，包括子智能体。"
+ },
+ {
+  "seg": 83,
+  "start": 383.296,
+  "end": 394.161,
+  "speaker": "Unknown",
+  "en": "What a lot of companies do is they trace the main action that is happening, but they throw away tool calls or sub-agents that are made, and that makes it very hard to learn from the whole thing that you've done.",
+  "zh": "很多公司做的是追踪正在发生的主操作，但他们丢弃了工具调用或产生的子智能体，这让你很难从整个已完成的事情中学习。"
+ },
+ {
+  "seg": 84,
+  "start": 394.441,
+  "end": 395.222,
+  "speaker": "Unknown",
+  "en": "So that's wish number one.",
+  "zh": "所以那是愿望一。"
+ },
+ {
+  "seg": 85,
+  "start": 395.842,
+  "end": 399.664,
+  "speaker": "Unknown",
+  "en": "Sub-wish number two is probably the most important here, and that",
+  "zh": "子愿望二可能是这里最重要的，那就是——"
+ },
+ {
+  "seg": 86,
+  "start": 400.564,
+  "end": 411.535,
+  "speaker": "Unknown",
+  "en": "You should build your product around how you can both capture this interaction data, but also elicit the right amount of feedback so that you can then capture it.",
+  "zh": "你应该围绕如何既能捕获这些交互数据，又能引出恰到好处的反馈量来构建你的产品，这样你才能把它捕获下来。"
+ },
+ {
+  "seg": 87,
+  "start": 412.926,
+  "end": 420.29,
+  "speaker": "Unknown",
+  "en": "And a really interesting thing here is, I think the level one way of thinking about this is, okay, let's have like a thumbs up, thumbs down, and like, let's capture that.",
+  "zh": "这里有一个很有意思的点，我认为第一层级的思考方式是：好，我们来搞个点赞、点踩之类的，把它捕获下来。"
+ },
+ {
+  "seg": 88,
+  "start": 420.69,
+  "end": 424.512,
+  "speaker": "Unknown",
+  "en": "And that sounds amazing in theory, but it's incredibly noisy.",
+  "zh": "这在理论上听起来很棒，但实际上噪音极大。"
+ },
+ {
+  "seg": 89,
+  "start": 424.853,
+  "end": 429.375,
+  "speaker": "Unknown",
+  "en": "And if you've used any coding agent, you know you kind of just like accept everything that the agent does.",
+  "zh": "如果你用过任何编程智能体，你知道你基本上就是接受智能体做的一切。"
+ },
+ {
+  "seg": 90,
+  "start": 429.875,
+  "end": 435.078,
+  "speaker": "Unknown",
+  "en": "And it's only like five commits later that you're like, oh crap, like this broke everything, let me go and undo that.",
+  "zh": "往往要过了五个提交之后你才说，哦糟了，这把一切都搞坏了，让我去撤销。"
+ },
+ {
+  "seg": 91,
+  "start": 435.438,
+  "end": 441.402,
+  "speaker": "Unknown",
+  "en": "And so it's the corrective behavior, the like the edits, the undos and the retries that both need to be",
+  "zh": "所以是纠正性行为，比如编辑、撤销和重试，既需要——"
+ },
+ {
+  "seg": 92,
+  "start": 442.543,
+  "end": 444.964,
+  "speaker": "Unknown",
+  "en": "Like elicited from the user, but also captured.",
+  "zh": "既从用户那里引出，也需要被捕获。"
+ },
+ {
+  "seg": 93,
+  "start": 445.084,
+  "end": 447.945,
+  "speaker": "Unknown",
+  "en": "So that's my wish on traceability.",
+  "zh": "所以这就是我在可追溯性上的愿望。"
+ },
+ {
+  "seg": 94,
+  "start": 449.465,
+  "end": 451.466,
+  "speaker": "Unknown",
+  "en": "The second wish is around evals.",
+  "zh": "第二个愿望是关于 eval。"
+ },
+ {
+  "seg": 95,
+  "start": 452.006,
+  "end": 465.391,
+  "speaker": "Unknown",
+  "en": "And the mental model to use here is your, the product that your user uses should be as similar as, as close to what the eval is done in, in ProWise.",
+  "zh": "这里要用的心智模型是：你的用户使用的产品，应该与 eval 进行的环境尽可能相似、尽可能接近。"
+ },
+ {
+  "seg": 96,
+  "start": 465.996,
+  "end": 468.417,
+  "speaker": "Unknown",
+  "en": "should be as close to where the training is done in.",
+  "zh": "应该与训练进行的环境尽可能接近。"
+ },
+ {
+  "seg": 97,
+  "start": 469.317,
+  "end": 471.077,
+  "speaker": "Unknown",
+  "en": "In an ideal world, these are all the same.",
+  "zh": "在理想世界里，这些全部是同一个东西。"
+ },
+ {
+  "seg": 98,
+  "start": 471.117,
+  "end": 472.398,
+  "speaker": "Unknown",
+  "en": "There's no difference between these.",
+  "zh": "它们之间没有任何区别。"
+ },
+ {
+  "seg": 99,
+  "start": 472.838,
+  "end": 484.34,
+  "speaker": "Unknown",
+  "en": "And so this means that evals are drawn from traffic, how people are actually using your product, both how they're using it now and the things that they're requesting on the frontier that might not be possible, all super helpful.",
+  "zh": "所以这意味着 eval 来自流量，来自人们实际使用你产品的方式，既包括他们现在怎么用，也包括他们在前沿上提出的可能尚不可行的需求，这些都超有用。"
+ },
+ {
+  "seg": 100,
+  "start": 485.261,
+  "end": 488.181,
+  "speaker": "Unknown",
+  "en": "Second is making every task rolloutable.",
+  "zh": "第二是让每个任务都可以回放。"
+ },
+ {
+  "seg": 101,
+  "start": 488.502,
+  "end": 494.523,
+  "speaker": "Unknown",
+  "en": "This is a pretty big infra challenge, but it's this idea that, hey, if a user has done one thing,",
+  "zh": "这是一个相当大的基础设施挑战，但它的想法是，嘿，如果用户做过一件事，"
+ },
+ {
+  "seg": 102,
+  "start": 495.079,
+  "end": 498.2,
+  "speaker": "Unknown",
+  "en": "Can I somehow replay what the user has done?",
+  "zh": "我能不能以某种方式回放用户所做的事情？"
+ },
+ {
+  "seg": 103,
+  "start": 498.78,
+  "end": 503.021,
+  "speaker": "Unknown",
+  "en": "And that is an incredibly helpful boon to moving forward in this agentic era.",
+  "zh": "而这对在这个智能体时代向前推进有着难以置信的帮助。"
+ },
+ {
+  "seg": 104,
+  "start": 503.442,
+  "end": 506.583,
+  "speaker": "Unknown",
+  "en": "And then lastly, this goes with number one, grading through the real harness.",
+  "zh": "然后最后，这个和第一条相关，通过真实 harness 来评分。"
+ },
+ {
+  "seg": 105,
+  "start": 507.343,
+  "end": 511.384,
+  "speaker": "Unknown",
+  "en": "Not making a variation of the harness, but grading the real harnesses that people use in production.",
+  "zh": "不是做一个 harness 的变体，而是对人们在生产环境中使用的真实 harness 进行评分。"
+ },
+ {
+  "seg": 106,
+  "start": 512.364,
+  "end": 514.205,
+  "speaker": "Unknown",
+  "en": "So that is wish number two.",
+  "zh": "这就是第二个愿望。"
+ },
+ {
+  "seg": 107,
+  "start": 515.732,
+  "end": 519.135,
+  "speaker": "Unknown",
+  "en": "Wish number three, getting into the harness, pretty important.",
+  "zh": "愿望三，进入 harness，相当重要。"
+ },
+ {
+  "seg": 108,
+  "start": 520.036,
+  "end": 538.272,
+  "speaker": "Unknown",
+  "en": "Number one is, and I think the mental model to use here is, I think a lot of products have built their harnesses around models that existed a year or a year and a half ago, where the primary function of the harness was to prevent the agent from doing bad things.",
+  "zh": "第一是，我认为这里要用到的思维模型是，我认为很多产品的 harness 是围绕一年或一年半以前的模型构建的，那时 harness 的主要功能是防止智能体做坏事。"
+ },
+ {
+  "seg": 109,
+  "start": 539.092,
+  "end": 544.234,
+  "speaker": "Unknown",
+  "en": "Which was really good when agents would randomly break or have misformatted outputs.",
+  "zh": "在智能体会随机出错或输出格式错乱的时候，这确实非常有用。"
+ },
+ {
+  "seg": 110,
+  "start": 544.694,
+  "end": 547.135,
+  "speaker": "Unknown",
+  "en": "But now we're very much in a let the agents cook world.",
+  "zh": "但现在我们非常处于一个「让智能体放开干」的世界。"
+ },
+ {
+  "seg": 111,
+  "start": 548.236,
+  "end": 565.423,
+  "speaker": "Unknown",
+  "en": "And so I think I would view building the harness as not enforcing specific flows that need to be done, but more what are the primitives that your product has, whether that's search tools or private information, and then viewing the agent as orchestrating those primitives and then letting it do that.",
+  "zh": "所以我认为应该把构建 harness 视为不是强制执行需要完成的特定流程，而是更多地去想你的产品有哪些原语，无论是搜索工具还是私有信息，然后把智能体视为编排这些原语的角色，然后放手让它去做。"
+ },
+ {
+  "seg": 112,
+  "start": 566.373,
+  "end": 567.093,
+  "speaker": "Unknown",
+  "en": "So that's SubWish 1.",
+  "zh": "这是子愿望一。"
+ },
+ {
+  "seg": 113,
+  "start": 567.834,
+  "end": 573.617,
+  "speaker": "Unknown",
+  "en": "SubWish 2, and this is how we're building our product as well, is making the agent interface as close to the user interface as possible.",
+  "zh": "子愿望二，这也是我们构建自己产品的方式，就是让智能体接口尽可能接近用户界面。"
+ },
+ {
+  "seg": 114,
+  "start": 574.378,
+  "end": 580.842,
+  "speaker": "Unknown",
+  "en": "In an ideal world, every single thing that I can do on your UI, your agent can do via a tool call as well.",
+  "zh": "在理想世界里，我能在你的 UI 上做的每一件事，你的智能体也能通过一次工具调用做到。"
+ },
+ {
+  "seg": 115,
+  "start": 581.682,
+  "end": 585.645,
+  "speaker": "Unknown",
+  "en": "I think that is a world that makes training and continual learning so, so much easier.",
+  "zh": "我认为那样的世界会让训练和持续学习变得非常、非常容易。"
+ },
+ {
+  "seg": 116,
+  "start": 586.565,
+  "end": 590.689,
+  "speaker": "Unknown",
+  "en": "And then lastly, this is a small one, making tool responses informative.",
+  "zh": "然后最后，这是一个小的点，让工具响应具有信息量。"
+ },
+ {
+  "seg": 117,
+  "start": 590.77,
+  "end": 593.993,
+  "speaker": "Unknown",
+  "en": "I think it's easy to be like, okay, I just want to know the state.",
+  "zh": "我觉得很容易就这么想，好，我只是想知道状态。"
+ },
+ {
+  "seg": 118,
+  "start": 594.073,
+  "end": 595.354,
+  "speaker": "Unknown",
+  "en": "Let's say I'm calling a search tool.",
+  "zh": "比如说我在调用一个搜索工具。"
+ },
+ {
+  "seg": 119,
+  "start": 595.935,
+  "end": 596.595,
+  "speaker": "Unknown",
+  "en": "I want to know the state.",
+  "zh": "我想知道状态。"
+ },
+ {
+  "seg": 120,
+  "start": 596.615,
+  "end": 597.376,
+  "speaker": "Unknown",
+  "en": "I want to see if it worked.",
+  "zh": "我想看看它是否成功了。"
+ },
+ {
+  "seg": 121,
+  "start": 598.217,
+  "end": 601.36,
+  "speaker": "Unknown",
+  "en": "And if it's writing to a DB or something, it just writes to it.",
+  "zh": "而如果它在写一个数据库或什么东西，它就直接写进去。"
+ },
+ {
+  "seg": 122,
+  "start": 601.781,
+  "end": 606.806,
+  "speaker": "Unknown",
+  "en": "And what we see often is the response from that tool call will be done, finished.",
+  "zh": "而我们经常看到的是，那次工具调用的响应会是「完成、结束」。"
+ },
+ {
+  "seg": 123,
+  "start": 608.206,
+  "end": 612.411,
+  "speaker": "Unknown",
+  "en": "That sounds good in theory, but from an agent's perspective, it's incredibly confusing.",
+  "zh": "这在理论上听起来不错，但从智能体的角度来看，这非常令人困惑。"
+ },
+ {
+  "seg": 124,
+  "start": 612.871,
+  "end": 616.936,
+  "speaker": "Unknown",
+  "en": "And if you're trying to train or learn off of that, there's no signal to learn off of.",
+  "zh": "而且如果你想据此进行训练或学习，就没有可学习的信号。"
+ },
+ {
+  "seg": 125,
+  "start": 616.956,
+  "end": 618.317,
+  "speaker": "Unknown",
+  "en": "You have no idea what actually was written.",
+  "zh": "你完全不知道实际写入了什么。"
+ },
+ {
+  "seg": 126,
+  "start": 618.337,
+  "end": 619.919,
+  "speaker": "Unknown",
+  "en": "You have no idea what actually was read.",
+  "zh": "你完全不知道实际读取了什么。"
+ },
+ {
+  "seg": 127,
+  "start": 620.039,
+  "end": 624.825,
+  "speaker": "Unknown",
+  "en": "And so that's the last sub-wish under the harness, is to make your tool responses really informative.",
+  "zh": "所以这就是 harness 下最后一个子愿望，就是让你的工具响应真正具有信息量。"
+ },
+ {
+  "seg": 128,
+  "start": 625.773,
+  "end": 626.554,
+  "speaker": "Unknown",
+  "en": "So that's wish number three.",
+  "zh": "这就是第三个愿望。"
+ },
+ {
+  "seg": 129,
+  "start": 626.995,
+  "end": 629.679,
+  "speaker": "Unknown",
+  "en": "I think like canonically I only get three wishes, but imagine I have four.",
+  "zh": "我想按惯例我只能许三个愿望，但想象一下我有四个。"
+ },
+ {
+  "seg": 130,
+  "start": 631.802,
+  "end": 633.304,
+  "speaker": "Unknown",
+  "en": "And that's around the models.",
+  "zh": "第四个是关于模型的。"
+ },
+ {
+  "seg": 131,
+  "start": 634.606,
+  "end": 636.289,
+  "speaker": "Unknown",
+  "en": "And we've talked about that a lot today.",
+  "zh": "这个我们今天已经谈了很多。"
+ },
+ {
+  "seg": 132,
+  "start": 636.889,
+  "end": 637.41,
+  "speaker": "Unknown",
+  "en": "And that is...",
+  "zh": "那就是……"
+ },
+ {
+  "seg": 133,
+  "start": 639.818,
+  "end": 652.248,
+  "speaker": "Unknown",
+  "en": "I wish it was as easy as just switching to an open weight model, but if you've tried that, you've probably seen there's 50 other considerations from security to safety to different access provisioning stuff.",
+  "zh": "我希望事情能简单到只要切换到一个开放权重模型就行，但如果你尝试过，你可能已经看到还有其他 50 个考量，从安全到安全合规到各种访问配置的东西。"
+ },
+ {
+  "seg": 134,
+  "start": 652.288,
+  "end": 662.015,
+  "speaker": "Unknown",
+  "en": "So start getting comfortable running on open weights, because that is what unlocks the door to owning your weights and then continually improving on top of them.",
+  "zh": "所以开始适应在开放权重上运行，因为那才是打开大门、让你拥有自己的权重并在此基础上持续改进的关键。"
+ },
+ {
+  "seg": 135,
+  "start": 662.936,
+  "end": 667.279,
+  "speaker": "Unknown",
+  "en": "And then Gabe also talked about this, this idea that model routers are",
+  "zh": "然后 Gabe 也谈到了这个，就是模型路由器将会"
+ },
+ {
+  "seg": 136,
+  "start": 668.22,
+  "end": 675.902,
+  "speaker": "Unknown",
+  "en": "It's going to probably play a really large role in routing intelligence to the exact capability of the task they're at.",
+  "zh": "它很可能会在把智能路由到任务所需的确切能力上发挥非常巨大的作用。"
+ },
+ {
+  "seg": 137,
+  "start": 675.922,
+  "end": 679.982,
+  "speaker": "Unknown",
+  "en": "And so experimenting with routers is another wish I would wish cast into the world.",
+  "zh": "所以试验路由器是我想向世界许下的另一个愿望。"
+ },
+ {
+  "seg": 138,
+  "start": 681.083,
+  "end": 683.803,
+  "speaker": "Unknown",
+  "en": "And so that is the high level here.",
+  "zh": "以上就是这里的顶层概览。"
+ },
+ {
+  "seg": 139,
+  "start": 684.163,
+  "end": 691.045,
+  "speaker": "Unknown",
+  "en": "And so I think when we work with companies, the first thing we often do is do an audit of these and where things are.",
+  "zh": "所以我认为当我们与公司合作时，我们经常做的第一件事就是对这些方面进行审计，看看各项的进展。"
+ },
+ {
+  "seg": 140,
+  "start": 692.621,
+  "end": 702.389,
+  "speaker": "Unknown",
+  "en": "For the most part, there's a lot of work to be done to get here, and so we work with them to build it out, and it would be my dream if we go to a company and they have a lot of this built out.",
+  "zh": "在大多数情况下，要达到这里还有很多工作要做，所以我们与他们合作来构建，而如果我们去到一家公司发现他们已经构建了很多这样的东西，那将是我的梦想。"
+ },
+ {
+  "seg": 141,
+  "start": 703.049,
+  "end": 713.037,
+  "speaker": "Unknown",
+  "en": "Granted, a lot of the work we're doing is also knowing that a lot of this we can't expect, and so we're doing a lot of cool research on assuming that nobody has evals, somebody doesn't have evals, how can we overcome that?",
+  "zh": "当然，我们做的很多工作也是知道我们不能指望这些，所以我们在做很多很酷的研究，假设没有人有 evals，假设某个人没有 evals，我们如何克服这一点？"
+ },
+ {
+  "seg": 142,
+  "start": 713.417,
+  "end": 719.222,
+  "speaker": "Unknown",
+  "en": "Or assuming that the traceability is off, like how can we learn from the signals that are there?",
+  "zh": "或者假设可追溯性是关闭的，我们如何从现有的信号中学习？"
+ },
+ {
+  "seg": 143,
+  "start": 719.602,
+  "end": 720.983,
+  "speaker": "Unknown",
+  "en": "And so that is...",
+  "zh": "所以这就是……"
+ },
+ {
+  "seg": 144,
+  "start": 722.206,
+  "end": 724.448,
+  "speaker": "Unknown",
+  "en": "That is my goals for the universe here.",
+  "zh": "这就是我对这个宇宙的目标。"
+ },
+ {
+  "seg": 145,
+  "start": 725.429,
+  "end": 750.99,
+  "speaker": "Unknown",
+  "en": "Just want to quickly go over, I think this is like a very, very core research and product problem, and so we're really excited with the team we've put together, but I think more importantly, and those two of the folks who are here today, we're working with extremely frontier customers, the folks who are really, really pushing the boundaries of what agents can do in production, both today and tomorrow.",
+  "zh": "我只是想快速过一下，我认为这是一个非常、非常核心的研究和产品问题，所以我们对我们组建的团队感到非常兴奋，但我认为更重要的是，也就是今天在场的其中两位同事，我们正在与极其前沿的客户合作，他们是真正、真正在推动智能体在生产环境中能力边界的人，无论是今天还是明天。"
+ },
+ {
+  "seg": 146,
+  "start": 751.635,
+  "end": 753.358,
+  "speaker": "Unknown",
+  "en": "And so really excited to be working with them.",
+  "zh": "所以非常兴奋能与他们合作。"
+ },
+ {
+  "seg": 147,
+  "start": 753.979,
+  "end": 759.667,
+  "speaker": "Unknown",
+  "en": "And another thing I want to show is we have... Oh, that's my email.",
+  "zh": "还有另一件我想展示的是我们有……哦，那是我的邮箱。"
+ },
+ {
+  "seg": 148,
+  "start": 761.089,
+  "end": 761.71,
+  "speaker": "Unknown",
+  "en": "We have a beta.",
+  "zh": "我们有一个 beta。"
+ },
+ {
+  "seg": 149,
+  "start": 761.971,
+  "end": 762.451,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 150,
+  "start": 763.465,
+  "end": 774.149,
+  "speaker": "Unknown",
+  "en": "A really, really core belief we have is that this capability, this ability to own your own intelligence should not be something that you need to consult away a lot of the times.",
+  "zh": "我们有一个非常非常核心的信念：这种能力，这种拥有自己智能的能力，不应该在很多情况下都需要外包咨询。"
+ },
+ {
+  "seg": 151,
+  "start": 774.589,
+  "end": 778.77,
+  "speaker": "Unknown",
+  "en": "It should be expertise you build on your own because of how important it is for your product.",
+  "zh": "它应该是你自己建立的专长，因为它对你的产品太重要了。"
+ },
+ {
+  "seg": 152,
+  "start": 779.41,
+  "end": 789.054,
+  "speaker": "Unknown",
+  "en": "And what that means for us is we want to build a product that empowers any company to own their own models and mainly get to continual learning from real interactions.",
+  "zh": "对我们来说，这意味着我们想打造一个产品，让任何公司都能拥有自己的模型，并主要从真实交互中实现持续学习。"
+ },
+ {
+  "seg": 153,
+  "start": 789.574,
+  "end": 792.235,
+  "speaker": "Unknown",
+  "en": "And so here's some cool screenshots from our product.",
+  "zh": "这里有一些我们产品的酷炫截图。"
+ },
+ {
+  "seg": 154,
+  "start": 793.713,
+  "end": 797.774,
+  "speaker": "Unknown",
+  "en": "I don't know if Nico is here, but I'm supposed to show this to Nico later today, so this is like a sneak peek.",
+  "zh": "我不知道 Nico 在不在场，但我今天晚些时候 supposed 要把这个展示给 Nico，所以这算是个预览。"
+ },
+ {
+  "seg": 155,
+  "start": 798.394,
+  "end": 801.055,
+  "speaker": "Unknown",
+  "en": "But here's Harvey, here's the loud benchmark that Gabe was talking about.",
+  "zh": "这里是 Harvey，这里是 Gabe 刚才谈到的那份很吵的 benchmark。"
+ },
+ {
+  "seg": 156,
+  "start": 801.615,
+  "end": 802.755,
+  "speaker": "Unknown",
+  "en": "Really, really easy to import.",
+  "zh": "导入真的非常简单。"
+ },
+ {
+  "seg": 157,
+  "start": 803.876,
+  "end": 805.456,
+  "speaker": "Unknown",
+  "en": "Training a model is incredibly easy.",
+  "zh": "训练模型非常简单。"
+ },
+ {
+  "seg": 158,
+  "start": 805.596,
+  "end": 817.819,
+  "speaker": "Unknown",
+  "en": "We're extremely proud of the interface we've put together here, because if you've post-trained, you know there's like 50 million things that go wrong, 50 million knobs to turn, and it's all researcher intuition, trademark, asterisk, whatever that means.",
+  "zh": "我们对我们做出来的这个界面感到 extremely 自豪，因为如果你做过后训练，你知道会有五千万个东西出问题，五千万个旋钮要拧，全靠研究人员的直觉，注册商标，星号，不管那是什么意思。"
+ },
+ {
+  "seg": 159,
+  "start": 818.659,
+  "end": 820.42,
+  "speaker": "Unknown",
+  "en": "And what we've tried to do is",
+  "zh": "我们试图做的是"
+ },
+ {
+  "seg": 160,
+  "start": 821.9,
+  "end": 824.942,
+  "speaker": "Unknown",
+  "en": "Take all of how our researchers post-train their models and",
+  "zh": "把我们研究人员后训练模型的所有方法拿来，然后"
+ },
+ {
+  "seg": 161,
+  "start": 826.047,
+  "end": 833.572,
+  "speaker": "Unknown",
+  "en": "Use an agent behind the scenes to take care of most of those knobs and just only expose the ones you need to know to make post-training as easy as possible.",
+  "zh": "用一个智能体在幕后处理大部分那些旋钮，只暴露你需要知道的那些，让后训练尽可能简单。"
+ },
+ {
+  "seg": 162,
+  "start": 834.192,
+  "end": 843.598,
+  "speaker": "Unknown",
+  "en": "So really easy to train a model, see how the model's doing, eval it, compare it, see if it's better than the model you were using before, and then deploy it.",
+  "zh": "所以真的很容易训练一个模型，看看模型表现如何，做 eval，做比较，看它是否比你之前用的模型更好，然后部署它。"
+ },
+ {
+  "seg": 163,
+  "start": 843.878,
+  "end": 849.001,
+  "speaker": "Unknown",
+  "en": "And so in terms of actual work you put in and that was not waiting for the model to train, probably like 15 minutes.",
+  "zh": "就你实际投入的工作量而言——不算等待模型训练的时间——大概15分钟。"
+ },
+ {
+  "seg": 164,
+  "start": 849.441,
+  "end": 854.825,
+  "speaker": "Unknown",
+  "en": "And so that is the world we're trying to get to to empower all these companies and hopefully more folks in this room.",
+  "zh": "这就是我们想要达到的世界，去赋能这些公司，也希望是这间屋子里的更多人。"
+ },
+ {
+  "seg": 165,
+  "start": 856.904,
+  "end": 858.004,
+  "speaker": "Unknown",
+  "en": "So yeah, that's our goal.",
+  "zh": "所以，是的，这就是我们的目标。"
+ },
+ {
+  "seg": 166,
+  "start": 858.044,
+  "end": 863.227,
+  "speaker": "Unknown",
+  "en": "We want every company to own its own experience layer, and we're excited to build that alongside some of y'all here, hopefully.",
+  "zh": "我们想让每一家公司都拥有自己的体验层，我们很期待与在座的一些人一起打造它，希望如此。"
+ },
+ {
+  "seg": 167,
+  "start": 868.75,
+  "end": 870.251,
+  "speaker": "Unknown",
+  "en": "Thank you, it's a great talk.",
+  "zh": "谢谢，很棒的演讲。"
+ },
+ {
+  "seg": 168,
+  "start": 870.271,
+  "end": 877.455,
+  "speaker": "Unknown",
+  "en": "I wonder when you talk about consumer training, what do you think about their trainable object?",
+  "zh": "我想知道，当你谈到消费者训练时，你怎么看待他们的可训练对象？"
+ },
+ {
+  "seg": 169,
+  "start": 878.98,
+  "end": 884.962,
+  "speaker": "Unknown",
+  "en": "Between model weights, harness, tools, application layers, how do you think of them?",
+  "zh": "在模型权重、harness、工具、应用层之间，你怎么看待它们？"
+ },
+ {
+  "seg": 170,
+  "start": 885.002,
+  "end": 886.502,
+  "speaker": "Unknown",
+  "en": "How do you prioritize?",
+  "zh": "你如何排优先级？"
+ },
+ {
+  "seg": 171,
+  "start": 886.902,
+  "end": 894.764,
+  "speaker": "Unknown",
+  "en": "Yeah, I think a fun phrase is that if you ask six researchers what continual learning is, you're going to get seven answers probably.",
+  "zh": "是的，我觉得一个有趣的说法是：如果你问六位研究人员什么是持续学习，你可能会得到七个答案。"
+ },
+ {
+  "seg": 172,
+  "start": 896.924,
+  "end": 904.586,
+  "speaker": "Unknown",
+  "en": "You can be very pure about this and be like, oh, it needs to be like a human and it is just the weights that need to be adapting in real time, one-shotting.",
+  "zh": "你可以在这件事上非常纯粹，说：哦，它需要像人一样，只需要权重实时 adapting，一次学会。"
+ },
+ {
+  "seg": 173,
+  "start": 904.866,
+  "end": 907.087,
+  "speaker": "Unknown",
+  "en": "But the way we view it is that",
+  "zh": "但我们的看法是，"
+ },
+ {
+  "seg": 174,
+  "start": 908.328,
+  "end": 910.969,
+  "speaker": "Unknown",
+  "en": "The intelligence that your product is run off of is a system.",
+  "zh": "你的产品赖以运行的智能是一个系统。"
+ },
+ {
+  "seg": 175,
+  "start": 911.729,
+  "end": 925.594,
+  "speaker": "Unknown",
+  "en": "It's a system that has many components and true continual learning is something that optimizes across that system and optimize it based on what parts of the system needs to be updated for the information that you're learning.",
+  "zh": "它是一个有许多组件的系统，真正的持续学习是跨整个系统进行优化的东西，并根据你正在学习的信息、系统哪些部分需要更新来优化它。"
+ },
+ {
+  "seg": 176,
+  "start": 925.614,
+  "end": 928.835,
+  "speaker": "Unknown",
+  "en": "Like a mental analogy that I have is like when you are",
+  "zh": "我脑子里有个类比，就像当你在"
+ },
+ {
+  "seg": 177,
+  "start": 929.515,
+  "end": 930.956,
+  "speaker": "Unknown",
+  "en": "You know, saving things, right?",
+  "zh": "你知道，保存东西的时候，对吧？"
+ },
+ {
+  "seg": 178,
+  "start": 931.156,
+  "end": 934.999,
+  "speaker": "Unknown",
+  "en": "We no longer think of like where in your RAM or where in your hardness to save.",
+  "zh": "我们不再去想存到 RAM 的哪里或者存到硬盘的哪里。"
+ },
+ {
+  "seg": 179,
+  "start": 935.219,
+  "end": 937.68,
+  "speaker": "Unknown",
+  "en": "That's the level that's abstracted based on what makes the most sense.",
+  "zh": "那一层是根据什么最合理而被抽象掉的。"
+ },
+ {
+  "seg": 180,
+  "start": 938.321,
+  "end": 942.203,
+  "speaker": "Unknown",
+  "en": "We think about models versus harnesses versus context in the same way.",
+  "zh": "我们以同样的方式看待模型、harness 和 context。"
+ },
+ {
+  "seg": 181,
+  "start": 942.223,
+  "end": 949.428,
+  "speaker": "Unknown",
+  "en": "It feels wrong that we're having to make the decision off of very little priors what to update based on what.",
+  "zh": "让我们基于非常少的先验去决定更新什么、基于什么来更新，这感觉是不对的。"
+ },
+ {
+  "seg": 182,
+  "start": 950.189,
+  "end": 952.87,
+  "speaker": "Unknown",
+  "en": "This is a scientific problem that can be solved.",
+  "zh": "这是一个可以被解决的科学问题。"
+ },
+ {
+  "seg": 183,
+  "start": 953.471,
+  "end": 955.332,
+  "speaker": "Unknown",
+  "en": "Let's do that and then let's abstract that away.",
+  "zh": "让我们解决它，然后把它抽象掉。"
+ },
+ {
+  "seg": 184,
+  "start": 963.586,
+  "end": 964.066,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 185,
+  "start": 966.268,
+  "end": 966.608,
+  "speaker": "Unknown",
+  "en": "Oh, yes.",
+  "zh": "哦，是的。"
+ },
+ {
+  "seg": 186,
+  "start": 967.148,
+  "end": 967.328,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 187,
+  "start": 968.089,
+  "end": 972.151,
+  "speaker": "Unknown",
+  "en": "Some of the speakers today talked about the importance of not training on your customer data.",
+  "zh": "今天有些演讲者谈到了不要在你的客户数据上训练的重要性。"
+ },
+ {
+  "seg": 188,
+  "start": 972.312,
+  "end": 972.612,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 189,
+  "start": 972.712,
+  "end": 976.194,
+  "speaker": "Unknown",
+  "en": "And I imagine a big part of continual learning is you are learning from all these interactions.",
+  "zh": "而我设想持续学习很大一部分就是从所有这些交互中学习。"
+ },
+ {
+  "seg": 190,
+  "start": 977.034,
+  "end": 979.496,
+  "speaker": "Unknown",
+  "en": "How are you thinking about things like differential privacy?",
+  "zh": "你怎么考虑像差分隐私这样的东西？"
+ },
+ {
+  "seg": 191,
+  "start": 979.536,
+  "end": 987.161,
+  "speaker": "Unknown",
+  "en": "How do you actually make your system better with, I imagine, most of these application companies have customer-specific data arrangements that make that very hard?",
+  "zh": "你实际上如何让你的系统变得更好？我设想，这些应用公司大多有针对客户的特殊数据安排，这让这件事非常困难。"
+ },
+ {
+  "seg": 192,
+  "start": 987.561,
+  "end": 988.201,
+  "speaker": "Unknown",
+  "en": "A hundred percent.",
+  "zh": "百分之百如此。"
+ },
+ {
+  "seg": 193,
+  "start": 988.281,
+  "end": 990.822,
+  "speaker": "Unknown",
+  "en": "I think that's an incredibly important problem.",
+  "zh": "我觉得这是一个极其重要的问题。"
+ },
+ {
+  "seg": 194,
+  "start": 991.322,
+  "end": 995.263,
+  "speaker": "Unknown",
+  "en": "Actually, before this, I was at Apple, and this is a problem we worked on quite a bit as well.",
+  "zh": "其实，在此之前，我在 Apple，这也是我们当时下了不少功夫的问题。"
+ },
+ {
+  "seg": 195,
+  "start": 996.003,
+  "end": 1002.045,
+  "speaker": "Unknown",
+  "en": "And there's a lot of clever things you can do where you are not actually training on customer data.",
+  "zh": "而且有很多聪明的做法，让你实际上并不在客户数据上训练。"
+ },
+ {
+  "seg": 196,
+  "start": 1002.405,
+  "end": 1012.387,
+  "speaker": "Unknown",
+  "en": "You are instead sampling distributions from your customer data and then synthetically generating your own and doing kind of like a mental models, maybe like a cryptographic thing where you're like,",
+  "zh": "你是从客户数据中采样分布，然后合成生成你自己的数据，做某种类似 mental models 的东西，也许是类似密码学的东西，你在那里"
+ },
+ {
+  "seg": 197,
+  "start": 1012.76,
+  "end": 1019.423,
+  "speaker": "Unknown",
+  "en": "Comparing those distributions to see is my data actually on distribution but you're not training directly off of the customer data.",
+  "zh": "比较这些分布，看看我的数据是否真的在分布上，但你并不直接从客户数据上训练。"
+ },
+ {
+  "seg": 198,
+  "start": 1020.183,
+  "end": 1021.183,
+  "speaker": "Unknown",
+  "en": "So that's totally right.",
+  "zh": "所以这完全正确。"
+ },
+ {
+  "seg": 199,
+  "start": 1021.203,
+  "end": 1030.647,
+  "speaker": "Unknown",
+  "en": "There's a lot of interesting work there and it's like very central and already with our customers we're doing some interesting and fun things in order to get over that.",
+  "zh": "那里有很多有趣的工作，而且它非常核心，现在已经在和我们的客户一起做一些有趣好玩的事情来跨越这个障碍了。"
+ },
+ {
+  "seg": 200,
+  "start": 1032.508,
+  "end": 1032.728,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 201,
+  "start": 1037.633,
+  "end": 1042.079,
+  "speaker": "Unknown",
+  "en": "I think episodic memory plays a role in continual learning to some extent.",
+  "zh": "我认为情节记忆在一定程度上对持续学习有作用。"
+ },
+ {
+  "seg": 202,
+  "start": 1042.099,
+  "end": 1049.049,
+  "speaker": "Unknown",
+  "en": "For example, if a user does something on our platform that corrects what an agent did before, you might want to update an agent's behavior.",
+  "zh": "举例来说，如果用户在我们的平台上做了什么，纠正了某个智能体之前的行为，你可能会想要更新这个智能体的行为。"
+ },
+ {
+  "seg": 203,
+  "start": 1049.629,
+  "end": 1052.894,
+  "speaker": "Unknown",
+  "en": "Does Trajectory have an opinionated take about that in the platform?",
+  "zh": "在平台层面，Trajectory 对此有明确的主张吗？"
+ },
+ {
+  "seg": 204,
+  "start": 1054.11,
+  "end": 1066.973,
+  "speaker": "Unknown",
+  "en": "Yeah, I think, okay, on episodic memory and, let me just repeat here, on episodic memory and like what, if I'm thinking about this correctly, how different types of feedback impact what is learned?",
+  "zh": "是的，我想，好，关于情节记忆，让我在这里重复一下，关于情节记忆，如果我没理解错的话，不同类型的反馈如何影响学到的东西？"
+ },
+ {
+  "seg": 205,
+  "start": 1067.373,
+  "end": 1067.593,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 206,
+  "start": 1068.033,
+  "end": 1068.233,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 207,
+  "start": 1068.414,
+  "end": 1068.674,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 208,
+  "start": 1069.134,
+  "end": 1069.634,
+  "speaker": "Unknown",
+  "en": "So many thoughts.",
+  "zh": "想法太多了。"
+ },
+ {
+  "seg": 209,
+  "start": 1071.734,
+  "end": 1074.075,
+  "speaker": "Unknown",
+  "en": "One way to look at this is there are",
+  "zh": "一种看待这个的方式是，存在"
+ },
+ {
+  "seg": 210,
+  "start": 1075.605,
+  "end": 1076.626,
+  "speaker": "Unknown",
+  "en": "Two different types of signals.",
+  "zh": "两种不同类型的信号。"
+ },
+ {
+  "seg": 211,
+  "start": 1077.046,
+  "end": 1080.408,
+  "speaker": "Unknown",
+  "en": "There are signals that are just something went wrong.",
+  "zh": "有一类信号只是说明出错了。"
+ },
+ {
+  "seg": 212,
+  "start": 1080.669,
+  "end": 1089.395,
+  "speaker": "Unknown",
+  "en": "Like for example, if somebody like flames the agent and says like, you're really bad but he doesn't follow anything up with that or just thumbs down or like drops off the session.",
+  "zh": "比如说，有人痛骂智能体，说“你真的很差劲”，但没有跟进任何具体内容，或者只是点了踩，或者直接退出了会话。"
+ },
+ {
+  "seg": 213,
+  "start": 1089.775,
+  "end": 1093.798,
+  "speaker": "Unknown",
+  "en": "Those are cases where you know something went wrong but not what right looks like.",
+  "zh": "这些情况是你知道出错了，但不知道“对的”是什么样子。"
+ },
+ {
+  "seg": 214,
+  "start": 1094.138,
+  "end": 1096.48,
+  "speaker": "Unknown",
+  "en": "Then you have things like the agent retried.",
+  "zh": "然后还有像智能体重试了。"
+ },
+ {
+  "seg": 215,
+  "start": 1096.82,
+  "end": 1100.562,
+  "speaker": "Unknown",
+  "en": "And then it got to the correct solution or you corrected it by saying this is the difference.",
+  "zh": "然后得到了正确的解决方案，或者你纠正了它，说区别在这里。"
+ },
+ {
+  "seg": 216,
+  "start": 1100.942,
+  "end": 1103.003,
+  "speaker": "Unknown",
+  "en": "And so that is like a difference we make.",
+  "zh": "这是我们要做的一个区分。"
+ },
+ {
+  "seg": 217,
+  "start": 1103.183,
+  "end": 1109.325,
+  "speaker": "Unknown",
+  "en": "And in the latter case, we're very, very confident about the reward associated with the output and what we're assigning.",
+  "zh": "在后一种情况下，我们对与输出相关联的奖励以及我们所赋予的奖励非常、非常有信心。"
+ },
+ {
+  "seg": 218,
+  "start": 1109.625,
+  "end": 1115.267,
+  "speaker": "Unknown",
+  "en": "With the former, we know to penalize that behavior, but we don't necessarily say like there's like a correct right answer.",
+  "zh": "在前一种情况下，我们知道要惩罚那个行为，但我们不一定知道有一个正确的答案。"
+ },
+ {
+  "seg": 219,
+  "start": 1115.728,
+  "end": 1116.948,
+  "speaker": "Unknown",
+  "en": "That's one way of looking at it.",
+  "zh": "这是一种看待它的方式。"
+ },
+ {
+  "seg": 220,
+  "start": 1117.828,
+  "end": 1121.67,
+  "speaker": "Unknown",
+  "en": "Another way of looking at it is there are different...",
+  "zh": "另一种看待它的方式是，存在不同的……"
+ },
+ {
+  "seg": 221,
+  "start": 1122.937,
+  "end": 1127.58,
+  "speaker": "Unknown",
+  "en": "Like there's like a hierarchy of like how pertinent the information is people wise.",
+  "zh": "就像有一个关于信息在“人”的层面有多相关的层级。"
+ },
+ {
+  "seg": 222,
+  "start": 1127.76,
+  "end": 1130.981,
+  "speaker": "Unknown",
+  "en": "There's some information that's probably globally accurate, globally true.",
+  "zh": "有些信息可能在全球范围内是准确的、普遍为真的。"
+ },
+ {
+  "seg": 223,
+  "start": 1131.802,
+  "end": 1135.844,
+  "speaker": "Unknown",
+  "en": "Things like a tool call repeatedly failing when trying to call a certain tool.",
+  "zh": "比如某个工具调用在尝试调用某个特定工具时反复失败。"
+ },
+ {
+  "seg": 224,
+  "start": 1136.664,
+  "end": 1138.065,
+  "speaker": "Unknown",
+  "en": "That's probably relevant to everybody.",
+  "zh": "那可能对所有人都相关。"
+ },
+ {
+  "seg": 225,
+  "start": 1138.485,
+  "end": 1142.327,
+  "speaker": "Unknown",
+  "en": "And so this should be trained into the model and the model should get better at learning this tool.",
+  "zh": "所以这应该被训练进模型里，模型应该在这个工具上变得更好。"
+ },
+ {
+  "seg": 226,
+  "start": 1143.088,
+  "end": 1147.01,
+  "speaker": "Unknown",
+  "en": "A certain user is like, I never want to use this sub-agent.",
+  "zh": "而某个特定用户说，我永远不想用这个子智能体。"
+ },
+ {
+  "seg": 227,
+  "start": 1147.07,
+  "end": 1148.171,
+  "speaker": "Unknown",
+  "en": "Please, please, please don't do it.",
+  "zh": "请、请、请不要这么做。"
+ },
+ {
+  "seg": 228,
+  "start": 1149.031,
+  "end": 1150.812,
+  "speaker": "Unknown",
+  "en": "That's probably not something you should train into the model.",
+  "zh": "那可能不是你应该训练进模型里的东西。"
+ },
+ {
+  "seg": 229,
+  "start": 1151.387,
+  "end": 1152.908,
+  "speaker": "Unknown",
+  "en": "And leave to the context.",
+  "zh": "而应该留给上下文。"
+ },
+ {
+  "seg": 230,
+  "start": 1153.368,
+  "end": 1164.033,
+  "speaker": "Unknown",
+  "en": "And one thing we're really excited about is the stuff Harvey was talking about where this is actually something that will probably happen on a per-org basis or, of course, even further, a per-customer basis.",
+  "zh": "而且让我们非常兴奋的一件事是 Harvey 刚才谈到的那些，就是这类事情实际上可能会按组织为单位发生，或者当然，更进一步，按客户为单位发生。"
+ },
+ {
+  "seg": 231,
+  "start": 1164.253,
+  "end": 1169.536,
+  "speaker": "Unknown",
+  "en": "And so that's another way I think about it as well as the hierarchy of what the feedback is pertinent to.",
+  "zh": "所以这是另一种我思考它的方式，也就是反馈所适用的层级。"
+ },
+ {
+  "seg": 232,
+  "start": 1170.396,
+  "end": 1170.676,
+  "speaker": "Unknown",
+  "en": "Got it.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 233,
+  "start": 1170.797,
+  "end": 1171.157,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 234,
+  "start": 1171.417,
+  "end": 1171.697,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 235,
+  "start": 1177.739,
+  "end": 1194.356,
+  "speaker": "Unknown",
+  "en": "I think one of the themes of today has been this idea that there are some tasks or part of your product where you want to maybe experiment more, go cheaper, add in more open source stuff, and then other areas where being at the frontier and using a closed model or a closed framework is more useful.",
+  "zh": "我觉得今天的一个主题是这样的想法：在你的产品中，有些任务或部分你可能想要更多实验、走更便宜的路线、加入更多开源的东西，然后在另一些领域，处在前沿并使用闭源模型或闭源框架更有用。"
+ },
+ {
+  "seg": 236,
+  "start": 1194.837,
+  "end": 1197.699,
+  "speaker": "Unknown",
+  "en": "I guess extending that analogy to continual learning",
+  "zh": "我猜把这个类比延伸到持续学习上"
+ },
+ {
+  "seg": 237,
+  "start": 1198.34,
+  "end": 1220.108,
+  "speaker": "Unknown",
+  "en": "Are there tasks or workflows or what is the shape of problem where something like this you've seen really matters a lot versus where just using a statically trained frontier model or even a statically trained open source model and then using the harness to inject relevant information into the context is sufficient to achieve what the user usually wants to achieve?",
+  "zh": "有没有一些任务或工作流，或者说问题的形状是什么，让你见过这类东西真的非常重要，而与之相对，只用一个静态训练的前沿模型、甚至一个静态训练的开源模型，然后用 harness 把相关信息注入上下文，就足以实现用户通常想要实现的目标？"
+ },
+ {
+  "seg": 238,
+  "start": 1220.893,
+  "end": 1222.594,
+  "speaker": "Unknown",
+  "en": "Yeah, this is a great question.",
+  "zh": "是的，这是个好问题。"
+ },
+ {
+  "seg": 239,
+  "start": 1222.974,
+  "end": 1227.837,
+  "speaker": "Unknown",
+  "en": "I think the level one answer is, I think for the most part, most tasks work for continual learning.",
+  "zh": "我认为第一层的答案是，我觉得在大多数情况下，大多数任务都适用于持续学习。"
+ },
+ {
+  "seg": 240,
+  "start": 1228.077,
+  "end": 1233.72,
+  "speaker": "Unknown",
+  "en": "But the ones I'm most excited about are tasks that are on the frontier.",
+  "zh": "但让我最兴奋的是那些处在前沿的任务。"
+ },
+ {
+  "seg": 241,
+  "start": 1234.281,
+  "end": 1244.927,
+  "speaker": "Unknown",
+  "en": "The mental model I have, that we have for AI progress in a way is, people will ask models, people will ask products.",
+  "zh": "我对 AI 进展的心智模型，在某种程度上是，人们会向模型提问，人们会向产品提问。"
+ },
+ {
+  "seg": 242,
+  "start": 1245.851,
+  "end": 1248.494,
+  "speaker": "Unknown",
+  "en": "With the expectation of what they think the product can do.",
+  "zh": "带着他们所认为的产品能做到什么的预期。"
+ },
+ {
+  "seg": 243,
+  "start": 1249.595,
+  "end": 1253.719,
+  "speaker": "Unknown",
+  "en": "And maybe they'll ask at the edge of what the product can't do.",
+  "zh": "也许他们会在产品做不到的边缘试探着提问。"
+ },
+ {
+  "seg": 244,
+  "start": 1254.339,
+  "end": 1256.361,
+  "speaker": "Unknown",
+  "en": "And then they'll see it fail or they'll see it do something wrong.",
+  "zh": "然后他们会看到它失败，或者看到它做错了什么。"
+ },
+ {
+  "seg": 245,
+  "start": 1256.421,
+  "end": 1259.224,
+  "speaker": "Unknown",
+  "en": "And they'll retreat back and be like, oh, it wasn't good enough.",
+  "zh": "然后他们会退缩回来说，哦，它不够好。"
+ },
+ {
+  "seg": 246,
+  "start": 1259.625,
+  "end": 1260.485,
+  "speaker": "Unknown",
+  "en": "I can't use it for this.",
+  "zh": "我不能把它用在这上面。"
+ },
+ {
+  "seg": 247,
+  "start": 1261.146,
+  "end": 1268.13,
+  "speaker": "Unknown",
+  "en": "I think a great example is would I even dream of typing in some of the whack query that gave the cursor two years ago?",
+  "zh": "我想一个好例子是，两年前的那些怪异查询，我当年会想到要在 cursor 里输入吗？"
+ },
+ {
+  "seg": 248,
+  "start": 1268.97,
+  "end": 1269.651,
+  "speaker": "Unknown",
+  "en": "Definitely not.",
+  "zh": "绝对不会。"
+ },
+ {
+  "seg": 249,
+  "start": 1269.871,
+  "end": 1271.372,
+  "speaker": "Unknown",
+  "en": "I was way lower than this.",
+  "zh": "我当时的预期远低于现在。"
+ },
+ {
+  "seg": 250,
+  "start": 1271.412,
+  "end": 1274.253,
+  "speaker": "Unknown",
+  "en": "But then over time, I started querying it and the models were getting better.",
+  "zh": "但随着时间推移，我开始不断询问它，模型变得越来越好。"
+ },
+ {
+  "seg": 251,
+  "start": 1274.654,
+  "end": 1276.415,
+  "speaker": "Unknown",
+  "en": "And I was like, okay, maybe we can do bigger and bigger things.",
+  "zh": "我就想，好吧，也许我们可以做越来越大的事情。"
+ },
+ {
+  "seg": 252,
+  "start": 1277.441,
+  "end": 1284.663,
+  "speaker": "Unknown",
+  "en": "What we're most excited about is the way that has happened is like models have generally gotten better and we've been targeted pushing in certain directions.",
+  "zh": "我们最兴奋的是，这一切发生的方式是模型总体上变得更好了，而我们一直在有针对性地朝某些方向推进。"
+ },
+ {
+  "seg": 253,
+  "start": 1285.784,
+  "end": 1297.327,
+  "speaker": "Unknown",
+  "en": "But what we're seeing with some of our customers are cases where users ask for things, the model can barely do it, but then during training it learns how to do it and then the user can now do this thing they couldn't do before.",
+  "zh": "但我们在一些客户那里看到的情况是，用户提出一些需求，模型勉强能做到，然后在训练过程中它学会了怎么做，之后用户就能做到以前做不到的事情了。"
+ },
+ {
+  "seg": 254,
+  "start": 1297.927,
+  "end": 1305.71,
+  "speaker": "Unknown",
+  "en": "That chain is what's really exciting about continual learning, like really pushing that frontier of what's possible based on what the user tries and cannot do.",
+  "zh": "这条链条就是持续学习真正令人兴奋的地方，也就是真正基于用户尝试但做不到的事情来推动可能性的边界。"
+ },
+ {
+  "seg": 255,
+  "start": 1308.15,
+  "end": 1308.772,
+  "speaker": "Unknown",
+  "en": "Thank you, Arjun.",
+  "zh": "谢谢你，Arjun。"
+ },
+ {
+  "seg": 256,
+  "start": 1308.793,
+  "end": 1309.636,
+  "speaker": "Unknown",
+  "en": "I think we have time.",
+  "zh": "我想我们还有时间。"
+ },
+ {
+  "seg": 257,
+  "start": 1310.318,
+  "end": 1311.182,
+  "speaker": "Unknown",
+  "en": "Really appreciate you doing this.",
+  "zh": "非常感谢你来参加这个。"
+ },
+ {
+  "seg": 258,
+  "start": 1311.202,
+  "end": 1311.422,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 259,
+  "start": 1311.443,
+  "end": 1311.964,
+  "speaker": "Unknown",
+  "en": "It was an awesome time.",
+  "zh": "这是一段很棒的时光。"
+ }
+]

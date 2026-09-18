@@ -69,11 +69,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
+[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Factory":4,"Anthropic":125,"OpenAI":120,"Microsoft":25,"Meta":32,"NVIDIA":36,"Stripe":31,"OpenRouter":10,"Palantir":16}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Factory":4,"Anthropic":125,"OpenAI":120,"Microsoft":25,"Meta":32,"NVIDIA":37,"Stripe":32,"OpenRouter":10,"Palantir":16}</script>
 
 <script>
 (function(){

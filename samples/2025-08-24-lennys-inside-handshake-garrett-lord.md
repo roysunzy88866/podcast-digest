@@ -130,8 +130,8 @@ Garrett 的判断是：不会缺数据，但数据类型会不断演变。接下
 **顺着「智能体」挖下去**
 
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同嘉宾:Lenny · 同概念:后训练 (post-training)</span>
+- [[2026-08-13-talks-continual-learning-how-ai-agents-get-bet|经验差距：让智能体越用越聪明]]<span class="pd-rz">同概念:后训练 (post-training)、轨迹数据 (trajectory)</span>
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同嘉宾:Lenny · 同公司:Anthropic · 同概念:后训练 (post-training)</span>
-- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同嘉宾:Lenny · 同公司:ChatGPT</span>
 
 </div>
 <div class="pd-ex">

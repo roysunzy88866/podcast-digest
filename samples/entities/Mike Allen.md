@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Jim VandeHei]] [[Aaron Levie]] [[Jack]]
+[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":36,"OpenAI":120,"Anthropic":125,"TSMC":4,"Microsoft":25,"Palantir":16,"开源模型":18,"封闭模型":2,"沙箱":51}</script>
+<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":37,"OpenAI":120,"Anthropic":125,"TSMC":4,"Microsoft":25,"Palantir":16,"开源模型":18,"封闭模型":2,"沙箱":51}</script>
 
 <script>
 (function(){

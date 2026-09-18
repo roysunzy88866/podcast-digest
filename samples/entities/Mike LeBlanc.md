@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
+[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Foundation":2,"人形机器人":2,"执行器":2,"视觉-语言-行动模型":1,"视频训练":1,"远程遥控":1,"世界行动模型":1,"Boston Dynamics":2,"Optimus":1,"Physical Intelligence":2}</script>
+<script type="application/json" class="pd-epn">{"Foundation":2,"人形机器人":2,"执行器":2,"视觉-语言-行动模型":1,"视频训练":1,"远程遥控":1,"世界行动模型":1,"Boston Dynamics":2,"Optimus":1,"Physical Intelligence":3}</script>
 
 <script>
 (function(){

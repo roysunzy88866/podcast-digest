@@ -25,7 +25,7 @@ unlisted: true
 
 [[Nathan]] · [[Pete Johnson]] · [[MongoDB]] · [[Anthropic]] · [[Eleven Labs]] · [[Uber]] · [[智能体]] · [[智能体记忆]] · [[RAG]] · [[嵌入模型]]
 
-<script type="application/json" class="pd-epn">{"Nathan":4,"Pete Johnson":1,"MongoDB":4,"Anthropic":125,"Eleven Labs":6,"Uber":9,"智能体":264,"智能体记忆":2,"RAG":10,"嵌入模型":2}</script>
+<script type="application/json" class="pd-epn">{"Nathan":4,"Pete Johnson":1,"MongoDB":4,"Anthropic":125,"Eleven Labs":6,"Uber":9,"智能体":267,"智能体记忆":2,"RAG":11,"嵌入模型":2}</script>
 
 <script>
 (function(){

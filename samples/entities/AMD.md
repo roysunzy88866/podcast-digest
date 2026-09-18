@@ -35,7 +35,7 @@ unlisted: true
 
 [[NVIDIA]] · [[GPU]] · [[OpenAI]] · [[Condi Rice]] · [[Gavin Baker]] · [[Jack]] · [[Jensen Huang]] · [[David George]] · [[Eric]] · [[Parallel]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":36,"GPU":16,"OpenAI":120,"Condi Rice":1,"Gavin Baker":1,"Jack":1,"Jensen Huang":3,"David George":3,"Eric":1,"Parallel":5}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":37,"GPU":16,"OpenAI":120,"Condi Rice":1,"Gavin Baker":1,"Jack":1,"Jensen Huang":3,"David George":3,"Eric":1,"Parallel":5}</script>
 
 <script>
 (function(){

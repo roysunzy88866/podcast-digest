@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
+[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"后训练":24,"强化学习":17,"评估":2,"RAG":10,"数据准备":1,"测试时计算":3,"系统思维":4,"采样策略":1,"监督微调":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"后训练":25,"强化学习":17,"评估":2,"RAG":11,"数据准备":1,"测试时计算":3,"系统思维":4,"采样策略":1,"监督微调":1}</script>
 
 <script>
 (function(){

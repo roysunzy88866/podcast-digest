@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
+[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":264,"构建者":3,"可观测性":22,"对话分析":1,"评估":2,"维度思维":1,"ChatGPT":69,"Cursor":62,"OpenAI":120}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":267,"构建者":3,"可观测性":22,"对话分析":1,"评估":2,"维度思维":1,"ChatGPT":69,"Cursor":62,"OpenAI":120}</script>
 
 <script>
 (function(){

@@ -136,8 +136,8 @@ Simon 一直觉得传统的白板编程面试是低信号的。AI 让他们有�
 **换个口味**
 
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同公司:Datadog · 同概念:eval、上下文 (context)、智能体 (agent)、harness</span>
+- [[2026-08-13-talks-continual-learning-how-ai-agents-get-bet|经验差距：让智能体越用越聪明]]<span class="pd-rz">同概念:eval、开源权重模型 (open weight model)、智能体 (agent)、harness</span>
 - [[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」]]<span class="pd-rz">同公司:cursor、OpenClaw · 同概念:智能体 (agent)、上下文 (context)</span>
-- [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同公司:cursor · 同概念:智能体 (agent)、POC</span>
 
 </div>
 </div>

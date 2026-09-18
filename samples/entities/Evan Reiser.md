@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]] [[Claire]] [[Tobi Lütke]]
+[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Vineet Edupuganti":1,"Abnormal":1,"Cogent Security":1,"智能体":264,"漏洞管理":1,"自主修复":1,"邮件安全":1,"身份威胁检测":1,"人在回路":11}</script>
+<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Vineet Edupuganti":1,"Abnormal":1,"Cogent Security":1,"智能体":267,"漏洞管理":1,"自主修复":1,"邮件安全":1,"身份威胁检测":1,"人在回路":11}</script>
 
 <script>
 (function(){

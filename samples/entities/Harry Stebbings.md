@@ -50,7 +50,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[Salesforce]] · [[开源]] · [[NVIDIA]] · [[OpenRouter]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":125,"智能体":264,"OpenAI":120,"Cursor":62,"推理":46,"Salesforce":23,"开源":22,"NVIDIA":36,"OpenRouter":10,"Meta":32}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":125,"智能体":267,"OpenAI":120,"Cursor":62,"推理":46,"Salesforce":24,"开源":22,"NVIDIA":37,"OpenRouter":10,"Meta":32}</script>
 
 <script>
 (function(){

@@ -1,0 +1,578 @@
+{
+  "episode_id": "2026-09-16-talks-connect-ai-to-billions-of-legal-document",
+  "podcast": "精选演讲",
+  "date": "2026-09-16",
+  "tags": [
+    "搜索基础设施",
+    "向量检索",
+    "AI 基础设施",
+    "法律科技",
+    "对象存储"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "simon-eskildsen",
+      "type": "person",
+      "role": "guest",
+      "name": "Simon Eskildsen",
+      "file": "Simon Eskildsen",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "jacob-lauritzen",
+      "type": "person",
+      "role": "guest",
+      "name": "Jacob Lauritzen",
+      "file": "Jacob Lauritzen",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "legora",
+      "type": "company",
+      "role": "company",
+      "name": "Legora",
+      "file": "Legora",
+      "primary": true,
+      "how_described": "本集说它是面向法律工作的协作式 AI 平台，客户包括律所和企业法务团队，可理解为法律工作领域的 Linear + Figma + Notion + GitHub。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.967,
+            25.048
+          ],
+          "quote": "I'm an engineer at Legora.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 7,
+          "t": [
+            28.851,
+            34.816
+          ],
+          "quote": "I'm the CEO and co-founder of Turbo Puffer, a search engine that we work with Legora and others on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            36.802,
+            40.944
+          ],
+          "quote": "Super quickly, introduction to Legora.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            45.486,
+            53.63
+          ],
+          "quote": "And so that means we have law firms that are clients and we have in-house legal teams that are clients and they use Legora to do reviews of contracts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            60.973,
+            67.456
+          ],
+          "quote": "They do legal research, which means looking over all potential law, and they collaborate inside Legora.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            67.496,
+            73.639
+          ],
+          "quote": "So you can think of Legora sort of as a linear slash figma slash notion slash GitHub for legal work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            448.605,
+            459.068
+          ],
+          "quote": "Yeah, so Legora has some of, and Ligo in general has, by the way, if Jake and I have similar accents and maybe even look a bit similar, it's because we're both Danish.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            596.372,
+            599.394
+          ],
+          "quote": "So why is this so good for a company like Legora?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            636.899,
+            642.463
+          ],
+          "quote": "For Legora in particular, this was really important for this full physical separation, right, an encryption separation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1044.209,
+            1052.856
+          ],
+          "quote": "So for something like Legora or even WebSearch, which is in the hundreds of billions or tens of billions, depending on how much of the web you've scraped, this is fundamentally the cheapest way to do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1162.053,
+            1165.015
+          ],
+          "quote": "Retrieval is extremely important to Legora.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1202.433,
+            1208.074
+          ],
+          "quote": "So now with TurboWoffer and four seconds to go, now we can focus on making Legora.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "turbo-puffer",
+      "type": "company",
+      "role": "company",
+      "name": "Turbo Puffer",
+      "file": "Turbo Puffer",
+      "primary": true,
+      "how_described": "本集说它是一个搜索引擎，写入直接进对象存储、无共识协议，围绕最小化往返次数和内存层级设计，让多租户隔离与加密天然成立。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            28.851,
+            34.816
+          ],
+          "quote": "I'm the CEO and co-founder of Turbo Puffer, a search engine that we work with Legora and others on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            860.857,
+            879.077
+          ],
+          "quote": "Yeah, so I was talking about why the company is called Turbo Puffer, another talk here earlier today, but one of the other explanations of the name of Turbo Puffer is that it's about puffing into the different memory hierarchies and really mastering when data should be in particular memory hierarchies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            916.919,
+            925.783
+          ],
+          "quote": "Turbo Puffer is a database that is really designed around the memory hierarchy and all of the smarts in Turbo Puffer is that all of these namespaces are puffed in and out of the cache.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "object-storage",
+      "type": "concept",
+      "role": "concept",
+      "name": "对象存储 (object storage)",
+      "file": "对象存储",
+      "primary": true,
+      "how_described": "本集说 Turbo Puffer 写入直接进 S3、基于 blob 查询，冷数据静静躺在对象存储里，是整个架构经济性与合规隔离的根基。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            556.534,
+            560.777
+          ],
+          "quote": "We check the memory cache for any objects, NVMe SSD cache, and then finally to object storage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            946.056,
+            952.682
+          ],
+          "quote": "The problem with a graph on something like object storage or disk, again, we want to have things as far down that memory hierarchy as possible.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vector-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量搜索 (vector search)",
+      "file": "向量搜索",
+      "primary": true,
+      "how_described": "本集说向量搜索有图导航和聚类树两种做法，Turbo Puffer 把向量组织成簇的簇的簇、像一棵复杂 B 树，让访问匹配内存层级。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            937.969,
+            942.573
+          ],
+          "quote": "Well, for something like vector search, for example, there's two fundamental ways to do vector search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1149.334,
+            1152.699
+          ],
+          "quote": "is more difficult and more computationally expensive than doing vector search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体时代单次 RAG 查询不够——一个智能体要做 20 次、100 次查询，检索延迟会累加，所以为智能体优化检索尤其要命。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            721.504,
+            730.366
+          ],
+          "quote": "So obviously this is a huge thing when you're doing, I mean, one thing is if you're doing a single sort of RAG style thing, but if you have an agent that does 20 queries, 100 queries, these really, really add up.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "namespace",
+      "type": "concept",
+      "role": "concept",
+      "name": "命名空间 (namespace)",
+      "file": "命名空间",
+      "primary": true,
+      "how_described": "本集说 namespace 是 Turbo Puffer 的「表」概念、分离的原子单元——每个项目/司法辖区一个命名空间，可独立加密、放独立 bucket。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            405.92,
+            409.863
+          ],
+          "quote": "And what we did with TurboPuffer was we did one namespace per project.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            537.492,
+            541.477
+          ],
+          "quote": "The query reaches some namespace and namespace is kind of our concept of a table.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            599.735,
+            608.1
+          ],
+          "quote": "Well, Oblix Storage Native, if you design it around the atomic unit of separation being the namespace or the table, every single table could be encrypted with a different key.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            609.3,
+            611.382
+          ],
+          "quote": "Every single namespace could be in a different bucket.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            627.512,
+            630.975
+          ],
+          "quote": "You can do whatever configuration that you need at the namespace level.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory-hierarchy",
+      "type": "concept",
+      "role": "concept",
+      "name": "内存层级 (memory hierarchy)",
+      "file": "内存层级",
+      "primary": true,
+      "how_described": "本集说 Turbo Puffer 的核心是「向不同内存层级里吹气」：热数据常驻 DRAM、叶子节点留 SSD、冷数据沉到对象存储，追求最佳性能成本比。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 172,
+          "t": [
+            916.919,
+            925.783
+          ],
+          "quote": "Turbo Puffer is a database that is really designed around the memory hierarchy and all of the smarts in Turbo Puffer is that all of these namespaces are puffed in and out of the cache.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            946.056,
+            952.682
+          ],
+          "quote": "The problem with a graph on something like object storage or disk, again, we want to have things as far down that memory hierarchy as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            966.407,
+            979.972
+          ],
+          "quote": "And so you're trying to shrink the diameter of the graph, you're trying to do all these tricks to make the graph, but fundamentally you're at odds with the fact that a graph is about a random sequential trade-off that you have in memory and in registers, but not further down the memory hierarchy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1019.664,
+            1022.006
+          ],
+          "quote": "So they're going to be further of the memory hierarchy, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "elasticsearch",
+      "type": "concept",
+      "role": "concept",
+      "name": "Elasticsearch",
+      "file": "Elasticsearch",
+      "primary": true,
+      "how_described": "本集说 Legora 第一版用一个 Elasticsearch 集群做所有租户检索，后因数据驻留要求复制多份、且成本极高而被替换。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            288.181,
+            290.243
+          ],
+          "quote": "So we moved from Elasticsearch to Postgres.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            806.53,
+            810.772
+          ],
+          "quote": "And so we started on Elasticsearch for this, but also moving to TurboPuffer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            811.673,
+            814.714
+          ],
+          "quote": "Elasticsearch just got extremely expensive because we have to have everything there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1177.602,
+            1181.244
+          ],
+          "quote": "If we had to have separate Elasticsearch databases for each of these, it would be just hell.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "postgres",
+      "type": "concept",
+      "role": "concept",
+      "name": "Postgres",
+      "file": "Postgres",
+      "primary": true,
+      "how_described": "本集说 Legora 曾用 Postgres + PG Vector 做搜索、4000 个分区装箱项目，但冷热项目混在同一分区导致缓存抖动、P99 从 100 毫秒飙到 20 秒。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            288.181,
+            290.243
+          ],
+          "quote": "So we moved from Elasticsearch to Postgres.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            290.924,
+            294.448
+          ],
+          "quote": "And I imagine a bunch of you guys are like, why would you ever put your vectors into Postgres?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            297.13,
+            301.835
+          ],
+          "quote": "And the reason that we did this was we were already using Postgres for OLTP workloads.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            309.494,
+            314.716
+          ],
+          "quote": "And so it was really easy for us to try to shift all of our search into Postgres as well because then we only have one system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            373.235,
+            382.757
+          ],
+          "quote": "And so when we queried them, Postgres would pull the partition, put it into memory, we'd do the stuff, and then we queried another partition and another partition, and it would essentially thrash the cache all the time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            424.454,
+            431.7
+          ],
+          "quote": "You know, we didn't have to have a bunch of different ones, like with Postgres, and it would, since it's blob-based, it could just query the blobs that we had anyway.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "customer-managed-encryption-keys",
+      "type": "concept",
+      "role": "concept",
+      "name": "客户管理的加密密钥 (customer-managed encryption keys)",
+      "file": "客户管理的加密密钥",
+      "primary": true,
+      "how_described": "本集说企业客户把加密钥匙放在自己的 Key Vault 里授权 Legora 读取，可随时撤销授权，控制权完全在客户手里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            259.897,
+            270.369
+          ],
+          "quote": "They also want customer-managed encryption keys, and what that means is they basically have a Key Vault thing where they have an encryption key and they give us access to read the key, and we then use that key to",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bm25",
+      "type": "concept",
+      "role": "concept",
+      "name": "BM25",
+      "file": "BM25",
+      "primary": true,
+      "how_described": "本集说迁到 Turbo Puffer 后拿到了真正的 BM25 相关性，并解释 BM25 就是按词稀有度对文档交集打分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            315.657,
+            324.941
+          ],
+          "quote": "So the setup here was PG Vector, specifically disk NN, TS Vector for the search, so not BM25, which was, you know, we lost a little bit of retrieval performance there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            410.484,
+            422.552
+          ],
+          "quote": "And the advantages of moving to TurboPuffer is we got BM25, real BM25, much better relevancy, much better latencies, and it was extremely simple to operate because we could just have a single",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1100.702,
+            1103.485
+          ],
+          "quote": "When people say BM25, this is the scoring that they're referring to.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": false,
+      "how_described": "本集顺带提到单次 RAG 式查询与智能体多次查询的对比，用来说明延迟累加问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            721.504,
+            730.366
+          ],
+          "quote": "So obviously this is a huge thing when you're doing, I mean, one thing is if you're doing a single sort of RAG style thing, but if you have an agent that does 20 queries, 100 queries, these really, really add up.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

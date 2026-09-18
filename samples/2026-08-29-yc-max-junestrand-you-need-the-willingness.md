@@ -182,9 +182,9 @@ Max 极度好胜。他说 Legora 刚成立时"完全没有存在的理由"，只
 
 **换个口味**
 
+- [[2026-09-16-talks-connect-ai-to-billions-of-legal-document|法律 AI 的搜索之战：从 Elasticsearch 到对象存储原生]]<span class="pd-rz">同公司:Legora · 同概念:智能体 (agent)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)、ChatGPT</span>
 
 </div>
 </div>

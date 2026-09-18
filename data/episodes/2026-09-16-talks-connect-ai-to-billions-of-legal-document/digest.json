@@ -1,0 +1,100 @@
+{
+  "title_zh": "法律 AI 的搜索之战：从 Elasticsearch 到对象存储原生",
+  "tldr": "Legora 工程师 Jacob 与搜索引擎 Turbo Puffer CEO Simon 讲解：法律 AI 平台如何支撑从 4 亿到 100 亿向量的检索，以及为何对象存储原生架构最省钱。",
+  "digest_md": "把 AI 接上 legal 行业的海量文档，检索（把最相关的文档从几十亿份里捞出来）就是生死线。这一集是 Legora 工程师 Jacob 和搜索引擎 Turbo Puffer 的 CEO 兼联合创始人 Simon 的对谈。Legora 是一个面向法律工作的协作式 AI 平台，客户包括律师事务所和企业法务团队，可以大致理解为法律工作领域的 Linear + Figma + Notion + GitHub。Simon 一开场就抛出重磅信息：他们做这套搜索的历程，是从几十万份文档一路卷到 20 亿份文档的。\n\nLegora 有两类搜索。第一类是**项目搜索**：项目是客户的工作单位，比如一家律所帮你做收购，会把这个案子的所有雇佣协议、供应商合同都传上来，搜索就限定在这个项目内，规模从几十份到数百万份文档不等。第二类是**法律研究**：类似深度研究式的工作负载，要横跨海量法律、判例、法规，回答「这事该怎么处理」，也用于诉讼支持。语料库正逼近 100 亿个向量，而且增长极快。\n\n## 项目搜索的演进：三个方案，两次翻车\n\n第一版最简单：一个大对象存储放原始文档，加一个 Elasticsearch 集群做所有租户的索引和检索。初期够用。但后来合规需求来了——美国客户只许数据处理发生在美国境内，欧洲只许在欧盟，澳大利亚只许在澳洲。于是他们把整套架构在多个地区上复制了三到四份，烦、开销大，但能用。\n\n第三阶段是企业客户：最大的银行和律所要求**完全物理隔离**（本质是要自己的数据库），以及**客户管理的加密密钥**——客户把加密钥匙放在自己的 Key Vault 里，只授权 Legora 读取，用它加解密静态数据。这样客户随时可以撤销授权，Legora 就读不了数据了，控制权完全在客户手里。\n\n于是他们从 Elasticsearch 迁到 Postgres（用 PG Vector 的 diskann 做向量、TS Vector 做全文搜索）。为什么放 Postgres？因为他们本来就在用 Postgres 处理 OLTP 负载，只需要维护一个系统。做法很激进：存文档分块的表做了 4000 个分区，每个项目对项目键做哈希再装箱进分区。一开始还行，但成本高、性能一般，规模化之后直接崩了。原因很有意思：项目有冷有热——有的项目建完就再也没人查，有的天天被查。装箱时冷的和热的落进同一个分区，分区越撑越大，Postgres 查询时把分区拉进内存再换下一个，缓存被反复抖动，搜索和摄取的 P99 从 100 毫秒飙升到 20 秒，用户体验稀烂。\n\n## 为什么换成 Turbo Puffer 就顺了\n\n在约 4 亿份文档的规模，他们迁到了 Turbo Puffer，每个项目一个命名空间。收益立竿见影：拿到了真正的 BM25 相关性、更好的延迟，而且运维极简——不用像 Postgres 那样维护一堆集群，因为它是基于 blob 的，直接查本来就有的 blob；不活跃的项目就静静躺在 blob 里，冷热分区的问题根本不存在了。\n\nSimon 解释了底层原因。Turbo Puffer 从创立起架构就没变过：**写入直接进对象存储**——没有磁盘复制、没有共识协议（让多台机器对数据状态达成一致的机制），就是直写 S3，先进预写日志，后台再异步构建向量、文本、列式等各种索引。这个取舍很明确：写要几百毫秒，「如果你像 Shopify 那样为名人闪购做库存预留，那不行；但对搜索来说非常非常好」——搜索场景写慢点无所谓，只要读性能好。查询时请求到达某个命名空间（可以想成 S3 上一个与其他一切隔离的目录），带着亲和性去最可能命中缓存的节点，先查内存缓存、再查 NVMe SSD 缓存、最后才到对象存储。\n\n核心设计哲学是**最小化往返次数**——S3 上 1 MB 大小的 blob，P99 延迟约 200 毫秒，所以理想情况下一次查询只做约三次往返，一切优化都围绕这个目标。少往返、高并发，也正好把现代磁盘用到最优。\n\n对 Legora 最关键的是隔离性：既然分离的原子单元是命名空间（表），那每张表都可以用不同的密钥加密、每个命名空间都可以放在不同的 bucket 里。有的客户用几千个 bucket，就为了让自己的客户因为「bucket 在我自己的云账户里」而安心。加密和分离天然就是多租户原生的。有个细节：NVMe SSD 缓存这层，Turbo Puffer 原本视为易失存储（跟内存一样），但 Legora 的客户不这么认为、要求加密。结果他们干脆禁用了磁盘缓存——发现光靠内存缓存性能就够好，部分工作负载就一直这么跑着。\n\n迁移后延迟在数量级上直接改善（这还只是中位数，P99 改善更大）。Jacob 强调这在智能体时代尤其要命：单次 RAG 式查询是一回事，但一个智能体要做 20 次、100 次查询，延迟是累加的。\n\n## 法律研究：极端冷热不均的场景\n\n法律研究的难点是语料巨大、读取量高（QPS 会大幅飙升），因为他们做大量扇出——一个查询拆成一堆子查询继续追。法律语料还像一张图：有城市、县、州、联邦的权威层级；有时间有效性（一个法官可能推翻另一地的裁决）；新法规还可能对旧法规设豁免和特殊条款——找到这条就得找到所有相关的，搜索量爆炸式增长。\n\nTurbo Puffer 的解法是把不同司法辖区做成不同命名空间：欧盟法天天被查、超级热；丹麦法律（他们是丹麦人）没人在乎，就留在 blob 上——深度研究式工作负载能容忍取冷 blob 的 500 毫秒延迟。Simon 把这叫「向不同内存层级里吹气」：热数据靠近存（内存），冷数据推到层级深处（SSD、对象存储），追求最佳性能成本比。具体到向量搜索，常见做法是在内存里建图导航，但图必须从中心开始导航，在对象存储上每穿一个节点就是一次 200 毫秒的 S3 往返，图的随机访问本质跟深层级内存天然矛盾。Turbo Puffer 的做法是把向量组织成簇、簇的簇、簇的簇的簇——「你基本上可以把 Turbo Puffer 想成一棵非常非常复杂的 B 树」。树顶的根质心每次搜索都要碰，所以常驻 DRAM；装着实际法律案例的叶子节点留在 SSD 上，最后只需一次 1 毫秒往返。「这从根本上就是运行数据库最便宜的方式」。\n\n全文搜索同样尊重内存层级：本质像哈希表，token 是键、含该词的文档 ID 集合是值，搜索就是取集合做交集并按词的稀有度打分（BM25 就是这个打分）。做交集时要压缩列表、省内存带宽，而且可以提前剪枝——见过太多高分文档后，只含常见词的文档就不用再算了。Simon 给了一个反直觉的结论：**在网络规模下，文本搜索比向量搜索更难、计算成本更高**。\n\n## 本集带走\n\n- **冷热分离是架构胜负手**：Postgres 方案崩在冷热项目装箱进同一分区、缓存反复抖动（P99 从 100 毫秒到 20 秒）；按项目/司法辖区拆成命名空间，冷的自然沉到 blob。\n- **对象存储原生 = 天然合规**：写入直进 S3、无共识协议，换来的是每个命名空间可独立加密、可放独立 bucket、可放客户自己的云账户——企业级物理隔离和客户管理密钥原生成立。\n- **写慢没关系，读要快**：搜索场景接受几百毫秒的写延迟，换真正的 BM25 和多租户下的极简运维（70+ 个租户不用各建一套 Elasticsearch）。\n- **为智能体延迟优化检索**：单次查询快没用，智能体一次任务扇出 20-100 次查询，每次省一点乘起来就是数量级。\n- **最小化往返次数**是一切设计的中心：S3 一次往返 P99 约 200 毫秒，理想一次查询约 3 次往返；向量索引用树形聚类而非图导航，就是为了让访问模式匹配深内存层级。",
+  "quotes": [
+    {
+      "en": "Hundreds of milliseconds. If you're like Shopify and doing inventory reservations for a Kylie Jenner flash sale, not gonna work. Very, very good for search.",
+      "zh": "几百毫秒的写延迟。如果你像 Shopify 那样为名人闪购做库存预留，那可不行。但对搜索来说非常非常好。",
+      "timestamp": "08:17",
+      "speaker": "Simon Eskildsen"
+    },
+    {
+      "en": "If you do a lot of concurrency in few round trips, you utilize them optimally, and everything in TurboPuffer is designed around this.",
+      "zh": "如果你在很少的往返里做大量并发，你就能最优地利用磁盘，Turbo Puffer 的一切都是围绕这个设计的。",
+      "timestamp": "09:49",
+      "speaker": "Simon Eskildsen"
+    },
+    {
+      "en": "Text search at web scale is more difficult and more computationally expensive than doing vector search.",
+      "zh": "在网络规模下，文本搜索比做向量搜索更困难、计算成本更高。",
+      "timestamp": "19:06",
+      "speaker": "Simon Eskildsen"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "08:17",
+      "speaker": "Simon",
+      "en": "Hundreds of milliseconds. If you're like Shopify and doing inventory reservations for a Kylie Jenner flash sale, not gonna work. Very, very good for search.",
+      "zh": "几百毫秒的写延迟。如果你像 Shopify 那样为名人闪购做库存预留，那可不行。但对搜索来说非常非常好。"
+    },
+    {
+      "timestamp": "09:21",
+      "speaker": "Simon",
+      "en": "Everything in TurboPuffer is optimized around doing as much work in as few round trips as possible, right?",
+      "zh": "Turbo Puffer 里的一切都是围绕用尽可能少的往返做尽可能多的工作来优化的，对吧？"
+    },
+    {
+      "timestamp": "09:47",
+      "speaker": "Simon",
+      "en": "If you do a lot of concurrency in few round trips, you utilize them optimally, and everything in TurboPuffer is designed around this.",
+      "zh": "如果你在很少的往返里做大量并发，你就能最优地利用磁盘，Turbo Puffer 的一切都是围绕这个设计的。"
+    },
+    {
+      "timestamp": "11:22",
+      "speaker": "Simon",
+      "en": "The performance of TurboPuffer even without the disk cache with just the memory cache was so good that we just kept it that way.",
+      "zh": "Turbo Puffer 即使没有磁盘缓存、只有内存缓存的性能也这么好，以至于我们就一直保持那样。"
+    },
+    {
+      "timestamp": "12:01",
+      "speaker": "Jacob",
+      "en": "If you have an agent that does 20 queries, 100 queries, these really, really add up.",
+      "zh": "如果你有一个智能体要做 20 次查询、100 次查询，这些延迟真的会累加起来。"
+    },
+    {
+      "timestamp": "14:20",
+      "speaker": "Simon",
+      "en": "One of the other explanations of the name of Turbo Puffer is that it's about puffing into the different memory hierarchies and really mastering when data should be in particular memory hierarchies.",
+      "zh": "关于 Turbo Puffer 这个名字的另一个解释是，它关乎向不同的内存层级里「吹气」，真正掌握数据应该在哪个特定内存层级上。"
+    },
+    {
+      "timestamp": "15:26",
+      "speaker": "Simon",
+      "en": "We want to spend as much time, have as much data pushed as far down in this hierarchy as possible to get the best performance cost ratios.",
+      "zh": "我们想让数据尽可能多地、尽可能长时间地被推到这个层级的下方，以获得最佳的性能成本比。"
+    },
+    {
+      "timestamp": "16:42",
+      "speaker": "Simon",
+      "en": "You can basically think of TurboPuffer as a very, very complicated B-tree, right?",
+      "zh": "你基本上可以把 Turbo Puffer 想成一棵非常非常复杂的 B 树，对吧？"
+    },
+    {
+      "timestamp": "17:18",
+      "speaker": "Simon",
+      "en": "This is fundamentally the cheapest way that you can run a database.",
+      "zh": "这从根本上就是你能运行数据库的最便宜的方式。"
+    },
+    {
+      "timestamp": "18:12",
+      "speaker": "Simon",
+      "en": "A document that has York in it is probably more valuable than a document that has new in it because York is a more rare word.",
+      "zh": "一个包含 York 的文档可能比一个包含 new 的文档更有价值，因为 York 是一个更罕见的词。"
+    },
+    {
+      "timestamp": "19:09",
+      "speaker": "Simon",
+      "en": "Text search at web scale is more difficult and more computationally expensive than doing vector search.",
+      "zh": "在网络规模下，文本搜索比做向量搜索更困难、计算成本更高。"
+    },
+    {
+      "timestamp": "19:47",
+      "speaker": "Jacob",
+      "en": "It's extremely cost-efficient generally when you have these types of workflows or workloads that we do where there's a long tail of cold indices, basically, that you don't need to query so much.",
+      "zh": "当你有像我们这样的工作负载——基本存在大量不太需要查询的冷索引的长尾——它极其节省成本。"
+    }
+  ],
+  "voice_script": "今天这期聊的是法律行业的 AI,背后那个不太起眼、但其实是生死线的问题：搜索。给你请出的两位主角，一位是 Legora 的工程师 Jacob,Legora 是一个面向律所和企业法务的协作式 AI 平台，差不多可以理解成法律工作领域的 Linear 加 Figma 加 Notion 加 GitHub;另一位是搜索引擎公司 Turbo Puffer 的 CEO 兼联合创始人 Simon。他们要讲的事情很简单：当你的平台从几十万份法律文档一路涨到二十亿份、语料逼近一百亿个向量的时候，怎么把最相关的那几份从几十亿份里捞出来，还能又快又省钱。\n\n先交代背景。Legora 有两类搜索。第一类叫项目搜索，项目就是客户的工作单位，比如律所帮你做一个收购案，会把所有雇佣协议、供应商合同都传上来，搜索就限定在这个项目里，规模从几十份到几百万份不等。第二类是法律研究，类似深度研究，要横跨海量法律、判例、法规去回答问题，这一块的语料正在逼近一百亿个向量，而且涨得飞快。\n\n那这套搜索是怎么一步步演进的呢？第一版特别朴素：原始文档扔进一个大对象存储，再用一个 Elasticsearch 集群给所有租户做索引和检索。初期够用。但麻烦很快就来了，合规要求来了——美国客户的数据只能待在美国，欧洲的只能待在欧盟，澳大利亚同理。怎么办？只能在多个地区把整套架构复制三四份，烦、开销大，但还能撑。\n\n真正的坎出在企业客户身上。最大的银行和律所要求完全的物理隔离，本质上是要自己专属的数据库，还要客户管理的加密密钥——钥匙放在客户自己的 Key Vault 里，只授权 Legora 读取。客户随时可以撤权，一撤你就读不了数据了，控制权完全在客户手里。为了满足这些要求，他们从 Elasticsearch 迁到了 Postgres,用向量插件做向量搜索、再做全文搜索。为什么选 Postgres?因为反正本来就在用它跑业务，只需要维护一个系统。做法还挺激进：把存文档分块的表切成四千个分区，每个项目按项目键做哈希再装箱进分区。\n\n一开始还行，但规模一大直接崩了。原因很有意思：项目有冷有热，有的建完就再也没人查，有的天天被查。装箱的时候，冷的和热的落进了同一个分区，分区越撑越大，Postgres 查询时把分区拉进内存、再换下一个，缓存被反复抖动，搜索延迟的 P99 从一百毫秒飙升到二十秒。你想想，一百毫秒到二十秒，用户体验就稀烂了。\n\n这就引出了他们的第二次搬家：在大约四亿份文档的规模，迁到了 Turbo Puffer,每个项目一个命名空间。收益立竿见影，拿到了真正的 BM25 相关性、更好的延迟，运维还极简——不活跃的项目就静静躺在对象存储里，冷热分区那个坑根本不存在了。\n\n为什么这套架构就顺了呢？Simon 讲了底层逻辑。Turbo Puffer 从创立起架构就没变过：写入直接进对象存储，没有磁盘复制、没有共识协议——共识协议就是让多台机器对数据状态达成一致的机制——就是直写 S3,先进预写日志，后台异步构建向量、文本各种索引。这个取舍很明确：写要几百毫秒，Simon 原话说，如果你像 Shopify 那样为名人闪购做库存预留，那可不行，但对搜索来说非常非常好。搜索场景写慢点无所谓，读要快就行。\n\n查询的时候怎么做到快？核心哲学就一句话：最小化往返次数。S3 上一次往返的 P99 大约两百毫秒，所以理想情况一次查询只做约三次往返，一切优化都围绕这个目标。少往返、高并发，就能把现代磁盘用到最优。\n\n而对 Legora 最要命的好处是隔离性。分离的原子单元是命名空间，那每张表都可以用不同密钥加密，每个命名空间可以放不同 bucket,甚至放进客户自己的云账户里，有的客户用几千个 bucket,就图个安心。加密和分离天然就是多租户原生的。还有个有趣的细节：SSD 缓存这一层，Turbo Puffer 原本当它是易失存储，跟内存一样，不需要加密，但 Legora 的客户不认，非要加密。结果他们干脆禁用了磁盘缓存，发现光靠内存缓存性能就够好，部分工作负载就一直这么跑着。迁移之后，延迟在数量级上直接改善，这还只是中位数，P99 改善更大。Jacob 特别强调，这在智能体时代尤其关键：单次查询快没用，一个智能体干一件事要扇出二十次、一百次查询，延迟是累加的，每次省一点乘起来就是数量级。\n\n那法律研究那种极端场景呢？难点是语料巨大、读取量高，因为一个查询会拆成一堆子查询继续追；而且法律语料像一张图，有县、州、联邦的权威层级，有时间效力，新法规还会给旧法规设豁免，找到一条就得找到所有相关的。Turbo Puffer 的解法是把不同司法辖区做成不同命名空间：欧盟法天天被查，超级热，放内存边上；丹麦法律没人在乎，就留在 blob 里，深度研究能容忍那五百毫秒的取冷数据延迟。Simon 把这个叫向不同内存层级里吹气，热数据靠近存，冷数据推到深处。具体到向量搜索，常见做法是在内存里建图导航，但图要从中心开始走，在对象存储上每穿一个节点就是一次两百毫秒的往返，天然矛盾。Turbo Puffer 的做法是把向量组织成簇、簇的簇、簇的簇的簇——Simon 说你基本上可以把 Turbo Puffer 想成一棵非常非常复杂的 B 树。树顶的质心常驻内存，实际的法律案例叶子节点留在 SSD 上，最后只需一次一毫秒的往返。这从根本上就是运行数据库最便宜的方式。\n\n最后还有个反直觉的结论：在网络规模下，文本搜索比向量搜索更难、计算成本更高。全文搜索本质像哈希表，词是键、文档 ID 集合是值，搜索就是取集合做交集、按词的稀有度打分，交集时还要压缩列表、提前剪枝，见过太多高分文档之后，只含常见词的文档就不用再算了。\n\n回头看这一集，冷热分离才是架构的胜负手——Postgres 崩就崩在冷热装箱进同一分区，而按项目和辖区拆成命名空间，冷的自然沉底。对象存储原生换来的是写慢一点点，读到的是极简运维、原生合规，和智能体时代真正要命的低延迟。就像 Simon 说的，如果你在很少的往返里做大量并发，就能最优地利用磁盘，Turbo Puffer 的一切都是围绕这个设计的。"
+}

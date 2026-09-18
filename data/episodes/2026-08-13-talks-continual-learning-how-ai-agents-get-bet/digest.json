@@ -1,0 +1,160 @@
+{
+  "title_zh": "经验差距：让智能体越用越聪明",
+  "tldr": "Trajectory 联合创始人 Arjun 谈持续学习：模型智商飞升却像职场新人，他给出四个愿望与实践路径。",
+  "digest_md": "这一集是 Trajectory 联合创始人 Arjun 的一场演讲（联合创始人 Ronak 也在场，曾任职 Windsurf；另一位联合创始人 Michael 做过 DeepMind 的机器人研究），主题是当下最热的方向之一：持续学习（continual learning）——让智能体随着被使用而越来越好的技术路径。\n\n他的开场世界观是：模型确实在飞速变强，但只在一个轴上变强——智商。这些模型越来越聪明，可你和它打交道时，总感觉它是「上班第一天」。就像把 Terrence Tao 塞进口袋很了不起，但陶哲轩去会计公司上班的第一天，多半不是那里最好的会计——给他几天或几年，他会非常出色。所以在智商之外，还有一条与它正交的「经验」轴，其重要性远超想象。他称之为「经验差距」，而这正是他们公司想弥合的东西。\n\n经验从哪来？Arjun 的答案是：现在就已经存在了——智能体正在生成海量 token（他提到 100 万亿这个量级），你看过或者干脆没看，它们就被丢掉了。但这些都是智能体做的真实工作，人们在其基础上采取行动，然后一切被丢弃。他们的旗帜鲜明的观点是：**这才是我们应该学习的信号**。这也是人类变强的方式——按 AI 的经典套路，人类怎么做，往往就是好的心智模型。\n\n## 他们的方法：从交互到模型规范\n\nTrajectory 在做一个支持持续学习的产品，每个环节底下都做着前沿研究。路径是：第一步，可追溯性——先捕捉那些正被丢弃的交互和经验。第二步，把用户交互提炼成「模型规范」（model spec）：一种定义「我到底想让我的智能体做什么」的方式，让智能体照着它学习。他们在研究如何从交互中提取奖励、从轨迹中提炼出精确的规范。\n\n拿到规范后，有两个学习面：一是**模型**——他们做 SDPO 这类算法研究，用 RL（强化学习，让模型从反馈信号中改进的方法）吃下完整的长轨迹、随时间改进模型；二是 **harness**（智能体的执行框架，即模型外围的工具、上下文和流程编排）——关键判断是：用户反馈该进模型还是该进 harness？比如「这家公司已退市」这类事实，你不该把它训练进模型，它是应该提供给 harness 的上下文。\n\n## 四个愿望：智能体生态还缺什么\n\nArjun 用「阿拉丁有四个愿望」的框架，讲要让持续学习跑起来、各环节需要补什么。\n\n**愿望一：可追溯性。** 两个子愿望。其一，追踪整棵执行树，包括子智能体——很多公司只追踪主操作，把工具调用和子智能体扔了，这就没法从完整过程里学习。其二，也是最关键的：**产品设计要同时考虑「捕获交互数据」和「引出恰到好处的反馈」**。第一层级的做法是搞点赞点踩，理论听起来很棒，实际上噪音极大——用过编程智能体的人都知道，你基本上什么都接受，往往过了五个提交才发现「糟了，全搞坏了」，再去撤销。所以要捕获的是纠正性行为：编辑、撤销、重试。\n\n**愿望二：eval（评估）。** 心智模型是：用户使用产品的环境，应该和 eval 的环境、训练的环境尽可能接近——理想世界里三者就是同一个东西。具体三条：eval 从真实流量中来，包括用户现在怎么用、以及他们在前沿上那些还做不到的请求；让每个任务可回放（用户做过的事，能否重放？这是很大的基建挑战但极有价值）；用生产环境的真实 harness 来评分，而不是做 harness 的变体。\n\n**愿望三：harness。** 很多产品的 harness 是围着一年半以前的模型建的，主要功能是防止智能体做坏事——在智能体会随机崩溃、输出格式错乱的年代这很有用，「但现在我们非常处于一个让智能体放开干的世界」。所以构建 harness 的思路应该是：不要强制特定流程，而是想清楚你的产品有哪些原语（搜索工具、私有数据……），把智能体视为编排这些原色的角色，然后放手。子愿望二：让智能体接口尽可能接近用户界面——理想世界里，你在 UI 上能做的每件事，智能体都能通过工具调用做到，这会让训练和持续学习容易得多。最后一个小点：让工具响应有信息量。工具写完数据库只回一句「完成」，从智能体视角看非常令人困惑，想据此训练也没有可学的信号——你完全不知道实际写入了什么。\n\n**愿望四：模型。** 切到开放权重模型远不是换个模型那么简单，还有安全合规、访问配置等一堆考量。但他的建议是：**开始适应在开放权重上运行，因为那才是让你拥有自己的权重、并在此基础上持续改进的大门**。另外，模型路由器（按任务需要把请求路由到不同能力模型的那一层）会在「把智能路由到任务所需的确切能力」上扮演巨大角色，值得现在就试验。\n\n## 产品：15 分钟完成一次后训练\n\n他们已上线 beta，合作对象是「真正在推动智能体生产环境能力边界」的前沿客户（他提到 Harvey）。核心信念是：**拥有自己智能的能力，不应该靠外包咨询获得，而应该是你自己建立的专长**。产品把后训练（post-training，在基础模型之上用自己的数据继续训练的过程）做得极简：真实做后训练的人都知道有五千万个东西会出问题、五千万个旋钮要拧，全靠研究员直觉——他们用一个智能体在幕后接管大部分旋钮，只暴露你需要知道的那几个。训练、eval、对比、部署一条龙，实际动手时间（不算等模型训练）大概 15 分钟。目标：让每家公司拥有自己的体验层。\n\n## 问答精华：什么该学、学进哪里\n\n**「持续学习」到底是什么？** 他说一个有趣的说法是：问六个研究员什么是持续学习，你会得到七个答案。他们不追求「权重实时更新才算纯粹」的定义，而是认为：你的产品赖以运行的智能是一个系统，真正的持续学习是跨整个系统做优化——根据学到的是哪类信息，决定更新系统的哪个部分。他的类比是内存分配：我们早已不用操心数据存在 RAM 哪里还是硬盘哪里，那一层被抽象掉了。模型、harness、context 也应如此——**让我们靠很少的先验去决定「更新什么、基于什么更新」，这感觉是不对的；这是一个可以被解决的科学问题，解决了就把它抽象掉**。\n\n**客户数据隐私怎么办？**（提问者提到不少公司坚持不在客户数据上训练）Arjun 说他在 Apple 时就下过不少功夫研究这个：有很多聪明的做法，你不在客户数据上训练，而是从客户数据中采样分布、再合成生成自己的数据，通过比较分布来验证，全程不直接在客户数据上训练。\n\n**什么反馈学到哪里？** 他区分两类信号：一类只知道「出错了」——比如用户痛骂智能体、点了踩、直接退出会话，你知道错了但不知道「对的」长什么样，这类只用来惩罚行为；另一类是智能体重试后得到正确解、或用户明确指出了差异——这类奖励的置信度非常高。另外还有反馈的层级：某个工具反复调用失败，这对所有人都是真的，该训进模型；某个特定用户说「我永远不想用这个子智能体」，那不该进模型，该留给上下文——而且这类事会越来越按组织、甚至按单个客户为单位生效。\n\n**哪类任务最值得做持续学习？** 他的第一层答案是：大多数任务都适用，但他最兴奋的是前沿任务。人们对 AI 产品的预期是逐步爬升的——先在产品做不到的边缘试探，看到失败就退回去；比如两年前他绝不会往编程工具里输入那些怪异查询。而持续学习最令人兴奋的链条是：用户提出需求、模型勉强做不到、在训练中学会、之后用户就能做到以前做不到的事——**基于用户「尝试但失败」的事情，真正推动可能性的边界**。\n\n## 本集带走\n\n- **抓住被丢弃的轨迹**：智能体生成的海量交互正被白白扔掉，这是持续学习最好的训练信号来源；要捕获的主不是点赞点踩，而是编辑、撤销、重试这些纠正性行为。\n- **「训练进模型」vs「放进 harness」要分清**：普适的技能缺陷（工具老调用失败）训进模型；一次性的事实和个人偏好留给上下文，不必动权重。\n- **反馈按层级归属**：全球为真的信息进模型，组织级、客户级的进各自的配置——反馈适用范围决定了它该学到哪一层。\n- **eval、训练、生产环境应尽量是同一个**：用真实流量出 eval、用真实 harness 评分、争取每个任务可回放。\n- **别再围着旧模型建护栏式 harness**：现在的模型值得放开干，harness 的职责是定义好原语、让智能体去编排，而不是强制流程；同时让工具响应带足信息量，否则没有可学的信号。\n- **尽早拥抱开放权重**：它不是换模型那么简单，但它是拥有自己的权重、持续改进的前提；后训练的复杂度可以被产品化的智能体吃掉大半。",
+  "quotes": [
+    {
+      "en": "These models are smarter and smarter, but always feels like when you're talking to them, it's their first thing on the job.",
+      "zh": "这些模型越来越聪明，但当你和它们交谈时，总感觉像是它们上班的第一天。",
+      "timestamp": "01:23",
+      "speaker": "Arjun Karanam"
+    },
+    {
+      "en": "And so we have this orthogonal axis of experience that is much more important than we think in conjunction with IQ.",
+      "zh": "所以我们有这个与智商正交的经验轴，它的重要性远超我们的想象。",
+      "timestamp": "01:44",
+      "speaker": "Arjun Karanam"
+    },
+    {
+      "en": "But more excitingly, it gets you to this goal of systems that compound with use.",
+      "zh": "但更令人兴奋的是，它能让你达到这个目标：随着使用而复利增长的系统。",
+      "timestamp": "02:58",
+      "speaker": "Arjun Karanam"
+    },
+    {
+      "en": "In an ideal world, every single thing that I can do on your UI, your agent can do via a tool call as well.",
+      "zh": "在理想世界里，我能在你的 UI 上做的每一件事，你的智能体也能通过一次工具调用做到。",
+      "timestamp": "09:34",
+      "speaker": "Arjun Karanam"
+    },
+    {
+      "en": "So start getting comfortable running on open weights, because that is what unlocks the door to owning your weights and then continually improving on top of them.",
+      "zh": "所以开始适应在开放权重上运行，因为那才是打开大门、让你拥有自己的权重并在此基础上持续改进的关键。",
+      "timestamp": "10:52",
+      "speaker": "Arjun Karanam"
+    },
+    {
+      "en": "A really, really core belief we have is that this capability, this ability to own your own intelligence should not be something that you need to consult away a lot of the times.",
+      "zh": "我们有一个非常非常核心的信念：这种拥有自己智能的能力，不应该在很多情况下都需要外包咨询。",
+      "timestamp": "12:43",
+      "speaker": "Arjun Karanam"
+    },
+    {
+      "en": "because if you've post-trained, you know there's like 50 million things that go wrong, 50 million knobs to turn, and it's all researcher intuition, trademark, asterisk, whatever that means.",
+      "zh": "因为如果你做过后训练，你知道会有五千万个东西出问题、五千万个旋钮要拧，全靠研究人员的直觉，注册商标，星号，不管那是什么意思。",
+      "timestamp": "13:28",
+      "speaker": "Arjun Karanam"
+    },
+    {
+      "en": "But what we're seeing with some of our customers are cases where users ask for things, the model can barely do it, but then during training it learns how to do it and then the user can now do this thing they couldn't do before.",
+      "zh": "但我们在一些客户那里看到的情况是，用户提出一些需求，模型勉强能做到，然后在训练过程中它学会了怎么做，之后用户就能做到以前做不到的事情了。",
+      "timestamp": "21:25",
+      "speaker": "Arjun Karanam"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:23",
+      "speaker": "Arjun",
+      "en": "These models are smarter and smarter, but always feels like when you're talking to them, it's their first thing on the job.",
+      "zh": "这些模型越来越聪明，但当你和它们交谈时，总感觉像是它们上班的第一天。"
+    },
+    {
+      "timestamp": "01:44",
+      "speaker": "Arjun",
+      "en": "And so we have this orthogonal axis of experience that is much more important than we think in conjunction with IQ.",
+      "zh": "所以我们有这个与智商正交的经验轴，它的重要性远超我们的想象。"
+    },
+    {
+      "timestamp": "02:21",
+      "speaker": "Arjun",
+      "en": "And so our take as a company, as Gabe mentioned, like our opinionated take, is that this is the signal that we should be learning from.",
+      "zh": "所以作为一家公司，正如 Gabe 提到的，我们旗帜鲜明的观点是：这才是我们应该学习的信号。"
+    },
+    {
+      "timestamp": "02:58",
+      "speaker": "Arjun",
+      "en": "But more excitingly, it gets you to this goal of systems that compound with use.",
+      "zh": "但更令人兴奋的是，它能让你达到这个目标：随着使用而复利增长的系统。"
+    },
+    {
+      "timestamp": "07:00",
+      "speaker": "Arjun",
+      "en": "And that sounds amazing in theory, but it's incredibly noisy.",
+      "zh": "这在理论上听起来很棒，但实际上噪音极大。"
+    },
+    {
+      "timestamp": "07:09",
+      "speaker": "Arjun",
+      "en": "And it's only like five commits later that you're like, oh crap, like this broke everything, let me go and undo that.",
+      "zh": "往往要过了五个提交之后你才说，哦糟了，这把一切都搞坏了，让我去撤销。"
+    },
+    {
+      "timestamp": "09:04",
+      "speaker": "Arjun",
+      "en": "But now we're very much in a let the agents cook world.",
+      "zh": "但现在我们非常处于一个「让智能体放开干」的世界。"
+    },
+    {
+      "timestamp": "09:34",
+      "speaker": "Arjun",
+      "en": "In an ideal world, every single thing that I can do on your UI, your agent can do via a tool call as well.",
+      "zh": "在理想世界里，我能在你的 UI 上做的每一件事，你的智能体也能通过一次工具调用做到。"
+    },
+    {
+      "timestamp": "10:12",
+      "speaker": "Arjun",
+      "en": "And if you're trying to train or learn off of that, there's no signal to learn off of.",
+      "zh": "而且如果你想据此进行训练或学习，就没有可学习的信号。"
+    },
+    {
+      "timestamp": "10:52",
+      "speaker": "Arjun",
+      "en": "So start getting comfortable running on open weights, because that is what unlocks the door to owning your weights and then continually improving on top of them.",
+      "zh": "所以开始适应在开放权重上运行，因为那才是打开大门、让你拥有自己的权重并在此基础上持续改进的关键。"
+    },
+    {
+      "timestamp": "12:43",
+      "speaker": "Arjun",
+      "en": "A really, really core belief we have is that this capability, this ability to own your own intelligence should not be something that you need to consult away a lot of the times.",
+      "zh": "我们有一个非常非常核心的信念：这种拥有自己智能的能力，不应该在很多情况下都需要外包咨询。"
+    },
+    {
+      "timestamp": "13:25",
+      "speaker": "Arjun",
+      "en": "because if you've post-trained, you know there's like 50 million things that go wrong, 50 million knobs to turn, and it's all researcher intuition, trademark, asterisk, whatever that means.",
+      "zh": "因为如果你做过后训练，你知道会有五千万个东西出问题、五千万个旋钮要拧，全靠研究人员的直觉，注册商标，星号，不管那是什么意思。"
+    },
+    {
+      "timestamp": "14:46",
+      "speaker": "Arjun",
+      "en": "Yeah, I think a fun phrase is that if you ask six researchers what continual learning is, you're going to get seven answers probably.",
+      "zh": "是的，我觉得一个有趣的说法是：如果你问六位研究人员什么是持续学习，你可能会得到七个答案。"
+    },
+    {
+      "timestamp": "15:42",
+      "speaker": "Arjun",
+      "en": "It feels wrong that we're having to make the decision off of very little priors what to update based on what.",
+      "zh": "让我们基于非常少的先验去决定更新什么、基于什么来更新，这感觉是不对的。"
+    },
+    {
+      "timestamp": "15:50",
+      "speaker": "Arjun",
+      "en": "This is a scientific problem that can be solved.",
+      "zh": "这是一个可以被解决的科学问题。"
+    },
+    {
+      "timestamp": "18:09",
+      "speaker": "Arjun",
+      "en": "Those are cases where you know something went wrong but not what right looks like.",
+      "zh": "这些情况是你知道出错了，但不知道「对的」是什么样子。"
+    },
+    {
+      "timestamp": "21:25",
+      "speaker": "Arjun",
+      "en": "But what we're seeing with some of our customers are cases where users ask for things, the model can barely do it, but then during training it learns how to do it and then the user can now do this thing they couldn't do before.",
+      "zh": "但我们在一些客户那里看到的情况是，用户提出一些需求，模型勉强能做到，然后在训练过程中它学会了怎么做，之后用户就能做到以前做不到的事情了。"
+    }
+  ],
+  "voice_script": "今天要聊的这个人叫 Arjun，是一家叫 Trajectory 的公司联合创始人。一起做这家公司的还有两位搭档，一位以前在 Windsurf 干过，另一位做过 DeepMind 的机器人研究。这次是一场演讲，主题是当下特别热的一个方向：持续学习——说白了，就是让智能体随着被使用而越来越好的技术路径。\n\nArjun 开场先给了个世界观。他说，模型确实在飞速变强，但只在一个轴上变强，就是智商。这些模型越来越聪明，可你跟它打交道的时候，总感觉它是上班第一天。打了个比方：把陶哲轩塞进口袋确实了不起，但陶哲轩去会计公司上班的第一天，多半不是那儿最好的会计——给他几天甚至几年，他会非常出色。所以在智商之外，还有一条跟它正交的轴，叫经验，重要性远超想象。这个差距，他们称之为经验差距，也正是这家公司想弥合的东西。\n\n那经验从哪儿来？答案是：现在就已经存在了，只是被白白扔掉了。智能体每天都在生成海量的交互，量级能到一百万亿个 token，你看过也好，压根没看也好，最后全被丢掉。但这些是智能体做的真实工作，人们还在这些工作基础上采取行动，然后一切归零。他们的观点旗帜鲜明：这才是我们应该学习的信号。而且这也是人类变强的方式——按 AI 行业的经典套路，人类怎么做，往往就是好的心智模型。\n\n顺着这个思路，Trajectory 的产品路径分几步。第一步是可追溯性，先把那些正被丢弃的交互和经验捕捉下来。第二步，把用户交互提炼成模型规范——就是定义清楚\"我到底想让我的智能体做什么\"，让智能体照着学。拿到规范之后，有两条学习路径：一条是训模型，用强化学习这种从反馈信号中改进的方法，吃下完整的长轨迹；另一条是 harness——也就是智能体的执行框架，模型外围那些工具、上下文和流程编排。这里有个关键判断：用户反馈该进模型，还是该进 harness？举个例子，\"这家公司已经退市\"这种事实，你不该把它训练进模型，它是应该提供给 harness 的上下文。\n\n那要让这套东西真正跑起来，整个智能体生态还缺什么？Arjun 用了一个\"阿拉丁有四个愿望\"的框架来讲。\n\n愿望一，可追溯性。里面有两个子愿望。第一，要追踪整棵执行树，包括子智能体——很多公司只追踪主操作，把工具调用和子智能体都扔了，这就没法从完整过程里学习。第二个更关键：产品设计要同时考虑捕获交互数据和引出恰到好处的反馈。最粗的做法是搞点赞点踩，理论上很棒，实际噪音极大——用过编程智能体的人都知道，你基本上什么都接受，往往过了五个提交才发现糟了，全搞坏了，再去撤销。所以要捕获的是纠正性行为：编辑、撤销、重试。\n\n愿望二，eval，也就是评估。心智模型是：用户使用产品的环境，应该和评估的环境、训练的环境尽可能接近，理想世界里三者就是同一个东西。具体三条：评估要从真实流量里来，包括用户那些产品还做不到的前沿请求；让每个任务可回放，这是很大的基建挑战但极有价值；用生产环境的真实 harness 来评分，别做变体。\n\n愿望三，harness 本身。很多产品的 harness 是围着一年半以前的模型建的，主要功能是防止智能体做坏事——在智能体会随机崩溃、输出格式错乱的年代这很有用，但现在我们非常处在一个让智能体放开干的世界。所以思路应该是：不要强制特定流程，而是想清楚你的产品有哪些原语，比如搜索工具、私有数据这些，把智能体视为编排这些原语的角色，然后放手。另外让智能体的接口尽可能接近用户界面——理想世界里，你在界面上能做的每一件事，智能体都能通过一次工具调用做到，这会让训练容易得多。还有个小点：工具响应要有信息量。工具写完数据库只回一句\"完成\"，从智能体视角看非常令人困惑，想据此训练也没有可学的信号。\n\n愿望四，模型。切到开放权重模型，远不是换个模型那么简单，还有安全合规、访问配置一堆考量。但建议很明确：开始适应在开放权重上运行，因为那才是打开大门、让你拥有自己的权重并在此基础上持续改进的关键。另外，模型路由器——就是按任务需要把请求路由到不同能力模型的那一层——会很关键，值得现在就试验。\n\n他们产品已经上线了 beta，合作的是 Harvey 这种真正在推动智能体生产环境能力边界的前沿客户。核心信念是：拥有自己智能的能力，不应该靠外包咨询获得，而应该是你自己建立的专长。产品把后训练做得极简——真实做过的人都懂，有五千万个东西会出问题、五千万个旋钮要拧，全靠研究员直觉。他们用一个智能体在幕后接管大部分旋钮，只暴露你需要知道的那几个。训练、评估、对比、部署一条龙，实际动手时间大概十五分钟。\n\n问答环节里还有几个有意思的点。比如\"持续学习\"到底指什么？有个说法是：问六个研究员，你会得到七个答案。他们不追求\"权重实时更新才算纯粹\"的定义，而是认为真正的持续学习是跨整个系统做优化——根据学到的是哪类信息，决定更新系统的哪个部分。类比内存分配：我们早已不用操心数据存在内存还是硬盘，那一层被抽象掉了。模型和 harness 也该如此——靠很少的先验就去决定更新什么，这感觉不对；这是一个可以被解决的科学问题，解决了就把它抽象掉。\n\n客户数据隐私怎么办？Arjun 在 Apple 时就研究过这个：有很多聪明的做法，不直接在客户数据上训练，而是采样分布、再合成生成自己的数据，通过比较分布来验证。\n\n那什么反馈学到哪里？要区分两类信号：一类只知道出错了，比如用户点了踩、直接退出会话，你知道错了但不知道对的什么样，这类只用来惩罚行为；另一类是重试后得到正确解、或用户明确指出了差异，这类奖励置信度非常高。还有层级问题：某个工具反复调用失败，这对所有人都是真的，该训进模型；某个用户说\"我永远不想用这个子智能体\"，那不该进模型，该留给上下文。\n\n最后，哪类任务最值得做持续学习？大多数任务都适用，但最让人兴奋的是前沿任务。用户提出需求，模型勉强做不到，在训练中学会，之后用户就能做到以前做不到的事——基于用户尝试但失败的事情，真正推动可能性的边界。\n\n所以你看，模型智商在飞升，但光聪明不够，还得上手干活。经验是靠日常使用一点点攒出来的，而那些正被丢弃的交互，恰恰是最好的养料。持续学习的目标，是造出一个随着使用而复利增长的系统——这才是这一集真正想留给你的东西。"
+}

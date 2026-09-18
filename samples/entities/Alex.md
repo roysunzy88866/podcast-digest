@@ -44,7 +44,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[AGI]] · [[Google]] · [[Meta]] · [[智能体]] · [[SpaceX]] · [[NVIDIA]] · [[Oracle]] · [[资本支出]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":120,"Anthropic":125,"AGI":23,"Google":44,"Meta":32,"智能体":264,"SpaceX":15,"NVIDIA":36,"Oracle":7,"资本支出":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":120,"Anthropic":125,"AGI":23,"Google":44,"Meta":32,"智能体":267,"SpaceX":16,"NVIDIA":37,"Oracle":7,"资本支出":4}</script>
 
 <script>
 (function(){

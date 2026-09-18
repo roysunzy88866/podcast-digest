@@ -165,8 +165,8 @@ Daniel 自己则更偏爱那种由高信念创始人领导的公司。在节目�
 **换个口味**
 
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:工具框架 (harness)、智能体 (agent)、评估 (eval)</span>
+- [[2026-08-13-talks-continual-learning-how-ai-agents-get-bet|经验差距：让智能体越用越聪明]]<span class="pd-rz">同概念:工具框架 (harness)、智能体 (agent)、评估 (eval)</span>
 - [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|Clay 的智能体矩阵：如何为数十亿次运行建评估]]<span class="pd-rz">同概念:工具框架 (harness)、智能体 (agent)、评估 (eval)</span>
-- [[2026-09-15-trainingdata-box-s-aaron-levie-on-reinventing-yoursel|Box 创始人 Erin Levy：套壳的逆袭与应用层的万亿机会]]<span class="pd-rz">同概念:工具框架 (harness)、智能体 (agent)、评估 (eval)</span>
 
 </div>
 </div>

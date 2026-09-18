@@ -1,0 +1,780 @@
+{
+  "episode_id": "2026-08-13-talks-continual-learning-how-ai-agents-get-bet",
+  "podcast": "精选演讲",
+  "date": "2026-08-13",
+  "tags": [
+    "持续学习",
+    "智能体",
+    "后训练",
+    "评估",
+    "开放权重模型"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "gabe",
+      "type": "person",
+      "role": "host",
+      "name": "Gabe",
+      "file": "Gabe",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            141.654,
+            149.238
+          ],
+          "quote": "And so our take as a company, as Gabe mentioned, like our opinionated take, is that this is the signal that we should be learning from.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 135,
+          "t": [
+            662.936,
+            667.279
+          ],
+          "quote": "And then Gabe also talked about this, this idea that model routers are",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 155,
+          "t": [
+            798.394,
+            801.055
+          ],
+          "quote": "But here's Harvey, here's the loud benchmark that Gabe was talking about.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "arjun-karanam",
+      "type": "person",
+      "role": "cohost",
+      "name": "Arjun Karanam",
+      "file": "Arjun Karanam",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "trajectory",
+      "type": "company",
+      "role": "company",
+      "name": "Trajectory",
+      "file": "Trajectory",
+      "primary": true,
+      "how_described": "本集介绍的演讲者所在公司：正在构建持续学习平台，让任何公司拥有自己的模型和体验层，从真实交互中实现持续学习",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            1.551,
+            4.232
+          ],
+          "quote": "We have Arjun and Ronak, co-founders of Trajectory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            30.27,
+            34.131
+          ],
+          "quote": "We're trajectory, and we're building the platform for continual learning.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1049.629,
+            1052.894
+          ],
+          "quote": "Does Trajectory have an opinionated take about that in the platform?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": true,
+      "how_described": "本集提到 Trajectory 合作的前沿客户之一，是「真正在推动智能体生产环境能力边界」的公司，产品演示中以它和某 benchmark 为例展示模型训练与 eval 流程",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            798.394,
+            801.055
+          ],
+          "quote": "But here's Harvey, here's the loud benchmark that Gabe was talking about.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1153.368,
+            1164.033
+          ],
+          "quote": "And one thing we're really excited about is the stuff Harvey was talking about where this is actually something that will probably happen on a per-org basis or, of course, even further, a per-customer basis.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "continual-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续学习 (continual learning)",
+      "file": "持续学习",
+      "primary": true,
+      "how_described": "本集主线：让智能体随着被使用而越来越好的技术路径；真正的持续学习是跨整个系统（模型、harness、context）做优化，根据信息类型决定更新系统哪个部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            4.632,
+            10.254
+          ],
+          "quote": "They're doing a bunch of interesting research around what I think is one of the hotter topics, continual learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            30.27,
+            34.131
+          ],
+          "quote": "We're trajectory, and we're building the platform for continual learning.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 49,
+          "t": [
+            207.515,
+            219.582
+          ],
+          "quote": "And then step number two, and this is where we start getting into our research, the way we view the company we're building is we are building a product to allow for continual learning, but we're doing cutting-edge research under every single one of them to make this possible.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 73,
+          "t": [
+            341.828,
+            353.212
+          ],
+          "quote": "And so we have agents today, we have this gap, and there's a level where agents should get to, and after that we can really see the exponential effects of continual learning.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 115,
+          "t": [
+            581.682,
+            585.645
+          ],
+          "quote": "I think that is a world that makes training and continual learning so, so much easier.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 152,
+          "t": [
+            779.41,
+            789.054
+          ],
+          "quote": "And what that means for us is we want to build a product that empowers any company to own their own models and mainly get to continual learning from real interactions.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 171,
+          "t": [
+            886.902,
+            894.764
+          ],
+          "quote": "Yeah, I think a fun phrase is that if you ask six researchers what continual learning is, you're going to get seven answers probably.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 175,
+          "t": [
+            911.729,
+            925.594
+          ],
+          "quote": "It's a system that has many components and true continual learning is something that optimizes across that system and optimize it based on what parts of the system needs to be updated for the information that you're learning.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 189,
+          "t": [
+            972.712,
+            976.194
+          ],
+          "quote": "And I imagine a big part of continual learning is you are learning from all these interactions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1037.633,
+            1042.079
+          ],
+          "quote": "I think episodic memory plays a role in continual learning to some extent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1194.837,
+            1197.699
+          ],
+          "quote": "I guess extending that analogy to continual learning",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1222.974,
+            1227.837
+          ],
+          "quote": "I think the level one answer is, I think for the most part, most tasks work for continual learning.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1297.927,
+            1305.71
+          ],
+          "quote": "That chain is what's really exciting about continual learning, like really pushing that frontier of what's possible based on what the user tries and cannot do.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "experience-gap",
+      "type": "concept",
+      "role": "concept",
+      "name": "经验差距 (experience gap)",
+      "file": "经验差距",
+      "primary": true,
+      "how_described": "本集提出的核心概念：模型只在一个轴（智商）上变强，但与它正交还有一条「经验」轴，模型总像「上班第一天」，Trajectory 要弥合的就是这个差距",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            112.769,
+            116.672
+          ],
+          "quote": "And that's what we're calling the experience gap, and that is what we want to close as a company.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集讨论的对象：今天正生成海量 token（100 万亿量级）但缓慢、昂贵、不随时间变好；愿景是「learning agents」——被使用越多越好越好的智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            227.345,
+            234.188
+          ],
+          "quote": "This idea that you need to have a way to define what do I want my agent to do and have the agent learn against that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 53,
+          "t": [
+            234.508,
+            243.732
+          ],
+          "quote": "So we're doing really cool research here on how to extract user interactions, turn that into reward, extract traces, and turn that into exact specs of what you want your agent to do.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 55,
+          "t": [
+            245.751,
+            246.991
+          ],
+          "quote": "You have what you want your agent to do.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 68,
+          "t": [
+            292.488,
+            310.838
+          ],
+          "quote": "And so that is kind of how we're splitting things, and that is the product that we're building, allowing you to go from real interactions all the way to specs of what you want your agent to get better at to better models and then better harnesses, and then being able to deploy those models right away and then using your product.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 72,
+          "t": [
+            337.586,
+            340.508
+          ],
+          "quote": "And what are those wishes that I would ask to like make the agent ecosystem",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 89,
+          "t": [
+            424.853,
+            429.375
+          ],
+          "quote": "And if you've used any coding agent, you know you kind of just like accept everything that the agent does.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 108,
+          "t": [
+            520.036,
+            538.272
+          ],
+          "quote": "Number one is, and I think the mental model to use here is, I think a lot of products have built their harnesses around models that existed a year or a year and a half ago, where the primary function of the harness was to prevent the agent from doing bad things.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 111,
+          "t": [
+            548.236,
+            565.423
+          ],
+          "quote": "And so I think I would view building the harness as not enforcing specific flows that need to be done, but more what are the primitives that your product has, whether that's search tools or private information, and then viewing the agent as orchestrating those primitives and then letting it do that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 113,
+          "t": [
+            567.834,
+            573.617
+          ],
+          "quote": "SubWish 2, and this is how we're building our product as well, is making the agent interface as close to the user interface as possible.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 114,
+          "t": [
+            574.378,
+            580.842
+          ],
+          "quote": "In an ideal world, every single thing that I can do on your UI, your agent can do via a tool call as well.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 123,
+          "t": [
+            608.206,
+            612.411
+          ],
+          "quote": "That sounds good in theory, but from an agent's perspective, it's incredibly confusing.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 161,
+          "t": [
+            826.047,
+            833.572
+          ],
+          "quote": "Use an agent behind the scenes to take care of most of those knobs and just only expose the ones you need to know to make post-training as easy as possible.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1042.099,
+            1049.049
+          ],
+          "quote": "For example, if a user does something on our platform that corrects what an agent did before, you might want to update an agent's behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1080.669,
+            1089.395
+          ],
+          "quote": "Like for example, if somebody like flames the agent and says like, you're really bad but he doesn't follow anything up with that or just thumbs down or like drops off the session.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1094.138,
+            1096.48
+          ],
+          "quote": "Then you have things like the agent retried.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1143.088,
+            1147.01
+          ],
+          "quote": "A certain user is like, I never want to use this sub-agent.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "traceability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可追溯性 (traceability)",
+      "file": "可追溯性",
+      "primary": true,
+      "how_described": "本集愿望一：先捕捉正被丢弃的交互与经验，包括追踪整棵执行树（含子智能体），并围绕捕获交互数据和引出恰到好处的反馈来设计产品",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            193.627,
+            199.61
+          ],
+          "quote": "And so where it starts off, and this kind of dovetails off of what Harrison was talking about before, is it starts off with traceability.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 76,
+          "t": [
+            358.954,
+            361.535
+          ],
+          "quote": "What we would like to see on the traceability side.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 80,
+          "t": [
+            371.989,
+            373.551
+          ],
+          "quote": "Traceability.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 93,
+          "t": [
+            445.084,
+            447.945
+          ],
+          "quote": "So that's my wish on traceability.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 142,
+          "t": [
+            713.417,
+            719.222
+          ],
+          "quote": "Or assuming that the traceability is off, like how can we learn from the signals that are there?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (eval)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集愿望二：用户使用产品的环境、eval 环境、训练环境应尽可能是同一个；eval 从真实流量中来、每个任务可回放、用生产环境的真实 harness 评分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            362.635,
+            367.763
+          ],
+          "quote": "What we'd like to see on the eval side, what we'd like to see on the harness side, and what we'd like to see on the model side.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 95,
+          "t": [
+            452.006,
+            465.391
+          ],
+          "quote": "And the mental model to use here is your, the product that your user uses should be as similar as, as close to what the eval is done in, in ProWise.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 162,
+          "t": [
+            834.192,
+            843.598
+          ],
+          "quote": "So really easy to train a model, see how the model's doing, eval it, compare it, see if it's better than the model you were using before, and then deploy it.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集愿望三：模型外围的执行框架；很多 harness 围着一年半以前的模型建、主打防智能体做坏事，现在应改为定义好原语、让智能体去编排并放手",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            275.418,
+            280.421
+          ],
+          "quote": "When you have good feedback from people, does that go to a harness or does that go to a model?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 67,
+          "t": [
+            289.767,
+            291.548
+          ],
+          "quote": "There's probably context that should be available to the harness.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 77,
+          "t": [
+            362.635,
+            367.763
+          ],
+          "quote": "What we'd like to see on the eval side, what we'd like to see on the harness side, and what we'd like to see on the model side.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 104,
+          "t": [
+            503.442,
+            506.583
+          ],
+          "quote": "And then lastly, this goes with number one, grading through the real harness.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 105,
+          "t": [
+            507.343,
+            511.384
+          ],
+          "quote": "Not making a variation of the harness, but grading the real harnesses that people use in production.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 107,
+          "t": [
+            515.732,
+            519.135
+          ],
+          "quote": "Wish number three, getting into the harness, pretty important.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 108,
+          "t": [
+            520.036,
+            538.272
+          ],
+          "quote": "Number one is, and I think the mental model to use here is, I think a lot of products have built their harnesses around models that existed a year or a year and a half ago, where the primary function of the harness was to prevent the agent from doing bad things.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 111,
+          "t": [
+            548.236,
+            565.423
+          ],
+          "quote": "And so I think I would view building the harness as not enforcing specific flows that need to be done, but more what are the primitives that your product has, whether that's search tools or private information, and then viewing the agent as orchestrating those primitives and then letting it do that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 127,
+          "t": [
+            620.039,
+            624.825
+          ],
+          "quote": "And so that's the last sub-wish under the harness, is to make your tool responses really informative.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 169,
+          "t": [
+            878.98,
+            884.962
+          ],
+          "quote": "Between model weights, harness, tools, application layers, how do you think of them?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1198.34,
+            1220.108
+          ],
+          "quote": "Are there tasks or workflows or what is the shape of problem where something like this you've seen really matters a lot versus where just using a statically trained frontier model or even a statically trained open source model and then using the harness to inject relevant information into the context is sufficient to achieve what the user usually wants to achieve?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "model-spec",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型规范 (model spec)",
+      "file": "模型规范",
+      "primary": true,
+      "how_described": "本集提出的中间层：一种定义「我到底想让我的智能体做什么」的方式，从用户交互和轨迹中提炼规范，让智能体照着它学习",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            221.663,
+            226.845
+          ],
+          "quote": "You have all these interactions, and the next thing we're building is this idea of a model spec.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "sub-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (sub-agent)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集多次谈到：很多公司只追踪主操作、把子智能体扔掉，导致没法从完整过程学习；某个用户「永远不想用这个子智能体」的偏好不该训进模型、该留给上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            1143.088,
+            1147.01
+          ],
+          "quote": "A certain user is like, I never want to use this sub-agent.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "rl",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL",
+      "file": "RL",
+      "primary": true,
+      "how_described": "本集说 Trajectory 用 RL 吃下完整的长轨迹、随时间改进模型，是模型侧学习面的核心方法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            255.833,
+            268.897
+          ],
+          "quote": "And so we're doing really cool research on algorithms like SDPO and things along those lines where we're using RL to take these full long traces and improve models over time.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集说在基础模型之上用自己的数据继续训练的过程通常有五千万个旋钮要拧、全靠研究员直觉，Trajectory 的产品用智能体接管大部分旋钮、15 分钟完成一次后训练",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            826.047,
+            833.572
+          ],
+          "quote": "Use an agent behind the scenes to take care of most of those knobs and just only expose the ones you need to know to make post-training as easy as possible.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "open-weight-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open weight model)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集愿望四：切到开放权重远不只是换模型（还有安全合规、访问配置等），但它是拥有自己权重、在其上持续改进的大门，应尽早适应",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            639.818,
+            652.248
+          ],
+          "quote": "I wish it was as easy as just switching to an open weight model, but if you've tried that, you've probably seen there's 50 other considerations from security to safety to different access provisioning stuff.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "sdpo",
+      "type": "concept",
+      "role": "concept",
+      "name": "SDPO",
+      "file": "SDPO",
+      "primary": false,
+      "how_described": "本集提到 Trajectory 正在研究的算法之一，用 RL 利用完整长轨迹随时间改进模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            255.833,
+            268.897
+          ],
+          "quote": "And so we're doing really cool research on algorithms like SDPO and things along those lines where we're using RL to take these full long traces and improve models over time.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "model router",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}
