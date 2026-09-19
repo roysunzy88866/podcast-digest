@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":3,"OpenAI":121,"Anthropic":128,"Salesforce":24,"Harvey":12,"Cursor":62,"11 Labs":4,"GrokBot":6,"Town":3,"Decagon":7}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":3,"OpenAI":122,"Anthropic":129,"Salesforce":24,"Harvey":12,"Cursor":62,"11 Labs":4,"GrokBot":6,"Town":3,"Decagon":7}</script>
 
 <script>
 (function(){

@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":4,"Axios":1,"OpenAI":121,"ChatGPT":69,"Claude":60,"Google":44,"Anthropic":128,"智能体":270,"认知疲劳":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":4,"Axios":1,"OpenAI":122,"ChatGPT":71,"Claude":60,"Google":45,"Anthropic":129,"智能体":272,"认知疲劳":1}</script>
 
 <script>
 (function(){

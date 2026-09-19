@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Town":3,"Plaid":2,"AI 助手":2,"智能体":270,"网络效应":11,"护城河":11,"模型路由":7,"前沿模型":16,"Anthropic":128}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Town":3,"Plaid":2,"AI 助手":2,"智能体":272,"网络效应":12,"护城河":11,"模型路由":7,"前沿模型":17,"Anthropic":129}</script>
 
 <script>
 (function(){

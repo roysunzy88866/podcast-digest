@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":128,"Salesforce":24,"YC":13,"智能体":270,"SaaS 已死":1,"一次性代码":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":129,"Salesforce":24,"YC":13,"智能体":272,"SaaS 已死":1,"一次性代码":1}</script>
 
 <script>
 (function(){

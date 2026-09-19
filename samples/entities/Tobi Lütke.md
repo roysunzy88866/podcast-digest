@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Shopify":9,"River":2,"智能体":270,"Sydney":1,"沙箱":52,"LLM":34,"pull request":2,"超级智能":4,"古德哈特定律":1,"Omaki":1}</script>
+<script type="application/json" class="pd-epn">{"Shopify":9,"River":2,"智能体":272,"Sydney":1,"沙箱":52,"LLM":34,"pull request":2,"超级智能":4,"古德哈特定律":1,"Omaki":1}</script>
 
 <script>
 (function(){

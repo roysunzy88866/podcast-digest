@@ -193,9 +193,9 @@ Bret 接着说了一个更深的坑：你以为自己在回答"什么最有影�
 
 **换个口味**
 
+- [[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|AI 末日论反弹：是营销烟雾弹，还是真该警惕？]]<span class="pd-rz">同公司:OpenAI · 同概念:前沿模型 (frontier model)、智能体 (agent)</span>
 - [[2026-08-09-talks-velocity-sickness-what-happens-when-your|速度病：当团队 10 倍速写代码却推不出产品，怎么治]]<span class="pd-rz">同概念:上下文工程 (context engineering)、智能体 (agent)</span>
 - [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Cursor、OpenAI · 同概念:智能体 (agent)、MCP</span>
-- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)、SaaS</span>
 
 </div>
 </div>

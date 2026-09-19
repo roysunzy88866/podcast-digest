@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LinkedIn</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LinkedIn">LI</div><div class="pi"><h1 class="pt">LinkedIn</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LinkedIn">LI</div><div class="pi"><h1 class="pt">LinkedIn</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]]**(06:55起):本集提到 LinkedIn 在更小尺度上复刻了两遍平台周期——先是公司主页，再是个人主页，都是先给流量再压下来推广告
 - **[[2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p|《LinkedIn 怎么让编码智能体真正读懂内部系统》]]**(00:20起):本集主讲人所在的公司,拥有超过 1,000 个仓库、数千个微服务和大量自建基础设施,他们为编码智能体搭建了 Contextual Agent Playbooks and Tools 系统让 AI 在企业内真正可用
 - **[[2026-09-13-yc-8-ways-to-improve-your-outbound-sales-e3|《外呼回复率接近零？创始人卖货的八个实操技巧》]]**(01:19起):外呼的主阵地之一：主页被比作邮件的主题行，主讲人给了优化主页和积累共同好友的具体建议
+- **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(02:33起):本集提到 Josh 早期在 LinkedIn 工作过，并用『加入第一周全公司 15 人动手搬机架』说明早年建站成本之高
 
 ## ① 提到它的金句
 
@@ -29,19 +30,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司(提及)
 - [[2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p|《LinkedIn 怎么让编码智能体真正读懂内部系统》]] — 作为被讨论公司
 - [[2026-09-13-yc-8-ways-to-improve-your-outbound-sales-e3|《外呼回复率接近零？创始人卖货的八个实操技巧》]] — 作为被讨论公司
+- [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Ajay Prakash]] · [[One Schema]] · [[Brian Balfour]] · [[编码智能体]] · [[YC]] · [[ChatGPT]] · [[MCP]] · [[Apten]] · [[Claude]]
+[[ChatGPT]] · [[Facebook]] · [[Google]] · [[Apple]] · [[智能体]] · [[网络效应]] · [[Lenny]] · [[Ajay Prakash]] · [[One Schema]] · [[Josh Elman]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Ajay Prakash":1,"One Schema":1,"Brian Balfour":1,"编码智能体":13,"YC":13,"ChatGPT":69,"MCP":45,"Apten":1,"Claude":60}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":71,"Facebook":14,"Google":45,"Apple":18,"智能体":272,"网络效应":12,"Lenny":67,"Ajay Prakash":1,"One Schema":1,"Josh Elman":1}</script>
 
 <script>
 (function(){

@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Peter Steinberger]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[MCP]] · [[提示注入]] · [[CLI]] · [[护城河]] · [[ChatGPT]]
+[[Peter Steinberger]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[MCP]] · [[提示注入]] · [[CLI]] · [[护城河]] · [[Discord]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":18,"智能体":270,"Codex":51,"Claude Code":63,"MCP":45,"提示注入":1,"CLI":2,"护城河":11,"ChatGPT":69}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":3,"OpenClaw":18,"智能体":272,"Codex":51,"Claude Code":63,"MCP":45,"提示注入":1,"CLI":2,"护城河":11,"Discord":4}</script>
 
 <script>
 (function(){

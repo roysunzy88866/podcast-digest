@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>44</b> 集 · <b>27</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>45</b> 集 · <b>27</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -55,6 +55,7 @@ unlisted: true
 - **[[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]]**(07:38起):本集说 Google 在 I/O 上发布了 anti-gravity 远程 agent,并在 agent 沙箱外包了一层网络代理,在 agent 外发请求时注入凭据以保证安全。
 - **[[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|《Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法》]]**(07:00起):本集说 Axios 来自 Google 搜索的流量从六个月前的 30-40% 跌到如今约 5-10%，几乎一夜之间发生。
 - **[[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]]**(03:07起):传统 SEO 的主场与对照物：核心更新、PageRank 权威评估、与 OpenAI/Reddit 的商业协议；嘉宾认为其在智能体可访问性标准上会「很慢然后一夜之间爆发」。
+- **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(11:13起):本集说『我们网上搜索的根本方式已经永远地彻底改变了』——Josh 已经很久没用 Google 搜索，改用 Claude/GPT/Gemini
 
 ## ① 提到它的金句
 
@@ -116,7 +117,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*44 集*
+*45 集*
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
@@ -162,14 +163,15 @@ unlisted: true
 - [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]] — 作为被讨论公司
 - [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|《Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法》]] — 作为被讨论公司
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为概念
+- [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Lenny]] · [[Meta]] · [[Apple]] · [[NVIDIA]] · [[Amazon]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Lenny]] · [[Meta]] · [[Apple]] · [[Amazon]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":270,"OpenAI":121,"Anthropic":128,"ChatGPT":69,"Claude":60,"Lenny":67,"Meta":32,"Apple":17,"NVIDIA":39,"Amazon":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":272,"OpenAI":122,"Anthropic":129,"ChatGPT":71,"Claude":60,"Lenny":67,"Meta":32,"Apple":18,"Amazon":13,"NVIDIA":39}</script>
 
 <script>
 (function(){

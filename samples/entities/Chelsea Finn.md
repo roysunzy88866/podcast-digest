@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":3,"Waymo":13,"ChatGPT":69,"物理 AI":7,"强化学习":17,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":13}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":3,"Waymo":13,"ChatGPT":71,"物理 AI":7,"强化学习":17,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":13}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Applied Intuition":1,"物理 AI":7,"自动驾驶":2,"工业革命":1,"FSD":1,"Tesla":9,"Waymo":13,"ChatGPT":69,"Huawei":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Applied Intuition":1,"物理 AI":7,"自动驾驶":2,"工业革命":1,"FSD":1,"Tesla":9,"Waymo":13,"ChatGPT":71,"Huawei":1}</script>
 
 <script>
 (function(){

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":2,"Clio":1,"智能体":270,"LLM":34,"推荐系统":1,"监督学习":2,"强化学习":17,"Transformer":8,"创造性破坏":1,"Anthropic":128}</script>
+<script type="application/json" class="pd-epn">{"John Collison":2,"Clio":1,"智能体":272,"LLM":34,"推荐系统":1,"监督学习":2,"强化学习":17,"Transformer":8,"创造性破坏":1,"Anthropic":129}</script>
 
 <script>
 (function(){

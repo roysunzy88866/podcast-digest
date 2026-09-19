@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Stripe":32,"Kai":1,"智能体":270,"治理":2,"项目":1,"工具策略":1,"人在回路":11,"技能":16,"沙箱":52}</script>
+<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Stripe":32,"Kai":1,"智能体":272,"治理":2,"项目":1,"工具策略":1,"人在回路":11,"技能":16,"沙箱":52}</script>
 
 <script>
 (function(){

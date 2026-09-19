@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":4,"Zapier":2,"MCP":45,"智能体":270,"确定性代码":1,"Automation Bench":1,"daily driver":1,"token":22,"Cursor":62,"ChatGPT":69}</script>
+<script type="application/json" class="pd-epn">{"Nathan":4,"Zapier":2,"MCP":45,"智能体":272,"确定性代码":1,"Automation Bench":1,"daily driver":1,"token":22,"Cursor":62,"ChatGPT":71}</script>
 
 <script>
 (function(){

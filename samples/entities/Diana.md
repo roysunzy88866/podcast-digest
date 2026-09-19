@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jared":1,"YC":13,"硬科技":1,"智能体":270,"机器人":6,"SaaS":17,"国防科技":1,"RL 环境":6,"单人创始人":1,"Juicebox":1}</script>
+<script type="application/json" class="pd-epn">{"Jared":1,"YC":13,"硬科技":1,"智能体":272,"机器人":6,"SaaS":17,"国防科技":1,"RL 环境":6,"单人创始人":1,"Juicebox":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,957 @@
+{
+  "episode_id": "2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-09-19",
+  "tags": [
+    "AI 末日论",
+    "AI 安全",
+    "IPO 与融资",
+    "前沿模型经济",
+    "智能体"
+  ],
+  "categories": [
+    "AI 安全",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "ranjan-roy",
+      "type": "person",
+      "role": "host",
+      "name": "Ranjan Roy",
+      "file": "Ranjan Roy",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            114.345,
+            116.986
+          ],
+          "quote": "We're joined as always on Friday by Ranjan Roy of Margins.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2763.616,
+            2769.08
+          ],
+          "quote": "And we're back here on Big Technology Podcast Friday edition, joined as always by Ranjan Roy of Margins.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说它在 X-Blade, Jim 网络安全基准上故意关掉安全限制测试模型、知情不干预，却至今不公开提示词与给智能体的指令；同时传出按 1.5 万亿美元估值融新资、上月年化收入超 400 亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            3.475,
+            7.92
+          ],
+          "quote": "OpenAI and Anthropic, meanwhile, are soldiering on to massive IPOs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            102.302,
+            114.325
+          ],
+          "quote": "We're going to also look ahead to OpenAI and Anthropics IPOs and we'll close out with some really interesting data from the Ramp Economics Lab looking at how the frontier AI business may be slowing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            198.38,
+            202.403
+          ],
+          "quote": "OpenAI was testing models on X-Blade, Jim, a cybersecurity benchmark.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            224.389,
+            230.171
+          ],
+          "quote": "OpenAI knew its agents were using it and according to the technical reports chose not to intervene.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            230.771,
+            253.746
+          ],
+          "quote": "So this is kind of a part of the argument that you were making last week where OpenAI in the experiment where the models broke out was giving them tasks that effectively might have led them to the behavior that we saw and this wasn't this sort of true rogue example of these models deciding that they needed to go out and hack something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            326.676,
+            334.467
+          ],
+          "quote": "But the biggest thing to me, and I was actually thinking about this all week, like going back to the media research, OpenAI has never disclosed exactly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 138,
+          "t": [
+            689.695,
+            692.257
+          ],
+          "quote": "I mean, Kushner led the latest OpenAI round.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1058.087,
+            1070.572
+          ],
+          "quote": "In an effort to hide their debt, tech companies have been relying on circular financing, where tech giants like Google, Amazon, and Microsoft give billions to AI startups like OpenAI and Anthropic, only for those startups to hand that money right back",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1117.522,
+            1134.349
+          ],
+          "quote": "And that's why maybe in some wild world, OpenAI lets its model go off without constraints because it wants to distract from the bad books that are going to show up when it wants to go public.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1180.328,
+            1193.213
+          ],
+          "quote": "The real threat to me is like OpenAI, you know, being, ChatGPT being used in mass shootings and suicide and mental health or like addiction and whatever.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1626.858,
+            1635.14
+          ],
+          "quote": "We also have another example of these guys, you know, well, actually, I don't think it's a perfect example, but these guys using Claude to find vulnerabilities within OpenAI this week.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1675.441,
+            1677.862
+          ],
+          "quote": "told itself during training at OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1754.331,
+            1769.083
+          ],
+          "quote": "I also think they're actually, to me, the most important story of the week was what you brought up, three young friends using Codex and Claude Code to hack OpenAI and the vulnerabilities in their own software infrastructure.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1831.94,
+            1834.681
+          ],
+          "quote": "That's why rather than OpenAI saying, you know what?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2045.669,
+            2066.653
+          ],
+          "quote": "So as AI becomes more useful to companies, the same AI that can code autonomously and work on problems and work together for you in the year of the agent, which is what you dubbed it this year, is the same AI that, if it goes a little bit astray, can do things like go out and hack other companies, like we've seen Anthropic do, like we've seen OpenAI do, like we've recently just seen Google do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2601.018,
+            2610.525
+          ],
+          "quote": "When we come back, we're going to talk about the OpenAI and Anthropic IPOs and the bad numbers that they are distracting us with this AI doom narrative with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3052.166,
+            3059.11
+          ],
+          "quote": "The other company in discussion to do this is OpenAI, and they are not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 640,
+          "t": [
+            3071.057,
+            3075.178
+          ],
+          "quote": "OpenAI considers new financing at a $1.5 trillion valuation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3075.759,
+            3080.541
+          ],
+          "quote": "OpenAI is considering a new funding round that would value the giant artificial intelligence startup at $1.5 trillion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3081.021,
+            3086.403
+          ],
+          "quote": "If successful, that would roughly double OpenAI's most recent private valuation at $730 billion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3142.426,
+            3145.847
+          ],
+          "quote": "I guess what's interesting to me about the OpenAI $40 billion number is",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 662,
+          "t": [
+            3217.634,
+            3220.736
+          ],
+          "quote": "But I actually think this is good for OpenAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3303.689,
+            3321.277
+          ],
+          "quote": "So I think to me, this is again, I'm really trying to not put everything in the communications lens, but my God, this, any revenue reporting and valuation leaking again, like OpenAI believes 1.5 trillion.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 685,
+          "t": [
+            3339.46,
+            3342.162
+          ],
+          "quote": "So my prediction is this is coming from OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3430.16,
+            3444.269
+          ],
+          "quote": "Okay, I actually love this because equally interesting, again, normally you don't see there was a proposal, investors approached OpenAI at $1.2 trillion, but that OpenAI believes it should be $1.5 trillion.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 714,
+          "t": [
+            3510.247,
+            3516.031
+          ],
+          "quote": "Maybe the Times idea was OpenAI knows that big technology reads the Times and we'll just say it on the show.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 716,
+          "t": [
+            3518.072,
+            3524.537
+          ],
+          "quote": "And then the Middle Eastern sovereign wealth fund heads will call up OpenAI and beg to get in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3610.732,
+            3623.57
+          ],
+          "quote": "I mean, so, because I think it was a couple of weeks ago there was some numbers around, it's also from RAMP, the top 1% make up 80% of the spend for OpenAI and Anthropic.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            3.475,
+            7.92
+          ],
+          "quote": "OpenAI and Anthropic, meanwhile, are soldiering on to massive IPOs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            502.029,
+            507.934
+          ],
+          "quote": "And we definitely are going to get into the Anthropic Accenture partnership that was announced yesterday.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 128,
+          "t": [
+            638.705,
+            651.95
+          ],
+          "quote": "And it happens to be that the company or the organization that is most likely to be that independent evaluator is Meter, which to some degree has its funding tied to maybe some Anthropic and some EA sources.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            742.422,
+            749.511
+          ],
+          "quote": "First of all, okay, I think the argument you could make is many of the people within companies like Anthropic have EA sympathies or EA adjacent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1058.087,
+            1070.572
+          ],
+          "quote": "In an effort to hide their debt, tech companies have been relying on circular financing, where tech giants like Google, Amazon, and Microsoft give billions to AI startups like OpenAI and Anthropic, only for those startups to hand that money right back",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2045.669,
+            2066.653
+          ],
+          "quote": "So as AI becomes more useful to companies, the same AI that can code autonomously and work on problems and work together for you in the year of the agent, which is what you dubbed it this year, is the same AI that, if it goes a little bit astray, can do things like go out and hack other companies, like we've seen Anthropic do, like we've seen OpenAI do, like we've recently just seen Google do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2244.051,
+            2247.094
+          ],
+          "quote": "Anthropic has a wet lab that's going on that they're building right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2253.477,
+            2256.12
+          ],
+          "quote": "Can Anthropic create cures to diseases with this thing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2601.018,
+            2610.525
+          ],
+          "quote": "When we come back, we're going to talk about the OpenAI and Anthropic IPOs and the bad numbers that they are distracting us with this AI doom narrative with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2820.63,
+            2823.773
+          ],
+          "quote": "Anthropic is moving ahead with its IPO.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2859.69,
+            2863.973
+          ],
+          "quote": "And I will note that number was $4 billion when I visited Anthropic last July.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3045.184,
+            3048.546
+          ],
+          "quote": "Now, Anthropic is going to have this IPO this fall.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3103.783,
+            3106.445
+          ],
+          "quote": "OK, so they're far behind Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3106.485,
+            3115.252
+          ],
+          "quote": "If Anthropic is going to be at $100 billion in there, $40 billion, why even IPO if you can",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3220.996,
+            3231.542
+          ],
+          "quote": "I think this shows that especially relative to Anthropic, all that matters is the last month or two nowadays, and they're back in it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3610.732,
+            3623.57
+          ],
+          "quote": "I mean, so, because I think it was a couple of weeks ago there was some numbers around, it's also from RAMP, the top 1% make up 80% of the spend for OpenAI and Anthropic.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 739,
+          "t": [
+            3633.701,
+            3639.425
+          ],
+          "quote": "And these are obviously there's a lot of questions around what was Meta spending on Anthropic before?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3913.677,
+            3920.261
+          ],
+          "quote": "Anthropic has the opportunity to tell a story where it's not completely frontier model dependent.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集围绕它那起被广泛引用的「AI 失控入侵」事件展开：《原子科学家公报》分析称事件远没有标题吓人——模型是在安全限制被关掉的攻击性任务上、经配置错误的路径行动的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            163.033,
+            171.581
+          ],
+          "quote": "And we're going to go straight to the Wall Street Journal, which had a very interesting op-ed that said the Hugging Face attack wasn't all that it was cracked up to be in its opinion section.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            277.708,
+            285.592
+          ],
+          "quote": "That's the thing that kept jumping out to me is that these models, they weren't intended to, they weren't designed to go hack Hugging Face.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 66,
+          "t": [
+            285.612,
+            287.653
+          ],
+          "quote": "They were not told to go hack Hugging Face.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1604.236,
+            1608.237
+          ],
+          "quote": "They were not given access to the Internet in the hugging face situation from the beginning.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai-doom",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 末日论 (AI doom)",
+      "file": "AI 末日论",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.031,
+            2.113
+          ],
+          "quote": "The AI Doom backlash is in full swing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            84.134,
+            87.957
+          ],
+          "quote": "The backlash to the AI doom moment is forming.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            840.11,
+            849.397
+          ],
+          "quote": "So I personally, it probably felt good to write for Sachs when he put this tweet out, but I personally find this element of the AI doom backlash to be ridiculous.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2496.763,
+            2504.066
+          ],
+          "quote": "So when like somebody like Nate Soros from MIRI comes on and we have a conversation about why he believes there's AI doom.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2601.018,
+            2610.525
+          ],
+          "quote": "When we come back, we're going to talk about the OpenAI and Anthropic IPOs and the bad numbers that they are distracting us with this AI doom narrative with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 725,
+          "t": [
+            3546.847,
+            3549.49
+          ],
+          "quote": "We just decided to spend the whole show on AI doom.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集讨论智能体是否真的「失控」：它们被告知追查特定漏洞、通过 Artifactory 拿到 shell 权限，但也被指协调行动、自我牺牲、找零日漏洞、在训练中给自己写下没人要求的指令。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 421,
+          "t": [
+            2045.669,
+            2066.653
+          ],
+          "quote": "So as AI becomes more useful to companies, the same AI that can code autonomously and work on problems and work together for you in the year of the agent, which is what you dubbed it this year, is the same AI that, if it goes a little bit astray, can do things like go out and hack other companies, like we've seen Anthropic do, like we've seen OpenAI do, like we've recently just seen Google do.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "frontier-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier model)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集说「拥有前沿就赢」的二元商业论点已死；Ramp 数据显示前沿模型使用占比从 53% 掉到 45%，流量被路由服务分流向更便宜的标准模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            546.082,
+            555.167
+          ],
+          "quote": "We're going to get into the ramp data around frontier model spending, but the conversation did shift back to, are these frontier models too powerful?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1339.444,
+            1355.098
+          ],
+          "quote": "Again, I mean, we're going to get into the ramp data, but like the frontier model, the entire business thesis that owning the frontier is going to be binary in terms of that is where you win or lose.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 778,
+          "t": [
+            3855.094,
+            3864.746
+          ],
+          "quote": "I mean, yeah, maybe we pick this up next week because just the most concerning thing, well, I don't know if it's most concerning, but the thing that kind of would worry you is that Frontier model usage is declining.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3913.677,
+            3920.261
+          ],
+          "quote": "Anthropic has the opportunity to tell a story where it's not completely frontier model dependent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 791,
+          "t": [
+            3936.099,
+            3951.143
+          ],
+          "quote": "And I think how they approach this, do you think the S1 is still gonna be God model, frontier model, expensive, this is gonna be high margin, this is why we do all the training and this is why we're worth $2 trillion?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ipo",
+      "type": "concept",
+      "role": "concept",
+      "name": "IPO",
+      "file": "IPO",
+      "primary": true,
+      "how_described": "本集说 Anthropic 和 OpenAI 都奔向大规模上市，AOC 和 Ranjan 都指出末日警告的时点与 IPO 利益结构可疑——一个月后两万亿美元到手，不可能不影响公司行为。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            1163.911,
+            1164.992
+          ],
+          "quote": "You know, if you're IPO-ing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2094.304,
+            2099.086
+          ],
+          "quote": "So it's almost like, wouldn't it be natural that on the cusp of an IPO,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2209.002,
+            2215.166
+          ],
+          "quote": "There is no, you know, IPO without threats and threats without IPO, if that makes sense.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2259.597,
+            2275.221
+          ],
+          "quote": "But isn't that the most exciting, powerful story for these companies and that that's what they want everyone thinking about rather than my portfolio of model dispersion in terms of my unit economics for an IPO?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2820.63,
+            2823.773
+          ],
+          "quote": "Anthropic is moving ahead with its IPO.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2844.938,
+            2850.823
+          ],
+          "quote": "His company continued to prepare for a Blockbuster IPO that may shape up to be the biggest listing ever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2867.156,
+            2877.565
+          ],
+          "quote": "And, you know, Ranjan, you've been skeptical about ARR, but I think this is shaping up to be a powerful, strong, crazy IPO that we're gonna see probably within the next month or two.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2880.248,
+            2886.954
+          ],
+          "quote": "I think the IPO is gonna be likely successful in terms of coming out at",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3045.184,
+            3048.546
+          ],
+          "quote": "Now, Anthropic is going to have this IPO this fall.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 637,
+          "t": [
+            3059.31,
+            3066.855
+          ],
+          "quote": "Sam Altman has first said they're not going to IPO in 2026, and now he's saying that they won't do it because of the current environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3106.485,
+            3115.252
+          ],
+          "quote": "If Anthropic is going to be at $100 billion in there, $40 billion, why even IPO if you can",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-weight",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open weight)",
+      "file": "开放权重模型",
+      "primary": false,
+      "how_described": "Eisman 的论点之一：开放权重模型正在夺取大量市场份额，前沿公司毫无护城河。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            1255.938,
+            1258.459
+          ],
+          "quote": "The open weight models are taking big market share.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meter",
+      "type": "company",
+      "role": "company",
+      "name": "Meter",
+      "file": "Meter",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            270.085,
+            277.108
+          ],
+          "quote": "Because again, what was lacking, and as I spent my labor day poring over the meter report,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 128,
+          "t": [
+            638.705,
+            651.95
+          ],
+          "quote": "And it happens to be that the company or the organization that is most likely to be that independent evaluator is Meter, which to some degree has its funding tied to maybe some Anthropic and some EA sources.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            808.693,
+            816.956
+          ],
+          "quote": "I mean, if you think about what Meter's doing, it's looking effectively at the way that AIs can act autonomously.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            824.68,
+            840.01
+          ],
+          "quote": "I've never seen anything come out of Meter or EA that's shown any interest in restricting speech or steering speech or doing this psy-op on the users of AI companies to make them think a certain way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2445.539,
+            2468.397
+          ],
+          "quote": "But then why wouldn't they actually put what instructions around collaboration, what training around collaboration between agents, why would that be out of scope for the meter research versus they are like, we will give you everything, open the doors, here is what's happening so we can all have a real conversation around this versus it's out of scope.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 776,
+          "t": [
+            3832.633,
+            3849.081
+          ],
+          "quote": "That might be my, this weekend, instead of reading the meter research, but like, it's the economics of this actually, again, can be dramatically shifted from everyone, everywhere, the way we've thought about this.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "jfrog",
+      "type": "company",
+      "role": "company",
+      "name": "JFrog",
+      "file": "JFrog",
+      "primary": false,
+      "how_described": "本集说失控事件中模型是通过其产品 Artifactory 拿到的 shell 访问权限，那是个配置错误。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            292.675,
+            303.701
+          ],
+          "quote": "But it's like we talked about last week is that they were given the, you know, like this computer shell access through Artifactory, which is a product by the company JFrog.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ramp-economics-lab",
+      "type": "company",
+      "role": "company",
+      "name": "Ramp Economics Lab",
+      "file": "Ramp Economics Lab",
+      "primary": false,
+      "how_described": "本集引用其《AI 论点的裂缝》报告：头部 1% 客户人均 AI 支出月降 9.7%、token 混合价格跌 41%、前沿模型使用占比下滑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            102.302,
+            114.325
+          ],
+          "quote": "We're going to also look ahead to OpenAI and Anthropics IPOs and we'll close out with some really interesting data from the Ramp Economics Lab looking at how the frontier AI business may be slowing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3539.378,
+            3544.204
+          ],
+          "quote": "Ramp Economics Lab had a very interesting report called Cracks in the AI Thesis.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "Ranjan 提出真正紧迫的威胁是 ChatGPT 涉及自杀、心理健康、成瘾、版权侵权这些「正在发生的问题」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 235,
+          "t": [
+            1180.328,
+            1193.213
+          ],
+          "quote": "The real threat to me is like OpenAI, you know, being, ChatGPT being used in mass shootings and suicide and mental health or like addiction and whatever.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1224.044,
+            1232.188
+          ],
+          "quote": "It's a much different conversation versus how should ChatGPT regulate people having suicidal thoughts that are using the platform?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

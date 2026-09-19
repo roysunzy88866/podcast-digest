@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":270,"人在回路":11,"现有巨头":1,"Superhuman":4,"Stripe":32,"Workday":4}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":272,"人在回路":11,"现有巨头":1,"Superhuman":4,"Stripe":32,"Workday":4}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[NVIDIA]] · [[OpenClaw]] · [[Anthropic]] · [[OpenAI]] · [[Tane]] · [[Peter Steinberger]] · [[Thomas Sohmers]] · [[Carter]] · [[开放权重模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":270,"NVIDIA":39,"OpenClaw":18,"Anthropic":128,"OpenAI":121,"Tane":1,"Peter Steinberger":3,"Thomas Sohmers":1,"Carter":1,"开放权重模型":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":272,"NVIDIA":39,"OpenClaw":18,"Anthropic":129,"OpenAI":122,"Tane":1,"Peter Steinberger":3,"Thomas Sohmers":1,"Carter":1,"开放权重模型":1}</script>
 
 <script>
 (function(){

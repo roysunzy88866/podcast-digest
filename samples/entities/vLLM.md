@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[推理]] · [[Swyx]] · [[Elena Berger]] · [[Hiral Shah]] · [[Akshat Bubna]] · [[Simon Mo]] · [[Sean Sodha]] · [[Vibhu]] · [[Matt Bornstein]]
 
-<script type="application/json" class="pd-epn">{"智能体":270,"推理":47,"Swyx":2,"Elena Berger":3,"Hiral Shah":1,"Akshat Bubna":1,"Simon Mo":1,"Sean Sodha":1,"Vibhu":1,"Matt Bornstein":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":272,"推理":48,"Swyx":2,"Elena Berger":3,"Hiral Shah":1,"Akshat Bubna":1,"Simon Mo":1,"Sean Sodha":1,"Vibhu":1,"Matt Bornstein":2}</script>
 
 <script>
 (function(){

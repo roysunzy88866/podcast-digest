@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Microsoft":25,"智能体":270,"智能体网络":2,"MCP":45,"缩放定律":7,"康威定律":2}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":25,"智能体":272,"智能体网络":2,"MCP":45,"缩放定律":7,"康威定律":2}</script>
 
 <script>
 (function(){

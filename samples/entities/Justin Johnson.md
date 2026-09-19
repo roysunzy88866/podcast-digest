@@ -38,11 +38,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":6,"Marble":4,"Sam Charrington":4,"Martin Casado":4,"高斯溅射":1,"Atlas":2,"智能体":270,"空间智能":3,"PoMDPs":1}</script>
+<script type="application/json" class="pd-epn">{"World Labs":4,"世界模型":6,"Marble":4,"Sam Charrington":4,"Martin Casado":4,"高斯溅射":1,"Atlas":2,"智能体":272,"空间智能":3,"PoMDPs":1}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Facebook</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Facebook">FA</div><div class="pi"><h1 class="pt">Facebook</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Facebook">FA</div><div class="pi"><h1 class="pt">Facebook</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -24,6 +24,7 @@ unlisted: true
 - **[[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]]**(00:57起):本集说嘉宾在此从每天发布一次核心产品推进到每天三次直至持续部署，并将基础设施团队职责推高到涵盖移动端堆栈，强调基础设施与产品团队共享命运
 - **[[2026-08-28-yc-susan-kare-designing-icons--graphics-for|《Macintosh 原始图标设计师谈像素设计的本质》]]**(32:06起):本集说 Susan 在 Facebook 做了差不多四年的'礼品店'项目，每天午夜上架一个新礼物卖一美元，发现可爱胜过一切，吻痕标记是最畅销的
 - **[[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]]**(00:00起):Lightfield 五位创始成员中三位来自 Facebook，他们把 Facebook 时间线的思路搬进了 CRM 架构。
+- **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(02:33起):本集在列举 Josh 早年履历（LinkedIn、Facebook、Twitter）及讨论为何没有新社交网络时被提及
 
 ## ① 提到它的金句
 
@@ -35,7 +36,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
@@ -50,14 +51,15 @@ unlisted: true
 - [[2026-08-27-indepth-the-fastest-way-to-learn-is-to-run-two-c|《工程领导力的五根支柱与速度哲学》]] — 作为被讨论公司
 - [[2026-08-28-yc-susan-kare-designing-icons--graphics-for|《Macintosh 原始图标设计师谈像素设计的本质》]] — 作为被讨论公司(提及)
 - [[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]] — 作为被讨论公司(提及)
+- [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Cursor]] · [[TikTok]] · [[Instagram]] · [[Salesforce]] · [[Claude]] · [[vibe coding]]
+[[Lenny]] · [[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Cursor]] · [[TikTok]] · [[Google]] · [[Amazon]] · [[Apple]] · [[网络效应]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"智能体":270,"OpenAI":121,"ChatGPT":69,"Cursor":62,"TikTok":4,"Instagram":4,"Salesforce":24,"Claude":60,"vibe coding":35}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"智能体":272,"ChatGPT":71,"OpenAI":122,"Cursor":62,"TikTok":5,"Google":45,"Amazon":13,"Apple":18,"网络效应":12}</script>
 
 <script>
 (function(){

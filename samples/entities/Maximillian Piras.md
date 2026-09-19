@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Utori":1,"智能体":270,"计算机使用模型":1,"心智模型":1,"鼠标力":1,"token":22,"ROI":1,"代码审查":10,"验证":5,"熵":3}</script>
+<script type="application/json" class="pd-epn">{"Utori":1,"智能体":272,"计算机使用模型":1,"心智模型":1,"鼠标力":1,"token":22,"ROI":1,"代码审查":10,"验证":5,"熵":3}</script>
 
 <script>
 (function(){

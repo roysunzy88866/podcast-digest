@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":2,"MCP":45,"Indeed":1,"CareerScout":1,"Claude":60,"ChatGPT":69,"结构化内容":1,"update model context":1}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":2,"MCP":45,"Indeed":1,"CareerScout":1,"Claude":60,"ChatGPT":71,"结构化内容":1,"update model context":1}</script>
 
 <script>
 (function(){

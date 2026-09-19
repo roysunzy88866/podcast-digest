@@ -35,7 +35,7 @@ unlisted: true
 
 [[TikTok]] · [[Sam Motamity]] · [[Harry Stabbings]] · [[Rob Goldberg]] · [[Rishabh Jain]] · [[Matteo Franceschetti]] · [[Brad Gerstner]] · [[Fermat]] · [[Eight Sleep]] · [[钙化CT扫描]]
 
-<script type="application/json" class="pd-epn">{"TikTok":4,"Sam Motamity":1,"Harry Stabbings":2,"Rob Goldberg":1,"Rishabh Jain":1,"Matteo Franceschetti":1,"Brad Gerstner":1,"Fermat":1,"Eight Sleep":1,"钙化CT扫描":1}</script>
+<script type="application/json" class="pd-epn">{"TikTok":5,"Sam Motamity":1,"Harry Stabbings":2,"Rob Goldberg":1,"Rishabh Jain":1,"Matteo Franceschetti":1,"Brad Gerstner":1,"Fermat":1,"Eight Sleep":1,"钙化CT扫描":1}</script>
 
 <script>
 (function(){

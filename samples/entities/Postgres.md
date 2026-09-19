@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[RAG]] · [[Garry Tan]] · [[Simon Eskildsen]] · [[技能文件]] · [[Jacob Lauritzen]] · [[上下文工程]] · [[Legora]] · [[公司大脑]] · [[Turbo Puffer]]
 
-<script type="application/json" class="pd-epn">{"智能体":270,"RAG":12,"Garry Tan":2,"Simon Eskildsen":1,"技能文件":3,"Jacob Lauritzen":1,"上下文工程":12,"Legora":2,"公司大脑":2,"Turbo Puffer":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":272,"RAG":12,"Garry Tan":2,"Simon Eskildsen":1,"技能文件":3,"Jacob Lauritzen":1,"上下文工程":12,"Legora":2,"公司大脑":2,"Turbo Puffer":1}</script>
 
 <script>
 (function(){

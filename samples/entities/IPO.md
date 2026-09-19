@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>IPO</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="IPO">IP</div><div class="pi"><h1 class="pt">IPO</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="IPO">IP</div><div class="pi"><h1 class="pt">IPO</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]]**(02:40起):本集围绕 Anthropic 秋季 IPO 和 OpenAI 传闻 2027 年 IPO 展开，讨论营收数字以「知情人士」形式泄露给媒体是精心策划的公关战术
 - **[[2026-09-14-sourcery-inside-bending-spoons-buying-airtable--a|《Bending Spoons：买下 AOL 与 Vimeo 的「收购机器」是怎么炼成的》]]**(06:55起):本集详述了 Bending Spoons 的上市:CEO 不上台敲钟、让财务同事 Laura 按红按钮;上市流程被压缩到远短于常规,Matt 的演讲主题是「不可能?也许吧」。
+- **[[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|《AI 末日论反弹：是营销烟雾弹，还是真该警惕？》]]**(19:23起):本集说 Anthropic 和 OpenAI 都奔向大规模上市，AOC 和 Ranjan 都指出末日警告的时点与 IPO 利益结构可疑——一个月后两万亿美元到手，不可能不影响公司行为。
 
 ## ① 提到它的金句
 
@@ -26,18 +27,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|《大科技3万亿表外赌注与Anthropic反超OpenAI》]] — 作为概念
 - [[2026-09-14-sourcery-inside-bending-spoons-buying-airtable--a|《Bending Spoons：买下 AOL 与 Vimeo 的「收购机器」是怎么炼成的》]] — 作为概念
+- [[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|《AI 末日论反弹：是营销烟雾弹，还是真该警惕？》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ranjan]] · [[Vali]] · [[Ranjan Roy]] · [[Luca Ferrari]] · [[Meta]] · [[Bending Spoons]] · [[Anthropic]] · [[AOL]] · [[OpenAI]] · [[Grindr]]
+[[Ranjan Roy]] · [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Ranjan]] · [[Vali]] · [[Hugging Face]] · [[Meta]] · [[Luca Ferrari]] · [[AI 末日论]]
 
-<script type="application/json" class="pd-epn">{"Ranjan":1,"Vali":1,"Ranjan Roy":2,"Luca Ferrari":2,"Meta":32,"Bending Spoons":2,"Anthropic":128,"AOL":2,"OpenAI":121,"Grindr":1}</script>
+<script type="application/json" class="pd-epn">{"Ranjan Roy":3,"Anthropic":129,"OpenAI":122,"智能体":272,"Ranjan":1,"Vali":1,"Hugging Face":21,"Meta":32,"Luca Ferrari":2,"AI 末日论":1}</script>
 
 <script>
 (function(){

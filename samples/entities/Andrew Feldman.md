@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jack":1,"Eric":1,"Cerebrus":1,"晶圆级":1,"推理":47,"NVIDIA":39,"TSMC":4,"数据中心":14,"供应链":4,"训练":3}</script>
+<script type="application/json" class="pd-epn">{"Jack":1,"Eric":1,"Cerebrus":1,"晶圆级":1,"推理":48,"NVIDIA":39,"TSMC":4,"数据中心":14,"供应链":4,"训练":3}</script>
 
 <script>
 (function(){

@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":3,"Meta":32,"MuseSpark":1,"开源模型":19,"智能体":270,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":19,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":3,"Meta":32,"MuseSpark":1,"开源模型":19,"智能体":272,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":19,"Spark API":1}</script>
 
 <script>
 (function(){

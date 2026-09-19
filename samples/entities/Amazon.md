@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Amazon</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Amazon">AM</div><div class="pi"><h1 class="pt">Amazon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Amazon">AM</div><div class="pi"><h1 class="pt">Amazon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -22,6 +22,7 @@ unlisted: true
 - **[[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]]**(00:33起):本集仅一笔带过，说 Microsoft 更担心 Amazon 和 Google 在做什么。
 - **[[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]]**(04:10起):本集提到 Amazon Web Services 因 AI 编码工具宕机两三次，且 Amazon 给 OpenAI 投了 350 亿美元、给 Anthropic 投了 50 亿，是循环融资中的一环。
 - **[[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]]**(00:07起):本集说嘉宾在此待了五年半、做了四个从零到一项目，并在 2023 年主动放弃管理职责回归 IC；也是隐性权威文化的对照例子。
+- **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(11:36起):本集提到 Josh 在 Amazon 上找不到代客泊车钥匙扣，才转向 ChatGPT 对话式购物
 
 ## ① 提到它的金句
 
@@ -31,7 +32,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
@@ -45,14 +46,15 @@ unlisted: true
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为被讨论公司(提及)
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|《Ed Zitron：生成式 AI 是一场万亿级骗局》]] — 作为被讨论公司(提及)
 - [[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]] — 作为被讨论公司
+- [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[Google]] · [[Microsoft]] · [[NVIDIA]] · [[智能体]] · [[ChatGPT]] · [[Meta]] · [[Apple]] · [[资本支出]]
+[[Google]] · [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[智能体]] · [[NVIDIA]] · [[ChatGPT]] · [[Apple]] · [[Facebook]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":121,"Anthropic":128,"Google":44,"Microsoft":25,"NVIDIA":39,"智能体":270,"ChatGPT":69,"Meta":32,"Apple":17,"资本支出":4}</script>
+<script type="application/json" class="pd-epn">{"Google":45,"OpenAI":122,"Anthropic":129,"Microsoft":25,"智能体":272,"NVIDIA":39,"ChatGPT":71,"Apple":18,"Facebook":14,"Meta":32}</script>
 
 <script>
 (function(){

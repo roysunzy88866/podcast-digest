@@ -43,7 +43,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Google]] · [[Harvey]] · [[Anthropic]] · [[Microsoft]] · [[评估]] · [[Cursor]] · [[开源]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":121,"智能体":270,"ChatGPT":69,"Google":44,"Harvey":12,"Anthropic":128,"Microsoft":25,"评估":2,"Cursor":62,"开源":23}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":122,"智能体":272,"ChatGPT":71,"Google":45,"Harvey":12,"Anthropic":129,"Microsoft":25,"评估":2,"Cursor":62,"开源":23}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Hamel Husain":1,"评估":2,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 当裁判":6,"智能体":270,"trace":2,"Anthropic":128}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Hamel Husain":1,"评估":2,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 当裁判":6,"智能体":272,"trace":2,"Anthropic":129}</script>
 
 <script>
 (function(){

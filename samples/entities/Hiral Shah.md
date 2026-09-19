@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sean Sodha":1,"DocuSign":1,"NVIDIA":39,"Nemotron":5,"表格提取":1,"智能体":270,"OCR":2,"量化":3,"VLM":1,"vLLM":3}</script>
+<script type="application/json" class="pd-epn">{"Sean Sodha":1,"DocuSign":1,"NVIDIA":39,"Nemotron":5,"表格提取":1,"智能体":272,"OCR":2,"量化":3,"VLM":1,"vLLM":3}</script>
 
 <script>
 (function(){

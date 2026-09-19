@@ -38,11 +38,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peregrine":2,"数据集成":1,"Nick Noone":1,"派驻工程师":1,"Palantir":17,"ACV":3,"前置部署工程":3,"RFP":1,"智能体":270,"产品市场契合":20}</script>
+<script type="application/json" class="pd-epn">{"Peregrine":2,"数据集成":1,"Nick Noone":1,"派驻工程师":1,"Palantir":17,"ACV":3,"前置部署工程":3,"RFP":1,"智能体":272,"产品市场契合":20}</script>
 
 <script>
 (function(){

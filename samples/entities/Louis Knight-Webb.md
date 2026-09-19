@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"AI Engineers":1,"沙箱":52,"智能体":270,"RL 环境":6,"vibe coding":35,"code mode":2,"开源 AI 框架":1,"推理":47,"PLG":10}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"AI Engineers":1,"沙箱":52,"智能体":272,"RL 环境":6,"vibe coding":35,"code mode":2,"开源 AI 框架":1,"推理":48,"PLG":10}</script>
 
 <script>
 (function(){

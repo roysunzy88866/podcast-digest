@@ -33,7 +33,7 @@ unlisted: true
 
 [[Louis Knight-Webb]] · [[Swyx]] · [[沙箱]] · [[智能体]] · [[RL 环境]] · [[vibe coding]] · [[code mode]] · [[开源 AI 框架]] · [[推理]] · [[PLG]]
 
-<script type="application/json" class="pd-epn">{"Louis Knight-Webb":1,"Swyx":2,"沙箱":52,"智能体":270,"RL 环境":6,"vibe coding":35,"code mode":2,"开源 AI 框架":1,"推理":47,"PLG":10}</script>
+<script type="application/json" class="pd-epn">{"Louis Knight-Webb":1,"Swyx":2,"沙箱":52,"智能体":272,"RL 环境":6,"vibe coding":35,"code mode":2,"开源 AI 框架":1,"推理":48,"PLG":10}</script>
 
 <script>
 (function(){

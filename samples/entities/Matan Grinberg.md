@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Factory":4,"Droid":1,"智能体":270,"harness":39,"模型独立性":1,"路由器":1,"token":22,"开源模型":19,"软件工厂":5,"基于结果的付费":3}</script>
+<script type="application/json" class="pd-epn">{"Factory":4,"Droid":1,"智能体":272,"harness":39,"模型独立性":1,"路由器":1,"token":22,"开源模型":19,"软件工厂":5,"基于结果的付费":3}</script>
 
 <script>
 (function(){

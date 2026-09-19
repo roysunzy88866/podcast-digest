@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Zico Kolter]] · [[Matt Fredrikson]] · [[Snowflake]] · [[Anthropic]] · [[Twitter]] · [[智能体]] · [[红队测试]] · [[提示词注入]] · [[越狱]] · [[护栏]]
+[[Zico Kolter]] · [[Matt Fredrikson]] · [[Snowflake]] · [[Anthropic]] · [[Discord]] · [[Twitter]] · [[智能体]] · [[红队测试]] · [[提示词注入]] · [[越狱]]
 
-<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Matt Fredrikson":1,"Snowflake":9,"Anthropic":128,"Twitter":6,"智能体":270,"红队测试":4,"提示词注入":12,"越狱":2,"护栏":50}</script>
+<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Matt Fredrikson":1,"Snowflake":9,"Anthropic":129,"Discord":4,"Twitter":7,"智能体":272,"红队测试":4,"提示词注入":12,"越狱":2}</script>
 
 <script>
 (function(){

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sunil Pai":1,"Matt Carey":1,"Cloudflare":9,"code mode":2,"MCP":45,"智能体":270,"沙箱":52,"可观测性":22,"pie":1,"Cloudflare Worker":2}</script>
+<script type="application/json" class="pd-epn">{"Sunil Pai":1,"Matt Carey":1,"Cloudflare":9,"code mode":2,"MCP":45,"智能体":272,"沙箱":52,"可观测性":22,"pie":1,"Cloudflare Worker":2}</script>
 
 <script>
 (function(){

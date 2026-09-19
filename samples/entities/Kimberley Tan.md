@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":3,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":7,"智能体":270,"开源模型":19,"微调":18,"业务逻辑":1,"前向部署工程师":7,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":3,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":7,"智能体":272,"开源模型":19,"微调":18,"业务逻辑":1,"前向部署工程师":7,"Duet":1}</script>
 
 <script>
 (function(){

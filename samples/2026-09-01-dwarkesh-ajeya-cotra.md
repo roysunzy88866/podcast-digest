@@ -176,7 +176,7 @@ Ajaya 最后指出，这件事可能"是我们关于失控所能得到的最清�
 
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|一千个AI智能体自发建组织：它们在研究怎么骗评分]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Redwood Research、Meter · 同概念:RL、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|AI 末日论反弹：是营销烟雾弹，还是真该警惕？]]<span class="pd-rz">同公司:Hugging Face、OpenAI、Meter · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

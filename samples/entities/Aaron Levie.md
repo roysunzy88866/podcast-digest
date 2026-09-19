@@ -88,11 +88,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Box":4,"开放权重":5,"推理":47,"Sofia Puccini":4,"智能体":270,"Theo Jaffe":6,"应用层":3,"Anthropic":128,"LLM 套壳":1,"OpenAI":121}</script>
+<script type="application/json" class="pd-epn">{"Box":4,"开放权重":5,"推理":48,"Sofia Puccini":4,"智能体":272,"Theo Jaffe":6,"应用层":3,"Anthropic":129,"LLM 套壳":1,"OpenAI":122}</script>
 
 <script>
 (function(){

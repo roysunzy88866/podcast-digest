@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":270,"构建者":3,"可观测性":22,"对话分析":1,"评估":2,"维度思维":1,"ChatGPT":69,"Cursor":62,"OpenAI":121}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":272,"构建者":3,"可观测性":22,"对话分析":1,"评估":2,"维度思维":1,"ChatGPT":71,"Cursor":62,"OpenAI":122}</script>
 
 <script>
 (function(){

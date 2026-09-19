@@ -35,7 +35,7 @@ unlisted: true
 
 [[AEO]] · [[SEO]] · [[LLM]] · [[ChatGPT]] · [[Google]] · [[Reddit]] · [[YouTube]] · [[Lenny]] · [[Daniel Whitenack]] · [[Ethan Smith]]
 
-<script type="application/json" class="pd-epn">{"AEO":5,"SEO":7,"LLM":34,"ChatGPT":69,"Google":44,"Reddit":6,"YouTube":4,"Lenny":67,"Daniel Whitenack":7,"Ethan Smith":1}</script>
+<script type="application/json" class="pd-epn">{"AEO":5,"SEO":7,"LLM":34,"ChatGPT":71,"Google":45,"Reddit":6,"YouTube":4,"Lenny":67,"Daniel Whitenack":7,"Ethan Smith":1}</script>
 
 <script>
 (function(){

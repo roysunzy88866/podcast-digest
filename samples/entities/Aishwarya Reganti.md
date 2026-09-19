@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Kiriti Badam":1,"智能体":270,"非确定性":1,"主观能动性":19,"评估":2,"生产监控":1,"持续校准持续开发":1,"飞轮":3,"行为校准":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Kiriti Badam":1,"智能体":272,"非确定性":1,"主观能动性":19,"评估":2,"生产监控":1,"持续校准持续开发":1,"飞轮":3,"行为校准":1}</script>
 
 <script>
 (function(){

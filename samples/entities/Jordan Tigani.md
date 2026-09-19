@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MotherDuck":1,"DuckDB":1,"DuckDB Labs":1,"BigQuery":1,"Snowflake":9,"open core":1,"数据仓库":3,"智能体":270,"仪表盘":1}</script>
+<script type="application/json" class="pd-epn">{"MotherDuck":1,"DuckDB":1,"DuckDB Labs":1,"BigQuery":1,"Snowflake":9,"open core":1,"数据仓库":3,"智能体":272,"仪表盘":1}</script>
 
 <script>
 (function(){

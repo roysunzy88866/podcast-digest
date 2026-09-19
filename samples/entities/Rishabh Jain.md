@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Motamity":1,"Fermat":1,"LiveRamp":1,"Facebook":13,"ATT":1,"闭环":2,"零售媒体网络":1,"生成式 AI":2,"传统 AI":1,"客户旅程":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Motamity":1,"Fermat":1,"LiveRamp":1,"Facebook":14,"ATT":1,"闭环":2,"零售媒体网络":1,"生成式 AI":2,"传统 AI":1,"客户旅程":1}</script>
 
 <script>
 (function(){

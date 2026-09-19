@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Robert Lucero":1,"Okta":1,"智能体":270,"沙箱":52,"护栏":50,"身份":3,"非确定性":1,"服务账号":1,"AI 采用":1,"仓库 AI 就绪度":1}</script>
+<script type="application/json" class="pd-epn">{"Robert Lucero":1,"Okta":1,"智能体":272,"沙箱":52,"护栏":50,"身份":3,"非确定性":1,"服务账号":1,"AI 采用":1,"仓库 AI 就绪度":1}</script>
 
 <script>
 (function(){

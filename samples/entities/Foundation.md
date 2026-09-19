@@ -41,7 +41,7 @@ unlisted: true
 
 [[John Willett]] · [[Mike LeBlanc]] · [[Rogo]] · [[人形机器人]] · [[Basis]] · [[执行器]] · [[Greylock]] · [[视觉-语言-行动模型]] · [[Retool]] · [[视频训练]]
 
-<script type="application/json" class="pd-epn">{"John Willett":1,"Mike LeBlanc":1,"Rogo":1,"人形机器人":2,"Basis":1,"执行器":2,"Greylock":1,"视觉-语言-行动模型":1,"Retool":1,"视频训练":1}</script>
+<script type="application/json" class="pd-epn">{"John Willett":1,"Mike LeBlanc":1,"Rogo":1,"人形机器人":2,"Basis":1,"执行器":2,"Greylock":2,"视觉-语言-行动模型":1,"Retool":1,"视频训练":1}</script>
 
 <script>
 (function(){

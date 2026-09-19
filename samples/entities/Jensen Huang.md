@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":39,"深度学习":3,"智能体":270,"沙箱":52,"Condi Rice":1,"harness":39,"Jerry":1,"AMD":3,"前沿模型":16,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":39,"深度学习":3,"智能体":272,"沙箱":52,"Condi Rice":1,"harness":39,"Jerry":1,"AMD":3,"前沿模型":17,"Sega":1}</script>
 
 <script>
 (function(){

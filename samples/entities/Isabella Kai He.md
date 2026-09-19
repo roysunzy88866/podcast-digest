@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":128,"智能体":270,"harness":39,"沙箱":52,"智能体循环":3,"上下文工程":12,"会话日志追踪":2,"泄露的凭证":3,"可观测性":22}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":129,"智能体":272,"harness":39,"沙箱":52,"智能体循环":3,"上下文工程":12,"会话日志追踪":2,"泄露的凭证":3,"可观测性":22}</script>
 
 <script>
 (function(){

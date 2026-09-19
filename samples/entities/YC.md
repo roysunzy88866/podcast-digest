@@ -58,7 +58,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Stripe]] · [[SaaS]] · [[Garry Tan]] · [[Salesforce]] · [[AGI]] · [[Scale]] · [[Claude]] · [[StarCloud]]
 
-<script type="application/json" class="pd-epn">{"智能体":270,"OpenAI":121,"Stripe":32,"SaaS":17,"Garry Tan":2,"Salesforce":24,"AGI":23,"Scale":3,"Claude":60,"StarCloud":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":272,"OpenAI":122,"Stripe":32,"SaaS":17,"Garry Tan":2,"Salesforce":24,"AGI":23,"Scale":3,"Claude":60,"StarCloud":3}</script>
 
 <script>
 (function(){

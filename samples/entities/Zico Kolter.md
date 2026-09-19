@@ -31,7 +31,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Matt Fredrikson]] · [[Gray Swan]] · [[Snowflake]] · [[Anthropic]] · [[Twitter]] · [[智能体]] · [[红队测试]] · [[提示词注入]] · [[越狱]] · [[护栏]]
+[[Matt Fredrikson]] · [[Gray Swan]] · [[Snowflake]] · [[Anthropic]] · [[Discord]] · [[Twitter]] · [[智能体]] · [[红队测试]] · [[提示词注入]] · [[越狱]]
 
 ## ④ 也在聊「AI 安全」的人
 
@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":9,"Anthropic":128,"Twitter":6,"智能体":270,"红队测试":4,"提示词注入":12,"越狱":2,"护栏":50}</script>
+<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":9,"Anthropic":129,"Discord":4,"Twitter":7,"智能体":272,"红队测试":4,"提示词注入":12,"越狱":2}</script>
 
 <script>
 (function(){

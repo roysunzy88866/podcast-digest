@@ -25,7 +25,7 @@ unlisted: true
 
 [[Fred Turner]] · [[Harry Stebbings]] · [[Curative]] · [[TL Biolabs]] · [[Anthropic]] · [[Salesforce]] · [[YC]] · [[智能体]] · [[SaaS 已死]] · [[一次性代码]]
 
-<script type="application/json" class="pd-epn">{"Fred Turner":1,"Harry Stebbings":17,"Curative":1,"TL Biolabs":1,"Anthropic":128,"Salesforce":24,"YC":13,"智能体":270,"SaaS 已死":1,"一次性代码":1}</script>
+<script type="application/json" class="pd-epn">{"Fred Turner":1,"Harry Stebbings":17,"Curative":1,"TL Biolabs":1,"Anthropic":129,"Salesforce":24,"YC":13,"智能体":272,"SaaS 已死":1,"一次性代码":1}</script>
 
 <script>
 (function(){

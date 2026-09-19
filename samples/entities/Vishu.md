@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Clay":4,"Claygent":1,"Sculptor":1,"LangChain":7,"智能体":270,"评估":2,"trace":2,"LLM 当裁判":6,"harness":39,"数据湖":2}</script>
+<script type="application/json" class="pd-epn">{"Clay":4,"Claygent":1,"Sculptor":1,"LangChain":7,"智能体":272,"评估":2,"trace":2,"LLM 当裁判":6,"harness":39,"数据湖":2}</script>
 
 <script>
 (function(){

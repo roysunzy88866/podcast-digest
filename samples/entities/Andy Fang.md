@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DoorDash":6,"Dot":1,"Waymo":13,"智能体商务":3,"智能体":270,"自主性":7,"分发":5,"无人机":2,"harness":39,"开放权重模型":1}</script>
+<script type="application/json" class="pd-epn">{"DoorDash":6,"Dot":1,"Waymo":13,"智能体商务":3,"智能体":272,"自主性":7,"分发":5,"无人机":2,"harness":39,"开放权重模型":1}</script>
 
 <script>
 (function(){

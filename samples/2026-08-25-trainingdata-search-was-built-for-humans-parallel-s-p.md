@@ -166,7 +166,7 @@ Parag 把智能体使用网络的演进分三层。第一层是现在的主流�
 
 - [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网]]<span class="pd-rz">同嘉宾:Parag、Sonia · 同公司:Parallel · 同概念:后台智能体 (background agent)、推理 (inference)、搜索智能体 (search agent)、智能体 (agent)、爬取 (crawl)、索引 (index)、差别定价 (differential pricing)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、Claude、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int|Parag Agrawal:当 AI 成为网络的第二个用户]]<span class="pd-rz">同公司:Parallel、Twitter · 同概念:智能体 (agent)</span>
+- [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|AI 时代怎么做出能留住人的消费产品]]<span class="pd-rz">同公司:ChatGPT、Twitter · 同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
