@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AGI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>23</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>24</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -22,6 +22,7 @@ unlisted: true
 - **[[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|《Benedict Evans:AI 价值会落在哪一层?》]]**(08:12起):本集把 AGI 会不会来当成古巴导弹危机里那位交易员的二元赌注:真发生了,我们有比中产失业更大的问题;没发生,就回来老实分析企业软件;并借 Anselm 的证明批评'把它定义为全能所以全能'的论证方式。
 - **[[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]]**(08:43起):本集把 AGI 定义为「存在某一个模型，能以最好的方式解决所有问题」，Lin 明确说这样的世界不会到来，并把通用大模型比作输电线——重要但不会取代一切。
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(09:26起):本集把它说成:一种要么赢者通吃要么全盘皆输的终极叙事(AGI 或破产),但嘉宾指出随着模型路径多元化,如今除了 OpenAI 和 Anthropic 几乎没人再信这套。
+- **[[2026-07-25-talks-what-big-tech-missed-and-how-startups-ca|《不做 LLM，做世界模型：Alex 的 12 亿美元豪赌》]]**(16:19起):Alex 观察到当初承诺 AGI 的人改变了定义、不再使用这个术语——「我认为这是某件事行不通的好迹象」。
 - **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(00:21起):本集把它说成：OpenAI 一开始决心奉献一生去创造的目标，十年前被业界主流视为错误且会引发 AI 寒冬，如今被视为商业与社会史上最重要的事。
 - **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]]**(05:32起):本集将其重新定义为：一个能够在没有任何人类参与循环的情况下，完全靠自己与现实世界交互来不断自我改进和学习的模型。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(13:13起):本集把它说成:只有 AGI（通用人工智能）能填平 AI 行业 4 万亿美元的资本支出窟窿,八大科技巨头都在为争夺 AGI 的控制权而下注
@@ -37,7 +38,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*16 条*
+*17 条*
 
 ![[2025-06-22-lennys-the-quiet-architect-peter-deng#^q3]]
 
@@ -50,6 +51,8 @@ unlisted: true
 ![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q5]]
 
 ![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q6]]
+
+![[2026-07-25-talks-what-big-tech-missed-and-how-startups-ca#^q6]]
 
 ![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q8]]
 
@@ -73,7 +76,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*23 集*
+*24 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为概念
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为概念(提及)
@@ -86,6 +89,7 @@ unlisted: true
 - [[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|《Benedict Evans:AI 价值会落在哪一层?》]] — 作为概念
 - [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]] — 作为概念
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为概念
+- [[2026-07-25-talks-what-big-tech-missed-and-how-startups-ca|《不做 LLM，做世界模型：Alex 的 12 亿美元豪赌》]] — 作为概念(提及)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为概念
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为概念
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为概念
@@ -103,9 +107,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Google]] · [[智能体]] · [[Lenny]] · [[Meta]] · [[NVIDIA]] · [[Microsoft]] · [[Claude Code]]
+[[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Meta]] · [[Google]] · [[智能体]] · [[Lenny]] · [[NVIDIA]] · [[LLM]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":122,"Anthropic":129,"ChatGPT":71,"Google":45,"智能体":272,"Lenny":67,"Meta":32,"NVIDIA":39,"Microsoft":25,"Claude Code":63}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":122,"Anthropic":130,"ChatGPT":72,"Meta":33,"Google":45,"智能体":273,"Lenny":67,"NVIDIA":39,"LLM":35,"Microsoft":25}</script>
 
 <script>
 (function(){

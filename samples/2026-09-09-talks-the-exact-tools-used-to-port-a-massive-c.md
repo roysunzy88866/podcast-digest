@@ -62,9 +62,9 @@ jsonLd: |
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同公司:Bun、Claude Code · 同概念:动态工作流 (dynamic workflow)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Bun、Claude Code</span>
 - [[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|用 AI 对抗 AI：一种不用读代码的编程语言 BAML]]<span class="pd-rz">同概念:TypeScript、Python</span>
-- [[2025-05-22-talks-mastering-claude-code-in-30-minutes|Claude Code 实战技巧：从提问到并行]]<span class="pd-rz">同公司:Claude Code</span>
 
 </div>
 <div class="pd-ex">

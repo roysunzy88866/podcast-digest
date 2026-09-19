@@ -1,0 +1,597 @@
+{
+  "episode_id": "2026-07-25-talks-why-physical-ai-is-the-next-platform-shi",
+  "podcast": "精选演讲",
+  "date": "2026-07-25",
+  "tags": [
+    "物理 AI",
+    "AI 数据",
+    "创业心法",
+    "产品市场契合",
+    "销售组织"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "eric-landau",
+      "type": "person",
+      "role": "host",
+      "name": "Eric Landau",
+      "file": "Eric Landau",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            16.735,
+            24.096
+          ],
+          "quote": "Please welcome Eric Landau, who is the co-founder of Anchored, who is building the data layer for physical AI, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anchored",
+      "type": "company",
+      "role": "company",
+      "name": "Anchored",
+      "file": "Anchored",
+      "primary": true,
+      "how_described": "本集介绍它是一家为物理 AI(机器人、自动驾驶等)构建数据层的公司,由前量化交易员 Eric Landau 联合创办,拥有数百家客户、处理多个 PB 的多模态数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            16.735,
+            24.096
+          ],
+          "quote": "Please welcome Eric Landau, who is the co-founder of Anchored, who is building the data layer for physical AI, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            38.311,
+            48.078
+          ],
+          "quote": "It's kind of very surprising that you did big data particle physics and then you became a quant for 10 years before creating Anchored.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            119.985,
+            124.746
+          ],
+          "quote": "Before, speaking about Anchored, I realized we were like chatting quickly yesterday about that, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "physical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理 AI (physical AI)",
+      "file": "物理 AI",
+      "primary": true,
+      "how_described": "本集把它说成:在真实世界中运作的 AI(机器人、自动驾驶、物流、制造),也是多模态 AI 最大的应用方向,「80% 的经济活动是在现实世界中操纵或移动物体」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            16.735,
+            24.096
+          ],
+          "quote": "Please welcome Eric Landau, who is the co-founder of Anchored, who is building the data layer for physical AI, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            518.496,
+            522
+          ],
+          "quote": "Let's go back to the product now, because you didn't start with physical AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            522.02,
+            531.952
+          ],
+          "quote": "Physical AI is kind of like the, it felt, it feels like you've built it a few times, still always around data for AI, but the target applications have changed over time, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            560.945,
+            562.888
+          ],
+          "quote": "And what happened with physical AI is that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            570.532,
+            573.974
+          ],
+          "quote": "And the biggest application of multimodal AI now is in physical AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            585.08,
+            589.763
+          ],
+          "quote": "It feels like, in some sense, physical AI is still nascent as a market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            604.913,
+            607.015
+          ],
+          "quote": "The opportunity in physical AI is enormous.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            650.179,
+            658.222
+          ],
+          "quote": "Did you see new customers coming from physical AI or was that the result of a deep conversation with your co-founder or something?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            763.905,
+            768.61
+          ],
+          "quote": "And what would you say are the biggest use cases today, then, in physical AI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1036.099,
+            1045.722
+          ],
+          "quote": "Our focus is really on physical AI and scalability of the data, like being able to operate on the multiple petabyte level of data, which is hard for people to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1050.804,
+            1057.968
+          ],
+          "quote": "If anyone here is building in physical AI, should they try, and they're small, and they're just starting, what should they do?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1100.01,
+            1110.075
+          ],
+          "quote": "Before concluding here, as well on the topic of advice, any advice you'd give to founders in that space, physical AI?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "multimodal",
+      "type": "concept",
+      "role": "concept",
+      "name": "多模态 (multimodal)",
+      "file": "多模态",
+      "primary": true,
+      "how_described": "本集说他们的核心论点是 AI 系统天然会是多模态的——「人是多模态的,做出最佳决策的最好方式就是尽可能多地接收感官输入」,公司从视觉起步再扩展到多模态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            541.301,
+            543.063
+          ],
+          "quote": "And so we always wanted to be multimodal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            543.443,
+            547.628
+          ],
+          "quote": "And because our thesis was that AI systems would be multimodal naturally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            548.068,
+            554.156
+          ],
+          "quote": "Because humans are multimodal, the best way that you make the best decisions is to take as many sensory inputs as you can accept.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            570.532,
+            573.974
+          ],
+          "quote": "And the biggest application of multimodal AI now is in physical AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            822.651,
+            823.512
+          ],
+          "quote": "It's multimodal data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            890.204,
+            893.866
+          ],
+          "quote": "Yeah, we're dealing with multiple petabytes of all different types of multimodal data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "the-bitter-lesson",
+      "type": "concept",
+      "role": "concept",
+      "name": "苦涩的教训 (the bitter lesson)",
+      "file": "苦涩的教训",
+      "primary": true,
+      "how_described": "本集用它解释 Eric 的职业主线:过去构建 AI 系统要做特征工程、灌输领域专家知识,但人们发现不做这些、直接加更多数据和算力反而更好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            57.084,
+            59.966
+          ],
+          "quote": "So it's quite interesting because do you know the bitter lesson?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            61.65,
+            69.853
+          ],
+          "quote": "The bitter lesson is this idea that AI, you know, it used to be that to build an AI system, you would think very carefully about it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合 (product market fit)",
+      "file": "产品市场契合",
+      "primary": true,
+      "how_described": "本集说它大多数时候没有戏剧性瞬间——「从未发生过发布一次产品就突然强烈契合的事」,而是产品和市场朝同一方向慢慢靠拢、复利式积累;一个可信信号是在 Gong 里看到一单成交却不知道那家客户是做什么的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            296.433,
+            300.296
+          ],
+          "quote": "So it's funny because product market fit for some folks, it's...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            300.336,
+            303.899
+          ],
+          "quote": "So product market fit is both product and market, and these things have to come together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            304.239,
+            311.705
+          ],
+          "quote": "And so some people, they achieve product market fit by setting a market constant and then compounding their product to hit that market.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            333.64,
+            340.784
+          ],
+          "quote": "And so a lot of people, a lot of companies, you talk to them, they did a product launch, they changed their product, and then they suddenly felt immense product market fit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            347.448,
+            357.313
+          ],
+          "quote": "And looking back on it, my co-founder, he thinks the time when we had product market fit was when we saw a sale close in the Gong Channel, and we didn't know what the company did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            382.789,
+            385.731
+          ],
+          "quote": "There was never a single moment where like, oh, we have got product market fit.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器学习 (machine learning)",
+      "file": "机器学习",
+      "primary": true,
+      "how_described": "本集把 Eric 的职业轨迹描述为从基于物理/领域知识的系统,演进到「把数据扔进一大堆机器学习里,盼着最好的结果」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            71.153,
+            78.155
+          ],
+          "quote": "You try to induce as much domain expertise into the system before kind of wrapping up in machine learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            100.857,
+            111.922
+          ],
+          "quote": "Then in high-frequency trading, it was thinking about the market, what factors actually move the market one way or the other, and then really crafting that and then putting it together into machine learning model afterwards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            112.602,
+            117.644
+          ],
+          "quote": "Now, it's just throwing data into a big pile of machine learning and then seeing it- Hoping for the best.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            160.952,
+            168.614
+          ],
+          "quote": "So I had just quit, and I was sitting on my couch fighting Python dependencies in a machine learning library, and I was like, what have I done?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "annotation",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据标注 (annotation)",
+      "file": "数据标注",
+      "primary": true,
+      "how_described": "本集把它列为 Anchored 产品链条的一环:数据收集、管理与筛选、标注与丰富,最后是评估;例如牛面部识别案例中由专业人类参与标注流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 193,
+          "t": [
+            748.267,
+            753.849
+          ],
+          "quote": "And yeah, humans are only a part of the annotation process as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            864.255,
+            867.175
+          ],
+          "quote": "And then the annotation and enrichment of the data, and finally the evals.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集说 ChatGPT 的出现改变了对话的基调,让市场更快地走向他们的产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            274.963,
+            280.844
+          ],
+          "quote": "And then ChatGPT happened and the kind of tenor of the conversation changed, which definitely helped us quite a bit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            281.264,
+            284.925
+          ],
+          "quote": "Did the ChatGPT release actually unlock the market?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            325.795,
+            333.12
+          ],
+          "quote": "And then after ChatGPT, I wouldn't say there was like a big binary threshold change, but the market started coming to us faster than it was before.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gong",
+      "type": "company",
+      "role": "company",
+      "name": "Gong",
+      "file": "Gong",
+      "primary": false,
+      "how_described": "本集提到他们通过销售记录工具 Gong 渠道看到一单成交却不知道客户是做什么的,以此作为产品市场契合的信号。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            347.448,
+            357.313
+          ],
+          "quote": "And looking back on it, my co-founder, he thinks the time when we had product market fit was when we saw a sale close in the Gong Channel, and we didn't know what the company did.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": false,
+      "how_described": "本集提到他们从 YC 毕业并多次参加 YC 活动,认为「YC 的建议几乎总是对的,但你还是会犯那个错」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            417.735,
+            425.137
+          ],
+          "quote": "And it's funny because, you know, the advice that they give you in YC, it's one of the things that we found is like, it's almost always right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            426.117,
+            427.257
+          ],
+          "quote": "The advice of YC is always right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            431.019,
+            448.191
+          ],
+          "quote": "And I remember very distinctly, there's a particular hire that we were about to make, or actually we made, and we talked to you, this was maybe a couple years after we had finished with YC, and you said, oh, for this role, you should hire, you should look out for this and this and this, and don't do this and this and this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            676.805,
+            686.451
+          ],
+          "quote": "Even talking to prospects, to customers, people that are ahead of us in the space at these YC events, talking to other co-founders in AI, and really just trying to absorb what's going on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1110.815,
+            1121.979
+          ],
+          "quote": "The advice that I think is important for basically all founders, and one of this came from one of the YC retreats that the CEO of Reddit was talking about, which is starting a company is a roller coaster.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reddit",
+      "type": "company",
+      "role": "company",
+      "name": "Reddit",
+      "file": "Reddit",
+      "primary": false,
+      "how_described": "本集引用 Reddit 的 CEO 在 YC 闭门活动上的建议:创办公司就像坐过山车,直接坐上去、试着享受乐趣。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1110.815,
+            1121.979
+          ],
+          "quote": "The advice that I think is important for basically all founders, and one of this came from one of the YC retreats that the CEO of Reddit was talking about, which is starting a company is a roller coaster.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpt-4",
+      "type": "company",
+      "role": "company",
+      "name": "GPT-4",
+      "file": "GPT-4",
+      "primary": false,
+      "how_described": "本集说 Anchored 处理的数据比据他们所知训练 GPT-4 所用的数据还要多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            879.779,
+            885.582
+          ],
+          "quote": "We deal with more data than was used to train, well, from what we know GPT-4.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

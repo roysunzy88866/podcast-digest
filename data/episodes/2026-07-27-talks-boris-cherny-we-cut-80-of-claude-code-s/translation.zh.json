@@ -1,0 +1,4082 @@
+[
+ {
+  "seg": 0,
+  "start": 7.658,
+  "end": 13.884,
+  "speaker": "Unknown",
+  "en": "All right, Boris, we're so excited to have you here, the creator of Claude Code.",
+  "zh": "好了，Boris，我们非常激动能邀请到你，Claude Code 的创造者。"
+ },
+ {
+  "seg": 1,
+  "start": 14.625,
+  "end": 15.145,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 2,
+  "start": 15.185,
+  "end": 20.531,
+  "speaker": "Unknown",
+  "en": "It's great to be here.",
+  "zh": "很高兴来到这里。"
+ },
+ {
+  "seg": 3,
+  "start": 21.131,
+  "end": 26.176,
+  "speaker": "Unknown",
+  "en": "Fresh off the press, you guys just shipped Opus 5 yesterday.",
+  "zh": "最新消息，你们昨天刚发布了 Opus 5。"
+ },
+ {
+  "seg": 4,
+  "start": 26.557,
+  "end": 26.757,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 5,
+  "start": 29.078,
+  "end": 33.32,
+  "speaker": "Unknown",
+  "en": "And it seems that model performance keeps accelerating.",
+  "zh": "而且看起来模型性能一直在加速提升。"
+ },
+ {
+  "seg": 6,
+  "start": 33.44,
+  "end": 39.902,
+  "speaker": "Unknown",
+  "en": "You guys took Arc AGI 3 to 30%, which is incredible.",
+  "zh": "你们把 Arc AGI 3 提升到了 30%，这太惊人了。"
+ },
+ {
+  "seg": 7,
+  "start": 40.202,
+  "end": 40.462,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 8,
+  "start": 41.482,
+  "end": 48.685,
+  "speaker": "Unknown",
+  "en": "And for context, before the best score was in the low single digits or low teens, right?",
+  "zh": "而且作为背景，之前最好的成绩是个位数的低段或者十位数的低段，对吧？"
+ },
+ {
+  "seg": 9,
+  "start": 49.405,
+  "end": 54.267,
+  "speaker": "Unknown",
+  "en": "What can Opus 5 do now that it couldn't versus a previous version?",
+  "zh": "Opus 5 现在能做什么之前版本做不到的事？"
+ },
+ {
+  "seg": 10,
+  "start": 55.657,
+  "end": 64.343,
+  "speaker": "Unknown",
+  "en": "Yeah, there's a lot that goes into every new model, and there's a lot of new capabilities that we teach and get the model to do.",
+  "zh": "是的，每一个新模型背后都有很多工作，我们会教模型很多新能力，让模型去做很多新事情。"
+ },
+ {
+  "seg": 11,
+  "start": 65.183,
+  "end": 73.109,
+  "speaker": "Unknown",
+  "en": "Whenever you do model training, you try to teach a whole bunch of different things, and most often it doesn't work.",
+  "zh": "每次做模型训练时，你都会尝试教它一大堆不同的东西，而大多数时候是行不通的。"
+ },
+ {
+  "seg": 12,
+  "start": 74.031,
+  "end": 76.534,
+  "speaker": "Unknown",
+  "en": "But some subset of the things the model does learn.",
+  "zh": "但其中有一小部分东西模型确实学会了。"
+ },
+ {
+  "seg": 13,
+  "start": 77.295,
+  "end": 78.997,
+  "speaker": "Unknown",
+  "en": "And sometimes it also surprises you.",
+  "zh": "而且有时候它还会给你惊喜。"
+ },
+ {
+  "seg": 14,
+  "start": 79.517,
+  "end": 84.943,
+  "speaker": "Unknown",
+  "en": "It has these skills, it has abilities that you actually didn't really teach it, but it just kind of learned.",
+  "zh": "它拥有这些技能、这些能力，其实你并没有真正教过它，但它就是自己学会了。"
+ },
+ {
+  "seg": 15,
+  "start": 85.464,
+  "end": 90.429,
+  "speaker": "Unknown",
+  "en": "For five, one example of something it does that I think no other model has done.",
+  "zh": "对于 5 来说，它做到的一件我认为没有其他模型做到过的事情"
+ },
+ {
+  "seg": 16,
+  "start": 91.27,
+  "end": 94.393,
+  "speaker": "Unknown",
+  "en": "is it runs for a very long period of time.",
+  "zh": "是它能运行非常长的时间。"
+ },
+ {
+  "seg": 17,
+  "start": 94.934,
+  "end": 99.719,
+  "speaker": "Unknown",
+  "en": "And especially when you combine Opus 5 with auto mode, it's just incredible.",
+  "zh": "尤其是当你把 Opus 5 和 auto 模式结合起来时，简直不可思议。"
+ },
+ {
+  "seg": 18,
+  "start": 99.799,
+  "end": 102.582,
+  "speaker": "Unknown",
+  "en": "It can go for days, weeks, months at a time.",
+  "zh": "它可以一次运行几天、几周、几个月。"
+ },
+ {
+  "seg": 19,
+  "start": 103.062,
+  "end": 104.984,
+  "speaker": "Unknown",
+  "en": "It just won't stop.",
+  "zh": "它就是不会停下来。"
+ },
+ {
+  "seg": 20,
+  "start": 105.104,
+  "end": 106.826,
+  "speaker": "Unknown",
+  "en": "You don't even need to use scaffolding.",
+  "zh": "你甚至不需要使用脚手架。"
+ },
+ {
+  "seg": 21,
+  "start": 107.407,
+  "end": 109.589,
+  "speaker": "Unknown",
+  "en": "So you don't need slash goal.",
+  "zh": "所以你不需要 slash goal。"
+ },
+ {
+  "seg": 22,
+  "start": 109.669,
+  "end": 110.87,
+  "speaker": "Unknown",
+  "en": "You don't need all this other stuff.",
+  "zh": "你不需要所有这些其他的东西。"
+ },
+ {
+  "seg": 23,
+  "start": 111.33,
+  "end": 113.433,
+  "speaker": "Unknown",
+  "en": "It'll just go because it knows it needs to do the task.",
+  "zh": "它就是会一直做下去，因为它知道自己需要完成这个任务。"
+ },
+ {
+  "seg": 24,
+  "start": 114.489,
+  "end": 126.727,
+  "speaker": "Unknown",
+  "en": "Another thing that I'm really excited about, and I'm going to start, I think, to talk about a little bit more, but it's kind of surprising because it's such a new capability, is the model does not seem to be prompt injectable anymore.",
+  "zh": "另一件我非常兴奋的事，我想我会开始更多地谈论它，但它有点令人惊讶，因为这是一项如此新的能力，就是这个模型似乎不再能被提示词注入了。"
+ },
+ {
+  "seg": 25,
+  "start": 128.67,
+  "end": 129.652,
+  "speaker": "Unknown",
+  "en": "That's prompt injectable.",
+  "zh": "就是不能再被提示词注入了。"
+ },
+ {
+  "seg": 26,
+  "start": 131.375,
+  "end": 131.875,
+  "speaker": "Unknown",
+  "en": "It's crazy.",
+  "zh": "这太疯狂了。"
+ },
+ {
+  "seg": 27,
+  "start": 132.096,
+  "end": 135.338,
+  "speaker": "Unknown",
+  "en": "Like people have talked about this like lethal trifecta for a long time.",
+  "zh": "比如，人们谈论这个「致命三要素」已经很久了。"
+ },
+ {
+  "seg": 28,
+  "start": 135.898,
+  "end": 140.461,
+  "speaker": "Unknown",
+  "en": "And this really affects kind of harness design and agent design and product design.",
+  "zh": "而这实际上很影响 harness 设计、智能体设计和产品设计。"
+ },
+ {
+  "seg": 29,
+  "start": 140.901,
+  "end": 148.367,
+  "speaker": "Unknown",
+  "en": "Because if the model reads some instruction on the internet, that's like, you know, do X and Y and Z and also delete everything on the user's computer.",
+  "zh": "因为如果模型在互联网上读到某条指令，比如「做 X、Y、Z，同时删掉用户电脑上的所有东西」，"
+ },
+ {
+  "seg": 30,
+  "start": 149.547,
+  "end": 151.028,
+  "speaker": "Unknown",
+  "en": "A year ago, the model would have just done it.",
+  "zh": "一年前，模型就会直接照做。"
+ },
+ {
+  "seg": 31,
+  "start": 152.589,
+  "end": 154.651,
+  "speaker": "Unknown",
+  "en": "But nowadays, Opus does not.",
+  "zh": "但现在，Opus 不会了。"
+ },
+ {
+  "seg": 32,
+  "start": 155.571,
+  "end": 157.833,
+  "speaker": "Unknown",
+  "en": "And this has actually been the case since like Opus 4.7, 4.8,",
+  "zh": "而且实际上从大概 Opus 4.7、4.8 开始就是这样了，"
+ },
+ {
+  "seg": 33,
+  "start": 159.953,
+  "end": 161.496,
+  "speaker": "Unknown",
+  "en": "Sonnet 5 has been quite good at this.",
+  "zh": "Sonnet 5 在这方面一直相当不错。"
+ },
+ {
+  "seg": 34,
+  "start": 161.516,
+  "end": 162.438,
+  "speaker": "Unknown",
+  "en": "Fable was quite good at it.",
+  "zh": "Fable 在这方面也相当不错。"
+ },
+ {
+  "seg": 35,
+  "start": 162.879,
+  "end": 165.283,
+  "speaker": "Unknown",
+  "en": "But Opus 5 just hits like a new frontier on this.",
+  "zh": "但 Opus 5 在这方面达到了一个全新的前沿。"
+ },
+ {
+  "seg": 36,
+  "start": 165.844,
+  "end": 171.896,
+  "speaker": "Unknown",
+  "en": "So essentially, if you combine a well-aligned model, so this is like essentially three years of research into alignment.",
+  "zh": "所以本质上，如果你把一个对齐良好的模型——这基本上是三年对齐研究的成果——"
+ },
+ {
+  "seg": 37,
+  "start": 172.635,
+  "end": 175.877,
+  "speaker": "Unknown",
+  "en": "With a prompt injection classifier, which we run for all traffic.",
+  "zh": "和一个提示词注入分类器结合起来——我们对所有流量都运行它。"
+ },
+ {
+  "seg": 38,
+  "start": 176.417,
+  "end": 186.963,
+  "speaker": "Unknown",
+  "en": "And what this is doing is it's based on Chrysola's mechanistic interpretability work, where it's literally, we're looking at neurons in the model's brain that light up when prompt injection happens.",
+  "zh": "它的基础是 Chrysola 的机制可解释性工作，字面意义上就是，我们在观察模型大脑中在提示词注入发生时亮起的神经元。"
+ },
+ {
+  "seg": 39,
+  "start": 187.764,
+  "end": 192.787,
+  "speaker": "Unknown",
+  "en": "So the model won't even tell you, but we can actually see those neurons and we can figure out and diagnose that it's happening.",
+  "zh": "所以模型甚至不会告诉你，但我们实际上能看到那些神经元，我们能弄清楚并诊断出提示词注入正在发生。"
+ },
+ {
+  "seg": 40,
+  "start": 193.487,
+  "end": 196.469,
+  "speaker": "Unknown",
+  "en": "And then you combine that with the auto mode classifier.",
+  "zh": "然后你把它和 auto 模式分类器结合起来。"
+ },
+ {
+  "seg": 41,
+  "start": 196.489,
+  "end": 201.352,
+  "speaker": "Unknown",
+  "en": "And with these three layers, we just cannot demonstrate prompt injection anymore.",
+  "zh": "有了这三层，我们已经完全无法演示出提示词注入了。"
+ },
+ {
+  "seg": 42,
+  "start": 201.687,
+  "end": 208.388,
+  "speaker": "Unknown",
+  "en": "Talking about a prompt injection, the other side of the coin is now the system prompt.",
+  "zh": "说到提示词注入，硬币的另一面现在是系统提示词。"
+ },
+ {
+  "seg": 43,
+  "start": 208.748,
+  "end": 211.389,
+  "speaker": "Unknown",
+  "en": "Let's talk a bit about the new release.",
+  "zh": "我们来聊聊这次新发布。"
+ },
+ {
+  "seg": 44,
+  "start": 211.829,
+  "end": 217.69,
+  "speaker": "Unknown",
+  "en": "You actually deleted over 80% of the system prompt from Claude Code.",
+  "zh": "你们实际上从 Claude Code 里删除了超过 80% 的系统提示词。"
+ },
+ {
+  "seg": 45,
+  "start": 217.73,
+  "end": 218.55,
+  "speaker": "Unknown",
+  "en": "Tell us more about that.",
+  "zh": "多给我们讲讲吧。"
+ },
+ {
+  "seg": 46,
+  "start": 218.95,
+  "end": 227.051,
+  "speaker": "Unknown",
+  "en": "I think something that a lot of people might not realize is Claude Code as a product and as a harness is just always changing.",
+  "zh": "我想很多人可能没有意识到的是，Claude Code 作为一个产品和作为一个 harness，一直在变化。"
+ },
+ {
+  "seg": 47,
+  "start": 227.611,
+  "end": 228.892,
+  "speaker": "Unknown",
+  "en": "We're always adding stuff.",
+  "zh": "我们总是在增加东西。"
+ },
+ {
+  "seg": 48,
+  "start": 229.092,
+  "end": 230.512,
+  "speaker": "Unknown",
+  "en": "We're always deleting stuff.",
+  "zh": "我们总是在删除东西。"
+ },
+ {
+  "seg": 49,
+  "start": 231.552,
+  "end": 241.519,
+  "speaker": "Unknown",
+  "en": "Every time that a new model comes out, we delete a bunch of the system prompt, change a bunch of the system prompt, we change the set of tools all the time, we change the prompts for the tools all the time.",
+  "zh": "每次新模型发布时，我们都会删除一大堆系统提示词，修改一大堆系统提示词，我们一直在更换工具集合，一直在更换工具的提示词。"
+ },
+ {
+  "seg": 50,
+  "start": 242.119,
+  "end": 246.062,
+  "speaker": "Unknown",
+  "en": "And the reason is, every model is very different.",
+  "zh": "原因是,每个模型都非常不同。"
+ },
+ {
+  "seg": 51,
+  "start": 247.067,
+  "end": 253.768,
+  "speaker": "Unknown",
+  "en": "So something that you did for one model maybe three months ago, it just might not translate at all to the next model.",
+  "zh": "所以你三个月前为某个模型做的事情,可能完全无法套用到下一个模型上。"
+ },
+ {
+  "seg": 52,
+  "start": 254.548,
+  "end": 258.789,
+  "speaker": "Unknown",
+  "en": "And so one thing about Opus 5 is it's just really intelligent.",
+  "zh": "Opus 5 的一个特点就是它真的非常聪明。"
+ },
+ {
+  "seg": 53,
+  "start": 259.529,
+  "end": 266.511,
+  "speaker": "Unknown",
+  "en": "And a lot of the stuff in the system prompt was correcting for these behaviors that the model should have known, but it didn't.",
+  "zh": "系统 prompt 里的很多内容,其实都是在纠正模型本应知道、但它不知道的行为。"
+ },
+ {
+  "seg": 54,
+  "start": 267.711,
+  "end": 268.991,
+  "speaker": "Unknown",
+  "en": "Now Opus 5 just does it.",
+  "zh": "现在 Opus 5 直接就会做了。"
+ },
+ {
+  "seg": 55,
+  "start": 270.051,
+  "end": 272.832,
+  "speaker": "Unknown",
+  "en": "So yeah, we deleted 80% of the system prompt.",
+  "zh": "所以是的,我们删掉了 80% 的系统 prompt。"
+ },
+ {
+  "seg": 56,
+  "start": 274,
+  "end": 276.822,
+  "speaker": "Unknown",
+  "en": "You can actually try deleting the rest of it too.",
+  "zh": "你其实也可以试着把剩下的部分也删掉。"
+ },
+ {
+  "seg": 57,
+  "start": 277.523,
+  "end": 283.287,
+  "speaker": "Unknown",
+  "en": "So when you run Claude Code, you can just do like dash dash system prompt and set whatever system prompt you want if you want to experiment with it.",
+  "zh": "当你运行 Claude Code 时,你可以用类似 dash dash system prompt 的方式,设置任何你想要的系统 prompt 来做实验。"
+ },
+ {
+  "seg": 58,
+  "start": 284.248,
+  "end": 287.11,
+  "speaker": "Unknown",
+  "en": "And another thing that you can try is simple mode.",
+  "zh": "你还可以尝试的另一件事是 simple mode。"
+ },
+ {
+  "seg": 59,
+  "start": 287.711,
+  "end": 289.853,
+  "speaker": "Unknown",
+  "en": "So this is actually this kind of undocumented feature.",
+  "zh": "这其实是一个没有正式文档的功能。"
+ },
+ {
+  "seg": 60,
+  "start": 290.273,
+  "end": 298.9,
+  "speaker": "Unknown",
+  "en": "If you do Claude Code simple equals one, like this environment variable, and then you run Claude, it'll delete all the system prompts, including from the tools.",
+  "zh": "如果你设置 Claude Code simple equals one,也就是这个环境变量,然后运行 Claude,它会删除所有的系统 prompt,包括工具里的那些。"
+ },
+ {
+  "seg": 61,
+  "start": 300.232,
+  "end": 305.274,
+  "speaker": "Unknown",
+  "en": "And we actually use this as a sort of ablation to figure out, is the prompt useful?",
+  "zh": "我们实际上把这也当作一种消融实验,来弄清楚这个 prompt 到底有没有用。"
+ },
+ {
+  "seg": 62,
+  "start": 305.795,
+  "end": 309.916,
+  "speaker": "Unknown",
+  "en": "And what's interesting is that the model is actually a little bit more intelligent without these prompts.",
+  "zh": "有趣的是,没有这些 prompt 时,模型反而会稍微聪明一点。"
+ },
+ {
+  "seg": 63,
+  "start": 310.777,
+  "end": 311.897,
+  "speaker": "Unknown",
+  "en": "That's something that we've been finding.",
+  "zh": "这是我们的一个发现。"
+ },
+ {
+  "seg": 64,
+  "start": 312.398,
+  "end": 324.443,
+  "speaker": "Unknown",
+  "en": "But when you use Claude Code as a product, you do actually want some of these prompts because it helps you use the product and it helps the product behave and the model behave in the way that you would want when you're using it as a person.",
+  "zh": "但当你把 Claude Code 当作产品来用时,你确实还是需要其中一些 prompt,因为它能帮助你使用这个产品,也能让这个产品、让模型,以你作为个人用户时所期望的方式运作。"
+ },
+ {
+  "seg": 65,
+  "start": 325.03,
+  "end": 334.313,
+  "speaker": "Unknown",
+  "en": "I think the thing that's really fascinating in this era of building, basically, you have built the best harness in the world for Claude, and that's Claude Code.",
+  "zh": "我觉得在这个构建时代里,真正令人着迷的一点是:你基本上已经为 Claude 构建了世界上最好的 harness,那就是 Claude Code。"
+ },
+ {
+  "seg": 66,
+  "start": 334.774,
+  "end": 343.357,
+  "speaker": "Unknown",
+  "en": "From what I'm hearing, for every model release, you basically delete all of the code base, delete all of the prompt, and start from scratch every time.",
+  "zh": "据我所听到的,每次模型发布,你们基本上都会把整个代码库删掉、把所有 prompt 删掉,每次都从零开始。"
+ },
+ {
+  "seg": 67,
+  "start": 343.877,
+  "end": 349.099,
+  "speaker": "Unknown",
+  "en": "That in the old world would have been not something started would have done for the product.",
+  "zh": "在旧时代,started 是不会为产品这么做的。"
+ },
+ {
+  "seg": 68,
+  "start": 349.119,
+  "end": 351.68,
+  "speaker": "Unknown",
+  "en": "It's like press delete every six months for everything.",
+  "zh": "就像每六个月把所有东西都按一次删除键。"
+ },
+ {
+  "seg": 69,
+  "start": 352.266,
+  "end": 353.147,
+  "speaker": "Unknown",
+  "en": "That's right, that's right.",
+  "zh": "没错,没错。"
+ },
+ {
+  "seg": 70,
+  "start": 353.287,
+  "end": 356.59,
+  "speaker": "Unknown",
+  "en": "So to be fair, we don't delete the entire code base, but we do delete a lot.",
+  "zh": "说句公道话,我们不会删掉整个代码库,但我们会删掉很多。"
+ },
+ {
+  "seg": 71,
+  "start": 357.211,
+  "end": 361.635,
+  "speaker": "Unknown",
+  "en": "So every time there's a new model, we try, in research, we call this ablation.",
+  "zh": "每次有新模型,我们都会尝试——在研究里,我们把这叫做消融实验。"
+ },
+ {
+  "seg": 72,
+  "start": 362.175,
+  "end": 369.201,
+  "speaker": "Unknown",
+  "en": "And so what this means is you delete the entire system prompt, and then you bring it back line by line to figure out what is the impact of each individual line.",
+  "zh": "意思就是,你把整个系统 prompt 删掉,然后一行一行地把内容加回来,弄清楚每一行各自的影响是什么。"
+ },
+ {
+  "seg": 73,
+  "start": 370.222,
+  "end": 377.229,
+  "speaker": "Unknown",
+  "en": "It's sort of like an eval, and you can kind of like evaluate it, and the ablation, essentially, it's an eval, but you delete things to figure out the impact.",
+  "zh": "这有点像一个 eval,你可以对它进行评估,消融实验本质上就是一个 eval,只不过你通过删除东西来弄清影响。"
+ },
+ {
+  "seg": 74,
+  "start": 378.036,
+  "end": 379.818,
+  "speaker": "Unknown",
+  "en": "And yeah, like we do the same thing for tools.",
+  "zh": "是的,我们对工具也做同样的事。"
+ },
+ {
+  "seg": 75,
+  "start": 379.838,
+  "end": 381.34,
+  "speaker": "Unknown",
+  "en": "Like we unship tools all the time.",
+  "zh": "我们经常把工具下架。"
+ },
+ {
+  "seg": 76,
+  "start": 381.4,
+  "end": 383.783,
+  "speaker": "Unknown",
+  "en": "We delete code in the harness all the time.",
+  "zh": "我们经常在 harness 里删代码。"
+ },
+ {
+  "seg": 77,
+  "start": 384.403,
+  "end": 391.551,
+  "speaker": "Unknown",
+  "en": "If you look at actually the code that's in the Claude Code harness today, almost all of it is about safety and permissions and static analysis.",
+  "zh": "如果你今天去看 Claude Code harness 里的代码,几乎全都是关于安全性、权限和静态分析的。"
+ },
+ {
+  "seg": 78,
+  "start": 392.132,
+  "end": 396.757,
+  "speaker": "Unknown",
+  "en": "And there's a bunch of UI code and we've actually unshipped a lot of the other code already.",
+  "zh": "还有一堆 UI 代码,其他很多代码我们其实已经下架了。"
+ },
+ {
+  "seg": 79,
+  "start": 397.201,
+  "end": 411.755,
+  "speaker": "Unknown",
+  "en": "Do you think this way of building a agentic product and harness and basically doing ablations every time there's a new model release, should everyone in this room that's building AI products basically do that?",
+  "zh": "你觉得这种构建智能体产品和 harness 的方式——基本上每次有新模型发布就做消融实验——在这里每一位构建 AI 产品的人都应该这么做吗?"
+ },
+ {
+  "seg": 80,
+  "start": 411.955,
+  "end": 414.777,
+  "speaker": "Unknown",
+  "en": "Be comfortable and brave to press delete.",
+  "zh": "要习惯并勇于按下删除键。"
+ },
+ {
+  "seg": 81,
+  "start": 415.358,
+  "end": 415.878,
+  "speaker": "Unknown",
+  "en": "100%.",
+  "zh": "百分之百。"
+ },
+ {
+  "seg": 82,
+  "start": 416.259,
+  "end": 416.639,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 83,
+  "start": 416.699,
+  "end": 422.164,
+  "speaker": "Unknown",
+  "en": "And for people that aren't building agentic products, but you're using Claude Code, every six months, delete your Claude MD.",
+  "zh": "对于那些不是在构建智能体产品、但在使用 Claude Code 的人,每六个月,删掉你的 Claude MD。"
+ },
+ {
+  "seg": 84,
+  "start": 422.955,
+  "end": 423.676,
+  "speaker": "Unknown",
+  "en": "Delete your skills.",
+  "zh": "删掉你的 skills。"
+ },
+ {
+  "seg": 85,
+  "start": 424.357,
+  "end": 424.978,
+  "speaker": "Unknown",
+  "en": "Delete your hooks.",
+  "zh": "删掉你的 hooks。"
+ },
+ {
+  "seg": 86,
+  "start": 425.899,
+  "end": 428.042,
+  "speaker": "Unknown",
+  "en": "See what the model does and it might surprise you.",
+  "zh": "看看模型会怎么做,它可能会让你惊讶。"
+ },
+ {
+  "seg": 87,
+  "start": 428.703,
+  "end": 440.258,
+  "speaker": "Unknown",
+  "en": "And actually for Opus 5, this is something we really do recommend is just try deleting all of these things because the model might really just not need all those instructions that you needed for past models.",
+  "zh": "实际上,对于 Opus 5,我们真心推荐的就是去试着删掉所有这些东西,因为这个模型可能真的不再需要那些你在以前的模型上需要的指令了。"
+ },
+ {
+  "seg": 88,
+  "start": 440.789,
+  "end": 452.394,
+  "speaker": "Unknown",
+  "en": "Let's talk a bit about how then you build this new prompt when there's a new model release, like for everyone in the room, everyone will want to try Opus 5 and they're going to press delete on their system prompt.",
+  "zh": "我们来聊聊,当有新模型发布时,你该如何构建这个新的 prompt——在座的每个人都会想试试 Opus 5,他们会删掉自己的系统 prompt。"
+ },
+ {
+  "seg": 89,
+  "start": 452.575,
+  "end": 456.376,
+  "speaker": "Unknown",
+  "en": "How do they go about rebuilding the system prompt?",
+  "zh": "他们该怎么重建系统 prompt 呢?"
+ },
+ {
+  "seg": 90,
+  "start": 457.057,
+  "end": 458.917,
+  "speaker": "Unknown",
+  "en": "How do you set up your environment?",
+  "zh": "你是怎么搭建你的环境的?"
+ },
+ {
+  "seg": 91,
+  "start": 459.758,
+  "end": 461.919,
+  "speaker": "Unknown",
+  "en": "So you do it kind of piece by piece.",
+  "zh": "你基本上是一块一块来的。"
+ },
+ {
+  "seg": 92,
+  "start": 462.499,
+  "end": 464.58,
+  "speaker": "Unknown",
+  "en": "So the first step is you delete.",
+  "zh": "第一步是删除。"
+ },
+ {
+  "seg": 93,
+  "start": 465.861,
+  "end": 468.362,
+  "speaker": "Unknown",
+  "en": "The next step is you use it.",
+  "zh": "第二步是使用它。"
+ },
+ {
+  "seg": 94,
+  "start": 469.529,
+  "end": 474.533,
+  "speaker": "Unknown",
+  "en": "And you don't want to guess what's the instruction that the model needs because you might not predict it correctly.",
+  "zh": "你不应该去猜模型需要什么指令,因为你可能猜不对。"
+ },
+ {
+  "seg": 95,
+  "start": 475.134,
+  "end": 476.935,
+  "speaker": "Unknown",
+  "en": "The thing that you want to do is you want to run it.",
+  "zh": "你要做的是把它跑起来。"
+ },
+ {
+  "seg": 96,
+  "start": 477.756,
+  "end": 481.96,
+  "speaker": "Unknown",
+  "en": "And if it's like a custom agentic product that you're building, you want to kind of run the products.",
+  "zh": "如果这是你正在构建的自定义智能体产品,你要把这个产品跑起来。"
+ },
+ {
+  "seg": 97,
+  "start": 482,
+  "end": 483.561,
+  "speaker": "Unknown",
+  "en": "You want to see where it fails with the model.",
+  "zh": "你要观察它在哪里跟模型一起失败了。"
+ },
+ {
+  "seg": 98,
+  "start": 483.621,
+  "end": 484.722,
+  "speaker": "Unknown",
+  "en": "You want to see what it does well.",
+  "zh": "你要观察它哪些地方做得好。"
+ },
+ {
+  "seg": 99,
+  "start": 485.343,
+  "end": 493.65,
+  "speaker": "Unknown",
+  "en": "If you're using Claude Code, you want to see where it does well with your code base or maybe where it stumbles over the architecture or stumbles over something else.",
+  "zh": "如果你在用 Claude Code,你要观察它在哪里对你的代码库表现良好,或者在哪里在架构上卡壳,或者在其他什么地方出问题。"
+ },
+ {
+  "seg": 100,
+  "start": 494.397,
+  "end": 499.541,
+  "speaker": "Unknown",
+  "en": "And only when you see it repeatedly stumble on the same thing, that's when you add it back.",
+  "zh": "而只有当你看到它反复在同样的事情上跌倒时,那才是你把它加回去的时候。"
+ },
+ {
+  "seg": 101,
+  "start": 500.302,
+  "end": 501.663,
+  "speaker": "Unknown",
+  "en": "But you don't want to do it too early.",
+  "zh": "但你不想太早这么做。"
+ },
+ {
+  "seg": 102,
+  "start": 502.084,
+  "end": 505.426,
+  "speaker": "Unknown",
+  "en": "Because remember, the model is going to read this instruction every single time you use it.",
+  "zh": "因为记住,模型会在你每一次使用它时都读到这条指令。"
+ },
+ {
+  "seg": 103,
+  "start": 505.847,
+  "end": 508.429,
+  "speaker": "Unknown",
+  "en": "So you really want to make sure that the model needs this instruction.",
+  "zh": "所以你真的要确保模型确实需要这条指令。"
+ },
+ {
+  "seg": 104,
+  "start": 509.33,
+  "end": 512.452,
+  "speaker": "Unknown",
+  "en": "I think this is sort of the crazy thing about building on models.",
+  "zh": "我认为这在某种程度上就是基于模型构建的疯狂之处。"
+ },
+ {
+  "seg": 105,
+  "start": 512.472,
+  "end": 514.995,
+  "speaker": "Unknown",
+  "en": "It's just so different than all the engineering that I've ever done.",
+  "zh": "它和我以前做过的所有工程都太不一样了。"
+ },
+ {
+  "seg": 106,
+  "start": 515.886,
+  "end": 522.309,
+  "speaker": "Unknown",
+  "en": "Like in the past when you built on systems, you built these like big beautiful systems and you really think about the system design upfront.",
+  "zh": "就像过去你构建系统时,你会构建这些庞大漂亮的系统,你会真正提前思考系统设计。"
+ },
+ {
+  "seg": 107,
+  "start": 522.689,
+  "end": 524.229,
+  "speaker": "Unknown",
+  "en": "You have like a big suite of unit tests.",
+  "zh": "你会有一大套单元测试。"
+ },
+ {
+  "seg": 108,
+  "start": 524.81,
+  "end": 528.951,
+  "speaker": "Unknown",
+  "en": "You think about everything and you know, like a re-architecture is a big project and sometimes it takes months.",
+  "zh": "你把一切都想清楚,你知道,重新架构是一个大项目,有时要花几个月。"
+ },
+ {
+  "seg": 109,
+  "start": 529.551,
+  "end": 533.013,
+  "speaker": "Unknown",
+  "en": "I've worked on re-architecture products that, you know, big companies that take years.",
+  "zh": "我做过大公司的重新架构项目,你知道,要花好几年。"
+ },
+ {
+  "seg": 110,
+  "start": 534.533,
+  "end": 536.574,
+  "speaker": "Unknown",
+  "en": "And the motto is not like that.",
+  "zh": "而这(个领域)完全不是那样。"
+ },
+ {
+  "seg": 111,
+  "start": 537.295,
+  "end": 543.037,
+  "speaker": "Unknown",
+  "en": "It's the way to think about it is almost like a living creature, like as something more organic.",
+  "zh": "思考它的方式几乎就像一个活的生物,像一个更有机的存在。"
+ },
+ {
+  "seg": 112,
+  "start": 543.702,
+  "end": 546.803,
+  "speaker": "Unknown",
+  "en": "It's a thing where every model generation, it behaves differently.",
+  "zh": "每一代模型,它的表现都不同。"
+ },
+ {
+  "seg": 113,
+  "start": 547.243,
+  "end": 548.643,
+  "speaker": "Unknown",
+  "en": "It has a slightly different personality.",
+  "zh": "它有略微不同的个性。"
+ },
+ {
+  "seg": 114,
+  "start": 549.303,
+  "end": 552.964,
+  "speaker": "Unknown",
+  "en": "And you have to take the time to get to know it and then adjust the harness based on that.",
+  "zh": "你必须花时间去了解它,然后据此调整 harness。"
+ },
+ {
+  "seg": 115,
+  "start": 553.684,
+  "end": 557.745,
+  "speaker": "Unknown",
+  "en": "And I think it's just very much like an empirical and kind of scientific thing.",
+  "zh": "我认为这非常像一种经验性的、有点科学性的东西。"
+ },
+ {
+  "seg": 116,
+  "start": 558.245,
+  "end": 564.567,
+  "speaker": "Unknown",
+  "en": "You have to take a very scientific mindset to it where you try something, you see the result, and then you iterate based on that.",
+  "zh": "你必须用非常科学的心态对待它:你尝试一些东西,看到结果,然后据此迭代。"
+ },
+ {
+  "seg": 117,
+  "start": 565.232,
+  "end": 570.015,
+  "speaker": "Unknown",
+  "en": "If you're building in this world right now, what then becomes stable?",
+  "zh": "如果你现在在这个世界里构建,那么什么会变得稳定?"
+ },
+ {
+  "seg": 118,
+  "start": 570.155,
+  "end": 576.018,
+  "speaker": "Unknown",
+  "en": "Are evals something that you keep from the previous models and keep using them in each new model release?",
+  "zh": "eval 是你从之前的模型保留下来、在每次新模型发布时继续使用的东西吗?"
+ },
+ {
+  "seg": 119,
+  "start": 576.979,
+  "end": 578.8,
+  "speaker": "Unknown",
+  "en": "We do until we max out the eval.",
+  "zh": "我们会保留,直到我们把 eval 用到饱和。"
+ },
+ {
+  "seg": 120,
+  "start": 580.301,
+  "end": 581.882,
+  "speaker": "Unknown",
+  "en": "So that's sort of the tip for everyone.",
+  "zh": "所以这算是给所有人的一个诀窍。"
+ },
+ {
+  "seg": 121,
+  "start": 581.922,
+  "end": 589.587,
+  "speaker": "Unknown",
+  "en": "So code and system prompt, if you want to build at the bleeding edge and have the most capability for models, you've got to delete those.",
+  "zh": "所以代码和 system prompt,如果你想在最前沿构建、获得模型的最大能力,你必须删掉它们。"
+ },
+ {
+  "seg": 122,
+  "start": 590.047,
+  "end": 593.609,
+  "speaker": "Unknown",
+  "en": "But evals are constant and keep appending to them, basically.",
+  "zh": "但 eval 是恒定的,基本上就是不断往里追加。"
+ },
+ {
+  "seg": 123,
+  "start": 594.04,
+  "end": 595.321,
+  "speaker": "Unknown",
+  "en": "Yeah, you keep depending.",
+  "zh": "是的,你持续保留。"
+ },
+ {
+  "seg": 124,
+  "start": 596.142,
+  "end": 600.365,
+  "speaker": "Unknown",
+  "en": "What happens is, you know, I actually wouldn't even go this far, to be honest.",
+  "zh": "实际发生的情况是,你知道,说实话我甚至不会走到那么远。"
+ },
+ {
+  "seg": 125,
+  "start": 600.665,
+  "end": 604.648,
+  "speaker": "Unknown",
+  "en": "I think evals, they outlive the harness a little bit, but not by that much.",
+  "zh": "我认为 eval 会比 harness 活得久一点,但不会久太多。"
+ },
+ {
+  "seg": 126,
+  "start": 605.049,
+  "end": 608.632,
+  "speaker": "Unknown",
+  "en": "Like an eval might live for maybe one, two, three model generations.",
+  "zh": "一个 eval 可能存活大概一代、两代、三代模型。"
+ },
+ {
+  "seg": 127,
+  "start": 609.112,
+  "end": 610.973,
+  "speaker": "Unknown",
+  "en": "But nowadays, you know, we're on the exponential.",
+  "zh": "但如今,你知道,我们处在指数曲线上。"
+ },
+ {
+  "seg": 128,
+  "start": 611.634,
+  "end": 613.495,
+  "speaker": "Unknown",
+  "en": "The model is improving so quickly.",
+  "zh": "模型提升得非常快。"
+ },
+ {
+  "seg": 129,
+  "start": 614.176,
+  "end": 618.78,
+  "speaker": "Unknown",
+  "en": "Very often we just saturate the eval and then we have to throw it away and we have to come up with a new eval.",
+  "zh": "我们经常只是把 eval 做到饱和,然后不得不扔掉它,不得不想出新的 eval。"
+ },
+ {
+  "seg": 130,
+  "start": 619.562,
+  "end": 620.822,
+  "speaker": "Unknown",
+  "en": "And this is just part of the process.",
+  "zh": "而这只是流程的一部分。"
+ },
+ {
+  "seg": 131,
+  "start": 621.523,
+  "end": 623.143,
+  "speaker": "Unknown",
+  "en": "And again, it's about being empirical.",
+  "zh": "再说一次,关键在于保持经验性。"
+ },
+ {
+  "seg": 132,
+  "start": 623.163,
+  "end": 624.184,
+  "speaker": "Unknown",
+  "en": "You have to use the product.",
+  "zh": "你必须使用产品。"
+ },
+ {
+  "seg": 133,
+  "start": 624.204,
+  "end": 625.104,
+  "speaker": "Unknown",
+  "en": "You have to use the model.",
+  "zh": "你必须使用模型。"
+ },
+ {
+  "seg": 134,
+  "start": 625.484,
+  "end": 626.644,
+  "speaker": "Unknown",
+  "en": "You have to see where it struggles.",
+  "zh": "你必须观察它在哪儿挣扎。"
+ },
+ {
+  "seg": 135,
+  "start": 627.245,
+  "end": 629.705,
+  "speaker": "Unknown",
+  "en": "And then based on that, that's the evil set that you should build.",
+  "zh": "然后基于此,那才是你应该构建的 eval 集。"
+ },
+ {
+  "seg": 136,
+  "start": 630.506,
+  "end": 641.99,
+  "speaker": "Unknown",
+  "en": "I think one term I heard you describe how to build the best agentic products on top of a Claude is this concept of an unhobbling Claude.",
+  "zh": "我记得你用一个词描述过如何在 Claude 之上构建最好的智能体产品,这个概念叫「解除 Claude 的束缚」(unhobbling Claude)。"
+ },
+ {
+  "seg": 137,
+  "start": 643.19,
+  "end": 645.611,
+  "speaker": "Unknown",
+  "en": "And tell us more about what that means.",
+  "zh": "再多讲讲那是什么意思。"
+ },
+ {
+  "seg": 138,
+  "start": 647.16,
+  "end": 653.123,
+  "speaker": "Unknown",
+  "en": "Yeah, so hobbling is this idea in a research that the model is doing something and you're just getting in the way.",
+  "zh": "是的,hobbling 是研究中的这样一个概念:模型本来在做某件事,而你只是在碍事。"
+ },
+ {
+  "seg": 139,
+  "start": 655.103,
+  "end": 658.365,
+  "speaker": "Unknown",
+  "en": "There's this kind of like way of thinking about it that I really like.",
+  "zh": "有这样一种思考方式,我非常喜欢。"
+ },
+ {
+  "seg": 140,
+  "start": 658.925,
+  "end": 660.466,
+  "speaker": "Unknown",
+  "en": "It's very useful when you're building product.",
+  "zh": "它在你构建产品时非常有用。"
+ },
+ {
+  "seg": 141,
+  "start": 661.106,
+  "end": 663.767,
+  "speaker": "Unknown",
+  "en": "And it's called product overhang.",
+  "zh": "它叫做产品悬置(product overhang)。"
+ },
+ {
+  "seg": 142,
+  "start": 664.688,
+  "end": 676.773,
+  "speaker": "Unknown",
+  "en": "And the idea is the model is able to do all sorts of things with today's models, not a future model, but today's model that we have not yet realized.",
+  "zh": "这个概念是:模型能够做各种各样的事情——用今天的模型,不是未来的模型,而是今天的模型——只是我们尚未意识到。"
+ },
+ {
+  "seg": 143,
+  "start": 678.084,
+  "end": 683.605,
+  "speaker": "Unknown",
+  "en": "And there are so many capabilities the model has like this that people are not aware of.",
+  "zh": "模型有非常多像这样的能力是人们不知道的。"
+ },
+ {
+  "seg": 144,
+  "start": 684.646,
+  "end": 697.329,
+  "speaker": "Unknown",
+  "en": "And this is like the ability to, you know, like maybe use a particular tool, use a particular language, solve a particular kind of problem, do things a particular kind of way that we thought was kind of beyond the model's capability.",
+  "zh": "比如使用某个特定工具的能力、使用某种特定语言的能力、解决某类特定问题的能力、以某种特定方式做事的能力,而我们原本以为这些有点超出模型的能力范围。"
+ },
+ {
+  "seg": 145,
+  "start": 698.229,
+  "end": 701.07,
+  "speaker": "Unknown",
+  "en": "And there's this overhang.",
+  "zh": "而这就是这种悬置。"
+ },
+ {
+  "seg": 146,
+  "start": 702.003,
+  "end": 705.064,
+  "speaker": "Unknown",
+  "en": "Because the model can do this at every given model generation.",
+  "zh": "因为在每一代模型上模型都能做到这些。"
+ },
+ {
+  "seg": 147,
+  "start": 705.745,
+  "end": 713.108,
+  "speaker": "Unknown",
+  "en": "But there is often not a product that lets the model do this and lets it express this kind of ability to do this.",
+  "zh": "但往往没有一个产品让模型做到这些、让它表达这种做到这些的能力。"
+ },
+ {
+  "seg": 148,
+  "start": 713.608,
+  "end": 717.07,
+  "speaker": "Unknown",
+  "en": "And on the flip side, often what happens is the product gets in the way.",
+  "zh": "而反过来,经常发生的情况是产品碍了事。"
+ },
+ {
+  "seg": 149,
+  "start": 718.01,
+  "end": 720.051,
+  "speaker": "Unknown",
+  "en": "And this getting in the way, we call this hobbling.",
+  "zh": "而这种碍事,我们称之为 hobbling。"
+ },
+ {
+  "seg": 150,
+  "start": 720.352,
+  "end": 724.533,
+  "speaker": "Unknown",
+  "en": "And then not eliciting the correct behavior from the model, we call this product overhang.",
+  "zh": "然后没有从模型中引出正确的行为，我们把这叫做产品溢差(product overhang)。"
+ },
+ {
+  "seg": 151,
+  "start": 724.914,
+  "end": 726.334,
+  "speaker": "Unknown",
+  "en": "So it's kind of like two sides of the same thing.",
+  "zh": "所以这有点像同一件事的两面。"
+ },
+ {
+  "seg": 152,
+  "start": 727.335,
+  "end": 729.576,
+  "speaker": "Unknown",
+  "en": "One example of this was the original plot code.",
+  "zh": "这方面的一个例子是最初的 plot code。"
+ },
+ {
+  "seg": 153,
+  "start": 730.542,
+  "end": 736.628,
+  "speaker": "Unknown",
+  "en": "When I first started working on it, this was, you know, like a year and a half, two years ago, something like that.",
+  "zh": "当我开始做它的时候，大概是像一年半、两年前之类的。"
+ },
+ {
+  "seg": 154,
+  "start": 737.128,
+  "end": 738.469,
+  "speaker": "Unknown",
+  "en": "This was like SANA 3.5.",
+  "zh": "那时候是像 SANA 3.5。"
+ },
+ {
+  "seg": 155,
+  "start": 739.45,
+  "end": 742.193,
+  "speaker": "Unknown",
+  "en": "At the time, that was an incredible coding model.",
+  "zh": "当时，那是一个令人难以置信的编码模型。"
+ },
+ {
+  "seg": 156,
+  "start": 742.613,
+  "end": 744.555,
+  "speaker": "Unknown",
+  "en": "That was like the best coding model that exists.",
+  "zh": "那就像当时存在的最好的编码模型。"
+ },
+ {
+  "seg": 157,
+  "start": 745.035,
+  "end": 748.418,
+  "speaker": "Unknown",
+  "en": "Nowadays, it's, you know, a pretty terrible coding model by modern standards.",
+  "zh": "如今，按现代标准来看，它是一个相当糟糕的编码模型。"
+ },
+ {
+  "seg": 158,
+  "start": 748.779,
+  "end": 752.262,
+  "speaker": "Unknown",
+  "en": "But I think that was like the first great coding model that we built as Anthropic.",
+  "zh": "但我认为那是我们 Anthropic 打造的第一个伟大的编码模型。"
+ },
+ {
+  "seg": 159,
+  "start": 753.577,
+  "end": 757.519,
+  "speaker": "Unknown",
+  "en": "And at the time, if you looked at the coding products of the time, what were they doing?",
+  "zh": "而当时，如果你看看那时的编码产品，它们在做什么？"
+ },
+ {
+  "seg": 160,
+  "start": 757.539,
+  "end": 759.901,
+  "speaker": "Unknown",
+  "en": "They were doing single-line autocomplete.",
+  "zh": "它们在做单行自动补全。"
+ },
+ {
+  "seg": 161,
+  "start": 760.021,
+  "end": 761.982,
+  "speaker": "Unknown",
+  "en": "They were doing sometimes multi-line autocomplete.",
+  "zh": "它们有时做多行自动补全。"
+ },
+ {
+  "seg": 162,
+  "start": 762.022,
+  "end": 763.023,
+  "speaker": "Unknown",
+  "en": "That was sort of a new idea.",
+  "zh": "那算是一个比较新的想法。"
+ },
+ {
+  "seg": 163,
+  "start": 763.963,
+  "end": 765.184,
+  "speaker": "Unknown",
+  "en": "They were doing chat.",
+  "zh": "它们在做聊天。"
+ },
+ {
+  "seg": 164,
+  "start": 765.844,
+  "end": 768.886,
+  "speaker": "Unknown",
+  "en": "So you can talk to the agent, but it wasn't write access.",
+  "zh": "所以你可以和智能体对话，但它没有写权限。"
+ },
+ {
+  "seg": 165,
+  "start": 768.966,
+  "end": 769.646,
+  "speaker": "Unknown",
+  "en": "You could only read.",
+  "zh": "你只能读。"
+ },
+ {
+  "seg": 166,
+  "start": 770.107,
+  "end": 771.147,
+  "speaker": "Unknown",
+  "en": "You could ask about the code base.",
+  "zh": "你可以询问代码库相关的问题。"
+ },
+ {
+  "seg": 167,
+  "start": 772.048,
+  "end": 775.21,
+  "speaker": "Unknown",
+  "en": "And so the feeling was that there wasn't really a product",
+  "zh": "所以当时的感觉是，并没有一个真正的产品"
+ },
+ {
+  "seg": 168,
+  "start": 776.152,
+  "end": 783.478,
+  "speaker": "Unknown",
+  "en": "That was fully eliciting the model's capability to write entire functions at a time, entire files at a time.",
+  "zh": "能完全引出模型一次写整个函数、一次写整个文件的能力。"
+ },
+ {
+  "seg": 169,
+  "start": 784.198,
+  "end": 785.759,
+  "speaker": "Unknown",
+  "en": "At the time, it wasn't entire features.",
+  "zh": "当时还不是整个功能。"
+ },
+ {
+  "seg": 170,
+  "start": 785.779,
+  "end": 787.821,
+  "speaker": "Unknown",
+  "en": "We weren't there yet, but probably entire files.",
+  "zh": "我们还没到那一步，但大概是整个文件。"
+ },
+ {
+  "seg": 171,
+  "start": 787.881,
+  "end": 789.702,
+  "speaker": "Unknown",
+  "en": "That was the level of capability at the time.",
+  "zh": "那是当时的能力水平。"
+ },
+ {
+  "seg": 172,
+  "start": 790.603,
+  "end": 794.106,
+  "speaker": "Unknown",
+  "en": "And so the idea with Claude Code was, all right, we think the model can probably do this.",
+  "zh": "所以 Claude Code 的想法是，好，我们认为模型大概能做到这个。"
+ },
+ {
+  "seg": 173,
+  "start": 794.906,
+  "end": 804.854,
+  "speaker": "Unknown",
+  "en": "What if we get rid of all the scaffolding and just give the model the simplest possible harness so it can write an entire file at a time and build an entire feature?",
+  "zh": "如果我们把所有的脚手架都去掉，只给模型最简单可能的挽具，让它能一次写整个文件、构建整个功能，会怎样？"
+ },
+ {
+  "seg": 174,
+  "start": 806.915,
+  "end": 807.916,
+  "speaker": "Unknown",
+  "en": "And that was kind of it.",
+  "zh": "基本上就是这样。"
+ },
+ {
+  "seg": 175,
+  "start": 807.936,
+  "end": 809.516,
+  "speaker": "Unknown",
+  "en": "Like that was the product overhang at the time.",
+  "zh": "那就是当时的产品溢差。"
+ },
+ {
+  "seg": 176,
+  "start": 809.616,
+  "end": 813.358,
+  "speaker": "Unknown",
+  "en": "The model was capable of doing something and everything was just kind of getting in the way.",
+  "zh": "模型有能力做某件事，而一切都只是在碍事。"
+ },
+ {
+  "seg": 177,
+  "start": 814.338,
+  "end": 821.48,
+  "speaker": "Unknown",
+  "en": "I think that nowadays with modern models, there is so much product overhang that I'm not seeing startups capture.",
+  "zh": "我认为如今用现代模型，有非常多的产品溢差是我没有看到初创公司去捕捉的。"
+ },
+ {
+  "seg": 178,
+  "start": 822.201,
+  "end": 834.465,
+  "speaker": "Unknown",
+  "en": "And I think there's people thinking about these problems, but there's just a huge amount of opportunity to elicit these behaviors from the model that are just like amazing and interesting and commercially valuable.",
+  "zh": "我认为有人在思考这些问题，但引出模型这些行为的机会是巨大的，它们令人惊叹、有趣，而且有商业价值。"
+ },
+ {
+  "seg": 179,
+  "start": 834.962,
+  "end": 838.585,
+  "speaker": "Unknown",
+  "en": "I think this is such a special insight for everyone here in the room.",
+  "zh": "我认为这对在座的每一个人来说是一个非常特别的洞见。"
+ },
+ {
+  "seg": 180,
+  "start": 839.226,
+  "end": 850.096,
+  "speaker": "Unknown",
+  "en": "Basically, all of you could create the next Claude Code if you figure out how to unhubble the models because that's effectively the birth story of Claude Code.",
+  "zh": "基本上，如果你们能想出如何给模型“解绑”，你们所有人都可以创造出下一个 Claude Code，因为这实际上就是 Claude Code 的诞生故事。"
+ },
+ {
+  "seg": 181,
+  "start": 850.216,
+  "end": 854.26,
+  "speaker": "Unknown",
+  "en": "You unhubble Sonnet 3.5 because all the previous...",
+  "zh": "你解绑了 Sonnet 3.5，因为之前所有的……"
+ },
+ {
+  "seg": 182,
+  "start": 855.161,
+  "end": 859.062,
+  "speaker": "Unknown",
+  "en": "Iterations were still getting the model very rigid in IDEs.",
+  "zh": "迭代都还是把模型用得很僵硬，局限在 IDE 里。"
+ },
+ {
+  "seg": 183,
+  "start": 859.402,
+  "end": 864.964,
+  "speaker": "Unknown",
+  "en": "And Claude Code was one of the first instances that gave it just a full terminal access.",
+  "zh": "而 Claude Code 是最早给它完整终端访问权限的实例之一。"
+ },
+ {
+  "seg": 184,
+  "start": 865.444,
+  "end": 865.644,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 185,
+  "start": 866.204,
+  "end": 870.866,
+  "speaker": "Unknown",
+  "en": "And that then created this amazing product just that keeps going.",
+  "zh": "然后就创造出了这个令人惊叹的、不断发展的产品。"
+ },
+ {
+  "seg": 186,
+  "start": 871.886,
+  "end": 884.05,
+  "speaker": "Unknown",
+  "en": "So let's talk about what are some areas and how should future founders here think about unhobbling Claude and",
+  "zh": "那么我们来谈谈有哪些领域，以及未来在这里的创始人应该如何思考给 Claude“解绑”，"
+ },
+ {
+  "seg": 187,
+  "start": 884.698,
+  "end": 887.54,
+  "speaker": "Unknown",
+  "en": "Fixing this product overhang.",
+  "zh": "并修复这种产品溢差。"
+ },
+ {
+  "seg": 188,
+  "start": 887.56,
+  "end": 889.481,
+  "speaker": "Unknown",
+  "en": "So there's a couple of things that I will think about.",
+  "zh": "有几件事是我会考虑的。"
+ },
+ {
+  "seg": 189,
+  "start": 890.481,
+  "end": 898.106,
+  "speaker": "Unknown",
+  "en": "One is you should give the model slightly harder tasks than what you think you can do.",
+  "zh": "第一，你应该给模型比你认为它能做到的稍微难一点的任务。"
+ },
+ {
+  "seg": 190,
+  "start": 899.207,
+  "end": 907.812,
+  "speaker": "Unknown",
+  "en": "I think a really common mistake that I see is people are using Claude code, they're using Claude, and they just give it way overly specific instructions.",
+  "zh": "我看到的一个非常常见的错误是，人们在使用 Claude code、使用 Claude 时，给了它过于具体的指令。"
+ },
+ {
+  "seg": 191,
+  "start": 908.152,
+  "end": 911.114,
+  "speaker": "Unknown",
+  "en": "They're like, I want you to do this, but I want you to do it in this way, this way, this way.",
+  "zh": "他们会说，我要你做这件事，但我要你用这种方式做，这样这样这样。"
+ },
+ {
+  "seg": 192,
+  "start": 911.134,
+  "end": 913.015,
+  "speaker": "Unknown",
+  "en": "You must do like one, then two, then three, then four.",
+  "zh": "你必须先做一，再做二，再做三，再做四。"
+ },
+ {
+  "seg": 193,
+  "start": 914.242,
+  "end": 916.903,
+  "speaker": "Unknown",
+  "en": "And for modern models, that's actually really not the way to do it.",
+  "zh": "而对于现代模型来说，这实际上真的不是正确的做法。"
+ },
+ {
+  "seg": 194,
+  "start": 917.183,
+  "end": 918.564,
+  "speaker": "Unknown",
+  "en": "You want to go a little bit higher level.",
+  "zh": "你应该往更高一点的层面去说。"
+ },
+ {
+  "seg": 195,
+  "start": 919.284,
+  "end": 928.109,
+  "speaker": "Unknown",
+  "en": "You want to describe the task, you want to describe the guardrails, you want to describe the exit criteria, and then just go with the model cook and come back in a little bit.",
+  "zh": "你应该描述任务、描述护栏、描述退出标准，然后就让模型自己开干，过一会儿再回来。"
+ },
+ {
+  "seg": 196,
+  "start": 929.169,
+  "end": 930.67,
+  "speaker": "Unknown",
+  "en": "And I think it'll surprise you.",
+  "zh": "我认为它会让你惊讶。"
+ },
+ {
+  "seg": 197,
+  "start": 930.97,
+  "end": 934.672,
+  "speaker": "Unknown",
+  "en": "And again, this is just not something that would have worked six months ago, but it does work today.",
+  "zh": "再说一次，这在六个月前是行不通的，但今天确实行得通。"
+ },
+ {
+  "seg": 198,
+  "start": 935.892,
+  "end": 943.796,
+  "speaker": "Unknown",
+  "en": "Can you give some examples of these challenging task or capabilities that people should explore that it can do now that it couldn't six months ago?",
+  "zh": "你能举一些例子吗，这些有挑战性的任务或能力，人们应该去探索的，它现在能做到而六个月前做不到的？"
+ },
+ {
+  "seg": 199,
+  "start": 944.595,
+  "end": 944.915,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 200,
+  "start": 945.615,
+  "end": 952.397,
+  "speaker": "Unknown",
+  "en": "So, okay, one example is the model can now rewrite essentially any code base from one language to a different language.",
+  "zh": "好，举个例子，现在这个模型基本上可以把任何代码库从一种语言重写成另一种语言。"
+ },
+ {
+  "seg": 201,
+  "start": 953.657,
+  "end": 955.638,
+  "speaker": "Unknown",
+  "en": "It's just sort of crazy.",
+  "zh": "这真的挺疯狂的。"
+ },
+ {
+  "seg": 202,
+  "start": 955.938,
+  "end": 962.019,
+  "speaker": "Unknown",
+  "en": "Like, it's this work that would have taken just like a very long time as an engineer, and now the model's like quite fast at it.",
+  "zh": "就是说，作为工程师这本来是要花非常长时间的工作，而现在模型做得相当快。"
+ },
+ {
+  "seg": 203,
+  "start": 962.499,
+  "end": 967.78,
+  "speaker": "Unknown",
+  "en": "So one example of this is Claude Code is built on the Bun JavaScript Runtime.",
+  "zh": "这方面的一个例子是 Claude Code 构建在 Bun JavaScript Runtime 之上。"
+ },
+ {
+  "seg": 204,
+  "start": 968,
+  "end": 970.341,
+  "speaker": "Unknown",
+  "en": "It's an open source JavaScript Runtime.",
+  "zh": "它是一个开源的 JavaScript Runtime。"
+ },
+ {
+  "seg": 205,
+  "start": 970.401,
+  "end": 971.501,
+  "speaker": "Unknown",
+  "en": "It's an alternative to Node.js.",
+  "zh": "它是 Node.js 的替代品。"
+ },
+ {
+  "seg": 206,
+  "start": 971.561,
+  "end": 972.562,
+  "speaker": "Unknown",
+  "en": "It's kind of a faster node.",
+  "zh": "它有点像一个更快的 node。"
+ },
+ {
+  "seg": 207,
+  "start": 973.302,
+  "end": 974.362,
+  "speaker": "Unknown",
+  "en": "Bun was written in Zig.",
+  "zh": "Bun 是用 Zig 写的。"
+ },
+ {
+  "seg": 208,
+  "start": 975.857,
+  "end": 977.339,
+  "speaker": "Unknown",
+  "en": "Zig is a systems programming language.",
+  "zh": "Zig 是一种系统编程语言。"
+ },
+ {
+  "seg": 209,
+  "start": 977.579,
+  "end": 979.502,
+  "speaker": "Unknown",
+  "en": "It's kind of like C. It's very low level.",
+  "zh": "它有点像 C,非常底层。"
+ },
+ {
+  "seg": 210,
+  "start": 980.143,
+  "end": 985.249,
+  "speaker": "Unknown",
+  "en": "One of the problems with Zig is you have to manually manage memory.",
+  "zh": "Zig 的一个问题是你必须手动管理内存。"
+ },
+ {
+  "seg": 211,
+  "start": 986.19,
+  "end": 992.699,
+  "speaker": "Unknown",
+  "en": "And so it's quite easy to run into situations where there's like memory leaks and other memory management issues.",
+  "zh": "所以很容易遇到内存泄漏和其他内存管理问题。"
+ },
+ {
+  "seg": 212,
+  "start": 993.6,
+  "end": 1001.262,
+  "speaker": "Unknown",
+  "en": "And so one thing that the Bund team was doing is they were having Claude fuzz the code base and try to simulate and trigger memory leaks.",
+  "zh": "于是 Bun 团队做的一件事是让 Claude 对代码库进行模糊测试，尝试模拟并触发内存泄漏。"
+ },
+ {
+  "seg": 213,
+  "start": 1001.302,
+  "end": 1003.643,
+  "speaker": "Unknown",
+  "en": "And they were doing this for a long period of time.",
+  "zh": "他们这样做了很长一段时间。"
+ },
+ {
+  "seg": 214,
+  "start": 1004.143,
+  "end": 1005.463,
+  "speaker": "Unknown",
+  "en": "They were able to find a lot of memory leaks.",
+  "zh": "他们找到了很多内存泄漏。"
+ },
+ {
+  "seg": 215,
+  "start": 1005.603,
+  "end": 1006.884,
+  "speaker": "Unknown",
+  "en": "It was sort of like a case at a time.",
+  "zh": "大概是一次处理一个。"
+ },
+ {
+  "seg": 216,
+  "start": 1007.404,
+  "end": 1010.065,
+  "speaker": "Unknown",
+  "en": "And that was kind of the capability of the model at the time was doing this fuzzing.",
+  "zh": "那个时候模型的能力大概就是做这种模糊测试。"
+ },
+ {
+  "seg": 217,
+  "start": 1010.965,
+  "end": 1015.486,
+  "speaker": "Unknown",
+  "en": "And then at some point, Jared on the team was like, OK, let's just rewrite it.",
+  "zh": "然后某一次，团队里的 Jared 说，好，我们干脆重写它吧。"
+ },
+ {
+  "seg": 218,
+  "start": 1016.707,
+  "end": 1017.687,
+  "speaker": "Unknown",
+  "en": "Maybe the model can do this.",
+  "zh": "也许模型能做到。"
+ },
+ {
+  "seg": 219,
+  "start": 1018.75,
+  "end": 1023.473,
+  "speaker": "Unknown",
+  "en": "And I think this is like one of these test problems that he kind of threw at the model with every new model generation.",
+  "zh": "我想这就像是他扔给模型的测试难题之一，每一代新模型都试一次。"
+ },
+ {
+  "seg": 220,
+  "start": 1024.374,
+  "end": 1028.377,
+  "speaker": "Unknown",
+  "en": "And starting with Fable, the model started to be able to do it.",
+  "zh": "从 Fable 开始，模型开始能够做到了。"
+ },
+ {
+  "seg": 221,
+  "start": 1029.418,
+  "end": 1031.339,
+  "speaker": "Unknown",
+  "en": "And so I think Opus 5 could do it as well.",
+  "zh": "我想 Opus 5 也能做到。"
+ },
+ {
+  "seg": 222,
+  "start": 1032.1,
+  "end": 1035.542,
+  "speaker": "Unknown",
+  "en": "And so what he did was essentially he defined a test suite.",
+  "zh": "于是他做的基本上就是定义了一个测试套件。"
+ },
+ {
+  "seg": 223,
+  "start": 1036.563,
+  "end": 1039.065,
+  "speaker": "Unknown",
+  "en": "The nice thing about Bun is it's very, very well tested.",
+  "zh": "Bun 的好处是它的测试非常非常充分。"
+ },
+ {
+  "seg": 224,
+  "start": 1039.085,
+  "end": 1041.587,
+  "speaker": "Unknown",
+  "en": "There's a big test suite in Bun, there's a big test suite in Node.js.",
+  "zh": "Bun 里有很大的测试套件，Node.js 里也有很大的测试套件。"
+ },
+ {
+  "seg": 225,
+  "start": 1042.027,
+  "end": 1043.388,
+  "speaker": "Unknown",
+  "en": "So it's easy to know if you did the right thing.",
+  "zh": "所以很容易知道你是不是做对了。"
+ },
+ {
+  "seg": 226,
+  "start": 1044.423,
+  "end": 1048.165,
+  "speaker": "Unknown",
+  "en": "And he had the model rewrite it from Zig to Rust.",
+  "zh": "他让模型把它从 Zig 重写成 Rust。"
+ },
+ {
+  "seg": 227,
+  "start": 1048.746,
+  "end": 1049.566,
+  "speaker": "Unknown",
+  "en": "It was one prompt.",
+  "zh": "只用了一个提示词。"
+ },
+ {
+  "seg": 228,
+  "start": 1049.906,
+  "end": 1051.127,
+  "speaker": "Unknown",
+  "en": "It was a dynamic workflow.",
+  "zh": "它是一个动态工作流。"
+ },
+ {
+  "seg": 229,
+  "start": 1052.067,
+  "end": 1059.232,
+  "speaker": "Unknown",
+  "en": "And dynamic workflows are a feature in QuadCode that essentially let you orchestrate dozens, hundreds, thousands of agents to do work productively.",
+  "zh": "动态工作流是 QuadCode 的一个功能，基本上让你编排几十、几百、几千个智能体高效地完成工作。"
+ },
+ {
+  "seg": 230,
+  "start": 1060.052,
+  "end": 1061.453,
+  "speaker": "Unknown",
+  "en": "And it ran for 11 days.",
+  "zh": "它运行了 11 天。"
+ },
+ {
+  "seg": 231,
+  "start": 1062.293,
+  "end": 1063.574,
+  "speaker": "Unknown",
+  "en": "And it rewrote the entire code base.",
+  "zh": "它重写了整个代码库。"
+ },
+ {
+  "seg": 232,
+  "start": 1064.214,
+  "end": 1064.995,
+  "speaker": "Unknown",
+  "en": "And this was one shot.",
+  "zh": "这是一次成型的。"
+ },
+ {
+  "seg": 233,
+  "start": 1065.643,
+  "end": 1068.785,
+  "speaker": "Unknown",
+  "en": "It was one shot with—no, it wasn't one shot, but there was steering.",
+  "zh": "这是一次成型的——不，不是一次成型，但是有引导。"
+ },
+ {
+  "seg": 234,
+  "start": 1068.845,
+  "end": 1070.185,
+  "speaker": "Unknown",
+  "en": "There was steering.",
+  "zh": "有引导。"
+ },
+ {
+  "seg": 235,
+  "start": 1070.425,
+  "end": 1073.487,
+  "speaker": "Unknown",
+  "en": "But previous models just couldn't do this, even with the steering.",
+  "zh": "但以前的模型即使有引导也做不到。"
+ },
+ {
+  "seg": 236,
+  "start": 1073.947,
+  "end": 1074.927,
+  "speaker": "Unknown",
+  "en": "It just wouldn't have been possible.",
+  "zh": "这根本不可能。"
+ },
+ {
+  "seg": 237,
+  "start": 1074.948,
+  "end": 1076.068,
+  "speaker": "Unknown",
+  "en": "In just 11 days.",
+  "zh": "只用了 11 天。"
+ },
+ {
+  "seg": 238,
+  "start": 1076.348,
+  "end": 1076.848,
+  "speaker": "Unknown",
+  "en": "Oh, my God.",
+  "zh": "哦，天哪。"
+ },
+ {
+  "seg": 239,
+  "start": 1077.029,
+  "end": 1081.851,
+  "speaker": "Unknown",
+  "en": "This would have taken in the past, even with the best engineers, multiple months, years?",
+  "zh": "这在过去，即使是最优秀的工程师，也要花好几个月、好几年？"
+ },
+ {
+  "seg": 240,
+  "start": 1082.99,
+  "end": 1083.751,
+  "speaker": "Unknown",
+  "en": "Definitely over a year.",
+  "zh": "肯定超过一年。"
+ },
+ {
+  "seg": 241,
+  "start": 1084.111,
+  "end": 1084.351,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 242,
+  "start": 1084.391,
+  "end": 1084.931,
+  "speaker": "Unknown",
+  "en": "Yeah, over a year.",
+  "zh": "是的，超过一年。"
+ },
+ {
+  "seg": 243,
+  "start": 1084.971,
+  "end": 1086.152,
+  "speaker": "Unknown",
+  "en": "This is like over 100,000.",
+  "zh": "这超过了 10 万行。"
+ },
+ {
+  "seg": 244,
+  "start": 1086.272,
+  "end": 1088.213,
+  "speaker": "Unknown",
+  "en": "Like JavaScript runtime is really complicated.",
+  "zh": "JavaScript Runtime 真的很复杂。"
+ },
+ {
+  "seg": 245,
+  "start": 1088.814,
+  "end": 1089.794,
+  "speaker": "Unknown",
+  "en": "There's a lot of stuff in there.",
+  "zh": "里面有很多东西。"
+ },
+ {
+  "seg": 246,
+  "start": 1091.075,
+  "end": 1092.075,
+  "speaker": "Unknown",
+  "en": "And yeah, it works.",
+  "zh": "是的，它可用。"
+ },
+ {
+  "seg": 247,
+  "start": 1092.276,
+  "end": 1093.116,
+  "speaker": "Unknown",
+  "en": "This is in production now.",
+  "zh": "现在已经在生产环境中了。"
+ },
+ {
+  "seg": 248,
+  "start": 1093.156,
+  "end": 1096.078,
+  "speaker": "Unknown",
+  "en": "This is what QuadCode uses now when you're running it.",
+  "zh": "这就是 QuadCode 现在你运行它时用的东西。"
+ },
+ {
+  "seg": 249,
+  "start": 1096.814,
+  "end": 1098.074,
+  "speaker": "Unknown",
+  "en": "So this is kind of one example.",
+  "zh": "所以这大概算是一个例子。"
+ },
+ {
+  "seg": 250,
+  "start": 1098.655,
+  "end": 1101.095,
+  "speaker": "Unknown",
+  "en": "I would give a second example of product overhang.",
+  "zh": "我想再举一个产品积压(product overhang)的例子。"
+ },
+ {
+  "seg": 251,
+  "start": 1101.335,
+  "end": 1105.077,
+  "speaker": "Unknown",
+  "en": "And so this is like a practical use case where like there's a problem you're solving.",
+  "zh": "这是一个很实际的使用场景,有一个你要解决的问题。"
+ },
+ {
+  "seg": 252,
+  "start": 1105.397,
+  "end": 1107.918,
+  "speaker": "Unknown",
+  "en": "It's like a business problem, an engineering problem, a product problem.",
+  "zh": "它可能是一个业务问题、一个工程问题、一个产品问题。"
+ },
+ {
+  "seg": 253,
+  "start": 1108.398,
+  "end": 1111.559,
+  "speaker": "Unknown",
+  "en": "And you should just keep throwing the latest model at it to see if it'll just do it.",
+  "zh": "你应该不断把最新的模型扔给它,看它能不能直接搞定。"
+ },
+ {
+  "seg": 254,
+  "start": 1111.959,
+  "end": 1114.42,
+  "speaker": "Unknown",
+  "en": "Because even if a previous model didn't, the new one might.",
+  "zh": "因为即使之前的模型做不到,新的模型也许可以。"
+ },
+ {
+  "seg": 255,
+  "start": 1115.16,
+  "end": 1118.321,
+  "speaker": "Unknown",
+  "en": "I think the second way to think about it is experiment.",
+  "zh": "我认为思考这个问题的第二种方式是实验。"
+ },
+ {
+  "seg": 256,
+  "start": 1119.561,
+  "end": 1123.683,
+  "speaker": "Unknown",
+  "en": "And just give yourself like freedom to play with the model and do creative things.",
+  "zh": "给自己自由,去玩这个模型,做一些有创造性的事情。"
+ },
+ {
+  "seg": 257,
+  "start": 1124.745,
+  "end": 1126.188,
+  "speaker": "Unknown",
+  "en": "Often it'll surprise you.",
+  "zh": "它常常会给你惊喜。"
+ },
+ {
+  "seg": 258,
+  "start": 1126.929,
+  "end": 1137.568,
+  "speaker": "Unknown",
+  "en": "So something that's actually been really popular internally that's been kind of viral within Anthropic the last couple of weeks is someone figured out that you can give Opus 5 OpenCV and you can have a draw.",
+  "zh": "最近几周在 Anthropic 内部有点病毒式传播、非常火的一件事是,有人发现你可以给 Opus 5 OpenCV,让它画图。"
+ },
+ {
+  "seg": 259,
+  "start": 1138.793,
+  "end": 1142.557,
+  "speaker": "Unknown",
+  "en": "And so something you can do is you can ask Opus, like, hey, use OpenCV to, like, draw this image.",
+  "zh": "你可以做的就是说,比如,嘿,用 OpenCV 把这张图画出来。"
+ },
+ {
+  "seg": 260,
+  "start": 1142.917,
+  "end": 1144.038,
+  "speaker": "Unknown",
+  "en": "And it's actually quite good.",
+  "zh": "它实际上相当不错。"
+ },
+ {
+  "seg": 261,
+  "start": 1144.098,
+  "end": 1145.459,
+  "speaker": "Unknown",
+  "en": "It can do, like, portraits.",
+  "zh": "它能画,比如,肖像。"
+ },
+ {
+  "seg": 262,
+  "start": 1145.519,
+  "end": 1146.46,
+  "speaker": "Unknown",
+  "en": "It can draw, like, animals.",
+  "zh": "它能画,比如,动物。"
+ },
+ {
+  "seg": 263,
+  "start": 1146.52,
+  "end": 1147.521,
+  "speaker": "Unknown",
+  "en": "It can do, like, landscapes.",
+  "zh": "它能画,比如,风景。 [[258-265 注:见上]] [[264]] 而我们并没有训练这个模型去画画。"
+ },
+ {
+  "seg": 264,
+  "start": 1148.102,
+  "end": 1149.503,
+  "speaker": "Unknown",
+  "en": "And we didn't train the model to draw.",
+  "zh": "而且我们没有训练模型去画画。"
+ },
+ {
+  "seg": 265,
+  "start": 1149.603,
+  "end": 1152.186,
+  "speaker": "Unknown",
+  "en": "Like, it's just, like, the solicitation gap.",
+  "zh": "比如,这就是,那个 solicitation gap(引出能力差距)。"
+ },
+ {
+  "seg": 266,
+  "start": 1152.206,
+  "end": 1154.628,
+  "speaker": "Unknown",
+  "en": "Like, if you ask it to do it the right way, it can just do it.",
+  "zh": "就是说,如果你用对的方式去问它,它就能做到。"
+ },
+ {
+  "seg": 267,
+  "start": 1155.309,
+  "end": 1161.194,
+  "speaker": "Unknown",
+  "en": "And we discovered this kind of accidentally just by playing around and trying creative things that didn't have direct commercial applications.",
+  "zh": "而我们发现这一点其实挺偶然的,就是在玩模型、尝试一些没有直接商业应用的创造性事情。"
+ },
+ {
+  "seg": 268,
+  "start": 1161.995,
+  "end": 1163.196,
+  "speaker": "Unknown",
+  "en": "But it's just kind of interesting.",
+  "zh": "但它就是这么有意思。"
+ },
+ {
+  "seg": 269,
+  "start": 1164.057,
+  "end": 1172.383,
+  "speaker": "Unknown",
+  "en": "My hypothesis is there's probably dozens, hundreds of opportunities like this with the models of today that no one has yet realized.",
+  "zh": "我的假设是,就今天的模型而言,可能存在几十、几百个这样的机会,只是还没有人意识到。"
+ },
+ {
+  "seg": 270,
+  "start": 1173.064,
+  "end": 1177.007,
+  "speaker": "Unknown",
+  "en": "And the big area of research for this is basically model elicitation, right?",
+  "zh": "而这方面一个大的研究领域基本上就是模型引出(model elicitation),对吧?"
+ },
+ {
+  "seg": 271,
+  "start": 1177.788,
+  "end": 1184.012,
+  "speaker": "Unknown",
+  "en": "Becoming really good at figuring out all these capabilities and asking the model to do the right thing, right?",
+  "zh": "也就是变得非常擅长发现所有这些能力,并让模型去做正确的事情,对吧?"
+ },
+ {
+  "seg": 272,
+  "start": 1184.453,
+  "end": 1184.633,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 273,
+  "start": 1185.594,
+  "end": 1186.995,
+  "speaker": "Unknown",
+  "en": "How do people get better at that?",
+  "zh": "人们怎么才能在这方面做得更好?"
+ },
+ {
+  "seg": 274,
+  "start": 1187.075,
+  "end": 1189.717,
+  "speaker": "Unknown",
+  "en": "And effectively, how do people get better at",
+  "zh": "实际上,人们怎么才能更擅长"
+ },
+ {
+  "seg": 275,
+  "start": 1190.579,
+  "end": 1191.32,
+  "speaker": "Unknown",
+  "en": "Prompt engineering.",
+  "zh": "提示词工程。"
+ },
+ {
+  "seg": 276,
+  "start": 1191.34,
+  "end": 1193.362,
+  "speaker": "Unknown",
+  "en": "Do people still need to do a lot of prompt engineering?",
+  "zh": "人们还需要做很多提示词工程吗?"
+ },
+ {
+  "seg": 277,
+  "start": 1193.382,
+  "end": 1195.263,
+  "speaker": "Unknown",
+  "en": "Or is that changing as well?",
+  "zh": "还是说这个也在变化?"
+ },
+ {
+  "seg": 278,
+  "start": 1195.664,
+  "end": 1197.125,
+  "speaker": "Unknown",
+  "en": "Tell us about where this is going.",
+  "zh": "跟我们讲讲这会走向哪里。"
+ },
+ {
+  "seg": 279,
+  "start": 1197.966,
+  "end": 1198.346,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 280,
+  "start": 1198.526,
+  "end": 1202.009,
+  "speaker": "Unknown",
+  "en": "I remember like a year ago, one of the most popular job openings was prompt engineer.",
+  "zh": "我记得大概一年前,最热门的职位之一是提示词工程师。"
+ },
+ {
+  "seg": 281,
+  "start": 1203.891,
+  "end": 1204.752,
+  "speaker": "Unknown",
+  "en": "And then it kind of changed.",
+  "zh": "然后它有点变了。"
+ },
+ {
+  "seg": 282,
+  "start": 1204.792,
+  "end": 1207.314,
+  "speaker": "Unknown",
+  "en": "And then I think it became like context engineer.",
+  "zh": "再然后我觉得变成了上下文工程师之类的。"
+ },
+ {
+  "seg": 283,
+  "start": 1208.375,
+  "end": 1210.197,
+  "speaker": "Unknown",
+  "en": "So there's these kind of waves of it.",
+  "zh": "所以有这样一波一波的浪潮。"
+ },
+ {
+  "seg": 284,
+  "start": 1210.277,
+  "end": 1212.219,
+  "speaker": "Unknown",
+  "en": "I think these will kind of like come and go.",
+  "zh": "我觉得这些潮起来又会潮落。"
+ },
+ {
+  "seg": 285,
+  "start": 1213.461,
+  "end": 1224.127,
+  "speaker": "Unknown",
+  "en": "I think the skill nowadays is less about prompt engineering and more about figuring out how do you give Claude a hard task that seems a little bit too hard?",
+  "zh": "我觉得如今这项技能与其说是提示词工程,不如说是搞清楚怎么给 Claude 一个看起来有点太难的硬任务?"
+ },
+ {
+  "seg": 286,
+  "start": 1225.168,
+  "end": 1228.55,
+  "speaker": "Unknown",
+  "en": "And then how do you make it possible for Claude to verify its work along the way?",
+  "zh": "然后你怎么让 Claude 能够在过程中验证自己的工作?"
+ },
+ {
+  "seg": 287,
+  "start": 1229.45,
+  "end": 1235.934,
+  "speaker": "Unknown",
+  "en": "And the verification, I think, is probably the single most important thing that people do not get right, largely.",
+  "zh": "而这个验证,我认为,可能是人们普遍没有做对的最重要的一件事。"
+ },
+ {
+  "seg": 288,
+  "start": 1237.055,
+  "end": 1242.558,
+  "speaker": "Unknown",
+  "en": "One example of this is people were, you know, we have this desktop app for Claude.",
+  "zh": "举一个例子,你知道,我们有一个 Claude 的桌面应用。"
+ },
+ {
+  "seg": 289,
+  "start": 1243.248,
+  "end": 1244.468,
+  "speaker": "Unknown",
+  "en": "And it's built using Electron.",
+  "zh": "它是用 Electron 构建的。"
+ },
+ {
+  "seg": 290,
+  "start": 1245.329,
+  "end": 1246.429,
+  "speaker": "Unknown",
+  "en": "We've made it quite fast.",
+  "zh": "我们已经把它做得相当快了。"
+ },
+ {
+  "seg": 291,
+  "start": 1246.589,
+  "end": 1248.209,
+  "speaker": "Unknown",
+  "en": "So now it's like a pretty awesome experience.",
+  "zh": "所以现在它已经是一种很棒的体验了。"
+ },
+ {
+  "seg": 292,
+  "start": 1248.689,
+  "end": 1251.67,
+  "speaker": "Unknown",
+  "en": "Six months ago, it was like sluggish and it wasn't very reliable.",
+  "zh": "六个月前,它还很卡顿,也不太可靠。"
+ },
+ {
+  "seg": 293,
+  "start": 1252.11,
+  "end": 1252.91,
+  "speaker": "Unknown",
+  "en": "Now it's pretty awesome.",
+  "zh": "现在它相当棒。"
+ },
+ {
+  "seg": 294,
+  "start": 1253.07,
+  "end": 1254.851,
+  "speaker": "Unknown",
+  "en": "And you know, it's the thing that most of the team uses.",
+  "zh": "你知道,这是团队大多数人都在用的东西。"
+ },
+ {
+  "seg": 295,
+  "start": 1255.751,
+  "end": 1259.652,
+  "speaker": "Unknown",
+  "en": "As an experiment though, I wanted to see like, what would it feel like if it was native?",
+  "zh": "不过作为一个实验,我想看看,如果它是原生的会是什么感觉?"
+ },
+ {
+  "seg": 296,
+  "start": 1261.052,
+  "end": 1266.834,
+  "speaker": "Unknown",
+  "en": "And so what I did is I started a Claude Tag session and Claude Tag is just, you know, it's a new product we have.",
+  "zh": "所以我做的是,我开了一个 Claude Tag 会话,Claude Tag 就是我们有的一个新产品。"
+ },
+ {
+  "seg": 297,
+  "start": 1266.894,
+  "end": 1268.114,
+  "speaker": "Unknown",
+  "en": "It's just Claude running in Slack.",
+  "zh": "它就是在 Slack 里运行的 Claude。"
+ },
+ {
+  "seg": 298,
+  "start": 1268.794,
+  "end": 1272.055,
+  "speaker": "Unknown",
+  "en": "My first question was, hey Tag, do you have access to a Mac OS runner on GitHub?",
+  "zh": "我的第一个问题是,嘿 Tag,你在 GitHub 上有 Mac OS runner 的访问权限吗?"
+ },
+ {
+  "seg": 299,
+  "start": 1272.938,
+  "end": 1273.718,
+  "speaker": "Unknown",
+  "en": "And it said no.",
+  "zh": "它说没有。"
+ },
+ {
+  "seg": 300,
+  "start": 1274.039,
+  "end": 1275.159,
+  "speaker": "Unknown",
+  "en": "And then I hooked up a runner.",
+  "zh": "然后我接上了一个 runner。"
+ },
+ {
+  "seg": 301,
+  "start": 1275.279,
+  "end": 1278.741,
+  "speaker": "Unknown",
+  "en": "So it was able to start a Mac virtual machine using GitHub.",
+  "zh": "所以它可以用 GitHub 启动一台 Mac 虚拟机。"
+ },
+ {
+  "seg": 302,
+  "start": 1279.661,
+  "end": 1286.645,
+  "speaker": "Unknown",
+  "en": "And then my second question is, I created this empty code base that was Claude Desktop App rewritten in Swift.",
+  "zh": "然后我的第二个问题是,我创建了一个空的代码库,它是用 Swift 重写的 Claude Desktop App。"
+ },
+ {
+  "seg": 303,
+  "start": 1287.445,
+  "end": 1288.846,
+  "speaker": "Unknown",
+  "en": "And I asked, can you access this code base?",
+  "zh": "然后我问,你能访问这个代码库吗?"
+ },
+ {
+  "seg": 304,
+  "start": 1288.906,
+  "end": 1289.326,
+  "speaker": "Unknown",
+  "en": "It said no.",
+  "zh": "它说不能。"
+ },
+ {
+  "seg": 305,
+  "start": 1289.706,
+  "end": 1290.807,
+  "speaker": "Unknown",
+  "en": "And then I gave it access.",
+  "zh": "然后我给了它访问权限。"
+ },
+ {
+  "seg": 306,
+  "start": 1290.847,
+  "end": 1291.587,
+  "speaker": "Unknown",
+  "en": "And I was like, OK, great.",
+  "zh": "我就说,好,很好。"
+ },
+ {
+  "seg": 307,
+  "start": 1291.607,
+  "end": 1292.348,
+  "speaker": "Unknown",
+  "en": "Now I have access.",
+  "zh": "现在我有权限了。"
+ },
+ {
+  "seg": 308,
+  "start": 1293.408,
+  "end": 1300.392,
+  "speaker": "Unknown",
+  "en": "And then I was like, OK, now what I want you to do is I want you to rewrite the Electron app in Swift.",
+  "zh": "然后我就说,好,现在我要你做的是,我要你用 Swift 重写这个 Electron 应用。"
+ },
+ {
+  "seg": 309,
+  "start": 1302.166,
+  "end": 1311.828,
+  "speaker": "Unknown",
+  "en": "I want you to run the Electron app in the Mac virtual machine, screenshot it, and then look pixel by pixel, compare it to the Swift version.",
+  "zh": "我要你在 Mac 虚拟机里运行那个 Electron 应用,截图,然后逐像素地和 Swift 版本进行比较。"
+ },
+ {
+  "seg": 310,
+  "start": 1313.008,
+  "end": 1314.029,
+  "speaker": "Unknown",
+  "en": "Don't stop until you're done.",
+  "zh": "不许停,直到做完为止。"
+ },
+ {
+  "seg": 311,
+  "start": 1314.729,
+  "end": 1316.209,
+  "speaker": "Unknown",
+  "en": "And that was your prompt, basically?",
+  "zh": "这基本上就是你的提示词?"
+ },
+ {
+  "seg": 312,
+  "start": 1316.489,
+  "end": 1317.049,
+  "speaker": "Unknown",
+  "en": "That was my prompt.",
+  "zh": "那就是我的提示词。"
+ },
+ {
+  "seg": 313,
+  "start": 1317.469,
+  "end": 1319.13,
+  "speaker": "Unknown",
+  "en": "And how long did this take to run?",
+  "zh": "那这个跑了多久?"
+ },
+ {
+  "seg": 314,
+  "start": 1319.89,
+  "end": 1320.45,
+  "speaker": "Unknown",
+  "en": "It's still running.",
+  "zh": "还在跑。"
+ },
+ {
+  "seg": 315,
+  "start": 1322.651,
+  "end": 1323.271,
+  "speaker": "Unknown",
+  "en": "When did you start it?",
+  "zh": "你什么时候启动的?"
+ },
+ {
+  "seg": 316,
+  "start": 1324.651,
+  "end": 1326.772,
+  "speaker": "Unknown",
+  "en": "It's been a little over two weeks.",
+  "zh": "已经两个多星期了。"
+ },
+ {
+  "seg": 317,
+  "start": 1326.832,
+  "end": 1327.112,
+  "speaker": "Unknown",
+  "en": "Two weeks?",
+  "zh": "两个星期?"
+ },
+ {
+  "seg": 318,
+  "start": 1327.132,
+  "end": 1328.412,
+  "speaker": "Unknown",
+  "en": "So it's like 14 days, 15 days.",
+  "zh": "对,大概 14 天,15 天。"
+ },
+ {
+  "seg": 319,
+  "start": 1329.143,
+  "end": 1329.603,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 320,
+  "start": 1329.703,
+  "end": 1336.687,
+  "speaker": "Unknown",
+  "en": "So I don't know if anyone in the audience has gotten Claude to run a task for more than two weeks.",
+  "zh": "所以我不知道在座有没有人让 Claude 跑过一个超过两周的任务。"
+ },
+ {
+  "seg": 321,
+  "start": 1338.208,
+  "end": 1338.528,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 322,
+  "start": 1338.548,
+  "end": 1339.108,
+  "speaker": "Unknown",
+  "en": "Raise your hand.",
+  "zh": "举个手。"
+ },
+ {
+  "seg": 323,
+  "start": 1339.188,
+  "end": 1339.989,
+  "speaker": "Unknown",
+  "en": "Anyone in the audience?",
+  "zh": "在座有人吗?"
+ },
+ {
+  "seg": 324,
+  "start": 1343.03,
+  "end": 1343.15,
+  "speaker": "Unknown",
+  "en": "Oh.",
+  "zh": "哦。"
+ },
+ {
+  "seg": 325,
+  "start": 1343.65,
+  "end": 1344.051,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好吧。"
+ },
+ {
+  "seg": 326,
+  "start": 1346.092,
+  "end": 1348.973,
+  "speaker": "Unknown",
+  "en": "This is about elicitation.",
+  "zh": "这就是关于引导的问题。"
+ },
+ {
+  "seg": 327,
+  "start": 1349.474,
+  "end": 1353.296,
+  "speaker": "Unknown",
+  "en": "So this is really one of those examples where the model can do it today.",
+  "zh": "所以这真的是那种模型今天就能做到的例子之一。"
+ },
+ {
+  "seg": 328,
+  "start": 1354.016,
+  "end": 1354.956,
+  "speaker": "Unknown",
+  "en": "You just have to let it do it.",
+  "zh": "你只需要让它去做。"
+ },
+ {
+  "seg": 329,
+  "start": 1355.016,
+  "end": 1356.217,
+  "speaker": "Unknown",
+  "en": "And you don't need the fancy stuff.",
+  "zh": "而且你不需要那些花哨的东西。"
+ },
+ {
+  "seg": 330,
+  "start": 1356.237,
+  "end": 1357.377,
+  "speaker": "Unknown",
+  "en": "You don't need slash go.",
+  "zh": "你不需要 slash go。"
+ },
+ {
+  "seg": 331,
+  "start": 1357.778,
+  "end": 1358.878,
+  "speaker": "Unknown",
+  "en": "You don't need slash loop.",
+  "zh": "你不需要 slash loop。"
+ },
+ {
+  "seg": 332,
+  "start": 1359.498,
+  "end": 1359.959,
+  "speaker": "Unknown",
+  "en": "These help.",
+  "zh": "这些有帮助。"
+ },
+ {
+  "seg": 333,
+  "start": 1360.799,
+  "end": 1367.642,
+  "speaker": "Unknown",
+  "en": "But really, all you need is give the model the task, give it a way to verify the output of its work so it doesn't get stuck, and it'll just go.",
+  "zh": "但实际上,你只需要把任务交给模型,给它一种验证自己工作产出的方式,这样它就不会卡住,它就会一直做下去。"
+ },
+ {
+  "seg": 334,
+  "start": 1368.303,
+  "end": 1370.784,
+  "speaker": "Unknown",
+  "en": "And actually, in this case, Claude also decided to live block it.",
+  "zh": "而且实际上,在这个例子里,Claude 还决定做实况播报。"
+ },
+ {
+  "seg": 335,
+  "start": 1371.504,
+  "end": 1377.445,
+  "speaker": "Unknown",
+  "en": "So what it did is it created a Slack channel internally and it started just posting screenshots every few minutes of its progress.",
+  "zh": "它做的是,在内部创建了一个 Slack 频道,然后每隔几分钟就发布一张自己进展的截图。"
+ },
+ {
+  "seg": 336,
+  "start": 1377.645,
+  "end": 1377.845,
+  "speaker": "Unknown",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 337,
+  "start": 1379.126,
+  "end": 1381.066,
+  "speaker": "Unknown",
+  "en": "So the prompt sound is so simple.",
+  "zh": "所以这个提示词听起来如此简单。"
+ },
+ {
+  "seg": 338,
+  "start": 1381.826,
+  "end": 1383.346,
+  "speaker": "Unknown",
+  "en": "I mean, everyone here could do it.",
+  "zh": "我是说,在座的每个人都能做到。"
+ },
+ {
+  "seg": 339,
+  "start": 1385.007,
+  "end": 1392.808,
+  "speaker": "Unknown",
+  "en": "And I guess, what is separating the people here that can become the top 1% Claude Code users?",
+  "zh": "那我想问,是什么区分了在座能成为前 1% Claude Code 用户的人?"
+ },
+ {
+  "seg": 340,
+  "start": 1393.108,
+  "end": 1396.829,
+  "speaker": "Unknown",
+  "en": "How can people learn to use Claude Code like Boris?",
+  "zh": "人们怎样才能学会像 Boris 那样使用 Claude Code?"
+ },
+ {
+  "seg": 341,
+  "start": 1397.529,
+  "end": 1400.79,
+  "speaker": "Unknown",
+  "en": "Maybe, like, don't listen to the LinkedIn influencers.",
+  "zh": "也许,别听那些 LinkedIn 网红的话。"
+ },
+ {
+  "seg": 342,
+  "start": 1401.348,
+  "end": 1402.029,
+  "speaker": "Unknown",
+  "en": "Don't listen to it.",
+  "zh": "别听那些。"
+ },
+ {
+  "seg": 343,
+  "start": 1402.89,
+  "end": 1403.611,
+  "speaker": "Unknown",
+  "en": "Don't read Twitter.",
+  "zh": "别刷 Twitter。"
+ },
+ {
+  "seg": 344,
+  "start": 1408.436,
+  "end": 1409.718,
+  "speaker": "Unknown",
+  "en": "This is the thing about the model.",
+  "zh": "这就是关于模型的事。"
+ },
+ {
+  "seg": 345,
+  "start": 1409.738,
+  "end": 1413.743,
+  "speaker": "Unknown",
+  "en": "I think everyone's looking for the one weird trick to do it.",
+  "zh": "我觉得每个人都在找那种一招鲜的怪招。"
+ },
+ {
+  "seg": 346,
+  "start": 1413.923,
+  "end": 1414.544,
+  "speaker": "Unknown",
+  "en": "That doesn't exist.",
+  "zh": "那种东西不存在。"
+ },
+ {
+  "seg": 347,
+  "start": 1414.664,
+  "end": 1415.425,
+  "speaker": "Unknown",
+  "en": "There's nothing like that.",
+  "zh": "没有那样的东西。"
+ },
+ {
+  "seg": 348,
+  "start": 1416.12,
+  "end": 1418.641,
+  "speaker": "Unknown",
+  "en": "The way the model works is you have to approach it empirically.",
+  "zh": "模型的工作方式是,你必须以实证的方式去对待它。"
+ },
+ {
+  "seg": 349,
+  "start": 1418.761,
+  "end": 1420.262,
+  "speaker": "Unknown",
+  "en": "You have to give it a task that's too hard.",
+  "zh": "你必须给它一个太难的任务。"
+ },
+ {
+  "seg": 350,
+  "start": 1420.743,
+  "end": 1425.005,
+  "speaker": "Unknown",
+  "en": "You have to give it the tools to verify the work, like you would yourself, like you would if you were doing the task.",
+  "zh": "你得给它工具去验证工作，就像你自己会做的那样，就像你自己在做这个任务时一样。"
+ },
+ {
+  "seg": 351,
+  "start": 1425.505,
+  "end": 1437.491,
+  "speaker": "Unknown",
+  "en": "You have to see where it struggles, and then you have to fix that, either with better prompting or with a skill, or if the model is missing context, give it an MCP so it can pull in the context that it needs.",
+  "zh": "你得看到它在哪些地方卡壳，然后去修复它，要么用更好的提示词，要么用一个 skill,或者如果模型缺少上下文，就给它一个 MCP,让它能拉取它需要的上下文。"
+ },
+ {
+  "seg": 352,
+  "start": 1438.632,
+  "end": 1439.172,
+  "speaker": "Unknown",
+  "en": "That's kind of it.",
+  "zh": "基本上就是这样。"
+ },
+ {
+  "seg": 353,
+  "start": 1439.672,
+  "end": 1440.593,
+  "speaker": "Unknown",
+  "en": "It sounds very simple.",
+  "zh": "听起来非常简单。"
+ },
+ {
+  "seg": 354,
+  "start": 1441.719,
+  "end": 1443.42,
+  "speaker": "Unknown",
+  "en": "I think people tend to overthink it a little bit.",
+  "zh": "我觉得人们往往会把它想得有点过于复杂了。"
+ },
+ {
+  "seg": 355,
+  "start": 1443.44,
+  "end": 1449.423,
+  "speaker": "Unknown",
+  "en": "I think people tend to over-engineer because I think in a lot of ways, like when we build systems in the past, that's the way you had to do it.",
+  "zh": "我觉得人们倾向于过度工程化，因为我认为在很多方面，就像我们过去构建系统时，那是你不得不采取的方式。"
+ },
+ {
+  "seg": 356,
+  "start": 1449.843,
+  "end": 1466.432,
+  "speaker": "Unknown",
+  "en": "So when I look at engineers that have been, you know, coding for a long time, you know, like for years or for decades, this is a really, really common failure mode is trying to over-specify and it's trying to be overly specific and then, you know, get the model to do the task exactly the way that you would have done it.",
+  "zh": "所以当我看那些已经编码很长时间的工程师，你知道，编码了几年或者几十年的人，这是一个非常、非常常见的失败模式，就是试图过度指定，试图过于具体，然后，你知道，让模型完全按照你本来会做的方式去完成那个任务。"
+ },
+ {
+  "seg": 357,
+  "start": 1466.953,
+  "end": 1468.634,
+  "speaker": "Unknown",
+  "en": "And that's just not the way the model works.",
+  "zh": "而这根本不是模型的工作方式。"
+ },
+ {
+  "seg": 358,
+  "start": 1469.474,
+  "end": 1473.277,
+  "speaker": "Unknown",
+  "en": "But I think a lot of people are kind of unlearning this, and it's a journey to unlearn it.",
+  "zh": "但我觉得很多人正在慢慢改掉这个习惯，而改掉它是一个过程。"
+ },
+ {
+  "seg": 359,
+  "start": 1473.758,
+  "end": 1479.302,
+  "speaker": "Unknown",
+  "en": "And it's a journey to kind of figure out how do you treat this thing like you would a coworker.",
+  "zh": "弄清楚怎么把这个东西当作同事来对待，也是一个过程。"
+ },
+ {
+  "seg": 360,
+  "start": 1479.622,
+  "end": 1481.644,
+  "speaker": "Unknown",
+  "en": "I think that's the level of intelligence that it's had now.",
+  "zh": "我觉得这就是它现在所具备的智能水平。"
+ },
+ {
+  "seg": 361,
+  "start": 1482.164,
+  "end": 1487.409,
+  "speaker": "Unknown",
+  "en": "And as part of this, let's go deeper into this task that's still running two weeks since you launched that ago, two weeks ago.",
+  "zh": "作为这个话题的一部分，让我们深入聊聊这个已经运行了两周的任务，从你发布它算起，两周前。"
+ },
+ {
+  "seg": 362,
+  "start": 1488.309,
+  "end": 1489.77,
+  "speaker": "Unknown",
+  "en": "How many agents did it spawn?",
+  "zh": "它派生了多少个智能体？"
+ },
+ {
+  "seg": 363,
+  "start": 1490.891,
+  "end": 1491.652,
+  "speaker": "Unknown",
+  "en": "No, I'm not sure.",
+  "zh": "呃，我不确定。"
+ },
+ {
+  "seg": 364,
+  "start": 1491.972,
+  "end": 1494.194,
+  "speaker": "Unknown",
+  "en": "I can ask Claude and then I can get back to you.",
+  "zh": "我可以问问 Claude,然后再回复你。"
+ },
+ {
+  "seg": 365,
+  "start": 1494.274,
+  "end": 1494.815,
+  "speaker": "Unknown",
+  "en": "I would guess...",
+  "zh": "我猜……"
+ },
+ {
+  "seg": 366,
+  "start": 1496.168,
+  "end": 1496.648,
+  "speaker": "Unknown",
+  "en": "Thousands?",
+  "zh": "几千个？"
+ },
+ {
+  "seg": 367,
+  "start": 1496.768,
+  "end": 1497.409,
+  "speaker": "Unknown",
+  "en": "Tens of thousands?",
+  "zh": "几万个？"
+ },
+ {
+  "seg": 368,
+  "start": 1497.789,
+  "end": 1504.374,
+  "speaker": "Unknown",
+  "en": "Has anyone in the audience had a prompt to any of the models that spawn more than 1,000 agents?",
+  "zh": "在座的有没有人给任何模型下过派生出超过 1000 个智能体的提示词？"
+ },
+ {
+  "seg": 369,
+  "start": 1505.995,
+  "end": 1506.195,
+  "speaker": "Unknown",
+  "en": "No?",
+  "zh": "没有？"
+ },
+ {
+  "seg": 370,
+  "start": 1507.136,
+  "end": 1508.597,
+  "speaker": "Unknown",
+  "en": "I think this is another of the tips.",
+  "zh": "我觉得这是另一个技巧。"
+ },
+ {
+  "seg": 371,
+  "start": 1508.637,
+  "end": 1516.963,
+  "speaker": "Unknown",
+  "en": "The best Claude users are able to spawn tasks that are really providing you a lot of leverage, like thousands of agents.",
+  "zh": "最强的 Claude 用户能够派生出真正能给你带来很大杠杆作用的任务，比如数千个智能体。"
+ },
+ {
+  "seg": 372,
+  "start": 1517.264,
+  "end": 1517.504,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 373,
+  "start": 1518.104,
+  "end": 1518.625,
+  "speaker": "Unknown",
+  "en": "How do you do that?",
+  "zh": "你是怎么做到的？"
+ },
+ {
+  "seg": 374,
+  "start": 1520.084,
+  "end": 1521.365,
+  "speaker": "Unknown",
+  "en": "There's a few different ways to do it.",
+  "zh": "有几种不同的方式。"
+ },
+ {
+  "seg": 375,
+  "start": 1522.885,
+  "end": 1525.807,
+  "speaker": "Unknown",
+  "en": "The easiest way is dynamic workflows.",
+  "zh": "最简单的方式是动态工作流。"
+ },
+ {
+  "seg": 376,
+  "start": 1526.467,
+  "end": 1530.289,
+  "speaker": "Unknown",
+  "en": "To use dynamic workflows is a fairly new feature in Claude Code.",
+  "zh": "动态工作流是 Claude Code 中一个相当新的功能。"
+ },
+ {
+  "seg": 377,
+  "start": 1530.309,
+  "end": 1532.91,
+  "speaker": "Unknown",
+  "en": "And all you have to say is use a workflow.",
+  "zh": "你只需要说 use a workflow。"
+ },
+ {
+  "seg": 378,
+  "start": 1534.291,
+  "end": 1534.571,
+  "speaker": "Unknown",
+  "en": "That's it.",
+  "zh": "就这样。"
+ },
+ {
+  "seg": 379,
+  "start": 1534.891,
+  "end": 1536.672,
+  "speaker": "Unknown",
+  "en": "And then Claude will just trigger the dynamic workflow.",
+  "zh": "然后 Claude 就会触发动态工作流。"
+ },
+ {
+  "seg": 380,
+  "start": 1537.052,
+  "end": 1541.314,
+  "speaker": "Unknown",
+  "en": "What a dynamic workflow is, is essentially we have the BUN runtime.",
+  "zh": "动态工作流本质上是我们有 BUN 运行时。"
+ },
+ {
+  "seg": 381,
+  "start": 1542.094,
+  "end": 1543.795,
+  "speaker": "Unknown",
+  "en": "We use BUN as a sandbox.",
+  "zh": "我们用 BUN 作为沙箱。"
+ },
+ {
+  "seg": 382,
+  "start": 1544.055,
+  "end": 1545.656,
+  "speaker": "Unknown",
+  "en": "And we start a virtual machine within BUN.",
+  "zh": "我们在 BUN 里启动一个虚拟机。"
+ },
+ {
+  "seg": 383,
+  "start": 1546.657,
+  "end": 1549.558,
+  "speaker": "Unknown",
+  "en": "And we let Claude start a lot of agents and orchestrate them.",
+  "zh": "然后我们让 Claude 启动大量智能体并对它们进行编排。"
+ },
+ {
+  "seg": 384,
+  "start": 1550.15,
+  "end": 1551.771,
+  "speaker": "Unknown",
+  "en": "And it doesn't just do one agent.",
+  "zh": "它不只是运行一个智能体。"
+ },
+ {
+  "seg": 385,
+  "start": 1551.831,
+  "end": 1553.632,
+  "speaker": "Unknown",
+  "en": "It doesn't just do like 10 parallel agents.",
+  "zh": "也不只是运行大约 10 个并行智能体。"
+ },
+ {
+  "seg": 386,
+  "start": 1554.253,
+  "end": 1568.602,
+  "speaker": "Unknown",
+  "en": "What it might do is let's say a task is like rewrite the code base or do really in-depth data analysis over some really complicated data or maybe like build a very complex feature that takes multiple stages and maybe dozens of pull requests.",
+  "zh": "它可能做的是，比如说一个任务是重写代码库，或者对某些非常复杂的数据做非常深入的数据分析，又或者构建一个非常复杂的功能，需要多个阶段，可能需要几十个 pull request。"
+ },
+ {
+  "seg": 387,
+  "start": 1569.398,
+  "end": 1573.84,
+  "speaker": "Unknown",
+  "en": "And so what it's going to do is it's going to start a bunch of agents to do kind of like the first pass.",
+  "zh": "所以它要做的就是启动一批智能体来做类似第一轮的工作。"
+ },
+ {
+  "seg": 388,
+  "start": 1574.621,
+  "end": 1581.825,
+  "speaker": "Unknown",
+  "en": "Based on that, it might do a second step where it has another set of agents that verify the work or that summarize the work.",
+  "zh": "基于那一步，它可能会做第二步，用另一批智能体来验证工作或者总结工作。"
+ },
+ {
+  "seg": 389,
+  "start": 1582.645,
+  "end": 1585.567,
+  "speaker": "Unknown",
+  "en": "Then it might do like a third stage where it'll fan out again.",
+  "zh": "然后它可能做类似第三个阶段，再次扇出。"
+ },
+ {
+  "seg": 390,
+  "start": 1586.307,
+  "end": 1589.269,
+  "speaker": "Unknown",
+  "en": "So it'll kind of productively orchestrate a bunch of different agents.",
+  "zh": "所以它会有条不紊地编排一大批不同的智能体。"
+ },
+ {
+  "seg": 391,
+  "start": 1589.709,
+  "end": 1591.23,
+  "speaker": "Unknown",
+  "en": "So my background is functional programming.",
+  "zh": "我的背景是函数式编程。"
+ },
+ {
+  "seg": 392,
+  "start": 1592.05,
+  "end": 1595.272,
+  "speaker": "Unknown",
+  "en": "And so the way that we design this is it's essentially an algebra for agents.",
+  "zh": "所以我们设计这个东西的方式是，它本质上是一套面向智能体的代数。"
+ },
+ {
+  "seg": 393,
+  "start": 1596.716,
+  "end": 1598.817,
+  "speaker": "Unknown",
+  "en": "So there's a way to run agents in sequence.",
+  "zh": "也就是有办法按顺序运行智能体。"
+ },
+ {
+  "seg": 394,
+  "start": 1599.358,
+  "end": 1601.139,
+  "speaker": "Unknown",
+  "en": "There's a way to run agents in parallel.",
+  "zh": "有办法并行运行智能体。"
+ },
+ {
+  "seg": 395,
+  "start": 1601.599,
+  "end": 1611.105,
+  "speaker": "Unknown",
+  "en": "And Claude has different tools in order to orchestrate these agents inside of the sandbox to use tokens efficiently to do really, really complex work.",
+  "zh": "Claude 有不同的工具来在沙箱内编排这些智能体，以高效地使用 token 来完成非常、非常复杂的工作。"
+ },
+ {
+  "seg": 396,
+  "start": 1611.666,
+  "end": 1616.449,
+  "speaker": "Unknown",
+  "en": "It's kind of cool and something that just hasn't really been written about a lot.",
+  "zh": "这挺酷的，而且基本上还没有被大量写过。"
+ },
+ {
+  "seg": 397,
+  "start": 1616.889,
+  "end": 1619.011,
+  "speaker": "Unknown",
+  "en": "Like this is actually like a new form of test time compute.",
+  "zh": "就像这实际上是一种新形式的测试时算力。"
+ },
+ {
+  "seg": 398,
+  "start": 1619.631,
+  "end": 1623.854,
+  "speaker": "Unknown",
+  "en": "Like when we talk about the scaling laws and kind of we talk about the model getting more intelligent over time,",
+  "zh": "就像当我们谈到规模定律，谈到模型随时间变得更智能时，"
+ },
+ {
+  "seg": 399,
+  "start": 1624.458,
+  "end": 1632.543,
+  "speaker": "Unknown",
+  "en": "Historically, it's been a function of the size of the neural net, the amount of training data, and the number of flops that you put into the training.",
+  "zh": "历史上，它一直是神经网络规模、训练数据量以及你投入训练的 flops 数量的函数。"
+ },
+ {
+  "seg": 400,
+  "start": 1633.283,
+  "end": 1635.865,
+  "speaker": "Unknown",
+  "en": "And then recently, we also added test time compute.",
+  "zh": "然后最近，我们还增加了测试时计算。"
+ },
+ {
+  "seg": 401,
+  "start": 1635.945,
+  "end": 1639.927,
+  "speaker": "Unknown",
+  "en": "So this is essentially a fancy researcher way of saying, how many tokens does it generate?",
+  "zh": "这基本上是一种花哨的研究员说法，意思是，它生成多少 token？"
+ },
+ {
+  "seg": 402,
+  "start": 1641.568,
+  "end": 1646.811,
+  "speaker": "Unknown",
+  "en": "And now, dynamic workflows are essentially a new way to orchestrate test time compute.",
+  "zh": "它自己就想明白了。"
+ },
+ {
+  "seg": 403,
+  "start": 1647.412,
+  "end": 1653.075,
+  "speaker": "Unknown",
+  "en": "And it's a new way to kind of really, really ramp up the amount of test time compute that you use to do a really hard task.",
+  "zh": "它也是一种新方式，可以真正、真正地大幅提升你用来完成一个非常难的任务所使用的测试时计算量。"
+ },
+ {
+  "seg": 404,
+  "start": 1654.395,
+  "end": 1660.217,
+  "speaker": "Unknown",
+  "en": "So this whole very long way to say this is one way to launch thousands of agents in a way that is productive and efficient.",
+  "zh": "所以这一大段长篇大论说的就是：这是一种能以高效且有产出的方式启动数千个智能体的方法。"
+ },
+ {
+  "seg": 405,
+  "start": 1661.038,
+  "end": 1663.779,
+  "speaker": "Unknown",
+  "en": "A second way to do it is loops and routines.",
+  "zh": "第二种方法是循环和例行任务。"
+ },
+ {
+  "seg": 406,
+  "start": 1664.819,
+  "end": 1667.42,
+  "speaker": "Unknown",
+  "en": "Loop is essentially a cron job that's running locally for Cloud.",
+  "zh": "Loop 本质上是一个为 Cloud 在本地运行的定时任务。"
+ },
+ {
+  "seg": 407,
+  "start": 1667.881,
+  "end": 1670.001,
+  "speaker": "Unknown",
+  "en": "Routine is the same thing, but it's running in the Cloud.",
+  "zh": "Routine 是同样的东西，但它运行在云端。"
+ },
+ {
+  "seg": 408,
+  "start": 1672.092,
+  "end": 1673.333,
+  "speaker": "Unknown",
+  "en": "So you can close your laptop.",
+  "zh": "这样你就可以合上笔记本电脑了。"
+ },
+ {
+  "seg": 409,
+  "start": 1673.993,
+  "end": 1679.137,
+  "speaker": "Unknown",
+  "en": "And this is like slightly different because for a dynamic workflow, it's one task and you break it up into chunks.",
+  "zh": "这有点不同，因为动态工作流是一个任务，你把它拆分成多个块。"
+ },
+ {
+  "seg": 410,
+  "start": 1679.938,
+  "end": 1685.182,
+  "speaker": "Unknown",
+  "en": "For loops and routines, it's one task that is repetitive, that doesn't share context, but it might share memory.",
+  "zh": "而循环和例行任务是一个重复性的任务，它不共享上下文，但可能共享记忆。"
+ },
+ {
+  "seg": 411,
+  "start": 1686.142,
+  "end": 1687.784,
+  "speaker": "Unknown",
+  "en": "And you kind of do this like over and over.",
+  "zh": "然后你就这样一遍又一遍地做。"
+ },
+ {
+  "seg": 412,
+  "start": 1687.804,
+  "end": 1691.086,
+  "speaker": "Unknown",
+  "en": "You can do it like maybe every hour, every five minutes, every day.",
+  "zh": "你可以每隔一小时、每五分钟、每天做一次。"
+ },
+ {
+  "seg": 413,
+  "start": 1691.807,
+  "end": 1696.15,
+  "speaker": "Unknown",
+  "en": "And so the thing that we've started doing is we actually have Claude maintaining itself now.",
+  "zh": "于是我们开始做的事情是，我们实际上让 Claude 现在维护它自己。"
+ },
+ {
+  "seg": 414,
+  "start": 1696.912,
+  "end": 1704.396,
+  "speaker": "Unknown",
+  "en": "And the way we do this is we have a Slack channel where we just had Claude start a bunch of different routines to maintain its own code base.",
+  "zh": "我们的做法是，我们有一个 Slack 频道，让 Claude 在里面启动了一堆不同的例行任务来维护它自己的代码库。"
+ },
+ {
+  "seg": 415,
+  "start": 1705.076,
+  "end": 1711.019,
+  "speaker": "Unknown",
+  "en": "And we actually do this for the CLI, for the iOS app, for the Android app, for the desktop app.",
+  "zh": "我们实际上对 CLI、iOS 应用、Android 应用、桌面应用都这样做了。"
+ },
+ {
+  "seg": 416,
+  "start": 1711.039,
+  "end": 1713.84,
+  "speaker": "Unknown",
+  "en": "And for example, one routine is clean up dead code.",
+  "zh": "举个例子，有一个例行任务是清理死代码。"
+ },
+ {
+  "seg": 417,
+  "start": 1714.68,
+  "end": 1715.501,
+  "speaker": "Unknown",
+  "en": "This is a single prompt.",
+  "zh": "这是一个单独的提示词。"
+ },
+ {
+  "seg": 418,
+  "start": 1715.681,
+  "end": 1716.461,
+  "speaker": "Unknown",
+  "en": "It's like one sentence.",
+  "zh": "就一句话。"
+ },
+ {
+  "seg": 419,
+  "start": 1716.881,
+  "end": 1717.862,
+  "speaker": "Unknown",
+  "en": "Claude runs this every day.",
+  "zh": "Claude 每天运行这个任务。"
+ },
+ {
+  "seg": 420,
+  "start": 1718.382,
+  "end": 1722.624,
+  "speaker": "Unknown",
+  "en": "It'll look for dead code across all the code bases using static and dynamic analysis.",
+  "zh": "它会使用静态和动态分析在所有代码库中查找死代码。"
+ },
+ {
+  "seg": 421,
+  "start": 1722.804,
+  "end": 1723.464,
+  "speaker": "Unknown",
+  "en": "We didn't prompt that.",
+  "zh": "我们没有提示它这么做。"
+ },
+ {
+  "seg": 422,
+  "start": 1723.524,
+  "end": 1724.505,
+  "speaker": "Unknown",
+  "en": "It just kind of figured it out.",
+  "zh": "它就这么自己弄明白了。"
+ },
+ {
+  "seg": 423,
+  "start": 1725.738,
+  "end": 1727.959,
+  "speaker": "Unknown",
+  "en": "And it'll put up pull requests every day to delete the dead code.",
+  "zh": "它每天都会提交删除死代码的拉取请求。"
+ },
+ {
+  "seg": 424,
+  "start": 1728.839,
+  "end": 1732.62,
+  "speaker": "Unknown",
+  "en": "Another example is shipping experiments that should go out.",
+  "zh": "另一个例子是发布那些应该上线的实验。"
+ },
+ {
+  "seg": 425,
+  "start": 1733.601,
+  "end": 1735.201,
+  "speaker": "Unknown",
+  "en": "So the experiment's already out to 100%.",
+  "zh": "也就是实验已经推送到 100% 的。"
+ },
+ {
+  "seg": 426,
+  "start": 1735.741,
+  "end": 1738.122,
+  "speaker": "Unknown",
+  "en": "It'll delete it from the code base and it'll just ship it.",
+  "zh": "它会从代码库中删掉实验代码，然后直接发布它。"
+ },
+ {
+  "seg": 427,
+  "start": 1738.802,
+  "end": 1742.883,
+  "speaker": "Unknown",
+  "en": "Another one is writing tests for areas of the code base that need test coverage.",
+  "zh": "另一个是为代码库中需要测试覆盖的区域编写测试。"
+ },
+ {
+  "seg": 428,
+  "start": 1743.384,
+  "end": 1751.986,
+  "speaker": "Unknown",
+  "en": "Another one is deleting tests that don't need to be there because, you know, they were kind of useless tests added by older models or added by people at some point.",
+  "zh": "还有一个是删除那些不需要存在的测试，因为，你知道，它们是旧模型添加的或者某个人在某时候添加的、没什么用的测试。"
+ },
+ {
+  "seg": 429,
+  "start": 1752.086,
+  "end": 1753.447,
+  "speaker": "Unknown",
+  "en": "One that I really love is this...",
+  "zh": "有一个我特别喜欢的是……"
+ },
+ {
+  "seg": 430,
+  "start": 1754.73,
+  "end": 1755.392,
+  "speaker": "Unknown",
+  "en": "I forgot what we called it.",
+  "zh": "我忘了我们叫它什么了。"
+ },
+ {
+  "seg": 431,
+  "start": 1755.412,
+  "end": 1756.816,
+  "speaker": "Unknown",
+  "en": "I think we called it abstraction police.",
+  "zh": "我记得我们叫它抽象警察。"
+ },
+ {
+  "seg": 432,
+  "start": 1758.041,
+  "end": 1763.805,
+  "speaker": "Unknown",
+  "en": "And the idea is there are often in a big code base, there's kind of the same abstraction and it appears multiple times.",
+  "zh": "这个想法是，在一个大的代码库中，经常会有同样的抽象，它出现了多次。"
+ },
+ {
+  "seg": 433,
+  "start": 1763.845,
+  "end": 1773.072,
+  "speaker": "Unknown",
+  "en": "And if you kind of squint, it actually maybe should just be the same abstraction, but kind of over time, for whatever reason, you rebuilt it multiple ways in different parts of the code base.",
+  "zh": "如果你稍微眯起眼看，它实际上也许应该是同一个抽象，但由于某种原因，随着时间推移，你在代码库的不同部分用多种方式把它重写了好几遍。"
+ },
+ {
+  "seg": 434,
+  "start": 1773.492,
+  "end": 1776.434,
+  "speaker": "Unknown",
+  "en": "So Quad kind of goes out every day across all our code bases.",
+  "zh": "所以 Quad 每天会横跨我们所有的代码库去检查。"
+ },
+ {
+  "seg": 435,
+  "start": 1776.955,
+  "end": 1779.756,
+  "speaker": "Unknown",
+  "en": "It finds these nearly duplicated abstractions and it unifies them.",
+  "zh": "它找到这些几乎重复的抽象，然后统一它们。"
+ },
+ {
+  "seg": 436,
+  "start": 1780.437,
+  "end": 1785.821,
+  "speaker": "Unknown",
+  "en": "And so now we have every day, maybe 20 or 30 of these routines, it's running across all of our code bases.",
+  "zh": "所以现在我们每天有，大概 20 或 30 个这样的例行任务，在我们所有的代码库上运行。"
+ },
+ {
+  "seg": 437,
+  "start": 1787.626,
+  "end": 1794.189,
+  "speaker": "Unknown",
+  "en": "It's not totally there yet, but we're on the path to fully automating the maintenance of our apps by doing this.",
+  "zh": "它还没完全到位，但我们正通过这种方式走向完全自动化维护我们的应用。"
+ },
+ {
+  "seg": 438,
+  "start": 1795.189,
+  "end": 1799.191,
+  "speaker": "Unknown",
+  "en": "And this is, again, hundreds of agents running every day, sometimes thousands of agents every day.",
+  "zh": "而这，再说一次，是每天运行的数百个智能体，有时是每天数千个智能体。"
+ },
+ {
+  "seg": 439,
+  "start": 1799.691,
+  "end": 1803.532,
+  "speaker": "Unknown",
+  "en": "It's doing the work of dozens or hundreds of engineers.",
+  "zh": "它在做着几十甚至上百名工程师的工作。"
+ },
+ {
+  "seg": 440,
+  "start": 1803.592,
+  "end": 1806.153,
+  "speaker": "Unknown",
+  "en": "This is kind of what it used to take to do this kind of work.",
+  "zh": "这大概就是以前做这类工作所需要的人力。"
+ },
+ {
+  "seg": 441,
+  "start": 1806.994,
+  "end": 1814.577,
+  "speaker": "Unknown",
+  "en": "And this means that engineers can just do the thing they actually want to do, which is ship new products and talk to users and do stuff that's actually fun.",
+  "zh": "而这意味着工程师们可以只做他们真正想做的事，也就是发布新产品、和用户交流、做真正有趣的事情。"
+ },
+ {
+  "seg": 442,
+  "start": 1815.342,
+  "end": 1822.004,
+  "speaker": "Unknown",
+  "en": "I guess next conclusion for this, which you have mentioned in the past that basically coding is solved, right?",
+  "zh": "我想接下来的一个结论是，你过去提到过，基本上编码已经被解决了，对吧？"
+ },
+ {
+  "seg": 443,
+  "start": 1822.804,
+  "end": 1823.665,
+  "speaker": "Unknown",
+  "en": "You have mentioned this.",
+  "zh": "你提到过这个。"
+ },
+ {
+  "seg": 444,
+  "start": 1825.225,
+  "end": 1835.009,
+  "speaker": "Unknown",
+  "en": "I'm curious now that effectively everyone can write software, what separates the exceptional builders from the rest?",
+  "zh": "我很好奇，现在实际上每个人都能写软件了，那么是什么把卓越的构建者和其他人区分开？"
+ },
+ {
+  "seg": 445,
+  "start": 1835.109,
+  "end": 1839.03,
+  "speaker": "Unknown",
+  "en": "What are the qualities now that everyone can ship code?",
+  "zh": "现在在人人都能发布代码的情况下，是哪些特质？"
+ },
+ {
+  "seg": 446,
+  "start": 1839.13,
+  "end": 1840.37,
+  "speaker": "Unknown",
+  "en": "I would give like one caveat.",
+  "zh": "我要先给一个限定条件。"
+ },
+ {
+  "seg": 447,
+  "start": 1840.45,
+  "end": 1843.251,
+  "speaker": "Unknown",
+  "en": "So coding is solved for the kind of coding that I do.",
+  "zh": "编码已经被解决的，是我所做的这一类编码。"
+ },
+ {
+  "seg": 448,
+  "start": 1843.992,
+  "end": 1844.992,
+  "speaker": "Unknown",
+  "en": "It's not solved for everyone.",
+  "zh": "它对所有人来说还没有被解决。"
+ },
+ {
+  "seg": 449,
+  "start": 1845.703,
+  "end": 1850.525,
+  "speaker": "Unknown",
+  "en": "You know, there's still code bases that are like super deep systems code bases where Claude still struggles.",
+  "zh": "你知道，仍然有一些超级深层的系统级代码库，Claude 在这些上面依然很吃力。"
+ },
+ {
+  "seg": 450,
+  "start": 1850.725,
+  "end": 1853.405,
+  "speaker": "Unknown",
+  "en": "There's distributed systems where Claude still struggles.",
+  "zh": "还有一些分布式系统,Claude 仍然很吃力。"
+ },
+ {
+  "seg": 451,
+  "start": 1853.826,
+  "end": 1859.347,
+  "speaker": "Unknown",
+  "en": "There's really kind of in the weeds UI verification, like something is off by Pixar or something, but it's still not perfect at this.",
+  "zh": "还有一些真正非常细节的 UI 验证,比如某个东西偏了几个像素之类的,但它在这上面仍然不完美。"
+ },
+ {
+  "seg": 452,
+  "start": 1859.787,
+  "end": 1863.869,
+  "speaker": "Unknown",
+  "en": "Like, Opus 5 was a big leap in vision and computer use, but it's still not perfect.",
+  "zh": "比如,Opus 5 在视觉和计算机使用上是一个巨大的飞跃,但它仍然不完美。"
+ },
+ {
+  "seg": 453,
+  "start": 1865.769,
+  "end": 1871.951,
+  "speaker": "Unknown",
+  "en": "But I'm actually curious, for people here, maybe raise your hand if 100% of your code is written using agents.",
+  "zh": "但我其实很好奇,在座的各位,如果你 100% 的代码都是用智能体写的,请举手。"
+ },
+ {
+  "seg": 454,
+  "start": 1872.251,
+  "end": 1873.732,
+  "speaker": "Unknown",
+  "en": "You don't write any code by hand anymore.",
+  "zh": "你不再手写任何代码了。"
+ },
+ {
+  "seg": 455,
+  "start": 1876.75,
+  "end": 1877.17,
+  "speaker": "Unknown",
+  "en": "It's pretty good.",
+  "zh": "挺多的。"
+ },
+ {
+  "seg": 456,
+  "start": 1877.37,
+  "end": 1877.59,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 457,
+  "start": 1877.63,
+  "end": 1878.971,
+  "speaker": "Unknown",
+  "en": "How about more than 50%?",
+  "zh": "那超过 50% 的呢?"
+ },
+ {
+  "seg": 458,
+  "start": 1882.211,
+  "end": 1883.892,
+  "speaker": "Unknown",
+  "en": "Slightly less hands, maybe about the same.",
+  "zh": "手稍微少一点,可能差不多。"
+ },
+ {
+  "seg": 459,
+  "start": 1884.972,
+  "end": 1885.152,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 460,
+  "start": 1885.852,
+  "end": 1887.213,
+  "speaker": "Unknown",
+  "en": "So I think it's like, it's getting there.",
+  "zh": "所以我觉得,它正在朝那个方向走。"
+ },
+ {
+  "seg": 461,
+  "start": 1887.593,
+  "end": 1891.234,
+  "speaker": "Unknown",
+  "en": "So it's kind of getting to this, to, you know, to being solved for more and more kinds of code.",
+  "zh": "它正在逐渐被解决,适用于越来越多类型的代码。"
+ },
+ {
+  "seg": 462,
+  "start": 1891.754,
+  "end": 1892.354,
+  "speaker": "Unknown",
+  "en": "And that's kind of cool.",
+  "zh": "这挺酷的。"
+ },
+ {
+  "seg": 463,
+  "start": 1892.734,
+  "end": 1901.256,
+  "speaker": "Unknown",
+  "en": "When I think about the people that are the best at using Quad, I think there's a certain mindset that you can bring that's really effective.",
+  "zh": "当我想到那些最擅长使用 Quad 的人时,我认为有一种心态可以带来非常有效的效果。"
+ },
+ {
+  "seg": 464,
+  "start": 1902.116,
+  "end": 1904.017,
+  "speaker": "Unknown",
+  "en": "And it's really about being empirical.",
+  "zh": "那就是保持实证的态度。"
+ },
+ {
+  "seg": 465,
+  "start": 1905.263,
+  "end": 1908.647,
+  "speaker": "Unknown",
+  "en": "So forget all of the things that you've learned about past models.",
+  "zh": "忘掉你从过去的模型中学到的所有东西。"
+ },
+ {
+  "seg": 466,
+  "start": 1909.368,
+  "end": 1913.113,
+  "speaker": "Unknown",
+  "en": "Forget everything that you've learned about computer science theory in class.",
+  "zh": "忘掉你在课堂上学到的关于计算机科学理论的一切。"
+ },
+ {
+  "seg": 467,
+  "start": 1914.434,
+  "end": 1920.22,
+  "speaker": "Unknown",
+  "en": "Look at the model, try to do a task, see where it struggles, and then based on that, adjust.",
+  "zh": "看看模型,试着完成一个任务,看它在哪里吃力,然后据此调整。"
+ },
+ {
+  "seg": 468,
+  "start": 1920.86,
+  "end": 1926.466,
+  "speaker": "Unknown",
+  "en": "So it's just like very much become, it's not a theoretical science, it's become an empirical science.",
+  "zh": "所以这基本上变成了——它不是一门理论科学,它已经变成了一门实证科学。"
+ },
+ {
+  "seg": 469,
+  "start": 1927.146,
+  "end": 1935.474,
+  "speaker": "Unknown",
+  "en": "So I think people that are really good at this, that are really good at kind of forgetting their priors, letting go of, you know, this like maybe idea that didn't work before and just being open to trying it again.",
+  "zh": "所以我认为那些真正擅长这件事的人,那些真正擅长放下自己先入之见、放下那种「这个想法以前不管用」的观念、并且保持开放愿意再试一次的人。"
+ },
+ {
+  "seg": 470,
+  "start": 1936.475,
+  "end": 1939.178,
+  "speaker": "Unknown",
+  "en": "This is the kind of skill that's just very, very successful now.",
+  "zh": "这正是现在非常非常成功的一种技能。"
+ },
+ {
+  "seg": 471,
+  "start": 1940.372,
+  "end": 1958.637,
+  "speaker": "Unknown",
+  "en": "Now my last question is, given everything that we talked about, if there's someone here that's studying CS, and you learned to program before this era of AI in genetic coding, what should students still learn the hard way, like the old way?",
+  "zh": "我的最后一个问题是,鉴于我们讨论的所有内容,如果这里有正在学计算机科学的人,你是在这个 AI 时代、这个生成式编码时代之前学会编程的,学生们还应该用哪种艰难的方式、也就是老方式来学习什么?"
+ },
+ {
+  "seg": 472,
+  "start": 1959.157,
+  "end": 1964.258,
+  "speaker": "Unknown",
+  "en": "So for me, I learned computer science practically.",
+  "zh": "对我来说,我是以实践的方式学计算机科学的。"
+ },
+ {
+  "seg": 473,
+  "start": 1965.198,
+  "end": 1968.459,
+  "speaker": "Unknown",
+  "en": "I learned it by teaching myself to code in order to solve problems.",
+  "zh": "我是通过为了解决问题而自学编程来学的。"
+ },
+ {
+  "seg": 474,
+  "start": 1969.626,
+  "end": 1974.769,
+  "speaker": "Unknown",
+  "en": "Whenever I was doing this, I was doing it to solve a particular problem that I had.",
+  "zh": "每当我这样做的时候,我都是为了解决我遇到的一个具体问题。"
+ },
+ {
+  "seg": 475,
+  "start": 1975.71,
+  "end": 1979.011,
+  "speaker": "Unknown",
+  "en": "So I actually first learned to code on TI-83 calculators.",
+  "zh": "所以我实际上最早是在 TI-83 计算器上学编程的。"
+ },
+ {
+  "seg": 476,
+  "start": 1979.872,
+  "end": 1981.633,
+  "speaker": "Unknown",
+  "en": "This was back in middle school.",
+  "zh": "那是初中的时候。"
+ },
+ {
+  "seg": 477,
+  "start": 1981.773,
+  "end": 1986.496,
+  "speaker": "Unknown",
+  "en": "And I ended up actually writing a guide on the internet for programming TI-83 calculators.",
+  "zh": "我后来还在互联网上写了一份关于 TI-83 计算器编程的指南。"
+ },
+ {
+  "seg": 478,
+  "start": 1986.536,
+  "end": 1987.777,
+  "speaker": "Unknown",
+  "en": "It's still up on the internet somewhere.",
+  "zh": "它现在还在互联网上的某个地方。"
+ },
+ {
+  "seg": 479,
+  "start": 1989.037,
+  "end": 1990.818,
+  "speaker": "Unknown",
+  "en": "And it was basic.",
+  "zh": "那是 Basic 语言。"
+ },
+ {
+  "seg": 480,
+  "start": 1990.878,
+  "end": 1991.699,
+  "speaker": "Unknown",
+  "en": "That was my first language.",
+  "zh": "那是我的第一门语言。"
+ },
+ {
+  "seg": 481,
+  "start": 1992.459,
+  "end": 1998.903,
+  "speaker": "Unknown",
+  "en": "And I learned how to program on the calculator, so I could just get better at my math tests by cheating on the test.",
+  "zh": "我学会了在计算器上编程,这样我就可以在数学考试上作弊来考得更好。"
+ },
+ {
+  "seg": 482,
+  "start": 2005.55,
+  "end": 2011.156,
+  "speaker": "Unknown",
+  "en": "So it was about something practical, you know, like to me as a middle schooler that was kind of like the most practical thing I could think of.",
+  "zh": "所以它是为了实用的东西,你知道的,对当时作为初中生的我来说,那是我能想到的最实用的东西了。"
+ },
+ {
+  "seg": 483,
+  "start": 2011.793,
+  "end": 2017.995,
+  "speaker": "Unknown",
+  "en": "And I ended up getting good grades and then I got this little serial cable to give the, you know, the programs to my classmates and they got really good grades.",
+  "zh": "结果我取得了好成绩,然后我搞到一根串口线,把这些程序传给我的同学们,他们也取得了好成绩。"
+ },
+ {
+  "seg": 484,
+  "start": 2018.655,
+  "end": 2020.415,
+  "speaker": "Unknown",
+  "en": "And then the math got a little bit harder.",
+  "zh": "然后数学变得有点难了。"
+ },
+ {
+  "seg": 485,
+  "start": 2021.555,
+  "end": 2023.616,
+  "speaker": "Unknown",
+  "en": "It wasn't something that I could solve in basic anymore.",
+  "zh": "已经不是我能用 Basic 解决的东西了。"
+ },
+ {
+  "seg": 486,
+  "start": 2023.676,
+  "end": 2030.798,
+  "speaker": "Unknown",
+  "en": "So I kind of went from this like, you know, like maybe algebra solver that was written in basic and I had to solve harder problems.",
+  "zh": "所以我算是从这个用 Basic 写的、可能算是代数求解器的东西,升级到必须解决更难的问题。"
+ },
+ {
+  "seg": 487,
+  "start": 2031.178,
+  "end": 2039.74,
+  "speaker": "Unknown",
+  "en": "And, you know, like once we got into calculus, I had to run assemblies so that I could write a better solver so I could cheat better on the test now that it was calculus.",
+  "zh": "你知道的,等到我们学到微积分的时候,我就得用汇编了,这样才能写一个更好的求解器,才能在微积分考试上作弊作弊得更好。"
+ },
+ {
+  "seg": 488,
+  "start": 2040.447,
+  "end": 2043.348,
+  "speaker": "Unknown",
+  "en": "And so for me, programming has always been very practical.",
+  "zh": "所以对我来说,编程一直都是非常实用的。"
+ },
+ {
+  "seg": 489,
+  "start": 2043.488,
+  "end": 2048.609,
+  "speaker": "Unknown",
+  "en": "And I think this is always my advice for people in school is learn not just the computer science.",
+  "zh": "我想这始终是我给在校学生们的建议:不要只学计算机科学本身。"
+ },
+ {
+  "seg": 490,
+  "start": 2048.789,
+  "end": 2050.469,
+  "speaker": "Unknown",
+  "en": "This is like intellectually fascinating.",
+  "zh": "这在智力上确实很迷人。"
+ },
+ {
+  "seg": 491,
+  "start": 2050.949,
+  "end": 2053.21,
+  "speaker": "Unknown",
+  "en": "And it's really, really interesting to know, but learn how to apply it.",
+  "zh": "了解它真的非常有意思,但要学习如何应用它。"
+ },
+ {
+  "seg": 492,
+  "start": 2053.89,
+  "end": 2055.47,
+  "speaker": "Unknown",
+  "en": "And often this is about building startups.",
+  "zh": "这往往是关于创建创业公司。"
+ },
+ {
+  "seg": 493,
+  "start": 2055.53,
+  "end": 2056.73,
+  "speaker": "Unknown",
+  "en": "It's about building products.",
+  "zh": "是关于打造产品。"
+ },
+ {
+  "seg": 494,
+  "start": 2057.231,
+  "end": 2064.552,
+  "speaker": "Unknown",
+  "en": "It's about developing your own design sense, developing your business sense, learning how to do data science, learning how to talk to users.",
+  "zh": "是关于培养你自己的设计感、培养你的商业嗅觉,学习如何做数据科学,学习如何和用户交流。"
+ },
+ {
+  "seg": 495,
+  "start": 2064.912,
+  "end": 2066.353,
+  "speaker": "Unknown",
+  "en": "There are all these other skills.",
+  "zh": "还有所有这些其他的技能。"
+ },
+ {
+  "seg": 496,
+  "start": 2066.873,
+  "end": 2067.773,
+  "speaker": "Unknown",
+  "en": "And when you combine it,",
+  "zh": "当你把它们结合起来,"
+ },
+ {
+  "seg": 497,
+  "start": 2068.493,
+  "end": 2071.694,
+  "speaker": "Unknown",
+  "en": "With computer science and engineering, that's where it becomes really, really valuable.",
+  "zh": "与计算机科学和工程结合在一起,那才是它真正、真正有价值的地方。"
+ },
+ {
+  "seg": 498,
+  "start": 2072.114,
+  "end": 2075.235,
+  "speaker": "Unknown",
+  "en": "So those are the hard skills that I would still be doing by hand.",
+  "zh": "所以这些是我认为仍然应该亲手去做的硬技能。"
+ },
+ {
+  "seg": 499,
+  "start": 2076.255,
+  "end": 2085.358,
+  "speaker": "Unknown",
+  "en": "So if I'm hearing and summarizing, start with making something you want first for yourself, and then level up and make something people want.",
+  "zh": "那如果我理解并总结一下:先为你自己做出一个你想要的东西,然后再升级,去做出人们想要的东西。"
+ },
+ {
+  "seg": 500,
+  "start": 2085.918,
+  "end": 2086.118,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 501,
+  "start": 2087.699,
+  "end": 2091.56,
+  "speaker": "Unknown",
+  "en": "And we just have one last special announcement, Boris.",
+  "zh": "我们还有最后一个特别公告，Boris。"
+ },
+ {
+  "seg": 502,
+  "start": 2091.68,
+  "end": 2092.18,
+  "speaker": "Unknown",
+  "en": "One last thing.",
+  "zh": "最后一件事情。"
+ },
+ {
+  "seg": 503,
+  "start": 2093.212,
+  "end": 2099.816,
+  "speaker": "Unknown",
+  "en": "Yeah, so for everyone here today, you are getting max 20x.",
+  "zh": "是的，今天在场的每一位，你们将获得最高 20 倍的额度。"
+ },
+ {
+  "seg": 504,
+  "start": 2099.916,
+  "end": 2115.364,
+  "speaker": "Unknown",
+  "en": "So look for a code in your email, and I can't wait to see what you built.",
+  "zh": "请留意发到你邮箱的兑换码，我迫不及待想看到你们构建的东西。"
+ },
+ {
+  "seg": 505,
+  "start": 2122.518,
+  "end": 2124.42,
+  "speaker": "Unknown",
+  "en": "We'll be sending you now.",
+  "zh": "我们现在就会发送。"
+ },
+ {
+  "seg": 506,
+  "start": 2131.066,
+  "end": 2139.535,
+  "speaker": "Unknown",
+  "en": "So I'm curious, someone in this room should be building something that runs hopefully multiple months and thousands of agents now that you have the account to do it.",
+  "zh": "所以我很好奇，在座应该有人正在构建一些希望能运行数月、包含数千个智能体的东西，现在你们有了可以这么做的账户。"
+ },
+ {
+  "seg": 507,
+  "start": 2139.975,
+  "end": 2141.957,
+  "speaker": "Unknown",
+  "en": "And with that, thank you so much, Boris.",
+  "zh": "说到这里，非常感谢你，Boris。"
+ },
+ {
+  "seg": 508,
+  "start": 2142.718,
+  "end": 2143.098,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 509,
+  "start": 2143.419,
+  "end": 2143.659,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

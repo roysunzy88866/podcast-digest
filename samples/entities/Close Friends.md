@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Robby Stein]] · [[Google]] · [[AI Mode]] · [[AI Overviews]] · [[Google Lens]] · [[ChatGPT]] · [[Gemini]] · [[Perplexity]] · [[Instagram]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Robby Stein":1,"Google":45,"AI Mode":1,"AI Overviews":1,"Google Lens":1,"ChatGPT":71,"Gemini":10,"Perplexity":6,"Instagram":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Robby Stein":1,"Google":45,"AI Mode":1,"AI Overviews":1,"Google Lens":1,"ChatGPT":72,"Gemini":10,"Perplexity":6,"Instagram":4}</script>
 
 <script>
 (function(){

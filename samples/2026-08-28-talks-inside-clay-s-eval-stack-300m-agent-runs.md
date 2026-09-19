@@ -129,8 +129,8 @@ Saroosh 收尾，指出前面的飞轮有个瓶颈：「用我们的数据基础
 **顺着「智能体」挖下去**
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:LangChain · 同概念:智能体 (agent)、测试框架 (harness)、沙箱 (sandbox)</span>
+- [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同概念:智能体 (agent)、测试框架 (harness)、评估 (eval)、沙箱 (sandbox)</span>
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同概念:LLM 裁判 (LLM as a judge)、智能体 (agent)、测试框架 (harness)、沙箱 (sandbox)</span>
-- [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同公司:LangChain、Codex · 同概念:智能体 (agent)、测试框架 (harness)</span>
 
 </div>
 <div class="pd-ex">

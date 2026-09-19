@@ -1,0 +1,584 @@
+{
+  "episode_id": "2026-07-25-talks-what-big-tech-missed-and-how-startups-ca",
+  "podcast": "精选演讲",
+  "date": "2026-07-25",
+  "tags": [
+    "世界模型",
+    "LLM",
+    "机器人",
+    "创业融资",
+    "AGI"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "alex",
+      "type": "person",
+      "role": "host",
+      "name": "Alex",
+      "file": "Alex",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            33.436,
+            34.877
+          ],
+          "quote": "So we actually met Alex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            39.46,
+            42.762
+          ],
+          "quote": "Back then, Alex was building WeetAI, and we were building Algolia.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 5,
+          "t": [
+            42.802,
+            48.265
+          ],
+          "quote": "It was in winter 2014, quite a while ago, except Alex has done four companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1046.888,
+            1053.994
+          ],
+          "quote": "And one day he came to me and said, Hey Alex, I think world models are ready to become very big.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1559.867,
+            1566.194
+          ],
+          "quote": "And I meet him and he tells me he had read the memo before and he tells me, Alex, I love the idea.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1740.57,
+            1742.071
+          ],
+          "quote": "Thank you so much, Alex, for joining us today.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ami",
+      "type": "company",
+      "role": "company",
+      "name": "AMI",
+      "file": "AMI",
+      "primary": true,
+      "how_described": "本集主线公司：Alex 今年 1 月创办、做世界模型的公司（稿中多作 AmiLabs），融了欧洲史上最大的 12 亿美元种子轮，办公室在巴黎、纽约、蒙特利尔和新加坡，唯独没有旧金山。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 325,
+          "t": [
+            1418.883,
+            1425.931
+          ],
+          "quote": "I think it's when people join AMI, we hire lots of people in SF, in the companies you can imagine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1702.652,
+            1713.822
+          ],
+          "quote": "Just to conclude, if AMI works, no, when AMI will have worked, what will the world look like, like five, ten years from now?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "wit-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Wit.ai",
+      "file": "Wit.ai",
+      "primary": true,
+      "how_described": "Alex 的第一家公司（稿中写作 WeetAI/WeDI/WIT），世界上第一个 .ai 域名，2015 年被 Facebook 收购。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            60.092,
+            64.295
+          ],
+          "quote": "Wit.ai, was that the first AI company or something?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": true,
+      "how_described": "2015 年收购了 Wit.ai，扎克伯格亲自发邮件邀约（被 Alex 当成诈骗删进垃圾邮件文件夹）；收购后 Alex 想雇礼宾员训练模型，扎克伯格反手提出雇 10,000 人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            91.422,
+            97.245
+          ],
+          "quote": "And then I was surprised because actually you sold WIT shortly after to Facebook, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            170.691,
+            176.173
+          ],
+          "quote": "But that was not the corporate, I mean, or maybe the corporate arm of Facebook was so smart they got Mark to send the email.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1497.638,
+            1508.806
+          ],
+          "quote": "I was telling you, you know, just one month after we were acquired by Facebook, I wanted to hire 100 people to do some kind of data annotation for machine learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1532.922,
+            1535.844
+          ],
+          "quote": "Back then, there were 6,000 people at Facebook.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "Alex 卖掉 Wit.ai 后待了很多年的大公司；他用亲身体会说明大公司资源多、品牌强，但发布不了一个会讲黄段子的聊天机器人——缺的是冒险的能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            251.016,
+            262.696
+          ],
+          "quote": "So you sold Viatros, you sold WIT, then you spent a lot of time at Meta, and then you created a third company, Nabla, and then at last AmiLabs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            806.791,
+            811.853
+          ],
+          "quote": "DeepMind is meta today, because it was developed there at first.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            813.133,
+            818.175
+          ],
+          "quote": "I think all the large companies back then, you know, Meta, I was at Meta, so I know exactly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            845.027,
+            857.072
+          ],
+          "quote": "And the reason, when I was at Meta, for instance, we worked on a chatbot, which was a language model, not large yet, you know, but the ID that we trained... Just out of We.ai?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            864.639,
+            871.827
+          ],
+          "quote": "And the first time we launched a chatbot in the lab at Meta, we asked a question, how are you today?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1020.255,
+            1022.697
+          ],
+          "quote": "And you're doing that with Yann and you met Yann at Meta, I guess?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1054.234,
+            1057.597
+          ],
+          "quote": "And I think we could go faster if we do that outside of Meta.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nabla",
+      "type": "company",
+      "role": "company",
+      "name": "Nabla",
+      "file": "Nabla",
+      "primary": false,
+      "how_described": "Alex 在 AMI 之前创办的医疗 AI 公司，专注于将早期 AI 技术转化为产品，探索早期市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            251.016,
+            262.696
+          ],
+          "quote": "So you sold Viatros, you sold WIT, then you spent a lot of time at Meta, and then you created a third company, Nabla, and then at last AmiLabs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1036.279,
+            1042.444
+          ],
+          "quote": "So Jan was an investor and advisor in Nabla, my company prior to AmiLabs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集核心概念：「一个我们不作弊的模型」——不用文本学习，而是像人类和动物一样直接从现实世界（视频、音频、触觉、把玩物体）学习，像婴儿一样从零开始、不带语言。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            406.967,
+            410.707
+          ],
+          "quote": "How many here know what a world model is?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 97,
+          "t": [
+            431.214,
+            437.218
+          ],
+          "quote": "Can you tell us a little more about what is the world model and what's your kind of like your bet on the market?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            513.628,
+            516.751
+          ],
+          "quote": "A world model is a model where we don't cheat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            768.192,
+            769.973
+          ],
+          "quote": "Is Waymo using a world model?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "学的是人类写下的关于世界的文字，像一个从未出门、几个世纪每天读遍所有书的人：看似专家但没有直接世界经验、常识有限；但在语言、数学、编程这类低维符号序列问题上，「我们永远无法击败 LLM」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            428.052,
+            430.674
+          ],
+          "quote": "Why wouldn't LLM do everything?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            463.501,
+            468.184
+          ],
+          "quote": "And so LLM is learning what we humans have written about the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            470.206,
+            474.368
+          ],
+          "quote": "LLM doesn't learn directly from the world, the real world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            475.169,
+            481.833
+          ],
+          "quote": "We humans have wrote books and articles about the world, and then the LLM learns this text.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            482.554,
+            488.998
+          ],
+          "quote": "LLM is like someone who has never gone outside, never left the room they were born in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            568.142,
+            569.963
+          ],
+          "quote": "What can it do that an LLM cannot do?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            631.121,
+            637.166
+          ],
+          "quote": "VLA is a very bad hack where you have a hammer, you have a LLM, and you see everything as a nail.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            736.06,
+            739.442
+          ],
+          "quote": "We will never beat, I think, the LLM at that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            782.523,
+            789.025
+          ],
+          "quote": "The theoretical idea behind LLM, like Transformers, the paper was there, but Google did nothing with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            933.181,
+            936.924
+          ],
+          "quote": "And most of them are LLM-peeled, like Yann says.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vla",
+      "type": "concept",
+      "role": "concept",
+      "name": "VLA",
+      "file": "VLA",
+      "primary": true,
+      "how_described": "被 Alex 判为「一个非常糟糕的 hack」：用 LLM 直接驱动机器人，不精确、非常慢、算力贵到离谱（家用机器人 24 小时要 100 美元）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            631.121,
+            637.166
+          ],
+          "quote": "VLA is a very bad hack where you have a hammer, you have a LLM, and you see everything as a nail.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            642.33,
+            645.172
+          ],
+          "quote": "So a VLA is not accurate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            657.742,
+            659.624
+          ],
+          "quote": "So there are many, many problems with VLA.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (robotics)",
+      "file": "机器人",
+      "primary": true,
+      "how_described": "世界模型短期最大的应用领域：现在的机器人硬件进化得惊人但大脑没变，只能在固定位置做一件事，放进开放环境既不安全也没用；触觉数据也靠机器人采集。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            561.299,
+            562.46
+          ],
+          "quote": "Through robotics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            570.665,
+            575.471
+          ],
+          "quote": "So in the short term, there are lots of applications, especially in robotics.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jepa",
+      "type": "concept",
+      "role": "concept",
+      "name": "JEPA",
+      "file": "JEPA",
+      "primary": false,
+      "how_described": "世界模型背后的部分理念之一，已经存在五到十年，像 2018 年的 Transformer 论文——当时没人意识到威力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            773.656,
+            779.681
+          ],
+          "quote": "Some of the ideas we are using, like JEPA, have been around for at least five, ten years.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "grounding",
+      "type": "concept",
+      "role": "concept",
+      "name": "具身经验 (grounding)",
+      "file": "具身经验",
+      "primary": true,
+      "how_described": "Alex 做了 10 年客服聊天机器人后的结论：「我们不能作弊」——机器可以谈论猫，但如果从未见过、摸过、和猫玩过，它永远也不会非常聪明；你需要对事物有真实经验才能变聪明。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 246,
+          "t": [
+            1120.023,
+            1127.029
+          ],
+          "quote": "So if you go, you know, what we call grounding, you need real experience of things to be smart.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": false,
+      "how_described": "Alex 观察到当初承诺 AGI 的人改变了定义、不再使用这个术语——「我认为这是某件事行不通的好迹象」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 212,
+          "t": [
+            979.104,
+            984.968
+          ],
+          "quote": "A year ago, when we were saying LLMs are nice and powerful, but they're not AGI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1010.088,
+            1015.191
+          ],
+          "quote": "So the very people who promised AGI changed the definition and stopped using the term.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "GPU",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

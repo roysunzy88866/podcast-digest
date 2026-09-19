@@ -1,0 +1,1130 @@
+{
+  "episode_id": "2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s",
+  "podcast": "精选演讲",
+  "date": "2026-07-27",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "产品方法",
+    "AI 基础设施",
+    "模型评测"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "boris-cherny",
+      "type": "person",
+      "role": "host",
+      "name": "Boris Cherny",
+      "file": "Boris Cherny",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集主线:Boris 创造的智能体编程产品,同时被视为包裹 Claude 的 harness;每次新模型发布都删掉大量系统提示词和代码,如今 harness 里的代码几乎全是安全性、权限和静态分析。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            7.658,
+            13.884
+          ],
+          "quote": "All right, Boris, we're so excited to have you here, the creator of Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            211.829,
+            217.69
+          ],
+          "quote": "You actually deleted over 80% of the system prompt from Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            218.95,
+            227.051
+          ],
+          "quote": "I think something that a lot of people might not realize is Claude Code as a product and as a harness is just always changing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            277.523,
+            283.287
+          ],
+          "quote": "So when you run Claude Code, you can just do like dash dash system prompt and set whatever system prompt you want if you want to experiment with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            290.273,
+            298.9
+          ],
+          "quote": "If you do Claude Code simple equals one, like this environment variable, and then you run Claude, it'll delete all the system prompts, including from the tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            312.398,
+            324.443
+          ],
+          "quote": "But when you use Claude Code as a product, you do actually want some of these prompts because it helps you use the product and it helps the product behave and the model behave in the way that you would want when you're using it as a person.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            325.03,
+            334.313
+          ],
+          "quote": "I think the thing that's really fascinating in this era of building, basically, you have built the best harness in the world for Claude, and that's Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            384.403,
+            391.551
+          ],
+          "quote": "If you look at actually the code that's in the Claude Code harness today, almost all of it is about safety and permissions and static analysis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            416.699,
+            422.164
+          ],
+          "quote": "And for people that aren't building agentic products, but you're using Claude Code, every six months, delete your Claude MD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            485.343,
+            493.65
+          ],
+          "quote": "If you're using Claude Code, you want to see where it does well with your code base or maybe where it stumbles over the architecture or stumbles over something else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            790.603,
+            794.106
+          ],
+          "quote": "And so the idea with Claude Code was, all right, we think the model can probably do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            839.226,
+            850.096
+          ],
+          "quote": "Basically, all of you could create the next Claude Code if you figure out how to unhubble the models because that's effectively the birth story of Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            859.402,
+            864.964
+          ],
+          "quote": "And Claude Code was one of the first instances that gave it just a full terminal access.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 190,
+          "t": [
+            899.207,
+            907.812
+          ],
+          "quote": "I think a really common mistake that I see is people are using Claude code, they're using Claude, and they just give it way overly specific instructions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            962.499,
+            967.78
+          ],
+          "quote": "So one example of this is Claude Code is built on the Bun JavaScript Runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1385.007,
+            1392.808
+          ],
+          "quote": "And I guess, what is separating the people here that can become the top 1% Claude Code users?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1393.108,
+            1396.829
+          ],
+          "quote": "How can people learn to use Claude Code like Boris?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1526.467,
+            1530.289
+          ],
+          "quote": "To use dynamic workflows is a fairly new feature in Claude Code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "Boris 所在的公司、Claude 模型的打造者;本集多次提到 Anthropic 内部的发现(如给 Opus 5 OpenCV 画图)和让 Claude 维护自己代码库的例行任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            748.779,
+            752.262
+          ],
+          "quote": "But I think that was like the first great coding model that we built as Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1126.929,
+            1137.568
+          ],
+          "quote": "So something that's actually been really popular internally that's been kind of viral within Anthropic the last couple of weeks is someone figured out that you can give Opus 5 OpenCV and you can have a draw.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "opus-5",
+      "type": "concept",
+      "role": "concept",
+      "name": "Opus 5",
+      "file": "Opus 5",
+      "primary": true,
+      "how_described": "发布前一天刚上线的新模型,本集说它运行时间极长、不再能被提示词注入,团队因此删掉了 Claude Code 里 80% 的系统提示词。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21.131,
+            26.176
+          ],
+          "quote": "Fresh off the press, you guys just shipped Opus 5 yesterday.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            49.405,
+            54.267
+          ],
+          "quote": "What can Opus 5 do now that it couldn't versus a previous version?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            94.934,
+            99.719
+          ],
+          "quote": "And especially when you combine Opus 5 with auto mode, it's just incredible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            162.879,
+            165.283
+          ],
+          "quote": "But Opus 5 just hits like a new frontier on this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            254.548,
+            258.789
+          ],
+          "quote": "And so one thing about Opus 5 is it's just really intelligent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            267.711,
+            268.991
+          ],
+          "quote": "Now Opus 5 just does it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            428.703,
+            440.258
+          ],
+          "quote": "And actually for Opus 5, this is something we really do recommend is just try deleting all of these things because the model might really just not need all those instructions that you needed for past models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            440.789,
+            452.394
+          ],
+          "quote": "Let's talk a bit about how then you build this new prompt when there's a new model release, like for everyone in the room, everyone will want to try Opus 5 and they're going to press delete on their system prompt.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1029.418,
+            1031.339
+          ],
+          "quote": "And so I think Opus 5 could do it as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1126.929,
+            1137.568
+          ],
+          "quote": "So something that's actually been really popular internally that's been kind of viral within Anthropic the last couple of weeks is someone figured out that you can give Opus 5 OpenCV and you can have a draw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 452,
+          "t": [
+            1859.787,
+            1863.869
+          ],
+          "quote": "Like, Opus 5 was a big leap in vision and computer use, but it's still not perfect.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集把它说成包裹模型、让它能干活的工程外壳(含系统提示词、工具、权限控制),Boris 称 Claude Code 本身就是为 Claude 构建的最好的 harness,每代模型都要重新调整。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            135.898,
+            140.461
+          ],
+          "quote": "And this really affects kind of harness design and agent design and product design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            218.95,
+            227.051
+          ],
+          "quote": "I think something that a lot of people might not realize is Claude Code as a product and as a harness is just always changing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            325.03,
+            334.313
+          ],
+          "quote": "I think the thing that's really fascinating in this era of building, basically, you have built the best harness in the world for Claude, and that's Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            381.4,
+            383.783
+          ],
+          "quote": "We delete code in the harness all the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            384.403,
+            391.551
+          ],
+          "quote": "If you look at actually the code that's in the Claude Code harness today, almost all of it is about safety and permissions and static analysis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            397.201,
+            411.755
+          ],
+          "quote": "Do you think this way of building a agentic product and harness and basically doing ablations every time there's a new model release, should everyone in this room that's building AI products basically do that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            549.303,
+            552.964
+          ],
+          "quote": "And you have to take the time to get to know it and then adjust the harness based on that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            600.665,
+            604.648
+          ],
+          "quote": "I think evals, they outlive the harness a little bit, but not by that much.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            794.906,
+            804.854
+          ],
+          "quote": "What if we get rid of all the scaffolding and just give the model the simplest possible harness so it can write an entire file at a time and build an entire feature?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "system-prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "系统提示词 (system prompt)",
+      "file": "系统提示词",
+      "primary": true,
+      "how_described": "本集核心话题:Opus 5 发布时团队用消融实验删掉了超过 80% 的系统提示词,因为其中的内容多是在纠正模型本应知道但不知道的行为。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            201.687,
+            208.388
+          ],
+          "quote": "Talking about a prompt injection, the other side of the coin is now the system prompt.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            211.829,
+            217.69
+          ],
+          "quote": "You actually deleted over 80% of the system prompt from Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            231.552,
+            241.519
+          ],
+          "quote": "Every time that a new model comes out, we delete a bunch of the system prompt, change a bunch of the system prompt, we change the set of tools all the time, we change the prompts for the tools all the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            259.529,
+            266.511
+          ],
+          "quote": "And a lot of the stuff in the system prompt was correcting for these behaviors that the model should have known, but it didn't.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            270.051,
+            272.832
+          ],
+          "quote": "So yeah, we deleted 80% of the system prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            277.523,
+            283.287
+          ],
+          "quote": "So when you run Claude Code, you can just do like dash dash system prompt and set whatever system prompt you want if you want to experiment with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            362.175,
+            369.201
+          ],
+          "quote": "And so what this means is you delete the entire system prompt, and then you bring it back line by line to figure out what is the impact of each individual line.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            440.789,
+            452.394
+          ],
+          "quote": "Let's talk a bit about how then you build this new prompt when there's a new model release, like for everyone in the room, everyone will want to try Opus 5 and they're going to press delete on their system prompt.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            452.575,
+            456.376
+          ],
+          "quote": "How do they go about rebuilding the system prompt?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            581.922,
+            589.587
+          ],
+          "quote": "So code and system prompt, if you want to build at the bleeding edge and have the most capability for models, you've got to delete those.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ablation",
+      "type": "concept",
+      "role": "concept",
+      "name": "消融实验 (ablation)",
+      "file": "消融实验",
+      "primary": true,
+      "how_described": "本集说这是团队每次新模型发布的方法:把整个系统提示词删掉,再一行一行加回来,评估每一行的实际影响;本质上是一种通过删除来评估的 eval。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            300.232,
+            305.274
+          ],
+          "quote": "And we actually use this as a sort of ablation to figure out, is the prompt useful?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            357.211,
+            361.635
+          ],
+          "quote": "So every time there's a new model, we try, in research, we call this ablation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            370.222,
+            377.229
+          ],
+          "quote": "It's sort of like an eval, and you can kind of like evaluate it, and the ablation, essentially, it's an eval, but you delete things to figure out the impact.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估集 (eval)",
+      "file": "评估集",
+      "primary": true,
+      "how_described": "本集说 eval 是构建中相对稳定的部分,要不断追加;但模型提升太快,eval 常被打满饱和只好扔掉再造,一个 eval 大概存活一到三代模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            370.222,
+            377.229
+          ],
+          "quote": "It's sort of like an eval, and you can kind of like evaluate it, and the ablation, essentially, it's an eval, but you delete things to figure out the impact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            576.979,
+            578.8
+          ],
+          "quote": "We do until we max out the eval.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            605.049,
+            608.632
+          ],
+          "quote": "Like an eval might live for maybe one, two, three model generations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            614.176,
+            618.78
+          ],
+          "quote": "Very often we just saturate the eval and then we have to throw it away and we have to come up with a new eval.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "product-overhang",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品悬置 (product overhang)",
+      "file": "产品悬置",
+      "primary": true,
+      "how_described": "本集说这是 Boris 最想传播的概念:今天的模型已能做到很多事,只是还没有产品让它表达出来;与产品碍事的 hobbling 是同一件事的两面,Claude Code 的诞生就是解开当时的悬置。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            661.106,
+            663.767
+          ],
+          "quote": "And it's called product overhang.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            720.352,
+            724.533
+          ],
+          "quote": "And then not eliciting the correct behavior from the model, we call this product overhang.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            807.936,
+            809.516
+          ],
+          "quote": "Like that was the product overhang at the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            814.338,
+            821.48
+          ],
+          "quote": "I think that nowadays with modern models, there is so much product overhang that I'm not seeing startups capture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            884.698,
+            887.54
+          ],
+          "quote": "Fixing this product overhang.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1098.655,
+            1101.095
+          ],
+          "quote": "I would give a second example of product overhang.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hobbling",
+      "type": "concept",
+      "role": "concept",
+      "name": "hobbling(束缚) (hobbling)",
+      "file": "hobbling(束缚)",
+      "primary": true,
+      "how_described": "本集把它说成模型本来能做某件事、而产品只是碍事的状态;当时的编码产品只做自动补全和不带写权限的聊天,把 Sonnet 3.5 的能力压住了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            647.16,
+            653.123
+          ],
+          "quote": "Yeah, so hobbling is this idea in a research that the model is doing something and you're just getting in the way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            718.01,
+            720.051
+          ],
+          "quote": "And this getting in the way, we call this hobbling.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的主线之一:Boris 介绍用动态工作流编排成百上千个智能体、每天数百到数千个智能体在维护代码库,做着几十甚至上百名工程师的工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            135.898,
+            140.461
+          ],
+          "quote": "And this really affects kind of harness design and agent design and product design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            765.844,
+            768.886
+          ],
+          "quote": "So you can talk to the agent, but it wasn't write access.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1550.15,
+            1551.771
+          ],
+          "quote": "And it doesn't just do one agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dynamic-workflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "动态工作流 (dynamic workflow)",
+      "file": "动态工作流",
+      "primary": true,
+      "how_described": "本集说这是 Claude Code 相当新的功能,说一句 use a workflow 就触发;用 Bun 作沙箱启动虚拟机,让 Claude 分批编排大量智能体,Boris 称之为编排测试时算力的新维度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 228,
+          "t": [
+            1049.906,
+            1051.127
+          ],
+          "quote": "It was a dynamic workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1534.891,
+            1536.672
+          ],
+          "quote": "And then Claude will just trigger the dynamic workflow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1537.052,
+            1541.314
+          ],
+          "quote": "What a dynamic workflow is, is essentially we have the BUN runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1673.993,
+            1679.137
+          ],
+          "quote": "And this is like slightly different because for a dynamic workflow, it's one task and you break it up into chunks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说动态工作流的原理是用 Bun 运行时作沙箱,在里面启动虚拟机、编排大量智能体干活。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 381,
+          "t": [
+            1542.094,
+            1543.795
+          ],
+          "quote": "We use BUN as a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1601.599,
+            1611.105
+          ],
+          "quote": "And Claude has different tools in order to orchestrate these agents inside of the sandbox to use tokens efficiently to do really, really complex work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "test-time-compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试时算力 (test time compute)",
+      "file": "测试时算力",
+      "primary": true,
+      "how_described": "本集说模型智能历史上是网络规模、数据量、训练 flops 的函数,后来加了生成 token 数,而动态工作流是一种新形式的编排测试时算力的方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 397,
+          "t": [
+            1616.889,
+            1619.011
+          ],
+          "quote": "Like this is actually like a new form of test time compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1633.283,
+            1635.865
+          ],
+          "quote": "And then recently, we also added test time compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1641.568,
+            1646.811
+          ],
+          "quote": "And now, dynamic workflows are essentially a new way to orchestrate test time compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1647.412,
+            1653.075
+          ],
+          "quote": "And it's a new way to kind of really, really ramp up the amount of test time compute that you use to do a really hard task.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证 (verification)",
+      "file": "验证",
+      "primary": true,
+      "how_described": "本集说这是大多数人没做对的最重要的事:给模型一种验证自己工作产出的方式(逐像素对比、测试套件),它就会不停做下去,跑了两个多星期的重写任务就是例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 287,
+          "t": [
+            1229.45,
+            1235.934
+          ],
+          "quote": "And the verification, I think, is probably the single most important thing that people do not get right, largely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1853.826,
+            1859.347
+          ],
+          "quote": "There's really kind of in the weeds UI verification, like something is off by Pixar or something, but it's still not perfect at this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集说 Opus 5 似乎不再能被提示词注入:结合对齐良好的模型、提示词注入分类器和 auto 模式分类器三层,已无法演示出提示词注入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            172.635,
+            175.877
+          ],
+          "quote": "With a prompt injection classifier, which we run for all traffic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            176.417,
+            186.963
+          ],
+          "quote": "And what this is doing is it's based on Chrysola's mechanistic interpretability work, where it's literally, we're looking at neurons in the model's brain that light up when prompt injection happens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            196.489,
+            201.352
+          ],
+          "quote": "And with these three layers, we just cannot demonstrate prompt injection anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            201.687,
+            208.388
+          ],
+          "quote": "Talking about a prompt injection, the other side of the coin is now the system prompt.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bun",
+      "type": "company",
+      "role": "company",
+      "name": "Bun",
+      "file": "Bun",
+      "primary": true,
+      "how_described": "本集说 Claude Code 构建在 Bun 这个开源 JavaScript 运行时之上,Bun 团队让 Claude 做模糊测试找内存泄漏,最后用一个动态工作流在 11 天里把它从 Zig 重写成 Rust 并已上生产。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            962.499,
+            967.78
+          ],
+          "quote": "So one example of this is Claude Code is built on the Bun JavaScript Runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            973.302,
+            974.362
+          ],
+          "quote": "Bun was written in Zig.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1036.563,
+            1039.065
+          ],
+          "quote": "The nice thing about Bun is it's very, very well tested.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1039.085,
+            1041.587
+          ],
+          "quote": "There's a big test suite in Bun, there's a big test suite in Node.js.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1537.052,
+            1541.314
+          ],
+          "quote": "What a dynamic workflow is, is essentially we have the BUN runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1542.094,
+            1543.795
+          ],
+          "quote": "We use BUN as a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1544.055,
+            1545.656
+          ],
+          "quote": "And we start a virtual machine within BUN.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sonnet-3-5",
+      "type": "concept",
+      "role": "concept",
+      "name": "Sonnet 3.5",
+      "file": "Sonnet 3.5",
+      "primary": false,
+      "how_described": "本集提到它是 Claude Code 立项时最强的编码模型,能一次写整个函数、整个文件,但被当时的编码产品压着,Claude Code 通过解绑它而诞生。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 181,
+          "t": [
+            850.216,
+            854.26
+          ],
+          "quote": "You unhubble Sonnet 3.5 because all the previous...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "opencv",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenCV",
+      "file": "OpenCV",
+      "primary": false,
+      "how_described": "本集提到给 Opus 5 OpenCV 让它画图,能画出肖像、动物、风景,成为 Anthropic 内部病毒式传播的发现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 258,
+          "t": [
+            1126.929,
+            1137.568
+          ],
+          "quote": "So something that's actually been really popular internally that's been kind of viral within Anthropic the last couple of weeks is someone figured out that you can give Opus 5 OpenCV and you can have a draw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1138.793,
+            1142.557
+          ],
+          "quote": "And so something you can do is you can ask Opus, like, hey, use OpenCV to, like, draw this image.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "electron",
+      "type": "concept",
+      "role": "concept",
+      "name": "Electron",
+      "file": "Electron",
+      "primary": false,
+      "how_described": "本集提到 Claude 桌面应用用 Electron 构建,Boris 用 Claude 把它重写成 Swift 原生版并逐像素对比验证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            1243.248,
+            1244.468
+          ],
+          "quote": "And it's built using Electron.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1293.408,
+            1300.392
+          ],
+          "quote": "And then I was like, OK, now what I want you to do is I want you to rewrite the Electron app in Swift.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1302.166,
+            1311.828
+          ],
+          "quote": "I want you to run the Electron app in the Mac virtual machine, screenshot it, and then look pixel by pixel, compare it to the Swift version.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

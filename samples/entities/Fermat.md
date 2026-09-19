@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sam Motamity]] · [[Rishabh Jain]] · [[LiveRamp]] · [[Facebook]] · [[ATT]] · [[闭环]] · [[零售媒体网络]] · [[生成式 AI]] · [[传统 AI]] · [[客户旅程]]
 
-<script type="application/json" class="pd-epn">{"Sam Motamity":1,"Rishabh Jain":1,"LiveRamp":1,"Facebook":14,"ATT":1,"闭环":2,"零售媒体网络":1,"生成式 AI":2,"传统 AI":1,"客户旅程":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Motamity":1,"Rishabh Jain":1,"LiveRamp":1,"Facebook":15,"ATT":1,"闭环":2,"零售媒体网络":1,"生成式 AI":2,"传统 AI":1,"客户旅程":1}</script>
 
 <script>
 (function(){

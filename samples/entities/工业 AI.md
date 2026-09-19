@@ -29,7 +29,7 @@ unlisted: true
 
 [[Travis Kalanick]] · [[物理 AI]] · [[Atoms]] · [[Pronto]] · [[自主性]] · [[Ben Horowitz]] · [[套件]] · [[Daniel Whitenack]] · [[Uber]] · [[线控驾驶]]
 
-<script type="application/json" class="pd-epn">{"Travis Kalanick":2,"物理 AI":7,"Atoms":2,"Pronto":2,"自主性":7,"Ben Horowitz":4,"套件":1,"Daniel Whitenack":7,"Uber":9,"线控驾驶":1}</script>
+<script type="application/json" class="pd-epn">{"Travis Kalanick":2,"物理 AI":8,"Atoms":2,"Pronto":2,"自主性":7,"Ben Horowitz":4,"套件":1,"Daniel Whitenack":7,"Uber":9,"线控驾驶":1}</script>
 
 <script>
 (function(){

@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Horowitz":4,"OpenAI":122,"Stripe":32,"Astra":2,"ChatGPT":71,"Codex":51,"AGI":23,"计算机使用":12,"对齐":7,"沙箱":52}</script>
+<script type="application/json" class="pd-epn">{"Ben Horowitz":4,"OpenAI":122,"Stripe":32,"Astra":2,"ChatGPT":72,"Codex":51,"AGI":24,"计算机使用":12,"对齐":7,"沙箱":53}</script>
 
 <script>
 (function(){

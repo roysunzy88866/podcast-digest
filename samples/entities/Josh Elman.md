@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oli Forsyth":1,"Andreessen Horowitz":2,"ChatGPT":71,"智能体":272,"信任建立":3,"微短剧":1,"推理":48,"网络效应":12,"语音":1,"Discord":4}</script>
+<script type="application/json" class="pd-epn">{"Oli Forsyth":1,"Andreessen Horowitz":2,"ChatGPT":72,"智能体":273,"信任建立":3,"微短剧":1,"推理":48,"网络效应":12,"语音":1,"Discord":4}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[YC]] · [[Apten]] · [[LinkedIn]] · [[外呼开发]] · [[创始人主导的销售]] · [[定向]] · [[意向信号]] · [[回复率]] · [[分手信]] · [[产品市场契合]]
 
-<script type="application/json" class="pd-epn">{"YC":13,"Apten":1,"LinkedIn":4,"外呼开发":1,"创始人主导的销售":1,"定向":1,"意向信号":1,"回复率":1,"分手信":1,"产品市场契合":20}</script>
+<script type="application/json" class="pd-epn">{"YC":14,"Apten":1,"LinkedIn":4,"外呼开发":1,"创始人主导的销售":1,"定向":1,"意向信号":1,"回复率":1,"分手信":1,"产品市场契合":21}</script>
 
 <script>
 (function(){

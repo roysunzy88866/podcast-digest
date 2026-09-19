@@ -147,7 +147,7 @@ Gray Swan 已经在跟这类机构合作,保险公司用 Shade 这样的工具�
 
 - [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同概念:护栏 (guardrails)、提示词注入 (prompt injection)、智能体 (agent)、Codex</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic · 同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|别再微管理 Claude:Claude Code 造物主的智能体实战心法]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、Cloud Code</span>
+- [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同公司:Anthropic · 同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>

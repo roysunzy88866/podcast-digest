@@ -149,9 +149,9 @@ Thariq 坦言工具本身不是核心卡点,难点在于构建高质量评估所
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同公司:Anthropic · 同概念:Bun、Claude Code、提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、系统提示词 (system prompt)、评估 (eval)</span>
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同概念:Claude Code、Slack、智能体 (agent)、沙箱 (sandbox)、GitHub</span>
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]]<span class="pd-rz">同公司:Anthropic · 同概念:Fable、提示词 (prompt)、智能体 (agent)</span>
-- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|别再微管理 Claude:Claude Code 造物主的智能体实战心法]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、系统提示词 (system prompt)</span>
 
 </div>
 <div class="pd-ex">

@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Rishabh Jain":1,"Fermat":1,"LiveRamp":1,"Facebook":14,"ATT":1,"闭环":2,"零售媒体网络":1,"生成式 AI":2,"传统 AI":1,"客户旅程":1}</script>
+<script type="application/json" class="pd-epn">{"Rishabh Jain":1,"Fermat":1,"LiveRamp":1,"Facebook":15,"ATT":1,"闭环":2,"零售媒体网络":1,"生成式 AI":2,"传统 AI":1,"客户旅程":1}</script>
 
 <script>
 (function(){

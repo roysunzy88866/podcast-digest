@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Laurent":1,"Alan":1,"Mistral":6,"Stripe":32,"OpenAI":122,"智能体":272,"Mo":1,"彻底透明":1,"Shasterton 障碍":1,"GPT-3":3}</script>
+<script type="application/json" class="pd-epn">{"Laurent":1,"Alan":1,"Mistral":6,"Stripe":32,"OpenAI":122,"智能体":273,"Mo":1,"彻底透明":1,"Shasterton 障碍":1,"GPT-3":3}</script>
 
 <script>
 (function(){

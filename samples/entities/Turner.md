@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":5,"Path Robotics":1,"LLM":34,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":20,"第一性原理":5}</script>
+<script type="application/json" class="pd-epn">{"Chris Olsen":1,"Sequoia":5,"Path Robotics":1,"LLM":35,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":21,"第一性原理":5}</script>
 
 <script>
 (function(){

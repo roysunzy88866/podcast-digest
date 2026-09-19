@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sonnet 3.5</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Sonnet 3.5">SO</div><div class="pi"><h1 class="pt">Sonnet 3.5</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Sonnet 3.5">SO</div><div class="pi"><h1 class="pt">Sonnet 3.5</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]]**(00:54起):本集把它说成:第一个在代码库上下文中足够一致可靠的「工具调用时代」模型。
+- **[[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|《Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停》]]**(14:10起):本集提到它是 Claude Code 立项时最强的编码模型,能一次写整个函数、整个文件,但被当时的编码产品压着,Claude Code 通过解绑它而诞生。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为概念
+- [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|《Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Theo Browne]] · [[Opus 4.5]] · [[Mythos]] · [[编排]] · [[拟物化]] · [[沉没成本心态]] · [[AWS]] · [[Vercel]] · [[Reddit]] · [[Slack]]
+[[Theo Browne]] · [[Boris Cherny]] · [[Opus 4.5]] · [[Claude Code]] · [[Mythos]] · [[Anthropic]] · [[编排]] · [[Opus 5]] · [[拟物化]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"Theo Browne":1,"Opus 4.5":2,"Mythos":3,"编排":5,"拟物化":1,"沉没成本心态":1,"AWS":13,"Vercel":17,"Reddit":6,"Slack":26}</script>
+<script type="application/json" class="pd-epn">{"Theo Browne":1,"Boris Cherny":3,"Opus 4.5":2,"Claude Code":64,"Mythos":3,"Anthropic":130,"编排":5,"Opus 5":4,"拟物化":1,"harness":40}</script>
 
 <script>
 (function(){

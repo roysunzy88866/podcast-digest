@@ -9,14 +9,14 @@ cover: "#64748b"
 image: "/covers/2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7.jpg"
 description: "从删掉八成系统提示词到用一句指令指挥数千个智能体跑两周,Opus 5 时代的编程范式已全然翻新。"
 host: "[[Boris Cherny]]"
-concepts: ["[[Cloud Code]]", "[[Opus 5]]", "[[智能体]]", "[[提示词注入]]", "[[系统提示词]]", "[[产品冗余]]", "[[动态工作流]]", "[[测试时计算]]", "[[消融]]", "[[例程]]", "[[实证心态]]", "[[验证]]", "[[Bunn]]", "[[沙箱]]"]
+concepts: ["[[Cloud Code]]", "[[Opus 5]]", "[[智能体]]", "[[提示词注入]]", "[[系统提示词]]", "[[产品悬置]]", "[[动态工作流]]", "[[测试时计算]]", "[[消融实验]]", "[[例程]]", "[[实证心态]]", "[[验证]]", "[[Bunn]]", "[[沙箱]]"]
 category: AI 编程
 tags:
   - AI 编程
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7#post","headline":"别再微管理 Claude:Claude Code 造物主的智能体实战心法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7","mainEntityOfPage":"https://talk.solomind.cc/2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7","description":"从删掉八成系统提示词到用一句指令指挥数千个智能体跑两周,Opus 5 时代的编程范式已全然翻新。","datePublished":"2026-07-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7.jpg","about":[{"@type":"Person","name":"Boris Cherny"},{"@type":"Thing","name":"Cloud Code"},{"@type":"Thing","name":"Opus 5"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"提示词注入 (prompt injection)"},{"@type":"Thing","name":"系统提示词 (system prompt)"},{"@type":"Thing","name":"产品冗余 (product overhang)"},{"@type":"Thing","name":"动态工作流 (dynamic workflows)"},{"@type":"Thing","name":"测试时计算 (test time compute)"},{"@type":"Thing","name":"消融 (ablation)"},{"@type":"Thing","name":"例程 (routines)"},{"@type":"Thing","name":"实证心态 (empirical)"},{"@type":"Thing","name":"验证 (verification)"},{"@type":"Thing","name":"Bunn"},{"@type":"Thing","name":"沙箱 (sandbox)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"别再微管理 Claude:Claude Code 造物主的智能体实战心法","item":"https://talk.solomind.cc/2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7#post","headline":"别再微管理 Claude:Claude Code 造物主的智能体实战心法","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7","mainEntityOfPage":"https://talk.solomind.cc/2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7","description":"从删掉八成系统提示词到用一句指令指挥数千个智能体跑两周,Opus 5 时代的编程范式已全然翻新。","datePublished":"2026-07-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7.jpg","about":[{"@type":"Person","name":"Boris Cherny"},{"@type":"Thing","name":"Cloud Code"},{"@type":"Thing","name":"Opus 5"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"提示词注入 (prompt injection)"},{"@type":"Thing","name":"系统提示词 (system prompt)"},{"@type":"Thing","name":"产品悬置 (product overhang)"},{"@type":"Thing","name":"动态工作流 (dynamic workflows)"},{"@type":"Thing","name":"测试时计算 (test time compute)"},{"@type":"Thing","name":"消融实验 (ablation)"},{"@type":"Thing","name":"例程 (routines)"},{"@type":"Thing","name":"实证心态 (empirical)"},{"@type":"Thing","name":"验证 (verification)"},{"@type":"Thing","name":"Bunn"},{"@type":"Thing","name":"沙箱 (sandbox)"}],"articleSection":"AI 编程"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 编程","item":"https://talk.solomind.cc/tags/AI 编程"},{"@type":"ListItem","position":3,"name":"别再微管理 Claude:Claude Code 造物主的智能体实战心法","item":"https://talk.solomind.cc/2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别再微管理 Claude:Claude Code 造物主的智能体实战心法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -32,7 +32,7 @@ jsonLd: |
 > [!info] 关联
 > **人物** [[Boris Cherny]]
 >
-> **概念** [[Cloud Code]] · [[Opus 5]] · [[智能体]] · [[提示词注入]] · [[系统提示词]] · [[产品冗余]] · [[动态工作流]] · [[测试时计算]] · [[消融]] · [[例程]] · [[实证心态]] · [[验证]] · [[Bunn]] · [[沙箱]]
+> **概念** [[Cloud Code]] · [[Opus 5]] · [[智能体]] · [[提示词注入]] · [[系统提示词]] · [[产品悬置]] · [[动态工作流]] · [[测试时计算]] · [[消融实验]] · [[例程]] · [[实证心态]] · [[验证]] · [[Bunn]] · [[沙箱]]
 
 把十几万行代码、整个底层运行时从一种语言换写成另一种语言,最顶尖的工程师要干一年多——Boris 的团队靠 Claude 给出一句指令,让它自己跑了十一天就干完了,而且已经上线。说这话的人是 Boris,Claude Code 就是他造的。
 
@@ -48,7 +48,7 @@ Boris 说,配上 Auto Mode,它可以连跑几天、几周甚至几个月不停,�
 
 原因很简单:以前塞进提示词里的东西,多半是在打补丁,纠正模型本来该懂却不懂的行为。现在 Opus 5 本身变聪明了,补丁不仅没用,反而碍事。他们甚至做了个内部叫 simple mode 的实验功能,把所有提示词全删光去跑,发现模型反而表现得更聪明一点——当然,作为给普通用户用的产品,有些提示词还是得留着,好让它更符合人的使用习惯。
 
-这种删了再加的思路,不只用在提示词上,整套工具和代码他们都一直在删删改改。他们用研究里叫 ablation([[消融|消融]]实验:把系统里某部分去掉,看它对整体的影响)的方法,把整个系统提示词删光,再一行行加回来,看每一行到底有没有用。他们的建议很直接:做智能体产品的人,每次新模型一发布,就得敢于全删重来;普通用户用 Claude Code,也得每六个月把旧的配置全删了,看看光靠新模型自己能干到什么地步。
+这种删了再加的思路,不只用在提示词上,整套工具和代码他们都一直在删删改改。他们用研究里叫 ablation([[消融实验|消融]]实验:把系统里某部分去掉,看它对整体的影响)的方法,把整个系统提示词删光,再一行行加回来,看每一行到底有没有用。他们的建议很直接:做智能体产品的人,每次新模型一发布,就得敢于全删重来;普通用户用 Claude Code,也得每六个月把旧的配置全删了,看看光靠新模型自己能干到什么地步。
 
 旧代码删了,该怎么重建?这就要换一套全新的干活思路了。
 
@@ -58,7 +58,7 @@ Boris 说,别一上来就去猜模型需要什么指令。先删,再用。
 
 它每一代都有自己的脾气,你得花时间观察它,用做科学实验一样的心态去试错、看结果、再调整。连评估集他们都是攒着用,直到模型把某项测试刷到满分、测不出差距了就扔掉换新的。
 
-顺着这个思路,Boris 抛出了他认为当下最大的机会所在,他管它叫 product overhang([[产品冗余|产品冗余]]:模型明明已经具备了某种能力,却因为现有产品的形式太死板,没法把这个能力真正用出来)。他说,模型今天能做到的,远比大家意识到得多。
+顺着这个思路,Boris 抛出了他认为当下最大的机会所在,他管它叫 product overhang([[产品悬置|产品冗余]]:模型明明已经具备了某种能力,却因为现有产品的形式太死板,没法把这个能力真正用出来)。他说,模型今天能做到的,远比大家意识到得多。
 
 一两年前做 Claude Code 的起点就是这个:当时最好的同类产品还在做单行代码补全、做个只能读不能写的对话框,而 Sonnet 3.5(Anthropic 当时推出的模型)其实已经能写整个文件了。他做的,就是给模型一个终端的完整权限,把手脚放开,产品就成了。
 
@@ -136,9 +136,9 @@ Boris 的老本是函数式编程,他把这套机制设计成了一套智能体�
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同概念:Opus 5、产品冗余 (product overhang)、提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、测试时计算 (test time compute)、消融 (ablation)、系统提示 (system prompt)、验证 (verification)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、系统提示 (system prompt)</span>
 - [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同概念:提示词注入 (prompt injection)、智能体 (agent)、测试时计算 (test time compute)</span>
-- [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

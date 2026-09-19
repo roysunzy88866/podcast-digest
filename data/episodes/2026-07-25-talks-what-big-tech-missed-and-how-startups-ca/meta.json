@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-25-talks-what-big-tech-missed-and-how-startups-ca",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/FVsgX0AdDTo.m4a",
+  "duration_sec": 1742.991,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 390,
+  "asr": true,
+  "title_en": "What Big Tech Missed And How Startups Can Still Win",
+  "podcast": "精选演讲",
+  "date": "2026-07-25",
+  "added": "2026-09-20",
+  "added_at": "2026-09-19T20:09:26.040Z",
+  "speaker_map": {
+    "SPEAKER_00": "Alex"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Alex",
+  "cohosts": [],
+  "title_zh": "不做 LLM，做世界模型：Alex 的 12 亿美元豪赌",
+  "guest_name": "Alex",
+  "guest_title": "AMI 联合创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

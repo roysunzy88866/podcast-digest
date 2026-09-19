@@ -102,8 +102,8 @@ Claire 的总结很精辟：Opus 5 是她最讨厌的同事，但干的活最好
 **顺着「智能体」挖下去**
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、Claude、Codex、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同公司:Anthropic、Opus 5、Claude Code · 同概念:智能体 (agent)</span>
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Anthropic、Claude · 同概念:智能体 (agent)</span>
-- [[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录]]<span class="pd-rz">同公司:Anthropic、Claude · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

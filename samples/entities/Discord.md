@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Codex]] · [[Twitter]] · [[MCP]] · [[ChatGPT]] · [[护栏]] · [[OpenClaw]] · [[Zico Kolter]] · [[Meng To]] · [[Josh Elman]]
 
-<script type="application/json" class="pd-epn">{"智能体":272,"Codex":51,"Twitter":7,"MCP":45,"ChatGPT":71,"护栏":50,"OpenClaw":18,"Zico Kolter":1,"Meng To":1,"Josh Elman":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":273,"Codex":51,"Twitter":7,"MCP":45,"ChatGPT":72,"护栏":50,"OpenClaw":18,"Zico Kolter":1,"Meng To":1,"Josh Elman":1}</script>
 
 <script>
 (function(){

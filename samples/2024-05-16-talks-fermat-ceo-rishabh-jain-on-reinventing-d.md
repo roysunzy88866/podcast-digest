@@ -120,7 +120,7 @@ Fermat 几乎不跟客户谈 AI。他的信念是：客户只想让问题被解�
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:Facebook、ChatGPT</span>
 - [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|Gamma 联创复盘：押注空白页，赌出一亿用户]]<span class="pd-rz">同概念:生成式 AI (generative AI)</span>
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆]]<span class="pd-rz">同概念:生成式 AI (generative AI)</span>
+- [[2026-07-25-talks-what-big-tech-missed-and-how-startups-ca|不做 LLM，做世界模型：Alex 的 12 亿美元豪赌]]<span class="pd-rz">同公司:Facebook</span>
 
 </div>
 <div class="pd-ex">

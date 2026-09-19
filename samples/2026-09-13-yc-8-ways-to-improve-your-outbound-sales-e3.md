@@ -197,9 +197,9 @@ jsonLd: |
 
 **顺着「增长与销售」挖下去**
 
+- [[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi|从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年]]<span class="pd-rz">同公司:YC · 同概念:产品市场匹配 (product market fit)</span>
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:LinkedIn</span>
 - [[2026-07-09-yc-how-to-better-understand-your-users-e3ls|点图：看透单个用户行为的可视化工具]]<span class="pd-rz">同公司:YC</span>
-- [[2026-07-20-pmf-1st-time-solo-founder-does-90-interviews|90 天 90 场访谈：一个 Solo Founder 的两年 2500 万之路]]<span class="pd-rz">同概念:产品市场匹配 (product market fit)</span>
 
 </div>
 <div class="pd-ex">

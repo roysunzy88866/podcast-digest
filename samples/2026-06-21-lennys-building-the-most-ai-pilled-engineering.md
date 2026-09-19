@@ -118,7 +118,7 @@ Fiona 自己在 Meta 管过 500 人的大组织，但刚加入 Anthropic 时，�
 
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、潜在需求 (latent demand)</span>
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、Co-Work、智能体 (agent)</span>
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic、Slack · 同概念:Claude Code、智能体 (agent)</span>
+- [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、验证 (verification)</span>
 
 </div>
 </div>

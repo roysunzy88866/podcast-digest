@@ -1,31 +1,61 @@
 ---
-title: 产品冗余 (product overhang)
-entity_type: 概念
+title: Eric Landau
+entity_type: 人物
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>产品冗余 (product overhang)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Eric Landau</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="产品冗余">产品</div><div class="pi"><h1 class="pt">产品冗余 (product overhang)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Eric Landau">ER</div><div class="pi"><h1 class="pt">Eric Landau</h1><div class="byl">精选演讲 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
-## 集里怎么说它
+## ① 他说过的话
 
-- **[[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|《别再微管理 Claude:Claude Code 造物主的智能体实战心法》]]**(11:23起):本集把它说成:模型在今天就已经具备了超乎想象的能力,但往往没有合适的产品让它发挥出来,甚至现有的产品/死板指令反而成了阻碍(束缚),错失了大量商业价值与机会。
+*11 条*
+
+![[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi#^q1]]
+
+![[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi#^q2]]
+
+![[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi#^q3]]
+
+![[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi#^q4]]
+
+![[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi#^q5]]
+
+![[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi#^q6]]
+
+![[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi#^q7]]
+
+![[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi#^q8]]
+
+![[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi#^q9]]
+
+![[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi#^q10]]
+
+![[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi#^q12]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|《别再微管理 Claude:Claude Code 造物主的智能体实战心法》]] — 作为概念
+- [[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi|《从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年》]] — 作为主持
 
-## ③ 关联
+## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Boris Cherny]] · [[Cloud Code]] · [[Opus 5]] · [[智能体]] · [[提示词注入]] · [[系统提示词]] · [[动态工作流]] · [[测试时计算]] · [[消融]] · [[例程]]
+[[Anchored]] · [[物理 AI]] · [[多模态]] · [[苦涩的教训]] · [[产品市场契合]] · [[机器学习]] · [[数据标注]] · [[ChatGPT]] · [[Gong]] · [[YC]]
 
-<script type="application/json" class="pd-epn">{"Boris Cherny":2,"Cloud Code":3,"Opus 5":3,"智能体":272,"提示词注入":12,"系统提示词":5,"动态工作流":2,"测试时计算":3,"消融":1,"例程":1}</script>
+## ④ 也在聊「创业与行业」的人
+
+<div class="pd-peers">
+
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
+
+</div>
+
+<script type="application/json" class="pd-epn">{"Anchored":1,"物理 AI":8,"多模态":5,"苦涩的教训":8,"产品市场契合":21,"机器学习":3,"数据标注":1,"ChatGPT":72,"Gong":2,"YC":14}</script>
 
 <script>
 (function(){

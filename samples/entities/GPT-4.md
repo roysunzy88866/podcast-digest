@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPT-4</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GPT-4">GP</div><div class="pi"><h1 class="pt">GPT-4</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GPT-4">GP</div><div class="pi"><h1 class="pt">GPT-4</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]]**(22:59起):本集引用数据:自 GPT-4 模型家族发布以来,每 token 价格已下降近 90%——过去要 11 年的降价幅度现在几个月就发生,说明商业模式窗口变化极快。
 - **[[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|《Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注》]]**(00:17起):Harvey 的起点:OpenAI 给他们看了还没公开的 GPT-4 预览,Winston 拿它尝试自己做律师时干过的任务、摸索出思维链等提示词技巧,让团队确信产品就是模型本身。
+- **[[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi|《从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年》]]**(14:39起):本集说 Anchored 处理的数据比据他们所知训练 GPT-4 所用的数据还要多。
 
 ## ① 提到它的金句
 
@@ -22,18 +23,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|《Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注》]] — 作为概念
+- [[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi|《从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Sal Motamini]] · [[Gabe]] · [[Alvaro Morales]] · [[Harvey]] · [[Orb]] · [[工作流]] · [[Asana]] · [[评估]]
+[[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Sal Motamini]] · [[Gabe]] · [[Eric Landau]] · [[Alvaro Morales]] · [[Harvey]] · [[Anchored]] · [[Orb]]
 
-<script type="application/json" class="pd-epn">{"智能体":272,"OpenAI":122,"Sal Motamini":1,"Gabe":2,"Alvaro Morales":1,"Harvey":12,"Orb":1,"工作流":8,"Asana":2,"评估":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":273,"OpenAI":122,"ChatGPT":72,"Sal Motamini":1,"Gabe":2,"Eric Landau":1,"Alvaro Morales":1,"Harvey":12,"Anchored":1,"Orb":1}</script>
 
 <script>
 (function(){

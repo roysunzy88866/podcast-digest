@@ -1,0 +1,104 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "08:02",
+      "speaker": "Alex",
+      "trimmed": false,
+      "tsWas": "08:02",
+      "spkWas": "Alex"
+    },
+    {
+      "i": 2,
+      "timestamp": "08:33",
+      "speaker": "Alex",
+      "trimmed": false,
+      "tsWas": "08:33",
+      "spkWas": "Alex"
+    },
+    {
+      "i": 3,
+      "timestamp": "10:31",
+      "speaker": "Alex",
+      "trimmed": false,
+      "tsWas": "10:31",
+      "spkWas": "Alex"
+    },
+    {
+      "i": 4,
+      "timestamp": "10:51",
+      "speaker": "Alex",
+      "trimmed": false,
+      "tsWas": "10:51",
+      "spkWas": "Alex"
+    },
+    {
+      "i": 5,
+      "timestamp": "13:59",
+      "speaker": "Alex",
+      "trimmed": false,
+      "tsWas": "13:59",
+      "spkWas": "Alex"
+    },
+    {
+      "i": 6,
+      "timestamp": "16:50",
+      "speaker": "Alex",
+      "trimmed": false,
+      "tsWas": "16:50",
+      "spkWas": "Alex"
+    },
+    {
+      "i": 7,
+      "timestamp": "18:06",
+      "speaker": "Alex",
+      "trimmed": false,
+      "tsWas": "18:06",
+      "spkWas": "Alex"
+    },
+    {
+      "i": 10,
+      "timestamp": "22:23",
+      "speaker": "Alex",
+      "trimmed": false,
+      "tsWas": "22:23",
+      "spkWas": "Alex"
+    },
+    {
+      "i": 11,
+      "timestamp": "26:06",
+      "speaker": "Alex",
+      "trimmed": false,
+      "tsWas": "26:06",
+      "spkWas": "Alex"
+    },
+    {
+      "i": 12,
+      "timestamp": "27:25",
+      "speaker": "Alex",
+      "trimmed": false,
+      "tsWas": "27:25",
+      "spkWas": "Alex"
+    },
+    {
+      "i": 13,
+      "timestamp": "28:14",
+      "speaker": "Alex",
+      "trimmed": false,
+      "tsWas": "28:21",
+      "spkWas": "Alex"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 8,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "You know, there is a joke that it's like herding cats. You cannot tell researchers what to do. They hate that they will flee if you try."
+    },
+    {
+      "i": 9,
+      "reason": "命中片段跨说话人(占比0.71/连续他人7词,疑拼接)",
+      "en": "You should aim for billions, not millions. The difficulty doesn't depend on the amount, it depends on if it's your first time."
+    }
+  ]
+}

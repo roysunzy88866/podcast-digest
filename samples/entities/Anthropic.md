@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>129</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>130</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -63,6 +63,7 @@ unlisted: true
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(00:00起):本集讨论的 AI 公司，拥有 Claude 系列模型，嘉宾在其中担任 AI 研究和实验室团队的产品负责人，讲述了公司早期摸索与押注编码能力的发展历程。
 - **[[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|《Steven Sinofsky：AI监管为什么急不得》]]**(25:58起):本集说当 Anthropic 称'限制开源是打击中国的最好方式'时，真正受益的是 Anthropic 自己，因为被限制的不只是中国的开源模型，也包括美国的开源竞争对手
 - **[[2026-07-27-pmf-he-worked-out-of-a-police-department-for|《Peregrine 创始人：蹲点警局十八个月找 PMF》]]**(28:57起):本集主持人顺带提到，即使像 Anthropic 这样收入高速增长的公司，内部也并不轻松，用以说明'没有什么是容易的'。
+- **[[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|《Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停》]]**(12:28起):Boris 所在的公司、Claude 模型的打造者;本集多次提到 Anthropic 内部的发现(如给 Opus 5 OpenCV 画图)和让 Claude 维护自己代码库的例行任务。
 - **[[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]]**(00:00起):本集主线公司：Matt 主导投进的项目，其基础模型性能强劲、智能出众，开源方案难以取代；Matt 因主导该交易在 Menlo 内部备受赞誉
 - **[[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]]**(07:00起):本集提到：作为现有巨头之一被提及（嘉宾还聊到了一部关于 Anthropic CEO Dario 的 AI 微剧）
 - **[[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|《n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR》]]**(14:05起):本集说演示里的默认模型用 Claude,但「即便是 Anthropic 也不是 100% 可靠的」,所以要配 GPT 备用回退。
@@ -184,7 +185,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*129 集*
+*130 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -240,6 +241,7 @@ unlisted: true
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为被讨论公司
 - [[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|《Steven Sinofsky：AI监管为什么急不得》]] — 作为被讨论公司
 - [[2026-07-27-pmf-he-worked-out-of-a-police-department-for|《Peregrine 创始人：蹲点警局十八个月找 PMF》]] — 作为被讨论公司(提及)
+- [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|《Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停》]] — 作为被讨论公司
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]] — 作为被讨论公司
 - [[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]] — 作为被讨论公司(提及)
 - [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|《n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR》]] — 作为被讨论公司(提及)
@@ -322,7 +324,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[Claude]] · [[NVIDIA]] · [[推理]] · [[Lenny]] · [[Google]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":272,"OpenAI":122,"Claude Code":63,"Cursor":62,"Claude":60,"NVIDIA":39,"推理":48,"Lenny":67,"Google":45,"ChatGPT":71}</script>
+<script type="application/json" class="pd-epn">{"智能体":273,"OpenAI":122,"Claude Code":64,"Cursor":62,"Claude":60,"NVIDIA":39,"推理":48,"Lenny":67,"Google":45,"ChatGPT":72}</script>
 
 <script>
 (function(){

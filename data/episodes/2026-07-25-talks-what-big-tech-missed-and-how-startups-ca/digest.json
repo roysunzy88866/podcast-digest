@@ -1,0 +1,166 @@
+{
+  "title_zh": "不做 LLM，做世界模型：Alex 的 12 亿美元豪赌",
+  "tldr": "AMI 联合创始人 Alex 解释为什么 LLM 不会通向通用智能，以及他如何与 Yann Lequin 一起押注世界模型、完成欧洲史上最大种子轮。",
+  "digest_md": "这一集的对话里，一个连续创业者正在做他自称「有史以来最雄心勃勃」的事：不做大语言模型，而是做「世界模型」——为此融了 12 亿美元。主角是 Alex，他 2014 年和 hosts 同期进 YC，做的第一家公司 Wit.ai 是世界上第一个 .ai 域名，2015 年被 Facebook 收购（他说他收到的收购邀约邮件来自「一个叫 Mark Zuckerberg 的人」，他半秒就删了，以为是诈骗，半小时后才从垃圾邮件文件夹里翻出来）。之后他在 Meta 待了很多年，又创办了医疗 AI 公司 Nabla，今年 1 月创办 AMI，转向世界模型。\n\n先解释这个世界模型是什么。Alex 的核心论点是：LLM（大语言模型）学习的是人类写下的关于世界的文字——它像一个从来没出过门、几个世纪以来每天读遍所有书的人。这样的人看起来像很多领域的专家，但没有对世界的直接经验，常识有限，第一次面对某种情况时不知道该怎么办。「世界模型是一个我们不作弊的模型」——不用文本来学习，而是像人类和动物一样，直接从现实世界学习：视频、音频、感官数据、把玩物体，像婴儿一样从零开始、不带任何语言。训练数据主要是视频，因为最容易找到；音频也行，触觉数据则通过机器人来采集。\n\n那世界模型能做什么 LLM 做不到的事？短期最大的应用是机器人。Alex 说现在的机器人「非常非常笨」：硬件进化得令人难以置信，但大脑没有变——它们只能在固定位置做一件事，放进开放环境（你家、街上）既不安全也没用。至于当下流行的 VLA（用大语言模型直接驱动机器人的方案），他的评价很尖锐：「VLA 是一个非常糟糕的 hack：你有一把锤子，你有一个 LLM，然后你看什么都像钉子」——不精确、非常慢，而机器人需要极短延迟，还贵到离谱：你不可能为家里的机器人每天工作 24 小时支付 100 美元的算力。\n\n不过他并不否认 LLM 的地盘：语言、数学、编程这类「低维符号序列」问题，LLM 就是为它们设计的，「我认为在这些方面我们永远无法击败 LLM」。世界模型瞄准的是另一类问题——高维、嘈杂、长时程的问题，而且训练出来参数更少，推理更便宜。两者不是取代关系。他补充说，世界模型背后的部分理念（比如 JEPA）已经存在五到十年，就像 2018 年的 Transformer 论文——当时没人意识到它的威力，是 OpenAI 捡起来规模化才有了 ChatGPT。\n\n为什么这事轮到初创公司做？Alex 用自己在 Meta 的亲身经历回答：大公司有资源、有品牌，但缺一样东西——「做出疯狂事情的能力，去冒一些险。如果你一点险都不冒，你就死了，因为大公司比你资源多」。他举了个例子：他在 Meta 做的实验性聊天机器人第一次上线，问它「你今天怎么样」，它回答「就在放松，躺在我沙发上看黄片」。他知道法务团队绝不会放行，这个项目根本不可能发布。而 OpenAI 能用 GPT-1、2、3 冒这种险，所以是他们做出了 ChatGPT。\n\n至于「这是不是反共识押注」，Alex 说不算：「一年前也许算，但现在越来越不是了。」他观察到一个信号：当初承诺 AGI 的人改变了定义、不再使用这个术语——「我认为这是某件事行不通的好迹象」。目前公司需要的剩下两样是数据和算力：即使有钱， securing 算力如今也非常困难。\n\n他还有个秘密武器：联合创始人 Yann Lequin（AMI 的执行董事长，世界模型研究的提出者）正是他在 Nabla 的投资人和顾问。有一天 Yann 主动找他说：「我认为世界模型已经准备好变得非常大了，在 Meta 之外做会更快，我需要一个 CEO。」Alex 答应了，因为他自己早有这个信念——第一家公司做了 10 年客服聊天机器人，他的结论是「我们不能作弊」：机器可以谈论猫，但如果它从未见过、摸过、和猫玩过，「那它永远也不会非常非常聪明」。这就是所谓 grounding：你需要对事物有真实的经验才能变聪明。\n\n关于那笔 12 亿美元的种子轮（欧洲史上最大），Alex 有两句耐人寻味的话。找钱不难：「难度不取决于金额，取决于是不是你的第一次」——第一次融资很难，第二次容易，到第三次之后「人们会求着给你钱」。但真正的代价不是股权稀释，而是外部期望：投资人理解长期愿景，「但如果你融了 10 亿然后两年什么都不做，或者大家两年看不到任何产出，那你要活下来就非常、非常难」。另一个有意为之的选择：办公室在巴黎、纽约、蒙特利尔和新加坡——唯独没有旧金山。从旧金山大厂招人时要求对方搬到纽约，这像一种承诺筛选：「在这么早期的阶段，让人们带着真正的承诺加入，而不是只想试试，这非常重要」。\n\n给现场创业者的建议，他讲了个扎克伯格的故事：被 Facebook 收购一个月后，他想雇 100 名礼宾人员为真实客户订行程并记录全过程来训练模型。按规矩他提前 24 小时提交了备忘录（否则会议取消），准备了一肚子科学论证。结果扎克伯格说：「我喜欢这个想法，我们会杀死 Google，因为我们会捕获用户意图。我们雇 10,000 名礼宾员吧，不是 100 个。」Alex 反而得劝他别那么干——最后雇了 200 人。到今天他也不知道扎克伯格是真愿意雇一万人，还是用这种方式逼他说出项目真实的风险。他的结论：「人们起步时想得太小，试图找一个安全的想法。应该选一个非常窄的问题，但在这个窄通道里有非常大的愿景，并且不要害怕分享它」——如果你在一个非常宽的领域里雄心勃勃，你就没有可信度。\n\n## 本集带走\n- **LLM 与世界模型是分工而非替代**：语言、数学、编程等低维符号问题归 LLM；机器人等高维、嘈杂、长时程问题，世界模型理论上远优，且训练后参数更少、推理更便宜。\n- **VLA 被 Alex 判了「糟糕的 hack」**：不精确、延迟高、算力成本不可接受（家用机器人 24 小时要 100 美元），世界模型是更对口的解法。\n- **初创公司唯一的优势是敢冒险**：大公司资源多、品牌强，但发布不了会讲黄段子的聊天机器人；敢冒疯险正是新公司能造出 ChatGPT 级突破的原因。\n- **融资难在次数，不在金额**：第一次最难，之后越来越容易；大额融资真正的成本是外部期望——两年拿不出成果就很难活。\n- **窄问题 + 大愿景**：起步时选一个非常窄的问题，但在其中雄心勃勃，并大方分享长期愿景；宽领域的大野心没有可信度。",
+  "quotes": [
+    {
+      "en": "LLM is like someone who has never gone outside, never left the room they were born in. But read all the books every day for centuries and centuries.",
+      "zh": "LLM 就像一个从来没出过门、从未离开过自己出生的那个房间的人，但几个世纪以来每天读遍所有的书。",
+      "timestamp": "08:02",
+      "speaker": "Alex"
+    },
+    {
+      "en": "A world model is a model where we don't cheat. We are not learning through text. We are learning directly like humans, like animals from the real world.",
+      "zh": "世界模型是一个我们不作弊的模型。我们不通过文本来学习，而是像人类、像动物一样，直接从现实世界学习。",
+      "timestamp": "08:33",
+      "speaker": "Alex"
+    },
+    {
+      "en": "VLA is a very bad hack where you have a hammer, you have a LLM, and you see everything as a nail.",
+      "zh": "VLA 是一个非常糟糕的 hack：你有一把锤子，你有一个 LLM，然后你看什么都像钉子。",
+      "timestamp": "10:31",
+      "speaker": "Alex"
+    },
+    {
+      "en": "You cannot pay $100 of compute for 24 hours of your home robot to work.",
+      "zh": "你不可能为家里机器人工作 24 小时支付 100 美元的算力。",
+      "timestamp": "10:51",
+      "speaker": "Alex"
+    },
+    {
+      "en": "But the one thing you have that they don't is the ability to make crazy things, to take some risks.",
+      "zh": "但你有一件他们没有的东西：做出疯狂事情的能力，去冒一些险。",
+      "timestamp": "13:59",
+      "speaker": "Alex"
+    },
+    {
+      "en": "So the very people who promised AGI changed the definition and stopped using the term. I think it's a good sign that something is not working.",
+      "zh": "所以正是那些当初承诺 AGI 的人改变了定义，并且不再使用这个术语。我认为这是某件事行不通的好迹象。",
+      "timestamp": "16:50",
+      "speaker": "Alex"
+    },
+    {
+      "en": "But if the machine has never seen a cat, you know, touched a cat, played with a cat, maybe be hurt by a cat, then it will never be very, very smart.",
+      "zh": "但如果机器从未见过猫，摸过猫、和猫玩过、也许被猫弄伤过，那它永远也不会非常非常聪明。",
+      "timestamp": "18:06",
+      "speaker": "Alex"
+    },
+    {
+      "en": "Actually, I told the team yesterday that the real cost of this 1.2 billion was not dilution. The real cost is expectations.",
+      "zh": "其实，我昨天跟团队说，这 12 亿的真正成本不是股权稀释，真正的成本是期望。",
+      "timestamp": "22:23",
+      "speaker": "Alex"
+    },
+    {
+      "en": "I think we will kill Google because we will capture the intent and so with advertising and everything. So let's hire 10,000 concierge, not 100.",
+      "zh": "我认为我们会杀死 Google，因为我们会捕获用户意图，这样加上广告以及一切。所以我们雇 10,000 名礼宾员吧，不是 100 个。",
+      "timestamp": "26:06",
+      "speaker": "Alex"
+    },
+    {
+      "en": "If I could go back, you know, I think when you start, you should look at a very narrow problem, but be very, very ambitious in this narrow problem.",
+      "zh": "如果我能回到过去，我认为当你起步时，你应该看一个非常窄的问题，但在这个窄问题上要非常、非常雄心勃勃。",
+      "timestamp": "27:25",
+      "speaker": "Alex"
+    },
+    {
+      "en": "But if you're very ambitious in a very wide field, then you're not credible.",
+      "zh": "但如果你在一个非常宽的领域里非常雄心勃勃，那你就没有可信度。",
+      "timestamp": "28:14",
+      "speaker": "Alex"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "08:02",
+      "speaker": "Alex",
+      "en": "LLM is like someone who has never gone outside, never left the room they were born in. But read all the books every day for centuries and centuries.",
+      "zh": "LLM 就像一个从来没出过门、从未离开过自己出生的那个房间的人，但几个世纪以来每天读遍所有的书。"
+    },
+    {
+      "timestamp": "08:33",
+      "speaker": "Alex",
+      "en": "A world model is a model where we don't cheat. We are not learning through text. We are learning directly like humans, like animals from the real world.",
+      "zh": "世界模型是一个我们不作弊的模型。我们不通过文本来学习，而是像人类、像动物一样，直接从现实世界学习。"
+    },
+    {
+      "timestamp": "10:31",
+      "speaker": "Alex",
+      "en": "VLA is a very bad hack where you have a hammer, you have a LLM, and you see everything as a nail.",
+      "zh": "VLA 是一个非常糟糕的 hack：你有一把锤子，你有一个 LLM，然后你看什么都像钉子。"
+    },
+    {
+      "timestamp": "10:51",
+      "speaker": "Alex",
+      "en": "You cannot pay $100 of compute for 24 hours of your home robot to work.",
+      "zh": "你不可能为家里机器人工作 24 小时支付 100 美元的算力。"
+    },
+    {
+      "timestamp": "12:20",
+      "speaker": "Alex",
+      "en": "We will never beat, I think, the LLM at that.",
+      "zh": "我认为在那些（低维符号问题）方面我们永远无法击败 LLM。"
+    },
+    {
+      "timestamp": "13:59",
+      "speaker": "Alex",
+      "en": "But the one thing you have that they don't is the ability to make crazy things, to take some risks.",
+      "zh": "但你有一件他们没有的东西：做出疯狂事情的能力，去冒一些险。"
+    },
+    {
+      "timestamp": "16:50",
+      "speaker": "Alex",
+      "en": "So the very people who promised AGI changed the definition and stopped using the term. I think it's a good sign that something is not working.",
+      "zh": "所以正是那些当初承诺 AGI 的人改变了定义，并且不再使用这个术语。我认为这是某件事行不通的好迹象。"
+    },
+    {
+      "timestamp": "18:06",
+      "speaker": "Alex",
+      "en": "But if the machine has never seen a cat, you know, touched a cat, played with a cat, maybe be hurt by a cat, then it will never be very, very smart.",
+      "zh": "但如果机器从未见过猫，摸过猫、和猫玩过、也许被猫弄伤过，那它永远也不会非常非常聪明。"
+    },
+    {
+      "timestamp": "19:36",
+      "speaker": "Alex",
+      "en": "You know, there is a joke that it's like herding cats. You cannot tell researchers what to do. They hate that they will flee if you try.",
+      "zh": "有个笑话说是像放猫一样。你不能告诉研究者该做什么，他们讨厌那样，如果你试图这样做他们会跑掉。"
+    },
+    {
+      "timestamp": "21:29",
+      "speaker": "Alex",
+      "en": "You should aim for billions, not millions. The difficulty doesn't depend on the amount, it depends on if it's your first time.",
+      "zh": "你应该瞄准数十亿，而不是数百万。难度不取决于金额，取决于是不是你的第一次。"
+    },
+    {
+      "timestamp": "22:23",
+      "speaker": "Alex",
+      "en": "Actually, I told the team yesterday that the real cost of this 1.2 billion was not dilution. The real cost is expectations.",
+      "zh": "其实，我昨天跟团队说，这 12 亿的真正成本不是股权稀释，真正的成本是期望。"
+    },
+    {
+      "timestamp": "26:06",
+      "speaker": "Alex",
+      "en": "I think we will kill Google because we will capture the intent and so with advertising and everything. So let's hire 10,000 concierge, not 100.",
+      "zh": "我认为我们会杀死 Google，因为我们会捕获用户意图，这样加上广告以及一切。所以我们雇 10,000 名礼宾员吧，不是 100 个。"
+    },
+    {
+      "timestamp": "27:25",
+      "speaker": "Alex",
+      "en": "If I could go back, you know, I think when you start, you should look at a very narrow problem, but be very, very ambitious in this narrow problem.",
+      "zh": "如果我能回到过去，我认为当你起步时，你应该看一个非常窄的问题，但在这个窄问题上要非常、非常雄心勃勃。"
+    },
+    {
+      "timestamp": "28:21",
+      "speaker": "Alex",
+      "en": "But if you're very ambitious in a very wide field, then you're not credible.",
+      "zh": "但如果你在一个非常宽的领域里非常雄心勃勃，那你就没有可信度。"
+    },
+    {
+      "timestamp": "15:02",
+      "speaker": "Alex",
+      "en": "They have enough money and resources to scale the training, but the ability to take risk, because they had this combination, they made it what became ChatGPT.",
+      "zh": "他们有足够的钱和资源去扩大训练规模，也有冒风险的能力——因为他们有这个组合，才造就了后来的 ChatGPT。"
+    }
+  ],
+  "voice_script": "今天的主角叫 Alex，一个连续创业者。2014 年他和 YC 同期进营，做的第一家公司 Wit.ai 用的是世界上第一个 .ai 域名，2015 年被 Facebook 收购。有趣的是，收购邀约邮件来自一个叫 Mark Zuckerberg 的人，Alex 半秒就删了，以为是诈骗，半小时后才从垃圾邮件文件夹里翻出来。后来在 Meta 待了很多年，又创办了医疗 AI 公司 Nabla。今年 1 月，创办了 AMI，要做一件自称有史以来最雄心勃勃的事：不做大语言模型，做世界模型，为此融了 12 亿美元，而且联合创始人正是世界模型研究的提出者 Yann Lequin。这期节目，就是在回答一个问题：为什么大家都在卷大语言模型的时候，要反过来押注一个新东西？\n\n先把论点讲清楚。Alex 的核心判断是，大语言模型学的是人类写下的关于世界的文字。这就好比一个人从来没出过门、从未离开过自己出生的那个房间，但几个世纪以来每天读遍所有的书。这样的人看起来像很多领域的专家，但没有对世界的直接经验，常识有限，第一次面对某种情况时不知道该怎么办。所以世界模型的定义特别干脆：这是一个我们不作弊的模型。不通过文本来学习，而是像人类、像动物一样，直接从现实世界学习，用视频、音频、感官数据、把玩物体，像婴儿一样从零开始、不带任何语言。训练数据主要是视频，因为最容易找到；音频也行，触觉数据则靠机器人来采集。\n\n那这个东西到底能做大语言模型做不到的什么事？短期最大的答案是机器人。现在的机器人，用 Alex 的话说非常非常笨：硬件进化得令人难以置信，但大脑没变，只能在固定位置做一件事，放进开放环境，比如你家、街上，既不安全也没用。那当下流行的 VLA 呢？就是用大语言模型直接驱动机器人的方案。评价很尖锐：VLA 是一个非常糟糕的 hack，你有一把锤子，你有一个 LLM，然后你看什么都像钉子。不精确，还非常慢，而机器人需要极短延迟，更别提成本，你不可能为家里的机器人每天工作 24 小时支付 100 美元的算力。\n\n不过这并不是要干掉大语言模型。语言、数学、编程这类低维符号序列的问题，本来就是为 LLM 设计的，原话是“在这些方面我们永远无法击败 LLM”。世界模型瞄准的是另一类问题：高维、嘈杂、长时程的问题，而且训练出来参数更少，推理更便宜。两者是分工，不是取代。顺便说一句，世界模型背后的部分理念，比如 JEPA，已经存在五到十年了，就像 2018 年的 Transformer 论文，当时没人意识到它的威力，是 OpenAI 捡起来规模化才有了 ChatGPT。\n\n这就引出一个问题：这么大的方向，为什么轮到初创公司来做？Alex 用在 Meta 的亲身经历回答。大公司有资源、有品牌，但缺一样东西，做出疯狂事情的能力，去冒一些险。如果一点险都不冒你就死了，因为大公司比你资源多。举个例子：在 Meta 做的实验性聊天机器人第一次上线，问它“你今天怎么样”，它回答“就在放松，躺在我沙发上看黄片”。法务团队绝不会放行，这种项目在大公司根本不可能发布。而 OpenAI 能用 GPT-1、2、3 冒这种险，所以是他们做出了 ChatGPT。\n\n至于这是不是反共识押注，答案是不算，一年前也许算，但现在越来越不是了。有个信号很说明问题：当初承诺 AGI 的人改变了定义，并且不再使用这个术语，这往往正是某件事行不通的好迹象。当然公司还缺两样东西：数据和算力，如今即使有钱， securing 算力也非常困难。\n\n那 Yann Lequin 是怎么加入的？缘分其实早就有了，正是 Alex 在 Nabla 时的投资人和顾问。有一天 Yann 主动找来说：我认为世界模型已经准备好变得非常大了，在 Meta 之外做会更快，我需要一个 CEO。Alex 答应了，因为自己早有这个信念。第一家公司做了 10 年客服聊天机器人，得出的结论是：我们不能作弊。机器可以谈论猫，但如果它从未见过、摸过、和猫玩过，那它永远也不会非常非常聪明。这就是所谓 grounding，说白了，你需要对事物有真实的经验才能变聪明。\n\n再说那笔 12 亿美元的种子轮，欧洲史上最大。找钱难吗？原话很有意思：难度不取决于金额，取决于是不是你的第一次。第一次融资很难，第二次容易，到第三次之后人们会求着给你钱。但真正的代价不是股权稀释，而是外部期望。投资人理解长期愿景，可如果你融了 10 亿然后两年什么都不做，大家两年看不到任何产出，那要活下来就非常、非常难。还有一个有意为之的选择：办公室在巴黎、纽约、蒙特利尔和新加坡，唯独没有旧金山。从旧金山大厂招人时要求对方搬到纽约，这像一种承诺筛选，在这么早期的阶段，让人们带着真正的承诺加入，而不是只想试试，这非常重要。\n\n最后是给创业者的建议，来自一个扎克伯格的故事。被 Facebook 收购一个月后，Alex 想雇 100 名礼宾人员，为真实客户订行程并记录全过程来训练模型，按规矩提前 24 小时提交备忘录，准备了一肚子科学论证。结果扎克伯格说：我喜欢这个想法，我们会杀死 Google，因为我们会捕获用户意图。我们雇 10,000 名礼宾员吧，不是 100 个。Alex 反而得劝住，最后雇了 200 人。到今天也不知道扎克伯格是真愿意雇一万人，还是用这种方式逼着他说出项目真实的风险。结论是这句话：人们起步时想得太小，试图找一个安全的想法。应该选一个非常窄的问题，但在这个窄通道里有非常大的愿景，并且不要害怕分享它，因为在一个非常宽的领域里雄心勃勃，你就没有可信度。\n\n语言归大语言模型，经验归世界模型；想做出真正聪明的机器，先让它见过真实的世界。"
+}

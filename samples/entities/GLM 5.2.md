@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[沙箱]] · [[OpenAI]] · [[Chris Benson]] · [[Arjun Singh]] · [[Connor Hegey]] · [[Daniel Whitenack]] · [[Superconductor]] · [[Unify]] · [[Hugging Face]]
 
-<script type="application/json" class="pd-epn">{"智能体":272,"沙箱":52,"OpenAI":122,"Chris Benson":8,"Arjun Singh":1,"Connor Hegey":1,"Daniel Whitenack":7,"Superconductor":1,"Unify":1,"Hugging Face":21}</script>
+<script type="application/json" class="pd-epn">{"智能体":273,"沙箱":53,"OpenAI":122,"Chris Benson":8,"Arjun Singh":1,"Connor Hegey":1,"Daniel Whitenack":7,"Superconductor":1,"Unify":1,"Hugging Face":21}</script>
 
 <script>
 (function(){

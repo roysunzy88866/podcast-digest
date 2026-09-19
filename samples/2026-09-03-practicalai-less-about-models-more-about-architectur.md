@@ -148,9 +148,9 @@ Rackspace 的定位是「从芯片到成果」：与 AMD 合作、自有数据�
 
 **换个口味**
 
+- [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同公司:Anthropic · 同概念:线束 (harness)、评估 (eval)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同概念:推理 (inference)、线束 (harness)、护栏 (guardrails)</span>
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:线束 (harness)、评估 (eval)</span>
-- [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]]<span class="pd-rz">同概念:线束 (harness)、评估 (eval)</span>
 
 </div>
 </div>

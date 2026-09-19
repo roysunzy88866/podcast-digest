@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>63</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>64</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -38,6 +38,7 @@ unlisted: true
 - **[[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]]**(16:00起):本集说大部分 Claude 废话体验发生在 Claude Code 中，体验比 Claude Code Worker Chat 稍好一点
 - **[[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|《桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟》]]**(10:04起):本集把它说成：一个大家使用相同的系统提示和工具的马具（harness）；在基准测试中，PAT 的确定性架构在代码生成速度和二次执行延迟上均优于它。
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(00:31起):本集将其描述为 Anthropic Labs 团队孵化的前沿产品，它与 Opus 4.5 模型相互成就，作为载体让用户真正感受到了前沿模型的魔力，迎来了爆发式的采用。
+- **[[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|《Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停》]]**(00:07起):本集主线:Boris 创造的智能体编程产品,同时被视为包裹 Claude 的 harness;每次新模型发布都删掉大量系统提示词和代码,如今 harness 里的代码几乎全是安全性、权限和静态分析。
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(05:42起):本集把它说成:在讨论智能体编码时代新范式时顺带提及的工具之一,代表了两年前到现在的任务复杂度巨变。
 - **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(01:07起):讲者以它为例说明 harness 有多庞大:其源码有约 50 万行代码,全是为了让模型在执行任务时表现最好而构建的;另外提到模型在优化这类编程智能体时接受了大量文件系统数据训练。
 - **[[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]]**(11:36起):本集提到 Claude Code 作为可以选用的智能体线束/套件之一，比喻为'本田'
@@ -74,7 +75,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*8 条*
+*9 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q5]]
 
@@ -86,6 +87,8 @@ unlisted: true
 
 ![[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark#^q11]]
 
+![[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s#^q6]]
+
 ![[2026-08-19-pragmatic-from-chrome-devtools-to-ai-engineering#^q4]]
 
 ![[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v#^q2]]
@@ -94,7 +97,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*63 集*
+*64 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
@@ -123,6 +126,7 @@ unlisted: true
 - [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|《Opus 5：神经质但干活最强的评测》]] — 作为概念(提及)
 - [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|《桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟》]] — 作为被讨论公司
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念
+- [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|《Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停》]] — 作为被讨论公司
 - [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为被讨论公司(提及)
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念(提及)
 - [[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]] — 作为概念
@@ -166,7 +170,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[Lenny]] · [[Cursor]] · [[沙箱]] · [[harness]] · [[评估]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":272,"Anthropic":129,"Codex":51,"OpenAI":122,"Lenny":67,"Cursor":62,"沙箱":52,"harness":39,"评估":2,"Claude":60}</script>
+<script type="application/json" class="pd-epn">{"智能体":273,"Anthropic":130,"Codex":51,"OpenAI":122,"Lenny":67,"Cursor":62,"沙箱":53,"harness":40,"评估":2,"Claude":60}</script>
 
 <script>
 (function(){

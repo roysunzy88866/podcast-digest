@@ -31,7 +31,7 @@ unlisted: true
 
 [[Marble]] · [[空间智能]] · [[世界模型]] · [[Waymo]] · [[Justin Johnson]] · [[强化学习]] · [[Lenny]] · [[Fei-Fei Li]] · [[Sam Charrington]] · [[Martin Casado]]
 
-<script type="application/json" class="pd-epn">{"Marble":4,"空间智能":3,"世界模型":6,"Waymo":13,"Justin Johnson":2,"强化学习":17,"Lenny":67,"Fei-Fei Li":1,"Sam Charrington":4,"Martin Casado":4}</script>
+<script type="application/json" class="pd-epn">{"Marble":4,"空间智能":3,"世界模型":7,"Waymo":13,"Justin Johnson":2,"强化学习":17,"Lenny":67,"Fei-Fei Li":1,"Sam Charrington":4,"Martin Casado":4}</script>
 
 <script>
 (function(){

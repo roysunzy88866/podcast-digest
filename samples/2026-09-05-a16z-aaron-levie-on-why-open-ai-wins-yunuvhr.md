@@ -198,7 +198,7 @@ Box 没有因为 AI 少招工程师，反而在想办法多招。「我们有几
 
 - [[2026-07-24-howiai-claude-opus-5-review-this-model-is-brill|Opus 5：神经质但干活最强的评测]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:Opus 5、Fable</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:Anthropic · 同概念:Fable、提示词注入 (prompt injection)</span>
-- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:Fable</span>
+- [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同公司:Anthropic · 同概念:Opus 5、提示词注入 (prompt injection)</span>
 
 </div>
 </div>

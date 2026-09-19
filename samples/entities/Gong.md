@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gong</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Gong">GO</div><div class="pi"><h1 class="pt">Gong</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Gong">GO</div><div class="pi"><h1 class="pt">Gong</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]]**(34:47起):一个销售工具平台，嘉宾团队提取其所有通话记录，将数据喂给自研的 Deal Bot（交易机器人）以复盘流失原因，并实时提供销售流程的改进建议。
+- **[[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi|《从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年》]]**(05:47起):本集提到他们通过销售记录工具 Gong 渠道看到一单成交却不知道客户是做什么的,以此作为产品市场契合的信号。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为被讨论公司
+- [[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi|《从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jeanne DeWitt Grosser]] · [[Lenny]] · [[Vercel]] · [[Stripe]] · [[OpenAI]] · [[go-to-market]] · [[智能体]] · [[GTM 工程师]] · [[市场细分]] · [[PLG]]
+[[Jeanne DeWitt Grosser]] · [[Eric Landau]] · [[Lenny]] · [[Anchored]] · [[Vercel]] · [[物理 AI]] · [[Stripe]] · [[多模态]] · [[OpenAI]] · [[苦涩的教训]]
 
-<script type="application/json" class="pd-epn">{"Jeanne DeWitt Grosser":1,"Lenny":67,"Vercel":17,"Stripe":32,"OpenAI":122,"go-to-market":8,"智能体":272,"GTM 工程师":1,"市场细分":1,"PLG":10}</script>
+<script type="application/json" class="pd-epn">{"Jeanne DeWitt Grosser":1,"Eric Landau":1,"Lenny":67,"Anchored":1,"Vercel":17,"物理 AI":8,"Stripe":32,"多模态":5,"OpenAI":122,"苦涩的教训":8}</script>
 
 <script>
 (function(){

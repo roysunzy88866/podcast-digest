@@ -145,7 +145,7 @@ Ben 补充了一个根本差异:生成代码、图像、视频,模型产出的�
 
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]]<span class="pd-rz">同公司:World Labs · 同概念:Marble、空间智能 (spatial intelligence)</span>
 - [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理]]<span class="pd-rz">同公司:World Labs · 同概念:Marble、空间智能 (spatial intelligence)</span>
-- [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|Patrick Collison：AI时代该怎么创业]]<span class="pd-rz">同概念:Atlas</span>
+- [[2026-07-25-talks-what-big-tech-missed-and-how-startups-ca|不做 LLM，做世界模型：Alex 的 12 亿美元豪赌]]<span class="pd-rz">同概念:世界模型 (world model)</span>
 
 </div>
 <div class="pd-ex">

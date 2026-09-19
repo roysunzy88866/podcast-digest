@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>71</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>72</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -40,6 +40,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]]**(06:11起):本集用它做类比：ChatGPT 之于 AI，如同 Netscape Navigator 之于互联网——此刻 Google 还没成立、Zuckerberg 还在上初中，说明现在仍非常早；它对 Google 来说就是珍珠港。
 - **[[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|《让AI替你操作电脑和浏览器的三个实战用法》]]**(02:00起):本集说 ChatGPT 桌面应用配合 Chrome 浏览器扩展，是目前控制计算机和浏览器最出色的工具，其内部嵌入了浏览器技能（browser skill）
 - **[[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]]**(03:35起):本集提到他们看到的是 GPT-3、当时甚至还没有 ChatGPT。
+- **[[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi|《从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年》]]**(04:34起):本集说 ChatGPT 的出现改变了对话的基调,让市场更快地走向他们的产品。
 - **[[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int|《Parag Agrawal:当 AI 成为网络的第二个用户》]]**(40:11起):本集以 ChatGPT 最初版本不用网络也让人觉得惊艳，对比现在不给模型网络权限 75% 的场景就没法用，说明直觉已从「模型很聪明」变成「模型加网络」。
 - **[[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]]**(05:11起):本集把它说成:Dario 在 OpenAI 内部缔造的起飞产品,当时 Anthropic 的基准测试已与其打平甚至更好
 - **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(29:19起):本集鼓励大家都去使用它，并借用它指代机器人领域即将迎来的标志性启蒙时刻。
@@ -123,7 +124,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*71 集*
+*72 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
@@ -154,6 +155,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为被讨论公司
 - [[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|《让AI替你操作电脑和浏览器的三个实战用法》]] — 作为被讨论公司
 - [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]] — 作为概念(提及)
+- [[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi|《从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年》]] — 作为被讨论公司(提及)
 - [[2026-07-27-grit-ex-twitter-ceo-on-why-ai-needs-a-new-int|《Parag Agrawal:当 AI 成为网络的第二个用户》]] — 作为被讨论公司(提及)
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]] — 作为被讨论公司(提及)
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为概念(提及)
@@ -203,7 +205,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[OpenAI]] · [[Claude]] · [[Lenny]] · [[Anthropic]] · [[Google]] · [[Codex]] · [[Cursor]] · [[LLM]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"智能体":272,"OpenAI":122,"Claude":60,"Lenny":67,"Anthropic":129,"Google":45,"Codex":51,"Cursor":62,"LLM":34,"AGI":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":273,"OpenAI":122,"Claude":60,"Lenny":67,"Anthropic":130,"Google":45,"Codex":51,"Cursor":62,"LLM":35,"AGI":24}</script>
 
 <script>
 (function(){

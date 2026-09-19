@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MotherDuck":1,"DuckDB":1,"DuckDB Labs":1,"BigQuery":1,"Snowflake":9,"open core":1,"数据仓库":3,"智能体":272,"仪表盘":1}</script>
+<script type="application/json" class="pd-epn">{"MotherDuck":1,"DuckDB":1,"DuckDB Labs":1,"BigQuery":1,"Snowflake":9,"open core":1,"数据仓库":3,"智能体":273,"仪表盘":1}</script>
 
 <script>
 (function(){

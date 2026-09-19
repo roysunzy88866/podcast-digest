@@ -1,0 +1,196 @@
+{
+  "title_zh": "从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年",
+  "tldr": "Anchored 联合创始人 Eric Landau 讲述从粒子物理、十年量化交易到创办物理 AI 数据公司的历程，以及产品市场契合、销售团队试错与创始人心态的心得。",
+  "digest_md": "把一份华尔街高薪量化交易员的工作辞掉、去创办一家 AI 数据公司,辞职的那个月恰逢市场彻底疯狂——原油期货跌成负数,他原来的交易台那个月赚的钱比之前三年加起来还多。说这话的人是 Eric Landau,Anchored 的联合创始人,这家公司在为物理 AI(让机器人、自动驾驶等在真实世界运作的 AI)构建数据层。\n\n他为什么辞职?主线是他的整个职业生涯几乎踩着 AI 发展的轨迹走。他做粒子物理时,系统和策略都基于物理本身——根据粒子运动、动量来过滤数据;做高频交易时,是思考哪些因素推动市场,精心打磨后组装进机器学习模型;而现在,就是「把数据扔进一大堆机器学习里,盼着最好的结果」[01:52 Eric]。这就是他反复提到的「苦涩的教训」:过去构建 AI 系统要仔细做特征工程、把领域专家知识灌进去,但人们发现不做这些、直接堆更多数据和算力反而更好。他和联合创始人真心相信 AI 是「我们这代人的技术范式转变」,像互联网和计算机的早期。做了多年量化,他每晚头碰到枕头都在想「我这辈子到底在干什么」;创业之后,即使市场疯狂,他也能安然入睡、只想公司的具体问题——「我不再有那种生存层面的恐惧了」[03:38 Eric]。\n\n## 产品市场契合:没有戏剧性的时刻,只有复利\n\n早期他们在「沙漠里」待了好几年——不是靠放弃或转型撑过来的,而是仍然相信 AI 的长期力量,尽管很难说服别人它有多重要。直到 ChatGPT 出现,对话的基调变了。他强调了产品市场契合(Product-Market Fit,产品和市场需求对上的那个状态)的一个关键理解:有些人把市场当常量、不断打磨产品去命中它;有时是世界变了、市场走向产品;但大多数情况是两者朝同一方向一起移动[05:04 Eric]。他们的产品一直在变好,ChatGPT 之后市场更快地走向他们——但「从未发生过发布一次产品就突然强烈契合的事,只是每天都好那么一点点,慢慢地复利式积累」[05:42 Eric]。\n\n回头看,联合创始人认为契合的标志是一个有趣的信号:他们在销售记录工具 Gong 里看到一单成交,而他们根本不知道那家客户是做什么的——因为此前每一单销售都是他们亲自深度参与的。那一刻的感觉是:「哦,我们成功了。」那是几年前的事,但只有回头看才意识到,从来没有某个「啊,我们契合了」的瞬间。\n\n## 销售组织:三个团队才奏效,以及明知的错误招聘\n\n物理学家出身,怎么建销售组织?他的答案毫不优雅:「反复试错。」第一个销售团队,没成功;第二个,还是没成功;到第三个才开始奏效[06:47 Eric]。他还讲了一个扎心的故事:YC 毕业一两年后,有位导师针对某个职位明确告诉他们该找什么样的人、别找什么样的人——他们发现刚刚录用的恰恰就是「不该录的那种」,明知是大错,还是让这个人入职了,最后拖了九个月才处理掉[07:28 Eric]。\n\n为什么明知道还留九个月?因为这类决定很少有什么强有力的理由——「你心里其实有点数,只是很难,没有任何东西推你下决心」[08:23 Eric]。这些年他们进步最大的一点,就是跟着直觉走、更快做出正确的决定。\n\n## 从视觉到物理 AI:产品往上走,市场迎下来\n\n公司从视觉起步,因为视觉是最难的模态,而他们的论点是 AI 系统天然会是多模态的(同时理解图像、音频、文字等多种输入)——「人是多模态的,做出最佳决策的最好方式就是尽可能多地接收感官输入」[09:08 Eric]。物理 AI 的到来正是「产品往上走、市场迎下来」的案例:现在多模态 AI 最大的应用就在物理 AI,他们服务机器人、自动驾驶、物流、制造。他认为机会巨大:「80% 的经济活动是在现实世界中操纵或移动物体」[10:07 Eric],而且机器人领域的人普遍认为五到十年内机器人会比人还多。业务规模:数百家客户,处理多个 PB 的多模态数据——比据我们所知训练 GPT-4 用的数据还多[14:39 Eric]。最有意思的客户案例:牛的面部识别——人类很不擅长认牛脸,算法却能做得相当好。\n\n产品的完整链条是:数据收集(湾区有个像电影拍摄现场的设施,搭场景让机器人在特定环境里干活,主要服务较早期、为预训练攒数据的公司)、数据管理与筛选(「在十亿个干草堆里找一百万根针」)、标注与丰富,最后是评估。来找他们的客户通常已经搭过内部工具、试过 POC(概念验证),到了需要规模化的拐点;他坦言时机太早时不想过度推销,早期可以从开源工具开始。\n\n怎么决定押注物理 AI?不是「坐在房间里安静地想象未来」,而是不断和人聊——潜在客户、客户、YC 活动上走在这个领域前面的人、其他 AI 创始人——吸收大家在想什么问题,再综合成下一个可以下的注[11:33 Eric]。选址逻辑也简单:「就在对公司重要的人所在的地方」——客户、人才、投资者按这个顺序排序;他们大部分客户在美国、绝大多数在湾区,所以联合创始人搬去了旧金山、在那里建设施,而他留在伦敦。\n\n## 面对竞争与过山车\n\n当年创业时收到的主要反对意见就是「这个领域竞争太激烈」;这些年很多对手转型、合并或烧完了钱,很长时间里竞争反而不多。现在竞争又激烈起来,但他的态度是「我们希望有竞争——真正好的对手会推着你、让你成为更好的公司」[17:05 Eric]。他们的差异化在物理 AI 和数据的可扩展性:能在多 PB 级数据上运行,这花了很多年打基础。\n\n给创始人的建议,来自 Reddit 的 CEO 在一次 YC 闭门活动上的分享:「创办公司就像坐过山车,有低谷中的低谷,也有高峰中的高峰。我的看法是,你就该直接坐上这趟过山车」[18:45 Eric]。人们总想缓解起伏,但低谷时你知道高峰要来,高峰时你知道低谷要来,接受就好。他自己还喜欢说「黑掉你自己的大脑」:如果你能训练自己享受火情,那么新的挑战出现时,你就直接冲向火场——因为那令人兴奋,整个创业旅程就会愉快得多。这套心态其实是不久前才想通的:「当你经历了足够多这种正弦式的波动之后,你会觉得,好吧,我可以把它变得有趣」[19:32 Eric]。核心是意识到你对自己心理状态的控制,比你以为的要多。\n\n## 本集带走\n\n- **产品市场契合常常没有戏剧性瞬间**:多数时候是产品和市场朝同一方向慢慢靠拢、复利式积累;一个可信的信号是——客户主动下单,而你根本不知道这家公司是做什么的。\n- **建销售组织靠试错**:他们换了三个销售团队才奏效;明知某个招聘是错还留了九个月,教训是「跟着直觉走,更快做决定」。\n- **选公司地点排优先级**:客户 > 人才 > 投资者,人就应该待在对公司最重要的人所在的地方。\n- **押注下一波不靠闭门想象**:大量地和客户、同行、更前沿的人交谈,把听到的综合成下一个可以下的注。\n- **心态可以主动设计**:把创业起伏当成过山车直接坐上去,甚至训练自己「冲向火场」——你对自己心理状态的控制比你以为的多。",
+  "quotes": [
+    {
+      "en": "My desk made more money in that month than I think they made in the previous three years combined.",
+      "zh": "我所在的那个台那个月赚的钱,我想比之前三年加起来还多",
+      "timestamp": "02:36",
+      "speaker": "Eric Landau"
+    },
+    {
+      "en": "I wouldn't have the existential fear anymore.",
+      "zh": "我不再有那种生存层面的恐惧了",
+      "timestamp": "03:38",
+      "speaker": "Eric Landau"
+    },
+    {
+      "en": "No, it doesn't at first, but you believe you're part of something which is bigger than you, and it's very rewarding.",
+      "zh": "不,起初并不会,但你相信自己是某个比你更大的事物的一部分,这是非常有回报的",
+      "timestamp": "03:48",
+      "speaker": "Eric Landau"
+    },
+    {
+      "en": "And when you see something, they're giving you money, you don't know what they do, that's like, oh, we made it.",
+      "zh": "当你看到有公司给你钱,而你不知道他们是做什么的,那就是,哦,我们成功了",
+      "timestamp": "06:08",
+      "speaker": "Eric Landau"
+    },
+    {
+      "en": "And what we've gotten a lot better at over the years is just following your gut and making the right decision faster.",
+      "zh": "这些年我们进步最大的一点,就是跟着直觉走,更快地做出正确的决定",
+      "timestamp": "08:29",
+      "speaker": "Eric Landau"
+    },
+    {
+      "en": "Because humans are multimodal, the best way that you make the best decisions is to take as many sensory inputs as you can accept.",
+      "zh": "因为人是多模态的,你做出最佳决策的最好方式,就是尽可能多地接收各种感官输入",
+      "timestamp": "09:08",
+      "speaker": "Eric Landau"
+    },
+    {
+      "en": "The opportunity in physical AI is enormous. 80% of economic activity is manipulating or moving things in the real world.",
+      "zh": "物理 AI 的机会是巨大的。80% 的经济活动是在现实世界中操纵或移动物体",
+      "timestamp": "10:04",
+      "speaker": "Eric Landau"
+    },
+    {
+      "en": "So it's not us sitting in a room quietly trying to imagine the future. It's really being out there and getting as much data as we can.",
+      "zh": "所以并不是我们坐在一个房间里安静地试图想象未来,而是真的走出去,尽可能多地获取数据",
+      "timestamp": "11:33",
+      "speaker": "Eric Landau"
+    },
+    {
+      "en": "We prefer to have really good competitors because they push you, they make you better as a company.",
+      "zh": "我们更希望有真正好的竞争对手,因为他们会推着你,让你成为更好的公司",
+      "timestamp": "17:05",
+      "speaker": "Eric Landau"
+    },
+    {
+      "en": "Like people try to mitigate it, but just ride it and try to have fun.",
+      "zh": "人们总想缓解这种起伏,但就直接坐上去,试着享受乐趣吧",
+      "timestamp": "18:49",
+      "speaker": "Eric Landau"
+    },
+    {
+      "en": "If you can hack your own brain to enjoy the fires, and then when there is a new fire, a new challenge, you just run to the fire.",
+      "zh": "如果你能黑掉自己的大脑去享受火情,那么当有新的火情、新的挑战出现时,你就直接冲向火场",
+      "timestamp": "19:05",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "You realize that you have more control than you think over your own mental state.",
+      "zh": "你意识到,你对自己心理状态的控制比你以为的要多",
+      "timestamp": "19:48",
+      "speaker": "Eric Landau"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:52",
+      "speaker": "Eric",
+      "en": "Now, it's just throwing data into a big pile of machine learning and then seeing it",
+      "zh": "现在,就是把数据扔进一大堆机器学习里,然后看它能不能行"
+    },
+    {
+      "timestamp": "02:36",
+      "speaker": "Eric",
+      "en": "My desk made more money in that month than I think they made in the previous three years combined.",
+      "zh": "我所在的那个台那个月赚的钱,我想比之前三年加起来还多"
+    },
+    {
+      "timestamp": "03:29",
+      "speaker": "Eric",
+      "en": "What am I doing with my life?",
+      "zh": "我这辈子到底在干什么?"
+    },
+    {
+      "timestamp": "03:38",
+      "speaker": "Eric",
+      "en": "I wouldn't have the existential fear anymore.",
+      "zh": "我不再有那种生存层面的恐惧了"
+    },
+    {
+      "timestamp": "03:48",
+      "speaker": "Eric",
+      "en": "No, it doesn't at first, but you believe you're part of something which is bigger than you, and it's very rewarding.",
+      "zh": "不,起初并不会,但你相信自己是某个比你更大的事物的一部分,这是非常有回报的"
+    },
+    {
+      "timestamp": "05:00",
+      "speaker": "Eric",
+      "en": "So product market fit is both product and market, and these things have to come together.",
+      "zh": "产品市场契合既是产品也是市场,这两者必须结合到一起"
+    },
+    {
+      "timestamp": "05:41",
+      "speaker": "Eric",
+      "en": "That never happened to us. It just felt like it was a little bit better every day.",
+      "zh": "这种事从未发生在我们身上。只是感觉每天都好那么一点点"
+    },
+    {
+      "timestamp": "06:08",
+      "speaker": "Eric",
+      "en": "And when you see something, they're giving you money, you don't know what they do, that's like, oh, we made it.",
+      "zh": "当你看到有公司给你钱,而你不知道他们是做什么的,那就是,哦,我们成功了"
+    },
+    {
+      "timestamp": "06:57",
+      "speaker": "Eric",
+      "en": "And it's funny because, you know, the advice that they give you in YC, it's one of the things that we found is like, it's almost always right.",
+      "zh": "而且很有意思的是,你知道,YC 给你的那些建议,我们发现几乎总是对的"
+    },
+    {
+      "timestamp": "07:07",
+      "speaker": "Eric",
+      "en": "Yeah, no, it's almost always right, but you still make the mistake.",
+      "zh": "对,它几乎总是对的,但你还是会犯那个错"
+    },
+    {
+      "timestamp": "08:29",
+      "speaker": "Eric",
+      "en": "And what we've gotten a lot better at over the years is just following your gut and making the right decision faster.",
+      "zh": "这些年我们进步最大的一点,就是跟着直觉走,更快地做出正确的决定"
+    },
+    {
+      "timestamp": "09:08",
+      "speaker": "Eric",
+      "en": "Because humans are multimodal, the best way that you make the best decisions is to take as many sensory inputs as you can accept.",
+      "zh": "因为人是多模态的,你做出最佳决策的最好方式,就是尽可能多地接收各种感官输入"
+    },
+    {
+      "timestamp": "10:07",
+      "speaker": "Eric",
+      "en": "The opportunity in physical AI is enormous. 80% of economic activity is manipulating or moving things in the real world.",
+      "zh": "物理 AI 的机会是巨大的。80% 的经济活动是在现实世界中操纵或移动物体"
+    },
+    {
+      "timestamp": "11:33",
+      "speaker": "Eric",
+      "en": "So it's not us sitting in a room quietly trying to imagine the future. It's really being out there and getting as much data as we can.",
+      "zh": "所以并不是我们坐在一个房间里安静地试图想象未来,而是真的走出去,尽可能多地获取数据"
+    },
+    {
+      "timestamp": "14:20",
+      "speaker": "Eric",
+      "en": "There's a lot of data that you need to use, but even more data that you have.",
+      "zh": "有很多你需要使用的数据,但你拥有的数据更多"
+    },
+    {
+      "timestamp": "17:05",
+      "speaker": "Eric",
+      "en": "We prefer to have really good competitors because they push you, they make you better as a company.",
+      "zh": "我们更希望有真正好的竞争对手,因为他们会推着你,让你成为更好的公司"
+    },
+    {
+      "timestamp": "18:49",
+      "speaker": "Eric",
+      "en": "Like people try to mitigate it, but just ride it and try to have fun.",
+      "zh": "人们总想缓解这种起伏,但就直接坐上去,试着享受乐趣吧"
+    },
+    {
+      "timestamp": "19:05",
+      "speaker": "Eric",
+      "en": "If you can hack your own brain to enjoy the fires, and then when there is a new fire, a new challenge, you just run to the fire.",
+      "zh": "如果你能黑掉自己的大脑去享受火情,那么当有新的火情、新的挑战出现时,你就直接冲向火场"
+    },
+    {
+      "timestamp": "19:47",
+      "speaker": "Eric",
+      "en": "You realize that you have more control than you think over your own mental state.",
+      "zh": "你意识到,你对自己心理状态的控制比你以为的要多"
+    }
+  ],
+  "voice_script": "今天要讲的这个人，叫 Eric Landau,是 Anchored 这家公司的联合创始人。这家公司在做一件挺前沿的事：给物理 AI 构建数据层。物理 AI,说白了就是让机器人、自动驾驶这些 AI 真正在现实世界里干活。而 Eric 自己的经历，本身就是一部 AI 发展史：早年做粒子物理，后来去华尔街做了十年量化交易，拿着高薪，然后辞掉创业。辞职那个月特别戏剧化，正好赶上市场大乱，原油期货跌成负数，原来那个交易台一个月赚的钱，比之前三年加起来还多。但这条主线值得先说清楚：做粒子物理的时候，系统是基于物理本身的，靠粒子的运动和动量来过滤数据；做高频交易的时候，是琢磨哪些因素推动市场，再精心打磨进机器学习模型；而到了现在的 AI 时代，很多时候就是把数据扔进一大堆机器学习里，盼着最好的结果。这个变化，就是所谓的「苦涩的教训」——过去大家拼命做特征工程、把专家知识灌进系统，后来发现，不做这些，直接堆数据和算力，效果反而更好。Eric 和联合创始人真心相信，AI 是这一代人的技术范式转变，就像当年的互联网和计算机。做了多年量化，每晚头碰到枕头都在想，这辈子到底在干什么；创业之后，哪怕市场疯狂，反而能安然入睡。用原话说，就是不再有那种生存层面的恐惧了。\n\n那创业是什么体验？最扎心的部分，是早期在「沙漠里」待了好几年。撑过来不是靠转型或放弃，而是始终相信 AI 的长期力量，哪怕很难说服别人。直到 ChatGPT 出现，对话的基调才变了。这里引出关于产品市场契合的一个关键理解。有些人把市场当常量，不断打磨产品去命中它；有时是世界变了，市场走向产品；但大多数情况，是两者朝同一个方向一起移动。他们的产品一直在变好，ChatGPT 之后，市场更快地走向了他们。但 Eric 特别强调，从来没发生过发布一次产品就突然强烈契合的事，只是每天都好那么一点点，复利式地积累。怎么知道自己成功了？一个很妙的信号出现在销售记录工具 Gong 里：他们看到一单成交，可根本不知道那家客户是做什么的。因为此前每一单，都是亲自深度参与的。那一刻的感觉就是：哦，我们成功了。而且这只有回头看才意识到，从来没有某个「啊，契合了」的瞬间。\n\n契合是有了，新的问题跟着来了：一个物理学家出身的人，怎么建销售组织？答案毫不优雅，就是反复试错。第一个销售团队，没成功；第二个，还是没成功；到第三个，才开始奏效。还有一个更扎心的故事。YC 毕业一两年后，有位导师明确告诉他们，某个职位该找什么样的人、别找什么样的人——结果发现，刚录用的恰恰就是不该录的那种。明知是大错，还是让这个人入职了，最后拖了九个月才处理掉。为什么明知道还留九个月？因为这类决定很少有什么强有力的理由，心里其实有点数，只是很难，没有任何东西推你下决心。Eric 说，这些年进步最大的一点，就是跟着直觉走，更快地做出正确的决定。\n\n再往深讲，这公司从视觉起步，因为视觉是最难的模态，而押注的论点是：AI 系统天然会是多模态的，也就是同时理解图像、音频、文字等多种输入。理由很朴素，人是多模态的，做出最佳决策的最好方式，就是尽可能多地接收各种感官输入。物理 AI 的到来，正好是「产品往上走、市场迎下来」的案例。现在多模态 AI 最大的应用就在物理 AI,他们服务机器人、自动驾驶、物流、制造。机会有多大？Eric 有个判断：80% 的经济活动，是在现实世界中操纵或移动物体。而且机器人领域的人普遍认为，五到十年内，机器人会比人还多。业务规模上，他们有几百家客户，处理多个 PB 的多模态数据，比据我们所知训练 GPT-4 用的还多。最有意思的客户案例，是牛的面部识别——人类很不擅长认牛脸，算法却能做得相当好。\n\n那怎么决定押注物理 AI 的？不是坐在房间里安静地想象未来，而是不断和人聊，聊潜在客户、聊客户、聊走在领域前面的人，吸收大家在想什么问题，再综合成下一个可以下的注。选址逻辑也简单：就在对公司重要的人所在的地方，客户、人才、投资者，按这个顺序排。大部分客户在美国，绝大多数在湾区，所以联合创始人搬去了旧金山，Eric 自己留在伦敦。\n\n最后一个话题，是心态。当年创业收到的最大反对意见就是：这个领域竞争太激烈。这些年很多对手转型、合并或烧完了钱，很长时间里竞争反而不多；现在又激烈起来，但态度是，希望有竞争，真正好的对手会推着你，让你成为更好的公司。而给创始人的建议，来自 Reddit 的 CEO 在一次 YC 闭门活动上的分享：创办公司就像坐过山车，有低谷中的低谷，也有高峰中的高峰，你就该直接坐上这趟过山车。人们总想缓解起伏，但低谷时你知道高峰要来，高峰时你知道低谷要来，接受就好。Eric 自己还喜欢说一句话，叫黑掉你自己的大脑：如果你能训练自己享受火情，那新的挑战出现时，就直接冲向火场，因为那令人兴奋，整个创业旅程就会愉快得多。这套心态其实是不久前才想通的——当你经历了足够多这种正弦式的波动之后，你会觉得，好吧，我可以把它变得有趣。说到底，你对自己心理状态的控制，比你以为的要多得多。"
+}

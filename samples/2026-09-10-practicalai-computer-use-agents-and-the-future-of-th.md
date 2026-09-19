@@ -138,8 +138,8 @@ Chris 的愿景是[[智能体蜂群|智能体蜂群]](swarm,多智能体分工�
 **顺着「智能体」挖下去**
 
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Anthropic · 同概念:harness、MCP、Computer-Use</span>
+- [[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s|Claude Code 造物主 Boris:删掉 80% 系统提示词，让模型跑两周不停]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、harness、system prompt</span>
 - [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|GPT-6 Astra 上手实测:它会用你的电脑了]]<span class="pd-rz">同公司:OpenAI · 同概念:Computer-Use、MCP、browser use</span>
-- [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、harness</span>
 
 </div>
 <div class="pd-ex">

@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Alex Rampell":3,"Lassie":1,"智能体":272,"人在回路":11,"现有巨头":1,"Superhuman":4,"Stripe":32,"Workday":4}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Alex Rampell":3,"Lassie":1,"智能体":273,"人在回路":11,"现有巨头":1,"Superhuman":4,"Stripe":32,"Workday":4}</script>
 
 <script>
 (function(){
