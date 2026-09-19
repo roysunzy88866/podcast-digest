@@ -118,7 +118,7 @@ Chai 不自己研发药物,而是把模型作为基础设施,卖给礼来、诺�
 
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:OpenAI · 同概念:缩放定律 (scaling laws)</span>
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|AI 如何把工程问题变回资本问题]]<span class="pd-rz">同公司:OpenAI · 同概念:缩放定律 (scaling laws)</span>
-- [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]]<span class="pd-rz">同概念:苦涩的教训 (bitter lesson)</span>
+- [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争]]<span class="pd-rz">同公司:OpenAI · 同概念:缩放定律 (scaling laws)</span>
 
 </div>
 <div class="pd-ex">

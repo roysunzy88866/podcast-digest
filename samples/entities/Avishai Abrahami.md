@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Wix":3,"Base44":3,"Salesforce":24,"Atlassian":5,"vibe coding":35,"SaaS":17,"回购":1,"股权激励":1,"微调":18}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Wix":3,"Base44":3,"Salesforce":24,"Atlassian":5,"vibe coding":35,"SaaS":17,"回购":1,"股权激励":1,"微调":18}</script>
 
 <script>
 (function(){

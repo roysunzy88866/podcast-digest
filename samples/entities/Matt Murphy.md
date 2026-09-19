@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Anthropic":127,"Menlo":1,"OpenAI":120,"Lovable":15,"Lagura":1,"OpenRouter":10,"Eleven Labs":6,"ChatGPT":69,"Cursor":62}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Anthropic":128,"Menlo":1,"OpenAI":121,"Lovable":15,"Lagura":1,"OpenRouter":10,"Eleven Labs":6,"ChatGPT":69,"Cursor":62}</script>
 
 <script>
 (function(){

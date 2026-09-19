@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":25,"Azure":3,"GitHub":22,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":39,"轨迹":2,"智能体":269}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":25,"Azure":3,"GitHub":22,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":39,"轨迹":2,"智能体":270}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":38,"OpenAI":120,"Anthropic":127,"TSMC":4,"Microsoft":25,"Palantir":17,"开源模型":19,"封闭模型":2,"沙箱":52}</script>
+<script type="application/json" class="pd-epn">{"Mike Allen":1,"NVIDIA":39,"OpenAI":121,"Anthropic":128,"TSMC":4,"Microsoft":25,"Palantir":17,"开源模型":19,"封闭模型":2,"沙箱":52}</script>
 
 <script>
 (function(){

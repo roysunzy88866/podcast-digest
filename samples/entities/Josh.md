@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt":1,"Chai Discovery":1,"OpenAI":120,"药物发现":1,"药物设计":1,"抗体设计":1,"蛋白质折叠":1,"扩散模型":2,"苦涩的教训":7,"湿实验室":1}</script>
+<script type="application/json" class="pd-epn">{"Matt":1,"Chai Discovery":1,"OpenAI":121,"药物发现":1,"药物设计":1,"抗体设计":1,"蛋白质折叠":1,"扩散模型":2,"苦涩的教训":7,"湿实验室":1}</script>
 
 <script>
 (function(){

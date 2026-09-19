@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"捐赠基金":1,"LP":1,"GP":1,"资本的速度":1,"复合":2,"私募":1,"成长型股权":1,"fund of one":1,"混合基金":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"捐赠基金":1,"LP":1,"GP":1,"资本的速度":1,"复合":2,"私募":1,"成长型股权":1,"fund of one":1,"混合基金":1}</script>
 
 <script>
 (function(){

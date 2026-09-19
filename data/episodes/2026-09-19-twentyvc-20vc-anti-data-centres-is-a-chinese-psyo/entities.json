@@ -1,0 +1,1276 @@
+{
+  "episode_id": "2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-09-19",
+  "tags": [
+    "AI 基础设施",
+    "推理",
+    "内存墙",
+    "KV 缓存",
+    "守住前沿"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "thomas-sohmers",
+      "type": "person",
+      "role": "host",
+      "name": "Thomas Sohmers",
+      "file": "Thomas Sohmers",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "cohost",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            22.959,
+            24.78
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "positron",
+      "type": "company",
+      "role": "company",
+      "name": "Positron",
+      "file": "Positron",
+      "primary": true,
+      "how_described": "本集嘉宾所在的半导体初创公司，从芯片、软件到整机与机架级部署，为生成式 AI 推理构建硬件；刚以 50 亿美元估值完成 8.75 亿美元 C 轮融资，目标是每瓦交付更多算力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            44.596,
+            47.079
+          ],
+          "quote": "He's the co-founder and chairman at Positron AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            254.812,
+            260.698
+          ],
+          "quote": "Can we just have a brief description of what Positron is and where does it sit in the stack?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            261.378,
+            265.401
+          ],
+          "quote": "So Positron is a fabulous semiconductor startup that's building hardware.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1732.666,
+            1738.81
+          ],
+          "quote": "I mean, one, Positron is trying to deliver more compute, more capabilities per watt per megawatt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2687.221,
+            2695.968
+          ],
+          "quote": "And there are a lot of workloads where, let's say internal, just speaking for how Positron uses LLMs, where I don't today care that much about the cost.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2750.987,
+            2759.17
+          ],
+          "quote": "But both from Positron's business perspective and just how I see the world evolving, I'm going to care more about the high volume set of things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 531,
+          "t": [
+            3103.523,
+            3123.367
+          ],
+          "quote": "And then finally, the biggest thing for Positron was I've been trying with every single new model release to have these models be able to actually take a relatively simple logic design problem, implementing an encryption block in this case, and being able to take that through the full RTL to GDS flow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3242.635,
+            3257.423
+          ],
+          "quote": "As a consumer of all these things, if I take my Positron hat shirt off, I would say that that's a great thing for the industry having fundamentally that's going to bring costs down and capabilities up and bring it to more people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3322.335,
+            3333.829
+          ],
+          "quote": "And so I think how that applies to Positron is, you know, we have our particular architectural views and way that we've decided to do things and that will evolve in the future as will everyone else's.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3372.513,
+            3376.834
+          ],
+          "quote": "Now, one of the big things for Positron is we're trying to massively increase the memory capacity per device.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说其 API 业务据报道毛利高达 80 个点，主因是缓存 token 的惊人利润；Dario 提出「守住前沿」，但 Thomas 认为 Anthropic 内部大多是真信徒，且若停止训练就能一夜之间巨额盈利。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            722.671,
+            729.547
+          ],
+          "quote": "And there's a reason why Anthropic is reported to have 80 points of gross margin right now on API business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            759.939,
+            769.201
+          ],
+          "quote": "It's absurd to me that the meme of OpenAI, Anthropic, et cetera, are just burning cash and eventually they'll run out of cash that they can burn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            789.552,
+            792.335
+          ],
+          "quote": "But I don't think Anthropic or anyone needs to do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            950.106,
+            953.489
+          ],
+          "quote": "Dario and I would say the vast majority of people in Anthropic are",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1003.461,
+            1009.911
+          ],
+          "quote": "Like, Dario basically, on one hand, verbally begging for government governments to take over Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2667.283,
+            2677.613
+          ],
+          "quote": "So there's going to be the frontier models and capabilities that are being really at the forefront of the development by OpenAI, Anthropic, maybe Google, SpaceX, AI, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3860.838,
+            3880.567
+          ],
+          "quote": "A shift from frontier models to open weight models, Anthropic and OpenAI are not continuing in the same level, not quite growth rate, because it's impossible at the stage, but level of growth, missing numbers next year, and then the bubble getting burst a little bit, whether the two core leaders are having some form of strife.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3913.882,
+            3930.233
+          ],
+          "quote": "I really do think that in a lot of AI applications right now, the bottleneck is actually a human making some sort of decision and different tasks have different levels of autonomy that will result in things getting sent to be processed by a model, by OpenAI or Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 659,
+          "t": [
+            3982.997,
+            3988.319
+          ],
+          "quote": "Because Anthropic and OpenAI are $4 to $5 trillion businesses, say, feasible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 662,
+          "t": [
+            4005.201,
+            4019.173
+          ],
+          "quote": "I think the reason that hasn't happened is because Anthropic and OpenAI have better uses of their capital and mental power, et cetera, than doing all of the, you know, scale AI, Mercor, et cetera, work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说它与 Anthropic 同被误读为「烧钱将死」，实则停训即可大幅盈利；其 GPT-6 Astra 被 Thomas 称为 AGI，Greg Brockman 表示想从按 token 定价转向按有效结果计费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            759.939,
+            769.201
+          ],
+          "quote": "It's absurd to me that the meme of OpenAI, Anthropic, et cetera, are just burning cash and eventually they'll run out of cash that they can burn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2436.865,
+            2441.187
+          ],
+          "quote": "So Claude and OpenAI have a whole lot more than 50 users.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2667.283,
+            2677.613
+          ],
+          "quote": "So there's going to be the frontier models and capabilities that are being really at the forefront of the development by OpenAI, Anthropic, maybe Google, SpaceX, AI, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 546,
+          "t": [
+            3217.543,
+            3221.367
+          ],
+          "quote": "But obviously with OpenAI's own chip development in-house, they've...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 557,
+          "t": [
+            3302.857,
+            3310.863
+          ],
+          "quote": "And Hot Chips, the biggest conference for this design space was where OpenAI unveiled Jalapeno last month.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3806.293,
+            3824.708
+          ],
+          "quote": "If you have a GPT-7 or 8 that is superhuman and can fully function as an employee in an amazing capacity, and OpenAI calculates through whatever method that's running at full tilt, et cetera, it's only going to cost them, you know, however many hundreds of thousands of dollars to produce tokens continuously with that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3860.838,
+            3880.567
+          ],
+          "quote": "A shift from frontier models to open weight models, Anthropic and OpenAI are not continuing in the same level, not quite growth rate, because it's impossible at the stage, but level of growth, missing numbers next year, and then the bubble getting burst a little bit, whether the two core leaders are having some form of strife.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3913.882,
+            3930.233
+          ],
+          "quote": "I really do think that in a lot of AI applications right now, the bottleneck is actually a human making some sort of decision and different tasks have different levels of autonomy that will result in things getting sent to be processed by a model, by OpenAI or Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 659,
+          "t": [
+            3982.997,
+            3988.319
+          ],
+          "quote": "Because Anthropic and OpenAI are $4 to $5 trillion businesses, say, feasible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 662,
+          "t": [
+            4005.201,
+            4019.173
+          ],
+          "quote": "I think the reason that hasn't happened is because Anthropic and OpenAI have better uses of their capital and mental power, et cetera, than doing all of the, you know, scale AI, Mercor, et cetera, work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集用其 GPU 说明内存墙：2014-2024 单块 GPU flops 提升约 120 倍而内存带宽只提升 17 倍；也是推理部署的主导硬件，且在市场内存条件下正减少单设备内存。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            95.848,
+            101.873
+          ],
+          "quote": "People like Jensen Huang, CEO of NVIDIA, Michelle Katasta, President and Head of AI at Replit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            474.449,
+            478.572
+          ],
+          "quote": "So a single NVIDIA GPU had about 120-fold improvement in flops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1739.31,
+            1747.596
+          ],
+          "quote": "And so, you know, sort of on our base case, we can turn what you would have spent 500 megawatts with NVIDIA equipment and do that 100 megawatt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 571,
+          "t": [
+            3382.456,
+            3390.278
+          ],
+          "quote": "It's the highest memory skew from NVIDIA, and NVIDIA is actually decreasing the amount of memory per device, you know, based on the market memory conditions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 686,
+          "t": [
+            4159.244,
+            4165.268
+          ],
+          "quote": "People like Jensen Huang, CEO of NVIDIA, Michelle Katasta, President and Head of AI at Replit.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deepseq",
+      "type": "company",
+      "role": "company",
+      "name": "DeepSeq",
+      "file": "DeepSeq",
+      "primary": false,
+      "how_described": "本集说中国实验室在出口管制下于算法上创新，DeepSeq v3 用多头潜在注意力（MLA）大幅压缩 KV 缓存。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 578,
+          "t": [
+            3432.415,
+            3445.206
+          ],
+          "quote": "And so DeepSeq beginning of 2025 with DeepSeq v3 had made a lot of waves because they were able to get massive decrease in KV cache size with multi-head latent tension.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 582,
+          "t": [
+            3470.366,
+            3478.772
+          ],
+          "quote": "How important then is new hardware if DeepSeq, without it, just on architecture innovation alone can cut costs by 80%?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集核心主题：推理与训练是两种完全不同的活——训练是计算受限、可大规模并行，推理是生成式、每个 token 都要读全部权重，因此是重度内存受限的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            111.924,
+            115.268
+          ],
+          "quote": "Learn how they're building it with inference, training, and intelligent routing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            265.762,
+            274.588
+          ],
+          "quote": "So really everything from the chips, the software directly running on top of that, all the way up to the full systems and rack scale deployments to power generative AI inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            290.34,
+            297.863
+          ],
+          "quote": "How does the infrastructure stack required for inference, what you're working on, change compared to training?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            332.333,
+            346.728
+          ],
+          "quote": "The big difference with inference and so the deployment of those models is the fact that for the actual math and the steps that you're doing is about half of what you're doing during training in terms of that the steps shouldn't be thought of as like the actual compute involved.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            350.311,
+            366.278
+          ],
+          "quote": "Inference portion of it is heavily, heavily memory bound due to the fact that basically for every single token that's generated, every little bit of output, that requires going through the weights, the parameters you could kind of, you know, from a biological sense, think of the neurons.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2026.833,
+            2029.535
+          ],
+          "quote": "And what happens when you're running an inference?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2040.687,
+            2047.134
+          ],
+          "quote": "And when you do inference, it's going to say the capital of France is Paris and the City of Lights, you know, some thing after that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2311.748,
+            2317.492
+          ],
+          "quote": "Is KV caching the hardest element of building that inference infrastructure?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2710.501,
+            2717.888
+          ],
+          "quote": "There is a push from enterprises to have inference on site, and it's a lot more difficult to provide that for largest models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 688,
+          "t": [
+            4175.32,
+            4178.664
+          ],
+          "quote": "Learn how they're building it with inference, training, and intelligent routing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "memory-wall",
+      "type": "concept",
+      "role": "concept",
+      "name": "内存墙 (memory wall)",
+      "file": "内存墙",
+      "primary": true,
+      "how_described": "本集说这个词 AI 热潮前就有，指算力与内存带宽发展的背离——flops 涨 120 倍、带宽只涨 17 倍——是推理成本问题的根源，部分因 SRAM 单元约 15 年未随摩尔定律缩小。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            427.845,
+            432.489
+          ],
+          "quote": "Is that what people mean when they say about the memory wall with regards to what you're doing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            433.364,
+            439.327
+          ],
+          "quote": "I mean, the memory wall as a phrase has been around for a long time before all of the hype around AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kv-cache",
+      "type": "concept",
+      "role": "concept",
+      "name": "KV 缓存 (KV cache)",
+      "file": "KV 缓存",
+      "primary": true,
+      "how_described": "本集说是推理经济的真正杠杆：存储模型内部的 K、V 两个矩阵避免重复计算，缓存命中 token 成本仅约千分之一；智能体编码会话命中率约 96%，但带来残酷的内存分层存储权衡。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 362,
+          "t": [
+            2077.168,
+            2079.711
+          ],
+          "quote": "And so the KV cache was born where...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2137.005,
+            2143.81
+          ],
+          "quote": "Storing that is a complexity in itself because that's a unique KV cache for every single user that you're serving.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 578,
+          "t": [
+            3432.415,
+            3445.206
+          ],
+          "quote": "And so DeepSeq beginning of 2025 with DeepSeq v3 had made a lot of waves because they were able to get massive decrease in KV cache size with multi-head latent tension.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 579,
+          "t": [
+            3445.747,
+            3451.352
+          ],
+          "quote": "So you were actually spending more flops to be able to have a smaller KV cache.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集围绕 token 经济展开：缓存 token 是印钞机、token 价格五年降 60 倍但质量涨约百倍，单位智能价值可能接近千倍提升，且未来可能不再按 token 定价。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            350.311,
+            366.278
+          ],
+          "quote": "Inference portion of it is heavily, heavily memory bound due to the fact that basically for every single token that's generated, every little bit of output, that requires going through the weights, the parameters you could kind of, you know, from a biological sense, think of the neurons.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            366.658,
+            370.48
+          ],
+          "quote": "You have to read the values of that for every single individual token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            395.121,
+            401.005
+          ],
+          "quote": "The token inputs, all of the sequences of words and sentences, paragraphs, et cetera, that are going into that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            404.348,
+            411.153
+          ],
+          "quote": "But when you're inferring, because that's actually generative, you don't know what the token is five words down the line.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            648.593,
+            656.316
+          ],
+          "quote": "When you look at token economics and token efficiency today, what does like no one know or talk about that you think should be much more front and center?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            682.559,
+            688.521
+          ],
+          "quote": "Oh, because for like when we discussed earlier that both processing a cash token is essentially free.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            688.621,
+            696.725
+          ],
+          "quote": "It's one one thousandth of the cost, you know, order of magnitude of actually having to recompute and generate that token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            703.406,
+            707.447
+          ],
+          "quote": "And basically all the providers, they charge you to cash a token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            707.487,
+            712.529
+          ],
+          "quote": "They charge a higher rate than just the normal processing fee for like an input token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1946.424,
+            1951.486
+          ],
+          "quote": "I kind of already talked about a token, you know, a token effectively as part of the training process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1989.907,
+            1992.83
+          ],
+          "quote": "And basically what ends up happening is a token",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1993.47,
+            2008.318
+          ],
+          "quote": "If you're using ChatGPT and you see text streaming out, if that's going particularly slow or you have quite a keen eye, you'll see that it's portions of words that come out at times, sometimes a full word, sometimes a small fraction of word, and each of those little flashes that you see is a token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2009.038,
+            2017.043
+          ],
+          "quote": "And roughly speaking, a token is equivalent to a half to like 75% of a word on average in large English corpuses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            2017.743,
+            2018.564
+          ],
+          "quote": "So that's token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2047.534,
+            2061.049
+          ],
+          "quote": "And so when you have that entire sequence, when Transformers originally came out, for every token that was generated, you were doing the computation for generating all of those tokens, including the ones that you've already processed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2109.837,
+            2117.365
+          ],
+          "quote": "But the interesting thing is that for the attention mechanism, the compute per token grows quadratically with the sequence length.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2450.591,
+            2458.796
+          ],
+          "quote": "Which you need to process every single token generated and you want that to be as fast as possible because that sets your SLO, that sets the token latency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2614.069,
+            2617.691
+          ],
+          "quote": "A million token context links are the norm now in terms of what the models support.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2618.291,
+            2626.356
+          ],
+          "quote": "But a million token context lengths can only hold a portion of some of our internal company's largest code repositories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2696.148,
+            2702.613
+          ],
+          "quote": "If I can get 10 times the output value out of a model today, I very gladly pay 10 times more per token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3527.216,
+            3538.422
+          ],
+          "quote": "If I had 10 million token context length, I think that would be enough for holding multiple of our largest code bases and really have that cross-pollination happen between them for an agentic coding model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3544.366,
+            3547.688
+          ],
+          "quote": "There were some early models that advertised million token context length.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3610.45,
+            3625.395
+          ],
+          "quote": "Speaking of room for improvement, can I ask you, when I was doing the research for the show, I saw that the Silicon Data token price index dropped below $1 per million tokens this month, and five years ago, it was $60 per million.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 610,
+          "t": [
+            3633.228,
+            3643.315
+          ],
+          "quote": "I think the thing I care a lot more about than just that 60 to one is the fact that a $60 token five years ago, no one would pay a cent for today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3643.515,
+            3648.238
+          ],
+          "quote": "Like that was a complete garbage token, relatively speaking, five years ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3648.419,
+            3656.544
+          ],
+          "quote": "And the level of quality for a token that you pay a dollar per million tokens for now is so much astronomically more valuable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 613,
+          "t": [
+            3656.804,
+            3660.247
+          ],
+          "quote": "And so that's because of token efficiency and what can be done?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 620,
+          "t": [
+            3711.717,
+            3719.745
+          ],
+          "quote": "The value per token in terms of what can improve a person's life, a company's business practices, et cetera, is orders of magnitude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3728.113,
+            3734.919
+          ],
+          "quote": "Yes, that's a decrease in cost, but that token today is, let's just say, I think conservatively, a hundred times more valuable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3752.252,
+            3754.614
+          ],
+          "quote": "Does the cost of a token then actually matter?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3756.635,
+            3758.416
+          ],
+          "quote": "Because everyone talks about cost of token.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3781.01,
+            3783.732
+          ],
+          "quote": "But I think that the price per token is really...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3783.972,
+            3787.455
+          ],
+          "quote": "Great because you can easily calculate the cost to generate a token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3883.048,
+            3893.391
+          ],
+          "quote": "The reason I don't think it's likely is I think that the development of open source models and things happening locally, et cetera, will actually drive greater token volumes for the big guys.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3930.833,
+            3938.358
+          ],
+          "quote": "But I think the next really big order of magnitude, couple orders of magnitude increase in token volumes is going to come when",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-length",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文长度 (context length)",
+      "file": "上下文长度",
+      "primary": true,
+      "how_described": "本集说百万 token 是常态但离装下大代码库还远，1000 万 token 才够智能体编程交叉启发多个代码库；难点是内存成本二次方增长，且宣称长上下文与真正用好它是两回事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 572,
+          "t": [
+            3390.878,
+            3402.401
+          ],
+          "quote": "But I frankly think that context length going from like a million tokens that it is today, going to 10 or even much more than that, is really, really hard with that quadratic expansion of memory cost.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3519.351,
+            3527.176
+          ],
+          "quote": "But the reality is, and to go back to your previous question of everyone does want greater context length.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3527.216,
+            3538.422
+          ],
+          "quote": "If I had 10 million token context length, I think that would be enough for holding multiple of our largest code bases and really have that cross-pollination happen between them for an agentic coding model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3544.366,
+            3547.688
+          ],
+          "quote": "There were some early models that advertised million token context length.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3555.056,
+            3558.94
+          ],
+          "quote": "So just saying that something has this maximum context length is one thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 596,
+          "t": [
+            3559.26,
+            3563.565
+          ],
+          "quote": "It's can it actually use that context length effectively is an entirely different thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说要做出能接管整个程序员团队的智能体，主要瓶颈不是模型能力而是上下文能装多少；智能体编码工作负载恰好高度可缓存（96% 命中），未来 OpenAI 可能按年费卖「虚拟智能体员工」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            138.06,
+            144.982
+          ],
+          "quote": "Asana is the operating system for human agent teams, your easy button for AI productivity across every team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2627.817,
+            2639.765
+          ],
+          "quote": "And so if you really want an agent that can take over the capabilities of a whole team of programmers, I think the main limiter today isn't the model capabilities itself and scaling the model size.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 639,
+          "t": [
+            3825.348,
+            3837.113
+          ],
+          "quote": "They may decide that it's actually easier and they'll be able to get more adoption if they just charged a million dollars a year, just using a random number, to have full and limited usage of that virtual agent worker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 695,
+          "t": [
+            4201.46,
+            4208.383
+          ],
+          "quote": "Asana is the operating system for human agent teams, your easy button for AI productivity across every team.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pacing-the-frontier",
+      "type": "concept",
+      "role": "concept",
+      "name": "守住前沿 (pacing the frontier)",
+      "file": "守住前沿",
+      "primary": true,
+      "how_described": "本集嘉宾总体反对这个由最大模型提供商推动的方向：给卢德派递弹药、把能力集中到少数人手里，且除非全球一起踩否则不可行；他也怀疑各家的动机（Sam 不想 IPO、Elon 想追赶时间）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            773.383,
+            779.224
+          ],
+          "quote": "And there's a ton of other levers that they have without pacing the frontier as Dario just had in his essay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            782.765,
+            789.092
+          ],
+          "quote": "A little bit of the pacing the frontier discussion is, oh, this is a great way to reduce costs ahead of IPO.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            808.008,
+            810.149
+          ],
+          "quote": "How did you analyze the pacing the frontier?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1237.745,
+            1242.448
+          ],
+          "quote": "We mentioned pacing the frontier and the different people who supported it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1387.316,
+            1392.319
+          ],
+          "quote": "So from the Chinese PSIOP perspective, they're not, to your point, they're not pacing the frontier.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集说左右两派团结反数据中心几乎全是中国的心理战：用水量数据大量错误（现代多为闭环液冷），数据中心自带发电能力本可压低电价，却被监管和电力公司游说挡在电网之外。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 265,
+          "t": [
+            1517.381,
+            1540.758
+          ],
+          "quote": "And I will say there has been some political will and push to solve these things, but literally just in the past year, you have Republican governors and other politicians that at least had part of their platform to be pro-growth and all of these things backing away because they see from their own political base being anti-data center based on completely false premises.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1566.001,
+            1572.245
+          ],
+          "quote": "There is absolutely zero cases where a data center could be potentially pulling power from anything that's already been allocated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1621.663,
+            1630.365
+          ],
+          "quote": "I don't think a year ago, the major data center builders and operators were thinking that the political problems were as bad as they were.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2577.362,
+            2581.967
+          ],
+          "quote": "In a data center, but it would be dumb for them to use expensive memory to store that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "quantization",
+      "type": "concept",
+      "role": "concept",
+      "name": "量化 (quantization)",
+      "file": "量化",
+      "primary": true,
+      "how_described": "本集说是压缩的核心手段：用更少比特表示数值，从 FP16 压到约 4.5 比特/值是先进水平；朴素压缩会让基准掉 20-30%，先进方案能把损失控制在 1% 以内。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 378,
+          "t": [
+            2161.24,
+            2162.801
+          ],
+          "quote": "So one is quantization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2260.825,
+            2270.369
+          ],
+          "quote": "But advanced quantization techniques actually say, okay, these 16 values, I'm able to have a shared bias and a multiplier for it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "规模定律 (scaling laws)",
+      "file": "规模定律",
+      "primary": true,
+      "how_described": "本集说过去十年证明参数和 flops 越多模型越好，GPT-3 证明堆参数真有用；但它是观察到的「定律」而非数学证明，Thomas 基于它没放缓的迹象看多模型规模继续增长到 50 万亿、100 万亿参数。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            320.149,
+            331.613
+          ],
+          "quote": "And more or less, you know, the amazing thing that the scaling laws of the past decade have shown is that the more parameters you add to a network and the more flops you dedicate to that during training, the better that that model is going to become.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2870.27,
+            2893.375
+          ],
+          "quote": "So there's the increase of the model sizes, which I think the thing that would be shared by a lot of people in the AI space is it's kind of a gut feel where based on the fact that we have seen these scaling laws, like we call them scaling laws, the fact that going from a hundred million to a billion to 10 billion, 100 billion, one trillion per annum rolls, we've seen this amazing increase in capabilities with that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2921.651,
+            2925.373
+          ],
+          "quote": "What does scaling laws look like at three times what it is now?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "export-controls",
+      "type": "concept",
+      "role": "concept",
+      "name": "出口管制 (export controls)",
+      "file": "出口管制",
+      "primary": false,
+      "how_described": "本集说出口管制框架只盯着 flops，且中国被管制卡住最高端芯片后反而在算法上创新（MLA、gated DeltaNet），证明它不是好的长期方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 211,
+          "t": [
+            1177.428,
+            1190.815
+          ],
+          "quote": "And that when it comes to AI technology, there's not the acceptance that export controls and all of the other elements that theoretically would allow us to pace and have people keep paces behind us just aren't good long-term solutions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1191.175,
+            1192.936
+          ],
+          "quote": "Do you think we should have export controls?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3425.068,
+            3428.992
+          ],
+          "quote": "They had export controls on the chips with the highest memory capacity and flops.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":4,"MongoDB":4,"Voyage AI":1,"Anthropic":127,"Eleven Labs":6,"Uber":9,"智能体":269,"智能体记忆":2,"RAG":12,"嵌入模型":2}</script>
+<script type="application/json" class="pd-epn">{"Nathan":4,"MongoDB":4,"Voyage AI":1,"Anthropic":128,"Eleven Labs":6,"Uber":9,"智能体":270,"智能体记忆":2,"RAG":12,"嵌入模型":2}</script>
 
 <script>
 (function(){

@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tolan":2,"智能体":269,"延迟":3,"记忆":13,"上下文":17,"Claude":60,"检索":3,"LLM":34}</script>
+<script type="application/json" class="pd-epn">{"Tolan":2,"智能体":270,"延迟":3,"记忆":13,"上下文":17,"Claude":60,"检索":3,"LLM":34}</script>
 
 <script>
 (function(){

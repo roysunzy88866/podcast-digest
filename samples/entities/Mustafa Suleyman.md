@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":10,"Inflection AI":1,"Microsoft":25,"Pi":2,"Copilot":11,"OpenAI":120,"AGI":23,"图灵测试":2,"基于人类反馈的强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"Seth Rosenberg":1,"DeepMind":10,"Inflection AI":1,"Microsoft":25,"Pi":2,"Copilot":11,"OpenAI":121,"AGI":23,"图灵测试":2,"基于人类反馈的强化学习":1}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"生成式媒体":1,"微剧":1,"智能体":269,"创作者经济":1,"Town":3,"a16z":14,"Netflix":4,"Amazon":12,"OpenAI":120,"Anthropic":127}</script>
+<script type="application/json" class="pd-epn">{"生成式媒体":1,"微剧":1,"智能体":270,"创作者经济":1,"Town":3,"a16z":14,"Netflix":4,"Amazon":12,"OpenAI":121,"Anthropic":128}</script>
 
 <script>
 (function(){

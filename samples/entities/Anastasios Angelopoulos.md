@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mamoun Hamid":1,"Jubin":1,"arena":2,"评估":2,"基准测试":11,"开源":23,"智能体":269,"Kimi":1,"排行榜":1,"OpenAI":120}</script>
+<script type="application/json" class="pd-epn">{"Mamoun Hamid":1,"Jubin":1,"arena":2,"评估":2,"基准测试":11,"开源":23,"智能体":270,"Kimi":1,"排行榜":1,"OpenAI":121}</script>
 
 <script>
 (function(){

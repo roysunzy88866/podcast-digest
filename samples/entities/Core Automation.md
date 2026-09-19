@@ -31,7 +31,7 @@ unlisted: true
 
 [[Sonja]] · [[Rohan Anil]] · [[Jerry Tworek]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[Transformer]] · [[强化学习]] · [[预训练]] · [[测试时学习]]
 
-<script type="application/json" class="pd-epn">{"Sonja":1,"Rohan Anil":1,"Jerry Tworek":1,"OpenAI":120,"Google":44,"Anthropic":127,"Transformer":8,"强化学习":17,"预训练":6,"测试时学习":1}</script>
+<script type="application/json" class="pd-epn">{"Sonja":1,"Rohan Anil":1,"Jerry Tworek":1,"OpenAI":121,"Google":44,"Anthropic":128,"Transformer":8,"强化学习":17,"预训练":6,"测试时学习":1}</script>
 
 <script>
 (function(){

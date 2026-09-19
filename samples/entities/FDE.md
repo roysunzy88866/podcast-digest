@@ -35,7 +35,7 @@ unlisted: true
 
 [[工作流]] · [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Alex Lieberman]] · [[Simon Maple]] · [[Ron Gabrisko]] · [[Claire Veau]] · [[Ran Arusi]] · [[Databricks]]
 
-<script type="application/json" class="pd-epn">{"工作流":8,"智能体":269,"Anthropic":127,"OpenAI":120,"Alex Lieberman":1,"Simon Maple":9,"Ron Gabrisko":1,"Claire Veau":1,"Ran Arusi":1,"Databricks":13}</script>
+<script type="application/json" class="pd-epn">{"工作流":8,"智能体":270,"Anthropic":128,"OpenAI":121,"Alex Lieberman":1,"Simon Maple":9,"Ron Gabrisko":1,"Claire Veau":1,"Ran Arusi":1,"Databricks":13}</script>
 
 <script>
 (function(){

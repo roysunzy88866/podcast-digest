@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":269,"子智能体":1,"harness":39,"提示词缓存":2,"记忆":13,"评估":2,"LLM 当裁判":6,"沙箱":52,"人在回路":11}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":270,"子智能体":1,"harness":39,"提示词缓存":2,"记忆":13,"评估":2,"LLM 当裁判":6,"沙箱":52,"人在回路":11}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"LongLake":1,"智能体":269,"异步智能体":1,"同步智能体":1,"AI 同事":1,"沙箱":52,"后训练":26,"持续学习":9,"现实世界的评估":1,"Copilot":11}</script>
+<script type="application/json" class="pd-epn">{"LongLake":1,"智能体":270,"异步智能体":1,"同步智能体":1,"AI 同事":1,"沙箱":52,"后训练":26,"持续学习":9,"现实世界的评估":1,"Copilot":11}</script>
 
 <script>
 (function(){

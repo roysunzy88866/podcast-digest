@@ -1,0 +1,266 @@
+{
+  "episode_id": "2026-07-23-talks-the-philosopher-ceo-clay-co-founder-kare",
+  "podcast": "精选演讲",
+  "date": "2026-07-23",
+  "tags": [
+    "创业心法",
+    "品类创建",
+    "GTM",
+    "CEO 方法论",
+    "公司文化"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "kareem-amin",
+      "type": "person",
+      "role": "host",
+      "name": "Kareem Amin",
+      "file": "Kareem Amin",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "clay",
+      "type": "company",
+      "role": "company",
+      "name": "Clay",
+      "file": "Clay",
+      "primary": true,
+      "how_described": "本集主角：Kareem 创办的数据公司，穿越五年沙漠后找到产品市场契合并爆发，被称为「七年的一夜成名」，做 go-to-market 工程、按用量收费、不拥有数据而是数据市场",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.093,
+            6.035
+          ],
+          "quote": "And I hope that is aligned with what makes Clay successful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 5,
+          "t": [
+            12,
+            20.206
+          ],
+          "quote": "And we did really crazy, you know, Varun, I think he was talking to someone on WhatsApp and the person was having trouble fixing something on Clay.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            53.551,
+            54.651
+          ],
+          "quote": "Clay is ripping.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1275.856,
+            1283.841
+          ],
+          "quote": "But if I tell you to build a feature and it's the wrong feature and you think it's the wrong feature and you know what the right feature is, then what I want is Clay to succeed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 453,
+          "t": [
+            1797.406,
+            1798.888
+          ],
+          "quote": "So if you think about Clay, by the way,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2104.634,
+            2112.216
+          ],
+          "quote": "In fact, you know, our new kind of internal tagline for Clay is go to market infrastructure to grow in ways your competitors can't.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 578,
+          "t": [
+            2217.841,
+            2224.543
+          ],
+          "quote": "The other thing that we did that's super important, by the way, is we have clay clubs in over like 80 places in the world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2348.03,
+            2351.431
+          ],
+          "quote": "I'm not like I am trying to make Clay successful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2354.512,
+            2357.453
+          ],
+          "quote": "And I hope that is aligned with what makes Clay successful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2363.775,
+            2373.818
+          ],
+          "quote": "And we did really crazy, you know, Varun, he's, I think he was talking to someone on WhatsApp and the person was having trouble fixing something on Clay.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "go-to-market-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "市场进入工程 (go-to-market engineering)",
+      "file": "市场进入工程",
+      "primary": true,
+      "how_described": "本集说 Clay 造出的品类：一种看待世界的观点——用系统化方式构建工具、测试假设来运营 go-to-market，AI 时代代码便宜让它更容易",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 397,
+          "t": [
+            1590.745,
+            1602.331
+          ],
+          "quote": "And that still lives on in the fact that we called it go-to-market engineering and to like the idiosyncratic way in which like all the features are built to give you that like maximum power and flexibility.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1665.057,
+            1666.719
+          ],
+          "quote": "You've done the same thing with go-to-market engineering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2075.204,
+            2080.827
+          ],
+          "quote": "Go-to-market engineering, and why I think the category is a category, is that it's a point of view on the world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 704,
+          "t": [
+            2644.798,
+            2649.826
+          ],
+          "quote": "You know, the go-to-market engineering, right, like getting that right.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "type": "concept",
+      "role": "concept",
+      "name": "透明 (transparency)",
+      "file": "透明",
+      "primary": true,
+      "how_described": "本集说「透明等于信任，甚至不只是与它相关」——Clay 定价变更文档逐字是内部会议原话，前提是走对渠道、跟对的人沟通",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 405,
+          "t": [
+            1638.57,
+            1645.057
+          ],
+          "quote": "But at the moment, the best technology is put everything together, give you transparency and speed up that process.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 679,
+          "t": [
+            2567.296,
+            2568.457
+          ],
+          "quote": "Transparency equals trust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 684,
+          "t": [
+            2575.841,
+            2578.283
+          ],
+          "quote": "Otherwise, the transparency could actually be damaging to you.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "plg",
+      "type": "concept",
+      "role": "concept",
+      "name": "PLG",
+      "file": "PLG",
+      "primary": false,
+      "how_described": "本集说产品驱动增长是 Clay 不可更改的核心决策之一：靠用户自己上手折腾来获客，尽管强大产品做 PLG 很难",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 474,
+          "t": [
+            1862.212,
+            1864.632
+          ],
+          "quote": "And it was super important for me for it to be PLG, by the way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            1864.952,
+            1870.193
+          ],
+          "quote": "That's another reason why it took so long, because this is a very difficult product to make it usable via PLG.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 476,
+          "t": [
+            1870.253,
+            1872.734
+          ],
+          "quote": "Hard to use in PLG typically don't fit.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "category creation",
+      "reason": "专名「category creation」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "usage-based pricing",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

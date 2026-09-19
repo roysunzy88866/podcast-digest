@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Neoclouds":1,"Fireworks":4,"前沿模型":16,"开源模型":19,"沙箱":52,"智能体":269,"推理":46,"Docker":3,"GPU":16}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Neoclouds":1,"Fireworks":4,"前沿模型":16,"开源模型":19,"沙箱":52,"智能体":270,"推理":47,"Docker":3,"GPU":16}</script>
 
 <script>
 (function(){

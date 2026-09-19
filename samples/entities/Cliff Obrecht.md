@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":2,"Canva":4,"智能体循环":3,"免费增值":2,"推理":46,"模板":2,"SEO":7,"人在回路":11}</script>
+<script type="application/json" class="pd-epn">{"John Collison":2,"Canva":4,"智能体循环":3,"免费增值":2,"推理":47,"模板":2,"SEO":7,"人在回路":11}</script>
 
 <script>
 (function(){

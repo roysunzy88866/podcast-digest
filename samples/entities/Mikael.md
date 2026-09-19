@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":3,"OLX Classifieds":1,"OpenClaw":18,"Hermes":2,"智能体":269,"知识图谱":3,"向量数据库":2,"混合搜索":2,"自动技能生成":1,"指令库":1}</script>
+<script type="application/json" class="pd-epn">{"Aakash":3,"OLX Classifieds":1,"OpenClaw":18,"Hermes":2,"智能体":270,"知识图谱":3,"向量数据库":2,"混合搜索":2,"自动技能生成":1,"指令库":1}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":51,"智能体":269,"Intercom":6,"Ryan Carson":1,"Muse":1,"ChatPRD":5,"Devon":3,"Meta":32,"Vercel":17,"Cognition":17}</script>
+<script type="application/json" class="pd-epn">{"Codex":51,"智能体":270,"Intercom":6,"Ryan Carson":1,"Muse":1,"ChatPRD":5,"Devon":3,"Meta":32,"Vercel":17,"Cognition":17}</script>
 
 <script>
 (function(){

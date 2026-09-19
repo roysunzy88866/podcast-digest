@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tim Sanders":1,"G2":1,"ChatGPT":69,"Gemini":9,"Claude":60,"OpenAI":120,"Reddit":6,"智能体":269,"AEO":5,"验证层":1}</script>
+<script type="application/json" class="pd-epn">{"Tim Sanders":1,"G2":1,"ChatGPT":69,"Gemini":9,"Claude":60,"OpenAI":121,"Reddit":6,"智能体":270,"AEO":5,"验证层":1}</script>
 
 <script>
 (function(){

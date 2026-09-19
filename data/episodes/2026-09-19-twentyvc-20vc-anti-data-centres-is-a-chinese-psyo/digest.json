@@ -1,0 +1,208 @@
+{
+  "title_zh": "推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争",
+  "tldr": "Positron AI 联合创始人 Thomas Somers 解释 AI 推理的硬件经济学：为什么推理是内存受限、缓存 token 利润有多离谱，以及他为何反对「守住前沿」。",
+  "digest_md": "这一集聊的是支撑整个 AI 经济的底层：推理基础设施——也就是模型训练完之后、每天给全世界用户生成回答所需要的硬件。主角是 Thomas Somers,推理芯片公司 Positron AI 的联合创始人兼董事长，他们刚以 50 亿美元估值完成 8.75 亿美元的 C 轮融资。他在这集里毫不保留：从「内存墙」讲到 Anthropic 的 API 毛利率，再到他为什么总体上反对「守住前沿」(pace the frontier,即最大的模型提供商提议放慢前沿模型研发节奏)的整个方向。\n\n## 推理和训练是两种完全不同的活\n\n训练从底层看是计算受限的问题：flops(每秒浮点运算次数)越多越好，因为有全部训练数据在手，可以大规模并行碾压。但推理是生成式的——你不知道往下第五个词是什么，每个 token 都必须按顺序、没有预知地自回归生成，而每生成一个 token 都要完整读一遍模型权重。所以推理是重度内存受限的问题，没法像训练那样并行 [05:05-07:03 Thomas Somers]。\n\n这就是「内存墙」的体现：这个词在 AI 热潮前就有，但过去十年它变成了尖锐矛盾。从 2014 到 2024,单块 NVIDIA GPU 的 flops 提升了约 120 倍，内存带宽却只提升 17 倍 [07:41 Thomas Somers]。原因是芯片上的 SRAM(静态内存)单元过去约 15 年基本没随摩尔定律缩小，而且 2010 年代的主流模型(CNN 时代)本来就是计算受限的，整个行业没有动机去优化内存——直到 transformer 和 GPT-3 证明堆参数真的有用 [08:42-10:39 Thomas Somers]。\n\n## 缓存 token 是印钞机\n\ntoken 经济里最被低估的事实：处理一个缓存命中的 token,成本只有真正重新计算的千分之一量级，而几乎所有提供商都在向用户收缓存写入费(费率比普通输入还高)和缓存读取费(看似便宜，实则利润惊人)[11:05-11:56 Thomas Somers]。这解释了为什么据报道 Anthropic 的 API 业务毛利高达 80 个点。Thomas 对此并不惊讶，且相信竞争会把利润率压下来；他更惊讶的是还有人认为 OpenAI、Anthropic 是「烧钱将死」的生意——如果他们停止训练，一夜之间就能巨额盈利 [12:32-12:53 Thomas Somers]。他开玩笑说，「守住前沿」的讨论像是 IPO 前降成本的好借口，但他不认为任何人真需要这么做。\n\n## 为什么他反对「守住前沿」\n\nThomas 有两大担忧。一是推动暂停等于给卢德派(反对新技术的人)递弹药，助长那些想彻底叫停技术的力量。二是他最担心的 AI 结局：技术和能力集中在少数人手里——「让矩阵乘法变得需要合法许可」，会把人类拖回启蒙运动之前的水平；大玩家会成为新的领主和国王，其他所有人重回农奴 [14:03-15:23 Thomas Somers]。\n\n至于 Motive,他毫不客气：除了 Dario 和 Anthropic 内部的大多数「真信徒」，其他人支持放缓各有算盘——Zuck 想让对手去做合规、Sam 有理由不 IPO、Elon 想要追赶时间 [15:26-15:44 Harry Stebbings / Thomas Somers 认同]。更天真的是以为西方能单方面踩刹车：「除非全球 AI 社区一起踩，否则你没法守住前沿，而我不认为普京会签字。」[18:39 Harry Stebbings, Thomas Somers 表示同意] 他还批评西方以为领先太多不可能被追上，就像为上一场战争建军。\n\n## 反数据中心情绪是战略自杀\n\n政治光谱上最让他害怕的：反数据中心成了左右两派几乎团结一致的议题——「我认为这几乎完全是一场中国的心理战」[21:35 Thomas Somers]。理由：早期流传的数据中心用水数据大量是错的，现代数据中心多为闭环液冷，高尔夫球场的用水量高出几个数量级；而中国一边坐看西方基于虚假信息内耗，一边狂建吉瓦级新发电容量和巨型数据中心。更荒谬的是监管：数据中心其实不可能从已分配给民宅的电力里取电，新建的数据中心自带发电能力，本可以接入电网压低所有人的电价，却被挡在外面；电力公司还在游说反对新增发电容量，因为更多容量会降价 [25:41-26:40 Thomas Somers]。\n\n## KV 缓存：推理经济的真正杠杆\n\nKV 缓存(把模型内部随对话生成的两个中间矩阵存下来、避免对已处理内容重复计算)是推理省钱的核心。关键发现：业界最有价值的工作负载恰好高度可缓存——Semi-Analysis 基于 Claude Code 会话的 AgentX 基准显示，智能体编码会话中约 96% 的 token 都是缓存命中的 [39:05-39:35 Thomas Somers]。这带来一个残酷的内存权衡：GPT-4 级别的模型权重约 900 GB,但长上下文下单个用户会话可达上百 GB——只要 50 个用户，用户上下文就超过模型权重本身 [39:54-40:36 Thomas Somers]。所以业界用分层存储：活跃会话放加速器内存，刚离开的放主机内存(约 4-10 倍容量)，更久远的放 NVMe 闪存乃至慢速 SSD。压缩则靠量化(用更少的比特表示数值)：从 FP16 压到约 4.5 比特/值是先进水平，朴素压缩会让基准掉 20-30%,先进方案能控制在 1% 以内的损失 [37:27-38:31 Thomas Somers]。\n\n## 上下文长度才是智能体真正的瓶颈\n\nThomas 认为要做出能接管整个程序员团队的智能体，主要限制不是模型能力，而是它能装下多少上下文。百万 token 现在是常态，但离装下大代码库还很远；有 1000 万 token 上下文才够装多个大代码库并交叉启发 [58:47 Thomas Somers]。难点是二次方增长的内存成本，而破解方向——线性注意力、稀疏注意力——主要由中国的模型实验室做出，因为他们被出口管制卡住了最高端芯片，只能在算法上创新：DeepSeek 的多头潜在注意力(MLA)大幅压缩 KV 缓存，gated DeltaNet 能把注意力部分耗时砍约 75% [56:42-57:50 Thomas Somers]。但他提醒：MLA 不是免费午餐，会付出模型能力代价——这也是为什么没有一家美国大厂在用 [58:02-58:30 Thomas Somers]。另外，宣称支持长上下文和真正用好它是两回事：GPT 5.6 在「大海捞针」长上下文测试里只有约 70% 正确率，GPT 6 Astra 超过 95% [59:56-60:06 Thomas Somers]。\n\n## 别再只看 token 价格\n\ntoken 价格指数从五年前每百万 60 美元跌破 1 美元，但 Thomas 认为真正的信号是质量：五年前的 token 今天没人肯花一分钱，现在一美元买到的 token 价值高出天文数字——单位智能的价值可能接近千倍增长，而不只是 60 倍降价 [60:33-62:27 Thomas Somers]。定价方式也在变:Greg Brockman 说 OpenAI 不会用 token 定价太久，想转向按有效结果计费；Thomas 认为 token 计价因好算成本和利润率会长期保留，但若未来出现超人类的虚拟员工模型，OpenAI 可能干脆按每年几百万美元收「不限量使用权」。\n\n## 他的亲身震撼：AI 走通芯片设计全流程\n\n每次新模型发布，Thomas 都试着让模型完成一个芯片设计任务：从加密模块的规格出发，写 Verilog(硬件描述语言)，走完整个 RTL 到 GDS 流程，得到理论上可流片的设计。过去所有模型都在中途大量失败——因为 EDA 工具(芯片设计软件)是 90 年代设计的，文档根本不在公开网上。而 GPT 6 Astra 用台积电工艺，50 多个小时跑完全流程并在超过 1 千兆赫兹的频率下满足时序；同样的事交给一个新人，跑通要一周，优化到位还要一到两周 [51:43-53:32 Thomas Somers]。他还说 GPT 6 Astra 就是 AGI,最初 24 小时的体验堪比 2022 年第一次用 ChatGPT;并透露他 2022 年就在 NeurIPS 现场看 Sam 和 Ilia 发布 ChatGPT——当时零宣传，只是一句顺带提及 [49:02-49:29 Thomas Somers]。\n\n## 本集带走\n\n- **训练堆算力，推理拼内存**：训练可以并行碾压，推理每个 token 都要读全部权重——「内存墙」(flops 涨 120 倍、带宽只涨 17 倍)是推理成本问题的根源。\n- **缓存是利润命脉**：缓存命中的 token 成本只有约千分之一，智能体编码场景命中率高达 96%——模型厂商高毛利和你的账单结构都由它决定。\n- **「AI 烧钱将死」是误读**：训练费用是大头，停训即大幅盈利；真正的宏观风险不是公司债，而是主权债务与货币贬值。\n- **反数据中心情绪建立在对用水量的误传上**：现代数据中心多为闭环液冷，且自带发电能力本可压低电网价格，限制接入才是推高电价的原因。\n- **更长上下文 = 更强智能体**：百万 token 远不够装大代码库；中国实验室的线性/稀疏注意力创新(MLA、gated DeltaNet)在破解二次方成本，但都付出能力代价。\n- **看模型进步别只盯价格**：token 降 60 倍的同时质量涨了约百倍——单位智能价值可能接近千倍提升，按「每个有效结果」计费才是趋势方向。",
+  "quotes": [
+    {
+      "en": "between 2014, just very early innings of the new AI era till 2024, you had about 120x improvement in the flops of GPUs.",
+      "zh": "从 2014 年，也就是新 AI 时代非常早期的阶段，到 2024 年，GPUs 的 flops 提升了大约 120 倍",
+      "timestamp": "07:43",
+      "speaker": "Thomas Sohmers"
+    },
+    {
+      "en": "both processing a cash token is essentially free. It's one one thousandth of the cost, you know, order of magnitude of actually having to recompute and generate that token.",
+      "zh": "处理一个缓存命中的 token 基本是免费的。它的成本是真正重新计算并生成那个 token 的千分之一量级",
+      "timestamp": "11:25",
+      "speaker": "Thomas Sohmers"
+    },
+    {
+      "en": "there's a reason why Anthropic is reported to have 80 points of gross margin right now on API business.",
+      "zh": "这也解释了为什么据报道 Anthropic 目前在 API 业务上有 80 个点的毛利润率",
+      "timestamp": "12:03",
+      "speaker": "Thomas Sohmers"
+    },
+    {
+      "en": "if they stopped training, they'd be massively profitable overnight.",
+      "zh": "如果他们停止训练，他们会一夜之间实现巨额盈利",
+      "timestamp": "12:49",
+      "speaker": "Thomas Sohmers"
+    },
+    {
+      "en": "the concentration of technological capability, making it legal to do matrix multiplications is like the thing that will set us back to pre, not just industrial revolution, it's like pre-enlightenment capabilities.",
+      "zh": "技术能力的集中，让矩阵乘法变得需要合法许可，这会把我们倒退到前——不只是工业革命之前，而是启蒙运动之前的能力水平",
+      "timestamp": "14:46",
+      "speaker": "Thomas Sohmers"
+    },
+    {
+      "en": "if the technology itself is restricted to just those, then they're going to be the new lords and kings and everyone else is back to serfs.",
+      "zh": "如果技术本身被限制在只有那些人手里，那么他们就会成为新的领主和国王，其他所有人重新沦为农奴",
+      "timestamp": "15:14",
+      "speaker": "Thomas Sohmers"
+    },
+    {
+      "en": "You can't pace the frontier unless the global AI community paces the frontier, and I don't see Putin signing up.",
+      "zh": "除非全球 AI 社区一起守住前沿，否则你没法守住前沿，而我不认为普京会签字加入",
+      "timestamp": "18:39",
+      "speaker": "Harry Stebbings"
+    },
+    {
+      "en": "it's now become a almost unifying issue on left and right about being anti-data centers. I think that is almost entirely a Chinese psyop.",
+      "zh": "它现在已经成为左右两派几乎团结一致的议题——反数据中心。我认为这几乎完全是一场中国的心理战",
+      "timestamp": "21:40",
+      "speaker": "Thomas Sohmers"
+    },
+    {
+      "en": "And we're just not allowing them to hook up to the grid. Where they could actually be lowering the prices for everyone.",
+      "zh": "而我们只是不允许它们接入电网。而它们实际上本可以降低所有人的价格",
+      "timestamp": "26:22",
+      "speaker": "Thomas Sohmers"
+    },
+    {
+      "en": "about 96% of all the tokens that go through these entire sessions are cached.",
+      "zh": "贯穿这些整个会话的所有 token 里，大约有 96% 是被缓存的",
+      "timestamp": "39:29",
+      "speaker": "Thomas Sohmers"
+    },
+    {
+      "en": "with just 50 users on your service, the user context, just those individual sessions end up being greater than the model weights that you're trying to store.",
+      "zh": "只要在服务上有 50 个用户，仅仅是这些单独的用户会话，就会超过你试图存储的模型权重",
+      "timestamp": "40:27",
+      "speaker": "Thomas Sohmers"
+    },
+    {
+      "en": "gated DeltaNet and its derivative versions where you can have like a 75% decrease in the total time you're spending on the attention portion with this mechanism.",
+      "zh": "gated DeltaNet 及其衍生版本，通过这种机制，你在注意力部分花费的总时间可以减少大约 75%",
+      "timestamp": "57:38",
+      "speaker": "Thomas Sohmers"
+    },
+    {
+      "en": "the thing I care a lot more about than just that 60 to one is the fact that a $60 token five years ago, no one would pay a cent for today.",
+      "zh": "比起那个 60 比 1,我更在意的是，五年前 60 美元的那个 token，今天没有人愿意花一分钱",
+      "timestamp": "60:33",
+      "speaker": "Thomas Sohmers"
+    },
+    {
+      "en": "So compressing that two to three weeks down to two days and change, it's still mind-boggling.",
+      "zh": "把那两到三周压缩到两天多一点，这仍然令人瞠目结舌",
+      "timestamp": "53:26",
+      "speaker": "Thomas Sohmers"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "05:47",
+      "speaker": "Thomas Somers",
+      "en": "Inference portion of it is heavily, heavily memory bound due to the fact that basically for every single token that's generated, every little bit of output, that requires going through the weights",
+      "zh": "推理部分是重度、重度内存受限的，因为基本上生成的每一个 token、每一小段输出，都需要遍历权重"
+    },
+    {
+      "timestamp": "07:41",
+      "speaker": "Thomas Somers",
+      "en": "between 2014, just very early innings of the new AI era till 2024, you had about 120x improvement in the flops of GPUs.",
+      "zh": "从 2014 年，也就是新 AI 时代非常早期的阶段，到 2024 年，GPUs 的 flops 提升了大约 120 倍"
+    },
+    {
+      "timestamp": "08:03",
+      "speaker": "Thomas Somers",
+      "en": "The improvement in memory bandwidth is only 17x.",
+      "zh": "而内存带宽的改进只有 17 倍"
+    },
+    {
+      "timestamp": "11:28",
+      "speaker": "Thomas Somers",
+      "en": "both processing a cash token is essentially free. It's one one thousandth of the cost, you know, order of magnitude of actually having to recompute and generate that token.",
+      "zh": "处理一个缓存命中的 token 基本是免费的。它的成本是真正重新计算并生成那个 token 的千分之一量级"
+    },
+    {
+      "timestamp": "12:02",
+      "speaker": "Thomas Somers",
+      "en": "there's a reason why Anthropic is reported to have 80 points of gross margin right now on API business.",
+      "zh": "这也解释了为什么据报道 Anthropic 目前在 API 业务上有 80 个点的毛利润率"
+    },
+    {
+      "timestamp": "12:49",
+      "speaker": "Thomas Somers",
+      "en": "if they stopped training, they'd be massively profitable overnight.",
+      "zh": "如果他们停止训练，他们会一夜之间实现巨额盈利"
+    },
+    {
+      "timestamp": "13:02",
+      "speaker": "Thomas Somers",
+      "en": "A little bit of the pacing the frontier discussion is, oh, this is a great way to reduce costs ahead of IPO.",
+      "zh": "放慢前沿的讨论，有点像是，哦，这是在 IPO 之前降低成本的好办法"
+    },
+    {
+      "timestamp": "14:46",
+      "speaker": "Thomas Somers",
+      "en": "the concentration of technological capability, making it legal to do matrix multiplications is like the thing that will set us back to pre, not just industrial revolution, it's like pre-enlightenment capabilities.",
+      "zh": "技术能力的集中，让矩阵乘法变得需要合法许可，这会把我们倒退到前——不只是工业革命之前，而是启蒙运动之前的能力水平"
+    },
+    {
+      "timestamp": "15:08",
+      "speaker": "Thomas Somers",
+      "en": "if the technology itself is restricted to just those, then they're going to be the new lords and kings and everyone else is back to serfs.",
+      "zh": "如果技术本身被限制在只有那些人手里，那么他们就会成为新的领主和国王，其他所有人重新沦为农奴"
+    },
+    {
+      "timestamp": "16:56",
+      "speaker": "Thomas Somers",
+      "en": "I would love to see his reaction if and when that actually happens.",
+      "zh": "如果这真的发生了，我很想看看他的反应"
+    },
+    {
+      "timestamp": "18:39",
+      "speaker": "Harry Stebbings",
+      "en": "You can't pace the frontier unless the global AI community paces the frontier, and I don't see Putin signing up.",
+      "zh": "除非全球 AI 社区一起守住前沿，否则你没法守住前沿，而我不认为普京会签字加入"
+    },
+    {
+      "timestamp": "21:45",
+      "speaker": "Thomas Somers",
+      "en": "it's now become a almost unifying issue on left and right about being anti-data centers. I think that is almost entirely a Chinese psyop.",
+      "zh": "它现在已经成为左右两派几乎团结一致的议题——反数据中心。我认为这几乎完全是一场中国的心理战"
+    },
+    {
+      "timestamp": "26:25",
+      "speaker": "Thomas Somers",
+      "en": "And we're just not allowing them to hook up to the grid. Where they could actually be lowering the prices for everyone.",
+      "zh": "而我们只是不允许它们接入电网。而它们实际上本可以降低所有人的价格"
+    },
+    {
+      "timestamp": "39:21",
+      "speaker": "Thomas Somers",
+      "en": "about 96% of all the tokens that go through these entire sessions are cached.",
+      "zh": "贯穿这些整个会话的所有 token 里，大约有 96% 是被缓存的"
+    },
+    {
+      "timestamp": "40:27",
+      "speaker": "Thomas Somers",
+      "en": "with just 50 users on your service, the user context, just those individual sessions end up being greater than the model weights that you're trying to store.",
+      "zh": "只要在服务上有 50 个用户，仅仅是这些单独的用户会话，就会超过你试图存储的模型权重"
+    },
+    {
+      "timestamp": "57:34",
+      "speaker": "Thomas Somers",
+      "en": "gated DeltaNet and its derivative versions where you can have like a 75% decrease in the total time you're spending on the attention portion with this mechanism.",
+      "zh": "gated DeltaNet 及其衍生版本，通过这种机制，你在注意力部分花费的总时间可以减少大约 75%"
+    },
+    {
+      "timestamp": "58:10",
+      "speaker": "Thomas Somers",
+      "en": "there's a reason why the Chinese labs have really heavily embraced MLA while none of the US labs have.",
+      "zh": "这就是为什么中国的实验室大力拥抱 MLA,而美国的实验室没有一个这么做的原因"
+    },
+    {
+      "timestamp": "60:33",
+      "speaker": "Thomas Somers",
+      "en": "the thing I care a lot more about than just that 60 to one is the fact that a $60 token five years ago, no one would pay a cent for today.",
+      "zh": "比起那个 60 比 1,我更在意的是，五年前 60 美元的那个 token，今天没有人愿意花一分钱"
+    },
+    {
+      "timestamp": "53:32",
+      "speaker": "Thomas Somers",
+      "en": "So compressing that two to three weeks down to two days and change, it's still mind-boggling.",
+      "zh": "把那两到三周压缩到两天多一点，这仍然令人瞠目结舌"
+    }
+  ],
+  "voice_script": "今天聊一个人，Thomas Somers，推理芯片公司 Positron AI 的联合创始人兼董事长。这家公司刚以 50 亿美元的估值完成了 8.75 亿美元的 C 轮融资。这期节目里，聊的是一个撑起整个 AI 经济、却很少被认真讲透的东西：推理基础设施。什么叫推理？就是模型训练完之后，每天给全世界用户生成回答所需要的那套硬件和生意。训练你天天听人说，推理才是真正每天在花钱、也在赚钱的环节。而 Thomas 的核心论点是：推理才是赚钱的生意，而且这里面的经济学，跟大多数人想的完全不一样。\n\n要听懂这件事，得先明白一个底层区别。训练和推理，看起来都是跑模型，其实是两种完全不同的活。训练从底层看是计算受限的问题，只要算力够多，把全部训练数据并行碾压过去就行。但推理不一样，推理是生成式的。你不知道下一个词是什么，每个 token，也就是模型输出的最小文字单元，都必须一个接一个按顺序生成。而关键在于，每生成一个 token，都要把整个模型权重完整读一遍内存。所以说白了，训练拼的是算力，推理拼的是内存。这就是所谓的「内存墙」——内存跟不上计算的速度。\n\n这个词在 AI 热潮之前就有，但过去十年它变成了尖锐矛盾。有组数字特别能说明问题：从 2014 年到 2024 年，单块 NVIDIA GPU 的算力提升了大约 120 倍，内存带宽却只提升了 17 倍。为什么差这么多？因为芯片上的静态内存单元，过去约 15 年基本没跟着摩尔定律缩小；再加上 2010 年代的主流模型本来就是计算受限的，整个行业没有动机去优化内存。直到 transformer 和 GPT-3 证明了堆参数真的有用，内存的问题才一下子变得要命。\n\n好，理解了推理拼内存，接下来就能看懂这个行当里最离谱的一件事：缓存 token 有多赚钱。这里说的缓存，是把已经处理过的内容存下来，下次不用重新算。业内一个最被低估的事实是：处理一个缓存命中的 token，成本只有真正重新计算的千分之一量级，基本等于免费。但几乎所有提供商都在向用户收缓存写入费，费率比普通输入还高，同时收缓存读取费——看着便宜，其实利润惊人。这组数字放在一起，就能解释为什么据报道 Anthropic 的 API 业务毛利率高达 80 个点。Thomas 对这个毛利率毫不惊讶，他相信竞争会把利润压下来；真正让他惊讶的是，居然还有人认为 OpenAI 和 Anthropic 是烧钱将死的生意。道理很简单，训练费用才是大头，如果他们停止训练，会一夜之间实现巨额盈利。所以还开玩笑说，「守住前沿」这种讨论，像是 IPO 前降成本的好借口。\n\n说到「守住前沿」，这里得交代一下背景：这是最大的模型提供商提出的一个主张，意思是放慢前沿模型的研发节奏。Thomas 总体上反对，理由有两个。第一，推动暂停，等于给反对新技术的人递弹药，助长那些想彻底叫停技术的力量。第二个担忧更深：他最怕的 AI 结局，是技术和能力集中在少数人手里。用他的话说，如果有一天连矩阵乘法都需要合法许可，那不是倒退到工业革命之前，而是倒退到启蒙运动之前；掌握技术的那几个大玩家会成为新的领主和国王，其他所有人重新沦为农奴。至于那些推动放缓的具体人物，话就更不客气了：除了 Anthropic 内部的多数真信徒，其他人各有算盘——Zuck 想让对手去做合规，Sam 有理由不急着 IPO，Elon 想要追赶时间。更天真的是以为西方能单方面踩刹车，因为除非全球一起踩，否则根本守不住，而普京不会签字。\n\n顺着这个话题，还有一个政治层面的担忧：反数据中心情绪。这是当下少有的能让左右两派几乎团结一致的议题，而 Thomas 认为这几乎完全是一场中国的心理战。为什么这么说？早期流传的数据中心用水数据大量是错的——现代数据中心多是闭环液冷，高尔夫球场的用水量比它高出几个数量级。中国一边坐看西方基于虚假信息内耗，一边狂建吉瓦级的新发电容量和巨型数据中心。更荒谬的是监管逻辑：数据中心不可能从已分配给民宅的电力里取电，很多新建的数据中心自带发电能力，本可以接入电网、压低所有人的电价，结果却被挡在外面。电力公司还在游说反对新增发电容量，因为更多容量会降价。\n\n那既然推理拼内存，缓存又是利润命脉，业内的钱到底怎么省？这就要说到 KV 缓存——把模型内部随对话生成的两个中间矩阵存下来，避免对已处理内容重复计算。有个关键发现：业界最有价值的工作负载，恰好高度可缓存。基于 Claude Code 会话的基准测试显示，智能体编码会话里约 96% 的 token 都是缓存命中的。这带来一个残酷的内存权衡：GPT-4 级别的模型权重约 900 GB，但长上下文下单个用户会话可达上百 GB——只要 50 个用户，用户的上下文加起来就超过模型权重本身。所以业界只能做分层存储：活跃会话放加速器内存，刚离开的放主机内存，更久远的放到闪存里。压缩则靠量化，也就是用更少的比特表示数值——压到每个值约 4.5 比特是先进水平，能把损失控制在 1% 以内，朴素压缩会让基准掉 20 到 30 个点。\n\n再往深一层看，Thomas 认为要做出能接管整个程序员团队的智能体，主要瓶颈不是模型能力，而是上下文长度——模型一次能装下多少内容。百万 token 现在是常态，但离装下一个大代码库还很远；得有 1000 万 token，才够装多个大代码库并交叉启发。难点是内存成本随长度二次方增长，而破解方向——线性注意力、稀疏注意力——主要是中国的模型实验室做出来的。因为他们被出口管制卡住了最高端芯片，只能在算法上创新，比如大幅压缩 KV 缓存的 MLA，还有能把注意力耗时砍约 75% 的 gated DeltaNet。不过有个提醒：MLA 不是免费午餐，会付出模型能力的代价，这也是为什么没有一家美国大厂在用。\n\n最后再说一个视角的转换。token 价格从五年前每百万 60 美元跌破了 1 美元，但 Thomas 认为真正的信号是质量：五年前的 token，今天没人肯花一分钱；现在一美元买到的 token，价值高出天文数字。单位智能的价值可能接近千倍增长，而不只是 60 倍降价。定价方式也在跟着变，OpenAI 已经表示不会用 token 定价太久，想转向按有效结果计费——如果未来出现超人类的虚拟员工，可能干脆按每年几百万美元收不限量使用权。\n\n这期听完，记住一句话就够了：训练堆算力，推理拼内存——看懂内存和缓存，才看得懂 AI 这门生意到底钱从哪来、往哪去。"
+}

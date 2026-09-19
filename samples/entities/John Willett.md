@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Rogo":1,"Foundation":2,"Basis":1,"Greylock":1,"Retool":1,"Devin":3,"智能体":269,"推理模型":2,"护城河":11,"标准操作程序":1}</script>
+<script type="application/json" class="pd-epn">{"Rogo":1,"Foundation":2,"Basis":1,"Greylock":1,"Retool":1,"Devin":3,"智能体":270,"推理模型":2,"护城河":11,"标准操作程序":1}</script>
 
 <script>
 (function(){

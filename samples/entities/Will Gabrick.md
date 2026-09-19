@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":3,"Stripe":32,"Stripe Minions":1,"智能体":269,"智能体商务":3,"稳定币":4,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":19}</script>
+<script type="application/json" class="pd-epn">{"David George":3,"Stripe":32,"Stripe Minions":1,"智能体":270,"智能体商务":3,"稳定币":4,"微交易":1,"Tempo":1,"link agent wallet":1,"主观能动性":19}</script>
 
 <script>
 (function(){

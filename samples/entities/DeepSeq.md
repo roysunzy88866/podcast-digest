@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>DeepSeq</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="DeepSeq">DE</div><div class="pi"><h1 class="pt">DeepSeq</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="DeepSeq">DE</div><div class="pi"><h1 class="pt">DeepSeq</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(22:53起):本集提及它（原稿音译为 DeepSeq）作为开源模型的代表，发布时曾引发轰动，但并没有摧毁闭源巨头的商业模式，反而让闭源公司的估值变得更高了。
+- **[[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]]**(57:12起):本集说中国实验室在出口管制下于算法上创新，DeepSeq v3 用多头潜在注意力（MLA）大幅压缩 KV 缓存。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司
+- [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Theo Jaffe]] · [[Ben Horowitz]] · [[Sofia Puccini]] · [[NVIDIA]] · [[Andreessen Horowitz]] · [[Anthropic]] · [[Hugging Face]] · [[Thinking Machines]] · [[Mistral]] · [[开源]]
+[[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[Theo Jaffe]] · [[Thomas Sohmers]] · [[Ben Horowitz]] · [[Harry Stebbings]] · [[Sofia Puccini]] · [[Positron]] · [[Andreessen Horowitz]]
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":6,"Ben Horowitz":4,"Sofia Puccini":4,"NVIDIA":38,"Andreessen Horowitz":1,"Anthropic":127,"Hugging Face":20,"Thinking Machines":1,"Mistral":6,"开源":23}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":39,"Anthropic":128,"OpenAI":121,"Theo Jaffe":6,"Thomas Sohmers":1,"Ben Horowitz":4,"Harry Stebbings":17,"Sofia Puccini":4,"Positron":1,"Andreessen Horowitz":1}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>127</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>128</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -136,10 +136,11 @@ unlisted: true
 - **[[2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe|《分块没死:用多尺度索引把 RAG 提升 20-40%》]]**(10:41起):本集作为先前工作提到:其 Contextual Retrieval 方法给每个块做信息增强,但仍停留在固定块大小的模式里
 - **[[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]]**(31:01起):本集说它与 OpenAI 一样已成大型科技公司，模型会做到最强，但不可能构建一切。
 - **[[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]]**(18:01起):本集中作为前沿实验室被讨论的对象之一：Martin 提出『如果两周后只剩 12 人还加速发模型就该警惕』的试金石，并提及行业要求第三方监管的提议。
+- **[[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]]**(12:02起):本集说其 API 业务据报道毛利高达 80 个点，主因是缓存 token 的惊人利润；Dario 提出「守住前沿」，但 Thomas 认为 Anthropic 内部大多是真信徒，且若停止训练就能一夜之间巨额盈利。
 
 ## ① 提到它的金句
 
-*19 条*
+*20 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q1]]
 
@@ -179,9 +180,11 @@ unlisted: true
 
 ![[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p#^q4]]
 
+![[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo#^q3]]
+
 ## ② 出现在这些集
 
-*127 集*
+*128 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -310,6 +313,7 @@ unlisted: true
 - [[2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe|《分块没死:用多尺度索引把 RAG 提升 20-40%》]] — 作为被讨论公司(提及)
 - [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为被讨论公司(提及)
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]] — 作为被讨论公司(提及)
+- [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -317,7 +321,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[Claude]] · [[NVIDIA]] · [[推理]] · [[Lenny]] · [[Google]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":269,"OpenAI":120,"Claude Code":63,"Cursor":62,"Claude":60,"NVIDIA":38,"推理":46,"Lenny":67,"Google":44,"Meta":32}</script>
+<script type="application/json" class="pd-epn">{"智能体":270,"OpenAI":121,"Claude Code":63,"Cursor":62,"Claude":60,"NVIDIA":39,"推理":47,"Lenny":67,"Google":44,"Meta":32}</script>
 
 <script>
 (function(){

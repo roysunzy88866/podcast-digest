@@ -167,7 +167,7 @@ Joon 的十年答案：今天 AI 造的是“智能单元的 CPU”(一个又大
 
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、推理 (inference)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、产品市场契合度 (product market fit)</span>
-- [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)</span>
+- [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

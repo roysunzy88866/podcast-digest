@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PLG</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PLG">PL</div><div class="pi"><h1 class="pt">PLG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>9</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PLG">PL</div><div class="pi"><h1 class="pt">PLG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>10</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]]**(05:17起):本集把它说成:产品驱动增长的模式(即小企业游戏)。嘉宾警告:如果是 PLG 公司遇到大企业主动上门,绝不能按小企业的低价卖给他们,否则会毁掉企业级扩张的可能。
 - **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]]**(02:23起):被描述为 SaaS 公司起盘的重要引擎，但具有天花板（极少有人通过纯自助购买上百万美元订单）。建议企业不要在 PLG 上等待太久，应及时叠加可复制的销售流程。
 - **[[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]]**(19:44起):本集说 PLG（产品驱动增长）能免费获得企业客户，但从企业端发力不会免费获得 PLG 用户，存在根本的不对称性
+- **[[2026-07-23-talks-the-philosopher-ceo-clay-co-founder-kare|《哲学僧侣式 CEO:Clay 创始人 Kareem 的反主流创业法》]]**(31:02起):本集说产品驱动增长是 Clay 不可更改的核心决策之一：靠用户自己上手折腾来获客，尽管强大产品做 PLG 很难
 - **[[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]]**(31:52起):本集把它说成是过去 15 年主导软件行业的“产品驱动增长”模式（自下而上获客），但随着 AI 兴起和买方寻求根本性新方案，现在到了再次去卖大型平台软件的时机。
 - **[[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]]**(00:10起):本集说 PLG（产品驱动增长）假设你有一个针对人的完美自助服务漏斗，付费是验证你拥有 PLG 的最简单方式，且在智能体时代仍需为智能体做研究优化
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(32:03起):本集说以前认为 PLG 在开发工具领域行不通，但现在因为每个人都想搭智能体，PLG 在 AI 基础设施领域变得火热
@@ -31,11 +32,12 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为概念
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为概念
 - [[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]] — 作为概念(提及)
+- [[2026-07-23-talks-the-philosopher-ceo-clay-co-founder-kare|《哲学僧侣式 CEO:Clay 创始人 Kareem 的反主流创业法》]] — 作为概念(提及)
 - [[2026-08-13-a16z-the-two-ways-to-sell-ai-lighthouse-or-la|《企业 AI 销售两大路线：拿灯塔大客户还是去抢滩中端市场》]] — 作为概念
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|《SaaS增长该抄电商作业：付费广告立刻开打》]] — 作为概念
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为概念(提及)
@@ -49,7 +51,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[OpenAI]] · [[Google]] · [[ChatGPT]] · [[Anthropic]] · [[Claude]] · [[Lenny]] · [[go-to-market]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":269,"Cursor":62,"OpenAI":120,"Google":44,"ChatGPT":69,"Anthropic":127,"Claude":60,"Lenny":67,"go-to-market":8,"推理":46}</script>
+<script type="application/json" class="pd-epn">{"智能体":270,"Cursor":62,"OpenAI":121,"Google":44,"ChatGPT":69,"Anthropic":128,"Claude":60,"Lenny":67,"go-to-market":8,"推理":47}</script>
 
 <script>
 (function(){

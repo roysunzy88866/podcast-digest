@@ -40,7 +40,7 @@ aliases: ["凭感觉编程", "氛围编程"]
 
 [[Harry Stebbings]] · [[Ben Celebicic]] · [[David Morehead]] · [[Hinge]] · [[捐赠基金]] · [[Match Group]] · [[LP]] · [[北极星指标]] · [[GP]] · [[个性化]]
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Ben Celebicic":1,"David Morehead":1,"Hinge":2,"捐赠基金":1,"Match Group":1,"LP":1,"北极星指标":1,"GP":1,"个性化":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Ben Celebicic":1,"David Morehead":1,"Hinge":2,"捐赠基金":1,"Match Group":1,"LP":1,"北极星指标":1,"GP":1,"个性化":1}</script>
 
 <script>
 (function(){

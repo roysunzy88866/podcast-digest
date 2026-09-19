@@ -67,11 +67,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Simon Eskildsen]] [[Jacob Lauritzen]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Simon Eskildsen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Joe Schmidt":2,"Lightfield":2,"Tome":2,"CRM":5,"商业世界模型":1,"活动日志":1,"无 schema":1,"智能体":269,"记录系统":5}</script>
+<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Joe Schmidt":2,"Lightfield":2,"Tome":2,"CRM":5,"商业世界模型":1,"活动日志":1,"无 schema":1,"智能体":270,"记录系统":5}</script>
 
 <script>
 (function(){

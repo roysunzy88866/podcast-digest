@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":38,"Docker":3,"Apple":17,"基准测试":11,"OpenRouter":10,"开源模型":19,"编码智能体":13,"智能体":269,"推理":46}</script>
+<script type="application/json" class="pd-epn">{"Ollama":2,"NVIDIA":39,"Docker":3,"Apple":17,"基准测试":11,"OpenRouter":10,"开源模型":19,"编码智能体":13,"智能体":270,"推理":47}</script>
 
 <script>
 (function(){

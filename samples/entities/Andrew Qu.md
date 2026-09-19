@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":269,"Vercel":17,"Eve":3,"Claude Code":63,"Opus 4.5":2,"沙箱":52,"文件系统智能体":1,"技能":16,"Snowflake":9,"语义层":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":270,"Vercel":17,"Eve":3,"Claude Code":63,"Opus 4.5":2,"沙箱":52,"文件系统智能体":1,"技能":16,"Snowflake":9,"语义层":2}</script>
 
 <script>
 (function(){

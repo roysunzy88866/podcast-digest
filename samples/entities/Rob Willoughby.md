@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":9,"暗工厂":2,"TESL":4,"智能体":269,"验证器":6,"编排器":2,"沙箱":52,"软件工厂":5,"形式化验证":1}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":9,"暗工厂":2,"TESL":4,"智能体":270,"验证器":6,"编排器":2,"沙箱":52,"软件工厂":5,"形式化验证":1}</script>
 
 <script>
 (function(){

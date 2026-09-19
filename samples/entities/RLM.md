@@ -25,7 +25,7 @@ unlisted: true
 
 [[harness]] · [[智能体]] · [[子智能体]] · [[沙箱]] · [[上下文工程]] · [[REPL]] · [[自我改进 harness]] · [[技能]] · [[Prime Agent]] · [[OpenJarvis]]
 
-<script type="application/json" class="pd-epn">{"harness":39,"智能体":269,"子智能体":1,"沙箱":52,"上下文工程":12,"REPL":1,"自我改进 harness":1,"技能":16,"Prime Agent":1,"OpenJarvis":1}</script>
+<script type="application/json" class="pd-epn">{"harness":39,"智能体":270,"子智能体":1,"沙箱":52,"上下文工程":12,"REPL":1,"自我改进 harness":1,"技能":16,"Prime Agent":1,"OpenJarvis":1}</script>
 
 <script>
 (function(){

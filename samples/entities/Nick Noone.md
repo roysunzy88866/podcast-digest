@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Rudolph":2,"Peregrine":2,"Palantir":17,"前置部署工程":3,"智能体":269,"数据治理":1,"反网络效应":1,"本体":3}</script>
+<script type="application/json" class="pd-epn">{"Ben Rudolph":2,"Peregrine":2,"Palantir":17,"前置部署工程":3,"智能体":270,"数据治理":1,"反网络效应":1,"本体":3}</script>
 
 <script>
 (function(){

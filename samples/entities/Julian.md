@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Base 10":1,"推理":46,"专用推理":1,"开源模型":19,"后训练":26,"持续学习":9,"GPU 容量":1,"分布式推理":1,"Cursor":62,"Decagon":7}</script>
+<script type="application/json" class="pd-epn">{"Base 10":1,"推理":47,"专用推理":1,"开源模型":19,"后训练":26,"持续学习":9,"GPU 容量":1,"分布式推理":1,"Cursor":62,"Decagon":7}</script>
 
 <script>
 (function(){

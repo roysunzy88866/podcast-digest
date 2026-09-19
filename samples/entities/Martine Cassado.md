@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":3,"Databricks":13,"Neon":3,"智能体":269,"本体":3,"网络安全":1,"RSI":3,"开源":23,"后训练":26,"harness":39}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":3,"Databricks":13,"Neon":3,"智能体":270,"本体":3,"网络安全":1,"RSI":3,"开源":23,"后训练":26,"harness":39}</script>
 
 <script>
 (function(){

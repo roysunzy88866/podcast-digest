@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":13,"创始人-市场契合度":3,"智能体":269,"模型能力的边缘":1,"垂直化":1,"SaaS":17}</script>
+<script type="application/json" class="pd-epn">{"YC":13,"创始人-市场契合度":3,"智能体":270,"模型能力的边缘":1,"垂直化":1,"SaaS":17}</script>
 
 <script>
 (function(){

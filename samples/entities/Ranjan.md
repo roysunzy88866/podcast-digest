@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]] [[Simon Eskildsen]]
+[[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]] [[Jeff Morris Jr]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ranjan Roy":2,"Meta":32,"Anthropic":127,"OpenAI":120,"Google":44,"NVIDIA":38,"表外承诺":1,"AGI":23,"智能体":269,"IPO":2}</script>
+<script type="application/json" class="pd-epn">{"Ranjan Roy":2,"Meta":32,"Anthropic":128,"OpenAI":121,"Google":44,"NVIDIA":39,"表外承诺":1,"AGI":23,"智能体":270,"IPO":2}</script>
 
 <script>
 (function(){

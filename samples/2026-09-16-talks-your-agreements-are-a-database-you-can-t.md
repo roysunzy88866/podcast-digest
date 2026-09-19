@@ -107,7 +107,7 @@ jsonLd: |
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:NVIDIA · 同概念:Nemotron、开源模型 (open source models)、智能体 (agent)</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:NVIDIA · 同概念:Nemotron、智能体 (agent)</span>
-- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
+- [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争]]<span class="pd-rz">同公司:NVIDIA · 同概念:智能体 (agent)、量化 (quantization)</span>
 
 </div>
 <div class="pd-ex">

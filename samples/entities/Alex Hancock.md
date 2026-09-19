@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
+[[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Block":3,"Goose":2,"Zed":3,"JetBrains":2,"ACP（智能体客户端协议）":1,"MCP":45,"harness":39,"智能体":269}</script>
+<script type="application/json" class="pd-epn">{"Block":3,"Goose":2,"Zed":3,"JetBrains":2,"ACP（智能体客户端协议）":1,"MCP":45,"harness":39,"智能体":270}</script>
 
 <script>
 (function(){
