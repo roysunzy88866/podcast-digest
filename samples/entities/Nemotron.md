@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Nemotron</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Nemotron">NE</div><div class="pi"><h1 class="pt">Nemotron</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Nemotron">NE</div><div class="pi"><h1 class="pt">Nemotron</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(09:47起):本集把它说成:NVIDIA 自己的开源模型,专门为那些出于主权、监管、隐私或核心知识产权原因,必须自建 AI 的公司与行业打造的底座。
 - **[[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]]**(00:37起):NVIDIA 发布的一系列模型,从数据集到权重都与配方一起公开发布,旨在让用户能够轻松进行定制化。
 - **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(04:47起):本集说 NVIDIA 将 Poolside 的 109 名工程师转移到 Nemotron 来帮助构建它，是 NVIDIA 在美国开源模型方向的布局
+- **[[2026-09-16-talks-your-agreements-are-a-database-you-can-t|《每天100万份协议：DocuSign 携手 NVIDIA 把合同表格变成可用数据》]]**(05:10起):本集说它是 NVIDIA 构建世界级开源模型的项目，连数据集、量化、蒸馏、剪枝方法和蓝图全部开源发布；其下 Nemotron Parse 模型专为表格提取打造，比其他开源模型快 20 倍
 
 ## ① 提到它的金句
 
@@ -24,20 +25,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为被讨论公司
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为概念
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|《不靠一个模型打天下:多模型路由的早期探索与实战权衡》]] — 作为概念
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司(提及)
+- [[2026-09-16-talks-your-agreements-are-a-database-you-can-t|《每天100万份协议：DocuSign 携手 NVIDIA 把合同表格变成可用数据》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[NVIDIA]] · [[前沿模型]] · [[护栏]] · [[Anthropic]] · [[OpenAI]] · [[沙箱]] · [[开源模型]] · [[OpenRouter]] · [[Jensen Huang]]
+[[智能体]] · [[NVIDIA]] · [[前沿模型]] · [[开源模型]] · [[护栏]] · [[Anthropic]] · [[OpenAI]] · [[沙箱]] · [[OpenRouter]] · [[Jensen Huang]]
 
-<script type="application/json" class="pd-epn">{"智能体":267,"NVIDIA":37,"前沿模型":16,"护栏":50,"Anthropic":125,"OpenAI":120,"沙箱":51,"开源模型":18,"OpenRouter":10,"Jensen Huang":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":269,"NVIDIA":38,"前沿模型":16,"开源模型":19,"护栏":50,"Anthropic":127,"OpenAI":120,"沙箱":52,"OpenRouter":10,"Jensen Huang":3}</script>
 
 <script>
 (function(){

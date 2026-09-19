@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
+[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":2,"MCP":45,"FastMCP":1,"Prefab":1,"智能体":267,"沙箱":51,"生成式 UI":2,"Claude":60}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":2,"MCP":45,"FastMCP":1,"Prefab":1,"智能体":269,"沙箱":52,"生成式 UI":2,"Claude":60}</script>
 
 <script>
 (function(){

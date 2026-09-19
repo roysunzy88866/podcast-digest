@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
+[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"n8n":1,"智能体":267,"工作流":8,"开源":22,"fair-code":1,"LLM":34,"人在回路":11,"自托管":1,"自带密钥":1,"编排":5}</script>
+<script type="application/json" class="pd-epn">{"n8n":1,"智能体":269,"工作流":8,"开源":23,"fair-code":1,"LLM":34,"人在回路":11,"自托管":1,"自带密钥":1,"编排":5}</script>
 
 <script>
 (function(){

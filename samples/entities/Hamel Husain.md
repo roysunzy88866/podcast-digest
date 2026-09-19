@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
+[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Shreya Shankar":1,"评估":2,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 当裁判":6,"智能体":267,"trace":2,"Anthropic":125}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Shreya Shankar":1,"评估":2,"错误分析":1,"开放式编码":1,"轴向编码":1,"LLM 当裁判":6,"智能体":269,"trace":2,"Anthropic":127}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Tobi Lütke]] · [[Shopify]] · [[River]] · [[智能体]] · [[沙箱]] · [[LLM]] · [[pull request]] · [[超级智能]] · [[古德哈特定律]] · [[Omaki]]
 
-<script type="application/json" class="pd-epn">{"Tobi Lütke":1,"Shopify":9,"River":2,"智能体":267,"沙箱":51,"LLM":34,"pull request":2,"超级智能":4,"古德哈特定律":1,"Omaki":1}</script>
+<script type="application/json" class="pd-epn">{"Tobi Lütke":1,"Shopify":9,"River":2,"智能体":269,"沙箱":52,"LLM":34,"pull request":2,"超级智能":4,"古德哈特定律":1,"Omaki":1}</script>
 
 <script>
 (function(){

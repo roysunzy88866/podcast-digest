@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>vLLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="vLLM">VL</div><div class="pi"><h1 class="pt">vLLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="vLLM">VL</div><div class="pi"><h1 class="pt">vLLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(20:20起):本集在对比推理引擎性能时提及，被列为现成的开源推理引擎之一（另一个是 SGLang），用来和 Modal 的方案做对比。
 - **[[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]]**(01:41起):本集把它说成:开源的推理引擎,任何时刻在五十万个 GPU 上运行,像数据库和操作系统一样驱动整个 AGI 经济的底层基石。
+- **[[2026-09-16-talks-your-agreements-are-a-database-you-can-t|《每天100万份协议：DocuSign 携手 NVIDIA 把合同表格变成可用数据》]]**(07:48起):本集提到它是一种高性能推理服务框架，Nemotron Parse 可以通过它部署
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为概念(提及)
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]] — 作为概念
+- [[2026-09-16-talks-your-agreements-are-a-database-you-can-t|《每天100万份协议：DocuSign 携手 NVIDIA 把合同表格变成可用数据》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[推理]] · [[Swyx]] · [[Elena Berger]] · [[Akshat Bubna]] · [[Simon Mo]] · [[Vibhu]] · [[Matt Bornstein]] · [[Modal]] · [[开源权重]]
+[[智能体]] · [[推理]] · [[Swyx]] · [[Elena Berger]] · [[Hiral Shah]] · [[Akshat Bubna]] · [[Simon Mo]] · [[Sean Sodha]] · [[Vibhu]] · [[Matt Bornstein]]
 
-<script type="application/json" class="pd-epn">{"智能体":267,"推理":46,"Swyx":2,"Elena Berger":3,"Akshat Bubna":1,"Simon Mo":1,"Vibhu":1,"Matt Bornstein":2,"Modal":6,"开源权重":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":269,"推理":46,"Swyx":2,"Elena Berger":3,"Hiral Shah":1,"Akshat Bubna":1,"Simon Mo":1,"Sean Sodha":1,"Vibhu":1,"Matt Bornstein":2}</script>
 
 <script>
 (function(){

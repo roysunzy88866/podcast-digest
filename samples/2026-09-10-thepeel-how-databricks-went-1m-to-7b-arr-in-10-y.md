@@ -159,7 +159,7 @@ Ron 强调创始人要亲自去：「向大公司 CIO 做推销是个大机会�
 
 - [[2026-06-24-latent-space-databricks|Databricks 的反击：重写数据库、统一智能体与开放的执念]]<span class="pd-rz">同公司:Databricks、Spark、Genie · 同概念:智能体 (agent)</span>
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR]]<span class="pd-rz">同公司:Cursor · 同概念:开源 (open source)、按用量定价 (usage-based pricing)、智能体 (agent)</span>
-- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同公司:Cursor · 同概念:数据上下文 (context)、智能体 (agent)</span>
+- [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文]]<span class="pd-rz">同公司:Databricks · 同概念:开源 (open source)、智能体 (agent)</span>
 
 </div>
 </div>

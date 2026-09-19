@@ -123,7 +123,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Cursor]] · [[OpenAI]] · [[推理]] · [[ChatGPT]] · [[NVIDIA]] · [[Codex]] · [[后训练]] · [[OpenRouter]]
 
-<script type="application/json" class="pd-epn">{"智能体":267,"Anthropic":125,"Cursor":62,"OpenAI":120,"推理":46,"ChatGPT":69,"NVIDIA":37,"Codex":51,"后训练":25,"OpenRouter":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":269,"Anthropic":127,"Cursor":62,"OpenAI":120,"推理":46,"ChatGPT":69,"NVIDIA":38,"Codex":51,"后训练":26,"OpenRouter":10}</script>
 
 <script>
 (function(){

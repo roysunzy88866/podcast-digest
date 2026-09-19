@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Neon</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Neon">NE</div><div class="pi"><h1 class="pt">Neon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Neon">NE</div><div class="pi"><h1 class="pt">Neon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]]**(22:20起):本集提到它是一家数据库提供商(且完全押注 S3 基础设施),与 Daytona 面临着相同的问题:需要应对极其不可预测的、尖峰式的突发计算负载。
 - **[[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]]**(15:34起):本集提及其为提供无服务器 Postgres 的公司，采用计算与存储分离架构，每天发起 1300 万个数据库。其架构启发了 Databricks 的沙箱与 LTAP 存储，区别在于 Neon 不需要持久化的本地磁盘，而编程沙箱需要本地状态持久化。
+- **[[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]]**(63:47起):本集说它是中立第三方测试中智能体首选的 Postgres 数据库（并入 Databricks 的 LakeBase），Neon 团队执迷于『怎么对智能体最好』——亚秒级启动、秒级克隆、轻量分支；其上超过 90% 新建数据库由智能体而非人类创建。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为被讨论公司(提及)
 - [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为被讨论公司
+- [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Ivan Burazin]] · [[Matei Zaharia]] · [[Daytona]] · [[Reynold Xin]] · [[Cognition]] · [[Databricks]] · [[Parallel]] · [[Snowflake]] · [[Devin]]
+[[智能体]] · [[沙箱]] · [[Databricks]] · [[Ivan Burazin]] · [[Matei Zaharia]] · [[Sarah Wang]] · [[Daytona]] · [[Reynold Xin]] · [[Martine Cassado]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"智能体":267,"Ivan Burazin":1,"Matei Zaharia":1,"Daytona":3,"Reynold Xin":1,"Cognition":17,"Databricks":12,"Parallel":5,"Snowflake":9,"Devin":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":269,"沙箱":52,"Databricks":13,"Ivan Burazin":1,"Matei Zaharia":1,"Sarah Wang":3,"Daytona":3,"Reynold Xin":1,"Martine Cassado":1,"Cognition":17}</script>
 
 <script>
 (function(){

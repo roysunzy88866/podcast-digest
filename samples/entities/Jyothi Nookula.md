@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
+[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":60,"Claude Code":63,"智能体":267,"对抗性智能体":1,"MCP":45,"知识库":1,"技能":16,"vibe coding":35,"红队测试":4}</script>
+<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":60,"Claude Code":63,"智能体":269,"对抗性智能体":1,"MCP":45,"知识库":1,"技能":16,"vibe coding":35,"红队测试":4}</script>
 
 <script>
 (function(){

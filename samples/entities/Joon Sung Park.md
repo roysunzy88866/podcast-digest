@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
+[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Simile":1,"智能体":267,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":13,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":16,"Simile":1,"智能体":269,"模拟":4,"人类行为基础模型":1,"反思":1,"记忆":13,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
 
 <script>
 (function(){

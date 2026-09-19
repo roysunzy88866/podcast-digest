@@ -1,0 +1,462 @@
+{
+  "episode_id": "2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe",
+  "podcast": "精选演讲",
+  "date": "2026-09-16",
+  "tags": [
+    "RAG",
+    "分块",
+    "检索",
+    "智能体搜索",
+    "AI 研究"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "yuval-belfer",
+      "type": "person",
+      "role": "guest",
+      "name": "Yuval Belfer",
+      "file": "Yuval Belfer",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "ai21",
+      "type": "company",
+      "role": "company",
+      "name": "AI21",
+      "file": "AI21",
+      "primary": true,
+      "how_described": "嘉宾 Yuval 所在的公司,本集说它基本上是一个 AI 研究实验室,本集的多尺度索引研究即出自这里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            24.489,
+            28.651
+          ],
+          "quote": "I work at AI21, which is essentially an AI research lab.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chunking",
+      "type": "concept",
+      "role": "concept",
+      "name": "分块 (chunking)",
+      "file": "分块",
+      "primary": true,
+      "how_described": "本集核心主题:把长文档切成小块建索引的做法;被大多数 RAG 从业者当作无聊的管道工程忽略,Yuval 主张它本质上是一种有损压缩、并不死,且不存在正确的块大小",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            29.271,
+            36.774
+          ],
+          "quote": "And today, I want to talk to you about something that most people don't want to talk about, which is chunking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            37.735,
+            44.198
+          ],
+          "quote": "And I hope to convince you by the end that chunking isn't dead and there is something to do with that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            69.157,
+            80.965
+          ],
+          "quote": "And even when someone says, well, RAG isn't dead, like Jerry, the CEO of LlamaIndex, they still have to kill something, and apparently this something is chunking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            85.648,
+            91.692
+          ],
+          "quote": "And this is the reason that people said that chunking is dead, because everybody's using agentic search now, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            108.163,
+            116.048
+          ],
+          "quote": "And I think that the main reason that a lot of people don't like to talk about chunking is because it's not the fun part.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            282.413,
+            297.123
+          ],
+          "quote": "And you can, right, we talk a lot about the fixed chunking strategies where if your chunk is something which is too big, right, so you get the whole picture, which is nice, but you're losing a lot of the nuance and all the chunks will not get meaningful embeddings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            305.567,
+            311.187
+          ],
+          "quote": "So what this tells us is that chunking is essentially a lossy compression.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            577.267,
+            583.172
+          ],
+          "quote": "Just from doing strategy on chunking, and very simple strategy, may I add.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集反复讨论的框架:流行的说法是「RAG 已死」,但 Yuval 认为检索没死、只是沦为 2022 年水平的基础设施;RAG 分为无聊的索引阶段和每次查询时发生的检索阶段",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            45.338,
+            53.625
+          ],
+          "quote": "And really, if you are at Axe, LinkedIn, wherever, you've probably seen that RAG is dead, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            56.908,
+            57.908
+          ],
+          "quote": "And RAG is dead again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            62.472,
+            68.096
+          ],
+          "quote": "And there is come a time where you have to ask yourself, how many times can RAG die, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            69.157,
+            80.965
+          ],
+          "quote": "And even when someone says, well, RAG isn't dead, like Jerry, the CEO of LlamaIndex, they still have to kill something, and apparently this something is chunking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            116.108,
+            121.911
+          ],
+          "quote": "In every RAG or files system, we have two stages.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            348.183,
+            349.703
+          ],
+          "quote": "But not with RAG.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            740.694,
+            749.419
+          ],
+          "quote": "So instead, we opted to do something which is pretty popular these days, and a lot of the RAG systems actually work like this, that instead of just retrieving the chunk,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1030.758,
+            1040.82
+          ],
+          "quote": "And with really simple methods, you can take your RAG system or anything that has to do with storing data and then retrieve it with 20 to 40%.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体搜索 (agentic search)",
+      "file": "智能体搜索",
+      "primary": true,
+      "how_described": "本集说人人都在用它(grep、ls、find 这类工具),它可能杀死了检索调优;但在数据量大、查询种类多时仍不够,而且很烧钱",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            58.409,
+            61.771
+          ],
+          "quote": "Long live the agentic retrieval, agentic search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            85.648,
+            91.692
+          ],
+          "quote": "And this is the reason that people said that chunking is dead, because everybody's using agentic search now, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            168.698,
+            171.342
+          ],
+          "quote": "And yes, agentic search probably killed that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "retrieval-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "检索调优 (retrieval tuning)",
+      "file": "检索调优",
+      "primary": false,
+      "how_described": "本集说每次查询时调 top K、玩混合搜索的那套玩法;Yuval 主张如果要杀掉什么,该死的其实是它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            156.627,
+            159.088
+          ],
+          "quote": "Much more fun to do retrieval tuning, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            160.505,
+            168.298
+          ],
+          "quote": "So I will claim that if we have to kill something, if something has to be dead, then it's probably retrieval tuning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            173.055,
+            184.282
+          ],
+          "quote": "And, but still, IgenticSearch, even if we can accept the fact that it killed retrieval tuning, it's still not good enough when you have a lot of, right, scale, a lot of data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multiscale-indexing",
+      "type": "concept",
+      "role": "concept",
+      "name": "多尺度索引 (multiscale indexing)",
+      "file": "多尺度索引",
+      "primary": true,
+      "how_described": "AI21 本集提出的方法:把数据库复制 N 份、用不同块大小分别建索引,检索时全部并行查询,取出整个文档后用 RRF 融合排名,提升 20-40%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            672.007,
+            674.408
+          ],
+          "quote": "And we call it the multiscale indexing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rrf",
+      "type": "concept",
+      "role": "concept",
+      "name": "RRF",
+      "file": "RRF",
+      "primary": true,
+      "how_described": "本集用来把 N 个排名列表融合成一个的简单公式(Reciprocal Rank Fusion),试过的方法里效果最好,只是个几乎不花时间的简单脚本,不是模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            785.687,
+            793.353
+          ],
+          "quote": "That's why we are using something called RRF, Reciprocal Rank Fusion, which is pretty much a simple formula.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            811.547,
+            821.031
+          ],
+          "quote": "So we have the indexing n times, then we query each query from every database, and we are using RRF to combine them all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            956.009,
+            968.413
+          ],
+          "quote": "However, if you think about it, latency-wise, it doesn't really affect that because you can do all the retrieval part parallelly and also the RRF part doesn't really take a lot of time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1004.135,
+            1006.037
+          ],
+          "quote": "Also go beyond RRF.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1006.097,
+            1013.283
+          ],
+          "quote": "The fact that we're using RRF is because it worked the best from the methods that we used, but it doesn't mean that there is no better method.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lossy-compression",
+      "type": "concept",
+      "role": "concept",
+      "name": "有损压缩 (lossy compression)",
+      "file": "有损压缩",
+      "primary": false,
+      "how_described": "本集说 chunking 本质上就是一种有损压缩——无论怎么做都会丢失一些东西",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            305.567,
+            311.187
+          ],
+          "quote": "So what this tells us is that chunking is essentially a lossy compression.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "oracle-experiment",
+      "type": "concept",
+      "role": "concept",
+      "name": "Oracle 实验 (Oracle experiment)",
+      "file": "Oracle 实验",
+      "primary": true,
+      "how_described": "本集的关键实验:假设有精灵能对每个查询指出最优块大小,测出潜力上限;Oracle 线与所有固定块大小的差距达 20-40%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            505.109,
+            507.231
+          ],
+          "quote": "This essentially is the Oracle experiment.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llamaindex",
+      "type": "company",
+      "role": "company",
+      "name": "LlamaIndex",
+      "file": "LlamaIndex",
+      "primary": false,
+      "how_described": "本集提到其 CEO Jerry 属于坚持 RAG 没死的一派,但他也要顺手干掉分块",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            69.157,
+            80.965
+          ],
+          "quote": "And even when someone says, well, RAG isn't dead, like Jerry, the CEO of LlamaIndex, they still have to kill something, and apparently this something is chunking.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集作为先前工作提到:其 Contextual Retrieval 方法给每个块做信息增强,但仍停留在固定块大小的模式里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            641.62,
+            658.537
+          ],
+          "quote": "So we looked at prior works such as notably Anthropic, Contextual Retrieval, where they enrich every chunk, and others that essentially try to improve the latent space of every chunk, but this is not the direction that we went.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "embedding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
+[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":267,"基础服务":1,"私募股权":2,"自主企业":1,"AI 整合公司":1,"主观能动性":19,"OpenAI":120,"Anthropic":125}</script>
+<script type="application/json" class="pd-epn">{"NETIC":1,"智能体":269,"基础服务":1,"私募股权":2,"自主企业":1,"AI 整合公司":1,"主观能动性":19,"OpenAI":120,"Anthropic":127}</script>
 
 <script>
 (function(){

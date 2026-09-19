@@ -1,0 +1,154 @@
+{
+  "title_zh": "分块没死:用多尺度索引把 RAG 提升 20-40%",
+  "tldr": "AI21 的 Yuval 论证不存在「最佳分块大小」——它是依赖查询的，并提出多尺度索引加 RRF 融合，把检索召回率提升 20-40%。",
+  "digest_md": "这一集是 AI21(一家 AI 研究实验室)的 Yuval 带来的一场短演讲，聊的是大多数 RAG 从业者不爱谈的话题：分块(chunking,把长文档切成小段再建索引的做法)。当下流行的说法是「RAG 已死」，连坚持 RAG 没死的人(比如 LlamaIndex 的 CEO Jerry)也要顺手干掉点什么——而那个「点什么」就是分块：既然现在人人都在用智能体搜索(grep、ls、find 这类工具)，谁还需要认真分块呢？\n\nYuval 的回应分两步：第一，智能体搜索确实可能杀死了「检索调优」——每次查询时调 top K、玩混合搜索那套玩法；但当你数据量大、查询种类多时，grep 和 find 仍然不够，而且智能体搜索很烧钱。第二，真正该被认真对待的分块，恰恰被大家当成「无聊的管道工程」忽略了。\n\n## 分块本质是一种有损压缩，而且没有正确答案\n\n每个 RAG 系统都有两个阶段：无聊的索引阶段(预处理数据、定块大小、存进向量数据库)，和有趣的检索阶段(每次查询时做调优)。大家的做法通常是第一天选个块大小——比如 512,加 10-20% 的重叠(overlap,相邻块之间重复的部分)，建完索引就忘。但块太大，你能拿到全貌却丢失细节，各块也得不到有意义的 embedding(把文本变成向量、让相似内容在向量空间里靠近的技术)；块太小，细节保住了，大局丢了。所以分块本质上是种有损压缩，怎么做都会丢东西。[05:05 Yuval]\n\n更有争议的主张是：**不存在正确的块大小**。你可能说「我们针对自己的语料库优化过」——但 Yuval 认为这不像调模型那样容易对基准过拟合，RAG 根本无法按数据集优化，因为最优块大小是**依赖查询的**。[05:51 Yuval]\n\n## 实验证据：Oracle 实验\n\n他们拿数据集复制六份，每份用不同块大小(2000、1000……)建库，用了四个数据集：QMSUM(会议转写)、NarrativeQA(小说问答)、FinanceBench,还有一个内部自建、已公开的 Seinfeld 剧本冷知识数据集。结果直观易懂：问「Jerry 最喜欢的衬衫叫什么」这种聚焦问题，小块大小表现最好(rank 1 对比 rank 50 以下)；而问「Jerry 把谁描述为他的宿敌和纯粹的邪恶」这种需要跨上下文理解的问题，小块根本找不到答案。两个性质不同的查询，最优块大小完全不同。\n\n然后是关键的 Oracle 实验：假设有个精灵，能对每个查询直接告诉你用哪个块大小检索最好(这只是测潜力上限，不是真系统)。结果橙色的 Oracle 线远高于所有固定块大小的蓝线——**差距在 20% 到 40%**,而这仅仅来自一个很简单的分块策略选择。你随手定下的 512 或 1000,成本就是这么多。[09:33 Yuval]\n\n为什么没人做对？Yuval 把它归结为一个信息错位问题：索引阶段你能控制块大小，但不知道未来的查询是什么；检索阶段你手上有查询，但块大小已经定死了。[10:10 Yuval]\n\n## 方法：多尺度索引 + RRF 融合\n\n既然要押注，为什么要押一个而不押多个？他们的做法是**多尺度索引**：把数据库复制 N 份，分别用不同窗口大小分块建索引；检索时对每份库都查一遍(可以完全并行，不增加延迟)。难点在于怎么合并——不同大小的块彼此不可比。解法是不比较块，而是像如今很多 RAG 系统那样，拿到块后回溯取出**整个文档**，于是 N 个块排名变成了对同一批文档的 N 个排名，这就可比了。「这种情况下，检索本质上就是投票。」[12:48 Yuval]\n\n合并用的是 RRF(Reciprocal Rank Fusion,倒数排名融合，一个把多个排名列表融合成一个的简单公式)，试过的几种方法里它效果最好，而且只是个几乎不花时间的简单脚本，不是模型。\n\n## 结果与代价\n\n在四个数据集上，该方法匹配或打败了最好的固定块大小，且在所有 recall@k(检索前 k 条的命中率)指标上都赢，很多项提升 20、30 甚至 40%;在博客里还有 MTab 上的结果，提升 10-40% 不等。代价是额外内存——要保留数据库的多份副本(一个常数级别的开销)，但延迟基本不受影响。未解的问题：该用多少个块大小、具体选哪些(目前 50、100、200 这套取值相当随意)，以及有没有比 RRF 更好的融合方法。\n\n## 本集带走\n- **别再找「最佳块大小」了**：实验证明最优块大小依赖查询而非数据集，固定块大小的选择本身就是 20-40% 召回率的代价。\n- **多尺度索引可以直接抄**：同一份数据按多个块大小建多份索引，检索时全部并行查询，取出整文档后用 RRF 融合排名——简单脚本即可，延迟几乎不变，代价只是额外内存。\n- **把信息错位记在心里**：索引时不知道查询、查询时改不了索引，这是所有 RAG 系统的结构性矛盾，解法是让同一个决策点同时拥有两边的信息。\n- **智能体没杀死检索**：检索只是沦为了基础设施——而且是 2022 年水平的基础设施，用简单方法就能白拿 20-40% 的提升。",
+  "quotes": [
+    {
+      "en": "So I will claim that if we have to kill something, if something has to be dead, then it's probably retrieval tuning.",
+      "zh": "所以我要主张，如果我们必须干掉某个东西，如果有什么必须死，那很可能是检索调优。",
+      "timestamp": "02:40",
+      "speaker": "Yuval Belfer"
+    },
+    {
+      "en": "So what this tells us is that chunking is essentially a lossy compression.",
+      "zh": "所以这告诉我们的是，分块本质上是一种有损压缩。",
+      "timestamp": "05:05",
+      "speaker": "Yuval Belfer"
+    },
+    {
+      "en": "And I will claim that there is no right chunk size.",
+      "zh": "而我要声称，不存在正确的块大小。",
+      "timestamp": "05:15",
+      "speaker": "Yuval Belfer"
+    },
+    {
+      "en": "All of them just stayed in the model of let's work with a fixed chunk size, whereas we took a different approach, and we said, why commit to one where we can commit to several?",
+      "zh": "它们都停留在固定块大小的模式里，而我们采取了不同的做法，我们说：既然可以选定多个，为什么要只选定一个呢？",
+      "timestamp": "10:59",
+      "speaker": "Yuval Belfer"
+    },
+    {
+      "en": "In this case, you can think of retrieval as essentially just voting.",
+      "zh": "在这种情况下，你可以把检索本质上就理解为投票。",
+      "timestamp": "12:48",
+      "speaker": "Yuval Belfer"
+    },
+    {
+      "en": "And if I need to leave you with something, I would say that agents didn't kill retrieval.",
+      "zh": "如果我需要给你们留下一句话，我会说智能体并没有杀死检索。",
+      "timestamp": "16:54",
+      "speaker": "Yuval Belfer"
+    },
+    {
+      "en": "And with really simple methods, you can take your RAG system or anything that has to do with storing data and then retrieve it with 20 to 40%.",
+      "zh": "用非常简单的方法，你可以把你的 RAG 系统或者任何涉及存储数据然后再检索的东西提升 20 到 40%。",
+      "timestamp": "17:10",
+      "speaker": "Yuval Belfer"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "01:02",
+      "speaker": "Yuval",
+      "en": "And there is come a time where you have to ask yourself, how many times can RAG die, right?",
+      "zh": "于是总有一天你得问问自己，RAG 到底能死多少次，对吧？"
+    },
+    {
+      "timestamp": "02:40",
+      "speaker": "Yuval",
+      "en": "So I will claim that if we have to kill something, if something has to be dead, then it's probably retrieval tuning.",
+      "zh": "所以我要主张，如果我们必须干掉某个东西，如果有什么必须死，那很可能是检索调优。"
+    },
+    {
+      "timestamp": "05:05",
+      "speaker": "Yuval",
+      "en": "So what this tells us is that chunking is essentially a lossy compression.",
+      "zh": "所以这告诉我们的是，分块本质上是一种有损压缩。"
+    },
+    {
+      "timestamp": "05:15",
+      "speaker": "Yuval",
+      "en": "And I will claim that there is no right chunk size.",
+      "zh": "而我要声称，不存在正确的块大小。"
+    },
+    {
+      "timestamp": "05:51",
+      "speaker": "Yuval",
+      "en": "And you cannot really optimize it per dataset, and I will claim that it is query-dependent.",
+      "zh": "你无法真正针对每个数据集进行优化，而我要声称它是依赖于查询的。"
+    },
+    {
+      "timestamp": "08:07",
+      "speaker": "Yuval",
+      "en": "And what we did to really, after we ran all of these things and we've noticed that, we said, what if we had an oracle or a genie, if you want, that can tell us for every query what is the best chunk size to do retrieval for?",
+      "zh": "在跑完所有这些东西并注意到这一点之后，我们说，如果我们有一个 oracle 或者说一个精灵，能为每个查询告诉我们做检索用哪个块大小最好，那会怎样？"
+    },
+    {
+      "timestamp": "09:33",
+      "speaker": "Yuval",
+      "en": "And when I say big, it's something like 20 to 40 percent",
+      "zh": "我说很大，是指大概 20% 到 40%"
+    },
+    {
+      "timestamp": "09:44",
+      "speaker": "Yuval",
+      "en": "And this is, like, this gap, this is what the choice of 512 or 1,000 or whatever, right?",
+      "zh": "这个差距，就是你选择 512 或 1000 或随便什么数字所付出的代价，对吧？"
+    },
+    {
+      "timestamp": "10:10",
+      "speaker": "Yuval",
+      "en": "If I'm looking at the indexing part, where I do have control over the chunk size, I don't know what the queries will be.",
+      "zh": "如果我看的是索引这一部分，在这一步我确实能控制块大小，但我不知道查询会是什么。"
+    },
+    {
+      "timestamp": "10:59",
+      "speaker": "Yuval",
+      "en": "All of them just stayed in the model of let's work with a fixed chunk size, whereas we took a different approach, and we said, why commit to one where we can commit to several?",
+      "zh": "它们都停留在固定块大小的模式里，而我们采取了不同的做法，我们说：既然可以选定多个，为什么要只选定一个呢？"
+    },
+    {
+      "timestamp": "12:48",
+      "speaker": "Yuval",
+      "en": "In this case, you can think of retrieval as essentially just voting.",
+      "zh": "在这种情况下，你可以把检索本质上就理解为投票。"
+    },
+    {
+      "timestamp": "13:05",
+      "speaker": "Yuval",
+      "en": "That's why we are using something called RRF, Reciprocal Rank Fusion, which is pretty much a simple formula.",
+      "zh": "这就是为什么我们使用一种叫 RRF 的东西，Reciprocal Rank Fusion(倒数排名融合)，它基本上就是一个简单的公式。"
+    },
+    {
+      "timestamp": "15:30",
+      "speaker": "Yuval",
+      "en": "Now, I'm not naive.",
+      "zh": "现在，我不是天真的人。"
+    },
+    {
+      "timestamp": "16:54",
+      "speaker": "Yuval",
+      "en": "And if I need to leave you with something, I would say that agents didn't kill retrieval.",
+      "zh": "如果我需要给你们留下一句话，我会说智能体并没有杀死检索。"
+    },
+    {
+      "timestamp": "17:03",
+      "speaker": "Yuval",
+      "en": "It's just infrastructure.",
+      "zh": "它只是基础设施。"
+    },
+    {
+      "timestamp": "17:05",
+      "speaker": "Yuval",
+      "en": "And the bad part is that it's infrastructure from 2022.",
+      "zh": "而糟糕的部分在于，它是 2022 年的基础设施。"
+    },
+    {
+      "timestamp": "17:10",
+      "speaker": "Yuval",
+      "en": "And with really simple methods, you can take your RAG system or anything that has to do with storing data and then retrieve it with 20 to 40%.",
+      "zh": "用非常简单的方法，你可以把你的 RAG 系统或者任何涉及存储数据然后再检索的东西提升 20 到 40%。"
+    }
+  ],
+  "voice_script": "今天这一期，是 AI21 研究实验室的 Yuval 带来的一场短演讲，聊的话题可能有点意外：分块。所谓分块，就是把长文档切成小段，再去建索引，这是几乎所有 RAG 系统的基础操作。为什么这个老话题值得专门讲一场？因为现在流行一种说法，叫「RAG 已死」。连那些坚持 RAG 没死的人，比如 LlamaIndex 的 CEO Jerry,也要顺手干掉点什么——而被点名要干掉的，恰恰就是分块。理由听起来很硬：现在人人都在用智能体搜索，就是让模型去调用 grep、find 这类工具，自己翻文件，那谁还需要认真分块呢？\n\nYuval 的回应分两步。第一步，智能体搜索确实可能杀死了「检索调优」——就是每次查询时去调 top K、玩混合搜索那一套玩法。但第二步，当你数据量大、查询种类多的时候，grep 和 find 仍然不够用，而且智能体搜索很烧钱。更关键的是，真正该被认真对待的分块，恰恰因为被大家当成无聊的管道工程，一直被忽略着。\n\n那为什么说分块被忽略了？先看看大家平时是怎么做的。每个 RAG 系统都有两个阶段：一个无聊的索引阶段，预处理数据、定好块大小、存进向量数据库；一个有趣的检索阶段，每次查询时做各种调优。典型的做法，是项目第一天随手选个块大小，比如 512,再加上百分之十几的重叠——重叠就是相邻块之间故意重复的部分——建完索引就忘。但这里有个绕不开的矛盾：块太大，你能拿到全貌，却丢了细节，而且块里内容太杂，做不出有意义的 embedding——embedding 就是把文本变成向量、让相似内容在空间里靠近的技术。块太小呢？细节保住了，大局又丢了。所以 Yuval 有句话：分块本质上是一种有损压缩，怎么做都会丢东西。\n\n丢东西还不算完，更争议的来了。你可能听过有人说，我们针对自己的语料库专门优化过块大小。Yuval 的主张是：不存在正确的块大小。为什么？因为这事没法像调模型那样对着基准去优化——最优的块大小不是看你的数据集，而是看查询本身。这句话听起来很抽象，所以他们做了一个实验。\n\n实验是这样设计的：把数据集复制六份，每份用不同的块大小建库，块大小从 2000、1000 一路往下。用了四个数据集：会议转写的 QMSUM、小说问答的 NarrativeQA、金融领域的 FinanceBench,还有一个内部自建、已经公开的 Seinfeld 剧本冷知识数据集。结果非常直观。问「Jerry 最喜欢的衬衫叫什么」这种聚焦问题，小块表现最好。但问「Jerry 把谁描述为他的宿敌和纯粹的邪恶」这种需要跨上下文理解的问题，小块根本找不到答案。两个性质不同的查询，最优块大小完全不同——这就坐实了「依赖查询」这件事。\n\n接着是关键一步，一个 Oracle 实验。假设有个精灵，能对每个查询直接告诉你，用哪个块大小检索效果最好。注意，这不是一个真系统，只是测一下潜力上限在哪。结果很扎眼：这条精灵线远远高于所有固定块大小的线，差距在 20% 到 40%。也就是说，你随手定下的 512 或者 1000,付出的代价就是这个数——而仅仅是来自一个很简单的分块策略选择。\n\n那为什么没人做对？问题归结起来是一个信息错位：在索引阶段，你能控制块大小，但你不知道未来会来什么查询；到了检索阶段，查询在手上了，块大小却已经定死。两边的信息，永远碰不到一起。\n\n那怎么办？逻辑其实很简单：既然要押注，为什么要押一个而不押多个？他们的做法叫多尺度索引——把数据库复制 N 份，分别用不同窗口大小分块建索引，检索的时候每份库都查一遍，而且可以完全并行，不增加延迟。难点在于怎么合并结果：不同大小的块，彼此根本不可比。解法很聪明——不去比较块，而是拿到块之后回溯，取出整个文档。这样一来，N 个块排名就变成了对同一批文档的 N 个排名，这就可比了。用 Yuval 原话讲：这种情况下，检索本质上就是投票。合并用的是 RRF,倒数排名融合，一个把多个排名列表合成一个的简单公式——试过的几种方法里它效果最好，而且只是个几乎不花时间的简单脚本，不是模型。\n\n效果怎么样？在四个数据集上，这个方法要么匹配、要么打败了最好的固定块大小，而且在所有 recall@k 指标——就是检索前 k 条的命中率——上都赢了，很多项提升 20、30 甚至 40%。代价呢？就是额外内存，得保留数据库的多份副本，这是个常数级别的开销，延迟基本不受影响。当然还有没解决的问题：该用多少个块大小、具体选哪些，目前 50、100、200 这套取值其实相当随意，以及有没有比 RRF 更好的融合方法。\n\n最后带走一句话。别再找最佳块大小了——固定块大小本身就是 20% 到 40% 召回率的代价，而这个提升，用一套简单的多尺度索引加投票就能白拿回来。智能体并没有杀死检索，它只是沦为了基础设施，而且是停留在固定块大小模式里的基础设施。如果非要说什么必须死，那也很可能是检索调优，而不是分块本身。"
+}

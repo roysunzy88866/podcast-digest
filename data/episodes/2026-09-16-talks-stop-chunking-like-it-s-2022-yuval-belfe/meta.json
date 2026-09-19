@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/r9OwPx_HoV0.m4a",
+  "duration_sec": 1072.148,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 200,
+  "asr": true,
+  "title_en": "Stop Chunking Like It's 2022 — Yuval Belfer, AI21 Labs",
+  "podcast": "精选演讲",
+  "date": "2026-09-16",
+  "added": "2026-09-19",
+  "added_at": "2026-09-19T02:51:59.911Z",
+  "speaker_map": {
+    "SPEAKER_00": "Yuval Belfer"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Yuval Belfer"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "分块没死:用多尺度索引把 RAG 提升 20-40%",
+  "guest_name": "Yuval Belfer",
+  "guest_title": "AI21 研究实验室",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

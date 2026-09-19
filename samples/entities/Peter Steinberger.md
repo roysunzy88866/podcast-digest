@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
+[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":267,"OpenAI":120,"OpenClaw":18,"Codex":51,"Romain Huet":1,"Anthropic":125,"Raphael Schaad":1,"循环":8,"NVIDIA":37,"Claude Code":63}</script>
+<script type="application/json" class="pd-epn">{"智能体":269,"OpenAI":120,"OpenClaw":18,"Codex":51,"Romain Huet":1,"Anthropic":127,"Raphael Schaad":1,"循环":8,"NVIDIA":38,"Claude Code":63}</script>
 
 <script>
 (function(){

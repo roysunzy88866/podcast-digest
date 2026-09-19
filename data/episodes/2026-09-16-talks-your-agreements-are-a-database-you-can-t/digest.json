@@ -1,0 +1,124 @@
+{
+  "title_zh": "每天100万份协议：DocuSign 携手 NVIDIA 把合同表格变成可用数据",
+  "tldr": "DocuSign 产品负责人 Haral 与 NVIDIA 产品经理 Sean 讲解两家如何用专用小模型 Nemotron Parse 攻克合同表格提取，让埋在 PDF 里的定价、条款数据可查询可用。",
+  "digest_md": "这一集聊的是一个几乎所有企业都被困住的问题：协议数据。每天签的合同、订单表、价格表里埋着大量关键信息，但它们锁在 PDF 这类非结构化格式里，没人能查、能用。说这件事的两个人，一位是 DocuSign 的产品高级总监 Haral,另一位是 NVIDIA 的产品经理 Sean,他们来讲两家公司怎么合作解决这个问题。\n\n先说规模有多大。DocuSign 有 190 万付费客户、10 亿用户，每天处理 100 万份协议。他们和德勤做过一项研究：有 2 万亿美元锁在协议谈判达成的价值里，没有人去利用、没有人回头把这些数据挖出来。为什么挖不出来？因为靠人工阅读和审查、系统彼此割裂、流程大量靠手工。法务、采购、销售团队经常花几个小时翻文档，就为了定位一个基本信息。\n\n## 难点：表格是传统工具的死穴\n\n企业合同里最值钱的东西——价格层级、SKU、SLA、费率卡——几乎全是表格。而传统文档提取工具和通用大模型在这里完全失败，他们试过了。原因是这些工具逐行读取文本，把表格里的概念结构全破坏了：合并单元格、没有清晰边界的内容都处理不了。\n\n还有一个容易被忽略的复杂性：协议不是平面的，而是分层的——一份协议管辖另一份协议，你回答一个问题往往需要综合多份文档。比如问「我们和 Claude 签的合同里 total tokens 是多少？」,没人答得上来，因为答案以不同形式埋在合同里。\n\n## 解决方案：一个小而专的提取模型\n\n这就是 NVIDIA Nemotron Retriever 计划登场的地方。Nemotron 是 NVIDIA 构建世界级开源模型的项目，连数据集、量化、蒸馏、剪枝方法和配套蓝图全部开源发布。其下的 Nemotron Parse 模型专为表格提取打造——这件事的排列组合极其庞大：嵌套表格、合并单元格、合并列、合并行，是一个非常棘手的问题。\n\n这个模型的关键取舍在于「小」：它是 VLM(视觉语言模型)，但参数量远小于通常数十亿参数的重型模型。它是一个单次推理的一体化模型：输入一份文档，直接输出语义版面、文本、阅读顺序、保留结构的表格，不再需要 YOLOX 那类分别做表格或页面元素提取的小模型拼装。可以用 NVIDIA NIM 或 vLLM(一种高性能推理服务框架)部署。注意它的定位：它不是生成器，说到底是一个提取器。\n\n## 演示：几秒钟把合同变成数据\n\n在 Agreement Manager(一个组织签过的所有协议的中央存储库)里上传一份订单表，几秒钟之内就提取出一整套丰富的元数据：关键条款、商业细节自动结构化并高亮，可以点击直接跳到原文位置。NVIDIA 模型负责的部分是定价数据：把复杂表格分解成结构化的订单细节，可以下载成 CSV 给财务、采购团队用，也可以通过 API 获取。他们的客户从有 1000 份协议到有几百万份协议的都有。\n\n## 学到的三件事\n\n第一，为你要做的具体工作构建专用模型，是他们能把东西更快推向市场的关键。第二，模型效率：更小的模型意味着更低延迟、更低成本，才能撑住他们所说的百万级规模。第三，速度：对比很多其他开源模型，Nemotron 每秒能提取的表格数量快了 20 倍。结论：对企业来说，更小的专用模型才是正确的路。\n\n## 坑与边界：OCR 还要不要、性能怎么榨\n\n观众问了一个尖锐的问题：OCR 一直是整个流程的刺，为什么不干脆从一开始就用智能体方式？Sean 的回答是把计算花在刀刃上：如果你有 PB 级文档要让它们日后可查询，就把大量计算花在前期 OCR 上，之后就不操心了；而如果只是上传一份合同做问答，那是极低延迟的用例——高吞吐和低延迟两类场景，批大小、并发度、处理技术都该不一样。Haral 补充：他们是混合架构，表格走版面理解加提取，其他字段、元数据、条款仍然走 OCR,流水线分两条路径。\n\n性能方面，模型目前跑在 FP16,接下来有通往 FP8 和 FP4 的量化(用更低的数字精度压缩模型以提速)路径。Sean 还提到几个优化方向：多 token 生成(一次生成多个 token 而不是一个)、VLM 编码器-解码器架构的进一步优化——现在这个模型一次只生成一个 token。不过当下的重点是准确性：先确认是否真的在为系统增加价值，再把帕累托曲线往性能端推。下一步的合作计划，是从「从页面里尽可能多提取信息」扩展到「先找到那个页面」，再走向生产规模的智能体。\n\n## 本集带走\n\n- **合同数据的最大痛点是表格**：定价、SLA、费率卡都在表格里，逐行读取的传统工具和通用大模型处理不了合并单元格和嵌套结构，需要保版面的专用模型。\n- **专用小模型优于通用大模型**：约 9 亿参数的单次推理提取模型，比通用方案快 20 倍、成本低、延迟低，才能撑住每天百万份协议的规模。\n- **计算花在哪取决于用例**：海量文档要日后可查询就把算力砸在前期处理；单份合同的即时问答则是低延迟场景——批大小、并发、技术选型全不同。\n- **量化和多 token 生成是性能余量**：FP16 起步，量化到 FP8/FP4、多 token 生成都是后续提速路径；但顺序应是先把准确性做对，再推性能。\n\n> 【背景】Coupa 是一款企业采购与支出管理软件，文中采购团队想把提取出的价格表导入 Coupa 以确保付款对账。",
+  "quotes": [
+    {
+      "en": "Captured in this agreement negotiated value that no one capitalizes, no one goes back and gets that data back.",
+      "zh": "这些钱锁在协议谈判达成的价值里，没有人加以利用，没有人回头去把这些数据挖出来。",
+      "timestamp": "02:19",
+      "speaker": "Hiral Shah"
+    },
+    {
+      "en": "It's not a generator. It's more of an extractor at the end of the day.",
+      "zh": "它不是生成器。说到底它更像一个提取器。",
+      "timestamp": "07:54",
+      "speaker": "Sean Sodha"
+    },
+    {
+      "en": "So a purpose-built model for the job you're trying to do is a big, big part of how we've been thinking about, and that's kind of where we've been able to accelerate, bring things to market much faster.",
+      "zh": "为你想要做的工作构建专用模型，是我们思考方式中很大很大的一部分，这也正是我们能够加速、更快地把东西推向市场的地方。",
+      "timestamp": "11:36",
+      "speaker": "Hiral Shah"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:19",
+      "speaker": "Unknown",
+      "en": "Captured in this agreement negotiated value that no one capitalizes, no one goes back and gets that data back.",
+      "zh": "这些钱锁在协议谈判达成的价值里，没有人加以利用，没有人回头去把这些数据挖出来。"
+    },
+    {
+      "timestamp": "04:23",
+      "speaker": "Unknown",
+      "en": "Because they're reading text line by line, which breaks a lot of that concept within the table.",
+      "zh": "因为它们逐行读取文本，这破坏了表格中的很多概念结构。"
+    },
+    {
+      "timestamp": "05:27",
+      "speaker": "Unknown",
+      "en": "So Nemotron is all about building world-class open source models and publishing the data sets, the techniques, the quantization approaches, distillation approaches, pruning approaches, every technique possible, blueprints to go with that, you name it.",
+      "zh": "Nemotron 的全部内容就是构建世界级的开源模型，并发布数据集、技术、量化方法、蒸馏方法、剪枝方法，所有可能的技术，以及配套的蓝图。"
+    },
+    {
+      "timestamp": "06:24",
+      "speaker": "Sean",
+      "en": "If you think about it, the number of permutations of tables are quite vast when you think about nested tables, merged cells, merged columns, merged rows, whatever it may be, and that can get really, really complex and really hairy of a problem.",
+      "zh": "想一想，当你考虑嵌套表格、合并单元格、合并列、合并行等等时，表格的排列组合数量是相当庞大的，这会成为一个非常非常复杂、非常棘手的问题。"
+    },
+    {
+      "timestamp": "07:30",
+      "speaker": "Sean",
+      "en": "This is a single-shot model that you can feed a document in, and out comes the semantic formatting layouts, the text, the reading order, the preserved structure of the table, et cetera.",
+      "zh": "这是一个单次推理模型，你输入一份文档，输出的就是语义格式化版面、文本、阅读顺序、表格的保留结构等等。"
+    },
+    {
+      "timestamp": "07:55",
+      "speaker": "Sean",
+      "en": "It's not a generator. It's more of an extractor at the end of the day.",
+      "zh": "它不是生成器。说到底它更像一个提取器。"
+    },
+    {
+      "timestamp": "09:25",
+      "speaker": "Unknown",
+      "en": "Within seconds, agreement manager has extracted a rich set of metadata.",
+      "zh": "几秒钟之内，Agreement Manager 就提取出了一套丰富的元数据。"
+    },
+    {
+      "timestamp": "10:00",
+      "speaker": "Unknown",
+      "en": "This is powered by the advanced parsing leveraging NVIDIA's Nemotron model, turning even dense tables into something that is instantly usable.",
+      "zh": "这是由利用 NVIDIA Nemotron 模型的先进解析技术驱动的，把即使是密集的表格也变成可以立即使用的东西。"
+    },
+    {
+      "timestamp": "11:36",
+      "speaker": "Unknown",
+      "en": "So a purpose-built model for the job you're trying to do is a big, big part of how we've been thinking about, and that's kind of where we've been able to accelerate, bring things to market much faster.",
+      "zh": "为你想要做的工作构建专用模型，是我们思考方式中很大很大的一部分，这也正是我们能够加速、更快地把东西推向市场的地方。"
+    },
+    {
+      "timestamp": "11:58",
+      "speaker": "Unknown",
+      "en": "For us, the lower kind of context basically also meant lower latency, lower cost to deliver the scale that we are talking about.",
+      "zh": "对我们来说，更小的模型基本上也意味着更低的延迟、更低的成本，以实现我们所谈论的规模。"
+    },
+    {
+      "timestamp": "12:14",
+      "speaker": "Unknown",
+      "en": "When you think about how many tables can it extract per seconds, Nemotron was 20x faster, which helps us when we're talking about the millions and billions of scale that we're kind of serving.",
+      "zh": "当你想到它每秒能提取多少表格时，Nemotron 快了 20 倍，这在我们谈论所服务的数百万和数十亿规模时帮了大忙。"
+    },
+    {
+      "timestamp": "12:28",
+      "speaker": "Unknown",
+      "en": "So a lot of it is like having that smaller purpose-built things is the way for an enterprise as an organization to go and leverage and then serve that from an end-user perspective.",
+      "zh": "所以很多情况下，拥有那些更小的专用模型，是一个企业作为组织去利用、然后从最终用户角度提供服务的方式。"
+    },
+    {
+      "timestamp": "14:59",
+      "speaker": "Unknown",
+      "en": "So you are heavy on the compute at the upfront side with all the OCR.",
+      "zh": "所以你在前期就把大量计算花在 OCR 上。"
+    },
+    {
+      "timestamp": "16:51",
+      "speaker": "Sean",
+      "en": "So right now, this model just generates one token at a time.",
+      "zh": "现在这个模型一次只生成一个 token。"
+    },
+    {
+      "timestamp": "16:58",
+      "speaker": "Sean",
+      "en": "Right now, we're focusing on the accuracy side, like are we adding value to the system?",
+      "zh": "现在我们专注于准确性方面，比如我们是否在为系统增加价值？"
+    },
+    {
+      "timestamp": "10:19",
+      "speaker": "Unknown",
+      "en": "All of it is also available through API.",
+      "zh": "所有这些也都可以通过 API 获得。"
+    }
+  ],
+  "voice_script": "今天这一集，聊的是一个几乎所有大公司都被困住的问题：合同数据。DocuSign 你可能用过，就是电子签名那个平台，有一百九十万个付费客户、十亿用户，每天处理一百万份协议。来讲这件事的两位，一位是 DocuSign 的产品高级总监 Haral,另一位是 NVIDIA 的产品经理 Sean,两人要讲两家公司怎么合作，把埋在 PDF 里的合同信息真正变成能查、能用的数据。\n\n先说这个问题有多大。DocuSign 和德勤做过一项研究：有两万亿美元的价值，是靠协议谈判达成的，但没有人去利用，没有人回头把这些数据挖出来。为什么挖不出来？因为合同都是 PDF 这种非结构化格式，人工读一遍很费劲，系统之间彼此割裂，流程大量靠手工。法务、采购、销售团队经常花几个小时翻文档，就为了找一个基本信息。\n\n那问题出在哪儿？最值钱的东西，价格层级、SKU、SLA、费率卡，几乎全是表格。而传统的文档提取工具和通用大模型，在表格这件事上完全失败，这是他们亲身试过的。原因很简单：这些工具是逐行读文本的，读着读着，表格的结构就被破坏了。合并单元格、边界不清的内容，全都处理不了。还有一层复杂性容易被忽略：协议不是平面的，是分层的，一份协议会管辖另一份协议。你问一个看起来简单的问题，比如我们和某家签的合同里 total tokens 是多少？没人答得上来，因为答案以不同形式散落在好几份文档里。\n\n要解决这个问题，就轮到 NVIDIA 登场了。NVIDIA 有个叫 Nemotron 的项目，专门构建世界级的开源模型，连数据集、量化、蒸馏这些方法和配套蓝图，全部开源发布。其中的 Nemotron Parse 模型，就是专为表格提取打造的。为什么表格难？因为排列组合极其庞大：嵌套表格、合并单元格、合并列、合并行，每一项都是硬骨头。\n\n而这个模型的关键取舍，在于一个字：小。它是一个视觉语言模型，但参数量远小于那些动辄数十亿的重型模型。而且是单次推理、一体化的：输入一份文档，直接输出语义版面、文本、阅读顺序，以及保留了结构的表格，不再需要用多个小模型拼拼装装。Sean 有句话讲得很直白：它不是生成器，说到底它更像一个提取器。\n\n实际效果怎么样？在 DocuSign 的 Agreement Manager,也就是一个存放组织所有已签协议的中央存储库里，上传一份订单表，几秒钟之内，关键条款、商业细节就被自动结构化、高亮出来，还能点击跳回原文位置。NVIDIA 模型负责的部分是定价数据：把复杂表格分解成结构化的订单细节，可以下载成 CSV 给财务和采购团队用，比如导入 Coupa 这种采购软件做付款对账，也可以通过 API 获取。他们的客户，从手上一千份协议的，到几百万份协议的，都有。\n\n走完这一圈，两位总结了三件事。第一，为你想做的具体工作构建专用模型，这是他们能更快把产品推向市场的关键。第二，模型效率：更小的模型意味着更低的延迟和成本，才撑得住每天百万份的规模。第三，速度：对比很多其他开源模型，Nemotron 每秒能提取的表格数量快了二十倍。\n\n现场也有观众提出尖锐的问题：OCR 一直流程里的刺，为什么不干脆从头就用智能体方式？Sean 的回答是，把计算花在刀刃上。如果你有 PB 级的文档，要让它们日后可查询，那就把大量计算砸在前期处理上，之后不再操心；但如果只是上传一份合同做即时问答，那是极低延迟的场景。高吞吐和低延迟两类用例，批大小、并发度、技术选型都应该不一样。Haral 补充说，DocuSign 用的是混合架构：表格走版面理解加提取，其他字段和条款仍然走 OCR,流水线分成两条路径。\n\n性能上还有多少余地？模型目前跑在 FP16 精度上，往后有量化到 FP8 和 FP4 的路径，也就是用更低的数字精度压缩模型来提速，再加上多 token 生成这些优化方向。但 Sean 强调，当下的重点还是准确性：先确认真的在为系统增加价值，再往性能端推。下一步的合作，是从尽可能多提取页面里的信息，扩展到先找到那个页面，再走向生产规模的智能体。\n\n这一集听完，最值得带走的就是这句话：对企业来说，更小、更专用的模型，往往才是正确的路。"
+}

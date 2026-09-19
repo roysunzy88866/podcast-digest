@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-16-talks-your-agreements-are-a-database-you-can-t",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/_gvamfT8H-w.m4a",
+  "duration_sec": 1086.696,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 206,
+  "asr": true,
+  "title_en": "Your Agreements Are a Database You Can't Query — Hiral Shah, Docusign & Sean Sodha, NVIDIA",
+  "podcast": "精选演讲",
+  "date": "2026-09-16",
+  "added": "2026-09-19",
+  "added_at": "2026-09-19T02:20:35.808Z",
+  "speaker_map": {
+    "SPEAKER_01": "Hiral Shah",
+    "SPEAKER_02": "Sean Sodha"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Hiral Shah",
+    "Sean Sodha"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "每天100万份协议：DocuSign 携手 NVIDIA 把合同表格变成可用数据",
+  "guest_name": "Hiral Shah",
+  "guest_title": "DocuSign 产品高级总监",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

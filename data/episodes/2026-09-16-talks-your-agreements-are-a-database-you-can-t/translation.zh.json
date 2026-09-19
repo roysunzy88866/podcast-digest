@@ -1,0 +1,1650 @@
+[
+ {
+  "seg": 0,
+  "start": 13.936,
+  "end": 15.659,
+  "speaker": "Unknown",
+  "en": "Welcome everyone to our session.",
+  "zh": "欢迎大家参加我们的分享。"
+ },
+ {
+  "seg": 1,
+  "start": 16.48,
+  "end": 21.109,
+  "speaker": "Unknown",
+  "en": "I'm Haral, I'm a senior director of products at DocuSign and I'm joined by Sean.",
+  "zh": "我是 Haral,DocuSign 的产品高级总监,和我一起来的还有 Sean。"
+ },
+ {
+  "seg": 2,
+  "start": 21.61,
+  "end": 23.172,
+  "speaker": "Unknown",
+  "en": "Hello everyone, I'm a product manager at NVIDIA.",
+  "zh": "大家好,我是 NVIDIA 的产品经理。"
+ },
+ {
+  "seg": 3,
+  "start": 23.935,
+  "end": 33.517,
+  "speaker": "Unknown",
+  "en": "So today, Sean and I are going to talk about a massive problem that every enterprise faces, which is agreement data, large-scale agreement data.",
+  "zh": "今天,Sean 和我要谈一个每个企业都面临的巨大问题,那就是协议数据,大规模的协议数据。"
+ },
+ {
+  "seg": 4,
+  "start": 34.237,
+  "end": 41.579,
+  "speaker": "Unknown",
+  "en": "Agreements are a big part of any relationship, any day-to-day organization kind of goes through, day in, day out.",
+  "zh": "协议是任何关系的重要组成部分,任何组织的日常运转每天都离不开它。"
+ },
+ {
+  "seg": 5,
+  "start": 42.019,
+  "end": 49.941,
+  "speaker": "Unknown",
+  "en": "And a lot of that data is captured inside that agreements, and it's very critical, whether it's pricing tables, a lot of it.",
+  "zh": "而且其中很多数据都被捕获在协议里面,非常关键,比如价格表,很多内容都在里面。"
+ },
+ {
+  "seg": 6,
+  "start": 50.401,
+  "end": 53.482,
+  "speaker": "Unknown",
+  "en": "And it's all in a lot of different unstructured format.",
+  "zh": "而且它们都以各种不同的非结构化格式存在。"
+ },
+ {
+  "seg": 7,
+  "start": 54.002,
+  "end": 66.181,
+  "speaker": "Unknown",
+  "en": "And that's kind of what we're going to show is how DocuSign partnered with NVIDIA are fixing that on making that data available, readable, usable for a lot of our kind of organizations.",
+  "zh": "这就是我们要展示的内容:DocuSign 与 NVIDIA 合作如何解决这个问题,让这些数据可以被大量组织所获取、可读、可用。"
+ },
+ {
+  "seg": 8,
+  "start": 67.074,
+  "end": 69.835,
+  "speaker": "Unknown",
+  "en": "So here is kind of just a quick map of our talk today.",
+  "zh": "这是我们今天分享内容的一个简要大纲。"
+ },
+ {
+  "seg": 9,
+  "start": 70.075,
+  "end": 71.356,
+  "speaker": "Unknown",
+  "en": "We'll start with just the stakes.",
+  "zh": "我们会先讲这件事的利害关系。"
+ },
+ {
+  "seg": 10,
+  "start": 71.536,
+  "end": 72.497,
+  "speaker": "Unknown",
+  "en": "Why does this matter?",
+  "zh": "为什么这很重要?"
+ },
+ {
+  "seg": 11,
+  "start": 72.837,
+  "end": 74.618,
+  "speaker": "Unknown",
+  "en": "Why the scale is so large?",
+  "zh": "为什么规模如此之大?"
+ },
+ {
+  "seg": 12,
+  "start": 75.158,
+  "end": 84.702,
+  "speaker": "Unknown",
+  "en": "And then we'll dive deep into the technical architecture of how we are approaching it, how we have tackled this thing, especially this document processing at scale.",
+  "zh": "然后我们会深入探讨技术架构,我们是如何着手处理这个问题的,如何攻克它,尤其是大规模文档处理。"
+ },
+ {
+  "seg": 13,
+  "start": 85.102,
+  "end": 94.807,
+  "speaker": "Unknown",
+  "en": "And then finally we'll cover what we have learned from our evaluation of all of the different models we've tried for different purposes and share our learnings with you.",
+  "zh": "最后,我们会分享从对不同用途尝试的各种模型的评估中学到的经验,与大家分享我们的心得。"
+ },
+ {
+  "seg": 14,
+  "start": 95.654,
+  "end": 100.856,
+  "speaker": "Unknown",
+  "en": "So, why, like, you know, just to understand why this is a big problem.",
+  "zh": "那么,先来理解一下为什么这是一个大问题。"
+ },
+ {
+  "seg": 15,
+  "start": 101.336,
+  "end": 104.637,
+  "speaker": "Unknown",
+  "en": "When you think about DocuSign, raise your hands, how many of you have used DocuSign?",
+  "zh": "提到 DocuSign,请举手,在座有多少人用过 DocuSign?"
+ },
+ {
+  "seg": 16,
+  "start": 105.738,
+  "end": 108.018,
+  "speaker": "Unknown",
+  "en": "Anyone who's employed, probably the HR Docs, right?",
+  "zh": "只要有工作的人,大概都签过 HR 文件,对吧?"
+ },
+ {
+  "seg": 17,
+  "start": 108.339,
+  "end": 110.299,
+  "speaker": "Unknown",
+  "en": "So it's a massive scale.",
+  "zh": "所以规模非常大。"
+ },
+ {
+  "seg": 18,
+  "start": 110.459,
+  "end": 111.94,
+  "speaker": "Unknown",
+  "en": "Everyone uses DocuSign.",
+  "zh": "每个人都在用 DocuSign。"
+ },
+ {
+  "seg": 19,
+  "start": 112.36,
+  "end": 116.381,
+  "speaker": "Unknown",
+  "en": "For us, it's a massive engineering problem as well, because just look at the scale.",
+  "zh": "我们有 190 万付费客户和 10 亿用户。"
+ },
+ {
+  "seg": 20,
+  "start": 116.742,
+  "end": 122.804,
+  "speaker": "Unknown",
+  "en": "We have 1.9 million customers who are paying us and a billion users.",
+  "zh": "我们有 190 万付费客户和 10 亿用户。"
+ },
+ {
+  "seg": 21,
+  "start": 123.564,
+  "end": 124.405,
+  "speaker": "Unknown",
+  "en": "What does that imply?",
+  "zh": "这意味着什么?"
+ },
+ {
+  "seg": 22,
+  "start": 124.525,
+  "end": 132.169,
+  "speaker": "Unknown",
+  "en": "We process a million agreements a day that needs to now structurize, make it readable, make it queryable, usable.",
+  "zh": "我们每天处理 100 万份协议,现在需要将它们结构化,使其可读、可查询、可用。"
+ },
+ {
+  "seg": 23,
+  "start": 133.129,
+  "end": 138.632,
+  "speaker": "Unknown",
+  "en": "And in the past, we've worked with Deloitte on a study, and it says that there's $2 trillion",
+  "zh": "过去,我们与德勤合作做过一项研究,研究表明有 2 万亿美元"
+ },
+ {
+  "seg": 24,
+  "start": 139.673,
+  "end": 147.04,
+  "speaker": "Unknown",
+  "en": "Captured in this agreement negotiated value that no one capitalizes, no one goes back and gets that data back.",
+  "zh": "被锁在协议谈判的价值中,没有人加以利用,没有人回头去把这些数据挖掘出来。"
+ },
+ {
+  "seg": 25,
+  "start": 147.381,
+  "end": 147.901,
+  "speaker": "Unknown",
+  "en": "And why?",
+  "zh": "为什么呢?"
+ },
+ {
+  "seg": 26,
+  "start": 148.081,
+  "end": 155.648,
+  "speaker": "Unknown",
+  "en": "It's because they have to do a lot of human reading, human reviews, there's disconnected systems, a lot of manual workflows that are there.",
+  "zh": "因为人们需要大量人工阅读、人工审查,存在彼此割裂的系统,还有大量手工流程。"
+ },
+ {
+  "seg": 27,
+  "start": 156.289,
+  "end": 179.725,
+  "speaker": "Unknown",
+  "en": "So that's kind of why DocuSign built IAM, an intelligent agreement management platform that takes the entire, like applying in an AI-first way, the entire agreement lifecycle, whether you are creating agreements, Gen AI helps a lot with that, whether you're negotiating to understanding and redlining, all the way to after signing, storing, and making a lot of insights from this data.",
+  "zh": "这就是 DocuSign 构建 IAM(智能协议管理平台)的原因,它以 AI 优先的方式应用于整个协议生命周期,无论是创建协议——Gen AI 在这方面帮助很大——还是谈判、理解和修订标注,一直到签署之后、存储,并从这些数据中挖掘大量洞察。"
+ },
+ {
+  "seg": 28,
+  "start": 180.549,
+  "end": 186.691,
+  "speaker": "Unknown",
+  "en": "So when you think about the challenges involved in an agreement, there is the unstructured data.",
+  "zh": "当你思考协议中涉及的挑战时,首先是非结构化数据。"
+ },
+ {
+  "seg": 29,
+  "start": 186.811,
+  "end": 187.932,
+  "speaker": "Unknown",
+  "en": "It could be a PDF.",
+  "zh": "它可能是 PDF。"
+ },
+ {
+  "seg": 30,
+  "start": 188.012,
+  "end": 189.172,
+  "speaker": "Unknown",
+  "en": "It could be a PNG.",
+  "zh": "也可能是 PNG。"
+ },
+ {
+  "seg": 31,
+  "start": 189.712,
+  "end": 193.193,
+  "speaker": "Unknown",
+  "en": "And what are people wanting to do is simple questions.",
+  "zh": "而人们想做的只是提出简单的问题。"
+ },
+ {
+  "seg": 32,
+  "start": 193.254,
+  "end": 194.294,
+  "speaker": "Unknown",
+  "en": "They can't get that.",
+  "zh": "但他们得不到答案。"
+ },
+ {
+  "seg": 33,
+  "start": 194.514,
+  "end": 196.855,
+  "speaker": "Unknown",
+  "en": "That is the data that is trapped inside.",
+  "zh": "因为数据被困在里面。"
+ },
+ {
+  "seg": 34,
+  "start": 197.615,
+  "end": 205.181,
+  "speaker": "Unknown",
+  "en": "One agreement, but also the whole corpus of millions of agreement, 10 years, 20 years of business has kind of put into that.",
+  "zh": "不只是单个协议,还有整个协议语料库,是 10 年、20 年的业务积累沉淀下来的数百万份协议。"
+ },
+ {
+  "seg": 35,
+  "start": 205.781,
+  "end": 207.983,
+  "speaker": "Unknown",
+  "en": "So agreements aren't flat.",
+  "zh": "而且协议不是平面的。"
+ },
+ {
+  "seg": 36,
+  "start": 208.403,
+  "end": 210.244,
+  "speaker": "Unknown",
+  "en": "They're also hierarchical in nature.",
+  "zh": "它们在本质上是分层的。"
+ },
+ {
+  "seg": 37,
+  "start": 210.725,
+  "end": 214.888,
+  "speaker": "Unknown",
+  "en": "They are, like, you know, one agreement governs the other, the other kind of does something else.",
+  "zh": "也就是说,你知道,一份协议管辖另一份协议,另一份又有其他规定。"
+ },
+ {
+  "seg": 38,
+  "start": 215.288,
+  "end": 218.931,
+  "speaker": "Unknown",
+  "en": "So you always are needing a lot of things to answer this question.",
+  "zh": "所以你总是需要综合很多内容才能回答一个问题。"
+ },
+ {
+  "seg": 39,
+  "start": 219.231,
+  "end": 224.935,
+  "speaker": "Unknown",
+  "en": "Simple thing, I'm sure you all are using a lot of, right, Claude and all, especially at your company's organization, simple thing.",
+  "zh": "简单的例子,我相信你们都在大量使用 Claude 之类的工具,尤其是在你们公司的组织里,问一个简单的问题:"
+ },
+ {
+  "seg": 40,
+  "start": 225.215,
+  "end": 227.897,
+  "speaker": "Unknown",
+  "en": "What did we contract for the total tokens, right, with Claude?",
+  "zh": "我们与 Claude 签订的合同中,total tokens 是多少,对吧?"
+ },
+ {
+  "seg": 41,
+  "start": 228.078,
+  "end": 228.578,
+  "speaker": "Unknown",
+  "en": "No one knows.",
+  "zh": "没人知道。"
+ },
+ {
+  "seg": 42,
+  "start": 228.718,
+  "end": 232.501,
+  "speaker": "Unknown",
+  "en": "That's captured inside this agreement in different forms and fashion.",
+  "zh": "那些信息以不同的形式和方式被埋在这些协议里面。"
+ },
+ {
+  "seg": 43,
+  "start": 232.881,
+  "end": 240.187,
+  "speaker": "Unknown",
+  "en": "So you need to be extracting this data to find things, but also insights and push it downstream where you're tracking, doing more things.",
+  "zh": "所以你需要提取这些数据来查找信息,也要获取洞察,并将其推送到下游,供你做跟踪和更多事情。"
+ },
+ {
+  "seg": 44,
+  "start": 241.028,
+  "end": 253.424,
+  "speaker": "Unknown",
+  "en": "And when you analyze an enterprise contract, a big set of things are captured, what I call vital terms like pricing tiers, the SKUs, the information, SLAs, rate cards, they're all in table format.",
+  "zh": "当你分析一份企业合同时,有大量内容被捕获,我称之为关键条款,比如价格层级、SKU、相关信息、SLA、费率卡,它们全都是表格格式。"
+ },
+ {
+  "seg": 45,
+  "start": 253.944,
+  "end": 258.39,
+  "speaker": "Unknown",
+  "en": "Now, traditional document extraction tools, auto-generic BLMs,",
+  "zh": "而传统的文档提取工具、通用的 BLM,"
+ },
+ {
+  "seg": 46,
+  "start": 260.132,
+  "end": 261.093,
+  "speaker": "Unknown",
+  "en": "Completely fail here.",
+  "zh": "在这里完全失败。"
+ },
+ {
+  "seg": 47,
+  "start": 261.293,
+  "end": 262.113,
+  "speaker": "Unknown",
+  "en": "Like, you know, we've tried.",
+  "zh": "你知道,我们试过了。"
+ },
+ {
+  "seg": 48,
+  "start": 262.153,
+  "end": 262.934,
+  "speaker": "Unknown",
+  "en": "We've definitely done this.",
+  "zh": "我们确实做过。"
+ },
+ {
+  "seg": 49,
+  "start": 263.174,
+  "end": 268.558,
+  "speaker": "Unknown",
+  "en": "Because they're reading text line by line, which breaks a lot of that concept within the table.",
+  "zh": "因为它们逐行读取文本,这破坏了表格中的很多概念。"
+ },
+ {
+  "seg": 50,
+  "start": 268.698,
+  "end": 269.619,
+  "speaker": "Unknown",
+  "en": "A merge sells.",
+  "zh": "一个合并就能卖出去。"
+ },
+ {
+  "seg": 51,
+  "start": 269.759,
+  "end": 271.22,
+  "speaker": "Unknown",
+  "en": "Some things are not boundaried.",
+  "zh": "有些东西是没有边界的。"
+ },
+ {
+  "seg": 52,
+  "start": 271.6,
+  "end": 279.966,
+  "speaker": "Unknown",
+  "en": "So this makes a massive operational overhead for the downstream legal teams, procurement teams, sales teams to get their queries and get their answers done.",
+  "zh": "所这就给下游的法务团队、采购团队、销售团队带来了巨大的运营开销，他们要提出查询并得到答案。"
+ },
+ {
+  "seg": 53,
+  "start": 280.306,
+  "end": 285.11,
+  "speaker": "Unknown",
+  "en": "And they spend hours and hours digging through this to even just locate a basic thing.",
+  "zh": "他们花费大量时间在这些东西里翻找，哪怕只是定位一个基本信息。"
+ },
+ {
+  "seg": 54,
+  "start": 285.67,
+  "end": 300.337,
+  "speaker": "Unknown",
+  "en": "And that's kind of where we partnered with NVIDIA and leveraged a purpose-built model, like, you know, tool, which is really, like, you know, making our architecture for table extraction take us to make and solve these complex use cases.",
+  "zh": "这就是 kind of 我们与 NVIDIA 合作的地方，我们利用了一个专门构建的模型，you know,工具，它真的，like,you know,让我们的表格提取架构得以构建并解决这些复杂的使用场景。"
+ },
+ {
+  "seg": 55,
+  "start": 300.417,
+  "end": 303.599,
+  "speaker": "Unknown",
+  "en": "So with this, we are making things scalable.",
+  "zh": "因此有了这个，我们让事情变得可扩展。"
+ },
+ {
+  "seg": 56,
+  "start": 304.059,
+  "end": 309.862,
+  "speaker": "Unknown",
+  "en": "We can understand it with the layout, but also deliver really accurate results.",
+  "zh": "我们可以通过版面来理解它，同时还能交付非常准确的结果。"
+ },
+ {
+  "seg": 57,
+  "start": 310.322,
+  "end": 313.804,
+  "speaker": "Unknown",
+  "en": "And to share more about how we are leveraging the Nemotron, I'm gonna hand it to Sean.",
+  "zh": "要分享更多关于我们如何使用 Nemotron 的内容，我把它交给 Sean。"
+ },
+ {
+  "seg": 58,
+  "start": 317.247,
+  "end": 317.467,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 59,
+  "start": 317.487,
+  "end": 317.968,
+  "speaker": "Unknown",
+  "en": "Hello, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 60,
+  "start": 318.649,
+  "end": 322.373,
+  "speaker": "Unknown",
+  "en": "So real quick on the Nemotron Retriever Initiative.",
+  "zh": "那么快速介绍一下 Nemotron Retriever 计划。"
+ },
+ {
+  "seg": 61,
+  "start": 322.433,
+  "end": 325.876,
+  "speaker": "Unknown",
+  "en": "So for those who here knows about Nemotron, maybe raise your hand real quick.",
+  "zh": "在场知道 Nemotron 的，可以快速举个手吗？"
+ },
+ {
+  "seg": 62,
+  "start": 326.495,
+  "end": 327.436,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 63,
+  "start": 327.476,
+  "end": 341.703,
+  "speaker": "Unknown",
+  "en": "So Nemotron is all about building world-class open source models and publishing the data sets, the techniques, the quantization approaches, distillation approaches, pruning approaches, every technique possible, blueprints to go with that, you name it.",
+  "zh": "Nemotron 的全部内容就是构建世界级的开源模型，并发布数据集、技术、量化方法、蒸馏方法、剪枝方法，所有可能的技术，以及配套的蓝图，随你说。"
+ },
+ {
+  "seg": 64,
+  "start": 342.084,
+  "end": 349.768,
+  "speaker": "Unknown",
+  "en": "Throughout the Nemotron portfolio, we have specifically Nemotron Retriever, which is building embedding models, re-ranking models, and document extraction models.",
+  "zh": "在整个 Nemotron 产品组合中，我们有专门的 Nemotron Retriever，它在构建嵌入模型、重排序模型和文档提取模型。"
+ },
+ {
+  "seg": 65,
+  "start": 350.508,
+  "end": 361.797,
+  "speaker": "Unknown",
+  "en": "So real quick here, sort of our first initiative is if you're a large-scale enterprise that deals with petabytes-scale data, our first initiative is how do we make sure that you find the right document given a certain query?",
+  "zh": "那么，这里快速说一下，我们的第一个倡议是：如果你是一家处理 PB 级数据的大型企业，我们的第一个倡议是，如何确保你在给定某个查询时找到正确的文档？"
+ },
+ {
+  "seg": 66,
+  "start": 361.817,
+  "end": 365.2,
+  "speaker": "Unknown",
+  "en": "Your agent sends a set of queries to the corpus afterwards.",
+  "zh": "之后，你的智能体会向语料库发送一组查询。"
+ },
+ {
+  "seg": 67,
+  "start": 365.861,
+  "end": 373.767,
+  "speaker": "Unknown",
+  "en": "Once you find those top five documents, whatever it may be, then we say, okay, you found the right document, now how do you then find the right information within the document?",
+  "zh": "一旦你找到了前五份文档，不管是什么，我们就说，好，你找到了正确的文档，那么接下来你如何在文档内部找到正确的信息？"
+ },
+ {
+  "seg": 68,
+  "start": 374.187,
+  "end": 379.732,
+  "speaker": "Unknown",
+  "en": "And this is where the work with the DocuSign team has gotten really great, where we've worked with them to build the Nemotron parse model",
+  "zh": "这就是与 DocuSign 团队的合作变得非常出色的地方，我们与他们一起构建了 Nemotron parse 模型"
+ },
+ {
+  "seg": 69,
+  "start": 380.312,
+  "end": 383.836,
+  "speaker": "Unknown",
+  "en": "to focus specifically on table extraction, which is a really complicated technique.",
+  "zh": "专注于表格提取，这是一项非常复杂的技术。"
+ },
+ {
+  "seg": 70,
+  "start": 384.517,
+  "end": 394.888,
+  "speaker": "Unknown",
+  "en": "If you think about it, the number of permutations of tables are quite vast when you think about nested tables, merged cells, merged columns, merged rows, whatever it may be, and that can get really, really complex and really hairy of a problem.",
+  "zh": "想一想，当你考虑嵌套表格、合并单元格、合并列、合并行等等时，表格的排列组合数量是相当庞大的，这会成为一个非常非常复杂、非常棘手的问题。"
+ },
+ {
+  "seg": 71,
+  "start": 397.059,
+  "end": 405.984,
+  "speaker": "Unknown",
+  "en": "So real quick, as I mentioned before, our team is responsible for leading a lot of leaderboards in the retrieval space, so Vidori, V1, V2, V3, MTEB, MMTEB.",
+  "zh": "所以快速说一下，正如我之前提到的，我们团队负责在检索领域领跑很多排行榜，比如 Vidori、V1、V2、V3、MTEB、MMTEB。"
+ },
+ {
+  "seg": 72,
+  "start": 406.744,
+  "end": 414.208,
+  "speaker": "Unknown",
+  "en": "So our team knows how to build world-class retrieval models given a lot of leaderboard winnings that we've had in the last year or so.",
+  "zh": "所以基于过去一年左右我们在许多排行榜上的胜利，我们团队知道如何构建世界级的检索模型。"
+ },
+ {
+  "seg": 73,
+  "start": 414.628,
+  "end": 418.09,
+  "speaker": "Unknown",
+  "en": "And then, of course, as I mentioned before, we open source everything.",
+  "zh": "然后，当然，正如我之前提到的，我们把一切都开源。"
+ },
+ {
+  "seg": 74,
+  "start": 418.11,
+  "end": 424.954,
+  "speaker": "Unknown",
+  "en": "So we share the open source model weights, the techniques, and then we release with those blueprints and skills that agents can use then afterwards.",
+  "zh": "所以我们分享开源模型权重、技术，然后随这些发布蓝图和技能，智能体之后就可以使用。"
+ },
+ {
+  "seg": 75,
+  "start": 426.282,
+  "end": 431.124,
+  "speaker": "Unknown",
+  "en": "So to touch a little bit on the actual model that we are working with with DocuSign was the Nemotron parse model.",
+  "zh": "那么，稍微谈一下我们与 DocuSign 合作中实际使用的模型，就是 Nemotron parse 模型。"
+ },
+ {
+  "seg": 76,
+  "start": 431.644,
+  "end": 435.205,
+  "speaker": "Unknown",
+  "en": "So when you think VLM, you generally think a multi-billion parameter model.",
+  "zh": "当你想到 VLM 时，你通常会想到一个数十亿参数的模型。"
+ },
+ {
+  "seg": 77,
+  "start": 435.286,
+  "end": 436.106,
+  "speaker": "Unknown",
+  "en": "It's very heavy.",
+  "zh": "它非常重。"
+ },
+ {
+  "seg": 78,
+  "start": 436.166,
+  "end": 437.106,
+  "speaker": "Unknown",
+  "en": "It's high latency.",
+  "zh": "它延迟很高。"
+ },
+ {
+  "seg": 79,
+  "start": 438.247,
+  "end": 441.268,
+  "speaker": "Unknown",
+  "en": "This is a very small, tiny C-radio VLM.",
+  "zh": "这是一个非常小的、微型的 C-radio VLM。"
+ },
+ {
+  "seg": 80,
+  "start": 441.908,
+  "end": 449.471,
+  "speaker": "Unknown",
+  "en": "It's about 850, 900 million parameter model designed to kind of be that all-in-one package sort of model where you deploy it.",
+  "zh": "它大约是 8.5 亿到 9 亿参数的模型，设计上 kind of 是那种一体化打包的模型，你部署它。"
+ },
+ {
+  "seg": 81,
+  "start": 450.051,
+  "end": 467.378,
+  "speaker": "Unknown",
+  "en": "And instead of having small, let's say, YOLOX models that do table extraction or page element extraction, where it may be, this is a single-shot model that you can feed a document in, and out comes the semantic formatting layouts, the text, the reading order, the preserved structure of the table, et cetera.",
+  "zh": "它不再需要小的，比如说，做表格提取或页面元素提取的 YOLOX 模型之类的东西，这是一个单次推理模型，你输入一份文档，输出的就是语义格式化版面、文本、阅读顺序、表格的保留结构等等。"
+ },
+ {
+  "seg": 82,
+  "start": 468.258,
+  "end": 472.84,
+  "speaker": "Unknown",
+  "en": "This can be served via the NVIDIA NIM or via vLLM as well, too.",
+  "zh": "它可以通过 NVIDIA NIM 提供，也可以通过 vLLM 提供。"
+ },
+ {
+  "seg": 83,
+  "start": 473.04,
+  "end": 474.801,
+  "speaker": "Unknown",
+  "en": "And so it's a tiny, small model that you can use.",
+  "zh": "所以它是一个你可以使用的微小的小模型。"
+ },
+ {
+  "seg": 84,
+  "start": 474.901,
+  "end": 475.661,
+  "speaker": "Unknown",
+  "en": "It's not a generator.",
+  "zh": "它不是生成器。"
+ },
+ {
+  "seg": 85,
+  "start": 475.681,
+  "end": 477.022,
+  "speaker": "Unknown",
+  "en": "It's more of an extractor at the end of the day.",
+  "zh": "说到底它更像一个提取器。"
+ },
+ {
+  "seg": 86,
+  "start": 479.714,
+  "end": 485.457,
+  "speaker": "Unknown",
+  "en": "So real quick as well, too, we always want to make sure that we're building towards benchmarks that matter most to the enterprise space.",
+  "zh": "那么同样快速说一下，我们始终想确保我们是围绕对企业空间最重要的基准来构建的。"
+ },
+ {
+  "seg": 87,
+  "start": 485.958,
+  "end": 493.542,
+  "speaker": "Unknown",
+  "en": "So we want to make sure that both on the Pareto curve of accuracy versus performance, we'll make sure that we're going to be releasing world-class models to the ecosystem, too.",
+  "zh": "所以我们要确保在准确性与性能的帕累托曲线上，我们都会向生态系统发布世界级的模型。"
+ },
+ {
+  "seg": 88,
+  "start": 494.102,
+  "end": 497.244,
+  "speaker": "Unknown",
+  "en": "So you'll see here generally is just a very standard benchmark of table extraction.",
+  "zh": "所以你在这里看到的通常只是一个非常标准的表格提取基准。"
+ },
+ {
+  "seg": 89,
+  "start": 497.284,
+  "end": 498.765,
+  "speaker": "Unknown",
+  "en": "I believe this one was RD table bench.",
+  "zh": "我记得这个是 RD table bench。"
+ },
+ {
+  "seg": 90,
+  "start": 499.346,
+  "end": 506.17,
+  "speaker": "Unknown",
+  "en": "And we compare some popular open source models here, and then we compare how our Neumatron parse model does compared to that industry.",
+  "zh": "我们在这里比较了一些流行的开源模型，然后我们比较我们的 Neumatron parse 模型相对于该行业的表现。"
+ },
+ {
+  "seg": 91,
+  "start": 506.19,
+  "end": 508.571,
+  "speaker": "Unknown",
+  "en": "And we continue to kind of strive to improve this as time goes on.",
+  "zh": "随着时间推移，我们会继续努力改进它。"
+ },
+ {
+  "seg": 92,
+  "start": 510.925,
+  "end": 515.069,
+  "speaker": "Unknown",
+  "en": "So I think we believe in a demo as well.",
+  "zh": "所以我想我们也相信演示。"
+ },
+ {
+  "seg": 93,
+  "start": 516.491,
+  "end": 526.861,
+  "speaker": "Unknown",
+  "en": "Let me show you how easy it is to turn any agreement into structured, usable data with Agreement Manager, which is a central repository of every agreement an organization has ever signed.",
+  "zh": "让我向你展示，用 Agreement Manager 把任何协议转化为结构化、可用的数据是多么容易，Agreement Manager 是一个组织所签署过的每一份协议的中央存储库。"
+ },
+ {
+  "seg": 94,
+  "start": 527.922,
+  "end": 528.683,
+  "speaker": "Unknown",
+  "en": "Let's look at this.",
+  "zh": "我们来看看这个。"
+ },
+ {
+  "seg": 95,
+  "start": 529.837,
+  "end": 539.439,
+  "speaker": "Unknown",
+  "en": "So when we look at the Agreement Manager view here, we have an ability to see the entire list of agreements, but also go and upload a new agreement.",
+  "zh": "当我们看这里的 Agreement Manager 视图时，我们可以看到协议的完整列表，同时还可以上传一份新协议。"
+ },
+ {
+  "seg": 96,
+  "start": 539.779,
+  "end": 543.14,
+  "speaker": "Unknown",
+  "en": "So I'm uploading a new order form into Agreement Manager.",
+  "zh": "我正在向 Agreement Manager 上传一份新的订单表。"
+ },
+ {
+  "seg": 97,
+  "start": 543.74,
+  "end": 547.021,
+  "speaker": "Unknown",
+  "en": "As you can see, I can select from a computer, import from other places.",
+  "zh": "如你所见，我可以从电脑选择，从其他地方导入。"
+ },
+ {
+  "seg": 98,
+  "start": 547.841,
+  "end": 552.642,
+  "speaker": "Unknown",
+  "en": "The moment I select the agreement, it starts uploading and starts processing with AI.",
+  "zh": "我一选择这份协议，它就开始上传并开始用 AI 处理。"
+ },
+ {
+  "seg": 99,
+  "start": 554.1,
+  "end": 557.823,
+  "speaker": "Unknown",
+  "en": "And just like that, you can see that the jobs engine has processed it.",
+  "zh": "就这样，你可以看到作业引擎已经处理完它了。"
+ },
+ {
+  "seg": 100,
+  "start": 558.484,
+  "end": 560.925,
+  "speaker": "Unknown",
+  "en": "Let's take a closer look at this agreement.",
+  "zh": "让我们仔细看看这份协议。"
+ },
+ {
+  "seg": 101,
+  "start": 561.466,
+  "end": 564.228,
+  "speaker": "Unknown",
+  "en": "So when you go into the action, you can go and browse the file.",
+  "zh": "当你进入这个操作时，你可以去浏览这个文件。"
+ },
+ {
+  "seg": 102,
+  "start": 565.029,
+  "end": 568.952,
+  "speaker": "Unknown",
+  "en": "Within seconds, agreement manager has extracted a rich set of metadata.",
+  "zh": "几秒钟之内，agreement manager 就提取出了一套丰富的元数据。"
+ },
+ {
+  "seg": 103,
+  "start": 569.452,
+  "end": 579.1,
+  "speaker": "Unknown",
+  "en": "Everything from key terms to commercial details are automatically structured, highlighted, and immediately you can jump to that section where the details are found.",
+  "zh": "从关键条款到商业细节，一切都自动结构化、高亮显示，并且你可以立即跳转到找到这些细节的那一节。"
+ },
+ {
+  "seg": 104,
+  "start": 580.655,
+  "end": 581.936,
+  "speaker": "Unknown",
+  "en": "Built-in goes deeper.",
+  "zh": "内置的更进一步。"
+ },
+ {
+  "seg": 105,
+  "start": 581.956,
+  "end": 588.301,
+  "speaker": "Unknown",
+  "en": "This is where the NVIDIA's model comes in, that it's extracted all the structured pricing data around this agreement.",
+  "zh": "这就是 NVIDIA 的模型发挥作用的地方，它提取了这个协议周围所有的结构化定价数据。"
+ },
+ {
+  "seg": 106,
+  "start": 588.961,
+  "end": 593.284,
+  "speaker": "Unknown",
+  "en": "It goes in, breaks down these complex tables into order details.",
+  "zh": "它进入其中，把这些复杂的表格分解成订单细节。"
+ },
+ {
+  "seg": 107,
+  "start": 595.226,
+  "end": 596.647,
+  "speaker": "Unknown",
+  "en": "And as you can see,",
+  "zh": "正如你所看到的，"
+ },
+ {
+  "seg": 108,
+  "start": 597.753,
+  "end": 598.714,
+  "speaker": "Unknown",
+  "en": "We can break it down.",
+  "zh": "我们可以把它分解开来。"
+ },
+ {
+  "seg": 109,
+  "start": 598.734,
+  "end": 600.555,
+  "speaker": "Unknown",
+  "en": "We can download all of this data.",
+  "zh": "我们可以下载所有这些数据。"
+ },
+ {
+  "seg": 110,
+  "start": 600.855,
+  "end": 609.04,
+  "speaker": "Unknown",
+  "en": "This is powered by the advanced parsing leveraging NVIDIA's Nemotron model, turning even dense tables into something that is instantly usable.",
+  "zh": "这是由先进的解析技术驱动的，利用了 NVIDIA 的 Nemotron 模型，把即使是密集的表格也变成可以立即使用的东西。"
+ },
+ {
+  "seg": 111,
+  "start": 609.721,
+  "end": 611.702,
+  "speaker": "Unknown",
+  "en": "And of course, you can take this data with you.",
+  "zh": "当然，你可以把这些数据带走。"
+ },
+ {
+  "seg": 112,
+  "start": 611.982,
+  "end": 618.447,
+  "speaker": "Unknown",
+  "en": "You can see when we've downloaded into CSV how we've structured all of it for your finance team, procurement team, even further analysis.",
+  "zh": "你可以看到，当我们下载成 CSV 时，我们是如何为你的财务团队、采购团队，甚至进一步的分析，把所有这些数据结构化的。"
+ },
+ {
+  "seg": 113,
+  "start": 619.307,
+  "end": 621.488,
+  "speaker": "Unknown",
+  "en": "All of it is also available through API.",
+  "zh": "所有这些也都可以通过 API 获得。"
+ },
+ {
+  "seg": 114,
+  "start": 622.188,
+  "end": 629.07,
+  "speaker": "Unknown",
+  "en": "And that's how Agreement Manager has transformed agreements into actionable insights in seconds, leveraging NVIDIA.",
+  "zh": "这就是 Agreement Manager 如何在几秒钟内，利用 NVIDIA，把协议转化为可操作的洞察。"
+ },
+ {
+  "seg": 115,
+  "start": 630.67,
+  "end": 635.572,
+  "speaker": "Unknown",
+  "en": "So I think what you saw there from a demo perspective, we've tried to shorten it.",
+  "zh": "所以我认为你从演示角度所看到的，我们尽量缩短了它。"
+ },
+ {
+  "seg": 116,
+  "start": 635.852,
+  "end": 637.192,
+  "speaker": "Unknown",
+  "en": "It's like we have a whole repository.",
+  "zh": "就像是说，我们有一个完整的存储库。"
+ },
+ {
+  "seg": 117,
+  "start": 637.212,
+  "end": 642.814,
+  "speaker": "Unknown",
+  "en": "When you see a list, we get customers which has 1,000 agreements to all the way millions of agreements within.",
+  "zh": "当你看到一个列表时，我们有拥有 1000 份协议的客户，一直到里面有几百万份协议的。"
+ },
+ {
+  "seg": 118,
+  "start": 643.314,
+  "end": 646.555,
+  "speaker": "Unknown",
+  "en": "But the big piece is how do we understand and get that data",
+  "zh": "但很重要的一点是，我们如何理解并获取那些数据，"
+ },
+ {
+  "seg": 119,
+  "start": 647.095,
+  "end": 650.257,
+  "speaker": "Unknown",
+  "en": "That makes it very valuable to an end business user, right?",
+  "zh": "使它对最终的业务用户非常有价值，对吧？"
+ },
+ {
+  "seg": 120,
+  "start": 650.278,
+  "end": 655.502,
+  "speaker": "Unknown",
+  "en": "A legal person, a procurement person, a salesperson who's doing a lot of the deals or even a leader, right?",
+  "zh": "一位法务人员、一位采购人员、一位做大量交易的销售人员，或者甚至是一位领导者，对吧？"
+ },
+ {
+  "seg": 121,
+  "start": 655.522,
+  "end": 658.584,
+  "speaker": "Unknown",
+  "en": "Like a business unit, the CTO goes and asks, what did we do?",
+  "zh": "比如一个业务部门的 CTO 过来问，我们做了什么？"
+ },
+ {
+  "seg": 122,
+  "start": 659.144,
+  "end": 663.087,
+  "speaker": "Unknown",
+  "en": "This is how we had making each of the things a lot more structured.",
+  "zh": "这就是我们如何让每一项都更加结构化的。"
+ },
+ {
+  "seg": 123,
+  "start": 663.288,
+  "end": 670.013,
+  "speaker": "Unknown",
+  "en": "So we have our own proprietary agreement data model, which we are structurizing each agreement, but also at a whole organization level.",
+  "zh": "所以我们有自己的专有协议数据模型，我们对每份协议进行结构化，同时也在整个组织层面进行结构化。"
+ },
+ {
+  "seg": 124,
+  "start": 670.493,
+  "end": 679.363,
+  "speaker": "Unknown",
+  "en": "And leveraging a lot of the NVIDIA things, we've been able to do a really good job, especially with all of those tables, like pricing, SLAs, and then make that available.",
+  "zh": "并且利用了大量 NVIDIA 的东西，我们能够做得非常好，尤其是所有那些表格，比如定价、SLA，然后让这些变得可用。"
+ },
+ {
+  "seg": 125,
+  "start": 679.383,
+  "end": 683.308,
+  "speaker": "Unknown",
+  "en": "And then we also have a robust kind of search that is on top of it.",
+  "zh": "而且我们还在其之上建立了强大的搜索功能。"
+ },
+ {
+  "seg": 126,
+  "start": 684.203,
+  "end": 696.067,
+  "speaker": "Unknown",
+  "en": "So when you think about what have we learned, right, when you think from a Nemotron plus DocuSign, one of the biggest things for us, we definitely have done a lot of different models for different purposes.",
+  "zh": "所以当你想到我们学到了什么，对吧，从 Nemotron 加 DocuSign 的角度来想，对我们来说最重要的事情之一是，我们确实为不同的目的做了很多不同的模型。"
+ },
+ {
+  "seg": 127,
+  "start": 696.087,
+  "end": 706.911,
+  "speaker": "Unknown",
+  "en": "So a purpose-built model for the job you're trying to do is a big, big part of how we've been thinking about, and that's kind of where we've been able to accelerate, bring things to market much faster.",
+  "zh": "所以，为你想要做的工作构建专用模型，是我们思考方式中很大很大的一部分，这也正是我们能够加速、更快地把东西推向市场的地方。"
+ },
+ {
+  "seg": 128,
+  "start": 707.531,
+  "end": 718.474,
+  "speaker": "Unknown",
+  "en": "The second big piece around the model efficiency, as Sean was talking about, the number of parameters, yes, context and stuff matters in a different environment for different things.",
+  "zh": "第二个重要方面是模型效率，正如 Sean 所谈到的，参数数量，是的，上下文之类的在不同环境中对不同的事情很重要。"
+ },
+ {
+  "seg": 129,
+  "start": 718.854,
+  "end": 726.657,
+  "speaker": "Unknown",
+  "en": "For us, the lower kind of context basically also meant lower latency, lower cost to deliver the scale that we are talking about.",
+  "zh": "对我们来说，更低的上下文基本上也意味着更低的延迟、更低的成本，以实现我们所谈论的规模。"
+ },
+ {
+  "seg": 130,
+  "start": 727.537,
+  "end": 729.739,
+  "speaker": "Unknown",
+  "en": "Last, around the faster extraction.",
+  "zh": "最后，是关于更快的提取。"
+ },
+ {
+  "seg": 131,
+  "start": 729.799,
+  "end": 734.162,
+  "speaker": "Unknown",
+  "en": "So we ran this against a lot of the other open source models.",
+  "zh": "所以我们拿这个和很多其他开源模型做了对比。"
+ },
+ {
+  "seg": 132,
+  "start": 734.523,
+  "end": 746.312,
+  "speaker": "Unknown",
+  "en": "When you think about how many tables can it extract per seconds, Nemotron was 20x faster, which helps us when we're talking about the millions and billions of scale that we're kind of serving.",
+  "zh": "当你想到它每秒能提取多少表格时，Nemotron 快了 20 倍，这在我们谈论我们所服务的数百万和数十亿的规模时对我们有帮助，"
+ },
+ {
+  "seg": 133,
+  "start": 746.692,
+  "end": 748.174,
+  "speaker": "Unknown",
+  "en": "for all of our customers.",
+  "zh": "为我们所有的客户服务。"
+ },
+ {
+  "seg": 134,
+  "start": 748.574,
+  "end": 760.387,
+  "speaker": "Unknown",
+  "en": "So a lot of it is like having that smaller purpose-built things is the way for an enterprise as an organization to go and leverage and then serve that from an end-user perspective.",
+  "zh": "所以，很多情况下，拥有那些更小的专用模型，是一个企业作为一个组织去利用、然后从最终用户角度提供服务的方式。"
+ },
+ {
+  "seg": 135,
+  "start": 761.548,
+  "end": 762.71,
+  "speaker": "Unknown",
+  "en": "And then what's next?",
+  "zh": "那么接下来是什么？"
+ },
+ {
+  "seg": 136,
+  "start": 762.85,
+  "end": 764.752,
+  "speaker": "Unknown",
+  "en": "So I'll let Sean talk through those.",
+  "zh": "我会让 Sean 来讲讲这些。"
+ },
+ {
+  "seg": 137,
+  "start": 765.052,
+  "end": 771.578,
+  "speaker": "Unknown",
+  "en": "Yeah, so working with the DocuSign team has been awesome so far, and we're going to continue to deepen that partnership as well over the next few months.",
+  "zh": "是的，到目前为止，与 DocuSign 团队的合作一直很棒，在接下来的几个月里，我们也将继续深化这种伙伴关系。"
+ },
+ {
+  "seg": 138,
+  "start": 771.798,
+  "end": 780.226,
+  "speaker": "Unknown",
+  "en": "So with them, we started with the how do I extract as much possible information from a page, and now we'll scale to how do I now find that page to begin with.",
+  "zh": "所以和他们一起，我们从如何从一个页面中提取尽可能多的信息开始，现在我们将扩展到如何首先找到那个页面。"
+ },
+ {
+  "seg": 139,
+  "start": 780.266,
+  "end": 791.416,
+  "speaker": "Unknown",
+  "en": "So we'll start a little bit with the Nemotron, NemoRetriever effort, and then, of course, we'll talk a little bit about the NVIDIA agent toolkit with them over the next few months, and then actually start scaling into more production-scale agents then.",
+  "zh": "所以我们会先从 Nemotron、NemoRetriever 的工作开始一点，然后，当然，在接下来的几个月里我们会和他们聊一点 NVIDIA 的智能体工具包，然后真正开始扩展到更多生产规模的智能体。"
+ },
+ {
+  "seg": 140,
+  "start": 792.332,
+  "end": 792.753,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "完美。"
+ },
+ {
+  "seg": 141,
+  "start": 792.773,
+  "end": 794.575,
+  "speaker": "Unknown",
+  "en": "I think that's what we had.",
+  "zh": "我想我们要讲的就是这些。"
+ },
+ {
+  "seg": 142,
+  "start": 794.656,
+  "end": 796.618,
+  "speaker": "Unknown",
+  "en": "We have time for a couple questions.",
+  "zh": "我们有时间回答几个问题。"
+ },
+ {
+  "seg": 143,
+  "start": 797.54,
+  "end": 798.141,
+  "speaker": "Unknown",
+  "en": "Everyone in the room?",
+  "zh": "在座的各位？"
+ },
+ {
+  "seg": 144,
+  "start": 802.708,
+  "end": 802.928,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 145,
+  "start": 802.948,
+  "end": 804.07,
+  "speaker": "Unknown",
+  "en": "I have someone there.",
+  "zh": "那边有一位。"
+ },
+ {
+  "seg": 146,
+  "start": 824.972,
+  "end": 835.226,
+  "speaker": "Unknown",
+  "en": "So just to recap for everybody, if you didn't hear, the question is OCR is always a thorn in the whole process, so are we thinking about letting go of that and starting from agentic from the get-go?",
+  "zh": "只是给各位回顾一下，如果你没听到的话，问题是 OCR 一直是整个过程中的一根刺，所以我们是否在考虑放弃它，从一开始就直接采用智能体方式？"
+ },
+ {
+  "seg": 147,
+  "start": 835.947,
+  "end": 837.148,
+  "speaker": "Unknown",
+  "en": "I can talk from my perspective.",
+  "zh": "我可以从我的角度谈谈。"
+ },
+ {
+  "seg": 148,
+  "start": 837.589,
+  "end": 841.754,
+  "speaker": "Unknown",
+  "en": "So I think for us, there are different use cases at different points in time.",
+  "zh": "所以我认为对我们来说，在不同的时间点有不同的用例。"
+ },
+ {
+  "seg": 149,
+  "start": 842.335,
+  "end": 849.419,
+  "speaker": "Unknown",
+  "en": "Many times, if you are reactive, you have a question and you're coming, some of that can work dynamically at a smaller scale.",
+  "zh": "很多时候，如果你是被动响应式的，你有一个问题然后过来，其中一些可以在较小规模上动态地工作。"
+ },
+ {
+  "seg": 150,
+  "start": 849.819,
+  "end": 851.1,
+  "speaker": "Unknown",
+  "en": "The question is the latency.",
+  "zh": "问题是延迟。"
+ },
+ {
+  "seg": 151,
+  "start": 851.12,
+  "end": 857.803,
+  "speaker": "Unknown",
+  "en": "When I am querying at that scale of thousands, I do need to have preprocessed have identified, so that's one.",
+  "zh": "当我以数千的规模进行查询时,我确实需要预处理、需要识别好,这是其一。"
+ },
+ {
+  "seg": 152,
+  "start": 858.184,
+  "end": 860.405,
+  "speaker": "Unknown",
+  "en": "I think the second big part of the use case for us",
+  "zh": "我认为对我们来说用例的第二大重要部分"
+ },
+ {
+  "seg": 153,
+  "start": 860.945,
+  "end": 865.389,
+  "speaker": "Unknown",
+  "en": "A lot of times businesses want to use this data to do a lot of downstream work.",
+  "zh": "很多时候,企业想用这些数据来做大量下游工作。"
+ },
+ {
+  "seg": 154,
+  "start": 865.409,
+  "end": 866.75,
+  "speaker": "Unknown",
+  "en": "So an example is a procurement team.",
+  "zh": "举个例子,比如一个采购团队。"
+ },
+ {
+  "seg": 155,
+  "start": 867.15,
+  "end": 868.371,
+  "speaker": "Unknown",
+  "en": "This is my pricing table.",
+  "zh": "这是我的价格表。"
+ },
+ {
+  "seg": 156,
+  "start": 868.431,
+  "end": 871.533,
+  "speaker": "Unknown",
+  "en": "I want to put it into Coupa to make sure when I'm paying that works.",
+  "zh": "我想把它放进 Coupa,确保付款时能正常运作。"
+ },
+ {
+  "seg": 157,
+  "start": 871.934,
+  "end": 876.577,
+  "speaker": "Unknown",
+  "en": "At that time, the agent is kind of helping, but I can't do that on a one document by document.",
+  "zh": "那时,智能体算是起到帮助作用,但我没法一个文档一个文档地做。"
+ },
+ {
+  "seg": 158,
+  "start": 877.298,
+  "end": 879.459,
+  "speaker": "Unknown",
+  "en": "That said, there is ways that we are compressing.",
+  "zh": "话虽如此,我们是有一些压缩方法。"
+ },
+ {
+  "seg": 159,
+  "start": 879.479,
+  "end": 881.601,
+  "speaker": "Unknown",
+  "en": "That's kind of why Nemotron worked for us.",
+  "zh": "这也就是为什么 Nemotron 对我们有效。"
+ },
+ {
+  "seg": 160,
+  "start": 881.681,
+  "end": 885.164,
+  "speaker": "Unknown",
+  "en": "It's like, how do you do it from a layout understanding just for that purpose?",
+  "zh": "就是说,如何专门为那个目的做版面理解?"
+ },
+ {
+  "seg": 161,
+  "start": 885.184,
+  "end": 886.385,
+  "speaker": "Unknown",
+  "en": "But I would like to let you add.",
+  "zh": "但我想让你来补充。"
+ },
+ {
+  "seg": 162,
+  "start": 887.153,
+  "end": 889.375,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it depends on the use case a little bit.",
+  "zh": "是的,我觉得这在一定程度上取决于用例。"
+ },
+ {
+  "seg": 163,
+  "start": 890.455,
+  "end": 896.059,
+  "speaker": "Unknown",
+  "en": "I think for this specific instance, you have petabytes of documents that you want to be queryable at some point.",
+  "zh": "(订正:此行不存在,继续)"
+ },
+ {
+  "seg": 164,
+  "start": 896.76,
+  "end": 899.882,
+  "speaker": "Unknown",
+  "en": "So you are heavy on the compute at the upfront side with all the OCR.",
+  "zh": "所你在前期就把大量计算花在 OCR 上。"
+ },
+ {
+  "seg": 165,
+  "start": 899.902,
+  "end": 901.923,
+  "speaker": "Unknown",
+  "en": "So you don't have to worry about it later on.",
+  "zh": "这样之后你就不用操心它了。"
+ },
+ {
+  "seg": 166,
+  "start": 902.063,
+  "end": 908.007,
+  "speaker": "Unknown",
+  "en": "And there are some instances where people may upload a contract to begin with for Q&A, and that's a very low latency use case.",
+  "zh": "还有一些场景,比如人们一开始上传一份合同做问答,那是极低延迟的用例。"
+ },
+ {
+  "seg": 167,
+  "start": 908.027,
+  "end": 910.309,
+  "speaker": "Unknown",
+  "en": "So you have a high throughput versus low latency use case.",
+  "zh": "所以你有高吞吐对比低延迟的用例。"
+ },
+ {
+  "seg": 168,
+  "start": 910.869,
+  "end": 916.053,
+  "speaker": "Unknown",
+  "en": "And in that scenario, your different batch sizes, your concurrences, your different techniques on how you process the document will be different.",
+  "zh": "在那种场景下,你的不同批大小、你的并发度、你处理文档的不同技术都会不一样。"
+ },
+ {
+  "seg": 169,
+  "start": 916.494,
+  "end": 920.424,
+  "speaker": "Unknown",
+  "en": "And where you spend that compute in that cycle will be changing between the different use cases.",
+  "zh": "而你在这个周期里把计算花在哪里,也会在不同用例之间变化。"
+ },
+ {
+  "seg": 170,
+  "start": 923.212,
+  "end": 923.733,
+  "speaker": "Unknown",
+  "en": "One more there.",
+  "zh": "再来一个。"
+ },
+ {
+  "seg": 171,
+  "start": 935.644,
+  "end": 941.969,
+  "speaker": "Unknown",
+  "en": "We do a lot of, like, more of what I call hybrid approach and a purpose-built for, like, the needs and the use cases.",
+  "zh": "我们做了很多,可以说是混合方法,并且是专门针对需求和用例而构建的。"
+ },
+ {
+  "seg": 172,
+  "start": 942.009,
+  "end": 946.593,
+  "speaker": "Unknown",
+  "en": "So from a table piece, it does kind of, you know, do the whole layout along with extracting.",
+  "zh": "就表格这部分来说,它基本上,你知道的,在做整体版面处理的同时进行提取。"
+ },
+ {
+  "seg": 173,
+  "start": 946.953,
+  "end": 952.818,
+  "speaker": "Unknown",
+  "en": "We still do OCR from a lot of other fields and metadata and the clauses, like all of the text kind of thing.",
+  "zh": "我们仍然对很多其他字段、元数据以及条款做 OCR,类似所有的文本之类的东西。"
+ },
+ {
+  "seg": 174,
+  "start": 952.838,
+  "end": 958.603,
+  "speaker": "Unknown",
+  "en": "So I think we had an architecture where we have our pipeline going through two different routes for that.",
+  "zh": "所以我想我们的架构里,流水线是走两条不同的路径来做这件事的。"
+ },
+ {
+  "seg": 175,
+  "start": 958.943,
+  "end": 960.464,
+  "speaker": "Unknown",
+  "en": "As a follow-up, we have a blog out there.",
+  "zh": "作为补充,我们有一篇博客发布在外面。"
+ },
+ {
+  "seg": 176,
+  "start": 960.564,
+  "end": 963.066,
+  "speaker": "Unknown",
+  "en": "How are we really solving this at scale across?",
+  "zh": "讲我们是如何真正在大规模下跨场景解决这个问题的。"
+ },
+ {
+  "seg": 177,
+  "start": 963.086,
+  "end": 964.788,
+  "speaker": "Unknown",
+  "en": "And if you look at that, there's a lot of different",
+  "zh": "如果你去看那篇,里面有很多不同的"
+ },
+ {
+  "seg": 178,
+  "start": 965.288,
+  "end": 966.888,
+  "speaker": "Unknown",
+  "en": "Piecemeal modules and stuff together.",
+  "zh": "拼装在一起的模块之类的东西。"
+ },
+ {
+  "seg": 179,
+  "start": 968.149,
+  "end": 969.569,
+  "speaker": "Unknown",
+  "en": "Yeah, one more.",
+  "zh": "是的,再来一个。"
+ },
+ {
+  "seg": 180,
+  "start": 974.25,
+  "end": 981.931,
+  "speaker": "Unknown",
+  "en": "So this model is currently on FP16, but there are paths towards going on to FP8 and VP4 in the next few months as well, too.",
+  "zh": "所以这个模型目前是 FP16,但未来几个月内也有通向 FP8 和 VP4 的路径。"
+ },
+ {
+  "seg": 181,
+  "start": 986.352,
+  "end": 994.173,
+  "speaker": "Unknown",
+  "en": "We do use that, and then we are also kind of using some of the older ones, and that's the journey as a partnership, is to kind of go tweak as you get more of the customers.",
+  "zh": "我们确实在用那个,然后我们也在某种程度上用一些更老的,而这就是作为合作伙伴关系的旅程,就是随着你获得更多客户去不断调优。"
+ },
+ {
+  "seg": 182,
+  "start": 994.717,
+  "end": 998.08,
+  "speaker": "Unknown",
+  "en": "Yeah, so for this, there are many techniques on how to improve the performance side, right?",
+  "zh": "是的,关于这个,有很多提升性能方面的技术,对吧?"
+ },
+ {
+  "seg": 183,
+  "start": 998.1,
+  "end": 999.14,
+  "speaker": "Unknown",
+  "en": "So quantization, right?",
+  "zh": "比如量化,对吧?"
+ },
+ {
+  "seg": 184,
+  "start": 999.16,
+  "end": 1000.902,
+  "speaker": "Unknown",
+  "en": "So we're trying to move everyone to Blackwell, right?",
+  "zh": "所以我们在努力把所有人迁移到 Blackwell,对吧?"
+ },
+ {
+  "seg": 185,
+  "start": 1000.922,
+  "end": 1006.066,
+  "speaker": "Unknown",
+  "en": "So that's why NVFP4 is the big thing now, as well as multi-token generation for this.",
+  "zh": "所以这就是为什么 NVFP4 现在是大事,还有用于此的多 token 生成。"
+ },
+ {
+  "seg": 186,
+  "start": 1006.126,
+  "end": 1007.447,
+  "speaker": "Unknown",
+  "en": "It's a VLM architecture, right?",
+  "zh": "它是 VLM 架构,对吧?"
+ },
+ {
+  "seg": 187,
+  "start": 1007.467,
+  "end": 1011.17,
+  "speaker": "Unknown",
+  "en": "So your encoder-decoder techniques can definitely be further optimized.",
+  "zh": "所以你的编码器-解码器技术绝对可以进一步优化。"
+ },
+ {
+  "seg": 188,
+  "start": 1011.71,
+  "end": 1014.693,
+  "speaker": "Unknown",
+  "en": "So right now, this model just generates one token at a time.",
+  "zh": "现在这个模型一次只生成一个 token。"
+ },
+ {
+  "seg": 189,
+  "start": 1014.753,
+  "end": 1016.514,
+  "speaker": "Unknown",
+  "en": "You can do multi-token generation, of course, too.",
+  "zh": "你当然也可以做多 token 生成。"
+ },
+ {
+  "seg": 190,
+  "start": 1016.574,
+  "end": 1017.795,
+  "speaker": "Unknown",
+  "en": "So there's plenty of performance things.",
+  "zh": "所以性能方面有很多可做的事。"
+ },
+ {
+  "seg": 191,
+  "start": 1018.215,
+  "end": 1021.418,
+  "speaker": "Unknown",
+  "en": "Right now, we're focusing on the accuracy side, like are we adding value to the system?",
+  "zh": "现在我们专注于准确性方面,比如我们是否在为系统增加价值?"
+ },
+ {
+  "seg": 192,
+  "start": 1021.558,
+  "end": 1024.12,
+  "speaker": "Unknown",
+  "en": "And then from there, we'll then push out that Pareto curve on the performance side.",
+  "zh": "然后从那里,我们再在性能方面把那条帕累托曲线往外推。"
+ },
+ {
+  "seg": 193,
+  "start": 1034.017,
+  "end": 1036.358,
+  "speaker": "Unknown",
+  "en": "I believe they just deploy the VLLM directly.",
+  "zh": "我相信他们只是直接部署了 VLLM。"
+ },
+ {
+  "seg": 194,
+  "start": 1049.7,
+  "end": 1051.24,
+  "speaker": "Unknown",
+  "en": "Oh, this is just an extraction.",
+  "zh": "哦,这只是提取。"
+ },
+ {
+  "seg": 195,
+  "start": 1051.28,
+  "end": 1052.381,
+  "speaker": "Unknown",
+  "en": "This is now a retrieval.",
+  "zh": "这现在是检索。"
+ },
+ {
+  "seg": 196,
+  "start": 1052.541,
+  "end": 1052.741,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 197,
+  "start": 1053.121,
+  "end": 1053.361,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 198,
+  "start": 1055.888,
+  "end": 1059.57,
+  "speaker": "Unknown",
+  "en": "It's coming from that agreement data that we've kind of extracted and stored.",
+  "zh": "它来自我们已经提取并存储的那些协议数据。"
+ },
+ {
+  "seg": 199,
+  "start": 1062.011,
+  "end": 1066.973,
+  "speaker": "Unknown",
+  "en": "So yeah, maybe I can chat with you offline and how our architecture kind of works fully as well.",
+  "zh": "所以是的,也许我可以线下和你聊聊我们的架构是如何完整运作的。"
+ },
+ {
+  "seg": 200,
+  "start": 1069.134,
+  "end": 1070.775,
+  "speaker": "Unknown",
+  "en": "No, we're almost coming up on time there.",
+  "zh": "不,我们的时间差不多了。"
+ },
+ {
+  "seg": 201,
+  "start": 1071.615,
+  "end": 1073.436,
+  "speaker": "Unknown",
+  "en": "But I think that's kind of all we have.",
+  "zh": "但我觉得我们 basically 就到这里。"
+ },
+ {
+  "seg": 202,
+  "start": 1073.956,
+  "end": 1077.178,
+  "speaker": "Unknown",
+  "en": "I'm happy to hang around in the back with more questions.",
+  "zh": "我很乐意待在后面,回答更多问题。"
+ },
+ {
+  "seg": 203,
+  "start": 1078.058,
+  "end": 1080.639,
+  "speaker": "Unknown",
+  "en": "And good luck with a lot of your challenges with AI.",
+  "zh": "祝你们在 AI 方面遇到的诸多挑战中好运。"
+ },
+ {
+  "seg": 204,
+  "start": 1081.42,
+  "end": 1081.82,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 205,
+  "start": 1086.255,
+  "end": 1086.696,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

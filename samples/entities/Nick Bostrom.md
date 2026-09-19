@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]]
+[[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":4,"OpenAI":120,"Anthropic":125,"Hugging Face":20,"NVIDIA":37,"智能体":267,"对齐":7,"AI 安全":1,"护栏":50,"开源模型":18}</script>
+<script type="application/json" class="pd-epn">{"Alex":4,"OpenAI":120,"Anthropic":127,"Hugging Face":20,"NVIDIA":38,"智能体":269,"对齐":7,"AI 安全":1,"护栏":50,"开源模型":19}</script>
 
 <script>
 (function(){

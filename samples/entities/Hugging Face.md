@@ -70,7 +70,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[护栏]] · [[推理]] · [[NVIDIA]] · [[开源]] · [[开源权重]] · [[沙箱]] · [[前沿模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":267,"OpenAI":120,"Anthropic":125,"护栏":50,"推理":46,"NVIDIA":37,"开源":22,"开源权重":7,"沙箱":51,"前沿模型":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":269,"OpenAI":120,"Anthropic":127,"护栏":50,"推理":46,"NVIDIA":38,"开源":23,"开源权重":7,"沙箱":52,"前沿模型":16}</script>
 
 <script>
 (function(){

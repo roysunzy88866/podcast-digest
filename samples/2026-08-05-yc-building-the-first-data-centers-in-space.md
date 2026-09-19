@@ -133,7 +133,7 @@ Philip 说，他们正在造一种低成本、轻量化的可展开式散热器�
 
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:NVIDIA</span>
 - [[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|Shopify CEO Toby：一半代码来自聊天群里的 AI 同事]]<span class="pd-rz">同公司:SpaceX</span>
-- [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟]]<span class="pd-rz">同公司:Benchmark</span>
+- [[2026-09-16-talks-your-agreements-are-a-database-you-can-t|每天100万份协议：DocuSign 携手 NVIDIA 把合同表格变成可用数据]]<span class="pd-rz">同公司:NVIDIA</span>
 
 </div>
 </div>

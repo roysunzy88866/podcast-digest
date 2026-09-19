@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jack]] · [[Eric]] · [[Andrew Feldman]] · [[晶圆级]] · [[推理]] · [[NVIDIA]] · [[TSMC]] · [[数据中心]] · [[供应链]] · [[训练]]
 
-<script type="application/json" class="pd-epn">{"Jack":1,"Eric":1,"Andrew Feldman":1,"晶圆级":1,"推理":46,"NVIDIA":37,"TSMC":4,"数据中心":13,"供应链":4,"训练":3}</script>
+<script type="application/json" class="pd-epn">{"Jack":1,"Eric":1,"Andrew Feldman":1,"晶圆级":1,"推理":46,"NVIDIA":38,"TSMC":4,"数据中心":13,"供应链":4,"训练":3}</script>
 
 <script>
 (function(){

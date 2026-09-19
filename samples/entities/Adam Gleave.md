@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]] [[Zubin Gharemani]]
+[[Martine Cassado]] [[Sumanyu Sharma]] [[Greg Brockman]] [[Sarah Sanders]] [[Robert Lucero]] [[Brian Houck]] [[Chetan Gupta]] [[Ajaya Khatra]] [[Ryan Greenblatt]] [[Campbell Brown]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"FAR AI":1,"通用越狱":1,"社会工程":2,"思维链":4,"护栏":50,"探针":2,"预训练数据过滤":1,"安全补全":1,"越狱税":1,"后训练":25}</script>
+<script type="application/json" class="pd-epn">{"FAR AI":1,"通用越狱":1,"社会工程":2,"思维链":4,"护栏":50,"探针":2,"预训练数据过滤":1,"安全补全":1,"越狱税":1,"后训练":26}</script>
 
 <script>
 (function(){

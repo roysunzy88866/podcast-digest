@@ -1,0 +1,629 @@
+{
+  "episode_id": "2026-09-16-talks-your-agreements-are-a-database-you-can-t",
+  "podcast": "精选演讲",
+  "date": "2026-09-16",
+  "tags": [
+    "企业 AI",
+    "文档提取",
+    "表格解析",
+    "开源模型",
+    "模型效率"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "hiral-shah",
+      "type": "person",
+      "role": "guest",
+      "name": "Hiral Shah",
+      "file": "Hiral Shah",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "sean-sodha",
+      "type": "person",
+      "role": "guest",
+      "name": "Sean Sodha",
+      "file": "Sean Sodha",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "docusign",
+      "type": "company",
+      "role": "company",
+      "name": "DocuSign",
+      "file": "DocuSign",
+      "primary": true,
+      "how_described": "本集介绍其为拥有 190 万付费客户、10 亿用户、每天处理 100 万份协议的电子签名巨头，构建了 IAM 智能协议管理平台和 Agreement Manager，与 NVIDIA 合作解决协议数据提取问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            16.48,
+            21.109
+          ],
+          "quote": "I'm Haral, I'm a senior director of products at DocuSign and I'm joined by Sean.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 7,
+          "t": [
+            54.002,
+            66.181
+          ],
+          "quote": "And that's kind of what we're going to show is how DocuSign partnered with NVIDIA are fixing that on making that data available, readable, usable for a lot of our kind of organizations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            101.336,
+            104.637
+          ],
+          "quote": "When you think about DocuSign, raise your hands, how many of you have used DocuSign?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            110.459,
+            111.94
+          ],
+          "quote": "Everyone uses DocuSign.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            156.289,
+            179.725
+          ],
+          "quote": "So that's kind of why DocuSign built IAM, an intelligent agreement management platform that takes the entire, like applying in an AI-first way, the entire agreement lifecycle, whether you are creating agreements, Gen AI helps a lot with that, whether you're negotiating to understanding and redlining, all the way to after signing, storing, and making a lot of insights from this data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            374.187,
+            379.732
+          ],
+          "quote": "And this is where the work with the DocuSign team has gotten really great, where we've worked with them to build the Nemotron parse model",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            426.282,
+            431.124
+          ],
+          "quote": "So to touch a little bit on the actual model that we are working with with DocuSign was the Nemotron parse model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            684.203,
+            696.067
+          ],
+          "quote": "So when you think about what have we learned, right, when you think from a Nemotron plus DocuSign, one of the biggest things for us, we definitely have done a lot of different models for different purposes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            765.052,
+            771.578
+          ],
+          "quote": "Yeah, so working with the DocuSign team has been awesome so far, and we're going to continue to deepen that partnership as well over the next few months.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集介绍其为提供 Nemotron 开源模型系列和 GPU 基础设施的公司，与 DocuSign 合作构建专为表格提取打造的 Nemotron Parse 模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            21.61,
+            23.172
+          ],
+          "quote": "Hello everyone, I'm a product manager at NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 7,
+          "t": [
+            54.002,
+            66.181
+          ],
+          "quote": "And that's kind of what we're going to show is how DocuSign partnered with NVIDIA are fixing that on making that data available, readable, usable for a lot of our kind of organizations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            285.67,
+            300.337
+          ],
+          "quote": "And that's kind of where we partnered with NVIDIA and leveraged a purpose-built model, like, you know, tool, which is really, like, you know, making our architecture for table extraction take us to make and solve these complex use cases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            468.258,
+            472.84
+          ],
+          "quote": "This can be served via the NVIDIA NIM or via vLLM as well, too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            581.956,
+            588.301
+          ],
+          "quote": "This is where the NVIDIA's model comes in, that it's extracted all the structured pricing data around this agreement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            600.855,
+            609.04
+          ],
+          "quote": "This is powered by the advanced parsing leveraging NVIDIA's Nemotron model, turning even dense tables into something that is instantly usable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            622.188,
+            629.07
+          ],
+          "quote": "And that's how Agreement Manager has transformed agreements into actionable insights in seconds, leveraging NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            670.493,
+            679.363
+          ],
+          "quote": "And leveraging a lot of the NVIDIA things, we've been able to do a really good job, especially with all of those tables, like pricing, SLAs, and then make that available.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            780.266,
+            791.416
+          ],
+          "quote": "So we'll start a little bit with the Nemotron, NemoRetriever effort, and then, of course, we'll talk a little bit about the NVIDIA agent toolkit with them over the next few months, and then actually start scaling into more production-scale agents then.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nemotron",
+      "type": "concept",
+      "role": "concept",
+      "name": "Nemotron",
+      "file": "Nemotron",
+      "primary": true,
+      "how_described": "本集说它是 NVIDIA 构建世界级开源模型的项目，连数据集、量化、蒸馏、剪枝方法和蓝图全部开源发布；其下 Nemotron Parse 模型专为表格提取打造，比其他开源模型快 20 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            310.322,
+            313.804
+          ],
+          "quote": "And to share more about how we are leveraging the Nemotron, I'm gonna hand it to Sean.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            318.649,
+            322.373
+          ],
+          "quote": "So real quick on the Nemotron Retriever Initiative.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 61,
+          "t": [
+            322.433,
+            325.876
+          ],
+          "quote": "So for those who here knows about Nemotron, maybe raise your hand real quick.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 63,
+          "t": [
+            327.476,
+            341.703
+          ],
+          "quote": "So Nemotron is all about building world-class open source models and publishing the data sets, the techniques, the quantization approaches, distillation approaches, pruning approaches, every technique possible, blueprints to go with that, you name it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 64,
+          "t": [
+            342.084,
+            349.768
+          ],
+          "quote": "Throughout the Nemotron portfolio, we have specifically Nemotron Retriever, which is building embedding models, re-ranking models, and document extraction models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 68,
+          "t": [
+            374.187,
+            379.732
+          ],
+          "quote": "And this is where the work with the DocuSign team has gotten really great, where we've worked with them to build the Nemotron parse model",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            426.282,
+            431.124
+          ],
+          "quote": "So to touch a little bit on the actual model that we are working with with DocuSign was the Nemotron parse model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            600.855,
+            609.04
+          ],
+          "quote": "This is powered by the advanced parsing leveraging NVIDIA's Nemotron model, turning even dense tables into something that is instantly usable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            684.203,
+            696.067
+          ],
+          "quote": "So when you think about what have we learned, right, when you think from a Nemotron plus DocuSign, one of the biggest things for us, we definitely have done a lot of different models for different purposes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            734.523,
+            746.312
+          ],
+          "quote": "When you think about how many tables can it extract per seconds, Nemotron was 20x faster, which helps us when we're talking about the millions and billions of scale that we're kind of serving.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            780.266,
+            791.416
+          ],
+          "quote": "So we'll start a little bit with the Nemotron, NemoRetriever effort, and then, of course, we'll talk a little bit about the NVIDIA agent toolkit with them over the next few months, and then actually start scaling into more production-scale agents then.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            879.479,
+            881.601
+          ],
+          "quote": "That's kind of why Nemotron worked for us.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "table-extraction",
+      "type": "concept",
+      "role": "concept",
+      "name": "表格提取 (table extraction)",
+      "file": "表格提取",
+      "primary": true,
+      "how_described": "本集说它是企业合同中最值钱内容（价格层级、SKU、SLA、费率卡）的核心难题，嵌套表格、合并单元格使排列组合极其庞大，传统逐行读取工具和通用大模型在此完全失败",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            285.67,
+            300.337
+          ],
+          "quote": "And that's kind of where we partnered with NVIDIA and leveraged a purpose-built model, like, you know, tool, which is really, like, you know, making our architecture for table extraction take us to make and solve these complex use cases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            380.312,
+            383.836
+          ],
+          "quote": "to focus specifically on table extraction, which is a really complicated technique.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            450.051,
+            467.378
+          ],
+          "quote": "And instead of having small, let's say, YOLOX models that do table extraction or page element extraction, where it may be, this is a single-shot model that you can feed a document in, and out comes the semantic formatting layouts, the text, the reading order, the preserved structure of the table, et cetera.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            494.102,
+            497.244
+          ],
+          "quote": "So you'll see here generally is just a very standard benchmark of table extraction.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集提到智能体向语料库发送查询来检索文档，采购团队用智能体辅助下游工作，且下一步合作计划是走向生产规模的智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            361.817,
+            365.2
+          ],
+          "quote": "Your agent sends a set of queries to the corpus afterwards.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 139,
+          "t": [
+            780.266,
+            791.416
+          ],
+          "quote": "So we'll start a little bit with the Nemotron, NemoRetriever effort, and then, of course, we'll talk a little bit about the NVIDIA agent toolkit with them over the next few months, and then actually start scaling into more production-scale agents then.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 157,
+          "t": [
+            871.934,
+            876.577
+          ],
+          "quote": "At that time, the agent is kind of helping, but I can't do that on a one document by document.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ocr",
+      "type": "concept",
+      "role": "concept",
+      "name": "OCR",
+      "file": "OCR",
+      "primary": true,
+      "how_described": "本集说它是整个流程的一根刺：混合架构中表格走版面理解加提取，其他字段、元数据、条款仍走 OCR；PB 级文档应在前期把大量计算花在 OCR 上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            824.972,
+            835.226
+          ],
+          "quote": "So just to recap for everybody, if you didn't hear, the question is OCR is always a thorn in the whole process, so are we thinking about letting go of that and starting from agentic from the get-go?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            896.76,
+            899.882
+          ],
+          "quote": "So you are heavy on the compute at the upfront side with all the OCR.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            946.953,
+            952.818
+          ],
+          "quote": "We still do OCR from a lot of other fields and metadata and the clauses, like all of the text kind of thing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "quantization",
+      "type": "concept",
+      "role": "concept",
+      "name": "量化 (quantization)",
+      "file": "量化",
+      "primary": true,
+      "how_described": "本集说它是用更低的数字精度压缩模型以提速的手段：模型目前跑在 FP16，接下来有通往 FP8 和 FP4 的量化路径",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            327.476,
+            341.703
+          ],
+          "quote": "So Nemotron is all about building world-class open source models and publishing the data sets, the techniques, the quantization approaches, distillation approaches, pruning approaches, every technique possible, blueprints to go with that, you name it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            998.1,
+            999.14
+          ],
+          "quote": "So quantization, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vlm",
+      "type": "concept",
+      "role": "concept",
+      "name": "VLM",
+      "file": "VLM",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            431.644,
+            435.205
+          ],
+          "quote": "So when you think VLM, you generally think a multi-billion parameter model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            438.247,
+            441.268
+          ],
+          "quote": "This is a very small, tiny C-radio VLM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1006.126,
+            1007.447
+          ],
+          "quote": "It's a VLM architecture, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vllm",
+      "type": "concept",
+      "role": "concept",
+      "name": "vLLM",
+      "file": "vLLM",
+      "primary": false,
+      "how_described": "本集提到它是一种高性能推理服务框架，Nemotron Parse 可以通过它部署",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            468.258,
+            472.84
+          ],
+          "quote": "This can be served via the NVIDIA NIM or via vLLM as well, too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1034.017,
+            1036.358
+          ],
+          "quote": "I believe they just deploy the VLLM directly.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集强调 NVIDIA Nemotron 的理念是构建世界级开源模型并发布数据集、技术、模型权重与蓝图，且对比其他开源模型快了 20 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            327.476,
+            341.703
+          ],
+          "quote": "So Nemotron is all about building world-class open source models and publishing the data sets, the techniques, the quantization approaches, distillation approaches, pruning approaches, every technique possible, blueprints to go with that, you name it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            499.346,
+            506.17
+          ],
+          "quote": "And we compare some popular open source models here, and then we compare how our Neumatron parse model does compared to that industry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            729.799,
+            734.162
+          ],
+          "quote": "So we ran this against a lot of the other open source models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nim",
+      "type": "concept",
+      "role": "concept",
+      "name": "NIM",
+      "file": "NIM",
+      "primary": false,
+      "how_described": "本集提到 Nemotron Parse 可以通过 NVIDIA NIM 提供",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            468.258,
+            472.84
+          ],
+          "quote": "This can be served via the NVIDIA NIM or via vLLM as well, too.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

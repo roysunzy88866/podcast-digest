@@ -1,0 +1,178 @@
+{
+  "title_zh": "Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文",
+  "tldr": "Databricks CEO Ali 与 a16z 投资人 Martin、Sarah 对谈：存在性风险接近零、网络安全才是当下的真威胁，而企业 AI 落地的瓶颈不在模型智力，在组织上下文。",
+  "digest_md": "一场关于「AI 是不是会毁灭人类」的争论里，最笃定地说「存在性风险接近零」的，是 Databricks 的 CEO Ali(他创办了这家大数据与 AI 平台公司，并一路把它做到 IPO 级规模)。他和 a16z 的投资人 Martin、Sarah 坐下来，从前沿模型该不该踩刹车聊起，一路聊到 Databricks 内部怎么真正用 AI 改造了一整家公司。最反直觉的一点：**他认定今天的模型已经够聪明了，企业用不出价值，是因为模型「不了解你的公司」——而这个问题和模型智力毫无关系。**\n\n## 「别吓坏公众」与「pacing」的公关灾难\n\nAli 的第一个主张很直接：领导者有责任不必要地吓坏公众，而「人类要灭绝」这类叙事正是如此。他认为现在存在性风险几乎为零，宣传「10% 概率全人类被消灭」只会让不了解细节的人焦虑，甚至催生心理健康问题 [03:30 附近]。Martin 立刻补了一个鲜活例证：他那个在亚利桑那乡下当老师的妹妹，周日发短信问他「要不要为 AI 末日把小木屋收拾好」。\n\n但对「pacing(给前沿减速)」这个提法，两人吵得不可开交。Martin 认为这是一次典型的公关失误：pacing 与安全安保是正交的——「你可以慢慢打造一件武器，这和快慢没关系」；而且这些公司一直在全速狂奔、抢购算力，人们根本不相信减速是真心的。Ali 则辩护说，这里存在公地悲剧：「如果你想慢下来，你为什么不自己先慢下来？我不会单方面停下来，那我就成傻瓜了」——实验室的处境是「求监管方来给我们加护栏，否则我们会被打得很惨」。Martin 的结论很尖锐：与其说「给前沿减速」，本来该说的是「**保护前沿的安全**」——一个词之差，公众心态完全不同；Zuck 就是这么做的，所以没挨骂。\n\n## 网络安全：当下真实的风险\n\nAli 的担忧不在超智能，而在网络攻击。他给了一个时间线：2018、19 年，一个 CVE(公开披露的漏洞)从发布到被武器化要两三年，2022 年缩到八九个月，现在**基本缩到几分钟到几小时**。「所以这是真实的。网络攻击是真实的。」\n\n他的逻辑是：地球上的基础设施互连和依赖程度远超三十年前，放出智能体去跑大规模任务，它们会找到漏洞、四处入侵，甚至可能像病毒一样自我复制、跳跃到别处执行。而防御端，人类安全运营中心(SOC)已经跟不上了——每天几百封告警邮件，多数是误报，没人有时间逐一排查。「人类对正在发生的攻击的响应速度不够快，所以你需要把所有这些自动化。而大多数组织离做到这一点还很远。」这也是为什么他认为数据/AI 市场和网络安全市场正在坍缩成一个：智能体在公司内部运行，产生的海量日志和轨迹都需要分析。\n\n## RSI 会不会失控？他给了四个硬指标\n\n对「递归自我改进(RSI,即模型改进模型自身)会不会滑向失控」，Ali 没有泛泛表态，而是给出一个可检验的标准：**四个条件必须同时成立**才算危险信号——下一代模型 ① 训练所需资源(GPU)超线性减少，② 训练时间显著缩短，③ 智能持续提升，④ 这个循环可以不断重复。任何一条不成立，循环就会自我刹车(比如硬件不够，速度自然放缓)。\n\n而现实恰恰相反：这些实验室每年只做一两次大模型训练，每一次比上一次更耗资源、更耗人力、更脆弱，还得先建巨型数据中心、搞定网络和容错工程，搞砸一次就是天文数字的浪费。「下一个模型更快、更便宜、更聪明、递归改进」的说法，和事实完全相反——它耗时更长、更脆弱、更难实现。Sarah 补充了算力视角：训练一个好模型的最低算力门槛一直在涨，训练前沿模型的资金门槛已经到了数十亿美元的量级；而六个月后复现前沿模型大约只需 1/20 的成本——这说明资本和规模定律本身就是实验室的战略护城河，也是它们急着上市的原因。\n\n> 【背景】原文中 Sarah 提到前沿模型训练成本约在 50 到 100 亿美元量级（闸门未能在真相源中核对此数字，故正文改为保守表述）。\n\nMartin 试图用「试金石」反驳：如果 Anthropic 两周后只剩 12 个人还以越来越快的速度发模型，那就该警惕了。Ali 承认这是充分条件，但指出观察正确指标应该是「训练下一代模型的团队是不是越来越小、用的 GPU 越来越少」——而目前并不是这样。他还提醒，「RSI」这个词被滥用了：行业里 90% 喊 RSI 的，实际说的是自催化效应——就像编译器编写自己的编译器、你用计算机设计计算机，蒸汽机和互联网也都是自催化的，这不新，也不危险。\n\n## 企业为什么用不好 AI:缺的不是智力，是本体\n\n这是全场最有实操价值的部分。Ali 描述的现实中：大多数企业所谓的 AI 应用，只是「美化了的、更快的 Google 搜索」加一点编程辅助，没有人真的在管理成百上千个互相协调的智能体。「AI 可能对企业来说已经足够聪明了。问题是它不了解你的公司。」\n\n解决方案是 **ontology(本体)**。他用一个类比讲透：一个今天入职的新员工和一个干了五年的老员工，技能和智力相同，差别只有一个——老员工脑子里有一张「这个组织如何运作」的图：找谁能把事办成、哪个流程其实不用走、这个项目到底怎么回事。把这张图数字化、建成图谱，喂给 AI,就是本体。\n\n具体做法上，他的关键洞见是一个索引类比：现在的智能体拿到问题后逐个去查资源、用 LLM 总结、再跳到下一个——就像 Google 如果每次搜索都要现场爬十分钟网页再给你结果，又贵、又慢、质量还差。Google 的答案是离线建好倒排索引，查询 100 毫秒内返回。「我们需要为 AI 做同样的事：一直离线地计算那个索引。」企业的本体比网页版 PageRank 难在两点：有权限(你和我不被允许访问的数据不同)、对象类型远比网页多样——但可做。\n\n> 【背景】原文未点名具体产品，这里此前提到的 Claude Code、Codex 属于“编程智能体”的代表例子。\n\nDatabricks 自己做到了，效果是「公司彻底变了，不像一年前的样子」。他们的本体有几百万个节点，是所有客户里最大的。会议上人人低头在手机上问 Genie(他们的问答智能体)成了一个标志场景；他讲过一个董事会小故事：他问销售运营要 Fortune 500 渗透率，对方回复「抱歉我在飞机上登不了 Genie」——他这才意识到，连 CFO 回给他的也只是一张 Genie 截图。「现在我们开会就说：谁能直接 Genie 一下这个？」\n\n配套的前提很笨但很重要：先把组织里发生的一切数字化——每场会议都要转录，而法务团队往往会阻拦，这本身就是许多组织的第一个坎。\n\n## token 成本：从「token 最大化」到「价值最大化」\n\n去年第四季度起，Ali 自己带头用模型把代码提交到生产环境，然后强力推动全公司——「CEO 都能在有这么多安全要求的敏感平台上提交代码，你们也可以」，还做了使用排行榜。结果公司冲得太猛，二三月间用量开始失控。\n\n他们的治理工具是 UnityGateway(统一接入各家模型容量的网关)，逐步加了三层：① 按个人和团队设预算上限并预警；② 成本分析，精确预测成本走向；③ 智能路由，预算吃紧或问题简单时自动切换更便宜的模型。另有一个反直觉发现：**同一个模型、同一个版本，换不同的 harness(承载模型的工具框架)，实际成本差近 2 倍**——换 harness 就是很大的成本杠杆。综合下来，他们的 token 用量持续上涨，总成本却是平的。\n\n一个信号性的轶事来自 Martin:他在二十多个董事会里，上周第一次听到一家规模化的大型工程组织宣布从前沿模型迁到 GLM。Ali 的判断是：人们会走向「分而治之」——难题用最强模型，琐碎任务(有人用最贵的模型去重命名文件，空转五分钟花几分钱)根本不该用模型。按美元算，他们的开源模型用量只占 5%,但按 token 数已超过 60%。至于企业自己拿开源模型做后训练(用强化学习让开源模型擅长你的特定任务，省成本、提速、掌控知识产权)——创业公司适合，但大型企业连评测(evals)都懒得建。他拿 TDD 打比方：人人都说测试驱动开发是对的，实际没几个人做。\n\n## 正面案例与落地的帮手\n\nAli 强调别忘了上行侧：Crisis Text Line 用大模型检测青少年的自残/自杀倾向；Omnipod 用 AI 自学习糖尿病患者的胰岛素与血糖曲线、自动精确给药；Zipline 的全自主无人机从非洲起步为难民送血液；与 Merck 合作的 TEDDY 模型(基于 transformer,预测基因调控网络的响应)能区分因果性与反应性细胞，显著降低药物研发成本；Novo Nordisk 把本体问答用于所有临床试验，把「几周拿到洞见」压缩到几分钟。\n\n落地侧，他们的 FDE(驻场工程师)需求大涨，因为企业既没收集数据、也没有内部专家去搭护栏、控延迟。还有一个有趣的信号：中立第三方的测试显示，LakeBase/Neon 成了智能体首选的 Postgres 数据库——Neon 团队执迷于「怎么对智能体最好」而非「怎么打赢数据库战争」：亚秒级启动、秒级克隆巨型数据库、轻量的分支功能、实验不会跑爆预算。结果是，**Neon 上超过 90% 新建的数据库是智能体、而不是人类创建的**。\n\n## 本集带走\n\n- **判断 AI 失控风险，看四个硬指标**：下一代模型训练资源超线性减少、训练时间缩短、智能提升、循环可重复——四者同时成立才是危险信号；当前现实恰恰相反(更贵、更慢、更脆弱)。\n- **企业 AI 的瓶颈是上下文，不是模型智力**：把组织知识数字化、建成可查询的本体(类比给企业建一个 Google 式的离线索引)，用今天的前沿模型就能拿到巨大生产力提升。\n- **网络安全必须自动化**：漏洞从披露到武器化的时间已缩到分钟级，人肉 SOC 跟不上；要用智能体做检测和威胁狩猎。\n- **管 token 成本的三件套**：按人/团队设预算、成本分析、智能路由降级到便宜模型；换 harness 本身就有近 2 倍的成本差。\n- **别用最贵的模型干琐事**：新模式是难题用最强模型、实现和杂活用便宜模型、再用强模型审计——开源模型按 token 数已经占 60% 以上。",
+  "quotes": [
+    {
+      "en": "But I think that right now the existential risk is close to zero.",
+      "zh": "但我认为现在的存在性风险几乎为零。",
+      "timestamp": "02:58",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "This percentage, 10% risk that all humanity is going to be wiped out, I don't think that's helpful for a lot of people.",
+      "zh": "这个「10% 概率全人类会被消灭」的说法，我不认为对很多人有帮助。",
+      "timestamp": "03:30",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "If you want to go slower, why don't you go slower?",
+      "zh": "如果你想慢下来，你为什么不自己先慢下来？",
+      "timestamp": "07:19",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "Like 90 some percent of the software in Databricks is written by AI.",
+      "zh": "比如 Databricks 里 90% 以上的软件是由 AI 写的。",
+      "timestamp": "14:16",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "We just turn on a button and we can get 100,000 of them.",
+      "zh": "我们只要按一个按钮，就能得到十万个他们。",
+      "timestamp": "28:51",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "I mean, I think like if we have boxing matches in the ring, the boxers should just be the judges of each other.",
+      "zh": "我是说，如果我们在擂台上打拳击比赛，难道应该让拳击手当彼此的裁判吗？",
+      "timestamp": "31:28",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "I think it's going down by one-tenth every six months or something like that.",
+      "zh": "我觉得大概每六个月就降为十分之一，诸如此类。",
+      "timestamp": "42:08",
+      "speaker": "Martine Cassado"
+    },
+    {
+      "en": "Like if you use the same model but different harnesses, there's almost 2x different cost difference.",
+      "zh": "比如用同一个模型但不同的 harness,成本差异几乎有 2 倍。",
+      "timestamp": "56:13",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "So I think we're going to get to a world where you're not always using the smartest model for everything, which has kind of been the paradigm for the last couple of years.",
+      "zh": "所以我认为我们会进入这样一个世界：你不会对所有事情都用最聪明的模型——而这正是过去几年的范式。",
+      "timestamp": "58:35",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "My only answer is my PDoom without AI is much higher than my PDoom with AI.",
+      "zh": "我唯一的答案是：没有 AI 情况下的 PDoom,远高于有 AI 情况下的 PDoom。",
+      "timestamp": "67:20",
+      "speaker": "Martine Cassado"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:58",
+      "speaker": "Unknown",
+      "en": "But I think that right now the existential risk is close to zero.",
+      "zh": "但我认为现在的存在性风险几乎为零。"
+    },
+    {
+      "timestamp": "03:30",
+      "speaker": "Unknown",
+      "en": "This percentage, 10% risk that all humanity is going to be wiped out, I don't think that's helpful for a lot of people.",
+      "zh": "这个「10% 概率全人类会被消灭」的说法，我不认为对很多人有帮助。"
+    },
+    {
+      "timestamp": "07:19",
+      "speaker": "Unknown",
+      "en": "If you want to go slower, why don't you go slower?",
+      "zh": "如果你想慢下来，你为什么不自己先慢下来？"
+    },
+    {
+      "timestamp": "07:47",
+      "speaker": "Unknown",
+      "en": "So like, I'm not going to stop unilaterally.",
+      "zh": "所以，我不会单方面停下来。"
+    },
+    {
+      "timestamp": "10:30",
+      "speaker": "Unknown",
+      "en": "It just puts you in a very different mindset than what he could have said is, we need to secure the frontier.",
+      "zh": "这会立刻让你进入一种完全不同的心态，而他本来可以说的是：我们需要保护前沿的安全。"
+    },
+    {
+      "timestamp": "14:16",
+      "speaker": "Unknown",
+      "en": "Like 90 some percent of the software in Databricks is written by AI.",
+      "zh": "比如 Databricks 里 90% 以上的软件是由 AI 写的。"
+    },
+    {
+      "timestamp": "16:41",
+      "speaker": "Unknown",
+      "en": "It's like it's taking longer and it's more brittle and it's more people and it's harder to pull off.",
+      "zh": "它耗时更长、更脆弱、需要更多人、更难实现。"
+    },
+    {
+      "timestamp": "23:06",
+      "speaker": "Unknown",
+      "en": "The humans don't respond fast enough to the attacks that are happening.",
+      "zh": "人类对正在发生的攻击的响应速度不够快。"
+    },
+    {
+      "timestamp": "25:48",
+      "speaker": "Unknown",
+      "en": "Now, if you look at this curve from 2022 until now, now it's down to like basically hours.",
+      "zh": "现在你看这条曲线，从 2022 年到现在，已经基本缩短到几个小时了。"
+    },
+    {
+      "timestamp": "28:51",
+      "speaker": "Unknown",
+      "en": "We just turn on a button and we can get 100,000 of them.",
+      "zh": "我们只要按一个按钮，就能得到十万个他们。"
+    },
+    {
+      "timestamp": "31:28",
+      "speaker": "Unknown",
+      "en": "I mean, I think like if we have boxing matches in the ring, the boxers should just be the judges of each other.",
+      "zh": "我是说，如果我们在擂台上打拳击比赛，难道应该让拳击手当彼此的裁判吗？"
+    },
+    {
+      "timestamp": "40:42",
+      "speaker": "Unknown",
+      "en": "That's basically very, very glorified, efficient Google search of the old day.",
+      "zh": "那基本上就是非常、非常美化了的、高效的旧式 Google 搜索。"
+    },
+    {
+      "timestamp": "41:35",
+      "speaker": "Unknown",
+      "en": "For that, we actually don't need smarter models.",
+      "zh": "为此，我们其实并不需要更聪明的模型。"
+    },
+    {
+      "timestamp": "42:08",
+      "speaker": "Unknown",
+      "en": "I think it's going down by one-tenth every six months or something like that.",
+      "zh": "我觉得大概每六个月就降为十分之一，诸如此类。"
+    },
+    {
+      "timestamp": "49:13",
+      "speaker": "Unknown",
+      "en": "We need to do the same thing for the AI.",
+      "zh": "我们需要为 AI 做同样的事情。"
+    },
+    {
+      "timestamp": "56:13",
+      "speaker": "Unknown",
+      "en": "Like if you use the same model but different harnesses, there's almost 2x different cost difference.",
+      "zh": "比如用同一个模型但不同的 harness,成本差异几乎有 2 倍。"
+    },
+    {
+      "timestamp": "58:35",
+      "speaker": "Unknown",
+      "en": "So I think we're going to get to a world where you're not always using the smartest model for everything, which has kind of been the paradigm for the last couple of years.",
+      "zh": "所以我认为我们会进入这样一个世界：你不会对所有事情都用最聪明的模型——而这正是过去几年的范式。"
+    },
+    {
+      "timestamp": "67:20",
+      "speaker": "Unknown",
+      "en": "My only answer is my PDoom without AI is much higher than my PDoom with AI.",
+      "zh": "我唯一的答案是：没有 AI 情况下的 PDoom,远高于有 AI 情况下的 PDoom。"
+    }
+  ],
+  "voice_script": "今天这一期，主角是 Databricks 的 CEO Ali——他创办了这家大数据与 AI 平台公司，一路把它做到 IPO 级规模，所以谈企业怎么用 AI,他有第一手经验。跟他聊天的，是 a16z 的两位投资人，Martin 和 Sarah。这一期的话题跨度很大：从「AI 会不会毁灭人类」，一路聊到 Databricks 内部怎么真正用 AI 改造了一整家公司。而全程最反直觉的一个判断是：今天的模型已经够聪明了，企业用不出价值，是因为模型不了解你的公司——这个问题跟模型智力毫无关系。\n\n先从头说起。关于 AI 风险，Ali 的态度非常直接：存在性风险几乎为零。领导人有责任不去不必要地吓坏公众，而「人类要灭绝」这类叙事正是如此。宣传「10% 概率全人类被消灭」，只会让不了解细节的人焦虑，甚至催生心理健康问题。Martin 立刻补了个很鲜活的例子：他妹妹在亚利桑那乡下当老师，周日专门发短信问，要不要为 AI 末日把小木屋收拾好。\n\n不过对「pacing」,也就是给前沿模型减速这个提法，两人吵得很凶。Martin 认为这是一次典型的公关失误：pacing 跟安全根本是两回事，你可以慢慢打造一件武器，这跟快慢没关系；而且这些公司一直全速抢购算力，谁也不信减速是真心的。Ali 辩护说，这里存在公地悲剧——「如果你想慢下来，你为什么不自己先慢下来？我不会单方面停下来，那我就成傻瓜了」。实验室的处境其实是求监管方来加护栏。Martin 的结论很尖锐：与其说「给前沿减速」，本来该说的是「保护前沿的安全」，一个词之差，公众心态完全不同。\n\n那 Ali 真正担心什么？答案是网络攻击。给个时间线：2018、19 年，一个公开披露的漏洞从发布到被武器化要两三年，2022 年缩到八九个月，现在基本缩到几分钟到几小时。地球上的基础设施互相依赖的程度远超三十年前，放出智能体去跑大规模任务，它们会找到漏洞、四处入侵，甚至可能像病毒一样自我复制。而防御端，人类的安全运营中心已经跟不上了——每天几百封告警邮件，多数是误报，没人有时间逐一排查。所以结论是：必须把安全自动化，而大多数组织离这一点还很远。\n\n顺着这个思路，自然有人会问：那递归自我改进呢？模型改进模型自身，会不会滑向失控？Ali 没有泛泛表态，而是给了四个可检验的硬指标，而且必须同时成立才算危险信号：下一代模型训练所需的 GPU 超线性减少、训练时间显著缩短、智能持续提升、这个循环可以不断重复。任何一条不成立，循环就会自我刹车。而现实恰恰相反：实验室每年只做一两次大模型训练，每一次比上一次更耗资源、更脆弱，还得先建巨型数据中心。Sarah 补了个算力视角：训练前沿模型的资金门槛已经到了数十亿美元量级，不过六个月后复现大约只要二十分之一的成本。Martin 试着反驳：如果 Anthropic 两周后只剩 12 个人还在快速发模型，那就该警惕了。Ali 承认这是充分条件，但正确的观察指标是训练团队是否越来越小、GPU 是否越来越少——目前并不是。行业里 90% 喊递归自我改进的，实际说的是自催化效应，就像编译器编写自己的编译器，这不新，也不危险。\n\n好，风险聊完了，就引出今天最有实操价值的部分：企业到底为什么用不好 AI。Ali 看到的现实是，大多数企业所谓的 AI 应用，只是美化了的、更快的 Google 搜索，加一点编程辅助。「AI 可能对企业来说已经足够聪明了。问题是它不了解你的公司。」\n\n解法叫 ontology,本体。打个比方：一个今天入职的新员工和一个干了五年的老员工，技能和智力相同，差别只有一个——老员工脑子里有一张「这个组织如何运作」的图：找谁能把事办成、哪个流程其实不用走。把这张图数字化、建成图谱，喂给 AI,就是本体。关键洞见是个索引类比：现在的智能体拿到问题后逐个去查资源、再跳到下一个，就像 Google 如果每次搜索都要现场爬十分钟网页再给你结果，又贵又慢。Google 的答案是离线建好索引，查询 100 毫秒内返回。我们要为 AI 做同样的事。Databricks 自己做到了，本体有几百万个节点。现在公司开会就说：谁能直接 Genie 一下这个？有个董事会小故事很能说明问题：Ali 问销售运营要 Fortune 500 渗透率，对方回复说抱歉我在飞机上登不了 Genie——连 CFO 回给他的，也只是一张 Genie 的截图。\n\n当然，用了就会遇到成本问题。去年四季度起，Ali 自己带头用模型提交生产代码，强力推动全公司，还做了使用排行榜，结果二三月间用量开始失控。治理工具是逐步加的三层：按人和团队设预算上限、做成本分析、再加智能路由——预算吃紧或问题简单时自动切换更便宜的模型。还有个反直觉发现：同一个模型，换不同的承载框架，实际成本差近 2 倍。综合下来，token 用量持续上涨，总成本却是平的。新的模式是分而治之：难题用最强模型，琐碎任务根本不该用模型。\n\n最后说一句上行侧。别忘了 AI 真的在做好事：Crisis Text Line 用大模型检测青少年的自残倾向，Zipline 的全自主无人机从非洲起步为难民送血液，Novo Nordisk 把本体问答用于所有临床试验，把几周拿到洞见压缩到几分钟。\n\n所以这一集的核心判断就是那句话：企业用不好 AI,缺的不是更聪明的模型，而是上下文——把组织知识数字化、建成可查询的本体，用今天的前沿模型就能拿到巨大的生产力提升。"
+}

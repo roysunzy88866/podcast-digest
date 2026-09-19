@@ -122,7 +122,7 @@ Bostrom 认为现在有理由认真对待"AI 可能有[[主观体验|主观体�
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、开源模型 (open source models)、智能体 (agent)</span>
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:NVIDIA · 同概念:开源模型 (open source models)、智能体 (agent)</span>
-- [[2026-07-23-practicalai-surviving-the-new-economics-of-a-post-ag|IBM 单日暴跌 25%:企业软件的好日子到头了吗？]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)</span>
+- [[2026-09-16-talks-your-agreements-are-a-database-you-can-t|每天100万份协议：DocuSign 携手 NVIDIA 把合同表格变成可用数据]]<span class="pd-rz">同公司:NVIDIA · 同概念:开源模型 (open source models)、智能体 (agent)</span>
 
 </div>
 </div>

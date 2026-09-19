@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Palantir</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Palantir">PA</div><div class="pi"><h1 class="pt">Palantir</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Palantir">PA</div><div class="pi"><h1 class="pt">Palantir</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -27,10 +27,11 @@ unlisted: true
 - **[[2026-09-08-generalist-an-ex-spacex-engineer-on-elon-musk--star|《SpaceX 老兵造硬件控制软件：Revel 如何把卡在 80 年代的工业软件拉进 21 世纪》]]**(04:59起):本集顺带提到 Revel 团队有几位工程师来自 Palantir,如带来产品与客户经验的 Jess Winzinger。
 - **[[2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2|《Saronic：用无人船重建美国造船业》]]**(01:29起):本集说 Saronic 用 Palantir 的 Foundry 做内部制造执行系统和 MRP，是规划业务物流的骨干软件。
 - **[[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]]**(70:06起):本集两次顺带提及：一家做基于价值定价的公司，也是使用 FDE（前置部署工程师）模式的代表。
+- **[[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]]**(46:20起):本集顺带提到：Palantir 常说 ontology 这个词，且在帮组织把隐性知识写下来这件事上做得不错。
 
 ## ② 出现在这些集
 
-*16 集*
+*17 集*
 
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
 - [[2025-11-09-lennys-the-enterprise-sales-playbook-1m-to-10m|《企业销售里没有中端市场：把 10K 交易做到 100K 的实战打法》]] — 作为被讨论公司(提及)
@@ -48,14 +49,15 @@ unlisted: true
 - [[2026-09-08-generalist-an-ex-spacex-engineer-on-elon-musk--star|《SpaceX 老兵造硬件控制软件：Revel 如何把卡在 80 年代的工业软件拉进 21 世纪》]] — 作为被讨论公司(提及)
 - [[2026-09-10-sourcery-saronics-4-co-founders-on-building-a-9-2|《Saronic：用无人船重建美国造船业》]] — 作为被讨论公司(提及)
 - [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]] — 作为被讨论公司(提及)
+- [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Meta]] · [[开源模型]] · [[后训练]] · [[前向部署工程师]] · [[Microsoft]] · [[主观能动性]] · [[推理]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[后训练]] · [[开源模型]] · [[Meta]] · [[ChatGPT]] · [[前向部署工程师]] · [[Microsoft]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"智能体":267,"Anthropic":125,"OpenAI":120,"Meta":32,"开源模型":18,"后训练":25,"前向部署工程师":7,"Microsoft":25,"主观能动性":19,"推理":46}</script>
+<script type="application/json" class="pd-epn">{"智能体":269,"Anthropic":127,"OpenAI":120,"后训练":26,"开源模型":19,"Meta":32,"ChatGPT":69,"前向部署工程师":7,"Microsoft":25,"主观能动性":19}</script>
 
 <script>
 (function(){

@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]] [[Marc Brooker]]
+[[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Keith Parris]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":5,"智能体":267,"基于结果的定价":4,"应用 AI":1,"前沿模型":16,"工具层":1,"上下文工程":12,"编程系统":1,"MCP":45}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Sierra":5,"智能体":269,"基于结果的定价":4,"应用 AI":1,"前沿模型":16,"工具层":1,"上下文工程":12,"编程系统":1,"MCP":45}</script>
 
 <script>
 (function(){
