@@ -33,7 +33,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Science]] · [[Neuralink]] · [[SpaceX]] · [[Anthropic]] · [[Helix]] · [[迭代速度]] · [[AI 基础设施]] · [[归因]] · [[深科技]] · [[BCI]]
+[[Science]] · [[Neuralink]] · [[SpaceX]] · [[Anthropic]] · [[Helix]] · [[迭代]] · [[AI 基础设施]] · [[归因]] · [[深科技]] · [[BCI]]
 
 ## ④ 也在聊「组织与领导力」的人
 
@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Science":1,"Neuralink":1,"SpaceX":16,"Anthropic":130,"Helix":1,"迭代速度":1,"AI 基础设施":3,"归因":2,"深科技":2,"BCI":1}</script>
+<script type="application/json" class="pd-epn">{"Science":1,"Neuralink":1,"SpaceX":16,"Anthropic":130,"Helix":1,"迭代":2,"AI 基础设施":3,"归因":2,"深科技":2,"BCI":1}</script>
 
 <script>
 (function(){

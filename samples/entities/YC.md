@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>YC</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="YC">YC</div><div class="pi"><h1 class="pt">YC</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="YC">YC</div><div class="pi"><h1 class="pt">YC</h1><div class="byl">公司</div><div class="nums">本站收录 <b>15</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-07-18-twentyvc-20vc-5bn-in-revenue-7-to-7-000-employees|《从奶牛测序到 50 亿新冠检测生意，再到用 AI 智能体改造保险》]]**(08:54起):Turner 2015 年底申请、加入 16 年夏季批次，并通过 YC 认识了最早投资人；他称 YC 是当时搬去美国唯一该做的事。
 - **[[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi|《从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年》]]**(06:57起):本集提到他们从 YC 毕业并多次参加 YC 活动,认为「YC 的建议几乎总是对的,但你还是会犯那个错」。
 - **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(01:14起):本集把它说成：推动初创公司黄金时代与行业生态的核心孵化器，倡导真诚与互助精神，并与硅谷庞大的人脉复利网络紧密相关。
+- **[[2026-07-31-talks-patrick-collison-is-ai-breaking-the-lean|《Stripe 创始人 Patrick Collison：现在是有史以来最好的创业时机》]]**(10:15起):本集访谈所在的 Startup School 主办方；Patrick 从 YC 学到专注具体客户问题，但 Stripe 反其道拖了近两年才公开发布；Patrick 说没有 YC 就没有 Stripe
 - **[[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|《Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景》]]**(02:53起):本集说它在嘉宾的创业旅程中非常关键,既鼎力支持创始人,也会在创始人犯傻时直言不讳地戳穿。
 - **[[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]]**(10:15起):本集说 YC 的座右铭是尽早发布、快速迭代，Stripe 如果每周去 YC 开会会被痛骂；还提到 Stripe 不会没有 YC 就存在，以及 YC 批次中公司能比以往更快增长
 - **[[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]]**(00:52起):本集提到 StarCloud 参加了 YC，并成为 YC 历史上增长最快的独角兽（距 Demo Day 仅 17 个月）。
@@ -37,7 +38,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*14 集*
+*15 集*
 
 - [[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo|《Sam Lessin：硅谷创始人最缺的不是产品，是低心率》]] — 作为被讨论公司(提及)
 - [[2026-06-17-yc-how-to-pick-a-startup-idea-e3ktvca|《YC 合伙人 John：别找完美想法，选一个然后深入》]] — 作为被讨论公司(提及)
@@ -46,6 +47,7 @@ unlisted: true
 - [[2026-07-18-twentyvc-20vc-5bn-in-revenue-7-to-7-000-employees|《从奶牛测序到 50 亿新冠检测生意，再到用 AI 智能体改造保险》]] — 作为被讨论公司
 - [[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi|《从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年》]] — 作为被讨论公司(提及)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为被讨论公司
+- [[2026-07-31-talks-patrick-collison-is-ai-breaking-the-lean|《Stripe 创始人 Patrick Collison：现在是有史以来最好的创业时机》]] — 作为被讨论公司
 - [[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|《Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景》]] — 作为被讨论公司(提及)
 - [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]] — 作为被讨论公司
 - [[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]] — 作为被讨论公司(提及)
@@ -58,9 +60,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Stripe]] · [[SaaS]] · [[Garry Tan]] · [[Salesforce]] · [[产品市场契合]] · [[AGI]] · [[Scale]]
+[[智能体]] · [[Stripe]] · [[ChatGPT]] · [[OpenAI]] · [[SaaS]] · [[Garry Tan]] · [[Salesforce]] · [[产品市场契合]] · [[AGI]] · [[Patrick Collison]]
 
-<script type="application/json" class="pd-epn">{"智能体":273,"ChatGPT":72,"OpenAI":122,"Stripe":32,"SaaS":17,"Garry Tan":2,"Salesforce":24,"产品市场契合":21,"AGI":24,"Scale":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":274,"Stripe":33,"ChatGPT":72,"OpenAI":122,"SaaS":17,"Garry Tan":2,"Salesforce":24,"产品市场契合":21,"AGI":24,"Patrick Collison":3}</script>
 
 <script>
 (function(){

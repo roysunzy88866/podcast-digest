@@ -1,0 +1,244 @@
+{
+  "title_zh": "Boom 创始人：从纸板模型到突破音障，再让超音速飞行在美国重新合法",
+  "tldr": "超音速飞机制造公司 Boom 的创始人讲述如何用 50 人小团队造出突破音障的原型机，并分享小团队做硬件的方法论与创业心得。",
+  "digest_md": "1969 年，人类第一次登上月球，同一年协和式超音速客机上天。可半个多世纪过去，我们既上不了月球，也没了超音速客机——如今洛克希德造一个爱国者导弹拦截器要两年多。这一集的主角是 Boom Supersonic 的创始人，一个受过训练的软件工程师、早期在 Amazon 待过、办过一家被 Groupon 收购的应用公司的人——他用十多年时间把超音速客运带回了现实：去年，Boom 的原型机 XB-1 成为第一架突破音障的独立研发喷气机，公司还在 2014 年起步时连个像样的办公室都没有，只有一个硬纸板、胶合板加 Office Depot 座椅拼成的客机模型。\n\n## 一个软件工程师怎么造出超音速飞机\n\n他给自己定下的人生目标是突破音障，但发现整个行业毫无进展：公务机公司不想碰监管，波音连新飞机都不造了，2015 年连 Jeff Bezos 都拒绝了他们的种子轮，后来还在股东信里举客机为例，说这种事只有大公司才做得成。他的回应是：那就去造。\n\n关键思路是——**让硬件开发更像软件开发，降低迭代的成本，无论在比特世界还是原子世界**。\n\n**比特世界：把电子表格工程变成真软件。** 传统飞机设计是一群专家各管一摊，在自己的 Excel 里做分析再互相交接，改一排座椅就要重做发动机、重设机翼，迭代极慢。Boom 把这些全部搬进软件：一个叫 MakeBoom 的系统让你在配置文件里定义一架飞机，跑一个脚本几分钟就能完成整机仿真——能飞多远、油耗多少、载客多少、各种权衡如何。设计发动机用的 Blade Runner 工具，让几个工程师实时修改叶片设计、立刻看到结构气动表现，把过去几十个工程师干几个月的过程压缩到了实时。\n\n**原子世界：自己建车间，垂直整合。** 和航空航天领域的外部供应商迭代极其困难（他说「我对他们没有任何好话」），所以 Boom 建了自己的机加工车间，数字设计到原型部件约 24 小时，还在离工程师半小时路程处自建发动机试车台，想测就测，不用排队预约。\n\n**融资难题的巧解。** 因为垂直整合了自己的推进系统，Boom 把为超音速飞行研发的发动机改造成地面天然气发电涡轮机单独卖（他们叫 Super Power），既产生测试数据和可靠性验证，又产生继续做大的资本，第一批 12 个月内交付首位客户。\n\n## 音爆问题的突破：直接改写了监管\n\nXB-1 最意外的成果是验证了一个被谈论已久的原理——音爆切断：在足够高的海拔、以适合当天天气的速度破音障，音爆会在空中掉头，根本不落地。XB-1 两次飞行六次穿越音障，地面上没有任何可听见的音爆。这让「多安静才算够安静」这个吵了几十年的问题直接消失——「如果根本没有音爆，那就没有什么可争论的了」。\n\n结果是惊人的：从破音障到被邀去白宫西翼约 24 小时；从破音障到行政令让超音速飞行在美国重新合法，115 天。之后众议院全票通过永久合法化法案，参议院商务委员会也是全票。而这一整架 XB-1，是 50 人团队做出来的。\n\n## Q&A 里的干货\n\n**「为什么是现在」是个伪问题。** 差点阻止他创业的错误信念是：好点子如果没人在做，多半有问题。他认为大量藏着伟大想法的可解问题没人做，原因只有一个——没人去做。超音速飞行的技术早在 Boom 创立前十年就成熟了。「为什么是现在」的答案可以是：因为我是现在开始的。\n\n**怎么跟监管打交道，看情境。** Uber 那种无视监管、让粉丝用户当盟友的打法在航空业永远行不通——安全攸关的产品要尽早沟通。他创办公司时直接去了 FAA，请对方随时来看、给反馈、把计划在定稿前给他们过目。结果 XB-1 这种通常拖好几个月的审批，90 分钟就批了，还拿到了史上第一张民用超音速飞行许可——甚至早于飞机首飞。「我们把它变成 Boom 加 FAA 对抗问题本身，而不是 Boom 对抗 FAA」。\n\n**怎么赢中国的制造业。** 不要试图把离开美国的制造业迁回来——「你不会在中国自己的玩法上击败它」。要做的是发明下一代制造方式并在这里规模化。比如美国模具行业已基本消亡，Boom 的解法是彻底摆脱模具：全数字化流程 24 小时从设计做出世界最先进的涡轮叶片，完全无需工装。\n\n**AI 对硬件的真实影响。** AI 大幅降低了软件开发成本，让小团队也能拥有过去负担不起的定制工程工具。他引 Amazon 为例：早年 Amazon 全部自建贴合业务的软件，这是它赢的原因之一，但那需要规模；AI 让任何企业都能拥有完全贴合自己的软件，也让每个使用者都能成为工具构建者。还缺的是物理世界的 AI——给 CNC 机器编程仍极其手动，「尽管推介满天飞，还没见到多少真正能用的」。\n\n**招人：招真正在乎的人。** 最重要也最难学的是组队。行业里技术强、文化契合、经验丰富三者常互相矛盾，他的解法是重视年轻、有雄心、动手做过东西的早期人才；高层尽量从内部提拔。而最看重的一条：「你可以教技能、教知识，但有一样东西我从来没教会过别人——在一个人根本不在乎的时候让他在乎」。\n\n**自学难的东西：困惑清单。** 区分「能通过考试的理解」和「真正的理解」。他学航空航天工程时买教科书、用 Khan Academy 补物理和微积分、做习题集，并列一张「困惑清单」，写下所有自己其实没真懂的东西，目标是每周消掉一条——结果清单只增不减，但它训练出了觉察「我是真懂了，还是在含糊其辞」的能力。\n\n**「做你懂的事」是最糟的建议。** 他妈叫他别办 Boom，问他「你不该做你懂的事吗」。他第一家公司做移动电商——简历上他确实懂，但他对做的东西完全不在乎，也没产品愿景。「知识是可变的，热情不是」，尤其在人人都有 AI 导师的时代。\n\n**给年轻人的几条。** 深科技别学 Boom：XB-1 挑战太难，应该先做更简单的原型、多几次射门机会、更快拿到证明点，融资难题就不会那么痛。「硬件靠经验」是大蠢公司老人的谎言——去造真实的东西、玩遥控模型飞机、学会真正把东西做出来。Boom 有一条规则：年轻工程师做没做过的事没问题，但如果世界上有人做过，你必须找到那个人、打电话问他的建议——不必采纳，只需听到。招聘没有工作经验的学生，看课余项目；Boom 甚至设了一个叫「你的梦想工作」的职位——做出任何你想做的东西，并证明自己的非凡之处。至于工作生活平衡，他信的是「工作与生活的和谐」：创办 Boom 时他有三个不到两岁的孩子，「你可以既做个好爸爸，也做个好 CEO」。\n\n## 本集带走\n\n- **硬件迭代软件化**：把电子表格工程搬进真软件（配置文件定义飞机、脚本跑整机仿真），加上自建车间和试车台，让设计到原型部件只要约 24 小时。\n- **改变监管的方法是「把东西造出来」**：用事实证明超音速可以没有音爆，再把监管机构变成团队的一部分——「Boom 加 FAA 对抗问题，而不是 Boom 对抗 FAA」。\n- **别等「为什么是现在」的答案**：大量可解的伟大问题没人做，原因只是没人去做；答案可以是你自己现在开始。\n- **拼不过劳动力就发明下一代制造**：赢中国的方式不是迁回旧制造业，而是像完全摆脱模具的全数字化流程那样，发明新玩法并在本地规模化。\n- **招人招「在乎」**：技能可教、在乎教不会；高层尽量从自己文化里成长起来的人中提拔。\n- **先做简单的原型，多几次射门**：XB-1 的原型挑战定得太难，更小步的迭代能更快拿到证明点、融资也更顺。\n- **困惑清单自学法**：写下所有「其实没真懂」的东西，持续消掉它们，直到能分辨真懂和含糊其辞。",
+  "quotes": [
+    {
+      "en": "The law of large numbers you might think applies to startups just doesn't. The world is a smaller place than we're told.",
+      "zh": "你可能认为大数定律适用于初创公司，但其实并不适用。世界比我们被告知的要小。",
+      "timestamp": "21:21",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "The answer to why now can be because I started now.",
+      "zh": "「为什么是现在」的答案可以是：因为我是现在开始的。",
+      "timestamp": "21:38",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "The key thing is to make hardware development look more like software development, to reduce the cost of iteration, both in the world of bits and in the world of atoms.",
+      "zh": "关键在于让硬件开发看起来更像软件开发，无论在比特的世界还是原子的世界里，都要降低迭代的成本。",
+      "timestamp": "12:34",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "Turns out you can change the regulations. And the way you do it is just by building the thing and communicating why it's okay.",
+      "zh": "事实证明，你是可以改变监管规定的。而改变的方法就是把这个东西造出来，并向人们说明为什么它是没问题的。",
+      "timestamp": "10:55",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "We made it boom plus FAA versus the problem, not boom versus FAA.",
+      "zh": "我们把它变成了 Boom 加 FAA 对抗问题本身，而不是 Boom 对抗 FAA。",
+      "timestamp": "30:47",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "I like to say that supersonic flight isn't red or blue. It's red, white, and blue.",
+      "zh": "我喜欢说，超音速飞行不分红党还是蓝党。它是红、白、蓝三色的。",
+      "timestamp": "11:08",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "You don't beat China at its own game. What you do is invent the future, invent the next wave of manufacturing and build that here.",
+      "zh": "你不会在中国自己的玩法上击败它。你要做的是发明未来，发明下一波制造浪潮，并在这里把它建造出来。",
+      "timestamp": "22:04",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "But AI allows anybody who is a user to become a tool builder. And I think that's a really, really big deal.",
+      "zh": "但 AI 让任何使用者都能成为工具构建者。我认为这是一件非常非常大的事。",
+      "timestamp": "25:44",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "So our need for software engineers has actually gone up as the cost of software engineering has gone down.",
+      "zh": "所以随着软件工程成本的下降，我们对软件工程师的需求实际上上升了。",
+      "timestamp": "41:51",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "In hardware, experience wins. This is one of these lies told by old people at big, dumb companies, and it's just not true.",
+      "zh": "在硬件领域，经验取胜。这是大蠢公司里的老人讲的一种谎言之一，它根本不是真的。",
+      "timestamp": "42:53",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "The moment you become an expert, what you're steeped in is the past, and then you're completely useless.",
+      "zh": "一旦你成了专家，你浸润的就是过去，然后你就完全没用了。",
+      "timestamp": "43:25",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "But if somebody has done it before in the world, our rule is you have to go find one of those people, call them and ask them your advice. You don't have to take it. You just have to hear it.",
+      "zh": "但如果世界上有人曾经做过这件事，我们的规则是，你必须去找那样的人，打电话给他们，询问他们的建议。你不必采纳。你只需要听到它。",
+      "timestamp": "43:49",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "You can teach skills, you can teach knowledge, you can learn any kind of engineering, but the one thing I've never been able to teach somebody else is to care when they just didn't care.",
+      "zh": "你可以教技能，你可以教知识，你可以学任何一种工程，但有一样东西我从来没能在别人身上教会的，就是在他们根本不在乎的时候让他们在乎。",
+      "timestamp": "31:39",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "Knowledge is changeable, passion is not, and never has there been more reason to work on what you love.",
+      "zh": "知识是可变的，热情不是，而且从来没有比现在更有理由去做你热爱的事情了。",
+      "timestamp": "33:03",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "And so the self-belief actually came late, you know, and there's still some days I get up and think, oh man, this is hard.",
+      "zh": "所以自信其实来得很晚，你知道，到今天还有些日子我起床后会想，天啊，这太难了。",
+      "timestamp": "37:47",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "I think you can tell a lot of a character of a company, particularly a public company, by its quarterly behavior.",
+      "zh": "我认为你可以从一家公司的季度行为看出它很多的品性，尤其是上市公司。",
+      "timestamp": "38:57",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "There are many, many unsolved problems in the world, many great ideas hiding in plain sight that were actually solvable, that could have been multi-billion or multi-trillion dollar businesses a while ago, but nobody's building them.",
+      "zh": "世界上有非常非常多未解决的问题，许多藏在显而易见之处的伟大想法其实是可解的，它们本来在若干年前就可以成为数十亿甚至数万亿美元的生意，但没有人去做。",
+      "timestamp": "20:56",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "If I leave you with just one thing, go build something you love. Go build something that should exist in the world.",
+      "zh": "如果我只留下一句话给你们，那就是：去构建你热爱的东西。去构建那些应该存在于这个世界上的东西。",
+      "timestamp": "49:51",
+      "speaker": "Blake Scholl"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "21:21",
+      "speaker": "Unknown",
+      "en": "The law of large numbers you might think applies to startups just doesn't. The world is a smaller place than we're told.",
+      "zh": "你可能认为大数定律适用于初创公司，但其实并不适用。世界比我们被告知的要小。"
+    },
+    {
+      "timestamp": "21:38",
+      "speaker": "Unknown",
+      "en": "The answer to why now can be because I started now.",
+      "zh": "「为什么是现在」的答案可以是：因为我是现在开始的。"
+    },
+    {
+      "timestamp": "12:34",
+      "speaker": "Unknown",
+      "en": "The key thing is to make hardware development look more like software development, to reduce the cost of iteration, both in the world of bits and in the world of atoms.",
+      "zh": "关键在于让硬件开发看起来更像软件开发，无论在比特的世界还是原子的世界里，都要降低迭代的成本。"
+    },
+    {
+      "timestamp": "10:25",
+      "speaker": "Unknown",
+      "en": "If there's no boom at all, there's nothing to argue about.",
+      "zh": "如果根本没有音爆，那就没有什么可争论的了。"
+    },
+    {
+      "timestamp": "10:57",
+      "speaker": "Unknown",
+      "en": "Turns out you can change the regulations. And the way you do it is just by building the thing and communicating why it's okay.",
+      "zh": "事实证明，你是可以改变监管规定的。而改变的方法就是把这个东西造出来，并向人们说明为什么它是没问题的。"
+    },
+    {
+      "timestamp": "30:47",
+      "speaker": "Unknown",
+      "en": "We made it boom plus FAA versus the problem, not boom versus FAA.",
+      "zh": "我们把它变成了 Boom 加 FAA 对抗问题本身，而不是 Boom 对抗 FAA。"
+    },
+    {
+      "timestamp": "11:12",
+      "speaker": "Unknown",
+      "en": "I like to say that supersonic flight isn't red or blue. It's red, white, and blue.",
+      "zh": "我喜欢说，超音速飞行不分红党还是蓝党。它是红、白、蓝三色的。"
+    },
+    {
+      "timestamp": "22:06",
+      "speaker": "Unknown",
+      "en": "You don't beat China at its own game. What you do is invent the future, invent the next wave of manufacturing and build that here.",
+      "zh": "你不会在中国自己的玩法上击败它。你要做的是发明未来，发明下一波制造浪潮，并在这里把它建造出来。"
+    },
+    {
+      "timestamp": "23:54",
+      "speaker": "Unknown",
+      "en": "We need to invent the next generation of manufacturing and scale that here. Because what America is still best at is invention and freedom and innovation.",
+      "zh": "我们需要发明下一代制造方式，并在这里把它规模化。因为美国最擅长的仍然是发明、自由和创新。"
+    },
+    {
+      "timestamp": "25:44",
+      "speaker": "Unknown",
+      "en": "But AI allows anybody who is a user to become a tool builder. And I think that's a really, really big deal.",
+      "zh": "但 AI 让任何使用者都能成为工具构建者。我认为这是一件非常非常大的事。"
+    },
+    {
+      "timestamp": "41:51",
+      "speaker": "Unknown",
+      "en": "So our need for software engineers has actually gone up as the cost of software engineering has gone down.",
+      "zh": "所以随着软件工程成本的下降，我们对软件工程师的需求实际上上升了。"
+    },
+    {
+      "timestamp": "43:01",
+      "speaker": "Unknown",
+      "en": "In hardware, experience wins. This is one of these lies told by old people at big, dumb companies, and it's just not true.",
+      "zh": "在硬件领域，经验取胜。这是大蠢公司里的老人讲的一种谎言之一，它根本不是真的。"
+    },
+    {
+      "timestamp": "43:25",
+      "speaker": "Unknown",
+      "en": "The moment you become an expert, what you're steeped in is the past, and then you're completely useless.",
+      "zh": "一旦你成了专家，你浸润的就是过去，然后你就完全没用了。"
+    },
+    {
+      "timestamp": "43:49",
+      "speaker": "Unknown",
+      "en": "But if somebody has done it before in the world, our rule is you have to go find one of those people, call them and ask them your advice. You don't have to take it. You just have to hear it.",
+      "zh": "但如果世界上有人曾经做过这件事，我们的规则是，你必须去找那样的人，打电话给他们，询问他们的建议。你不必采纳。你只需要听到它。"
+    },
+    {
+      "timestamp": "31:39",
+      "speaker": "Unknown",
+      "en": "You can teach skills, you can teach knowledge, you can learn any kind of engineering, but the one thing I've never been able to teach somebody else is to care when they just didn't care.",
+      "zh": "你可以教技能，你可以教知识，你可以学任何一种工程，但有一样东西我从来没能在别人身上教会的，就是在他们根本不在乎的时候让他们在乎。"
+    },
+    {
+      "timestamp": "33:03",
+      "speaker": "Unknown",
+      "en": "Knowledge is changeable, passion is not, and never has there been more reason to work on what you love.",
+      "zh": "知识是可变的，热情不是，而且从来没有比现在更有理由去做你热爱的事情了。"
+    },
+    {
+      "timestamp": "37:30",
+      "speaker": "Unknown",
+      "en": "No one gives you that permission.",
+      "zh": "没有人会给你那种许可。"
+    },
+    {
+      "timestamp": "37:47",
+      "speaker": "Unknown",
+      "en": "And so the self-belief actually came late, you know, and there's still some days I get up and think, oh man, this is hard.",
+      "zh": "所以自信其实来得很晚，你知道，到今天还有些日子我起床后会想，天啊，这太难了。"
+    },
+    {
+      "timestamp": "38:57",
+      "speaker": "Unknown",
+      "en": "I think you can tell a lot of a character of a company, particularly a public company, by its quarterly behavior.",
+      "zh": "我认为你可以从一家公司的季度行为看出它很多的品性，尤其是上市公司。"
+    },
+    {
+      "timestamp": "20:56",
+      "speaker": "Unknown",
+      "en": "There are many, many unsolved problems in the world, many great ideas hiding in plain sight that were actually solvable, that could have been multi-billion or multi-trillion dollar businesses a while ago, but nobody's building them.",
+      "zh": "世界上有非常非常多未解决的问题，许多藏在显而易见之处的伟大想法其实是可解的，它们本来在若干年前就可以成为数十亿甚至数万亿美元的生意，但没有人去做。"
+    },
+    {
+      "timestamp": "49:51",
+      "speaker": "Unknown",
+      "en": "If I leave you with just one thing, go build something you love. Go build something that should exist in the world.",
+      "zh": "如果我只留下一句话给你们，那就是：去构建你热爱的东西。去构建那些应该存在于这个世界上的东西。"
+    }
+  ],
+  "voice_script": "今天要讲的人，是一个造超音速飞机的。他叫Boom Supersonic的创始人，受过训练的软件工程师，早年在Amazon待过，还办过一家被Groupon收购的应用公司。就这么一个跟航空航天八竿子打不着的人，用十多年时间，把超音速客运带回了现实。去年，Boom的原型机XB-1成了第一架突破音障的独立研发喷气机。而在2014年公司刚起步的时候，连个像样的办公室都没有，只有一个硬纸板、胶合板加Office Depot座椅拼出来的客机模型。\n\n为什么这事值得聊？先垫个背景。1969年，人类第一次登上月球，同一年，协和式超音速客机也上天了。可半个多世纪过去，我们既上不了月球，也没了超音速客机。如今洛克希德造一个爱国者导弹拦截器都要两年多。整个行业几乎在原地踏步：公务机公司不想碰监管，波音连新飞机都不造了。2015年，这位创始人去找Jeff Bezos要种子轮投资，被拒了，后来Bezos还在股东信里拿客机举例子，说这种事只有大公司才做得成。回应是什么呢？四个字：那就去造。\n\n那一个软件工程师，怎么去造超音速飞机？关键就一条思路——让硬件开发更像软件开发，降低迭代的成本，无论在比特世界还是原子世界。这句话是整集的核心，咱们掰开讲。\n\n先说比特世界。传统飞机设计是怎么做的？一群专家各管一摊，在自己的Excel表格里做分析，再互相交接。改一排座椅，发动机得重做，机翼得重设，迭代极慢。Boom把这些全搬进了软件：做一个叫MakeBoom的系统，你在配置文件里定义一架飞机，跑一个脚本，几分钟就能完成整机仿真——能飞多远、油耗多少、载客多少、各种权衡如何，一目了然。设计发动机用的工具叫Blade Runner，几个工程师实时改叶片设计，立刻就能看到结构和气动表现，把过去几十个工程师干几个月的活，压缩到了实时。\n\n比特世界搞定了，那原子世界呢？这就是硬件跟软件不一样的地方：你设计得再快，零件还是得造出来测。跟航空航天领域的外部供应商合作，迭代极其困难——用原话讲，是\"我对他们没有任何好话\"。所以Boom干脆自己建了机加工车间，从数字设计到原型部件，大约24小时；还在离工程师半小时路程的地方自建了发动机试车台，想测就测，不用排队预约。\n\n讲到这儿，你可能会有个疑问：这么重的投入，钱从哪来？Boom有个巧妙的解法。因为垂直整合了自己的推进系统，他们把为超音速飞行研发的发动机，改造成地面天然气发电涡轮机单独卖，叫Super Power。这样一鱼两吃：既产生测试数据和可靠性验证，又产生继续做大的资本，第一批12个月内就交付了首位客户。\n\n接着说这次创业里最意外的成果，也是整集最精彩的部分——音爆问题。XB-1验证了一个被谈论已久的原理，叫音爆切断：在足够高的海拔、以适合当天天气的速度破音障，音爆会在空中掉头，根本不落地。XB-1在两次飞行里六次穿越音障，地面上没有任何可听见的音爆。要知道，\"多安静才算够安静\"这个问题，业内吵了几十年。而这一下，问题直接消失了——用原话说，\"如果根本没有音爆，那就没有什么可争论的了\"。\n\n结果有多惊人？从破音障到被邀请去白宫西翼，大约24小时；从破音障到行政令让超音速飞行在美国重新合法，115天。之后众议院全票通过永久合法化法案，参议院商务委员会也是全票。而这一整架XB-1，是50个人的团队做出来的。\n\n跟监管打交道的具体方法，也值得展开说说。Uber那种无视监管、让粉丝用户当盟友的打法，在航空业永远行不通，因为这是安全攸关的产品，得尽早沟通。所以创办公司的时候，直接去了FAA，请对方随时来看、给反馈、把计划在定稿前给对方过目。结果呢？XB-1这种通常拖好几个月的审批，90分钟就批了，还拿到了史上第一张民用超音速飞行许可，甚至早于飞机首飞。这里面有句话特别值得记：我们把它变成了Boom加FAA对抗问题本身，而不是Boom对抗FAA。\n\n除了造飞机这件事本身，这一集还聊了不少创业方法论，拣几条最有用的给你。\n\n第一条，关于时机。很多人会问，为什么是现在做这件事？这其实是个伪问题。差点阻止创业的错误信念是：好点子如果没人在做，多半有问题。但真相是，大量藏着伟大想法的可解问题没人做，原因只有一个——没人去做。超音速飞行的技术，早在Boom创立前十年就成熟了。所以\"为什么是现在\"的答案可以是：因为我是现在开始的。\n\n第二条，怎么赢中国的制造业。答案是：不要试图把离开美国的制造业迁回来，你不会在中国自己的玩法上击败它。要做的是发明下一代制造方式，并在本地规模化。举个例子，美国的模具行业已经基本消亡，Boom的解法是彻底摆脱模具——全数字化流程24小时就能从设计做出世界最先进的涡轮叶片，完全无需工装。\n\n第三条，关于AI对硬件的真实影响。AI大幅降低了软件开发成本，让小团队也能拥有过去负担不起的定制工程工具。早年Amazon全部自建贴合业务的软件，这是它赢的原因之一，但那需要规模；而AI让任何企业都能拥有完全贴合自己的软件。还缺的是物理世界的AI——给CNC机器编程仍然极其手动，用原话说，\"尽管推介满天飞，还没见到多少真正能用的\"。\n\n再说说招人。行业里，技术强、文化契合、经验丰富这三者常常互相矛盾，解法是重视年轻、有雄心、动手做过东西的早期人才，高层尽量从内部提拔。而最看重的一条是这句话：\"你可以教技能、教知识，但有一样东西我从来没教会过别人——在一个人根本不在乎的时候让他在乎。\"\n\n还有个自学方法特别实用，叫困惑清单。核心是区分\"能通过考试的理解\"和\"真正的理解\"。具体做法是：学的时候买教科书、看Khan Academy补物理和微积分、做习题集，同时列一张困惑清单，写下所有自己其实没真懂的东西，目标是每周消掉一条。结果清单只增不减——但这本身训练出了一种能力：觉察自己到底是真懂了，还是在含糊其辞。\n\n那\"做你懂的事\"这句常见的建议呢？原话评价是：这是最糟的建议。连他妈都劝过，说你别办Boom，不该做你懂的事吗？可第一家公司做的是移动电商，简历上确实懂，但对做的东西完全不在乎，也没有产品愿景。结论是：知识是可变的，热情不是——尤其在人人都有AI导师的时代。\n\n最后几条给年轻人的建议。第一，深科技别学Boom：XB-1这个原型挑战定得太难了，应该先做更简单的原型、多几次射门机会、更快拿到证明点，这样融资难题就不会那么痛。第二，\"硬件靠经验\"是大公司老人的谎言——去造真实的东西，玩遥控模型飞机，学会真正把东西做出来。Boom还有条内部规则：年轻工程师做没做过的事没问题，但如果世界上有人做过，你必须找到那个人、打电话问建议——不必采纳，只需听到。招没工作经验的学生，就看课余项目，甚至专门设了一个叫\"你的梦想工作\"的职位——做出任何你想做的东西，并证明自己的非凡之处。至于工作生活平衡，信的不是平衡，是\"工作与生活的和谐\"：创办Boom的时候，家里有三个不到两岁的孩子。事实证明，你可以既做个好爸爸，也做个好CEO。\n\n这一集听完，最值得带走的一句话也许是这句：你可能认为大数定律适用于初创公司，但其实并不适用——世界比我们被告知的要小。超音速飞行不分红党还是蓝党，它是红、白、蓝三色的。"
+}

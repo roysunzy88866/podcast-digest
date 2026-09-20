@@ -33,7 +33,7 @@ unlisted: true
 
 [[Whitney Wolfe Herd]] · [[Ben Celebicic]] · [[Bumble]] · [[Match Group]] · [[滑动]] · [[北极星指标]] · [[AI]] · [[个性化]] · [[AI 助手]] · [[信任与安全]]
 
-<script type="application/json" class="pd-epn">{"Whitney Wolfe Herd":1,"Ben Celebicic":1,"Bumble":1,"Match Group":1,"滑动":1,"北极星指标":1,"AI":17,"个性化":1,"AI 助手":2,"信任与安全":2}</script>
+<script type="application/json" class="pd-epn">{"Whitney Wolfe Herd":1,"Ben Celebicic":1,"Bumble":1,"Match Group":1,"滑动":1,"北极星指标":1,"AI":18,"个性化":1,"AI 助手":2,"信任与安全":2}</script>
 
 <script>
 (function(){

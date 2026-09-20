@@ -1,0 +1,172 @@
+{
+  "title_zh": "Stripe 创始人 Patrick Collison：现在是有史以来最好的创业时机",
+  "tldr": "Stripe 联合创始人兼 CEO Patrick Collison 做客 YC Startup School，用 Stripe 数据论证 AI 时代创业门槛正全面下降，并谈辍学、发布节奏与「被大厂碾压」的担忧。",
+  "digest_md": "这一集是 YC Startup School 的现场访谈，主角是 Stripe 联合创始人兼 CEO Patrick Collison。Stripe 就是他造的那家让「在网站上收钱」变成七行代码就能搞定的支付公司。主持人是 YC 合伙人 Harj——两人 20 年前曾一起创办公司。整场最有分量的一个数字：根据 Stripe 的数据，现在平台上新创办企业的数量同比接近翻倍，这是他们见过的任何一年里最大的相对增幅，而且企业中位数业绩还在变好。\n\n## 该学什么：知识是大脑的 L1 缓存\n\n面对现场大学生「AI 时代大学该学什么、多少该外包给 AI」的提问，Patrick 的答案是：把知识当缓存来想。Jeff Dean 有组著名数字——每个程序员都该知道的带宽和延迟常数：从 L1 缓存取数据、从 RAM 取、跨网络取，速度天差地别。知识也一样：让智能体帮你查、帮你算当然可以，「但那比在你认知的 L1 缓存里直接知道它要慢得多」，你大脑里能做的推理往返次数，远多于通过打字或语音转写来回折腾的次数。所以即便完全承认模型的能力，在相当长时间里「神经元查找」仍会快得多。他补了一条证据：看公司的显示性偏好，无论 Stripe 还是各大实验室，认知能力仍然享有巨大溢价——在没证据表明这收益被榨干之前就放弃学习，为时过早。\n\n他自己刻意保留的事是写作：不管是哲学层面还是实质层面，他都不喜欢模型的写作。模型能证明雅可比猜想这样的数学难题，但他至今没读到过让他觉得非常有说服力的 LLM 写的文章；Gmail、WhatsApp 里的预写回复建议，他这辈子一条都没发过。\n\n## 两次辍学：没那么危险，紧迫感反倒是错的\n\nPatrick 有个不寻常的记录：为了创业两次从大学辍学——大一后辍学去和 Harj 办公司，几年后回 MIT 又读了一年，再辍学创办 Stripe。他想告诉学生的第一件事：这不是单行板，辍学了还能回来。他当时那种「人生苦短、必须赶紧去做事」的紧迫感，事后看相当不必要——尤其是一种「硅谷机会转瞬即逝、现在不做三四年后就没了」的直觉，被几十年的事实反复打脸：硅谷一直稳固地存在过剩的机会。 至于父母担心的「辍学毁一生名誉」，据他所知从来没人真正在意过。如果你享受大学，读完没坏处；不享受，成本也微乎其微。\n\n> 【背景】转写稿把 Stripe 之前那家公司的名字听成了 Automatic / Octomatic，那是 Patrick 和 Harj 早年在 YC 合办的初创公司；正是在做它的过程中，两人亲身体会到在互联网上收钱有多麻烦——这成了 Stripe 的起点。\n\n对「不辍学创业就会困在永久底层」这个流行的末日论调，他并不买账：人类历来迷恋这类「一切即将终结、社会永久转型」的叙事。他举了一本书 The Winged Gospel：航空发明后人们也曾以为人类物种进入了新纪元、一切都将不同——航空确实是大事，但远没到当时亢奋者想象的社会学层面彻底重写。对「这是创业最后窗口」的说法，他倾向于低估。\n\n## Stripe 早期：像个坏主意，但扎根在真问题上\n\nStripe 如今看似显然的好主意，当年却两头不讨好。好处是真的：没人喜欢旧方式——填纸质文件、亲自跑银行，「文件还是拉丁文写的」。坏处是没人信：金融科技作为一个行业当时还不存在，这个词根本没被发明出来，两个小孩办金融服务公司就像「穿着风衣假扮正经生意的松鼠」，pitch 时对方虽没把他们轰出去，但你能看见他在桌子底下找叫保安的按钮。 救了他们的，是问题本身足够具体、足够真实。\n\n> 【背景】Patrick 说创办 Stripe 的决定，是在 2009 年参加 YC 的 Startup School 活动、吃完寿司走回程路上做出的，当时两人对彼此说的是「我们不妨做做看，这大概不会太难」——结果这一做就是将近 17 年。\n\n另一个反 YC 常识的选择：他们拖了近两年才公开发布（2010 年夏全职、2011 年 9 月发布），而 YC 信条是尽早发布、快速迭代。Patrick 认为这在他们领域是对的——安全、合作伙伴、资金流转、可靠性这些前置条件没备齐之前，撑不起真正好的自助服务体验。但关键在于他们不是闭门造车：写下第一批代码两个月后，2010 年 1 月就迎来了第一个生产用户，那时产品唯一的功能就是刷一张卡扣款。客户问「怎么看我的扣款记录」就搭个仪表盘，问「怎么退款」就做退款，问「我什么时候能拿到钱」再去做打款——非常「即时按需」的开发。每个月客户都在增加，每周都有真实反馈，是「从现实中学习，而不是基于我们自己假设的构想」。 他的结论：如果你有这样一条持续把人拉回现实的反馈流，不天天喊着「发布」也没问题。\n\n## AI 时代，精益创业还适用吗\n\n顺着编程智能体让造软件变得又快又便宜，Harj 问：第一版是不是该更有雄心？Patrick 给了一个颇具时代感的判断：传统精益创业那套——先买 Google 广告找利基缝隙、再迭代扩张——会变得竞争激烈得多，缝隙正被更激进地开垦。20 年前那是几乎唯一的选择，因为资本有限、又没有 AI 帮你快速拉起一个有多种能力的组织；而现在「你可以一开始就启动这些更激进、更有雄心的事情」。 证据是过去 10 年最成功的公司里，很多都是非常反精益创业的。\n\n关于大家最怕的「我的点子会不会被大模型实验室碾压」，他拆成两问：是 AI 能力会取代你，还是实验室公司会做掉你？后者的历史记录好坏参半——20 年前每家公司都被问「如果 Google 做了这个怎么办」，Google 看似无所不能，但人类组织很难同时激进推进 100 个优先事项，Google 也远没有做成所有事。这种恐惧被夸大了。前者（模型/智能体能力直接取代某些垂直任务）确实会发生、且已经发生了，但取决于你对模型能力的预测。\n\n## Stripe 数据：史上最佳创业时机的三重证据\n\n这部分是全场信息量最大的实质：\n\n- **创办量**：现在在 Stripe 上新创办的企业，同比略低于 2 倍增长——超过 2020 年疫情期间那次同比约 50% 的跳升，是任何一年里最大的相对增幅。\n- **质量没被稀释**：不是一堆垃圾玩意儿充数——企业中位数业绩今年好于去年，达到 100 万、500 万、1000 万美元收入门槛的概率都在变好，从注册到产生收入的时间在缩短。\n- **销售更容易**：各地企业对尝试新事物前所未有地蓄势待发，因为它们「对因运营方式陈旧而被甩在后面有着真正的恐惧」——维持现状的风险现在看起来比采用新事物还高。初创公司产品从第一天起就能获得相当规模的采用，这在 YC 近期公司身上已反复出现。消费端类似：人们即使不喜欢数据中心，也对 AI 产品着迷、愿意尝新。\n\n由此他还修正了一个更宏观的担忧：很多人怕 AI 成为霸权、中心化的力量，少数公司吞掉经济的大头。前沿公司当然会继续做得极其出色，但 Stripe 能看到初创公司和传统企业改造自己的渴望与力度，「我认为将会出现成千上万个赢家」——按可见的趋势线，我们正走向一个更去中心化、繁荣更广泛的世界。\n\n## 本集带走\n\n- **知识是认知缓存**：让 AI 帮你查远比「自己知道」慢，大脑内可做的推理往返远多于外包来回；在收益被证明榨干之前，别放弃深度学习知识。\n- **写作自己来**：模型能解难题但写不出真正有说服力的文章；人际沟通和写作仍是需要自己练的基本功。\n- **别被「最后窗口」叙事绑架**：硅谷几十年来机会过剩；辍学成本微乎其微但也不必要，反倒是「机会转瞬即逝」的直觉被反复证伪。\n- **早期要的不是发布，是现实反馈流**：Stripe 拖两年才公开发布，但第一个月就有生产用户，每周按真实需求「即时按需」开发——有真实客户在拉着你，慢发布不是死路。\n- **AI 时代第一版可以更有雄心**：精益创业找缝隙的路正被激烈开垦，AI 让你一开始就能启动更激进的组织。\n- **数据说话：现在是创业最佳时机**：新办企业数量同比约翻倍、中位数业绩变好、达到各收入门槛概率上升、企业更愿意从初创采购——因为不转型的风险现在比转型的风险更高。",
+  "quotes": [
+    {
+      "en": "That's a hell of a lot slower than knowing it in cognitive L1 cache.",
+      "zh": "那比在你认知的 L1 缓存里直接知道它要慢得多。",
+      "timestamp": "02:47",
+      "speaker": "Patrick Collison"
+    },
+    {
+      "en": "And so I think renouncing that before there is evidence that we've saturated those benefits would be premature.",
+      "zh": "所以我认为，在还没有证据表明这些收益已经被榨干之前，就放弃认知能力会是为时过早的。",
+      "timestamp": "03:30",
+      "speaker": "Patrick Collison"
+    },
+    {
+      "en": "But I would take the under on this being the last couple of years to create a company.",
+      "zh": "但对于「这是创建公司的最后几年窗口」这一点，我倾向于低估。",
+      "timestamp": "09:48",
+      "speaker": "Patrick Collison"
+    },
+    {
+      "en": "And so it's just kind of, you know, we felt like the proverbial squirrels, you know, in a trench coat trying to masquerade as a sort of a real business",
+      "zh": "所以就感觉，我们就像那些穿着风衣假扮正经生意的松鼠。",
+      "timestamp": "11:20",
+      "speaker": "Patrick Collison"
+    },
+    {
+      "en": "We're learning things from reality as opposed to our own hypothesized or extrapolated conception of it.",
+      "zh": "我们是从现实中学习东西，而不是基于我们自己假设的或外推的构想。",
+      "timestamp": "16:04",
+      "speaker": "Patrick Collison"
+    },
+    {
+      "en": "And so I really think there's never been a better time for startups to sell and to have their products get adopted at a pretty meaningful scale right out of the gate.",
+      "zh": "所以我真的认为，对于初创公司来说，从来没有比现在更好的时机去销售，并让自己的产品从一开始就获得相当有规模的采用。",
+      "timestamp": "28:36",
+      "speaker": "Patrick Collison"
+    },
+    {
+      "en": "But based on the trend lines we can see, I think we are heading towards a more decentralized world and one with more broad-based prosperity.",
+      "zh": "但根据我们能看到趋势线，我认为我们正走向一个更加去中心化的世界，一个拥有更广泛繁荣的世界。",
+      "timestamp": "30:29",
+      "speaker": "Patrick Collison"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "02:47",
+      "speaker": "Patrick",
+      "en": "That's a hell of a lot slower than knowing it in cognitive L1 cache.",
+      "zh": "那比在你认知的 L1 缓存里直接知道它要慢得多。"
+    },
+    {
+      "timestamp": "03:16",
+      "speaker": "Patrick",
+      "en": "I still think there's a pretty, like, I think for a long time to come, neuronal lookups will be much faster.",
+      "zh": "我认为在相当长的一段时间里，神经元查找仍然会快得多。"
+    },
+    {
+      "timestamp": "03:30",
+      "speaker": "Patrick",
+      "en": "And so I think renouncing that before there is evidence that we've saturated those benefits would be premature.",
+      "zh": "所以我认为，在还没有证据表明这些收益已经被榨干之前，就放弃认知能力会是为时过早的。"
+    },
+    {
+      "timestamp": "04:22",
+      "speaker": "Patrick",
+      "en": "But somehow I still haven't read the LLM essay that I found super compelling.",
+      "zh": "但不知为何，我至今还没读到过让我觉得非常有说服力的 LLM 文章。"
+    },
+    {
+      "timestamp": "05:09",
+      "speaker": "Patrick",
+      "en": "And I think I've still sent zero of those in my life.",
+      "zh": "而且我想我这一辈子一条都没发过。"
+    },
+    {
+      "timestamp": "05:47",
+      "speaker": "Patrick",
+      "en": "You can drop out and, in fact, return.",
+      "zh": "你可以辍学，而且实际上，还可以回来。"
+    },
+    {
+      "timestamp": "07:30",
+      "speaker": "Patrick",
+      "en": "And as far as I can tell, nobody has ever cared.",
+      "zh": "而据我所知，从来没有人真正在意过。"
+    },
+    {
+      "timestamp": "08:15",
+      "speaker": "Patrick",
+      "en": "And if we didn't build it then, it wouldn't be possible to do it in three or four years.",
+      "zh": "如果我们那时不把它做出来，三四年之后就不可能再做了。"
+    },
+    {
+      "timestamp": "08:25",
+      "speaker": "Patrick",
+      "en": "In hindsight, I think that was a poor intuition.",
+      "zh": "事后来看，我觉得那是一种很糟糕的直觉。"
+    },
+    {
+      "timestamp": "09:43",
+      "speaker": "Patrick",
+      "en": "But I would take the under on this being the last couple of years to create a company.",
+      "zh": "但对于「这是创建公司的最后几年窗口」这一点，我倾向于低估。"
+    },
+    {
+      "timestamp": "11:20",
+      "speaker": "Patrick",
+      "en": "And so it's just kind of, you know, we felt like the proverbial squirrels, you know, in a trench coat trying to masquerade as a sort of a real business",
+      "zh": "所以就感觉，我们就像那些穿着风衣假扮正经生意的松鼠。"
+    },
+    {
+      "timestamp": "11:57",
+      "speaker": "Patrick",
+      "en": "But I think the fact that it was, ultimately, the fact that it was grounded in such a concrete, actual, real user problem saved us.",
+      "zh": "但我认为，最终，它扎根于一个非常具体、真实、实在的用户问题，这个事实拯救了我们。"
+    },
+    {
+      "timestamp": "16:10",
+      "speaker": "Patrick",
+      "en": "We're learning things from reality as opposed to our own hypothesized or extrapolated conception of it.",
+      "zh": "我们是从现实中学习东西，而不是基于我们自己假设的或外推的构想。"
+    },
+    {
+      "timestamp": "18:58",
+      "speaker": "Patrick",
+      "en": "Whereas now, I think you can start these much more aggressive and ambitious things up front.",
+      "zh": "而现在，我觉得你可以一开始就启动这些更激进、更有雄心的事情。"
+    },
+    {
+      "timestamp": "22:23",
+      "speaker": "Patrick",
+      "en": "I've never met a Stripe customer and thought, that's boring.",
+      "zh": "我从来没有见过一个 Stripe 客户然后想：真无聊。"
+    },
+    {
+      "timestamp": "25:58",
+      "speaker": "Patrick",
+      "en": "But actually, the median business is doing better this year than a year ago.",
+      "zh": "但实际上，企业中位数今年比一年前做得更好。"
+    },
+    {
+      "timestamp": "28:00",
+      "speaker": "Patrick",
+      "en": "And they have a real terror of being left behind with archaic and antiquated ways of operating.",
+      "zh": "而且它们对因运营方式陈旧过时而被甩在后面有着真正的恐惧。"
+    },
+    {
+      "timestamp": "28:36",
+      "speaker": "Patrick",
+      "en": "And so I really think there's never been a better time for startups to sell and to have their products get adopted at a pretty meaningful scale right out of the gate.",
+      "zh": "所以我真的认为，对于初创公司来说，从来没有比现在更好的时机去销售，并让自己的产品从一开始就获得相当有规模的采用。"
+    },
+    {
+      "timestamp": "30:17",
+      "speaker": "Patrick",
+      "en": "I think there are going to be many thousands of winners.",
+      "zh": "我认为将会出现成千上万个赢家。"
+    },
+    {
+      "timestamp": "30:29",
+      "speaker": "Patrick",
+      "en": "But based on the trend lines we can see, I think we are heading towards a more decentralized world and one with more broad-based prosperity.",
+      "zh": "但根据我们能看到趋势线，我认为我们正走向一个更加去中心化的世界，一个拥有更广泛繁荣的世界。"
+    }
+  ],
+  "voice_script": "今天这期，咱们听 Stripe 的联合创始人兼 CEO Patrick Collison 讲创业。先交代一下这人是谁：Stripe 就是那家让\"在网站上收钱\"变成七行代码就能搞定的支付公司。他做客的是 YC 的 Startup School 现场访谈，主持人 Harj 是 YC 合伙人——有意思的是，两人二十年前还一起创办过公司，而且Patrick 为了创业，从大学辍学过两次。这一期聊的问题很实在：AI 时代创业门槛到底在不在降？辍学值不值？精益创业那套还灵不灵？\n\n先听一个全场最有分量的数字。根据 Stripe 的数据，现在平台上新创办的企业，同比增长接近两倍。超过疫情期间那次大约百分之五十的跳升，是任何一年里最大的相对增幅。而且不光是数量多——企业的中位数业绩还在变好，达到一百万、五百万、一千万美元这些收入门槛的概率都在上升。所以这期标题才敢说：现在是有史以来最好的创业时机。\n\n那这个判断是怎么推出来的？咱们从聊天里最有意思的一个话题说起。现场有大学生问：AI 时代，大学该学什么？多少知识可以外包给 AI?Patrick 的答案很工程师：把知识当缓存来想。打了个比方，Jeff Dean 有一组著名数字，每个程序员都该知道——从 L1 缓存取数据、从内存取数据、跨网络取数据，速度天差地别。知识也一样。让智能体帮你查、帮你算，当然可以，但那比在你认知的 L1 缓存里直接知道它要慢得多。因为你大脑里能做的推理往返次数，远多于通过打字或者语音转写来回折腾的次数。所以即便完全承认模型的能力，在相当长时间里，\"神经元查找\"还是会快得多。还有一条证据：看公司的实际选择，不管 Stripe 还是各大实验室，认知能力仍然享受巨大的溢价。原话是——在还没有证据表明这些收益已经被榨干之前，就放弃认知能力会是为时过早的。\n\n顺带说一句写作。模型能证明雅可比猜想这样的数学难题，但Patrick 至今没读到过让他觉得真正有说服力的 LLM 写的文章。Gmail、WhatsApp 里那些预写回复建议，一条都没发过。所以写作这件事，还是要自己练。\n\n说到大学，就不得不提辍学——因为Patrick 的记录很不寻常：大一之后辍学一次，去和 Harj 办公司；几年后回 MIT 又读了一年，再辍学，创办 Stripe。想对学生们说什么？第一，这不是单行板，辍学了还能回来。第二，更反直觉的一点：当时那种\"人生苦短必须赶紧做事\"的紧迫感，事后看相当不必要。尤其是那种\"硅谷机会转瞬即逝、现在不做三四年后就没了\"的直觉，被几十年的事实反复打脸——硅谷一直稳固地存在过剩的机会。至于父母担心的辍学毁一生名誉，据我所知从来没人真正在意过。所以结论是：享受大学，读完没坏处；不享受，成本也微乎其微。而对\"不辍学创业就会困在永久底层\"这种末日论调，并不买账——人类历来迷恋\"一切即将终结\"的叙事。举了本书叫 The Winged Gospel:飞机发明后，人们也曾以为人类进入了新纪元。航空确实是大事，但远没到当时那些亢奋者想象的程度。所以关于\"这是创建公司的最后几年窗口\"这一点，我倾向于低估。\n\n那 Stripe 当年自己是怎么起步的？说来你可能不信，这个如今看似显然的好主意，当年两头不讨好。好处是真的：没人喜欢旧方式——填纸质文件、亲自跑银行，文件还是拉丁文写的。坏处是没人信：金融科技这个行业当时根本不存在，这个词都没被发明出来。两个小孩办金融服务公司，用原话说，就像\"穿着风衣假扮正经生意的松鼠\"——pitch 的时候对方虽然没把他们轰出去，但你能看见人家在桌子底下找叫保安的按钮。救了他们的，是问题本身足够具体、足够真实。顺便交代个细节：创办 Stripe 的决定，是在二〇〇九年参加 YC 的 Startup School 活动之后、吃完寿司走回来的路上做出的。当时两人对彼此说的是，我们不妨做做看，这大概不会太难。结果这一做，就是将近十七年。\n\n不过，Stripe 早期有个特别反常识的选择，得单独说说。YC 的信条是尽早发布、快速迭代，可他们拖了近两年才公开发布——二〇一〇年夏天全职投入，二〇一一年九月才正式上线。这不是闭门造车吗？还真不是。写下第一批代码两个月之后，二〇一〇年一月就迎来了第一个生产用户，那时产品唯一的功能就是刷一张卡扣款。之后完全是按需开发：客户问怎么看我的扣款记录，就搭个仪表盘；问怎么退款，就做退款；问什么时候能拿到钱，再去做打款。每个月客户都在增加，每周都有真实反馈。原话是：\"我们是从现实中学习东西，而不是基于我们自己假设的或外推的构想。\"所以结论是：如果你有这样一条持续把你拉回现实的反馈流，不天天喊着\"发布\"也没问题。\n\n这就引出一个更有时代感的问题。现在编程智能体让造软件变得又快又便宜，那第一版是不是该更有雄心？Patrick 的判断是：传统精益创业那套——先买广告找利基缝隙、再慢慢迭代——会变得竞争激烈得多，那些缝隙正被更激进地开垦。二十年前那几乎是唯一的选择，因为资本有限，又没有 AI 帮你快速拉起一个有多种能力的组织。而现在，你可以一开始就启动这些更激进、更有雄心的事情。证据就在眼前：过去十年最成功的公司里，很多都是非常反精益创业的。\n\n顺着这个逻辑，大家最怕的问题也来了：我的点子会不会被大模型实验室碾压？把这个担忧拆成两问就清楚了。第一问，是实验室公司会不会做掉你？历史记录好坏参半——二十年前每家公司都被问过\"如果 Google 做了这个怎么办\"。Google 看似无所不能，但人类组织很难同时激进推进一百个优先事项，Google 也远没有做成所有事。这种恐惧被夸大了。第二问，是模型能力直接取代你的某些任务？这确实会发生，而且已经发生了，关键取决于你对模型能力的预测。\n\n好，回到开头那个\"史上最佳创业时机\"的判断，现在可以把三重证据摆全了。第一，数量：Stripe 上新办企业同比增长略低于两倍，超过疫情时期。第二，质量没被稀释：不是一堆垃圾玩意儿充数，中位数业绩变好，从注册到产生收入的时间在缩短。第三，销售更容易了：各地企业对尝试新事物前所未有地蓄势待发，因为它们\"对因运营方式陈旧而被甩在后面有着真正的恐惧\"——维持现状的风险，现在看起来比采用新事物还高。消费端也类似，人们即便不喜欢数据中心，也对 AI 产品着迷、愿意尝新。所以，\"对于初创公司来说，从来没有比现在更好的时机去销售，并让自己的产品从一开始就获得相当有规模的采用。\"\n\n还有一个更宏观的担忧，借此修正一下：很多人怕 AI 成为霸权、成为中心化的力量，少数公司吞掉经济的大头。前沿公司当然会继续做得极其出色，但 Stripe 能亲眼看到初创公司和传统企业改造自己的渴望与力度。用Patrick 自己的话说：我认为将会出现成千上万个赢家。\n\n所以这一期听完，带走一句话就够了：对于初创公司来说，从来没有比现在更好的时机——机会不是快没了，而是比任何时候都多，而且正在往更多人手里去。"
+}

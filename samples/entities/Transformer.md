@@ -48,7 +48,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Copilot]] · [[LLM]] · [[预训练]] · [[AGI]] · [[强化学习]] · [[持续学习]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"智能体":273,"OpenAI":122,"Anthropic":130,"Copilot":11,"LLM":35,"预训练":6,"AGI":24,"强化学习":17,"持续学习":9,"后训练":26}</script>
+<script type="application/json" class="pd-epn">{"智能体":274,"OpenAI":122,"Anthropic":130,"Copilot":11,"LLM":36,"预训练":6,"AGI":24,"强化学习":17,"持续学习":9,"后训练":26}</script>
 
 <script>
 (function(){

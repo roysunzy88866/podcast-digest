@@ -7,11 +7,47 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Blake Scholl</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Blake Scholl">BL</div><div class="pi"><h1 class="pt">Blake Scholl</h1><div class="byl">Y Combinator Startup Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Blake Scholl">BL</div><div class="pi"><h1 class="pt">Blake Scholl</h1><div class="byl">精选演讲 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>26</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*8 条*
+*26 条*
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q1]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q2]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q3]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q4]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q5]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q6]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q7]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q8]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q9]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q10]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q11]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q12]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q13]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q14]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q15]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q16]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q17]]
+
+![[2026-07-28-talks-blake-scholl-how-50-people-built-a-super#^q18]]
 
 ![[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban#^q1]]
 
@@ -31,15 +67,16 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-07-28-talks-blake-scholl-how-50-people-built-a-super|《Boom 创始人：从纸板模型到突破音障，再让超音速飞行在美国重新合法》]] — 作为主持
 - [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Boom]] · [[XB-1]] · [[马赫切断]] · [[Overture]] · [[MakeBoom]] · [[Blade Runner]] · [[superpower]] · [[超音速飞行]] · [[第一性原理]] · [[Y Combinator]]
+[[Boom]] · [[Amazon]] · [[Boeing]] · [[FAA]] · [[Uber]] · [[超音速飞行]] · [[音爆]] · [[XB-1]] · [[迭代]] · [[马赫切断]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -49,7 +86,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Boom":1,"XB-1":1,"马赫切断":1,"Overture":1,"MakeBoom":1,"Blade Runner":1,"superpower":1,"超音速飞行":1,"第一性原理":5,"Y Combinator":3}</script>
+<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":14,"Boeing":2,"FAA":2,"Uber":10,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":2,"马赫切断":1}</script>
 
 <script>
 (function(){

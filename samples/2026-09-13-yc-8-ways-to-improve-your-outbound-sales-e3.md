@@ -208,7 +208,7 @@ jsonLd: |
 
 - [[2026-07-18-twentyvc-20vc-5bn-in-revenue-7-to-7-000-employees|从奶牛测序到 50 亿新冠检测生意，再到用 AI 智能体改造保险]]<span class="pd-rz">同公司:YC</span>
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同公司:YC</span>
-- [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|Patrick Collison：AI时代该怎么创业]]<span class="pd-rz">同公司:YC</span>
+- [[2026-07-31-talks-patrick-collison-is-ai-breaking-the-lean|Stripe 创始人 Patrick Collison：现在是有史以来最好的创业时机]]<span class="pd-rz">同公司:YC</span>
 
 </div>
 </div>

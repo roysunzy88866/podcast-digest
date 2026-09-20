@@ -114,7 +114,7 @@ Bumble 近期经历了付费用户的下降，华尔街对此多有质疑。但 
 
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同概念:AI</span>
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|开源贡献的真正门槛：不是代码，是认知负荷]]<span class="pd-rz">同概念:AI</span>
-- [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|David Freeberg：美国正在走向社会主义，但AI能开另一扇门]]<span class="pd-rz">同概念:AI</span>
+- [[2026-07-28-talks-blake-scholl-how-50-people-built-a-super|Boom 创始人：从纸板模型到突破音障，再让超音速飞行在美国重新合法]]<span class="pd-rz">同概念:AI</span>
 
 </div>
 </div>

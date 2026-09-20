@@ -37,7 +37,7 @@ unlisted: true
 
 [[Blake Scholl]] · [[Boom]] · [[XB-1]] · [[马赫切断]] · [[Overture]] · [[MakeBoom]] · [[Blade Runner]] · [[超音速飞行]] · [[第一性原理]] · [[Y Combinator]]
 
-<script type="application/json" class="pd-epn">{"Blake Scholl":1,"Boom":1,"XB-1":1,"马赫切断":1,"Overture":1,"MakeBoom":1,"Blade Runner":1,"超音速飞行":1,"第一性原理":5,"Y Combinator":3}</script>
+<script type="application/json" class="pd-epn">{"Blake Scholl":2,"Boom":2,"XB-1":1,"马赫切断":1,"Overture":1,"MakeBoom":1,"Blade Runner":1,"超音速飞行":2,"第一性原理":5,"Y Combinator":3}</script>
 
 <script>
 (function(){

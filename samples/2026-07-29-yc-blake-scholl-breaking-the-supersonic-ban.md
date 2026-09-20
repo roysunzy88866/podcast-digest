@@ -144,9 +144,9 @@ Blake 说,他们在这个过程中找到了一个巧妙的杠杆。因为决定�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-28-talks-blake-scholl-how-50-people-built-a-super|Boom 创始人：从纸板模型到突破音障，再让超音速飞行在美国重新合法]]<span class="pd-rz">同公司:Boom、Amazon、Boeing、FAA · 同概念:超音速飞行 (supersonic flight)</span>
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]]<span class="pd-rz">同概念:第一性原理 (first principles)</span>
 - [[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」]]<span class="pd-rz">同公司:Uber</span>
-- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]]<span class="pd-rz">同公司:Amazon</span>
 
 </div>
 <div class="pd-ex">

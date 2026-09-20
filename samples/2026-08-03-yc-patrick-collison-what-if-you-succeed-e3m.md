@@ -118,9 +118,9 @@ Stripe从写下第一行代码到公开发布等了近两年，在[[YC|YC]]"尽�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-31-talks-patrick-collison-is-ai-breaking-the-lean|Stripe 创始人 Patrick Collison：现在是有史以来最好的创业时机]]<span class="pd-rz">同嘉宾:Patrick Collison · 同公司:Stripe、YC · 同概念:智能体 (agent)、精益创业 (lean startup)</span>
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]]<span class="pd-rz">同嘉宾:Patrick Collison · 同公司:Stripe、OpenAI · 同概念:智能体 (agent)</span>
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Stripe、OpenAI、Shopify · 同概念:智能体 (agent)</span>
-- [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|硬科技复兴、智能体营收与单人创始人：YC 最前沿观察]]<span class="pd-rz">同公司:YC、Stripe · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

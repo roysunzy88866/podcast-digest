@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bumble":1,"滑动":1,"AI":17,"AI 助手":2,"推荐引擎":1,"付费用户":1,"创始人模式":2,"Hinge":2,"Tinder":2,"Apple":18}</script>
+<script type="application/json" class="pd-epn">{"Bumble":1,"滑动":1,"AI":18,"AI 助手":2,"推荐引擎":1,"付费用户":1,"创始人模式":2,"Hinge":2,"Tinder":2,"Apple":18}</script>
 
 <script>
 (function(){

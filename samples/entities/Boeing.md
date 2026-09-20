@@ -1,39 +1,33 @@
 ---
-title: 迭代速度 (iteration)
-entity_type: 概念
+title: Boeing
+entity_type: 公司
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>迭代速度 (iteration)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Boeing</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="迭代速度">迭代</div><div class="pi"><h1 class="pt">迭代速度 (iteration)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Boeing">BO</div><div class="pi"><h1 class="pt">Boeing</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]]**(08:02起):本集核心判断:rate of iteration 把成功和失败区分开;若你每周学一件事对手每月才学一件,复利效应下对手永远无关紧要
-
-## ① 提到它的金句
-
-*2 条*
-
-![[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter#^q5]]
-
-![[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban#^q3]]
+- **[[2026-07-28-talks-blake-scholl-how-50-people-built-a-super|《Boom 创始人：从纸板模型到突破音障，再让超音速飞行在美国重新合法》]]**(01:03起):本集说波音作为行业巨头连新飞机都不造了,最新客机 787 与半个世纪前的 707 看不出区别,也没飞得更快。
+- **[[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]]**(01:03起):本集把它说成：几十年来缺乏创新的航空业巨头，Blake 指出他们最新的客机和二十年前毫无视觉和速度上的区别。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
-- [[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]] — 作为概念
+- [[2026-07-28-talks-blake-scholl-how-50-people-built-a-super|《Boom 创始人：从纸板模型到突破音障，再让超音速飞行在美国重新合法》]] — 作为被讨论公司
+- [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Max Hodak]] · [[Science]] · [[Neuralink]] · [[SpaceX]] · [[Anthropic]] · [[Helix]] · [[AI 基础设施]] · [[归因]] · [[深科技]] · [[BCI]]
+[[Blake Scholl]] · [[Boom]] · [[Amazon]] · [[FAA]] · [[Uber]] · [[超音速飞行]] · [[音爆]] · [[XB-1]] · [[迭代]] · [[马赫切断]]
 
-<script type="application/json" class="pd-epn">{"Max Hodak":1,"Science":1,"Neuralink":1,"SpaceX":16,"Anthropic":130,"Helix":1,"AI 基础设施":3,"归因":2,"深科技":2,"BCI":1}</script>
+<script type="application/json" class="pd-epn">{"Blake Scholl":2,"Boom":2,"Amazon":14,"FAA":2,"Uber":10,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":2,"马赫切断":1}</script>
 
 <script>
 (function(){
