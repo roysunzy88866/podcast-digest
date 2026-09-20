@@ -1,0 +1,1210 @@
+[
+ {
+  "seg": 0,
+  "start": 13.051,
+  "end": 14.992,
+  "speaker": "Unknown",
+  "en": "Let's get started.",
+  "zh": "让我们开始吧。"
+ },
+ {
+  "seg": 1,
+  "start": 15.132,
+  "end": 15.792,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 2,
+  "start": 15.812,
+  "end": 17.132,
+  "speaker": "Unknown",
+  "en": "Thank you for coming.",
+  "zh": "感谢各位的到来。"
+ },
+ {
+  "seg": 3,
+  "start": 17.573,
+  "end": 24.815,
+  "speaker": "Unknown",
+  "en": "This is the late afternoon in the last day, so I really appreciate it.",
+  "zh": "现在是最后一天的傍晚时分,所以我真的很感激。"
+ },
+ {
+  "seg": 4,
+  "start": 25.315,
+  "end": 27.896,
+  "speaker": "Unknown",
+  "en": "I'm Gon, founder and CEO of Friendly AI.",
+  "zh": "我是 Gon,Friendly AI 的创始人兼 CEO。"
+ },
+ {
+  "seg": 5,
+  "start": 28.396,
+  "end": 30.597,
+  "speaker": "Unknown",
+  "en": "Today, I want to talk about agentic inference.",
+  "zh": "今天,我想谈谈智能体推理。"
+ },
+ {
+  "seg": 6,
+  "start": 31.117,
+  "end": 38.52,
+  "speaker": "Unknown",
+  "en": "So I'll first walk through what changed, why it matters, and how we rebuilt the inference cloud for agents.",
+  "zh": "所以我会先讲讲发生了什么变化、为什么这很重要,以及我们如何为智能体重建了推理云。"
+ },
+ {
+  "seg": 7,
+  "start": 41.007,
+  "end": 44.871,
+  "speaker": "Unknown",
+  "en": "Before we go deeper, let me briefly introduce Friendly AI.",
+  "zh": "在深入之前,让我简要介绍一下 Friendly AI。"
+ },
+ {
+  "seg": 8,
+  "start": 45.631,
+  "end": 48.994,
+  "speaker": "Unknown",
+  "en": "Friendly AI is the frontier AI inference cloud for agents.",
+  "zh": "Friendly AI 是面向智能体的前沿 AI 推理云。"
+ },
+ {
+  "seg": 9,
+  "start": 49.315,
+  "end": 54.419,
+  "speaker": "Unknown",
+  "en": "So we run inference for agents at scale, faster, cheaper, and more reliably.",
+  "zh": "我们为智能体大规模运行推理,更快、更便宜、更可靠。"
+ },
+ {
+  "seg": 10,
+  "start": 55.12,
+  "end": 61.686,
+  "speaker": "Unknown",
+  "en": "We are born from a research team at Seoul National University, and those research routes still define us.",
+  "zh": "我们诞生于首尔国立大学的一个研究团队,那些研究渊源仍然定义着我们。"
+ },
+ {
+  "seg": 11,
+  "start": 63.168,
+  "end": 65.47,
+  "speaker": "Unknown",
+  "en": "We are the team that invented continuous batching.",
+  "zh": "我们是发明了 continuous batching 的团队。"
+ },
+ {
+  "seg": 12,
+  "start": 66.572,
+  "end": 75.519,
+  "speaker": "Unknown",
+  "en": "The inference optimization that is now standard across the industry and our old car work inspired 3LLM, a widely used open source framework.",
+  "zh": "这项推理优化如今已成为全行业的标准,而我们早年的工作启发了 3LLM,一个被广泛使用的开源框架。"
+ },
+ {
+  "seg": 13,
+  "start": 76.98,
+  "end": 83.265,
+  "speaker": "Unknown",
+  "en": "Today we operate globally, headquartered in San Francisco with a team in Seoul to scale frontier inference.",
+  "zh": "今天我们全球运营,总部位于旧金山,在首尔设有一个团队,以扩展前沿推理。"
+ },
+ {
+  "seg": 14,
+  "start": 85.487,
+  "end": 93.474,
+  "speaker": "Unknown",
+  "en": "As you know, 2026 is the year agents go into massive production and it's driven by two trends coming together.",
+  "zh": "如你所知,2026 年是智能体大规模进入生产环境的年份,这是由两个趋势汇聚驱动的。"
+ },
+ {
+  "seg": 15,
+  "start": 94.5,
+  "end": 96.301,
+  "speaker": "Unknown",
+  "en": "First, agents are going exponential.",
+  "zh": "第一,智能体正在指数级增长。"
+ },
+ {
+  "seg": 16,
+  "start": 97.302,
+  "end": 103.645,
+  "speaker": "Unknown",
+  "en": "AI agents are driving explosive adoption across software, operations, and knowledge work.",
+  "zh": "AI 智能体正在软件、运营和知识工作中推动爆发式的采用。"
+ },
+ {
+  "seg": 17,
+  "start": 105.066,
+  "end": 110.709,
+  "speaker": "Unknown",
+  "en": "Second, open-rate motors have reached the frontier and make agents economical.",
+  "zh": "第二,开放权重模型已经达到前沿水平,并使智能体变得经济可行。"
+ },
+ {
+  "seg": 18,
+  "start": 111.45,
+  "end": 120.375,
+  "speaker": "Unknown",
+  "en": "They now rival close-frontier motors in capability, which means you can run frontier-quality agents on open motors with much lower token costs.",
+  "zh": "它们现在可以与闭源前沿模型在能力上抗衡,这意味着你可以在开放模型上以低得多的 token 成本运行前沿质量的智能体。"
+ },
+ {
+  "seg": 19,
+  "start": 122.783,
+  "end": 125.004,
+  "speaker": "Unknown",
+  "en": "Let me make the open-weight model part concrete.",
+  "zh": "让我把开放权重模型这部分讲得更具体一些。"
+ },
+ {
+  "seg": 20,
+  "start": 126.385,
+  "end": 130.827,
+  "speaker": "Unknown",
+  "en": "Open-weight models are now strong enough for these types of real-agentic workflows.",
+  "zh": "开放权重模型现在已足够强大,可以应对这类真实的智能体工作流。"
+ },
+ {
+  "seg": 21,
+  "start": 131.707,
+  "end": 138.49,
+  "speaker": "Unknown",
+  "en": "Here, we gave the exact same task, building a tower defense game with a coding agent to two models.",
+  "zh": "在这里,我们给两个模型完全相同的任务——用编码智能体构建一个塔防游戏。"
+ },
+ {
+  "seg": 22,
+  "start": 139.55,
+  "end": 144.272,
+  "speaker": "Unknown",
+  "en": "On the left is GLM 5.2, an open-weight model running on friendly AI.",
+  "zh": "左边是 GLM 5.2,一个在 Friendly AI 上运行的开放权重模型。"
+ },
+ {
+  "seg": 23,
+  "start": 144.813,
+  "end": 146.974,
+  "speaker": "Unknown",
+  "en": "On the right is Anthropix, Opus 4.8.",
+  "zh": "右边是 Anthropix 的 Opus 4.8。"
+ },
+ {
+  "seg": 24,
+  "start": 149.513,
+  "end": 152.495,
+  "speaker": "Unknown",
+  "en": "The important point is not that the outputs are identical.",
+  "zh": "重点不是它们的输出完全相同。"
+ },
+ {
+  "seg": 25,
+  "start": 152.956,
+  "end": 158.08,
+  "speaker": "Unknown",
+  "en": "The point is that both complete the task at a level that is clearly usable.",
+  "zh": "重点在于两者完成任务的水平都明显可用。"
+ },
+ {
+  "seg": 26,
+  "start": 158.921,
+  "end": 164.225,
+  "speaker": "Unknown",
+  "en": "For many agentic workflows, open-weight models have crossed the quality threshold.",
+  "zh": "对于许多智能体工作流来说,开放权重模型已经跨过了质量阈值。"
+ },
+ {
+  "seg": 27,
+  "start": 166.387,
+  "end": 168.529,
+  "speaker": "Unknown",
+  "en": "But the economics are very different.",
+  "zh": "但经济性是非常不同的。"
+ },
+ {
+  "seg": 28,
+  "start": 169.369,
+  "end": 174.453,
+  "speaker": "Unknown",
+  "en": "For the same task, Opus 4.8 costs about $1.50.",
+  "zh": "对于同样的任务,Opus 4.8 的成本约为 1.50 美元。"
+ },
+ {
+  "seg": 29,
+  "start": 175.134,
+  "end": 177.816,
+  "speaker": "Unknown",
+  "en": "GLM 5.2 unfriendly AI costs $0.27.",
+  "zh": "GLM 5.2 在 Friendly AI 上成本为 0.27 美元。"
+ },
+ {
+  "seg": 30,
+  "start": 179.635,
+  "end": 182.037,
+  "speaker": "Unknown",
+  "en": "But 5.6 times cheaper.",
+  "zh": "便宜了 5.6 倍。"
+ },
+ {
+  "seg": 31,
+  "start": 183.398,
+  "end": 185.42,
+  "speaker": "Unknown",
+  "en": "So this is the promise I mentioned earlier.",
+  "zh": "所以这就是我之前提到的承诺。"
+ },
+ {
+  "seg": 32,
+  "start": 185.74,
+  "end": 190.485,
+  "speaker": "Unknown",
+  "en": "Openweight models give you frontier quality agents at a fraction of the cost.",
+  "zh": "开放权重模型让你以几分之一的成本获得前沿质量的智能体。"
+ },
+ {
+  "seg": 33,
+  "start": 192.446,
+  "end": 194.949,
+  "speaker": "Unknown",
+  "en": "But motor cost is only one part of the story.",
+  "zh": "但模型成本只是故事的一部分。"
+ },
+ {
+  "seg": 34,
+  "start": 195.589,
+  "end": 201.915,
+  "speaker": "Unknown",
+  "en": "To make agents actually fast and reliable, the inference stack itself has to change.",
+  "zh": "要让智能体真正快速和可靠,推理栈本身必须改变。"
+ },
+ {
+  "seg": 35,
+  "start": 202.896,
+  "end": 206.459,
+  "speaker": "Unknown",
+  "en": "So let's look at what actually happens inside an agentic workload.",
+  "zh": "那么让我们看看智能体工作负载内部实际发生了什么。"
+ },
+ {
+  "seg": 36,
+  "start": 208.531,
+  "end": 210.833,
+  "speaker": "Unknown",
+  "en": "So first, let's look at changes in the workload.",
+  "zh": "首先,让我们看看工作负载的变化。"
+ },
+ {
+  "seg": 37,
+  "start": 211.133,
+  "end": 213.855,
+  "speaker": "Unknown",
+  "en": "In the past, the dominant usage was checked.",
+  "zh": "在过去,主导的用法是聊天。"
+ },
+ {
+  "seg": 38,
+  "start": 214.535,
+  "end": 216.176,
+  "speaker": "Unknown",
+  "en": "The basic unit was a request.",
+  "zh": "基本单元是请求。"
+ },
+ {
+  "seg": 39,
+  "start": 216.697,
+  "end": 221.54,
+  "speaker": "Unknown",
+  "en": "A person asks a question, the model answers, and the person reads it.",
+  "zh": "一个人问一个问题,模型回答,然后这个人阅读。"
+ },
+ {
+  "seg": 40,
+  "start": 222.281,
+  "end": 225.263,
+  "speaker": "Unknown",
+  "en": "Latency meant, how fast did I get one response?",
+  "zh": "延迟意味着,我多快得到一个响应?"
+ },
+ {
+  "seg": 41,
+  "start": 226.824,
+  "end": 227.684,
+  "speaker": "Unknown",
+  "en": "Agents are different.",
+  "zh": "智能体是不同的。"
+ },
+ {
+  "seg": 42,
+  "start": 228.145,
+  "end": 229.666,
+  "speaker": "Unknown",
+  "en": "The basic unit is a task.",
+  "zh": "基本单元是任务。"
+ },
+ {
+  "seg": 43,
+  "start": 230.606,
+  "end": 236.811,
+  "speaker": "Unknown",
+  "en": "A task may involve many model cores, many tool cores, and it may run autonomously for a while.",
+  "zh": "一个任务可能涉及许多模型调用、许多工具调用,并且它可能会自主运行一段时间。"
+ },
+ {
+  "seg": 44,
+  "start": 238.302,
+  "end": 243.083,
+  "speaker": "Unknown",
+  "en": "So the user does not really care about the latency of one individual request.",
+  "zh": "所以用户其实并不在乎单个请求的延迟。"
+ },
+ {
+  "seg": 45,
+  "start": 244.063,
+  "end": 247.724,
+  "speaker": "Unknown",
+  "en": "The user cares about when the whole task is completed.",
+  "zh": "用户在乎的是整个任务何时完成。"
+ },
+ {
+  "seg": 46,
+  "start": 247.744,
+  "end": 253.586,
+  "speaker": "Unknown",
+  "en": "That means we have to optimize for tasks, not just individual requests.",
+  "zh": "这意味着我们必须为任务进行优化,而不仅仅是单个请求。"
+ },
+ {
+  "seg": 47,
+  "start": 255.966,
+  "end": 258.447,
+  "speaker": "Unknown",
+  "en": "Let's look at agent to grow close more closely.",
+  "zh": "让我们更仔细地看看智能体循环。"
+ },
+ {
+  "seg": 48,
+  "start": 259.067,
+  "end": 262.468,
+  "speaker": "Unknown",
+  "en": "An agent really runs a session made up of tasks.",
+  "zh": "智能体实际上运行的是由任务组成的会话。"
+ },
+ {
+  "seg": 49,
+  "start": 263.459,
+  "end": 265.26,
+  "speaker": "Unknown",
+  "en": "Each task typically runs in a loop.",
+  "zh": "每个任务通常运行在一个循环中。"
+ },
+ {
+  "seg": 50,
+  "start": 265.941,
+  "end": 268.903,
+  "speaker": "Unknown",
+  "en": "First it plans, which usually means an LLM call.",
+  "zh": "首先它进行规划,这通常意味着一次 LLM 调用。"
+ },
+ {
+  "seg": 51,
+  "start": 269.544,
+  "end": 271.885,
+  "speaker": "Unknown",
+  "en": "Then it acts maybe by calling a tool.",
+  "zh": "然后它执行动作,可能是通过调用一个工具。"
+ },
+ {
+  "seg": 52,
+  "start": 272.706,
+  "end": 277.59,
+  "speaker": "Unknown",
+  "en": "Then it observes the result and adds that back into the context.",
+  "zh": "然后它观察结果,并把结果加回到上下文中。"
+ },
+ {
+  "seg": 53,
+  "start": 278.75,
+  "end": 280.972,
+  "speaker": "Unknown",
+  "en": "And it repeats this until the task is done.",
+  "zh": "然后它不断重复这个过程,直到任务完成。"
+ },
+ {
+  "seg": 54,
+  "start": 282.493,
+  "end": 289.558,
+  "speaker": "Unknown",
+  "en": "So we are constantly alternating between LLM inference and one or more non-LLM tool executions.",
+  "zh": "所以我们在 LLM 推理和一个或多个非 LLM 的工具执行之间不断交替。"
+ },
+ {
+  "seg": 55,
+  "start": 290.219,
+  "end": 292.621,
+  "speaker": "Unknown",
+  "en": "So there is a gap between LLM calls.",
+  "zh": "所以 LLM 调用之间存在间隙。"
+ },
+ {
+  "seg": 56,
+  "start": 294.462,
+  "end": 298.364,
+  "speaker": "Unknown",
+  "en": "An agent can also create sub-agents and run them in parallel.",
+  "zh": "智能体还可以创建子智能体,并并行运行它们。"
+ },
+ {
+  "seg": 57,
+  "start": 301.206,
+  "end": 303.848,
+  "speaker": "Unknown",
+  "en": "Agent inputs also look very different from chat.",
+  "zh": "智能体的输入看起来也和聊天非常不同。"
+ },
+ {
+  "seg": 58,
+  "start": 304.608,
+  "end": 315.235,
+  "speaker": "Unknown",
+  "en": "The graph here shows the prompt and completion length distributions of our internal coding agent ones with GLM 5.2, which we use day-to-day.",
+  "zh": "这里的图显示了我们内部编码智能体的提示词和补全长度分布,它们使用 GLM 5.2,我们每天都在用。"
+ },
+ {
+  "seg": 59,
+  "start": 316.495,
+  "end": 317.456,
+  "speaker": "Unknown",
+  "en": "They are much longer.",
+  "zh": "它们要长得多。"
+ },
+ {
+  "seg": 60,
+  "start": 318.016,
+  "end": 323.66,
+  "speaker": "Unknown",
+  "en": "They grow as the task progresses since every observation gets appended back into the context.",
+  "zh": "它们随着任务推进而增长,因为每次观察都会被追加回上下文中。"
+ },
+ {
+  "seg": 61,
+  "start": 325.415,
+  "end": 327.175,
+  "speaker": "Unknown",
+  "en": "There's an important pattern here.",
+  "zh": "这里有一个重要的模式。"
+ },
+ {
+  "seg": 62,
+  "start": 327.776,
+  "end": 332.077,
+  "speaker": "Unknown",
+  "en": "Consecutive agent steps usually share a huge prefix.",
+  "zh": "相邻的智能体步骤通常共享一个巨大的前缀。"
+ },
+ {
+  "seg": 63,
+  "start": 333.057,
+  "end": 340.059,
+  "speaker": "Unknown",
+  "en": "If we recompute that same prefix every time, we are burning a lot of compute on work we already did.",
+  "zh": "如果我们每次都重新计算相同的前缀,我们就会在已经做过的工作上烧掉大量算力。"
+ },
+ {
+  "seg": 64,
+  "start": 341.019,
+  "end": 344.4,
+  "speaker": "Unknown",
+  "en": "So this is one of the biggest opportunities in agentic inference.",
+  "zh": "所以这是智能体推理中最大的机会之一。"
+ },
+ {
+  "seg": 65,
+  "start": 346.74,
+  "end": 348.521,
+  "speaker": "Unknown",
+  "en": "So how token hungry are agents?",
+  "zh": "那么智能体有多吃 token 呢?"
+ },
+ {
+  "seg": 66,
+  "start": 349.241,
+  "end": 352.902,
+  "speaker": "Unknown",
+  "en": "Now let's look at a long horizon test example like deep research.",
+  "zh": "现在我们来看一个长时程测试的例子,比如深度研究。"
+ },
+ {
+  "seg": 67,
+  "start": 354.156,
+  "end": 361.843,
+  "speaker": "Unknown",
+  "en": "We ran explain the spec decoding framework in VLLM using Claude Code with GLM 5.2 on friendly AI.",
+  "zh": "我们用 Claude Code 和 GLM 5.2 在 friendly AI 上运行了“解释 VLLM 中的 spec decoding 框架”。"
+ },
+ {
+  "seg": 68,
+  "start": 363.365,
+  "end": 371.372,
+  "speaker": "Unknown",
+  "en": "There are multiple stages and each stage is composed of sub-agents which run multiple inferences and tool cores.",
+  "zh": "这有多个阶段,每个阶段由多个子智能体组成,它们运行多次推理和工具调用。"
+ },
+ {
+  "seg": 69,
+  "start": 372.874,
+  "end": 378.88,
+  "speaker": "Unknown",
+  "en": "So it might run tens or even hundreds of inference steps, sometimes over minutes or hours.",
+  "zh": "所以它可能运行数十甚至数百个推理步骤,有时持续几分钟甚至几小时。"
+ },
+ {
+  "seg": 70,
+  "start": 380.127,
+  "end": 382.568,
+  "speaker": "Unknown",
+  "en": "And the shared context keeps going the whole time.",
+  "zh": "而且共享的上下文全程都在持续增长。"
+ },
+ {
+  "seg": 71,
+  "start": 383.208,
+  "end": 387.929,
+  "speaker": "Unknown",
+  "en": "For the user, what matters is not the latency of a single token or one core.",
+  "zh": "对用户来说,重要的不是单个 token 或一次调用的延迟。"
+ },
+ {
+  "seg": 72,
+  "start": 388.549,
+  "end": 391.63,
+  "speaker": "Unknown",
+  "en": "What matters is, when is my task completed?",
+  "zh": "重要的是,我的任务什么时候完成?"
+ },
+ {
+  "seg": 73,
+  "start": 395.17,
+  "end": 399.071,
+  "speaker": "Unknown",
+  "en": "So agency inference is not just chat with more requests.",
+  "zh": "所以智能体推理不仅仅是带更多请求的聊天。"
+ },
+ {
+  "seg": 74,
+  "start": 399.811,
+  "end": 400.932,
+  "speaker": "Unknown",
+  "en": "It's a different problem.",
+  "zh": "它是一个不同的问题。"
+ },
+ {
+  "seg": 75,
+  "start": 401.652,
+  "end": 403.172,
+  "speaker": "Unknown",
+  "en": "The context grows over time.",
+  "zh": "上下文随时间增长。"
+ },
+ {
+  "seg": 76,
+  "start": 403.932,
+  "end": 406.293,
+  "speaker": "Unknown",
+  "en": "Tool work is interleaved between model cores.",
+  "zh": "工具工作交错在模型调用之间。"
+ },
+ {
+  "seg": 77,
+  "start": 407.383,
+  "end": 414.404,
+  "speaker": "Unknown",
+  "en": "The number of motor cores depends on the input, so you can't really plan around a fixed request rate plan.",
+  "zh": "工具调用的数量取决于输入,所以你没法围绕一个固定的请求速率计划来做规划。"
+ },
+ {
+  "seg": 78,
+  "start": 415.685,
+  "end": 420.246,
+  "speaker": "Unknown",
+  "en": "And the real metric is end-to-end test latency, not a single request latency.",
+  "zh": "而真正的指标是端到端测试延迟,而不是单次请求延迟。"
+ },
+ {
+  "seg": 79,
+  "start": 423.006,
+  "end": 424.867,
+  "speaker": "Unknown",
+  "en": "This is where Friendly AI comes in.",
+  "zh": "这就是 friendly AI 的用武之地。"
+ },
+ {
+  "seg": 80,
+  "start": 425.127,
+  "end": 431.768,
+  "speaker": "Unknown",
+  "en": "We rebuilt the Frontier Inference Cloud specifically for agency goal codes around the challenges I just walked through.",
+  "zh": "我们围绕我刚刚讲过的挑战,专门为智能体目标重建了 Frontier Inference Cloud。"
+ },
+ {
+  "seg": 81,
+  "start": 433.472,
+  "end": 439.837,
+  "speaker": "Unknown",
+  "en": "And we set one goal, optimize end-to-end task latency, the task, not just the request.",
+  "zh": "我们设定了一个目标:优化端到端任务延迟,是任务,而不仅仅是请求。"
+ },
+ {
+  "seg": 82,
+  "start": 440.798,
+  "end": 441.938,
+  "speaker": "Unknown",
+  "en": "So how do we do that?",
+  "zh": "那么我们是怎么做到的呢?"
+ },
+ {
+  "seg": 83,
+  "start": 442.179,
+  "end": 444.28,
+  "speaker": "Unknown",
+  "en": "Let me show you the key engineering behind it.",
+  "zh": "让我给你展示它背后的关键工程。"
+ },
+ {
+  "seg": 84,
+  "start": 447.243,
+  "end": 449.664,
+  "speaker": "Unknown",
+  "en": "Here's the engineering map for how we think about it.",
+  "zh": "这是我们思考这个问题方式的工程地图。"
+ },
+ {
+  "seg": 85,
+  "start": 450.125,
+  "end": 453.367,
+  "speaker": "Unknown",
+  "en": "We built the stack layer by layer around agent-equal clause.",
+  "zh": "我们围绕智能体逐层构建了整个技术栈。"
+ },
+ {
+  "seg": 86,
+  "start": 454.408,
+  "end": 459.232,
+  "speaker": "Unknown",
+  "en": "There are four big pillars I'm going to cover today, prefix caching,",
+  "zh": "我今天要讲四大支柱:前缀缓存,"
+ },
+ {
+  "seg": 87,
+  "start": 460.688,
+  "end": 468.373,
+  "speaker": "Unknown",
+  "en": "Key value, in short, KB, cache management, cache-aware routing, agent-aware optimization.",
+  "zh": "键值,简称 KB,缓存管理、缓存感知路由、智能体感知优化。"
+ },
+ {
+  "seg": 88,
+  "start": 469.394,
+  "end": 481.962,
+  "speaker": "Unknown",
+  "en": "And, of course, underneath, we need model layer optimization like sparse attention for long contacts, techniques to reduce errors, fast corners, resilient serving, and more.",
+  "zh": "当然,在底层,我们还需要模型层优化,比如针对长上下文的稀疏注意力、减少错误的技术、快速角落、弹性服务等等。"
+ },
+ {
+  "seg": 89,
+  "start": 482.923,
+  "end": 485.525,
+  "speaker": "Unknown",
+  "en": "In this talk, I'm going to focus on the four pillars.",
+  "zh": "在这次演讲中,我将聚焦于这四大支柱。"
+ },
+ {
+  "seg": 90,
+  "start": 488.197,
+  "end": 489.779,
+  "speaker": "Unknown",
+  "en": "Let's start with prefix caching.",
+  "zh": "让我们从-prefix-caching-开始。让我们从前缀缓存开始。"
+ },
+ {
+  "seg": 91,
+  "start": 490.32,
+  "end": 497.189,
+  "speaker": "Unknown",
+  "en": "Since agent steps share a large prefix, we compute key value for the prefix ones and cache it.",
+  "zh": "由于智能体步骤共享一个很大的前缀,我们对前缀只计算一次键值并缓存它。"
+ },
+ {
+  "seg": 92,
+  "start": 498.03,
+  "end": 502.997,
+  "speaker": "Unknown",
+  "en": "Then on later steps, we reuse the cache key value and only process the new suffix.",
+  "zh": "然后在后续步骤中,我们复用缓存的键值,只处理新的后缀。"
+ },
+ {
+  "seg": 93,
+  "start": 504.245,
+  "end": 513.175,
+  "speaker": "Unknown",
+  "en": "Reading from cache is much cheaper than with computing pre-fill, so this improves time to first token and reduces compute on every step.",
+  "zh": "从缓存读取比计算预填充便宜得多,所以这改善了首 token 时间,并减少了每一步的算力消耗。"
+ },
+ {
+  "seg": 94,
+  "start": 514.076,
+  "end": 518.482,
+  "speaker": "Unknown",
+  "en": "And the longer the task runs in agents, the more valuable this becomes.",
+  "zh": "而且任务在智能体中运行得越久,这就越有价值。"
+ },
+ {
+  "seg": 95,
+  "start": 521.333,
+  "end": 528.157,
+  "speaker": "Unknown",
+  "en": "But caching only works if the KV cache actually fits and can move around efficiently.",
+  "zh": "但缓存只有在 KV 缓存真正装得下并且能够高效移动时才有效。"
+ },
+ {
+  "seg": 96,
+  "start": 528.958,
+  "end": 532.04,
+  "speaker": "Unknown",
+  "en": "So we need strong KV cache management.",
+  "zh": "所以我们需要强大的 KV 缓存管理。"
+ },
+ {
+  "seg": 97,
+  "start": 532.48,
+  "end": 538.804,
+  "speaker": "Unknown",
+  "en": "We use frugal memory management to pack more active contacts onto each GPU memory.",
+  "zh": "我们使用节俭的内存管理,把更多的活跃上下文打包进每个 GPU 的内存。"
+ },
+ {
+  "seg": 98,
+  "start": 539.864,
+  "end": 544.007,
+  "speaker": "Unknown",
+  "en": "We use KV quantization to reduce the memory footprint.",
+  "zh": "我们使用 KV 量化来减少内存占用。"
+ },
+ {
+  "seg": 99,
+  "start": 545.147,
+  "end": 552.934,
+  "speaker": "Unknown",
+  "en": "We use hierarchical caching across GPU memory, host memory, and disk, so we can go beyond GPU limits.",
+  "zh": "我们使用跨 GPU 内存、主机内存和磁盘的分层缓存,这样我们可以突破 GPU 的限制。"
+ },
+ {
+  "seg": 100,
+  "start": 554.415,
+  "end": 562.543,
+  "speaker": "Unknown",
+  "en": "And we also use distributed caching, so one prefix can be served across replicas, not just inside one instance.",
+  "zh": "我们还使用分布式缓存,这样一个前缀可以跨副本提供服务,而不只是在一个实例内部。"
+ },
+ {
+  "seg": 101,
+  "start": 566.27,
+  "end": 569.233,
+  "speaker": "Unknown",
+  "en": "At global cluster scale, routing becomes really important.",
+  "zh": "在全局集群规模下,路由变得非常重要。"
+ },
+ {
+  "seg": 102,
+  "start": 569.994,
+  "end": 576.701,
+  "speaker": "Unknown",
+  "en": "A naive load relancer may spread requests evenly across GPU clusters, but it can destroy cache locality.",
+  "zh": "一个朴素的负载均衡器可能会把请求均匀地分散到各个 GPU 集群,但这会破坏缓存局部性。"
+ },
+ {
+  "seg": 103,
+  "start": 578.282,
+  "end": 582.306,
+  "speaker": "Unknown",
+  "en": "A cache-aware router at a global scale does something smarter.",
+  "zh": "一个全局规模的缓存感知路由器会做更聪明的事。"
+ },
+ {
+  "seg": 104,
+  "start": 582.867,
+  "end": 590.014,
+  "speaker": "Unknown",
+  "en": "It sends a request to a pod that already has the right prefix cached, turning a core prefill into a warm cache sheet.",
+  "zh": "它把请求发送到已经缓存了正确前缀的 pod 上,把一次冷启动预填充变成一次热缓存命中。"
+ },
+ {
+  "seg": 105,
+  "start": 591.219,
+  "end": 596.844,
+  "speaker": "Unknown",
+  "en": "At the same time, it still has to balance load, so one path doesn't become a hotspot.",
+  "zh": "同时,它仍然要平衡负载,这样某条路径才不会成为热点。"
+ },
+ {
+  "seg": 106,
+  "start": 598.245,
+  "end": 604.75,
+  "speaker": "Unknown",
+  "en": "In this example, the two requests of task A go to the same path one for cache locality.",
+  "zh": "在这个例子中,任务 A 的两个请求被发送到同一路径以获得缓存局部性。"
+ },
+ {
+  "seg": 107,
+  "start": 607.953,
+  "end": 614.979,
+  "speaker": "Unknown",
+  "en": "The next piece is agent-aware optimization, and this is the next frontier of agent inference.",
+  "zh": "下一部分是智能体感知优化,这是智能体推理的下一个前沿。"
+ },
+ {
+  "seg": 108,
+  "start": 616.059,
+  "end": 620.62,
+  "speaker": "Unknown",
+  "en": "Today, most systems schedule each LLM core as if it were independent.",
+  "zh": "今天,大多数系统调度每个 LLM 核心调用时都把它当作独立的。"
+ },
+ {
+  "seg": 109,
+  "start": 621.761,
+  "end": 626.362,
+  "speaker": "Unknown",
+  "en": "They don't really understand that this core is part of a longer agent program.",
+  "zh": "它们并不真正理解这个核心调用是一个更长的智能体程序的一部分。"
+ },
+ {
+  "seg": 110,
+  "start": 627.922,
+  "end": 633.083,
+  "speaker": "Unknown",
+  "en": "But if the optimizer knows the agent-level context, it can make better decisions.",
+  "zh": "但如果优化器知道智能体层面的上下文,它就能做出更好的决策。"
+ },
+ {
+  "seg": 111,
+  "start": 633.904,
+  "end": 638.325,
+  "speaker": "Unknown",
+  "en": "For example, preempting the right work, speculative",
+  "zh": "比如,抢占正确的工作、投机"
+ },
+ {
+  "seg": 112,
+  "start": 639.394,
+  "end": 648.782,
+  "speaker": "Unknown",
+  "en": "Typically pre-filling context for a likely next step or making a better cache eviction decision based on agent-level context.",
+  "zh": "通常是为可能的下一步预填充上下文,或者基于智能体层面的上下文做出更好的缓存淘汰决策。"
+ },
+ {
+  "seg": 113,
+  "start": 649.802,
+  "end": 654.967,
+  "speaker": "Unknown",
+  "en": "So the goal is to reduce end-to-end test latency, not just make one call look fast.",
+  "zh": "所以目标是降低端到端任务延迟,而不只是让单次调用看起来很快。"
+ },
+ {
+  "seg": 114,
+  "start": 657.929,
+  "end": 661.152,
+  "speaker": "Unknown",
+  "en": "When we put all of this together, this is a payoff.",
+  "zh": "当我们把所有这些整合在一起,效果如下。"
+ },
+ {
+  "seg": 115,
+  "start": 661.792,
+  "end": 667.417,
+  "speaker": "Unknown",
+  "en": "We are using the same model, GLM 5.2, with Kilo code to create a simple mobile game.",
+  "zh": "我们使用同一个模型 GLM 5.2,用 Kilo code 来创建一个简单的手机游戏。"
+ },
+ {
+  "seg": 116,
+  "start": 668.186,
+  "end": 674.868,
+  "speaker": "Unknown",
+  "en": "We ran the same task with model APIs of FriendlyAI and another well-known inference provider.",
+  "zh": "我们用 FriendlyAI 的模型 API 和另一家知名推理提供商运行了同样的任务。"
+ },
+ {
+  "seg": 117,
+  "start": 676.009,
+  "end": 684.671,
+  "speaker": "Unknown",
+  "en": "As you can see, FriendlyAI completes the same task end-to-end to act faster thanks to our agent-centric cloud design.",
+  "zh": "如你所见,得益于我们以智能体为中心的云设计,FriendlyAI 端到端完成同样任务的速度更快。"
+ },
+ {
+  "seg": 118,
+  "start": 687.292,
+  "end": 689.133,
+  "speaker": "Unknown",
+  "en": "So what does this unlock in practice?",
+  "zh": "那么这在实践中能解锁什么?"
+ },
+ {
+  "seg": 119,
+  "start": 689.593,
+  "end": 692.274,
+  "speaker": "Unknown",
+  "en": "A stronger production agent stack.",
+  "zh": "一个更强的生产级智能体技术栈。"
+ },
+ {
+  "seg": 120,
+  "start": 693.674,
+  "end": 695.475,
+  "speaker": "Unknown",
+  "en": "Take an agent you already like.",
+  "zh": "拿一个你已经喜欢的智能体。"
+ },
+ {
+  "seg": 121,
+  "start": 696.438,
+  "end": 703.644,
+  "speaker": "Unknown",
+  "en": "Now plug-in open-weight frontier models like GLM 5.2, Minimax, and Kimi served on friendly AI.",
+  "zh": "现在接入开放权重的前沿模型,比如 GLM 5.2、Minimax 和 Kimi,由 Friendly AI 提供服务。"
+ },
+ {
+  "seg": 122,
+  "start": 704.464,
+  "end": 709.088,
+  "speaker": "Unknown",
+  "en": "The model gives you frontier quality capability and better economics.",
+  "zh": "模型给你前沿水准的能力和更好的经济性。"
+ },
+ {
+  "seg": 123,
+  "start": 710.519,
+  "end": 716.782,
+  "speaker": "Unknown",
+  "en": "Friendly AI gives you the speed, reliability, and end-to-end task performance needed in production.",
+  "zh": "Friendly AI 给你生产环境中所需的速度、可靠性和端到端任务性能。"
+ },
+ {
+  "seg": 124,
+  "start": 717.503,
+  "end": 726.668,
+  "speaker": "Unknown",
+  "en": "That combination, quality, speed, reliability, and cost is what makes agents actually useful and economical in production.",
+  "zh": "这种组合——质量、速度、可靠性和成本——正是让智能体在生产环境中真正有用且经济实惠的关键。"
+ },
+ {
+  "seg": 125,
+  "start": 729.389,
+  "end": 735.432,
+  "speaker": "Unknown",
+  "en": "Friendly AI is currently powering teams in production from AI-native startups to global enterprises.",
+  "zh": "Friendly AI 目前正在为从 AI 原生初创公司到全球企业的生产环境团队提供支持。"
+ },
+ {
+  "seg": 126,
+  "start": 736.693,
+  "end": 738.474,
+  "speaker": "Unknown",
+  "en": "I'd like to highlight a couple here.",
+  "zh": "我想在这里重点介绍几个。"
+ },
+ {
+  "seg": 127,
+  "start": 740.357,
+  "end": 745.378,
+  "speaker": "Unknown",
+  "en": "Hilo is a hugely popular agentic AI coding tool serving millions of users.",
+  "zh": "Hilo 是一个非常流行的智能体 AI 编程工具,服务着数百万用户。"
+ },
+ {
+  "seg": 128,
+  "start": 748.019,
+  "end": 754.38,
+  "speaker": "Unknown",
+  "en": "LG is a global enterprise whose businesses range from electronics to healthcare to energy.",
+  "zh": "LG 是一家全球企业,业务涵盖电子产品、医疗保健和能源。"
+ },
+ {
+  "seg": 129,
+  "start": 755.341,
+  "end": 762.842,
+  "speaker": "Unknown",
+  "en": "Very different companies, but they all need the same thing, fast, reliable, cost-effective agentic inference.",
+  "zh": "非常不同的公司,但它们都需要同样的东西——快速、可靠、高性价比的智能体推理。"
+ },
+ {
+  "seg": 130,
+  "start": 765.783,
+  "end": 769.184,
+  "speaker": "Unknown",
+  "en": "This testimonial from our client, Hilo, says it all.",
+  "zh": "来自我们客户 Hilo 的这份推荐说得很清楚。"
+ },
+ {
+  "seg": 131,
+  "start": 770.249,
+  "end": 776.151,
+  "speaker": "Unknown",
+  "en": "Over the past year, Claude Code has tested several inference providers hosting both open and closed models.",
+  "zh": "在过去一年中,Claude Code 测试了多家托管开放和闭源模型的推理提供商。"
+ },
+ {
+  "seg": 132,
+  "start": 776.952,
+  "end": 791.938,
+  "speaker": "Unknown",
+  "en": "In a split test of GLM-5 usage compared against other third-party providers and direct usage from the Model Lab G.AI, Friendly AI was consistently seven times faster with a significantly lower error rate.",
+  "zh": "在 GLM-5 使用量的对比测试中,与其他第三方提供商以及模型实验室 G.AI 的直接使用相比,Friendly AI 始终快七倍,且错误率显著更低。"
+ },
+ {
+  "seg": 133,
+  "start": 793.238,
+  "end": 797.66,
+  "speaker": "Unknown",
+  "en": "Today, Friendly AI is a core component of the Claude stack.",
+  "zh": "今天,Friendly AI 是 Claude 技术栈的核心组件。"
+ },
+ {
+  "seg": 134,
+  "start": 800.435,
+  "end": 802.896,
+  "speaker": "Unknown",
+  "en": "And you can consume this however fits your stack.",
+  "zh": "你可以按照适合自己技术栈的任意方式来使用它。"
+ },
+ {
+  "seg": 135,
+  "start": 803.717,
+  "end": 806.038,
+  "speaker": "Unknown",
+  "en": "Model API is the fastest way to start.",
+  "zh": "模型 API 是最快的入门方式。"
+ },
+ {
+  "seg": 136,
+  "start": 806.618,
+  "end": 809.379,
+  "speaker": "Unknown",
+  "en": "Core Frontier Openweight models through our serverless API.",
+  "zh": "通过我们的无服务器 API 使用前沿开放权重模型。"
+ },
+ {
+  "seg": 137,
+  "start": 810.26,
+  "end": 816.803,
+  "speaker": "Unknown",
+  "en": "Dedicated endpoints give you your own isolated deployment with guaranteed SLAs for production workloads.",
+  "zh": "专用端点为你提供自己的隔离部署,并为生产工作负载提供有保障的 SLA。"
+ },
+ {
+  "seg": 138,
+  "start": 817.503,
+  "end": 823.986,
+  "speaker": "Unknown",
+  "en": "And BYOG, bringing your own GPU, lets you run friendly inference on your own infrastructure.",
+  "zh": "还有 BYOG,即自带 GPU,让你在自己的基础设施上运行 Friendly 推理。"
+ },
+ {
+  "seg": 139,
+  "start": 824.727,
+  "end": 827.168,
+  "speaker": "Unknown",
+  "en": "Same stack, three ways to deploy.",
+  "zh": "同一个技术栈,三种部署方式。"
+ },
+ {
+  "seg": 140,
+  "start": 829.947,
+  "end": 832.848,
+  "speaker": "Unknown",
+  "en": "To wrap up, there are three things to remember.",
+  "zh": "最后,有三件事要记住。"
+ },
+ {
+  "seg": 141,
+  "start": 833.348,
+  "end": 838.49,
+  "speaker": "Unknown",
+  "en": "First, Frontier Openweight models make production agents economically scalable.",
+  "zh": "第一,前沿开放权重模型让生产级智能体在经济上可扩展。"
+ },
+ {
+  "seg": 142,
+  "start": 839.611,
+  "end": 842.772,
+  "speaker": "Unknown",
+  "en": "Second, agents are not just chat with more cores.",
+  "zh": "第二,智能体不只是多了更多核心调用的聊天。"
+ },
+ {
+  "seg": 143,
+  "start": 843.292,
+  "end": 849.355,
+  "speaker": "Unknown",
+  "en": "Agenting inference requires optimizing end-to-end task latency with the challenges I mentioned.",
+  "zh": "智能体推理需要优化端到端任务延迟,以及我提到的那些挑战。"
+ },
+ {
+  "seg": 144,
+  "start": 850.683,
+  "end": 859.749,
+  "speaker": "Unknown",
+  "en": "Third, Friendly AI is built as an inference cloud for that word, fast, reliable, cost-effective agentic inference.",
+  "zh": "第三,Friendly AI 正是为那个词而构建的推理云——快速、可靠、高性价比的智能体推理。"
+ },
+ {
+  "seg": 145,
+  "start": 863.232,
+  "end": 864.652,
+  "speaker": "Unknown",
+  "en": "Thank you for attending my session.",
+  "zh": "感谢各位参加我的演讲。"
+ },
+ {
+  "seg": 146,
+  "start": 865.233,
+  "end": 873.559,
+  "speaker": "Unknown",
+  "en": "If your building agents give Frontier Openweight motors a try on Friendly AI today, you can get started at Friendly.ai in minutes.",
+  "zh": "如果你正在构建智能体,今天就在 Friendly AI 上试试前沿开放权重模型吧,你可以在几分钟内于 Friendly.ai 上开始。"
+ },
+ {
+  "seg": 147,
+  "start": 874.939,
+  "end": 875.94,
+  "speaker": "Unknown",
+  "en": "And thank you.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 148,
+  "start": 876.02,
+  "end": 877.401,
+  "speaker": "Unknown",
+  "en": "I'll be around after the session.",
+  "zh": "演讲结束后我会在这里。"
+ },
+ {
+  "seg": 149,
+  "start": 878.082,
+  "end": 878.402,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 150,
+  "start": 888.432,
+  "end": 888.512,
+  "speaker": "Unknown",
+  "en": "So,",
+  "zh": "所以，"
+ }
+]

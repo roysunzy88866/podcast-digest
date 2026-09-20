@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":17,"Neon":3,"Parallel":5,"Devin":3,"智能体":277,"沙箱":53,"突发负载":1,"裸金属":1,"计算机使用":12}</script>
+<script type="application/json" class="pd-epn">{"Daytona":3,"Cognition":17,"Neon":3,"Parallel":5,"Devin":3,"智能体":281,"沙箱":53,"突发负载":1,"裸金属":1,"计算机使用":12}</script>
 
 <script>
 (function(){

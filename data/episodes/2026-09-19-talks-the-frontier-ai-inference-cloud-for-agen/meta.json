@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-19-talks-the-frontier-ai-inference-cloud-for-agen",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/Hvb2LfMH58c.m4a",
+  "duration_sec": 888.512,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 151,
+  "asr": true,
+  "title_en": "The Frontier AI Inference Cloud for Agents — Byung-Gon (Gon) Chun, FriendliAI",
+  "podcast": "精选演讲",
+  "date": "2026-09-19",
+  "added": "2026-09-21",
+  "added_at": "2026-09-20T20:49:50.195Z",
+  "speaker_map": {
+    "SPEAKER_00": "Byung-Gon (Gon) Chun"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Byung-Gon (Gon) Chun"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "智能体推理不是聊天加量：Friendly AI 重建推理云",
+  "guest_name": "Byung-Gon (Gon) Chun",
+  "guest_title": "Friendly AI 创始人兼 CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

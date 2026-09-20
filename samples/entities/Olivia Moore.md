@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":277,"人在回路":11,"现有巨头":1,"Superhuman":4,"Stripe":33,"Workday":4}</script>
+<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":281,"人在回路":11,"现有巨头":1,"Superhuman":4,"Stripe":33,"Workday":4}</script>
 
 <script>
 (function(){

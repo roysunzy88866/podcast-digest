@@ -181,8 +181,8 @@ Brooker 的回答是：必须交。「软件行业未来十年会在重要性和
 **顺着「智能体」挖下去**
 
 - [[2026-09-01-cogrev-write-change-recall-forget-mongodb-s-pet|数据库60年 vs 智能体18个月：MongoDB 谈检索与记忆]]<span class="pd-rz">同概念:RAG、智能体 (agent)、智能体记忆 (agentic memory)</span>
+- [[2026-09-18-talks-total-recall-agent-memory-and-harness-en|模型是租的，harness 才是你的：拆解智能体的七层框架]]<span class="pd-rz">同概念:oracle（判定标准） (oracle)、RAG、智能体 (agent)</span>
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图]]<span class="pd-rz">同概念:RAG、智能体 (agent)</span>
-- [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟]]<span class="pd-rz">同概念:RAG、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Speechify":1,"Eleven Labs":6,"Sierra":5,"NVIDIA":39,"Dell":1,"Anthropic":130,"OpenAI":123,"Claude Code":64,"Cursor":63}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Speechify":1,"Eleven Labs":6,"Sierra":5,"NVIDIA":39,"Dell":1,"Anthropic":130,"OpenAI":123,"Claude Code":65,"Cursor":63}</script>
 
 <script>
 (function(){

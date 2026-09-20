@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":39,"AMD":3,"GPU":16,"Parallel":5,"深度学习":3,"第一性原理":5,"五层蛋糕":1,"模拟":4,"CPU":4}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":39,"AMD":3,"GPU":17,"Parallel":5,"深度学习":3,"第一性原理":5,"五层蛋糕":1,"模拟":4,"CPU":4}</script>
 
 <script>
 (function(){

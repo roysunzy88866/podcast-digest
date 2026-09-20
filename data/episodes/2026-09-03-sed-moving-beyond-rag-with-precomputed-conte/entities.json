@@ -1,0 +1,1807 @@
+{
+  "episode_id": "2026-09-03-sed-moving-beyond-rag-with-precomputed-conte",
+  "podcast": "Software Engineering Daily",
+  "date": "2026-09-03",
+  "tags": [
+    "检索",
+    "RAG",
+    "知识引擎",
+    "数据系统",
+    "智能体"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "kevin-ball",
+      "type": "person",
+      "role": "host",
+      "name": "Kevin Ball",
+      "file": "Kevin Ball",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            63.88,
+            70.402
+          ],
+          "quote": "In this episode, he joins Kevin Ball for an in-depth conversation about the frontier of retrieval technology.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            83.709,
+            90.754
+          ],
+          "quote": "Kevin Ball, or KBall, is the Vice President of Engineering at Mento and an independent coach for engineers and engineering leaders.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "yorg-shad",
+      "type": "person",
+      "role": "cohost",
+      "name": "Yorg Shad",
+      "file": "Yorg Shad",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            60.238,
+            63.419
+          ],
+          "quote": "Yorg Shad is the VP of Engineering at Pinecone.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pinecone",
+      "type": "company",
+      "role": "company",
+      "name": "Pinecone",
+      "file": "Pinecone",
+      "primary": true,
+      "how_described": "本集介绍其为广泛用于支撑大规模语义搜索和 RAG 的向量数据库，嘉宾任其工程副总裁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            31.237,
+            37.023
+          ],
+          "quote": "Pinecone is a vector database that's widely used to power semantic search and RAG at scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 7,
+          "t": [
+            60.238,
+            63.419
+          ],
+          "quote": "Yorg Shad is the VP of Engineering at Pinecone.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            127.017,
+            131.439
+          ],
+          "quote": "So can you give us the TLDR of your history and how you ended up at Pinecone and Nexus?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 542,
+          "t": [
+            3005.778,
+            3019.464
+          ],
+          "quote": "So all of this, we're kind of talking about a layer that is developing now that is on top of these graph databases like Pinecone originally was, or we talked about being on top of a relational database or something like that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nexus",
+      "type": "company",
+      "role": "company",
+      "name": "Nexus",
+      "file": "Nexus",
+      "primary": true,
+      "how_described": "本集主角：Pinecone 新发布的「知识引擎」，把上下文当作一等公民的、预先计算好的资产，自带 schema、元数据、权限与血缘。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            37.663,
+            47.553
+          ],
+          "quote": "The team recently developed Nexus, which is a knowledge engine that reframes context as a first-class, pre-computed asset rather than something reassembled on the fly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            127.017,
+            131.439
+          ],
+          "quote": "So can you give us the TLDR of your history and how you ended up at Pinecone and Nexus?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            256.879,
+            261.583
+          ],
+          "quote": "So today we want to talk about Nexus and kind of the patterns behind Nexus, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 44,
+          "t": [
+            266.947,
+            271.831
+          ],
+          "quote": "But let's maybe start with just kind of the big overview of what Nexus is solving.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 45,
+          "t": [
+            271.871,
+            272.712
+          ],
+          "quote": "What is Nexus?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            716.484,
+            728.438
+          ],
+          "quote": "So this is where we spend a lot of time, for example, with Nexus as well, is trying to find that routing to identify from the metadata, what is the relevant information to use, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            875.398,
+            882.125
+          ],
+          "quote": "Let's maybe just talk in general what I want, and then I can talk a little bit how we do that for Nexus in particular.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1993.273,
+            1999.576
+          ],
+          "quote": "I think, first of all, if we come from a governance perspective, and I think this is something we are seeing a lot with like Nexus as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2085.682,
+            2092.405
+          ],
+          "quote": "I saw that with Nexus, you have your own little dynamic NoQL language or something along those domains.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2486.538,
+            2492.726
+          ],
+          "quote": "So I think a thing that's interesting coming back to what you're doing with Nexus is you're essentially doing that same thing for data, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 579,
+          "t": [
+            3213.871,
+            3219.496
+          ],
+          "quote": "I think we kind of looked a little bit at the history, what actually led us to develop something like Nexus.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 592,
+          "t": [
+            3268.76,
+            3271.001
+          ],
+          "quote": "So already, when did we launch Nexus?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集说它是把模型落地到自有数据的标准做法，但瓶颈在智能体每个查询都现场重复检索和 ETL 式整理，且概率性导致答案不一致。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.574,
+            17.844
+          ],
+          "quote": "The standard approach to grounding a model in one's own data has been Retrieval Augmented Generation, or RAG, where an agent searches a vector database for relevant information at query time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            31.237,
+            37.023
+          ],
+          "quote": "Pinecone is a vector database that's widely used to power semantic search and RAG at scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            850.52,
+            862.51
+          ],
+          "quote": "Maybe let's actually break down, like, when we talk about precompiled context, as contrasted to, you know, a lot of folks are probably familiar with some sort of vector database or Elasticsearch or other type of RAG lookup.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "materialized-view",
+      "type": "concept",
+      "role": "concept",
+      "name": "物化视图 (materialized view)",
+      "file": "物化视图",
+      "primary": true,
+      "how_described": "本集用这个数据库概念类比 Nexus 的做法：把查询结果预先算好、预先策展，从而获得可复现、可审计的结果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            48.093,
+            59.638
+          ],
+          "quote": "The approach borrows the database concept of a materialized view and curates context once into a versioned artifact that carries its own schema, metadata, permissions, and lineage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            420.608,
+            424.489
+          ],
+          "quote": "Pre-materialized view of that information, which is pre-curated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            651.764,
+            664.13
+          ],
+          "quote": "So if we look at the concept of a materialized view, usually you're building that out because you have some sort of feature or functionality that you have planned where you need a different lookup pattern than was enabled by your previous database.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 118,
+          "t": [
+            683.572,
+            699.215
+          ],
+          "quote": "If I'm building a materialized view over my secretive finance data, which I don't want to go out to any LLM, but I'm building a materialized view where I'm making sure I'm not including sensitive data, but only, I don't know, monthly aggregates, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            811.834,
+            817.619
+          ],
+          "quote": "So even that description can change with different versions of that materialized view to stick with that analogy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集主张把上下文当成系统里的一等公民资产：有权限（个人/部门/公司级）、有版本、有血缘，一份上下文可以是向量索引+结构化 schema+元数据的多模态组合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            37.663,
+            47.553
+          ],
+          "quote": "The team recently developed Nexus, which is a knowledge engine that reframes context as a first-class, pre-computed asset rather than something reassembled on the fly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            48.093,
+            59.638
+          ],
+          "quote": "The approach borrows the database concept of a materialized view and curates context once into a versioned artifact that carries its own schema, metadata, permissions, and lineage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            70.842,
+            76.945
+          ],
+          "quote": "They discuss precompiled context, how context artifacts are curated and versioned much like code,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            314.587,
+            321.013
+          ],
+          "quote": "I think most value we have seen is actually giving it context and making it specific to my task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            381.176,
+            384.057
+          ],
+          "quote": "And I think this is where most people nowadays are using context for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            384.557,
+            387.699
+          ],
+          "quote": "So context is kind of a more curated version, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            408.325,
+            415.707
+          ],
+          "quote": "So I think this is one of the steps where we can actually come up with meaningful pre-computed context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            429.251,
+            434.733
+          ],
+          "quote": "First of all, because we treat context as its own entity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            453.399,
+            468.407
+          ],
+          "quote": "And so if I'm, for example, seeing that in a larger enterprise context, I can have my personal context, which is just really information context specific to me or to what I've been doing over the last hour on this particular task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            468.847,
+            471.79
+          ],
+          "quote": "There might be department level context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            478.135,
+            484.701
+          ],
+          "quote": "And then there can be context, which is actually shared for the entire company, because this is company-wide knowledge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            485.161,
+            496.011
+          ],
+          "quote": "And then for a particular task, I can actually go in and assemble those different contexts together into a meta context, if you want, or a set of contexts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            580.779,
+            585.361
+          ],
+          "quote": "I can actually see this context because it's a curated asset.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            617.068,
+            635.402
+          ],
+          "quote": "And I think by just having the option for this lineage trail and being able to go back and connect it back to the source data, this is also, I think from an observability governance perspective, is a big asset of using a context over repeated probabilistic retrieval steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            670.597,
+            676.083
+          ],
+          "quote": "So how do you know what are the right conceptual materialized views to build out for agent context?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            776.971,
+            788.875
+          ],
+          "quote": "So I think this is the nice thing you can do with context is you basically, description sounds now just like a very long string, but you can actually generate also more structured description.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            795.339,
+            798.081
+          ],
+          "quote": "And because you're often just generating context, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            804.807,
+            811.733
+          ],
+          "quote": "Think context, even though we compare them with materialized views, even the description can be dynamic over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            824.714,
+            834.021
+          ],
+          "quote": "Imagine, for example, you're trying to get the latest sales numbers from a context and you know that a context last has been updated two weeks ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            834.642,
+            847.792
+          ],
+          "quote": "Then probably this is a sign that this is not very much up-to-date and this meta-information in the context metadata will give the LLM a really good indication it might not want to use that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            850.52,
+            862.51
+          ],
+          "quote": "Maybe let's actually break down, like, when we talk about precompiled context, as contrasted to, you know, a lot of folks are probably familiar with some sort of vector database or Elasticsearch or other type of RAG lookup.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            897.213,
+            905.06
+          ],
+          "quote": "Dense vectors, sparse vectors, there's full-text search, and I think this is very similar to what we are seeing in a context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            905.1,
+            913.067
+          ],
+          "quote": "So for us, a context consists of, for example, a vector index, so we can look up and do similarity search in that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            936.696,
+            944.098
+          ],
+          "quote": "So basically one of the steps in context curation for us is we try to identify meaningful entities across it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            982.173,
+            988.16
+          ],
+          "quote": "But I think the key point is knowledge context is not necessarily a single representation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1049.76,
+            1060.684
+          ],
+          "quote": "But yeah, is actually calendar year equals fiscal year is such kind of meta information, which might be stored as part of the context or then as a reference to another semantic layer out there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1217.78,
+            1223.443
+          ],
+          "quote": "And when you're designing one of these context datasets, how is it defined, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1231.906,
+            1235.888
+          ],
+          "quote": "Either I can create a general purpose, a context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1353.299,
+            1375.809
+          ],
+          "quote": "dynamic on one scale or another of time and so I think by just having this two-step process of identifying how do we want to curate it and then actually apply the curation step that allows us to get from a raw data set to a curation artifact to then the actual curated context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1558.354,
+            1565.998
+          ],
+          "quote": "Now, when we talk about that check for quality, right, like we have these examples, is that at the level of the generated context?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1573.473,
+            1578.275
+          ],
+          "quote": "So kind of stored alongside the context, because you might have like very different agents, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1583.777,
+            1590.119
+          ],
+          "quote": "If you see that again, and just like a larger context, you have your company-wide context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1603.498,
+            1610.609
+          ],
+          "quote": "Whether it needs to be part of the context, that's a good question, but I think it needs to be at least like stored alongside the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1714.885,
+            1717.307
+          ],
+          "quote": "I have to think about it from a business context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1842.392,
+            1857.028
+          ],
+          "quote": "And so one of the things I've been pondering is like can you create some sort of like Bayesian approach or confidence interval where you're trying to like including that in the metadata for each particular piece of context and then like looking for ways to up your confidence or maybe even asking the end user",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1902.39,
+            1910.353
+          ],
+          "quote": "So I think that's basically if you use a context, assets, knowledge graph, you can embed the probabilities as part of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2092.825,
+            2101.208
+          ],
+          "quote": "But yeah, I was thinking about to what extent is this a pre-query that's preloading some things in context if we know it versus this is just a tool exposed to the agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2101.288,
+            2105.99
+          ],
+          "quote": "Or how do you think about the right ways to give agents access to this context?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2239.332,
+            2245.976
+          ],
+          "quote": "answers and understands the context to reuse that term once more around the data which has been given, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2278.179,
+            2282.34
+          ],
+          "quote": "So I think if there is pre-curated context, you have to do that only once.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2317.111,
+            2324.516
+          ],
+          "quote": "It takes a lot of their own like internal expensive key value memory to track that context going through, but it's also less reliable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2355.453,
+            2358.115
+          ],
+          "quote": "Yeah, well, and you want to offload that to your context system, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2449.392,
+            2453.337
+          ],
+          "quote": "If you don't have to go in the sub-loop, which is also a different context, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2458.942,
+            2463.706
+          ],
+          "quote": "It still wants to store its previous context, but it's doing actually a different role.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2516.931,
+            2524.617
+          ],
+          "quote": "Obviously the details of what's exposed, the permissions, those things are going to vary, but like how similar are the shapes across these different types of context datasets?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2688.77,
+            2692.193
+          ],
+          "quote": "And then I think this is still the case also with context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2692.293,
+            2703.881
+          ],
+          "quote": "I think with context, because we already have a structured representation, I have to do that less, but we definitely, we give back a pointer back to the original data, to the original place in your document.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2744.22,
+            2753.027
+          ],
+          "quote": "I'm creating like one context artifact, I might create like one context graph, one knowledge graph instance associated with that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2760.754,
+            2764.597
+          ],
+          "quote": "When I'm initially creating my context, I have a certain budget of compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2765.298,
+            2775.487
+          ],
+          "quote": "Imagine every night your GPU cluster lies idle, and you're actually going to show that on your previously curated context, even though the initial data hasn't changed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2861.993,
+            2875.642
+          ],
+          "quote": "So even if I don't have like a traditional knowledge graph, I can still maintain that over time and kind of keep curating my context artifacts and making it better, especially if I've seen some of the questions being asked against it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2876.28,
+            2884.225
+          ],
+          "quote": "So that's interesting, actually, because it leads me down a path of like, can you even change the schema of that context artifact?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2884.285,
+            2892.87
+          ],
+          "quote": "Because you see, for example, hey, we're reliably getting questions that end up having to query across two different sources of context or things like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2905.857,
+            2909.28
+          ],
+          "quote": "I think this is so nice that you have the abstraction of a context, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2909.72,
+            2914.183
+          ],
+          "quote": "A context is telling you, hey, this is actually the schema I have in there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2921.488,
+            2929.473
+          ],
+          "quote": "I just have version 2, version 3, version 4 of my context, but it can have a different internal representation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vector-database",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量数据库 (vector database)",
+      "file": "向量数据库",
+      "primary": true,
+      "how_described": "本集说它为语义搜索提供稠密检索，是早期 RAG 模式的核心组件，也是 Pinecone 起家的形态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.574,
+            17.844
+          ],
+          "quote": "The standard approach to grounding a model in one's own data has been Retrieval Augmented Generation, or RAG, where an agent searches a vector database for relevant information at query time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            31.237,
+            37.023
+          ],
+          "quote": "Pinecone is a vector database that's widely used to power semantic search and RAG at scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            850.52,
+            862.51
+          ],
+          "quote": "Maybe let's actually break down, like, when we talk about precompiled context, as contrasted to, you know, a lot of folks are probably familiar with some sort of vector database or Elasticsearch or other type of RAG lookup.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识图谱 (knowledge graph)",
+      "file": "知识图谱",
+      "primary": true,
+      "how_described": "本集说 Nexus 实际在构建「廉价版知识图谱」：靠嵌入和相似性搜索撑起的模糊关系网络，边可带置信度并按贝叶斯方式更新。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            950.703,
+            957.749
+          ],
+          "quote": "Right now, we are not using a graph database here, but I can imagine a knowledge graph, for example, also being a very useful tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            958.309,
+            966.696
+          ],
+          "quote": "I think there's something interesting there, too, because with similarity search and the ability to do embeddings on different fields, you can build kind of a fuzzy knowledge graph.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 172,
+          "t": [
+            994.545,
+            999.928
+          ],
+          "quote": "It can be then also, as we just said, it could bring in a knowledge graph, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1644.862,
+            1660.975
+          ],
+          "quote": "So for example, when we talked about this first use case where we're trying to identify the entities, when we identify the entities, again, coming back into Knowledge Graph, in an ideal world, like how I would imagine that not exactly what we're, for example, doing right now,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1672.261,
+            1681.627
+          ],
+          "quote": "In the first step, by generating the knowledge graph schema, by identifying the interesting entities, you can also generate the constraints around that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1857.708,
+            1863.793
+          ],
+          "quote": "I mean, if we stay in the knowledge graph field, right, you can just have edges with confidence, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1902.39,
+            1910.353
+          ],
+          "quote": "So I think that's basically if you use a context, assets, knowledge graph, you can embed the probabilities as part of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2557.049,
+            2569.597
+          ],
+          "quote": "And I think we said earlier, if we promise to come back to like that narrow knowledge graph representation, we actually do have and we do detect relationships between entities as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2714.509,
+            2722.499
+          ],
+          "quote": "I'd love to dig a little bit into this knowledge graph concept, and particularly the fuzzy vector-based or semantic knowledge graph.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2722.519,
+            2729.048
+          ],
+          "quote": "So how are you thinking about those relationships in a world that maybe is not as perfectly structured as your classic knowledge graph?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2744.22,
+            2753.027
+          ],
+          "quote": "I'm creating like one context artifact, I might create like one context graph, one knowledge graph instance associated with that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2753.587,
+            2760.734
+          ],
+          "quote": "Over time, when I'm traversing that, I can actually keep modifying my knowledge graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2776.027,
+            2788.493
+          ],
+          "quote": "You can try to find, I like your example earlier, like imagine in your knowledge graph, you have certain probability values where you think this is true, that edge should be in the knowledge graph or not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2788.993,
+            2799.098
+          ],
+          "quote": "And then overnight or whenever you've got free compute time or idle compute time, you actually keep curating your knowledge graph and either collapsing it, expanding it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2831.92,
+            2834.243
+          ],
+          "quote": "I don't think that necessarily has to be a knowledge graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2861.993,
+            2875.642
+          ],
+          "quote": "So even if I don't have like a traditional knowledge graph, I can still maintain that over time and kind of keep curating my context artifacts and making it better, especially if I've seen some of the questions being asked against it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "semantic-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义层 (semantic layer)",
+      "file": "语义层",
+      "primary": true,
+      "how_described": "本集说上下文里常带指向语义层的引用，把「年度收入」这类业务术语定义写清楚，不能靠智能体猜。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            1023.131,
+            1028.333
+          ],
+          "quote": "I think what we are also often seeing is just a reference to a semantic layer in there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1049.76,
+            1060.684
+          ],
+          "quote": "But yeah, is actually calendar year equals fiscal year is such kind of meta information, which might be stored as part of the context or then as a reference to another semantic layer out there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "metadata",
+      "type": "concept",
+      "role": "concept",
+      "name": "元数据 (metadata)",
+      "file": "元数据",
+      "primary": true,
+      "how_described": "本集强调元数据（新鲜度、血缘、置信度）让智能体自己判断该不该用这份信息，响应应是数据+元数据的配对。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            48.093,
+            59.638
+          ],
+          "quote": "The approach borrows the database concept of a materialized view and curates context once into a versioned artifact that carries its own schema, metadata, permissions, and lineage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            77.245,
+            82.829
+          ],
+          "quote": "How metadata and semantic layers help agents choose the right information, and much more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            716.484,
+            728.438
+          ],
+          "quote": "So this is where we spend a lot of time, for example, with Nexus as well, is trying to find that routing to identify from the metadata, what is the relevant information to use, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            834.642,
+            847.792
+          ],
+          "quote": "Then probably this is a sign that this is not very much up-to-date and this meta-information in the context metadata will give the LLM a really good indication it might not want to use that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            864.492,
+            869.136
+          ],
+          "quote": "So you have a description of the dataset with some set of metadata, and then, like, what is the shape of the data?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1011.767,
+            1016.909
+          ],
+          "quote": "I think the important piece next to that is that you have metadata associated with that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1017.389,
+            1022.451
+          ],
+          "quote": "So I think we already talked about kind of like freshness metadata, lineage information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1061.105,
+            1074.37
+          ],
+          "quote": "But I think this combination of multi-modality representation of the data, of curated data, together with metadata, together with either an embedded or external",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1842.392,
+            1857.028
+          ],
+          "quote": "And so one of the things I've been pondering is like can you create some sort of like Bayesian approach or confidence interval where you're trying to like including that in the metadata for each particular piece of context and then like looking for ways to up your confidence or maybe even asking the end user",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2106.368,
+            2114.052
+          ],
+          "quote": "So I think from an agent perspective, I need a combined answer of data plus metadata.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2174.989,
+            2180.673
+          ],
+          "quote": "So NoQL is kind of that pair of structured query where I can also interject metadata.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2189.88,
+            2200.467
+          ],
+          "quote": "The structure is the table back as with the SQL table, but I'm actually getting data combined with that metadata, plus certain constraints are automatically enforced.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2227.329,
+            2238.652
+          ],
+          "quote": "I am typically trying to give back and interact in this pairs of data and metadata because that allows both sides to actually give more relevant",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2615.927,
+            2621.69
+          ],
+          "quote": "We're having the kind of more structured representation, and then we're having the metadata next to it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2935.121,
+            2941.907
+          ],
+          "quote": "You could even see that as like a small data product combining the data and metadata into one entity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2956.025,
+            2967.655
+          ],
+          "quote": "Well, and it's interesting, too, because you have some sets of data, especially metadata, where you're wanting to do repeatable, deterministic types of things on it, and so you don't want that to change too much.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 546,
+          "t": [
+            3040.972,
+            3051.055
+          ],
+          "quote": "If I look at our implementation, at least, we benefit a lot from owning that end-to-end because we can just expose metadata.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3051.475,
+            3056.836
+          ],
+          "quote": "So freshness metadata for the underlying vector data is as we know how to get that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 601,
+          "t": [
+            3301.896,
+            3314.246
+          ],
+          "quote": "I think, honestly, the coexistence with the metadata and having that be key both on the definition and retrieval side or like query and retrieval and how all of that tracks, like that's a huge step forward.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体视为数据的首要消费者：与人类不同，它能迭代、围绕低置信度结果重新规划，因此需要数据+元数据配对的接口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.574,
+            17.844
+          ],
+          "quote": "The standard approach to grounding a model in one's own data has been Retrieval Augmented Generation, or RAG, where an agent searches a vector database for relevant information at query time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            364.654,
+            372.863
+          ],
+          "quote": "So we ended up basically building an agentic retrieval system where the agent could retrieve similar amounts of information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            387.719,
+            395.462
+          ],
+          "quote": "So what we have seen often when the agent or the LLM GenAI would start retrieving that information",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            670.597,
+            676.083
+          ],
+          "quote": "So how do you know what are the right conceptual materialized views to build out for agent context?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1299.322,
+            1306.624
+          ],
+          "quote": "So it's kind of, it's that step nowadays by an agent, obviously, where we go through the set of documents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1444.483,
+            1447.167
+          ],
+          "quote": "Fairly helpful for the agent to generate those tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1566.338,
+            1570.08
+          ],
+          "quote": "Or is it that at the level of the agent consuming it and using it to do the right thing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1590.179,
+            1594.061
+          ],
+          "quote": "There might be a finance agent accessing it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1594.281,
+            1597.042
+          ],
+          "quote": "There might be a marketing agent accessing it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1920.955,
+            1927.641
+          ],
+          "quote": "Well, and it gets to this interesting question that we sort of alluded to earlier of like, how do you design this for effective agent use, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1927.741,
+            1932.185
+          ],
+          "quote": "Like what is going to make the agent most able to take advantage of this?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1973.783,
+            1976.625
+          ],
+          "quote": "So an agent, I might give that result back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1985.01,
+            1988.071
+          ],
+          "quote": "This might still be valuable information for the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2000.156,
+            2006.459
+          ],
+          "quote": "I actually, I want like a constraint, like anything where I'm less than 50% certain, don't even give out to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2007.285,
+            2012.826
+          ],
+          "quote": "From a generalist perspective, if I trust the agent, I just want to give it as much information as possible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2013.386,
+            2021.628
+          ],
+          "quote": "Even this like, hey, I'm only 5% certain in that can be something useful for the agent to just decide like, what is the next step?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2062.082,
+            2076.529
+          ],
+          "quote": "But from like an agent perspective, if I'm getting the outcome, oh, it's only 5% certain in that, I can then turn around my question and not ask for specific data, but I could ask like, what facts are you more certain than threshold, for example?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2092.825,
+            2101.208
+          ],
+          "quote": "But yeah, I was thinking about to what extent is this a pre-query that's preloading some things in context if we know it versus this is just a tool exposed to the agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2106.368,
+            2114.052
+          ],
+          "quote": "So I think from an agent perspective, I need a combined answer of data plus metadata.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2157.256,
+            2161.679
+          ],
+          "quote": "And I, as an agent, I can specify in a deterministic format.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2213.145,
+            2219.727
+          ],
+          "quote": "I think maybe just to step out, I think in that agent interaction, how do you think about it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2968.256,
+            2971.399
+          ],
+          "quote": "But a lot of this is prepared for an agent to consume.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 580,
+          "t": [
+            3219.616,
+            3226.502
+          ],
+          "quote": "I think that problem like agents actually retrieve, how can we build a system for agent retrieval?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 LLM 本质是概率性系统、即时做选择，但也是很好的规划者，擅长在工具不多时选对工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            309.283,
+            314.127
+          ],
+          "quote": "I mean, those early discussions like, should I fine-tune my LLM?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            340.175,
+            343.377
+          ],
+          "quote": "The LLM knows it can look up for a piece of information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            387.719,
+            395.462
+          ],
+          "quote": "So what we have seen often when the agent or the LLM GenAI would start retrieving that information",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            683.572,
+            699.215
+          ],
+          "quote": "If I'm building a materialized view over my secretive finance data, which I don't want to go out to any LLM, but I'm building a materialized view where I'm making sure I'm not including sensitive data, but only, I don't know, monthly aggregates, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            745.302,
+            746.702
+          ],
+          "quote": "The LLM could decide, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            834.642,
+            847.792
+          ],
+          "quote": "Then probably this is a sign that this is not very much up-to-date and this meta-information in the context metadata will give the LLM a really good indication it might not want to use that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1472.469,
+            1475.79
+          ],
+          "quote": "It's got an LLM extracting or doing the highlighting that you mentioned.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2327.898,
+            2336.94
+          ],
+          "quote": "For each LLM interaction, it's only having to track essentially a smaller linear interaction, but it may subcall out to things that are doing those depth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2445.609,
+            2447.35
+          ],
+          "quote": "And I think the same is true for the LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2453.377,
+            2458.482
+          ],
+          "quote": "So basically, the LLM has to change its role potentially and",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "noql",
+      "type": "concept",
+      "role": "concept",
+      "name": "NoQL",
+      "file": "NoQL",
+      "primary": false,
+      "how_described": "本集介绍 Nexus 自带的查询语言：可插入元数据要求、指定输出 schema，系统自动强制执行约束。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 372,
+          "t": [
+            2085.682,
+            2092.405
+          ],
+          "quote": "I saw that with Nexus, you have your own little dynamic NoQL language or something along those domains.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2130.34,
+            2131.761
+          ],
+          "quote": "NoQL, for example,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2174.989,
+            2180.673
+          ],
+          "quote": "So NoQL is kind of that pair of structured query where I can also interject metadata.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2976.358,
+            2978.619
+          ],
+          "quote": "We talked about NoQL before, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2981.141,
+            2988.205
+          ],
+          "quote": "I think this is one of the nice things there because in NoQL, I can basically also give you a schema I expect back, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2988.225,
+            3004.856
+          ],
+          "quote": "So I'm keeping that interface static, but again, because the interface is given by NoQL and we know how to map it, we can change the internal representation and might be more or less efficient to retrieve, but I have that flexibility through that abstraction.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lineage",
+      "type": "concept",
+      "role": "concept",
+      "name": "血缘 (lineage)",
+      "file": "血缘",
+      "primary": false,
+      "how_described": "本集说策展出的上下文自带血缘追踪，能回溯它由哪个时点的数据集生成——嘉宾当年在特征存储上花很多夜晚手工重建的能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            48.093,
+            59.638
+          ],
+          "quote": "The approach borrows the database concept of a materialized view and curates context once into a versioned artifact that carries its own schema, metadata, permissions, and lineage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            567.953,
+            580.399
+          ],
+          "quote": "And with that, I think I'm also getting in addition, I'm kind of getting, this might be more just an enterprise concern by itself, but I'm also getting this audit trails, I'm getting lineage trails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            598.392,
+            611.723
+          ],
+          "quote": "And I remember spending a lot of nights kind of like trying to rebuild this lineage tracing because we had to debug production issues and basically justify why was this here in the feature, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            617.068,
+            635.402
+          ],
+          "quote": "And I think by just having the option for this lineage trail and being able to go back and connect it back to the source data, this is also, I think from an observability governance perspective, is a big asset of using a context over repeated probabilistic retrieval steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            792.296,
+            794.899
+          ],
+          "quote": "What is potentially even lineage information?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1017.389,
+            1022.451
+          ],
+          "quote": "So I think we already talked about kind of like freshness metadata, lineage information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2641.395,
+            2645.377
+          ],
+          "quote": "I mean, what we do is, I think we talked about in the very beginning, right, that lineage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 561,
+          "t": [
+            3128.884,
+            3139.207
+          ],
+          "quote": "But as said, right now, also just from a governance perspective, keeping track of lineage, it is very beneficial for us controlling the entire stack.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集顺带提到 MCP endpoints/工具/资源之所以流行，是因为给 LLM 一个描述字符串它就能自己决定。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            729.209,
+            738.777
+          ],
+          "quote": "I think that if you look back at this agentic development, for example, MCP endpoints, why were MCP endpoints tools, what resources so popular?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            798.101,
+            804.347
+          ],
+          "quote": "It's not that with MCP tools where someone goes in and is actually hacking a tool together and it's a static asset.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rangudb",
+      "type": "company",
+      "role": "company",
+      "name": "RanguDB",
+      "file": "RanguDB",
+      "primary": false,
+      "how_described": "嘉宾回忆自己曾任其 CTO，一个图数据库，早期还自建过 VectorStore（照转写稿原拼写）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            208.563,
+            215.187
+          ],
+          "quote": "Went back into the database space, was a CTO at a RanguDB, which is kind of like a graph database.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "嘉宾提到自己在早期参与过 Kubernetes 的工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            179.236,
+            190.7
+          ],
+          "quote": "So Apache Mesos was like an open source project, somewhere in between open source version of Google's Borg system, their internal cluster scheduler, and kind of like pre-Kubernetes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            199.757,
+            202.339
+          ],
+          "quote": "Also worked in the early days on Kubernetes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

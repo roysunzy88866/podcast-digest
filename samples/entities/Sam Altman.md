@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":25,"智能体":277,"沙箱":53,"对齐失败":1,"推理":48,"权力集中":1,"主观能动性":19,"OpenAI":123,"YC":15}</script>
+<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":25,"智能体":281,"沙箱":53,"对齐失败":1,"推理":50,"权力集中":1,"主观能动性":19,"OpenAI":123,"YC":15}</script>
 
 <script>
 (function(){

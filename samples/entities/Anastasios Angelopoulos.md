@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mamoun Hamid":1,"Jubin":1,"arena":2,"评估":2,"基准测试":11,"开源":23,"智能体":277,"Kimi":1,"排行榜":1,"OpenAI":123}</script>
+<script type="application/json" class="pd-epn">{"Mamoun Hamid":1,"Jubin":1,"arena":2,"评估":2,"基准测试":11,"开源":23,"智能体":281,"Kimi":1,"排行榜":1,"OpenAI":123}</script>
 
 <script>
 (function(){

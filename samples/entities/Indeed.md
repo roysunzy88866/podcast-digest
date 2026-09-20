@@ -25,7 +25,7 @@ unlisted: true
 
 [[Dustin Mihalik]] · [[MCP Apps]] · [[MCP]] · [[CareerScout]] · [[Claude]] · [[ChatGPT]] · [[结构化内容]] · [[update model context]]
 
-<script type="application/json" class="pd-epn">{"Dustin Mihalik":1,"MCP Apps":3,"MCP":46,"CareerScout":1,"Claude":60,"ChatGPT":74,"结构化内容":1,"update model context":1}</script>
+<script type="application/json" class="pd-epn">{"Dustin Mihalik":1,"MCP Apps":3,"MCP":48,"CareerScout":1,"Claude":60,"ChatGPT":74,"结构化内容":1,"update model context":1}</script>
 
 <script>
 (function(){

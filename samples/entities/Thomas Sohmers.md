@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]] [[Wade Foster]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Positron":1,"Anthropic":130,"OpenAI":123,"NVIDIA":39,"DeepSeq":2,"推理":48,"内存墙":1,"KV 缓存":3,"token":22}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Positron":1,"Anthropic":130,"OpenAI":123,"NVIDIA":39,"DeepSeq":2,"推理":50,"内存墙":1,"KV 缓存":3,"token":22}</script>
 
 <script>
 (function(){

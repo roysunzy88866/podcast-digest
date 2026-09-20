@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-03-sed-moving-beyond-rag-with-precomputed-conte",
+  "audio_mp3": "https://media.transistor.fm/94344b5c/23746022.mp3",
+  "duration_sec": 3331.3,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 606,
+  "asr": true,
+  "title_en": "Moving Beyond RAG with Precomputed Context",
+  "podcast": "Software Engineering Daily",
+  "date": "2026-09-03",
+  "added": "2026-09-21",
+  "added_at": "2026-09-20T21:51:47.145Z",
+  "speaker_map": {
+    "SPEAKER_01": "Kevin Ball",
+    "SPEAKER_02": "Kevin Ball",
+    "SPEAKER_00": "Yorg Shad"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Kevin Ball",
+  "cohosts": [
+    "Yorg Shad"
+  ],
+  "title_zh": "把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索",
+  "guest_name": "Yorg Shad",
+  "guest_title": "Pinecone 工程副总裁",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

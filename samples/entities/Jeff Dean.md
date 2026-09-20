@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":277,"多智能体系统":5,"专用推理硬件":1,"推理":48,"上下文工程":12,"TPU":3,"MapReduce":1,"蒸馏":11,"AlphaFold":2,"Gemini":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":281,"多智能体系统":5,"专用推理硬件":1,"推理":50,"上下文工程":12,"TPU":3,"MapReduce":1,"蒸馏":11,"AlphaFold":2,"Gemini":10}</script>
 
 <script>
 (function(){

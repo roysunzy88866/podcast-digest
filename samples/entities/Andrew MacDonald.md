@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Uber":10,"Uber One":1,"自主性":7,"智能体":277,"IGB":1,"可变成本模式":1,"分发":5,"Growth Bets":1,"managed transaction":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Uber":10,"Uber One":1,"自主性":7,"智能体":281,"IGB":1,"可变成本模式":1,"分发":5,"Growth Bets":1,"managed transaction":1}</script>
 
 <script>
 (function(){

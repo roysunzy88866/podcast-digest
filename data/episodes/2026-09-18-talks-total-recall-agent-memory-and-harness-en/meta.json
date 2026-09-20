@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-18-talks-total-recall-agent-memory-and-harness-en",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/xs-ob87TTzg.m4a",
+  "duration_sec": 3626.894,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 548,
+  "asr": true,
+  "title_en": "Total Recall: Agent Memory and Harness Engineering — Ignacio Martinez, Oracle",
+  "podcast": "精选演讲",
+  "date": "2026-09-18",
+  "added": "2026-09-21",
+  "added_at": "2026-09-20T20:04:07.480Z",
+  "speaker_map": {
+    "SPEAKER_00": "Oracle",
+    "SPEAKER_01": "Ignacio Martinez"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Oracle",
+    "Ignacio Martinez"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "模型是租的，harness 才是你的：拆解智能体的七层框架",
+  "guest_name": "Ignacio Martinez",
+  "guest_title": "Oracle 开发者布道师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

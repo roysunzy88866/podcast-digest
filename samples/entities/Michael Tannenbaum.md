@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":4,"Kiavi":1,"高管心态":1,"市场":2,"区块链":2,"分词":4,"SoftBank":4,"Meta":34}</script>
+<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":4,"Kiavi":1,"高管心态":1,"市场":2,"区块链":2,"分词":4,"SoftBank":4,"Meta":35}</script>
 
 <script>
 (function(){

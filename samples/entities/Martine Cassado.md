@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]] [[Shar Dara]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Ignacio Martinez]] [[Diana]] [[Jared]] [[Wade Foster]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":3,"Databricks":14,"Neon":3,"智能体":277,"本体":4,"网络安全":1,"RSI":3,"开源":23,"后训练":26,"harness":40}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":3,"Databricks":14,"Neon":3,"智能体":281,"本体":4,"网络安全":1,"RSI":3,"开源":23,"后训练":26,"harness":40}</script>
 
 <script>
 (function(){

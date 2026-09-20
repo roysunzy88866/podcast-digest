@@ -8,7 +8,7 @@ aliases: ["K8s", "k8s"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Kubernetes</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Kubernetes">KU</div><div class="pi"><h1 class="pt">Kubernetes</h1><div class="byl">公司 · 又名 K8s / k8s</div><div class="nums">本站收录 <b>6</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Kubernetes">KU</div><div class="pi"><h1 class="pt">Kubernetes</h1><div class="byl">公司 · 又名 K8s / k8s</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,7 +17,9 @@ aliases: ["K8s", "k8s"]
 - **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(00:55起):本集把它作为反面对照：说它是为缓慢扩展的 Web 服务器设计的，难以适应 AI 时代频繁突发的算力需求，且配置文件（YAML）庞大复杂，对人类和智能体都不友好。
 - **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(40:03起):本集在列举推动现代移动云和 AI 行业爆发的开源平台基础底座时提到了它。
 - **[[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]]**(28:22起):本集提到 Kubernetes 是容器编排平台，智能体从容器逃逸到底层计算节点后，利用节点上的环境变量和挂载凭据在多个 Kubernetes 集群间横向移动
+- **[[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|《把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索》]]**(02:59起):嘉宾提到自己在早期参与过 Kubernetes 的工作。
 - **[[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]]**(49:59起):本集回应 lock-in 时提到已有客户在 Kubernetes 甚至自己的硬件上跑 Eve，靠 world 抽象自托管。
+- **[[2026-09-19-talks-operating-distributed-inference-systems|《推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道》]]**(01:07起):本集以 Kubernetes 把 VM 管理变成控制平面为例,类比推理正在经历的同样转变,以及云计算价值沿栈上移到编排层的老路
 
 ## ① 提到它的金句
 
@@ -27,22 +29,24 @@ aliases: ["K8s", "k8s"]
 
 ## ② 出现在这些集
 
-*6 集*
+*8 集*
 
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]] — 作为被讨论公司(提及)
 - [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为概念(提及)
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为被讨论公司
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为概念(提及)
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|《OpenAI 智能体越狱攻入 Hugging Face 全始末》]] — 作为概念(提及)
+- [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|《把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索》]] — 作为概念(提及)
 - [[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]] — 作为概念(提及)
+- [[2026-09-19-talks-operating-distributed-inference-systems|《推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[沙箱]] · [[OpenAI]] · [[Bruno Scott Sperka]] · [[Matei Zaharia]] · [[Swyx]] · [[Jensen Huang]] · [[Chris Benson]] · [[Andrew Barba]] · [[GitHub]]
+[[智能体]] · [[沙箱]] · [[推理]] · [[Kevin Ball]] · [[投机解码]] · [[MCP]] · [[OpenAI]] · [[vLLM]] · [[Bruno Scott Sperka]] · [[Matei Zaharia]]
 
-<script type="application/json" class="pd-epn">{"智能体":277,"沙箱":53,"OpenAI":123,"Bruno Scott Sperka":1,"Matei Zaharia":1,"Swyx":2,"Jensen Huang":3,"Chris Benson":8,"Andrew Barba":1,"GitHub":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":281,"沙箱":53,"推理":50,"Kevin Ball":2,"投机解码":2,"MCP":48,"OpenAI":123,"vLLM":5,"Bruno Scott Sperka":1,"Matei Zaharia":1}</script>
 
 <script>
 (function(){

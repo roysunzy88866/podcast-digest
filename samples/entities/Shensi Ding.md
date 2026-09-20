@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":2,"智能体":277,"MCP":46,"沙箱":53,"连接器":3,"智能 LLM 路由器":1,"可观测性":22,"后训练":26}</script>
+<script type="application/json" class="pd-epn">{"Merge":2,"智能体":281,"MCP":48,"沙箱":53,"连接器":3,"智能 LLM 路由器":1,"可观测性":23,"后训练":26}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":5,"NewLimit":2,"智能体":277,"智能体金融":1,"X402":1,"稳定币":4,"分词":4,"预测市场":1,"递归自我改进":3}</script>
+<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":5,"NewLimit":2,"智能体":281,"智能体金融":1,"X402":1,"稳定币":4,"分词":4,"预测市场":1,"递归自我改进":3}</script>
 
 <script>
 (function(){

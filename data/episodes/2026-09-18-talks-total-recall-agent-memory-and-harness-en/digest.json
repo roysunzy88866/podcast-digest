@@ -1,0 +1,130 @@
+{
+  "title_zh": "模型是租的，harness 才是你的：拆解智能体的七层框架",
+  "tldr": "Oracle 开发者布道师主讲的工作坊，从零拆解 AI 智能体线束（agent harness）的七层结构：记忆、语义层、智能体循环与上下文工程。",
+  "digest_md": "这一集是一场现场工作坊：主讲人是一位在 Oracle 工作了七年、其中四年做开发者布道师的工程师，他曾与 Andrew Ang 合作上线过一门关于智能体记忆的课程。他要带大家动手从零构建一个 agent harness（智能体线束，即围绕大模型搭建的整套工程框架）。\n\n他的开场论点很锋利：所有人都在谈论模型，但语言模型其实是「推理中被冻结的部分」——权重不会变，我们只能接受给定的东西。真正的工程空间在模型之外。他把智能体定义为「模型 + harness」：模型负责推理，其余一切都是 harness。模型是租来的、被补贴的、不可控的；harness 的目标，就是把大语言模型的非确定性（同样的输入每次产出不同的输出）转化为可靠、可重复的结果。harness 建立在可互换的模型之上——只需要一个通用接口，比如 OpenAI 协议或 Anthropic API 规范 [03:56–04:17 主讲人]。\n\n## 智能体栈与四类应用形态\n\n每个 AI 智能体都建立在五层之上：应用（产品界面）、数据（记忆、知识、检索、编码、搜索）、模型、基础设施（编排）、计算（云、GPU、数据库引擎）。除了数据层，其他四层都在日益商品化——所以我们对数据层的控制力最强，而 harness 恰恰就生活在数据层 [06:30–07:48 主讲人]。\n\n如今的 AI 应用有四种形态：被动的 LLM 聊天机器人、半被动的 RAG 应用（检索增强生成：先从资料库里检索相关内容、再让模型据此作答）、以及主动的形态——LLM 驱动的工作流（提供自动化）加 AI 智能体（提供自主性）。Claude Code、Codex 这类产品都是「自动化 + 自主性」的组合：自动化提供可靠性，自主性提供灵活性 [09:20–12:38 主讲人]。\n\n## 文件还是数据库？混合方案\n\nharness 的第一层是存储：记忆到底放哪。从一月起业界一直在争「文件派 vs 数据库派」，他的答案是：两者都用。文件符合模型的直觉、易于创建和追加、遵循 POSIX 语义、跨操作系统兼容；但它没有事务一致性——当你同时跑 8、16、32 个智能体时，文件无法被同时插入和修改，如今的变通办法是 worktree（各智能体在独立工作树里干活，完成后合并回 main）。文件还不支持混合搜索、没有备份——这些是数据库在 35、40 年前就解决了的问题 [16:34–19:30 主讲人]。\n\n他的建议：短期记忆放文件（比如编程智能体的待办清单），需要晋升为长期记忆的东西（比如用户偏好）进入数据库。他推介 Oracle DBFS（数据库文件系统），可以拿到带 ACID 事务一致性的文件、向量搜索、高可用等 [20:40–21:30 主讲人]。\n\n## 上下文窗口救不了你：context rot\n\n有人主张干脆上 1500 万 token 的上下文窗口，不用搞记忆。他的反驳：上下文窗口本身就是一种短期记忆，而且存在「上下文腐化」——你往窗口里放的东西越多，每一样东西分到的注意力就越少。因为注意力矩阵本质上是窗口里每个 token 对其他所有 token 的引用，行数列数都会随窗口增长，呈二次方扩展。就像人聊天：前 30 分钟你注意力很高，聊八个小时你就想揍对方了。所以上下文窗口要尽可能小 [28:24–30:29 主讲人]。\n\n## 语义层：企业没说出口的部落知识\n\n记忆之上是语义层。他借用了 Umwelt（环境感知域，由 Jakob von Wekskul 提出，指每个生物透过自身透镜感知现实）这个类比：智能体没有人类感官，但它也有一个语义透镜——你训练它的东西加上你给它的上下文。语义层捕捉的就是组织里那些「你和同事之间不用说出口」的知识：数据怎么建模的、查询怎么执行、元数据是什么。新同事进来你得从头解释，而语义层就是把这些隐性知识显式化 [34:19–36:39 主讲人]。\n\n> 【背景】Jakob von Wekskul 一般拼作 Jakob von Uexküll，是生物学家，「Umwelt」（环境感知域）概念即由他提出。\n\n## 极简智能体循环与工具检索\n\n智能体循环（agent loop）是模型的驱动器，把模型变成智能体：观察 → 推理 → 行动，不停循环，且必须抗故障、绝不退出循环 [36:39–37:31 主讲人]。\n\n上下文工程的关键是：工具和技能只在真正被需要时才检索、才放进上下文窗口，每次迭代都检查、不合适就暂时拿掉。有听众问「组织里有几千个工具怎么办」：答案是用 HNSW 索引（一种用图结构组织的向量索引），数据库里建、文件里建不了，查询 2000 个工具和查询 10 个一样简单；工具描述太相似导致检索混淆时，可以用 LLM 生成增强版描述来提高可区分性 [52:05–54:59 主讲人]。\n\n智能体跑飞了怎么办？他设一个「滞后变量」承载 harness 对模型的耐心：对于他用的工作模型，放弃前最多 8 到 12 次工具调用是合适的值 [55:45–56:39 主讲人]。\n\n## 持续学习：不改权重也能让智能体变好\n\n模型权重冻结，但行为可以被改变。三种持续学习技术中，他聚焦最容易、最便宜的：上下文和 token 空间。核心机制是「技能晋升」：你花一整天打磨出的成功工作流，可以被检索、存储进记忆，再通过蒸馏过程生成一个比原来更好的 skill.md——弃用旧版、换上新版。这样技能会随时间越来越贴合你自己的语气、工作方式和偏好 [38:45–41:02 主讲人]。\n\n## 本集带走\n\n- **智能体 = 模型 + harness**：模型是冻结的、租来的、可互换的（只要有通用 API 接口）；你真正的工程空间和护城河在 harness。\n- **记忆混合存储**：短期记忆放文件，晋升为长期记忆的内容（用户偏好、成功工作流）进数据库，两边的优点都拿到；多智能体并发改文件靠 worktree 变通。\n- **上下文窗口别贪大**：注意力随窗口内容二次方摊薄（context rot），窗口越小任务相关性越高；工具/技能按需检索、按需进出窗口。\n- **给 harness 一个耐心变量**：限制模型放弃前的最大工具调用次数（比如 8-12 次），防止幻觉循环烧钱；难题路由给前沿大模型、简单题给小模型。\n- **技能晋升 = 最实惠的持续学习**：把成功工作流蒸馏成更好的 skill.md 并替换旧版，智能体不改权重也能越用越贴合你的偏好。",
+  "quotes": [
+    {
+      "en": "Lots of people are talking about models constantly, but the thing is that models, like language models, they are the frozen part of the reasoning, right?",
+      "zh": "很多人不断在谈论模型，但问题是，像语言模型这样的模型，它们是推理中被冻结的部分，对吧？",
+      "timestamp": "03:56",
+      "speaker": "Ignacio Martinez"
+    },
+    {
+      "en": "So the goal of harness engineering is to create reliable and predictable outputs over and over, whereas a reasoning model is very non-deterministic.",
+      "zh": "所以 harness 工程的目标是一次又一次地创造可靠且可预测的输出，而推理模型是非常非确定性的。",
+      "timestamp": "11:26",
+      "speaker": "Ignacio Martinez"
+    },
+    {
+      "en": "A model and the weights of the model will never change unless you have millions of dollars or a lot of time or GPUs.",
+      "zh": "模型的权重永远不会改变，除非你有数百万美元，或者大量时间，或者 GPU。",
+      "timestamp": "16:10",
+      "speaker": "Ignacio Martinez"
+    },
+    {
+      "en": "And these are things that the database fixed 35, 40 years ago, and people have kind of forgotten about that.",
+      "zh": "而这些是数据库在 35、40 年前就解决了的问题，人们却差不多忘了这一点。",
+      "timestamp": "19:23",
+      "speaker": "Ignacio Martinez"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "03:56",
+      "speaker": "Oracle 开发者布道师",
+      "en": "Lots of people are talking about models constantly, but the thing is that models, like language models, they are the frozen part of the reasoning, right?",
+      "zh": "很多人不断在谈论模型，但问题是，像语言模型这样的模型，它们是推理中被冻结的部分，对吧？"
+    },
+    {
+      "timestamp": "10:03",
+      "speaker": "Oracle 开发者布道师",
+      "en": "So, to me, an AI agent is essentially a model, a large language model, plus a hardness.",
+      "zh": "所以在我看来，AI 智能体本质上就是一个模型、一个大型语言模型，加上一个 harness。"
+    },
+    {
+      "timestamp": "11:26",
+      "speaker": "Oracle 开发者布道师",
+      "en": "So the goal of harness engineering is to create reliable and predictable outputs over and over, whereas a reasoning model is very non-deterministic.",
+      "zh": "所以 harness 工程的目标是一次又一次地创造可靠且可预测的输出，而推理模型是非常非确定性的。"
+    },
+    {
+      "timestamp": "12:02",
+      "speaker": "Oracle 开发者布道师",
+      "en": "Well, because automation provides reliability to a system, and autonomy gives flexibility, and this is a combination that is very convenient when we are developing ourselves.",
+      "zh": "因为自动化为系统提供了可靠性，而自主性提供了灵活性，这种组合在我们自己开发时非常方便。"
+    },
+    {
+      "timestamp": "16:18",
+      "speaker": "Oracle 开发者布道师",
+      "en": "A model and the weights of the model will never change unless you have millions of dollars or a lot of time or GPUs.",
+      "zh": "模型的权重永远不会改变，除非你有数百万美元，或者大量时间，或者 GPU。"
+    },
+    {
+      "timestamp": "19:23",
+      "speaker": "Oracle 开发者布道师",
+      "en": "And these are things that the database fixed 35, 40 years ago, and people have kind of forgotten about that.",
+      "zh": "而这些是数据库在 35、40 年前就解决了的问题，人们却差不多忘了这一点。"
+    },
+    {
+      "timestamp": "28:43",
+      "speaker": "Oracle 开发者布道师",
+      "en": "But the context window is a type of short-term memory.",
+      "zh": "但上下文窗口本身就是一种短期记忆。"
+    },
+    {
+      "timestamp": "29:07",
+      "speaker": "Oracle 开发者布道师",
+      "en": "the less attention there will be for each one of the things that are in the context.",
+      "zh": "上下文中每一样东西所得到的注意力就会越少。"
+    },
+    {
+      "timestamp": "30:14",
+      "speaker": "Oracle 开发者布道师",
+      "en": "It's essentially a reference of one token for every other token in the context window.",
+      "zh": "本质上就是上下文窗口中的每一个 token 对其他所有 token 的引用。"
+    },
+    {
+      "timestamp": "36:48",
+      "speaker": "Oracle 开发者布道师",
+      "en": "It lets a model be kind of independent and autonomous, and it is what makes a model, it turns a model into an agent, right?",
+      "zh": "它让模型变得某种程度上的独立和自主，而正是它把一个模型变成一个智能体，对吧？"
+    },
+    {
+      "timestamp": "38:07",
+      "speaker": "Oracle 开发者布道师",
+      "en": "Every iteration of an agent loop you will see if this is actually the right place and then if it's not you can just take them out temporarily.",
+      "zh": "智能体循环的每一次迭代，你都会检查这里是不是真正合适的位置，如果不是，你就可以暂时把它们拿掉。"
+    },
+    {
+      "timestamp": "39:26",
+      "speaker": "Oracle 开发者布道师",
+      "en": "So this is also the most achievable and the most realistic way to change the model behavior over time.",
+      "zh": "所以这也是随时间改变模型行为最可实现、最现实的方式。"
+    },
+    {
+      "timestamp": "40:25",
+      "speaker": "Oracle 开发者布道师",
+      "en": "And this allows us to do some kind of continual learning on our own skills that turn them into more customized skills for ourselves, for our tone, our way to work, our preferences, for instance.",
+      "zh": "这让我们可以对自己的技能做某种持续学习，把它们变成更定制化的技能，适合我们自己的语气、工作方式和偏好等等。"
+    },
+    {
+      "timestamp": "52:09",
+      "speaker": "Oracle 开发者布道师",
+      "en": "Well, we introduced this concept called the toolbox pattern in this course with Andrew Ang, and the thing is that you can optimize so that the retrieval of these tools is negligible.",
+      "zh": "我们在这门与 Andrew Ang 合作的课程中引入了一个叫工具箱模式的概念，关键在于你可以做优化，使这些工具的检索开销可以忽略不计。"
+    },
+    {
+      "timestamp": "55:45",
+      "speaker": "Oracle 开发者布道师",
+      "en": "Yes, so there is a limit, of course, because we don't have infinite money, so we can't just keep trying and trying over and over if the generations are just hallucinations, right?",
+      "zh": "是的，当然存在一个上限，因为我们没有无限的金钱，所以如果生成的东西只是幻觉，我们不能一次又一次地不断尝试下去，对吧？"
+    },
+    {
+      "timestamp": "57:17",
+      "speaker": "Oracle 开发者布道师",
+      "en": "Yes, yes, I think that's, like my personal opinion is that the future is a mixture of small experts for each type of problem.",
+      "zh": "是的，是的，就我个人的观点而言，未来是针对每类问题的小型专家模型的混合体。"
+    }
+  ],
+  "voice_script": "今天这一集是一场现场工作坊，主讲人是一位在 Oracle 干了七年、其中四年做开发者布道师的工程师，之前还跟 Andrew Ang 合作上线过一门关于智能体记忆的课程。这次要讲的事情说大也大、说小也小：AI 智能体到底是由什么组成的，以及围绕大模型搭建的那套工程框架——他管它叫 agent harness,智能体线束——为什么才是你真正该下功夫的地方。\n\n先把背景垫一下。现在所有人都在谈模型，新模型一发布就刷屏。但开场论点很锋利：语言模型其实是推理中被冻结的部分——权重不会变，我们只能接受给定的东西，除非你有数百万美元、大量时间或者一堆 GPU。也就是说，真正的工程空间根本不在模型里面，而在模型外面。所以他把智能体定义为模型加 harness:模型负责推理，其余一切都是 harness。模型是租来的、被补贴的、不可控的；harness 要干的事，就是让这些不可控的、非确定性的东西，一次又一次地产出可靠、可预测的结果。而且 harness 是建在可互换的模型之上的，只要有个通用接口，比如 OpenAI 协议或者 Anthropic 的 API 规范，底下模型随时能换。\n\n那 harness 到底住哪儿呢？这就要看智能体栈了。每个智能体都建在五层之上：应用、数据、模型、基础设施、计算。除了数据层，其他四层都在日益商品化，说白了就是越来越不值钱。所以我们对数据层的控制力最强，而 harness 恰恰就生活在数据层。\n\n现在市面上有四种 AI 应用形态：被动的聊天机器人；RAG 应用，就是先从资料库里检索相关内容、再让模型据此作答；还有主动的两种，LLM 驱动的工作流提供自动化，AI 智能体提供自主性。Claude Code、Codex 这类产品，都是自动化加自主性的组合——自动化给可靠性，自主性给灵活性。\n\n好，既然 harness 在数据层，第一个问题就是：记忆到底放哪？从一月起业界一直在争，一派说放文件，一派说放数据库。答案出乎意料地朴素：两者都用。文件符合模型的直觉，好创建、好追加，跨操作系统都兼容；但它没有事务一致性——你同时跑八个、十六个、三十二个智能体的时候，文件没法同时插入和修改，现在的变通办法是让每个智能体在独立的工作树里干活，完了再合并回去。文件还不支持混合搜索、没有备份，而这些是数据库在三十五、四十年前就解决了的问题，人们差不多忘了这一点。所以建议是：短期记忆放文件，比如编程智能体的待办清单；需要晋升为长期记忆的东西，比如用户偏好，进数据库。\n\n那有人会问，干脆弄个一千五百万 token 的上下文窗口，不就不用搞记忆了？这就引出一个更根本的问题。上下文窗口本身就是一种短期记忆，而且存在上下文腐化——往窗口里放的东西越多，每样东西分到的注意力就越少。因为注意力本质上是窗口里每个 token 对其他所有 token 的引用，窗口一涨，计算量是二次方扩展的。打个比方，就像人聊天，前三十分钟注意力很高，聊八个小时你就想揍对方了。所以窗口要尽可能小。而窗口里放什么，靠的是语义层——这个词借用了生物学的 Umwelt 概念，指每个生物透过自身透镜感知现实。智能体的透镜，就是训练数据加上你给的上下文。语义层捕捉的，是组织里那些你和同事之间不用说出口的知识：数据怎么建模、查询怎么执行。新同事进来你得从头解释，语义层就是把这种隐性知识显式化。\n\n有了这些，还差一个驱动器，就是智能体循环：观察、推理、行动，不停转，而且必须抗故障、绝不退出循环。上下文工程的关键是，工具和技能只在真正需要时才检索进窗口，每次迭代都检查，不合适就暂时拿掉。组织里有几千个工具怎么办？用一种叫 HNSW 的向量索引，数据库里建，查询两千个工具和查询十个一样简单。那智能体跑飞了呢？设一个滞后变量，承载 harness 对模型的耐心——对他常用的工作模型来说，放弃前最多八到十二次工具调用是合适的值。\n\n最后说说最实惠的部分：不改权重，怎么让智能体越用越好？靠技能晋升。你花一整天打磨出的成功工作流，可以被检索、存进记忆，再蒸馏成一个比原来更好的 skill 文件，弃旧换新。技能就这样越来越贴合你的语气、工作方式和偏好。\n\n所以记住这句话：模型是租来的、冻结的，而 harness 才是你真正的工程空间和护城河。"
+}

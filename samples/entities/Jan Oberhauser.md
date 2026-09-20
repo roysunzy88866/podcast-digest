@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"n8n":1,"智能体":277,"工作流":8,"开源":23,"fair-code":1,"LLM":37,"人在回路":11,"自托管":1,"自带密钥":1,"编排":5}</script>
+<script type="application/json" class="pd-epn">{"n8n":1,"智能体":281,"工作流":8,"开源":23,"fair-code":1,"LLM":38,"人在回路":11,"自托管":1,"自带密钥":1,"编排":5}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":277,"harness 工程":2,"Bedrock AgentCore":1,"MCP":46,"记忆":13,"多租户隔离":1,"可观测性":22,"基础设施即代码":1,"系统提示词":6,"Claude Code":64}</script>
+<script type="application/json" class="pd-epn">{"智能体":281,"harness 工程":2,"Bedrock AgentCore":1,"MCP":48,"记忆":13,"多租户隔离":1,"可观测性":23,"基础设施即代码":1,"系统提示词":6,"Claude Code":65}</script>
 
 <script>
 (function(){

@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Pinecone</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Pinecone">PI</div><div class="pi"><h1 class="pt">Pinecone</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Pinecone">PI</div><div class="pi"><h1 class="pt">Pinecone</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]]**(00:16起):本集说它是 Orb 的客户:Orb 帮 Pinecone 团队为其无服务器架构(向量数据库领域的创新)上线了计费。
+- **[[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|《把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索》]]**(00:31起):本集介绍其为广泛用于支撑大规模语义搜索和 RAG 的向量数据库，嘉宾任其工程副总裁。
 - **[[2026-09-16-talks-pinecone-2-0-edo-liberty-pinecone|《给智能体一个「知识层」：让 AI 不再是入职第一天的聪明新员工》]]**(03:02起):本集顺带提到：Pinecone、向量数据库等工具和 RAG、搜索一起，早就解决了公司特定知识的检索问题。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
+- [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|《把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索》]] — 作为被讨论公司
 - [[2026-09-16-talks-pinecone-2-0-edo-liberty-pinecone|《给智能体一个「知识层」：让 AI 不再是入职第一天的聪明新员工》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Sal Motamini]] · [[Edo Liberty]] · [[Alvaro Morales]] · [[知识层]] · [[Orb]] · [[部落知识]] · [[Asana]] · [[Nexus]] · [[Stripe]]
+[[智能体]] · [[Nexus]] · [[RAG]] · [[NoQL]] · [[Sal Motamini]] · [[Kevin Ball]] · [[Edo Liberty]] · [[Alvaro Morales]] · [[Yorg Shad]] · [[知识层]]
 
-<script type="application/json" class="pd-epn">{"智能体":277,"Sal Motamini":1,"Edo Liberty":1,"Alvaro Morales":1,"知识层":1,"Orb":1,"部落知识":2,"Asana":2,"Nexus":1,"Stripe":33}</script>
+<script type="application/json" class="pd-epn">{"智能体":281,"Nexus":2,"RAG":15,"NoQL":2,"Sal Motamini":1,"Kevin Ball":2,"Edo Liberty":1,"Alvaro Morales":1,"Yorg Shad":1,"知识层":1}</script>
 
 <script>
 (function(){

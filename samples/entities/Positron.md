@@ -25,7 +25,7 @@ unlisted: true
 
 [[Thomas Sohmers]] · [[Harry Stebbings]] · [[Anthropic]] · [[OpenAI]] · [[NVIDIA]] · [[DeepSeq]] · [[推理]] · [[内存墙]] · [[KV 缓存]] · [[token]]
 
-<script type="application/json" class="pd-epn">{"Thomas Sohmers":1,"Harry Stebbings":17,"Anthropic":130,"OpenAI":123,"NVIDIA":39,"DeepSeq":2,"推理":48,"内存墙":1,"KV 缓存":3,"token":22}</script>
+<script type="application/json" class="pd-epn">{"Thomas Sohmers":1,"Harry Stebbings":17,"Anthropic":130,"OpenAI":123,"NVIDIA":39,"DeepSeq":2,"推理":50,"内存墙":1,"KV 缓存":3,"token":22}</script>
 
 <script>
 (function(){

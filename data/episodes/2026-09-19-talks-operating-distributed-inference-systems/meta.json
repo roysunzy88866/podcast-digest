@@ -1,0 +1,28 @@
+{
+  "id": "2026-09-19-talks-operating-distributed-inference-systems",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/7c9FSUVcXR0.m4a",
+  "duration_sec": 1169.434,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 218,
+  "asr": true,
+  "title_en": "Operating Distributed Inference Systems at Scale — Nishant Gupta & Naman Ahuja, Meta",
+  "podcast": "精选演讲",
+  "date": "2026-09-19",
+  "added": "2026-09-21",
+  "added_at": "2026-09-20T20:29:41.257Z",
+  "speaker_map": {
+    "SPEAKER_01": "Nishant Gupta",
+    "SPEAKER_00": "Naman Ahuja"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Nishant Gupta",
+    "Naman Ahuja"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道",
+  "guest_name": "Nishant Gupta",
+  "guest_title": "Meta 推理基础设施工程师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

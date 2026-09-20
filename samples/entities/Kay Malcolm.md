@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oracle":7,"智能体":277,"harness":40,"记忆":13,"上下文窗口":6,"护栏":50,"检索":3,"Codex":51,"Git":4,"OpenAI":123}</script>
+<script type="application/json" class="pd-epn">{"Oracle":8,"智能体":281,"harness":40,"记忆":13,"上下文窗口":7,"护栏":50,"检索":3,"Codex":52,"Git":4,"OpenAI":123}</script>
 
 <script>
 (function(){

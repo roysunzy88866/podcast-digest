@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Kevin DeFarco":1,"Roshan":2,"GrokBot":6,"SpaceX AI":1,"智能体":277,"多智能体团队":1,"云端智能体":1,"例程":1,"记忆":13,"MCP":46}</script>
+<script type="application/json" class="pd-epn">{"Kevin DeFarco":1,"Roshan":2,"GrokBot":6,"SpaceX AI":1,"智能体":281,"多智能体团队":1,"云端智能体":1,"例程":1,"记忆":13,"MCP":48}</script>
 
 <script>
 (function(){

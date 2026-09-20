@@ -1,0 +1,1746 @@
+[
+ {
+  "seg": 0,
+  "start": 12.66,
+  "end": 13.32,
+  "speaker": "Unknown",
+  "en": "Good morning, everyone.",
+  "zh": "大家早上好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.061,
+  "end": 17.682,
+  "speaker": "Unknown",
+  "en": "Welcome to the first inference talk on the last day of AI Engineering World Fair.",
+  "zh": "欢迎来到 AI Engineering World Fair 最后一天的第一场推理演讲。"
+ },
+ {
+  "seg": 2,
+  "start": 18.462,
+  "end": 22.604,
+  "speaker": "Unknown",
+  "en": "My name is Nishan Gupta, and I'm joined today by my co-speaker, Naman Ahuja.",
+  "zh": "我叫 Nishan Gupta,今天和我一起演讲的还有我的联合讲者 Naman Ahuja。"
+ },
+ {
+  "seg": 3,
+  "start": 23.144,
+  "end": 26.906,
+  "speaker": "Unknown",
+  "en": "We work on building the efficiency, training, and inference infrastructure at Meta.",
+  "zh": "我们在 Meta 从事效率、训练和推理基础设施的建设工作。"
+ },
+ {
+  "seg": 4,
+  "start": 27.766,
+  "end": 31.928,
+  "speaker": "Unknown",
+  "en": "Today, we're going to be talking about how do you operate distributed inference systems at scale.",
+  "zh": "今天,我们要讨论的是如何在大规模下运营分布式推理系统。"
+ },
+ {
+  "seg": 5,
+  "start": 33.132,
+  "end": 37.534,
+  "speaker": "Unknown",
+  "en": "As we all know, inference is no longer just a research artifact boiled to a product.",
+  "zh": "众所周知,推理不再只是从研究产物演变成的产品。"
+ },
+ {
+  "seg": 6,
+  "start": 38.075,
+  "end": 42.797,
+  "speaker": "Unknown",
+  "en": "It's a foundational hyperscale infrastructure workload, which is growing at a tremendous rate.",
+  "zh": "它是一种基础的超大规模基础设施工作负载,并且正以惊人的速度增长。"
+ },
+ {
+  "seg": 7,
+  "start": 43.378,
+  "end": 51.162,
+  "speaker": "Unknown",
+  "en": "The inference traffic already outpaces the largest microservices in the world, and the rate of growth is fastest of any workload we have ever seen.",
+  "zh": "推理流量已经超过了世界上最大的微服务,而且其增长速度是我们见过的任何工作负载中最快的。"
+ },
+ {
+  "seg": 8,
+  "start": 54.764,
+  "end": 59.767,
+  "speaker": "Unknown",
+  "en": "Let's rewind back to around 2008 and try to compare the AI era with the cloud era.",
+  "zh": "让我们回溯到大约 2008 年,试着把 AI 时代与云计算时代做个比较。"
+ },
+ {
+  "seg": 9,
+  "start": 61.364,
+  "end": 64.667,
+  "speaker": "Unknown",
+  "en": "In around 2008, the cloud started as virtual machine offerings.",
+  "zh": "大约在 2008 年,云是从虚拟机产品起步的。"
+ },
+ {
+  "seg": 10,
+  "start": 65.087,
+  "end": 67.128,
+  "speaker": "Unknown",
+  "en": "The interesting engineering was virtualization.",
+  "zh": "有意思的工程技术是虚拟化。"
+ },
+ {
+  "seg": 11,
+  "start": 67.909,
+  "end": 78.777,
+  "speaker": "Unknown",
+  "en": "Then over time, the value moved up to the stack, to the schedulers, Thinkbog, Kubernetes, Mesos, then to service meshes, then to auto scalers, and then to various platforms that were built on top of it.",
+  "zh": "然后随着时间推移,价值沿着栈向上移动,到了调度器,Thinkbog、Kubernetes、Mesos,然后到服务网格,再到自动伸缩器,然后是构建在其上的各种平台。"
+ },
+ {
+  "seg": 12,
+  "start": 79.638,
+  "end": 83.661,
+  "speaker": "Unknown",
+  "en": "The orchestration layer is what actually captured the value and the complexity.",
+  "zh": "编排层才是真正捕获了价值和复杂性的地方。"
+ },
+ {
+  "seg": 13,
+  "start": 84.745,
+  "end": 89.708,
+  "speaker": "Unknown",
+  "en": "AI is on the exact same trajectory, but just compressed into the last few years instead of a decade.",
+  "zh": "AI 正走在完全相同的轨迹上,只是被压缩到了最近几年而不是十年。"
+ },
+ {
+  "seg": 14,
+  "start": 90.688,
+  "end": 93.029,
+  "speaker": "Unknown",
+  "en": "We started with simple models running on GPUs.",
+  "zh": "我们从运行在 GPU 上的简单模型开始。"
+ },
+ {
+  "seg": 15,
+  "start": 93.71,
+  "end": 99.012,
+  "speaker": "Unknown",
+  "en": "Then we saw the evolution of model-serving frameworks like VLLM, DotServe, Triton.",
+  "zh": "然后我们看到了模型服务框架的演进,比如 VLLM、DotServe、Triton。"
+ },
+ {
+  "seg": 16,
+  "start": 99.893,
+  "end": 110.318,
+  "speaker": "Unknown",
+  "en": "And now we are watching the orchestration layer emerging in real time, addressing the complex challenges of routing, KV cache management, pre-field decode desegregation, and multi-model multiplexing.",
+  "zh": "现在我们正在实时见证编排层的涌现,它解决着路由、KV 缓存管理、pre-field decode desegregation 以及多模型多路复用等复杂挑战。"
+ },
+ {
+  "seg": 17,
+  "start": 111.885,
+  "end": 116.892,
+  "speaker": "Unknown",
+  "en": "In this next phase of AI era, it's not just about the best models or the kernels or the optimizations.",
+  "zh": "在 AI 时代的下一个阶段,重点不再只是最好的模型、最好的内核或最好的优化。"
+ },
+ {
+  "seg": 18,
+  "start": 117.272,
+  "end": 118.413,
+  "speaker": "Unknown",
+  "en": "It's about the whole ecosystem.",
+  "zh": "而是整个生态系统。"
+ },
+ {
+  "seg": 19,
+  "start": 118.654,
+  "end": 120.336,
+  "speaker": "Unknown",
+  "en": "It's about the control plane and the orchestration.",
+  "zh": "是控制平面和编排。"
+ },
+ {
+  "seg": 20,
+  "start": 120.837,
+  "end": 123.22,
+  "speaker": "Unknown",
+  "en": "And this is what we're gonna be focusing in this race talk.",
+  "zh": "而这正是我们在这场简短的演讲中要聚焦的内容。"
+ },
+ {
+  "seg": 21,
+  "start": 126.444,
+  "end": 129.147,
+  "speaker": "Unknown",
+  "en": "So let's talk a little bit about agentic demand explosion.",
+  "zh": "那么让我们稍微谈一下智能体需求的爆发。"
+ },
+ {
+  "seg": 22,
+  "start": 130.093,
+  "end": 147.691,
+  "speaker": "Unknown",
+  "en": "In the classical web serving before the AI inference workloads kicked off, the capacity scale roughly linearly with users, depending upon the workload type, double the users, mostly double the QPS, double the infrastructure fleet if there are no optimizations, and capacity planning was mostly a spreadsheet exercise.",
+  "zh": "在 AI 推理工作负载兴起之前的经典 Web 服务中,容量大致与用户数呈线性关系,取决于工作负载类型,用户翻倍,QPS 大多翻倍,如果没有优化,基础设施集群也翻倍,而容量规划大多只是个电子表格练习。"
+ },
+ {
+  "seg": 23,
+  "start": 148.452,
+  "end": 160.262,
+  "speaker": "Unknown",
+  "en": "In this new agentic serving, capacity is scaling with number of users time, number of calls per users times number of tokens, which varies depending on the model, the optimizations, the hardware SKU you have.",
+  "zh": "在这种新的智能体服务中,容量是随着用户数乘以每用户调用次数乘以 token 数而扩展的,这些因素取决于你拥有的模型、优化和硬件 SKU。"
+ },
+ {
+  "seg": 24,
+  "start": 161.483,
+  "end": 163.485,
+  "speaker": "Unknown",
+  "en": "A chatbot can have one model call per turn,",
+  "zh": "一个聊天机器人每轮可能只有一次模型调用,"
+ },
+ {
+  "seg": 25,
+  "start": 164.727,
+  "end": 169.912,
+  "speaker": "Unknown",
+  "en": "Which is evolving now with 10 to 20 for co-pilots and 50 for research agents.",
+  "zh": "而现在它正在演进,co-pilot 是 10 到 20 次,研究智能体是 50 次。"
+ },
+ {
+  "seg": 26,
+  "start": 169.972,
+  "end": 174.257,
+  "speaker": "Unknown",
+  "en": "And now it's thousands of such calls for autonomous workloads with no human in the loop.",
+  "zh": "而现在,对于无人在环的自主工作负载,是数千次这样的调用。"
+ },
+ {
+  "seg": 27,
+  "start": 175.037,
+  "end": 180.183,
+  "speaker": "Unknown",
+  "en": "The key takeaway that you cannot plan capacity for the agents the same way we did for microservices.",
+  "zh": "关键的要点是:你不能用我们规划微服务的方式来规划智能体的容量。"
+ },
+ {
+  "seg": 28,
+  "start": 180.763,
+  "end": 185.388,
+  "speaker": "Unknown",
+  "en": "We need to think about elasticity and implement workload-aware scheduling and admission control.",
+  "zh": "我们需要思考弹性,并实现工作负载感知的调度和准入控制。"
+ },
+ {
+  "seg": 29,
+  "start": 189.287,
+  "end": 198.149,
+  "speaker": "Unknown",
+  "en": "Now, let's try to dive a little bit deep into the differences, pros and cons, differences between the traditional microservice serving versus the modern inference serving across these key dimensions.",
+  "zh": "现在,让我们试着更深入地探讨一下传统微服务与现代推理服务之间的差异、优缺点,跨越这些关键维度。"
+ },
+ {
+  "seg": 30,
+  "start": 199.349,
+  "end": 199.949,
+  "speaker": "Unknown",
+  "en": "The request shape.",
+  "zh": "请求形态。"
+ },
+ {
+  "seg": 31,
+  "start": 200.589,
+  "end": 212.632,
+  "speaker": "Unknown",
+  "en": "Microservices assume short, uniform request, wherever the LLM requests we are seeing in our workloads, they can vary from 50 tokens to 100,000 tokens, with vastly different compute profiles between pre-fill and decode stage.",
+  "zh": "微服务假设请求短而均匀,而在我们的工作负载中看到的 LLM 请求,token 数可以从 50 到 100,000 不等,pre-fill 和 decode 阶段之间的计算特征差异巨大。"
+ },
+ {
+  "seg": 32,
+  "start": 213.871,
+  "end": 219.915,
+  "speaker": "Unknown",
+  "en": "For batching, classical stacks for microservices was doing stacking, batching mostly at the load balance layer, if at all.",
+  "zh": "至于批处理,微服务的经典技术栈大多是在负载均衡层做批处理,如果有的话。"
+ },
+ {
+  "seg": 33,
+  "start": 220.856,
+  "end": 227.3,
+  "speaker": "Unknown",
+  "en": "However, LLM serving requires continuous in-flight batching, how otherwise the throughput collapses by an order of magnitude or more.",
+  "zh": "然而,LLM 服务需要持续的 in-flight 批处理,否则吞吐量会崩溃一个数量级或更多。"
+ },
+ {
+  "seg": 34,
+  "start": 228.841,
+  "end": 233.904,
+  "speaker": "Unknown",
+  "en": "State, most of the classical microservices were stateless when we're not talking about storage layer.",
+  "zh": "状态,大多数经典微服务是无状态的,这里我们不谈存储层。"
+ },
+ {
+  "seg": 35,
+  "start": 234.445,
+  "end": 242.51,
+  "speaker": "Unknown",
+  "en": "However, LLM serving does require a huge per request state, the KVCache, which is very expensive to build and even more expensive to throw away.",
+  "zh": "然而,LLM 服务确实需要巨大的每请求状态,即 KVCache,它构建起来非常昂贵,扔掉它则更加昂贵。"
+ },
+ {
+  "seg": 36,
+  "start": 243.988,
+  "end": 244.669,
+  "speaker": "Unknown",
+  "en": "Scaling units.",
+  "zh": "扩展单元。"
+ },
+ {
+  "seg": 37,
+  "start": 245.589,
+  "end": 250.713,
+  "speaker": "Unknown",
+  "en": "When we think about traditional microservices, we could run them in cheap CPUs, in pods.",
+  "zh": "当我们想到传统微服务时,我们可以在廉价的 CPU 上、在 pod 里运行它们。"
+ },
+ {
+  "seg": 38,
+  "start": 251.133,
+  "end": 260.179,
+  "speaker": "Unknown",
+  "en": "However, for modern inferencing, we're required to run on GPUs, which are 100 times more expensive, which are 10 times slower to acquire, and we cannot over-provision them casually.",
+  "zh": "然而,对于现代推理,我们必须运行在 GPU 上,GPU 贵 100 倍,获取速度慢 10 倍,我们不能随意超额配置。"
+ },
+ {
+  "seg": 39,
+  "start": 260.419,
+  "end": 262.581,
+  "speaker": "Unknown",
+  "en": "Otherwise, it will lead to a huge wastage.",
+  "zh": "否则会导致巨大的浪费。"
+ },
+ {
+  "seg": 40,
+  "start": 263.982,
+  "end": 264.502,
+  "speaker": "Unknown",
+  "en": "Failure mode.",
+  "zh": "故障模式。"
+ },
+ {
+  "seg": 41,
+  "start": 265.697,
+  "end": 274.581,
+  "speaker": "Unknown",
+  "en": "When you think about traditional microservices like most of us have built over the last couple of years, we could, even if a host crashed or a pod crashed, we could restart it.",
+  "zh": "当你想到过去几年我们大多数人构建过的传统微服务,即使一台主机崩溃或一个 pod 崩溃,我们可以重启它。"
+ },
+ {
+  "seg": 42,
+  "start": 274.881,
+  "end": 276.442,
+  "speaker": "Unknown",
+  "en": "We could rebuild the state if needed be.",
+  "zh": "如果需要,我们可以重建状态。"
+ },
+ {
+  "seg": 43,
+  "start": 276.902,
+  "end": 281.904,
+  "speaker": "Unknown",
+  "en": "However, for the model inferencing, it takes a huge amount of time to go from cold to hot startup.",
+  "zh": "然而,对于模型推理,从冷启动到热启动需要大量时间。"
+ },
+ {
+  "seg": 44,
+  "start": 282.485,
+  "end": 289.388,
+  "speaker": "Unknown",
+  "en": "And these, and if a GPU is mid-decode, it can drop thousands of in-flight tokens and it can lead to a queue buildup.",
+  "zh": "而且如果一台 GPU 正处于 decode 中途,它可能丢弃数千个 in-flight token,并可能导致队列积压。"
+ },
+ {
+  "seg": 45,
+  "start": 290.608,
+  "end": 294.57,
+  "speaker": "Unknown",
+  "en": "The takeaway is that the bottleneck is not just the model, it's the orchestration itself.",
+  "zh": "要点是:瓶颈不仅仅是模型,而是编排本身。"
+ },
+ {
+  "seg": 46,
+  "start": 298.587,
+  "end": 306.317,
+  "speaker": "Unknown",
+  "en": "As we can see in these hidden decisions behind a prompt, when we go to any genetic application, it requires a bunch of steps which are behind the scenes.",
+  "zh": "正如我们可以在一个提示词背后的这些隐藏决策中看到的,当我们使用任何智能体应用时,它需要一系列幕后步骤。"
+ },
+ {
+  "seg": 47,
+  "start": 306.578,
+  "end": 307.399,
+  "speaker": "Unknown",
+  "en": "We have to authenticate.",
+  "zh": "我们必须进行身份验证。"
+ },
+ {
+  "seg": 48,
+  "start": 307.419,
+  "end": 309.822,
+  "speaker": "Unknown",
+  "en": "We have to choose a model depending on the request type.",
+  "zh": "我们必须根据请求类型选择一个模型。"
+ },
+ {
+  "seg": 49,
+  "start": 309.842,
+  "end": 311.143,
+  "speaker": "Unknown",
+  "en": "We have to select the region where it goes.",
+  "zh": "我们必须选择它要去的区域。"
+ },
+ {
+  "seg": 50,
+  "start": 311.484,
+  "end": 312.565,
+  "speaker": "Unknown",
+  "en": "We have to do admission control.",
+  "zh": "我们必须做准入控制。"
+ },
+ {
+  "seg": 51,
+  "start": 312.585,
+  "end": 313.887,
+  "speaker": "Unknown",
+  "en": "We have to do caching lookup.",
+  "zh": "我们必须做缓存查找。"
+ },
+ {
+  "seg": 52,
+  "start": 314.808,
+  "end": 317.071,
+  "speaker": "Unknown",
+  "en": "We have to run it on the GPU.",
+  "zh": "我们必须在 GPU 上运行它。"
+ },
+ {
+  "seg": 53,
+  "start": 317.091,
+  "end": 317.973,
+  "speaker": "Unknown",
+  "en": "We have to do batching.",
+  "zh": "我们必须做批处理。"
+ },
+ {
+  "seg": 54,
+  "start": 318.173,
+  "end": 319.475,
+  "speaker": "Unknown",
+  "en": "And there's a bunch of other steps involved.",
+  "zh": "还涉及很多其他步骤。"
+ },
+ {
+  "seg": 55,
+  "start": 319.855,
+  "end": 329.569,
+  "speaker": "Unknown",
+  "en": "And as we can see, out of all these steps, only one step requires the model, which is the prefilled decode, if it's disaggregated inference or just if it's not disaggregated inference.",
+  "zh": "我们可以看到，在所有这些步骤中，只有一个步骤需要用到模型，也就是预填充解码，如果它是非分离式推理，或者只是如果它不是分离式推理。"
+ },
+ {
+  "seg": 56,
+  "start": 330.069,
+  "end": 331.351,
+  "speaker": "Unknown",
+  "en": "Other steps require infrastructure.",
+  "zh": "其他步骤需要的是基础设施。"
+ },
+ {
+  "seg": 57,
+  "start": 331.972,
+  "end": 337.698,
+  "speaker": "Unknown",
+  "en": "The intelligence might lie in the model, but the economics, the reliability, and the user experience are all in the infrastructure.",
+  "zh": "智能可能存在于模型中，但经济性、可靠性和用户体验全都在基础设施里。"
+ },
+ {
+  "seg": 58,
+  "start": 338.359,
+  "end": 346.808,
+  "speaker": "Unknown",
+  "en": "And this is why a lot of platform teams across a lot of companies are having much more impact on the product quality and the success much more than before.",
+  "zh": "这就是为什么很多公司的很多平台团队，对产品质量和成功的影响比以前大得多。"
+ },
+ {
+  "seg": 59,
+  "start": 350.435,
+  "end": 354.417,
+  "speaker": "Unknown",
+  "en": "Most of us in this room have a deep expertise across one or two or three layers.",
+  "zh": "这个房间里的大多数人都对一到两三层有深入的专业知识。"
+ },
+ {
+  "seg": 60,
+  "start": 354.697,
+  "end": 356.919,
+  "speaker": "Unknown",
+  "en": "We might own kernels or kernel optimizations.",
+  "zh": "我们可能负责内核或内核优化。"
+ },
+ {
+  "seg": 61,
+  "start": 357.219,
+  "end": 362.842,
+  "speaker": "Unknown",
+  "en": "We might own routing or the product itself, or we might be operating the GPU infrastructure or the cluster itself.",
+  "zh": "我们可能负责路由或产品本身，或者我们可能运营 GPU 基础设施或集群本身。"
+ },
+ {
+  "seg": 62,
+  "start": 363.522,
+  "end": 367.665,
+  "speaker": "Unknown",
+  "en": "But very few of us have operated the whole stack or thought about it end to end.",
+  "zh": "但我们当中很少有人运营过整个技术栈，或者对它做过端到端的思考。"
+ },
+ {
+  "seg": 63,
+  "start": 368.805,
+  "end": 371.507,
+  "speaker": "Unknown",
+  "en": "As you can see in these layers, these layers are not new.",
+  "zh": "正如你在这几层中所看到的，这些层级并不新鲜。"
+ },
+ {
+  "seg": 64,
+  "start": 371.627,
+  "end": 373.488,
+  "speaker": "Unknown",
+  "en": "They have been around for 20 years or more.",
+  "zh": "它们已经存在 20 年甚至更久了。"
+ },
+ {
+  "seg": 65,
+  "start": 374.128,
+  "end": 377.27,
+  "speaker": "Unknown",
+  "en": "What is new is the combination and the coupling between them.",
+  "zh": "新的是它们的组合以及彼此之间的耦合。"
+ },
+ {
+  "seg": 66,
+  "start": 378.445,
+  "end": 391.646,
+  "speaker": "Unknown",
+  "en": "A decision at the routing layer can change the cache hit rate at the model layer, which can change the batch composition, which can change the GPU utilization, which can change the auto-scaling decision because of the change in GPU utilization.",
+  "zh": "路由层的一个决策可以改变模型层的缓存命中率，进而改变批处理组成，进而改变 GPU 利用率，又因为 GPU 利用率的变化而改变自动扩缩容的决策。"
+ },
+ {
+  "seg": 67,
+  "start": 392.267,
+  "end": 393.288,
+  "speaker": "Unknown",
+  "en": "So, everything is entangled.",
+  "zh": "所以，一切都是相互纠缠的。"
+ },
+ {
+  "seg": 68,
+  "start": 394.285,
+  "end": 400.77,
+  "speaker": "Unknown",
+  "en": "When we have any regressions in our inference workloads, it's not just about understanding what happened at the caching layer or admission control.",
+  "zh": "当我们的推理工作负载出现任何性能回退时，问题就不只是理解缓存层或准入控制层发生了什么。"
+ },
+ {
+  "seg": 69,
+  "start": 401.17,
+  "end": 403.092,
+  "speaker": "Unknown",
+  "en": "We need to think about the stack top to bottom.",
+  "zh": "我们需要从上到下思考整个技术栈。"
+ },
+ {
+  "seg": 70,
+  "start": 404.052,
+  "end": 410.237,
+  "speaker": "Unknown",
+  "en": "And when we see any bottleneck, it's very, very important to understand at which layer is that bottleneck so that we can invest properly.",
+  "zh": "而当我们看到任何瓶颈时，非常非常重要的一点是要弄清楚这个瓶颈在哪一层，这样我们才能正确地投入资源。"
+ },
+ {
+  "seg": 71,
+  "start": 414.265,
+  "end": 417.086,
+  "speaker": "Unknown",
+  "en": "Now diving a little bit deep into how a prompt works.",
+  "zh": "现在稍微深入讲一下一个 prompt 是如何工作的。"
+ },
+ {
+  "seg": 72,
+  "start": 417.326,
+  "end": 428.151,
+  "speaker": "Unknown",
+  "en": "When we have a prompt for any application, be it just if you want to generate an image, or if you have a research task, or if you have complex multi-agent orchestration, more or less, it involves a bunch of these steps.",
+  "zh": "当我们有一个来自任何应用的 prompt 时，无论你只是想生成一张图片，还是有一个研究任务，或者你有复杂的多智能体编排，大致上，它都涉及这样一串步骤。"
+ },
+ {
+  "seg": 73,
+  "start": 428.831,
+  "end": 430.072,
+  "speaker": "Unknown",
+  "en": "The prompt goes to the gateway.",
+  "zh": "prompt 先到网关。"
+ },
+ {
+  "seg": 74,
+  "start": 430.832,
+  "end": 436.716,
+  "speaker": "Unknown",
+  "en": "Then it goes to the router, after which it does the cache lookup if the request was already seen before.",
+  "zh": "然后到路由器，之后如果这个请求之前被见过，就会做缓存查找。"
+ },
+ {
+  "seg": 75,
+  "start": 437.217,
+  "end": 442.26,
+  "speaker": "Unknown",
+  "en": "Then it goes to the schedulers, which decides on which GPU cluster it should run, and on which hardware.",
+  "zh": "然后到调度器，由它决定应该在哪个 GPU 集群上运行，以及在哪种硬件上。"
+ },
+ {
+  "seg": 76,
+  "start": 442.28,
+  "end": 450.326,
+  "speaker": "Unknown",
+  "en": "It can be on NVIDIA or AMD or your in-house silicon chip, which then goes to the appropriate serving runtime, VLL, MSGLang, or whatever we are working on.",
+  "zh": "可以是 NVIDIA 或 AMD 或你自研的硅芯片，然后进入相应的服务运行时，VLL、MSGLang，或者我们正在做的任何东西。"
+ },
+ {
+  "seg": 77,
+  "start": 450.867,
+  "end": 460.134,
+  "speaker": "Unknown",
+  "en": "And then we extreme the response back to the user according to the SLO profiles of time to first token and time between each token, and while making sure the throughput is what the user desired.",
+  "zh": "然后我们根据首 token 时间和每个 token 之间时间的 SLO 配置，把响应流式传回给用户，同时确保吞吐量符合用户的期望。"
+ },
+ {
+  "seg": 78,
+  "start": 461.163,
+  "end": 464.846,
+  "speaker": "Unknown",
+  "en": "Now, as we can see, this inference behaves like a distributed transaction.",
+  "zh": "现在，我们可以看到，这种推理表现得像一个分布式事务。"
+ },
+ {
+  "seg": 79,
+  "start": 465.766,
+  "end": 468.368,
+  "speaker": "Unknown",
+  "en": "Each arrow in this diagram is a network hop.",
+  "zh": "这张图里的每一个箭头都是一跳网络。"
+ },
+ {
+  "seg": 80,
+  "start": 468.548,
+  "end": 470.689,
+  "speaker": "Unknown",
+  "en": "Every one of these hops can retry.",
+  "zh": "其中每一跳都可能重试。"
+ },
+ {
+  "seg": 81,
+  "start": 470.87,
+  "end": 471.55,
+  "speaker": "Unknown",
+  "en": "It can time out.",
+  "zh": "它可能超时。"
+ },
+ {
+  "seg": 82,
+  "start": 472.01,
+  "end": 472.811,
+  "speaker": "Unknown",
+  "en": "It can fall back.",
+  "zh": "它可能回退。"
+ },
+ {
+  "seg": 83,
+  "start": 473.171,
+  "end": 473.872,
+  "speaker": "Unknown",
+  "en": "It can even fail.",
+  "zh": "它甚至可能失败。"
+ },
+ {
+  "seg": 84,
+  "start": 474.752,
+  "end": 480.276,
+  "speaker": "Unknown",
+  "en": "And each of these hops will have an SLOs, and it is streaming back to the user.",
+  "zh": "而且每一跳都会有各自的 SLO，并且它在向用户流式返回。"
+ },
+ {
+  "seg": 85,
+  "start": 480.556,
+  "end": 485.76,
+  "speaker": "Unknown",
+  "en": "So, if it fails, the partial philisemantics are much harder to deal with than for a regular RPC call.",
+  "zh": "所以，一旦失败，部分结果写入的语义比普通的 RPC 调用要难处理得多。"
+ },
+ {
+  "seg": 86,
+  "start": 486.962,
+  "end": 495.969,
+  "speaker": "Unknown",
+  "en": "Think about what happens if we have already streamed 200 tokens back to the user and suddenly a GPU host is preempted due to a scheduled or a planned or unplanned maintenance event.",
+  "zh": "想想看，如果我们已经向用户流式返回了 200 个 token，突然一个 GPU 主机因为一次计划内或计划外的维护事件被抢占，会发生什么。"
+ },
+ {
+  "seg": 87,
+  "start": 496.53,
+  "end": 497.47,
+  "speaker": "Unknown",
+  "en": "We cannot just retry.",
+  "zh": "我们不能只是简单地重试。"
+ },
+ {
+  "seg": 88,
+  "start": 497.65,
+  "end": 498.911,
+  "speaker": "Unknown",
+  "en": "We have to think about it holistically.",
+  "zh": "我们必须从整体上思考这个问题。"
+ },
+ {
+  "seg": 89,
+  "start": 499.772,
+  "end": 502.955,
+  "speaker": "Unknown",
+  "en": "This is why reliability, we cannot build reliability at the edge.",
+  "zh": "这就是为什么可靠性，我们无法只在边缘构建可靠性。"
+ },
+ {
+  "seg": 90,
+  "start": 503.115,
+  "end": 508.419,
+  "speaker": "Unknown",
+  "en": "It has to be a property of the control plane because the control plane is the one which sees the whole workflow.",
+  "zh": "它必须是控制平面的一种属性，因为控制平面是看到整个工作流的那一方。"
+ },
+ {
+  "seg": 91,
+  "start": 511.92,
+  "end": 516.884,
+  "speaker": "Unknown",
+  "en": "Now let's talk about schedulers and some of the optimizations and how we can think about it.",
+  "zh": "现在我们来谈谈调度器以及一些优化思路，以及我们该如何思考它。"
+ },
+ {
+  "seg": 92,
+  "start": 517.645,
+  "end": 523.09,
+  "speaker": "Unknown",
+  "en": "So for the traditional microservices, we used to think about bin packing of traditional microservices across three, four dimensions.",
+  "zh": "对于传统微服务，我们过去是在三、四个维度上考虑传统微服务的装箱问题。"
+ },
+ {
+  "seg": 93,
+  "start": 523.43,
+  "end": 531.938,
+  "speaker": "Unknown",
+  "en": "Could be across the socialization, CPU memory, or could be across four domains, depending upon if you're using AWS, if you're using your own in-house cloud providers.",
+  "zh": "可以是按容器化、CPU 内存，也可以是跨四个域，取决于你用的是 AWS，还是用你自己的内部云服务商。"
+ },
+ {
+  "seg": 94,
+  "start": 532.598,
+  "end": 538.724,
+  "speaker": "Unknown",
+  "en": "But for inference, the scheduler needs to be aware of across at least seven access when we schedule a particular request.",
+  "zh": "但对于推理，当我们调度一个特定请求时，调度器需要至少在七个轴上具备感知能力。"
+ },
+ {
+  "seg": 95,
+  "start": 539.324,
+  "end": 540.605,
+  "speaker": "Unknown",
+  "en": "It has to be aware of the GPU type.",
+  "zh": "它必须感知 GPU 类型。"
+ },
+ {
+  "seg": 96,
+  "start": 540.806,
+  "end": 548.173,
+  "speaker": "Unknown",
+  "en": "There can be any number of heterogeneous hardwares in your cluster, H100 versus E100 versus B200, with different network topologies.",
+  "zh": "你的集群里可能有任意数量的异构硬件，H100 对比 E100 对比 B200，还带有不同的网络拓扑。"
+ },
+ {
+  "seg": 97,
+  "start": 549.435,
+  "end": 552.358,
+  "speaker": "Unknown",
+  "en": "It has to be aware of the HPM headroom, KV cache state.",
+  "zh": "它必须感知 HPM 余量、KV 缓存状态。"
+ },
+ {
+  "seg": 98,
+  "start": 553.45,
+  "end": 559.292,
+  "speaker": "Unknown",
+  "en": "The model waits whether they're already loaded, whether they're cold or we have to, whether they've already warmed up, we have to cold start it.",
+  "zh": "模型权重是否已经加载、是否是冷的，或者是否需要，是否已经预热，我们是否需要冷启动它。"
+ },
+ {
+  "seg": 99,
+  "start": 560.252,
+  "end": 561.673,
+  "speaker": "Unknown",
+  "en": "It has to be aware of the tenant priority.",
+  "zh": "它必须感知租户优先级。"
+ },
+ {
+  "seg": 100,
+  "start": 561.993,
+  "end": 566.554,
+  "speaker": "Unknown",
+  "en": "There can be any number of tenants running on that multi-tenant cluster with different SLO profiles.",
+  "zh": "在那个多租户集群上可以有任意数量的租户在运行,各自有不同的 SLO 配置。"
+ },
+ {
+  "seg": 101,
+  "start": 567.174,
+  "end": 569.495,
+  "speaker": "Unknown",
+  "en": "We have to also be aware of the workflow context.",
+  "zh": "我们还必须意识到工作流上下文。"
+ },
+ {
+  "seg": 102,
+  "start": 570.175,
+  "end": 578.578,
+  "speaker": "Unknown",
+  "en": "Are we in the third step of reasoning that has already spent X dollar or are we at the initial stages and we can terminate the workflow if we are over-provisioned?",
+  "zh": "我们是处在已经花了 X 美元的推理的第三步,还是处在初始阶段,如果我们过度配置了,可以终止这个工作流?"
+ },
+ {
+  "seg": 103,
+  "start": 579.258,
+  "end": 583.603,
+  "speaker": "Unknown",
+  "en": "We have to also think about latency budget, depending upon the type of agentic application we are building.",
+  "zh": "我们还必须考虑延迟预算,这取决于我们正在构建的智能体应用的类型。"
+ },
+ {
+  "seg": 104,
+  "start": 584.444,
+  "end": 589.39,
+  "speaker": "Unknown",
+  "en": "So this brings us to the idea that we have to make sure that we implement agentic aware scheduling.",
+  "zh": "所以这就引出了一个想法:我们必须确保实现智能体感知调度。"
+ },
+ {
+  "seg": 105,
+  "start": 589.99,
+  "end": 597.479,
+  "speaker": "Unknown",
+  "en": "We have to make sure that we have placed the work which will finish in the fastest and the cheapest time, as opposed to just placing it on a random GPU.",
+  "zh": "我们必须确保把工作放到能以最快、最便宜的时间完成的地方,而不是随便放到某张 GPU 上。"
+ },
+ {
+  "seg": 106,
+  "start": 599.265,
+  "end": 609.215,
+  "speaker": "Unknown",
+  "en": "A concrete example might be that the skiller needs to be aware that request R is at step three of a five-minute workflow, and step one and two has already spent X plus Y dollar.",
+  "zh": "一个具体的例子可能是,调度器需要知道请求 R 处于五分钟工作流的第三步,而第一步和第二步已经花了 X 加 Y 美元。"
+ },
+ {
+  "seg": 107,
+  "start": 609.856,
+  "end": 614.4,
+  "speaker": "Unknown",
+  "en": "So if a step three fails, the whole workflow will be terminated, and we have wasted all that compute resources.",
+  "zh": "所以如果第三步失败了,整个工作流就会被终止,我们就浪费了所有那些计算资源。"
+ },
+ {
+  "seg": 108,
+  "start": 614.881,
+  "end": 622.549,
+  "speaker": "Unknown",
+  "en": "That's why workflow-aware orchestration is very, very important because it will change the admission decisions, the priority, and how we retry.",
+  "zh": "这就是为什么工作流感知编排非常非常重要,因为它会改变准入决策、优先级,以及我们如何重试。"
+ },
+ {
+  "seg": 109,
+  "start": 625.411,
+  "end": 626.751,
+  "speaker": "Unknown",
+  "en": "Now let's talk about optimizations.",
+  "zh": "现在我们来谈谈优化。"
+ },
+ {
+  "seg": 110,
+  "start": 627.571,
+  "end": 629.812,
+  "speaker": "Unknown",
+  "en": "I will not go too deep into a lot of optimizations.",
+  "zh": "我不会太深入地讲很多优化。"
+ },
+ {
+  "seg": 111,
+  "start": 629.832,
+  "end": 636.653,
+  "speaker": "Unknown",
+  "en": "There's a lot of research which has already been done outside, but I would like to share a framework which at least I like to use when it comes to it.",
+  "zh": "外面已经有很多现成的研究了,但我想分享一个框架,至少我自己在这方面会用它。"
+ },
+ {
+  "seg": 112,
+  "start": 637.753,
+  "end": 639.633,
+  "speaker": "Unknown",
+  "en": "And we can place it into four quadrants.",
+  "zh": "我们可以把它分成四个象限。"
+ },
+ {
+  "seg": 113,
+  "start": 640.174,
+  "end": 641.494,
+  "speaker": "Unknown",
+  "en": "First, can we avoid the work?",
+  "zh": "第一,我们能不能避免这项工作?"
+ },
+ {
+  "seg": 114,
+  "start": 642.234,
+  "end": 644.134,
+  "speaker": "Unknown",
+  "en": "Meaning, can we skip it entirely through caching?",
+  "zh": "意思是,我们能不能通过缓存完全跳过它?"
+ },
+ {
+  "seg": 115,
+  "start": 644.594,
+  "end": 647.995,
+  "speaker": "Unknown",
+  "en": "Through techniques like prefix caching, response caching, semantic caching.",
+  "zh": "通过前缀缓存、响应缓存、语义缓存这类技术。"
+ },
+ {
+  "seg": 116,
+  "start": 648.875,
+  "end": 650.755,
+  "speaker": "Unknown",
+  "en": "The second, can we share the work?",
+  "zh": "第二,我们能不能共享这项工作?"
+ },
+ {
+  "seg": 117,
+  "start": 651.115,
+  "end": 653.816,
+  "speaker": "Unknown",
+  "en": "Can multiple requests share compute through batching?",
+  "zh": "多个请求能不能通过批处理共享计算?"
+ },
+ {
+  "seg": 118,
+  "start": 654.784,
+  "end": 658.806,
+  "speaker": "Unknown",
+  "en": "Think content batching, pre-fail decode, chunk pre-fail, specular decoding.",
+  "zh": "想想内容批处理、pre-fail 解码、chunk pre-fail、投机解码。"
+ },
+ {
+  "seg": 119,
+  "start": 659.686,
+  "end": 661.307,
+  "speaker": "Unknown",
+  "en": "Third, can we move away the work?",
+  "zh": "第三,我们能不能把这项工作移走?"
+ },
+ {
+  "seg": 120,
+  "start": 661.747,
+  "end": 667.069,
+  "speaker": "Unknown",
+  "en": "Can we send it somewhere to a cheaper model or closer to the user through mostly routing?",
+  "zh": "我们能不能把它发到某个更便宜的模型那里,或者通过 mostly 路由把它发到离用户更近的地方?"
+ },
+ {
+  "seg": 121,
+  "start": 667.209,
+  "end": 671.191,
+  "speaker": "Unknown",
+  "en": "Can we route it to a smaller model or a cheaper region or some other techniques?",
+  "zh": "我们能不能把它路由到更小的模型、更便宜的区域,或者其他一些技术?"
+ },
+ {
+  "seg": 122,
+  "start": 672.185,
+  "end": 673.547,
+  "speaker": "Unknown",
+  "en": "And lastly, can we delay the work?",
+  "zh": "最后,我们能不能延迟这项工作?"
+ },
+ {
+  "seg": 123,
+  "start": 674.007,
+  "end": 684.92,
+  "speaker": "Unknown",
+  "en": "Can we wait for a better moment through admission control and queuing, which requires us to understand the priority classes of these requests and implemented deadline-aware scheduling?",
+  "zh": "我们能不能通过准入控制和排队等待一个更好的时机?这就要求我们理解这些请求的优先级类别,并实现截止时间感知调度。"
+ },
+ {
+  "seg": 124,
+  "start": 685.922,
+  "end": 689.765,
+  "speaker": "Unknown",
+  "en": "Now, this framework is very powerful because it transfers to various stacks.",
+  "zh": "这个框架非常强大,因为它可以迁移到各种技术栈。"
+ },
+ {
+  "seg": 125,
+  "start": 689.805,
+  "end": 695.029,
+  "speaker": "Unknown",
+  "en": "You might be using vLLM or SGLang or TensorRT, but every technique fits into one of these quadrants.",
+  "zh": "你可能用的是 vLLM、SGLang 或 TensorRT,但每一项技术都能归入这四个象限之一。"
+ },
+ {
+  "seg": 126,
+  "start": 695.55,
+  "end": 703.876,
+  "speaker": "Unknown",
+  "en": "So, whenever we think about any optimization to our model, we have to do a comparison and contrast with the previous techniques and see how all these stack with each other.",
+  "zh": "所以,每当我们考虑对模型做任何优化时,我们都必须与之前的技术做对比,看看这些技术如何相互叠加。"
+ },
+ {
+  "seg": 127,
+  "start": 707.359,
+  "end": 711.142,
+  "speaker": "Unknown",
+  "en": "Now, whenever we think about scale, it's not just important to think about the performance of the model.",
+  "zh": "现在,每当我们考虑规模时,重要的不仅仅是考虑模型的性能。"
+ },
+ {
+  "seg": 128,
+  "start": 711.583,
+  "end": 713.985,
+  "speaker": "Unknown",
+  "en": "We have to think about the cost economics as well.",
+  "zh": "我们还必须考虑成本经济学。"
+ },
+ {
+  "seg": 129,
+  "start": 714.465,
+  "end": 714.945,
+  "speaker": "Unknown",
+  "en": "This is where",
+  "zh": "这就是"
+ },
+ {
+  "seg": 130,
+  "start": 715.895,
+  "end": 721.94,
+  "speaker": "Unknown",
+  "en": "It's important to understand what metric we are trying to optimize because the cost is not just the cost of the GPU or the model.",
+  "zh": "理解我们要优化的是什么指标很重要,因为成本不仅仅是 GPU 或模型的成本。"
+ },
+ {
+  "seg": 131,
+  "start": 722.421,
+  "end": 729.426,
+  "speaker": "Unknown",
+  "en": "It is the cost of all these parameters, retries, storage, failures, network, and of course, the operational cost of development and all that stuff.",
+  "zh": "它是所有这些参数的成本:重试、存储、失败、网络,当然还有开发等的运维成本。"
+ },
+ {
+  "seg": 132,
+  "start": 730.067,
+  "end": 736.793,
+  "speaker": "Unknown",
+  "en": "What is important is to understand what is the key performance indicator for your product, which will add value to the users.",
+  "zh": "重要的是理解你的产品的关键性能指标是什么,它会为用户增加价值。"
+ },
+ {
+  "seg": 133,
+  "start": 737.353,
+  "end": 741.576,
+  "speaker": "Unknown",
+  "en": "So, it's not important to optimize just cost per token or cost per request.",
+  "zh": "所以,只优化每 token 成本或每请求成本并不重要。"
+ },
+ {
+  "seg": 134,
+  "start": 742.277,
+  "end": 746.06,
+  "speaker": "Unknown",
+  "en": "We have to optimize cost per successful task because this is what actually users care about.",
+  "zh": "我们必须优化每个成功任务的成本,因为这才是用户真正关心的。"
+ },
+ {
+  "seg": 135,
+  "start": 746.46,
+  "end": 751.364,
+  "speaker": "Unknown",
+  "en": "And if we're able to optimize that, the cost for the overall product decreases and the users are much more happier.",
+  "zh": "如果我们能够优化这一点,整个产品的成本就会下降,用户也会更开心得多。"
+ },
+ {
+  "seg": 136,
+  "start": 756.728,
+  "end": 762.332,
+  "speaker": "Unknown",
+  "en": "Now let's talk about reliability, a little bit about reliability and what it means to prevent cascading failures.",
+  "zh": "现在我们来谈谈可靠性,稍微谈谈可靠性以及防止级联失败意味着什么。"
+ },
+ {
+  "seg": 137,
+  "start": 763.128,
+  "end": 766.111,
+  "speaker": "Unknown",
+  "en": "Now the failure story is never a GPU is preempted or a GPU has died.",
+  "zh": "故障的故事从来不是某张 GPU 被抢占或某张 GPU 挂了。"
+ },
+ {
+  "seg": 138,
+  "start": 766.692,
+  "end": 769.254,
+  "speaker": "Unknown",
+  "en": "The interesting story is the feedback loop that follows.",
+  "zh": "有意思的故事是随之而来的反馈循环。"
+ },
+ {
+  "seg": 139,
+  "start": 770.015,
+  "end": 782.166,
+  "speaker": "Unknown",
+  "en": "So a GPU can degrade, the latency can rise, the client retries, the queue depth increases, the healthy GPUs will saturate, which will follow more retries, more full regional failures.",
+  "zh": "所以一张 GPU 可能性能退化,延迟上升,客户端重试,队列深度增加,健康的 GPU 会饱和,从而引发更多重试、更多整个区域的故障。"
+ },
+ {
+  "seg": 140,
+  "start": 783.24,
+  "end": 789.129,
+  "speaker": "Unknown",
+  "en": "This is the classic cascading failures, but with a twist for agentic application, the KVCache.",
+  "zh": "这是经典的级联失败,但对于智能体应用有一个变数:KVCache。"
+ },
+ {
+  "seg": 141,
+  "start": 789.85,
+  "end": 792.734,
+  "speaker": "Unknown",
+  "en": "We cannot just casually restart or reroute to a different cluster.",
+  "zh": "我们不能随意地重启或重路由到另一个集群。"
+ },
+ {
+  "seg": 142,
+  "start": 793.555,
+  "end": 799.304,
+  "speaker": "Unknown",
+  "en": "A cold pool has to warm up before it can absorb traffic, during which the hot pool has to take on all those requests.",
+  "zh": "冷池必须先预热才能承接流量,在此期间热池必须承接所有那些请求。"
+ },
+ {
+  "seg": 143,
+  "start": 800.398,
+  "end": 804.161,
+  "speaker": "Unknown",
+  "en": "This is why it's important to design the loop breakers very deliberately.",
+  "zh": "这就是为什么必须非常审慎地设计环路断路器。"
+ },
+ {
+  "seg": 144,
+  "start": 804.421,
+  "end": 813.567,
+  "speaker": "Unknown",
+  "en": "The circuit breakers at the routing layer, the admission control, which rejects rather than just queuing, the load shedding tied to queue depth, not just CPU or memory utilization.",
+  "zh": "路由层的熔断器、直接拒绝而不仅仅是排队的准入控制、与队列深度挂钩(而不仅仅是 CPU 或内存利用率)的负载卸载。"
+ },
+ {
+  "seg": 145,
+  "start": 814.148,
+  "end": 820.052,
+  "speaker": "Unknown",
+  "en": "And we have to also think about retry budgets because if we don't think about all these things, the cost can scale much, much more quickly.",
+  "zh": "我们还必须考虑重试预算,因为如果我们不考虑所有这些事情,成本可能会增长得快得多、多得多。"
+ },
+ {
+  "seg": 146,
+  "start": 823.454,
+  "end": 827.057,
+  "speaker": "Unknown",
+  "en": "Now I'll hand it over to my co-speaker Naman to talk about the remaining talk.",
+  "zh": "现在我把话筒交给我的共同讲者 Naman,来讲剩下的部分。"
+ },
+ {
+  "seg": 147,
+  "start": 896.383,
+  "end": 897.123,
+  "speaker": "Unknown",
+  "en": "Okay, this works, I guess.",
+  "zh": "好的,我想这个能用了。"
+ },
+ {
+  "seg": 148,
+  "start": 897.484,
+  "end": 898.184,
+  "speaker": "Unknown",
+  "en": "Sorry for .",
+  "zh": "抱歉 。"
+ },
+ {
+  "seg": 149,
+  "start": 898.905,
+  "end": 903.567,
+  "speaker": "Unknown",
+  "en": "So once inference reaches production scale, it starts looking much more like a distributed system.",
+  "zh": "所以一旦推理达到生产规模,它就开始看起来更像一个分布式系统了。"
+ },
+ {
+  "seg": 150,
+  "start": 904.048,
+  "end": 906.469,
+  "speaker": "Unknown",
+  "en": "We are not longer just calling a model.",
+  "zh": "我们不再只是调用一个模型。"
+ },
+ {
+  "seg": 151,
+  "start": 906.929,
+  "end": 909.371,
+  "speaker": "Unknown",
+  "en": "It's more like a classic distributed system problem.",
+  "zh": "这更像是一个经典的分布式系统问题。"
+ },
+ {
+  "seg": 152,
+  "start": 909.951,
+  "end": 915.034,
+  "speaker": "Unknown",
+  "en": "So in distributed system, we talk about queues, scheduling, auto-scaling, fault isolation.",
+  "zh": "在分布式系统中，我们讨论队列、调度、自动扩缩容、故障隔离。"
+ },
+ {
+  "seg": 153,
+  "start": 915.054,
+  "end": 916.095,
+  "speaker": "Unknown",
+  "en": "These are some of the dimensions.",
+  "zh": "这些是其中一些维度。"
+ },
+ {
+  "seg": 154,
+  "start": 916.755,
+  "end": 920.317,
+  "speaker": "Unknown",
+  "en": "Inference has all these problems, but they are new constraints now.",
+  "zh": "推理有所有这些问题，但现在是新的约束。"
+ },
+ {
+  "seg": 155,
+  "start": 920.898,
+  "end": 924.9,
+  "speaker": "Unknown",
+  "en": "Instead of CPU memory alone, we have CPU, HVM, KVCache,",
+  "zh": "不仅仅是 CPU 内存，我们还有 CPU、HVM、KVCache,"
+ },
+ {
+  "seg": 156,
+  "start": 925.57,
+  "end": 926.851,
+  "speaker": "Unknown",
+  "en": "And course per successful task.",
+  "zh": "以及每个成功任务的成本。"
+ },
+ {
+  "seg": 157,
+  "start": 927.431,
+  "end": 930.654,
+  "speaker": "Unknown",
+  "en": "So the operating question becomes how the platform know what to do next.",
+  "zh": "所以运营层面的问题变成了：平台如何知道接下来该做什么。"
+ },
+ {
+  "seg": 158,
+  "start": 931.795,
+  "end": 933.796,
+  "speaker": "Unknown",
+  "en": "And that's where observability comes into play.",
+  "zh": "这就是可观测性发挥作用的地方。"
+ },
+ {
+  "seg": 159,
+  "start": 934.297,
+  "end": 935.398,
+  "speaker": "Unknown",
+  "en": "It's not just about dashboards.",
+  "zh": "它是关于如何向控制回路提供输入信号。"
+ },
+ {
+  "seg": 160,
+  "start": 935.978,
+  "end": 939.18,
+  "speaker": "Unknown",
+  "en": "It's about how to provide input signal to the control loop.",
+  "zh": "这是关于如何向控制回路提供输入信号。"
+ },
+ {
+  "seg": 161,
+  "start": 939.681,
+  "end": 947.026,
+  "speaker": "Unknown",
+  "en": "Telemetry, fields, analysis, analysis drive decisions, issues and changes of scheduling and routing, and finally we just rinse and repeat.",
+  "zh": "遥测、字段、分析，分析驱动决策、调度和路由的问题与变更，最后我们只是不断重复这个过程。"
+ },
+ {
+  "seg": 162,
+  "start": 948.267,
+  "end": 950.569,
+  "speaker": "Unknown",
+  "en": "I'll just give an overview of what are some important metrics.",
+  "zh": "我来简单概述一下有哪些重要的指标。"
+ },
+ {
+  "seg": 163,
+  "start": 950.849,
+  "end": 954.212,
+  "speaker": "Unknown",
+  "en": "First one is time to first token, which tells me about",
+  "zh": "第一个是首 token 时间，它告诉我"
+ },
+ {
+  "seg": 164,
+  "start": 955.453,
+  "end": 958.014,
+  "speaker": "Unknown",
+  "en": "How much time does it really take to get the first response?",
+  "zh": "真正拿到第一个响应需要多少时间？"
+ },
+ {
+  "seg": 165,
+  "start": 958.834,
+  "end": 964.135,
+  "speaker": "Unknown",
+  "en": "Then we have a utilization ratio, which tells me whether memory or compute is the bottleneck.",
+  "zh": "然后我们有利用率比率，它告诉我内存还是计算是瓶颈。"
+ },
+ {
+  "seg": 166,
+  "start": 964.816,
+  "end": 970.277,
+  "speaker": "Unknown",
+  "en": "We have success per dollar that tests us whether platform is actually delivering and working efficiently.",
+  "zh": "我们有每美元成功数，它检验平台是否真正在交付并高效运行。"
+ },
+ {
+  "seg": 167,
+  "start": 970.877,
+  "end": 977.059,
+  "speaker": "Unknown",
+  "en": "And finally, we have end-to-end race latency that tells us what's the time being spent across the full request path.",
+  "zh": "最后，我们有端到端 race 延迟，它告诉我们整个请求路径上花费了多少时间。"
+ },
+ {
+  "seg": 168,
+  "start": 979.539,
+  "end": 982.2,
+  "speaker": "Unknown",
+  "en": "There's a co-trader between latency, cost, and throughput.",
+  "zh": "延迟、成本和吞吐量之间存在一种权衡。"
+ },
+ {
+  "seg": 169,
+  "start": 982.986,
+  "end": 984.206,
+  "speaker": "Unknown",
+  "en": "You cannot just get all of them.",
+  "zh": "你不可能同时得到全部三者。"
+ },
+ {
+  "seg": 170,
+  "start": 984.366,
+  "end": 986.167,
+  "speaker": "Unknown",
+  "en": "It's pretty analogous to cap theorem.",
+  "zh": "这很像 cap 定理。"
+ },
+ {
+  "seg": 171,
+  "start": 986.847,
+  "end": 992.968,
+  "speaker": "Unknown",
+  "en": "If I increase the batch size, I improve the throughput and cost efficiency, but I may hurt tail latency.",
+  "zh": "如果我增大批大小，我提高了吞吐量和成本效率，但可能会损害尾延迟。"
+ },
+ {
+  "seg": 172,
+  "start": 993.968,
+  "end": 998.609,
+  "speaker": "Unknown",
+  "en": "If I use speculative decoding, I may improve latency, but there are some extra compute.",
+  "zh": "如果我使用投机解码，我可能改善延迟，但会有一些额外的计算。"
+ },
+ {
+  "seg": 173,
+  "start": 998.909,
+  "end": 1001.269,
+  "speaker": "Unknown",
+  "en": "Ultimately, you know, we increase the cost for token.",
+  "zh": "最终，你知道，我们增加了每个 token 的成本。"
+ },
+ {
+  "seg": 174,
+  "start": 1002.109,
+  "end": 1004.29,
+  "speaker": "Unknown",
+  "en": "And finally, I can use a simple model, smaller model.",
+  "zh": "最后，我可以用一个简单的模型、更小的模型。"
+ },
+ {
+  "seg": 175,
+  "start": 1004.51,
+  "end": 1007.97,
+  "speaker": "Unknown",
+  "en": "I can reduce the latency and cost, but the response will be of low quality.",
+  "zh": "我可以降低延迟和成本，但响应的质量会较低。"
+ },
+ {
+  "seg": 176,
+  "start": 1008.41,
+  "end": 1011.991,
+  "speaker": "Unknown",
+  "en": "Ultimately, I'll do failure analysis, do retries, which brings the cost back up.",
+  "zh": "最终，我会做失败分析，进行重试，这又把成本抬了回去。"
+ },
+ {
+  "seg": 177,
+  "start": 1012.804,
+  "end": 1015.726,
+  "speaker": "Unknown",
+  "en": "So every serving decision moves systems somewhere in this triangle.",
+  "zh": "所以每一个服务决策都会把系统移动到这个三角形中的某个位置。"
+ },
+ {
+  "seg": 178,
+  "start": 1016.427,
+  "end": 1018.188,
+  "speaker": "Unknown",
+  "en": "And our job is to find the perfect setting.",
+  "zh": "而我们的工作就是找到完美的设置。"
+ },
+ {
+  "seg": 179,
+  "start": 1018.629,
+  "end": 1020.53,
+  "speaker": "Unknown",
+  "en": "It's just an optimization problem now.",
+  "zh": "现在这只是一个优化问题。"
+ },
+ {
+  "seg": 180,
+  "start": 1023.513,
+  "end": 1024.994,
+  "speaker": "Unknown",
+  "en": "This is where the industry is heading right now.",
+  "zh": "这就是当前行业正在走向的方向。"
+ },
+ {
+  "seg": 181,
+  "start": 1025.254,
+  "end": 1027.256,
+  "speaker": "Unknown",
+  "en": "Inference needs its own control plane.",
+  "zh": "推理需要它自己的控制平面。"
+ },
+ {
+  "seg": 182,
+  "start": 1028.036,
+  "end": 1034.662,
+  "speaker": "Unknown",
+  "en": "Everything we discussed, routing, batching, caching, scheduling, reliability, they cannot be a separate knob now.",
+  "zh": "我们讨论过的一切——路由、批处理、缓存、调度、可靠性——它们现在不能是独立的旋钮。"
+ },
+ {
+  "seg": 183,
+  "start": 1035.322,
+  "end": 1037.043,
+  "speaker": "Unknown",
+  "en": "They're converging into a logical layer.",
+  "zh": "它们正在汇聚成一个逻辑层。"
+ },
+ {
+  "seg": 184,
+  "start": 1037.224,
+  "end": 1038.945,
+  "speaker": "Unknown",
+  "en": "Let's call it Inference Control Plane.",
+  "zh": "我们称之为 Inference Control Plane。"
+ },
+ {
+  "seg": 185,
+  "start": 1039.655,
+  "end": 1041.896,
+  "speaker": "Unknown",
+  "en": "We used to manage VM before in distributed system.",
+  "zh": "我们以前在分布式系统中管理 VM。"
+ },
+ {
+  "seg": 186,
+  "start": 1041.916,
+  "end": 1043.337,
+  "speaker": "Unknown",
+  "en": "We have auto-scaling schedulers.",
+  "zh": "我们有自动扩缩容调度器。"
+ },
+ {
+  "seg": 187,
+  "start": 1043.957,
+  "end": 1046.879,
+  "speaker": "Unknown",
+  "en": "And we had Kubernetes, which turned these into control plane.",
+  "zh": "然后我们有了 Kubernetes,它把这些变成了控制平面。"
+ },
+ {
+  "seg": 188,
+  "start": 1047.319,
+  "end": 1050.501,
+  "speaker": "Unknown",
+  "en": "Inference is going through the same transition now.",
+  "zh": "推理现在正在经历同样的转变。"
+ },
+ {
+  "seg": 189,
+  "start": 1050.561,
+  "end": 1051.861,
+  "speaker": "Unknown",
+  "en": "Models are becoming resources.",
+  "zh": "模型正在成为资源。"
+ },
+ {
+  "seg": 190,
+  "start": 1052.261,
+  "end": 1055.883,
+  "speaker": "Unknown",
+  "en": "GPU, KVCache, token, latency, cost are now scheduled around.",
+  "zh": "GPU、KVCache、token、延迟、成本现在都是被调度的对象。"
+ },
+ {
+  "seg": 191,
+  "start": 1056.584,
+  "end": 1061.726,
+  "speaker": "Unknown",
+  "en": "The control plane decides which models serve which request and how it is batched.",
+  "zh": "控制平面决定哪些模型服务哪些请求，以及如何批处理。"
+ },
+ {
+  "seg": 192,
+  "start": 1062.387,
+  "end": 1068.81,
+  "speaker": "Unknown",
+  "en": "So whether we build this layer internally, use open source, or from a vendor, the key design is to assume layer will exist.",
+  "zh": "所以无论我们在内部构建这一层、使用开源，还是来自供应商，关键设计是假设这一层将会存在。"
+ },
+ {
+  "seg": 193,
+  "start": 1070.668,
+  "end": 1076.911,
+  "speaker": "Unknown",
+  "en": "Now let's discuss about where are some of the operating lessons we have experienced in AI infra and how they are applicable here.",
+  "zh": "现在让我们讨论一下，我们在 AI 基础设施中经历过哪些运营层面的教训，以及它们如何适用于这里。"
+ },
+ {
+  "seg": 194,
+  "start": 1077.651,
+  "end": 1082.193,
+  "speaker": "Unknown",
+  "en": "The first lesson is that infrastructure bottlenecks usually show up before model bottlenecks.",
+  "zh": "第一个教训是，基础设施瓶颈通常在模型瓶颈之前出现。"
+ },
+ {
+  "seg": 195,
+  "start": 1082.794,
+  "end": 1088.256,
+  "speaker": "Unknown",
+  "en": "In production, many failures can come, but they can be just about scheduling and routing or capacity breakdowns.",
+  "zh": "在生产环境中，可能出现很多故障，但它们可能只是关于调度和路由，或者容量崩溃。"
+ },
+ {
+  "seg": 196,
+  "start": 1088.316,
+  "end": 1090.097,
+  "speaker": "Unknown",
+  "en": "So these are not related to inference.",
+  "zh": "所以这些与推理无关。"
+ },
+ {
+  "seg": 197,
+  "start": 1090.317,
+  "end": 1091.678,
+  "speaker": "Unknown",
+  "en": "It's about infrastructure problems.",
+  "zh": "这是基础设施问题。"
+ },
+ {
+  "seg": 198,
+  "start": 1092.598,
+  "end": 1093.719,
+  "speaker": "Unknown",
+  "en": "Then we have elasticity.",
+  "zh": "然后我们讲弹性。"
+ },
+ {
+  "seg": 199,
+  "start": 1094.319,
+  "end": 1095.56,
+  "speaker": "Unknown",
+  "en": "We need elasticity in the system.",
+  "zh": "我们需要系统中的弹性。"
+ },
+ {
+  "seg": 200,
+  "start": 1095.58,
+  "end": 1098.981,
+  "speaker": "Unknown",
+  "en": "We can have more GPUs, but this will not really solve the problem.",
+  "zh": "我们可以有更多 GPU，但这并不能真正解决问题。"
+ },
+ {
+  "seg": 201,
+  "start": 1099.041,
+  "end": 1100.382,
+  "speaker": "Unknown",
+  "en": "We are just hiding the problem.",
+  "zh": "我们只是在掩盖问题。"
+ },
+ {
+  "seg": 202,
+  "start": 1101.585,
+  "end": 1106.066,
+  "speaker": "Unknown",
+  "en": "Then our solution to schedule the decision, overpowered efficiency.",
+  "zh": "然后我们的解决方案是调度决策，压倒性的效率。"
+ },
+ {
+  "seg": 203,
+  "start": 1106.746,
+  "end": 1111.607,
+  "speaker": "Unknown",
+  "en": "The same fleet can deliver very optimally, depending on how you're scheduling it or how you're badging it.",
+  "zh": "同一套机群可以非常优化地交付，取决于你怎么调度或怎么批处理。"
+ },
+ {
+  "seg": 204,
+  "start": 1112.507,
+  "end": 1115.167,
+  "speaker": "Unknown",
+  "en": "Then we have control loops, which beats the manual process.",
+  "zh": "然后我们有控制回路，它胜过手动流程。"
+ },
+ {
+  "seg": 205,
+  "start": 1115.827,
+  "end": 1119.568,
+  "speaker": "Unknown",
+  "en": "The platform has to sense, detect, and automatically adapt to the system.",
+  "zh": "平台必须感知、检测并自动适应系统。"
+ },
+ {
+  "seg": 206,
+  "start": 1120.748,
+  "end": 1123.549,
+  "speaker": "Unknown",
+  "en": "So main takeaways, do not optimize for tokens.",
+  "zh": "所以主要要点是，不要为 token 优化。"
+ },
+ {
+  "seg": 207,
+  "start": 1124.329,
+  "end": 1125.689,
+  "speaker": "Unknown",
+  "en": "Optimize for successful tasks.",
+  "zh": "要为成功的任务优化。"
+ },
+ {
+  "seg": 208,
+  "start": 1129.35,
+  "end": 1131.19,
+  "speaker": "Unknown",
+  "en": "So this is a broader shift I want to leave you with.",
+  "zh": "所以这是我想留给你们的一个更宏大的转变。"
+ },
+ {
+  "seg": 209,
+  "start": 1131.854,
+  "end": 1134.555,
+  "speaker": "Unknown",
+  "en": "The first phase of AI infrastructure was about better models.",
+  "zh": "AI 基础设施的第一阶段是关于更好的模型。"
+ },
+ {
+  "seg": 210,
+  "start": 1134.695,
+  "end": 1140.216,
+  "speaker": "Unknown",
+  "en": "We invested a lot of time in improving our models, smarting, making the models smarter, and coming with better benchmarks.",
+  "zh": "我们投入了大量时间来改进我们的模型，让模型变得更聪明，并拿出更好的基准测试。"
+ },
+ {
+  "seg": 211,
+  "start": 1141.056,
+  "end": 1147.517,
+  "speaker": "Unknown",
+  "en": "The current phase right now is faster inference, lower latency, better batching, and better GPU utilization.",
+  "zh": "当前的阶段是更快的推理、更低的延迟、更好的批处理和更好的 GPU 利用率。"
+ },
+ {
+  "seg": 212,
+  "start": 1148.057,
+  "end": 1149.838,
+  "speaker": "Unknown",
+  "en": "But the next phase is about orchestration.",
+  "zh": "但下一个阶段是关于编排。"
+ },
+ {
+  "seg": 213,
+  "start": 1150.638,
+  "end": 1156.699,
+  "speaker": "Unknown",
+  "en": "That means GPU, memory, cache, and everything, these are just resources, and they need to be scheduled and controlled.",
+  "zh": "这意味着 GPU、内存、缓存以及所有东西，这些只是资源，它们需要被调度和控制。"
+ },
+ {
+  "seg": 214,
+  "start": 1157.479,
+  "end": 1161.1,
+  "speaker": "Unknown",
+  "en": "The teams that understand this early on will build infrastructure for the future.",
+  "zh": "早点理解这一点的团队将为未来构建基础设施。"
+ },
+ {
+  "seg": 215,
+  "start": 1161.952,
+  "end": 1165.913,
+  "speaker": "Unknown",
+  "en": "So the closing idea is infrastructure is no longer a survey problem.",
+  "zh": "所以收尾的观点是，基础设施不再是一个容量问题。"
+ },
+ {
+  "seg": 216,
+  "start": 1166.313,
+  "end": 1167.413,
+  "speaker": "Unknown",
+  "en": "It's an orchestration problem.",
+  "zh": "它是一个编排问题。"
+ },
+ {
+  "seg": 217,
+  "start": 1169.154,
+  "end": 1169.434,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

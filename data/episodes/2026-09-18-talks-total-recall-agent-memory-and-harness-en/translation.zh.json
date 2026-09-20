@@ -1,0 +1,4386 @@
+[
+ {
+  "seg": 0,
+  "start": 12.738,
+  "end": 13.178,
+  "speaker": "Unknown",
+  "en": "Hello, hello.",
+  "zh": "大家好,大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.538,
+  "end": 13.838,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "完美。"
+ },
+ {
+  "seg": 2,
+  "start": 15.259,
+  "end": 15.419,
+  "speaker": "Unknown",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 3,
+  "start": 16.379,
+  "end": 18.6,
+  "speaker": "Unknown",
+  "en": "So, perfect.",
+  "zh": "那么,完美。"
+ },
+ {
+  "seg": 4,
+  "start": 18.66,
+  "end": 20.301,
+  "speaker": "Unknown",
+  "en": "Yeah, this volume is perfect.",
+  "zh": "是的,这个音量刚刚好。"
+ },
+ {
+  "seg": 5,
+  "start": 20.961,
+  "end": 26.803,
+  "speaker": "Unknown",
+  "en": "It's just a website that I registered the domain on Saturday just to do the registration of the workshop.",
+  "zh": "这只是一个网站,我周六注册了域名,就是用来做工作坊的报名的。"
+ },
+ {
+  "seg": 6,
+  "start": 27.504,
+  "end": 30.905,
+  "speaker": "Unknown",
+  "en": "But for those of you who are going to follow along with me,",
+  "zh": "但对于将要跟着我一起操作的各位,"
+ },
+ {
+  "seg": 7,
+  "start": 32.232,
+  "end": 45.336,
+  "speaker": "Unknown",
+  "en": "Just know that after you complete that process in the workshop, you will get an invitation to the repository, and just view the invitation, accept it, and then you'll be able to run the workshop.",
+  "zh": "请记住,当你在工作坊中完成那个流程后,你会收到一个仓库的邀请,查看那个邀请,接受它,然后你就可以运行这个工作坊了。"
+ },
+ {
+  "seg": 8,
+  "start": 45.356,
+  "end": 50.658,
+  "speaker": "Unknown",
+  "en": "We'll be running the workshop on GitHub Codespaces, so if you want to start that up, it takes like five minutes.",
+  "zh": "我们将在 GitHub Codespaces 上运行这个工作坊,所以如果你想启动它,大概需要五分钟。"
+ },
+ {
+  "seg": 9,
+  "start": 52.839,
+  "end": 68.19,
+  "speaker": "Unknown",
+  "en": "Just for reference, I'm gonna use the first 30 minutes to give you an introduction to Agent Harness and lots of other concepts, and then in the next hour and a half, we're gonna actually go through the workshop together.",
+  "zh": "仅供参考,我会用前 30 分钟给大家介绍 Agent Harness 和许多其他概念,然后在接下来的一个半小时里,我们会一起实际走一遍这个工作坊。"
+ },
+ {
+  "seg": 10,
+  "start": 69.03,
+  "end": 69.391,
+  "speaker": "Unknown",
+  "en": "Sound good?",
+  "zh": "听起来不错吧?"
+ },
+ {
+  "seg": 11,
+  "start": 70.792,
+  "end": 71.412,
+  "speaker": "Unknown",
+  "en": "Okay, perfect.",
+  "zh": "好,完美。"
+ },
+ {
+  "seg": 12,
+  "start": 71.872,
+  "end": 78.237,
+  "speaker": "Unknown",
+  "en": "And thank you, by the way, for being here, because I know it's Monday, 9 a.m., so I commend you all for being here.",
+  "zh": "顺便谢谢你们能来到这里,因为我知道今天是周一,上午 9 点,所以我佩服大家都能到场。"
+ },
+ {
+  "seg": 13,
+  "start": 80.092,
+  "end": 83.207,
+  "speaker": "Unknown",
+  "en": "Just two minutes before we begin, so I will shut up.",
+  "zh": "在我们开始之前只要两分钟,之后我就闭嘴。"
+ },
+ {
+  "seg": 14,
+  "start": 202.625,
+  "end": 204.83,
+  "speaker": "Unknown",
+  "en": "All right, well, let's begin, guys.",
+  "zh": "好了,各位,我们开始吧。"
+ },
+ {
+  "seg": 15,
+  "start": 205.893,
+  "end": 210.102,
+  "speaker": "Unknown",
+  "en": "So, thank you for being on this at this time.",
+  "zh": "那么,感谢大家在这个时间来到这里。"
+ },
+ {
+  "seg": 16,
+  "start": 211.099,
+  "end": 211.699,
+  "speaker": "Unknown",
+  "en": "here with me.",
+  "zh": "和我在一起。"
+ },
+ {
+  "seg": 17,
+  "start": 212.96,
+  "end": 220.423,
+  "speaker": "Unknown",
+  "en": "I know it's 9 a.m., like I said, so hopefully I can, and me and my team can make your time worthwhile.",
+  "zh": "我知道现在是上午 9 点,就像我说的,希望我和我的团队能让你们的时间物有所值。"
+ },
+ {
+  "seg": 18,
+  "start": 221.464,
+  "end": 234.649,
+  "speaker": "Unknown",
+  "en": "At the end of this session, what I would like you to leave with is some knowledge on agent memory and agent harnesses, how you can build your own agent harness, which is nowadays one of the hot topics on AI, I would say.",
+  "zh": "在本次课程结束时,我希望大家带走的是一些关于智能体记忆和智能体线束(agent harness)的知识,以及你如何构建自己的智能体线束,我想说这是当今 AI 的热门话题之一。"
+ },
+ {
+  "seg": 19,
+  "start": 236.817,
+  "end": 244.762,
+  "speaker": "Unknown",
+  "en": "Lots of people are talking about models constantly, but the thing is that models, like language models, they are the frozen part of the reasoning, right?",
+  "zh": "很多人不断在谈论模型,但问题是,模型,比如语言模型,它们是推理中被冻结的部分,对吧?"
+ },
+ {
+  "seg": 20,
+  "start": 244.962,
+  "end": 256.929,
+  "speaker": "Unknown",
+  "en": "We just have to accept what we are given, and during the past few weeks, if you're following the news, you will have seen that this has never been more true than now.",
+  "zh": "我们只能接受给定的东西,而在过去几周,如果你一直关注新闻,你会发现这一点从未像现在这样真实。"
+ },
+ {
+  "seg": 21,
+  "start": 257.59,
+  "end": 260.692,
+  "speaker": "Unknown",
+  "en": "So the harness is what we're gonna talk about.",
+  "zh": "所以我们要谈的就是这个线束(harness)。"
+ },
+ {
+  "seg": 22,
+  "start": 261.272,
+  "end": 262.493,
+  "speaker": "Unknown",
+  "en": "For those of you who weren't here,",
+  "zh": "对于刚才不在场的各位,"
+ },
+ {
+  "seg": 23,
+  "start": 264.589,
+  "end": 271.755,
+  "speaker": "Unknown",
+  "en": "You can scan this QR code or go to that website workshopwaitingroom.com and just register.",
+  "zh": "你们可以扫描这个二维码,或者访问那个网站 workshopwaitingroom.com 来报名。"
+ },
+ {
+  "seg": 24,
+  "start": 271.795,
+  "end": 285.486,
+  "speaker": "Unknown",
+  "en": "You will get an invitation to a GitHub repo and on this GitHub you will be able to create a GitHub code space where we will run the workshop and you will have everything set up for you.",
+  "zh": "你会收到一个 GitHub 仓库的邀请,在这个 GitHub 上你可以创建一个 GitHub code space,我们将在其中运行工作坊,所有东西都已为你准备好。"
+ },
+ {
+  "seg": 25,
+  "start": 287.823,
+  "end": 290.044,
+  "speaker": "Unknown",
+  "en": "Just a little introduction on who I am.",
+  "zh": "简单介绍一下我是谁。"
+ },
+ {
+  "seg": 26,
+  "start": 290.965,
+  "end": 293.927,
+  "speaker": "Unknown",
+  "en": "I've been working for Oracle for seven years.",
+  "zh": "我在 Oracle 工作了七年。"
+ },
+ {
+  "seg": 27,
+  "start": 293.947,
+  "end": 296.108,
+  "speaker": "Unknown",
+  "en": "I've been a developer advocate for about four of them.",
+  "zh": "其中大约四年是开发者布道师。"
+ },
+ {
+  "seg": 28,
+  "start": 297.109,
+  "end": 302.132,
+  "speaker": "Unknown",
+  "en": "And you can find my talks, and I'm very active on GitHub as well.",
+  "zh": "你们可以找到我的演讲,我在 GitHub 上也非常活跃。"
+ },
+ {
+  "seg": 29,
+  "start": 302.372,
+  "end": 306.514,
+  "speaker": "Unknown",
+  "en": "So if you're a GitHub user, just check out my GitHub profile if you like.",
+  "zh": "所以如果你是 GitHub 用户,愿意的话可以看看我的 GitHub 主页。"
+ },
+ {
+  "seg": 30,
+  "start": 308.273,
+  "end": 310.175,
+  "speaker": "Unknown",
+  "en": "What is the highlight of my career so far?",
+  "zh": "迄今为止我职业生涯的亮点是什么?"
+ },
+ {
+  "seg": 31,
+  "start": 310.416,
+  "end": 314.881,
+  "speaker": "Unknown",
+  "en": "I launched a course with Andrew Ang on agent memory.",
+  "zh": "我与 Andrew Ang 共同上线了一门关于智能体记忆的课程。"
+ },
+ {
+  "seg": 32,
+  "start": 315.342,
+  "end": 322.651,
+  "speaker": "Unknown",
+  "en": "So if you're interested on the memory components of what we are going to discuss today, you can just check out that course if you'd like.",
+  "zh": "所以如果你对我们今天要讨论的内容中的记忆部分感兴趣,愿意的话可以去看看那门课程。"
+ },
+ {
+  "seg": 33,
+  "start": 326.337,
+  "end": 329.639,
+  "speaker": "Unknown",
+  "en": "These are the things that we are going to talk through today, right?",
+  "zh": "这些就是我们今天要讲的内容,对吧?"
+ },
+ {
+  "seg": 34,
+  "start": 329.719,
+  "end": 338.105,
+  "speaker": "Unknown",
+  "en": "First of all, we're going to do a little introduction on what the agent stack is, and then we're going to zoom into the data layer where the memory lives.",
+  "zh": "首先,我们会简单介绍一下什么是智能体栈(agent stack),然后我们会放大到记忆所在的数据层。"
+ },
+ {
+  "seg": 35,
+  "start": 339.146,
+  "end": 344.65,
+  "speaker": "Unknown",
+  "en": "Then we're going to explore a little bit about the shapes, the different shapes that AI applications take nowadays.",
+  "zh": "接着我们会稍微探索一下形态,如今 AI 应用所呈现的不同形态。"
+ },
+ {
+  "seg": 36,
+  "start": 346.069,
+  "end": 352.615,
+  "speaker": "Unknown",
+  "en": "what an agent is followed by the seven different layers that make up an agent harness.",
+  "zh": "什么是智能体,然后是构成智能体线束的七个不同层级。"
+ },
+ {
+  "seg": 37,
+  "start": 352.655,
+  "end": 363.825,
+  "speaker": "Unknown",
+  "en": "So if you just follow these seven different structures, you will be able to create an agent harness, a minimal agent harness that you can connect any model to.",
+  "zh": "所以只要遵循这七个不同的结构,你就能创建一个智能体线束,一个可以连接任何模型的最小智能体线束。"
+ },
+ {
+  "seg": 38,
+  "start": 365.857,
+  "end": 378.586,
+  "speaker": "Unknown",
+  "en": "Then we're going to finally talk a little bit about continual learning and how us, as Oracle, we are uniquely positioned to help you achieve and develop agent harnesses and AI applications.",
+  "zh": "最后我们会稍微谈谈持续学习,以及我们 Oracle 如何处于独特的位置来帮助你实现和开发智能体线束与 AI 应用。"
+ },
+ {
+  "seg": 39,
+  "start": 380.407,
+  "end": 381.148,
+  "speaker": "Unknown",
+  "en": "So the agent stack.",
+  "zh": "那么智能体栈。"
+ },
+ {
+  "seg": 40,
+  "start": 382.369,
+  "end": 384.25,
+  "speaker": "Unknown",
+  "en": "And by the way, if you have any questions, just raise your hand.",
+  "zh": "顺便说一下,如果你有任何问题,举手就好。"
+ },
+ {
+  "seg": 41,
+  "start": 384.67,
+  "end": 386.832,
+  "speaker": "Unknown",
+  "en": "I'm very happy to take questions as well.",
+  "zh": "我也非常乐意回答问题。"
+ },
+ {
+  "seg": 42,
+  "start": 387.752,
+  "end": 388.513,
+  "speaker": "Unknown",
+  "en": "So the agent stack.",
+  "zh": "那么智能体栈。"
+ },
+ {
+  "seg": 43,
+  "start": 390.376,
+  "end": 397.103,
+  "speaker": "Unknown",
+  "en": "The AgentStack, every AI agent sits on these five layers.",
+  "zh": "AgentStack,每个 AI 智能体都建立在这五个层级之上。"
+ },
+ {
+  "seg": 44,
+  "start": 397.383,
+  "end": 402.889,
+  "speaker": "Unknown",
+  "en": "You have an application, which is the product surface, what we interact with as users.",
+  "zh": "你有一个应用,也就是产品界面,我们作为用户所交互的东西。"
+ },
+ {
+  "seg": 45,
+  "start": 403.95,
+  "end": 406.993,
+  "speaker": "Unknown",
+  "en": "You have data, and that has lots of components.",
+  "zh": "你有数据,它包含很多组成部分。"
+ },
+ {
+  "seg": 46,
+  "start": 407.013,
+  "end": 411.717,
+  "speaker": "Unknown",
+  "en": "You have memory, you have knowledge, you have retrieval, encoding, search.",
+  "zh": "你有记忆,你有知识,你有检索、编码、搜索。"
+ },
+ {
+  "seg": 47,
+  "start": 412.797,
+  "end": 416.901,
+  "speaker": "Unknown",
+  "en": "You have the model itself, the reasoning large language model that is behind everything.",
+  "zh": "你有模型本身,也就是一切背后的推理大语言模型。"
+ },
+ {
+  "seg": 48,
+  "start": 418.202,
+  "end": 420.244,
+  "speaker": "Unknown",
+  "en": "Infrastructure, which is the orchestration.",
+  "zh": "基础设施,也就是编排。"
+ },
+ {
+  "seg": 49,
+  "start": 420.444,
+  "end": 424.668,
+  "speaker": "Unknown",
+  "en": "What model do we serve depending on the reasoning effort that we need and things like that.",
+  "zh": "根据我们所需的推理力度等因素,我们来服务哪个模型,诸如此类。"
+ },
+ {
+  "seg": 50,
+  "start": 425.028,
+  "end": 431.233,
+  "speaker": "Unknown",
+  "en": "And then we have compute, which is the cloud or GPUs and also the database engine.",
+  "zh": "然后我们有计算,也就是云或 GPU,还有数据库引擎。"
+ },
+ {
+  "seg": 51,
+  "start": 432.054,
+  "end": 433.315,
+  "speaker": "Unknown",
+  "en": "And the application.",
+  "zh": "还有应用程序。"
+ },
+ {
+  "seg": 52,
+  "start": 434.136,
+  "end": 442.52,
+  "speaker": "Unknown",
+  "en": "The model, the infrastructure, and the compute, these four layers except for the data, they are increasingly commoditized.",
+  "zh": "模型、基础设施和计算,除了数据之外,这四层正在日益商品化。"
+ },
+ {
+  "seg": 53,
+  "start": 443,
+  "end": 443.84,
+  "speaker": "Unknown",
+  "en": "What do I mean by that?",
+  "zh": "我这是什么意思呢?"
+ },
+ {
+  "seg": 54,
+  "start": 444.721,
+  "end": 448.802,
+  "speaker": "Unknown",
+  "en": "They are trying to take away the complexity from these layers out of our",
+  "zh": "它们正试图把这些层的复杂性从我们的"
+ },
+ {
+  "seg": 55,
+  "start": 451.71,
+  "end": 452.791,
+  "speaker": "Unknown",
+  "en": "Domain, right?",
+  "zh": "领域中拿走,对吧?"
+ },
+ {
+  "seg": 56,
+  "start": 453.191,
+  "end": 458.454,
+  "speaker": "Unknown",
+  "en": "So the thing that we have the most control over when working with AI applications is actually the data.",
+  "zh": "所以在开发 AI 应用时,我们控制力最强的东西实际上是数据。"
+ },
+ {
+  "seg": 57,
+  "start": 458.994,
+  "end": 466.319,
+  "speaker": "Unknown",
+  "en": "And that's the part that we're gonna focus in because the agent harness excels and lives very closely with the data layer.",
+  "zh": "这也是我们要重点关注的部分,因为智能体框架(harness)擅长并且紧密依附于数据层。"
+ },
+ {
+  "seg": 58,
+  "start": 468.9,
+  "end": 471.742,
+  "speaker": "Unknown",
+  "en": "So let's focus on the data layer.",
+  "zh": "所以让我们聚焦数据层。"
+ },
+ {
+  "seg": 59,
+  "start": 473.367,
+  "end": 479.793,
+  "speaker": "Unknown",
+  "en": "The data layer is where an agent harness appears, and it has many components.",
+  "zh": "数据层就是智能体框架出现的地方,它有很多组件。"
+ },
+ {
+  "seg": 60,
+  "start": 480.754,
+  "end": 483.577,
+  "speaker": "Unknown",
+  "en": "The first component is the gateway in MCP.",
+  "zh": "第一个组件是网关和 MCP。"
+ },
+ {
+  "seg": 61,
+  "start": 484.097,
+  "end": 488.001,
+  "speaker": "Unknown",
+  "en": "It's interesting because that's the one that connects an agent harness.",
+  "zh": "它很有意思,因为正是它把一个智能体框架"
+ },
+ {
+  "seg": 62,
+  "start": 488.94,
+  "end": 491.343,
+  "speaker": "Unknown",
+  "en": "to data and tools.",
+  "zh": "连接到数据和工具。"
+ },
+ {
+  "seg": 63,
+  "start": 491.964,
+  "end": 504.16,
+  "speaker": "Unknown",
+  "en": "So kind of think of a large language model like an isolated thing that wouldn't be able to work at all if it didn't have access to things like data, right?",
+  "zh": "可以把大型语言模型想象成一个孤立的东西,如果它无法访问数据之类的东西,它就完全无法工作,对吧?"
+ },
+ {
+  "seg": 64,
+  "start": 507.96,
+  "end": 518.147,
+  "speaker": "Unknown",
+  "en": "You then have the memory layer, the semantic layer, retrieval layer, context layer, and tools and skills that are built on top of the gateway and MCP layer.",
+  "zh": "然后你有记忆层、语义层、检索层、上下文层,以及构建在网关和 MCP 层之上的工具和技能。"
+ },
+ {
+  "seg": 65,
+  "start": 518.327,
+  "end": 525.012,
+  "speaker": "Unknown",
+  "en": "Let's say, for instance, that you have an application on your computer and your large language model doesn't have access to it.",
+  "zh": "比方说,你的电脑上有一个应用程序,而你的大型语言模型无法访问它。"
+ },
+ {
+  "seg": 66,
+  "start": 525.572,
+  "end": 526.653,
+  "speaker": "Unknown",
+  "en": "For instance, Outlook.",
+  "zh": "例如,Outlook。"
+ },
+ {
+  "seg": 67,
+  "start": 528.008,
+  "end": 540.553,
+  "speaker": "Unknown",
+  "en": "So if you might want to have your large language model connect to that, you can create an MCP, you specify some functions, and then the LLM all of a sudden is able to communicate with this program.",
+  "zh": "所以如果你想让你的大型语言模型连接到它,你可以创建一个 MCP,指定一些函数,然后这个 LLM 突然之间就能够与这个程序通信了。"
+ },
+ {
+  "seg": 68,
+  "start": 541.174,
+  "end": 551.378,
+  "speaker": "Unknown",
+  "en": "So gateway and MCP is like the layer that connects a large language model to the outside world, or de facto to our computer or wherever you're working.",
+  "zh": "所以网关和 MCP 就是把大型语言模型连接到外部世界的那一层,实际上是连接到你的电脑或者你工作的任何地方。"
+ },
+ {
+  "seg": 69,
+  "start": 552.835,
+  "end": 559.558,
+  "speaker": "Unknown",
+  "en": "And AI applications today, they take up four different shapes, right?",
+  "zh": "而如今的 AI 应用,它们呈现出四种不同的形态,对吧?"
+ },
+ {
+  "seg": 70,
+  "start": 560.058,
+  "end": 562.519,
+  "speaker": "Unknown",
+  "en": "You have LLM chatbots, which are very passive.",
+  "zh": "你有 LLM 聊天机器人,它们非常被动。"
+ },
+ {
+  "seg": 71,
+  "start": 563.539,
+  "end": 565.36,
+  "speaker": "Unknown",
+  "en": "They just respond when you ask a question.",
+  "zh": "它们只在你提问时才做出回应。"
+ },
+ {
+  "seg": 72,
+  "start": 566.18,
+  "end": 569.842,
+  "speaker": "Unknown",
+  "en": "You also have RAG applications, which are semi-passive because",
+  "zh": "你还有 RAG 应用,它们是半被动的,因为"
+ },
+ {
+  "seg": 73,
+  "start": 570.802,
+  "end": 575.823,
+  "speaker": "Unknown",
+  "en": "They have to do some kind of processing in the background, but then you also have a passive nature of it.",
+  "zh": "它们需要在后台做某种处理,但同时它也有被动的一面。"
+ },
+ {
+  "seg": 74,
+  "start": 576.404,
+  "end": 592.208,
+  "speaker": "Unknown",
+  "en": "And then you have the more active components of AI applications, which are what we kind of use every day, like Claude Code, et cetera, et cetera, which are a combination of LLM-driven workflows that provide automation and AI agents that provide autonomy.",
+  "zh": "然后你还有 AI 应用中更主动的部分,也就是我们每天都在使用的东西,比如 Claude Code 等等等等,它们是提供自动化的 LLM 驱动工作流和提供自主性的 AI 智能体的组合。"
+ },
+ {
+  "seg": 75,
+  "start": 592.748,
+  "end": 596.609,
+  "speaker": "Unknown",
+  "en": "And we'll explain later what I mean by that.",
+  "zh": "稍后我们会解释我这么说的意思。"
+ },
+ {
+  "seg": 76,
+  "start": 597.149,
+  "end": 599.19,
+  "speaker": "Unknown",
+  "en": "But first, I want you to have...",
+  "zh": "但首先,我想让你们……"
+ },
+ {
+  "seg": 77,
+  "start": 600.01,
+  "end": 602.994,
+  "speaker": "Unknown",
+  "en": "A very clear definition of what an AI agent is.",
+  "zh": "对什么是 AI 智能体有一个非常清晰的定义。"
+ },
+ {
+  "seg": 78,
+  "start": 603.555,
+  "end": 611.125,
+  "speaker": "Unknown",
+  "en": "So, to me, an AI agent is essentially a model, a large language model, plus a hardness.",
+  "zh": "所以,在我看来,AI 智能体本质上就是一个模型、一个大型语言模型,加上一个 harness(框架)。"
+ },
+ {
+  "seg": 79,
+  "start": 612.146,
+  "end": 616.572,
+  "speaker": "Unknown",
+  "en": "The model itself will be the reasoning, and everything else will be the hardness.",
+  "zh": "模型本身负责推理,其余的一切都是 harness(框架)。"
+ },
+ {
+  "seg": 80,
+  "start": 618.863,
+  "end": 621.764,
+  "speaker": "Unknown",
+  "en": "So this definition is something like this.",
+  "zh": "所以这个定义大概是这样的。"
+ },
+ {
+  "seg": 81,
+  "start": 622.424,
+  "end": 628.265,
+  "speaker": "Unknown",
+  "en": "An autonomous entity whose cognitive functions are powered by a large language model for reasoning.",
+  "zh": "一个自主实体,其认知功能由一个大型语言模型驱动以进行推理。"
+ },
+ {
+  "seg": 82,
+  "start": 628.945,
+  "end": 633.386,
+  "speaker": "Unknown",
+  "en": "They are augmented by a database or files for memory.",
+  "zh": "它们由数据库或文件作为记忆来增强。"
+ },
+ {
+  "seg": 83,
+  "start": 634.246,
+  "end": 641.468,
+  "speaker": "Unknown",
+  "en": "They are extended through tools for actions and grounded in inputs that let it perceive its environment.",
+  "zh": "它们通过工具来扩展动作,并基于让它能够感知环境的输入而落地。"
+ },
+ {
+  "seg": 84,
+  "start": 642.108,
+  "end": 646.769,
+  "speaker": "Unknown",
+  "en": "So an agent is a model plus the harness.",
+  "zh": "所以智能体就是模型加上 harness(框架)。"
+ },
+ {
+  "seg": 85,
+  "start": 647.729,
+  "end": 655.621,
+  "speaker": "Unknown",
+  "en": "So, if the agent is the model plus the harness, in this diagram, right, we have reasoning, and the reasoning",
+  "zh": "那么,如果智能体是模型加上 harness(框架),在这张图中,对吧,我们有推理,而这个推理"
+ },
+ {
+  "seg": 86,
+  "start": 657.035,
+  "end": 658.276,
+  "speaker": "Unknown",
+  "en": "It's the part that we don't control.",
+  "zh": "是我们不控制的部分。"
+ },
+ {
+  "seg": 87,
+  "start": 658.756,
+  "end": 663.239,
+  "speaker": "Unknown",
+  "en": "It's the part that's heavily subsidized, the part that we rent.",
+  "zh": "它是被大量补贴的部分,是我们租用的部分。"
+ },
+ {
+  "seg": 88,
+  "start": 664.18,
+  "end": 673.386,
+  "speaker": "Unknown",
+  "en": "If you're like me, you're subscribed to every imaginable subscription on Earth, and that's the thing that we do not control, right?",
+  "zh": "如果你和我一样,你订阅了地球上能想到的每一种订阅服务,而这就是我们无法控制的东西,对吧?"
+ },
+ {
+  "seg": 89,
+  "start": 673.406,
+  "end": 684.152,
+  "speaker": "Unknown",
+  "en": "We have no control over what we are offered, and then we have memory, tools, and perception that actually we get some customizability that we can do.",
+  "zh": "我们对我们能获得什么毫无控制权,然后我们有记忆、工具和感知,这些我们是可以做一些定制的。"
+ },
+ {
+  "seg": 90,
+  "start": 686.494,
+  "end": 699.085,
+  "speaker": "Unknown",
+  "en": "So the goal of harness engineering is to create reliable and predictable outputs over and over, whereas a reasoning model is very non-deterministic.",
+  "zh": "所以 harness(框架)工程的目标是一次又一次地创造可靠且可预测的输出,而推理模型是非常非确定性的。"
+ },
+ {
+  "seg": 91,
+  "start": 699.245,
+  "end": 704.269,
+  "speaker": "Unknown",
+  "en": "You might give it the same input and it might produce different outputs every time.",
+  "zh": "你可能给它同样的输入,而它每次可能产生不同的输出。"
+ },
+ {
+  "seg": 92,
+  "start": 706.988,
+  "end": 721.282,
+  "speaker": "Unknown",
+  "en": "So, I said that, you know, in AI applications, the most typical ones nowadays, Claude Code, Codex, and any other type that you can think of, is a combination of automation plus autonomy.",
+  "zh": "所以,我说过,你知道的,在如今的 AI 应用中,最典型的那些,Claude Code、Codex,以及你能想到的任何其他类型,都是自动化加自主性的组合。"
+ },
+ {
+  "seg": 93,
+  "start": 722.223,
+  "end": 722.463,
+  "speaker": "Unknown",
+  "en": "Why?",
+  "zh": "为什么呢?"
+ },
+ {
+  "seg": 94,
+  "start": 722.843,
+  "end": 731.552,
+  "speaker": "Unknown",
+  "en": "Well, because automation provides reliability to a system, and autonomy gives flexibility, and this is a combination that is very",
+  "zh": "嗯,因为自动化为系统提供了可靠性,而自主性提供了灵活性,这种组合在我们自己开发时是非常"
+ },
+ {
+  "seg": 95,
+  "start": 733.135,
+  "end": 735.877,
+  "speaker": "Unknown",
+  "en": "convenient when we are developing ourselves.",
+  "zh": "方便的。"
+ },
+ {
+  "seg": 96,
+  "start": 735.937,
+  "end": 741.18,
+  "speaker": "Unknown",
+  "en": "By the way, raise of hands, who is working as an AI engineer or as an AI developer?",
+  "zh": "顺便说一下,举手,谁正在做 AI 工程师或者 AI 开发者?"
+ },
+ {
+  "seg": 97,
+  "start": 742.781,
+  "end": 744.202,
+  "speaker": "Unknown",
+  "en": "Oh my god, okay, good.",
+  "zh": "哦天哪,好的,很好。"
+ },
+ {
+  "seg": 98,
+  "start": 744.883,
+  "end": 748.845,
+  "speaker": "Unknown",
+  "en": "So you must all have used one of these systems, right?",
+  "zh": "所以你们肯定都用过这些系统中的某一个,对吧?"
+ },
+ {
+  "seg": 99,
+  "start": 749.305,
+  "end": 755.329,
+  "speaker": "Unknown",
+  "en": "So all of them, they have this commonality, which is they have autonomy and they have flexibility.",
+  "zh": "所以所有这些系统,它们都有这个共同点,就是它们既有自主性又有灵活性。"
+ },
+ {
+  "seg": 100,
+  "start": 758.366,
+  "end": 765.201,
+  "speaker": "Unknown",
+  "en": "Yeah, so the idea is that these systems, they are built on top",
+  "zh": "是的,所以这个想法是,这些系统,它们构建于"
+ },
+ {
+  "seg": 101,
+  "start": 766.305,
+  "end": 782.071,
+  "speaker": "Unknown",
+  "en": "of a proprietary agent harness, and an agent harness is nothing more than everything that we've spoken about an AI agent, all the things that you need to do around that to enable it to produce reliable and repeatable outcomes, right?",
+  "zh": "一个专有的智能体 harness 之上,而 agent harness 无非就是我们讲过的一切——一个 AI 智能体,以及你为了让它产出可靠且可重复的结果而需要做的所有围绕它的事情,对吧?"
+ },
+ {
+  "seg": 102,
+  "start": 782.111,
+  "end": 788.054,
+  "speaker": "Unknown",
+  "en": "So the model itself, non-deterministic, same input, different outputs every time.",
+  "zh": "所以模型本身是非确定性的,同样的输入,每次产出不同的输出。"
+ },
+ {
+  "seg": 103,
+  "start": 789.21,
+  "end": 799.348,
+  "speaker": "Unknown",
+  "en": "But the harness, what we want to do with the harness is to turn this non-deterministic nature of a large language model and be able to produce reliable and repeatable results.",
+  "zh": "但 harness,我们对 harness 想做的,是把大语言模型的这种非确定性本质转化为能够产出可靠且可重复的结果。"
+ },
+ {
+  "seg": 104,
+  "start": 801.721,
+  "end": 806.205,
+  "speaker": "Unknown",
+  "en": "So the reasoning, which is the part that we do not control, we're not gonna focus.",
+  "zh": "所以推理,也就是我们不控制的那部分,我们不去关注。"
+ },
+ {
+  "seg": 105,
+  "start": 806.745,
+  "end": 811.53,
+  "speaker": "Unknown",
+  "en": "Actually, the harnesses are built on top of models that are kind of swappable.",
+  "zh": "实际上,harness 是构建在可互换的模型之上的。"
+ },
+ {
+  "seg": 106,
+  "start": 812.17,
+  "end": 817.955,
+  "speaker": "Unknown",
+  "en": "You just need like a common interface, like an OpenAI protocol or the Anthropic API specification, right?",
+  "zh": "你只需要一个通用接口,比如 OpenAI 协议或 Anthropic API 规范,对吧?"
+ },
+ {
+  "seg": 107,
+  "start": 818.356,
+  "end": 825.562,
+  "speaker": "Unknown",
+  "en": "All these things make it so that the model part is swappable and the harness is what we're gonna focus on today.",
+  "zh": "所有这些使得模型这一部分是可互换的,而 harness 就是我们今天要关注的内容。"
+ },
+ {
+  "seg": 108,
+  "start": 828.437,
+  "end": 842.887,
+  "speaker": "Unknown",
+  "en": "So, seven things that make up an agent harness, and as I said, we're not gonna touch on the model layer because we have no control over it, but let's go a little bit more in detail into each of these, right?",
+  "zh": "那么,构成一个 agent harness 的七件事,正如我所说,我们不会触及模型层,因为我们对它没有控制权,但让我们对其中每一项做更详细一点的展开,对吧?"
+ },
+ {
+  "seg": 109,
+  "start": 843.648,
+  "end": 849.292,
+  "speaker": "Unknown",
+  "en": "You need a storage layer on your agent harness that essentially",
+  "zh": "你需要在你的 agent harness 上有一个存储层,它本质上"
+ },
+ {
+  "seg": 110,
+  "start": 850.922,
+  "end": 868.616,
+  "speaker": "Unknown",
+  "en": "Determines where the data is going to live, where the memory physically lives, and we'll see about this dilemma that has been going on about the last six months about files versus databases, and why I think a hybrid combination of both is actually the best part.",
+  "zh": "决定数据将存放在哪里,记忆物理上存放在哪里,我们会看到这个持续了大约六个月的关于文件 versus 数据库的困境,以及为什么我认为两者的混合组合其实才是最好的方案。"
+ },
+ {
+  "seg": 111,
+  "start": 869.557,
+  "end": 876.783,
+  "speaker": "Unknown",
+  "en": "Then you also have memory engineering components, which are all the encoding, the search, and the retrieval components of it.",
+  "zh": "然后你还有记忆工程组件,即所有的编码、搜索和检索组件。"
+ },
+ {
+  "seg": 112,
+  "start": 879.023,
+  "end": 892.735,
+  "speaker": "Unknown",
+  "en": "And also the semantic layer, which is kind of the hidden things that happen or the hidden vocabulary that we assume that a large language model knows that is kind of proprietary to our companies or our knowledge.",
+  "zh": "还有语义层,它是一种隐藏的东西,或者说是我们假设大语言模型已经知道的隐藏词汇,它是我们公司或我们的知识所专有的。"
+ },
+ {
+  "seg": 113,
+  "start": 893.356,
+  "end": 896.618,
+  "speaker": "Unknown",
+  "en": "What we don't say to the LLM, kind of, that's the semantic layer.",
+  "zh": "我们没有对 LLM 说出口的那些东西,大概就是,那就是语义层。"
+ },
+ {
+  "seg": 114,
+  "start": 897.439,
+  "end": 915.444,
+  "speaker": "Unknown",
+  "en": "We'll lightly touch on agent loops and what an agent loop is and how to implement a very, very minimalistic agent loop and finally go about some context engineering techniques that keep the window as salient as possible, the context window as salient as possible.",
+  "zh": "我们会稍微触及智能体循环,什么是智能体循环,以及如何实现一个非常、非常极简的智能体循环,最后讲一些上下文工程技术,让窗口尽可能保持关键性,让上下文窗口尽可能保持关键性。"
+ },
+ {
+  "seg": 115,
+  "start": 916.105,
+  "end": 923.767,
+  "speaker": "Unknown",
+  "en": "You wanna minimize the context window as much as possible so that the task that you're solving stays relevant.",
+  "zh": "你想尽可能最小化上下文窗口,这样你正在解决的任务才能保持相关性。"
+ },
+ {
+  "seg": 116,
+  "start": 924.821,
+  "end": 929.747,
+  "speaker": "Unknown",
+  "en": "So until here, we have done an introduction to what an AI agent is, right?",
+  "zh": "到这里为止,我们已经对什么是 AI 智能体做了介绍,对吧?"
+ },
+ {
+  "seg": 117,
+  "start": 930.308,
+  "end": 930.969,
+  "speaker": "Unknown",
+  "en": "It's use cases.",
+  "zh": "它的用例。"
+ },
+ {
+  "seg": 118,
+  "start": 931.449,
+  "end": 938.638,
+  "speaker": "Unknown",
+  "en": "And now we're going to dive deeper into an agent harness and each one of the individual components.",
+  "zh": "现在我们要深入探讨 agent harness 以及每一个单独的组件。"
+ },
+ {
+  "seg": 119,
+  "start": 939.239,
+  "end": 940.38,
+  "speaker": "Unknown",
+  "en": "So the model layer, right?",
+  "zh": "那么模型层,对吧?"
+ },
+ {
+  "seg": 120,
+  "start": 940.46,
+  "end": 942.162,
+  "speaker": "Unknown",
+  "en": "The frozen reasoning core.",
+  "zh": "那个冻结的推理核心。"
+ },
+ {
+  "seg": 121,
+  "start": 942.943,
+  "end": 947.226,
+  "speaker": "Unknown",
+  "en": "I say it's frozen because typically the weights of a model don't change.",
+  "zh": "我说它是冻结的,是因为通常模型的权重不会改变。"
+ },
+ {
+  "seg": 122,
+  "start": 948.626,
+  "end": 955.21,
+  "speaker": "Unknown",
+  "en": "And I say typically because we are actually, I'm actually in the process with Cassius sitting right there.",
+  "zh": "而我说「通常」,是因为我们实际上——我就正在和坐在那边的 Cassius 一起进行这个进程。"
+ },
+ {
+  "seg": 123,
+  "start": 955.23,
+  "end": 960.874,
+  "speaker": "Unknown",
+  "en": "We're going to record a new course with Andrew Ang on continued learning for AA agents.",
+  "zh": "我们将与 Andrew Ang 一起录制一门关于 AA 智能体持续学习的新课程。"
+ },
+ {
+  "seg": 124,
+  "start": 961.134,
+  "end": 964.236,
+  "speaker": "Unknown",
+  "en": "So if you're interested, just check that out in a couple weeks.",
+  "zh": "所以如果你感兴趣,几周后去看看。"
+ },
+ {
+  "seg": 125,
+  "start": 964.816,
+  "end": 967.378,
+  "speaker": "Unknown",
+  "en": "But the thing is that 99.9% of the time you will have",
+  "zh": "但关键是,99.9% 的情况下你会拥有"
+ },
+ {
+  "seg": 126,
+  "start": 970.707,
+  "end": 978.395,
+  "speaker": "Unknown",
+  "en": "A model and the weights of the model will never change unless you have millions of dollars or a lot of time or GPUs.",
+  "zh": "一个模型,而模型的权重永远不会改变,除非你有数百万美元,或者大量时间,或者 GPU。"
+ },
+ {
+  "seg": 127,
+  "start": 978.916,
+  "end": 980.798,
+  "speaker": "Unknown",
+  "en": "It's very hard to change the weights of a model.",
+  "zh": "改变模型的权重是非常困难的。"
+ },
+ {
+  "seg": 128,
+  "start": 981.198,
+  "end": 986.744,
+  "speaker": "Unknown",
+  "en": "So there are other ways in which you can affect the reasoning without actually changing the weights of the model.",
+  "zh": "所以还有其他方式可以在不真正改变模型权重的情况下影响推理。"
+ },
+ {
+  "seg": 129,
+  "start": 987.385,
+  "end": 992.23,
+  "speaker": "Unknown",
+  "en": "But this is motivation for the continued learning part that we will see in the workshop.",
+  "zh": "但这是我们在工作坊中会看到的持续学习部分的动机。"
+ },
+ {
+  "seg": 130,
+  "start": 994.107,
+  "end": 995.367,
+  "speaker": "Unknown",
+  "en": "Where does the memory live, right?",
+  "zh": "记忆存放在哪里,对吧?"
+ },
+ {
+  "seg": 131,
+  "start": 995.947,
+  "end": 1001.048,
+  "speaker": "Unknown",
+  "en": "The files versus databases dilemma that we've been having since January, kind of.",
+  "zh": "我们从一月份以来一直在讨论的文件 versus 数据库的困境,大概是这样。"
+ },
+ {
+  "seg": 132,
+  "start": 1001.709,
+  "end": 1013.931,
+  "speaker": "Unknown",
+  "en": "Some people are very maximalists of files, and some of us are, oh, I will not include myself, but some people are also maximalists of the database.",
+  "zh": "有些人是非常坚定的文件派,而我们中的一些人——哦,我不包括我自己——但有些人也是坚定的数据库派。"
+ },
+ {
+  "seg": 133,
+  "start": 1014.711,
+  "end": 1016.492,
+  "speaker": "Unknown",
+  "en": "And, you know, both things are right.",
+  "zh": "而你知道,双方都是对的。"
+ },
+ {
+  "seg": 134,
+  "start": 1016.952,
+  "end": 1021.973,
+  "speaker": "Unknown",
+  "en": "Files have convenient things, convenient characteristics, and also the databases.",
+  "zh": "文件有便利的东西、便利的特性,数据库也是如此。"
+ },
+ {
+  "seg": 135,
+  "start": 1024.127,
+  "end": 1040.095,
+  "speaker": "Unknown",
+  "en": "The files, right, they are very easy to, like, they are very, they match the model's instincts, they are very easy to create, they are very easy to insert and append data into files, right, it's very, it has a very unstructured nature to it.",
+  "zh": "文件,对吧,它们非常容易——比如,它们非常,它们符合模型的直觉,它们非常容易创建,非常容易向文件中插入和追加数据,对吧,它有一种非常非结构化的本质。"
+ },
+ {
+  "seg": 136,
+  "start": 1040.895,
+  "end": 1051.22,
+  "speaker": "Unknown",
+  "en": "And databases, on the other hand, or the conception that people have is that they have a very structured way, right, but that's when you're thinking about SQL, like SQL, and",
+  "zh": "而数据库,另一方面,人们的观念是它们有一种非常结构化的方式,对吧,但那是你在考虑 SQL 的时候,比如 SQL,而"
+ },
+ {
+  "seg": 137,
+  "start": 1052.578,
+  "end": 1057.764,
+  "speaker": "Unknown",
+  "en": "The thing is that you don't actually need to choose one or the other.",
+  "zh": "问题是,你实际上不需要在两者中选一个。"
+ },
+ {
+  "seg": 138,
+  "start": 1058.164,
+  "end": 1060.287,
+  "speaker": "Unknown",
+  "en": "You can actually use both of them.",
+  "zh": "你实际上可以两者都用。"
+ },
+ {
+  "seg": 139,
+  "start": 1060.367,
+  "end": 1067.776,
+  "speaker": "Unknown",
+  "en": "Files are attractive because the model speaks them, and they kind of work very easily with operating systems.",
+  "zh": "文件有吸引力,因为模型「会说」文件,而且它们能非常容易地与操作系统配合工作。"
+ },
+ {
+  "seg": 140,
+  "start": 1068.436,
+  "end": 1069.858,
+  "speaker": "Unknown",
+  "en": "They follow POSIX semantics.",
+  "zh": "它们遵循 POSIX 语义。"
+ },
+ {
+  "seg": 141,
+  "start": 1071.394,
+  "end": 1079.941,
+  "speaker": "Unknown",
+  "en": "They are compatible on Debian, Ubuntu, any other operating system that you might want, and they also have some disadvantages.",
+  "zh": "它们在 Debian、Ubuntu 或任何你可能想要的操作系统上都是兼容的,而且它们也有一些缺点。"
+ },
+ {
+  "seg": 142,
+  "start": 1080.281,
+  "end": 1083.263,
+  "speaker": "Unknown",
+  "en": "For instance, they don't have transactional consistency.",
+  "zh": "比如,它们没有事务一致性。"
+ },
+ {
+  "seg": 143,
+  "start": 1084.064,
+  "end": 1087.707,
+  "speaker": "Unknown",
+  "en": "So, this is one of the problems that I wanted to talk about.",
+  "zh": "所以,这是我想谈论的问题之一。"
+ },
+ {
+  "seg": 144,
+  "start": 1089.875,
+  "end": 1097.457,
+  "speaker": "Unknown",
+  "en": "You are degenerate, like me, and you are working, I don't know, with eight, 16, 32 agents at a time.",
+  "zh": "如果你和正常人类(compatible和我一样是「退化分子」,而且你正在工作,比如,同时和 8 个、16 个、32 个智能体一起工作。"
+ },
+ {
+  "seg": 145,
+  "start": 1098.597,
+  "end": 1104.838,
+  "speaker": "Unknown",
+  "en": "The problem with this is that files cannot be modified and inserted and modified at the same time.",
+  "zh": "问题在于,文件无法在同一个时间被插入和修改。"
+ },
+ {
+  "seg": 146,
+  "start": 1105.218,
+  "end": 1111.259,
+  "speaker": "Unknown",
+  "en": "So what is the solution nowadays to not having transactional consistency and working with files?",
+  "zh": "那么当今对于「没有事务一致性又要使用文件」的解决方案是什么?"
+ },
+ {
+  "seg": 147,
+  "start": 1112.36,
+  "end": 1113.72,
+  "speaker": "Unknown",
+  "en": "Any suggestions?",
+  "zh": "有什么建议吗?"
+ },
+ {
+  "seg": 148,
+  "start": 1115.562,
+  "end": 1117.182,
+  "speaker": "Unknown",
+  "en": "Worktrees, exactly.",
+  "zh": "worktree,没错。"
+ },
+ {
+  "seg": 149,
+  "start": 1117.582,
+  "end": 1126.684,
+  "speaker": "Unknown",
+  "en": "So agents, when they want to modify a file, but another agent is working on this thing, they just create a different worktree, right?",
+  "zh": "所以智能体,当它们想修改一个文件,但另一个智能体正在处理这个东西时,它们就创建一个不同的 worktree,对吧?"
+ },
+ {
+  "seg": 150,
+  "start": 1127.044,
+  "end": 1134.886,
+  "speaker": "Unknown",
+  "en": "They will do all the progress in the worktree, and then after the implementation is done, they will merge to master, or merge to main, sorry.",
+  "zh": "他们会在 worktree 里完成所有工作进度，然后在实现完成后，他们合并到 master，或者合并到 main，抱歉。"
+ },
+ {
+  "seg": 151,
+  "start": 1135.446,
+  "end": 1139.507,
+  "speaker": "Unknown",
+  "en": "So this is the way that it's a workaround against...",
+  "zh": "所以这就是一种针对……的变通方式"
+ },
+ {
+  "seg": 152,
+  "start": 1140.407,
+  "end": 1142.728,
+  "speaker": "Unknown",
+  "en": "not having transactional consistency, right?",
+  "zh": "没有事务一致性，对吧？"
+ },
+ {
+  "seg": 153,
+  "start": 1143.588,
+  "end": 1148.77,
+  "speaker": "Unknown",
+  "en": "And you also have other characteristics, like for instance, hybrid search.",
+  "zh": "你还有其他特性，比如，混合搜索。"
+ },
+ {
+  "seg": 154,
+  "start": 1149.27,
+  "end": 1154.872,
+  "speaker": "Unknown",
+  "en": "This is not available on files, but it's very, very easily achieved on databases.",
+  "zh": "这在文件上不可用，但在数据库上非常、非常容易实现。"
+ },
+ {
+  "seg": 155,
+  "start": 1155.292,
+  "end": 1162.254,
+  "speaker": "Unknown",
+  "en": "You don't have backups either, so if your operating system gets corrupted or something, you will just lose everything.",
+  "zh": "你也没有备份，所以如果你的操作系统损坏了或出了什么问题，你就会失去一切。"
+ },
+ {
+  "seg": 156,
+  "start": 1163.271,
+  "end": 1170.038,
+  "speaker": "Unknown",
+  "en": "And these are things that the database fixed 35, 40 years ago, and people have kind of forgotten about that.",
+  "zh": "而这些是数据库在 35、40 年前就解决了的问题，人们却差不多忘了这一点。"
+ },
+ {
+  "seg": 157,
+  "start": 1170.138,
+  "end": 1178.526,
+  "speaker": "Unknown",
+  "en": "So what I want to do is to give you kind of the best of each of the implementations, right?",
+  "zh": "所以我想做的是，把每种实现的优点都给你们呈现出来，对吧？"
+ },
+ {
+  "seg": 158,
+  "start": 1178.566,
+  "end": 1183.971,
+  "speaker": "Unknown",
+  "en": "You can get the benefits of files and the benefits of databases in the same place, and we'll see why.",
+  "zh": "你可以在同一个地方获得文件的好处和数据库的好处，我们会看到为什么。"
+ },
+ {
+  "seg": 159,
+  "start": 1184.372,
+  "end": 1185.933,
+  "speaker": "Unknown",
+  "en": "But these are some of the advantages, right?",
+  "zh": "但这些就是一些优势，对吧？"
+ },
+ {
+  "seg": 160,
+  "start": 1187.27,
+  "end": 1194.855,
+  "speaker": "Unknown",
+  "en": "ACID consistency, so atomic operations, consistent operations, isolated and durable.",
+  "zh": "ACID 一致性，即原子操作、一致的操作、隔离且持久。"
+ },
+ {
+  "seg": 161,
+  "start": 1195.856,
+  "end": 1197.016,
+  "speaker": "Unknown",
+  "en": "You have high availability.",
+  "zh": "你有高可用性。"
+ },
+ {
+  "seg": 162,
+  "start": 1197.056,
+  "end": 1203.741,
+  "speaker": "Unknown",
+  "en": "You might replicate the database and let it be in three different places in the world with a replication factor.",
+  "zh": "你可以复制数据库，通过一个复制因子让它存在于世界上三个不同的地方。"
+ },
+ {
+  "seg": 163,
+  "start": 1204.441,
+  "end": 1206.863,
+  "speaker": "Unknown",
+  "en": "You also have vector search, which is very easy.",
+  "zh": "你还有向量搜索，这非常容易。"
+ },
+ {
+  "seg": 164,
+  "start": 1207.563,
+  "end": 1213.227,
+  "speaker": "Unknown",
+  "en": "In files, you just have to do regular expression matching or a derivative of that.",
+  "zh": "在文件里，你只能做正则表达式匹配或其衍生方法。"
+ },
+ {
+  "seg": 165,
+  "start": 1214.742,
+  "end": 1216.743,
+  "speaker": "Unknown",
+  "en": "And lots of other things.",
+  "zh": "还有许多其他东西。"
+ },
+ {
+  "seg": 166,
+  "start": 1217.423,
+  "end": 1233.469,
+  "speaker": "Unknown",
+  "en": "So what we will do on the actual workshop is we're gonna run an actual example of trying to modify a file with three different agents that will be working on the same file and trying to update a counter on this file.",
+  "zh": "所以在实际的 workshop 上，我们要做的是运行一个实际的例子，用三个不同的智能体尝试修改同一个文件，并尝试更新这个文件上的一个计数器。"
+ },
+ {
+  "seg": 167,
+  "start": 1234.049,
+  "end": 1235.71,
+  "speaker": "Unknown",
+  "en": "And let's see who's faster.",
+  "zh": "然后看看谁更快。"
+ },
+ {
+  "seg": 168,
+  "start": 1235.97,
+  "end": 1238.911,
+  "speaker": "Unknown",
+  "en": "I know the answer, of course, but you'll get to know it later.",
+  "zh": "我当然知道答案，但你们稍后会知道。"
+ },
+ {
+  "seg": 169,
+  "start": 1240.367,
+  "end": 1252.455,
+  "speaker": "Unknown",
+  "en": "But what I want to introduce to you is that we have a thing called the Oracle DBFS, or the Database File System, where you can store files inside the database on a file system.",
+  "zh": "但我想向你们介绍的是，我们有一个叫 Oracle DBFS 的东西，也就是数据库文件系统，你可以在数据库内的一个文件系统里存储文件。"
+ },
+ {
+  "seg": 170,
+  "start": 1252.876,
+  "end": 1257.379,
+  "speaker": "Unknown",
+  "en": "And that gives you lots of the advantages that we set.",
+  "zh": "这会给你带来我们所说的很多优势。"
+ },
+ {
+  "seg": 171,
+  "start": 1257.679,
+  "end": 1267.686,
+  "speaker": "Unknown",
+  "en": "You will get files with ACID transactional consistency, you will get vector search, relations, security, high availability, et cetera, right?",
+  "zh": "你会得到具有 ACID 事务一致性的文件，你会得到向量搜索、关系、安全性、高可用性等等，对吧？"
+ },
+ {
+  "seg": 172,
+  "start": 1268.978,
+  "end": 1279.243,
+  "speaker": "Unknown",
+  "en": "And my suggestion is that since a hybrid system works best, we can have things like, for instance, short-term memory, right, that lives in files.",
+  "zh": "而我的建议是，既然混合系统效果最好，我们可以有比如，短期记忆，对吧，它存在于文件里。"
+ },
+ {
+  "seg": 173,
+  "start": 1279.844,
+  "end": 1289.549,
+  "speaker": "Unknown",
+  "en": "And when something needs to be promoted into a long-term memory, for instance, user preferences, things like this, they can go into a more structured space like a database.",
+  "zh": "而当某些东西需要被提升为长期记忆时，比如，用户偏好之类的东西，它们可以进入一个更结构化的空间，比如数据库。"
+ },
+ {
+  "seg": 174,
+  "start": 1290.229,
+  "end": 1291.93,
+  "speaker": "Unknown",
+  "en": "And this is what we'll do in the workshop.",
+  "zh": "这就是我们在 workshop 上要做的。"
+ },
+ {
+  "seg": 175,
+  "start": 1294.13,
+  "end": 1316.041,
+  "speaker": "Unknown",
+  "en": "For the encoding, the search, and the retrieval, which was another of the components in the agent harness, we also have a LangChain integration that I want to mention called LangChain OracleDB that makes it very easy to insert into vector stores, search in the vector stores, and retrieve from the vector stores.",
+  "zh": "对于编码、搜索和检索，这是智能体 harness 中的另一个组件，我们还有一个 LangChain 集成想提一下，叫 LangChain OracleDB，它让向向量库插入、在向量库中搜索以及从向量库检索变得非常容易。"
+ },
+ {
+  "seg": 176,
+  "start": 1317.282,
+  "end": 1320.103,
+  "speaker": "Unknown",
+  "en": "Also, we have another thing called in-database embeddings.",
+  "zh": "另外，我们还有一个叫数据库内嵌入的东西。"
+ },
+ {
+  "seg": 177,
+  "start": 1320.123,
+  "end": 1321.944,
+  "speaker": "Unknown",
+  "en": "Have you ever heard about in-database embeddings?",
+  "zh": "你们听说过数据库内嵌入吗？"
+ },
+ {
+  "seg": 178,
+  "start": 1322.801,
+  "end": 1323.001,
+  "speaker": "Unknown",
+  "en": "Yes?",
+  "zh": "听说过？"
+ },
+ {
+  "seg": 179,
+  "start": 1323.802,
+  "end": 1324.062,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 180,
+  "start": 1324.423,
+  "end": 1337.817,
+  "speaker": "Unknown",
+  "en": "So in database embeddings is very convenient, especially for enterprise customers because you will get the embedding model inside the database so that when you're doing embeddings, you don't have to call a third-party service.",
+  "zh": "数据库内嵌入非常方便，尤其是对企业客户来说，因为你会把嵌入模型放在数据库内部，这样你在做嵌入时，就不必调用第三方服务。"
+ },
+ {
+  "seg": 181,
+  "start": 1338.337,
+  "end": 1342.822,
+  "speaker": "Unknown",
+  "en": "And that's very convenient for isolate, like data retention and data security purposes.",
+  "zh": "这对于隔离，比如数据保留和数据安全目的来说非常方便。"
+ },
+ {
+  "seg": 182,
+  "start": 1345.694,
+  "end": 1354.217,
+  "speaker": "Unknown",
+  "en": "So this is what an embedding, searching, and re-ranking model would look like from a chatbot interface, for instance, right?",
+  "zh": "这就是从聊天机器人界面看，一个嵌入、搜索和重排序模型的样子，比如，对吧？"
+ },
+ {
+  "seg": 183,
+  "start": 1354.237,
+  "end": 1358.319,
+  "speaker": "Unknown",
+  "en": "You have a lot of documents, then you kind of use a buy encoder.",
+  "zh": "你有大量文档，然后你使用一个 bi encoder。"
+ },
+ {
+  "seg": 184,
+  "start": 1358.339,
+  "end": 1360.359,
+  "speaker": "Unknown",
+  "en": "So a buy encoder is essentially an embedding model.",
+  "zh": "bi encoder 本质上就是一个嵌入模型。"
+ },
+ {
+  "seg": 185,
+  "start": 1361.24,
+  "end": 1364.361,
+  "speaker": "Unknown",
+  "en": "You will create embeddings out of this document.",
+  "zh": "你会从这些文档中创建嵌入。"
+ },
+ {
+  "seg": 186,
+  "start": 1364.701,
+  "end": 1368.502,
+  "speaker": "Unknown",
+  "en": "You will split them and create vectors, put it into a vector store, right?",
+  "zh": "你会把它们切分并创建向量，放进一个向量库，对吧？"
+ },
+ {
+  "seg": 187,
+  "start": 1368.962,
+  "end": 1372.724,
+  "speaker": "Unknown",
+  "en": "And then you will get a user prompt, a user query, a question.",
+  "zh": "然后你会得到一个用户提示词、一个用户查询、一个问题。"
+ },
+ {
+  "seg": 188,
+  "start": 1373.604,
+  "end": 1386.511,
+  "speaker": "Unknown",
+  "en": "You can also create an embedding out of that and then compare it to what you had previously on your vector store and this is how you get the most relevant vectors in an answer.",
+  "zh": "你也可以从中创建一个嵌入，然后与你之前在向量库中的内容进行比较，这就是你如何在答案中获得最相关向量的方法。"
+ },
+ {
+  "seg": 189,
+  "start": 1387.011,
+  "end": 1390.973,
+  "speaker": "Unknown",
+  "en": "Then you will run a cross encoder which is a re-ranker and",
+  "zh": "然后你会运行一个 cross encoder，它是一个重排序器，"
+ },
+ {
+  "seg": 190,
+  "start": 1391.972,
+  "end": 1399.803,
+  "speaker": "Unknown",
+  "en": "Take a look at the question plus the result and that's how questions are answered kind of in RAG applications, right?",
+  "zh": "看看问题加上结果，这就是 RAG 应用中回答问题的大致方式，对吧？"
+ },
+ {
+  "seg": 191,
+  "start": 1400.364,
+  "end": 1405.431,
+  "speaker": "Unknown",
+  "en": "So these things we are also going to touch briefly on the workshop.",
+  "zh": "所以这些东西我们在 workshop 上也会简要涉及。"
+ },
+ {
+  "seg": 192,
+  "start": 1407.004,
+  "end": 1411.267,
+  "speaker": "Unknown",
+  "en": "And the thing is that, you know, imagine this RAG application from the beginning.",
+  "zh": "事情是，你知道，想象一下这个 RAG 应用从头开始。"
+ },
+ {
+  "seg": 193,
+  "start": 1411.528,
+  "end": 1414.83,
+  "speaker": "Unknown",
+  "en": "From the documents, you create, you do lots of things, right?",
+  "zh": "从文档开始，你创建，你要做很多事情，对吧？"
+ },
+ {
+  "seg": 194,
+  "start": 1414.85,
+  "end": 1418.773,
+  "speaker": "Unknown",
+  "en": "You do tokenization, then you create the embeddings.",
+  "zh": "你做分词，然后创建嵌入。"
+ },
+ {
+  "seg": 195,
+  "start": 1419.174,
+  "end": 1428.761,
+  "speaker": "Unknown",
+  "en": "You have to do things like the duplicating the data, normalization, personal, like redacting personally identifiable information.",
+  "zh": "你还得做诸如复制数据、规范化、个人……比如对个人身份信息进行脱敏。"
+ },
+ {
+  "seg": 196,
+  "start": 1429.682,
+  "end": 1430.383,
+  "speaker": "Unknown",
+  "en": "Lots of things, right?",
+  "zh": "很多事情，对吧？"
+ },
+ {
+  "seg": 197,
+  "start": 1430.503,
+  "end": 1435.286,
+  "speaker": "Unknown",
+  "en": "And then, on your store, you have textual data from the documents.",
+  "zh": "然后，在你的存储里，你有来自文档的文本数据。"
+ },
+ {
+  "seg": 198,
+  "start": 1435.686,
+  "end": 1438.348,
+  "speaker": "Unknown",
+  "en": "You have metadata, which is typically stored in JSON.",
+  "zh": "你有元数据，它通常以 JSON 形式存储。"
+ },
+ {
+  "seg": 199,
+  "start": 1438.808,
+  "end": 1443.752,
+  "speaker": "Unknown",
+  "en": "You have vectors, which are represented as dense embeddings of 32 bits.",
+  "zh": "你有向量，它们被表示为 32 位的稠密嵌入。"
+ },
+ {
+  "seg": 200,
+  "start": 1445.193,
+  "end": 1457.181,
+  "speaker": "Unknown",
+  "en": "Like, you have so many types of data that you need to work on that typically what people have is, for instance, I don't know, I will not name names so I don't get in trouble, but, you know, you might need, like,",
+  "zh": "就像，你有太多类型的数据需要处理，通常人们做的是，比如说，我不确定，我不会点名以免惹麻烦，但是，你知道，你可能需要，比如，"
+ },
+ {
+  "seg": 201,
+  "start": 1458.375,
+  "end": 1460.577,
+  "speaker": "Unknown",
+  "en": "Different databases for each one of these, right?",
+  "zh": "为每一种数据配备不同的数据库，对吧？"
+ },
+ {
+  "seg": 202,
+  "start": 1461.098,
+  "end": 1461.638,
+  "speaker": "Unknown",
+  "en": "You get what I mean?",
+  "zh": "你明白我的意思吗？"
+ },
+ {
+  "seg": 203,
+  "start": 1462.098,
+  "end": 1471.267,
+  "speaker": "Unknown",
+  "en": "So there is a very high, nowadays, very high data synchronization logic overhead for AI engineers or even for agents, right?",
+  "zh": "所以现如今，对 AI 工程师甚至对智能体来说，数据同步逻辑的开销非常高，对吧？"
+ },
+ {
+  "seg": 204,
+  "start": 1472.008,
+  "end": 1476.272,
+  "speaker": "Unknown",
+  "en": "So lots of maintenance required and lots of engineering effort.",
+  "zh": "所以需要大量的维护和大量的工程投入。"
+ },
+ {
+  "seg": 205,
+  "start": 1477.773,
+  "end": 1480.195,
+  "speaker": "Unknown",
+  "en": "And this is something that we want to avoid.",
+  "zh": "而这正是我们想要避免的。"
+ },
+ {
+  "seg": 206,
+  "start": 1480.855,
+  "end": 1487.14,
+  "speaker": "Unknown",
+  "en": "So what I want you to do today is just to try us out as Oracle.",
+  "zh": "所以我今天想让你们做的，就是以 Oracle 的身份试用我们。"
+ },
+ {
+  "seg": 207,
+  "start": 1487.38,
+  "end": 1488.301,
+  "speaker": "Unknown",
+  "en": "Try our database.",
+  "zh": "试用我们的数据库。"
+ },
+ {
+  "seg": 208,
+  "start": 1488.841,
+  "end": 1493.385,
+  "speaker": "Unknown",
+  "en": "We have support for every type of data imaginable that you can think of.",
+  "zh": "我们支持你能想到的每一种可想象的数据类型。"
+ },
+ {
+  "seg": 209,
+  "start": 1494.725,
+  "end": 1496.466,
+  "speaker": "Unknown",
+  "en": "We are called the converged database.",
+  "zh": "我们被称为融合数据库。"
+ },
+ {
+  "seg": 210,
+  "start": 1496.486,
+  "end": 1504.809,
+  "speaker": "Unknown",
+  "en": "We are the only converged database in the market that we support JSON, we support relational, we support spatial, graph, JSON.",
+  "zh": "我们是市场上唯一的融合数据库，我们支持 JSON，我们支持关系型，我们支持空间、图、JSON。"
+ },
+ {
+  "seg": 211,
+  "start": 1505.089,
+  "end": 1507.87,
+  "speaker": "Unknown",
+  "en": "Anything that you can think of, you'll be able to create with us.",
+  "zh": "任何你能想到的东西，你都可以用我们来创建。"
+ },
+ {
+  "seg": 212,
+  "start": 1508.871,
+  "end": 1516.754,
+  "speaker": "Unknown",
+  "en": "And you'll get like one database engine, one query interface, and one single development stack.",
+  "zh": "而且你会得到一个数据库引擎、一个查询接口和一个单一的开发技术栈。"
+ },
+ {
+  "seg": 213,
+  "start": 1517.294,
+  "end": 1522.196,
+  "speaker": "Unknown",
+  "en": "Everything will be in the same database, so also for data security purposes, you just have to",
+  "zh": "一切都在同一个数据库里，所以出于数据安全的目的，你只需要"
+ },
+ {
+  "seg": 214,
+  "start": 1524.049,
+  "end": 1528.293,
+  "speaker": "Unknown",
+  "en": "You know, secure and save all your data in one place.",
+  "zh": "你知道，把所有数据保存在一个地方并进行安全防护。"
+ },
+ {
+  "seg": 215,
+  "start": 1528.553,
+  "end": 1532.436,
+  "speaker": "Unknown",
+  "en": "So a single attack vector is what you need to worry about.",
+  "zh": "所以你只需要担心单一的攻击向量。"
+ },
+ {
+  "seg": 216,
+  "start": 1532.576,
+  "end": 1534.818,
+  "speaker": "Unknown",
+  "en": "You don't need to worry about updating five different databases.",
+  "zh": "你不需要担心更新五个不同的数据库。"
+ },
+ {
+  "seg": 217,
+  "start": 1535.399,
+  "end": 1539.082,
+  "speaker": "Unknown",
+  "en": "You can just worry on securing one database.",
+  "zh": "你只需要专注于保护一个数据库。"
+ },
+ {
+  "seg": 218,
+  "start": 1540.583,
+  "end": 1549.43,
+  "speaker": "Unknown",
+  "en": "So we can be the engine of your AI applications, not just a single step, which is what people think of when they are working with databases.",
+  "zh": "所以我们可以成为你 AI 应用的引擎，而不仅仅是其中一个步骤——而这是人们在处理数据库时通常会想到的定位。"
+ },
+ {
+  "seg": 219,
+  "start": 1553.62,
+  "end": 1556.246,
+  "speaker": "Unknown",
+  "en": "Yeah, so agent memory.",
+  "zh": "是的，所以是智能体记忆。"
+ },
+ {
+  "seg": 220,
+  "start": 1557.887,
+  "end": 1570.976,
+  "speaker": "Unknown",
+  "en": "Agent memory is essentially a description of all the mechanisms and the systems that allow an agent to retain, reuse, refine, and recall information.",
+  "zh": "智能体记忆本质上是对所有机制和系统的描述，这些机制和系统让智能体能够保留、复用、精炼和回忆信息。"
+ },
+ {
+  "seg": 221,
+  "start": 1571.036,
+  "end": 1586.167,
+  "speaker": "Unknown",
+  "en": "We wanna reuse the data and refine it in the process, but we wanna reuse the data so that the next time that an agent, or us as engineers, we are working on a problem that took us three hours, the next time that we observe this problem,",
+  "zh": "我们想复用数据并在过程中精炼它，但我们想复用数据，这样下一次当智能体、或者我们作为工程师，在处理一个曾花我们三个小时的问题时，下一次我们观察到这个问题，"
+ },
+ {
+  "seg": 222,
+  "start": 1586.907,
+  "end": 1590.289,
+  "speaker": "Unknown",
+  "en": "The problem becomes easier, either for AI agents or for us.",
+  "zh": "这个问题就会变得更容易，无论是对 AI 智能体还是对我们来说。"
+ },
+ {
+  "seg": 223,
+  "start": 1591.93,
+  "end": 1594.712,
+  "speaker": "Unknown",
+  "en": "And agent memory has lots of components, right?",
+  "zh": "而智能体记忆有很多组成部分，对吧？"
+ },
+ {
+  "seg": 224,
+  "start": 1595.013,
+  "end": 1601.097,
+  "speaker": "Unknown",
+  "en": "We have short-term memory, we have long-term memory, and then we have shared memory, which is something that's relatively new.",
+  "zh": "我们有短期记忆，我们有长期记忆，然后我们还有共享记忆，这是相对较新的东西。"
+ },
+ {
+  "seg": 225,
+  "start": 1602.518,
+  "end": 1614.126,
+  "speaker": "Unknown",
+  "en": "And this shared memory is kind of what happens when a sub-agent is communicating with its parent, for instance, or two agents are trying to collaborate on solving one specific problem together.",
+  "zh": "而这种共享记忆，举例来说，有点像一个子智能体与它的父级通信时发生的事情，或者两个智能体试图协作共同解决一个特定问题时。"
+ },
+ {
+  "seg": 226,
+  "start": 1614.866,
+  "end": 1626.533,
+  "speaker": "Unknown",
+  "en": "And then what I want you to see is that depending on the type of memory or the type of thing that we want to store, it will be in one place or the other, right?",
+  "zh": "然后我想让你们看到的是，根据记忆类型或我们想存储的东西的类型，它会放在这个或那个地方，对吧？"
+ },
+ {
+  "seg": 227,
+  "start": 1626.853,
+  "end": 1634.538,
+  "speaker": "Unknown",
+  "en": "So short-term memory is kind of ephemeral, is very short-lived, and it's very useful for things that are happening right now.",
+  "zh": "所以短期记忆是有点短暂性的，生命周期非常短，它对正在发生的事情非常有用。"
+ },
+ {
+  "seg": 228,
+  "start": 1635.218,
+  "end": 1638.76,
+  "speaker": "Unknown",
+  "en": "For instance, the to-do list on a coding agent, right?",
+  "zh": "举例来说，编程智能体上的待办清单，对吧？"
+ },
+ {
+  "seg": 229,
+  "start": 1639.061,
+  "end": 1643.483,
+  "speaker": "Unknown",
+  "en": "It's happening right now, but you actually don't want to save that, you know,",
+  "zh": "它正在此刻发生，但实际上你不想把它保存，"
+ },
+ {
+  "seg": 230,
+  "start": 1644.764,
+  "end": 1653.206,
+  "speaker": "Unknown",
+  "en": "in long term, but then there are things like, for instance, episodic memory, things that previous conversations that you've had, that's very useful to have, for instance.",
+  "zh": "到长期，但也有些东西，举例来说，情景记忆，你之前进行过的对话，这是非常有用可以保存的，举例来说。"
+ },
+ {
+  "seg": 231,
+  "start": 1654.866,
+  "end": 1673.691,
+  "speaker": "Unknown",
+  "en": "I don't know if you use Claude, some people are using Claude here, but in Claude, you might take your previous conversations and try to refine all your workflows and your skills based on the things that you've done in the past, so this is something that makes sense to save in the long run, right?",
+  "zh": "我不知道你是否用 Claude，这里有些人在用 Claude，但在 Claude 中，你可能会拿你之前的对话，尝试根据你过去做过的事情来精炼你所有的工作流和你的技能，所以这是从长远来看值得保存的东西，对吧？"
+ },
+ {
+  "seg": 232,
+  "start": 1674.711,
+  "end": 1680.015,
+  "speaker": "Unknown",
+  "en": "You also have things like procedural memory, previous workflows that have worked very well for your system.",
+  "zh": "你还有像程序性记忆这样的东西，过去对你的系统运作非常好的工作流。"
+ },
+ {
+  "seg": 233,
+  "start": 1680.315,
+  "end": 1687.121,
+  "speaker": "Unknown",
+  "en": "For instance, you worked on this frontend and then you created a very beautiful design that you like.",
+  "zh": "举例来说，你做了这个前端，然后你创造了一个你喜欢的非常漂亮的设计。"
+ },
+ {
+  "seg": 234,
+  "start": 1688.121,
+  "end": 1699.65,
+  "speaker": "Unknown",
+  "en": "You might take the whole conversation and turn that into a workflow that is repeatable and reusable, so that the next time you're working on the frontend, the results will be similar to the previous one.",
+  "zh": "你可以把整个对话变成一个可重复、可复用的工作流，这样下次你在做前端时，结果会与之前相似。"
+ },
+ {
+  "seg": 235,
+  "start": 1700.611,
+  "end": 1702.833,
+  "speaker": "Unknown",
+  "en": "So these are the things that we will see on the workshop.",
+  "zh": "所以这些就是我们在工作坊中会看到的东西。"
+ },
+ {
+  "seg": 236,
+  "start": 1704.222,
+  "end": 1707.685,
+  "speaker": "Unknown",
+  "en": "And some people say, okay, why do I even need all of this?",
+  "zh": "而有些人会说，好吧，为什么我甚至需要所有这些？"
+ },
+ {
+  "seg": 237,
+  "start": 1707.805,
+  "end": 1712.688,
+  "speaker": "Unknown",
+  "en": "Like people that have animosity towards agent memory.",
+  "zh": "比如那些对智能体记忆抱有敌意的人。"
+ },
+ {
+  "seg": 238,
+  "start": 1713.229,
+  "end": 1720.034,
+  "speaker": "Unknown",
+  "en": "People say, okay, let's just put like 15 million context window, even though it's not possible yet.",
+  "zh": "人们说，好吧，我们直接上一个 1500 万的上下文窗口就行了，尽管这现在还不可能。"
+ },
+ {
+  "seg": 239,
+  "start": 1720.114,
+  "end": 1723.596,
+  "speaker": "Unknown",
+  "en": "But some people really believe that this is the thing, right?",
+  "zh": "但有些人真的相信这就是答案，对吧？"
+ },
+ {
+  "seg": 240,
+  "start": 1723.616,
+  "end": 1727.099,
+  "speaker": "Unknown",
+  "en": "But the context window is a type of short-term memory.",
+  "zh": "但上下文窗口是一种短期记忆。"
+ },
+ {
+  "seg": 241,
+  "start": 1727.579,
+  "end": 1730.702,
+  "speaker": "Unknown",
+  "en": "So it's useful for some things, but not for all of them.",
+  "zh": "所以它对某些事情有用，但不是对所有事情。"
+ },
+ {
+  "seg": 242,
+  "start": 1731.602,
+  "end": 1742.012,
+  "speaker": "Unknown",
+  "en": "And one of the problems that happen with working with a context is this thing called context rot or context degradation over time.",
+  "zh": "而使用上下文时会出现的一个问题，就是所谓的上下文腐化或上下文随时间的退化。"
+ },
+ {
+  "seg": 243,
+  "start": 1742.432,
+  "end": 1746.596,
+  "speaker": "Unknown",
+  "en": "And what happens is that the more things that you put into the context window,",
+  "zh": "发生的情况是，你往上下文窗口里放的东西越多，"
+ },
+ {
+  "seg": 244,
+  "start": 1747.677,
+  "end": 1752.382,
+  "speaker": "Unknown",
+  "en": "the less attention there will be for each one of the things that are in the context.",
+  "zh": "上下文中每一样东西所得到的注意力就会越少。"
+ },
+ {
+  "seg": 245,
+  "start": 1752.923,
+  "end": 1763.594,
+  "speaker": "Unknown",
+  "en": "So at the beginning of a conversation, and this is a famous problem that the context window has, is at the beginning of the conversation it will stay on track a lot because",
+  "zh": "所以在对话开始时——这是上下文窗口的一个著名问题——在对话开始时它会非常保持在正轨上，因为"
+ },
+ {
+  "seg": 246,
+  "start": 1764.355,
+  "end": 1766.537,
+  "speaker": "Unknown",
+  "en": "You just started the conversation.",
+  "zh": "你才刚开始对话。"
+ },
+ {
+  "seg": 247,
+  "start": 1766.958,
+  "end": 1769.721,
+  "speaker": "Unknown",
+  "en": "So let's say that, for instance, like in school, right?",
+  "zh": "比方说，举例来说，就像在学校，对吧？"
+ },
+ {
+  "seg": 248,
+  "start": 1769.801,
+  "end": 1780.171,
+  "speaker": "Unknown",
+  "en": "Or if I'm having a conversation with you, I might have a chat with you for 30 minutes and your attention to me is very high because I've just started speaking.",
+  "zh": "或者如果我在和你交谈，我可能和你聊 30 分钟，你对我的注意力非常高，因为我才刚开始说话。"
+ },
+ {
+  "seg": 249,
+  "start": 1780.732,
+  "end": 1783.014,
+  "speaker": "Unknown",
+  "en": "But if the conversation goes on for eight hours,",
+  "zh": "但如果对话持续八个小时，"
+ },
+ {
+  "seg": 250,
+  "start": 1783.875,
+  "end": 1785.296,
+  "speaker": "Unknown",
+  "en": "Then you wanna punch me, right?",
+  "zh": "那你就想揍我了，对吧？"
+ },
+ {
+  "seg": 251,
+  "start": 1785.316,
+  "end": 1789.317,
+  "speaker": "Unknown",
+  "en": "Because I haven't shut up and you haven't learned almost anything at the end.",
+  "zh": "因为我一直没闭嘴，而你到最后几乎什么都没学到。"
+ },
+ {
+  "seg": 252,
+  "start": 1790.078,
+  "end": 1794.579,
+  "speaker": "Unknown",
+  "en": "And the problem is that attention, like us humans, is very limited.",
+  "zh": "问题是注意力，就像我们人类一样，是非常有限的。"
+ },
+ {
+  "seg": 253,
+  "start": 1794.979,
+  "end": 1807.344,
+  "speaker": "Unknown",
+  "en": "So the more things that you put in the context window, the attention matrix of the neural network will also degrade and it will scale quadratically because the attention matrix is one token.",
+  "zh": "所以你放进上下文窗口里的东西越多，神经网络的注意力矩阵也会退化，并且它会呈二次方增长，因为注意力矩阵是每个 token……"
+ },
+ {
+  "seg": 254,
+  "start": 1809.205,
+  "end": 1813.986,
+  "speaker": "Unknown",
+  "en": "It's essentially a reference of one token for every other token in the context window.",
+  "zh": "本质上就是上下文窗口中的每一个 token 对其他所有 token 的引用。"
+ },
+ {
+  "seg": 255,
+  "start": 1814.206,
+  "end": 1821.869,
+  "speaker": "Unknown",
+  "en": "So the bigger the context window is, the matrix scales on the number of rows and on the number of columns as well, which is a problem.",
+  "zh": "所以上下文窗口越大，矩阵的行数和列数都会增长，这就是个问题。"
+ },
+ {
+  "seg": 256,
+  "start": 1822.789,
+  "end": 1829.911,
+  "speaker": "Unknown",
+  "en": "So you want to keep the context window as small as possible to avoid context rot.",
+  "zh": "所以你要让上下文窗口尽可能小，以避免上下文腐化(context rot)。"
+ },
+ {
+  "seg": 257,
+  "start": 1829.931,
+  "end": 1832.412,
+  "speaker": "Unknown",
+  "en": "And memory engineering, the components of memory engineering,",
+  "zh": "而记忆工程，记忆工程的组成部分，"
+ },
+ {
+  "seg": 258,
+  "start": 1834.252,
+  "end": 1842.213,
+  "speaker": "Unknown",
+  "en": "So it's like designing, building, and doing everything around building agent memory for AI agents.",
+  "zh": "它就像是为 AI 智能体设计、构建以及围绕构建智能体记忆所做的一切事情。"
+ },
+ {
+  "seg": 259,
+  "start": 1842.954,
+  "end": 1849.655,
+  "speaker": "Unknown",
+  "en": "And we want to retain, recall, reuse, and refine this data in some way.",
+  "zh": "而我们想以某种方式保留、回忆、复用和精炼这些数据。"
+ },
+ {
+  "seg": 260,
+  "start": 1850.955,
+  "end": 1852.775,
+  "speaker": "Unknown",
+  "en": "So it is a discipline, right?",
+  "zh": "所以它是一门学科，对吧?"
+ },
+ {
+  "seg": 261,
+  "start": 1853.255,
+  "end": 1860.397,
+  "speaker": "Unknown",
+  "en": "And here we have Valentin, for instance, and we have people from Oracle, my colleagues, all over the room.",
+  "zh": "比如这里有 Valentin,我们还有来自 Oracle 的人、我的同事们，遍布整个会场。"
+ },
+ {
+  "seg": 262,
+  "start": 1860.657,
+  "end": 1862.757,
+  "speaker": "Unknown",
+  "en": "So if you see them, you can say hi to them.",
+  "zh": "所以如果你看到他们，可以跟他们打个招呼。"
+ },
+ {
+  "seg": 263,
+  "start": 1864.067,
+  "end": 1874.289,
+  "speaker": "Unknown",
+  "en": "Valentin here, he's working on the development, or he worked on the development of this agent memory package, so if you have any questions about this, you can ask him.",
+  "zh": "这位 Valentin,他正在参与开发，或者说他曾参与开发这个智能体记忆包，所以如果你有任何关于这个的问题，可以问他。"
+ },
+ {
+  "seg": 264,
+  "start": 1874.989,
+  "end": 1886.091,
+  "speaker": "Unknown",
+  "en": "OAMP, or Oracle Agent Memory Package, is the managed answer that we have in Oracle to lots of the problems that you will find when working with this type of data.",
+  "zh": "OAMP,或者叫 Oracle Agent Memory Package,是我们在 Oracle 针对你在处理这类数据时会遇到的很多问题提供的托管式答案。"
+ },
+ {
+  "seg": 265,
+  "start": 1886.671,
+  "end": 1890.612,
+  "speaker": "Unknown",
+  "en": "For instance, as an engineer, if you do not have",
+  "zh": "比如说，作为一名工程师，如果你没有"
+ },
+ {
+  "seg": 266,
+  "start": 1891.63,
+  "end": 1892.651,
+  "speaker": "Unknown",
+  "en": "a managed solution.",
+  "zh": "一个托管式解决方案。"
+ },
+ {
+  "seg": 267,
+  "start": 1892.671,
+  "end": 1894.012,
+  "speaker": "Unknown",
+  "en": "You need to make a lot of decisions.",
+  "zh": "你需要做很多决定。"
+ },
+ {
+  "seg": 268,
+  "start": 1894.492,
+  "end": 1897.394,
+  "speaker": "Unknown",
+  "en": "You need to see, when do I do context compaction?",
+  "zh": "你需要考虑，我什么时候做上下文压缩？"
+ },
+ {
+  "seg": 269,
+  "start": 1897.594,
+  "end": 1898.575,
+  "speaker": "Unknown",
+  "en": "When do I summarize?",
+  "zh": "我什么时候做摘要？"
+ },
+ {
+  "seg": 270,
+  "start": 1899.715,
+  "end": 1901.256,
+  "speaker": "Unknown",
+  "en": "How do I write the summarizer?",
+  "zh": "我怎么写这个摘要器？"
+ },
+ {
+  "seg": 271,
+  "start": 1901.496,
+  "end": 1902.217,
+  "speaker": "Unknown",
+  "en": "What do I keep?",
+  "zh": "我保留什么？"
+ },
+ {
+  "seg": 272,
+  "start": 1902.897,
+  "end": 1905.259,
+  "speaker": "Unknown",
+  "en": "What do I not keep?",
+  "zh": "我不保留什么？"
+ },
+ {
+  "seg": 273,
+  "start": 1906.119,
+  "end": 1909.682,
+  "speaker": "Unknown",
+  "en": "What do I extract from my previous conversations and when?",
+  "zh": "我从之前的对话中提取什么，以及什么时候提取？"
+ },
+ {
+  "seg": 274,
+  "start": 1911.59,
+  "end": 1914.192,
+  "speaker": "Unknown",
+  "en": "How many tokens do I use for this problem?",
+  "zh": "我为这个问题用多少 token?"
+ },
+ {
+  "seg": 275,
+  "start": 1914.392,
+  "end": 1915.393,
+  "speaker": "Unknown",
+  "en": "And lots of these things, right?",
+  "zh": "还有很多这类事情，对吧?"
+ },
+ {
+  "seg": 276,
+  "start": 1916.174,
+  "end": 1923.48,
+  "speaker": "Unknown",
+  "en": "With OAMP, an Oracle Agent Memory Package, you can actually just do all of this in one single line of code.",
+  "zh": "有了 OAMP,也就是 Oracle Agent Memory Package,你实际上只需要一行代码就能完成所有这些事情。"
+ },
+ {
+  "seg": 277,
+  "start": 1924.221,
+  "end": 1932.047,
+  "speaker": "Unknown",
+  "en": "And we want to make it easier so that we reduce the cognitive load of AI engineers and AI agents as well.",
+  "zh": "我们想让这件事更简单，从而降低 AI 工程师以及 AI 智能体的认知负担。"
+ },
+ {
+  "seg": 278,
+  "start": 1933.428,
+  "end": 1939.053,
+  "speaker": "Unknown",
+  "en": "And with this context card thing, you will get something like what you see on the left.",
+  "zh": "有了这个上下文卡片(context card)的东西，你会得到类似左边展示的东西。"
+ },
+ {
+  "seg": 279,
+  "start": 1941.617,
+  "end": 1963.685,
+  "speaker": "Unknown",
+  "en": "This is kind of an explanation of what each part does on it, but essentially the topics that you see, for instance from any conversation you can create a context card from the thread or from the conversation, the topics will orient the model, the summary will compact the thread, and it will state the current intent of an AI agent,",
+  "zh": "这算是对其中每个部分作用的解释，但本质上你看到的这些主题，比如从任意对话中，你可以从这个线程或对话创建一个上下文卡片，主题会为模型定向，摘要会压缩线程，并且它会陈述 AI 智能体当前意图，"
+ },
+ {
+  "seg": 280,
+  "start": 1964.625,
+  "end": 1973.68,
+  "speaker": "Unknown",
+  "en": "And the relevant information has three different parts, which is the facts, the preferences and the memories that are associated to this conversation.",
+  "zh": "而相关信息有三个不同的部分，即与这段对话相关联的事实、偏好和记忆。"
+ },
+ {
+  "seg": 281,
+  "start": 1975.417,
+  "end": 2002.009,
+  "speaker": "Unknown",
+  "en": "Then you have the episodic memories that explicitly track the unanswered question that is going on right now, and the recent messages give local context to the model, so whenever you're feeling unsure, what do I need to do right now with the data that I have, or this conversation, you might use the Oracle agent memory package on Python, and it is all assembled by one single call.",
+  "zh": "然后你有情景记忆，它会显式地追踪当前悬而未决的问题，而近期消息则为模型提供局部上下文，所以每当你感到不确定，不知道现在该用手头的数据或这段对话做什么时，你可以使用 Python 版的 Oracle Agent Memory Package,而这一切都由一次单独的调用组装完成。"
+ },
+ {
+  "seg": 282,
+  "start": 2003.25,
+  "end": 2003.41,
+  "speaker": "Unknown",
+  "en": "Yes?",
+  "zh": "嗯?"
+ },
+ {
+  "seg": 283,
+  "start": 2005.901,
+  "end": 2008.883,
+  "speaker": "Unknown",
+  "en": "So you're suggesting that this goes directly into the model.",
+  "zh": "所以你是建议把这个直接放进模型里。"
+ },
+ {
+  "seg": 284,
+  "start": 2009.083,
+  "end": 2011.864,
+  "speaker": "Unknown",
+  "en": "This is actually something that is used by the harness.",
+  "zh": "这实际上是供 harness 使用的东西。"
+ },
+ {
+  "seg": 285,
+  "start": 2012.424,
+  "end": 2012.965,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 286,
+  "start": 2012.985,
+  "end": 2014.185,
+  "speaker": "Unknown",
+  "en": "And that's what's going into the model.",
+  "zh": "而那才是进入模型的东西。"
+ },
+ {
+  "seg": 287,
+  "start": 2015.006,
+  "end": 2015.666,
+  "speaker": "Unknown",
+  "en": "Yes, yes.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 288,
+  "start": 2017.007,
+  "end": 2019.048,
+  "speaker": "Unknown",
+  "en": "And that's the component that you're talking about that Oracle uses.",
+  "zh": "而这就是你所说的 Oracle 使用的那个组件。"
+ },
+ {
+  "seg": 289,
+  "start": 2019.068,
+  "end": 2021.069,
+  "speaker": "Unknown",
+  "en": "It knows about the structure, and it uses this structure to...",
+  "zh": "它了解这个结构，并且它利用这个结构来……"
+ },
+ {
+  "seg": 290,
+  "start": 2021.889,
+  "end": 2022.65,
+  "speaker": "Unknown",
+  "en": "Exactly, exactly.",
+  "zh": "完全正确，完全正确。"
+ },
+ {
+  "seg": 291,
+  "start": 2022.71,
+  "end": 2030.433,
+  "speaker": "Unknown",
+  "en": "So this structure, this is an abstraction that we build on top of the model, because the model we have no control over in most cases, right?",
+  "zh": "所以这个结构，是我们在模型之上构建的一个抽象，因为在大多数情况下我们对模型本身没有控制权，对吧? [[282→更正:此行序号应为 [[292]]]"
+ },
+ {
+  "seg": 292,
+  "start": 2032.932,
+  "end": 2040.332,
+  "speaker": "Unknown",
+  "en": "The thing is that we can build on top of that whatever abstractions we want to make the model perform as reliably as possible.",
+  "zh": "问题是，我们可以在其之上构建任何我们想要的抽象，让模型尽可能可靠地运行。"
+ },
+ {
+  "seg": 293,
+  "start": 2044.278,
+  "end": 2046.919,
+  "speaker": "Unknown",
+  "en": "So the memory and the semantic layer, they kind of work together.",
+  "zh": "所以记忆和语义层，它们某种程度上是协同工作的。"
+ },
+ {
+  "seg": 294,
+  "start": 2047.319,
+  "end": 2050.14,
+  "speaker": "Unknown",
+  "en": "I know we talked only about memory components.",
+  "zh": "我知道我们只谈了记忆组件。"
+ },
+ {
+  "seg": 295,
+  "start": 2050.98,
+  "end": 2059.582,
+  "speaker": "Unknown",
+  "en": "I'm gonna walk you quickly because I don't have a lot of time to the semantic layer, to the semantic components of it, right?",
+  "zh": "因为我时间不多，我会快速带你们看一下语义层，也就是其中的语义组件，对吧?"
+ },
+ {
+  "seg": 296,
+  "start": 2059.642,
+  "end": 2068.084,
+  "speaker": "Unknown",
+  "en": "And the semantic layer is the meaning of what's going on behind it that you kind of assume that that happens, right?",
+  "zh": "而语义层是背后正在发生的、你某种程度上假设其发生的意义，对吧?"
+ },
+ {
+  "seg": 297,
+  "start": 2068.644,
+  "end": 2070.485,
+  "speaker": "Unknown",
+  "en": "So anyone from Germany?",
+  "zh": "这里有德国来的吗?"
+ },
+ {
+  "seg": 298,
+  "start": 2072.172,
+  "end": 2075.657,
+  "speaker": "Unknown",
+  "en": "Okay, so I apologize for my pronunciation, but I'm gonna try.",
+  "zh": "好，那我先为我的发音道歉，但我要试试。"
+ },
+ {
+  "seg": 299,
+  "start": 2076.038,
+  "end": 2085.532,
+  "speaker": "Unknown",
+  "en": "So the Umwelt is like the ambient of a model, and this was coined by Jakob von Wekskul, and",
+  "zh": "所谓 Umwelt 就像是模型的环境，这个词是 Jakob von Wekskul 创造的，然后"
+ },
+ {
+  "seg": 300,
+  "start": 2087.254,
+  "end": 2097.361,
+  "speaker": "Unknown",
+  "en": "This guy said that essentially every organism in the world that is living perceives its reality through a lens, and the lens is what it has access to.",
+  "zh": "这个人说，本质上世界上每一个活着的生物都是通过一个透镜来感知它的现实的，而这个透镜就是它能接触到的东西。"
+ },
+ {
+  "seg": 301,
+  "start": 2097.441,
+  "end": 2101.484,
+  "speaker": "Unknown",
+  "en": "For us humans, for instance, we have our eyes, our senses, right?",
+  "zh": "比如对我们人类来说，我们有眼睛、有感官，对吧？"
+ },
+ {
+  "seg": 302,
+  "start": 2101.825,
+  "end": 2109.03,
+  "speaker": "Unknown",
+  "en": "So everything that we perceive and everything that we live, all our experiences are seen through this lens, right?",
+  "zh": "所以我们感知到的一切、我们经历的一切，所有的体验都是透过这个透镜看到的，对吧？"
+ },
+ {
+  "seg": 303,
+  "start": 2109.83,
+  "end": 2111.432,
+  "speaker": "Unknown",
+  "en": "And an agent doesn't have",
+  "zh": "而智能体没有"
+ },
+ {
+  "seg": 304,
+  "start": 2112.152,
+  "end": 2122.56,
+  "speaker": "Unknown",
+  "en": "Human-like senses, but it has also a kind of semantic layer or a semantic lens that everything that you ask it is filtered through.",
+  "zh": "类人的感官，但它也有一种语义层或语义透镜，你问它的所有东西都要经过它的过滤。"
+ },
+ {
+  "seg": 305,
+  "start": 2123.041,
+  "end": 2128.645,
+  "speaker": "Unknown",
+  "en": "And this lens is essentially what you train it with and then what you also give context to.",
+  "zh": "而这个透镜本质上就是你在训练它时用的东西，以及你随后给它提供的上下文。"
+ },
+ {
+  "seg": 306,
+  "start": 2129.586,
+  "end": 2132.769,
+  "speaker": "Unknown",
+  "en": "So everything that you talk to the agent, right?",
+  "zh": "所以你和智能体对话的一切，对吧？"
+ },
+ {
+  "seg": 307,
+  "start": 2132.969,
+  "end": 2138.073,
+  "speaker": "Unknown",
+  "en": "When you talk to the agent, this agent will look it through the umwelt.",
+  "zh": "当你和智能体对话时，这个智能体会通过这个 Umwelt(环境感知域)来看待它。"
+ },
+ {
+  "seg": 308,
+  "start": 2139.64,
+  "end": 2142.461,
+  "speaker": "Unknown",
+  "en": "And the semantic layer is essentially the agent's umwelt.",
+  "zh": "而语义层本质上就是智能体的 Umwelt(环境感知域)。"
+ },
+ {
+  "seg": 309,
+  "start": 2143.682,
+  "end": 2157.648,
+  "speaker": "Unknown",
+  "en": "So the unset is what I want to focus on, like for instance organizational knowledge or enterprise knowledge, things that when you're working with a colleague you don't mention this because this is already",
+  "zh": "所以 unset(环境感知域)是我想要关注的重点，比如组织知识或企业知识，这些是当你和同事一起工作时你不会提到的东西，因为这些已经"
+ },
+ {
+  "seg": 310,
+  "start": 2158.65,
+  "end": 2160.691,
+  "speaker": "Unknown",
+  "en": "You know, known between you and your colleague.",
+  "zh": "你知道的，在你和你的同事之间是已知的了。"
+ },
+ {
+  "seg": 311,
+  "start": 2160.711,
+  "end": 2175.637,
+  "speaker": "Unknown",
+  "en": "You need to specify everything that you work on every day, but if there was someone else, like a child, that wanted to start working with you, you would have to specify everything very, very in detail.",
+  "zh": "你需要明确说明你们每天工作的每一件事，但如果换了别人，比如一个孩子，想要开始和你一起工作，你就得非常非常详细地说明每一件事。"
+ },
+ {
+  "seg": 312,
+  "start": 2176.077,
+  "end": 2179.199,
+  "speaker": "Unknown",
+  "en": "These are all the unsets, and this is what the semantic layer captures.",
+  "zh": "这些都是 unset(环境感知域)，而这正是语义层所捕捉的。"
+ },
+ {
+  "seg": 313,
+  "start": 2179.959,
+  "end": 2187.128,
+  "speaker": "Unknown",
+  "en": "So the unset is the actual tribal knowledge that an enterprise has, right?",
+  "zh": "所以 unset(环境感知域)就是一个企业实际拥有的部落知识，对吧？"
+ },
+ {
+  "seg": 314,
+  "start": 2187.288,
+  "end": 2193.335,
+  "speaker": "Unknown",
+  "en": "Institutional knowledge as well, like how the data is modeled, how the queries are executed, what is the metadata?",
+  "zh": "还有制度性知识，比如数据是如何建模的、查询是如何执行的、元数据是什么？"
+ },
+ {
+  "seg": 315,
+  "start": 2193.996,
+  "end": 2197.24,
+  "speaker": "Unknown",
+  "en": "All these things are in the semantic layer.",
+  "zh": "所有这些东西都在语义层里。"
+ },
+ {
+  "seg": 316,
+  "start": 2199.525,
+  "end": 2208.308,
+  "speaker": "Unknown",
+  "en": "And quickly, just for you to know that we're also going to implement a very minimalistic agent loop, and an agent loop is like the driver of the model, right?",
+  "zh": "很快地，为了让你们知道，我们还会实现一个非常极简的智能体循环，智能体循环就像是模型的驱动器，对吧？"
+ },
+ {
+  "seg": 317,
+  "start": 2208.669,
+  "end": 2220.573,
+  "speaker": "Unknown",
+  "en": "It lets a model be kind of independent and autonomous, and it is what makes a model, it turns a model into an agent, right?",
+  "zh": "它让模型变得某种程度上的独立和自主，而正是它使一个模型、它把一个模型变成一个智能体，对吧？"
+ },
+ {
+  "seg": 318,
+  "start": 2222.449,
+  "end": 2234.815,
+  "speaker": "Unknown",
+  "en": "And this is like the simplest agent loop that you can find is kind of this observing and reasoning and then acting part that happens all of the time, all of the time.",
+  "zh": "而这是你能找到的最简单的智能体循环，大致就是这种观察、然后推理、然后行动的部分，它一直在发生，一直在发生。"
+ },
+ {
+  "seg": 319,
+  "start": 2235.635,
+  "end": 2242.799,
+  "speaker": "Unknown",
+  "en": "And, you know, it has to be failure resistant so that we never exit the loop.",
+  "zh": "而且，你知道的，它必须具备抗故障能力，这样我们永远不会退出这个循环。"
+ },
+ {
+  "seg": 320,
+  "start": 2243.199,
+  "end": 2243.799,
+  "speaker": "Unknown",
+  "en": "This is the idea.",
+  "zh": "这就是理念。"
+ },
+ {
+  "seg": 321,
+  "start": 2244.339,
+  "end": 2246.18,
+  "speaker": "Unknown",
+  "en": "That the agent, you give autonomy to the agent.",
+  "zh": "也就是给这个智能体、你赋予智能体自主性。"
+ },
+ {
+  "seg": 322,
+  "start": 2247.101,
+  "end": 2249.982,
+  "speaker": "Unknown",
+  "en": "Well, you give autonomy to the model so that it becomes the agent.",
+  "zh": "嗯，你赋予模型自主性，让它成为智能体。"
+ },
+ {
+  "seg": 323,
+  "start": 2251.736,
+  "end": 2260.719,
+  "speaker": "Unknown",
+  "en": "And then on the context engineering part, which is the last part of the seven layers of an agent harness, you also have lots of things that you can do.",
+  "zh": "然后在上下文工程这部分，也就是智能体 harness 七层的最后一层，你也有很多可以做的事情。"
+ },
+ {
+  "seg": 324,
+  "start": 2261.019,
+  "end": 2266.521,
+  "speaker": "Unknown",
+  "en": "For instance, the toolbox pattern and the skill box pattern, which this is on the workshop as well.",
+  "zh": "比如 toolbox 模式和 skill box 模式，这些在 workshop 里也有。"
+ },
+ {
+  "seg": 325,
+  "start": 2267.301,
+  "end": 2276.744,
+  "speaker": "Unknown",
+  "en": "And these are ways in which you can store the available tools and the available skills of a model so that they are retrieved optimally.",
+  "zh": "这些是存储模型可用工具和可用技能的方法，以便它们能被最优地检索。"
+ },
+ {
+  "seg": 326,
+  "start": 2277.104,
+  "end": 2278.265,
+  "speaker": "Unknown",
+  "en": "And what you wanna do is only",
+  "zh": "而你想要做的是只在"
+ },
+ {
+  "seg": 327,
+  "start": 2279.91,
+  "end": 2286.473,
+  "speaker": "Unknown",
+  "en": "retrieve the tools and the skills when they are actually needed and put it on the context window only when needed.",
+  "zh": "工具和技能真正被需要时才检索它们，并且只在需要时把它们放进上下文窗口。"
+ },
+ {
+  "seg": 328,
+  "start": 2287.073,
+  "end": 2296.977,
+  "speaker": "Unknown",
+  "en": "Every iteration of an agent loop you will see if this is actually the right place and then if it's not you can just take them out temporarily.",
+  "zh": "智能体循环的每一次迭代，你都会检查这里是不是真正合适的位置，如果不是，你就可以暂时把它们拿掉。"
+ },
+ {
+  "seg": 329,
+  "start": 2301.453,
+  "end": 2303.095,
+  "speaker": "Unknown",
+  "en": "Oh, sorry, I thought I saw a question.",
+  "zh": "哦，抱歉，我以为我看到有个问题。"
+ },
+ {
+  "seg": 330,
+  "start": 2303.776,
+  "end": 2306.079,
+  "speaker": "Unknown",
+  "en": "So we will see all of this in the workshop.",
+  "zh": "所以我们会在 workshop 里看到所有这些。"
+ },
+ {
+  "seg": 331,
+  "start": 2306.219,
+  "end": 2307.701,
+  "speaker": "Unknown",
+  "en": "I don't want to take up too much time.",
+  "zh": "我不想占用太多时间。"
+ },
+ {
+  "seg": 332,
+  "start": 2307.961,
+  "end": 2312.647,
+  "speaker": "Unknown",
+  "en": "But the idea is that we will assemble the context at every iteration on the agent loop.",
+  "zh": "但理念是，我们会在智能体循环的每一次迭代上组装上下文。"
+ },
+ {
+  "seg": 333,
+  "start": 2314.5,
+  "end": 2325.086,
+  "speaker": "Unknown",
+  "en": "And then continue learning is the part that we talked before about the ability to get better over time with the things that we've done with a model, right?",
+  "zh": "然后持续学习就是我们之前谈过的那部分，即借助我们与模型做过的事情随时间变得更好的能力，对吧？"
+ },
+ {
+  "seg": 334,
+  "start": 2325.546,
+  "end": 2329.869,
+  "speaker": "Unknown",
+  "en": "So a frozen model, as we saw, it doesn't get better, right?",
+  "zh": "所以一个冻结的模型，正如我们看到的，它不会变好，对吧？"
+ },
+ {
+  "seg": 335,
+  "start": 2330.409,
+  "end": 2337.093,
+  "speaker": "Unknown",
+  "en": "But there are ways in which we can make an agent improve in the weights, which is...",
+  "zh": "但有一些方法可以让一个智能体在权重上改进，也就是……"
+ },
+ {
+  "seg": 336,
+  "start": 2337.973,
+  "end": 2346.143,
+  "speaker": "Unknown",
+  "en": "The parts that we are gonna work on in the representation part, so on the embedding and the re-ranking part, and also in the context window.",
+  "zh": "我们要在表示这部分处理的内容，也就是 embedding 和重排序这部分，以及上下文窗口。"
+ },
+ {
+  "seg": 337,
+  "start": 2347.654,
+  "end": 2351.276,
+  "speaker": "Unknown",
+  "en": "And these are the three types of continued learning techniques.",
+  "zh": "而这些是三种类型的持续学习技术。"
+ },
+ {
+  "seg": 338,
+  "start": 2351.876,
+  "end": 2361.881,
+  "speaker": "Unknown",
+  "en": "We are going to focus on the workshop on the context and the token space because it's one of the easiest ones and one of the least expensive ones as well.",
+  "zh": "我们在 workshop 里会聚焦于上下文和 token 空间，因为它是其中最容易的，也是最不昂贵的方式之一。"
+ },
+ {
+  "seg": 339,
+  "start": 2362.321,
+  "end": 2366.182,
+  "speaker": "Unknown",
+  "en": "I assume no one is a millionaire or not many of us are millionaires.",
+  "zh": "我猜没有谁是百万富翁，或者我们当中没有太多人是百万富翁。"
+ },
+ {
+  "seg": 340,
+  "start": 2366.763,
+  "end": 2373.786,
+  "speaker": "Unknown",
+  "en": "So this is also the most achievable and the most realistic way to change the model behavior over time.",
+  "zh": "所以这也是随时间改变模型行为最可实现、最现实的方式。"
+ },
+ {
+  "seg": 341,
+  "start": 2376.111,
+  "end": 2386.314,
+  "speaker": "Unknown",
+  "en": "So without further ado, I just want to introduce you to this part, which is skill promotion and workflow promotion.",
+  "zh": "那么废话不多说，我只是想向你们介绍这部分内容，也就是技能晋升和工作流晋升。"
+ },
+ {
+  "seg": 342,
+  "start": 2386.954,
+  "end": 2393.056,
+  "speaker": "Unknown",
+  "en": "So those skills or those workflows that you've done for three, four hours, right?",
+  "zh": "就是那些你花了三四个小时完成的技能或工作流，对吧？"
+ },
+ {
+  "seg": 343,
+  "start": 2393.436,
+  "end": 2395.997,
+  "speaker": "Unknown",
+  "en": "You've been working for the whole day on a workflow.",
+  "zh": "你一整天都在一个工作流上工作。"
+ },
+ {
+  "seg": 344,
+  "start": 2397.182,
+  "end": 2400.504,
+  "speaker": "Unknown",
+  "en": "You were able to successfully do your job.",
+  "zh": "你成功地完成了你的工作。"
+ },
+ {
+  "seg": 345,
+  "start": 2401.045,
+  "end": 2404.447,
+  "speaker": "Unknown",
+  "en": "And then these things can actually be retrieved.",
+  "zh": "然后这些东西实际上可以被检索。"
+ },
+ {
+  "seg": 346,
+  "start": 2404.747,
+  "end": 2407.469,
+  "speaker": "Unknown",
+  "en": "They can be stored into the memory components that we'll see.",
+  "zh": "它们可以被存储到我们将要看到的记忆组件中。"
+ },
+ {
+  "seg": 347,
+  "start": 2408.109,
+  "end": 2410.531,
+  "speaker": "Unknown",
+  "en": "And then we will see about skill promotion.",
+  "zh": "然后我们会讲到技能晋升。"
+ },
+ {
+  "seg": 348,
+  "start": 2410.631,
+  "end": 2414.274,
+  "speaker": "Unknown",
+  "en": "So if we promote a skill, for instance, we can promote it.",
+  "zh": "比如如果我们晋升一个技能，我们就可以晋升它。"
+ },
+ {
+  "seg": 349,
+  "start": 2414.974,
+  "end": 2419.638,
+  "speaker": "Unknown",
+  "en": "through a distillation process and create a better skill.md than the original.",
+  "zh": "通过一个蒸馏过程，创建出一个比原来更好的 skill.md。"
+ },
+ {
+  "seg": 350,
+  "start": 2420.179,
+  "end": 2425.023,
+  "speaker": "Unknown",
+  "en": "So we will retire the old version and update from the new version.",
+  "zh": "所以我们会弃用旧版本，并从新版本进行更新。"
+ },
+ {
+  "seg": 351,
+  "start": 2425.463,
+  "end": 2439.616,
+  "speaker": "Unknown",
+  "en": "And this allows us to do some kind of continual learning on our own skills that turn them into more customized skills for ourselves, for our tone, our way to work, our preferences, for instance.",
+  "zh": "这让我们可以对自己的技能做某种持续学习，把它们变成更定制化的技能，适合我们自己的语气、工作方式和偏好等等。"
+ },
+ {
+  "seg": 352,
+  "start": 2441.818,
+  "end": 2445.3,
+  "speaker": "Unknown",
+  "en": "Let's use this specific library because I really like the look and feel of it.",
+  "zh": "我们用这个特定的库，因为我真的很喜欢它的外观和体验。"
+ },
+ {
+  "seg": 353,
+  "start": 2445.78,
+  "end": 2453.245,
+  "speaker": "Unknown",
+  "en": "Let's use this specific database engine because it has less bugs or I found it easier to work with.",
+  "zh": "我们用这个特定的数据库引擎，因为它 bug 更少，或者我发现它更容易上手。"
+ },
+ {
+  "seg": 354,
+  "start": 2453.445,
+  "end": 2459.269,
+  "speaker": "Unknown",
+  "en": "All these things can be promoted into reusable and improvable skills over time.",
+  "zh": "所有这些都可以随时间被提升为可复用、可改进的技能。"
+ },
+ {
+  "seg": 355,
+  "start": 2462.551,
+  "end": 2479.282,
+  "speaker": "Unknown",
+  "en": "This is what the whole harness would look like at the end of the workshop, and hopefully you'll leave today with a better understanding of all the specific components that make up an agent harness.",
+  "zh": "这就是整个 harness 在工作坊结束时该有的样子，希望你们今天离开时能更好地理解构成智能体 harness 的所有具体组件。"
+ },
+ {
+  "seg": 356,
+  "start": 2480.922,
+  "end": 2486.545,
+  "speaker": "Unknown",
+  "en": "So let me go to here before I forget.",
+  "zh": "在我忘掉之前，让我先切换到这里。"
+ },
+ {
+  "seg": 357,
+  "start": 2487.726,
+  "end": 2499.792,
+  "speaker": "Unknown",
+  "en": "If you are interested in the Oracle Agent Memory Package or are working on the Agent Memory Package, we have a Discord server in which you can just chat with us as stuff.",
+  "zh": "如果你对 Oracle Agent Memory Package 感兴趣，或者正在开发 Agent Memory Package，我们有一个 Discord 服务器，你可以在里面和我们随便聊聊。"
+ },
+ {
+  "seg": 358,
+  "start": 2500.032,
+  "end": 2504.515,
+  "speaker": "Unknown",
+  "en": "If you're a Discord user, just feel free to join this Discord server.",
+  "zh": "如果你是 Discord 用户，欢迎随时加入这个 Discord 服务器。"
+ },
+ {
+  "seg": 359,
+  "start": 2504.575,
+  "end": 2505.855,
+  "speaker": "Unknown",
+  "en": "I'll put the link later as well.",
+  "zh": "我稍后也会把链接贴出来。"
+ },
+ {
+  "seg": 360,
+  "start": 2507.628,
+  "end": 2513.872,
+  "speaker": "Unknown",
+  "en": "Without further ado, let's begin with the actual workshop and I will tell you how.",
+  "zh": "废话不多说，让我们正式开始工作坊，我会告诉你们怎么做。"
+ },
+ {
+  "seg": 361,
+  "start": 2515.092,
+  "end": 2518.474,
+  "speaker": "Unknown",
+  "en": "So let me show you first what we are going to build.",
+  "zh": "那么让我先给你们看看我们要构建的东西。"
+ },
+ {
+  "seg": 362,
+  "start": 2519.395,
+  "end": 2520.596,
+  "speaker": "Unknown",
+  "en": "This is an app book.",
+  "zh": "这是一本 app book。"
+ },
+ {
+  "seg": 363,
+  "start": 2520.976,
+  "end": 2522.297,
+  "speaker": "Unknown",
+  "en": "Oh, sorry.",
+  "zh": "哦，抱歉。"
+ },
+ {
+  "seg": 364,
+  "start": 2522.677,
+  "end": 2523.577,
+  "speaker": "Unknown",
+  "en": "You don't see this.",
+  "zh": "你们看不到这个。"
+ },
+ {
+  "seg": 365,
+  "start": 2526.179,
+  "end": 2526.379,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 366,
+  "start": 2531.793,
+  "end": 2538.522,
+  "speaker": "Unknown",
+  "en": "Yes, the first, yes, the workshop instructions, right?",
+  "zh": "对，第一个，对，是工作坊说明，对吧？"
+ },
+ {
+  "seg": 367,
+  "start": 2538.982,
+  "end": 2548.254,
+  "speaker": "Unknown",
+  "en": "So for those of you who weren't here, you can just go into this website, register with your GitHub user, and then you will get an invitation like this.",
+  "zh": "所以对于刚才不在场的各位，你们可以直接进入这个网站，用你们的 GitHub 用户注册，然后你们会收到像这样的邀请，"
+ },
+ {
+  "seg": 368,
+  "start": 2549.357,
+  "end": 2551.378,
+  "speaker": "Unknown",
+  "en": "to a GitHub repo.",
+  "zh": "邀请到一个 GitHub repo。"
+ },
+ {
+  "seg": 369,
+  "start": 2551.678,
+  "end": 2555.5,
+  "speaker": "Unknown",
+  "en": "And from here, we will create a GitHub Codespace.",
+  "zh": "接下来，我们会创建一个 GitHub Codespace。"
+ },
+ {
+  "seg": 370,
+  "start": 2556.2,
+  "end": 2557.941,
+  "speaker": "Unknown",
+  "en": "So please make sure to do that right now.",
+  "zh": "所以请现在就确保完成这一步。"
+ },
+ {
+  "seg": 371,
+  "start": 2558.121,
+  "end": 2564.944,
+  "speaker": "Unknown",
+  "en": "And all my colleagues are around the room to answer any questions that you might have during the creation of the Codespace, et cetera.",
+  "zh": "我所有的同事都在会场各处，随时解答你们在创建 Codespace 等过程中可能遇到的任何问题。"
+ },
+ {
+  "seg": 372,
+  "start": 2569.866,
+  "end": 2570.066,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 373,
+  "start": 2570.547,
+  "end": 2570.707,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 374,
+  "start": 2575.629,
+  "end": 2576.189,
+  "speaker": "Unknown",
+  "en": "The internet?",
+  "zh": "网络？"
+ },
+ {
+  "seg": 375,
+  "start": 2576.229,
+  "end": 2578.05,
+  "speaker": "Unknown",
+  "en": "Are you having issues with the internet?",
+  "zh": "你们的网络有问题吗？"
+ },
+ {
+  "seg": 376,
+  "start": 2578.49,
+  "end": 2579.291,
+  "speaker": "Unknown",
+  "en": "Okay, let's see.",
+  "zh": "好的，我们看看。"
+ },
+ {
+  "seg": 377,
+  "start": 2580.391,
+  "end": 2581.612,
+  "speaker": "Unknown",
+  "en": "So, do you guys have the same Wi-Fi?",
+  "zh": "那么，你们连的是同一个 Wi-Fi 吗？"
+ },
+ {
+  "seg": 378,
+  "start": 2581.632,
+  "end": 2582.273,
+  "speaker": "Unknown",
+  "en": "AI.engineer Wi-Fi?",
+  "zh": "AI.engineer Wi-Fi？"
+ },
+ {
+  "seg": 379,
+  "start": 2582.293,
+  "end": 2587.897,
+  "speaker": "Unknown",
+  "en": "Okay, so, can someone assist people with the Wi-Fi, if possible?",
+  "zh": "好的，那么，可以有人尽可能协助大家解决 Wi-Fi 问题吗？"
+ },
+ {
+  "seg": 380,
+  "start": 2587.917,
+  "end": 2591.18,
+  "speaker": "Unknown",
+  "en": "I don't think you can help each and every one of us, you need to fix the system.",
+  "zh": "我觉得你没法逐个帮我们每个人，你得把系统修好。"
+ },
+ {
+  "seg": 381,
+  "start": 2597.324,
+  "end": 2599.466,
+  "speaker": "Unknown",
+  "en": "Yeah, please fix the system, whoever.",
+  "zh": "是啊，请把系统修好，不管哪位。"
+ },
+ {
+  "seg": 382,
+  "start": 2601.007,
+  "end": 2601.307,
+  "speaker": "Unknown",
+  "en": "Do it.",
+  "zh": "去做吧。"
+ },
+ {
+  "seg": 383,
+  "start": 2602.809,
+  "end": 2603.649,
+  "speaker": "Unknown",
+  "en": "I can't, I can't.",
+  "zh": "我不行，我做不到。"
+ },
+ {
+  "seg": 384,
+  "start": 2603.829,
+  "end": 2604.79,
+  "speaker": "Unknown",
+  "en": "Just click FaceTime.",
+  "zh": "就点 FaceTime 就行。"
+ },
+ {
+  "seg": 385,
+  "start": 2608.702,
+  "end": 2610.084,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "嗯，嗯。"
+ },
+ {
+  "seg": 386,
+  "start": 2610.664,
+  "end": 2613.087,
+  "speaker": "Unknown",
+  "en": "My colleagues will take a look at that.",
+  "zh": "我的同事会去处理那个。"
+ },
+ {
+  "seg": 387,
+  "start": 2617.192,
+  "end": 2617.413,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "好。"
+ },
+ {
+  "seg": 388,
+  "start": 2623.26,
+  "end": 2623.44,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 389,
+  "start": 2623.961,
+  "end": 2625.442,
+  "speaker": "Unknown",
+  "en": "Yeah, it always happens, you know?",
+  "zh": "嗯，这种事总是发生的，你懂的。"
+ },
+ {
+  "seg": 390,
+  "start": 2626.584,
+  "end": 2626.784,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 391,
+  "start": 2640.539,
+  "end": 2640.859,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 392,
+  "start": 2644.521,
+  "end": 2646.002,
+  "speaker": "Unknown",
+  "en": "Say again, sir?",
+  "zh": "先生，请再说一遍？"
+ },
+ {
+  "seg": 393,
+  "start": 2647.662,
+  "end": 2658.968,
+  "speaker": "Unknown",
+  "en": "Yes, they will go into the AI, I believe they will go into the AI engineer, so if you go into the session, I'll make sure to go there, if not,",
+  "zh": "是的，他们会进入 AI，我相信他们会进入 AI engineer，所以如果你进入那个 session，我会确保把资料放上去，如果没有的话，"
+ },
+ {
+  "seg": 394,
+  "start": 2660.05,
+  "end": 2665.293,
+  "speaker": "Unknown",
+  "en": "If you either join the Discord or any other, you know, you can just message me as well on LinkedIn.",
+  "zh": "你也可以加入 Discord 或其他任何渠道，你知道，你也可以在 LinkedIn 上私信我。"
+ },
+ {
+  "seg": 395,
+  "start": 2665.313,
+  "end": 2667.914,
+  "speaker": "Unknown",
+  "en": "I'll gladly give you the slides if you want.",
+  "zh": "如果你想要幻灯片，我很乐意发给你。"
+ },
+ {
+  "seg": 396,
+  "start": 2669.615,
+  "end": 2671.195,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 397,
+  "start": 2674.837,
+  "end": 2677.479,
+  "speaker": "Unknown",
+  "en": "Video team, can you turn me on?",
+  "zh": "视频团队，能把我打开吗？"
+ },
+ {
+  "seg": 398,
+  "start": 2677.919,
+  "end": 2680.34,
+  "speaker": "Unknown",
+  "en": "Sorry, switch me on, please.",
+  "zh": "抱歉，请把我切换上去。"
+ },
+ {
+  "seg": 399,
+  "start": 2684.153,
+  "end": 2684.714,
+  "speaker": "Unknown",
+  "en": "Oh, perfect.",
+  "zh": "哦，完美。"
+ },
+ {
+  "seg": 400,
+  "start": 2684.734,
+  "end": 2685.074,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 401,
+  "start": 2685.934,
+  "end": 2694.457,
+  "speaker": "Unknown",
+  "en": "So what I'd like to show you is that we have built also, apart from the notebook that we're going to go through, we also built this appbook.",
+  "zh": "我想给大家展示的是，除了我们接下来要一起过一遍的 notebook 之外，我们还构建了这个 appbook。"
+ },
+ {
+  "seg": 402,
+  "start": 2695.197,
+  "end": 2701.34,
+  "speaker": "Unknown",
+  "en": "And with the appbook, you can actually test every of the individual components of an agent harness",
+  "zh": "有了这个 appbook，你实际上可以测试智能体 harness 的每一个单独组件，"
+ },
+ {
+  "seg": 403,
+  "start": 2702.737,
+  "end": 2730.935,
+  "speaker": "Unknown",
+  "en": "individually right so just for me to show you that this is possible and you will get this automatically deployed in GitHub code spaces as well so you will have these already deployed and you will say well how am I actually making requests we are gonna be making requests to Oracle oh okay not fun demo time the idea is that",
+  "zh": "单独测试，对吧，我只是想给大家展示这是可行的，它也会自动部署到 GitHub code spaces 里，所以你会有这些已经部署好的东西，然后你会问，我到底要怎么发请求呢，我们要向 Oracle 发请求，哦好吧，不算有趣，演示时间，这个想法是"
+ },
+ {
+  "seg": 404,
+  "start": 2733.045,
+  "end": 2734.247,
+  "speaker": "Unknown",
+  "en": "Yeah, okay.",
+  "zh": "嗯，好的。"
+ },
+ {
+  "seg": 405,
+  "start": 2734.348,
+  "end": 2735.069,
+  "speaker": "Unknown",
+  "en": "I know what's happening.",
+  "zh": "我知道发生了什么。"
+ },
+ {
+  "seg": 406,
+  "start": 2735.55,
+  "end": 2738.676,
+  "speaker": "Unknown",
+  "en": "So I lost connection to my Codespace because of inactivity.",
+  "zh": "我的 Codespace 因为不活跃断开连接了。"
+ },
+ {
+  "seg": 407,
+  "start": 2738.716,
+  "end": 2739.298,
+  "speaker": "Unknown",
+  "en": "Let me restart.",
+  "zh": "让我重启一下。"
+ },
+ {
+  "seg": 408,
+  "start": 2741.379,
+  "end": 2757.406,
+  "speaker": "Unknown",
+  "en": "This appbook is gonna allow you to create and chat and interact with the whole agent harness, and the models that we're gonna use are actually deployed on a managed service that we have on Oracle called OCI, the Generative AI Service.",
+  "zh": "这个 appbook 会让你可以创建、聊天并与整个智能体 harness 交互，我们要用的模型实际上部署在我们 Oracle 一个叫 OCI 的托管服务上，也就是 Generative AI Service。"
+ },
+ {
+  "seg": 409,
+  "start": 2757.806,
+  "end": 2765.349,
+  "speaker": "Unknown",
+  "en": "We have partnerships with Google, with Meta, and with OpenAI, and with XAI for the time being.",
+  "zh": "我们目前与 Google、Meta、OpenAI 以及 XAI 有合作关系。"
+ },
+ {
+  "seg": 410,
+  "start": 2766.389,
+  "end": 2771.391,
+  "speaker": "Unknown",
+  "en": "And we can actually provide inference to their models through our managed server.",
+  "zh": "我们实际上可以通过我们的托管服务器为他们的模型提供推理。"
+ },
+ {
+  "seg": 411,
+  "start": 2771.411,
+  "end": 2776.634,
+  "speaker": "Unknown",
+  "en": "So think of us as the Enterprise Open Router, if you'd like.",
+  "zh": "所以你可以把我们想象成企业版 Open Router。"
+ },
+ {
+  "seg": 412,
+  "start": 2777.854,
+  "end": 2781.556,
+  "speaker": "Unknown",
+  "en": "So let me just go so you can get started.",
+  "zh": "那么让我继续，这样你们就可以开始了。"
+ },
+ {
+  "seg": 413,
+  "start": 2781.596,
+  "end": 2782.556,
+  "speaker": "Unknown",
+  "en": "This is the repo, right?",
+  "zh": "这是这个 repo，对吧？"
+ },
+ {
+  "seg": 414,
+  "start": 2783.117,
+  "end": 2785.958,
+  "speaker": "Unknown",
+  "en": "So the Agent Harness Workshop.",
+  "zh": "就是 Agent Harness Workshop。"
+ },
+ {
+  "seg": 415,
+  "start": 2786.138,
+  "end": 2790.44,
+  "speaker": "Unknown",
+  "en": "If you're here, thank you for starting that, by the way.",
+  "zh": "如果你已经到这里了，顺便说一句，谢谢你给它点了 star。"
+ },
+ {
+  "seg": 416,
+  "start": 2791.14,
+  "end": 2795.022,
+  "speaker": "Unknown",
+  "en": "If you're here, you just have to click on Open in GitHub Codespaces.",
+  "zh": "如果你在这里，你只需要点击 Open in GitHub Codespaces。"
+ },
+ {
+  "seg": 417,
+  "start": 2796.295,
+  "end": 2797.255,
+  "speaker": "Unknown",
+  "en": "And it will take you here.",
+  "zh": "它会带你到这里。"
+ },
+ {
+  "seg": 418,
+  "start": 2798.416,
+  "end": 2802.778,
+  "speaker": "Unknown",
+  "en": "And you can select as many cores as you like.",
+  "zh": "你可以选择任意数量的核数。 [[402 → 略]] 所以如果你想用 8 核或 16 核来创建，请不要这么做，因为这是我自己掏钱的。"
+ },
+ {
+  "seg": 419,
+  "start": 2803.238,
+  "end": 2808.661,
+  "speaker": "Unknown",
+  "en": "So if you wanna create this with eight or 16, please don't, because I'm paying for this myself.",
+  "zh": "所以如果你想用八个或十六个来创建这个,请不要这么做,因为这是我自己掏钱支付的。"
+ },
+ {
+  "seg": 420,
+  "start": 2809.421,
+  "end": 2812.863,
+  "speaker": "Unknown",
+  "en": "But you might also create this with more resources.",
+  "zh": "不过你也可以用更多资源来创建它。"
+ },
+ {
+  "seg": 421,
+  "start": 2812.903,
+  "end": 2814.083,
+  "speaker": "Unknown",
+  "en": "But just create the call space.",
+  "zh": "但就创建这个 call space 就行了。"
+ },
+ {
+  "seg": 422,
+  "start": 2814.764,
+  "end": 2816.805,
+  "speaker": "Unknown",
+  "en": "And I'm gonna pay for it, as I said.",
+  "zh": "正如我说的，我来付钱。"
+ },
+ {
+  "seg": 423,
+  "start": 2816.925,
+  "end": 2817.805,
+  "speaker": "Unknown",
+  "en": "So don't worry about that.",
+  "zh": "所以不用担心这个。"
+ },
+ {
+  "seg": 424,
+  "start": 2818.766,
+  "end": 2821.127,
+  "speaker": "Unknown",
+  "en": "And this will create a new",
+  "zh": "这会创建一个新的"
+ },
+ {
+  "seg": 425,
+  "start": 2822.975,
+  "end": 2833.986,
+  "speaker": "Unknown",
+  "en": "a new Codespace instance, and once it finishes, which it hasn't yet, I will show you what we can do with the appbook and the notebook.",
+  "zh": "一个新的 Codespace 实例，等它完成之后——现在还没完成——我会给你们展示我们用这个 appbook 和 notebook 能做什么。"
+ },
+ {
+  "seg": 426,
+  "start": 2834.446,
+  "end": 2845.017,
+  "speaker": "Unknown",
+  "en": "But the idea is to use the remainder of the time that we have one hour and 15 minutes to go through the notebook and",
+  "zh": "但想法是利用剩下的时间——我们有一个小时十五分钟——来过一遍这个 notebook，然后"
+ },
+ {
+  "seg": 427,
+  "start": 2846.101,
+  "end": 2849.683,
+  "speaker": "Unknown",
+  "en": "You will actually have to... Let me show you on GitHub, actually.",
+  "zh": "你实际上得……让我在 GitHub 上给你们展示一下。"
+ },
+ {
+  "seg": 428,
+  "start": 2851.965,
+  "end": 2864.534,
+  "speaker": "Unknown",
+  "en": "You can go here, and inside the notebook, after you deploy the Codespace, you will get a student notebook here, and this is one part of the workshop, right?",
+  "zh": "你可以到这里，在 notebook 里面，部署完 Codespace 之后，你会在这里得到一个学生 notebook，这是本次工作坊的一部分，对吧？"
+ },
+ {
+  "seg": 429,
+  "start": 2865.074,
+  "end": 2869.137,
+  "speaker": "Unknown",
+  "en": "And here we're gonna implement the whole agent harness substrate,",
+  "zh": "在这里我们要实现整个智能体 harness 的底层基底，"
+ },
+ {
+  "seg": 430,
+  "start": 2870.222,
+  "end": 2870.902,
+  "speaker": "Unknown",
+  "en": "From scratch.",
+  "zh": "从零开始。"
+ },
+ {
+  "seg": 431,
+  "start": 2871.162,
+  "end": 2878.265,
+  "speaker": "Unknown",
+  "en": "So we're gonna start with only the model, and then we're gonna keep adding layers to the agent harness, as we saw, the seven layers, right?",
+  "zh": "所以我们会从只有模型开始，然后不断给智能体 harness 添加层，就像我们看到的那七层，对吧？"
+ },
+ {
+  "seg": 432,
+  "start": 2879.806,
+  "end": 2882.667,
+  "speaker": "Unknown",
+  "en": "And we're gonna be here to assist you.",
+  "zh": "我们会在这里协助你们。"
+ },
+ {
+  "seg": 433,
+  "start": 2882.867,
+  "end": 2884.147,
+  "speaker": "Unknown",
+  "en": "You will have to do some to-dos.",
+  "zh": "你们需要完成一些待办事项。"
+ },
+ {
+  "seg": 434,
+  "start": 2884.768,
+  "end": 2885.468,
+  "speaker": "Unknown",
+  "en": "So let me show you.",
+  "zh": "让我给你们展示一下。"
+ },
+ {
+  "seg": 435,
+  "start": 2886.228,
+  "end": 2888.429,
+  "speaker": "Unknown",
+  "en": "There are a couple of things to do for you.",
+  "zh": "有一些需要你们做的事情。"
+ },
+ {
+  "seg": 436,
+  "start": 2890.802,
+  "end": 2897.483,
+  "speaker": "Unknown",
+  "en": "So, for instance, the first thing that you need to do, you need to create a question, right?",
+  "zh": "比如，你们要做的第一件事，是创建一个提问，对吧？"
+ },
+ {
+  "seg": 437,
+  "start": 2897.503,
+  "end": 2898.784,
+  "speaker": "Unknown",
+  "en": "The simplest thing of everything.",
+  "zh": "这是最简单的事情。"
+ },
+ {
+  "seg": 438,
+  "start": 2899.364,
+  "end": 2904.445,
+  "speaker": "Unknown",
+  "en": "You just have to communicate with a model with no agent harness implemented, right?",
+  "zh": "你只需要与模型通信，不实现任何智能体 harness，对吧？"
+ },
+ {
+  "seg": 439,
+  "start": 2904.465,
+  "end": 2908.446,
+  "speaker": "Unknown",
+  "en": "So the first thing you'll need is to ask any question that you like.",
+  "zh": "所以你首先需要的是问任何你想问的问题。"
+ },
+ {
+  "seg": 440,
+  "start": 2908.986,
+  "end": 2914.187,
+  "speaker": "Unknown",
+  "en": "This will go through the OpenAI Completions API, and it will return you a response.",
+  "zh": "这会通过 OpenAI Completions API，并返回给你一个响应。"
+ },
+ {
+  "seg": 441,
+  "start": 2914.387,
+  "end": 2915.447,
+  "speaker": "Unknown",
+  "en": "This is the simplest of all.",
+  "zh": "这是所有内容里最简单的。"
+ },
+ {
+  "seg": 442,
+  "start": 2915.848,
+  "end": 2917.428,
+  "speaker": "Unknown",
+  "en": "And then we will start adding.",
+  "zh": "然后我们会开始添加。"
+ },
+ {
+  "seg": 443,
+  "start": 2918.148,
+  "end": 2923.87,
+  "speaker": "Unknown",
+  "en": "Search, Retrieval, Encoding, and all the other components that we have seen.",
+  "zh": "搜索、检索、编码，以及我们看过的所有其他组件。"
+ },
+ {
+  "seg": 444,
+  "start": 2924.231,
+  "end": 2927.172,
+  "speaker": "Unknown",
+  "en": "There are a total of 19 things that you need to do.",
+  "zh": "总共有 19 个需要你们完成的事情。"
+ },
+ {
+  "seg": 445,
+  "start": 2927.972,
+  "end": 2935.675,
+  "speaker": "Unknown",
+  "en": "If you finish first, raise your hand, and I will give you a hug because I don't have anything else.",
+  "zh": "如果你第一个完成，请举手，我会给你一个拥抱，因为我没有别的东西可给了。"
+ },
+ {
+  "seg": 446,
+  "start": 2937.736,
+  "end": 2941.618,
+  "speaker": "Unknown",
+  "en": "And yeah, so anyone already deployed the Codespace?",
+  "zh": "那么，有人已经部署好 Codespace 了吗？"
+ },
+ {
+  "seg": 447,
+  "start": 2944.039,
+  "end": 2944.879,
+  "speaker": "Unknown",
+  "en": "Okay, one person.",
+  "zh": "好的，有一个人。"
+ },
+ {
+  "seg": 448,
+  "start": 2944.979,
+  "end": 2945.539,
+  "speaker": "Unknown",
+  "en": "Okay, good job.",
+  "zh": "好，干得好。"
+ },
+ {
+  "seg": 449,
+  "start": 2948.869,
+  "end": 2954.793,
+  "speaker": "Unknown",
+  "en": "If you have any questions or any problems, let me know, but this is what it looks like when you have it deployed, okay?",
+  "zh": "如果你们有任何问题或遇到任何困难，告诉我，这就是部署好之后的样子，好吗？"
+ },
+ {
+  "seg": 450,
+  "start": 2955.294,
+  "end": 2957.555,
+  "speaker": "Unknown",
+  "en": "So let me go through this quickly.",
+  "zh": "那么让我快速过一遍。"
+ },
+ {
+  "seg": 451,
+  "start": 2959.677,
+  "end": 2963.66,
+  "speaker": "Unknown",
+  "en": "So you will get an app, right?",
+  "zh": "你会拿到一个应用，对吧？"
+ },
+ {
+  "seg": 452,
+  "start": 2965.722,
+  "end": 2968.304,
+  "speaker": "Unknown",
+  "en": "And the app will already have everything that you need.",
+  "zh": "这个应用已经内置了你需要的所有东西。"
+ },
+ {
+  "seg": 453,
+  "start": 2969.345,
+  "end": 2972.187,
+  "speaker": "Unknown",
+  "en": "If you want to deploy this app,",
+  "zh": "如果你想部署这个应用，"
+ },
+ {
+  "seg": 454,
+  "start": 2973.665,
+  "end": 2978.408,
+  "speaker": "Unknown",
+  "en": "You might change this Total Recall port here.",
+  "zh": "你可能需要改一下这里的 Total Recall 端口。"
+ },
+ {
+  "seg": 455,
+  "start": 2979.769,
+  "end": 2981.29,
+  "speaker": "Unknown",
+  "en": "Let me show you how I did it again.",
+  "zh": "让我再给你展示一下我是怎么做的。"
+ },
+ {
+  "seg": 456,
+  "start": 2981.57,
+  "end": 2988.955,
+  "speaker": "Unknown",
+  "en": "I go into Ports, I clicked on the visibility of the port, and I change this to Public.",
+  "zh": "我进入 Ports，点击端口的可见性，然后把它改成 Public。"
+ },
+ {
+  "seg": 457,
+  "start": 2990.256,
+  "end": 3001.704,
+  "speaker": "Unknown",
+  "en": "And then this is now using a Public Gateway, so that if I open the browser, I can actually get access to my individual Total Recall instance.",
+  "zh": "这样它现在就在使用一个 Public Gateway，所以当我打开浏览器时，就能实际访问到我个人的 Total Recall 实例。"
+ },
+ {
+  "seg": 458,
+  "start": 3001.724,
+  "end": 3003.145,
+  "speaker": "Unknown",
+  "en": "So for instance, if I ask a question,",
+  "zh": "举个例子，如果我提一个问题，"
+ },
+ {
+  "seg": 459,
+  "start": 3007.145,
+  "end": 3009.106,
+  "speaker": "Unknown",
+  "en": "Like show the total revenue by product category.",
+  "zh": "比如「按产品类别显示总收入」。"
+ },
+ {
+  "seg": 460,
+  "start": 3009.146,
+  "end": 3010.767,
+  "speaker": "Unknown",
+  "en": "And of course, this is mission control.",
+  "zh": "当然，这是一个任务指挥台（mission control）。"
+ },
+ {
+  "seg": 461,
+  "start": 3010.787,
+  "end": 3016.35,
+  "speaker": "Unknown",
+  "en": "So this has all of the components that we've spoken about implemented already.",
+  "zh": "所以我们讲过的所有组件都已经在这里实现了。"
+ },
+ {
+  "seg": 462,
+  "start": 3017.071,
+  "end": 3022.254,
+  "speaker": "Unknown",
+  "en": "You will get also a context window visualization of the things that are going on on the background.",
+  "zh": "你还会得到一个上下文窗口的可视化，展示后台正在发生的事情。"
+ },
+ {
+  "seg": 463,
+  "start": 3022.294,
+  "end": 3029.498,
+  "speaker": "Unknown",
+  "en": "For instance, these are the tools that were selected by the agent harness to be loaded into the context to answer this question.",
+  "zh": "比如，这些是智能体框架（agent harness）选择加载进上下文以回答这个问题的工具。"
+ },
+ {
+  "seg": 464,
+  "start": 3030.338,
+  "end": 3038.664,
+  "speaker": "Unknown",
+  "en": "This is the schema that's happening, and then we can also take a look at the individual agent traces that are going on, for instance.",
+  "zh": "这是正在发生的 schema，然后我们还可以看看正在进行的各个智能体轨迹，例如。"
+ },
+ {
+  "seg": 465,
+  "start": 3039.004,
+  "end": 3040.666,
+  "speaker": "Unknown",
+  "en": "Which skills are being loaded?",
+  "zh": "哪些技能正在被加载？"
+ },
+ {
+  "seg": 466,
+  "start": 3041.346,
+  "end": 3043.327,
+  "speaker": "Unknown",
+  "en": "What sources of data are we taking?",
+  "zh": "我们在取哪些数据源？"
+ },
+ {
+  "seg": 467,
+  "start": 3044.389,
+  "end": 3050.45,
+  "speaker": "Unknown",
+  "en": "And what are the tool calls being used, like, for instance, running SQL commands, et cetera, to answer your question.",
+  "zh": "还有正在使用哪些工具调用，比如运行 SQL 命令等等来回答你的问题。"
+ },
+ {
+  "seg": 468,
+  "start": 3051.211,
+  "end": 3052.891,
+  "speaker": "Unknown",
+  "en": "So the question is still being built.",
+  "zh": "所以这个问题还在构建中。"
+ },
+ {
+  "seg": 469,
+  "start": 3053.691,
+  "end": 3055.032,
+  "speaker": "Unknown",
+  "en": "It's taking 16 steps.",
+  "zh": "它需要 16 个步骤。"
+ },
+ {
+  "seg": 470,
+  "start": 3056.752,
+  "end": 3060.293,
+  "speaker": "Unknown",
+  "en": "And, you know, it's gonna, for instance, here, it detected an error, right?",
+  "zh": "而且，你知道的，比如这里，它检测到了一个错误，对吧？"
+ },
+ {
+  "seg": 471,
+  "start": 3060.713,
+  "end": 3070.595,
+  "speaker": "Unknown",
+  "en": "But because our agent harness is fault tolerant, it will keep trying because it has an agent loop implemented, et cetera, right?",
+  "zh": "但因为我们的智能体框架是容错的，它会持续重试，因为它实现了一个智能体循环，等等，对吧？"
+ },
+ {
+  "seg": 472,
+  "start": 3071.135,
+  "end": 3073.896,
+  "speaker": "Unknown",
+  "en": "So all these things will actually yield you this result.",
+  "zh": "所以所有这些最终会给你这个结果。"
+ },
+ {
+  "seg": 473,
+  "start": 3075.236,
+  "end": 3077.137,
+  "speaker": "Unknown",
+  "en": "From the data in the database, right?",
+  "zh": "来自数据库中的数据，对吧？"
+ },
+ {
+  "seg": 474,
+  "start": 3077.637,
+  "end": 3098.462,
+  "speaker": "Unknown",
+  "en": "And you can actually go into the context window, see how many tokens we're using, and if you're particularly interested in some of these parts, for instance, the Oracle agent memory package, for instance, you can interact also with only the context card, how the context card is being created, et cetera, et cetera.",
+  "zh": "而且你实际上可以进入上下文窗口，看看我们用了多少 token，如果你对其中某些部分特别感兴趣，比如 Oracle 智能体记忆包，你也可以只与上下文卡片交互，看看上下文卡片是如何创建的，等等等等。"
+ },
+ {
+  "seg": 475,
+  "start": 3098.882,
+  "end": 3102.123,
+  "speaker": "Unknown",
+  "en": "So you will all get this deployed in your code base.",
+  "zh": "所以你们都会在你们的代码库里拿到这个部署好的东西。"
+ },
+ {
+  "seg": 476,
+  "start": 3104.058,
+  "end": 3104.238,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 477,
+  "start": 3110.862,
+  "end": 3111.062,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 478,
+  "start": 3118.826,
+  "end": 3124.35,
+  "speaker": "Unknown",
+  "en": "So his question, for those of you who didn't listen, where",
+  "zh": "他的问题是，给你们当中没听到的人说一下，"
+ },
+ {
+  "seg": 479,
+  "start": 3125.547,
+  "end": 3128.81,
+  "speaker": "Unknown",
+  "en": "What happens if you have thousands of tools in an organization, right?",
+  "zh": "如果一个组织里有成千上万个工具会怎么样，对吧？"
+ },
+ {
+  "seg": 480,
+  "start": 3129.29,
+  "end": 3142.601,
+  "speaker": "Unknown",
+  "en": "Well, we introduced this concept called the toolbox pattern in this course with Andrew Ang, and the thing is that you can optimize so that the retrieval of these tools is negligible.",
+  "zh": "我们在这门与 Andrew Ang 合作的课程中引入了一个叫工具箱模式（toolbox pattern）的概念，关键在于你可以做优化，使这些工具的检索开销可以忽略不计。"
+ },
+ {
+  "seg": 481,
+  "start": 3143.302,
+  "end": 3155.825,
+  "speaker": "Unknown",
+  "en": "So you will use hierarchical navigable small world indexes that use a graph structure and then each node in the graph is a vector index or a vector store.",
+  "zh": "你会使用分层可导航小世界索引（hierarchical navigable small world indexes），它使用图结构，图中的每个节点是一个向量索引或向量存储。"
+ },
+ {
+  "seg": 482,
+  "start": 3156.825,
+  "end": 3166.928,
+  "speaker": "Unknown",
+  "en": "And then you can actually, like HNSW indexes, they can be created for these types of problems only in the database, not in files.",
+  "zh": "然后，像 HNSW 索引，它们可以只针对这类问题在数据库中创建，而不是在文件中。"
+ },
+ {
+  "seg": 483,
+  "start": 3167.148,
+  "end": 3168.668,
+  "speaker": "Unknown",
+  "en": "So great question.",
+  "zh": "所以这是个好问题。"
+ },
+ {
+  "seg": 484,
+  "start": 3169.288,
+  "end": 3172.569,
+  "speaker": "Unknown",
+  "en": "It doesn't have to worry you until you reach",
+  "zh": "在你达到"
+ },
+ {
+  "seg": 485,
+  "start": 3173.729,
+  "end": 3175.33,
+  "speaker": "Unknown",
+  "en": "millions and millions of users.",
+  "zh": "数百万数千万用户之前，你都不用担心这个问题。"
+ },
+ {
+  "seg": 486,
+  "start": 3175.37,
+  "end": 3180.511,
+  "speaker": "Unknown",
+  "en": "And tool calls, like different specific tool calls, you might not get five million.",
+  "zh": "而工具调用，比如不同的特定工具调用，你可能到不了五百万个。"
+ },
+ {
+  "seg": 487,
+  "start": 3181.072,
+  "end": 3187.734,
+  "speaker": "Unknown",
+  "en": "It's more like reading a file, writing a file, grepping, and all these kinds of tool calls that we do every day.",
+  "zh": "更多的是像读文件、写文件、grep 这类我们每天都做的工具调用。"
+ },
+ {
+  "seg": 488,
+  "start": 3188.414,
+  "end": 3192.335,
+  "speaker": "Unknown",
+  "en": "They typically don't exceed a hundred or a thousand.",
+  "zh": "它们通常不会超过一百个或一千个。"
+ },
+ {
+  "seg": 489,
+  "start": 3195.157,
+  "end": 3201.7,
+  "speaker": "Unknown",
+  "en": "But by being on a VectorStore, you abstract the complexity and the amount of it.",
+  "zh": "但通过使用向量存储（VectorStore），你把复杂性和规模抽象掉了。"
+ },
+ {
+  "seg": 490,
+  "start": 3201.88,
+  "end": 3212.925,
+  "speaker": "Unknown",
+  "en": "You can just make a query 2,000 just as simply as you would 10,000 because of the storage component that we choose, which is an HNSW index.",
+  "zh": "得益于我们选择的存储组件，也就是 HNSW 索引，你可以像查 10 个一样简单地查询 2000 个。"
+ },
+ {
+  "seg": 491,
+  "start": 3225.193,
+  "end": 3229.797,
+  "speaker": "Unknown",
+  "en": "Yeah, some of them, they have access to confidential data, for instance, some of them don't.",
+  "zh": "是的，其中一些可以访问机密数据，比如，有些则不能。"
+ },
+ {
+  "seg": 492,
+  "start": 3241.869,
+  "end": 3242.089,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 493,
+  "start": 3248.238,
+  "end": 3248.838,
+  "speaker": "Unknown",
+  "en": "Great question.",
+  "zh": "好问题。"
+ },
+ {
+  "seg": 494,
+  "start": 3248.878,
+  "end": 3255.322,
+  "speaker": "Unknown",
+  "en": "So his question was, what happens if the tool descriptions that two different companies have are very similar, right?",
+  "zh": "他的问题是，如果两家不同公司的工具描述非常相似会怎么样，对吧？"
+ },
+ {
+  "seg": 495,
+  "start": 3255.642,
+  "end": 3268.028,
+  "speaker": "Unknown",
+  "en": "And one of the things we can do on the toolbox pattern is actually generate with LLM enhanced toolbox descriptions for specific tools to increase the separability of the tools.",
+  "zh": "在工具箱模式上我们能做的一件事，就是用 LLM 为特定工具生成增强版的工具箱描述，以提高工具之间的可区分性。"
+ },
+ {
+  "seg": 496,
+  "start": 3268.469,
+  "end": 3274.272,
+  "speaker": "Unknown",
+  "en": "So if you think that the current descriptions of a tool or of a skill as well are not enough,",
+  "zh": "所以如果你觉得一个工具或一项技能当前的描述不够充分，"
+ },
+ {
+  "seg": 497,
+  "start": 3275.032,
+  "end": 3298.251,
+  "speaker": "Unknown",
+  "en": "You can actually enhance them with LLM retrieval like you would instead of running, for instance, named entity recognition, which is very caveman style, you can also do something more sophisticated, which is enhancing the kind of like docstring enhanced representations of a tool, so that you increase the separability when you're doing vector search.",
+  "zh": "你实际上可以用 LLM 检索来增强它们，比如，与其运行非常原始老派的命名实体识别，你可以做一些更复杂的事情，也就是增强那种类似 docstring 的工具增强表示，这样你在做向量搜索时就能提高可区分性。"
+ },
+ {
+  "seg": 498,
+  "start": 3299.732,
+  "end": 3300.873,
+  "speaker": "Unknown",
+  "en": "Does that answer the question?",
+  "zh": "这回答了你的问题吗？"
+ },
+ {
+  "seg": 499,
+  "start": 3308.749,
+  "end": 3309.309,
+  "speaker": "Unknown",
+  "en": "The agent loop?",
+  "zh": "智能体循环？"
+ },
+ {
+  "seg": 500,
+  "start": 3309.949,
+  "end": 3310.249,
+  "speaker": "Unknown",
+  "en": "You said?",
+  "zh": "你说什么?"
+ },
+ {
+  "seg": 501,
+  "start": 3310.569,
+  "end": 3310.769,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 502,
+  "start": 3315.75,
+  "end": 3316.131,
+  "speaker": "Unknown",
+  "en": "Oh, yes.",
+  "zh": "哦,对。"
+ },
+ {
+  "seg": 503,
+  "start": 3316.351,
+  "end": 3316.551,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 504,
+  "start": 3316.571,
+  "end": 3326.133,
+  "speaker": "Unknown",
+  "en": "So in some cases, we have seen that sometimes it really needs to stop, because it's just like how achieving it's going.",
+  "zh": "所以在某些情况下,我们已经看到有时它确实需要停下来,因为就像它目前的完成情况那样。"
+ },
+ {
+  "seg": 505,
+  "start": 3326.193,
+  "end": 3336.895,
+  "speaker": "Unknown",
+  "en": "How do you balance an agent running autonomously, whatever, and then maybe you know that it just starts hallucinating, whatever it is.",
+  "zh": "你如何平衡一个自主运行的智能体,以及可能你知道它只是开始产生幻觉之类的情况。"
+ },
+ {
+  "seg": 506,
+  "start": 3336.915,
+  "end": 3337.015,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 507,
+  "start": 3345.799,
+  "end": 3357.195,
+  "speaker": "Unknown",
+  "en": "Yes, so there is a limit, of course, because we don't have infinite money, so we can't just keep trying and trying over and over if the generations are just hallucinations, right?",
+  "zh": "是的,当然存在一个上限,因为我们没有无限的金钱,所以如果生成的东西只是幻觉,我们不能一次又一次地不断尝试下去,对吧?"
+ },
+ {
+  "seg": 508,
+  "start": 3358.116,
+  "end": 3361.601,
+  "speaker": "Unknown",
+  "en": "There is a cutoff point that I set, depending on the",
+  "zh": "有一个我设定的截止点,取决于"
+ },
+ {
+  "seg": 509,
+  "start": 3362.705,
+  "end": 3364.726,
+  "speaker": "Unknown",
+  "en": "Frontier LLM that I'm using.",
+  "zh": "我所使用的前沿 LLM。"
+ },
+ {
+  "seg": 510,
+  "start": 3364.886,
+  "end": 3378.295,
+  "speaker": "Unknown",
+  "en": "For instance, for Grok 4.1 Fast Reasoning, which is the one that we're using here, I found that a value of eight to 12, like maximum number of tool calls before giving up,",
+  "zh": "比如,对于我们在这里使用的 Grok 4.1 Fast Reasoning,我发现 8 到 12 的值,也就是放弃前工具调用的最大次数,"
+ },
+ {
+  "seg": 511,
+  "start": 3379.295,
+  "end": 3380.856,
+  "speaker": "Unknown",
+  "en": "is correct.",
+  "zh": "是合适的。"
+ },
+ {
+  "seg": 512,
+  "start": 3381.037,
+  "end": 3392.846,
+  "speaker": "Unknown",
+  "en": "Depends also on the accuracy and the correctness of the model, like for instance in this case it was just able to show it in two before it was able to find it in 16.",
+  "zh": "这也取决于模型的准确性和正确性,比如在这个案例中,它在两次就展示出来了,而它本来要到 16 次才能找到。"
+ },
+ {
+  "seg": 513,
+  "start": 3393.286,
+  "end": 3399.291,
+  "speaker": "Unknown",
+  "en": "So sometimes it will have a faster retrieval, sometimes you will need to be a little bit more patient.",
+  "zh": "所以有时它的检索会更快,有时你需要更有一点耐心。"
+ },
+ {
+  "seg": 514,
+  "start": 3399.771,
+  "end": 3406.276,
+  "speaker": "Unknown",
+  "en": "But what I like to define is a variable, like a hysteresis variable that holds the amount of patience that",
+  "zh": "但我喜欢定义的是一个变量,比如一个滞后变量,用来承载"
+ },
+ {
+  "seg": 515,
+  "start": 3407.197,
+  "end": 3408.838,
+  "speaker": "Unknown",
+  "en": "The hardness will get with the model.",
+  "zh": "这个 harness 对模型的耐心程度。"
+ },
+ {
+  "seg": 516,
+  "start": 3409.758,
+  "end": 3432.31,
+  "speaker": "Unknown",
+  "en": "Then you can do some other things, like, for instance, if the model is garbage, you can just use a router for more different, like, for difficult types of problems, you will route this problem to a Frontier LLM, and then for the easier types of problems, you can just attach an OpenWeights SLM, for instance, which will be more interesting.",
+  "zh": "然后你还可以做一些别的事情,比如,如果模型很糟糕,你可以用一个路由器来做更多不同的,比如对于困难类型的问题,你会把这个问题路由到一个前沿 LLM,然后对于较简单类型的问题,你可以只挂一个 OpenWeights SLM,比如这样会更有意思。"
+ },
+ {
+  "seg": 517,
+  "start": 3437.694,
+  "end": 3448.448,
+  "speaker": "Unknown",
+  "en": "Yes, yes, I think that's, like my personal opinion is that the future is a mixture of small experts for each type of problem.",
+  "zh": "是的,是的,我认为,就我个人的观点而言,未来是针对每类问题的小型专家模型的混合体。"
+ },
+ {
+  "seg": 518,
+  "start": 3448.969,
+  "end": 3453.895,
+  "speaker": "Unknown",
+  "en": "Some companies that they have developed like 100 million parameter models that work",
+  "zh": "有一些公司已经开发了类似 1 亿参数的模型,它们"
+ },
+ {
+  "seg": 519,
+  "start": 3455.068,
+  "end": 3475.685,
+  "speaker": "Unknown",
+  "en": "exceptionally well for one type of problem, and if you just have an aggregator and an orchestrator that routes the correct model to that, like the correct query to that model, then you will have a very token efficient type of agent harness, so you can actually do model routing inside the agent harness.",
+  "zh": "对某一类问题表现得异常出色,如果你有一个聚合器和一个编排器,把正确的查询路由到那个正确的模型,那么你就会得到一种非常省 token 的智能体 harness,所以你实际上可以在智能体 harness 内部做模型路由。"
+ },
+ {
+  "seg": 520,
+  "start": 3476.165,
+  "end": 3477.667,
+  "speaker": "Unknown",
+  "en": "Some companies are actually",
+  "zh": "有一些公司实际上"
+ },
+ {
+  "seg": 521,
+  "start": 3479.497,
+  "end": 3490.865,
+  "speaker": "Unknown",
+  "en": "Essentially only doing that, and they will charge you like, let's do, I'm gonna charge you 10% of the tokens that I'm going to save you from the original amount of money that you were gonna spend, right?",
+  "zh": "基本上就只在做这件事,他们会向你收费,比如,我要向你收取我为你节省的 token 的 10%,相对于你原本要花的钱,对吧?"
+ },
+ {
+  "seg": 522,
+  "start": 3492.086,
+  "end": 3496.529,
+  "speaker": "Unknown",
+  "en": "So let me show you the student notebook, right?",
+  "zh": "那么让我给你们看看学生 notebook,好吗?"
+ },
+ {
+  "seg": 523,
+  "start": 3496.989,
+  "end": 3508.698,
+  "speaker": "Unknown",
+  "en": "So once you are inside the student notebook, for those of you who are not familiar with Visual Studio Code, you might need to select a kernel here so that you run",
+  "zh": "一旦你进入学生 notebook,对于你们当中不熟悉 Visual Studio Code 的人,你可能需要在这里选择一个 kernel,以便运行"
+ },
+ {
+  "seg": 524,
+  "start": 3510.168,
+  "end": 3517.076,
+  "speaker": "Unknown",
+  "en": "the notebook, so you might select Python 3.12 here, and then you can just start reading.",
+  "zh": "这个 notebook,你可以在这里选择 Python 3.12,然后就可以开始阅读了。"
+ },
+ {
+  "seg": 525,
+  "start": 3518.017,
+  "end": 3520.52,
+  "speaker": "Unknown",
+  "en": "If you stumble into a to-do that you need to do,",
+  "zh": "如果你碰到一个需要你完成的 to-do,"
+ },
+ {
+  "seg": 526,
+  "start": 3521.442,
+  "end": 3529.51,
+  "speaker": "Unknown",
+  "en": "You have a docs folder with all the explanations, the individual explanations that you need to solve this specific problem.",
+  "zh": "你有一个 docs 文件夹,里面有所有的解释,你解决这个问题所需的各个具体解释。"
+ },
+ {
+  "seg": 527,
+  "start": 3529.671,
+  "end": 3536.117,
+  "speaker": "Unknown",
+  "en": "For instance, the first to do, which is just talking to the reasoning core, to the model layer, without doing anything else.",
+  "zh": "比如,第一个 to-do,就是只是与推理核心对话,与模型层对话,不做任何其他事情。"
+ },
+ {
+  "seg": 528,
+  "start": 3536.137,
+  "end": 3543.385,
+  "speaker": "Unknown",
+  "en": "It will just explain what you need to implement on that cell so that it works and you can proceed to the next one.",
+  "zh": "它会解释你需要在该单元里实现什么,让它能跑起来,然后你就可以进行下一个。"
+ },
+ {
+  "seg": 529,
+  "start": 3544.903,
+  "end": 3546.044,
+  "speaker": "Unknown",
+  "en": "And also have a solution.",
+  "zh": "另外还有一份解答。"
+ },
+ {
+  "seg": 530,
+  "start": 3546.865,
+  "end": 3549.807,
+  "speaker": "Unknown",
+  "en": "But if you're not lazy, you will try.",
+  "zh": "但如果你不偷懒的话,你会试着自己做。"
+ },
+ {
+  "seg": 531,
+  "start": 3550.848,
+  "end": 3552.709,
+  "speaker": "Unknown",
+  "en": "And I hope that you try.",
+  "zh": "我希望你们会去尝试。"
+ },
+ {
+  "seg": 532,
+  "start": 3553.31,
+  "end": 3557.073,
+  "speaker": "Unknown",
+  "en": "And we will be here answering questions around the room.",
+  "zh": "我们会在这里,在会场各处回答问题。"
+ },
+ {
+  "seg": 533,
+  "start": 3557.733,
+  "end": 3566.78,
+  "speaker": "Unknown",
+  "en": "I'm gonna turn off my microphone, just come down with my colleagues, and then let's chat about it for the remainder of the session.",
+  "zh": "我会关掉我的麦克风,下来和我的同事们待在一起,然后在本次环节剩下的时间里我们聊一聊。"
+ },
+ {
+  "seg": 534,
+  "start": 3567.401,
+  "end": 3569.722,
+  "speaker": "Unknown",
+  "en": "And if you have any questions or you like to talk,",
+  "zh": "如果你们有任何问题,或者想"
+ },
+ {
+  "seg": 535,
+  "start": 3571.644,
+  "end": 3572.784,
+  "speaker": "Unknown",
+  "en": "more to us.",
+  "zh": "和我们多聊聊。"
+ },
+ {
+  "seg": 536,
+  "start": 3573.324,
+  "end": 3576.006,
+  "speaker": "Unknown",
+  "en": "Please come by and swing by the booth, the Oracle booth.",
+  "zh": "请过来,顺便到展位来,Oracle 展位。"
+ },
+ {
+  "seg": 537,
+  "start": 3576.106,
+  "end": 3578.947,
+  "speaker": "Unknown",
+  "en": "We'll be there every day, all the time.",
+  "zh": "我们每天都会在那里,一直都在。"
+ },
+ {
+  "seg": 538,
+  "start": 3579.847,
+  "end": 3584.79,
+  "speaker": "Unknown",
+  "en": "And, you know, it makes us feel good, like we are wanted and we have friends.",
+  "zh": "而且,你知道的,这让我们感觉很好,就像我们是被人需要的,我们有朋友。"
+ },
+ {
+  "seg": 539,
+  "start": 3585.13,
+  "end": 3589.292,
+  "speaker": "Unknown",
+  "en": "So if you want to come up to us, just chat with us a little bit.",
+  "zh": "所以如果你想来找我们,就和我们聊一会儿。"
+ },
+ {
+  "seg": 540,
+  "start": 3589.772,
+  "end": 3590.772,
+  "speaker": "Unknown",
+  "en": "It will be nice.",
+  "zh": "那会很棒的。"
+ },
+ {
+  "seg": 541,
+  "start": 3595.454,
+  "end": 3595.855,
+  "speaker": "Unknown",
+  "en": "Internet?",
+  "zh": "网络?"
+ },
+ {
+  "seg": 542,
+  "start": 3595.895,
+  "end": 3596.555,
+  "speaker": "Unknown",
+  "en": "How's the Internet?",
+  "zh": "网络怎么样?"
+ },
+ {
+  "seg": 543,
+  "start": 3611.142,
+  "end": 3612.883,
+  "speaker": "Unknown",
+  "en": "I feel like Caesar.",
+  "zh": "我感觉像凯撒一样。"
+ },
+ {
+  "seg": 544,
+  "start": 3612.903,
+  "end": 3620.989,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 545,
+  "start": 3621.009,
+  "end": 3623.031,
+  "speaker": "Unknown",
+  "en": "So I'm going to leave this here.",
+  "zh": "我要把它留在这里。"
+ },
+ {
+  "seg": 546,
+  "start": 3623.191,
+  "end": 3625.332,
+  "speaker": "Unknown",
+  "en": "I'm going to keep this here.",
+  "zh": "我要把它放在这里。"
+ },
+ {
+  "seg": 547,
+  "start": 3625.853,
+  "end": 3626.894,
+  "speaker": "Unknown",
+  "en": "And I'm going to come down.",
+  "zh": "然后我要下来了。"
+ }
+]

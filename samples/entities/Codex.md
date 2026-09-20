@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>51</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>52</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -60,6 +60,7 @@ unlisted: true
 - **[[2026-09-14-talks-no-memory-no-harness-why-the-database-is|《AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈》]]**(02:43起):本集说 Oracle 内部用 Codex 做 AI 编程，荷兰团队凌晨提交代码却没提交 Codex 里的上下文，导致团队生产力问题
 - **[[2026-09-15-talks-voice-agents-can-just-do-things-charlie|《语音智能体不一定要说话:OpenAI 的三种语音交互模式》]]**(05:13起):OpenAI 的编码智能体；嘉宾用它精确实现软件需求，其应用里有替用户点击的「幽灵光标」动画
 - **[[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]]**(11:44起):Claire 的对比参照：称自己是「Codex 浏览器使用那一派的女孩」，「Codex 一会儿就能把这事儿搞定」，也吐槽 Claude/Codex 生成的 PDF 前端无聊。
+- **[[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]]**(11:46起):本集与 Claude Code 并举,作为「自动化+自主性」组合的典型 AI 产品例子。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(04:45起):本集讨论的 OpenAI 推出的命令行编码智能体，被嘉宾极力偏爱。集里说它“在决定更改什么之前浏览了更多的文件”，虽然非常慢，但嘉宾会同时开 10 个来用，并用它生成了 OpenClaw 的模板。
 
 ## ① 提到它的金句
@@ -90,7 +91,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*51 集*
+*52 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
@@ -142,6 +143,7 @@ unlisted: true
 - [[2026-09-14-talks-no-memory-no-harness-why-the-database-is|《AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈》]] — 作为概念
 - [[2026-09-15-talks-voice-agents-can-just-do-things-charlie|《语音智能体不一定要说话:OpenAI 的三种语音交互模式》]] — 作为被讨论公司(提及)
 - [[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]] — 作为被讨论公司(提及)
+- [[2026-09-18-talks-total-recall-agent-memory-and-harness-en|《模型是租的，harness 才是你的：拆解智能体的七层框架》]] — 作为被讨论公司(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
 
 ## ③ 关联
@@ -150,7 +152,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Claude]] · [[Cursor]] · [[ChatGPT]] · [[Anthropic]] · [[沙箱]] · [[护栏]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":277,"OpenAI":123,"Claude Code":64,"Claude":60,"Cursor":63,"ChatGPT":74,"Anthropic":130,"沙箱":53,"护栏":50,"Lenny":67}</script>
+<script type="application/json" class="pd-epn">{"智能体":281,"OpenAI":123,"Claude Code":65,"Claude":60,"Cursor":63,"ChatGPT":74,"Anthropic":130,"沙箱":53,"护栏":50,"Lenny":67}</script>
 
 <script>
 (function(){

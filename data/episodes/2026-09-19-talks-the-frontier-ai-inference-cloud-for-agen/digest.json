@@ -1,0 +1,142 @@
+{
+  "title_zh": "智能体推理不是聊天加量：Friendly AI 重建推理云",
+  "tldr": "Friendly AI 创始人兼 CEO Gon 讲解智能体推理为何不同于聊天，以及前缀缓存、KV 缓存管理、缓存感知路由等关键工程如何把端到端任务延迟降下来。",
+  "digest_md": "这一集是 Friendly AI 创始人兼 CEO Gon 的演讲，主题是「智能体推理」——当 AI 智能体(能自主规划、调用工具、连续执行任务的大模型程序)成为主要负载后，推理基础设施需要怎么重建。他抛出的核心判断是：智能体推理不是「带更多请求的聊天」，而是一个完全不同的问题，必须为整个任务而不是单个请求做优化。\n\n先交代背景。Friendly AI 是一家「面向智能体的前沿 AI 推理云」，为智能体大规模运行推理，主打更快、更便宜、更可靠。团队诞生于首尔国立大学的一个研究团队，是发明 continuous batching(一种让多个请求动态合并进同一批处理、大幅提升 GPU 利用率的推理优化)的团队，这项技术如今已成为全行业标准；他们早年还启发了被广泛使用的开源框架 vLLM。\n\nGon 认为 2026 年是智能体大规模进入生产环境的年份，背后是两个趋势汇聚：一是智能体采用正在指数级增长，横跨软件、运营和知识工作；二是开放权重模型(模型参数公开、可以自己部署的模型，区别于闭源 API)已经达到前沿水平，让智能体在经济上变得可行。\n\n## 开放权重模型已跨过质量阈值，但便宜 5.6 倍\n\n为了让「开放权重够用了」这件事具体化，他给两个模型完全相同的任务——用编码智能体构建一个塔防游戏。左边是运行在 Friendly AI 上的开放权重模型 GLM 5.2，右边是对标前沿的闭源模型 Opus 4.8。\n\n> 【背景】「Friendly AI」为转写稿中的服务名称；右边的对比模型所属公司原文未明示，此处改为不指明厂商的说法。\n\n重点不是输出一模一样，而是两者完成任务的水平都「明显可用」。\n\n经济性却截然不同：同样的任务，Opus 4.8 成本约 1.50 美元，GLM 5.2 只要 0.27 美元，便宜 5.6 倍。开放权重模型让你以几分之一的成本拿到前沿质量的智能体。\n\n但他紧接着指出：模型成本只是故事的一半。要让智能体真正快和可靠，推理栈本身必须改。\n\n## 为什么智能体负载和聊天是两回事\n\n过去的主导用法是聊天：基本单元是一次请求，人问、模型答、人读，延迟的含义是「我多快拿到一个响应」。智能体的基本单元则是任务——一个任务可能包含很多次模型调用、很多次工具调用，还会自主运行一段时间。用户不在乎单个请求的延迟，在乎的是整个任务何时完成。\n\n拆开看智能体的运行方式：一个任务跑在一个循环里——先规划(通常是一次 LLM 调用)，再行动(比如调一个工具)，然后观察结果、把结果追加回上下文，如此反复直到任务完成。所以系统在 LLM 推理和非 LLM 的工具执行之间不断交替，LLM 调用之间存在间隙；智能体还能创建子智能体并行运行。\n\n输入形态也完全不同。他们内部每天用 GLM 5.2 跑编码智能体，其提示词和补全长度远超聊天，而且随任务推进不断增长——因为每次观察都会追加回上下文。这里有一个关键模式：**相邻的智能体步骤通常共享一个巨大的前缀**。如果每次都重新计算相同的前缀，就是在已经做过的工作上烧算力——Gon 称这是智能体推理中最大的机会之一。\n\n极端例子是深度研究这类长时程任务：他们用 Claude Code 配 GLM 5.2 跑「解释 vLLM 中的 spec decoding 框架」，多个阶段、每个阶段由多个子智能体组成，可能运行数十甚至数百个推理步骤，有时持续几分钟甚至几小时，共享上下文全程增长。所以智能体推理有四个特征：上下文随时间增长、工具工作交错在模型调用之间、调用次数取决于输入(没法按固定请求速率规划)、真正的指标是端到端任务延迟。\n\n## 重建推理云：四大支柱\n\nFriendly AI 围绕这些挑战逐层重建了技术栈，唯一目标是优化端到端任务延迟。今天讲四大支柱：前缀缓存、KV 缓存管理、缓存感知路由、智能体感知优化。\n\n**前缀缓存**。既然智能体步骤共享大前缀，就对前缀只计算一次键值(即 KV 缓存，模型处理文本时生成的中间状态，复用它就不用重算)并缓存；后续步骤复用缓存，只处理新的后缀。从缓存读取比计算预填充便宜得多，既改善首 token 时间，又减少每步算力消耗——任务跑得越久越有价值。\n\n**KV 缓存管理**。缓存要有效，前提是装得下、搬得动。他们的手段：节俭的内存管理，把更多活跃上下文打包进每块 GPU 内存；KV 量化(用更低的数值精度存缓存)减少内存占用；跨 GPU 内存、主机内存和磁盘的分层缓存，突破 GPU 内存上限；还有分布式缓存，让一个前缀可以跨副本提供服务，而不只在一个实例内部。\n\n**缓存感知路由**。到了全局集群规模，路由变得关键。朴素的负载均衡器会把请求均匀分散到各 GPU 集群——但这会破坏缓存局部性。缓存感知路由器更聪明：把请求发到已经缓存了正确前缀的 pod 上，把一次冷启动预填充变成一次热缓存命中；同时仍要平衡负载，不让某条路径成为热点。\n\n**智能体感知优化**——他称之为智能体推理的下一个前沿。今天大多数系统调度每次 LLM 调用时都当作独立的，不理解它是更长智能体程序的一部分。但如果优化器知道智能体层面的上下文，就能做出更好的决策：比如抢占正确的工作、为可能的下一步预填充上下文、或基于智能体上下文做更好的缓存淘汰决策。目标始终是降低端到端任务延迟，而不是让单次调用看起来快。\n\n这些整合起来的效果：用同一个模型 GLM 5.2、用 Kilo code 创建一个简单的手机游戏，分别通过 Friendly AI 和另一家知名推理提供商的 API 跑同样的任务，Friendly AI 端到端完成得更快。\n\n## 落地与产品形态\n\n这套能力拼起来解锁的是更强的生产级智能体技术栈：拿你已有的智能体，接入开放权重前沿模型(GLM 5.2、Minimax、Kimi,由 Friendly AI 提供服务)，模型给你前沿能力和更好的经济性，Friendly AI 给你生产所需的速度、可靠性和端到端任务性能。\n\n客户横跨 AI 原生初创公司到全球企业：Hilo 是服务数百万用户的智能体编程工具；LG 则是业务涵盖电子、医疗保健和能源的全球企业——很不同的公司，要的东西一样：快速、可靠、高性价比的智能体推理。Hilo 的推荐语写道：过去一年他们测试了多家托管开放和闭源模型的推理提供商，在对 GLM-5 用量的对比测试中，与其他第三方提供商及模型实验室的直接使用相比，Friendly AI 始终快七倍，错误率显著更低。\n\n使用方式有三种：模型 API(通过无服务器 API 用前沿开放权重模型，最快上手)、专用端点(隔离部署、有保障的 SLA)、BYOG 自带 GPU(在自己的基础设施上运行)——同一个技术栈，三种部署方式。\n\n## 本集带走\n\n- **智能体推理的基本单元是任务，不是请求**：用户在乎的是整个任务何时完成，所以优化目标要从单请求延迟换成端到端任务延迟。\n- **相邻智能体步骤共享巨大前缀，这是最大的优化机会**：前缀只算一次 KV 缓存、后续复用，避免在已做过的工作上重复烧算力。\n- **缓存要有效，得靠一整套管理**：节俭内存管理、KV 量化、跨 GPU/主机/磁盘的分层缓存、跨副本的分布式缓存，缺一不可。\n- **路由必须「缓存感知」**：把请求发到已有正确前缀缓存的节点，把冷启动预填充变成热缓存命中——均匀分流的朴素负载均衡反而破坏性能。\n- **下一个前沿是让调度器理解智能体程序**：利用智能体层面的上下文做抢占、预填充下一步、优化缓存淘汰，而不把每次调用当独立请求。\n- **开放权重模型已跨过可用阈值，成本差 5 倍以上**：同样的编码任务，Opus 4.8 约 1.50 美元、GLM 5.2 仅 0.27 美元。",
+  "quotes": [
+    {
+      "en": "So agency inference is not just chat with more requests. It's a different problem.",
+      "zh": "所以智能体推理不仅仅是带更多请求的聊天，它是一个不同的问题。",
+      "timestamp": "06:35",
+      "speaker": "Byung-Gon (Gon) Chun"
+    },
+    {
+      "en": "Openweight models give you frontier quality agents at a fraction of the cost.",
+      "zh": "开放权重模型让你以几分之一的成本获得前沿质量的智能体。",
+      "timestamp": "03:05",
+      "speaker": "Byung-Gon (Gon) Chun"
+    },
+    {
+      "en": "First, Frontier Openweight models make production agents economically scalable.",
+      "zh": "第一，前沿开放权重模型让生产级智能体在经济上可扩展。",
+      "timestamp": "13:53",
+      "speaker": "Byung-Gon (Gon) Chun"
+    },
+    {
+      "en": "In a split test of GLM-5 usage compared against other third-party providers and direct usage from the Model Lab G.AI, Friendly AI was consistently seven times faster with a significantly lower error rate.",
+      "zh": "在 GLM-5 用量的对比测试中，与其他第三方提供商以及模型实验室的直接使用相比，Friendly AI 始终快七倍，且错误率显著更低。",
+      "timestamp": "12:56",
+      "speaker": "Byung-Gon (Gon) Chun"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "06:35",
+      "speaker": "Unknown",
+      "en": "So agency inference is not just chat with more requests. It's a different problem.",
+      "zh": "所以智能体推理不仅仅是带更多请求的聊天，它是一个不同的问题。"
+    },
+    {
+      "timestamp": "02:32",
+      "speaker": "Unknown",
+      "en": "The point is that both complete the task at a level that is clearly usable.",
+      "zh": "重点在于，两者完成任务的水平都明显可用。"
+    },
+    {
+      "timestamp": "03:05",
+      "speaker": "Unknown",
+      "en": "Openweight models give you frontier quality agents at a fraction of the cost.",
+      "zh": "开放权重模型让你以几分之一的成本获得前沿质量的智能体。"
+    },
+    {
+      "timestamp": "04:07",
+      "speaker": "Unknown",
+      "en": "That means we have to optimize for tasks, not just individual requests.",
+      "zh": "这意味着我们必须为任务进行优化，而不仅仅是单个请求。"
+    },
+    {
+      "timestamp": "05:27",
+      "speaker": "Unknown",
+      "en": "Consecutive agent steps usually share a huge prefix.",
+      "zh": "相邻的智能体步骤通常共享一个巨大的前缀。"
+    },
+    {
+      "timestamp": "05:33",
+      "speaker": "Unknown",
+      "en": "If we recompute that same prefix every time, we are burning a lot of compute on work we already did.",
+      "zh": "如果我们每次都重新计算相同的前缀，我们就会在已经做过的工作上烧掉大量算力。"
+    },
+    {
+      "timestamp": "05:41",
+      "speaker": "Unknown",
+      "en": "So this is one of the biggest opportunities in agentic inference.",
+      "zh": "所以这是智能体推理中最大的机会之一。"
+    },
+    {
+      "timestamp": "06:28",
+      "speaker": "Unknown",
+      "en": "What matters is, when is my task completed?",
+      "zh": "重要的是，我的任务什么时候完成？"
+    },
+    {
+      "timestamp": "09:42",
+      "speaker": "Unknown",
+      "en": "It sends a request to a pod that already has the right prefix cached, turning a core prefill into a warm cache sheet.",
+      "zh": "它把请求发送到已经缓存了正确前缀的 pod 上，把一次冷启动预填充变成一次热缓存命中。"
+    },
+    {
+      "timestamp": "10:16",
+      "speaker": "Unknown",
+      "en": "Today, most systems schedule each LLM core as if it were independent.",
+      "zh": "今天，大多数系统调度每次 LLM 调用时都把它当作独立的。"
+    },
+    {
+      "timestamp": "10:49",
+      "speaker": "Unknown",
+      "en": "So the goal is to reduce end-to-end test latency, not just make one call look fast.",
+      "zh": "所以目标是降低端到端任务延迟，而不只是让单次调用看起来很快。"
+    },
+    {
+      "timestamp": "11:57",
+      "speaker": "Unknown",
+      "en": "That combination, quality, speed, reliability, and cost is what makes agents actually useful and economical in production.",
+      "zh": "这种组合——质量、速度、可靠性和成本——正是让智能体在生产环境中真正有用且经济实惠的关键。"
+    },
+    {
+      "timestamp": "12:35",
+      "speaker": "Unknown",
+      "en": "Very different companies, but they all need the same thing, fast, reliable, cost-effective agentic inference.",
+      "zh": "非常不同的公司，但它们都需要同样的东西——快速、可靠、高性价比的智能体推理。"
+    },
+    {
+      "timestamp": "13:53",
+      "speaker": "Unknown",
+      "en": "First, Frontier Openweight models make production agents economically scalable.",
+      "zh": "第一，前沿开放权重模型让生产级智能体在经济上可扩展。"
+    },
+    {
+      "timestamp": "14:03",
+      "speaker": "Unknown",
+      "en": "Agenting inference requires optimizing end-to-end test latency with the challenges I mentioned.",
+      "zh": "智能体推理需要优化端到端任务延迟，应对我提到的那些挑战。"
+    },
+    {
+      "timestamp": "12:56",
+      "speaker": "Unknown",
+      "en": "In a split test of GLM-5 usage compared against other third-party providers and direct usage from the Model Lab G.AI, Friendly AI was consistently seven times faster with a significantly lower error rate.",
+      "zh": "在 GLM-5 用量的对比测试中，与其他第三方提供商以及模型实验室的直接使用相比，Friendly AI 始终快七倍，且错误率显著更低。"
+    },
+    {
+      "timestamp": "13:44",
+      "speaker": "Unknown",
+      "en": "Same stack, three ways to deploy.",
+      "zh": "同一个技术栈，三种部署方式。"
+    },
+    {
+      "timestamp": "08:34",
+      "speaker": "Unknown",
+      "en": "And the longer the task runs in agents, the more valuable this becomes.",
+      "zh": "而且任务在智能体中运行得越久，这就越有价值。"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊一个听起来有点技术、但其实跟未来两三年每个人都会被影响到的话题:智能体推理。主讲人是 Friendly AI 的创始人和 CEO,Gon。这家公司做的是\"面向智能体的推理云\",专门给智能体大规模跑模型。团队出身于首尔国立大学的一个研究组,发明过 continuous batching——说白了,就是让很多个请求动态合并进同一批处理,把 GPU 用得更满。这项技术如今已经是全行业的标准,他们早年还启发了非常有名的开源框架 vLLM。所以讲推理基础设施这件事,这一位是有资格的。\n\n那问题是什么呢?Gon 的核心判断是:当 AI 智能体——也就是能自己规划、调工具、连续干活的大模型程序——成为主要负载之后,推理这件事不能用老办法了。很多人以为智能体推理无非就是\"聊天的量变大了\",他的说法是:智能体推理不是带更多请求的聊天,它是一个完全不同的问题,必须为整个任务做优化,而不是为单个请求。\n\n为什么这么说?先把背景垫一下。Gon 认为 2026 年是智能体大规模进入生产环境的年份,背后有两个趋势:一是智能体的采用在指数级增长,软件、运营、知识工作都在用;二是开放权重模型——就是模型参数公开、可以自己部署的那种——已经达到了前沿水平,让智能体在经济上真正可行了。\n\n\"开放权重够用了\"这件事有多具体?有个对比实验:给两个模型完全相同的任务,用编码智能体做一个塔防游戏。一个是跑在 Friendly AI 上的开放权重模型 GLM 5.2,另一个是对标前沿的闭源模型 Opus 4.8。重点不是两边输出一模一样,而是两边完成任务的水平都明显可用。但成本差得远:同样的任务,Opus 4.8 大约 1.5 美元,GLM 5.2 只要 0.27 美元,便宜 5.6 倍。一句话总结:开放权重模型让你以几分之一的成本,拿到前沿质量的智能体。\n\n不过,Gon 紧接着指出,模型成本只是故事的一半。要让智能体真正快、真正可靠,推理栈本身得改。那为什么要改?咱们把聊天和智能体放一起比就明白了。聊天的基本单元是一次请求:人问、模型答、人读,延迟的意思是\"我多快拿到一个回复\"。智能体的基本单元是任务——一个任务可能包含很多次模型调用、很多次工具调用,还会自己跑上一段时间。用户根本不在乎某一次请求快不快,在乎的是整个任务什么时候干完。\n\n再拆开看智能体是怎么干活的。一个任务跑在一个循环里:先规划,通常是一次大模型调用;再行动,比如调一个工具;然后观察结果,把结果追加回上下文,如此反复,直到任务完成。所以系统在大模型推理和工具执行之间不停切换,调用之间有间隙,智能体还能创建子智能体并行跑。输入形态也不一样——内部每天用 GLM 5.2 跑编码智能体,提示词和补全长得远超聊天,而且越干越长,因为每次观察都会追加回去。这里就藏着一个关键模式:相邻的智能体步骤,通常共享一个巨大的前缀。如果每次都把相同的前缀重新算一遍,就是在已经做过的工作上烧算力。Gon 把这个称为智能体推理里最大的机会之一。\n\n极端的例子是深度研究这种长任务:多个阶段、多个子智能体,可能跑几十甚至上百个推理步骤,持续几分钟到几小时,共享的上下文一路增长。所以智能体推理有四个特征:上下文随时间增长;工具工作夹在模型调用之间;调用次数取决于输入,没法按固定速率规划;真正的指标,是端到端的任务延迟。\n\n那针对这些问题,Friendly AI 怎么重建推理云?围绕一个唯一目标——降低端到端任务延迟——今天讲四大支柱。第一个是前缀缓存:既然相邻步骤共享大前缀,那这个前缀的 KV 缓存——也就是模型处理文本时生成的中间状态——只算一次,后面的步骤直接复用,只处理新增的部分。从缓存里读,比重新计算便宜得多,任务跑得越久越划算。\n\n但缓存要有用,前提是装得下、搬得动,这就是第二个支柱,KV 缓存管理。手段包括:节俭的内存管理,把更多活跃上下文塞进每块 GPU;KV 量化,用更低的数值精度存缓存,省内存;跨 GPU 内存、主机内存和磁盘的分层缓存,突破 GPU 内存的墙;还有分布式缓存,让一个前缀可以跨多个副本提供服务,而不困在一个实例里。\n\n缓存多了,又引出一个新问题:请求该发到哪台机器上?这就到第三根支柱,缓存感知路由。朴素的负载均衡器会把请求均匀地撒到各个集群——听起来公平,但会破坏缓存局部性,好不容易存好的缓存根本用不上。缓存感知路由器更聪明:把请求发到已经缓存了正确前缀的节点上,把一次冷启动的预填充,变成一次热缓存命中;同时还得平衡负载,别让某条路变成热点。\n\n第四根支柱,是 Gon 称为下一个前沿的东西:智能体感知优化。今天大多数系统调度每次大模型调用时,都当它是独立请求,不知道它是某个更长程序的一部分。但如果调度器懂智能体层面的上下文,就能做得更好:比如抢占该抢的工作、为可能的下一步提前预填充上下文、做出更聪明的缓存淘汰决策。目标始终是整个任务更快,而不是让单次调用看起来快。\n\n这些拼起来效果怎么样?一个实测:用同一个 GLM 5.2,做同一个简单的手机游戏,分别通过 Friendly AI 和另一家知名推理提供商跑,Friendly AI 端到端更快。客户也验证了这一点——从服务数百万用户的智能体编程工具 Hilo,到业务横跨电子、医疗、能源的 LG,公司很不一样,要的东西一样:快、可靠、高性价比。Hilo 的评价是,过去一年测了多家推理提供商,在同样的用量对比里,与其他第三方以及模型实验室直接使用相比,Friendly AI 始终快七倍,错误率还显著更低。\n\n所以回头看,这一集真正想说的话其实很简单:智能体推理不是带更多请求的聊天,它是一个不同的问题。谁先按\"任务\"而不是\"请求\"来重建自己的推理栈,谁就能在智能体时代跑在前面。"
+}

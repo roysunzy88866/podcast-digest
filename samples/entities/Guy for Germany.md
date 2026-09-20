@@ -19,7 +19,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Simon Maple]] · [[Simon Boudrien]] · [[Datadog]] · [[智能体]] · [[评估]] · [[上下文]] · [[Cursor]] · [[开源权重模型]] · [[代码审查]] · [[Pi]]
+[[Simon Maple]] · [[Simon Boudrien]] · [[Datadog]] · [[智能体]] · [[评估]] · [[上下文]] · [[Cursor]] · [[开源权重模型]] · [[代码审查]] · [[上下文腐烂]]
 
 ## ④ 也在聊「AI 编程」的人
 
@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":9,"Simon Boudrien":1,"Datadog":7,"智能体":277,"评估":2,"上下文":17,"Cursor":63,"开源权重模型":2,"代码审查":10,"Pi":2}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":9,"Simon Boudrien":1,"Datadog":7,"智能体":281,"评估":2,"上下文":18,"Cursor":63,"开源权重模型":2,"代码审查":10,"上下文腐烂":3}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Mercor":2,"智能体":277,"开源":23,"RL 环境":6,"编码智能体":13,"评估":2,"机器人":7,"合成数据":7}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Mercor":2,"智能体":281,"开源":23,"RL 环境":6,"编码智能体":13,"评估":2,"机器人":7,"合成数据":7}</script>
 
 <script>
 (function(){

@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>KVCache</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="KVCache">KV</div><div class="pi"><h1 class="pt">KVCache</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="KVCache">KV</div><div class="pi"><h1 class="pt">KVCache</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|《把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力》]]**(35:02起):本集说它在数百万 token 时可能比模型权重本身还占内存,难以上机承载,也让机器人(只有手机大小显存)的长程建模不可能;SubQuadratic 在做让 KVCache 完全不必要的非注意力算法。
+- **[[2026-09-19-talks-operating-distributed-inference-systems|《推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道》]]**(03:54起):本集说 KVCache 是 LLM 服务巨大的每请求状态,构建贵、扔掉更贵,使智能体应用不能随意重启或重路由,是级联失败的变数
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-08-eyeonai-86-of-what-coding-agents-do-is-just-read|《把 100 万 token 用出 5 万的体验：SubQuadratic 的稀疏注意力》]] — 作为概念
+- [[2026-09-19-talks-operating-distributed-inference-systems|《推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Alexander Whedon]] · [[SubQuadratic]] · [[稀疏注意力]] · [[上下文工程]] · [[智能体]] · [[RAG]] · [[预训练]] · [[DeepSeek Sparse Attention]] · [[Transformer]] · [[Opus 4.6]]
+[[智能体]] · [[Alexander Whedon]] · [[Nishant Gupta]] · [[SubQuadratic]] · [[Naman Ahuja]] · [[稀疏注意力]] · [[Meta]] · [[上下文工程]] · [[推理]] · [[RAG]]
 
-<script type="application/json" class="pd-epn">{"Alexander Whedon":1,"SubQuadratic":1,"稀疏注意力":1,"上下文工程":12,"智能体":277,"RAG":13,"预训练":6,"DeepSeek Sparse Attention":1,"Transformer":8,"Opus 4.6":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":281,"Alexander Whedon":1,"Nishant Gupta":1,"SubQuadratic":1,"Naman Ahuja":1,"稀疏注意力":1,"Meta":35,"上下文工程":12,"推理":50,"RAG":15}</script>
 
 <script>
 (function(){

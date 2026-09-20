@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[John Willett]] · [[Ivan Burazin]] · [[Vincent Wendy]] · [[Rogo]] · [[Daytona]] · [[AI Engineer]] · [[Foundation]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"智能体":277,"ChatGPT":74,"John Willett":1,"Ivan Burazin":1,"Vincent Wendy":1,"Rogo":1,"Daytona":3,"AI Engineer":1,"Foundation":2,"Cognition":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":281,"ChatGPT":74,"John Willett":1,"Ivan Burazin":1,"Vincent Wendy":1,"Rogo":1,"Daytona":3,"AI Engineer":1,"Foundation":2,"Cognition":17}</script>
 
 <script>
 (function(){

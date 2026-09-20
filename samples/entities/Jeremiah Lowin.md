@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":46,"FastMCP":1,"Prefab":1,"智能体":277,"沙箱":53,"生成式 UI":2,"Claude":60}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":48,"FastMCP":1,"Prefab":1,"智能体":281,"沙箱":53,"生成式 UI":2,"Claude":60}</script>
 
 <script>
 (function(){

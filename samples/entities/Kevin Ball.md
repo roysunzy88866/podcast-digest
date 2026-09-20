@@ -7,29 +7,28 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Kevin Ball</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Kevin Ball">KE</div><div class="pi"><h1 class="pt">Kevin Ball</h1><div class="byl">Software Engineering Daily 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Kevin Ball">KE</div><div class="pi"><h1 class="pt">Kevin Ball</h1><div class="byl">Software Engineering Daily 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+
+## ① 他说过的话
+
+*1 条*
+
+![[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte#^q3]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|《把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索》]] — 作为主持
 - [[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Andrew Barba]] · [[Shar Dara]] · [[Eve]] · [[Vercel]] · [[DZero]] · [[智能体]] · [[评估]] · [[技能]] · [[MCP]] · [[沙箱]]
+[[智能体]] · [[MCP]] · [[Kubernetes]] · [[Yorg Shad]] · [[Andrew Barba]] · [[Pinecone]] · [[Shar Dara]] · [[Nexus]] · [[Eve]] · [[RAG]]
 
-## ④ 也在聊「智能体」的人
-
-<div class="pd-peers">
-
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Andrew Barba":1,"Shar Dara":1,"Eve":3,"Vercel":17,"DZero":1,"智能体":277,"评估":2,"技能":16,"MCP":46,"沙箱":53}</script>
+<script type="application/json" class="pd-epn">{"智能体":281,"MCP":48,"Kubernetes":8,"Yorg Shad":1,"Andrew Barba":1,"Pinecone":3,"Shar Dara":1,"Nexus":2,"Eve":3,"RAG":15}</script>
 
 <script>
 (function(){

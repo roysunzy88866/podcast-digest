@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":7,"评估":2,"基准测试":11,"智能体":277,"RLGym":1,"迁移":1,"Claude Code":64,"Codex":51,"Anthropic":130}</script>
+<script type="application/json" class="pd-epn">{"Nova":1,"模型路由":7,"评估":2,"基准测试":11,"智能体":281,"RLGym":1,"迁移":1,"Claude Code":65,"Codex":52,"Anthropic":130}</script>
 
 <script>
 (function(){

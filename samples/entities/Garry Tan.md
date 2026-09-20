@@ -84,11 +84,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":277,"技能文件":3,"RAG":13,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":51,"YC":15,"上下文工程":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":281,"技能文件":3,"RAG":15,"Latent Space":2,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":52,"YC":15,"上下文工程":12}</script>
 
 <script>
 (function(){

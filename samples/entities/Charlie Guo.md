@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":123,"语音智能体":2,"语音转语音":1,"语音转动作":1,"事件转语音":1,"Codex":51,"计算机使用":12,"Realtime 模型":1,"推理能力":6,"工具调用":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":123,"语音智能体":2,"语音转语音":1,"语音转动作":1,"事件转语音":1,"Codex":52,"计算机使用":12,"Realtime 模型":1,"推理能力":6,"工具调用":2}</script>
 
 <script>
 (function(){

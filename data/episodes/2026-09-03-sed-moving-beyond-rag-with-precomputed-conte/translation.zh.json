@@ -1,0 +1,4850 @@
+[
+ {
+  "seg": 0,
+  "start": 0.249,
+  "end": 5.033,
+  "speaker": "Unknown",
+  "en": "Retrieval has become one of the central problems in building useful AI systems.",
+  "zh": "检索已经成为构建有用的 AI 系统的核心问题之一。"
+ },
+ {
+  "seg": 1,
+  "start": 5.574,
+  "end": 17.844,
+  "speaker": "Unknown",
+  "en": "The standard approach to grounding a model in one's own data has been Retrieval Augmented Generation, or RAG, where an agent searches a vector database for relevant information at query time.",
+  "zh": "将模型落地到自有数据的标准做法一直是检索增强生成，也就是 RAG，即智能体在查询时搜索向量数据库以获取相关信息。"
+ },
+ {
+  "seg": 2,
+  "start": 18.305,
+  "end": 24.19,
+  "speaker": "Unknown",
+  "en": "That pattern works, but it has limitations, such as retrieving information that's not truly relevant,",
+  "zh": "这种模式有效，但它有局限性，比如检索到并非真正相关的信息，"
+ },
+ {
+  "seg": 3,
+  "start": 24.57,
+  "end": 30.656,
+  "speaker": "Unknown",
+  "en": "Repeating the same lookup work on every query, and producing inconsistent answers to the same question.",
+  "zh": "在每次查询时重复同样的查找工作，以及对同一个问题给出不一致的答案。"
+ },
+ {
+  "seg": 4,
+  "start": 31.237,
+  "end": 37.023,
+  "speaker": "Unknown",
+  "en": "Pinecone is a vector database that's widely used to power semantic search and RAG at scale.",
+  "zh": "Pinecone 是一个向量数据库，被广泛用于支撑大规模的语义搜索和 RAG。"
+ },
+ {
+  "seg": 5,
+  "start": 37.663,
+  "end": 47.553,
+  "speaker": "Unknown",
+  "en": "The team recently developed Nexus, which is a knowledge engine that reframes context as a first-class, pre-computed asset rather than something reassembled on the fly.",
+  "zh": "该团队最近开发了 Nexus，它是一个知识引擎，将上下文重新定义为一等公民的、预先计算好的资产，而不是在运行时临时拼装的东西。"
+ },
+ {
+  "seg": 6,
+  "start": 48.093,
+  "end": 59.638,
+  "speaker": "Unknown",
+  "en": "The approach borrows the database concept of a materialized view and curates context once into a versioned artifact that carries its own schema, metadata, permissions, and lineage.",
+  "zh": "这种方法借鉴了数据库中物化视图的概念，将上下文一次性策展为一个带版本的制品，它自带自己的 schema、元数据、权限和血缘。"
+ },
+ {
+  "seg": 7,
+  "start": 60.238,
+  "end": 63.419,
+  "speaker": "Unknown",
+  "en": "Yorg Shad is the VP of Engineering at Pinecone.",
+  "zh": "Yorg Shad 是 Pinecone 的工程副总裁。"
+ },
+ {
+  "seg": 8,
+  "start": 63.88,
+  "end": 70.402,
+  "speaker": "Unknown",
+  "en": "In this episode, he joins Kevin Ball for an in-depth conversation about the frontier of retrieval technology.",
+  "zh": "在本期节目中，他与 Kevin Ball 进行了一场关于检索技术前沿的深入对话。"
+ },
+ {
+  "seg": 9,
+  "start": 70.842,
+  "end": 76.945,
+  "speaker": "Unknown",
+  "en": "They discuss precompiled context, how context artifacts are curated and versioned much like code,",
+  "zh": "他们讨论了预编译上下文、上下文制品如何像代码一样被策展和版本化、"
+ },
+ {
+  "seg": 10,
+  "start": 77.245,
+  "end": 82.829,
+  "speaker": "Unknown",
+  "en": "How metadata and semantic layers help agents choose the right information, and much more.",
+  "zh": "元数据和语义层如何帮助智能体选择正确的信息，以及更多内容。"
+ },
+ {
+  "seg": 11,
+  "start": 83.709,
+  "end": 90.754,
+  "speaker": "Unknown",
+  "en": "Kevin Ball, or KBall, is the Vice President of Engineering at Mento and an independent coach for engineers and engineering leaders.",
+  "zh": "Kevin Ball，或称 KBall，是 Mento 的工程副总裁，也是工程师和工程领导者的独立教练。"
+ },
+ {
+  "seg": 12,
+  "start": 91.274,
+  "end": 99.92,
+  "speaker": "Unknown",
+  "en": "He co-founded and served as CTO for two companies, founded the San Diego JavaScript Meetup, and organizes the AI in Action Discussion Group through Latent Space.",
+  "zh": "他曾联合创办两家公司并担任 CTO，创办了圣地亚哥 JavaScript Meetup，并通过 Latent Space 组织 AI in Action 讨论组。"
+ },
+ {
+  "seg": 13,
+  "start": 100.5,
+  "end": 105.083,
+  "speaker": "Unknown",
+  "en": "Check out the show notes to follow KBall on Twitter or LinkedIn, or visit his website, KBall.llc.",
+  "zh": "请查看节目备注，在 Twitter 或 LinkedIn 上关注 KBall，或访问他的网站 KBall.llc。"
+ },
+ {
+  "seg": 14,
+  "start": 118.213,
+  "end": 119.454,
+  "speaker": "Unknown",
+  "en": "Jörg, welcome to the show.",
+  "zh": "Jörg，欢迎来到节目。"
+ },
+ {
+  "seg": 15,
+  "start": 119.474,
+  "end": 121.094,
+  "speaker": "Unknown",
+  "en": "Thank you so much for having me.",
+  "zh": "非常感谢你们邀请我。"
+ },
+ {
+  "seg": 16,
+  "start": 121.635,
+  "end": 124.196,
+  "speaker": "Unknown",
+  "en": "Yeah, I'm excited to get to talk with you about this.",
+  "zh": "是的，我很高兴能和你聊这个话题。"
+ },
+ {
+  "seg": 17,
+  "start": 124.736,
+  "end": 126.977,
+  "speaker": "Unknown",
+  "en": "Let's start with a little bit of your background.",
+  "zh": "我们先从你的一点背景开始吧。"
+ },
+ {
+  "seg": 18,
+  "start": 127.017,
+  "end": 131.439,
+  "speaker": "Unknown",
+  "en": "So can you give us the TLDR of your history and how you ended up at Pinecone and Nexus?",
+  "zh": "你能给我们讲讲你的经历的 TLDR，以及你是怎么来到 Pinecone 和 Nexus 的吗？"
+ },
+ {
+  "seg": 19,
+  "start": 131.859,
+  "end": 132.44,
+  "speaker": "Unknown",
+  "en": "Yeah, sure.",
+  "zh": "好的，当然。"
+ },
+ {
+  "seg": 20,
+  "start": 132.88,
+  "end": 147.427,
+  "speaker": "Unknown",
+  "en": "I would say I was really lucky I could follow my passion, which is probably database systems, where I started out almost 20 years ago, was grad school, worked on distributed query optimization back in those Hadoop days, like really, really long time ago.",
+  "zh": "我觉得我非常幸运，能够追随我的热情所在，那大概就是数据库系统。我差不多 20 年前入行，当时在读研究生，在 Hadoop 年代研究分布式查询优化，那真的是很久很久以前了。"
+ },
+ {
+  "seg": 21,
+  "start": 148.087,
+  "end": 155.449,
+  "speaker": "Unknown",
+  "en": "Worked there on name nodes and basically how can you use data duplication and then route to different queries.",
+  "zh": "我在那里研究 name node，基本上就是如何利用数据冗余然后把查询路由到不同的节点。"
+ },
+ {
+  "seg": 22,
+  "start": 155.469,
+  "end": 157.51,
+  "speaker": "Unknown",
+  "en": "So that was really interesting times.",
+  "zh": "那是非常有意思的时期。"
+ },
+ {
+  "seg": 23,
+  "start": 157.59,
+  "end": 162.911,
+  "speaker": "Unknown",
+  "en": "And just looking back, it's super cool to see how it developed since MapReduce days.",
+  "zh": "回头看，从 MapReduce 时代一路发展到现在，真的很酷。"
+ },
+ {
+  "seg": 24,
+  "start": 163.651,
+  "end": 168.953,
+  "speaker": "Unknown",
+  "en": "I kind of like followed along with that passion, was over at SAP working on HANA in the early days.",
+  "zh": "我一直沿着这份热情走下去，早期在 SAP 做 HANA。"
+ },
+ {
+  "seg": 25,
+  "start": 169.513,
+  "end": 175.655,
+  "speaker": "Unknown",
+  "en": "And then at some point figured out that large enterprises here, maybe they're fun for a while, but not for the rest of my life.",
+  "zh": "后来某个时候我意识到，大型企业也许待一阵子挺有意思，但不可能待一辈子。"
+ },
+ {
+  "seg": 26,
+  "start": 175.755,
+  "end": 179.076,
+  "speaker": "Unknown",
+  "en": "And joined a startup, a backend called Mesosphere.",
+  "zh": "于是我加入了一家创业公司，一个叫 Mesosphere 的后端项目。"
+ },
+ {
+  "seg": 27,
+  "start": 179.236,
+  "end": 190.7,
+  "speaker": "Unknown",
+  "en": "So Apache Mesos was like an open source project, somewhere in between open source version of Google's Borg system, their internal cluster scheduler, and kind of like pre-Kubernetes.",
+  "zh": "Apache Mesos 是一个开源项目，介于 Google 的 Borg 系统（他们内部的集群调度器）的开源版本和 Kubernetes 出现之前的那种东西之间。"
+ },
+ {
+  "seg": 28,
+  "start": 191.08,
+  "end": 193.361,
+  "speaker": "Unknown",
+  "en": "So built a lot of large scale systems.",
+  "zh": "所以我们构建了很多大规模系统。"
+ },
+ {
+  "seg": 29,
+  "start": 194.093,
+  "end": 199.156,
+  "speaker": "Unknown",
+  "en": "across like Twitter, Netflix, Airbnb, where you can openly talk about.",
+  "zh": "涉及 Twitter、Netflix、Airbnb 这些可以公开谈论的公司。"
+ },
+ {
+  "seg": 30,
+  "start": 199.757,
+  "end": 202.339,
+  "speaker": "Unknown",
+  "en": "Also worked in the early days on Kubernetes.",
+  "zh": "我也在早期参与过 Kubernetes 的工作。"
+ },
+ {
+  "seg": 31,
+  "start": 202.639,
+  "end": 207.822,
+  "speaker": "Unknown",
+  "en": "So I recently checked all my code is out of the code base by now, but those were like interesting times.",
+  "zh": "我最近查了一下，我的代码到现在都已经不在代码库里了，但那是一段有意思的时期。"
+ },
+ {
+  "seg": 32,
+  "start": 208.563,
+  "end": 215.187,
+  "speaker": "Unknown",
+  "en": "Went back into the database space, was a CTO at a RanguDB, which is kind of like a graph database.",
+  "zh": "后来我回到数据库领域，在 RanguDB 担任 CTO，它大概算是一个图数据库。"
+ },
+ {
+  "seg": 33,
+  "start": 215.488,
+  "end": 219.611,
+  "speaker": "Unknown",
+  "en": "Interestingly, also worked on like early graph rec, graph retrieval.",
+  "zh": "有意思的是，我也做过早期的图推荐、图检索方面的工作。"
+ },
+ {
+  "seg": 34,
+  "start": 219.931,
+  "end": 222.973,
+  "speaker": "Unknown",
+  "en": "When that kind of started up, even we even built like our own",
+  "zh": "当那个方向刚起步的时候，我们甚至构建了自己的"
+ },
+ {
+  "seg": 35,
+  "start": 223.473,
+  "end": 228.654,
+  "speaker": "Unknown",
+  "en": "VectorStore in there, where we can maybe come back to a bit later when we're talking about vectors.",
+  "zh": "VectorStore，这个我们聊向量的时候或许可以回头再谈。"
+ },
+ {
+  "seg": 36,
+  "start": 228.954,
+  "end": 239.296,
+  "speaker": "Unknown",
+  "en": "And then I've been over at NextData, also working on how can we connect large-scale enterprises with data mesh, with data products to AI and agents.",
+  "zh": "然后我去了 NextData，也是研究如何把大型企业和数据网格、数据产品与 AI 以及智能体连接起来。"
+ },
+ {
+  "seg": 37,
+  "start": 239.816,
+  "end": 242.917,
+  "speaker": "Unknown",
+  "en": "And I feel now this is actually all coming together in this one role, right?",
+  "zh": "我觉得现在这一切真的在这一个角色中汇聚到一起了，对吧？"
+ },
+ {
+  "seg": 38,
+  "start": 242.957,
+  "end": 248.018,
+  "speaker": "Unknown",
+  "en": "All those passions from data systems over infrastructure management, over",
+  "zh": "所有那些热情，从数据系统到基础设施管理，再到"
+ },
+ {
+  "seg": 39,
+  "start": 248.733,
+  "end": 255.098,
+  "speaker": "Unknown",
+  "en": "Actually connecting, creating end user value from agentic systems by combining it with data.",
+  "zh": "通过与数据结合，真正从智能体系统中创造终端用户价值。"
+ },
+ {
+  "seg": 40,
+  "start": 255.679,
+  "end": 255.919,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 41,
+  "start": 256.099,
+  "end": 256.739,
+  "speaker": "Unknown",
+  "en": "That's awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 42,
+  "start": 256.879,
+  "end": 261.583,
+  "speaker": "Unknown",
+  "en": "So today we want to talk about Nexus and kind of the patterns behind Nexus, right?",
+  "zh": "那么今天我们想聊聊 Nexus 以及 Nexus 背后的模式，对吧？"
+ },
+ {
+  "seg": 43,
+  "start": 261.603,
+  "end": 266.907,
+  "speaker": "Unknown",
+  "en": "How we are designing data, data retrieval data in different ways for agentic systems.",
+  "zh": "我们如何以不同的方式为智能体系统设计数据、数据检索。"
+ },
+ {
+  "seg": 44,
+  "start": 266.947,
+  "end": 271.831,
+  "speaker": "Unknown",
+  "en": "But let's maybe start with just kind of the big overview of what Nexus is solving.",
+  "zh": "但或许我们先从 Nexus 在解决什么问题这个大的概览开始。"
+ },
+ {
+  "seg": 45,
+  "start": 271.871,
+  "end": 272.712,
+  "speaker": "Unknown",
+  "en": "What is Nexus?",
+  "zh": "Nexus 是什么？"
+ },
+ {
+  "seg": 46,
+  "start": 273.212,
+  "end": 276.535,
+  "speaker": "Unknown",
+  "en": "I saw it's described as a knowledge engine, but what does that actually mean?",
+  "zh": "我看到它被描述为一个知识引擎，但这到底是什么意思？"
+ },
+ {
+  "seg": 47,
+  "start": 277.083,
+  "end": 278.544,
+  "speaker": "Unknown",
+  "en": "Yeah, a very good question.",
+  "zh": "嗯，这是一个很好的问题。"
+ },
+ {
+  "seg": 48,
+  "start": 279.044,
+  "end": 284.046,
+  "speaker": "Unknown",
+  "en": "So let's maybe start with a history to understand the problem which we are solving, right?",
+  "zh": "那我们或许先从一段历史讲起，来理解我们正在解决的问题，对吧？"
+ },
+ {
+  "seg": 49,
+  "start": 284.066,
+  "end": 293.55,
+  "speaker": "Unknown",
+  "en": "If we are following along, how do you, for me, the value of Gen.AI is actually coming from by combining it with your own",
+  "zh": "如果我们一路看下来，对我来说，Gen.AI 的价值实际上是来自于把它与你自己的……"
+ },
+ {
+  "seg": 50,
+  "start": 294.29,
+  "end": 299.074,
+  "speaker": "Unknown",
+  "en": "Custom datasets, which are either specific to the task, which are specific to your enterprise.",
+  "zh": "自定义数据集,它们要么是特定于任务的,要么是特定于你的企业的。"
+ },
+ {
+  "seg": 51,
+  "start": 299.535,
+  "end": 304.839,
+  "speaker": "Unknown",
+  "en": "You might not want to share them for privacy reasons, or they might just be very specific to that task.",
+  "zh": "出于隐私原因,你可能不想共享它们,或者它们可能只是非常特定于那个任务。"
+ },
+ {
+  "seg": 52,
+  "start": 305.28,
+  "end": 309.263,
+  "speaker": "Unknown",
+  "en": "So I think this is where I've seen really big value being created.",
+  "zh": "所以我认为这就是我见过真正创造出巨大价值的地方。"
+ },
+ {
+  "seg": 53,
+  "start": 309.283,
+  "end": 314.127,
+  "speaker": "Unknown",
+  "en": "I mean, those early discussions like, should I fine-tune my LLM?",
+  "zh": "我是说,那些早期的讨论,比如,我该微调我的 LLM 吗?"
+ },
+ {
+  "seg": 54,
+  "start": 314.587,
+  "end": 321.013,
+  "speaker": "Unknown",
+  "en": "I think most value we have seen is actually giving it context and making it specific to my task.",
+  "zh": "我认为我们看到的大多数价值,实际上是在于给它上下文,并让它特定于我的任务。"
+ },
+ {
+  "seg": 55,
+  "start": 321.385,
+  "end": 325.087,
+  "speaker": "Unknown",
+  "en": "And I think this is where, in the early days, RAC came up.",
+  "zh": "而且我认为这就是早期 RAC 出现的地方。"
+ },
+ {
+  "seg": 56,
+  "start": 325.307,
+  "end": 327.008,
+  "speaker": "Unknown",
+  "en": "We mentioned that earlier in my introduction.",
+  "zh": "我在自我介绍时提到过这一点。"
+ },
+ {
+  "seg": 57,
+  "start": 327.048,
+  "end": 332.191,
+  "speaker": "Unknown",
+  "en": "I've been working on GraphRAC in the early days, kind of explored that a little bit.",
+  "zh": "我早期做过 GraphRAC,算是稍微探索过了一下。"
+ },
+ {
+  "seg": 58,
+  "start": 332.891,
+  "end": 337.554,
+  "speaker": "Unknown",
+  "en": "And I think RAC is great if you're exposing information.",
+  "zh": "我认为 RAC 在你公开信息时是很棒的。"
+ },
+ {
+  "seg": 59,
+  "start": 337.574,
+  "end": 339.595,
+  "speaker": "Unknown",
+  "en": "It's basically that retrieval pattern, right?",
+  "zh": "它基本上就是那种检索模式,对吧?"
+ },
+ {
+  "seg": 60,
+  "start": 340.175,
+  "end": 343.377,
+  "speaker": "Unknown",
+  "en": "The LLM knows it can look up for a piece of information.",
+  "zh": "LLM 知道它可以查找某条信息。"
+ },
+ {
+  "seg": 61,
+  "start": 343.397,
+  "end": 346.558,
+  "speaker": "Unknown",
+  "en": "We're going to find like all the similar bits and pieces.",
+  "zh": "我们会找到所有相似的片段。"
+ },
+ {
+  "seg": 62,
+  "start": 347.139,
+  "end": 349.56,
+  "speaker": "Unknown",
+  "en": "This is where vector databases came up.",
+  "zh": "这就是向量数据库出现的地方。"
+ },
+ {
+  "seg": 63,
+  "start": 349.96,
+  "end": 350.801,
+  "speaker": "Unknown",
+  "en": "We started having",
+  "zh": "我们开始有了"
+ },
+ {
+  "seg": 64,
+  "start": 351.381,
+  "end": 355.125,
+  "speaker": "Unknown",
+  "en": "These are dense retrieval for kind of like semantic search.",
+  "zh": "这些是用于类似语义搜索的稠密检索。"
+ },
+ {
+  "seg": 65,
+  "start": 355.625,
+  "end": 359.85,
+  "speaker": "Unknown",
+  "en": "We had sparse retrievals for kind of more lexical search out there.",
+  "zh": "我们还有用于更偏词法搜索的稀疏检索。"
+ },
+ {
+  "seg": 66,
+  "start": 360.43,
+  "end": 364.354,
+  "speaker": "Unknown",
+  "en": "We added often combined with like full text search in addition to that.",
+  "zh": "我们常常还在此基础上结合了全文搜索。"
+ },
+ {
+  "seg": 67,
+  "start": 364.654,
+  "end": 372.863,
+  "speaker": "Unknown",
+  "en": "So we ended up basically building an agentic retrieval system where the agent could retrieve similar amounts of information.",
+  "zh": "所以我们最终基本上构建了一个智能体检索系统,智能体可以检索相似数量的信息。"
+ },
+ {
+  "seg": 68,
+  "start": 373.673,
+  "end": 381.136,
+  "speaker": "Unknown",
+  "en": "I think just what we've seen then is that it's helpful, but there is kind of that layer above.",
+  "zh": "我认为我们当时看到的是,这很有用,但在它之上还有那么一层。"
+ },
+ {
+  "seg": 69,
+  "start": 381.176,
+  "end": 384.057,
+  "speaker": "Unknown",
+  "en": "And I think this is where most people nowadays are using context for.",
+  "zh": "而且我认为这正是如今大多数人使用上下文的目的。"
+ },
+ {
+  "seg": 70,
+  "start": 384.557,
+  "end": 387.699,
+  "speaker": "Unknown",
+  "en": "So context is kind of a more curated version, right?",
+  "zh": "所以上下文有点像一个更经过筛选整理的版本,对吧?"
+ },
+ {
+  "seg": 71,
+  "start": 387.719,
+  "end": 395.462,
+  "speaker": "Unknown",
+  "en": "So what we have seen often when the agent or the LLM GenAI would start retrieving that information",
+  "zh": "所以我们经常看到,当智能体或 LLM GenAI 开始检索那些信息时"
+ },
+ {
+  "seg": 72,
+  "start": 395.922,
+  "end": 400.383,
+  "speaker": "Unknown",
+  "en": "It would have to do that over and over again and it would then do operations on it.",
+  "zh": "它必须一遍又一遍地这样做,然后对其进行操作。"
+ },
+ {
+  "seg": 73,
+  "start": 400.863,
+  "end": 403.324,
+  "speaker": "Unknown",
+  "en": "It would curate it kind of like ETL.",
+  "zh": "它会像 ETL 那样整理它。"
+ },
+ {
+  "seg": 74,
+  "start": 403.684,
+  "end": 407.885,
+  "speaker": "Unknown",
+  "en": "It would just do that ETL kind of like on the fly and over and over again.",
+  "zh": "它只是即时地、一遍又一遍地做那种 ETL。"
+ },
+ {
+  "seg": 75,
+  "start": 408.325,
+  "end": 415.707,
+  "speaker": "Unknown",
+  "en": "So I think this is one of the steps where we can actually come up with meaningful pre-computed context.",
+  "zh": "所以我认为这是其中一个环节,我们可以真正提出有意义的预计算上下文。"
+ },
+ {
+  "seg": 76,
+  "start": 416.227,
+  "end": 419.368,
+  "speaker": "Unknown",
+  "en": "It's kind of in databases materialized views, right?",
+  "zh": "这有点像数据库里的物化视图,对吧?"
+ },
+ {
+  "seg": 77,
+  "start": 420.608,
+  "end": 424.489,
+  "speaker": "Unknown",
+  "en": "Pre-materialized view of that information, which is pre-curated.",
+  "zh": "那些信息的预先物化视图,是预先整理好的。"
+ },
+ {
+  "seg": 78,
+  "start": 424.969,
+  "end": 429.171,
+  "speaker": "Unknown",
+  "en": "And I think that's by itself enabling a number of different use cases.",
+  "zh": "而且我认为这本身就催生了许多不同的用例。"
+ },
+ {
+  "seg": 79,
+  "start": 429.251,
+  "end": 434.733,
+  "speaker": "Unknown",
+  "en": "First of all, because we treat context as its own entity.",
+  "zh": "首先,因为我们把上下文当作一个独立的实体来对待。"
+ },
+ {
+  "seg": 80,
+  "start": 435.213,
+  "end": 438.814,
+  "speaker": "Unknown",
+  "en": "We can put permissions on it, like similar in a database system.",
+  "zh": "我们可以给它设置权限,就像在数据库系统中那样。"
+ },
+ {
+  "seg": 81,
+  "start": 438.894,
+  "end": 444.096,
+  "speaker": "Unknown",
+  "en": "You'll see I'll jump back to database analogies multiple times because that's simply my background.",
+  "zh": "你会看到我会多次跳回数据库的类比,因为那简直是我的背景。"
+ },
+ {
+  "seg": 82,
+  "start": 444.116,
+  "end": 445.556,
+  "speaker": "Unknown",
+  "en": "So apologies upfront for that.",
+  "zh": "所以先提前道歉。"
+ },
+ {
+  "seg": 83,
+  "start": 445.956,
+  "end": 450.358,
+  "speaker": "Unknown",
+  "en": "But basically I can treat them as like a first-class citizen of the overall system.",
+  "zh": "但基本上我可以把它们当作整个系统中的一等公民来对待。"
+ },
+ {
+  "seg": 84,
+  "start": 450.798,
+  "end": 451.899,
+  "speaker": "Unknown",
+  "en": "I can give it permissions.",
+  "zh": "我可以给它权限。"
+ },
+ {
+  "seg": 85,
+  "start": 452.119,
+  "end": 452.919,
+  "speaker": "Unknown",
+  "en": "I can share it.",
+  "zh": "我可以共享它。"
+ },
+ {
+  "seg": 86,
+  "start": 453.399,
+  "end": 468.407,
+  "speaker": "Unknown",
+  "en": "And so if I'm, for example, seeing that in a larger enterprise context, I can have my personal context, which is just really information context specific to me or to what I've been doing over the last hour on this particular task.",
+  "zh": "所以如果,比如,在一个更大的企业场景中看到这一点,我可以拥有我的个人上下文,它只是特定于我、或者特定于我在过去一小时里在这个特定任务上所做事情的信息上下文。"
+ },
+ {
+  "seg": 87,
+  "start": 468.847,
+  "end": 471.79,
+  "speaker": "Unknown",
+  "en": "There might be department level context.",
+  "zh": "可能还有部门级别的上下文。"
+ },
+ {
+  "seg": 88,
+  "start": 471.83,
+  "end": 477.575,
+  "speaker": "Unknown",
+  "en": "So for example, for the entire finance team, for the entire engineering team, which is shared amongst them.",
+  "zh": "比如,针对整个财务团队、整个工程团队的,在团队内部共享的上下文。"
+ },
+ {
+  "seg": 89,
+  "start": 478.135,
+  "end": 484.701,
+  "speaker": "Unknown",
+  "en": "And then there can be context, which is actually shared for the entire company, because this is company-wide knowledge.",
+  "zh": "然后还可以有实际上为整个公司共享的上下文,因为这是全公司范围的知识。"
+ },
+ {
+  "seg": 90,
+  "start": 485.161,
+  "end": 496.011,
+  "speaker": "Unknown",
+  "en": "And then for a particular task, I can actually go in and assemble those different contexts together into a meta context, if you want, or a set of contexts.",
+  "zh": "然后对于某个特定任务,我可以进去把这些不同的上下文组装在一起,形成一个元上下文,或者说一组上下文。"
+ },
+ {
+  "seg": 91,
+  "start": 496.591,
+  "end": 500.793,
+  "speaker": "Unknown",
+  "en": "And this is then the set of relevant contexts for my particular task.",
+  "zh": "而这就是与我特定任务相关的那组上下文。"
+ },
+ {
+  "seg": 92,
+  "start": 501.153,
+  "end": 510.958,
+  "speaker": "Unknown",
+  "en": "So I think by just starting to treat it as such, I'm getting the benefits of system engineering we have been doing over the last decades from permissioning",
+  "zh": "所以我认为,只要开始这样对待它,我就能获得过去几十年我们在系统工程方面一直所做的种种好处,从权限设置"
+ },
+ {
+  "seg": 93,
+  "start": 511.653,
+  "end": 513.715,
+  "speaker": "Unknown",
+  "en": "Two aggregation on that.",
+  "zh": "到对它的聚合。"
+ },
+ {
+  "seg": 94,
+  "start": 514.476,
+  "end": 517.619,
+  "speaker": "Unknown",
+  "en": "Second aspect of that also is materialized views.",
+  "zh": "第二个方面是物化视图。"
+ },
+ {
+  "seg": 95,
+  "start": 517.759,
+  "end": 521.382,
+  "speaker": "Unknown",
+  "en": "I simply, I get more reproducible results, right?",
+  "zh": "简单来说,我能得到更可复现的结果,对吧?"
+ },
+ {
+  "seg": 96,
+  "start": 522.163,
+  "end": 529.73,
+  "speaker": "Unknown",
+  "en": "If we go back to what we said about Rack, if I'm doing that at each individual query, I'm doing it over and over again.",
+  "zh": "如果我们回到关于 Rack 的那些说法,如果我在每个单独的查询时都那样做,我就会一遍又一遍地重复。"
+ },
+ {
+  "seg": 97,
+  "start": 531.295,
+  "end": 535.397,
+  "speaker": "Unknown",
+  "en": "LLMs or agents, therefore, they're just probabilistic systems.",
+  "zh": "因此,LLM 或智能体只是概率性系统。"
+ },
+ {
+  "seg": 98,
+  "start": 535.677,
+  "end": 537.578,
+  "speaker": "Unknown",
+  "en": "They are choosing something on the fly.",
+  "zh": "它们是在即时做出选择。"
+ },
+ {
+  "seg": 99,
+  "start": 538.119,
+  "end": 545.623,
+  "speaker": "Unknown",
+  "en": "And so if I actually care about reproducible results, if I'm asking my data body question, what has been the revenue last year?",
+  "zh": "所以,如果我真正在意可复现的结果,如果我向我的数据体提问,去年的收入是多少?"
+ },
+ {
+  "seg": 100,
+  "start": 546.243,
+  "end": 549.705,
+  "speaker": "Unknown",
+  "en": "I really want a consistent answer over time.",
+  "zh": "我真的希望答案是随时间保持一致的。"
+ },
+ {
+  "seg": 101,
+  "start": 549.745,
+  "end": 559.61,
+  "speaker": "Unknown",
+  "en": "I don't want it to be fluctuating depending on which conditions are being used or what value is being taken for yearly revenue, for example.",
+  "zh": "我不希望它因为所使用的条件不同,或者比如说年度营收取值不同,而出现波动。"
+ },
+ {
+  "seg": 102,
+  "start": 560.09,
+  "end": 567.293,
+  "speaker": "Unknown",
+  "en": "So I think that kind of reproducibility is another important piece, which makes it more reliable.",
+  "zh": "所以我认为这种可复现性是另一个重要的部分,它让它更加可靠。"
+ },
+ {
+  "seg": 103,
+  "start": 567.953,
+  "end": 580.399,
+  "speaker": "Unknown",
+  "en": "And with that, I think I'm also getting in addition, I'm kind of getting, this might be more just an enterprise concern by itself, but I'm also getting this audit trails, I'm getting lineage trails.",
+  "zh": "除此之外,我还,这可能本身更多是企业级的关注点,但我还能获得这种审计追踪、血缘追踪。"
+ },
+ {
+  "seg": 104,
+  "start": 580.779,
+  "end": 585.361,
+  "speaker": "Unknown",
+  "en": "I can actually see this context because it's a curated asset.",
+  "zh": "我能真正看到这个上下文,因为它是一个经过策展的资产。"
+ },
+ {
+  "seg": 105,
+  "start": 585.761,
+  "end": 592.667,
+  "speaker": "Unknown",
+  "en": "Has been generated with the dataset from two days ago, 2 p.m. UTC, for example, right?",
+  "zh": "比如说,它是两天前 UTC 时间下午 2 点用某个数据集生成的,对吧?"
+ },
+ {
+  "seg": 106,
+  "start": 592.727,
+  "end": 598.072,
+  "speaker": "Unknown",
+  "en": "So I can basically go back there and I can also justify why is it in there.",
+  "zh": "所以我基本上可以回溯到那里,也能解释为什么它会在里面。"
+ },
+ {
+  "seg": 107,
+  "start": 598.392,
+  "end": 611.723,
+  "speaker": "Unknown",
+  "en": "And I remember spending a lot of nights kind of like trying to rebuild this lineage tracing because we had to debug production issues and basically justify why was this here in the feature, right?",
+  "zh": "我记得我花了很多个晚上试图重建这种血缘追踪,因为我们必须调试生产问题,基本上要解释为什么这个会出现在特征里,对吧?"
+ },
+ {
+  "seg": 108,
+  "start": 611.743,
+  "end": 613.345,
+  "speaker": "Unknown",
+  "en": "If you're going back to like feature stores,",
+  "zh": "如果你回到特征存储,"
+ },
+ {
+  "seg": 109,
+  "start": 613.785,
+  "end": 616.387,
+  "speaker": "Unknown",
+  "en": "Why is this information ending up in features?",
+  "zh": "为什么这条信息最终会出现在特征里?"
+ },
+ {
+  "seg": 110,
+  "start": 617.068,
+  "end": 635.402,
+  "speaker": "Unknown",
+  "en": "And I think by just having the option for this lineage trail and being able to go back and connect it back to the source data, this is also, I think from an observability governance perspective, is a big asset of using a context over repeated probabilistic retrieval steps.",
+  "zh": "我认为,只要拥有这种血缘追踪的选项,并且能够回溯、把它连接回源数据,从可观测性和治理的角度来看,这也是使用上下文而不是重复的概率检索步骤的一大优势。"
+ },
+ {
+  "seg": 111,
+  "start": 636.157,
+  "end": 638.398,
+  "speaker": "Unknown",
+  "en": "Yeah, so there's a lot of different things to dig in here.",
+  "zh": "是的,这里有很多不同的东西可以深入挖掘。"
+ },
+ {
+  "seg": 112,
+  "start": 638.858,
+  "end": 648.082,
+  "speaker": "Unknown",
+  "en": "So I think some of the things you're highlighting are around these like trade-offs between determinism and non-determinism and what's traceable versus what's not.",
+  "zh": "所以我认为你强调的一些事情是围绕确定性与非确定性之间的权衡,以及哪些可追溯、哪些不可追溯。"
+ },
+ {
+  "seg": 113,
+  "start": 648.483,
+  "end": 651.704,
+  "speaker": "Unknown",
+  "en": "But I want to kind of start, I actually really like using the database metaphor.",
+  "zh": "但我想先开始,我其实很喜欢用数据库这个比喻。"
+ },
+ {
+  "seg": 114,
+  "start": 651.764,
+  "end": 664.13,
+  "speaker": "Unknown",
+  "en": "So if we look at the concept of a materialized view, usually you're building that out because you have some sort of feature or functionality that you have planned where you need a different lookup pattern than was enabled by your previous database.",
+  "zh": "如果我们看物化视图的概念,通常你构建它是因为你规划了某种特性或功能,需要一种不同于之前数据库所支持的查找模式。"
+ },
+ {
+  "seg": 115,
+  "start": 664.65,
+  "end": 670.577,
+  "speaker": "Unknown",
+  "en": "One of the nice things about agents in general is they're so flexible, they maybe can handle many, many different lookup patterns.",
+  "zh": "智能体的一个好处总的来说是它们非常灵活,它们也许可以处理很多很多不同的查找模式。"
+ },
+ {
+  "seg": 116,
+  "start": 670.597,
+  "end": 676.083,
+  "speaker": "Unknown",
+  "en": "So how do you know what are the right conceptual materialized views to build out for agent context?",
+  "zh": "那么,你怎么知道为智能体上下文构建哪些正确的概念性物化视图呢?"
+ },
+ {
+  "seg": 117,
+  "start": 676.524,
+  "end": 683.172,
+  "speaker": "Unknown",
+  "en": "I think one thing to add, I think it's different lookup patterns, but can also relate back to different permissions, right?",
+  "zh": "我想补充一点,我认为它不仅是不同的查找模式,还可以关联到不同的权限,对吧?"
+ },
+ {
+  "seg": 118,
+  "start": 683.572,
+  "end": 699.215,
+  "speaker": "Unknown",
+  "en": "If I'm building a materialized view over my secretive finance data, which I don't want to go out to any LLM, but I'm building a materialized view where I'm making sure I'm not including sensitive data, but only, I don't know, monthly aggregates, for example.",
+  "zh": "如果我要为我的机密财务数据构建一个物化视图,这些数据我不想泄露给任何 LLM,但我构建的物化视图会确保不包含敏感数据,而只包含,比如说,月度聚合数据之类的。"
+ },
+ {
+  "seg": 119,
+  "start": 699.816,
+  "end": 704.417,
+  "speaker": "Unknown",
+  "en": "And this is the interface where I can have my agents access that.",
+  "zh": "而这就是我可以让我的智能体访问它的接口。"
+ },
+ {
+  "seg": 120,
+  "start": 704.857,
+  "end": 710.558,
+  "speaker": "Unknown",
+  "en": "This is, I think, another aspect to what you mentioned with the access, but I think it's not just the data access or the",
+  "zh": "我认为这是你提到的访问问题的另一个方面,但我认为不仅仅是数据访问或"
+ },
+ {
+  "seg": 121,
+  "start": 711.598,
+  "end": 715.963,
+  "speaker": "Unknown",
+  "en": "The data shape for that, but it's also just from a permission perspective.",
+  "zh": "数据形态的问题,从权限的角度来看也是。"
+ },
+ {
+  "seg": 122,
+  "start": 716.484,
+  "end": 728.438,
+  "speaker": "Unknown",
+  "en": "So this is where we spend a lot of time, for example, with Nexus as well, is trying to find that routing to identify from the metadata, what is the relevant information to use, right?",
+  "zh": "所以这也是我们花很多时间的地方,比如在 Nexus 上,就是试图找到那种路由,从元数据中识别出应该使用哪些相关信息,对吧?"
+ },
+ {
+  "seg": 123,
+  "start": 729.209,
+  "end": 738.777,
+  "speaker": "Unknown",
+  "en": "I think that if you look back at this agentic development, for example, MCP endpoints, why were MCP endpoints tools, what resources so popular?",
+  "zh": "我想,如果你回顾这种智能体化开发,比如 MCP endpoints,为什么 MCP endpoints、工具、资源会那么流行?"
+ },
+ {
+  "seg": 124,
+  "start": 739.197,
+  "end": 740.438,
+  "speaker": "Unknown",
+  "en": "It made it really easy.",
+  "zh": "它让事情变得非常简单。"
+ },
+ {
+  "seg": 125,
+  "start": 740.538,
+  "end": 744.762,
+  "speaker": "Unknown",
+  "en": "You just give it a description string and then it actually",
+  "zh": "你只需要给它一个描述字符串,然后它实际上"
+ },
+ {
+  "seg": 126,
+  "start": 745.302,
+  "end": 746.702,
+  "speaker": "Unknown",
+  "en": "The LLM could decide, right?",
+  "zh": "LLM 可以自己做决定,对吧?"
+ },
+ {
+  "seg": 127,
+  "start": 746.742,
+  "end": 749.763,
+  "speaker": "Unknown",
+  "en": "I think LLMs in general, they are great planners.",
+  "zh": "我认为 LLM 总体来说,它们是很棒的规划者。"
+ },
+ {
+  "seg": 128,
+  "start": 750.283,
+  "end": 754.785,
+  "speaker": "Unknown",
+  "en": "So you give them a tool and that tool is being described that I can do this.",
+  "zh": "所以你给它一个工具,这个工具被描述为我可以做这件事。"
+ },
+ {
+  "seg": 129,
+  "start": 755.365,
+  "end": 762.447,
+  "speaker": "Unknown",
+  "en": "And then if you're not giving them too many tools, they're pretty good at discovering the right tool to use for the right job.",
+  "zh": "然后只要你没有给它们太多工具,它们就很擅长为合适的工作发现合适的工具。"
+ },
+ {
+  "seg": 130,
+  "start": 763.207,
+  "end": 771.69,
+  "speaker": "Unknown",
+  "en": "You might give them some help with progressive tool discovery, for example, or very narrow set to not overload them with too many tools.",
+  "zh": "你也许可以给它们一些帮助,比如渐进式工具发现,或者给它们一个非常窄的集合,以免太多工具让它们过载。"
+ },
+ {
+  "seg": 131,
+  "start": 772.09,
+  "end": 776.451,
+  "speaker": "Unknown",
+  "en": "But otherwise, they're pretty good planning tools also for more complex pipeline steps.",
+  "zh": "但除此之外,对于更复杂的流水线步骤,它们也是相当不错的规划工具。"
+ },
+ {
+  "seg": 132,
+  "start": 776.971,
+  "end": 788.875,
+  "speaker": "Unknown",
+  "en": "So I think this is the nice thing you can do with context is you basically, description sounds now just like a very long string, but you can actually generate also more structured description.",
+  "zh": "所以我认为这是你在上下文上可以做的好事,基本上,描述现在听起来只是一个很长的字符串,但你实际上也可以生成更结构化的描述。"
+ },
+ {
+  "seg": 133,
+  "start": 789.215,
+  "end": 790.075,
+  "speaker": "Unknown",
+  "en": "What is in there?",
+  "zh": "里面有什么?"
+ },
+ {
+  "seg": 134,
+  "start": 790.255,
+  "end": 791.676,
+  "speaker": "Unknown",
+  "en": "What is the freshness of it?",
+  "zh": "它的新鲜度如何?"
+ },
+ {
+  "seg": 135,
+  "start": 792.296,
+  "end": 794.899,
+  "speaker": "Unknown",
+  "en": "What is potentially even lineage information?",
+  "zh": "甚至可能还有血缘信息?"
+ },
+ {
+  "seg": 136,
+  "start": 795.339,
+  "end": 798.081,
+  "speaker": "Unknown",
+  "en": "And because you're often just generating context, right?",
+  "zh": "因为你通常只是在生成上下文,对吧?"
+ },
+ {
+  "seg": 137,
+  "start": 798.101,
+  "end": 804.347,
+  "speaker": "Unknown",
+  "en": "It's not that with MCP tools where someone goes in and is actually hacking a tool together and it's a static asset.",
+  "zh": "不像 MCP 工具,那里是有人进去实际把一个工具拼凑出来,它是一个静态资产。"
+ },
+ {
+  "seg": 138,
+  "start": 804.807,
+  "end": 811.733,
+  "speaker": "Unknown",
+  "en": "Think context, even though we compare them with materialized views, even the description can be dynamic over time.",
+  "zh": "想想上下文,即使我们把它们和物化视图比较,连描述本身也可以随时间动态变化。"
+ },
+ {
+  "seg": 139,
+  "start": 811.834,
+  "end": 817.619,
+  "speaker": "Unknown",
+  "en": "So even that description can change with different versions of that materialized view to stick with that analogy.",
+  "zh": "所以沿用那个类比,连那个描述都可以随着该物化视图的不同版本而改变。"
+ },
+ {
+  "seg": 140,
+  "start": 818.38,
+  "end": 823.731,
+  "speaker": "Unknown",
+  "en": "And therefore, I can really make sure that the description is always up to date.",
+  "zh": "因此,我可以真正确保描述始终是最新的。"
+ },
+ {
+  "seg": 141,
+  "start": 824.714,
+  "end": 834.021,
+  "speaker": "Unknown",
+  "en": "Imagine, for example, you're trying to get the latest sales numbers from a context and you know that a context last has been updated two weeks ago.",
+  "zh": "想象一下,比如你想从一个上下文获取最新的销售数字,而你知道这个上下文最后一次更新是两周前。"
+ },
+ {
+  "seg": 142,
+  "start": 834.642,
+  "end": 847.792,
+  "speaker": "Unknown",
+  "en": "Then probably this is a sign that this is not very much up-to-date and this meta-information in the context metadata will give the LLM a really good indication it might not want to use that.",
+  "zh": "那么这很可能是一个信号,表明它不是很新,而上下文元数据里的这种元信息会给 LLM 一个很好的提示,它可能不想使用那个上下文。"
+ },
+ {
+  "seg": 143,
+  "start": 848.478,
+  "end": 849.899,
+  "speaker": "Unknown",
+  "en": "Yeah, that makes sense.",
+  "zh": "是的,这说得通。"
+ },
+ {
+  "seg": 144,
+  "start": 850.52,
+  "end": 862.51,
+  "speaker": "Unknown",
+  "en": "Maybe let's actually break down, like, when we talk about precompiled context, as contrasted to, you know, a lot of folks are probably familiar with some sort of vector database or Elasticsearch or other type of RAG lookup.",
+  "zh": "也许让我们实际上来拆解一下,当我们谈论预编译上下文时,相对于,你知道,很多人可能已经熟悉某种向量数据库或 Elasticsearch 或其他类型的 RAG 查找。"
+ },
+ {
+  "seg": 145,
+  "start": 862.59,
+  "end": 864.472,
+  "speaker": "Unknown",
+  "en": "Like, what is it that's happening here?",
+  "zh": "比如,这里到底发生了什么?"
+ },
+ {
+  "seg": 146,
+  "start": 864.492,
+  "end": 869.136,
+  "speaker": "Unknown",
+  "en": "So you have a description of the dataset with some set of metadata, and then, like, what is the shape of the data?",
+  "zh": "你有一个数据集的描述,附带一组元数据,然后,比如,数据的形态是什么?"
+ },
+ {
+  "seg": 147,
+  "start": 869.216,
+  "end": 870.056,
+  "speaker": "Unknown",
+  "en": "How is it loaded?",
+  "zh": "它是怎么加载的?"
+ },
+ {
+  "seg": 148,
+  "start": 870.116,
+  "end": 871.217,
+  "speaker": "Unknown",
+  "en": "How is it even generated?",
+  "zh": "它甚至是怎么生成的?"
+ },
+ {
+  "seg": 149,
+  "start": 871.237,
+  "end": 872.959,
+  "speaker": "Unknown",
+  "en": "Like, how are we doing the materialization?",
+  "zh": "比如,我们怎么做物化?"
+ },
+ {
+  "seg": 150,
+  "start": 873.019,
+  "end": 873.94,
+  "speaker": "Unknown",
+  "en": "Like, what does this look like?",
+  "zh": "比如，这看起来是什么样的？"
+ },
+ {
+  "seg": 151,
+  "start": 874.497,
+  "end": 875.318,
+  "speaker": "Unknown",
+  "en": "There are different ways.",
+  "zh": "有不同的方式。"
+ },
+ {
+  "seg": 152,
+  "start": 875.398,
+  "end": 882.125,
+  "speaker": "Unknown",
+  "en": "Let's maybe just talk in general what I want, and then I can talk a little bit how we do that for Nexus in particular.",
+  "zh": "也许我们先泛泛地谈谈我想要什么，然后我可以稍微谈谈我们是如何专门为 Nexus 做这件事的。"
+ },
+ {
+  "seg": 153,
+  "start": 882.585,
+  "end": 886.709,
+  "speaker": "Unknown",
+  "en": "But I think there are several things coming together, and I think this is the nice part.",
+  "zh": "但我认为有几样东西正在汇聚，我认为这正是有意思的地方。"
+ },
+ {
+  "seg": 154,
+  "start": 886.809,
+  "end": 896.459,
+  "speaker": "Unknown",
+  "en": "So when we earlier talked about how retrieval evolved over time, we talked about that there are different modes of retrieval, right?",
+  "zh": "所以当我们之前谈到检索如何随时间演变时，我们谈到有不同的检索模式，对吧？"
+ },
+ {
+  "seg": 155,
+  "start": 897.213,
+  "end": 905.06,
+  "speaker": "Unknown",
+  "en": "Dense vectors, sparse vectors, there's full-text search, and I think this is very similar to what we are seeing in a context.",
+  "zh": "稠密向量、稀疏向量，还有全文搜索，我认为这和我们在上下文中看到的非常相似。"
+ },
+ {
+  "seg": 156,
+  "start": 905.1,
+  "end": 913.067,
+  "speaker": "Unknown",
+  "en": "So for us, a context consists of, for example, a vector index, so we can look up and do similarity search in that.",
+  "zh": "所以对我们来说，一个上下文由，比如，一个向量索引组成，这样我们就可以在其中做查找和相似性搜索。"
+ },
+ {
+  "seg": 157,
+  "start": 913.688,
+  "end": 919.333,
+  "speaker": "Unknown",
+  "en": "It also has schema, so it can also have more structured information.",
+  "zh": "它还有 schema，所以它也可以有更多结构化的信息。"
+ },
+ {
+  "seg": 158,
+  "start": 919.693,
+  "end": 936.296,
+  "speaker": "Unknown",
+  "en": "I think one example we are, for example, seeing, often seeing as a pattern, especially if there are some sample queries around it and we know this is a meaningful information, we would extract the dates, we would extract like person names.",
+  "zh": "我想举一个例子，我们经常看到的一个模式，尤其是当周围有一些示例查询并且我们知道这是有意义的信息时，我们会提取日期，我们会提取人名之类的。"
+ },
+ {
+  "seg": 159,
+  "start": 936.696,
+  "end": 944.098,
+  "speaker": "Unknown",
+  "en": "So basically one of the steps in context curation for us is we try to identify meaningful entities across it.",
+  "zh": "所以基本上，我们上下文策展的步骤之一就是尝试在其中识别有意义的实体。"
+ },
+ {
+  "seg": 160,
+  "start": 944.738,
+  "end": 950.183,
+  "speaker": "Unknown",
+  "en": "Interestingly, just going back in my history, this is a lot when you're trying to build knowledge graphs.",
+  "zh": "有意思的是，回顾我的历史，这很多是你在尝试构建知识图谱时做的事情。"
+ },
+ {
+  "seg": 161,
+  "start": 950.703,
+  "end": 957.749,
+  "speaker": "Unknown",
+  "en": "Right now, we are not using a graph database here, but I can imagine a knowledge graph, for example, also being a very useful tool.",
+  "zh": "现在，我们没有在这里使用图数据库，但我可以想象，比如，知识图谱也会是一个非常有用的工具。"
+ },
+ {
+  "seg": 162,
+  "start": 958.309,
+  "end": 966.696,
+  "speaker": "Unknown",
+  "en": "I think there's something interesting there, too, because with similarity search and the ability to do embeddings on different fields, you can build kind of a fuzzy knowledge graph.",
+  "zh": "我认为那里也有有意思的东西，因为有了相似性搜索以及在不同字段上做嵌入的能力，你可以构建一种模糊的知识图谱。"
+ },
+ {
+  "seg": 163,
+  "start": 966.737,
+  "end": 970.48,
+  "speaker": "Unknown",
+  "en": "It's not a strict graph, but you can have those relationships there.",
+  "zh": "它不是一个严格的图，但你可以在其中拥有那些关系。"
+ },
+ {
+  "seg": 164,
+  "start": 971.06,
+  "end": 971.541,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "正是如此。"
+ },
+ {
+  "seg": 165,
+  "start": 971.581,
+  "end": 973.123,
+  "speaker": "Unknown",
+  "en": "I'll come to that in a second.",
+  "zh": "我马上会讲到那个。"
+ },
+ {
+  "seg": 166,
+  "start": 973.163,
+  "end": 979.31,
+  "speaker": "Unknown",
+  "en": "When we come to Nexos, we are actually building a cheap version of knowledge graphs.",
+  "zh": "当我们谈到 Nexos 时，我们实际上正在构建一个廉价版本的知识图谱。"
+ },
+ {
+  "seg": 167,
+  "start": 979.37,
+  "end": 979.81,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "正是如此。"
+ },
+ {
+  "seg": 168,
+  "start": 980.211,
+  "end": 981.773,
+  "speaker": "Unknown",
+  "en": "Very similar to what you just described.",
+  "zh": "和你刚才描述的非常相似。"
+ },
+ {
+  "seg": 169,
+  "start": 982.173,
+  "end": 988.16,
+  "speaker": "Unknown",
+  "en": "But I think the key point is knowledge context is not necessarily a single representation.",
+  "zh": "但我认为关键点在于知识上下文不一定是单一表示。"
+ },
+ {
+  "seg": 170,
+  "start": 988.58,
+  "end": 991.223,
+  "speaker": "Unknown",
+  "en": "It can be a combination of vector.",
+  "zh": "它可以是向量的组合。"
+ },
+ {
+  "seg": 171,
+  "start": 991.844,
+  "end": 994.065,
+  "speaker": "Unknown",
+  "en": "It can be a combination of structured fields.",
+  "zh": "它可以是结构化字段的组合。"
+ },
+ {
+  "seg": 172,
+  "start": 994.545,
+  "end": 999.928,
+  "speaker": "Unknown",
+  "en": "It can be then also, as we just said, it could bring in a knowledge graph, for example.",
+  "zh": "它也可以，正如我们刚才所说，例如引入一个知识图谱。"
+ },
+ {
+  "seg": 173,
+  "start": 1000.268,
+  "end": 1011.234,
+  "speaker": "Unknown",
+  "en": "So I think it can contain multiple modalities of data and potentially even the same information in different modalities depending on how to support different query patterns.",
+  "zh": "所以我认为它可以包含数据的多种模态，甚至潜在地是同一信息的不同模态，取决于如何支持不同的查询模式。"
+ },
+ {
+  "seg": 174,
+  "start": 1011.767,
+  "end": 1016.909,
+  "speaker": "Unknown",
+  "en": "I think the important piece next to that is that you have metadata associated with that.",
+  "zh": "我认为除此之外很重要的一点是你有与之关联的元数据。"
+ },
+ {
+  "seg": 175,
+  "start": 1017.389,
+  "end": 1022.451,
+  "speaker": "Unknown",
+  "en": "So I think we already talked about kind of like freshness metadata, lineage information.",
+  "zh": "所以我想我们已经谈过类似新鲜度元数据、血缘信息。"
+ },
+ {
+  "seg": 176,
+  "start": 1023.131,
+  "end": 1028.333,
+  "speaker": "Unknown",
+  "en": "I think what we are also often seeing is just a reference to a semantic layer in there.",
+  "zh": "我认为我们还经常看到的是在其中有一个指向语义层的引用。"
+ },
+ {
+  "seg": 177,
+  "start": 1028.793,
+  "end": 1037,
+  "speaker": "Unknown",
+  "en": "So having like very well-defined terms so that I actually know if I'm talking yearly revenue, what is the definition of that field?",
+  "zh": "所以拥有定义非常清晰的术语，这样当我谈到年度收入时，我实际上知道那个字段的定义是什么？"
+ },
+ {
+  "seg": 178,
+  "start": 1037.02,
+  "end": 1038.161,
+  "speaker": "Unknown",
+  "en": "What do we mean by yearly?",
+  "zh": "我们说的年度是什么意思？"
+ },
+ {
+  "seg": 179,
+  "start": 1038.241,
+  "end": 1047.088,
+  "speaker": "Unknown",
+  "en": "Are we following calendar years or are we having like an offset fiscal year for some startups?",
+  "zh": "我们是遵循日历年，还是像一些初创公司那样有一个偏移的财政年度？"
+ },
+ {
+  "seg": 180,
+  "start": 1047.548,
+  "end": 1049.47,
+  "speaker": "Unknown",
+  "en": "I think it's mostly startups going with that.",
+  "zh": "我想主要是初创公司会那样做。"
+ },
+ {
+  "seg": 181,
+  "start": 1049.76,
+  "end": 1060.684,
+  "speaker": "Unknown",
+  "en": "But yeah, is actually calendar year equals fiscal year is such kind of meta information, which might be stored as part of the context or then as a reference to another semantic layer out there.",
+  "zh": "但是，对，日历年是否等于财政年就是这类元信息，它可能作为上下文的一部分存储，或者作为指向外部另一个语义层的引用。"
+ },
+ {
+  "seg": 182,
+  "start": 1061.105,
+  "end": 1074.37,
+  "speaker": "Unknown",
+  "en": "But I think this combination of multi-modality representation of the data, of curated data, together with metadata, together with either an embedded or external",
+  "zh": "但我认为数据的多种模态表示、经过策展的数据，加上元数据，再加上内嵌的或外部的"
+ },
+ {
+  "seg": 183,
+  "start": 1075.056,
+  "end": 1082.582,
+  "speaker": "Unknown",
+  "en": "I think for scales, usually seeing externals there at least becoming more popular is kind of that key part of bringing all of that together.",
+  "zh": "我认为对于规模来说，通常看到的是外部的，至少在那里变得更流行，是把所有这些结合在一起的关键部分。"
+ },
+ {
+  "seg": 184,
+  "start": 1084.874,
+  "end": 1086.715,
+  "speaker": "Unknown",
+  "en": "Think about your mobile app source code.",
+  "zh": "想想你的移动应用源代码。"
+ },
+ {
+  "seg": 185,
+  "start": 1087.056,
+  "end": 1089.658,
+  "speaker": "Unknown",
+  "en": "Once it hits the app store, it's out in the wild.",
+  "zh": "一旦它进入应用商店，它就暴露在野外了。"
+ },
+ {
+  "seg": 186,
+  "start": 1090.018,
+  "end": 1097.504,
+  "speaker": "Unknown",
+  "en": "And without the right protection, decompiling is easy for malicious actors looking to steal your IP or tamper with your software.",
+  "zh": "如果没有正确的保护，对于想要窃取你的知识产权或篡改你软件的恶意行为者来说，反编译是很容易的。"
+ },
+ {
+  "seg": 187,
+  "start": 1097.744,
+  "end": 1099.085,
+  "speaker": "Unknown",
+  "en": "That's where GuardSquare comes in.",
+  "zh": "这就是 GuardSquare 的用武之地。"
+ },
+ {
+  "seg": 188,
+  "start": 1099.485,
+  "end": 1106.45,
+  "speaker": "Unknown",
+  "en": "GuardSquare provides the highest level of mobile app security for Android and iOS applications and SDKs.",
+  "zh": "GuardSquare 为 Android 和 iOS 应用及 SDK 提供最高级别的移动应用安全。"
+ },
+ {
+  "seg": 189,
+  "start": 1106.931,
+  "end": 1111.094,
+  "speaker": "Unknown",
+  "en": "Their advanced tools integrate seamlessly into your CICD pipeline.",
+  "zh": "他们的先进工具可以无缝集成到你的 CICD 流水线中。"
+ },
+ {
+  "seg": 190,
+  "start": 1111.454,
+  "end": 1127.543,
+  "speaker": "Unknown",
+  "en": "We're talking polymorphic multi-layered code hardening techniques and automated runtime application self-protection paired with mobile application security testing and real-time threat monitoring to deliver the highest level of mobile app security without compromise.",
+  "zh": "我们说的是多态多层代码加固技术和自动化运行时应用自我保护，配合移动应用安全测试和实时威胁监控，毫不妥协地提供最高级别的移动应用安全。"
+ },
+ {
+  "seg": 191,
+  "start": 1127.963,
+  "end": 1129.544,
+  "speaker": "Unknown",
+  "en": "Don't leave your hard work exposed.",
+  "zh": "不要让你辛苦的工作暴露在外。"
+ },
+ {
+  "seg": 192,
+  "start": 1129.964,
+  "end": 1132.225,
+  "speaker": "Unknown",
+  "en": "Secure your mobile applications today.",
+  "zh": "今天就为你的移动应用加固。"
+ },
+ {
+  "seg": 193,
+  "start": 1132.586,
+  "end": 1134.967,
+  "speaker": "Unknown",
+  "en": "Go to guardsquare.com to learn more.",
+  "zh": "访问 guardsquare.com了解更多。"
+ },
+ {
+  "seg": 194,
+  "start": 1136.47,
+  "end": 1142.353,
+  "speaker": "Unknown",
+  "en": "If you're running Postgres in production, you've probably felt the moment analytical queries start fighting your transactional workload.",
+  "zh": "如果你在生产环境中运行 Postgres，你可能已经体会到分析查询开始与你的事务性工作负载争抢的那一刻。"
+ },
+ {
+  "seg": 195,
+  "start": 1142.593,
+  "end": 1146.515,
+  "speaker": "Unknown",
+  "en": "Most teams end up adding a second database and all the pipeline complexity that comes with it.",
+  "zh": "大多数团队最终会添加第二个数据库，以及随之而来的所有流水线复杂性。"
+ },
+ {
+  "seg": 196,
+  "start": 1146.735,
+  "end": 1149.817,
+  "speaker": "Unknown",
+  "en": "Tiger Data, creators of TimescaleDB, takes a different approach.",
+  "zh": "Tiger Data,TimescaleDB 的创造者，采取了不同的方法。"
+ },
+ {
+  "seg": 197,
+  "start": 1150.157,
+  "end": 1155.96,
+  "speaker": "Unknown",
+  "en": "We extend Postgres with hybrid row and columnar storage so one table handles both writes and analytical scans.",
+  "zh": "我们用混合行存储和列存储扩展了 Postgres，所以一张表可以同时处理写入和分析扫描。"
+ },
+ {
+  "seg": 198,
+  "start": 1156.26,
+  "end": 1158.582,
+  "speaker": "Unknown",
+  "en": "Native compression cuts storage costs up to 95%.",
+  "zh": "原生压缩最多可削减 95% 的存储成本。"
+ },
+ {
+  "seg": 199,
+  "start": 1158.742,
+  "end": 1162.163,
+  "speaker": "Unknown",
+  "en": "Continuous aggregates keep dashboards live without bash jobs.",
+  "zh": "持续聚合让仪表盘保持实时，无需 bash 作业。"
+ },
+ {
+  "seg": 200,
+  "start": 1162.664,
+  "end": 1165.005,
+  "speaker": "Unknown",
+  "en": "And it scales to petabytes without you re-architecting.",
+  "zh": "而且它可以在你无需重新架构的情况下扩展到 PB 级。"
+ },
+ {
+  "seg": 201,
+  "start": 1165.265,
+  "end": 1170.97,
+  "speaker": "Unknown",
+  "en": "Companies like Cloudflare, Octave Energy, Schneider, Axpo, and FloCo run production workloads on Tiger Data today.",
+  "zh": "像 Cloudflare、Octave Energy、Schneider、Axpo 和 FloCo 这样的公司如今在 Tiger Data 上运行生产工作负载。"
+ },
+ {
+  "seg": 202,
+  "start": 1171.27,
+  "end": 1174.353,
+  "speaker": "Unknown",
+  "en": "No stale data, no second system to operate, just Postgres.",
+  "zh": "没有过期数据，不需要运维第二套系统，只有 Postgres。"
+ },
+ {
+  "seg": 203,
+  "start": 1174.553,
+  "end": 1176.855,
+  "speaker": "Unknown",
+  "en": "Managed for you, ready for the workload you're building toward.",
+  "zh": "为你托管，为你正在构建的工作负载做好准备。"
+ },
+ {
+  "seg": 204,
+  "start": 1177.115,
+  "end": 1178.737,
+  "speaker": "Unknown",
+  "en": "Try it free at tigerdata.com.",
+  "zh": "在 tigerdata.com 免费试用。"
+ },
+ {
+  "seg": 205,
+  "start": 1180.137,
+  "end": 1183.581,
+  "speaker": "Unknown",
+  "en": "This episode of Software Engineering Daily is brought to you by WarpBuild.",
+  "zh": "本期 Software Engineering Daily 由 WarpBuild 赞助。"
+ },
+ {
+  "seg": 206,
+  "start": 1183.961,
+  "end": 1188.086,
+  "speaker": "Unknown",
+  "en": "AI is writing more code than ever, which means GitHub Actions is running more than ever.",
+  "zh": "AI 正在编写比以往更多的代码，这意味着 GitHub Actions 的运行量也比以往更多。"
+ },
+ {
+  "seg": 207,
+  "start": 1188.266,
+  "end": 1191.95,
+  "speaker": "Unknown",
+  "en": "Your GitHub Actions bill is now a function of how much AI code you generate.",
+  "zh": "你的 GitHub Actions 账单现在是你生成多少 AI 代码的函数。"
+ },
+ {
+  "seg": 208,
+  "start": 1192.17,
+  "end": 1193.472,
+  "speaker": "Unknown",
+  "en": "And every engineer knows the feeling.",
+  "zh": "每个工程师都知道那种感觉。"
+ },
+ {
+  "seg": 209,
+  "start": 1193.632,
+  "end": 1195.934,
+  "speaker": "Unknown",
+  "en": "You push a commit, and then you wait.",
+  "zh": "你推送了一个 commit，然后就是等待。"
+ },
+ {
+  "seg": 210,
+  "start": 1196.455,
+  "end": 1199.418,
+  "speaker": "Unknown",
+  "en": "WarpBuild makes GitHub Actions twice as fast at half the cost.",
+  "zh": "WarpBuild 让 GitHub Actions 的速度快一倍，成本减半。"
+ },
+ {
+  "seg": 211,
+  "start": 1199.478,
+  "end": 1211.952,
+  "speaker": "Unknown",
+  "en": "with a one-line change to your workflow, Linux, macOS, and Windows Runners, in Warp Builds Cloud or your own, enterprise-ready, SOC 2 Type 2-attested, and trusted by teams like Sky from Comcast, Bitcoin, and BraintrustAI.",
+  "zh": "只需对 workflow 做一行改动，支持 Linux、macOS 和 Windows Runners，可用 Warp Builds Cloud 或你自己的，企业级就绪，通过 SOC 2 Type 2 认证，并受到来自 Comcast 的 Sky、Bitcoin 和 BraintrustAI 等团队的信赖。"
+ },
+ {
+  "seg": 212,
+  "start": 1212.173,
+  "end": 1215.296,
+  "speaker": "Unknown",
+  "en": "Get started with $50 in free credits at warpbuild.com.",
+  "zh": "在 warpbuild.com 使用 50 美元免费额度开始使用。"
+ },
+ {
+  "seg": 213,
+  "start": 1217.78,
+  "end": 1223.443,
+  "speaker": "Unknown",
+  "en": "And when you're designing one of these context datasets, how is it defined, right?",
+  "zh": "那么当你在设计这些上下文数据集中的一个时，它是如何定义的，对吧？"
+ },
+ {
+  "seg": 214,
+  "start": 1223.463,
+  "end": 1225.023,
+  "speaker": "Unknown",
+  "en": "Like, do you have a spec?",
+  "zh": "比如，你有规格说明吗？"
+ },
+ {
+  "seg": 215,
+  "start": 1225.043,
+  "end": 1226.444,
+  "speaker": "Unknown",
+  "en": "Do you have a pipeline?",
+  "zh": "你有 pipeline 吗？"
+ },
+ {
+  "seg": 216,
+  "start": 1226.504,
+  "end": 1229.765,
+  "speaker": "Unknown",
+  "en": "Like what goes into like that materialization process?",
+  "zh": "比如什么东西会进入那个物化(materialization)过程？"
+ },
+ {
+  "seg": 217,
+  "start": 1230.226,
+  "end": 1231.726,
+  "speaker": "Unknown",
+  "en": "I think there are two different modes.",
+  "zh": "我认为有两种不同的模式。"
+ },
+ {
+  "seg": 218,
+  "start": 1231.906,
+  "end": 1235.888,
+  "speaker": "Unknown",
+  "en": "Either I can create a general purpose, a context.",
+  "zh": "要么我可以创建一个通用的、一个上下文。"
+ },
+ {
+  "seg": 219,
+  "start": 1236.488,
+  "end": 1244.512,
+  "speaker": "Unknown",
+  "en": "So what we do for that, we analyze the dataset, we're trying to extract and identify the key entities.",
+  "zh": "为此我们要做的，我们分析数据集，尝试提取并识别关键实体。"
+ },
+ {
+  "seg": 220,
+  "start": 1244.632,
+  "end": 1247.033,
+  "speaker": "Unknown",
+  "en": "And then for example, this would be what we kind of like",
+  "zh": "然后举例来说，这就是我们大概喜欢的那种"
+ },
+ {
+  "seg": 221,
+  "start": 1247.566,
+  "end": 1252.253,
+  "speaker": "Unknown",
+  "en": "Create like a more structured view on that with a fixed schema we can also check.",
+  "zh": "创建一个更结构化的视图，带有固定 schema，我们也可以对其进行检查。"
+ },
+ {
+  "seg": 222,
+  "start": 1252.693,
+  "end": 1257.24,
+  "speaker": "Unknown",
+  "en": "So that's kind of like a general where we try to identify general terms.",
+  "zh": "所以那大概是通用的模式，我们尝试识别通用术语。"
+ },
+ {
+  "seg": 223,
+  "start": 1257.921,
+  "end": 1262.708,
+  "speaker": "Unknown",
+  "en": "The second aspect is if we actually know in which",
+  "zh": "第二个方面是，如果我们实际上知道问题可能出现在哪些"
+ },
+ {
+  "seg": 224,
+  "start": 1263.36,
+  "end": 1264.821,
+  "speaker": "Unknown",
+  "en": "Areas questions might come in.",
+  "zh": "领域。"
+ },
+ {
+  "seg": 225,
+  "start": 1264.901,
+  "end": 1272.868,
+  "speaker": "Unknown",
+  "en": "So if we either get emails or at least questions upfront, which might be answered, this allows the curation staff to be a bit more focused, right?",
+  "zh": "所以如果我们预先收到邮件，或至少提前收到可能需要回答的问题，这就能让策展工作更聚焦一些，对吧？"
+ },
+ {
+  "seg": 226,
+  "start": 1272.908,
+  "end": 1278.273,
+  "speaker": "Unknown",
+  "en": "So if I know I have to answer these questions, I can't ignore things which are a bit outside.",
+  "zh": "所以如果我知道我必须回答这些问题，我就不能忽略那些稍微超出范围的东西。"
+ },
+ {
+  "seg": 227,
+  "start": 1278.773,
+  "end": 1280.675,
+  "speaker": "Unknown",
+  "en": "And I just, I basically have a direction.",
+  "zh": "而且我基本上就有一个方向了。"
+ },
+ {
+  "seg": 228,
+  "start": 1281.195,
+  "end": 1288.682,
+  "speaker": "Unknown",
+  "en": "And then it's basically, I always imagine there's someone sitting there and curating documents, kind of like with",
+  "zh": "然后基本上，我总是想象有人坐在那里策展文档，有点像"
+ },
+ {
+  "seg": 229,
+  "start": 1289.26,
+  "end": 1298.922,
+  "speaker": "Unknown",
+  "en": "In the old days where you underline the important concepts or mark them in a different color, and then you actually bring them up and store them in another format.",
+  "zh": "过去那种，你把重要的概念划线或用不同颜色标记出来，然后你真正把它们提取出来，以另一种格式存储。"
+ },
+ {
+  "seg": 230,
+  "start": 1299.322,
+  "end": 1306.624,
+  "speaker": "Unknown",
+  "en": "So it's kind of, it's that step nowadays by an agent, obviously, where we go through the set of documents.",
+  "zh": "所以这如今基本上是由一个智能体完成的这一步，显然，我们会遍历那组文档。"
+ },
+ {
+  "seg": 231,
+  "start": 1307.124,
+  "end": 1311.265,
+  "speaker": "Unknown",
+  "en": "In step one, we identify the format we want to create.",
+  "zh": "在第一步，我们识别我们想要创建的格式。"
+ },
+ {
+  "seg": 232,
+  "start": 1311.445,
+  "end": 1315.566,
+  "speaker": "Unknown",
+  "en": "So both the unstructured plus structured aspects of it.",
+  "zh": "也就是它的非结构化加结构化两个方面。"
+ },
+ {
+  "seg": 233,
+  "start": 1316.226,
+  "end": 1318.787,
+  "speaker": "Unknown",
+  "en": "And then we basically compile",
+  "zh": "然后我们基本上进行编译"
+ },
+ {
+  "seg": 234,
+  "start": 1319.745,
+  "end": 1324.292,
+  "speaker": "Unknown",
+  "en": "We actually versioned this step of how we want to curate it.",
+  "zh": "我们实际上对我们想要如何策展的这一步进行了版本化。"
+ },
+ {
+  "seg": 235,
+  "start": 1324.312,
+  "end": 1329.219,
+  "speaker": "Unknown",
+  "en": "The curate step, in the early days, it was an actual Python program.",
+  "zh": "策展这一步，在早期，是一个真正的 Python 程序。"
+ },
+ {
+  "seg": 236,
+  "start": 1329.847,
+  "end": 1346.876,
+  "speaker": "Unknown",
+  "en": "Imagine that just being generated, but having a version of that, it's actually another very powerful tool because the curation artifact by itself allows you to do that iteratively if the document, if like your databases evolves over time, right?",
+  "zh": "想象一下那只是被生成出来的，但拥有它的一个版本，实际上是另一个非常强大的工具，因为策展产物本身允许你迭代地进行，如果你的文档，比如你的数据库随时间演进，对吧？"
+ },
+ {
+  "seg": 237,
+  "start": 1347.156,
+  "end": 1352.879,
+  "speaker": "Unknown",
+  "en": "I think so far, we mostly talked about static datasets, but in reality, most of the datasets will be",
+  "zh": "我认为到目前为止，我们主要谈论的是静态数据集，但实际上，大多数数据集都会在"
+ },
+ {
+  "seg": 238,
+  "start": 1353.299,
+  "end": 1375.809,
+  "speaker": "Unknown",
+  "en": "dynamic on one scale or another of time and so I think by just having this two-step process of identifying how do we want to curate it and then actually apply the curation step that allows us to get from a raw data set to a curation artifact to then the actual curated context.",
+  "zh": "时间上的某种尺度上是动态的，所以我认为，仅仅通过这种两步流程——先确定我们想要如何策展，然后实际应用策展步骤——就能让我们从原始数据集到策展产物，再到实际策展后的上下文。"
+ },
+ {
+  "seg": 239,
+  "start": 1376.443,
+  "end": 1376.663,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 240,
+  "start": 1376.903,
+  "end": 1384.15,
+  "speaker": "Unknown",
+  "en": "Well, and it's interesting because we were sort of talking about this in terms of the different ways that agentic pieces play in, right?",
+  "zh": "嗯，这很有意思，因为我们某种程度上一直在用智能体部分发挥作用的种种不同方式来谈论这个，对吧？"
+ },
+ {
+  "seg": 241,
+  "start": 1384.17,
+  "end": 1388.314,
+  "speaker": "Unknown",
+  "en": "You just highlighted wanting to version the program that is doing the curation piece.",
+  "zh": "你刚刚强调了想要对执行策展部分的那个程序进行版本化。"
+ },
+ {
+  "seg": 242,
+  "start": 1388.815,
+  "end": 1400.006,
+  "speaker": "Unknown",
+  "en": "We're sort of moving to a world in which like you can write code is a primitive that is available and code becomes like data where we version it and it's just like kind of going through this.",
+  "zh": "我们某种程度上正在迈向这样一个世界：能够编写代码是一种可用的原语，而代码变得像数据一样，我们对它进行版本化，就这么一直推进下去。"
+ },
+ {
+  "seg": 243,
+  "start": 1400.526,
+  "end": 1403.149,
+  "speaker": "Unknown",
+  "en": "I mean, it was to a degree before, right?",
+  "zh": "我的意思是，之前在某种程度上也是如此，对吧？ [[214-举例说明]] 如果你甚至有过 ELT pipeline，或后来的 ETL pipeline，或只是一个 spark 作业，对吧？"
+ },
+ {
+  "seg": 244,
+  "start": 1403.189,
+  "end": 1409.396,
+  "speaker": "Unknown",
+  "en": "If you had like even ELT pipelines or then ETL pipelines, or just a spark job, right?",
+  "zh": "如果你有哪怕一些 ELT 管道，或者 ETL 管道，或者只是一个 Spark 作业，对吧？"
+ },
+ {
+  "seg": 245,
+  "start": 1409.496,
+  "end": 1412.219,
+  "speaker": "Unknown",
+  "en": "Even that was code, you would actually version.",
+  "zh": "即便是那也是代码，你实际上也会对它做版本化。"
+ },
+ {
+  "seg": 246,
+  "start": 1412.36,
+  "end": 1415.143,
+  "speaker": "Unknown",
+  "en": "And that was another kind of curation step.",
+  "zh": "而那也是另一种策展步骤。"
+ },
+ {
+  "seg": 247,
+  "start": 1415.503,
+  "end": 1417.365,
+  "speaker": "Unknown",
+  "en": "So I think it has existed before.",
+  "zh": "所以我认为它在之前就已存在。"
+ },
+ {
+  "seg": 248,
+  "start": 1417.385,
+  "end": 1421.11,
+  "speaker": "Unknown",
+  "en": "It just was someone either writing the code or",
+  "zh": "只不过当时是某个人在编写代码，或者"
+ },
+ {
+  "seg": 249,
+  "start": 1421.823,
+  "end": 1426.565,
+  "speaker": "Unknown",
+  "en": "DBT generating that code or some kind of function generating it.",
+  "zh": "DBT 生成那段代码，或某种函数在生成它。"
+ },
+ {
+  "seg": 250,
+  "start": 1426.585,
+  "end": 1432.948,
+  "speaker": "Unknown",
+  "en": "And now it actually moves to more probabilistic tools, more agents generating it.",
+  "zh": "而现在它实际上转向了更多概率性的工具，更多的智能体来生成它。"
+ },
+ {
+  "seg": 251,
+  "start": 1433.428,
+  "end": 1440.351,
+  "speaker": "Unknown",
+  "en": "And I think this is just why I think that versioning step becomes even more important because it might vary.",
+  "zh": "而且我认为这就是为什么我觉得版本管理这一步变得更加重要，因为它可能会有变化。"
+ },
+ {
+  "seg": 252,
+  "start": 1440.411,
+  "end": 1443.873,
+  "speaker": "Unknown",
+  "en": "And also having access to the old versions, it's fairly...",
+  "zh": "同时能够访问旧版本，这是相当……"
+ },
+ {
+  "seg": 253,
+  "start": 1444.483,
+  "end": 1447.167,
+  "speaker": "Unknown",
+  "en": "Fairly helpful for the agent to generate those tools.",
+  "zh": "相当有助于智能体生成那些工具。"
+ },
+ {
+  "seg": 254,
+  "start": 1447.688,
+  "end": 1454.097,
+  "speaker": "Unknown",
+  "en": "Ideally, even generate, if it makes sense, kind of like eval sets to be used later on for training.",
+  "zh": "理想情况下，甚至可以生成——如果有意义的话——某种类似评测集的东西，供以后用于训练。"
+ },
+ {
+  "seg": 255,
+  "start": 1454.418,
+  "end": 1459.165,
+  "speaker": "Unknown",
+  "en": "So you anticipated where my question was going to go, which is like around quality, right?",
+  "zh": "所以你预判到了我的问题要往哪走，也就是关于质量的问题，对吧？"
+ },
+ {
+  "seg": 256,
+  "start": 1459.465,
+  "end": 1464.487,
+  "speaker": "Unknown",
+  "en": "How do you judge and iteratively improve quality of these curated artifacts?",
+  "zh": "你如何评判并迭代地改进这些经过整理的产物的质量？"
+ },
+ {
+  "seg": 257,
+  "start": 1464.647,
+  "end": 1469.328,
+  "speaker": "Unknown",
+  "en": "And I presume the curation process, as we've described, some of it's deterministic, right?",
+  "zh": "我猜这个整理过程，就像我们描述的那样，其中一部分是确定性的，对吧？"
+ },
+ {
+  "seg": 258,
+  "start": 1469.348,
+  "end": 1471.009,
+  "speaker": "Unknown",
+  "en": "You're writing code that's doing a set of things.",
+  "zh": "你在编写代码去做一整套事情。"
+ },
+ {
+  "seg": 259,
+  "start": 1471.049,
+  "end": 1472.409,
+  "speaker": "Unknown",
+  "en": "Some of it's non-deterministic.",
+  "zh": "其中一部分是非确定性的。"
+ },
+ {
+  "seg": 260,
+  "start": 1472.469,
+  "end": 1475.79,
+  "speaker": "Unknown",
+  "en": "It's got an LLM extracting or doing the highlighting that you mentioned.",
+  "zh": "它有一个 LLM 在做提取，或者做你提到的高亮标注。"
+ },
+ {
+  "seg": 261,
+  "start": 1475.85,
+  "end": 1478.351,
+  "speaker": "Unknown",
+  "en": "So how do you get quality and iterate on quality?",
+  "zh": "那么你如何获得质量并迭代改进质量？"
+ },
+ {
+  "seg": 262,
+  "start": 1478.945,
+  "end": 1485.511,
+  "speaker": "Unknown",
+  "en": "First of all, even the code generation, right, the curation generation is, I think in most days right now, it's also being generated.",
+  "zh": "首先，即使是代码生成，对吧，整理生成这一步，我认为现在大多数时候，它本身也是被生成的。"
+ },
+ {
+  "seg": 263,
+  "start": 1485.531,
+  "end": 1488.454,
+  "speaker": "Unknown",
+  "en": "So it's not someone writing code anymore in most cases.",
+  "zh": "所以在大多数情况下，已经不再是由人来写代码了。"
+ },
+ {
+  "seg": 264,
+  "start": 1488.854,
+  "end": 1490.396,
+  "speaker": "Unknown",
+  "en": "Ideally, I have a spec.",
+  "zh": "理想情况下，我有一份规格说明。"
+ },
+ {
+  "seg": 265,
+  "start": 1490.836,
+  "end": 1492.878,
+  "speaker": "Unknown",
+  "en": "I have a spec from where the code is generated.",
+  "zh": "我有一份规格说明，代码是从它生成的。"
+ },
+ {
+  "seg": 266,
+  "start": 1492.898,
+  "end": 1495.02,
+  "speaker": "Unknown",
+  "en": "I think that's kind of the ideal standard.",
+  "zh": "我觉得这大概就是理想的标准。"
+ },
+ {
+  "seg": 267,
+  "start": 1495.06,
+  "end": 1497.182,
+  "speaker": "Unknown",
+  "en": "And this is also how we kind of see it.",
+  "zh": "而且这也是我们看待它的方式。"
+ },
+ {
+  "seg": 268,
+  "start": 1497.222,
+  "end": 1499.825,
+  "speaker": "Unknown",
+  "en": "You have a well-defined specification.",
+  "zh": "你有一份定义良好的规格说明。"
+ },
+ {
+  "seg": 269,
+  "start": 1499.865,
+  "end": 1503.408,
+  "speaker": "Unknown",
+  "en": "And then from there, you can generate the code actually doing it.",
+  "zh": "然后从那里，你可以生成真正执行它的代码。"
+ },
+ {
+  "seg": 270,
+  "start": 1503.994,
+  "end": 1511.318,
+  "speaker": "Unknown",
+  "en": "In terms of quality, I think, as mentioned, there are two use cases we are mostly seeing right now.",
+  "zh": "关于质量，我想，正如提到的，目前我们主要看到两个使用场景。"
+ },
+ {
+  "seg": 271,
+  "start": 1511.418,
+  "end": 1513.039,
+  "speaker": "Unknown",
+  "en": "One is kind of like this general thing.",
+  "zh": "一个是类似这种通用性的场景。"
+ },
+ {
+  "seg": 272,
+  "start": 1513.539,
+  "end": 1516.02,
+  "speaker": "Unknown",
+  "en": "I want to be able to ask any question out there.",
+  "zh": "我希望能够提问任何外面的问题。"
+ },
+ {
+  "seg": 273,
+  "start": 1516.621,
+  "end": 1518.562,
+  "speaker": "Unknown",
+  "en": "Often, it's a bit tough.",
+  "zh": "通常，这有点难。"
+ },
+ {
+  "seg": 274,
+  "start": 1518.722,
+  "end": 1520.903,
+  "speaker": "Unknown",
+  "en": "We try to train the system.",
+  "zh": "我们尝试训练这个系统。"
+ },
+ {
+  "seg": 275,
+  "start": 1520.983,
+  "end": 1524.665,
+  "speaker": "Unknown",
+  "en": "Wherever possible, we try to find some ground truth in there.",
+  "zh": "在可能的情况下，我们尝试在其中找到一些真实基准（ground truth）。"
+ },
+ {
+  "seg": 276,
+  "start": 1525.125,
+  "end": 1527.086,
+  "speaker": "Unknown",
+  "en": "And then, in many cases,",
+  "zh": "然后在很多情况下，"
+ },
+ {
+  "seg": 277,
+  "start": 1527.576,
+  "end": 1533.6,
+  "speaker": "Unknown",
+  "en": "where users come in with their datasets that actually have a few questions they want to answer.",
+  "zh": "用户带着他们的数据集进来，这些数据集实际上有几个他们想回答的问题。"
+ },
+ {
+  "seg": 278,
+  "start": 1533.66,
+  "end": 1543.125,
+  "speaker": "Unknown",
+  "en": "And just by having like a few short examples, we can actually generate a larger dataset for quality, maintenance, and iteration.",
+  "zh": "只要拥有少量简短的示例，我们实际上就能生成一个更大的数据集，用于质量的维护和迭代。"
+ },
+ {
+  "seg": 279,
+  "start": 1543.546,
+  "end": 1547.488,
+  "speaker": "Unknown",
+  "en": "And I think once you have that, it's basically an iteration step.",
+  "zh": "而且我觉得一旦你有了那个，这基本上就是一个迭代步骤。"
+ },
+ {
+  "seg": 280,
+  "start": 1547.868,
+  "end": 1552.811,
+  "speaker": "Unknown",
+  "en": "Keep iterating, keep iterating, improving it, and move from there.",
+  "zh": "不断迭代、不断迭代，持续改进它，并从这里继续推进。"
+ },
+ {
+  "seg": 281,
+  "start": 1552.951,
+  "end": 1553.652,
+  "speaker": "Unknown",
+  "en": "Make sure that",
+  "zh": "确保这一点——"
+ },
+ {
+  "seg": 282,
+  "start": 1554.352,
+  "end": 1557.614,
+  "speaker": "Unknown",
+  "en": "Even with an updated data set, this is still true, for example.",
+  "zh": "比如说，即使数据集更新了，这一点仍然成立。"
+ },
+ {
+  "seg": 283,
+  "start": 1558.354,
+  "end": 1565.998,
+  "speaker": "Unknown",
+  "en": "Now, when we talk about that check for quality, right, like we have these examples, is that at the level of the generated context?",
+  "zh": "那么，当我们谈到那个质量检查时，对吧，比如我们有这些示例，这个检查是在生成的上下文这一层面进行的？"
+ },
+ {
+  "seg": 284,
+  "start": 1566.338,
+  "end": 1570.08,
+  "speaker": "Unknown",
+  "en": "Or is it that at the level of the agent consuming it and using it to do the right thing?",
+  "zh": "还是在消费它并用它来做正确事情的智能体这一层面进行的？"
+ },
+ {
+  "seg": 285,
+  "start": 1570.772,
+  "end": 1573.453,
+  "speaker": "Unknown",
+  "en": "We see it as part of the system.",
+  "zh": "我们把它视为系统的一部分。"
+ },
+ {
+  "seg": 286,
+  "start": 1573.473,
+  "end": 1578.275,
+  "speaker": "Unknown",
+  "en": "So kind of stored alongside the context, because you might have like very different agents, right?",
+  "zh": "所以某种意义上是和上下文一起存储的，因为你可能会有非常不同的智能体，对吧？"
+ },
+ {
+  "seg": 287,
+  "start": 1578.295,
+  "end": 1583.077,
+  "speaker": "Unknown",
+  "en": "You might have like different consuming agents on the outside, assuming it from an interface.",
+  "zh": "你可能在外部有不同的消费智能体，从某个接口来假设它。"
+ },
+ {
+  "seg": 288,
+  "start": 1583.777,
+  "end": 1590.119,
+  "speaker": "Unknown",
+  "en": "If you see that again, and just like a larger context, you have your company-wide context.",
+  "zh": "如果你再换个角度看，就像一个更大的上下文，你有你全公司范围的上下文。"
+ },
+ {
+  "seg": 289,
+  "start": 1590.179,
+  "end": 1594.061,
+  "speaker": "Unknown",
+  "en": "There might be a finance agent accessing it.",
+  "zh": "可能有一个财务智能体在访问它。"
+ },
+ {
+  "seg": 290,
+  "start": 1594.281,
+  "end": 1597.042,
+  "speaker": "Unknown",
+  "en": "There might be a marketing agent accessing it.",
+  "zh": "可能有一个营销智能体在访问它。"
+ },
+ {
+  "seg": 291,
+  "start": 1597.768,
+  "end": 1603.057,
+  "speaker": "Unknown",
+  "en": "I think this should be part of the general like inside system and stored alongside.",
+  "zh": "我认为这应该是整个系统内部的一部分，和上下文一起存储。"
+ },
+ {
+  "seg": 292,
+  "start": 1603.498,
+  "end": 1610.609,
+  "speaker": "Unknown",
+  "en": "Whether it needs to be part of the context, that's a good question, but I think it needs to be at least like stored alongside the context.",
+  "zh": "至于它是否需要成为上下文的一部分，这是个好问题，但我觉得它至少需要和上下文存储在一起。"
+ },
+ {
+  "seg": 293,
+  "start": 1611.296,
+  "end": 1611.957,
+  "speaker": "Unknown",
+  "en": "That makes sense.",
+  "zh": "这说得通。"
+ },
+ {
+  "seg": 294,
+  "start": 1612.677,
+  "end": 1616.14,
+  "speaker": "Unknown",
+  "en": "You highlighted the question of data sets changing.",
+  "zh": "你提到了数据集会变化的问题。"
+ },
+ {
+  "seg": 295,
+  "start": 1616.16,
+  "end": 1629.09,
+  "speaker": "Unknown",
+  "en": "I think there's some interesting things to navigate in terms of dealing with stuff like conflicts between different sources or drifts between this particular data sources out of date or things like that.",
+  "zh": "我认为在处理诸如不同来源之间的冲突，或者这个特定数据源已经过时之类的漂移问题时，有一些值得琢磨的有趣点。"
+ },
+ {
+  "seg": 296,
+  "start": 1629.11,
+  "end": 1633.514,
+  "speaker": "Unknown",
+  "en": "So how do you think about finding truth with imperfect data and keeping it up to date?",
+  "zh": "那么你如何看待在不完美的数据中寻找真相并保持其最新？"
+ },
+ {
+  "seg": 297,
+  "start": 1634.473,
+  "end": 1635.574,
+  "speaker": "Unknown",
+  "en": "Very, very good question.",
+  "zh": "非常非常好的问题。"
+ },
+ {
+  "seg": 298,
+  "start": 1636.115,
+  "end": 1644.842,
+  "speaker": "Unknown",
+  "en": "I think to start out, I think this is something you can encode in that curation process, right?",
+  "zh": "我想首先说，我认为这是你可以在那个整理过程中编码进去的东西，对吧？"
+ },
+ {
+  "seg": 299,
+  "start": 1644.862,
+  "end": 1660.975,
+  "speaker": "Unknown",
+  "en": "So for example, when we talked about this first use case where we're trying to identify the entities, when we identify the entities, again, coming back into Knowledge Graph, in an ideal world, like how I would imagine that not exactly what we're, for example, doing right now,",
+  "zh": "比如说，当我们谈到第一个使用场景，即我们尝试识别实体时，当我们识别出这些实体，再次回到知识图谱，在一个理想的世界里——就像我设想的那样，虽然不完全是我们现在实际在做的方式——"
+ },
+ {
+  "seg": 300,
+  "start": 1661.335,
+  "end": 1664.717,
+  "speaker": "Unknown",
+  "en": "But I would imagine you can also generate constraints, right?",
+  "zh": "但我想你也可以生成约束，对吧？"
+ },
+ {
+  "seg": 301,
+  "start": 1665.137,
+  "end": 1671.701,
+  "speaker": "Unknown",
+  "en": "In knowledge graphs, especially RDF, you're even separating that kind of schema layer from the fact layer.",
+  "zh": "在知识图谱中，尤其是 RDF，你甚至会把那种模式层和事实层分开。"
+ },
+ {
+  "seg": 302,
+  "start": 1672.261,
+  "end": 1681.627,
+  "speaker": "Unknown",
+  "en": "In the first step, by generating the knowledge graph schema, by identifying the interesting entities, you can also generate the constraints around that.",
+  "zh": "第一步，通过生成知识图谱模式、识别出那些有趣的实体，你也可以围绕它生成约束。"
+ },
+ {
+  "seg": 303,
+  "start": 1682.207,
+  "end": 1689.768,
+  "speaker": "Unknown",
+  "en": "In the RDF world, I don't think we want to get into a discussion around like which representation is best, but there's like a long debate, shackles, et cetera.",
+  "zh": "在 RDF 世界里——我不觉得我们想陷入哪种表示法最好的讨论，但确实有一场长期的争论，Shacl 等等等。"
+ },
+ {
+  "seg": 304,
+  "start": 1690.148,
+  "end": 1697.75,
+  "speaker": "Unknown",
+  "en": "So you have a lot of options there to express constraints, but I would imagine this is probably that way.",
+  "zh": "所以在那里你有很多表达约束的选项，但我想这大概就是那个方向。"
+ },
+ {
+  "seg": 305,
+  "start": 1698.23,
+  "end": 1704.831,
+  "speaker": "Unknown",
+  "en": "Right now, I said, like, I think you started the easy part, you generate a schema, which is already a set of constraints, right?",
+  "zh": "现在，我说过，我觉得你已经开始做简单的部分了，你生成了模式，这本身就已是一组约束，对吧？"
+ },
+ {
+  "seg": 306,
+  "start": 1704.911,
+  "end": 1707.171,
+  "speaker": "Unknown",
+  "en": "You can put on then constraints on that.",
+  "zh": "然后你可以在上面再加约束。"
+ },
+ {
+  "seg": 307,
+  "start": 1707.291,
+  "end": 1710.172,
+  "speaker": "Unknown",
+  "en": "Hey, you always know that, I wanted to say,",
+  "zh": "嘿，你总是知道，我想说的是，"
+ },
+ {
+  "seg": 308,
+  "start": 1711.102,
+  "end": 1714.725,
+  "speaker": "Unknown",
+  "en": "Revenue needs to be greater or equal to zero.",
+  "zh": "收入必须大于等于零。"
+ },
+ {
+  "seg": 309,
+  "start": 1714.885,
+  "end": 1717.307,
+  "speaker": "Unknown",
+  "en": "I have to think about it from a business context.",
+  "zh": "这得从业务背景去想。"
+ },
+ {
+  "seg": 310,
+  "start": 1717.787,
+  "end": 1725.113,
+  "speaker": "Unknown",
+  "en": "But just to make an example, you can, for example, say certain numbers need to be strictly positive because otherwise they don't make sense.",
+  "zh": "但只是举个例子，你可以说某些数字必须是严格为正的，否则就没有意义。"
+ },
+ {
+  "seg": 311,
+  "start": 1725.653,
+  "end": 1728.556,
+  "speaker": "Unknown",
+  "en": "And you know that because you have identified that entity.",
+  "zh": "而你之所以知道这一点，是因为你已经识别出了那个实体。"
+ },
+ {
+  "seg": 312,
+  "start": 1728.616,
+  "end": 1733.76,
+  "speaker": "Unknown",
+  "en": "Number of attendees in a meeting, for example, cannot be negative to come up with a good example there.",
+  "zh": "比如一场会议的参会人数不能是负数，用这个来举个好例子。"
+ },
+ {
+  "seg": 313,
+  "start": 1734.515,
+  "end": 1738.456,
+  "speaker": "Unknown",
+  "en": "And others might be then related.",
+  "zh": "还有一些约束可能是相关的。"
+ },
+ {
+  "seg": 314,
+  "start": 1738.536,
+  "end": 1744.057,
+  "speaker": "Unknown",
+  "en": "And I think the more time you spend analyzing that dataset, and also the bigger it is, right?",
+  "zh": "而且我觉得你花在分析那个数据集上的时间越多，以及它越大，对吧？"
+ },
+ {
+  "seg": 315,
+  "start": 1744.497,
+  "end": 1748.158,
+  "speaker": "Unknown",
+  "en": "It might be something you actually discover over time when you get more and more data in.",
+  "zh": "这可能是随着越来越多的数据进来，你随着时间真正发现的东西。"
+ },
+ {
+  "seg": 316,
+  "start": 1748.578,
+  "end": 1750.419,
+  "speaker": "Unknown",
+  "en": "You discover new constraints.",
+  "zh": "你会发现新的约束。"
+ },
+ {
+  "seg": 317,
+  "start": 1750.899,
+  "end": 1760.441,
+  "speaker": "Unknown",
+  "en": "Again, there's a lot of work on knowledge graphs trying to identify these constraints and separate that schema layer and constraint layer",
+  "zh": "再说一次，知识图谱领域有大量工作在尝试识别这些约束，并把模式层和约束层"
+ },
+ {
+  "seg": 318,
+  "start": 1761.092,
+  "end": 1763.914,
+  "speaker": "Unknown",
+  "en": "from the actual effect layer in KnowledgeCraft.",
+  "zh": "与 KnowledgeCraft 中实际的事实层分开。"
+ },
+ {
+  "seg": 319,
+  "start": 1764.494,
+  "end": 1772.358,
+  "speaker": "Unknown",
+  "en": "So I would imagine this is probably a way where you can get that next step of always adding more boundary conditions.",
+  "zh": "所以我想这大概就是一种方式，让你能走得更远，不断加入更多的边界条件。"
+ },
+ {
+  "seg": 320,
+  "start": 1772.438,
+  "end": 1778.421,
+  "speaker": "Unknown",
+  "en": "And then if we're a conflicting data set, you discover them, you can actually call that out.",
+  "zh": "然后如果我们在数据集中有冲突，你发现了它们，你其实可以把它们指出来。"
+ },
+ {
+  "seg": 321,
+  "start": 1778.461,
+  "end": 1780.902,
+  "speaker": "Unknown",
+  "en": "And I think that's valuable information by itself.",
+  "zh": "而且我觉得这本身就是有价值的信息。"
+ },
+ {
+  "seg": 322,
+  "start": 1780.983,
+  "end": 1784.845,
+  "speaker": "Unknown",
+  "en": "If you can flag, hey, there's a conflict in the data set.",
+  "zh": "如果你能标记出，嘿，这个数据集里有冲突。"
+ },
+ {
+  "seg": 323,
+  "start": 1785.785,
+  "end": 1790.949,
+  "speaker": "Unknown",
+  "en": "Probably at the beginning, that will require human interjection.",
+  "zh": "一开始，这可能需要人工介入。"
+ },
+ {
+  "seg": 324,
+  "start": 1790.989,
+  "end": 1806.5,
+  "speaker": "Unknown",
+  "en": "But if you're learning that like, hey, this one dataset, it's lagging behind and that's why it's not reliable, you can actually start, for example, ignoring the last two days because you know that second dataset you're joining with is not reliable for the last two days.",
+  "zh": "但如果你从中学习到，比如，嘿，这个数据集有滞后，这就是它不可靠的原因，那么你实际上可以开始，比如，忽略最近两天，因为你知道你要与之联接的第二个数据集在最近两天是不可靠的。"
+ },
+ {
+  "seg": 325,
+  "start": 1807.081,
+  "end": 1812.505,
+  "speaker": "Unknown",
+  "en": "And then you only generate it like two days after if you have, for example, daily data ingestion.",
+  "zh": "然后你只在比如两天之后生成它，如果你有，比如，每日数据摄取的话。"
+ },
+ {
+  "seg": 326,
+  "start": 1813.388,
+  "end": 1819.593,
+  "speaker": "Unknown",
+  "en": "So I think this is where this curation step can then learn over time from kind of constraint violations.",
+  "zh": "所以我觉得这就是这个策展步骤可以随着时间从约束违规中学习的地方。"
+ },
+ {
+  "seg": 327,
+  "start": 1820.534,
+  "end": 1822.315,
+  "speaker": "Unknown",
+  "en": "And right now we're kind of like dreaming.",
+  "zh": "而现在我们有点像在畅想。"
+ },
+ {
+  "seg": 328,
+  "start": 1822.335,
+  "end": 1826.339,
+  "speaker": "Unknown",
+  "en": "So I don't, I'm not aware of like any system doing that as of right now, at least.",
+  "zh": "所以我目前至少不知道有任何系统在这么做。"
+ },
+ {
+  "seg": 329,
+  "start": 1827.119,
+  "end": 1831.143,
+  "speaker": "Unknown",
+  "en": "I'd love to dream a little bit more on this because this is what I've been thinking about as well.",
+  "zh": "我很想再多畅想一下这个，因为这也是我一直在思考的东西。"
+ },
+ {
+  "seg": 330,
+  "start": 1831.323,
+  "end": 1841.752,
+  "speaker": "Unknown",
+  "en": "And in particular, like in my day job, I do a lot of work with things that are like essentially information about people and relationships where there isn't necessarily a ground truth that's going to be correct.",
+  "zh": "特别是在我的本职工作中，我做的很多事情涉及关于人和关系的信息，那里不一定有一个会正确的 ground truth。"
+ },
+ {
+  "seg": 331,
+  "start": 1842.392,
+  "end": 1857.028,
+  "speaker": "Unknown",
+  "en": "And so one of the things I've been pondering is like can you create some sort of like Bayesian approach or confidence interval where you're trying to like including that in the metadata for each particular piece of context and then like looking for ways to up your confidence or maybe even asking the end user",
+  "zh": "所以我一直在琢磨的事情之一是，你能不能创建某种贝叶斯方法或置信区间，把它包含进每条特定上下文的元数据里，然后想办法提升你的置信度，或者甚至去问终端用户。"
+ },
+ {
+  "seg": 332,
+  "start": 1857.708,
+  "end": 1863.793,
+  "speaker": "Unknown",
+  "en": "I mean, if we stay in the knowledge graph field, right, you can just have edges with confidence, right?",
+  "zh": "我是说，如果我们留在知识图谱这个领域里，对吧，你完全可以让边带上置信度，对吧？"
+ },
+ {
+  "seg": 333,
+  "start": 1863.853,
+  "end": 1866.195,
+  "speaker": "Unknown",
+  "en": "So you can basically have an attribute on the edge.",
+  "zh": "所以你基本上可以在边上有一个属性。"
+ },
+ {
+  "seg": 334,
+  "start": 1867.136,
+  "end": 1879.626,
+  "speaker": "Unknown",
+  "en": "To take your example, right, I imagine you would build kind of like a network of people and then they have some relationships, know each other to start with, our following to take like a Twitter slash X example.",
+  "zh": "用你的例子来说，我想你会构建一种类似人的网络，然后他们有一些关系，一开始是互相认识，或者关注，拿 Twitter/X 的例子来说。"
+ },
+ {
+  "seg": 335,
+  "start": 1880.347,
+  "end": 1889.512,
+  "speaker": "Unknown",
+  "en": "I think there you probably would have a ground truth, but you can just add like an attribute on each edge saying like this is the confidence I have there.",
+  "zh": "我想在那里你可能会有 ground truth，但你可以直接在每条边上加一个属性，比如说这是我在那里的置信度。"
+ },
+ {
+  "seg": 336,
+  "start": 1890.032,
+  "end": 1892.653,
+  "speaker": "Unknown",
+  "en": "And again, this is something which might evolve over time, right?",
+  "zh": "而且再说一次，这是可能随时间演变的东西，对吧？"
+ },
+ {
+  "seg": 337,
+  "start": 1892.673,
+  "end": 1901.598,
+  "speaker": "Unknown",
+  "en": "If you're getting like new information, Bayesian, as you mentioned, you can update your beliefs about that edge being true or not true.",
+  "zh": "如果你得到了新信息，像你提到的贝叶斯那样，你可以更新你对那条边为真或非真的信念。"
+ },
+ {
+  "seg": 338,
+  "start": 1902.39,
+  "end": 1910.353,
+  "speaker": "Unknown",
+  "en": "So I think that's basically if you use a context, assets, knowledge graph, you can embed the probabilities as part of that.",
+  "zh": "所以我觉得基本上如果你使用上下文、资产、知识图谱，你可以把概率作为其中的一部分嵌入进去。"
+ },
+ {
+  "seg": 339,
+  "start": 1911.193,
+  "end": 1919.957,
+  "speaker": "Unknown",
+  "en": "I think that's probably the clean approach I would imagine at least like in quick as of now thoughts.",
+  "zh": "我觉得这大概是干净的做法，至少以我此刻快速的思路来看。"
+ },
+ {
+  "seg": 340,
+  "start": 1920.635,
+  "end": 1920.915,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 341,
+  "start": 1920.955,
+  "end": 1927.641,
+  "speaker": "Unknown",
+  "en": "Well, and it gets to this interesting question that we sort of alluded to earlier of like, how do you design this for effective agent use, right?",
+  "zh": "嗯，这就引出了我们之前大致提到过的那个有趣的问题：如何为智能体的有效使用来设计这个，对吧？"
+ },
+ {
+  "seg": 342,
+  "start": 1927.741,
+  "end": 1932.185,
+  "speaker": "Unknown",
+  "en": "Like what is going to make the agent most able to take advantage of this?",
+  "zh": "比如什么样的东西能让智能体最大程度地利用它？"
+ },
+ {
+  "seg": 343,
+  "start": 1932.225,
+  "end": 1935.928,
+  "speaker": "Unknown",
+  "en": "And it might be that you don't want to give it those shades of gray.",
+  "zh": "也可能你并不想给它那些灰色地带。"
+ },
+ {
+  "seg": 344,
+  "start": 1935.948,
+  "end": 1937.249,
+  "speaker": "Unknown",
+  "en": "You just want to like have a cutoff.",
+  "zh": "你只是想设一个 cutoff。"
+ },
+ {
+  "seg": 345,
+  "start": 1937.309,
+  "end": 1939.071,
+  "speaker": "Unknown",
+  "en": "If it's above this confidence, it's in.",
+  "zh": "如果高于这个置信度，就纳入。"
+ },
+ {
+  "seg": 346,
+  "start": 1939.111,
+  "end": 1940.372,
+  "speaker": "Unknown",
+  "en": "And if it's below this, it's out.",
+  "zh": "如果低于这个，就排除。"
+ },
+ {
+  "seg": 347,
+  "start": 1941.012,
+  "end": 1942.493,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 348,
+  "start": 1942.694,
+  "end": 1946.397,
+  "speaker": "Unknown",
+  "en": "And I think this is where agents are a bit different than",
+  "zh": "而且我觉得这就是智能体和"
+ },
+ {
+  "seg": 349,
+  "start": 1946.917,
+  "end": 1947.758,
+  "speaker": "Unknown",
+  "en": "humans, right?",
+  "zh": "人类有点不同的地方，对吧？"
+ },
+ {
+  "seg": 350,
+  "start": 1948.259,
+  "end": 1960.735,
+  "speaker": "Unknown",
+  "en": "If we look at how is data consumed, so also just from a general database systems perspective, we as humans, or even like dashboards, we're going to send over a SQL query or any query",
+  "zh": "如果我们看一下数据是如何被消费的，从一般数据库系统的角度来看，我们人类，或者甚至像仪表盘，我们会发送一个 SQL 查询或任何查询"
+ },
+ {
+  "seg": 351,
+  "start": 1961.196,
+  "end": 1965.979,
+  "speaker": "Unknown",
+  "en": "We expect like one result and then we're going to fly with this result and just go forward.",
+  "zh": "我们期望得到一个结果，然后我们拿着这个结果直接往前走。"
+ },
+ {
+  "seg": 352,
+  "start": 1966.339,
+  "end": 1973.323,
+  "speaker": "Unknown",
+  "en": "I think agents are both on the one hand empowered to use more because they can iterate, right?",
+  "zh": "我认为智能体一方面更有能力去更多地使用数据，因为它们可以迭代，对吧？"
+ },
+ {
+  "seg": 353,
+  "start": 1973.783,
+  "end": 1976.625,
+  "speaker": "Unknown",
+  "en": "So an agent, I might give that result back.",
+  "zh": "所以一个智能体，我可能会把那个结果返回。"
+ },
+ {
+  "seg": 354,
+  "start": 1977.185,
+  "end": 1981.087,
+  "speaker": "Unknown",
+  "en": "I'm only 5% confident that this is actually true.",
+  "zh": "我只有 5% 的信心认为这实际上是真的。"
+ },
+ {
+  "seg": 355,
+  "start": 1981.927,
+  "end": 1984.629,
+  "speaker": "Unknown",
+  "en": "And depending on which scenario I'm in,",
+  "zh": "而根据我所处的场景，"
+ },
+ {
+  "seg": 356,
+  "start": 1985.01,
+  "end": 1988.071,
+  "speaker": "Unknown",
+  "en": "This might still be valuable information for the agent.",
+  "zh": "这对智能体来说可能仍然是有价值的信息。"
+ },
+ {
+  "seg": 357,
+  "start": 1988.612,
+  "end": 1993.193,
+  "speaker": "Unknown",
+  "en": "And I think this is then where I think we can view that from two perspectives.",
+  "zh": "我认为这就是我们可以从两个视角来看待它的地方。"
+ },
+ {
+  "seg": 358,
+  "start": 1993.273,
+  "end": 1999.576,
+  "speaker": "Unknown",
+  "en": "I think, first of all, if we come from a governance perspective, and I think this is something we are seeing a lot with like Nexus as well.",
+  "zh": "我认为，首先，如果我们从治理的视角出发，我认为这也是我们在 Nexus 上经常看到的东西。"
+ },
+ {
+  "seg": 359,
+  "start": 2000.156,
+  "end": 2006.459,
+  "speaker": "Unknown",
+  "en": "I actually, I want like a constraint, like anything where I'm less than 50% certain, don't even give out to the agent.",
+  "zh": "实际上，我想要一个约束，比如任何我信心低于 50% 的东西，干脆不要给智能体。"
+ },
+ {
+  "seg": 360,
+  "start": 2007.285,
+  "end": 2012.826,
+  "speaker": "Unknown",
+  "en": "From a generalist perspective, if I trust the agent, I just want to give it as much information as possible.",
+  "zh": "从通用的视角出发，如果我信任这个智能体，我只想给它尽可能多的信息。"
+ },
+ {
+  "seg": 361,
+  "start": 2013.386,
+  "end": 2021.628,
+  "speaker": "Unknown",
+  "en": "Even this like, hey, I'm only 5% certain in that can be something useful for the agent to just decide like, what is the next step?",
+  "zh": "即使是这种“嘿，我只有 5% 的信心”，对智能体来说也可能是有用的，用来决定下一步是什么？"
+ },
+ {
+  "seg": 362,
+  "start": 2022.009,
+  "end": 2024.149,
+  "speaker": "Unknown",
+  "en": "What is my next planning step?",
+  "zh": "我的下一个规划步骤是什么？"
+ },
+ {
+  "seg": 363,
+  "start": 2024.209,
+  "end": 2036.252,
+  "speaker": "Unknown",
+  "en": "Hopefully, it's not going to use the information, but it can use that meta information to actually take a different decision for its next step going forward rather than just getting like, oh, no information available around that, right?",
+  "zh": "希望它不会使用那条信息，但它可以利用那个元信息来为接下来的步骤做出不同的决策，而不是只得到“哦，没有关于那个的可用信息”，对吧？"
+ },
+ {
+  "seg": 364,
+  "start": 2036.792,
+  "end": 2043.675,
+  "speaker": "Unknown",
+  "en": "So I think this comes down a little bit to the different use cases, whether you want to expose that information.",
+  "zh": "所以我认为这在一定程度上取决于不同的用例，取决于你是否想暴露那条信息。"
+ },
+ {
+  "seg": 365,
+  "start": 2044.155,
+  "end": 2052.458,
+  "speaker": "Unknown",
+  "en": "But I think with agents compared to human users, because they iterate so quickly and they can form like a new plan on a much",
+  "zh": "但我认为，与人类用户相比，智能体因为迭代得非常快，而且它们可以在一个低得多的"
+ },
+ {
+  "seg": 366,
+  "start": 2053.438,
+  "end": 2056.62,
+  "speaker": "Unknown",
+  "en": "I don't like the term cheaper, but just kind of like faster level, right?",
+  "zh": "我不喜欢“更便宜”这个词，但就是某种意义上更快的层面上形成新的计划，对吧？"
+ },
+ {
+  "seg": 367,
+  "start": 2056.66,
+  "end": 2061.622,
+  "speaker": "Unknown",
+  "en": "Because as a human, I start thinking about it and then I'm in like a second latency range.",
+  "zh": "因为作为人类，我开始思考，然后我处于秒级的延迟范围内。"
+ },
+ {
+  "seg": 368,
+  "start": 2062.082,
+  "end": 2076.529,
+  "speaker": "Unknown",
+  "en": "But from like an agent perspective, if I'm getting the outcome, oh, it's only 5% certain in that, I can then turn around my question and not ask for specific data, but I could ask like, what facts are you more certain than threshold, for example?",
+  "zh": "但从智能体的角度来看，如果我得到的结果是“哦，只有 5% 的信心”，我就可以调转我的问题，不问具体的数据，而是问，比如，哪些事实你的信心高于阈值？"
+ },
+ {
+  "seg": 369,
+  "start": 2076.869,
+  "end": 2079.911,
+  "speaker": "Unknown",
+  "en": "So I can actually change my approach worrying about data.",
+  "zh": "所以我实际上可以改变我处理数据的方法。"
+ },
+ {
+  "seg": 370,
+  "start": 2080.36,
+  "end": 2084.262,
+  "speaker": "Unknown",
+  "en": "That brings us to a question about how do we expose this to agents?",
+  "zh": "这就引出了一个问题：我们如何把这些暴露给智能体？"
+ },
+ {
+  "seg": 371,
+  "start": 2084.682,
+  "end": 2085.642,
+  "speaker": "Unknown",
+  "en": "And I'm kind of curious.",
+  "zh": "我有点好奇。"
+ },
+ {
+  "seg": 372,
+  "start": 2085.682,
+  "end": 2092.405,
+  "speaker": "Unknown",
+  "en": "I saw that with Nexus, you have your own little dynamic NoQL language or something along those domains.",
+  "zh": "我看到 Nexus 有你们自己的小动态 NoQL 语言，或者类似领域的东西。"
+ },
+ {
+  "seg": 373,
+  "start": 2092.825,
+  "end": 2101.208,
+  "speaker": "Unknown",
+  "en": "But yeah, I was thinking about to what extent is this a pre-query that's preloading some things in context if we know it versus this is just a tool exposed to the agent?",
+  "zh": "但是的，我在想，在多大程度上这是一个预查询、在我们已知的情况下把一些东西预加载进上下文，还是这只是一个暴露给智能体的工具？"
+ },
+ {
+  "seg": 374,
+  "start": 2101.288,
+  "end": 2105.99,
+  "speaker": "Unknown",
+  "en": "Or how do you think about the right ways to give agents access to this context?",
+  "zh": "或者你如何看待给智能体访问这种上下文的正确方式？"
+ },
+ {
+  "seg": 375,
+  "start": 2106.368,
+  "end": 2114.052,
+  "speaker": "Unknown",
+  "en": "So I think from an agent perspective, I need a combined answer of data plus metadata.",
+  "zh": "所以我认为，从智能体的角度来看，我需要一个数据加元数据的组合答案。"
+ },
+ {
+  "seg": 376,
+  "start": 2114.272,
+  "end": 2123.437,
+  "speaker": "Unknown",
+  "en": "So for example, that answer we just talked about earlier, like, I believe the answer is five, but I'm only 10% certain about it.",
+  "zh": "比如我们之前谈到的那种答案，比如，我相信答案是五，但我对此只有 10% 的信心。"
+ },
+ {
+  "seg": 377,
+  "start": 2124.017,
+  "end": 2129.52,
+  "speaker": "Unknown",
+  "en": "First of all, if I can get both those facts back, this is something valuable.",
+  "zh": "首先，如果我能把这两个事实都拿回来，这就是有价值的东西。"
+ },
+ {
+  "seg": 378,
+  "start": 2130.34,
+  "end": 2131.761,
+  "speaker": "Unknown",
+  "en": "NoQL, for example,",
+  "zh": "比如 NoQL,"
+ },
+ {
+  "seg": 379,
+  "start": 2132.521,
+  "end": 2139.385,
+  "speaker": "Unknown",
+  "en": "And also we were trying to evolve and also get like more standardization around that.",
+  "zh": "而且我们也一直在尝试演进它，并让它获得更多的标准化。"
+ },
+ {
+  "seg": 380,
+  "start": 2139.946,
+  "end": 2144.488,
+  "speaker": "Unknown",
+  "en": "This is, for example, the other thing we have seen, which is super valuable for agents.",
+  "zh": "比如，这是我们看到另一件对智能体非常有价值的事情。"
+ },
+ {
+  "seg": 381,
+  "start": 2144.989,
+  "end": 2154.074,
+  "speaker": "Unknown",
+  "en": "If I can expose schema, at least schema on the output I want, I want that result that should be US dollars.",
+  "zh": "如果我能暴露 schema，至少是我想要输出的 schema，我要的那个结果应该是美元。"
+ },
+ {
+  "seg": 382,
+  "start": 2154.114,
+  "end": 2156.556,
+  "speaker": "Unknown",
+  "en": "So if I'm asking like, what is the price of X?",
+  "zh": "所以如果我在问，X 的价格是多少？"
+ },
+ {
+  "seg": 383,
+  "start": 2157.256,
+  "end": 2161.679,
+  "speaker": "Unknown",
+  "en": "And I, as an agent, I can specify in a deterministic format.",
+  "zh": "而我，作为一个智能体，可以用确定性的格式来指定。"
+ },
+ {
+  "seg": 384,
+  "start": 2162.239,
+  "end": 2167.964,
+  "speaker": "Unknown",
+  "en": "I really want to make sure that I'm getting it in US dollars as opposed to Euro, for example.",
+  "zh": "我真的想确保我得到的是美元而不是欧元，比如。"
+ },
+ {
+  "seg": 385,
+  "start": 2168.484,
+  "end": 2174.949,
+  "speaker": "Unknown",
+  "en": "And I can specify that as part of my structured query, right?",
+  "zh": "而我可以把它指定为我结构化查询的一部分，对吧？"
+ },
+ {
+  "seg": 386,
+  "start": 2174.989,
+  "end": 2180.673,
+  "speaker": "Unknown",
+  "en": "So NoQL is kind of that pair of structured query where I can also interject metadata.",
+  "zh": "所以 NoQL 就是那种结构化查询的配对，我可以在其中插入元数据。"
+ },
+ {
+  "seg": 387,
+  "start": 2180.713,
+  "end": 2182.234,
+  "speaker": "Unknown",
+  "en": "It's not just a SQL query.",
+  "zh": "它不只是一个 SQL 查询。"
+ },
+ {
+  "seg": 388,
+  "start": 2182.695,
+  "end": 2184.356,
+  "speaker": "Unknown",
+  "en": "I can actually put more in there.",
+  "zh": "我实际上可以在里面放更多东西。"
+ },
+ {
+  "seg": 389,
+  "start": 2184.836,
+  "end": 2188.019,
+  "speaker": "Unknown",
+  "en": "And secondly, I'm getting the same on the response side.",
+  "zh": "其次，我在响应端也得到同样的东西。"
+ },
+ {
+  "seg": 390,
+  "start": 2188.039,
+  "end": 2189.14,
+  "speaker": "Unknown",
+  "en": "I'm not just getting like",
+  "zh": "我不只是拿到"
+ },
+ {
+  "seg": 391,
+  "start": 2189.88,
+  "end": 2200.467,
+  "speaker": "Unknown",
+  "en": "The structure is the table back as with the SQL table, but I'm actually getting data combined with that metadata, plus certain constraints are automatically enforced.",
+  "zh": "像 SQL 表那样的结构表，而是拿到与元数据结合在一起的数据，而且某些约束会被自动强制执行。"
+ },
+ {
+  "seg": 392,
+  "start": 2200.948,
+  "end": 2211.775,
+  "speaker": "Unknown",
+  "en": "So we can automatically check that all of those are numbers because I said like that price field, it should be a positive number lower than 10,000, for example.",
+  "zh": "所以我们可以自动检查所有这些都是数字，因为我说了，比如那个价格字段，它应该是一个低于 10000 的正数，比如。"
+ },
+ {
+  "seg": 393,
+  "start": 2212.465,
+  "end": 2212.765,
+  "speaker": "Unknown",
+  "en": "Got it.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 394,
+  "start": 2213.145,
+  "end": 2219.727,
+  "speaker": "Unknown",
+  "en": "I think maybe just to step out, I think in that agent interaction, how do you think about it?",
+  "zh": "我想也许退一步说，在那个智能体交互中，你怎么看？"
+ },
+ {
+  "seg": 395,
+  "start": 2219.787,
+  "end": 2223.968,
+  "speaker": "Unknown",
+  "en": "Because in most cases, it's not going to be like a one-shot interaction.",
+  "zh": "因为在大多数情况下，它不会是一次性的交互。"
+ },
+ {
+  "seg": 396,
+  "start": 2224.488,
+  "end": 2226.589,
+  "speaker": "Unknown",
+  "en": "I'm not like getting one response back.",
+  "zh": "我不是只拿回一个响应。"
+ },
+ {
+  "seg": 397,
+  "start": 2227.329,
+  "end": 2238.652,
+  "speaker": "Unknown",
+  "en": "I am typically trying to give back and interact in this pairs of data and metadata because that allows both sides to actually give more relevant",
+  "zh": "我通常是在这种数据加元数据的配对中来回交互，因为这能让双方都给出更相关的"
+ },
+ {
+  "seg": 398,
+  "start": 2239.332,
+  "end": 2245.976,
+  "speaker": "Unknown",
+  "en": "answers and understands the context to reuse that term once more around the data which has been given, right?",
+  "zh": "答案，并再次借用那个术语，理解围绕所给数据的上下文，对吧？"
+ },
+ {
+  "seg": 399,
+  "start": 2246.017,
+  "end": 2254.182,
+  "speaker": "Unknown",
+  "en": "It's not like one short interaction, one result going back, but it's actually the combination which makes it powerful.",
+  "zh": "它不是一次简短的交互、一个结果返回，而实际上是这种组合让它变得强大。"
+ },
+ {
+  "seg": 400,
+  "start": 2254.962,
+  "end": 2258.746,
+  "speaker": "Unknown",
+  "en": "Of course, also on the downside of those loops, they can get expensive, right?",
+  "zh": "当然，这些循环也有不好的一面，就是会变得很贵，对吧？"
+ },
+ {
+  "seg": 401,
+  "start": 2258.766,
+  "end": 2260.587,
+  "speaker": "Unknown",
+  "en": "If we just talk token usage.",
+  "zh": "如果我们只谈 token 用量的话。"
+ },
+ {
+  "seg": 402,
+  "start": 2261.088,
+  "end": 2265.151,
+  "speaker": "Unknown",
+  "en": "And I think maybe this is coming back to where we talked about earlier, like this curation.",
+  "zh": "而且我想这可能又回到了我们之前谈过的话题，比如这种策划。"
+ },
+ {
+  "seg": 403,
+  "start": 2265.711,
+  "end": 2273.038,
+  "speaker": "Unknown",
+  "en": "I think we want to keep that loop of planning as we don't want to go like super deep on that, right?",
+  "zh": "我想我们希望保留那个规划循环，但我们不想在那个上面做得特别深，对吧？"
+ },
+ {
+  "seg": 404,
+  "start": 2273.618,
+  "end": 2277.859,
+  "speaker": "Unknown",
+  "en": "The less layers we can have in there, we have to do on the fly, the better.",
+  "zh": "我们在中间需要现场处理的层数越少越好。"
+ },
+ {
+  "seg": 405,
+  "start": 2278.179,
+  "end": 2282.34,
+  "speaker": "Unknown",
+  "en": "So I think if there is pre-curated context, you have to do that only once.",
+  "zh": "所以我想如果上下文是预先策划好的，你只需要做一次。"
+ },
+ {
+  "seg": 406,
+  "start": 2282.36,
+  "end": 2285.481,
+  "speaker": "Unknown",
+  "en": "You have to do this loop of actually discovering.",
+  "zh": "你必须做这个实际发现的循环。"
+ },
+ {
+  "seg": 407,
+  "start": 2285.641,
+  "end": 2288.081,
+  "speaker": "Unknown",
+  "en": "You do that once upfront, that might be expensive.",
+  "zh": "你提前做一次，那可能是很贵的。"
+ },
+ {
+  "seg": 408,
+  "start": 2288.542,
+  "end": 2292.102,
+  "speaker": "Unknown",
+  "en": "But then in the next interaction, you can actually benefit from it.",
+  "zh": "但在下一次交互中，你就能真正从中受益。"
+ },
+ {
+  "seg": 409,
+  "start": 2292.783,
+  "end": 2295.623,
+  "speaker": "Unknown",
+  "en": "And we already know what to give you back.",
+  "zh": "而且我们已经知道该返回给你什么了。"
+ },
+ {
+  "seg": 410,
+  "start": 2295.663,
+  "end": 2302.885,
+  "speaker": "Unknown",
+  "en": "And we have to do like one iteration part less because there's still going to be plenty of set going on in the system.",
+  "zh": "这样我们就可以少做一个迭代环节，因为系统里仍然会有大量的类似操作在进行。"
+ },
+ {
+  "seg": 411,
+  "start": 2303.461,
+  "end": 2310.426,
+  "speaker": "Unknown",
+  "en": "Yeah, I've heard it described as like LLMs are really good at things that they can sort of describe linearly.",
+  "zh": "是的，我听说过这样一种说法：LLM 非常擅长那些可以线性描述的事情。"
+ },
+ {
+  "seg": 412,
+  "start": 2310.806,
+  "end": 2315.63,
+  "speaker": "Unknown",
+  "en": "And the more layers of abstraction you have to handle all at once, the more they are both.",
+  "zh": "而你需要同时处理的抽象层数越多，它们就越是既——"
+ },
+ {
+  "seg": 413,
+  "start": 2315.77,
+  "end": 2316.57,
+  "speaker": "Unknown",
+  "en": "It's expensive.",
+  "zh": "很贵。"
+ },
+ {
+  "seg": 414,
+  "start": 2317.111,
+  "end": 2324.516,
+  "speaker": "Unknown",
+  "en": "It takes a lot of their own like internal expensive key value memory to track that context going through, but it's also less reliable.",
+  "zh": "要占用它们大量自身昂贵的内部键值内存来追踪贯穿其中的那些上下文，同时可靠性也更低。"
+ },
+ {
+  "seg": 415,
+  "start": 2324.696,
+  "end": 2327.038,
+  "speaker": "Unknown",
+  "en": "And so when you can like flatten those steps, so.",
+  "zh": "所以当你能把那些步骤压平的时候，那么——"
+ },
+ {
+  "seg": 416,
+  "start": 2327.258,
+  "end": 2327.458,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 417,
+  "start": 2327.898,
+  "end": 2336.94,
+  "speaker": "Unknown",
+  "en": "For each LLM interaction, it's only having to track essentially a smaller linear interaction, but it may subcall out to things that are doing those depth.",
+  "zh": "对于每一次 LLM 交互来说，它本质上只需要追踪一个更小的线性交互，但它可以子调用到那些处理深度的东西。"
+ },
+ {
+  "seg": 418,
+  "start": 2337.04,
+  "end": 2340.221,
+  "speaker": "Unknown",
+  "en": "I find your linear abstraction, I find that interesting.",
+  "zh": "你说的线性抽象，我觉得很有意思。"
+ },
+ {
+  "seg": 419,
+  "start": 2340.321,
+  "end": 2344.362,
+  "speaker": "Unknown",
+  "en": "Usually, in my mind, I'm still seeing that as a loop, but I know what you mean with a linear.",
+  "zh": "通常，在我脑子里，我仍然把它看作一个循环，但我明白你说的线性是什么意思。"
+ },
+ {
+  "seg": 420,
+  "start": 2344.682,
+  "end": 2349.123,
+  "speaker": "Unknown",
+  "en": "I'm just trying to avoid a sub-loop at one step in that loop.",
+  "zh": "我只是想避免在那个循环的某一步出现子循环。"
+ },
+ {
+  "seg": 421,
+  "start": 2349.263,
+  "end": 2349.783,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 422,
+  "start": 2350.043,
+  "end": 2354.744,
+  "speaker": "Unknown",
+  "en": "If I can avoid that level of nesting of loops, the better.",
+  "zh": "如果我能避免那种循环嵌套的层级，那越好。"
+ },
+ {
+  "seg": 423,
+  "start": 2355.453,
+  "end": 2358.115,
+  "speaker": "Unknown",
+  "en": "Yeah, well, and you want to offload that to your context system, right?",
+  "zh": "对，呃，你想把那个卸载到你的上下文系统里去，对吧？"
+ },
+ {
+  "seg": 424,
+  "start": 2358.155,
+  "end": 2359.616,
+  "speaker": "Unknown",
+  "en": "So it's doing that sub loop.",
+  "zh": "这样它就在做那个子循环。"
+ },
+ {
+  "seg": 425,
+  "start": 2359.876,
+  "end": 2362.358,
+  "speaker": "Unknown",
+  "en": "It also has to deal with exactly one layer of loop.",
+  "zh": "它也只需要处理恰好一层循环。"
+ },
+ {
+  "seg": 426,
+  "start": 2362.758,
+  "end": 2363.298,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "正是。"
+ },
+ {
+  "seg": 427,
+  "start": 2363.939,
+  "end": 2366.781,
+  "speaker": "Unknown",
+  "en": "I mean, sorry, it's just coming to my mind right now.",
+  "zh": "我是说，抱歉，这只是我刚刚想到的。"
+ },
+ {
+  "seg": 428,
+  "start": 2366.841,
+  "end": 2370.943,
+  "speaker": "Unknown",
+  "en": "If you look at the software engineering, right, it's kind of like it's an abstraction, right?",
+  "zh": "如果你看看软件工程，对吧，它有点像是一种抽象，对吧？"
+ },
+ {
+  "seg": 429,
+  "start": 2370.983,
+  "end": 2373.325,
+  "speaker": "Unknown",
+  "en": "In software engineering, I'm also trying to pull up like",
+  "zh": "在软件工程中，我也在尝试把"
+ },
+ {
+  "seg": 430,
+  "start": 2373.854,
+  "end": 2380.418,
+  "speaker": "Unknown",
+  "en": "Common functionality into one function because first of all, for us, it makes it easier to maintain code.",
+  "zh": "公共功能提取到一个函数里，因为首先，对我们来说，这让代码更容易维护。"
+ },
+ {
+  "seg": 431,
+  "start": 2380.478,
+  "end": 2386.481,
+  "speaker": "Unknown",
+  "en": "I can reason about one subpart much better because I can also treat it independently.",
+  "zh": "我可以更好地对一个子部分进行推理，因为我也可以独立地对待它。"
+ },
+ {
+  "seg": 432,
+  "start": 2386.962,
+  "end": 2397.288,
+  "speaker": "Unknown",
+  "en": "So I can treat this one sub-loop which is focused on curation or preparing that independent of that larger loop retrieving it.",
+  "zh": "所以我可以独立于那个更大的取回循环，单独对待这个专注于策划或准备的子循环。"
+ },
+ {
+  "seg": 433,
+  "start": 2397.806,
+  "end": 2401.228,
+  "speaker": "Unknown",
+  "en": "So it's kind of like composability and software engineering as well.",
+  "zh": "所以这有点像软件工程中的可组合性。"
+ },
+ {
+  "seg": 434,
+  "start": 2401.548,
+  "end": 2402.329,
+  "speaker": "Unknown",
+  "en": "Oh, absolutely.",
+  "zh": "哦，绝对是。"
+ },
+ {
+  "seg": 435,
+  "start": 2402.469,
+  "end": 2411.394,
+  "speaker": "Unknown",
+  "en": "Well, and I think one of the superpowers for dealing with LLMs and programming is thinking in terms of domain-specific languages, because LLMs are very linguistic, right?",
+  "zh": "嗯，我认为处理 LLM 和编程的一个超能力，就是用领域特定语言来思考，因为 LLM 是非常语言化的，对吧？"
+ },
+ {
+  "seg": 436,
+  "start": 2411.414,
+  "end": 2412.495,
+  "speaker": "Unknown",
+  "en": "They think in language.",
+  "zh": "它们用语言来思考。"
+ },
+ {
+  "seg": 437,
+  "start": 2412.535,
+  "end": 2417.618,
+  "speaker": "Unknown",
+  "en": "And so if you can create a language that's the shape of your problem, LLMs are very, very good at utilizing that.",
+  "zh": "所以如果你能创造一种形状符合你问题的语言，LLM 就非常非常擅长利用它。"
+ },
+ {
+  "seg": 438,
+  "start": 2418.058,
+  "end": 2422.141,
+  "speaker": "Unknown",
+  "en": "And then to your point, you decompose that, okay, now I have a new set of abstractions I need to build.",
+  "zh": "然后按照你说的，你把它分解，好，现在我有一套新的抽象需要构建。"
+ },
+ {
+  "seg": 439,
+  "start": 2422.201,
+  "end": 2425.063,
+  "speaker": "Unknown",
+  "en": "I need to build those different functions that create my DSL.",
+  "zh": "我需要构建那些构成我的 DSL 的不同函数。"
+ },
+ {
+  "seg": 440,
+  "start": 2425.818,
+  "end": 2431.4,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I'm always a bit careful because you can't go overboard with that as well and then make it too complex.",
+  "zh": "是的，我是说，我总是有点谨慎，因为这种做法也不能过度，把它弄得过于复杂。"
+ },
+ {
+  "seg": 441,
+  "start": 2431.82,
+  "end": 2436.462,
+  "speaker": "Unknown",
+  "en": "But I think to a degree, the less we as humans have to...",
+  "zh": "但我觉得在某种程度上，我们人类需要做的越少……"
+ },
+ {
+  "seg": 442,
+  "start": 2436.742,
+  "end": 2439.203,
+  "speaker": "Unknown",
+  "en": "I mean, this is the power of abstraction, right?",
+  "zh": "我是说，这就是抽象的力量，对吧？"
+ },
+ {
+  "seg": 443,
+  "start": 2439.583,
+  "end": 2440.344,
+  "speaker": "Unknown",
+  "en": "We don't have to...",
+  "zh": "我们不需要……"
+ },
+ {
+  "seg": 444,
+  "start": 2441.224,
+  "end": 2445.048,
+  "speaker": "Unknown",
+  "en": "Keep everything in mind, but we can only talk about an abstraction here.",
+  "zh": "把所有东西都记在脑子里，而是可以只谈论这里的一个抽象。"
+ },
+ {
+  "seg": 445,
+  "start": 2445.609,
+  "end": 2447.35,
+  "speaker": "Unknown",
+  "en": "And I think the same is true for the LLM.",
+  "zh": "我想对 LLM 来说也是一样的。"
+ },
+ {
+  "seg": 446,
+  "start": 2447.37,
+  "end": 2449.072,
+  "speaker": "Unknown",
+  "en": "I think you described it very nicely.",
+  "zh": "我觉得你描述得非常好。"
+ },
+ {
+  "seg": 447,
+  "start": 2449.392,
+  "end": 2453.337,
+  "speaker": "Unknown",
+  "en": "If you don't have to go in the sub-loop, which is also a different context, right?",
+  "zh": "如果你不必进入那个子循环，那其实也是一个不同的上下文，对吧？"
+ },
+ {
+  "seg": 448,
+  "start": 2453.377,
+  "end": 2458.482,
+  "speaker": "Unknown",
+  "en": "So basically, the LLM has to change its role potentially and",
+  "zh": "所以基本上，LLM 可能不得不改变它的角色，而且"
+ },
+ {
+  "seg": 449,
+  "start": 2458.942,
+  "end": 2463.706,
+  "speaker": "Unknown",
+  "en": "It still wants to store its previous context, but it's doing actually a different role.",
+  "zh": "它仍然想存储它之前的上下文，但它实际在做的是一个不同的角色。"
+ },
+ {
+  "seg": 450,
+  "start": 2464.106,
+  "end": 2466.608,
+  "speaker": "Unknown",
+  "en": "The more we can avoid that, the easier.",
+  "zh": "我们越能避免这种情况，就越容易。"
+ },
+ {
+  "seg": 451,
+  "start": 2466.868,
+  "end": 2467.909,
+  "speaker": "Unknown",
+  "en": "Same as for us humans.",
+  "zh": "对我们人类来说也是一样。"
+ },
+ {
+  "seg": 452,
+  "start": 2467.949,
+  "end": 2477.035,
+  "speaker": "Unknown",
+  "en": "If I'm looking at a code and there is an abstraction for a class with certain rules, I only have to rationalize and think about that abstraction.",
+  "zh": "如果我在看一段代码，有一个带有某些规则的类的抽象，我只需要对那个抽象进行推理和思考。"
+ },
+ {
+  "seg": 453,
+  "start": 2477.195,
+  "end": 2481.378,
+  "speaker": "Unknown",
+  "en": "And then at another time, I can actually go into the implementation of that if I want to.",
+  "zh": "然后在另一个时候，如果我想的话，我可以真正深入到那个实现里面去。"
+ },
+ {
+  "seg": 454,
+  "start": 2481.879,
+  "end": 2485.862,
+  "speaker": "Unknown",
+  "en": "But from that high-level code, I can actually stay at that interface level.",
+  "zh": "但从那段高层次的代码出发，我实际上可以停留在那个接口层面。"
+ },
+ {
+  "seg": 455,
+  "start": 2486.538,
+  "end": 2492.726,
+  "speaker": "Unknown",
+  "en": "So I think a thing that's interesting coming back to what you're doing with Nexus is you're essentially doing that same thing for data, right?",
+  "zh": "所以我认为，回到你用 Nexus 做的事情，有意思的一点是，你本质上是在为数据做同样的事情，对吧？"
+ },
+ {
+  "seg": 456,
+  "start": 2492.766,
+  "end": 2505.161,
+  "speaker": "Unknown",
+  "en": "You're creating a domain-specific data object, a thing that is not only abstracting out the code layer that generates it, but abstracting out kind of the form of data that's going to be useful for a particular problem domain.",
+  "zh": "你在创建一个领域特定的数据对象，这个东西不仅把生成它的代码层抽象出来，还把对特定问题领域有用的数据形态抽象出来。"
+ },
+ {
+  "seg": 457,
+  "start": 2505.782,
+  "end": 2506.002,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 458,
+  "start": 2506.823,
+  "end": 2516.871,
+  "speaker": "Unknown",
+  "en": "So I guess the thing I'd be wondering about there, and this is more of an observational thing if you've seen a bunch of, is like how much variation is there in what makes for that shape to be useful?",
+  "zh": "所以我想在那方面我会好奇的是——如果你已经见过很多案例的话，这更像是一个观察性的问题——就是让那个形态变得有用这件事，有多大的差异？"
+ },
+ {
+  "seg": 459,
+  "start": 2516.931,
+  "end": 2524.617,
+  "speaker": "Unknown",
+  "en": "Obviously the details of what's exposed, the permissions, those things are going to vary, but like how similar are the shapes across these different types of context datasets?",
+  "zh": "显然，所暴露内容的细节、权限这些会各不相同，但在这些不同类型的上下文数据集之间，这些形态有多相似？"
+ },
+ {
+  "seg": 460,
+  "start": 2525.018,
+  "end": 2534.185,
+  "speaker": "Unknown",
+  "en": "I think the shape, especially if it comes to the entities we're talking about, this is different between different",
+  "zh": "我认为这个形态，尤其是涉及我们谈论的这些实体时，在不同的……之间是不一样的"
+ },
+ {
+  "seg": 461,
+  "start": 2535.336,
+  "end": 2538.238,
+  "speaker": "Unknown",
+  "en": "But I don't think the recipe changes.",
+  "zh": "但我不认为配方会变。"
+ },
+ {
+  "seg": 462,
+  "start": 2538.558,
+  "end": 2545.002,
+  "speaker": "Unknown",
+  "en": "If you had to represent it as like a class hierarchy of what's playing together, I think that underlying structure is going to be very similar.",
+  "zh": "如果你必须把它表示成一个关于什么东西在一起协作的类层次结构，我认为那个底层结构会非常相似。"
+ },
+ {
+  "seg": 463,
+  "start": 2545.482,
+  "end": 2548.704,
+  "speaker": "Unknown",
+  "en": "So the scheme of it is going to be similar.",
+  "zh": "所以它的模式会是相似的。"
+ },
+ {
+  "seg": 464,
+  "start": 2548.724,
+  "end": 2551.045,
+  "speaker": "Unknown",
+  "en": "The actual instantiation is going to be",
+  "zh": "而实际的实例化会是……"
+ },
+ {
+  "seg": 465,
+  "start": 2551.885,
+  "end": 2553.326,
+  "speaker": "Unknown",
+  "en": "So what entities do I have?",
+  "zh": "那么我有哪些实体？"
+ },
+ {
+  "seg": 466,
+  "start": 2553.687,
+  "end": 2556.428,
+  "speaker": "Unknown",
+  "en": "But usually I'm having some core entities.",
+  "zh": "但通常我会有一些核心实体。"
+ },
+ {
+  "seg": 467,
+  "start": 2557.049,
+  "end": 2569.597,
+  "speaker": "Unknown",
+  "en": "And I think we said earlier, if we promise to come back to like that narrow knowledge graph representation, we actually do have and we do detect relationships between entities as well.",
+  "zh": "而且我想我们之前说过，如果我们答应回头谈那个狭义的知识图谱表示的话，我们实际上确实也在检测实体之间的关系。"
+ },
+ {
+  "seg": 468,
+  "start": 2570.097,
+  "end": 2577.702,
+  "speaker": "Unknown",
+  "en": "So I think this pattern of identifying a small, fairly small core subset of entities, which are",
+  "zh": "所以我认为这个模式就是识别一个小的、相当小的核心实体子集，它们是……"
+ },
+ {
+  "seg": 469,
+  "start": 2578.703,
+  "end": 2580.004,
+  "speaker": "Unknown",
+  "en": "Central to that, right?",
+  "zh": "处于中心地位的，对吧？"
+ },
+ {
+  "seg": 470,
+  "start": 2580.064,
+  "end": 2587.948,
+  "speaker": "Unknown",
+  "en": "It's going back to document analysis, different scores of identifying what's relevant to a document.",
+  "zh": "这又回到了文档分析，用不同的分数来识别什么与一份文档相关。"
+ },
+ {
+  "seg": 471,
+  "start": 2588.288,
+  "end": 2590.269,
+  "speaker": "Unknown",
+  "en": "It's still very much here.",
+  "zh": "这在这里仍然非常适用。"
+ },
+ {
+  "seg": 472,
+  "start": 2590.329,
+  "end": 2593.29,
+  "speaker": "Unknown",
+  "en": "I think we're using different algorithms, different ways to detect that.",
+  "zh": "我认为我们在用不同的算法、不同的方式来检测这一点。"
+ },
+ {
+  "seg": 473,
+  "start": 2593.77,
+  "end": 2599.233,
+  "speaker": "Unknown",
+  "en": "But I think overall, we're still trying to identify what is core to this document, what is core to this dataset.",
+  "zh": "但我认为总体上，我们仍然在试图识别什么是一份文档的核心，什么是一个数据集的核心。"
+ },
+ {
+  "seg": 474,
+  "start": 2599.833,
+  "end": 2602.815,
+  "speaker": "Unknown",
+  "en": "And then from that, we can identify that small",
+  "zh": "然后由此，我们可以识别出那个小的……"
+ },
+ {
+  "seg": 475,
+  "start": 2603.442,
+  "end": 2606.223,
+  "speaker": "Unknown",
+  "en": "Potentially related subset of entities.",
+  "zh": "可能相关的实体子集。"
+ },
+ {
+  "seg": 476,
+  "start": 2606.883,
+  "end": 2608.004,
+  "speaker": "Unknown",
+  "en": "We parse it into that.",
+  "zh": "我们把它解析成那个。"
+ },
+ {
+  "seg": 477,
+  "start": 2608.704,
+  "end": 2615.447,
+  "speaker": "Unknown",
+  "en": "And on the side, we're having the vector search for finding similar instances of these entities.",
+  "zh": "同时，我们有向量搜索来寻找这些实体的相似实例。"
+ },
+ {
+  "seg": 478,
+  "start": 2615.927,
+  "end": 2621.69,
+  "speaker": "Unknown",
+  "en": "We're having the kind of more structured representation, and then we're having the metadata next to it.",
+  "zh": "我们有那种更结构化的表示，然后旁边还有元数据。"
+ },
+ {
+  "seg": 479,
+  "start": 2621.71,
+  "end": 2624.271,
+  "speaker": "Unknown",
+  "en": "So I think that it doesn't vary so much.",
+  "zh": "所以我认为它并没有太多变化。"
+ },
+ {
+  "seg": 480,
+  "start": 2624.311,
+  "end": 2626.432,
+  "speaker": "Unknown",
+  "en": "It varies just from the different instance creations.",
+  "zh": "它只是随着不同的实例创建而变化。"
+ },
+ {
+  "seg": 481,
+  "start": 2627.306,
+  "end": 2638.418,
+  "speaker": "Unknown",
+  "en": "I'm curious, so if I use the very particular domain I'm in, one additional thing we often find useful is having essentially quotes that support whatever the extracted entity is.",
+  "zh": "我很好奇，如果用我所处的这个非常特定的领域来说，我们经常发现有用的另一个东西，是本质上拥有能够支持所提取实体的引文。"
+ },
+ {
+  "seg": 482,
+  "start": 2638.458,
+  "end": 2639.939,
+  "speaker": "Unknown",
+  "en": "I'm curious if that's a pattern that you see",
+  "zh": "我很好奇这是不是你也见到过的一个模式……"
+ },
+ {
+  "seg": 483,
+  "start": 2640.654,
+  "end": 2640.834,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 484,
+  "start": 2641.395,
+  "end": 2645.377,
+  "speaker": "Unknown",
+  "en": "I mean, what we do is, I think we talked about in the very beginning, right, that lineage.",
+  "zh": "我的意思是，我们做的，我想我们在最开始谈到过，对吧，就是那个血缘（lineage）。"
+ },
+ {
+  "seg": 485,
+  "start": 2645.858,
+  "end": 2658.367,
+  "speaker": "Unknown",
+  "en": "So we always keep a trace back to where it's coming from in the original documents, kind of like a pointer back to the original document, because yes, you're 100% right from like multiple angles.",
+  "zh": "所以我们始终保留一条可以追溯回它在原始文档中来源的线索，有点像指回原始文档的指针，因为是的，你从多个角度来说都是百分之百对的。"
+ },
+ {
+  "seg": 486,
+  "start": 2658.427,
+  "end": 2663.651,
+  "speaker": "Unknown",
+  "en": "I think, first of all, in many cases, we actually would recommend",
+  "zh": "我认为，首先，在很多情况下，我们实际上会建议……"
+ },
+ {
+  "seg": 487,
+  "start": 2664.104,
+  "end": 2667.365,
+  "speaker": "Unknown",
+  "en": "The system to retrieve the ground truth in addition, right?",
+  "zh": "系统在之外还要去检索那个真实原文（ground truth），对吧？"
+ },
+ {
+  "seg": 488,
+  "start": 2667.405,
+  "end": 2673.926,
+  "speaker": "Unknown",
+  "en": "So if it has a chance, if it's not too much content, it retrieves the ground truth as well, because it might even give you more information.",
+  "zh": "所以如果它有机会，如果内容不太多，它也会把真实原文检索出来，因为它甚至可能给你更多的信息。"
+ },
+ {
+  "seg": 489,
+  "start": 2674.447,
+  "end": 2676.947,
+  "speaker": "Unknown",
+  "en": "And I think this was already true in retrieval, right?",
+  "zh": "而且我认为这在检索中本来就已经是这样了，对吧？"
+ },
+ {
+  "seg": 490,
+  "start": 2676.987,
+  "end": 2688.07,
+  "speaker": "Unknown",
+  "en": "I think a typical retrieval pattern is you find the similar vector, similar entity in the vector space, but then you still kind of retrieve the original data to back set up and feed in.",
+  "zh": "我认为一个典型的检索模式是，你在向量空间中找到相似的向量、相似的实体，但之后你还是会去检索原始数据来作为依据并喂进去。"
+ },
+ {
+  "seg": 491,
+  "start": 2688.77,
+  "end": 2692.193,
+  "speaker": "Unknown",
+  "en": "And then I think this is still the case also with context.",
+  "zh": "然后我认为在上下文这方面也仍然是这样。"
+ },
+ {
+  "seg": 492,
+  "start": 2692.293,
+  "end": 2703.881,
+  "speaker": "Unknown",
+  "en": "I think with context, because we already have a structured representation, I have to do that less, but we definitely, we give back a pointer back to the original data, to the original place in your document.",
+  "zh": "我认为在上下文这里，因为我们已经有了结构化表示，我需要这么做的次数更少了，但我们确实会返回一个指回原始数据的指针，指向你文档中的原始位置。"
+ },
+ {
+  "seg": 493,
+  "start": 2704.401,
+  "end": 2707.223,
+  "speaker": "Unknown",
+  "en": "And again, coming back to then also the version document, right?",
+  "zh": "而且再说一次，回到那个版本化文档的问题，对吧？"
+ },
+ {
+  "seg": 494,
+  "start": 2707.243,
+  "end": 2712.067,
+  "speaker": "Unknown",
+  "en": "If my dataset is evolving over time, we need to make sure we are referencing the right version of that.",
+  "zh": "如果我的数据集随时间演变，我们需要确保引用的是正确的版本。"
+ },
+ {
+  "seg": 495,
+  "start": 2712.727,
+  "end": 2713.768,
+  "speaker": "Unknown",
+  "en": "Yeah, that makes sense.",
+  "zh": "是的，这说得通。"
+ },
+ {
+  "seg": 496,
+  "start": 2714.509,
+  "end": 2722.499,
+  "speaker": "Unknown",
+  "en": "I'd love to dig a little bit into this knowledge graph concept, and particularly the fuzzy vector-based or semantic knowledge graph.",
+  "zh": "我想再稍微深入聊聊这个知识图谱的概念，尤其是那种模糊的、基于向量的或语义的知识图谱。"
+ },
+ {
+  "seg": 497,
+  "start": 2722.519,
+  "end": 2729.048,
+  "speaker": "Unknown",
+  "en": "So how are you thinking about those relationships in a world that maybe is not as perfectly structured as your classic knowledge graph?",
+  "zh": "那么，在一个可能不像经典知识图谱那样完美结构化的世界里，你是如何思考这些关系的？"
+ },
+ {
+  "seg": 498,
+  "start": 2729.588,
+  "end": 2736.634,
+  "speaker": "Unknown",
+  "en": "So I think the interesting aspect of it, I think that's something we didn't talk too much into deep about yet.",
+  "zh": "所以我认为它有意思的地方……我觉得这是我们还没有太深入谈过的一点。"
+ },
+ {
+  "seg": 499,
+  "start": 2736.834,
+  "end": 2743.579,
+  "speaker": "Unknown",
+  "en": "I think what is interesting is that even though, imagine the dataset being static, right?",
+  "zh": "我认为有意思的是，即使——设想数据集是静态的，对吧？"
+ },
+ {
+  "seg": 500,
+  "start": 2744.22,
+  "end": 2753.027,
+  "speaker": "Unknown",
+  "en": "I'm creating like one context artifact, I might create like one context graph, one knowledge graph instance associated with that.",
+  "zh": "我在创建一个上下文工件，我可能会创建一个上下文图、一个与之关联的知识图谱实例。"
+ },
+ {
+  "seg": 501,
+  "start": 2753.587,
+  "end": 2760.734,
+  "speaker": "Unknown",
+  "en": "Over time, when I'm traversing that, I can actually keep modifying my knowledge graph.",
+  "zh": "随着时间推移，当我遍历它时，我可以持续修改我的知识图谱。"
+ },
+ {
+  "seg": 502,
+  "start": 2760.754,
+  "end": 2764.597,
+  "speaker": "Unknown",
+  "en": "When I'm initially creating my context, I have a certain budget of compute.",
+  "zh": "当我最初创建上下文时，我有一个一定的算力预算。"
+ },
+ {
+  "seg": 503,
+  "start": 2765.298,
+  "end": 2775.487,
+  "speaker": "Unknown",
+  "en": "Imagine every night your GPU cluster lies idle, and you're actually going to show that on your previously curated context, even though the initial data hasn't changed.",
+  "zh": "想象一下，每天晚上你的 GPU 集群闲置着，而你实际上可以在之前策划好的上下文上展现这一点，即使初始数据没有变化。"
+ },
+ {
+  "seg": 504,
+  "start": 2776.027,
+  "end": 2788.493,
+  "speaker": "Unknown",
+  "en": "You can try to find, I like your example earlier, like imagine in your knowledge graph, you have certain probability values where you think this is true, that edge should be in the knowledge graph or not.",
+  "zh": "你可以尝试去发现——我喜欢你之前的例子——比如想象在你的知识图谱中，你有某些概率值，你认为这是真的，那条边应该或不应该在知识图谱里。"
+ },
+ {
+  "seg": 505,
+  "start": 2788.993,
+  "end": 2799.098,
+  "speaker": "Unknown",
+  "en": "And then overnight or whenever you've got free compute time or idle compute time, you actually keep curating your knowledge graph and either collapsing it, expanding it.",
+  "zh": "然后在夜间，或者任何你有空闲算力的时候，你实际上可以持续策划你的知识图谱，要么折叠它，要么扩展它。"
+ },
+ {
+  "seg": 506,
+  "start": 2799.758,
+  "end": 2815.647,
+  "speaker": "Unknown",
+  "en": "using graph machine learning to identify new connections, try to group things into certain clusters, and actually keep curating it, potentially also a Bayesian approach with additional questions I've seen come in.",
+  "zh": "用图机器学习来识别新的连接，尝试把东西分组到某些聚类里，实际上持续策划它，也可能用贝叶斯方法结合我看到的额外传入的问题。"
+ },
+ {
+  "seg": 507,
+  "start": 2816.067,
+  "end": 2824.852,
+  "speaker": "Unknown",
+  "en": "So I actually get more data, not by the initial data changing, but by actually just seeing the questions coming in, so I know what I might want to answer.",
+  "zh": "所以我实际上获得了更多数据，不是因为初始数据变化了，而是通过观察进来的问题，这样我就知道我可能想回答什么。"
+ },
+ {
+  "seg": 508,
+  "start": 2825.352,
+  "end": 2827.955,
+  "speaker": "Unknown",
+  "en": "And that can help me curate that over time.",
+  "zh": "这能帮助我随时间不断策划它。"
+ },
+ {
+  "seg": 509,
+  "start": 2828.456,
+  "end": 2831.84,
+  "speaker": "Unknown",
+  "en": "And I know right now we talk a lot about knowledge graphs.",
+  "zh": "我知道我们现在谈论很多知识图谱。"
+ },
+ {
+  "seg": 510,
+  "start": 2831.92,
+  "end": 2834.243,
+  "speaker": "Unknown",
+  "en": "I don't think that necessarily has to be a knowledge graph.",
+  "zh": "我不认为这一定要是知识图谱。"
+ },
+ {
+  "seg": 511,
+  "start": 2834.724,
+  "end": 2839.73,
+  "speaker": "Unknown",
+  "en": "I can do the same curation over time by spending more effort on it.",
+  "zh": "我可以通过花更多精力在上面，随时间做同样的策划。"
+ },
+ {
+  "seg": 512,
+  "start": 2839.93,
+  "end": 2842.834,
+  "speaker": "Unknown",
+  "en": "If it's in different representations, I can do the same",
+  "zh": "如果它是不同的表示形式，我可以做同样的事。"
+ },
+ {
+  "seg": 513,
+  "start": 2843.434,
+  "end": 2850.342,
+  "speaker": "Unknown",
+  "en": "If it's in a more relational format, potentially with additional edges in between those, with like semi-edges, right?",
+  "zh": "如果它是一种更关系型的格式，可能在它们之间有额外的边，比如半边之类的，对吧？"
+ },
+ {
+  "seg": 514,
+  "start": 2850.362,
+  "end": 2856.248,
+  "speaker": "Unknown",
+  "en": "I can always put a graph format into relational schema as well by encoding that as its joins.",
+  "zh": "我也总能把图格式放进关系模式中，通过把它编码为连接（joins）。"
+ },
+ {
+  "seg": 515,
+  "start": 2856.789,
+  "end": 2859.411,
+  "speaker": "Unknown",
+  "en": "Might not be efficient to retrieve, but I can do it.",
+  "zh": "检索起来可能效率不高，但我可以做到。"
+ },
+ {
+  "seg": 516,
+  "start": 2860.072,
+  "end": 2861.973,
+  "speaker": "Unknown",
+  "en": "So I think even there it's true.",
+  "zh": "所以我认为即便在这点上它也成立。"
+ },
+ {
+  "seg": 517,
+  "start": 2861.993,
+  "end": 2875.642,
+  "speaker": "Unknown",
+  "en": "So even if I don't have like a traditional knowledge graph, I can still maintain that over time and kind of keep curating my context artifacts and making it better, especially if I've seen some of the questions being asked against it.",
+  "zh": "所以即使我没有传统的知识图谱，我仍然可以随时间维护它，持续策划我的上下文工件并让它变得更好，尤其是如果我已经看到针对它提出的一些问题。"
+ },
+ {
+  "seg": 518,
+  "start": 2876.28,
+  "end": 2884.225,
+  "speaker": "Unknown",
+  "en": "So that's interesting, actually, because it leads me down a path of like, can you even change the schema of that context artifact?",
+  "zh": "这其实很有意思，因为它引出了一条思路：你甚至可以改变那个上下文工件的模式吗？"
+ },
+ {
+  "seg": 519,
+  "start": 2884.285,
+  "end": 2892.87,
+  "speaker": "Unknown",
+  "en": "Because you see, for example, hey, we're reliably getting questions that end up having to query across two different sources of context or things like that.",
+  "zh": "因为你看到，比如说，嘿，我们稳定地收到一些问题，最终不得不跨两个不同的上下文来源进行查询之类的情况。"
+ },
+ {
+  "seg": 520,
+  "start": 2892.91,
+  "end": 2895.572,
+  "speaker": "Unknown",
+  "en": "Maybe we should provide a combined view or what have you.",
+  "zh": "也许我们应该提供一个合并的视图或诸如此类的东西。"
+ },
+ {
+  "seg": 521,
+  "start": 2896.172,
+  "end": 2897.814,
+  "speaker": "Unknown",
+  "en": "Denormalization, right?",
+  "zh": "反规范化，对吧？"
+ },
+ {
+  "seg": 522,
+  "start": 2898.094,
+  "end": 2904.738,
+  "speaker": "Unknown",
+  "en": "And I remember that well as it's like 20 years ago teaching the different normal forms in relational database systems.",
+  "zh": "我记得很清楚，就像 20 年前在关系数据库系统里教授不同范式的时候。"
+ },
+ {
+  "seg": 523,
+  "start": 2905.257,
+  "end": 2905.817,
+  "speaker": "Unknown",
+  "en": "Most certainly.",
+  "zh": "当然如此。"
+ },
+ {
+  "seg": 524,
+  "start": 2905.857,
+  "end": 2909.28,
+  "speaker": "Unknown",
+  "en": "I think this is so nice that you have the abstraction of a context, right?",
+  "zh": "我认为你有上下文这个抽象真是太好了，对吧？"
+ },
+ {
+  "seg": 525,
+  "start": 2909.72,
+  "end": 2914.183,
+  "speaker": "Unknown",
+  "en": "A context is telling you, hey, this is actually the schema I have in there.",
+  "zh": "上下文在告诉你，嘿，这实际上就是我在其中的模式。"
+ },
+ {
+  "seg": 526,
+  "start": 2914.603,
+  "end": 2921.008,
+  "speaker": "Unknown",
+  "en": "So from a consumer perspective, I'm not changing the interface even though I'm changing the schema inside.",
+  "zh": "所以从消费者的角度来看，即使我在改变内部的模式，我也没有改变接口。"
+ },
+ {
+  "seg": 527,
+  "start": 2921.488,
+  "end": 2929.473,
+  "speaker": "Unknown",
+  "en": "I just have version 2, version 3, version 4 of my context, but it can have a different internal representation.",
+  "zh": "我只是有我的上下文的版本 2、版本 3、版本 4，但它可以有不同的内部表示。"
+ },
+ {
+  "seg": 528,
+  "start": 2930.014,
+  "end": 2930.554,
+  "speaker": "Unknown",
+  "en": "That's awesome.",
+  "zh": "这太棒了。"
+ },
+ {
+  "seg": 529,
+  "start": 2930.817,
+  "end": 2932.579,
+  "speaker": "Unknown",
+  "en": "Maybe kind of like a container.",
+  "zh": "也许有点像一个容器。"
+ },
+ {
+  "seg": 530,
+  "start": 2933.219,
+  "end": 2935.081,
+  "speaker": "Unknown",
+  "en": "I mean, I've worked on data products before.",
+  "zh": "我是说，我以前做过数据产品方面的工作。"
+ },
+ {
+  "seg": 531,
+  "start": 2935.121,
+  "end": 2941.907,
+  "speaker": "Unknown",
+  "en": "You could even see that as like a small data product combining the data and metadata into one entity.",
+  "zh": "你甚至可以把它看作一个小型数据产品，把数据和元数据合并成一个实体。"
+ },
+ {
+  "seg": 532,
+  "start": 2942.568,
+  "end": 2949.694,
+  "speaker": "Unknown",
+  "en": "And then as a data product or in the microservice world, like the Docker container, it gives you still like an interface.",
+  "zh": "然后作为一个数据产品，或者说在微服务世界里，就像 Docker 容器一样，它仍然给你一个接口。"
+ },
+ {
+  "seg": 533,
+  "start": 2950.055,
+  "end": 2954.639,
+  "speaker": "Unknown",
+  "en": "You can change the internal representation and evolve that over time as well.",
+  "zh": "你可以改变内部表示，并随时间演进它。"
+ },
+ {
+  "seg": 534,
+  "start": 2954.659,
+  "end": 2955.66,
+  "speaker": "Unknown",
+  "en": "Yeah, very good question.",
+  "zh": "是的，非常好的问题。"
+ },
+ {
+  "seg": 535,
+  "start": 2956.025,
+  "end": 2967.655,
+  "speaker": "Unknown",
+  "en": "Well, and it's interesting, too, because you have some sets of data, especially metadata, where you're wanting to do repeatable, deterministic types of things on it, and so you don't want that to change too much.",
+  "zh": "嗯，这也很有意思，因为你有一些数据集，尤其是元数据，你想在上面做可重复的、确定性的操作，所以你不希望它变化太多。"
+ },
+ {
+  "seg": 536,
+  "start": 2968.256,
+  "end": 2971.399,
+  "speaker": "Unknown",
+  "en": "But a lot of this is prepared for an agent to consume.",
+  "zh": "但其中很多是为供智能体消费而准备的。"
+ },
+ {
+  "seg": 537,
+  "start": 2971.619,
+  "end": 2975.923,
+  "speaker": "Unknown",
+  "en": "As a programmer, you can treat it as a black box and change that internal representation.",
+  "zh": "作为程序员，你可以把它当作黑盒，并改变那个内部表示。"
+ },
+ {
+  "seg": 538,
+  "start": 2976.358,
+  "end": 2978.619,
+  "speaker": "Unknown",
+  "en": "We talked about NoQL before, right?",
+  "zh": "我们之前谈到过 NoQL，对吧？"
+ },
+ {
+  "seg": 539,
+  "start": 2978.639,
+  "end": 2980.841,
+  "speaker": "Unknown",
+  "en": "So kind of like our free interface there.",
+  "zh": "有点像我们那里的自由接口。"
+ },
+ {
+  "seg": 540,
+  "start": 2981.141,
+  "end": 2988.205,
+  "speaker": "Unknown",
+  "en": "I think this is one of the nice things there because in NoQL, I can basically also give you a schema I expect back, right?",
+  "zh": "我认为这是那里美好的事情之一，因为在 NoQL 中，我基本上也可以给你一个我期望返回的模式，对吧？"
+ },
+ {
+  "seg": 541,
+  "start": 2988.225,
+  "end": 3004.856,
+  "speaker": "Unknown",
+  "en": "So I'm keeping that interface static, but again, because the interface is given by NoQL and we know how to map it, we can change the internal representation and might be more or less efficient to retrieve, but I have that flexibility through that abstraction.",
+  "zh": "所以我保持那个接口不变，但同样，因为接口是由 NoQL 给定的，而且我们知道如何映射它，我们可以改变内部表示，检索起来可能或多或少高效一些，但我通过那个抽象拥有了那种灵活性。"
+ },
+ {
+  "seg": 542,
+  "start": 3005.778,
+  "end": 3019.464,
+  "speaker": "Unknown",
+  "en": "So all of this, we're kind of talking about a layer that is developing now that is on top of these graph databases like Pinecone originally was, or we talked about being on top of a relational database or something like that.",
+  "zh": "所以所有这些，我们谈论的其实是一个正在发展中的层，它位于这些图数据库之上，比如 Pinecone 最初就是如此，或者我们说过位于关系数据库之类的之上。"
+ },
+ {
+  "seg": 543,
+  "start": 3019.964,
+  "end": 3026.767,
+  "speaker": "Unknown",
+  "en": "Do you see this as being a separated abstract layer that there's going to be a set of different options out there in the world?",
+  "zh": "你认为这会是一个独立的抽象层，世界上会有一组不同的选择吗？"
+ },
+ {
+  "seg": 544,
+  "start": 3026.807,
+  "end": 3032.71,
+  "speaker": "Unknown",
+  "en": "Or is this something that's going to be tightly integrated and vertically stacked with these kind of underlying data stores?",
+  "zh": "还是说这会是一个紧密集成、与这类底层数据存储垂直堆叠的东西？"
+ },
+ {
+  "seg": 545,
+  "start": 3033.21,
+  "end": 3040.652,
+  "speaker": "Unknown",
+  "en": "So I think for us, it's actually we benefit a lot from owning the entire stack.",
+  "zh": "所以对我们来说，实际上我们从拥有整个技术栈中获益良多。"
+ },
+ {
+  "seg": 546,
+  "start": 3040.972,
+  "end": 3051.055,
+  "speaker": "Unknown",
+  "en": "If I look at our implementation, at least, we benefit a lot from owning that end-to-end because we can just expose metadata.",
+  "zh": "至少看我们的实现，我们从端到端拥有它获益良多，因为我们可以直接暴露元数据。"
+ },
+ {
+  "seg": 547,
+  "start": 3051.475,
+  "end": 3056.836,
+  "speaker": "Unknown",
+  "en": "So freshness metadata for the underlying vector data is as we know how to get that.",
+  "zh": "比如底层向量数据的新鲜度元数据，因为我们知道如何获取它。"
+ },
+ {
+  "seg": 548,
+  "start": 3057.516,
+  "end": 3060.617,
+  "speaker": "Unknown",
+  "en": "We don't have to duplicate that potentially getting out of sync.",
+  "zh": "我们不必复制它，从而可能产生不同步的问题。"
+ },
+ {
+  "seg": 549,
+  "start": 3061.398,
+  "end": 3062.759,
+  "speaker": "Unknown",
+  "en": "Let me just give one example.",
+  "zh": "让我举一个例子。"
+ },
+ {
+  "seg": 550,
+  "start": 3063.319,
+  "end": 3071.265,
+  "speaker": "Unknown",
+  "en": "So I think for us, we actually benefit from implementing it really end-to-end, and I think this is giving us better performance.",
+  "zh": "所以我认为对我们来说,我们实际上受益于真正端到端地实现它,而且我认为这给了我们更好的性能。"
+ },
+ {
+  "seg": 551,
+  "start": 3071.905,
+  "end": 3076.188,
+  "speaker": "Unknown",
+  "en": "I think the other aspect where it's going to come in is governance.",
+  "zh": "我认为它会发挥作用的另一个方面是治理。"
+ },
+ {
+  "seg": 552,
+  "start": 3076.669,
+  "end": 3084.214,
+  "speaker": "Unknown",
+  "en": "We talked about different access, permission levels, different service accounts having access to different things.",
+  "zh": "我们谈到了不同的访问、权限级别、不同的服务账户可以访问不同的东西。"
+ },
+ {
+  "seg": 553,
+  "start": 3084.979,
+  "end": 3090.662,
+  "speaker": "Unknown",
+  "en": "In theory, yes, you can definitely develop an abstraction layer over that.",
+  "zh": "理论上,是的,你当然可以在那之上开发一个抽象层。"
+ },
+ {
+  "seg": 554,
+  "start": 3091.282,
+  "end": 3098.066,
+  "speaker": "Unknown",
+  "en": "I think that will take quite some time to identify what do we all need to expose there.",
+  "zh": "我认为要弄清楚我们都需要在那里暴露什么,会需要相当长的时间。"
+ },
+ {
+  "seg": 555,
+  "start": 3098.786,
+  "end": 3108.752,
+  "speaker": "Unknown",
+  "en": "So what I would imagine is probably at the beginning, different people will develop different solutions and then certain standards are going to evolve.",
+  "zh": "所以我能想象的是,可能在开始时,不同的人会开发不同的解决方案,然后某些标准会逐渐演化出来。"
+ },
+ {
+  "seg": 556,
+  "start": 3108.872,
+  "end": 3112.814,
+  "speaker": "Unknown",
+  "en": "Like how we're thinking about, I think for us, the layer which",
+  "zh": "就像我们在思考的那样,我认为对我们来说,那个层"
+ },
+ {
+  "seg": 557,
+  "start": 3113.539,
+  "end": 3115.099,
+  "speaker": "Unknown",
+  "en": "Probably it's going to standardize first.",
+  "zh": "可能会最先标准化。"
+ },
+ {
+  "seg": 558,
+  "start": 3115.119,
+  "end": 3119.101,
+  "speaker": "Unknown",
+  "en": "It's going to be a little bit on this query front, of course, the NodeQL.",
+  "zh": "会在查询这一块上稍微先标准化,当然是 NodeQL。"
+ },
+ {
+  "seg": 559,
+  "start": 3119.701,
+  "end": 3122.842,
+  "speaker": "Unknown",
+  "en": "And then from there, let's see where it takes us, right?",
+  "zh": "然后从那里开始,让我们看看它会带我们去哪,对吧?"
+ },
+ {
+  "seg": 560,
+  "start": 3123.122,
+  "end": 3128.284,
+  "speaker": "Unknown",
+  "en": "We can also probably standardize some of the knowledge definition, the knowledge spec.",
+  "zh": "我们也可能把一些知识定义、知识规范标准化。"
+ },
+ {
+  "seg": 561,
+  "start": 3128.884,
+  "end": 3139.207,
+  "speaker": "Unknown",
+  "en": "But as said, right now, also just from a governance perspective, keeping track of lineage, it is very beneficial for us controlling the entire stack.",
+  "zh": "但如前所述,现在,即使仅仅从治理的角度、跟踪血缘的角度来看,掌控整个技术栈对我们是非常有益的。"
+ },
+ {
+  "seg": 562,
+  "start": 3140.039,
+  "end": 3142.801,
+  "speaker": "Unknown",
+  "en": "I would at least give it like another two years of iteration.",
+  "zh": "我至少会再给它两年左右的迭代时间。"
+ },
+ {
+  "seg": 563,
+  "start": 3142.901,
+  "end": 3147.323,
+  "speaker": "Unknown",
+  "en": "And then maybe we have identified all the patterns and we can drive that out into a general spec.",
+  "zh": "然后也许我们已经识别出了所有的模式,可以把它提炼成一个通用规范。"
+ },
+ {
+  "seg": 564,
+  "start": 3147.763,
+  "end": 3148.984,
+  "speaker": "Unknown",
+  "en": "Yeah, that makes sense, right?",
+  "zh": "是的,这说得通,对吧?"
+ },
+ {
+  "seg": 565,
+  "start": 3149.004,
+  "end": 3152.626,
+  "speaker": "Unknown",
+  "en": "We're very much in this phase of the tech isn't actually good enough yet.",
+  "zh": "我们现在在很大程度上处于技术其实还不够好的阶段。"
+ },
+ {
+  "seg": 566,
+  "start": 3152.946,
+  "end": 3157.829,
+  "speaker": "Unknown",
+  "en": "And so there's a lot of benefits to squeeze out every piece from that vertical integration.",
+  "zh": "所以从那种垂直整合中榨取每一分好处,有很多收益。"
+ },
+ {
+  "seg": 567,
+  "start": 3157.869,
+  "end": 3164.133,
+  "speaker": "Unknown",
+  "en": "And we'll get to a place where, oh, okay, now we've over served that and it benefits us to split it apart and optimize different pieces.",
+  "zh": "然后我们会到达这样一个境地:哦,好了,现在我们在那方面服务过度了,把它拆分开、优化不同的部分对我们有好处。"
+ },
+ {
+  "seg": 568,
+  "start": 3164.833,
+  "end": 3168.155,
+  "speaker": "Unknown",
+  "en": "So I think it's going to start at the query front.",
+  "zh": "所以我认为这会从查询这一块开始。"
+ },
+ {
+  "seg": 569,
+  "start": 3168.532,
+  "end": 3171.814,
+  "speaker": "Unknown",
+  "en": "With query, I mean actually query and response, right?",
+  "zh": "我说查询,其实是指查询和响应,对吧?"
+ },
+ {
+  "seg": 570,
+  "start": 3171.834,
+  "end": 3172.755,
+  "speaker": "Unknown",
+  "en": "So that kind of format.",
+  "zh": "就是那种格式。"
+ },
+ {
+  "seg": 571,
+  "start": 3173.335,
+  "end": 3175.937,
+  "speaker": "Unknown",
+  "en": "And then it's probably going to go down to that stack.",
+  "zh": "然后它大概会顺着技术栈往下走。"
+ },
+ {
+  "seg": 572,
+  "start": 3176.418,
+  "end": 3185.944,
+  "speaker": "Unknown",
+  "en": "It's just going to make, I think, some of the benefits you get from that, except like lineages, I think it's something super helpful to be able to trace it back to the initial days.",
+  "zh": "我认为它会带来一些从中获得的好处,除了像血缘之外,我认为能够追溯回最初的状态是超级有用的。"
+ },
+ {
+  "seg": 573,
+  "start": 3186.425,
+  "end": 3193.75,
+  "speaker": "Unknown",
+  "en": "That's going to get a bit tough if we go into a general abstraction to just get that through like these different systems.",
+  "zh": "如果我们进入一个通用抽象,要让这些信息穿过这些不同的系统,那会变得有点困难。"
+ },
+ {
+  "seg": 574,
+  "start": 3194.31,
+  "end": 3195.371,
+  "speaker": "Unknown",
+  "en": "But who knows, lads?",
+  "zh": "但谁知道呢,伙计们?"
+ },
+ {
+  "seg": 575,
+  "start": 3195.632,
+  "end": 3199.675,
+  "speaker": "Unknown",
+  "en": "I'm looking forward to talking to you in a year again and see how we have evolved then.",
+  "zh": "我很期待一年后再和你们聊,看看那时我们进化成了什么样。"
+ },
+ {
+  "seg": 576,
+  "start": 3200.216,
+  "end": 3201.277,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的,当然。"
+ },
+ {
+  "seg": 577,
+  "start": 3201.978,
+  "end": 3210.286,
+  "speaker": "Unknown",
+  "en": "Well, we're coming close to the end of our time and we've covered a lot, but is there anything we haven't talked about that you think would be important to discuss before we wrap?",
+  "zh": "不,我觉得我们其实覆盖得很不错,对吧?"
+ },
+ {
+  "seg": 578,
+  "start": 3210.888,
+  "end": 3213.851,
+  "speaker": "Unknown",
+  "en": "No, I think we actually covered it very nicely, right?",
+  "zh": "不,我觉得我们其实覆盖得很不错,对吧?"
+ },
+ {
+  "seg": 579,
+  "start": 3213.871,
+  "end": 3219.496,
+  "speaker": "Unknown",
+  "en": "I think we kind of looked a little bit at the history, what actually led us to develop something like Nexus.",
+  "zh": "我认为我们大概回顾了一点历史,是什么真正促使我们开发出像 Nexus 这样的东西。"
+ },
+ {
+  "seg": 580,
+  "start": 3219.616,
+  "end": 3226.502,
+  "speaker": "Unknown",
+  "en": "I think that problem like agents actually retrieve, how can we build a system for agent retrieval?",
+  "zh": "我认为那个问题,比如智能体实际上要做检索,我们如何为智能体检索构建一个系统?"
+ },
+ {
+  "seg": 581,
+  "start": 3226.642,
+  "end": 3228.163,
+  "speaker": "Unknown",
+  "en": "How can we make that efficient?",
+  "zh": "我们如何让它变得高效?"
+ },
+ {
+  "seg": 582,
+  "start": 3228.204,
+  "end": 3230.806,
+  "speaker": "Unknown",
+  "en": "So I think that's something very nice where we started.",
+  "zh": "所以我认为这是我们起步的一个非常好的点。"
+ },
+ {
+  "seg": 583,
+  "start": 3231.417,
+  "end": 3233.638,
+  "speaker": "Unknown",
+  "en": "I think we branched into many different areas.",
+  "zh": "然后我们分支到了许多不同的领域。"
+ },
+ {
+  "seg": 584,
+  "start": 3233.698,
+  "end": 3236.359,
+  "speaker": "Unknown",
+  "en": "So I think we really covered most of that.",
+  "zh": "所以我认为我们真的覆盖了其中大部分。"
+ },
+ {
+  "seg": 585,
+  "start": 3237.06,
+  "end": 3241.102,
+  "speaker": "Unknown",
+  "en": "Also, we already covered what I had here in my last notes, kind of the outlook.",
+  "zh": "而且,我们已经覆盖了我笔记里最后一点,即展望部分。"
+ },
+ {
+  "seg": 586,
+  "start": 3241.142,
+  "end": 3249.406,
+  "speaker": "Unknown",
+  "en": "I think the outlook where this is going to grow is we're going to see more and more use of integrations with",
+  "zh": "我认为这方面的展望是,我们会看到越来越多与"
+ },
+ {
+  "seg": 587,
+  "start": 3250.226,
+  "end": 3254.669,
+  "speaker": "Unknown",
+  "en": "With different semantic layers, as I said, like right now, we do that internally.",
+  "zh": "不同语义层的集成,就像我说的,比如现在,我们在内部就是这么做的。"
+ },
+ {
+  "seg": 588,
+  "start": 3255.23,
+  "end": 3257.491,
+  "speaker": "Unknown",
+  "en": "We're going to see like a lot of iterations.",
+  "zh": "我们会看到大量的迭代。"
+ },
+ {
+  "seg": 589,
+  "start": 3257.552,
+  "end": 3261.915,
+  "speaker": "Unknown",
+  "en": "And I think the other side which we're going to see grow is just more people using it.",
+  "zh": "而且我认为另一个会增长的方向就是更多的人使用它。"
+ },
+ {
+  "seg": 590,
+  "start": 3262.035,
+  "end": 3265.177,
+  "speaker": "Unknown",
+  "en": "And I think that's, again, when we said, well, let's talk again in a year.",
+  "zh": "我想这正是我们刚才说的,好吧,我们一年后再聊。"
+ },
+ {
+  "seg": 591,
+  "start": 3265.477,
+  "end": 3268.72,
+  "speaker": "Unknown",
+  "en": "I'm really curious what use cases we'll have discovered in a year.",
+  "zh": "我真的很好奇一年后我们会发现哪些用例。"
+ },
+ {
+  "seg": 592,
+  "start": 3268.76,
+  "end": 3271.001,
+  "speaker": "Unknown",
+  "en": "So already, when did we launch Nexus?",
+  "zh": "那么,我们是什么时候发布 Nexus 的?"
+ },
+ {
+  "seg": 593,
+  "start": 3271.301,
+  "end": 3272.863,
+  "speaker": "Unknown",
+  "en": "That's like two months ago.",
+  "zh": "大概是两个月前。"
+ },
+ {
+  "seg": 594,
+  "start": 3273.523,
+  "end": 3280.991,
+  "speaker": "Unknown",
+  "en": "We already have seen so many different interesting use cases, which actually also helped us shape some of the internal implementation.",
+  "zh": "我们已经看到了这么多不同的有趣用例,它们实际上也帮助我们塑造了一些内部实现。"
+ },
+ {
+  "seg": 595,
+  "start": 3281.451,
+  "end": 3284.635,
+  "speaker": "Unknown",
+  "en": "So I think that has been a super interesting learning experience for us.",
+  "zh": "所以我认为这对我们来说是一段超级有趣的学习经历。"
+ },
+ {
+  "seg": 596,
+  "start": 3285.343,
+  "end": 3288.866,
+  "speaker": "Unknown",
+  "en": "Personally, really curious how that's gonna continue going forward.",
+  "zh": "就我个人而言,真的很好奇接下来它会怎么发展。"
+ },
+ {
+  "seg": 597,
+  "start": 3288.906,
+  "end": 3291.908,
+  "speaker": "Unknown",
+  "en": "So right now I can just say super exciting times.",
+  "zh": "所以现在我只能说是超级激动人心的时代。"
+ },
+ {
+  "seg": 598,
+  "start": 3292.389,
+  "end": 3293.089,
+  "speaker": "Unknown",
+  "en": "It really is.",
+  "zh": "确实是。"
+ },
+ {
+  "seg": 599,
+  "start": 3293.129,
+  "end": 3299.954,
+  "speaker": "Unknown",
+  "en": "I mean, I think it's fascinating how we're all kind of trying to rediscover how do we package data for agents as a primary consumer.",
+  "zh": "我是说,我觉得很有意思的是,我们所有人都在尝试重新探索如何为智能体这个首要消费者打包数据。"
+ },
+ {
+  "seg": 600,
+  "start": 3300.015,
+  "end": 3301.836,
+  "speaker": "Unknown",
+  "en": "And we've talked about a bunch.",
+  "zh": "我们聊了很多。"
+ },
+ {
+  "seg": 601,
+  "start": 3301.896,
+  "end": 3314.246,
+  "speaker": "Unknown",
+  "en": "I think, honestly, the coexistence with the metadata and having that be key both on the definition and retrieval side or like query and retrieval and how all of that tracks, like that's a huge step forward.",
+  "zh": "说实话，我认为元数据的共存，并让它同时在定义侧和检索侧、或者说查询与检索这一整套流程中都成为关键，这是一大步跨越。"
+ },
+ {
+  "seg": 602,
+  "start": 3314.946,
+  "end": 3316.427,
+  "speaker": "Unknown",
+  "en": "And we talked about semantic layers.",
+  "zh": "我们也谈到了语义层。"
+ },
+ {
+  "seg": 603,
+  "start": 3316.467,
+  "end": 3323.433,
+  "speaker": "Unknown",
+  "en": "I'm hearing all sorts of people were talking about, oh, we need much better semantics for agents because people just put that in their heads, but agents need it right there.",
+  "zh": "我听到各种各样的人在说，哦，我们需要为智能体提供好得多的语义，因为人们只是把那些放在脑子里，但智能体需要它们就在那里触手可及。"
+ },
+ {
+  "seg": 604,
+  "start": 3323.754,
+  "end": 3330.499,
+  "speaker": "Unknown",
+  "en": "So yeah, discovering these patterns of what needs to be co-located now and what needs to be described, it's a fun time.",
+  "zh": "所以是啊，去发现这些模式——哪些现在需要被共置、哪些需要被描述——这是个有趣的时代。"
+ },
+ {
+  "seg": 605,
+  "start": 3331,
+  "end": 3331.3,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ }
+]

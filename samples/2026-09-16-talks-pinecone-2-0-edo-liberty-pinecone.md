@@ -137,9 +137,9 @@ Nexus 相反：**在查询时**，引擎本质上在搭一个类似 Jupyter Note
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索]]<span class="pd-rz">同公司:Nexus、Pinecone · 同概念:RAG、智能体 (agent)、NoQL</span>
 - [[2025-10-06-talks-agents-for-complex-software-engineering|Vibe debugging：代码生成之后，生产环境才是真正的硬仗]]<span class="pd-rz">同概念:智能体 (agent)、部落知识 (tribal knowledge)</span>
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图]]<span class="pd-rz">同概念:RAG、智能体 (agent)</span>
-- [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟]]<span class="pd-rz">同概念:RAG、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

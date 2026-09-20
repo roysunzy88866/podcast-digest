@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"Transformer":8,"Attention is All You Need":1,"LLM":37,"GPU":16,"OpenAI":123,"开源运动":1,"编码智能体":13,"分布式模型":1,"研究突破":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"Transformer":8,"Attention is All You Need":1,"LLM":38,"GPU":17,"OpenAI":123,"开源运动":1,"编码智能体":13,"分布式模型":1,"研究突破":1}</script>
 
 <script>
 (function(){

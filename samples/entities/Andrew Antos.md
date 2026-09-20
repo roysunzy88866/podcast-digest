@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"产品市场契合":21,"产品-市场-创始人契合":1,"公司大脑":2,"智能体":277,"MCP":46,"go-to-market":8,"NDA 审查工具":1,"客户之声":1}</script>
+<script type="application/json" class="pd-epn">{"产品市场契合":21,"产品-市场-创始人契合":1,"公司大脑":2,"智能体":281,"MCP":48,"go-to-market":8,"NDA 审查工具":1,"客户之声":1}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 [[MCP]] · [[Claude]] · [[智能体]] · [[ChatGPT]] · [[Dustin Mihalik]] · [[Jeremiah Lowin]] · [[Liad Yosef]] · [[Indeed]] · [[FastMCP]] · [[智能体网络]]
 
-<script type="application/json" class="pd-epn">{"MCP":46,"Claude":60,"智能体":277,"ChatGPT":74,"Dustin Mihalik":1,"Jeremiah Lowin":1,"Liad Yosef":1,"Indeed":1,"FastMCP":1,"智能体网络":3}</script>
+<script type="application/json" class="pd-epn">{"MCP":48,"Claude":60,"智能体":281,"ChatGPT":74,"Dustin Mihalik":1,"Jeremiah Lowin":1,"Liad Yosef":1,"Indeed":1,"FastMCP":1,"智能体网络":3}</script>
 
 <script>
 (function(){

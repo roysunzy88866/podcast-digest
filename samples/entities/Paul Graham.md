@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Kevin Ball]] [[Rob Goldberg]] [[Brad Gerstner]]
+[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":15,"OpenAI":123,"ChatGPT":74,"GitLab":1,"StarCloud":3,"Reddit":7,"AGI":25,"推理":48,"图灵测试":2}</script>
+<script type="application/json" class="pd-epn">{"YC":15,"OpenAI":123,"ChatGPT":74,"GitLab":1,"StarCloud":3,"Reddit":7,"AGI":25,"推理":50,"图灵测试":2}</script>
 
 <script>
 (function(){

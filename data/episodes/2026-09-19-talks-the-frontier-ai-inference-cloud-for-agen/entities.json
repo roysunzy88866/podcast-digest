@@ -1,0 +1,793 @@
+{
+  "episode_id": "2026-09-19-talks-the-frontier-ai-inference-cloud-for-agen",
+  "podcast": "精选演讲",
+  "date": "2026-09-19",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "推理",
+    "开放权重模型",
+    "KV 缓存"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "byung-gon-gon-chun",
+      "type": "person",
+      "role": "guest",
+      "name": "Byung-Gon (Gon) Chun",
+      "file": "Byung-Gon (Gon) Chun",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "friendly-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Friendly AI",
+      "file": "Friendly AI",
+      "primary": true,
+      "how_described": "本集把它说成:面向智能体的前沿 AI 推理云,为智能体大规模运行推理,更快、更便宜、更可靠,围绕端到端任务延迟重建了整个技术栈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            25.315,
+            27.896
+          ],
+          "quote": "I'm Gon, founder and CEO of Friendly AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            41.007,
+            44.871
+          ],
+          "quote": "Before we go deeper, let me briefly introduce Friendly AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            45.631,
+            48.994
+          ],
+          "quote": "Friendly AI is the frontier AI inference cloud for agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            139.55,
+            144.272
+          ],
+          "quote": "On the left is GLM 5.2, an open-weight model running on friendly AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            354.156,
+            361.843
+          ],
+          "quote": "We ran explain the spec decoding framework in VLLM using Claude Code with GLM 5.2 on friendly AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            423.006,
+            424.867
+          ],
+          "quote": "This is where Friendly AI comes in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            696.438,
+            703.644
+          ],
+          "quote": "Now plug-in open-weight frontier models like GLM 5.2, Minimax, and Kimi served on friendly AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            710.519,
+            716.782
+          ],
+          "quote": "Friendly AI gives you the speed, reliability, and end-to-end task performance needed in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            729.389,
+            735.432
+          ],
+          "quote": "Friendly AI is currently powering teams in production from AI-native startups to global enterprises.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            776.952,
+            791.938
+          ],
+          "quote": "In a split test of GLM-5 usage compared against other third-party providers and direct usage from the Model Lab G.AI, Friendly AI was consistently seven times faster with a significantly lower error rate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            793.238,
+            797.66
+          ],
+          "quote": "Today, Friendly AI is a core component of the Claude stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            850.683,
+            859.749
+          ],
+          "quote": "Third, Friendly AI is built as an inference cloud for that word, fast, reliable, cost-effective agentic inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            865.233,
+            873.559
+          ],
+          "quote": "If your building agents give Frontier Openweight motors a try on Friendly AI today, you can get started at Friendly.ai in minutes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体推理 (agentic inference)",
+      "file": "智能体推理",
+      "primary": true,
+      "how_described": "本集说它是与聊天完全不同的问题:基本单元是任务而非请求,上下文随时间增长、工具工作交错在模型调用之间,真正要优化的是端到端任务延迟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            28.396,
+            30.597
+          ],
+          "quote": "Today, I want to talk about agentic inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            341.019,
+            344.4
+          ],
+          "quote": "So this is one of the biggest opportunities in agentic inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            755.341,
+            762.842
+          ],
+          "quote": "Very different companies, but they all need the same thing, fast, reliable, cost-effective agentic inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            850.683,
+            859.749
+          ],
+          "quote": "Third, Friendly AI is built as an inference cloud for that word, fast, reliable, cost-effective agentic inference.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:能自主规划、调用工具、循环执行任务的大模型程序,可创建子智能体并行运行,2026 年正大规模进入生产环境。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            131.707,
+            138.49
+          ],
+          "quote": "Here, we gave the exact same task, building a tower defense game with a coding agent to two models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            255.966,
+            258.447
+          ],
+          "quote": "Let's look at agent to grow close more closely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            259.067,
+            262.468
+          ],
+          "quote": "An agent really runs a session made up of tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            294.462,
+            298.364
+          ],
+          "quote": "An agent can also create sub-agents and run them in parallel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            301.206,
+            303.848
+          ],
+          "quote": "Agent inputs also look very different from chat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            304.608,
+            315.235
+          ],
+          "quote": "The graph here shows the prompt and completion length distributions of our internal coding agent ones with GLM 5.2, which we use day-to-day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            327.776,
+            332.077
+          ],
+          "quote": "Consecutive agent steps usually share a huge prefix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            450.125,
+            453.367
+          ],
+          "quote": "We built the stack layer by layer around agent-equal clause.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            460.688,
+            468.373
+          ],
+          "quote": "Key value, in short, KB, cache management, cache-aware routing, agent-aware optimization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            490.32,
+            497.189
+          ],
+          "quote": "Since agent steps share a large prefix, we compute key value for the prefix ones and cache it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            607.953,
+            614.979
+          ],
+          "quote": "The next piece is agent-aware optimization, and this is the next frontier of agent inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            621.761,
+            626.362
+          ],
+          "quote": "They don't really understand that this core is part of a longer agent program.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            627.922,
+            633.083
+          ],
+          "quote": "But if the optimizer knows the agent-level context, it can make better decisions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            639.394,
+            648.782
+          ],
+          "quote": "Typically pre-filling context for a likely next step or making a better cache eviction decision based on agent-level context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            676.009,
+            684.671
+          ],
+          "quote": "As you can see, FriendlyAI completes the same task end-to-end to act faster thanks to our agent-centric cloud design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            689.593,
+            692.274
+          ],
+          "quote": "A stronger production agent stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            693.674,
+            695.475
+          ],
+          "quote": "Take an agent you already like.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-weight-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open-weight models)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集说它已达到前沿水平、跨过质量阈值,同样任务成本比闭源模型便宜 5.6 倍,让智能体在经济上可行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            126.385,
+            130.827
+          ],
+          "quote": "Open-weight models are now strong enough for these types of real-agentic workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            158.921,
+            164.225
+          ],
+          "quote": "For many agentic workflows, open-weight models have crossed the quality threshold.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集把推理说成智能体时代的核心负载,推理栈本身必须为任务而非单请求重建。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            28.396,
+            30.597
+          ],
+          "quote": "Today, I want to talk about agentic inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            31.117,
+            38.52
+          ],
+          "quote": "So I'll first walk through what changed, why it matters, and how we rebuilt the inference cloud for agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            45.631,
+            48.994
+          ],
+          "quote": "Friendly AI is the frontier AI inference cloud for agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            49.315,
+            54.419
+          ],
+          "quote": "So we run inference for agents at scale, faster, cheaper, and more reliably.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            66.572,
+            75.519
+          ],
+          "quote": "The inference optimization that is now standard across the industry and our old car work inspired 3LLM, a widely used open source framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            76.98,
+            83.265
+          ],
+          "quote": "Today we operate globally, headquartered in San Francisco with a team in Seoul to scale frontier inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            195.589,
+            201.915
+          ],
+          "quote": "To make agents actually fast and reliable, the inference stack itself has to change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            282.493,
+            289.558
+          ],
+          "quote": "So we are constantly alternating between LLM inference and one or more non-LLM tool executions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            341.019,
+            344.4
+          ],
+          "quote": "So this is one of the biggest opportunities in agentic inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            372.874,
+            378.88
+          ],
+          "quote": "So it might run tens or even hundreds of inference steps, sometimes over minutes or hours.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            395.17,
+            399.071
+          ],
+          "quote": "So agency inference is not just chat with more requests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            425.127,
+            431.768
+          ],
+          "quote": "We rebuilt the Frontier Inference Cloud specifically for agency goal codes around the challenges I just walked through.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            607.953,
+            614.979
+          ],
+          "quote": "The next piece is agent-aware optimization, and this is the next frontier of agent inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            668.186,
+            674.868
+          ],
+          "quote": "We ran the same task with model APIs of FriendlyAI and another well-known inference provider.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            755.341,
+            762.842
+          ],
+          "quote": "Very different companies, but they all need the same thing, fast, reliable, cost-effective agentic inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            770.249,
+            776.151
+          ],
+          "quote": "Over the past year, Claude Code has tested several inference providers hosting both open and closed models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            817.503,
+            823.986
+          ],
+          "quote": "And BYOG, bringing your own GPU, lets you run friendly inference on your own infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            843.292,
+            849.355
+          ],
+          "quote": "Agenting inference requires optimizing end-to-end task latency with the challenges I mentioned.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            850.683,
+            859.749
+          ],
+          "quote": "Third, Friendly AI is built as an inference cloud for that word, fast, reliable, cost-effective agentic inference.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "continuous-batching",
+      "type": "concept",
+      "role": "concept",
+      "name": "连续批处理 (continuous batching)",
+      "file": "连续批处理",
+      "primary": true,
+      "how_described": "本集说这是 Friendly AI 团队发明的推理优化技术,让多个请求动态合并进同一批处理,如今已成为全行业标准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            63.168,
+            65.47
+          ],
+          "quote": "We are the team that invented continuous batching.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prefix-caching",
+      "type": "concept",
+      "role": "concept",
+      "name": "前缀缓存 (prefix caching)",
+      "file": "前缀缓存",
+      "primary": true,
+      "how_described": "本集说它是四大支柱之一:相邻智能体步骤共享巨大前缀,只计算一次键值并缓存、后续复用,避免在已做过的工作上重复烧算力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            454.408,
+            459.232
+          ],
+          "quote": "There are four big pillars I'm going to cover today, prefix caching,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            488.197,
+            489.779
+          ],
+          "quote": "Let's start with prefix caching.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kv-cache-management",
+      "type": "concept",
+      "role": "concept",
+      "name": "KV 缓存管理 (KV cache management)",
+      "file": "KV 缓存管理",
+      "primary": true,
+      "how_described": "本集说缓存要有效得装得下、搬得动,靠节俭内存管理、KV 量化、跨 GPU/主机/磁盘的分层缓存和分布式缓存实现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            528.958,
+            532.04
+          ],
+          "quote": "So we need strong KV cache management.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cache-aware-routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "缓存感知路由 (cache-aware routing)",
+      "file": "缓存感知路由",
+      "primary": true,
+      "how_described": "本集说朴素负载均衡会破坏缓存局部性,缓存感知路由把请求发到已缓存正确前缀的 pod,把冷启动预填充变成热缓存命中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            460.688,
+            468.373
+          ],
+          "quote": "Key value, in short, KB, cache management, cache-aware routing, agent-aware optimization.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-aware-optimization",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体感知优化 (agent-aware optimization)",
+      "file": "智能体感知优化",
+      "primary": true,
+      "how_described": "本集称它是智能体推理的下一个前沿:让优化器理解智能体层面的上下文,做抢占、为下一步预填充、优化缓存淘汰,降低端到端任务延迟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            460.688,
+            468.373
+          ],
+          "quote": "Key value, in short, KB, cache management, cache-aware routing, agent-aware optimization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            607.953,
+            614.979
+          ],
+          "quote": "The next piece is agent-aware optimization, and this is the next frontier of agent inference.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "glm-5-2",
+      "type": "concept",
+      "role": "concept",
+      "name": "GLM 5.2",
+      "file": "GLM 5.2",
+      "primary": true,
+      "how_described": "本集把它说成:运行在 Friendly AI 上的开放权重模型,完成塔防游戏任务只要 0.27 美元、比 Opus 4.8 便宜 5.6 倍,质量明显可用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            139.55,
+            144.272
+          ],
+          "quote": "On the left is GLM 5.2, an open-weight model running on friendly AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            175.134,
+            177.816
+          ],
+          "quote": "GLM 5.2 unfriendly AI costs $0.27.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            304.608,
+            315.235
+          ],
+          "quote": "The graph here shows the prompt and completion length distributions of our internal coding agent ones with GLM 5.2, which we use day-to-day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            354.156,
+            361.843
+          ],
+          "quote": "We ran explain the spec decoding framework in VLLM using Claude Code with GLM 5.2 on friendly AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            661.792,
+            667.417
+          ],
+          "quote": "We are using the same model, GLM 5.2, with Kilo code to create a simple mobile game.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            696.438,
+            703.644
+          ],
+          "quote": "Now plug-in open-weight frontier models like GLM 5.2, Minimax, and Kimi served on friendly AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vllm",
+      "type": "concept",
+      "role": "concept",
+      "name": "vLLM",
+      "file": "vLLM",
+      "primary": false,
+      "how_described": "本集说 Friendly AI 团队早年的工作启发了这个被广泛使用的开源推理框架;深度研究示例也以解释 vLLM 中的 spec decoding 框架为任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            354.156,
+            361.843
+          ],
+          "quote": "We ran explain the spec decoding framework in VLLM using Claude Code with GLM 5.2 on friendly AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

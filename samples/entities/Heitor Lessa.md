@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Andrew Barba]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":277,"规范驱动开发":1,"苏格拉底方法":1,"对抗性审查":1,"合并检查":1,"命令":1,"技能":16,"确定性":2,"伪造证据":1,"三层模型分层":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":281,"规范驱动开发":1,"苏格拉底方法":1,"对抗性审查":1,"合并检查":1,"命令":1,"技能":16,"确定性":2,"伪造证据":1,"三层模型分层":1}</script>
 
 <script>
 (function(){

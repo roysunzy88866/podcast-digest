@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dave Fletcher":1,"Lead Dev":1,"AI 编码工具":1,"可观测性":22,"CI-CD":10,"技术债务":3,"AI 优先":2,"DevTools":1}</script>
+<script type="application/json" class="pd-epn">{"Dave Fletcher":1,"Lead Dev":1,"AI 编码工具":1,"可观测性":23,"CI-CD":10,"技术债务":3,"AI 优先":2,"DevTools":1}</script>
 
 <script>
 (function(){

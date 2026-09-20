@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPU</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>16</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>17</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -27,6 +27,7 @@ unlisted: true
 - **[[2026-09-04-talks-open-models-change-the-economics-of-ai|《Ollama CEO：开源模型正吃掉企业 80-90% 的 token》]]**(27:22起):本集谈 GPU 市场价格波动剧烈、B200/B300 一卡难求,Ollama 靠与多家提供商汇集 GPU 容量才跟得上需求。
 - **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(03:48起):本集主线：租一年 H100 的钱是买价的 1.5 倍，确定性负载应直接买断；训练用最新芯片、推理可降级用老款（还在用 K80），芯片不似汽车有磨损，多余容量可转租，几乎不亏。
 - **[[2026-09-07-a16z-can-open-source-keep-ai-power-from-conce|《Transformer 不满十岁：AI 集中不是宿命》]]**(03:44起):嘉宾买了块 5090 RTX GPU,算力超过当年团队做 transformer 研究用的八台 8GPU 机器,说明个人做机器学习研究的门槛已极低
+- **[[2026-09-19-talks-operating-distributed-inference-systems|《推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道》]]**(04:42起):本集说推理必须跑 GPU——比 CPU 贵 100 倍、获取慢 10 倍,不能随意超额配置,且 GPU 故障会通过反馈循环引发级联失败
 
 ## ① 提到它的金句
 
@@ -38,7 +39,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*16 集*
+*17 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为概念
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为概念
@@ -56,14 +57,15 @@ unlisted: true
 - [[2026-09-04-talks-open-models-change-the-economics-of-ai|《Ollama CEO：开源模型正吃掉企业 80-90% 的 token》]] — 作为概念
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为概念
 - [[2026-09-07-a16z-can-open-source-keep-ai-power-from-conce|《Transformer 不满十岁：AI 集中不是宿命》]] — 作为概念
+- [[2026-09-19-talks-operating-distributed-inference-systems|《推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[推理]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Cursor]] · [[OpenRouter]] · [[token]] · [[Google]] · [[SaaS]]
+[[推理]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Cursor]] · [[OpenRouter]] · [[token]] · [[Meta]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"推理":48,"NVIDIA":39,"OpenAI":123,"Anthropic":130,"智能体":277,"Cursor":63,"OpenRouter":10,"token":22,"Google":46,"SaaS":17}</script>
+<script type="application/json" class="pd-epn">{"推理":50,"NVIDIA":39,"OpenAI":123,"Anthropic":130,"智能体":281,"Cursor":63,"OpenRouter":10,"token":22,"Meta":35,"Google":46}</script>
 
 <script>
 (function(){

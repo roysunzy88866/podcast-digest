@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Martine Cassado]] [[Diana]] [[Jared]] [[Wade Foster]] [[Liam Dunne]] [[Ben Moore]] [[Shar Dara]]
+[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Shar Dara":1,"Kevin Ball":1,"Eve":3,"Vercel":17,"DZero":1,"智能体":277,"评估":2,"技能":16,"MCP":46,"沙箱":53}</script>
+<script type="application/json" class="pd-epn">{"Shar Dara":1,"Kevin Ball":2,"Eve":3,"Vercel":17,"DZero":1,"智能体":281,"评估":2,"技能":16,"MCP":48,"沙箱":53}</script>
 
 <script>
 (function(){
