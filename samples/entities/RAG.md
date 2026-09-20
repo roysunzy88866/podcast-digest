@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RAG</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RAG">RA</div><div class="pi"><h1 class="pt">RAG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>12</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RAG">RA</div><div class="pi"><h1 class="pt">RAG</h1><div class="byl">概念</div><div class="nums">本站收录 <b>13</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -22,6 +22,7 @@ unlisted: true
 - **[[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]]**(11:32起):本集说 RAG 是了不起的技术,但单独答不了「过去一周我参与过哪些关于鉴权的开放 PR」这类关系型问题,需要让智能体发现 schema 并确定性查询来补
 - **[[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are|《AWS 杰出工程师：智能体时代，难的不是写代码，是写规格》]]**(50:16起):本集说人们嘲笑 RAG 过时了，但底线是让智能体对组织中的信息做语义搜索仍然是一种非常强大的技术。
 - **[[2026-09-16-talks-connect-ai-to-billions-of-legal-document|《法律 AI 的搜索之战：从 Elasticsearch 到对象存储原生》]]**(12:01起):本集顺带提到单次 RAG 式查询与智能体多次查询的对比，用来说明延迟累加问题。
+- **[[2026-09-16-talks-pinecone-2-0-edo-liberty-pinecone|《给智能体一个「知识层」：让 AI 不再是入职第一天的聪明新员工》]]**(03:02起):本集说 RAG 和搜索等工具早就基本解决了公司特定知识的检索问题，但它拿不到部落知识——换 CEO 后 RAG 搜索仍会告诉你旧答案。
 - **[[2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe|《分块没死:用多尺度索引把 RAG 提升 20-40%》]]**(00:45起):本集反复讨论的框架:流行的说法是「RAG 已死」,但 Yuval 认为检索没死、只是沦为 2022 年水平的基础设施;RAG 分为无聊的索引阶段和每次查询时发生的检索阶段
 
 ## ① 提到它的金句
@@ -32,7 +33,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为概念
 - [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|《Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事》]] — 作为概念
@@ -45,6 +46,7 @@ unlisted: true
 - [[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]] — 作为概念
 - [[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are|《AWS 杰出工程师：智能体时代，难的不是写代码，是写规格》]] — 作为概念
 - [[2026-09-16-talks-connect-ai-to-billions-of-legal-document|《法律 AI 的搜索之战：从 Elasticsearch 到对象存储原生》]] — 作为概念(提及)
+- [[2026-09-16-talks-pinecone-2-0-edo-liberty-pinecone|《给智能体一个「知识层」：让 AI 不再是入职第一天的聪明新员工》]] — 作为概念
 - [[2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe|《分块没死:用多尺度索引把 RAG 提升 20-40%》]] — 作为概念
 
 ## ③ 关联
@@ -53,7 +55,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[上下文工程]] · [[Lenny]] · [[后训练]] · [[Garry Tan]] · [[Claude Code]] · [[上下文]] · [[Nathan]] · [[智能体记忆]]
 
-<script type="application/json" class="pd-epn">{"智能体":274,"Anthropic":130,"上下文工程":12,"Lenny":67,"后训练":26,"Garry Tan":2,"Claude Code":64,"上下文":17,"Nathan":4,"智能体记忆":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":276,"Anthropic":130,"上下文工程":12,"Lenny":67,"后训练":26,"Garry Tan":2,"Claude Code":64,"上下文":17,"Nathan":4,"智能体记忆":2}</script>
 
 <script>
 (function(){

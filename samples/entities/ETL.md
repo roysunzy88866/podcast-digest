@@ -27,7 +27,7 @@ unlisted: true
 
 [[Databricks]] · [[Google]] · [[Colin Zima]] · [[Ofir Ehrlich]] · [[Omni]] · [[Gonen Stein]] · [[Looker]] · [[Eon]] · [[Snowflake]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Databricks":13,"Google":45,"Colin Zima":1,"Ofir Ehrlich":1,"Omni":1,"Gonen Stein":1,"Looker":1,"Eon":1,"Snowflake":9,"智能体":274}</script>
+<script type="application/json" class="pd-epn">{"Databricks":13,"Google":46,"Colin Zima":1,"Ofir Ehrlich":1,"Omni":1,"Gonen Stein":1,"Looker":1,"Eon":1,"Snowflake":9,"智能体":276}</script>
 
 <script>
 (function(){

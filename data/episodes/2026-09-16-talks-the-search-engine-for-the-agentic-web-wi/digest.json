@@ -1,0 +1,184 @@
+{
+  "title_zh": "AI 搜索量今年将超过人类：Exa 的完美搜索宣言",
+  "tldr": "Exa 创始人讲述为 AI 智能体打造搜索引擎的历程：AI 搜索量即将反超人类，Google 式推荐引擎正在被淘汰。",
+  "digest_md": "Exa 是一家为 AI 智能体打造搜索引擎的公司——Cursor 编程智能体底层搜技术文档、HubSpot 帮用户找销售名单，用的都是它。现在它服务超过 5000 家公司、40 万开发者。演讲者是 Exa 的创始人(本集是他的一场公开演讲)。\n\n> 【背景】演讲者为 Exa 联合创始人兼 CEO Will Bryk,Exa 曾用名 Metaphor,是第一家专门面向 AI 的搜索引擎公司。\n\n他的开场钩子：过去 30 年的网络搜索几乎全来自人类，但**今年，AI 系统的每日搜索量预计将超过人类**；而未来几年，会是人类的一千倍。一千倍是什么概念？「那种量级甚至无法在图表上呈现出来」。当每个软件产品里都嵌着 AI,每一次交互都以搜索为根基，搜索的天量时代正在到来。\n\n## 为什么 Google 不够了\n\n问题被一句话概括为「被误导的无政府状态」。互联网有万亿级别的页面,装不进任何人的脑子，所以我们需要信息工具来过滤和综合——我们有 Google。但 Google 并不是想成为「精确给你想要东西的世界信息数据库」，「它更像是一个推荐引擎」。\n\n两个例子说明差别。搜「没有条纹的衬衫」，你得到的是带条纹的衬衫。而「帮我找出所有在新加坡从事 AI 搜索工作的人，以及他们写过的每篇博客或论文」——你从没在 Google 里输入过这种查询，因为你知道不会管用：你只会得到含某些关键词的链接，而不是「列出全部 412 个匹配者的数据库结果」。\n\n推论很严肃：没人对任何事有完整理解。「当我在 SF 走路看到周围的人，我常常会想：没有人知道这个世界上正在发生什么」。演讲者认为这是「最重要且最被忽视的问题」——如果人们不理解世界、却拥有越来越强的 AI,就会被操纵、做出糟糕决策，走向反乌托邦；修好信息基础设施，才谈得上协调。\n\n## 从「更好的 Google」到 AI 搜索 API\n\n2021 年创立时的核心想法很直接：GPT-3(当时的 GB3)输入一段文字就能完全理解你，那「如果你能把 GB3 的力量和搜索引擎结合起来呢」?思想实验是：拿一个复杂查询对每份文档跑一遍大模型、判断是否匹配——对一万亿份文档都这么跑，就得到接近完美的搜索引擎。「问题是那样每次搜索要花大约 1000 万美元」,所以真正的问题是把这个成本降低十亿倍甚至万亿倍。\n\n> 【背景】转写稿中的「GB3」「GB5」即 GPT-3、GPT-5 的语音识别误写。\n\n技术路线：传统关键词搜索高效但只能处理简单查询，复杂查询必须用神经网络。做法是把每份文档**预处理成 embedding**(把文本编码成一串数字向量，捕捉神经网络的语义理解)，检索时用这些向量匹配——这样就能处理「没有条纹的衬衫」。他们是较早信奉「堆更多层」(bitter lesson,即相信规模化算力和通用方法终将胜出的理念)的公司，创业初期融了几百万美元，「把其中一半花在了一个 GPU 集群上。在当时那简直是疯了」。\n\n2022 年产品发布时公司还叫 Metaphor,两周后 ChatGPT 问世，改变了一切。而拯救这家公司的，是 Twitter 上陌生人索要搜索 API 的消息。「我们从来没想过这会变成一个 API。我们只是想做一个更好的 Google 搜索，以后再想办法赚钱」。请求越来越多，他们很快想通：再大的模型和互联网相比也是微不足道的，「你永远不会有 GB6、GB7 能知道世界上所有的事情，它需要连接一个检索引擎」。AI 不仅会搜索，还会以和人类完全不同的方式搜索——「如果对人类最优的搜索引擎对 AI 系统同样最优，那就太疯狂了」。而且这条路和初心完美契合：「AI 系统真正想要的是完美搜索。它们不想要 SEO,不想要广告，只想要一个几乎像世界信息数据库一样的东西」。2023 年他们预言 AI 搜索量将超过人类，三年后成真。\n\n## 现在的 Exa 能做什么\n\n不是一个搜索引擎，而是按需求灵活组合的一族能力：\n\n- **复杂查询当数据库用**：「找出 YC 投资的、做 AI 的每一家创业公司，给我它们的批次和状态」——查询可以任意复杂，可能要花几分钟，但能拿到完整的列表。\n- **最快的搜索 API**:200 毫秒的搜索端点，「对人类来说快得过分，但我们服务的不是人类」。语音智能体场景下每一毫秒都影响响应。\n- **省 token 的提取**：给 10 篇文档，只返回其中最重要的约 100 个 token,直接省下游 LLM 成本。\n- **结构化输出**：招聘智能体要「最近离开大实验室的工程师 + 被引用最多的论文 + 毕业院校和年份」，直接给结构化结果。\n\n关键理念：「完美搜索不是一个东西。实际上我们是为 5000 个客户建了 5000 个搜索引擎」——要超快还是要最高质量、只搜某些域名、限定时间窗口、永远排除产品页，客户说了算。\n\n新发布的 ExaConnect 则把版图从公开网页扩到私有数据：智能体不在乎信息来自哪里，「它们只想要真相」。数据提供方可以接入 Exa 定价自己的内容，开发者付费访问——「基本上是创造了一个面向智能体的新市场」，一个数据自由市场。\n\n## 「完美信息」是什么感觉\n\n终极目标很难描述，他给了两个类比：「就像你把一年的研究压缩在了一秒钟之内」——无论找人、找公司还是找新闻，想象你把整个 2026 年都用来做研究，然后一秒拿到结果。而且要为 AI 智能体的每一次搜索都做到这一点。\n\n节奏上，「现在每一两个季度，我们取得的进展就相当于过去五年的进展」。他把这件事的分量挂在 2028 年美国总统大选上：希望到那时全世界都能获得近乎完美的信息，让每个人投票时都是知情的。结尾的判断是：技术已经足够好，「真正的问题只是我们能否协调一致，共同就明智的事情做出决定。而协调来自我们所消费的信息」。\n\n## 本集带走\n\n- **AI 搜索量今年反超人类，未来几年将达人类的一千倍**——搜索引擎的下游客户正在从人变成智能体，产品逻辑要整个重想。\n- **Google 本质是推荐引擎，不是信息数据库**：它能推荐一些结果，但答不了「列出所有匹配者」这种查询；语义检索(embedding)是补上这块的关键技术。\n- **AI 需要搜索的结构性理由**：再大的模型也装不下互联网，永远需要外接检索引擎；而为人类设计的搜索引擎不会恰好对 AI 最优。\n- **「完美搜索」不是单一产品**：快(200 毫秒)、全(任意复杂查询)、省(只回 100 个 token)、结构化输出，按客户场景灵活组合，等于给每个客户定制一个搜索引擎。\n- **信息质量的社会分量**：搜索结果够真、够全，是知情公民和有效协调的前提——演讲者视其为最被忽视的关键基础设施。",
+  "quotes": [
+    {
+      "en": "And actually, this year, we expect the number of searches from AI systems to exceed that of humans.",
+      "zh": "而且实际上，今年我们预计来自 AI 系统的搜索量将超过人类的搜索量。",
+      "timestamp": "00:54",
+      "speaker": "Will Bryk"
+    },
+    {
+      "en": "to me, solving information is the most important and neglected problem.",
+      "zh": "对我来说，解决信息问题是最重要且最被忽视的问题。",
+      "timestamp": "05:30",
+      "speaker": "Will Bryk"
+    },
+    {
+      "en": "The problem is that would cost, like, $10 million per search.",
+      "zh": "问题是那样每次搜索要花，比如，1000 万美元。",
+      "timestamp": "06:24",
+      "speaker": "Will Bryk"
+    },
+    {
+      "en": "We spent half of it on a GPU cluster. That was crazy at the time.",
+      "zh": "我们把其中一半花在了一个 GPU 集群上。在当时那简直是疯了。",
+      "timestamp": "07:43",
+      "speaker": "Will Bryk"
+    },
+    {
+      "en": "We were just trying to build a better search on Google. We'll figure out how to make money later.",
+      "zh": "我们只是想做一个更好的 Google 搜索，以后再想办法怎么赚钱。",
+      "timestamp": "08:42",
+      "speaker": "Will Bryk"
+    },
+    {
+      "en": "And it would be crazy if the same search engine that was optimal for humans was also optimal for these AI systems.",
+      "zh": "如果对人类最优的搜索引擎对 AI 系统同样最优，那就太疯狂了。",
+      "timestamp": "09:46",
+      "speaker": "Will Bryk"
+    },
+    {
+      "en": "They don't want SEO, they don't want ads, they just want almost like a database of the world's information, which is what we were always trying to build.",
+      "zh": "它们不想要 SEO,不想要广告，它们只想要一个几乎像世界信息数据库一样的东西，而这正是我们一直在努力构建的。",
+      "timestamp": "10:14",
+      "speaker": "Will Bryk"
+    },
+    {
+      "en": "It's way too fast for humans, right? But we're not serving humans. We're serving AI systems.",
+      "zh": "它对人类来说快得过分了，对吧？但我们服务的不是人类。我们服务的是 AI 系统。",
+      "timestamp": "11:35",
+      "speaker": "Will Bryk"
+    },
+    {
+      "en": "It's actually we have 5,000 search engines for each of our 5,000 customers, right?",
+      "zh": "实际上是我们为 5000 个客户中的每一个都建了 5000 个搜索引擎，对吧？",
+      "timestamp": "12:52",
+      "speaker": "Will Bryk"
+    },
+    {
+      "en": "Another way you could think about it is like it's as if you did a year of research in a second.",
+      "zh": "另一种理解方式是，就像你把一年的研究压缩在了一秒钟之内。",
+      "timestamp": "15:14",
+      "speaker": "Will Bryk"
+    },
+    {
+      "en": "Like that's just coordination problems and coordination comes from the information we consume.",
+      "zh": "这就是协调问题，而协调来自我们所消费的信息。",
+      "timestamp": "17:16",
+      "speaker": "Will Bryk"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:54",
+      "speaker": "Unknown",
+      "en": "And actually, this year, we expect the number of searches from AI systems to exceed that of humans.",
+      "zh": "而且实际上，今年我们预计来自 AI 系统的搜索量将超过人类的搜索量。"
+    },
+    {
+      "timestamp": "01:00",
+      "speaker": "Unknown",
+      "en": "And then in the next few years, it should be 1,000 times more.",
+      "zh": "而在接下来几年里，应该会是它的一千倍。"
+    },
+    {
+      "timestamp": "03:22",
+      "speaker": "Unknown",
+      "en": "It's kind of like a recommendation engine.",
+      "zh": "它更像是一个推荐引擎。"
+    },
+    {
+      "timestamp": "03:36",
+      "speaker": "Unknown",
+      "en": "You're going to get links and documents that contain some of those words, but not actually a database result of all 412 people who match.",
+      "zh": "你会得到一些包含其中某些词的链接和文档，但并不是一个列出所有 412 个匹配者的数据库结果。"
+    },
+    {
+      "timestamp": "04:16",
+      "speaker": "Unknown",
+      "en": "Everyone's like this, including myself.",
+      "zh": "每个人都是这样，包括我自己。"
+    },
+    {
+      "timestamp": "04:50",
+      "speaker": "Unknown",
+      "en": "And I think this is extremely important, so important that if we don't fix this problem,",
+      "zh": "而且我认为这极其重要，重要到如果我们不解决这个问题，"
+    },
+    {
+      "timestamp": "05:32",
+      "speaker": "Unknown",
+      "en": "to me, solving information is the most important and neglected problem.",
+      "zh": "对我来说，解决信息问题是最重要且最被忽视的问题。"
+    },
+    {
+      "timestamp": "06:24",
+      "speaker": "Unknown",
+      "en": "The problem is that would cost, like, $10 million per search.",
+      "zh": "问题是那样每次搜索要花，比如，1000 万美元。"
+    },
+    {
+      "timestamp": "07:44",
+      "speaker": "Unknown",
+      "en": "We spent half of it on a GPU cluster. That was crazy at the time.",
+      "zh": "我们把其中一半花在了一个 GPU 集群上。在当时那简直是疯了。"
+    },
+    {
+      "timestamp": "08:42",
+      "speaker": "Unknown",
+      "en": "We were just trying to build a better search on Google. We'll figure out how to make money later.",
+      "zh": "我们只是想做一个更好的 Google 搜索，以后再想办法怎么赚钱。"
+    },
+    {
+      "timestamp": "09:14",
+      "speaker": "Unknown",
+      "en": "It needs to be connected to a retrieval engine.",
+      "zh": "它需要连接到一个检索引擎。"
+    },
+    {
+      "timestamp": "09:46",
+      "speaker": "Unknown",
+      "en": "And it would be crazy if the same search engine that was optimal for humans was also optimal for these AI systems.",
+      "zh": "如果对人类最优的搜索引擎对 AI 系统同样最优，那就太疯狂了。"
+    },
+    {
+      "timestamp": "10:14",
+      "speaker": "Unknown",
+      "en": "They don't want SEO, they don't want ads, they just want almost like a database of the world's information, which is what we were always trying to build.",
+      "zh": "它们不想要 SEO,不想要广告，它们只想要一个几乎像世界信息数据库一样的东西，而这正是我们一直在努力构建的。"
+    },
+    {
+      "timestamp": "11:36",
+      "speaker": "Unknown",
+      "en": "It's way too fast for humans, right? But we're not serving humans. We're serving AI systems.",
+      "zh": "它对人类来说快得过分了，对吧？但我们服务的不是人类。我们服务的是 AI 系统。"
+    },
+    {
+      "timestamp": "12:52",
+      "speaker": "Unknown",
+      "en": "It's actually we have 5,000 search engines for each of our 5,000 customers, right?",
+      "zh": "实际上是我们为 5000 个客户中的每一个都建了 5000 个搜索引擎，对吧？"
+    },
+    {
+      "timestamp": "13:49",
+      "speaker": "Unknown",
+      "en": "They just want the truth, right?",
+      "zh": "它们只想要真相，对吧？"
+    },
+    {
+      "timestamp": "15:14",
+      "speaker": "Unknown",
+      "en": "Another way you could think about it is like it's as if you did a year of research in a second.",
+      "zh": "另一种理解方式是，就像你把一年的研究压缩在了一秒钟之内。"
+    },
+    {
+      "timestamp": "17:16",
+      "speaker": "Unknown",
+      "en": "Like that's just coordination problems and coordination comes from the information we consume.",
+      "zh": "这就是协调问题，而协调来自我们所消费的信息。"
+    }
+  ],
+  "voice_script": "今天要讲的这家公司叫 Exa,是第一家专门面向 AI 的搜索引擎公司。Cursor 写代码时底层搜技术文档，HubSpot 帮用户找销售名单，用的都是它。现在有超过五千家公司、四十万开发者在用它。讲这期的是 Exa 的联合创始人兼 CEO Will Bryk,内容是他的一场公开演讲，主题就一句话：Google 式的搜索正在被淘汰，AI 需要一种全新的搜索。\n\n先说来龙去脉。过去三十年，网络上的搜索几乎全是人类在搜。但今年，AI 系统的每日搜索量预计将超过人类，而未来几年，会达到人类的一千倍。一千倍什么概念？按原话说，那种量级甚至没法在图表上呈现出来。当每个软件产品里都嵌着 AI,每一次交互都以搜索为根基，搜索的天量时代就来了。\n\n那为什么 Google 不够用？问题被概括成一句话，叫「被误导的无政府状态」。互联网有万亿级别的页面，谁都装不进脑子，所以我们需要工具来过滤和综合，于是有了 Google。但 Google 从来没想成为「精确给你想要东西的世界信息数据库」，它更像一个推荐引擎。举个例子：搜「没有条纹的衬衫」，你得到的是带条纹的衬衫。再比如，你想找出所有在新加坡做 AI 搜索的人，加上这些人写过的每一篇博客和论文——这种查询你根本不会往 Google 里输，因为知道没用，你只会拿到一堆含关键词的链接，而不是列出全部四百一十二个匹配者的数据库结果。\n\n这带来的推论很严肃：没人对任何事有完整的理解。原话是这么说的，走在旧金山街头，看着周围的人，常常会想，没有人知道这个世界上正在发生什么。演讲者认为，这是最重要且最被忽视的问题——如果人们不理解世界，手里却握着越来越强的 AI,就会被操纵、做出糟糕的决策，走向反乌托邦。修好信息基础设施，才谈得上协调。\n\n这就引出了 Exa 的起点。2021 年创立时，核心想法很直接：GPT-3 那时候已经能完全理解一段文字，那能不能把大模型的力量和搜索引擎结合起来？思想实验是这样的：拿一个复杂查询，对每一份文档跑一遍大模型，判断匹不匹配——对一万亿份文档都这么跑一遍，就能得到接近完美的搜索引擎。问题是，那样每次搜索要花大约一千万美元。所以真正要做的，是把成本降十亿倍甚至万亿倍。\n\n技术路线是把两样东西结合起来。关键词搜索高效，但只能处理简单查询；复杂查询必须用神经网络。办法是把每份文档预处理成 embedding——说白了，就是把文本编码成一串数字向量，让机器带着语义理解去匹配。这样就能处理「没有条纹的衬衫」了。他们是很早就信「堆更多层」的公司，也就是相信规模化算力和通用方法终将胜出。创业初期融了几百万美元，把其中一半花在一个 GPU 集群上，在当时简直是疯了。\n\n2022 年产品发布时，公司还叫 Metaphor,两周后 ChatGPT 问世，改变了一切。有意思的是，拯救这家公司的，是 Twitter 上陌生人索要搜索 API 的私信。按原话说，从来没想过这会变成一个 API,当时只是想做一个更好的 Google 搜索，以后再想办法赚钱。请求越来越多，他们慢慢想通了：再大的模型跟互联网相比也微不足道，永远不会有哪个模型知道世界上所有的事，它需要外接一个检索引擎。而且 AI 搜索的方式和人类完全不同——如果对人类最优的搜索引擎对 AI 同样最优，那就太疯狂了。这条路和初心完美契合：AI 系统真正想要的是完美搜索，它们不想要 SEO,不想要广告，只想要一个几乎像世界信息数据库一样的东西。2023 年他们预言 AI 搜索量会超过人类，三年后成真。\n\n那现在的 Exa 到底能做什么？关键在于，它不是一个搜索引擎，而是一族可以灵活组合的能力。复杂查询可以当数据库用，比如「找出 YC 投资的、做 AI 的每一家创业公司」，可能要花几分钟，但能拿到完整列表。也有两百毫秒的最快搜索端点——对人类来说快得过分，但他们服务的不是人类，语音智能体场景里每一毫秒都影响响应。还有省 token 的提取：给十篇文档，只返回最重要的约一百个 token,直接省下游成本。再就是结构化输出，招聘智能体要「最近离开大实验室的工程师加上被引用最多的论文」，直接给结构化结果。核心理念是一句话：完美搜索不是一个东西，他们实际上是为五千个客户建了五千个搜索引擎——要快还是要最高质量、限定哪些域名、排除哪些页面，客户说了算。新发布的 ExaConnect 更进一步，把版图从公开网页扩到私有数据，智能体不在乎信息来自哪里，它们只想要真相；数据提供方可以接入定价，开发者付费访问，等于创造了一个面向智能体的数据自由市场。\n\n终极目标是什么感觉？给出了一个类比：就像你把一年的研究压缩在一秒钟之内——想象你把整个 2026 年都用来做研究，然后一秒拿到结果，而且要为 AI 的每一次搜索都做到这一点。节奏也快得吓人，现在每一两个季度的进展，相当于过去五年的进展。这件事的分量，被挂在了 2028 年美国总统大选上：希望到那时，全世界都能获得近乎完美的信息，让每个人投票时都是知情的。最后落在这么一句判断上：技术已经足够好，真正的问题只是我们能否协调一致、共同就明智的事情做出决定，而协调来自我们所消费的信息。解决信息问题，是最重要且最被忽视的问题。"
+}

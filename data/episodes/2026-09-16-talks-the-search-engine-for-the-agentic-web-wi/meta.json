@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-16-talks-the-search-engine-for-the-agentic-web-wi",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/59AA5kIoqjA.m4a",
+  "duration_sec": 1050.015,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 278,
+  "asr": true,
+  "title_en": "The Search Engine for the Agentic Web — Will Bryk, Exa",
+  "podcast": "精选演讲",
+  "date": "2026-09-16",
+  "added": "2026-09-20",
+  "added_at": "2026-09-20T10:12:26.246Z",
+  "speaker_map": {
+    "SPEAKER_00": "Will Bryk"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Will Bryk"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "AI 搜索量今年将超过人类：Exa 的完美搜索宣言",
+  "guest_name": "Will Bryk",
+  "guest_title": "Exa 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

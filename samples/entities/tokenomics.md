@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sam Charrington]] · [[Chris Potts]] · [[tokenflation]] · [[token]] · [[消费者价格指数]] · [[推理时扩展]] · [[苦涩的教训]] · [[Transformer]] · [[DSPy]] · [[提示词优化]]
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":4,"Chris Potts":1,"tokenflation":1,"token":22,"消费者价格指数":1,"推理时扩展":1,"苦涩的教训":8,"Transformer":8,"DSPy":1,"提示词优化":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":4,"Chris Potts":1,"tokenflation":1,"token":22,"消费者价格指数":1,"推理时扩展":1,"苦涩的教训":9,"Transformer":8,"DSPy":1,"提示词优化":1}</script>
 
 <script>
 (function(){

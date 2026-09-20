@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>62</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>63</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -72,6 +72,7 @@ unlisted: true
 - **[[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]]**(25:30起):本集作为定价案例提到：Ron 曾建议 Cursor 早期的人转向按用量定价，如今那个市场已被按用量定价引爆。
 - **[[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]]**(43:13起):本集用它说明『护城河是被发现的』：曾被批评没护城河，随时间捕获推理轨迹、训练了自己的模型
 - **[[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]]**(15:25起):本集引用 Cursor 在欧洲 AI Engineer 大会的分享:他们用 200 行 agent 文件替换了约 12000 行 TypeScript 代码,把硬编码的 Git Worktrees 编排换成一个 skill 加 markdown 文件。
+- **[[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]]**(01:37起):本集说 Cursor 这类编程智能体在需要搜索最新技术文档或新闻时，底层用的是 Exa。
 - **[[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]]**(01:02起):本集说 Cursor 是 Wade 自己每天使用的日常主力工具，他把 Zapier 内部工具通过 MCP 接进去。
 
 ## ① 提到它的金句
@@ -100,7 +101,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*62 集*
+*63 集*
 
 - [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
@@ -163,15 +164,16 @@ unlisted: true
 - [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]] — 作为被讨论公司(提及)
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]] — 作为被讨论公司
 - [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]] — 作为被讨论公司
+- [[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]] — 作为被讨论公司(提及)
 - [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Codex]] · [[Lenny]] · [[Claude Code]] · [[vibe coding]] · [[推理]] · [[ChatGPT]] · [[后训练]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Codex]] · [[Lenny]] · [[Claude Code]] · [[ChatGPT]] · [[vibe coding]] · [[推理]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"智能体":274,"OpenAI":122,"Anthropic":130,"Codex":51,"Lenny":67,"Claude Code":64,"vibe coding":35,"推理":48,"ChatGPT":72,"后训练":26}</script>
+<script type="application/json" class="pd-epn">{"智能体":276,"OpenAI":122,"Anthropic":130,"Codex":51,"Lenny":67,"Claude Code":64,"ChatGPT":73,"vibe coding":35,"推理":48,"后训练":26}</script>
 
 <script>
 (function(){

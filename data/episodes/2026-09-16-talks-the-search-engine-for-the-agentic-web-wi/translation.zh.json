@@ -1,0 +1,2226 @@
+[
+ {
+  "seg": 0,
+  "start": 12.724,
+  "end": 13.344,
+  "speaker": "Unknown",
+  "en": "How's everybody doing?",
+  "zh": "大家都还好吗？"
+ },
+ {
+  "seg": 1,
+  "start": 14.265,
+  "end": 14.505,
+  "speaker": "Unknown",
+  "en": "Good?",
+  "zh": "还好吗？"
+ },
+ {
+  "seg": 2,
+  "start": 14.685,
+  "end": 14.845,
+  "speaker": "Unknown",
+  "en": "Ooh.",
+  "zh": "哦。"
+ },
+ {
+  "seg": 3,
+  "start": 15.685,
+  "end": 15.946,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 4,
+  "start": 16.426,
+  "end": 17.526,
+  "speaker": "Unknown",
+  "en": "Pretty crazy times we live in.",
+  "zh": "我们生活的时代真是太疯狂了。"
+ },
+ {
+  "seg": 5,
+  "start": 17.646,
+  "end": 19.267,
+  "speaker": "Unknown",
+  "en": "Ooh, my microphone's over.",
+  "zh": "哦，我的麦克风歪了。"
+ },
+ {
+  "seg": 6,
+  "start": 19.907,
+  "end": 20.188,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 7,
+  "start": 20.428,
+  "end": 24.63,
+  "speaker": "Unknown",
+  "en": "I am very excited to tell you all about Perfect Search, built for AI agents.",
+  "zh": "我非常兴奋地要向大家介绍 Perfect Search，它是为 AI 智能体而构建的。"
+ },
+ {
+  "seg": 8,
+  "start": 25.45,
+  "end": 27.691,
+  "speaker": "Unknown",
+  "en": "And I'm going to say a lot of crazy things in this talk, so bear with me.",
+  "zh": "在这次演讲中我会说很多疯狂的话，所以请多包涵。"
+ },
+ {
+  "seg": 9,
+  "start": 28.912,
+  "end": 29.472,
+  "speaker": "Unknown",
+  "en": "They are all true.",
+  "zh": "它们都是真的。"
+ },
+ {
+  "seg": 10,
+  "start": 30.212,
+  "end": 35.455,
+  "speaker": "Unknown",
+  "en": "And I will tell you what is Exa, the story of Exa, so how we got here, and then where we're going.",
+  "zh": "我会告诉你们什么是 Exa，Exa 的故事，也就是我们如何走到今天，以及我们要去向何方。"
+ },
+ {
+  "seg": 11,
+  "start": 37.015,
+  "end": 37.336,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 12,
+  "start": 37.376,
+  "end": 37.576,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 13,
+  "start": 38.613,
+  "end": 43.156,
+  "speaker": "Unknown",
+  "en": "If you take away anything from this talk, it is this slide.",
+  "zh": "如果这场演讲你只能带走一点东西，那就是这张幻灯片。"
+ },
+ {
+  "seg": 14,
+  "start": 43.196,
+  "end": 47.419,
+  "speaker": "Unknown",
+  "en": "This is showing web searches per day over the past 30 years from humans and AIs.",
+  "zh": "这张图展示的是过去 30 年里，每天的网络搜索量，来自人类和 AI。"
+ },
+ {
+  "seg": 15,
+  "start": 47.639,
+  "end": 54.123,
+  "speaker": "Unknown",
+  "en": "Obviously, it was all humans until around 2020s, and now we're in 2026.",
+  "zh": "显然，在 2020 年代之前全是人类在搜索，而现在是 2026 年。"
+ },
+ {
+  "seg": 16,
+  "start": 54.163,
+  "end": 59.167,
+  "speaker": "Unknown",
+  "en": "And actually, this year, we expect the number of searches from AI systems to exceed that of humans.",
+  "zh": "而且实际上，今年我们预计来自 AI 系统的搜索量将超过人类的搜索量。"
+ },
+ {
+  "seg": 17,
+  "start": 59.587,
+  "end": 60.147,
+  "speaker": "Unknown",
+  "en": "Pretty crazy.",
+  "zh": "相当疯狂。"
+ },
+ {
+  "seg": 18,
+  "start": 60.508,
+  "end": 63.449,
+  "speaker": "Unknown",
+  "en": "And then in the next few years, it should be 1,000 times more.",
+  "zh": "而在接下来几年里，应该会是它的 1000 倍。"
+ },
+ {
+  "seg": 19,
+  "start": 63.59,
+  "end": 66.732,
+  "speaker": "Unknown",
+  "en": "So AI systems, AI products, whatever AI system you use,",
+  "zh": "所以 AI 系统、AI 产品，不管你用的是哪种 AI 系统，"
+ },
+ {
+  "seg": 20,
+  "start": 67.392,
+  "end": 70.134,
+  "speaker": "Unknown",
+  "en": "Some together will search a thousand times more than humans.",
+  "zh": "加在一起将进行比人类多一千倍的搜索。"
+ },
+ {
+  "seg": 21,
+  "start": 70.814,
+  "end": 76.678,
+  "speaker": "Unknown",
+  "en": "That's a pretty crazy world that we're getting into, and the entire ecosystem of search is changing because of it.",
+  "zh": "这是一个我们正在步入的相当疯狂的世界，而整个搜索生态系统正因此而改变。"
+ },
+ {
+  "seg": 22,
+  "start": 78.379,
+  "end": 80.981,
+  "speaker": "Unknown",
+  "en": "So EXA is the search engine for AI agents.",
+  "zh": "所以 EXA 是为 AI 智能体打造的搜索引擎。"
+ },
+ {
+  "seg": 23,
+  "start": 81.381,
+  "end": 87.184,
+  "speaker": "Unknown",
+  "en": "We were the first ones to be like, we were the first search engine for AI, and now things are getting kind of wild.",
+  "zh": "我们是第一个这样做的，我们是第一个为 AI 打造的搜索引擎，而现在事情正变得有点疯狂。"
+ },
+ {
+  "seg": 24,
+  "start": 87.244,
+  "end": 91.407,
+  "speaker": "Unknown",
+  "en": "We now serve over 5,000 companies, over 400,000 developers.",
+  "zh": "我们现在服务超过 5000 家公司，超过 40 万名开发者。"
+ },
+ {
+  "seg": 25,
+  "start": 91.627,
+  "end": 93.508,
+  "speaker": "Unknown",
+  "en": "I see some customers in the audience.",
+  "zh": "我看到观众席里有一些客户。"
+ },
+ {
+  "seg": 26,
+  "start": 93.568,
+  "end": 93.909,
+  "speaker": "Unknown",
+  "en": "We serve",
+  "zh": "我们服务"
+ },
+ {
+  "seg": 27,
+  "start": 94.949,
+  "end": 97.471,
+  "speaker": "Unknown",
+  "en": "A very diverse set of agents from coding agents like Cursors.",
+  "zh": "各种各样的智能体，从像 Cursors 这样的编程智能体。"
+ },
+ {
+  "seg": 28,
+  "start": 97.491,
+  "end": 102.513,
+  "speaker": "Unknown",
+  "en": "If you use Cursor, at some point, the Cursor agent decides to search for the latest technical documentation or the news.",
+  "zh": "如果你用 Cursor，在某个时刻，Cursor 智能体会决定去搜索最新的技术文档或新闻。"
+ },
+ {
+  "seg": 29,
+  "start": 102.534,
+  "end": 103.694,
+  "speaker": "Unknown",
+  "en": "It will be using Exxon under the hood.",
+  "zh": "它底层用的就是 Exxon。"
+ },
+ {
+  "seg": 30,
+  "start": 104.074,
+  "end": 110.778,
+  "speaker": "Unknown",
+  "en": "We serve go-to-market agents like HubSpot, so we help their users get really high-quality lists of companies to sell to.",
+  "zh": "我们服务像 HubSpot 这样的市场推广智能体，所以我们帮助他们的用户获得高质量的可销售公司名单。"
+ },
+ {
+  "seg": 31,
+  "start": 111.158,
+  "end": 112.559,
+  "speaker": "Unknown",
+  "en": "We serve all sorts of financial agents.",
+  "zh": "我们服务各种类型的金融智能体。"
+ },
+ {
+  "seg": 32,
+  "start": 113.04,
+  "end": 117.562,
+  "speaker": "Unknown",
+  "en": "I was in New York a few weeks ago, and pretty much everyone there is now building financial agents, and they need the best financial data.",
+  "zh": "几周前我在纽约，那里几乎所有人现在都在构建金融智能体，而他们需要最好的金融数据。"
+ },
+ {
+  "seg": 33,
+  "start": 118.263,
+  "end": 124.066,
+  "speaker": "Unknown",
+  "en": "Yeah, and really just a huge diversity of agents from labs to YC startups.",
+  "zh": "是的，从大型实验室到 YC 初创公司，智能体的种类非常多样。"
+ },
+ {
+  "seg": 34,
+  "start": 125.27,
+  "end": 125.57,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 35,
+  "start": 126.771,
+  "end": 127.431,
+  "speaker": "Unknown",
+  "en": "But how'd we get here?",
+  "zh": "但我们是怎么走到今天的？"
+ },
+ {
+  "seg": 36,
+  "start": 127.592,
+  "end": 128.972,
+  "speaker": "Unknown",
+  "en": "So what's the why of x?",
+  "zh": "所以 x 的「为什么」是什么？"
+ },
+ {
+  "seg": 37,
+  "start": 128.992,
+  "end": 130.573,
+  "speaker": "Unknown",
+  "en": "To me, that's always been the most important.",
+  "zh": "对我来说，这一直是最重要的。"
+ },
+ {
+  "seg": 38,
+  "start": 131.114,
+  "end": 135.316,
+  "speaker": "Unknown",
+  "en": "And there are a lot of ways to say the problem, but the short way is just misinformed anarchy.",
+  "zh": "问题的表述方式有很多种，但简短的说法就是：被误导的无政府状态。"
+ },
+ {
+  "seg": 39,
+  "start": 135.637,
+  "end": 136.657,
+  "speaker": "Unknown",
+  "en": "This is what we're trying to avoid.",
+  "zh": "这就是我们想要避免的。"
+ },
+ {
+  "seg": 40,
+  "start": 136.897,
+  "end": 138.939,
+  "speaker": "Unknown",
+  "en": "We want to create the opposite of this.",
+  "zh": "我们想创造它的反面。"
+ },
+ {
+  "seg": 41,
+  "start": 138.959,
+  "end": 139.519,
+  "speaker": "Unknown",
+  "en": "So what does this mean?",
+  "zh": "这是什么意思呢？"
+ },
+ {
+  "seg": 42,
+  "start": 141.062,
+  "end": 143.563,
+  "speaker": "Unknown",
+  "en": "This is the internet, or it's a visual depiction of the internet.",
+  "zh": "这就是互联网，或者说它是互联网的一个可视化描绘。"
+ },
+ {
+  "seg": 43,
+  "start": 143.583,
+  "end": 148.564,
+  "speaker": "Unknown",
+  "en": "You've got a bunch of pages, you've got blog posts, you've got company websites, you've got images, you've got tweets, you've got all sorts of things.",
+  "zh": "你有一堆网页，有博客文章，有公司网站，有图片，有推文，有各种东西。"
+ },
+ {
+  "seg": 44,
+  "start": 149.765,
+  "end": 153.306,
+  "speaker": "Unknown",
+  "en": "And the web is really, really big, right?",
+  "zh": "而且网络真的、真的非常大，对吧？"
+ },
+ {
+  "seg": 45,
+  "start": 153.486,
+  "end": 155.066,
+  "speaker": "Unknown",
+  "en": "This is showing a few thousand pages.",
+  "zh": "这张图展示的只是几千个页面。"
+ },
+ {
+  "seg": 46,
+  "start": 155.126,
+  "end": 159.428,
+  "speaker": "Unknown",
+  "en": "The web is on the order of a trillion pages, so a million times bigger than this.",
+  "zh": "网络大约有万亿级别的页面，所以比这个大一百万倍。"
+ },
+ {
+  "seg": 47,
+  "start": 160.431,
+  "end": 162.872,
+  "speaker": "Unknown",
+  "en": "And it contains a huge amount of the world's information.",
+  "zh": "而且它包含了世界上大量的信息。"
+ },
+ {
+  "seg": 48,
+  "start": 163.572,
+  "end": 172.016,
+  "speaker": "Unknown",
+  "en": "And that means that if this is just readily available, if you could go to any link and just get all the world's information, then I'm sure we all walk around with deep understanding of everything, right?",
+  "zh": "这意味着，如果这些信息是随时可得的，如果你可以点开任何一个链接就获得世界上所有的信息，那我相信我们每个人都会对一切事物有深刻的理解，对吧？"
+ },
+ {
+  "seg": 49,
+  "start": 172.816,
+  "end": 173.877,
+  "speaker": "Unknown",
+  "en": "Obviously not.",
+  "zh": "显然不是。"
+ },
+ {
+  "seg": 50,
+  "start": 174.417,
+  "end": 174.897,
+  "speaker": "Unknown",
+  "en": "It's messy.",
+  "zh": "这很混乱。"
+ },
+ {
+  "seg": 51,
+  "start": 175.397,
+  "end": 177.698,
+  "speaker": "Unknown",
+  "en": "And it's crazy, and it can't fit in our heads.",
+  "zh": "而且很疯狂，它没法装进我们的脑子里。"
+ },
+ {
+  "seg": 52,
+  "start": 177.718,
+  "end": 182.781,
+  "speaker": "Unknown",
+  "en": "So we need information tools that could help synthesize this or filter it into the things you need to know.",
+  "zh": "所以我们需要信息工具来帮助综合这些信息，或者把它过滤成你需要知道的东西。"
+ },
+ {
+  "seg": 53,
+  "start": 183.441,
+  "end": 185.282,
+  "speaker": "Unknown",
+  "en": "And we have a tool called Google.",
+  "zh": "而我们有一个叫 Google 的工具。"
+ },
+ {
+  "seg": 54,
+  "start": 186.185,
+  "end": 187.406,
+  "speaker": "Unknown",
+  "en": "And it's a pretty solid tool.",
+  "zh": "它是个相当靠谱的工具。"
+ },
+ {
+  "seg": 55,
+  "start": 187.466,
+  "end": 191.168,
+  "speaker": "Unknown",
+  "en": "It could get you things like the Costco homepage or information about Taylor Swift or whatever you want to search.",
+  "zh": "它可以帮你找到比如 Costco 主页，或者 Taylor Swift 的信息，或者任何你想搜的东西。"
+ },
+ {
+  "seg": 56,
+  "start": 192.028,
+  "end": 193.269,
+  "speaker": "Unknown",
+  "en": "But it's not perfect, right?",
+  "zh": "但它并不完美，对吧？"
+ },
+ {
+  "seg": 57,
+  "start": 193.309,
+  "end": 195.85,
+  "speaker": "Unknown",
+  "en": "And I love this example where you type shirts without stripes.",
+  "zh": "我很喜欢这个例子：你输入「没有条纹的衬衫」。"
+ },
+ {
+  "seg": 58,
+  "start": 196.47,
+  "end": 198.131,
+  "speaker": "Unknown",
+  "en": "And if you notice, you get shirts with stripes.",
+  "zh": "你会发现，你得到的是带条纹的衬衫。"
+ },
+ {
+  "seg": 59,
+  "start": 198.532,
+  "end": 199.132,
+  "speaker": "Unknown",
+  "en": "Why is it doing that?",
+  "zh": "为什么会这样？"
+ },
+ {
+  "seg": 60,
+  "start": 199.192,
+  "end": 202.774,
+  "speaker": "Unknown",
+  "en": "Well, it's not trying to be a database of the world's information that gives you exactly what you want.",
+  "zh": "因为它并不是想成为一个世界信息数据库，精确地给你想要的东西。"
+ },
+ {
+  "seg": 61,
+  "start": 202.994,
+  "end": 204.235,
+  "speaker": "Unknown",
+  "en": "It's kind of like a recommendation engine.",
+  "zh": "它更像是一个推荐引擎。"
+ },
+ {
+  "seg": 62,
+  "start": 204.835,
+  "end": 207.356,
+  "speaker": "Unknown",
+  "en": "And you can see this with more examples.",
+  "zh": "你可以从更多例子中看到这一点。"
+ },
+ {
+  "seg": 63,
+  "start": 207.396,
+  "end": 212.159,
+  "speaker": "Unknown",
+  "en": "So find me, everyone in Singapore who works on AI search and any blog post or research paper they've written.",
+  "zh": "比如：帮我找出所有在新加坡从事 AI 搜索工作的人，以及他们写过的任何博客文章或研究论文。"
+ },
+ {
+  "seg": 64,
+  "start": 212.739,
+  "end": 215.562,
+  "speaker": "Unknown",
+  "en": "I bet you've never typed in anything like this to Google because you know it's not going to work.",
+  "zh": "我敢说你从来没在 Google 里输入过类似这样的东西，因为你知道它不会管用。"
+ },
+ {
+  "seg": 65,
+  "start": 216.223,
+  "end": 225.454,
+  "speaker": "Unknown",
+  "en": "You're going to get links and documents that contain some of those words, but not actually a database result of all 412 people who match.",
+  "zh": "你会得到一些包含其中某些词的链接和文档，但并不是一个列出所有 412 个匹配者的数据库结果。"
+ },
+ {
+  "seg": 66,
+  "start": 226.436,
+  "end": 227.377,
+  "speaker": "Unknown",
+  "en": "And it gets pretty serious.",
+  "zh": "而且这件事可以变得很严肃。"
+ },
+ {
+  "seg": 67,
+  "start": 228.738,
+  "end": 229.318,
+  "speaker": "Unknown",
+  "en": "I'm a citizen.",
+  "zh": "我是一个公民。"
+ },
+ {
+  "seg": 68,
+  "start": 229.338,
+  "end": 231.039,
+  "speaker": "Unknown",
+  "en": "I'm trying to be informed about what's going on in the world.",
+  "zh": "我想了解世界上正在发生什么。"
+ },
+ {
+  "seg": 69,
+  "start": 231.059,
+  "end": 235.52,
+  "speaker": "Unknown",
+  "en": "I want to find the most important U.S. news across all media or U.S. news articles, whatever it is.",
+  "zh": "我想找到所有媒体上最重要的美国新闻，或者说美国新闻文章，随便怎么说。"
+ },
+ {
+  "seg": 70,
+  "start": 236.22,
+  "end": 237.581,
+  "speaker": "Unknown",
+  "en": "You just don't trust Google to give you that.",
+  "zh": "你就是不会相信 Google 会给你这些。"
+ },
+ {
+  "seg": 71,
+  "start": 237.641,
+  "end": 239.781,
+  "speaker": "Unknown",
+  "en": "It's just going to recommend some things.",
+  "zh": "它只会推荐一些东西。"
+ },
+ {
+  "seg": 72,
+  "start": 239.901,
+  "end": 241.762,
+  "speaker": "Unknown",
+  "en": "It's almost akin to social media in a sense.",
+  "zh": "从某种意义上说，这几乎和社交媒体类似。"
+ },
+ {
+  "seg": 73,
+  "start": 241.822,
+  "end": 242.922,
+  "speaker": "Unknown",
+  "en": "It's kind of like a recommendation engine.",
+  "zh": "它有点像一个推荐引擎。"
+ },
+ {
+  "seg": 74,
+  "start": 244.503,
+  "end": 244.763,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 75,
+  "start": 246.105,
+  "end": 250.708,
+  "speaker": "Unknown",
+  "en": "So that means that no one really has a complete understanding of anything.",
+  "zh": "所以这意味着，没有人真正对任何事情有完整的理解。"
+ },
+ {
+  "seg": 76,
+  "start": 251.249,
+  "end": 256.192,
+  "speaker": "Unknown",
+  "en": "I actually, when I walk around like SF or wherever I'm walking around and I see people, I often think like, no one knows what's going on in the world.",
+  "zh": "实际上，当我在 SF 或者随便哪里走路，看到周围的人，我常常会想：没有人知道这个世界上正在发生什么。"
+ },
+ {
+  "seg": 77,
+  "start": 256.252,
+  "end": 258.094,
+  "speaker": "Unknown",
+  "en": "Everyone's like this, including myself.",
+  "zh": "每个人都是这样，包括我自己。"
+ },
+ {
+  "seg": 78,
+  "start": 258.434,
+  "end": 262.837,
+  "speaker": "Unknown",
+  "en": "You know, you can imagine this person on the right on their phone like trying to find a new job.",
+  "zh": "你可以想象右边这个在手机上的人，正在找工作。"
+ },
+ {
+  "seg": 79,
+  "start": 263.117,
+  "end": 264.739,
+  "speaker": "Unknown",
+  "en": "They're looking for biotech companies to work for.",
+  "zh": "他们在寻找可以就职的生物科技公司。"
+ },
+ {
+  "seg": 80,
+  "start": 265.799,
+  "end": 267.921,
+  "speaker": "Unknown",
+  "en": "Are they gonna get like all the possible biotech companies that match?",
+  "zh": "他们能找到所有匹配的生物科技公司吗？"
+ },
+ {
+  "seg": 81,
+  "start": 268.241,
+  "end": 268.421,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不能。"
+ },
+ {
+  "seg": 82,
+  "start": 268.902,
+  "end": 271.744,
+  "speaker": "Unknown",
+  "en": "So there's always going to be this unknown of what's out there.",
+  "zh": "所以外面的世界永远存在着这种未知。"
+ },
+ {
+  "seg": 83,
+  "start": 272.165,
+  "end": 280.012,
+  "speaker": "Unknown",
+  "en": "Or maybe this other person with the headphones, maybe they want to understand what's going on in some region of the world.",
+  "zh": "或者那个戴耳机的人，也许他们想了解世界上某个地区正在发生什么。"
+ },
+ {
+  "seg": 84,
+  "start": 280.312,
+  "end": 282.374,
+  "speaker": "Unknown",
+  "en": "They're just not going to have a deep understanding.",
+  "zh": "他们就是不会有深入的理解。"
+ },
+ {
+  "seg": 85,
+  "start": 282.454,
+  "end": 285.116,
+  "speaker": "Unknown",
+  "en": "Not only can they not find the information, they might not be able to trust the information.",
+  "zh": "他们不仅找不到信息，可能也无法信任这些信息。"
+ },
+ {
+  "seg": 86,
+  "start": 285.517,
+  "end": 290.501,
+  "speaker": "Unknown",
+  "en": "So we basically are in a world where we live without this key information infrastructure that is so critical.",
+  "zh": "所以基本上，我们生活在一个缺少这个极其关键的信息基础设施的世界里。"
+ },
+ {
+  "seg": 87,
+  "start": 290.801,
+  "end": 294.185,
+  "speaker": "Unknown",
+  "en": "And I think this is extremely important, so important that if we don't fix this problem,",
+  "zh": "而且我认为这极其重要，重要到如果我们不解决这个问题，"
+ },
+ {
+  "seg": 88,
+  "start": 295.232,
+  "end": 297.753,
+  "speaker": "Unknown",
+  "en": "I believe we get a world that looks like this, a dystopia.",
+  "zh": "我相信我们会得到一个像这样的世界——一个反乌托邦。"
+ },
+ {
+  "seg": 89,
+  "start": 298.153,
+  "end": 299.054,
+  "speaker": "Unknown",
+  "en": "I'm not kidding.",
+  "zh": "我不是在开玩笑。"
+ },
+ {
+  "seg": 90,
+  "start": 299.114,
+  "end": 302.816,
+  "speaker": "Unknown",
+  "en": "This is an AI-generated version of San Francisco in 2035.",
+  "zh": "这是一张 AI 生成的 2035 年的旧金山。"
+ },
+ {
+  "seg": 91,
+  "start": 303.416,
+  "end": 307.258,
+  "speaker": "Unknown",
+  "en": "And it's basically a world where no person really understands what's going on.",
+  "zh": "它基本上是一个没有人真正理解正在发生什么的世界。"
+ },
+ {
+  "seg": 92,
+  "start": 307.818,
+  "end": 313.841,
+  "speaker": "Unknown",
+  "en": "If people don't understand what's going on, then as we have this crazy AI technology that we all are talking about today that's coming, and the world is going,",
+  "zh": "如果人们不理解正在发生什么，那么当我们拥有今天大家都在谈论的、正在到来的这种疯狂的 AI 技术，而这个世界正在走向"
+ },
+ {
+  "seg": 93,
+  "start": 314.101,
+  "end": 314.682,
+  "speaker": "Unknown",
+  "en": "Way more powerful.",
+  "zh": "强大得多。"
+ },
+ {
+  "seg": 94,
+  "start": 314.702,
+  "end": 315.963,
+  "speaker": "Unknown",
+  "en": "There's going to be conflict and all these things.",
+  "zh": "将会有冲突以及所有这些事情。"
+ },
+ {
+  "seg": 95,
+  "start": 315.983,
+  "end": 318.345,
+  "speaker": "Unknown",
+  "en": "If people don't know what's going on in the world, this is very bad.",
+  "zh": "如果人们不知道世界上正在发生什么，这就非常糟糕。"
+ },
+ {
+  "seg": 96,
+  "start": 318.365,
+  "end": 319.186,
+  "speaker": "Unknown",
+  "en": "We will be manipulated.",
+  "zh": "我们会被操纵。"
+ },
+ {
+  "seg": 97,
+  "start": 319.546,
+  "end": 322.229,
+  "speaker": "Unknown",
+  "en": "We will make really bad decisions as individuals and as a society.",
+  "zh": "我们作为个人和作为社会，都会做出非常糟糕的决策。"
+ },
+ {
+  "seg": 98,
+  "start": 322.589,
+  "end": 325.872,
+  "speaker": "Unknown",
+  "en": "And I think if we could fix this problem, it would be way better.",
+  "zh": "而且我认为，如果我们能解决这个问题，情况会好得多。"
+ },
+ {
+  "seg": 99,
+  "start": 326.593,
+  "end": 333.94,
+  "speaker": "Unknown",
+  "en": "And when I think about all the possible problems that are really important and neglected, to me, solving information is the most important and neglected problem.",
+  "zh": "当我想到所有真正重要且被忽视的问题时，对我来说，解决信息问题是最重要且最被忽视的问题。"
+ },
+ {
+  "seg": 100,
+  "start": 334.521,
+  "end": 335.902,
+  "speaker": "Unknown",
+  "en": "Okay, so that's the why of EXA.",
+  "zh": "好，这就是 EXA 的 why。"
+ },
+ {
+  "seg": 101,
+  "start": 336.763,
+  "end": 338.324,
+  "speaker": "Unknown",
+  "en": "Quick story of how we got here.",
+  "zh": "简单讲讲我们是怎么走到今天的。"
+ },
+ {
+  "seg": 102,
+  "start": 339.785,
+  "end": 344.346,
+  "speaker": "Unknown",
+  "en": "I've been thinking about this problem for a very long time, way before even 2021 when we started, even since high school.",
+  "zh": "我思考这个问题已经很久很久了，远早于 2021 年我们创立的时候，甚至从高中就开始了。"
+ },
+ {
+  "seg": 103,
+  "start": 344.906,
+  "end": 353.368,
+  "speaker": "Unknown",
+  "en": "But I think what was really cool is that in 2021, it suddenly became possible in our eyes to build a new type of search engine because Transformers had gotten really good.",
+  "zh": "但我觉得真正酷的是，在 2021 年，在我们眼中，突然间建造一种新型搜索引擎变得可能了，因为 Transformers 已经变得非常强大。"
+ },
+ {
+  "seg": 104,
+  "start": 353.408,
+  "end": 355.529,
+  "speaker": "Unknown",
+  "en": "So this is a time when GB3 had recently come out.",
+  "zh": "(无)但如果你想处理更复杂的查询，你就必须使用神经网络。"
+ },
+ {
+  "seg": 105,
+  "start": 355.849,
+  "end": 356.809,
+  "speaker": "Unknown",
+  "en": "GB3 was magical.",
+  "zh": "GB3 太神奇了。"
+ },
+ {
+  "seg": 106,
+  "start": 356.829,
+  "end": 359.31,
+  "speaker": "Unknown",
+  "en": "You type in a paragraph of text and it fully understands you.",
+  "zh": "你输入一段文字，它完全理解你。"
+ },
+ {
+  "seg": 107,
+  "start": 359.55,
+  "end": 363.231,
+  "speaker": "Unknown",
+  "en": "At the same time, as we saw with Google, it doesn't fully understand you.",
+  "zh": "而与此同时，从 Google 那里我们看到，它并不完全理解你。"
+ },
+ {
+  "seg": 108,
+  "start": 363.451,
+  "end": 367.352,
+  "speaker": "Unknown",
+  "en": "And so what if you could combine the power of GB3 with a search engine?",
+  "zh": "那么如果你能把 GB3 的力量和搜索引擎结合起来呢?"
+ },
+ {
+  "seg": 109,
+  "start": 368.212,
+  "end": 370.073,
+  "speaker": "Unknown",
+  "en": "And maybe you could have perfect search over the world's information.",
+  "zh": "也许你就可以对全世界的信息实现完美搜索。"
+ },
+ {
+  "seg": 110,
+  "start": 370.493,
+  "end": 377.837,
+  "speaker": "Unknown",
+  "en": "And actually, the thought experiment that always drove me was, like, you know, if we take a query, a complex query, and a document, and we run GB3 over it, and we say, does this match?",
+  "zh": "实际上，一直驱动我的那个思想实验是，你知道，如果我们拿一个查询，一个复杂的查询，和一份文档，用 GB3 跑一遍，然后问：这匹配吗?"
+ },
+ {
+  "seg": 111,
+  "start": 377.857,
+  "end": 379.338,
+  "speaker": "Unknown",
+  "en": "It'll do a really good job of saying, does it match?",
+  "zh": "它会非常出色地回答：匹配不匹配。"
+ },
+ {
+  "seg": 112,
+  "start": 379.678,
+  "end": 384.501,
+  "speaker": "Unknown",
+  "en": "Now, do that over a trillion documents for every search, and you get a perfect search engine, or near perfect.",
+  "zh": "现在，对每一次搜索都对一万亿份文档都这么跑一遍，你就得到了一个完美的搜索引擎，或者接近完美。"
+ },
+ {
+  "seg": 113,
+  "start": 384.521,
+  "end": 386.502,
+  "speaker": "Unknown",
+  "en": "The problem is that would cost, like, $10 million per search.",
+  "zh": "问题是这样每次搜索要花，比如，1000 万美元。"
+ },
+ {
+  "seg": 114,
+  "start": 386.822,
+  "end": 388.663,
+  "speaker": "Unknown",
+  "en": "So it really becomes an interesting optimization problem.",
+  "zh": "所以这就变成了一个非常有趣的优化问题。"
+ },
+ {
+  "seg": 115,
+  "start": 388.683,
+  "end": 391.405,
+  "speaker": "Unknown",
+  "en": "How do you, like, billion X or trillion X reduce the cost of that?",
+  "zh": "你如何，比如，把那个成本降低十亿倍或万亿倍?"
+ },
+ {
+  "seg": 116,
+  "start": 391.885,
+  "end": 393.426,
+  "speaker": "Unknown",
+  "en": "So that's kind of, like, the ideas that started Exa.",
+  "zh": "这差不多就是催生 Exa 的那些想法。"
+ },
+ {
+  "seg": 117,
+  "start": 394.322,
+  "end": 396.163,
+  "speaker": "Unknown",
+  "en": "It's actually the first day of EXA 2021.",
+  "zh": "其实那是 EXA 2021 年的第一天。"
+ },
+ {
+  "seg": 118,
+  "start": 396.283,
+  "end": 399.824,
+  "speaker": "Unknown",
+  "en": "It's actually, by the way, our five-year anniversary as of yesterday.",
+  "zh": "顺便说一下，昨天正好是我们的五周年纪念日。"
+ },
+ {
+  "seg": 119,
+  "start": 400.105,
+  "end": 402.165,
+  "speaker": "Unknown",
+  "en": "So yeah, it's been a great time.",
+  "zh": "所以 yeah,这是一段很棒的旅程。"
+ },
+ {
+  "seg": 120,
+  "start": 403.466,
+  "end": 406.407,
+  "speaker": "Unknown",
+  "en": "I wish I took a better selfie here, but this was the first day.",
+  "zh": "真希望我在这儿拍了张更好的自拍，不过这是第一天。"
+ },
+ {
+  "seg": 121,
+  "start": 407.148,
+  "end": 410.229,
+  "speaker": "Unknown",
+  "en": "And EXA was basically built on",
+  "zh": "EXA 基本上是建立在"
+ },
+ {
+  "seg": 122,
+  "start": 410.589,
+  "end": 413.813,
+  "speaker": "Unknown",
+  "en": "The idea that, look, traditional search engines, they use keywords.",
+  "zh": "这样一个理念上的：你看，传统搜索引擎，它们用关键词。"
+ },
+ {
+  "seg": 123,
+  "start": 413.833,
+  "end": 418.339,
+  "speaker": "Unknown",
+  "en": "Keywords are very efficient, and they can handle simple queries.",
+  "zh": "关键词非常高效，可以处理简单查询。"
+ },
+ {
+  "seg": 124,
+  "start": 418.379,
+  "end": 422.224,
+  "speaker": "Unknown",
+  "en": "But if you want to handle more complex queries, you just need to use neural networks.",
+  "zh": "但是如果你想处理更复杂的查询,你就需要使用神经网络。"
+ },
+ {
+  "seg": 125,
+  "start": 422.845,
+  "end": 425.208,
+  "speaker": "Unknown",
+  "en": "And particularly embeddings are a way of encoding",
+  "zh": "尤其是 embedding 是一种编码方式"
+ },
+ {
+  "seg": 126,
+  "start": 425.749,
+  "end": 438.104,
+  "speaker": "Unknown",
+  "en": "You can't run, like I said, a neural network over every document for every query, but you can pre-process every document into some sort of structure like an embedding, and then that captures a lot of the intelligence of a neural network, and then you can use those embeddings.",
+  "zh": "你没法像我说的那样对每一次查询都对每份文档跑神经网络，但你可以把每份文档预处理成某种结构，比如 embedding,这样它就捕捉了神经网络的很多智能，然后你就可以使用这些 embedding。"
+ },
+ {
+  "seg": 127,
+  "start": 438.224,
+  "end": 444.712,
+  "speaker": "Unknown",
+  "en": "Of course, embeddings have their own problems, and often you want to combine embeddings and keywords, but certainly embeddings are a big part of the picture.",
+  "zh": "当然，embedding 有它们自己的问题，而且通常你需要把 embedding 和关键词结合起来，但无疑 embedding 是整个图景里很重要的一部分。"
+ },
+ {
+  "seg": 128,
+  "start": 445.553,
+  "end": 446.914,
+  "speaker": "Unknown",
+  "en": "And that's how you can handle shirts without stripes.",
+  "zh": "这就是你能处理「没有条纹的衬衫」这类查询的方法。"
+ },
+ {
+  "seg": 129,
+  "start": 446.934,
+  "end": 447.655,
+  "speaker": "Unknown",
+  "en": "We can handle this kind of clear.",
+  "zh": "我们能处理这种清晰(的查询)。"
+ },
+ {
+  "seg": 130,
+  "start": 448.516,
+  "end": 450.197,
+  "speaker": "Unknown",
+  "en": "Another way of saying it is just stack more layers.",
+  "zh": "另一种说法就是：堆更多的层。"
+ },
+ {
+  "seg": 131,
+  "start": 450.978,
+  "end": 451.959,
+  "speaker": "Unknown",
+  "en": "Very bitter lesson-pilled.",
+  "zh": "非常 bitter lesson-pilled。"
+ },
+ {
+  "seg": 132,
+  "start": 452.339,
+  "end": 454.22,
+  "speaker": "Unknown",
+  "en": "We were very early on to being bitter lesson-pilled.",
+  "zh": "我们很早就 bitter lesson-pilled 了。"
+ },
+ {
+  "seg": 133,
+  "start": 454.24,
+  "end": 455.542,
+  "speaker": "Unknown",
+  "en": "I don't know if you know this meme.",
+  "zh": "我不知道你是否知道这个梗图。"
+ },
+ {
+  "seg": 134,
+  "start": 455.802,
+  "end": 456.843,
+  "speaker": "Unknown",
+  "en": "If you don't, it probably looks really weird.",
+  "zh": "如果你不知道，它可能看起来很奇怪。"
+ },
+ {
+  "seg": 135,
+  "start": 457.964,
+  "end": 462.287,
+  "speaker": "Unknown",
+  "en": "But anyway, so we were very bitter lesson-pilled, so we did some crazy things, right?",
+  "zh": "但不管怎样，我们非常 bitter lesson-pilled,所以我们做了一些疯狂的事情，对吧?"
+ },
+ {
+  "seg": 136,
+  "start": 462.307,
+  "end": 463.188,
+  "speaker": "Unknown",
+  "en": "We raised a couple million dollars.",
+  "zh": "我们融了几百万美元。"
+ },
+ {
+  "seg": 137,
+  "start": 463.208,
+  "end": 464.509,
+  "speaker": "Unknown",
+  "en": "We spent half of it on a GPU cluster.",
+  "zh": "我们把其中一半花在了一个 GPU 集群上。"
+ },
+ {
+  "seg": 138,
+  "start": 464.529,
+  "end": 465.31,
+  "speaker": "Unknown",
+  "en": "That was crazy at the time.",
+  "zh": "在当时那简直是疯了。"
+ },
+ {
+  "seg": 139,
+  "start": 466.411,
+  "end": 469.593,
+  "speaker": "Unknown",
+  "en": "We did a huge amount of research for really years, just heads down.",
+  "zh": "我们做了好多年的大量研究，就是埋头苦干。"
+ },
+ {
+  "seg": 140,
+  "start": 470.714,
+  "end": 478.862,
+  "speaker": "Unknown",
+  "en": "And we did a lot of, we were very new to search, to be honest, like, we were just really obsessed with the problem, and so we invented a lot of new stuff that I still haven't seen even today.",
+  "zh": "而且我们做了很多——说实话，我们对搜索领域完全是新手，我们只是真的对这个问题痴迷，所以我们发明了很多新东西，直到今天我甚至还没见过(别人做过)。"
+ },
+ {
+  "seg": 141,
+  "start": 479.803,
+  "end": 495.077,
+  "speaker": "Unknown",
+  "en": "And so, just, yeah, history of XS, so 2022, so this is like a year and a half after starting, we were called Metaphor at the time, some of you might know it, we launched our first search engine to the world, and it was pretty exciting, like, it was a new way of doing search, a lot of people were really excited about it.",
+  "zh": "所以，yeah,EXS 的历史，2022 年，也就是创业一年半之后，我们当时叫 Metaphor,你们有些人可能知道，我们向世界发布了我们的第一个搜索引擎，非常激动人心，那是一种全新的搜索方式，很多人都非常兴奋。"
+ },
+ {
+  "seg": 142,
+  "start": 496.081,
+  "end": 498.582,
+  "speaker": "Unknown",
+  "en": "The next big thing that happened two weeks later was ChatGPT came out.",
+  "zh": "两周后发生的下一件大事是 ChatGPT 发布了。"
+ },
+ {
+  "seg": 143,
+  "start": 499.382,
+  "end": 500.462,
+  "speaker": "Unknown",
+  "en": "And that really changed the world.",
+  "zh": "那真的改变了世界。"
+ },
+ {
+  "seg": 144,
+  "start": 501.342,
+  "end": 503.643,
+  "speaker": "Unknown",
+  "en": "And this is what San Francisco looked like at the time, if you remember.",
+  "zh": "如果你还记得，这就是当时的旧金山的样子。"
+ },
+ {
+  "seg": 145,
+  "start": 504.603,
+  "end": 505.863,
+  "speaker": "Unknown",
+  "en": "And this is the exit team at the time.",
+  "zh": "这是当时的 exit 团队。"
+ },
+ {
+  "seg": 146,
+  "start": 510.285,
+  "end": 519.507,
+  "speaker": "Unknown",
+  "en": "But everything was saved when we got this message on Twitter from this person, whatever, who wanted an API access to our search engine.",
+  "zh": "但一切都因我们在 Twitter 上收到这个人的消息而被拯救了，管他是谁呢，他想要我们搜索引擎的 API 访问权限。"
+ },
+ {
+  "seg": 147,
+  "start": 519.987,
+  "end": 522.388,
+  "speaker": "Unknown",
+  "en": "And that was really weird, because we were never thinking that, oh, this is going to be an API.",
+  "zh": "这真的很奇怪，因为我们从来没想过，哦，这会变成一个 API。"
+ },
+ {
+  "seg": 148,
+  "start": 522.528,
+  "end": 524.249,
+  "speaker": "Unknown",
+  "en": "We were just trying to build a better search on Google.",
+  "zh": "我们只是想做一个更好的 Google 搜索。"
+ },
+ {
+  "seg": 149,
+  "start": 524.269,
+  "end": 525.25,
+  "speaker": "Unknown",
+  "en": "We'll figure out how to make money later.",
+  "zh": "以后再想办法怎么赚钱。"
+ },
+ {
+  "seg": 150,
+  "start": 525.71,
+  "end": 526.711,
+  "speaker": "Unknown",
+  "en": "Then someone asked us for an API.",
+  "zh": "后来有人问我们要 API。"
+ },
+ {
+  "seg": 151,
+  "start": 526.751,
+  "end": 527.771,
+  "speaker": "Unknown",
+  "en": "We were like, no, we don't have an API.",
+  "zh": "我们说,没有,我们没有 API。"
+ },
+ {
+  "seg": 152,
+  "start": 528.092,
+  "end": 528.392,
+  "speaker": "Unknown",
+  "en": "Sorry.",
+  "zh": "抱歉。"
+ },
+ {
+  "seg": 153,
+  "start": 528.852,
+  "end": 535.196,
+  "speaker": "Unknown",
+  "en": "But then we started getting more requests for API access, including my roommate, who lived downstairs.",
+  "zh": "但后来我们收到了越来越多的 API 请求,包括我的室友,他住楼下。"
+ },
+ {
+  "seg": 154,
+  "start": 535.356,
+  "end": 537.197,
+  "speaker": "Unknown",
+  "en": "And then we very quickly realized, wait a sec.",
+  "zh": "然后我们很快意识到,等一下。"
+ },
+ {
+  "seg": 155,
+  "start": 538.296,
+  "end": 540.237,
+  "speaker": "Unknown",
+  "en": "Like, there's a business model.",
+  "zh": "这里面有商业模式。"
+ },
+ {
+  "seg": 156,
+  "start": 540.317,
+  "end": 548.84,
+  "speaker": "Unknown",
+  "en": "Like, okay, what we realized was AIs need search because, like, the argument is basically, look, even GB5, gigantic model, it's tiny in comparison to the internet, right?",
+  "zh": "就是,好吧,我们意识到的是 AI 需要搜索,因为,论证基本上是,看,即使是 GB5,这么巨大的模型,和互联网相比也是微不足道的,对吧?"
+ },
+ {
+  "seg": 157,
+  "start": 548.88,
+  "end": 551,
+  "speaker": "Unknown",
+  "en": "So, like, these systems always need to search.",
+  "zh": "所以,这些系统总是需要搜索。"
+ },
+ {
+  "seg": 158,
+  "start": 551.22,
+  "end": 552.821,
+  "speaker": "Unknown",
+  "en": "You're never gonna have GB6, GB7.",
+  "zh": "你永远不会有 GB6、GB7。"
+ },
+ {
+  "seg": 159,
+  "start": 552.861,
+  "end": 554.722,
+  "speaker": "Unknown",
+  "en": "It's not gonna be able to, like, just know everything about the world.",
+  "zh": "它不可能,就是,知道世界上所有的事情。"
+ },
+ {
+  "seg": 160,
+  "start": 554.742,
+  "end": 557.102,
+  "speaker": "Unknown",
+  "en": "It needs to be connected to a retrieval engine.",
+  "zh": "它需要连接到一个检索引擎。"
+ },
+ {
+  "seg": 161,
+  "start": 557.242,
+  "end": 560.864,
+  "speaker": "Unknown",
+  "en": "And that was a really interesting insight because these things now need a search API, right?",
+  "zh": "这是一个非常有意思的洞察,因为这些东西现在需要一个搜索 API,对吧?"
+ },
+ {
+  "seg": 162,
+  "start": 561.104,
+  "end": 564.405,
+  "speaker": "Unknown",
+  "en": "And so we pretty quickly realized, okay, wait, AIs are gonna search the web.",
+  "zh": "所以我们很快意识到,好吧,等等,AI 将会搜索网络。"
+ },
+ {
+  "seg": 163,
+  "start": 564.705,
+  "end": 566.546,
+  "speaker": "Unknown",
+  "en": "In fact, they're gonna search the web way more than humans.",
+  "zh": "事实上,它们搜索网络的频率会远超人类。"
+ },
+ {
+  "seg": 164,
+  "start": 568.937,
+  "end": 570.778,
+  "speaker": "Unknown",
+  "en": "And they're going to search in very different ways.",
+  "zh": "而且它们会以非常不同的方式搜索。"
+ },
+ {
+  "seg": 165,
+  "start": 571.939,
+  "end": 576.022,
+  "speaker": "Unknown",
+  "en": "So this is an example of what humans, this looks like when humans search, right?",
+  "zh": "所以这是人类搜索的一个例子,人类搜索看起来是这样的,对吧?"
+ },
+ {
+  "seg": 166,
+  "start": 576.042,
+  "end": 579.585,
+  "speaker": "Unknown",
+  "en": "They search symbol queries, this is what Google was made for, like SpaceX News, it's good at that.",
+  "zh": "他们搜索简短的查询,这就是 Google 为之而生的,比如 SpaceX 新闻,它很擅长这个。"
+ },
+ {
+  "seg": 167,
+  "start": 580.425,
+  "end": 582.087,
+  "speaker": "Unknown",
+  "en": "But an AI system is very different, right?",
+  "zh": "但一个 AI 系统就非常不同了,对吧?"
+ },
+ {
+  "seg": 168,
+  "start": 582.367,
+  "end": 586.71,
+  "speaker": "Unknown",
+  "en": "It kind of looks like this information guzzler creature that's insane.",
+  "zh": "它看起来有点像这个疯狂的信息吞噬怪兽。"
+ },
+ {
+  "seg": 169,
+  "start": 586.95,
+  "end": 592.114,
+  "speaker": "Unknown",
+  "en": "And it would be crazy if the same search engine that was optimal for humans was also optimal for these AI systems.",
+  "zh": "如果对人类最优的搜索引擎对 AI 系统同样最优,那就太疯狂了。"
+ },
+ {
+  "seg": 170,
+  "start": 593.255,
+  "end": 605.183,
+  "speaker": "Unknown",
+  "en": "So anyway, you know, we realized, okay, if we build a search API for these AI agents, or it wasn't called AI agents at the time, it was just AIs for LLMs, then we could make money from that.",
+  "zh": "所以总之,你知道,我们意识到,好吧,如果我们为这些 AI 智能体构建一个搜索 API——当时还不叫 AI 智能体,只叫 AI 或者 LLM——那我们就能从中赚钱。"
+ },
+ {
+  "seg": 171,
+  "start": 605.203,
+  "end": 607.504,
+  "speaker": "Unknown",
+  "en": "That's a nice business model, and we think it's gonna grow really fast.",
+  "zh": "这是一个不错的商业模式,而且我们认为它会增长得非常快。"
+ },
+ {
+  "seg": 172,
+  "start": 608.064,
+  "end": 612.487,
+  "speaker": "Unknown",
+  "en": "And also, the beautiful thing is, it matches our initial, our mission, which is perfect search, right?",
+  "zh": "另外,美妙的是,它符合我们最初的,我们的使命,也就是完美搜索,对吧?"
+ },
+ {
+  "seg": 173,
+  "start": 612.507,
+  "end": 614.589,
+  "speaker": "Unknown",
+  "en": "Like, AI systems really want perfect search.",
+  "zh": "就是,AI 系统真正想要的是完美搜索。"
+ },
+ {
+  "seg": 174,
+  "start": 614.609,
+  "end": 621.253,
+  "speaker": "Unknown",
+  "en": "They don't want SEO, they don't want ads, they just want almost like a database of the world's information, which is what we were always trying to build.",
+  "zh": "它们不想要 SEO,不想要广告,它们只想要一个几乎像世界信息数据库一样的东西,而这正是我们一直在努力构建的。"
+ },
+ {
+  "seg": 175,
+  "start": 622.381,
+  "end": 623.861,
+  "speaker": "Unknown",
+  "en": "So we built the first search for LMs.",
+  "zh": "所以我们构建了第一个面向 LM 的搜索。"
+ },
+ {
+  "seg": 176,
+  "start": 624.062,
+  "end": 627.102,
+  "speaker": "Unknown",
+  "en": "And yeah, actually, like in 2023, we said, soon AIs will search more than humans.",
+  "zh": "而且是的,实际上,在 2023 年,我们说过,很快 AI 的搜索量将超过人类。"
+ },
+ {
+  "seg": 177,
+  "start": 627.122,
+  "end": 631.164,
+  "speaker": "Unknown",
+  "en": "You know, three years later, it's now happening.",
+  "zh": "你知道,三年后,现在正在发生。"
+ },
+ {
+  "seg": 178,
+  "start": 631.844,
+  "end": 636.325,
+  "speaker": "Unknown",
+  "en": "OK. Yeah, and so then the next couple years, we built a lot of really crazy stuff.",
+  "zh": "好。是的,接下来的几年里,我们构建了很多非常疯狂的东西。"
+ },
+ {
+  "seg": 179,
+  "start": 636.425,
+  "end": 638.366,
+  "speaker": "Unknown",
+  "en": "It's way more complex than just embedding search.",
+  "zh": "它远比单纯的嵌入搜索要复杂。"
+ },
+ {
+  "seg": 180,
+  "start": 638.546,
+  "end": 640.967,
+  "speaker": "Unknown",
+  "en": "It combines all sorts of systems, some of which are included here.",
+  "zh": "它结合了各种各样的系统,其中一些包含在这里。"
+ },
+ {
+  "seg": 181,
+  "start": 641.967,
+  "end": 643.427,
+  "speaker": "Unknown",
+  "en": "And now we're a much bigger team.",
+  "zh": "现在我们是一个大得多的团队了。"
+ },
+ {
+  "seg": 182,
+  "start": 644.368,
+  "end": 644.968,
+  "speaker": "Unknown",
+  "en": "And that's how we got here.",
+  "zh": "这就是我们走到今天的过程。"
+ },
+ {
+  "seg": 183,
+  "start": 645.228,
+  "end": 645.928,
+  "speaker": "Unknown",
+  "en": "OK, cool.",
+  "zh": "好,不错。"
+ },
+ {
+  "seg": 184,
+  "start": 646.148,
+  "end": 649.229,
+  "speaker": "Unknown",
+  "en": "So just quick, like, what can you do with Exa?",
+  "zh": "那么,简单说一下,用 Exa 你能做什么?"
+ },
+ {
+  "seg": 185,
+  "start": 649.569,
+  "end": 651.77,
+  "speaker": "Unknown",
+  "en": "And then I'll talk about where we're going, how we're going to get the perfect search.",
+  "zh": "然后我会讲讲我们要去哪里,我们如何实现完美搜索。"
+ },
+ {
+  "seg": 186,
+  "start": 652.813,
+  "end": 653.313,
+  "speaker": "Unknown",
+  "en": "So the present.",
+  "zh": "先说现在。"
+ },
+ {
+  "seg": 187,
+  "start": 653.573,
+  "end": 656.595,
+  "speaker": "Unknown",
+  "en": "So right now, yeah, we're the highest quality information for AI agents.",
+  "zh": "现在呢,是的,我们为 AI 智能体提供最高质量的信息。"
+ },
+ {
+  "seg": 188,
+  "start": 657.936,
+  "end": 659.517,
+  "speaker": "Unknown",
+  "en": "And you could do all sorts of things.",
+  "zh": "而且你可以做各种各样的事情。"
+ },
+ {
+  "seg": 189,
+  "start": 659.537,
+  "end": 662.679,
+  "speaker": "Unknown",
+  "en": "So for example, a lot of people like really complex queries.",
+  "zh": "比如,很多人喜欢非常复杂的查询。"
+ },
+ {
+  "seg": 190,
+  "start": 663.459,
+  "end": 667.201,
+  "speaker": "Unknown",
+  "en": "So you want to find every startup funded by YC work in AI, give me their batch and status.",
+  "zh": "比如你想找出 YC 投资的、做 AI 的每一家创业公司,给我它们的批次和状态。"
+ },
+ {
+  "seg": 191,
+  "start": 667.261,
+  "end": 668.142,
+  "speaker": "Unknown",
+  "en": "You could do that with Exa now.",
+  "zh": "你现在用 Exa 就能做到。"
+ },
+ {
+  "seg": 192,
+  "start": 668.782,
+  "end": 670.663,
+  "speaker": "Unknown",
+  "en": "And you could make this arbitrarily complex.",
+  "zh": "而且你可以把查询做得任意复杂。"
+ },
+ {
+  "seg": 193,
+  "start": 670.743,
+  "end": 677.147,
+  "speaker": "Unknown",
+  "en": "A lot of people aren't aware of this, but you could just use Exa and just find really any list of companies, people,",
+  "zh": "很多人没有意识到这一点,但你可以直接用 Exa 找到几乎任何你想要的公司列表、人物列表、"
+ },
+ {
+  "seg": 194,
+  "start": 679.329,
+  "end": 681.473,
+  "speaker": "Unknown",
+  "en": "Like blog posts, news articles that you want.",
+  "zh": "比如博客文章、新闻文章。"
+ },
+ {
+  "seg": 195,
+  "start": 682.134,
+  "end": 686.661,
+  "speaker": "Unknown",
+  "en": "It will take some time, so it'll take, you know, maybe not seconds, it might take minutes, but you'll get the information you want.",
+  "zh": "这需要一些时间,所以它可能,你知道,可能不是几秒钟,可能要几分钟,但你会得到你想要的信息。"
+ },
+ {
+  "seg": 196,
+  "start": 687.98,
+  "end": 690.101,
+  "speaker": "Unknown",
+  "en": "At the same time, we also have the fastest search API in the world.",
+  "zh": "同时,我们也拥有世界上最快的搜索 API。"
+ },
+ {
+  "seg": 197,
+  "start": 690.641,
+  "end": 694.162,
+  "speaker": "Unknown",
+  "en": "So we have a 200 millisecond search endpoint, and that's what it feels like.",
+  "zh": "我们有一个 200 毫秒的搜索端点,体验起来就是这种感觉。"
+ },
+ {
+  "seg": 198,
+  "start": 694.482,
+  "end": 695.402,
+  "speaker": "Unknown",
+  "en": "So it's super fast.",
+  "zh": "所以它超级快。"
+ },
+ {
+  "seg": 199,
+  "start": 695.702,
+  "end": 696.783,
+  "speaker": "Unknown",
+  "en": "It's way too fast for humans, right?",
+  "zh": "它对人类来说快得过分了,对吧?"
+ },
+ {
+  "seg": 200,
+  "start": 696.803,
+  "end": 697.943,
+  "speaker": "Unknown",
+  "en": "But we're not serving humans.",
+  "zh": "但我们服务的不是人类。"
+ },
+ {
+  "seg": 201,
+  "start": 697.963,
+  "end": 698.783,
+  "speaker": "Unknown",
+  "en": "We're serving AI systems.",
+  "zh": "我们服务的是 AI 系统。"
+ },
+ {
+  "seg": 202,
+  "start": 698.823,
+  "end": 701.224,
+  "speaker": "Unknown",
+  "en": "And so, for example, we serve some voice agents.",
+  "zh": "所以举例来说，我们服务一些语音智能体。"
+ },
+ {
+  "seg": 203,
+  "start": 701.724,
+  "end": 707.546,
+  "speaker": "Unknown",
+  "en": "And if you're a voice agent and you talk to the voice agent and it wants to do a search underneath the hood, every millisecond counts.",
+  "zh": "如果你是语音智能体，你和语音智能体对话，它想在底层做一次搜索，每一毫秒都很重要。"
+ },
+ {
+  "seg": 204,
+  "start": 707.686,
+  "end": 713.868,
+  "speaker": "Unknown",
+  "en": "You want it to do a search really fast so that it could go process it with an LLM and then output the best audio back to the customer.",
+  "zh": "你希望它非常快地完成搜索，这样它才能用 LLM 处理结果，然后把最好的音频输出给客户。"
+ },
+ {
+  "seg": 205,
+  "start": 715.953,
+  "end": 719.755,
+  "speaker": "Unknown",
+  "en": "We also have cool things like super-efficient token extraction.",
+  "zh": "我们还有一些很酷的东西，比如超高效的 token 提取。"
+ },
+ {
+  "seg": 206,
+  "start": 719.775,
+  "end": 724.318,
+  "speaker": "Unknown",
+  "en": "So everyone's talking about the Compute Crunch and how everyone's spending way too much on LLMs.",
+  "zh": "现在所有人都在谈论算力紧张，以及大家在 LLM 上花了太多钱。"
+ },
+ {
+  "seg": 207,
+  "start": 724.338,
+  "end": 732.062,
+  "speaker": "Unknown",
+  "en": "Well, actually, Exa could help there because when the LLM makes a query, it wants to get just the information it needs, just the tokens it needs.",
+  "zh": "其实，Exa 能在这方面帮上忙，因为当 LLM 发起查询时，它想要的只是它需要的信息，只是它需要的 token。"
+ },
+ {
+  "seg": 208,
+  "start": 732.142,
+  "end": 738.486,
+  "speaker": "Unknown",
+  "en": "And so we take the documents, we give you 10 documents, and then we'll give you only the most important, like, 100 tokens from those documents.",
+  "zh": "所以我们处理文档，比如我们给你 10 篇文档，然后我们只给你其中最重要的、大概 100 个 token。"
+ },
+ {
+  "seg": 209,
+  "start": 738.506,
+  "end": 740.487,
+  "speaker": "Unknown",
+  "en": "And that will save you a lot of downstream LLM costs.",
+  "zh": "这能帮你省下大量下游 LLM 成本。"
+ },
+ {
+  "seg": 210,
+  "start": 742.514,
+  "end": 747.858,
+  "speaker": "Unknown",
+  "en": "We also, some people, they don't necessarily want snippets from each document, they actually want structured output.",
+  "zh": "我们还有，有些人不一定想要每篇文档的片段，他们其实想要结构化输出。"
+ },
+ {
+  "seg": 211,
+  "start": 747.878,
+  "end": 765.129,
+  "speaker": "Unknown",
+  "en": "So hey, let's say you're building a recruiting AI agent and you want to find all the engineers who recently left their big lab job, give me the most cited paper that they've written, give me the college they went to, and the year they graduated, and we'll just give you that as structured output, it makes it really easy.",
+  "zh": "比如，假设你在构建一个招聘 AI 智能体，你想找出所有最近离开大实验室工作的工程师，给我他们被引用最多的论文，给我他们上过的大学和毕业年份，我们直接把这些以结构化输出给你，这非常方便。"
+ },
+ {
+  "seg": 212,
+  "start": 767.104,
+  "end": 771.387,
+  "speaker": "Unknown",
+  "en": "And, yeah, I think one takeaway here is we're not building one search engine.",
+  "zh": "然后，我认为这里的一个要点是，我们不是在建一个搜索引擎。"
+ },
+ {
+  "seg": 213,
+  "start": 771.407,
+  "end": 772.668,
+  "speaker": "Unknown",
+  "en": "Like, perfect search is not one thing.",
+  "zh": "完美搜索不是一个东西。"
+ },
+ {
+  "seg": 214,
+  "start": 772.748,
+  "end": 776.75,
+  "speaker": "Unknown",
+  "en": "It's actually we have 5,000 search engines for each of our 5,000 customers, right?",
+  "zh": "实际上是我们为 5000 个客户中的每一个都建了 5000 个搜索引擎，对吧？"
+ },
+ {
+  "seg": 215,
+  "start": 777.451,
+  "end": 781.254,
+  "speaker": "Unknown",
+  "en": "We want to build our system so it's super flexible because we want every business to be super optimized.",
+  "zh": "我们想把我们的系统建得非常灵活，因为我们希望每个业务都能被极致优化。"
+ },
+ {
+  "seg": 216,
+  "start": 781.674,
+  "end": 785.396,
+  "speaker": "Unknown",
+  "en": "And that's, I think, a beautiful thing because, like, we don't want to declare what is the perfect search.",
+  "zh": "我认为这是一件美好的事，因为，我们不想去宣称什么是完美搜索。"
+ },
+ {
+  "seg": 217,
+  "start": 785.416,
+  "end": 787.878,
+  "speaker": "Unknown",
+  "en": "We want you to almost, you know, tell us what exactly do you want.",
+  "zh": "我们更希望是你来，你知道，告诉我们你到底想要什么。"
+ },
+ {
+  "seg": 218,
+  "start": 788.138,
+  "end": 789.019,
+  "speaker": "Unknown",
+  "en": "Do you want super fast?",
+  "zh": "你想要超快吗？"
+ },
+ {
+  "seg": 219,
+  "start": 789.039,
+  "end": 792.382,
+  "speaker": "Unknown",
+  "en": "Do you want the highest possible quality even though it takes minutes?",
+  "zh": "你想要尽可能最高的质量，哪怕要花几分钟？"
+ },
+ {
+  "seg": 220,
+  "start": 792.422,
+  "end": 794.724,
+  "speaker": "Unknown",
+  "en": "Do you want to search only over these thousand domains?",
+  "zh": "你想只在这 1000 个域名上搜索吗？"
+ },
+ {
+  "seg": 221,
+  "start": 795.025,
+  "end": 796.346,
+  "speaker": "Unknown",
+  "en": "Do you want to never search over those thousand domains?",
+  "zh": "你想永远不在那 1000 个域名上搜索吗？"
+ },
+ {
+  "seg": 222,
+  "start": 796.366,
+  "end": 798.668,
+  "speaker": "Unknown",
+  "en": "Do you want to search within this time window?",
+  "zh": "你想在这个时间窗口内搜索吗？"
+ },
+ {
+  "seg": 223,
+  "start": 798.868,
+  "end": 800.129,
+  "speaker": "Unknown",
+  "en": "Do you want to never get product pages?",
+  "zh": "你想永远不要拿到产品页面吗？"
+ },
+ {
+  "seg": 224,
+  "start": 800.149,
+  "end": 801.17,
+  "speaker": "Unknown",
+  "en": "Some people ask us for that.",
+  "zh": "有人向我们提出过这种要求。"
+ },
+ {
+  "seg": 225,
+  "start": 801.771,
+  "end": 803.012,
+  "speaker": "Unknown",
+  "en": "So there's all sorts of things that you could do.",
+  "zh": "所以有各种各样的东西可以做到。"
+ },
+ {
+  "seg": 226,
+  "start": 803.252,
+  "end": 804.814,
+  "speaker": "Unknown",
+  "en": "With Excel it's very flexible, customizable.",
+  "zh": "用 Excel 非常灵活、可定制。"
+ },
+ {
+  "seg": 227,
+  "start": 807.067,
+  "end": 810.369,
+  "speaker": "Unknown",
+  "en": "And yeah, our search quality is really good for these AI agents.",
+  "zh": "然后，我们的搜索质量对这些 AI 智能体来说真的很好。"
+ },
+ {
+  "seg": 228,
+  "start": 810.409,
+  "end": 818.475,
+  "speaker": "Unknown",
+  "en": "Because we've spent years doing research into how do you build a new type of search engine for agents, it's even better than Google, which was built for humans, which makes sense.",
+  "zh": "因为我们花了多年时间研究如何为智能体构建一种新型搜索引擎，它甚至比 Google 更好，而 Google 是为人类构建的，这说得通。"
+ },
+ {
+  "seg": 229,
+  "start": 820.918,
+  "end": 824.359,
+  "speaker": "Unknown",
+  "en": "OK, a cool thing that we released recently was ExaConnect.",
+  "zh": "好，我们最近发布的一个很酷的东西是 ExaConnect。"
+ },
+ {
+  "seg": 230,
+  "start": 824.439,
+  "end": 829.961,
+  "speaker": "Unknown",
+  "en": "So agents, they don't really care whether the information is from the public web or from private data sources.",
+  "zh": "智能体其实并不在乎信息是来自公开网页还是私有数据源。"
+ },
+ {
+  "seg": 231,
+  "start": 829.981,
+  "end": 831.142,
+  "speaker": "Unknown",
+  "en": "They just want the truth, right?",
+  "zh": "它们只想要真相，对吧？"
+ },
+ {
+  "seg": 232,
+  "start": 831.462,
+  "end": 835.483,
+  "speaker": "Unknown",
+  "en": "And so it's always been obvious to us that we want to assemble all the world's information.",
+  "zh": "所以一直以来，我们很清楚我们想要汇集全世界的所有信息。"
+ },
+ {
+  "seg": 233,
+  "start": 835.503,
+  "end": 837.744,
+  "speaker": "Unknown",
+  "en": "It's perfect search over all the world's information, not just the web.",
+  "zh": "是对全世界所有信息的完美搜索，而不仅仅是网页。"
+ },
+ {
+  "seg": 234,
+  "start": 838.024,
+  "end": 845.687,
+  "speaker": "Unknown",
+  "en": "And so now we have a system where data providers can actually partner with Exa so that developers can then get the data from those providers.",
+  "zh": "所以现在我们有了一个系统，数据提供方可以和 Exa 合作，然后开发者就能从这些提供方那里获取数据。"
+ },
+ {
+  "seg": 235,
+  "start": 846.507,
+  "end": 857.51,
+  "speaker": "Unknown",
+  "en": "Basically creating a new market, a new economy for agents, where if you have high valuable data, you could get paid from all the developers who want their agents to access that data.",
+  "zh": "基本上是创造了一个新市场、一个面向智能体的新经济，如果你有高价值数据，你可以从所有想让自己的智能体访问这些数据的开发者那里获得报酬。"
+ },
+ {
+  "seg": 236,
+  "start": 857.69,
+  "end": 858.89,
+  "speaker": "Unknown",
+  "en": "So we're creating this beautiful marketplace.",
+  "zh": "所以我们正在创造这个美好的市场。"
+ },
+ {
+  "seg": 237,
+  "start": 858.91,
+  "end": 859.81,
+  "speaker": "Unknown",
+  "en": "I think it's really cool.",
+  "zh": "我觉得这真的很酷。"
+ },
+ {
+  "seg": 238,
+  "start": 859.83,
+  "end": 860.89,
+  "speaker": "Unknown",
+  "en": "It's like a free market.",
+  "zh": "这就像一个自由市场。"
+ },
+ {
+  "seg": 239,
+  "start": 861.491,
+  "end": 867.112,
+  "speaker": "Unknown",
+  "en": "The data providers can decide how much they think their content is worth, and then developers can decide what data they want.",
+  "zh": "数据提供方可以决定他们认为自己的内容值多少钱，然后开发者可以决定他们想要什么数据。"
+ },
+ {
+  "seg": 240,
+  "start": 870.301,
+  "end": 874.822,
+  "speaker": "Unknown",
+  "en": "And then you could do cool things like this, research AI info companies, monthly website visitors, similar web.",
+  "zh": "然后你可以做一些很酷的事情，比如研究 AI 信息公司、月度网站访问量、similar web。"
+ },
+ {
+  "seg": 241,
+  "start": 875.082,
+  "end": 882.863,
+  "speaker": "Unknown",
+  "en": "Oh, I guess it went too fast, but you could get, like, basically this is combining information from the public web and also information from similar web, which is not publicly available.",
+  "zh": "哦，我想它跑得太快了，但你基本上可以拿到，就是这是把公开网页上的信息和 similar web 的信息结合起来了，后者不是公开可得的。"
+ },
+ {
+  "seg": 242,
+  "start": 884.064,
+  "end": 885.244,
+  "speaker": "Unknown",
+  "en": "So you could do queries like that right now.",
+  "zh": "所以你现在就可以做这样的查询。"
+ },
+ {
+  "seg": 243,
+  "start": 886.284,
+  "end": 895.706,
+  "speaker": "Unknown",
+  "en": "Okay, so that's where Exa is right now, but the future has always been super exciting to me, and the goal has always been perfect information, and now we know it's for AI agents.",
+  "zh": "好，这就是 Exa 目前的状况，但未来对我来说一直是超级令人兴奋的，目标一直都是完美信息，而现在我们知道它是为 AI 智能体服务的。"
+ },
+ {
+  "seg": 244,
+  "start": 897.416,
+  "end": 903.681,
+  "speaker": "Unknown",
+  "en": "So instead of a world like this, no, bad, we want search to kind of feel like this.",
+  "zh": "所以，与其要这样一个世界，不，不好，我们想让搜索感觉更像这样。"
+ },
+ {
+  "seg": 245,
+  "start": 903.701,
+  "end": 906.443,
+  "speaker": "Unknown",
+  "en": "It's actually really hard to describe what perfect information feels like.",
+  "zh": "其实很难描述完美信息是什么感觉。"
+ },
+ {
+  "seg": 246,
+  "start": 907.944,
+  "end": 913.167,
+  "speaker": "Unknown",
+  "en": "Best way you could say it is like literally any information query you have, it just works, no matter how complex that is.",
+  "zh": "最好的说法是，就像字面上任何你有的信息查询，它就是能行，不管它有多复杂。"
+ },
+ {
+  "seg": 247,
+  "start": 914.709,
+  "end": 918.852,
+  "speaker": "Unknown",
+  "en": "Another way you could think about it is like it's as if you did a year of research in a second.",
+  "zh": "另一种理解方式是，就像你把一年的研究压缩在了一秒钟之内。"
+ },
+ {
+  "seg": 248,
+  "start": 919.512,
+  "end": 926.934,
+  "speaker": "Unknown",
+  "en": "So imagine no matter what you're looking for, whether it's people or companies or news, imagine you spend a whole year, you spend all of 2026 just doing research for it, you get that in a second.",
+  "zh": "所以想象一下，无论你在找什么，不管是人、公司还是新闻，想象你花了一整年，把整个 2026 年都用来为它做研究，然后你在一秒钟之内就得到了它。"
+ },
+ {
+  "seg": 249,
+  "start": 927.275,
+  "end": 934.717,
+  "speaker": "Unknown",
+  "en": "That should give you a sense of what perfect information feels like, and you do that for every search, all the crazy number of searches that AI agents are going to make.",
+  "zh": "这应该能让你感受到完美信息是什么感觉，而且你为每一次搜索都做到这一点，为 AI 智能体将要进行的所有疯狂数量的搜索都做到这一点。"
+ },
+ {
+  "seg": 250,
+  "start": 936.363,
+  "end": 939.227,
+  "speaker": "Unknown",
+  "en": "And so yeah, we wanna move really fast at Exo.",
+  "zh": "所以是的,我们在 Exo 想要快速推进。"
+ },
+ {
+  "seg": 251,
+  "start": 939.387,
+  "end": 945.234,
+  "speaker": "Unknown",
+  "en": "We're moving extremely, basically every, basically a quarter or two quarters now, we have as much progress as we did the past five years.",
+  "zh": "我们进展极快,基本上现在每一两个季度,我们取得的进展就相当于过去五年的进展。"
+ },
+ {
+  "seg": 252,
+  "start": 945.614,
+  "end": 947.056,
+  "speaker": "Unknown",
+  "en": "And it keeps being like that, it's exponential growth.",
+  "zh": "而且一直保持这个态势,这是指数级增长。"
+ },
+ {
+  "seg": 253,
+  "start": 947.376,
+  "end": 949.599,
+  "speaker": "Unknown",
+  "en": "And so yeah, our ambitions for 2027 are pretty crazy.",
+  "zh": "所以是的,我们对 2027 年的野心相当疯狂。"
+ },
+ {
+  "seg": 254,
+  "start": 950.24,
+  "end": 954.104,
+  "speaker": "Unknown",
+  "en": "We want the world to be like this, where everyone walks around with deep understanding of what's going on.",
+  "zh": "我们希望世界变成这样:每个人都能带着对正在发生之事的深刻理解行走于世。"
+ },
+ {
+  "seg": 255,
+  "start": 954.605,
+  "end": 966.528,
+  "speaker": "Unknown",
+  "en": "I think it's particularly important because things like the 2028 presidential election are coming soon, and I would love for the entire world to have access to near-perfect information so that everyone is very informed going into that election.",
+  "zh": "我认为这尤其重要,因为像 2028 年总统大选这样的事情即将到来,我非常希望全世界都能获得近乎完美的信息,让每个人在进入那次大选时都非常知情。"
+ },
+ {
+  "seg": 256,
+  "start": 966.568,
+  "end": 973.169,
+  "speaker": "Unknown",
+  "en": "You kind of can feel the gravity of what we're doing here, of perfect information, and I encourage others to try to do it too.",
+  "zh": "你多少能感受到我们在这里所做之事的分量,完美信息的分量,我也鼓励其他人也去尝试做这件事。"
+ },
+ {
+  "seg": 257,
+  "start": 973.829,
+  "end": 974.57,
+  "speaker": "Unknown",
+  "en": "It's very important for the world.",
+  "zh": "——"
+ },
+ {
+  "seg": 258,
+  "start": 974.59,
+  "end": 975.35,
+  "speaker": "Unknown",
+  "en": "It's key infrastructure.",
+  "zh": "它是关键基础设施。"
+ },
+ {
+  "seg": 259,
+  "start": 977.707,
+  "end": 981.128,
+  "speaker": "Unknown",
+  "en": "And yeah, you have to, like, that slide I showed at the beginning, it's not the whole picture, right?",
+  "zh": "然后是的,你必须……就像我开头展示的那张幻灯片,它并不是全貌,对吧?"
+ },
+ {
+  "seg": 260,
+  "start": 981.148,
+  "end": 985.348,
+  "speaker": "Unknown",
+  "en": "If you play it out, we're talking a thousand times more searches from AI systems than humans.",
+  "zh": "如果你推演下去,我们说的是 AI 系统的搜索量是人类的一千倍。"
+ },
+ {
+  "seg": 261,
+  "start": 985.628,
+  "end": 986.809,
+  "speaker": "Unknown",
+  "en": "You can't even capture that on a graph.",
+  "zh": "那种量级甚至无法在图表上呈现出来。"
+ },
+ {
+  "seg": 262,
+  "start": 986.829,
+  "end": 988.629,
+  "speaker": "Unknown",
+  "en": "Like, this is not, that's like 20 times.",
+  "zh": "因为这个,这个只是 20 倍。"
+ },
+ {
+  "seg": 263,
+  "start": 988.649,
+  "end": 991.95,
+  "speaker": "Unknown",
+  "en": "A thousand times would be all the way up there, like, top of a building or something, right?",
+  "zh": "一千倍会是一直高到上面那里,像是楼顶之类的,对吧?"
+ },
+ {
+  "seg": 264,
+  "start": 991.97,
+  "end": 994.65,
+  "speaker": "Unknown",
+  "en": "So it's crazy what's coming, and it's really happening.",
+  "zh": "所以即将到来的是疯狂的东西,而且它真的正在发生。"
+ },
+ {
+  "seg": 265,
+  "start": 995.73,
+  "end": 1005.392,
+  "speaker": "Unknown",
+  "en": "Basically, like, you know, humans on average search a few times a day on Google, but when everyone has, you know, AI systems and every software product you use has AIs in it, every interaction you're doing, it's gonna be grounding",
+  "zh": "基本上,你知道,人类平均每天在 Google 上搜索几次,但当每个人都拥有 AI 系统,而你使用的每一个软件产品里都嵌着 AI 时,你每一次互动,都会"
+ },
+ {
+  "seg": 266,
+  "start": 1005.912,
+  "end": 1007.033,
+  "speaker": "Unknown",
+  "en": "Itself in search.",
+  "zh": "以搜索为根基。"
+ },
+ {
+  "seg": 267,
+  "start": 1007.133,
+  "end": 1008.413,
+  "speaker": "Unknown",
+  "en": "So it's going to be a huge number of searches.",
+  "zh": "所以这将会是一个天量的搜索次数。"
+ },
+ {
+  "seg": 268,
+  "start": 1008.453,
+  "end": 1015.136,
+  "speaker": "Unknown",
+  "en": "And if each of those searches are as true as possible, as near perfect, then the world looks like this in 2035.",
+  "zh": "而如果其中每一次搜索都尽可能真实、近乎完美,那么 2035 年的世界就会是这个样子。"
+ },
+ {
+  "seg": 269,
+  "start": 1018.658,
+  "end": 1023.46,
+  "speaker": "Unknown",
+  "en": "I do think that if, I do think we're basically, our future is limited by ourselves.",
+  "zh": "我确实认为,我们基本上……我们的未来是被我们自己限制的。"
+ },
+ {
+  "seg": 270,
+  "start": 1023.48,
+  "end": 1030.983,
+  "speaker": "Unknown",
+  "en": "We're basically getting into a world where our technology is so good, it's really just a matter of can we coordinate and just decide together on sensible things.",
+  "zh": "我们基本上正在进入这样一个世界:我们的技术如此之好,真正的问题只是我们能否协调一致,共同就明智的事情做出决定。"
+ },
+ {
+  "seg": 271,
+  "start": 1031.043,
+  "end": 1035.565,
+  "speaker": "Unknown",
+  "en": "If you look at San Francisco, there's amazing things happening here and there's really stupid things happening here at the same time.",
+  "zh": "看看旧金山,这里正在发生令人惊叹的事情,同时也正在发生非常愚蠢的事情。"
+ },
+ {
+  "seg": 272,
+  "start": 1036.025,
+  "end": 1039.267,
+  "speaker": "Unknown",
+  "en": "Like that's just coordination problems and coordination comes from the information we consume.",
+  "zh": "这就是协调问题,而协调来自我们所消费的信息。"
+ },
+ {
+  "seg": 273,
+  "start": 1040.348,
+  "end": 1041.489,
+  "speaker": "Unknown",
+  "en": "So that's what we're working on.",
+  "zh": "所以这就是我们正在努力的方向。"
+ },
+ {
+  "seg": 274,
+  "start": 1041.849,
+  "end": 1044.131,
+  "speaker": "Unknown",
+  "en": "You all have a role to play in also getting to this world.",
+  "zh": "你们每个人在抵达这个世界的过程中也都能发挥一份作用。"
+ },
+ {
+  "seg": 275,
+  "start": 1044.771,
+  "end": 1048.093,
+  "speaker": "Unknown",
+  "en": "So thank you all for working on whatever passion you're working on.",
+  "zh": "所以感谢你们所有人投身于各自热爱的领域。"
+ },
+ {
+  "seg": 276,
+  "start": 1048.374,
+  "end": 1049.074,
+  "speaker": "Unknown",
+  "en": "And thanks for listening to me.",
+  "zh": "也感谢大家听我讲。"
+ },
+ {
+  "seg": 277,
+  "start": 1049.374,
+  "end": 1050.015,
+  "speaker": "Unknown",
+  "en": "All right, thank you.",
+  "zh": "好的,谢谢。"
+ }
+]

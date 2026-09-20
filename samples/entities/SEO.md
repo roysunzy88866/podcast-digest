@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SEO</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SEO">SE</div><div class="pi"><h1 class="pt">SEO</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SEO">SE</div><div class="pi"><h1 class="pt">SEO</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -21,13 +21,15 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*5 条*
+*6 条*
 
 ![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q6]]
 
 ![[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p#^q6]]
 
 ![[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill#^q6]]
+
+![[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi#^q7]]
 
 ![[2026-09-17-practicalai-how-to-get-discovered-in-ai-search#^q2]]
 
@@ -51,7 +53,7 @@ unlisted: true
 
 [[Google]] · [[ChatGPT]] · [[智能体]] · [[OpenAI]] · [[LLM]] · [[推理]] · [[爬取]] · [[Lenny]] · [[HubSpot]] · [[Andrew]]
 
-<script type="application/json" class="pd-epn">{"Google":45,"ChatGPT":72,"智能体":274,"OpenAI":122,"LLM":36,"推理":48,"爬取":3,"Lenny":67,"HubSpot":7,"Andrew":3}</script>
+<script type="application/json" class="pd-epn">{"Google":46,"ChatGPT":73,"智能体":276,"OpenAI":122,"LLM":37,"推理":48,"爬取":3,"Lenny":67,"HubSpot":8,"Andrew":3}</script>
 
 <script>
 (function(){

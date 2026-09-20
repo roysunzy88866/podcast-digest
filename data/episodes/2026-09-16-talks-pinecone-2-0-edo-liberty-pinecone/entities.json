@@ -1,0 +1,592 @@
+{
+  "episode_id": "2026-09-16-talks-pinecone-2-0-edo-liberty-pinecone",
+  "podcast": "精选演讲",
+  "date": "2026-09-16",
+  "tags": [
+    "智能体",
+    "知识层",
+    "企业级 AI",
+    "RAG",
+    "运行时编码"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "edo-liberty",
+      "type": "person",
+      "role": "guest",
+      "name": "Edo Liberty",
+      "file": "Edo Liberty",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心论点：大公司里的智能体很聪明、有工具，但缺乏部落知识，每次新会话都像入职第一天的新员工，大多数任务从零开始。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            338.234,
+            350.467
+          ],
+          "quote": "If your agent is in charge of HR practices or optimizing your kernels in your code base or resolving customer issues, that they would care about different things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            793.226,
+            805.855
+          ],
+          "quote": "It basically abstracts with simple functions all the access to that information so that the agent that I'll tell you in a second doesn't have to know how to access the internal parts of the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            827.481,
+            834.327
+          ],
+          "quote": "If you're an agent, it's really important for you to give us the budget in tokens or in dollars, how much time you want us to invest in this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            857.099,
+            861.56
+          ],
+          "quote": "And of course, what you get back is something that's agent friendly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            914.059,
+            924.341
+          ],
+          "quote": "You will see at the top a question that the agent issued, and you see on the left the different steps that it went through.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            931.958,
+            938.505
+          ],
+          "quote": "What Nexus does, which is very different than other systems, it's what we call a runtime coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1054.545,
+            1062.427
+          ],
+          "quote": "And then on the right is the same task given to an agent with all the tooling to complete the task.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识层 (knowledge layer)",
+      "file": "知识层",
+      "primary": true,
+      "how_described": "本集提出的智能体真正需要的新东西：持久、高度专业化、始终保持最新的公司知识承载层，本质上不同于 RAG 等其他数据源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            18.349,
+            26.094
+          ],
+          "quote": "I want to tell you a little bit about the new knowledge layer, and I'll start with telling you a little bit about theory of mind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            287.067,
+            296.153
+          ],
+          "quote": "So I would argue that what they need is not necessarily to be smarter, to have better tools, but to have something new, which I would call a knowledge layer going forward.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            298.25,
+            302.278
+          ],
+          "quote": "And I have to explain to you what I think a knowledge layer has to actually do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            332.148,
+            338.054
+          ],
+          "quote": "The second thing is that you would argue that this knowledge layer needs to be highly specialized.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            421.807,
+            429.109
+          ],
+          "quote": "I will argue before we move on that I'm not suggesting that this knowledge layer should replace everything else we're doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            460.989,
+            468.775
+          ],
+          "quote": "Nexus is a product that we're, of course, it's a knowledge layer, but I want to explain to you what it does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            521.483,
+            533.494
+          ],
+          "quote": "So the context, think about that as the sum of assets that the Nexus or this knowledge layer saves about a specific topic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            567.9,
+            570.441
+          ],
+          "quote": "In a knowledge layer, you don't do that anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            570.921,
+            576.403
+          ],
+          "quote": "You tell the knowledge layer, you tell Nexus what you care about in a manifest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            584.186,
+            590.988
+          ],
+          "quote": "And it's the knowledge layer's work to keep track of those files and organize its own data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tribal-knowledge",
+      "type": "concept",
+      "role": "concept",
+      "name": "部落知识 (tribal knowledge)",
+      "file": "部落知识",
+      "primary": true,
+      "how_described": "本集定义为公司内部的通用知识——怎么做事、流程是什么、谁负责什么、指导原则是什么——资深员工有而新员工没有，没法靠一次搜索捞出来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            194.008,
+            196.689
+          ],
+          "quote": "And then I would say there is tribal knowledge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            196.729,
+            201.311
+          ],
+          "quote": "Tribal knowledge is the general knowledge inside the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            396.833,
+            408.936
+          ],
+          "quote": "Even though 9,000 documents going from a day before yesterday to the last 10 years say it's somebody else, this has become common tribal knowledge immediately.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nexus",
+      "type": "company",
+      "role": "company",
+      "name": "Nexus",
+      "file": "Nexus",
+      "primary": true,
+      "how_described": "本集介绍的产品：一个知识层，由连接器、上下文、任务和 NoQL 查询四部分组成，演讲次日即进入公开预览。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            455.169,
+            457.492
+          ],
+          "quote": "So I want to tell you more about Nexus.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            460.989,
+            468.775
+          ],
+          "quote": "Nexus is a product that we're, of course, it's a knowledge layer, but I want to explain to you what it does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            521.483,
+            533.494
+          ],
+          "quote": "So the context, think about that as the sum of assets that the Nexus or this knowledge layer saves about a specific topic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            570.921,
+            576.403
+          ],
+          "quote": "You tell the knowledge layer, you tell Nexus what you care about in a manifest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            910.938,
+            913.719
+          ],
+          "quote": "What you're seeing is the interface for Nexus.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            931.958,
+            938.505
+          ],
+          "quote": "What Nexus does, which is very different than other systems, it's what we call a runtime coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1027.991,
+            1041.737
+          ],
+          "quote": "We went down from having something like 150,000 tokens to give our agents all the tooling they need to less than 1,000 tokens to specify all the interfaces they need to get information out of Nexus.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1048.383,
+            1054.084
+          ],
+          "quote": "So on the left, of course, you'll see Nexus with no QL answering the question.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1155.93,
+            1166.698
+          ],
+          "quote": "I'll just wrap up by saying that Nexus is coming out of early access and into public preview literally tomorrow.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集说 RAG 和搜索等工具早就基本解决了公司特定知识的检索问题，但它拿不到部落知识——换 CEO 后 RAG 搜索仍会告诉你旧答案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            182.632,
+            189.094
+          ],
+          "quote": "And RAG and Search and, of course, Pinecone, VectalDBs, and so on, solved these problems a long time ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            409.457,
+            418.139
+          ],
+          "quote": "And everything else, even every RAG search will tell you otherwise, this is now the overriding fact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            438.532,
+            441.696
+          ],
+          "quote": "Search, of course, like RAG, Vectal Search, Text Search, and so on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "manifest",
+      "type": "concept",
+      "role": "concept",
+      "name": "Manifest（清单） (manifest)",
+      "file": "Manifest（清单）",
+      "primary": true,
+      "how_described": "本集称之为知识层里第一个真正新颖的想法：你只需在 manifest 里声明要完成的任务、追踪的实体、关心的信息，文件追踪和数据组织全交给知识层，可理解为元知识文件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            545.066,
+            547.608
+          ],
+          "quote": "But then it has the manifest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            548.088,
+            554.032
+          ],
+          "quote": "The manifest is the first truly novel idea in an important entity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            570.921,
+            576.403
+          ],
+          "quote": "You tell the knowledge layer, you tell Nexus what you care about in a manifest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            596.576,
+            601.521
+          ],
+          "quote": "So think about the manifest as the meta knowledge file or set of files.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            700.046,
+            702.509
+          ],
+          "quote": "It's all maintained through the manifest.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            747.348,
+            752.032
+          ],
+          "quote": "It takes the manifest, which tells, okay, now what things do I care about?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "noql",
+      "type": "concept",
+      "role": "concept",
+      "name": "NoQL",
+      "file": "NoQL",
+      "primary": true,
+      "how_described": "本集称之为系统第二有意思的部分：指定如何从上下文取数的方式，智能体可以用 token 或美元给出预算，返回智能体友好的有依据文本加结构化格式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            817.293,
+            818.274
+          ],
+          "quote": "Which is NoQL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            818.334,
+            824.819
+          ],
+          "quote": "NoQL is our way to specify how we want information out of the context.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "runtime-coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "运行时编码智能体 (runtime coding agent)",
+      "file": "运行时编码智能体",
+      "primary": true,
+      "how_described": "本集说 Nexus 与其他系统最大的不同：查询时引擎现场搭建类似 Jupyter Notebook 的环境，写代码、执行、按需重写，答案由代码产出而非查数据库，提示词从约 15 万 token 降到不足 1 千。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            931.958,
+            938.505
+          ],
+          "quote": "What Nexus does, which is very different than other systems, it's what we call a runtime coding agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "theory-of-mind",
+      "type": "concept",
+      "role": "concept",
+      "name": "心智理论 (theory of mind)",
+      "file": "心智理论",
+      "primary": true,
+      "how_described": "开场用心理学这个概念点题：我们理解他人知道什么、相信什么、会怎么行动的能力——人们对产品知道什么往往判断很差，如今对智能体也在犯同样的错。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            18.349,
+            26.094
+          ],
+          "quote": "I want to tell you a little bit about the new knowledge layer, and I'll start with telling you a little bit about theory of mind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            26.794,
+            29.116
+          ],
+          "quote": "How many of you know what theory of mind is?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            98.457,
+            108.323
+          ],
+          "quote": "But this is a funny way to say, yeah, people have a very bad theory of mind on sort of what the products that they use, what information they have and what they don't have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            241.39,
+            248.352
+          ],
+          "quote": "And so our theory of mind of most of our agents in big companies today should be something like a new hire.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pinecone",
+      "type": "company",
+      "role": "company",
+      "name": "Pinecone",
+      "file": "Pinecone",
+      "primary": false,
+      "how_described": "本集顺带提到：Pinecone、向量数据库等工具和 RAG、搜索一起，早就解决了公司特定知识的检索问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            182.632,
+            189.094
+          ],
+          "quote": "And RAG and Search and, of course, Pinecone, VectalDBs, and so on, solved these problems a long time ago.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llmwiki",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLMWiki",
+      "file": "LLMWiki",
+      "primary": false,
+      "how_described": "本集提到 Karpathy 提出的这个想法——让智能体管理一批 markdown 文件给自己记笔记——与知识层存 markdown 的做法类似，算是加强版。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            637.811,
+            640.953
+          ],
+          "quote": "Who here has heard about LLMWiki?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            642.514,
+            654.962
+          ],
+          "quote": "Okay, so LLMWiki is this idea that Andrei Karpathy suggested to have agents basically manage some stash of markdown files to sort of keep their own notes of stuff.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

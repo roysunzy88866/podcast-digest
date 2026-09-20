@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"World Labs":4,"Marble":4,"ImageNet":2,"空间智能":3,"世界模型":7,"具身智能":1,"苦涩的教训":8,"神经网络":1,"机器学习":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"World Labs":4,"Marble":4,"ImageNet":2,"空间智能":3,"世界模型":7,"具身智能":1,"苦涩的教训":9,"神经网络":1,"机器学习":3}</script>
 
 <script>
 (function(){

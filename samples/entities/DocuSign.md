@@ -25,7 +25,7 @@ unlisted: true
 
 [[Hiral Shah]] · [[Sean Sodha]] · [[NVIDIA]] · [[Nemotron]] · [[表格提取]] · [[智能体]] · [[OCR]] · [[量化]] · [[VLM]] · [[vLLM]]
 
-<script type="application/json" class="pd-epn">{"Hiral Shah":1,"Sean Sodha":1,"NVIDIA":39,"Nemotron":5,"表格提取":1,"智能体":274,"OCR":2,"量化":3,"VLM":1,"vLLM":3}</script>
+<script type="application/json" class="pd-epn">{"Hiral Shah":1,"Sean Sodha":1,"NVIDIA":39,"Nemotron":5,"表格提取":1,"智能体":276,"OCR":2,"量化":3,"VLM":1,"vLLM":3}</script>
 
 <script>
 (function(){

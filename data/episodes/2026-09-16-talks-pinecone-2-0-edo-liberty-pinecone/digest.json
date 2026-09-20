@@ -1,0 +1,166 @@
+{
+  "title_zh": "给智能体一个「知识层」：让 AI 不再是入职第一天的聪明新员工",
+  "tldr": "Nexus 产品主讲人提出：企业智能体缺的不是智力而是部落知识，并展示知识层如何让 token 减少 90%、速度提升 77%。",
+  "digest_md": "这一集聊的是一个很扎心的问题：为什么大公司里的 AI 智能体（agent，能自主干活、调用工具的 AI）明明很聪明，干起活来却总像个什么都不懂的新人？主讲人是一位曾在 Yahoo 负责 Yahoo Answers 产品的从业者，如今在做一款叫 Nexus 的知识层产品。开场他用一个心理学概念「心智理论」（即我们理解他人知道什么、相信什么、会怎么行动的能力）点出了全场核心论点 [00:26 Unknown]：\n\n人们对自己用的产品「知道什么、不知道什么」往往缺乏判断——就像当年有人跑来 Yahoo Answers 问「我胖吗？」，可一个问答论坛根本不可能知道你胖不胖 [01:22 Unknown]。主讲人认为，今天的 AI 领域正在犯同样性质的错，只是更微妙：我们期望智能体干资深员工的活，却从没给过它们资深员工脑子里的东西 [01:48 Unknown]。\n\n## 知识分三类，智能体恰恰缺第三类\n\n主讲人把知识粗分为三类 [02:01 Unknown]：\n\n- **通用知识**：公开领域里的东西，模型训练时就学过，比如怎么改进 Rust 代码、解释法律条款。这块模型已经很擅长。\n- **特定知识**：公司私有的具体信息，比如代码库里实现了什么、某个客户合同写了什么。这块靠 RAG（检索增强生成，先搜资料再回答）、搜索、Pinecone、向量数据库等工具早就基本解决了。\n- **部落知识**：公司内部的「通用常识」——我们怎么做事、流程是什么、谁负责什么、指导原则是什么。资深员工有、新员工没有，而且没法靠搜索一次捞出来，因为它是很多东西的总和，不是某份文档能写清的 [03:14 Unknown]。\n\n问题就在这：如今大公司里大多数智能体的心智状态相当于一个新员工——很聪明、有工具、被寄予厚望，但对你的公司目标、文化、优先级、流程一无所知，大多数任务从零开始，每次新开会话都像入职第一天的应届生 [04:09 Unknown]。\n\n所以主讲人的结论是：智能体需要的未必是更聪明、工具更好，而是需要一个新东西——**知识层** [04:47 Unknown]。\n\n## 知识层必须做到的三件事\n\n按主讲人的定义，一个知识层至少要满足三点 [05:08 Unknown]：\n\n1. **持久**：承载公司知识、流程、能力和目标，这种东西拼起来是巨大工程，应该只做一次（或极少重做），且全公司所有智能体都能访问。\n2. **高度专业化**：负责 HR 的智能体、优化内核的智能体、处理客户问题的智能体，关心的信息各不相同。好的实践是让公司里的**领域专家拥有并维护各自的知识**，确保它们与公司目标一致。\n3. **始终保持最新**——这是最难的。公司会变，过时的信息要被弃用。他举了个例子：公司换了 CEO，第二天全公司的人都知道新 CEO 是谁，哪怕过去 10 年的 9000 份文档写的都是别人——这就是「压倒一切的部落知识」，任何 RAG 搜索都会告诉你旧答案，但现在新事实才作数 [06:36 Unknown]。\n\n他特别澄清：知识层不是要取代现有的一切——智能体照样能访问 LLM、工具、本地文件、RAG 和各种搜索；知识层是一个独立的实体，本质上不同的一种数据源 [07:01 Unknown]。\n\n## Nexus 怎么做：连接器、上下文、任务、查询\n\nNexus 大致由四部分组成 [07:40 Unknown]。\n\n**连接器**做的是显而易见的事：把数据带进平台、尊重访问权限。话题枯燥，但做过的人都知道这玩意儿做对有多费劲 [08:06 Unknown]。\n\n**上下文**是第一个真正有意思的部分，可以理解为知识层针对某个主题（HR、运营、工程……）保存的资产总和。它不只有数据源连接，关键有两样东西：\n\n- **Manifest（清单）**——主讲人称之为第一个真正新颖的想法 [09:08 Unknown]。今天我们给智能体提供上下文，靠的是技能、插件、命令、手写 markdown，模糊又费劲；有了知识层，你只需在 manifest 里告诉 Nexus 你关心什么：要完成什么任务、追踪哪些实体、在意什么信息——**剩下的追踪文件、组织数据全是知识层的工作** [09:30 Unknown]。可以把 manifest 理解为「元知识文件或一组文件」[09:56 Unknown]。\n- **知识本身**，分五种载体 [10:04 Unknown]：一张语义地图（目录式文件，组织所有信息的位置、关键 schema、术语表）；一堆 markdown 文件存决策、记忆等非结构化信息（他提到这和 Andrei Karpathy 提出的 LLMWiki 想法很像，算是「加强版」[10:42 Unknown]）；SQL 表格存表格数据和需要记住的事实；一个向量数据库支持语义搜索、文本搜索和过滤；外加图实体和图索引，记住实体、关系、因果链。**这些全都是系统替你创建和维护的，你不用碰、也不用懂** [11:31 Unknown]。\n\n**任务**是能对这些对象做的动作，主要是四个 [11:50 Unknown]：import（导入新信息，如新 PDF、会议记录、董事会演示文稿）；curate（整理，最精细的函数之一——拿着新文件、manifest 和语义地图，判断「我需要更新哪些表格、图关系、文本索引」，把新信息消化进上下文）；search（内部函数，用简单函数抽象对上下文的所有访问，让智能体不必了解内部结构）。\n\n**查询（NoQL）**是第二个最有意思的部分 [13:37 Unknown]。它是指定「怎么从上下文取信息」的方式，关键在于：智能体可以**用 token 或美元为单位给出预算**——你是要一个即兴的快速答案，还是要我们全力以赴搜遍一切给你最准的答案？ [13:47 Unknown] 它是给智能体用的工具，不是聊天界面，返回的是智能体友好的「有依据的文本 + 结构化格式」。\n\n## 打开引擎盖：「运行时编码智能体」\n\nNexus 与其他系统最大的不同，是它自称**运行时编码智能体** [15:31 Unknown]。普通编码系统的任务是：给我一个大代码库帮我改，改完部署——产物是软件，运行的东西里不再有模型。Nexus 相反：**在查询时**，引擎本质上在搭一个类似 Jupyter Notebook / Python REPL 的环境，现场写代码、执行、拿到答案就用，不符合预期就重写那段代码 [16:06 Unknown]。最终你得到的是一段完成任务、能保存、能重跑的代码——答案是代码写出来的，而不是查数据库查出来的，因此极其灵活。\n\n有个很能说明问题的数字：因为接口被代码抽象了，他们给智能体的提示词从约 150,000 token（给智能体配齐所有工具）降到了不到 1,000 token（只说明从 Nexus 取数的全部接口） [17:07 Unknown]。\n\n现场对比也很有说服力：同一个任务，走 Nexus 的智能体对上带着全部工具、但像「入职第一天员工」一样得自己找数据、搞清任务、写一堆代码的智能体——后者不仅慢得多、token 贵得多，**准确性反而差得多**，因为它没有公司里正确的上下文和目标 [17:42 Unknown]。\n\n早期客户的数据横跨不同领域、企业、任务类型，结论一致 [18:27 Unknown]：\n\n- token 减少 77%–90% 很常见；\n- 提速 20%–30%，有时达 77%；\n- 同时准确性显著提高。\n\n主讲人的总结很直白：「这真的是一记漂亮的制胜球」[19:11 Unknown]。Nexus 在演讲次日即从早期访问进入公开预览 [19:15 Unknown]。\n\n## 本集带走\n\n- **智能体的短板不是智力是部落知识**：怎么做事、谁负责什么、指导原则是什么——这些资深员工脑中的东西，智能体没有，所以每次会话都像入职第一天从零开始。\n- **判断标准是持久、专业、够新**：知识层要只建一次全公司共用、按领域（HR/工程/客服）分工由领域专家拥有维护，并且信息过时要像「换 CEO 第二天全公司都知道」那样立刻被新事实覆盖。\n- **用 manifest 声明代替手写上下文**：你只说要完成什么任务、追踪哪些实体、关心什么信息，语义地图、markdown、SQL 表、向量库、图索引这些载体的组织全交给系统。\n- **查询时给预算**：让智能体用 token 或美元声明这次取数投入多少——快速即兴答案还是全面深挖，由预算决定。\n- **运行时写代码取数，而不是查库**：Nexus 在查询现场写代码、执行、重写，答案由代码产出；代价是提示词从 15 万 token 降到不足 1 千，实测 token 省 77%–90%、提速 20%–77%、且更准。",
+  "quotes": [
+    {
+      "en": "So I would argue that what they need is not necessarily to be smarter, to have better tools, but to have something new, which I would call a knowledge layer going forward.",
+      "zh": "所以我认为，他们需要的未必是变得更聪明、拥有更好的工具，而是需要某种新的东西，我接下来称之为知识层。",
+      "timestamp": "04:47",
+      "speaker": "Edo Liberty"
+    },
+    {
+      "en": "They're brilliant, they have tools, we have very high expectations of them, but they are by and large clueless.",
+      "zh": "他们很聪明，他们有工具，我们对他们期望很高，但他们大体上是一头雾水的。",
+      "timestamp": "04:09",
+      "speaker": "Edo Liberty"
+    },
+    {
+      "en": "They really start to wake up, and every time you start your session, they're like a new hire on their first day on the job.",
+      "zh": "他们真的每次都是刚醒来，而且每次你开启一个新会话，他们就像上班第一天的应届新员工。",
+      "timestamp": "04:36",
+      "speaker": "Edo Liberty"
+    },
+    {
+      "en": "We went down from having something like 150,000 tokens to give our agents all the tooling they need to less than 1,000 tokens to specify all the interfaces they need to get information out of Nexus.",
+      "zh": "我们从需要大约 150,000 个 token 来给我们的智能体提供所有需要的工具,降到了少于 1,000 个 token 来指定它们从 Nexus 获取信息所需的全部接口。",
+      "timestamp": "17:07",
+      "speaker": "Edo Liberty"
+    },
+    {
+      "en": "But interestingly enough, it's also a hell of a lot less accurate because, again, they don't have the right context, the right objectives and so on in your company.",
+      "zh": "但有意思的是,它的准确性也差得多,因为再说一次,他们没有你公司里正确的上下文、正确的目标等等。",
+      "timestamp": "18:10",
+      "speaker": "Edo Liberty"
+    },
+    {
+      "en": "You get significant cost savings, 77, 90% token reduction is pretty common.",
+      "zh": "你会获得显著的成本节约,77%、90% 的 token 减少很常见。",
+      "timestamp": "18:44",
+      "speaker": "Edo Liberty"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:47",
+      "speaker": "Unknown",
+      "en": "So I would argue that what they need is not necessarily to be smarter, to have better tools, but to have something new, which I would call a knowledge layer going forward.",
+      "zh": "所以我认为，他们需要的未必是变得更聪明、拥有更好的工具，而是需要某种新的东西，我接下来称之为知识层。"
+    },
+    {
+      "timestamp": "04:09",
+      "speaker": "Unknown",
+      "en": "They're brilliant, they have tools, we have very high expectations of them, but they are by and large clueless.",
+      "zh": "他们很聪明，他们有工具，我们对他们期望很高，但他们大体上是一头雾水的。"
+    },
+    {
+      "timestamp": "04:22",
+      "speaker": "Unknown",
+      "en": "They have no idea about your company's goals, culture, priorities, processes.",
+      "zh": "他们对你的公司的目标、文化、优先级、流程一无所知。"
+    },
+    {
+      "timestamp": "04:36",
+      "speaker": "Unknown",
+      "en": "They really start to wake up, and every time you start your session, they're like a new hire on their first day on the job.",
+      "zh": "他们真的每次都是刚醒来，而且每次你开启一个新会话，他们就像上班第一天的应届新员工。"
+    },
+    {
+      "timestamp": "03:50",
+      "speaker": "Unknown",
+      "en": "You can't just get it by plucking it off one place and say, yes, this document says that this is our culture.",
+      "zh": "你不能只是从某个地方捞出来就说：好，这份文件写着这就是我们的文化。"
+    },
+    {
+      "timestamp": "06:36",
+      "speaker": "Unknown",
+      "en": "The very next day, everybody in the company knows who the CEO is.",
+      "zh": "第二天,公司里的每个人都知道新的 CEO 是谁。"
+    },
+    {
+      "timestamp": "06:49",
+      "speaker": "Unknown",
+      "en": "And everything else, even every RAG search will tell you otherwise, this is now the overriding fact.",
+      "zh": "其他一切,甚至每一次 RAG 搜索都会告诉你相反的结果,而现在这才是压倒一切的事实。"
+    },
+    {
+      "timestamp": "05:24",
+      "speaker": "Unknown",
+      "en": "It feels like putting this thing together is going to be a monumental effort. So you want to do it once, or at least very rarely.",
+      "zh": "感觉上,把这个东西拼起来将是一项巨大的工程。所以你会想只做一次,或者至少很少重做。"
+    },
+    {
+      "timestamp": "05:56",
+      "speaker": "Unknown",
+      "en": "I would argue that it's a good practice to have the domain experts in the company own those and being able to interact with them and make sure that they actually are aligned with what the company wants to do.",
+      "zh": "而且我认为,让公司里的领域专家拥有这些东西,并能够与它们交互,确保它们真正与公司想做的事情保持一致,是一个好的实践。"
+    },
+    {
+      "timestamp": "09:27",
+      "speaker": "Unknown",
+      "en": "In a knowledge layer, you don't do that anymore.",
+      "zh": "在知识层里,你不再那么做了。"
+    },
+    {
+      "timestamp": "11:31",
+      "speaker": "Unknown",
+      "en": "And all of that is managed and created for you. You don't touch any of this.",
+      "zh": "而所有这些都是为你管理和创建好的。你不用碰任何这些。"
+    },
+    {
+      "timestamp": "13:47",
+      "speaker": "Unknown",
+      "en": "If you're an agent, it's really important for you to give us the budget in tokens or in dollars, how much time you want us to invest in this.",
+      "zh": "如果你是一个智能体,以 token 或以美元为单位给我们预算非常重要,即你希望我们在这上面投入多少时间。"
+    },
+    {
+      "timestamp": "14:17",
+      "speaker": "Unknown",
+      "en": "This is not like a chat interface.",
+      "zh": "这不像一个聊天界面。"
+    },
+    {
+      "timestamp": "15:31",
+      "speaker": "Unknown",
+      "en": "What Nexus does, which is very different than other systems, it's what we call a runtime coding agent.",
+      "zh": "Nexus 做的事情,与其他系统非常不同,它就是我们所说的运行时编码智能体。"
+    },
+    {
+      "timestamp": "16:37",
+      "speaker": "Unknown",
+      "en": "That is saveable, that's rerunnable, but it's also incredibly flexible because now the answer is gotten not by a query to a database, it's written by code, which is, of course, incredibly flexible.",
+      "zh": "它是可以保存的、可以重新运行的,但也极其灵活,因为现在答案不是通过查询数据库获得的,而是由代码写出来的,这当然是极其灵活的。"
+    },
+    {
+      "timestamp": "17:07",
+      "speaker": "Unknown",
+      "en": "We went down from having something like 150,000 tokens to give our agents all the tooling they need to less than 1,000 tokens to specify all the interfaces they need to get information out of Nexus.",
+      "zh": "我们从需要大约 150,000 个 token 来给我们的智能体提供所有需要的工具,降到了少于 1,000 个 token 来指定它们从 Nexus 获取信息所需的全部接口。"
+    },
+    {
+      "timestamp": "17:42",
+      "speaker": "Unknown",
+      "en": "But remember, this on the right, it's severely handicapped. It's like the employee on the first day on the job.",
+      "zh": "但记住,右边这个,它严重处于劣势。就像入职第一天的员工。"
+    },
+    {
+      "timestamp": "18:10",
+      "speaker": "Unknown",
+      "en": "But interestingly enough, it's also a hell of a lot less accurate because, again, they don't have the right context, the right objectives and so on in your company.",
+      "zh": "但有意思的是,它的准确性也差得多,因为再说一次,他们没有你公司里正确的上下文、正确的目标等等。"
+    },
+    {
+      "timestamp": "18:44",
+      "speaker": "Unknown",
+      "en": "You get significant cost savings, 77, 90% token reduction is pretty common.",
+      "zh": "你会获得显著的成本节约,77%、90% 的 token 减少很常见。"
+    },
+    {
+      "timestamp": "19:11",
+      "speaker": "Unknown",
+      "en": "So this is really, it's a slam dunk.",
+      "zh": "所以这真的是,这是一记漂亮的制胜球。"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊一个企业里特别扎心的现象:AI 智能体明明很聪明,可在公司里干起活来,却总像个什么都不懂的新人。\n\n先介绍下主角。这一集的主讲人,曾在 Yahoo 负责 Yahoo Answers 这个产品,如今在做一款叫 Nexus 的知识层产品。要聊的事情一句话就能说清:企业里的智能体,缺的往往不是智力,而是公司里那些只装在资深员工脑子里的东西。为什么这个问题现在值得聊?因为它直接决定了你花的 AI 钱到底有没有效果。\n\n开场,主讲人用了一个心理学概念,叫心智理论,说白了就是我们理解别人知道什么、不知道什么、会怎么行动的能力。用这个概念点出了全场核心论点:人们对自己用的产品知道什么、不知道什么,往往缺乏判断。举个例子,当年有人跑来 Yahoo Answers 问\"我胖吗?\"——可一个问答论坛根本不可能知道你胖不胖。今天的 AI 领域,正在犯同样性质的错,只是更微妙:我们期望智能体干资深员工的活,却从没给过它们资深员工脑子里装的东西。\n\n那这些资深员工脑子里装的,到底是什么呢?这里需要先把知识分分类。主讲人把知识粗分成三类。\n\n第一类是通用知识,公开领域里的东西,比如怎么改进代码、怎么解释法律条款,模型训练的时候就学过了,这块模型已经很擅长。第二类是特定知识,就是公司私有的具体信息,比如代码库里实现了什么、某个客户的合同写了什么。这块靠 RAG——也就是先搜资料再回答的检索技术——加上各种搜索工具、向量数据库,早就基本解决了。\n\n问题出在第三类,部落知识。这是公司内部的通用常识:我们怎么做事、流程是什么、谁负责什么、指导原则是什么。资深员工有,新员工没有,而且没法靠搜索一次捞出来——因为它是很多东西的总和,不是某份文档能写清的。\n\n所以你看,如今大公司里大多数智能体的心智状态,就相当于一个新员工:很聪明,有工具,被寄予厚望,但对公司的目标、文化、优先级、流程一无所知。大多数任务从零开始,每次新开会话,都像入职第一天的应届生。有句话说得特别直白:他们很聪明,有工具,我们对他们期望很高,但他们大体上是一头雾水的。\n\n既然病根找到了,药方是什么呢?结论是:智能体需要的未必是变得更聪明、拥有更好的工具,而是需要某种新的东西,叫知识层。\n\n那这个知识层,得做到哪几件事才算合格?按主讲人的定义,至少三点。第一,持久。承载公司的知识、流程、能力和目标,这种巨大工程应该只做一次,或者极少重做,而且全公司所有智能体都能访问。第二,高度专业化。负责 HR 的智能体、优化内核的智能体、处理客户问题的智能体,关心的信息完全不同,所以要让领域专家各自拥有和维护自己领域的知识。第三,也是最难的一点,始终保持最新。举个特别形象的例子:公司换了 CEO,第二天全公司的人都知道新 CEO 是谁,哪怕过去十年的九千份文档写的都是别人——新事实会压倒一切旧的部落知识。可任何搜索工具都只会告诉你旧答案,这就是知识层要解决的关键难题。\n\n这里还得澄清一下,免得误会:知识层不是要取代现有的一切。智能体照样能用大模型、用工具、访问本地文件、用搜索,知识层是一个独立的实体,本质上不同的一种数据源。\n\n那具体怎么实现?这就说到了主讲人做的产品 Nexus,它大致由四部分组成。第一部分是连接器,把数据带进平台、尊重访问权限。话题听着枯燥,但做过的人都知道,这玩意儿做对有多费劲。\n\n真正有意思的是第二部分,上下文,可以理解成知识层针对某个主题——比如 HR、运营、工程——保存的资产总和。这里头有个被称作全场第一个真正新颖的想法,叫 manifest,也就是清单。今天我们给智能体提供上下文,靠的是技能、插件、命令、手写文档,模糊又费劲;有了 manifest,你只需要告诉系统你关心什么:要完成什么任务、追踪哪些实体、在意什么信息——剩下的追踪文件、组织数据,全是知识层自己的工作。\n\n上下文里的知识,有五种载体:一张语义地图,像目录一样标出所有信息的位置;一堆 markdown 文件存决策、记忆这类非结构化信息;SQL 表格存表格数据;一个向量数据库支持语义搜索;再加上图实体和图索引,记住实体之间的关系和因果链。注意,这些载体全都是系统替你创建和维护的,你不用碰,也不用懂。\n\n第三部分是任务,就是能对这些知识做的动作,主要三个:导入新信息,比如新的会议记录、董事会演示文稿;整理,拿着新文件去判断该更新哪些表格和索引,把新信息消化进上下文;还有搜索,用一个简单的函数把所有内部访问抽象掉,智能体不必了解底层结构。\n\n第四部分最巧,叫查询,关键设计是:智能体可以给出预算,以 token 或者美元为单位。也就是说,你是要一个即兴的快速答案,还是要系统全力以赴搜遍一切、给你最准的答案?投入多少,由预算说了算。而且它是给智能体用的工具,返回的是有依据的文本加结构化格式,方便智能体直接消化。\n\n说到这,你可能好奇:这些听起来像数据库产品啊,凭什么叫\"智能体\"?这里就是 Nexus 和其他系统最大的不同了——它自称运行时编码智能体。普通编码系统的任务,是给一个大代码库帮忙改,改完部署,产物是软件,运行的时候不再有模型。Nexus 相反:在查询的那一刻,引擎会搭一个类似 Python 运行环境的地方,现场写代码、执行、拿结果,不符合预期就重写那段代码。最终你得到的是一段能保存、能重跑的代码——答案是代码写出来的,不是查数据库查出来的,所以极其灵活。\n\n效果有多明显?给一个数字感受一下:因为接口被代码抽象了,他们给智能体的提示词,从大约十五万个 token——那是给智能体配齐所有工具的开销——降到了不到一千个 token,只说明从 Nexus 取数的全部接口。\n\n现场还有个对比实验:同一个任务,一边是走 Nexus 的智能体,另一边是带着全部工具、但像入职第一天员工一样,得自己找数据、自己搞清任务、自己写一堆代码的智能体。结果后者不仅慢得多、token 贵得多,准确性反而差得多——因为它没有公司里正确的上下文和正确的目标。早期客户的数据横跨不同领域、不同企业、不同任务,结论一致:token 减少百分之七十七到九十很常见,速度提升百分之二十到三十,有时达到百分之七十七,同时准确性还显著提高了。主讲人自己的总结很直白:这真的是一记漂亮的制胜球。演讲次日,Nexus 就从早期访问进入了公开预览。\n\n回头看这一集,智能体每次都是刚醒来,每次新开会话都像上班第一天的应届新员工——补上这块短板的办法,不是让它更聪明,而是给它一个持久、专业、够新的知识层。"
+}

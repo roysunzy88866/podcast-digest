@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tim Sanders":1,"G2":1,"ChatGPT":72,"Gemini":10,"Claude":60,"OpenAI":122,"Reddit":7,"智能体":274,"AEO":5,"验证层":1}</script>
+<script type="application/json" class="pd-epn">{"Tim Sanders":1,"G2":1,"ChatGPT":73,"Gemini":10,"Claude":60,"OpenAI":122,"Reddit":7,"智能体":276,"AEO":5,"验证层":1}</script>
 
 <script>
 (function(){

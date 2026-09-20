@@ -1,0 +1,1097 @@
+{
+  "episode_id": "2026-09-16-talks-the-search-engine-for-the-agentic-web-wi",
+  "podcast": "精选演讲",
+  "date": "2026-09-16",
+  "tags": [
+    "AI 搜索",
+    "智能体",
+    "搜索引擎",
+    "创业公司故事",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "will-bryk",
+      "type": "person",
+      "role": "guest",
+      "name": "Will Bryk",
+      "file": "Will Bryk",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "exa",
+      "type": "company",
+      "role": "company",
+      "name": "Exa",
+      "file": "Exa",
+      "primary": true,
+      "how_described": "本集说 Exa 是为 AI 智能体打造的搜索引擎、第一家为 AI 做搜索的公司，服务超 5000 家公司、40 万开发者，客户包括 Cursor 编程智能体和 HubSpot 销售智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            30.212,
+            35.455
+          ],
+          "quote": "And I will tell you what is Exa, the story of Exa, so how we got here, and then where we're going.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            78.379,
+            80.981
+          ],
+          "quote": "So EXA is the search engine for AI agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            334.521,
+            335.902
+          ],
+          "quote": "Okay, so that's the why of EXA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            391.885,
+            393.426
+          ],
+          "quote": "So that's kind of, like, the ideas that started Exa.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            394.322,
+            396.163
+          ],
+          "quote": "It's actually the first day of EXA 2021.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            407.148,
+            410.229
+          ],
+          "quote": "And EXA was basically built on",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            646.148,
+            649.229
+          ],
+          "quote": "So just quick, like, what can you do with Exa?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            667.261,
+            668.142
+          ],
+          "quote": "You could do that with Exa now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            670.743,
+            677.147
+          ],
+          "quote": "A lot of people aren't aware of this, but you could just use Exa and just find really any list of companies, people,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            724.338,
+            732.062
+          ],
+          "quote": "Well, actually, Exa could help there because when the LLM makes a query, it wants to get just the information it needs, just the tokens it needs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            838.024,
+            845.687
+          ],
+          "quote": "And so now we have a system where data providers can actually partner with Exa so that developers can then get the data from those providers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            886.284,
+            895.706
+          ],
+          "quote": "Okay, so that's where Exa is right now, but the future has always been super exciting to me, and the goal has always been perfect information, and now we know it's for AI agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "metaphor",
+      "type": "concept",
+      "role": "concept",
+      "name": "Metaphor",
+      "file": "Metaphor",
+      "primary": false,
+      "how_described": "本集说 Exa 在 2022 年发布第一个搜索引擎时还叫 Metaphor，两周后 ChatGPT 问世。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            479.803,
+            495.077
+          ],
+          "quote": "And so, just, yeah, history of XS, so 2022, so this is like a year and a half after starting, we were called Metaphor at the time, some of you might know it, we launched our first search engine to the world, and it was pretty exciting, like, it was a new way of doing search, a lot of people were really excited about it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集说 Cursor 这类编程智能体在需要搜索最新技术文档或新闻时，底层用的是 Exa。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            97.491,
+            102.513
+          ],
+          "quote": "If you use Cursor, at some point, the Cursor agent decides to search for the latest technical documentation or the news.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hubspot",
+      "type": "company",
+      "role": "company",
+      "name": "HubSpot",
+      "file": "HubSpot",
+      "primary": false,
+      "how_described": "本集说 HubSpot 是 Exa 服务的市场推广智能体客户，帮用户获得高质量的可销售公司名单。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            104.074,
+            110.778
+          ],
+          "quote": "We serve go-to-market agents like HubSpot, so we help their users get really high-quality lists of companies to sell to.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集说 Google 并不是想成为精确给出你想要结果的世界信息数据库，「它更像是一个推荐引擎」——搜「没有条纹的衬衫」会得到带条纹的衬衫，也答不了「列出全部匹配者」的查询。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            183.441,
+            185.282
+          ],
+          "quote": "And we have a tool called Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            212.739,
+            215.562
+          ],
+          "quote": "I bet you've never typed in anything like this to Google because you know it's not going to work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            236.22,
+            237.581
+          ],
+          "quote": "You just don't trust Google to give you that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            359.55,
+            363.231
+          ],
+          "quote": "At the same time, as we saw with Google, it doesn't fully understand you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            522.528,
+            524.249
+          ],
+          "quote": "We were just trying to build a better search on Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            576.042,
+            579.585
+          ],
+          "quote": "They search symbol queries, this is what Google was made for, like SpaceX News, it's good at that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            810.409,
+            818.475
+          ],
+          "quote": "Because we've spent years doing research into how do you build a new type of search engine for agents, it's even better than Google, which was built for humans, which makes sense.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            995.73,
+            1005.392
+          ],
+          "quote": "Basically, like, you know, humans on average search a few times a day on Google, but when everyone has, you know, AI systems and every software product you use has AIs in it, every interaction you're doing, it's gonna be grounding",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集说 Exa 2022 年发布产品两周后 ChatGPT 问世，「真的改变了世界」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            496.081,
+            498.582
+          ],
+          "quote": "The next big thing that happened two weeks later was ChatGPT came out.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成搜索引擎的新下游客户：编程、销售、金融、语音、招聘等各类智能体都以搜索为根基，其搜索方式与人类完全不同，且搜索量今年起将反超人类、未来达人类一千倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            97.491,
+            102.513
+          ],
+          "quote": "If you use Cursor, at some point, the Cursor agent decides to search for the latest technical documentation or the news.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            701.724,
+            707.546
+          ],
+          "quote": "And if you're a voice agent and you talk to the voice agent and it wants to do a search underneath the hood, every millisecond counts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            747.878,
+            765.129
+          ],
+          "quote": "So hey, let's say you're building a recruiting AI agent and you want to find all the engineers who recently left their big lab job, give me the most cited paper that they've written, give me the college they went to, and the year they graduated, and we'll just give you that as structured output, it makes it really easy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "type": "concept",
+      "role": "concept",
+      "name": "搜索 (search)",
+      "file": "搜索",
+      "primary": true,
+      "how_described": "本集说搜索生态正在被 AI 改写：AI 系统的每日搜索量今年预计超过人类，每一次软件交互都以搜索为根基；完美搜索不是单一产品，而是为 5000 个客户建的 5000 个搜索引擎。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            20.428,
+            24.63
+          ],
+          "quote": "I am very excited to tell you all about Perfect Search, built for AI agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            67.392,
+            70.134
+          ],
+          "quote": "Some together will search a thousand times more than humans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            70.814,
+            76.678
+          ],
+          "quote": "That's a pretty crazy world that we're getting into, and the entire ecosystem of search is changing because of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            78.379,
+            80.981
+          ],
+          "quote": "So EXA is the search engine for AI agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            81.381,
+            87.184
+          ],
+          "quote": "We were the first ones to be like, we were the first search engine for AI, and now things are getting kind of wild.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            97.491,
+            102.513
+          ],
+          "quote": "If you use Cursor, at some point, the Cursor agent decides to search for the latest technical documentation or the news.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            187.466,
+            191.168
+          ],
+          "quote": "It could get you things like the Costco homepage or information about Taylor Swift or whatever you want to search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            207.396,
+            212.159
+          ],
+          "quote": "So find me, everyone in Singapore who works on AI search and any blog post or research paper they've written.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            344.906,
+            353.368
+          ],
+          "quote": "But I think what was really cool is that in 2021, it suddenly became possible in our eyes to build a new type of search engine because Transformers had gotten really good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            363.451,
+            367.352
+          ],
+          "quote": "And so what if you could combine the power of GB3 with a search engine?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            368.212,
+            370.073
+          ],
+          "quote": "And maybe you could have perfect search over the world's information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            379.678,
+            384.501
+          ],
+          "quote": "Now, do that over a trillion documents for every search, and you get a perfect search engine, or near perfect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            384.521,
+            386.502
+          ],
+          "quote": "The problem is that would cost, like, $10 million per search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            410.589,
+            413.813
+          ],
+          "quote": "The idea that, look, traditional search engines, they use keywords.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            470.714,
+            478.862
+          ],
+          "quote": "And we did a lot of, we were very new to search, to be honest, like, we were just really obsessed with the problem, and so we invented a lot of new stuff that I still haven't seen even today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            479.803,
+            495.077
+          ],
+          "quote": "And so, just, yeah, history of XS, so 2022, so this is like a year and a half after starting, we were called Metaphor at the time, some of you might know it, we launched our first search engine to the world, and it was pretty exciting, like, it was a new way of doing search, a lot of people were really excited about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            510.285,
+            519.507
+          ],
+          "quote": "But everything was saved when we got this message on Twitter from this person, whatever, who wanted an API access to our search engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            522.528,
+            524.249
+          ],
+          "quote": "We were just trying to build a better search on Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            540.317,
+            548.84
+          ],
+          "quote": "Like, okay, what we realized was AIs need search because, like, the argument is basically, look, even GB5, gigantic model, it's tiny in comparison to the internet, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            548.88,
+            551
+          ],
+          "quote": "So, like, these systems always need to search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            557.242,
+            560.864
+          ],
+          "quote": "And that was a really interesting insight because these things now need a search API, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            561.104,
+            564.405
+          ],
+          "quote": "And so we pretty quickly realized, okay, wait, AIs are gonna search the web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            564.705,
+            566.546
+          ],
+          "quote": "In fact, they're gonna search the web way more than humans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            568.937,
+            570.778
+          ],
+          "quote": "And they're going to search in very different ways.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            571.939,
+            576.022
+          ],
+          "quote": "So this is an example of what humans, this looks like when humans search, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            576.042,
+            579.585
+          ],
+          "quote": "They search symbol queries, this is what Google was made for, like SpaceX News, it's good at that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            586.95,
+            592.114
+          ],
+          "quote": "And it would be crazy if the same search engine that was optimal for humans was also optimal for these AI systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            593.255,
+            605.183
+          ],
+          "quote": "So anyway, you know, we realized, okay, if we build a search API for these AI agents, or it wasn't called AI agents at the time, it was just AIs for LLMs, then we could make money from that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            608.064,
+            612.487
+          ],
+          "quote": "And also, the beautiful thing is, it matches our initial, our mission, which is perfect search, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            612.507,
+            614.589
+          ],
+          "quote": "Like, AI systems really want perfect search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            622.381,
+            623.861
+          ],
+          "quote": "So we built the first search for LMs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            624.062,
+            627.102
+          ],
+          "quote": "And yeah, actually, like in 2023, we said, soon AIs will search more than humans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            636.425,
+            638.366
+          ],
+          "quote": "It's way more complex than just embedding search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            649.569,
+            651.77
+          ],
+          "quote": "And then I'll talk about where we're going, how we're going to get the perfect search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            687.98,
+            690.101
+          ],
+          "quote": "At the same time, we also have the fastest search API in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            690.641,
+            694.162
+          ],
+          "quote": "So we have a 200 millisecond search endpoint, and that's what it feels like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            701.724,
+            707.546
+          ],
+          "quote": "And if you're a voice agent and you talk to the voice agent and it wants to do a search underneath the hood, every millisecond counts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            707.686,
+            713.868
+          ],
+          "quote": "You want it to do a search really fast so that it could go process it with an LLM and then output the best audio back to the customer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            767.104,
+            771.387
+          ],
+          "quote": "And, yeah, I think one takeaway here is we're not building one search engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            771.407,
+            772.668
+          ],
+          "quote": "Like, perfect search is not one thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            772.748,
+            776.75
+          ],
+          "quote": "It's actually we have 5,000 search engines for each of our 5,000 customers, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            781.674,
+            785.396
+          ],
+          "quote": "And that's, I think, a beautiful thing because, like, we don't want to declare what is the perfect search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            792.422,
+            794.724
+          ],
+          "quote": "Do you want to search only over these thousand domains?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            795.025,
+            796.346
+          ],
+          "quote": "Do you want to never search over those thousand domains?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            796.366,
+            798.668
+          ],
+          "quote": "Do you want to search within this time window?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            807.067,
+            810.369
+          ],
+          "quote": "And yeah, our search quality is really good for these AI agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            810.409,
+            818.475
+          ],
+          "quote": "Because we've spent years doing research into how do you build a new type of search engine for agents, it's even better than Google, which was built for humans, which makes sense.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            835.503,
+            837.744
+          ],
+          "quote": "It's perfect search over all the world's information, not just the web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            897.416,
+            903.681
+          ],
+          "quote": "So instead of a world like this, no, bad, we want search to kind of feel like this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            927.275,
+            934.717
+          ],
+          "quote": "That should give you a sense of what perfect information feels like, and you do that for every search, all the crazy number of searches that AI agents are going to make.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            995.73,
+            1005.392
+          ],
+          "quote": "Basically, like, you know, humans on average search a few times a day on Google, but when everyone has, you know, AI systems and every software product you use has AIs in it, every interaction you're doing, it's gonna be grounding",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1005.912,
+            1007.033
+          ],
+          "quote": "Itself in search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "embedding",
+      "type": "concept",
+      "role": "concept",
+      "name": "Embedding（语义向量） (embedding)",
+      "file": "Embedding（语义向量）",
+      "primary": true,
+      "how_described": "本集说 embedding 是把每份文档预处理成的结构，捕捉神经网络的语义理解，是处理「没有条纹的衬衫」这类复杂查询、让 Exa 搜索能工作的关键技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            425.749,
+            438.104
+          ],
+          "quote": "You can't run, like I said, a neural network over every document for every query, but you can pre-process every document into some sort of structure like an embedding, and then that captures a lot of the intelligence of a neural network, and then you can use those embeddings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            636.425,
+            638.366
+          ],
+          "quote": "It's way more complex than just embedding search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "search-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "搜索 API (search API)",
+      "file": "搜索 API",
+      "primary": true,
+      "how_described": "本集说拯救 Exa 的转折是 Twitter 上陌生人索要搜索 API 的消息——AI/LLM 需要外接检索引擎，由此 Exa 想通了为 AI 智能体做搜索 API 的商业模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            557.242,
+            560.864
+          ],
+          "quote": "And that was a really interesting insight because these things now need a search API, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            593.255,
+            605.183
+          ],
+          "quote": "So anyway, you know, we realized, okay, if we build a search API for these AI agents, or it wasn't called AI agents at the time, it was just AIs for LLMs, then we could make money from that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            687.98,
+            690.101
+          ],
+          "quote": "At the same time, we also have the fastest search API in the world.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": false,
+      "how_described": "本集说再巨大的模型和互联网相比也微不足道、永远需要连接检索引擎；Exa 的 token 提取还能省下游 LLM 成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            707.686,
+            713.868
+          ],
+          "quote": "You want it to do a search really fast so that it could go process it with an LLM and then output the best audio back to the customer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            724.338,
+            732.062
+          ],
+          "quote": "Well, actually, Exa could help there because when the LLM makes a query, it wants to get just the information it needs, just the tokens it needs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            738.506,
+            740.487
+          ],
+          "quote": "And that will save you a lot of downstream LLM costs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "exaconnect",
+      "type": "concept",
+      "role": "concept",
+      "name": "ExaConnect",
+      "file": "ExaConnect",
+      "primary": true,
+      "how_described": "本集说 ExaConnect 是 Exa 新发布的系统：数据提供方接入并给内容定价，开发者付费让智能体访问，「基本上是创造了一个面向智能体的新市场」、一个数据自由市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 229,
+          "t": [
+            820.918,
+            824.359
+          ],
+          "quote": "OK, a cool thing that we released recently was ExaConnect.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bitter-lesson",
+      "type": "concept",
+      "role": "concept",
+      "name": "bitter lesson",
+      "file": "bitter lesson",
+      "primary": false,
+      "how_described": "本集说 Exa 很早就「bitter lesson-pilled」，相信堆更多层、规模化算力终将胜出——所以融几百万美元就花一半买 GPU 集群。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            450.978,
+            451.959
+          ],
+          "quote": "Very bitter lesson-pilled.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            452.339,
+            454.22
+          ],
+          "quote": "We were very early on to being bitter lesson-pilled.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            457.964,
+            462.287
+          ],
+          "quote": "But anyway, so we were very bitter lesson-pilled, so we did some crazy things, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "perfect-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "完美搜索 (perfect search)",
+      "file": "完美搜索",
+      "primary": true,
+      "how_described": "本集把它说成 Exa 的使命：对全世界所有信息的近乎完美搜索，「就像你把一年的研究压缩在了一秒钟之内」，而且要为 AI 智能体的每一次搜索做到。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            20.428,
+            24.63
+          ],
+          "quote": "I am very excited to tell you all about Perfect Search, built for AI agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            368.212,
+            370.073
+          ],
+          "quote": "And maybe you could have perfect search over the world's information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            379.678,
+            384.501
+          ],
+          "quote": "Now, do that over a trillion documents for every search, and you get a perfect search engine, or near perfect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            608.064,
+            612.487
+          ],
+          "quote": "And also, the beautiful thing is, it matches our initial, our mission, which is perfect search, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            612.507,
+            614.589
+          ],
+          "quote": "Like, AI systems really want perfect search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            649.569,
+            651.77
+          ],
+          "quote": "And then I'll talk about where we're going, how we're going to get the perfect search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            771.407,
+            772.668
+          ],
+          "quote": "Like, perfect search is not one thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            781.674,
+            785.396
+          ],
+          "quote": "And that's, I think, a beautiful thing because, like, we don't want to declare what is the perfect search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            835.503,
+            837.744
+          ],
+          "quote": "It's perfect search over all the world's information, not just the web.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

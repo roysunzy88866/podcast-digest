@@ -109,7 +109,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Meta]] · [[Google]] · [[智能体]] · [[Lenny]] · [[NVIDIA]] · [[LLM]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":122,"Anthropic":130,"ChatGPT":72,"Meta":33,"Google":45,"智能体":274,"Lenny":67,"NVIDIA":39,"LLM":36,"Microsoft":25}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":122,"Anthropic":130,"ChatGPT":73,"Meta":33,"Google":46,"智能体":276,"Lenny":67,"NVIDIA":39,"LLM":37,"Microsoft":25}</script>
 
 <script>
 (function(){

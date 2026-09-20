@@ -110,7 +110,10 @@
     "qyPCVqFUyDo": "2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s",
     "byAj35QlGbs": "2026-07-28-talks-blake-scholl-how-50-people-built-a-super",
     "5d6y3poKwK4": "2026-07-31-talks-patrick-collison-is-ai-breaking-the-lean",
-    "A9JDkiYEhfY": "2026-08-05-talks-the-case-for-data-centers-in-space"
+    "A9JDkiYEhfY": "2026-08-05-talks-the-case-for-data-centers-in-space",
+    "Zd5b40Jbp_k": "2026-09-15-talks-act-confirm-or-stop-smarter-behavior-for",
+    "59AA5kIoqjA": "2026-09-16-talks-the-search-engine-for-the-agentic-web-wi",
+    "IN-rb-9WmiY": "2026-09-16-talks-pinecone-2-0-edo-liberty-pinecone"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1,
@@ -125,8 +128,7 @@
     "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds": 1,
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
     "2026-09-03-eyeonai-from-10-drones-a-month-to-nearly-100-000": 1,
-    "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
-    "2026-09-18-twist-hugging-face-co-founder-on-open-source-m": 2
+    "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1
   },
   "cutoffs": {
     "lennys": "2026-09-08T12:31:49.000Z",
@@ -168,7 +170,7 @@
     "iltb": "2026-09-16T08:00:00.000Z",
     "generalist": "2026-09-08T11:00:00.000Z",
     "sed": "2026-09-17T06:00:00.000Z",
-    "twist": "2026-09-15T23:00:00.000Z",
+    "twist": "2026-09-18T22:16:00.000Z",
     "grit": "2026-09-07T09:38:47.000Z",
     "mos": "2026-09-17T09:00:00.000Z",
     "strictlyvc": "2026-09-15T15:17:00.000Z"
@@ -1289,6 +1291,18 @@
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "The Case For Data Centers In Space",
       "pubDate": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "id": "2026-09-18-twist-hugging-face-co-founder-on-open-source-m",
+      "reason": "转瞬失败连败 3 次(浓缩/翻译反复不合格),停手待人工;删账本条目+挪回目录可重试",
+      "title": "Hugging Face Co-Founder on Open-Source, Microduck, and NVIDIA | E2339",
+      "pubDate": "2026-09-18T22:16:00.000Z"
+    },
+    {
+      "id": "2026-09-15-talks-act-confirm-or-stop-smarter-behavior-for",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Act, Confirm, or Stop? Smarter behavior for AI assistants, wearables & robots — Amit Desai, Roku",
+      "pubDate": "2026-09-15T00:00:00.000Z"
     }
   ]
 }

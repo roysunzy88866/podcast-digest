@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Salesforce]] · [[Brian Halligan]] · [[Kareem Amin]] · [[Vishu]] · [[Harry Stebbings]] · [[Lenny]] · [[市场进入工程]] · [[Claygent]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":274,"Salesforce":24,"Brian Halligan":1,"Kareem Amin":1,"Vishu":1,"Harry Stebbings":17,"Lenny":67,"市场进入工程":1,"Claygent":1,"NVIDIA":39}</script>
+<script type="application/json" class="pd-epn">{"智能体":276,"Salesforce":24,"Brian Halligan":1,"Kareem Amin":1,"Vishu":1,"Harry Stebbings":17,"Lenny":67,"市场进入工程":1,"Claygent":1,"NVIDIA":39}</script>
 
 <script>
 (function(){

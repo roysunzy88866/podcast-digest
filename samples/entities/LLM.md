@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>36</b> 集 · <b>31</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>37</b> 集 · <b>31</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -46,6 +46,7 @@ unlisted: true
 - **[[2026-09-10-talks-the-design-code-roundtrip-that-isn-t-jon|《设计-代码往返并不存在：一位 30 年老兵的实测与漂移警告》]]**(03:17起):让 Jonathan 以为能以推理速度闭合设计-代码闭环的智能来源；但模型本身是非确定性、概率性的，是本集指出的第一个盲区。
 - **[[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]]**(12:21起):本集说 LLM 是决策环境而非决策者：可当裁判模型复核推理链、编排多角色小委员会，但'机器无法承担责任'，判断必须留在人身上
 - **[[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|《Tolan 如何做语音优先的 AI 陪伴体》]]**(03:11起):本集说几乎所有 LLM 应用都建立在文字聊天「轮次慢、上下文稳定」的假设上,而语音打破了这一假设
+- **[[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]]**(11:47起):本集说再巨大的模型和互联网相比也微不足道、永远需要连接检索引擎；Exa 的 token 提取还能省下游 LLM 成本。
 - **[[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]]**(06:56起):买家行为变化的第一性原因：人们在 LLM 里消化信息，「LLM 就是新的网站访客」；它有非确定性/随机因素，需要统计建模来测量可见性。
 
 ## ① 提到它的金句
@@ -116,7 +117,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*36 集*
+*37 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -153,15 +154,16 @@ unlisted: true
 - [[2026-09-10-talks-the-design-code-roundtrip-that-isn-t-jon|《设计-代码往返并不存在：一位 30 年老兵的实测与漂移警告》]] — 作为概念
 - [[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|《Shopify CEO Toby：一半代码来自聊天群里的 AI 同事》]] — 作为概念
 - [[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|《Tolan 如何做语音优先的 AI 陪伴体》]] — 作为概念(提及)
+- [[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]] — 作为概念(提及)
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[Google]] · [[MCP]] · [[vibe coding]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Lenny]] · [[Claude]] · [[OpenAI]] · [[Google]] · [[Claude Code]] · [[MCP]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":274,"Anthropic":130,"ChatGPT":72,"Lenny":67,"Claude":60,"OpenAI":122,"Claude Code":64,"Google":45,"MCP":45,"vibe coding":35}</script>
+<script type="application/json" class="pd-epn">{"智能体":276,"Anthropic":130,"ChatGPT":73,"Lenny":67,"Claude":60,"OpenAI":122,"Google":46,"Claude Code":64,"MCP":45,"Cursor":63}</script>
 
 <script>
 (function(){

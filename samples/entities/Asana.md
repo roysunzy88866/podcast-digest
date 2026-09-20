@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Sal Motamini]] · [[Andrew Wilkinson]] · [[Alvaro Morales]] · [[Lenny]] · [[Orb]] · [[Tiny]] · [[Stripe]] · [[Lindy]]
 
-<script type="application/json" class="pd-epn">{"智能体":274,"ChatGPT":72,"Sal Motamini":1,"Andrew Wilkinson":1,"Alvaro Morales":1,"Lenny":67,"Orb":1,"Tiny":1,"Stripe":33,"Lindy":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":276,"ChatGPT":73,"Sal Motamini":1,"Andrew Wilkinson":1,"Alvaro Morales":1,"Lenny":67,"Orb":1,"Tiny":1,"Stripe":33,"Lindy":2}</script>
 
 <script>
 (function(){
