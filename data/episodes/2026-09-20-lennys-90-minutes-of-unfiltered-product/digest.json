@@ -1,0 +1,184 @@
+{
+  "title_zh": "把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课",
+  "tldr": "前 Snapchat 首位产品经理、Discord 前产品负责人 Peter Sellis 谈团队设计、为什么大多数 PM 不合格、Snapchat 变现困局与 ChatGPT 广告的机会。",
+  "digest_md": "这一集的主角是 Peter Sellis——他是 Snapchat 的第一位产品经理，在那里干了七年，后来出任 Discord 的产品负责人，现在正处于两份工作之间，所以第一次愿意在没有公关团队约束的情况下上播客，敞开聊他真实的想法。他最反直觉的一个说法是：**他喜欢像设计恐怖组织那样设计团队**。这不是玩笑，背后有一套完整的组织哲学。\n\n## 像恐怖组织一样设计团队\n\n这个说法源于两个信念。第一，协作有隐藏成本：你永远不会听到任何高管说「停止协作」，而这恰恰是危险信号——协调成本保证了你的速度等于系统里最慢的那个节点。第二，在高增长公司里，产品经理做出的决定，应该是创始人一两年前才会亲自做的决定。\n\n把暴力成分去掉，一个好的恐怖组织有两样东西：一是意识形态文化，每个人都明白自己为什么在做这件事——战略对整个团队几乎像一种宗教；二是极其清晰的组织结构，明确谁可以被信任做哪种决策。两者结合，你不需要过度协作，却能达到协作才有的效果。\n\n具体怎么做？当创始人仍在掌权时，产品负责人其实是创始人愿景的「容器」：把创始人的愿景吸收内化，然后凝练成可以反复使用的小短语——整个战略的「快捷方式」。他还研究过邪教组织，认为邪教更多围绕领导者个人，而恐怖组织围绕更高的理念，后者更值得借鉴——研究邪教时，学到它们「东窗事发之前的那一步」为止，能学到很多。\n\n## 管理尖刺型人才：你管不了 Nikita Bier\n\nPeter 在 Discord 收购了 Nikita Bier 的创业公司（Nikita 后来去了 X 做产品负责人）。他的结论是：「管理」这个词用得太宽松了——你没法管理 Nikita，只能控制或引导他。他把 Nikita 比作《飓风营救》里的 Liam Neeson：女儿被绑架时他有一套极罕见的技能、无比有用；但让他去买个菜，他只会把杂货店里所有人都杀掉。\n\n由此引出的组织原则：**能吸纳「尖刺型人才」是组织的必备能力**，如果产品组织应付不了这种不完美朝九晚五的人，那是一种失败状态。他的管理风格参照公牛队和湖人队教练 Phil Jackson——把平常根本合不来的人融合成冠军球队。而对待难搞但有才华的 PM，他像对待出专辑的乐队：有时会出一张烂专辑，但如果仍相信他们是艺术家，就继续支持。\n\n## 为什么大多数 PM 净负面：一道数学题\n\nPeter 认为，在 ZIRP（零利率）时代，产品管理成了科技行业里非技术人才最赚钱的职业，但这个职业的分布天然有问题：真正当上 PM 的人都位于正态分布的右尾，切掉之后变成幂律分布——中位数远低于平均值。更糟的是双向抽水：最优秀的 PM 会退出体系去当创始人、当高管；而留在里面的人则想尽一切办法留下来。结果就是这个职业的中位数 PM 相当差。\n\n有意思的旁证：优秀的工程师很少抱怨 PM——他们要么能让 PM 为其所用，要么根本不容忍差 PM；真正差的工程师也不抱怨，因为可以躲在 PM 的决策后面。**抱怨的只有中间那批人。**他还观察到，很多人说 PM 没用，只是因为他们从没和一个真正优秀的 PM 共事过。\n\n## Snap 为什么没成为下一个 Facebook\n\nSnap 有十亿月活，但没能做成想象中的庞然大物。Peter 从广告变现角度给出三个结构性原因：**第一，用户太年轻。**美国广告 CPN（单次触达成本）在 17 到 18 岁、18 到 21 岁之间存在一个「可疑的不连续性」——对未成年人的追踪和定向限制极其严苛，难以衡量就难以做效果广告。**第二，产品形态对广告不友好。**所有非搜索类广告都依附于内容消费的屏幕，而 Snap 打开的是相机——拍完发给朋友的核心流程里没有任何放广告的合理位置。他承认自己最大的失败之一就是没能搞定相机变现。**第三，它的本质是即时通讯应用**，而全世界都没有针对通讯应用的好广告产品——包括那些常被引用的亚洲聊天应用，按每单位使用时间的收入算，变现都不怎么样。\n\n但他也为 Snap 不服气：把它拆开看，这是 Z 世代的伯克希尔·哈撒韦——青少年第一的通讯应用（西方多国 21 岁以下渗透率 70% 到 100%）、他们最常用的相机、默认地图、最流行的占星应用。而且 Snap 起步比 Twitter、Reddit、Pinterest 都晚，广告收入到达四十亿的速度却比它们都快。\n\n至于订阅产品 Snapchat+，他认为相当成功，唯一的遗憾是上线太晚——通讯工具的订阅渗透是缓慢线性增长的，用户要先在日常使用中获得价值才会付费。如果早四年上线，广告业务的扩张压力会更小，也许还能更有力地和 TikTok 竞争。\n\n## AI 聊天广告：信任才是拍卖的货币\n\nPeter 认同「广告是互联网的产品市场契合点」这一派。他看好 OpenAI 做广告，因为他们正在「速通」整套成熟的广告基础设施。核心的数学机制是改进版的 VCG 拍卖（Meta 2010 到 2020 年间最大的贡献之一）：不只让出价最高者赢，而是把广告对某个用户的自然价值计入出价——触达越不相关、越不想被打扰的人，广告主要付越多。\n\n而聊天环境里，这套机制应该用「信任」替代「自然价值」：当用户问「我该买什么麦克风」，我该被广告主影响多少，本质上应该等于我愿意拿多少信任来交换。信任最大化很可能与用户留存相关，也与广告主价值相关。反面教材是 Amazon 搜索：第一个真正结果之前有十六条广告，会潜移默化地侵蚀信任。他认为现在 PM 和设计师最酷的工作之一，就是 OpenAI 的广告形式设计——尤其是语音场景该长什么样，没人知道。\n\n## 更多反直觉信条\n\n**把最好的人用到极限，而不是提升普通人。**这反的不是直觉，是人性——看到有人溺水你会想救，而他做的完全相反：对持续做出好决策的人不断加码决策，直到看到他们开始做坏决策为止。因为他没有很好的「帮助人提升」的机制，所以放手让不合格的人自己失败；同时恪守一条铁律：永远在公开场合为团队成员辩护。要注意的一点是：不关注某人，不等于他在失败。\n\n**增长来自核心，而不是新市场。**网络效应业务的本质是内在地想增长。最有效的做法是把 DAU/MAU 比率提高几个基点，而不是去拉一批新月活再赌留存——DAU/MAU 本质上就是次日留存。Snap 2018 年灾难性改版后 DAU 环比走平，之后聚焦 Android 性能优化，服务好已有的用户，带来了持续多年的「增长复兴」。Discord 的例子更有说服力：所有人都说 Midjourney 建在 Discord 上是重大时刻，但从使用曲线上你根本挑不出 Midjourney 在哪；而在所有人都说「渗透率已经 100%」的多人游戏玩家身上做深，反而做出了疫情后最快的增长。他的总结是《发展受阻》式的：**「香蕉摊里永远有钱」**——回到核心用户，把产品对他们做到完美。额外的红利：游戏玩家是全世界最挑剔、最高 IQ 的用户群，为他们做到极致会带来极强的口碑外部性。\n\n什么时候该扩展？两条路：一是把核心能力（Snap 的相机、Discord 的语音）套到其他人群上；二是留意用户「用脚投票」的意外用法——他们愿意绕弯路用你的产品做事，就是在告诉你该往哪扩展。真正 Snapchat 式的做法是回溯投射（back casting）：完全抛开当下技术束缚去想未来。但极少有人有这种白纸式的创造力。最大的风险是 Nassim Taleb 的「感恩节火鸡」：一切都越来越好，直到一个 10 倍好的东西出现把你一夜归零。\n\n防范火鸡困境的正面样本是 SpaceX：Falcon 9 是有史以来最伟大、成本效益最高的发射系统，每个国家都愿意拿 GDP 来换——而他们宣布让它退役，全力转向 Starship。这是科尔蒂斯级的「烧掉船只」。Peter 认为这是 SpaceX 最被低估的能力：Elon 建立了一种彻底拥抱「打破创新者窘境」的文化——完全愿意建造和自己竞争的东西，让自己最伟大的作品过时。而且 SpaceX 和 Tesla 公开发布十年计划并说到做到，「作为产品负责人，我渴望达到那种自信的程度」。\n\n## 品味就是说「不」的肌肉\n\nPeter 在 Snap 学到的最重要一课：他见过 Evan 亲自否决掉的点子，比他见过的几乎所有其他消费级创业公司上线的产品都要好。他把优秀的产品领导者比作博物馆策展人：产品在任何时候呈现的东西只是全部藏品的一小部分——**如果一个博物馆把全部藏品都挂在墙上，这个策展人什么都没做。**\n\n怎么在面试中检验品味？问对方：你做过但从未发布的东西是什么——不是测试数据不好而砍掉的，而是捧在手里觉得「世界还没准备好」的那种。有大量高质量 shelved 点子的人，才真正锻炼过「说不」这块极少数可以锻炼的品味肌肉。这在 AI 时代尤其关键：AI 极不擅长做减法，它只会往产品里加东西——砍掉东西的责任落在了产品团队头上。\n\n## 优秀 PM 身体的三对狼\n\nPeter 给出的优秀 PM 画像，是三组必须共存的矛盾：**自信近乎傲慢 × 认真的谦逊**——坚信方向正确，同时能把功劳精确给到那个最后一刻改方案的设计师；**极度流程驱动 × 对模糊性超级适应**——「我给所有事都准备了清单，但必须推倒重来时也完全没问题」；**长期思考 × 近乎烦人的行动偏好**——清楚世界两年后该长什么样，同时每天醒来公司就跟着醒。面试时能通过故事同时展示这三对狼的候选人，对他有致命吸引力。\n\n最后是他的「重辣」观点，一个他说取决于雇主都不敢说的话：要为某些人群做出真正出色的消费级产品，产品和设计师身上存在某些**无法习得的特质**——性别、种族、成长背景、社会经济出身。这不是「做给谁就要招谁」，而是因为消费级产品本质上都在冲击马斯洛需求层次的某些部分，有些人的成长经历让他们天然更懂那些需求。他承认这个观点在很多情况下甚至不可执行——这正是它辣的地方。\n\n## 本集带走\n\n- **团队组织的两条腿**：把战略凝练成可反复传播的短语（意识形态）+ 明确到人的决策责任结构，就能用更少的协作达到协作的效果。\n- **评估 PM 别只看人，要看「人 + 环境」**：这个职业的分布决定了中位数 PM 很差，优秀者会流向创始人和高管岗位。\n- **增长先抠 DAU/MAU 几个基点**，别急着拉新；DAU/MAU 就是次日留存的另一种形式。\n- **把广告做成「长期贪婪」**：明天的广告收入因果地取决于今天为广告主创造的 ROI——哪怕牺牲短期收入。\n- **用「核心产品价值」统一使命与指标**：像「与你最好的朋友分享瞬间最快的方式」这样能拆解成具体指标的短语，能让新数据科学家快速上岗。\n- **面试问「你做过但没发布什么」**，这是检验品味最有效的问题之一。",
+  "quotes": [
+    {
+      "en": "The great product managers are exiting the system. They're becoming founders, they're becoming executives.",
+      "zh": "优秀的产品经理正在退出这个体系。他们在成为创始人，他们在成为高管。",
+      "timestamp": "00:50",
+      "speaker": "Peter Sellis"
+    },
+    {
+      "en": "I think I saw Evan personally say no to better ideas than I've seen almost any other consumer startup launch.",
+      "zh": "我亲眼见过 Evan 亲自否决掉的点子，比我见过的几乎所有其他消费级创业公司上线的产品都要好。",
+      "timestamp": "01:15",
+      "speaker": "Peter Sellis"
+    },
+    {
+      "en": "If a museum has all of their collection on the walls, then the curator hasn't done anything.",
+      "zh": "如果一个博物馆把他们所有的藏品都挂在了墙上，那这个策展人就没有做成任何事。",
+      "timestamp": "01:28",
+      "speaker": "Peter Sellis"
+    },
+    {
+      "en": "Collaboration comes with incredible coordination costs, and coordination costs essentially assure that you're moving as slow as the slowest node in the system.",
+      "zh": "协作伴随着巨大的协调成本，而协调成本基本上保证了你的移动速度和系统中速度最慢的节点一样慢。",
+      "timestamp": "06:50",
+      "speaker": "Peter Sellis"
+    },
+    {
+      "en": "I view it as a failure state if you have product orgs that can't essentially handle really spiky talent.",
+      "zh": "如果你有一个产品组织却本质上无法应对非常尖刺型人才，我认为那是一种失败状态。",
+      "timestamp": "13:12",
+      "speaker": "Peter Sellis"
+    },
+    {
+      "en": "But yeah, I think mathematically, it's set up to be this profession where the median product manager is actually probably pretty bad.",
+      "zh": "但是，我觉得从数学上讲，这个职业天然就是这样设定的：中位数的产品经理其实很可能相当差。",
+      "timestamp": "18:19",
+      "speaker": "Peter Sellis"
+    },
+    {
+      "en": "If you see somebody drowning, you want to save them, and I did the absolute opposite.",
+      "zh": "如果你看到有人在溺水，你会想去救他们，而我做的恰恰完全相反。",
+      "timestamp": "47:52",
+      "speaker": "Peter Sellis"
+    },
+    {
+      "en": "If somebody is strong and crushing it, I'm just handing them more and more rope to hang themselves with.",
+      "zh": "如果某个人很强、正在大杀四方，我就只会递给他们越来越多的绳子，让他们把自己吊死。",
+      "timestamp": "48:23",
+      "speaker": "Peter Sellis"
+    },
+    {
+      "en": "You think you've built for people who are critical about your product, who are detail oriented, unless you've built for gamers, you haven't.",
+      "zh": "你以为自己已经为那些对你的产品挑剔、注重细节的人构建了产品，除非你为游戏玩家构建过，否则你没有。",
+      "timestamp": "57:09",
+      "speaker": "Peter Sellis"
+    },
+    {
+      "en": "everything's getting better and better and better until something comes along that's literally 10X better than what you're doing and it takes you to zero overnight.",
+      "zh": "一切都越来越好、越来越好，直到某个比你正在做的事真的强 10 倍的东西出现，一夜之间把你归零。",
+      "timestamp": "61:56",
+      "speaker": "Peter Sellis"
+    },
+    {
+      "en": "is like with ads, you really want to be long-term greedy.",
+      "zh": "就是：做广告，你真的要「长期贪婪」。",
+      "timestamp": "71:37",
+      "speaker": "Peter Sellis"
+    },
+    {
+      "en": "I think that combination of urgency and bias for action with long-term thinking, those are my three oxymorons, the three pairs of wolves inside every great PM.",
+      "zh": "我觉得紧迫感和行动偏好与长期思考的结合，这就是我的三对矛盾修辞，每一只优秀 PM 身体里的三对狼。",
+      "timestamp": "79:57",
+      "speaker": "Peter Sellis"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "00:13",
+      "speaker": "Peter Sellis",
+      "en": "A good terrorist organization essentially has two things. One is, it has this ideological culture that everyone understands why they are doing what they're doing.",
+      "zh": "一个好的恐怖组织本质上拥有两样东西。第一，它有一种意识形态文化，每个人都明白自己为什么在做自己正在做的事。"
+    },
+    {
+      "timestamp": "00:50",
+      "speaker": "Peter Sellis",
+      "en": "The great product managers are exiting the system. They're becoming founders, they're becoming executives.",
+      "zh": "优秀的产品经理正在退出这个体系。他们在成为创始人，他们在成为高管。"
+    },
+    {
+      "timestamp": "01:15",
+      "speaker": "Peter Sellis",
+      "en": "I think I saw Evan personally say no to better ideas than I've seen almost any other consumer startup launch.",
+      "zh": "我亲眼见过 Evan 亲自否决掉的点子，比我见过的几乎所有其他消费级创业公司上线的产品都要好。"
+    },
+    {
+      "timestamp": "01:28",
+      "speaker": "Peter Sellis",
+      "en": "If a museum has all of their collection on the walls, then the curator hasn't done anything.",
+      "zh": "如果一个博物馆把他们所有的藏品都挂在了墙上，那这个策展人就没有做成任何事。"
+    },
+    {
+      "timestamp": "06:50",
+      "speaker": "Peter Sellis",
+      "en": "Collaboration comes with incredible coordination costs, and coordination costs essentially assure that you're moving as slow as the slowest node in the system.",
+      "zh": "协作伴随着巨大的协调成本，而协调成本基本上保证了你的移动速度和系统中速度最慢的节点一样慢。"
+    },
+    {
+      "timestamp": "12:24",
+      "speaker": "Peter Sellis",
+      "en": "Yeah, if your daughter gets kidnapped, he has a very special set of skills and he's going to employ those skills, and those skills are very hard to come by and very useful in certain situations.",
+      "zh": "是的，如果你女儿被绑架了，他有一套非常特别的技能，他会运用这些技能，这些技能非常难得，而且在某些情况下非常有用。"
+    },
+    {
+      "timestamp": "13:12",
+      "speaker": "Peter Sellis",
+      "en": "I view it as a failure state if you have product orgs that can't essentially handle really spiky talent.",
+      "zh": "如果你有一个产品组织却本质上无法应对非常尖刺型人才，我认为那是一种失败状态。"
+    },
+    {
+      "timestamp": "18:19",
+      "speaker": "Peter Sellis",
+      "en": "But yeah, I think mathematically, it's set up to be this profession where the median product manager is actually probably pretty bad.",
+      "zh": "但是，我觉得从数学上讲，这个职业天然就是这样设定的：中位数的产品经理其实很可能相当差。"
+    },
+    {
+      "timestamp": "48:00",
+      "speaker": "Peter Sellis",
+      "en": "If you see somebody drowning, you want to save them, and I did the absolute opposite.",
+      "zh": "如果你看到有人在溺水，你会想去救他们，而我做的恰恰完全相反。"
+    },
+    {
+      "timestamp": "48:23",
+      "speaker": "Peter Sellis",
+      "en": "If somebody is strong and crushing it, I'm just handing them more and more rope to hang themselves with.",
+      "zh": "如果某个人很强、正在大杀四方，我就只会递给他们越来越多的绳子，让他们把自己吊死。"
+    },
+    {
+      "timestamp": "54:14",
+      "speaker": "Peter Sellis",
+      "en": "The reason people use Discord is to connect with their friends while playing, before, during and after playing games.",
+      "zh": "人们使用 Discord 的原因是在玩游戏时、玩游戏之前、之中和之后与他们的朋友连接。"
+    },
+    {
+      "timestamp": "56:29",
+      "speaker": "Peter Sellis",
+      "en": "The TL;DR to me is there's always money in the banana stand.",
+      "zh": "对我来说，一句话总结就是：香蕉摊里永远有钱。"
+    },
+    {
+      "timestamp": "57:09",
+      "speaker": "Peter Sellis",
+      "en": "You think you've built for people who are critical about your product, who are detail oriented, unless you've built for gamers, you haven't.",
+      "zh": "你以为自己已经为那些对你的产品挑剔、注重细节的人构建了产品，除非你为游戏玩家构建过，否则你没有。"
+    },
+    {
+      "timestamp": "61:55",
+      "speaker": "Peter Sellis",
+      "en": "everything's getting better and better and better until something comes along that's literally 10X better than what you're doing and it takes you to zero overnight.",
+      "zh": "一切都越来越好、越来越好，直到某个比你正在做的事真的强 10 倍的东西出现，一夜之间把你归零。"
+    },
+    {
+      "timestamp": "43:03",
+      "speaker": "Peter Sellis",
+      "en": "But in chat, it probably feels like this could be replaced or augmented with essentially trust.",
+      "zh": "而在聊天中，这感觉上可能可以被本质上等同于「信任」的东西所替代或增强。"
+    },
+    {
+      "timestamp": "71:40",
+      "speaker": "Peter Sellis",
+      "en": "is like with ads, you really want to be long-term greedy.",
+      "zh": "就是：做广告，你真的要「长期贪婪」。"
+    },
+    {
+      "timestamp": "80:02",
+      "speaker": "Peter Sellis",
+      "en": "I think that combination of urgency and bias for action with long-term thinking, those are my three oxymorons, the three pairs of wolves inside every great PM.",
+      "zh": "我觉得紧迫感和行动偏好与长期思考的结合，这就是我的三对矛盾修辞，每一只优秀 PM 身体里的三对狼。"
+    }
+  ],
+  "voice_script": "今天这一集的嘉宾，是 Peter Sellis。这个名字你可能不熟，但履历很硬：他是 Snapchat 的第一位产品经理，在里面干了整整七年，后来出任 Discord 的产品负责人。现在他正好在两份工作之间，所以第一次愿意在没有公关团队盯着的情况下上播客，把真实的想法全说了出来。\n\n这一集聊的东西很杂，团队怎么搭、产品经理这个职业为什么有问题、Snap 为什么没成为下一个 Facebook、AI 聊天里的广告该怎么做。但所有这些背后，其实是一条线：怎么做出好产品，以及组织需要什么样的设计来支撑这件事。\n\n先说最抓眼球的那个说法：他喜欢像设计恐怖组织那样设计团队。这不是玩笑，背后有两个信念。第一个是，协作有隐藏成本。你永远听不到任何高管说\"停止协作\"，而这恰恰是危险信号——用原话说，协调成本基本上保证了你的移动速度，和系统里速度最慢的节点一样慢。第二个信念是，在高增长公司里，产品经理做出的决定，应该是创始人一两年前才会亲自做的决定。\n\n那怎么办？把暴力成分去掉，一个好的恐怖组织有两样东西。一是意识形态文化，每个人都明白自己为什么在做这件事，战略对整个团队几乎像一种宗教。二是极其清晰的组织结构，明确谁可以被信任做哪种决策。两者结合，你不需要过度协作，却能达到协作才有的效果。具体做法是，当创始人还在掌权时，产品负责人其实是创始人愿景的容器：把愿景吸收内化，凝练成可以反复使用的小短语，当作整个战略的快捷方式。有意思的是，还研究过邪教组织，结论是邪教围绕领导者个人，恐怖组织围绕更高的理念，后者更值得学——学邪教的话，就学到\"东窗事发之前的那一步\"为止。\n\n聊到组织，就绕不开怎么对待那些特别难搞的天才。在 Discord 收购了 Nikita Bier 的创业公司，Nikita 后来去了 X 做产品负责人。得出的结论是：\"管理\"这个词用得太宽松了——你没法管理 Nikita，只能控制或引导。打个比方，Nikita 像《飓风营救》里的 Liam Neeson：女儿被绑架时，有一套极罕见的技能、无比有用；但让这样的人去买个菜，只会把杂货店里所有人都杀掉。由此引出的原则是：能吸纳这种尖刺型人才，是组织的必备能力。如果一个产品组织应付不了这种人，那是一种失败状态。管理风格参照的是公牛队和湖人队教练 Phil Jackson——把平常根本合不来的人，融合成冠军球队。\n\n接下来这个问题更扎心：为什么大多数产品经理是净负面的？Peter 给了一道数学题。在零利率时代，产品管理成了科技行业里非技术人才最赚钱的职业，但这个职业的分布天然有问题：真正当上 PM 的人都位于正态分布的右尾，切掉之后变成幂律分布，中位数远低于平均值。更糟的是双向抽水：最优秀的 PM 会退出体系去当创始人、当高管；留在里面的人，则想尽一切办法留下来。结果就是，从数学上讲，中位数的产品经理其实相当差。有个旁证特别有意思：优秀的工程师很少抱怨 PM，因为要么能让 PM 为其所用，要么根本不容忍差 PM；真正差的工程师也不抱怨，因为可以躲在 PM 的决策后面。抱怨的，只有中间那批人。很多人说 PM 没用，只是因为从没和一个真正优秀的 PM 共事过。\n\n说完人，再看一个产品案例：Snap。有十亿月活，却没长成想象中的庞然大物，为什么？从广告变现角度看有三个结构性原因。第一，用户太年轻，对未成年人的追踪和定向限制极其严苛，难以衡量就难以做效果广告。第二，产品形态对广告不友好——所有非搜索类广告都依附于内容消费的屏幕，而 Snap 打开的是相机，拍完发给朋友的核心流程里，没有任何放广告的合理位置。这是承认过的最大失败之一。第三，Snap 本质上是即时通讯应用，而全世界都没有针对通讯应用的好广告产品。但也要为 Snap 说句公道话：拆开看，这是 Z 世代的伯克希尔·哈撒韦——青少年第一的通讯应用、最常用的相机、默认地图、最流行的占星应用，而且广告收入到四十亿的速度，比 Twitter、Reddit、Pinterest 都快。\n\n最后聊聊 AI。看好 OpenAI 做广告，因为正在速通整套成熟的广告基础设施。核心机制是改进版的 VCG 拍卖：不只让出价最高者赢，而是把广告对用户的打扰程度计入出价——触达越不相关、越不想被打扰的人，广告主要付越多。放到聊天环境里，这套机制应该用\"信任\"替代\"自然价值\"：当你问\"我该买什么麦克风\"，你该被广告主影响多少，本质上等于你愿意拿多少信任来交换。反面教材是 Amazon 搜索：第一个真正结果之前有十六条广告，会潜移默化地侵蚀信任。\n\n这一集的点子密度太高了，最后只留一句话给你——这是 Peter 在 Snap 学到的最重要一课：如果一个博物馆把他们所有的藏品都挂在了墙上，那这个策展人就没有做成任何事。"
+}

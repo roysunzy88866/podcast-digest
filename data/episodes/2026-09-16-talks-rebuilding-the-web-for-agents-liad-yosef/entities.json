@@ -1,0 +1,1324 @@
+{
+  "episode_id": "2026-09-16-talks-rebuilding-the-web-for-agents-liad-yosef",
+  "podcast": "精选演讲",
+  "date": "2026-09-16",
+  "tags": [
+    "智能体网络",
+    "MCP",
+    "智能体就绪",
+    "无头化",
+    "发现层"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "liad-yosef",
+      "type": "person",
+      "role": "guest",
+      "name": "Liad Yosef",
+      "file": "Liad Yosef",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agentic-web",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体网络 (agentic web)",
+      "file": "智能体网络",
+      "primary": true,
+      "how_described": "本集的核心主题：不是由智能体组成的网络，而是一次转变——网站与浏览器被拆解成原子，个人助理成为进入网络的入口，网站以「几乎无头」方式与智能体交互",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16.257,
+            23.982
+          ],
+          "quote": "So we're gonna talk a little bit about the agentic web and more specifically what it means and how do we make the web ready for agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            64.688,
+            68.571
+          ],
+          "quote": "So the topic of agentic web is really close to my heart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            73.595,
+            77.639
+          ],
+          "quote": "MCP apps are actually, this is actually the spec that paved the way to Agentic Web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            236.515,
+            241.439
+          ],
+          "quote": "And the interesting part is that it brings us to what we call the agentic web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            243.988,
+            245.929
+          ],
+          "quote": "What is the agentic web?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            245.95,
+            247.971
+          ],
+          "quote": "The agentic web is not a web of agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            760.001,
+            762.983
+          ],
+          "quote": "So at Aura, which is an agentic web research lab,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            993.041,
+            995.902
+          ],
+          "quote": "What's the next big milestone for the agentic web?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1095.585,
+            1097.366
+          ],
+          "quote": "Because we're a research lab for the agentic web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1194.069,
+            1196.951
+          ],
+          "quote": "And this was the last piece for the agentic web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1196.991,
+            1198.892
+          ],
+          "quote": "This actually brought the agentic web.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论的主体：能自主替用户上网完成任务的 AI 助理，正在取代浏览器和网站成为人们访问 web 的门户",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            227.487,
+            235.834
+          ],
+          "quote": "MCP Apps is already widely supported across every chat agent except Gemini, but that's coming, and this is already happening.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            388.566,
+            393.927
+          ],
+          "quote": "No one is going to browse to Amazon's agents and Etsy's agents and Expedia's agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            396.768,
+            398.909
+          ],
+          "quote": "I don't want to use your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            399.249,
+            400.589
+          ],
+          "quote": "I want to use my agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            433.852,
+            449.076
+          ],
+          "quote": "Why would I let an agent that doesn't know anything about the human perception limitations work with filters and paginations and sorting and all of those UIs that we spent decades perfecting for us just for it to fulfill its task?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            459.622,
+            468.007
+          ],
+          "quote": "WebMCP says, okay, instead of the agent taking screenshots of the websites and trying to figure out what's happening, let's have the website expose some tools",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            470.509,
+            471.71
+          ],
+          "quote": "And the agent will work with it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            625.148,
+            631.072
+          ],
+          "quote": "And we have this spectrum of interaction because if my agent is autonomous, I don't need this last mile of UI, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            659.199,
+            665.943
+          ],
+          "quote": "Now it's the agent experience of your website plus how a user experiences the agent that experiences your website.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            666.443,
+            672.967
+          ],
+          "quote": "But 90% is gonna rely on agent experiences, which means your website needs to be agent ready",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            675.128,
+            677.391
+          ],
+          "quote": "It needs to be agent ready for your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            677.451,
+            680.534
+          ],
+          "quote": "If I'm booking, I need to make bookings data ready for bookings agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            685.778,
+            692.084
+          ],
+          "quote": "And I need to be ready for my human customer who doesn't have an agent but still wants to browse to booking.com, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            692.104,
+            694.347
+          ],
+          "quote": "So I need to be agent ready.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            694.867,
+            697.389
+          ],
+          "quote": "And what we found out is that agent ready",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            702.592,
+            713.414
+          ],
+          "quote": "But discovery is only the first step because once an agent knows about you, it still needs to know what you are and how to interact with you and how to authenticate you and how to headlessly pay you, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            777.201,
+            791.825
+          ],
+          "quote": "So you can run, it's free, you can go to aura.ai, you can run any website, you get this score and benchmark according to a lot of protocols and best practices, and you have agentic feedback, so the agent actually returns the feedback about your website.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            816.972,
+            820.216
+          ],
+          "quote": "LLMs.txt, that's like the de facto standard to be agent-ready.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            898.535,
+            909.519
+          ],
+          "quote": "You can go to journey.aura.ai, and you can run on any website, any intent, with any agent, and see the path of the agent as it tries to interact with the website.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            916.618,
+            921.759
+          ],
+          "quote": "And you can see in real time how the agent goes and what it tries to look for in the website.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            949.704,
+            951.766
+          ],
+          "quote": "See how different the agent journey looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1137.75,
+            1144.456
+          ],
+          "quote": "We can tell the agent, yeah, for example, Vercel, these are the agentic resource cells, and this is how you access them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1144.877,
+            1153.605
+          ],
+          "quote": "And obviously, this directory is fully ARD or agentic resource discovery compliant, so any agent can just query that directory with any query, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1166.005,
+            1171.248
+          ],
+          "quote": "For example, being agent ready and being human accessible is very similar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1182.373,
+            1186.656
+          ],
+          "quote": "And making your website human-accessible helps agent accessibility and vice versa.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1208.998,
+            1210.92
+          ],
+          "quote": "We want to make the web agent accessible.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-apps",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP Apps",
+      "file": "MCP Apps",
+      "primary": true,
+      "how_described": "嘉宾共同创建和维护的规范，为 ChatGPT apps、Claude apps 等所有聊天式应用提供底层支持，让服务商把 UI 块直接发进聊天、解决「最后一公里」交互",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            36.831,
+            40.393
+          ],
+          "quote": "So I'm the co-creator and maintainer of a spec called MCP Apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            40.913,
+            42.795
+          ],
+          "quote": "MCP Apps, that's the underlying spec",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            43.775,
+            55.422
+          ],
+          "quote": "Behind ChatGPT apps, Claude apps, Copilot, GitHub, every chat-based app that you see is based on the spec MCP apps in the MCP committee.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            69.491,
+            72.794
+          ],
+          "quote": "And a little bit of primer about MCP apps, if you're not familiar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            73.595,
+            77.639
+          ],
+          "quote": "MCP apps are actually, this is actually the spec that paved the way to Agentic Web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            78.079,
+            87.989
+          ],
+          "quote": "So MCP apps were released as a spec and as a standard a few months ago with the support of Claude first as the first client and then all clients followed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            89.51,
+            99.479
+          ],
+          "quote": "If you play with any chat-based app and you pulled any visualization and interaction UI layer from an MCP server, you probably used MCP apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            100.58,
+            111.649
+          ],
+          "quote": "And the good thing about MCP apps is that everybody wins because if the servers or the providers can send UI chunks into the chats, then...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            154.034,
+            162.803
+          ],
+          "quote": "And MCP apps actually solve for this last mile of interaction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            167.483,
+            171.308
+          ],
+          "quote": "And MCP apps solved our last mile of interaction, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            227.487,
+            235.834
+          ],
+          "quote": "MCP Apps is already widely supported across every chat agent except Gemini, but that's coming, and this is already happening.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1189.826,
+            1190.707
+          ],
+          "quote": "These are MCP apps.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把 MCP 服务器/MCP 作为网站向智能体暴露能力的核心机制——嘉宾的朋友把 Jira 的 MCP 接进 IDE 后就不再上 Jira 网站",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            36.831,
+            40.393
+          ],
+          "quote": "So I'm the co-creator and maintainer of a spec called MCP Apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            40.913,
+            42.795
+          ],
+          "quote": "MCP Apps, that's the underlying spec",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            43.775,
+            55.422
+          ],
+          "quote": "Behind ChatGPT apps, Claude apps, Copilot, GitHub, every chat-based app that you see is based on the spec MCP apps in the MCP committee.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            69.491,
+            72.794
+          ],
+          "quote": "And a little bit of primer about MCP apps, if you're not familiar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            73.595,
+            77.639
+          ],
+          "quote": "MCP apps are actually, this is actually the spec that paved the way to Agentic Web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            78.079,
+            87.989
+          ],
+          "quote": "So MCP apps were released as a spec and as a standard a few months ago with the support of Claude first as the first client and then all clients followed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            89.51,
+            99.479
+          ],
+          "quote": "If you play with any chat-based app and you pulled any visualization and interaction UI layer from an MCP server, you probably used MCP apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            100.58,
+            111.649
+          ],
+          "quote": "And the good thing about MCP apps is that everybody wins because if the servers or the providers can send UI chunks into the chats, then...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            154.034,
+            162.803
+          ],
+          "quote": "And MCP apps actually solve for this last mile of interaction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            167.483,
+            171.308
+          ],
+          "quote": "And MCP apps solved our last mile of interaction, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            227.487,
+            235.834
+          ],
+          "quote": "MCP Apps is already widely supported across every chat agent except Gemini, but that's coming, and this is already happening.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            508.327,
+            521.359
+          ],
+          "quote": "Every major lab wants its app to be the everything app, and the shift is happening, and friends of mine that connect Jira's MCP to their IDs, they don't go to Jira's website anymore, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            730.182,
+            736.787
+          ],
+          "quote": "And Claude Code insisted on PostHog because it said PostHog has better MCP and API and I can integrate to it better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            875.1,
+            883.822
+          ],
+          "quote": "Six months ago, the best practice for an MCP server was, yeah, have three paragraph descriptions so agents will know how to interact with you, and now three lines are enough.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1027.953,
+            1034.434
+          ],
+          "quote": "I mean, maybe Airbnb has a better MCP than Booking.com, but Booking.com has better API than Airbnb, so how do we do it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1058.318,
+            1063.222
+          ],
+          "quote": "And a central registry, like an MCP registry, that's not enough because who will do the curation?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1070.82,
+            1079.706
+          ],
+          "quote": "There's an AI Catalog.json, which is a standard by Anthropic, OpenAI, Google, MCP, and A2A, which standardizes how a website exposes itself to agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1110.875,
+            1126.205
+          ],
+          "quote": "So you can see here, for example, for monday.com, you can see that we generate this JSON file that basically tells agents, yeah, this is the MCP server for monday, this is the API server for monday.com, and you can just, the agents can just query that, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1189.826,
+            1190.707
+          ],
+          "quote": "These are MCP apps.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aura",
+      "type": "company",
+      "role": "company",
+      "name": "Aura",
+      "file": "Aura",
+      "primary": true,
+      "how_described": "嘉宾联合创立的智能体网络研究实验室，提供就绪度基准（aura.ai）、Aura's Journey 和 Oracle Directory 等工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            55.783,
+            64.628
+          ],
+          "quote": "I'm also the co-founder of a company called Aura, where we research the agentic-human interactions, and I built and led the agentic storefronts in Shopify.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            760.001,
+            762.983
+          ],
+          "quote": "So at Aura, which is an agentic web research lab,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            777.201,
+            791.825
+          ],
+          "quote": "So you can run, it's free, you can go to aura.ai, you can run any website, you get this score and benchmark according to a lot of protocols and best practices, and you have agentic feedback, so the agent actually returns the feedback about your website.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            891.553,
+            894.534
+          ],
+          "quote": "So we build Aura's Journey.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            895.354,
+            897.775
+          ],
+          "quote": "And Aura's Journey, that's a really cool, that's also free.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            898.535,
+            909.519
+          ],
+          "quote": "You can go to journey.aura.ai, and you can run on any website, any intent, with any agent, and see the path of the agent as it tries to interact with the website.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            973.235,
+            979.177
+          ],
+          "quote": "So in Aura, you can actually go to any business question.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1155.08,
+            1158.282
+          ],
+          "quote": "So this is aura.directory, if you want to take a look.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1158.602,
+            1162.884
+          ],
+          "quote": "All of it is part of the aura multiverse, journey, directory, and the ranker.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llms-txt",
+      "type": "concept",
+      "role": "concept",
+      "name": "llms.txt",
+      "file": "llms.txt",
+      "primary": true,
+      "how_described": "本集最大的意外发现：近 50% 受测网站发布了这个声明文件，但没有一个智能体主动使用它——人工定义智能体需要什么说不太通",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 162,
+          "t": [
+            816.972,
+            820.216
+          ],
+          "quote": "LLMs.txt, that's like the de facto standard to be agent-ready.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            820.236,
+            825.041
+          ],
+          "quote": "You say, yeah, if your website published in LLMs.txt, agents know how to interact with you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            829.145,
+            835.652
+          ],
+          "quote": "And we found out that almost 50% of the website that we tested, that we ran, published LLMs.txt.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "browser-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "浏览器智能体 (browser agents)",
+      "file": "浏览器智能体",
+      "primary": true,
+      "how_described": "本集明确反对的方向：让智能体像人一样点屏幕操作是「更快的马」式解决方案，让不了解人类感知局限的智能体去用为人打磨的 UI 说不通",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            420.308,
+            423.189
+          ],
+          "quote": "And the immediate response to that is that, yeah, we have browser agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "headless",
+      "type": "concept",
+      "role": "concept",
+      "name": "无头化 (headless)",
+      "file": "无头化",
+      "primary": true,
+      "how_described": "本集描述的行业趋势：Salesforce、Cloudflow、Sentry 相继去掉界面只留接口对外服务，Cloudflow CEO 称智能体流量已超过人类流量",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            602.647,
+            603.809
+          ],
+          "quote": "So everything is going headless.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            604.15,
+            610.142
+          ],
+          "quote": "Salesforce recently went headless, which is very important because Salesforce's main differentiator from its competitors...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            613.982,
+            614.742
+          ],
+          "quote": "But it went headless.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            615.042,
+            615.983
+          ],
+          "quote": "Cloudflow went headless.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            616.143,
+            616.943
+          ],
+          "quote": "Sentry went headless.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            637.055,
+            644.28
+          ],
+          "quote": "But if I want to book a hotel for my honeymoon, I probably need this last mile of interaction, so we call it the nearly headless web, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            644.96,
+            646.041
+          ],
+          "quote": "It's not completely headless.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "personal-assistant",
+      "type": "concept",
+      "role": "concept",
+      "name": "个人助理 (personal assistant)",
+      "file": "个人助理",
+      "primary": true,
+      "how_described": "本集主张：用户只想用自己拥有完整上下文的个人助理，而不是去逛 Amazon、Etsy、Expedia 各家的智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            320.734,
+            323.917
+          ],
+          "quote": "So why can't I let my personal assistant",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            325.738,
+            332.5
+          ],
+          "quote": "So if I have a personal assistant, I can just take these atoms and it composes these atoms and say, yeah, I see that you have an anniversary coming.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            394.688,
+            396.748
+          ],
+          "quote": "I have my own personal assistant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            528.926,
+            535.091
+          ],
+          "quote": "And you have a long tail of websites that no one is going to see because it's much easier for me to connect to them using my personal assistant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            535.492,
+            541.276
+          ],
+          "quote": "So websites will become obsolete, browsers will become obsolete, and personal assistant will become our only gate to the web.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "discovery",
+      "type": "concept",
+      "role": "concept",
+      "name": "发现层 (discovery)",
+      "file": "发现层",
+      "primary": true,
+      "how_described": "本集提出的智能体网络下一个里程碑：每次革命都伴随发现层（搜索/应用商店/信息流），智能体资源的发现层由 AI Catalog.json 和 ARD 等新兴标准推动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            702.592,
+            713.414
+          ],
+          "quote": "But discovery is only the first step because once an agent knows about you, it still needs to know what you are and how to interact with you and how to authenticate you and how to headlessly pay you, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            995.942,
+            1001.024
+          ],
+          "quote": "And for those of you who heard the previous talk, it's discovery.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1002.575,
+            1004.376
+          ],
+          "quote": "But it's not the discovery that we think of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1007.258,
+            1012.362
+          ],
+          "quote": "Because we have to remember that every revolution came with its discovery layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1019.771,
+            1021.932
+          ],
+          "quote": "What is the discovery layer for agentic resources?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1021.952,
+            1023.472
+          ],
+          "quote": "What is the discovery layer for MCPs?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1023.492,
+            1026.192
+          ],
+          "quote": "What is the discovery layer for OpenAPI.JSON?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1080.306,
+            1082.288
+          ],
+          "quote": "And there's the Agentic Resource Discovery standard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1085.478,
+            1092.583
+          ],
+          "quote": "Which is basically standardized how a discovery layer or a directory exposes itself to agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1144.877,
+            1153.605
+          ],
+          "quote": "And obviously, this directory is fully ARD or agentic resource discovery compliant, so any agent can just query that directory with any query, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "accessibility",
+      "type": "concept",
+      "role": "concept",
+      "name": "可访问性 (accessibility)",
+      "file": "可访问性",
+      "primary": true,
+      "how_described": "本集的洞见：LLM 来到网站时就像有视觉障碍的用户，对人类可访问和对智能体可访问高度一致，二者互相促进",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 244,
+          "t": [
+            1182.373,
+            1186.656
+          ],
+          "quote": "And making your website human-accessible helps agent accessibility and vice versa.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集多处引用：嘉宾母亲和九岁孩子的主要工具，测试框架中 ChatGPT 找结果表现最好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            43.775,
+            55.422
+          ],
+          "quote": "Behind ChatGPT apps, Claude apps, Copilot, GitHub, every chat-based app that you see is based on the spec MCP apps in the MCP committee.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            123.2,
+            131.183
+          ],
+          "quote": "The users gain their trust and familiarity, because if you ask ChatGPT, hey, book some hotels for me, and you see Booking.com, then you know it's Booking.com, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            521.8,
+            523.581
+          ],
+          "quote": "And my mother uses ChatGPT for everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            523.601,
+            528.306
+          ],
+          "quote": "If she could book a doctor's appointment using ChatGPT, she won't go to that clinic's website anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            555.957,
+            556.797
+          ],
+          "quote": "It goes to ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            561.439,
+            572.762
+          ],
+          "quote": "I was traveling to Georgia, the country in Eastern Europe, and there was an older lady there that asked me to take a picture of her, like a 70-year-old, and on her phone she had three apps, WhatsApp, camera, and ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            680.854,
+            685.158
+          ],
+          "quote": "I need to make it ready for my customer's ChatGPT or my customer's OpenClaw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            939.076,
+            945.681
+          ],
+          "quote": "You see here Claude Code and Eve, which is Vercel's harness, and ChatGPT, on the same website with the same intent, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            953.745,
+            954.345
+          ],
+          "quote": "ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            955.206,
+            957.968
+          ],
+          "quote": "So ChatGPT could find results better.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "posthog",
+      "type": "company",
+      "role": "company",
+      "name": "PostHog",
+      "file": "PostHog",
+      "primary": false,
+      "how_described": "本集轶事：Claude Code 因其 MCP 和 API 更好集成而推荐 PostHog，取代了合作十年的 Mixpanel——品牌忠诚度正在消失",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            722.437,
+            725.019
+          ],
+          "quote": "And it recommended PostHog, which is an analytic service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            730.182,
+            736.787
+          ],
+          "quote": "And Claude Code insisted on PostHog because it said PostHog has better MCP and API and I can integrate to it better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            738.668,
+            741.109
+          ],
+          "quote": "We went with PostHog, if that's what Claude Code recommend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            746.192,
+            748.914
+          ],
+          "quote": "We just left it just because Claude Code prefers PostHog.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mixpanel",
+      "type": "company",
+      "role": "company",
+      "name": "Mixpanel",
+      "file": "Mixpanel",
+      "primary": false,
+      "how_described": "本集作为反面例子：十年打磨的 UX 和开发者体验，只因 Claude Code 更推荐 PostHog 就被放弃",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            725.359,
+            727.941
+          ],
+          "quote": "And we said, no, we prefer Mixpanel because we know Mixpanel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            727.961,
+            729.102
+          ],
+          "quote": "We worked with Mixpanel for a decade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            741.129,
+            742.63
+          ],
+          "quote": "But it made us think about Mixpanel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            742.65,
+            746.172
+          ],
+          "quote": "Mixpanel spent a decade perfecting their UX and developer experience.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "webmcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "WebMCP",
+      "file": "WebMCP",
+      "primary": false,
+      "how_described": "Google 押注的协议，让网站暴露 JavaScript 工具给智能体协同浏览——本集认为方向不错但太简单",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            449.856,
+            459.242
+          ],
+          "quote": "So Google is very bullish on the other end of the spectrum, which is co-browsing and websites, and they have a protocol or standard called WebMCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            459.622,
+            468.007
+          ],
+          "quote": "WebMCP says, okay, instead of the agent taking screenshots of the websites and trying to figure out what's happening, let's have the website expose some tools",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

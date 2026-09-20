@@ -110,7 +110,7 @@ jsonLd: |
 
 - [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|Arm CEO 谈芯片、AI 与下一个十年的算力格局]]<span class="pd-rz">同概念:供应链 (supply chain)</span>
 - [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌]]<span class="pd-rz">同概念:供应链 (supply chain)</span>
-- [[2026-07-23-nopriors-building-an-autonomous-delivery-experien|DoorDash 联合创始人：我们其实是一家机器人公司]]<span class="pd-rz">同概念:无人机 (drone)</span>
+- [[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识]]<span class="pd-rz">同概念:瓶颈 (bottleneck)</span>
 
 </div>
 <div class="pd-ex">

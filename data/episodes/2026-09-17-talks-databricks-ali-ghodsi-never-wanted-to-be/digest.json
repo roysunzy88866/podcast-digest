@@ -1,0 +1,202 @@
+{
+  "title_zh": "Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识",
+  "tldr": "Databricks 创始人兼 CEO Ali 讲他临危接任 CEO 后的一线经验：怎么找瓶颈、怎么招人、怎么打赢 Snowflake,以及为什么 AI 落地至少要十年。",
+  "digest_md": "2015 年的 Databricks 开源项目 Apache Spark 做得很成功,GAAP 营收却只有约 150 万美元，董事会决定换 CEO,开始在外面面试候选人——但没怎么考虑联合创始人 Ali。Ali 自己都觉得自己不会被选中,甚至已经申请了 Berkeley 的教职,准备回去当教授。是投资人 A16Z 的 Ben Horowitz 拍板选了他:Ben 自己曾被问过「你什么时候给你们公司请个真正的 CEO」,感觉糟透了，还写进了书里，所以他对「只用创始人」近乎信仰。而且按 Ali 的说法，这次任命本来只是试用——他们连 CEO 薪水都没给。一年后的一对一里,股权包变大、薪水上涨，事情才明朗起来。\n\n> 【背景】Ali 全名 Ali Ghodsi,转写稿误写为 Ali Goetze;他是 Databricks 七位联合创始人之一。转写稿全程未出现主持人姓名。\n\n**为什么选择 CEO 而不是教授**：Ali 回顾人生发现一个模式——小时候想辍学去美国当游戏程序员,父母逼他上大学,结果 IT 泡沫破裂、他去的那家欧洲最大移动初创公司 Room 33 也黄了;后来拒绝了不用读博的正教授职位，去顶尖大学读了更难的博士；Berkeley 只肯给他博士后,他也去了——每次都选了更有挑战性的那个，每次都拓宽了视野。所以面对「当 CEO 还是当教授」，他的答案是：我对做生意一无所知，这大概是我能做的最有挑战性的事。[06:39 Ali]\n\n**方法一：找到那个大瓶颈，全公司压上去**。Ali 认为公司失败通常是因为一个重大瓶颈，CEO 应该把数量级级别的注意力和整个公司都压在这一个问题上，做得过头反而是好事。注意周期是按年算的：一年、两年、有时三年——比如创建 Lakehouse 这个品类花了好几年，发布时还被全网嘲笑。如果是几周几个月就能解决的事，那是战术，不是战略。[09:53 Ali] 当年他的瓶颈判断很简单：开源项目成功、技术很强、没有商业成功——那就把全部注意力放在让商业引擎转起来。\n\n**方法二：招人是第一件事，而且要极度挑剔**。接任 CEO 后他一两年内把整个高管团队换了一遍,工程和产品交给另一位联合创始人，自己两年不管。招人哲学是「提前于需求曲线」：等到你知道需要招一位高管时已经太晚了。理由是错误的代价巨大——招错人，发现要一年，处理再拖半年，重新搜寻又是几个月，新人还要上手，一来一回损失两年半。所以他的策略是「宁可极其挑剔，花相当长的时间，尽早启动」：一次好的搜寻至少六个月，可能一年；他拒绝过很多后来成就大事的优秀的人，他们至今对他有怨气，但他大多数高管跟了他十年。招错的两个案例，复盘时发现所有信号都在面试里出现过，只是他当时忽略了。背景调查要做大量「后门」——直接去聊候选人过去所有的经理；而正面推荐信里大概只有 10-20% 是真实的,80% 是胡扯。[26:56 Ali]\n\n**重建销售团队：最好的销售不是技术宅**。Databricks 一度信奉 PLG(产品驱动增长,用户刷卡自购、不需要销售),甚至做过「Zero Touch」实验——永远不跟客户交谈，结果收入连续两个季度停滞。Ali 在脑子里做了个实验：看那些销售做得好的公司，最好的销售是不是超级技术、有博士？结果完全不是——他甚至认为有博士学位反而是劣势。于是他重新定义了好销售的标准：①职业化的强势。Ron 早期招的 AE Dave 为了约上会议把能走的门都走了一遍、砸玻璃进去，客户高管气得说再也不想见他——但他把会议约到了。②极高的情商。另一位早期销售 Keith 被客户当众质问「你算老几」，他转而问对方团队在做什么——这是每个人都乐意聊的话题——会议结束时客户在拥抱他道歉。③能镇得住场子。④真正聪明的那类销售懂得经营「权力基础」：一亿美元的采购没有人单独拍板，是客户内部影响者构成的复杂网络。这是一门和人打交道的艺术，跟计算机、数学、逻辑那套完全不通用。\n\n**怎么找到你的 Ron**:很多 PLG 公司走向企业级时都在找自己的销售负责人。Ron Gabisco 是经典门派出身(PTC/BMC 学院派),曾靠卖免费的 FTP 赚钱——卖免费的东西最难。Ali 看中他三点：①两种聪明都有——既是顶级销售，又有工程学位和斯坦福的管理学位，能用「我们的语言」跟工程师对话，这种人极其罕见；②能「造车」而不只是「开车」——他在上一家公司经历过从零到约 5000 万美元 ARR 再到数亿美元的全过程，你可以跟他争论「为什么不把发动机放后座」，他会说可以，但那样会在某处出问题；③忠诚——他在前两家公司待了 11 年没跳槽，意味着情况艰难时他不会第一时间辞职,Ali 管理他时可以非常强硬、可以大吵。事实证明这至关重要：典型的 PTC 出身的销售极难管理。Ron 至今还在管销售(CRO),打造了从 100 万到 70 亿 ARR 的引擎——如今销售 VP 两三年就被换掉一茬，这非常罕见。\n\n**打 Snowflake:研究敌人，但不照抄敌人**。当年 Databricks 营收只有 Snowflake 一半、增长更慢。打法是找到对方的三个弱点：专有格式、数据被锁定(对方团队来自 Oracle);AI 支持很弱(2019、2020 年 AI 还不是大事，但 Databricks 从 2009 年起就做机器学习)；贵。然后逐个客户执行「共存策略」：不喊「拆掉 Snowflake」,而是找出适合机器学习的工作负载抽出来、把格式迁到开源，确保 TCO(总拥有成本)只有三分之一。配套的是品类战略——Lakehouse(开放的湖仓一体)，CEO 的原话是：「关注竞争对手，但绝不跟随竞争对手。」最常见的失败模式恰恰是两个极端：要么根本不研究竞对，要么研究了就直接照抄。如果 Ali 当年也去做一个「比 Snowflake 更好的数据仓库」，没人会信。[32:31 Ali]\n\n**品类是怎么立起来的**：Lakehouse 这个名字内部都有人反对——太搞笑、太技术，高管要去跟企业客户聊「在湖边的房子」？外部战略咨询公司做了调研也说不行,给出的替代方案是平淡的「统一数据科学平台」。但 Ali 抱着信念硬推，把整个公司而不是单独团队动员起来，偏执到什么程度：媒体报道夸了公司但没提 Lakehouse,要求去联系记者;客户签单感言没提 Lakehouse,算失败;市场负责人拿转化率数据劝他——带 Spark 的广告能卖货，带 Lakehouse 的不能——他的回答是「把那些有效的广告都扔掉,改用这个无效的广告」。[36:08 Ali] 还有一个简单粗暴的手段：如果销售不想做某件你认为对的事，别争论,把它写进薪酬计划，争论立刻停止。\n\n**AI 与组织：方向对，但很多说法是扯淡**。Ali 认为组织架构图和信息流动应该分开看：十年前信息只能沿组织树上下传播，今天不一样了。他每到一个场合都问听众：有多少人认为 AI 大多数时候比你周围的大多数人都聪明？大概 90% 举手——他就把这个定义为 AGI(已达成的那个版本)。但企业内部的现实是：模型能力与实际使用之间有巨大鸿沟，企业只是把 AI 当聊天机器人问答、当写代码工具。缺的是企业上下文——把人们脑子里的知识、每天的决策、每场会议、每封邮件都捕捉下来喂给 AI,Ali 称之为「本体(ontology)」。Databricks 自己用 Genie 产品建好了本体,效果如魔法,客户用同样的产品却没建起来。他哲学上同意 Jack Dorsey「公司是一个 AI」的方向，但对「每个经理管 25 人、同时 80% 时间写代码」的做法直言：「我觉得这是扯淡。」[52:23 Ali] 他的判断是你会得到大量不知道发生了什么的不开心员工，而管理本身就是大量的人际互动，25 个直接下属做不到。\n\n**亲身上生产线：连接器实验**。为了搞清楚 AI 到底能把开发压缩到什么程度，Ali 去年 11 月开始把代码提交到生产环境。他花两天做了一个数据连接器，而现有团队做一个要一人三个季度。团队先只答应压缩到七个半月；插入一名不留情面的全职员工、重造流程之后，一个季度能出七个连接器。真正的内幕是：瓶颈根本不在写代码——以前花一个季度收集需求写 PRD(那季度流水线全停)、一个季度搭 Salesforce/Workday/NetSuite 这类连接(讨厌、易错、找了顾问加速)、一个季度测试(挪到最前端用 AI 端到端做)。也就是说，AI 落地需要的是对组织的流程再造——所以他坚持自己的判断：人类至少需要十年才能吸收和扩散 AI。[56:46 Ali]\n\n**日常经营与自我管理**：一年只设一两个目标(今年两个，他其实想要一个)；周一高管例会一小时到一小时十五分过最高优先级 KPI,周三周五早上 8 点各 30 分钟碰头——半数时间在开玩笑。为什么不能只用一个 Google Doc?Ali 的回答很妙：「我们在谈论人。如果我从来没见过你，我为什么会喜欢你或者信任你？你为什么非得见你妻子和孩子？难道不能只用一个 Google Doc?」[61:49 Ali] 高管团队要紧密团结、把公司优先级放在部门墙之上，就必须真见面。每季度有 QBR(业务复盘)和至少一次聚焦瓶颈的线下战略会。他把自己的时间分成三块：痴迷的大瓶颈(只有 CEO 会想「下一个大事」，其他人都在忙着让自己那趟列车准点)、每天涌来的 CEO 琐事(尽量压缩)、以及产品——他自称产品型 CEO,要跟住 3500 名工程师撑起的庞大产品组合。他的日程原则是尽量往日历上什么都不放：如果早 8 点到晚 6 点连轴转，「我就只是成了日程表的奴隶，在为别人做事」。[59:52 Ali]\n\n**冲突回避是 CEO 最糟的特质**：每个人都想从 CEO 这里要到东西，回避冲突的人只会说是、撒谎或绕开话题，公司就会四散方向，能量无法聚焦到瓶颈上。怎么培养这种能力？「不要欺骗自己——这是最重要的事。」很多人不告诉自己公司哪里出了问题，自我防御机制让他们找借口。他把直面冲突类比健身：对每个人都很痛苦、没人喜欢，但这不是「有的人天生不怕冲突」的问题——「如果你想当运动员，就不能是那种不锻炼的运动员。」[70:06 Ali]\n\n**为什么现在不上市**：Ali 认为现在上市 Databricks 会值更多钱(上一轮融资认购意向远超实际募集额),而且公司已自由现金流盈亏平衡、不需要资本；员工流动性靠每年为上万人在近百个国家组织的私募售股市场解决——相当于在私募市场模拟一个纳斯达克。真正的原因是：公司正在经历 AI 大转型，而经历大转型的公司应该在私募市场做——就像当年企业从永久授权转 SaaS 时会先私有化、转完再上市。公开市场现在对「软件价值是否归零」这类问题来回摇摆，他不想应对这种疯狂，打算等水面平静——大约一年左右——再上。\n\n## 本集带走\n- **按年为单位聚焦一个瓶颈**：识别出最大的那个瓶颈，把整个公司的注意力极端地压上去，做过头都好；给策略两三年时间，别急着放弃。\n- **招高管要提前于需求、极度挑剔**：好的搜寻至少六个月；招错一个人的真实代价是两年半。大量做「后门」背景调查——直接聊候选人过去所有经理；正面推荐 80% 是胡扯。\n- **好销售的四条标准**：职业化的强势、极高的情商、镇得住场子、懂客户内部的「权力基础」——技术背景不仅不加分，可能还减分。\n- **研究竞对，但绝不照抄**：找到对手真正的弱点(锁定、AI、成本)，用你的优势去打，并且打出差异化品类；把你要销售做的事直接写进薪酬计划，停止争论。\n- **非共识 + 正确 + 坚持四五年**：信念没有持久力就像一月的节食法；等它成功时所有人只会问「你们怎么做得这么快」——其实你干了五年，只是没人关注。\n- **AI 落地的瓶颈是流程再造，不是模型**：写代码早已够快，慢的是需求、集成、测试这些环节；所以人类至少需要十年来吸收 AI。CEO 若回避冲突，这一切都无从谈起。",
+  "quotes": [
+    {
+      "en": "And I think you should at that point identify what that giant bottleneck is and then focus the whole company in your all attention almost to an extreme, like orders of magnitude of attention and focus should just go to this one issue.",
+      "zh": "我认为那时你应该识别出那个巨大的瓶颈是什么,然后把整个公司、你全部的注意力几乎极端地、以数量级级别的专注,全部放在这一个问题上。",
+      "timestamp": "09:53",
+      "speaker": "Ali Ghodsi"
+    },
+    {
+      "en": "So at Databricks, I've skipped and said no to phenomenal people who've gone on and done great things.",
+      "zh": "在 Databricks,我跳过并且拒绝过一些极其出色的人,他们后来都取得了了不起的成就。",
+      "timestamp": "25:05",
+      "speaker": "Ali Ghodsi"
+    },
+    {
+      "en": "I was like, yeah, but my playbook was err on the side of being just extremely picky, take a decent amount of time, start early.",
+      "zh": "我就说,是啊,但我的策略就是宁可极其挑剔,花相当长的时间,尽早启动。",
+      "timestamp": "25:16",
+      "speaker": "Ali Ghodsi"
+    },
+    {
+      "en": "I would say like 10-20% of the front doors end up actually being truthful.",
+      "zh": "我想说,大概只有 10-20% 的正面推荐最后是真实的。",
+      "timestamp": "26:56",
+      "speaker": "Ali Ghodsi"
+    },
+    {
+      "en": "Are you a good driver? Okay, can you build a car for me?",
+      "zh": "你是个好司机吗?好,那你能给我造一辆车吗?",
+      "timestamp": "21:02",
+      "speaker": "Ali Ghodsi"
+    },
+    {
+      "en": "Watch the competition, but never follow the competition.",
+      "zh": "关注竞争对手,但绝不跟随竞争对手。",
+      "timestamp": "31:41",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "It has to be non-consensus, but you also have to be right and you have to do it for four or five years.",
+      "zh": "它必须是非共识的,但你也必须是对的,而且你必须坚持做上四五年。",
+      "timestamp": "40:42",
+      "speaker": "Ali Ghodsi"
+    },
+    {
+      "en": "I was like, how can I do it in two days? And it's taking you guys three quarters.",
+      "zh": "我就说,我怎么两天就能做完?而你们要花三个季度。",
+      "timestamp": "53:42",
+      "speaker": "Ali Ghodsi"
+    },
+    {
+      "en": "I'm just working for my calendar.",
+      "zh": "我只是在为我的日程表打工。",
+      "timestamp": "59:52",
+      "speaker": "Ali Ghodsi"
+    },
+    {
+      "en": "Why should I like you or trust you if I never get to meet you?",
+      "zh": "如果我从来没见过你,我为什么会喜欢你或者信任你?",
+      "timestamp": "61:49",
+      "speaker": "Ali Ghodsi"
+    },
+    {
+      "en": "Maybe you don't even need to respond to the Google doc, Claude can.",
+      "zh": "也许你甚至不需要回复那个 Google 文档,Claude 可以。",
+      "timestamp": "62:07",
+      "speaker": "Ali Ghodsi"
+    },
+    {
+      "en": "The United States has softened me a lot.",
+      "zh": "美国让我柔软了很多。",
+      "timestamp": "41:50",
+      "speaker": "Ali Ghodsi"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "09:53",
+      "speaker": "Ali",
+      "en": "And I think you should at that point identify what that giant bottleneck is and then focus the whole company in your all attention almost to an extreme, like orders of magnitude of attention and focus should just go to this one issue.",
+      "zh": "我认为那时你应该识别出那个巨大的瓶颈是什么,然后把整个公司、你全部的注意力几乎极端地、以数量级级别的专注,全部放在这一个问题上。"
+    },
+    {
+      "timestamp": "25:00",
+      "speaker": "Ali",
+      "en": "Well, be really, really picky.",
+      "zh": "嗯,要真的、真的非常挑剔。"
+    },
+    {
+      "timestamp": "25:05",
+      "speaker": "Ali",
+      "en": "So at Databricks, I've skipped and said no to phenomenal people who've gone on and done great things.",
+      "zh": "在 Databricks,我跳过并且拒绝过一些极其出色的人,他们后来都取得了了不起的成就。"
+    },
+    {
+      "timestamp": "25:16",
+      "speaker": "Ali",
+      "en": "I was like, yeah, but my playbook was err on the side of being just extremely picky, take a decent amount of time, start early.",
+      "zh": "我就说,是啊,但我的策略就是宁可极其挑剔,花相当长的时间,尽早启动。"
+    },
+    {
+      "timestamp": "26:56",
+      "speaker": "Ali",
+      "en": "I would say like 10-20% of the front doors end up actually being truthful.",
+      "zh": "我想说,大概只有 10-20% 的正面推荐最后是真实的。"
+    },
+    {
+      "timestamp": "21:02",
+      "speaker": "Ali",
+      "en": "Are you a good driver? Okay, can you build a car for me?",
+      "zh": "你是个好司机吗?好,那你能给我造一辆车吗?"
+    },
+    {
+      "timestamp": "30:29",
+      "speaker": "Ali",
+      "en": "It was emphasize, identify the Achilles heel and press on those.",
+      "zh": "而是:找出阿喀琉斯之踵,然后猛攻那些地方。"
+    },
+    {
+      "timestamp": "31:41",
+      "speaker": "Ali",
+      "en": "Watch the competition, but never follow the competition.",
+      "zh": "关注竞争对手,但绝不跟随竞争对手。"
+    },
+    {
+      "timestamp": "32:31",
+      "speaker": "Ali",
+      "en": "I think this is the most common failure mode.",
+      "zh": "我认为这是最常见的失败模式。"
+    },
+    {
+      "timestamp": "36:08",
+      "speaker": "Ali",
+      "en": "Get rid of all those ads that work and use this ad that doesn't work.",
+      "zh": "把那些有效的广告都扔掉,改用这个无效的广告。"
+    },
+    {
+      "timestamp": "40:42",
+      "speaker": "Ali",
+      "en": "It has to be non-consensus, but you also have to be right and you have to do it for four or five years.",
+      "zh": "它必须是非共识的,但你也必须是对的,而且你必须坚持做上四五年。"
+    },
+    {
+      "timestamp": "49:08",
+      "speaker": "Ali",
+      "en": "And they're just using them as stupid chatbots.",
+      "zh": "而他们只是把 AI 当作愚蠢的聊天机器人来用。"
+    },
+    {
+      "timestamp": "52:25",
+      "speaker": "Ali",
+      "en": "I think you're going to get a lot of unhappy employees who don't know what the hell is going on.",
+      "zh": "我觉得你会得到很多不知道到底在发生什么的不开心的员工。"
+    },
+    {
+      "timestamp": "53:42",
+      "speaker": "Ali",
+      "en": "I was like, how can I do it in two days? And it's taking you guys three quarters.",
+      "zh": "我就说,我怎么两天就能做完?而你们要花三个季度。"
+    },
+    {
+      "timestamp": "56:46",
+      "speaker": "Ali",
+      "en": "I've been saying this for, you know, I think since the beginning of the year, end of last year, it's going to take humanity a decade at least.",
+      "zh": "我从今年年初、去年年底开始就一直在说,人类至少需要十年。"
+    },
+    {
+      "timestamp": "59:52",
+      "speaker": "Ali",
+      "en": "I'm just working for my calendar.",
+      "zh": "我只是在为我的日程表打工。"
+    },
+    {
+      "timestamp": "61:49",
+      "speaker": "Ali",
+      "en": "Why should I like you or trust you if I never get to meet you?",
+      "zh": "如果我从来没见过你,我为什么会喜欢你或者信任你?"
+    },
+    {
+      "timestamp": "62:07",
+      "speaker": "Ali",
+      "en": "Maybe you don't even need to respond to the Google doc, Claude can.",
+      "zh": "也许你甚至不需要回复那个 Google 文档,Claude 可以。"
+    },
+    {
+      "timestamp": "41:50",
+      "speaker": "Ali",
+      "en": "The United States has softened me a lot.",
+      "zh": "美国让我柔软了很多。"
+    },
+    {
+      "timestamp": "68:41",
+      "speaker": "Ali",
+      "en": "Well, don't lie to yourself. You know, it's the most important thing.",
+      "zh": "嗯,不要欺骗自己。你知道,这是最重要的事。"
+    }
+  ],
+  "voice_script": "今天这期,讲一个人。Ali Ghodsi,大数据公司 Databricks 的联合创始人之一,也是现在的 CEO。Databricks 如今是估值几百亿美元的巨头,但故事得从 2015 年讲起——那一年,这家公司技术做得风生水起,开源项目 Spark 名满天下,账面营收却只有大约 150 万美元。董事会觉得不行,要换 CEO。有意思的是,候选人在外面一个个面试,联合创始人 Ali 自己反而没被怎么考虑。他大概也觉得自己没戏,已经申请了伯克利的教职,准备回去当教授了。\n\n最后拍板的是投资人 A16Z 的 Ben Horowitz。为什么选创始人?Ben 自己当年被问过一个问题:你什么时候给你们公司请个真正的 CEO?这话让他难受了好久,还写进了自己那本书里。从那以后,他对「只用创始人」近乎信仰。不过按 Ali 的说法,这次任命本来只是试用,连 CEO 的薪水都没给。一年之后的一对一谈话里,股权包变大了,薪水涨了,事情才算真正明朗。\n\n那为什么放弃教授、选择当 CEO?回头看看这个人的人生轨迹,会发现一个模式。小时候想辍学去美国做游戏程序员,父母逼着上了大学,结果赶上了 IT 泡沫破裂,去的那家欧洲最大的移动初创公司也黄了。后来拒绝了一个不用读博的正教授职位,偏偏去顶尖大学读了个更难的博士。伯克利只肯给博士后职位,也去了。每次都选了更有挑战性的那条路,每次都拓宽了视野。所以面对 CEO 还是教授这道题,答案是:我对做生意一无所知,这大概是我能做的最有挑战性的事。\n\n好,人上位了,怎么干?这里有三条主线,咱们一条条讲。\n\n第一条,找到那个大瓶颈,把全公司压上去。Ali 认为公司的失败,通常是因为一个重大的瓶颈没被解决,而 CEO 的活儿,就是把数量级级别的注意力、把整个公司,全压在这一个问题上——做得过头反而是好事。注意,这个周期是按年算的,一年、两年、有时候三年。比如后来打造 Lakehouse 这个品类,花了好几年,发布的时候还被全网嘲笑。要是几周几个月就能解决的事,那叫战术,不叫战略。当年对瓶颈的判断其实很简单:开源项目成功,技术很强,商业上却一塌糊涂——那就把全部注意力放在让商业引擎转起来。\n\n商业引擎怎么转?这就引出第二条主线:招人,而且是极度挑剔地招。上任之后,一两年之内整个高管团队换了一遍,工程和产品交给另一位联合创始人。招人的哲学叫「提前于需求曲线」——等到你知道需要招一位高管的时候,已经太晚了。为什么这么急?因为招错人的代价太大了:招错了,发现要一年,处理再拖半年,重新搜寻又是几个月,新人还要上手时间,一来一回,损失两年半。所以策略是:宁可极其挑剔,花相当长的时间,尽早启动。一次好的搜寻至少六个月,可能一年。这意味着会错过一些人——Ali 跳过并且拒绝过一些极其出色的人,那些人后来都取得了了不起的成就,至今还有怨气。但换来的是,大多数高管跟了十年。背景调查也有讲究,要做大量「后门」,直接去聊候选人过去所有的经理——因为正面推荐信里,大概只有 10% 到 20% 是真实的,剩下八成是胡扯。\n\n商业要转起来,绕不开销售团队。这里有个反常识的发现。Databricks 一度信奉 PLG,就是产品驱动增长,用户自己刷卡买,不需要销售,甚至做过一个「零接触」实验,永远不跟客户交谈。结果呢?收入连续两个季度停滞。Ali 在脑子里做了个实验:看看那些销售做得好的公司,最好的销售是不是超级技术型、有博士学位?结论恰恰相反——有博士学位反而是劣势。于是重新定义了好销售的四条标准。第一,职业化的强势:早期有位销售,为了约上会议,把客户公司的能走的门都走了一遍,最后砸玻璃进去,客户高管气得说再也不想见,但会议是真约上了。第二,极高的情商:另一位早期销售被客户当众质问「你算老几」,不恼,转而问对方团队在做什么——人人都乐意聊自己的活儿嘛——会议结束时,客户抱着道歉。第三,镇得住场子。第四,懂客户内部的「权力基础」,因为一亿美元的采购,从来没有人单独拍板。这是一门跟人打交道的艺术,跟计算机、数学、逻辑那一套完全不通用。\n\n说到销售负责人,就得讲打 Snowflake 这一仗了。当年 Databricks 营收只有对方一半,增长还更慢。打法是研究敌人,但不照抄敌人。找到对方三个弱点:专有格式、数据被锁定;AI 支持弱——2019 年 AI 还不是大事,但 Databricks 从 2009 年起就在做机器学习;还有,贵。然后一个客户一个客户地执行「共存策略」,不喊拆掉谁,而是把适合机器学习的工作负载抽出来,把格式迁到开源,确保总成本只有对方三分之一。配套的是品类战略,也就是 Lakehouse。CEO 的原话是:关注竞争对手,但绝不跟随竞争对手。最常见的失败模式恰恰是两个极端——要么根本不研究竞对,要么研究了就直接照抄。要是当年也去做一个「更好的数据仓库」,没人会信。\n\n品类怎么立起来的?Lakehouse 这个名字,内部都有人反对,太搞笑、太技术了,高管要怎么跟企业客户聊「在湖边的房子」?外部的咨询公司调研完也说不行,建议改叫「统一数据科学平台」。但 Ali 抱着信念硬推,把整个公司动员起来,偏执到媒体报道夸了公司却没提 Lakehouse,要去找记者;客户签单感言没提 Lakehouse,算失败;市场负责人拿数据劝,说带 Lakehouse 的广告不能卖货——回答是,把那些有效的广告都扔掉,改用这个无效的。还有一个简单粗暴的手段:销售不想做你认为对的事,别争论,写进薪酬计划,争论立刻停止。\n\n最后讲讲 AI。Ali 认为,方向是对的,但很多说法是扯淡。现在问听众,有多少人认为 AI 大多数时候比你周围的人聪明?九成举手。可企业内部的现实是,模型能力和实际使用之间有巨大鸿沟,企业只是把 AI 当聊天机器人、当写代码工具。缺的是企业上下文——把人脑子里的知识、每天的决策、每场会议都捕捉下来喂给 AI。去年十一月,亲自下生产线做了个实验:一个人花两天做了一个数据连接器,而现有团队做一个要三个季度。插入一名全职员工、重造流程之后,一个季度能出七个。真正的内幕是,瓶颈根本不在写代码,慢的是收集需求、系统集成、测试这些环节。所以结论是:AI 落地需要对组织的流程再造,人类至少需要十年,才能真正吸收和扩散 AI。\n\n最后收在这句话上,也是整集最核心的方法论:识别出那个巨大的瓶颈,然后把整个公司、全部的注意力,以数量级级别的专注,极端地压在这一个问题上——给它两三年时间,别急着放弃。"
+}

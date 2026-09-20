@@ -27,7 +27,7 @@ unlisted: true
 
 [[Whitney Wolfe Herd]] · [[Jeff Morris Jr]] · [[Bumble]] · [[Chapter One]] · [[滑动]] · [[Zarly]] · [[AI]] · [[Sequoia]] · [[AI 助手]] · [[Erebor]]
 
-<script type="application/json" class="pd-epn">{"Whitney Wolfe Herd":1,"Jeff Morris Jr":1,"Bumble":1,"Chapter One":1,"滑动":1,"Zarly":1,"AI":18,"Sequoia":5,"AI 助手":2,"Erebor":1}</script>
+<script type="application/json" class="pd-epn">{"Whitney Wolfe Herd":1,"Jeff Morris Jr":1,"Bumble":1,"Chapter One":1,"滑动":1,"Zarly":1,"AI":19,"Sequoia":5,"AI 助手":2,"Erebor":1}</script>
 
 <script>
 (function(){

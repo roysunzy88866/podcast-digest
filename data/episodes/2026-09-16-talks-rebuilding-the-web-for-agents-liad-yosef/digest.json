@@ -1,0 +1,172 @@
+{
+  "title_zh": "智能体网络来了：网站和浏览器正在被“拆成原子”",
+  "tldr": "MCP Apps 规范共同创建者、Aura 联合创始人（曾在 Shopify 领导智能体店面）讲解智能体网络：为什么个人助理将取代浏览器成为上网入口，网站该如何为智能体做好准备。",
+  "digest_md": "这一集聊的是「智能体网络」（agentic web）——当 AI 智能体（能自主替你干活的 AI 助手）开始替你上网，网站、浏览器、乃至整个互联网的门面会发生什么。主角是 MCP Apps 规范的共同创建者和维护者：ChatGPT apps、Claude apps、Copilot、GitHub 这些聊天式应用的底层规范都出自 MCP Apps；他也是研究智能体与人类交互的公司 Aura 的联合创始人，此前在 Shopify 构建并领导过智能体店面。\n\n先从 MCP Apps 说起，因为它是「为智能体网络铺平道路的规范」。几个月前发布，Claude 是第一个支持的客户端，随后所有客户端跟进。它的好处是三方共赢：服务商能把 UI 块直接发进聊天里，保住品牌和界面（不至于沦为一个纯文本数据库）；用户获得信任感——你让 ChatGPT 订酒店，看到 Booking.com 的界面，就知道自己在跟谁打交道；而聊天宿主则获得了通向整个外部能力世界的入口。OpenAI 不会去和酒店谈合作、也不会帮你换场馆座位，这些「最后一公里」的交互必须靠外部服务补上。他举了个例子：在同一段对话里，你可以同时从 Booking、Altrails 等任何想交互的服务拉取数据——这已经在发生了，除了 Gemini 之外的所有聊天智能体都支持了。\n\n## 界面拆成原子：核心主张\n\n那智能体网络到底是什么？他的定义很鲜明：「智能体网络不是一个由智能体组成的网络。它不是我们今天所知道的那个网络。它是一次转变。」转变的是我们看待网站和浏览器的方式。\n\n过去 20 年，我们都在完善同一种体验：想策划一个周年纪念，就得在浏览器开一堆标签页，向 Google、Amazon、Booking 等每一个服务用不同的 UI 重新传达一遍同一个意图。但「我不需要 Booking 仪表盘的 99%，我绝对不需要 Jira 的仪表盘」——我们真正需要的只是把意图传达给那些服务。所以「我们可以直接把这些界面拆解成原子」：个人助理从 Google 日历看到你有个周年纪念快到了，知道你偏好大自然里的酒店，于是从 Booking 拉地图、帮你订好。服务方也受益——Booking 不用再开发与你日历的集成，Amazon 不用开发与 Booking 的集成，因为你的助理天然拥有关于你的上下文。三赢。\n\n他明确反对另一个方向：让用户去逛 Amazon 的智能体、Etsy 的智能体、Expedia 的智能体。「我有自己的个人助理。我不想用你的智能体。我想用我自己的。」一年之内没人会那么做。\n\n## 浏览器智能体是「更快的马」\n\n那浏览器智能体、计算机使用智能体（让 AI 像人一样点屏幕操作）呢？他认为说不通，「因为那是『更快的马』式解决方案」——为什么要让一个完全不了解人类感知局限的智能体，去和过滤器、分页、排序这些我们花几十年为人类自己打磨的 UI 打交道？Google 押注的是另一端：WebMCP 协议，让网站暴露 JavaScript 工具给智能体协作，Chrome 里的 Gemini 能在你浏览时帮你找优惠——不错，但太简单了。「把 Salesforce 仪表盘推给 Chrome 上的 Gemini？我为什么想带着 Gemini 浏览到一个我根本不想用的仪表盘里替我点按钮？」\n\n真正的转变是：**助理正在成为我们进入网络的入口**。他把 Jira 的 MCP 接进 IDE 的朋友不再上 Jira 网站；他妈妈什么事都用 ChatGPT，如果能用它预约医生，就再也不会去诊所网站。证据很生动：他在格鲁吉亚旅行时，一位约七十岁的老太太请他帮忙拍照——她手机上只有三个应用：WhatsApp、相机、ChatGPT。他九岁的孩子想搜索东西也不去找 Google。\n\n> 【背景】Sentry 的 David Kramer 一年前还放话「谁认为 web 相关的东西会在 25 年内过时我都愿意跟他对赌」，几天前却发表了《为智能体而设计》，承认与 Sentry 产品的交互将不再只通过 web 应用，必须把 API 优先作为界面来设计。（此段人名与事件均出自本集原话。）\n\n趋势已经体现在数据上：Salesforce、Cloudflow、Sentry 相继「无头化」（headless，即去掉界面、只留接口对外提供服务）——Salesforce 对竞争对手的主要差异化恰恰是它的 UX，连它都无头化了。Cloudflow 的 CEO 发推说，web 上智能体的流量已经超过了人类流量。\n\n## 「几乎无头」的 web 与智能体就绪\n\n但完全无头也不对：让智能体自主整理邮件，不需要任何 UI；为蜜月订酒店，你还是想亲手挑。所以他提出「几乎无头的 web」：智能体以无头方式与网站交互，再把 UI 资源带回给你。于是用户体验被拆成了两半——「现在它是你的网站的智能体体验，加上用户如何体验那个体验你的网站的智能体」。而其中 90% 将依赖智能体体验，意味着网站必须为三类对象都做好准备：你自己的智能体、客户的智能体（ChatGPT 或别的）、以及仍想直接浏览网站的人类。\n\n品牌忠诚度正在因此瓦解。他讲了自己的轶事：团队让 Claude Code 推荐分析服务，Claude Code 坚持推荐 PostHog，理由是它的 MCP 和 API 更好集成——尽管他们与 Mixpanel 合作了十年、最熟悉它。「所以我们没有品牌忠诚度，对吧？既然 Claude Code 推荐，我们就用了 PostHog。」更残酷的是：如果一个智能体用了你的产品、还得启动浏览器才能用，它会记住，下次就不再来了。Mixpanel 花十年打磨的用户体验和开发者体验，就这么被放弃了。\n\n## 意料之外的发现：llms.txt 没人用\n\n在 Aura，他们做了一套免费的就绪度基准（aura.ai 上可给任何网站打分），并开始给整个 web 排名。然后撞上了一个反直觉的结果：llms.txt（让网站向智能体声明如何与自己交互的事实标准文件）——他们测试的网站里将近 50% 都发布了它，「但我们在这些网站上运行的所有智能体，实际上没有一个用过 llms.txt」。几乎所有智能体都直奔文档页和主页；少数用了它的，也只是因为文档里提到了这个文件。\n\n由此得出本集最核心的洞见：「由我们人类来定义智能体需要什么，这其实说不太通。」连 OpenAI 都不再发布工具最佳实践了——因为每次一发布，模型变强，实践就过时。六个月前 MCP 服务器的最佳实践是写三段描述，现在三行就够。所以结论是：**让智能体来定义智能体需要什么**。他们据此做了 Aura's Journey（journey.aura.ai，免费）：任何网站、任何意图、任何智能体，实时观看智能体与网站交互的完整路径。他们跑了几万次。同一个网站、同一个意图，Claude Code、Vercel 的测试框架、ChatGPT 的路径截然不同——ChatGPT 找结果找得更好，而要理解为什么，就必须观察这些路径。\n\n## 下一个里程碑：智能体资源的发现层\n\n智能体网络的下一个大问题是发现（discovery）——但不是 SEO、GEO、AEO 那种。「每一次革命都伴随着它的发现层：网络革命伴随着搜索，移动互联网伴随着应用商店，社交伴随着信息流。那么智能体资源的发现层是什么？」也许 Airbnb 的 MCP 比 Booking 好，但 Booking 的 API 比 Airbnb 好——怎么选？传统搜索不够（基于人类 SEO 和页面排名）；各家的封闭注册表不够（要求每个应用主动提交）；中心化的 MCP 注册表也不够（谁来策展？治理模型是什么？）。新兴标准正在出现：AI Catalog.json（由 Anthropic、OpenAI、Google、MCP、A2A 制定，规范网站如何向智能体暴露自己）和 Agentic Resource Discovery（ARD，规范发现层/目录如何向智能体暴露自己）。Aura 按这些标准构建了自己的 Oracle Directory：扫描收录的域名生成 AI-catalog.json，智能体可以直接查询任何域名的 MCP 服务器、API 服务器等资源。\n\n最后一个意外收获：「对智能体友好和对人类可访问其实非常相似。因为 LLM 来到你的网站时，它们就像有视觉障碍的用户。」它们看不到你的网站，需要其他信号来理解如何交互——所以让网站对人类可访问，就是在帮智能体可访问性，反之亦然。\n\n收尾他讲得很克制：「我们不想为智能体重建整个网络。我们想让网络对智能体可访问。我们只要确保网络已经为智能体的到来做好了准备。」\n\n## 本集带走\n\n- **「几乎无头」是方向**：智能体无头地和网站交互，只在需要人类决策的「最后一公里」（如订蜜月酒店）把 UI 带回给你——网站要同时为自家智能体、客户的智能体、和纯人类三类访客做准备。\n- **别押注浏览器智能体**：让 AI 点屏幕、填表单是「更快的马」；用户要的是自己的助理，不是去逛每个厂商的智能体。\n- **llms.txt 基本是摆设**：实测近半网站发布了它，但没有任何智能体主动去找它——别以为发个声明文件就算智能体就绪。\n- **让智能体定义智能体需要什么**：人工写的最佳实践几个月就过时；用 Aura's Journey 这类工具观察真实智能体在你的网站上的路径，按观察结果优化。\n- **无障碍 ≈ 智能体就绪**：LLM 像有视觉障碍的用户，做人类可访问性改造就是在做智能体可访问性。\n- **品牌忠诚度正在消失**：智能体按 MCP/API 集成难度选产品（Claude Code 为 PostHog 抛弃了用了十年的 Mixpanel）；你的产品若需要浏览器才能用，智能体会记住并绕开你。",
+  "quotes": [
+    {
+      "en": "So websites will become obsolete, browsers will become obsolete, and personal assistant will become our only gate to the web.",
+      "zh": "所以网站会变得过时，浏览器会变得过时，个人助理将成为我们通往网络的唯一门户。",
+      "timestamp": "08:55",
+      "speaker": "Liad Yosef"
+    },
+    {
+      "en": "Now it's the agent experience of your website plus how a user experiences the agent that experiences your website.",
+      "zh": "现在它是你的网站的智能体体验，加上用户如何体验那个体验你的网站的智能体。",
+      "timestamp": "10:59",
+      "speaker": "Liad Yosef"
+    },
+    {
+      "en": "It doesn't make a lot of sense for us as humans to define to agents what they need.",
+      "zh": "由我们人类来定义智能体需要什么，这其实说不太通。",
+      "timestamp": "14:19",
+      "speaker": "Liad Yosef"
+    },
+    {
+      "en": "Even OpenAI, they don't publish best practices for tools anymore because they say that every time they publish best practices, the models become better and these practices become obsolete.",
+      "zh": "连 OpenAI 也不再发布针对工具的最佳实践了，因为他们说，每次发布最佳实践，模型就会变得更好，这些实践就过时了。",
+      "timestamp": "14:26",
+      "speaker": "Liad Yosef"
+    },
+    {
+      "en": "Social came with feeds.",
+      "zh": "社交伴随着信息流而来。",
+      "timestamp": "16:57",
+      "speaker": "Liad Yosef"
+    },
+    {
+      "en": "Because LLMs, when they come to your website, they're like users or people with vision disabilities.",
+      "zh": "因为 LLM 来到你的网站时，它们就像有视觉障碍的用户或人。",
+      "timestamp": "19:31",
+      "speaker": "Liad Yosef"
+    },
+    {
+      "en": "But we don't want to rebuild the web for agents.",
+      "zh": "但我们不想为智能体重建整个网络。",
+      "timestamp": "20:06",
+      "speaker": "Liad Yosef"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:05",
+      "speaker": "Unknown",
+      "en": "The agentic web is not a web of agents. It's not the web as we know it today. It's a shift.",
+      "zh": "智能体网络不是一个由智能体组成的网络。它不是我们今天所知道的那个网络。它是一次转变。"
+    },
+    {
+      "timestamp": "05:02",
+      "speaker": "Unknown",
+      "en": "We can just take these interfaces and break them into atoms.",
+      "zh": "我们可以直接把这些界面拆解成原子。"
+    },
+    {
+      "timestamp": "06:25",
+      "speaker": "Unknown",
+      "en": "But no one is going to do that in a year.",
+      "zh": "但一年之内没人会那么做。"
+    },
+    {
+      "timestamp": "06:36",
+      "speaker": "Unknown",
+      "en": "I want to use my agent.",
+      "zh": "我想用我自己的智能体。"
+    },
+    {
+      "timestamp": "07:09",
+      "speaker": "Unknown",
+      "en": "But that doesn't make sense because that's a faster horse solution.",
+      "zh": "但这说不通，因为那是「更快的马」式解决方案。"
+    },
+    {
+      "timestamp": "08:55",
+      "speaker": "Unknown",
+      "en": "So websites will become obsolete, browsers will become obsolete, and personal assistant will become our only gate to the web.",
+      "zh": "所以网站会变得过时，浏览器会变得过时，个人助理将成为我们通往网络的唯一门户。"
+    },
+    {
+      "timestamp": "09:03",
+      "speaker": "Unknown",
+      "en": "It sounds like old men yelling at a literal cloud, right?",
+      "zh": "听起来像老头对着天上的云吼叫，对吧？"
+    },
+    {
+      "timestamp": "10:59",
+      "speaker": "Unknown",
+      "en": "Now it's the agent experience of your website plus how a user experiences the agent that experiences your website.",
+      "zh": "现在它是你的网站的智能体体验，加上用户如何体验那个体验你的网站的智能体。"
+    },
+    {
+      "timestamp": "12:17",
+      "speaker": "Unknown",
+      "en": "So we don't have brand loyalty, right?",
+      "zh": "所以我们没有品牌忠诚度，对吧？"
+    },
+    {
+      "timestamp": "13:56",
+      "speaker": "Unknown",
+      "en": "But none of the agents that we ran on this website actually used llm.txt.",
+      "zh": "但我们在这些网站上运行的所有智能体，实际上没有一个用过 llms.txt。"
+    },
+    {
+      "timestamp": "14:19",
+      "speaker": "Unknown",
+      "en": "It doesn't make a lot of sense for us as humans to define to agents what they need.",
+      "zh": "由我们人类来定义智能体需要什么，这其实说不太通。"
+    },
+    {
+      "timestamp": "14:26",
+      "speaker": "Unknown",
+      "en": "Even OpenAI, they don't publish best practices for tools anymore because they say that every time they publish best practices, the models become better and these practices become obsolete.",
+      "zh": "连 OpenAI 也不再发布针对工具的最佳实践了，因为他们说，每次发布最佳实践，模型就会变得更好，这些实践就过时了。"
+    },
+    {
+      "timestamp": "14:44",
+      "speaker": "Unknown",
+      "en": "So best practices becomes we need the agents to define what the agents need, right?",
+      "zh": "所以最佳实践变成了：我们需要智能体来定义智能体需要什么，对吧？"
+    },
+    {
+      "timestamp": "16:53",
+      "speaker": "Unknown",
+      "en": "The web revolution came with search.",
+      "zh": "网络革命伴随着搜索而来。"
+    },
+    {
+      "timestamp": "16:55",
+      "speaker": "Unknown",
+      "en": "Mobile came with app stores.",
+      "zh": "移动互联网伴随着应用商店而来。"
+    },
+    {
+      "timestamp": "16:57",
+      "speaker": "Unknown",
+      "en": "Social came with feeds.",
+      "zh": "社交伴随着信息流而来。"
+    },
+    {
+      "timestamp": "19:26",
+      "speaker": "Unknown",
+      "en": "For example, being agent ready and being human accessible is very similar.",
+      "zh": "比如，对智能体友好和对人类可访问其实非常相似。"
+    },
+    {
+      "timestamp": "19:31",
+      "speaker": "Unknown",
+      "en": "Because LLMs, when they come to your website, they're like users or people with vision disabilities.",
+      "zh": "因为 LLM 来到你的网站时，它们就像有视觉障碍的用户或人。"
+    },
+    {
+      "timestamp": "20:06",
+      "speaker": "Unknown",
+      "en": "But we don't want to rebuild the web for agents.",
+      "zh": "但我们不想为智能体重建整个网络。"
+    },
+    {
+      "timestamp": "20:08",
+      "speaker": "Unknown",
+      "en": "We want to make the web agent accessible.",
+      "zh": "我们想让网络对智能体可访问。"
+    }
+  ],
+  "voice_script": "今天要讲的人和事都跟一件正在发生的事有关：AI 智能体开始替你上网了。嘉宾是 MCP Apps 规范的共同创建者——ChatGPT apps、Claude apps、Copilot、GitHub 这些聊天应用的底层规范就出自这套规范；同时也是研究智能体与人类交互的公司 Aura 的联合创始人，之前在 Shopify 领导过智能体店面。这一集要聊的是「智能体网络」：当智能体替你上网，网站、浏览器、整个互联网的门面会变成什么样。\n\n先从 MCP Apps 说起，因为它是给智能体网络铺路的规范。几个月前发布，Claude 第一个支持，随后所有客户端都跟进了。好处是三方共赢：服务商能把界面直接发进聊天里，保住品牌，不至于沦为纯文本数据库；用户获得信任感——让 ChatGPT 订酒店，看到 Booking.com 的界面，就知道自己在跟谁打交道；聊天工具则拿到了通向外部能力世界的入口。OpenAI 不会去跟酒店谈合作，也不会帮你换演出座位，这些最后一公里的活儿必须靠外部服务补上。而且这已经发生了：在同一段对话里，可以同时从 Booking、Altrails 这些服务拉数据，除了 Gemini 之外的所有聊天智能体都支持了。\n\n那智能体网络到底是什么？嘉宾的定义很鲜明：智能体网络不是一个由智能体组成的网络，也不是今天所知道的这个网络，它是一次转变——转变的是我们看待网站和浏览器的方式。过去二十年，我们都在完善同一种体验：想策划一个周年纪念，就得在浏览器开一堆标签页，向每一个服务用不同的界面重新传达一遍同一个意图。可你不需要 Booking 仪表盘的百分之九十九，也绝对不需要 Jira 的仪表盘——真正需要的只是把意图传达给那些服务。所以他的主张是：把界面拆成原子。你的个人助理从 Google 日历看到周年纪念快到了，知道你偏好大自然里的酒店，就从 Booking 拉地图、帮你订好。服务方也受益：Booking 不用再开发跟日历的集成，Amazon 不用开发跟 Booking 的集成，因为你的助理天然拥有关于你的上下文。三赢。顺带一提，嘉宾明确反对让用户去逛 Amazon 的智能体、Etsy 的智能体。用原话说：我有自己的个人助理，我不想用你的智能体，我想用我自己的。\n\n那浏览器智能体、让 AI 像人一样点屏幕的方案呢？答案是不行，因为那是「更快的马」式方案。为什么要让一个完全不了解人类感知局限的智能体，去跟过滤器、分页、排序这些花几十年为人类自己打磨的界面打交道？Google 押注的 WebMCP 算是另一端：让网站暴露工具给智能体协作，Chrome 里的 Gemini 能在浏览时帮你找优惠——不错，但太简单了。把 Salesforce 仪表盘推给 Gemini，带着它浏览到一个根本不想用的仪表盘里替我点按钮，我为什么要这样？\n\n这就引出真正的转变：助理正在成为进入网络的入口。把 Jira 接进 IDE 的朋友不再上 Jira 网站；嘉宾的妈妈什么事都用 ChatGPT，如果能用它预约医生，就再也不会去诊所网站。有个画面特别生动：在格鲁吉亚旅行时，一位约七十岁的老太太请人帮忙拍照，手机上只有三个应用——WhatsApp、相机、ChatGPT。连九岁的孩子找东西也不去找 Google 了。Sentry 的 David Kramer 一年前还放话，谁认为 web 相关的东西会在二十五年内过时都愿意跟谁对赌，几天前却发了篇文章《为智能体而设计》，承认必须把 API 优先作为界面来设计。数据也在说明这一点：Salesforce、Cloudflow、Sentry 相继无头化——去掉界面、只留接口对外服务。Salesforce 对竞争对手的主要差异化恰恰是它的用户体验，连它都无头化了。Cloudflow 的 CEO 说，web 上智能体的流量已经超过了人类流量。\n\n但完全无头也不对：让智能体自主整理邮件，不需要任何界面；为蜜月订酒店，你还是想亲手挑。所以方向是「几乎无头的 web」：智能体以无头方式跟网站交互，再把界面带回给你。用嘉宾的原话说：现在是你的网站的智能体体验，加上用户如何体验那个体验你的网站的智能体。网站必须为三类访客做好准备：自家的智能体、客户的智能体、以及仍然想直接浏览的人类。\n\n这里还有个残酷的真相：品牌忠诚度正在瓦解。嘉宾的团队让 Claude Code 推荐分析服务，Claude Code 坚持推荐 PostHog，理由是 MCP 和 API 更好集成——尽管他们跟 Mixpanel 合作了十年。结果就用了 PostHog。更残酷的是，如果一个智能体用了你的产品还得启动浏览器才能用，它会记住，下次就不再来了。Mixpanel 十年打磨的体验就这么被放弃了。\n\n接下来是个反直觉的发现。Aura 做了一套免费基准，给整个 web 的智能体就绪度排名，结果撞上这样一件事：llms.txt——让网站向智能体声明如何与自己交互的事实标准文件——测试的网站里将近一半都发布了，但在这些网站上运行的所有智能体，没有一个用过它。几乎所有智能体都直奔文档页和主页。由此得出本集最核心的洞见：由我们人类来定义智能体需要什么，这其实说不太通。连 OpenAI 都不再发布工具最佳实践了，因为每次一发布，模型变强，实践就过时——六个月前 MCP 服务器的最佳实践是写三段描述，现在三行就够。所以结论是：让智能体来定义智能体需要什么。据此 Aura 做了个免费工具叫 Journey，可以实时观看智能体跟任何网站交互的完整路径，跑了几万次。同一个网站、同一个意图，Claude Code 和 ChatGPT 的路径截然不同，ChatGPT 找结果找得更好，而要理解为什么，就必须观察这些路径。\n\n再往前看一步，智能体网络的下一个大问题是发现。每一次革命都伴随着它的发现层：网络革命伴随搜索，移动互联网伴随应用商店，社交伴随信息流。那么智能体资源的发现层是什么？传统搜索不够，各家的封闭注册表不够，中心化的注册表也不够——谁来策展、治理模型是什么？新标准正在出现：由 Anthropic、OpenAI、Google 参与制定的 AI Catalog.json，规范网站如何向智能体暴露自己；还有 ARD，规范发现层如何向智能体暴露自己。\n\n最后一个意外收获特别有意思：对智能体友好和对人类可访问其实非常相似。因为 LLM 来到你的网站时，它们就像有视觉障碍的用户——看不到网站，需要其他信号来理解如何交互。所以做人类无障碍改造，就是在做智能体可访问性，反之亦然。\n\n最后收在嘉宾一句很克制的话上：我们不想为智能体重建整个网络，我们想让网络对智能体可访问，只要确保网络已经为智能体的到来做好了准备。而顺着这一集的逻辑推下去，网站会变得过时，浏览器会变得过时，个人助理将成为我们通往网络的唯一门户。"
+}

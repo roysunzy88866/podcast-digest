@@ -31,7 +31,7 @@ unlisted: true
 
 [[Whitney Wolfe Herd]] · [[滑动]] · [[AI]] · [[AI 助手]] · [[推荐引擎]] · [[付费用户]] · [[创始人模式]] · [[Hinge]] · [[Tinder]] · [[Apple]]
 
-<script type="application/json" class="pd-epn">{"Whitney Wolfe Herd":1,"滑动":1,"AI":18,"AI 助手":2,"推荐引擎":1,"付费用户":1,"创始人模式":2,"Hinge":2,"Tinder":2,"Apple":18}</script>
+<script type="application/json" class="pd-epn">{"Whitney Wolfe Herd":1,"滑动":1,"AI":19,"AI 助手":2,"推荐引擎":1,"付费用户":1,"创始人模式":2,"Hinge":2,"Tinder":2,"Apple":18}</script>
 
 <script>
 (function(){

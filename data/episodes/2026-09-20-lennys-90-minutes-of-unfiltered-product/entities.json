@@ -1,0 +1,1497 @@
+{
+  "episode_id": "2026-09-20-lennys-90-minutes-of-unfiltered-product",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-09-20",
+  "tags": [
+    "产品管理",
+    "消费级产品",
+    "广告变现",
+    "组织与领导力",
+    "增长"
+  ],
+  "categories": [
+    "组织与领导力",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "peter-sellis",
+      "type": "person",
+      "role": "host",
+      "name": "Peter Sellis",
+      "file": "Peter Sellis",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            93.4,
+            95.041
+          ],
+          "quote": "Today my guest is Peter Sellis.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 34,
+          "t": [
+            167.494,
+            169.556
+          ],
+          "quote": "With that, I bring you Peter Sellis.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 110,
+          "t": [
+            629.176,
+            633.84
+          ],
+          "quote": "I think the Peter Sellis product reading list is almost like a banned booked list at this point.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2830.602,
+            2836.356
+          ],
+          "quote": "There's going to be a recovery group, like a therapy group of PMs that work for Peter Sellis.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "snapchat",
+      "type": "company",
+      "role": "company",
+      "name": "Snapchat",
+      "file": "Snapchat",
+      "primary": true,
+      "how_described": "本集说它是嘉宾待了七年、任首位 PM 的公司：十亿月活、Z 世代渗透率极高的相机/通讯应用，因用户太年轻、相机形态对广告不友好、本质是即时通讯这三大结构原因未能建立起 Facebook 级的广告生意，但广告收入达四十亿的速度仍快于 Twitter/Reddit/Pinterest。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            97.843,
+            104.128
+          ],
+          "quote": "He was the first PM at Snapchat, where he spent seven years building one of the most delightful and popular consumer products in history.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 29,
+          "t": [
+            132.987,
+            141.772
+          ],
+          "quote": "Why Snapchat has struggled to build a truly massive business in spite of having a billion monthly active users, and it's not what you think, and so much more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1296.626,
+            1308.393
+          ],
+          "quote": "And then we could talk about they've had a lot of success with Snapchat plus and subscription products in general are doing well, but ads are truly the magical product market fit of consumer monetization on the internet, and there's a lot of mathematical reasons why that's true.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1622.237,
+            1628.84
+          ],
+          "quote": "I don't know, I don't want to make your podcast brand unsafe, but we can talk about what Snapchat was known for at time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1709.22,
+            1713.586
+          ],
+          "quote": "I think that Snapchat+, the subscription product, if it had launched...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1730.942,
+            1739.145
+          ],
+          "quote": "So, I think Snapchat+ has actually been quite successful and there's a lot of how it's been executed that's really, really, really great.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1766.475,
+            1771.816
+          ],
+          "quote": "You don't open Snapchat the first time you're like, oh, I definitely need to pay $ 20 a month or $5 a month for something.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1782.06,
+            1795.432
+          ],
+          "quote": "And so, yeah, if Snapchat had this product out four years ago, there might've been less pressure on the ads to scale as quickly as it does, less pressure on the ads business to scale as quickly as it does, allows for more freedom on the content consumption side of things, and the experience, and allows them maybe to compete more with TikTok.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1939.823,
+            1945.713
+          ],
+          "quote": "I was going to say real quick on Snapchat+ my favorite part of the story is that Instagram launched Instagram Plus.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1946.254,
+            1949.439
+          ],
+          "quote": "It's just like another classic Snapchat story.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 338,
+          "t": [
+            2012.18,
+            2016.263
+          ],
+          "quote": "I keep trying to move away from Snapchat, but new questions come up as you share more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2017.224,
+            2030.013
+          ],
+          "quote": "Something that came up in my chat with Evan about this is seeing everybody copying Snapchat for 15 years, or however long it's been, his takeaway basically is software is no longer remote, you have to focus on other things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2406.531,
+            2409.412
+          ],
+          "quote": "There's a couple elements here that I think connect Snapchat and AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 572,
+          "t": [
+            3581.48,
+            3599.247
+          ],
+          "quote": "But I think then the more Snapchat, the more innovative way to think about it is more to look at your company's philosophy around why it was built and then think about the future totally unencumbered by the present.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 737,
+          "t": [
+            4567.836,
+            4574.539
+          ],
+          "quote": "This is why people choose Snapchat every single day in the face of tons of alternatives and a bunch of savage competitors.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "snap",
+      "type": "company",
+      "role": "company",
+      "name": "Snap",
+      "file": "Snap",
+      "primary": true,
+      "how_described": "本集把 Snap 拆开看是「Z 世代的伯克希尔·哈撒韦」：第一的相机、通讯、地图、占星应用；2018 年灾难性改版后靠聚焦 Android 性能服务已有用户，带来多年「增长复兴」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            61,
+            63.819
+          ],
+          "quote": "Snap is quite famous for not hiring PMs for a long time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 94,
+          "t": [
+            539.51,
+            557.939
+          ],
+          "quote": "And both with Snap and at Discord where I had the privilege of working with the founders in both cases, I tried to take and absorb and internalize their vision and then create small phrases and language that could be used and repeated that were essentially shortcuts or almost like synecdoches of the whole strategy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 162,
+          "t": [
+            966,
+            966
+          ],
+          "quote": "... as well, to say something similar, and I think I agreed with a lot of the stuff he said. And I think by the way, I think some of his most senior PMs are actually former Snap PMs from my team at Snap.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1250.34,
+            1251.441
+          ],
+          "quote": "I do want to ask about Snap.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1269.036,
+            1274
+          ],
+          "quote": "Is that the core of what has kept Snap from becoming a bigger success, or is there more to it?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1285.44,
+            1296.606
+          ],
+          "quote": "So I'll say two things, maybe three things about Snap from a monetization perspective, at least an ads monetization perspective.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1309.373,
+            1321.28
+          ],
+          "quote": "And there are three things that hold back Snap from an ads perspective that I think the company, like we still talk about, is we deserve a little bit more credit maybe than we get, but I understand why we don't.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1325.481,
+            1333.283
+          ],
+          "quote": "Snap appealed to Gen Z at an excessive rate early on, now even I think Gen Alpha as they graduate from Roblox and stuff like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1377.117,
+            1388
+          ],
+          "quote": "And so yeah, Snap's audience is definitively less valuable from that perspective, versus like a Pinterest or an Instagram or a Twitter.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1410.789,
+            1418.792
+          ],
+          "quote": "And Snap opens the camera and that makes it awesome as a product, in terms of its ability to be the fastest way to capture a moment and share it with your friends.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1419.312,
+            1425.514
+          ],
+          "quote": "But in no part of that flow, the core flow of taking a Snap and sending it to your friends, is there a logical place for an advertisement.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1441.22,
+            1446.206
+          ],
+          "quote": "We experimented with this a lot at Snap, and probably one of my biggest failures was the ability to drive camera monetization.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1482.532,
+            1500
+          ],
+          "quote": "Message apps are incredible, utilities are incredible to have as part of a portfolio, but Snap was trying to build a multi-billion dollar ads business very quickly on a lower value audience, a very tough format for ads, and a service that was more utilitarian than consumption oriented.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1506.023,
+            1517.793
+          ],
+          "quote": "I think it's important to note, Snap is doing, it's a many multi-billion dollar business, I think a billion monthly active users, all the teams use it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1526.501,
+            1544.487
+          ],
+          "quote": "If you were to peel apart Snap as a product, again, some of my information is dated, and I haven't really looked at, but it's the number one messaging app among teenagers in almost every Western country, 70 to 100% penetration of people under 21.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1587.384,
+            1598.068
+          ],
+          "quote": "But I think from an ads product, maybe the chip on my shoulder is, Snap started after Twitter, after Reddit, after Pinterest, it went public before all of them except for Twitter.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1620.317,
+            1621.697
+          ],
+          "quote": "What was Snap known for at the time?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1795.813,
+            1803.86
+          ],
+          "quote": "I don't know, it's a big brain system thinking like, okay, Snap needs more PM, but yeah, interesting.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1950.761,
+            1967.099
+          ],
+          "quote": "I think there was, early on, I remember at Snap, it was so funny to see how aggressively Instagram was copying, that they were actually copying some of our worst features, like ones that weren't working, just because I think they just assumed everything that we were touching was turning to gold.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2068.972,
+            2089
+          ],
+          "quote": "I think a lot of people are frustrated with Snap because it doesn't have the financial profile to be able to support the type of hardware development that he wants to do, it seems, and that there still isn't a great answer on the monetization front, for which obviously I bear a lot of responsibility.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2129.106,
+            2142.41
+          ],
+          "quote": "But one of the things that I learned at Snap is I think I saw Evan personally say no to better ideas than I've seen almost any other consumer startup launch.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2410.712,
+            2422.396
+          ],
+          "quote": "Having seen the ads experience of Snap and where that has gone and not become as big as people may have thought, ChatGPT in particular is exploring ads, I imagine other AI tools will.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 498,
+          "t": [
+            3056.88,
+            3063.524
+          ],
+          "quote": "I mean, this one was learned a couple of times, both at Snap and at Discord.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 516,
+          "t": [
+            3195.52,
+            3207.55
+          ],
+          "quote": "And so at Snap, the lesson there came from that disastrous redesign in 2018, which was the only time I think that Snap's overall DAU actually flattened out quarter-over-quarter.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3372.775,
+            3384.18
+          ],
+          "quote": "And so focusing on that L-ness of the core consumer base, I think it just ended up being so positive in both the Snap and Discord examples.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 555,
+          "t": [
+            3504.445,
+            3516.269
+          ],
+          "quote": "So for Snap, maybe it's the camera, for Discord it's voice, and then you look to other niches, other cohorts for which that could be useful.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 688,
+          "t": [
+            4286.008,
+            4300.272
+          ],
+          "quote": "And one of the things, and this hearkens back to the ideological stuff from building the type of organization you want, that we really focused on over the years both at Snap, Discord, and even some of the companies I've advised on the ad stuff, is like with ads, you really want to be long-term greedy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 703,
+          "t": [
+            4416.56,
+            4439.351
+          ],
+          "quote": "I think the other thing was at both Snap and Discord, we created this concept of core product value, and this was related to my DAU comment, was like you need to define both from a theoretical or like a conceptual level as well as a metrics level, like what it means for somebody to come back to your product every single day.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 704,
+          "t": [
+            4440.151,
+            4445.053
+          ],
+          "quote": "And so Snap, I think at the time was like Snap is the fastest way to share a moment with the people you care about.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 735,
+          "t": [
+            4551.669,
+            4565.835
+          ],
+          "quote": "For core product value at Snap, we actually had an onboarding presentation which I delivered to every single new hire for seven years straight every week or every other week later that was about this because that was part of the cult.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "discord",
+      "type": "company",
+      "role": "company",
+      "name": "Discord",
+      "file": "Discord",
+      "primary": true,
+      "how_described": "本集说嘉宾是 Discord 的产品负责人，收购了 Nikita Bier 的公司；通过聚焦「和朋友一起玩多人游戏」这一被公认 100% 渗透的核心人群，做出了疫情后最快的增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            104.568,
+            108.311
+          ],
+          "quote": "More recently, he was Head of Product at Discord, which he helped grow significantly.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 78,
+          "t": [
+            364.927,
+            378.94
+          ],
+          "quote": "But yeah, I actually talked to the Chief People Officer at Discord about this, and I think she was simultaneously horrified and intrigued in a way, which credit to her for not judging me right off the bat.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 94,
+          "t": [
+            539.51,
+            557.939
+          ],
+          "quote": "And both with Snap and at Discord where I had the privilege of working with the founders in both cases, I tried to take and absorb and internalize their vision and then create small phrases and language that could be used and repeated that were essentially shortcuts or almost like synecdoches of the whole strategy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 124,
+          "t": [
+            701.761,
+            703.924
+          ],
+          "quote": "Yeah, Nikita was on my team at Discord.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 125,
+          "t": [
+            703.945,
+            712.878
+          ],
+          "quote": "We acquired his startup and he was on the team at Discord for almost, or over a year, with some phenomenal engineers that came along with him.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1666.046,
+            1668.774
+          ],
+          "quote": "Discord technically started in 2015, but very, very, very-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1739.605,
+            1756.711
+          ],
+          "quote": "But I sometimes wonder if it had been launched four years earlier, where it would be just because with messaging utilities, and you see this with Discord and Nitro as well, much different than content products, like Spotify or Netflix.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2477.693,
+            2492.837
+          ],
+          "quote": "At Discord, I call this last mover advantage because we've learned so much and we're at a certain place with online advertising... And really Meta and the team there from 2010 through 2020 really deserves, I think, most of the credit for this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2841.185,
+            2842.98
+          ],
+          "quote": "They're all sitting in Discord chatting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2843.9,
+            2845.201
+          ],
+          "quote": "God forbid it's a Discord group.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 498,
+          "t": [
+            3056.88,
+            3063.524
+          ],
+          "quote": "I mean, this one was learned a couple of times, both at Snap and at Discord.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 518,
+          "t": [
+            3221.06,
+            3230.624
+          ],
+          "quote": "At Discord, I think it was even more controversial because at the time, Discord has been something for a lot of people during the pandemic, during crypto, during AI, et cetera.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 519,
+          "t": [
+            3231.064,
+            3239.267
+          ],
+          "quote": "So the time you had Midjourney being built on Discord, and Midjourney was phenomenal, just such a cool company, product, everything, and a lot of people on the outside were just like, \"Wow, this is a moment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3239.427,
+            3241.688
+          ],
+          "quote": "Midjourney must be huge for Discord.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3242.028,
+            3253.052
+          ],
+          "quote": "From a user perspective or daily active use, like a metrics' perspective, if I were to show you like, you can even look at this or online, Discord's use over time, you wouldn't be able to pick out Midjourney.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 522,
+          "t": [
+            3254.332,
+            3259.494
+          ],
+          "quote": "The reason people use Discord is to connect with their friends while playing, before, during and after playing games.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 524,
+          "t": [
+            3275.38,
+            3289.505
+          ],
+          "quote": "It turns out even though Discord is technically, a) that technical team is phenomenal and b) it's like near-perfect in some ways when it comes to voice and things like that, there were still things we could do to make it better before and after playing games with your friends.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 525,
+          "t": [
+            3290.365,
+            3298.408
+          ],
+          "quote": "And when we focused on gaming, which at the time everybody was like, \"Everybody who plays multiplayer games, especially on PC, they already have Discord.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 530,
+          "t": [
+            3312.073,
+            3330.68
+          ],
+          "quote": "As we made Discord better, as we focused on performance, we were actually able to drive some of the fastest, I think if not the fastest growth, and I'm not sharing anything that's not public, since the pandemic, obviously Discord exploded during the pandemic, and this was by focusing on the thing that everybody already said we had 100% penetration of, which was intentional multiplayer gamers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 536,
+          "t": [
+            3347.866,
+            3361.311
+          ],
+          "quote": "But by focusing on people who play games with their friends, we were actually able to identify a lot of things that brought somebody from using Discord, let's say, 10 days out of the 30 to 11 to 12 to 13.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3372.775,
+            3384.18
+          ],
+          "quote": "And so focusing on that L-ness of the core consumer base, I think it just ended up being so positive in both the Snap and Discord examples.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3412.507,
+            3428.612
+          ],
+          "quote": "I think at Discord, it had exceptionally positive externalities because the most vocal, critical, honestly like intelligent or high-IQ user base in the world are gamers, honestly.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 549,
+          "t": [
+            3451.941,
+            3469.78
+          ],
+          "quote": "And I honestly think this is why Discord is so great and so without pure in this specific niche is because it's so laser focused on if you play games with your friends and you care about it, this product is going to, like there are people who sit in that office who will make it perfect for you forever.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 555,
+          "t": [
+            3504.445,
+            3516.269
+          ],
+          "quote": "So for Snap, maybe it's the camera, for Discord it's voice, and then you look to other niches, other cohorts for which that could be useful.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3548.22,
+            3555.566
+          ],
+          "quote": "For Discord, for example, a lot of it centered around communities and how people were using it to organize larger and larger communities as opposed to the 20-person gaming friend group.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 688,
+          "t": [
+            4286.008,
+            4300.272
+          ],
+          "quote": "And one of the things, and this hearkens back to the ideological stuff from building the type of organization you want, that we really focused on over the years both at Snap, Discord, and even some of the companies I've advised on the ad stuff, is like with ads, you really want to be long-term greedy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 703,
+          "t": [
+            4416.56,
+            4439.351
+          ],
+          "quote": "I think the other thing was at both Snap and Discord, we created this concept of core product value, and this was related to my DAU comment, was like you need to define both from a theoretical or like a conceptual level as well as a metrics level, like what it means for somebody to come back to your product every single day.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 716,
+          "t": [
+            4471.606,
+            4476.588
+          ],
+          "quote": "I think Discord was like the best way to talk and hang out with your friends before, during and after playing games.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 738,
+          "t": [
+            4574.779,
+            4575.98
+          ],
+          "quote": "And I think the same goes for Discord.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 866,
+          "t": [
+            5361.511,
+            5371.615
+          ],
+          "quote": "Literally me and the co-founder of Discord, Stan, in a meeting in a Hex thread, interacting with Hex as we were having discussions in the meeting and getting data back and things like that.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 正在「速通」整套成熟的广告基础设施，把改进版 VCG 拍卖引入 ChatGPT；做广告时应以「信任」替代「自然价值」计入出价，OpenAI 的广告形式设计是当下 PM/设计师最酷的工作之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            280.602,
+            287.364
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2462.328,
+            2477.013
+          ],
+          "quote": "When I look at what OpenAI is doing from an advertising perspective, they are speed running all of the ads infra that is exactly what you would want and do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2494.678,
+            2502.96
+          ],
+          "quote": "What drives a modern ads marketplace and auction is essentially a solved problem, and OpenAI is speed running all of the components of that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2643.928,
+            2669.135
+          ],
+          "quote": "And so, that's why I actually think OpenAI is speed running all the right stuff, and where the push is going to come to shove is how they instantiate it mathematically in their auction mechanism to maximize trust over the long term, because trust maximization will probably be correlated with user retention, if not causal, and with advertiser value.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2679.258,
+            2687
+          ],
+          "quote": "So, I think one of the coolest jobs right now for a PM and designer would probably be ad formats at OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2702.007,
+            2719.675
+          ],
+          "quote": "Yeah, maybe one other thing I'll say is I was disappointed that they jumped right to an ad-free experience for the top tier, because I feel like ads could actually be really additive to every part of the OpenAI, not like coding and things like that, but actual chat.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2771.596,
+            2775.019
+          ],
+          "quote": "What I'm also feeling now is OpenAI needs to hire you immediately to help them with this.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": true,
+      "how_described": "本集称 SpaceX 是当今最伟大的公司：宣布让 Falcon 9 退役、全力转向 Starship，是科尔蒂斯级「烧掉船只」、彻底打破创新者窘境的文化，并公开十年计划且说到做到。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 595,
+          "t": [
+            3734.623,
+            3744.679
+          ],
+          "quote": "I actually think this... We were talking a little bit, like SpaceX is probably a good example actually of a company that guards itself against this in some ways.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 598,
+          "t": [
+            3745.842,
+            3753
+          ],
+          "quote": "I know your wife works at SpaceX, so you have a really unique insight into how SpaceX works and what has worked there.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 601,
+          "t": [
+            3757.742,
+            3765.206
+          ],
+          "quote": "I'm not first party, but I sleep next to a SpaceX engineer every night, so that helps.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 603,
+          "t": [
+            3767.207,
+            3778.693
+          ],
+          "quote": "But no, I think SpaceX is the greatest American company right now, greatest company in the world, truly phenomenal on every single level.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3778.733,
+            3783.635
+          ],
+          "quote": "And I'm talking more about SpaceX, like XAI is also doing insane stuff, but like just that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 605,
+          "t": [
+            3783.755,
+            3792.62
+          ],
+          "quote": "And I think the best example, what I mean by guarding us a future, I don't think any company does anything close to what SpaceX does here.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3913.076,
+            3919.66
+          ],
+          "quote": "And so yeah, I think that's actually a really underrated part about SpaceX is their ability to essentially burn the ships and focus on what's next.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3930.547,
+            3935.41
+          ],
+          "quote": "Clearly, the mission of SpaceX make humanity multi-planetary, get to Mars.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 622,
+          "t": [
+            3951.22,
+            3966.225
+          ],
+          "quote": "Yeah, I think there's another thing about both of Elon's major, SpaceX and Tesla, I know less about Neuralink, The Boring Company, et cetera, but you look on the website, I mean now I don't know where it is, but they publish essentially 10-year plans.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3966.405,
+            3972.287
+          ],
+          "quote": "Nothing SpaceX is doing is not something that they didn't talk about 10 years ago.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集说 Meta 2010 到 2020 年间的团队最值得为现代广告拍卖机制居功：不只出价最高者赢，而是把广告对用户的自然价值计入出价，并写了很棒的增长手册（L-ness）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 404,
+          "t": [
+            2477.693,
+            2492.837
+          ],
+          "quote": "At Discord, I call this last mover advantage because we've learned so much and we're at a certain place with online advertising... And really Meta and the team there from 2010 through 2020 really deserves, I think, most of the credit for this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2525.167,
+            2565.78
+          ],
+          "quote": "And what I mean by that is I think where the innovation came from Meta was not just that the highest bidder, and I'm oversimplifying like crazy, but not just that the highest bidder wins, but that the organic value of an advertisement and an advertiser to that user should be factored into their bid, such that you essentially have to pay more as an advertiser to reach people who may not want to be reached, or may be harder to reach, or may not necessarily be as relevant to you, and this also is great because it allows you to mox both content, organic content and advertising content, on a unified auction with dollars as essentially the ultimate denominator.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 538,
+          "t": [
+            3368.514,
+            3372.335
+          ],
+          "quote": "I think I stole that from Meta, who once again wrote a great playbook on growth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 909,
+          "t": [
+            5599.6,
+            5607.323
+          ],
+          "quote": "Matt just sold Moltbook to Meta, the social network for agents.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "product-manager",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品经理 (product manager)",
+      "file": "产品经理",
+      "primary": true,
+      "how_described": "本集主线概念：多数 PM 净负面——正态分布切右尾变幂律、优秀者流向创始人/高管岗位，中位数 PM 相当差；优秀 PM 身体里有三对狼（自信近乎傲慢×认真谦逊、流程驱动×适应模糊、长期思考×行动偏好）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            54.648,
+            60.78
+          ],
+          "quote": "It's set up to be this profession where the median product manager is actually probably pretty bad.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 16,
+          "t": [
+            64.782,
+            68.152
+          ],
+          "quote": "We should just be able to operate this product without any product manager.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1099.014,
+            1108.9
+          ],
+          "quote": "But yeah, I think mathematically, it's set up to be this profession where the median product manager is actually probably pretty bad.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 788,
+          "t": [
+            4865.142,
+            4880.966
+          ],
+          "quote": "I think as a product manager in particular, I don't think we have time to go into everything, but I think the most important career decision you make is who your partner is, who you marry, who you spend your time with personally.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 892,
+          "t": [
+            5527,
+            5528
+          ],
+          "quote": "I was a product manager for a little bit, but yeah.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 908,
+          "t": [
+            5588.056,
+            5597.519
+          ],
+          "quote": "And then the actual first product manager at Ustream was this guy, Matt Schlicht, who had dropped out of high school, I think, to work on the product 2008, 2009.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ads",
+      "type": "concept",
+      "role": "concept",
+      "name": "广告 (ads)",
+      "file": "广告",
+      "primary": true,
+      "how_described": "本集说广告才是互联网上消费者变现真正神奇的产品市场契合点，做广告要「长期贪婪」：明天的广告收入因果地取决于今天为广告主创造的 ROI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 207,
+          "t": [
+            1285.44,
+            1296.606
+          ],
+          "quote": "So I'll say two things, maybe three things about Snap from a monetization perspective, at least an ads monetization perspective.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1296.626,
+            1308.393
+          ],
+          "quote": "And then we could talk about they've had a lot of success with Snapchat plus and subscription products in general are doing well, but ads are truly the magical product market fit of consumer monetization on the internet, and there's a lot of mathematical reasons why that's true.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1309.373,
+            1321.28
+          ],
+          "quote": "And there are three things that hold back Snap from an ads perspective that I think the company, like we still talk about, is we deserve a little bit more credit maybe than we get, but I understand why we don't.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1346.727,
+            1357.111
+          ],
+          "quote": "If you're under 17, the rules around how you can track and measure and target ads are extremely constraining and justifiably so, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1388.48,
+            1401.065
+          ],
+          "quote": "The second thing is, almost every ads business, every ad product you'll see that isn't search based, every display ad product opens to the screen where you put the ads.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1482.532,
+            1500
+          ],
+          "quote": "Message apps are incredible, utilities are incredible to have as part of a portfolio, but Snap was trying to build a multi-billion dollar ads business very quickly on a lower value audience, a very tough format for ads, and a service that was more utilitarian than consumption oriented.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1587.384,
+            1598.068
+          ],
+          "quote": "But I think from an ads product, maybe the chip on my shoulder is, Snap started after Twitter, after Reddit, after Pinterest, it went public before all of them except for Twitter.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1598.848,
+            1607.872
+          ],
+          "quote": "It was quicker to four billion, I think, in ads revenue than all of them, despite starting later.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1617.556,
+            1619.936
+          ],
+          "quote": "These are really great places for ads.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1631.801,
+            1636.446
+          ],
+          "quote": "It was still able to scale this ads business, which I think is, it's pretty fascinating.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1782.06,
+            1795.432
+          ],
+          "quote": "And so, yeah, if Snapchat had this product out four years ago, there might've been less pressure on the ads to scale as quickly as it does, less pressure on the ads business to scale as quickly as it does, allows for more freedom on the content consumption side of things, and the experience, and allows them maybe to compete more with TikTok.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1967.66,
+            1967.98
+          ],
+          "quote": "Like ads-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2410.712,
+            2422.396
+          ],
+          "quote": "Having seen the ads experience of Snap and where that has gone and not become as big as people may have thought, ChatGPT in particular is exploring ads, I imagine other AI tools will.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2433.06,
+            2444.943
+          ],
+          "quote": "I subscribe to the Eric Seufert side of the world, of ads are the product market fit for the internet.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2445.344,
+            2461.548
+          ],
+          "quote": "And I still think that from a monetization standpoint, there's a number of reasons, again, mathematical, for why that is true and why I think subscription products and things like that are overrated versus ads from a consumer side of things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2462.328,
+            2477.013
+          ],
+          "quote": "When I look at what OpenAI is doing from an advertising perspective, they are speed running all of the ads infra that is exactly what you would want and do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2494.678,
+            2502.96
+          ],
+          "quote": "What drives a modern ads marketplace and auction is essentially a solved problem, and OpenAI is speed running all of the components of that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2503.76,
+            2525.147
+          ],
+          "quote": "And I do think that the mechanism, the mathematical mechanism, which is essentially a modified VCG, I think Vickrey-Clarke-Groves auction mechanism, this mathematical mechanism is the correct way to build an ads auction in even a chat environment, in ChatGPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2618,
+            2629.403
+          ],
+          "quote": "But a little bit on Amazon search, in terms of the ads, the sponsored experience there, it's not threatening the product, Amazon is such a great product, but what is the great product of Amazon?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2632.184,
+            2643.207
+          ],
+          "quote": "It is getting a little crazy when you search for something and you have 16 ads before you get to the first thing, and you're like, \"Oh shoot, is that subtly influencing my trust in the system?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2702.007,
+            2719.675
+          ],
+          "quote": "Yeah, maybe one other thing I'll say is I was disappointed that they jumped right to an ad-free experience for the top tier, because I feel like ads could actually be really additive to every part of the OpenAI, not like coding and things like that, but actual chat.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2752.641,
+            2762.069
+          ],
+          "quote": "So, what I was saying, it's so fun to hear you talk about the ads ecosystem, and it shows how much you know and how deep this goes.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2767.793,
+            2770.776
+          ],
+          "quote": "Clearly you've spent a lot of time thinking about ads.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 687,
+          "t": [
+            4260.941,
+            4285.308
+          ],
+          "quote": "I think when we were talking about ads, and I think I might have, I don't know if I deserve original credit for this, but I've used it quite a bit, is this idea that ads is such a cutthroat hand-to-hand combat, very revenue goal driven product area that it's very easy to become very short-term oriented.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 688,
+          "t": [
+            4286.008,
+            4300.272
+          ],
+          "quote": "And one of the things, and this hearkens back to the ideological stuff from building the type of organization you want, that we really focused on over the years both at Snap, Discord, and even some of the companies I've advised on the ad stuff, is like with ads, you really want to be long-term greedy.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "品味 (taste)",
+      "file": "品味",
+      "primary": true,
+      "how_described": "本集把品味比作「说不」的肌肉：Evan 否决过的点子比多数消费级公司上线的产品都好；产品领导者应是博物馆策展人，面试可问「你做过但从未发布的东西」来检验；AI 极不擅长做减法，砍东西的责任落在产品团队头上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            81.948,
+            88.195
+          ],
+          "quote": "Exercising that kind of muscle of saying no of restraint is probably one of the few muscles of taste you can exercise.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 149,
+          "t": [
+            876.4,
+            889.006
+          ],
+          "quote": "And I think the thing about product, especially when it comes to consumer and anything that involves more creativity and taste, is I think of a lot of product leaders more like bands putting out albums.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1994.192,
+            2011.46
+          ],
+          "quote": "And when they start thinking from first principles and with the taste that Adam, who was also on the pod, has, that product is well architected from a human computer interaction standpoint in a way that I think is actually really admirable on many levels.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 352,
+          "t": [
+            2119.903,
+            2129.086
+          ],
+          "quote": "It actually reminds me, there's so much talk these days about taste, and things like that, and so hard to describe things like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2168.097,
+            2176.32
+          ],
+          "quote": "And I think if one way you can get at somebody's taste is when you're interviewing them is just ask them about some of the things they built that they never shipped.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2186.005,
+            2199.974
+          ],
+          "quote": "And if they have a lot of high quality ideas that are on the shelf, exercising that muscle of saying no, of restraint, is probably one of the easiest... One of the few muscles of taste you can exercise.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2224.289,
+            2239.88
+          ],
+          "quote": "And so, it's so interesting how this connects now to the... We talk about taste all the time with AI, and this is an interesting element of that, of being good at understanding what to remove as AI becomes a bigger part of the building process and designing process.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 794,
+          "t": [
+            4927.24,
+            4961.789
+          ],
+          "quote": "I think a lot of people who I look up to in terms of taste, and maybe it's just being in Los Angeles, but I care a lot about stuff like art, art behind me, stuff like that, is I've noticed that the difference, especially in wealthy people between those who have taste and those who are seen as gauche or something like that is, the ones with taste stop one step before everybody else does.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 797,
+          "t": [
+            4994.257,
+            5005.92
+          ],
+          "quote": "And so yeah, I don't know if that's super contrarian, but I think you can measure a lot is people with great taste seem to just know when to take something and get passionate about something and then kind of like-",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "dau-mau",
+      "type": "concept",
+      "role": "concept",
+      "name": "DAU/MAU",
+      "file": "DAU/MAU",
+      "primary": true,
+      "how_described": "本集说 DAU/MAU 本质上就是次日留存，增长通常来自业务核心：把比率提高几个基点比拉新月活再赌留存更有效，Snap 和 Discord 都是例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 511,
+          "t": [
+            3165.767,
+            3170.669
+          ],
+          "quote": "And so, that's why I think a lot of the most effective consumer products have extremely high DAU/MAU ratios.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3185.075,
+            3187.757
+          ],
+          "quote": "And by the way, DAU/MAU is just a form of retention.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "vcg",
+      "type": "concept",
+      "role": "concept",
+      "name": "VCG",
+      "file": "VCG",
+      "primary": true,
+      "how_described": "本集说现代广告拍卖本质是改进版的 Vickrey-Clarke-Groves 拍卖机制：把广告的自然价值计入出价，触达越不想被打扰的人广告主付越多，这一机制在聊天环境同样成立。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 406,
+          "t": [
+            2503.76,
+            2525.147
+          ],
+          "quote": "And I do think that the mechanism, the mathematical mechanism, which is essentially a modified VCG, I think Vickrey-Clarke-Groves auction mechanism, this mathematical mechanism is the correct way to build an ads auction in even a chat environment, in ChatGPT.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "type": "concept",
+      "role": "concept",
+      "name": "信任 (trust)",
+      "file": "信任",
+      "primary": true,
+      "how_described": "本集说在聊天广告里，用户该被广告主影响多少，应等于愿意拿多少信任来交换；信任最大化很可能与用户留存和广告主价值相关，Amazon 搜索第一条结果前十六条广告是反面教材。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 408,
+          "t": [
+            2566.56,
+            2581.966
+          ],
+          "quote": "And the reason that I say that this is good for chat is not necessarily that organic value is what's important here, like how much you like an ad or not in a content feed, but in chat, it probably feels like this could be replaced or augmented with essentially trust.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2600.613,
+            2606.656
+          ],
+          "quote": "And I think the mechanism by which how influenced I should be should essentially be how much trust I'm trading off.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2632.184,
+            2643.207
+          ],
+          "quote": "It is getting a little crazy when you search for something and you have 16 ads before you get to the first thing, and you're like, \"Oh shoot, is that subtly influencing my trust in the system?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2643.928,
+            2669.135
+          ],
+          "quote": "And so, that's why I actually think OpenAI is speed running all the right stuff, and where the push is going to come to shove is how they instantiate it mathematically in their auction mechanism to maximize trust over the long term, because trust maximization will probably be correlated with user retention, if not causal, and with advertiser value.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/k7wPdCNfljQ.m4a",
+  "duration_sec": 4460.631,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 1320,
+  "asr": true,
+  "title_en": "Databricks’ Ali Ghodsi Never Wanted to Be CEO. Now He’s Among the Best",
+  "podcast": "精选演讲",
+  "date": "2026-09-17",
+  "added": "2026-09-21",
+  "added_at": "2026-09-20T16:48:03.181Z",
+  "speaker_map": {
+    "SPEAKER_01": "Ali Ghodsi"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Ali Ghodsi",
+  "cohosts": [],
+  "title_zh": "Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识",
+  "guest_name": "Ali Ghodsi",
+  "guest_title": "Databricks 创始人兼 CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

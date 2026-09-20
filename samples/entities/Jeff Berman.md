@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]] [[Aaron Schumm]]
+[[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Andrew Anagnost":1,"Autodesk":1,"AI":18,"大语言模型":6,"定制模型":1,"订阅制转型":1,"同理心":1,"初创公司":1,"Netflix":4}</script>
+<script type="application/json" class="pd-epn">{"Andrew Anagnost":1,"Autodesk":1,"AI":19,"大语言模型":6,"定制模型":1,"订阅制转型":1,"同理心":1,"初创公司":1,"Netflix":4}</script>
 
 <script>
 (function(){

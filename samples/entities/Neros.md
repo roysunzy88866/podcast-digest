@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sorin]] · [[Anduril]] · [[无人机]] · [[垂直整合]] · [[大规模生产]] · [[3D 打印]] · [[供应链]] · [[瓶颈]] · [[国防科技]] · [[飞行测试]]
 
-<script type="application/json" class="pd-epn">{"Sorin":1,"Anduril":4,"无人机":2,"垂直整合":1,"大规模生产":1,"3D 打印":1,"供应链":4,"瓶颈":1,"国防科技":1,"飞行测试":1}</script>
+<script type="application/json" class="pd-epn">{"Sorin":1,"Anduril":4,"无人机":2,"垂直整合":1,"大规模生产":1,"3D 打印":1,"供应链":4,"瓶颈":2,"国防科技":1,"飞行测试":1}</script>
 
 <script>
 (function(){

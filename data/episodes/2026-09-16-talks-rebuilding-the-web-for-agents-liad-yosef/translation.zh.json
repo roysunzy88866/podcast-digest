@@ -1,0 +1,2066 @@
+[
+ {
+  "seg": 0,
+  "start": 12.632,
+  "end": 13.113,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.456,
+  "end": 15.117,
+  "speaker": "Unknown",
+  "en": "Hello.",
+  "zh": "你好。"
+ },
+ {
+  "seg": 2,
+  "start": 16.257,
+  "end": 23.982,
+  "speaker": "Unknown",
+  "en": "So we're gonna talk a little bit about the agentic web and more specifically what it means and how do we make the web ready for agents.",
+  "zh": "所以我们要聊一点关于智能体网络的话题，更具体地说它是什么意思，以及我们如何让网络为智能体做好准备。"
+ },
+ {
+  "seg": 3,
+  "start": 24.322,
+  "end": 36.811,
+  "speaker": "Unknown",
+  "en": "One disclaimer, I built this talk yesterday so it might be outdated because things are moving really, really fast in this space and I think I need to introduce myself just to get some context.",
+  "zh": "先声明一下，我这个演讲是昨天做的，所以它可能已经过时了，因为这个领域的发展速度非常非常快，我想先介绍一下自己，以便提供一些背景。"
+ },
+ {
+  "seg": 4,
+  "start": 36.831,
+  "end": 40.393,
+  "speaker": "Unknown",
+  "en": "So I'm the co-creator and maintainer of a spec called MCP Apps.",
+  "zh": "我是一项名为 MCP Apps 的规范的共同创建者和维护者。"
+ },
+ {
+  "seg": 5,
+  "start": 40.913,
+  "end": 42.795,
+  "speaker": "Unknown",
+  "en": "MCP Apps, that's the underlying spec",
+  "zh": "MCP Apps，就是那个底层规范"
+ },
+ {
+  "seg": 6,
+  "start": 43.775,
+  "end": 55.422,
+  "speaker": "Unknown",
+  "en": "Behind ChatGPT apps, Claude apps, Copilot, GitHub, every chat-based app that you see is based on the spec MCP apps in the MCP committee.",
+  "zh": "ChatGPT apps、Claude apps、Copilot、GitHub 背后——你看到的每一个基于聊天的应用，在 MCP 委员会里都是基于 MCP Apps 这个规范的。"
+ },
+ {
+  "seg": 7,
+  "start": 55.783,
+  "end": 64.628,
+  "speaker": "Unknown",
+  "en": "I'm also the co-founder of a company called Aura, where we research the agentic-human interactions, and I built and led the agentic storefronts in Shopify.",
+  "zh": "我也是一家叫 Aura 的公司的联合创始人，我们研究智能体与人类的交互，我还在 Shopify 构建并领导了智能体店面。"
+ },
+ {
+  "seg": 8,
+  "start": 64.688,
+  "end": 68.571,
+  "speaker": "Unknown",
+  "en": "So the topic of agentic web is really close to my heart.",
+  "zh": "所以智能体网络这个话题对我来讲真的很贴近内心。"
+ },
+ {
+  "seg": 9,
+  "start": 69.491,
+  "end": 72.794,
+  "speaker": "Unknown",
+  "en": "And a little bit of primer about MCP apps, if you're not familiar.",
+  "zh": "关于 MCP Apps 稍微做个入门介绍，如果你不熟悉的话。"
+ },
+ {
+  "seg": 10,
+  "start": 73.595,
+  "end": 77.639,
+  "speaker": "Unknown",
+  "en": "MCP apps are actually, this is actually the spec that paved the way to Agentic Web.",
+  "zh": "MCP Apps 实际上——这实际上就是为智能体网络铺平道路的规范。"
+ },
+ {
+  "seg": 11,
+  "start": 78.079,
+  "end": 87.989,
+  "speaker": "Unknown",
+  "en": "So MCP apps were released as a spec and as a standard a few months ago with the support of Claude first as the first client and then all clients followed.",
+  "zh": "MCP Apps 在几个月前作为规范和标准发布，首先由 Claude 作为第一个客户端支持，随后所有客户端都跟进了。"
+ },
+ {
+  "seg": 12,
+  "start": 89.51,
+  "end": 99.479,
+  "speaker": "Unknown",
+  "en": "If you play with any chat-based app and you pulled any visualization and interaction UI layer from an MCP server, you probably used MCP apps.",
+  "zh": "如果你玩过任何基于聊天的应用，并且从 MCP 服务器拉取过任何可视化或交互式的 UI 层，你可能就已经用过 MCP Apps 了。"
+ },
+ {
+  "seg": 13,
+  "start": 100.58,
+  "end": 111.649,
+  "speaker": "Unknown",
+  "en": "And the good thing about MCP apps is that everybody wins because if the servers or the providers can send UI chunks into the chats, then...",
+  "zh": "MCP Apps 的好处在于每个人都是赢家，因为如果服务器或提供商能够把 UI 块发送到聊天中，那么……"
+ },
+ {
+  "seg": 14,
+  "start": 112.732,
+  "end": 115.916,
+  "speaker": "Unknown",
+  "en": "The apps gain their brand and identity.",
+  "zh": "应用获得了它们的品牌和身份。"
+ },
+ {
+  "seg": 15,
+  "start": 116.016,
+  "end": 122.044,
+  "speaker": "Unknown",
+  "en": "They get to keep their UI and not being reduced to a database or just text-based information.",
+  "zh": "它们得以保留自己的 UI，而不会沦为一个数据库或只是文本信息。"
+ },
+ {
+  "seg": 16,
+  "start": 123.2,
+  "end": 131.183,
+  "speaker": "Unknown",
+  "en": "The users gain their trust and familiarity, because if you ask ChatGPT, hey, book some hotels for me, and you see Booking.com, then you know it's Booking.com, right?",
+  "zh": "用户获得了信任感和熟悉感，因为如果你对 ChatGPT 说，嘿，帮我订一些酒店，然后你看到了 Booking.com，你就知道那是 Booking.com，对吧？"
+ },
+ {
+  "seg": 17,
+  "start": 131.203,
+  "end": 140.107,
+  "speaker": "Unknown",
+  "en": "You know who you're interacting with, and the hosts or the chats gain access to the world of capabilities.",
+  "zh": "你知道你在和谁交互，而主机或聊天则获得了通向整个能力世界的入口。"
+ },
+ {
+  "seg": 18,
+  "start": 140.267,
+  "end": 151.872,
+  "speaker": "Unknown",
+  "en": "A few months ago, people asked, yeah, why won't OpenAI just build everything out of scratch, but OpenAI will not negotiate deals with hotels or support users that want to change seats in a venue?",
+  "zh": "几个月前，有人问，是啊，为什么 OpenAI 不干脆从零开始构建一切，但 OpenAI 不会和酒店谈判交易，也不会支持那些想在场馆里换座位的用户。"
+ },
+ {
+  "seg": 19,
+  "start": 152.792,
+  "end": 153.933,
+  "speaker": "Unknown",
+  "en": "We need those services.",
+  "zh": "我们需要那些服务。"
+ },
+ {
+  "seg": 20,
+  "start": 154.034,
+  "end": 162.803,
+  "speaker": "Unknown",
+  "en": "And MCP apps actually solve for this last mile of interaction.",
+  "zh": "而 MCP Apps 实际上解决了交互的这最后一公里。"
+ },
+ {
+  "seg": 21,
+  "start": 163.164,
+  "end": 164.285,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 22,
+  "start": 164.305,
+  "end": 165.927,
+  "speaker": "Unknown",
+  "en": "So this is the benefit that we get.",
+  "zh": "所以这就是我们得到的好处。"
+ },
+ {
+  "seg": 23,
+  "start": 167.483,
+  "end": 171.308,
+  "speaker": "Unknown",
+  "en": "And MCP apps solved our last mile of interaction, right?",
+  "zh": "MCP Apps 解决了我们的最后一公里交互，对吧？"
+ },
+ {
+  "seg": 24,
+  "start": 171.648,
+  "end": 173.01,
+  "speaker": "Unknown",
+  "en": "So what does it mean the last mile?",
+  "zh": "那么最后一公里是什么意思？"
+ },
+ {
+  "seg": 25,
+  "start": 173.39,
+  "end": 178.876,
+  "speaker": "Unknown",
+  "en": "The last mile is as agents become better, as models become better, they can do things more autonomously.",
+  "zh": "最后一公里就是，随着智能体变得更好，随着模型变得更好，它们能够更加自主地做事。"
+ },
+ {
+  "seg": 26,
+  "start": 179.597,
+  "end": 182.561,
+  "speaker": "Unknown",
+  "en": "But we are still in the end of the chain as humans.",
+  "zh": "但作为人类，我们仍然处于链条的末端。"
+ },
+ {
+  "seg": 27,
+  "start": 183.281,
+  "end": 184.703,
+  "speaker": "Unknown",
+  "en": "We still need to be able to",
+  "zh": "我们仍然需要能够"
+ },
+ {
+  "seg": 28,
+  "start": 185.763,
+  "end": 190.969,
+  "speaker": "Unknown",
+  "en": "Choose the hotel or to view a 3D model or to choose a seat at the venue.",
+  "zh": "选择酒店，或者查看 3D 模型，或者在场馆选一个座位。"
+ },
+ {
+  "seg": 29,
+  "start": 191.27,
+  "end": 193.432,
+  "speaker": "Unknown",
+  "en": "All those last mile of interaction, that can change.",
+  "zh": "所有那些最后一公里的交互，都是可以改变的。"
+ },
+ {
+  "seg": 30,
+  "start": 194.093,
+  "end": 196.876,
+  "speaker": "Unknown",
+  "en": "And this is an example from...",
+  "zh": "这是一个来自……的例子"
+ },
+ {
+  "seg": 31,
+  "start": 198.727,
+  "end": 199.207,
+  "speaker": "Unknown",
+  "en": "Oh, sorry.",
+  "zh": "哦，抱歉。"
+ },
+ {
+  "seg": 32,
+  "start": 199.808,
+  "end": 203.731,
+  "speaker": "Unknown",
+  "en": "So this is from Claude, APR on MCPF.",
+  "zh": "这个来自 Claude，APR on MCPF。"
+ },
+ {
+  "seg": 33,
+  "start": 203.751,
+  "end": 204.911,
+  "speaker": "Unknown",
+  "en": "This is how it looks like, right?",
+  "zh": "它看起来就是这个样子，对吧？"
+ },
+ {
+  "seg": 34,
+  "start": 204.951,
+  "end": 215.058,
+  "speaker": "Unknown",
+  "en": "So when you're embedding apps inside chats, you get this unified experience of how UI feels inside the same context of a chat.",
+  "zh": "当你把应用嵌入聊天时，你会得到这种统一的体验，也就是在聊天的同一上下文中 UI 的呈现方式。"
+ },
+ {
+  "seg": 35,
+  "start": 215.359,
+  "end": 224.345,
+  "speaker": "Unknown",
+  "en": "And as you can see, in the same conversation, you get data from Booking, you get data from Altrails, you can get data from everything you want to interact with.",
+  "zh": "正如你所看到的，在同一段对话中，你可以从 Booking 获取数据，从 Altrails 获取数据，你可以从你想交互的任何东西获取数据。"
+ },
+ {
+  "seg": 36,
+  "start": 225.326,
+  "end": 227.367,
+  "speaker": "Unknown",
+  "en": "So this is already happening.",
+  "zh": "所以这已经在发生了。"
+ },
+ {
+  "seg": 37,
+  "start": 227.487,
+  "end": 235.834,
+  "speaker": "Unknown",
+  "en": "MCP Apps is already widely supported across every chat agent except Gemini, but that's coming, and this is already happening.",
+  "zh": "MCP Apps 已经被除 Gemini 之外的每一个聊天智能体广泛支持了，不过 Gemini 也在路上，这已经在发生了。"
+ },
+ {
+  "seg": 38,
+  "start": 236.515,
+  "end": 241.439,
+  "speaker": "Unknown",
+  "en": "And the interesting part is that it brings us to what we call the agentic web.",
+  "zh": "而有趣的部分是，这把我们带到了我们所说的智能体网络。"
+ },
+ {
+  "seg": 39,
+  "start": 243.988,
+  "end": 245.929,
+  "speaker": "Unknown",
+  "en": "What is the agentic web?",
+  "zh": "什么是智能体网络？"
+ },
+ {
+  "seg": 40,
+  "start": 245.95,
+  "end": 247.971,
+  "speaker": "Unknown",
+  "en": "The agentic web is not a web of agents.",
+  "zh": "智能体网络不是一个由智能体组成的网络。"
+ },
+ {
+  "seg": 41,
+  "start": 248.111,
+  "end": 249.832,
+  "speaker": "Unknown",
+  "en": "It's not the web as we know it today.",
+  "zh": "它不是我们今天所知道的那个网络。"
+ },
+ {
+  "seg": 42,
+  "start": 250.013,
+  "end": 251.374,
+  "speaker": "Unknown",
+  "en": "It's a shift.",
+  "zh": "它是一次转变。"
+ },
+ {
+  "seg": 43,
+  "start": 251.754,
+  "end": 252.394,
+  "speaker": "Unknown",
+  "en": "It's a change.",
+  "zh": "它是一次改变。"
+ },
+ {
+  "seg": 44,
+  "start": 252.634,
+  "end": 257.298,
+  "speaker": "Unknown",
+  "en": "It's a change in the way that we see websites and the way that we see browsers.",
+  "zh": "它是我们看待网站的方式和我们看待浏览器的方式的改变。"
+ },
+ {
+  "seg": 45,
+  "start": 257.718,
+  "end": 263.883,
+  "speaker": "Unknown",
+  "en": "Because up until now, we spent 20 years, two decades, perfecting",
+  "zh": "因为直到现在，我们花了 20 年，两代人的时间，去完善"
+ },
+ {
+  "seg": 46,
+  "start": 265.099,
+  "end": 281.591,
+  "speaker": "Unknown",
+  "en": "This experience, meaning that if I want to somehow do a project or fulfill a task or plan an anniversary, I have to open tabs in my browser and I have to go through these tabs and I have to convey my intent differently to each of those services, right?",
+  "zh": "这种体验，意思是，如果我想要以某种方式做一个项目，或完成一个任务，或策划一个周年纪念，我就必须在浏览器里打开一堆标签页，我必须逐个浏览这些标签页，而且我必须向每一个服务以不同的方式传达我的意图，对吧？"
+ },
+ {
+  "seg": 47,
+  "start": 281.891,
+  "end": 285.694,
+  "speaker": "Unknown",
+  "en": "Meaning that if I just want to plan an anniversary, then I need to learn",
+  "zh": "意思是，如果我只是想策划一个周年纪念，我就需要学会"
+ },
+ {
+  "seg": 48,
+  "start": 287.438,
+  "end": 300.25,
+  "speaker": "Unknown",
+  "en": "Google's UI and Amazon's UI and Booking UI and the other Booking UI and the other Amazon UI, all that just convey the same intent to those interfaces and every company perfected this user flow.",
+  "zh": "Google 的 UI、Amazon 的 UI、Booking 的 UI、另一个 Booking 的 UI、另一个 Amazon 的 UI——所有这些只是为了向那些界面传达同一个意图，而每一家公司都把这个用户流程完善到了极致。"
+ },
+ {
+  "seg": 49,
+  "start": 301.05,
+  "end": 302.492,
+  "speaker": "Unknown",
+  "en": "But we don't need to do it anymore, right?",
+  "zh": "但我们不再需要这么做了，对吧？"
+ },
+ {
+  "seg": 50,
+  "start": 302.732,
+  "end": 307.496,
+  "speaker": "Unknown",
+  "en": "We can just take these interfaces and break them into atoms.",
+  "zh": "我们可以直接把这些界面拆解成原子。"
+ },
+ {
+  "seg": 51,
+  "start": 308.681,
+  "end": 311.664,
+  "speaker": "Unknown",
+  "en": "Because I don't need 99% of Booking's dashboard.",
+  "zh": "因为我不需要 Booking 仪表盘的 99%。"
+ },
+ {
+  "seg": 52,
+  "start": 311.764,
+  "end": 314.327,
+  "speaker": "Unknown",
+  "en": "I don't need 99% of Airbnb's dashboard.",
+  "zh": "我不需要 Airbnb 仪表盘的 99%。"
+ },
+ {
+  "seg": 53,
+  "start": 314.447,
+  "end": 316.549,
+  "speaker": "Unknown",
+  "en": "I definitely don't need Jira's dashboard.",
+  "zh": "我绝对不需要 Jira 的仪表盘。"
+ },
+ {
+  "seg": 54,
+  "start": 317.11,
+  "end": 320.253,
+  "speaker": "Unknown",
+  "en": "But I do want to convey my intent to those services.",
+  "zh": "但我确实想把我的意图传达给那些服务。"
+ },
+ {
+  "seg": 55,
+  "start": 320.734,
+  "end": 323.917,
+  "speaker": "Unknown",
+  "en": "So why can't I let my personal assistant",
+  "zh": "那么为什么不能让我的个人助理"
+ },
+ {
+  "seg": 56,
+  "start": 324.818,
+  "end": 325.158,
+  "speaker": "Unknown",
+  "en": "Use that.",
+  "zh": "使用那些界面呢。"
+ },
+ {
+  "seg": 57,
+  "start": 325.738,
+  "end": 332.5,
+  "speaker": "Unknown",
+  "en": "So if I have a personal assistant, I can just take these atoms and it composes these atoms and say, yeah, I see that you have an anniversary coming.",
+  "zh": "所以如果我有一个个人助理,它可以直接拿这些原子,组合这些原子,然后说:对,我看到你有一个周年纪念快到了。"
+ },
+ {
+  "seg": 58,
+  "start": 333.061,
+  "end": 336.281,
+  "speaker": "Unknown",
+  "en": "This is the view from Google that says that you have an anniversary coming.",
+  "zh": "这是从 Google 那边来的视图,显示你有一个周年纪念快到了。"
+ },
+ {
+  "seg": 59,
+  "start": 336.762,
+  "end": 339.282,
+  "speaker": "Unknown",
+  "en": "So I can book, I can buy things for you.",
+  "zh": "所以我可以帮你预订,可以帮你买东西。"
+ },
+ {
+  "seg": 60,
+  "start": 339.522,
+  "end": 340.223,
+  "speaker": "Unknown",
+  "en": "I can book your hotel.",
+  "zh": "我可以帮你订酒店。"
+ },
+ {
+  "seg": 61,
+  "start": 341.583,
+  "end": 347.067,
+  "speaker": "Unknown",
+  "en": "Claude knows me, so he knows that I prefer to book hotels in the nature, right?",
+  "zh": "Claude 认识我,所以它知道我更喜欢订大自然里的酒店,对吧?"
+ },
+ {
+  "seg": 62,
+  "start": 347.087,
+  "end": 349.008,
+  "speaker": "Unknown",
+  "en": "So it knows to pull the map from Booking.",
+  "zh": "所以它知道从 Booking 拉取地图。"
+ },
+ {
+  "seg": 63,
+  "start": 349.308,
+  "end": 350.309,
+  "speaker": "Unknown",
+  "en": "I don't need to think about it.",
+  "zh": "我不需要去操心这些。"
+ },
+ {
+  "seg": 64,
+  "start": 350.929,
+  "end": 361.336,
+  "speaker": "Unknown",
+  "en": "And what Booking and Amazon and Google benefits from this is that they have this integration layer that they don't need to develop, because Claude has the context for me, right?",
+  "zh": "而 Booking、Amazon 和 Google 从中受益的是,它们拥有了这个不用自己开发的集成层,因为 Claude 拥有关于我的上下文,对吧?"
+ },
+ {
+  "seg": 65,
+  "start": 361.356,
+  "end": 363.357,
+  "speaker": "Unknown",
+  "en": "So Booking doesn't need to develop integration with my calendar.",
+  "zh": "所以 Booking 不需要开发与我日历的集成。"
+ },
+ {
+  "seg": 66,
+  "start": 363.718,
+  "end": 365.499,
+  "speaker": "Unknown",
+  "en": "Amazon doesn't need to develop integration with Booking.",
+  "zh": "Amazon 不需要开发与 Booking 的集成。"
+ },
+ {
+  "seg": 67,
+  "start": 366.459,
+  "end": 367.38,
+  "speaker": "Unknown",
+  "en": "So it's a win-win-win.",
+  "zh": "所以这是三赢。"
+ },
+ {
+  "seg": 68,
+  "start": 367.68,
+  "end": 369.802,
+  "speaker": "Unknown",
+  "en": "This is the view that we're aiming for.",
+  "zh": "这就是我们瞄准的愿景。"
+ },
+ {
+  "seg": 69,
+  "start": 370.902,
+  "end": 385.085,
+  "speaker": "Unknown",
+  "en": "And this is very different from what the things are going, which is this, which is basically browsing into different services just to stare at different text boxes that ask what I want to do there.",
+  "zh": "而这与现在事情的发展方向非常不同,现在是这样的:基本上就是浏览一个个不同的服务,只是盯着那些问我「想在这里做什么」的文本框。"
+ },
+ {
+  "seg": 70,
+  "start": 385.525,
+  "end": 388.486,
+  "speaker": "Unknown",
+  "en": "But no one is going to do that in a year.",
+  "zh": "但一年之内没人会那么做。"
+ },
+ {
+  "seg": 71,
+  "start": 388.566,
+  "end": 393.927,
+  "speaker": "Unknown",
+  "en": "No one is going to browse to Amazon's agents and Etsy's agents and Expedia's agent.",
+  "zh": "没有人会去浏览 Amazon 的智能体、Etsy 的智能体和 Expedia 的智能体。"
+ },
+ {
+  "seg": 72,
+  "start": 394.007,
+  "end": 394.648,
+  "speaker": "Unknown",
+  "en": "I don't want to do that.",
+  "zh": "我不想那么做。"
+ },
+ {
+  "seg": 73,
+  "start": 394.688,
+  "end": 396.748,
+  "speaker": "Unknown",
+  "en": "I have my own personal assistant.",
+  "zh": "我有自己的个人助理。"
+ },
+ {
+  "seg": 74,
+  "start": 396.768,
+  "end": 398.909,
+  "speaker": "Unknown",
+  "en": "I don't want to use your agent.",
+  "zh": "我不想用你的智能体。"
+ },
+ {
+  "seg": 75,
+  "start": 399.249,
+  "end": 400.589,
+  "speaker": "Unknown",
+  "en": "I want to use my agent.",
+  "zh": "我想用我自己的智能体。"
+ },
+ {
+  "seg": 76,
+  "start": 402.411,
+  "end": 413.081,
+  "speaker": "Unknown",
+  "en": "Now, if we think about it, it means that websites as the source of truth are something that's gonna go away because why would they need the website?",
+  "zh": "现在,如果仔细想想,这意味着网站作为真相来源这件事将会消失,因为它们为什么还需要网站呢?"
+ },
+ {
+  "seg": 77,
+  "start": 413.261,
+  "end": 415.023,
+  "speaker": "Unknown",
+  "en": "Why would they need to open the tab?",
+  "zh": "为什么还需要打开标签页?"
+ },
+ {
+  "seg": 78,
+  "start": 415.063,
+  "end": 419.327,
+  "speaker": "Unknown",
+  "en": "Why would they need the information that the website is working really hard to convey to me?",
+  "zh": "为什么还需要网站费尽心思传达给我的那些信息?"
+ },
+ {
+  "seg": 79,
+  "start": 420.308,
+  "end": 423.189,
+  "speaker": "Unknown",
+  "en": "And the immediate response to that is that, yeah, we have browser agents.",
+  "zh": "对此的直接回应是:对,我们有浏览器智能体。"
+ },
+ {
+  "seg": 80,
+  "start": 423.429,
+  "end": 424.549,
+  "speaker": "Unknown",
+  "en": "We have computer use agents.",
+  "zh": "我们有计算机使用智能体。"
+ },
+ {
+  "seg": 81,
+  "start": 424.569,
+  "end": 428.73,
+  "speaker": "Unknown",
+  "en": "We have very smart agents or assistants that can browse the web for us.",
+  "zh": "我们有非常聪明的智能体或助理,可以替我们浏览网页。"
+ },
+ {
+  "seg": 82,
+  "start": 429.371,
+  "end": 433.692,
+  "speaker": "Unknown",
+  "en": "But that doesn't make sense because that's a faster horse solution.",
+  "zh": "但这说不通,因为那是「更快的马」式解决方案。"
+ },
+ {
+  "seg": 83,
+  "start": 433.852,
+  "end": 449.076,
+  "speaker": "Unknown",
+  "en": "Why would I let an agent that doesn't know anything about the human perception limitations work with filters and paginations and sorting and all of those UIs that we spent decades perfecting for us just for it to fulfill its task?",
+  "zh": "我为什么要让一个完全不了解人类感知局限的智能体,去和过滤器、分页、排序以及那些我们花了几十年为我们自己打磨出来的 UI 打交道,只为了让它完成任务?"
+ },
+ {
+  "seg": 84,
+  "start": 449.856,
+  "end": 459.242,
+  "speaker": "Unknown",
+  "en": "So Google is very bullish on the other end of the spectrum, which is co-browsing and websites, and they have a protocol or standard called WebMCP.",
+  "zh": "所以 Google 非常看好光谱的另一端,也就是协同浏览和网站,他们有一个叫 WebMCP 的协议或标准。"
+ },
+ {
+  "seg": 85,
+  "start": 459.622,
+  "end": 468.007,
+  "speaker": "Unknown",
+  "en": "WebMCP says, okay, instead of the agent taking screenshots of the websites and trying to figure out what's happening, let's have the website expose some tools",
+  "zh": "WebMCP 说:好,与其让智能体对网站截图、试图弄清发生了什么,不如让网站暴露一些工具,"
+ },
+ {
+  "seg": 86,
+  "start": 468.787,
+  "end": 470.068,
+  "speaker": "Unknown",
+  "en": "In the website, JavaScript tools.",
+  "zh": "在网站里的 JavaScript 工具。"
+ },
+ {
+  "seg": 87,
+  "start": 470.509,
+  "end": 471.71,
+  "speaker": "Unknown",
+  "en": "And the agent will work with it.",
+  "zh": "然后智能体与它协作。"
+ },
+ {
+  "seg": 88,
+  "start": 471.77,
+  "end": 481.841,
+  "speaker": "Unknown",
+  "en": "And you can see here an example of Gemini in Chrome that buys stuff for me or finds deals for me as I browse the web, which is very nice, but it's very simple.",
+  "zh": "你可以在这里看到一个 Chrome 里的 Gemini 的例子,它在我浏览网页时帮我买东西或帮我找优惠,这很不错,但非常简单。"
+ },
+ {
+  "seg": 89,
+  "start": 482.201,
+  "end": 483.142,
+  "speaker": "Unknown",
+  "en": "What happens if we push?",
+  "zh": "如果我们加大力度会怎样?"
+ },
+ {
+  "seg": 90,
+  "start": 484.153,
+  "end": 486.554,
+  "speaker": "Unknown",
+  "en": "Salesforce dashboard to Gemini on Chrome.",
+  "zh": "把 Salesforce 仪表盘推给 Chrome 上的 Gemini。"
+ },
+ {
+  "seg": 91,
+  "start": 487.414,
+  "end": 488.155,
+  "speaker": "Unknown",
+  "en": "Why would I want that?",
+  "zh": "我为什么会想要那个?"
+ },
+ {
+  "seg": 92,
+  "start": 488.315,
+  "end": 495.878,
+  "speaker": "Unknown",
+  "en": "Why would I want to browse to Salesforce dashboard with Gemini to click buttons for me in a dashboard that I don't even want to use?",
+  "zh": "我为什么想带着 Gemini 浏览到 Salesforce 仪表盘,在一个我根本不想用的仪表盘里替我点按钮?"
+ },
+ {
+  "seg": 93,
+  "start": 496.178,
+  "end": 498.579,
+  "speaker": "Unknown",
+  "en": "I mean, this is definitely not what we want.",
+  "zh": "我是说,这绝对不是我们想要的。"
+ },
+ {
+  "seg": 94,
+  "start": 500.58,
+  "end": 501.821,
+  "speaker": "Unknown",
+  "en": "And the shift is that",
+  "zh": "而转变是:"
+ },
+ {
+  "seg": 95,
+  "start": 502.902,
+  "end": 506.505,
+  "speaker": "Unknown",
+  "en": "Assistants are becoming our entry point to the web, right?",
+  "zh": "助理正在成为我们进入网络的入口,对吧?"
+ },
+ {
+  "seg": 96,
+  "start": 506.786,
+  "end": 507.787,
+  "speaker": "Unknown",
+  "en": "We see it everywhere.",
+  "zh": "我们到处都能看到这一点。"
+ },
+ {
+  "seg": 97,
+  "start": 508.327,
+  "end": 521.359,
+  "speaker": "Unknown",
+  "en": "Every major lab wants its app to be the everything app, and the shift is happening, and friends of mine that connect Jira's MCP to their IDs, they don't go to Jira's website anymore, right?",
+  "zh": "每个主要实验室都想让自己的应用成为那个「万能应用」,转变正在发生,我那些把 Jira 的 MCP 接到他们 IDE 的朋友们,他们已经不再去 Jira 的网站了,对吧?"
+ },
+ {
+  "seg": 98,
+  "start": 521.8,
+  "end": 523.581,
+  "speaker": "Unknown",
+  "en": "And my mother uses ChatGPT for everything.",
+  "zh": "而我妈妈什么事都用 ChatGPT。"
+ },
+ {
+  "seg": 99,
+  "start": 523.601,
+  "end": 528.306,
+  "speaker": "Unknown",
+  "en": "If she could book a doctor's appointment using ChatGPT, she won't go to that clinic's website anymore.",
+  "zh": "如果她能用 ChatGPT 预约医生,她就再也不会去那家诊所的网站了。"
+ },
+ {
+  "seg": 100,
+  "start": 528.926,
+  "end": 535.091,
+  "speaker": "Unknown",
+  "en": "And you have a long tail of websites that no one is going to see because it's much easier for me to connect to them using my personal assistant.",
+  "zh": "而且还有一条长长的长尾网站,没有人会去看它们,因为对我而言,用我的个人助理去连接它们要容易得多。"
+ },
+ {
+  "seg": 101,
+  "start": 535.492,
+  "end": 541.276,
+  "speaker": "Unknown",
+  "en": "So websites will become obsolete, browsers will become obsolete, and personal assistant will become our only gate to the web.",
+  "zh": "所以网站会变得过时,浏览器会变得过时,个人助理将成为我们通往网络的唯一门户。"
+ },
+ {
+  "seg": 102,
+  "start": 541.817,
+  "end": 543.278,
+  "speaker": "Unknown",
+  "en": "And I know what it sounds like.",
+  "zh": "我知道这听起来像什么。"
+ },
+ {
+  "seg": 103,
+  "start": 543.578,
+  "end": 547.221,
+  "speaker": "Unknown",
+  "en": "It sounds like old men yelling at a literal cloud, right?",
+  "zh": "听起来像老头对着天上的云吼叫,对吧?"
+ },
+ {
+  "seg": 104,
+  "start": 547.862,
+  "end": 553.867,
+  "speaker": "Unknown",
+  "en": "I mean, yeah, they're not gonna go completely obsolete, but we see it with the younger generation today.",
+  "zh": "我是说,是啊,它们不会完全过时,但我们在今天的年轻一代身上已经看到了这一点。"
+ },
+ {
+  "seg": 105,
+  "start": 554.227,
+  "end": 554.968,
+  "speaker": "Unknown",
+  "en": "My nine-year-old,",
+  "zh": "我九岁的孩子,"
+ },
+ {
+  "seg": 106,
+  "start": 555.957,
+  "end": 556.797,
+  "speaker": "Unknown",
+  "en": "It goes to ChatGPT.",
+  "zh": "它会去找 ChatGPT。"
+ },
+ {
+  "seg": 107,
+  "start": 557.417,
+  "end": 560.518,
+  "speaker": "Unknown",
+  "en": "It doesn't go to Google when it wants to search for stuff.",
+  "zh": "当它想搜索东西时,它不会去找 Google。"
+ },
+ {
+  "seg": 108,
+  "start": 561.439,
+  "end": 572.762,
+  "speaker": "Unknown",
+  "en": "I was traveling to Georgia, the country in Eastern Europe, and there was an older lady there that asked me to take a picture of her, like a 70-year-old, and on her phone she had three apps, WhatsApp, camera, and ChatGPT.",
+  "zh": "我去格鲁吉亚旅行,就是东欧的那个国家,那里有一位老太太让我帮她拍照,大概七十岁,她手机上有三个应用:WhatsApp、相机和 ChatGPT。"
+ },
+ {
+  "seg": 109,
+  "start": 572.882,
+  "end": 573.222,
+  "speaker": "Unknown",
+  "en": "That's it.",
+  "zh": "就这些。"
+ },
+ {
+  "seg": 110,
+  "start": 573.822,
+  "end": 577.263,
+  "speaker": "Unknown",
+  "en": "The shift is happening, and very smart people",
+  "zh": "转变正在发生,而且非常聪明的人们"
+ },
+ {
+  "seg": 111,
+  "start": 578.195,
+  "end": 586.44,
+  "speaker": "Unknown",
+  "en": "Like David Kramer from Sentry said a year ago, I will take this bet against anyone who thinks web stuff is going to be obsolete in 25 years.",
+  "zh": "比如 Sentry 的 David Kramer 一年前说过,谁要是认为 web 相关的东西会在 25 年内过时,我都愿意跟他对赌。"
+ },
+ {
+  "seg": 112,
+  "start": 586.48,
+  "end": 587.461,
+  "speaker": "Unknown",
+  "en": "That was one year ago.",
+  "zh": "那是一年前的事了。"
+ },
+ {
+  "seg": 113,
+  "start": 587.481,
+  "end": 601.75,
+  "speaker": "Unknown",
+  "en": "A few days ago, David Kramer published Designing for Agents, which says, we have to recognize that interaction with products at Sentry will no longer be exclusively through our web application, and we have to design for API first as a surface.",
+  "zh": "几天前,David Kramer 发表了《为智能体而设计》,里面说,我们必须认识到,与 Sentry 产品的交互将不再 exclusively 通过我们的 web 应用进行,我们必须把 API 优先作为一个界面来设计。"
+ },
+ {
+  "seg": 114,
+  "start": 602.647,
+  "end": 603.809,
+  "speaker": "Unknown",
+  "en": "So everything is going headless.",
+  "zh": "所以一切都在走向无头化。"
+ },
+ {
+  "seg": 115,
+  "start": 604.15,
+  "end": 610.142,
+  "speaker": "Unknown",
+  "en": "Salesforce recently went headless, which is very important because Salesforce's main differentiator from its competitors...",
+  "zh": "Salesforce 最近走向了无头化,这一点非常重要,因为 Salesforce 相对于其竞争对手的主要差异化……"
+ },
+ {
+  "seg": 116,
+  "start": 611.06,
+  "end": 611.78,
+  "speaker": "Unknown",
+  "en": "It's UX.",
+  "zh": "是它的 UX。"
+ },
+ {
+  "seg": 117,
+  "start": 612.041,
+  "end": 613.962,
+  "speaker": "Unknown",
+  "en": "It's the way that it conveys everything to the user.",
+  "zh": "是它向用户传达一切的方式。"
+ },
+ {
+  "seg": 118,
+  "start": 613.982,
+  "end": 614.742,
+  "speaker": "Unknown",
+  "en": "But it went headless.",
+  "zh": "但它走向了无头化。"
+ },
+ {
+  "seg": 119,
+  "start": 615.042,
+  "end": 615.983,
+  "speaker": "Unknown",
+  "en": "Cloudflow went headless.",
+  "zh": "Cloudflow 走向了无头化。"
+ },
+ {
+  "seg": 120,
+  "start": 616.143,
+  "end": 616.943,
+  "speaker": "Unknown",
+  "en": "Sentry went headless.",
+  "zh": "Sentry 走向了无头化。"
+ },
+ {
+  "seg": 121,
+  "start": 618.164,
+  "end": 624.648,
+  "speaker": "Unknown",
+  "en": "This is a tweet by Cloudflow's CEO saying that agents' traffic surpassed human traffic in the web.",
+  "zh": "这是 Cloudflow CEO 的一条推文,说智能体的流量在 web 上已经超过了人类流量。"
+ },
+ {
+  "seg": 122,
+  "start": 625.148,
+  "end": 631.072,
+  "speaker": "Unknown",
+  "en": "And we have this spectrum of interaction because if my agent is autonomous, I don't need this last mile of UI, right?",
+  "zh": "我们有这样一个交互光谱,因为如果我的智能体是自主的,我就不需要这最后一英里的 UI,对吧?"
+ },
+ {
+  "seg": 123,
+  "start": 631.132,
+  "end": 636.455,
+  "speaker": "Unknown",
+  "en": "If I have an OpenClaw, I just say, yeah, organize my emails, it comes back, it says done, good.",
+  "zh": "如果我有一个 OpenClaw,我只要说,好,整理我的邮件,它回来说,完成了,很好。"
+ },
+ {
+  "seg": 124,
+  "start": 637.055,
+  "end": 644.28,
+  "speaker": "Unknown",
+  "en": "But if I want to book a hotel for my honeymoon, I probably need this last mile of interaction, so we call it the nearly headless web, right?",
+  "zh": "但如果我想为我的蜜月订一家酒店,我可能就需要这最后一英里的交互,所以我们称之为「几乎无头的 web」,对吧?"
+ },
+ {
+  "seg": 125,
+  "start": 644.96,
+  "end": 646.041,
+  "speaker": "Unknown",
+  "en": "It's not completely headless.",
+  "zh": "它不是完全无头的。"
+ },
+ {
+  "seg": 126,
+  "start": 647.342,
+  "end": 654.227,
+  "speaker": "Unknown",
+  "en": "The agents will interact with your website headlessly, but then it will bring back these UI resources for you.",
+  "zh": "智能体会以无头方式与你的网站交互,但它会为你带回这些 UI 资源。"
+ },
+ {
+  "seg": 127,
+  "start": 655.317,
+  "end": 658.419,
+  "speaker": "Unknown",
+  "en": "So user experience as we know it is being split.",
+  "zh": "所以我们所知道的用户体验正在被拆分。"
+ },
+ {
+  "seg": 128,
+  "start": 659.199,
+  "end": 665.943,
+  "speaker": "Unknown",
+  "en": "Now it's the agent experience of your website plus how a user experiences the agent that experiences your website.",
+  "zh": "现在它是你的网站的智能体体验,加上用户如何体验那个体验你的网站的智能体。"
+ },
+ {
+  "seg": 129,
+  "start": 666.443,
+  "end": 672.967,
+  "speaker": "Unknown",
+  "en": "But 90% is gonna rely on agent experiences, which means your website needs to be agent ready",
+  "zh": "但 90% 将依赖于智能体体验,这意味着你的网站需要为智能体做好准备"
+ },
+ {
+  "seg": 130,
+  "start": 673.807,
+  "end": 674.508,
+  "speaker": "Unknown",
+  "en": "For everything.",
+  "zh": "针对一切。"
+ },
+ {
+  "seg": 131,
+  "start": 675.128,
+  "end": 677.391,
+  "speaker": "Unknown",
+  "en": "It needs to be agent ready for your agent.",
+  "zh": "它需要为你的智能体做好准备。"
+ },
+ {
+  "seg": 132,
+  "start": 677.451,
+  "end": 680.534,
+  "speaker": "Unknown",
+  "en": "If I'm booking, I need to make bookings data ready for bookings agent.",
+  "zh": "如果我在做预订,我需要让预订数据为预订智能体做好准备。"
+ },
+ {
+  "seg": 133,
+  "start": 680.854,
+  "end": 685.158,
+  "speaker": "Unknown",
+  "en": "I need to make it ready for my customer's ChatGPT or my customer's OpenClaw.",
+  "zh": "我需要为我的客户的 ChatGPT 或我的客户的 OpenClaw 做好准备。"
+ },
+ {
+  "seg": 134,
+  "start": 685.778,
+  "end": 692.084,
+  "speaker": "Unknown",
+  "en": "And I need to be ready for my human customer who doesn't have an agent but still wants to browse to booking.com, right?",
+  "zh": "而且我还需要为那些没有智能体但仍想浏览 booking.com 的人类客户做好准备,对吧?"
+ },
+ {
+  "seg": 135,
+  "start": 692.104,
+  "end": 694.347,
+  "speaker": "Unknown",
+  "en": "So I need to be agent ready.",
+  "zh": "所以我需要做到智能体就绪。"
+ },
+ {
+  "seg": 136,
+  "start": 694.867,
+  "end": 697.389,
+  "speaker": "Unknown",
+  "en": "And what we found out is that agent ready",
+  "zh": "而我们发现,智能体就绪"
+ },
+ {
+  "seg": 137,
+  "start": 698.251,
+  "end": 698.951,
+  "speaker": "Unknown",
+  "en": "It means a lot of things.",
+  "zh": "意味着很多事情。"
+ },
+ {
+  "seg": 138,
+  "start": 699.131,
+  "end": 702.412,
+  "speaker": "Unknown",
+  "en": "So we heard a lot about AEO, SEO, GEO, how to get discovered.",
+  "zh": "所以我们听到了很多关于 AEO、SEO、GEO 的讨论,关于如何被发现。"
+ },
+ {
+  "seg": 139,
+  "start": 702.592,
+  "end": 713.414,
+  "speaker": "Unknown",
+  "en": "But discovery is only the first step because once an agent knows about you, it still needs to know what you are and how to interact with you and how to authenticate you and how to headlessly pay you, right?",
+  "zh": "但发现只是第一步,因为一旦一个智能体知道有你,它仍然需要知道你是什么、如何与你交互、如何对你进行身份验证,以及如何无头地向你付款,对吧?"
+ },
+ {
+  "seg": 140,
+  "start": 713.834,
+  "end": 720.536,
+  "speaker": "Unknown",
+  "en": "And actually, when we built, it's an anecdote, but when we built analytics for our product, we asked Claude Code",
+  "zh": "实际上,当我们构建——这是个轶事——当我们为我们的产品构建分析功能时,我们问 Claude Code"
+ },
+ {
+  "seg": 141,
+  "start": 721.016,
+  "end": 722.037,
+  "speaker": "Unknown",
+  "en": "What's the best analytic service?",
+  "zh": "最好的分析服务是什么?"
+ },
+ {
+  "seg": 142,
+  "start": 722.437,
+  "end": 725.019,
+  "speaker": "Unknown",
+  "en": "And it recommended PostHog, which is an analytic service.",
+  "zh": "它推荐了 PostHog,这是一个分析服务。"
+ },
+ {
+  "seg": 143,
+  "start": 725.359,
+  "end": 727.941,
+  "speaker": "Unknown",
+  "en": "And we said, no, we prefer Mixpanel because we know Mixpanel.",
+  "zh": "我们说,不,我们更喜欢 Mixpanel,因为我们了解 Mixpanel。"
+ },
+ {
+  "seg": 144,
+  "start": 727.961,
+  "end": 729.102,
+  "speaker": "Unknown",
+  "en": "We worked with Mixpanel for a decade.",
+  "zh": "我们和 Mixpanel 合作十年了。"
+ },
+ {
+  "seg": 145,
+  "start": 729.122,
+  "end": 729.882,
+  "speaker": "Unknown",
+  "en": "We know how to work with it.",
+  "zh": "我们知道怎么用它。"
+ },
+ {
+  "seg": 146,
+  "start": 730.182,
+  "end": 736.787,
+  "speaker": "Unknown",
+  "en": "And Claude Code insisted on PostHog because it said PostHog has better MCP and API and I can integrate to it better.",
+  "zh": "而 Claude Code 坚持要 PostHog,因为它说 PostHog 有更好的 MCP 和 API,我可以更好地集成它。"
+ },
+ {
+  "seg": 147,
+  "start": 737.447,
+  "end": 738.648,
+  "speaker": "Unknown",
+  "en": "So we don't have brand loyalty, right?",
+  "zh": "所以我们没有品牌忠诚度,对吧?"
+ },
+ {
+  "seg": 148,
+  "start": 738.668,
+  "end": 741.109,
+  "speaker": "Unknown",
+  "en": "We went with PostHog, if that's what Claude Code recommend.",
+  "zh": "既然 Claude Code 推荐,我们就用了 PostHog。"
+ },
+ {
+  "seg": 149,
+  "start": 741.129,
+  "end": 742.63,
+  "speaker": "Unknown",
+  "en": "But it made us think about Mixpanel.",
+  "zh": "但这让我们重新思考了 Mixpanel。"
+ },
+ {
+  "seg": 150,
+  "start": 742.65,
+  "end": 746.172,
+  "speaker": "Unknown",
+  "en": "Mixpanel spent a decade perfecting their UX and developer experience.",
+  "zh": "Mixpanel 花了十年时间打磨他们的用户体验和开发者体验。"
+ },
+ {
+  "seg": 151,
+  "start": 746.192,
+  "end": 748.914,
+  "speaker": "Unknown",
+  "en": "We just left it just because Claude Code prefers PostHog.",
+  "zh": "我们就这么放弃了它，只因 Claude Code 更喜欢 PostHog。"
+ },
+ {
+  "seg": 152,
+  "start": 749.254,
+  "end": 750.115,
+  "speaker": "Unknown",
+  "en": "And it will always happen.",
+  "zh": "而且这种事总会发生。"
+ },
+ {
+  "seg": 153,
+  "start": 750.215,
+  "end": 755.898,
+  "speaker": "Unknown",
+  "en": "Hermes, for example, if it uses your product and it needs to spin up a browser to use your product, it will remember that.",
+  "zh": "比如说 Hermes，如果它使用了你的产品，并且需要启动一个浏览器来使用你的产品，它会记住这一点。"
+ },
+ {
+  "seg": 154,
+  "start": 755.978,
+  "end": 759.42,
+  "speaker": "Unknown",
+  "en": "And next time, it won't go to your product anymore, right?",
+  "zh": "下一次，它就不再去你的产品了，对吧？"
+ },
+ {
+  "seg": 155,
+  "start": 760.001,
+  "end": 762.983,
+  "speaker": "Unknown",
+  "en": "So at Aura, which is an agentic web research lab,",
+  "zh": "所以在 Aura，这是一个智能体网络研究实验室，"
+ },
+ {
+  "seg": 156,
+  "start": 764.218,
+  "end": 764.938,
+  "speaker": "Unknown",
+  "en": "We started researching.",
+  "zh": "我们开始了研究。"
+ },
+ {
+  "seg": 157,
+  "start": 765.578,
+  "end": 771.14,
+  "speaker": "Unknown",
+  "en": "We raised some capital, and we started researching what does it mean for the web to be ready for agents.",
+  "zh": "我们筹集了一些资金，开始研究「网络为智能体做好准备」到底意味着什么。"
+ },
+ {
+  "seg": 158,
+  "start": 772.38,
+  "end": 776.841,
+  "speaker": "Unknown",
+  "en": "And we have these readiness benchmarks, which is interesting.",
+  "zh": "我们有一些就绪度基准测试，这挺有意思。"
+ },
+ {
+  "seg": 159,
+  "start": 777.201,
+  "end": 791.825,
+  "speaker": "Unknown",
+  "en": "So you can run, it's free, you can go to aura.ai, you can run any website, you get this score and benchmark according to a lot of protocols and best practices, and you have agentic feedback, so the agent actually returns the feedback about your website.",
+  "zh": "你可以运行——它是免费的——你可以去 aura.ai，可以运行任何网站，你会得到一个分数和基准评级，依据很多协议和最佳实践，而且你有智能体反馈，所以智能体实际会返回关于你网站的反馈。"
+ },
+ {
+  "seg": 160,
+  "start": 793.15,
+  "end": 811.241,
+  "speaker": "Unknown",
+  "en": "And we have this leaderboard of how companies and products rank according to this benchmark, and we started mapping the web, and everything was nice, but we hit one insight, or one unexpected result.",
+  "zh": "我们有一个排行榜，展示各公司和产品在这个基准下的排名，我们开始绘制整个网络，一切都很顺利，但我们撞上了一个洞察，或者说一个意料之外的结果。"
+ },
+ {
+  "seg": 161,
+  "start": 811.921,
+  "end": 815.444,
+  "speaker": "Unknown",
+  "en": "We found out, anyone here heard about lms.txt?",
+  "zh": "我们发现，在座有谁听说过 lms.txt 吗？"
+ },
+ {
+  "seg": 162,
+  "start": 816.972,
+  "end": 820.216,
+  "speaker": "Unknown",
+  "en": "LLMs.txt, that's like the de facto standard to be agent-ready.",
+  "zh": "LLMs.txt，那是一个让网站「智能体就绪」的事实标准。"
+ },
+ {
+  "seg": 163,
+  "start": 820.236,
+  "end": 825.041,
+  "speaker": "Unknown",
+  "en": "You say, yeah, if your website published in LLMs.txt, agents know how to interact with you.",
+  "zh": "就是说，是的，如果你的网站发布了 LLMs.txt，智能体就知道如何与你交互。"
+ },
+ {
+  "seg": 164,
+  "start": 825.221,
+  "end": 828.705,
+  "speaker": "Unknown",
+  "en": "And you have auth.md and pricing.md and X402 and a lot of standards.",
+  "zh": "还有 auth.md、pricing.md、X402 和很多标准。"
+ },
+ {
+  "seg": 165,
+  "start": 829.145,
+  "end": 835.652,
+  "speaker": "Unknown",
+  "en": "And we found out that almost 50% of the website that we tested, that we ran, published LLMs.txt.",
+  "zh": "而我们发现，我们测试过、运行过的网站里，将近 50% 都发布了 LLMs.txt。"
+ },
+ {
+  "seg": 166,
+  "start": 836.895,
+  "end": 841.92,
+  "speaker": "Unknown",
+  "en": "But none of the agents that we ran on this website actually used llm.txt.",
+  "zh": "但我们在这些网站上运行的所有智能体，实际上没有一个用过 llm.txt。"
+ },
+ {
+  "seg": 167,
+  "start": 842.5,
+  "end": 855.812,
+  "speaker": "Unknown",
+  "en": "Actually, almost all of the agents went straight to the docs page and then the homepage, and the 40% that did use llm.txt used it only because the docs pointed out that there's a file called llm.txt that they need to use.",
+  "zh": "实际上，几乎所有智能体都直接去了文档页面，然后是主页，而那 40% 用了 llm.txt 的，也只是因为文档里指出有一个叫 llm.txt 的文件需要它们去用。"
+ },
+ {
+  "seg": 168,
+  "start": 856.533,
+  "end": 857.774,
+  "speaker": "Unknown",
+  "en": "So then it hit us.",
+  "zh": "于是我们恍然大悟。"
+ },
+ {
+  "seg": 169,
+  "start": 857.994,
+  "end": 858.274,
+  "speaker": "Unknown",
+  "en": "We said,",
+  "zh": "我们说，"
+ },
+ {
+  "seg": 170,
+  "start": 859.197,
+  "end": 863.938,
+  "speaker": "Unknown",
+  "en": "It doesn't make a lot of sense for us as humans to define to agents what they need.",
+  "zh": "由我们人类来定义智能体需要什么，这其实说不太通。"
+ },
+ {
+  "seg": 171,
+  "start": 864.858,
+  "end": 865.958,
+  "speaker": "Unknown",
+  "en": "No one is doing it anymore.",
+  "zh": "已经没人这么做了。"
+ },
+ {
+  "seg": 172,
+  "start": 866.338,
+  "end": 874.88,
+  "speaker": "Unknown",
+  "en": "Even OpenAI, they don't publish best practices for tools anymore because they say that every time they publish best practices, the models become better and these practices become obsolete.",
+  "zh": "连 OpenAI 也不再发布针对工具的最佳实践了，因为他们说，每次发布最佳实践，模型就会变得更好，这些实践就过时了。"
+ },
+ {
+  "seg": 173,
+  "start": 875.1,
+  "end": 883.822,
+  "speaker": "Unknown",
+  "en": "Six months ago, the best practice for an MCP server was, yeah, have three paragraph descriptions so agents will know how to interact with you, and now three lines are enough.",
+  "zh": "六个月前，MCP 服务器的最佳实践是，嗯，写三段描述，这样智能体才知道如何与你交互，而现在三行就够了。"
+ },
+ {
+  "seg": 174,
+  "start": 884.51,
+  "end": 888.812,
+  "speaker": "Unknown",
+  "en": "So best practices becomes we need the agents to define what the agents need, right?",
+  "zh": "所以最佳实践变成了：我们需要智能体来定义智能体需要什么，对吧？"
+ },
+ {
+  "seg": 175,
+  "start": 888.832,
+  "end": 891.253,
+  "speaker": "Unknown",
+  "en": "We need agents' feedback on this website.",
+  "zh": "我们需要智能体对网站给出反馈。"
+ },
+ {
+  "seg": 176,
+  "start": 891.553,
+  "end": 894.534,
+  "speaker": "Unknown",
+  "en": "So we build Aura's Journey.",
+  "zh": "于是我们构建了 Aura's Journey。"
+ },
+ {
+  "seg": 177,
+  "start": 895.354,
+  "end": 897.775,
+  "speaker": "Unknown",
+  "en": "And Aura's Journey, that's a really cool, that's also free.",
+  "zh": "Aura's Journey 非常酷，它也是免费的。"
+ },
+ {
+  "seg": 178,
+  "start": 898.535,
+  "end": 909.519,
+  "speaker": "Unknown",
+  "en": "You can go to journey.aura.ai, and you can run on any website, any intent, with any agent, and see the path of the agent as it tries to interact with the website.",
+  "zh": "你可以去 journey.aura.ai，可以在任何网站上、以任何意图、用任何智能体运行，并看到智能体尝试与网站交互时的路径。"
+ },
+ {
+  "seg": 179,
+  "start": 909.619,
+  "end": 913.201,
+  "speaker": "Unknown",
+  "en": "So for example, atia.com, choose Claude Code.",
+  "zh": "比如，在 atia.com 上，选择 Claude Code。"
+ },
+ {
+  "seg": 180,
+  "start": 914.517,
+  "end": 916.157,
+  "speaker": "Unknown",
+  "en": "And we run it on the website.",
+  "zh": "然后我们在网站上运行它。"
+ },
+ {
+  "seg": 181,
+  "start": 916.618,
+  "end": 921.759,
+  "speaker": "Unknown",
+  "en": "And you can see in real time how the agent goes and what it tries to look for in the website.",
+  "zh": "你可以实时看到智能体的行动，以及它在网站上试图寻找什么。"
+ },
+ {
+  "seg": 182,
+  "start": 922.319,
+  "end": 931.581,
+  "speaker": "Unknown",
+  "en": "And we did it tens of thousands of times just to understand what agents really look for when they try to interact with websites.",
+  "zh": "我们做了几万次，就是为了弄清楚智能体在尝试与网站交互时真正寻找的是什么。"
+ },
+ {
+  "seg": 183,
+  "start": 933.261,
+  "end": 935.362,
+  "speaker": "Unknown",
+  "en": "And the cool thing is not running just one harness.",
+  "zh": "而且很酷的一点是，不只是运行一个测试框架。"
+ },
+ {
+  "seg": 184,
+  "start": 937.015,
+  "end": 939.056,
+  "speaker": "Unknown",
+  "en": "He's running multiple harnesses.",
+  "zh": "而是运行多个测试框架。"
+ },
+ {
+  "seg": 185,
+  "start": 939.076,
+  "end": 945.681,
+  "speaker": "Unknown",
+  "en": "You see here Claude Code and Eve, which is Vercel's harness, and ChatGPT, on the same website with the same intent, okay?",
+  "zh": "你在这里看到 Claude Code 和 Eve——那是 Vercel 的测试框架——还有 ChatGPT，在同一个网站上、带着同一个意图，好吗？"
+ },
+ {
+  "seg": 186,
+  "start": 945.701,
+  "end": 946.562,
+  "speaker": "Unknown",
+  "en": "So this is Claude Code.",
+  "zh": "这是 Claude Code。"
+ },
+ {
+  "seg": 187,
+  "start": 946.582,
+  "end": 947.182,
+  "speaker": "Unknown",
+  "en": "This is Haiku.",
+  "zh": "这是 Haiku。"
+ },
+ {
+  "seg": 188,
+  "start": 948.844,
+  "end": 949.444,
+  "speaker": "Unknown",
+  "en": "This is Eve.",
+  "zh": "这是 Eve。"
+ },
+ {
+  "seg": 189,
+  "start": 949.704,
+  "end": 951.766,
+  "speaker": "Unknown",
+  "en": "See how different the agent journey looks like.",
+  "zh": "看看智能体的路径有多不一样。"
+ },
+ {
+  "seg": 190,
+  "start": 952.406,
+  "end": 952.967,
+  "speaker": "Unknown",
+  "en": "And this is...",
+  "zh": "而这是……"
+ },
+ {
+  "seg": 191,
+  "start": 953.745,
+  "end": 954.345,
+  "speaker": "Unknown",
+  "en": "ChatGPT.",
+  "zh": "ChatGPT。"
+ },
+ {
+  "seg": 192,
+  "start": 955.206,
+  "end": 957.968,
+  "speaker": "Unknown",
+  "en": "So ChatGPT could find results better.",
+  "zh": "所以 ChatGPT 能更好地找到结果。"
+ },
+ {
+  "seg": 193,
+  "start": 959.089,
+  "end": 962.071,
+  "speaker": "Unknown",
+  "en": "You can just see the journey across the website.",
+  "zh": "你可以看到它在整个网站上的路径。"
+ },
+ {
+  "seg": 194,
+  "start": 962.311,
+  "end": 963.292,
+  "speaker": "Unknown",
+  "en": "And we need to understand why.",
+  "zh": "而我们需要理解为什么。"
+ },
+ {
+  "seg": 195,
+  "start": 963.312,
+  "end": 965.534,
+  "speaker": "Unknown",
+  "en": "We need to understand why does it happen.",
+  "zh": "我们需要理解为什么会发生这种情况。"
+ },
+ {
+  "seg": 196,
+  "start": 966.274,
+  "end": 972.019,
+  "speaker": "Unknown",
+  "en": "Why websites publish auth.md files, but agents don't look for auth.md files, and what do they look for?",
+  "zh": "为什么网站发布了 auth.md 文件，但智能体不去找 auth.md 文件，它们又在找什么？"
+ },
+ {
+  "seg": 197,
+  "start": 973.235,
+  "end": 979.177,
+  "speaker": "Unknown",
+  "en": "So in Aura, you can actually go to any business question.",
+  "zh": "所以在 Aura，你实际上可以输入任何业务问题。"
+ },
+ {
+  "seg": 198,
+  "start": 979.717,
+  "end": 985.299,
+  "speaker": "Unknown",
+  "en": "So for any domain, you have business goals or questions, and you can see the paths that the agents are taking.",
+  "zh": "对任何域名，你有业务目标或问题，你就能看到智能体所走的路径。"
+ },
+ {
+  "seg": 199,
+  "start": 986.559,
+  "end": 993.021,
+  "speaker": "Unknown",
+  "en": "And the interesting part of it is that, okay, now we know how agents interact with websites.",
+  "zh": "而其中有趣的部分在于，好了，现在我们知道了智能体是如何与网站交互的。"
+ },
+ {
+  "seg": 200,
+  "start": 993.041,
+  "end": 995.902,
+  "speaker": "Unknown",
+  "en": "What's the next big milestone for the agentic web?",
+  "zh": "智能体网络的下一个重大里程碑是什么?"
+ },
+ {
+  "seg": 201,
+  "start": 995.942,
+  "end": 1001.024,
+  "speaker": "Unknown",
+  "en": "And for those of you who heard the previous talk, it's discovery.",
+  "zh": "对于听过之前演讲的人来说,答案是发现。"
+ },
+ {
+  "seg": 202,
+  "start": 1001.794,
+  "end": 1001.994,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 203,
+  "start": 1002.575,
+  "end": 1004.376,
+  "speaker": "Unknown",
+  "en": "But it's not the discovery that we think of.",
+  "zh": "但它不是我们通常理解的那种发现。"
+ },
+ {
+  "seg": 204,
+  "start": 1004.616,
+  "end": 1005.217,
+  "speaker": "Unknown",
+  "en": "It's not a CO.",
+  "zh": "它不是 CO。"
+ },
+ {
+  "seg": 205,
+  "start": 1005.337,
+  "end": 1005.937,
+  "speaker": "Unknown",
+  "en": "It's not GEO.",
+  "zh": "它不是 GEO。"
+ },
+ {
+  "seg": 206,
+  "start": 1005.977,
+  "end": 1006.618,
+  "speaker": "Unknown",
+  "en": "It's not AEO.",
+  "zh": "它不是 AEO。"
+ },
+ {
+  "seg": 207,
+  "start": 1007.258,
+  "end": 1012.362,
+  "speaker": "Unknown",
+  "en": "Because we have to remember that every revolution came with its discovery layer.",
+  "zh": "因为我们要记住,每一次革命都伴随着它的发现层。"
+ },
+ {
+  "seg": 208,
+  "start": 1012.943,
+  "end": 1013.143,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 209,
+  "start": 1013.163,
+  "end": 1014.544,
+  "speaker": "Unknown",
+  "en": "The web revolution came with search.",
+  "zh": "网络革命伴随着搜索而来。"
+ },
+ {
+  "seg": 210,
+  "start": 1015.525,
+  "end": 1016.726,
+  "speaker": "Unknown",
+  "en": "Mobile came with app stores.",
+  "zh": "移动互联网伴随着应用商店而来。"
+ },
+ {
+  "seg": 211,
+  "start": 1017.046,
+  "end": 1018.087,
+  "speaker": "Unknown",
+  "en": "Social came with feeds.",
+  "zh": "社交伴随着信息流而来。"
+ },
+ {
+  "seg": 212,
+  "start": 1019.771,
+  "end": 1021.932,
+  "speaker": "Unknown",
+  "en": "What is the discovery layer for agentic resources?",
+  "zh": "那么,智能体资源的发现层是什么?"
+ },
+ {
+  "seg": 213,
+  "start": 1021.952,
+  "end": 1023.472,
+  "speaker": "Unknown",
+  "en": "What is the discovery layer for MCPs?",
+  "zh": "MCP 的发现层是什么?"
+ },
+ {
+  "seg": 214,
+  "start": 1023.492,
+  "end": 1026.192,
+  "speaker": "Unknown",
+  "en": "What is the discovery layer for OpenAPI.JSON?",
+  "zh": "OpenAPI.JSON 的发现层是什么?"
+ },
+ {
+  "seg": 215,
+  "start": 1026.493,
+  "end": 1027.573,
+  "speaker": "Unknown",
+  "en": "What do we even look for?",
+  "zh": "我们到底要找什么?"
+ },
+ {
+  "seg": 216,
+  "start": 1027.953,
+  "end": 1034.434,
+  "speaker": "Unknown",
+  "en": "I mean, maybe Airbnb has a better MCP than Booking.com, but Booking.com has better API than Airbnb, so how do we do it?",
+  "zh": "我是说,也许 Airbnb 有比 Booking.com 更好的 MCP,但 Booking.com 有比 Airbnb 更好的 API,那我们该怎么办?"
+ },
+ {
+  "seg": 217,
+  "start": 1036.455,
+  "end": 1046.137,
+  "speaker": "Unknown",
+  "en": "Web search, classic web search, it's not enough because it's based on human SEO and human page rank, and it's not flexible enough.",
+  "zh": "网络搜索,传统的网络搜索,是不够的,因为它基于人类 SEO 和人类页面排名,而且不够灵活。"
+ },
+ {
+  "seg": 218,
+  "start": 1047.229,
+  "end": 1057.237,
+  "speaker": "Unknown",
+  "en": "Custom registries, like per agents or per chats, they're not enough because they're closed and they require every app to submit itself to these registries.",
+  "zh": "自定义注册表,比如每个智能体或每个聊天的,也是不够的,因为它们是封闭的,而且要求每个应用把自己提交到这些注册表。"
+ },
+ {
+  "seg": 219,
+  "start": 1058.318,
+  "end": 1063.222,
+  "speaker": "Unknown",
+  "en": "And a central registry, like an MCP registry, that's not enough because who will do the curation?",
+  "zh": "而一个中心化注册表,比如 MCP 注册表,也是不够的,因为谁来负责策展?"
+ },
+ {
+  "seg": 220,
+  "start": 1063.262,
+  "end": 1064.323,
+  "speaker": "Unknown",
+  "en": "What's the governance model?",
+  "zh": "治理模型是什么?"
+ },
+ {
+  "seg": 221,
+  "start": 1064.363,
+  "end": 1067.145,
+  "speaker": "Unknown",
+  "en": "How do we decide which resource comes to that registry?",
+  "zh": "我们如何决定哪个资源能进入那个注册表?"
+ },
+ {
+  "seg": 222,
+  "start": 1068.579,
+  "end": 1070.52,
+  "speaker": "Unknown",
+  "en": "There are emerging standards around it.",
+  "zh": "目前有一些新兴的标准。"
+ },
+ {
+  "seg": 223,
+  "start": 1070.82,
+  "end": 1079.706,
+  "speaker": "Unknown",
+  "en": "There's an AI Catalog.json, which is a standard by Anthropic, OpenAI, Google, MCP, and A2A, which standardizes how a website exposes itself to agents.",
+  "zh": "有一个 AI Catalog.json,这是由 Anthropic、OpenAI、Google、MCP 和 A2A 制定的标准,它规范了一个网站如何向智能体暴露自己。"
+ },
+ {
+  "seg": 224,
+  "start": 1080.306,
+  "end": 1082.288,
+  "speaker": "Unknown",
+  "en": "And there's the Agentic Resource Discovery standard.",
+  "zh": "还有 Agentic Resource Discovery 标准。"
+ },
+ {
+  "seg": 225,
+  "start": 1083.176,
+  "end": 1084.877,
+  "speaker": "Unknown",
+  "en": "Which is by all these companies and more.",
+  "zh": "由所有这些公司以及更多公司参与。"
+ },
+ {
+  "seg": 226,
+  "start": 1085.478,
+  "end": 1092.583,
+  "speaker": "Unknown",
+  "en": "Which is basically standardized how a discovery layer or a directory exposes itself to agents.",
+  "zh": "它基本上规范了一个发现层或一个目录如何向智能体暴露自己。"
+ },
+ {
+  "seg": 227,
+  "start": 1093.143,
+  "end": 1095.545,
+  "speaker": "Unknown",
+  "en": "So we built Oracle Directory, right?",
+  "zh": "所以我们构建了 Oracle Directory,对吧?"
+ },
+ {
+  "seg": 228,
+  "start": 1095.585,
+  "end": 1097.366,
+  "speaker": "Unknown",
+  "en": "Because we're a research lab for the agentic web.",
+  "zh": "因为我们是智能体网络的研究实验室。"
+ },
+ {
+  "seg": 229,
+  "start": 1097.386,
+  "end": 1098.507,
+  "speaker": "Unknown",
+  "en": "So we built this.",
+  "zh": "所以我们构建了这个。"
+ },
+ {
+  "seg": 230,
+  "start": 1098.867,
+  "end": 1106.952,
+  "speaker": "Unknown",
+  "en": "And in Oracle Directory we take all the domains that we scanned or scanned ourselves and we put it in a directory that agents can actually query, right?",
+  "zh": "在 Oracle Directory 中,我们把扫描到的或自己扫描的所有域名放进一个目录里,智能体可以实际查询它,对吧?"
+ },
+ {
+  "seg": 231,
+  "start": 1108.053,
+  "end": 1110.775,
+  "speaker": "Unknown",
+  "en": "We expose the AI-catalog.json file.",
+  "zh": "我们暴露了 AI-catalog.json 文件。"
+ },
+ {
+  "seg": 232,
+  "start": 1110.875,
+  "end": 1126.205,
+  "speaker": "Unknown",
+  "en": "So you can see here, for example, for monday.com, you can see that we generate this JSON file that basically tells agents, yeah, this is the MCP server for monday, this is the API server for monday.com, and you can just, the agents can just query that, right?",
+  "zh": "所以你可以在这里看到,比如 monday.com,你可以看到我们生成了这个 JSON 文件,它基本上告诉智能体,是的,这是 monday 的 MCP 服务器,这是 monday.com 的 API 服务器,智能体可以直接查询它,对吧?"
+ },
+ {
+  "seg": 233,
+  "start": 1126.225,
+  "end": 1133.21,
+  "speaker": "Unknown",
+  "en": "So for every domain, you can just go to AI-catalog.json, and we expose the registry, the directory itself.",
+  "zh": "所以对于每个域名,你可以直接访问 AI-catalog.json,我们暴露了这个注册表,也就是目录本身。"
+ },
+ {
+  "seg": 234,
+  "start": 1133.53,
+  "end": 1136.292,
+  "speaker": "Unknown",
+  "en": "So for every entry on the directory,",
+  "zh": "所以对于目录中的每一个条目,"
+ },
+ {
+  "seg": 235,
+  "start": 1137.75,
+  "end": 1144.456,
+  "speaker": "Unknown",
+  "en": "We can tell the agent, yeah, for example, Vercel, these are the agentic resource cells, and this is how you access them.",
+  "zh": "我们可以告诉智能体,是的,比如 Vercel,这些是智能体资源单元,这就是你访问它们的方式。"
+ },
+ {
+  "seg": 236,
+  "start": 1144.877,
+  "end": 1153.605,
+  "speaker": "Unknown",
+  "en": "And obviously, this directory is fully ARD or agentic resource discovery compliant, so any agent can just query that directory with any query, right?",
+  "zh": "显然,这个目录是完全符合 ARD(智能体资源发现)标准的,所以任何智能体都可以用任何查询来查询这个目录,对吧?"
+ },
+ {
+  "seg": 237,
+  "start": 1155.08,
+  "end": 1158.282,
+  "speaker": "Unknown",
+  "en": "So this is aura.directory, if you want to take a look.",
+  "zh": "这是 aura.directory,如果你想去看一看。"
+ },
+ {
+  "seg": 238,
+  "start": 1158.602,
+  "end": 1162.884,
+  "speaker": "Unknown",
+  "en": "All of it is part of the aura multiverse, journey, directory, and the ranker.",
+  "zh": "这一切都是 aura multiverse 的一部分:journey、directory 和 ranker。"
+ },
+ {
+  "seg": 239,
+  "start": 1163.604,
+  "end": 1165.965,
+  "speaker": "Unknown",
+  "en": "And we found out some very other interesting insights.",
+  "zh": "而且我们发现了一些非常有趣的其他洞见。"
+ },
+ {
+  "seg": 240,
+  "start": 1166.005,
+  "end": 1171.248,
+  "speaker": "Unknown",
+  "en": "For example, being agent ready and being human accessible is very similar.",
+  "zh": "比如,对智能体友好和对人类可访问其实非常相似。"
+ },
+ {
+  "seg": 241,
+  "start": 1171.948,
+  "end": 1177.851,
+  "speaker": "Unknown",
+  "en": "Because LLMs, when they come to your website, they're like users or people with vision disabilities.",
+  "zh": "因为 LLM 来到你的网站时,它们就像有视觉障碍的用户或人。"
+ },
+ {
+  "seg": 242,
+  "start": 1178.391,
+  "end": 1179.592,
+  "speaker": "Unknown",
+  "en": "They don't see your website.",
+  "zh": "它们看不到你的网站。"
+ },
+ {
+  "seg": 243,
+  "start": 1179.732,
+  "end": 1182.353,
+  "speaker": "Unknown",
+  "en": "They need other signals to understand how to work with your website.",
+  "zh": "它们需要其他信号来理解如何与你的网站交互。"
+ },
+ {
+  "seg": 244,
+  "start": 1182.373,
+  "end": 1186.656,
+  "speaker": "Unknown",
+  "en": "And making your website human-accessible helps agent accessibility and vice versa.",
+  "zh": "让你的网站对人类可访问,有助于智能体的可访问性,反之亦然。"
+ },
+ {
+  "seg": 245,
+  "start": 1188.096,
+  "end": 1188.657,
+  "speaker": "Unknown",
+  "en": "So to wrap up,",
+  "zh": "总结一下,"
+ },
+ {
+  "seg": 246,
+  "start": 1189.826,
+  "end": 1190.707,
+  "speaker": "Unknown",
+  "en": "These are MCP apps.",
+  "zh": "这些是 MCP 应用。"
+ },
+ {
+  "seg": 247,
+  "start": 1191.187,
+  "end": 1193.408,
+  "speaker": "Unknown",
+  "en": "This is what I've been working on in the past few months.",
+  "zh": "这是我过去几个月一直在做的事情。"
+ },
+ {
+  "seg": 248,
+  "start": 1194.069,
+  "end": 1196.951,
+  "speaker": "Unknown",
+  "en": "And this was the last piece for the agentic web.",
+  "zh": "这是智能体网络的最后一块拼图。"
+ },
+ {
+  "seg": 249,
+  "start": 1196.991,
+  "end": 1198.892,
+  "speaker": "Unknown",
+  "en": "This actually brought the agentic web.",
+  "zh": "这真正带来了智能体网络。"
+ },
+ {
+  "seg": 250,
+  "start": 1199.292,
+  "end": 1201.934,
+  "speaker": "Unknown",
+  "en": "And now agents start to roam the web.",
+  "zh": "而现在智能体开始在网上游荡。"
+ },
+ {
+  "seg": 251,
+  "start": 1202.294,
+  "end": 1203.455,
+  "speaker": "Unknown",
+  "en": "And agents need different things.",
+  "zh": "而智能体需要不同的东西。"
+ },
+ {
+  "seg": 252,
+  "start": 1203.475,
+  "end": 1204.335,
+  "speaker": "Unknown",
+  "en": "They need different roads.",
+  "zh": "它们需要不同的道路。"
+ },
+ {
+  "seg": 253,
+  "start": 1204.535,
+  "end": 1205.656,
+  "speaker": "Unknown",
+  "en": "They need different infras.",
+  "zh": "它们需要不同的基础设施。"
+ },
+ {
+  "seg": 254,
+  "start": 1206.197,
+  "end": 1208.938,
+  "speaker": "Unknown",
+  "en": "But we don't want to rebuild the web for agents.",
+  "zh": "但我们不想为智能体重建整个网络。"
+ },
+ {
+  "seg": 255,
+  "start": 1208.998,
+  "end": 1210.92,
+  "speaker": "Unknown",
+  "en": "We want to make the web agent accessible.",
+  "zh": "我们想让网络对智能体可访问。"
+ },
+ {
+  "seg": 256,
+  "start": 1211.56,
+  "end": 1216.043,
+  "speaker": "Unknown",
+  "en": "So let's just make sure the web is prepared for when agents are coming.",
+  "zh": "所以我们只要确保网络已经为智能体的到来做好了准备。"
+ },
+ {
+  "seg": 257,
+  "start": 1219.165,
+  "end": 1219.786,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ }
+]

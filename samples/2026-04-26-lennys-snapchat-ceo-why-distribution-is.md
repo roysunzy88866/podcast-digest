@@ -127,9 +127,9 @@ Evan 说他不是认为不需要 PM，而是认为早期「设计师应该去做
 
 **顺着「产品方法」挖下去**
 
+- [[2026-09-20-lennys-90-minutes-of-unfiltered-product|把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课]]<span class="pd-rz">同公司:Snap、Snapchat</span>
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|Google搜索没死，AI让它扩张了]]<span class="pd-rz">同公司:Snapchat · 同概念:要完成的任务 (jobs to be done)</span>
 - [[2025-06-08-lennys-inside-mercado-libre-sebastian-barrios|MercadoLibre 的 18000 人工程团队怎么管]]<span class="pd-rz">同概念:智能体 (agents)</span>
-- [[2025-10-19-lennys-how-to-measure-ai-developer-productivity|AI时代衡量开发者生产力：Nicole Forsgren 谈怎么测才不撒谎]]<span class="pd-rz">同概念:智能体 (agents)</span>
 
 </div>
 <div class="pd-ex">

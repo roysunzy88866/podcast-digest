@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Wade Foster]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]] [[Claire Vaux]] [[Sharadh Krishnamurthy]]
+[[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben":1,"Walleye":1,"Current":1,"智能体":276,"ChatGPT":73,"情感分析":1,"营运杠杆":1,"Windsurf":5,"LLM":37,"量化投资":1}</script>
+<script type="application/json" class="pd-epn">{"Ben":1,"Walleye":1,"Current":1,"智能体":277,"ChatGPT":74,"情感分析":1,"营运杠杆":1,"Windsurf":5,"LLM":37,"量化投资":1}</script>
 
 <script>
 (function(){

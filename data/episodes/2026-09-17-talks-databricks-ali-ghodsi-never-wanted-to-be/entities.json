@@ -1,0 +1,887 @@
+{
+  "episode_id": "2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be",
+  "podcast": "精选演讲",
+  "date": "2026-09-17",
+  "tags": [
+    "CEO 经营方法",
+    "销售与招聘",
+    "品类战略",
+    "AI 落地",
+    "企业软件竞争"
+  ],
+  "categories": [
+    "组织与领导力",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "ali-ghodsi",
+      "type": "person",
+      "role": "host",
+      "name": "Ali Ghodsi",
+      "file": "Ali Ghodsi",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": true,
+      "how_described": "本集主线公司:Ali 讲述 2015 年开源成功但 GAAP 营收仅约 150 万美元时被推上 CEO,靠换高管团队、重建销售、打 Snowflake、立 Lakehouse 品类,把公司做到 70 亿 ARR、自由现金流盈亏平衡,并解释为何暂不上市。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            48.401,
+            51.023
+          ],
+          "quote": "He's the founder and CEO of Databricks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            89.554,
+            92.675
+          ],
+          "quote": "There were seven co-founders at Databricks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            121.843,
+            130.692
+          ],
+          "quote": "So, you know, it was, I mean, 2015 was kind of a turbulent year for Databricks because we were having great success with our open source project, Apache Spark.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1505.387,
+            1509.968
+          ],
+          "quote": "So at Databricks, I've skipped and said no to phenomenal people who've gone on and done great things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 531,
+          "t": [
+            1848.395,
+            1854.742
+          ],
+          "quote": "And this kind of contradicts that our sales would suck or that they would be good at sales because sales executed display at Databricks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 639,
+          "t": [
+            2141.879,
+            2146.581
+          ],
+          "quote": "You know, and you know, I think I saw at some point great ads from Databricks that I was receiving on Facebook.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 680,
+          "t": [
+            2268.182,
+            2272.484
+          ],
+          "quote": "I was greedy and I had bigger hopes for Databricks than when we were at.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 685,
+          "t": [
+            2295.795,
+            2298.958
+          ],
+          "quote": "I'm talking public company investors we were talking to who were trying to understand what Databricks does.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 686,
+          "t": [
+            2298.978,
+            2302.52
+          ],
+          "quote": "And I would paint them this big vision of what I want Databricks to do one day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 724,
+          "t": [
+            2423.302,
+            2428.744
+          ],
+          "quote": "Like, Databricks was cloud-only AI and no one gave a damn.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 877,
+          "t": [
+            3012.851,
+            3017.292
+          ],
+          "quote": "And for Databricks, so it's not just buy this product and you will solve this problem and you're done.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 880,
+          "t": [
+            3021.354,
+            3024.998
+          ],
+          "quote": "And at Databricks, we actually have a phenomenal ontology we built for ourselves.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1161,
+          "t": [
+            3914.512,
+            3917.594
+          ],
+          "quote": "So first of all, I think that if Databricks was public today, I think we'd be worth more.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": true,
+      "how_described": "本集把它说成 Databricks 当年的头号对手:营收曾是对手两倍,但有三个弱点——专有格式与数据锁定、AI 支持弱、贵;Databricks 用共存策略逐个客户打它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 471,
+          "t": [
+            1625.213,
+            1627.795
+          ],
+          "quote": "You had a rivalry obviously with Snowflake.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 475,
+          "t": [
+            1638.784,
+            1645.369
+          ],
+          "quote": "And I just remember at HubSpot, we were looking at the two when we picked Snowflake way back when.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 493,
+          "t": [
+            1722.326,
+            1727.228
+          ],
+          "quote": "So the hyperscalers were getting destroyed by Snowflake because it was such a great innovation, such a great product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 525,
+          "t": [
+            1824.865,
+            1829.127
+          ],
+          "quote": "And the playbook were, you know, it wasn't just like, let's just go out and say that Snowflake sucks or anything like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 527,
+          "t": [
+            1834.449,
+            1836.189
+          ],
+          "quote": "Don't just go say, hey, rip out Snowflake.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 567,
+          "t": [
+            1979.535,
+            1981.516
+          ],
+          "quote": "We have a data warehouse that's better than Snowflake's data warehouse.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lakehouse",
+      "type": "concept",
+      "role": "concept",
+      "name": "Lakehouse",
+      "file": "Lakehouse",
+      "primary": true,
+      "how_described": "本集说它是 Databricks 硬推出来的开放湖仓一体品类:内部和咨询公司都反对,发布时被全网嘲笑,Ali 靠全公司动员、连无效广告也坚持用了好几年,最终品类起飞。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            705,
+            708.883
+          ],
+          "quote": "When we announced the Lakehouse category, we were ridiculed online.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            710.024,
+            717.191
+          ],
+          "quote": "But it was a long journey to get to the launch of the Lakehouse because there was so much resistance internally and from consultants and whatnot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 534,
+          "t": [
+            1865.335,
+            1866.377
+          ],
+          "quote": "The category was Lakehouse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 578,
+          "t": [
+            2002.424,
+            2006.285
+          ],
+          "quote": "So how did the idea for Lakehouse come?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2122.545,
+            2123.887
+          ],
+          "quote": "They didn't mention Lakehouse in the article.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 633,
+          "t": [
+            2131.333,
+            2132.794
+          ],
+          "quote": "Hey, but the customer didn't mention Lakehouse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 636,
+          "t": [
+            2139.177,
+            2140.178
+          ],
+          "quote": "You know, it's gotta be a Lakehouse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2182.756,
+            2185.66
+          ],
+          "quote": "How did you incent and get them to start selling Lakehouse?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 682,
+          "t": [
+            2273.344,
+            2279.367
+          ],
+          "quote": "So at this point when we did Lakehouse, right, 2018, 19, we were, you know, multiple hundreds of millions of dollars of ARR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1297,
+          "t": [
+            4365.642,
+            4375.169
+          ],
+          "quote": "And Ali did this a couple of times, but he talked the most about a product he launched a few years called Lakehouse, which was sort of a big competitive offering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1312,
+          "t": [
+            4435.15,
+            4441.493
+          ],
+          "quote": "It sounded like his number one focus for two or three years on his annual plan was that Lakehouse product.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "apache-spark",
+      "type": "concept",
+      "role": "concept",
+      "name": "Apache Spark",
+      "file": "Apache Spark",
+      "primary": true,
+      "how_described": "本集说它是 Databricks 2015 年超级成功但没带来商业成功的开源项目,也是当年市场负责人坚持放进广告里、因为「Spark 能卖货」的招牌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            121.843,
+            130.692
+          ],
+          "quote": "So, you know, it was, I mean, 2015 was kind of a turbulent year for Databricks because we were having great success with our open source project, Apache Spark.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bottleneck",
+      "type": "concept",
+      "role": "concept",
+      "name": "瓶颈聚焦 (bottleneck)",
+      "file": "瓶颈聚焦",
+      "primary": true,
+      "how_described": "本集说公司失败通常源于一个重大瓶颈,CEO 应识别出它并把数量级级别的注意力、整个公司都压上去,做过头反而是好事,周期按年算,一年两三年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            588.111,
+            592.074
+          ],
+          "quote": "You know, I mean, maybe they have two major problems or three, but usually it's like one giant bottleneck.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            593.114,
+            607.263
+          ],
+          "quote": "And I think you should at that point identify what that giant bottleneck is and then focus the whole company in your all attention almost to an extreme, like orders of magnitude of attention and focus should just go to this one issue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            612.247,
+            617.15
+          ],
+          "quote": "The problem is because, you know, you most likely won't be able to actually unclog or remove this bottleneck.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 181,
+          "t": [
+            648.221,
+            650.602
+          ],
+          "quote": "I try to identify what the main bottleneck is at the time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            667.105,
+            668.385
+          ],
+          "quote": "So focus on that main bottleneck.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            669.165,
+            671.586
+          ],
+          "quote": "And typically, so you're laser focused on the bottleneck.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            673.086,
+            677.307
+          ],
+          "quote": "There's one bottleneck a year you're tackling or one every three years or one every three months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            739.461,
+            753.286
+          ],
+          "quote": "What I read was one of the first things you did on that bottleneck was you went out and hired, I forget, 13 kind of been there, done that enterprise sales reps. First, is that correct?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 780,
+          "t": [
+            2598.476,
+            2608.803
+          ],
+          "quote": "So all this push all the time, if you don't do it, the companies start going in all kinds of directions instead of laser focusing all that energy on that one bottleneck that you wanted to solve, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1018,
+          "t": [
+            3476.375,
+            3478.757
+          ],
+          "quote": "One is the main bottleneck that I'm obsessed with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1108,
+          "t": [
+            3744.112,
+            3746.854
+          ],
+          "quote": "A lot of it is just like, okay, what's the main bottleneck right now?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1198,
+          "t": [
+            4048.578,
+            4062.041
+          ],
+          "quote": "Oh, we should put all our money on semis, because, you know, semiconductors, the futures is a bottleneck, we'll just go there, no, no, no, semis, let's sell it all, okay, that big fund is going under, and like, you know, it's like, just don't want to have to deal with this crazy back and forth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1311,
+          "t": [
+            4433.49,
+            4434.63
+          ],
+          "quote": "He focused on the bottleneck.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "plg",
+      "type": "concept",
+      "role": "concept",
+      "name": "PLG",
+      "file": "PLG",
+      "primary": true,
+      "how_described": "本集说 Databricks 曾信奉产品驱动增长、做过永远不跟客户交谈的 Zero Touch 实验,结果收入连续两个季度停滞,证明 PLG 行不通,必须转向企业销售。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 218,
+          "t": [
+            795.959,
+            797.221
+          ],
+          "quote": "We have been doing this PLG thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            817.422,
+            822.426
+          ],
+          "quote": "We had a couple of AEs, but it became clear that, look, PLG is not working.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            830.171,
+            833.494
+          ],
+          "quote": "It should all be automated funnel because it's PLG.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1153.31,
+            1154.051
+          ],
+          "quote": "They have PLG.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 669,
+          "t": [
+            2235.275,
+            2240.156
+          ],
+          "quote": "My sense is also moving from PLG to enterprise, really doing AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集反复谈 AI:模型已比周围大多数人聪明,但企业只把它当聊天机器人和写代码工具,真正瓶颈是流程再造,人类至少需要十年才能吸收和扩散 AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 503,
+          "t": [
+            1756.943,
+            1764.267
+          ],
+          "quote": "Second weakness they had was that they had no support for AI, or they would say that they would, but we knew that that was pretty weak.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 513,
+          "t": [
+            1796.546,
+            1799.108
+          ],
+          "quote": "You can do AI on it because we were like, our roots were AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            1799.148,
+            1801.27
+          ],
+          "quote": "We'd been doing machine learning and AI since 2009.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            1804.132,
+            1808.035
+          ],
+          "quote": "And by the way, at the time, it wasn't clear that it was going to work because AI was not a big thing in 2019, 2020.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 669,
+          "t": [
+            2235.275,
+            2240.156
+          ],
+          "quote": "My sense is also moving from PLG to enterprise, really doing AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 724,
+          "t": [
+            2423.302,
+            2428.744
+          ],
+          "quote": "Like, Databricks was cloud-only AI and no one gave a damn.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 817,
+          "t": [
+            2792.392,
+            2804.396
+          ],
+          "quote": "And the way Dorsey kind of describes it is the company is an AI and the employees kind of sit around the AI and their main job is to train the AI and give it context over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 822,
+          "t": [
+            2822.541,
+            2826.782
+          ],
+          "quote": "And a bunch of the AI native companies I'm working with are pretty intrigued by that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 837,
+          "t": [
+            2881.093,
+            2885.497
+          ],
+          "quote": "Today, what has happened is that we have extremely smart AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 838,
+          "t": [
+            2886.759,
+            2895.223
+          ],
+          "quote": "I keep asking this question every audience I go to, and I ask them, you know, how many of you think that the AI is smarter than most of the people around you most of the time?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 848,
+          "t": [
+            2919.773,
+            2922.956
+          ],
+          "quote": "Then we look at how AI is being used inside corporations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 856,
+          "t": [
+            2947.102,
+            2948.122
+          ],
+          "quote": "How are AI being used?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 872,
+          "t": [
+            2997.606,
+            3003.671
+          ],
+          "quote": "Everything has to be captured and be put part of the context and then fed to the AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 874,
+          "t": [
+            3005.768,
+            3009.229
+          ],
+          "quote": "So we want to capture the ontology and feed it to the AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 898,
+          "t": [
+            3100.677,
+            3104.32
+          ],
+          "quote": "There should also be player coaches, because now we have AI that can write code for you and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 945,
+          "t": [
+            3270.12,
+            3271
+          ],
+          "quote": "AI is very effective.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 990,
+          "t": [
+            3379.43,
+            3381.112
+          ],
+          "quote": "Let's do this end to end with AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 998,
+          "t": [
+            3415.23,
+            3428.2
+          ],
+          "quote": "to absorb and diffuse AI because of what I just experienced in a tech company with super smart people who want AI and they're all like, you know, you have to basically do process re-engineering of all organizations on the planet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1097,
+          "t": [
+            3703.405,
+            3706.949
+          ],
+          "quote": "Okay, this goes back to this, can we just have an AI, the Jack Dorsey thing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1188,
+          "t": [
+            4014.943,
+            4018.205
+          ],
+          "quote": "So as the world is going through this crazy AI transformation,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1196,
+          "t": [
+            4031.428,
+            4043.137
+          ],
+          "quote": "We will go when I think the waters are more calm, like when there's a little bit more predictability, like this nonsense of all SaaS companies are shit and SaaS-pocalypse is going to destroy all AI companies.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集说 Ali 把「AI 大多数时候比你周围大多数人都聪明」定义为 AGI——每场演讲约 90% 听众举手认同,这已无可争议。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 840,
+          "t": [
+            2899.105,
+            2900.506
+          ],
+          "quote": "Well, I define that as AGI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 846,
+          "t": [
+            2913.888,
+            2916.73
+          ],
+          "quote": "They don't agree that AGI is here because they have a weird definition of AGI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ontology",
+      "type": "concept",
+      "role": "concept",
+      "name": "本体 (ontology)",
+      "file": "本体",
+      "primary": true,
+      "how_described": "本集说企业缺的是把人们脑子里的知识、每天的决策、每场会议、每封邮件捕捉下来喂给 AI 的企业上下文,Databricks 自己用 Genie 建好了本体,效果如魔法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 873,
+          "t": [
+            3003.992,
+            3004.992
+          ],
+          "quote": "We call this an ontology.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 874,
+          "t": [
+            3005.768,
+            3009.229
+          ],
+          "quote": "So we want to capture the ontology and feed it to the AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 879,
+          "t": [
+            3018.693,
+            3020.894
+          ],
+          "quote": "Turns out you have to also build this ontology.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 880,
+          "t": [
+            3021.354,
+            3024.998
+          ],
+          "quote": "And at Databricks, we actually have a phenomenal ontology we built for ourselves.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 881,
+          "t": [
+            3025.499,
+            3030.325
+          ],
+          "quote": "We've noticed our customers don't have, they use the same product, but they haven't built up the ontology the same way we have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 886,
+          "t": [
+            3060.24,
+            3064.401
+          ],
+          "quote": "So, yeah, I think it's true that the Genie product does this and builds the ontology.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "genie",
+      "type": "concept",
+      "role": "concept",
+      "name": "Genie",
+      "file": "Genie",
+      "primary": true,
+      "how_described": "本集说 Genie 是 Databricks 自建的产品,能捕捉企业本体、几乎回答 Ali 在任何会议里关于任何事情的任何问题并自动化任务,客户用同样产品却没建起本体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 876,
+          "t": [
+            3011.23,
+            3011.85
+          ],
+          "quote": "It's called Genie.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 884,
+          "t": [
+            3040.855,
+            3045.416
+          ],
+          "quote": "But then we have Genie and Genie pretty much answers any question I have in any meeting about anything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 885,
+          "t": [
+            3046.076,
+            3059.5
+          ],
+          "quote": "And it can also start automating tasks for us and getting us, you know, so we're all just sitting on our phones and using the Genie app all the time on all of these kinds of things and feeding more context to it, building up more context, automating more and more processes in the company that we find.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 886,
+          "t": [
+            3060.24,
+            3064.401
+          ],
+          "quote": "So, yeah, I think it's true that the Genie product does this and builds the ontology.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

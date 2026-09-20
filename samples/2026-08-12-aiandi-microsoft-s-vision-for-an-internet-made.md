@@ -115,9 +115,9 @@ Kevin 直言这是一种错误的二分法 <button class="pd-ts" data-t="12:50" 
 
 **顺着「智能体」挖下去**
 
+- [[2026-09-16-talks-rebuilding-the-web-for-agents-liad-yosef|智能体网络来了：网站和浏览器正在被“拆成原子”]]<span class="pd-rz">同概念:MCP、智能体 (agent)、智能体网络 (agentic web)</span>
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同公司:Microsoft · 同概念:智能体 (agent)</span>
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:MCP、智能体 (agent)</span>
-- [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组]]<span class="pd-rz">同概念:MCP、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

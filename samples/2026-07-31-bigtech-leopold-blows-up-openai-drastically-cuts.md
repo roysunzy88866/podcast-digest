@@ -132,7 +132,7 @@ Alex 猜测,Meta 可能是在赌一种比 TikTok 更让人上瘾的「AI 伴侣�
 
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Apple、OpenAI、Anthropic</span>
 - [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型]]<span class="pd-rz">同公司:OpenAI · 同概念:算力 (compute)</span>
-- [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|超级智能为什么危险：Ryan Greenblatt 的推演与解法]]<span class="pd-rz">同公司:Meta、OpenAI · 同概念:算力 (compute)、智能体 (agents)</span>
+- [[2026-09-20-lennys-90-minutes-of-unfiltered-product|把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课]]<span class="pd-rz">同公司:Meta、OpenAI</span>
 
 </div>
 </div>

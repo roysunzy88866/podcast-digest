@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snap</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Snap">SN</div><div class="pi"><h1 class="pt">Snap</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Snap">SN</div><div class="pi"><h1 class="pt">Snap</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪》]]**(00:16起):本集讨论的核心公司。旗下 Snapchat 拥有十亿月活、年营收超 60 亿美元；本集讲述它 15 年来的创新史、面临的护城河挑战、在硬件上的持续押注，以及称之为「严峻考验时刻」的当下转折点。
+- **[[2026-09-20-lennys-90-minutes-of-unfiltered-product|《把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课》]]**(01:01起):本集把 Snap 拆开看是「Z 世代的伯克希尔·哈撒韦」：第一的相机、通讯、地图、占星应用；2018 年灾难性改版后靠聚焦 Android 性能服务已有用户，带来多年「增长复兴」。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪》]] — 作为被讨论公司
+- [[2026-09-20-lennys-90-minutes-of-unfiltered-product|《把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Evan Spiegel]] · [[Snapchat]] · [[Spectacles]] · [[Specs]] · [[Glean]] · [[分发]] · [[护城河]] · [[网络效应]] · [[增强现实]]
+[[Snapchat]] · [[Lenny]] · [[Peter Sellis]] · [[Evan Spiegel]] · [[Discord]] · [[Spectacles]] · [[OpenAI]] · [[Specs]] · [[SpaceX]] · [[Glean]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"Evan Spiegel":1,"Snapchat":2,"Spectacles":1,"Specs":1,"Glean":1,"分发":5,"护城河":11,"网络效应":12,"增强现实":1}</script>
+<script type="application/json" class="pd-epn">{"Snapchat":3,"Lenny":67,"Peter Sellis":1,"Evan Spiegel":1,"Discord":5,"Spectacles":1,"OpenAI":123,"Specs":1,"SpaceX":17,"Glean":1}</script>
 
 <script>
 (function(){

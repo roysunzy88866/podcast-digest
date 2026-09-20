@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":1,"Revel":1,"SpaceX":16,"LLVM":1,"Python":5,"vibe coding":35,"CI-CD":10,"Palantir":17}</script>
+<script type="application/json" class="pd-epn">{"Mario":1,"Revel":1,"SpaceX":17,"LLVM":1,"Python":5,"vibe coding":35,"CI-CD":10,"Palantir":17}</script>
 
 <script>
 (function(){

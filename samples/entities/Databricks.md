@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Databricks</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Databricks">DA</div><div class="pi"><h1 class="pt">Databricks</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Databricks">DA</div><div class="pi"><h1 class="pt">Databricks</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -22,19 +22,22 @@ unlisted: true
 - **[[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]]**(25:45起):本集说 Databricks 是地球上最令人难以置信的公司之一，帮助企业编目数据并利用它，并且因为越来越多数据由智能体生成而在不断重塑自己
 - **[[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]]**(00:48起):本集提到嘉宾 2016 年创办的公司最终被 Databricks 收购。
 - **[[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]]**(00:10起):本集核心公司：从收入不到 100 万美元做到公开披露 69 亿美元的数据与 AI 平台，靠三个早期押注——全力上云、全力开源、全力做数据与 AI，并在开源之上建托管云服务变现。
+- **[[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|《Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识》]]**(00:48起):本集主线公司:Ali 讲述 2015 年开源成功但 GAAP 营收仅约 150 万美元时被推上 CEO,靠换高管团队、重建销售、打 Snowflake、立 Lakehouse 品类,把公司做到 70 亿 ARR、自由现金流盈亏平衡,并解释为何暂不上市。
 - **[[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]]**(00:57起):本集嘉宾 Ali 执掌的大数据与 AI 平台公司，全篇以它为例讲内部用 AI 改造公司：构建百万节点的本体、用 Genie 问答、管 token 成本、做网络安全检测产品。
 
 ## ① 提到它的金句
 
-*2 条*
+*3 条*
 
 ![[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y#^q1]]
+
+![[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be#^q2]]
 
 ![[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a#^q4]]
 
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为被讨论公司(提及)
@@ -48,15 +51,16 @@ unlisted: true
 - [[2026-08-27-nopriors-rethinking-legacy-data-infrastructure-wi|《数据成了企业唯一的护城河：AI时代的数据基建怎么做》]] — 作为被讨论公司(提及)
 - [[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]] — 作为被讨论公司(提及)
 - [[2026-09-10-thepeel-how-databricks-went-1m-to-7b-arr-in-10-y|《从 100 万到 69 亿美元:Databricks 销售掌门人 Ron 的企业级增长实战》]] — 作为被讨论公司
+- [[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|《Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识》]] — 作为被讨论公司
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Snowflake]] · [[Cursor]] · [[Stripe]] · [[护栏]] · [[后训练]] · [[Lovable]] · [[Palantir]] · [[OpenAI]]
+[[智能体]] · [[Snowflake]] · [[Anthropic]] · [[Cursor]] · [[Stripe]] · [[护栏]] · [[数据科学智能体]] · [[后训练]] · [[AI]] · [[Lovable]]
 
-<script type="application/json" class="pd-epn">{"智能体":276,"Anthropic":130,"Snowflake":9,"Cursor":63,"Stripe":33,"护栏":50,"后训练":26,"Lovable":15,"Palantir":17,"OpenAI":122}</script>
+<script type="application/json" class="pd-epn">{"智能体":277,"Snowflake":10,"Anthropic":130,"Cursor":63,"Stripe":33,"护栏":50,"数据科学智能体":4,"后训练":26,"AI":19,"Lovable":15}</script>
 
 <script>
 (function(){

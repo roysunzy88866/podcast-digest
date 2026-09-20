@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snapchat</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Snapchat">SN</div><div class="pi"><h1 class="pt">Snapchat</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Snapchat">SN</div><div class="pi"><h1 class="pt">Snapchat</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]]**(01:12起):本集说 Stories 的格式 Snapchat 发明了，赞扬 Snapchat 发明了这个很棒的格式；但信息流这种格式也不是每个产品自己发明的，当格式被证明有效就变成了公共原语
 - **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪》]]**(01:21起):15 年前发布的持久消费者社交应用，本集说它当初的崛起靠的是连接用户「最在乎的少数人」(亲密关系),而非像传统社交网络那样追求把所有人连起来。
+- **[[2026-09-20-lennys-90-minutes-of-unfiltered-product|《把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课》]]**(01:37起):本集说它是嘉宾待了七年、任首位 PM 的公司：十亿月活、Z 世代渗透率极高的相机/通讯应用，因用户太年轻、相机形态对广告不友好、本质是即时通讯这三大结构原因未能建立起 Facebook 级的广告生意，但广告收入达四十亿的速度仍快于 Twitter/Reddit/Pinterest。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为被讨论公司(提及)
 - [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪》]] — 作为被讨论公司
+- [[2026-09-20-lennys-90-minutes-of-unfiltered-product|《把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[待完成任务]] · [[Robby Stein]] · [[Evan Spiegel]] · [[Google]] · [[Snap]] · [[AI Mode]] · [[Spectacles]] · [[AI Overviews]] · [[Specs]]
+[[Lenny]] · [[Snap]] · [[待完成任务]] · [[Robby Stein]] · [[Evan Spiegel]] · [[Peter Sellis]] · [[Google]] · [[Spectacles]] · [[Discord]] · [[AI Mode]]
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"待完成任务":2,"Robby Stein":1,"Evan Spiegel":1,"Google":46,"Snap":1,"AI Mode":1,"Spectacles":1,"AI Overviews":1,"Specs":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"Snap":2,"待完成任务":2,"Robby Stein":1,"Evan Spiegel":1,"Peter Sellis":1,"Google":46,"Spectacles":1,"Discord":5,"AI Mode":1}</script>
 
 <script>
 (function(){
