@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":52,"智能体":281,"Intercom":6,"Ryan Carson":1,"Muse":1,"ChatPRD":5,"Devon":3,"Meta":35,"Vercel":17,"Cognition":17}</script>
+<script type="application/json" class="pd-epn">{"Codex":52,"智能体":282,"Intercom":6,"Ryan Carson":1,"Muse":1,"ChatPRD":5,"Devon":3,"Meta":35,"Vercel":17,"Cognition":17}</script>
 
 <script>
 (function(){

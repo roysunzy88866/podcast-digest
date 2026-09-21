@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Science":1,"Neuralink":1,"SpaceX":17,"Anthropic":130,"Helix":1,"迭代":2,"AI 基础设施":3,"归因":2,"深科技":2,"BCI":1}</script>
+<script type="application/json" class="pd-epn">{"Science":1,"Neuralink":1,"SpaceX":17,"Anthropic":131,"Helix":1,"迭代":2,"AI 基础设施":3,"归因":2,"深科技":2,"BCI":1}</script>
 
 <script>
 (function(){

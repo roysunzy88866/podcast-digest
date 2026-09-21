@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gonen Stein":1,"Eon":1,"智能体":281,"数据基础层":1,"ETL":2,"token":22,"后训练":26,"PLG":11,"Google":46,"AWS":13}</script>
+<script type="application/json" class="pd-epn">{"Gonen Stein":1,"Eon":1,"智能体":282,"数据基础层":1,"ETL":2,"token":22,"后训练":26,"PLG":11,"Google":46,"AWS":13}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Niantic Spatial":1,"Google Earth":1,"Google Maps":2,"NVIDIA":39,"四维世界模型":1,"视觉定位":1,"Gaussian Splats":2,"仿真到真实":1,"数字分身":3,"自检机制":1}</script>
+<script type="application/json" class="pd-epn">{"Niantic Spatial":1,"Google Earth":1,"Google Maps":2,"NVIDIA":40,"四维世界模型":1,"视觉定位":1,"Gaussian Splats":2,"仿真到真实":1,"数字分身":3,"自检机制":1}</script>
 
 <script>
 (function(){

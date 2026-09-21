@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Block":3,"Goose":2,"Zed":3,"JetBrains":2,"ACP（智能体客户端协议）":1,"MCP":48,"harness":40,"智能体":281}</script>
+<script type="application/json" class="pd-epn">{"Block":3,"Goose":2,"Zed":3,"JetBrains":2,"ACP（智能体客户端协议）":1,"MCP":48,"harness":40,"智能体":282}</script>
 
 <script>
 (function(){

@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Max Junestrand]] · [[Simon Eskildsen]] · [[微调]] · [[Jacob Lauritzen]] · [[评估]] · [[Turbo Puffer]] · [[GPT 3.5]] · [[对象存储]] · [[大语言模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":281,"Max Junestrand":1,"Simon Eskildsen":1,"微调":18,"Jacob Lauritzen":1,"评估":2,"Turbo Puffer":1,"GPT 3.5":1,"对象存储":1,"大语言模型":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":282,"Max Junestrand":1,"Simon Eskildsen":1,"微调":18,"Jacob Lauritzen":1,"评估":2,"Turbo Puffer":1,"GPT 3.5":1,"对象存储":1,"大语言模型":6}</script>
 
 <script>
 (function(){

@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Eric Newcomer":1,"NVIDIA":39,"Hugging Face":21,"开源":23,"蒸馏":11,"推理":50,"新云":2,"前沿模型":17,"垂直 AI":2,"智能体":281}</script>
+<script type="application/json" class="pd-epn">{"Eric Newcomer":1,"NVIDIA":40,"Hugging Face":22,"开源":24,"蒸馏":11,"推理":51,"新云":2,"前沿模型":18,"垂直 AI":2,"智能体":282}</script>
 
 <script>
 (function(){

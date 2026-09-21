@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"YC":15,"创始人-市场契合度":3,"智能体":281,"模型能力的边缘":1,"垂直化":1,"SaaS":17}</script>
+<script type="application/json" class="pd-epn">{"YC":15,"创始人-市场契合度":3,"智能体":282,"模型能力的边缘":1,"垂直化":1,"SaaS":17}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Base 10":1,"推理":50,"专用推理":1,"开源模型":19,"后训练":26,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":63,"Decagon":7}</script>
+<script type="application/json" class="pd-epn">{"Base 10":1,"推理":51,"专用推理":1,"开源模型":19,"后训练":26,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":63,"Decagon":7}</script>
 
 <script>
 (function(){

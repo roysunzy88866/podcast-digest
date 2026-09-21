@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":281,"子智能体":1,"harness":40,"提示词缓存":2,"记忆":13,"评估":2,"LLM 当裁判":6,"沙箱":53,"人在回路":11}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":282,"子智能体":1,"harness":40,"提示词缓存":2,"记忆":13,"评估":2,"LLM 当裁判":6,"沙箱":53,"人在回路":11}</script>
 
 <script>
 (function(){

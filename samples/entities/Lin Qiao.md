@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Fireworks":4,"Cursor":63,"NVIDIA":39,"Anthropic":130,"OpenRouter":10,"Meta":35,"专用智能":1,"AGI":25,"推理":50}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Fireworks":5,"Cursor":63,"NVIDIA":40,"Anthropic":131,"OpenRouter":10,"Meta":35,"专用智能":1,"AGI":25,"推理":51}</script>
 
 <script>
 (function(){

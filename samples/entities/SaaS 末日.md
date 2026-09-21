@@ -33,7 +33,7 @@ unlisted: true
 
 [[Max Schoening]] · [[Lenny]] · [[Notion]] · [[GitHub]] · [[Heroku]] · [[Anthropic]] · [[OpenAI]] · [[Figma]] · [[主观能动性]] · [[可塑软件]]
 
-<script type="application/json" class="pd-epn">{"Max Schoening":1,"Lenny":67,"Notion":13,"GitHub":22,"Heroku":1,"Anthropic":130,"OpenAI":123,"Figma":19,"主观能动性":19,"可塑软件":1}</script>
+<script type="application/json" class="pd-epn">{"Max Schoening":1,"Lenny":67,"Notion":13,"GitHub":22,"Heroku":1,"Anthropic":131,"OpenAI":124,"Figma":19,"主观能动性":19,"可塑软件":1}</script>
 
 <script>
 (function(){

@@ -24,7 +24,7 @@ unlisted: true
 
 [[Theo Jaffe]] · [[Anthropic]] · [[蒸馏]] · [[OpenAI]] · [[Kimi K3]] · [[开源]] · [[Hugging Face]] · [[开放权重]] · [[Sriram Krishnan]] · [[Ben Horowitz]]
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":6,"Anthropic":130,"蒸馏":11,"OpenAI":123,"Kimi K3":2,"开源":23,"Hugging Face":21,"开放权重":5,"Sriram Krishnan":1,"Ben Horowitz":4}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":6,"Anthropic":131,"蒸馏":11,"OpenAI":124,"Kimi K3":2,"开源":24,"Hugging Face":22,"开放权重":5,"Sriram Krishnan":1,"Ben Horowitz":4}</script>
 
 <script>
 (function(){

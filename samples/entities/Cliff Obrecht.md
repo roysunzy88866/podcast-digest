@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":2,"Canva":4,"智能体循环":4,"免费增值":2,"推理":50,"模板":2,"SEO":7,"人在回路":11}</script>
+<script type="application/json" class="pd-epn">{"John Collison":2,"Canva":4,"智能体循环":4,"免费增值":2,"推理":51,"模板":2,"SEO":7,"人在回路":11}</script>
 
 <script>
 (function(){

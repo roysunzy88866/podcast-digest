@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":60,"Claude Code":65,"智能体":281,"对抗性智能体":1,"MCP":48,"知识库":1,"技能":16,"vibe coding":35,"红队测试":4}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":60,"Claude Code":65,"智能体":282,"对抗性智能体":1,"MCP":48,"知识库":1,"技能":16,"vibe coding":35,"红队测试":4}</script>
 
 <script>
 (function(){

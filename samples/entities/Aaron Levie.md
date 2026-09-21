@@ -88,11 +88,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Box":4,"开放权重":5,"推理":50,"Sofia Puccini":4,"智能体":281,"Theo Jaffe":6,"应用层":3,"Anthropic":130,"LLM 套壳":1,"OpenAI":123}</script>
+<script type="application/json" class="pd-epn">{"Box":4,"开放权重":5,"推理":51,"Sofia Puccini":4,"智能体":282,"Theo Jaffe":6,"应用层":3,"Anthropic":131,"LLM 套壳":1,"OpenAI":124}</script>
 
 <script>
 (function(){

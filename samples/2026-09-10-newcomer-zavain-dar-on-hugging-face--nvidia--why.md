@@ -177,9 +177,9 @@ AI 制药公司在做什么？他举了两类：
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、Hugging Face · 同概念:前沿模型 (frontier model)、开源 (open source)、推理 (inference)、智能体 (agent)</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Anthropic、Hugging Face、NVIDIA、OpenAI、Cognition、Cursor · 同概念:开源 (open source)、智能体 (agent)</span>
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"]]<span class="pd-rz">同公司:Anthropic、Hugging Face、NVIDIA、OpenAI · 同概念:前沿模型 (frontier model)、推理 (inference)、智能体 (agent)</span>
-- [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:开源 (open source)、推理 (inference)、蒸馏 (distillation)</span>
 
 </div>
 <div class="pd-ex">

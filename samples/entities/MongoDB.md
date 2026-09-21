@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Google]] · [[Maor Shlomo]] · [[Brian Halligan]] · [[Matt Swulinski]] · [[Nathan]] · [[Base44]] · [[HubSpot]] · [[Harry Stebbings]]
 
-<script type="application/json" class="pd-epn">{"智能体":281,"Lenny":67,"Google":46,"Maor Shlomo":1,"Brian Halligan":1,"Matt Swulinski":1,"Nathan":4,"Base44":3,"HubSpot":8,"Harry Stebbings":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":282,"Lenny":67,"Google":46,"Maor Shlomo":1,"Brian Halligan":1,"Matt Swulinski":1,"Nathan":4,"Base44":3,"HubSpot":8,"Harry Stebbings":18}</script>
 
 <script>
 (function(){

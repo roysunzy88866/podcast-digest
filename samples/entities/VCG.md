@@ -25,7 +25,7 @@ unlisted: true
 
 [[Peter Sellis]] · [[Snapchat]] · [[Snap]] · [[Discord]] · [[OpenAI]] · [[SpaceX]] · [[Meta]] · [[产品经理]] · [[广告]] · [[品味]]
 
-<script type="application/json" class="pd-epn">{"Peter Sellis":1,"Snapchat":3,"Snap":2,"Discord":5,"OpenAI":123,"SpaceX":17,"Meta":35,"产品经理":3,"广告":1,"品味":11}</script>
+<script type="application/json" class="pd-epn">{"Peter Sellis":1,"Snapchat":3,"Snap":2,"Discord":5,"OpenAI":124,"SpaceX":17,"Meta":35,"产品经理":3,"广告":1,"品味":11}</script>
 
 <script>
 (function(){

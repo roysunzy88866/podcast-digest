@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"捐赠基金":1,"LP":1,"GP":1,"资本的速度":1,"复合":2,"私募":1,"成长型股权":1,"fund of one":1,"混合基金":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"捐赠基金":1,"LP":1,"GP":1,"资本的速度":1,"复合":2,"私募":1,"成长型股权":1,"fund of one":1,"混合基金":1}</script>
 
 <script>
 (function(){

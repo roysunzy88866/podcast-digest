@@ -84,7 +84,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Harry Stebbings]] · [[ChatGPT]] · [[Lenny]] · [[NVIDIA]] · [[Stripe]] · [[SaaS]]
 
-<script type="application/json" class="pd-epn">{"智能体":281,"OpenAI":123,"Anthropic":130,"Cursor":63,"Harry Stebbings":17,"ChatGPT":74,"Lenny":67,"NVIDIA":39,"Stripe":33,"SaaS":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":282,"OpenAI":124,"Anthropic":131,"Cursor":63,"Harry Stebbings":18,"ChatGPT":74,"Lenny":67,"NVIDIA":40,"Stripe":33,"SaaS":17}</script>
 
 <script>
 (function(){

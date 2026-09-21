@@ -166,7 +166,7 @@ Marketplace 供给侧做得好的秘诀有三：专家按时、透明、丰厚�
 
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:开源模型 (open source)、智能体 (agent)</span>
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|硬科技复兴、智能体营收与单人创始人：YC 最前沿观察]]<span class="pd-rz">同概念:RL 环境 (RL environments)、智能体 (agent)、机器人 (robotics)</span>
-- [[2026-08-11-talks-how-harvey-built-a-research-lab-on-a-bud|应用公司如何低成本建自己的AI研究实验室：Harvey 的实战手册]]<span class="pd-rz">同概念:RL 环境 (RL environments)、智能体 (agent)、合成数据 (synthetic data)</span>
+- [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:开源模型 (open source)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

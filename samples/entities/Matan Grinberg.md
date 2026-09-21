@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Factory":4,"Droid":1,"智能体":281,"harness":40,"模型独立性":1,"路由器":1,"token":22,"开源模型":19,"软件工厂":5,"基于结果的付费":3}</script>
+<script type="application/json" class="pd-epn">{"Factory":4,"Droid":1,"智能体":282,"harness":40,"模型独立性":1,"路由器":1,"token":22,"开源模型":19,"软件工厂":5,"基于结果的付费":3}</script>
 
 <script>
 (function(){

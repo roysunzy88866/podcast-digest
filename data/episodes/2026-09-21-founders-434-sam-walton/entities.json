@@ -1,0 +1,916 @@
+{
+  "episode_id": "2026-09-21-founders-434-sam-walton",
+  "podcast": "Founders",
+  "date": "2026-09-21",
+  "tags": [
+    "创始人传记",
+    "零售业",
+    "低成本战略",
+    "激励对齐",
+    "小镇市场策略"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "walmart",
+      "type": "company",
+      "role": "company",
+      "name": "Walmart",
+      "file": "Walmart",
+      "primary": true,
+      "how_described": "本集主线：山姆·沃尔顿用五十年打造的折扣零售帝国，靠买得便宜、卖得低廉、行政成本只占收入2%的低成本信仰建成有史以来最大的零售帝国",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            119.054,
+            124.196
+          ],
+          "quote": "He just wanted to wake up every day, work on Walmart, and then he was fine with changing his mind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            316.658,
+            326.549
+          ],
+          "quote": "And one thing that Sam learned was that the company's strength, meaning JCPenney, was in these small towns and small cities, an idea he's gonna later adopt when he starts Walmart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            362.255,
+            380.123
+          ],
+          "quote": "And then another idea that Sam's going to borrow and copy when he does Walmart and even before in the early days of the stores that he owns is aligning the incentives and making sure that the managers of each store have essentially unlimited upside that they can make a lot of money depending on how the sales and profitability of their stores are.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            841.334,
+            845.977
+          ],
+          "quote": "Without this idea, his Walmart phenomenon would have never seen the light of day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            980.426,
+            985.371
+          ],
+          "quote": "I would say he's probably underfinanced until he actually takes Walmart public many, many years from in the future from where we're in the story.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1067.677,
+            1074.943
+          ],
+          "quote": "They said all the stuff they were learning in these many, many years of building up this other Ben Franklin franchise, they would use decades later with Walmart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1075.203,
+            1077.965
+          ],
+          "quote": "The decisions were made for Walmart long before the company",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1194.075,
+            1198.499
+          ],
+          "quote": "What I did later was take pieces of it and make our Walmart as much like it as I could.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1376.643,
+            1378.684
+          ],
+          "quote": "This is the idea that will turn into Walmart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1382.126,
+            1387.688
+          ],
+          "quote": "So he goes to the headquarters of Ben Franklin and he pitches them on the idea that's going to become Walmart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1510.165,
+            1521.093
+          ],
+          "quote": "One of the reasons that Walmart is called Walmart in part is because the name Walmart contains fewer letters, which means cheaper signs outside of the store.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1543.802,
+            1548.886
+          ],
+          "quote": "And this beginning of this Walmart empire, which is going to be Sam Walton's life's work, is rather humble.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1552.87,
+            1555.932
+          ],
+          "quote": "The first Walmart, he knew he needed to do volume, but he didn't have any money.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1556.172,
+            1557.754
+          ],
+          "quote": "So the first Walmart was very, very small.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1619.364,
+            1624.149
+          ],
+          "quote": "David Glass will be the CEO of Walmart 20 years into the future, we're in the story.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1624.409,
+            1628.753
+          ],
+          "quote": "At this time, Sam tries to recruit him by taking him to the second Walmart ever opened.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1629.193,
+            1633.457
+          ],
+          "quote": "This is a wild story about what the second Walmart ever opened was like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            1807.968,
+            1815.15
+          ],
+          "quote": "So when he's 48 years old, his empire consists of 18 Ben Franklin variety stores and just four Walmart discount stores.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            1852.633,
+            1856.996
+          ],
+          "quote": "Hardly a day passed without Sam reminding an employee, remember Walmart's golden rule.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 475,
+          "t": [
+            1867.564,
+            1869.947
+          ],
+          "quote": "Let's say you buy a pair of shoes at Walmart and you return them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2021.538,
+            2035.423
+          ],
+          "quote": "And so this is the paragraph comparing the founder of Walmart with the founder of this company called James Way says, both of the founders sport no frills headquarters, call employees by the more dignified term of associates and promote the same we care mottos in the store.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2044.349,
+            2052.455
+          ],
+          "quote": "Walmart is 26 times the size of Jamesway, yet it still racks up profit margins three times as high as its smaller rival.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2064.164,
+            2066.165
+          ],
+          "quote": "Walmart's gonna be one of the most valuable companies ever created.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2073.308,
+            2078.67
+          ],
+          "quote": "And it says it was still largely a seat of the pants instinct of Sam Walton that guided his Walmart expansion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2080.87,
+            2082.731
+          ],
+          "quote": "They talk about the eighth Walmart ever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2086.813,
+            2091.955
+          ],
+          "quote": "The eighth Walmart ever was this old Coca-Cola bottling plant that had went out of business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2114.6,
+            2116.601
+          ],
+          "quote": "Walmart's eventually going to go public in 1970.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2121.483,
+            2126.846
+          ],
+          "quote": "And again, I think this is absolutely nuts that he kind of nails down the future sales growth of Walmart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2179.352,
+            2181.634
+          ],
+          "quote": "Sam was aware of the Walmart lifestyle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2270.72,
+            2278.726
+          ],
+          "quote": "He jumps into the cab and rides a hundred miles with the driver to gain firsthand experience that might improve Walmart's transportation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 599,
+          "t": [
+            2393.239,
+            2400.101
+          ],
+          "quote": "In this book, it says Walmart boasts that their total administrative cost amounts to 2% of revenue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2447.387,
+            2452.088
+          ],
+          "quote": "Other executives in Walmart are telling about the importance of computers, that maybe we can use this, we can have an advantage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2485.099,
+            2489.801
+          ],
+          "quote": "Finally, his lieutenants educated to convince Sam and Walmart spent $500 million.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2489.881,
+            2495.363
+          ],
+          "quote": "So it's this computer system that's going to link the Walmart stores, warehouses, and distribution centers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2507.955,
+            2516.764
+          ],
+          "quote": "In the 1979 Walmart annual report, Sam wrote the financial savings and the number of person hours saved daily by using the computer center.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2526.533,
+            2529.376
+          ],
+          "quote": "So it says Walmart was growing too slowly to suit Sam.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2593.917,
+            2598.1
+          ],
+          "quote": "And so one of his friend's daughters has a bad experience in a Walmart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 679,
+          "t": [
+            2695.533,
+            2696.873
+          ],
+          "quote": "From Walmart into Sam's Club.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 725,
+          "t": [
+            2898.164,
+            2905.911
+          ],
+          "quote": "Stock market crashes, says the day the market dropped 500 points and knocked a billion dollars off the value of his stock holdings in Walmart.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jcpenney",
+      "type": "company",
+      "role": "company",
+      "name": "JCPenney",
+      "file": "JCPenney",
+      "primary": true,
+      "how_described": "山姆1940年入行的第一份工作（月薪85美元），他从这里学到顾客满意度先于利润、小镇是优势、对齐激励和节省纸绳等用了一辈子的理念",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            257.279,
+            262.041
+          ],
+          "quote": "But he decides he needs to make money, so he interviews for a job at the retail store, JCPenney.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            262.161,
+            268.343
+          ],
+          "quote": "And this is really important because there's a lot of ideas that he learned at JCPenney that he's gonna use for the next 50 years of his own career.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            269.003,
+            271.145
+          ],
+          "quote": "So he says, I interviewed a JCPenney and I liked what I heard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            281.753,
+            290.059
+          ],
+          "quote": "Sam Walton knew little of the scope of the JCPenney company chain and absolutely no details of the personality and meteoric rise of the old man himself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            300.807,
+            307.011
+          ],
+          "quote": "In fact, Sam would borrow JCPenney's whole concept of how to succeed by putting customer satisfaction ahead of profits.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            316.658,
+            326.549
+          ],
+          "quote": "And one thing that Sam learned was that the company's strength, meaning JCPenney, was in these small towns and small cities, an idea he's gonna later adopt when he starts Walmart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            327.069,
+            329.512
+          ],
+          "quote": "And this is one of Sam Walton's favorite stories about JCPenney.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            329.732,
+            332.916
+          ],
+          "quote": "JCPenney himself arrived in town and spent a lot of time wandering around the store.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            334.958,
+            340.281
+          ],
+          "quote": "A customer came in and bought something from Sam, and while he wrapped it for her, JCPenney was observing the transaction closely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            908.298,
+            915.243
+          ],
+          "quote": "He takes that idea that he learned from JCPenney and the store managers all had a good percentage deal to help get them committed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1155.675,
+            1165.687
+          ],
+          "quote": "So it says, one of the first basic lessons that Sam Walton learned at JCPenney was not to be so smug you ignored your competitors, especially their successful policies and practices.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 687,
+          "t": [
+            2723.978,
+            2732.404
+          ],
+          "quote": "Sam intended to borrow from Sol Price just as he had copied schemes originated by JCPenney, Herb Gibson, and many other good merchants.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ben-franklin",
+      "type": "company",
+      "role": "company",
+      "name": "Ben Franklin",
+      "file": "Ben Franklin",
+      "primary": true,
+      "how_described": "山姆27岁用岳父借的2.5万美元买下的五分一毛店特许经营权，他在此磨炼五年半，练出的本领后来全部用在了Walmart上；总部曾拒绝他后来变成Walmart的那个想法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            412.477,
+            417.1
+          ],
+          "quote": "And so when he's 27, he decides to buy a franchise of a Ben Franklin five and dime store.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            674.833,
+            677.395
+          ],
+          "quote": "I can find another good town and another Ben Franklin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1042.499,
+            1044.601
+          ],
+          "quote": "And so they're building out this chain of Ben Franklin stores.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1067.677,
+            1074.943
+          ],
+          "quote": "They said all the stuff they were learning in these many, many years of building up this other Ben Franklin franchise, they would use decades later with Walmart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1079.446,
+            1082.588
+          ],
+          "quote": "Back in the Ben Franklin days, we learned so much.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1083.149,
+            1090.414
+          ],
+          "quote": "The Ben Franklin store showed us how much volume there was if we went into larger units in small communities and pushed the merchandise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1378.704,
+            1381.826
+          ],
+          "quote": "Remember, he is a franchisee of these Ben Franklin stores.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1382.126,
+            1387.688
+          ],
+          "quote": "So he goes to the headquarters of Ben Franklin and he pitches them on the idea that's going to become Walmart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1410.54,
+            1414.062
+          ],
+          "quote": "The Ben Franklin executives exchanged sour looks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1446.176,
+            1451.981
+          ],
+          "quote": "The very next day, one of the executives from Ben Franklin that was in the store decides to go take a look.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1531.318,
+            1539.52
+          ],
+          "quote": "Well, Sammy said, you had me buying the letters to go up on our Ben Franklin stores and I know how much they cost and how much they cost to repair and how much they cost to light.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            1807.968,
+            1815.15
+          ],
+          "quote": "So when he's 48 years old, his empire consists of 18 Ben Franklin variety stores and just four Walmart discount stores.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kmart",
+      "type": "company",
+      "role": "company",
+      "name": "Kmart",
+      "file": "Kmart",
+      "primary": true,
+      "how_described": "Harry Cunningham 提出的折扣零售概念，山姆承认「我后来所做的，就是取其片段，让我们的 Walmart 尽可能像它」；Kmart 聚焦大都会，无视小镇里的山姆，给了他10年成长时间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 300,
+          "t": [
+            1176.217,
+            1182.984
+          ],
+          "quote": "And then one of the people that he studies most intently is this guy named Harry Cunningham who comes up with the Kmart concept.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1183.484,
+            1193.554
+          ],
+          "quote": "So since he came up with the Kmart concept, I have always had the greatest admiration for Harry Cunningham because when he threw that down, that thing was 10 or 20 years ahead of its time and he did it better than anybody else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1202.521,
+            1203.682
+          ],
+          "quote": "Kmart just ignored us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1217.447,
+            1224.31
+          ],
+          "quote": "So the difference in strategies are essentially they're both doing discounting retail, but Kmart focused on major metropolis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1369.96,
+            1373.582
+          ],
+          "quote": "He tries to give away, he's going to decide to compete with Kmart, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1392.11,
+            1393.031
+          ],
+          "quote": "We can compete with Kmart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1452.001,
+            1454.803
+          ],
+          "quote": "He's like, I want to get a close look at this new Kmart idea.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1455.324,
+            1457.525
+          ],
+          "quote": "And he shows up at the closest Kmart.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sam-s-club",
+      "type": "company",
+      "role": "company",
+      "name": "Sam's Club",
+      "file": "Sam's Club",
+      "primary": true,
+      "how_described": "1983年山姆飞去圣地亚哥研究 Sol Price 的会员制仓储俱乐部后照搬出的业务线，七年内开出105家、年销售额超50亿美元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 679,
+          "t": [
+            2695.533,
+            2696.873
+          ],
+          "quote": "From Walmart into Sam's Club.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "align-incentives",
+      "type": "concept",
+      "role": "concept",
+      "name": "激励对齐 (align incentives)",
+      "file": "激励对齐",
+      "primary": true,
+      "how_described": "本集反复强调的点子：店经理拿25%利润分成、上不封顶——山姆1940年在 JCPenney 看到那位挥舞6.5万美元支票的经理后，用到退休",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            872.09,
+            873.651
+          ],
+          "quote": "Number four, align incentives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            906.937,
+            908.098
+          ],
+          "quote": "Number four, align incentives.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "management-by-walking-around",
+      "type": "concept",
+      "role": "concept",
+      "name": "走动式管理 (management by walking around)",
+      "file": "走动式管理",
+      "primary": true,
+      "how_described": "本集说山姆严肃地把他的管理风格定义为 MBWA：不停巡逛门店（包括竞争对手的店）收集一手信息，拦下半挂卡车跟司机跑一百英里、凌晨两点半去仓库向装卸工征集点子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 209,
+          "t": [
+            858.902,
+            861.664
+          ],
+          "quote": "He's going to talk about management by walking around over and over again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2307.345,
+            2315.07
+          ],
+          "quote": "So when Sam discusses his management style, he's dead serious about identifying it as MBWA, management by walking around.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "low-costs",
+      "type": "concept",
+      "role": "concept",
+      "name": "低成本 (low costs)",
+      "file": "低成本",
+      "primary": true,
+      "how_described": "本集说这是山姆的信仰：「如果你运营高效，可以犯很多错仍恢复过来；如果效率太低，即便才华出众也仍会倒闭」——公司名字叫 Walmart 的部分原因就是招牌字母更便宜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 386,
+          "t": [
+            1487.772,
+            1491.894
+          ],
+          "quote": "So one thing that he knows about discount retailing, if you're going to be a discounter, you have to have low costs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "discounting",
+      "type": "concept",
+      "role": "concept",
+      "name": "折扣零售 (discounting)",
+      "file": "折扣零售",
+      "primary": true,
+      "how_described": "本集说山姆「完全被折扣销售这个想法迷住了」，并深知做折扣商就必须有低成本，这正是 Walmart 与 Kmart 共同的生意模式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 299,
+          "t": [
+            1172.394,
+            1175.757
+          ],
+          "quote": "I was totally fascinated by the idea of discounting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1217.447,
+            1224.31
+          ],
+          "quote": "So the difference in strategies are essentially they're both doing discounting retail, but Kmart focused on major metropolis.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "resistance-to-change",
+      "type": "concept",
+      "role": "concept",
+      "name": "对变化的抗拒（RC 因素） (resistance to change)",
+      "file": "对变化的抗拒（RC 因素）",
+      "primary": true,
+      "how_described": "本集说山姆称之为 RC 因素：得到新信息就改方向、保持极低的变化阻力——从购物中心项目失败回头，到1979年听懂后一把砸5亿美元上计算机系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 568,
+          "t": [
+            2243.887,
+            2246.788
+          ],
+          "quote": "You need to have a low RC, which is resistance to change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2247.208,
+            2249.228
+          ],
+          "quote": "We have a low resistance to change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2432.778,
+            2440.303
+          ],
+          "quote": "And then we go back to his idea of, hey, I want to make sure I have a low resistance to change, even at 61, which is, you know, he's been running, now he's been in retail for four decades at this point.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shopping-centers",
+      "type": "concept",
+      "role": "concept",
+      "name": "购物中心 (shopping centers)",
+      "file": "购物中心",
+      "primary": false,
+      "how_described": "本集说山姆曾想自己开发购物中心，第一个项目就失败，「我的钱用完了，决定回去做一个商人」——余生再没偏离焦点",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 232,
+          "t": [
+            934.435,
+            939.938
+          ],
+          "quote": "And yet he got temporarily distracted because at this time in American history, they start developing these new things called shopping centers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            944.981,
+            946.962
+          ],
+          "quote": "Maybe I want to own and develop these shopping centers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            955.787,
+            959.049
+          ],
+          "quote": "I was going to develop shopping centers all over the country without any money and become a magnet.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

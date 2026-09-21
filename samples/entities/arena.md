@@ -27,7 +27,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[Zico Kolter]] · [[Anastasios Angelopoulos]] · [[Matt Fredrikson]] · [[Mamoun Hamid]] · [[Gray Swan]] · [[Jubin]] · [[Snowflake]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":130,"智能体":281,"Zico Kolter":1,"Anastasios Angelopoulos":1,"Matt Fredrikson":1,"Mamoun Hamid":1,"Gray Swan":1,"Jubin":1,"Snowflake":10,"评估":2}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":131,"智能体":282,"Zico Kolter":1,"Anastasios Angelopoulos":1,"Matt Fredrikson":1,"Mamoun Hamid":1,"Gray Swan":1,"Jubin":1,"Snowflake":10,"评估":2}</script>
 
 <script>
 (function(){

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":130,"智能体":281,"harness":40,"沙箱":53,"智能体循环":4,"上下文工程":12,"会话日志追踪":2,"泄露的凭证":3,"可观测性":23}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":131,"智能体":282,"harness":40,"沙箱":53,"智能体循环":4,"上下文工程":12,"会话日志追踪":2,"泄露的凭证":3,"可观测性":23}</script>
 
 <script>
 (function(){

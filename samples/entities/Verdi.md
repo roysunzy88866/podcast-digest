@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sebastian Barrios]] · [[MercadoLibre]] · [[智能体]] · [[微服务]] · [[彻底坦诚]] · [[OKRs]] · [[Roblox]] · [[主观能动性]]
 
-<script type="application/json" class="pd-epn">{"Sebastian Barrios":1,"MercadoLibre":1,"智能体":281,"微服务":2,"彻底坦诚":2,"OKRs":1,"Roblox":3,"主观能动性":19}</script>
+<script type="application/json" class="pd-epn">{"Sebastian Barrios":1,"MercadoLibre":1,"智能体":282,"微服务":2,"彻底坦诚":2,"OKRs":1,"Roblox":3,"主观能动性":19}</script>
 
 <script>
 (function(){

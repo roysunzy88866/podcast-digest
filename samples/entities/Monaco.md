@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sam Blond]] · [[Brex]] · [[Zenefits]] · [[EchoSign]] · [[Salesforce]] · [[go-to-market]] · [[智能体]] · [[记录系统]] · [[单点解决方案]] · [[创新者的窘境]]
 
-<script type="application/json" class="pd-epn">{"Sam Blond":1,"Brex":4,"Zenefits":1,"EchoSign":1,"Salesforce":24,"go-to-market":8,"智能体":281,"记录系统":5,"单点解决方案":2,"创新者的窘境":3}</script>
+<script type="application/json" class="pd-epn">{"Sam Blond":1,"Brex":4,"Zenefits":1,"EchoSign":1,"Salesforce":24,"go-to-market":8,"智能体":282,"记录系统":5,"单点解决方案":2,"创新者的窘境":3}</script>
 
 <script>
 (function(){

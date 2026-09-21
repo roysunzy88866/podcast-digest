@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>130</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>131</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -138,6 +138,7 @@ unlisted: true
 - **[[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]]**(31:01起):本集说它与 OpenAI 一样已成大型科技公司，模型会做到最强，但不可能构建一切。
 - **[[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]]**(18:01起):本集中作为前沿实验室被讨论的对象之一：Martin 提出『如果两周后只剩 12 人还加速发模型就该警惕』的试金石，并提及行业要求第三方监管的提议。
 - **[[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]]**(12:02起):本集说其 API 业务据报道毛利高达 80 个点，主因是缓存 token 的惊人利润；Dario 提出「守住前沿」，但 Thomas 认为 Anthropic 内部大多是真信徒，且若停止训练就能一夜之间巨额盈利。
+- **[[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]]**(38:09起):Dines 押注的公司(「上一期播客里你问我押哪家,我说 Anthropic」),其 CEO Dario 提出「数据中心里数百万爱因斯坦」的说法构成本集讨论起点;Dines 仍会用其划算模型但坚持保留开源备份不被锁定。
 
 ## ① 提到它的金句
 
@@ -185,7 +186,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*130 集*
+*131 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -317,14 +318,15 @@ unlisted: true
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]] — 作为被讨论公司(提及)
 - [[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|《AI 末日论反弹：是营销烟雾弹，还是真该警惕？》]] — 作为被讨论公司
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]] — 作为被讨论公司
+- [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[Claude]] · [[NVIDIA]] · [[推理]] · [[Lenny]] · [[Google]] · [[ChatGPT]]
+[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Cursor]] · [[NVIDIA]] · [[Claude]] · [[推理]] · [[Lenny]] · [[Google]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":281,"OpenAI":123,"Claude Code":65,"Cursor":63,"Claude":60,"NVIDIA":39,"推理":50,"Lenny":67,"Google":46,"ChatGPT":74}</script>
+<script type="application/json" class="pd-epn">{"智能体":282,"OpenAI":124,"Claude Code":65,"Cursor":63,"NVIDIA":40,"Claude":60,"推理":51,"Lenny":67,"Google":46,"ChatGPT":74}</script>
 
 <script>
 (function(){

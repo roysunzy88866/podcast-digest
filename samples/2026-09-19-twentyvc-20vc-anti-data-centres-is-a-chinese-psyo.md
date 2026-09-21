@@ -159,8 +159,8 @@ token 价格指数从五年前每百万 60 美元跌破 1 美元，但 Thomas �
 **顺着「智能体」挖下去**
 
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、NVIDIA、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
+- [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、NVIDIA、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
 - [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Anthropic、NVIDIA · 同概念:token、推理 (inference)</span>
-- [[2026-08-11-yc-peter-steinberger-fun-is-velocity-e3n9ea|OpenClaw 创始人复盘:被 18,000 人狂改、被舆论压垮,我学到了什么]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI · 同概念:KV 缓存 (KV cache)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

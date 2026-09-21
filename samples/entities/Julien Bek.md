@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":17,"Sequoia":5,"智能体":281,"Copilot":11,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":5,"SpaceX":17}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":18,"Sequoia":5,"智能体":282,"Copilot":11,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":5,"SpaceX":17}</script>
 
 <script>
 (function(){

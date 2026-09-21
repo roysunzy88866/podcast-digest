@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Electric":1,"Electric Agents":1,"智能体":281,"沙箱":53,"会话日志追踪":2,"多智能体系统":5,"Managed Agents":4,"Anthropic":130,"Cloudflare":9,"Vercel AI SDK":2}</script>
+<script type="application/json" class="pd-epn">{"Electric":1,"Electric Agents":1,"智能体":282,"沙箱":53,"会话日志追踪":2,"多智能体系统":5,"Managed Agents":4,"Anthropic":131,"Cloudflare":9,"Vercel AI SDK":2}</script>
 
 <script>
 (function(){

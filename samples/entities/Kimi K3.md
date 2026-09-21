@@ -27,7 +27,7 @@ unlisted: true
 
 [[Theo Jaffe]] · [[Sofia Puccini]] · [[蒸馏]] · [[Anthropic]] · [[OpenAI]] · [[Sriram Krishnan]] · [[Aaron Levie]] · [[开源权重]] · [[Box]] · [[Frontier Labs]]
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":6,"Sofia Puccini":4,"蒸馏":11,"Anthropic":130,"OpenAI":123,"Sriram Krishnan":1,"Aaron Levie":2,"开源权重":8,"Box":4,"Frontier Labs":3}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":6,"Sofia Puccini":4,"蒸馏":11,"Anthropic":131,"OpenAI":124,"Sriram Krishnan":1,"Aaron Levie":2,"开源权重":8,"Box":4,"Frontier Labs":3}</script>
 
 <script>
 (function(){

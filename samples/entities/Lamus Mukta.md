@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":9,"Anthropic":130,"Claude Tag":2,"Claude Code":65,"智能体":281,"沙箱":53,"记忆":13,"dreaming":3,"智能体身份":2}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":9,"Anthropic":131,"Claude Tag":2,"Claude Code":65,"智能体":282,"沙箱":53,"记忆":13,"dreaming":3,"智能体身份":2}</script>
 
 <script>
 (function(){

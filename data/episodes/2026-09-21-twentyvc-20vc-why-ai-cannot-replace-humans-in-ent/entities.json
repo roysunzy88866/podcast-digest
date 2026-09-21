@@ -1,0 +1,1135 @@
+{
+  "episode_id": "2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-09-21",
+  "tags": [
+    "企业自动化",
+    "AI 智能体",
+    "开源模型",
+    "vibe coding",
+    "企业 AI 转型"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "daniel-dines",
+      "type": "person",
+      "role": "host",
+      "name": "Daniel Dines",
+      "file": "Daniel Dines",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            26.107,
+            33.349
+          ],
+          "quote": "Now joining me in the hot seat today is one of my dearest friends and one of the greatest founders of the last decade, Daniel Dines, founder and CEO of UiPath.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "cohost",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            24.287,
+            26.067
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "uipath",
+      "type": "company",
+      "role": "company",
+      "name": "UiPath",
+      "file": "UiPath",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            26.107,
+            33.349
+          ],
+          "quote": "Now joining me in the hot seat today is one of my dearest friends and one of the greatest founders of the last decade, Daniel Dines, founder and CEO of UiPath.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            471.599,
+            497.285
+          ],
+          "quote": "If we look at the majority of actually what the people within UiPath and every company do, whether it's accounting and finance, whether it's marketing and sales, whether largely outbound and inbound, but whether it's social media, and dude, most of this is execution oriented, where yes, judgment and ambiguity and taste is important at the top, but most of what people do is execution.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            616.235,
+            624.599
+          ],
+          "quote": "We make our UiPath platform available for coding agents, so people are making, it's much easier to create automations on UiPath right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            926.697,
+            929.458
+          ],
+          "quote": "You work with some of the biggest enterprises in the world with UiPath.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 767,
+          "t": [
+            3578.845,
+            3580.866
+          ],
+          "quote": "How much revenue does UiPath do today?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 780,
+          "t": [
+            3626.73,
+            3636.391
+          ],
+          "quote": "So if I were to flip it on you, and we do a final one for a quick fire, what is the bull case to UiPath being a $50 billion company?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 820,
+          "t": [
+            3836.282,
+            3839.203
+          ],
+          "quote": "What's the hardest thing about your job today as CEO of UiPath?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "Dines 押注的公司(「上一期播客里你问我押哪家,我说 Anthropic」),其 CEO Dario 提出「数据中心里数百万爱因斯坦」的说法构成本集讨论起点;Dines 仍会用其划算模型但坚持保留开源备份不被锁定。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 479,
+          "t": [
+            2289.086,
+            2295.708
+          ],
+          "quote": "I will not say there is no value in the... Why the Anthropic is trying to do IPO in the end?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2313.173,
+            2318.36
+          ],
+          "quote": "Do you believe all the investors in OpenAI and Anthropic will stay in the companies for years to come?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2334.159,
+            2336.7
+          ],
+          "quote": "Anthropic in particular, I wouldn't.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2342.584,
+            2344.045
+          ],
+          "quote": "And I said, Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2344.085,
+            2347.307
+          ],
+          "quote": "And Anthropic was worth $60 billion market cap.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2417.87,
+            2426.218
+          ],
+          "quote": "Because if Anthropic and OpenAI, if this is becoming a dual poly, and basically I think their TAM is in like trillions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2433.205,
+            2435.988
+          ],
+          "quote": "Of course, I mean, OpenAI are doing Jalapeno and Anthropic are doing their own chips.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2436.989,
+            2448.14
+          ],
+          "quote": "So I don't think Jensen's will be doing so well if they have the single biggest providers and the source of truth and light of God will come from only Anthropic and OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2814.026,
+            2819.191
+          ],
+          "quote": "Just to be clear then, so we will actually still use the core provider which is OpenAI and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2821.593,
+            2826.918
+          ],
+          "quote": "I will still use Anthropic and OpenAI with their cost-efficient model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2943.707,
+            2955.153
+          ],
+          "quote": "To me, where I'm not clear, if I can provide the same cost efficiency with my own model versus a cost efficient model from Anthropic and OpenAI,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 836,
+          "t": [
+            3921.52,
+            3926.425
+          ],
+          "quote": "I would bet more on NVIDIA rather than Anthropic being a seven billion company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集被反复讨论的模型提供商:Dines 认为 OpenAI 追赶得很好、会交替使用,ChatGPT 算大数幕后调用计算机是其「精确性」论证的例子;也是企业在 IP 泄露层面对前沿实验室的担忧对象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            572.18,
+            582.467
+          ],
+          "quote": "That's why people remain with OpenAI, because it has memory and it is able to infer from past queries, prompts, and give you suggestions based on those.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            950.75,
+            958.315
+          ],
+          "quote": "I don't think people are scared that OpenAI will build a competitor to them necessarily.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            972.725,
+            976.548
+          ],
+          "quote": "I don't think OpenAI is gonna come and compete with me on this thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            976.788,
+            984.074
+          ],
+          "quote": "But probably some of other guys can get indirectly via the models the same intelligence if OpenAI will train the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2296.408,
+            2303.69
+          ],
+          "quote": "But they're a unique company alongside OpenAI, which just has to because they have exhausted all private funding that exists.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2313.173,
+            2318.36
+          ],
+          "quote": "Do you believe all the investors in OpenAI and Anthropic will stay in the companies for years to come?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2356.913,
+            2359.454
+          ],
+          "quote": "And I think it's same with OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2360.375,
+            2365.078
+          ],
+          "quote": "I think OpenAI has catched up quite nicely and I use interchangeably right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2417.87,
+            2426.218
+          ],
+          "quote": "Because if Anthropic and OpenAI, if this is becoming a dual poly, and basically I think their TAM is in like trillions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2433.205,
+            2435.988
+          ],
+          "quote": "Of course, I mean, OpenAI are doing Jalapeno and Anthropic are doing their own chips.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2436.989,
+            2448.14
+          ],
+          "quote": "So I don't think Jensen's will be doing so well if they have the single biggest providers and the source of truth and light of God will come from only Anthropic and OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2496.388,
+            2502.67
+          ],
+          "quote": "You know, everyone talks about NVIDIA investing here, buying here, the circular economy that come from Oracle and OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2814.026,
+            2819.191
+          ],
+          "quote": "Just to be clear then, so we will actually still use the core provider which is OpenAI and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2821.593,
+            2826.918
+          ],
+          "quote": "I will still use Anthropic and OpenAI with their cost-efficient model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2943.707,
+            2955.153
+          ],
+          "quote": "To me, where I'm not clear, if I can provide the same cost efficiency with my own model versus a cost efficient model from Anthropic and OpenAI,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说 Jensen 受开源的成功所束缚——若只剩 Anthropic 与 OpenAI 双寡头它们会自造芯片,所以开源必须成功;收购 Hugging Face 被认为是把钱花在自己利益所在处。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 323,
+          "t": [
+            1568.921,
+            1574.024
+          ],
+          "quote": "I know for this customer, NVIDIA is gonna ship with priority to open AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1619.254,
+            1630.462
+          ],
+          "quote": "And exactly, when NVIDIA come back and say, whoa, whoa, whoa, we're your biggest buyer and we have special terms on our payments, they go, yeah, sure, that's right, don't worry about it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2479.689,
+            2482.653
+          ],
+          "quote": "You could say there's a loss of independence now that it's owned by NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2496.388,
+            2502.67
+          ],
+          "quote": "You know, everyone talks about NVIDIA investing here, buying here, the circular economy that come from Oracle and OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 832,
+          "t": [
+            3908.908,
+            3914.033
+          ],
+          "quote": "NVIDIA in three years' time, will it be above seven and a half trillion dollars?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 835,
+          "t": [
+            3917.676,
+            3921.42
+          ],
+          "quote": "I can easily imagine 40% run for NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 836,
+          "t": [
+            3921.52,
+            3926.425
+          ],
+          "quote": "I would bet more on NVIDIA rather than Anthropic being a seven billion company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fireworks",
+      "type": "company",
+      "role": "company",
+      "name": "Fireworks",
+      "file": "Fireworks",
+      "primary": true,
+      "how_described": "双方都投资的开源模型服务公司,Dines 自称忠实粉丝并大量使用;认为若开放模型假设成立则其被低估,但需尽快锁定算力,Dines 还在劝它把软件做成可本地部署以吃下欧洲主权生意。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 604,
+          "t": [
+            2857.874,
+            2859.395
+          ],
+          "quote": "That's why we invested in fireworks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2861.958,
+            2866.001
+          ],
+          "quote": "You know, I'm a big fan of fireworks and we are using them quite a bit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2921.913,
+            2924.415
+          ],
+          "quote": "It's in Fireworks or other provider, it doesn't matter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2985.499,
+            2992.062
+          ],
+          "quote": "And only if you can deliver, if Fireworks can deliver at a large scale and in a very optimized way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2992.303,
+            2994.884
+          ],
+          "quote": "Would you invest in Fireworks at $15 billion?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 762,
+          "t": [
+            3560.815,
+            3568.34
+          ],
+          "quote": "Look, I talked to our friends at Fireworks and I actually tried to convince them to make their software available on-prem.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": false,
+      "how_described": "本集提到被 NVIDIA 收购、托管所有开源模型,是一步好棋但也让中立供应商不再中立。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 521,
+          "t": [
+            2457.708,
+            2461.651
+          ],
+          "quote": "And I think it was a great move buying Hugging Face.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2461.691,
+            2462.471
+          ],
+          "quote": "Hugging Face, yes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线概念之一:Dines 认为今天部署 AI 智能体并不比两年前容易,「数百万爱因斯坦」目前只是推理能力、不是能上岗被工作改造的人;企业应让智能体跑在工作地图与轨道之上以免出错。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            127.999,
+            134.924
+          ],
+          "quote": "Asana is the operating system for human agent teams, your easy button for AI productivity across every team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1762.361,
+            1767.882
+          ],
+          "quote": "And we have a product that we call the Cartographer Agent that can interview people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1772.746,
+            1775.748
+          ],
+          "quote": "And the agent is interviewing them in real time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 786,
+          "t": [
+            3672.624,
+            3685.777
+          ],
+          "quote": "This idea that you can have an AI agent that runs everything for you from top level processes, orchestrate and automate everything by magic, I think it's kind of a thing that people stop believing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 793,
+          "t": [
+            3725.018,
+            3729.801
+          ],
+          "quote": "Creating an AI agent that run your software is as difficult as a year ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 796,
+          "t": [
+            3750.129,
+            3755.191
+          ],
+          "quote": "You put them in the same platform and then you can assign an agent to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 797,
+          "t": [
+            3755.811,
+            3758.132
+          ],
+          "quote": "And you tell the agent, this is the reality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 916,
+          "t": [
+            4182.153,
+            4189.059
+          ],
+          "quote": "Asana is the operating system for human agent teams, your easy button for AI productivity across every team.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agents)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "Dines 眼中 ChatGPT、思维链之后的第三个里程碑;正因为可以用编码智能体创建自动化,部署自动化比部署 AI 智能体容易得多——这是企业里 AI 与自动化部署的不对称性;UiPath 开放平台给编码智能体后还发现模型在开源技术上生成代码远好于自有技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            616.235,
+            624.599
+          ],
+          "quote": "We make our UiPath platform available for coding agents, so people are making, it's much easier to create automations on UiPath right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1163.303,
+            1171.486
+          ],
+          "quote": "But deploying automation has become much easier because I can create these automations with AI, with coding agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1171.866,
+            1177.528
+          ],
+          "quote": "Coding agents has been the most major giant leap that we were seeing in the past year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1178.008,
+            1185.31
+          ],
+          "quote": "I would say since the invention of ChatGPT, then chain of thoughts, and then coding agents were the major milestones.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1185.65,
+            1198.816
+          ],
+          "quote": "So with coding agents that act in kind of a design time, when I build the systems, I can create automations that work with exactness every time during the execution time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1804.307,
+            1815.773
+          ],
+          "quote": "And then after this map of work that showed the work as is, you can use our coding agents and you can come up with an idea of how you should transform the process.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集反复强调:Dines 永远保留一个开源的可验证备选、企业不能被锁定;中大型公司会喂自己的数据训练自有模型——「拥有你自己的智能,而不是租用它」;Jensen 与 NVIDIA 的利益也系于开源的成功。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            11.076,
+            14.017
+          ],
+          "quote": "Jensen is bound by the success of open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            624.979,
+            641.067
+          ],
+          "quote": "But what we discover is that a model that has read open source technology, and they have a lot of examples, and they already have in its weights, a certain technology will be much better than to create on our own technology.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            902.67,
+            918.642
+          ],
+          "quote": "But someone to me I think the indirect the attack is probably on open source because basically they say even if the good guys are building open source but that open source will get into the hands of the bad guys and this is unknown bad guys this is the real danger.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            919.022,
+            926.228
+          ],
+          "quote": "So the danger is in open source so indirectly it's also an attack to open source in this way it's a way of interpreting I guess.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2413.625,
+            2417.69
+          ],
+          "quote": "Yeah, but I think Jensen is bound by the success of open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2448.521,
+            2450.923
+          ],
+          "quote": "So therefore the open source should succeed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2456.247,
+            2457.668
+          ],
+          "quote": "Encouraging open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2463.432,
+            2467.155
+          ],
+          "quote": "Because I think it encourages, it hosts all the open source model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2731.914,
+            2739.045
+          ],
+          "quote": "What I can tell you that from a law perspective, open source models, frontier models will do just fine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2827.358,
+            2832.366
+          ],
+          "quote": "But I will have a verifiable backup on open source all the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2867.002,
+            2890.184
+          ],
+          "quote": "Yes, we like them a lot and I'm a big believer that an enterprise should distribute their bets and one of the bets should be on open source and very importantly should be on this map of work because think about if I want to train a model, my own model with who am I, I need to have this who am I very well documented.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "frontier-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier model)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "Dines 预测企业工作 90% 的流量会流向高性价比模型而非前沿模型,大多数运营性工作不需要前沿级别的模型质量;从法律角度看开源模型、前沿模型都会表现得足够好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 589,
+          "t": [
+            2788.307,
+            2798.014
+          ],
+          "quote": "What percentage of the traffic will go to truly frontier model like Astra or Fable versus very cost efficient models?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 831,
+          "t": [
+            3905.064,
+            3908.608
+          ],
+          "quote": "Maybe I will try to build my own frontier model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "谈到有公司推理支出是工资三倍时,Dines 说他个人不在乎:若机器能以同等或更好的质量完成工作,今天就会雇机器哪怕更贵;他同时预测 90% 流量走向划算模型,并强调规模化的推理需要锁定算力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 398,
+          "t": [
+            1924.607,
+            1934.977
+          ],
+          "quote": "One of the companies we've invested in, McCaw, data provider, Brendan Foodie, the CEO, tweeted yesterday that they spend 3x the spend of human salaries on inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1935.337,
+            1940.542
+          ],
+          "quote": "What percent or multiple or take would you say you spend human salaries on inference?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3009.254,
+            3015.439
+          ],
+          "quote": "Because if they don't secure compute, I don't understand how can they give me the inference of the scale that I want.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "map-of-work",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作地图 (map of work)",
+      "file": "工作地图",
+      "primary": true,
+      "how_described": "Dines 造的核心概念:记录工作在企业实际如何运作的所有流程、例外情况与系统的手册;每次向模型提问它都得读取整个企业,没有这张地图 AI 学不会没被写下的规则,也是训练自有模型与做迁移学习的前提——「模型可互换,工作流、工作地图才是真正价值所在」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.277,
+            23.982
+          ],
+          "quote": "Models are interchangeable, but the workflow, the map of work and the workflows around the map of work is where the real value is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1587.233,
+            1589.155
+          ],
+          "quote": "We call this manual the map of work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1589.415,
+            1593.799
+          ],
+          "quote": "You need to hand the map of work to AI in order to be successful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1594.019,
+            1595.18
+          ],
+          "quote": "What do you mean the map of work?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1602.044,
+            1603.124
+          ],
+          "quote": "This is the map of work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1747.077,
+            1753.299
+          ],
+          "quote": "surface all the information of how the work is done and help them create this map of work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1804.307,
+            1815.773
+          ],
+          "quote": "And then after this map of work that showed the work as is, you can use our coding agents and you can come up with an idea of how you should transform the process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2749.917,
+            2759.761
+          ],
+          "quote": "Models are interchangeable, but the workflow, the map of work and the workflows around the map of work is where the real value is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2867.002,
+            2890.184
+          ],
+          "quote": "Yes, we like them a lot and I'm a big believer that an enterprise should distribute their bets and one of the bets should be on open source and very importantly should be on this map of work because think about if I want to train a model, my own model with who am I, I need to have this who am I very well documented.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2912.063,
+            2919.05
+          ],
+          "quote": "The real investment for an enterprise is to creating this map of work that documents how they actually work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 787,
+          "t": [
+            3686.217,
+            3695.801
+          ],
+          "quote": "You need to have an underpinning orchestration and automation technology and this map of work that I taught in order to power your processes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 794,
+          "t": [
+            3730.221,
+            3746.468
+          ],
+          "quote": "So you make a huge investment into printing this software, capturing the enterprise context that we call the map of work, putting this enterprise context inside this Rails that I named this orchestration automation as the map and Rails.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "exactness",
+      "type": "concept",
+      "role": "concept",
+      "name": "精确性 (exactness)",
+      "file": "精确性",
+      "primary": true,
+      "how_described": "Dines 通过写作理清的 AI 第二个局限:AI 每步都是概率性的,99% 的把握连做 100 步整体只剩约 60%;该精确的东西就应该跑在精确的技术上,像 ChatGPT 算大数幕后调用计算机。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            1004.055,
+            1010.461
+          ],
+          "quote": "It has become very clear to me that another limitation of AI is what I call exactness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1096.233,
+            1103.736
+          ],
+          "quote": "ChatGPT acts like an interface to convert my questions in natural language into exactness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1104.076,
+            1106.797
+          ],
+          "quote": "But the exactness is not run by ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1106.857,
+            1108.918
+          ],
+          "quote": "Exactness is run by a computer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1185.65,
+            1198.816
+          ],
+          "quote": "So with coding agents that act in kind of a design time, when I build the systems, I can create automations that work with exactness every time during the execution time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "recursive-self-improvement",
+      "type": "concept",
+      "role": "concept",
+      "name": "递归自我改进 (recursive self-improvement)",
+      "file": "递归自我改进",
+      "primary": false,
+      "how_described": "本集讨论它是否能消除「AI 不会在工作中被改变」的局限:Dines 说不知道,并认为相信把大模型放进自我改进循环就能生成意志是异想天开。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            668.451,
+            684
+          ],
+          "quote": "So I actually do agree with you, but I think everyone does, and that's why everyone is chasing, you know, recursive self-improvement so much, where it's models that can continuously learn from themselves and improve themselves over time without need for human intervention.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            785.889,
+            791.294
+          ],
+          "quote": "It's like a world of, as I said, recursive self-improvement is unknown in terms of where it lands.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rpa",
+      "type": "concept",
+      "role": "concept",
+      "name": "RPA",
+      "file": "RPA",
+      "primary": false,
+      "how_described": "本集说 UiPath 已完成从 RPA 和自动化技术向编排和自动化技术的转型,Gartner 从挑战者变为领导者即是佐证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 784,
+          "t": [
+            3650.285,
+            3661.473
+          ],
+          "quote": "So it shows that we as a company made this transition from an RPA and automation technology into an orchestration and automation technology.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "title_zh": "「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈",
+  "tldr": "UiPath 创始人兼 CEO Daniel Dines 谈 AI 的真实局限：不能在工作中学习、不够精确，以及企业为什么要先画出「工作地图」。",
+  "digest_md": "「几年之后，数据中心里会有数百万个爱因斯坦，我们都可以去玩了」——Anthropic 的 Dario 说过类似的话。UiPath 的创始人兼 CEO Daniel Dines(罗马尼亚裔，做了十几年企业自动化)听到时真的很担忧：能不能雇一个这样的爱因斯坦，装进笔记本、给它一个企业账户，让它替我做我的工作？他和主持人 Harry 在这期 20VC 里，把 AI 营销话术和现实之间的差距拆开讲了一遍。他最近出了一本书——Claude 和 ChatGPT 当他的代笔，写了近六个月，这本书里理清的想法构成了这期对话的主线。\n\n## 第一个局限：AI 不会「在工作中被改变」\n\nDines 的核心论点：雇人的时候，我们默认新员工会在工作中学习、被工作改造，公司不需要给他一本写明「从头到尾怎么做」的手册。但 AI 不会。AI 可以在工作中建一个记事本、一块草稿板去记策略，但**它不会像人被一份工作改变那样去改变自己的权重**——记忆不等于学习，记忆只是被写下来的东西；人被一段经历改造后，是一个「改进版的新模型」，不是旧模型加一张记下来的纸 [07:06 Daniel Dines]。\n\n他用比喻说明：一个做了 20 年日料的厨师和一个做了 20 年意大利菜的厨师，拿到同一份食谱会做出不同的菜——企业的隐性知识没法写在一张纸上；读遍所有国际象棋的书、看遍滑雪视频，不下棋不摔跤，成不了大师和滑雪者 [07:42 Daniel Dines]。他还给了个实证：UiPath 把平台开放给编码智能体后发现，模型读过大量开源技术、权重里已经「长着」那些技术，在开源技术上生成代码远好于在 UiPath 自己的技术上生成——无论塞多少提示词和技能文档都补不上这个差距 [10:16 Daniel Dines]。\n\n那递归自我改进(模型持续从自身学习、无需人工干预)不是正好消除了这个局限吗？Dines 说不知道，但他在书里做了「意志与推理」的区分：我们并不能确定做事的意志会从推理、甚至从意识中涌现——相信把大模型放进自我改进循环就能生成意志，是异想天开 [12:47 Daniel Dines]。他还补了个思想实验：把最强模型放进能自我复制、飞向恒星取能的飞船，无限算力下无限自我改进，也许它会模拟出一个像我们一样的世界——那我们本身就是无限模拟的一部分。\n\n## 第二个局限：精确性，以及它带来的「不对称性」\n\nAI 本质上每一步都是概率性的：哪怕每步 99% 的把握，连做 100 步就是 0.99 的 100 次方，整体成功率只剩约 60% [17:00 Daniel Dines]。让 AI 把大数相乘几百万次，总会出错。所以关键不是「AI 能不能做某件事」，而是**该精确的东西就应该跑在精确的技术上**——就像 ChatGPT 算大数时，幕后调用的是一台计算机。\n\n由此他提出这期最有商业价值的观察：企业里 AI 与自动化部署存在**不对称性**——今天部署 AI 智能体并不比两年前容易，但部署自动化容易多了，因为可以用编码智能体来创建自动化 [19:10 Daniel Dines]。编码智能体是他眼中 ChatGPT、思维链之后的第三个里程碑。模式是：在设计时用 AI 创建自动化，执行时每一次都精确运行；上游系统变了导致自动化崩溃，AI 再来修自动化本身。**AI 在创建运行企业的软件，而这个软件可审计、可测试、行为可预测**——即使软件是 AI 写的，人可以读它、验证它 [20:50 Daniel Dines]。\n\n## 「工作地图」：为什么不能盲目裁员\n\nDines 深入研究过哪些工作会被 AI 影响，结论是：每份工作除了可衡量的主成果，还有一种「机构实力」产出——比如和客户的深厚关系、对新人的传帮带、企业文化。盲目裁掉一批人说「AI 会取代他们」，你失去的恰恰是 AI 时代最需要的那批人 [23:03 Daniel Dines]。他在书里造了个词「有文凭的中层」：教育体系让我们按特定领域的深度专长雇人，而这恰恰是 AI 最能补上的那种专长；反直觉的是，你更该留的是有主动性、能维护客户关系、承载文化的人——因为 **AI 无法在人类意义上展现主动性** [27:36 Daniel Dines]。\n\n所以企业需要一本台账、一张**「工作地图」**：记录工作在企业的实际运作——所有流程、所有例外情况、所有系统 [26:43 Daniel Dines]。每次向模型提问，它都得读取你的整个企业，没有这张地图它学不会那些没被写下来的规则(他的例子：NVIDIA 给大客户优先发货，但也许没有任何成文规则)。UiPath 为此推了一门「制图学」技术：Cartographer 智能体去实时采访领域专家——「邮编不同时你为什么改了这张发票？」——把例外情况浮出水面，整合成流程图，再用编码智能体据此变革流程。\n\n至于「监控员工屏幕」那种路子，他认为抓不住通话的语气、事后发给客户的暖心短信这些无法言传的数据，这才是问题的核心。\n\n## 推理成本、vibe coding 与「AI 还替代不了人」\n\n有投资人问：推理支出是不是工资的三倍？Dines 说他个人不在乎：**如果机器能以同等或更好的质量完成工作，今天就会雇机器，哪怕比人贵**——人力成本只会涨还会出错，而坚持用人的对手会因此处于劣势 [32:27 Daniel Dines]。但真正的现实是：**今天 AI 还替代不了一个完整的人**——那个有意志、会在工作中被改造的爱因斯坦还不存在；个别公司替换几百名客服又重新招回来的例子，不足以从一个数据点外推全行业 [32:56 Daniel Dines]。\n\nvibe coding(用自然语言让 AI 生成整个应用)他试过：做原型惊艳，投入生产就撞墙——连接器、权限、审计、安全都要维护；他们用 AI 写的采购工具，数据库 schema 完全是胡来的，必须有人来重构 [35:45 Daniel Dines]。「写代码很有趣，但真正拉开差距的地方不在这里」，从原型到生产的迭代才是工作本体 [34:58 Daniel Dines]。顺便说一句他作为 CEO 的现状：每天大约半天独自待在 Visual Studio Code 里和 Claude、ChatGPT 一起工作；公司来汇报不再带幻灯片，全带 markdown 文件，扔进他的战略文件夹让智能体一起处理。\n\n## 模型可互换，价值在工作流\n\n谈法律行业(美国 3000 亿美元市场)时他给出判断：法律有一部「手册」、框架被清晰定义，所以 AI 的冲击会是毁灭性的——他采访的律师大多六个月没手写过文件了；但 900 亿美元的可替代劳动不会变成等额的 token 收入，也许只转化出 100 亿量级。他的总纲是：**模型可以互换，工作流、工作地图和围绕地图的工作流才是真正价值所在** [45:49 Daniel Dines]。如果产品只是「调一次模型拿法律意见」，撑不起大市场；如果真替企业画出工作地图、建起工作流，捕获的价值大得多。\n\n对模型格局，他预测企业工作 90% 的流量会流向高性价比模型而非前沿模型 [46:38 Daniel Dines];但他仍会用 Anthropic 和 OpenAI 的划算模型，同时**永远保留一个开源的可验证备选——企业不能被锁定**。中大型公司会拥有自己的模型、喂自己的数据，「拥有你自己的智能，而不是租用它」[47:34 Daniel Dines]。而训练自有模型的前提，还是那张记录「我到底怎么运作」的工作地图——没有它，基础模型一更新，迁移学习都做不了。他自认过去 12 个月最大的认知转变就是：想通了「必须有手册才能工作」这回事。\n\n## 市场、算力与欧洲\n\n对市场他观点密集：历史上每项主要基础设施都被过度建设——因为人人都要确保拿到机会里最大的一块，会有人输 [41:45 Daniel Dines]；对下个十年不算过建，对接下来三年可能是。Jensen 受开源的成功所束缚——如果只剩 Anthropic 和 OpenAI 双寡头，它们会自造芯片，所以开源必须成功，NVIDIA 收购 Hugging Face 正是把钱花在自己利益所在处。UiPath 去年营收增长约 14%，他承认公开市场「增长不到 20% 就是完蛋」的残酷现实；UiPath 的看涨理由是已从 RPA 转型为「编排+自动化」(Gartner 新魔力象限的领导者)，卖「地图 + 轨道」：地图是企业上下文，轨道是编排自动化，智能体在轨道上跑就不会出错；看空理由则是真正的「爱因斯坦」出现、token 成本趋零。\n\n关于欧洲，他的话很扎心：从技术角度看，欧洲在很大程度上已经不相关了——但最大的芯片制造机器生产商 ASML 就在欧洲，Dario、Sam、Ilya 都是欧洲血统，我们有人才有技术却在失去它。给年轻欧洲创业者的建议是去美国，除非你做的是有明确本地特定性的市场；不过「主权」是真生意——欧洲客户都要本地部署、模型主权和可选性，他正在劝 Fireworks 说服他把软件做成可本地部署的，这是一笔正在欧洲兴起的大生意。\n\n## 本集带走\n\n- **「数百万爱因斯坦」目前只是推理能力强，不是能上岗的人**：AI 在工作中只记笔记不改权重，记忆不等于学习——这是当下模型最大的局限。\n- **该精确的别交给概率**：每步 99%、连做 100 步整体只剩约 60%;正确模式是让 AI 在设计时造自动化、执行时精确运行、坏了 AI 再修。\n- **先画工作地图，再谈 AI 转型**：企业的例外、隐性规则不写下来 AI 学不会；盲目按可验证性裁员，会裁掉恰恰最需要的「有主动性、承载文化」的人。\n- **模型可互换，护城河在工作流**：企业工作 90% 流量将走向高性价比模型，保留开源备份、不被锁定；自有数据训练的自有模型是真正的 IP。\n- **vibe coding 停在原型**:schema 胡来、测试不足，从原型到生产才是真工作，人还得深度介入。\n- **AI 尚不能替代一个完整的人**：哪怕更贵也该用机器——但前提是机器真能干这份活；个别案例不能外推全行业。",
+  "quotes": [
+    {
+      "en": "Dario wanted to say that we'll have millions of entities that will have some of the reasoning powers of Einstein, which I agree, but not Einstein's as a person, not Einstein's that are capable of learning on the job.",
+      "zh": "Dario 想说的也许是,我们将拥有数百万个具备爱因斯坦部分推理能力的实体,这一点我同意,但不是作为个体的爱因斯坦,不是能够在工作中学习的爱因斯坦。",
+      "timestamp": "05:53",
+      "speaker": "Daniel Dines"
+    },
+    {
+      "en": "If I have you watch all the videos about skiing, are you becoming a skier?",
+      "zh": "如果我让你看所有关于滑雪的视频,你会变成滑雪者吗?",
+      "timestamp": "07:42",
+      "speaker": "Daniel Dines"
+    },
+    {
+      "en": "I think it's wishful thinking to believe that I can take a big model, put into a self-improvement loop, and this model is gonna generate will.",
+      "zh": "我认为,相信我可以拿一个大模型放进自我改进循环、然后这个模型就会生成意志,这是异想天开。",
+      "timestamp": "12:47",
+      "speaker": "Daniel Dines"
+    },
+    {
+      "en": "I would take even, in my opinion, even the labs in China that are building AI right now, I would classify them as good guys.",
+      "zh": "甚至在我看来,连中国现在正在建造 AI 的那些实验室,我都会把他们归类为好人。",
+      "timestamp": "14:55",
+      "speaker": "Daniel Dines"
+    },
+    {
+      "en": "But someone to me I think the indirect the attack is probably on open source because basically they say even if the good guys are building open source but that open source will get into the hands of the bad guys and this is unknown bad guys this is the real danger.",
+      "zh": "但对我来说,我认为那个间接的攻击对象大概是开源,因为基本上他们说,即使好人在建造开源,但那个开源会落到未知的坏蛋手里,这才是真正的危险。",
+      "timestamp": "15:02",
+      "speaker": "Daniel Dines"
+    },
+    {
+      "en": "The fact that the tool can do a job doesn't mean you have to use that tool to do that type of job.",
+      "zh": "一个工具能做某项工作,并不意味着你必须用那个工具去做那类工作。",
+      "timestamp": "17:47",
+      "speaker": "Daniel Dines"
+    },
+    {
+      "en": "I don't think AI can supplement the human connections and the trust.",
+      "zh": "我不认为 AI 能补充人与人之间的连接和信任。",
+      "timestamp": "23:03",
+      "speaker": "Daniel Dines"
+    },
+    {
+      "en": "If the work, the quality or better of a human can be done by a machine, I will hire today a machine even if it's more expensive than a human.",
+      "zh": "如果一项工作、其质量或更好质量能由机器完成,我今天就会雇佣一台机器,即使它比人更贵。",
+      "timestamp": "32:27",
+      "speaker": "Daniel Dines"
+    },
+    {
+      "en": "Writing code is fun, but it's not there where you can really make the difference.",
+      "zh": "写代码很有趣,但真正能产生差距的地方不在那里。",
+      "timestamp": "34:58",
+      "speaker": "Daniel Dines"
+    },
+    {
+      "en": "When there is no manual, AI is not amazing and it doesn't work.",
+      "zh": "当没有手册时,AI 就不神奇了,它就行不通。",
+      "timestamp": "44:50",
+      "speaker": "Daniel Dines"
+    },
+    {
+      "en": "Models are interchangeable, but the workflow, the map of work and the workflows around the map of work is where the real value is.",
+      "zh": "模型是可以互换的,但工作流、工作地图以及围绕工作地图的工作流才是真正价值所在。",
+      "timestamp": "45:49",
+      "speaker": "Daniel Dines"
+    },
+    {
+      "en": "For enterprise work, my prediction is that 90% of the flow will go to very cost efficient models.",
+      "zh": "对于企业工作,我的预测是 90% 的流量会流向非常划算的模型。",
+      "timestamp": "46:38",
+      "speaker": "Daniel Dines"
+    },
+    {
+      "en": "AI doesn't have a style and you realize why they don't have a style because they are an averager of anything.",
+      "zh": "AI 没有风格,你会意识到他们为什么没有风格,因为他们是万物的平均者。",
+      "timestamp": "52:53",
+      "speaker": "Daniel Dines"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "05:49",
+      "speaker": "Daniel Dines",
+      "en": "Dario wanted to say that we'll have millions of entities that will have some of the reasoning powers of Einstein, which I agree, but not Einstein's as a person, not Einstein's that are capable of learning on the job.",
+      "zh": "Dario 想说的也许是,我们将拥有数百万个具备爱因斯坦部分推理能力的实体,这一点我同意,但不是作为个体的爱因斯坦,不是能够在工作中学习的爱因斯坦。"
+    },
+    {
+      "timestamp": "07:42",
+      "speaker": "Daniel Dines",
+      "en": "If I have you watch all the videos about skiing, are you becoming a skier?",
+      "zh": "如果我让你看所有关于滑雪的视频,你会变成滑雪者吗?"
+    },
+    {
+      "timestamp": "12:47",
+      "speaker": "Daniel Dines",
+      "en": "I think it's wishful thinking to believe that I can take a big model, put into a self-improvement loop, and this model is gonna generate will.",
+      "zh": "我认为,相信我可以拿一个大模型放进自我改进循环、然后这个模型就会生成意志,这是异想天开。"
+    },
+    {
+      "timestamp": "14:55",
+      "speaker": "Daniel Dines",
+      "en": "I would take even, in my opinion, even the labs in China that are building AI right now, I would classify them as good guys.",
+      "zh": "甚至在我看来,连中国现在正在建造 AI 的那些实验室,我都会把他们归类为好人。"
+    },
+    {
+      "timestamp": "15:02",
+      "speaker": "Daniel Dines",
+      "en": "But someone to me I think the indirect the attack is probably on open source because basically they say even if the good guys are building open source but that open source will get into the hands of the bad guys and this is unknown bad guys this is the real danger.",
+      "zh": "但对我来说,我认为那个间接的攻击对象大概是开源,因为基本上他们说,即使好人在建造开源,但那个开源会落到未知的坏蛋手里,这才是真正的危险。"
+    },
+    {
+      "timestamp": "16:44",
+      "speaker": "Daniel Dines",
+      "en": "It has become very clear to me that another limitation of AI is what I call exactness.",
+      "zh": "对我来说已经变得非常清楚的是,AI 的另一个局限是我称之为「精确性」的东西。"
+    },
+    {
+      "timestamp": "17:53",
+      "speaker": "Daniel Dines",
+      "en": "The fact that the tool can do a job doesn't mean you have to use that tool to do that type of job.",
+      "zh": "一个工具能做某项工作,并不意味着你必须用那个工具去做那类工作。"
+    },
+    {
+      "timestamp": "19:10",
+      "speaker": "Daniel Dines",
+      "en": "There is an asymmetry in the deployment of AI and automation in an enterprise.",
+      "zh": "在企业中部署 AI 和自动化存在一种不对称性。"
+    },
+    {
+      "timestamp": "20:50",
+      "speaker": "Daniel Dines",
+      "en": "You create, you use AI to create software that runs the enterprise in a predictable, governed, auditable way.",
+      "zh": "你用 AI 创建以可预测、受治理、可审计的方式运行企业的软件。"
+    },
+    {
+      "timestamp": "23:03",
+      "speaker": "Daniel Dines",
+      "en": "I don't think AI can supplement the human connections and the trust.",
+      "zh": "我不认为 AI 能补充人与人之间的连接和信任。"
+    },
+    {
+      "timestamp": "27:36",
+      "speaker": "Daniel Dines",
+      "en": "Because AI cannot exhibit initiative in the human sense.",
+      "zh": "因为 AI 无法在人类意义上展现主动性。"
+    },
+    {
+      "timestamp": "32:27",
+      "speaker": "Daniel Dines",
+      "en": "If the work, the quality or better of a human can be done by a machine, I will hire today a machine even if it's more expensive than a human.",
+      "zh": "如果一项工作、其质量或更好质量能由机器完成,我今天就会雇佣一台机器,即使它比人更贵。"
+    },
+    {
+      "timestamp": "32:56",
+      "speaker": "Daniel Dines",
+      "en": "But the real problem today is that AI cannot replace a person.",
+      "zh": "但今天真正的问题是,AI 无法替代一个人。"
+    },
+    {
+      "timestamp": "34:58",
+      "speaker": "Daniel Dines",
+      "en": "Writing code is fun, but it's not there where you can really make the difference.",
+      "zh": "写代码很有趣,但真正能产生差距的地方不在那里。"
+    },
+    {
+      "timestamp": "35:45",
+      "speaker": "Daniel Dines",
+      "en": "For instance, the database schema that VibeCoded tool created was completely bogus.",
+      "zh": "比如,vibe coding 工具创建的数据库 schema 完全是胡来的。"
+    },
+    {
+      "timestamp": "44:50",
+      "speaker": "Daniel Dines",
+      "en": "When there is no manual, AI is not amazing and it doesn't work.",
+      "zh": "当没有手册时,AI 就不神奇了,它就行不通。"
+    },
+    {
+      "timestamp": "45:49",
+      "speaker": "Daniel Dines",
+      "en": "Models are interchangeable, but the workflow, the map of work and the workflows around the map of work is where the real value is.",
+      "zh": "模型是可以互换的,但工作流、工作地图以及围绕工作地图的工作流才是真正价值所在。"
+    },
+    {
+      "timestamp": "46:38",
+      "speaker": "Daniel Dines",
+      "en": "For enterprise work, my prediction is that 90% of the flow will go to very cost efficient models.",
+      "zh": "对于企业工作,我的预测是 90% 的流量会流向非常划算的模型。"
+    },
+    {
+      "timestamp": "53:01",
+      "speaker": "Daniel Dines",
+      "en": "AI doesn't have a style and you realize why they don't have a style because they are an averager of anything.",
+      "zh": "AI 没有风格,你会意识到他们为什么没有风格,因为他们是万物的平均者。"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊一个挺扎心的问题:AI 到底能不能直接替你上班。说话的人叫 Daniel Dines,是 UiPath 的创始人兼 CEO,罗马尼亚裔,在企业自动化这行干了十几年,算是最懂\"让机器替人干活\"这件事的人之一。事情起因是 Anthropic 的 Dario 说过一句话,大意是:几年之后,数据中心里会有数百万个爱因斯坦,我们都可以去玩了。Dines 听到这句话,第一反应不是兴奋,是担忧——能不能雇一个这样的爱因斯坦,装进笔记本,给它一个企业账户,让它替我做我的工作?最近出了一本书,写作过程就是让 Claude 和 ChatGPT 当代笔,写了将近六个月,书里理清的想法,构成了这期和 20VC 主持人 Harry 对话的主线。咱们就顺着这条线讲。\n\n先说第一个局限,也是最根本的一个:AI 不会在工作中被改变。你想想,公司雇人的时候,默认新员工会在岗位上学习、成长,不需要一本从头到尾写明白的手册。但 AI 做不到。AI 可以在工作中建个记事本、记点策略,可它不会像人被一份工作改造那样,去改变自己的权重。记忆不等于学习——记忆只是被写下来的东西,人被一段经历改造之后,是一个改进版的新模型,不是旧模型加一张纸。举了个比喻:做了二十年日料的厨师和做了二十年意大利菜的厨师,拿到同一份食谱,做出来的菜完全不同,因为企业的隐性知识没法写在一张纸上。或者反过来问:让你看遍所有滑雪视频,你会变成滑雪者吗?不下雪场摔跤,成不了。还有个实证:UiPath 把平台开放给编码智能体后发现,模型读过大量开源技术,在开源技术上生成代码,远好于在自家技术上生成——塞多少提示词和文档都补不上这个差距。\n\n那有人会问,递归自我改进不正好解决这个问题吗?Dines 的回答很谨慎:不知道,但书里有个关键区分,叫意志与推理。我们并不能确定,做事的意志会从推理、甚至从意识里涌现。用原话说:相信拿一个大模型放进自我改进循环,模型就会生成意志,这是异想天开。\n\n好,这是第一个局限。这就引出第二个:精确性。AI 本质上每一步都是概率性的,哪怕每步百分之九十九的把握,连做一百步,整体成功率就掉到六成左右。所以关键不是 AI 能不能做某件事,而是该精确的东西就该跑在精确技术上——就像 ChatGPT 算大数时,幕后其实调用了一台计算机。由此带来这期最有商业价值的观察:今天部署 AI 智能体,并不比两年前容易,但部署自动化容易多了,因为可以用编码智能体来创建自动化。模式是这样的:设计时用 AI 造自动化,执行时每一次都精确运行;上游系统变了导致自动化崩溃,AI 再来修。AI 在创建运行企业的软件,而这个软件可审计、可测试、行为可预测。\n\n顺着这个思路,就到了企业转型真正该干的事:先画一张工作地图。每份工作除了可衡量的成果,还有一种机构实力产出,比如客户关系、传帮带、企业文化。盲目裁掉一批人说 AI 会取代他们,你失去的恰恰是 AI 时代最需要的人——因为 AI 无法在人类意义上展现主动性。教育体系让我们按深度专长雇人,而这恰恰是 AI 最能补上的。所以企业需要一本台账,记录工作实际怎么运作,所有流程、所有例外情况、所有系统。举个例子,NVIDIA 给大客户优先发货,也许没有任何成文规则,但没有这张地图,模型就学不会。UiPath 为此推了一门\"制图学\"技术:用智能体实时采访领域专家,问\"邮编不同时你为什么改了这张发票\",把例外浮出水面,整合成流程图,再用编码智能体去变革流程。至于监控员工屏幕那种路子,抓不住通话语气、事后发的暖心短信这些无法言传的东西,而那才是核心。\n\n聊到这里,有投资人问了句狠的:推理支出是不是工资的三倍?回答很干脆:如果机器能以同等或更好的质量完成工作,今天就会雇机器,哪怕比人贵。但现实是,今天 AI 还替代不了一个完整的人——那个有意志、会在工作中被改造的爱因斯坦还不存在。vibe coding 也一样,做原型惊艳,投入生产就撞墙:权限、审计、安全都要维护,AI 写的采购工具,数据库结构完全是胡来的。一句话总结:模型可以互换,工作流、工作地图和围绕地图的工作流,才是真正价值所在。企业将来九成流量会流向高性价比模型,但永远要保留一个开源的可验证备选——拥有你自己的智能,而不是租用它。\n\n最后收在一句值得记住的话上,还是关于开头那个数百万爱因斯坦的预言:Dario 想说的也许是,我们会拥有数百万个具备爱因斯坦部分推理能力的实体,这一点我同意;但不是作为个体的爱因斯坦,不是能够在工作中学习的爱因斯坦。"
+}

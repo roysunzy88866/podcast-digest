@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]] [[Jared]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Nishant Gupta]] [[Naman Ahuja]] [[Byung-Gon (Gon) Chun]] [[Thomas Sohmers]] [[Martine Cassado]] [[Ignacio Martinez]] [[Diana]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":63,"SpaceXAI":1,"OpenClaw":18,"OpenAI":123,"Anthropic":130,"Codex":52,"Cowork":4,"Salesforce":24,"智能体":281}</script>
+<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":63,"SpaceXAI":1,"OpenClaw":18,"OpenAI":124,"Anthropic":131,"Codex":52,"Cowork":4,"Salesforce":24,"智能体":282}</script>
 
 <script>
 (function(){

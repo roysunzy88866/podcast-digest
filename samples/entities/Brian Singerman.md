@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":4,"SpaceX":17,"Palantir":17,"Airbnb":10,"OpenAI":123,"Anthropic":130,"Cognition":17,"Ramp":7}</script>
+<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":4,"SpaceX":17,"Palantir":17,"Airbnb":10,"OpenAI":124,"Anthropic":131,"Cognition":17,"Ramp":7}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Simon Eskildsen]] · [[Jacob Lauritzen]] · [[Legora]] · [[对象存储]] · [[向量搜索]] · [[智能体]] · [[命名空间]] · [[内存层级]] · [[Elasticsearch]] · [[Postgres]]
 
-<script type="application/json" class="pd-epn">{"Simon Eskildsen":1,"Jacob Lauritzen":1,"Legora":2,"对象存储":1,"向量搜索":2,"智能体":281,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":2}</script>
+<script type="application/json" class="pd-epn">{"Simon Eskildsen":1,"Jacob Lauritzen":1,"Legora":2,"对象存储":1,"向量搜索":2,"智能体":282,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":2}</script>
 
 <script>
 (function(){

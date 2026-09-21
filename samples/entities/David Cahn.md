@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]] [[Ali Ghodsi]]
+[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":5,"AGI":25,"资本支出":4,"AI ROI":1,"垂直整合":1,"认知劳动":1,"Anthropic":130,"OpenAI":123,"Google":46,"TPU":3}</script>
+<script type="application/json" class="pd-epn">{"Alex":5,"AGI":25,"资本支出":4,"AI ROI":1,"垂直整合":1,"认知劳动":1,"Anthropic":131,"OpenAI":124,"Google":46,"TPU":3}</script>
 
 <script>
 (function(){
