@@ -39,7 +39,7 @@ unlisted: true
 
 [[Ranjan Roy]] · [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Ranjan]] · [[Vali]] · [[Hugging Face]] · [[Meta]] · [[Luca Ferrari]] · [[AI 末日论]]
 
-<script type="application/json" class="pd-epn">{"Ranjan Roy":3,"Anthropic":131,"OpenAI":124,"智能体":283,"Ranjan":1,"Vali":1,"Hugging Face":22,"Meta":35,"Luca Ferrari":2,"AI 末日论":1}</script>
+<script type="application/json" class="pd-epn">{"Ranjan Roy":3,"Anthropic":131,"OpenAI":124,"智能体":285,"Ranjan":1,"Vali":1,"Hugging Face":22,"Meta":35,"Luca Ferrari":2,"AI 末日论":1}</script>
 
 <script>
 (function(){

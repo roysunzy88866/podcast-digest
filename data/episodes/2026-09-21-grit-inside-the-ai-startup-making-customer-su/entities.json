@@ -1,0 +1,544 @@
+{
+  "episode_id": "2026-09-21-grit-inside-the-ai-startup-making-customer-su",
+  "podcast": "Grit",
+  "date": "2026-09-21",
+  "tags": [
+    "创业与公司成长",
+    "招聘与组织",
+    "销售探索与融资",
+    "智能体",
+    "AI 客服"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "jubin",
+      "type": "person",
+      "role": "host",
+      "name": "Jubin",
+      "file": "Jubin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            37.633,
+            45.937
+          ],
+          "quote": "I'm Jubin, partner at Kleiner Perkins, a show where we go beyond the highlight reel and explore the personal and professional challenges of building history-making companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1185,
+          "t": [
+            3958.189,
+            3960.89
+          ],
+          "quote": "This podcast is a Kleiner Perkins production, and I'm Jubin.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jesse-jang",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jesse Jang",
+      "file": "Jesse Jang",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            46.377,
+            54.101
+          ],
+          "quote": "Today on the show, we've got Jesse Jang, co-founder and CEO of Decagon, the AI concierge platform reimagining customer experience.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "decagon",
+      "type": "company",
+      "role": "company",
+      "name": "Decagon",
+      "file": "Decagon",
+      "primary": true,
+      "how_described": "本集主角:Jesse Jang 联合创办的企业级 AI 客服智能体平台,2023 年起步,一年内从约 50 人扩到 500 人、估值 45 亿美元;核心论点是把 AI 的构建、测试、监控全部放进产品,让客户拥有结果和流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            46.377,
+            54.101
+          ],
+          "quote": "Today on the show, we've got Jesse Jang, co-founder and CEO of Decagon, the AI concierge platform reimagining customer experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            54.695,
+            63.261
+          ],
+          "quote": "Decagon is building AI agents that help enterprises deliver faster, more personalized support across voice, chat, email, SMS, and beyond.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            63.682,
+            69.846
+          ],
+          "quote": "We talk about why customer support is the perfect wedge for agentic AI and how Decagon scaled from an idea in 2023 to a $4.5 billion company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            207.312,
+            222.544
+          ],
+          "quote": "In the beginning, when you were, were you not unnerved to be hiring ahead of like, okay, like in the beginning of Decagon, you know, whatever, 18 months ago, you were like eight people, 10 people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1271.208,
+            1273.091
+          ],
+          "quote": "How long were you in the idea maze for Decagon?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2007.323,
+            2015.044
+          ],
+          "quote": "So a lot of people, a lot of people at Decagon have like a very strong entrepreneurial sense, like they were founders before or they wanna be founders.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 977,
+          "t": [
+            3298.523,
+            3300.988
+          ],
+          "quote": "Again, I think this doesn't happen that much at Decagon.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sierra",
+      "type": "company",
+      "role": "company",
+      "name": "Sierra",
+      "file": "Sierra",
+      "primary": true,
+      "how_described": "本集把 Sierra 说成 Decagon 最强劲的竞争对手:擅长打入企业、团队扩张快,部署模式被类比为 Palantir 的前置驻场工程——「我们有很聪明的人,最终能帮你解决问题」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 262,
+          "t": [
+            829.521,
+            835.922
+          ],
+          "quote": "You know, like, even your fiercest rival, like at Sierra, Brett, who's a stud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2159.214,
+            2161.857
+          ],
+          "quote": "Like I think Brett at Sierra was in the last one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 669,
+          "t": [
+            2209.665,
+            2210.626
+          ],
+          "quote": "Sierra's more established.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 681,
+          "t": [
+            2274.609,
+            2289.792
+          ],
+          "quote": "From my perspective, at least this space has played out, is you have Sierra, they're very good at getting into enterprises, and they've scaled their team really quickly, and I'm sure Brett is great at talking with leaders.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复把智能体 AI 说成 AI 的最大好处所在——真正赋能客户团队的人做更多事,客户支持是它的完美切入点;Decagon 就在构建跨语音、聊天、邮件、短信的企业级 AI 智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1150,
+          "t": [
+            3869.886,
+            3876.488
+          ],
+          "quote": "And like, you know, the way that we're building this agent that has to work deterministically",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pmf",
+      "type": "concept",
+      "role": "concept",
+      "name": "PMF",
+      "file": "PMF",
+      "primary": true,
+      "how_described": "本集说 PMF 信号不玄:约 6 个客户、100 万美元收入、客户愿意签真正的合同时,就是「这里面有事可做」;并断言没有投资人能帮你更快找到 PMF。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 371,
+          "t": [
+            1181.426,
+            1188.649
+          ],
+          "quote": "I would say the only time it does change is when you're in the idea maze to maybe post-PMF and you're scaling.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1402.923,
+            1405.526
+          ],
+          "quote": "No investor will help you find PMF faster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1480.237,
+            1486.622
+          ],
+          "quote": "But in the early days, given that no one's gonna help you find PMF anyways, you might as well get someone that has like a lot of time and like prioritizes you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 476,
+          "t": [
+            1530.291,
+            1539.937
+          ],
+          "quote": "So, um, how long did it take before you, it became clear to you that you had PMF and what was the, was there like an obvious, like, oh yeah, here we go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1048,
+          "t": [
+            3476.49,
+            3478.972
+          ],
+          "quote": "PMF without the P, like from incorporation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sales-discovery",
+      "type": "concept",
+      "role": "concept",
+      "name": "销售探索 (sales discovery)",
+      "file": "销售探索",
+      "primary": true,
+      "how_described": "本集说 Decagon 用大约三周走出 idea maze,靠的就是激进的销售探索:直接问预算从哪来、内部怎么论证 ROI、涉及哪些人,而创始人常问的「你会用这个吗」问不出真话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 403,
+          "t": [
+            1291.277,
+            1298.081
+          ],
+          "quote": "So instead of picking an idea, we were very aggressive about doing sales discovery.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bar-raiser",
+      "type": "concept",
+      "role": "concept",
+      "name": "Bar raiser(抬杆者) (bar raiser)",
+      "file": "Bar raiser(抬杆者)",
+      "primary": true,
+      "how_described": "本集说 Decagon 在从 50 人冲向 500 人时借鉴 Revolut 和 Amazon 的做法,在面试流程末尾加一道 bar raiser 关卡,由资深员工主要考察文化契合和投入强度,以守住招聘标准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            687.771,
+            688.711
+          ],
+          "quote": "And who's the bar raiser?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deployment-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "部署模式 (deployment model)",
+      "file": "部署模式",
+      "primary": true,
+      "how_described": "本集最重要的实质:Decagon 的核心差异化是一种让客户拥有结果的部署模式——AI 在产品里构建、测试、监控,不需要工程师或 Decagon 每次去配置;面对大平台,赢下大单的唯一途径就是产品本身更好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            17.066,
+            23.872
+          ],
+          "quote": "We think that is probably a big differentiation right now, this deployment model where ultimately the customer owns the results and the process.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 683,
+          "t": [
+            2293.732,
+            2295.333
+          ],
+          "quote": "But their deployment model is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 694,
+          "t": [
+            2361.601,
+            2365.166
+          ],
+          "quote": "So our whole thesis is like, hey, can we create a deployment model?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 708,
+          "t": [
+            2408.33,
+            2415.736
+          ],
+          "quote": "It's like kind of this deployment model where ultimately the customer owns the results and the process.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "idea-maze",
+      "type": "concept",
+      "role": "concept",
+      "name": "点子迷宫 (idea maze)",
+      "file": "点子迷宫",
+      "primary": true,
+      "how_described": "本集说 Decagon 在 idea maze 里只待了大约三周,因为他们的目标就是别停留在想法阶段,用激进的销售探索快速锁定「显而易见该做的东西」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 371,
+          "t": [
+            1181.426,
+            1188.649
+          ],
+          "quote": "I would say the only time it does change is when you're in the idea maze to maybe post-PMF and you're scaling.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1271.208,
+            1273.091
+          ],
+          "quote": "How long were you in the idea maze for Decagon?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "type": "concept",
+      "role": "concept",
+      "name": "办公室政治 (politics)",
+      "file": "办公室政治",
+      "primary": true,
+      "how_described": "本集说办公室政治开始得很早,只要有了团队就会出现;Jesse 和 Ashwin 对此「过敏」,有人争别人的地盘就问他「你不该先担心自己手头的事吗」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 970,
+          "t": [
+            3254.947,
+            3273.041
+          ],
+          "quote": "When did, um, this is going to sound weird, but like, when did like politics start to creep into the company where you're like, oh my God, like people are jockeying for this and that and roles and, you know, starting to point fingers if, you know, deployment says it's engineering and engineering says it's a product and like, you know, you don't, when do you have to start worrying about that stuff?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "type": "concept",
+      "role": "concept",
+      "name": "文化信条 (culture)",
+      "file": "文化信条",
+      "primary": false,
+      "how_described": "本集强调文化信条必须可执行:「重视透明度」太弱,「任何时候想给某人反馈,就直接告诉他本人」才立得住。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            665.362,
+            674.906
+          ],
+          "quote": "Like filters that you add on to the interview process at the end, bar raisers or whatever you wanna call them, where they're just mostly selecting for culture and intensity and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 230,
+          "t": [
+            696.557,
+            704.004
+          ],
+          "quote": "Now we don't meet everyone, but now there's like, you know, some fraction of the company that's been here a while and we think are very good representations of the culture.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2219.813,
+            2224.396
+          ],
+          "quote": "So you want to build a culture where you're the main character, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1003,
+          "t": [
+            3384.984,
+            3388.585
+          ],
+          "quote": "It's like your culture has to be built on stuff like that rather than",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kleiner-perkins",
+      "type": "company",
+      "role": "company",
+      "name": "Kleiner Perkins",
+      "file": "Kleiner Perkins",
+      "primary": false,
+      "how_described": "主持人 Jubin 所在的风投机构,本集多次作为背景出现(主持人身份、KP 办公室、CIO 活动)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            37.633,
+            45.937
+          ],
+          "quote": "I'm Jubin, partner at Kleiner Perkins, a show where we go beyond the highlight reel and explore the personal and professional challenges of building history-making companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1185,
+          "t": [
+            3958.189,
+            3960.89
+          ],
+          "quote": "This podcast is a Kleiner Perkins production, and I'm Jubin.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "本集用 Palantir 作类比,形容 Sierra 那种专注前置部署工程师、替客户包办的部署模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 684,
+          "t": [
+            2297.351,
+            2310.395
+          ],
+          "quote": "More similar to a Palantir, where they're really focused on forward-deploying engineering and, hey, we can do it for you, trust us, we have really smart people, and we can solve the problem for you at the end.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集把 Salesforce 和 Google 并列为客服领域的大平台默认选项,并提到其前 CEO Brett Taylor 是 Sierra 的对手;Decagon 靠产品赢下大单。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 679,
+          "t": [
+            2246.752,
+            2269.628
+          ],
+          "quote": "It's like if you could choose like who you're competing against like you know the ex-CEO of Salesforce and CTO of Facebook like yeah obviously we have a lot of respect for them but that's just like that's not how life works you know life it's a very honest and true you're like you're on your own journey and you like challenges will come up so you have to deal with them yourself right and like that's how that's how we view it and so like you know if we're",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 711,
+          "t": [
+            2427.877,
+            2440.386
+          ],
+          "quote": "Like if there's all these big platforms like Salesforce and Google, like, you know, you can use their solutions, you know, maybe, you know, like, you know, Brett well, and yet we're winning a lot of these big deals.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "forward-deployed engineering",
+      "reason": "专名「forward-deployed engineering」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

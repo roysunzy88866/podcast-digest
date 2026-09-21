@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]]
+[[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Plaid":2,"Square":4,"Visa":2,"OpenAI":124,"Perplexity":6,"Replit":16,"公司文化":1,"创始人":1,"组织设计":1,"go-to-market":8}</script>
+<script type="application/json" class="pd-epn">{"Plaid":2,"Square":4,"Visa":2,"OpenAI":124,"Perplexity":6,"Replit":16,"公司文化":2,"创始人":1,"组织设计":1,"go-to-market":9}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[评估]] · [[Blake Scholl]] · [[Ali Haghani]] · [[Max Junestrand]] · [[Boom]] · [[Circleback]] · [[Legora]] · [[XB-1]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":283,"评估":2,"Blake Scholl":2,"Ali Haghani":1,"Max Junestrand":1,"Boom":2,"Circleback":2,"Legora":2,"XB-1":1,"Claude Code":66}</script>
+<script type="application/json" class="pd-epn">{"智能体":285,"评估":2,"Blake Scholl":2,"Ali Haghani":1,"Max Junestrand":1,"Boom":2,"Circleback":2,"Legora":2,"XB-1":1,"Claude Code":66}</script>
 
 <script>
 (function(){

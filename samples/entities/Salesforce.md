@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Salesforce</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>24</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>25</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -34,6 +34,7 @@ unlisted: true
 - **[[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]]**(30:15起):本集说它宣布『我们是无头的，你想在哪用就在哪用』，Wade 明确押注这种策略是赢家策略。
 - **[[2026-09-17-sourcery-brad-gerstner-the-100-test-that-could-sa|《100 美元、15 分钟：一场想把心脏CT变成「乳腺钼靶」的登月计划》]]**(15:08起):本集提到 Brad 希望 Salesforce 的 Mark Benioff 参与「买一送一」：为全体员工免费扫描并付双倍的钱
 - **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(15:11起):本集说 Salesforce 是 SaaS 股票复苏的最好例子,经典的记录系统论证正在它身上上演,护城河目前完好,智能体使用软件更多反而驱动其增长。
+- **[[2026-09-21-grit-inside-the-ai-startup-making-customer-su|《Decagon CEO:从零想法起步,一年十倍狂奔到 500 人》]]**(37:26起):本集把 Salesforce 和 Google 并列为客服领域的大平台默认选项,并提到其前 CEO Brett Taylor 是 Sierra 的对手;Decagon 靠产品赢下大单。
 
 ## ① 提到它的金句
 
@@ -51,7 +52,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*24 集*
+*25 集*
 
 - [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司(提及)
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
@@ -77,6 +78,7 @@ unlisted: true
 - [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为被讨论公司(提及)
 - [[2026-09-17-sourcery-brad-gerstner-the-100-test-that-could-sa|《100 美元、15 分钟：一场想把心脏CT变成「乳腺钼靶」的登月计划》]] — 作为被讨论公司(提及)
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为被讨论公司(提及)
+- [[2026-09-21-grit-inside-the-ai-startup-making-customer-su|《Decagon CEO:从零想法起步,一年十倍狂奔到 500 人》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -84,7 +86,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Harry Stebbings]] · [[ChatGPT]] · [[Lenny]] · [[NVIDIA]] · [[Stripe]] · [[SaaS]]
 
-<script type="application/json" class="pd-epn">{"智能体":283,"OpenAI":124,"Anthropic":131,"Cursor":63,"Harry Stebbings":18,"ChatGPT":74,"Lenny":67,"NVIDIA":40,"Stripe":33,"SaaS":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":285,"OpenAI":124,"Anthropic":131,"Cursor":63,"Harry Stebbings":18,"ChatGPT":74,"Lenny":67,"NVIDIA":40,"Stripe":33,"SaaS":17}</script>
 
 <script>
 (function(){

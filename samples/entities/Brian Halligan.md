@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]]
+[[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":67,"HubSpot":8,"Sequoia":5,"MongoDB":4,"Salesforce":24,"Google":46,"Microsoft":25,"McKinsey":5,"Clay":4,"Delphi":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":67,"HubSpot":8,"Sequoia":5,"MongoDB":4,"Salesforce":25,"Google":46,"Microsoft":25,"McKinsey":5,"Clay":4,"Delphi":3}</script>
 
 <script>
 (function(){

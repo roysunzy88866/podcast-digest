@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":9,"智能体":283,"可教授的知识与习得的知识":1,"工作流":8,"软件工厂":6,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":131}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":9,"智能体":285,"可教授的知识与习得的知识":1,"工作流":8,"软件工厂":6,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":131}</script>
 
 <script>
 (function(){

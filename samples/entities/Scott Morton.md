@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]]
+[[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":1,"Revel":1,"SpaceX":17,"LLVM":1,"Python":5,"vibe coding":35,"CI-CD":10,"Palantir":17}</script>
+<script type="application/json" class="pd-epn">{"Mario":1,"Revel":1,"SpaceX":17,"LLVM":1,"Python":5,"vibe coding":35,"CI-CD":10,"Palantir":18}</script>
 
 <script>
 (function(){

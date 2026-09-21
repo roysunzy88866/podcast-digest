@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]]
+[[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MercadoLibre":1,"智能体":283,"Verdi":1,"微服务":2,"彻底坦诚":2,"OKRs":1,"Roblox":3,"主观能动性":19}</script>
+<script type="application/json" class="pd-epn">{"MercadoLibre":1,"智能体":285,"Verdi":1,"微服务":2,"彻底坦诚":2,"OKRs":1,"Roblox":3,"主观能动性":19}</script>
 
 <script>
 (function(){

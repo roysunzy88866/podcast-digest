@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]]
+[[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":131,"Amazon":14,"AWS":13,"Cloudera":1,"Databricks":14,"Palantir":17,"Microsoft":25,"Lovable":15,"前向部署工程师":7,"前置部署工程":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":131,"Amazon":14,"AWS":13,"Cloudera":1,"Databricks":14,"Palantir":18,"Microsoft":25,"Lovable":15,"前向部署工程师":7,"前置部署工程":3}</script>
 
 <script>
 (function(){

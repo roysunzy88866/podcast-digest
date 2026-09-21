@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]] [[Ran Arusi]]
+[[Jesse Jang]] [[Peter Sellis]] [[Wade Foster]] [[Ali Ghodsi]] [[Jack]] [[Eric]] [[Andrew Feldman]] [[Vali]] [[Jeff Berman]] [[Andrew Anagnost]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":67,"Rippling":3,"Notion":13,"Apple":18,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合":21,"熵":3,"幂律分布":1}</script>
+<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":67,"Rippling":3,"Notion":13,"Apple":18,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合":21,"熵":3,"幂律分布":2}</script>
 
 <script>
 (function(){

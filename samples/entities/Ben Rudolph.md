@@ -42,7 +42,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peregrine":2,"数据集成":1,"Nick Noone":1,"派驻工程师":1,"Palantir":17,"ACV":3,"前置部署工程":3,"RFP":1,"智能体":283,"产品市场契合":21}</script>
+<script type="application/json" class="pd-epn">{"Peregrine":2,"数据集成":1,"Nick Noone":1,"派驻工程师":1,"Palantir":18,"ACV":3,"前置部署工程":3,"RFP":1,"智能体":285,"产品市场契合":21}</script>
 
 <script>
 (function(){

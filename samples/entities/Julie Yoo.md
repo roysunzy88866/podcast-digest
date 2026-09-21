@@ -43,17 +43,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Sophia Du]] · [[a16z]] · [[Kairos]] · [[Council Health]] · [[AI]] · [[智能体 AI]] · [[大型语言模型]] · [[电子健康记录]] · [[第三方支付体系]] · [[消费级医疗]]
+[[Sophia Du]] · [[a16z]] · [[Kairos]] · [[Council Health]] · [[Devoted Health]] · [[AI]] · [[智能体 AI]] · [[大型语言模型]] · [[电子健康记录]] · [[第三方支付体系]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]]
+[[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"a16z":14,"Kairos":1,"Council Health":1,"AI":19,"智能体 AI":3,"大型语言模型":4,"电子健康记录":1,"第三方支付体系":1,"消费级医疗":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"a16z":14,"Kairos":1,"Council Health":1,"Devoted Health":2,"AI":19,"智能体 AI":3,"大型语言模型":4,"电子健康记录":1,"第三方支付体系":1}</script>
 
 <script>
 (function(){

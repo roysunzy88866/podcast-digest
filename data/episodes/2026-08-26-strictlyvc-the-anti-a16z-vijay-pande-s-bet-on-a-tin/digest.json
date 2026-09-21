@@ -1,0 +1,178 @@
+{
+  "title_zh": "AI 改写药物研发，而他只投五家公司",
+  "tldr": "前 Andreessen Horowitz 生物科技负责人 Vijay Pandey 谈 AI 如何改写药物研发与医疗激励，以及他为什么创办一家只投约五个项目的 AI 原生基金 VZVC。",
+  "digest_md": "这一集的主角是 Vijay Pandey：理论物理出身的连续创业者，MIT 博士，1999 年起在斯坦福建实验室，2014 年说服 Andreessen Horowitz 押注其原本明确排除的医疗健康领域，并把它做到近 40 亿美元规模；一年多前他离开，与资深投资人 Zach Werner 联合创办了新基金 VZVC。这场对话最有意思的地方在于两层：一是 AI 到底能把生物医药改变到什么程度，二是他用行动给出的答案——一家刻意做小、AI 原生、每年只投大概五个项目的风险投资公司。\n\n## 生物学正在从「发现」变成「工程」\n\nPandey 的核心判断是：生物学正在从一门发现科学，转变为一门可以工程化的东西。过去很多生物学家认为生物学复杂到人类不可能理解，这在很多方面可能是真的——但 AI 和机器学习让计算机能对极复杂的事物形成「它们那种类型的理解」，这是以前做不到的。\n\n具体在药物研发链条上，AI 已经能帮忙找靶点（药物该命中疾病的哪个目标）、设计药物分子，甚至开始切入最贵的一环——临床试验。他算了一笔账：一种药从一期走到三期结束，成功率只有 20%，十 个里八个失败；而一项试验动辄花费数亿美元，失败率摊高了药价。失败的原因通常不是生物学家做错了什么，而是药物依据的实验都建立在小鼠这类动物模型上——而动物模型对人的预测性本来就不强。AI 真正的机会在这里：在人身上做实验不道德，但把人类数据整合进一个 AI 模型是它非常擅长的事。模型不会完美，但一旦比任何动物模型都好，跨过那道门槛，事情就真正令人兴奋了。\n\n临床试验的数学还有一个关键特点：不需要 AI 创造奇迹。假如失败率只从 80% 降到 70%——相对温和的提升——成功率就从 20% 变 30%，等于多出 50% 的药、药物摊销成本直降 50%。所以这个赛道上的公司不需要是万灵药，只要把指针挪动一点，就是巨大的胜利。他说自己在市场上见过几十家做 AI 临床试验的公司，很多都声称能以相当高的准确度预测一种药是否有效——这在几年前还是幻想。\n\n## 数据抓不来的领域：孤岛与开源之路\n\nAI 与生物科技交汇处最根本的挑战：你没法像抓取文本那样从互联网上抓取生物学数据。每家公司都得自己生成数据，意味着每个模型都在自己的数据孤岛上训练。\n\nPandey 认为共享确实在发生，路径有三条：一是 Chan Zuckerberg 这类有科技心态、数据广泛共享的私人基金会和研究所；二是学术界——想法先在学校里构建，一旦确认可转化就去开公司，这基本就是斯坦福的历史；三是他看好的大趋势——为生物学信息构建「图谱」，技术形态通常是基础模型（在海量数据上预训练、可适配多种任务的大模型）。类比开源 LLM 已经能对抗企业 LLM，他相信生物领域也会出现影响极其广泛的开源基础模型。\n\n他最看好的两个案例都出自自己身边：Daphne Kohler（机器学习领域的元老级人物）创办的 Insitro，用机器人开辟了新的数据获取和分析方式，如今新进展接连不断；而从他斯坦福实验室孵化出的 Genesis Therapeutics，CEO Evan Feinberg 把机器学习、物理模拟和实验结合，正在攻克最难成药的蛋白质——「十年前如果有人说这在今天是可能的，我们都会互相击掌」。\n\n## 激励对齐：从「病患护理」到「预防」\n\nPandey 多年投资最大的反思是：再酷的技术，归根结底要回到好的市场，进入市场（go-to-market）那一侧至少和技术一样难，甚至更难。他给创始人的建议是——尤其来自科学或产品背景的那些——把才华和创造力真正用到进入市场上。\n\n他最推崇的样本是 Function Health：直接面向消费者的会员制，每六个月做一大套血液检测——这套检测走医疗体系要约 5000 美元，Function 最初收 500 美元，现在约 365 美元，一天一美元。A 轮之后公司连续收购：Ezra（MRI 和 CT 成像）、补充剂、抽血服务，正在搭建一个以消费者为中心的预防性医疗系统。\n\n背后的逻辑是激励问题：现在的医疗体系里，客户通常是保险公司而不是病人，行业赚的是「病患护理」（sick care）的钱——你生病它才赚钱。而当公司靠让你保持健康来赚钱时，财务激励才终于和你我想要的一致。Function 和面向老年人的 Medicare Advantage 公司 Devoted Health 都是这样的例子。AI 在这里是天然伴侣：哪怕只是让人自己拿到数据、知道自己该问医生什么问题、在诊室里像个平等对话者而不只是被检查对象，也是巨大的进步。主持人补充说她用 Claude 帮自己判断病情、去医院求证属实的经历，Pandey 认同「别过度依赖聊天机器人，但作为配合专业医生的另一种意见非常有用」。\n\n## 一家只投约五个项目的 AI 原生基金\n\nVZVC 的设计本身就是观点。Marc Andreessen 曾半开玩笑地说，能成功的 VC 只有两种——Gucci 和 Walmart：要么极小，要么极大。A16Z 显然是后者，Pandey 选了前者：投资团队只有他和 Zach Werner 两个人，本来计划招分析师，结果靠智能体和他们搭建的工具发现根本不需要，至少目前不需要。他点破了行业现状：很多机构是初级员工在用 AI，但资深员工还是在和初级员工一起工作——只有从零搭建，才能真正 all in 这套玩法，也才能跑出别人跑不出的速度。\n\n投资策略上有两条原则。第一，AI 让幂律（极少数赢家拿走绝大部分回报的分布）比以往更重要，他预测会出现用这些工具打造出来的万亿美元医疗健康公司。第二，有了 AI 和智能体，做到 1000 万美元年化收入已经很快，但那不代表能长成真正的大公司——过去的「逃逸速度」信号失效了。所以他只做两件事：要么稍晚进入、找年化收入约 3000 万美元、能看清通往巨大事物路径的项目（他强调轮次字母没那么重要，他投 Function 的 A 轮时公司其实已成立一段时间）；要么做孵化，且只和认识很久的人一起——当前在做的孵化项目，对方是他认识快 20 年的创始人。\n\n组合极度集中：每年大概只投五个。他给 LP 的玩笑版本是：通常加一个项目像加一个 Facebook 好友，对我和 Zach 来说像再要一个孩子——门槛极高、长期承诺、要投入大量时间。工具上会用 SPV（为单笔交易设立的独立投资载体），好处是能给 LP 和具体交易做匹配——孵化项目和中后期项目适合完全不同类型的 LP，这种「创始人与 LP 的契合」只有 SPV 能做到。这个模式下他们也不用抢热门轮次，是别人为他们腾出位置。他致敬的样本是 Valor 的 Antonio Brausos（因 SpaceX 交易出名，但这套打法已做了 20 年）和 Thrive 的集中组合。\n\n## 什么被过度炒作\n\n对「AI 将治愈一切」的说法，Pandey 的保留态度不针对算法——对算法的信心是有根据的——而针对数据：LLM 之所以有效，是因为有海量数据可学；当数据根本不存在时，AI 无法神奇地解决这个问题。很多喊口号的人恰恰对生物数据的稀缺缺乏认识。（他也提到一些更严肃的反方探索，比如从其他生物的演化数据和序列、看待疾病的新方式入手。）\n\n至于和创始人的合作底线：诚信，说到做到；他期望的是五年、十年以上的关系，理想情况延伸到对方的下一家公司，所以更想和「我们如何一起赢」而不是只想击败别人的人合作。\n\n## 本集带走\n\n- **生物学的转折点是 AI 能「理解」复杂系统**：动物模型对人预测性差是药物高失败率的根源，整合人类数据的 AI 模型一旦跨过这道坎，整个成本结构都会变。\n- **AI 临床试验不需要奇迹**：失败率从 80% 降到 70% 就意味着多 50% 的药、摊销成本降 50%——小提升就是大生意。\n- **生物数据抓不来，所以有三条共享路**：基金会（如 Chan Zuckerberg）、学术界转化、以及他押注的生物学开源基础模型。\n- **医疗的真正变革是激励对齐**：从「你生病我才赚钱」到「你健康我才赚钱」，Function Health 是直接面向消费者的样本。\n- **go-to-market 至少和技术一样难**：再酷的技术最终要回到好市场，这是他多年投资最想早点知道的一课。\n- **AI 原生 VC 可以是两个人的公司**：智能体替代了分析师岗位；但代价是极度集中——每年约五笔投资，每笔都当「再要一个孩子」来对待。\n- **1000 万美元年化收入不再是护城河**：AI 时代这个数字来得太快，他改看 3000 万美元量级或只做熟人孵化。\n- **对「AI 治愈一切」保持警惕**：瓶颈不在算法在数据——数据不存在的地方，AI 无能为力。",
+  "quotes": [
+    {
+      "en": "Most notably, I built Folding at Home, the large scale supercomputer project, which basically allowed us to preview a lot of the issues that we now see in AI, especially the bitter lesson that compute is such a big deal.",
+      "zh": "最值得一提的是，我创建了 Folding at Home 这个大规模超级计算机项目，它基本上让我们预览到了如今在 AI 中看到的许多问题，尤其是「苦涩的教训」——算力如此重要这一点。",
+      "timestamp": "04:11",
+      "speaker": "Vijay Pande"
+    },
+    {
+      "en": "And the end reason why drugs are very expensive is that the probability of a drug going from the first trial to the end of the third, the probability of a success is just 20%.",
+      "zh": "药物非常昂贵的根本原因在于，一种药从一期试验走到三期结束，成功的概率只有 20%。",
+      "timestamp": "07:45",
+      "speaker": "Vijay Pande"
+    },
+    {
+      "en": "In the end, these animal models are just not very predictive of humans.",
+      "zh": "归根结底，这些动物模型对人类的预测性并不强。",
+      "timestamp": "08:18",
+      "speaker": "Vijay Pande"
+    },
+    {
+      "en": "This AI model is not going to be perfect, but that is going to be way better than any animal model would be.",
+      "zh": "这个 AI 模型不会是完美的，但它会比任何动物模型都好得多。",
+      "timestamp": "08:35",
+      "speaker": "Vijay Pande"
+    },
+    {
+      "en": "What is really intriguing about AI is that it can, in principle, will be a specialist in everything.",
+      "zh": "关于 AI 真正令人着迷的是，它在原则上将成为所有事情上的专家。",
+      "timestamp": "14:25",
+      "speaker": "Vijay Pande"
+    },
+    {
+      "en": "And much like you could imagine, or we do have these open source LLMs that do very well against corporate LLMs, I think there'll be these open source foundation models in biology that will have very, very broad impact.",
+      "zh": "就像我们确实有这些表现很好、能对抗企业 LLM 的开源 LLM，我认为在生物学领域也会有这些开源基础模型，它们将产生非常、非常广泛的影响。",
+      "timestamp": "17:36",
+      "speaker": "Vijay Pande"
+    },
+    {
+      "en": "I think if I were to pick the one thing that I've really tried to think about that I wish I knew in the beginning, and I think it took me some time to really appreciate is that as seductive as the coolest technologies are, it really always comes back down to the good market.",
+      "zh": "如果要我挑出一件我真正努力思考过、希望一开始就知道的事情——花了我一些时间才真正领会——那就是，无论最酷的技术多么诱人，归根结底总是要回到好的市场。",
+      "timestamp": "19:22",
+      "speaker": "Vijay Pande"
+    },
+    {
+      "en": "And that the go-to-market part is at least as hard or harder than the technology side.",
+      "zh": "而进入市场这部分，至少和技术那部分一样难，或者更难。",
+      "timestamp": "19:46",
+      "speaker": "Vijay Pande"
+    },
+    {
+      "en": "And I think one of the biggest shifts in healthcare that was just starting is the shift from what is in the industry called sick care, where companies make money off of you when you're sick, to prevention, where you make money when they keep you healthy.",
+      "zh": "我认为医疗保健领域刚开始发生的最大转变之一，就是从行业内所说的病患护理（公司在你生病时从你身上赚钱）转向预防（当他们让你保持健康时才赚钱）。",
+      "timestamp": "21:19",
+      "speaker": "Vijay Pande"
+    },
+    {
+      "en": "I think for a lot of people, the junior people are using AI, but the senior people are working with the junior people.",
+      "zh": "我认为对很多人来说，初级员工在使用 AI，但资深员工是在和初级员工一起工作。",
+      "timestamp": "24:38",
+      "speaker": "Vijay Pande"
+    },
+    {
+      "en": "Ideally, these are people who are not just trying to win and beat other people, but really thinking about the question, how do we win together?",
+      "zh": "理想情况下，这些人不是只想赢、只想击败别人，而是真正在思考一个问题：我们如何一起赢？",
+      "timestamp": "32:25",
+      "speaker": "Vijay Pande"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "timestamp": "04:11",
+      "speaker": "Vijay Pandey",
+      "en": "Most notably, I built Folding at Home, the large scale supercomputer project, which basically allowed us to preview a lot of the issues that we now see in AI, especially the bitter lesson that compute is such a big deal.",
+      "zh": "最值得一提的是，我创建了 Folding at Home 这个大规模超级计算机项目，它基本上让我们预览到了如今在 AI 中看到的许多问题，尤其是「苦涩的教训」——算力如此重要这一点。"
+    },
+    {
+      "timestamp": "07:45",
+      "speaker": "Vijay Pandey",
+      "en": "And the end reason why drugs are very expensive is that the probability of a drug going from the first trial to the end of the third, the probability of a success is just 20%.",
+      "zh": "药物非常昂贵的根本原因在于，一种药从一期试验走到三期结束，成功的概率只有 20%。"
+    },
+    {
+      "timestamp": "08:18",
+      "speaker": "Vijay Pandey",
+      "en": "In the end, these animal models are just not very predictive of humans.",
+      "zh": "归根结底，这些动物模型对人类的预测性并不强。"
+    },
+    {
+      "timestamp": "08:35",
+      "speaker": "Vijay Pandey",
+      "en": "This AI model is not going to be perfect, but that is going to be way better than any animal model would be.",
+      "zh": "这个 AI 模型不会是完美的，但它会比任何动物模型都好得多。"
+    },
+    {
+      "timestamp": "13:18",
+      "speaker": "Vijay Pandey",
+      "en": "And your data can't be distilled from one model to another. It's a really interesting play from just the pure AI sense.",
+      "zh": "而且你的数据无法从一个模型被蒸馏到另一个模型。从纯粹的 AI 角度来看，这是一个非常有意思的打法。"
+    },
+    {
+      "timestamp": "14:25",
+      "speaker": "Vijay Pandey",
+      "en": "What is really intriguing about AI is that it can, in principle, will be a specialist in everything.",
+      "zh": "关于 AI 真正令人着迷的是，它在原则上将成为所有事情上的专家。"
+    },
+    {
+      "timestamp": "17:36",
+      "speaker": "Vijay Pandey",
+      "en": "And much like you could imagine, or we do have these open source LLMs that do very well against corporate LLMs, I think there'll be these open source foundation models in biology that will have very, very broad impact.",
+      "zh": "就像我们确实有这些表现很好、能对抗企业 LLM 的开源 LLM，我认为在生物学领域也会有这些开源基础模型，它们将产生非常、非常广泛的影响。"
+    },
+    {
+      "timestamp": "19:22",
+      "speaker": "Vijay Pandey",
+      "en": "So I think if I were to pick the one thing that I've really tried to think about that I wish I knew in the beginning, and I think it took me some time to really appreciate is that as seductive as the coolest technologies are, it really always comes back down to the good market.",
+      "zh": "如果要我挑出一件我真正努力思考过、希望一开始就知道的事情——花了我一些时间才真正领会——那就是，无论最酷的技术多么诱人，归根结底总是要回到好的市场。"
+    },
+    {
+      "timestamp": "19:46",
+      "speaker": "Vijay Pandey",
+      "en": "And that the go-to-market part is at least as hard or harder than the technology side.",
+      "zh": "而进入市场这部分，至少和技术那部分一样难，或者更难。"
+    },
+    {
+      "timestamp": "21:19",
+      "speaker": "Vijay Pandey",
+      "en": "And I think one of the biggest shifts in healthcare that was just starting is the shift from what is in the industry called sick care, where companies make money off of you when you're sick, to prevention, where you make money when they keep you healthy.",
+      "zh": "我认为医疗保健领域刚开始发生的最大转变之一，就是从行业内所说的病患护理（公司在你生病时从你身上赚钱）转向预防（当他们让你保持健康时才赚钱）。"
+    },
+    {
+      "timestamp": "24:38",
+      "speaker": "Vijay Pandey",
+      "en": "I think for a lot of people, the junior people are using AI, but the senior people are working with the junior people.",
+      "zh": "我认为对很多人来说，初级员工在使用 AI，但资深员工是在和初级员工一起工作。"
+    },
+    {
+      "timestamp": "26:15",
+      "speaker": "Vijay Pandey",
+      "en": "And because this is so tough, you don't need to be a panacea.",
+      "zh": "而且因为这件事如此艰难，你不需要成为万灵药。"
+    },
+    {
+      "timestamp": "27:13",
+      "speaker": "Vijay Pandey",
+      "en": "One is that AI really makes the power law more important than ever.",
+      "zh": "第一是，AI 确实让幂律变得比以往任何时候都更重要。"
+    },
+    {
+      "timestamp": "27:25",
+      "speaker": "Vijay Pandey",
+      "en": "Then number two is that with AI, though, it doesn't take too much to get to, let's say, 10 million run rate.",
+      "zh": "第二点是，不过有了 AI，要达到比如说 1000 万美元的年化收入，并不需要太多。"
+    },
+    {
+      "timestamp": "31:36",
+      "speaker": "Vijay Pandey",
+      "en": "And when the data is just simply not there, then AI can't magically solve that problem.",
+      "zh": "而当数据根本就不存在时，AI 就无法神奇地解决这个问题。"
+    },
+    {
+      "timestamp": "32:25",
+      "speaker": "Vijay Pandey",
+      "en": "Ideally, these are people who are not just trying to win and beat other people, but really thinking about the question, how do we win together?",
+      "zh": "理想情况下，这些人不是只想赢、只想击败别人，而是真正在思考一个问题：我们如何一起赢？"
+    },
+    {
+      "timestamp": "33:54",
+      "speaker": "Vijay Pandey",
+      "en": "But like for Zach and I, it's like going to like my wife and I wanting to have another child or something like that.",
+      "zh": "但对 Zach 和我来说，这就像我和我妻子想要再要一个孩子之类的。"
+    }
+  ],
+  "voice_script": "今天这期聊聊 AI 改写药物研发这件事，主角是 Vijay Pandey。这人的履历值得先交代一下：理论物理出身，MIT 博士，1999 年起就在斯坦福建实验室。2014 年，是他说服了 Andreessen Horowitz 去押注一个当时明确被排除在外的领域——医疗健康，最后做到近 40 亿美元的规模。一年多前离开，跟资深投资人 Zach Werner 联合创办了一家新基金，叫 VZVC。所以这期其实有两层：一层是 AI 到底能把生物医药改变到什么程度，另一层更狠，是直接用行动回答——一家刻意做小、每年只投大概五个项目的 AI 原生基金。\n\n先说第一层。Pandey 的核心判断是：生物学正在从一门发现科学，变成一门可以工程化的东西。过去很多生物学家觉得，生物学复杂到人类不可能理解，这话在很多方面可能是真的。但 AI 和机器学习厉害就厉害在，计算机能对极复杂的事物形成一种\"它们那种类型的理解\"，这是以前做不到的。\n\n落到药物研发链条上，AI 已经能帮忙找靶点——就是药物该命中疾病的哪个目标——也能设计药物分子，甚至开始切入最贵的一环，临床试验。这里得算笔账。药物为什么贵？一种药从一期试验走到三期结束，成功的概率只有 20%，十个里八个失败。一项试验动辄花掉数亿美元，失败率一摊，药价就上去了。而且失败的原因，通常不是生物学家做错了什么，是药物依据的实验都建立在小鼠这类动物模型上——归根结底，这些动物模型对人类的预测性并不强。AI 真正的机会就在这儿：在人身上直接做实验不道德，但把人类数据整合进一个 AI 模型，恰恰是 AI 非常擅长的事。用 Pandey 自己的话说，这个模型不会是完美的，但它会比任何动物模型都好得多。一旦跨过那道门槛，事情就真正令人兴奋了。\n\n而且临床试验的数学还有个妙处：不需要 AI 创造奇迹。假如失败率只从 80% 降到 70%，听着是个温和的提升，可成功率就从 20% 变成了 30%，等于多出 50% 的药，摊销成本直降一半。所以这条赛道上的公司不用是万灵药，指针挪动一点，就是巨大的胜利。Pandey 说自己在市场上见过几十家做 AI 临床试验的公司，很多都声称能以相当高的准确度预测一种药是否有效——几年前这还是幻想。\n\n那这个方向最大的难题是什么呢？数据。你没法像抓取文本那样，从互联网上抓取生物学数据。每家公司都得自己生成数据，结果每个模型都困在自己的数据孤岛上。共享确实在发生，路径有三条：一是像 Chan Zuckerberg 这类有科技心态的私人基金会和研究所，数据广泛共享；二是学术界，想法先在学校里构建，确认可转化就去开公司——这基本就是斯坦福的历史；第三条是 Pandey 最看好的大趋势：为生物学信息构建图谱，技术形态通常是基础模型，就是在海量数据上预训练、能适配多种任务的大模型。就像今天开源 LLM 已经能对抗企业 LLM，相信生物学领域也会出现开源基础模型，而且会产生非常、非常广泛的影响。最看好的两个案例都出自身边：机器学习元老 Daphne Kohler 创办的 Insitro，用机器人开辟了新的数据获取和分析方式；还有从斯坦福实验室孵化出来的 Genesis Therapeutics，把机器学习、物理模拟和实验结合，正在攻克最难成药的蛋白质——十年前要是有人说这在今天是可能的，大家都会互相击掌。\n\n顺着往下说，就引出 Pandey 多年投资最大的一条反思：再酷的技术，归根结底要回到好的市场，进入市场那一侧至少和技术一样难，甚至更难。最推崇的样本是 Function Health——直接面向消费者的会员制，每六个月做一大套血液检测。这套检测走医疗体系要约 5000 美元，Function 最初只收 500，现在约 365，一天一美元。A 轮之后连续收购 MRI 和 CT 成像公司 Ezra、补充剂、抽血服务，在搭一个以消费者为中心的预防性医疗系统。背后的逻辑是激励问题：现在的医疗体系里，客户往往是保险公司而不是病人，行业赚的是\"病患护理\"的钱——你生病它才赚钱。而当公司靠让你保持健康来赚钱时，财务激励才终于和你我想要的一致。AI 在这儿是天然伴侣，哪怕只是让人自己拿到数据、在诊室里像个平等对话者，也是巨大的进步。\n\n最后说那家基金本身。Marc Andreessen 曾半开玩笑地说，能成功的 VC 只有两种——Gucci 和 Walmart：要么极小，要么极大。Pandey 选了前者：投资团队就两个人，本来计划招分析师，结果靠智能体和自建的工具发现根本不需要。很多机构是初级员工在用 AI，资深员工还是老一套——只有从零搭建，才能 all in 这套玩法。策略上只做两件事：要么稍晚进入，找年化收入约 3000 万美元、能看清通往巨大事物路径的项目——因为 AI 时代 1000 万美元年化来得太快，已经不代表什么了；要么做孵化，且只和认识很久的人一起。每年大概只投五个。给 LP 的玩笑版本是：通常加一个项目像加一个 Facebook 好友，对我们来说，像再要一个孩子。\n\n至于那些\"AI 将治愈一切\"的口号，Pandey 的保留态度不针对算法，针对数据：LLM 之所以有效，是因为有海量数据可学；数据根本不存在的地方，AI 无法神奇地解决问题。所以这一集带走一句话就好——AI 改写生物医药的瓶颈不在算法，在数据；而数据这道坎一旦跨过去，整个行业的成本结构都会变。"
+}

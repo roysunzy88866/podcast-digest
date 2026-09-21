@@ -1,0 +1,512 @@
+{
+  "episode_id": "2026-08-26-strictlyvc-the-anti-a16z-vijay-pande-s-bet-on-a-tin",
+  "podcast": "StrictlyVC Download",
+  "date": "2026-08-26",
+  "tags": [
+    "AI 生物科技",
+    "风险投资",
+    "药物研发",
+    "智能体",
+    "医疗健康"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "vijay-pande",
+      "type": "person",
+      "role": "host",
+      "name": "Vijay Pande",
+      "file": "Vijay Pande",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "vzvc",
+      "type": "company",
+      "role": "company",
+      "name": "VZVC",
+      "file": "VZVC",
+      "primary": true,
+      "how_described": "本集嘉宾与 Zach Werner 联合创办的新基金，刻意做小、AI 原生，投资团队只有两个人，靠智能体替代了分析师岗位，每年只投约五个项目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            54.647,
+            60.068
+          ],
+          "quote": "His new firm, VZVC, co-founded with longtime investor Zach Werner.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "function-health",
+      "type": "company",
+      "role": "company",
+      "name": "Function Health",
+      "file": "Function Health",
+      "primary": true,
+      "how_described": "本集最推崇的进入市场样本：直接面向消费者的会员制，每六个月做一大套血液检测（约 365 美元/年），此后连续收购 Ezra 等公司，搭建以消费者为中心的预防性医疗系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 235,
+          "t": [
+            1196.718,
+            1203.942
+          ],
+          "quote": "So I think about function health as being a great example where this direct-to-consumer, which is, by the way, a lot of people would say direct-to-consumer health would never work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1222.539,
+            1227.742
+          ],
+          "quote": "I don't know anything about Function Health, so can you talk a little bit about the product and what is so special about its go-to-market?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1227.862,
+            1232.245
+          ],
+          "quote": "Yeah, so I think the goal for Function Health is to give you agency over your health.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1997.22,
+            2004.083
+          ],
+          "quote": "And then, Vijay, you mentioned Function Health, you mentioned Genesis, so you've got, like, three more bets you're going to make, or...?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "insitro",
+      "type": "company",
+      "role": "company",
+      "name": "Insitro",
+      "file": "Insitro",
+      "primary": true,
+      "how_described": "本集说它是 Daphne Kohler 创办的公司，用机器人开辟了新的数据获取和分析方式，如今新进展接连不断，是生物领域数据共享的案例之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            911.812,
+            915.015
+          ],
+          "quote": "So I've invested in and was on the board of Insitro for many years.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "genesis-therapeutics",
+      "type": "company",
+      "role": "company",
+      "name": "Genesis Therapeutics",
+      "file": "Genesis Therapeutics",
+      "primary": true,
+      "how_described": "本集说它是从嘉宾斯坦福实验室孵化出的公司，CEO Evan Feinberg 把机器学习、物理模拟和实验结合，正在攻克最难成药的蛋白质。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            944.039,
+            948.022
+          ],
+          "quote": "I think on the chemistry side is a company I know very well, Genesis Therapeutics, where",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            979.609,
+            982.793
+          ],
+          "quote": "So that's great for Genesis Therapeutics, and it's great for NCITRA.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "devoted-health",
+      "type": "company",
+      "role": "company",
+      "name": "Devoted Health",
+      "file": "Devoted Health",
+      "primary": true,
+      "how_described": "本集说它是一家 Medicare Advantage 公司、面向老年人，是激励与病人对齐（靠让你保持健康赚钱）的另一个好例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            1311.86,
+            1316.922
+          ],
+          "quote": "And so Function is a good example that Devoted Health is another really good example of where these incentives have been aligned.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2011.267,
+            2016.61
+          ],
+          "quote": "So, you know, we have made investment in devoted health and looking to do two more investments right now.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说嘉宾本来打算招分析师，结果靠智能体和他们搭建的工具发现不需要；并指出很多人只是初级员工用 AI，而资深员工还在和初级员工一起工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 293,
+          "t": [
+            1463.047,
+            1472.311
+          ],
+          "quote": "We were actually intending on hiring associates, but actually it turned out to be with the agents and the things that we've built up, not to be something that we need to do, at least at the moment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1656.648,
+            1664.175
+          ],
+          "quote": "But with AI and agents, you can build that pretty fast, but that doesn't mean that it's something that could scale into something really big.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "clinical-trials",
+      "type": "concept",
+      "role": "concept",
+      "name": "临床试验 (clinical trials)",
+      "file": "临床试验",
+      "primary": true,
+      "how_described": "本集说临床试验是药物研发中最贵的环节（动辄数亿美元），一期到三期成功率只有 20%；AI 只需把失败率从 80% 降到 70%，就等于多出 50% 的药、摊销成本直降 50%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            422.008,
+            434.88
+          ],
+          "quote": "Either to understand biology, which is to try to figure out what targets you want your drugs to hit for specific diseases, to be able to make those drugs, and now even to help in the clinical trials, which are the most expensive part of the process.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            442.233,
+            450.178
+          ],
+          "quote": "And when you talk about the clinical trials, you mean because so much of it can be done synthetically right now, so not as many people need to be roped into the process?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            452.66,
+            457.203
+          ],
+          "quote": "I think the big thing right now is that the biggest cost for drugs is the cost of clinical trials.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 87,
+          "t": [
+            457.663,
+            464.91
+          ],
+          "quote": "The cost and time to get to clinical trials has been shrinking, and especially with AI, but it could still cost like hundreds of millions of dollars to run a trial.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            668.992,
+            674.754
+          ],
+          "quote": "AI for clinical trials is the part that's much more new, and I think we're starting to see companies go after that right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1515.949,
+            1522.734
+          ],
+          "quote": "One is AI for healthcare delivery, which, you know, I did a ton at A16D as well, and then AI for clinical trials.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1552.003,
+            1553.385
+          ],
+          "quote": "AI for clinical trials.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "foundation-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "基础模型 (foundation models)",
+      "file": "基础模型",
+      "primary": true,
+      "how_described": "本集说为生物学信息构建「图谱」的技术形态通常是基础模型，嘉宾相信生物领域也会出现像开源 LLM 那样影响极其广泛的开源基础模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            1040.019,
+            1051.527
+          ],
+          "quote": "I think one of the things that is maybe the bigger, bigger trend that I think we're starting to see a shift of is like to build these atlases for information of biology, which from the technology point of view, typically are foundation models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1056.23,
+            1067.798
+          ],
+          "quote": "And much like you could imagine, or we do have these open source LLMs that do very well against corporate LLMs, I think there'll be these open source foundation models in biology that will have very, very broad impact.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-source-llms",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源大语言模型 (open source LLMs)",
+      "file": "开源大语言模型",
+      "primary": false,
+      "how_described": "本集用作类比：开源 LLM 已经能对抗企业 LLM，以此论证生物学也会出现开源基础模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            1056.23,
+            1067.798
+          ],
+          "quote": "And much like you could imagine, or we do have these open source LLMs that do very well against corporate LLMs, I think there'll be these open source foundation models in biology that will have very, very broad impact.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "precision-medicine",
+      "type": "concept",
+      "role": "concept",
+      "name": "精准医疗 (precision medicine)",
+      "file": "精准医疗",
+      "primary": true,
+      "how_described": "本集说精准医疗过去长期基于基因组学，如今靠蛋白质组学、机器人测量与 AI 结合，目标是理解什么药物对个体才是对的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            550.37,
+            553.953
+          ],
+          "quote": "Yeah, I think the jargon here is so-called precision medicine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            602.802,
+            607.127
+          ],
+          "quote": "We've been hearing about AI drug discovery and precision medicine for so many years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            620.778,
+            624.519
+          ],
+          "quote": "So for instance, precision medicine for the longest time was based on genomics.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "go-to-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "进入市场 (go-to-market)",
+      "file": "进入市场",
+      "primary": true,
+      "how_described": "本集说这是嘉宾多年投资最想早点知道的一课：无论技术多酷，归根结底要回到好的市场，进入市场那侧至少和技术一样难，甚至更难。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 232,
+          "t": [
+            1186.372,
+            1190.394
+          ],
+          "quote": "And that the go-to-market part is at least as hard or harder than the technology side.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1194.257,
+            1196.678
+          ],
+          "quote": "The ones where the go-to-market actually is really clever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1206.304,
+            1214.748
+          ],
+          "quote": "I think Jonathan Squirtland there, the CEO and co-founder, he really thinks about go-to-market first and foremost, and then picks the technologies to do what he needs to do to get that done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1222.539,
+            1227.742
+          ],
+          "quote": "I don't know anything about Function Health, so can you talk a little bit about the product and what is so special about its go-to-market?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "power-law",
+      "type": "concept",
+      "role": "concept",
+      "name": "幂律 (power law)",
+      "file": "幂律",
+      "primary": true,
+      "how_described": "本集说 AI 让幂律比以往更重要，嘉宾预测会出现用这些工具打造出来的万亿美元医疗健康公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 334,
+          "t": [
+            1633.149,
+            1637.072
+          ],
+          "quote": "One is that AI really makes the power law more important than ever.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "run-rate",
+      "type": "concept",
+      "role": "concept",
+      "name": "年化收入 (run rate)",
+      "file": "年化收入",
+      "primary": false,
+      "how_described": "本集说过去 1000 万美元年化收入像「逃逸速度」，但有了 AI 和智能体很快就能做到，因此改看 3000 万美元量级的项目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 337,
+          "t": [
+            1645.96,
+            1651.304
+          ],
+          "quote": "Then number two is that with AI, though, it doesn't take too much to get to, let's say, 10 million run rate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1651.544,
+            1656.128
+          ],
+          "quote": "It used to be 10 million run rate was kind of like escape velocity, like, okay, they're going to become a serious company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1664.735,
+            1678.041
+          ],
+          "quote": "And so because of that, I think Zach and I have been taking a strategy of either coming in a little later, which would be sort of what some people might call growth, but like maybe or late venture and looking for things where there's, let's say, 30 million run rate.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "animal-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "动物模型 (animal models)",
+      "file": "动物模型",
+      "primary": true,
+      "how_described": "本集说药物高失败率的根源在于实验都建立在小鼠等动物模型上，而动物模型对人的预测性本来就不强；把人类数据整合进 AI 模型一旦跨过这道坎才是真正令人兴奋的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            491.347,
+            497.909
+          ],
+          "quote": "It's that all the experiments that these drugs were designed on were on animal models like mice and other animals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 93,
+          "t": [
+            498.349,
+            501.349
+          ],
+          "quote": "In the end, these animal models are just not very predictive of humans.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

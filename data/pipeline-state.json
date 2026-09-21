@@ -128,7 +128,8 @@
     "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7419234216.mp3",
     "2026-09-17-pragmatic-ai-skills-with-matt-pocock": "https://api.substack.com/feed/podcast/215854309/58f711af76405b52f81c0c380a5deed7.mp3",
     "2026-09-18-twist-hugging-face-co-founder-on-open-source-m": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9908320817.mp3",
-    "2026-08-20-twist-taste-is-the-new-programming-language-w": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT8990784785.mp3"
+    "2026-08-20-twist-taste-is-the-new-programming-language-w": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT8990784785.mp3",
+    "2026-09-02-twist-vc-experts-on-why-physical-ai-funding-is": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7305736664.mp3"
   },
   "transient": {
     "2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds": 1,
@@ -139,7 +140,8 @@
     "2026-09-21-pmf-revenue-fell-from-25m-to-8m-so-he-raised": 1,
     "2026-09-21-sourcery-eclipses-lior-susan-on-12-5b-aum-and-the": 1,
     "2026-08-20-twist-taste-is-the-new-programming-language-w": 1,
-    "2026-07-29-sourcery-the-stock-that-went-up-1000--lumentum-ce": 1
+    "2026-07-29-sourcery-the-stock-that-went-up-1000--lumentum-ce": 1,
+    "2026-09-02-twist-vc-experts-on-why-physical-ai-funding-is": 1
   },
   "cutoffs": {
     "lennys": "2026-09-20T12:32:17.000Z",
@@ -168,7 +170,7 @@
     "howiai": "2026-09-14T11:00:00.000Z",
     "unsupervised": "2026-08-03T12:55:21.000Z",
     "twiml": "2026-09-17T04:52:00.000Z",
-    "eyeonai": "2026-09-14T14:16:00.000Z",
+    "eyeonai": "2026-09-21T17:57:00.000Z",
     "indepth": "2026-08-27T11:00:00.000Z",
     "uncapped": "2026-09-15T09:00:00.000Z",
     "pmf": "2026-09-14T09:00:00.000Z",
@@ -182,7 +184,7 @@
     "generalist": "2026-09-08T11:00:00.000Z",
     "sed": "2026-09-17T06:00:00.000Z",
     "twist": "2026-09-18T22:16:00.000Z",
-    "grit": "2026-09-07T09:38:47.000Z",
+    "grit": "2026-09-21T09:00:03.000Z",
     "mos": "2026-09-17T09:00:00.000Z",
     "strictlyvc": "2026-09-15T15:17:00.000Z"
   },
@@ -1356,6 +1358,66 @@
       "reason": "题材不对味:拿不准:传统创业法律科普(董事会/VC 权益),与 AI 商业/产品/创始人故事的收录面无交集",
       "title": "You Can't Fire a VC From Your Board: Here's Why | Wilson Sonsini Startup Legal Basics",
       "pubDate": "2026-08-25T22:51:00.000Z"
+    },
+    {
+      "id": "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with",
+      "reason": "跨源重复:与库内《How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)》同题,不重做(先到者留;误杀可删账本条目重放)",
+      "title": "How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)",
+      "pubDate": "2026-09-21T12:04:11.000Z"
+    },
+    {
+      "id": "2026-09-21-eyeonai-inside-ukraine-s-drone-war-maj-phoenix-o",
+      "reason": "题材不对味:拿不准:乌克兰无人机战争访谈偏军事/地缘题材,与档案要的 AI 商业·人·实操面不明确契合,按少发原则跳过",
+      "title": "Inside Ukraine's Drone War: Maj. \"Phoenix\" of Lasar's Group",
+      "pubDate": "2026-09-21T17:57:00.000Z"
+    },
+    {
+      "id": "2026-09-21-twist-elon-s-new-hyperloop-trump-s-ai-rename-a",
+      "reason": "题材不对味:聚合/多主题本周要闻速览体裁(且含模型时事),不合单主题深挖口径",
+      "title": "Elon's New Hyperloop, Trump's AI Rename, and a Model That Won't Talk | E2340",
+      "pubDate": "2026-09-21T21:31:00.000Z"
+    },
+    {
+      "id": "2026-09-01-sed-the-death-of-online-anonymity",
+      "reason": "题材不对味:题材是网络匿名/政策社会议题,属思辨非 AI 商业+实操面,不在收录范围",
+      "title": "The Death of Online Anonymity",
+      "pubDate": "2026-09-01T09:00:00.000Z"
+    },
+    {
+      "id": "2026-09-01-iltb-sarah-guo-funding-the-frontier-invest-li",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Sarah Guo - Funding the Frontier - [Invest Like the Best, EP.489]",
+      "pubDate": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "2026-08-31-twist-are-ai-agents-forming-civilizations-or-i",
+      "reason": "题材不对味:拿不准:标题偏 AI 哲学思辨/炒作话题,未见创始人故事或产业格局的明确落点",
+      "title": "Are AI Agents forming \"civilizations\" or is this just a psy op? | 2332",
+      "pubDate": "2026-08-31T20:09:00.000Z"
+    },
+    {
+      "id": "2026-08-31-sourcery-inside-bridgit-mendlers-new-185-000-sqft",
+      "reason": "题材不对味:非 AI 领域的创业/公司故事(卫星地面站工厂),与档案要的 AI 商业/产业/实操题材不符",
+      "title": "Inside Bridgit Mendler’s New 185,000 sqft Northwood Space Factory",
+      "pubDate": "2026-08-31T10:00:01.000Z"
+    },
+    {
+      "id": "2026-08-29-mos-pioneers-of-ai-designing-ai-for-people-a",
+      "reason": "题材不对味:拿不准:「为人与地球设计AI」偏伦理思辨/哲学面,非商业+实操+创始人公司故事,倾向跳过",
+      "title": "Pioneers of AI: Designing AI for people and the planet, with Aza Raskin",
+      "pubDate": "2026-08-29T09:00:00.000Z"
+    },
+    {
+      "id": "2026-08-27-sed-typescript-7-and-what-comes-next",
+      "reason": "题材不对味:TypeScript 语言演进属传统软件工程话题,与 AI 无关,且非档案收录范围",
+      "title": "TypeScript 7 and What Comes Next",
+      "pubDate": "2026-08-27T09:00:00.000Z"
+    },
+    {
+      "id": "2026-08-27-mos-chicago-fed-president-on-inflation-reces",
+      "reason": "题材不对味:宏观美联储/政治话题,不在 AI 商业人物与公司故事收录范围内",
+      "title": "Chicago Fed President on inflation, recession, and Trump’s attacks",
+      "pubDate": "2026-08-27T09:00:00.000Z"
     }
   ]
 }

@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Max Junestrand]] · [[Hiral Shah]] · [[Legora]] · [[Sean Sodha]] · [[微调]] · [[DocuSign]] · [[评估]] · [[NVIDIA]] · [[GPT 3.5]]
 
-<script type="application/json" class="pd-epn">{"智能体":283,"Max Junestrand":1,"Hiral Shah":1,"Legora":2,"Sean Sodha":1,"微调":18,"DocuSign":1,"评估":2,"NVIDIA":40,"GPT 3.5":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":285,"Max Junestrand":1,"Hiral Shah":1,"Legora":2,"Sean Sodha":1,"微调":18,"DocuSign":1,"评估":2,"NVIDIA":40,"GPT 3.5":1}</script>
 
 <script>
 (function(){

@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]] [[Brad Gerstner]]
+[[Jesse Jang]] [[Daniel Dines]] [[Josh Elman]] [[Oli Forsyth]] [[Thomas Sohmers]] [[Diana]] [[Jared]] [[Andrew Barba]] [[Shar Dara]] [[Rob Goldberg]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"算力":5,"记忆":13,"数据中心":14,"token 流":1,"协同设计":2,"智能体":283,"机器人":7,"推理":51,"Broadcom":3,"Palantir":17}</script>
+<script type="application/json" class="pd-epn">{"算力":5,"记忆":13,"数据中心":14,"token 流":1,"协同设计":2,"智能体":285,"机器人":7,"推理":51,"Broadcom":3,"Palantir":18}</script>
 
 <script>
 (function(){
